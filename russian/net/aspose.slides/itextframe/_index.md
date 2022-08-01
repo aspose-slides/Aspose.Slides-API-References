@@ -18,19 +18,19 @@ public interface ITextFrame : ISlideComponent
 
 | Имя | Описание |
 | --- | --- |
-| [AsISlideComponent](../../aspose.slides/itextframe/asislidecomponent) { get; } | Позволяет получить базовый интерфейс ISlideComponent. Только для чтения[`ISlideComponent`](../islidecomponent). |
-| [HyperlinkQueries](../../aspose.slides/itextframe/hyperlinkqueries) { get; } | Обеспечивает легкий доступ к содержащимся гиперссылкам. Только для чтения[`IHyperlinkQueries`](../ihyperlinkqueries). |
-| [Paragraphs](../../aspose.slides/itextframe/paragraphs) { get; } | Возвращает список всех абзацев в кадре. Только для чтения[`IParagraphCollection`](../iparagraphcollection). |
-| [Text](../../aspose.slides/itextframe/text) { get; set; } | Получает или задает обычный текст для TextFrame. Чтение/записьString. |
-| [TextFrameFormat](../../aspose.slides/itextframe/textframeformat) { get; } | Возвращает объект форматирования для этого объекта TextFrame. Только для чтения[`ITextFrameFormat`](../itextframeformat). |
+| [AsISlideComponent](../../aspose.slides/itextframe/asislidecomponent) { get; } | Позволяет получить базовый интерфейс ISlideComponent. Только для чтения[`ISlideComponent`](../islidecomponent) . |
+| [HyperlinkQueries](../../aspose.slides/itextframe/hyperlinkqueries) { get; } | Обеспечивает легкий доступ к содержащимся гиперссылкам. Только для чтения[`IHyperlinkQueries`](../ihyperlinkqueries) . |
+| [Paragraphs](../../aspose.slides/itextframe/paragraphs) { get; } | Возвращает список всех абзацев в кадре. Только для чтения[`IParagraphCollection`](../iparagraphcollection) . |
+| [Text](../../aspose.slides/itextframe/text) { get; set; } | Получает или задает обычный текст для TextFrame. Чтение/записьString . |
+| [TextFrameFormat](../../aspose.slides/itextframe/textframeformat) { get; } | Возвращает объект форматирования для этого объекта TextFrame. Только для чтения[`ITextFrameFormat`](../itextframeformat) . |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [HighlightRegex](../../aspose.slides/itextframe/highlightregex)(string, Color, ITextHighlightingOptions) | Выделить все совпадения с регулярным выражением в текстовом фрейме указанным цветом. |
-| [HighlightText](../../aspose.slides/itextframe/highlighttext#highlighttext)(string, Color) | Выделить все совпадения образца в текстовом фрейме указанным цветом. |
-| [HighlightText](../../aspose.slides/itextframe/highlighttext#highlighttext_1)(string, Color, ITextHighlightingOptions) | Выделить все совпадения образца в текстовом фрейме указанным цветом. |
+| [HighlightRegex](../../aspose.slides/itextframe/highlightregex)(string, Color, ITextHighlightingOptions) | Выделить все совпадения регулярного выражения в тексте текстового фрейма, используя указанный цвет. |
+| [HighlightText](../../aspose.slides/itextframe/highlighttext#highlighttext)(string, Color) | Выделить все совпадения образца в текстовом фрейме, используя указанный цвет. |
+| [HighlightText](../../aspose.slides/itextframe/highlighttext#highlighttext_1)(string, Color, ITextHighlightingOptions) | Выделить все совпадения образца в текстовом фрейме, используя указанный цвет. |
 | [JoinPortionsWithSameFormatting](../../aspose.slides/itextframe/joinportionswithsameformatting)() | Соединения выполняются с одинаковым форматированием во всех абзацах. |
 
 ### Смотрите также

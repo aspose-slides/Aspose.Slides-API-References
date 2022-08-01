@@ -1,14 +1,14 @@
 ---
 title: Enclose
 second_title: Справочник по API Aspose.Slides для .NET
-description: Заключает математический элемент в круглые скобки
+description: Заключает математический элемент в скобки
 type: docs
 weight: 40
 url: /ru/net/aspose.slides.mathtext/imathelement/enclose/
 ---
 ## Enclose() {#enclose}
 
-Заключает математический элемент в круглые скобки
+Заключает математический элемент в скобки
 
 ```csharp
 public IMathDelimiter Enclose()
@@ -16,7 +16,7 @@ public IMathDelimiter Enclose()
 
 ### Возвращаемое значение
 
-Математический элемент типа[`IMathDelimiter`](../../imathdelimiter)который включает скобки
+Математический элемент типа[`IMathDelimiter`](../../imathdelimiter) который включает в себя скобки
 
 ### Примеры
 
@@ -39,7 +39,7 @@ IMathDelimiter delimiter = element.Enclose();
 
 ## Enclose(char, char) {#enclose_1}
 
-Заключает этот элемент в указанные символы, такие как круглые скобки или другие символы в качестве обрамления
+Заключает этот элемент в указанные символы, такие как круглые скобки или другие символы, такие как framing
 
 ```csharp
 public IMathDelimiter Enclose(char beginningCharacter, char endingCharacter)
@@ -52,7 +52,7 @@ public IMathDelimiter Enclose(char beginningCharacter, char endingCharacter)
 
 ### Возвращаемое значение
 
-Математический элемент типа[`IMathDelimiter`](../../imathdelimiter)который включает указанные символы в качестве обрамления
+Математический элемент типа[`IMathDelimiter`](../../imathdelimiter) который включает указанные символы в качестве обрамления
 
 ### Примеры
 

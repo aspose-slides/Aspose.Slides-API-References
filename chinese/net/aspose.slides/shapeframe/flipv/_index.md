@@ -1,14 +1,14 @@
 ---
 title: FlipV
 second_title: Aspose.Slides for .NET API 参考
-description: 确定帧是否垂直翻转 只读NullableBoolaspose.slides/nullablebool
+description: 确定帧是否垂直翻转 只读NullableBoolaspose.slides/nullablebool.
 type: docs
 weight: 50
 url: /zh/net/aspose.slides/shapeframe/flipv/
 ---
 ## ShapeFrame.FlipV property
 
-确定帧是否垂直翻转。 只读[`NullableBool`](../../nullablebool)。
+确定帧是否垂直翻转。 只读[`NullableBool`](../../nullablebool).
 
 ```csharp
 public NullableBool FlipV { get; }

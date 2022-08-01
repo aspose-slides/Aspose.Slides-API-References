@@ -1,14 +1,14 @@
 ---
 title: PptC
 second_title: Aspose.Slides for .NET API 参考
-description: 表示 ppt_c 属性
+description: 代表ppt_c属性
 type: docs
 weight: 510
 url: /zh/net/aspose.slides.animation/behaviorproperty/pptc/
 ---
 ## BehaviorProperty.PptC property
 
-表示 'ppt_c' 属性
+代表“ppt_c”属性
 
 ```csharp
 public static BehaviorProperty PptC { get; }

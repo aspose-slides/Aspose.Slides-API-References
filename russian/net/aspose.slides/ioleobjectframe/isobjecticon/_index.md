@@ -1,14 +1,14 @@
 ---
 title: IsObjectIcon
 second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет виден ли объект в виде значка. Чтение/записьBoolean.
+description: Определяет виден ли объект в виде значка. Чтение/записьBoolean .
 type: docs
 weight: 50
 url: /ru/net/aspose.slides/ioleobjectframe/isobjecticon/
 ---
 ## IOleObjectFrame.IsObjectIcon property
 
-Определяет, виден ли объект в виде значка. Чтение/записьBoolean.
+Определяет, виден ли объект в виде значка. Чтение/записьBoolean .
 
 ```csharp
 public bool IsObjectIcon { get; set; }

@@ -19,13 +19,13 @@ public interface IMathParagraph : IMathBlockCollection
 | Имя | Описание |
 | --- | --- |
 | [AsIMathBlockCollection](../../aspose.slides.mathtext/imathparagraph/asimathblockcollection) { get; } | Позволяет получить базовый интерфейс IMathBlockCollection [`IMathBlockCollection`](../imathblockcollection) |
-| [Justification](../../aspose.slides.mathtext/imathparagraph/justification) { get; set; } | Обоснование абзаца Значение по умолчанию:CenteredAsGroup |
+| [Justification](../../aspose.slides.mathtext/imathparagraph/justification) { get; set; } | Обоснование абзаца Значение по умолчанию: CenteredAsGroup |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [WriteAsMathMl](../../aspose.slides.mathtext/imathparagraph/writeasmathml)(Stream) | Сохраняет содержимое этого[`IMathParagraph`](../imathparagraph)как MathML |
+| [WriteAsMathMl](../../aspose.slides.mathtext/imathparagraph/writeasmathml)(Stream) | Сохраняет содержимое этого[`IMathParagraph`](../imathparagraph) как MathML |
 
 ### Примеры
 

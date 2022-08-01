@@ -1,14 +1,14 @@
 ---
 title: SubstitutePictureTitle
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置 OleObject 图标的标题 读/写String
+description: 返回或设置 OleObject 图标的标题 读/写String.
 type: docs
 weight: 120
 url: /zh/net/aspose.slides/ioleobjectframe/substitutepicturetitle/
 ---
 ## IOleObjectFrame.SubstitutePictureTitle property
 
-返回或设置 OleObject 图标的标题。 读/写String。
+返回或设置 OleObject 图标的标题。 读/写String.
 
 ```csharp
 public string SubstitutePictureTitle { get; set; }
@@ -16,7 +16,7 @@ public string SubstitutePictureTitle { get; set; }
 
 ### 评论
 
-当 IsObjectIcon == false 时，忽略此值。 可以根据 OLE 图标的大小截断字符串。
+IsObjectIcon == false 时忽略此值。 可以根据 OLE 图标的大小截断字符串。
 
 ### 也可以看看
 

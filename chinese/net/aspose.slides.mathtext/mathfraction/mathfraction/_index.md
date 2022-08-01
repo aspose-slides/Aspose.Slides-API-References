@@ -18,12 +18,12 @@ public MathFraction(IMathElement numerator, IMathElement denominator,
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | numerator | IMathElement | 分子 |
-| 分母 | IMathElement | 分母 |
+| denominator | IMathElement | 分母 |
 | fractionType | MathFractionTypes | 分数类型 |
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]
@@ -51,11 +51,11 @@ public MathFraction(IMathElement numerator, IMathElement denominator)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | numerator | IMathElement | 分子 |
-| 分母 | IMathElement | 分母 |
+| denominator | IMathElement | 分母 |
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]

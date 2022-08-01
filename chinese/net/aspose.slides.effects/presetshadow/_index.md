@@ -18,16 +18,16 @@ public class PresetShadow : IPresetShadow
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Direction](../../aspose.slides.effects/presetshadow/direction) { get; set; } | 阴影方向。 读/写Single。 |
-| [Distance](../../aspose.slides.effects/presetshadow/distance) { get; set; } | 阴影距离。 读/写Double。 |
-| [Preset](../../aspose.slides.effects/presetshadow/preset) { get; set; } | 预设。 读/写[`PresetShadowType`](../../aspose.slides/presetshadowtype)。 |
-| [ShadowColor](../../aspose.slides.effects/presetshadow/shadowcolor) { get; } | 阴影颜色。 只读[`IColorFormat`](../../aspose.slides/icolorformat)。 |
+| [Direction](../../aspose.slides.effects/presetshadow/direction) { get; set; } | 阴影的方向。 读/写Single. |
+| [Distance](../../aspose.slides.effects/presetshadow/distance) { get; set; } | 阴影距离。 读/写Double. |
+| [Preset](../../aspose.slides.effects/presetshadow/preset) { get; set; } | 预设。 读/写[`PresetShadowType`](../../aspose.slides/presetshadowtype). |
+| [ShadowColor](../../aspose.slides.effects/presetshadow/shadowcolor) { get; } | 阴影颜色。 只读[`IColorFormat`](../../aspose.slides/icolorformat). |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/presetshadow/equals)(object) | 确定指定的[`PresetShadow`](../presetshadow)是否等于当前的PresetShadow。 |
+| override [Equals](../../aspose.slides.effects/presetshadow/equals)(object) | 判断是否指定[`PresetShadow`](../presetshadow)等于当前[`PresetShadow`](../presetshadow). |
 | [GetEffective](../../aspose.slides.effects/presetshadow/geteffective)() | 应用继承获取有效的预设阴影效果数据。 |
 | override [GetHashCode](../../aspose.slides.effects/presetshadow/gethashcode)() | 用作特定类型的哈希函数。 |
 

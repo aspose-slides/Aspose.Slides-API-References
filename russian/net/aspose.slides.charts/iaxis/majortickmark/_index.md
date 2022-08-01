@@ -1,14 +1,14 @@
 ---
 title: MajorTickMark
 second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет тип основной отметки для указанной оси. Чтение/записьTickMarkTypeaspose.slides.charts/tickmarktype.
+description: Представляет тип основной отметки для указанной оси. Чтение/записьTickMarkTypeaspose.slides.charts/tickmarktype .
 type: docs
 weight: 350
 url: /ru/net/aspose.slides.charts/iaxis/majortickmark/
 ---
 ## IAxis.MajorTickMark property
 
-Представляет тип основной отметки для указанной оси. Чтение/запись[`TickMarkType`](../../tickmarktype).
+Представляет тип основной отметки для указанной оси. Чтение/запись[`TickMarkType`](../../tickmarktype) .
 
 ```csharp
 public TickMarkType MajorTickMark { get; set; }

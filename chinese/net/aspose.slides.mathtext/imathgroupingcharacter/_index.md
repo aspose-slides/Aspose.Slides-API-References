@@ -20,13 +20,13 @@ public interface IMathGroupingCharacter : IMathElement
 | --- | --- |
 | [AsIMathElement](../../aspose.slides.mathtext/imathgroupingcharacter/asimathelement) { get; } | 允许获取基础 IMathElement 接口 [`IMathElement`](../imathelement) |
 | [Base](../../aspose.slides.mathtext/imathgroupingcharacter/base) { get; } | 基本参数 |
-| [Character](../../aspose.slides.mathtext/imathgroupingcharacter/character) { get; set; } | 分组字符 默认值:U+23DF（下大括号） |
-| [Position](../../aspose.slides.mathtext/imathgroupingcharacter/position) { get; set; } | 分组字符的位置。 默认值:底部 |
-| [VerticalJustification](../../aspose.slides.mathtext/imathgroupingcharacter/verticaljustification) { get; set; } | 组字符的垂直对齐。 指定对象相对于基线的对齐方式。 例如，当组字符在对象上方时， VerticalJustification of Top 表示对象的顶部落在基线上； 当 VerticalJustification 设置为 Bottom 时，对象的底部在基线上 默认值:Bottom 为 Position=Top，Top 为 Position=Bottom |
+| [Character](../../aspose.slides.mathtext/imathgroupingcharacter/character) { get; set; } | 分组字符 默认值：U+23DF (BOTTOM CURLY BRACKET) |
+| [Position](../../aspose.slides.mathtext/imathgroupingcharacter/position) { get; set; } | 分组字符的位置。 默认值：底部 |
+| [VerticalJustification](../../aspose.slides.mathtext/imathgroupingcharacter/verticaljustification) { get; set; } | 组字符的垂直对齐。 指定对象相对于基线的对齐方式。 例如，当组字符在对象上方时， 顶部的垂直对齐表示对象的顶部落在基线上； 当 VerticalJustification 设置为 Bottom 时，对象的底部在基线上 |
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]

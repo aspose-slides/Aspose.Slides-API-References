@@ -18,8 +18,8 @@ public interface IMultipleCellChartValue : IBaseChartValue
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsCells](../../aspose.slides.charts/imultiplecellchartvalue/ascells) { get; set; } | 返回或设置图表单元格的集合。 读/写[`IChartCellCollection`](../ichartcellcollection)。 |
-| [AsIBaseChartValue](../../aspose.slides.charts/imultiplecellchartvalue/asibasechartvalue) { get; } | 允许获取基本 IBaseChartValue 接口。 只读[`IBaseChartValue`](../ibasechartvalue)。 |
+| [AsCells](../../aspose.slides.charts/imultiplecellchartvalue/ascells) { get; set; } | 返回或设置图表单元格的集合。 读/写[`IChartCellCollection`](../ichartcellcollection). |
+| [AsIBaseChartValue](../../aspose.slides.charts/imultiplecellchartvalue/asibasechartvalue) { get; } | 允许获取基本 IBaseChartValue 接口。 只读[`IBaseChartValue`](../ibasechartvalue). |
 
 ### 也可以看看
 

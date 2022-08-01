@@ -16,7 +16,7 @@ public byte[] ToBinary()
 
 ### 返回值
 
-Binary将 VBA 项目表示为 OLE 容器
+VBA 项目的二进制表示为 OLE 容器
 
 ### 也可以看看
 

@@ -16,7 +16,7 @@ public IChartCellCollection GetCellCollection(string formula, bool skipHiddenCel
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| formula | String | Формула Excel типа "Лист1!$A$2:$A$5". |
+| formula | String | Формула Excel, например «Лист1!$A$2:$A$5». |
 | skipHiddenCells | Boolean | Если true, то метод возвращает коллекцию без скрытых ячеек. |
 
 ### Возвращаемое значение

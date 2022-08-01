@@ -1,14 +1,14 @@
 ---
 title: NormaliseHeight
 second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет следует ли нормализовать высоту текста. Наследование не применяется. Чтение/записьNullableBoolaspose.slides/nullablebool.
+description: Определяет следует ли нормализовать высоту текста. Наследование не применяется. Чтение/записьNullableBoolaspose.slides/nullablebool .
 type: docs
 weight: 190
 url: /ru/net/aspose.slides/baseportionformat/normaliseheight/
 ---
 ## BasePortionFormat.NormaliseHeight property
 
-Определяет, следует ли нормализовать высоту текста. Наследование не применяется. Чтение/запись[`NullableBool`](../../nullablebool).
+Определяет, следует ли нормализовать высоту текста. Наследование не применяется. Чтение/запись[`NullableBool`](../../nullablebool) .
 
 ```csharp
 public NullableBool NormaliseHeight { get; set; }

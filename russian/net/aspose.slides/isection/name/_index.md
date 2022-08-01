@@ -1,14 +1,14 @@
 ---
 title: Name
 second_title: Справочник по API Aspose.Slides для .NET
-description: Имя раздела.
+description: Название раздела.
 type: docs
 weight: 10
 url: /ru/net/aspose.slides/isection/name/
 ---
 ## ISection.Name property
 
-Имя раздела.
+Название раздела.
 
 ```csharp
 public string Name { get; set; }

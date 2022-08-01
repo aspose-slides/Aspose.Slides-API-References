@@ -1,14 +1,14 @@
 ---
 title: MasterTheme
 second_title: Aspose.Slides for .NET API 参考
-description: 返回主主题 只读IMasterThemeaspose.slides.theme/imastertheme
+description: 返回主主题 只读IMasterThemeaspose.slides.theme/imastertheme.
 type: docs
 weight: 190
 url: /zh/net/aspose.slides/presentation/mastertheme/
 ---
 ## Presentation.MasterTheme property
 
-返回主主题。 只读[`IMasterTheme`](../../../aspose.slides.theme/imastertheme)。
+返回主主题。 只读[`IMasterTheme`](../../../aspose.slides.theme/imastertheme).
 
 ```csharp
 public IMasterTheme MasterTheme { get; }

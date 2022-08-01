@@ -1,14 +1,14 @@
 ---
 title: NameOfApplication
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置应用程序的名称 读/写String
+description: 返回或设置应用程序的名称 读/写String.
 type: docs
 weight: 180
 url: /zh/net/aspose.slides/idocumentproperties/nameofapplication/
 ---
 ## IDocumentProperties.NameOfApplication property
 
-返回或设置应用程序的名称。 读/写String。
+返回或设置应用程序的名称。 读/写String.
 
 ```csharp
 public string NameOfApplication { get; set; }

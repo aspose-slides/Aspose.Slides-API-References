@@ -1,14 +1,14 @@
 ---
 title: TextStyle
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает эффективный стиль текста. Только для чтенияITextStyleEffectiveDataaspose.slides/itextstyleeffectivedata.
+description: Возвращает действующий стиль текста. Только для чтенияITextStyleEffectiveDataaspose.slides/itextstyleeffectivedata .
 type: docs
 weight: 100
 url: /ru/net/aspose.slides/itextframeformateffectivedata/textstyle/
 ---
 ## ITextFrameFormatEffectiveData.TextStyle property
 
-Возвращает эффективный стиль текста. Только для чтения[`ITextStyleEffectiveData`](../../itextstyleeffectivedata).
+Возвращает действующий стиль текста. Только для чтения[`ITextStyleEffectiveData`](../../itextstyleeffectivedata) .
 
 ```csharp
 public ITextStyleEffectiveData TextStyle { get; }

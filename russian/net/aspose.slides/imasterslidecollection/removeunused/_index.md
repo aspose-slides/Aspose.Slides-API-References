@@ -16,7 +16,7 @@ public void RemoveUnused(bool ignorePreserveField)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| ignorePreserveField | Boolean | Определяет, должен ли этот метод удалять неиспользуемый мастер, даже если егоPДлясвойства:Aspose.Slides.IMasterSlide.Preserveустановлено значение true. |
+| ignorePreserveField | Boolean | Определяет, должен ли этот метод удалять неиспользуемый мастер , даже если его[`Preserve`](../../imasterslide/preserve) свойство имеет значение true. |
 
 ### Смотрите также
 

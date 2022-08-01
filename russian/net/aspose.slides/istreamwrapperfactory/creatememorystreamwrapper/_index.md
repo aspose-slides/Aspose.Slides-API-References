@@ -37,7 +37,7 @@ public IStreamWrapper CreateMemoryStreamWrapper(byte[] buffer)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| buffer | Byte[] | Массив байтовByte[] |
+| buffer | Byte[] | Байтовый массивByte[] |
 
 ### Возвращаемое значение
 

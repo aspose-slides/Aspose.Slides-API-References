@@ -1,14 +1,14 @@
 ---
 title: ProofDisabled
 second_title: Aspose.Slides for .NET API 参考
-description: 确定文本是否不应校对未应用继承 读/写NullableBoolaspose.slides/nullablebool
+description: 确定是否不应校对文本未应用继承 读/写NullableBoolaspose.slides/nullablebool.
 type: docs
 weight: 200
 url: /zh/net/aspose.slides/baseportionformat/proofdisabled/
 ---
 ## BasePortionFormat.ProofDisabled property
 
-确定文本是否不应校对。未应用继承。 读/写[`NullableBool`](../../nullablebool)。
+确定是否不应校对文本。未应用继承。 读/写[`NullableBool`](../../nullablebool).
 
 ```csharp
 public NullableBool ProofDisabled { get; set; }

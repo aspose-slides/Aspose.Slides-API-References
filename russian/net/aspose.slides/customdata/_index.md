@@ -18,8 +18,8 @@ public class CustomData : ICustomData
 
 | Имя | Описание |
 | --- | --- |
-| [CustomXmlParts](../../aspose.slides/customdata/customxmlparts) { get; } | Возвращает пользовательскую коллекцию частей xml. Только для чтения[`ICustomXmlPartCollection`](../icustomxmlpartcollection). |
-| [Tags](../../aspose.slides/customdata/tags) { get; } | Возвращает коллекцию тегов данных клиента. Только для чтения[`ITagCollection`](../itagcollection). |
+| [CustomXmlParts](../../aspose.slides/customdata/customxmlparts) { get; } | Возвращает пользовательскую коллекцию частей xml. Только для чтения[`ICustomXmlPartCollection`](../icustomxmlpartcollection) . |
+| [Tags](../../aspose.slides/customdata/tags) { get; } | Возвращает коллекцию тегов данных клиента. Только для чтения[`ITagCollection`](../itagcollection) . |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: CenterX
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает координату X центра кадра. Только для чтенияSingle.
+description: Возвращает координату X центра кадра. Только для чтенияSingle .
 type: docs
 weight: 20
 url: /ru/net/aspose.slides/shapeframe/centerx/
 ---
 ## ShapeFrame.CenterX property
 
-Возвращает координату X центра кадра. Только для чтенияSingle.
+Возвращает координату X центра кадра. Только для чтенияSingle .
 
 ```csharp
 public float CenterX { get; }

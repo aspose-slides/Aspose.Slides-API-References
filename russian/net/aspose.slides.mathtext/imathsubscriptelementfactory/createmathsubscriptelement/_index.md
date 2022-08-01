@@ -18,7 +18,7 @@ public IMathSubscriptElement CreateMathSubscriptElement(IMathElement baseArg,
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | baseArg | IMathElement | Базовый аргумент для применения indexe |
-| subScript | IMathElement | нижний правый индекс |
+| subScript | IMathElement | нижний правый указатель |
 
 ### Возвращаемое значение
 

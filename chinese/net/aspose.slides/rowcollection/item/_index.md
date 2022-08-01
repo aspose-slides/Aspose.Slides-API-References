@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Slides for .NET API 参考
-description: 返回指定索引处的行 只读Rowaspose.slides/row
+description: 返回指定索引处的行 只读Rowaspose.slides/row.
 type: docs
 weight: 30
 url: /zh/net/aspose.slides/rowcollection/item/
 ---
 ## RowCollection indexer
 
-返回指定索引处的行。 只读[`Row`](../../row)。
+返回指定索引处的行。 只读[`Row`](../../row).
 
 ```csharp
 public IRow this[int index] { get; }

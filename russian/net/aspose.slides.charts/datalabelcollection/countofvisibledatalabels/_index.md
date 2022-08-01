@@ -1,14 +1,14 @@
 ---
 title: CountOfVisibleDataLabels
 second_title: Справочник по API Aspose.Slides для .NET
-description: Получает количество видимых меток данных в коллекции. Только для чтенияInt32.
+description: Получает количество видимых меток данных в коллекции. Только для чтенияInt32 .
 type: docs
 weight: 30
 url: /ru/net/aspose.slides.charts/datalabelcollection/countofvisibledatalabels/
 ---
 ## DataLabelCollection.CountOfVisibleDataLabels property
 
-Получает количество видимых меток данных в коллекции. Только для чтенияInt32.
+Получает количество видимых меток данных в коллекции. Только для чтенияInt32 .
 
 ```csharp
 public int CountOfVisibleDataLabels { get; }

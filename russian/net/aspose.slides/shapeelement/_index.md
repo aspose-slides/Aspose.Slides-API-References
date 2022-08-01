@@ -1,14 +1,14 @@
 ---
 title: ShapeElement
 second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет часть фигуры с одинаковыми свойствами контура и заливки.
+description: Представляет часть фигуры с такими же свойствами контура и заливки.
 type: docs
 weight: 9090
 url: /ru/net/aspose.slides/shapeelement/
 ---
 ## ShapeElement class
 
-Представляет часть фигуры с одинаковыми свойствами контура и заливки.
+Представляет часть фигуры с такими же свойствами контура и заливки.
 
 ```csharp
 public class ShapeElement : IShapeElement
@@ -18,10 +18,10 @@ public class ShapeElement : IShapeElement
 
 | Имя | Описание |
 | --- | --- |
-| [FillSource](../../aspose.slides/shapeelement/fillsource) { get; } | Возвращает информацию о том, как заполнить элемент. Только для чтения[`ShapeElementFillSource`](../shapeelementfillsource). |
-| [GraphicsPath](../../aspose.slides/shapeelement/graphicspath) { get; } | Возвращает путь элемента. Только для чтенияGraphicsPath. |
-| [ParentShape](../../aspose.slides/shapeelement/parentshape) { get; } | Возвращает Shape_PPT, для которого был создан элемент. Только чтение[`Shape`](../shape). |
-| [StrokeSource](../../aspose.slides/shapeelement/strokesource) { get; } | Возвращает информацию о том, как обводить элемент. Только для чтения[`ShapeElementStrokeSource`](../shapeelementstrokesource). |
+| [FillSource](../../aspose.slides/shapeelement/fillsource) { get; } | Возвращает информацию о том, как заполнить элемент. Только для чтения[`ShapeElementFillSource`](../shapeelementfillsource) . |
+| [GraphicsPath](../../aspose.slides/shapeelement/graphicspath) { get; } | Возвращает путь к элементу. Только для чтенияGraphicsPath . |
+| [ParentShape](../../aspose.slides/shapeelement/parentshape) { get; } | Возвращает Shape_PPT, для которого был создан элемент. Только для чтения[`Shape`](../shape) . |
+| [StrokeSource](../../aspose.slides/shapeelement/strokesource) { get; } | Возвращает информацию о том, как обвести элемент. Только для чтения[`ShapeElementStrokeSource`](../shapeelementstrokesource) . |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: AddGroupShape
 second_title: Aspose.Slides for .NET API 参考
-description: 创建一个新的 GroupShape 并将其添加到集合的末尾 将新形状添加到 GroupShape 时GroupShape 框架的大小和位置将适合内容
+description: 创建一个新的 GroupShape 并将其添加到集合的末尾 当将新形状添加到 GroupShape 中时GroupShape 框架的大小和位置将适合内容
 type: docs
 weight: 100
 url: /zh/net/aspose.slides/ishapecollection/addgroupshape/
 ---
 ## AddGroupShape() {#addgroupshape}
 
-创建一个新的 GroupShape 并将其添加到集合的末尾。 将新形状添加到 GroupShape 时，GroupShape 框架的大小和位置将适合内容。
+创建一个新的 GroupShape 并将其添加到集合的末尾。 当将新形状添加到 GroupShape 中时，GroupShape 框架的大小和位置将适合内容。
 
 ```csharp
 public IGroupShape AddGroupShape()
@@ -37,10 +37,10 @@ public IGroupShape AddGroupShape(ISvgImage svgImage, float x, float y, float wid
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| svgImage | ISvgImage | Svg 图像对象[`ISvgImage`](../../isvgimage) |
+| svgImage | ISvgImage | SVG图像对象[`ISvgImage`](../../isvgimage) |
 | x | Single | 形状组框架左侧的 X 坐标。 |
 | y | Single | 形状组框架顶部的 Y 坐标。 |
-| width | Single | 形状组框的组宽度。 |
+| width | Single | 形状组框架的组的宽度。 |
 | height | Single | 形状组框的一组高度。 |
 
 ### 返回值

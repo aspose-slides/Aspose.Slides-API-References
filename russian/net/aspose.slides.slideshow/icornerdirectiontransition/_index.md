@@ -1,14 +1,14 @@
 ---
 title: ICornerDirectionTransition
 second_title: Справочник по API Aspose.Slides для .NET
-description: Эффект перехода слайда в угловом направлении.
+description: Эффект перехода слайда в направлении угла.
 type: docs
 weight: 9280
 url: /ru/net/aspose.slides.slideshow/icornerdirectiontransition/
 ---
 ## ICornerDirectionTransition interface
 
-Эффект перехода слайда в угловом направлении.
+Эффект перехода слайда в направлении угла.
 
 ```csharp
 public interface ICornerDirectionTransition : ITransitionValueBase
@@ -18,8 +18,8 @@ public interface ICornerDirectionTransition : ITransitionValueBase
 
 | Имя | Описание |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/icornerdirectiontransition/asitransitionvaluebase) { get; } | Позволяет получить базовый интерфейс ITransitionValueBase. Только для чтения[`ITransitionValueBase`](../itransitionvaluebase). |
-| [Direction](../../aspose.slides.slideshow/icornerdirectiontransition/direction) { get; set; } | Направление перехода. Чтение/запись[`TransitionCornerDirectionType`](../transitioncornerdirectiontype). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/icornerdirectiontransition/asitransitionvaluebase) { get; } | Позволяет получить базовый интерфейс ITransitionValueBase. Только для чтения[`ITransitionValueBase`](../itransitionvaluebase) . |
+| [Direction](../../aspose.slides.slideshow/icornerdirectiontransition/direction) { get; set; } | Направление перехода. Чтение/запись[`TransitionCornerDirectionType`](../transitioncornerdirectiontype) . |
 
 ### Смотрите также
 

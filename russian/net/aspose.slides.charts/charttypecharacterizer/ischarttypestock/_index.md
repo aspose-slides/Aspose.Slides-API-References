@@ -1,14 +1,14 @@
 ---
 title: IsChartTypeStock
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает true если chartType является одним из подтипов Stock. Набор подтипов соответствует соответствующему набору в PowerPoint см. диалоговое окно Изменить тип диаграммы в PowerPoint HighLowClose OpenHighLowClose VolumeHighLowClose VolumeOpenHighLowClose.
+description: Возвращает true если chartType является одним из подтипов Stock. Набор подтипов соответствует соответствующему набору в PowerPoint см. диалоговое окно Изменить тип диаграммы в PowerPoint HighLowClose  OpenHighLowClose  VolumeHighLowClose  VolumeOpenHighLowClose .
 type: docs
 weight: 140
 url: /ru/net/aspose.slides.charts/charttypecharacterizer/ischarttypestock/
 ---
 ## ChartTypeCharacterizer.IsChartTypeStock method
 
-Возвращает true, если chartType является одним из подтипов Stock. Набор подтипов соответствует соответствующему набору в PowerPoint (см. диалоговое окно «Изменить тип диаграммы» в PowerPoint): HighLowClose, OpenHighLowClose, VolumeHighLowClose, VolumeOpenHighLowClose.
+Возвращает true, если chartType является одним из подтипов Stock. Набор подтипов соответствует соответствующему набору в PowerPoint (см. диалоговое окно «Изменить тип диаграммы» в PowerPoint): HighLowClose , OpenHighLowClose , VolumeHighLowClose , VolumeOpenHighLowClose .
 
 ```csharp
 public static bool IsChartTypeStock(ChartType chartType)

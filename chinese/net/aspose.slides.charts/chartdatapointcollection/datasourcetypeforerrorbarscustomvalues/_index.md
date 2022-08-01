@@ -1,14 +1,14 @@
 ---
 title: DataSourceTypeForErrorBarsCustomValues
 second_title: Aspose.Slides for .NET API 参考
-description: 指定 ChartDataPoint.ErrorBarsCustomValues 属性列表中的值类型 只读IDataSourceTypeForErrorBarsCustomValuesaspose.slides.charts/idatasourcetypeforerrorbarscustomvalues
+description: 指定 ChartDataPoint.ErrorBarsCustomValues 属性列表中的值类型 只读IDataSourceTypeForErrorBarsCustomValuesaspose.slides.charts/idatasourcetypeforerrorbarscustomvalues.
 type: docs
 weight: 30
 url: /zh/net/aspose.slides.charts/chartdatapointcollection/datasourcetypeforerrorbarscustomvalues/
 ---
 ## ChartDataPointCollection.DataSourceTypeForErrorBarsCustomValues property
 
-指定 ChartDataPoint.ErrorBarsCustomValues 属性列表中的值类型。 只读[`IDataSourceTypeForErrorBarsCustomValues`](../../idatasourcetypeforerrorbarscustomvalues)。
+指定 ChartDataPoint.ErrorBarsCustomValues 属性列表中的值类型。 只读[`IDataSourceTypeForErrorBarsCustomValues`](../../idatasourcetypeforerrorbarscustomvalues).
 
 ```csharp
 public IDataSourceTypeForErrorBarsCustomValues DataSourceTypeForErrorBarsCustomValues { get; }

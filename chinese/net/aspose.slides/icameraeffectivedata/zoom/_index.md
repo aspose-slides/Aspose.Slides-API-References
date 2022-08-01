@@ -1,14 +1,14 @@
 ---
 title: Zoom
 second_title: Aspose.Slides for .NET API 参考
-description: 相机缩放正值百分比 只读Single
+description: 相机缩放百分比为正值 只读Single.
 type: docs
 weight: 30
 url: /zh/net/aspose.slides/icameraeffectivedata/zoom/
 ---
 ## ICameraEffectiveData.Zoom property
 
-相机缩放（正值百分比）。 只读Single。
+相机缩放（百分比为正值）。 只读Single.
 
 ```csharp
 public float Zoom { get; }

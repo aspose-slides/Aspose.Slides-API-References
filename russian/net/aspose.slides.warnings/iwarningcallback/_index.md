@@ -1,14 +1,14 @@
 ---
 title: IWarningCallback
 second_title: Справочник по API Aspose.Slides для .NET
-description: Интерфейс для классов которые получают предупреждения
+description: Интерфейс для классов которые получают предупреждение
 type: docs
 weight: 10990
 url: /ru/net/aspose.slides.warnings/iwarningcallback/
 ---
 ## IWarningCallback interface
 
-Интерфейс для классов, которые получают предупреждения
+Интерфейс для классов, которые получают предупреждение
 
 ```csharp
 public interface IWarningCallback

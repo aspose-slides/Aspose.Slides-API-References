@@ -8,7 +8,7 @@ url: /ru/net/aspose.slides.animation/behaviorproperty/scaley/
 ---
 ## BehaviorProperty.ScaleY property
 
-Представляет свойство 'ScaleY'
+Представляет свойство ScaleY
 
 ```csharp
 public static BehaviorProperty ScaleY { get; }

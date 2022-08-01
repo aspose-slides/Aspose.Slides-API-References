@@ -1,14 +1,14 @@
 ---
 title: MasterSlide
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置布局的母版幻灯片 读/写IMasterSlideaspose.slides/imasterslide
+description: 返回或设置布局的母版幻灯片 读/写IMasterSlideaspose.slides/imasterslide.
 type: docs
 weight: 40
 url: /zh/net/aspose.slides/layoutslide/masterslide/
 ---
 ## LayoutSlide.MasterSlide property
 
-返回或设置布局的母版幻灯片。 读/写[`IMasterSlide`](../../imasterslide)。
+返回或设置布局的母版幻灯片。 读/写[`IMasterSlide`](../../imasterslide).
 
 ```csharp
 public IMasterSlide MasterSlide { get; set; }

@@ -18,11 +18,11 @@ public class AxesManager : DomObject<Chart>, IAxesManager
 
 | Имя | Описание |
 | --- | --- |
-| [HorizontalAxis](../../aspose.slides.charts/axesmanager/horizontalaxis) { get; } | Получает горизонтальную ось диаграммы. Только для чтения[`IAxis`](../iaxis). |
-| [SecondaryHorizontalAxis](../../aspose.slides.charts/axesmanager/secondaryhorizontalaxis) { get; } | Получает дополнительную горизонтальную ось диаграммы. Только для чтения[`IAxis`](../iaxis). |
-| [SecondaryVerticalAxis](../../aspose.slides.charts/axesmanager/secondaryverticalaxis) { get; } | Получает дополнительную вертикальную ось диаграммы. Только для чтения[`IAxis`](../iaxis). |
-| [SeriesAxis](../../aspose.slides.charts/axesmanager/seriesaxis) { get; } | Получает ось серии диаграммы. Только для чтения[`IAxis`](../iaxis). |
-| [VerticalAxis](../../aspose.slides.charts/axesmanager/verticalaxis) { get; } | Получает вертикальную ось диаграммы. Только для чтения[`IAxis`](../iaxis). |
+| [HorizontalAxis](../../aspose.slides.charts/axesmanager/horizontalaxis) { get; } | Получает горизонтальную ось диаграммы. Только для чтения[`IAxis`](../iaxis) . |
+| [SecondaryHorizontalAxis](../../aspose.slides.charts/axesmanager/secondaryhorizontalaxis) { get; } | Получает дополнительную горизонтальную ось диаграммы. Только для чтения[`IAxis`](../iaxis) . |
+| [SecondaryVerticalAxis](../../aspose.slides.charts/axesmanager/secondaryverticalaxis) { get; } | Получает вторичную вертикальную ось диаграммы. Только для чтения[`IAxis`](../iaxis) . |
+| [SeriesAxis](../../aspose.slides.charts/axesmanager/seriesaxis) { get; } | Получает ось ряда диаграммы. Только для чтения[`IAxis`](../iaxis) . |
+| [VerticalAxis](../../aspose.slides.charts/axesmanager/verticalaxis) { get; } | Получает вертикальную ось диаграммы. Только для чтения[`IAxis`](../iaxis) . |
 
 ### Смотрите также
 

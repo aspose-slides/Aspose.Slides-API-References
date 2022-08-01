@@ -1,20 +1,20 @@
 ---
 title: SufficientResolution
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置确定 PDF 文档内图像分辨率的值
+description: 返回或设置确定 PDF 文档中图像分辨率的值
 type: docs
 weight: 160
 url: /zh/net/aspose.slides.export/pdfoptions/sufficientresolution/
 ---
 ## PdfOptions.SufficientResolution property
 
-返回或设置确定 PDF 文档内图像分辨率的值。
+返回或设置确定 PDF 文档中图像分辨率的值。
 
 属性会影响文件大小、导出时间和图像质量。
 
-默认值为 **96** 。
+默认值为 **96**.
 
-此参数的效果取决于几个因素。 算法尝试根据属性值、源图像大小和图像帧大小来获得最佳输出图像大小。 使用相似的属性值可能会产生相同的结果。建议使用步骤 16 或 32 以获得可见效果。 读/写Single。
+该参数的影响取决于几个因素。 算法尝试根据属性值、源图像大小和图像帧大小来获得最佳输出图像大小。 使用相似的属性值可能会得到相同的结果。建议使用步骤 16 或 32 以获得可见效果。 读/写Single.
 
 ```csharp
 public float SufficientResolution { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: ActualX
 second_title: Aspose.Slides for .NET API 参考
-description: 指定图表元素相对于图表左上角的实际 x 位置左侧 在获取实际值之前调用方法 IChart.ValidateChartLayout 读取Single
+description: 指定图表元素相对于图表左上角的实际 x 位置左侧 在获取实际值之前调用方法 IChart.ValidateChartLayout 读Single.
 type: docs
 weight: 40
 url: /zh/net/aspose.slides.charts/datalabel/actualx/
 ---
 ## DataLabel.ActualX property
 
-指定图表元素相对于图表左上角的实际 x 位置（左侧）。 在获取实际值之前调用方法 IChart.ValidateChartLayout()。 读取Single。
+指定图表元素相对于图表左上角的实际 x 位置（左侧）。 在获取实际值之前调用方法 IChart.ValidateChartLayout()。 读Single.
 
 ```csharp
 public float ActualX { get; }

@@ -1,14 +1,14 @@
 ---
 title: ShowOutlineIcons
 second_title: Aspose.Slides for .NET API 参考
-description: 指定如果在正常视图模式的内容区域的任何 中显示大纲内容应用程序是否应显示图标 读/写Boolean
+description: 指定应用程序在普通视图模式的内容区域的任何 中显示大纲内容时是否应显示图标 读/写Boolean.
 type: docs
 weight: 50
 url: /zh/net/aspose.slides/normalviewproperties/showoutlineicons/
 ---
 ## NormalViewProperties.ShowOutlineIcons property
 
-指定如果在正常视图模式的内容区域的任何 中显示大纲内容，应用程序是否应显示图标。 读/写Boolean。
+指定应用程序在普通视图模式的内容区域的任何 中显示大纲内容时是否应显示图标。 读/写Boolean.
 
 ```csharp
 public bool ShowOutlineIcons { get; set; }

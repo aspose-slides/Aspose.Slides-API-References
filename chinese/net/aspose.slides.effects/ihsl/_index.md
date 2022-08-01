@@ -1,14 +1,14 @@
 ---
 title: IHSL
 second_title: Aspose.Slides for .NET API 参考
-description: 表示色相/饱和度/亮度效果 色调饱和度和亮度都可以相对于其当前值进行调整
+description: 表示色相/饱和度/亮度效果 色相饱和度和亮度都可以相对于其当前值进行调整
 type: docs
 weight: 3160
 url: /zh/net/aspose.slides.effects/ihsl/
 ---
 ## IHSL interface
 
-表示色相/饱和度/亮度效果。 色调、饱和度和亮度都可以相对于其当前值进行调整。
+表示色相/饱和度/亮度效果。 色相、饱和度和亮度都可以相对于其当前值进行调整。
 
 ```csharp
 public interface IHSL : IAccessiblePVIObject<IHSLEffectiveData>, IImageTransformOperation
@@ -18,8 +18,8 @@ public interface IHSL : IAccessiblePVIObject<IHSLEffectiveData>, IImageTransform
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ihsl/asiaccessiblepviobject) { get; } | 允许获取基本 IAccessiblePVIObject 接口。 只读[`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1)。 |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ihsl/asiimagetransformoperation) { get; } | 返回 IImageTransformOperation 接口。 只读[`IImageTransformOperation`](../iimagetransformoperation)。 |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ihsl/asiaccessiblepviobject) { get; } | 允许获取基本 IAccessiblePVIObject 接口。 只读[`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ihsl/asiimagetransformoperation) { get; } | 返回 IImageTransformOperation 接口。 只读[`IImageTransformOperation`](../iimagetransformoperation). |
 
 ### 也可以看看
 

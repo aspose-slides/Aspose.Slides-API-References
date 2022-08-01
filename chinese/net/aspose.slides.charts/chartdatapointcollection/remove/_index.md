@@ -16,7 +16,7 @@ public void Remove(IChartDataPoint value)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | IChartDataPoint | 值。 |
+| value | IChartDataPoint | 价值。 |
 
 ### 例外
 

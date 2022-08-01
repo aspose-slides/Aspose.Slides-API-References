@@ -1,14 +1,14 @@
 ---
 title: IMathSuperscriptElement
 second_title: Aspose.Slides for .NET API 参考
-description: 指定上标对象它由一个基本的 和一个位于右上方的缩小尺寸的上标
+description: 指定上标对象它由一个基本的 和一个位于右上方和右侧的缩小的上标组成
 type: docs
 weight: 7770
 url: /zh/net/aspose.slides.mathtext/imathsuperscriptelement/
 ---
 ## IMathSuperscriptElement interface
 
-指定上标对象，它由一个基本的 和一个位于右上方的缩小尺寸的上标
+指定上标对象，它由一个基本的 和一个位于右上方和右侧的缩小的上标组成
 
 ```csharp
 public interface IMathSuperscriptElement : IMathElement
@@ -24,7 +24,7 @@ public interface IMathSuperscriptElement : IMathElement
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]

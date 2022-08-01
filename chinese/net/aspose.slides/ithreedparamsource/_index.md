@@ -1,14 +1,14 @@
 ---
 title: IThreeDParamSource
 second_title: Aspose.Slides for .NET API 参考
-description: 3D属性源辅助界面
+description: 3D属性源辅助接口
 type: docs
 weight: 6770
 url: /zh/net/aspose.slides/ithreedparamsource/
 ---
 ## IThreeDParamSource interface
 
-3D属性源辅助界面
+3D属性源辅助接口
 
 ```csharp
 public interface IThreeDParamSource

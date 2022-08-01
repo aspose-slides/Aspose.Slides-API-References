@@ -1,14 +1,14 @@
 ---
 title: TickLabelSpacing
 second_title: Справочник по API Aspose.Slides для .NET
-description: Указывает сколько галочек следует пропустить между отображаемыми метками. Чтение/записьUInt32.
+description: Определяет сколько меток с делениями следует пропускать между отображаемыми метками. Чтение/записьUInt32 .
 type: docs
 weight: 520
 url: /ru/net/aspose.slides.charts/iaxis/ticklabelspacing/
 ---
 ## IAxis.TickLabelSpacing property
 
-Указывает, сколько галочек следует пропустить между отображаемыми метками. Чтение/записьUInt32.
+Определяет, сколько меток с делениями следует пропускать между отображаемыми метками. Чтение/записьUInt32 .
 
 ```csharp
 public uint TickLabelSpacing { get; set; }

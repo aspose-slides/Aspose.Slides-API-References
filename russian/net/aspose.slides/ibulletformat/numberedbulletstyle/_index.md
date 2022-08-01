@@ -1,14 +1,14 @@
 ---
 title: NumberedBulletStyle
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или задает стиль нумерованного маркера без наследования. Чтение/записьNumberedBulletStyleaspose.slides/ibulletformat/numberedbulletstyle.
+description: Возвращает или задает стиль нумерованного маркера без наследования. Чтение/записьNumberedBulletStyleaspose.slides/ibulletformat/numberedbulletstyle .
 type: docs
 weight: 80
 url: /ru/net/aspose.slides/ibulletformat/numberedbulletstyle/
 ---
 ## IBulletFormat.NumberedBulletStyle property
 
-Возвращает или задает стиль нумерованного маркера без наследования. Чтение/запись`NumberedBulletStyle`.
+Возвращает или задает стиль нумерованного маркера без наследования. Чтение/запись`NumberedBulletStyle` .
 
 ```csharp
 public NumberedBulletStyle NumberedBulletStyle { get; set; }

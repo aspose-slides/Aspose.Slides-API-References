@@ -1,14 +1,14 @@
 ---
 title: Position
 second_title: Aspose.Slides for .NET API 参考
-description: 返回渐变停止的位置 0..1 只读Single
+description: 返回梯度停止点的位置 0..1 只读Single.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides/igradientstopeffectivedata/position/
 ---
 ## IGradientStopEffectiveData.Position property
 
-返回渐变停止的位置 (0..1)。 只读Single。
+返回梯度停止点的位置 (0..1)。 只读Single.
 
 ```csharp
 public float Position { get; }

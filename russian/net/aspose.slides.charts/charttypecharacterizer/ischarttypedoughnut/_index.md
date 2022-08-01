@@ -1,14 +1,14 @@
 ---
 title: IsChartTypeDoughnut
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает true если chartType является одним из подтипов Donut. Набор подтипов соответствует соответствующему набору в PowerPoint см. диалоговое окно Изменить тип диаграммы в PowerPoint Пончик ExplodedDoughnut.
+description: Возвращает true если chartType является одним из подтипов Donut. Набор подтипов соответствует соответствующему набору в PowerPoint см. диалоговое окно Изменить тип диаграммы в PowerPoint Doughnut  ExplodedDoughnut .
 type: docs
 weight: 90
 url: /ru/net/aspose.slides.charts/charttypecharacterizer/ischarttypedoughnut/
 ---
 ## ChartTypeCharacterizer.IsChartTypeDoughnut method
 
-Возвращает true, если chartType является одним из подтипов Donut. Набор подтипов соответствует соответствующему набору в PowerPoint (см. диалоговое окно «Изменить тип диаграммы» в PowerPoint): Пончик, ExplodedDoughnut.
+Возвращает true, если chartType является одним из подтипов Donut. Набор подтипов соответствует соответствующему набору в PowerPoint (см. диалоговое окно «Изменить тип диаграммы» в PowerPoint): Doughnut , ExplodedDoughnut .
 
 ```csharp
 public static bool IsChartTypeDoughnut(ChartType chartType)

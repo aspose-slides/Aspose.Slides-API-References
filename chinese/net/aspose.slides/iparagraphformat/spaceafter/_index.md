@@ -1,14 +1,14 @@
 ---
 title: SpaceAfter
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置没有继承的段落中最后一行之后的空格量 正值指定空白应该是字体大小的百分比 负值以磅为单位指定空白的大小 读/写Single
+description: 返回或设置没有继承的段落中最后一行之后的空格量 正值指定空白应占的字体大小的百分比 负值指定以点为单位的空白大小size. 读/写Single.
 type: docs
 weight: 140
 url: /zh/net/aspose.slides/iparagraphformat/spaceafter/
 ---
 ## IParagraphFormat.SpaceAfter property
 
-返回或设置没有继承的段落中最后一行之后的空格量。 正值指定空白应该是字体大小的百分比。 负值以磅为单位指定空白的大小。 读/写Single。
+返回或设置没有继承的段落中最后一行之后的空格量。 正值指定空白应占的字体大小的百分比。 负值指定以点为单位的空白大小size. 读/写Single.
 
 ```csharp
 public float SpaceAfter { get; set; }

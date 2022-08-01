@@ -1,14 +1,14 @@
 ---
 title: By
 second_title: Aspose.Slides for .NET API 参考
-description: 描述动画的相对偏移值 读/写Single
+description: 描述动画的相对偏移值 读/写Single.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides.animation/irotationeffect/by/
 ---
 ## IRotationEffect.By property
 
-描述动画的相对偏移值。 读/写Single。
+描述动画的相对偏移值。 读/写Single.
 
 ```csharp
 public float By { get; set; }

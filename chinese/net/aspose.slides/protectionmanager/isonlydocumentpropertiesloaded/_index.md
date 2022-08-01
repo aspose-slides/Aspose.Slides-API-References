@@ -1,14 +1,14 @@
 ---
 title: IsOnlyDocumentPropertiesLoaded
 second_title: Aspose.Slides for .NET API 参考
-description: 如果演示文件受密码保护并且文档 该文件的属性是公共的则此属性是有意义的 true 的值意味着仅从加密的 演示文件中加载文档属性而不使用密码 false 值表示使用正确的 密码加载整个加密演示文稿而不仅仅是加载文档属性 如果演示文稿未加密则属性值始终为 false 如果加密文件的文档属性不公开则属性值始终为 false 如果 Presentation.EncryptDocumentProperties 为真则 IsOnlyDocumentPropertiesLoaded 属性值始终为假 只读Boolean
+description: 此属性有意义如果演示文件受密码保护并且此文件的文档 属性是公开的 值为 true 表示仅从加密的 演示文件中加载文档属性而不使用密码 值为 false 表示使用正确的 密码加载整个加密演示文稿不仅加载文档属性 如果演示文稿未加密则属性值始终为假 如果加密文件的文档属性不是公开的则属性值始终为false. 如果 Presentation.EncryptDocumentProperties 为真则 IsOnlyDocumentPropertiesLoaded 属性值始终为假 只读Boolean.
 type: docs
 weight: 40
 url: /zh/net/aspose.slides/protectionmanager/isonlydocumentpropertiesloaded/
 ---
 ## ProtectionManager.IsOnlyDocumentPropertiesLoaded property
 
-如果演示文件受密码保护并且文档 该文件的属性是公共的，则此属性是有意义的。 true 的值意味着仅从加密的 演示文件中加载文档属性而不使用密码。 false 值表示使用正确的 密码加载整个加密演示文稿，而不仅仅是加载文档属性。 如果演示文稿未加密，则属性值始终为 false。 如果加密文件的文档属性不公开，则属性值始终为 false。 如果 Presentation.EncryptDocumentProperties 为真，则 IsOnlyDocumentPropertiesLoaded 属性值始终为假。 只读Boolean。
+此属性有意义，如果演示文件受密码保护并且此文件的文档 属性是公开的。 值为 true 表示仅从加密的 演示文件中加载文档属性而不使用密码。 值为 false 表示使用正确的 密码加载整个加密演示文稿，不仅加载文档属性。 如果演示文稿未加密，则属性值始终为假。 如果加密文件的文档属性不是公开的，则属性值始终为false. 如果 Presentation.EncryptDocumentProperties 为真，则 IsOnlyDocumentPropertiesLoaded 属性值始终为假。 只读Boolean.
 
 ```csharp
 public bool IsOnlyDocumentPropertiesLoaded { get; }

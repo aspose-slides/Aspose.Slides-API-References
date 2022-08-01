@@ -1,14 +1,14 @@
 ---
 title: AudioVolumeMode
 second_title: Aspose.Slides for .NET API 参考
-description: 定义音量的常量
+description: 定义音频音量的常量
 type: docs
 weight: 790
 url: /zh/net/aspose.slides/audiovolumemode/
 ---
 ## AudioVolumeMode enumeration
 
-定义音量的常量。
+定义音频音量的常量。
 
 ```csharp
 public enum AudioVolumeMode
@@ -22,7 +22,7 @@ public enum AudioVolumeMode
 | Mute | `0` | 零音量。 |
 | Low | `1` | 低音量。 |
 | Medium | `2` | 中等音量。 |
-| Loud | `3` | 音量很大。 |
+| Loud | `3` | 音量大。 |
 
 ### 也可以看看
 

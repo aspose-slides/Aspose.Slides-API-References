@@ -1,14 +1,14 @@
 ---
 title: Value0
 second_title: Aspose.Slides for .NET API 参考
-description: 定义偏移量的第一个值 读/写Single
+description: 定义偏移量的第一个值 读/写Single.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides.animation/icoloroffset/value0/
 ---
 ## IColorOffset.Value0 property
 
-定义偏移量的第一个值。 读/写Single。
+定义偏移量的第一个值。 读/写Single.
 
 ```csharp
 public float Value0 { get; set; }

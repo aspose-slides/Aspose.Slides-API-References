@@ -1,14 +1,14 @@
 ---
 title: PresetClassType
 second_title: Aspose.Slides for .NET API 参考
-description: 定义效果等级 读/写EffectPresetClassTypeaspose.slides.animation/effectpresetclasstype
+description: 定义效果类别 读/写EffectPresetClassTypeaspose.slides.animation/effectpresetclasstype.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides.animation/effect/presetclasstype/
 ---
 ## Effect.PresetClassType property
 
-定义效果等级。 读/写[`EffectPresetClassType`](../../effectpresetclasstype)。
+定义效果类别。 读/写[`EffectPresetClassType`](../../effectpresetclasstype).
 
 ```csharp
 public EffectPresetClassType PresetClassType { get; set; }

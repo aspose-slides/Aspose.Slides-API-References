@@ -21,8 +21,8 @@ public enum ImagePixelFormat
 | Format1bppIndexed | `1` | 每像素 1 位，索引。 |
 | Format4bppIndexed | `4` | 每像素 4 位，索引。 |
 | Format8bppIndexed | `8` | 每像素 8 位，索引。 |
-| Format24bppRgb | `24` | 每像素 24 位，RGB。 |
-| Format32bppArgb | `32` | 每像素 32 位，ARGB。 |
+| Format24bppRgb | `24` | 每像素 24 位，RGB. |
+| Format32bppArgb | `32` | 每像素 32 位，ARGB. |
 
 ### 也可以看看
 

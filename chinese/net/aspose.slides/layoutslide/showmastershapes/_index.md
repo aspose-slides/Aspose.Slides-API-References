@@ -1,14 +1,14 @@
 ---
 title: ShowMasterShapes
 second_title: Aspose.Slides for .NET API 参考
-description: 指定母版幻灯片上的形状是否应显示在幻灯片上 读/写Boolean
+description: 指定母版幻灯片上的形状是否应显示在幻灯片上 读/写Boolean.
 type: docs
 weight: 50
 url: /zh/net/aspose.slides/layoutslide/showmastershapes/
 ---
 ## LayoutSlide.ShowMasterShapes property
 
-指定母版幻灯片上的形状是否应显示在幻灯片上。 读/写Boolean。
+指定母版幻灯片上的形状是否应显示在幻灯片上。 读/写Boolean.
 
 ```csharp
 public override bool ShowMasterShapes { get; set; }

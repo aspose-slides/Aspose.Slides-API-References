@@ -1,14 +1,14 @@
 ---
 title: AddSummaryZoomFrame
 second_title: Справочник по API Aspose.Slides для .NET
-description: Добавляет новый объект Суммарное масштабирование в конец коллекции.
+description: Добавляет новый объект Сводное масштабирование в конец коллекции.
 type: docs
 weight: 160
 url: /ru/net/aspose.slides/ishapecollection/addsummaryzoomframe/
 ---
 ## IShapeCollection.AddSummaryZoomFrame method
 
-Добавляет новый объект Суммарное масштабирование в конец коллекции.
+Добавляет новый объект «Сводное масштабирование» в конец коллекции.
 
 ```csharp
 public ISummaryZoomFrame AddSummaryZoomFrame(float x, float y, float width, float height)
@@ -16,14 +16,14 @@ public ISummaryZoomFrame AddSummaryZoomFrame(float x, float y, float width, floa
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| x | Single | X координата нового Раздел Кадр масштабированияSingle. |
+| x | Single | Координата X нового кадра увеличения сеченияSingle. |
 | y | Single | Координата Y нового кадра увеличения сеченияSingle. |
-| width | Single | Ширина нового кадра масштабирования разделаSingle. |
+| width | Single | Ширина новой рамки масштабирования разделаSingle. |
 | height | Single | Высота нового кадра масштабирования разделаSingle. |
 
 ### Возвращаемое значение
 
-Создан объект сводного масштабирования[`ISummaryZoomFrame`](../../isummaryzoomframe).
+Создан объект Суммарное масштабирование[`ISummaryZoomFrame`](../../isummaryzoomframe).
 
 ### Исключения
 
@@ -33,11 +33,11 @@ public ISummaryZoomFrame AddSummaryZoomFrame(float x, float y, float width, floa
 
 ### Примечания
 
-Этот метод создает новый Суммарный масштаб и помещает в него коллекцию объектов для всех разделов в эта презентация.
+Этот метод создает новое сводное масштабирование и помещает в него набор объектов для всех разделов этой презентации.
 
 ### Примеры
 
-В этом примере показано добавление объекта Summary Zoom в конец коллекции (предположим, что в презентации "Presentation.pptx" есть как минимум два раздела):
+В этом примере показано добавление объекта Summary Zoom в конец collection (предположим, что в презентации «Presentation.pptx» есть как минимум два раздела):
 
 ```csharp
 [C#]

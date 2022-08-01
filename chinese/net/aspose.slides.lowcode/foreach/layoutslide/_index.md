@@ -1,14 +1,14 @@
 ---
 title: LayoutSlide
 second_title: Aspose.Slides for .NET API 参考
-description: 迭代每个LayoutSlideaspose.slides.lowcode/foreach/layoutslide在Presentationaspose.slides/presentation中
+description: 迭代每个LayoutSlideaspose.slides.lowcode/foreach/layoutslide在里面Presentationaspose.slides/presentation.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides.lowcode/foreach/layoutslide/
 ---
 ## ForEach.LayoutSlide method
 
-迭代每个`LayoutSlide`在[`Presentation`](../../../aspose.slides/presentation)中。
+迭代每个`LayoutSlide`在里面[`Presentation`](../../../aspose.slides/presentation).
 
 ```csharp
 public static void LayoutSlide(Presentation pres, ForEachLayoutSlideCallback forEachLayoutSlide)
@@ -16,8 +16,8 @@ public static void LayoutSlide(Presentation pres, ForEachLayoutSlideCallback for
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| pres | Presentation | 演示迭代布局幻灯片 |
-| forEachLayoutSlide | ForEachLayoutSlideCallback | 回调将为每个布局幻灯片调用 |
+| pres | Presentation | 演示以迭代布局幻灯片 |
+| forEachLayoutSlide | ForEachLayoutSlideCallback | 将为每个布局幻灯片调用的回调 |
 
 ### 例子
 

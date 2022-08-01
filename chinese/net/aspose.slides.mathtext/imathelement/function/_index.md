@@ -1,14 +1,14 @@
 ---
 title: Function
 second_title: Aspose.Slides for .NET API 参考
-description: 使用该实例作为函数名的参数的函数
+description: 以使用此实例作为函数名的参数的函数
 type: docs
 weight: 50
 url: /zh/net/aspose.slides.mathtext/imathelement/function/
 ---
 ## Function(IMathElement) {#function}
 
-使用该实例作为函数名的参数的函数
+以使用此实例作为函数名的参数的函数
 
 ```csharp
 public IMathFunction Function(IMathElement functionArgument)
@@ -16,15 +16,15 @@ public IMathFunction Function(IMathElement functionArgument)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| functionArgument | IMathElement | 函数 |
+| functionArgument | IMathElement | 函数的参数 |
 
 ### 返回值
 
-[`IMathFunction`](../../imathfunction)
+类型的新数学元素[`IMathFunction`](../../imathfunction)
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]
@@ -44,7 +44,7 @@ IMathFunction func = functionName.Function(functionArg);
 
 ## Function(string) {#function_1}
 
-使用该实例作为函数名的参数的函数
+以使用此实例作为函数名的参数的函数
 
 ```csharp
 public IMathFunction Function(string functionArgument)
@@ -52,15 +52,15 @@ public IMathFunction Function(string functionArgument)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| functionArgument | String | 函数 |
+| functionArgument | String | 函数的参数 |
 
 ### 返回值
 
-[`IMathFunction`](../../imathfunction)
+类型的新数学元素[`IMathFunction`](../../imathfunction)
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]

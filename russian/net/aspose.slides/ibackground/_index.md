@@ -18,13 +18,13 @@ public interface IBackground : IFillParamSource, ISlideComponent
 
 | Имя | Описание |
 | --- | --- |
-| [AsIFillParamSource](../../aspose.slides/ibackground/asifillparamsource) { get; } | Возвращает интерфейс IFillParamSource. Только для чтения[`IFillParamSource`](../ifillparamsource). |
-| [AsISlideComponent](../../aspose.slides/ibackground/asislidecomponent) { get; } | Возвращает интерфейс ISlideComponent. Только для чтения[`ISlideComponent`](../islidecomponent). |
-| [EffectFormat](../../aspose.slides/ibackground/effectformat) { get; } | Возвращает EffectFormat для заливки BackgroundType.OwnBackground. Только для чтения[`IEffectFormat`](../ieffectformat). |
-| [FillFormat](../../aspose.slides/ibackground/fillformat) { get; } | Возвращает FillFormat для заливки BackgroundType.OwnBackground. Только для чтения[`IFillFormat`](../ifillformat). |
-| [StyleColor](../../aspose.slides/ibackground/stylecolor) { get; } | Возвращает ColorFormat для заливки BackgroundType.Themed. Только для чтения[`IColorFormat`](../icolorformat). |
-| [StyleIndex](../../aspose.slides/ibackground/styleindex) { get; set; } | Возвращает индекс BackgroundType.Themed заливки в коллекцию фоновых тем. 0 означает отсутствие заполнения. 1..999 - индекс. Чтение/записьUInt16. |
-| [Type](../../aspose.slides/ibackground/type) { get; set; } | Возвращает тип заливки фона. Чтение/запись[`BackgroundType`](../backgroundtype). |
+| [AsIFillParamSource](../../aspose.slides/ibackground/asifillparamsource) { get; } | Возвращает интерфейс IFillParamSource. Только для чтения[`IFillParamSource`](../ifillparamsource) . |
+| [AsISlideComponent](../../aspose.slides/ibackground/asislidecomponent) { get; } | Возвращает интерфейс ISlideComponent. Только для чтения[`ISlideComponent`](../islidecomponent) . |
+| [EffectFormat](../../aspose.slides/ibackground/effectformat) { get; } | Возвращает EffectFormat для BackgroundType.OwnBackground fill. Только для чтения[`IEffectFormat`](../ieffectformat) . |
+| [FillFormat](../../aspose.slides/ibackground/fillformat) { get; } | Возвращает FillFormat для BackgroundType.OwnBackground fill. Только для чтения[`IFillFormat`](../ifillformat) . |
+| [StyleColor](../../aspose.slides/ibackground/stylecolor) { get; } | Возвращает ColorFormat для заливки BackgroundType.Themed. Только для чтения[`IColorFormat`](../icolorformat) . |
+| [StyleIndex](../../aspose.slides/ibackground/styleindex) { get; set; } | Возвращает индекс заливки BackgroundType.Themed в коллекции фоновых тем. 0 означает отсутствие заливки. 1..999 - index. Чтение/записьUInt16 . |
+| [Type](../../aspose.slides/ibackground/type) { get; set; } | Возвращает тип заливки фона. Чтение/запись[`BackgroundType`](../backgroundtype) . |
 
 ## Методы
 

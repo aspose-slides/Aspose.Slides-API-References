@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: Aspose.Slides for .NET API 参考
-description: 确定指定的InnerShadowaspose.slides.effects/innershadow是否等于当前的InnerShadow
+description: 判断是否指定InnerShadowaspose.slides.effects/innershadow等于当前InnerShadowaspose.slides.effects/innershadow.
 type: docs
 weight: 50
 url: /zh/net/aspose.slides.effects/innershadow/equals/
 ---
 ## InnerShadow.Equals method
 
-确定指定的[`InnerShadow`](../../innershadow)是否等于当前的InnerShadow。
+判断是否指定[`InnerShadow`](../../innershadow)等于当前[`InnerShadow`](../../innershadow).
 
 ```csharp
 public override bool Equals(object obj)
@@ -16,11 +16,11 @@ public override bool Equals(object obj)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| obj | Object | [`InnerShadow`](../../innershadow)进行比较。 |
+| obj | Object | 这[`InnerShadow`](../../innershadow)比较。 |
 
 ### 返回值
 
-如果对象相等，则为真；否则为假。
+如果对象相等，则为 true；否则为假。
 
 ### 也可以看看
 

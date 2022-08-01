@@ -1,14 +1,14 @@
 ---
 title: InteractiveSequences
 second_title: Aspose.Slides for .NET API 参考
-description: 返回交互序列的集合 此序列可能仅包含单击形状并指定目标形状的效果 只读ISequenceCollectionaspose.slides.animation/isequencecollection
+description: 返回交互式序列的集合 此序列可能仅包含单击形状并指定目标形状的效果 只读ISequenceCollectionaspose.slides.animation/isequencecollection.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides.animation/animationtimeline/interactivesequences/
 ---
 ## AnimationTimeLine.InteractiveSequences property
 
-返回交互序列的集合。 此序列可能仅包含“单击形状”并指定目标形状的效果。 只读[`ISequenceCollection`](../../isequencecollection)。
+返回交互式序列的集合。 此序列可能仅包含“单击形状”并指定目标形状的效果。 只读[`ISequenceCollection`](../../isequencecollection).
 
 ```csharp
 public ISequenceCollection InteractiveSequences { get; }

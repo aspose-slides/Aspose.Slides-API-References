@@ -16,16 +16,12 @@ public IMathElement this[int row, int column] { get; set; }
 
 | 范围 | 描述 |
 | --- | --- |
-| row | 从零开始的索引要获取项目的行 |
-| column | 要获取项目 |
-
-### 返回值
-
-的列的从零开始的索引
+| row | 要获取项目的行的从零开始的索引 |
+| column | 获取项目的列的从零开始的索引 |
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]

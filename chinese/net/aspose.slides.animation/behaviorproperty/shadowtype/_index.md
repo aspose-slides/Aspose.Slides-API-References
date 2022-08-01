@@ -1,14 +1,14 @@
 ---
 title: ShadowType
 second_title: Aspose.Slides for .NET API 参考
-description: 表示shadow.type属性
+description: 表示shadow.type 属性
 type: docs
 weight: 760
 url: /zh/net/aspose.slides.animation/behaviorproperty/shadowtype/
 ---
 ## BehaviorProperty.ShadowType property
 
-表示'shadow.type'属性
+表示'shadow.type' 属性
 
 ```csharp
 public static BehaviorProperty ShadowType { get; }

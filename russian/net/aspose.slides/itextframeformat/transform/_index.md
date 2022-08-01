@@ -1,14 +1,14 @@
 ---
 title: Transform
 second_title: Справочник по API Aspose.Slides для .NET
-description: Получает или задает форму переноса текста. Чтение/записьTextShapeTypeaspose.slides/textshapetype.
+description: Получает или задает форму переноса текста. Чтение/записьTextShapeTypeaspose.slides/textshapetype .
 type: docs
 weight: 150
 url: /ru/net/aspose.slides/itextframeformat/transform/
 ---
 ## ITextFrameFormat.Transform property
 
-Получает или задает форму переноса текста. Чтение/запись[`TextShapeType`](../../textshapetype).
+Получает или задает форму переноса текста. Чтение/запись[`TextShapeType`](../../textshapetype) .
 
 ```csharp
 public TextShapeType Transform { get; set; }

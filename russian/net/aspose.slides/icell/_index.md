@@ -18,29 +18,29 @@ public interface ICell : ISlideComponent
 
 | Имя | Описание |
 | --- | --- |
-| [AnchorCenter](../../aspose.slides/icell/anchorcenter) { get; set; } | Определяет, центрируется ли текстовое поле внутри ячейки. Чтение/записьBoolean. |
-| [AsISlideComponent](../../aspose.slides/icell/asislidecomponent) { get; } | Позволяет получить базовый интерфейс ISlideComponent. Только для чтения[`ISlideComponent`](../islidecomponent). |
-| [CellFormat](../../aspose.slides/icell/cellformat) { get; } | Возвращает объект CellFormat, который содержит свойства форматирования для этой ячейки. Только для чтения[`ICellFormat`](../icellformat). |
-| [ColSpan](../../aspose.slides/icell/colspan) { get; } | Возвращает количество столбцов сетки в таблице grid родительской таблицы, которые должны охватывать текущую ячейку. Это свойство позволяет ячейкам выглядеть объединенными, поскольку они охватывают вертикальные границы других ячеек в таблице. Только для чтенияInt32. |
-| [FirstColumn](../../aspose.slides/icell/firstcolumn) { get; } | Получает первый столбец ячейки. Только для чтения[`IColumn`](../icolumn). |
-| [FirstColumnIndex](../../aspose.slides/icell/firstcolumnindex) { get; } | Возвращает индекс первого столбца, охватываемого ячейкой. Только для чтенияInt32. |
-| [FirstRow](../../aspose.slides/icell/firstrow) { get; } | Получает первую строку ячейки. Только для чтения[`IRow`](../irow). |
-| [FirstRowIndex](../../aspose.slides/icell/firstrowindex) { get; } | Возвращает индекс первой строки, охватываемой ячейкой. Только для чтенияInt32. |
-| [Height](../../aspose.slides/icell/height) { get; } | Возвращает высоту ячейки. Только для чтенияDouble. |
-| [IsMergedCell](../../aspose.slides/icell/ismergedcell) { get; } | Возвращает true, если ячейка объединяется с какой-либо скорректированной ячейкой, иначе false. Только чтениеBoolean. |
-| [MarginBottom](../../aspose.slides/icell/marginbottom) { get; set; } | Возвращает или задает нижнее поле в TextFrame. Чтение/записьDouble. |
-| [MarginLeft](../../aspose.slides/icell/marginleft) { get; set; } | Возвращает или устанавливает левое поле в TextFrame. Чтение/записьDouble. |
-| [MarginRight](../../aspose.slides/icell/marginright) { get; set; } | Возвращает или устанавливает правое поле в TextFrame. Чтение/записьDouble. |
-| [MarginTop](../../aspose.slides/icell/margintop) { get; set; } | Возвращает или задает верхнее поле в TextFrame. Чтение/записьDouble. |
-| [MinimalHeight](../../aspose.slides/icell/minimalheight) { get; } | Возвращает минимальную высоту ячейки. Это сумма минимальных высот всех строк, закрытых ячейкой. Только для чтенияDouble. |
-| [OffsetX](../../aspose.slides/icell/offsetx) { get; } | Возвращает расстояние от левого края таблицы до левого края ячейки. Только для чтенияDouble. |
-| [OffsetY](../../aspose.slides/icell/offsety) { get; } | Возвращает расстояние от верхнего края таблицы до верхнего края ячейки. Только для чтенияDouble. |
-| [RowSpan](../../aspose.slides/icell/rowspan) { get; } | Возвращает количество строк, занимаемых объединенной ячейкой. Это используется в сочетании с атрибутом vMerge в других ячейках, чтобы указать начальную ячейку горизонтального слияния. Только для чтенияInt32. |
-| [Table](../../aspose.slides/icell/table) { get; } | Возвращает родительский объект таблицы для ячейки. Только для чтения[`ITable`](../itable). |
-| [TextAnchorType](../../aspose.slides/icell/textanchortype) { get; set; } | Возвращает или задает тип привязки к тексту. Чтение/запись[`TextAnchorType`](../textanchortype). |
-| [TextFrame](../../aspose.slides/icell/textframe) { get; } | Возвращает текстовый фрейм ячейки. Только для чтения[`ITextFrame`](../itextframe). |
-| [TextVerticalType](../../aspose.slides/icell/textverticaltype) { get; set; } | Возвращает или задает тип вертикального текста. Чтение/запись[`TextVerticalType`](../textverticaltype). |
-| [Width](../../aspose.slides/icell/width) { get; } | Возвращает ширину ячейки. Только для чтенияDouble. |
+| [AnchorCenter](../../aspose.slides/icell/anchorcenter) { get; set; } | Определяет, центрируется ли текстовое поле внутри ячейки. Чтение/записьBoolean . |
+| [AsISlideComponent](../../aspose.slides/icell/asislidecomponent) { get; } | Позволяет получить базовый интерфейс ISlideComponent. Только для чтения[`ISlideComponent`](../islidecomponent) . |
+| [CellFormat](../../aspose.slides/icell/cellformat) { get; } | Возвращает объект CellFormat, содержащий свойства форматирования для этой ячейки. Только для чтения[`ICellFormat`](../icellformat) . |
+| [ColSpan](../../aspose.slides/icell/colspan) { get; } | Возвращает количество столбцов сетки в таблице grid родительской таблицы, которые должны охватывать текущую ячейку. Это свойство позволяет ячейкам выглядеть объединенными, поскольку они охватывают вертикальные границы других ячеек в таблице. Только для чтенияInt32 . |
+| [FirstColumn](../../aspose.slides/icell/firstcolumn) { get; } | Получает первый столбец ячейки. Только для чтения[`IColumn`](../icolumn) . |
+| [FirstColumnIndex](../../aspose.slides/icell/firstcolumnindex) { get; } | Возвращает индекс первого столбца, охваченного ячейкой. Только для чтенияInt32 . |
+| [FirstRow](../../aspose.slides/icell/firstrow) { get; } | Получает первую строку ячейки. Только для чтения[`IRow`](../irow) . |
+| [FirstRowIndex](../../aspose.slides/icell/firstrowindex) { get; } | Возвращает индекс первой строки, охватываемой ячейкой. Только для чтенияInt32 . |
+| [Height](../../aspose.slides/icell/height) { get; } | Возвращает высоту ячейки. Только для чтенияDouble . |
+| [IsMergedCell](../../aspose.slides/icell/ismergedcell) { get; } | Возвращает значение true, если ячейка объединяется с любой скорректированной ячейкой, в противном случае — значение false. Только для чтенияBoolean . |
+| [MarginBottom](../../aspose.slides/icell/marginbottom) { get; set; } | Возвращает или устанавливает нижнее поле в TextFrame. Чтение/записьDouble |
+| [MarginLeft](../../aspose.slides/icell/marginleft) { get; set; } | Возвращает или задает левое поле в TextFrame. Чтение/записьDouble |
+| [MarginRight](../../aspose.slides/icell/marginright) { get; set; } | Возвращает или устанавливает правое поле в TextFrame. Чтение/записьDouble |
+| [MarginTop](../../aspose.slides/icell/margintop) { get; set; } | Возвращает или устанавливает верхнее поле в TextFrame. Чтение/записьDouble |
+| [MinimalHeight](../../aspose.slides/icell/minimalheight) { get; } | Возвращает минимальную высоту ячейки. Это сумма минимальных высот всех строк, закрытых ячейкой. Только для чтенияDouble . |
+| [OffsetX](../../aspose.slides/icell/offsetx) { get; } | Возвращает расстояние от левого края таблицы до левого края ячейки. Только для чтенияDouble . |
+| [OffsetY](../../aspose.slides/icell/offsety) { get; } | Возвращает расстояние от верхней части таблицы до верхней части ячейки. Только для чтенияDouble . |
+| [RowSpan](../../aspose.slides/icell/rowspan) { get; } | Возвращает количество строк, занимаемых объединенной ячейкой. Это используется в комбинации с атрибутом vMerge в других ячейках, чтобы указать начало ячейки горизонтального слияния. Только для чтенияInt32 . |
+| [Table](../../aspose.slides/icell/table) { get; } | Возвращает родительский объект Table для ячейки. Только для чтения[`ITable`](../itable) . |
+| [TextAnchorType](../../aspose.slides/icell/textanchortype) { get; set; } | Возвращает или задает тип привязки к тексту. Чтение/запись[`TextAnchorType`](../textanchortype) . |
+| [TextFrame](../../aspose.slides/icell/textframe) { get; } | Возвращает текстовый фрейм ячейки. Только для чтения[`ITextFrame`](../itextframe) . |
+| [TextVerticalType](../../aspose.slides/icell/textverticaltype) { get; set; } | Возвращает или задает тип вертикального текста. Чтение/запись[`TextVerticalType`](../textverticaltype) . |
+| [Width](../../aspose.slides/icell/width) { get; } | Возвращает ширину ячейки. Только для чтенияDouble . |
 
 ## Методы
 

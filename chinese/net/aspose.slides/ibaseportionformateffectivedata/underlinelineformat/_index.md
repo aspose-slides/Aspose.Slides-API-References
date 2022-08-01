@@ -1,14 +1,14 @@
 ---
 title: UnderlineLineFormat
 second_title: Aspose.Slides for .NET API 参考
-description: 返回用于勾勒下划线的 LineFormat 属性 只读ILineFormatEffectiveDataaspose.slides/ilineformateffectivedata
+description: 返回用于勾勒下划线的 LineFormat 属性 只读ILineFormatEffectiveDataaspose.slides/ilineformateffectivedata.
 type: docs
 weight: 270
 url: /zh/net/aspose.slides/ibaseportionformateffectivedata/underlinelineformat/
 ---
 ## IBasePortionFormatEffectiveData.UnderlineLineFormat property
 
-返回用于勾勒下划线的 LineFormat 属性。 只读[`ILineFormatEffectiveData`](../../ilineformateffectivedata)。
+返回用于勾勒下划线的 LineFormat 属性。 只读[`ILineFormatEffectiveData`](../../ilineformateffectivedata).
 
 ```csharp
 public ILineFormatEffectiveData UnderlineLineFormat { get; }

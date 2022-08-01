@@ -1,14 +1,14 @@
 ---
 title: ImageTransform
 second_title: Aspose.Slides for .NET API 参考
-description: 返回图像变换效果的集合 只读IImageTransformOperationCollectionaspose.slides.effects/iimagetransformoperationcollection
+description: 返回图像变换效果的集合 只读IImageTransformOperationCollectionaspose.slides.effects/iimagetransformoperationcollection.
 type: docs
-weight: 20
+weight: 30
 url: /zh/net/aspose.slides/picture/imagetransform/
 ---
 ## Picture.ImageTransform property
 
-返回图像变换效果的集合。 只读[`IImageTransformOperationCollection`](../../../aspose.slides.effects/iimagetransformoperationcollection)。
+返回图像变换效果的集合。 只读[`IImageTransformOperationCollection`](../../../aspose.slides.effects/iimagetransformoperationcollection).
 
 ```csharp
 public IImageTransformOperationCollection ImageTransform { get; }

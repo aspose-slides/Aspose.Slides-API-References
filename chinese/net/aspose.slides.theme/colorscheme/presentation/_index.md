@@ -1,14 +1,14 @@
 ---
 title: Presentation
 second_title: Aspose.Slides for .NET API 参考
-description: 返回父演示文稿 只读IPresentationaspose.slides/ipresentation
+description: 返回父演示文稿 只读IPresentationaspose.slides/ipresentation.
 type: docs
 weight: 140
 url: /zh/net/aspose.slides.theme/colorscheme/presentation/
 ---
 ## ColorScheme.Presentation property
 
-返回父演示文稿。 只读[`IPresentation`](../../../aspose.slides/ipresentation)。
+返回父演示文稿。 只读[`IPresentation`](../../../aspose.slides/ipresentation).
 
 ```csharp
 public IPresentation Presentation { get; }

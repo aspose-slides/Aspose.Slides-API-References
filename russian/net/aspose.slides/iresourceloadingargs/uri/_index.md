@@ -1,14 +1,14 @@
 ---
 title: Uri
 second_title: Справочник по API Aspose.Slides для .NET
-description: URI ресурса который используется для загрузки еслиResourceLoadingaspose.slides/iresourceloadingcallback/resourceloading возвращаетDefault. Первоначально он установлен на исходный URI ресурса но может быть переопределен на любое значение.
+description: URI ресурса который используется для скачивания еслиResourceLoadingaspose.slides/iresourceloadingcallback/resourceloading возвращаетDefault . Изначально устанавливается в исходный URI ресурса но может быть переопределен на любое значение.
 type: docs
 weight: 20
 url: /ru/net/aspose.slides/iresourceloadingargs/uri/
 ---
 ## IResourceLoadingArgs.Uri property
 
-URI ресурса, который используется для загрузки, если[`ResourceLoading`](../../iresourceloadingcallback/resourceloading) возвращаетDefault. Первоначально он установлен на исходный URI ресурса, но может быть переопределен на любое значение.
+URI ресурса, который используется для скачивания, если[`ResourceLoading`](../../iresourceloadingcallback/resourceloading) возвращаетDefault . Изначально устанавливается в исходный URI ресурса, но может быть переопределен на любое значение.
 
 ```csharp
 public string Uri { get; set; }

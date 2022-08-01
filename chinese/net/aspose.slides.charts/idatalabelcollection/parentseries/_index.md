@@ -1,14 +1,14 @@
 ---
 title: ParentSeries
 second_title: Aspose.Slides for .NET API 参考
-description: 返回父图表系列 只读IChartSeriesaspose.slides.charts/ichartseries
+description: 返回父图表系列 只读IChartSeriesaspose.slides.charts/ichartseries.
 type: docs
 weight: 80
 url: /zh/net/aspose.slides.charts/idatalabelcollection/parentseries/
 ---
 ## IDataLabelCollection.ParentSeries property
 
-返回父图表系列。 只读[`IChartSeries`](../../ichartseries)。
+返回父图表系列。 只读[`IChartSeries`](../../ichartseries).
 
 ```csharp
 public IChartSeries ParentSeries { get; }

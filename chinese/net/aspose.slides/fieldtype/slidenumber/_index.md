@@ -1,14 +1,14 @@
 ---
 title: SlideNumber
 second_title: Aspose.Slides for .NET API 参考
-description: 当前幻灯片的编号 只读FieldTypeaspose.slides/fieldtype
+description: 当前幻灯片的编号 只读FieldTypeaspose.slides/fieldtype.
 type: docs
 weight: 180
 url: /zh/net/aspose.slides/fieldtype/slidenumber/
 ---
 ## FieldType.SlideNumber property
 
-当前幻灯片的编号。 只读[`FieldType`](../../fieldtype)。
+当前幻灯片的编号。 只读[`FieldType`](../../fieldtype).
 
 ```csharp
 public static FieldType SlideNumber { get; }

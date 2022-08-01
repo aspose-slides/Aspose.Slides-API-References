@@ -18,8 +18,8 @@ public interface IThemeEffectiveData
 
 | Имя | Описание |
 | --- | --- |
-| [FontScheme](../../aspose.slides.theme/ithemeeffectivedata/fontscheme) { get; } | Возвращает схему шрифта. Только чтение[`IFontSchemeEffectiveData`](../ifontschemeeffectivedata). |
-| [FormatScheme](../../aspose.slides.theme/ithemeeffectivedata/formatscheme) { get; } | Возвращает схему формата фигуры. Только для чтения[`IFormatSchemeEffectiveData`](../iformatschemeeffectivedata). |
+| [FontScheme](../../aspose.slides.theme/ithemeeffectivedata/fontscheme) { get; } | Возвращает схему шрифта. Только для чтения[`IFontSchemeEffectiveData`](../ifontschemeeffectivedata) . |
+| [FormatScheme](../../aspose.slides.theme/ithemeeffectivedata/formatscheme) { get; } | Возвращает схему формата формы. Только для чтения[`IFormatSchemeEffectiveData`](../iformatschemeeffectivedata) . |
 
 ## Методы
 
@@ -29,7 +29,7 @@ public interface IThemeEffectiveData
 
 ### Примечания
 
-Этот интерфейс используется вместе сИнтерфейсIThemeдля возврата эффективных значений форматирования с применением наследования.
+Этот интерфейс используется вместе с[`ITheme`](../itheme) интерфейс для возврата эффективных значений форматирования с применением наследования.
 
 ### Смотрите также
 

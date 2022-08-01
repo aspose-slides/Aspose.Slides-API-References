@@ -1,14 +1,14 @@
 ---
 title: ValueType
 second_title: Справочник по API Aspose.Slides для .NET
-description: Указывает тип значения свойства. Чтение/записьPropertyValueTypeaspose.slides.animation/propertyvaluetype.
+description: Определяет тип значения свойства. Чтение/записьPropertyValueTypeaspose.slides.animation/propertyvaluetype .
 type: docs
 weight: 70
 url: /ru/net/aspose.slides.animation/propertyeffect/valuetype/
 ---
 ## PropertyEffect.ValueType property
 
-Указывает тип значения свойства. Чтение/запись[`PropertyValueType`](../../propertyvaluetype).
+Определяет тип значения свойства. Чтение/запись[`PropertyValueType`](../../propertyvaluetype) .
 
 ```csharp
 public PropertyValueType ValueType { get; set; }

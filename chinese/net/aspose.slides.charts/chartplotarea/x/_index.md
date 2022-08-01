@@ -1,14 +1,14 @@
 ---
 title: X
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置绘图区域边界框左上角的 x 坐标为图表宽度的分数从 0 到 1 读/写Single
+description: 返回或设置绘图区域边界框左上角的 x 坐标为图表宽度的分数从 0 到 1 读/写Single.
 type: docs
 weight: 130
 url: /zh/net/aspose.slides.charts/chartplotarea/x/
 ---
 ## ChartPlotArea.X property
 
-返回或设置绘图区域边界框左上角的 x 坐标为图表宽度的分数（从 0 到 1）。 读/写Single。
+返回或设置绘图区域边界框左上角的 x 坐标为图表宽度的分数（从 0 到 1）。 读/写Single.
 
 ```csharp
 public float X { get; set; }

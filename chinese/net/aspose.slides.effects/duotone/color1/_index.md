@@ -1,14 +1,14 @@
 ---
 title: Color1
 second_title: Aspose.Slides for .NET API 参考
-description: 返回暗像素的目标颜色格式 只读IColorFormataspose.slides/icolorformat
+description: 返回暗像素的目标颜色格式 只读IColorFormataspose.slides/icolorformat.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides.effects/duotone/color1/
 ---
 ## Duotone.Color1 property
 
-返回暗像素的目标颜色格式。 只读[`IColorFormat`](../../../aspose.slides/icolorformat)。
+返回暗像素的目标颜色格式。 只读[`IColorFormat`](../../../aspose.slides/icolorformat).
 
 ```csharp
 public IColorFormat Color1 { get; }

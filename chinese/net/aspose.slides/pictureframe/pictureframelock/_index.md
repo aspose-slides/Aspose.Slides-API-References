@@ -1,14 +1,14 @@
 ---
 title: PictureFrameLock
 second_title: Aspose.Slides for .NET API 参考
-description: 返回形状的锁 只读IPictureFrameLockaspose.slides/ipictureframelock
+description: 返回形状的锁 只读IPictureFrameLockaspose.slides/ipictureframelock.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides/pictureframe/pictureframelock/
 ---
 ## PictureFrame.PictureFrameLock property
 
-返回形状的锁。 只读[`IPictureFrameLock`](../../ipictureframelock)。
+返回形状的锁。 只读[`IPictureFrameLock`](../../ipictureframelock).
 
 ```csharp
 public IPictureFrameLock PictureFrameLock { get; }

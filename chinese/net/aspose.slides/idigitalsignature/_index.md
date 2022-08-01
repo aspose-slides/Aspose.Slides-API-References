@@ -18,10 +18,10 @@ public interface IDigitalSignature
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Certificate](../../aspose.slides/idigitalsignature/certificate) { get; } | 用于签署文档的证书对象。 只读X509Certificate2。 |
-| [Comments](../../aspose.slides/idigitalsignature/comments) { get; set; } | 签名的目的。 读/写String。 |
-| [IsValid](../../aspose.slides/idigitalsignature/isvalid) { get; } | 如果此数字签名有效且文档未被篡改，则此值为真。 只读Boolean。 |
-| [SignTime](../../aspose.slides/idigitalsignature/signtime) { get; } | 文件签署的时间。 只读DateTime。 |
+| [Certificate](../../aspose.slides/idigitalsignature/certificate) { get; } | 用于签署文档的证书对象。 只读X509Certificate2. |
+| [Comments](../../aspose.slides/idigitalsignature/comments) { get; set; } | 签名的目的。 读/写String. |
+| [IsValid](../../aspose.slides/idigitalsignature/isvalid) { get; } | 如果此数字签名有效且文档未被篡改，则此值为真。 只读Boolean. |
+| [SignTime](../../aspose.slides/idigitalsignature/signtime) { get; } | 文档签署的时间。 只读DateTime. |
 
 ### 也可以看看
 

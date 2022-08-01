@@ -12,13 +12,13 @@ url: /zh/net/aspose.slides.export.web/
 
 | 班级 | 描述 |
 | --- | --- |
-| [Input](./input) | 表示!:IWebDocument的输入元素（模板）的集合。 |
-| [Output](./output) | 表示!:IWebDocument的输出元素的集合。 |
+| [Input](./input) | 表示输入元素（模板）的集合!:IWebDocument. |
+| [Output](./output) | 表示输出元素的集合!:IWebDocument. |
 | [OutputFile](./outputfile) | 表示输出文件。 |
-| [Storage](./storage) | 表示[`WebDocument`](../aspose.slides.export.web/webdocument)的临时数据存储。 |
+| [Storage](./storage) | 表示临时数据存储[`WebDocument`](../aspose.slides.export.web/webdocument). |
 | [TemplateContext&lt;TObject&gt;](./templatecontext-1) | 表示模板引擎的模型对象接口。 |
 | [WebDocument](./webdocument) | 表示用于保存为 Web 格式的演示文稿的转换形式。 |
-| [WebDocumentOptions](./webdocumentoptions) | 表示为[`WebDocument`](../aspose.slides.export.web/webdocument)保存设置的选项。 |
+| [WebDocumentOptions](./webdocumentoptions) | 表示为[`WebDocument`](../aspose.slides.export.web/webdocument)保存. |
 ## 接口
 
 | 界面 | 描述 |

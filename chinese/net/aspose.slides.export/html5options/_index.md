@@ -24,15 +24,15 @@ public class Html5Options : SaveOptions, IHtml5Options
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AnimateShapes](../../aspose.slides.export/html5options/animateshapes) { get; set; } | 返回或设置形状动画选项。 读/写Boolean。 |
-| [AnimateTransitions](../../aspose.slides.export/html5options/animatetransitions) { get; set; } | 返回或设置过渡动画选项。 读/写Boolean。 |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | 返回或设置在未找到源字体时使用的字体。 读写String。 |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | 表示用于保存进度更新百分比的回调对象。 见[`IProgressCallback`](../../aspose.slides/iprogresscallback)。 |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | 返回一个对象，该对象接收警告并决定加载过程是继续还是中止。 读/写[`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback)。 |
+| [AnimateShapes](../../aspose.slides.export/html5options/animateshapes) { get; set; } | 返回或设置形状动画选项。 读/写Boolean. |
+| [AnimateTransitions](../../aspose.slides.export/html5options/animatetransitions) { get; set; } | 返回或设置过渡动画选项。 读/写Boolean. |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | 返回或设置在未找到源字体时使用的字体。 读写String. |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | 表示以百分比保存进度更新的回调对象。 见[`IProgressCallback`](../../aspose.slides/iprogresscallback). |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | 设置一个对象的返回，该对象接收警告并决定加载过程是继续还是中止。 读/写[`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]

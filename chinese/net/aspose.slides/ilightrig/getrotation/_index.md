@@ -1,14 +1,14 @@
 ---
 title: GetRotation
 second_title: Aspose.Slides for .NET API 参考
-description: 旋转是通过使用纬度 坐标经度坐标和绕轴47旋转来定义的作为经纬度坐标 返回数组中的第一个元素 - 纬度第二个 - 经度第三个 - 旋转
+description: 通过使用 latitude 坐标经度坐标和绕轴 的旋转作为纬度和经度坐标来定义旋转 返回数组中的第一个元素 - 纬度第二个 - 经度第三个 - 旋转
 type: docs
 weight: 30
 url: /zh/net/aspose.slides/ilightrig/getrotation/
 ---
 ## ILightRig.GetRotation method
 
-旋转是通过使用纬度 坐标、经度坐标和绕轴:::47::旋转来定义的:作为经纬度坐标。 返回数组中的第一个元素 - 纬度，第二个 - 经度，第三个 - 旋转。
+通过使用 latitude 坐标、经度坐标和绕轴 的旋转作为纬度和经度坐标来定义旋转。 返回数组中的第一个元素 - 纬度，第二个 - 经度，第三个 - 旋转。
 
 ```csharp
 public float[] GetRotation()

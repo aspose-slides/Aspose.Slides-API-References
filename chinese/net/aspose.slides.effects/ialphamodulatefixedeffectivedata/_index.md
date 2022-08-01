@@ -1,14 +1,14 @@
 ---
 title: IAlphaModulateFixedEffectiveData
 second_title: Aspose.Slides for .NET API 参考
-description: 表示 Alpha Modulate Fixed 效果的不可变对象 效果 alpha不透明度值乘以固定百分比
+description: 表示 Alpha 调制固定效果的不可变对象 效果 alpha不透明度值乘以固定百分比
 type: docs
 weight: 2950
 url: /zh/net/aspose.slides.effects/ialphamodulatefixedeffectivedata/
 ---
 ## IAlphaModulateFixedEffectiveData interface
 
-表示 Alpha Modulate Fixed 效果的不可变对象。 效果 alpha（不透明度）值乘以固定百分比。
+表示 Alpha 调制固定效果的不可变对象。 效果 alpha（不透明度）值乘以固定百分比。
 
 ```csharp
 public interface IAlphaModulateFixedEffectiveData : IEffectEffectiveData
@@ -18,8 +18,8 @@ public interface IAlphaModulateFixedEffectiveData : IEffectEffectiveData
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Amount](../../aspose.slides.effects/ialphamodulatefixedeffectivedata/amount) { get; } | 以百分比返回效果量。 只读Single。 |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphamodulatefixedeffectivedata/asieffecteffectivedata) { get; } | 允许获取基础 IEffectEffectiveData 接口。 只读[`IEffectEffectiveData`](../ieffecteffectivedata)。 |
+| [Amount](../../aspose.slides.effects/ialphamodulatefixedeffectivedata/amount) { get; } | 以百分比返回效果量。 只读Single. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphamodulatefixedeffectivedata/asieffecteffectivedata) { get; } | 允许获取基本 IEffectEffectiveData 接口。 只读[`IEffectEffectiveData`](../ieffecteffectivedata). |
 
 ### 也可以看看
 

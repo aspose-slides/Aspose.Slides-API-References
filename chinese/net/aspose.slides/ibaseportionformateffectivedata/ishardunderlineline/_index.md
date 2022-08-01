@@ -1,14 +1,14 @@
 ---
 title: IsHardUnderlineLine
 second_title: Aspose.Slides for .NET API 参考
-description: 确定下划线样式是否具有自己的 LineFormat 属性或从文本的 LineFormat 属性继承  只读Boolean
+description: 确定下划线样式是有自己的 LineFormat 属性还是继承自文本的 LineFormat 属性  只读Boolean.
 type: docs
 weight: 130
 url: /zh/net/aspose.slides/ibaseportionformateffectivedata/ishardunderlineline/
 ---
 ## IBasePortionFormatEffectiveData.IsHardUnderlineLine property
 
-确定下划线样式是否具有自己的 LineFormat 属性或从文本的 LineFormat 属性继承 。 只读Boolean。
+确定下划线样式是有自己的 LineFormat 属性还是继承自文本的 LineFormat 属性 。 只读Boolean.
 
 ```csharp
 public bool IsHardUnderlineLine { get; }

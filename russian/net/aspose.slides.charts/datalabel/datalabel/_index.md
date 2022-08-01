@@ -16,7 +16,7 @@ public DataLabel(IChartDataPoint parentImmediate)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| parentImmediate | IChartDataPoint | Parent ChartDataPoint. |
+| parentImmediate | IChartDataPoint | Родительский ChartDataPoint. |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: CreateMathBorderBox
 second_title: Справочник по API Aspose.Slides для .NET
-description: Создайте математическую рамку применив к элементу
+description: Создайте математическую рамку применив к element
 type: docs
 weight: 10
 url: /ru/net/aspose.slides.mathtext/imathborderboxfactory/createmathborderbox/
 ---
 ## CreateMathBorderBox(IMathElement) {#createmathborderbox}
 
-Создайте математическую рамку, применив к элементу
+Создайте математическую рамку, применив к element
 
 ```csharp
 public IMathBorderBox CreateMathBorderBox(IMathElement element)
@@ -34,7 +34,7 @@ public IMathBorderBox CreateMathBorderBox(IMathElement element)
 
 ## CreateMathBorderBox(IMathElement, bool, bool, bool, bool, bool, bool, bool, bool) {#createmathborderbox_1}
 
-Создайте математическую рамку, применив к элементу
+Создайте математическую рамку, применив к element
 
 ```csharp
 public IMathBorderBox CreateMathBorderBox(IMathElement element, bool hideTop, bool hideBottom, 
@@ -49,10 +49,10 @@ public IMathBorderBox CreateMathBorderBox(IMathElement element, bool hideTop, bo
 | hideBottom | Boolean | Скрыть нижний край |
 | hideLeft | Boolean | Скрыть левый край |
 | hideRight | Boolean | Скрыть правый край |
-| strikethroughHorizontal | Boolean | Пограничная рамка, перечеркнутая по горизонтали |
-| strikethroughVertical | Boolean | Пограничная рамка, перечеркнутая по вертикали |
-| strikethroughBottomLeftToTopRight | Boolean | Пограничная рамка, перечеркнутая снизу слева вверху справа |
-| strikethroughTopLeftToBottomRight | Boolean | Пограничная рамка, перечеркнутая сверху слева и снизу справа |
+| strikethroughHorizontal | Boolean | Пограничная рамка Зачеркнутая Горизонтальная |
+| strikethroughVertical | Boolean | Рамка Перечеркнутая Вертикальная |
+| strikethroughBottomLeftToTopRight | Boolean | Граница перечеркнута снизу слева вверх-вправо |
+| strikethroughTopLeftToBottomRight | Boolean | Граница перечеркнута слева вверху справа внизу |
 
 ### Возвращаемое значение
 

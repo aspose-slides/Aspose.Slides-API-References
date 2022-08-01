@@ -18,13 +18,13 @@ public interface IGradientFormat : IFillParamSource
 
 | Имя | Описание |
 | --- | --- |
-| [AsIFillParamSource](../../aspose.slides/igradientformat/asifillparamsource) { get; } | Позволяет получить базовый интерфейс IFillParamSource. Только для чтения[`IFillParamSource`](../ifillparamsource). |
-| [GradientDirection](../../aspose.slides/igradientformat/gradientdirection) { get; set; } | Возвращает или задает стиль градиента. Чтение/запись[`GradientDirection`](../gradientdirection). |
-| [GradientShape](../../aspose.slides/igradientformat/gradientshape) { get; set; } | Возвращает или задает форму градиента. Чтение/запись[`GradientShape`](../gradientshape). |
-| [GradientStops](../../aspose.slides/igradientformat/gradientstops) { get; } | Возвращает набор остановок градиента. Только для чтения[`IGradientStopCollection`](../igradientstopcollection). |
-| [LinearGradientAngle](../../aspose.slides/igradientformat/lineargradientangle) { get; set; } | Возвращает или задает угол градиента. Чтение/записьSingle. |
-| [LinearGradientScaled](../../aspose.slides/igradientformat/lineargradientscaled) { get; set; } | Определяет, масштабируется ли градиент. Чтение/запись[`NullableBool`](../nullablebool). |
-| [TileFlip](../../aspose.slides/igradientformat/tileflip) { get; set; } | Возвращает или устанавливает режим отражения для градиента. Чтение/запись[`TileFlip`](../tileflip). |
+| [AsIFillParamSource](../../aspose.slides/igradientformat/asifillparamsource) { get; } | Позволяет получить базовый интерфейс IFillParamSource. Только для чтения[`IFillParamSource`](../ifillparamsource) . |
+| [GradientDirection](../../aspose.slides/igradientformat/gradientdirection) { get; set; } | Возвращает или задает стиль градиента. Чтение/запись[`GradientDirection`](../gradientdirection) . |
+| [GradientShape](../../aspose.slides/igradientformat/gradientshape) { get; set; } | Возвращает или задает форму градиента. Чтение/запись[`GradientShape`](../gradientshape) . |
+| [GradientStops](../../aspose.slides/igradientformat/gradientstops) { get; } | Возвращает коллекцию остановок градиента. Только для чтения[`IGradientStopCollection`](../igradientstopcollection) . |
+| [LinearGradientAngle](../../aspose.slides/igradientformat/lineargradientangle) { get; set; } | Возвращает или задает угол градиента. Чтение/записьSingle . |
+| [LinearGradientScaled](../../aspose.slides/igradientformat/lineargradientscaled) { get; set; } | Определяет, масштабируется ли градиент. Чтение/запись[`NullableBool`](../nullablebool) . |
+| [TileFlip](../../aspose.slides/igradientformat/tileflip) { get; set; } | Возвращает или задает режим отражения для градиента. Чтение/запись[`TileFlip`](../tileflip) . |
 
 ### Смотрите также
 

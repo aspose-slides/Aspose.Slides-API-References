@@ -24,10 +24,10 @@ public sealed class MathPortion : Portion, IMathPortion
 
 | Имя | Описание |
 | --- | --- |
-| [Field](../../aspose.slides/portion/field) { get; } | Возвращает поле этой части. Только для чтения[`IField`](../../aspose.slides/ifield). |
-| [MathParagraph](../../aspose.slides.mathtext/mathportion/mathparagraph) { get; } | Математический параграф |
-| [PortionFormat](../../aspose.slides/portion/portionformat) { get; } | Возвращает объект форматирования, который содержит явно установленные свойства форматирования текстовой части без применения наследования. Только для чтения[`IPortionFormat`](../../aspose.slides/iportionformat). |
-| [Text](../../aspose.slides/portion/text) { get; set; } | Получает или задает обычный текст части. Чтение/записьString. |
+| [Field](../../aspose.slides/portion/field) { get; } | Возвращает поле этой части. Только для чтения[`IField`](../../aspose.slides/ifield) . |
+| [MathParagraph](../../aspose.slides.mathtext/mathportion/mathparagraph) { get; } | Математический абзац |
+| [PortionFormat](../../aspose.slides/portion/portionformat) { get; } | Возвращает объект форматирования, который содержит явно установленные свойства форматирования текстовой части без применения наследования. Только для чтения[`IPortionFormat`](../../aspose.slides/iportionformat) . |
+| [Text](../../aspose.slides/portion/text) { get; set; } | Получает или задает обычный текст части. Чтение/записьString . |
 
 ## Методы
 
@@ -35,8 +35,8 @@ public sealed class MathPortion : Portion, IMathPortion
 | --- | --- |
 | [AddField](../../aspose.slides/portion/addfield)(IFieldType) | Преобразует эту часть в автоматически обновляемое поле. |
 | [AddField](../../aspose.slides/portion/addfield)(string) | Преобразует эту часть в автоматически обновляемое поле. |
-| [GetCoordinates](../../aspose.slides/portion/getcoordinates)() | Получить координаты начала участка. Координата X точки представляет собой часть , начинающуюся с первого символа, включая левый боковой подшипник. Координата Y включает верхний боковой подшипник. |
-| [GetRect](../../aspose.slides/portion/getrect)() | Получить координаты прямоугольника, ограничивающего часть. Прямоугольник включает в себя все строки text в порции, включая пустые. |
+| [GetCoordinates](../../aspose.slides/portion/getcoordinates)() | Получить координаты начала участка. Координата X точки представляет часть , начинающуюся с первого символа, включая левый боковой подшипник. Координата Y включает верхний боковой подшипник. |
+| [GetRect](../../aspose.slides/portion/getrect)() | Получить координаты прямоугольника, ограничивающего часть. Прямоугольник включает в себя все строки текста в части, включая пустые. |
 | [RemoveField](../../aspose.slides/portion/removefield)() | Преобразует эту часть поля в простую часть. |
 
 ### Примеры

@@ -16,13 +16,13 @@ public void SetColumnsAlignment(int columnIndex, uint columnsCount, MathHorizont
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| columnIndex | Int32 | 零设置对齐方式的第一列的基于索引 |
-| columnsCount | UInt32 | 指定对齐方式的列数 |
+| columnIndex | Int32 | 用于设置对齐的第一列的从零开始的索引 |
+| columnsCount | UInt32 | 指定对齐的列数 |
 | val | MathHorizontalAlignment | 指定列水平对齐的新值 |
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]

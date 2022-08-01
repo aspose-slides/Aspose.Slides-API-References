@@ -1,14 +1,14 @@
 ---
 title: Size
 second_title: Справочник по API Aspose.Slides для .NET
-description: Получает ширину и высоту изображения в пикселях. Только для чтенияSizeaspose.slides/imagewrapper/size.
+description: Получает ширину и высоту изображения в пикселях. Только для чтенияSizeaspose.slides/imagewrapper/size .
 type: docs
 weight: 20
 url: /ru/net/aspose.slides/imagewrapper/size/
 ---
 ## ImageWrapper.Size property
 
-Получает ширину и высоту изображения в пикселях. Только для чтения`Size`.
+Получает ширину и высоту изображения в пикселях. Только для чтения`Size` .
 
 ```csharp
 public Size Size { get; }

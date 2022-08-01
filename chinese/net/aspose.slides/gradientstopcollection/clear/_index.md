@@ -1,14 +1,14 @@
 ---
 title: Clear
 second_title: Aspose.Slides for .NET API 参考
-description: 从集合中删除所有渐变停止点
+description: 从集合中移除所有渐变色标
 type: docs
 weight: 60
 url: /zh/net/aspose.slides/gradientstopcollection/clear/
 ---
 ## GradientStopCollection.Clear method
 
-从集合中删除所有渐变停止点。
+从集合中移除所有渐变色标。
 
 ```csharp
 public void Clear()

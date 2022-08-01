@@ -24,7 +24,7 @@ public interface IDigitalSignatureCollection : IGenericCollection<IDigitalSignat
 
 | Имя | Описание |
 | --- | --- |
-| [Add](../../aspose.slides/idigitalsignaturecollection/add)(IDigitalSignature) | Добавляет подпись в конце коллекции. |
+| [Add](../../aspose.slides/idigitalsignaturecollection/add)(IDigitalSignature) | Добавляет подпись в конец коллекции. |
 | [Clear](../../aspose.slides/idigitalsignaturecollection/clear)() | Удаляет все подписи из коллекции. |
 | [RemoveAt](../../aspose.slides/idigitalsignaturecollection/removeat)(int) | Удаляет подпись по указанному индексу. |
 

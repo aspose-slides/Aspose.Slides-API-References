@@ -1,14 +1,14 @@
 ---
 title: Height
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置绘图区域边界框的高度作为图表高度的一部分从 0 到 1 读/写Single
+description: 返回或设置绘图区域边界框的高度作为图表高度的一部分从 0 到 1 读/写Single.
 type: docs
 weight: 80
 url: /zh/net/aspose.slides.charts/chartplotarea/height/
 ---
 ## ChartPlotArea.Height property
 
-返回或设置绘图区域边界框的高度，作为图表高度的一部分（从 0 到 1）。 读/写Single。
+返回或设置绘图区域边界框的高度，作为图表高度的一部分（从 0 到 1）。 读/写Single.
 
 ```csharp
 public float Height { get; set; }

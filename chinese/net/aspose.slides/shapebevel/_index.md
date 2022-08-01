@@ -24,10 +24,10 @@ public class ShapeBevel : PVIObject, IShapeBevel
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允许获取基本 IPresentationComponent 接口。 只读[`IPresentationComponent`](../ipresentationcomponent)。 |
-| [BevelType](../../aspose.slides/shapebevel/beveltype) { get; set; } | 斜角类型。 读/写[`BevelPresetType`](../bevelpresettype)。 |
-| [Height](../../aspose.slides/shapebevel/height) { get; set; } | 斜角高度。 读/写Double。 |
-| [Width](../../aspose.slides/shapebevel/width) { get; set; } | 斜角宽度。 读/写Double。 |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允许获取基本 IPresentationComponent 接口。 只读[`IPresentationComponent`](../ipresentationcomponent). |
+| [BevelType](../../aspose.slides/shapebevel/beveltype) { get; set; } | 斜角类型。 读/写[`BevelPresetType`](../bevelpresettype). |
+| [Height](../../aspose.slides/shapebevel/height) { get; set; } | 斜角高度。 读/写Double. |
+| [Width](../../aspose.slides/shapebevel/width) { get; set; } | 斜角宽度。 读/写Double. |
 
 ## 方法
 

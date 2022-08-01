@@ -24,10 +24,10 @@ public sealed class TextToHtmlConversionOptions : ITextToHtmlConversionOptions
 
 | Имя | Описание |
 | --- | --- |
-| [AddClipboardFragmentHeader](../../aspose.slides.export/texttohtmlconversionoptions/addclipboardfragmentheader) { get; set; } | Возвращает или устанавливает значение, указывающее, следует ли добавлять заголовки буфера обмена. Чтение/записьBoolean. |
-| [EncodingName](../../aspose.slides.export/texttohtmlconversionoptions/encodingname) { get; set; } | Возвращает или устанавливает имя кодировки html. Это значение будет сохранено в сгенерированном файле HTML, но вызывающая сторона должна убедиться, что файл будет сохранен в этой кодировке. Чтение/записьString. |
-| [LinkEmbedController](../../aspose.slides.export/texttohtmlconversionoptions/linkembedcontroller) { get; set; } | Возвращает или устанавливает объект обратного вызова, который управляет тем, как будет сохранен внешний объект. Чтение/запись[`ILinkEmbedController`](../ilinkembedcontroller). |
-| [TextInheritanceLimit](../../aspose.slides.export/texttohtmlconversionoptions/textinheritancelimit) { get; set; } | Возвращает или задает глубину свойств текста. Чтение/запись[`TextInheritanceLimit`](../textinheritancelimit). |
+| [AddClipboardFragmentHeader](../../aspose.slides.export/texttohtmlconversionoptions/addclipboardfragmentheader) { get; set; } | Возвращает или задает значение, указывающее, следует ли добавлять заголовки буфера обмена. Чтение/записьBoolean . |
+| [EncodingName](../../aspose.slides.export/texttohtmlconversionoptions/encodingname) { get; set; } | Возвращает или задает имя кодировки html. Это значение будет сохранено в сгенерированном файле HTML, но вызывающая сторона должна убедиться, что файл будет сохранен в этой кодировке. Чтение/записьString . |
+| [LinkEmbedController](../../aspose.slides.export/texttohtmlconversionoptions/linkembedcontroller) { get; set; } | Возвращает или задает объект обратного вызова, который управляет тем, как будет храниться внешний объект. Чтение/запись[`ILinkEmbedController`](../ilinkembedcontroller) . |
+| [TextInheritanceLimit](../../aspose.slides.export/texttohtmlconversionoptions/textinheritancelimit) { get; set; } | Возвращает или задает глубину свойств текста. Чтение/запись[`TextInheritanceLimit`](../textinheritancelimit) . |
 
 ### Смотрите также
 

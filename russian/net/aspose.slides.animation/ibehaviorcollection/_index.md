@@ -18,8 +18,8 @@ public interface IBehaviorCollection : IEnumerable<IBehavior>
 
 | Имя | Описание |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.animation/ibehaviorcollection/asienumerable) { get; } | Возвращает интерфейс IEnumerable. Только для чтенияIEnumerable. |
-| [Count](../../aspose.slides.animation/ibehaviorcollection/count) { get; } | Возвращает количество вариантов поведения в коллекции. Только для чтенияInt32. |
+| [AsIEnumerable](../../aspose.slides.animation/ibehaviorcollection/asienumerable) { get; } | Возвращает интерфейс IEnumerable. Только для чтенияIEnumerable . |
+| [Count](../../aspose.slides.animation/ibehaviorcollection/count) { get; } | Возвращает количество поведений в коллекции. Только для чтенияInt32 . |
 | [Item](../../aspose.slides.animation/ibehaviorcollection/item) { get; set; } | Возвращает поведение по указанному индексу. |
 
 ## Методы
@@ -28,8 +28,8 @@ public interface IBehaviorCollection : IEnumerable<IBehavior>
 | --- | --- |
 | [Add](../../aspose.slides.animation/ibehaviorcollection/add)(IBehavior) | Добавить новое поведение в коллекцию. |
 | [Clear](../../aspose.slides.animation/ibehaviorcollection/clear)() | Удаляет все варианты поведения из коллекции. |
-| [Contains](../../aspose.slides.animation/ibehaviorcollection/contains)(IBehavior) | Определяет, содержит лиICollectionопределенное значение. |
-| [IndexOf](../../aspose.slides.animation/ibehaviorcollection/indexof)(IBehavior) | Определяет индекс конкретного элемента вIList. |
+| [Contains](../../aspose.slides.animation/ibehaviorcollection/contains)(IBehavior) | Определяет,ICollection содержит определенное значение. |
+| [IndexOf](../../aspose.slides.animation/ibehaviorcollection/indexof)(IBehavior) | Определяет индекс конкретного элемента вIList . |
 | [Insert](../../aspose.slides.animation/ibehaviorcollection/insert)(int, IBehavior) | Вставляет новое поведение в коллекцию по указанному индексу. |
 | [Remove](../../aspose.slides.animation/ibehaviorcollection/remove)(IBehavior) | Удаляет указанное поведение из коллекции. |
 | [RemoveAt](../../aspose.slides.animation/ibehaviorcollection/removeat)(int) | Удаляет поведение из коллекции по указанному индексу. |

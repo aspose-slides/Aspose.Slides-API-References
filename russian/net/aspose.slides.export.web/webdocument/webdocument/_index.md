@@ -1,14 +1,14 @@
 ---
 title: WebDocument
 second_title: Справочник по API Aspose.Slides для .NET
-description: WebDocumentaspose.slides.export.web/webdocumentконструктор.
+description: WebDocumentaspose.slides.export.web/webdocument конструктор.
 type: docs
 weight: 10
 url: /ru/net/aspose.slides.export.web/webdocument/webdocument/
 ---
 ## WebDocument constructor
 
-[`WebDocument`](../../webdocument)конструктор.
+[`WebDocument`](../../webdocument) конструктор.
 
 ```csharp
 public WebDocument(WebDocumentOptions options)

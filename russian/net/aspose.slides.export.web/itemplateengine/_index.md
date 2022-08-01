@@ -1,14 +1,14 @@
 ---
 title: ITemplateEngine
 second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет механизм шаблонов который преобразует шаблон и пару данных в результирующий вывод обычно HTML.
+description: Представляет механизм шаблонов который преобразует пару шаблона и данных в результирующий вывод обычно HTML.
 type: docs
 weight: 4190
 url: /ru/net/aspose.slides.export.web/itemplateengine/
 ---
 ## ITemplateEngine interface
 
-Представляет механизм шаблонов, который преобразует шаблон и пару данных в результирующий вывод (обычно HTML).
+Представляет механизм шаблонов, который преобразует пару шаблона и данных в результирующий вывод (обычно HTML).
 
 ```csharp
 public interface ITemplateEngine

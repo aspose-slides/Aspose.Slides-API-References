@@ -19,12 +19,12 @@ public interface IBackgroundEffectiveData : IFillParamSource
 | 姓名 | 描述 |
 | --- | --- |
 | [AsIFillParamSource](../../aspose.slides/ibackgroundeffectivedata/asifillparamsource) { get; } | 返回 IFillParamSource 接口。 |
-| [EffectFormat](../../aspose.slides/ibackgroundeffectivedata/effectformat) { get; } | 返回有效效果格式。 只读[`IEffectFormatEffectiveData`](../ieffectformateffectivedata)。 |
-| [FillFormat](../../aspose.slides/ibackgroundeffectivedata/fillformat) { get; } | 返回有效的填充格式。 只读[`IFillFormatEffectiveData`](../ifillformateffectivedata)。 |
+| [EffectFormat](../../aspose.slides/ibackgroundeffectivedata/effectformat) { get; } | 返回有效效果格式。 只读[`IEffectFormatEffectiveData`](../ieffectformateffectivedata). |
+| [FillFormat](../../aspose.slides/ibackgroundeffectivedata/fillformat) { get; } | 返回有效的填充格式。 只读[`IFillFormatEffectiveData`](../ifillformateffectivedata). |
 
 ### 评论
 
-此接口与IBackground一起使用接口返回应用继承的有效格式值。
+该接口与[`IBackground`](../ibackground)返回应用继承的有效格式值的接口。
 
 ### 也可以看看
 

@@ -16,7 +16,7 @@ public IMathAccent Accent(char accentCharacter)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| accentCharacter | Char | 重音字符。该值应在 (U+0300–U+036F) 或 (U+20D0–U+20EF) |
+| accentCharacter | Char | 重音字符。该值应在 (U+0300–U+036F) 或 (U+20D0–U+20EF) 范围内 |
 
 ### 返回值
 
@@ -24,7 +24,7 @@ public IMathAccent Accent(char accentCharacter)
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]

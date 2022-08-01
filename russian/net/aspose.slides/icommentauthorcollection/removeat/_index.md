@@ -22,8 +22,8 @@ public void RemoveAt(int index)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentOutOfRangeException | Индекс меньше 0 или равен или больше Count |
-| [PptxEditException](../../pptxeditexception) | Генерируется, если автор уже удален. |
+| ArgumentOutOfRangeException | Индекс меньше 0 или индекс равен или больше Count |
+| [PptxEditException](../../pptxeditexception) | Брошен, если автор уже удален. |
 
 ### Смотрите также
 

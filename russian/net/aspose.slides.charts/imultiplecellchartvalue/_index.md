@@ -18,8 +18,8 @@ public interface IMultipleCellChartValue : IBaseChartValue
 
 | Имя | Описание |
 | --- | --- |
-| [AsCells](../../aspose.slides.charts/imultiplecellchartvalue/ascells) { get; set; } | Возвращает или задает набор ячеек диаграммы. Чтение/запись[`IChartCellCollection`](../ichartcellcollection). |
-| [AsIBaseChartValue](../../aspose.slides.charts/imultiplecellchartvalue/asibasechartvalue) { get; } | Позволяет получить базовый интерфейс IBaseChartValue. Только для чтения[`IBaseChartValue`](../ibasechartvalue). |
+| [AsCells](../../aspose.slides.charts/imultiplecellchartvalue/ascells) { get; set; } | Возвращает или задает набор ячеек диаграммы. Чтение/запись[`IChartCellCollection`](../ichartcellcollection) . |
+| [AsIBaseChartValue](../../aspose.slides.charts/imultiplecellchartvalue/asibasechartvalue) { get; } | Позволяет получить базовый интерфейс IBaseChartValue. Только для чтения[`IBaseChartValue`](../ibasechartvalue) . |
 
 ### Смотрите также
 

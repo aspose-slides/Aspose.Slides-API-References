@@ -16,7 +16,7 @@ public void SplitByWidth(double width)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| width | Double | 列宽。 |
+| width | Double | 列的宽度。 |
 
 ### 也可以看看
 

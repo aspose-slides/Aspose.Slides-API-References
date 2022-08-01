@@ -18,16 +18,16 @@ public interface ICamera
 
 | Имя | Описание |
 | --- | --- |
-| [CameraType](../../aspose.slides/icamera/cameratype) { get; set; } | Тип камеры Чтение/запись[`CameraPresetType`](../camerapresettype). |
-| [FieldOfViewAngle](../../aspose.slides/icamera/fieldofviewangle) { get; set; } | FOV камеры (0-180 градусов, поле зрения) Чтение/записьSingle. |
-| [Zoom](../../aspose.slides/icamera/zoom) { get; set; } | Увеличение камеры (положительное значение в процентах) Чтение/записьSingle. |
+| [CameraType](../../aspose.slides/icamera/cameratype) { get; set; } | Тип камеры Чтение/запись[`CameraPresetType`](../camerapresettype) . |
+| [FieldOfViewAngle](../../aspose.slides/icamera/fieldofviewangle) { get; set; } | FOV камеры (0-180 градусов, поле обзора) Чтение/записьSingle . |
+| [Zoom](../../aspose.slides/icamera/zoom) { get; set; } | Масштаб камеры (положительное значение в процентах) Чтение/записьSingle . |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [GetRotation](../../aspose.slides/icamera/getrotation)() | Вращение определяется с помощью координаты широты, координаты долготы и вращения вокруг оси как координаты широты и долготы. первый элемент возвращаемого массива - широта, второй - долгота, третий - оборот. Возвращает null, если вращение не определено. |
-| [SetRotation](../../aspose.slides/icamera/setrotation)(float, float, float) | Вращение определяется с помощью координаты широты, координаты долготы и вращения вокруг оси как координаты широты и долготы. Если какое-либо из значений координат имеет значение float.NaN, все вращения не определены. |
+| [GetRotation](../../aspose.slides/icamera/getrotation)() | Вращение определяется с помощью использования координаты широты , координаты долготы и оборота вокруг оси в качестве координат широты и долготы. первый элемент в возвращаемом массиве - широта, второй - долгота, третий - оборот. Возвращает null, если вращение не определено. |
+| [SetRotation](../../aspose.slides/icamera/setrotation)(float, float, float) | Вращение определяется с использованием координаты широты , координаты долготы и вращения вокруг оси в качестве координат широты и долготы. Если какое-либо из значений координат равно float.NaN, все вращения не определены. |
 
 ### Смотрите также
 

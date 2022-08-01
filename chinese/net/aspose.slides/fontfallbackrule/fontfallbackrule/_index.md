@@ -18,16 +18,16 @@ public FontFallBackRule(uint startIndex, uint endIndex, string fontNames)
 | --- | --- | --- |
 | startIndex | UInt32 | unicode 范围的起始索引 |
 | endIndex | UInt32 | unicode 范围的结束索引 |
-| fontNames | String | FallBack 的一个或多个字体名称（以逗号分隔） |
+| fontNames | String | FallBack 的字体名称（以逗号分隔） |
 
 ### 例子
 
 ```csharp
 [C#]
- // 使用一种字体创建新的 FantFallBackRule 实例。
+// 使用一种字体创建新的 FantFallBackRule 实例。
 IFontFallBackRule newRule = new FontFallBackRule(0x3040, 0x309F, "MS Mincho");
 
- // 使用多种字体创建新的 FantFallBackRule 实例。
+// 创建具有多种字体的 FantFallBackRule 的新实例。
 IFontFallBackRule newRule = new FontFallBackRule(0x3040, 0x309F, "MS Mincho, MS Gothic, Tahoma");
 ```
 
@@ -51,17 +51,16 @@ public FontFallBackRule(uint startIndex, uint endIndex, string[] fontNames)
 | --- | --- | --- |
 | startIndex | UInt32 | unicode 范围的起始索引 |
 | endIndex | UInt32 | unicode 范围的结束索引 |
-| fontNames | String[] | FallBack 的一个或多个字体名称（以逗号分隔） |
+| fontNames | String[] | FallBack 的字体名称（以逗号分隔） |
 
 ### 例子
 
 ```csharp
 [C#]
- // 使用两个 fonts
-llBackRule 实例
+// 使用两种字体创建新的 FantFallBackRule 实例
 IFontFallBackRule newRule = new FontFallBackRule(0x3040, 0x309F, new string[] { "MS Mincho", "MS Gothic"});
 
- // 使用多种字体创建新的 FantFallBackRule 实例。
+// 创建具有多种字体的 FantFallBackRule 的新实例。
 IFontFallBackRule newRule = new FontFallBackRule(0x3040, 0x309F, new string[] { "MS Gothic", "Tahoma, Times New Roman" });
 ```
 

@@ -1,14 +1,14 @@
 ---
 title: DataSourceTypeForYValues
 second_title: Справочник по API Aspose.Slides для .NET
-description: Указывает является ли свойство AsCell AsLiteralString или AsLiteralDouble актуальным в объекте свойств YValue точек данных. Другими словами он указывает тип значения свойства ChartDataPointEx.YValue.Data. Чтение/записьDataSourceTypeaspose.slides.charts/datasourcetype.
+description: Указывает является ли свойство AsCell AsLiteralString или AsLiteralDouble действительным в объекте свойств YValue точек данных. Другими словами он указывает тип значения свойства ChartDataPointEx.YValue.Data. Чтение/записьDataSourceTypeaspose.slides.charts/datasourcetype .
 type: docs
 weight: 50
 url: /ru/net/aspose.slides.charts/ichartdatapointcollection/datasourcetypeforyvalues/
 ---
 ## IChartDataPointCollection.DataSourceTypeForYValues property
 
-Указывает, является ли свойство AsCell, AsLiteralString или AsLiteralDouble актуальным в объекте свойств YValue точек данных. Другими словами, он указывает тип значения свойства ChartDataPointEx.YValue.Data. Чтение/запись[`DataSourceType`](../../datasourcetype).
+Указывает, является ли свойство AsCell, AsLiteralString или AsLiteralDouble действительным в объекте свойств YValue точек данных. Другими словами, он указывает тип значения свойства ChartDataPointEx.YValue.Data. Чтение/запись[`DataSourceType`](../../datasourcetype) .
 
 ```csharp
 public DataSourceType DataSourceTypeForYValues { get; set; }

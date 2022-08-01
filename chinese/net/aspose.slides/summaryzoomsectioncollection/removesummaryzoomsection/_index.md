@@ -1,14 +1,14 @@
 ---
 title: RemoveSummaryZoomSection
 second_title: Aspose.Slides for .NET API 参考
-description: 从集合中移除 Summary Zoom Section 对象
+description: 从集合中删除摘要缩放部分对象
 type: docs
 weight: 110
 url: /zh/net/aspose.slides/summaryzoomsectioncollection/removesummaryzoomsection/
 ---
 ## SummaryZoomSectionCollection.RemoveSummaryZoomSection method
 
-从集合中移除 Summary Zoom Section 对象。
+从集合中删除摘要缩放部分对象。
 
 ```csharp
 public void RemoveSummaryZoomSection(ISection section)
@@ -20,7 +20,7 @@ public void RemoveSummaryZoomSection(ISection section)
 
 ### 例子
 
-该示例演示了按索引获取摘要缩放部分元素:
+该示例演示了按索引获取摘要缩放部分元素：
 
 ```csharp
 [C#]

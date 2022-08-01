@@ -18,8 +18,8 @@ public interface IBiLevel : IAccessiblePVIObject<IBiLevelEffectiveData>, IImageT
 
 | Имя | Описание |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ibilevel/asiaccessiblepviobject) { get; } | Позволяет получить базовый интерфейс IAccessiblePVIObject. Только чтение[`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ibilevel/asiimagetransformoperation) { get; } | Позволяет получить базовый интерфейс IImageTransformOperation. Только для чтения[`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ibilevel/asiaccessiblepviobject) { get; } | Позволяет получить базовый интерфейс IAccessiblePVIObject. Только для чтения[`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1) . |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ibilevel/asiimagetransformoperation) { get; } | Позволяет получить базовый интерфейс IImageTransformOperation. Только для чтения[`IImageTransformOperation`](../iimagetransformoperation) . |
 
 ### Смотрите также
 

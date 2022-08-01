@@ -18,9 +18,9 @@ public class FontScheme : IFontScheme
 
 | Имя | Описание |
 | --- | --- |
-| [Major](../../aspose.slides.theme/fontscheme/major) { get; } | Возвращает коллекцию шрифтов для «заголовка» слайда. Только для чтения[`IFonts`](../../aspose.slides/ifonts). |
-| [Minor](../../aspose.slides.theme/fontscheme/minor) { get; } | Возвращает коллекцию шрифтов для основной части слайда. Только для чтения[`IFonts`](../../aspose.slides/ifonts). |
-| [Name](../../aspose.slides.theme/fontscheme/name) { get; set; } | Возвращает имя схемы шрифта. Чтение/записьString. |
+| [Major](../../aspose.slides.theme/fontscheme/major) { get; } | Возвращает коллекцию шрифтов для «заголовка» слайда. Только для чтения[`IFonts`](../../aspose.slides/ifonts) . |
+| [Minor](../../aspose.slides.theme/fontscheme/minor) { get; } | Возвращает коллекцию шрифтов для основной части слайда. Только для чтения[`IFonts`](../../aspose.slides/ifonts) . |
+| [Name](../../aspose.slides.theme/fontscheme/name) { get; set; } | Возвращает имя схемы шрифта. Чтение/записьString . |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: ShapeStyle
 second_title: Aspose.Slides for .NET API 参考
-description: 返回形状的样式对象 只读IShapeStyleaspose.slides/ishapestyle
+description: 返回形状的样式对象 只读IShapeStyleaspose.slides/ishapestyle.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides/geometryshape/shapestyle/
 ---
 ## GeometryShape.ShapeStyle property
 
-返回形状的样式对象。 只读[`IShapeStyle`](../../ishapestyle)。
+返回形状的样式对象。 只读[`IShapeStyle`](../../ishapestyle).
 
 ```csharp
 public IShapeStyle ShapeStyle { get; }

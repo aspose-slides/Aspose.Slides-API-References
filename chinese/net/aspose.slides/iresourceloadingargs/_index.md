@@ -18,14 +18,14 @@ public interface IResourceLoadingArgs
 
 | 姓名 | 描述 |
 | --- | --- |
-| [OriginalUri](../../aspose.slides/iresourceloadingargs/originaluri) { get; } | 导入演示文稿中指定的资源的原始 URI。 |
-| [Uri](../../aspose.slides/iresourceloadingargs/uri) { get; set; } | 用于下载的资源的 URI if[`ResourceLoading`](../iresourceloadingcallback/resourceloading) 返回Default。 最初设置为资源的原始 URI，但可以重新定义为任何值。 |
+| [OriginalUri](../../aspose.slides/iresourceloadingargs/originaluri) { get; } | 在导入的演示文稿中指定的资源的原始 URI。 |
+| [Uri](../../aspose.slides/iresourceloadingargs/uri) { get; set; } | 用于下载的资源的 URI if[`ResourceLoading`](../iresourceloadingcallback/resourceloading) 返回Default 最初设置为资源的原始 URI，但可以重新定义为任何值。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [SetData](../../aspose.slides/iresourceloadingargs/setdata)(byte[]) | 设置用户提供的资源数据 if[`ResourceLoading`](../iresourceloadingcallback/resourceloading) 返回UserProvided。 |
+| [SetData](../../aspose.slides/iresourceloadingargs/setdata)(byte[]) | 设置用户提供的资源数据，如果[`ResourceLoading`](../iresourceloadingcallback/resourceloading) 返回UserProvided |
 
 ### 也可以看看
 

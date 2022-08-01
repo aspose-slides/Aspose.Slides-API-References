@@ -1,14 +1,14 @@
 ---
 title: HasBounce
 second_title: Справочник по API Aspose.Slides для .NET
-description: Указывает что движение слайдов презентации во время перехода включает отскок. Чтение/записьBoolean.
+description: Указывает что перемещение слайдов презентации во время перехода включает отскок. Чтение/записьBoolean .
 type: docs
 weight: 30
 url: /ru/net/aspose.slides.slideshow/iflythroughtransition/hasbounce/
 ---
 ## IFlyThroughTransition.HasBounce property
 
-Указывает, что движение слайдов презентации во время перехода включает отскок. Чтение/записьBoolean.
+Указывает, что перемещение слайдов презентации во время перехода включает отскок. Чтение/записьBoolean .
 
 ```csharp
 public bool HasBounce { get; set; }

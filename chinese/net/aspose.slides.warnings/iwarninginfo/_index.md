@@ -18,8 +18,8 @@ public interface IWarningInfo
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Description](../../aspose.slides.warnings/iwarninginfo/description) { get; } | 返回此警告的人类可读描述。 只读String。 |
-| [WarningType](../../aspose.slides.warnings/iwarninginfo/warningtype) { get; } | 返回警告类型。 只读[`WarningType`](./warningtype)。 |
+| [Description](../../aspose.slides.warnings/iwarninginfo/description) { get; } | 返回此警告的人类可读描述。 只读String. |
+| [WarningType](../../aspose.slides.warnings/iwarninginfo/warningtype) { get; } | 返回一种警告类型。 只读[`WarningType`](./warningtype). |
 
 ## 方法
 

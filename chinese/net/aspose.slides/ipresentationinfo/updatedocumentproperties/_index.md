@@ -20,7 +20,7 @@ public void UpdateDocumentProperties(IDocumentProperties documentProperties)
 
 ### 例子
 
-此示例显示如何调用`UpdateDocumentProperties`方法到 更新调用[`ReadDocumentProperties`](../readdocumentproperties)方法返回的文档属性。
+这个示例展示了如何调用`UpdateDocumentProperties`方法 to 更新由调用返回的文档属性[`ReadDocumentProperties`](../readdocumentproperties)方法.
 
 ```csharp
 IPresentationInfo info = PresentationFactory.Instance.GetPresentationInfo("pres.pptx");

@@ -16,7 +16,7 @@ public IHyperlink SetExternalHyperlinkClick(string url)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| url | String | 超链接 URL。 |
+| url | String | 超链接网址。 |
 
 ### 也可以看看
 

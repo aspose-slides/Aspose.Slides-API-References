@@ -1,14 +1,14 @@
 ---
 title: OnlyLoadDocumentProperties
 second_title: Aspose.Slides for .NET API 参考
-description: 如果演示文件受密码保护此属性是有意义的 值为 true 意味着只有文档属性必须从加密的 演示文件中加载并且必须忽略密码 false 值意味着必须使用正确的 密码加载整个加密的演示文稿 如果演示文稿未加密则始终忽略属性值 如果加密文件的文档属性不是公开的且属性值为 true则 文档属性无法加载将引发异常 读/写Boolean
+description: 如果演示文件受密码保护则此属性有意义 值为 true 表示必须从加密的 演示文件中加载文档属性并且必须忽略密码 值为 false 表示必须加载整个加密演示文稿使用正确的 密码 如果演示文稿未加密则始终忽略属性值 如果加密文件的文档属性不是公共的且属性值为true则 无法加载文档属性并将引发异常 读/写Boolean.
 type: docs
 weight: 90
 url: /zh/net/aspose.slides/loadoptions/onlyloaddocumentproperties/
 ---
 ## LoadOptions.OnlyLoadDocumentProperties property
 
-如果演示文件受密码保护，此属性是有意义的。 值为 true 意味着只有文档属性必须从加密的 演示文件中加载，并且必须忽略密码。 false 值意味着必须使用正确的 密码加载整个加密的演示文稿。 如果演示文稿未加密，则始终忽略属性值。 如果加密文件的文档属性不是公开的且属性值为 true，则 文档属性无法加载，将引发异常。 读/写Boolean。
+如果演示文件受密码保护，则此属性有意义。 值为 true 表示必须从加密的 演示文件中加载文档属性，并且必须忽略密码。 值为 false 表示必须加载整个加密演示文稿使用正确的 密码。 如果演示文稿未加密，则始终忽略属性值。 如果加密文件的文档属性不是公共的且属性值为true，则 无法加载文档属性并将引发异常。 读/写Boolean.
 
 ```csharp
 public bool OnlyLoadDocumentProperties { get; set; }

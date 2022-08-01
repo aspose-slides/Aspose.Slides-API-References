@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает настройку по индексу.
+description: Возвращает корректировку по индексу.
 type: docs
 weight: 30
 url: /ru/net/aspose.slides/adjustvaluecollection/item/
 ---
 ## AdjustValueCollection indexer
 
-Возвращает настройку по индексу.
+Возвращает корректировку по индексу.
 
 ```csharp
 public IAdjustValue this[int index] { get; }
@@ -16,7 +16,7 @@ public IAdjustValue this[int index] { get; }
 
 | Параметр | Описание |
 | --- | --- |
-| index | индекс настройки. |
+| index | индекс регулировки. |
 
 ### Возвращаемое значение
 

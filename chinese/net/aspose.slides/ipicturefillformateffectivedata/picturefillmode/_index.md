@@ -1,14 +1,14 @@
 ---
 title: PictureFillMode
 second_title: Aspose.Slides for .NET API 参考
-description: 返回图片填充模式 只读PictureFillModeaspose.slides/picturefillmode
+description: 返回图片填充模式 只读PictureFillModeaspose.slides/picturefillmode.
 type: docs
 weight: 80
 url: /zh/net/aspose.slides/ipicturefillformateffectivedata/picturefillmode/
 ---
 ## IPictureFillFormatEffectiveData.PictureFillMode property
 
-返回图片填充模式。 只读[`PictureFillMode`](../../picturefillmode)。
+返回图片填充模式。 只读[`PictureFillMode`](../../picturefillmode).
 
 ```csharp
 public PictureFillMode PictureFillMode { get; }

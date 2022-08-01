@@ -18,7 +18,7 @@ public void Remove()
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| [PptxEditException](../../pptxeditexception) | 如果注释已被删除则抛出 |
+| [PptxEditException](../../pptxeditexception) | 如果评论已被删除，则抛出 |
 
 ### 也可以看看
 

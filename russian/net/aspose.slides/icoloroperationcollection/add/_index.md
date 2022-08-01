@@ -16,7 +16,7 @@ public IColorOperation Add(ColorTransformOperation operation, float parameter)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| операция | ColorTransformOperation | Тип операции. |
+| operation | ColorTransformOperation | Тип операции. |
 | parameter | Single | Параметр операции. |
 
 ### Возвращаемое значение
@@ -43,7 +43,7 @@ public IColorOperation Add(ColorTransformOperation operation)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| операция | ColorTransformOperation | Тип операции. |
+| operation | ColorTransformOperation | Тип операции. |
 
 ### Возвращаемое значение
 

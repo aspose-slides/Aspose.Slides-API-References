@@ -25,15 +25,15 @@ public class ColorOperation : IColorOperation
 
 | Имя | Описание |
 | --- | --- |
-| [OperationType](../../aspose.slides/coloroperation/operationtype) { get; } | Возвращает или задает тип операции. Только для чтения[`ColorTransformOperation`](../colortransformoperation). |
-| [Parameter](../../aspose.slides/coloroperation/parameter) { get; } | Возвращает параметр операции. Только для чтенияSingle. |
+| [OperationType](../../aspose.slides/coloroperation/operationtype) { get; } | Возвращает или задает тип операции. Только для чтения[`ColorTransformOperation`](../colortransformoperation) . |
+| [Parameter](../../aspose.slides/coloroperation/parameter) { get; } | Возвращает параметр операции. Только для чтенияSingle . |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
 | override [Equals](../../aspose.slides/coloroperation/equals)(object) | Определяет, равны ли два экземпляра ColorOperation. |
-| override [GetHashCode](../../aspose.slides/coloroperation/gethashcode)() | Служит хэш-функцией для определенного типа, подходящей для использования в алгоритмах хеширования и структурах данных, таких как хэш-таблица. |
+| override [GetHashCode](../../aspose.slides/coloroperation/gethashcode)() | Служит хеш-функцией для определенного типа, подходящей для использования в алгоритмах хэширования и структурах данных, таких как хэш-таблица. |
 
 ### Смотрите также
 

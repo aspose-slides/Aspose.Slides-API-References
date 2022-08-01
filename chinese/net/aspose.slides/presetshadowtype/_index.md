@@ -18,26 +18,26 @@ public enum PresetShadowType
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| TopLeftDropShadow | `0` | 表示左上阴影。 |
-| TopLeftLargeDropShadow | `1` | 表示左上角大投影。 |
+| TopLeftDropShadow | `0` | 表示左上投影。 |
+| TopLeftLargeDropShadow | `1` | 代表左上角大投影。 |
 | BackLeftLongPerspectiveShadow | `2` | 代表左后长透视阴影 |
 | BackRightLongPerspectiveShadow | `3` | 代表右后长透视阴影 |
-| TopLeftDoubleDropShadow | `4` | 代表左上双阴影。 |
-| BottomRightSmallDropShadow | `5` | 表示右下角的小投影。 |
+| TopLeftDoubleDropShadow | `4` | 表示左上角双阴影。 |
+| BottomRightSmallDropShadow | `5` | 代表右下角的小阴影。 |
 | FrontLeftLongPerspectiveShadow | `6` | 代表左前长透视阴影。 |
 | FrontRightLongPerspectiveShadow | `7` | 代表右前长透视阴影。 |
 | OuterBoxShadow3D | `8` | 表示外框阴影 3D。 |
-| InnerBoxShadow3D | `9` | 表示内盒阴影 3D。 |
+| InnerBoxShadow3D | `9` | 表示内框阴影 3D。 |
 | BackCenterPerspectiveShadow | `10` | 表示后中心透视阴影。 |
-| TopRightDropShadow | `11` | 表示右上投影。 |
+| TopRightDropShadow | `11` | 代表右上投影。 |
 | FrontBottomShadow | `12` | 表示前底阴影。 |
 | BackLeftPerspectiveShadow | `13` | 表示左后透视阴影。 |
-| BackRightPerspectiveShadow | `14` | 代表右后透视阴影。 |
-| BottomLeftDropShadow | `15` | 表示左下阴影。 |
-| BottomRightDropShadow | `16` | 表示右下投影。 |
-| FrontLeftPerspectiveShadow | `17` | 代表左前透视阴影。 |
+| BackRightPerspectiveShadow | `14` | 表示右后透视阴影。 |
+| BottomLeftDropShadow | `15` | 表示左下投影。 |
+| BottomRightDropShadow | `16` | 代表右下投影。 |
+| FrontLeftPerspectiveShadow | `17` | 表示左前透视阴影。 |
 | FrontRightPerspectiveShadow | `18` | 代表右前透视阴影。 |
-| TopLeftSmallDropShadow | `19` | 表示左上角的小阴影。 |
+| TopLeftSmallDropShadow | `19` | 表示左上角的小投影。 |
 
 ### 也可以看看
 

@@ -24,18 +24,18 @@ public class TextAnimationCollection : ITextAnimationCollection
 
 | Имя | Описание |
 | --- | --- |
-| [Count](../../aspose.slides.animation/textanimationcollection/count) { get; } | Возвращает количество элементов в коллекции. Только для чтенияInt32. |
-| [IsSynchronized](../../aspose.slides.animation/textanimationcollection/issynchronized) { get; } | Возвращает значение, указывающее, является ли доступ к коллекции синхронизированным (потокобезопасным). Только чтениеBoolean. |
+| [Count](../../aspose.slides.animation/textanimationcollection/count) { get; } | Возвращает количество элементов в коллекции. Только для чтенияInt32 . |
+| [IsSynchronized](../../aspose.slides.animation/textanimationcollection/issynchronized) { get; } | Возвращает значение, указывающее, является ли доступ к коллекции синхронизированным (потокобезопасным). Только для чтенияBoolean . |
 | [Item](../../aspose.slides.animation/textanimationcollection/item) { get; } | Возвращает элемент по индексу. (2 indexers) |
-| [SyncRoot](../../aspose.slides.animation/textanimationcollection/syncroot) { get; } | Возвращает корень синхронизации. Только для чтенияObject. |
+| [SyncRoot](../../aspose.slides.animation/textanimationcollection/syncroot) { get; } | Возвращает корень синхронизации. Только для чтенияObject . |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
 | [Add](../../aspose.slides.animation/textanimationcollection/add)() | Добавляет в коллекцию новую текстовую анимацию. |
-| [CopyTo](../../aspose.slides.animation/textanimationcollection/copyto)(Array, int) | Копирует все элементы из коллекции в указанный массив. |
-| [GetEnumerator](../../aspose.slides.animation/textanimationcollection/getenumerator)() | Возвращает перечислитель, который перебирает коллекцию. |
+| [CopyTo](../../aspose.slides.animation/textanimationcollection/copyto)(Array, int) | Копирует все элементы коллекции в указанный массив. |
+| [GetEnumerator](../../aspose.slides.animation/textanimationcollection/getenumerator)() | Возвращает перечислитель, который выполняет итерацию по коллекции. |
 
 ### Смотрите также
 

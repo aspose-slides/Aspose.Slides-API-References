@@ -1,14 +1,14 @@
 ---
 title: BestImagesCompressionRatio
 second_title: Aspose.Slides for .NET API 参考
-description: 指示是否必须自动选择每个图像的最有效压缩而不是默认压缩 如果设置为Boolean.true对于呈现中的每个图像将选择最合适的压缩 算法这将导致结果的尺寸更小PDF 文件  最佳图像压缩比选择的计算成本很高并且需要 额外的 RAM 量此选项为Boolean.false 默认
+description: 指示是否必须自动为每个图像选择最有效的压缩而不是默认压缩 如果设置为Boolean.true对于演示中的每个图像将选择最合适的压缩 算法这将导致生成的 PDF 文档的尺寸更小 最佳图像压缩比选择的计算成本很高并且需要 额外的 RAM 量这个选项是Boolean.false 默认情况下
 type: docs
 weight: 50
 url: /zh/net/aspose.slides.export/ipdfoptions/bestimagescompressionratio/
 ---
 ## IPdfOptions.BestImagesCompressionRatio property
 
-指示是否必须自动选择每个图像的最有效压缩（而不是默认压缩） 。如果设置为Boolean.true，对于呈现中的每个图像，将选择最合适的压缩 算法，这将导致结果的尺寸更小PDF 文件。  最佳图像压缩比选择的计算成本很高，并且需要 额外的 RAM 量，此选项为Boolean.false 默认。
+指示是否必须自动为每个图像选择最有效的压缩（而不是默认压缩） 。如果设置为Boolean.true，对于演示中的每个图像，将选择最合适的压缩 算法，这将导致生成的 PDF 文档的尺寸更小。 最佳图像压缩比选择的计算成本很高，并且需要 额外的 RAM 量，这个选项是Boolean.false 默认情况下。
 
 ```csharp
 public bool BestImagesCompressionRatio { get; set; }
@@ -16,7 +16,7 @@ public bool BestImagesCompressionRatio { get; set; }
 
 ### 评论
 
-默认为Boolean.false。
+默认为Boolean .false.
 
 ### 也可以看看
 

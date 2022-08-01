@@ -1,14 +1,14 @@
 ---
 title: Audios
 second_title: Aspose.Slides for .NET API 参考
-description: 返回演示文稿中所有嵌入音频文件的集合 只读IAudioCollectionaspose.slides/iaudiocollection
+description: 返回演示文稿中所有嵌入音频文件的集合 只读IAudioCollectionaspose.slides/iaudiocollection.
 type: docs
 weight: 30
 url: /zh/net/aspose.slides/presentation/audios/
 ---
 ## Presentation.Audios property
 
-返回演示文稿中所有嵌入音频文件的集合。 只读[`IAudioCollection`](../../iaudiocollection)。
+返回演示文稿中所有嵌入音频文件的集合。 只读[`IAudioCollection`](../../iaudiocollection).
 
 ```csharp
 public IAudioCollection Audios { get; }

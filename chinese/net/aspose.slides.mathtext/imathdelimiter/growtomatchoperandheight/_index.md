@@ -1,14 +1,14 @@
 ---
 title: GrowToMatchOperandHeight
 second_title: Aspose.Slides for .NET API 参考
-description: 指定BeginningCharacterSeparatorCharacterEndingCharacter 当为真时分隔符垂直增长以匹配其操作数高度 默认值为真
+description: 指定BeginningCharacterSeparatorCharacterEndingCharacter的增长 当为true时分隔符垂直增长以匹配其操作数高度 默认值为true
 type: docs
 weight: 60
 url: /zh/net/aspose.slides.mathtext/imathdelimiter/growtomatchoperandheight/
 ---
 ## IMathDelimiter.GrowToMatchOperandHeight property
 
-指定BeginningCharacter、SeparatorCharacter、EndingCharacter 当为真时，分隔符垂直增长以匹配其操作数高度。 默认值为真
+指定BeginningCharacter、SeparatorCharacter、EndingCharacter的增长 当为true时，分隔符垂直增长以匹配其操作数高度。 默认值为true
 
 ```csharp
 public bool GrowToMatchOperandHeight { get; set; }
@@ -16,7 +16,7 @@ public bool GrowToMatchOperandHeight { get; set; }
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]

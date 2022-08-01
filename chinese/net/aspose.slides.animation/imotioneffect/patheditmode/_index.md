@@ -1,14 +1,14 @@
 ---
 title: PathEditMode
 second_title: Aspose.Slides for .NET API 参考
-description: 指定移动形状时运动路径的移动方式 读/写MotionPathEditModeaspose.slides.animation/motionpatheditmode
+description: 指定形状移动时运动路径如何移动 读/写MotionPathEditModeaspose.slides.animation/motionpatheditmode.
 type: docs
 weight: 70
 url: /zh/net/aspose.slides.animation/imotioneffect/patheditmode/
 ---
 ## IMotionEffect.PathEditMode property
 
-指定移动形状时运动路径的移动方式。 读/写[`MotionPathEditMode`](../../motionpatheditmode)。
+指定形状移动时运动路径如何移动。 读/写[`MotionPathEditMode`](../../motionpatheditmode).
 
 ```csharp
 public MotionPathEditMode PathEditMode { get; set; }

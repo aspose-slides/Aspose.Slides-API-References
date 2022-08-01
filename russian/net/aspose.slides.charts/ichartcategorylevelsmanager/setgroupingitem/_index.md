@@ -17,7 +17,7 @@ public void SetGroupingItem(int level, object value)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | level | Int32 | Уровень категорииInt32 |
-| value | Object | Нащупывание элементаObject |
+| value | Object | Нащупывание предметаObject |
 
 ### Смотрите также
 

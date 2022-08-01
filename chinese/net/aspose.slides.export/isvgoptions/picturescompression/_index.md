@@ -1,14 +1,14 @@
 ---
 title: PicturesCompression
 second_title: Aspose.Slides for .NET API 参考
-description: 表示图片压缩级别 读/写PicturesCompressionaspose.slides.export/isvgoptions/picturescompression
+description: 代表图片压缩级别 读/写PicturesCompressionaspose.slides.export/isvgoptions/picturescompression.
 type: docs
 weight: 90
 url: /zh/net/aspose.slides.export/isvgoptions/picturescompression/
 ---
 ## ISVGOptions.PicturesCompression property
 
-表示图片压缩级别 读/写`PicturesCompression`。
+代表图片压缩级别 读/写`PicturesCompression`.
 
 ```csharp
 public PicturesCompression PicturesCompression { get; set; }

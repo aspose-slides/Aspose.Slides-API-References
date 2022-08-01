@@ -32,7 +32,7 @@ public EmbedAllFontsHtmlController(string[] fontNameExcludeList)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| fontNameExcludeList | String[] | Шрифты, которые необходимо исключить из внедрения |
+| fontNameExcludeList | String[] | Шрифты, которые необходимо исключить из встраивания |
 
 ### Смотрите также
 

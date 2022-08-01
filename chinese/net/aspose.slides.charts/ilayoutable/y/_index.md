@@ -1,14 +1,14 @@
 ---
 title: Y
 second_title: Aspose.Slides for .NET API 参考
-description: 将图表元素的顶部指定为图表高度的一部分 读/写Single
+description: 将图表元素的顶部指定为图表高度的一部分 读/写Single.
 type: docs
 weight: 70
 url: /zh/net/aspose.slides.charts/ilayoutable/y/
 ---
 ## ILayoutable.Y property
 
-将图表元素的顶部指定为图表高度的一部分。 读/写Single。
+将图表元素的顶部指定为图表高度的一部分。 读/写Single.
 
 ```csharp
 public float Y { get; set; }

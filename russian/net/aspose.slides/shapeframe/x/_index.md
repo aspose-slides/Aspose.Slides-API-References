@@ -1,14 +1,14 @@
 ---
 title: X
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает координату X левого верхнего угла кадра. Только для чтенияSingle.
+description: Возвращает координату X левого верхнего угла кадра. Только для чтенияSingle .
 type: docs
 weight: 100
 url: /ru/net/aspose.slides/shapeframe/x/
 ---
 ## ShapeFrame.X property
 
-Возвращает координату X левого верхнего угла кадра. Только для чтенияSingle.
+Возвращает координату X левого верхнего угла кадра. Только для чтенияSingle .
 
 ```csharp
 public float X { get; }

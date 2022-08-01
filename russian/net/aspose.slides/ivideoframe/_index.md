@@ -18,15 +18,15 @@ public interface IVideoFrame : IPictureFrame
 
 | Имя | Описание |
 | --- | --- |
-| [AsIPictureFrame](../../aspose.slides/ivideoframe/asipictureframe) { get; } | Позволяет получить базовый интерфейс IPictureFrame. Только для чтения[`IPictureFrame`](../ipictureframe). |
-| [EmbeddedVideo](../../aspose.slides/ivideoframe/embeddedvideo) { get; set; } | Возвращает или задает встроенный видеообъект. Чтение/запись[`IVideo`](../ivideo). |
-| [FullScreenMode](../../aspose.slides/ivideoframe/fullscreenmode) { get; set; } | Определяет, отображается ли видео в полноэкранном режиме. Чтение/записьBoolean. |
-| [HideAtShowing](../../aspose.slides/ivideoframe/hideatshowing) { get; set; } | Определяет, скрыт ли видеокадр. Чтение/записьBoolean. |
-| [LinkPathLong](../../aspose.slides/ivideoframe/linkpathlong) { get; set; } | Возвращает или задает имя видеофайла, связанного с видеокадром. Чтение/записьString. |
-| [PlayLoopMode](../../aspose.slides/ivideoframe/playloopmode) { get; set; } | Определяет, зациклено ли видео. Чтение/записьBoolean. |
-| [PlayMode](../../aspose.slides/ivideoframe/playmode) { get; set; } | Возвращает или устанавливает режим воспроизведения видео. Чтение/запись[`VideoPlayModePreset`](../videoplaymodepreset). |
-| [RewindVideo](../../aspose.slides/ivideoframe/rewindvideo) { get; set; } | Определяет, будет ли видео автоматически перематываться на начало сразу после окончания воспроизведения фильма. Чтение/записьBoolean. |
-| [Volume](../../aspose.slides/ivideoframe/volume) { get; set; } | Возвращает или устанавливает громкость звука. Чтение/запись[`AudioVolumeMode`](../audiovolumemode). |
+| [AsIPictureFrame](../../aspose.slides/ivideoframe/asipictureframe) { get; } | Позволяет получить базовый интерфейс IPictureFrame. Только для чтения[`IPictureFrame`](../ipictureframe) . |
+| [EmbeddedVideo](../../aspose.slides/ivideoframe/embeddedvideo) { get; set; } | Возвращает или задает встроенный видеообъект. Чтение/запись[`IVideo`](../ivideo) . |
+| [FullScreenMode](../../aspose.slides/ivideoframe/fullscreenmode) { get; set; } | Определяет, отображается ли видео в полноэкранном режиме. Чтение/записьBoolean . |
+| [HideAtShowing](../../aspose.slides/ivideoframe/hideatshowing) { get; set; } | Определяет, скрыт ли видеокадр. Чтение/записьBoolean . |
+| [LinkPathLong](../../aspose.slides/ivideoframe/linkpathlong) { get; set; } | Возвращает или задает имя видеофайла, связанного с VideoFrame. Чтение/записьString . |
+| [PlayLoopMode](../../aspose.slides/ivideoframe/playloopmode) { get; set; } | Определяет, зациклено ли видео. Чтение/записьBoolean . |
+| [PlayMode](../../aspose.slides/ivideoframe/playmode) { get; set; } | Возвращает или устанавливает режим воспроизведения видео. Чтение/запись[`VideoPlayModePreset`](../videoplaymodepreset) . |
+| [RewindVideo](../../aspose.slides/ivideoframe/rewindvideo) { get; set; } | Определяет, будет ли видео автоматически перематываться назад к start , как только фильм закончится. Чтение/записьBoolean . |
+| [Volume](../../aspose.slides/ivideoframe/volume) { get; set; } | Возвращает или устанавливает громкость звука. Чтение/запись[`AudioVolumeMode`](../audiovolumemode) . |
 
 ### Смотрите также
 

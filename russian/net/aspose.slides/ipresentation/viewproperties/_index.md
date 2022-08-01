@@ -1,14 +1,14 @@
 ---
 title: ViewProperties
 second_title: Справочник по API Aspose.Slides для .NET
-description: Получает свойства широкого представления презентации. Только для чтенияIViewPropertiesaspose.slides/iviewproperties.
+description: Получает свойства широкого представления презентации. Только для чтенияIViewPropertiesaspose.slides/iviewproperties .
 type: docs
 weight: 290
 url: /ru/net/aspose.slides/ipresentation/viewproperties/
 ---
 ## IPresentation.ViewProperties property
 
-Получает свойства широкого представления презентации. Только для чтения[`IViewProperties`](../../iviewproperties).
+Получает свойства широкого представления презентации. Только для чтения[`IViewProperties`](../../iviewproperties) .
 
 ```csharp
 public IViewProperties ViewProperties { get; }

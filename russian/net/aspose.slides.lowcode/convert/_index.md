@@ -1,14 +1,14 @@
 ---
 title: Convert
 second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет группу методов предназначенных для преобразованияPresentation../aspose.slides/presentation.
+description: Представляет группу методов предназначенных для преобразованияPresentation../aspose.slides/presentation .
 type: docs
 weight: 7180
 url: /ru/net/aspose.slides.lowcode/convert/
 ---
 ## Convert class
 
-Представляет группу методов, предназначенных для преобразования[`Presentation`](../../aspose.slides/presentation).
+Представляет группу методов, предназначенных для преобразования[`Presentation`](../../aspose.slides/presentation) .
 
 ```csharp
 public static class Convert
@@ -18,16 +18,16 @@ public static class Convert
 
 | Имя | Описание |
 | --- | --- |
-| static [AutoByExtension](../../aspose.slides.lowcode/convert/autobyextension)(string, string) | Преобразует[`Presentation`](../../aspose.slides/presentation)с использованием переданного расширения выходного пути для определения требуемого формата экспорта. |
-| static [ToPdf](../../aspose.slides.lowcode/convert/topdf#topdf)(Presentation, string) | Преобразует[`Presentation`](../../aspose.slides/presentation)в PDF. |
-| static [ToPdf](../../aspose.slides.lowcode/convert/topdf#topdf_2)(string, string) | Преобразует[`Presentation`](../../aspose.slides/presentation)в PDF. |
-| static [ToPdf](../../aspose.slides.lowcode/convert/topdf#topdf_1)(Presentation, string, IPdfOptions) | Преобразует[`Presentation`](../../aspose.slides/presentation)в PDF. |
-| static [ToPdf](../../aspose.slides.lowcode/convert/topdf#topdf_3)(string, string, IPdfOptions) | Преобразует[`Presentation`](../../aspose.slides/presentation)в PDF. |
-| static [ToSvg](../../aspose.slides.lowcode/convert/tosvg#tosvg_3)(string) | Преобразует[`Presentation`](../../aspose.slides/presentation)в SVG. |
-| static [ToSvg](../../aspose.slides.lowcode/convert/tosvg#tosvg_1)(Presentation, GetOutPathCallback) | Преобразует[`Presentation`](../../aspose.slides/presentation)в SVG. |
-| static [ToSvg](../../aspose.slides.lowcode/convert/tosvg#tosvg)(Presentation, ISVGOptions) | Преобразует[`Presentation`](../../aspose.slides/presentation)в SVG. |
-| static [ToSvg](../../aspose.slides.lowcode/convert/tosvg#tosvg_4)(string, GetOutPathCallback) | Преобразует[`Presentation`](../../aspose.slides/presentation)в SVG. |
-| static [ToSvg](../../aspose.slides.lowcode/convert/tosvg#tosvg_2)(Presentation, GetOutPathCallback, ISVGOptions) | Преобразует[`Presentation`](../../aspose.slides/presentation)в SVG. |
+| static [AutoByExtension](../../aspose.slides.lowcode/convert/autobyextension)(string, string) | Преобразует[`Presentation`](../../aspose.slides/presentation) используя переданное расширение выходного пути, чтобы определить требуемый формат экспорта. |
+| static [ToPdf](../../aspose.slides.lowcode/convert/topdf#topdf)(Presentation, string) | Преобразует[`Presentation`](../../aspose.slides/presentation) в PDF. |
+| static [ToPdf](../../aspose.slides.lowcode/convert/topdf#topdf_2)(string, string) | Преобразует[`Presentation`](../../aspose.slides/presentation) в PDF. |
+| static [ToPdf](../../aspose.slides.lowcode/convert/topdf#topdf_1)(Presentation, string, IPdfOptions) | Преобразует[`Presentation`](../../aspose.slides/presentation) в PDF. |
+| static [ToPdf](../../aspose.slides.lowcode/convert/topdf#topdf_3)(string, string, IPdfOptions) | Преобразует[`Presentation`](../../aspose.slides/presentation) в PDF. |
+| static [ToSvg](../../aspose.slides.lowcode/convert/tosvg#tosvg_3)(string) | Преобразует[`Presentation`](../../aspose.slides/presentation) в SVG. |
+| static [ToSvg](../../aspose.slides.lowcode/convert/tosvg#tosvg_1)(Presentation, GetOutPathCallback) | Преобразует[`Presentation`](../../aspose.slides/presentation) в SVG. |
+| static [ToSvg](../../aspose.slides.lowcode/convert/tosvg#tosvg)(Presentation, ISVGOptions) | Преобразует[`Presentation`](../../aspose.slides/presentation) в SVG. |
+| static [ToSvg](../../aspose.slides.lowcode/convert/tosvg#tosvg_4)(string, GetOutPathCallback) | Преобразует[`Presentation`](../../aspose.slides/presentation) в SVG. |
+| static [ToSvg](../../aspose.slides.lowcode/convert/tosvg#tosvg_2)(Presentation, GetOutPathCallback, ISVGOptions) | Преобразует[`Presentation`](../../aspose.slides/presentation) в SVG. |
 
 ## Другие члены
 

@@ -1,14 +1,14 @@
 ---
 title: SecondPieSize
 second_title: Aspose.Slides for .NET API 参考
-description: 指定饼图的第二个饼图或条形图或 饼图条形图的大小作为第一个饼图大小的百分比可以 介于 5 和 200 之间 读/写UInt16
+description: 指定第二个饼图或饼图条形图或 饼图条形图的大小以第一个饼图大小的百分比表示 可以在 5 和 200 之间 读/写UInt16.
 type: docs
 weight: 170
 url: /zh/net/aspose.slides.charts/chartseriesgroup/secondpiesize/
 ---
 ## ChartSeriesGroup.SecondPieSize property
 
-指定饼图的第二个饼图或条形图或 饼图条形图的大小，作为第一个饼图大小的百分比（可以 介于 5% 和 200% 之间）。 读/写UInt16。
+指定第二个饼图或饼图条形图或 饼图条形图的大小，以第一个饼图大小的百分比表示（ 可以在 5% 和 200% 之间）。 读/写UInt16.
 
 ```csharp
 public ushort SecondPieSize { get; set; }

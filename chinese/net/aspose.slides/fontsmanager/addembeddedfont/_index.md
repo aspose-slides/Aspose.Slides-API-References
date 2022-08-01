@@ -1,14 +1,14 @@
 ---
 title: AddEmbeddedFont
 second_title: Aspose.Slides for .NET API 参考
-description: 添加嵌入字体  复制任何字体时请记住大多数字体都受版权保护首先找到 字体的许可证并验证它们可以自由转移到另一台机器上 如果字体数据为空或该字体已嵌入则可能引发 ArgumentException
+description: 添加嵌入的字体 在复制大多数字体受版权保护的任何字体时请记住首先先找到 字体的许可证然后确认它们可以自由转移到另一台机器上如果字体数据为空或此字体已嵌入则可能引发 ArgumentException
 type: docs
 weight: 30
 url: /zh/net/aspose.slides/fontsmanager/addembeddedfont/
 ---
 ## AddEmbeddedFont(IFontData, EmbedFontCharacters) {#addembeddedfont}
 
-添加嵌入字体  复制任何字体时请记住，大多数字体都受版权保护。首先找到 字体的许可证，并验证它们可以自由转移到另一台机器上。 如果字体数据为空或该字体已嵌入，则可能引发 ArgumentException
+添加嵌入的字体 在复制大多数字体受版权保护的任何字体时，请记住。首先先找到 字体的许可证，然后确认它们可以自由转移到另一台机器上。如果字体数据为空或此字体已嵌入，则可能引发 ArgumentException
 
 ```csharp
 public void AddEmbeddedFont(IFontData fontData, EmbedFontCharacters embedFontRule)
@@ -26,7 +26,7 @@ public void AddEmbeddedFont(IFontData fontData, EmbedFontCharacters embedFontRul
 
 ## AddEmbeddedFont(byte[], EmbedFontCharacters) {#addembeddedfont_1}
 
-添加嵌入字体  复制任何字体时请记住，大多数字体都受版权保护。首先找到 字体的许可证，并验证它们可以自由转移到另一台机器上。 如果字体数据为空或该字体已嵌入，则可能引发 ArgumentException
+添加嵌入的字体 在复制大多数字体受版权保护的任何字体时，请记住。首先先找到 字体的许可证，然后确认它们可以自由转移到另一台机器上。如果字体数据为空或此字体已嵌入，则可能引发 ArgumentException
 
 ```csharp
 public void AddEmbeddedFont(byte[] fontData, EmbedFontCharacters embedFontRule)

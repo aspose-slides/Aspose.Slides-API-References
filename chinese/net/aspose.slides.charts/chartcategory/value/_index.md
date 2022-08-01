@@ -1,14 +1,14 @@
 ---
 title: Value
 second_title: Aspose.Slides for .NET API 参考
-description: 如果 UseCell 为真则此属性表示 AsCell.Value 属性 如果 UseCell 为 false则此属性表示 AsLiteral 属性 读/写Object
+description: 如果 UseCell 为真则此属性表示 AsCell.Value 属性 如果 UseCell 为假则此属性表示 AsLiteral 属性 读/写Object.
 type: docs
 weight: 50
 url: /zh/net/aspose.slides.charts/chartcategory/value/
 ---
 ## ChartCategory.Value property
 
-如果 UseCell 为真，则此属性表示 AsCell.Value 属性。 如果 UseCell 为 false，则此属性表示 AsLiteral 属性。 读/写Object。
+如果 UseCell 为真，则此属性表示 AsCell.Value 属性。 如果 UseCell 为假，则此属性表示 AsLiteral 属性。 读/写Object.
 
 ```csharp
 public object Value { get; set; }

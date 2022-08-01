@@ -1,14 +1,14 @@
 ---
 title: HighlightRegex
 second_title: Aspose.Slides for .NET API 参考
-description: 使用指定颜色突出显示文本框架文本中所有正则表达式匹配
+description: 使用指定颜色突出显示文本框架文本中正则表达式的所有匹配项
 type: docs
 weight: 60
 url: /zh/net/aspose.slides/itextframe/highlightregex/
 ---
 ## ITextFrame.HighlightRegex method
 
-使用指定颜色突出显示文本框架文本中所有正则表达式匹配。
+使用指定颜色突出显示文本框架文本中正则表达式的所有匹配项。
 
 ```csharp
 public void HighlightRegex(string regex, Color highlightColor, ITextHighlightingOptions options)
@@ -16,9 +16,9 @@ public void HighlightRegex(string regex, Color highlightColor, ITextHighlighting
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| regex | String | 正则表达式的文本，以获得要突出显示的文本。 |
-| highlightColor | Color | 高亮颜色。 |
-| options | ITextHighlightingOptions | 高亮选项。 |
+| regex | String | 正则表达式的文本以获取要突出显示的文本。 |
+| highlightColor | Color | 突出颜色。 |
+| options | ITextHighlightingOptions | 突出显示选项。 |
 
 ### 也可以看看
 

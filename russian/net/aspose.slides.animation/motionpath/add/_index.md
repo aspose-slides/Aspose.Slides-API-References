@@ -1,14 +1,14 @@
 ---
 title: Add
 second_title: Справочник по API Aspose.Slides для .NET
-description: Добавить новую команду в путь
+description: Добавить новую команду в path
 type: docs
 weight: 40
 url: /ru/net/aspose.slides.animation/motionpath/add/
 ---
 ## MotionPath.Add method
 
-Добавить новую команду в путь
+Добавить новую команду в path
 
 ```csharp
 public IMotionCmdPath Add(MotionCommandPathType type, PointF[] pts, MotionPathPointsType ptsType, 

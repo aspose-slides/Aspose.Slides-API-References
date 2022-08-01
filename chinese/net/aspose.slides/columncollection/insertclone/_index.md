@@ -18,7 +18,7 @@ public IColumn[] InsertClone(int index, IColumn templ, bool withAttachedColumns)
 | --- | --- | --- |
 | index | Int32 | 新列的索引。 |
 | templ | IColumn | 用作模板的列。 |
-| withAttachedColumns | Boolean | True 也复制附加到模板列的所有列。 |
+| withAttachedColumns | Boolean | True 还复制附加到模板列的所有列。 |
 
 ### 返回值
 

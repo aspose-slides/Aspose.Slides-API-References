@@ -1,14 +1,14 @@
 ---
 title: Portion
 second_title: Aspose.Slides for .NET API 参考
-description: 迭代每个Portionaspose.slides.lowcode/foreach/portion在Presentationaspose.slides/presentation中  部分将在所有类型的幻灯片中迭代 -Slideaspose.slides.lowcode/foreach/slideMasterSlideaspose.slides.lowcode/foreach/masterslide和LayoutSlideaspose.slides.lowcode/foreach/layoutslide
+description: 迭代每个Portionaspose.slides.lowcode/foreach/portion在里面Presentationaspose.slides/presentation. 部分将在所有类型的幻灯片中迭代 -Slideaspose.slides.lowcode/foreach/slide MasterSlideaspose.slides.lowcode/foreach/masterslide和LayoutSlideaspose.slides.lowcode/foreach/layoutslide
 type: docs
 weight: 40
 url: /zh/net/aspose.slides.lowcode/foreach/portion/
 ---
 ## ForEach.Portion method
 
-迭代每个`Portion`在[`Presentation`](../../../aspose.slides/presentation)中。  部分将在所有类型的幻灯片中迭代 -[`Slide`](../slide),[`MasterSlide`](../masterslide)和[`LayoutSlide`](../layoutslide)
+迭代每个`Portion`在里面[`Presentation`](../../../aspose.slides/presentation). 部分将在所有类型的幻灯片中迭代 -[`Slide`](../slide) ,[`MasterSlide`](../masterslide)和[`LayoutSlide`](../layoutslide)
 
 ```csharp
 public static void Portion(Presentation pres, ForEachPortionCallback forEachPortion)
@@ -16,7 +16,7 @@ public static void Portion(Presentation pres, ForEachPortionCallback forEachPort
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| pres | Presentation | 表示迭代部分 |
+| pres | Presentation | 演示迭代部分 |
 | forEachPortion | ForEachPortionCallback | 将为每个部分调用的回调 |
 
 ### 例子

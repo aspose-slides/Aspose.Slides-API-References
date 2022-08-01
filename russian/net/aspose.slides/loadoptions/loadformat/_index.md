@@ -1,14 +1,14 @@
 ---
 title: LoadFormat
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или задает формат загружаемой презентации. Чтение/записьLoadFormataspose.slides/loadformat.
+description: Возвращает или задает формат презентации для загрузки. Чтение/записьLoadFormataspose.slides/loadformat .
 type: docs
 weight: 80
 url: /ru/net/aspose.slides/loadoptions/loadformat/
 ---
 ## LoadOptions.LoadFormat property
 
-Возвращает или задает формат загружаемой презентации. Чтение/запись[`LoadFormat`](../../loadformat).
+Возвращает или задает формат презентации для загрузки. Чтение/запись[`LoadFormat`](../../loadformat) .
 
 ```csharp
 public LoadFormat LoadFormat { get; set; }

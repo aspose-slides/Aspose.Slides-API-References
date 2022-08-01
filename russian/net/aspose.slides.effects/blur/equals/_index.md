@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет равен ли указанныйBluraspose.slides.effects/blurтекущемуРазмытие.
+description: Определяет является ли указанныйBluraspose.slides.effects/blur равен текущемуBluraspose.slides.effects/blur .
 type: docs
 weight: 30
 url: /ru/net/aspose.slides.effects/blur/equals/
 ---
 ## Blur.Equals method
 
-Определяет, равен ли указанный[`Blur`](../../blur)текущемуРазмытие.
+Определяет, является ли указанный[`Blur`](../../blur) равен текущему[`Blur`](../../blur) .
 
 ```csharp
 public override bool Equals(object obj)
@@ -16,7 +16,7 @@ public override bool Equals(object obj)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| obj | Object | [`Blur`](../../blur)для сравнения. |
+| obj | Object | [`Blur`](../../blur) сравнивать. |
 
 ### Возвращаемое значение
 

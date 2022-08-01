@@ -1,14 +1,14 @@
 ---
 title: AsIEnumerable
 second_title: Aspose.Slides for .NET API 参考
-description: 返回 IEnumerable 接口 只读IEnumerable
+description: 返回 IEnumerable 接口 只读IEnumerable.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides.animation/isequencecollection/asienumerable/
 ---
 ## ISequenceCollection.AsIEnumerable property
 
-返回 IEnumerable 接口。 只读IEnumerable。
+返回 IEnumerable 接口。 只读IEnumerable.
 
 ```csharp
 public IEnumerable AsIEnumerable { get; }

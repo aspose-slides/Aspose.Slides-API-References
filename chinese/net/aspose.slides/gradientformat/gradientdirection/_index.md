@@ -1,14 +1,14 @@
 ---
 title: GradientDirection
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置渐变的样式 读/写GradientDirectionaspose.slides/gradientdirection
+description: 返回或设置渐变的样式 读/写GradientDirectionaspose.slides/gradientdirection.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides/gradientformat/gradientdirection/
 ---
 ## GradientFormat.GradientDirection property
 
-返回或设置渐变的样式。 读/写[`GradientDirection`](../../gradientdirection)。
+返回或设置渐变的样式。 读/写[`GradientDirection`](../../gradientdirection).
 
 ```csharp
 public GradientDirection GradientDirection { get; set; }

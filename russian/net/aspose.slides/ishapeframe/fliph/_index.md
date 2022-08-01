@@ -1,14 +1,14 @@
 ---
 title: FlipH
 second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет переворачивается ли кадр по горизонтали. Только для чтенияNullableBoolaspose.slides/nullablebool.
+description: Определяет переворачивается ли кадр по горизонтали. Только для чтенияNullableBoolaspose.slides/nullablebool .
 type: docs
 weight: 30
 url: /ru/net/aspose.slides/ishapeframe/fliph/
 ---
 ## IShapeFrame.FlipH property
 
-Определяет, переворачивается ли кадр по горизонтали. Только для чтения[`NullableBool`](../../nullablebool).
+Определяет, переворачивается ли кадр по горизонтали. Только для чтения[`NullableBool`](../../nullablebool) .
 
 ```csharp
 public NullableBool FlipH { get; }

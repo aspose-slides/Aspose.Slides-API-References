@@ -1,14 +1,14 @@
 ---
 title: PlayMode
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или устанавливает режим воспроизведения видео. Чтение/записьVideoPlayModePresetaspose.slides/videoplaymodepreset.
+description: Возвращает или устанавливает режим воспроизведения видео. Чтение/записьVideoPlayModePresetaspose.slides/videoplaymodepreset .
 type: docs
 weight: 60
 url: /ru/net/aspose.slides/videoframe/playmode/
 ---
 ## VideoFrame.PlayMode property
 
-Возвращает или устанавливает режим воспроизведения видео. Чтение/запись[`VideoPlayModePreset`](../../videoplaymodepreset).
+Возвращает или устанавливает режим воспроизведения видео. Чтение/запись[`VideoPlayModePreset`](../../videoplaymodepreset) .
 
 ```csharp
 public VideoPlayModePreset PlayMode { get; set; }

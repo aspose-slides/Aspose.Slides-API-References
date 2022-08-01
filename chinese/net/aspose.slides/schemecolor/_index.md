@@ -1,14 +1,14 @@
 ---
 title: SchemeColor
 second_title: Aspose.Slides for .NET API 参考
-description: 表示配色方案中的颜色
+description: 表示颜色方案中的颜色
 type: docs
 weight: 9010
 url: /zh/net/aspose.slides/schemecolor/
 ---
 ## SchemeColor enumeration
 
-表示配色方案中的颜色。
+表示颜色方案中的颜色。
 
 ```csharp
 public enum SchemeColor
@@ -18,7 +18,7 @@ public enum SchemeColor
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| NotDefined | `-1` | 颜色方案未定义。 |
+| NotDefined | `-1` | 未定义配色方案。 |
 | Background1 | `0` |  |
 | Text1 | `1` |  |
 | Background2 | `2` |  |

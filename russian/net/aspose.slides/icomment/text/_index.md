@@ -1,14 +1,14 @@
 ---
 title: Text
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или задает обычный текст комментария к слайду. Чтение/записьString.
+description: Возвращает или задает обычный текст комментария к слайду. Чтение/записьString .
 type: docs
 weight: 60
 url: /ru/net/aspose.slides/icomment/text/
 ---
 ## IComment.Text property
 
-Возвращает или задает обычный текст комментария к слайду. Чтение/записьString.
+Возвращает или задает обычный текст комментария к слайду. Чтение/записьString .
 
 ```csharp
 public string Text { get; set; }

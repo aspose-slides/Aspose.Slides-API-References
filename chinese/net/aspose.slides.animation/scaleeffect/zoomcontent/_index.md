@@ -1,14 +1,14 @@
 ---
 title: ZoomContent
 second_title: Aspose.Slides for .NET API 参考
-description: 确定是否应缩放内容 读/写NullableBoolaspose.slides/nullablebool
+description: 确定是否应缩放内容 读/写NullableBoolaspose.slides/nullablebool.
 type: docs
 weight: 50
 url: /zh/net/aspose.slides.animation/scaleeffect/zoomcontent/
 ---
 ## ScaleEffect.ZoomContent property
 
-确定是否应缩放内容。 读/写[`NullableBool`](../../../aspose.slides/nullablebool)。
+确定是否应缩放内容。 读/写[`NullableBool`](../../../aspose.slides/nullablebool).
 
 ```csharp
 public NullableBool ZoomContent { get; set; }

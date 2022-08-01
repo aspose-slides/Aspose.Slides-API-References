@@ -18,8 +18,8 @@ public interface ISmartArtShape : IGeometryShape
 
 | Имя | Описание |
 | --- | --- |
-| [AsIGeometryShape](../../aspose.slides.smartart/ismartartshape/asigeometryshape) { get; } | Позволяет получить базовый интерфейс IGeometryShape. Только для чтения[`IGeometryShape`](../../aspose.slides/igeometryshape). |
-| [TextFrame](../../aspose.slides.smartart/ismartartshape/textframe) { get; } | Возвращает текст фигуры SmartArt. Только для чтения[`ITextFrame`](../../aspose.slides/itextframe). |
+| [AsIGeometryShape](../../aspose.slides.smartart/ismartartshape/asigeometryshape) { get; } | Позволяет получить базовый интерфейс IGeometryShape. Только для чтения[`IGeometryShape`](../../aspose.slides/igeometryshape) . |
+| [TextFrame](../../aspose.slides.smartart/ismartartshape/textframe) { get; } | Возвращает текст формы SmartArt. Только для чтения[`ITextFrame`](../../aspose.slides/itextframe) . |
 
 ### Смотрите также
 

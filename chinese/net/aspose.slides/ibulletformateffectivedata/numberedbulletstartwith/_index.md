@@ -1,14 +1,14 @@
 ---
 title: NumberedBulletStartWith
 second_title: Aspose.Slides for .NET API 参考
-description: 返回用于编号项目符号组的第一个数字 只读Int16
+description: 返回用于编号项目符号组的第一个数字 只读Int16.
 type: docs
 weight: 80
 url: /zh/net/aspose.slides/ibulletformateffectivedata/numberedbulletstartwith/
 ---
 ## IBulletFormatEffectiveData.NumberedBulletStartWith property
 
-返回用于编号项目符号组的第一个数字。 只读Int16。
+返回用于编号项目符号组的第一个数字。 只读Int16.
 
 ```csharp
 public short NumberedBulletStartWith { get; }

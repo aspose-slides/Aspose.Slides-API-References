@@ -20,7 +20,7 @@ public IFontData CreateFontData(string fontName)
 
 ### Возвращаемое значение
 
-FontData
+Данные шрифта
 
 ### Смотрите также
 

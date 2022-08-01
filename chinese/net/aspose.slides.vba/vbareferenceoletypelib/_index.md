@@ -24,8 +24,8 @@ public class VbaReferenceOleTypeLib : IVbaReferenceOleTypeLib
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Libid](../../aspose.slides.vba/vbareferenceoletypelib/libid) { get; set; } | 表示自动化类型库的标识符。 读/写String。 |
-| [Name](../../aspose.slides.vba/vbareferenceoletypelib/name) { get; set; } | 表示 VBA 项目引用的名称。 读/写String。 |
+| [Libid](../../aspose.slides.vba/vbareferenceoletypelib/libid) { get; set; } | 表示自动化类型库的标识符。 读/写String. |
+| [Name](../../aspose.slides.vba/vbareferenceoletypelib/name) { get; set; } | 表示 VBA 项目引用的名称。 读/写String. |
 
 ### 也可以看看
 

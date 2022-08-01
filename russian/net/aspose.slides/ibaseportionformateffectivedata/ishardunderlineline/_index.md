@@ -1,14 +1,14 @@
 ---
 title: IsHardUnderlineLine
 second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет имеет ли стиль подчеркивания собственные свойства LineFormat или наследует их от свойств LineFormat текста. Только чтениеBoolean.
+description: Определяет имеет ли стиль подчеркивания собственные свойства LineFormat или наследует его от свойств LineFormat текста. Только для чтенияBoolean .
 type: docs
 weight: 130
 url: /ru/net/aspose.slides/ibaseportionformateffectivedata/ishardunderlineline/
 ---
 ## IBasePortionFormatEffectiveData.IsHardUnderlineLine property
 
-Определяет, имеет ли стиль подчеркивания собственные свойства LineFormat или наследует их от свойств LineFormat текста. Только чтениеBoolean.
+Определяет, имеет ли стиль подчеркивания собственные свойства LineFormat или наследует его от свойств LineFormat текста. Только для чтенияBoolean .
 
 ```csharp
 public bool IsHardUnderlineLine { get; }

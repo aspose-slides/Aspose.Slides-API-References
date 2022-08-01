@@ -20,11 +20,11 @@ public IMathDelimiter Delimit(char separatorCharacter)
 
 ### 返回值
 
-IMathDelimiter 元素实例
+IMathDelimiter 元素的实例
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]

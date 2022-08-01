@@ -18,7 +18,7 @@ public interface ISmartArtShapeCollection : IGenericCollection<ISmartArtShape>
 
 | Имя | Описание |
 | --- | --- |
-| [Item](../../aspose.slides.smartart/ismartartshapecollection/item) { get; } | Получает элемент по указанному индексу. Только для чтения[`ISmartArtShape`](../ismartartshape).  Отсчитываемый от нуля индекс элемента |
+| [Item](../../aspose.slides.smartart/ismartartshapecollection/item) { get; } | Получает элемент по указанному индексу. Только для чтения[`ISmartArtShape`](../ismartartshape) . Отсчитываемый от нуля индекс элемента |
 
 ### Смотрите также
 

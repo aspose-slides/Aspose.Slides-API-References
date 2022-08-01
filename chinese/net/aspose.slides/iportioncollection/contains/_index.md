@@ -1,14 +1,14 @@
 ---
 title: Contains
 second_title: Aspose.Slides for .NET API 参考
-description: 确定ICollection是否包含特定值
+description: 确定是否ICollection包含特定值
 type: docs
 weight: 60
 url: /zh/net/aspose.slides/iportioncollection/contains/
 ---
 ## IPortionCollection.Contains method
 
-确定ICollection是否包含特定值。
+确定是否ICollection包含特定值。
 
 ```csharp
 public bool Contains(IPortion item)
@@ -16,11 +16,11 @@ public bool Contains(IPortion item)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| item | IPortion | 在ICollection中定位的对象. |
+| item | IPortion | 要定位的对象ICollection. |
 
 ### 返回值
 
-如果在:::R5 中找到*item*则为真:T:System.Collections.Generic.ICollection`1:::;否则为假。
+真如果*item*被发现在ICollection;否则为假。
 
 ### 也可以看看
 

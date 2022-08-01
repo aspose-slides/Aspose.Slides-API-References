@@ -1,14 +1,14 @@
 ---
 title: IsNumberFormatLinkedToSource
 second_title: Aspose.Slides for .NET API 参考
-description: 表示格式是否为链接源数据 读/写Boolean
+description: 表示格式是否为链接源数据 读/写Boolean.
 type: docs
 weight: 270
 url: /zh/net/aspose.slides.charts/iaxis/isnumberformatlinkedtosource/
 ---
 ## IAxis.IsNumberFormatLinkedToSource property
 
-表示格式是否为链接源数据。 读/写Boolean。
+表示格式是否为链接源数据。 读/写Boolean.
 
 ```csharp
 public bool IsNumberFormatLinkedToSource { get; set; }

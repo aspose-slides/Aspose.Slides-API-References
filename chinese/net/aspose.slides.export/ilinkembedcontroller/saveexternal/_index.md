@@ -16,7 +16,7 @@ public void SaveExternal(int id, byte[] entityData)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| id | Int32 | 对象 ID。此 id 保存操作范围的唯一性。 |
+| id | Int32 | 对象标识。此 id 保存操作范围的唯一性。 |
 | entityData | Byte[] | 对象二进制数据。此参数不能为空。 |
 
 ### 也可以看看

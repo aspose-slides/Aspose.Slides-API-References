@@ -1,14 +1,14 @@
 ---
 title: AsIThemeable
 second_title: Aspose.Slides for .NET API 参考
-description: 允许获取基本 IThemeable 接口 只读IThemeableaspose.slides.theme/ithemeable
+description: 允许获取基本 IThemeable 接口 只读IThemeableaspose.slides.theme/ithemeable.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides.charts/chart/asithemeable/
 ---
 ## Chart.AsIThemeable property
 
-允许获取基本 IThemeable 接口。 只读[`IThemeable`](../../../aspose.slides.theme/ithemeable)。
+允许获取基本 IThemeable 接口。 只读[`IThemeable`](../../../aspose.slides.theme/ithemeable).
 
 ```csharp
 public IThemeable AsIThemeable { get; }

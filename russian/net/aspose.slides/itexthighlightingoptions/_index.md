@@ -18,8 +18,8 @@ public interface ITextHighlightingOptions
 
 | Имя | Описание |
 | --- | --- |
-| [CaseSensitive](../../aspose.slides/itexthighlightingoptions/casesensitive) { get; set; } | Установите true, чтобы использовать поиск с учетом регистра, false - иначе. Чтение/записьBoolean. |
-| [WholeWordsOnly](../../aspose.slides/itexthighlightingoptions/wholewordsonly) { get; set; } | Установите true для соответствия только целым словам, false - в противном случае. Чтение/записьBoolean. |
+| [CaseSensitive](../../aspose.slides/itexthighlightingoptions/casesensitive) { get; set; } | Установите true, чтобы использовать поиск с учетом регистра, false — иначе. Чтение/записьBoolean . |
+| [WholeWordsOnly](../../aspose.slides/itexthighlightingoptions/wholewordsonly) { get; set; } | Установите true, чтобы соответствовать только целым словам, иначе false. Чтение/записьBoolean . |
 
 ### Смотрите также
 

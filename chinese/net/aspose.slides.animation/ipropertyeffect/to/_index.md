@@ -1,14 +1,14 @@
 ---
 title: To
 second_title: Aspose.Slides for .NET API 参考
-description: 指定动画的结束值 读/写String
+description: 指定动画的结束值 读/写String.
 type: docs
 weight: 60
 url: /zh/net/aspose.slides.animation/ipropertyeffect/to/
 ---
 ## IPropertyEffect.To property
 
-指定动画的结束值。 读/写String。
+指定动画的结束值。 读/写String.
 
 ```csharp
 public string To { get; set; }

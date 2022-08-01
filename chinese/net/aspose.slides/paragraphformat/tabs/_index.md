@@ -1,14 +1,14 @@
 ---
 title: Tabs
 second_title: Aspose.Slides for .NET API 参考
-description: 返回段落的列表未应用继承 只读ITabCollectionaspose.slides/itabcollection
+description: 返回段落的列表未应用继承 只读ITabCollectionaspose.slides/itabcollection.
 type: docs
 weight: 150
 url: /zh/net/aspose.slides/paragraphformat/tabs/
 ---
 ## ParagraphFormat.Tabs property
 
-返回段落的列表。未应用继承。 只读[`ITabCollection`](../../itabcollection)。
+返回段落的列表。未应用继承。 只读[`ITabCollection`](../../itabcollection).
 
 ```csharp
 public ITabCollection Tabs { get; }

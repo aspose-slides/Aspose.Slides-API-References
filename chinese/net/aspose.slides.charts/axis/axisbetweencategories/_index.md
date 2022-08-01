@@ -1,14 +1,14 @@
 ---
 title: AxisBetweenCategories
 second_title: Aspose.Slides for .NET API 参考
-description: 表示值轴是否与类别之间的类别轴相交 此属性仅适用于类别轴不适用于 3-D 图表 读/写Boolean
+description: 表示值轴是否与类别之间的类别轴相交 此属性仅适用于类别轴不适用于 3-D 图表 读/写Boolean.
 type: docs
 weight: 80
 url: /zh/net/aspose.slides.charts/axis/axisbetweencategories/
 ---
 ## Axis.AxisBetweenCategories property
 
-表示值轴是否与类别之间的类别轴相交。 此属性仅适用于类别轴，不适用于 3-D 图表。 读/写Boolean。
+表示值轴是否与类别之间的类别轴相交。 此属性仅适用于类别轴，不适用于 3-D 图表。 读/写Boolean.
 
 ```csharp
 public bool AxisBetweenCategories { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: Orientation
 second_title: Справочник по API Aspose.Slides для .NET
-description: Получает или задает ориентацию заполнителя. Только для чтенияOrientationaspose.slides/orientation.
+description: Получает или задает ориентацию заполнителя. Только для чтенияOrientationaspose.slides/orientation .
 type: docs
 weight: 20
 url: /ru/net/aspose.slides/placeholder/orientation/
 ---
 ## Placeholder.Orientation property
 
-Получает или задает ориентацию заполнителя. Только для чтения[`Orientation`](../../orientation).
+Получает или задает ориентацию заполнителя. Только для чтения[`Orientation`](../../orientation) .
 
 ```csharp
 public Orientation Orientation { get; }

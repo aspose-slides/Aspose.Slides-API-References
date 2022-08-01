@@ -16,12 +16,12 @@ public Bitmap GetTileImage(Color background, Color foreground)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| background | Color | 背景Color用于图案。 |
-| foreground | Color | 图案的前景Color。 |
+| background | Color | 的背景Color为模式。 |
+| foreground | Color | 前景Color为模式。 |
 
 ### 返回值
 
-平铺Bitmap。
+瓦Bitmap.
 
 ### 也可以看看
 
@@ -41,11 +41,11 @@ public Bitmap GetTileImage(Color styleColor)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| styleColor | Color | 默认Color, 在 ShapeEx 的 StyleEx 对象中定义。填充的颜色可以取决于此。 |
+| styleColor | Color | 默认Color 在 ShapeEx 的 StyleEx 对象中定义。填充的颜色可以取决于此。 |
 
 ### 返回值
 
-平铺Bitmap。
+瓦Bitmap.
 
 ### 也可以看看
 

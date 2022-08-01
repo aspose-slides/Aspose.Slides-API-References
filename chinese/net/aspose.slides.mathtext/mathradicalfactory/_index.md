@@ -1,14 +1,14 @@
 ---
 title: MathRadicalFactory
 second_title: Aspose.Slides for .NET API 参考
-description: 允许创建数学根号
+description: 允许创建数学部首
 type: docs
 weight: 8220
 url: /zh/net/aspose.slides.mathtext/mathradicalfactory/
 ---
 ## MathRadicalFactory class
 
-允许创建数学根号
+允许创建数学部首
 
 ```csharp
 public class MathRadicalFactory : IMathRadicalFactory
@@ -28,7 +28,7 @@ public class MathRadicalFactory : IMathRadicalFactory
 
 ### 评论
 
-对于 COM 比较
+用于 COM 可比性
 
 ### 也可以看看
 

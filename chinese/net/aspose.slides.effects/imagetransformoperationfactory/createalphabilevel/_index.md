@@ -16,7 +16,7 @@ public IAlphaBiLevel CreateAlphaBiLevel(float threshold)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| threshold | Single | 阈值。 |
+| threshold | Single | 临界点。 |
 
 ### 返回值
 

@@ -1,14 +1,14 @@
 ---
 title: X
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置标题的 x 坐标为图表宽度的一部分 读/写Single
+description: 返回或设置标题的 x 坐标作为图表宽度的一部分 读/写Single.
 type: docs
 weight: 160
 url: /zh/net/aspose.slides.charts/datalabel/x/
 ---
 ## DataLabel.X property
 
-返回或设置标题的 x 坐标为图表宽度的一部分。 读/写Single。
+返回或设置标题的 x 坐标作为图表宽度的一部分。 读/写Single.
 
 ```csharp
 public float X { get; set; }

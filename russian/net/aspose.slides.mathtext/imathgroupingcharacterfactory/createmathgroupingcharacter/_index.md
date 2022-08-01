@@ -1,14 +1,14 @@
 ---
 title: CreateMathGroupingCharacter
 second_title: Справочник по API Aspose.Slides для .NET
-description: Создает математический символ группировки
+description: Создает математическую группировку character
 type: docs
 weight: 10
 url: /ru/net/aspose.slides.mathtext/imathgroupingcharacterfactory/createmathgroupingcharacter/
 ---
 ## CreateMathGroupingCharacter(IMathElement, char, MathTopBotPositions, MathTopBotPositions) {#createmathgroupingcharacter_1}
 
-Создает математический символ группировки
+Создает математическую группировку character
 
 ```csharp
 public IMathGroupingCharacter CreateMathGroupingCharacter(IMathElement element, char character, 
@@ -17,9 +17,9 @@ public IMathGroupingCharacter CreateMathGroupingCharacter(IMathElement element, 
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| element | IMathElement | математический элемент для применения группировки символ |
-| символ | Char | символ группировки |
-| position | MathTopBotPositions | позиция символа группировки |
+| element | IMathElement | математический элемент для применения символа группировки |
+| character | Char | группирующий символ |
+| position | MathTopBotPositions | позиция группирующего символа |
 | verticalJustification | MathTopBotPositions | вертикальное выравнивание |
 
 ### Возвращаемое значение
@@ -39,7 +39,7 @@ public IMathGroupingCharacter CreateMathGroupingCharacter(IMathElement element, 
 
 ## CreateMathGroupingCharacter(IMathElement) {#createmathgroupingcharacter}
 
-Создает математический символ группировки
+Создает математическую группировку character
 
 ```csharp
 public IMathGroupingCharacter CreateMathGroupingCharacter(IMathElement element)
@@ -47,11 +47,11 @@ public IMathGroupingCharacter CreateMathGroupingCharacter(IMathElement element)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| element | IMathElement | математический элемент для применения группировки символ |
+| element | IMathElement | математический элемент для применения символа группировки |
 
 ### Возвращаемое значение
 
-новый группирующий элемент символа
+новый группирующий символьный элемент
 
 ### Смотрите также
 

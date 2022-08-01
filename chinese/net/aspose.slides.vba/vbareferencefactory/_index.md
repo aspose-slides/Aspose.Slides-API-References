@@ -24,7 +24,7 @@ public class VbaReferenceFactory : IVbaReferenceFactory
 
 | 姓名 | 描述 |
 | --- | --- |
-| static [Instance](../../aspose.slides.vba/vbareferencefactory/instance) { get; } | VBA 项目引用工厂静态实例。 只读[`VbaReferenceFactory`](../vbareferencefactory)。 |
+| static [Instance](../../aspose.slides.vba/vbareferencefactory/instance) { get; } | VBA 项目引用工厂静态实例。 只读[`VbaReferenceFactory`](../vbareferencefactory). |
 
 ## 方法
 

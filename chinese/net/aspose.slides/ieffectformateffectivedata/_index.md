@@ -18,20 +18,20 @@ public interface IEffectFormatEffectiveData : IEffectParamSource
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsIEffectParamSource](../../aspose.slides/ieffectformateffectivedata/asieffectparamsource) { get; } | 允许获取基础 IEffectParamSource 接口。 只读[`IEffectParamSource`](../ieffectparamsource)。 |
-| [BlurEffect](../../aspose.slides/ieffectformateffectivedata/blureffect) { get; } | 模糊效果。 只读[`IBlurEffectiveData`](../../aspose.slides.effects/iblureffectivedata)。 |
-| [FillOverlayEffect](../../aspose.slides/ieffectformateffectivedata/filloverlayeffect) { get; } | 填充叠加效果。 只读[`IFillOverlayEffectiveData`](../../aspose.slides.effects/ifilloverlayeffectivedata)。 |
-| [GlowEffect](../../aspose.slides/ieffectformateffectivedata/gloweffect) { get; } | 发光效果。 只读[`IGlowEffectiveData`](../../aspose.slides.effects/igloweffectivedata)。 |
-| [InnerShadowEffect](../../aspose.slides/ieffectformateffectivedata/innershadoweffect) { get; } | 内阴影。 只读[`IInnerShadowEffectiveData`](../../aspose.slides.effects/iinnershadoweffectivedata)。 |
-| [IsNoEffects](../../aspose.slides/ieffectformateffectivedata/isnoeffects) { get; } | 如果所有效果都被禁用（如刚刚创建的默认 EffectFormat 对象），则返回 true。 只读Boolean。 |
-| [OuterShadowEffect](../../aspose.slides/ieffectformateffectivedata/outershadoweffect) { get; } | 外阴影。 只读[`IOuterShadowEffectiveData`](../../aspose.slides.effects/ioutershadoweffectivedata)。 |
-| [PresetShadowEffect](../../aspose.slides/ieffectformateffectivedata/presetshadoweffect) { get; } | 预设阴影。 只读[`IPresetShadowEffectiveData`](../../aspose.slides.effects/ipresetshadoweffectivedata)。 |
-| [ReflectionEffect](../../aspose.slides/ieffectformateffectivedata/reflectioneffect) { get; } | 反射。 只读[`IReflectionEffectiveData`](../../aspose.slides.effects/ireflectioneffectivedata)。 |
-| [SoftEdgeEffect](../../aspose.slides/ieffectformateffectivedata/softedgeeffect) { get; } | 软边。 只读[`ISoftEdgeEffectiveData`](../../aspose.slides.effects/isoftedgeeffectivedata)。 |
+| [AsIEffectParamSource](../../aspose.slides/ieffectformateffectivedata/asieffectparamsource) { get; } | 允许获取基本 IEffectParamSource 接口。 只读[`IEffectParamSource`](../ieffectparamsource). |
+| [BlurEffect](../../aspose.slides/ieffectformateffectivedata/blureffect) { get; } | 模糊效果。 只读[`IBlurEffectiveData`](../../aspose.slides.effects/iblureffectivedata). |
+| [FillOverlayEffect](../../aspose.slides/ieffectformateffectivedata/filloverlayeffect) { get; } | 填充叠加效果。 只读[`IFillOverlayEffectiveData`](../../aspose.slides.effects/ifilloverlayeffectivedata). |
+| [GlowEffect](../../aspose.slides/ieffectformateffectivedata/gloweffect) { get; } | 发光效果。 只读[`IGlowEffectiveData`](../../aspose.slides.effects/igloweffectivedata). |
+| [InnerShadowEffect](../../aspose.slides/ieffectformateffectivedata/innershadoweffect) { get; } | 内部阴影。 只读[`IInnerShadowEffectiveData`](../../aspose.slides.effects/iinnershadoweffectivedata). |
+| [IsNoEffects](../../aspose.slides/ieffectformateffectivedata/isnoeffects) { get; } | 如果所有效果都被禁用（如刚刚创建的默认 EffectFormat 对象），则返回 true。 只读Boolean. |
+| [OuterShadowEffect](../../aspose.slides/ieffectformateffectivedata/outershadoweffect) { get; } | 外阴影。 只读[`IOuterShadowEffectiveData`](../../aspose.slides.effects/ioutershadoweffectivedata). |
+| [PresetShadowEffect](../../aspose.slides/ieffectformateffectivedata/presetshadoweffect) { get; } | 预设阴影。 只读[`IPresetShadowEffectiveData`](../../aspose.slides.effects/ipresetshadoweffectivedata). |
+| [ReflectionEffect](../../aspose.slides/ieffectformateffectivedata/reflectioneffect) { get; } | 反射。 只读[`IReflectionEffectiveData`](../../aspose.slides.effects/ireflectioneffectivedata). |
+| [SoftEdgeEffect](../../aspose.slides/ieffectformateffectivedata/softedgeeffect) { get; } | 软边缘。 只读[`ISoftEdgeEffectiveData`](../../aspose.slides.effects/isoftedgeeffectivedata). |
 
 ### 评论
 
-此接口与IEffectFormat一起使用接口返回应用继承的有效格式值。
+该接口与[`IEffectFormat`](../ieffectformat)返回应用继承的有效格式值的接口。
 
 ### 也可以看看
 

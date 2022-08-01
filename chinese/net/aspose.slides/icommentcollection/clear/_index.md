@@ -1,14 +1,14 @@
 ---
 title: Clear
 second_title: Aspose.Slides for .NET API 参考
-description: 从集合中删除所有评论
+description: 删除集合中的所有评论
 type: docs
 weight: 40
 url: /zh/net/aspose.slides/icommentcollection/clear/
 ---
 ## ICommentCollection.Clear method
 
-从集合中删除所有评论。
+删除集合中的所有评论。
 
 ```csharp
 public void Clear()

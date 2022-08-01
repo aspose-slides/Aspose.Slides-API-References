@@ -1,14 +1,14 @@
 ---
 title: PictureFrameLock
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает блокировки PictureFrame. Только для чтенияIPictureFrameLockaspose.slides/ipictureframelock.
+description: Возвращает блокировки PictureFrame. Только для чтенияIPictureFrameLockaspose.slides/ipictureframelock .
 type: docs
 weight: 30
 url: /ru/net/aspose.slides/ipictureframe/pictureframelock/
 ---
 ## IPictureFrame.PictureFrameLock property
 
-Возвращает блокировки PictureFrame. Только для чтения[`IPictureFrameLock`](../../ipictureframelock).
+Возвращает блокировки PictureFrame. Только для чтения[`IPictureFrameLock`](../../ipictureframelock) .
 
 ```csharp
 public IPictureFrameLock PictureFrameLock { get; }

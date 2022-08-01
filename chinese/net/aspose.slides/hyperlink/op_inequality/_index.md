@@ -17,11 +17,11 @@ public static bool operator !=(Hyperlink hlink1, Hyperlink hlink2)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | hlink1 | Hyperlink | 第一个要测试的超链接。 |
-| hlink2 | Hyperlink | 第二个要测试的超链接。 |
+| hlink2 | Hyperlink | 要测试的第二个超链接。 |
 
 ### 返回值
 
-**False** 如果超链接相等。
+**错误的**如果超链接相等。
 
 ### 也可以看看
 

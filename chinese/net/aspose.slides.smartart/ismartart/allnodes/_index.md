@@ -1,14 +1,14 @@
 ---
 title: AllNodes
 second_title: Aspose.Slides for .NET API 参考
-description: 返回 SmartArt 对象中所有节点的集合 只读ISmartArtNodeCollectionaspose.slides.smartart/ismartartnodecollection
+description: 返回 SmartArt 对象中所有节点的集合 只读ISmartArtNodeCollectionaspose.slides.smartart/ismartartnodecollection.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides.smartart/ismartart/allnodes/
 ---
 ## ISmartArt.AllNodes property
 
-返回 SmartArt 对象中所有节点的集合。 只读[`ISmartArtNodeCollection`](../../ismartartnodecollection)。
+返回 SmartArt 对象中所有节点的集合。 只读[`ISmartArtNodeCollection`](../../ismartartnodecollection).
 
 ```csharp
 public ISmartArtNodeCollection AllNodes { get; }

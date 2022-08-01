@@ -16,11 +16,11 @@ public override bool Equals(object obj)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| obj | Object | Данные FontData для сравнения с текущими данными FontData. |
+| obj | Object | FontData для сравнения с текущим FontData. |
 
 ### Возвращаемое значение
 
-**true** , если указанный FontData равен текущему FontData; в противном случае **false** .
+**истинный** если указанный FontData равен текущему FontData; в противном случае, **ЛОЖЬ**.
 
 ### Смотрите также
 

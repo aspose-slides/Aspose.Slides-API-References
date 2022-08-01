@@ -1,14 +1,14 @@
 ---
 title: CellUnsupportedDataException
 second_title: Aspose.Slides for .NET API 参考
-description: 初始化CellUnsupportedDataExceptionaspose.slides.spreadsheet/cellunsupporteddataexception类的新实例
+description: 初始化CellUnsupportedDataExceptionaspose.slides.spreadsheet/cellunsupporteddataexception类.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides.spreadsheet/cellunsupporteddataexception/cellunsupporteddataexception/
 ---
 ## CellUnsupportedDataException() {#constructor}
 
-初始化[`CellUnsupportedDataException`](../../cellunsupporteddataexception)类的新实例。
+初始化[`CellUnsupportedDataException`](../../cellunsupporteddataexception)类.
 
 ```csharp
 public CellUnsupportedDataException()
@@ -24,7 +24,7 @@ public CellUnsupportedDataException()
 
 ## CellUnsupportedDataException(string) {#constructor_1}
 
-初始化[`CellUnsupportedDataException`](../../cellunsupporteddataexception)类的新实例，指定错误 信息。
+初始化[`CellUnsupportedDataException`](../../cellunsupporteddataexception)具有指定 error message. 的类
 
 ```csharp
 public CellUnsupportedDataException(string message)
@@ -44,7 +44,7 @@ public CellUnsupportedDataException(string message)
 
 ## CellUnsupportedDataException(string, Exception) {#constructor_2}
 
-初始化[`CellUnsupportedDataException`](../../cellunsupporteddataexception)类的新实例，指定错误 消息和对导致此异常的内部异常的引用。
+初始化[`CellUnsupportedDataException`](../../cellunsupporteddataexception)类具有指定的 error 消息和对导致此异常的内部异常的引用。
 
 ```csharp
 public CellUnsupportedDataException(string message, Exception innerException)

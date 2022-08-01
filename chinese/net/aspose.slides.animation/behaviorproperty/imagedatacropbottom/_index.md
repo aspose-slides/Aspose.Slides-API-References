@@ -1,14 +1,14 @@
 ---
 title: ImageDataCropBottom
 second_title: Aspose.Slides for .NET API 参考
-description: 表示 imageData.cropBottom 属性
+description: 表示imageData.cropBottom 属性
 type: docs
 weight: 440
 url: /zh/net/aspose.slides.animation/behaviorproperty/imagedatacropbottom/
 ---
 ## BehaviorProperty.ImageDataCropBottom property
 
-表示 'imageData.cropBottom' 属性
+表示'imageData.cropBottom' 属性
 
 ```csharp
 public static BehaviorProperty ImageDataCropBottom { get; }

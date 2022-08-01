@@ -1,14 +1,14 @@
 ---
 title: TextExtractionArrangingMode
 second_title: Aspose.Slides for .NET API 参考
-description: 表示提取文本时使用的模式
+description: 表示在文本提取期间使用的模式
 type: docs
 weight: 10130
 url: /zh/net/aspose.slides/textextractionarrangingmode/
 ---
 ## TextExtractionArrangingMode enumeration
 
-表示提取文本时使用的模式
+表示在文本提取期间使用的模式
 
 ```csharp
 public enum TextExtractionArrangingMode

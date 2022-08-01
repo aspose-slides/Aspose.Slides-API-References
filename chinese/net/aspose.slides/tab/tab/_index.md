@@ -16,7 +16,7 @@ public Tab(double position, TabAlignment align)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| position | Double | 选项卡位置。 |
+| position | Double | 标签位置。 |
 | align | TabAlignment | 对齐。 |
 
 ### 也可以看看

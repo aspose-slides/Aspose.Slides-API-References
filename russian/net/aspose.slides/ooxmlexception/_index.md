@@ -19,7 +19,7 @@ public class OOXMLException : Exception
 | Имя | Описание |
 | --- | --- |
 | [OOXMLException](ooxmlexception#constructor)() | Конструктор по умолчанию. |
-| [OOXMLException](ooxmlexception#constructor_1)(string) | Конструктор, позволяющий добавить сообщение к этому исключению. |
+| [OOXMLException](ooxmlexception#constructor_1)(string) | Конструктор, позволяющий добавить сообщение в это исключение. |
 | [OOXMLException](ooxmlexception#constructor_2)(string, Exception) | Конструктор исключения, содержащего сообщение и встроенное исключение. |
 
 ### Смотрите также

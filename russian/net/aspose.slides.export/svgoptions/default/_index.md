@@ -1,14 +1,14 @@
 ---
 title: Default
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает настройки по умолчанию. Только для чтенияSVGOptionsaspose.slides.export/svgoptions.
+description: Возвращает настройки по умолчанию. Только для чтенияSVGOptionsaspose.slides.export/svgoptions .
 type: docs
 weight: 20
 url: /ru/net/aspose.slides.export/svgoptions/default/
 ---
 ## SVGOptions.Default property
 
-Возвращает настройки по умолчанию. Только для чтения[`SVGOptions`](../../svgoptions).
+Возвращает настройки по умолчанию. Только для чтения[`SVGOptions`](../../svgoptions) .
 
 ```csharp
 public static SVGOptions Default { get; }

@@ -1,14 +1,14 @@
 ---
 title: AsArgumentOfFunction
 second_title: Aspose.Slides for .NET API 参考
-description: 以使用此实例作为参数的指定函数
+description: 将使用此实例的指定函数作为参数
 type: docs
 weight: 20
 url: /zh/net/aspose.slides.mathtext/mathelementbase/asargumentoffunction/
 ---
 ## AsArgumentOfFunction(IMathElement) {#asargumentoffunction}
 
-以使用此实例作为参数的指定函数
+将使用此实例的指定函数作为参数
 
 ```csharp
 public IMathFunction AsArgumentOfFunction(IMathElement functionName)
@@ -16,7 +16,7 @@ public IMathFunction AsArgumentOfFunction(IMathElement functionName)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| functionName | IMathElement | Function名称 |
+| functionName | IMathElement | 函数名称 |
 
 ### 返回值
 
@@ -24,7 +24,7 @@ public IMathFunction AsArgumentOfFunction(IMathElement functionName)
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]
@@ -45,7 +45,7 @@ IMathFunction func = functionArg.AsArgumentOfFunction(functionName);
 
 ## AsArgumentOfFunction(string) {#asargumentoffunction_4}
 
-以使用此实例作为参数的指定函数
+将使用此实例的指定函数作为参数
 
 ```csharp
 public IMathFunction AsArgumentOfFunction(string functionName)
@@ -53,7 +53,7 @@ public IMathFunction AsArgumentOfFunction(string functionName)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| functionName | String | Function名称 |
+| functionName | String | 函数名称 |
 
 ### 返回值
 
@@ -61,7 +61,7 @@ public IMathFunction AsArgumentOfFunction(string functionName)
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]
@@ -80,7 +80,7 @@ IMathFunction func = functionArg.AsArgumentOfFunction("cos");
 
 ## AsArgumentOfFunction(MathFunctionsOfOneArgument) {#asargumentoffunction_1}
 
-以使用此实例作为参数的指定函数
+将使用此实例的指定函数作为参数
 
 ```csharp
 public IMathFunction AsArgumentOfFunction(MathFunctionsOfOneArgument functionType)
@@ -88,7 +88,7 @@ public IMathFunction AsArgumentOfFunction(MathFunctionsOfOneArgument functionTyp
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| functionType | MathFunctionsOfOneArgument | 一一个参数的公共函数类型 |
+| functionType | MathFunctionsOfOneArgument | 一个参数的常用函数类型之一 |
 
 ### 返回值
 
@@ -96,7 +96,7 @@ public IMathFunction AsArgumentOfFunction(MathFunctionsOfOneArgument functionTyp
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]
@@ -126,7 +126,7 @@ public IMathFunction AsArgumentOfFunction(MathFunctionsOfTwoArguments functionTy
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| functionType | MathFunctionsOfTwoArguments | 两个参数的常用函数类型之一:Log、Lim、Min、Max |
+| functionType | MathFunctionsOfTwoArguments | 两个参数的常用函数类型之一：Log、Lim、Min、Max |
 | additionalArgument | IMathElement | 附加参数取决于函数的类型 |
 
 ### 返回值
@@ -135,13 +135,13 @@ public IMathFunction AsArgumentOfFunction(MathFunctionsOfTwoArguments functionTy
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]
 IMathElement functionArg = new MathematicalText("x");
 IMathElement logarithmBase = new MathematicalText("5");
-IMathFunction func = functionArg.AsArgumentOfFunction(MathFunctionsOfTwoArguments.Log, logarithmBase);  // 返回 'x' 以 '5' 为底的对数
+IMathFunction func = functionArg.AsArgumentOfFunction(MathFunctionsOfTwoArguments.Log, logarithmBase); // 返回 'x' 以 '5' 为底的对数
 ```
 
 ### 也可以看看
@@ -166,7 +166,7 @@ public IMathFunction AsArgumentOfFunction(MathFunctionsOfTwoArguments functionTy
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| functionType | MathFunctionsOfTwoArguments | 两个参数的常用函数类型之一:Log、Lim、Min、Max |
+| functionType | MathFunctionsOfTwoArguments | 两个参数的常用函数类型之一：Log、Lim、Min、Max |
 | additionalArgument | String | 附加参数取决于函数的类型 |
 
 ### 返回值
@@ -175,12 +175,12 @@ public IMathFunction AsArgumentOfFunction(MathFunctionsOfTwoArguments functionTy
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]
 IMathElement functionArg = new MathematicalText("x");
-IMathFunction func = functionArg.AsArgumentOfFunction(MathFunctionsOfTwoArguments.Log, "5");  // 返回 'x' 以 '5' 为底的对数
+IMathFunction func = functionArg.AsArgumentOfFunction(MathFunctionsOfTwoArguments.Log, "5"); // 返回 'x' 以 '5' 为底的对数
 ```
 
 ### 也可以看看

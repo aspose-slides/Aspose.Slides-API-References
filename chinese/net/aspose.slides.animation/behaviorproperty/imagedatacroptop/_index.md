@@ -1,14 +1,14 @@
 ---
 title: ImageDataCropTop
 second_title: Aspose.Slides for .NET API 参考
-description: 表示 imageData.cropTop 属性
+description: 表示imageData.cropTop 属性
 type: docs
 weight: 470
 url: /zh/net/aspose.slides.animation/behaviorproperty/imagedatacroptop/
 ---
 ## BehaviorProperty.ImageDataCropTop property
 
-表示 'imageData.cropTop' 属性
+表示'imageData.cropTop' 属性
 
 ```csharp
 public static BehaviorProperty ImageDataCropTop { get; }

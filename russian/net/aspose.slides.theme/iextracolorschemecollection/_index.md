@@ -18,7 +18,7 @@ public interface IExtraColorSchemeCollection : IGenericCollection<IExtraColorSch
 
 | Имя | Описание |
 | --- | --- |
-| [Item](../../aspose.slides.theme/iextracolorschemecollection/item) { get; } | Возвращает цветовую схему по индексу. Только для чтения[`IExtraColorScheme`](../iextracolorscheme). |
+| [Item](../../aspose.slides.theme/iextracolorschemecollection/item) { get; } | Возвращает цветовую схему по индексу. Только для чтения[`IExtraColorScheme`](../iextracolorscheme) . |
 
 ### Смотрите также
 

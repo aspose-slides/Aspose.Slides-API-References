@@ -1,14 +1,14 @@
 ---
 title: ParentSeriesGroup
 second_title: Aspose.Slides for .NET API 参考
-description: 返回父系列组 只读IChartSeriesGroupaspose.slides.charts/ichartseriesgroup
+description: 返回父系列组 只读IChartSeriesGroupaspose.slides.charts/ichartseriesgroup.
 type: docs
 weight: 290
 url: /zh/net/aspose.slides.charts/ichartseries/parentseriesgroup/
 ---
 ## IChartSeries.ParentSeriesGroup property
 
-返回父系列组。 只读[`IChartSeriesGroup`](../../ichartseriesgroup)。
+返回父系列组。 只读[`IChartSeriesGroup`](../../ichartseriesgroup).
 
 ```csharp
 public IChartSeriesGroup ParentSeriesGroup { get; }

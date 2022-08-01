@@ -18,13 +18,13 @@ public interface ISvgShape
 
 | Имя | Описание |
 | --- | --- |
-| [Id](../../aspose.slides.export/isvgshape/id) { get; set; } | Устанавливает или получает идентификатор фигуры |
+| [Id](../../aspose.slides.export/isvgshape/id) { get; set; } | Устанавливает или получает идентификатор shape |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [SetEventHandler](../../aspose.slides.export/isvgshape/seteventhandler)(SvgEvent, string) | Устанавливает обработчик событий для фигуры |
+| [SetEventHandler](../../aspose.slides.export/isvgshape/seteventhandler)(SvgEvent, string) | Устанавливает обработчик событий для shape |
 
 ### Смотрите также
 

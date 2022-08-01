@@ -18,7 +18,7 @@ public interface IXamlOptions : ISaveOptions
 
 | Имя | Описание |
 | --- | --- |
-| [AsISaveOptions](../../aspose.slides.export.xaml/ixamloptions/asisaveoptions) { get; } | Возвращает интерфейс ISaveOptions. Только для чтения[`ISaveOptions`](../../aspose.slides.export/isaveoptions). |
+| [AsISaveOptions](../../aspose.slides.export.xaml/ixamloptions/asisaveoptions) { get; } | Возвращает интерфейс ISaveOptions. Только для чтения[`ISaveOptions`](../../aspose.slides.export/isaveoptions) . |
 | [ExportHiddenSlides](../../aspose.slides.export.xaml/ixamloptions/exporthiddenslides) { get; set; } | Определяет, будут ли экспортироваться скрытые слайды. |
 | [OutputSaver](../../aspose.slides.export.xaml/ixamloptions/outputsaver) { get; set; } | Представляет реализацию интерфейса IOutputSaver. |
 

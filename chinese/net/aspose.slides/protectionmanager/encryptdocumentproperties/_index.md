@@ -1,14 +1,14 @@
 ---
 title: EncryptDocumentProperties
 second_title: Aspose.Slides for .NET API 参考
-description: 如果演示文稿受密码保护此属性是有意义的 如果为真则文档属性在演示文件中被加密 如果为 false则文档属性是公开的而演示文稿是加密的 读/写Boolean
+description: 如果演示文稿受密码保护则此属性有意义 如果为 true则演示文稿文件中的文档属性被加密 如果为 false则演示文稿加密时文档属性是公共的 读/写Boolean.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides/protectionmanager/encryptdocumentproperties/
 ---
 ## ProtectionManager.EncryptDocumentProperties property
 
-如果演示文稿受密码保护，此属性是有意义的。 如果为真，则文档属性在演示文件中被加密。 如果为 false，则文档属性是公开的，而演示文稿是加密的。 读/写Boolean。
+如果演示文稿受密码保护，则此属性有意义。 如果为 true，则演示文稿文件中的文档属性被加密。 如果为 false，则演示文稿加密时文档属性是公共的。 读/写Boolean.
 
 ```csharp
 public bool EncryptDocumentProperties { get; set; }

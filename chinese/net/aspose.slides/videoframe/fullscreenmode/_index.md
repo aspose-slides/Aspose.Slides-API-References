@@ -1,14 +1,14 @@
 ---
 title: FullScreenMode
 second_title: Aspose.Slides for .NET API 参考
-description: 确定视频是否以全屏模式显示 读/写Boolean
+description: 确定视频是否以全屏模式显示 读/写Boolean.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides/videoframe/fullscreenmode/
 ---
 ## VideoFrame.FullScreenMode property
 
-确定视频是否以全屏模式显示。 读/写Boolean。
+确定视频是否以全屏模式显示。 读/写Boolean.
 
 ```csharp
 public bool FullScreenMode { get; set; }

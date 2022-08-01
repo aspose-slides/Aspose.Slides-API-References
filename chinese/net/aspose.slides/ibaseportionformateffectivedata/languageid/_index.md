@@ -1,14 +1,14 @@
 ---
 title: LanguageId
 second_title: Aspose.Slides for .NET API 参考
-description: 返回语言的 ID 只读String
+description: 返回一种语言的 ID 只读String.
 type: docs
 weight: 160
 url: /zh/net/aspose.slides/ibaseportionformateffectivedata/languageid/
 ---
 ## IBasePortionFormatEffectiveData.LanguageId property
 
-返回语言的 ID。 只读String。
+返回一种语言的 ID。 只读String.
 
 ```csharp
 public string LanguageId { get; }

@@ -1,14 +1,14 @@
 ---
 title: MetafileRasterizationDpi
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置图元文件光栅化的分辨率下限 读/写Int32
+description: 返回或设置图元文件光栅化的分辨率下限 读/写Int32.
 type: docs
 weight: 80
 url: /zh/net/aspose.slides.export/isvgoptions/metafilerasterizationdpi/
 ---
 ## ISVGOptions.MetafileRasterizationDpi property
 
-返回或设置图元文件光栅化的分辨率下限。 读/写Int32。
+返回或设置图元文件光栅化的分辨率下限。 读/写Int32.
 
 ```csharp
 public int MetafileRasterizationDpi { get; set; }

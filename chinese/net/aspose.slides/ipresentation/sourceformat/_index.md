@@ -1,14 +1,14 @@
 ---
 title: SourceFormat
 second_title: Aspose.Slides for .NET API 参考
-description: 返回有关从哪个格式加载演示文稿的信息 只读SourceFormataspose.slides/ipresentation/sourceformat
+description: 返回有关从哪个格式加载演示文稿的信息 只读SourceFormataspose.slides/ipresentation/sourceformat.
 type: docs
 weight: 260
 url: /zh/net/aspose.slides/ipresentation/sourceformat/
 ---
 ## IPresentation.SourceFormat property
 
-返回有关从哪个格式加载演示文稿的信息。 只读`SourceFormat`。
+返回有关从哪个格式加载演示文稿的信息。 只读`SourceFormat`.
 
 ```csharp
 public SourceFormat SourceFormat { get; }

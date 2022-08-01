@@ -1,14 +1,14 @@
 ---
 title: AsIMultipleCellChartValue
 second_title: Справочник по API Aspose.Slides для .NET
-description: Позволяет получить базовый интерфейс IMultipleCellChartValue. Только для чтенияIMultipleCellChartValueaspose.slides.charts/imultiplecellchartvalue.
+description: Позволяет получить базовый интерфейс IMultipleCellChartValue. Только для чтенияIMultipleCellChartValueaspose.slides.charts/imultiplecellchartvalue .
 type: docs
 weight: 10
 url: /ru/net/aspose.slides.charts/istringchartvalue/asimultiplecellchartvalue/
 ---
 ## IStringChartValue.AsIMultipleCellChartValue property
 
-Позволяет получить базовый интерфейс IMultipleCellChartValue. Только для чтения[`IMultipleCellChartValue`](../../imultiplecellchartvalue).
+Позволяет получить базовый интерфейс IMultipleCellChartValue. Только для чтения[`IMultipleCellChartValue`](../../imultiplecellchartvalue) .
 
 ```csharp
 public IMultipleCellChartValue AsIMultipleCellChartValue { get; }

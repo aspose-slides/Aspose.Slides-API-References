@@ -1,14 +1,14 @@
 ---
 title: BaseUnitScale
 second_title: Aspose.Slides for .NET API 参考
-description: 指定日期轴上表示的最小时间单位 读/写TimeUnitTypeaspose.slides.charts/timeunittype
+description: 指定日期轴上表示的最小时间单位 读/写TimeUnitTypeaspose.slides.charts/timeunittype.
 type: docs
 weight: 90
 url: /zh/net/aspose.slides.charts/axis/baseunitscale/
 ---
 ## Axis.BaseUnitScale property
 
-指定日期轴上表示的最小时间单位。 读/写[`TimeUnitType`](../../timeunittype)。
+指定日期轴上表示的最小时间单位。 读/写[`TimeUnitType`](../../timeunittype).
 
 ```csharp
 public TimeUnitType BaseUnitScale { get; set; }

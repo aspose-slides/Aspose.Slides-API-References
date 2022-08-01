@@ -1,14 +1,14 @@
 ---
 title: AsLiteralDouble
 second_title: Aspose.Slides for .NET API 参考
-description: 如果 DataSourceType 属性是 DataSourceType.DoubleLiterals则返回或设置字面量 double 读/写Double
+description: 如果 DataSourceType 属性为 DataSourceType.DoubleLiterals. 读/写则返回或设置文字双精度Double.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides.charts/istringordoublechartvalue/asliteraldouble/
 ---
 ## IStringOrDoubleChartValue.AsLiteralDouble property
 
-如果 DataSourceType 属性是 DataSourceType.DoubleLiterals，则返回或设置字面量 double。 读/写Double。
+如果 DataSourceType 属性为 DataSourceType.DoubleLiterals. 读/写，则返回或设置文字双精度Double.
 
 ```csharp
 public double AsLiteralDouble { get; set; }

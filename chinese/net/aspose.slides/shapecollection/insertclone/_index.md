@@ -39,7 +39,7 @@ public IShape InsertClone(int index, IShape sourceShape, float x, float y, float
 
 ## InsertClone(int, IShape, float, float) {#insertclone_1}
 
-将指定形状的副本插入到集合的指定位置。 新形状的宽度和高度等于*sourceShape*的宽度和高度。
+将指定形状的副本插入到集合的指定位置。 新形状的宽度和高度等于*sourceShape*.
 
 ```csharp
 public IShape InsertClone(int index, IShape sourceShape, float x, float y)
@@ -67,7 +67,7 @@ public IShape InsertClone(int index, IShape sourceShape, float x, float y)
 
 ## InsertClone(int, IShape) {#insertclone}
 
-将指定形状的副本插入到集合的指定位置。 新形状的 X、Y、宽度和高度等于*sourceShape*的 X、Y、宽度和高度。
+将指定形状的副本插入到集合的指定位置。 新形状的 X、Y、宽度和高度等于 X、Y、宽度和高度*sourceShape*.
 
 ```csharp
 public IShape InsertClone(int index, IShape sourceShape)

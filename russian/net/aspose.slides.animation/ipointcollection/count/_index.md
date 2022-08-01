@@ -1,14 +1,14 @@
 ---
 title: Count
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает количество точек в коллекции. Только для чтенияInt32.
+description: Возвращает количество точек в коллекции. Только для чтенияInt32 .
 type: docs
 weight: 20
 url: /ru/net/aspose.slides.animation/ipointcollection/count/
 ---
 ## IPointCollection.Count property
 
-Возвращает количество точек в коллекции. Только для чтенияInt32.
+Возвращает количество точек в коллекции. Только для чтенияInt32 .
 
 ```csharp
 public int Count { get; }

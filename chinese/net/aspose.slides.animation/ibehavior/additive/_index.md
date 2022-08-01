@@ -1,14 +1,14 @@
 ---
 title: Additive
 second_title: Aspose.Slides for .NET API 参考
-description: 表示当前动画行为是否与其他运行动画相结合 读/写BehaviorAdditiveTypeaspose.slides.animation/behavioradditivetype
+description: 表示当前动画行为是否与其他正在运行的动画相结合 读/写BehaviorAdditiveTypeaspose.slides.animation/behavioradditivetype.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides.animation/ibehavior/additive/
 ---
 ## IBehavior.Additive property
 
-表示当前动画行为是否与其他运行动画相结合。 读/写[`BehaviorAdditiveType`](../../behavioradditivetype)。
+表示当前动画行为是否与其他正在运行的动画相结合。 读/写[`BehaviorAdditiveType`](../../behavioradditivetype).
 
 ```csharp
 public BehaviorAdditiveType Additive { get; set; }

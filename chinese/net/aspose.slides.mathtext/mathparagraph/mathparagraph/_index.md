@@ -16,7 +16,7 @@ public MathParagraph()
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]
@@ -41,7 +41,7 @@ public MathParagraph(IMathBlock mathBlock)
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]

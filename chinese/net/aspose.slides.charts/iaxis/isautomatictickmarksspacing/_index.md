@@ -1,14 +1,14 @@
 ---
 title: IsAutomaticTickMarksSpacing
 second_title: Aspose.Slides for .NET API 参考
-description: 指定自动刻度线间距值如果为 false使用 TickMarksSpacing 属性 读/写Boolean
+description: 指定自动刻度线间距值如果为假使用 TickMarksSpacing 属性 读/写Boolean.
 type: docs
 weight: 240
 url: /zh/net/aspose.slides.charts/iaxis/isautomatictickmarksspacing/
 ---
 ## IAxis.IsAutomaticTickMarksSpacing property
 
-指定自动刻度线间距值。如果为 false:使用 TickMarksSpacing 属性。 读/写Boolean。
+指定自动刻度线间距值。如果为假：使用 TickMarksSpacing 属性。 读/写Boolean.
 
 ```csharp
 public bool IsAutomaticTickMarksSpacing { get; set; }

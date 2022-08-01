@@ -92,7 +92,7 @@ public void GetCustomPropertyValue(string name, out string value)
 
 ## GetCustomPropertyValue(string, out float) {#getcustompropertyvalue_3}
 
-从自定义属性中获取命名的浮点值。
+从自定义属性中获取一个命名的浮点值。
 
 ```csharp
 public void GetCustomPropertyValue(string name, out float value)

@@ -18,13 +18,13 @@ public interface IColumnCollection : IGenericCollection<IColumn>
 
 | Имя | Описание |
 | --- | --- |
-| [Item](../../aspose.slides/icolumncollection/item) { get; } | Возвращает столбец по указанному индексу. Только для чтения[`IColumn`](../icolumn). |
+| [Item](../../aspose.slides/icolumncollection/item) { get; } | Возвращает столбец по указанному индексу. Только для чтения[`IColumn`](../icolumn) . |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [AddClone](../../aspose.slides/icolumncollection/addclone)(IColumn, bool) | Создает копию указанной строки шаблона и вставляет ее внизу таблицы. |
+| [AddClone](../../aspose.slides/icolumncollection/addclone)(IColumn, bool) | Создает копию указанной строки шаблона и вставляет ее в конец таблицы. |
 | [InsertClone](../../aspose.slides/icolumncollection/insertclone)(int, IColumn, bool) | Создает копию указанного столбца шаблона и вставляет его в указанную позицию в таблице. |
 | [RemoveAt](../../aspose.slides/icolumncollection/removeat)(int, bool) | Удаляет столбец в указанной позиции из таблицы. |
 

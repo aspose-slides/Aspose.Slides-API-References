@@ -19,8 +19,8 @@ public interface IGrayScale : IAccessiblePVIObject<IGrayScaleEffectiveData>,
 
 | Имя | Описание |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/igrayscale/asiaccessiblepviobject) { get; } | Позволяет получить базовый интерфейс IAccessiblePVIObject. Только чтение[`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/igrayscale/asiimagetransformoperation) { get; } | Возвращает интерфейс IImageTransformOperation. Только для чтения[`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/igrayscale/asiaccessiblepviobject) { get; } | Позволяет получить базовый интерфейс IAccessiblePVIObject. Только для чтения[`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1) . |
+| [AsIImageTransformOperation](../../aspose.slides.effects/igrayscale/asiimagetransformoperation) { get; } | Возвращает интерфейс IImageTransformOperation. Только для чтения[`IImageTransformOperation`](../iimagetransformoperation) . |
 
 ### Смотрите также
 

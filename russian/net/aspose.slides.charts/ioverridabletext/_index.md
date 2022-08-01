@@ -18,14 +18,14 @@ public interface IOverridableText : IFormattedTextContainer
 
 | Имя | Описание |
 | --- | --- |
-| [AsIFormattedTextContainer](../../aspose.slides.charts/ioverridabletext/asiformattedtextcontainer) { get; } | Позволяет получить базовый интерфейс IFormattedTextContainer. Только для чтения[`IFormattedTextContainer`](../iformattedtextcontainer). |
-| [TextFrameForOverriding](../../aspose.slides.charts/ioverridabletext/textframeforoverriding) { get; } | Может содержать форматированный текст. Если это свойство не равно null, то это значение форматированного текста переопределяет автоматически сгенерированный текст. Автоматически генерируемый текст является неявным свойством метки данных, отображения метки единицы измерения оси значений, заголовка оси, заголовка диаграммы, метки линии тренда. Автоматически сгенерированный текст форматируется с помощью свойства IFormattedTextContainer.TextFormat. Только для чтения[`ITextFrame`](../../aspose.slides/itextframe). |
+| [AsIFormattedTextContainer](../../aspose.slides.charts/ioverridabletext/asiformattedtextcontainer) { get; } | Позволяет получить базовый интерфейс IFormattedTextContainer. Только для чтения[`IFormattedTextContainer`](../iformattedtextcontainer) . |
+| [TextFrameForOverriding](../../aspose.slides.charts/ioverridabletext/textframeforoverriding) { get; } | Может содержать форматированный текст. Если это свойство не равно нулю, то это форматированное текстовое значение переопределяет автоматически сгенерированный текст. метка линии тренда. Автоматически сгенерированный текст форматируется с помощью свойства IFormattedTextContainer.TextFormat. Только для чтения[`ITextFrame`](../../aspose.slides/itextframe) . |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [AddTextFrameForOverriding](../../aspose.slides.charts/ioverridabletext/addtextframeforoverriding)(string) | Инициализировать TextFrameForOverriding с текстом в параметре "text". Если TextFrameForOverriding уже инициализирован, то просто меняет свой текст. |
+| [AddTextFrameForOverriding](../../aspose.slides.charts/ioverridabletext/addtextframeforoverriding)(string) | Инициализировать TextFrameForOverriding с текстом в параметре "текст". Если TextFrameForOverriding уже инициализирован, то просто меняет его текст. |
 
 ### Смотрите также
 

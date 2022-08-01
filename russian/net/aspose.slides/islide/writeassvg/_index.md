@@ -37,7 +37,7 @@ public void WriteAsSvg(Stream stream, ISVGOptions svgOptions)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | stream | Stream | Целевой поток |
-| svgOptions | ISVGOptions | Параметры генерации SVG |
+| svgOptions | ISVGOptions | Варианты генерации SVG |
 
 ### Смотрите также
 

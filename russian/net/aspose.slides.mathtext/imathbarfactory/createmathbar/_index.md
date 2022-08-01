@@ -1,14 +1,14 @@
 ---
 title: CreateMathBar
 second_title: Справочник по API Aspose.Slides для .NET
-description: Создать математическую полосу применив к элементу
+description: Создайте математическую полосу применив к element
 type: docs
 weight: 10
 url: /ru/net/aspose.slides.mathtext/imathbarfactory/createmathbar/
 ---
 ## CreateMathBar(IMathElement) {#createmathbar}
 
-Создать математическую полосу, применив к элементу
+Создайте математическую полосу, применив к element
 
 ```csharp
 public IMathBar CreateMathBar(IMathElement element)
@@ -16,11 +16,11 @@ public IMathBar CreateMathBar(IMathElement element)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| element | IMathElement | math элемент для применения bar |
+| element | IMathElement | математический элемент для применения бара |
 
 ### Возвращаемое значение
 
-новый математический элемент bar
+новый элемент математической панели
 
 ### Смотрите также
 
@@ -34,7 +34,7 @@ public IMathBar CreateMathBar(IMathElement element)
 
 ## CreateMathBar(IMathElement, MathTopBotPositions) {#createmathbar_1}
 
-Создать математическую полосу, применив к элементу
+Создайте математическую полосу, применив к element
 
 ```csharp
 public IMathBar CreateMathBar(IMathElement element, MathTopBotPositions position)
@@ -42,12 +42,12 @@ public IMathBar CreateMathBar(IMathElement element, MathTopBotPositions position
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| element | IMathElement | Math элемент для применения бара |
-| position | MathTopBotPositions | Позиция бара |
+| element | IMathElement | Математический элемент для применения бара |
+| position | MathTopBotPositions | Положение бара |
 
 ### Возвращаемое значение
 
-новый элемент математического бара
+новый элемент математической панели
 
 ### Смотрите также
 

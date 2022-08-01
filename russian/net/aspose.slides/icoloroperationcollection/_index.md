@@ -19,7 +19,7 @@ public interface IColorOperationCollection : IGenericCloneable<IColorOperationCo
 
 | Имя | Описание |
 | --- | --- |
-| [Item](../../aspose.slides/icoloroperationcollection/item) { get; set; } | Возвращает или задает операцию по указанному индексу. Чтение/запись[`IColorOperation`](../icoloroperation). |
+| [Item](../../aspose.slides/icoloroperationcollection/item) { get; set; } | Возвращает или задает операцию по указанному индексу. Чтение/запись[`IColorOperation`](../icoloroperation) . |
 
 ## Методы
 

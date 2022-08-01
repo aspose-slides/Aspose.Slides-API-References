@@ -16,7 +16,7 @@ public IColorReplaceEffectiveData GetEffective()
 
 ### 返回值
 
-A[`IColorReplaceEffectiveData`](../../icolorreplaceeffectivedata)。
+一个[`IColorReplaceEffectiveData`](../../icolorreplaceeffectivedata).
 
 ### 也可以看看
 

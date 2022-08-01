@@ -18,8 +18,8 @@ public interface IChartDataPointLevel
 
 | Имя | Описание |
 | --- | --- |
-| [Format](../../aspose.slides.charts/ichartdatapointlevel/format) { get; } | Представляет свойства форматирования уровня точки данных. Чтение/запись[`IFormat`](../iformat). |
-| [Label](../../aspose.slides.charts/ichartdatapointlevel/label) { get; } | Представляет метку данных уровня точки данных. Применяется для серий Treemap и Sunburst. Только чтение[`IDataLabel`](../idatalabel). |
+| [Format](../../aspose.slides.charts/ichartdatapointlevel/format) { get; } | Представляет свойства форматирования уровня точки данных. Чтение/запись[`IFormat`](../iformat) . |
+| [Label](../../aspose.slides.charts/ichartdatapointlevel/label) { get; } | Представляет метку данных уровня точки данных. Применяется для типов Treemap и Sunburst sereis. Только для чтения[`IDataLabel`](../idatalabel) . |
 
 ### Смотрите также
 

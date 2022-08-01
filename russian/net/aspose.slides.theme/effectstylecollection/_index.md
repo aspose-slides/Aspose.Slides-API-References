@@ -18,17 +18,17 @@ public sealed class EffectStyleCollection : DomObject<FormatScheme>, IEffectStyl
 
 | Имя | Описание |
 | --- | --- |
-| [Count](../../aspose.slides.theme/effectstylecollection/count) { get; } | Возвращает количество элементов в коллекции. Только для чтенияInt32, Только для чтенияInt32. |
-| [IsSynchronized](../../aspose.slides.theme/effectstylecollection/issynchronized) { get; } | Возвращает значение, указывающее, является ли доступ к коллекции синхронизированным (потокобезопасным). Только чтениеBoolean. |
-| [Item](../../aspose.slides.theme/effectstylecollection/item) { get; } | Возвращает элемент в указанной позиции. Только для чтения[`EffectStyle`](../effectstyle). |
-| [SyncRoot](../../aspose.slides.theme/effectstylecollection/syncroot) { get; } | Возвращает корень синхронизации. Только для чтенияObject. |
+| [Count](../../aspose.slides.theme/effectstylecollection/count) { get; } | Возвращает количество элементов в коллекции. Только для чтенияInt32 , Только для чтенияInt32 . |
+| [IsSynchronized](../../aspose.slides.theme/effectstylecollection/issynchronized) { get; } | Возвращает значение, указывающее, является ли доступ к коллекции синхронизированным (потокобезопасным). Только для чтенияBoolean . |
+| [Item](../../aspose.slides.theme/effectstylecollection/item) { get; } | Возвращает элемент в указанной позиции. Только для чтения[`EffectStyle`](../effectstyle) . |
+| [SyncRoot](../../aspose.slides.theme/effectstylecollection/syncroot) { get; } | Возвращает корень синхронизации. Только для чтенияObject . |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [CopyTo](../../aspose.slides.theme/effectstylecollection/copyto)(Array, int) | Копирует все элементы из коллекции в указанный массив. |
-| [GetEnumerator](../../aspose.slides.theme/effectstylecollection/getenumerator)() | Возвращает перечислитель, который перебирает коллекцию. |
+| [CopyTo](../../aspose.slides.theme/effectstylecollection/copyto)(Array, int) | Копирует все элементы коллекции в указанный массив. |
+| [GetEnumerator](../../aspose.slides.theme/effectstylecollection/getenumerator)() | Возвращает перечислитель, который выполняет итерацию по коллекции. |
 
 ### Смотрите также
 

@@ -21,15 +21,15 @@ public IOleObjectFrame AddOleObjectFrame(float x, float y, float width, float he
 | y | Single | 新 OLE 框架的 Y 坐标。 |
 | width | Single | 新 OLE 框架的宽度。 |
 | height | Single | 新 OLE 框架的高度。 |
-| dataInfo | IOleEmbeddedDataInfo | 嵌入数据信息[`IOleEmbeddedDataInfo`](../../ioleembeddeddatainfo)。 |
+| dataInfo | IOleEmbeddedDataInfo | 嵌入数据信息[`IOleEmbeddedDataInfo`](../../ioleembeddeddatainfo). |
 
 ### 返回值
 
-创建 OLE 对象。
+创建了 OLE 对象。
 
 ### 例子
 
-此示例演示将 OLE 对象添加到集合的末尾::::47::
+此示例演示将 OLE 对象添加到集合的末尾：
 
 ```csharp
 [C#]
@@ -68,7 +68,7 @@ public IOleObjectFrame AddOleObjectFrame(float x, float y, float width, float he
 
 ### 返回值
 
-创建 OLE 对象。
+创建了 OLE 对象。
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: ColorTransform
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает набор цветовых преобразований примененных к цвету. Только для чтенияIColorOperationCollectionaspose.slides/icoloroperationcollection.
+description: Возвращает набор цветовых преобразований примененных к цвету. Только для чтенияIColorOperationCollectionaspose.slides/icoloroperationcollection .
 type: docs
 weight: 30
 url: /ru/net/aspose.slides/colorformat/colortransform/
 ---
 ## ColorFormat.ColorTransform property
 
-Возвращает набор цветовых преобразований, примененных к цвету. Только для чтения[`IColorOperationCollection`](../../icoloroperationcollection).
+Возвращает набор цветовых преобразований, примененных к цвету. Только для чтения[`IColorOperationCollection`](../../icoloroperationcollection) .
 
 ```csharp
 public IColorOperationCollection ColorTransform { get; }

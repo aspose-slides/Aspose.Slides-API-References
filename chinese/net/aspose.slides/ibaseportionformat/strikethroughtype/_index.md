@@ -1,14 +1,14 @@
 ---
 title: StrikethroughType
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置文本的删除线类型未应用继承 读/写TextStrikethroughTypeaspose.slides/textstrikethroughtype
+description: 返回或设置文本的删除线类型未应用继承 读/写TextStrikethroughTypeaspose.slides/textstrikethroughtype.
 type: docs
 weight: 220
 url: /zh/net/aspose.slides/ibaseportionformat/strikethroughtype/
 ---
 ## IBasePortionFormat.StrikethroughType property
 
-返回或设置文本的删除线类型。未应用继承。 读/写[`TextStrikethroughType`](../../textstrikethroughtype)。
+返回或设置文本的删除线类型。未应用继承。 读/写[`TextStrikethroughType`](../../textstrikethroughtype).
 
 ```csharp
 public TextStrikethroughType StrikethroughType { get; set; }

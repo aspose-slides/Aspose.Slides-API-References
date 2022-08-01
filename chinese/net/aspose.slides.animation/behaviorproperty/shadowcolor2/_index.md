@@ -1,14 +1,14 @@
 ---
 title: ShadowColor2
 second_title: Aspose.Slides for .NET API 参考
-description: 表示shadow.color2属性
+description: 代表 shadow.color2 属性
 type: docs
 weight: 610
 url: /zh/net/aspose.slides.animation/behaviorproperty/shadowcolor2/
 ---
 ## BehaviorProperty.ShadowColor2 property
 
-表示'shadow.color2'属性
+代表 'shadow.color2' 属性
 
 ```csharp
 public static BehaviorProperty ShadowColor2 { get; }

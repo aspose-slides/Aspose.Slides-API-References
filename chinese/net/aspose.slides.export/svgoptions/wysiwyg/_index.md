@@ -1,14 +1,14 @@
 ---
 title: WYSIWYG
 second_title: Aspose.Slides for .NET API 参考
-description: 返回设置以生成最准确的 SVG 文件 只读SVGOptionsaspose.slides.export/svgoptions
+description: 返回设置以生成最准确的 SVG 文件 只读SVGOptionsaspose.slides.export/svgoptions.
 type: docs
 weight: 40
 url: /zh/net/aspose.slides.export/svgoptions/wysiwyg/
 ---
 ## SVGOptions.WYSIWYG property
 
-返回设置以生成最准确的 SVG 文件。 只读[`SVGOptions`](../../svgoptions)。
+返回设置以生成最准确的 SVG 文件。 只读[`SVGOptions`](../../svgoptions).
 
 ```csharp
 public static SVGOptions WYSIWYG { get; }

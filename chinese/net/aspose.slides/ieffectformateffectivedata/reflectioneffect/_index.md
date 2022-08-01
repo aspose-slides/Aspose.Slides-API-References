@@ -1,14 +1,14 @@
 ---
 title: ReflectionEffect
 second_title: Aspose.Slides for .NET API 参考
-description: 反射 只读IReflectionEffectiveDataaspose.slides.effects/ireflectioneffectivedata
+description: 反射 只读IReflectionEffectiveDataaspose.slides.effects/ireflectioneffectivedata.
 type: docs
 weight: 90
 url: /zh/net/aspose.slides/ieffectformateffectivedata/reflectioneffect/
 ---
 ## IEffectFormatEffectiveData.ReflectionEffect property
 
-反射。 只读[`IReflectionEffectiveData`](../../../aspose.slides.effects/ireflectioneffectivedata)。
+反射。 只读[`IReflectionEffectiveData`](../../../aspose.slides.effects/ireflectioneffectivedata).
 
 ```csharp
 public IReflectionEffectiveData ReflectionEffect { get; }

@@ -1,14 +1,14 @@
 ---
 title: IsBubble3D
 second_title: Aspose.Slides for .NET API 参考
-description: 指定对气泡应用 3-D 效果 读/写Boolean
+description: 指定气泡应用了 3-D 效果 读/写Boolean.
 type: docs
 weight: 90
 url: /zh/net/aspose.slides.charts/ichartdatapoint/isbubble3d/
 ---
 ## IChartDataPoint.IsBubble3D property
 
-指定对气泡应用 3-D 效果。 读/写Boolean。
+指定气泡应用了 3-D 效果。 读/写Boolean.
 
 ```csharp
 public bool IsBubble3D { get; set; }

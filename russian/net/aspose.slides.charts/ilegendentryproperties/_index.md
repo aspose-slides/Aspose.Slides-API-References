@@ -18,8 +18,8 @@ public interface ILegendEntryProperties : IFormattedTextContainer
 
 | Имя | Описание |
 | --- | --- |
-| [AsIFormattedTextContainer](../../aspose.slides.charts/ilegendentryproperties/asiformattedtextcontainer) { get; } | Позволяет получить базовый интерфейс IFormattedTextContainer. Только для чтения[`IFormattedTextContainer`](../iformattedtextcontainer). |
-| [Hide](../../aspose.slides.charts/ilegendentryproperties/hide) { get; set; } | Возвращает или устанавливает флаг скрытия записи легенды. Чтение/записьBoolean. |
+| [AsIFormattedTextContainer](../../aspose.slides.charts/ilegendentryproperties/asiformattedtextcontainer) { get; } | Позволяет получить базовый интерфейс IFormattedTextContainer. Только для чтения[`IFormattedTextContainer`](../iformattedtextcontainer) . |
+| [Hide](../../aspose.slides.charts/ilegendentryproperties/hide) { get; set; } | Возвращает или устанавливает флаг скрытия записи легенды. Чтение/записьBoolean . |
 
 ### Смотрите также
 

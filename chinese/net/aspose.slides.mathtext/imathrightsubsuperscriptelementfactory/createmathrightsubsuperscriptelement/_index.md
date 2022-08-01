@@ -19,11 +19,11 @@ public IMathRightSubSuperscriptElement CreateMathRightSubSuperscriptElement(IMat
 | --- | --- | --- |
 | baseArg | IMathElement | 应用索引的基本参数 |
 | subScript | IMathElement | 右下索引 |
-| superScript | IMathElement | 右上索引 |
+| superScript | IMathElement | 右上角索引 |
 
 ### 返回值
 
-新的 IMathLeftSubSuperscriptElement
+新的 IMathLeftSubSuperscript 元素
 
 ### 也可以看看
 

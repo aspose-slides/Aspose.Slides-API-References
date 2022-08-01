@@ -1,14 +1,14 @@
 ---
 title: CropLocked
 second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет запрещено ли кадрирование изображения. Чтение/записьBoolean.
+description: Определяет запрещено ли кадрирование изображения. Чтение/записьBoolean .
 type: docs
 weight: 50
 url: /ru/net/aspose.slides/ipictureframelock/croplocked/
 ---
 ## IPictureFrameLock.CropLocked property
 
-Определяет, запрещено ли кадрирование изображения. Чтение/записьBoolean.
+Определяет, запрещено ли кадрирование изображения. Чтение/записьBoolean .
 
 ```csharp
 public bool CropLocked { get; set; }

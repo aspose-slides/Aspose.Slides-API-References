@@ -16,7 +16,7 @@ public IBackgroundEffectiveData GetEffective()
 
 ### Возвращаемое значение
 
-A[`IBackgroundEffectiveData`](../../ibackgroundeffectivedata).
+А[`IBackgroundEffectiveData`](../../ibackgroundeffectivedata).
 
 ### Примеры
 

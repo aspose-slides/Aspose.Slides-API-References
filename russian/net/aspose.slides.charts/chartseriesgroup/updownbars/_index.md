@@ -1,14 +1,14 @@
 ---
 title: UpDownBars
 second_title: Справочник по API Aspose.Slides для .NET
-description: Предоставляет доступ к барам вверх/вниз линейного или биржевого графика. Только для чтенияIUpDownBarsManageraspose.slides.charts/iupdownbarsmanager.
+description: Предоставляет доступ к столбцам вверх/вниз линейного или фондового графика. Только для чтенияIUpDownBarsManageraspose.slides.charts/iupdownbarsmanager .
 type: docs
 weight: 200
 url: /ru/net/aspose.slides.charts/chartseriesgroup/updownbars/
 ---
 ## ChartSeriesGroup.UpDownBars property
 
-Предоставляет доступ к барам вверх/вниз линейного или биржевого графика. Только для чтения[`IUpDownBarsManager`](../../iupdownbarsmanager).
+Предоставляет доступ к столбцам вверх/вниз линейного или фондового графика. Только для чтения[`IUpDownBarsManager`](../../iupdownbarsmanager) .
 
 ```csharp
 public IUpDownBarsManager UpDownBars { get; }

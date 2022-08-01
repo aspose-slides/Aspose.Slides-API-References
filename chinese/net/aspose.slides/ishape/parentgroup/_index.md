@@ -1,14 +1,14 @@
 ---
 title: ParentGroup
 second_title: Aspose.Slides for .NET API 参考
-description: 如果形状被分组则返回父 GroupShape 对象否则返回 null 只读IGroupShapeaspose.slides/igroupshape
+description: 如果形状被分组则返回父 GroupShape 对象否则返回 null. 只读IGroupShapeaspose.slides/igroupshape.
 type: docs
 weight: 180
 url: /zh/net/aspose.slides/ishape/parentgroup/
 ---
 ## IShape.ParentGroup property
 
-如果形状被分组，则返回父 GroupShape 对象。否则返回 null。 只读[`IGroupShape`](../../igroupshape)。
+如果形状被分组，则返回父 GroupShape 对象。否则返回 null. 只读[`IGroupShape`](../../igroupshape).
 
 ```csharp
 public IGroupShape ParentGroup { get; }
@@ -16,7 +16,7 @@ public IGroupShape ParentGroup { get; }
 
 ### 评论
 
-属性[`IsGrouped`](../isgrouped)确定是否形状被分组。
+属性[`IsGrouped`](../isgrouped)确定形状是否分组。
 
 ### 也可以看看
 

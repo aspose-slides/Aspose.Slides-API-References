@@ -19,7 +19,7 @@ public enum SourceFormat
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | Ppt | `0` | PPT 格式。 |
-| Pptx | `1` | Pptx 格式。 |
+| Pptx | `1` | pptx格式. |
 | Odp | `2` | Odp 格式。 |
 
 ### 也可以看看

@@ -20,7 +20,7 @@ public IBehavior this[int index] { get; set; }
 
 ### 返回值
 
-动画制作者。
+动画乞讨者。
 
 ### 也可以看看
 

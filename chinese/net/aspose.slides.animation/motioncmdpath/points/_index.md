@@ -1,14 +1,14 @@
 ---
 title: Points
 second_title: Aspose.Slides for .NET API 参考
-description: 指定指挥点 读/写PointF
+description: 指定命令点 读/写PointF.
 type: docs
 weight: 30
 url: /zh/net/aspose.slides.animation/motioncmdpath/points/
 ---
 ## MotionCmdPath.Points property
 
-指定指挥点。 读/写PointF[]。
+指定命令点。 读/写PointF[].
 
 ```csharp
 public PointF[] Points { get; set; }

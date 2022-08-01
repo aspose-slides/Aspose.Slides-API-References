@@ -1,14 +1,14 @@
 ---
 title: SetSubSuperscriptOnTheRight
 second_title: Aspose.Slides for .NET API 参考
-description: 在右侧创建下标和上标
+description: 在右边创建下标和上标
 type: docs
 weight: 160
 url: /zh/net/aspose.slides.mathtext/imathelement/setsubsuperscriptontheright/
 ---
 ## SetSubSuperscriptOnTheRight(IMathElement, IMathElement) {#setsubsuperscriptontheright}
 
-在右侧创建下标和上标
+在右边创建下标和上标
 
 ```csharp
 public IMathRightSubSuperscriptElement SetSubSuperscriptOnTheRight(IMathElement subscript, 
@@ -17,16 +17,16 @@ public IMathRightSubSuperscriptElement SetSubSuperscriptOnTheRight(IMathElement 
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| subscript | IMathElement | 下标（下右侧索引） |
-| superscript | IMathElement | 上标（右侧上部索引） |
+| subscript | IMathElement | 下标（右下标） |
+| superscript | IMathElement | 上标（右上方的索引） |
 
 ### 返回值
 
-新数学元素类型[`IMathRightSubSuperscriptElement`](../../imathrightsubsuperscriptelement)
+类型的新数学元素[`IMathRightSubSuperscriptElement`](../../imathrightsubsuperscriptelement)
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]
@@ -47,7 +47,7 @@ IMathRightSubSuperscriptElement subsuperscript = baseElement.SetSubSuperscriptOn
 
 ## SetSubSuperscriptOnTheRight(string, string) {#setsubsuperscriptontheright_1}
 
-在右侧创建下标和上标
+在右边创建下标和上标
 
 ```csharp
 public IMathRightSubSuperscriptElement SetSubSuperscriptOnTheRight(string subscript, 
@@ -56,16 +56,16 @@ public IMathRightSubSuperscriptElement SetSubSuperscriptOnTheRight(string subscr
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| subscript | String | 下标（下右侧索引） |
-| superscript | String | 上标（右侧上部索引） |
+| subscript | String | 下标（右下标） |
+| superscript | String | 上标（右上方的索引） |
 
 ### 返回值
 
-新数学元素类型[`IMathRightSubSuperscriptElement`](../../imathrightsubsuperscriptelement)
+类型的新数学元素[`IMathRightSubSuperscriptElement`](../../imathrightsubsuperscriptelement)
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]

@@ -1,14 +1,14 @@
 ---
 title: StrikethroughVertical
 second_title: Справочник по API Aspose.Slides для .NET
-description: Strikethrough Vertical по умолчанию false - указывает скрытое или отображаемое состояние зачеркнутой вертикальной линии.
+description: Зачеркнутая вертикаль по умолчанию false  указывает скрытое или отображаемое состояние зачеркнутой вертикальной линии.
 type: docs
 weight: 100
 url: /ru/net/aspose.slides.mathtext/imathborderbox/strikethroughvertical/
 ---
 ## IMathBorderBox.StrikethroughVertical property
 
-Strikethrough Vertical (по умолчанию false) - указывает скрытое или отображаемое состояние зачеркнутой вертикальной линии.
+Зачеркнутая вертикаль (по умолчанию false) — указывает скрытое или отображаемое состояние зачеркнутой вертикальной линии.
 
 ```csharp
 public bool StrikethroughVertical { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: Orientation
 second_title: Aspose.Slides for .NET API 参考
-description: 获取或设置占位符的方向 只读Orientationaspose.slides/orientation
+description: 获取或设置占位符的方向 只读Orientationaspose.slides/orientation.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides/placeholder/orientation/
 ---
 ## Placeholder.Orientation property
 
-获取或设置占位符的方向。 只读[`Orientation`](../../orientation)。
+获取或设置占位符的方向。 只读[`Orientation`](../../orientation).
 
 ```csharp
 public Orientation Orientation { get; }

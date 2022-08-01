@@ -1,14 +1,14 @@
 ---
 title: FontSubstRule
 second_title: Aspose.Slides for .NET API 参考
-description: 表示字体替换信息
+description: 代表字体替换信息
 type: docs
 weight: 4440
 url: /zh/net/aspose.slides/fontsubstrule/
 ---
 ## FontSubstRule class
 
-表示字体替换信息
+代表字体替换信息
 
 ```csharp
 public class FontSubstRule : IFontSubstRule
@@ -25,9 +25,9 @@ public class FontSubstRule : IFontSubstRule
 
 | 姓名 | 描述 |
 | --- | --- |
-| [DestFont](../../aspose.slides/fontsubstrule/destfont) { get; } | 用于替换的字体。 只读[`IFontData`](../ifontdata)。 |
-| [ReplaceFontCondition](../../aspose.slides/fontsubstrule/replacefontcondition) { get; } | 申请替换的规则。 只读[`FontSubstCondition`](../fontsubstcondition)。 |
-| [SourceFont](../../aspose.slides/fontsubstrule/sourcefont) { get; } | 要替换的字体。 只读[`IFontData`](../ifontdata)。 |
+| [DestFont](../../aspose.slides/fontsubstrule/destfont) { get; } | 用于替换的字体。 只读[`IFontData`](../ifontdata). |
+| [ReplaceFontCondition](../../aspose.slides/fontsubstrule/replacefontcondition) { get; } | 申请替换的规则。 只读[`FontSubstCondition`](../fontsubstcondition). |
+| [SourceFont](../../aspose.slides/fontsubstrule/sourcefont) { get; } | 要替换的字体。 只读[`IFontData`](../ifontdata). |
 
 ### 也可以看看
 

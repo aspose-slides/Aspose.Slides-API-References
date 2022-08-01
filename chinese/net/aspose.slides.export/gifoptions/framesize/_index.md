@@ -16,7 +16,7 @@ public Size FrameSize { get; set; }
 
 ### 评论
 
-如果大小为空，则该值将从SlideSize中获取&gt;
+如果大小为空，则该值将从[`SlideSize`](../../../aspose.slides/ipresentation/slidesize)&gt;
 
 ### 也可以看看
 

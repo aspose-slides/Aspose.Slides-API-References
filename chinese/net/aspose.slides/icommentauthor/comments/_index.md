@@ -1,14 +1,14 @@
 ---
 title: Comments
 second_title: Aspose.Slides for .NET API 参考
-description: 返回此作者的评论集合 只读ICommentCollectionaspose.slides/icommentcollection
+description: 返回此作者发表的评论集合 只读ICommentCollectionaspose.slides/icommentcollection.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides/icommentauthor/comments/
 ---
 ## ICommentAuthor.Comments property
 
-返回此作者的评论集合。 只读[`ICommentCollection`](../../icommentcollection)。
+返回此作者发表的评论集合。 只读[`ICommentCollection`](../../icommentcollection).
 
 ```csharp
 public ICommentCollection Comments { get; }

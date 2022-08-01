@@ -1,14 +1,14 @@
 ---
 title: HyperlinkQueries
 second_title: Справочник по API Aspose.Slides для .NET
-description: Обеспечивает легкий доступ ко всем гиперссылкам содержащимся во всех слайдах презентации кроме мастер-слайдов макетов слайдов с примечаниями. Только для чтенияIHyperlinkQueriesaspose.slides/ihyperlinkqueries.
+description: Обеспечивает легкий доступ ко всем гиперссылкам содержащимся во всех слайдах презентации кроме мастер-слайдов макетов и слайдов с примечаниями. Только для чтенияIHyperlinkQueriesaspose.slides/ihyperlinkqueries .
 type: docs
 weight: 130
 url: /ru/net/aspose.slides/presentation/hyperlinkqueries/
 ---
 ## Presentation.HyperlinkQueries property
 
-Обеспечивает легкий доступ ко всем гиперссылкам, содержащимся во всех слайдах презентации (кроме мастер-слайдов, макетов, слайдов с примечаниями). Только для чтения[`IHyperlinkQueries`](../../ihyperlinkqueries).
+Обеспечивает легкий доступ ко всем гиперссылкам, содержащимся во всех слайдах презентации (кроме мастер-слайдов, макетов и слайдов с примечаниями). Только для чтения[`IHyperlinkQueries`](../../ihyperlinkqueries) .
 
 ```csharp
 public IHyperlinkQueries HyperlinkQueries { get; }

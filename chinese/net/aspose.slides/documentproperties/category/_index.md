@@ -1,14 +1,14 @@
 ---
 title: Category
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置演示文稿的类别 读/写String
+description: 返回或设置演示文稿的类别 读/写String.
 type: docs
 weight: 50
 url: /zh/net/aspose.slides/documentproperties/category/
 ---
 ## DocumentProperties.Category property
 
-返回或设置演示文稿的类别。 读/写String。
+返回或设置演示文稿的类别。 读/写String.
 
 ```csharp
 public string Category { get; set; }

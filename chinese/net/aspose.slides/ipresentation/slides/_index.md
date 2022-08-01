@@ -1,14 +1,14 @@
 ---
 title: Slides
 second_title: Aspose.Slides for .NET API 参考
-description: 返回演示文稿中定义的所有幻灯片的列表 只读ISlideCollectionaspose.slides/islidecollection
+description: 返回演示文稿中定义的所有幻灯片的列表 只读ISlideCollectionaspose.slides/islidecollection.
 type: docs
 weight: 240
 url: /zh/net/aspose.slides/ipresentation/slides/
 ---
 ## IPresentation.Slides property
 
-返回演示文稿中定义的所有幻灯片的列表。 只读[`ISlideCollection`](../../islidecollection)。
+返回演示文稿中定义的所有幻灯片的列表。 只读[`ISlideCollection`](../../islidecollection).
 
 ```csharp
 public ISlideCollection Slides { get; }

@@ -18,8 +18,8 @@ public interface ISoftEdgeEffectiveData : IEffectEffectiveData
 
 | Имя | Описание |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/isoftedgeeffectivedata/asieffecteffectivedata) { get; } | Позволяет получить базовый интерфейс IEffectEffectiveData. Только для чтения[`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Radius](../../aspose.slides.effects/isoftedgeeffectivedata/radius) { get; } | Указывает радиус размытия, применяемый к краям. Только для чтенияDouble. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/isoftedgeeffectivedata/asieffecteffectivedata) { get; } | Позволяет получить базовый интерфейс IEffectEffectiveData. Только для чтения[`IEffectEffectiveData`](../ieffecteffectivedata) . |
+| [Radius](../../aspose.slides.effects/isoftedgeeffectivedata/radius) { get; } | Определяет радиус размытия, применяемый к краям. Только для чтенияDouble . |
 
 ### Смотрите также
 

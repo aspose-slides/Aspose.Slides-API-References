@@ -1,20 +1,20 @@
 ---
 title: ShapeType
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или задает тип AutoShape для PictureFrame. Допустимы все элементы набораShapeTypeaspose.slides/shapetype кроме всевозможных строк
+description: Возвращает или задает тип AutoShape для PictureFrame. Допустимы все элементы набораShapeTypeaspose.slides/shapetype кроме всяких строк
 type: docs
 weight: 60
 url: /ru/net/aspose.slides/pictureframe/shapetype/
 ---
 ## PictureFrame.ShapeType property
 
-Возвращает или задает тип AutoShape для PictureFrame. Допустимы все элементы набора[`ShapeType`](../../shapetype), кроме всевозможных строк:
+Возвращает или задает тип AutoShape для PictureFrame. Допустимы все элементы набора[`ShapeType`](../../shapetype), кроме всяких строк:
 
 ShapeType.Line,
 
 ShapeType.StraightConnector1,
 
-: ShapeType.BentConnector2,
+ShapeType.BentConnector2,
 
 ShapeType.BentConnector3,
 
@@ -30,7 +30,7 @@ ShapeType.CurvedConnector4,
 
 ShapeType.CurvedConnector5.
 
-Чтение/запись[`ShapeType`](../../shapetype).
+Чтение/запись[`ShapeType`](../../shapetype) .
 
 ```csharp
 public override ShapeType ShapeType { get; set; }

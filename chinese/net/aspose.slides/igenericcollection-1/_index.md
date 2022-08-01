@@ -23,7 +23,7 @@ public interface IGenericCollection<T> : ICollection, IEnumerable<T>
 | 姓名 | 描述 |
 | --- | --- |
 | [AsICollection](../../aspose.slides/igenericcollection`1/asicollection) { get; } | 返回 ICollection 接口。 |
-| [AsIEnumerable](../../aspose.slides/igenericcollection`1/asienumerable) { get; } | 返回 IEnumerable 接口。 只读IEnumerable。 |
+| [AsIEnumerable](../../aspose.slides/igenericcollection`1/asienumerable) { get; } | 返回 IEnumerable 接口。 只读IEnumerable. |
 
 ### 也可以看看
 

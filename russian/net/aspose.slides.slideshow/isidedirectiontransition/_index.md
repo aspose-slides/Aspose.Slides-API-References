@@ -18,8 +18,8 @@ public interface ISideDirectionTransition : ITransitionValueBase
 
 | Имя | Описание |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/isidedirectiontransition/asitransitionvaluebase) { get; } | Позволяет получить базовый интерфейс ITransitionValueBase. Только для чтения[`ITransitionValueBase`](../itransitionvaluebase). |
-| [Direction](../../aspose.slides.slideshow/isidedirectiontransition/direction) { get; set; } | Направление перехода. Чтение/запись[`TransitionSideDirectionType`](../transitionsidedirectiontype). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/isidedirectiontransition/asitransitionvaluebase) { get; } | Позволяет получить базовый интерфейс ITransitionValueBase. Только для чтения[`ITransitionValueBase`](../itransitionvaluebase) . |
+| [Direction](../../aspose.slides.slideshow/isidedirectiontransition/direction) { get; set; } | Направление перехода. Чтение/запись[`TransitionSideDirectionType`](../transitionsidedirectiontype) . |
 
 ### Смотрите также
 

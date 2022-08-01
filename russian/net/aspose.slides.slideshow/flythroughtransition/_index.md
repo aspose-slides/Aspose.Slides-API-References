@@ -18,15 +18,15 @@ public class FlyThroughTransition : TransitionValueBase, IFlyThroughTransition
 
 | Имя | Описание |
 | --- | --- |
-| [Direction](../../aspose.slides.slideshow/flythroughtransition/direction) { get; set; } | Направление перехода. Чтение/запись[`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
-| [HasBounce](../../aspose.slides.slideshow/flythroughtransition/hasbounce) { get; set; } | Указывает, что движение слайдов презентации во время перехода включает отскок. Чтение/записьBoolean. |
+| [Direction](../../aspose.slides.slideshow/flythroughtransition/direction) { get; set; } | Направление перехода. Чтение/запись[`TransitionInOutDirectionType`](../transitioninoutdirectiontype) . |
+| [HasBounce](../../aspose.slides.slideshow/flythroughtransition/hasbounce) { get; set; } | Указывает, что перемещение слайдов презентации во время перехода включает отскок. Чтение/записьBoolean . |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Определяет, равны ли два экземпляра TransitionValueBase. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Служит хэш-функцией для определенного типа, подходящей для использования в алгоритмах хеширования и структурах данных, таких как хэш-таблица. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Служит хеш-функцией для определенного типа, подходящей для использования в алгоритмах хэширования и структурах данных, таких как хэш-таблица. |
 
 ### Смотрите также
 

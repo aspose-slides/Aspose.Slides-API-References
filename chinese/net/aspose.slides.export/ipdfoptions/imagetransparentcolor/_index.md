@@ -16,7 +16,7 @@ public Color ImageTransparentColor { get; set; }
 
 ### 适当的价值
 
-透明图像的颜色。
+图像透明的颜色。
 
 ### 也可以看看
 

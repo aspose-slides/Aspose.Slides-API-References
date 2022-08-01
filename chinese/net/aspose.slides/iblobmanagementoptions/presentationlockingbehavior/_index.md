@@ -1,14 +1,14 @@
 ---
 title: PresentationLockingBehavior
 second_title: Aspose.Slides for .NET API 参考
-description: 此属性定义 Presentation 类的实例在实例生命周期内是否可以是源文件 或流的所有者如果实例是所有者它会锁定源这有助于 在处理 BLOB 时提高内存消耗和性能但源流或文件 在 Presentation 的实例生命周期内无法更改这是一个示例
+description: 此属性定义 Presentation 类的实例在实例生命周期内是否可以是源文件 或流的所有者如果实例是所有者它会锁定源这有助于 在使用 BLOB 时提高内存消耗和性能但源流或文件 在 Presentation 的实例生命周期内无法更改这是一个例子
 type: docs
 weight: 30
 url: /zh/net/aspose.slides/iblobmanagementoptions/presentationlockingbehavior/
 ---
 ## IBlobManagementOptions.PresentationLockingBehavior property
 
-此属性定义 Presentation 类的实例在实例生命周期内是否可以是源文件 或流的所有者。如果实例是所有者，它会锁定源。这有助于 在处理 BLOB 时提高内存消耗和性能，但源（流或文件） 在 Presentation 的实例生命周期内无法更改。这是一个示例:
+此属性定义 Presentation 类的实例在实例生命周期内是否可以是源文件 或流的所有者。如果实例是所有者，它会锁定源。这有助于 在使用 BLOB 时提高内存消耗和性能，但源（流或文件） 在 Presentation 的实例生命周期内无法更改。这是一个例子：
 
 ```csharp
 public PresentationLockingBehavior PresentationLockingBehavior { get; set; }
@@ -20,10 +20,10 @@ public PresentationLockingBehavior PresentationLockingBehavior { get; set; }
 LoadOptions loadOptions = new LoadOptions { 
   BlobManagementOptions = {PresentationLockingBehavior = PresentationLockingBehavior.KeepLocked} };
 using (Presentation pres = new Presentation("pres.pptx", loadOptions)) {
-   // 将抛出 IOException，因为 pres.pptx 被锁定了一个 Presentation_lifetime
-   // File.Delete("pres.pptx");
+  // IOException 将被抛出，因为 pres.pptx 被锁定了一个 Presentation 生命周期
+  // File.Delete("pres.pptx");
 }
- // 处理完Presentation对象后，文件解锁，可以删除
+// 处理完Presentation对象后，文件解锁，可以删除
 File.Delete("pres.pptx");
 ```
 

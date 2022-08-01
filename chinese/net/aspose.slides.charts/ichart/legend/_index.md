@@ -1,14 +1,14 @@
 ---
 title: Legend
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置图表的图例 只读ILegendaspose.slides.charts/ilegend
+description: 返回或设置图表的图例 只读ILegendaspose.slides.charts/ilegend.
 type: docs
 weight: 150
 url: /zh/net/aspose.slides.charts/ichart/legend/
 ---
 ## IChart.Legend property
 
-返回或设置图表的图例。 只读[`ILegend`](../../ilegend)。
+返回或设置图表的图例。 只读[`ILegend`](../../ilegend).
 
 ```csharp
 public ILegend Legend { get; }

@@ -1,14 +1,14 @@
 ---
 title: FontScheme
 second_title: Aspose.Slides for .NET API 参考
-description: 返回字体方案 只读IFontSchemeEffectiveDataaspose.slides.theme/ifontschemeeffectivedata
+description: 返回字体方案 只读IFontSchemeEffectiveDataaspose.slides.theme/ifontschemeeffectivedata.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides.theme/ithemeeffectivedata/fontscheme/
 ---
 ## IThemeEffectiveData.FontScheme property
 
-返回字体方案。 只读[`IFontSchemeEffectiveData`](../../ifontschemeeffectivedata)。
+返回字体方案。 只读[`IFontSchemeEffectiveData`](../../ifontschemeeffectivedata).
 
 ```csharp
 public IFontSchemeEffectiveData FontScheme { get; }

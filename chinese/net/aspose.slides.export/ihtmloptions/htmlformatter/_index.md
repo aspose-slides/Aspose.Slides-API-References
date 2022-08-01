@@ -1,14 +1,14 @@
 ---
 title: HtmlFormatter
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置 HTML 模板 读/写IHtmlFormatteraspose.slides.export/ihtmlformatter
+description: 返回或设置 HTML 模板 读/写IHtmlFormatteraspose.slides.export/ihtmlformatter.
 type: docs
 weight: 30
 url: /zh/net/aspose.slides.export/ihtmloptions/htmlformatter/
 ---
 ## IHtmlOptions.HtmlFormatter property
 
-返回或设置 HTML 模板。 读/写[`IHtmlFormatter`](../../ihtmlformatter)。
+返回或设置 HTML 模板。 读/写[`IHtmlFormatter`](../../ihtmlformatter).
 
 ```csharp
 public IHtmlFormatter HtmlFormatter { get; set; }

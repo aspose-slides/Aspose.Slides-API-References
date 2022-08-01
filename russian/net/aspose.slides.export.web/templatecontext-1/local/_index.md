@@ -1,14 +1,14 @@
 ---
 title: Local
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает локальное хранилище текущего контекста шаблона. Только для чтенияStorageaspose.slides.export.web/storage.
+description: Возвращает локальное хранилище текущего контекста шаблона. Только для чтенияStorageaspose.slides.export.web/storage .
 type: docs
 weight: 20
 url: /ru/net/aspose.slides.export.web/templatecontext-1/local/
 ---
 ## TemplateContext&lt;TObject&gt;.Local property
 
-Возвращает локальное хранилище текущего контекста шаблона. Только для чтения[`Storage`](../../storage).
+Возвращает локальное хранилище текущего контекста шаблона. Только для чтения[`Storage`](../../storage) .
 
 ```csharp
 public Storage Local { get; }

@@ -18,7 +18,7 @@ public void InitFormatScheme()
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| InvalidOperationException | 如果 FormatScheme 已经初始化（非空），则抛出。 |
+| InvalidOperationException | 如果 FormatScheme 已经初始化（非空），则抛出该异常。 |
 
 ### 也可以看看
 

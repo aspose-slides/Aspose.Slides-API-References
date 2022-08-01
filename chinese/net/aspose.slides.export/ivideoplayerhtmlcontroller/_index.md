@@ -19,9 +19,9 @@ public interface IVideoPlayerHtmlController : IHtmlFormattingController, ILinkEm
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsIHtmlFormattingController](../../aspose.slides.export/ivideoplayerhtmlcontroller/asihtmlformattingcontroller) { get; } | 允许获取基本 IHtmlFormattingController 接口。 只读[`IHtmlFormattingController`](../ihtmlformattingcontroller)。 |
-| [AsILinkEmbedController](../../aspose.slides.export/ivideoplayerhtmlcontroller/asilinkembedcontroller) { get; } | 允许获取基本 ILinkEmbedController 接口。 只读[`ILinkEmbedController`](../ilinkembedcontroller)。 |
-| [AsISvgShapeFormattingController](../../aspose.slides.export/ivideoplayerhtmlcontroller/asisvgshapeformattingcontroller) { get; } | 允许获取基础 ISvgShapeFormattingController 接口。 只读[`ISvgShapeFormattingController`](../isvgshapeformattingcontroller)。 |
+| [AsIHtmlFormattingController](../../aspose.slides.export/ivideoplayerhtmlcontroller/asihtmlformattingcontroller) { get; } | 允许获取基本 IHtmlFormattingController 接口。 只读[`IHtmlFormattingController`](../ihtmlformattingcontroller). |
+| [AsILinkEmbedController](../../aspose.slides.export/ivideoplayerhtmlcontroller/asilinkembedcontroller) { get; } | 允许获取基本 ILinkEmbedController 接口。 只读[`ILinkEmbedController`](../ilinkembedcontroller). |
+| [AsISvgShapeFormattingController](../../aspose.slides.export/ivideoplayerhtmlcontroller/asisvgshapeformattingcontroller) { get; } | 允许获取基本 ISvgShapeFormattingController 接口。 只读[`ISvgShapeFormattingController`](../isvgshapeformattingcontroller). |
 
 ### 也可以看看
 

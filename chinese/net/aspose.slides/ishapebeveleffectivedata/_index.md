@@ -18,13 +18,13 @@ public interface IShapeBevelEffectiveData
 
 | 姓名 | 描述 |
 | --- | --- |
-| [BevelType](../../aspose.slides/ishapebeveleffectivedata/beveltype) { get; } | 斜角类型。 只读[`BevelPresetType`](../bevelpresettype)。 |
-| [Height](../../aspose.slides/ishapebeveleffectivedata/height) { get; } | 斜角高度。 只读Double。 |
-| [Width](../../aspose.slides/ishapebeveleffectivedata/width) { get; } | 斜角宽度。 只读Double。 |
+| [BevelType](../../aspose.slides/ishapebeveleffectivedata/beveltype) { get; } | 斜角类型。 只读[`BevelPresetType`](../bevelpresettype). |
+| [Height](../../aspose.slides/ishapebeveleffectivedata/height) { get; } | 斜角高度。 只读Double. |
+| [Width](../../aspose.slides/ishapebeveleffectivedata/width) { get; } | 斜角宽度。 只读Double. |
 
 ### 评论
 
-此接口用作IThreeDFormatEffectiveData的一部分。
+该接口用作[`IThreeDFormatEffectiveData`](../ithreedformateffectivedata).
 
 ### 也可以看看
 

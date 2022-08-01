@@ -37,7 +37,7 @@ public bool Remove(string propertyValue)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| propertyValue | String | 要删除的属性的值。 |
+| propertyValue | String | 要移除的属性的值。 |
 
 ### 也可以看看
 

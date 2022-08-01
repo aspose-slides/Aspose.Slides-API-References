@@ -1,14 +1,14 @@
 ---
 title: Reorder
 second_title: Aspose.Slides for .NET API 参考
-description: 将形状从集合中移动到指定位置
+description: 将集合中的形状移动到指定位置
 type: docs
 weight: 390
 url: /zh/net/aspose.slides/ishapecollection/reorder/
 ---
 ## Reorder(int, IShape) {#reorder}
 
-将形状从集合中移动到指定位置。
+将集合中的形状移动到指定位置。
 
 ```csharp
 public void Reorder(int index, IShape shape)
@@ -16,8 +16,8 @@ public void Reorder(int index, IShape shape)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| index | Int32 | 目标索引。 |
-| shape | IShape | 要移动的形状。 |
+| index | Int32 | 目标指数。 |
+| shape | IShape | 移动的形状。 |
 
 ### 也可以看看
 
@@ -30,7 +30,7 @@ public void Reorder(int index, IShape shape)
 
 ## Reorder(int, params IShape[]) {#reorder_1}
 
-将形状从集合移动到指定位置。 形状将从索引开始放置，以便它们出现在列表中。
+将集合中的形状移动到指定位置。 形状将从索引开始放置，以便它们出现在列表中。
 
 ```csharp
 public void Reorder(int index, params IShape[] shapes)
@@ -38,7 +38,7 @@ public void Reorder(int index, params IShape[] shapes)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| index | Int32 | 目标索引。 |
+| index | Int32 | 目标指数。 |
 | shapes | IShape[] | 要移动的形状。 |
 
 ### 也可以看看

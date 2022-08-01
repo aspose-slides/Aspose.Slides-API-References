@@ -1,14 +1,14 @@
 ---
 title: ShadowMatrixPerspectiveX
 second_title: Aspose.Slides for .NET API 参考
-description: 表示 shadow.matrix.perspectiveX 属性
+description: 表示shadow.matrix.perspectiveX 属性
 type: docs
 weight: 620
 url: /zh/net/aspose.slides.animation/behaviorproperty/shadowmatrixperspectivex/
 ---
 ## BehaviorProperty.ShadowMatrixPerspectiveX property
 
-表示 'shadow.matrix.perspectiveX' 属性
+表示'shadow.matrix.perspectiveX' 属性
 
 ```csharp
 public static BehaviorProperty ShadowMatrixPerspectiveX { get; }

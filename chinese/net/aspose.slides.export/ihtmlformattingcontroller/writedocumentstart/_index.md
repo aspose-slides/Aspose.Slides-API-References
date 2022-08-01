@@ -1,14 +1,14 @@
 ---
 title: WriteDocumentStart
 second_title: Aspose.Slides for .NET API 参考
-description: 调用写入html文档头每次演示转换调用一次
+description: 调用写入 html 文档标题每次演示转换调用一次
 type: docs
 weight: 20
 url: /zh/net/aspose.slides.export/ihtmlformattingcontroller/writedocumentstart/
 ---
 ## IHtmlFormattingController.WriteDocumentStart method
 
-调用写入html文档头。每次演示转换调用一次。
+调用写入 html 文档标题。每次演示转换调用一次。
 
 ```csharp
 public void WriteDocumentStart(IHtmlGenerator generator, IPresentation presentation)
@@ -17,7 +17,7 @@ public void WriteDocumentStart(IHtmlGenerator generator, IPresentation presentat
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | generator | IHtmlGenerator | 输出对象。 |
-| presentation | IPresentation | 当前正在渲染的演示文稿。 |
+| presentation | IPresentation | 当前正在呈现的演示文稿。 |
 
 ### 也可以看看
 

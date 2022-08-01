@@ -16,11 +16,11 @@ public IVbaProject ReadVbaProject(byte[] data)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| data | Byte[] | Ole dataByte[] |
+| data | Byte[] | Оле данныеByte[] |
 
 ### Возвращаемое значение
 
-Чтение проекта VBA
+Читать проект VBA
 
 ### Смотрите также
 

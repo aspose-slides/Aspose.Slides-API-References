@@ -17,25 +17,25 @@ public ISectionZoomFrame AddSectionZoomFrame(float x, float y, float width, floa
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| x | Single | X координата нового Раздел Кадр масштабированияSingle. |
+| x | Single | Координата X нового кадра увеличения сеченияSingle. |
 | y | Single | Координата Y нового кадра увеличения сеченияSingle. |
-| width | Single | Ширина нового кадра масштабирования разделаSingle. |
+| width | Single | Ширина новой рамки масштабирования разделаSingle. |
 | height | Single | Высота нового кадра масштабирования разделаSingle. |
-| section | ISection | Объект раздела, на который ссылается фрейм масштабирования раздела[`ISection`](../../isection). |
+| section | ISection | Объект сечения, на который ссылается рамка масштабирования сечения[`ISection`](../../isection). |
 
 ### Возвращаемое значение
 
-Создан объект Zoom Section[`ISectionZoomFrame`](../../isectionzoomframe).
+Создан объект Section Zoom[`ISectionZoomFrame`](../../isectionzoomframe).
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentException | Упомянутый раздел не относится к текущей презентации или не содержит слайдов. |
+| ArgumentException | Ссылочный раздел не относится к текущей презентации или не содержит слайдов. |
 
 ### Примеры
 
-В этом примере показано добавление объекта Section Zoom в конец коллекции (предположим, что в презентации "Presentation.pptx" есть как минимум два раздела):
+В этом примере показано добавление объекта Section Zoom в конец collection (предположим, что в презентации «Presentation.pptx» есть как минимум два раздела):
 
 ```csharp
 [C#]
@@ -66,26 +66,26 @@ public ISectionZoomFrame AddSectionZoomFrame(float x, float y, float width, floa
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| x | Single | X координата нового Раздел Кадр масштабированияSingle. |
+| x | Single | Координата X нового кадра увеличения сеченияSingle. |
 | y | Single | Координата Y нового кадра увеличения сеченияSingle. |
-| width | Single | Ширина нового кадра масштабирования разделаSingle. |
+| width | Single | Ширина новой рамки масштабирования разделаSingle. |
 | height | Single | Высота нового кадра масштабирования разделаSingle. |
-| section | ISection | Объект раздела, на который ссылается фрейм масштабирования раздела[`ISection`](../../isection). |
+| section | ISection | Объект сечения, на который ссылается рамка масштабирования сечения[`ISection`](../../isection). |
 | image | IPPImage | Изображение для указанного слайда[`IPPImage`](../../ippimage) |
 
 ### Возвращаемое значение
 
-Создан объект Zoom Section[`ISectionZoomFrame`](../../isectionzoomframe).
+Создан объект Section Zoom[`ISectionZoomFrame`](../../isectionzoomframe).
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentException | Упомянутый раздел не относится к текущей презентации или не содержит слайдов. |
+| ArgumentException | Ссылочный раздел не относится к текущей презентации или не содержит слайдов. |
 
 ### Примеры
 
-В этом примере показано добавление объекта Section Zoom в конец коллекции (предположим, что в презентации "Presentation.pptx" есть как минимум два раздела):
+В этом примере показано добавление объекта Section Zoom в конец collection (предположим, что в презентации «Presentation.pptx» есть как минимум два раздела):
 
 ```csharp
 [C#]

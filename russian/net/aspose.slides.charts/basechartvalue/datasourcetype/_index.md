@@ -1,14 +1,14 @@
 ---
 title: DataSourceType
 second_title: Справочник по API Aspose.Slides для .NET
-description: Указывает является ли свойство AsCell AsCells AsLiteralString или AsLiteralDouble актуальным в потомках. Другими словами он указывает тип значения свойства Data. Чтение/записьDataSourceTypeaspose.slides.charts/datasourcetype.
+description: Указывает является ли свойство AsCell AsCells AsLiteralString или AsLiteralDouble действительным в потомках. Другими словами он указывает тип значения свойства Data. Чтение/записьDataSourceTypeaspose.slides.charts/datasourcetype .
 type: docs
 weight: 20
 url: /ru/net/aspose.slides.charts/basechartvalue/datasourcetype/
 ---
 ## BaseChartValue.DataSourceType property
 
-Указывает, является ли свойство AsCell, AsCells, AsLiteralString или AsLiteralDouble актуальным в потомках. Другими словами, он указывает тип значения свойства Data. Чтение/запись[`DataSourceType`](../../datasourcetype).
+Указывает, является ли свойство AsCell, AsCells, AsLiteralString или AsLiteralDouble действительным в потомках. Другими словами, он указывает тип значения свойства Data. Чтение/запись[`DataSourceType`](../../datasourcetype) .
 
 ```csharp
 public DataSourceType DataSourceType { get; set; }
@@ -16,7 +16,7 @@ public DataSourceType DataSourceType { get; set; }
 
 ### Примечания
 
-Для точек в ChartDataPointCollection это свойство доступно только для чтения. В этом случае для изменения значения этого свойства можно использовать один из методов ChartDataPointCollection.DataSourceTypeFor&lt;...&gt; характеристики.
+Для точек в ChartDataPointCollection это свойство доступно только для чтения. В этом случае для изменения значения этого свойства можно использовать одно из свойств ChartDataPointCollection.DataSourceTypeFor&lt;...&gt;.
 
 ### Смотрите также
 

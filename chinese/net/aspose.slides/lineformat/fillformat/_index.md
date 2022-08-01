@@ -1,14 +1,14 @@
 ---
 title: FillFormat
 second_title: Aspose.Slides for .NET API 参考
-description: 返回一行的填充格式 只读ILineFillFormataspose.slides/ilinefillformat
+description: 返回一行的填充格式 只读ILineFillFormataspose.slides/ilinefillformat.
 type: docs
 weight: 110
 url: /zh/net/aspose.slides/lineformat/fillformat/
 ---
 ## LineFormat.FillFormat property
 
-返回一行的填充格式。 只读[`ILineFillFormat`](../../ilinefillformat)。
+返回一行的填充格式。 只读[`ILineFillFormat`](../../ilinefillformat).
 
 ```csharp
 public ILineFillFormat FillFormat { get; }

@@ -16,7 +16,7 @@ public override IMathBlock Join(IMathElement mathElement)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| mathElement | IMathElement | 元素待加入 |
+| mathElement | IMathElement | 要连接的元素 |
 
 ### 返回值
 
@@ -24,7 +24,7 @@ IMathBlock 的当前实例
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]
@@ -53,7 +53,7 @@ public override IMathBlock Join(string mathText)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| mathText | String | 数学文本要加入 |
+| mathText | String | 要连接的数学文本 |
 
 ### 返回值
 
@@ -61,7 +61,7 @@ public override IMathBlock Join(string mathText)
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]

@@ -1,14 +1,14 @@
 ---
 title: FontBold
 second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет является ли шрифт полужирным. Наследование не применяется. Чтение/записьNullableBoolaspose.slides/nullablebool.
+description: Определяет является ли шрифт полужирным. Наследование не применяется. Чтение/записьNullableBoolaspose.slides/nullablebool .
 type: docs
 weight: 70
 url: /ru/net/aspose.slides/baseportionformat/fontbold/
 ---
 ## BasePortionFormat.FontBold property
 
-Определяет, является ли шрифт полужирным. Наследование не применяется. Чтение/запись[`NullableBool`](../../nullablebool).
+Определяет, является ли шрифт полужирным. Наследование не применяется. Чтение/запись[`NullableBool`](../../nullablebool) .
 
 ```csharp
 public NullableBool FontBold { get; set; }

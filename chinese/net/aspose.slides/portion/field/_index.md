@@ -1,14 +1,14 @@
 ---
 title: Field
 second_title: Aspose.Slides for .NET API 参考
-description: 返回此部分的字段 只读IFieldaspose.slides/ifield
+description: 返回此部分的字段 只读IFieldaspose.slides/ifield.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides/portion/field/
 ---
 ## Portion.Field property
 
-返回此部分的字段。 只读[`IField`](../../ifield)。
+返回此部分的字段。 只读[`IField`](../../ifield).
 
 ```csharp
 public IField Field { get; }

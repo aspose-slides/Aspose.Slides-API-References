@@ -12,10 +12,10 @@ url: /zh/net/aspose.slides.smartart/
 
 | 班级 | 描述 |
 | --- | --- |
-| [SmartArt](./smartart) | 表示 SmartArt 图 |
+| [SmartArt](./smartart) | 表示 SmartArt 图表 |
 | [SmartArtNode](./smartartnode) | 表示 SmartArt 对象的节点 |
 | [SmartArtNodeCollection](./smartartnodecollection) | 表示 SmartArt 节点的集合。 |
-| [SmartArtShape](./smartartshape) | 表示 SmartArt 形状 |
+| [SmartArtShape](./smartartshape) | 代表 SmartArt 形状 |
 | [SmartArtShapeCollection](./smartartshapecollection) | 表示 SmartArt 形状的集合 |
 ## 接口
 

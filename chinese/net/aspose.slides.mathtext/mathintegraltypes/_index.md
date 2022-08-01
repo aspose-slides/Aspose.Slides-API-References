@@ -1,14 +1,14 @@
 ---
 title: MathIntegralTypes
 second_title: Aspose.Slides for .NET API 参考
-description: 数学整数类型
+description: 数学积分类型
 type: docs
 weight: 8070
 url: /zh/net/aspose.slides.mathtext/mathintegraltypes/
 ---
 ## MathIntegralTypes enumeration
 
-数学整数类型
+数学积分类型
 
 ```csharp
 public enum MathIntegralTypes
@@ -18,12 +18,12 @@ public enum MathIntegralTypes
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Simple | `0` | 积分:'∫' |
-| Double | `1` | 双积分:'∬' |
-| Triple | `2` | 三重积分:'∭' |
-| Contour | `3` | 轮廓积分:'∮' |
-| Surface | `4` | 曲面积分:'∯' |
-| Volume | `5` | VolumeIntegral:'∰' |
+| Simple | `0` | 积分：'∫' |
+| Double | `1` | 双积分：'∬' |
+| Triple | `2` | 三重积分：'∭' |
+| Contour | `3` | 轮廓积分：'∮' |
+| Surface | `4` | 曲面积分：'∯' |
+| Volume | `5` | 体积积分：'∰' |
 
 ### 也可以看看
 

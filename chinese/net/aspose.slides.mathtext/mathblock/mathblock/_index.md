@@ -16,7 +16,7 @@ public MathBlock()
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]
@@ -33,7 +33,7 @@ MathBlock mathBlock = new MathBlock();
 
 ## MathBlock(IMathElement) {#constructor_1}
 
-创建一个新的数学块并将指定元素放入其中
+创建一个新的数学块并将指定的元素放入其中
 
 ```csharp
 public MathBlock(IMathElement mathElement)
@@ -45,7 +45,7 @@ public MathBlock(IMathElement mathElement)
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]
@@ -71,11 +71,11 @@ public MathBlock(IEnumerable<IMathElement> mathElements)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| mathElements | IEnumerable`1 | 要放入块中的数学元素 |
+| mathElements | IEnumerable`1 | 放入块中的数学元素 |
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]

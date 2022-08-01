@@ -1,14 +1,14 @@
 ---
 title: SlideSizeType
 second_title: Aspose.Slides for .NET API 参考
-description: 表示幻灯片大小预设
+description: 代表幻灯片大小预设
 type: docs
 weight: 9720
 url: /zh/net/aspose.slides/slidesizetype/
 ---
 ## SlideSizeType enumeration
 
-表示幻灯片大小预设。
+代表幻灯片大小预设。
 
 ```csharp
 public enum SlideSizeType
@@ -24,16 +24,16 @@ public enum SlideSizeType
 | Slide35mm | `3` | 幻灯片 35mm |
 | Overhead | `4` | 开销 |
 | Banner | `5` | 横幅 |
-| Custom | `6` | 自定义大小 |
-| Ledger | `7` | 分类帐 |
+| Custom | `6` | 自定义尺寸 |
+| Ledger | `7` | 账本 |
 | A3Paper | `8` | A3 |
 | B4IsoPaper | `9` | B4 ISO |
 | B5IsoPaper | `10` | B5 ISO |
 | B4JisPaper | `11` | B4 JIS |
 | B5JisPaper | `12` | B5 JIS |
 | HagakiCard | `13` | Hagaki 卡 |
-| OnScreen16x9 | `14` | 在屏幕 16x9 |
-| OnScreen16x10 | `15` | 在屏幕 16x10 |
+| OnScreen16x9 | `14` | 在屏幕上 16x9 |
+| OnScreen16x10 | `15` | 在屏幕上 16x10 |
 | Widescreen | `16` | 宽屏 |
 
 ### 也可以看看

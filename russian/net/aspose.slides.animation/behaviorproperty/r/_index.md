@@ -1,14 +1,14 @@
 ---
 title: R
 second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет свойство r
+description: Представляет r свойство
 type: docs
 weight: 570
 url: /ru/net/aspose.slides.animation/behaviorproperty/r/
 ---
 ## BehaviorProperty.R property
 
-Представляет свойство 'r'
+Представляет 'r' свойство
 
 ```csharp
 public static BehaviorProperty R { get; }

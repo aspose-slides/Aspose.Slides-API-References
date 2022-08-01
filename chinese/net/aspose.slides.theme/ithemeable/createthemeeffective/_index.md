@@ -1,14 +1,14 @@
 ---
 title: CreateThemeEffective
 second_title: Aspose.Slides for .NET API 参考
-description: 返回此可主题化对象的有效主题
+description: 返回此主题对象的有效主题
 type: docs
 weight: 20
 url: /zh/net/aspose.slides.theme/ithemeable/createthemeeffective/
 ---
 ## IThemeable.CreateThemeEffective method
 
-返回此可主题化对象的有效主题。
+返回此主题对象的有效主题。
 
 ```csharp
 public IThemeEffectiveData CreateThemeEffective()
@@ -16,7 +16,7 @@ public IThemeEffectiveData CreateThemeEffective()
 
 ### 返回值
 
-有效主题[`IThemeEffectiveData`](../../ithemeeffectivedata)
+有效的主题[`IThemeEffectiveData`](../../ithemeeffectivedata)
 
 ### 也可以看看
 

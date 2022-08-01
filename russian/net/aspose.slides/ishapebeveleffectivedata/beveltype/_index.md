@@ -1,14 +1,14 @@
 ---
 title: BevelType
 second_title: Справочник по API Aspose.Slides для .NET
-description: Тип скоса. Только для чтенияBevelPresetTypeaspose.slides/bevelpresettype.
+description: Тип скоса. Только для чтенияBevelPresetTypeaspose.slides/bevelpresettype .
 type: docs
 weight: 10
 url: /ru/net/aspose.slides/ishapebeveleffectivedata/beveltype/
 ---
 ## IShapeBevelEffectiveData.BevelType property
 
-Тип скоса. Только для чтения[`BevelPresetType`](../../bevelpresettype).
+Тип скоса. Только для чтения[`BevelPresetType`](../../bevelpresettype) .
 
 ```csharp
 public BevelPresetType BevelType { get; }

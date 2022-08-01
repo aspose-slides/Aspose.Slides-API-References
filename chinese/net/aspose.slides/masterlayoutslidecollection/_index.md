@@ -1,14 +1,14 @@
 ---
 title: MasterLayoutSlideCollection
 second_title: Aspose.Slides for .NET API 参考
-description: 表示已定义母版幻灯片的所有布局幻灯片的集合 扩展 LayoutSlideCollection 类其中包含在主布局幻灯片的各个集合的上下文中添加/插入/删除/克隆/重新排序 布局幻灯片的方法
+description: 表示已定义母版幻灯片的所有布局幻灯片的集合 扩展 LayoutSlideCollection 类其中包含在母版布局幻灯片的各个集合的上下文中添加/插入/删除/克隆/重新排序 布局幻灯片的方法
 type: docs
 weight: 7290
 url: /zh/net/aspose.slides/masterlayoutslidecollection/
 ---
 ## MasterLayoutSlideCollection class
 
-表示已定义母版幻灯片的所有布局幻灯片的集合。 扩展 LayoutSlideCollection 类，其中包含在主布局幻灯片的各个集合的上下文中添加/插入/删除/克隆/重新排序 布局幻灯片的方法。
+表示已定义母版幻灯片的所有布局幻灯片的集合。 扩展 LayoutSlideCollection 类，其中包含在母版布局幻灯片的各个集合的上下文中添加/插入/删除/克隆/重新排序 布局幻灯片的方法。
 
 ```csharp
 public sealed class MasterLayoutSlideCollection : LayoutSlideCollection, 
@@ -19,10 +19,10 @@ public sealed class MasterLayoutSlideCollection : LayoutSlideCollection,
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Count](../../aspose.slides/layoutslidecollection/count) { get; } | 返回集合中布局幻灯片的数量。 只读Int32。 |
-| [IsSynchronized](../../aspose.slides/layoutslidecollection/issynchronized) { get; } | 返回一个值，指示对集合的访问是否同步（线程安全）。 只读Boolean。 |
-| [Item](../../aspose.slides/layoutslidecollection/item) { get; } | 按索引返回布局幻灯片。 只读[`LayoutSlide`](../layoutslide)。 |
-| [SyncRoot](../../aspose.slides/layoutslidecollection/syncroot) { get; } | 返回同步根。 只读Object。 |
+| [Count](../../aspose.slides/layoutslidecollection/count) { get; } | 返回集合中布局幻灯片的数量。 只读Int32. |
+| [IsSynchronized](../../aspose.slides/layoutslidecollection/issynchronized) { get; } | 返回一个值，指示对集合的访问是否同步（线程安全）。 只读Boolean. |
+| [Item](../../aspose.slides/layoutslidecollection/item) { get; } | 按索引返回布局幻灯片。 只读[`LayoutSlide`](../layoutslide). |
+| [SyncRoot](../../aspose.slides/layoutslidecollection/syncroot) { get; } | 返回同步根。 只读Object. |
 
 ## 方法
 
@@ -31,11 +31,11 @@ public sealed class MasterLayoutSlideCollection : LayoutSlideCollection,
 | [Add](../../aspose.slides/masterlayoutslidecollection/add)(SlideLayoutType, string) | 将新的布局幻灯片添加到集合的末尾。 |
 | [AddClone](../../aspose.slides/masterlayoutslidecollection/addclone)(ILayoutSlide) | 将指定布局幻灯片的副本添加到集合的末尾。 |
 | [CopyTo](../../aspose.slides/layoutslidecollection/copyto)(Array, int) | 将集合中的所有元素复制到指定的数组。 |
-| [GetByType](../../aspose.slides/layoutslidecollection/getbytype)(SlideLayoutType) | 返回指定类型的第一张布局幻灯片。  要查找的布局幻灯片类型。[`LayoutSlide`](../layoutslide)具有指定类型，如果没有找到布局，则返回 null。 |
+| [GetByType](../../aspose.slides/layoutslidecollection/getbytype)(SlideLayoutType) | 返回指定类型的第一张布局幻灯片。 要查找的一种布局幻灯片。[`LayoutSlide`](../layoutslide)如果没有找到布局，则具有指定的类型或 null。 |
 | [GetEnumerator](../../aspose.slides/layoutslidecollection/getenumerator)() | 返回一个遍历集合的枚举器。 |
 | [Insert](../../aspose.slides/masterlayoutslidecollection/insert)(int, SlideLayoutType, string) | 将新的布局幻灯片插入到集合的指定位置。 |
 | [InsertClone](../../aspose.slides/masterlayoutslidecollection/insertclone)(int, ILayoutSlide) | 将指定布局幻灯片的副本插入到集合的指定位置。 |
-| [Remove](../../aspose.slides/layoutslidecollection/remove)(ILayoutSlide) | 从集合中删除布局。 |
+| [Remove](../../aspose.slides/layoutslidecollection/remove)(ILayoutSlide) | 从集合中删除一个布局。 |
 | [RemoveAt](../../aspose.slides/masterlayoutslidecollection/removeat)(int) | 移除集合指定索引处的元素。 |
 | [RemoveUnused](../../aspose.slides/layoutslidecollection/removeunused)() | 删除未使用的布局幻灯片（HasDependingSlides 为 false 的布局幻灯片）。 |
 | [Reorder](../../aspose.slides/masterlayoutslidecollection/reorder)(int, ILayoutSlide) | 将布局幻灯片从集合移动到指定位置。 |

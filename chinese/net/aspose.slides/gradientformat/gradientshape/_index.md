@@ -1,14 +1,14 @@
 ---
 title: GradientShape
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置渐变的形状 读/写GradientShapeaspose.slides/gradientshape
+description: 返回或设置渐变的形状 读/写GradientShapeaspose.slides/gradientshape.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides/gradientformat/gradientshape/
 ---
 ## GradientFormat.GradientShape property
 
-返回或设置渐变的形状。 读/写[`GradientShape`](../../gradientshape)。
+返回或设置渐变的形状。 读/写[`GradientShape`](../../gradientshape).
 
 ```csharp
 public GradientShape GradientShape { get; set; }

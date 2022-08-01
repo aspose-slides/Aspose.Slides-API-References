@@ -18,10 +18,10 @@ public interface IPlaceholder
 
 | Имя | Описание |
 | --- | --- |
-| [Index](../../aspose.slides/iplaceholder/index) { get; } | Получает индекс заполнителя. Только для чтенияUInt32. |
-| [Orientation](../../aspose.slides/iplaceholder/orientation) { get; } | Получает ориентацию заполнителя. Только для чтения[`Orientation`](../orientation). |
-| [Size](../../aspose.slides/iplaceholder/size) { get; } | Получает размер заполнителя. Только для чтения[`PlaceholderSize`](../placeholdersize). |
-| [Type](../../aspose.slides/iplaceholder/type) { get; } | Получает тип заполнителя. Только для чтения[`PlaceholderType`](../placeholdertype). |
+| [Index](../../aspose.slides/iplaceholder/index) { get; } | Получает индекс заполнителя. Только для чтенияUInt32 . |
+| [Orientation](../../aspose.slides/iplaceholder/orientation) { get; } | Получает ориентацию заполнителя. Только для чтения[`Orientation`](../orientation) . |
+| [Size](../../aspose.slides/iplaceholder/size) { get; } | Получает размер заполнителя. Только для чтения[`PlaceholderSize`](../placeholdersize) . |
+| [Type](../../aspose.slides/iplaceholder/type) { get; } | Получает тип заполнителя. Только для чтения[`PlaceholderType`](../placeholdertype) . |
 
 ### Смотрите также
 

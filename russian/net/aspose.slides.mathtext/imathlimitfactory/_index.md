@@ -18,12 +18,12 @@ public interface IMathLimitFactory
 
 | Имя | Описание |
 | --- | --- |
-| [CreateMathLimit](../../aspose.slides.mathtext/imathlimitfactory/createmathlimit#createmathlimit)(IMathElement, IMathElement) | Создает IMathLimit с ограничением внизу |
+| [CreateMathLimit](../../aspose.slides.mathtext/imathlimitfactory/createmathlimit#createmathlimit)(IMathElement, IMathElement) | Создает IMathLimit с пределом внизу |
 | [CreateMathLimit](../../aspose.slides.mathtext/imathlimitfactory/createmathlimit#createmathlimit_1)(IMathElement, IMathElement, bool) | Создает IMathLimit |
 
 ### Примечания
 
-Для COM-совместимость
+Для COM-совместимости
 
 ### Смотрите также
 

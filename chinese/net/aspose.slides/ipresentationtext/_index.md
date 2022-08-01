@@ -18,7 +18,7 @@ public interface IPresentationText
 
 | 姓名 | 描述 |
 | --- | --- |
-| [SlidesText](../../aspose.slides/ipresentationtext/slidestext) { get; } | [`SlideText`](../islidetext) 的数组包含演示文稿的文本。 |
+| [SlidesText](../../aspose.slides/ipresentationtext/slidestext) { get; } | 一个数组[`幻灯片文本`](../islidetext)包含演示文稿的文本。 |
 
 ### 也可以看看
 

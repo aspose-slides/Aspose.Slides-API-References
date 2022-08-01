@@ -16,7 +16,7 @@ public int GetCount(IShape shape)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| shape | IShape | Shape object[`IShape`](../../../aspose.slides/ishape) |
+| shape | IShape | Объект формы[`IShape`](../../../aspose.slides/ishape) |
 
 ### Возвращаемое значение
 

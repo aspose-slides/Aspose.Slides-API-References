@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Slides for .NET API 参考
-description: 返回指定索引处的列 只读IColumnaspose.slides/icolumn
+description: 返回指定索引处的列 只读IColumnaspose.slides/icolumn.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides/icolumncollection/item/
 ---
 ## IColumnCollection indexer
 
-返回指定索引处的列。 只读[`IColumn`](../../icolumn)。
+返回指定索引处的列。 只读[`IColumn`](../../icolumn).
 
 ```csharp
 public IColumn this[int index] { get; }

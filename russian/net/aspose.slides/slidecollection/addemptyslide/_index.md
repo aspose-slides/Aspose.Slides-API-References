@@ -16,7 +16,7 @@ public ISlide AddEmptySlide(ILayoutSlide layout)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| layout | ILayoutSlide | Макет слайда. |
+| layout | ILayoutSlide | Макет для слайда. |
 
 ### Возвращаемое значение
 

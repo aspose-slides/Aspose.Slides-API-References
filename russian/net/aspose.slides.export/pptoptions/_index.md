@@ -24,10 +24,10 @@ public class PptOptions : SaveOptions, IPptOptions
 
 | Имя | Описание |
 | --- | --- |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Возвращает или устанавливает шрифт, используемый в случае, если исходный шрифт не найден. Чтение-записьString. |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Представляет объект обратного вызова для сохранения обновлений хода выполнения в процентах. См.[`IProgressCallback`](../../aspose.slides/iprogresscallback). |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Возвращает или устанавливает шрифт, используемый в случае, если исходный шрифт не найден. Чтение-записьString . |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Представляет объект обратного вызова для сохранения обновлений хода выполнения в процентах. См.[`IProgressCallback`](../../aspose.slides/iprogresscallback) . |
 | [RootDirectoryClsid](../../aspose.slides.export/pptoptions/rootdirectoryclsid) { get; set; } | Представляет GUID (CLSID) класса объектов, который хранится в записи корневого каталога. Может использоваться для COM активации приложения документа. Значение по умолчанию — «64818D11-4F9B-11CF-86EA-00AA00B929E8», что соответствует «Microsoft Powerpoint.Slide.8». |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Возвращает наборы объект, который получает предупреждения и решает, будет ли процесс загрузки продолжен или будет прерван. Чтение/запись[`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Возвращает наборы объекта, который получает предупреждения и решает, будет ли процесс загрузки продолжен или будет прерван. Чтение/запись[`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback) . |
 
 ### Смотрите также
 

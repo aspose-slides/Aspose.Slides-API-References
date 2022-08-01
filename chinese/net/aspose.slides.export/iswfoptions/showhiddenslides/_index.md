@@ -1,14 +1,14 @@
 ---
 title: ShowHiddenSlides
 second_title: Aspose.Slides for .NET API 参考
-description: 指定生成的文档是否应包含隐藏幻灯片 默认为 false 
+description: 指定生成的文档是否应包含隐藏幻灯片 默认为错误的
 type: docs
 weight: 100
 url: /zh/net/aspose.slides.export/iswfoptions/showhiddenslides/
 ---
 ## ISwfOptions.ShowHiddenSlides property
 
-指定生成的文档是否应包含隐藏幻灯片。 默认为` false` 。
+指定生成的文档是否应包含隐藏幻灯片。 默认为`错误的`
 
 ```csharp
 public bool ShowHiddenSlides { get; set; }

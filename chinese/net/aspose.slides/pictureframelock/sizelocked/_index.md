@@ -1,14 +1,14 @@
 ---
 title: SizeLocked
 second_title: Aspose.Slides for .NET API 参考
-description: 确定是否禁止调整此形状的大小 读/写Boolean
+description: 确定是否禁止调整此形状的大小 读/写Boolean.
 type: docs
 weight: 110
 url: /zh/net/aspose.slides/pictureframelock/sizelocked/
 ---
 ## PictureFrameLock.SizeLocked property
 
-确定是否禁止调整此形状的大小。 读/写Boolean。
+确定是否禁止调整此形状的大小。 读/写Boolean.
 
 ```csharp
 public bool SizeLocked { get; set; }

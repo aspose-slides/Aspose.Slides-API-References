@@ -16,7 +16,7 @@ public ISoftEdgeEffectiveData GetEffective()
 
 ### 返回值
 
-A[`ISoftEdgeEffectiveData`](../../isoftedgeeffectivedata)。
+一个[`ISoftEdgeEffectiveData`](../../isoftedgeeffectivedata).
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: IMathGroupingCharacterFactory
 second_title: Справочник по API Aspose.Slides для .NET
-description: Позволяет создать математический группирующий символ
+description: Позволяет создать математическую группировку character
 type: docs
 weight: 7590
 url: /ru/net/aspose.slides.mathtext/imathgroupingcharacterfactory/
 ---
 ## IMathGroupingCharacterFactory interface
 
-Позволяет создать математический группирующий символ
+Позволяет создать математическую группировку character
 
 ```csharp
 public interface IMathGroupingCharacterFactory
@@ -18,8 +18,8 @@ public interface IMathGroupingCharacterFactory
 
 | Имя | Описание |
 | --- | --- |
-| [CreateMathGroupingCharacter](../../aspose.slides.mathtext/imathgroupingcharacterfactory/createmathgroupingcharacter#createmathgroupingcharacter)(IMathElement) | Создает математический символ группировки |
-| [CreateMathGroupingCharacter](../../aspose.slides.mathtext/imathgroupingcharacterfactory/createmathgroupingcharacter#createmathgroupingcharacter_1)(IMathElement, char, MathTopBotPositions, MathTopBotPositions) | Создает математический символ группировки |
+| [CreateMathGroupingCharacter](../../aspose.slides.mathtext/imathgroupingcharacterfactory/createmathgroupingcharacter#createmathgroupingcharacter)(IMathElement) | Создает математическую группировку character |
+| [CreateMathGroupingCharacter](../../aspose.slides.mathtext/imathgroupingcharacterfactory/createmathgroupingcharacter#createmathgroupingcharacter_1)(IMathElement, char, MathTopBotPositions, MathTopBotPositions) | Создает математическую группировку character |
 
 ### Примечания
 

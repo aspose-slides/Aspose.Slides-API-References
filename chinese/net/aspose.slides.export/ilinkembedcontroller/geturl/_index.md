@@ -1,14 +1,14 @@
 ---
 title: GetUrl
 second_title: Aspose.Slides for .NET API 参考
-description: 返回外部对象的 URL 如果String则始终调用此方法返回Link如果GetObjectStoringLocationaspose.slides.export/ilinkembedcontroller/getobjectstoringlocation返回Embed但嵌入是不可能的 可以为同一个对象 ID 多次调用
+description: 返回一个指向外部对象的 URL 这个方法总是被调用如果GetObjectStoringLocationaspose.slides.export/ilinkembedcontroller/getobjectstoringlocation回来Link并且可能会被调用如果GetObjectStoringLocationaspose.slides.export/ilinkembedcontroller/getobjectstoringlocation回来Embed但嵌入是不可能的 可以为同一个对象id多次调用
 type: docs
 weight: 20
 url: /zh/net/aspose.slides.export/ilinkembedcontroller/geturl/
 ---
 ## ILinkEmbedController.GetUrl method
 
-返回外部对象的 URL。 如果String，则始终调用此方法)返回Link如果[`GetObjectStoringLocation`](../getobjectstoringlocation)返回Embed但嵌入是不可能的。 可以为同一个对象 ID 多次调用。
+返回一个指向外部对象的 URL。 这个方法总是被调用，如果[`GetObjectStoringLocation`](../getobjectstoringlocation)回来Link并且可能会被调用，如果[`GetObjectStoringLocation`](../getobjectstoringlocation)回来Embed但嵌入是不可能的。 可以为同一个对象id多次调用。
 
 ```csharp
 public string GetUrl(int id, int referrer)
@@ -16,12 +16,12 @@ public string GetUrl(int id, int referrer)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| id | Int32 | 对象 ID。此 id 保存操作范围的唯一性。 |
+| id | Int32 | 对象标识。此 id 保存操作范围的唯一性。 |
 | referrer | Int32 | 引用对象的 id 或 0，如果对象被根文档引用。可用于生成相对链接。 |
 
 ### 返回值
 
-外部对象的 URL 或 null 如果应忽略此对象。
+外部对象的 URL 或 null 如果该对象应该被忽略。
 
 ### 也可以看看
 

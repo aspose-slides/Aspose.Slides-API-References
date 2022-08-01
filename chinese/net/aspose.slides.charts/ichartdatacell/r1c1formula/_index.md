@@ -1,14 +1,14 @@
 ---
 title: R1C1Formula
 second_title: Aspose.Slides for .NET API 参考
-description: 获取或设置 R1C1 样式的公式
+description: 获取或设置R1C1风格的公式
 type: docs
 weight: 70
 url: /zh/net/aspose.slides.charts/ichartdatacell/r1c1formula/
 ---
 ## IChartDataCell.R1C1Formula property
 
-获取或设置 R1C1 样式的公式。
+获取或设置R1C1风格的公式。
 
 ```csharp
 public string R1C1Formula { get; set; }

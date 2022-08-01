@@ -1,14 +1,14 @@
 ---
 title: ToPdf
 second_title: Aspose.Slides for .NET API 参考
-description: 将Presentationaspose.slides/presentation转换为 PDF
+description: 转换Presentationaspose.slides/presentation到 PDF.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides.lowcode/convert/topdf/
 ---
 ## ToPdf(string, string) {#topdf_2}
 
-将[`Presentation`](../../../aspose.slides/presentation)转换为 PDF。
+转换[`Presentation`](../../../aspose.slides/presentation)到 PDF.
 
 ```csharp
 public static void ToPdf(string presPath, string outPath)
@@ -35,7 +35,7 @@ Convert.ToPdf("pres.pptx", "pres.pdf");
 
 ## ToPdf(string, string, IPdfOptions) {#topdf_3}
 
-将[`Presentation`](../../../aspose.slides/presentation)转换为 PDF。
+转换[`Presentation`](../../../aspose.slides/presentation)到 PDF.
 
 ```csharp
 public static void ToPdf(string presPath, string outPath, IPdfOptions options)
@@ -64,7 +64,7 @@ Convert.ToPdf("pres.pptx", "pres.pdf", new PdfOptions{ Compliance = PdfComplianc
 
 ## ToPdf(Presentation, string) {#topdf}
 
-将[`Presentation`](../../../aspose.slides/presentation)转换为 PDF。
+转换[`Presentation`](../../../aspose.slides/presentation)到 PDF.
 
 ```csharp
 public static void ToPdf(Presentation pres, string outPath)
@@ -72,7 +72,7 @@ public static void ToPdf(Presentation pres, string outPath)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| pres | Presentation | 输入表示 |
+| pres | Presentation | 输入演示 |
 | outPath | String | 输出路径 |
 
 ### 例子
@@ -95,7 +95,7 @@ using (Presentation pres = new Presentation("input.pptx"))
 
 ## ToPdf(Presentation, string, IPdfOptions) {#topdf_1}
 
-将[`Presentation`](../../../aspose.slides/presentation)转换为 PDF。
+转换[`Presentation`](../../../aspose.slides/presentation)到 PDF.
 
 ```csharp
 public static void ToPdf(Presentation pres, string outPath, IPdfOptions options)
@@ -103,7 +103,7 @@ public static void ToPdf(Presentation pres, string outPath, IPdfOptions options)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| pres | Presentation | 输入表示 |
+| pres | Presentation | 输入演示 |
 | outPath | String | 输出路径 |
 | options | IPdfOptions | 输出 PDF 选项 |
 

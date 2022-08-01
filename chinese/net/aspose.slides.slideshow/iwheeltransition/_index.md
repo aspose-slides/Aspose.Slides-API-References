@@ -18,8 +18,8 @@ public interface IWheelTransition : ITransitionValueBase
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/iwheeltransition/asitransitionvaluebase) { get; } | 允许获取基本 ITransitionValueBase 接口。 只读[`ITransitionValueBase`](../itransitionvaluebase)。 |
-| [Spokes](../../aspose.slides.slideshow/iwheeltransition/spokes) { get; set; } | 车轮过渡的辐条数。 读/写UInt32。 |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/iwheeltransition/asitransitionvaluebase) { get; } | 允许获取基本 ITransitionValueBase 接口。 只读[`ITransitionValueBase`](../itransitionvaluebase). |
+| [Spokes](../../aspose.slides.slideshow/iwheeltransition/spokes) { get; set; } | 车轮过渡的辐条数。 读/写UInt32. |
 
 ### 也可以看看
 

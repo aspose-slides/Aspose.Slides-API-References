@@ -1,14 +1,14 @@
 ---
 title: DateTime4
 second_title: Справочник по API Aspose.Slides для .NET
-description: Текущая дата и время в четвертом предустановленном формате месяц ДД ГГГГ для английского. Только для чтенияFieldTypeaspose.slides/fieldtype.
+description: Текущая дата и время в четвертом предустановленном формате месяц ДД ГГГГ для английского. Только для чтенияFieldTypeaspose.slides/fieldtype .
 type: docs
 weight: 100
 url: /ru/net/aspose.slides/fieldtype/datetime4/
 ---
 ## FieldType.DateTime4 property
 
-Текущая дата и время в четвертом предустановленном формате (месяц ДД, ГГГГ для английского). Только для чтения[`FieldType`](../../fieldtype).
+Текущая дата и время в четвертом предустановленном формате (месяц ДД, ГГГГ для английского). Только для чтения[`FieldType`](../../fieldtype) .
 
 ```csharp
 public static FieldType DateTime4 { get; }

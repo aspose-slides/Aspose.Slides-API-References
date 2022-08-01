@@ -18,7 +18,7 @@ public void Remove()
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| [PptxEditException](../../../aspose.slides/pptxeditexception) | 如果数据点已从图表系列中删除，则抛出该异常。 |
+| [PptxEditException](../../../aspose.slides/pptxeditexception) | 如果数据点已从图表系列中删除，则抛出。 |
 
 ### 也可以看看
 

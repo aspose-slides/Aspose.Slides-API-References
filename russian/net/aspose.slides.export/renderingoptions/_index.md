@@ -24,10 +24,10 @@ public class RenderingOptions : SaveOptions, IRenderingOptions
 
 | Имя | Описание |
 | --- | --- |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Возвращает или устанавливает шрифт, используемый в случае, если исходный шрифт не найден. Чтение-записьString. |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Возвращает или устанавливает шрифт, используемый в случае, если исходный шрифт не найден. Чтение-записьString . |
 | [NotesCommentsLayouting](../../aspose.slides.export/renderingoptions/notescommentslayouting) { get; } | Предоставляет параметры, управляющие размещением примечаний и комментариев в экспортируемом документе. |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Представляет объект обратного вызова для сохранения обновлений хода выполнения в процентах. См.[`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Возвращает наборы объект, который получает предупреждения и решает, будет ли процесс загрузки продолжен или будет прерван. Чтение/запись[`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Представляет объект обратного вызова для сохранения обновлений хода выполнения в процентах. См.[`IProgressCallback`](../../aspose.slides/iprogresscallback) . |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Возвращает наборы объекта, который получает предупреждения и решает, будет ли процесс загрузки продолжен или будет прерван. Чтение/запись[`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback) . |
 
 ### Примеры
 

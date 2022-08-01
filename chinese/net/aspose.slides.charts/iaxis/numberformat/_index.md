@@ -1,14 +1,14 @@
 ---
 title: NumberFormat
 second_title: Aspose.Slides for .NET API 参考
-description: 表示轴标签的格式字符串 读/写String
+description: 表示轴标签的格式字符串 读/写String.
 type: docs
 weight: 440
 url: /zh/net/aspose.slides.charts/iaxis/numberformat/
 ---
 ## IAxis.NumberFormat property
 
-表示轴标签的格式字符串。 读/写String。
+表示轴标签的格式字符串。 读/写String.
 
 ```csharp
 public string NumberFormat { get; set; }

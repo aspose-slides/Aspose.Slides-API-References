@@ -1,14 +1,14 @@
 ---
 title: SpaceBefore
 second_title: Aspose.Slides for .NET API 参考
-description: 返回段落第一行之前的空格量 只读Single
+description: 返回段落第一行之前的空格量 只读Single.
 type: docs
 weight: 150
 url: /zh/net/aspose.slides/iparagraphformateffectivedata/spacebefore/
 ---
 ## IParagraphFormatEffectiveData.SpaceBefore property
 
-返回段落第一行之前的空格量。 只读Single。
+返回段落第一行之前的空格量。 只读Single.
 
 ```csharp
 public float SpaceBefore { get; }

@@ -1,14 +1,14 @@
 ---
 title: MasterSlide
 second_title: Справочник по API Aspose.Slides для .NET
-description: Итерировать каждыйMasterSlideaspose.slides.lowcode/foreach/masterslideвPresentationaspose.slides/presentation.
+description: Итерировать каждыйMasterSlideaspose.slides.lowcode/foreach/masterslide вPresentationaspose.slides/presentation .
 type: docs
 weight: 20
 url: /ru/net/aspose.slides.lowcode/foreach/masterslide/
 ---
 ## ForEach.MasterSlide method
 
-Итерировать каждый`MasterSlide`в[`Presentation`](../../../aspose.slides/presentation).
+Итерировать каждый`MasterSlide` в[`Presentation`](../../../aspose.slides/presentation) .
 
 ```csharp
 public static void MasterSlide(Presentation pres, ForEachMasterSlideCallback forEachMasterSlide)

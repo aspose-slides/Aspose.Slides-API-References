@@ -1,14 +1,14 @@
 ---
 title: DpiY
 second_title: Aspose.Slides for .NET API 参考
-description: 以每英寸点数指定垂直分辨率 读/写UInt32
+description: 以每英寸点数指定垂直分辨率 读/写UInt32.
 type: docs
 weight: 40
 url: /zh/net/aspose.slides.export/itiffoptions/dpiy/
 ---
 ## ITiffOptions.DpiY property
 
-以每英寸点数指定垂直分辨率。 读/写UInt32。
+以每英寸点数指定垂直分辨率。 读/写UInt32.
 
 ```csharp
 public uint DpiY { get; set; }

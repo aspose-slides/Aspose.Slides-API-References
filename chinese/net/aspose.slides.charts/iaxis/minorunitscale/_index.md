@@ -1,14 +1,14 @@
 ---
 title: MinorUnitScale
 second_title: Aspose.Slides for .NET API 参考
-description: 表示日期轴的主要单位比例 读/写TimeUnitTypeaspose.slides.charts/timeunittype
+description: 表示日期轴的主要单位比例 读/写TimeUnitTypeaspose.slides.charts/timeunittype.
 type: docs
 weight: 420
 url: /zh/net/aspose.slides.charts/iaxis/minorunitscale/
 ---
 ## IAxis.MinorUnitScale property
 
-表示日期轴的主要单位比例。 读/写[`TimeUnitType`](../../timeunittype)。
+表示日期轴的主要单位比例。 读/写[`TimeUnitType`](../../timeunittype).
 
 ```csharp
 public TimeUnitType MinorUnitScale { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: TargetSlide
 second_title: Aspose.Slides for .NET API 参考
-description: 如果超链接以特定幻灯片为目标则返回此幻灯片 只读ISlideaspose.slides/islide
+description: 如果超链接针对特定幻灯片返回此幻灯片 只读ISlideaspose.slides/islide.
 type: docs
 weight: 170
 url: /zh/net/aspose.slides/hyperlink/targetslide/
 ---
 ## Hyperlink.TargetSlide property
 
-如果超链接以特定幻灯片为目标，则返回此幻灯片。 只读[`ISlide`](../../islide)。
+如果超链接针对特定幻灯片返回此幻灯片。 只读[`ISlide`](../../islide).
 
 ```csharp
 public ISlide TargetSlide { get; }

@@ -1,14 +1,14 @@
 ---
 title: Effect3D
 second_title: Aspose.Slides for .NET API 参考
-description: 返回图表的 3D 格式 只读IThreeDFormataspose.slides/ithreedformat
+description: 返回图表的 3D 格式 只读IThreeDFormataspose.slides/ithreedformat.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides.charts/iformat/effect3d/
 ---
 ## IFormat.Effect3D property
 
-返回图表的 3D 格式。 只读[`IThreeDFormat`](../../../aspose.slides/ithreedformat)。
+返回图表的 3D 格式。 只读[`IThreeDFormat`](../../../aspose.slides/ithreedformat).
 
 ```csharp
 public IThreeDFormat Effect3D { get; }

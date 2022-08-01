@@ -1,14 +1,14 @@
 ---
 title: ShadowOn
 second_title: Aspose.Slides for .NET API 参考
-description: 表示shadow.on属性
+description: 代表shadow.on属性
 type: docs
 weight: 720
 url: /zh/net/aspose.slides.animation/behaviorproperty/shadowon/
 ---
 ## BehaviorProperty.ShadowOn property
 
-表示'shadow.on'属性
+代表“shadow.on”属性
 
 ```csharp
 public static BehaviorProperty ShadowOn { get; }

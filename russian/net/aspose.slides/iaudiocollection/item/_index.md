@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Справочник по API Aspose.Slides для .NET
-description: Получает элемент по указанному индексу. Только для чтенияIAudioaspose.slides/iaudio.
+description: Получает элемент по указанному индексу. Только для чтенияIAudioaspose.slides/iaudio .
 type: docs
 weight: 10
 url: /ru/net/aspose.slides/iaudiocollection/item/
 ---
 ## IAudioCollection indexer
 
-Получает элемент по указанному индексу. Только для чтения[`IAudio`](../../iaudio).
+Получает элемент по указанному индексу. Только для чтения[`IAudio`](../../iaudio) .
 
 ```csharp
 public IAudio this[int index] { get; }

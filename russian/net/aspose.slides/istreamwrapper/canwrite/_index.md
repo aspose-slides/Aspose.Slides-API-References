@@ -1,14 +1,14 @@
 ---
 title: CanWrite
 second_title: Справочник по API Aspose.Slides для .NET
-description: Получает значение указывающее поддерживает ли текущий поток запись. Только чтениеBoolean.
+description: Получает значение указывающее поддерживает ли текущий поток запись. Только для чтенияBoolean .
 type: docs
 weight: 40
 url: /ru/net/aspose.slides/istreamwrapper/canwrite/
 ---
 ## IStreamWrapper.CanWrite property
 
-Получает значение, указывающее, поддерживает ли текущий поток запись. Только чтениеBoolean.
+Получает значение, указывающее, поддерживает ли текущий поток запись. Только для чтенияBoolean .
 
 ```csharp
 public bool CanWrite { get; }

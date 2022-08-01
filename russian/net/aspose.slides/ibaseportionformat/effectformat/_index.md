@@ -1,14 +1,14 @@
 ---
 title: EffectFormat
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает свойства текста EffectFormat. Наследование не применяется. Только для чтенияIEffectFormataspose.slides/ieffectformat.
+description: Возвращает свойства текста EffectFormat. Наследование не применяется. Только для чтенияIEffectFormataspose.slides/ieffectformat .
 type: docs
 weight: 40
 url: /ru/net/aspose.slides/ibaseportionformat/effectformat/
 ---
 ## IBasePortionFormat.EffectFormat property
 
-Возвращает свойства текста EffectFormat. Наследование не применяется. Только для чтения[`IEffectFormat`](../../ieffectformat).
+Возвращает свойства текста EffectFormat. Наследование не применяется. Только для чтения[`IEffectFormat`](../../ieffectformat) .
 
 ```csharp
 public IEffectFormat EffectFormat { get; }

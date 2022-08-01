@@ -20,17 +20,16 @@ public int IndexOf(string fontName)
 
 ### 返回值
 
-字体索引，如果在列表中未找到字体，则为 -1。
+字体的索引，如果在列表中找不到字体，则为 -1。
 
 ### 例子
 
 ```csharp
 [C#]
- // 创建一个包含字体列表的规则。
+// 创建一个包含字体列表的规则。
 IFontFallBackRule newRule = new FontFallBackRule(0x3040, 0x309F, "MS Mincho, MS Gothic, Tahoma, Times New Roman");
 
- //获取Tahoma
-
+//获取Tahoma的索引
 int tahomaIndex = newRule.IndexOf("Tahoma");
 ```
 

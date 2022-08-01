@@ -18,9 +18,9 @@ public sealed class GradientStop : PVIObject, IGradientStop
 
 | Имя | Описание |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Позволяет получить базовый интерфейс IPresentationComponent. Только для чтения[`IPresentationComponent`](../ipresentationcomponent). |
-| [Color](../../aspose.slides/gradientstop/color) { get; } | Возвращает цвет точки градиента. Только для чтения[`IColorFormat`](../icolorformat). |
-| [Position](../../aspose.slides/gradientstop/position) { get; set; } | Возвращает или задает положение (0..1) точки градиента. Чтение/записьSingle. |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Позволяет получить базовый интерфейс IPresentationComponent. Только для чтения[`IPresentationComponent`](../ipresentationcomponent) . |
+| [Color](../../aspose.slides/gradientstop/color) { get; } | Возвращает цвет точки градиента. Только для чтения[`IColorFormat`](../icolorformat) . |
+| [Position](../../aspose.slides/gradientstop/position) { get; set; } | Возвращает или задает положение (0..1) остановки градиента. Чтение/записьSingle . |
 
 ## Методы
 

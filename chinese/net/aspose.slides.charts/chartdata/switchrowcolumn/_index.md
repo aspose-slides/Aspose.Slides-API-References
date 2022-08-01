@@ -1,14 +1,14 @@
 ---
 title: SwitchRowColumn
 second_title: Aspose.Slides for .NET API 参考
-description: 在轴上交换数据 X 轴上绘制的数据将移动到 Y 轴反之亦然
+description: 在轴上交换数据 在 X 轴上绘制的数据将移动到 Y 轴反之亦然
 type: docs
 weight: 130
 url: /zh/net/aspose.slides.charts/chartdata/switchrowcolumn/
 ---
 ## ChartData.SwitchRowColumn method
 
-在轴上交换数据。 X 轴上绘制的数据将移动到 Y 轴，反之亦然。
+在轴上交换数据。 在 X 轴上绘制的数据将移动到 Y 轴，反之亦然。
 
 ```csharp
 public void SwitchRowColumn()

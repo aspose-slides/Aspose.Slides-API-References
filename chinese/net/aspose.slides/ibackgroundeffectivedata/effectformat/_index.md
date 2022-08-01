@@ -1,14 +1,14 @@
 ---
 title: EffectFormat
 second_title: Aspose.Slides for .NET API 参考
-description: 返回有效效果格式 只读IEffectFormatEffectiveDataaspose.slides/ieffectformateffectivedata
+description: 返回有效效果格式 只读IEffectFormatEffectiveDataaspose.slides/ieffectformateffectivedata.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides/ibackgroundeffectivedata/effectformat/
 ---
 ## IBackgroundEffectiveData.EffectFormat property
 
-返回有效效果格式。 只读[`IEffectFormatEffectiveData`](../../ieffectformateffectivedata)。
+返回有效效果格式。 只读[`IEffectFormatEffectiveData`](../../ieffectformateffectivedata).
 
 ```csharp
 public IEffectFormatEffectiveData EffectFormat { get; }

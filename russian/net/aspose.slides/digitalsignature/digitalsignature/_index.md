@@ -37,7 +37,7 @@ public DigitalSignature(string filePath, string password)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | filePath | String | Путь к файлу с сертификатом. |
-| пароль | String | Для доступа к сертификату требуется пароль. |
+| password | String | Для доступа к сертификату требуется пароль. |
 
 ### Смотрите также
 

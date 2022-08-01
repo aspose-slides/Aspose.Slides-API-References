@@ -1,14 +1,14 @@
 ---
 title: EastAsianFont
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или устанавливает информацию о восточноазиатском шрифте. Null означает что шрифт не определен и должен быть унаследован от мастера. Чтение/записьIFontDataaspose.slides/ifontdata.
+description: Возвращает или задает информацию о восточноазиатском шрифте. Null означает что шрифт не определен и должен быть унаследован от мастера. Чтение/записьIFontDataaspose.slides/ifontdata .
 type: docs
 weight: 30
 url: /ru/net/aspose.slides/ibaseportionformat/eastasianfont/
 ---
 ## IBasePortionFormat.EastAsianFont property
 
-Возвращает или устанавливает информацию о восточноазиатском шрифте. Null означает, что шрифт не определен и должен быть унаследован от мастера. Чтение/запись[`IFontData`](../../ifontdata).
+Возвращает или задает информацию о восточноазиатском шрифте. Null означает, что шрифт не определен и должен быть унаследован от мастера. Чтение/запись[`IFontData`](../../ifontdata) .
 
 ```csharp
 public IFontData EastAsianFont { get; set; }

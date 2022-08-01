@@ -18,10 +18,10 @@ public interface IControlPropertiesCollection : IEnumerable<KeyValuePair<string,
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides/icontrolpropertiescollection/asienumerable) { get; } | 返回 IEnumerable 接口。 只读IEnumerable。 |
-| [Count](../../aspose.slides/icontrolpropertiescollection/count) { get; } | 返回集合中的许多属性。 只读Int32。 |
+| [AsIEnumerable](../../aspose.slides/icontrolpropertiescollection/asienumerable) { get; } | 返回 IEnumerable 接口。 只读IEnumerable. |
+| [Count](../../aspose.slides/icontrolpropertiescollection/count) { get; } | 返回集合中的多个属性。 只读Int32. |
 | [Item](../../aspose.slides/icontrolpropertiescollection/item) { get; set; } | 返回或设置属性。 |
-| [NamesOfProperties](../../aspose.slides/icontrolpropertiescollection/namesofproperties) { get; } | 返回集合中的许多属性。 只读ICollection。 |
+| [NamesOfProperties](../../aspose.slides/icontrolpropertiescollection/namesofproperties) { get; } | 返回集合中的多个属性。 只读ICollection. |
 
 ## 方法
 

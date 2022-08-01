@@ -1,14 +1,14 @@
 ---
 title: ShowMeanMarkers
 second_title: Aspose.Slides for .NET API 参考
-description: 表示平均标记如果平均标记显示在 BoxAndWhisker 图表上则为真仅适用于 BoxAndWhisker 图表 读/写Boolean
+description: 表示平均标记如果平均标记显示在 BoxAndWhisker 图表上则为真仅适用于 BoxAndWhisker 图表 读/写Boolean.
 type: docs
 weight: 400
 url: /zh/net/aspose.slides.charts/chartseries/showmeanmarkers/
 ---
 ## ChartSeries.ShowMeanMarkers property
 
-表示平均标记。如果平均标记显示在 BoxAndWhisker 图表上，则为真。仅适用于 BoxAndWhisker 图表。 读/写Boolean。
+表示平均标记。如果平均标记显示在 BoxAndWhisker 图表上，则为真。仅适用于 BoxAndWhisker 图表。 读/写Boolean.
 
 ```csharp
 public bool ShowMeanMarkers { get; set; }

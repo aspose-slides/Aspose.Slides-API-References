@@ -18,19 +18,19 @@ public interface IImageTransformOperationCollection : ICollection<IImageTransfor
 
 | Имя | Описание |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.effects/iimagetransformoperationcollection/asienumerable) { get; } | Возвращает интерфейс IEnumerable. Только для чтенияIEnumerable. |
-| [Item](../../aspose.slides.effects/iimagetransformoperationcollection/item) { get; } | Возвращает[`IImageTransformOperation`](../iimagetransformoperation)из коллекции по ее индексу. |
+| [AsIEnumerable](../../aspose.slides.effects/iimagetransformoperationcollection/asienumerable) { get; } | Возвращает интерфейс IEnumerable. Только для чтенияIEnumerable . |
+| [Item](../../aspose.slides.effects/iimagetransformoperationcollection/item) { get; } | Возвращает[`IImageTransformOperation`](../iimagetransformoperation) из коллекции по индексу. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [AddAlphaBiLevelEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphabileveleffect)(float) | Добавляет новый эффект Alpha Bi-Level в конец коллекции. |
+| [AddAlphaBiLevelEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphabileveleffect)(float) | Добавляет новый двухуровневый альфа-эффект в конец коллекции. |
 | [AddAlphaCeilingEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphaceilingeffect)() | Добавляет новый эффект Alpha Ceiling в конец коллекции. |
 | [AddAlphaFloorEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphaflooreffect)() | Добавляет новый эффект Alpha Floor в конец коллекции. |
 | [AddAlphaInverseEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphainverseeffect)() | Добавляет новый эффект Alpha Inverse в конец коллекции. |
 | [AddAlphaModulateEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphamodulateeffect)() | Добавляет новый эффект альфа-модуляции в конец коллекции. |
-| [AddAlphaModulateFixedEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphamodulatefixedeffect)(float) | Добавляет новый эффект Alpha Modulate Fixed в конец коллекции. |
+| [AddAlphaModulateFixedEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphamodulatefixedeffect)(float) | Добавляет новый фиксированный эффект альфа-модуляции в конец коллекции. |
 | [AddAlphaReplaceEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphareplaceeffect)(float) | Добавляет новый эффект альфа-замены в конец коллекции. |
 | [AddBiLevelEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addbileveleffect)(float) | Добавляет новый двухуровневый эффект (черный/белый) в конец коллекции. |
 | [AddBlurEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addblureffect)(double, bool) | Добавляет новый эффект размытия в конец коллекции. |
@@ -40,7 +40,7 @@ public interface IImageTransformOperationCollection : ICollection<IImageTransfor
 | [AddFillOverlayEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addfilloverlayeffect)() | Добавляет новый эффект Fill Overlay в конец коллекции. |
 | [AddGrayScaleEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addgrayscaleeffect)() | Добавляет новый эффект шкалы серого в конец коллекции. |
 | [AddHSLEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addhsleffect)(float, float, float) | Добавляет новый эффект оттенка/насыщенности/яркости в конец коллекции. |
-| [AddLuminanceEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addluminanceeffect)(float, float) | Добавляет новый эффект Luminance в конец коллекции. |
+| [AddLuminanceEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addluminanceeffect)(float, float) | Добавляет новый эффект яркости в конец коллекции. |
 | [AddTintEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addtinteffect)(float, float) | Добавляет новый эффект «Оттенок» в конец коллекции. |
 | [RemoveAt](../../aspose.slides.effects/iimagetransformoperationcollection/removeat)(int) | Удаляет эффект изображения из коллекции по указанному индексу. |
 

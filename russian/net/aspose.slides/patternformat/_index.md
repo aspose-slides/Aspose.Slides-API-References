@@ -18,10 +18,10 @@ public class PatternFormat : PVIObject, IPatternFormat
 
 | Имя | Описание |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Позволяет получить базовый интерфейс IPresentationComponent. Только для чтения[`IPresentationComponent`](../ipresentationcomponent). |
-| [BackColor](../../aspose.slides/patternformat/backcolor) { get; } | Возвращает цвет фонового узора. Только для чтения[`IColorFormat`](../icolorformat). |
-| [ForeColor](../../aspose.slides/patternformat/forecolor) { get; } | Возвращает цвет шаблона переднего плана. Только для чтения[`IColorFormat`](../icolorformat). |
-| [PatternStyle](../../aspose.slides/patternformat/patternstyle) { get; set; } | Возвращает или задает стиль узора. Чтение/запись[`PatternStyle`](../patternstyle). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Позволяет получить базовый интерфейс IPresentationComponent. Только для чтения[`IPresentationComponent`](../ipresentationcomponent) . |
+| [BackColor](../../aspose.slides/patternformat/backcolor) { get; } | Возвращает цвет фонового узора. Только для чтения[`IColorFormat`](../icolorformat) . |
+| [ForeColor](../../aspose.slides/patternformat/forecolor) { get; } | Возвращает цвет шаблона переднего плана. Только для чтения[`IColorFormat`](../icolorformat) . |
+| [PatternStyle](../../aspose.slides/patternformat/patternstyle) { get; set; } | Возвращает или задает стиль шаблона. Чтение/запись[`PatternStyle`](../patternstyle) . |
 
 ## Методы
 

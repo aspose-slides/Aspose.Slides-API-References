@@ -1,14 +1,14 @@
 ---
 title: Global
 second_title: Aspose.Slides for .NET API 参考
-description: 返回主文档的全局存储 只读Storageaspose.slides.export.web/storage
+description: 返回主文档的全局存储 只读Storageaspose.slides.export.web/storage.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides.export.web/templatecontext-1/global/
 ---
 ## TemplateContext&lt;TObject&gt;.Global property
 
-返回主文档的全局存储。 只读[`Storage`](../../storage)。
+返回主文档的全局存储。 只读[`Storage`](../../storage).
 
 ```csharp
 public Storage Global { get; }

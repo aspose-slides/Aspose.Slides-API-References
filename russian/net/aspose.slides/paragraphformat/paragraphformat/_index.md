@@ -1,14 +1,14 @@
 ---
 title: ParagraphFormat
 second_title: Справочник по API Aspose.Slides для .NET
-description: Инициализирует новый экземпляр классаParagraphFormataspose.slides/paragraphformat.
+description: Инициализирует новый экземплярParagraphFormataspose.slides/paragraphformat класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.slides/paragraphformat/paragraphformat/
 ---
 ## ParagraphFormat constructor
 
-Инициализирует новый экземпляр класса[`ParagraphFormat`](../../paragraphformat).
+Инициализирует новый экземпляр[`ParagraphFormat`](../../paragraphformat) класс.
 
 ```csharp
 public ParagraphFormat()

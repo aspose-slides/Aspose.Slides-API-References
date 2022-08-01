@@ -18,14 +18,14 @@ public interface IPPImage
 
 | Имя | Описание |
 | --- | --- |
-| [BinaryData](../../aspose.slides/ippimage/binarydata) { get; } | Возвращает копию данных изображения. Только для чтенияByte[]. |
-| [ContentType](../../aspose.slides/ippimage/contenttype) { get; } | Возвращает MIME-тип изображения, закодированного в[`BinaryData`](./binarydata). Только чтениеString. |
-| [Height](../../aspose.slides/ippimage/height) { get; } | Возвращает высоту изображения. Только для чтенияInt32. |
-| [SvgImage](../../aspose.slides/ippimage/svgimage) { get; set; } | Возвращает или устанавливает объект ISvgImage[`ISvgImage`](../isvgimage) |
-| [SystemImage](../../aspose.slides/ippimage/systemimage) { get; } | Возвращает копию изображения типа System.Drawing.Image. Только для чтенияImage. |
-| [Width](../../aspose.slides/ippimage/width) { get; } | Возвращает ширину изображения. Только для чтенияInt32. |
-| [X](../../aspose.slides/ippimage/x) { get; } | Возвращает X-смещение изображения. Только для чтенияInt32. |
-| [Y](../../aspose.slides/ippimage/y) { get; } | Возвращает Y-смещение изображения. Только для чтенияInt32. |
+| [BinaryData](../../aspose.slides/ippimage/binarydata) { get; } | Возвращает копию данных изображения. Только для чтенияByte []. |
+| [ContentType](../../aspose.slides/ippimage/contenttype) { get; } | Возвращает MIME-тип изображения, закодированного в[`BinaryData`](./binarydata) . Только для чтенияString . |
+| [Height](../../aspose.slides/ippimage/height) { get; } | Возвращает высоту изображения. Только для чтенияInt32 . |
+| [SvgImage](../../aspose.slides/ippimage/svgimage) { get; set; } | Возвращает или задает объект ISvgImage[`ISvgImage`](../isvgimage) |
+| [SystemImage](../../aspose.slides/ippimage/systemimage) { get; } | Возвращает копию изображения типа System.Drawing.Image. Только для чтенияImage . |
+| [Width](../../aspose.slides/ippimage/width) { get; } | Возвращает ширину изображения. Только для чтенияInt32 . |
+| [X](../../aspose.slides/ippimage/x) { get; } | Возвращает X-смещение изображения. Только для чтенияInt32 . |
+| [Y](../../aspose.slides/ippimage/y) { get; } | Возвращает смещение изображения по оси Y. Только для чтенияInt32 . |
 
 ## Методы
 

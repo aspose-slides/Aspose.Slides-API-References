@@ -1,14 +1,14 @@
 ---
 title: IBehavior
 second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет поведение эффекта базового класса.
+description: Представляет поведение базового класса эффекта.
 type: docs
 weight: 310
 url: /ru/net/aspose.slides.animation/ibehavior/
 ---
 ## IBehavior interface
 
-Представляет поведение эффекта базового класса.
+Представляет поведение базового класса эффекта.
 
 ```csharp
 public interface IBehavior
@@ -18,10 +18,10 @@ public interface IBehavior
 
 | Имя | Описание |
 | --- | --- |
-| [Accumulate](../../aspose.slides.animation/ibehavior/accumulate) { get; set; } | Указывает, накапливаются ли варианты поведения анимации. Чтение/запись[`NullableBool`](../../aspose.slides/nullablebool). |
-| [Additive](../../aspose.slides.animation/ibehavior/additive) { get; set; } | Указывает, сочетается ли текущее поведение анимации с другими работающими анимациями. Чтение/запись[`BehaviorAdditiveType`](../behavioradditivetype). |
-| [Properties](../../aspose.slides.animation/ibehavior/properties) { get; } | Представляет свойства поведения. Только для чтения[`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
-| [Timing](../../aspose.slides.animation/ibehavior/timing) { get; set; } | Представляет свойства синхронизации для поведения эффекта. Чтение/запись[`ITiming`](../itiming). |
+| [Accumulate](../../aspose.slides.animation/ibehavior/accumulate) { get; set; } | Указывает, накапливаются ли варианты поведения анимации. Чтение/запись[`NullableBool`](../../aspose.slides/nullablebool) . |
+| [Additive](../../aspose.slides.animation/ibehavior/additive) { get; set; } | Указывает, комбинируется ли текущее поведение анимации с другими работающими анимациями. Чтение/запись[`BehaviorAdditiveType`](../behavioradditivetype) . |
+| [Properties](../../aspose.slides.animation/ibehavior/properties) { get; } | Представляет свойства поведения. Только для чтения[`IBehaviorPropertyCollection`](../ibehaviorpropertycollection) . |
+| [Timing](../../aspose.slides.animation/ibehavior/timing) { get; set; } | Представляет временные свойства поведения эффекта. Чтение/запись[`ITiming`](../itiming) . |
 
 ### Смотрите также
 

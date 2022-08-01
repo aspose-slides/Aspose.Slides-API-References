@@ -18,23 +18,23 @@ public interface IPdfOptions : ISaveOptions
 
 | Имя | Описание |
 | --- | --- |
-| [AccessPermissions](../../aspose.slides.export/ipdfoptions/accesspermissions) { get; set; } | Содержит набор флагов, указывающих, какие права доступа должны быть предоставлены при открытии документа с доступом пользователя. См.[`PdfAccessPermissions`](../pdfaccesspermissions). |
-| [AdditionalCommonFontFamilies](../../aspose.slides.export/ipdfoptions/additionalcommonfontfamilies) { get; set; } | Возвращает или задает массив определяемых пользователем имен семейств шрифтов, которые Aspose.Slides должен считать общими. Чтение/записьString[]. |
-| [ApplyImageTransparent](../../aspose.slides.export/ipdfoptions/applyimagetransparent) { get; set; } | Применяет указанный прозрачный цвет к изображению, если` true` . |
-| [AsISaveOptions](../../aspose.slides.export/ipdfoptions/asisaveoptions) { get; } | Возвращает интерфейс ISaveOptions. Только для чтения[`ISaveOptions`](../isaveoptions). |
-| [BestImagesCompressionRatio](../../aspose.slides.export/ipdfoptions/bestimagescompressionratio) { get; set; } | Указывает, должно ли автоматически выбираться наиболее эффективное сжатие (вместо стандартного) для каждого изображения . Если установлено значениеBoolean.true, для каждого изображения в презентации будет выбран наиболее подходящий алгоритм сжатия , что приведет к меньшему размеру результирующего PDF-документ.  Выбор наилучшего коэффициента сжатия изображения требует больших вычислительных ресурсов и требует дополнительного объема ОЗУ, и этот параметр равенBoolean.false по умолчанию. |
-| [Compliance](../../aspose.slides.export/ipdfoptions/compliance) { get; set; } | Желаемый уровень соответствия для сгенерированного документа PDF. Чтение/запись[`PdfCompliance`](../pdfcompliance). |
-| [DrawSlidesFrame](../../aspose.slides.export/ipdfoptions/drawslidesframe) { get; set; } | True для рисования черной рамки вокруг каждого слайда. Чтение/записьBoolean. |
-| [EmbedFullFonts](../../aspose.slides.export/ipdfoptions/embedfullfonts) { get; set; } | Определяет, должны ли быть внедрены все символы шрифта или используется только подмножество. Чтение/записьBoolean. |
-| [EmbedTrueTypeFontsForASCII](../../aspose.slides.export/ipdfoptions/embedtruetypefontsforascii) { get; set; } | Значение true для встраивания шрифтов истинного типа для символов ASCII 32–127. Шрифты для кодов символов больше 127 всегда встраиваются. Чтение/записьBoolean. |
+| [AccessPermissions](../../aspose.slides.export/ipdfoptions/accesspermissions) { get; set; } | Содержит набор флагов, указывающих, какие права доступа должны быть предоставлены при открытии документа с доступом пользователя. Видеть[`PdfAccessPermissions`](../pdfaccesspermissions) . |
+| [AdditionalCommonFontFamilies](../../aspose.slides.export/ipdfoptions/additionalcommonfontfamilies) { get; set; } | Возвращает или задает массив определяемых пользователем имен семейств шрифтов, которые Aspose.Slides должен считать общими. Чтение/записьString []. |
+| [ApplyImageTransparent](../../aspose.slides.export/ipdfoptions/applyimagetransparent) { get; set; } | Применяет указанный прозрачный цвет к изображению, если`истинный` . |
+| [AsISaveOptions](../../aspose.slides.export/ipdfoptions/asisaveoptions) { get; } | Возвращает интерфейс ISaveOptions. Только для чтения[`ISaveOptions`](../isaveoptions) . |
+| [BestImagesCompressionRatio](../../aspose.slides.export/ipdfoptions/bestimagescompressionratio) { get; set; } | Указывает, должно ли наиболее эффективное сжатие (вместо стандартного) для каждого изображения выбираться автоматически. Если установленоBoolean.true, для каждого изображения в презентации будет выбран наиболее подходящий алгоритм сжатия , что приведет к уменьшению размера итогового документа PDF.  Выбор наилучшего коэффициента сжатия изображения требует больших вычислительных ресурсов и требует дополнительного объема ОЗУ, поэтому этот параметрBoolean.false по умолчанию. |
+| [Compliance](../../aspose.slides.export/ipdfoptions/compliance) { get; set; } | Желаемый уровень соответствия для созданного документа PDF. Чтение/запись[`PdfCompliance`](../pdfcompliance) . |
+| [DrawSlidesFrame](../../aspose.slides.export/ipdfoptions/drawslidesframe) { get; set; } | True для рисования черной рамки вокруг каждого слайда. Чтение/записьBoolean . |
+| [EmbedFullFonts](../../aspose.slides.export/ipdfoptions/embedfullfonts) { get; set; } | Определяет, должны ли быть встроены все символы шрифта или используется только подмножество. Чтение/записьBoolean . |
+| [EmbedTrueTypeFontsForASCII](../../aspose.slides.export/ipdfoptions/embedtruetypefontsforascii) { get; set; } | True для внедрения шрифтов истинного типа для символов ASCII 32-127. Шрифты для кодов символов больше 127 всегда внедряются. Чтение/записьBoolean . |
 | [ImageTransparentColor](../../aspose.slides.export/ipdfoptions/imagetransparentcolor) { get; set; } | Получает или задает прозрачный цвет изображения. |
-| [JpegQuality](../../aspose.slides.export/ipdfoptions/jpegquality) { get; set; } | Возвращает или задает значение, определяющее качество изображений JPEG внутри документа PDF. Чтение/записьByte. |
+| [JpegQuality](../../aspose.slides.export/ipdfoptions/jpegquality) { get; set; } | Возвращает или задает значение, определяющее качество изображений JPEG внутри документа PDF. Чтение/записьByte . |
 | [NotesCommentsLayouting](../../aspose.slides.export/ipdfoptions/notescommentslayouting) { get; } | Предоставляет параметры, управляющие размещением примечаний и комментариев в экспортируемом документе. |
-| [Password](../../aspose.slides.export/ipdfoptions/password) { get; set; } | Установка пароля пользователя для защиты документа PDF. Чтение/записьString. |
-| [SaveMetafilesAsPng](../../aspose.slides.export/ipdfoptions/savemetafilesaspng) { get; set; } | Значение true, чтобы преобразовать все метафайлы, используемые в презентации, в изображения PNG. Чтение/записьBoolean. |
-| [ShowHiddenSlides](../../aspose.slides.export/ipdfoptions/showhiddenslides) { get; set; } | Указывает, должен ли сгенерированный документ включать скрытые слайды или нет. По умолчанию:` false` . |
+| [Password](../../aspose.slides.export/ipdfoptions/password) { get; set; } | Установка пароля пользователя для защиты документа PDF. Чтение/записьString . |
+| [SaveMetafilesAsPng](../../aspose.slides.export/ipdfoptions/savemetafilesaspng) { get; set; } | Значение true для преобразования всех метафайлов, используемых в презентации, в изображения PNG. Чтение/записьBoolean . |
+| [ShowHiddenSlides](../../aspose.slides.export/ipdfoptions/showhiddenslides) { get; set; } | Указывает, должен ли сгенерированный документ включать скрытые слайды или нет. Значение по умолчанию:`ЛОЖЬ` |
 | [SufficientResolution](../../aspose.slides.export/ipdfoptions/sufficientresolution) { get; set; } | Возвращает или задает значение, определяющее разрешение изображений внутри документа PDF. |
-| [TextCompression](../../aspose.slides.export/ipdfoptions/textcompression) { get; set; } | Указывает тип сжатия, который будет использоваться для всего текстового содержимого в документе. Чтение/запись[`PdfTextCompression`](../pdftextcompression). |
+| [TextCompression](../../aspose.slides.export/ipdfoptions/textcompression) { get; set; } | Указывает тип сжатия, который будет использоваться для всего текстового содержимого в документе. Чтение/запись[`PdfTextCompression`](../pdftextcompression) . |
 
 ### Смотрите также
 

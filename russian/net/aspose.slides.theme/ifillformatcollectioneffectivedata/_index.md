@@ -18,11 +18,11 @@ public interface IFillFormatCollectionEffectiveData : IGenericCollection<IFillFo
 
 | Имя | Описание |
 | --- | --- |
-| [Item](../../aspose.slides.theme/ifillformatcollectioneffectivedata/item) { get; } | Получает элемент по указанному индексу. Только для чтения[`IFillFormatEffectiveData`](../../aspose.slides/ifillformateffectivedata). |
+| [Item](../../aspose.slides.theme/ifillformatcollectioneffectivedata/item) { get; } | Получает элемент по указанному индексу. Только для чтения[`IFillFormatEffectiveData`](../../aspose.slides/ifillformateffectivedata) . |
 
 ### Примечания
 
-Этот интерфейс используется как часть[`IFormatSchemeEffectiveData`](../iformatschemeeffectivedata).
+Этот интерфейс используется как часть[`IFormatSchemeEffectiveData`](../iformatschemeeffectivedata) .
 
 ### Смотрите также
 

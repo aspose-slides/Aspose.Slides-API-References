@@ -1,14 +1,14 @@
 ---
 title: Save
 second_title: Aspose.Slides for .NET API 参考
-description: 将演示文稿的指定幻灯片保存到具有指定格式的文件中并保留页码
+description: 将演示文稿的指定幻灯片保存到具有指定格式并保留页码的文件中
 type: docs
 weight: 340
 url: /zh/net/aspose.slides/presentation/save/
 ---
 ## Save(string, int[], SaveFormat) {#save_7}
 
-将演示文稿的指定幻灯片保存到具有指定格式的文件中，并保留页码。
+将演示文稿的指定幻灯片保存到具有指定格式并保留页码的文件中。
 
 ```csharp
 public void Save(string fname, int[] slides, SaveFormat format)
@@ -17,15 +17,15 @@ public void Save(string fname, int[] slides, SaveFormat format)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | fname | String | 创建文件的路径。 |
-| slides | Int32[] | 包含幻灯片位置的数组，从 1 开始。 |
-| format | SaveFormat | 导出数据的格式. |
+| slides | Int32[] | 具有幻灯片位置的数组，从 1 开始。 |
+| format | SaveFormat | 导出数据的格式。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | 当流或幻灯片参数为空时。 |
-| ArgumentOutOfRangeException | 当幻灯片参数包含错误的页码时。 |
+| ArgumentNullException | 当 stream 或 slides 参数为空时。 |
+| ArgumentOutOfRangeException | 当 slides 参数包含错误的页码时。 |
 | InvalidOperationException | 当使用不受支持的 SaveFormat 时，例如 PPTX、PPTM、PPSX、PPSM、POTX、POTM、PPT、ODP。 |
 
 ### 也可以看看
@@ -39,7 +39,7 @@ public void Save(string fname, int[] slides, SaveFormat format)
 
 ## Save(string, int[], SaveFormat, ISaveOptions) {#save_8}
 
-将演示文稿的指定幻灯片保存到具有指定格式的文件中，并保留页码。
+将演示文稿的指定幻灯片保存到具有指定格式并保留页码的文件中。
 
 ```csharp
 public void Save(string fname, int[] slides, SaveFormat format, ISaveOptions options)
@@ -48,9 +48,9 @@ public void Save(string fname, int[] slides, SaveFormat format, ISaveOptions opt
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | fname | String | 创建文件的路径。 |
-| slides | Int32[] | 包含幻灯片位置的数组，从 1 开始。 |
-| format | SaveFormat | 导出数据的格式. |
-| options | ISaveOptions | 附加格式选项。 |
+| slides | Int32[] | 具有幻灯片位置的数组，从 1 开始。 |
+| format | SaveFormat | 导出数据的格式。 |
+| options | ISaveOptions | 其他格式选项。 |
 
 ### 也可以看看
 
@@ -73,8 +73,8 @@ public void Save(Stream stream, int[] slides, SaveFormat format)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | stream | Stream | 输出流。 |
-| slides | Int32[] | 包含幻灯片位置的数组，从 1 开始。 |
-| format | SaveFormat | 导出数据的格式. |
+| slides | Int32[] | 具有幻灯片位置的数组，从 1 开始。 |
+| format | SaveFormat | 导出数据的格式。 |
 
 ### 也可以看看
 
@@ -96,16 +96,16 @@ public void Save(Stream stream, int[] slides, SaveFormat format, ISaveOptions op
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | stream | Stream | 输出流。 |
-| slides | Int32[] | 包含幻灯片位置的数组，从 1 开始。 |
-| format | SaveFormat | 导出数据的格式. |
-| options | ISaveOptions | 附加格式选项。 |
+| slides | Int32[] | 具有幻灯片位置的数组，从 1 开始。 |
+| format | SaveFormat | 导出数据的格式。 |
+| options | ISaveOptions | 其他格式选项。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | 当流或幻灯片参数为空时。 |
-| ArgumentOutOfRangeException | 当幻灯片参数包含错误的页码时。 |
+| ArgumentNullException | 当 stream 或 slides 参数为空时。 |
+| ArgumentOutOfRangeException | 当 slides 参数包含错误的页码时。 |
 | InvalidOperationException | 当使用不受支持的 SaveFormat 时，例如 PPTX、PPTM、PPSX、PPSM、POTX、POTM、PPT、ODP。 |
 
 ### 也可以看看
@@ -120,7 +120,7 @@ public void Save(Stream stream, int[] slides, SaveFormat format, ISaveOptions op
 
 ## Save(string, SaveFormat) {#save_5}
 
-将演示文稿的所有幻灯片保存到具有指定格式的文件中。
+将演示文稿的所有幻灯片保存到指定格式的文件中。
 
 ```csharp
 public void Save(string fname, SaveFormat format)
@@ -142,7 +142,7 @@ public void Save(string fname, SaveFormat format)
 
 ## Save(Stream, SaveFormat) {#save_1}
 
-将演示文稿的所有幻灯片以指定格式保存到流中。
+以指定格式将演示文稿的所有幻灯片保存到流中。
 
 ```csharp
 public void Save(Stream stream, SaveFormat format)
@@ -174,7 +174,7 @@ public void Save(string fname, SaveFormat format, ISaveOptions options)
 | --- | --- | --- |
 | fname | String | 创建文件的路径。 |
 | format | SaveFormat | 导出数据的格式。 |
-| options | ISaveOptions | 附加格式选项。 |
+| options | ISaveOptions | 其他格式选项。 |
 
 ### 也可以看看
 
@@ -188,7 +188,7 @@ public void Save(string fname, SaveFormat format, ISaveOptions options)
 
 ## Save(Stream, SaveFormat, ISaveOptions) {#save_2}
 
-以指定格式和附加选项将演示文稿的所有幻灯片保存到流中。
+将演示文稿的所有幻灯片以指定格式和附加选项保存到流中。
 
 ```csharp
 public void Save(Stream stream, SaveFormat format, ISaveOptions options)
@@ -198,13 +198,13 @@ public void Save(Stream stream, SaveFormat format, ISaveOptions options)
 | --- | --- | --- |
 | stream | Stream | 输出流。 |
 | format | SaveFormat | 导出数据的格式。 |
-| options | ISaveOptions | 附加格式选项。 |
+| options | ISaveOptions | 其他格式选项。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| NotSupportedException | 如果您尝试将加密文件保存为 无 Office 2007-2010 格式 |
+| NotSupportedException | 如果您尝试将加密文件保存为 none Office 2007-2010 格式 |
 
 ### 也可以看看
 

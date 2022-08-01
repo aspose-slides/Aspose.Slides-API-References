@@ -1,14 +1,14 @@
 ---
 title: PieSplitCustomPoints
 second_title: Справочник по API Aspose.Slides для .NET
-description: Пользовательская информация о разделении для круговой или столбчатой диаграммы с пользовательским разделением. Содержит точки данных которые должны быть отображены во второй круговой диаграмме или столбце в круговой или столбчатой диаграмме. Это свойство не только этой серии но и всех серий родительской серии группа - это проекция соответствующего группового свойства Только для чтенияIPieSplitCustomPointCollectionaspose.slides.charts/ipiesplitcustompointcollection.
+description: Пользовательская информация о разделении круговой или столбчатой диаграммы с пользовательским разделением. -pie chart. Это свойство не только этой серии но и всех серий родительской серии группа - это проекция соответствующей группы property Только для чтенияIPieSplitCustomPointCollectionaspose.slides.charts/ipiesplitcustompointcollection .
 type: docs
 weight: 310
 url: /ru/net/aspose.slides.charts/ichartseries/piesplitcustompoints/
 ---
 ## IChartSeries.PieSplitCustomPoints property
 
-Пользовательская информация о разделении для круговой или столбчатой диаграммы с пользовательским разделением. Содержит точки данных, которые должны быть отображены во второй круговой диаграмме или столбце в круговой или столбчатой диаграмме. Это свойство не только этой серии, но и всех серий родительской серии группа - это проекция соответствующего группового свойства Только для чтения[`IPieSplitCustomPointCollection`](../../ipiesplitcustompointcollection).
+Пользовательская информация о разделении круговой или столбчатой диаграммы с пользовательским разделением. -pie chart. Это свойство не только этой серии, но и всех серий родительской серии группа - это проекция соответствующей группы property Только для чтения[`IPieSplitCustomPointCollection`](../../ipiesplitcustompointcollection) .
 
 ```csharp
 public IPieSplitCustomPointCollection PieSplitCustomPoints { get; }

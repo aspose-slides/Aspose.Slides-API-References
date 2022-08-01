@@ -1,14 +1,14 @@
 ---
 title: IsWriteProtected
 second_title: Aspose.Slides for .NET API 参考
-description: 获取一个值该值指示此演示文稿是否受写保护 只读Boolean
+description: 获取一个值该值指示此演示文稿是否受写保护 只读Boolean.
 type: docs
 weight: 50
 url: /zh/net/aspose.slides/iprotectionmanager/iswriteprotected/
 ---
 ## IProtectionManager.IsWriteProtected property
 
-获取一个值，该值指示此演示文稿是否受写保护。 只读Boolean。
+获取一个值，该值指示此演示文稿是否受写保护。 只读Boolean.
 
 ```csharp
 public bool IsWriteProtected { get; }

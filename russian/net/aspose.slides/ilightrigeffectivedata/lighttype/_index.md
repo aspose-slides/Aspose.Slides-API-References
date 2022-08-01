@@ -1,14 +1,14 @@
 ---
 title: LightType
 second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет предустановленное право света которое можно применить к фигуре. Световая установка представляет собой группу источников света ориентированных определенным образом относительно 3D-сцены. Только для чтенияLightRigPresetTypeaspose.slides/lightrigpresettype.
+description: Представляет предустановленное право света которое можно применить к фигуре. Световая установка представляет собой группу источников света ориентированных определенным образом относительно 3D-сцены. Только для чтенияLightRigPresetTypeaspose.slides/lightrigpresettype .
 type: docs
 weight: 20
 url: /ru/net/aspose.slides/ilightrigeffectivedata/lighttype/
 ---
 ## ILightRigEffectiveData.LightType property
 
-Представляет предустановленное право света, которое можно применить к фигуре. Световая установка представляет собой группу источников света, ориентированных определенным образом относительно 3D-сцены. Только для чтения[`LightRigPresetType`](../../lightrigpresettype).
+Представляет предустановленное право света, которое можно применить к фигуре. Световая установка представляет собой группу источников света, ориентированных определенным образом относительно 3D-сцены. Только для чтения[`LightRigPresetType`](../../lightrigpresettype) .
 
 ```csharp
 public LightRigPresetType LightType { get; }

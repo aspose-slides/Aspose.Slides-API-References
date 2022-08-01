@@ -1,14 +1,14 @@
 ---
 title: RawValue
 second_title: Aspose.Slides for .NET API 参考
-description: 按原样返回或设置调整值 读/写Int64
+description: 按原样返回或设置调整值 读/写Int64.
 type: docs
 weight: 30
 url: /zh/net/aspose.slides/adjustvalue/rawvalue/
 ---
 ## AdjustValue.RawValue property
 
-按“原样”返回或设置调整值。 读/写Int64。
+按原样返回或设置调整值。 读/写Int64.
 
 ```csharp
 public long RawValue { get; set; }

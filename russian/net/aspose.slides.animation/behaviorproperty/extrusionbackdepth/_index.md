@@ -8,7 +8,7 @@ url: /ru/net/aspose.slides.animation/behaviorproperty/extrusionbackdepth/
 ---
 ## BehaviorProperty.ExtrusionBackDepth property
 
-Представляет свойство 'extrusion.backdepth'
+Представляет свойство extrusion.backdepth
 
 ```csharp
 public static BehaviorProperty ExtrusionBackDepth { get; }

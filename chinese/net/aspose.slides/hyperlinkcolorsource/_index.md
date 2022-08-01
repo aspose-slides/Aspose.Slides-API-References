@@ -18,8 +18,8 @@ public enum HyperlinkColorSource
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Styles | `0` | 样式。 |
-| PortionFormat | `1` | 部分格式。 |
+| Styles | `0` | 样式. |
+| PortionFormat | `1` | 部分格式. |
 
 ### 也可以看看
 

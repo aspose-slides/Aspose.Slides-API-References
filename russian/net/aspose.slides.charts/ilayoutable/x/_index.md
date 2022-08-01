@@ -1,14 +1,14 @@
 ---
 title: X
 second_title: Справочник по API Aspose.Slides для .NET
-description: Указывает положение x слева элемента диаграммы как часть ширины диаграммы. Чтение/записьSingle.
+description: Определяет положение x слева элемента диаграммы как часть ширины диаграммы. Чтение/записьSingle .
 type: docs
 weight: 60
 url: /ru/net/aspose.slides.charts/ilayoutable/x/
 ---
 ## ILayoutable.X property
 
-Указывает положение x (слева) элемента диаграммы как часть ширины диаграммы. Чтение/записьSingle.
+Определяет положение x (слева) элемента диаграммы как часть ширины диаграммы. Чтение/записьSingle .
 
 ```csharp
 public float X { get; set; }

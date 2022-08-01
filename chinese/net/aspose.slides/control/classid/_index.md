@@ -1,14 +1,14 @@
 ---
 title: ClassId
 second_title: Aspose.Slides for .NET API 参考
-description: 获取此控件的类 ID 只读Guid
+description: 获取此控件的类 ID 只读Guid.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides/control/classid/
 ---
 ## Control.ClassId property
 
-获取此控件的类 ID。 只读Guid。
+获取此控件的类 ID。 只读Guid.
 
 ```csharp
 public Guid ClassId { get; set; }

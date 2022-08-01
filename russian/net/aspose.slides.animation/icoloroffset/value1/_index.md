@@ -1,14 +1,14 @@
 ---
 title: Value1
 second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет второе значение смещения. Чтение/записьSingle.
+description: Определяет второе значение смещения. Чтение/записьSingle .
 type: docs
 weight: 20
 url: /ru/net/aspose.slides.animation/icoloroffset/value1/
 ---
 ## IColorOffset.Value1 property
 
-Определяет второе значение смещения. Чтение/записьSingle.
+Определяет второе значение смещения. Чтение/записьSingle .
 
 ```csharp
 public float Value1 { get; set; }

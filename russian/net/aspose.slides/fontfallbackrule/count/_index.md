@@ -1,14 +1,14 @@
 ---
 title: Count
 second_title: Справочник по API Aspose.Slides для .NET
-description: Получает количество шрифтов фактически определенных для диапазона. Только для чтенияInt32.
+description: Получает количество шрифтов фактически определенных для диапазона. Только для чтенияInt32 .
 type: docs
 weight: 20
 url: /ru/net/aspose.slides/fontfallbackrule/count/
 ---
 ## FontFallBackRule.Count property
 
-Получает количество шрифтов, фактически определенных для диапазона. Только для чтенияInt32.
+Получает количество шрифтов, фактически определенных для диапазона. Только для чтенияInt32 .
 
 ```csharp
 public int Count { get; }

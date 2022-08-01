@@ -1,14 +1,14 @@
 ---
 title: FieldOfViewAngle
 second_title: Aspose.Slides for .NET API 参考
-description: 摄像机 FOV0-180 度视野 读/写Single.
+description: 相机 FOV0-180 度视野 读/写Single.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides/icamera/fieldofviewangle/
 ---
 ## ICamera.FieldOfViewAngle property
 
-摄像机 FOV（0-180 度，视野） 读/写Single.
+相机 FOV（0-180 度，视野） 读/写Single.
 
 ```csharp
 public float FieldOfViewAngle { get; set; }

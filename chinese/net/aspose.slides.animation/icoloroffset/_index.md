@@ -1,14 +1,14 @@
 ---
 title: IColorOffset
 second_title: Aspose.Slides for .NET API 参考
-description: 表示颜色偏移
+description: 表示颜色偏移量
 type: docs
 weight: 370
 url: /zh/net/aspose.slides.animation/icoloroffset/
 ---
 ## IColorOffset interface
 
-表示颜色偏移。
+表示颜色偏移量。
 
 ```csharp
 public interface IColorOffset
@@ -18,9 +18,9 @@ public interface IColorOffset
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Value0](../../aspose.slides.animation/icoloroffset/value0) { get; set; } | 定义偏移量的第一个值。 读/写Single。 |
-| [Value1](../../aspose.slides.animation/icoloroffset/value1) { get; set; } | 定义偏移量的第二个值。 读/写Single。 |
-| [Value2](../../aspose.slides.animation/icoloroffset/value2) { get; set; } | 定义偏移量的第三个值。 读/写Single。 |
+| [Value0](../../aspose.slides.animation/icoloroffset/value0) { get; set; } | 定义偏移量的第一个值。 读/写Single. |
+| [Value1](../../aspose.slides.animation/icoloroffset/value1) { get; set; } | 定义偏移量的第二个值。 读/写Single. |
+| [Value2](../../aspose.slides.animation/icoloroffset/value2) { get; set; } | 定义偏移量的第三个值。 读/写Single. |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: FontFallBackRulesCollection
 second_title: Aspose.Slides for .NET API 参考
-description: 表示用户的 FontFallBack 规则集合用于管理字体集合以通过回退功能进行适当替换 读/写IFontFallBackRulesCollectionaspose.slides/ifontfallbackrulescollection
+description: 表示用户的 FontFallBack 规则集合用于管理字体集合以通过回退功能进行正确替换 读/写IFontFallBackRulesCollectionaspose.slides/ifontfallbackrulescollection.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides/ifontsmanager/fontfallbackrulescollection/
 ---
 ## IFontsManager.FontFallBackRulesCollection property
 
-表示用户的 FontFallBack 规则集合，用于管理字体集合以通过回退功能进行适当替换 读/写[`IFontFallBackRulesCollection`](../../ifontfallbackrulescollection)。
+表示用户的 FontFallBack 规则集合，用于管理字体集合以通过回退功能进行正确替换 读/写[`IFontFallBackRulesCollection`](../../ifontfallbackrulescollection).
 
 ```csharp
 public IFontFallBackRulesCollection FontFallBackRulesCollection { get; set; }
@@ -20,22 +20,20 @@ public IFontFallBackRulesCollection FontFallBackRulesCollection { get; set; }
 [C#]
 using (Presentation pres = new Presentation ())
 {
-     // 从 FontsManager
-则集合
+    // 从 FontsManager 获取空的或预初始化的规则集合
     IFontFallBackRulesCollection rulesList = pres.FontsManager.FontFallBackRulesCollection;
 
-    // 将规则添加到 collection
+    // 添加规则到集合
     rulesList.Add(new FontFallBackRule(0x400,0x4FF, "Times New Roman"));
 
-     // 或 
-     // 初始化新的规则实例 collection
+    // 或者 
+    // 初始化规则集合的新实例
     IFontFallBackRulesCollection rulesList = new FontFallBackRulesCollection();
 
-    // 将规则添加到 collection
+    // 添加规则到集合
     rulesList.Add(new FontFallBackRule(0x400,0x4FF, "Times New Roman"));
 
-     // 并用 FontsManager 
-
+    // 并用 FontsManager 中的新集合替换现有集合 
     pres.FontsManager.FontFallBackRulesCollection = rulesList;
 }
 ```

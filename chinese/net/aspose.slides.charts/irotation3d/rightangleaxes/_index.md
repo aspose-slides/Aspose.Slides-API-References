@@ -1,14 +1,14 @@
 ---
 title: RightAngleAxes
 second_title: Aspose.Slides for .NET API 参考
-description: 确定图表轴是否成直角而不是透视绘制 换句话说它确定轴的图表角度是否独立于图表 旋转或仰角 读/写Boolean
+description: 确定图表轴是否成直角而不是透视绘制 换句话说它确定轴的图表角度是否独立于图表 旋转或仰角 读/写Boolean.
 type: docs
 weight: 40
 url: /zh/net/aspose.slides.charts/irotation3d/rightangleaxes/
 ---
 ## IRotation3D.RightAngleAxes property
 
-确定图表轴是否成直角，而不是透视绘制。 换句话说，它确定轴的图表角度是否独立于图表 旋转或仰角。 读/写Boolean。
+确定图表轴是否成直角，而不是透视绘制。 换句话说，它确定轴的图表角度是否独立于图表 旋转或仰角。 读/写Boolean.
 
 ```csharp
 public bool RightAngleAxes { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: SystemColor
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置系统颜色表标识的颜色 读/写SystemColoraspose.slides/systemcolor
+description: 返回或设置系统颜色表标识的颜色 读/写SystemColoraspose.slides/systemcolor.
 type: docs
 weight: 160
 url: /zh/net/aspose.slides/icolorformat/systemcolor/
 ---
 ## IColorFormat.SystemColor property
 
-返回或设置系统颜色表标识的颜色。 读/写[`SystemColor`](../../systemcolor)。
+返回或设置系统颜色表标识的颜色。 读/写[`SystemColor`](../../systemcolor).
 
 ```csharp
 public SystemColor SystemColor { get; set; }

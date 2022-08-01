@@ -19,10 +19,10 @@ public enum MathRowSpacingRule
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | SingleLineGap | `0` | 单行间隙 |
-| OneAndAHalfLineGap | `1` | 一个半行间距 |
-| TwoLineGap | `2` | 两行间隔 |
-| Exactly | `3` | 完全正确（依赖于 RowSpacing 属性的值，以点为单位） |
-| Multiple | `4` | Multiple（依赖于 RowSpacing 属性的值，以行为单位） |
+| OneAndAHalfLineGap | `1` | 一个半线间隙 |
+| TwoLineGap | `2` | 两行间隙 |
+| Exactly | `3` | 完全正确（取决于 RowSpacing 属性的值，以磅为单位） |
+| Multiple | `4` | 倍数（取决于 RowSpacing 属性的值，以行为单位） |
 
 ### 也可以看看
 

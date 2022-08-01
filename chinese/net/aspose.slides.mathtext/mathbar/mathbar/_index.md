@@ -16,11 +16,11 @@ public MathBar(IMathElement element)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| element | IMathElement | 基础应用条的元素 |
+| element | IMathElement | 应用栏的基本元素 |
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]
@@ -38,7 +38,7 @@ MathBar mathBar = new MathBar(new MathematicalText("x"));
 
 ## MathBar(IMathElement, MathTopBotPositions) {#constructor_1}
 
-用指定位置初始化 MathBar
+用指定的位置初始化 MathBar
 
 ```csharp
 public MathBar(IMathElement element, MathTopBotPositions position)
@@ -46,12 +46,12 @@ public MathBar(IMathElement element, MathTopBotPositions position)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| element | IMathElement | 基本元素应用柱 |
-| position | MathTopBotPositions | 柱线的位置。 |
+| element | IMathElement | 应用栏的基本元素 |
+| position | MathTopBotPositions | 条线的位置。 |
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]

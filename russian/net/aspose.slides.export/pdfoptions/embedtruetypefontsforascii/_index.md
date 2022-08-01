@@ -1,14 +1,14 @@
 ---
 title: EmbedTrueTypeFontsForASCII
 second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет будет ли Aspose.Slides встраивать общие шрифты для текста ASCII кодовый диапазон 33..127. Шрифты для кодов символов больше 127 всегда встраиваются. Список общих шрифтов включает в себя базовые 14 шрифтов PDF и дополнительные шрифты указанные пользователем. Чтение/записьBoolean.
+description: Определяет будет ли Aspose.Slides встраивать общие шрифты для текста ASCII диапазон кодов 33..127. Шрифты для кодов символов больше 127 всегда встраиваются. Читай пишиBoolean .
 type: docs
 weight: 90
 url: /ru/net/aspose.slides.export/pdfoptions/embedtruetypefontsforascii/
 ---
 ## PdfOptions.EmbedTrueTypeFontsForASCII property
 
-Определяет, будет ли Aspose.Slides встраивать общие шрифты для текста ASCII (кодовый диапазон 33..127). Шрифты для кодов символов больше 127 всегда встраиваются. Список общих шрифтов включает в себя базовые 14 шрифтов PDF и дополнительные шрифты, указанные пользователем. Чтение/записьBoolean.
+Определяет, будет ли Aspose.Slides встраивать общие шрифты для текста ASCII (диапазон кодов 33..127). Шрифты для кодов символов больше 127 всегда встраиваются. Читай пишиBoolean .
 
 ```csharp
 public bool EmbedTrueTypeFontsForASCII { get; set; }
@@ -16,7 +16,7 @@ public bool EmbedTrueTypeFontsForASCII { get; set; }
 
 ### Примечания
 
-По умолчанию: **true** .
+По умолчанию **истинный** .
 
 ### Смотрите также
 

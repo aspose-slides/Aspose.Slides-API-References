@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет равен ли указанныйSoftEdgeaspose.slides.effects/softedgeтекущемуSoftEdge.
+description: Определяет является ли указанныйSoftEdgeaspose.slides.effects/softedge равен текущемуSoftEdgeaspose.slides.effects/softedge .
 type: docs
 weight: 20
 url: /ru/net/aspose.slides.effects/softedge/equals/
 ---
 ## SoftEdge.Equals method
 
-Определяет, равен ли указанный[`SoftEdge`](../../softedge)текущемуSoftEdge.
+Определяет, является ли указанный[`SoftEdge`](../../softedge) равен текущему[`SoftEdge`](../../softedge) .
 
 ```csharp
 public override bool Equals(object obj)
@@ -16,7 +16,7 @@ public override bool Equals(object obj)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| obj | Object | [`SoftEdge`](../../softedge)для сравнения. |
+| obj | Object | [`SoftEdge`](../../softedge) сравнивать. |
 
 ### Возвращаемое значение
 

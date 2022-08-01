@@ -1,14 +1,14 @@
 ---
 title: MinorGridLinesFormat
 second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет второстепенный формат линий сетки на оси диаграммы. Только для чтенияIChartLinesFormataspose.slides.charts/ichartlinesformat.
+description: Представляет второстепенный формат линий сетки на оси диаграммы. Только для чтенияIChartLinesFormataspose.slides.charts/ichartlinesformat .
 type: docs
 weight: 390
 url: /ru/net/aspose.slides.charts/iaxis/minorgridlinesformat/
 ---
 ## IAxis.MinorGridLinesFormat property
 
-Представляет второстепенный формат линий сетки на оси диаграммы. Только для чтения[`IChartLinesFormat`](../../ichartlinesformat).
+Представляет второстепенный формат линий сетки на оси диаграммы. Только для чтения[`IChartLinesFormat`](../../ichartlinesformat) .
 
 ```csharp
 public IChartLinesFormat MinorGridLinesFormat { get; }

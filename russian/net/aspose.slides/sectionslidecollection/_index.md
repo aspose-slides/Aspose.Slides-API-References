@@ -18,17 +18,17 @@ public sealed class SectionSlideCollection : DomObject<Section>, ISectionSlideCo
 
 | Имя | Описание |
 | --- | --- |
-| [Count](../../aspose.slides/sectionslidecollection/count) { get; } | Получает количество элементов, фактически содержащихся в коллекции. Только для чтенияInt32. |
-| [IsSynchronized](../../aspose.slides/sectionslidecollection/issynchronized) { get; } | Возвращает значение, указывающее, является ли доступ к коллекции синхронизированным (потокобезопасным). Только чтениеBoolean. |
-| [Item](../../aspose.slides/sectionslidecollection/item) { get; } | Получает элемент по указанному индексу. Только для чтения[`ISlide`](../islide). |
-| [SyncRoot](../../aspose.slides/sectionslidecollection/syncroot) { get; } | Возвращает корень синхронизации. Только для чтенияObject. |
+| [Count](../../aspose.slides/sectionslidecollection/count) { get; } | Получает количество элементов, фактически содержащихся в коллекции. Только для чтенияInt32 . |
+| [IsSynchronized](../../aspose.slides/sectionslidecollection/issynchronized) { get; } | Возвращает значение, указывающее, является ли доступ к коллекции синхронизированным (потокобезопасным). Только для чтенияBoolean . |
+| [Item](../../aspose.slides/sectionslidecollection/item) { get; } | Получает элемент по указанному индексу. Только для чтения[`ISlide`](../islide) . |
+| [SyncRoot](../../aspose.slides/sectionslidecollection/syncroot) { get; } | Возвращает корень синхронизации. Только для чтенияObject . |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
 | [CopyTo](../../aspose.slides/sectionslidecollection/copyto)(Array, int) | Копирует всю коллекцию в указанный массив. |
-| [GetEnumerator](../../aspose.slides/sectionslidecollection/getenumerator)() | Возвращает перечислитель, который перебирает коллекцию. |
+| [GetEnumerator](../../aspose.slides/sectionslidecollection/getenumerator)() | Возвращает перечислитель, который выполняет итерацию по коллекции. |
 
 ### Смотрите также
 

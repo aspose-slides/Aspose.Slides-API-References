@@ -22,7 +22,7 @@ public IChartSeries this[int index] { get; }
 
 | исключение | условие |
 | --- | --- |
-| ArgumentOutOfRangeException | *index*не является допустимым индексом вIList. |
+| ArgumentOutOfRangeException | *index* не является допустимым индексом вIList . |
 
 ### Смотрите также
 

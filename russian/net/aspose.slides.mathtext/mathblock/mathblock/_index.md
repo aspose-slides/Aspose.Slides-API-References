@@ -41,7 +41,7 @@ public MathBlock(IMathElement mathElement)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| mathElement | IMathElement | Математический элемент для помещения в блок |
+| mathElement | IMathElement | Математический элемент для размещения в блоке |
 
 ### Примеры
 

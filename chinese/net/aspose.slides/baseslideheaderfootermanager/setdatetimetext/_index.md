@@ -1,14 +1,14 @@
 ---
 title: SetDateTimeText
 second_title: Aspose.Slides for .NET API 参考
-description: 将文本设置为幻灯片日期时间占位符
+description: 将文本设置为滑动日期时间占位符
 type: docs
 weight: 40
 url: /zh/net/aspose.slides/baseslideheaderfootermanager/setdatetimetext/
 ---
 ## BaseSlideHeaderFooterManager.SetDateTimeText method
 
-将文本设置为幻灯片日期时间占位符。
+将文本设置为滑动日期时间占位符。
 
 ```csharp
 public void SetDateTimeText(string text)

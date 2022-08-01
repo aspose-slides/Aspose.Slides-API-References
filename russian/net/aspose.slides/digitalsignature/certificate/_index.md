@@ -1,14 +1,14 @@
 ---
 title: Certificate
 second_title: Справочник по API Aspose.Slides для .NET
-description: Объект сертификата который использовался для подписи документа. Только для чтенияX509Certificate2.
+description: Объект сертификата который использовался для подписи документа. Только для чтенияX509Certificate2 .
 type: docs
 weight: 20
 url: /ru/net/aspose.slides/digitalsignature/certificate/
 ---
 ## DigitalSignature.Certificate property
 
-Объект сертификата, который использовался для подписи документа. Только для чтенияX509Certificate2.
+Объект сертификата, который использовался для подписи документа. Только для чтенияX509Certificate2 .
 
 ```csharp
 public X509Certificate2 Certificate { get; }

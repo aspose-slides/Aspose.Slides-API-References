@@ -1,14 +1,14 @@
 ---
 title: TextVerticalType
 second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет ориентацию текста. Результирующее значение поворота визуального текста суммированное из этого свойства и пользовательского угла в свойстве RotationAngle. Чтение/записьTextVerticalTypeaspose.slides/textverticaltype.
+description: Определяет ориентацию текста. Результирующее значение поворота визуального текста суммированное из этого свойства и пользовательского угла в свойстве RotationAngle. Чтение/записьTextVerticalTypeaspose.slides/textverticaltype .
 type: docs
 weight: 130
 url: /ru/net/aspose.slides/itextframeformat/textverticaltype/
 ---
 ## ITextFrameFormat.TextVerticalType property
 
-Определяет ориентацию текста. Результирующее значение поворота визуального текста, суммированное из этого свойства и пользовательского угла в свойстве RotationAngle. Чтение/запись[`TextVerticalType`](../../textverticaltype).
+Определяет ориентацию текста. Результирующее значение поворота визуального текста, суммированное из этого свойства и пользовательского угла в свойстве RotationAngle. Чтение/запись[`TextVerticalType`](../../textverticaltype) .
 
 ```csharp
 public TextVerticalType TextVerticalType { get; set; }

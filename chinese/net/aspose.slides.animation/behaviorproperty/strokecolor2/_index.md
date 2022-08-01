@@ -1,14 +1,14 @@
 ---
 title: StrokeColor2
 second_title: Aspose.Slides for .NET API 参考
-description: 表示 stroke.color2 属性
+description: 表示stroke.color2 属性
 type: docs
 weight: 890
 url: /zh/net/aspose.slides.animation/behaviorproperty/strokecolor2/
 ---
 ## BehaviorProperty.StrokeColor2 property
 
-表示 'stroke.color2' 属性
+表示'stroke.color2' 属性
 
 ```csharp
 public static BehaviorProperty StrokeColor2 { get; }

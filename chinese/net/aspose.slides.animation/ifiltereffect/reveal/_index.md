@@ -1,14 +1,14 @@
 ---
 title: Reveal
 second_title: Aspose.Slides for .NET API 参考
-description: 表示具有行为的效果必须显示输入/输出 读/写AnimationFilterEffectRevealType
+description: 表示具有行为的效果必须显示输入/输出 读/写FilterEffectRevealTypeaspose.slides.animation/filtereffectrevealtype.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides.animation/ifiltereffect/reveal/
 ---
 ## IFilterEffect.Reveal property
 
-表示具有行为的效果必须显示（输入/输出） 读/写Animation。FilterEffectRevealType。
+表示具有行为的效果必须显示（输入/输出） 读/写[`FilterEffectRevealType`](../../filtereffectrevealtype).
 
 ```csharp
 public FilterEffectRevealType Reveal { get; set; }

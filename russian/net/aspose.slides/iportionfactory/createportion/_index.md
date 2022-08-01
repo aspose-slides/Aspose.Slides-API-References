@@ -37,7 +37,7 @@ public IPortion CreatePortion(string str)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| str | String | Строка. |
+| str | String | Нить. |
 
 ### Возвращаемое значение
 
@@ -54,7 +54,7 @@ public IPortion CreatePortion(string str)
 
 ## CreatePortion(IPortion) {#createportion_1}
 
-Создает порцию с использованием данных указанной порции.
+Создает часть с использованием данных указанной части.
 
 ```csharp
 public IPortion CreatePortion(IPortion portion)
@@ -62,7 +62,7 @@ public IPortion CreatePortion(IPortion portion)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| partion | IPortion | Используемая часть. |
+| portion | IPortion | Часть для использования. |
 
 ### Возвращаемое значение
 

@@ -1,14 +1,14 @@
 ---
 title: WriteSlideEnd
 second_title: Aspose.Slides for .NET API 参考
-description: 调用以编写 html 幻灯片页脚每张幻灯片调用一次
+description: 调用编写 html 幻灯片页脚每张幻灯片调用一次
 type: docs
 weight: 80
 url: /zh/net/aspose.slides.export/embedallfontshtmlcontroller/writeslideend/
 ---
 ## EmbedAllFontsHtmlController.WriteSlideEnd method
 
-调用以编写 html 幻灯片页脚。每张幻灯片调用一次。
+调用编写 html 幻灯片页脚。每张幻灯片调用一次。
 
 ```csharp
 public virtual void WriteSlideEnd(IHtmlGenerator generator, ISlide slide)

@@ -1,14 +1,14 @@
 ---
 title: Height
 second_title: Aspose.Slides for .NET API 参考
-description: 斜角高度 只读Double
+description: 斜角高度 只读Double.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides/ishapebeveleffectivedata/height/
 ---
 ## IShapeBevelEffectiveData.Height property
 
-斜角高度。 只读Double。
+斜角高度。 只读Double.
 
 ```csharp
 public double Height { get; }

@@ -1,14 +1,14 @@
 ---
 title: MinimalHeight
 second_title: Aspose.Slides for .NET API 参考
-description: 返回单元格的最小高度 这是单元格缩进的所有行的最小高度的总和 只读Double
+description: 返回单元格的最小高度 这是由单元格缩回的所有行的最小高度的总和 只读Double.
 type: docs
 weight: 140
 url: /zh/net/aspose.slides/cell/minimalheight/
 ---
 ## Cell.MinimalHeight property
 
-返回单元格的最小高度。 这是单元格缩进的所有行的最小高度的总和。 只读Double。
+返回单元格的最小高度。 这是由单元格缩回的所有行的最小高度的总和。 只读Double.
 
 ```csharp
 public double MinimalHeight { get; }

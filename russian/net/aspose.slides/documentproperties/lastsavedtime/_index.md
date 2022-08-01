@@ -1,14 +1,14 @@
 ---
 title: LastSavedTime
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает дату последнего изменения презентации. Только для чтения в случае Presentation.DocumentProperties поскольку он будет обновляться внутри во время процесса сохранения объекта IPresentation. Можно изменить с помощью экземпляра DocumentProperties возвращаемого методомReadDocumentPropertiesaspose.slides/ipresentationinfo/readdocumentproperties См. пример вUpdateDocumentPropertiesaspose.slides/ipresentationinfo/updatedocumentpropertiesсводка методов.
+description: Возвращает дату когда презентация была изменена в последний раз. Только для чтения в случае Presentation.DocumentProperties поскольку он будет обновляться внутри во время процесса сохранения объекта IPresentation. Можно изменить с помощью экземпляра DocumentProperties возвращаемого методомReadDocumentPropertiesaspose.slides/ipresentationinfo/readdocumentproperties См. пример вUpdateDocumentPropertiesaspose.slides/ipresentationinfo/updatedocumentpropertiesсводка метода.
 type: docs
 weight: 170
 url: /ru/net/aspose.slides/documentproperties/lastsavedtime/
 ---
 ## DocumentProperties.LastSavedTime property
 
-Возвращает дату последнего изменения презентации. Только для чтения в случае Presentation.DocumentProperties (поскольку он будет обновляться внутри во время процесса сохранения объекта IPresentation). Можно изменить с помощью экземпляра DocumentProperties, возвращаемого методом[`ReadDocumentProperties`](../../ipresentationinfo/readdocumentproperties) См. пример в[`UpdateDocumentProperties`](../../ipresentationinfo/updatedocumentproperties)сводка методов.
+Возвращает дату, когда презентация была изменена в последний раз. Только для чтения в случае Presentation.DocumentProperties (поскольку он будет обновляться внутри во время процесса сохранения объекта IPresentation). Можно изменить с помощью экземпляра DocumentProperties, возвращаемого методом[`ReadDocumentProperties`](../../ipresentationinfo/readdocumentproperties) См. пример в[`UpdateDocumentProperties`](../../ipresentationinfo/updatedocumentproperties)сводка метода.
 
 ```csharp
 public DateTime LastSavedTime { get; set; }

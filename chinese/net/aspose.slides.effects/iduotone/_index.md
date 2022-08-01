@@ -18,10 +18,10 @@ public interface IDuotone : IAccessiblePVIObject<IDuotoneEffectiveData>, IImageT
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/iduotone/asiaccessiblepviobject) { get; } | 允许获取基本 IAccessiblePVIObject 接口。 只读[`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1)。 |
-| [AsIImageTransformOperation](../../aspose.slides.effects/iduotone/asiimagetransformoperation) { get; } | 允许获取基础 IImageTransformOperation 接口。 只读[`IImageTransformOperation`](../iimagetransformoperation)。 |
-| [Color1](../../aspose.slides.effects/iduotone/color1) { get; } | 返回暗像素的目标颜色格式。 只读[`IColorFormat`](../../aspose.slides/icolorformat)。 |
-| [Color2](../../aspose.slides.effects/iduotone/color2) { get; } | 返回光像素的目标颜色格式。 只读[`IColorFormat`](../../aspose.slides/icolorformat)。 |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/iduotone/asiaccessiblepviobject) { get; } | 允许获取基本 IAccessiblePVIObject 接口。 只读[`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/iduotone/asiimagetransformoperation) { get; } | 允许获取基本 IImageTransformOperation 接口。 只读[`IImageTransformOperation`](../iimagetransformoperation). |
+| [Color1](../../aspose.slides.effects/iduotone/color1) { get; } | 返回暗像素的目标颜色格式。 只读[`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Color2](../../aspose.slides.effects/iduotone/color2) { get; } | 返回浅色像素的目标颜色格式。 只读[`IColorFormat`](../../aspose.slides/icolorformat). |
 
 ### 也可以看看
 

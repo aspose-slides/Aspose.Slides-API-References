@@ -18,10 +18,10 @@ public interface IPresentationInfo
 
 | Имя | Описание |
 | --- | --- |
-| [IsEncrypted](../../aspose.slides/ipresentationinfo/isencrypted) { get; } | Получает значение True, если связанная презентация зашифрована, в противном случае — значение False. Только чтениеBoolean. |
+| [IsEncrypted](../../aspose.slides/ipresentationinfo/isencrypted) { get; } | Получает значение True, если связанная презентация зашифрована, в противном случае — значение False. Только для чтенияBoolean . |
 | [IsPasswordProtected](../../aspose.slides/ipresentationinfo/ispasswordprotected) { get; } | Получает значение, указывающее, защищена ли связанная презентация паролем для открытия. |
 | [IsWriteProtected](../../aspose.slides/ipresentationinfo/iswriteprotected) { get; } | Получает значение, указывающее, защищена ли связанная презентация от записи. |
-| [LoadFormat](../../aspose.slides/ipresentationinfo/loadformat) { get; } | Получает формат привязанной презентации. Только для чтения[`LoadFormat`](../loadformat). |
+| [LoadFormat](../../aspose.slides/ipresentationinfo/loadformat) { get; } | Получает формат привязанной презентации. Только для чтения[`LoadFormat`](../loadformat) . |
 
 ## Методы
 

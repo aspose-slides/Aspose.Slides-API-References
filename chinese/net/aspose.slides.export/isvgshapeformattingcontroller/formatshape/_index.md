@@ -1,14 +1,14 @@
 ---
 title: FormatShape
 second_title: Aspose.Slides for .NET API 参考
-description: 在将形状渲染到 SVG 之前调用此函数以允许用户控制生成的 SVG
+description: 在将形状渲染为 SVG 之前调用此函数以允许用户控制生成的 SVG
 type: docs
 weight: 10
 url: /zh/net/aspose.slides.export/isvgshapeformattingcontroller/formatshape/
 ---
 ## ISvgShapeFormattingController.FormatShape method
 
-在将形状渲染到 SVG 之前调用此函数，以允许用户控制生成的 SVG。
+在将形状渲染为 SVG 之前调用此函数，以允许用户控制生成的 SVG。
 
 ```csharp
 public void FormatShape(ISvgShape svgShape, IShape shape)

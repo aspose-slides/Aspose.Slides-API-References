@@ -19,10 +19,10 @@ public interface IFillOverlay : IAccessiblePVIObject<IFillOverlayEffectiveData>,
 
 | Имя | Описание |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ifilloverlay/asiaccessiblepviobject) { get; } | Позволяет получить базовый интерфейс IAccessiblePVIObject. Только чтение[`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ifilloverlay/asiimagetransformoperation) { get; } | Позволяет получить базовый интерфейс IImageTransformOperation. Только для чтения[`IImageTransformOperation`](../iimagetransformoperation). |
-| [Blend](../../aspose.slides.effects/ifilloverlay/blend) { get; set; } | FillBlendMode. Чтение/запись[`FillBlendMode`](../../aspose.slides/fillblendmode). |
-| [FillFormat](../../aspose.slides.effects/ifilloverlay/fillformat) { get; } | Формат заполнения. Только для чтения[`IFillFormat`](../../aspose.slides/ifillformat). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ifilloverlay/asiaccessiblepviobject) { get; } | Позволяет получить базовый интерфейс IAccessiblePVIObject. Только для чтения[`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1) . |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ifilloverlay/asiimagetransformoperation) { get; } | Позволяет получить базовый интерфейс IImageTransformOperation. Только для чтения[`IImageTransformOperation`](../iimagetransformoperation) . |
+| [Blend](../../aspose.slides.effects/ifilloverlay/blend) { get; set; } | FillBlendMode. Чтение/запись[`FillBlendMode`](../../aspose.slides/fillblendmode) . |
+| [FillFormat](../../aspose.slides.effects/ifilloverlay/fillformat) { get; } | Формат заполнения. Только для чтения[`IFillFormat`](../../aspose.slides/ifillformat) . |
 
 ### Смотрите также
 

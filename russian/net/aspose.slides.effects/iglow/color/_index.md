@@ -1,14 +1,14 @@
 ---
 title: Color
 second_title: Справочник по API Aspose.Slides для .NET
-description: Формат цвета. Только для чтенияIColorFormataspose.slides/icolorformat.
+description: Цветовой формат. Только для чтенияIColorFormataspose.slides/icolorformat .
 type: docs
 weight: 30
 url: /ru/net/aspose.slides.effects/iglow/color/
 ---
 ## IGlow.Color property
 
-Формат цвета. Только для чтения[`IColorFormat`](../../../aspose.slides/icolorformat).
+Цветовой формат. Только для чтения[`IColorFormat`](../../../aspose.slides/icolorformat) .
 
 ```csharp
 public IColorFormat Color { get; }

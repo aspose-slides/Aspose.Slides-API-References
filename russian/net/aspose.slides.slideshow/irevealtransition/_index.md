@@ -18,9 +18,9 @@ public interface IRevealTransition : ITransitionValueBase
 
 | Имя | Описание |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/irevealtransition/asitransitionvaluebase) { get; } | Позволяет получить базовый интерфейс ITransitionValueBase. Только для чтения[`ITransitionValueBase`](../itransitionvaluebase). |
-| [Direction](../../aspose.slides.slideshow/irevealtransition/direction) { get; set; } | Направление перехода. Чтение/запись[`TransitionLeftRightDirectionType`](../transitionleftrightdirectiontype). |
-| [ThroughBlack](../../aspose.slides.slideshow/irevealtransition/throughblack) { get; set; } | Указывает, исчезает ли переход через черный цвет. Чтение/записьBoolean. |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/irevealtransition/asitransitionvaluebase) { get; } | Позволяет получить базовый интерфейс ITransitionValueBase. Только для чтения[`ITransitionValueBase`](../itransitionvaluebase) . |
+| [Direction](../../aspose.slides.slideshow/irevealtransition/direction) { get; set; } | Направление перехода. Чтение/запись[`TransitionLeftRightDirectionType`](../transitionleftrightdirectiontype) . |
+| [ThroughBlack](../../aspose.slides.slideshow/irevealtransition/throughblack) { get; set; } | Определяет, исчезает ли переход через черный цвет. Чтение/записьBoolean . |
 
 ### Смотрите также
 

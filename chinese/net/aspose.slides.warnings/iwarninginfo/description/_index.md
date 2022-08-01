@@ -1,14 +1,14 @@
 ---
 title: Description
 second_title: Aspose.Slides for .NET API 参考
-description: 返回此警告的人类可读描述 只读String
+description: 返回此警告的人类可读描述 只读String.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides.warnings/iwarninginfo/description/
 ---
 ## IWarningInfo.Description property
 
-返回此警告的人类可读描述。 只读String。
+返回此警告的人类可读描述。 只读String.
 
 ```csharp
 public string Description { get; }

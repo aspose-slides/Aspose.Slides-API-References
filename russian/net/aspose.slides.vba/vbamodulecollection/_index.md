@@ -18,18 +18,18 @@ public sealed class VbaModuleCollection : IVbaModuleCollection
 
 | Имя | Описание |
 | --- | --- |
-| [Count](../../aspose.slides.vba/vbamodulecollection/count) { get; } | Получает количество элементов, фактически содержащихся в коллекции. Только для чтенияInt32. |
-| [IsSynchronized](../../aspose.slides.vba/vbamodulecollection/issynchronized) { get; } | Возвращает значение, указывающее, является ли доступ к коллекции синхронизированным (потокобезопасным). Только чтениеBoolean. |
+| [Count](../../aspose.slides.vba/vbamodulecollection/count) { get; } | Получает количество элементов, фактически содержащихся в коллекции. Только для чтенияInt32 . |
+| [IsSynchronized](../../aspose.slides.vba/vbamodulecollection/issynchronized) { get; } | Возвращает значение, указывающее, является ли доступ к коллекции синхронизированным (потокобезопасным). Только для чтенияBoolean . |
 | [Item](../../aspose.slides.vba/vbamodulecollection/item) { get; } | Получает элемент по указанному индексу. |
-| [SyncRoot](../../aspose.slides.vba/vbamodulecollection/syncroot) { get; } | Возвращает корень синхронизации. Только для чтенияObject. |
+| [SyncRoot](../../aspose.slides.vba/vbamodulecollection/syncroot) { get; } | Возвращает корень синхронизации. Только для чтенияObject . |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
 | [AddEmptyModule](../../aspose.slides.vba/vbamodulecollection/addemptymodule)(string) | Добавляет новый пустой модуль в проект VBA. |
-| [CopyTo](../../aspose.slides.vba/vbamodulecollection/copyto)(Array, int) | Копирует все элементы из коллекции в указанный массив. |
-| [GetEnumerator](../../aspose.slides.vba/vbamodulecollection/getenumerator)() | Возвращает перечислитель, который перебирает коллекцию. |
+| [CopyTo](../../aspose.slides.vba/vbamodulecollection/copyto)(Array, int) | Копирует все элементы коллекции в указанный массив. |
+| [GetEnumerator](../../aspose.slides.vba/vbamodulecollection/getenumerator)() | Возвращает перечислитель, который выполняет итерацию по коллекции. |
 | [Remove](../../aspose.slides.vba/vbamodulecollection/remove)(IVbaModule) | Удаляет первое вхождение определенного объекта из коллекции. |
 
 ### Смотрите также

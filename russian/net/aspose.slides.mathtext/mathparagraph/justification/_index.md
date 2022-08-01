@@ -1,14 +1,14 @@
 ---
 title: Justification
 second_title: Справочник по API Aspose.Slides для .NET
-description: Обоснование абзаца Значение по умолчаниюCenteredAsGroup
+description: Обоснование абзаца Значение по умолчанию CenteredAsGroup
 type: docs
 weight: 40
 url: /ru/net/aspose.slides.mathtext/mathparagraph/justification/
 ---
 ## MathParagraph.Justification property
 
-Обоснование абзаца Значение по умолчанию:CenteredAsGroup
+Обоснование абзаца Значение по умолчанию: CenteredAsGroup
 
 ```csharp
 public MathJustification Justification { get; set; }

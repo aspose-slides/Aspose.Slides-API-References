@@ -1,14 +1,14 @@
 ---
 title: IFonts
 second_title: Aspose.Slides for .NET API 参考
-description: 表示字体集合
+description: 代表字体集合
 type: docs
 weight: 5370
 url: /zh/net/aspose.slides/ifonts/
 ---
 ## IFonts interface
 
-表示字体集合。
+代表字体集合。
 
 ```csharp
 public interface IFonts
@@ -18,9 +18,9 @@ public interface IFonts
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ComplexScriptFont](../../aspose.slides/ifonts/complexscriptfont) { get; set; } | 返回或设置复杂的脚本字体。 读/写[`IFontData`](../ifontdata)。 |
-| [EastAsianFont](../../aspose.slides/ifonts/eastasianfont) { get; set; } | 返回或设置东亚字体。 读/写[`IFontData`](../ifontdata)。 |
-| [LatinFont](../../aspose.slides/ifonts/latinfont) { get; set; } | 返回或设置拉丁字体。 读/写[`IFontData`](../ifontdata)。 |
+| [ComplexScriptFont](../../aspose.slides/ifonts/complexscriptfont) { get; set; } | 返回或设置复杂的脚本字体。 读/写[`IFontData`](../ifontdata). |
+| [EastAsianFont](../../aspose.slides/ifonts/eastasianfont) { get; set; } | 返回或设置东亚字体。 读/写[`IFontData`](../ifontdata). |
+| [LatinFont](../../aspose.slides/ifonts/latinfont) { get; set; } | 返回或设置拉丁字体。 读/写[`IFontData`](../ifontdata). |
 
 ### 也可以看看
 

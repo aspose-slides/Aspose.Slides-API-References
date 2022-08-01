@@ -18,11 +18,11 @@ public interface IChartCategory
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsCell](../../aspose.slides.charts/ichartcategory/ascell) { get; set; } | 返回或设置 IChartDataCell 对象。 如果类别是多级的，则使用 IChartDataCell 对象作为级别“0”。 读/写[`IChartDataCell`](../ichartdatacell)。 |
-| [AsLiteral](../../aspose.slides.charts/ichartcategory/asliteral) { get; set; } | 如果 UseCell 为假，则返回或设置 AsLiteral。 读/写Object。 |
-| [GroupingLevels](../../aspose.slides.charts/ichartcategory/groupinglevels) { get; } | 图表类别分组级别值的托管容器。 多级类别包含多个分组级别。 分组级别索引是从零开始的。 只读[`IChartCategoryLevelsManager`](../ichartcategorylevelsmanager)。 |
-| [UseCell](../../aspose.slides.charts/ichartcategory/usecell) { get; } | 如果为真，则 AsCell 属性是实际的。换句话说，工作表用于 存储类别（本例支持多级类别）。 如果为假，则 AsLiteral 属性是实际的。换句话说，工作表不使用 来存储类别（并且这种情况下不支持多级类别）。 只读Boolean。 |
-| [Value](../../aspose.slides.charts/ichartcategory/value) { get; set; } | 如果 UseCell 为真，则此属性表示 AsCell.Value 属性。 如果 UseCell 为 false，则此属性表示 AsLiteral 属性。 读/写Object。 |
+| [AsCell](../../aspose.slides.charts/ichartcategory/ascell) { get; set; } | 返回或设置 IChartDataCell 对象。 如果类别是多级的，则将 IChartDataCell 对象用于级别“0”。 读/写[`IChartDataCell`](../ichartdatacell). |
+| [AsLiteral](../../aspose.slides.charts/ichartcategory/asliteral) { get; set; } | 如果 UseCell 为假，则返回或设置 AsLiteral。 读/写Object. |
+| [GroupingLevels](../../aspose.slides.charts/ichartcategory/groupinglevels) { get; } | 图表类别分组级别值的托管容器。 多级类别包含多个分组级别。 分组级别索引从零开始。 只读[`IChartCategoryLevelsManager`](../ichartcategorylevelsmanager). |
+| [UseCell](../../aspose.slides.charts/ichartcategory/usecell) { get; } | 如果为真，则 AsCell 属性是实际的。换句话说，工作表用于 存储类别（这种情况下支持多级类别）。 如果为false，则AsLiteral 属性是实际的。换句话说，工作表不使用 来存储类别（并且这种情况不支持多级类别）。 只读Boolean. |
+| [Value](../../aspose.slides.charts/ichartcategory/value) { get; set; } | 如果 UseCell 为真，则此属性表示 AsCell.Value 属性。 如果 UseCell 为假，则此属性表示 AsLiteral 属性。 读/写Object. |
 
 ## 方法
 

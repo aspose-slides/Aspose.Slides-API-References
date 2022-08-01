@@ -18,7 +18,7 @@ public interface ISvgTSpan
 
 | Имя | Описание |
 | --- | --- |
-| [Id](../../aspose.slides.export/isvgtspan/id) { get; set; } | Получает или устанавливает идентификатор элемента "tspan" |
+| [Id](../../aspose.slides.export/isvgtspan/id) { get; set; } | Получает или задает идентификатор элемента "tspan" element |
 
 ### Смотрите также
 

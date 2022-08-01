@@ -1,14 +1,14 @@
 ---
 title: GetHyperlinkMouseOvers
 second_title: Aspose.Slides for .NET API 参考
-description: 获取所有包含非空 HyperlinkMouseOver 的 IHyperlinkContainer 子对象 使用给定的 IHyperlinkContainer 对象您可以管理其超链接读取更新或删除请参阅 IHyperlinkContainer 接口
+description: 获取所有包含非空 HyperlinkMouseOver. 的 IHyperlinkContainer 子对象使用给定的 IHyperlinkContainer 对象您可以管理其超链接读取更新或删除请参阅 IHyperlinkContainer 接口
 type: docs
 weight: 30
 url: /zh/net/aspose.slides/ihyperlinkqueries/gethyperlinkmouseovers/
 ---
 ## IHyperlinkQueries.GetHyperlinkMouseOvers method
 
-获取所有包含非空 HyperlinkMouseOver 的 IHyperlinkContainer 子对象。 使用给定的 IHyperlinkContainer 对象，您可以管理其超链接（读取、更新或删除）。请参阅 IHyperlinkContainer 接口。
+获取所有包含非空 HyperlinkMouseOver. 的 IHyperlinkContainer 子对象。使用给定的 IHyperlinkContainer 对象，您可以管理其超链接（读取、更新或删除）。请参阅 IHyperlinkContainer 接口。
 
 ```csharp
 public IList<IHyperlinkContainer> GetHyperlinkMouseOvers()
@@ -16,7 +16,7 @@ public IList<IHyperlinkContainer> GetHyperlinkMouseOvers()
 
 ### 返回值
 
-包含非空 HyperlinkMouseOver
+包含非空 HyperlinkMouseOver 的所有 IHyperlinkContainer 子对象
 
 ### 也可以看看
 

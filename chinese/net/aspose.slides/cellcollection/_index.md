@@ -18,12 +18,12 @@ public abstract class CellCollection : ICellCollection
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Count](../../aspose.slides/cellcollection/count) { get; } | 返回集合中的单元格数。 只读Int32。 |
-| [IsSynchronized](../../aspose.slides/cellcollection/issynchronized) { get; } | 返回一个值，指示对集合的访问是否同步（线程安全）。 只读Boolean。 |
-| [Item](../../aspose.slides/cellcollection/item) { get; } | 按位置返回单元格。 只读[`Cell`](../cell)。 |
-| [Presentation](../../aspose.slides/cellcollection/presentation) { get; } | 返回 CellCollection 的父表示。 只读[`IPresentation`](../ipresentation)。 |
-| [Slide](../../aspose.slides/cellcollection/slide) { get; } | 返回 CellCollection 的父幻灯片。 只读[`IBaseSlide`](../ibaseslide)。 |
-| [SyncRoot](../../aspose.slides/cellcollection/syncroot) { get; } | 返回同步根。 只读Object。 |
+| [Count](../../aspose.slides/cellcollection/count) { get; } | 返回集合中的单元格数。 只读Int32. |
+| [IsSynchronized](../../aspose.slides/cellcollection/issynchronized) { get; } | 返回一个值，指示对集合的访问是否同步（线程安全）。 只读Boolean. |
+| [Item](../../aspose.slides/cellcollection/item) { get; } | 按位置返回单元格。 只读[`Cell`](../cell). |
+| [Presentation](../../aspose.slides/cellcollection/presentation) { get; } | 返回 CellCollection 的父表示。 只读[`IPresentation`](../ipresentation). |
+| [Slide](../../aspose.slides/cellcollection/slide) { get; } | 返回 CellCollection 的父幻灯片。 只读[`IBaseSlide`](../ibaseslide). |
+| [SyncRoot](../../aspose.slides/cellcollection/syncroot) { get; } | 返回同步根。 只读Object. |
 
 ## 方法
 

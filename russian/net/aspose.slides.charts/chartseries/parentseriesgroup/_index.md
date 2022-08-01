@@ -1,14 +1,14 @@
 ---
 title: ParentSeriesGroup
 second_title: Справочник по API Aspose.Slides для .NET
-description: ParentSeriesGroup. Только для чтенияIChartSeriesGroupaspose.slides.charts/ichartseriesgroup.
+description: ParentSeriesGroup. Только для чтенияIChartSeriesGroupaspose.slides.charts/ichartseriesgroup .
 type: docs
 weight: 290
 url: /ru/net/aspose.slides.charts/chartseries/parentseriesgroup/
 ---
 ## ChartSeries.ParentSeriesGroup property
 
-ParentSeriesGroup. Только для чтения[`IChartSeriesGroup`](../../ichartseriesgroup).
+ParentSeriesGroup. Только для чтения[`IChartSeriesGroup`](../../ichartseriesgroup) .
 
 ```csharp
 public IChartSeriesGroup ParentSeriesGroup { get; }

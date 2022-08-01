@@ -1,14 +1,14 @@
 ---
 title: FontScheme
 second_title: Aspose.Slides for .NET API 参考
-description: 返回字体方案 只读IFontSchemeaspose.slides.theme/ifontscheme
+description: 返回字体方案 只读IFontSchemeaspose.slides.theme/ifontscheme.
 type: docs
 weight: 30
 url: /zh/net/aspose.slides.theme/mastertheme/fontscheme/
 ---
 ## MasterTheme.FontScheme property
 
-返回字体方案。 只读[`IFontScheme`](../../ifontscheme)。
+返回字体方案。 只读[`IFontScheme`](../../ifontscheme).
 
 ```csharp
 public override IFontScheme FontScheme { get; }

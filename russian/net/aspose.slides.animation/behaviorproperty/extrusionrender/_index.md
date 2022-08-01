@@ -8,7 +8,7 @@ url: /ru/net/aspose.slides.animation/behaviorproperty/extrusionrender/
 ---
 ## BehaviorProperty.ExtrusionRender property
 
-Представляет свойство 'extrusion.render'
+Представляет свойство extrusion.render
 
 ```csharp
 public static BehaviorProperty ExtrusionRender { get; }

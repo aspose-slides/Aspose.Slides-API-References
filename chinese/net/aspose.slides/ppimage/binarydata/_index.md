@@ -1,14 +1,14 @@
 ---
 title: BinaryData
 second_title: Aspose.Slides for .NET API 参考
-description: 返回图像数据的副本 只读Byte
+description: 返回图像数据的副本 只读Byte.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides/ppimage/binarydata/
 ---
 ## PPImage.BinaryData property
 
-返回图像数据的副本。 只读Byte[]。
+返回图像数据的副本。 只读Byte[].
 
 ```csharp
 public byte[] BinaryData { get; }

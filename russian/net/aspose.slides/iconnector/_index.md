@@ -18,13 +18,13 @@ public interface IConnector : IGeometryShape
 
 | Имя | Описание |
 | --- | --- |
-| [AsIGeometryShape](../../aspose.slides/iconnector/asigeometryshape) { get; } | Позволяет получить базовый интерфейс IGeometryShape. Только для чтения[`IGeometryShape`](../igeometryshape). |
-| [ConnectorLock](../../aspose.slides/iconnector/connectorlock) { get; } | Возвращает блокировки коннектора. Только для чтения[`IConnectorLock`](../iconnectorlock). |
-| [EndShapeConnectedTo](../../aspose.slides/iconnector/endshapeconnectedto) { get; set; } | Возвращает или задает форму для присоединения конца соединителя. Чтение/запись[`IShape`](../ishape). |
-| [EndShapeConnectionSiteIndex](../../aspose.slides/iconnector/endshapeconnectionsiteindex) { get; set; } | Возвращает или задает индекс места соединения для конечной формы. Чтение/записьUInt32. |
-| [ShapeLock](../../aspose.slides/iconnector/shapelock) { get; } | Возвращает блокировки фигуры. Только для чтения[`IConnectorLock`](../iconnectorlock). |
-| [StartShapeConnectedTo](../../aspose.slides/iconnector/startshapeconnectedto) { get; set; } | Возвращает или задает форму для присоединения начала соединителя. Чтение/запись[`IShape`](../ishape). |
-| [StartShapeConnectionSiteIndex](../../aspose.slides/iconnector/startshapeconnectionsiteindex) { get; set; } | Возвращает или задает индекс места соединения для начальной формы. Чтение/записьUInt32. |
+| [AsIGeometryShape](../../aspose.slides/iconnector/asigeometryshape) { get; } | Позволяет получить базовый интерфейс IGeometryShape. Только для чтения[`IGeometryShape`](../igeometryshape) . |
+| [ConnectorLock](../../aspose.slides/iconnector/connectorlock) { get; } | Возвращает блокировки коннектора. Только для чтения[`IConnectorLock`](../iconnectorlock) . |
+| [EndShapeConnectedTo](../../aspose.slides/iconnector/endshapeconnectedto) { get; set; } | Возвращает или задает форму для присоединения конца соединителя к. Чтение/запись[`IShape`](../ishape) . |
+| [EndShapeConnectionSiteIndex](../../aspose.slides/iconnector/endshapeconnectionsiteindex) { get; set; } | Возвращает или задает индекс места соединения для конечной формы. Чтение/записьUInt32 . |
+| [ShapeLock](../../aspose.slides/iconnector/shapelock) { get; } | Возвращает блокировки формы. Только для чтения[`IConnectorLock`](../iconnectorlock) . |
+| [StartShapeConnectedTo](../../aspose.slides/iconnector/startshapeconnectedto) { get; set; } | Возвращает или задает форму для присоединения начала соединителя к. Чтение/запись[`IShape`](../ishape) . |
+| [StartShapeConnectionSiteIndex](../../aspose.slides/iconnector/startshapeconnectionsiteindex) { get; set; } | Возвращает или задает индекс сайта соединения для начальной формы. Чтение/записьUInt32 . |
 
 ## Методы
 

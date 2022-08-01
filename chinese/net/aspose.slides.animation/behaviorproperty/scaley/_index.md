@@ -1,14 +1,14 @@
 ---
 title: ScaleY
 second_title: Aspose.Slides for .NET API 参考
-description: 表示 ScaleY 属性
+description: 表示ScaleY属性
 type: docs
 weight: 590
 url: /zh/net/aspose.slides.animation/behaviorproperty/scaley/
 ---
 ## BehaviorProperty.ScaleY property
 
-表示 'ScaleY' 属性
+表示“ScaleY”属性
 
 ```csharp
 public static BehaviorProperty ScaleY { get; }

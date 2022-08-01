@@ -1,14 +1,14 @@
 ---
 title: IAlphaModulateEffectiveData
 second_title: Справочник по API Aspose.Slides для .NET
-description: Неизменяемый объект представляющий эффект альфа-модуляции. Значения альфа-канала эффекта непрозрачности умножаются на фиксированный процент. Контейнер эффекта определяет эффект содержащий альфа-значения для модуляции.
+description: Неизменяемый объект представляющий эффект альфа-модуляции. Значения альфа-канала непрозрачности эффекта умножаются на фиксированный процент. Контейнер эффекта определяет эффект содержащий альфа-значения для модуляции.
 type: docs
 weight: 2930
 url: /ru/net/aspose.slides.effects/ialphamodulateeffectivedata/
 ---
 ## IAlphaModulateEffectiveData interface
 
-Неизменяемый объект, представляющий эффект альфа-модуляции. Значения альфа-канала эффекта (непрозрачности) умножаются на фиксированный процент. Контейнер эффекта определяет эффект, содержащий альфа-значения для модуляции.
+Неизменяемый объект, представляющий эффект альфа-модуляции. Значения альфа-канала (непрозрачности) эффекта умножаются на фиксированный процент. Контейнер эффекта определяет эффект, содержащий альфа-значения для модуляции.
 
 ```csharp
 public interface IAlphaModulateEffectiveData : IEffectEffectiveData
@@ -18,7 +18,7 @@ public interface IAlphaModulateEffectiveData : IEffectEffectiveData
 
 | Имя | Описание |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphamodulateeffectivedata/asieffecteffectivedata) { get; } | Позволяет получить базовый интерфейс IEffectEffectiveData. Только для чтения[`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphamodulateeffectivedata/asieffecteffectivedata) { get; } | Позволяет получить базовый интерфейс IEffectEffectiveData. Только для чтения[`IEffectEffectiveData`](../ieffecteffectivedata) . |
 
 ### Смотрите также
 

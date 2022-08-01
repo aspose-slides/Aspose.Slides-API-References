@@ -1,14 +1,14 @@
 ---
 title: DateTime4
 second_title: Aspose.Slides for .NET API 参考
-description: 第四种预定义格式的当前日期和时间英语为 DD 月YYYY 只读FieldTypeaspose.slides/fieldtype
+description: 第四种预定义格式的当前日期和时间英语为 DD 月YYYY 只读FieldTypeaspose.slides/fieldtype.
 type: docs
 weight: 100
 url: /zh/net/aspose.slides/fieldtype/datetime4/
 ---
 ## FieldType.DateTime4 property
 
-第四种预定义格式的当前日期和时间（英语为 DD 月、YYYY）。 只读[`FieldType`](../../fieldtype)。
+第四种预定义格式的当前日期和时间（英语为 DD 月，YYYY）。 只读[`FieldType`](../../fieldtype).
 
 ```csharp
 public static FieldType DateTime4 { get; }

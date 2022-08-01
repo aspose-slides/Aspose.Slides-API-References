@@ -16,7 +16,7 @@ public string GetFontName(IThemeEffectiveData theme)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| theme | IThemeEffectiveData | 主题字体名称应取自主题。由调用者提供正确的值。请参见[`CreateThemeEffective`](../../../aspose.slides.theme/ithemeable/createthemeeffective) |
+| theme | IThemeEffectiveData | 应取主题字体名称的主题。由调用者提供正确的值。看[`CreateThemeEffective`](../../../aspose.slides.theme/ithemeable/createthemeeffective) |
 
 ### 返回值
 

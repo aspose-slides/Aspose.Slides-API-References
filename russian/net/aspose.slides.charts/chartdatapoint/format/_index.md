@@ -1,14 +1,14 @@
 ---
 title: Format
 second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет свойства форматирования. Чтение/записьIFormataspose.slides.charts/iformat.
+description: Представляет свойства форматирования. Чтение/записьIFormataspose.slides.charts/iformat .
 type: docs
 weight: 100
 url: /ru/net/aspose.slides.charts/chartdatapoint/format/
 ---
 ## ChartDataPoint.Format property
 
-Представляет свойства форматирования. Чтение/запись[`IFormat`](../../iformat).
+Представляет свойства форматирования. Чтение/запись[`IFormat`](../../iformat) .
 
 ```csharp
 public IFormat Format { get; set; }

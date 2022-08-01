@@ -1,14 +1,14 @@
 ---
 title: Adjustments
 second_title: Aspose.Slides for .NET API 参考
-description: 返回形状调整值的集合 只读IAdjustValueCollectionaspose.slides/iadjustvaluecollection
+description: 返回形状调整值的集合 只读IAdjustValueCollectionaspose.slides/iadjustvaluecollection.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides/geometryshape/adjustments/
 ---
 ## GeometryShape.Adjustments property
 
-返回形状调整值的集合。 只读[`IAdjustValueCollection`](../../iadjustvaluecollection)。
+返回形状调整值的集合。 只读[`IAdjustValueCollection`](../../iadjustvaluecollection).
 
 ```csharp
 public IAdjustValueCollection Adjustments { get; }

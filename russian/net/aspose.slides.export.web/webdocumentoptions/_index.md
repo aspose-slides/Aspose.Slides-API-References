@@ -1,14 +1,14 @@
 ---
 title: WebDocumentOptions
 second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет набор параметров для сохраненияWebDocument./webdocument.
+description: Представляет набор опций дляWebDocument./webdocument сохранение.
 type: docs
 weight: 4260
 url: /ru/net/aspose.slides.export.web/webdocumentoptions/
 ---
 ## WebDocumentOptions class
 
-Представляет набор параметров для сохранения[`WebDocument`](../webdocument).
+Представляет набор опций для[`WebDocument`](../webdocument) сохранение.
 
 ```csharp
 public class WebDocumentOptions
@@ -24,11 +24,11 @@ public class WebDocumentOptions
 
 | Имя | Описание |
 | --- | --- |
-| [AnimateShapes](../../aspose.slides.export.web/webdocumentoptions/animateshapes) { get; set; } | Возвращает или устанавливает параметры анимации фигур. Чтение/записьBoolean. |
-| [AnimateTransitions](../../aspose.slides.export.web/webdocumentoptions/animatetransitions) { get; set; } | Возвращает или устанавливает параметр анимации переходов. Чтение/записьBoolean. |
-| [EmbedImages](../../aspose.slides.export.web/webdocumentoptions/embedimages) { get; set; } | Возвращает или задает параметр встраивания изображений. Чтение/записьBoolean. |
-| [OutputSaver](../../aspose.slides.export.web/webdocumentoptions/outputsaver) { get; set; } | Возвращает или устанавливает заставку вывода. Чтение/запись[`IOutputSaver`](../ioutputsaver). |
-| [TemplateEngine](../../aspose.slides.export.web/webdocumentoptions/templateengine) { get; set; } | Возвращает или устанавливает механизм шаблонов. Чтение/запись[`ITemplateEngine`](../itemplateengine). |
+| [AnimateShapes](../../aspose.slides.export.web/webdocumentoptions/animateshapes) { get; set; } | Возвращает или задает параметр анимации фигур. Чтение/записьBoolean . |
+| [AnimateTransitions](../../aspose.slides.export.web/webdocumentoptions/animatetransitions) { get; set; } | Возвращает или задает параметр анимации переходов. Чтение/записьBoolean . |
+| [EmbedImages](../../aspose.slides.export.web/webdocumentoptions/embedimages) { get; set; } | Возвращает или задает параметр встраивания изображений. Чтение/записьBoolean . |
+| [OutputSaver](../../aspose.slides.export.web/webdocumentoptions/outputsaver) { get; set; } | Возвращает или устанавливает заставку вывода. Чтение/запись[`IOutputSaver`](../ioutputsaver) . |
+| [TemplateEngine](../../aspose.slides.export.web/webdocumentoptions/templateengine) { get; set; } | Возвращает или устанавливает механизм шаблонов. Чтение/запись[`ITemplateEngine`](../itemplateengine) . |
 
 ### Смотрите также
 

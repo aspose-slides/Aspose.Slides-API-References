@@ -18,8 +18,8 @@ public static class ShapeUtil
 
 | 姓名 | 描述 |
 | --- | --- |
-| static [GeometryPathToGraphicsPath](../../aspose.slides.util/shapeutil/geometrypathtographicspath)(IGeometryPath) | 将[`IGeometryPath`](../../aspose.slides/igeometrypath)转换为GraphicsPath。  GraphicsPath 可以使用其方便的方法以不同的方式进行转换，然后再转换回 [`IGeometryPath`](../../aspose.slides/igeometrypath)在[`GeometryShape`](../../aspose.slides/geometryshape)中使用GraphicsPath)方法。 |
-| static [GraphicsPathToGeometryPath](../../aspose.slides.util/shapeutil/graphicspathtogeometrypath)(GraphicsPath) | 将GraphicsPath转换为:::R5:T:Aspose.Slides.IGeometryPath:: 方法调用的返回值可用于通过 IGeometryShape.SetGeometryPaths 方法更改 IGeometryShape 对象的几何形状。 |
+| static [GeometryPathToGraphicsPath](../../aspose.slides.util/shapeutil/geometrypathtographicspath)(IGeometryPath) | 转换[`IGeometryPath`](../../aspose.slides/igeometrypath)至GraphicsPath.  GraphicsPath 可以使用其方便的方法以不同的方式转换，然后再转换回 [`IGeometryPath`](../../aspose.slides/igeometrypath)用在[`GeometryShape`](../../aspose.slides/geometryshape)通过[`GraphicsPathToGeometryPath`](./graphicspathtogeometrypath)方法. |
+| static [GraphicsPathToGeometryPath](../../aspose.slides.util/shapeutil/graphicspathtogeometrypath)(GraphicsPath) | 转换一个GraphicsPath到[`IGeometryPath`](../../aspose.slides/igeometrypath) 方法调用的返回值可用于更改 IGeometryShape 对象的几何形状 with IGeometryShape.SetGeometryPaths 方法。 |
 
 ### 也可以看看
 

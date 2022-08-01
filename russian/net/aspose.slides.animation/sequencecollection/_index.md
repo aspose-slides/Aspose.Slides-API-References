@@ -18,16 +18,16 @@ public class SequenceCollection : ISequenceCollection
 
 | Имя | Описание |
 | --- | --- |
-| [Count](../../aspose.slides.animation/sequencecollection/count) { get; } | Возвращает количество элементов в коллекции Только для чтенияInt32. |
+| [Count](../../aspose.slides.animation/sequencecollection/count) { get; } | Возвращает количество элементов в коллекции Только для чтенияInt32 . |
 | [Item](../../aspose.slides.animation/sequencecollection/item) { get; } | Возвращает последовательность по указанному индексу. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [Add](../../aspose.slides.animation/sequencecollection/add)(IShape) | Добавить новую интерактивную последовательность. Чтение/запись[`Sequence`](../sequence). |
+| [Add](../../aspose.slides.animation/sequencecollection/add)(IShape) | Добавить новую интерактивную последовательность. Чтение/запись[`Sequence`](../sequence) . |
 | [Clear](../../aspose.slides.animation/sequencecollection/clear)() | Удаляет все последовательности из коллекции. |
-| [GetEnumerator](../../aspose.slides.animation/sequencecollection/getenumerator)() | Возвращает перечислитель, который перебирает коллекцию. |
+| [GetEnumerator](../../aspose.slides.animation/sequencecollection/getenumerator)() | Возвращает перечислитель, который выполняет итерацию по коллекции. |
 | [Remove](../../aspose.slides.animation/sequencecollection/remove)(ISequence) | Удаляет указанную последовательность из коллекции. |
 | [RemoveAt](../../aspose.slides.animation/sequencecollection/removeat)(int) | Удаляет последовательность по указанному индексу. |
 

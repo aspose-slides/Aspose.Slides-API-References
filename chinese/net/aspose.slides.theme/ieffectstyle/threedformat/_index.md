@@ -1,14 +1,14 @@
 ---
 title: ThreeDFormat
 second_title: Aspose.Slides for .NET API 参考
-description: 返回 3d 格式 只读IThreeDFormataspose.slides/ithreedformat
+description: 返回 3d 格式 只读IThreeDFormataspose.slides/ithreedformat.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides.theme/ieffectstyle/threedformat/
 ---
 ## IEffectStyle.ThreeDFormat property
 
-返回 3d 格式。 只读[`IThreeDFormat`](../../../aspose.slides/ithreedformat)。
+返回 3d 格式。 只读[`IThreeDFormat`](../../../aspose.slides/ithreedformat).
 
 ```csharp
 public IThreeDFormat ThreeDFormat { get; }

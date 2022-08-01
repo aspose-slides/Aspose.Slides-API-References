@@ -1,14 +1,14 @@
 ---
 title: PreferredCulture
 second_title: Aspose.Slides for .NET API 参考
-description: 获取或设置用于计算某些函数的首选区域性信息这些函数旨在用于使用双字节字符集 DBCS 的语言 
+description: 获取或设置用于计算某些函数的首选区域性信息这些函数旨在与使用双字节字符集 DBCS 的语言 一起使用
 type: docs
 weight: 20
 url: /zh/net/aspose.slides/spreadsheetoptions/preferredculture/
 ---
 ## SpreadsheetOptions.PreferredCulture property
 
-获取或设置用于计算某些函数的首选区域性信息，这些函数旨在用于使用双字节字符集 (DBCS) 的语言 。
+获取或设置用于计算某些函数的首选区域性信息，这些函数旨在与使用双字节字符集 (DBCS) 的语言 一起使用。
 
 ```csharp
 public CultureInfo PreferredCulture { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: RowGap
 second_title: Aspose.Slides for .NET API 参考
-description: 矩阵行之间的垂直间距值 如果 RowGapRule 设置为 3精确则单位被解释为缇点的 1/20 如果 RowGapRule 设置为 4 Multiple则单位被解释为半行 默认值0
+description: 矩阵行之间的垂直间距值 如果RowGapRule设置为3精确则单位解释为twips点的1/20 如果RowGapRule设置为4 Multiple则单位被解释为半行 默认值0
 type: docs
 weight: 100
 url: /zh/net/aspose.slides.mathtext/imathmatrix/rowgap/
 ---
 ## IMathMatrix.RowGap property
 
-矩阵行之间的垂直间距值； 如果 RowGapRule 设置为 3（“精确”），则单位被解释为缇（点的 1/20） 如果 RowGapRule 设置为 4（ "Multiple")，则单位被解释为半行。 默认值:0
+矩阵行之间的垂直间距值； 如果RowGapRule设置为3（“精确”），则单位解释为twips（点的1/20） 如果RowGapRule设置为4（ "Multiple")，则单位被解释为半行。 默认值：0
 
 ```csharp
 public uint RowGap { get; set; }
@@ -16,7 +16,7 @@ public uint RowGap { get; set; }
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]

@@ -1,14 +1,14 @@
 ---
 title: ToColor
 second_title: Справочник по API Aspose.Slides для .NET
-description: Цвет который заменит. Только для чтенияColor.
+description: Цвет который заменит. Только для чтенияColor .
 type: docs
 weight: 30
 url: /ru/net/aspose.slides.effects/icolorchangeeffectivedata/tocolor/
 ---
 ## IColorChangeEffectiveData.ToColor property
 
-Цвет, который заменит. Только для чтенияColor.
+Цвет, который заменит. Только для чтенияColor .
 
 ```csharp
 public Color ToColor { get; }

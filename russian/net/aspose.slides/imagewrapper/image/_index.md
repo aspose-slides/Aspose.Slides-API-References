@@ -1,14 +1,14 @@
 ---
 title: Image
 second_title: Справочник по API Aspose.Slides для .NET
-description: Получает изображение. Только для чтенияImageaspose.slides/imagewrapper/image.
+description: Получает изображение. Только для чтенияImageaspose.slides/imagewrapper/image .
 type: docs
 weight: 10
 url: /ru/net/aspose.slides/imagewrapper/image/
 ---
 ## ImageWrapper.Image property
 
-Получает изображение. Только для чтения`Image`.
+Получает изображение. Только для чтения`Image` .
 
 ```csharp
 public Image Image { get; }

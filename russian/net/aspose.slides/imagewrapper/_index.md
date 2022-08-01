@@ -1,14 +1,14 @@
 ---
 title: ImageWrapper
 second_title: Справочник по API Aspose.Slides для .NET
-description: System.Drawing.Image оболочка для COM-интерфейса.
+description: Оболочка System.Drawing.Image для интерфейса COM.
 type: docs
 weight: 6850
 url: /ru/net/aspose.slides/imagewrapper/
 ---
 ## ImageWrapper class
 
-System.Drawing.Image оболочка для COM-интерфейса.
+Оболочка System.Drawing.Image для интерфейса COM.
 
 ```csharp
 public class ImageWrapper : IImageWrapper
@@ -18,8 +18,8 @@ public class ImageWrapper : IImageWrapper
 
 | Имя | Описание |
 | --- | --- |
-| [Image](../../aspose.slides/imagewrapper/image) { get; } | Получает изображение. Только для чтения[`Image`](./image). |
-| [Size](../../aspose.slides/imagewrapper/size) { get; } | Получает ширину и высоту изображения в пикселях. Только для чтения[`Size`](./size). |
+| [Image](../../aspose.slides/imagewrapper/image) { get; } | Получает изображение. Только для чтения[`Image`](./image) . |
+| [Size](../../aspose.slides/imagewrapper/size) { get; } | Получает ширину и высоту изображения в пикселях. Только для чтения[`Size`](./size) . |
 
 ## Методы
 

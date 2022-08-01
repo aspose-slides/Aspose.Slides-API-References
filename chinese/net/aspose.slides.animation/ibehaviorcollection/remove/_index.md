@@ -20,7 +20,7 @@ public bool Remove(IBehavior item)
 
 ### 返回值
 
-如果成功删除行为则为真Boolean
+如果行为成功删除，则为真Boolean
 
 ### 也可以看看
 

@@ -21,8 +21,8 @@ public enum AudioPlayModePreset
 | Mixed | `-1` |  |
 | Auto | `0` | 自动播放。 |
 | OnClick | `1` | 仅在单击图标时播放。 |
-| AllSlides | `2` | 在所有幻灯片上播放。 请改用[`PlayAcrossSlides`](../iaudioframe/playacrossslides)属性。  此元素自 PowerPoint 2013 以来已过期。 |
-| InClickSequence | `3` | 单击即可自动播放。 |
+| AllSlides | `2` | 在所有幻灯片上播放。 请使用[`PlayAcrossSlides`](../iaudioframe/playacrossslides)属性代替。 此元素自 PowerPoint 2013 以来已过期。 |
+| InClickSequence | `3` | 点击自动播放。 |
 
 ### 也可以看看
 

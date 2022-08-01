@@ -1,14 +1,14 @@
 ---
 title: GetThumbnail
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает миниатюру формы. ShapeThumbnailBounds.Тип границ эскиза фигуры Shape используется по умолчанию.
+description: Возвращает миниатюру фигуры. ShapeThumbnailBounds. Тип границ миниатюры формы используется по умолчанию.
 type: docs
 weight: 330
 url: /ru/net/aspose.slides/shape/getthumbnail/
 ---
 ## GetThumbnail() {#getthumbnail}
 
-Возвращает миниатюру формы. ShapeThumbnailBounds.Тип границ эскиза фигуры Shape используется по умолчанию.
+Возвращает миниатюру фигуры. ShapeThumbnailBounds. Тип границ миниатюры формы используется по умолчанию.
 
 ```csharp
 public Bitmap GetThumbnail()
@@ -36,13 +36,13 @@ public Bitmap GetThumbnail(ShapeThumbnailBounds bounds, float scaleX, float scal
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| bounds | ShapeThumbnailBounds | Тип границ эскиза формы. |
-| scaleX | Single | Масштаб X |
-| scaleY | Single | Масштаб Y |
+| bounds | ShapeThumbnailBounds | Тип границ эскиза фигуры. |
+| scaleX | Single | шкала Х |
+| scaleY | Single | шкала Y |
 
 ### Возвращаемое значение
 
-Миниатюра формы или null в случае, если используется ShapeThumbnailBounds.Appearance и фигура не имеет видимых элементов.
+Миниатюра фигуры или нуль, если используется ShapeThumbnailBounds.Appearance и фигура не имеет видимых элементов.
 
 ### Смотрите также
 

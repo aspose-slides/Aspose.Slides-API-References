@@ -18,10 +18,10 @@ public enum MathJustification
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| LeftJustified | `1` | 数学文本左对齐 |
+| LeftJustified | `1` | 将数学文本向左对齐 |
 | RightJustified | `2` | 将数学文本向右对齐 |
-| Centered | `3` | 将数学文本居中对齐 |
-| CenteredAsGroup | `4` | 在页面上将整个数学块组作为一个单元居中。 这意味着数学文本的实例可以相互对齐， 但整个数学文本组作为一个整体居中。 |
+| Centered | `3` | 将数学文本对齐到中心 |
+| CenteredAsGroup | `4` | 在页面上将整组数学块作为一个单元居中。 这意味着数学文本的实例可以相互对齐， 但整组数学文本作为一个整体居中。 |
 
 ### 也可以看看
 

@@ -16,7 +16,7 @@ public IAlphaBiLevel AddAlphaBiLevelEffect(float threshold)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| threshold | Single | alpha 双电平效果的阈值。 |
+| threshold | Single | alpha 双水平效应的阈值。 |
 
 ### 返回值
 

@@ -18,11 +18,11 @@ public interface IEffectStyleCollectionEffectiveData : IGenericCollection<IEffec
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Item](../../aspose.slides.theme/ieffectstylecollectioneffectivedata/item) { get; } | 获取指定索引处的元素。 只读[`IEffectStyleEffectiveData`](../ieffectstyleeffectivedata)。 |
+| [Item](../../aspose.slides.theme/ieffectstylecollectioneffectivedata/item) { get; } | 获取指定索引处的元素。 只读[`IEffectStyleEffectiveData`](../ieffectstyleeffectivedata). |
 
 ### 评论
 
-此接口用作IFormatSchemeEffectiveData。
+该接口用作[`IFormatSchemeEffectiveData`](../iformatschemeeffectivedata).
 
 ### 也可以看看
 

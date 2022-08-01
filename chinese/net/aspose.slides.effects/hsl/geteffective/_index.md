@@ -16,7 +16,7 @@ public IHSLEffectiveData GetEffective()
 
 ### 返回值
 
-A[`IHSLEffectiveData`](../../ihsleffectivedata)。
+一个[`IHSLEffectiveData`](../../ihsleffectivedata).
 
 ### 也可以看看
 

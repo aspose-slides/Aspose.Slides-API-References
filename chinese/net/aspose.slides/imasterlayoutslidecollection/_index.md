@@ -1,14 +1,14 @@
 ---
 title: IMasterLayoutSlideCollection
 second_title: Aspose.Slides for .NET API 参考
-description: 表示已定义母版幻灯片的所有布局幻灯片的集合 扩展 ILayoutSlideCollection 接口在主布局幻灯片的各个集合的上下文中添加/插入/删除/克隆 布局幻灯片
+description: 表示已定义母版幻灯片的所有布局幻灯片的集合 使用用于添加/插入/删除/克隆的方法扩展 ILayoutSlideCollection 接口
 type: docs
 weight: 5820
 url: /zh/net/aspose.slides/imasterlayoutslidecollection/
 ---
 ## IMasterLayoutSlideCollection interface
 
-表示已定义母版幻灯片的所有布局幻灯片的集合。 扩展 ILayoutSlideCollection 接口，在主布局幻灯片的各个集合的上下文中添加/插入/删除/克隆 布局幻灯片。
+表示已定义母版幻灯片的所有布局幻灯片的集合。 使用用于添加/插入/删除/克隆的方法扩展 ILayoutSlideCollection 接口
 
 ```csharp
 public interface IMasterLayoutSlideCollection : ILayoutSlideCollection
@@ -18,7 +18,7 @@ public interface IMasterLayoutSlideCollection : ILayoutSlideCollection
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsILayoutSlideCollection](../../aspose.slides/imasterlayoutslidecollection/asilayoutslidecollection) { get; } | 返回 ILayoutSlideCollection 接口。 只读[`ILayoutSlideCollection`](../ilayoutslidecollection)。 |
+| [AsILayoutSlideCollection](../../aspose.slides/imasterlayoutslidecollection/asilayoutslidecollection) { get; } | 返回 ILayoutSlideCollection 接口。 只读[`ILayoutSlideCollection`](../ilayoutslidecollection). |
 
 ## 方法
 

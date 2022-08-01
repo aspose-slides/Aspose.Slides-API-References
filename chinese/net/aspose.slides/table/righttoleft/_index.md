@@ -1,14 +1,14 @@
 ---
 title: RightToLeft
 second_title: Aspose.Slides for .NET API 参考
-description: 判断表格是否有从右到左的阅读顺序 读写Boolean
+description: 判断表是否有从右到左的读取顺序 读写Boolean.
 type: docs
 weight: 80
 url: /zh/net/aspose.slides/table/righttoleft/
 ---
 ## Table.RightToLeft property
 
-判断表格是否有从右到左的阅读顺序。 读写Boolean。
+判断表是否有从右到左的读取顺序。 读写Boolean.
 
 ```csharp
 public bool RightToLeft { get; set; }

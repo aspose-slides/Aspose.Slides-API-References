@@ -1,14 +1,14 @@
 ---
 title: Bar3DShape
 second_title: Справочник по API Aspose.Slides для .NET
-description: Задает форму ряда трехмерной гистограммы. Изменение значения этого свойства может привести к автоматическому изменению Типа серии. Чтение/записьChartShapeTypeaspose.slides.charts/chartshapetype.
+description: Определяет форму ряда трехмерной гистограммы. Изменение значения этого свойства может привести к автоматическому изменению типа ряда. Чтение/записьChartShapeTypeaspose.slides.charts/chartshapetype .
 type: docs
 weight: 10
 url: /ru/net/aspose.slides.charts/chartseries/bar3dshape/
 ---
 ## ChartSeries.Bar3DShape property
 
-Задает форму ряда трехмерной гистограммы. Изменение значения этого свойства может привести к автоматическому изменению Типа серии. Чтение/запись[`ChartShapeType`](../../chartshapetype).
+Определяет форму ряда трехмерной гистограммы. Изменение значения этого свойства может привести к автоматическому изменению типа ряда. Чтение/запись[`ChartShapeType`](../../chartshapetype) .
 
 ```csharp
 public ChartShapeType Bar3DShape { get; set; }

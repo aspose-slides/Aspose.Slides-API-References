@@ -19,9 +19,9 @@ public interface IColorReplace : IAccessiblePVIObject<IColorReplaceEffectiveData
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/icolorreplace/asiaccessiblepviobject) { get; } | 允许获取基本 IAccessiblePVIObject 接口。 只读[`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1)。 |
-| [AsIImageTransformOperation](../../aspose.slides.effects/icolorreplace/asiimagetransformoperation) { get; } | 允许获取基础 IImageTransformOperation 接口。 只读[`IImageTransformOperation`](../iimagetransformoperation)。 |
-| [Color](../../aspose.slides.effects/icolorreplace/color) { get; } | 返回颜色格式，它将替换每个像素的颜色。 只读[`IColorFormat`](../../aspose.slides/icolorformat)。 |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/icolorreplace/asiaccessiblepviobject) { get; } | 允许获取基本 IAccessiblePVIObject 接口。 只读[`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/icolorreplace/asiimagetransformoperation) { get; } | 允许获取基本 IImageTransformOperation 接口。 只读[`IImageTransformOperation`](../iimagetransformoperation). |
+| [Color](../../aspose.slides.effects/icolorreplace/color) { get; } | 返回颜色格式，它将替换每个像素的颜色。 只读[`IColorFormat`](../../aspose.slides/icolorformat). |
 
 ### 也可以看看
 

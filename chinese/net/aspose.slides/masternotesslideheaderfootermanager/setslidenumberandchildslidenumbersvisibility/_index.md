@@ -1,14 +1,14 @@
 ---
 title: SetSlideNumberAndChildSlideNumbersVisibility
 second_title: Aspose.Slides for .NET API 参考
-description: 更改母版幻灯片页码占位符和所有子页码占位符的可见性 子占位符意味着占位符包含在依赖注释幻灯片中 依赖于笔记幻灯片使用并依赖于主笔记幻灯片
+description: 更改母版幻灯片页码占位符和所有子页码占位符的可见性 子占位符意味着占位符包含在依赖的笔记幻灯片上 依赖于笔记幻灯片使用并依赖于主笔记幻灯片
 type: docs
 weight: 70
 url: /zh/net/aspose.slides/masternotesslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility/
 ---
 ## MasterNotesSlideHeaderFooterManager.SetSlideNumberAndChildSlideNumbersVisibility method
 
-更改母版幻灯片页码占位符和所有子页码占位符的可见性。 子占位符意味着占位符包含在依赖注释幻灯片中。 依赖于笔记幻灯片使用并依赖于主笔记幻灯片。
+更改母版幻灯片页码占位符和所有子页码占位符的可见性。 子占位符意味着占位符包含在依赖的笔记幻灯片上。 依赖于笔记幻灯片使用并依赖于主笔记幻灯片。
 
 ```csharp
 public void SetSlideNumberAndChildSlideNumbersVisibility(bool isVisible)

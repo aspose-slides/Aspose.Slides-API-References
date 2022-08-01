@@ -17,11 +17,11 @@ public string Compile(string key, object model)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | key | String | 模板集合中模板的键。 |
-| model | Object | 带有用于转换的数据的模型对象。 |
+| model | Object | 带有数据的模型对象以进行转换。 |
 
 ### 返回值
 
-结果输出为String。
+结果输出为String.
 
 ### 也可以看看
 

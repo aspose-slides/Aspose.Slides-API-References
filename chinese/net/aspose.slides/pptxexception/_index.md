@@ -1,14 +1,14 @@
 ---
 title: PptxException
 second_title: Aspose.Slides for .NET API 参考
-description: 表示标准内部异常类型
+description: 表示标准的内部异常类型
 type: docs
 weight: 8840
 url: /zh/net/aspose.slides/pptxexception/
 ---
 ## PptxException class
 
-表示标准内部异常类型。
+表示标准的内部异常类型。
 
 ```csharp
 public class PptxException : OOXMLException

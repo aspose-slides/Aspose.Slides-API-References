@@ -17,8 +17,8 @@ public IAudioFrame InsertAudioFrameEmbedded(int index, float x, float y, float w
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Отсчитываемый от нуля индекс, в который следует вставить значение. |
-| x | Single | X координата нового звукового кадра. |
+| index | Int32 | Отсчитываемый от нуля индекс, по которому должно быть вставлено значение. |
+| x | Single | Координата X нового звукового кадра. |
 | y | Single | Координата Y нового звукового кадра. |
 | width | Single | Ширина нового звукового кадра. |
 | height | Single | Высота нового звукового кадра. |
@@ -39,7 +39,7 @@ public IAudioFrame InsertAudioFrameEmbedded(int index, float x, float y, float w
 
 ## InsertAudioFrameEmbedded(int, float, float, float, float, IAudio) {#insertaudioframeembedded}
 
-Вставьте AudioFrame со встроенным аудиофайлом. Используется аудиофайл из списка Presentation.Audios.
+Вставьте AudioFrame со встроенным аудиофайлом. Он использует аудиофайл из списка Presentation.Audios.
 
 ```csharp
 public IAudioFrame InsertAudioFrameEmbedded(int index, float x, float y, float width, float height, 
@@ -48,8 +48,8 @@ public IAudioFrame InsertAudioFrameEmbedded(int index, float x, float y, float w
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Отсчитываемый от нуля индекс, в который следует вставить значение. |
-| x | Single | X координата нового звукового кадра. |
+| index | Int32 | Отсчитываемый от нуля индекс, по которому должно быть вставлено значение. |
+| x | Single | Координата X нового звукового кадра. |
 | y | Single | Координата Y нового звукового кадра. |
 | width | Single | Ширина нового звукового кадра. |
 | height | Single | Высота нового звукового кадра. |

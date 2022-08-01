@@ -1,14 +1,14 @@
 ---
 title: GetBackgroundFillStyles
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает набор стилей заливки фона определенных темой.
+description: Возвращает коллекцию стилей заливки фона определенных темой.
 type: docs
 weight: 10
 url: /ru/net/aspose.slides.theme/iformatschemeeffectivedata/getbackgroundfillstyles/
 ---
 ## IFormatSchemeEffectiveData.GetBackgroundFillStyles method
 
-Возвращает набор стилей заливки фона, определенных темой.
+Возвращает коллекцию стилей заливки фона, определенных темой.
 
 ```csharp
 public IFillFormatCollectionEffectiveData GetBackgroundFillStyles(Color styleColor)
@@ -16,7 +16,7 @@ public IFillFormatCollectionEffectiveData GetBackgroundFillStyles(Color styleCol
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| styleColor | Color | ColorColor |
+| styleColor | Color | ЦветColor |
 
 ### Возвращаемое значение
 

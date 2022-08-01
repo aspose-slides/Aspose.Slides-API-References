@@ -18,8 +18,8 @@ public interface IEightDirectionTransition : ITransitionValueBase
 
 | Имя | Описание |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/ieightdirectiontransition/asitransitionvaluebase) { get; } | Позволяет получить базовый интерфейс ITransitionValueBase. Только для чтения[`ITransitionValueBase`](../itransitionvaluebase). |
-| [Direction](../../aspose.slides.slideshow/ieightdirectiontransition/direction) { get; set; } | Направление перехода. Чтение/запись[`TransitionEightDirectionType`](../transitioneightdirectiontype). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/ieightdirectiontransition/asitransitionvaluebase) { get; } | Позволяет получить базовый интерфейс ITransitionValueBase. Только для чтения[`ITransitionValueBase`](../itransitionvaluebase) . |
+| [Direction](../../aspose.slides.slideshow/ieightdirectiontransition/direction) { get; set; } | Направление перехода. Чтение/запись[`TransitionEightDirectionType`](../transitioneightdirectiontype) . |
 
 ### Смотрите также
 

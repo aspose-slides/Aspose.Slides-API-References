@@ -1,14 +1,14 @@
 ---
 title: SetFooterAndChildFootersVisibility
 second_title: Aspose.Slides for .NET API 参考
-description: 更改主幻灯片页脚占位符和所有子页脚占位符的可见性 子占位符意味着占位符包含在依赖注释幻灯片中 依赖于笔记幻灯片使用并依赖于主笔记幻灯片
+description: 更改母版幻灯片页脚占位符和所有子页脚占位符的可见性 子占位符表示占位符包含在依赖注释幻灯片上 依赖注释幻灯片使用并依赖于主注释幻灯片
 type: docs
 weight: 40
 url: /zh/net/aspose.slides/masternotesslideheaderfootermanager/setfooterandchildfootersvisibility/
 ---
 ## MasterNotesSlideHeaderFooterManager.SetFooterAndChildFootersVisibility method
 
-更改主幻灯片页脚占位符和所有子页脚占位符的可见性。 子占位符意味着占位符包含在依赖注释幻灯片中。 依赖于笔记幻灯片使用并依赖于主笔记幻灯片。
+更改母版幻灯片页脚占位符和所有子页脚占位符的可见性。 子占位符表示占位符包含在依赖注释幻灯片上。 依赖注释幻灯片使用并依赖于主注释幻灯片。
 
 ```csharp
 public void SetFooterAndChildFootersVisibility(bool isVisible)

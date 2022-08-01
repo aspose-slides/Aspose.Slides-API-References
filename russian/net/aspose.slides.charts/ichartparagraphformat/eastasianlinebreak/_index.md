@@ -1,14 +1,14 @@
 ---
 title: EastAsianLineBreak
 second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет используется ли восточноазиатский разрыв строки в абзаце. Чтение/записьNullableBoolaspose.slides/nullablebool.
+description: Определяет используется ли восточноазиатский разрыв строки в абзаце. Чтение/записьNullableBoolaspose.slides/nullablebool .
 type: docs
 weight: 30
 url: /ru/net/aspose.slides.charts/ichartparagraphformat/eastasianlinebreak/
 ---
 ## IChartParagraphFormat.EastAsianLineBreak property
 
-Определяет, используется ли восточноазиатский разрыв строки в абзаце. Чтение/запись[`NullableBool`](../../../aspose.slides/nullablebool).
+Определяет, используется ли восточноазиатский разрыв строки в абзаце. Чтение/запись[`NullableBool`](../../../aspose.slides/nullablebool) .
 
 ```csharp
 public NullableBool EastAsianLineBreak { get; set; }

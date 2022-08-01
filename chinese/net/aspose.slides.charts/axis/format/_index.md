@@ -1,14 +1,14 @@
 ---
 title: Format
 second_title: Aspose.Slides for .NET API 参考
-description: 表示轴的格式 只读IAxisFormataspose.slides.charts/iaxisformat
+description: 表示轴的格式 只读IAxisFormataspose.slides.charts/iaxisformat.
 type: docs
 weight: 160
 url: /zh/net/aspose.slides.charts/axis/format/
 ---
 ## Axis.Format property
 
-表示轴的格式。 只读[`IAxisFormat`](../../iaxisformat)。
+表示轴的格式。 只读[`IAxisFormat`](../../iaxisformat).
 
 ```csharp
 public IAxisFormat Format { get; }

@@ -1,14 +1,14 @@
 ---
 title: BeginArrowheadWidth
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает ширину стрелки в начале строки. Только для чтенияLineArrowheadWidthaspose.slides/linearrowheadwidth.
+description: Возвращает ширину стрелки в начале строки. Только для чтенияLineArrowheadWidthaspose.slides/linearrowheadwidth .
 type: docs
 weight: 50
 url: /ru/net/aspose.slides/ilineformateffectivedata/beginarrowheadwidth/
 ---
 ## ILineFormatEffectiveData.BeginArrowheadWidth property
 
-Возвращает ширину стрелки в начале строки. Только для чтения[`LineArrowheadWidth`](../../linearrowheadwidth).
+Возвращает ширину стрелки в начале строки. Только для чтения[`LineArrowheadWidth`](../../linearrowheadwidth) .
 
 ```csharp
 public LineArrowheadWidth BeginArrowheadWidth { get; }

@@ -1,14 +1,14 @@
 ---
 title: ProtectionManager
 second_title: Справочник по API Aspose.Slides для .NET
-description: Получает менеджер разрешений для этой презентации. Только для чтенияIProtectionManageraspose.slides/iprotectionmanager.
+description: Получает менеджер разрешений для этой презентации. Только для чтенияIProtectionManageraspose.slides/iprotectionmanager .
 type: docs
 weight: 210
 url: /ru/net/aspose.slides/presentation/protectionmanager/
 ---
 ## Presentation.ProtectionManager property
 
-Получает менеджер разрешений для этой презентации. Только для чтения[`IProtectionManager`](../../iprotectionmanager).
+Получает менеджер разрешений для этой презентации. Только для чтения[`IProtectionManager`](../../iprotectionmanager) .
 
 ```csharp
 public IProtectionManager ProtectionManager { get; }

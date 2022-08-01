@@ -1,14 +1,14 @@
 ---
 title: IsAutomaticMinorUnit
 second_title: Aspose.Slides for .NET API 参考
-description: 表示是否自动分配轴的次要单位 读/写Boolean
+description: 表示是否自动分配轴的次要单位 读/写Boolean.
 type: docs
 weight: 200
 url: /zh/net/aspose.slides.charts/axis/isautomaticminorunit/
 ---
 ## Axis.IsAutomaticMinorUnit property
 
-表示是否自动分配轴的次要单位。 读/写Boolean。
+表示是否自动分配轴的次要单位。 读/写Boolean.
 
 ```csharp
 public bool IsAutomaticMinorUnit { get; set; }

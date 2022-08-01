@@ -22,7 +22,7 @@ public enum ShapesAlignmentType
 | AlignRight | `1` | Выровнять по правому краю |
 | AlignCenter | `2` | Выровнять по центру |
 | AlignTop | `3` | Выровнять по верхнему краю |
-| AlignMiddle | `4` | Выровнять по центру |
+| AlignMiddle | `4` | Выровнять по середине |
 | AlignBottom | `5` | Выровнять по нижнему краю |
 | DistributeHorizontally | `6` | Распределить по горизонтали |
 | DistributeVertically | `7` | Распределить по вертикали |

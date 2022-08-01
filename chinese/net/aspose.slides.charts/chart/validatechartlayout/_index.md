@@ -1,14 +1,14 @@
 ---
 title: ValidateChartLayout
 second_title: Aspose.Slides for .NET API 参考
-description: 计算图表元素的实际值实际值包括实现 IActualLayout 接口 IActualLayout.ActualX IActualLayout.ActualY IActualLayout.ActualWidth IActualLayout.ActualHeight 和实际轴值 IAxis.ActualMaxValue 的元素的位置 IAxis.ActualMinValue IAxis.ActualMajorUnit IAxis.ActualMinorUnit IAxis.ActualMajorUnitScale IAxis.ActualMinorUnitScale
+description: 计算图表元素的实际值实际值包括实现 IActualLayout 接口的元素的位置 IActualLayout.ActualX IActualLayout.ActualY IActualLayout.ActualWidth IActualLayout.ActualHeight 和实际轴值 IAxis.ActualMaxValue IAxis.ActualMinValue IAxis.ActualMajorUnit IAxis.ActualMinorUnit  IAxis.ActualMajorUnitScale IAxis.ActualMinorUnitScale
 type: docs
 weight: 260
 url: /zh/net/aspose.slides.charts/chart/validatechartlayout/
 ---
 ## Chart.ValidateChartLayout method
 
-计算图表元素的实际值。实际值包括实现 IActualLayout 接口 (IActualLayout.ActualX, IActualLayout.ActualY, IActualLayout.ActualWidth, IActualLayout.ActualHeight) 和实际轴值 (IAxis.ActualMaxValue) 的元素的位置, IAxis.ActualMinValue, IAxis.ActualMajorUnit, IAxis.ActualMinorUnit, IAxis.ActualMajorUnitScale, IAxis.ActualMinorUnitScale)
+计算图表元素的实际值。实际值包括实现 IActualLayout 接口的元素的位置 (IActualLayout.ActualX, IActualLayout.ActualY, IActualLayout.ActualWidth, IActualLayout.ActualHeight) 和实际轴值 (IAxis.ActualMaxValue, IAxis.ActualMinValue, IAxis.ActualMajorUnit, IAxis.ActualMinorUnit , IAxis.ActualMajorUnitScale, IAxis.ActualMinorUnitScale)
 
 ```csharp
 public void ValidateChartLayout()

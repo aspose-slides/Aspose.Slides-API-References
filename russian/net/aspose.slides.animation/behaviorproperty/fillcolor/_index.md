@@ -8,7 +8,7 @@ url: /ru/net/aspose.slides.animation/behaviorproperty/fillcolor/
 ---
 ## BehaviorProperty.FillColor property
 
-Представляет свойство 'fillcolor'
+Представляет свойство fillcolor
 
 ```csharp
 public static BehaviorProperty FillColor { get; }

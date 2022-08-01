@@ -1,14 +1,14 @@
 ---
 title: Type
 second_title: Aspose.Slides for .NET API 参考
-description: 定义行为的命令效果类型 读/写CommandEffectTypeaspose.slides.animation/commandeffecttype
+description: 定义行为的命令效果类型 读/写CommandEffectTypeaspose.slides.animation/commandeffecttype.
 type: docs
 weight: 40
 url: /zh/net/aspose.slides.animation/icommandeffect/type/
 ---
 ## ICommandEffect.Type property
 
-定义行为的命令效果类型。 读/写[`CommandEffectType`](../../commandeffecttype)。
+定义行为的命令效果类型。 读/写[`CommandEffectType`](../../commandeffecttype).
 
 ```csharp
 public CommandEffectType Type { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: SystemImage
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает копию изображения типа System.Drawing.Image. Только для чтенияImage.
+description: Возвращает копию изображения типа System.Drawing.Image. Только для чтенияImage .
 type: docs
 weight: 50
 url: /ru/net/aspose.slides/ippimage/systemimage/
 ---
 ## IPPImage.SystemImage property
 
-Возвращает копию изображения типа System.Drawing.Image. Только для чтенияImage.
+Возвращает копию изображения типа System.Drawing.Image. Только для чтенияImage .
 
 ```csharp
 public Image SystemImage { get; }

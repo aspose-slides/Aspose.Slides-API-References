@@ -1,14 +1,14 @@
 ---
 title: Pattern
 second_title: Справочник по API Aspose.Slides для .NET
-description: Задает форму визуальных элементов используемых во время перехода. Чтение/записьTransitionShredPatternaspose.slides.slideshow/transitionshredpattern.
+description: Определяет форму визуальных элементов используемых во время перехода. Чтение/записьTransitionShredPatternaspose.slides.slideshow/transitionshredpattern .
 type: docs
 weight: 30
 url: /ru/net/aspose.slides.slideshow/ishredtransition/pattern/
 ---
 ## IShredTransition.Pattern property
 
-Задает форму визуальных элементов, используемых во время перехода. Чтение/запись[`TransitionShredPattern`](../../transitionshredpattern).
+Определяет форму визуальных элементов, используемых во время перехода. Чтение/запись[`TransitionShredPattern`](../../transitionshredpattern) .
 
 ```csharp
 public TransitionShredPattern Pattern { get; set; }

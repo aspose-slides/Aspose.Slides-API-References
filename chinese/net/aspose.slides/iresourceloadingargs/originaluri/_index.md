@@ -1,14 +1,14 @@
 ---
 title: OriginalUri
 second_title: Aspose.Slides for .NET API 参考
-description: 导入演示文稿中指定的资源的原始 URI
+description: 在导入的演示文稿中指定的资源的原始 URI
 type: docs
 weight: 10
 url: /zh/net/aspose.slides/iresourceloadingargs/originaluri/
 ---
 ## IResourceLoadingArgs.OriginalUri property
 
-导入演示文稿中指定的资源的原始 URI。
+在导入的演示文稿中指定的资源的原始 URI。
 
 ```csharp
 public string OriginalUri { get; }

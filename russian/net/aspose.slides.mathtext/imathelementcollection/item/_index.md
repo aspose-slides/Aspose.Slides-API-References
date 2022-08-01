@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Справочник по API Aspose.Slides для .NET
-description: Получает элемент по указанному индексу. Только для чтенияIMathElementaspose.slides.mathtext/imathelement.
+description: Получает элемент по указанному индексу. Только для чтенияIMathElementaspose.slides.mathtext/imathelement .
 type: docs
 weight: 30
 url: /ru/net/aspose.slides.mathtext/imathelementcollection/item/
 ---
 ## IMathElementCollection indexer
 
-Получает элемент по указанному индексу. Только для чтения[`IMathElement`](../../imathelement).
+Получает элемент по указанному индексу. Только для чтения[`IMathElement`](../../imathelement) .
 
 ```csharp
 public IMathElement this[int index] { get; }

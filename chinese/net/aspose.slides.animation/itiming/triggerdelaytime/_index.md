@@ -1,14 +1,14 @@
 ---
 title: TriggerDelayTime
 second_title: Aspose.Slides for .NET API 参考
-description: 描述触发后的延迟时间 读/写Single
+description: 描述触发后的延迟时间 读/写Single.
 type: docs
 weight: 90
 url: /zh/net/aspose.slides.animation/itiming/triggerdelaytime/
 ---
 ## ITiming.TriggerDelayTime property
 
-描述触发后的延迟时间。 读/写Single。
+描述触发后的延迟时间。 读/写Single.
 
 ```csharp
 public float TriggerDelayTime { get; set; }

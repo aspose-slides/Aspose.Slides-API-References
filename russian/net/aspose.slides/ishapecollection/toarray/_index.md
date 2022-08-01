@@ -1,14 +1,14 @@
 ---
 title: ToArray
 second_title: Справочник по API Aspose.Slides для .NET
-description: Создает и возвращает массив со всеми формами в нем.
+description: Создает и возвращает массив со всеми фигурами в нем.
 type: docs
 weight: 400
 url: /ru/net/aspose.slides/ishapecollection/toarray/
 ---
 ## ToArray() {#toarray}
 
-Создает и возвращает массив со всеми формами в нем.
+Создает и возвращает массив со всеми фигурами в нем.
 
 ```csharp
 public IShape[] ToArray()
@@ -37,8 +37,8 @@ public IShape[] ToArray(int startIndex, int count)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| startIndex | Int32 | Индекс первой возвращаемой фигуры. |
-| count | Int32 | Количество возвращаемых фигур. |
+| startIndex | Int32 | Индекс первой возвращаемой формы. |
+| count | Int32 | Количество фигур для возврата. |
 
 ### Возвращаемое значение
 

@@ -1,14 +1,14 @@
 ---
 title: IShapeElement
 second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет часть фигуры с одинаковыми свойствами контура и заливки.
+description: Представляет часть фигуры с такими же свойствами контура и заливки.
 type: docs
 weight: 6410
 url: /ru/net/aspose.slides/ishapeelement/
 ---
 ## IShapeElement interface
 
-Представляет часть фигуры с одинаковыми свойствами контура и заливки.
+Представляет часть фигуры с такими же свойствами контура и заливки.
 
 ```csharp
 public interface IShapeElement

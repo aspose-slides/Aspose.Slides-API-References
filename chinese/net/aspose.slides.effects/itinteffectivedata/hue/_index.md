@@ -1,14 +1,14 @@
 ---
 title: Hue
 second_title: Aspose.Slides for .NET API 参考
-description: 返回色调 只读Single
+description: 返回色调 只读Single.
 type: docs
 weight: 30
 url: /zh/net/aspose.slides.effects/itinteffectivedata/hue/
 ---
 ## ITintEffectiveData.Hue property
 
-返回色调。 只读Single。
+返回色调。 只读Single.
 
 ```csharp
 public float Hue { get; }

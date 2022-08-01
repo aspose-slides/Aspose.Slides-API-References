@@ -1,14 +1,14 @@
 ---
 title: AlignmentPoint
 second_title: Aspose.Slides for .NET API 参考
-description: 当为真时此运算符模拟器用作对齐点即 其他方程中指定的对齐点可以与之对齐 默认值假
+description: 当为真时这个算子模拟器作为一个对齐点即 其他方程中指定的对齐点可以与之对齐 默认false
 type: docs
 weight: 10
 url: /zh/net/aspose.slides.mathtext/imathbox/alignmentpoint/
 ---
 ## IMathBox.AlignmentPoint property
 
-当为真时，此运算符模拟器用作对齐点；即 其他方程中指定的对齐点可以与之对齐。 默认值:假
+当为真时，这个算子模拟器作为一个对齐点；即 其他方程中指定的对齐点可以与之对齐。 默认：false
 
 ```csharp
 public bool AlignmentPoint { get; set; }
@@ -16,7 +16,7 @@ public bool AlignmentPoint { get; set; }
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]

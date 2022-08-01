@@ -16,11 +16,11 @@ public ReturnAction Warning(IWarningInfo warning)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| warning | IWarningInfo | 处理警告。 |
+| warning | IWarningInfo | 警告处理。 |
 
 ### 返回值
 
-堕胎决定[`ReturnAction`](../../returnaction)。
+堕胎决定[`ReturnAction`](../../returnaction).
 
 ### 也可以看看
 

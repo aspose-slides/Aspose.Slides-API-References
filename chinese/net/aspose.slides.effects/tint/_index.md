@@ -18,13 +18,13 @@ public class Tint : ImageTransformOperation, ITint
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允许获取基本 IPresentationComponent 接口。 只读[`IPresentationComponent`](../../aspose.slides/ipresentationcomponent)。 |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允许获取基本 IPresentationComponent 接口。 只读[`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/tint/equals)(object) | 确定指定的[`Tint`](../tint)是否等于当前的Tint。 |
+| override [Equals](../../aspose.slides.effects/tint/equals)(object) | 判断是否指定[`Tint`](../tint)等于当前[`Tint`](../tint). |
 | [GetEffective](../../aspose.slides.effects/tint/geteffective)() | 获取应用了继承的有效色调效果数据。 |
 | override [GetHashCode](../../aspose.slides.effects/tint/gethashcode)() | 用作特定类型的哈希函数。 |
 

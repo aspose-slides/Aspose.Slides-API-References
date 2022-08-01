@@ -16,7 +16,7 @@ public ISlide[] ToArray()
 
 ### 返回值
 
-[`Slide`](../../slide)
+数组[`Slide`](../../slide)
 
 ### 也可以看看
 
@@ -29,7 +29,7 @@ public ISlide[] ToArray()
 
 ## ToArray(int, int) {#toarray_1}
 
-创建并返回一个数组，其中包含指定范围内的所有幻灯片。  要添加的第一张幻灯片的索引。 要添加的幻灯片数量。
+创建并返回一个数组，其中包含指定范围内的所有幻灯片。 要添加的第一张幻灯片的索引。要添加的幻灯片数量。
 
 ```csharp
 public ISlide[] ToArray(int startIndex, int count)
@@ -37,7 +37,7 @@ public ISlide[] ToArray(int startIndex, int count)
 
 ### 返回值
 
-[`Slide`](../../slide)
+数组[`Slide`](../../slide)
 
 ### 也可以看看
 

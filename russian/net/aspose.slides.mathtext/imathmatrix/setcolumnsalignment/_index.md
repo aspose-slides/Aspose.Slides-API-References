@@ -16,7 +16,7 @@ public void SetColumnsAlignment(int columnIndex, uint columnsCount, MathHorizont
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| columnIndex | Int32 | Zero- на основе индекса первого столбца для установки выравнивания |
+| columnIndex | Int32 | Отсчитываемый от нуля индекс первого столбца для установки выравнивания |
 | columnsCount | UInt32 | Количество столбцов для указания выравнивания |
 | val | MathHorizontalAlignment | Новое значение горизонтального выравнивания указанного столбца |
 

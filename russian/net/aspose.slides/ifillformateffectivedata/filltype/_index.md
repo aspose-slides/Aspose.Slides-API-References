@@ -1,14 +1,14 @@
 ---
 title: FillType
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает тип заполнения. Только для чтенияFillTypeaspose.slides/filltype.
+description: Возвращает тип заполнения. Только для чтенияFillTypeaspose.slides/filltype .
 type: docs
 weight: 20
 url: /ru/net/aspose.slides/ifillformateffectivedata/filltype/
 ---
 ## IFillFormatEffectiveData.FillType property
 
-Возвращает тип заполнения. Только для чтения[`FillType`](../../filltype).
+Возвращает тип заполнения. Только для чтения[`FillType`](../../filltype) .
 
 ```csharp
 public FillType FillType { get; }

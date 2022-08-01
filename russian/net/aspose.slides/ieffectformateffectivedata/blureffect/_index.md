@@ -1,14 +1,14 @@
 ---
 title: BlurEffect
 second_title: Справочник по API Aspose.Slides для .NET
-description: Эффект размытия. Только для чтенияIBlurEffectiveDataaspose.slides.effects/iblureffectivedata.
+description: Эффект размытия. Только для чтенияIBlurEffectiveDataaspose.slides.effects/iblureffectivedata .
 type: docs
 weight: 20
 url: /ru/net/aspose.slides/ieffectformateffectivedata/blureffect/
 ---
 ## IEffectFormatEffectiveData.BlurEffect property
 
-Эффект размытия. Только для чтения[`IBlurEffectiveData`](../../../aspose.slides.effects/iblureffectivedata).
+Эффект размытия. Только для чтения[`IBlurEffectiveData`](../../../aspose.slides.effects/iblureffectivedata) .
 
 ```csharp
 public IBlurEffectiveData BlurEffect { get; }

@@ -1,14 +1,14 @@
 ---
 title: Spacing
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает приращение межсимвольного интервала. Только для чтенияSingle.
+description: Возвращает приращение межсимвольного интервала. Только для чтенияSingle .
 type: docs
 weight: 220
 url: /ru/net/aspose.slides/ibaseportionformateffectivedata/spacing/
 ---
 ## IBasePortionFormatEffectiveData.Spacing property
 
-Возвращает приращение межсимвольного интервала. Только для чтенияSingle.
+Возвращает приращение межсимвольного интервала. Только для чтенияSingle .
 
 ```csharp
 public float Spacing { get; }

@@ -1,14 +1,14 @@
 ---
 title: StrikethroughType
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает зачеркнутый тип текста. Только для чтенияTextStrikethroughTypeaspose.slides/textstrikethroughtype.
+description: Возвращает зачеркнутый тип текста. Только для чтенияTextStrikethroughTypeaspose.slides/textstrikethroughtype .
 type: docs
 weight: 230
 url: /ru/net/aspose.slides/ibaseportionformateffectivedata/strikethroughtype/
 ---
 ## IBasePortionFormatEffectiveData.StrikethroughType property
 
-Возвращает зачеркнутый тип текста. Только для чтения[`TextStrikethroughType`](../../textstrikethroughtype).
+Возвращает зачеркнутый тип текста. Только для чтения[`TextStrikethroughType`](../../textstrikethroughtype) .
 
 ```csharp
 public TextStrikethroughType StrikethroughType { get; }

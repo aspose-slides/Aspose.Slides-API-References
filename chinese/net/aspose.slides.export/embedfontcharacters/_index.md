@@ -1,14 +1,14 @@
 ---
 title: EmbedFontCharacters
 second_title: Aspose.Slides for .NET API 参考
-description: 表示用于将新嵌入字体添加到IPresentation../aspose.slides/ipresentation
+description: 表示用于添加新嵌入字体的规则IPresentation../aspose.slides/ipresentation
 type: docs
 weight: 3500
 url: /zh/net/aspose.slides.export/embedfontcharacters/
 ---
 ## EmbedFontCharacters enumeration
 
-表示用于将新嵌入字体添加到[`IPresentation`](../../aspose.slides/ipresentation)
+表示用于添加新嵌入字体的规则[`IPresentation`](../../aspose.slides/ipresentation)
 
 ```csharp
 public enum EmbedFontCharacters

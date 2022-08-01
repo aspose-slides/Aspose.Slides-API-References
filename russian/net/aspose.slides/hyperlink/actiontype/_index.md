@@ -1,14 +1,14 @@
 ---
 title: ActionType
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает тип действия гиперссылки. Только для чтенияHyperlinkActionTypeaspose.slides/hyperlinkactiontype.
+description: Возвращает тип действия гиперссылки. Только для чтенияHyperlinkActionTypeaspose.slides/hyperlinkactiontype .
 type: docs
 weight: 100
 url: /ru/net/aspose.slides/hyperlink/actiontype/
 ---
 ## Hyperlink.ActionType property
 
-Возвращает тип действия гиперссылки. Только для чтения[`HyperlinkActionType`](../../hyperlinkactiontype).
+Возвращает тип действия гиперссылки. Только для чтения[`HyperlinkActionType`](../../hyperlinkactiontype) .
 
 ```csharp
 public HyperlinkActionType ActionType { get; }

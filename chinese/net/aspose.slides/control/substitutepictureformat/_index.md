@@ -1,14 +1,14 @@
 ---
 title: SubstitutePictureFormat
 second_title: Aspose.Slides for .NET API 参考
-description: 返回控制图像填充属性对象 只读IPictureFillFormataspose.slides/ipicturefillformat
+description: 返回控制图像填充属性对象 只读IPictureFillFormataspose.slides/ipicturefillformat.
 type: docs
 weight: 70
 url: /zh/net/aspose.slides/control/substitutepictureformat/
 ---
 ## Control.SubstitutePictureFormat property
 
-返回控制图像填充属性对象。 只读[`IPictureFillFormat`](../../ipicturefillformat)。
+返回控制图像填充属性对象。 只读[`IPictureFillFormat`](../../ipicturefillformat).
 
 ```csharp
 public IPictureFillFormat SubstitutePictureFormat { get; }

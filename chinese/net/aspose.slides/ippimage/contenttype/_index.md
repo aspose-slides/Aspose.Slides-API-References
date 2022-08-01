@@ -1,14 +1,14 @@
 ---
 title: ContentType
 second_title: Aspose.Slides for .NET API 参考
-description: 返回图像的 MIME 类型编码为BinaryDataaspose.slides/ippimage/binarydata 只读String
+description: 返回图像的 MIME 类型编码为BinaryDataaspose.slides/ippimage/binarydata . 只读String.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides/ippimage/contenttype/
 ---
 ## IPPImage.ContentType property
 
-返回图像的 MIME 类型，编码为[`BinaryData`](../binarydata)。 只读String。
+返回图像的 MIME 类型，编码为[`BinaryData`](../binarydata) . 只读String.
 
 ```csharp
 public string ContentType { get; }

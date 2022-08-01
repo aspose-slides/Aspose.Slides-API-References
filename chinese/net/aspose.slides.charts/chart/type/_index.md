@@ -1,14 +1,14 @@
 ---
 title: Type
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置图表类型 读/写ChartTypeaspose.slides.charts/charttype
+description: 返回或设置图表类型 读/写ChartTypeaspose.slides.charts/charttype.
 type: docs
 weight: 230
 url: /zh/net/aspose.slides.charts/chart/type/
 ---
 ## Chart.Type property
 
-返回或设置图表类型。 读/写[`ChartType`](../../charttype)。
+返回或设置图表类型。 读/写[`ChartType`](../../charttype).
 
 ```csharp
 public ChartType Type { get; set; }

@@ -18,9 +18,9 @@ public enum SmartArtQuickStyleType
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| SimpleFill | `0` | SimpleFill |
+| SimpleFill | `0` | 简单填充 |
 | WhiteOutline | `1` | WhiteOutline |
-| SubtleEffect | `2` | SubtleEffect |
+| SubtleEffect | `2` | 微妙效果 |
 | ModerateEffect | `3` | 中等效果 |
 | IntenceEffect | `4` | IntenceEffect |
 | Polished | `5` | 抛光 |
@@ -28,9 +28,9 @@ public enum SmartArtQuickStyleType
 | Cartoon | `7` | 卡通 |
 | Powder | `8` | 粉末 |
 | BrickScene | `9` | BrickScene |
-| FlatScene | `10` | FlatScene |
-| MetallicScene | `11` | MetallicScene |
-| SunsetScene | `12` | SunsetScene |
+| FlatScene | `10` | 平面场景 |
+| MetallicScene | `11` | 金属场景 |
+| SunsetScene | `12` | 日落场景 |
 | BirdsEyeScene | `13` | BirdsEyeScene |
 
 ### 也可以看看

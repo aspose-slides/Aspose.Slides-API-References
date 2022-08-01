@@ -1,14 +1,14 @@
 ---
 title: AsIOverrideThemeable
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает интерфейс IOverrideThemeable. Только для чтенияIOverrideThemeableaspose.slides.theme/ioverridethemeable.
+description: Возвращает интерфейс IOverrideThemeable. Только для чтенияIOverrideThemeableaspose.slides.theme/ioverridethemeable .
 type: docs
 weight: 30
 url: /ru/net/aspose.slides.charts/ichart/asioverridethemeable/
 ---
 ## IChart.AsIOverrideThemeable property
 
-Возвращает интерфейс IOverrideThemeable. Только для чтения[`IOverrideThemeable`](../../../aspose.slides.theme/ioverridethemeable).
+Возвращает интерфейс IOverrideThemeable. Только для чтения[`IOverrideThemeable`](../../../aspose.slides.theme/ioverridethemeable) .
 
 ```csharp
 public IOverrideThemeable AsIOverrideThemeable { get; }

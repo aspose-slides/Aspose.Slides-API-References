@@ -24,7 +24,7 @@ public interface IMathNaryOperatorFactory
 
 ### Примечания
 
-Для COM-совместимость
+Для COM-совместимости
 
 ### Смотрите также
 

@@ -18,7 +18,7 @@ public void InitColorScheme()
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| InvalidOperationException | 如果 ColorScheme 已经初始化（非空），则抛出该异常。 |
+| InvalidOperationException | 如果 ColorScheme 已经初始化（不为 null），则抛出该异常。 |
 
 ### 也可以看看
 

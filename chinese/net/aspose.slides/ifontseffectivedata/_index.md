@@ -18,13 +18,13 @@ public interface IFontsEffectiveData
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ComplexScriptFont](../../aspose.slides/ifontseffectivedata/complexscriptfont) { get; } | 返回复杂的脚本字体。 只读[`IFontData`](../ifontdata)。 |
-| [EastAsianFont](../../aspose.slides/ifontseffectivedata/eastasianfont) { get; } | 返回东亚字体。 只读[`IFontData`](../ifontdata)。 |
-| [LatinFont](../../aspose.slides/ifontseffectivedata/latinfont) { get; } | 返回拉丁字体。 只读[`IFontData`](../ifontdata)。 |
+| [ComplexScriptFont](../../aspose.slides/ifontseffectivedata/complexscriptfont) { get; } | 返回复杂的脚本字体。 只读[`IFontData`](../ifontdata). |
+| [EastAsianFont](../../aspose.slides/ifontseffectivedata/eastasianfont) { get; } | 返回东亚字体。 只读[`IFontData`](../ifontdata). |
+| [LatinFont](../../aspose.slides/ifontseffectivedata/latinfont) { get; } | 返回拉丁字体。 只读[`IFontData`](../ifontdata). |
 
 ### 评论
 
-此接口用作IBasePortionFormatEffectiveData的一部分和[`IFontSchemeEffectiveData`](../../aspose.slides.theme/ifontschemeeffectivedata)接口。
+该接口用作[`IBasePortionFormatEffectiveData`](../ibaseportionformateffectivedata)和[`IFontSchemeEffectiveData`](../../aspose.slides.theme/ifontschemeeffectivedata)接口.
 
 ### 也可以看看
 

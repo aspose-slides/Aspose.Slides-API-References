@@ -1,14 +1,14 @@
 ---
 title: Width
 second_title: Aspose.Slides for .NET API 参考
-description: 返回线的宽度 只读Double
+description: 返回线的宽度 只读Double.
 type: docs
 weight: 170
 url: /zh/net/aspose.slides/ilineformateffectivedata/width/
 ---
 ## ILineFormatEffectiveData.Width property
 
-返回线的宽度。 只读Double。
+返回线的宽度。 只读Double.
 
 ```csharp
 public double Width { get; }

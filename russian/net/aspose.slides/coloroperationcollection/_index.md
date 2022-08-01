@@ -18,10 +18,10 @@ public sealed class ColorOperationCollection : IColorOperationCollection
 
 | Имя | Описание |
 | --- | --- |
-| [Count](../../aspose.slides/coloroperationcollection/count) { get; } | Возвращает количество операций в коллекции. Только для чтенияInt32. |
-| [IsSynchronized](../../aspose.slides/coloroperationcollection/issynchronized) { get; } | Возвращает значение, указывающее, является ли доступ к коллекции синхронизированным (потокобезопасным). Только чтениеBoolean. |
-| [Item](../../aspose.slides/coloroperationcollection/item) { get; set; } | Возвращает или задает операцию по указанному индексу. Чтение/запись[`ColorOperation`](../coloroperation). |
-| [SyncRoot](../../aspose.slides/coloroperationcollection/syncroot) { get; } | Возвращает корень синхронизации. Только для чтенияObject. |
+| [Count](../../aspose.slides/coloroperationcollection/count) { get; } | Возвращает количество операций в коллекции. Только для чтенияInt32 . |
+| [IsSynchronized](../../aspose.slides/coloroperationcollection/issynchronized) { get; } | Возвращает значение, указывающее, является ли доступ к коллекции синхронизированным (потокобезопасным). Только для чтенияBoolean . |
+| [Item](../../aspose.slides/coloroperationcollection/item) { get; set; } | Возвращает или задает операцию по указанному индексу. Чтение/запись[`ColorOperation`](../coloroperation) . |
+| [SyncRoot](../../aspose.slides/coloroperationcollection/syncroot) { get; } | Возвращает корень синхронизации. Только для чтенияObject . |
 
 ## Методы
 
@@ -32,8 +32,8 @@ public sealed class ColorOperationCollection : IColorOperationCollection
 | [Clear](../../aspose.slides/coloroperationcollection/clear)() | Удаляет все операции с цветом. |
 | [Clone](../../aspose.slides/coloroperationcollection/clone)() | Создает копию коллекции ColorOperationCollection. |
 | [CloneT](../../aspose.slides/coloroperationcollection/clonet)() | Клонирует текущий объект |
-| [CopyTo](../../aspose.slides/coloroperationcollection/copyto)(Array, int) | Копирует все элементы из коллекции в указанный массив. |
-| [GetEnumerator](../../aspose.slides/coloroperationcollection/getenumerator)() | Возвращает перечислитель, который перебирает коллекцию. |
+| [CopyTo](../../aspose.slides/coloroperationcollection/copyto)(Array, int) | Копирует все элементы коллекции в указанный массив. |
+| [GetEnumerator](../../aspose.slides/coloroperationcollection/getenumerator)() | Возвращает перечислитель, который выполняет итерацию по коллекции. |
 | [Insert](../../aspose.slides/coloroperationcollection/insert#insert)(int, ColorTransformOperation) | Вставляет новую операцию в коллекцию. |
 | [Insert](../../aspose.slides/coloroperationcollection/insert#insert_1)(int, ColorTransformOperation, float) | Вставляет новую операцию в коллекцию. |
 | [RemoveAt](../../aspose.slides/coloroperationcollection/removeat)(int) | Удаляет операцию цвета из коллекции. |

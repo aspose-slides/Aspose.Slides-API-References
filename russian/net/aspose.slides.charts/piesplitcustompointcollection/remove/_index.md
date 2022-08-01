@@ -20,7 +20,7 @@ public bool Remove(IChartDataPoint dataPoint)
 
 ### Возвращаемое значение
 
-true, если элемент успешно удален; в противном случае ложно. Этот метод также возвращает false, если элемент не был найден в System.Collections.Generic.List{T}.
+true, если элемент успешно удален; в противном случае ложно. Этот метод also возвращает false, если элемент не найден в System.Collections.Generic.List{T}.
 
 ### Смотрите также
 

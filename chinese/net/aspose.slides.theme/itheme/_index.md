@@ -18,10 +18,10 @@ public interface ITheme : IPresentationComponent
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides.theme/itheme/asipresentationcomponent) { get; } | 允许获取基本 IPresentationComponent 接口。 只读[`IPresentationComponent`](../../aspose.slides/ipresentationcomponent)。 |
-| [ColorScheme](../../aspose.slides.theme/itheme/colorscheme) { get; } | 返回配色方案。 只读[`IColorScheme`](../icolorscheme)。 |
-| [FontScheme](../../aspose.slides.theme/itheme/fontscheme) { get; } | 返回字体方案。 只读[`IFontScheme`](../ifontscheme)。 |
-| [FormatScheme](../../aspose.slides.theme/itheme/formatscheme) { get; } | 返回形状格式方案。 只读[`IFormatScheme`](../iformatscheme)。 |
+| [AsIPresentationComponent](../../aspose.slides.theme/itheme/asipresentationcomponent) { get; } | 允许获取基本 IPresentationComponent 接口。 只读[`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [ColorScheme](../../aspose.slides.theme/itheme/colorscheme) { get; } | 返回配色方案。 只读[`IColorScheme`](../icolorscheme). |
+| [FontScheme](../../aspose.slides.theme/itheme/fontscheme) { get; } | 返回字体方案。 只读[`IFontScheme`](../ifontscheme). |
+| [FormatScheme](../../aspose.slides.theme/itheme/formatscheme) { get; } | 返回形状格式方案。 只读[`IFormatScheme`](../iformatscheme). |
 
 ## 方法
 

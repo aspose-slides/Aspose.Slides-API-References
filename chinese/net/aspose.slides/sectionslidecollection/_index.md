@@ -1,14 +1,14 @@
 ---
 title: SectionSlideCollection
 second_title: Aspose.Slides for .NET API 参考
-description: 表示节中幻灯片的集合
+description: 表示部分中的幻灯片集合
 type: docs
 weight: 9040
 url: /zh/net/aspose.slides/sectionslidecollection/
 ---
 ## SectionSlideCollection class
 
-表示节中幻灯片的集合。
+表示部分中的幻灯片集合。
 
 ```csharp
 public sealed class SectionSlideCollection : DomObject<Section>, ISectionSlideCollection
@@ -18,10 +18,10 @@ public sealed class SectionSlideCollection : DomObject<Section>, ISectionSlideCo
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Count](../../aspose.slides/sectionslidecollection/count) { get; } | 获取集合中实际包含的元素数量。 只读Int32。 |
-| [IsSynchronized](../../aspose.slides/sectionslidecollection/issynchronized) { get; } | 返回一个值，指示对集合的访问是否同步（线程安全）。 只读Boolean。 |
-| [Item](../../aspose.slides/sectionslidecollection/item) { get; } | 获取指定索引处的元素。 只读[`ISlide`](../islide)。 |
-| [SyncRoot](../../aspose.slides/sectionslidecollection/syncroot) { get; } | 返回同步根。 只读Object。 |
+| [Count](../../aspose.slides/sectionslidecollection/count) { get; } | 获取集合中实际包含的元素数。 只读Int32. |
+| [IsSynchronized](../../aspose.slides/sectionslidecollection/issynchronized) { get; } | 返回一个值，指示对集合的访问是否同步（线程安全）。 只读Boolean. |
+| [Item](../../aspose.slides/sectionslidecollection/item) { get; } | 获取指定索引处的元素。 只读[`ISlide`](../islide). |
+| [SyncRoot](../../aspose.slides/sectionslidecollection/syncroot) { get; } | 返回同步根。 只读Object. |
 
 ## 方法
 

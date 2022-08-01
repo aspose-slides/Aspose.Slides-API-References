@@ -1,14 +1,14 @@
 ---
 title: SlideImageSizeUnit
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает единицу измерения в которой указан размер изображения слайда. Только для чтенияSvgCoordinateUnitaspose.slides.export/svgcoordinateunit.
+description: Возвращает единицу измерения в которой указан размер изображения слайда. Только для чтенияSvgCoordinateUnitaspose.slides.export/svgcoordinateunit .
 type: docs
 weight: 40
 url: /ru/net/aspose.slides.export/htmlgenerator/slideimagesizeunit/
 ---
 ## HtmlGenerator.SlideImageSizeUnit property
 
-Возвращает единицу измерения, в которой указан размер изображения слайда. Только для чтения[`SvgCoordinateUnit`](../../svgcoordinateunit).
+Возвращает единицу измерения, в которой указан размер изображения слайда. Только для чтения[`SvgCoordinateUnit`](../../svgcoordinateunit) .
 
 ```csharp
 public SvgCoordinateUnit SlideImageSizeUnit { get; }

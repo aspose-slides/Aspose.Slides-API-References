@@ -1,14 +1,14 @@
 ---
 title: Scale
 second_title: Aspose.Slides for .NET API 参考
-description: 以百分比指定视图缩放比例 读/写Int32
+description: 以百分比指定视图缩放比例 读/写Int32.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides/commonslideviewproperties/scale/
 ---
 ## CommonSlideViewProperties.Scale property
 
-以百分比指定视图缩放比例。 读/写Int32。
+以百分比指定视图缩放比例。 读/写Int32.
 
 ```csharp
 public int Scale { get; set; }

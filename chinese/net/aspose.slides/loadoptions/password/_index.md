@@ -1,14 +1,14 @@
 ---
 title: Password
 second_title: Aspose.Slides for .NET API 参考
-description: 获取或设置密码 读/写String
+description: 获取或设置密码 读/写String.
 type: docs
 weight: 100
 url: /zh/net/aspose.slides/loadoptions/password/
 ---
 ## LoadOptions.Password property
 
-获取或设置密码。 读/写String。
+获取或设置密码。 读/写String.
 
 ```csharp
 public string Password { get; set; }

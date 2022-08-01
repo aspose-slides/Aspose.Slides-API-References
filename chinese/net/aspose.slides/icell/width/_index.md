@@ -1,14 +1,14 @@
 ---
 title: Width
 second_title: Aspose.Slides for .NET API 参考
-description: 返回单元格的宽度 只读Double
+description: 返回单元格的宽度 只读Double.
 type: docs
 weight: 230
 url: /zh/net/aspose.slides/icell/width/
 ---
 ## ICell.Width property
 
-返回单元格的宽度。 只读Double。
+返回单元格的宽度。 只读Double.
 
 ```csharp
 public double Width { get; }

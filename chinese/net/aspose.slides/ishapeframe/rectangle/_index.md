@@ -1,14 +1,14 @@
 ---
 title: Rectangle
 second_title: Aspose.Slides for .NET API 参考
-description: 返回帧的坐标 只读RectangleF
+description: 返回帧的坐标 只读RectangleF.
 type: docs
 weight: 60
 url: /zh/net/aspose.slides/ishapeframe/rectangle/
 ---
 ## IShapeFrame.Rectangle property
 
-返回帧的坐标。 只读RectangleF。
+返回帧的坐标。 只读RectangleF.
 
 ```csharp
 public RectangleF Rectangle { get; }

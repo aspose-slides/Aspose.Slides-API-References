@@ -24,7 +24,7 @@ public class VideoPlayerHtmlControllerFactory : IVideoPlayerHtmlControllerFactor
 
 | Имя | Описание |
 | --- | --- |
-| [CreateVideoPlayerHtmlController](../../aspose.slides.export/videoplayerhtmlcontrollerfactory/createvideoplayerhtmlcontroller)(string, string, string) | Создает новый` VideoPlayerHtmlController` . |
+| [CreateVideoPlayerHtmlController](../../aspose.slides.export/videoplayerhtmlcontrollerfactory/createvideoplayerhtmlcontroller)(string, string, string) | Создает новый`видеоплеерхтмлконтроллер` . |
 
 ### Примечания
 

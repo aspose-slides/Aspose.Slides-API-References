@@ -1,14 +1,14 @@
 ---
 title: MarginRight
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置 TextFrame 中的右边距点 读/写Double
+description: 返回或设置 TextFrame 中的右边距点 读/写Double.
 type: docs
 weight: 90
 url: /zh/net/aspose.slides/itextframeformat/marginright/
 ---
 ## ITextFrameFormat.MarginRight property
 
-返回或设置 TextFrame 中的右边距（点）。 读/写Double。
+返回或设置 TextFrame 中的右边距（点）。 读/写Double.
 
 ```csharp
 public double MarginRight { get; set; }

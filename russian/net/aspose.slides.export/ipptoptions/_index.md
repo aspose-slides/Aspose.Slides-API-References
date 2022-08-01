@@ -18,7 +18,7 @@ public interface IPptOptions : ISaveOptions
 
 | Имя | Описание |
 | --- | --- |
-| [AsISaveOptions](../../aspose.slides.export/ipptoptions/asisaveoptions) { get; } | Возвращает интерфейс ISaveOptions. Только для чтения[`ISaveOptions`](../isaveoptions). |
+| [AsISaveOptions](../../aspose.slides.export/ipptoptions/asisaveoptions) { get; } | Возвращает интерфейс ISaveOptions. Только для чтения[`ISaveOptions`](../isaveoptions) . |
 | [RootDirectoryClsid](../../aspose.slides.export/ipptoptions/rootdirectoryclsid) { get; set; } | Представляет GUID (CLSID) класса объектов, который хранится в записи корневого каталога. Может использоваться для COM активации приложения документа. Значение по умолчанию — «64818D11-4F9B-11CF-86EA-00AA00B929E8», что соответствует «Microsoft Powerpoint.Slide.8». |
 
 ### Смотрите также

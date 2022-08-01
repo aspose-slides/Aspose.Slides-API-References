@@ -1,14 +1,14 @@
 ---
 title: AccessPermissions
 second_title: Aspose.Slides for .NET API 参考
-description: 包含一组标志指定在打开文档时应授予哪些访问权限 具有用户访问权限请参阅PdfAccessPermissionsaspose.slides.export/pdfaccesspermissions
+description: 包含一组标志指定当文档以用户访问权限打开 时应授予哪些访问权限看PdfAccessPermissionsaspose.slides.export/pdfaccesspermissions.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides.export/ipdfoptions/accesspermissions/
 ---
 ## IPdfOptions.AccessPermissions property
 
-包含一组标志，指定在打开文档时应授予哪些访问权限 具有用户访问权限。请参阅[`PdfAccessPermissions`](../../pdfaccesspermissions)。
+包含一组标志，指定当文档以用户访问权限打开 时应授予哪些访问权限。看[`PdfAccessPermissions`](../../pdfaccesspermissions).
 
 ```csharp
 public PdfAccessPermissions AccessPermissions { get; set; }

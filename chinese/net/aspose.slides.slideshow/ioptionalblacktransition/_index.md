@@ -18,8 +18,8 @@ public interface IOptionalBlackTransition : ITransitionValueBase
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/ioptionalblacktransition/asitransitionvaluebase) { get; } | 允许获取基本 ITransitionValueBase 接口。 只读[`ITransitionValueBase`](../itransitionvaluebase)。 |
-| [FromBlack](../../aspose.slides.slideshow/ioptionalblacktransition/fromblack) { get; set; } | 此属性指定转换是否从黑屏 开始（然后将新幻灯片转换为黑色）。 读/写Boolean。 |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/ioptionalblacktransition/asitransitionvaluebase) { get; } | 允许获取基本 ITransitionValueBase 接口。 只读[`ITransitionValueBase`](../itransitionvaluebase). |
+| [FromBlack](../../aspose.slides.slideshow/ioptionalblacktransition/fromblack) { get; set; } | 此属性指定转换是否从黑屏开始 （然后将新幻灯片转换为黑色）。 读/写Boolean. |
 
 ### 也可以看看
 

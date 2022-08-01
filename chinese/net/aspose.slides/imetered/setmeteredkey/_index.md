@@ -16,8 +16,8 @@ public void SetMeteredKey(string publicKey, string privateKey)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| publicKey | String | 计量公钥。 |
-| privateKey | String | 计量私钥。 |
+| publicKey | String | 计量的公钥。 |
+| privateKey | String | 计量的私钥。 |
 
 ### 也可以看看
 

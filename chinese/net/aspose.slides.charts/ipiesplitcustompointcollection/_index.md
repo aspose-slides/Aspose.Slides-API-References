@@ -1,14 +1,14 @@
 ---
 title: IPieSplitCustomPointCollection
 second_title: Aspose.Slides for .NET API 参考
-description: 表示应在带有自定义拆分的饼图或饼图上的第二个饼图或条形图中绘制的点集合
+description: 表示应在具有自定义拆分的饼图或饼图上的第二个饼图或条形图中绘制的点集合
 type: docs
 weight: 2050
 url: /zh/net/aspose.slides.charts/ipiesplitcustompointcollection/
 ---
 ## IPieSplitCustomPointCollection interface
 
-表示应在带有自定义拆分的饼图或饼图上的第二个饼图或条形图中绘制的点集合。
+表示应在具有自定义拆分的饼图或饼图上的第二个饼图或条形图中绘制的点集合。
 
 ```csharp
 public interface IPieSplitCustomPointCollection : ICollection<IChartDataPoint>
@@ -26,7 +26,7 @@ public interface IPieSplitCustomPointCollection : ICollection<IChartDataPoint>
 | 姓名 | 描述 |
 | --- | --- |
 | [Add](../../aspose.slides.charts/ipiesplitcustompointcollection/add)(int) | 在父系列点集合中按其索引添加数据点。 |
-| [Remove](../../aspose.slides.charts/ipiesplitcustompointcollection/remove)(int) | 通过父系列点集合中的索引从集合中删除项目。 |
+| [Remove](../../aspose.slides.charts/ipiesplitcustompointcollection/remove)(int) | 通过它在父系列点集合中的索引从集合中删除项目。 |
 
 ### 也可以看看
 

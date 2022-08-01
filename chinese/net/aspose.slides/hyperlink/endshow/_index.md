@@ -1,14 +1,14 @@
 ---
 title: EndShow
 second_title: Aspose.Slides for .NET API 参考
-description: 返回结束节目的超链接 只读Hyperlinkaspose.slides/hyperlink
+description: 返回结束节目的超链接 只读Hyperlinkaspose.slides/hyperlink.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides/hyperlink/endshow/
 ---
 ## Hyperlink.EndShow property
 
-返回结束节目的超链接。 只读[`Hyperlink`](../../hyperlink)。
+返回结束节目的超链接。 只读[`Hyperlink`](../../hyperlink).
 
 ```csharp
 public static Hyperlink EndShow { get; }

@@ -1,14 +1,14 @@
 ---
 title: Text
 second_title: Справочник по API Aspose.Slides для .NET
-description: Получает или задает обычный текст для TextFrame. Чтение/записьString.
+description: Получает или задает обычный текст для TextFrame. Чтение/записьString .
 type: docs
 weight: 50
 url: /ru/net/aspose.slides/textframe/text/
 ---
 ## TextFrame.Text property
 
-Получает или задает обычный текст для TextFrame. Чтение/записьString.
+Получает или задает обычный текст для TextFrame. Чтение/записьString .
 
 ```csharp
 public string Text { get; set; }

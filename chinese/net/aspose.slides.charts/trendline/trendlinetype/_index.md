@@ -1,14 +1,14 @@
 ---
 title: TrendlineType
 second_title: Aspose.Slides for .NET API 参考
-description: 获取或设置趋势线的类型 读/写TrendlineTypeaspose.slides.charts/trendlinetype
+description: 获取或设置趋势线的类型 读/写TrendlineTypeaspose.slides.charts/trendlinetype.
 type: docs
 weight: 140
 url: /zh/net/aspose.slides.charts/trendline/trendlinetype/
 ---
 ## Trendline.TrendlineType property
 
-获取或设置趋势线的类型。 读/写[`TrendlineType`](../../trendlinetype)。
+获取或设置趋势线的类型。 读/写[`TrendlineType`](../../trendlinetype).
 
 ```csharp
 public TrendlineType TrendlineType { get; set; }

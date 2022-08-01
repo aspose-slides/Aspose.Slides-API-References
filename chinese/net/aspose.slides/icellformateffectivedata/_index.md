@@ -18,11 +18,11 @@ public interface ICellFormatEffectiveData : IBaseTableFormatEffectiveData
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsIBaseTableFormatEffectiveData](../../aspose.slides/icellformateffectivedata/asibasetableformateffectivedata) { get; } | 允许获取基础 IBaseTableFormatEffectiveData 接口。 只读[`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata)。 |
+| [AsIBaseTableFormatEffectiveData](../../aspose.slides/icellformateffectivedata/asibasetableformateffectivedata) { get; } | 允许获取基本 IBaseTableFormatEffectiveData 接口。 只读[`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata). |
 
 ### 评论
 
-此接口与ICellFormat一起使用接口返回有效的格式值，并应用了继承和表格样式。
+该接口与[`ICellFormat`](../icellformat)接口返回有效的格式值，并应用了继承和表格样式。
 
 ### 也可以看看
 

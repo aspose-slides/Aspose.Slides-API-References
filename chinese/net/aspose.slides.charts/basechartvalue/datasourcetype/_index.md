@@ -1,14 +1,14 @@
 ---
 title: DataSourceType
 second_title: Aspose.Slides for .NET API 参考
-description: 指定 AsCellAsCellsAsLiteralString 或 AsLiteralDouble 属性是否在后代中是实际的换句话说它指定了 Data 属性值的类型  读/写DataSourceTypeaspose.slides.charts/datasourcetype
+description: 指定 AsCellAsCellsAsLiteralString 或 AsLiteralDouble 属性是否在后代中是实际的换句话说它指定了数据属性值的类型  读/写DataSourceTypeaspose.slides.charts/datasourcetype.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides.charts/basechartvalue/datasourcetype/
 ---
 ## BaseChartValue.DataSourceType property
 
-指定 AsCell、AsCells、AsLiteralString 或 AsLiteralDouble 属性是否在后代中是实际的。换句话说，它指定了 Data 属性值的类型 。 读/写[`DataSourceType`](../../datasourcetype)。
+指定 AsCell、AsCells、AsLiteralString 或 AsLiteralDouble 属性是否在后代中是实际的。换句话说，它指定了数据属性值的类型 。 读/写[`DataSourceType`](../../datasourcetype).
 
 ```csharp
 public DataSourceType DataSourceType { get; set; }
@@ -16,7 +16,7 @@ public DataSourceType DataSourceType { get; set; }
 
 ### 评论
 
-对于 ChartDataPointCollection 中的点，此属性是只读的。 在这种情况下，要更改此属性的值，您可以使用 ChartDataPointCollection.DataSourceTypeFor&lt;...&gt; 之一。特性。
+对于 ChartDataPointCollection 中的点，此属性是只读的。 在这种情况下，要更改此属性的值，您可以使用 ChartDataPointCollection.DataSourceTypeFor&lt;...&gt; 属性之一。
 
 ### 也可以看看
 

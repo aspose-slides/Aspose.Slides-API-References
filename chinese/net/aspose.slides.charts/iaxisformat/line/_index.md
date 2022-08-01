@@ -1,14 +1,14 @@
 ---
 title: Line
 second_title: Aspose.Slides for .NET API 参考
-description: 返回轴的线型属性 只读ILineFormataspose.slides/ilineformat
+description: 返回轴的线型属性 只读ILineFormataspose.slides/ilineformat.
 type: docs
 weight: 30
 url: /zh/net/aspose.slides.charts/iaxisformat/line/
 ---
 ## IAxisFormat.Line property
 
-返回轴的线型属性。 只读[`ILineFormat`](../../../aspose.slides/ilineformat)。
+返回轴的线型属性。 只读[`ILineFormat`](../../../aspose.slides/ilineformat).
 
 ```csharp
 public ILineFormat Line { get; }

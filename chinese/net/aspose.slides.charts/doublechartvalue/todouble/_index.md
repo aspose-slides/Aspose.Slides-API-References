@@ -1,14 +1,14 @@
 ---
 title: ToDouble
 second_title: Aspose.Slides for .NET API 参考
-description: 转换为Double
+description: 转换为Double.
 type: docs
 weight: 40
 url: /zh/net/aspose.slides.charts/doublechartvalue/todouble/
 ---
 ## DoubleChartValue.ToDouble method
 
-转换为Double。
+转换为Double.
 
 ```csharp
 public double ToDouble()
@@ -16,7 +16,7 @@ public double ToDouble()
 
 ### 返回值
 
-如果 DataSourceType 等于 DoubleLiterals，则返回 LiteralDouble。 如果 DataSourceType 等于 Worksheet 返回成功转换为双单元格值，否则返回 NaN。
+如果 DataSourceType 等于 DoubleLiterals，则返回 LiteralDouble。 如果 DataSourceType 等于 Worksheet 返回成功转换为双精度单元格值，否则返回 NaN。
 
 ### 也可以看看
 

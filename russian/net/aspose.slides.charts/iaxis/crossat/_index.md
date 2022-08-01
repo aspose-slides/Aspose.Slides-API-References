@@ -1,14 +1,14 @@
 ---
 title: CrossAt
 second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет точку на оси где ее пересекает перпендикулярная ось. Чтение/записьSingle.
+description: Представляет точку на оси где ее пересекает перпендикулярная ось. Чтение/записьSingle .
 type: docs
 weight: 130
 url: /ru/net/aspose.slides.charts/iaxis/crossat/
 ---
 ## IAxis.CrossAt property
 
-Представляет точку на оси, где ее пересекает перпендикулярная ось. Чтение/записьSingle.
+Представляет точку на оси, где ее пересекает перпендикулярная ось. Чтение/записьSingle .
 
 ```csharp
 public float CrossAt { get; set; }

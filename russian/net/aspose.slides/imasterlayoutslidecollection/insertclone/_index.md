@@ -1,14 +1,14 @@
 ---
 title: InsertClone
 second_title: Справочник по API Aspose.Slides для .NET
-description: Вставляет копию указанного слайда макета в указанную позицию коллекции.
+description: Вставляет копию указанного макета слайда в указанную позицию коллекции.
 type: docs
 weight: 50
 url: /ru/net/aspose.slides/imasterlayoutslidecollection/insertclone/
 ---
 ## IMasterLayoutSlideCollection.InsertClone method
 
-Вставляет копию указанного слайда макета в указанную позицию коллекции.
+Вставляет копию указанного макета слайда в указанную позицию коллекции.
 
 ```csharp
 public ILayoutSlide InsertClone(int index, ILayoutSlide sourceLayout)
@@ -16,16 +16,16 @@ public ILayoutSlide InsertClone(int index, ILayoutSlide sourceLayout)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Индекс нового слайда. |
-| sourceLayout | ILayoutSlide | Слайд для клонирования. |
+| index | Int32 | Указатель нового слайда. |
+| sourceLayout | ILayoutSlide | Сдвиньте, чтобы клонировать. |
 
 ### Возвращаемое значение
 
-Вставлен слайд.
+Вставленный слайд.
 
 ### Примечания
 
-Новый макет будет связан с родительским мастер-слайдом для этой коллекции слайдов макета. Итак, это аналог копирования/вставки с опцией «Использовать целевую тему» в PowerPoint.
+Новый макет будет связан с родительским мастер-слайдом для этой коллекции слайдов макета. Таким образом, это аналог копирования/вставки с параметром «Использовать целевую тему» в PowerPoint.
 
 ### Смотрите также
 

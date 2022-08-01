@@ -24,12 +24,12 @@ public class MathDelimiterFactory : IMathDelimiterFactory
 
 | 姓名 | 描述 |
 | --- | --- |
-| [CreateMathDelimiter](../../aspose.slides.mathtext/mathdelimiterfactory/createmathdelimiter#createmathdelimiter)(IMathElement) | 通过应用于元素 |
-| [CreateMathDelimiter](../../aspose.slides.mathtext/mathdelimiterfactory/createmathdelimiter#createmathdelimiter_1)(IMathElementCollection) | 通过应用于元素 |
+| [CreateMathDelimiter](../../aspose.slides.mathtext/mathdelimiterfactory/createmathdelimiter#createmathdelimiter)(IMathElement) | 通过应用于元素创建数学分隔符 |
+| [CreateMathDelimiter](../../aspose.slides.mathtext/mathdelimiterfactory/createmathdelimiter#createmathdelimiter_1)(IMathElementCollection) | 通过应用于元素创建数学分隔符 |
 
 ### 评论
 
-用于 COM 比较
+用于 COM 可比性
 
 ### 也可以看看
 

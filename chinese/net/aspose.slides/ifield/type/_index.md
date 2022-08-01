@@ -1,14 +1,14 @@
 ---
 title: Type
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置字段的类型 读/写IFieldTypeaspose.slides/ifieldtype
+description: 返回或设置字段的类型 读/写IFieldTypeaspose.slides/ifieldtype.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides/ifield/type/
 ---
 ## IField.Type property
 
-返回或设置字段的类型。 读/写[`IFieldType`](../../ifieldtype)。
+返回或设置字段的类型。 读/写[`IFieldType`](../../ifieldtype).
 
 ```csharp
 public IFieldType Type { get; set; }

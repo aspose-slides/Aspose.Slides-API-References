@@ -18,13 +18,13 @@ public interface ISlide : IBaseSlide, IOverrideThemeable
 
 | Имя | Описание |
 | --- | --- |
-| [AsIBaseSlide](../../aspose.slides/islide/asibaseslide) { get; } | Позволяет получить базовый интерфейс IBaseSlide. Только для чтения[`IBaseSlide`](../ibaseslide). |
-| [AsIOverrideThemeable](../../aspose.slides/islide/asioverridethemeable) { get; } | Возвращает интерфейс IOverrideThemeable. Только для чтения[`IOverrideThemeable`](../../aspose.slides.theme/ioverridethemeable). |
-| [HeaderFooterManager](../../aspose.slides/islide/headerfootermanager) { get; } | Возвращает менеджер HeaderFooter слайда. Только для чтения[`ISlideHeaderFooterManager`](../islideheaderfootermanager). |
-| [Hidden](../../aspose.slides/islide/hidden) { get; set; } | Определяет, будет ли указанный слайд скрыт во время показа слайдов. Чтение/записьBoolean. |
-| [LayoutSlide](../../aspose.slides/islide/layoutslide) { get; set; } | Возвращает или задает макет слайда для текущего слайда. Чтение/запись[`ILayoutSlide`](../ilayoutslide). |
-| [NotesSlideManager](../../aspose.slides/islide/notesslidemanager) { get; } | Разрешить доступ к слайду заметок, добавлять и удалять его. Только для чтения[`INotesSlideManager`](../inotesslidemanager). |
-| [SlideNumber](../../aspose.slides/islide/slidenumber) { get; set; } | Возвращает номер слайда. Индекс слайда в коллекции[`Slides`](../ipresentation/slides)всегда равен SlideNumber - 1. Чтение/записьInt32. |
+| [AsIBaseSlide](../../aspose.slides/islide/asibaseslide) { get; } | Позволяет получить базовый интерфейс IBaseSlide. Только для чтения[`IBaseSlide`](../ibaseslide) . |
+| [AsIOverrideThemeable](../../aspose.slides/islide/asioverridethemeable) { get; } | Возвращает интерфейс IOverrideThemeable. Только для чтения[`IOverrideThemeable`](../../aspose.slides.theme/ioverridethemeable) . |
+| [HeaderFooterManager](../../aspose.slides/islide/headerfootermanager) { get; } | Возвращает менеджер HeaderFooter слайда. Только для чтения[`ISlideHeaderFooterManager`](../islideheaderfootermanager) . |
+| [Hidden](../../aspose.slides/islide/hidden) { get; set; } | Определяет, будет ли указанный слайд скрыт во время показа слайдов. Чтение/записьBoolean . |
+| [LayoutSlide](../../aspose.slides/islide/layoutslide) { get; set; } | Возвращает или задает макет слайда для текущего слайда. Чтение/запись[`ILayoutSlide`](../ilayoutslide) . |
+| [NotesSlideManager](../../aspose.slides/islide/notesslidemanager) { get; } | Разрешить доступ к слайду заметок, добавлять и удалять его. Только для чтения[`INotesSlideManager`](../inotesslidemanager) . |
+| [SlideNumber](../../aspose.slides/islide/slidenumber) { get; set; } | Возвращает номер слайда. Индекс слайда в[`Slides`](../ipresentation/slides) коллекция всегда равна SlideNumber - 1. Чтение/записьInt32 . |
 
 ## Методы
 

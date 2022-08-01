@@ -1,14 +1,14 @@
 ---
 title: AsIThemeManager
 second_title: Aspose.Slides for .NET API 参考
-description: 允许获取基本 IThemeManager 接口 只读IThemeManageraspose.slides.theme/ithememanager
+description: 允许获取基本 IThemeManager 接口 只读IThemeManageraspose.slides.theme/ithememanager.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides.theme/imasterthememanager/asithememanager/
 ---
 ## IMasterThemeManager.AsIThemeManager property
 
-允许获取基本 IThemeManager 接口。 只读[`IThemeManager`](../../ithememanager)。
+允许获取基本 IThemeManager 接口。 只读[`IThemeManager`](../../ithememanager).
 
 ```csharp
 public IThemeManager AsIThemeManager { get; }

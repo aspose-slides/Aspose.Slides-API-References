@@ -1,14 +1,14 @@
 ---
 title: AsILayoutable
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает интерфейс ILayoutable. Только для чтенияILayoutableaspose.slides.charts/ilayoutable.
+description: Возвращает интерфейс ILayoutable. Только для чтенияILayoutableaspose.slides.charts/ilayoutable .
 type: docs
 weight: 20
 url: /ru/net/aspose.slides.charts/idatalabel/asilayoutable/
 ---
 ## IDataLabel.AsILayoutable property
 
-Возвращает интерфейс ILayoutable. Только для чтения[`ILayoutable`](../../ilayoutable).
+Возвращает интерфейс ILayoutable. Только для чтения[`ILayoutable`](../../ilayoutable) .
 
 ```csharp
 public ILayoutable AsILayoutable { get; }

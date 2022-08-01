@@ -1,14 +1,14 @@
 ---
 title: AutoShapeLock
 second_title: Aspose.Slides for .NET API 参考
-description: 返回自选图形的锁 只读IAutoShapeLockaspose.slides/iautoshapelock
+description: 返回自选图形的锁 只读IAutoShapeLockaspose.slides/iautoshapelock.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides/iautoshape/autoshapelock/
 ---
 ## IAutoShape.AutoShapeLock property
 
-返回自选图形的锁。 只读[`IAutoShapeLock`](../../iautoshapelock)。
+返回自选图形的锁。 只读[`IAutoShapeLock`](../../iautoshapelock).
 
 ```csharp
 public IAutoShapeLock AutoShapeLock { get; }

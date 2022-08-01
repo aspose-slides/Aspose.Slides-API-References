@@ -1,14 +1,14 @@
 ---
 title: CornerDirectionTransition
 second_title: Справочник по API Aspose.Slides для .NET
-description: Эффект перехода слайда в угловом направлении.
+description: Эффект перехода слайда в направлении угла.
 type: docs
 weight: 9230
 url: /ru/net/aspose.slides.slideshow/cornerdirectiontransition/
 ---
 ## CornerDirectionTransition class
 
-Эффект перехода слайда в угловом направлении.
+Эффект перехода слайда в направлении угла.
 
 ```csharp
 public class CornerDirectionTransition : TransitionValueBase, ICornerDirectionTransition
@@ -18,14 +18,14 @@ public class CornerDirectionTransition : TransitionValueBase, ICornerDirectionTr
 
 | Имя | Описание |
 | --- | --- |
-| [Direction](../../aspose.slides.slideshow/cornerdirectiontransition/direction) { get; set; } | Направление перехода. Чтение/запись[`TransitionCornerDirectionType`](../transitioncornerdirectiontype). |
+| [Direction](../../aspose.slides.slideshow/cornerdirectiontransition/direction) { get; set; } | Направление перехода. Чтение/запись[`TransitionCornerDirectionType`](../transitioncornerdirectiontype) . |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Определяет, равны ли два экземпляра TransitionValueBase. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Служит хэш-функцией для определенного типа, подходящей для использования в алгоритмах хеширования и структурах данных, таких как хэш-таблица. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Служит хеш-функцией для определенного типа, подходящей для использования в алгоритмах хэширования и структурах данных, таких как хэш-таблица. |
 
 ### Смотрите также
 

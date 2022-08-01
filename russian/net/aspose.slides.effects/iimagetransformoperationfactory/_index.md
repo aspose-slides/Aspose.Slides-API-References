@@ -20,7 +20,7 @@ public interface IImageTransformOperationFactory
 | --- | --- |
 | [CreateAlphaBiLevel](../../aspose.slides.effects/iimagetransformoperationfactory/createalphabilevel)(float) | Создает эффект Alpha BiLevel. |
 | [CreateAlphaFloor](../../aspose.slides.effects/iimagetransformoperationfactory/createalphafloor)() | Создает эффект альфа-пола. |
-| [CreateAlphaInverse](../../aspose.slides.effects/iimagetransformoperationfactory/createalphainverse)() | Создает обратный эффект альфа-канала. |
+| [CreateAlphaInverse](../../aspose.slides.effects/iimagetransformoperationfactory/createalphainverse)() | Создает обратный альфа-эффект. |
 | [CreateAlphaModulate](../../aspose.slides.effects/iimagetransformoperationfactory/createalphamodulate)() | Создает эффект альфа-модуляции. |
 | [CreateAlphaModulateFixed](../../aspose.slides.effects/iimagetransformoperationfactory/createalphamodulatefixed)(float) | Создает фиксированный эффект альфа-модуляции. |
 | [CreateAlphaReplace](../../aspose.slides.effects/iimagetransformoperationfactory/createalphareplace)(float) | Создает эффект альфа-замены. |

@@ -1,14 +1,14 @@
 ---
 title: AsISaveOptions
 second_title: Aspose.Slides for .NET API 参考
-description: 返回 ISaveOptions 接口 只读ISaveOptionsaspose.slides.export/isaveoptions
+description: 返回 ISaveOptions 接口 只读ISaveOptionsaspose.slides.export/isaveoptions.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides.export/isvgoptions/asisaveoptions/
 ---
 ## ISVGOptions.AsISaveOptions property
 
-返回 ISaveOptions 接口。 只读[`ISaveOptions`](../../isaveoptions)。
+返回 ISaveOptions 接口。 只读[`ISaveOptions`](../../isaveoptions).
 
 ```csharp
 public ISaveOptions AsISaveOptions { get; }

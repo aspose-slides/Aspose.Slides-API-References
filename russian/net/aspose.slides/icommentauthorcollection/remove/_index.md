@@ -16,14 +16,14 @@ public void Remove(ICommentAuthor author)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| author | ICommentAuthor | Автор, которого необходимо удалить из коллекции. |
+| author | ICommentAuthor | Автора удалить из коллекции. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | Автор` null` |
-| [PptxEditException](../../pptxeditexception) | Выбрасывается, если автор уже удален. |
+| ArgumentNullException | Автор`нулевой` |
+| [PptxEditException](../../pptxeditexception) | Брошен, если автор уже удален. |
 
 ### Смотрите также
 

@@ -20,7 +20,7 @@ public MathAccent(IMathElement element)
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]
@@ -47,12 +47,12 @@ public MathAccent(IMathElement element, char accentCharacter)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| element | IMathElement | 数学元素应用重音 |
+| element | IMathElement | 应用重音的数学元素 |
 | accentCharacter | Char | 重音字符 |
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]

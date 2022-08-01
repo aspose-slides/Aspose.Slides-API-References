@@ -20,7 +20,7 @@ public IVbaModule AddEmptyModule(string name)
 
 ### 返回值
 
-添加模块。
+添加了模块。
 
 ### 也可以看看
 

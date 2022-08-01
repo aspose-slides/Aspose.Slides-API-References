@@ -16,9 +16,9 @@ public IColorOperation Insert(int position, ColorTransformOperation operation, f
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| position | Int32 | 插入操作的索引。 |
+| position | Int32 | 将插入操作的索引。 |
 | operation | ColorTransformOperation | 操作类型。 |
-| parameter | Single | 操作的参数。 |
+| parameter | Single | 操作参数。 |
 
 ### 返回值
 
@@ -44,7 +44,7 @@ public IColorOperation Insert(int position, ColorTransformOperation operation)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| position | Int32 | 插入操作的索引。 |
+| position | Int32 | 将插入操作的索引。 |
 | operation | ColorTransformOperation | 操作类型。 |
 
 ### 返回值

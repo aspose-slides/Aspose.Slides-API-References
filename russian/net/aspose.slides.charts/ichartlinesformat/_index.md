@@ -18,8 +18,8 @@ public interface IChartLinesFormat
 
 | Имя | Описание |
 | --- | --- |
-| [Effect](../../aspose.slides.charts/ichartlinesformat/effect) { get; } | Возвращает эффекты, используемые для линии графика. Только для чтения[`IEffectFormat`](../../aspose.slides/ieffectformat). |
-| [Line](../../aspose.slides.charts/ichartlinesformat/line) { get; } | Возвращает свойства стиля линии линии диаграммы. Только для чтения[`ILineFormat`](../../aspose.slides/ilineformat). |
+| [Effect](../../aspose.slides.charts/ichartlinesformat/effect) { get; } | Возвращает эффекты, используемые для линии диаграммы. Только для чтения[`IEffectFormat`](../../aspose.slides/ieffectformat) . |
+| [Line](../../aspose.slides.charts/ichartlinesformat/line) { get; } | Возвращает свойства стиля линии линии диаграммы. Только для чтения[`ILineFormat`](../../aspose.slides/ilineformat) . |
 
 ### Смотрите также
 

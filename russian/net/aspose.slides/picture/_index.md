@@ -11,19 +11,19 @@ url: /ru/net/aspose.slides/picture/
 Представляет изображение в презентации.
 
 ```csharp
-public class Picture : PVIObject, ISlidesPicture
+public class Picture : ISlidesPicture
 ```
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Позволяет получить базовый интерфейс IPresentationComponent. Только для чтения[`IPresentationComponent`](../ipresentationcomponent). |
-| [Image](../../aspose.slides/picture/image) { get; set; } | Возвращает или устанавливает встроенное изображение. Чтение/запись[`IPPImage`](../ippimage). |
-| [ImageTransform](../../aspose.slides/picture/imagetransform) { get; } | Возвращает набор эффектов преобразования изображения. Только для чтения[`IImageTransformOperationCollection`](../../aspose.slides.effects/iimagetransformoperationcollection). |
-| [LinkPathLong](../../aspose.slides/picture/linkpathlong) { get; set; } | Возвращает наборы URL связанного изображения. Чтение/записьString. |
-| [Presentation](../../aspose.slides/picture/presentation) { get; } | Возвращает презентацию. Только чтение[`IPresentation`](../ipresentation). |
-| [Slide](../../aspose.slides/picture/slide) { get; } | Возвращает родительский слайд изображения. Только для чтения[`IBaseSlide`](../ibaseslide). |
+| [AsIPresentationComponent](../../aspose.slides/picture/asipresentationcomponent) { get; } | Позволяет получить базовый интерфейс IPresentationComponent. Только для чтения[`IPresentationComponent`](../ipresentationcomponent) . |
+| [Image](../../aspose.slides/picture/image) { get; set; } | Возвращает или устанавливает встроенное изображение. Чтение/запись[`IPPImage`](../ippimage) . |
+| [ImageTransform](../../aspose.slides/picture/imagetransform) { get; } | Возвращает набор эффектов преобразования изображения. Только для чтения[`IImageTransformOperationCollection`](../../aspose.slides.effects/iimagetransformoperationcollection) . |
+| [LinkPathLong](../../aspose.slides/picture/linkpathlong) { get; set; } | Возвращает наборы URL-адреса связанного изображения. Чтение/записьString . |
+| [Presentation](../../aspose.slides/picture/presentation) { get; } | Возвращает презентацию. Только для чтения[`IPresentation`](../ipresentation) . |
+| [Slide](../../aspose.slides/picture/slide) { get; } | Возвращает родительский слайд изображения. Только для чтения[`IBaseSlide`](../ibaseslide) . |
 
 ## Методы
 
@@ -34,7 +34,6 @@ public class Picture : PVIObject, ISlidesPicture
 
 ### Смотрите также
 
-* class [PVIObject](../pviobject)
 * interface [ISlidesPicture](../islidespicture)
 * пространство имен [Aspose.Slides](../../aspose.slides)
 * сборка [Aspose.Slides](../../)

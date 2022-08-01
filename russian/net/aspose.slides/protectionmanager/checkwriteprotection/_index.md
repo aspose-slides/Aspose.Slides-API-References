@@ -24,7 +24,7 @@ public bool CheckWriteProtection(string password)
 
 ### Примечания
 
-1. Вы должны проверить свойство[`IsWriteProtected`](../iswriteprotected)перед вызовом этого метод. 2. Когда пароль нулевой или пустой, этот метод возвращает false.
+1. Вы должны проверить[`IsWriteProtected`](../iswriteprotected) перед вызовом этого метода. 2. Если пароль нулевой или пустой, этот метод возвращает false.
 
 ### Примеры
 

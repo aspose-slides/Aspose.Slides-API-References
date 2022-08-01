@@ -16,7 +16,7 @@ public void Remove(ITrendline value)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | ITrendline | Trendline для удаления[`ITrendline`](../../itrendline) |
+| value | ITrendline | Линия тренда, которую нужно удалить[`ITrendline`](../../itrendline) |
 
 ### Смотрите также
 

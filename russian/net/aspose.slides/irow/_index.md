@@ -18,11 +18,11 @@ public interface IRow : IBulkTextFormattable, ICellCollection
 
 | Имя | Описание |
 | --- | --- |
-| [AsIBulkTextFormattable](../../aspose.slides/irow/asibulktextformattable) { get; } | Позволяет получить базовый интерфейс IBulkTextFormattable. Только для чтения[`IBulkTextFormattable`](../ibulktextformattable). |
-| [AsICellCollection](../../aspose.slides/irow/asicellcollection) { get; } | Позволяет получить базовый интерфейс ICellCollection. Только для чтения[`ICellCollection`](../icellcollection). |
-| [Height](../../aspose.slides/irow/height) { get; } | Возвращает высоту строки. Только для чтенияDouble. |
-| [MinimalHeight](../../aspose.slides/irow/minimalheight) { get; set; } | Возвращает или задает минимально возможную высоту строки. Чтение/записьDouble. |
-| [RowFormat](../../aspose.slides/irow/rowformat) { get; } | Возвращает объект RowFormat, который содержит свойства форматирования для этой строки. Только для чтения[`IRowFormat`](../irowformat). |
+| [AsIBulkTextFormattable](../../aspose.slides/irow/asibulktextformattable) { get; } | Позволяет получить базовый интерфейс IBulkTextFormattable. Только для чтения[`IBulkTextFormattable`](../ibulktextformattable) . |
+| [AsICellCollection](../../aspose.slides/irow/asicellcollection) { get; } | Позволяет получить базовый интерфейс ICellCollection. Только для чтения[`ICellCollection`](../icellcollection) . |
+| [Height](../../aspose.slides/irow/height) { get; } | Возвращает высоту строки. Только для чтенияDouble . |
+| [MinimalHeight](../../aspose.slides/irow/minimalheight) { get; set; } | Возвращает или задает минимально возможную высоту строки. Чтение/записьDouble . |
+| [RowFormat](../../aspose.slides/irow/rowformat) { get; } | Возвращает объект RowFormat, содержащий свойства форматирования для этой строки. Только для чтения[`IRowFormat`](../irowformat) . |
 
 ### Смотрите также
 

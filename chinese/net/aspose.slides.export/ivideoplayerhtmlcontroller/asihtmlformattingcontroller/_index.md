@@ -1,14 +1,14 @@
 ---
 title: AsIHtmlFormattingController
 second_title: Aspose.Slides for .NET API 参考
-description: 允许获取基本 IHtmlFormattingController 接口 只读IHtmlFormattingControlleraspose.slides.export/ihtmlformattingcontroller
+description: 允许获取基本 IHtmlFormattingController 接口 只读IHtmlFormattingControlleraspose.slides.export/ihtmlformattingcontroller.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides.export/ivideoplayerhtmlcontroller/asihtmlformattingcontroller/
 ---
 ## IVideoPlayerHtmlController.AsIHtmlFormattingController property
 
-允许获取基本 IHtmlFormattingController 接口。 只读[`IHtmlFormattingController`](../../ihtmlformattingcontroller)。
+允许获取基本 IHtmlFormattingController 接口。 只读[`IHtmlFormattingController`](../../ihtmlformattingcontroller).
 
 ```csharp
 public IHtmlFormattingController AsIHtmlFormattingController { get; }

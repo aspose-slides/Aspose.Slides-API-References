@@ -24,7 +24,7 @@ public SVGOptions()
 
 ## SVGOptions(ILinkEmbedController) {#constructor_1}
 
-初始化指定链接嵌入控制器对象的 SVGOptions 类的新实例。
+初始化 SVGOptions 类的新实例，指定链接嵌入控制器对象。
 
 ```csharp
 public SVGOptions(ILinkEmbedController linkEmbedController)
@@ -36,7 +36,7 @@ public SVGOptions(ILinkEmbedController linkEmbedController)
 
 ### 评论
 
-链接嵌入控制器是一个委托对象，负责在资源（例如图像）是否需要嵌入或引用为 时做出决策外部资源。
+链接嵌入控制器是一个委托对象，它负责决定是否需要将资源（例如图像）嵌入或引用为外部资源。
 
 ### 也可以看看
 

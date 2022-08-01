@@ -1,14 +1,14 @@
 ---
 title: Presentation
 second_title: Aspose.Slides for .NET API 参考
-description: 返回 TextFrame 的父表示 只读IPresentationaspose.slides/ipresentation
+description: 返回 TextFrame 的父表示 只读IPresentationaspose.slides/ipresentation.
 type: docs
 weight: 30
 url: /zh/net/aspose.slides/textframe/presentation/
 ---
 ## TextFrame.Presentation property
 
-返回 TextFrame 的父表示。 只读[`IPresentation`](../../ipresentation)。
+返回 TextFrame 的父表示。 只读[`IPresentation`](../../ipresentation).
 
 ```csharp
 public IPresentation Presentation { get; }

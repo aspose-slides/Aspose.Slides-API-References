@@ -1,14 +1,14 @@
 ---
 title: HeaderFooterManager
 second_title: Aspose.Slides for .NET API 参考
-description: 返回布局幻灯片的 HeaderFooter 管理器 只读ILayoutSlideHeaderFooterManageraspose.slides/ilayoutslideheaderfootermanager
+description: 返回布局幻灯片的 HeaderFooter 管理器 只读ILayoutSlideHeaderFooterManageraspose.slides/ilayoutslideheaderfootermanager.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides/layoutslide/headerfootermanager/
 ---
 ## LayoutSlide.HeaderFooterManager property
 
-返回布局幻灯片的 HeaderFooter 管理器。 只读[`ILayoutSlideHeaderFooterManager`](../../ilayoutslideheaderfootermanager)。
+返回布局幻灯片的 HeaderFooter 管理器。 只读[`ILayoutSlideHeaderFooterManager`](../../ilayoutslideheaderfootermanager).
 
 ```csharp
 public ILayoutSlideHeaderFooterManager HeaderFooterManager { get; }

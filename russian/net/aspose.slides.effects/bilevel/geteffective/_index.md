@@ -1,14 +1,14 @@
 ---
 title: GetEffective
 second_title: Справочник по API Aspose.Slides для .NET
-description: Получает данные эффективного двухуровневого эффекта с применением наследования.
+description: Получает данные об эффективном двухуровневом эффекте с применением наследования.
 type: docs
 weight: 20
 url: /ru/net/aspose.slides.effects/bilevel/geteffective/
 ---
 ## BiLevel.GetEffective method
 
-Получает данные эффективного двухуровневого эффекта с применением наследования.
+Получает данные об эффективном двухуровневом эффекте с применением наследования.
 
 ```csharp
 public IBiLevelEffectiveData GetEffective()
@@ -16,7 +16,7 @@ public IBiLevelEffectiveData GetEffective()
 
 ### Возвращаемое значение
 
-A[`IBiLevelEffectiveData`](../../ibileveleffectivedata).
+А[`IBiLevelEffectiveData`](../../ibileveleffectivedata).
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: AsCell
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置图表数据单元格 读/写IChartDataCellaspose.slides.charts/ichartdatacell
+description: 返回或设置图表数据单元格 读/写IChartDataCellaspose.slides.charts/ichartdatacell.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides.charts/doublechartvalue/ascell/
 ---
 ## DoubleChartValue.AsCell property
 
-返回或设置图表数据单元格。 读/写[`IChartDataCell`](../../ichartdatacell)。
+返回或设置图表数据单元格。 读/写[`IChartDataCell`](../../ichartdatacell).
 
 ```csharp
 public IChartDataCell AsCell { get; set; }

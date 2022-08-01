@@ -16,7 +16,7 @@ public ISlide[] GetDependingSlides()
 
 ### 返回值
 
-[`ISlide`](../../islide)数组，这取决于此母版幻灯片
+数组[`ISlide`](../../islide)，这取决于这张母版幻灯片
 
 ### 也可以看看
 

@@ -8,7 +8,7 @@ url: /ru/net/aspose.slides.animation/behaviorproperty/stylevisibility/
 ---
 ## BehaviorProperty.StyleVisibility property
 
-Представляет свойство 'style.visibility'
+Представляет свойство style.visibility
 
 ```csharp
 public static BehaviorProperty StyleVisibility { get; }

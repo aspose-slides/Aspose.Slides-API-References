@@ -33,7 +33,7 @@ MathematicalText mathText = new MathematicalText();
 
 ## MathematicalText(char) {#constructor_1}
 
-Создать MathText с одиночным символом
+Создать MathText с одним символом
 
 ```csharp
 public MathematicalText(char mathSymbol)
@@ -41,7 +41,7 @@ public MathematicalText(char mathSymbol)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| mathSymbol | Char | одиночный символ |
+| mathSymbol | Char | один символ |
 
 ### Примеры
 
@@ -62,7 +62,7 @@ MathematicalText mathText = new MathematicalText('$');
 
 ## MathematicalText(string) {#constructor_2}
 
-Создать MathematicalText из текста
+Создать MathematicalText из text
 
 ```csharp
 public MathematicalText(string mathText)
@@ -99,8 +99,8 @@ public MathematicalText(string mathText, IPortionFormat portionFormat)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| mathText | String | text value |
-| partionFormat | IPortionFormat | настройки формата текста |
+| mathText | String | текстовое значение |
+| portionFormat | IPortionFormat | настройки формата текста |
 
 ### Примеры
 

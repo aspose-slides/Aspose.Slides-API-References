@@ -8,7 +8,7 @@ url: /ru/net/aspose.slides.animation/behaviorproperty/stylefontstyle/
 ---
 ## BehaviorProperty.StyleFontStyle property
 
-Представляет свойство 'style.fontStyle'
+Представляет свойство style.fontStyle
 
 ```csharp
 public static BehaviorProperty StyleFontStyle { get; }

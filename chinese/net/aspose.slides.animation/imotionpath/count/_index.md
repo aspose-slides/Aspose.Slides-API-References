@@ -1,14 +1,14 @@
 ---
 title: Count
 second_title: Aspose.Slides for .NET API 参考
-description: 返回集合中的路径数 只读Int32
+description: 返回集合中的路径数 只读Int32.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides.animation/imotionpath/count/
 ---
 ## IMotionPath.Count property
 
-返回集合中的路径数。 只读Int32。
+返回集合中的路径数。 只读Int32.
 
 ```csharp
 public int Count { get; }

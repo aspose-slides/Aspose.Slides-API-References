@@ -1,14 +1,14 @@
 ---
 title: UpperLimit
 second_title: Справочник по API Aspose.Slides для .NET
-description: Задает верхний или нижний предел
+description: Указывает верхний или нижний предел
 type: docs
 weight: 40
 url: /ru/net/aspose.slides.mathtext/imathlimit/upperlimit/
 ---
 ## IMathLimit.UpperLimit property
 
-Задает верхний или нижний предел
+Указывает верхний или нижний предел
 
 ```csharp
 public bool UpperLimit { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: AsIEnumerable
 second_title: Справочник по API Aspose.Slides для .NET
-description: Позволяет получить базовый интерфейс IEnumerable. Только для чтенияIEnumerable.
+description: Позволяет получить базовый интерфейс IEnumerable. Только для чтенияIEnumerable .
 type: docs
 weight: 20
 url: /ru/net/aspose.slides.charts/idatalabelcollection/asienumerable/
 ---
 ## IDataLabelCollection.AsIEnumerable property
 
-Позволяет получить базовый интерфейс IEnumerable. Только для чтенияIEnumerable.
+Позволяет получить базовый интерфейс IEnumerable. Только для чтенияIEnumerable .
 
 ```csharp
 public IEnumerable AsIEnumerable { get; }

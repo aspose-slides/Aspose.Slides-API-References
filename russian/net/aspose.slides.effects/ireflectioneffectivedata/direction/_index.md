@@ -1,14 +1,14 @@
 ---
 title: Direction
 second_title: Справочник по API Aspose.Slides для .NET
-description: Направление отражения. Только для чтенияSingle.
+description: Направление отражения. Только для чтенияSingle .
 type: docs
 weight: 30
 url: /ru/net/aspose.slides.effects/ireflectioneffectivedata/direction/
 ---
 ## IReflectionEffectiveData.Direction property
 
-Направление отражения. Только для чтенияSingle.
+Направление отражения. Только для чтенияSingle .
 
 ```csharp
 public float Direction { get; }

@@ -18,15 +18,15 @@ public interface IHyperlink
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ActionType](../../aspose.slides/ihyperlink/actiontype) { get; } | 返回 HyperLinkEx 操作的类型。 只读[`HyperlinkActionType`](../hyperlinkactiontype)。 |
-| [ColorSource](../../aspose.slides/ihyperlink/colorsource) { get; set; } | 表示超链接颜色的来源 - 样式或部分格式。 读/写[`HyperlinkColorSource`](../hyperlinkcolorsource)。 |
-| [ExternalUrl](../../aspose.slides/ihyperlink/externalurl) { get; } | 指定外部 URL 如果此属性变为非空，则属性 TargetSlide 变为空。 只读String。 |
-| [HighlightClick](../../aspose.slides/ihyperlink/highlightclick) { get; set; } | 确定超链接是否应在单击时突出显示。 读/写Boolean。 |
-| [History](../../aspose.slides/ihyperlink/history) { get; set; } | 确定父超链接的目标是否应在调用时将 添加到查看的超链接列表中。 读/写Boolean。 |
-| [StopSoundOnClick](../../aspose.slides/ihyperlink/stopsoundonclick) { get; set; } | 确定是否应在单击超链接时停止声音。 读/写Boolean。 |
-| [TargetFrame](../../aspose.slides/ihyperlink/targetframe) { get; set; } | 为父超链接的目标 返回父 HTML 框架集中的框架（如果存在）。 读/写String。 |
-| [TargetSlide](../../aspose.slides/ihyperlink/targetslide) { get; } | 如果 HyperlinkEx 以特定幻灯片为目标，则返回此幻灯片。 如果属性变为非空，则属性 ExternalUrl 变为空。 只读[`ISlide`](../islide)。 |
-| [Tooltip](../../aspose.slides/ihyperlink/tooltip) { get; set; } | 返回与父超链接相关联的可能出现在用户界面 中的字符串。 读/写String。 |
+| [ActionType](../../aspose.slides/ihyperlink/actiontype) { get; } | 返回 HyperLinkEx 操作的类型。 只读[`HyperlinkActionType`](../hyperlinkactiontype). |
+| [ColorSource](../../aspose.slides/ihyperlink/colorsource) { get; set; } | 表示超链接颜色的来源 - 样式或部分格式。 读/写[`HyperlinkColorSource`](../hyperlinkcolorsource). |
+| [ExternalUrl](../../aspose.slides/ihyperlink/externalurl) { get; } | 指定外部 URL 如果此属性不为空，则属性 TargetSlide 为空。 只读String. |
+| [HighlightClick](../../aspose.slides/ihyperlink/highlightclick) { get; set; } | 确定单击时是否应突出显示超链接。 读/写Boolean. |
+| [History](../../aspose.slides/ihyperlink/history) { get; set; } | 确定父超链接的目标是否应在调用时添加 到查看的超链接列表中。 读/写Boolean. |
+| [StopSoundOnClick](../../aspose.slides/ihyperlink/stopsoundonclick) { get; set; } | 确定是否应在单击超链接时停止声音。 读/写Boolean. |
+| [TargetFrame](../../aspose.slides/ihyperlink/targetframe) { get; set; } | 在父超链接的 target 存在时返回父 HTML 框架集中的框架。 读/写String. |
+| [TargetSlide](../../aspose.slides/ihyperlink/targetslide) { get; } | 如果 HyperlinkEx 以特定幻灯片为目标返回此幻灯片。 如果属性变为非空，则属性 ExternalUrl 变为空。 只读[`ISlide`](../islide). |
+| [Tooltip](../../aspose.slides/ihyperlink/tooltip) { get; set; } | 返回可能在用户界面中显示的字符串 与父超链接相关联。 读/写String. |
 
 ## 方法
 

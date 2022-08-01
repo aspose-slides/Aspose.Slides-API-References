@@ -1,14 +1,14 @@
 ---
 title: Author
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает автора комментария. Только для чтенияICommentAuthoraspose.slides/icommentauthor.
+description: Возвращает автора комментария. Только для чтенияICommentAuthoraspose.slides/icommentauthor .
 type: docs
 weight: 10
 url: /ru/net/aspose.slides/comment/author/
 ---
 ## Comment.Author property
 
-Возвращает автора комментария. Только для чтения[`ICommentAuthor`](../../icommentauthor).
+Возвращает автора комментария. Только для чтения[`ICommentAuthor`](../../icommentauthor) .
 
 ```csharp
 public ICommentAuthor Author { get; }

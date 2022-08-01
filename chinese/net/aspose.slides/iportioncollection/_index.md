@@ -18,8 +18,8 @@ public interface IPortionCollection : IEnumerable<IPortion>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides/iportioncollection/asienumerable) { get; } | 返回 IEnumerable 接口。 只读IEnumerable。 |
-| [Count](../../aspose.slides/iportioncollection/count) { get; } | 获取集合中实际包含的元素数量。 只读Int32。 |
+| [AsIEnumerable](../../aspose.slides/iportioncollection/asienumerable) { get; } | 返回 IEnumerable 接口。 只读IEnumerable. |
+| [Count](../../aspose.slides/iportioncollection/count) { get; } | 获取集合中实际包含的元素数。 只读Int32. |
 | [Item](../../aspose.slides/iportioncollection/item) { get; } | 获取指定索引处的元素。 |
 
 ## 方法
@@ -28,10 +28,10 @@ public interface IPortionCollection : IEnumerable<IPortion>
 | --- | --- |
 | [Add](../../aspose.slides/iportioncollection/add)(IPortion) | 将一个部分添加到集合的末尾。 |
 | [Clear](../../aspose.slides/iportioncollection/clear)() | 从集合中删除所有元素。 |
-| [Contains](../../aspose.slides/iportioncollection/contains)(IPortion) | 确定ICollection是否包含特定值。 |
+| [Contains](../../aspose.slides/iportioncollection/contains)(IPortion) | 确定是否ICollection包含特定值。 |
 | [IndexOf](../../aspose.slides/iportioncollection/indexof)(IPortion) | 确定集合中特定部分的索引。 |
 | [Insert](../../aspose.slides/iportioncollection/insert)(int, IPortion) | 将一个部分插入到集合中指定索引处。 |
-| [Remove](../../aspose.slides/iportioncollection/remove)(IPortion) | 从ICollection中删除特定对象的第一个匹配项。 |
+| [Remove](../../aspose.slides/iportioncollection/remove)(IPortion) | 从ICollection. |
 | [RemoveAt](../../aspose.slides/iportioncollection/removeat)(int) | 移除集合指定索引处的元素。 |
 
 ### 也可以看看

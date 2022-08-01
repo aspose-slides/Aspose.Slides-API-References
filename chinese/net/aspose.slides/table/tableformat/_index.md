@@ -1,14 +1,14 @@
 ---
 title: TableFormat
 second_title: Aspose.Slides for .NET API 参考
-description: 返回包含此表格式属性的 TableFormat 对象 只读ITableFormataspose.slides/itableformat
+description: 返回包含此表格式属性的 TableFormat 对象 只读ITableFormataspose.slides/itableformat.
 type: docs
 weight: 110
 url: /zh/net/aspose.slides/table/tableformat/
 ---
 ## Table.TableFormat property
 
-返回包含此表格式属性的 TableFormat 对象。 只读[`ITableFormat`](../../itableformat)。
+返回包含此表格式属性的 TableFormat 对象。 只读[`ITableFormat`](../../itableformat).
 
 ```csharp
 public ITableFormat TableFormat { get; }

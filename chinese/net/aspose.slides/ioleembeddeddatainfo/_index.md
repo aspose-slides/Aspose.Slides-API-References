@@ -18,8 +18,8 @@ public interface IOleEmbeddedDataInfo
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EmbeddedFileData](../../aspose.slides/ioleembeddeddatainfo/embeddedfiledata) { get; } | 返回嵌入 OLE 对象的文件数据 只读Byte[]。 |
-| [EmbeddedFileExtension](../../aspose.slides/ioleembeddeddatainfo/embeddedfileextension) { get; } | 返回当前嵌入 OLE 对象的文件扩展名 只读String。 |
+| [EmbeddedFileData](../../aspose.slides/ioleembeddeddatainfo/embeddedfiledata) { get; } | 返回嵌入 OLE 对象的文件数据 只读Byte[]. |
+| [EmbeddedFileExtension](../../aspose.slides/ioleembeddeddatainfo/embeddedfileextension) { get; } | 返回当前嵌入 OLE 对象的文件扩展名 只读String. |
 
 ### 也可以看看
 

@@ -16,7 +16,7 @@ public IColorChangeEffectiveData GetEffective()
 
 ### Возвращаемое значение
 
-A[`IColorChangeEffectiveData`](../../icolorchangeeffectivedata).
+А[`IColorChangeEffectiveData`](../../icolorchangeeffectivedata).
 
 ### Смотрите также
 

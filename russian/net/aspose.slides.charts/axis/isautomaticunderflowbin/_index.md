@@ -1,14 +1,14 @@
 ---
 title: IsAutomaticUnderflowBin
 second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет значение корзины для автоматического недополнения. Если falseиспользовать свойство UnderflowBin.
+description: Определяет значение корзины для автоматического недополнения. Если false использовать свойство UnderflowBin.
 type: docs
 weight: 250
 url: /ru/net/aspose.slides.charts/axis/isautomaticunderflowbin/
 ---
 ## Axis.IsAutomaticUnderflowBin property
 
-Определяет значение корзины для автоматического недополнения. Если false:использовать свойство UnderflowBin.
+Определяет значение корзины для автоматического недополнения. Если false: использовать свойство UnderflowBin.
 
 ```csharp
 public bool IsAutomaticUnderflowBin { get; set; }

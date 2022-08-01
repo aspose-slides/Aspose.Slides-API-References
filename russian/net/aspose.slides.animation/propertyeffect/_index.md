@@ -1,14 +1,14 @@
 ---
 title: PropertyEffect
 second_title: Справочник по API Aspose.Slides для .NET
-description: Представляют поведение эффекта свойства.
+description: Представляет поведение эффекта свойства.
 type: docs
 weight: 650
 url: /ru/net/aspose.slides.animation/propertyeffect/
 ---
 ## PropertyEffect class
 
-Представляют поведение эффекта свойства.
+Представляет поведение эффекта свойства.
 
 ```csharp
 public class PropertyEffect : Behavior, IPropertyEffect
@@ -24,16 +24,16 @@ public class PropertyEffect : Behavior, IPropertyEffect
 
 | Имя | Описание |
 | --- | --- |
-| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Указывает, накапливаются ли варианты поведения анимации. Чтение/запись[`NullableBool`](../../aspose.slides/nullablebool). |
-| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Указывает, сочетается ли текущее поведение анимации с другими работающими анимациями. Чтение/запись[`BehaviorAdditiveType`](../behavioradditivetype). |
-| [By](../../aspose.slides.animation/propertyeffect/by) { get; set; } | Определяет значение относительного смещения для анимации относительно ее положения перед началом анимации. Чтение/записьString. |
-| [CalcMode](../../aspose.slides.animation/propertyeffect/calcmode) { get; set; } | Определяет режим интерполяции для анимации Чтение/запись[`PropertyCalcModeType`](../propertycalcmodetype). |
-| [From](../../aspose.slides.animation/propertyeffect/from) { get; set; } | Указывает начальное значение анимации. Чтение/записьString. |
-| [Points](../../aspose.slides.animation/propertyeffect/points) { get; set; } | Определяет точки анимации. Чтение/запись[`IPointCollection`](../ipointcollection). |
-| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | Представляет свойства поведения. Только для чтения[`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
-| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Представляет свойства синхронизации для поведения эффекта. Чтение/запись[`ITiming`](../itiming). |
-| [To](../../aspose.slides.animation/propertyeffect/to) { get; set; } | Указывает конечное значение анимации. Чтение/записьString. |
-| [ValueType](../../aspose.slides.animation/propertyeffect/valuetype) { get; set; } | Указывает тип значения свойства. Чтение/запись[`PropertyValueType`](../propertyvaluetype). |
+| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Указывает, накапливаются ли варианты поведения анимации. Чтение/запись[`NullableBool`](../../aspose.slides/nullablebool) . |
+| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Указывает, комбинируется ли текущее поведение анимации с другими работающими анимациями. Чтение/запись[`BehaviorAdditiveType`](../behavioradditivetype) . |
+| [By](../../aspose.slides.animation/propertyeffect/by) { get; set; } | Задает относительное значение смещения для анимации относительно ее позиции перед началом анимации. Чтение/записьString . |
+| [CalcMode](../../aspose.slides.animation/propertyeffect/calcmode) { get; set; } | Определяет режим интерполяции для анимации Чтение/запись[`PropertyCalcModeType`](../propertycalcmodetype) . |
+| [From](../../aspose.slides.animation/propertyeffect/from) { get; set; } | Указывает начальное значение анимации. Чтение/записьString . |
+| [Points](../../aspose.slides.animation/propertyeffect/points) { get; set; } | Определяет точки анимации. Чтение/запись[`IPointCollection`](../ipointcollection) . |
+| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | Представляет свойства поведения. Только для чтения[`IBehaviorPropertyCollection`](../ibehaviorpropertycollection) . |
+| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Представляет временные свойства поведения эффекта. Чтение/запись[`ITiming`](../itiming) . |
+| [To](../../aspose.slides.animation/propertyeffect/to) { get; set; } | Указывает конечное значение для анимации. Чтение/записьString . |
+| [ValueType](../../aspose.slides.animation/propertyeffect/valuetype) { get; set; } | Определяет тип значения свойства. Чтение/запись[`PropertyValueType`](../propertyvaluetype) . |
 
 ### Смотрите также
 

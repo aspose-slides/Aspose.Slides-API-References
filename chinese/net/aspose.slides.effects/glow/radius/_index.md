@@ -1,14 +1,14 @@
 ---
 title: Radius
 second_title: Aspose.Slides for .NET API 参考
-description: 半径 读/写Double
+description: 半径. 读/写Double.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides.effects/glow/radius/
 ---
 ## Glow.Radius property
 
-半径。 读/写Double。
+半径. 读/写Double.
 
 ```csharp
 public double Radius { get; set; }

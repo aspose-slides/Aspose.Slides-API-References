@@ -1,14 +1,14 @@
 ---
 title: MarginRight
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает правое поле в точках в TextFrame. Только для чтенияDouble.
+description: Возвращает правое поле в точках в TextFrame. Только для чтенияDouble .
 type: docs
 weight: 80
 url: /ru/net/aspose.slides/itextframeformateffectivedata/marginright/
 ---
 ## ITextFrameFormatEffectiveData.MarginRight property
 
-Возвращает правое поле (в точках) в TextFrame. Только для чтенияDouble.
+Возвращает правое поле (в точках) в TextFrame. Только для чтенияDouble .
 
 ```csharp
 public double MarginRight { get; }

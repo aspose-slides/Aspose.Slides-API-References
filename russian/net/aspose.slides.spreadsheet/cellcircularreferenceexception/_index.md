@@ -18,10 +18,10 @@ public class CellCircularReferenceException : PptxEditException
 
 | Имя | Описание |
 | --- | --- |
-| [CellCircularReferenceException](cellcircularreferenceexception#constructor)() | Инициализирует новый экземпляр класса[`CellCircularReferenceException`](../cellcircularreferenceexception). |
-| [CellCircularReferenceException](cellcircularreferenceexception#constructor_1)(string) | Инициализирует новый экземпляр класса[`CellCircularReferenceException`](../cellcircularreferenceexception)с указанным сообщением об ошибке. |
-| [CellCircularReferenceException](cellcircularreferenceexception#constructor_2)(string, Exception) | Инициализирует новый экземпляр класса[`CellCircularReferenceException`](../cellcircularreferenceexception)с указанным сообщением об ошибке и ссылка на внутреннее исключение, которое является причиной этого исключения. |
-| [CellCircularReferenceException](cellcircularreferenceexception#constructor_3)(string, string) | Инициализирует новый экземпляр класса[`CellCircularReferenceException`](../cellcircularreferenceexception)с указанным сообщением об ошибке и циклическая ссылка на ячейку. |
+| [CellCircularReferenceException](cellcircularreferenceexception#constructor)() | Инициализирует новый экземпляр[`CellCircularReferenceException`](../cellcircularreferenceexception) класс. |
+| [CellCircularReferenceException](cellcircularreferenceexception#constructor_1)(string) | Инициализирует новый экземпляр[`CellCircularReferenceException`](../cellcircularreferenceexception) класс с указанным сообщением об ошибке. |
+| [CellCircularReferenceException](cellcircularreferenceexception#constructor_2)(string, Exception) | Инициализирует новый экземпляр[`CellCircularReferenceException`](../cellcircularreferenceexception) класс с указанным сообщением об ошибке и ссылкой на внутреннее исключение, которое является причиной этого исключения. |
+| [CellCircularReferenceException](cellcircularreferenceexception#constructor_3)(string, string) | Инициализирует новый экземпляр[`CellCircularReferenceException`](../cellcircularreferenceexception) класс с указанным сообщением об ошибке и циклической ссылкой на ячейку. |
 
 ## Характеристики
 

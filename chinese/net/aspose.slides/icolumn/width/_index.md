@@ -1,14 +1,14 @@
 ---
 title: Width
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置列的宽度 读/写Double
+description: 返回或设置列的宽度 读/写Double.
 type: docs
 weight: 40
 url: /zh/net/aspose.slides/icolumn/width/
 ---
 ## IColumn.Width property
 
-返回或设置列的宽度。 读/写Double。
+返回或设置列的宽度。 读/写Double.
 
 ```csharp
 public double Width { get; set; }

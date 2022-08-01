@@ -16,7 +16,7 @@ public IPresentation CreatePresentation()
 
 ### 返回值
 
-新演示文稿
+新的演示文稿
 
 ### 也可以看看
 
@@ -29,7 +29,7 @@ public IPresentation CreatePresentation()
 
 ## CreatePresentation(ILoadOptions) {#createpresentation_1}
 
-创建带有附加加载选项的新演示文稿
+使用额外的加载选项创建新的演示文稿
 
 ```csharp
 public IPresentation CreatePresentation(ILoadOptions options)
@@ -41,7 +41,7 @@ public IPresentation CreatePresentation(ILoadOptions options)
 
 ### 返回值
 
-新演示文稿
+新的演示文稿
 
 ### 也可以看看
 

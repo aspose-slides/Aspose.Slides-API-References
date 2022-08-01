@@ -18,15 +18,15 @@ public class TrendlineCollection : DomObject<ChartSeries>, ITrendlineCollection
 
 | Имя | Описание |
 | --- | --- |
-| [Count](../../aspose.slides.charts/trendlinecollection/count) { get; } | Получает количество элементов, фактически содержащихся в коллекции. Только для чтенияInt32. |
-| [Item](../../aspose.slides.charts/trendlinecollection/item) { get; } | Получает элемент по указанному индексу. Только для чтения[`Trendline`](../trendline). |
+| [Count](../../aspose.slides.charts/trendlinecollection/count) { get; } | Получает количество элементов, фактически содержащихся в коллекции. Только для чтенияInt32 . |
+| [Item](../../aspose.slides.charts/trendlinecollection/item) { get; } | Получает элемент по указанному индексу. Только для чтения[`Trendline`](../trendline) . |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
 | [Add](../../aspose.slides.charts/trendlinecollection/add)(TrendlineType) | Добавляет новую линию тренда в конец коллекции и возвращает ее. |
-| [GetEnumerator](../../aspose.slides.charts/trendlinecollection/getenumerator)() | Возвращает перечислитель, который перебирает коллекцию. |
+| [GetEnumerator](../../aspose.slides.charts/trendlinecollection/getenumerator)() | Возвращает перечислитель, который выполняет итерацию по коллекции. |
 | [Remove](../../aspose.slides.charts/trendlinecollection/remove)(ITrendline) | Удаляет указанное значение. |
 
 ### Смотрите также

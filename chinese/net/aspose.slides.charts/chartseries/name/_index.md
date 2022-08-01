@@ -1,14 +1,14 @@
 ---
 title: Name
 second_title: Aspose.Slides for .NET API 参考
-description: 返回系列名称 只读IStringChartValueaspose.slides.charts/istringchartvalue
+description: 返回系列名称 只读IStringChartValueaspose.slides.charts/istringchartvalue.
 type: docs
 weight: 210
 url: /zh/net/aspose.slides.charts/chartseries/name/
 ---
 ## ChartSeries.Name property
 
-返回系列名称。 只读[`IStringChartValue`](../../istringchartvalue)。
+返回系列名称。 只读[`IStringChartValue`](../../istringchartvalue).
 
 ```csharp
 public IStringChartValue Name { get; }

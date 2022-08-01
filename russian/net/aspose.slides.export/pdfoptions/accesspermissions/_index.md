@@ -1,14 +1,14 @@
 ---
 title: AccessPermissions
 second_title: Справочник по API Aspose.Slides для .NET
-description: Содержит набор флагов указывающих какие права доступа должны быть предоставлены при открытии документа с доступом пользователя. См.PdfAccessPermissionsaspose.slides.export/pdfaccesspermissions.
+description: Содержит набор флагов указывающих какие права доступа должны быть предоставлены при открытии документа с доступом пользователя. ВидетьPdfAccessPermissionsaspose.slides.export/pdfaccesspermissions .
 type: docs
 weight: 20
 url: /ru/net/aspose.slides.export/pdfoptions/accesspermissions/
 ---
 ## PdfOptions.AccessPermissions property
 
-Содержит набор флагов, указывающих, какие права доступа должны быть предоставлены при открытии документа с доступом пользователя. См.[`PdfAccessPermissions`](../../pdfaccesspermissions).
+Содержит набор флагов, указывающих, какие права доступа должны быть предоставлены при открытии документа с доступом пользователя. Видеть[`PdfAccessPermissions`](../../pdfaccesspermissions) .
 
 ```csharp
 public PdfAccessPermissions AccessPermissions { get; set; }

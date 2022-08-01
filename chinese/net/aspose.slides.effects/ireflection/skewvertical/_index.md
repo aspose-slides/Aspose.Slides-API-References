@@ -1,14 +1,14 @@
 ---
 title: SkewVertical
 second_title: Aspose.Slides for .NET API 参考
-description: 指定垂直倾斜角度 读/写Double
+description: 指定垂直倾斜角度 读/写Double.
 type: docs
 weight: 140
 url: /zh/net/aspose.slides.effects/ireflection/skewvertical/
 ---
 ## IReflection.SkewVertical property
 
-指定垂直倾斜角度。 读/写Double。
+指定垂直倾斜角度。 读/写Double.
 
 ```csharp
 public double SkewVertical { get; set; }

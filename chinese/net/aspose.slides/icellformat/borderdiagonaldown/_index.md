@@ -1,14 +1,14 @@
 ---
 title: BorderDiagonalDown
 second_title: Aspose.Slides for .NET API 参考
-description: 返回左上角到右下角的对角线属性对象 只读ILineFormataspose.slides/ilineformat
+description: 返回从左上角到右下角的对角线属性对象 只读ILineFormataspose.slides/ilineformat.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides/icellformat/borderdiagonaldown/
 ---
 ## ICellFormat.BorderDiagonalDown property
 
-返回左上角到右下角的对角线属性对象。 只读[`ILineFormat`](../../ilineformat)。
+返回从左上角到右下角的对角线属性对象。 只读[`ILineFormat`](../../ilineformat).
 
 ```csharp
 public ILineFormat BorderDiagonalDown { get; }

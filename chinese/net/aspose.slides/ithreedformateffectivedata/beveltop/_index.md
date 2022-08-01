@@ -1,14 +1,14 @@
 ---
 title: BevelTop
 second_title: Aspose.Slides for .NET API 参考
-description: 返回顶部 3D 斜角的类型 只读IShapeBevelEffectiveDataaspose.slides/ishapebeveleffectivedata
+description: 返回顶部 3D 斜角的类型 只读IShapeBevelEffectiveDataaspose.slides/ishapebeveleffectivedata.
 type: docs
 weight: 30
 url: /zh/net/aspose.slides/ithreedformateffectivedata/beveltop/
 ---
 ## IThreeDFormatEffectiveData.BevelTop property
 
-返回顶部 3D 斜角的类型。 只读[`IShapeBevelEffectiveData`](../../ishapebeveleffectivedata)。
+返回顶部 3D 斜角的类型。 只读[`IShapeBevelEffectiveData`](../../ishapebeveleffectivedata).
 
 ```csharp
 public IShapeBevelEffectiveData BevelTop { get; }

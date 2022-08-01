@@ -23,7 +23,7 @@ public interface IGenericCollection<T> : ICollection, IEnumerable<T>
 | Имя | Описание |
 | --- | --- |
 | [AsICollection](../../aspose.slides/igenericcollection`1/asicollection) { get; } | Возвращает интерфейс ICollection. |
-| [AsIEnumerable](../../aspose.slides/igenericcollection`1/asienumerable) { get; } | Возвращает интерфейс IEnumerable. Только для чтенияIEnumerable. |
+| [AsIEnumerable](../../aspose.slides/igenericcollection`1/asienumerable) { get; } | Возвращает интерфейс IEnumerable. Только для чтенияIEnumerable . |
 
 ### Смотрите также
 

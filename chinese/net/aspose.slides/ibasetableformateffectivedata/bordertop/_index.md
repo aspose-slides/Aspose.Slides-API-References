@@ -1,14 +1,14 @@
 ---
 title: BorderTop
 second_title: Aspose.Slides for .NET API 参考
-description: 返回上边框线格式有效值 只读ILineFormatEffectiveDataaspose.slides/ilineformateffectivedata
+description: 返回上边框线格式有效值 只读ILineFormatEffectiveDataaspose.slides/ilineformateffectivedata.
 type: docs
 weight: 60
 url: /zh/net/aspose.slides/ibasetableformateffectivedata/bordertop/
 ---
 ## IBaseTableFormatEffectiveData.BorderTop property
 
-返回上边框线格式有效值。 只读[`ILineFormatEffectiveData`](../../ilineformateffectivedata)。
+返回上边框线格式有效值。 只读[`ILineFormatEffectiveData`](../../ilineformateffectivedata).
 
 ```csharp
 public ILineFormatEffectiveData BorderTop { get; }

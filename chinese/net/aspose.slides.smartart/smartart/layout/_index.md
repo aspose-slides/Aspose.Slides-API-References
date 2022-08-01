@@ -1,14 +1,14 @@
 ---
 title: Layout
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置 SmartArt 对象的布局 读/写SmartArtLayoutTypeaspose.slides.smartart/smartartlayouttype
+description: 返回或设置 SmartArt 对象的布局 读/写SmartArtLayoutTypeaspose.slides.smartart/smartartlayouttype.
 type: docs
 weight: 40
 url: /zh/net/aspose.slides.smartart/smartart/layout/
 ---
 ## SmartArt.Layout property
 
-返回或设置 SmartArt 对象的布局。 读/写[`SmartArtLayoutType`](../../smartartlayouttype)。
+返回或设置 SmartArt 对象的布局。 读/写[`SmartArtLayoutType`](../../smartartlayouttype).
 
 ```csharp
 public SmartArtLayoutType Layout { get; set; }

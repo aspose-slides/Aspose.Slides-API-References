@@ -1,14 +1,14 @@
 ---
 title: TabAlignment
 second_title: Aspose.Slides for .NET API 参考
-description: 表示制表符对齐
+description: 代表制表符对齐方式
 type: docs
 weight: 10020
 url: /zh/net/aspose.slides/tabalignment/
 ---
 ## TabAlignment enumeration
 
-表示制表符对齐。
+代表制表符对齐方式。
 
 ```csharp
 public enum TabAlignment
@@ -21,7 +21,7 @@ public enum TabAlignment
 | Left | `0` | 左对齐 |
 | Center | `1` | 居中对齐 |
 | Right | `2` | 右对齐 |
-| Decimal | `3` | 十进制对齐 |
+| Decimal | `3` | 小数对齐 |
 
 ### 也可以看看
 

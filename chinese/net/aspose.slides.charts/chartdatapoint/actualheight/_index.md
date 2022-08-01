@@ -1,14 +1,14 @@
 ---
 title: ActualHeight
 second_title: Aspose.Slides for .NET API 参考
-description: 指定图表元素的实际高度在获取实际值之前调用方法 IChart.ValidateChartLayout 读取Single
+description: 指定图表元素的实际高度在获取实际值之前调用方法 IChart.ValidateChartLayout 读Single.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides.charts/chartdatapoint/actualheight/
 ---
 ## ChartDataPoint.ActualHeight property
 
-指定图表元素的实际高度。在获取实际值之前调用方法 IChart.ValidateChartLayout()。 读取Single。
+指定图表元素的实际高度。在获取实际值之前调用方法 IChart.ValidateChartLayout()。 读Single.
 
 ```csharp
 public float ActualHeight { get; }

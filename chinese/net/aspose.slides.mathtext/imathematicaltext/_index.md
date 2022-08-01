@@ -1,14 +1,14 @@
 ---
 title: IMathematicalText
 second_title: Aspose.Slides for .NET API 参考
-description: 数学文本
+description: 数学课文
 type: docs
 weight: 7790
 url: /zh/net/aspose.slides.mathtext/imathematicaltext/
 ---
 ## IMathematicalText interface
 
-数学文本
+数学课文
 
 ```csharp
 public interface IMathematicalText : IMathElement
@@ -24,7 +24,7 @@ public interface IMathematicalText : IMathElement
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]

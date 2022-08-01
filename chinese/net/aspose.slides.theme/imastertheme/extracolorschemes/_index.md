@@ -1,14 +1,14 @@
 ---
 title: ExtraColorSchemes
 second_title: Aspose.Slides for .NET API 参考
-description: 返回附加配色方案的集合 这些方案不会影响演示文稿的外观它们可以被选为幻灯片的主要配色方案 只读IExtraColorSchemeCollectionaspose.slides.theme/iextracolorschemecollection
+description: 返回附加配色方案的集合 这些配色方案不会影响演示文稿的外观它们可以被选为幻灯片的主要配色方案 只读IExtraColorSchemeCollectionaspose.slides.theme/iextracolorschemecollection.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides.theme/imastertheme/extracolorschemes/
 ---
 ## IMasterTheme.ExtraColorSchemes property
 
-返回附加配色方案的集合。 这些方案不会影响演示文稿的外观，它们可以被选为幻灯片的主要配色方案。 只读[`IExtraColorSchemeCollection`](../../iextracolorschemecollection)。
+返回附加配色方案的集合。 这些配色方案不会影响演示文稿的外观，它们可以被选为幻灯片的主要配色方案。 只读[`IExtraColorSchemeCollection`](../../iextracolorschemecollection).
 
 ```csharp
 public IExtraColorSchemeCollection ExtraColorSchemes { get; }

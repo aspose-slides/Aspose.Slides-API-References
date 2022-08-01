@@ -1,14 +1,14 @@
 ---
 title: PointsType
 second_title: Aspose.Slides for .NET API 参考
-description: 指定命令点类型 读/写MotionPathPointsTypeaspose.slides.animation/motionpathpointstype
+description: 指定命令点 type 读/写MotionPathPointsTypeaspose.slides.animation/motionpathpointstype.
 type: docs
 weight: 40
 url: /zh/net/aspose.slides.animation/motioncmdpath/pointstype/
 ---
 ## MotionCmdPath.PointsType property
 
-指定命令点类型 读/写[`MotionPathPointsType`](../../motionpathpointstype)。
+指定命令点 type 读/写[`MotionPathPointsType`](../../motionpathpointstype).
 
 ```csharp
 public MotionPathPointsType PointsType { get; set; }

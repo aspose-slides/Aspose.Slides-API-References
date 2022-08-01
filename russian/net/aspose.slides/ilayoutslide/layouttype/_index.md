@@ -1,14 +1,14 @@
 ---
 title: LayoutType
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает тип макета этого слайда макета. Только для чтенияSlideLayoutTypeaspose.slides/slidelayouttype.
+description: Возвращает тип макета этого слайда макета. Только для чтенияSlideLayoutTypeaspose.slides/slidelayouttype .
 type: docs
 weight: 50
 url: /ru/net/aspose.slides/ilayoutslide/layouttype/
 ---
 ## ILayoutSlide.LayoutType property
 
-Возвращает тип макета этого слайда макета. Только для чтения[`SlideLayoutType`](../../slidelayouttype).
+Возвращает тип макета этого слайда макета. Только для чтения[`SlideLayoutType`](../../slidelayouttype) .
 
 ```csharp
 public SlideLayoutType LayoutType { get; }

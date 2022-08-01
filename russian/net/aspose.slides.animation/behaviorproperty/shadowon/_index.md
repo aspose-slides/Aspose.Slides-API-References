@@ -8,7 +8,7 @@ url: /ru/net/aspose.slides.animation/behaviorproperty/shadowon/
 ---
 ## BehaviorProperty.ShadowOn property
 
-Представляет свойство 'shadow.on'
+Представляет свойство shadow.on
 
 ```csharp
 public static BehaviorProperty ShadowOn { get; }

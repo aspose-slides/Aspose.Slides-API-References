@@ -8,7 +8,7 @@ url: /zh/net/aspose.slides.animation/behaviorproperty/skewon/
 ---
 ## BehaviorProperty.SkewOn property
 
-表示'skew.on'属性
+表示“skew.on”属性
 
 ```csharp
 public static BehaviorProperty SkewOn { get; }

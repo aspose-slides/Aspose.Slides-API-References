@@ -18,10 +18,10 @@ public sealed class TemplateContext<TObject>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Global](../../aspose.slides.export.web/templatecontext`1/global) { get; } | 返回主文档的全局存储。 只读[`Storage`](../storage)。 |
-| [Local](../../aspose.slides.export.web/templatecontext`1/local) { get; } | 返回当前模板上下文的本地存储。 只读[`Storage`](../storage)。 |
-| [Object](../../aspose.slides.export.web/templatecontext`1/object) { get; } | 返回模型对象。 只读!:TObject。 |
-| [Output](../../aspose.slides.export.web/templatecontext`1/output) { get; } | 返回宿主文档的输出元素的集合。 只读[`Output`](./output)。 |
+| [Global](../../aspose.slides.export.web/templatecontext`1/global) { get; } | 返回主文档的全局存储。 只读[`Storage`](../storage). |
+| [Local](../../aspose.slides.export.web/templatecontext`1/local) { get; } | 返回当前模板上下文的本地存储。 只读[`Storage`](../storage). |
+| [Object](../../aspose.slides.export.web/templatecontext`1/object) { get; } | 返回模型对象。 只读!:TObject. |
+| [Output](../../aspose.slides.export.web/templatecontext`1/output) { get; } | 返回主文档的输出元素的集合。 只读[`Output`](./output). |
 
 ## 方法
 

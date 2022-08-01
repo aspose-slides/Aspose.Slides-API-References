@@ -1,14 +1,14 @@
 ---
 title: ISplitTransition
 second_title: Справочник по API Aspose.Slides для .NET
-description: Эффект перехода между слайдами.
+description: Эффект перехода с разделенным слайдом.
 type: docs
 weight: 9420
 url: /ru/net/aspose.slides.slideshow/isplittransition/
 ---
 ## ISplitTransition interface
 
-Эффект перехода между слайдами.
+Эффект перехода с разделенным слайдом.
 
 ```csharp
 public interface ISplitTransition : ITransitionValueBase
@@ -18,9 +18,9 @@ public interface ISplitTransition : ITransitionValueBase
 
 | Имя | Описание |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/isplittransition/asitransitionvaluebase) { get; } | Позволяет получить базовый интерфейс ITransitionValueBase. Только для чтения[`ITransitionValueBase`](../itransitionvaluebase). |
-| [Direction](../../aspose.slides.slideshow/isplittransition/direction) { get; set; } | Направление разделения перехода. Чтение/запись[`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
-| [Orientation](../../aspose.slides.slideshow/isplittransition/orientation) { get; set; } | Ориентация разделения перехода. Чтение/запись[`Orientation`](../../aspose.slides/orientation). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/isplittransition/asitransitionvaluebase) { get; } | Позволяет получить базовый интерфейс ITransitionValueBase. Только для чтения[`ITransitionValueBase`](../itransitionvaluebase) . |
+| [Direction](../../aspose.slides.slideshow/isplittransition/direction) { get; set; } | Разделение направления перехода. Чтение/запись[`TransitionInOutDirectionType`](../transitioninoutdirectiontype) . |
+| [Orientation](../../aspose.slides.slideshow/isplittransition/orientation) { get; set; } | Ориентация разделения перехода. Чтение/запись[`Orientation`](../../aspose.slides/orientation) . |
 
 ### Смотрите также
 

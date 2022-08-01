@@ -18,16 +18,16 @@ public interface ISlideSize
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Orientation](../../aspose.slides/islidesize/orientation) { get; set; } | 返回或设置幻灯片方向。  更改此值将交换幻灯片的尺寸。 读/写[`SlideOrientation`](../slideorientation)。 |
-| [Size](../../aspose.slides/islidesize/size) { get; } | 以磅为单位返回或设置大小。  赋值将重置[`Type`](./type) 属性为Custom并设置[`Orientation`](./orientation) 。 读/写SizeF。 |
-| [Type](../../aspose.slides/islidesize/type) { get; } | 返回或设置幻灯片大小的类型。  分配除Custom之外的任何值都会改变[`Size`](./size) 相应，但将保持[`Orientation`](./orientation) 完好无损。 读/写[`SlideSizeType`](../slidesizetype)。 |
+| [Orientation](../../aspose.slides/islidesize/orientation) { get; set; } | 返回或设置幻灯片方向。 更改此值将交换幻灯片的尺寸。 读/写[`SlideOrientation`](../slideorientation). |
+| [Size](../../aspose.slides/islidesize/size) { get; } | 以磅为单位返回或设置大小。 分配任何值都会重置[`类型`](./type)财产Custom并设置[`方向`](./orientation). 读/写SizeF. |
+| [Type](../../aspose.slides/islidesize/type) { get; } | 返回或设置幻灯片大小的类型。 分配任何值，除了Custom将改变[`尺寸`](./size)因此，但会保持[`方向`](./orientation)完好无损的。 读/写[`SlideSizeType`](../slidesizetype). |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [SetSize](../../aspose.slides/islidesize/setsize#setsize)(SlideSizeType, SlideSizeScaleType) | 设置幻灯片大小的类型并使用缩放类型缩放内容。  分配除Custom之外的任何值都会改变[`Size`](./size) 相应，但将保持[`Orientation`](./orientation) 完好无损。 |
-| [SetSize](../../aspose.slides/islidesize/setsize#setsize_1)(float, float, SlideSizeScaleType) | 以磅为单位设置大小并使用缩放类型缩放内容。  赋值将重置[`Type`](./type) 属性为Custom并设置[`Orientation`](./orientation) 。 |
+| [SetSize](../../aspose.slides/islidesize/setsize#setsize)(SlideSizeType, SlideSizeScaleType) | 设置幻灯片大小的类型并使用缩放类型缩放内容。 分配任何值，除了Custom将改变[`尺寸`](./size)因此，但会保持[`方向`](./orientation)完好无损的。 |
+| [SetSize](../../aspose.slides/islidesize/setsize#setsize_1)(float, float, SlideSizeScaleType) | 以磅为单位设置大小并使用缩放类型缩放内容。 分配任何值都会重置[`类型`](./type)财产Custom并设置[`方向`](./orientation). |
 
 ### 也可以看看
 

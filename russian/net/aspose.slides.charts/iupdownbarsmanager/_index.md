@@ -1,14 +1,14 @@
 ---
 title: IUpDownBarsManager
 second_title: Справочник по API Aspose.Slides для .NET
-description: Обеспечивает доступ к барам вверх/вниз линейного или биржевого графика.
+description: Предоставляет доступ к барам вверх/вниз линейного или биржевого графика.
 type: docs
 weight: 2120
 url: /ru/net/aspose.slides.charts/iupdownbarsmanager/
 ---
 ## IUpDownBarsManager interface
 
-Обеспечивает доступ к барам вверх/вниз линейного или биржевого графика.
+Предоставляет доступ к барам вверх/вниз линейного или биржевого графика.
 
 ```csharp
 public interface IUpDownBarsManager
@@ -18,10 +18,10 @@ public interface IUpDownBarsManager
 
 | Имя | Описание |
 | --- | --- |
-| [DownBarsFormat](../../aspose.slides.charts/iupdownbarsmanager/downbarsformat) { get; } | Возвращает формат даунбаров. Только для чтения[`IFormat`](../iformat). |
-| [GapWidth](../../aspose.slides.charts/iupdownbarsmanager/gapwidth) { get; set; } | Возвращает или устанавливает ширину промежутка. Чтение/записьInt32. |
-| [HasUpDownBars](../../aspose.slides.charts/iupdownbarsmanager/hasupdownbars) { get; set; } | Определяет, есть ли на диаграмме столбцы вверх/вниз. Чтение/записьBoolean. |
-| [UpBarsFormat](../../aspose.slides.charts/iupdownbarsmanager/upbarsformat) { get; } | Возвращает формат баров вверх. Только для чтения[`IFormat`](../iformat). |
+| [DownBarsFormat](../../aspose.slides.charts/iupdownbarsmanager/downbarsformat) { get; } | Возвращает формат даунбаров. Только для чтения[`IFormat`](../iformat) . |
+| [GapWidth](../../aspose.slides.charts/iupdownbarsmanager/gapwidth) { get; set; } | Возвращает или задает ширину промежутка. Чтение/записьInt32 . |
+| [HasUpDownBars](../../aspose.slides.charts/iupdownbarsmanager/hasupdownbars) { get; set; } | Определяет, есть ли на диаграмме столбцы вверх/вниз. Чтение/записьBoolean . |
+| [UpBarsFormat](../../aspose.slides.charts/iupdownbarsmanager/upbarsformat) { get; } | Возвращает формат восходящих баров. Только для чтения[`IFormat`](../iformat) . |
 
 ### Смотрите также
 

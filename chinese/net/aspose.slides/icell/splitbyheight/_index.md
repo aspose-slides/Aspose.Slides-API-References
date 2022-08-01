@@ -16,7 +16,7 @@ public void SplitByHeight(double height)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| height | Double | 行高。 |
+| height | Double | 一排的高度。 |
 
 ### 也可以看看
 

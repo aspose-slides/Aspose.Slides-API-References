@@ -1,14 +1,14 @@
 ---
 title: ExternalResourceResolver
 second_title: Aspose.Slides for .NET API 参考
-description: 返回Svg文档导入时解析外部资源的回调接口 只读IExternalResourceResolveraspose.slides.import/iexternalresourceresolver
+description: 在Svg文档导入时返回用于解析外部资源的回调接口 只读IExternalResourceResolveraspose.slides.import/iexternalresourceresolver.
 type: docs
 weight: 30
 url: /zh/net/aspose.slides/svgimage/externalresourceresolver/
 ---
 ## SvgImage.ExternalResourceResolver property
 
-返回Svg文档导入时解析外部资源的回调接口。 只读[`IExternalResourceResolver`](../../../aspose.slides.import/iexternalresourceresolver)。
+在Svg文档导入时返回用于解析外部资源的回调接口。 只读[`IExternalResourceResolver`](../../../aspose.slides.import/iexternalresourceresolver).
 
 ```csharp
 public IExternalResourceResolver ExternalResourceResolver { get; }

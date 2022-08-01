@@ -1,14 +1,14 @@
 ---
 title: INormalViewRestoredProperties
 second_title: Aspose.Slides for .NET API 参考
-description: 指定普通视图的滑动区域的大小当为restoredTop的孩子时为宽度当为 为restoredLeft的孩子时为高度当区域具有可变的恢复大小时既没有最小化也没有最大化
+description: 指定正常视图的滑动区域的大小宽度为restoredTop 的孩子高度为a 为restoredLeft 的孩子当该区域具有可变的恢复大小既不最小化也不最大化时
 type: docs
 weight: 5920
 url: /zh/net/aspose.slides/inormalviewrestoredproperties/
 ---
 ## INormalViewRestoredProperties interface
 
-指定普通视图的滑动区域的大小（（当为restoredTop的孩子时为宽度，当为 为restoredLeft的孩子时为高度），当区域具有可变的恢复大小时（既没有最小化也没有最大化）。
+指定正常视图的滑动区域的大小（（宽度为restoredTop 的孩子，高度为a 为restoredLeft 的孩子），当该区域具有可变的恢复大小（既不最小化也不最大化）时。
 
 ```csharp
 public interface INormalViewRestoredProperties
@@ -18,8 +18,8 @@ public interface INormalViewRestoredProperties
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AutoAdjust](../../aspose.slides/inormalviewrestoredproperties/autoadjust) { get; set; } | 指定在应用程序中调整包含视图的窗口大小时，侧边内容区域的大小是否应补偿新大小 读/写Boolean。 |
-| [DimensionSize](../../aspose.slides/inormalviewrestoredproperties/dimensionsize) { get; set; } | 指定滑动区域的大小（RestoredTop 的子级时宽度，RestoredLeft 的 子级时的高度）。 读/写Single。  当值小于 0 或大于 100 时抛出。 |
+| [AutoAdjust](../../aspose.slides/inormalviewrestoredproperties/autoadjust) { get; set; } | 指定在应用程序中调整包含视图的窗口大小时，侧面内容区域的大小是否应补偿新的大小 读/写Boolean. |
+| [DimensionSize](../../aspose.slides/inormalviewrestoredproperties/dimensionsize) { get; set; } | 指定滑动区域的大小（宽度为RestoredTop 的子级，高度为a 的RestoredLeft 的子级）。 读/写Single. 当值小于 0 且大于 100 时抛出。 |
 
 ### 也可以看看
 

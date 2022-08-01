@@ -18,8 +18,8 @@ public interface ICommonSlideViewProperties
 
 | Имя | Описание |
 | --- | --- |
-| [Scale](../../aspose.slides/icommonslideviewproperties/scale) { get; set; } | Задает коэффициент масштабирования представления в процентах. Чтение/записьInt32. |
-| [VariableScale](../../aspose.slides/icommonslideviewproperties/variablescale) { get; set; } | Указывает, что содержимое представления должно автоматически масштабироваться для наилучшего соответствия текущему размеру окна. Чтение/записьBoolean. |
+| [Scale](../../aspose.slides/icommonslideviewproperties/scale) { get; set; } | Указывает коэффициент масштабирования представления в процентах. Чтение/записьInt32 . |
+| [VariableScale](../../aspose.slides/icommonslideviewproperties/variablescale) { get; set; } | Указывает, что содержимое представления должно автоматически масштабироваться для наилучшего соответствия текущему размеру окна. Чтение/записьBoolean . |
 
 ### Смотрите также
 

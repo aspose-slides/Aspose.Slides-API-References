@@ -16,7 +16,7 @@ public IMathSubscriptElement SetSubscript(IMathElement subscript)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| subscript | IMathElement | 下标（右侧下标） |
+| subscript | IMathElement | 下标（右下标） |
 
 ### 返回值
 
@@ -24,7 +24,7 @@ public IMathSubscriptElement SetSubscript(IMathElement subscript)
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]
@@ -52,7 +52,7 @@ public IMathSubscriptElement SetSubscript(string subscript)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| subscript | String | 下标（右侧下标） |
+| subscript | String | 下标（右下标） |
 
 ### 返回值
 
@@ -60,7 +60,7 @@ public IMathSubscriptElement SetSubscript(string subscript)
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]

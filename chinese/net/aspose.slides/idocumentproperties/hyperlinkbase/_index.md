@@ -1,14 +1,14 @@
 ---
 title: HyperlinkBase
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置 HyperlinkBase 文档属性 读/写String
+description: 返回或设置 HyperlinkBase 文档属性 读/写String.
 type: docs
 weight: 110
 url: /zh/net/aspose.slides/idocumentproperties/hyperlinkbase/
 ---
 ## IDocumentProperties.HyperlinkBase property
 
-返回或设置 HyperlinkBase 文档属性。 读/写String。
+返回或设置 HyperlinkBase 文档属性。 读/写String.
 
 ```csharp
 public string HyperlinkBase { get; set; }

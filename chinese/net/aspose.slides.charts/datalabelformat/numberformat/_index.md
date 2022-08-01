@@ -1,14 +1,14 @@
 ---
 title: NumberFormat
 second_title: Aspose.Slides for .NET API 参考
-description: 表示 DataLabels 对象的格式字符串 读/写String
+description: 表示 DataLabels 对象的格式字符串 读/写String.
 type: docs
 weight: 40
 url: /zh/net/aspose.slides.charts/datalabelformat/numberformat/
 ---
 ## DataLabelFormat.NumberFormat property
 
-表示 DataLabels 对象的格式字符串。 读/写String。
+表示 DataLabels 对象的格式字符串。 读/写String.
 
 ```csharp
 public string NumberFormat { get; set; }
@@ -16,7 +16,7 @@ public string NumberFormat { get; set; }
 
 ### 评论
 
-如果此 DataLabelFormat 对象的父对象是数据标签的 DataLabelCollection 集合，则此 属性获取或设置 DataLabelCollection 集合中新数据 标签的 NumberFormat 属性的默认值。 表示 DataLabel 对象的格式字符串。 将此属性设置为 value 也将此值设置为 NumberFormat 属性 用于 DataLabelCollection 集合中的所有数据标签 （即“DataLabels.DefaultDataLabelFormat.NumberFormat = val;" 导致 所有 DataLabels[i].NumberFormat 等于 val)。
+如果此 DataLabelFormat 对象的父对象是数据标签的 DataLabelCollection 集合，则 this 属性获取或设置 DataLabelCollection 集合中新数据 标签的 NumberFormat 属性的默认值。 表示 DataLabel 对象的格式字符串。 设置此具有值的属性还将该值设置为 DataLabelCollection 集合中所有数据标签的 NumberFormat 属性 （即“DataLabels.DefaultDataLabelFormat.NumberFormat = val;”导致 所有 DataLabels[i].NumberFormat 等于 val）。
 
 ### 也可以看看
 

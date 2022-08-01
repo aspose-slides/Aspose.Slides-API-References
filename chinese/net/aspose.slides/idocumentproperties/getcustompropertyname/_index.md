@@ -26,7 +26,7 @@ public string GetCustomPropertyName(int index)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentOutOfRangeException | 索引小于零。 Index 等于或大于 Count。 |
+| ArgumentOutOfRangeException | 索引小于零。索引等于或大于 Count. |
 
 ### 也可以看看
 

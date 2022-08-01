@@ -16,7 +16,7 @@ public void SetWriteProtection(string password)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| пароль | String | Пароль. |
+| password | String | Пароль. |
 
 ### Смотрите также
 

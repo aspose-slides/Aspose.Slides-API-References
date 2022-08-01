@@ -24,7 +24,7 @@ public IShape AddClone(IShape sourceShape, float x, float y, float width, float 
 
 ### 返回值
 
-新形状。
+新造型。
 
 ### 也可以看看
 
@@ -37,7 +37,7 @@ public IShape AddClone(IShape sourceShape, float x, float y, float width, float 
 
 ## AddClone(IShape, float, float) {#addclone_1}
 
-将指定形状的副本添加到集合的末尾。 新形状的宽度和高度等于*sourceShape*的宽度和高度。
+将指定形状的副本添加到集合的末尾。 新形状的宽度和高度等于*sourceShape*.
 
 ```csharp
 public IShape AddClone(IShape sourceShape, float x, float y)
@@ -51,7 +51,7 @@ public IShape AddClone(IShape sourceShape, float x, float y)
 
 ### 返回值
 
-新形状。
+新造型。
 
 ### 也可以看看
 
@@ -64,7 +64,7 @@ public IShape AddClone(IShape sourceShape, float x, float y)
 
 ## AddClone(IShape) {#addclone}
 
-将指定形状的副本添加到集合的末尾。 新形状的 X、Y、宽度和高度等于*sourceShape*的 X、Y、宽度和高度。
+将指定形状的副本添加到集合的末尾。 新形状的 X、Y、宽度和高度等于 X、Y、宽度和高度*sourceShape*.
 
 ```csharp
 public IShape AddClone(IShape sourceShape)
@@ -76,7 +76,7 @@ public IShape AddClone(IShape sourceShape)
 
 ### 返回值
 
-新形状。
+新造型。
 
 ### 也可以看看
 

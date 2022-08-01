@@ -1,14 +1,14 @@
 ---
 title: Company
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置公司属性 读/写String
+description: 返回或设置公司属性 读/写String.
 type: docs
 weight: 70
 url: /zh/net/aspose.slides/documentproperties/company/
 ---
 ## DocumentProperties.Company property
 
-返回或设置公司属性。 读/写String。
+返回或设置公司属性。 读/写String.
 
 ```csharp
 public string Company { get; set; }

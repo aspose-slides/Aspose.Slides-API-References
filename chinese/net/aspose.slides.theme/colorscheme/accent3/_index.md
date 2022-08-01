@@ -1,14 +1,14 @@
 ---
 title: Accent3
 second_title: Aspose.Slides for .NET API 参考
-description: 方案中的第三个强调色 只读IColorFormataspose.slides/icolorformat
+description: 方案中的第三个强调色 只读IColorFormataspose.slides/icolorformat.
 type: docs
 weight: 30
 url: /zh/net/aspose.slides.theme/colorscheme/accent3/
 ---
 ## ColorScheme.Accent3 property
 
-方案中的第三个强调色。 只读[`IColorFormat`](../../../aspose.slides/icolorformat)。
+方案中的第三个强调色。 只读[`IColorFormat`](../../../aspose.slides/icolorformat).
 
 ```csharp
 public IColorFormat Accent3 { get; }

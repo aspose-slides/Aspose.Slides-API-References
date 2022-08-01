@@ -25,7 +25,7 @@ public IChart InsertChart(ChartType type, float x, float y, float width, float h
 
 ### 返回值
 
-创建图表。
+创建的图表。
 
 ### 也可以看看
 
@@ -54,11 +54,11 @@ public IChart InsertChart(ChartType type, float x, float y, float width, float h
 | width | Single | 图表的宽度。 |
 | height | Single | 图表的高度。 |
 | index | Int32 | 图表在集合中的位置。 |
-| initWithSample | Boolean | 如果为真，则新图表将使用样本系列数据和设置进行初始化。 如果为假，则新图表将没有系列和最小设置。在这种情况下 图表创建会更快。 |
+| initWithSample | Boolean | 如果为真，则新图表将使用示例系列数据和设置进行初始化。 如果为假，则新图表将没有系列和最小设置。在这种情况下 图表创建会更快。 |
 
 ### 返回值
 
-创建图表。
+创建的图表。
 
 ### 也可以看看
 

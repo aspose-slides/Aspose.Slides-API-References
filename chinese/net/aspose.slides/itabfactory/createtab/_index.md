@@ -16,12 +16,12 @@ public ITab CreateTab(double position, TabAlignment align)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| position | Double | 制表位。 |
+| position | Double | 标签位置。 |
 | align | TabAlignment | 对齐。 |
 
 ### 返回值
 
-创建选项卡。
+创建的选项卡。
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: AspectRatioLocked
 second_title: Aspose.Slides for .NET API 参考
-description: 确定形状在调整大小时是否必须保持纵横比 读/写Boolean
+description: 确定形状是否必须在调整大小时保持纵横比 读/写Boolean.
 type: docs
 weight: 30
 url: /zh/net/aspose.slides/autoshapelock/aspectratiolocked/
 ---
 ## AutoShapeLock.AspectRatioLocked property
 
-确定形状在调整大小时是否必须保持纵横比。 读/写Boolean。
+确定形状是否必须在调整大小时保持纵横比。 读/写Boolean.
 
 ```csharp
 public bool AspectRatioLocked { get; set; }

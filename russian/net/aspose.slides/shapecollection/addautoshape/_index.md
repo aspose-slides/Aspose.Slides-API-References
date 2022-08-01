@@ -16,15 +16,15 @@ public IAutoShape AddAutoShape(ShapeType shapeType, float x, float y, float widt
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| shapeType | ShapeType | [`ShapeType`](../../shapetype)формы. |
-| x | Single | X-координата левой стороны рамки фигуры. |
-| y | Single | Y-координата верхней стороны рамки фигуры. |
+| shapeType | ShapeType | [`ShapeType`](../../shapetype) формы. |
+| x | Single | Координата X для левой стороны рамки фигуры. |
+| y | Single | Координата Y верхней стороны рамки фигуры. |
 | width | Single | Ширина рамки фигуры. |
 | height | Single | Высота рамки фигуры. |
 
 ### Возвращаемое значение
 
-Создан объект AutoShape.
+Создан объект автофигуры.
 
 ### Смотрите также
 
@@ -47,16 +47,16 @@ public IAutoShape AddAutoShape(ShapeType shapeType, float x, float y, float widt
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| shapeType | ShapeType | [`ShapeType`](../../shapetype)формы. |
-| x | Single | X-координата левой стороны рамки фигуры. |
-| y | Single | Y-координата верхней стороны рамки фигуры. |
+| shapeType | ShapeType | [`ShapeType`](../../shapetype) формы. |
+| x | Single | Координата X для левой стороны рамки фигуры. |
+| y | Single | Координата Y верхней стороны рамки фигуры. |
 | width | Single | Ширина рамки фигуры. |
 | height | Single | Высота рамки фигуры. |
 | createFromTemplate | Boolean | Если true, то новая форма будет настроена из шаблона по умолчанию. Непустое имя, простой стиль, текст по центру будет присвоен новой форме. Если false, то все значения свойств новой формы будут иметь значения по умолчанию. |
 
 ### Возвращаемое значение
 
-Создан объект AutoShape.
+Создан объект автофигуры.
 
 ### Смотрите также
 

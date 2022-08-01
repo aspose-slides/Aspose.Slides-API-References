@@ -1,14 +1,14 @@
 ---
 title: Simple
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает настройки для создания самого простого и наименьшего файла SVG. Только для чтенияSVGOptionsaspose.slides.export/svgoptions.
+description: Возвращает настройки для создания самого простого и наименьшего файла SVG. Только для чтенияSVGOptionsaspose.slides.export/svgoptions .
 type: docs
 weight: 30
 url: /ru/net/aspose.slides.export/svgoptions/simple/
 ---
 ## SVGOptions.Simple property
 
-Возвращает настройки для создания самого простого и наименьшего файла SVG. Только для чтения[`SVGOptions`](../../svgoptions).
+Возвращает настройки для создания самого простого и наименьшего файла SVG. Только для чтения[`SVGOptions`](../../svgoptions) .
 
 ```csharp
 public static SVGOptions Simple { get; }

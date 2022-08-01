@@ -16,7 +16,7 @@ public NotesPositions NotesPosition { get; set; }
 
 ### Примечания
 
-По умолчанию: **NotesPositions.None** .
+По умолчанию **NotesPositions.None** .
 
 ### Смотрите также
 

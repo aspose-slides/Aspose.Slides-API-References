@@ -1,14 +1,14 @@
 ---
 title: Width
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置图例的宽度为图表宽度的一部分 读/写Single
+description: 返回或设置图例宽度为图表宽度的一部分 读/写Single.
 type: docs
 weight: 100
 url: /zh/net/aspose.slides.charts/legend/width/
 ---
 ## Legend.Width property
 
-返回或设置图例的宽度为图表宽度的一部分。 读/写Single。
+返回或设置图例宽度为图表宽度的一部分。 读/写Single.
 
 ```csharp
 public float Width { get; set; }

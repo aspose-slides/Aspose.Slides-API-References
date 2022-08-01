@@ -1,14 +1,14 @@
 ---
 title: StopSoundOnClick
 second_title: Aspose.Slides for .NET API 参考
-description: 确定是否应在单击超链接时停止声音 读/写Boolean
+description: 确定是否应在单击超链接时停止声音 读/写Boolean.
 type: docs
 weight: 150
 url: /zh/net/aspose.slides/hyperlink/stopsoundonclick/
 ---
 ## Hyperlink.StopSoundOnClick property
 
-确定是否应在单击超链接时停止声音。 读/写Boolean。
+确定是否应在单击超链接时停止声音。 读/写Boolean.
 
 ```csharp
 public bool StopSoundOnClick { get; set; }

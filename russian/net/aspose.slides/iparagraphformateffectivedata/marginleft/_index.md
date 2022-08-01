@@ -1,14 +1,14 @@
 ---
 title: MarginLeft
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает левое поле абзаца. Только для чтенияSingle.
+description: Возвращает левое поле абзаца. Только для чтенияSingle .
 type: docs
 weight: 110
 url: /ru/net/aspose.slides/iparagraphformateffectivedata/marginleft/
 ---
 ## IParagraphFormatEffectiveData.MarginLeft property
 
-Возвращает левое поле абзаца. Только для чтенияSingle.
+Возвращает левое поле абзаца. Только для чтенияSingle .
 
 ```csharp
 public float MarginLeft { get; }

@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Справочник по API Aspose.Slides для .NET
-description: Получает элемент по указанному индексу. Только для чтенияISummaryZoomSectionaspose.slides/isummaryzoomsection.
+description: Получает элемент по указанному индексу. Только для чтенияISummaryZoomSectionaspose.slides/isummaryzoomsection .
 type: docs
 weight: 30
 url: /ru/net/aspose.slides/summaryzoomsectioncollection/item/
 ---
 ## SummaryZoomSectionCollection indexer
 
-Получает элемент по указанному индексу. Только для чтения[`ISummaryZoomSection`](../../isummaryzoomsection).
+Получает элемент по указанному индексу. Только для чтения[`ISummaryZoomSection`](../../isummaryzoomsection) .
 
 ```csharp
 public ISummaryZoomSection this[int index] { get; }

@@ -18,15 +18,15 @@ public interface IGlobalLayoutSlideCollection : ILayoutSlideCollection
 
 | Имя | Описание |
 | --- | --- |
-| [AsILayoutSlideCollection](../../aspose.slides/igloballayoutslidecollection/asilayoutslidecollection) { get; } | Возвращает интерфейс ILayoutSlideCollection. Только для чтения[`ILayoutSlideCollection`](../ilayoutslidecollection). |
+| [AsILayoutSlideCollection](../../aspose.slides/igloballayoutslidecollection/asilayoutslidecollection) { get; } | Возвращает интерфейс ILayoutSlideCollection. Только для чтения[`ILayoutSlideCollection`](../ilayoutslidecollection) . |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
 | [Add](../../aspose.slides/igloballayoutslidecollection/add)(IMasterSlide, SlideLayoutType, string) | Добавляет в презентацию новый макет слайда. |
-| [AddClone](../../aspose.slides/igloballayoutslidecollection/addclone#addclone)(ILayoutSlide) | Добавляет в презентацию копию указанного макета слайда. |
-| [AddClone](../../aspose.slides/igloballayoutslidecollection/addclone#addclone_1)(ILayoutSlide, IMasterSlide) | Добавляет в презентацию копию указанного макета слайда. |
+| [AddClone](../../aspose.slides/igloballayoutslidecollection/addclone#addclone)(ILayoutSlide) | Добавляет копию указанного макета слайда в презентацию. |
+| [AddClone](../../aspose.slides/igloballayoutslidecollection/addclone#addclone_1)(ILayoutSlide, IMasterSlide) | Добавляет копию указанного макета слайда в презентацию. |
 
 ### Смотрите также
 

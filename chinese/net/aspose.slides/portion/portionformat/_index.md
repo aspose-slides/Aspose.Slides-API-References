@@ -1,14 +1,14 @@
 ---
 title: PortionFormat
 second_title: Aspose.Slides for .NET API 参考
-description: 返回oformatting bject其中包含未应用继承的文本部分的显式设置格式属性 只读IPortionFormataspose.slides/iportionformat
+description: 返回包含显式设置的文本部分格式设置属性的格式化对象未应用继承 只读IPortionFormataspose.slides/iportionformat.
 type: docs
 weight: 30
 url: /zh/net/aspose.slides/portion/portionformat/
 ---
 ## Portion.PortionFormat property
 
-返回oformatting bject，其中包含未应用继承的文本部分的显式设置格式属性。 只读[`IPortionFormat`](../../iportionformat)。
+返回包含显式设置的文本部分格式设置属性的格式化对象，未应用继承。 只读[`IPortionFormat`](../../iportionformat).
 
 ```csharp
 public IPortionFormat PortionFormat { get; }
@@ -16,9 +16,9 @@ public IPortionFormat PortionFormat { get; }
 
 ### 评论
 
-格式化对象仅包含为当前部分定义的格式化参数，不应用继承的数据.
+格式化对象仅包含为当前部分定义的格式化参数，不应用继承的数据。
 
-为了获得包括继承值在内的有效值，请使用[`GetEffective`](../../portionformat/geteffective)方法。
+为了获得包括继承的有效值，请使用[`GetEffective`](../../portionformat/geteffective)方法。
 
 ### 也可以看看
 

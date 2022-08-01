@@ -1,14 +1,14 @@
 ---
 title: DefaultDataLabelFormat
 second_title: Aspose.Slides for .NET API 参考
-description: 返回集合中所有数据标签的默认格式 只读IDataLabelFormataspose.slides.charts/idatalabelformat
+description: 返回集合中所有数据标签的默认格式 只读IDataLabelFormataspose.slides.charts/idatalabelformat.
 type: docs
 weight: 50
 url: /zh/net/aspose.slides.charts/idatalabelcollection/defaultdatalabelformat/
 ---
 ## IDataLabelCollection.DefaultDataLabelFormat property
 
-返回集合中所有数据标签的默认格式。 只读[`IDataLabelFormat`](../../idatalabelformat)。
+返回集合中所有数据标签的默认格式。 只读[`IDataLabelFormat`](../../idatalabelformat).
 
 ```csharp
 public IDataLabelFormat DefaultDataLabelFormat { get; }

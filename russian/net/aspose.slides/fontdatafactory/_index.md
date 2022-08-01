@@ -1,14 +1,14 @@
 ---
 title: FontDataFactory
 second_title: Справочник по API Aspose.Slides для .NET
-description: Фабрика FontData
+description: Фабрика данных шрифтов
 type: docs
 weight: 4390
 url: /ru/net/aspose.slides/fontdatafactory/
 ---
 ## FontDataFactory class
 
-Фабрика FontData
+Фабрика данных шрифтов
 
 ```csharp
 public class FontDataFactory : IFontDataFactory

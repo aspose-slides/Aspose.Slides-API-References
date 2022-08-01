@@ -18,8 +18,8 @@ public interface ICustomData
 
 | 姓名 | 描述 |
 | --- | --- |
-| [CustomXmlParts](../../aspose.slides/icustomdata/customxmlparts) { get; } | 返回自定义 xml 部件集合。 只读[`ICustomXmlPartCollection`](../icustomxmlpartcollection)。 |
-| [Tags](../../aspose.slides/icustomdata/tags) { get; } | 返回客户数据标签集合。 只读[`ITagCollection`](../itagcollection)。 |
+| [CustomXmlParts](../../aspose.slides/icustomdata/customxmlparts) { get; } | 返回自定义 xml 部件集合。 只读[`ICustomXmlPartCollection`](../icustomxmlpartcollection). |
+| [Tags](../../aspose.slides/icustomdata/tags) { get; } | 返回客户数据标签集合。 只读[`ITagCollection`](../itagcollection). |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: ShowMasterShapes
 second_title: Aspose.Slides for .NET API 参考
-description: 指定母版幻灯片上的形状是否应显示在幻灯片上 对于母版幻灯片本身此属性始终返回 false  读/写Boolean
+description: 指定母版幻灯片上的形状是否应显示在幻灯片上 对于母版幻灯片本身此属性始终返回错误的. 读/写Boolean.
 type: docs
 weight: 80
 url: /zh/net/aspose.slides/baseslide/showmastershapes/
 ---
 ## BaseSlide.ShowMasterShapes property
 
-指定母版幻灯片上的形状是否应显示在幻灯片上。 对于母版幻灯片本身，此属性始终返回` false` 。 读/写Boolean。
+指定母版幻灯片上的形状是否应显示在幻灯片上。 对于母版幻灯片本身，此属性始终返回`错误的`. 读/写Boolean.
 
 ```csharp
 public abstract bool ShowMasterShapes { get; set; }
@@ -18,7 +18,7 @@ public abstract bool ShowMasterShapes { get; set; }
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| NotSupportedException | 如果设置` true` 则抛出母版幻灯片。 |
+| NotSupportedException | 如果设置则抛出`真的`对于母版幻灯片。 |
 
 ### 也可以看看
 

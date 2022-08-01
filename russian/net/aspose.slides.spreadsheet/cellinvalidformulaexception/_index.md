@@ -1,14 +1,14 @@
 ---
 title: CellInvalidFormulaException
 second_title: Справочник по API Aspose.Slides для .NET
-description: Исключение возникающее когда вычисляемая формула неверна или не была проанализирована.
+description: Исключение которое выдается когда вычисляемая формула неверна или не была проанализирована.
 type: docs
 weight: 9900
 url: /ru/net/aspose.slides.spreadsheet/cellinvalidformulaexception/
 ---
 ## CellInvalidFormulaException class
 
-Исключение, возникающее, когда вычисляемая формула неверна или не была проанализирована.
+Исключение, которое выдается, когда вычисляемая формула неверна или не была проанализирована.
 
 ```csharp
 public class CellInvalidFormulaException : PptxEditException
@@ -18,10 +18,10 @@ public class CellInvalidFormulaException : PptxEditException
 
 | Имя | Описание |
 | --- | --- |
-| [CellInvalidFormulaException](cellinvalidformulaexception#constructor)() | Инициализирует новый экземпляр класса[`CellInvalidFormulaException`](../cellinvalidformulaexception). |
-| [CellInvalidFormulaException](cellinvalidformulaexception#constructor_1)(string) | Инициализирует новый экземпляр класса[`CellInvalidFormulaException`](../cellinvalidformulaexception)с указанным сообщением об ошибке. |
-| [CellInvalidFormulaException](cellinvalidformulaexception#constructor_2)(string, Exception) | Инициализирует новый экземпляр класса[`CellInvalidFormulaException`](../cellinvalidformulaexception)с указанным сообщением об ошибке и ссылка на внутреннее исключение, которое является причиной этого исключения. |
-| [CellInvalidFormulaException](cellinvalidformulaexception#constructor_3)(string, string) | Инициализирует новый экземпляр класса[`CellInvalidFormulaException`](../cellinvalidformulaexception)с указанным сообщением об ошибке и ссылку на ячейку, содержащую недопустимую формулу. |
+| [CellInvalidFormulaException](cellinvalidformulaexception#constructor)() | Инициализирует новый экземпляр[`CellInvalidFormulaException`](../cellinvalidformulaexception) класс. |
+| [CellInvalidFormulaException](cellinvalidformulaexception#constructor_1)(string) | Инициализирует новый экземпляр[`CellInvalidFormulaException`](../cellinvalidformulaexception) класс с указанным сообщением об ошибке. |
+| [CellInvalidFormulaException](cellinvalidformulaexception#constructor_2)(string, Exception) | Инициализирует новый экземпляр[`CellInvalidFormulaException`](../cellinvalidformulaexception) класс с указанным сообщением об ошибке и ссылкой на внутреннее исключение, которое является причиной этого исключения. |
+| [CellInvalidFormulaException](cellinvalidformulaexception#constructor_3)(string, string) | Инициализирует новый экземпляр[`CellInvalidFormulaException`](../cellinvalidformulaexception)класс с указанным сообщением об ошибке и ссылкой на ячейку, которая содержит недопустимую формулу. |
 
 ## Характеристики
 

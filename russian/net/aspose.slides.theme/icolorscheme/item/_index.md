@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Справочник по API Aspose.Slides для .NET
-description: Получает элемент по указанному индексу. Только для чтенияIColorFormataspose.slides/icolorformat.
+description: Получает элемент по указанному индексу. Только для чтенияIColorFormataspose.slides/icolorformat .
 type: docs
 weight: 120
 url: /ru/net/aspose.slides.theme/icolorscheme/item/
 ---
 ## IColorScheme indexer
 
-Получает элемент по указанному индексу. Только для чтения[`IColorFormat`](../../../aspose.slides/icolorformat).
+Получает элемент по указанному индексу. Только для чтения[`IColorFormat`](../../../aspose.slides/icolorformat) .
 
 ```csharp
 public IColorFormat this[ColorSchemeIndex index] { get; }

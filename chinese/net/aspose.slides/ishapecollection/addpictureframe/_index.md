@@ -17,7 +17,7 @@ public IPictureFrame AddPictureFrame(ShapeType shapeType, float x, float y, floa
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| shapeType | ShapeType | 包含在集合Slides中的形状。ShapeType 形状，除了各种线条: |
+| shapeType | ShapeType | 集合中包含的形状[`ShapeType`](../../shapetype) 的形状，除了各种线条： |
 | x | Single | 形状框架左侧的 X 坐标。 |
 | y | Single | 形状框架顶部的 Y 坐标。 |
 | width | Single | 形状框架的宽度。 |
@@ -26,7 +26,7 @@ public IPictureFrame AddPictureFrame(ShapeType shapeType, float x, float y, floa
 
 ### 返回值
 
-创建的 PictureFrame 对象。
+创建了 PictureFrame 对象。
 
 ### 也可以看看
 

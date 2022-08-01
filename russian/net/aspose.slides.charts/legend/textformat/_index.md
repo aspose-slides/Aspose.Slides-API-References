@@ -1,14 +1,14 @@
 ---
 title: TextFormat
 second_title: Справочник по API Aspose.Slides для .NET
-description: Текстовый формат. Только чтениеIChartTextFormataspose.slides.charts/icharttextformat.
+description: Текстовый формат. Только для чтенияIChartTextFormataspose.slides.charts/icharttextformat .
 type: docs
 weight: 90
 url: /ru/net/aspose.slides.charts/legend/textformat/
 ---
 ## Legend.TextFormat property
 
-Текстовый формат. Только чтение[`IChartTextFormat`](../../icharttextformat).
+Текстовый формат. Только для чтения[`IChartTextFormat`](../../icharttextformat) .
 
 ```csharp
 public IChartTextFormat TextFormat { get; }

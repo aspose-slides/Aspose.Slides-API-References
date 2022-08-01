@@ -1,14 +1,14 @@
 ---
 title: Size
 second_title: Справочник по API Aspose.Slides для .NET
-description: Получает размер заполнителя. Только для чтенияPlaceholderSizeaspose.slides/placeholdersize.
+description: Получает размер заполнителя. Только для чтенияPlaceholderSizeaspose.slides/placeholdersize .
 type: docs
 weight: 30
 url: /ru/net/aspose.slides/iplaceholder/size/
 ---
 ## IPlaceholder.Size property
 
-Получает размер заполнителя. Только для чтения[`PlaceholderSize`](../../placeholdersize).
+Получает размер заполнителя. Только для чтения[`PlaceholderSize`](../../placeholdersize) .
 
 ```csharp
 public PlaceholderSize Size { get; }

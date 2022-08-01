@@ -1,14 +1,14 @@
 ---
 title: Images
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает коллекцию всех изображений в презентации. Только для чтенияIImageCollectionaspose.slides/iimagecollection.
+description: Возвращает коллекцию всех изображений в презентации. Только для чтенияIImageCollectionaspose.slides/iimagecollection .
 type: docs
 weight: 140
 url: /ru/net/aspose.slides/presentation/images/
 ---
 ## Presentation.Images property
 
-Возвращает коллекцию всех изображений в презентации. Только для чтения[`IImageCollection`](../../iimagecollection).
+Возвращает коллекцию всех изображений в презентации. Только для чтения[`IImageCollection`](../../iimagecollection) .
 
 ```csharp
 public IImageCollection Images { get; }

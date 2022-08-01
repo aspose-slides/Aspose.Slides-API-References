@@ -1,14 +1,14 @@
 ---
 title: GetAutomaticSeriesColor
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает автоматический цвет ряда на основе индекса ряда и стиля диаграммы. Этот цвет используется по умолчанию если FillType равно NotDefined.
+description: Возвращает автоматический цвет серии на основе индекса серии и стиля диаграммы. Этот цвет используется по умолчанию если FillType равно NotDefined.
 type: docs
 weight: 450
 url: /ru/net/aspose.slides.charts/chartseries/getautomaticseriescolor/
 ---
 ## ChartSeries.GetAutomaticSeriesColor method
 
-Возвращает автоматический цвет ряда на основе индекса ряда и стиля диаграммы. Этот цвет используется по умолчанию, если FillType равно NotDefined.
+Возвращает автоматический цвет серии на основе индекса серии и стиля диаграммы. Этот цвет используется по умолчанию, если FillType равно NotDefined.
 
 ```csharp
 public Color GetAutomaticSeriesColor()

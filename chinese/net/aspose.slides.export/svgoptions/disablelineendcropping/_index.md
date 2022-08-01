@@ -1,14 +1,14 @@
 ---
 title: DisableLineEndCropping
 second_title: Aspose.Slides for .NET API 参考
-description: SVG 1.1 缺乏为标记定义插入的能力 Aspose.Slides SVG 书写引擎有解决该问题的方法 它用箭头裁剪行尾因此行不会与标记重叠 此选项关闭此类行为 读/写Boolean
+description: SVG 1.1 缺乏为标记定义插入的能力 Aspose.Slides SVG 编写引擎有解决该问题的方法 它用箭头裁剪行尾因此行不会与标记重叠 此选项关闭此类行为 读/写Boolean.
 type: docs
 weight: 80
 url: /zh/net/aspose.slides.export/svgoptions/disablelineendcropping/
 ---
 ## SVGOptions.DisableLineEndCropping property
 
-SVG 1.1 缺乏为标记定义插入的能力。 Aspose.Slides SVG 书写引擎有解决该问题的方法: 它用箭头裁剪行尾，因此，行不会与标记重叠。 此选项关闭此类行为。 读/写Boolean。
+SVG 1.1 缺乏为标记定义插入的能力。 Aspose.Slides SVG 编写引擎有解决该问题的方法： 它用箭头裁剪行尾，因此，行不会与标记重叠。 此选项关闭此类行为。 读/写Boolean.
 
 ```csharp
 public bool DisableLineEndCropping { get; set; }

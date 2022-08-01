@@ -1,14 +1,14 @@
 ---
 title: ContentStatus
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или устанавливает статус содержимого презентации. Чтение/записьString.
+description: Возвращает или устанавливает статус содержимого презентации. Чтение/записьString .
 type: docs
 weight: 80
 url: /ru/net/aspose.slides/documentproperties/contentstatus/
 ---
 ## DocumentProperties.ContentStatus property
 
-Возвращает или устанавливает статус содержимого презентации. Чтение/записьString.
+Возвращает или устанавливает статус содержимого презентации. Чтение/записьString .
 
 ```csharp
 public string ContentStatus { get; set; }

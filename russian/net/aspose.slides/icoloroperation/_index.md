@@ -18,8 +18,8 @@ public interface IColorOperation
 
 | Имя | Описание |
 | --- | --- |
-| [OperationType](../../aspose.slides/icoloroperation/operationtype) { get; } | Возвращает или задает тип операции. Только для чтения[`ColorTransformOperation`](../colortransformoperation). |
-| [Parameter](../../aspose.slides/icoloroperation/parameter) { get; } | Возвращает параметр операции. Только для чтенияSingle. |
+| [OperationType](../../aspose.slides/icoloroperation/operationtype) { get; } | Возвращает или задает тип операции. Только для чтения[`ColorTransformOperation`](../colortransformoperation) . |
+| [Parameter](../../aspose.slides/icoloroperation/parameter) { get; } | Возвращает параметр операции. Только для чтенияSingle . |
 
 ### Смотрите также
 

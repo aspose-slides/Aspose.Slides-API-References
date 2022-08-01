@@ -18,8 +18,8 @@ public sealed class VbaModule : IVbaModule
 
 | Имя | Описание |
 | --- | --- |
-| [Name](../../aspose.slides.vba/vbamodule/name) { get; } | Получает имя модуля. Только чтениеString. |
-| [SourceCode](../../aspose.slides.vba/vbamodule/sourcecode) { get; set; } | Возвращает или задает исходный код модуля. Чтение/записьString. |
+| [Name](../../aspose.slides.vba/vbamodule/name) { get; } | Получает имя модуля. Только для чтенияString . |
+| [SourceCode](../../aspose.slides.vba/vbamodule/sourcecode) { get; set; } | Возвращает или задает исходный код модуля. Чтение/записьString . |
 
 ### Смотрите также
 

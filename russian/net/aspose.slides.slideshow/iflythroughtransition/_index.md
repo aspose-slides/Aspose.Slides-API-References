@@ -18,9 +18,9 @@ public interface IFlyThroughTransition : ITransitionValueBase
 
 | Имя | Описание |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/iflythroughtransition/asitransitionvaluebase) { get; } | Позволяет получить базовый интерфейс ITransitionValueBase. Только для чтения[`ITransitionValueBase`](../itransitionvaluebase). |
-| [Direction](../../aspose.slides.slideshow/iflythroughtransition/direction) { get; set; } | Направление перехода. Чтение/запись[`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
-| [HasBounce](../../aspose.slides.slideshow/iflythroughtransition/hasbounce) { get; set; } | Указывает, что движение слайдов презентации во время перехода включает отскок. Чтение/записьBoolean. |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/iflythroughtransition/asitransitionvaluebase) { get; } | Позволяет получить базовый интерфейс ITransitionValueBase. Только для чтения[`ITransitionValueBase`](../itransitionvaluebase) . |
+| [Direction](../../aspose.slides.slideshow/iflythroughtransition/direction) { get; set; } | Направление перехода. Чтение/запись[`TransitionInOutDirectionType`](../transitioninoutdirectiontype) . |
+| [HasBounce](../../aspose.slides.slideshow/iflythroughtransition/hasbounce) { get; set; } | Указывает, что перемещение слайдов презентации во время перехода включает отскок. Чтение/записьBoolean . |
 
 ### Смотрите также
 

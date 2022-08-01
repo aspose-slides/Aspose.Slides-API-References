@@ -18,11 +18,11 @@ public class PieSplitCustomPointCollection : IPieSplitCustomPointCollection
 
 | Имя | Описание |
 | --- | --- |
-| [Count](../../aspose.slides.charts/piesplitcustompointcollection/count) { get; } | Возвращает или задает количество точек данных диаграммы. Только для чтенияInt32. |
-| [IsReadOnly](../../aspose.slides.charts/piesplitcustompointcollection/isreadonly) { get; } | Получает значение, указывающее, является ли коллекцияICollectionдоступной только для чтения. Только чтениеBoolean. |
-| [IsSynchronized](../../aspose.slides.charts/piesplitcustompointcollection/issynchronized) { get; } | Возвращает значение, указывающее, является ли доступ к коллекции синхронизированным (потокобезопасным). Только чтениеBoolean. |
+| [Count](../../aspose.slides.charts/piesplitcustompointcollection/count) { get; } | Возвращает или задает количество точек данных диаграммы. Только для чтенияInt32 . |
+| [IsReadOnly](../../aspose.slides.charts/piesplitcustompointcollection/isreadonly) { get; } | Получает значение, указывающее,ICollection доступен только для чтения. Только для чтенияBoolean . |
+| [IsSynchronized](../../aspose.slides.charts/piesplitcustompointcollection/issynchronized) { get; } | Возвращает значение, указывающее, является ли доступ к коллекции синхронизированным (потокобезопасным). Только для чтенияBoolean . |
 | [Item](../../aspose.slides.charts/piesplitcustompointcollection/item) { get; } | Возвращает точку данных диаграммы для указанного индекса. |
-| [SyncRoot](../../aspose.slides.charts/piesplitcustompointcollection/syncroot) { get; } | Возвращает корень синхронизации. Только для чтенияObject. |
+| [SyncRoot](../../aspose.slides.charts/piesplitcustompointcollection/syncroot) { get; } | Возвращает корень синхронизации. Только для чтенияObject . |
 
 ## Методы
 
@@ -30,10 +30,10 @@ public class PieSplitCustomPointCollection : IPieSplitCustomPointCollection
 | --- | --- |
 | [Add](../../aspose.slides.charts/piesplitcustompointcollection/add#add)(IChartDataPoint) | Добавляет точку данных в коллекцию. |
 | [Add](../../aspose.slides.charts/piesplitcustompointcollection/add#add_1)(int) | Добавляет точку данных по ее индексу в коллекцию точек родительского ряда. |
-| [Clear](../../aspose.slides.charts/piesplitcustompointcollection/clear)() | Удаляет все элементы изICollection. |
-| [Contains](../../aspose.slides.charts/piesplitcustompointcollection/contains)(IChartDataPoint) | Определяет, содержит лиICollectionопределенное значение. |
-| [CopyTo](../../aspose.slides.charts/piesplitcustompointcollection/copyto)(IChartDataPoint[], int) | Копирует элементыICollectionвArray, начиная с определенногоArrayindex. |
-| [GetEnumerator](../../aspose.slides.charts/piesplitcustompointcollection/getenumerator)() | Возвращает перечислитель, который перебирает коллекцию. |
+| [Clear](../../aspose.slides.charts/piesplitcustompointcollection/clear)() | Удаляет все элементы изICollection . |
+| [Contains](../../aspose.slides.charts/piesplitcustompointcollection/contains)(IChartDataPoint) | Определяет,ICollection содержит определенное значение. |
+| [CopyTo](../../aspose.slides.charts/piesplitcustompointcollection/copyto)(IChartDataPoint[], int) | Копирует элементыICollection чтобыArray , начиная с определенногоArray индекс. |
+| [GetEnumerator](../../aspose.slides.charts/piesplitcustompointcollection/getenumerator)() | Возвращает перечислитель, который выполняет итерацию по коллекции. |
 | [Remove](../../aspose.slides.charts/piesplitcustompointcollection/remove#remove)(IChartDataPoint) | Удаляет предмет из коллекции. |
 | [Remove](../../aspose.slides.charts/piesplitcustompointcollection/remove#remove_1)(int) | Удаляет элемент из коллекции по его индексу в родительской коллекции точек серии. |
 

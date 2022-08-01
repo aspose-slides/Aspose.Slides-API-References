@@ -1,14 +1,14 @@
 ---
 title: Kumimoji
 second_title: Aspose.Slides for .NET API 参考
-description: 确定数字是否应忽略文本东方语言特定的垂直文本布局未应用继承 读/写NullableBoolaspose.slides/nullablebool
+description: 确定数字是否应忽略文本东方语言特定的垂直文本布局未应用继承 读/写NullableBoolaspose.slides/nullablebool.
 type: docs
 weight: 150
 url: /zh/net/aspose.slides/ibaseportionformat/kumimoji/
 ---
 ## IBasePortionFormat.Kumimoji property
 
-确定数字是否应忽略文本东方语言特定的垂直文本布局。未应用继承。 读/写[`NullableBool`](../../nullablebool)。
+确定数字是否应忽略文本东方语言特定的垂直文本布局。未应用继承。 读/写[`NullableBool`](../../nullablebool).
 
 ```csharp
 public NullableBool Kumimoji { get; set; }

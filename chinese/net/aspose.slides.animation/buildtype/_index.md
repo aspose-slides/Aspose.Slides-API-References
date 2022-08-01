@@ -19,12 +19,12 @@ public enum BuildType
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | AsOneObject | `0` | 包含形状。 |
-| AllParagraphsAtOnce | `1` | 所有段落。 |
-| ByLevelParagraphs1 | `2` | 按深度为 1 的段落组。 |
-| ByLevelParagraphs2 | `3` | 按深度为 2 的段落组。 |
-| ByLevelParagraphs3 | `4` | 按深度为 3 的段落组。 |
-| ByLevelParagraphs4 | `5` | 按深度为 4 的段落组。 |
-| ByLevelParagraphs5 | `6` | 按深度为 5 的段落组。 |
+| AllParagraphsAtOnce | `1` | 所有段落. |
+| ByLevelParagraphs1 | `2` | 按深度为 1. 的段落组 |
+| ByLevelParagraphs2 | `3` | 按深度为 2. 的段落组 |
+| ByLevelParagraphs3 | `4` | 按深度为 3. 的段落组 |
+| ByLevelParagraphs4 | `5` | 按深度为 4. 的段落组 |
+| ByLevelParagraphs5 | `6` | 按深度为 5. 的段落组 |
 
 ### 也可以看看
 

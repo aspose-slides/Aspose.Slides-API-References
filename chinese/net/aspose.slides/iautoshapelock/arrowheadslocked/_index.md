@@ -1,14 +1,14 @@
 ---
 title: ArrowheadsLocked
 second_title: Aspose.Slides for .NET API 参考
-description: 确定是否禁止更改箭头 读写Boolean
+description: 确定是否禁止更改箭头 读写Boolean.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides/iautoshapelock/arrowheadslocked/
 ---
 ## IAutoShapeLock.ArrowheadsLocked property
 
-确定是否禁止更改箭头。 读写Boolean。
+确定是否禁止更改箭头。 读写Boolean.
 
 ```csharp
 public bool ArrowheadsLocked { get; set; }

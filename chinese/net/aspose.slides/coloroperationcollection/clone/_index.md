@@ -16,7 +16,7 @@ public object Clone()
 
 ### 返回值
 
-新[`ColorOperationCollection`](../../coloroperationcollection)集合。
+新的[`ColorOperationCollection`](../../coloroperationcollection)收藏。
 
 ### 也可以看看
 

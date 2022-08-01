@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: Aspose.Slides for .NET API 参考
-description: 确定指定的ColorReplaceaspose.slides.effects/colorreplace是否等于当前的ColorReplace
+description: 判断是否指定ColorReplaceaspose.slides.effects/colorreplace等于当前ColorReplaceaspose.slides.effects/colorreplace.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides.effects/colorreplace/equals/
 ---
 ## ColorReplace.Equals method
 
-确定指定的[`ColorReplace`](../../colorreplace)是否等于当前的ColorReplace。
+判断是否指定[`ColorReplace`](../../colorreplace)等于当前[`ColorReplace`](../../colorreplace).
 
 ```csharp
 public override bool Equals(object obj)
@@ -16,11 +16,11 @@ public override bool Equals(object obj)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| obj | Object | [`ColorReplace`](../../colorreplace)进行比较。 |
+| obj | Object | 这[`ColorReplace`](../../colorreplace)比较。 |
 
 ### 返回值
 
-如果对象相等，则为真；否则为假。
+如果对象相等，则为 true；否则为假。
 
 ### 也可以看看
 

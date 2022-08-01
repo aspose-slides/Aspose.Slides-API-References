@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Slides for .NET API 参考
-description: 按索引返回布局幻灯片 只读ILayoutSlideaspose.slides/ilayoutslide
+description: 按索引返回布局幻灯片 只读ILayoutSlideaspose.slides/ilayoutslide.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides/ilayoutslidecollection/item/
 ---
 ## ILayoutSlideCollection indexer
 
-按索引返回布局幻灯片。 只读[`ILayoutSlide`](../../ilayoutslide)。
+按索引返回布局幻灯片。 只读[`ILayoutSlide`](../../ilayoutslide).
 
 ```csharp
 public ILayoutSlide this[int index] { get; }

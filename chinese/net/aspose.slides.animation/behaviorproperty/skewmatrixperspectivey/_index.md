@@ -1,14 +1,14 @@
 ---
 title: SkewMatrixPerspectiveY
 second_title: Aspose.Slides for .NET API 参考
-description: 表示skew.matrix.perspectiveY属性
+description: 表示skew.matrix.perspectiveY 属性
 type: docs
 weight: 780
 url: /zh/net/aspose.slides.animation/behaviorproperty/skewmatrixperspectivey/
 ---
 ## BehaviorProperty.SkewMatrixPerspectiveY property
 
-表示'skew.matrix.perspectiveY'属性
+表示'skew.matrix.perspectiveY' 属性
 
 ```csharp
 public static BehaviorProperty SkewMatrixPerspectiveY { get; }

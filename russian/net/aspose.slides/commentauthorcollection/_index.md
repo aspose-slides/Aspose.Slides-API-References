@@ -18,10 +18,10 @@ public sealed class CommentAuthorCollection : DomObject<Presentation>, ICommentA
 
 | Имя | Описание |
 | --- | --- |
-| [Count](../../aspose.slides/commentauthorcollection/count) { get; } | Получает количество элементов, фактически содержащихся в коллекции. Только для чтенияInt32. |
-| [IsSynchronized](../../aspose.slides/commentauthorcollection/issynchronized) { get; } | Возвращает значение, указывающее, является ли доступ к коллекции синхронизированным (потокобезопасным). Только чтениеBoolean. |
-| [Item](../../aspose.slides/commentauthorcollection/item) { get; } | Получает элемент по указанному индексу. Только для чтения[`ICommentAuthor`](../icommentauthor). |
-| [SyncRoot](../../aspose.slides/commentauthorcollection/syncroot) { get; } | Возвращает корень синхронизации. Только для чтенияObject. |
+| [Count](../../aspose.slides/commentauthorcollection/count) { get; } | Получает количество элементов, фактически содержащихся в коллекции. Только для чтенияInt32 . |
+| [IsSynchronized](../../aspose.slides/commentauthorcollection/issynchronized) { get; } | Возвращает значение, указывающее, является ли доступ к коллекции синхронизированным (потокобезопасным). Только для чтенияBoolean . |
+| [Item](../../aspose.slides/commentauthorcollection/item) { get; } | Получает элемент по указанному индексу. Только для чтения[`ICommentAuthor`](../icommentauthor) . |
+| [SyncRoot](../../aspose.slides/commentauthorcollection/syncroot) { get; } | Возвращает корень синхронизации. Только для чтенияObject . |
 
 ## Методы
 
@@ -29,10 +29,10 @@ public sealed class CommentAuthorCollection : DomObject<Presentation>, ICommentA
 | --- | --- |
 | [AddAuthor](../../aspose.slides/commentauthorcollection/addauthor)(string, string) | Добавить нового автора в конец коллекции. |
 | [Clear](../../aspose.slides/commentauthorcollection/clear)() | Удаляет всех авторов из коллекции. |
-| [CopyTo](../../aspose.slides/commentauthorcollection/copyto)(Array, int) | Копирует все элементы из коллекции в указанный массив. |
+| [CopyTo](../../aspose.slides/commentauthorcollection/copyto)(Array, int) | Копирует все элементы коллекции в указанный массив. |
 | [FindByName](../../aspose.slides/commentauthorcollection/findbyname)(string) | Найти автора в коллекции по имени. |
 | [FindByNameAndInitials](../../aspose.slides/commentauthorcollection/findbynameandinitials)(string, string) | Найти автора в коллекции по имени и инициалам. |
-| [GetEnumerator](../../aspose.slides/commentauthorcollection/getenumerator)() | Возвращает перечислитель, который перебирает коллекцию. |
+| [GetEnumerator](../../aspose.slides/commentauthorcollection/getenumerator)() | Возвращает перечислитель, который выполняет итерацию по коллекции. |
 | [Remove](../../aspose.slides/commentauthorcollection/remove)(ICommentAuthor) | Удаляет первое вхождение указанного автора в коллекции. |
 | [RemoveAt](../../aspose.slides/commentauthorcollection/removeat)(int) | Удаляет автора по указанному индексу коллекции. |
 | [ToArray](../../aspose.slides/commentauthorcollection/toarray)() | Создает и возвращает массив со всеми авторами. |

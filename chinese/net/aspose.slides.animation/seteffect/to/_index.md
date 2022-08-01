@@ -1,14 +1,14 @@
 ---
 title: To
 second_title: Aspose.Slides for .NET API 参考
-description: 指定动画效果后的效果的特定属性 表示点值 仅限boolColorFormatfloatintstring 读/写Object
+description: 指定动画效果后效果的某个属性 表示点值 仅限boolColorFormatfloatintstring 读/写Object.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides.animation/seteffect/to/
 ---
 ## SetEffect.To property
 
-指定动画效果后的效果的特定属性。 表示点值。 仅限:bool、ColorFormat、float、int、string。 读/写Object。
+指定动画效果后效果的某个属性。 表示点值。 仅限：bool、ColorFormat、float、int、string。 读/写Object.
 
 ```csharp
 public object To { get; set; }

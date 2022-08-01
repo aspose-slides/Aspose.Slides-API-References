@@ -1,14 +1,14 @@
 ---
 title: MasterHandoutSlide
 second_title: Aspose.Slides for .NET API 参考
-description: 如果有则返回此演示文稿的所有笔记幻灯片的母版否则返回 null 只读IMasterHandoutSlideaspose.slides/imasterhandoutslide
+description: 如果有则返回此演示文稿的所有笔记幻灯片的母版否则返回 null 只读IMasterHandoutSlideaspose.slides/imasterhandoutslide.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides/imasterhandoutslidemanager/masterhandoutslide/
 ---
 ## IMasterHandoutSlideManager.MasterHandoutSlide property
 
-如果有，则返回此演示文稿的所有笔记幻灯片的母版，否则返回 null。 只读[`IMasterHandoutSlide`](../../imasterhandoutslide)。
+如果有，则返回此演示文稿的所有笔记幻灯片的母版，否则返回 null。 只读[`IMasterHandoutSlide`](../../imasterhandoutslide).
 
 ```csharp
 public IMasterHandoutSlide MasterHandoutSlide { get; }

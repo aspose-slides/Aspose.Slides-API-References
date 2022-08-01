@@ -1,14 +1,14 @@
 ---
 title: InsertRowAfter
 second_title: Aspose.Slides for .NET API 参考
-description: 在指定行之后插入一个新行 最初新行中的所有元素都为空
+description: 在指定行之后插入新行 最初新行中的所有元素都为空
 type: docs
 weight: 170
 url: /zh/net/aspose.slides.mathtext/imathmatrix/insertrowafter/
 ---
 ## IMathMatrix.InsertRowAfter method
 
-在指定行之后插入一个新行 最初新行中的所有元素都为空。
+在指定行之后插入新行 最初新行中的所有元素都为空。
 
 ```csharp
 public void InsertRowAfter(int rowIndex)
@@ -16,11 +16,11 @@ public void InsertRowAfter(int rowIndex)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| rowIndex | Int32 | 插入新行的索引 |
+| rowIndex | Int32 | 插入新行的行的索引 |
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]

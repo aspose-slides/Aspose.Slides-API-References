@@ -1,14 +1,14 @@
 ---
 title: Type
 second_title: Справочник по API Aspose.Slides для .NET
-description: Получает тип заполнителя. Только для чтенияPlaceholderTypeaspose.slides/placeholdertype.
+description: Получает тип заполнителя. Только для чтенияPlaceholderTypeaspose.slides/placeholdertype .
 type: docs
 weight: 40
 url: /ru/net/aspose.slides/iplaceholder/type/
 ---
 ## IPlaceholder.Type property
 
-Получает тип заполнителя. Только для чтения[`PlaceholderType`](../../placeholdertype).
+Получает тип заполнителя. Только для чтения[`PlaceholderType`](../../placeholdertype) .
 
 ```csharp
 public PlaceholderType Type { get; }

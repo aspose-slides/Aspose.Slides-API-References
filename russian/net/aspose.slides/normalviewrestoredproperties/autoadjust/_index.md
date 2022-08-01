@@ -1,14 +1,14 @@
 ---
 title: AutoAdjust
 second_title: Справочник по API Aspose.Slides для .NET
-description: Указывает должен ли размер боковой области содержимого компенсировать новый размер при изменении размера окна содержащего представление в приложении Чтение/записьBoolean.
+description: Указывает должен ли размер области бокового содержимого компенсировать новый размер size при изменении размера окна содержащего представление в application Чтение/записьBoolean .
 type: docs
 weight: 10
 url: /ru/net/aspose.slides/normalviewrestoredproperties/autoadjust/
 ---
 ## NormalViewRestoredProperties.AutoAdjust property
 
-Указывает, должен ли размер боковой области содержимого компенсировать новый размер при изменении размера окна, содержащего представление в приложении Чтение/записьBoolean.
+Указывает, должен ли размер области бокового содержимого компенсировать новый размер size при изменении размера окна, содержащего представление в application Чтение/записьBoolean .
 
 ```csharp
 public bool AutoAdjust { get; set; }

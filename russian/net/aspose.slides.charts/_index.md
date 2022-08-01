@@ -12,15 +12,15 @@ url: /ru/net/aspose.slides.charts/
 
 | Учебный класс | Описание |
 | --- | --- |
-| [AxesCompositionNotCombinableException](./axescompositionnotcombinableexception) | Исключение, возникающее, когда состав осей ряда не сочетается с существующими осями состав на диаграмме. |
+| [AxesCompositionNotCombinableException](./axescompositionnotcombinableexception) | Исключение, возникающее, когда состав осей ряда не комбинируется с имеющимся составом осей в диаграмме. |
 | [AxesManager](./axesmanager) | Предоставляет доступ к осям диаграммы. |
 | [Axis](./axis) | Инкапсулирует объект, представляющий ось диаграммы. |
 | [AxisFormat](./axisformat) | Представляет свойства формата диаграммы. |
 | [BaseChartValue](./basechartvalue) | Представляет значение диаграммы. |
-| [CannotCombine2DAnd3DChartsException](./cannotcombine2dand3dchartsexception) | Исключение, возникающее при попытке объединить типы диаграмм 2D и 3D. |
+| [CannotCombine2DAnd3DChartsException](./cannotcombine2dand3dchartsexception) | Исключение, возникающее при попытке объединить типы 2D- и 3D-диаграмм. |
 | [Chart](./chart) | Представляет графическую диаграмму на слайде. |
-| [ChartCategory](./chartcategory) | Представляет категории диаграмм. |
-| [ChartCategoryCollection](./chartcategorycollection) | Представляет коллекцию[`ChartCategory`](../aspose.slides.charts/chartcategory) |
+| [ChartCategory](./chartcategory) | Представляет категории диаграммы. |
+| [ChartCategoryCollection](./chartcategorycollection) | Представляет набор[`ChartCategory`](../aspose.slides.charts/chartcategory) |
 | [ChartCategoryLevelsManager](./chartcategorylevelsmanager) | Управляемый контейнер значений уровней категорий графика. |
 | [ChartCellCollection](./chartcellcollection) | Представляет набор ячеек с данными. |
 | [ChartData](./chartdata) | Представляет данные, используемые для построения диаграммы. |
@@ -31,12 +31,12 @@ url: /ru/net/aspose.slides.charts/
 | [ChartDataPointLevelsManager](./chartdatapointlevelsmanager) | Контейнер уровней точек данных. Применяется для серий Treeamp и Sunburst. Индексация уровней точек данных начинается с нуля. |
 | [ChartDataWorkbook](./chartdataworkbook) | Предоставляет доступ к встроенной книге Excel |
 | [ChartDataWorksheet](./chartdataworksheet) | Представляет рабочий лист, связанный с[`IChartDataCell`](../aspose.slides.charts/ichartdatacell) |
-| [ChartDataWorksheetCollection](./chartdataworksheetcollection) | Представляет набор рабочих листов книги данных диаграммы. |
+| [ChartDataWorksheetCollection](./chartdataworksheetcollection) | Представляет набор листов рабочей книги данных диаграммы. |
 | [ChartLinesFormat](./chartlinesformat) | Представляет свойства формата линий сетки. |
-| [ChartPlotArea](./chartplotarea) | Представляет собой прямоугольник, в котором должна быть построена диаграмма. |
-| [ChartPortionFormat](./chartportionformat) | Этот класс содержит свойства форматирования частей диаграммы, используемые в диаграммах. В отличие от[`IPortionFormatEffectiveData`](../aspose.slides/iportionformateffectivedata)все свойства этого класса доступны для записи. |
-| [ChartSeries](./chartseries) | Представляет ряд диаграммы. |
-| [ChartSeriesCollection](./chartseriescollection) | Представляет коллекцию[`ChartSeries`](../aspose.slides.charts/chartseries) |
+| [ChartPlotArea](./chartplotarea) | Представляет прямоугольник, в котором должна быть построена диаграмма. |
+| [ChartPortionFormat](./chartportionformat) | Этот класс содержит свойства форматирования частей диаграммы, используемые в диаграммах. В отличие от[`IPortionFormatEffectiveData`](../aspose.slides/iportionformateffectivedata) , все свойства этого класса доступны для записи. |
+| [ChartSeries](./chartseries) | Представляет серию диаграммы. |
+| [ChartSeriesCollection](./chartseriescollection) | Представляет набор[`ChartSeries`](../aspose.slides.charts/chartseries) |
 | [ChartSeriesGroup](./chartseriesgroup) | Представляет группу серий. |
 | [ChartTextFormat](./charttextformat) | Задает форматирование текста по умолчанию для текстовых элементов диаграммы. |
 | [ChartTitle](./charttitle) | Представляет свойства заголовка диаграммы. |
@@ -45,23 +45,23 @@ url: /ru/net/aspose.slides.charts/
 | [DataLabel](./datalabel) | Представляет метки серии. |
 | [DataLabelCollection](./datalabelcollection) | Представляет метки серии. |
 | [DataLabelFormat](./datalabelformat) | Представляет параметры форматирования для DataLabel. |
-| [DataSourceTypeForErrorBarsCustomValues](./datasourcetypeforerrorbarscustomvalues) | Указывает типы значений в списке свойств ChartDataPoint.ErrorBarsCustomValues |
+| [DataSourceTypeForErrorBarsCustomValues](./datasourcetypeforerrorbarscustomvalues) | Указывает типы значений в свойствах ChartDataPoint.ErrorBarsCustomValues list |
 | [DataTable](./datatable) | Представляет свойства таблицы данных. |
 | [DoubleChartValue](./doublechartvalue) | Представляет двойное значение, которое может быть сохранено в документе презентации pptx двумя способами: 1) в ячейке/ячейках рабочей книги, связанной с диаграммой; 2) как буквальное значение. |
-| [ErrorBarsCustomValues](./errorbarscustomvalues) | Указывает значения панели ошибок. Он должен использоваться только в том случае, если тип значения Error bar имеет значение Custom. |
-| [ErrorBarsFormat](./errorbarsformat) | Представляет планки погрешностей ряда диаграммы. Пользовательские значения ErrorBars находятся в IChartDataPointCollection (в свойстве[`ErrorBarsCustomValues`](../aspose.slides.charts/ichartdatapoint/errorbarscustomvalues)). |
+| [ErrorBarsCustomValues](./errorbarscustomvalues) | Указывает значения панели ошибок. Он должен использоваться только в том случае, если тип значения Error bar имеет значение Custom. . |
+| [ErrorBarsFormat](./errorbarsformat) | Представляет планки погрешностей рядов диаграмм. Пользовательские значения ErrorBars находятся в IChartDataPointCollection (в[`ErrorBarsCustomValues`](../aspose.slides.charts/ichartdatapoint/errorbarscustomvalues) свойство). |
 | [Format](./format) | Представляет свойства формата диаграммы. |
 | [Legend](./legend) | Представляет свойства легенды диаграммы. |
 | [LegendEntryCollection](./legendentrycollection) | Представляет коллекцию легенд. |
 | [LegendEntryProperties](./legendentryproperties) | Представляет свойства легенды диаграммы. |
-| [Marker](./marker) | Представляет маркер черти. |
+| [Marker](./marker) | Представляет собой маркер чертежа. |
 | [PieSplitCustomPointCollection](./piesplitcustompointcollection) | Представляет набор точек для точки разделения в столбчатой или круговой диаграмме с пользовательским разделением. |
 | [Rotation3D](./rotation3d) | Представляет трехмерное вращение диаграммы. |
 | [StringChartValue](./stringchartvalue) | Представляет строковое значение, которое может быть сохранено в документе презентации pptx двумя способами: 1) в ячейке/ячейках рабочей книги, связанной с диаграммой; 2) как буквальное значение. |
-| [StringOrDoubleChartValue](./stringordoublechartvalue) | Представляет строку или двойное значение, которое может быть сохранено в документе презентации pptx двумя способами: 1) в ячейке/ячейках рабочей книги, связанной с диаграммой ; 2) как буквальное значение. |
-| [Trendline](./trendline) | Класс представляет линию тренда ряда диаграммы |
+| [StringOrDoubleChartValue](./stringordoublechartvalue) | Представляет строку или двойное значение, которое может быть сохранено в документе презентации pptx двумя способами: 1) в ячейке/ячейках рабочей книги, связанной с диаграммой; 2) как буквальное значение. |
+| [Trendline](./trendline) | Класс представляет линию тренда диаграммы series |
 | [TrendlineCollection](./trendlinecollection) | Представляет коллекцию Trendline |
-| [UpDownBarsManager](./updownbarsmanager) | Обеспечивает доступ к барам вверх/вниз линейного или биржевого графика. |
+| [UpDownBarsManager](./updownbarsmanager) | Предоставляет доступ к барам вверх/вниз линейного или биржевого графика. |
 ## Интерфейсы
 
 | Интерфейс | Описание |
@@ -72,8 +72,8 @@ url: /ru/net/aspose.slides.charts/
 | [IAxisFormat](./iaxisformat) | Представляет свойства формата диаграммы. |
 | [IBaseChartValue](./ibasechartvalue) | Представляет значение диаграммы. |
 | [IChart](./ichart) | Представляет графическую диаграмму на слайде. |
-| [IChartCategory](./ichartcategory) | Представляет категории диаграмм. |
-| [IChartCategoryCollection](./ichartcategorycollection) | Представляет коллекцию[`IChartCategory`](../aspose.slides.charts/ichartcategory) |
+| [IChartCategory](./ichartcategory) | Представляет категории диаграммы. |
+| [IChartCategoryCollection](./ichartcategorycollection) | Представляет набор[`IChartCategory`](../aspose.slides.charts/ichartcategory) |
 | [IChartCategoryLevelsManager](./ichartcategorylevelsmanager) | Управляемый контейнер значений уровней категорий графика. |
 | [IChartCellCollection](./ichartcellcollection) | Представляет набор ячеек с данными. |
 | [IChartComponent](./ichartcomponent) | Представляет компонент диаграммы. |
@@ -85,75 +85,75 @@ url: /ru/net/aspose.slides.charts/
 | [IChartDataPointLevelsManager](./ichartdatapointlevelsmanager) | Контейнер уровней точек данных. Применяется для серий Treeamp и Sunburst. Индексация уровней точек данных начинается с нуля. |
 | [IChartDataWorkbook](./ichartdataworkbook) | Предоставляет доступ к встроенной книге Excel |
 | [IChartDataWorksheet](./ichartdataworksheet) | Представляет рабочий лист, связанный с[`IChartDataCell`](../aspose.slides.charts/ichartdatacell) |
-| [IChartDataWorksheetCollection](./ichartdataworksheetcollection) | Представляет набор рабочих листов книги данных диаграммы. |
+| [IChartDataWorksheetCollection](./ichartdataworksheetcollection) | Представляет набор листов рабочей книги данных диаграммы. |
 | [IChartLinesFormat](./ichartlinesformat) | Представляет свойства формата линий сетки. |
 | [IChartParagraphFormat](./ichartparagraphformat) | Представляет свойства форматирования абзаца диаграммы. |
 | [IChartPlotArea](./ichartplotarea) | Представляет свойства заголовка диаграммы. |
 | [IChartPortionFormat](./ichartportionformat) | Представляет свойства форматирования части диаграммы, используемые в диаграммах. |
-| [IChartSeries](./ichartseries) | Представляет ряд диаграммы. |
-| [IChartSeriesCollection](./ichartseriescollection) | Представляет коллекцию[`IChartSeries`](../aspose.slides.charts/ichartseries) |
+| [IChartSeries](./ichartseries) | Представляет серию диаграммы. |
+| [IChartSeriesCollection](./ichartseriescollection) | Представляет набор[`IChartSeries`](../aspose.slides.charts/ichartseries) |
 | [IChartSeriesGroup](./ichartseriesgroup) | Представляет группу серий. |
-| [IChartSeriesGroupCollection](./ichartseriesgroupcollection) | Представляет набор групп комбинируемых рядов. |
+| [IChartSeriesGroupCollection](./ichartseriesgroupcollection) | Представляет набор групп комбинируемых серий. |
 | [IChartSeriesReadonlyCollection](./ichartseriesreadonlycollection) | Представляет доступную только для чтения коллекцию[`IChartSeries`](../aspose.slides.charts/ichartseries) |
 | [IChartTextBlockFormat](./icharttextblockformat) | Представляет свойства форматирования для текстовых элементов диаграммы. |
-| [IChartTextFormat](./icharttextformat) | Графики работают с ограниченным набором свойств текстового формата. IChartTextFormat, IChartTextBlockFormat, IChartParagraphFormat, IChartPortionFormat интерфейсы описывают этот ограниченный набор. |
+| [IChartTextFormat](./icharttextformat) | Диаграмма работает с ограниченным набором свойств текстового формата. Интерфейсы IChartTextFormat, IChartTextBlockFormat, IChartParagraphFormat, IChartPortionFormat описывают этот ограниченный набор. |
 | [IChartTitle](./icharttitle) | Представляет свойства заголовка диаграммы. |
 | [IChartWall](./ichartwall) | Представляет стены на трехмерных графиках. |
 | [IDataLabel](./idatalabel) | Представляет метки серии. |
 | [IDataLabelCollection](./idatalabelcollection) | Представляет метки серии. |
 | [IDataLabelFormat](./idatalabelformat) | Представляет параметры форматирования для DataLabel. |
-| [IDataSourceTypeForErrorBarsCustomValues](./idatasourcetypeforerrorbarscustomvalues) | Указывает типы значений в списке свойств ChartDataPoint.ErrorBarsCustomValues |
+| [IDataSourceTypeForErrorBarsCustomValues](./idatasourcetypeforerrorbarscustomvalues) | Указывает типы значений в свойствах ChartDataPoint.ErrorBarsCustomValues list |
 | [IDataTable](./idatatable) | Представляет свойства таблицы данных. |
 | [IDoubleChartValue](./idoublechartvalue) | Представляет двойное значение, которое может быть сохранено в документе презентации pptx двумя способами: 1) в ячейке/ячейках рабочей книги, связанной с диаграммой; 2) как буквальное значение. |
-| [IErrorBarsCustomValues](./ierrorbarscustomvalues) | Указывает значения панели ошибок. Он должен использоваться только в том случае, если тип значения Error bar имеет значение Custom. |
-| [IErrorBarsFormat](./ierrorbarsformat) | Представляет планки погрешностей ряда диаграммы. Пользовательские значения ErrorBars находятся в IChartDataPointCollection (в свойстве[`ErrorBarsCustomValues`](../aspose.slides.charts/ichartdatapoint/errorbarscustomvalues)). |
+| [IErrorBarsCustomValues](./ierrorbarscustomvalues) | Указывает значения панели ошибок. Он должен использоваться только в том случае, если тип значения Error bar имеет значение Custom. . |
+| [IErrorBarsFormat](./ierrorbarsformat) | Представляет планки погрешностей рядов диаграмм. Пользовательские значения ErrorBars находятся в IChartDataPointCollection (в[`ErrorBarsCustomValues`](../aspose.slides.charts/ichartdatapoint/errorbarscustomvalues) свойство). |
 | [IFormat](./iformat) | Представляет свойства формата диаграммы. |
 | [IFormattedTextContainer](./iformattedtextcontainer) | Представляет формат текста диаграммы. |
 | [ILayoutable](./ilayoutable) | Указывает точное положение элемента диаграммы. |
 | [ILegend](./ilegend) | Представляет свойства легенды диаграммы. |
 | [ILegendEntryCollection](./ilegendentrycollection) | Представляет коллекцию легенд. |
 | [ILegendEntryProperties](./ilegendentryproperties) | Представляет свойства легенды диаграммы. |
-| [IMarker](./imarker) | Представляет маркер черти. |
+| [IMarker](./imarker) | Представляет собой маркер чертежа. |
 | [IMultipleCellChartValue](./imultiplecellchartvalue) | Представляет набор ячеек диаграммы. |
 | [IOverridableText](./ioverridabletext) | Представляет перезаписываемый текст для диаграммы. |
-| [IPieSplitCustomPointCollection](./ipiesplitcustompointcollection) | Представляет набор точек, которые должны быть отрисованы во второй круговой диаграмме или столбце на линейчатой или круговой диаграмме с пользовательским разделением. |
+| [IPieSplitCustomPointCollection](./ipiesplitcustompointcollection) | Представляет набор точек, которые должны быть отображены на второй круговой диаграмме или столбце на линейчатой или круговой диаграмме с пользовательским разделением. |
 | [IRotation3D](./irotation3d) | Представляет трехмерное вращение диаграммы. |
 | [ISingleCellChartValue](./isinglecellchartvalue) | Представляет ячейку данных диаграммы. |
 | [IStringChartValue](./istringchartvalue) | Представляет строковое значение, которое может быть сохранено в документе презентации pptx двумя способами: 1) в ячейке/ячейках рабочей книги, связанной с диаграммой; 2) как буквальное значение. |
-| [IStringOrDoubleChartValue](./istringordoublechartvalue) | Представляет строку или двойное значение, которое может быть сохранено в документе презентации pptx двумя способами: 1) в ячейке/ячейках рабочей книги, связанной с диаграммой ; 2) как буквальное значение. |
-| [ITrendline](./itrendline) | Класс представляет линию тренда ряда диаграммы |
+| [IStringOrDoubleChartValue](./istringordoublechartvalue) | Представляет строку или двойное значение, которое может быть сохранено в документе презентации pptx двумя способами: 1) в ячейке/ячейках рабочей книги, связанной с диаграммой; 2) как буквальное значение. |
+| [ITrendline](./itrendline) | Класс представляет линию тренда диаграммы series |
 | [ITrendlineCollection](./itrendlinecollection) | Представляет коллекцию TrendlineEx |
-| [IUpDownBarsManager](./iupdownbarsmanager) | Обеспечивает доступ к барам вверх/вниз линейного или биржевого графика. |
+| [IUpDownBarsManager](./iupdownbarsmanager) | Предоставляет доступ к барам вверх/вниз линейного или биржевого графика. |
 ## перечисление
 
 | перечисление | Описание |
 | --- | --- |
-| [AxisAggregationType](./axisaggregationtype) | Представляет тип агрегации оси категорий. Используется только с сериями Histogram или HistogramPareto. |
+| [AxisAggregationType](./axisaggregationtype) | Представляет тип агрегирования оси категорий. Используется только с сериями Histogram или HistogramPareto. |
 | [AxisPositionType](./axispositiontype) | Определяет положение оси. |
 | [BubbleSizeRepresentationType](./bubblesizerepresentationtype) | Определяет возможные способы представления данных в виде размеров пузырьковой диаграммы. |
 | [CategoryAxisType](./categoryaxistype) | Представляет тип оси категорий. |
 | [ChartDataSourceType](./chartdatasourcetype) | Представляет тип источника данных диаграммы |
 | [ChartShapeType](./chartshapetype) | Представляет форму диаграммы. |
 | [ChartType](./charttype) | Представляет тип диаграммы. |
-| [CombinableSeriesTypesGroup](./combinableseriestypesgroup) | Перечисление групп комбинируемых типов серий. Каждый элемент относится к группе типов серий диаграмм, которые могут одновременно сохраняться в одной группе ChartSeriesGroup. Например:ряд ChartType.PercentsStackedArea не может быть одновременно с рядом ChartType.StackedArea в одной ChartSeriesGroup. Но два или более ChartType.PercentsStackedArea могут находиться в одной ChartSeriesGroup одновременно (CombinableSeriesTypesGroup.AreaChart_PercentsStackedArea). А серии ChartType.Line могут быть с сериями ChartType.LineWithMarkers одновременно в одной CombinableSeriesTypesGroup.LineChart_Line ChartSeriesGroup. |
-| [CrossesType](./crossestype) | Определяет, где будет пересекаться ось. |
+| [CombinableSeriesTypesGroup](./combinableseriestypesgroup) | Перечисление групп комбинируемых типов рядов. Каждый элемент относится к группе типов рядов диаграмм, которые могут сохраняться одновременно в одной ChartSeriesGroup. Например: ряд ChartType.PercentsStackedArea не может быть одновременно с ChartType.StackedArea рядом в одной ChartSeriesGroup. Но два или более ChartType.PercentsStackedArea могут одновременно находиться в одной ChartSeriesGroup (CombinableSeriesTypesGroup.AreaChart_PercentsStackedArea). А серии ChartType.Line могут быть с сериями ChartType.LineWithMarkers одновременно в одной CombinableSeriesTypesGroup.LineChart_Line ChartSeriesGroup. |
+| [CrossesType](./crossestype) | Определяет место пересечения оси. |
 | [DataSourceType](./datasourcetype) | Типы источников данных. |
 | [DisplayBlanksAsType](./displayblanksastype) | Определяет, как будут отображаться отсутствующие данные. |
 | [DisplayUnitType](./displayunittype) | Определяет кратность отображаемых данных. |
-| [ErrorBarType](./errorbartype) | Представляет тип полосы ошибок |
-| [ErrorBarValueType](./errorbarvaluetype) | Представляет тип значения полосы ошибок |
-| [LayoutTargetType](./layouttargettype) | Если расположение области графика определено вручную, это свойство указывает, будет ли размещать область построения по ее внутренней части (не включая оси и метки осей) или снаружи (включая оси и метки осей). |
+| [ErrorBarType](./errorbartype) | Представляет тип ошибки bar |
+| [ErrorBarValueType](./errorbarvaluetype) | Представляет тип полосы ошибок value |
+| [LayoutTargetType](./layouttargettype) | Если макет области графика определен вручную, это свойство указывает, будет ли размещать область графика внутри (без учета осей и меток осей) или снаружи (включая оси и метки осей). |
 | [LegendDataLabelPosition](./legenddatalabelposition) | Определяет положение меток данных. |
 | [LegendPositionType](./legendpositiontype) | Определяет положение легенды на графике. |
-| [MarkerStyleType](./markerstyletype) | Определяет форму маркера точки данных графика. |
-| [ParentLabelLayoutType](./parentlabellayouttype) | Представляет макет меток данных категории. Используется только с сериями Treemap. |
+| [MarkerStyleType](./markerstyletype) | Определяет форму маркера точки данных диаграммы. |
+| [ParentLabelLayoutType](./parentlabellayouttype) | Представляет макет меток данных категории. Используется только с серией Treemap. |
 | [PictureType](./picturetype) | Определяет режим заполнения изображения бара. |
 | [PieSplitType](./piesplittype) | Представляет тип точек разделения во второй круговой диаграмме или столбце на круговой или столбчатой диаграмме. |
-| [QuartileMethodType](./quartilemethodtype) | Возвращает тип метода квартилей |
+| [QuartileMethodType](./quartilemethodtype) | Возвращает тип квартиля method |
 | [StyleType](./styletype) | Представляет стиль диаграммы. |
-| [TickLabelPositionType](./ticklabelpositiontype) | Представляет тип положения меток деления на указанной оси. |
+| [TickLabelPositionType](./ticklabelpositiontype) | Представляет тип положения меток делений на указанной оси. |
 | [TickMarkType](./tickmarktype) | Представляет тип деления для указанной оси. |
-| [TimeUnitType](./timeunittype) | Представляет базовую единицу для оси категорий |
+| [TimeUnitType](./timeunittype) | Представляет базовую единицу для категории axis |
 | [TrendlineType](./trendlinetype) | Представляет тип линии тренда |
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

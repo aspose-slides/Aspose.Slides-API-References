@@ -1,14 +1,14 @@
 ---
 title: Picture
 second_title: Aspose.Slides for .NET API 参考
-description: 返回在没有继承的段落中用作项目符号的图片 只读ISlidesPictureaspose.slides/islidespicture
+description: 返回在没有继承的段落中用作项目符号的图片 只读ISlidesPictureaspose.slides/islidespicture.
 type: docs
 weight: 90
 url: /zh/net/aspose.slides/ibulletformat/picture/
 ---
 ## IBulletFormat.Picture property
 
-返回在没有继承的段落中用作项目符号的图片。 只读[`ISlidesPicture`](../../islidespicture)。
+返回在没有继承的段落中用作项目符号的图片。 只读[`ISlidesPicture`](../../islidespicture).
 
 ```csharp
 public ISlidesPicture Picture { get; }

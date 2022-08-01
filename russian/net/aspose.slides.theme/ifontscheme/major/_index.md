@@ -1,14 +1,14 @@
 ---
 title: Major
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает коллекцию шрифтов для заголовка слайда. Только для чтенияIFontsaspose.slides/ifonts.
+description: Возвращает коллекцию шрифтов для заголовка слайда. Только для чтенияIFontsaspose.slides/ifonts .
 type: docs
 weight: 10
 url: /ru/net/aspose.slides.theme/ifontscheme/major/
 ---
 ## IFontScheme.Major property
 
-Возвращает коллекцию шрифтов для «заголовка» слайда. Только для чтения[`IFonts`](../../../aspose.slides/ifonts).
+Возвращает коллекцию шрифтов для «заголовка» слайда. Только для чтения[`IFonts`](../../../aspose.slides/ifonts) .
 
 ```csharp
 public IFonts Major { get; }

@@ -24,8 +24,8 @@ public class ChartCategoryLevelsManager : IChartCategoryLevelsManager
 
 | 姓名 | 描述 |
 | --- | --- |
-| [DeleteGroupingItem](../../aspose.slides.charts/chartcategorylevelsmanager/deletegroupingitem)(int) | 删除定义级别的分组项。 |
-| [SetGroupingItem](../../aspose.slides.charts/chartcategorylevelsmanager/setgroupingitem)(int, object) | 为定义的级别设置分组项。 |
+| [DeleteGroupingItem](../../aspose.slides.charts/chartcategorylevelsmanager/deletegroupingitem)(int) | 删除已定义级别的分组项。 |
+| [SetGroupingItem](../../aspose.slides.charts/chartcategorylevelsmanager/setgroupingitem)(int, object) | 为定义的级别设置分组项目。 |
 
 ### 也可以看看
 

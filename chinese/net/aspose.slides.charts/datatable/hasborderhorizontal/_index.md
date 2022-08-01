@@ -1,14 +1,14 @@
 ---
 title: HasBorderHorizontal
 second_title: Aspose.Slides for .NET API 参考
-description: 如果图表数据表具有水平单元格边框则为真 读/写Boolean
+description: 如果图表数据表具有水平单元格边框则为真 读/写Boolean.
 type: docs
 weight: 30
 url: /zh/net/aspose.slides.charts/datatable/hasborderhorizontal/
 ---
 ## DataTable.HasBorderHorizontal property
 
-如果图表数据表具有水平单元格边框，则为真。 读/写Boolean。
+如果图表数据表具有水平单元格边框，则为真。 读/写Boolean.
 
 ```csharp
 public bool HasBorderHorizontal { get; set; }

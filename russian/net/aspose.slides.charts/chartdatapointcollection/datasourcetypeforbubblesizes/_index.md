@@ -1,14 +1,14 @@
 ---
 title: DataSourceTypeForBubbleSizes
 second_title: Справочник по API Aspose.Slides для .NET
-description: Указывает является ли свойство AsCell AsLiteralString или AsLiteralDouble актуальным в объекте свойства BubbleSize точек данных. Другими словами он указывает тип значения свойства ChartDataPoint.BubbleSize.Data. Чтение/записьDataSourceTypeaspose.slides.charts/datasourcetype.
+description: Указывает является ли свойство AsCell AsLiteralString или AsLiteralDouble действительным в объекте свойств BubbleSize точек данных. Другими словами он указывает тип значения свойства ChartDataPoint.BubbleSize.Data. Чтение/записьDataSourceTypeaspose.slides.charts/datasourcetype .
 type: docs
 weight: 20
 url: /ru/net/aspose.slides.charts/chartdatapointcollection/datasourcetypeforbubblesizes/
 ---
 ## ChartDataPointCollection.DataSourceTypeForBubbleSizes property
 
-Указывает, является ли свойство AsCell, AsLiteralString или AsLiteralDouble актуальным в объекте свойства BubbleSize точек данных. Другими словами, он указывает тип значения свойства ChartDataPoint.BubbleSize.Data. Чтение/запись[`DataSourceType`](../../datasourcetype).
+Указывает, является ли свойство AsCell, AsLiteralString или AsLiteralDouble действительным в объекте свойств BubbleSize точек данных. Другими словами, он указывает тип значения свойства ChartDataPoint.BubbleSize.Data. Чтение/запись[`DataSourceType`](../../datasourcetype) .
 
 ```csharp
 public DataSourceType DataSourceTypeForBubbleSizes { get; set; }

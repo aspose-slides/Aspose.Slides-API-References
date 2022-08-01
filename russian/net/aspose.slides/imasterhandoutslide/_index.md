@@ -18,9 +18,9 @@ public interface IMasterHandoutSlide : IBaseSlide, IMasterThemeable
 
 | Имя | Описание |
 | --- | --- |
-| [AsIBaseSlide](../../aspose.slides/imasterhandoutslide/asibaseslide) { get; } | Позволяет получить базовый интерфейс IBaseSlide. Только для чтения[`IBaseSlide`](../ibaseslide). |
-| [AsIMasterThemeable](../../aspose.slides/imasterhandoutslide/asimasterthemeable) { get; } | Возвращает интерфейс IMasterThemeable. Только для чтения[`IMasterThemeable`](../../aspose.slides.theme/imasterthemeable). |
-| [HeaderFooterManager](../../aspose.slides/imasterhandoutslide/headerfootermanager) { get; } | Возвращает менеджер HeaderFooter основного слайда раздаточных материалов. Только для чтения[`IMasterHandoutSlideHeaderFooterManager`](../imasterhandoutslideheaderfootermanager). |
+| [AsIBaseSlide](../../aspose.slides/imasterhandoutslide/asibaseslide) { get; } | Позволяет получить базовый интерфейс IBaseSlide. Только для чтения[`IBaseSlide`](../ibaseslide) . |
+| [AsIMasterThemeable](../../aspose.slides/imasterhandoutslide/asimasterthemeable) { get; } | Возвращает интерфейс IMasterThemeable. Только для чтения[`IMasterThemeable`](../../aspose.slides.theme/imasterthemeable) . |
+| [HeaderFooterManager](../../aspose.slides/imasterhandoutslide/headerfootermanager) { get; } | Возвращает менеджер HeaderFooter главного слайда раздаточных материалов. Только для чтения[`IMasterHandoutSlideHeaderFooterManager`](../imasterhandoutslideheaderfootermanager) . |
 
 ### Смотрите также
 

@@ -16,7 +16,7 @@ public IEnumerator<IEffect> GetEnumerator()
 
 ### 返回值
 
-AIEnumerator可用于遍历集合。
+一个IEnumerator可用于遍历集合。
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: ExternalFontsHandling
 second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет способ обработки загруженных извне шрифтов. Чтение/записьSvgExternalFontsHandlingaspose.slides.export/svgexternalfontshandling.
+description: Определяет способ обработки загруженных извне шрифтов. Чтение/записьSvgExternalFontsHandlingaspose.slides.export/svgexternalfontshandling .
 type: docs
 weight: 90
 url: /ru/net/aspose.slides.export/svgoptions/externalfontshandling/
 ---
 ## SVGOptions.ExternalFontsHandling property
 
-Определяет способ обработки загруженных извне шрифтов. Чтение/запись[`SvgExternalFontsHandling`](../../svgexternalfontshandling).
+Определяет способ обработки загруженных извне шрифтов. Чтение/запись[`SvgExternalFontsHandling`](../../svgexternalfontshandling) .
 
 ```csharp
 public SvgExternalFontsHandling ExternalFontsHandling { get; set; }

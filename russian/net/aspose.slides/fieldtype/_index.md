@@ -24,24 +24,24 @@ public sealed class FieldType : IFieldType
 
 | Имя | Описание |
 | --- | --- |
-| static [DateTime](../../aspose.slides/fieldtype/datetime) { get; } | Текущая дата и время в формате даты и времени по умолчанию для приложения рендеринга. Только для чтения[`FieldType`](../fieldtype). |
-| static [DateTime1](../../aspose.slides/fieldtype/datetime1) { get; } | Текущая дата и время в предварительно заданном формате (ММ/ДД/ГГГГ для английского). Только для чтения[`FieldType`](../fieldtype). |
-| static [DateTime10](../../aspose.slides/fieldtype/datetime10) { get; } | Текущая дата и время в предопределенном десятом формате (чч:мм для английского). Только для чтения[`FieldType`](../fieldtype). |
-| static [DateTime11](../../aspose.slides/fieldtype/datetime11) { get; } | Текущая дата и время в одиннадцатом предустановленном формате (чч:мм:сс для английского). Только для чтения[`FieldType`](../fieldtype). |
-| static [DateTime12](../../aspose.slides/fieldtype/datetime12) { get; } | Текущая дата и время в предустановленном двенадцатом формате (чч:мм AM/PM для английского). Только для чтения[`FieldType`](../fieldtype). |
-| static [DateTime13](../../aspose.slides/fieldtype/datetime13) { get; } | Текущая дата и время в предустановленном тринадцатом формате (чч:мм:сс AM/PM для английского). Только для чтения[`FieldType`](../fieldtype). |
-| static [DateTime2](../../aspose.slides/fieldtype/datetime2) { get; } | Текущая дата и время во втором предварительно заданном формате (день, месяц DD, YYYY для английского). Только для чтения[`FieldType`](../fieldtype). |
-| static [DateTime3](../../aspose.slides/fieldtype/datetime3) { get; } | Текущая дата и время в третьем предустановленном формате (DD Month YYYY для английского). Только для чтения[`FieldType`](../fieldtype). |
-| static [DateTime4](../../aspose.slides/fieldtype/datetime4) { get; } | Текущая дата и время в четвертом предустановленном формате (месяц ДД, ГГГГ для английского). Только для чтения[`FieldType`](../fieldtype). |
-| static [DateTime5](../../aspose.slides/fieldtype/datetime5) { get; } | Текущая дата и время в пятом предустановленном формате (ДД-Пн-ГГ для английского). Только для чтения[`FieldType`](../fieldtype). |
-| static [DateTime6](../../aspose.slides/fieldtype/datetime6) { get; } | Текущая дата и время в шестом предустановленном формате (Month YY для английского). Только для чтения[`FieldType`](../fieldtype). |
-| static [DateTime7](../../aspose.slides/fieldtype/datetime7) { get; } | Текущая дата и время в предопределенном седьмом формате (Mon-YY для английского). Только для чтения[`FieldType`](../fieldtype). |
-| static [DateTime8](../../aspose.slides/fieldtype/datetime8) { get; } | Текущая дата и время в предустановленном восьмом формате (ММ/ДД/ГГГГ чч:мм AM/PM для английского). Только для чтения[`FieldType`](../fieldtype). |
-| static [DateTime9](../../aspose.slides/fieldtype/datetime9) { get; } | Текущая дата и время в девятом предустановленном формате (ММ/ДД/ГГГГ чч:мм:сс AM/PM для английского). Только для чтения[`FieldType`](../fieldtype). |
-| static [Footer](../../aspose.slides/fieldtype/footer) { get; } | Нижний колонтитул слайда. Только для чтения[`FieldType`](../fieldtype). |
-| static [Header](../../aspose.slides/fieldtype/header) { get; } | Заголовок слайда. Только для чтения[`FieldType`](../fieldtype). |
-| static [SlideNumber](../../aspose.slides/fieldtype/slidenumber) { get; } | Номер текущего слайда. Только для чтения[`FieldType`](../fieldtype). |
-| [InternalString](../../aspose.slides/fieldtype/internalstring) { get; set; } | Возвращает внутреннее имя этого объекта FieldType. Чтение/записьString. |
+| static [DateTime](../../aspose.slides/fieldtype/datetime) { get; } | Текущая дата и время в формате даты и времени по умолчанию для приложения визуализации. Только для чтения[`FieldType`](../fieldtype) . |
+| static [DateTime1](../../aspose.slides/fieldtype/datetime1) { get; } | Текущая дата и время в предварительно заданном формате (ММ/ДД/ГГГГ для английского языка). Только для чтения[`FieldType`](../fieldtype) . |
+| static [DateTime10](../../aspose.slides/fieldtype/datetime10) { get; } | Текущая дата и время в предустановленном десятом формате (чч:мм для английского). Только для чтения[`FieldType`](../fieldtype) . |
+| static [DateTime11](../../aspose.slides/fieldtype/datetime11) { get; } | Текущая дата и время в одиннадцатом предварительно заданном формате (чч:мм:сс для английского). Только для чтения[`FieldType`](../fieldtype) . |
+| static [DateTime12](../../aspose.slides/fieldtype/datetime12) { get; } | Текущая дата и время в предопределенном двенадцатом формате (чч:мм AM/PM для английского). Только для чтения[`FieldType`](../fieldtype) . |
+| static [DateTime13](../../aspose.slides/fieldtype/datetime13) { get; } | Текущая дата и время в предустановленном тринадцатом формате (чч:мм:сс AM/PM для английского). Только для чтения[`FieldType`](../fieldtype) . |
+| static [DateTime2](../../aspose.slides/fieldtype/datetime2) { get; } | Текущая дата и время во втором предустановленном формате (День, Месяц, ДД, ГГГГ для английского). Только для чтения[`FieldType`](../fieldtype) . |
+| static [DateTime3](../../aspose.slides/fieldtype/datetime3) { get; } | Текущая дата и время в третьем предустановленном формате (DD Month YYYY для английского). Только для чтения[`FieldType`](../fieldtype) . |
+| static [DateTime4](../../aspose.slides/fieldtype/datetime4) { get; } | Текущая дата и время в четвертом предустановленном формате (месяц ДД, ГГГГ для английского). Только для чтения[`FieldType`](../fieldtype) . |
+| static [DateTime5](../../aspose.slides/fieldtype/datetime5) { get; } | Текущая дата и время в пятом предварительно заданном формате (ДД-Пн-ГГ для английского). Только для чтения[`FieldType`](../fieldtype) . |
+| static [DateTime6](../../aspose.slides/fieldtype/datetime6) { get; } | Текущая дата и время в шестом предварительно заданном формате (Месяц YY для английского). Только для чтения[`FieldType`](../fieldtype) . |
+| static [DateTime7](../../aspose.slides/fieldtype/datetime7) { get; } | Текущая дата и время в седьмом заранее заданном формате (Mon-YY для английского). Только для чтения[`FieldType`](../fieldtype) . |
+| static [DateTime8](../../aspose.slides/fieldtype/datetime8) { get; } | Текущая дата и время в предварительно заданном восьмом формате (ММ/ДД/ГГГГ чч:мм AM/PM для английского языка). Только для чтения[`FieldType`](../fieldtype) . |
+| static [DateTime9](../../aspose.slides/fieldtype/datetime9) { get; } | Текущая дата и время в девятом предварительно определенном формате (MM/DD/YYYY hh:mm:ss AM/PM для английского). Только для чтения[`FieldType`](../fieldtype) . |
+| static [Footer](../../aspose.slides/fieldtype/footer) { get; } | Нижний колонтитул слайда. Только для чтения[`FieldType`](../fieldtype) . |
+| static [Header](../../aspose.slides/fieldtype/header) { get; } | Заголовок слайда. Только для чтения[`FieldType`](../fieldtype) . |
+| static [SlideNumber](../../aspose.slides/fieldtype/slidenumber) { get; } | Номер текущего слайда. Только для чтения[`FieldType`](../fieldtype) . |
+| [InternalString](../../aspose.slides/fieldtype/internalstring) { get; set; } | Возвращает внутреннее имя этого объекта FieldType. Чтение/записьString . |
 
 ## Методы
 

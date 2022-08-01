@@ -18,8 +18,8 @@ public class SketchFormat : PVIObject, ISketchFormat
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允许获取基本 IPresentationComponent 接口。 只读[`IPresentationComponent`](../ipresentationcomponent)。 |
-| [SketchType](../../aspose.slides/sketchformat/sketchtype) { get; set; } | 返回或设置草图类型。 读/写[`LineSketchType`](../linesketchtype)。 |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允许获取基本 IPresentationComponent 接口。 只读[`IPresentationComponent`](../ipresentationcomponent). |
+| [SketchType](../../aspose.slides/sketchformat/sketchtype) { get; set; } | 返回或设置草图类型。 读/写[`LineSketchType`](../linesketchtype). |
 
 ## 方法
 

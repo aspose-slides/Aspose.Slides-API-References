@@ -20,9 +20,9 @@ public enum VideoPlayModePreset
 | --- | --- | --- |
 | Mixed | `-1` |  |
 | Auto | `0` | 自动播放。 |
-| OnClick | `1` | 仅在单击视频帧时播放。 |
+| OnClick | `1` | 仅在点击视频帧时播放。 |
 | AllSlides | `2` | 在所有幻灯片上播放。 |
-| InClickSequence | `3` | 单击即可自动播放。 |
+| InClickSequence | `3` | 点击自动播放。 |
 
 ### 也可以看看
 

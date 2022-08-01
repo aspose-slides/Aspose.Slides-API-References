@@ -1,14 +1,14 @@
 ---
 title: Hyperlink
 second_title: Aspose.Slides for .NET API 参考
-description: 创建超链接的实例
+description: 创建一个超链接的实例
 type: docs
 weight: 10
 url: /zh/net/aspose.slides/hyperlink/hyperlink/
 ---
 ## Hyperlink(string) {#constructor_2}
 
-创建超链接的实例。
+创建一个超链接的实例。
 
 ```csharp
 public Hyperlink(string url)
@@ -16,7 +16,7 @@ public Hyperlink(string url)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| url | String | 超链接 URL。 |
+| url | String | 超链接网址。 |
 
 ### 也可以看看
 
@@ -28,7 +28,7 @@ public Hyperlink(string url)
 
 ## Hyperlink(ISlide) {#constructor_1}
 
-创建指向特定幻灯片的超链接实例。 注意:创建的超链接应分配给同一演示文稿中的某个对象，否则链接将保存为 NoAction。
+创建指向特定幻灯片的超链接实例。 注意：创建的超链接应分配给同一演示文稿中的某个对象，否则链接将保存为 NoAction。
 
 ```csharp
 public Hyperlink(ISlide slide)

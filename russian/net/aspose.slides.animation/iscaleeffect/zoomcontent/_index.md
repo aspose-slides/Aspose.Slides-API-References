@@ -1,14 +1,14 @@
 ---
 title: ZoomContent
 second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет следует ли масштабировать содержимое. Чтение/записьNullableBoolaspose.slides/nullablebool.
+description: Определяет следует ли масштабировать содержимое. Чтение/записьNullableBoolaspose.slides/nullablebool .
 type: docs
 weight: 50
 url: /ru/net/aspose.slides.animation/iscaleeffect/zoomcontent/
 ---
 ## IScaleEffect.ZoomContent property
 
-Определяет, следует ли масштабировать содержимое. Чтение/запись[`NullableBool`](../../../aspose.slides/nullablebool).
+Определяет, следует ли масштабировать содержимое. Чтение/запись[`NullableBool`](../../../aspose.slides/nullablebool) .
 
 ```csharp
 public NullableBool ZoomContent { get; set; }

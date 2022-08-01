@@ -17,7 +17,7 @@ public IBlur CreateBlur(double radius, bool grow)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | radius | Double | Радиус. |
-| grow | Boolean | Рост. |
+| grow | Boolean | Расти. |
 
 ### Возвращаемое значение
 

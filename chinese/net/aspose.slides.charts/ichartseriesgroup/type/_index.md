@@ -1,14 +1,14 @@
 ---
 title: Type
 second_title: Aspose.Slides for .NET API 参考
-description: 返回此系列组的类型 只读CombinableSeriesTypesGroupaspose.slides.charts/combinableseriestypesgroup
+description: 返回此系列组的类型 只读CombinableSeriesTypesGroupaspose.slides.charts/combinableseriestypesgroup.
 type: docs
 weight: 190
 url: /zh/net/aspose.slides.charts/ichartseriesgroup/type/
 ---
 ## IChartSeriesGroup.Type property
 
-返回此系列组的类型。 只读[`CombinableSeriesTypesGroup`](../../combinableseriestypesgroup)。
+返回此系列组的类型。 只读[`CombinableSeriesTypesGroup`](../../combinableseriestypesgroup).
 
 ```csharp
 public CombinableSeriesTypesGroup Type { get; }

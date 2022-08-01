@@ -1,14 +1,14 @@
 ---
 title: IsValid
 second_title: Справочник по API Aspose.Slides для .NET
-description: Если эта цифровая подпись действительна и документ не был подделан это значение будет истинным. Только чтениеBoolean.
+description: Если эта цифровая подпись действительна и документ не был подделан это значение будет истинным. Только для чтенияBoolean .
 type: docs
 weight: 30
 url: /ru/net/aspose.slides/idigitalsignature/isvalid/
 ---
 ## IDigitalSignature.IsValid property
 
-Если эта цифровая подпись действительна и документ не был подделан, это значение будет истинным. Только чтениеBoolean.
+Если эта цифровая подпись действительна и документ не был подделан, это значение будет истинным. Только для чтенияBoolean .
 
 ```csharp
 public bool IsValid { get; }

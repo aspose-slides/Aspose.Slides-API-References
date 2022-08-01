@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: Aspose.Slides for .NET API 参考
-description: 确定指定的Bluraspose.slides.effects/blur是否等于当前的Blur
+description: 判断是否指定Bluraspose.slides.effects/blur等于当前Bluraspose.slides.effects/blur.
 type: docs
 weight: 30
 url: /zh/net/aspose.slides.effects/blur/equals/
 ---
 ## Blur.Equals method
 
-确定指定的[`Blur`](../../blur)是否等于当前的Blur。
+判断是否指定[`Blur`](../../blur)等于当前[`Blur`](../../blur).
 
 ```csharp
 public override bool Equals(object obj)
@@ -16,11 +16,11 @@ public override bool Equals(object obj)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| obj | Object | [`Blur`](../../blur)进行比较。 |
+| obj | Object | 这[`Blur`](../../blur)比较。 |
 
 ### 返回值
 
-如果对象相等，则为真；否则为假。
+如果对象相等，则为 true；否则为假。
 
 ### 也可以看看
 

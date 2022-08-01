@@ -18,9 +18,9 @@ public class Marker : IMarker
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Format](../../aspose.slides.charts/marker/format) { get; } | 获取或设置标记填充。 只读[`IFormat`](../iformat)。 |
-| [Size](../../aspose.slides.charts/marker/size) { get; set; } | 表示折线图、散点图或雷达图中的标记大小。 读/写Int32。 |
-| [Symbol](../../aspose.slides.charts/marker/symbol) { get; set; } | 表示折线图、散点图或雷达图中的标记样式。 读/写[`MarkerStyleType`](../markerstyletype)。 |
+| [Format](../../aspose.slides.charts/marker/format) { get; } | 获取或设置标记填充。 只读[`IFormat`](../iformat). |
+| [Size](../../aspose.slides.charts/marker/size) { get; set; } | 表示折线图、散点图或雷达图中的标记大小。 读/写Int32. |
+| [Symbol](../../aspose.slides.charts/marker/symbol) { get; set; } | 表示折线图、散点图或雷达图中的标记样式。 读/写[`MarkerStyleType`](../markerstyletype). |
 
 ### 也可以看看
 

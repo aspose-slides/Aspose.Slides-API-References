@@ -16,7 +16,7 @@ public void Remove(IEffect item)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| item | IEffect | 要移除的效果。 |
+| item | IEffect | 去除效果。 |
 
 ### 也可以看看
 

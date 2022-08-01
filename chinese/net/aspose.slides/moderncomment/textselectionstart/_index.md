@@ -1,14 +1,14 @@
 ---
 title: TextSelectionStart
 second_title: Aspose.Slides for .NET API 参考
-description: 如果注释与自选图形关联则获取或设置文本框架中文本选择的起始位置 读/写Int32
+description: 获取或设置文本框中文本选择的起始位置如果与自选图形相关的注释 读/写Int32.
 type: docs
 weight: 40
 url: /zh/net/aspose.slides/moderncomment/textselectionstart/
 ---
 ## ModernComment.TextSelectionStart property
 
-如果注释与自选图形关联，则获取或设置文本框架中文本选择的起始位置。 读/写Int32。
+获取或设置文本框中文本选择的起始位置（如果与自选图形相关的注释）。 读/写Int32.
 
 ```csharp
 public int TextSelectionStart { get; set; }

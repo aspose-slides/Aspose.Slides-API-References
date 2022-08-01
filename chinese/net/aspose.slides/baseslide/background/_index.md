@@ -1,14 +1,14 @@
 ---
 title: Background
 second_title: Aspose.Slides for .NET API 参考
-description: 返回幻灯片的背景 只读IBackgroundaspose.slides/ibackground
+description: 返回幻灯片的背景 只读IBackgroundaspose.slides/ibackground.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides/baseslide/background/
 ---
 ## BaseSlide.Background property
 
-返回幻灯片的背景。 只读[`IBackground`](../../ibackground)。
+返回幻灯片的背景。 只读[`IBackground`](../../ibackground).
 
 ```csharp
 public IBackground Background { get; }

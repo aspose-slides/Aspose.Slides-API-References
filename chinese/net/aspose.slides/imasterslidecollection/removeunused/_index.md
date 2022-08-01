@@ -16,7 +16,7 @@ public void RemoveUnused(bool ignorePreserveField)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| ignorePreserveField | Boolean | 确定此方法是否应删除未使用的 master，即使它的[`Preserve`](../../imasterslide/preserve)属性设置为 true。 |
+| ignorePreserveField | Boolean | 确定此方法是否应删除未使用的 master，即使它的[`Preserve`](../../imasterslide/preserve)属性设置为真。 |
 
 ### 也可以看看
 

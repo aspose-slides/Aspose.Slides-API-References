@@ -1,14 +1,14 @@
 ---
 title: IsAutomaticMajorUnit
 second_title: Aspose.Slides for .NET API 参考
-description: 表示是否自动分配轴的主要单位 读/写Boolean
+description: 表示是否自动分配轴的主要单位 读/写Boolean.
 type: docs
 weight: 180
 url: /zh/net/aspose.slides.charts/iaxis/isautomaticmajorunit/
 ---
 ## IAxis.IsAutomaticMajorUnit property
 
-表示是否自动分配轴的主要单位。 读/写Boolean。
+表示是否自动分配轴的主要单位。 读/写Boolean.
 
 ```csharp
 public bool IsAutomaticMajorUnit { get; set; }

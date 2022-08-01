@@ -18,7 +18,7 @@ public interface ISpreadsheetOptions
 
 | Имя | Описание |
 | --- | --- |
-| [PreferredCulture](../../aspose.slides/ispreadsheetoptions/preferredculture) { get; set; } | Получает или задает предпочтительные сведения о культуре для вычисления некоторых функций, предназначенных для использования с языками , использующими двухбайтовый набор символов (DBCS). |
+| [PreferredCulture](../../aspose.slides/ispreadsheetoptions/preferredculture) { get; set; } | Получает или задает информацию о предпочтительном языке и региональных параметрах для вычисления некоторых функций, предназначенных для использования с языками , использующими двухбайтовый набор символов (DBCS). |
 | [RecoverWorkbookFromChartCache](../../aspose.slides/ispreadsheetoptions/recoverworkbookfromchartcache) { get; set; } | Если источником данных для диаграммы является внешняя рабочая книга и она недоступна, она будет восстановлена из кэша диаграммы. |
 
 ### Смотрите также

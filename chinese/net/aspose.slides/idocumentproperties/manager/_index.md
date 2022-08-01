@@ -1,14 +1,14 @@
 ---
 title: Manager
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置管理器属性 读/写String
+description: 返回或设置管理器属性 读/写String.
 type: docs
 weight: 170
 url: /zh/net/aspose.slides/idocumentproperties/manager/
 ---
 ## IDocumentProperties.Manager property
 
-返回或设置管理器属性。 读/写String。
+返回或设置管理器属性。 读/写String.
 
 ```csharp
 public string Manager { get; set; }

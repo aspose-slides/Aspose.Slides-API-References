@@ -1,14 +1,14 @@
 ---
 title: GetEffective
 second_title: Справочник по API Aspose.Slides для .NET
-description: Получает эффективные свойства форматирования ячеек таблицы с применением стилей наследования и таблиц.
+description: Получает эффективные свойства форматирования ячеек таблицы с примененными стилями наследования и таблиц.
 type: docs
 weight: 80
 url: /ru/net/aspose.slides/icellformat/geteffective/
 ---
 ## ICellFormat.GetEffective method
 
-Получает эффективные свойства форматирования ячеек таблицы с применением стилей наследования и таблиц.
+Получает эффективные свойства форматирования ячеек таблицы с примененными стилями наследования и таблиц.
 
 ```csharp
 public ICellFormatEffectiveData GetEffective()
@@ -16,7 +16,7 @@ public ICellFormatEffectiveData GetEffective()
 
 ### Возвращаемое значение
 
-A[`ICellFormatEffectiveData`](../../icellformateffectivedata).
+А[`ICellFormatEffectiveData`](../../icellformateffectivedata).
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: HeaderFooterManager
 second_title: Aspose.Slides for .NET API 参考
-description: 返回主注释幻灯片的 HeaderFooter 管理器 只读IMasterHandoutSlideHeaderFooterManageraspose.slides/imasterhandoutslideheaderfootermanager
+description: 返回主注释幻灯片的 HeaderFooter 管理器 只读IMasterHandoutSlideHeaderFooterManageraspose.slides/imasterhandoutslideheaderfootermanager.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides/masternotesslide/headerfootermanager/
 ---
 ## MasterNotesSlide.HeaderFooterManager property
 
-返回主注释幻灯片的 HeaderFooter 管理器。 只读[`IMasterHandoutSlideHeaderFooterManager`](../../imasterhandoutslideheaderfootermanager)。
+返回主注释幻灯片的 HeaderFooter 管理器。 只读[`IMasterHandoutSlideHeaderFooterManager`](../../imasterhandoutslideheaderfootermanager).
 
 ```csharp
 public IMasterNotesSlideHeaderFooterManager HeaderFooterManager { get; }

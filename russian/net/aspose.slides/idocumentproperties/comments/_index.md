@@ -1,14 +1,14 @@
 ---
 title: Comments
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или задает комментарии презентации. Чтение/записьString.
+description: Возвращает или задает комментарии к презентации. Чтение/записьString .
 type: docs
 weight: 50
 url: /ru/net/aspose.slides/idocumentproperties/comments/
 ---
 ## IDocumentProperties.Comments property
 
-Возвращает или задает комментарии презентации. Чтение/записьString.
+Возвращает или задает комментарии к презентации. Чтение/записьString .
 
 ```csharp
 public string Comments { get; set; }

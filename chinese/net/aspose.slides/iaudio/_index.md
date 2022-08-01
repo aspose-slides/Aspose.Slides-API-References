@@ -18,14 +18,14 @@ public interface IAudio
 
 | 姓名 | 描述 |
 | --- | --- |
-| [BinaryData](../../aspose.slides/iaudio/binarydata) { get; } | 返回音频数据的副本。如果数据量很大，请考虑 使用[`GetStream`](./getstream)方法来防止将音频的 数据不必要地加载到内存甚至 OutOfMemoryException。 只读Byte[]。 |
-| [ContentType](../../aspose.slides/iaudio/contenttype) { get; } | 返回音频的 MIME 类型，编码为[`BinaryData`](./binarydata)。 只读String。 |
+| [BinaryData](../../aspose.slides/iaudio/binarydata) { get; } | 返回音频数据的副本。在大量数据的情况下考虑使用 [`GetStream`](./getstream)防止将音频的 数据不必要地加载到内存甚至OutOfMemoryException. 只读的方法Byte[]. |
+| [ContentType](../../aspose.slides/iaudio/contenttype) { get; } | 返回音频的 MIME 类型，编码为[`BinaryData`](./binarydata) . 只读String. |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [GetStream](../../aspose.slides/iaudio/getstream)() | 返回 Stream 流以供读取。 使用 'using' 或在使用后关闭流。 |
+| [GetStream](../../aspose.slides/iaudio/getstream)() | 返回 Stream 流以供读取。 使用“使用”或在使用后关闭流。 |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: EmbeddedFileName
 second_title: Aspose.Slides for .NET API 参考
-description: 返回嵌入 OLE 对象的路径
+description: 返回嵌入式 OLE 对象的路径
 type: docs
 weight: 40
 url: /zh/net/aspose.slides/oleobjectframe/embeddedfilename/
 ---
 ## OleObjectFrame.EmbeddedFileName property
 
-返回嵌入 OLE 对象的路径
+返回嵌入式 OLE 对象的路径
 
 ```csharp
 public string EmbeddedFileName { get; }

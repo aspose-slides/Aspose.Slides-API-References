@@ -1,14 +1,14 @@
 ---
 title: DefaultPortionFormat
 second_title: Aspose.Slides for .NET API 参考
-description: 返回段落的默认部分格式 只读IPortionFormatEffectiveDataaspose.slides/iportionformateffectivedata
+description: 返回段落的默认部分格式 只读IPortionFormatEffectiveDataaspose.slides/iportionformateffectivedata.
 type: docs
 weight: 30
 url: /zh/net/aspose.slides/iparagraphformateffectivedata/defaultportionformat/
 ---
 ## IParagraphFormatEffectiveData.DefaultPortionFormat property
 
-返回段落的默认部分格式。 只读[`IPortionFormatEffectiveData`](../../iportionformateffectivedata)。
+返回段落的默认部分格式。 只读[`IPortionFormatEffectiveData`](../../iportionformateffectivedata).
 
 ```csharp
 public IPortionFormatEffectiveData DefaultPortionFormat { get; }

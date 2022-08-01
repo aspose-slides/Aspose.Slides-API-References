@@ -1,14 +1,14 @@
 ---
 title: Comments
 second_title: Aspose.Slides for .NET API 参考
-description: 签名的目的 读/写String
+description: 签名的目的 读/写String.
 type: docs
 weight: 30
 url: /zh/net/aspose.slides/digitalsignature/comments/
 ---
 ## DigitalSignature.Comments property
 
-签名的目的。 读/写String。
+签名的目的。 读/写String.
 
 ```csharp
 public string Comments { get; set; }

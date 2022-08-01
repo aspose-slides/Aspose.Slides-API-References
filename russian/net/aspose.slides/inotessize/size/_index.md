@@ -1,14 +1,14 @@
 ---
 title: Size
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или задает размер в пунктах. Чтение/записьSizeF.
+description: Возвращает или задает размер в пунктах. Чтение/записьSizeF .
 type: docs
 weight: 10
 url: /ru/net/aspose.slides/inotessize/size/
 ---
 ## INotesSize.Size property
 
-Возвращает или задает размер в пунктах. Чтение/записьSizeF.
+Возвращает или задает размер в пунктах. Чтение/записьSizeF .
 
 ```csharp
 public SizeF Size { get; set; }

@@ -38,7 +38,7 @@ public ColorOperation(ColorTransformOperation op, float parameter)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | op | ColorTransformOperation | Тип операции. |
-| параметр | Single | Параметр операции. |
+| parameter | Single | Параметр операции. |
 
 ### Смотрите также
 

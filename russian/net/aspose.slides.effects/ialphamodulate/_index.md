@@ -1,14 +1,14 @@
 ---
 title: IAlphaModulate
 second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет эффект альфа-модуляции. Значения альфа-канала эффекта непрозрачности умножаются на фиксированный процент. Контейнер эффекта определяет эффект содержащий альфа-значения для модуляции.
+description: Представляет эффект альфа-модуляции. Значения альфа-канала непрозрачности эффекта умножаются на фиксированный процент. Контейнер эффекта определяет эффект содержащий альфа-значения для модуляции.
 type: docs
 weight: 2920
 url: /ru/net/aspose.slides.effects/ialphamodulate/
 ---
 ## IAlphaModulate interface
 
-Представляет эффект альфа-модуляции. Значения альфа-канала эффекта (непрозрачности) умножаются на фиксированный процент. Контейнер эффекта определяет эффект, содержащий альфа-значения для модуляции.
+Представляет эффект альфа-модуляции. Значения альфа-канала (непрозрачности) эффекта умножаются на фиксированный процент. Контейнер эффекта определяет эффект, содержащий альфа-значения для модуляции.
 
 ```csharp
 public interface IAlphaModulate : IAccessiblePVIObject<IAlphaModulateEffectiveData>, 
@@ -19,8 +19,8 @@ public interface IAlphaModulate : IAccessiblePVIObject<IAlphaModulateEffectiveDa
 
 | Имя | Описание |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphamodulate/asiaccessiblepviobject) { get; } | Позволяет получить базовый интерфейс IAccessiblePVIObject. Только чтение[`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ialphamodulate/asiimagetransformoperation) { get; } | Позволяет получить базовый интерфейс IImageTransformOperation. Только для чтения[`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphamodulate/asiaccessiblepviobject) { get; } | Позволяет получить базовый интерфейс IAccessiblePVIObject. Только для чтения[`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1) . |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ialphamodulate/asiimagetransformoperation) { get; } | Позволяет получить базовый интерфейс IImageTransformOperation. Только для чтения[`IImageTransformOperation`](../iimagetransformoperation) . |
 
 ### Смотрите также
 

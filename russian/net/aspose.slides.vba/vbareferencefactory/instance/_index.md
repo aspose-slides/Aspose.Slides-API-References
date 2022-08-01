@@ -1,14 +1,14 @@
 ---
 title: Instance
 second_title: Справочник по API Aspose.Slides для .NET
-description: Проект VBA ссылается на статический экземпляр фабрики. Только для чтенияVbaReferenceFactoryaspose.slides.vba/vbareferencefactory.
+description: Проект VBA ссылается на статический экземпляр фабрики. Только для чтенияVbaReferenceFactoryaspose.slides.vba/vbareferencefactory .
 type: docs
 weight: 20
 url: /ru/net/aspose.slides.vba/vbareferencefactory/instance/
 ---
 ## VbaReferenceFactory.Instance property
 
-Проект VBA ссылается на статический экземпляр фабрики. Только для чтения[`VbaReferenceFactory`](../../vbareferencefactory).
+Проект VBA ссылается на статический экземпляр фабрики. Только для чтения[`VbaReferenceFactory`](../../vbareferencefactory) .
 
 ```csharp
 public static VbaReferenceFactory Instance { get; }

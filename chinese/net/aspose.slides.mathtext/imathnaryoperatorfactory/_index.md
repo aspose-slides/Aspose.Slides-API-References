@@ -24,7 +24,7 @@ public interface IMathNaryOperatorFactory
 
 ### 评论
 
-For COM 比较
+用于 COM 可比性
 
 ### 也可以看看
 

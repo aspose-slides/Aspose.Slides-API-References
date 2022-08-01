@@ -18,20 +18,20 @@ public interface IAudioFrame : IPictureFrame
 
 | Имя | Описание |
 | --- | --- |
-| [AsIPictureFrame](../../aspose.slides/iaudioframe/asipictureframe) { get; } | Позволяет получить базовый интерфейс IPictureFrame. Только для чтения[`IPictureFrame`](../ipictureframe). |
-| [AudioCdEndTrack](../../aspose.slides/iaudioframe/audiocdendtrack) { get; set; } | Возвращает или устанавливает индекс последней дорожки Чтение/записьInt32. |
-| [AudioCdEndTrackTime](../../aspose.slides/iaudioframe/audiocdendtracktime) { get; set; } | Возвращает или устанавливает время последней дорожки. Чтение/записьInt32. |
-| [AudioCdStartTrack](../../aspose.slides/iaudioframe/audiocdstarttrack) { get; set; } | Возвращает или устанавливает индекс начальной дорожки. Чтение/записьInt32. |
-| [AudioCdStartTrackTime](../../aspose.slides/iaudioframe/audiocdstarttracktime) { get; set; } | Возвращает или устанавливает время начала трека. Чтение/записьInt32. |
-| [Embedded](../../aspose.slides/iaudioframe/embedded) { get; } | Определяет, встроен ли звук в презентацию. Только чтениеBoolean. |
-| [EmbeddedAudio](../../aspose.slides/iaudioframe/embeddedaudio) { get; set; } | Возвращает или устанавливает встроенный звуковой объект. Чтение/запись[`IAudio`](../iaudio). |
-| [HideAtShowing](../../aspose.slides/iaudioframe/hideatshowing) { get; set; } | Определяет, скрыт ли AudioFrame. Чтение/записьBoolean. |
-| [LinkPathLong](../../aspose.slides/iaudioframe/linkpathlong) { get; set; } | Возвращает или задает имя аудиофайла, связанного с AudioFrame. Чтение/записьString. |
-| [PlayAcrossSlides](../../aspose.slides/iaudioframe/playacrossslides) { get; set; } | Определяет, воспроизводится ли звук на слайдах. Чтение/записьBoolean. |
-| [PlayLoopMode](../../aspose.slides/iaudioframe/playloopmode) { get; set; } | Определяет, зациклен ли звук. Чтение/записьBoolean. |
-| [PlayMode](../../aspose.slides/iaudioframe/playmode) { get; set; } | Возвращает или устанавливает режим воспроизведения звука. Чтение/запись[`AudioPlayModePreset`](../audioplaymodepreset). |
-| [RewindAudio](../../aspose.slides/iaudioframe/rewindaudio) { get; set; } | Определяет, будет ли звук автоматически перематываться назад после воспроизведения. Чтение/записьBoolean. |
-| [Volume](../../aspose.slides/iaudioframe/volume) { get; set; } | Возвращает или устанавливает громкость звука. Чтение/запись[`AudioVolumeMode`](../audiovolumemode). |
+| [AsIPictureFrame](../../aspose.slides/iaudioframe/asipictureframe) { get; } | Позволяет получить базовый интерфейс IPictureFrame. Только для чтения[`IPictureFrame`](../ipictureframe) . |
+| [AudioCdEndTrack](../../aspose.slides/iaudioframe/audiocdendtrack) { get; set; } | Возвращает или устанавливает индекс последней дорожки Чтение/записьInt32 . |
+| [AudioCdEndTrackTime](../../aspose.slides/iaudioframe/audiocdendtracktime) { get; set; } | Возвращает или устанавливает время последней дорожки. Чтение/записьInt32 . |
+| [AudioCdStartTrack](../../aspose.slides/iaudioframe/audiocdstarttrack) { get; set; } | Возвращает или задает индекс начальной дорожки. Чтение/записьInt32 . |
+| [AudioCdStartTrackTime](../../aspose.slides/iaudioframe/audiocdstarttracktime) { get; set; } | Возвращает или устанавливает время начала трека. Чтение/записьInt32 . |
+| [Embedded](../../aspose.slides/iaudioframe/embedded) { get; } | Определяет, встроен ли звук в презентацию. Только для чтенияBoolean . |
+| [EmbeddedAudio](../../aspose.slides/iaudioframe/embeddedaudio) { get; set; } | Возвращает или устанавливает встроенный звуковой объект. Чтение/запись[`IAudio`](../iaudio) . |
+| [HideAtShowing](../../aspose.slides/iaudioframe/hideatshowing) { get; set; } | Определяет, скрыт ли AudioFrame. Чтение/записьBoolean . |
+| [LinkPathLong](../../aspose.slides/iaudioframe/linkpathlong) { get; set; } | Возвращает или задает имя аудиофайла, связанного с AudioFrame. Чтение/записьString . |
+| [PlayAcrossSlides](../../aspose.slides/iaudioframe/playacrossslides) { get; set; } | Определяет, воспроизводится ли звук на слайдах. Чтение/записьBoolean . |
+| [PlayLoopMode](../../aspose.slides/iaudioframe/playloopmode) { get; set; } | Определяет, зациклено ли аудио. Чтение/записьBoolean . |
+| [PlayMode](../../aspose.slides/iaudioframe/playmode) { get; set; } | Возвращает или устанавливает режим воспроизведения аудио. Чтение/запись[`AudioPlayModePreset`](../audioplaymodepreset) . |
+| [RewindAudio](../../aspose.slides/iaudioframe/rewindaudio) { get; set; } | Определяет, будет ли звук автоматически перематываться назад после воспроизведения. Чтение/записьBoolean . |
+| [Volume](../../aspose.slides/iaudioframe/volume) { get; set; } | Возвращает или устанавливает громкость звука. Чтение/запись[`AudioVolumeMode`](../audiovolumemode) . |
 
 ### Смотрите также
 

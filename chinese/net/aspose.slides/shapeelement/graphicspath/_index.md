@@ -1,14 +1,14 @@
 ---
 title: GraphicsPath
 second_title: Aspose.Slides for .NET API 参考
-description: 返回元素的路径 只读GraphicsPath
+description: 返回元素的路径 只读GraphicsPath.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides/shapeelement/graphicspath/
 ---
 ## ShapeElement.GraphicsPath property
 
-返回元素的路径。 只读GraphicsPath。
+返回元素的路径。 只读GraphicsPath.
 
 ```csharp
 public GraphicsPath GraphicsPath { get; }

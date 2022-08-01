@@ -1,14 +1,14 @@
 ---
 title: TextHighlightingOptions
 second_title: Aspose.Slides for .NET API 参考
-description: 表示可用于突出显示文本框中的文本的选项
+description: 表示可用于在文本框中突出显示文本的选项
 type: docs
 weight: 10160
 url: /zh/net/aspose.slides/texthighlightingoptions/
 ---
 ## TextHighlightingOptions class
 
-表示可用于突出显示文本框中的文本的选项。
+表示可用于在文本框中突出显示文本的选项。
 
 ```csharp
 public class TextHighlightingOptions : ITextHighlightingOptions
@@ -24,8 +24,8 @@ public class TextHighlightingOptions : ITextHighlightingOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [CaseSensitive](../../aspose.slides/texthighlightingoptions/casesensitive) { get; set; } | 设置为 true 以使用区分大小写的搜索，否则为 false。 读/写Boolean。 |
-| [WholeWordsOnly](../../aspose.slides/texthighlightingoptions/wholewordsonly) { get; set; } | 设置为真以仅匹配整个单词，否则为假。 读/写Boolean。 |
+| [CaseSensitive](../../aspose.slides/texthighlightingoptions/casesensitive) { get; set; } | 设置为 true 以使用区分大小写的搜索，否则为 false。 读/写Boolean. |
+| [WholeWordsOnly](../../aspose.slides/texthighlightingoptions/wholewordsonly) { get; set; } | 设置为真以仅匹配整个单词，否则为假。 读/写Boolean. |
 
 ### 也可以看看
 

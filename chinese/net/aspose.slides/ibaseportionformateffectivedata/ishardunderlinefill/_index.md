@@ -1,14 +1,14 @@
 ---
 title: IsHardUnderlineFill
 second_title: Aspose.Slides for .NET API 参考
-description: 确定下划线样式是否有自己的 FillFormat 属性或从文本的 FillFormat 属性继承  只读Boolean
+description: 确定下划线样式是否有自己的 FillFormat 属性或继承自文本的 FillFormat 属性  只读Boolean.
 type: docs
 weight: 120
 url: /zh/net/aspose.slides/ibaseportionformateffectivedata/ishardunderlinefill/
 ---
 ## IBasePortionFormatEffectiveData.IsHardUnderlineFill property
 
-确定下划线样式是否有自己的 FillFormat 属性或从文本的 FillFormat 属性继承 。 只读Boolean。
+确定下划线样式是否有自己的 FillFormat 属性或继承自文本的 FillFormat 属性 。 只读Boolean.
 
 ```csharp
 public bool IsHardUnderlineFill { get; }

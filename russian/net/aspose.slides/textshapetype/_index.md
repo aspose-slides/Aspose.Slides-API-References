@@ -26,34 +26,34 @@ public enum TextShapeType : sbyte
 | TriangleInverted | `4` | Перевернутый треугольник |
 | Chevron | `5` | Шеврон |
 | ChevronInverted | `6` | Перевернутый шеврон |
-| RingInside | `7` | Внутреннее кольцо |
-| RingOutside | `8` | Внешнее кольцо |
+| RingInside | `7` | Внутри кольца |
+| RingOutside | `8` | За пределами кольца |
 | ArchUp | `9` | Арка вверх |
-| ArchDown | `10` | Арка вниз |
+| ArchDown | `10` | Нисходящая арка |
 | Circle | `11` | Круг |
 | Button | `12` | Кнопка |
 | ArchUpPour | `13` | Арка заливки вверх |
 | ArchDownPour | `14` | Арка заливки вниз |
 | CirclePour | `15` | Круговая заливка |
-| ButtonPour | `16` | Кнопка заливки |
+| ButtonPour | `16` | Кнопка Залить |
 | CurveUp | `17` | Восходящая кривая |
 | CurveDown | `18` | Нисходящая кривая |
 | CanUp | `19` | Банка вверх |
-| CanDown | `20` | Банка вниз |
+| CanDown | `20` | Вниз Can |
 | Wave1 | `21` | Волна 1 |
 | Wave2 | `22` | Волна 2 |
 | DoubleWave1 | `23` | Двойная волна 1 |
 | Wave4 | `24` | Волна 4 |
 | Inflate | `25` | Надуть |
 | Deflate | `26` | Выкачать |
-| InflateBottom | `27` | Нижняя накачка |
-| DeflateBottom | `28` | Нижний выпуск |
+| InflateBottom | `27` | Нижнее раздувание |
+| DeflateBottom | `28` | Сдувание дна |
 | InflateTop | `29` | Верхнее раздувание |
 | DeflateTop | `30` | Верхняя дефляция |
 | DeflateInflate | `31` | Выкачать-Надуть |
-| DeflateInflateDeflate | `32` | Сдувание-Надувание-Сдувание |
+| DeflateInflateDeflate | `32` | Сдуть-Надуть-Сдуть |
 | FadeRight | `33` | Исчезновение вправо |
-| FadeLeft | `34` | Исчезновение влево |
+| FadeLeft | `34` | Левое исчезновение |
 | FadeUp | `35` | Исчезновение вверх |
 | FadeDown | `36` | Исчезновение вниз |
 | SlantUp | `37` | Наклон вверх |

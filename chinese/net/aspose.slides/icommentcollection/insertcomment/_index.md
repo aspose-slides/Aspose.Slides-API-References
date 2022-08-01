@@ -1,14 +1,14 @@
 ---
 title: InsertComment
 second_title: Aspose.Slides for .NET API 参考
-description: 在指定索引处向集合插入新注释
+description: 在指定索引处向集合插入新评论
 type: docs
 weight: 50
 url: /zh/net/aspose.slides/icommentcollection/insertcomment/
 ---
 ## ICommentCollection.InsertComment method
 
-在指定索引处向集合插入新注释。
+在指定索引处向集合插入新评论。
 
 ```csharp
 public IComment InsertComment(int index, string text, ISlide slide, PointF position, 
@@ -25,7 +25,7 @@ public IComment InsertComment(int index, string text, ISlide slide, PointF posit
 
 ### 返回值
 
-插入注释。
+插入评论。
 
 ### 也可以看看
 

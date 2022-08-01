@@ -18,8 +18,8 @@ public interface IExtraColorScheme
 
 | Имя | Описание |
 | --- | --- |
-| [ColorScheme](../../aspose.slides.theme/iextracolorscheme/colorscheme) { get; } | Возвращает цветовую схему. Только для чтения[`IColorScheme`](../icolorscheme). |
-| [Name](../../aspose.slides.theme/iextracolorscheme/name) { get; } | Возвращает имя этой схемы. Только чтениеString. |
+| [ColorScheme](../../aspose.slides.theme/iextracolorscheme/colorscheme) { get; } | Возвращает цветовую схему. Только для чтения[`IColorScheme`](../icolorscheme) . |
+| [Name](../../aspose.slides.theme/iextracolorscheme/name) { get; } | Возвращает имя этой схемы. Только для чтенияString . |
 
 ### Смотрите также
 

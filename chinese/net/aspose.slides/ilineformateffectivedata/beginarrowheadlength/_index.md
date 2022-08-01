@@ -1,14 +1,14 @@
 ---
 title: BeginArrowheadLength
 second_title: Aspose.Slides for .NET API 参考
-description: 返回行首的箭头长度 只读LineArrowheadLengthaspose.slides/linearrowheadlength
+description: 返回行首的箭头长度 只读LineArrowheadLengthaspose.slides/linearrowheadlength.
 type: docs
 weight: 30
 url: /zh/net/aspose.slides/ilineformateffectivedata/beginarrowheadlength/
 ---
 ## ILineFormatEffectiveData.BeginArrowheadLength property
 
-返回行首的箭头长度。 只读[`LineArrowheadLength`](../../linearrowheadlength)。
+返回行首的箭头长度。 只读[`LineArrowheadLength`](../../linearrowheadlength).
 
 ```csharp
 public LineArrowheadLength BeginArrowheadLength { get; }

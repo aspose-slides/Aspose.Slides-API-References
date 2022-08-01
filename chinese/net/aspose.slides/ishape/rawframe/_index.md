@@ -1,14 +1,14 @@
 ---
 title: RawFrame
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置原始形状框架的属性 读/写IShapeFrameaspose.slides/ishapeframe
+description: 返回或设置原始形状框架的属性 读/写IShapeFrameaspose.slides/ishapeframe.
 type: docs
 weight: 200
 url: /zh/net/aspose.slides/ishape/rawframe/
 ---
 ## IShape.RawFrame property
 
-返回或设置原始形状框架的属性。 读/写[`IShapeFrame`](../../ishapeframe)。
+返回或设置原始形状框架的属性。 读/写[`IShapeFrame`](../../ishapeframe).
 
 ```csharp
 public IShapeFrame RawFrame { get; set; }
@@ -16,11 +16,50 @@ public IShapeFrame RawFrame { get; set; }
 
 ### 例子
 
-尝试将未定义的帧分配给 IShape.Frame 的代码在一般情况下没有意义（特别是在父 GroupShape 被多个嵌套到其他 GroupShape-s 的情况下）。例如: 或 &lt;code&gt; slide.Shapes.AddAutoShape(ShapeType.RoundCornerRectangle, float.NaN, float .NaN，浮点数.NaN，浮点数.NaN）； &lt;/code&gt; 这样的代码会导致不清楚的情况。因此添加了对 IShape.Frame 使用未定义值的限制。必须定义 x、y、width、height、flipH、flipV 和 rotationAngle 的值（不是 float.NaN 或 NullableBool.NotDefined）。上面的示例代码现在会引发 ArgumentException 异常。 这适用于这些用例: &lt;code&gt; IShape shape = ...; shape.Frame = ...; // 不能未定义 IShapeCollection 形状 = ...; // x, y, width, height参数不能为float.NaN: { shapes.AddAudioFrameCD(...); 形状.AddAudioFrameEmbedded(...); 形状.AddAudioFrameLinked(...); 形状.AddAutoShape(...); 形状.AddChart(...); 形状.AddConnector(...); 形状.AddOleObjectFrame(...); 形状.AddPictureFrame(...); 形状.AddSmartArt(...); 形状.AddTable(...); 形状.AddVideoFrame(...); 形状.InsertAudioFrameEmbedded(...); 形状.InsertAudioFrameLinked(...); 形状.InsertAutoShape(...); 形状.InsertChart(...); 形状.InsertConnector(...); 形状.InsertOleObjectFrame(...); 形状.InsertPictureFrame(...); 形状.InsertTable(...); 形状.InsertVideoFrame(...); } &lt;/code&gt; 但是 IShape.RawFrame 框架属性可以是未定义的。当形状链接到占位符时，这是有意义的。然后从父占位符形状覆盖未定义的形状框架值。如果该形状没有父占位符形状，则该形状在根据其 IShape.RawFrame 评估有效框架时使用默认值。 x、y、宽度、高度、flipH、flipV 和 rotationAngle 的默认值为 0 和 NullableBool.False。例如: &lt;code&gt; IShape shape = ...; // 形状链接到占位符 shape.RawFrame = new ShapeFrame(float.NaN, float.NaN, 100, float.NaN, NullableBool.NotDefined, NullableBool.NotDefined, 0); // 现在 shape 从占位符继承 x、y、height、flipH、flipV 值并覆盖 width=100 和 rotationAngle=0。 &lt;/code&gt;
+尝试将未定义的框架分配给 IShape.Frame 的代码在一般情况下没有意义（特别是在父 GroupShape 多次嵌套到其他 GroupShape-s 的情况下）。例如： 或 这样的代码可能会导致不清楚的情况。因此添加了对 IShape.Frame 使用未定义值的限制。必须定义 x、y、width、height、flipH、flipV 和 rotationAngle 的值（不是 float.NaN 或 NullableBool.NotDefined）。上面的示例代码现在抛出 ArgumentException 异常。 这适用于这些用例： 但 IShape.RawFrame 框架属性可以未定义。当形状链接到占位符时，这是有意义的。然后从父占位符形状覆盖未定义的形状框架值。如果该形状没有父占位符形状，则该形状在根据其 IShape.RawFrame 评估有效框架时使用默认值。 x、y、宽度、高度、flipH、flipV 和 rotationAngle 的默认值为 0 和 NullableBool.False。例如：
 
 ```csharp
 IShape shape = ...;
 shape.Frame = new ShapeFrame(float.NaN, float.NaN, float.NaN, float.NaN, NullableBool.NotDefined, NullableBool.NotDefined, float.NaN);
+```
+
+```csharp
+slide.Shapes.AddAutoShape(ShapeType.RoundCornerRectangle, float.NaN, float.NaN, float.NaN, float.NaN);
+```
+
+```csharp
+IShape shape = ...;
+shape.Frame = ...; // 不能是未定义的
+
+IShapeCollection shapes = ...;
+// x, y, width, height参数不能为float.NaN:
+{
+    shapes.AddAudioFrameCD(...);
+    shapes.AddAudioFrameEmbedded(...);
+    shapes.AddAudioFrameLinked(...);
+    shapes.AddAutoShape(...);
+    shapes.AddChart(...);
+    shapes.AddConnector(...);
+    shapes.AddOleObjectFrame(...);
+    shapes.AddPictureFrame(...);
+    shapes.AddSmartArt(...);
+    shapes.AddTable(...);
+    shapes.AddVideoFrame(...);
+    shapes.InsertAudioFrameEmbedded(...);
+    shapes.InsertAudioFrameLinked(...);
+    shapes.InsertAutoShape(...);
+    shapes.InsertChart(...);
+    shapes.InsertConnector(...);
+    shapes.InsertOleObjectFrame(...);
+    shapes.InsertPictureFrame(...);
+    shapes.InsertTable(...);
+    shapes.InsertVideoFrame(...);
+}
+```
+
+```csharp
+IShape shape = ...; // 形状链接到占位符
+shape.RawFrame = new ShapeFrame(float.NaN, float.NaN, 100, float.NaN, NullableBool.NotDefined, NullableBool.NotDefined, 0); // 现在 shape 从占位符继承 x、y、height、flipH、flipV 值并覆盖 width=100 和 rotationAngle=0。
 ```
 
 ### 也可以看看

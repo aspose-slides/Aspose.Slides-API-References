@@ -1,14 +1,14 @@
 ---
 title: Origin
 second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет начало пути движения относительно макета слайда или родителя. Чтение/записьMotionOriginTypeaspose.slides.animation/motionorigintype.
+description: Определяет источник пути движения относительно макета слайда или родителя. Чтение/записьMotionOriginTypeaspose.slides.animation/motionorigintype .
 type: docs
 weight: 50
 url: /ru/net/aspose.slides.animation/imotioneffect/origin/
 ---
 ## IMotionEffect.Origin property
 
-Определяет начало пути движения относительно макета слайда, или родителя. Чтение/запись[`MotionOriginType`](../../motionorigintype).
+Определяет источник пути движения относительно макета слайда, или родителя. Чтение/запись[`MotionOriginType`](../../motionorigintype) .
 
 ```csharp
 public MotionOriginType Origin { get; set; }

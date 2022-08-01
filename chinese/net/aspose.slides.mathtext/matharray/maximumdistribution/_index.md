@@ -1,14 +1,14 @@
 ---
 title: MaximumDistribution
 second_title: Aspose.Slides for .NET API 参考
-description: 最大分布 当为真时数组的间距为包含元素页面列单元格等的最大宽度
+description: 最大分布 当为真时数组的间距为包含元素页列单元格等的最大宽度
 type: docs
 weight: 40
 url: /zh/net/aspose.slides.mathtext/matharray/maximumdistribution/
 ---
 ## MathArray.MaximumDistribution property
 
-最大分布 当为真时，数组的间距为包含元素（页面、列、单元格等）的最大宽度。
+最大分布 当为真时，数组的间距为包含元素（页、列、单元格等）的最大宽度。
 
 ```csharp
 public bool MaximumDistribution { get; set; }
@@ -16,7 +16,7 @@ public bool MaximumDistribution { get; set; }
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]

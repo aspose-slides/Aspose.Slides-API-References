@@ -1,14 +1,14 @@
 ---
 title: TargetSlide
 second_title: Справочник по API Aspose.Slides для .NET
-description: Получает или задает объект слайда на который ссылается объект Масштаб слайда. Чтение/записьISlideaspose.slides/islide.
+description: Получает или задает объект слайда на который ссылается объект Масштаб слайда. Чтение/записьISlideaspose.slides/islide .
 type: docs
 weight: 10
 url: /ru/net/aspose.slides/zoomframe/targetslide/
 ---
 ## ZoomFrame.TargetSlide property
 
-Получает или задает объект слайда, на который ссылается объект «Масштаб слайда». Чтение/запись[`ISlide`](../../islide).
+Получает или задает объект слайда, на который ссылается объект «Масштаб слайда». Чтение/запись[`ISlide`](../../islide) .
 
 ```csharp
 public ISlide TargetSlide { get; set; }
@@ -16,7 +16,7 @@ public ISlide TargetSlide { get; set; }
 
 ### Примеры
 
-В следующем примере демонстрируется изменение целевого слайда и создание нового изображения для объекта Slide Zoom:
+Следующий пример демонстрирует изменение целевого слайда и создание нового изображения для объекта «Масштаб слайда»:
 
 ```csharp
 [C#]

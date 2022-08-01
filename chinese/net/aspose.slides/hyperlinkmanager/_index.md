@@ -18,13 +18,13 @@ public sealed class HyperlinkManager : IHyperlinkManager
 
 | 姓名 | 描述 |
 | --- | --- |
-| [RemoveHyperlinkClick](../../aspose.slides/hyperlinkmanager/removehyperlinkclick)() | 点击时删除超链接。 |
+| [RemoveHyperlinkClick](../../aspose.slides/hyperlinkmanager/removehyperlinkclick)() | 删除点击时的超链接。 |
 | [RemoveHyperlinkMouseOver](../../aspose.slides/hyperlinkmanager/removehyperlinkmouseover)() | 删除鼠标悬停的超链接。 |
 | [SetExternalHyperlinkClick](../../aspose.slides/hyperlinkmanager/setexternalhyperlinkclick)(string) | 点击时设置外部超链接。 |
 | [SetExternalHyperlinkMouseOver](../../aspose.slides/hyperlinkmanager/setexternalhyperlinkmouseover)(string) | 设置外部超链接鼠标悬停。 |
 | [SetInternalHyperlinkClick](../../aspose.slides/hyperlinkmanager/setinternalhyperlinkclick)(ISlide) | 在点击时设置内部超链接。 |
 | [SetInternalHyperlinkMouseOver](../../aspose.slides/hyperlinkmanager/setinternalhyperlinkmouseover)(ISlide) | 设置内部超链接鼠标悬停。 |
-| [SetMacroHyperlinkClick](../../aspose.slides/hyperlinkmanager/setmacrohyperlinkclick)(string) | 单击设置宏超链接。 |
+| [SetMacroHyperlinkClick](../../aspose.slides/hyperlinkmanager/setmacrohyperlinkclick)(string) | 点击设置宏超链接。 |
 
 ### 也可以看看
 

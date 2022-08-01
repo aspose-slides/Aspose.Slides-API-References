@@ -18,9 +18,9 @@ public interface ITintEffectiveData : IEffectEffectiveData
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Amount](../../aspose.slides.effects/itinteffectivedata/amount) { get; } | 返回效果量。 只读Single。 |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/itinteffectivedata/asieffecteffectivedata) { get; } | 允许获取基础 IEffectEffectiveData 接口。 只读[`IEffectEffectiveData`](../ieffecteffectivedata)。 |
-| [Hue](../../aspose.slides.effects/itinteffectivedata/hue) { get; } | 返回色调。 只读Single。 |
+| [Amount](../../aspose.slides.effects/itinteffectivedata/amount) { get; } | 返回效果量。 只读Single. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/itinteffectivedata/asieffecteffectivedata) { get; } | 允许获取基本 IEffectEffectiveData 接口。 只读[`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [Hue](../../aspose.slides.effects/itinteffectivedata/hue) { get; } | 返回色调。 只读Single. |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: Blend
 second_title: Справочник по API Aspose.Slides для .NET
-description: FillBlendMode. Чтение/записьFillBlendModeaspose.slides/fillblendmode.
+description: FillBlendMode. Чтение/записьFillBlendModeaspose.slides/fillblendmode .
 type: docs
 weight: 10
 url: /ru/net/aspose.slides.effects/filloverlay/blend/
 ---
 ## FillOverlay.Blend property
 
-FillBlendMode. Чтение/запись[`FillBlendMode`](../../../aspose.slides/fillblendmode).
+FillBlendMode. Чтение/запись[`FillBlendMode`](../../../aspose.slides/fillblendmode) .
 
 ```csharp
 public FillBlendMode Blend { get; set; }

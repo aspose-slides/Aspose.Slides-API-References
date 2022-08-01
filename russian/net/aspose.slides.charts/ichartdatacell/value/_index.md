@@ -1,14 +1,14 @@
 ---
 title: Value
 second_title: Справочник по API Aspose.Slides для .NET
-description: Получает или задает значение. Чтение/записьObject.
+description: Получает или задает значение. Чтение/записьObject .
 type: docs
 weight: 90
 url: /ru/net/aspose.slides.charts/ichartdatacell/value/
 ---
 ## IChartDataCell.Value property
 
-Получает или задает значение. Чтение/записьObject.
+Получает или задает значение. Чтение/записьObject .
 
 ```csharp
 public object Value { get; set; }

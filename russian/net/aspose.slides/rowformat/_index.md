@@ -18,7 +18,7 @@ public class RowFormat : DomObject<Row>, IRowFormat
 
 | Имя | Описание |
 | --- | --- |
-| [GetEffective](../../aspose.slides/rowformat/geteffective)() | Получает эффективные свойства форматирования строк таблицы с применением стилей наследования и таблиц. |
+| [GetEffective](../../aspose.slides/rowformat/geteffective)() | Получает эффективные свойства форматирования строк таблицы с примененными стилями наследования и таблиц. |
 
 ### Смотрите также
 

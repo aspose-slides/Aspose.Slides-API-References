@@ -1,14 +1,14 @@
 ---
 title: ParentShape
 second_title: Aspose.Slides for .NET API 参考
-description: 返回为其创建元素的 Shape_PPT 只读Shapeaspose.slides/shape
+description: 返回为其创建元素的 Shape_PPT 只读Shapeaspose.slides/shape.
 type: docs
 weight: 30
 url: /zh/net/aspose.slides/shapeelement/parentshape/
 ---
 ## ShapeElement.ParentShape property
 
-返回为其创建元素的 Shape_PPT。 只读[`Shape`](../../shape)。
+返回为其创建元素的 Shape_PPT。 只读[`Shape`](../../shape).
 
 ```csharp
 public Shape ParentShape { get; }

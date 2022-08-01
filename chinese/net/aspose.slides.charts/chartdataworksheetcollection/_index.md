@@ -18,10 +18,10 @@ public sealed class ChartDataWorksheetCollection : IChartDataWorksheetCollection
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Count](../../aspose.slides.charts/chartdataworksheetcollection/count) { get; } | 返回计数。 只读Int32。 |
-| [IsSynchronized](../../aspose.slides.charts/chartdataworksheetcollection/issynchronized) { get; } | 返回一个值，指示对集合的访问是否同步（线程安全）。 只读Boolean。 |
+| [Count](../../aspose.slides.charts/chartdataworksheetcollection/count) { get; } | 返回计数。 只读Int32. |
+| [IsSynchronized](../../aspose.slides.charts/chartdataworksheetcollection/issynchronized) { get; } | 返回一个值，指示对集合的访问是否同步（线程安全）。 只读Boolean. |
 | [Item](../../aspose.slides.charts/chartdataworksheetcollection/item) { get; } | 按索引返回工作表。 |
-| [SyncRoot](../../aspose.slides.charts/chartdataworksheetcollection/syncroot) { get; } | 返回同步根。 只读Object。 |
+| [SyncRoot](../../aspose.slides.charts/chartdataworksheetcollection/syncroot) { get; } | 返回同步根。 只读Object. |
 
 ## 方法
 
@@ -32,7 +32,7 @@ public sealed class ChartDataWorksheetCollection : IChartDataWorksheetCollection
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]

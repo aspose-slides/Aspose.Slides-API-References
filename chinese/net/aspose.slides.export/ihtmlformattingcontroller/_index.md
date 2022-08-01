@@ -18,12 +18,12 @@ public interface IHtmlFormattingController
 
 | 姓名 | 描述 |
 | --- | --- |
-| [WriteDocumentEnd](../../aspose.slides.export/ihtmlformattingcontroller/writedocumentend)(IHtmlGenerator, IPresentation) | 调用编写html文档页脚。每次演示转换调用一次。 |
-| [WriteDocumentStart](../../aspose.slides.export/ihtmlformattingcontroller/writedocumentstart)(IHtmlGenerator, IPresentation) | 调用写入html文档头。每次演示转换调用一次。 |
-| [WriteShapeEnd](../../aspose.slides.export/ihtmlformattingcontroller/writeshapeend)(IHtmlGenerator, IShape) | 在形状渲染之前调用。每个形状调用一次。如果此函数向生成器写入任何内容，则当前幻灯片图像生成将完成，插入添加的 html 片段并在前一个图像之上启动新图像。 |
-| [WriteShapeStart](../../aspose.slides.export/ihtmlformattingcontroller/writeshapestart)(IHtmlGenerator, IShape) | 在形状渲染之前调用。每个形状调用一次。如果此函数向生成器写入任何内容，则当前幻灯片图像生成将完成，插入添加的 html 片段并在前一个图像之上启动新图像。 |
-| [WriteSlideEnd](../../aspose.slides.export/ihtmlformattingcontroller/writeslideend)(IHtmlGenerator, ISlide) | 调用以编写 html 幻灯片页脚。每张幻灯片调用一次。 |
-| [WriteSlideStart](../../aspose.slides.export/ihtmlformattingcontroller/writeslidestart)(IHtmlGenerator, ISlide) | 调用以编写 html 幻灯片标题。每张幻灯片调用一次。 |
+| [WriteDocumentEnd](../../aspose.slides.export/ihtmlformattingcontroller/writedocumentend)(IHtmlGenerator, IPresentation) | 调用编写 html 文档页脚。每次演示转换调用一次。 |
+| [WriteDocumentStart](../../aspose.slides.export/ihtmlformattingcontroller/writedocumentstart)(IHtmlGenerator, IPresentation) | 调用写入 html 文档标题。每次演示转换调用一次。 |
+| [WriteShapeEnd](../../aspose.slides.export/ihtmlformattingcontroller/writeshapeend)(IHtmlGenerator, IShape) | 在形状渲染之前调用。每个形状调用一次。如果此函数向生成器写入任何内容，则当前幻灯片图像生成将完成，插入添加的 html 片段，新图像将在先前的顶部开始。 |
+| [WriteShapeStart](../../aspose.slides.export/ihtmlformattingcontroller/writeshapestart)(IHtmlGenerator, IShape) | 在形状渲染之前调用。每个形状调用一次。如果此函数向生成器写入任何内容，则当前幻灯片图像生成将完成，插入添加的 html 片段，新图像将在先前的顶部开始。 |
+| [WriteSlideEnd](../../aspose.slides.export/ihtmlformattingcontroller/writeslideend)(IHtmlGenerator, ISlide) | 调用编写 html 幻灯片页脚。每张幻灯片调用一次。 |
+| [WriteSlideStart](../../aspose.slides.export/ihtmlformattingcontroller/writeslidestart)(IHtmlGenerator, ISlide) | 调用编写 html 幻灯片标题。每张幻灯片调用一次。 |
 
 ### 也可以看看
 

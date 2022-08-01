@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает точку градиента по индексу.
+description: Возвращает остановку градиента по индексу.
 type: docs
 weight: 30
 url: /ru/net/aspose.slides/gradientstopcollectioneffectivedata/item/
 ---
 ## GradientStopCollectionEffectiveData indexer
 
-Возвращает точку градиента по индексу.
+Возвращает остановку градиента по индексу.
 
 ```csharp
 public IGradientStopEffectiveData this[int index] { get; }

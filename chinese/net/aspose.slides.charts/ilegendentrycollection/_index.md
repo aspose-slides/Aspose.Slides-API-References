@@ -18,8 +18,8 @@ public interface ILegendEntryCollection
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Count](../../aspose.slides.charts/ilegendentrycollection/count) { get; } | 获取集合中实际包含的元素数量。 只读Int32。 |
-| [Item](../../aspose.slides.charts/ilegendentrycollection/item) { get; } | 获取对应于 Chart.ChartData.Series[0].DataPoints[index] 图表类型的图例条目的属性 this列表: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie; 或对应于其他图表类型的 Chart.ChartData.Series[index]。 |
+| [Count](../../aspose.slides.charts/ilegendentrycollection/count) { get; } | 获取集合中实际包含的元素数。 只读Int32. |
+| [Item](../../aspose.slides.charts/ilegendentrycollection/item) { get; } | 获取对应于 Chart.ChartData.Series[0].DataPoints[index] 的图例条目的属性，如果图表类型来自此列表： ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType。 Pie, ChartType.Pie3D, ChartType.PieOfPie; 或对应其他图表类型的Chart.ChartData.Series[index]。 |
 
 ### 也可以看看
 

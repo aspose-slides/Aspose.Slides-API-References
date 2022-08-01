@@ -1,14 +1,14 @@
 ---
 title: SelectLocked
 second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет запрещен ли выбор этой формы. Чтение/записьBoolean.
+description: Определяет запрещен ли выбор этой фигуры. Чтение/записьBoolean .
 type: docs
 weight: 80
 url: /ru/net/aspose.slides/connectorlock/selectlocked/
 ---
 ## ConnectorLock.SelectLocked property
 
-Определяет, запрещен ли выбор этой формы. Чтение/записьBoolean.
+Определяет, запрещен ли выбор этой фигуры. Чтение/записьBoolean .
 
 ```csharp
 public bool SelectLocked { get; set; }

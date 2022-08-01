@@ -17,7 +17,7 @@ public void SetBlurEffect(double radius, bool grow)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | radius | Double | 半径。 |
-| grow | Boolean | 成长。 |
+| grow | Boolean | 生长。 |
 
 ### 也可以看看
 

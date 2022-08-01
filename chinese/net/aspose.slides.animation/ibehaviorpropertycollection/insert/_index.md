@@ -1,14 +1,14 @@
 ---
 title: Insert
 second_title: Aspose.Slides for .NET API 参考
-description: 在指定索引处将新属性具有指定属性值插入到集合中
+description: 将新属性具有指定属性值插入到指定索引处的集合中
 type: docs
 weight: 50
 url: /zh/net/aspose.slides.animation/ibehaviorpropertycollection/insert/
 ---
 ## IBehaviorPropertyCollection.Insert method
 
-在指定索引处将新属性（具有指定属性值）插入到集合中。
+将新属性（具有指定属性值）插入到指定索引处的集合中。
 
 ```csharp
 public void Insert(int index, string propertyValue)
@@ -16,7 +16,7 @@ public void Insert(int index, string propertyValue)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| index | Int32 | 应该插入新属性的索引。 |
+| index | Int32 | 应插入新属性的索引。 |
 | propertyValue | String | 要添加的属性的值。 |
 
 ### 也可以看看

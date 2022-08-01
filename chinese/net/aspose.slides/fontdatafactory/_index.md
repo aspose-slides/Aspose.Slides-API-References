@@ -1,14 +1,14 @@
 ---
 title: FontDataFactory
 second_title: Aspose.Slides for .NET API 参考
-description: FontData 工厂
+description: 字体数据工厂
 type: docs
 weight: 4390
 url: /zh/net/aspose.slides/fontdatafactory/
 ---
 ## FontDataFactory class
 
-FontData 工厂
+字体数据工厂
 
 ```csharp
 public class FontDataFactory : IFontDataFactory

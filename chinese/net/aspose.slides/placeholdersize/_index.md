@@ -20,7 +20,7 @@ public enum PlaceholderSize : sbyte
 | --- | --- | --- |
 | Full | `0` | 已满。 |
 | Half | `1` | 一半。 |
-| Quarter | `2` | 季度。 |
+| Quarter | `2` | 季度. |
 
 ### 也可以看看
 

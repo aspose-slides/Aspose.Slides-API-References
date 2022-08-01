@@ -1,14 +1,14 @@
 ---
 title: CellInvalidFormulaException
 second_title: Справочник по API Aspose.Slides для .NET
-description: Инициализирует новый экземпляр классаCellInvalidFormulaExceptionaspose.slides.spreadsheet/cellinvalidformulaexception.
+description: Инициализирует новый экземплярCellInvalidFormulaExceptionaspose.slides.spreadsheet/cellinvalidformulaexception класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.slides.spreadsheet/cellinvalidformulaexception/cellinvalidformulaexception/
 ---
 ## CellInvalidFormulaException() {#constructor}
 
-Инициализирует новый экземпляр класса[`CellInvalidFormulaException`](../../cellinvalidformulaexception).
+Инициализирует новый экземпляр[`CellInvalidFormulaException`](../../cellinvalidformulaexception) класс.
 
 ```csharp
 public CellInvalidFormulaException()
@@ -24,7 +24,7 @@ public CellInvalidFormulaException()
 
 ## CellInvalidFormulaException(string) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`CellInvalidFormulaException`](../../cellinvalidformulaexception)с указанным сообщением об ошибке.
+Инициализирует новый экземпляр[`CellInvalidFormulaException`](../../cellinvalidformulaexception) класс с указанным сообщением об ошибке.
 
 ```csharp
 public CellInvalidFormulaException(string message)
@@ -44,7 +44,7 @@ public CellInvalidFormulaException(string message)
 
 ## CellInvalidFormulaException(string, Exception) {#constructor_2}
 
-Инициализирует новый экземпляр класса[`CellInvalidFormulaException`](../../cellinvalidformulaexception)с указанным сообщением об ошибке и ссылка на внутреннее исключение, которое является причиной этого исключения.
+Инициализирует новый экземпляр[`CellInvalidFormulaException`](../../cellinvalidformulaexception) класс с указанным сообщением об ошибке и ссылкой на внутреннее исключение, которое является причиной этого исключения.
 
 ```csharp
 public CellInvalidFormulaException(string message, Exception innerException)
@@ -53,7 +53,7 @@ public CellInvalidFormulaException(string message, Exception innerException)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | message | String | Строка, описывающая ошибку. |
-| innerException | Exception | Исключение, являющееся причиной текущего исключения. |
+| innerException | Exception | Исключение, которое является причиной текущего исключения. |
 
 ### Смотрите также
 
@@ -65,7 +65,7 @@ public CellInvalidFormulaException(string message, Exception innerException)
 
 ## CellInvalidFormulaException(string, string) {#constructor_3}
 
-Инициализирует новый экземпляр класса[`CellInvalidFormulaException`](../../cellinvalidformulaexception)с указанным сообщением об ошибке и ссылку на ячейку, содержащую недопустимую формулу.
+Инициализирует новый экземпляр[`CellInvalidFormulaException`](../../cellinvalidformulaexception)класс с указанным сообщением об ошибке и ссылкой на ячейку, которая содержит недопустимую формулу.
 
 ```csharp
 public CellInvalidFormulaException(string message, string reference)
@@ -73,8 +73,8 @@ public CellInvalidFormulaException(string message, string reference)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| сообщение | String |  |
-| ссылка | String |  |
+| message | String |  |
+| reference | String |  |
 
 ### Смотрите также
 

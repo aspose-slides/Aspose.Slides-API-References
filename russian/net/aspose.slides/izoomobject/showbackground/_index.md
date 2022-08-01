@@ -1,14 +1,14 @@
 ---
 title: ShowBackground
 second_title: Справочник по API Aspose.Slides для .NET
-description: Получает или задает значение указывающее будет ли Zoom использовать фон целевого слайда. Чтение/записьBoolean. Значение по умолчаниюtrue
+description: Получает или задает значение указывающее будет ли Zoom использовать фон целевого слайда. Чтение/записьBoolean. Значение по умолчанию true
 type: docs
 weight: 50
 url: /ru/net/aspose.slides/izoomobject/showbackground/
 ---
 ## IZoomObject.ShowBackground property
 
-Получает или задает значение, указывающее, будет ли Zoom использовать фон целевого слайда. Чтение/записьBoolean. Значение по умолчанию:true
+Получает или задает значение, указывающее, будет ли Zoom использовать фон целевого слайда. Чтение/записьBoolean. Значение по умолчанию: true
 
 ```csharp
 public bool ShowBackground { get; set; }

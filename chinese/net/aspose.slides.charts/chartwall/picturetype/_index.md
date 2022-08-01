@@ -1,14 +1,14 @@
 ---
 title: PictureType
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置图片类型 读/写PictureTypeaspose.slides.charts/picturetype
+description: 返回或设置图片类型 读/写PictureTypeaspose.slides.charts/picturetype.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides.charts/chartwall/picturetype/
 ---
 ## ChartWall.PictureType property
 
-返回或设置图片类型。 读/写[`PictureType`](../../picturetype)。
+返回或设置图片类型。 读/写[`PictureType`](../../picturetype).
 
 ```csharp
 public PictureType PictureType { get; set; }

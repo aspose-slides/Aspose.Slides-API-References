@@ -1,14 +1,14 @@
 ---
 title: CapStyle
 second_title: Aspose.Slides for .NET API 参考
-description: 返回线帽样式 只读LineCapStyleaspose.slides/linecapstyle
+description: 返回线帽样式 只读LineCapStyleaspose.slides/linecapstyle.
 type: docs
 weight: 60
 url: /zh/net/aspose.slides/ilineformateffectivedata/capstyle/
 ---
 ## ILineFormatEffectiveData.CapStyle property
 
-返回线帽样式。 只读[`LineCapStyle`](../../linecapstyle)。
+返回线帽样式。 只读[`LineCapStyle`](../../linecapstyle).
 
 ```csharp
 public LineCapStyle CapStyle { get; }

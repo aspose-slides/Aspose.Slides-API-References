@@ -1,14 +1,14 @@
 ---
 title: Image
 second_title: Справочник по API Aspose.Slides для .NET
-description: Получает или устанавливает изображение для масштабируемого объекта. Чтение/записьIPPImageaspose.slides/ippimage.
+description: Получает или устанавливает изображение для масштабируемого объекта. Чтение/записьIPPImageaspose.slides/ippimage .
 type: docs
 weight: 20
 url: /ru/net/aspose.slides/izoomobject/image/
 ---
 ## IZoomObject.Image property
 
-Получает или устанавливает изображение для масштабируемого объекта. Чтение/запись[`IPPImage`](../../ippimage).
+Получает или устанавливает изображение для масштабируемого объекта. Чтение/запись[`IPPImage`](../../ippimage) .
 
 ```csharp
 public IPPImage Image { get; set; }

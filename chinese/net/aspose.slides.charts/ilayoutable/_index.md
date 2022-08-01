@@ -1,14 +1,14 @@
 ---
 title: ILayoutable
 second_title: Aspose.Slides for .NET API 参考
-description: 指定图表元素的准确位置
+description: 指定图表元素的确切位置
 type: docs
 weight: 1980
 url: /zh/net/aspose.slides.charts/ilayoutable/
 ---
 ## ILayoutable interface
 
-指定图表元素的准确位置。
+指定图表元素的确切位置。
 
 ```csharp
 public interface ILayoutable : IChartComponent
@@ -18,13 +18,13 @@ public interface ILayoutable : IChartComponent
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsIChartComponent](../../aspose.slides.charts/ilayoutable/asichartcomponent) { get; } | 允许获取基本 IChartComponent 接口。 只读[`IChartComponent`](../ichartcomponent)。 |
-| [Bottom](../../aspose.slides.charts/ilayoutable/bottom) { get; } | 获取图表元素的顶部，作为图表高度的一部分。 只读Single。 |
-| [Height](../../aspose.slides.charts/ilayoutable/height) { get; set; } | 将图表元素的高度指定为图表高度的一部分。 读/写Single。 |
-| [Right](../../aspose.slides.charts/ilayoutable/right) { get; } | 获取图表元素的右侧，作为图表宽度的一部分。 只读Single。 |
-| [Width](../../aspose.slides.charts/ilayoutable/width) { get; set; } | 将图表元素的宽度指定为图表宽度的一部分。 读/写Single。 |
-| [X](../../aspose.slides.charts/ilayoutable/x) { get; set; } | 将图表元素的 x 位置（左侧）指定为图表宽度的一部分。 读/写Single。 |
-| [Y](../../aspose.slides.charts/ilayoutable/y) { get; set; } | 将图表元素的顶部指定为图表高度的一部分。 读/写Single。 |
+| [AsIChartComponent](../../aspose.slides.charts/ilayoutable/asichartcomponent) { get; } | 允许获取基本 IChartComponent 接口。 只读[`IChartComponent`](../ichartcomponent). |
+| [Bottom](../../aspose.slides.charts/ilayoutable/bottom) { get; } | 获取图表元素的顶部，作为图表高度的一部分。 只读Single. |
+| [Height](../../aspose.slides.charts/ilayoutable/height) { get; set; } | 将图表元素的高度指定为图表高度的一部分。 读/写Single. |
+| [Right](../../aspose.slides.charts/ilayoutable/right) { get; } | 获取图表元素的右侧，作为图表宽度的一部分。 只读Single. |
+| [Width](../../aspose.slides.charts/ilayoutable/width) { get; set; } | 将图表元素的宽度指定为图表宽度的一部分。 读/写Single. |
+| [X](../../aspose.slides.charts/ilayoutable/x) { get; set; } | 将图表元素的 x 位置（左侧）指定为图表宽度的一部分。 读/写Single. |
+| [Y](../../aspose.slides.charts/ilayoutable/y) { get; set; } | 将图表元素的顶部指定为图表高度的一部分。 读/写Single. |
 
 ### 也可以看看
 

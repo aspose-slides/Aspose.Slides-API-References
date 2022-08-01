@@ -20,7 +20,7 @@ public IFillFormatCollectionEffectiveData GetFillStyles(Color styleColor)
 
 ### 返回值
 
-有效填充格式集合[`IFillFormatCollectionEffectiveData`](../../ifillformatcollectioneffectivedata)
+有效填充格式的集合[`IFillFormatCollectionEffectiveData`](../../ifillformatcollectioneffectivedata)
 
 ### 也可以看看
 

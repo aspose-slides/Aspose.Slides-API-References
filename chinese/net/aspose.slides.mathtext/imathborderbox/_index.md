@@ -20,18 +20,18 @@ public interface IMathBorderBox : IMathElement
 | --- | --- |
 | [AsIMathElement](../../aspose.slides.mathtext/imathborderbox/asimathelement) { get; } | 允许获取基础 IMathElement 接口 [`IMathElement`](../imathelement) |
 | [Base](../../aspose.slides.mathtext/imathborderbox/base) { get; } | 基本参数 |
-| [HideBottom](../../aspose.slides.mathtext/imathborderbox/hidebottom) { get; set; } | Hide Bottom Edge (默认为 false) - 指定边框底边的隐藏或显示状态。 |
-| [HideLeft](../../aspose.slides.mathtext/imathborderbox/hideleft) { get; set; } | Hide Left Edge (默认为 false) - 指定边框左边缘的隐藏或显示状态。 |
-| [HideRight](../../aspose.slides.mathtext/imathborderbox/hideright) { get; set; } | Hide Right Edge（默认为 false）- 指定边框右边缘的隐藏或显示状态。 |
+| [HideBottom](../../aspose.slides.mathtext/imathborderbox/hidebottom) { get; set; } | 隐藏底边（默认为 false）- 指定边框底边的隐藏或显示状态。 |
+| [HideLeft](../../aspose.slides.mathtext/imathborderbox/hideleft) { get; set; } | 隐藏左边缘（默认为 false）- 指定边框左边缘的隐藏或显示状态。 |
+| [HideRight](../../aspose.slides.mathtext/imathborderbox/hideright) { get; set; } | 隐藏右边缘（默认为 false）- 指定边框右边缘的隐藏或显示状态。 |
 | [HideTop](../../aspose.slides.mathtext/imathborderbox/hidetop) { get; set; } | Hide Top Edge (默认为 false) - 指定边框顶部边缘的隐藏或显示状态。 |
-| [StrikethroughBottomLeftToTopRight](../../aspose.slides.mathtext/imathborderbox/strikethroughbottomlefttotopright) { get; set; } | 删除线从左下到右上（默认为假）。 指定从边框左下角到右上角的删除线对角线的隐藏或显示状态。 |
+| [StrikethroughBottomLeftToTopRight](../../aspose.slides.mathtext/imathborderbox/strikethroughbottomlefttotopright) { get; set; } | 删除线从左下角到右上角（默认为 false）。 指定从边框框的左下角到右上角的删除线对角线的隐藏或显示状态。 |
 | [StrikethroughHorizontal](../../aspose.slides.mathtext/imathborderbox/strikethroughhorizontal) { get; set; } | 水平删除线（默认为 false）- 指定水平删除线的隐藏或显示状态。 |
-| [StrikethroughTopLeftToBottomRight](../../aspose.slides.mathtext/imathborderbox/strikethroughtoplefttobottomright) { get; set; } | 删除线从左上到右下（默认为假）。 指定边框从左上角到右下角的删除线对角线的隐藏或显示状态。 |
+| [StrikethroughTopLeftToBottomRight](../../aspose.slides.mathtext/imathborderbox/strikethroughtoplefttobottomright) { get; set; } | 删除线从左上角到右下角（默认为 false）。 指定从边框框的左上角到右下角的删除线对角线的隐藏或显示状态。 |
 | [StrikethroughVertical](../../aspose.slides.mathtext/imathborderbox/strikethroughvertical) { get; set; } | 垂直删除线（默认为 false）- 指定删除线垂直线的隐藏或显示状态。 |
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]

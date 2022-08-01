@@ -1,14 +1,14 @@
 ---
 title: NumberFormatOfBubbleSizes
 second_title: Aspose.Slides for .NET API 参考
-description: NumberFormatOfBubbleSizes 读/写String
+description: NumberFormatOfBubbleSizes. 读/写String.
 type: docs
 weight: 220
 url: /zh/net/aspose.slides.charts/chartseries/numberformatofbubblesizes/
 ---
 ## ChartSeries.NumberFormatOfBubbleSizes property
 
-NumberFormatOfBubbleSizes。 读/写String。
+NumberFormatOfBubbleSizes. 读/写String.
 
 ```csharp
 public string NumberFormatOfBubbleSizes { get; set; }

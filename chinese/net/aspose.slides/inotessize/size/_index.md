@@ -1,14 +1,14 @@
 ---
 title: Size
 second_title: Aspose.Slides for .NET API 参考
-description: 以磅为单位返回或设置大小 读/写SizeF
+description: 以点为单位返回或设置大小 读/写SizeF.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides/inotessize/size/
 ---
 ## INotesSize.Size property
 
-以磅为单位返回或设置大小。 读/写SizeF。
+以点为单位返回或设置大小。 读/写SizeF.
 
 ```csharp
 public SizeF Size { get; set; }

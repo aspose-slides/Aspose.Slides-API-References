@@ -1,14 +1,14 @@
 ---
 title: IMasterNotesSlideHeaderFooterManager
 second_title: Aspose.Slides for .NET API 参考
-description: 表示管理器它保存主注释幻灯片页脚日期时间页码占位符和所有子占位符的行为 子占位符意味着占位符包含在依赖注释幻灯片中 依赖于笔记幻灯片使用并依赖于主笔记幻灯片
+description: 表示保存主注释幻灯片页脚日期时间页码占位符和所有子占位符的行为的管理器 子占位符表示占位符包含在依赖注释幻灯片中 依赖注释幻灯片使用并依赖于主注释幻灯片
 type: docs
 weight: 5840
 url: /zh/net/aspose.slides/imasternotesslideheaderfootermanager/
 ---
 ## IMasterNotesSlideHeaderFooterManager interface
 
-表示管理器，它保存主注释幻灯片页脚、日期时间、页码占位符和所有子占位符的行为。 子占位符意味着占位符包含在依赖注释幻灯片中。 依赖于笔记幻灯片使用并依赖于主笔记幻灯片。
+表示保存主注释幻灯片页脚、日期时间、页码占位符和所有子占位符的行为的管理器。 子占位符表示占位符包含在依赖注释幻灯片中。 依赖注释幻灯片使用并依赖于主注释幻灯片。
 
 ```csharp
 public interface IMasterNotesSlideHeaderFooterManager : IBaseHandoutNotesSlideHeaderFooterManag
@@ -24,13 +24,13 @@ public interface IMasterNotesSlideHeaderFooterManager : IBaseHandoutNotesSlideHe
 
 | 姓名 | 描述 |
 | --- | --- |
-| [SetDateTimeAndChildDateTimesText](../../aspose.slides/imasternotesslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | 将文本设置为主笔记幻灯片日期时间占位符和所有子日期时间占位符。 子占位符意味着占位符包含在依赖注释幻灯片中。 依赖于笔记幻灯片使用并依赖于主笔记幻灯片。 |
-| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | 更改主笔记幻灯片日期时间占位符和所有子日期时间占位符的可见性。 子占位符意味着占位符包含在依赖注释幻灯片中。 依赖于笔记幻灯片使用并依赖于主笔记幻灯片。 |
-| [SetFooterAndChildFootersText](../../aspose.slides/imasternotesslideheaderfootermanager/setfooterandchildfooterstext)(string) | 将文本设置为主注释幻灯片页脚占位符和所有子页脚占位符。 子占位符意味着占位符包含在依赖注释幻灯片中。 依赖于笔记幻灯片使用并依赖于主笔记幻灯片。 |
-| [SetFooterAndChildFootersVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | 更改主注释幻灯片页脚占位符和所有子页脚占位符的可见性。 子占位符意味着占位符包含在依赖注释幻灯片中。 依赖于笔记幻灯片使用并依赖于主笔记幻灯片。 |
-| [SetHeaderAndChildHeadersText](../../aspose.slides/imasternotesslideheaderfootermanager/setheaderandchildheaderstext)(string) | 将文本设置为主注释幻灯片标题占位符和所有子标题占位符。 子占位符意味着占位符包含在依赖注释幻灯片中。 依赖于笔记幻灯片使用并依赖于主笔记幻灯片。 |
-| [SetHeaderAndChildHeadersVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setheaderandchildheadersvisibility)(bool) | 更改主注释幻灯片标题占位符和所有子标题占位符的可见性。 子占位符意味着占位符包含在依赖注释幻灯片中。 依赖于笔记幻灯片使用并依赖于主笔记幻灯片。 |
-| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | 更改主注释幻灯片页码占位符和所有子页码占位符的可见性。 子占位符意味着占位符包含在依赖注释幻灯片中。 依赖于笔记幻灯片使用并依赖于主笔记幻灯片。 |
+| [SetDateTimeAndChildDateTimesText](../../aspose.slides/imasternotesslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | 将文本设置为主注释幻灯片日期时间占位符和所有子日期时间占位符。 子占位符表示占位符包含在依赖注释幻灯片上。 依赖注释幻灯片使用并依赖于主注释幻灯片。 |
+| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | 更改主注释幻灯片日期时间占位符和所有子日期时间占位符的可见性。 子占位符表示占位符包含在依赖注释幻灯片中。 依赖注释幻灯片使用并依赖主注释幻灯片。 |
+| [SetFooterAndChildFootersText](../../aspose.slides/imasternotesslideheaderfootermanager/setfooterandchildfooterstext)(string) | 将文本设置为主注释幻灯片页脚占位符和所有子页脚占位符。 子占位符表示占位符包含在依赖注释幻灯片中。 依赖注释幻灯片使用并依赖主注释幻灯片。 |
+| [SetFooterAndChildFootersVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | 更改主注释幻灯片页脚占位符和所有子页脚占位符可见性。 子占位符表示占位符包含在依赖注释幻灯片上。 依赖注释幻灯片使用并依赖于主注释幻灯片。 |
+| [SetHeaderAndChildHeadersText](../../aspose.slides/imasternotesslideheaderfootermanager/setheaderandchildheaderstext)(string) | 将文本设置为主注释幻灯片标题占位符和所有子标题占位符。 子占位符表示占位符包含在依赖注释幻灯片中。 依赖注释幻灯片使用并依赖主注释幻灯片。 |
+| [SetHeaderAndChildHeadersVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setheaderandchildheadersvisibility)(bool) | 更改主注释幻灯片标题占位符和所有子标题占位符的可见性。 子占位符意味着占位符包含在依赖注释幻灯片上。 依赖注释幻灯片使用并依赖于主注释幻灯片。 |
+| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | 更改主注释幻灯片页码占位符和所有子页码占位符的可见性。 子占位符表示占位符包含在依赖注释幻灯片中。 依赖注释幻灯片使用并依赖于主注释幻灯片。 |
 
 ### 也可以看看
 

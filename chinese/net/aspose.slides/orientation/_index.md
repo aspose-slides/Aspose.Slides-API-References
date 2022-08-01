@@ -18,8 +18,8 @@ public enum Orientation : sbyte
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Horizontal | `0` | 水平。 |
-| Vertical | `1` | 垂直。 |
+| Horizontal | `0` | 水平. |
+| Vertical | `1` | 垂直. |
 
 ### 也可以看看
 

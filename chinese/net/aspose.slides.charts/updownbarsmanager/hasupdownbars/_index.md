@@ -1,14 +1,14 @@
 ---
 title: HasUpDownBars
 second_title: Aspose.Slides for .NET API 参考
-description: HasUpDownBars 读/写Boolean
+description: HasUpDownBars. 读/写Boolean.
 type: docs
 weight: 30
 url: /zh/net/aspose.slides.charts/updownbarsmanager/hasupdownbars/
 ---
 ## UpDownBarsManager.HasUpDownBars property
 
-HasUpDownBars。 读/写Boolean。
+HasUpDownBars. 读/写Boolean.
 
 ```csharp
 public bool HasUpDownBars { get; set; }

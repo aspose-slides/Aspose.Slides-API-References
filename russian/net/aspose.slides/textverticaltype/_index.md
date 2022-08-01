@@ -21,9 +21,9 @@ public enum TextVerticalType : sbyte
 | NotDefined | `-1` | Не определено. |
 | Horizontal | `0` | Горизонтальный текст. |
 | Vertical | `1` | Вертикальный текст. |
-| Vertical270 | `2` | Вертикальный 270-градусный текст. |
+| Vertical270 | `2` | Вертикальный текст 270 градусов. |
 | WordArtVertical | `3` | Вертикальный текст WordArt. |
-| EastAsianVertical | `4` | Восточноазиатский вертикальный текст. |
+| EastAsianVertical | `4` | Вертикальный восточноазиатский текст. |
 | MongolianVertical | `5` | Вертикальный текст на монгольском языке. |
 | WordArtVerticalRightToLeft | `6` | WordArt вертикальный текст справа налево. |
 

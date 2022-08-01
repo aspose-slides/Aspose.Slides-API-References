@@ -1,14 +1,14 @@
 ---
 title: TextCapType
 second_title: Aspose.Slides for .NET API 参考
-description: 表示文本大写的类型
+description: 表示文本大小写的类型
 type: docs
 weight: 10120
 url: /zh/net/aspose.slides/textcaptype/
 ---
 ## TextCapType enumeration
 
-表示文本大写的类型。
+表示文本大小写的类型。
 
 ```csharp
 public enum TextCapType : sbyte

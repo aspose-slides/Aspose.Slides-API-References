@@ -1,14 +1,14 @@
 ---
 title: ProtectionManager
 second_title: Aspose.Slides for .NET API 参考
-description: 获取此演示文稿的权限管理员 只读IProtectionManageraspose.slides/iprotectionmanager
+description: 获取此演示文稿的权限管理员 只读IProtectionManageraspose.slides/iprotectionmanager.
 type: docs
 weight: 210
 url: /zh/net/aspose.slides/presentation/protectionmanager/
 ---
 ## Presentation.ProtectionManager property
 
-获取此演示文稿的权限管理员。 只读[`IProtectionManager`](../../iprotectionmanager)。
+获取此演示文稿的权限管理员。 只读[`IProtectionManager`](../../iprotectionmanager).
 
 ```csharp
 public IProtectionManager ProtectionManager { get; }

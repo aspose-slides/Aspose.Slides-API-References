@@ -1,14 +1,14 @@
 ---
 title: CellCircularReferenceException
 second_title: Aspose.Slides for .NET API 参考
-description: 当检测到一个或多个循环引用且公式直接或间接引用其 自己的单元格时引发的异常
+description: 检测到一个或多个循环引用时引发的异常其中公式直接或间接引用其 自己的单元格
 type: docs
 weight: 9890
 url: /zh/net/aspose.slides.spreadsheet/cellcircularreferenceexception/
 ---
 ## CellCircularReferenceException class
 
-当检测到一个或多个循环引用且公式直接或间接引用其 自己的单元格时引发的异常。
+检测到一个或多个循环引用时引发的异常，其中公式直接或间接引用其 自己的单元格。
 
 ```csharp
 public class CellCircularReferenceException : PptxEditException
@@ -18,10 +18,10 @@ public class CellCircularReferenceException : PptxEditException
 
 | 姓名 | 描述 |
 | --- | --- |
-| [CellCircularReferenceException](cellcircularreferenceexception#constructor)() | 初始化[`CellCircularReferenceException`](../cellcircularreferenceexception)类的新实例。 |
-| [CellCircularReferenceException](cellcircularreferenceexception#constructor_1)(string) | 使用指定的错误消息初始化[`CellCircularReferenceException`](../cellcircularreferenceexception)类的新实例。 |
-| [CellCircularReferenceException](cellcircularreferenceexception#constructor_2)(string, Exception) | 使用指定的错误消息:::47::初始化[`CellCircularReferenceException`](../cellcircularreferenceexception)类的新实例:以及对导致此异常的内部异常的引用。 |
-| [CellCircularReferenceException](cellcircularreferenceexception#constructor_3)(string, string) | 使用指定的错误消息:::47::初始化[`CellCircularReferenceException`](../cellcircularreferenceexception)类的新实例:和循环单元格引用。 |
+| [CellCircularReferenceException](cellcircularreferenceexception#constructor)() | 初始化[`CellCircularReferenceException`](../cellcircularreferenceexception)类. |
+| [CellCircularReferenceException](cellcircularreferenceexception#constructor_1)(string) | 初始化[`CellCircularReferenceException`](../cellcircularreferenceexception)具有指定错误消息的类。 |
+| [CellCircularReferenceException](cellcircularreferenceexception#constructor_2)(string, Exception) | 初始化[`CellCircularReferenceException`](../cellcircularreferenceexception)具有指定错误消息 和对导致此异常的内部异常的引用的类。 |
+| [CellCircularReferenceException](cellcircularreferenceexception#constructor_3)(string, string) | 初始化[`CellCircularReferenceException`](../cellcircularreferenceexception)具有指定错误消息 和循环单元格引用的类。 |
 
 ## 特性
 

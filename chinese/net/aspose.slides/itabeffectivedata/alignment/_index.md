@@ -1,14 +1,14 @@
 ---
 title: Alignment
 second_title: Aspose.Slides for .NET API 参考
-description: 返回选项卡的对齐样式 只读TabAlignmentaspose.slides/tabalignment
+description: 返回选项卡的对齐样式 只读TabAlignmentaspose.slides/tabalignment.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides/itabeffectivedata/alignment/
 ---
 ## ITabEffectiveData.Alignment property
 
-返回选项卡的对齐样式。 只读[`TabAlignment`](../../tabalignment)。
+返回选项卡的对齐样式。 只读[`TabAlignment`](../../tabalignment).
 
 ```csharp
 public TabAlignment Alignment { get; }

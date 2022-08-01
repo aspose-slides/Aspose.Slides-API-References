@@ -8,7 +8,7 @@ url: /ru/net/aspose.slides.animation/behaviorproperty/stylefontsize/
 ---
 ## BehaviorProperty.StyleFontSize property
 
-Представляет свойство 'style.fontSize'
+Представляет свойство style.fontSize
 
 ```csharp
 public static BehaviorProperty StyleFontSize { get; }

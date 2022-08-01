@@ -1,14 +1,14 @@
 ---
 title: EndArrowheadWidth
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает ширину стрелки в конце строки. Только для чтенияLineArrowheadWidthaspose.slides/linearrowheadwidth.
+description: Возвращает ширину стрелки в конце строки. Только для чтенияLineArrowheadWidthaspose.slides/linearrowheadwidth .
 type: docs
 weight: 110
 url: /ru/net/aspose.slides/ilineformateffectivedata/endarrowheadwidth/
 ---
 ## ILineFormatEffectiveData.EndArrowheadWidth property
 
-Возвращает ширину стрелки в конце строки. Только для чтения[`LineArrowheadWidth`](../../linearrowheadwidth).
+Возвращает ширину стрелки в конце строки. Только для чтения[`LineArrowheadWidth`](../../linearrowheadwidth) .
 
 ```csharp
 public LineArrowheadWidth EndArrowheadWidth { get; }

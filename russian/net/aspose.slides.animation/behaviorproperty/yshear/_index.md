@@ -8,7 +8,7 @@ url: /ru/net/aspose.slides.animation/behaviorproperty/yshear/
 ---
 ## BehaviorProperty.YShear property
 
-Представляет свойство 'yshear'
+Представляет свойство yshear
 
 ```csharp
 public static BehaviorProperty YShear { get; }

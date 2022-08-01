@@ -16,7 +16,7 @@ public IMathFunction AsArgumentOfFunction(IMathElement functionName)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| functionName | IMathElement | Функция name |
+| functionName | IMathElement | Имя функции |
 
 ### Возвращаемое значение
 
@@ -53,7 +53,7 @@ public IMathFunction AsArgumentOfFunction(string functionName)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| functionName | String | Функция name |
+| functionName | String | Имя функции |
 
 ### Возвращаемое значение
 
@@ -88,7 +88,7 @@ public IMathFunction AsArgumentOfFunction(MathFunctionsOfOneArgument functionTyp
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| functionType | MathFunctionsOfOneArgument | Один общего типа функции одного аргумента |
+| functionType | MathFunctionsOfOneArgument | Один из распространенных типов функций с одним аргументом |
 
 ### Возвращаемое значение
 
@@ -126,7 +126,7 @@ public IMathFunction AsArgumentOfFunction(MathFunctionsOfTwoArguments functionTy
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| functionType | MathFunctionsOfTwoArguments | Один из общих типов функций с двумя аргументами:Log, Lim, Min, Max |
+| functionType | MathFunctionsOfTwoArguments | Один из распространенных типов функций с двумя аргументами: Log, Lim, Min, Max. |
 | additionalArgument | IMathElement | Дополнительный аргумент в зависимости от типа функции |
 
 ### Возвращаемое значение
@@ -141,7 +141,7 @@ public IMathFunction AsArgumentOfFunction(MathFunctionsOfTwoArguments functionTy
 [C#]
 IMathElement functionArg = new MathematicalText("x");
 IMathElement logarithmBase = new MathematicalText("5");
-IMathFunction func = functionArg.AsArgumentOfFunction(MathFunctionsOfTwoArguments.Log, logarithmBase);  // Возвращает логарифм 'x' по основанию '5'
+IMathFunction func = functionArg.AsArgumentOfFunction(MathFunctionsOfTwoArguments.Log, logarithmBase); // Возвращает логарифм 'x' по основанию '5'
 ```
 
 ### Смотрите также
@@ -166,7 +166,7 @@ public IMathFunction AsArgumentOfFunction(MathFunctionsOfTwoArguments functionTy
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| functionType | MathFunctionsOfTwoArguments | Один из общих типов функций с двумя аргументами:Log, Lim, Min, Max |
+| functionType | MathFunctionsOfTwoArguments | Один из распространенных типов функций с двумя аргументами: Log, Lim, Min, Max. |
 | additionalArgument | String | Дополнительный аргумент в зависимости от типа функции |
 
 ### Возвращаемое значение
@@ -180,7 +180,7 @@ public IMathFunction AsArgumentOfFunction(MathFunctionsOfTwoArguments functionTy
 ```csharp
 [C#]
 IMathElement functionArg = new MathematicalText("x");
-IMathFunction func = functionArg.AsArgumentOfFunction(MathFunctionsOfTwoArguments.Log, "5");  // Возвращает логарифм 'x' по основанию '5'
+IMathFunction func = functionArg.AsArgumentOfFunction(MathFunctionsOfTwoArguments.Log, "5"); // Возвращает логарифм 'x' по основанию '5'
 ```
 
 ### Смотрите также

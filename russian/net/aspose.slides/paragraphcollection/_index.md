@@ -18,8 +18,8 @@ public sealed class ParagraphCollection : DomObject<TextFrame>, IParagraphCollec
 
 | Имя | Описание |
 | --- | --- |
-| [Count](../../aspose.slides/paragraphcollection/count) { get; } | Получает количество элементов, фактически содержащихся в коллекции. Только для чтенияInt32. |
-| [IsReadOnly](../../aspose.slides/paragraphcollection/isreadonly) { get; } | Получает значение, указывающее, является ли коллекцияICollectionдоступной только для чтения. Только чтениеBoolean. |
+| [Count](../../aspose.slides/paragraphcollection/count) { get; } | Получает количество элементов, фактически содержащихся в коллекции. Только для чтенияInt32 . |
+| [IsReadOnly](../../aspose.slides/paragraphcollection/isreadonly) { get; } | Получает значение, указывающее,ICollection доступен только для чтения. Только для чтенияBoolean . |
 | [Item](../../aspose.slides/paragraphcollection/item) { get; } | Получает элемент по указанному индексу. |
 
 ## Методы
@@ -28,17 +28,17 @@ public sealed class ParagraphCollection : DomObject<TextFrame>, IParagraphCollec
 | --- | --- |
 | [Add](../../aspose.slides/paragraphcollection/add#add_1)(IParagraph) | Добавляет абзац в конец коллекции. |
 | [Add](../../aspose.slides/paragraphcollection/add#add)(IParagraphCollection) | Добавляет содержимое ParagraphCollection в конец коллекции. |
-| [AddFromHtml](../../aspose.slides/paragraphcollection/addfromhtml#addfromhtml)(string) | Добавляет в коллекцию текст из указанной строки html. |
-| [AddFromHtml](../../aspose.slides/paragraphcollection/addfromhtml#addfromhtml_1)(string, IExternalResourceResolver, string) | Добавляет в коллекцию текст из указанной строки html. |
+| [AddFromHtml](../../aspose.slides/paragraphcollection/addfromhtml#addfromhtml)(string) | Добавляет текст из указанной строки html в коллекцию. |
+| [AddFromHtml](../../aspose.slides/paragraphcollection/addfromhtml#addfromhtml_1)(string, IExternalResourceResolver, string) | Добавляет текст из указанной строки html в коллекцию. |
 | [Clear](../../aspose.slides/paragraphcollection/clear)() | Удаляет все элементы из коллекции. |
-| [Contains](../../aspose.slides/paragraphcollection/contains)(IParagraph) | Определяет, содержит лиICollectionопределенное значение. |
-| [CopyTo](../../aspose.slides/paragraphcollection/copyto)(IParagraph[], int) | Копирует элементыICollectionвArray, начиная с определенногоArrayindex. |
+| [Contains](../../aspose.slides/paragraphcollection/contains)(IParagraph) | Определяет,ICollection содержит определенное значение. |
+| [CopyTo](../../aspose.slides/paragraphcollection/copyto)(IParagraph[], int) | Копирует элементыICollection чтобыArray , начиная с определенногоArray индекс. |
 | [ExportToHtml](../../aspose.slides/paragraphcollection/exporttohtml)(int, int, ITextToHtmlConversionOptions) | Преобразует заданные абзацы в HTML и возвращает его как объект String. |
-| [GetEnumerator](../../aspose.slides/paragraphcollection/getenumerator)() | Возвращает перечислитель, который перебирает коллекцию. |
-| [IndexOf](../../aspose.slides/paragraphcollection/indexof)(IParagraph) | Определяет индекс конкретного элемента вIList. |
+| [GetEnumerator](../../aspose.slides/paragraphcollection/getenumerator)() | Возвращает перечислитель, который выполняет итерацию по коллекции. |
+| [IndexOf](../../aspose.slides/paragraphcollection/indexof)(IParagraph) | Определяет индекс конкретного элемента вIList . |
 | [Insert](../../aspose.slides/paragraphcollection/insert#insert)(int, IParagraph) | Вставляет абзац в коллекцию по указанному индексу. |
 | [Insert](../../aspose.slides/paragraphcollection/insert#insert_1)(int, IParagraphCollection) | Вставляет содержимое ParagraphCollection в коллекцию по указанному индексу. |
-| [Remove](../../aspose.slides/paragraphcollection/remove)(IParagraph) | Удаляет первое вхождение определенного объекта изICollection. |
+| [Remove](../../aspose.slides/paragraphcollection/remove)(IParagraph) | Удаляет первое вхождение определенного объекта изICollection . |
 | [RemoveAt](../../aspose.slides/paragraphcollection/removeat)(int) | Удаляет элемент по указанному индексу коллекции. |
 
 ### Смотрите также

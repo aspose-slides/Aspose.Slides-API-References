@@ -1,14 +1,14 @@
 ---
 title: Material
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置材质的类型 读/写MaterialPresetTypeaspose.slides/materialpresettype
+description: 返回或设置材质的类型 读/写MaterialPresetTypeaspose.slides/materialpresettype.
 type: docs
 weight: 100
 url: /zh/net/aspose.slides/threedformat/material/
 ---
 ## ThreeDFormat.Material property
 
-返回或设置材质的类型。 读/写[`MaterialPresetType`](../../materialpresettype)。
+返回或设置材质的类型。 读/写[`MaterialPresetType`](../../materialpresettype).
 
 ```csharp
 public MaterialPresetType Material { get; set; }

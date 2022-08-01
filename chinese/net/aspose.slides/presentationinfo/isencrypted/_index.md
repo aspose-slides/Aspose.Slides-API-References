@@ -1,14 +1,14 @@
 ---
 title: IsEncrypted
 second_title: Aspose.Slides for .NET API 参考
-description: 如果绑定的表示已加密则为 True否则为 False 只读Boolean
+description: 如果绑定的演示文稿已加密则为 True否则为 False 只读Boolean.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides/presentationinfo/isencrypted/
 ---
 ## PresentationInfo.IsEncrypted property
 
-如果绑定的表示已加密，则为 True，否则为 False。 只读Boolean。
+如果绑定的演示文稿已加密，则为 True，否则为 False。 只读Boolean.
 
 ```csharp
 public bool IsEncrypted { get; }

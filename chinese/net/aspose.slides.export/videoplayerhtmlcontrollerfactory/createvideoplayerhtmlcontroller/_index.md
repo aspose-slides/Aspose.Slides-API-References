@@ -1,14 +1,14 @@
 ---
 title: CreateVideoPlayerHtmlController
 second_title: Aspose.Slides for .NET API 参考
-description: 创建新的 VideoPlayerHtmlController 
+description: 创建新的VideoPlayerHtmlController.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides.export/videoplayerhtmlcontrollerfactory/createvideoplayerhtmlcontroller/
 ---
 ## VideoPlayerHtmlControllerFactory.CreateVideoPlayerHtmlController method
 
-创建新的` VideoPlayerHtmlController` 。
+创建新的`VideoPlayerHtmlController`.
 
 ```csharp
 public IVideoPlayerHtmlController CreateVideoPlayerHtmlController(string path, string fileName, 
@@ -17,9 +17,9 @@ public IVideoPlayerHtmlController CreateVideoPlayerHtmlController(string path, s
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| path | String | 路径。 |
+| path | String | 小路。 |
 | fileName | String | 文件名。 |
-| baseUri | String | 基本 URI。 |
+| baseUri | String | 基础 URI。 |
 
 ### 也可以看看
 

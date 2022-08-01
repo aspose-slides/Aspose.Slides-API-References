@@ -1,14 +1,14 @@
 ---
 title: AsIBaseChartValue
 second_title: Aspose.Slides for .NET API 参考
-description: 允许获取基本 IBaseChartValue 接口 只读IBaseChartValueaspose.slides.charts/ibasechartvalue
+description: 允许获取基本 IBaseChartValue 接口 只读IBaseChartValueaspose.slides.charts/ibasechartvalue.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides.charts/imultiplecellchartvalue/asibasechartvalue/
 ---
 ## IMultipleCellChartValue.AsIBaseChartValue property
 
-允许获取基本 IBaseChartValue 接口。 只读[`IBaseChartValue`](../../ibasechartvalue)。
+允许获取基本 IBaseChartValue 接口。 只读[`IBaseChartValue`](../../ibasechartvalue).
 
 ```csharp
 public IBaseChartValue AsIBaseChartValue { get; }

@@ -1,14 +1,14 @@
 ---
 title: TextStyle
 second_title: Aspose.Slides for .NET API 参考
-description: 返回有效文本的样式 只读ITextStyleEffectiveDataaspose.slides/itextstyleeffectivedata
+description: 返回有效文本的样式 只读ITextStyleEffectiveDataaspose.slides/itextstyleeffectivedata.
 type: docs
 weight: 100
 url: /zh/net/aspose.slides/itextframeformateffectivedata/textstyle/
 ---
 ## ITextFrameFormatEffectiveData.TextStyle property
 
-返回有效文本的样式。 只读[`ITextStyleEffectiveData`](../../itextstyleeffectivedata)。
+返回有效文本的样式。 只读[`ITextStyleEffectiveData`](../../itextstyleeffectivedata).
 
 ```csharp
 public ITextStyleEffectiveData TextStyle { get; }

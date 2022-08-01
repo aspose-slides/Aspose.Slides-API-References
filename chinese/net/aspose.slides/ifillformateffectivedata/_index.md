@@ -18,17 +18,17 @@ public interface IFillFormatEffectiveData : IFillParamSource
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsIFillParamSource](../../aspose.slides/ifillformateffectivedata/asifillparamsource) { get; } | 返回 IFillParamSource 接口。 只读[`IFillParamSource`](../ifillparamsource)。 |
-| [FillType](../../aspose.slides/ifillformateffectivedata/filltype) { get; } | 返回填充类型。 只读[`FillType`](../filltype)。 |
-| [GradientFormat](../../aspose.slides/ifillformateffectivedata/gradientformat) { get; } | 返回渐变填充格式。 只读[`IGradientFormatEffectiveData`](../igradientformateffectivedata)。 |
-| [PatternFormat](../../aspose.slides/ifillformateffectivedata/patternformat) { get; } | 返回图案填充格式。 只读[`IPatternFormatEffectiveData`](../ipatternformateffectivedata)。 |
-| [PictureFillFormat](../../aspose.slides/ifillformateffectivedata/picturefillformat) { get; } | 返回图片填充格式。 只读[`IPictureFillFormatEffectiveData`](../ipicturefillformateffectivedata)。 |
-| [RotateWithShape](../../aspose.slides/ifillformateffectivedata/rotatewithshape) { get; } | 确定填充是否应随形状旋转。 只读Boolean。 |
-| [SolidFillColor](../../aspose.slides/ifillformateffectivedata/solidfillcolor) { get; } | 返回填充颜色。 只读Color。 |
+| [AsIFillParamSource](../../aspose.slides/ifillformateffectivedata/asifillparamsource) { get; } | 返回 IFillParamSource 接口。 只读[`IFillParamSource`](../ifillparamsource). |
+| [FillType](../../aspose.slides/ifillformateffectivedata/filltype) { get; } | 返回填充类型。 只读[`FillType`](../filltype). |
+| [GradientFormat](../../aspose.slides/ifillformateffectivedata/gradientformat) { get; } | 返回渐变填充格式。 只读[`IGradientFormatEffectiveData`](../igradientformateffectivedata). |
+| [PatternFormat](../../aspose.slides/ifillformateffectivedata/patternformat) { get; } | 返回图案填充格式。 只读[`IPatternFormatEffectiveData`](../ipatternformateffectivedata). |
+| [PictureFillFormat](../../aspose.slides/ifillformateffectivedata/picturefillformat) { get; } | 返回图片填充格式。 只读[`IPictureFillFormatEffectiveData`](../ipicturefillformateffectivedata). |
+| [RotateWithShape](../../aspose.slides/ifillformateffectivedata/rotatewithshape) { get; } | 确定填充是否应随形状旋转。 只读Boolean. |
+| [SolidFillColor](../../aspose.slides/ifillformateffectivedata/solidfillcolor) { get; } | 返回填充颜色。 只读Color. |
 
 ### 评论
 
-此接口与IFillFormat一起使用接口返回应用继承的有效格式值。
+该接口与[`IFillFormat`](../ifillformat)返回应用继承的有效格式值的接口。
 
 ### 也可以看看
 

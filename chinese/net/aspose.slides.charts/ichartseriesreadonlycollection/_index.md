@@ -1,14 +1,14 @@
 ---
 title: IChartSeriesReadonlyCollection
 second_title: Aspose.Slides for .NET API 参考
-description: 表示IChartSeries./ichartseries
+description: 表示只读集合IChartSeries./ichartseries
 type: docs
 weight: 1830
 url: /zh/net/aspose.slides.charts/ichartseriesreadonlycollection/
 ---
 ## IChartSeriesReadonlyCollection interface
 
-表示[`IChartSeries`](../ichartseries)
+表示只读集合[`IChartSeries`](../ichartseries)
 
 ```csharp
 public interface IChartSeriesReadonlyCollection : IGenericCollection<IChartSeries>

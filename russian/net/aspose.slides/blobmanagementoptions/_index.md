@@ -24,10 +24,10 @@ public class BlobManagementOptions : IBlobManagementOptions
 
 | Имя | Описание |
 | --- | --- |
-| [IsTemporaryFilesAllowed](../../aspose.slides/blobmanagementoptions/istemporaryfilesallowed) { get; set; } | Установить запрет на использование временных файлов для оптимизации потребления памяти при работе с большими объемами данных во время жизни презентации. Если false, может быть выброшено исключение OutOfMemoryException. |
-| [MaxBlobsBytesInMemory](../../aspose.slides/blobmanagementoptions/maxblobsbytesinmemory) { get; set; } | Пороговое значение, указывающее максимальное количество байтов, которые BLOB могут занимать в памяти. После того, как этот порог будет достигнут, все новые BLOB будут помещены во временные файлы и не повлияют на общее потребление памяти процессом. [`IsTemporaryFilesAllowed`](./istemporaryfilesallowed)должно быть установлено значение true, чтобы использовать это свойство. |
+| [IsTemporaryFilesAllowed](../../aspose.slides/blobmanagementoptions/istemporaryfilesallowed) { get; set; } | Установить запрет на использование временных файлов для оптимизации потребления памяти при работе с большими объемами данных в течение жизни презентации. Если false, может быть выброшено исключение OutOfMemoryException. |
+| [MaxBlobsBytesInMemory](../../aspose.slides/blobmanagementoptions/maxblobsbytesinmemory) { get; set; } | Пороговое значение, указывающее максимальное количество байтов, которые BLOB могут занимать в памяти. После достижения этого порога все новые BLOB будут помещены во временные файлы и не повлияют на общее потребление памяти процессом . [`IsTemporaryFilesAllowed`](./istemporaryfilesallowed) должно быть установлено значение true, чтобы использовать это свойство. |
 | [PresentationLockingBehavior](../../aspose.slides/blobmanagementoptions/presentationlockingbehavior) { get; set; } | Представляет поведение блокировки для источника презентации (потока или файла). |
-| [TempFilesRootPath](../../aspose.slides/blobmanagementoptions/tempfilesrootpath) { get; set; } | Представляет корневой путь в файловой системе, где будут храниться временные файлы. System временный каталог будет использоваться по умолчанию. |
+| [TempFilesRootPath](../../aspose.slides/blobmanagementoptions/tempfilesrootpath) { get; set; } | Представляет корневой путь в файловой системе, где будут храниться временные файлы. По умолчанию будет использоваться временный каталог System . |
 
 ### Смотрите также
 

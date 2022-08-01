@@ -1,14 +1,14 @@
 ---
 title: Alignment
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает стиль выравнивания вкладки. Только чтениеTabAlignmentaspose.slides/tabalignment.
+description: Возвращает стиль выравнивания вкладки. Только для чтенияTabAlignmentaspose.slides/tabalignment .
 type: docs
 weight: 10
 url: /ru/net/aspose.slides/itabeffectivedata/alignment/
 ---
 ## ITabEffectiveData.Alignment property
 
-Возвращает стиль выравнивания вкладки. Только чтение[`TabAlignment`](../../tabalignment).
+Возвращает стиль выравнивания вкладки. Только для чтения[`TabAlignment`](../../tabalignment) .
 
 ```csharp
 public TabAlignment Alignment { get; }

@@ -1,14 +1,14 @@
 ---
 title: IndexOf
 second_title: Aspose.Slides for .NET API 参考
-description: 确定IList中特定项目的索引
+description: 确定特定项目的索引IList.
 type: docs
 weight: 70
 url: /zh/net/aspose.slides.animation/ibehaviorcollection/indexof/
 ---
 ## IBehaviorCollection.IndexOf method
 
-确定IList中特定项目的索引。
+确定特定项目的索引IList.
 
 ```csharp
 public int IndexOf(IBehavior item)
@@ -16,11 +16,11 @@ public int IndexOf(IBehavior item)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| item | IBehavior | 在IList中定位的对象. |
+| item | IBehavior | 要定位的对象IList. |
 
 ### 返回值
 
-*item*的索引（如果在列表中找到）；否则，-1。
+的索引*item*如果在列表中找到；否则，-1.
 
 ### 也可以看看
 

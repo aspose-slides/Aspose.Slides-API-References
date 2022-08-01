@@ -18,11 +18,11 @@ public interface IGifOptions : ISaveOptions
 
 | Имя | Описание |
 | --- | --- |
-| [AsISaveOptions](../../aspose.slides.export/igifoptions/asisaveoptions) { get; } | Возвращает интерфейс ISaveOptions. Только для чтения[`ISaveOptions`](../isaveoptions). |
-| [DefaultDelay](../../aspose.slides.export/igifoptions/defaultdelay) { get; set; } | Получает или устанавливает время задержки по умолчанию [мс]. Это значение будет использоваться, если[`AdvanceAfterTime`](../../aspose.slides/islideshowtransition/advanceaftertime)не установлено. Значение по умолчанию 1000. |
+| [AsISaveOptions](../../aspose.slides.export/igifoptions/asisaveoptions) { get; } | Возвращает интерфейс ISaveOptions. Только для чтения[`ISaveOptions`](../isaveoptions) . |
+| [DefaultDelay](../../aspose.slides.export/igifoptions/defaultdelay) { get; set; } | Получает или задает время задержки по умолчанию [мс]. Это значение будет использоваться, если[`AdvanceAfterTime`](../../aspose.slides/islideshowtransition/advanceaftertime) не установлено. Значение по умолчанию: 1000. |
 | [ExportHiddenSlides](../../aspose.slides.export/igifoptions/exporthiddenslides) { get; set; } | Определяет, будут ли экспортироваться скрытые слайды. Значение по умолчанию — false. |
 | [FrameSize](../../aspose.slides.export/igifoptions/framesize) { get; set; } | Получает или задает размер кадра. |
-| [TransitionFps](../../aspose.slides.export/igifoptions/transitionfps) { get; set; } | Получает или устанавливает FPS перехода [кадры/сек] Значение по умолчанию равно 25. |
+| [TransitionFps](../../aspose.slides.export/igifoptions/transitionfps) { get; set; } | Получает или задает FPS перехода [кадров/сек] Значение по умолчанию: 25. |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: OuterShadowEffect
 second_title: Справочник по API Aspose.Slides для .NET
-description: Внешняя тень. Чтение/записьIOuterShadowaspose.slides.effects/ioutershadow.
+description: Внешняя тень. Чтение/записьIOuterShadowaspose.slides.effects/ioutershadow .
 type: docs
 weight: 60
 url: /ru/net/aspose.slides/effectformat/outershadoweffect/
 ---
 ## EffectFormat.OuterShadowEffect property
 
-Внешняя тень. Чтение/запись[`IOuterShadow`](../../../aspose.slides.effects/ioutershadow).
+Внешняя тень. Чтение/запись[`IOuterShadow`](../../../aspose.slides.effects/ioutershadow) .
 
 ```csharp
 public IOuterShadow OuterShadowEffect { get; set; }

@@ -18,9 +18,9 @@ public interface IAxisFormat
 
 | Имя | Описание |
 | --- | --- |
-| [Effect](../../aspose.slides.charts/iaxisformat/effect) { get; } | Возвращает эффекты, используемые для оси. Только для чтения[`IEffectFormat`](../../aspose.slides/ieffectformat). |
-| [Fill](../../aspose.slides.charts/iaxisformat/fill) { get; } | Возвращает свойства стиля заливки оси. Только для чтения[`IFillFormat`](../../aspose.slides/ifillformat). |
-| [Line](../../aspose.slides.charts/iaxisformat/line) { get; } | Возвращает свойства стиля линии оси. Только для чтения[`ILineFormat`](../../aspose.slides/ilineformat). |
+| [Effect](../../aspose.slides.charts/iaxisformat/effect) { get; } | Возвращает эффекты, используемые для оси. Только для чтения[`IEffectFormat`](../../aspose.slides/ieffectformat) . |
+| [Fill](../../aspose.slides.charts/iaxisformat/fill) { get; } | Возвращает свойства стиля заливки оси. Только для чтения[`IFillFormat`](../../aspose.slides/ifillformat) . |
+| [Line](../../aspose.slides.charts/iaxisformat/line) { get; } | Возвращает свойства стиля линии оси. Только для чтения[`ILineFormat`](../../aspose.slides/ilineformat) . |
 
 ### Смотрите также
 

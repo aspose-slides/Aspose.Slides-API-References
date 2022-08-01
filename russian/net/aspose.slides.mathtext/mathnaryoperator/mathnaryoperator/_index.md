@@ -17,7 +17,7 @@ public MathNaryOperator(char operatorSymbol, IMathElement baseArgument, IMathEle
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| operatorSymbol | Char | Символ оператора Nary |
+| operatorSymbol | Char | Nary символ оператора |
 | baseArgument | IMathElement | Базовый аргумент |
 | lowerLimit | IMathElement | Нижний предел |
 | upperLimit | IMathElement | Верхний предел |
@@ -50,7 +50,7 @@ public MathNaryOperator(char operatorSymbol, IMathElement baseArgument, IMathEle
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| operatorSymbol | Char | Символ оператора Nary |
+| operatorSymbol | Char | Nary символ оператора |
 | baseArgument | IMathElement | Базовый аргумент |
 | lowerLimit | IMathElement | Нижний предел |
 
@@ -82,7 +82,7 @@ public MathNaryOperator(char operatorSymbol, IMathElement baseArgument)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| operatorSymbol | Char | Символ оператора Nary |
+| operatorSymbol | Char | Nary символ оператора |
 | baseArgument | IMathElement | Базовый аргумент |
 
 ### Примеры

@@ -1,14 +1,14 @@
 ---
 title: AddAudioFrameEmbedded
 second_title: Справочник по API Aspose.Slides для .NET
-description: Добавляет в конец коллекции новый аудиокадр со встроенным аудиофайлом. Встроенный аудиофайл может быть только в формате WAV. Добавляет новый звук в список Presentation.Audios.
+description: Добавляет новый аудиокадр со встроенным аудиофайлом в конец коллекции. Встроенный аудиофайл может быть только в формате WAV. Добавляет новое аудио в список Presentation.Audios.
 type: docs
 weight: 40
 url: /ru/net/aspose.slides/ishapecollection/addaudioframeembedded/
 ---
 ## AddAudioFrameEmbedded(float, float, float, float, Stream) {#addaudioframeembedded_1}
 
-Добавляет в конец коллекции новый аудиокадр со встроенным аудиофайлом. Встроенный аудиофайл может быть только в формате WAV. Добавляет новый звук в список Presentation.Audios.
+Добавляет новый аудиокадр со встроенным аудиофайлом в конец коллекции. Встроенный аудиофайл может быть только в формате WAV. Добавляет новое аудио в список Presentation.Audios.
 
 ```csharp
 public IAudioFrame AddAudioFrameEmbedded(float x, float y, float width, float height, 
@@ -17,11 +17,11 @@ public IAudioFrame AddAudioFrameEmbedded(float x, float y, float width, float he
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| x | Single | X координата нового звукового кадра. |
+| x | Single | Координата X нового звукового кадра. |
 | y | Single | Координата Y нового звукового кадра. |
 | width | Single | Ширина нового звукового кадра. |
 | height | Single | Высота нового звукового кадра. |
-| audio_stream | Stream | Исходящий поток с аудиоданными. |
+| audio_stream | Stream | Входящий поток с аудиоданными. |
 
 ### Возвращаемое значение
 
@@ -38,7 +38,7 @@ public IAudioFrame AddAudioFrameEmbedded(float x, float y, float width, float he
 
 ## AddAudioFrameEmbedded(float, float, float, float, IAudio) {#addaudioframeembedded}
 
-Добавляет в конец коллекции новый аудиокадр со встроенным аудиофайлом. Используется аудиофайл из списка Presentation.Audios.
+Добавляет новый аудиокадр со встроенным аудиофайлом в конец коллекции. Использует аудиофайл из списка Presentation.Audios.
 
 ```csharp
 public IAudioFrame AddAudioFrameEmbedded(float x, float y, float width, float height, IAudio audio)
@@ -46,7 +46,7 @@ public IAudioFrame AddAudioFrameEmbedded(float x, float y, float width, float he
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| x | Single | X координата нового звукового кадра. |
+| x | Single | Координата X нового звукового кадра. |
 | y | Single | Координата Y нового звукового кадра. |
 | width | Single | Ширина нового звукового кадра. |
 | height | Single | Высота нового звукового кадра. |

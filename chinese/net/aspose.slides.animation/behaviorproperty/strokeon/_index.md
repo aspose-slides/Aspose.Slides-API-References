@@ -1,14 +1,14 @@
 ---
 title: StrokeOn
 second_title: Aspose.Slides for .NET API 参考
-description: 表示 stroke.on 属性
+description: 表示stroke.on属性
 type: docs
 weight: 980
 url: /zh/net/aspose.slides.animation/behaviorproperty/strokeon/
 ---
 ## BehaviorProperty.StrokeOn property
 
-表示 'stroke.on' 属性
+表示“stroke.on”属性
 
 ```csharp
 public static BehaviorProperty StrokeOn { get; }

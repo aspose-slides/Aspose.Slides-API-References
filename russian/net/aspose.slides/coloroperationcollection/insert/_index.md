@@ -17,7 +17,7 @@ public IColorOperation Insert(int position, ColorTransformOperation operation, f
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | position | Int32 | Индекс, по которому будет вставлена операция. |
-| операция | ColorTransformOperation | Тип операции. |
+| operation | ColorTransformOperation | Тип операции. |
 | parameter | Single | Параметр операции. |
 
 ### Возвращаемое значение
@@ -45,7 +45,7 @@ public IColorOperation Insert(int position, ColorTransformOperation operation)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | position | Int32 | Индекс, по которому будет вставлена операция. |
-| операция | ColorTransformOperation | Тип операции. |
+| operation | ColorTransformOperation | Тип операции. |
 
 ### Возвращаемое значение
 

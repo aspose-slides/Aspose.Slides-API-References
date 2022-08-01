@@ -1,14 +1,14 @@
 ---
 title: AddClipboardFragmentHeader
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или устанавливает значение указывающее следует ли добавлять заголовки буфера обмена. Чтение/записьBoolean.
+description: Возвращает или задает значение указывающее следует ли добавлять заголовки буфера обмена. Чтение/записьBoolean .
 type: docs
 weight: 20
 url: /ru/net/aspose.slides.export/texttohtmlconversionoptions/addclipboardfragmentheader/
 ---
 ## TextToHtmlConversionOptions.AddClipboardFragmentHeader property
 
-Возвращает или устанавливает значение, указывающее, следует ли добавлять заголовки буфера обмена. Чтение/записьBoolean.
+Возвращает или задает значение, указывающее, следует ли добавлять заголовки буфера обмена. Чтение/записьBoolean .
 
 ```csharp
 public bool AddClipboardFragmentHeader { get; set; }

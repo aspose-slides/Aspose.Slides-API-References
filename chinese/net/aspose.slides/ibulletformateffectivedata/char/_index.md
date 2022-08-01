@@ -1,14 +1,14 @@
 ---
 title: Char
 second_title: Aspose.Slides for .NET API 参考
-description: 返回段落的子弹字符 只读Char
+description: 返回段落的项目符号字符 只读Char.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides/ibulletformateffectivedata/char/
 ---
 ## IBulletFormatEffectiveData.Char property
 
-返回段落的子弹字符。 只读Char。
+返回段落的项目符号字符。 只读Char.
 
 ```csharp
 public char Char { get; }

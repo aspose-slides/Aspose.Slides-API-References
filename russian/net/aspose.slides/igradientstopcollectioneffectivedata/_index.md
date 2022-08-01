@@ -19,7 +19,7 @@ public interface IGradientStopCollectionEffectiveData :
 
 | Имя | Описание |
 | --- | --- |
-| [Item](../../aspose.slides/igradientstopcollectioneffectivedata/item) { get; } | Возвращает точку градиента по индексу. |
+| [Item](../../aspose.slides/igradientstopcollectioneffectivedata/item) { get; } | Возвращает остановку градиента по индексу. |
 
 ### Смотрите также
 

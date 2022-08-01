@@ -1,14 +1,14 @@
 ---
 title: SlideLayoutType
 second_title: Aspose.Slides for .NET API 参考
-description: 表示幻灯片布局类型
+description: 代表幻灯片布局类型
 type: docs
 weight: 9210
 url: /zh/net/aspose.slides/slidelayouttype/
 ---
 ## SlideLayoutType enumeration
 
-表示幻灯片布局类型。
+代表幻灯片布局类型。
 
 ```csharp
 public enum SlideLayoutType : sbyte
@@ -20,12 +20,12 @@ public enum SlideLayoutType : sbyte
 | --- | --- | --- |
 | Custom | `-1` | 自定义 |
 | Title | `0` | 标题 |
-| Text | `1` | 文本 |
+| Text | `1` | 文字 |
 | TwoColumnText | `2` | 两列文本 |
 | Table | `3` | 表 |
 | TextAndChart | `4` | 文本和图表 |
 | ChartAndText | `5` | 图表和文本 |
-| Diagram | `6` | 图 |
+| Diagram | `6` | 图表 |
 | Chart | `7` | 图表 |
 | TextAndClipArt | `8` | 文本和剪贴画 |
 | ClipArtAndText | `9` | 剪贴画和文本 |
@@ -35,25 +35,25 @@ public enum SlideLayoutType : sbyte
 | ObjectAndText | `13` | 对象和文本 |
 | Object | `14` | 对象 |
 | TitleAndObject | `15` | 标题和对象 |
-| TextAndMedia | `16` | 文本和媒体 |
+| TextAndMedia | `16` | 文字和媒体 |
 | MediaAndText | `17` | 媒体和文本 |
-| ObjectOverText | `18` | 对象覆盖文本 |
-| TextOverObject | `19` | 对象上方的文本 |
+| ObjectOverText | `18` | 对象超过文本 |
+| TextOverObject | `19` | 对象上的文本 |
 | TextAndTwoObjects | `20` | 文本和两个对象 |
 | TwoObjectsAndText | `21` | 两个对象和文本 |
-| TwoObjectsOverText | `22` | 文本上的两个对象 |
+| TwoObjectsOverText | `22` | 文本上方的两个对象 |
 | FourObjects | `23` | 四个对象 |
-| VerticalText | `24` | 垂直文本 |
+| VerticalText | `24` | 竖排文本 |
 | ClipArtAndVerticalText | `25` | 剪贴画和竖排文本 |
 | VerticalTitleAndText | `26` | 垂直标题和文本 |
-| VerticalTitleAndTextOverChart | `27` | 垂直标题和图表上方的文本 |
+| VerticalTitleAndTextOverChart | `27` | 垂直标题和图表上方的文字 |
 | TwoObjects | `28` | 两个对象 |
 | ObjectAndTwoObject | `29` | 对象和两个对象 |
-| TwoObjectsAndObject | `30` | 两个对象和对象 |
-| SectionHeader | `31` | 节头 |
+| TwoObjectsAndObject | `30` | 两个对象和 Object |
+| SectionHeader | `31` | 节标题 |
 | TwoTextAndTwoObjects | `32` | 两个文本和两个对象 |
-| TitleObjectAndCaption | `33` | 标题、对象和标题 |
-| PictureAndCaption | `34` | 图片和说明 |
+| TitleObjectAndCaption | `33` | 标题、对象和说明文字 |
+| PictureAndCaption | `34` | 图片和说明文字 |
 
 ### 也可以看看
 

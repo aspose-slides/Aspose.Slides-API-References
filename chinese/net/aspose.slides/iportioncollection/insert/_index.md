@@ -16,7 +16,7 @@ public void Insert(int index, IPortion value)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| index | Int32 | 应该插入部分的从零开始的索引。 |
+| index | Int32 | Portion 应该插入的从零开始的索引。 |
 | value | IPortion | 要插入的部分。 |
 
 ### 也可以看看

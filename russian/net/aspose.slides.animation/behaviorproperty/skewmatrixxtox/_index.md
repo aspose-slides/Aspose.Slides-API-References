@@ -8,7 +8,7 @@ url: /ru/net/aspose.slides.animation/behaviorproperty/skewmatrixxtox/
 ---
 ## BehaviorProperty.SkewMatrixXtoX property
 
-Представляет свойство 'skew.matrix.xtox'
+Представляет свойство skew.matrix.xtox
 
 ```csharp
 public static BehaviorProperty SkewMatrixXtoX { get; }

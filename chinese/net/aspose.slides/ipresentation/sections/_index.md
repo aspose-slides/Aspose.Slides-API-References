@@ -1,14 +1,14 @@
 ---
 title: Sections
 second_title: Aspose.Slides for .NET API 参考
-description: 返回演示文稿中定义的所有幻灯片部分的列表 只读ISectionCollectionaspose.slides/isectioncollection
+description: 返回演示文稿中定义的所有幻灯片部分的列表 只读ISectionCollectionaspose.slides/isectioncollection.
 type: docs
 weight: 230
 url: /zh/net/aspose.slides/ipresentation/sections/
 ---
 ## IPresentation.Sections property
 
-返回演示文稿中定义的所有幻灯片部分的列表。 只读[`ISectionCollection`](../../isectioncollection)。
+返回演示文稿中定义的所有幻灯片部分的列表。 只读[`ISectionCollection`](../../isectioncollection).
 
 ```csharp
 public ISectionCollection Sections { get; }

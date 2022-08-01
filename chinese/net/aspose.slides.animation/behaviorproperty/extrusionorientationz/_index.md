@@ -1,14 +1,14 @@
 ---
 title: ExtrusionOrientationZ
 second_title: Aspose.Slides for .NET API 参考
-description: 表示 extrusion.orientation.z 属性
+description: 表示extrusion.orientation.z属性
 type: docs
 weight: 110
 url: /zh/net/aspose.slides.animation/behaviorproperty/extrusionorientationz/
 ---
 ## BehaviorProperty.ExtrusionOrientationZ property
 
-表示 'extrusion.orientation.z' 属性
+表示“extrusion.orientation.z”属性
 
 ```csharp
 public static BehaviorProperty ExtrusionOrientationZ { get; }

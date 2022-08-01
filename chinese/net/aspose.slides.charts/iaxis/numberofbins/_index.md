@@ -1,14 +1,14 @@
 ---
 title: NumberOfBins
 second_title: Aspose.Slides for .NET API 参考
-description: 指定当 AggregationType 属性值设置为 AxisAggregationType.ByNumberOfBins 时的 bin 数量 应用于类别轴仅与 Histogram 或 HistogramPareto 系列一起使用
+description: 指定当 AggregationType 属性值设置为 AxisAggregationType.ByNumberOfBins 时的 bin 数 应用于类别轴仅与直方图或直方图帕累托系列一起使用
 type: docs
 weight: 450
 url: /zh/net/aspose.slides.charts/iaxis/numberofbins/
 ---
 ## IAxis.NumberOfBins property
 
-指定当 AggregationType 属性值设置为 AxisAggregationType.ByNumberOfBins 时的 bin 数量。 应用于类别轴。仅与 Histogram 或 HistogramPareto 系列一起使用。
+指定当 AggregationType 属性值设置为 AxisAggregationType.ByNumberOfBins 时的 bin 数。 应用于类别轴。仅与直方图或直方图帕累托系列一起使用。
 
 ```csharp
 public uint NumberOfBins { get; set; }

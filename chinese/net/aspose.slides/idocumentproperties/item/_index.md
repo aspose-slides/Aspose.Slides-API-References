@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置与指定名称关联的自定义属性 读/写Object
+description: 返回或设置与指定名称关联的自定义属性 读/写Object.
 type: docs
 weight: 120
 url: /zh/net/aspose.slides/idocumentproperties/item/
 ---
 ## IDocumentProperties indexer
 
-返回或设置与指定名称关联的自定义属性。 读/写Object。
+返回或设置与指定名称关联的自定义属性。 读/写Object.
 
 ```csharp
 public object this[string name] { get; set; }
@@ -16,7 +16,7 @@ public object this[string name] { get; set; }
 
 ### 评论
 
-值可以是 **int** , **float** , **double** , **string** , **bool** 或 **DateTime** 。
+值可以是 **整数** , **漂浮** , **双倍的** , **细绳** , **布尔**或者 **约会时间**.
 
 ### 也可以看看
 

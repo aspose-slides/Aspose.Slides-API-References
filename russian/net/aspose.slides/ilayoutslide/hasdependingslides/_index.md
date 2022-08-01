@@ -1,14 +1,14 @@
 ---
 title: HasDependingSlides
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает true если существует хотя бы один слайд который зависит от этого слайда макета. Только чтениеBoolean.
+description: Возвращает значение true если существует хотя бы один слайд который зависит от этого слайда макета. Только для чтенияBoolean .
 type: docs
 weight: 30
 url: /ru/net/aspose.slides/ilayoutslide/hasdependingslides/
 ---
 ## ILayoutSlide.HasDependingSlides property
 
-Возвращает true, если существует хотя бы один слайд, который зависит от этого слайда макета. Только чтениеBoolean.
+Возвращает значение true, если существует хотя бы один слайд, который зависит от этого слайда макета. Только для чтенияBoolean .
 
 ```csharp
 public bool HasDependingSlides { get; }

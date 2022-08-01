@@ -19,7 +19,7 @@ public sealed class HtmlFormatter : IHtmlFormatter
 | Имя | Описание |
 | --- | --- |
 | static [CreateCustomFormatter](../../aspose.slides.export/htmlformatter/createcustomformatter)(IHtmlFormattingController) | Создает и возвращает средство форматирования HTML для пользовательской генерации HTML, управляемой обратным вызовом. |
-| static [CreateDocumentFormatter](../../aspose.slides.export/htmlformatter/createdocumentformatter)(string, bool) | Создает и возвращает средство форматирования HTML для простого представления документа, состоящего из последовательностей слайдов один под другим. |
+| static [CreateDocumentFormatter](../../aspose.slides.export/htmlformatter/createdocumentformatter)(string, bool) | Создает и возвращает модуль форматирования HTML для простого представления документа, состоящего из последовательностей слайдов один под другим. |
 | static [CreateSlideShowFormatter](../../aspose.slides.export/htmlformatter/createslideshowformatter)(string, bool) | Создает и возвращает средство форматирования HTML для простого HTML-слайд-шоу, которое показывает слайды один за другим. |
 
 ### Смотрите также

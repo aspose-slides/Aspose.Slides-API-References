@@ -1,14 +1,14 @@
 ---
 title: Format
 second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет формат метки данных. Только для чтенияIFormataspose.slides.charts/iformat.
+description: Представляет формат метки данных. Только для чтенияIFormataspose.slides.charts/iformat .
 type: docs
 weight: 20
 url: /ru/net/aspose.slides.charts/datalabelformat/format/
 ---
 ## DataLabelFormat.Format property
 
-Представляет формат метки данных. Только для чтения[`IFormat`](../../iformat).
+Представляет формат метки данных. Только для чтения[`IFormat`](../../iformat) .
 
 ```csharp
 public IFormat Format { get; }
@@ -16,7 +16,7 @@ public IFormat Format { get; }
 
 ### Примечания
 
-Если родителем этого объекта DataLabelFormat является коллекция меток данных DataLabelCollection, то это свойство представляет формат по умолчанию для новых меток данных в коллекции DataLabelCollection.
+Если родителем этого объекта DataLabelFormat является коллекция меток данных DataLabelCollection, то свойство this представляет формат по умолчанию для новых меток данных в коллекции DataLabelCollection.
 
 ### Смотрите также
 

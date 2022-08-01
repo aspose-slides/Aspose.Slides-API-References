@@ -19,13 +19,13 @@ public interface IPortionFormatEffectiveData : IBasePortionFormatEffectiveData
 | Имя | Описание |
 | --- | --- |
 | [AsIBasePortionFormatEffectiveData](../../aspose.slides/iportionformateffectivedata/asibaseportionformateffectivedata) { get; } | Возвращает интерфейс IBasePortionFormatEffectiveData. |
-| [BookmarkId](../../aspose.slides/iportionformateffectivedata/bookmarkid) { get; } | Возвращает идентификатор закладки. Только чтениеString. |
-| [HyperlinkClick](../../aspose.slides/iportionformateffectivedata/hyperlinkclick) { get; } | Возвращает гиперссылку, определенную для щелчка мыши. Только для чтения[`IHyperlink`](../ihyperlink). |
-| [HyperlinkMouseOver](../../aspose.slides/iportionformateffectivedata/hyperlinkmouseover) { get; } | Возвращает гиперссылку, определенную для наведения мыши. Только для чтения[`IHyperlink`](../ihyperlink). |
+| [BookmarkId](../../aspose.slides/iportionformateffectivedata/bookmarkid) { get; } | Возвращает идентификатор закладки. Только для чтенияString . |
+| [HyperlinkClick](../../aspose.slides/iportionformateffectivedata/hyperlinkclick) { get; } | Возвращает гиперссылку, определенную для щелчка мыши. Только для чтения[`IHyperlink`](../ihyperlink) . |
+| [HyperlinkMouseOver](../../aspose.slides/iportionformateffectivedata/hyperlinkmouseover) { get; } | Возвращает гиперссылку, определенную для наведения указателя мыши. Только для чтения[`IHyperlink`](../ihyperlink) . |
 
 ### Примечания
 
-Этот интерфейс используется вместе с[`IPortionFormat`](../iportionformat)интерфейс для возврата эффективных значений форматирования с применением наследования.
+Этот интерфейс используется вместе с[`IPortionFormat`](../iportionformat) интерфейс для возврата эффективных значений форматирования с применением наследования.
 
 ### Смотрите также
 

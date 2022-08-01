@@ -1,14 +1,14 @@
 ---
 title: Tags
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает коллекцию тегов данных клиента. Только для чтенияITagCollectionaspose.slides/itagcollection.
+description: Возвращает коллекцию тегов данных клиента. Только для чтенияITagCollectionaspose.slides/itagcollection .
 type: docs
 weight: 20
 url: /ru/net/aspose.slides/icustomdata/tags/
 ---
 ## ICustomData.Tags property
 
-Возвращает коллекцию тегов данных клиента. Только для чтения[`ITagCollection`](../../itagcollection).
+Возвращает коллекцию тегов данных клиента. Только для чтения[`ITagCollection`](../../itagcollection) .
 
 ```csharp
 public ITagCollection Tags { get; }

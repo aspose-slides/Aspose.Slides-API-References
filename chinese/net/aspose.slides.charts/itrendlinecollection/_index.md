@@ -1,14 +1,14 @@
 ---
 title: ITrendlineCollection
 second_title: Aspose.Slides for .NET API 参考
-description: 表示 TrendlineEx
+description: 表示 TrendlineEx 的集合
 type: docs
 weight: 2110
 url: /zh/net/aspose.slides.charts/itrendlinecollection/
 ---
 ## ITrendlineCollection interface
 
-表示 TrendlineEx
+表示 TrendlineEx 的集合
 
 ```csharp
 public interface ITrendlineCollection : IEnumerable<ITrendline>
@@ -18,15 +18,15 @@ public interface ITrendlineCollection : IEnumerable<ITrendline>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.charts/itrendlinecollection/asienumerable) { get; } | 允许获取基本 IEnumerable 接口。 只读IEnumerable。 |
-| [Count](../../aspose.slides.charts/itrendlinecollection/count) { get; } | 获取集合中实际包含的元素数量。 只读Int32。 |
-| [Item](../../aspose.slides.charts/itrendlinecollection/item) { get; } | 获取指定索引处的元素。 只读[`ITrendline`](../itrendline)。 |
+| [AsIEnumerable](../../aspose.slides.charts/itrendlinecollection/asienumerable) { get; } | 允许获取基本 IEnumerable 接口。 只读IEnumerable. |
+| [Count](../../aspose.slides.charts/itrendlinecollection/count) { get; } | 获取集合中实际包含的元素数。 只读Int32. |
+| [Item](../../aspose.slides.charts/itrendlinecollection/item) { get; } | 获取指定索引处的元素。 只读[`ITrendline`](../itrendline). |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Add](../../aspose.slides.charts/itrendlinecollection/add)(TrendlineType) | 在集合末尾添加新的趋势线并返回。 |
+| [Add](../../aspose.slides.charts/itrendlinecollection/add)(TrendlineType) | 在集合末尾添加新的趋势线并返回它。 |
 | [Remove](../../aspose.slides.charts/itrendlinecollection/remove)(ITrendline) | 删除指定的值。 |
 
 ### 也可以看看

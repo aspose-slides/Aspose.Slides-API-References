@@ -1,14 +1,14 @@
 ---
 title: Add
 second_title: Aspose.Slides for .NET API 参考
-description: 创建新的渐变色标并将其添加到集合的末尾
+description: 创建新的渐变停止并将其添加到集合的末尾
 type: docs
 weight: 20
 url: /zh/net/aspose.slides/igradientstopcollection/add/
 ---
 ## Add(float, Color) {#add_2}
 
-创建新的渐变色标并将其添加到集合的末尾。
+创建新的渐变停止并将其添加到集合的末尾。
 
 ```csharp
 public IGradientStop Add(float position, Color color)
@@ -16,12 +16,12 @@ public IGradientStop Add(float position, Color color)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| position | Single | 新梯度停止的位置。 |
-| color | Color | 新辐射光阑的颜色。 |
+| position | Single | 新渐变停止的位置。 |
+| color | Color | 新辐射站的颜色。 |
 
 ### 返回值
 
-集合中新渐变停止的索引。
+集合中新梯度停止的索引。
 
 ### 也可以看看
 
@@ -34,7 +34,7 @@ public IGradientStop Add(float position, Color color)
 
 ## Add(float, PresetColor) {#add}
 
-创建新的渐变色标并将其添加到集合的末尾。
+创建新的渐变停止并将其添加到集合的末尾。
 
 ```csharp
 public IGradientStop Add(float position, PresetColor presetColor)
@@ -42,12 +42,12 @@ public IGradientStop Add(float position, PresetColor presetColor)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| position | Single | 新梯度停止的位置。 |
-| presetColor | PresetColor | 新辐射光阑的颜色。 |
+| position | Single | 新渐变停止的位置。 |
+| presetColor | PresetColor | 新辐射站的颜色。 |
 
 ### 返回值
 
-集合中新渐变停止的索引。
+集合中新梯度停止的索引。
 
 ### 也可以看看
 
@@ -61,7 +61,7 @@ public IGradientStop Add(float position, PresetColor presetColor)
 
 ## Add(float, SchemeColor) {#add_1}
 
-创建新的渐变色标并将其添加到集合的末尾。
+创建新的渐变停止并将其添加到集合的末尾。
 
 ```csharp
 public IGradientStop Add(float position, SchemeColor schemeColor)
@@ -69,12 +69,12 @@ public IGradientStop Add(float position, SchemeColor schemeColor)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| position | Single | 新梯度停止的位置。 |
-| schemeColor | SchemeColor | 新辐射光阑的颜色。 |
+| position | Single | 新渐变停止的位置。 |
+| schemeColor | SchemeColor | 新辐射站的颜色。 |
 
 ### 返回值
 
-集合中新渐变停止的索引。
+集合中新梯度停止的索引。
 
 ### 也可以看看
 

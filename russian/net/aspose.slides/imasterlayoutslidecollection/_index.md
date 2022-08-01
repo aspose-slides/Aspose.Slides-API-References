@@ -1,14 +1,14 @@
 ---
 title: IMasterLayoutSlideCollection
 second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет коллекцию всех слайдов макета определенного мастер-слайда. Расширяет интерфейс ILayoutSlideCollection методами добавления/вставки/удаления/клонирования слайдов макета в контексте отдельных коллекций слайдов мастер-макета.
+description: Представляет коллекции всех слайдов макета определенного мастер-слайда. Расширяет интерфейс ILayoutSlideCollection методами добавления/вставки/удаления/клонирования слайдов макета в контексте отдельных коллекций слайдов макета мастера.
 type: docs
 weight: 5820
 url: /ru/net/aspose.slides/imasterlayoutslidecollection/
 ---
 ## IMasterLayoutSlideCollection interface
 
-Представляет коллекцию всех слайдов макета определенного мастер-слайда. Расширяет интерфейс ILayoutSlideCollection методами добавления/вставки/удаления/клонирования слайдов макета в контексте отдельных коллекций слайдов мастер-макета.
+Представляет коллекции всех слайдов макета определенного мастер-слайда. Расширяет интерфейс ILayoutSlideCollection методами добавления/вставки/удаления/клонирования слайдов макета в контексте отдельных коллекций слайдов макета мастера.
 
 ```csharp
 public interface IMasterLayoutSlideCollection : ILayoutSlideCollection
@@ -18,16 +18,16 @@ public interface IMasterLayoutSlideCollection : ILayoutSlideCollection
 
 | Имя | Описание |
 | --- | --- |
-| [AsILayoutSlideCollection](../../aspose.slides/imasterlayoutslidecollection/asilayoutslidecollection) { get; } | Возвращает интерфейс ILayoutSlideCollection. Только для чтения[`ILayoutSlideCollection`](../ilayoutslidecollection). |
+| [AsILayoutSlideCollection](../../aspose.slides/imasterlayoutslidecollection/asilayoutslidecollection) { get; } | Возвращает интерфейс ILayoutSlideCollection. Только для чтения[`ILayoutSlideCollection`](../ilayoutslidecollection) . |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [Add](../../aspose.slides/imasterlayoutslidecollection/add)(SlideLayoutType, string) | Добавляет новый макет слайда в конец коллекции. |
+| [Add](../../aspose.slides/imasterlayoutslidecollection/add)(SlideLayoutType, string) | Добавляет новый слайд макета в конец коллекции. |
 | [AddClone](../../aspose.slides/imasterlayoutslidecollection/addclone)(ILayoutSlide) | Добавляет копию указанного макета слайда в конец коллекции. |
-| [Insert](../../aspose.slides/imasterlayoutslidecollection/insert)(int, SlideLayoutType, string) | Вставляет новый макет слайда в указанную позицию коллекции. |
-| [InsertClone](../../aspose.slides/imasterlayoutslidecollection/insertclone)(int, ILayoutSlide) | Вставляет копию указанного слайда макета в указанную позицию коллекции. |
+| [Insert](../../aspose.slides/imasterlayoutslidecollection/insert)(int, SlideLayoutType, string) | Вставляет новый слайд макета в указанную позицию коллекции. |
+| [InsertClone](../../aspose.slides/imasterlayoutslidecollection/insertclone)(int, ILayoutSlide) | Вставляет копию указанного макета слайда в указанную позицию коллекции. |
 | [RemoveAt](../../aspose.slides/imasterlayoutslidecollection/removeat)(int) | Удаляет элемент по указанному индексу коллекции. |
 | [Reorder](../../aspose.slides/imasterlayoutslidecollection/reorder)(int, ILayoutSlide) | Перемещает слайд макета из коллекции в указанную позицию. |
 

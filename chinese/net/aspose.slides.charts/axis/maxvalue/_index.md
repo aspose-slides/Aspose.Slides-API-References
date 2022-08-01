@@ -1,14 +1,14 @@
 ---
 title: MaxValue
 second_title: Aspose.Slides for .NET API 参考
-description: 表示数值轴上的最大值 读/写Double
+description: 表示数值轴上的最大值 读/写Double.
 type: docs
 weight: 380
 url: /zh/net/aspose.slides.charts/axis/maxvalue/
 ---
 ## Axis.MaxValue property
 
-表示数值轴上的最大值。 读/写Double。
+表示数值轴上的最大值。 读/写Double.
 
 ```csharp
 public double MaxValue { get; set; }

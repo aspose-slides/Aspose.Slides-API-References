@@ -1,14 +1,14 @@
 ---
 title: ReturnAction
 second_title: Aspose.Slides for .NET API 参考
-description: 表示警告回调决策选项
+description: 代表警告回调决策选项
 type: docs
 weight: 11010
 url: /zh/net/aspose.slides.warnings/returnaction/
 ---
 ## ReturnAction enumeration
 
-表示警告回调决策选项。
+代表警告回调决策选项。
 
 ```csharp
 public enum ReturnAction
@@ -19,7 +19,7 @@ public enum ReturnAction
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | Continue | `0` | 应继续操作。 |
-| Abort | `1` | 操作应该被中止。 |
+| Abort | `1` | 操作应中止。 |
 
 ### 也可以看看
 

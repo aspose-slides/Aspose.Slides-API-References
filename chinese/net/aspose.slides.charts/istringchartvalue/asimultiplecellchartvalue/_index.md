@@ -1,14 +1,14 @@
 ---
 title: AsIMultipleCellChartValue
 second_title: Aspose.Slides for .NET API 参考
-description: 允许获取基本的 IMultipleCellChartValue 接口 只读IMultipleCellChartValueaspose.slides.charts/imultiplecellchartvalue
+description: 允许获取基本 IMultipleCellChartValue 接口 只读IMultipleCellChartValueaspose.slides.charts/imultiplecellchartvalue.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides.charts/istringchartvalue/asimultiplecellchartvalue/
 ---
 ## IStringChartValue.AsIMultipleCellChartValue property
 
-允许获取基本的 IMultipleCellChartValue 接口。 只读[`IMultipleCellChartValue`](../../imultiplecellchartvalue)。
+允许获取基本 IMultipleCellChartValue 接口。 只读[`IMultipleCellChartValue`](../../imultiplecellchartvalue).
 
 ```csharp
 public IMultipleCellChartValue AsIMultipleCellChartValue { get; }

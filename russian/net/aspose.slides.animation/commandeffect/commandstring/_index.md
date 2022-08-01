@@ -1,14 +1,14 @@
 ---
 title: CommandString
 second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет командную строку. Чтение/записьString.
+description: Определяет командную строку. Чтение/записьString .
 type: docs
 weight: 20
 url: /ru/net/aspose.slides.animation/commandeffect/commandstring/
 ---
 ## CommandEffect.CommandString property
 
-Определяет командную строку. Чтение/записьString.
+Определяет командную строку. Чтение/записьString .
 
 ```csharp
 public string CommandString { get; set; }

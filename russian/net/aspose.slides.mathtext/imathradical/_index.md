@@ -1,14 +1,14 @@
 ---
 title: IMathRadical
 second_title: Справочник по API Aspose.Slides для .NET
-description: Задает радикальную функцию состоящую из основания и необязательной степени. Примером радикального объекта является .
+description: Указывает радикальную функцию состоящую из основания и необязательной степени. Пример радикального объекта .
 type: docs
 weight: 7710
 url: /ru/net/aspose.slides.mathtext/imathradical/
 ---
 ## IMathRadical interface
 
-Задает радикальную функцию, состоящую из основания и необязательной степени. Примером радикального объекта является √𝑥.
+Указывает радикальную функцию, состоящую из основания и необязательной степени. Пример радикального объекта: √𝑥.
 
 ```csharp
 public interface IMathRadical : IMathElement
@@ -21,7 +21,7 @@ public interface IMathRadical : IMathElement
 | [AsIMathElement](../../aspose.slides.mathtext/imathradical/asimathelement) { get; } | Позволяет получить базовый интерфейс IMathElement [`IMathElement`](../imathelement) |
 | [Base](../../aspose.slides.mathtext/imathradical/base) { get; } | Базовый аргумент |
 | [Degree](../../aspose.slides.mathtext/imathradical/degree) { get; } | Аргумент степени |
-| [HideDegree](../../aspose.slides.mathtext/imathradical/hidedegree) { get; set; } | Скрыть степень Когда истинно, степень не отображается, как в √𝑥 |
+| [HideDegree](../../aspose.slides.mathtext/imathradical/hidedegree) { get; set; } | Скрыть степень Когда установлено значение true, степень не отображается, как в √𝑥 |
 
 ### Примеры
 
@@ -29,7 +29,7 @@ public interface IMathRadical : IMathElement
 
 ```csharp
 [C#]
-IMathRadical radical = new MathematicalText("x").Radical("3");  // куб root
+IMathRadical radical = new MathematicalText("x").Radical("3"); // кубический корень
 ```
 
 ### Смотрите также

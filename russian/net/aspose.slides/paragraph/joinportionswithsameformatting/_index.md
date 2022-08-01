@@ -1,14 +1,14 @@
 ---
 title: JoinPortionsWithSameFormatting
 second_title: Справочник по API Aspose.Slides для .NET
-description: Соединения выполняются с одинаковым форматированием.
+description: Объединяет запуски с одинаковым форматированием.
 type: docs
 weight: 70
 url: /ru/net/aspose.slides/paragraph/joinportionswithsameformatting/
 ---
 ## Paragraph.JoinPortionsWithSameFormatting method
 
-Соединения выполняются с одинаковым форматированием.
+Объединяет запуски с одинаковым форматированием.
 
 ```csharp
 public void JoinPortionsWithSameFormatting()

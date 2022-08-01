@@ -1,14 +1,14 @@
 ---
 title: Object
 second_title: Aspose.Slides for .NET API 参考
-description: 返回模型对象 只读TObject
+description: 返回模型对象 只读TObject.
 type: docs
 weight: 30
 url: /zh/net/aspose.slides.export.web/templatecontext-1/object/
 ---
 ## TemplateContext&lt;TObject&gt;.Object property
 
-返回模型对象。 只读!:TObject。
+返回模型对象。 只读!:TObject.
 
 ```csharp
 public TObject Object { get; }

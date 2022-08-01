@@ -1,14 +1,14 @@
 ---
 title: Paragraphs
 second_title: Aspose.Slides for .NET API 参考
-description: 返回框架中所有段落的列表 只读IParagraphCollectionaspose.slides/iparagraphcollection
+description: 返回一个框架中所有段落的列表 只读IParagraphCollectionaspose.slides/iparagraphcollection.
 type: docs
 weight: 30
 url: /zh/net/aspose.slides/itextframe/paragraphs/
 ---
 ## ITextFrame.Paragraphs property
 
-返回框架中所有段落的列表。 只读[`IParagraphCollection`](../../iparagraphcollection)。
+返回一个框架中所有段落的列表。 只读[`IParagraphCollection`](../../iparagraphcollection).
 
 ```csharp
 public IParagraphCollection Paragraphs { get; }

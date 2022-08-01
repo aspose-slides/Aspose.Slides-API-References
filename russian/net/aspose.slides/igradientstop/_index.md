@@ -18,8 +18,8 @@ public interface IGradientStop
 
 | Имя | Описание |
 | --- | --- |
-| [Color](../../aspose.slides/igradientstop/color) { get; } | Возвращает цвет точки градиента. Только для чтения[`IColorFormat`](../icolorformat). |
-| [Position](../../aspose.slides/igradientstop/position) { get; set; } | Возвращает или задает положение (0..1) точки градиента. Чтение/записьSingle. |
+| [Color](../../aspose.slides/igradientstop/color) { get; } | Возвращает цвет точки градиента. Только для чтения[`IColorFormat`](../icolorformat) . |
+| [Position](../../aspose.slides/igradientstop/position) { get; set; } | Возвращает или задает положение (0..1) остановки градиента. Чтение/записьSingle . |
 
 ### Смотрите также
 

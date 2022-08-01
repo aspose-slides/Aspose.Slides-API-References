@@ -1,14 +1,14 @@
 ---
 title: Add
 second_title: Aspose.Slides for .NET API 参考
-description: 向集合添加新标签
+description: 将新标签添加到集合中
 type: docs
 weight: 20
 url: /zh/net/aspose.slides/itagcollection/add/
 ---
 ## ITagCollection.Add method
 
-向集合添加新标签。
+将新标签添加到集合中。
 
 ```csharp
 public int Add(string name, string value)
@@ -17,7 +17,7 @@ public int Add(string name, string value)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | name | String | 标签的名称。 |
-| value | String | 标签的值。 |
+| value | String | 标记的值。 |
 
 ### 返回值
 

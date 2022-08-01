@@ -1,14 +1,14 @@
 ---
 title: VideoPlayerHtmlController
 second_title: Aspose.Slides for .NET API 参考
-description: 创建控制器的新实例
+description: 创建一个新的控制器实例
 type: docs
 weight: 10
 url: /zh/net/aspose.slides.export/videoplayerhtmlcontroller/videoplayerhtmlcontroller/
 ---
 ## VideoPlayerHtmlController constructor
 
-创建控制器的新实例
+创建一个新的控制器实例
 
 ```csharp
 public VideoPlayerHtmlController(string path, string fileName, string baseUri)
@@ -16,9 +16,9 @@ public VideoPlayerHtmlController(string path, string fileName, string baseUri)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| path | String | 视频所在的路径会生成音频文件 |
+| path | String | 将生成视频和音频文件的路径 |
 | fileName | String | HTML 文件的名称 |
-| baseUri | String | 基础URI 将用于生成 |
+| baseUri | String | 将用于生成链接的基本 URI |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Slides for .NET API 参考
-description: 获取指定索引处的字体名称 只读IFontFallBackRuleaspose.slides/ifontfallbackrule
+description: 获取指定索引处的字体名称 只读IFontFallBackRuleaspose.slides/ifontfallbackrule.
 type: docs
 weight: 30
 url: /zh/net/aspose.slides/fontfallbackrule/item/
 ---
 ## FontFallBackRule indexer
 
-获取指定索引处的字体名称。 只读[`IFontFallBackRule`](../../ifontfallbackrule)。
+获取指定索引处的字体名称。 只读[`IFontFallBackRule`](../../ifontfallbackrule).
 
 ```csharp
 public string this[int index] { get; }

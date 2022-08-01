@@ -1,14 +1,14 @@
 ---
 title: FillOn
 second_title: Aspose.Slides for .NET API 参考
-description: 表示 fill.on 属性
+description: 表示fill.on 属性
 type: docs
 weight: 360
 url: /zh/net/aspose.slides.animation/behaviorproperty/fillon/
 ---
 ## BehaviorProperty.FillOn property
 
-表示 'fill.on' 属性
+表示'fill.on' 属性
 
 ```csharp
 public static BehaviorProperty FillOn { get; }

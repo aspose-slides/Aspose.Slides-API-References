@@ -1,14 +1,14 @@
 ---
 title: LayoutSlide
 second_title: Справочник по API Aspose.Slides для .NET
-description: Итерировать каждыйLayoutSlideaspose.slides.lowcode/foreach/layoutslideвPresentationaspose.slides/presentation.
+description: Итерировать каждыйLayoutSlideaspose.slides.lowcode/foreach/layoutslide вPresentationaspose.slides/presentation .
 type: docs
 weight: 10
 url: /ru/net/aspose.slides.lowcode/foreach/layoutslide/
 ---
 ## ForEach.LayoutSlide method
 
-Итерировать каждый`LayoutSlide`в[`Presentation`](../../../aspose.slides/presentation).
+Итерировать каждый`LayoutSlide` в[`Presentation`](../../../aspose.slides/presentation) .
 
 ```csharp
 public static void LayoutSlide(Presentation pres, ForEachLayoutSlideCallback forEachLayoutSlide)

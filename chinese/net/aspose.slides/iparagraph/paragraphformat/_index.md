@@ -1,14 +1,14 @@
 ---
 title: ParagraphFormat
 second_title: Aspose.Slides for .NET API 参考
-description: 返回此段落的格式化对象 只读IParagraphFormataspose.slides/iparagraphformat
+description: 返回此段落的格式化对象 只读IParagraphFormataspose.slides/iparagraphformat.
 type: docs
 weight: 30
 url: /zh/net/aspose.slides/iparagraph/paragraphformat/
 ---
 ## IParagraph.ParagraphFormat property
 
-返回此段落的格式化对象。 只读[`IParagraphFormat`](../../iparagraphformat)。
+返回此段落的格式化对象。 只读[`IParagraphFormat`](../../iparagraphformat).
 
 ```csharp
 public IParagraphFormat ParagraphFormat { get; }

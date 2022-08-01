@@ -18,7 +18,7 @@ public void AddTemplate(string key, string template, Type modelType)
 | --- | --- | --- |
 | key | String | 模板集合中模板的键。 |
 | template | String | 模板内容。 |
-| modelType | Type | 模板的模型对象类型。 |
+| modelType | Type | 模板的模型对象的类型。 |
 
 ### 也可以看看
 

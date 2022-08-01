@@ -18,8 +18,8 @@ public abstract class BaseChartValue : IBaseChartValue
 
 | 姓名 | 描述 |
 | --- | --- |
-| abstract [Data](../../aspose.slides.charts/basechartvalue/data) { get; set; } | 数据。 读/写Object。 |
-| [DataSourceType](../../aspose.slides.charts/basechartvalue/datasourcetype) { get; set; } | 指定 AsCell、AsCells、AsLiteralString 或 AsLiteralDouble 属性是否在后代中是实际的。换句话说，它指定了 Data 属性值的类型 。 读/写[`DataSourceType`](../datasourcetype)。 |
+| abstract [Data](../../aspose.slides.charts/basechartvalue/data) { get; set; } | 数据. 读/写Object. |
+| [DataSourceType](../../aspose.slides.charts/basechartvalue/datasourcetype) { get; set; } | 指定 AsCell、AsCells、AsLiteralString 或 AsLiteralDouble 属性是否在后代中是实际的。换句话说，它指定了数据属性值的类型 。 读/写[`DataSourceType`](../datasourcetype). |
 
 ### 也可以看看
 

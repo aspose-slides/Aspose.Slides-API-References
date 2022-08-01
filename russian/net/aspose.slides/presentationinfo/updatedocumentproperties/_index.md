@@ -16,7 +16,7 @@ public void UpdateDocumentProperties(IDocumentProperties documentProperties)
 
 ### Примеры
 
-В этом примере показано, как вызывать`UpdateDocumentProperties`метод для обновления свойств документа, возвращаемых вызовом метода[`ReadDocumentProperties`](../readdocumentproperties).
+В этом примере показано, как вызвать`UpdateDocumentProperties` метод to обновить свойства документа, возвращаемые вызовом метода[`ReadDocumentProperties`](../readdocumentproperties) метод.
 
 ```csharp
 IPresentationInfo info = PresentationFactory.Instance.GetPresentationInfo("pres.pptx");

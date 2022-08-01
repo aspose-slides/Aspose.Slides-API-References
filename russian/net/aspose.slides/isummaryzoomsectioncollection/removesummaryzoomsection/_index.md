@@ -1,14 +1,14 @@
 ---
 title: RemoveSummaryZoomSection
 second_title: Справочник по API Aspose.Slides для .NET
-description: Удалить объект Сводная секция масштабирования из коллекции.
+description: Удалить объект Раздел сводного масштаба из коллекции.
 type: docs
 weight: 60
 url: /ru/net/aspose.slides/isummaryzoomsectioncollection/removesummaryzoomsection/
 ---
 ## ISummaryZoomSectionCollection.RemoveSummaryZoomSection method
 
-Удалить объект Сводная секция масштабирования из коллекции.
+Удалить объект "Раздел сводного масштаба" из коллекции.
 
 ```csharp
 public void RemoveSummaryZoomSection(ISection section)
@@ -16,7 +16,7 @@ public void RemoveSummaryZoomSection(ISection section)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| section | ISection | Раздел, для которого необходимо удалить элемент Summary Zoom Section[`ISection`](../../isection). |
+| section | ISection | Раздел, для которого необходимо удалить элемент «Сводное масштабирование раздела».[`ISection`](../../isection). |
 
 ### Примеры
 

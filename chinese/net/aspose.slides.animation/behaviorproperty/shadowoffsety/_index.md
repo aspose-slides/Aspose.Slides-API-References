@@ -1,14 +1,14 @@
 ---
 title: ShadowOffsetY
 second_title: Aspose.Slides for .NET API 参考
-description: 表示 shadow.offset.y 属性
+description: 表示shadow.offset.y 属性
 type: docs
 weight: 710
 url: /zh/net/aspose.slides.animation/behaviorproperty/shadowoffsety/
 ---
 ## BehaviorProperty.ShadowOffsetY property
 
-表示 'shadow.offset.y' 属性
+表示'shadow.offset.y' 属性
 
 ```csharp
 public static BehaviorProperty ShadowOffsetY { get; }

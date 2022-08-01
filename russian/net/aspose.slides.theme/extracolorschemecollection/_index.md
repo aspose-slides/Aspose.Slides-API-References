@@ -18,17 +18,17 @@ public class ExtraColorSchemeCollection : IExtraColorSchemeCollection
 
 | Имя | Описание |
 | --- | --- |
-| [Count](../../aspose.slides.theme/extracolorschemecollection/count) { get; } | Возвращает количество элементов коллекции. Только для чтенияInt32. |
-| [IsSynchronized](../../aspose.slides.theme/extracolorschemecollection/issynchronized) { get; } | Возвращает значение, указывающее, является ли доступ к ArrayList синхронизированным (потокобезопасным). Только чтениеBoolean. |
-| [Item](../../aspose.slides.theme/extracolorschemecollection/item) { get; } | Возвращает цветовую схему по индексу. Только для чтения[`ExtraColorScheme`](../extracolorscheme). |
-| [SyncRoot](../../aspose.slides.theme/extracolorschemecollection/syncroot) { get; } | Возвращает объект, который можно использовать для синхронизации доступа к коллекции. Только для чтенияObject. |
+| [Count](../../aspose.slides.theme/extracolorschemecollection/count) { get; } | Возвращает количество элементов коллекции. Только для чтенияInt32 . |
+| [IsSynchronized](../../aspose.slides.theme/extracolorschemecollection/issynchronized) { get; } | Возвращает значение, указывающее, является ли доступ к ArrayList синхронизированным (потокобезопасным). Только для чтенияBoolean . |
+| [Item](../../aspose.slides.theme/extracolorschemecollection/item) { get; } | Возвращает цветовую схему по индексу. Только для чтения[`ExtraColorScheme`](../extracolorscheme) . |
+| [SyncRoot](../../aspose.slides.theme/extracolorschemecollection/syncroot) { get; } | Возвращает объект, который можно использовать для синхронизации доступа к коллекции. Только для чтенияObject . |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
 | [CopyTo](../../aspose.slides.theme/extracolorschemecollection/copyto)(Array, int) | Копирует все элементы коллекции в указанный массив. |
-| [GetEnumerator](../../aspose.slides.theme/extracolorschemecollection/getenumerator)() | Возвращает перечислитель, который перебирает коллекцию. |
+| [GetEnumerator](../../aspose.slides.theme/extracolorschemecollection/getenumerator)() | Возвращает перечислитель, который выполняет итерацию по коллекции. |
 
 ### Смотрите также
 

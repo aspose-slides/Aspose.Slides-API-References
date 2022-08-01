@@ -16,11 +16,11 @@ public IMathAccent CreateMathAccent(IMathElement element)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| element | IMathElement | 数学元素应用重音 |
+| element | IMathElement | 应用重音的数学元素 |
 
 ### 返回值
 
-新数学重音
+新的数学口音
 
 ### 也可以看看
 
@@ -42,12 +42,12 @@ public IMathAccent CreateMathAccent(IMathElement element, char accentCharacter)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| element | IMathElement | 数学元素应用重音 |
+| element | IMathElement | 应用重音的数学元素 |
 | accentCharacter | Char | 重音字符 |
 
 ### 返回值
 
-新数学重音
+新的数学口音
 
 ### 也可以看看
 

@@ -18,8 +18,8 @@ public interface ISlideComponent : IPresentationComponent
 
 | Имя | Описание |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/islidecomponent/asipresentationcomponent) { get; } | Позволяет получить базовый интерфейс IPresentationComponent. Только для чтения[`IPresentationComponent`](../ipresentationcomponent). |
-| [Slide](../../aspose.slides/islidecomponent/slide) { get; } | Возвращает базовый слайд. Только для чтения[`IBaseSlide`](../ibaseslide). |
+| [AsIPresentationComponent](../../aspose.slides/islidecomponent/asipresentationcomponent) { get; } | Позволяет получить базовый интерфейс IPresentationComponent. Только для чтения[`IPresentationComponent`](../ipresentationcomponent) . |
+| [Slide](../../aspose.slides/islidecomponent/slide) { get; } | Возвращает базовый слайд. Только для чтения[`IBaseSlide`](../ibaseslide) . |
 
 ### Смотрите также
 

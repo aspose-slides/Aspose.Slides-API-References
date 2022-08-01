@@ -1,14 +1,14 @@
 ---
 title: BlurRadius
 second_title: Aspose.Slides for .NET API 参考
-description: 模糊半径 读/写Double
+description: 模糊半径 读/写Double.
 type: docs
 weight: 30
 url: /zh/net/aspose.slides.effects/ioutershadow/blurradius/
 ---
 ## IOuterShadow.BlurRadius property
 
-模糊半径。 读/写Double。
+模糊半径。 读/写Double.
 
 ```csharp
 public double BlurRadius { get; set; }

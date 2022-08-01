@@ -1,14 +1,14 @@
 ---
 title: LineTo
 second_title: Aspose.Slides for .NET API 参考
-description: 在路径末尾添加行
+description: 将行添加到路径的末尾
 type: docs
 weight: 70
 url: /zh/net/aspose.slides/igeometrypath/lineto/
 ---
 ## LineTo(PointF) {#lineto_2}
 
-在路径末尾添加行
+将行添加到路径的末尾
 
 ```csharp
 public void LineTo(PointF point)
@@ -16,7 +16,7 @@ public void LineTo(PointF point)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| point | PointF | 终点行 |
+| point | PointF | 线的终点 |
 
 ### 也可以看看
 
@@ -28,7 +28,7 @@ public void LineTo(PointF point)
 
 ## LineTo(float, float) {#lineto}
 
-在路径末尾添加一行
+将行添加到路径的末尾
 
 ```csharp
 public void LineTo(float x, float y)
@@ -36,8 +36,8 @@ public void LineTo(float x, float y)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| x | Single | X 坐标直线终点的坐标 |
-| y | Single | 直线终点的 Y 坐标 |
+| x | Single | 直线终点的X坐标 |
+| y | Single | 直线终点的Y坐标 |
 
 ### 也可以看看
 
@@ -57,14 +57,14 @@ public void LineTo(PointF point, uint index)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| point | PointF | End点 |
-| index | UInt32 | PathData 中的段索引 |
+| point | PointF | 终点 |
+| index | UInt32 | PathData 中段的索引 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentOutOfRangeException | 段索引已出PathData 范围 |
+| ArgumentOutOfRangeException | 段索引超出 PathData 范围 |
 
 ### 也可以看看
 
@@ -84,9 +84,9 @@ public void LineTo(float x, float y, uint index)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| x | Single | X点坐标 |
-| y | Single | 点 Y 坐标 |
-| index | UInt32 | PathData 中的段索引 |
+| x | Single | 点的X坐标 |
+| y | Single | 点的Y坐标 |
+| index | UInt32 | PathData 中段的索引 |
 
 ### 例外
 

@@ -18,18 +18,18 @@ public sealed class RowCollection : DomObject<Table>, IRowCollection
 
 | Имя | Описание |
 | --- | --- |
-| [Count](../../aspose.slides/rowcollection/count) { get; } | Получает количество строк, фактически содержащихся в коллекции. Только для чтенияInt32. |
-| [IsSynchronized](../../aspose.slides/rowcollection/issynchronized) { get; } | Возвращает значение, указывающее, является ли доступ к коллекции синхронизированным (потокобезопасным). Только чтениеBoolean. |
-| [Item](../../aspose.slides/rowcollection/item) { get; } | Возвращает строку по указанному индексу. Только чтение[`Row`](../row). |
-| [SyncRoot](../../aspose.slides/rowcollection/syncroot) { get; } | Возвращает корень синхронизации. Только для чтенияObject. |
+| [Count](../../aspose.slides/rowcollection/count) { get; } | Получает количество строк, фактически содержащихся в коллекции. Только для чтенияInt32 . |
+| [IsSynchronized](../../aspose.slides/rowcollection/issynchronized) { get; } | Возвращает значение, указывающее, является ли доступ к коллекции синхронизированным (потокобезопасным). Только для чтенияBoolean . |
+| [Item](../../aspose.slides/rowcollection/item) { get; } | Возвращает строку по указанному индексу. Только для чтения[`Row`](../row) . |
+| [SyncRoot](../../aspose.slides/rowcollection/syncroot) { get; } | Возвращает корень синхронизации. Только для чтенияObject . |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [AddClone](../../aspose.slides/rowcollection/addclone)(IRow, bool) | Создает копию указанной строки шаблона и вставляет ее внизу таблицы. |
-| [CopyTo](../../aspose.slides/rowcollection/copyto)(Array, int) | Копирует все элементы из коллекции в указанный массив. |
-| [GetEnumerator](../../aspose.slides/rowcollection/getenumerator)() | Возвращает перечислитель, который перебирает коллекцию. |
+| [AddClone](../../aspose.slides/rowcollection/addclone)(IRow, bool) | Создает копию указанной строки шаблона и вставляет ее в конец таблицы. |
+| [CopyTo](../../aspose.slides/rowcollection/copyto)(Array, int) | Копирует все элементы коллекции в указанный массив. |
+| [GetEnumerator](../../aspose.slides/rowcollection/getenumerator)() | Возвращает перечислитель, который выполняет итерацию по коллекции. |
 | [InsertClone](../../aspose.slides/rowcollection/insertclone)(int, IRow, bool) | Создает копию указанной строки шаблона и вставляет ее в указанную позицию в таблице. |
 | [RemoveAt](../../aspose.slides/rowcollection/removeat)(int, bool) | Удаляет строку в указанной позиции из таблицы. |
 

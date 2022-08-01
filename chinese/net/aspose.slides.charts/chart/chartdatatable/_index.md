@@ -1,14 +1,14 @@
 ---
 title: ChartDataTable
 second_title: Aspose.Slides for .NET API 参考
-description: 返回图表的数据表 只读IDataTableaspose.slides.charts/idatatable
+description: 返回图表的数据表 只读IDataTableaspose.slides.charts/idatatable.
 type: docs
 weight: 60
 url: /zh/net/aspose.slides.charts/chart/chartdatatable/
 ---
 ## Chart.ChartDataTable property
 
-返回图表的数据表。 只读[`IDataTable`](../../idatatable)。
+返回图表的数据表。 只读[`IDataTable`](../../idatatable).
 
 ```csharp
 public IDataTable ChartDataTable { get; }

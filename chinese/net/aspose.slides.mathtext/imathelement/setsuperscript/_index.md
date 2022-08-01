@@ -16,7 +16,7 @@ public IMathSuperscriptElement SetSuperscript(IMathElement superscript)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| superscript | IMathElement | 上标（右侧上标） |
+| superscript | IMathElement | 上标（右上方的索引） |
 
 ### 返回值
 
@@ -24,7 +24,7 @@ public IMathSuperscriptElement SetSuperscript(IMathElement superscript)
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]
@@ -52,7 +52,7 @@ public IMathSuperscriptElement SetSuperscript(string superscript)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| superscript | String | 上标（右侧上标） |
+| superscript | String | 上标（右上方的索引） |
 
 ### 返回值
 
@@ -60,7 +60,7 @@ public IMathSuperscriptElement SetSuperscript(string superscript)
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]

@@ -16,7 +16,7 @@ public int CommentsAreaWidth { get; set; }
 
 ### 评论
 
-最小值和默认值为 **150** 。
+最小值和默认值是 **150**.
 
 ### 也可以看看
 

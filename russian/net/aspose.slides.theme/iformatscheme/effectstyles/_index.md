@@ -1,14 +1,14 @@
 ---
 title: EffectStyles
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает набор стилей эффектов определенных темой. Только для чтенияIEffectStyleCollectionaspose.slides.theme/ieffectstylecollection.
+description: Возвращает набор стилей эффектов определенных темой. Только для чтенияIEffectStyleCollectionaspose.slides.theme/ieffectstylecollection .
 type: docs
 weight: 30
 url: /ru/net/aspose.slides.theme/iformatscheme/effectstyles/
 ---
 ## IFormatScheme.EffectStyles property
 
-Возвращает набор стилей эффектов, определенных темой. Только для чтения[`IEffectStyleCollection`](../../ieffectstylecollection).
+Возвращает набор стилей эффектов, определенных темой. Только для чтения[`IEffectStyleCollection`](../../ieffectstylecollection) .
 
 ```csharp
 public IEffectStyleCollection EffectStyles { get; }

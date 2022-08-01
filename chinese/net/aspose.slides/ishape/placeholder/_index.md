@@ -1,14 +1,14 @@
 ---
 title: Placeholder
 second_title: Aspose.Slides for .NET API 参考
-description: 返回形状的占位符 只读IPlaceholderaspose.slides/iplaceholder
+description: 返回形状的占位符 只读IPlaceholderaspose.slides/iplaceholder.
 type: docs
 weight: 190
 url: /zh/net/aspose.slides/ishape/placeholder/
 ---
 ## IShape.Placeholder property
 
-返回形状的占位符。 只读[`IPlaceholder`](../../iplaceholder)。
+返回形状的占位符。 只读[`IPlaceholder`](../../iplaceholder).
 
 ```csharp
 public IPlaceholder Placeholder { get; }

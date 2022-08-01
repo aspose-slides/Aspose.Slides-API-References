@@ -24,9 +24,9 @@ public sealed class Tab : PVIObject, ITab
 
 | Имя | Описание |
 | --- | --- |
-| [Alignment](../../aspose.slides/tab/alignment) { get; set; } | Возвращает или задает стиль выравнивания вкладки. Чтение/запись[`TabAlignment`](../tabalignment). |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Позволяет получить базовый интерфейс IPresentationComponent. Только для чтения[`IPresentationComponent`](../ipresentationcomponent). |
-| [Position](../../aspose.slides/tab/position) { get; set; } | Возвращает или устанавливает позицию вкладки. Назначение этого свойства может изменить индекс вкладки в коллекции и сделать Enumerator недействительным. Чтение/записьDouble. |
+| [Alignment](../../aspose.slides/tab/alignment) { get; set; } | Возвращает или задает стиль выравнивания вкладки. Чтение/запись[`TabAlignment`](../tabalignment) . |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Позволяет получить базовый интерфейс IPresentationComponent. Только для чтения[`IPresentationComponent`](../ipresentationcomponent) . |
+| [Position](../../aspose.slides/tab/position) { get; set; } | Возвращает или задает положение вкладки. Назначение этого свойства может изменить индекс вкладки в коллекции и аннулировать Enumerator. Чтение/записьDouble . |
 
 ## Методы
 

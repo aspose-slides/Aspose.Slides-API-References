@@ -20,7 +20,7 @@ public IImageWrapper CreateImageWrapper(Image image)
 
 ### 返回值
 
-[`IImageWrapper`](../../iimagewrapper)
+的新实例[`IImageWrapper`](../../iimagewrapper)
 
 ### 也可以看看
 
@@ -45,7 +45,7 @@ public IImageWrapper CreateImageWrapper(Stream stream)
 
 ### 返回值
 
-[`IImageWrapper`](../../iimagewrapper)
+的新实例[`IImageWrapper`](../../iimagewrapper)
 
 ### 也可以看看
 
@@ -70,7 +70,7 @@ public IImageWrapper CreateImageWrapper(string fileName)
 
 ### 返回值
 
-[`IImageWrapper`](../../iimagewrapper)
+的新实例[`IImageWrapper`](../../iimagewrapper)
 
 ### 也可以看看
 

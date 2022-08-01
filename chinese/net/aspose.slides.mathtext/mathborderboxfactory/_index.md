@@ -24,12 +24,12 @@ public class MathBorderBoxFactory : IMathBorderBoxFactory
 
 | 姓名 | 描述 |
 | --- | --- |
-| [CreateMathBorderBox](../../aspose.slides.mathtext/mathborderboxfactory/createmathborderbox#createmathborderbox)(IMathElement) | 通过应用于元素 |
-| [CreateMathBorderBox](../../aspose.slides.mathtext/mathborderboxfactory/createmathborderbox#createmathborderbox_1)(IMathElement, bool, bool, bool, bool, bool, bool, bool, bool) | 通过应用于元素 |
+| [CreateMathBorderBox](../../aspose.slides.mathtext/mathborderboxfactory/createmathborderbox#createmathborderbox)(IMathElement) | 通过应用于 element 创建一个数学边界框 |
+| [CreateMathBorderBox](../../aspose.slides.mathtext/mathborderboxfactory/createmathborderbox#createmathborderbox_1)(IMathElement, bool, bool, bool, bool, bool, bool, bool, bool) | 通过应用于 element 创建一个数学边界框 |
 
 ### 评论
 
-用于 COM 比较
+用于 COM 可比性
 
 ### 也可以看看
 

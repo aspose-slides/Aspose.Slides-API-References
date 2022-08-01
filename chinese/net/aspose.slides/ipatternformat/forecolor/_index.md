@@ -1,14 +1,14 @@
 ---
 title: ForeColor
 second_title: Aspose.Slides for .NET API 参考
-description: 返回前景图案颜色 只读IColorFormataspose.slides/icolorformat
+description: 返回前景图案颜色 只读IColorFormataspose.slides/icolorformat.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides/ipatternformat/forecolor/
 ---
 ## IPatternFormat.ForeColor property
 
-返回前景图案颜色。 只读[`IColorFormat`](../../icolorformat)。
+返回前景图案颜色。 只读[`IColorFormat`](../../icolorformat).
 
 ```csharp
 public IColorFormat ForeColor { get; }

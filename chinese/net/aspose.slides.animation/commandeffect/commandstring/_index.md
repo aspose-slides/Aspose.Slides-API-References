@@ -1,14 +1,14 @@
 ---
 title: CommandString
 second_title: Aspose.Slides for .NET API 参考
-description: 定义命令字符串 读/写String
+description: 定义命令字符串 读/写String.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides.animation/commandeffect/commandstring/
 ---
 ## CommandEffect.CommandString property
 
-定义命令字符串。 读/写String。
+定义命令字符串。 读/写String.
 
 ```csharp
 public string CommandString { get; set; }

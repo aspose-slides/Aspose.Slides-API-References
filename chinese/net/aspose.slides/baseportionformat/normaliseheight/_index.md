@@ -1,14 +1,14 @@
 ---
 title: NormaliseHeight
 second_title: Aspose.Slides for .NET API 参考
-description: 确定文本的高度是否应该标准化未应用继承 读/写NullableBoolaspose.slides/nullablebool
+description: 确定是否应标准化文本的高度未应用继承 读/写NullableBoolaspose.slides/nullablebool.
 type: docs
 weight: 190
 url: /zh/net/aspose.slides/baseportionformat/normaliseheight/
 ---
 ## BasePortionFormat.NormaliseHeight property
 
-确定文本的高度是否应该标准化。未应用继承。 读/写[`NullableBool`](../../nullablebool)。
+确定是否应标准化文本的高度。未应用继承。 读/写[`NullableBool`](../../nullablebool).
 
 ```csharp
 public NullableBool NormaliseHeight { get; set; }

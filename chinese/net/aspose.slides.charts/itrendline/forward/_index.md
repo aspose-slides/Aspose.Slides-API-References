@@ -1,14 +1,14 @@
 ---
 title: Forward
 second_title: Aspose.Slides for .NET API 参考
-description: 指定趋势线在被趋势化的系列的 数据之后延伸的类别数或散点图上的单位在散点图和非散点图上该值应为任何非负 值 读/写Double
+description: 指定趋势线在正被趋势化的系列的 数据之后延伸的类别数或散点图上的单位在散点图和非散点图上该值应为任何 non-negative 值 读/写Double.
 type: docs
 weight: 60
 url: /zh/net/aspose.slides.charts/itrendline/forward/
 ---
 ## ITrendline.Forward property
 
-指定趋势线在被趋势化的系列的 数据之后延伸的类别数（或散点图上的单位）。在散点图和非散点图上，该值应为任何非负 值。 读/写Double。
+指定趋势线在正被趋势化的系列的 数据之后延伸的类别数（或散点图上的单位）。在散点图和非散点图上，该值应为任何 non-negative 值。 读/写Double.
 
 ```csharp
 public double Forward { get; set; }

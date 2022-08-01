@@ -1,14 +1,14 @@
 ---
 title: MarginLeft
 second_title: Aspose.Slides for .NET API 参考
-description: 返回段落的左边距 只读Single
+description: 返回段落的左边距 只读Single.
 type: docs
 weight: 110
 url: /zh/net/aspose.slides/iparagraphformateffectivedata/marginleft/
 ---
 ## IParagraphFormatEffectiveData.MarginLeft property
 
-返回段落的左边距。 只读Single。
+返回段落的左边距。 只读Single.
 
 ```csharp
 public float MarginLeft { get; }

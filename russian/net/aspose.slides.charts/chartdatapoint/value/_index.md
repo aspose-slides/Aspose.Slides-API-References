@@ -1,14 +1,14 @@
 ---
 title: Value
 second_title: Справочник по API Aspose.Slides для .NET
-description: Значение. Только для чтенияIDoubleChartValueaspose.slides.charts/idoublechartvalue.
+description: Значение. Только для чтенияIDoubleChartValueaspose.slides.charts/idoublechartvalue .
 type: docs
 weight: 180
 url: /ru/net/aspose.slides.charts/chartdatapoint/value/
 ---
 ## ChartDataPoint.Value property
 
-Значение. Только для чтения[`IDoubleChartValue`](../../idoublechartvalue).
+Значение. Только для чтения[`IDoubleChartValue`](../../idoublechartvalue) .
 
 ```csharp
 public IDoubleChartValue Value { get; }

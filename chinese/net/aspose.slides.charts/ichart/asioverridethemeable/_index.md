@@ -1,14 +1,14 @@
 ---
 title: AsIOverrideThemeable
 second_title: Aspose.Slides for .NET API 参考
-description: 返回 IOverrideThemeable 接口 只读IOverrideThemeableaspose.slides.theme/ioverridethemeable
+description: 返回 IOverrideThemeable 接口 只读IOverrideThemeableaspose.slides.theme/ioverridethemeable.
 type: docs
 weight: 30
 url: /zh/net/aspose.slides.charts/ichart/asioverridethemeable/
 ---
 ## IChart.AsIOverrideThemeable property
 
-返回 IOverrideThemeable 接口。 只读[`IOverrideThemeable`](../../../aspose.slides.theme/ioverridethemeable)。
+返回 IOverrideThemeable 接口。 只读[`IOverrideThemeable`](../../../aspose.slides.theme/ioverridethemeable).
 
 ```csharp
 public IOverrideThemeable AsIOverrideThemeable { get; }

@@ -18,11 +18,11 @@ public interface IInnerShadowEffectiveData : IEffectEffectiveData
 
 | Имя | Описание |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/iinnershadoweffectivedata/asieffecteffectivedata) { get; } | Позволяет получить базовый интерфейс IEffectEffectiveData. Только для чтения[`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [BlurRadius](../../aspose.slides.effects/iinnershadoweffectivedata/blurradius) { get; } | Радиус размытия. Только для чтенияDouble. |
-| [Direction](../../aspose.slides.effects/iinnershadoweffectivedata/direction) { get; } | Направление тени. Только для чтенияSingle. |
-| [Distance](../../aspose.slides.effects/iinnershadoweffectivedata/distance) { get; } | Расстояние тени. Только для чтенияDouble. |
-| [ShadowColor](../../aspose.slides.effects/iinnershadoweffectivedata/shadowcolor) { get; } | Цвет тени. Только для чтенияColor. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/iinnershadoweffectivedata/asieffecteffectivedata) { get; } | Позволяет получить базовый интерфейс IEffectEffectiveData. Только для чтения[`IEffectEffectiveData`](../ieffecteffectivedata) . |
+| [BlurRadius](../../aspose.slides.effects/iinnershadoweffectivedata/blurradius) { get; } | Радиус размытия. Только для чтенияDouble . |
+| [Direction](../../aspose.slides.effects/iinnershadoweffectivedata/direction) { get; } | Направление тени. Только для чтенияSingle . |
+| [Distance](../../aspose.slides.effects/iinnershadoweffectivedata/distance) { get; } | Расстояние тени. Только для чтенияDouble . |
+| [ShadowColor](../../aspose.slides.effects/iinnershadoweffectivedata/shadowcolor) { get; } | Цвет тени. Только для чтенияColor . |
 
 ### Смотрите также
 

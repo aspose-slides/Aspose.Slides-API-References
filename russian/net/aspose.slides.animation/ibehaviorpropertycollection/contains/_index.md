@@ -1,14 +1,14 @@
 ---
 title: Contains
 second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет содержит лиICollectionопределенное значение.
+description: ОпределяетICollection содержит определенное значение.
 type: docs
 weight: 30
 url: /ru/net/aspose.slides.animation/ibehaviorpropertycollection/contains/
 ---
 ## IBehaviorPropertyCollection.Contains method
 
-Определяет, содержит лиICollectionопределенное значение.
+Определяет,ICollection содержит определенное значение.
 
 ```csharp
 public bool Contains(string propertyValue)
@@ -16,11 +16,11 @@ public bool Contains(string propertyValue)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| propertyValue | String | Значение свойства, которое нужно найти вICollection. |
+| propertyValue | String | Стоимость имущества для размещения вICollection. |
 
 ### Возвращаемое значение
 
-true, если*propertyValue*находится вICollection; в противном случае ложно.
+верно, если*propertyValue* находится вICollection ; в противном случае false.
 
 ### Смотрите также
 

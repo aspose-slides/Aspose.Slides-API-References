@@ -16,7 +16,7 @@ public void RemoveUnused(bool ignorePreserveField)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| ignorePreserveField | Boolean | Определяет, должен ли этот метод удалять неиспользуемый мастер, даже если егоСвойствоPreserveимеет значение true. |
+| ignorePreserveField | Boolean | Определяет, должен ли этот метод удалять неиспользуемый мастер, даже если его[`Preserve`](../../masterslide/preserve) свойство имеет значение true. |
 
 ### Смотрите также
 

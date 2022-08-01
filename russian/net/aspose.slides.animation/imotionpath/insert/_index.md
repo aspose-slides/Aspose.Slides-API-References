@@ -1,14 +1,14 @@
 ---
 title: Insert
 second_title: Справочник по API Aspose.Slides для .NET
-description: Вставить новую команду в путь
+description: Вставить новую команду в path
 type: docs
 weight: 60
 url: /ru/net/aspose.slides.animation/imotionpath/insert/
 ---
 ## IMotionPath.Insert method
 
-Вставить новую команду в путь
+Вставить новую команду в path
 
 ```csharp
 public void Insert(int index, MotionCommandPathType type, PointF[] pts, 
@@ -18,9 +18,9 @@ public void Insert(int index, MotionCommandPathType type, PointF[] pts,
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | index | Int32 | Индекс для вставки командыInt32 |
-| type | MotionCommandPathType | Тип команды для анимации поведения эффекта движения[`MotionCommandPathType`](../../motioncommandpathtype) |
+| type | MotionCommandPathType | Тип команды для поведения эффекта движения анимации[`MotionCommandPathType`](../../motioncommandpathtype) |
 | pts | PointF[] | Массив точекPointF[] |
-| ptsType | MotionPathPointsType | Тип точек в пути движения анимации[`MotionPathPointsType`](../../motionpathpointstype) |
+| ptsType | MotionPathPointsType | Тип точек на пути движения анимации[`MotionPathPointsType`](../../motionpathpointstype) |
 | bRelativeCoord | Boolean | Указывает, использовать ли относительные координаты или нетBoolean |
 
 ### Смотрите также

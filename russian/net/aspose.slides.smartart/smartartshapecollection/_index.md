@@ -18,17 +18,17 @@ public class SmartArtShapeCollection : ISmartArtShapeCollection
 
 | Имя | Описание |
 | --- | --- |
-| [Count](../../aspose.slides.smartart/smartartshapecollection/count) { get; } | Получает количество элементов, фактически содержащихся в коллекции. Только для чтенияInt32. |
-| [IsSynchronized](../../aspose.slides.smartart/smartartshapecollection/issynchronized) { get; } | Возвращает значение, указывающее, является ли доступ к коллекции синхронизированным (потокобезопасным). Только чтениеBoolean. |
-| [Item](../../aspose.slides.smartart/smartartshapecollection/item) { get; } | Получает элемент по указанному индексу. Только для чтения[`SmartArtShape`](../smartartshape).&gt;. |
-| [SyncRoot](../../aspose.slides.smartart/smartartshapecollection/syncroot) { get; } | Возвращает корень синхронизации. Только для чтенияObject. |
+| [Count](../../aspose.slides.smartart/smartartshapecollection/count) { get; } | Получает количество элементов, фактически содержащихся в коллекции. Только для чтенияInt32 . |
+| [IsSynchronized](../../aspose.slides.smartart/smartartshapecollection/issynchronized) { get; } | Возвращает значение, указывающее, является ли доступ к коллекции синхронизированным (потокобезопасным). Только для чтенияBoolean . |
+| [Item](../../aspose.slides.smartart/smartartshapecollection/item) { get; } | Получает элемент по указанному индексу. Только для чтения[`SmartArtShape`](../smartartshape) .&gt;. |
+| [SyncRoot](../../aspose.slides.smartart/smartartshapecollection/syncroot) { get; } | Возвращает корень синхронизации. Только для чтенияObject . |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [CopyTo](../../aspose.slides.smartart/smartartshapecollection/copyto)(Array, int) | Копирует все элементы из коллекции в указанный массив. |
-| [GetEnumerator](../../aspose.slides.smartart/smartartshapecollection/getenumerator)() | Возвращает перечислитель, который перебирает коллекцию. |
+| [CopyTo](../../aspose.slides.smartart/smartartshapecollection/copyto)(Array, int) | Копирует все элементы коллекции в указанный массив. |
+| [GetEnumerator](../../aspose.slides.smartart/smartartshapecollection/getenumerator)() | Возвращает перечислитель, который выполняет итерацию по коллекции. |
 
 ### Смотрите также
 

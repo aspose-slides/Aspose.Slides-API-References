@@ -1,14 +1,14 @@
 ---
 title: DigitalSignatures
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает набор подписей использованных для подписания презентации. Только для чтенияIDigitalSignatureCollectionaspose.slides/idigitalsignaturecollection.
+description: Возвращает набор подписей использованных для подписания презентации. Только для чтенияIDigitalSignatureCollectionaspose.slides/idigitalsignaturecollection .
 type: docs
 weight: 90
 url: /ru/net/aspose.slides/ipresentation/digitalsignatures/
 ---
 ## IPresentation.DigitalSignatures property
 
-Возвращает набор подписей, использованных для подписания презентации. Только для чтения[`IDigitalSignatureCollection`](../../idigitalsignaturecollection).
+Возвращает набор подписей, использованных для подписания презентации. Только для чтения[`IDigitalSignatureCollection`](../../idigitalsignaturecollection) .
 
 ```csharp
 public IDigitalSignatureCollection DigitalSignatures { get; }

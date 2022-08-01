@@ -1,14 +1,14 @@
 ---
 title: SetHeaderAndChildHeadersText
 second_title: Aspose.Slides for .NET API 参考
-description: 将文本设置为主注释幻灯片标题占位符和所有子标题占位符 子占位符意味着占位符包含在依赖注释幻灯片中 依赖于笔记幻灯片使用并依赖于主笔记幻灯片
+description: 将文本设置为主注释幻灯片标题占位符和所有子标题占位符 子占位符表示占位符包含在依赖注释幻灯片中 依赖注释幻灯片使用并依赖主注释幻灯片
 type: docs
 weight: 60
 url: /zh/net/aspose.slides/imasternotesslideheaderfootermanager/setheaderandchildheaderstext/
 ---
 ## IMasterNotesSlideHeaderFooterManager.SetHeaderAndChildHeadersText method
 
-将文本设置为主注释幻灯片标题占位符和所有子标题占位符。 子占位符意味着占位符包含在依赖注释幻灯片中。 依赖于笔记幻灯片使用并依赖于主笔记幻灯片。
+将文本设置为主注释幻灯片标题占位符和所有子标题占位符。 子占位符表示占位符包含在依赖注释幻灯片中。 依赖注释幻灯片使用并依赖主注释幻灯片。
 
 ```csharp
 public void SetHeaderAndChildHeadersText(string text)

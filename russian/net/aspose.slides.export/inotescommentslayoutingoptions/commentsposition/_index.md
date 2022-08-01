@@ -16,7 +16,7 @@ public CommentsPositions CommentsPosition { get; set; }
 
 ### Примечания
 
-По умолчанию: **КомментарииPositions.None** .
+По умолчанию **КомментарииПозиции.Нет** .
 
 ### Смотрите также
 

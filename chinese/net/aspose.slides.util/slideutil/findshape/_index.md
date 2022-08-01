@@ -1,14 +1,14 @@
 ---
 title: FindShape
 second_title: Aspose.Slides for .NET API 参考
-description: 在 PPTX 演示文稿中按替代文本查找形状
+description: 在 PPTX 演示文稿中通过替代文本查找形状
 type: docs
 weight: 20
 url: /zh/net/aspose.slides.util/slideutil/findshape/
 ---
 ## FindShape(IPresentation, string) {#findshape_1}
 
-在 PPTX 演示文稿中按替代文本查找形状。
+在 PPTX 演示文稿中通过替代文本查找形状。
 
 ```csharp
 public static IShape FindShape(IPresentation pres, string altText)

@@ -1,14 +1,14 @@
 ---
 title: FloatR
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или устанавливает красный компонент цвета. Все преобразования цвета игнорируются. Чтение/записьSingle.
+description: Возвращает или задает красный компонент цвета. Все преобразования цвета игнорируются. Чтение/записьSingle .
 type: docs
 weight: 70
 url: /ru/net/aspose.slides/colorformat/floatr/
 ---
 ## ColorFormat.FloatR property
 
-Возвращает или устанавливает красный компонент цвета. Все преобразования цвета игнорируются. Чтение/записьSingle.
+Возвращает или задает красный компонент цвета. Все преобразования цвета игнорируются. Чтение/записьSingle .
 
 ```csharp
 public float FloatR { get; set; }

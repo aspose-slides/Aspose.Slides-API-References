@@ -1,14 +1,14 @@
 ---
 title: TickLabelPositionType
 second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет тип положения меток деления на указанной оси.
+description: Представляет тип положения меток делений на указанной оси.
 type: docs
 weight: 2300
 url: /ru/net/aspose.slides.charts/ticklabelpositiontype/
 ---
 ## TickLabelPositionType enumeration
 
-Представляет тип положения меток деления на указанной оси.
+Представляет тип положения меток делений на указанной оси.
 
 ```csharp
 public enum TickLabelPositionType

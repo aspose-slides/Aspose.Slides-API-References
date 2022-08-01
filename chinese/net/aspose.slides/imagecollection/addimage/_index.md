@@ -1,14 +1,14 @@
 ---
 title: AddImage
 second_title: Aspose.Slides for .NET API 参考
-description: 添加来自另一个演示文稿的图像的副本
+description: 添加来自另一个演示文稿的图像副本
 type: docs
 weight: 50
 url: /zh/net/aspose.slides/imagecollection/addimage/
 ---
 ## AddImage(IPPImage) {#addimage}
 
-添加来自另一个演示文稿的图像的副本。
+添加来自另一个演示文稿的图像副本。
 
 ```csharp
 public IPPImage AddImage(IPPImage imageSource)
@@ -33,7 +33,7 @@ public IPPImage AddImage(IPPImage imageSource)
 
 ## AddImage(Image) {#addimage_3}
 
-将图像添加到演示文稿。
+将图像添加到演示文稿中。
 
 ```csharp
 public IPPImage AddImage(Image image)
@@ -120,7 +120,7 @@ public IPPImage AddImage(Stream stream)
 
 ## AddImage(Stream, LoadingStreamBehavior) {#addimage_6}
 
-从流中创建图像并将其添加到演示文稿。
+从流中创建图像并将其添加到演示文稿中。
 
 ```csharp
 public IPPImage AddImage(Stream stream, LoadingStreamBehavior loadingStreamBehavior)
@@ -133,7 +133,7 @@ public IPPImage AddImage(Stream stream, LoadingStreamBehavior loadingStreamBehav
 
 ### 返回值
 
-添加[`IPPImage`](../../ippimage)。
+添加[`IPPImage`](../../ippimage).
 
 ### 也可以看看
 
@@ -155,7 +155,7 @@ public IPPImage AddImage(byte[] buffer)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| buffer | Byte[] | 缓冲区。 |
+| buffer | Byte[] | 缓冲。 |
 
 ### 返回值
 
@@ -172,7 +172,7 @@ public IPPImage AddImage(byte[] buffer)
 
 ## AddImage(ISvgImage) {#addimage_1}
 
-将图像添加到 Svg 对象的演示文稿中。
+将图像从 Svg 对象添加到演示文稿。
 
 ```csharp
 public IPPImage AddImage(ISvgImage svgImage)
@@ -180,7 +180,7 @@ public IPPImage AddImage(ISvgImage svgImage)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| svgImage | ISvgImage | Svg 图像对象[`ISvgImage`](../../isvgimage) |
+| svgImage | ISvgImage | SVG图像对象[`ISvgImage`](../../isvgimage) |
 
 ### 返回值
 

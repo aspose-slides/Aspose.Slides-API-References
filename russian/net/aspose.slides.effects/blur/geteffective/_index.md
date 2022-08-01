@@ -16,7 +16,7 @@ public IBlurEffectiveData GetEffective()
 
 ### Возвращаемое значение
 
-A[`IBlurEffectiveData`](../../iblureffectivedata).
+А[`IBlurEffectiveData`](../../iblureffectivedata).
 
 ### Смотрите также
 

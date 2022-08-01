@@ -1,14 +1,14 @@
 ---
 title: IFilterEffect
 second_title: Справочник по API Aspose.Slides для .NET
-description: Представляют эффект фильтра поведения.
+description: Представляет эффект фильтра поведения.
 type: docs
 weight: 400
 url: /ru/net/aspose.slides.animation/ifiltereffect/
 ---
 ## IFilterEffect interface
 
-Представляют эффект фильтра поведения.
+Представляет эффект фильтра поведения.
 
 ```csharp
 public interface IFilterEffect : IBehavior
@@ -18,10 +18,10 @@ public interface IFilterEffect : IBehavior
 
 | Имя | Описание |
 | --- | --- |
-| [AsIBehavior](../../aspose.slides.animation/ifiltereffect/asibehavior) { get; } | Позволяет получить базовый интерфейс IBeavior. Только для чтения[`IBehavior`](../ibehavior). |
-| [Reveal](../../aspose.slides.animation/ifiltereffect/reveal) { get; set; } | Представляет, что эффект с поведением должен проявляться (вход/выход) Чтение/запись[`FilterEffectRevealType`](../filtereffectrevealtype). |
-| [Subtype](../../aspose.slides.animation/ifiltereffect/subtype) { get; set; } | Представляет подтип эффекта фильтра. Чтение/запись[`FilterEffectSubtype`](../filtereffectsubtype). |
-| [Type](../../aspose.slides.animation/ifiltereffect/type) { get; set; } | Представляет тип эффекта фильтра. Чтение/запись[`FilterEffectType`](../filtereffecttype). |
+| [AsIBehavior](../../aspose.slides.animation/ifiltereffect/asibehavior) { get; } | Позволяет получить базовый интерфейс IBehavior. Только для чтения[`IBehavior`](../ibehavior) . |
+| [Reveal](../../aspose.slides.animation/ifiltereffect/reveal) { get; set; } | Представляет, что эффект с поведением должен раскрываться (вход/выход) Чтение/запись[`FilterEffectRevealType`](../filtereffectrevealtype) . |
+| [Subtype](../../aspose.slides.animation/ifiltereffect/subtype) { get; set; } | Представляет подтип эффекта фильтра. Чтение/запись[`FilterEffectSubtype`](../filtereffectsubtype) . |
+| [Type](../../aspose.slides.animation/ifiltereffect/type) { get; set; } | Представляет тип эффекта фильтра. Чтение/запись[`FilterEffectType`](../filtereffecttype) . |
 
 ### Смотрите также
 

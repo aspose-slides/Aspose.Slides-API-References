@@ -16,8 +16,8 @@ public ITint CreateTint(float hue, float amount)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| hue | Single | Оттенок. |
-| сумма | Single | Сумма. |
+| hue | Single | оттенок. |
+| amount | Single | Количество. |
 
 ### Возвращаемое значение
 

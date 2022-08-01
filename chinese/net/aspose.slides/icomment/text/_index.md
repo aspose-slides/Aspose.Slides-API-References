@@ -1,14 +1,14 @@
 ---
 title: Text
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置幻灯片注释的纯文本 读/写String
+description: 返回或设置幻灯片注释的纯文本 读/写String.
 type: docs
 weight: 60
 url: /zh/net/aspose.slides/icomment/text/
 ---
 ## IComment.Text property
 
-返回或设置幻灯片注释的纯文本。 读/写String。
+返回或设置幻灯片注释的纯文本。 读/写String.
 
 ```csharp
 public string Text { get; set; }

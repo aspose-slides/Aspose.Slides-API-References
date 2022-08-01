@@ -1,14 +1,14 @@
 ---
 title: HasSeriesLines
 second_title: Aspose.Slides for .NET API 参考
-description: 如果图表有系列线则为真应用于堆积条形图和 OfPie 图表 读/写Boolean
+description: 如果图表有系列线则为真应用于堆积条形图和 OfPie 图表 读/写Boolean.
 type: docs
 weight: 80
 url: /zh/net/aspose.slides.charts/chartseriesgroup/hasserieslines/
 ---
 ## ChartSeriesGroup.HasSeriesLines property
 
-如果图表有系列线，则为真。应用于堆积条形图和 OfPie 图表。 读/写Boolean。
+如果图表有系列线，则为真。应用于堆积条形图和 OfPie 图表。 读/写Boolean.
 
 ```csharp
 public bool HasSeriesLines { get; set; }

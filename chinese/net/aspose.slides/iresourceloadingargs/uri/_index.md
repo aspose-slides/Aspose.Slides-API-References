@@ -8,7 +8,7 @@ url: /zh/net/aspose.slides/iresourceloadingargs/uri/
 ---
 ## IResourceLoadingArgs.Uri property
 
-用于下载的资源的 URI if[`ResourceLoading`](../../iresourceloadingcallback/resourceloading) 返回Default。 最初设置为资源的原始 URI，但可以重新定义为任何值。
+用于下载的资源的 URI if[`ResourceLoading`](../../iresourceloadingcallback/resourceloading) 返回Default 最初设置为资源的原始 URI，但可以重新定义为任何值。
 
 ```csharp
 public string Uri { get; set; }

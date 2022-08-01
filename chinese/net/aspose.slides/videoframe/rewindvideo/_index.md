@@ -1,14 +1,14 @@
 ---
 title: RewindVideo
 second_title: Aspose.Slides for .NET API 参考
-description: 确定视频播放完毕后是否自动倒带开始  读/写Boolean
+description: 确定视频是否在电影播放完毕后立即自动倒退到 start  读/写Boolean.
 type: docs
 weight: 70
 url: /zh/net/aspose.slides/videoframe/rewindvideo/
 ---
 ## VideoFrame.RewindVideo property
 
-确定视频播放完毕后是否自动倒带开始 。 读/写Boolean。
+确定视频是否在电影播放完毕后立即自动倒退到 start 。 读/写Boolean.
 
 ```csharp
 public bool RewindVideo { get; set; }

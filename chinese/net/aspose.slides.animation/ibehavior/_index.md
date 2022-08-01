@@ -18,10 +18,10 @@ public interface IBehavior
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Accumulate](../../aspose.slides.animation/ibehavior/accumulate) { get; set; } | 表示是否累积动画行为。 读/写[`NullableBool`](../../aspose.slides/nullablebool)。 |
-| [Additive](../../aspose.slides.animation/ibehavior/additive) { get; set; } | 表示当前动画行为是否与其他运行动画相结合。 读/写[`BehaviorAdditiveType`](../behavioradditivetype)。 |
-| [Properties](../../aspose.slides.animation/ibehavior/properties) { get; } | 表示行为的属性。 只读[`IBehaviorPropertyCollection`](../ibehaviorpropertycollection)。 |
-| [Timing](../../aspose.slides.animation/ibehavior/timing) { get; set; } | 表示效果行为的时序属性。 读/写[`ITiming`](../itiming)。 |
+| [Accumulate](../../aspose.slides.animation/ibehavior/accumulate) { get; set; } | 表示动画行为是否累积。 读/写[`NullableBool`](../../aspose.slides/nullablebool). |
+| [Additive](../../aspose.slides.animation/ibehavior/additive) { get; set; } | 表示当前动画行为是否与其他正在运行的动画相结合。 读/写[`BehaviorAdditiveType`](../behavioradditivetype). |
+| [Properties](../../aspose.slides.animation/ibehavior/properties) { get; } | 表示行为的属性。 只读[`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
+| [Timing](../../aspose.slides.animation/ibehavior/timing) { get; set; } | 表示效果行为的时序属性。 读/写[`ITiming`](../itiming). |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: EffectStyleIndex
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置样式矩阵中形状的效果列索引 读/写UInt32
+description: 在样式矩阵中返回或设置形状的效果列索引 读/写UInt32.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides/ishapestyle/effectstyleindex/
 ---
 ## IShapeStyle.EffectStyleIndex property
 
-返回或设置样式矩阵中形状的效果列索引。 读/写UInt32。
+在样式矩阵中返回或设置形状的效果列索引。 读/写UInt32.
 
 ```csharp
 public uint EffectStyleIndex { get; set; }

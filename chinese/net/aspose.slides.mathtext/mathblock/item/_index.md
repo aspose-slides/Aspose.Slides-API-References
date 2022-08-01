@@ -24,7 +24,7 @@ public IMathElement this[int index] { get; set; }
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]

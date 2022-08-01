@@ -1,14 +1,14 @@
 ---
 title: MathNaryOperatorTypes
 second_title: Aspose.Slides for .NET API 参考
-description: Nary 运算符 IMathNaryOperator 类型不包括积分 对于积分MathIntegralTypes./mathintegraltypes
+description: Nary 运算符 IMathNaryOperator 类型不包括积分 用于积分MathIntegralTypes./mathintegraltypes
 type: docs
 weight: 8170
 url: /zh/net/aspose.slides.mathtext/mathnaryoperatortypes/
 ---
 ## MathNaryOperatorTypes enumeration
 
-Nary 运算符 IMathNaryOperator 类型（不包括积分） 对于积分[`MathIntegralTypes`](../mathintegraltypes)
+Nary 运算符 IMathNaryOperator 类型（不包括积分） 用于积分[`MathIntegralTypes`](../mathintegraltypes)
 
 ```csharp
 public enum MathNaryOperatorTypes
@@ -18,13 +18,13 @@ public enum MathNaryOperatorTypes
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Summation | `0` | 求和:'∑' |
-| Product | `1` | 产品:'∏' |
-| CoProduct | `2` | 副产品:'∐' |
-| Intersection | `3` | 交叉口:'∩' |
-| Union | `4` | 联合:'∪' |
-| LogicalAnd | `5` | 逻辑与:'∧' |
-| LogicalOr | `6` | 逻辑或:'∨' |
+| Summation | `0` | 求和：'∑' |
+| Product | `1` | 产品：'∏' |
+| CoProduct | `2` | 副产品：'∐' |
+| Intersection | `3` | 交点：'∩' |
+| Union | `4` | 联合：'∪' |
+| LogicalAnd | `5` | 逻辑与：'∧' |
+| LogicalOr | `6` | 逻辑或：'∨' |
 
 ### 也可以看看
 

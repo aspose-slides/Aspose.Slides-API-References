@@ -1,14 +1,14 @@
 ---
 title: Disable3DText
 second_title: Aspose.Slides for .NET API 参考
-description: 确定是否在 SVG 中禁用 3D 文本 读/写Boolean
+description: 确定是否在 SVG 中禁用 3D 文本 读/写Boolean.
 type: docs
 weight: 60
 url: /zh/net/aspose.slides.export/svgoptions/disable3dtext/
 ---
 ## SVGOptions.Disable3DText property
 
-确定是否在 SVG 中禁用 3D 文本。 读/写Boolean。
+确定是否在 SVG 中禁用 3D 文本。 读/写Boolean.
 
 ```csharp
 public bool Disable3DText { get; set; }

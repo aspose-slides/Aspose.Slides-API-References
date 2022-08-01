@@ -1,14 +1,14 @@
 ---
 title: AddDataPointForSurfaceSeries
 second_title: Справочник по API Aspose.Slides для .NET
-description: Создает новую точку данных и добавляет ее в конец коллекции. Применимо для серий у которых ChartType является одним из подтипов Surface см. также метод ChartTypeCharacterizer.IsChartTypeSurfaceChartType.
+description: Создает новую точку данных и добавляет ее в конец коллекции. Применяется для серий тип диаграммы которых является одним из подтипов поверхности см. также метод ChartTypeCharacterizer.IsChartTypeSurfaceChartType.
 type: docs
 weight: 210
 url: /ru/net/aspose.slides.charts/ichartdatapointcollection/adddatapointforsurfaceseries/
 ---
 ## AddDataPointForSurfaceSeries(IChartDataCell) {#adddatapointforsurfaceseries}
 
-Создает новую точку данных и добавляет ее в конец коллекции. Применимо для серий, у которых ChartType является одним из подтипов Surface (см. также метод ChartTypeCharacterizer.IsChartTypeSurface(ChartType)).
+Создает новую точку данных и добавляет ее в конец коллекции. Применяется для серий, тип диаграммы которых является одним из подтипов поверхности (см. также метод ChartTypeCharacterizer.IsChartTypeSurface(ChartType)).
 
 ```csharp
 public IChartDataPoint AddDataPointForSurfaceSeries(IChartDataCell value)
@@ -16,7 +16,7 @@ public IChartDataPoint AddDataPointForSurfaceSeries(IChartDataCell value)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| значение | IChartDataCell | Точка данных Значение |
+| value | IChartDataCell | Точка данных Значение |
 
 ### Возвращаемое значение
 
@@ -34,7 +34,7 @@ public IChartDataPoint AddDataPointForSurfaceSeries(IChartDataCell value)
 
 ## AddDataPointForSurfaceSeries(double) {#adddatapointforsurfaceseries_1}
 
-Создает новую точку данных и добавляет ее в конец коллекции. Применимо для серий, у которых ChartType является одним из подтипов Surface (см. также метод ChartTypeCharacterizer.IsChartTypeSurface(ChartType)).
+Создает новую точку данных и добавляет ее в конец коллекции. Применяется для серий, тип диаграммы которых является одним из подтипов поверхности (см. также метод ChartTypeCharacterizer.IsChartTypeSurface(ChartType)).
 
 ```csharp
 public IChartDataPoint AddDataPointForSurfaceSeries(double value)
@@ -42,7 +42,7 @@ public IChartDataPoint AddDataPointForSurfaceSeries(double value)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| значение | Double | Точка данных Значение |
+| value | Double | Точка данных Значение |
 
 ### Возвращаемое значение
 

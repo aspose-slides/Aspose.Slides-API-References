@@ -16,7 +16,7 @@ public DataLabel(IChartDataPoint parentImmediate)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| parentImmediate | IChartDataPoint | 父图表数据点。 |
+| parentImmediate | IChartDataPoint | 父 ChartDataPoint。 |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: Thickness
 second_title: Aspose.Slides for .NET API 参考
-description: 以绘图体积最大 尺寸的百分比返回或设置壁厚 读/写Int32
+description: 以绘图体积最大 尺寸的百分比形式返回或设置壁厚 读/写Int32.
 type: docs
 weight: 30
 url: /zh/net/aspose.slides.charts/ichartwall/thickness/
 ---
 ## IChartWall.Thickness property
 
-以绘图体积最大 尺寸的百分比返回或设置壁厚。 读/写Int32。
+以绘图体积最大 尺寸的百分比形式返回或设置壁厚。 读/写Int32.
 
 ```csharp
 public int Thickness { get; set; }

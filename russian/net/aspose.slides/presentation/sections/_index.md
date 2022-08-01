@@ -1,14 +1,14 @@
 ---
 title: Sections
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает список всех разделов слайдов определенных в презентации. Только для чтенияISectionCollectionaspose.slides/isectioncollection.
+description: Возвращает список всех разделов слайдов определенных в презентации. Только для чтенияISectionCollectionaspose.slides/isectioncollection .
 type: docs
 weight: 220
 url: /ru/net/aspose.slides/presentation/sections/
 ---
 ## Presentation.Sections property
 
-Возвращает список всех разделов слайдов, определенных в презентации. Только для чтения[`ISectionCollection`](../../isectioncollection).
+Возвращает список всех разделов слайдов, определенных в презентации. Только для чтения[`ISectionCollection`](../../isectioncollection) .
 
 ```csharp
 public ISectionCollection Sections { get; }

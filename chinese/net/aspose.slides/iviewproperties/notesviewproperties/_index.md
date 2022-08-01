@@ -1,14 +1,14 @@
 ---
 title: NotesViewProperties
 second_title: Aspose.Slides for .NET API 参考
-description: 指定与注释视图模式关联的公共视图属性 只读ICommonSlideViewPropertiesaspose.slides/icommonslideviewproperties
+description: 指定与注释视图模式关联的通用视图属性 只读ICommonSlideViewPropertiesaspose.slides/icommonslideviewproperties
 type: docs
 weight: 30
 url: /zh/net/aspose.slides/iviewproperties/notesviewproperties/
 ---
 ## IViewProperties.NotesViewProperties property
 
-指定与注释视图模式关联的公共视图属性。 只读[`ICommonSlideViewProperties`](../../icommonslideviewproperties)。
+指定与注释视图模式关联的通用视图属性。 只读[`ICommonSlideViewProperties`](../../icommonslideviewproperties)
 
 ```csharp
 public ICommonSlideViewProperties NotesViewProperties { get; }

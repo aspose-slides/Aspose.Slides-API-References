@@ -25,9 +25,9 @@ public class Point : IPoint
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Formula](../../aspose.slides.animation/point/formula) { get; set; } | 值中的公式，从，到，按属性可以由这些组成: 标准算术运算符:'+'，'-' , '*', '/', '^', '%' (mod) 常量:'pi' 'e' 条件运算符:'abs', 'min '， '最大限度'， '？' (if) 比较运算符:'=='、'&gt;='、''、'!='、'!' 三角运算符:'sin()', 'cos()', 'tan()', 'asin()', 'acos()', 'atan()' 自然对数 'ln()' 属性引用（主机支持的属性） 例如:“#ppt_x+(cos(-2*pi *(1-$))*-#ppt_x-sin(-2*pi*(1-$))*(1-#ppt_y))*(1-$)" 读/写String。 |
-| [Time](../../aspose.slides.animation/point/time) { get; set; } | 表示时间值。 读/写Single。 |
-| [Value](../../aspose.slides.animation/point/value) { get; set; } | 表示点值。 仅限:bool、ColorFormat、float、int、string。 读/写Object。 |
+| [Formula](../../aspose.slides.animation/point/formula) { get; set; } | 值、from、to、by 属性中的公式可以由这些组成： 标准算术运算符：'+'、'-'、'*'、'/'、'^'、'%' (mod) 常量：'pi' 'e' 条件运算符：'abs'、'min'、'max'、'?' (if) 比较运算符：'=='、'&gt;='、''、'!='、'!' 三角运算符：'sin()'、'cos()'、'tan()'、 'asin()', 'acos()', 'atan()' 自然对数 'ln()' 属性引用（主机支持的属性） 例如：“#ppt_x+(cos(-2*pi*( 1-$))*-#ppt_x-sin(-2*pi*(1-$))*(1-#ppt_y))*(1-$)" 读/写String. |
+| [Time](../../aspose.slides.animation/point/time) { get; set; } | 表示时间值。 读/写Single. |
+| [Value](../../aspose.slides.animation/point/value) { get; set; } | 表示点值。 仅限：bool、ColorFormat、float、int、string。 读/写Object. |
 
 ### 也可以看看
 

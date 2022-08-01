@@ -20,11 +20,11 @@ public ISlide[] AddFromPdf(string path)
 
 ### 返回值
 
-添加幻灯片
+添加了幻灯片
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]
@@ -58,11 +58,11 @@ public ISlide[] AddFromPdf(Stream pdfStream)
 
 ### 返回值
 
-添加幻灯片
+添加了幻灯片
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]

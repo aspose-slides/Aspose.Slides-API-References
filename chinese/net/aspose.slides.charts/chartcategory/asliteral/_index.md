@@ -1,14 +1,14 @@
 ---
 title: AsLiteral
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置 AsLiteral 对象 读/写Object
+description: 返回或设置 AsLiteral 对象 读/写Object.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides.charts/chartcategory/asliteral/
 ---
 ## ChartCategory.AsLiteral property
 
-返回或设置 AsLiteral 对象。 读/写Object。
+返回或设置 AsLiteral 对象。 读/写Object.
 
 ```csharp
 public object AsLiteral { get; set; }

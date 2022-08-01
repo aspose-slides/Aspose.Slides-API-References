@@ -1,14 +1,14 @@
 ---
 title: SelectLocked
 second_title: Aspose.Slides for .NET API 参考
-description: 确定是否禁止选择此形状 读/写Boolean
+description: 确定是否禁止选择此形状 读/写Boolean.
 type: docs
 weight: 50
 url: /zh/net/aspose.slides/graphicalobjectlock/selectlocked/
 ---
 ## GraphicalObjectLock.SelectLocked property
 
-确定是否禁止选择此形状。 读/写Boolean。
+确定是否禁止选择此形状。 读/写Boolean.
 
 ```csharp
 public bool SelectLocked { get; set; }

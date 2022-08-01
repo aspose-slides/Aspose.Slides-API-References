@@ -1,14 +1,14 @@
 ---
 title: InvalidPasswordException
 second_title: Aspose.Slides for .NET API 参考
-description: 演示文件格式不受支持时引发的异常
+description: 不支持演示文件格式时引发的异常
 type: docs
 weight: 6930
 url: /zh/net/aspose.slides/invalidpasswordexception/
 ---
 ## InvalidPasswordException class
 
-演示文件格式不受支持时引发的异常。
+不支持演示文件格式时引发的异常。
 
 ```csharp
 public class InvalidPasswordException : Exception

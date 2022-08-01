@@ -1,14 +1,14 @@
 ---
 title: TempFilesRootPath
 second_title: Aspose.Slides for .NET API 参考
-description: 表示文件系统上的根路径临时文件将存储在其中系统 默认使用临时目录
+description: 表示文件系统上的根路径临时文件将存储在其中默认使用system 临时目录
 type: docs
 weight: 50
 url: /zh/net/aspose.slides/blobmanagementoptions/tempfilesrootpath/
 ---
 ## BlobManagementOptions.TempFilesRootPath property
 
-表示文件系统上的根路径，临时文件将存储在其中。系统 默认使用临时目录。
+表示文件系统上的根路径，临时文件将存储在其中。默认使用system 临时目录
 
 ```csharp
 public string TempFilesRootPath { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: Name
 second_title: Справочник по API Aspose.Slides для .NET
-description: Получает имя. Только чтениеString.
+description: Получает имя. Только для чтенияString .
 type: docs
 weight: 20
 url: /ru/net/aspose.slides.charts/ichartdataworksheet/name/
 ---
 ## IChartDataWorksheet.Name property
 
-Получает имя. Только чтениеString.
+Получает имя. Только для чтенияString .
 
 ```csharp
 public string Name { get; }

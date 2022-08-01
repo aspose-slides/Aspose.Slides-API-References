@@ -1,14 +1,14 @@
 ---
 title: ITintEffectiveData
 second_title: Справочник по API Aspose.Slides для .NET
-description: Неизменяемый объект представляющий эффект Tint. Смещает значения цвета эффекта в сторону/от оттенка на указанную величину.
+description: Неизменяемый объект который представляет эффект Tint. Смещает значения цвета эффекта в сторону/от оттенка на указанную величину.
 type: docs
 weight: 3350
 url: /ru/net/aspose.slides.effects/itinteffectivedata/
 ---
 ## ITintEffectiveData interface
 
-Неизменяемый объект, представляющий эффект Tint. Смещает значения цвета эффекта в сторону/от оттенка на указанную величину.
+Неизменяемый объект, который представляет эффект Tint. Смещает значения цвета эффекта в сторону/от оттенка на указанную величину.
 
 ```csharp
 public interface ITintEffectiveData : IEffectEffectiveData
@@ -18,9 +18,9 @@ public interface ITintEffectiveData : IEffectEffectiveData
 
 | Имя | Описание |
 | --- | --- |
-| [Amount](../../aspose.slides.effects/itinteffectivedata/amount) { get; } | Возвращает количество эффекта. Только для чтенияSingle. |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/itinteffectivedata/asieffecteffectivedata) { get; } | Позволяет получить базовый интерфейс IEffectEffectiveData. Только для чтения[`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Hue](../../aspose.slides.effects/itinteffectivedata/hue) { get; } | Возвращает оттенок. Только для чтенияSingle. |
+| [Amount](../../aspose.slides.effects/itinteffectivedata/amount) { get; } | Возвращает количество эффекта. Только для чтенияSingle . |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/itinteffectivedata/asieffecteffectivedata) { get; } | Позволяет получить базовый интерфейс IEffectEffectiveData. Только для чтения[`IEffectEffectiveData`](../ieffecteffectivedata) . |
+| [Hue](../../aspose.slides.effects/itinteffectivedata/hue) { get; } | Возвращает оттенок. Только для чтенияSingle . |
 
 ### Смотрите также
 

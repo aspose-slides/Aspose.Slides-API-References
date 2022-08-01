@@ -1,14 +1,14 @@
 ---
 title: NoAction
 second_title: Aspose.Slides for .NET API 参考
-description: 返回一个特殊的什么都不做超链接 只读Hyperlinkaspose.slides/hyperlink
+description: 返回一个特殊的什么都不做超链接 只读Hyperlinkaspose.slides/hyperlink.
 type: docs
 weight: 80
 url: /zh/net/aspose.slides/hyperlink/noaction/
 ---
 ## Hyperlink.NoAction property
 
-返回一个特殊的“什么都不做”超链接。 只读[`Hyperlink`](../../hyperlink)。
+返回一个特殊的“什么都不做”超链接。 只读[`Hyperlink`](../../hyperlink).
 
 ```csharp
 public static Hyperlink NoAction { get; }

@@ -1,14 +1,14 @@
 ---
 title: IsHeaderVisible
 second_title: Aspose.Slides for .NET API 参考
-description: 获取指示存在标头占位符的值 读取Boolean
+description: 获取指示存在标头占位符的值 读取Boolean.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides/basehandoutnotesslideheaderfootermanager/isheadervisible/
 ---
 ## BaseHandoutNotesSlideHeaderFooterManager.IsHeaderVisible property
 
-获取指示存在标头占位符的值。 读取Boolean。
+获取指示存在标头占位符的值。 读取Boolean.
 
 ```csharp
 public bool IsHeaderVisible { get; }

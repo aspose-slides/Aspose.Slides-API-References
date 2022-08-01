@@ -1,14 +1,14 @@
 ---
 title: DateTime5
 second_title: Aspose.Slides for .NET API 参考
-description: 当前日期和时间采用第五种预定义格式英文为 DD-Mon-YY 只读FieldTypeaspose.slides/fieldtype
+description: 第五种预定义格式的当前日期和时间英文为 DD-Mon-YY 只读FieldTypeaspose.slides/fieldtype.
 type: docs
 weight: 110
 url: /zh/net/aspose.slides/fieldtype/datetime5/
 ---
 ## FieldType.DateTime5 property
 
-当前日期和时间，采用第五种预定义格式（英文为 DD-Mon-YY）。 只读[`FieldType`](../../fieldtype)。
+第五种预定义格式的当前日期和时间（英文为 DD-Mon-YY）。 只读[`FieldType`](../../fieldtype).
 
 ```csharp
 public static FieldType DateTime5 { get; }

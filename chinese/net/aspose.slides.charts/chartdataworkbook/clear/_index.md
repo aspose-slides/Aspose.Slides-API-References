@@ -1,14 +1,14 @@
 ---
 title: Clear
 second_title: Aspose.Slides for .NET API 参考
-description: 清除工作表上的所有单元格值
+description: 清除 sheet 上的所有单元格值
 type: docs
 weight: 30
 url: /zh/net/aspose.slides.charts/chartdataworkbook/clear/
 ---
 ## ChartDataWorkbook.Clear method
 
-清除工作表上的所有单元格值
+清除 sheet 上的所有单元格值
 
 ```csharp
 public void Clear(int sheetIndex)

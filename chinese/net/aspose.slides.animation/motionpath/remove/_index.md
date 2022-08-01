@@ -16,7 +16,7 @@ public void Remove(IMotionCmdPath item)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| item | IMotionCmdPath | 要移除的运动路径。 |
+| item | IMotionCmdPath | 要删除的运动路径。 |
 
 ### 也可以看看
 

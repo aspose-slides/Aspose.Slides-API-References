@@ -1,14 +1,14 @@
 ---
 title: TableFormat
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает объект TableFormat содержащий свойства форматирования для этой таблицы. Только для чтенияITableFormataspose.slides/itableformat.
+description: Возвращает объект TableFormat содержащий свойства форматирования для этой таблицы. Только для чтенияITableFormataspose.slides/itableformat .
 type: docs
 weight: 110
 url: /ru/net/aspose.slides/table/tableformat/
 ---
 ## Table.TableFormat property
 
-Возвращает объект TableFormat, содержащий свойства форматирования для этой таблицы. Только для чтения[`ITableFormat`](../../itableformat).
+Возвращает объект TableFormat, содержащий свойства форматирования для этой таблицы. Только для чтения[`ITableFormat`](../../itableformat) .
 
 ```csharp
 public ITableFormat TableFormat { get; }

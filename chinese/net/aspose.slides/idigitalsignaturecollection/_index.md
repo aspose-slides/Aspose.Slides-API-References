@@ -1,14 +1,14 @@
 ---
 title: IDigitalSignatureCollection
 second_title: Aspose.Slides for .NET API 参考
-description: 表示附加到文档的数字签名的集合
+description: 表示附加到文档的数字签名集合
 type: docs
 weight: 5200
 url: /zh/net/aspose.slides/idigitalsignaturecollection/
 ---
 ## IDigitalSignatureCollection interface
 
-表示附加到文档的数字签名的集合。
+表示附加到文档的数字签名集合。
 
 ```csharp
 public interface IDigitalSignatureCollection : IGenericCollection<IDigitalSignature>

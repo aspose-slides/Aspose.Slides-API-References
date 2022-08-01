@@ -1,14 +1,14 @@
 ---
 title: Status
 second_title: Aspose.Slides for .NET API 参考
-description: 获取或设置评论的状态 读/写ModernCommentStatusaspose.slides/moderncommentstatus
+description: 获取或设置评论的状态 读/写ModernCommentStatusaspose.slides/moderncommentstatus.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides/moderncomment/status/
 ---
 ## ModernComment.Status property
 
-获取或设置评论的状态。 读/写[`ModernCommentStatus`](../../moderncommentstatus)。
+获取或设置评论的状态。 读/写[`ModernCommentStatus`](../../moderncommentstatus).
 
 ```csharp
 public ModernCommentStatus Status { get; set; }

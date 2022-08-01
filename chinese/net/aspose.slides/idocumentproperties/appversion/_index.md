@@ -1,14 +1,14 @@
 ---
 title: AppVersion
 second_title: Aspose.Slides for .NET API 参考
-description: 返回应用程序版本 只读String
+description: 返回应用程序版本 只读String.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides/idocumentproperties/appversion/
 ---
 ## IDocumentProperties.AppVersion property
 
-返回应用程序版本。 只读String。
+返回应用程序版本。 只读String.
 
 ```csharp
 public string AppVersion { get; }

@@ -1,14 +1,14 @@
 ---
 title: XPlus
 second_title: Aspose.Slides for .NET API 参考
-description: 指定正方向的误差线值 如果错误栏值类型为自定义且允许 ErrorBarsXFormat则可用 在任何其他情况下此属性都返回 null 只读IDoubleChartValueaspose.slides.charts/idoublechartvalue
+description: 指定正方向的误差线值 如果误差线值类型为自定义且允许 ErrorBarsXFormat 则可用 在任何其他情况下此属性都返回 null 只读IDoubleChartValueaspose.slides.charts/idoublechartvalue.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides.charts/ierrorbarscustomvalues/xplus/
 ---
 ## IErrorBarsCustomValues.XPlus property
 
-指定正方向的误差线值。 如果错误栏值类型为自定义且允许 ErrorBarsXFormat，则可用。 在任何其他情况下，此属性都返回 null。 只读[`IDoubleChartValue`](../../idoublechartvalue)。
+指定正方向的误差线值。 如果误差线值类型为自定义且允许 ErrorBarsXFormat 则可用。 在任何其他情况下，此属性都返回 null。 只读[`IDoubleChartValue`](../../idoublechartvalue).
 
 ```csharp
 public IDoubleChartValue XPlus { get; }

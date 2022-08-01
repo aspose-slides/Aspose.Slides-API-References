@@ -1,14 +1,14 @@
 ---
 title: OuterShadowEffect
 second_title: Aspose.Slides for .NET API 参考
-description: 外阴影 读/写IOuterShadowaspose.slides.effects/ioutershadow
+description: 外阴影 读/写IOuterShadowaspose.slides.effects/ioutershadow.
 type: docs
 weight: 60
 url: /zh/net/aspose.slides/effectformat/outershadoweffect/
 ---
 ## EffectFormat.OuterShadowEffect property
 
-外阴影。 读/写[`IOuterShadow`](../../../aspose.slides.effects/ioutershadow)。
+外阴影。 读/写[`IOuterShadow`](../../../aspose.slides.effects/ioutershadow).
 
 ```csharp
 public IOuterShadow OuterShadowEffect { get; set; }

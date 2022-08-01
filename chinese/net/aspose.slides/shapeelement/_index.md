@@ -18,10 +18,10 @@ public class ShapeElement : IShapeElement
 
 | 姓名 | 描述 |
 | --- | --- |
-| [FillSource](../../aspose.slides/shapeelement/fillsource) { get; } | 返回有关如何填充元素的信息。 只读[`ShapeElementFillSource`](../shapeelementfillsource)。 |
-| [GraphicsPath](../../aspose.slides/shapeelement/graphicspath) { get; } | 返回元素的路径。 只读GraphicsPath。 |
-| [ParentShape](../../aspose.slides/shapeelement/parentshape) { get; } | 返回为其创建元素的 Shape_PPT。 只读[`Shape`](../shape)。 |
-| [StrokeSource](../../aspose.slides/shapeelement/strokesource) { get; } | 返回有关如何描边元素的信息。 只读[`ShapeElementStrokeSource`](../shapeelementstrokesource)。 |
+| [FillSource](../../aspose.slides/shapeelement/fillsource) { get; } | 返回有关如何填充元素的信息。 只读[`ShapeElementFillSource`](../shapeelementfillsource). |
+| [GraphicsPath](../../aspose.slides/shapeelement/graphicspath) { get; } | 返回元素的路径。 只读GraphicsPath. |
+| [ParentShape](../../aspose.slides/shapeelement/parentshape) { get; } | 返回为其创建元素的 Shape_PPT。 只读[`Shape`](../shape). |
+| [StrokeSource](../../aspose.slides/shapeelement/strokesource) { get; } | 返回有关如何描边元素的信息。 只读[`ShapeElementStrokeSource`](../shapeelementstrokesource). |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: TargetSlide
 second_title: Aspose.Slides for .NET API 参考
-description: 如果 HyperlinkEx 以特定幻灯片为目标则返回此幻灯片 如果属性变为非空则属性 ExternalUrl 变为空 只读ISlideaspose.slides/islide
+description: 如果 HyperlinkEx 以特定幻灯片为目标返回此幻灯片 如果属性变为非空则属性 ExternalUrl 变为空 只读ISlideaspose.slides/islide.
 type: docs
 weight: 80
 url: /zh/net/aspose.slides/ihyperlink/targetslide/
 ---
 ## IHyperlink.TargetSlide property
 
-如果 HyperlinkEx 以特定幻灯片为目标，则返回此幻灯片。 如果属性变为非空，则属性 ExternalUrl 变为空。 只读[`ISlide`](../../islide)。
+如果 HyperlinkEx 以特定幻灯片为目标返回此幻灯片。 如果属性变为非空，则属性 ExternalUrl 变为空。 只读[`ISlide`](../../islide).
 
 ```csharp
 public ISlide TargetSlide { get; }

@@ -1,14 +1,14 @@
 ---
 title: IsVisible
 second_title: Справочник по API Aspose.Slides для .NET
-description: Получает или задает видимость полос ошибок. Чтение/записьBoolean.
+description: Получает или устанавливает видимость полос ошибок . Чтение/записьBoolean .
 type: docs
 weight: 40
 url: /ru/net/aspose.slides.charts/errorbarsformat/isvisible/
 ---
 ## ErrorBarsFormat.IsVisible property
 
-Получает или задает видимость полос ошибок. Чтение/записьBoolean.
+Получает или устанавливает видимость полос ошибок . Чтение/записьBoolean .
 
 ```csharp
 public bool IsVisible { get; set; }

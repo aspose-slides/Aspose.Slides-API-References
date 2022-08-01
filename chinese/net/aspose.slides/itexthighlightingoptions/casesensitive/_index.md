@@ -1,14 +1,14 @@
 ---
 title: CaseSensitive
 second_title: Aspose.Slides for .NET API 参考
-description: 设置为 true 以使用区分大小写的搜索否则为 false 读/写Boolean
+description: 设置为 true 以使用区分大小写的搜索否则为 false 读/写Boolean.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides/itexthighlightingoptions/casesensitive/
 ---
 ## ITextHighlightingOptions.CaseSensitive property
 
-设置为 true 以使用区分大小写的搜索，否则为 false。 读/写Boolean。
+设置为 true 以使用区分大小写的搜索，否则为 false。 读/写Boolean.
 
 ```csharp
 public bool CaseSensitive { get; set; }

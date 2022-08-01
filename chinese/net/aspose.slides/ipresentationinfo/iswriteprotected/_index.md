@@ -1,14 +1,14 @@
 ---
 title: IsWriteProtected
 second_title: Aspose.Slides for .NET API 参考
-description: 获取一个值该值指示绑定的表示是否被写保护
+description: 获取一个值该值指示绑定的表示是否写保护
 type: docs
 weight: 30
 url: /zh/net/aspose.slides/ipresentationinfo/iswriteprotected/
 ---
 ## IPresentationInfo.IsWriteProtected property
 
-获取一个值，该值指示绑定的表示是否被写保护。
+获取一个值，该值指示绑定的表示是否写保护。
 
 ```csharp
 public NullableBool IsWriteProtected { get; }
@@ -16,7 +16,7 @@ public NullableBool IsWriteProtected { get; }
 
 ### 评论
 
-如果演示文稿是受密码保护打开，属性值等于 NotDefined。 参见[`NullableBool`](../../nullablebool)枚举。
+如果演示文稿受密码保护才能打开，则属性值等于 NotDefined。 请参阅[`NullableBool`](../../nullablebool)枚举.
 
 ### 例子
 

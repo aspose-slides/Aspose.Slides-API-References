@@ -1,14 +1,14 @@
 ---
 title: AsITheme
 second_title: Aspose.Slides for .NET API 参考
-description: 允许获取基本的 ITheme 界面 只读IThemeaspose.slides.theme/itheme
+description: 允许获取基本 ITheme 接口 只读IThemeaspose.slides.theme/itheme.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides.theme/imastertheme/asitheme/
 ---
 ## IMasterTheme.AsITheme property
 
-允许获取基本的 ITheme 界面。 只读[`ITheme`](../../itheme)。
+允许获取基本 ITheme 接口。 只读[`ITheme`](../../itheme).
 
 ```csharp
 public ITheme AsITheme { get; }

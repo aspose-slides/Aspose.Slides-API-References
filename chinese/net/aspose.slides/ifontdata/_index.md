@@ -18,7 +18,7 @@ public interface IFontData
 
 | 姓名 | 描述 |
 | --- | --- |
-| [FontName](../../aspose.slides/ifontdata/fontname) { get; } | 返回字体名称。 只读String。 |
+| [FontName](../../aspose.slides/ifontdata/fontname) { get; } | 返回字体名称。 只读String. |
 
 ## 方法
 

@@ -1,14 +1,14 @@
 ---
 title: ReadPresentation
 second_title: Aspose.Slides for .NET API 参考
-description: 从数组
+description: 从 array 读取现有的演示文稿
 type: docs
 weight: 60
 url: /zh/net/aspose.slides/presentationfactory/readpresentation/
 ---
 ## ReadPresentation(byte[]) {#readpresentation}
 
-从数组
+从 array 读取现有的演示文稿
 
 ```csharp
 public IPresentation ReadPresentation(byte[] data)
@@ -16,7 +16,7 @@ public IPresentation ReadPresentation(byte[] data)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| 数据 | Byte[] | 要读取的数组 |
+| data | Byte[] | 要读取的数组 |
 
 ### 返回值
 
@@ -46,7 +46,7 @@ public IPresentation ReadPresentation(byte[] data, ILoadOptions options)
 
 ### 返回值
 
-读取演示文稿
+阅读演示文稿
 
 ### 也可以看看
 
@@ -60,7 +60,7 @@ public IPresentation ReadPresentation(byte[] data, ILoadOptions options)
 
 ## ReadPresentation(Stream) {#readpresentation_2}
 
-从流中读取现有演示文稿
+从流 中读取现有演示文稿
 
 ```csharp
 public IPresentation ReadPresentation(Stream stream)
@@ -72,7 +72,7 @@ public IPresentation ReadPresentation(Stream stream)
 
 ### 返回值
 
-阅读演示
+阅读演示文稿
 
 ### 也可以看看
 
@@ -85,7 +85,7 @@ public IPresentation ReadPresentation(Stream stream)
 
 ## ReadPresentation(Stream, ILoadOptions) {#readpresentation_3}
 
-从带有附加加载选项的流中读取现有演示文稿
+使用附加加载选项从流中读取现有演示文稿
 
 ```csharp
 public IPresentation ReadPresentation(Stream stream, ILoadOptions options)
@@ -98,7 +98,7 @@ public IPresentation ReadPresentation(Stream stream, ILoadOptions options)
 
 ### 返回值
 
-读取演示文稿
+阅读演示文稿
 
 ### 也可以看看
 
@@ -124,7 +124,7 @@ public IPresentation ReadPresentation(string file)
 
 ### 返回值
 
-阅读演示
+阅读演示文稿
 
 ### 也可以看看
 
@@ -137,7 +137,7 @@ public IPresentation ReadPresentation(string file)
 
 ## ReadPresentation(string, ILoadOptions) {#readpresentation_5}
 
-从带有附加加载选项的流中读取现有演示文稿
+使用附加加载选项从流中读取现有演示文稿
 
 ```csharp
 public IPresentation ReadPresentation(string file, ILoadOptions options)

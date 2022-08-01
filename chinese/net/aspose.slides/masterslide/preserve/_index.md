@@ -1,14 +1,14 @@
 ---
 title: Preserve
 second_title: Aspose.Slides for .NET API 参考
-description: 确定在删除该母版之后的所有幻灯片时是否删除相应母版 注意Aspose.Slides 永远不会自己删除任何未使用的主控要实际删除未使用的主控调用RemoveUnusedaspose.slides/masterslidecollection/removeunused 读/写Boolean
+description: 确定在删除该master之后的所有幻灯片时是否删除相应的master 注意Aspose.Slides永远不会自行删除任何未使用的master要实际删除未使用的master调用RemoveUnusedaspose.slides/masterslidecollection/removeunused 读/写Boolean.
 type: docs
 weight: 70
 url: /zh/net/aspose.slides/masterslide/preserve/
 ---
 ## MasterSlide.Preserve property
 
-确定在删除该母版之后的所有幻灯片时是否删除相应母版。 注意:Aspose.Slides 永远不会自己删除任何未使用的主控，要实际删除未使用的主控调用[`RemoveUnused`](../../masterslidecollection/removeunused) 读/写Boolean。
+确定在删除该master之后的所有幻灯片时是否删除相应的master。 注意：Aspose.Slides永远不会自行删除任何未使用的master，要实际删除未使用的master调用[`RemoveUnused`](../../masterslidecollection/removeunused) 读/写Boolean.
 
 ```csharp
 public bool Preserve { get; set; }

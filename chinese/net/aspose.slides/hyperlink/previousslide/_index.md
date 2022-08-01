@@ -1,14 +1,14 @@
 ---
 title: PreviousSlide
 second_title: Aspose.Slides for .NET API 参考
-description: 返回上一张幻灯片的超链接 只读Hyperlinkaspose.slides/hyperlink
+description: 返回上一张幻灯片的超链接 只读Hyperlinkaspose.slides/hyperlink.
 type: docs
 weight: 90
 url: /zh/net/aspose.slides/hyperlink/previousslide/
 ---
 ## Hyperlink.PreviousSlide property
 
-返回上一张幻灯片的超链接。 只读[`Hyperlink`](../../hyperlink)。
+返回上一张幻灯片的超链接。 只读[`Hyperlink`](../../hyperlink).
 
 ```csharp
 public static Hyperlink PreviousSlide { get; }

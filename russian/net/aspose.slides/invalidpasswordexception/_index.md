@@ -19,7 +19,7 @@ public class InvalidPasswordException : Exception
 | Имя | Описание |
 | --- | --- |
 | [InvalidPasswordException](invalidpasswordexception#constructor)() | Конструктор по умолчанию. |
-| [InvalidPasswordException](invalidpasswordexception#constructor_1)(string) | Конструктор, позволяющий добавить сообщение к этому исключению. |
+| [InvalidPasswordException](invalidpasswordexception#constructor_1)(string) | Конструктор, позволяющий добавить сообщение в это исключение. |
 | [InvalidPasswordException](invalidpasswordexception#constructor_2)(string, Exception) | Конструктор исключения, содержащего сообщение и встроенное исключение. |
 
 ### Смотрите также

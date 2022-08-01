@@ -1,14 +1,14 @@
 ---
 title: IChartTextFormat
 second_title: Aspose.Slides for .NET API 参考
-description: 图表使用有限的文本格式属性集进行操作 IChartTextFormatIChartTextBlockFormatIChartParagraphFormatIChartPortionFormat 接口描述了这个受限集
+description: 图表使用受限的文本格式属性集进行操作 IChartTextFormatIChartTextBlockFormatIChartParagraphFormatIChartPortionFormat 接口描述了这个受限集
 type: docs
 weight: 1850
 url: /zh/net/aspose.slides.charts/icharttextformat/
 ---
 ## IChartTextFormat interface
 
-图表使用有限的文本格式属性集进行操作。 IChartTextFormat、IChartTextBlockFormat、IChartParagraphFormat、IChartPortionFormat 接口描述了这个受限集。
+图表使用受限的文本格式属性集进行操作。 IChartTextFormat、IChartTextBlockFormat、IChartParagraphFormat、IChartPortionFormat 接口描述了这个受限集。
 
 ```csharp
 public interface IChartTextFormat
@@ -18,9 +18,9 @@ public interface IChartTextFormat
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ParagraphFormat](../../aspose.slides.charts/icharttextformat/paragraphformat) { get; } | 返回段落格式。 只读[`IChartParagraphFormat`](../ichartparagraphformat)。 |
-| [PortionFormat](../../aspose.slides.charts/icharttextformat/portionformat) { get; } | 返回部分格式。 只读[`IChartPortionFormat`](../ichartportionformat)。 |
-| [TextBlockFormat](../../aspose.slides.charts/icharttextformat/textblockformat) { get; } | 返回图表文本元素的格式。 只读[`IChartTextBlockFormat`](../icharttextblockformat)。 |
+| [ParagraphFormat](../../aspose.slides.charts/icharttextformat/paragraphformat) { get; } | 返回段落格式。 只读[`IChartParagraphFormat`](../ichartparagraphformat). |
+| [PortionFormat](../../aspose.slides.charts/icharttextformat/portionformat) { get; } | 返回部分格式。 只读[`IChartPortionFormat`](../ichartportionformat). |
+| [TextBlockFormat](../../aspose.slides.charts/icharttextformat/textblockformat) { get; } | 返回图表文本元素的格式。 只读[`IChartTextBlockFormat`](../icharttextblockformat). |
 
 ## 方法
 

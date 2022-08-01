@@ -1,14 +1,14 @@
 ---
 title: AsCell
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или устанавливает ячейку данных диаграммы. Чтение/записьIChartDataCellaspose.slides.charts/ichartdatacell.
+description: Возвращает или устанавливает ячейку данных диаграммы. Чтение/записьIChartDataCellaspose.slides.charts/ichartdatacell .
 type: docs
 weight: 10
 url: /ru/net/aspose.slides.charts/doublechartvalue/ascell/
 ---
 ## DoubleChartValue.AsCell property
 
-Возвращает или устанавливает ячейку данных диаграммы. Чтение/запись[`IChartDataCell`](../../ichartdatacell).
+Возвращает или устанавливает ячейку данных диаграммы. Чтение/запись[`IChartDataCell`](../../ichartdatacell) .
 
 ```csharp
 public IChartDataCell AsCell { get; set; }

@@ -18,9 +18,9 @@ public interface IMathElementCollection : IEnumerable<IMathElement>
 
 | Имя | Описание |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.mathtext/imathelementcollection/asienumerable) { get; } | Возвращает интерфейс IEnumerable. Только для чтенияIEnumerable. |
-| [Count](../../aspose.slides.mathtext/imathelementcollection/count) { get; } | Получает количество элементов, фактически содержащихся в коллекции. Только для чтенияInt32. |
-| [Item](../../aspose.slides.mathtext/imathelementcollection/item) { get; } | Получает элемент по указанному индексу. Только для чтения[`IMathElement`](../imathelement). |
+| [AsIEnumerable](../../aspose.slides.mathtext/imathelementcollection/asienumerable) { get; } | Возвращает интерфейс IEnumerable. Только для чтенияIEnumerable . |
+| [Count](../../aspose.slides.mathtext/imathelementcollection/count) { get; } | Получает количество элементов, фактически содержащихся в коллекции. Только для чтенияInt32 . |
+| [Item](../../aspose.slides.mathtext/imathelementcollection/item) { get; } | Получает элемент по указанному индексу. Только для чтения[`IMathElement`](../imathelement) . |
 
 ## Методы
 

@@ -1,14 +1,14 @@
 ---
 title: Entries
 second_title: Aspose.Slides for .NET API 参考
-description: 获取图例条目 只读ILegendEntryCollectionaspose.slides.charts/ilegendentrycollection
+description: 获取图例条目 只读ILegendEntryCollectionaspose.slides.charts/ilegendentrycollection.
 type: docs
 weight: 30
 url: /zh/net/aspose.slides.charts/ilegend/entries/
 ---
 ## ILegend.Entries property
 
-获取图例条目。 只读[`ILegendEntryCollection`](../../ilegendentrycollection)。
+获取图例条目。 只读[`ILegendEntryCollection`](../../ilegendentrycollection).
 
 ```csharp
 public ILegendEntryCollection Entries { get; }

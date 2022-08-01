@@ -18,9 +18,9 @@ public interface ICommentAuthor
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Comments](../../aspose.slides/icommentauthor/comments) { get; } | 返回此作者的评论集合。 只读[`ICommentCollection`](../icommentcollection)。 |
-| [Initials](../../aspose.slides/icommentauthor/initials) { get; set; } | 返回或设置作者姓名首字母。 读/写String。 |
-| [Name](../../aspose.slides/icommentauthor/name) { get; set; } | 返回或设置作者姓名。 读/写String。 |
+| [Comments](../../aspose.slides/icommentauthor/comments) { get; } | 返回此作者发表的评论集合。 只读[`ICommentCollection`](../icommentcollection). |
+| [Initials](../../aspose.slides/icommentauthor/initials) { get; set; } | 返回或设置作者姓名首字母。 读/写String. |
+| [Name](../../aspose.slides/icommentauthor/name) { get; set; } | 返回或设置作者姓名。 读/写String. |
 
 ## 方法
 

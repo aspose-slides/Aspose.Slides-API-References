@@ -16,7 +16,7 @@ public void SetTextFormat(IPortionFormat source)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| source | IPortionFormat | IPortionFormat 具有必要属性集的对象。 |
+| source | IPortionFormat | 具有必要属性集的 IPortionFormat 对象。 |
 
 ### 也可以看看
 
@@ -37,7 +37,7 @@ public void SetTextFormat(IParagraphFormat source)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| source | IParagraphFormat | IParagraphFormat 具有必要属性集的对象。 |
+| source | IParagraphFormat | 具有必要属性集的 IParagraphFormat 对象。 |
 
 ### 也可以看看
 
@@ -50,7 +50,7 @@ public void SetTextFormat(IParagraphFormat source)
 
 ## SetTextFormat(ITextFrameFormat) {#settextformat_2}
 
-将定义的文本框格式属性设置为所有行单元格的文本框。
+将定义的文本框架格式属性设置为所有行单元格的文本框架。
 
 ```csharp
 public void SetTextFormat(ITextFrameFormat source)
@@ -58,7 +58,7 @@ public void SetTextFormat(ITextFrameFormat source)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| source | ITextFrameFormat | 具有必要属性集的 ITextFrameFormat 对象。 |
+| source | ITextFrameFormat | 设置了必要属性的 ITextFrameFormat 对象。 |
 
 ### 也可以看看
 

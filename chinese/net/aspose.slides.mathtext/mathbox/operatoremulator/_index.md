@@ -1,14 +1,14 @@
 ---
 title: OperatorEmulator
 second_title: Aspose.Slides for .NET API 参考
-description: 操作员模拟器 当为 true 时框及其内容表现为单个运算符并继承运算符的属性 这意味着例如字符可以用作换行符并且可以与其他运算符对齐 Operator Emulators 通常在一个或多个字形组合形成一个运算符时使用例如 默认值假
+description: Operator Emulator. 如果为 true则框及其内容表现为单个运算符并继承运算符的属性 这意味着例如该字符可以作为换行符的一个点并且可以与其他运算符对齐 运算符 当一个或多个字形组合形成一个运算符时通常使用模拟器例如 . 默认值false
 type: docs
 weight: 70
 url: /zh/net/aspose.slides.mathtext/mathbox/operatoremulator/
 ---
 ## MathBox.OperatorEmulator property
 
-操作员模拟器。 当为 true 时，框及其内容表现为单个运算符并继承运算符的属性。 这意味着，例如，字符可以用作换行符，并且可以与其他运算符对齐。 Operator Emulators 通常在一个或多个字形组合形成一个运算符时使用，例如'=='。 默认值:假
+Operator Emulator. 如果为 true，则框及其内容表现为单个运算符并继承运算符的属性。 这意味着，例如，该字符可以作为换行符的一个点，并且可以与其他运算符对齐。 运算符 当一个或多个字形组合形成一个运算符时，通常使用模拟器，例如“==” . 默认值：false
 
 ```csharp
 public bool OperatorEmulator { get; set; }
@@ -16,7 +16,7 @@ public bool OperatorEmulator { get; set; }
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]

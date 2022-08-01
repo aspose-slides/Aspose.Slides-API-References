@@ -1,14 +1,14 @@
 ---
 title: AsIShape
 second_title: Aspose.Slides for .NET API 参考
-description: 允许获取基本 IShape 接口 只读IShapeaspose.slides/ishape
+description: 允许获取基本 IShape 接口 只读IShapeaspose.slides/ishape.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides/igraphicalobject/asishape/
 ---
 ## IGraphicalObject.AsIShape property
 
-允许获取基本 IShape 接口。 只读[`IShape`](../../ishape)。
+允许获取基本 IShape 接口。 只读[`IShape`](../../ishape).
 
 ```csharp
 public IShape AsIShape { get; }

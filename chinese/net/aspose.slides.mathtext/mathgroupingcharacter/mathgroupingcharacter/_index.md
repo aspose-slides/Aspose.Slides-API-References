@@ -1,14 +1,14 @@
 ---
 title: MathGroupingCharacter
 second_title: Aspose.Slides for .NET API 参考
-description: 使用默认分组字符 U23DF下大括号 初始化 MathGroupingCharacter 类的新实例
+description: 使用默认分组字符 U23DF BOTTOM CURLY BRACKET 初始化 MathGroupingCharacter 类 的新实例
 type: docs
 weight: 10
 url: /zh/net/aspose.slides.mathtext/mathgroupingcharacter/mathgroupingcharacter/
 ---
 ## MathGroupingCharacter(IMathElement) {#constructor}
 
-使用默认分组字符 U+23DF（下大括号） 初始化 MathGroupingCharacter 类的新实例
+使用默认分组字符 U+23DF (BOTTOM CURLY BRACKET) 初始化 MathGroupingCharacter 类 的新实例
 
 ```csharp
 public MathGroupingCharacter(IMathElement element)
@@ -16,11 +16,11 @@ public MathGroupingCharacter(IMathElement element)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| element | IMathElement | 应用条的基本元素 |
+| element | IMathElement | 应用栏的基本元素 |
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]
@@ -47,14 +47,14 @@ public MathGroupingCharacter(IMathElement element, char character, MathTopBotPos
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| element | IMathElement | 应用条的基本元素 |
+| element | IMathElement | 应用栏的基本元素 |
 | character | Char | 分组字符 |
-| position | MathTopBotPositions | 分组字符位置 |
-| verticalJustification | MathTopBotPositions | 分组字符垂直对齐 |
+| position | MathTopBotPositions | 分组字符的位置 |
+| verticalJustification | MathTopBotPositions | 组字符的垂直对齐 |
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]

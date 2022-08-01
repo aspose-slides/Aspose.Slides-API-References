@@ -1,14 +1,14 @@
 ---
 title: PieSplitCustomPointCollection
 second_title: Aspose.Slides for .NET API 参考
-description: 表示饼图条形图或饼图带有自定义拆分的点的集合
+description: 表示用于在饼图或饼图中使用自定义拆分进行拆分的点集合
 type: docs
 weight: 2230
 url: /zh/net/aspose.slides.charts/piesplitcustompointcollection/
 ---
 ## PieSplitCustomPointCollection class
 
-表示饼图条形图或饼图带有自定义拆分的点的集合。
+表示用于在饼图或饼图中使用自定义拆分进行拆分的点集合。
 
 ```csharp
 public class PieSplitCustomPointCollection : IPieSplitCustomPointCollection
@@ -18,11 +18,11 @@ public class PieSplitCustomPointCollection : IPieSplitCustomPointCollection
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Count](../../aspose.slides.charts/piesplitcustompointcollection/count) { get; } | 返回或设置图表数据点的计数。 只读Int32。 |
-| [IsReadOnly](../../aspose.slides.charts/piesplitcustompointcollection/isreadonly) { get; } | 获取一个值，该值指示ICollection是否为只读。 只读Boolean。 |
-| [IsSynchronized](../../aspose.slides.charts/piesplitcustompointcollection/issynchronized) { get; } | 返回一个值，指示对集合的访问是否同步（线程安全）。 只读Boolean。 |
+| [Count](../../aspose.slides.charts/piesplitcustompointcollection/count) { get; } | 返回或设置图表数据点的计数。 只读Int32. |
+| [IsReadOnly](../../aspose.slides.charts/piesplitcustompointcollection/isreadonly) { get; } | 获取一个值，该值指示是否ICollection是只读的。 只读Boolean. |
+| [IsSynchronized](../../aspose.slides.charts/piesplitcustompointcollection/issynchronized) { get; } | 返回一个值，指示对集合的访问是否同步（线程安全）。 只读Boolean. |
 | [Item](../../aspose.slides.charts/piesplitcustompointcollection/item) { get; } | 返回指定索引的图表数据点。 |
-| [SyncRoot](../../aspose.slides.charts/piesplitcustompointcollection/syncroot) { get; } | 返回同步根。 只读Object。 |
+| [SyncRoot](../../aspose.slides.charts/piesplitcustompointcollection/syncroot) { get; } | 返回同步根。 只读Object. |
 
 ## 方法
 
@@ -30,12 +30,12 @@ public class PieSplitCustomPointCollection : IPieSplitCustomPointCollection
 | --- | --- |
 | [Add](../../aspose.slides.charts/piesplitcustompointcollection/add#add)(IChartDataPoint) | 将数据点添加到集合中。 |
 | [Add](../../aspose.slides.charts/piesplitcustompointcollection/add#add_1)(int) | 在父系列点集合中按其索引添加数据点。 |
-| [Clear](../../aspose.slides.charts/piesplitcustompointcollection/clear)() | 从ICollection中删除所有项目。 |
-| [Contains](../../aspose.slides.charts/piesplitcustompointcollection/contains)(IChartDataPoint) | 确定ICollection是否包含特定值。 |
-| [CopyTo](../../aspose.slides.charts/piesplitcustompointcollection/copyto)(IChartDataPoint[], int) | 将ICollection的元素复制到System。Array，从特定的Array索引开始。 |
+| [Clear](../../aspose.slides.charts/piesplitcustompointcollection/clear)() | 从ICollection. |
+| [Contains](../../aspose.slides.charts/piesplitcustompointcollection/contains)(IChartDataPoint) | 确定是否ICollection包含特定值。 |
+| [CopyTo](../../aspose.slides.charts/piesplitcustompointcollection/copyto)(IChartDataPoint[], int) | 复制元素ICollection对一个Array，从一个特定的开始Array索引. |
 | [GetEnumerator](../../aspose.slides.charts/piesplitcustompointcollection/getenumerator)() | 返回一个遍历集合的枚举器。 |
-| [Remove](../../aspose.slides.charts/piesplitcustompointcollection/remove#remove)(IChartDataPoint) | 从集合中移除项目。 |
-| [Remove](../../aspose.slides.charts/piesplitcustompointcollection/remove#remove_1)(int) | 通过父系列点集合中的索引从集合中删除项目。 |
+| [Remove](../../aspose.slides.charts/piesplitcustompointcollection/remove#remove)(IChartDataPoint) | 从集合中删除项目。 |
+| [Remove](../../aspose.slides.charts/piesplitcustompointcollection/remove#remove_1)(int) | 通过它在父系列点集合中的索引从集合中删除项目。 |
 
 ### 也可以看看
 

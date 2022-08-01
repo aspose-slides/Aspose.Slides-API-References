@@ -1,14 +1,14 @@
 ---
 title: SetGroupingItem
 second_title: Aspose.Slides for .NET API 参考
-description: 为定义的级别设置分组项
+description: 为定义的级别设置分组项目
 type: docs
 weight: 30
 url: /zh/net/aspose.slides.charts/chartcategorylevelsmanager/setgroupingitem/
 ---
 ## ChartCategoryLevelsManager.SetGroupingItem method
 
-为定义的级别设置分组项。
+为定义的级别设置分组项目。
 
 ```csharp
 public void SetGroupingItem(int level, object value)

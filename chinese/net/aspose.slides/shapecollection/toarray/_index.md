@@ -16,7 +16,7 @@ public IShape[] ToArray()
 
 ### 返回值
 
-[`Shape`](../../shape)
+数组[`Shape`](../../shape)
 
 ### 也可以看看
 
@@ -29,7 +29,7 @@ public IShape[] ToArray()
 
 ## ToArray(int, int) {#toarray_1}
 
-创建并返回一个数组，其中包含指定范围内的所有形状。  要返回的第一个形状的索引。 要返回的形状数量。
+创建并返回一个数组，其中包含指定范围内的所有形状。 要返回的第一个形状的索引。要返回的许多形状。
 
 ```csharp
 public IShape[] ToArray(int startIndex, int count)
@@ -37,7 +37,7 @@ public IShape[] ToArray(int startIndex, int count)
 
 ### 返回值
 
-[`Shape`](../../shape)
+数组[`Shape`](../../shape)
 
 ### 也可以看看
 

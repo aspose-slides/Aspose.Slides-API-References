@@ -1,14 +1,14 @@
 ---
 title: ShowLegendKey
 second_title: Aspose.Slides for .NET API 参考
-description: 如果数据标签图例键可见则为真 读/写Boolean
+description: 如果数据标签图例键可见则为真 读/写Boolean.
 type: docs
 weight: 60
 url: /zh/net/aspose.slides.charts/idatatable/showlegendkey/
 ---
 ## IDataTable.ShowLegendKey property
 
-如果数据标签图例键可见，则为真。 读/写Boolean。
+如果数据标签图例键可见，则为真。 读/写Boolean.
 
 ```csharp
 public bool ShowLegendKey { get; set; }

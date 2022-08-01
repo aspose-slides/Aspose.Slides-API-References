@@ -22,7 +22,7 @@ public interface IImageTransformOCollectionEffectiveData : IGenericCollection<IE
 
 ### 评论
 
-名称 IImageTransformOperationCollectionEffectiveData 被截断为 IImageTransformOCollectionEffectiveData 因为 COM 名称长度不能超过 39。
+名称 IImageTransformOperationCollectionEffectiveData 被截断为 IImageTransformOCollectionEffectiveData，因为 COM 名称长度不能超过 39.
 
 ### 也可以看看
 

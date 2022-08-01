@@ -1,14 +1,14 @@
 ---
 title: TransitionDuration
 second_title: Aspose.Slides for .NET API 参考
-description: 获取或设置缩放和幻灯片之间转换的持续时间 读/写Single 默认值1.0f
+description: 获取或设置缩放和幻灯片之间转换的持续时间 读/写Single. 默认值1.0f
 type: docs
 weight: 50
 url: /zh/net/aspose.slides/zoomobject/transitionduration/
 ---
 ## ZoomObject.TransitionDuration property
 
-获取或设置缩放和幻灯片之间转换的持续时间。 读/写Single。 默认值:1.0f
+获取或设置缩放和幻灯片之间转换的持续时间。 读/写Single. 默认值：1.0f
 
 ```csharp
 public float TransitionDuration { get; set; }
@@ -16,11 +16,11 @@ public float TransitionDuration { get; set; }
 
 ### 评论
 
-如果未指定（TransitionDur = 0） ，它将使用目标幻灯片过渡以及与该过渡相关的时间。
+如果未指定 (TransitionDur = 0)，它将使用目标幻灯片转换和与该转换关联的时间。
 
 ### 例子
 
-该示例演示了更改缩放和滑动之间的过渡持续时间:
+该示例演示了更改缩放和幻灯片之间过渡的持续时间：
 
 ```csharp
 [C#]

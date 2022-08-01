@@ -18,17 +18,17 @@ public class FillOverlay : ImageTransformOperation, IFillOverlay
 
 | Имя | Описание |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Позволяет получить базовый интерфейс IPresentationComponent. Только для чтения[`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
-| [Blend](../../aspose.slides.effects/filloverlay/blend) { get; set; } | FillBlendMode. Чтение/запись[`FillBlendMode`](../../aspose.slides/fillblendmode). |
-| [FillFormat](../../aspose.slides.effects/filloverlay/fillformat) { get; } | Формат заполнения. Только для чтения[`IFillFormat`](../../aspose.slides/ifillformat). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Позволяет получить базовый интерфейс IPresentationComponent. Только для чтения[`IPresentationComponent`](../../aspose.slides/ipresentationcomponent) . |
+| [Blend](../../aspose.slides.effects/filloverlay/blend) { get; set; } | FillBlendMode. Чтение/запись[`FillBlendMode`](../../aspose.slides/fillblendmode) . |
+| [FillFormat](../../aspose.slides.effects/filloverlay/fillformat) { get; } | Формат заполнения. Только для чтения[`IFillFormat`](../../aspose.slides/ifillformat) . |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/filloverlay/equals)(object) | Определяет, равен ли указанный[`FillOverlay`](../filloverlay)текущемуFillOverlay. |
-| [GetEffective](../../aspose.slides.effects/filloverlay/geteffective)() | Получает эффективные данные эффекта Fill Overlay с применением наследования. |
-| override [GetHashCode](../../aspose.slides.effects/filloverlay/gethashcode)() | Служит хэш-функцией для определенного типа. |
+| override [Equals](../../aspose.slides.effects/filloverlay/equals)(object) | Определяет, является ли указанный[`FillOverlay`](../filloverlay) равен текущему[`FillOverlay`](../filloverlay) . |
+| [GetEffective](../../aspose.slides.effects/filloverlay/geteffective)() | Получает данные об эффективном эффекте Fill Overlay с применением наследования. |
+| override [GetHashCode](../../aspose.slides.effects/filloverlay/gethashcode)() | Служит хеш-функцией для определенного типа. |
 
 ### Смотрите также
 

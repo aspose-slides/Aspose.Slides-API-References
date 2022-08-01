@@ -1,14 +1,14 @@
 ---
 title: JpegQuality
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置确定 PDF 文档中 JPEG 图像质量的值 读/写Byte
+description: 返回或设置确定 PDF 文档中 JPEG 图像质量的值 读/写Byte.
 type: docs
 weight: 110
 url: /zh/net/aspose.slides.export/ipdfoptions/jpegquality/
 ---
 ## IPdfOptions.JpegQuality property
 
-返回或设置确定 PDF 文档中 JPEG 图像质量的值。 读/写Byte。
+返回或设置确定 PDF 文档中 JPEG 图像质量的值。 读/写Byte.
 
 ```csharp
 public byte JpegQuality { get; set; }
@@ -16,11 +16,11 @@ public byte JpegQuality { get; set; }
 
 ### 评论
 
-仅在文档包含 JPEG 图像时有效。
+仅当文档包含 JPEG 图像时才有效。
 
-当以 PDF 格式保存时，使用此属性获取或设置文档中图像的质量。 该值可能在 0 到 100 之间变化，其中 0 表示质量最差但压缩最大，100 表示质量最好但压缩最小。
+保存为 PDF 格式时，使用此属性获取或设置文档中图像的质量。 该值可能在 0 到 100 之间变化，其中 0 表示质量最差但压缩最大，100 表示质量最好但压缩最小。
 
-默认值为 **100** 。
+默认值为 **100**.
 
 ### 也可以看看
 

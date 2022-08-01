@@ -1,14 +1,14 @@
 ---
 title: ExtrusionSkewAngle
 second_title: Aspose.Slides for .NET API 参考
-description: 表示 extrusion.skewangle 属性
+description: 表示extrusion.skewangle 属性
 type: docs
 weight: 200
 url: /zh/net/aspose.slides.animation/behaviorproperty/extrusionskewangle/
 ---
 ## BehaviorProperty.ExtrusionSkewAngle property
 
-表示 'extrusion.skewangle' 属性
+表示'extrusion.skewangle' 属性
 
 ```csharp
 public static BehaviorProperty ExtrusionSkewAngle { get; }

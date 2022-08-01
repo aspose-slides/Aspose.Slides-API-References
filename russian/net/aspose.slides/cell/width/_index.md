@@ -1,14 +1,14 @@
 ---
 title: Width
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает ширину ячейки. Только для чтенияDouble.
+description: Возвращает ширину ячейки. Только для чтенияDouble .
 type: docs
 weight: 240
 url: /ru/net/aspose.slides/cell/width/
 ---
 ## Cell.Width property
 
-Возвращает ширину ячейки. Только для чтенияDouble.
+Возвращает ширину ячейки. Только для чтенияDouble .
 
 ```csharp
 public double Width { get; }

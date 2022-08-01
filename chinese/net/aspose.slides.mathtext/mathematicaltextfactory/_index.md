@@ -1,14 +1,14 @@
 ---
 title: MathematicalTextFactory
 second_title: Aspose.Slides for .NET API 参考
-description: 允许创建一个 MathematicalText 元素
+description: 允许创建一个数学文本元素
 type: docs
 weight: 8340
 url: /zh/net/aspose.slides.mathtext/mathematicaltextfactory/
 ---
 ## MathematicalTextFactory class
 
-允许创建一个 MathematicalText 元素
+允许创建一个数学文本元素
 
 ```csharp
 public class MathematicalTextFactory : IMathematicalTextFactory
@@ -31,7 +31,7 @@ public class MathematicalTextFactory : IMathematicalTextFactory
 
 ### 评论
 
-用于 COM 比较
+用于 COM 可比性
 
 ### 也可以看看
 

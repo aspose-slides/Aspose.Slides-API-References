@@ -18,11 +18,11 @@ public enum MathSpacingRules
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| SingleSpacingGap | `0` | 单（列 1 em 或行 1 行） |
+| SingleSpacingGap | `0` | 单个（列 1 em 或行 1 行） |
 | OneAndHalfSpacingGap | `1` | 一个半（列 1.5 ems 或行 1.5 行） |
 | DoubleSpacingGap | `2` | 双倍行距（列 2 ems 或行 2 行） |
-| Exactly | `3` | 精确值 对于列，依赖于 ColumnGap 的值，以缇为单位 对于行，依赖于值RowGap，单位为缇 |
-| Multiple | `4` | Multiple 对于列，依赖于 ColumnGap 的值，以 0.5 em 为增量测量 对于行，依赖于值的 RowGap，以行 |
+| Exactly | `3` | 确切值 对于列，依赖于 ColumnGap 的值，以 twips 为单位 对于行，依赖于 RowGap 的值，以 twips 为单位 |
+| Multiple | `4` | Multiple 对于列，依赖于 ColumnGap 的值，以 0.5 em 增量衡量 对于行，依赖于 RowGap 的值，以行为单位 |
 
 ### 也可以看看
 

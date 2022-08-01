@@ -22,7 +22,7 @@ public IChartSeries this[int index] { get; }
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentOutOfRangeException | *index*不是:::R5 中的有效索引:T:System.Collections.IList:::。 |
+| ArgumentOutOfRangeException | *index*不是有效的索引IList. |
 
 ### 也可以看看
 

@@ -18,7 +18,7 @@ public enum PresetColor
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| NotDefined | `-1` | 颜色预设未定义。 |
+| NotDefined | `-1` | 未定义颜色预设。 |
 | AliceBlue | `0` |  |
 | AntiqueWhite | `1` |  |
 | Aqua | `2` |  |

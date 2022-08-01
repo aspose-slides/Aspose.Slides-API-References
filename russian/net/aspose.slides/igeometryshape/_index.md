@@ -18,19 +18,19 @@ public interface IGeometryShape : IShape
 
 | Имя | Описание |
 | --- | --- |
-| [Adjustments](../../aspose.slides/igeometryshape/adjustments) { get; } | Возвращает набор значений настройки формы. Только для чтения[`IAdjustValueCollection`](../iadjustvaluecollection). |
-| [AsIShape](../../aspose.slides/igeometryshape/asishape) { get; } | Позволяет получить базовый интерфейс IShape. Только для чтения[`IShape`](../ishape). |
-| [ShapeStyle](../../aspose.slides/igeometryshape/shapestyle) { get; } | Возвращает объект стиля фигуры. Только для чтения[`IShapeStyle`](../ishapestyle). |
-| [ShapeType](../../aspose.slides/igeometryshape/shapetype) { get; set; } | Возвращает или задает тип предустановки геометрии. Примечание:при изменении значения все значения регулировки будут возвращены к значениям по умолчанию. Чтение/запись[`ShapeType`](../shapetype). |
+| [Adjustments](../../aspose.slides/igeometryshape/adjustments) { get; } | Возвращает набор значений настройки фигуры. Только для чтения[`IAdjustValueCollection`](../iadjustvaluecollection) . |
+| [AsIShape](../../aspose.slides/igeometryshape/asishape) { get; } | Позволяет получить базовый интерфейс IShape. Только для чтения[`IShape`](../ishape) . |
+| [ShapeStyle](../../aspose.slides/igeometryshape/shapestyle) { get; } | Возвращает объект стиля формы. Только для чтения[`IShapeStyle`](../ishapestyle) . |
+| [ShapeType](../../aspose.slides/igeometryshape/shapetype) { get; set; } | Возвращает или задает тип предустановки геометрии. Примечание: при изменении значения все значения регулировки будут сброшены к значениям по умолчанию. Чтение/запись[`ShapeType`](../shapetype) . |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [CreateShapeElements](../../aspose.slides/igeometryshape/createshapeelements)() | Создает и возвращает массив элементов формы. |
-| [GetGeometryPaths](../../aspose.slides/igeometryshape/getgeometrypaths)() | Возвращает копию пути геометрической фигуры. Координаты относятся к левому верхнему углу фигуры. |
-| [SetGeometryPath](../../aspose.slides/igeometryshape/setgeometrypath)(IGeometryPath) | Обновляет геометрию формы из объекта[`IGeometryPath`](../igeometrypath). Координаты должны быть относительно левого верхнего угла фигуры. Изменяет тип фигуры ([`ShapeType`](./shapetype)) наCustom. |
-| [SetGeometryPaths](../../aspose.slides/igeometryshape/setgeometrypaths)(IGeometryPath[]) | Обновляет геометрию формы из массива[`IGeometryPath`](../igeometrypath). Координаты должны быть относительно левого верхнего угла фигуры. Изменяет тип фигуры ([`ShapeType`](./shapetype)) наCustom. |
+| [CreateShapeElements](../../aspose.slides/igeometryshape/createshapeelements)() | Создает и возвращает массив элементов фигуры. |
+| [GetGeometryPaths](../../aspose.slides/igeometryshape/getgeometrypaths)() | Возвращает копию пути геометрической формы. Координаты указаны относительно левого верхнего угла фигуры. |
+| [SetGeometryPath](../../aspose.slides/igeometryshape/setgeometrypath)(IGeometryPath) | Обновляет геометрию формы из[`IGeometryPath`](../igeometrypath) объект. Координаты должны указываться относительно левого верхнего угла фигуры. Изменяет тип фигуры ([`ShapeType`](./shapetype) ) кCustom . |
+| [SetGeometryPaths](../../aspose.slides/igeometryshape/setgeometrypaths)(IGeometryPath[]) | Обновляет геометрию формы из массива[`IGeometryPath`](../igeometrypath). Координаты должны указываться относительно левого верхнего угла фигуры. Изменяет тип фигуры ([`ShapeType`](./shapetype) ) кCustom . |
 
 ### Смотрите также
 

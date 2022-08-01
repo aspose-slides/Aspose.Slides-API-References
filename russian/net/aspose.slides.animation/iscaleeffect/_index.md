@@ -18,11 +18,11 @@ public interface IScaleEffect : IBehavior
 
 | Имя | Описание |
 | --- | --- |
-| [AsIBehavior](../../aspose.slides.animation/iscaleeffect/asibehavior) { get; } | Позволяет получить базовый интерфейс IBeavior. Только для чтения[`IBehavior`](../ibehavior). |
-| [By](../../aspose.slides.animation/iscaleeffect/by) { get; set; } | описывает значение относительного смещения для анимации (в процентах). Чтение/записьPointF. |
-| [From](../../aspose.slides.animation/iscaleeffect/from) { get; set; } | Указывает координату x/y для начала анимации (в процентах). Чтение/записьPointF. |
-| [To](../../aspose.slides.animation/iscaleeffect/to) { get; set; } | Указывает целевое местоположение для эффекта масштабирования анимации (в процентах). Чтение/записьPointF. |
-| [ZoomContent](../../aspose.slides.animation/iscaleeffect/zoomcontent) { get; set; } | Определяет, следует ли масштабировать содержимое. Чтение/запись[`NullableBool`](../../aspose.slides/nullablebool). |
+| [AsIBehavior](../../aspose.slides.animation/iscaleeffect/asibehavior) { get; } | Позволяет получить базовый интерфейс IBehavior. Только для чтения[`IBehavior`](../ibehavior) . |
+| [By](../../aspose.slides.animation/iscaleeffect/by) { get; set; } | описывает относительное значение смещения для анимации (в процентах). Чтение/записьPointF . |
+| [From](../../aspose.slides.animation/iscaleeffect/from) { get; set; } | Указывает координату x/y для начала анимации (в процентах). Чтение/записьPointF . |
+| [To](../../aspose.slides.animation/iscaleeffect/to) { get; set; } | Указывает целевое местоположение для эффекта масштабирования анимации (в процентах). Чтение/записьPointF . |
+| [ZoomContent](../../aspose.slides.animation/iscaleeffect/zoomcontent) { get; set; } | Определяет, следует ли масштабировать содержимое. Чтение/запись[`NullableBool`](../../aspose.slides/nullablebool) . |
 
 ### Смотрите также
 

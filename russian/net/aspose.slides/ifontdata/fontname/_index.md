@@ -1,14 +1,14 @@
 ---
 title: FontName
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает имя шрифта. Только чтениеString.
+description: Возвращает имя шрифта. Только для чтенияString .
 type: docs
 weight: 10
 url: /ru/net/aspose.slides/ifontdata/fontname/
 ---
 ## IFontData.FontName property
 
-Возвращает имя шрифта. Только чтениеString.
+Возвращает имя шрифта. Только для чтенияString .
 
 ```csharp
 public string FontName { get; }

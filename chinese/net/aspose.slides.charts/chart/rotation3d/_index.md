@@ -1,14 +1,14 @@
 ---
 title: Rotation3D
 second_title: Aspose.Slides for .NET API 参考
-description: 返回图表的 3D 旋转 只读IRotation3Daspose.slides.charts/irotation3d
+description: 返回图表的 3D 旋转 只读IRotation3Daspose.slides.charts/irotation3d.
 type: docs
 weight: 170
 url: /zh/net/aspose.slides.charts/chart/rotation3d/
 ---
 ## Chart.Rotation3D property
 
-返回图表的 3D 旋转。 只读[`IRotation3D`](../../irotation3d)。
+返回图表的 3D 旋转。 只读[`IRotation3D`](../../irotation3d).
 
 ```csharp
 public IRotation3D Rotation3D { get; }

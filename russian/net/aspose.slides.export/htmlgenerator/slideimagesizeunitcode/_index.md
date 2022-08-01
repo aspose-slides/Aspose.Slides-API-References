@@ -1,14 +1,14 @@
 ---
 title: SlideImageSizeUnitCode
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает css-код единицы в которой указан размер изображения слайда. Только чтениеString.
+description: Возвращает css-код единицы в которой указан размер изображения слайда. Только для чтенияString .
 type: docs
 weight: 50
 url: /ru/net/aspose.slides.export/htmlgenerator/slideimagesizeunitcode/
 ---
 ## HtmlGenerator.SlideImageSizeUnitCode property
 
-Возвращает css-код единицы, в которой указан размер изображения слайда. Только чтениеString.
+Возвращает css-код единицы, в которой указан размер изображения слайда. Только для чтенияString .
 
 ```csharp
 public string SlideImageSizeUnitCode { get; }

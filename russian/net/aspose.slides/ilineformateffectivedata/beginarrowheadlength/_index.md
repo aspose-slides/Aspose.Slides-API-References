@@ -1,14 +1,14 @@
 ---
 title: BeginArrowheadLength
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает длину стрелки в начале строки. Только для чтенияLineArrowheadLengthaspose.slides/linearrowheadlength.
+description: Возвращает длину стрелки в начале строки. Только для чтенияLineArrowheadLengthaspose.slides/linearrowheadlength .
 type: docs
 weight: 30
 url: /ru/net/aspose.slides/ilineformateffectivedata/beginarrowheadlength/
 ---
 ## ILineFormatEffectiveData.BeginArrowheadLength property
 
-Возвращает длину стрелки в начале строки. Только для чтения[`LineArrowheadLength`](../../linearrowheadlength).
+Возвращает длину стрелки в начале строки. Только для чтения[`LineArrowheadLength`](../../linearrowheadlength) .
 
 ```csharp
 public LineArrowheadLength BeginArrowheadLength { get; }

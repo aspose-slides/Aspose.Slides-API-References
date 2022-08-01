@@ -18,7 +18,7 @@ public interface IInk : IGraphicalObject
 
 | Имя | Описание |
 | --- | --- |
-| [AsIGraphicalObject](../../aspose.slides.ink/iink/asigraphicalobject) { get; } | Позволяет получить базовый интерфейс IGraphicalObject. Только для чтения[`IGraphicalObject`](../../aspose.slides/igraphicalobject). |
+| [AsIGraphicalObject](../../aspose.slides.ink/iink/asigraphicalobject) { get; } | Позволяет получить базовый интерфейс IGraphicalObject. Только для чтения[`IGraphicalObject`](../../aspose.slides/igraphicalobject) . |
 
 ### Смотрите также
 

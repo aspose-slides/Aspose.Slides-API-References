@@ -1,14 +1,14 @@
 ---
 title: DateTime6
 second_title: Aspose.Slides for .NET API 参考
-description: 当前日期和时间采用第六种预定义格式英语为 YY 月 只读FieldTypeaspose.slides/fieldtype
+description: 第六种预定义格式的当前日期和时间英语为 YY 月 只读FieldTypeaspose.slides/fieldtype.
 type: docs
 weight: 120
 url: /zh/net/aspose.slides/fieldtype/datetime6/
 ---
 ## FieldType.DateTime6 property
 
-当前日期和时间，采用第六种预定义格式（英语为 YY 月）。 只读[`FieldType`](../../fieldtype)。
+第六种预定义格式的当前日期和时间（英语为 YY 月）。 只读[`FieldType`](../../fieldtype).
 
 ```csharp
 public static FieldType DateTime6 { get; }

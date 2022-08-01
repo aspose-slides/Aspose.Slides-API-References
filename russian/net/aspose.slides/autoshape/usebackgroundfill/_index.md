@@ -1,14 +1,14 @@
 ---
 title: UseBackgroundFill
 second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет следует ли заполнять автофигуру фоновой заливкой слайда а не заданной стилем или форматом заливки. Чтение/записьBoolean.
+description: Определяет следует ли заполнять эту автофигуру заливкой фона слайда а не заданной стилем или форматом заливки. Чтение/записьBoolean .
 type: docs
 weight: 50
 url: /ru/net/aspose.slides/autoshape/usebackgroundfill/
 ---
 ## AutoShape.UseBackgroundFill property
 
-Определяет, следует ли заполнять автофигуру фоновой заливкой слайда, а не заданной стилем или форматом заливки. Чтение/записьBoolean.
+Определяет, следует ли заполнять эту автофигуру заливкой фона слайда, а не заданной стилем или форматом заливки. Чтение/записьBoolean .
 
 ```csharp
 public bool UseBackgroundFill { get; set; }

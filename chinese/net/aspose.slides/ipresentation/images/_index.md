@@ -1,14 +1,14 @@
 ---
 title: Images
 second_title: Aspose.Slides for .NET API 参考
-description: 返回演示文稿中所有图像的集合 只读IImageCollectionaspose.slides/iimagecollection
+description: 返回演示文稿中所有图像的集合 只读IImageCollectionaspose.slides/iimagecollection.
 type: docs
 weight: 150
 url: /zh/net/aspose.slides/ipresentation/images/
 ---
 ## IPresentation.Images property
 
-返回演示文稿中所有图像的集合。 只读[`IImageCollection`](../../iimagecollection)。
+返回演示文稿中所有图像的集合。 只读[`IImageCollection`](../../iimagecollection).
 
 ```csharp
 public IImageCollection Images { get; }

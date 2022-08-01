@@ -1,14 +1,14 @@
 ---
 title: MotionPath
 second_title: Справочник по API Aspose.Slides для .NET
-description: Представляют траекторию движения.
+description: Представляет траекторию движения.
 type: docs
 weight: 590
 url: /ru/net/aspose.slides.animation/motionpath/
 ---
 ## MotionPath class
 
-Представляют траекторию движения.
+Представляет траекторию движения.
 
 ```csharp
 public class MotionPath : IMotionPath
@@ -24,17 +24,17 @@ public class MotionPath : IMotionPath
 
 | Имя | Описание |
 | --- | --- |
-| [Count](../../aspose.slides.animation/motionpath/count) { get; } | Возвращает количество путей в коллекции. Только для чтенияInt32. |
+| [Count](../../aspose.slides.animation/motionpath/count) { get; } | Возвращает количество путей в коллекции. Только для чтенияInt32 . |
 | [Item](../../aspose.slides.animation/motionpath/item) { get; } | Возвращает команду по указанному индексу. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [Add](../../aspose.slides.animation/motionpath/add)(MotionCommandPathType, PointF[], MotionPathPointsType, bool) | Добавить новую команду в путь |
+| [Add](../../aspose.slides.animation/motionpath/add)(MotionCommandPathType, PointF[], MotionPathPointsType, bool) | Добавить новую команду в path |
 | [Clear](../../aspose.slides.animation/motionpath/clear)() | Удаляет все команды из коллекции. |
-| [GetEnumerator](../../aspose.slides.animation/motionpath/getenumerator)() | Возвращает перечислитель, который перебирает коллекцию. |
-| [Insert](../../aspose.slides.animation/motionpath/insert)(int, MotionCommandPathType, PointF[], MotionPathPointsType, bool) | Вставить новую команду в путь |
+| [GetEnumerator](../../aspose.slides.animation/motionpath/getenumerator)() | Возвращает перечислитель, который выполняет итерацию по коллекции. |
+| [Insert](../../aspose.slides.animation/motionpath/insert)(int, MotionCommandPathType, PointF[], MotionPathPointsType, bool) | Вставить новую команду в path |
 | [Remove](../../aspose.slides.animation/motionpath/remove)(IMotionCmdPath) | Удаляет указанные команды из коллекции. |
 | [RemoveAt](../../aspose.slides.animation/motionpath/removeat)(int) | Удаляет команду по указанному индексу. |
 

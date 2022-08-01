@@ -1,14 +1,14 @@
 ---
 title: Right
 second_title: Aspose.Slides for .NET API 参考
-description: 对 只读Single
+description: 对 只读Single.
 type: docs
 weight: 110
 url: /zh/net/aspose.slides.charts/datalabel/right/
 ---
 ## DataLabel.Right property
 
-对。 只读Single。
+对。 只读Single.
 
 ```csharp
 public float Right { get; }

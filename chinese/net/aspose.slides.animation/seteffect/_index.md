@@ -24,11 +24,11 @@ public class SetEffect : Behavior, ISetEffect
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | 表示是否累积动画行为。 读/写[`NullableBool`](../../aspose.slides/nullablebool)。 |
-| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | 表示当前动画行为是否与其他运行动画相结合。 读/写[`BehaviorAdditiveType`](../behavioradditivetype)。 |
-| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | 表示行为的属性。 只读[`IBehaviorPropertyCollection`](../ibehaviorpropertycollection)。 |
-| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | 表示效果行为的时序属性。 读/写[`ITiming`](../itiming)。 |
-| [To](../../aspose.slides.animation/seteffect/to) { get; set; } | 指定动画效果后的效果的特定属性。 表示点值。 仅限:bool、ColorFormat、float、int、string。 读/写Object。 |
+| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | 表示动画行为是否累积。 读/写[`NullableBool`](../../aspose.slides/nullablebool). |
+| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | 表示当前动画行为是否与其他正在运行的动画相结合。 读/写[`BehaviorAdditiveType`](../behavioradditivetype). |
+| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | 表示行为的属性。 只读[`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
+| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | 表示效果行为的时序属性。 读/写[`ITiming`](../itiming). |
+| [To](../../aspose.slides.animation/seteffect/to) { get; set; } | 指定动画效果后效果的某个属性。 表示点值。 仅限：bool、ColorFormat、float、int、string。 读/写Object. |
 
 ### 也可以看看
 

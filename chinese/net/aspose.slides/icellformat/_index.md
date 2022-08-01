@@ -18,13 +18,13 @@ public interface ICellFormat
 
 | 姓名 | 描述 |
 | --- | --- |
-| [BorderBottom](../../aspose.slides/icellformat/borderbottom) { get; } | 返回底部边框线属性对象。 只读[`ILineFormat`](../ilineformat)。 |
-| [BorderDiagonalDown](../../aspose.slides/icellformat/borderdiagonaldown) { get; } | 返回左上角到右下角的对角线属性对象。 只读[`ILineFormat`](../ilineformat)。 |
-| [BorderDiagonalUp](../../aspose.slides/icellformat/borderdiagonalup) { get; } | 返回左下角到右上角的对角线属性对象。 只读[`ILineFormat`](../ilineformat)。 |
-| [BorderLeft](../../aspose.slides/icellformat/borderleft) { get; } | 返回左边界线属性对象。 只读[`ILineFormat`](../ilineformat)。 |
-| [BorderRight](../../aspose.slides/icellformat/borderright) { get; } | 返回右边界线属性对象。 只读[`ILineFormat`](../ilineformat)。 |
-| [BorderTop](../../aspose.slides/icellformat/bordertop) { get; } | 返回顶部边框线属性对象。 只读[`ILineFormat`](../ilineformat)。 |
-| [FillFormat](../../aspose.slides/icellformat/fillformat) { get; } | 返回一个单元格填充属性对象。 只读[`IFillFormat`](../ifillformat)。 |
+| [BorderBottom](../../aspose.slides/icellformat/borderbottom) { get; } | 返回底部边框线属性对象。 只读[`ILineFormat`](../ilineformat). |
+| [BorderDiagonalDown](../../aspose.slides/icellformat/borderdiagonaldown) { get; } | 返回从左上角到右下角的对角线属性对象。 只读[`ILineFormat`](../ilineformat). |
+| [BorderDiagonalUp](../../aspose.slides/icellformat/borderdiagonalup) { get; } | 返回从左下角到右上角的对角线属性对象。 只读[`ILineFormat`](../ilineformat). |
+| [BorderLeft](../../aspose.slides/icellformat/borderleft) { get; } | 返回左边框线属性对象。 只读[`ILineFormat`](../ilineformat). |
+| [BorderRight](../../aspose.slides/icellformat/borderright) { get; } | 返回右边界线属性对象。 只读[`ILineFormat`](../ilineformat). |
+| [BorderTop](../../aspose.slides/icellformat/bordertop) { get; } | 返回顶部边框线属性对象。 只读[`ILineFormat`](../ilineformat). |
+| [FillFormat](../../aspose.slides/icellformat/fillformat) { get; } | 返回一个单元格填充属性对象。 只读[`IFillFormat`](../ifillformat). |
 
 ## 方法
 

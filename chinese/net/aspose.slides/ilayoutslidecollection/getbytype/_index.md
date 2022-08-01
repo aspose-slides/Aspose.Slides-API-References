@@ -16,11 +16,11 @@ public ILayoutSlide GetByType(SlideLayoutType type)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| type | SlideLayoutType | 要查找的布局幻灯片类型。 |
+| type | SlideLayoutType | 要查找的一种布局幻灯片。 |
 
 ### 返回值
 
-[`ILayoutSlide`](../../ilayoutslide)具有指定类型，如果没有找到布局，则返回 null。
+[`ILayoutSlide`](../../ilayoutslide)如果没有找到布局，则具有指定的类型或 null。
 
 ### 也可以看看
 

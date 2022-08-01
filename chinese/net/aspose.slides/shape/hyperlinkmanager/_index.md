@@ -1,14 +1,14 @@
 ---
 title: HyperlinkManager
 second_title: Aspose.Slides for .NET API 参考
-description: 返回超链接管理器 只读IHyperlinkManageraspose.slides/ihyperlinkmanager
+description: 返回超链接管理器 只读IHyperlinkManageraspose.slides/ihyperlinkmanager.
 type: docs
 weight: 120
 url: /zh/net/aspose.slides/shape/hyperlinkmanager/
 ---
 ## Shape.HyperlinkManager property
 
-返回超链接管理器。 只读[`IHyperlinkManager`](../../ihyperlinkmanager)。
+返回超链接管理器。 只读[`IHyperlinkManager`](../../ihyperlinkmanager).
 
 ```csharp
 public IHyperlinkManager HyperlinkManager { get; }

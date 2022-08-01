@@ -1,14 +1,14 @@
 ---
 title: ThreeDFormat
 second_title: Aspose.Slides for .NET API 参考
-description: 返回对形状产生 3d 效果的 ThreeDFormat 对象 注意对于没有 3d 属性的某些类型的形状可以返回 null 只读IThreeDFormataspose.slides/ithreedformat
+description: 返回对形状产生 3d 影响的 ThreeDFormat 对象 注意对于不具有 3d 属性的某些类型的形状可以返回 null 只读IThreeDFormataspose.slides/ithreedformat.
 type: docs
 weight: 260
 url: /zh/net/aspose.slides/shape/threedformat/
 ---
 ## Shape.ThreeDFormat property
 
-返回对形状产生 3d 效果的 ThreeDFormat 对象。 注意:对于没有 3d 属性的某些类型的形状，可以返回 null。 只读[`IThreeDFormat`](../../ithreedformat)。
+返回对形状产生 3d 影响的 ThreeDFormat 对象。 注意：对于不具有 3d 属性的某些类型的形状，可以返回 null。 只读[`IThreeDFormat`](../../ithreedformat).
 
 ```csharp
 public virtual IThreeDFormat ThreeDFormat { get; }

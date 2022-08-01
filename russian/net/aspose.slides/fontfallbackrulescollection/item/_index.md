@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Справочник по API Aspose.Slides для .NET
-description: Получает правило по указанному индексу. Только для чтенияIFontFallBackRuleaspose.slides/ifontfallbackrule.
+description: Получает правило по указанному индексу. Только для чтенияIFontFallBackRuleaspose.slides/ifontfallbackrule .
 type: docs
 weight: 40
 url: /ru/net/aspose.slides/fontfallbackrulescollection/item/
 ---
 ## FontFallBackRulesCollection indexer
 
-Получает правило по указанному индексу. Только для чтения[`IFontFallBackRule`](../../ifontfallbackrule).
+Получает правило по указанному индексу. Только для чтения[`IFontFallBackRule`](../../ifontfallbackrule) .
 
 ```csharp
 public IFontFallBackRule this[int index] { get; }
@@ -20,14 +20,14 @@ public IFontFallBackRule this[int index] { get; }
 [C#]
 using (Presentation pres = new Presentation ())
 {
-     //Получение пустой или предварительно инициализированной коллекции правил из FontsManager
+    //Получение пустой или предварительно инициализированной коллекции правил из FontsManager
     IFontFallBackRulesCollection rulesList = pres.FontsManager.FontFallBackRulesCollection;
 
-     //Добавление нескольких правил в collection
+    //Добавление нескольких правил в коллекцию
     rulesList.Add(new FontFallBackRule(0x400,0x4FF, "Times New Roman"));
     rulesList.Add(new FontFallBackRule(0x3040, 0x309F, "MS Mincho"));
 
-     //Получение объекта первого правила в collection
+    //Получение объекта первого правила в коллекции
     IFontFallBackRule firstRule = rulesList[0];
 }
 ```

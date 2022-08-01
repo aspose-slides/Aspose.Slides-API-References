@@ -1,14 +1,14 @@
 ---
 title: AsIOverridableText
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает интерфейс IOverridableText. Только для чтенияIOverridableTextaspose.slides.charts/ioverridabletext.
+description: Возвращает интерфейс IOverridableText. Только для чтенияIOverridableTextaspose.slides.charts/ioverridabletext .
 type: docs
 weight: 10
 url: /ru/net/aspose.slides.charts/itrendline/asioverridabletext/
 ---
 ## ITrendline.AsIOverridableText property
 
-Возвращает интерфейс IOverridableText. Только для чтения[`IOverridableText`](../../ioverridabletext).
+Возвращает интерфейс IOverridableText. Только для чтения[`IOverridableText`](../../ioverridabletext) .
 
 ```csharp
 public IOverridableText AsIOverridableText { get; }

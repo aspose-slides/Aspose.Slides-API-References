@@ -1,14 +1,14 @@
 ---
 title: IGlowEffectiveData
 second_title: Справочник по API Aspose.Slides для .NET
-description: Неизменяемый объект представляющий эффект свечения в котором размытый контур цвета добавляется за края объекта.
+description: Неизменяемый объект представляющий эффект свечения в котором контур размытия цвета добавляется за края объекта.
 type: docs
 weight: 3130
 url: /ru/net/aspose.slides.effects/igloweffectivedata/
 ---
 ## IGlowEffectiveData interface
 
-Неизменяемый объект, представляющий эффект свечения, в котором размытый контур цвета добавляется за края объекта.
+Неизменяемый объект, представляющий эффект свечения, в котором контур размытия цвета добавляется за края объекта.
 
 ```csharp
 public interface IGlowEffectiveData : IEffectEffectiveData
@@ -18,9 +18,9 @@ public interface IGlowEffectiveData : IEffectEffectiveData
 
 | Имя | Описание |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/igloweffectivedata/asieffecteffectivedata) { get; } | Позволяет получить базовый интерфейс IEffectEffectiveData. Только для чтения[`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Color](../../aspose.slides.effects/igloweffectivedata/color) { get; } | Цвет. Только для чтенияColor. |
-| [Radius](../../aspose.slides.effects/igloweffectivedata/radius) { get; } | Радиус. Только для чтенияDouble. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/igloweffectivedata/asieffecteffectivedata) { get; } | Позволяет получить базовый интерфейс IEffectEffectiveData. Только для чтения[`IEffectEffectiveData`](../ieffecteffectivedata) . |
+| [Color](../../aspose.slides.effects/igloweffectivedata/color) { get; } | Цвет. Только для чтенияColor . |
+| [Radius](../../aspose.slides.effects/igloweffectivedata/radius) { get; } | Радиус. Только для чтенияDouble . |
 
 ### Смотрите также
 

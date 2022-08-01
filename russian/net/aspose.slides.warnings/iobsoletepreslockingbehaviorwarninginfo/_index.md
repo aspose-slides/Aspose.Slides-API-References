@@ -18,7 +18,7 @@ public interface IObsoletePresLockingBehaviorWarningInfo : IWarningInfo
 
 | Имя | Описание |
 | --- | --- |
-| [AsIWarningInfo](../../aspose.slides.warnings/iobsoletepreslockingbehaviorwarninginfo/asiwarninginfo) { get; } | Возвращает интерфейс IWarningInfo. Только для чтения[`IWarningInfo`](../iwarninginfo). |
+| [AsIWarningInfo](../../aspose.slides.warnings/iobsoletepreslockingbehaviorwarninginfo/asiwarninginfo) { get; } | Возвращает интерфейс IWarningInfo. Только для чтения[`IWarningInfo`](../iwarninginfo) . |
 
 ### Смотрите также
 

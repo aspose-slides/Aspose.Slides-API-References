@@ -1,14 +1,14 @@
 ---
 title: AsCells
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置图表单元格的集合 读/写IChartCellCollectionaspose.slides.charts/ichartcellcollection
+description: 返回或设置图表单元格的集合 读/写IChartCellCollectionaspose.slides.charts/ichartcellcollection.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides.charts/imultiplecellchartvalue/ascells/
 ---
 ## IMultipleCellChartValue.AsCells property
 
-返回或设置图表单元格的集合。 读/写[`IChartCellCollection`](../../ichartcellcollection)。
+返回或设置图表单元格的集合。 读/写[`IChartCellCollection`](../../ichartcellcollection).
 
 ```csharp
 public IChartCellCollection AsCells { get; set; }

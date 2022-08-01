@@ -1,14 +1,14 @@
 ---
 title: SlideImageFormat
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置幻灯片图像格式选项 读/写ISlideImageFormataspose.slides.export/islideimageformat
+description: 返回或设置幻灯片图像格式选项 读/写ISlideImageFormataspose.slides.export/islideimageformat.
 type: docs
 weight: 80
 url: /zh/net/aspose.slides.export/ihtmloptions/slideimageformat/
 ---
 ## IHtmlOptions.SlideImageFormat property
 
-返回或设置幻灯片图像格式选项。 读/写[`ISlideImageFormat`](../../islideimageformat)。
+返回或设置幻灯片图像格式选项。 读/写[`ISlideImageFormat`](../../islideimageformat).
 
 ```csharp
 public ISlideImageFormat SlideImageFormat { get; set; }

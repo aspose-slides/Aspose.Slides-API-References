@@ -18,23 +18,23 @@ public interface IPdfOptions : ISaveOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AccessPermissions](../../aspose.slides.export/ipdfoptions/accesspermissions) { get; set; } | 包含一组标志，指定在打开文档时应授予哪些访问权限 具有用户访问权限。请参阅[`PdfAccessPermissions`](../pdfaccesspermissions)。 |
-| [AdditionalCommonFontFamilies](../../aspose.slides.export/ipdfoptions/additionalcommonfontfamilies) { get; set; } | 返回或设置用户定义的字体系列名称数组，Aspose.Slides 应该认为这些名称是通用的。 读/写String[]。 |
-| [ApplyImageTransparent](../../aspose.slides.export/ipdfoptions/applyimagetransparent) { get; set; } | 如果` true` ，则将指定的透明颜色应用于图像。 |
-| [AsISaveOptions](../../aspose.slides.export/ipdfoptions/asisaveoptions) { get; } | 返回 ISaveOptions 接口。 只读[`ISaveOptions`](../isaveoptions)。 |
-| [BestImagesCompressionRatio](../../aspose.slides.export/ipdfoptions/bestimagescompressionratio) { get; set; } | 指示是否必须自动选择每个图像的最有效压缩（而不是默认压缩） 。如果设置为Boolean.true，对于呈现中的每个图像，将选择最合适的压缩 算法，这将导致结果的尺寸更小PDF 文件。  最佳图像压缩比选择的计算成本很高，并且需要 额外的 RAM 量，此选项为Boolean.false 默认。 |
-| [Compliance](../../aspose.slides.export/ipdfoptions/compliance) { get; set; } | 生成的 PDF 文档所需的一致性级别。 读/写[`PdfCompliance`](../pdfcompliance)。 |
-| [DrawSlidesFrame](../../aspose.slides.export/ipdfoptions/drawslidesframe) { get; set; } | True 在每张幻灯片周围绘制黑框。 读/写Boolean。 |
-| [EmbedFullFonts](../../aspose.slides.export/ipdfoptions/embedfullfonts) { get; set; } | 确定字体的所有字符是否应嵌入或仅使用子集。 读/写Boolean。 |
-| [EmbedTrueTypeFontsForASCII](../../aspose.slides.export/ipdfoptions/embedtruetypefontsforascii) { get; set; } | True 为 ASCII 字符 32-127 嵌入 True Type 字体。 大于 127 的字符代码的字体总是被嵌入的。 读/写Boolean。 |
+| [AccessPermissions](../../aspose.slides.export/ipdfoptions/accesspermissions) { get; set; } | 包含一组标志，指定当文档以用户访问权限打开 时应授予哪些访问权限。看[`PdfAccessPermissions`](../pdfaccesspermissions). |
+| [AdditionalCommonFontFamilies](../../aspose.slides.export/ipdfoptions/additionalcommonfontfamilies) { get; set; } | 返回或设置用户定义的字体系列名称数组，Aspose.Slides 应该认为这些名称是常见的。 读/写String[]. |
+| [ApplyImageTransparent](../../aspose.slides.export/ipdfoptions/applyimagetransparent) { get; set; } | 将指定的透明颜色应用于图像，如果`真的`. |
+| [AsISaveOptions](../../aspose.slides.export/ipdfoptions/asisaveoptions) { get; } | 返回 ISaveOptions 接口。 只读[`ISaveOptions`](../isaveoptions). |
+| [BestImagesCompressionRatio](../../aspose.slides.export/ipdfoptions/bestimagescompressionratio) { get; set; } | 指示是否必须自动为每个图像选择最有效的压缩（而不是默认压缩） 。如果设置为Boolean.true，对于演示中的每个图像，将选择最合适的压缩 算法，这将导致生成的 PDF 文档的尺寸更小。 最佳图像压缩比选择的计算成本很高，并且需要 额外的 RAM 量，这个选项是Boolean.false 默认情况下。 |
+| [Compliance](../../aspose.slides.export/ipdfoptions/compliance) { get; set; } | 生成的 PDF 文档所需的一致性级别。 读/写[`PdfCompliance`](../pdfcompliance). |
+| [DrawSlidesFrame](../../aspose.slides.export/ipdfoptions/drawslidesframe) { get; set; } | True 在每张幻灯片周围绘制黑框。 读/写Boolean. |
+| [EmbedFullFonts](../../aspose.slides.export/ipdfoptions/embedfullfonts) { get; set; } | 确定字体的所有字符是否应嵌入或仅使用子集。 读/写Boolean. |
+| [EmbedTrueTypeFontsForASCII](../../aspose.slides.export/ipdfoptions/embedtruetypefontsforascii) { get; set; } | True 为 ASCII 字符 32-127 嵌入 true type 字体。 始终嵌入大于 127 的字符代码的字体。 读/写Boolean. |
 | [ImageTransparentColor](../../aspose.slides.export/ipdfoptions/imagetransparentcolor) { get; set; } | 获取或设置图像透明色。 |
-| [JpegQuality](../../aspose.slides.export/ipdfoptions/jpegquality) { get; set; } | 返回或设置确定 PDF 文档中 JPEG 图像质量的值。 读/写Byte。 |
+| [JpegQuality](../../aspose.slides.export/ipdfoptions/jpegquality) { get; set; } | 返回或设置确定 PDF 文档中 JPEG 图像质量的值。 读/写Byte. |
 | [NotesCommentsLayouting](../../aspose.slides.export/ipdfoptions/notescommentslayouting) { get; } | 提供控制注释和注释在导出文档中的放置方式的选项。 |
-| [Password](../../aspose.slides.export/ipdfoptions/password) { get; set; } | 设置用户密码以保护 PDF 文档。 读/写String。 |
-| [SaveMetafilesAsPng](../../aspose.slides.export/ipdfoptions/savemetafilesaspng) { get; set; } | True 将演示文稿中使用的所有元文件转换为 PNG 图像。 读/写Boolean。 |
-| [ShowHiddenSlides](../../aspose.slides.export/ipdfoptions/showhiddenslides) { get; set; } | 指定生成的文档是否应包含隐藏幻灯片。 默认为` false` 。 |
-| [SufficientResolution](../../aspose.slides.export/ipdfoptions/sufficientresolution) { get; set; } | 返回或设置确定 PDF 文档内图像分辨率的值。 |
-| [TextCompression](../../aspose.slides.export/ipdfoptions/textcompression) { get; set; } | 指定用于文档中所有文本内容的压缩类型。 读/写[`PdfTextCompression`](../pdftextcompression)。 |
+| [Password](../../aspose.slides.export/ipdfoptions/password) { get; set; } | 设置用户密码以保护 PDF 文档。 读/写String. |
+| [SaveMetafilesAsPng](../../aspose.slides.export/ipdfoptions/savemetafilesaspng) { get; set; } | True 将演示文稿中使用的所有元文件转换为 PNG 图像。 读/写Boolean. |
+| [ShowHiddenSlides](../../aspose.slides.export/ipdfoptions/showhiddenslides) { get; set; } | 指定生成的文档是否应包含隐藏幻灯片。 默认为`错误的` |
+| [SufficientResolution](../../aspose.slides.export/ipdfoptions/sufficientresolution) { get; set; } | 返回或设置确定 PDF 文档中图像分辨率的值。 |
+| [TextCompression](../../aspose.slides.export/ipdfoptions/textcompression) { get; set; } | 指定用于文档中所有文本内容的压缩类型。 读/写[`PdfTextCompression`](../pdftextcompression). |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: DataSourceType
 second_title: Aspose.Slides for .NET API 参考
-description: 如果是外部数据源则表示外部工作簿路径否则为 null
+description: 如果是外部数据源则表示外部工作簿路径否则为空
 type: docs
 weight: 30
 url: /zh/net/aspose.slides.charts/chartdata/datasourcetype/
 ---
 ## ChartData.DataSourceType property
 
-如果是外部数据源，则表示外部工作簿路径，否则为 null
+如果是外部数据源则表示外部工作簿路径，否则为空
 
 ```csharp
 public ChartDataSourceType DataSourceType { get; }

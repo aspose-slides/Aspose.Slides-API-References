@@ -1,14 +1,14 @@
 ---
 title: IsTemporaryFilesAllowed
 second_title: Aspose.Slides for .NET API 参考
-description: 设置不允许使用临时文件以优化在演示生命周期内处理 大量数据时的内存消耗如果为 false则可以抛出 OutOfMemoryException
+description: 设置不允许使用临时文件以优化在演示文稿生命周期内处理 大量数据时的内存消耗如果为 false则可以抛出 OutOfMemoryException
 type: docs
 weight: 20
 url: /zh/net/aspose.slides/blobmanagementoptions/istemporaryfilesallowed/
 ---
 ## BlobManagementOptions.IsTemporaryFilesAllowed property
 
-设置不允许使用临时文件以优化在演示生命周期内处理 大量数据时的内存消耗。如果为 false，则可以抛出 OutOfMemoryException。
+设置不允许使用临时文件，以优化在演示文稿生命周期内处理 大量数据时的内存消耗。如果为 false，则可以抛出 OutOfMemoryException。
 
 ```csharp
 public bool IsTemporaryFilesAllowed { get; set; }

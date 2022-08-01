@@ -8,7 +8,7 @@ url: /ru/net/aspose.slides.animation/behaviorproperty/styleopacity/
 ---
 ## BehaviorProperty.StyleOpacity property
 
-Представляет свойство 'style.opacity'
+Представляет свойство style.opacity
 
 ```csharp
 public static BehaviorProperty StyleOpacity { get; }

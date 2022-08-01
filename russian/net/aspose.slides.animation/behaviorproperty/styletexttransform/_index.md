@@ -8,7 +8,7 @@ url: /ru/net/aspose.slides.animation/behaviorproperty/styletexttransform/
 ---
 ## BehaviorProperty.StyleTextTransform property
 
-Представляет свойство 'style.textTransform'
+Представляет свойство style.textTransform
 
 ```csharp
 public static BehaviorProperty StyleTextTransform { get; }

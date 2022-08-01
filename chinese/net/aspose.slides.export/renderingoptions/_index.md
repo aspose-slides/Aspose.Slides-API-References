@@ -1,14 +1,14 @@
 ---
 title: RenderingOptions
 second_title: Aspose.Slides for .NET API 参考
-description: 提供控制演示文稿/幻灯片呈现方式的选项
+description: 提供控制如何呈现演示文稿/幻灯片的选项
 type: docs
 weight: 3980
 url: /zh/net/aspose.slides.export/renderingoptions/
 ---
 ## RenderingOptions class
 
-提供控制演示文稿/幻灯片呈现方式的选项。
+提供控制如何呈现演示文稿/幻灯片的选项。
 
 ```csharp
 public class RenderingOptions : SaveOptions, IRenderingOptions
@@ -24,10 +24,10 @@ public class RenderingOptions : SaveOptions, IRenderingOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | 返回或设置在未找到源字体时使用的字体。 读写String。 |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | 返回或设置在未找到源字体时使用的字体。 读写String. |
 | [NotesCommentsLayouting](../../aspose.slides.export/renderingoptions/notescommentslayouting) { get; } | 提供控制注释和注释在导出文档中的放置方式的选项。 |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | 表示用于保存进度更新百分比的回调对象。 见[`IProgressCallback`](../../aspose.slides/iprogresscallback)。 |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | 返回一个对象，该对象接收警告并决定加载过程是继续还是中止。 读/写[`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback)。 |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | 表示以百分比保存进度更新的回调对象。 见[`IProgressCallback`](../../aspose.slides/iprogresscallback). |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | 设置一个对象的返回，该对象接收警告并决定加载过程是继续还是中止。 读/写[`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
 ### 例子
 

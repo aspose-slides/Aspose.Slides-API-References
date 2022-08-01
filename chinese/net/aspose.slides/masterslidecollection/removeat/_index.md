@@ -22,11 +22,11 @@ public void RemoveAt(int index)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| [PptxEditException](../../pptxeditexception) | 如果在演示中使用要删除的主对象（其 HasDependingSlides 属性为 true），则抛出该异常。 |
+| [PptxEditException](../../pptxeditexception) | 如果在演示中使用要删除的主节点（其 HasDependingSlides 属性为 true），则抛出。 |
 
 ### 评论
 
-为避免抛出 PptxEditException，请先检查 master 的 HasDependingSlides 属性。
+为了避免抛出 PptxEditException，请检查 master 之前的 HasDependingSlides 属性。
 
 ### 也可以看看
 

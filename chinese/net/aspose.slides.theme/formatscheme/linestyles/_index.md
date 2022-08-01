@@ -1,14 +1,14 @@
 ---
 title: LineStyles
 second_title: Aspose.Slides for .NET API 参考
-description: 返回主题定义的线条样式的集合 只读ILineFormatCollectionaspose.slides.theme/ilineformatcollection
+description: 返回主题定义的线条样式的集合 只读ILineFormatCollectionaspose.slides.theme/ilineformatcollection.
 type: docs
 weight: 40
 url: /zh/net/aspose.slides.theme/formatscheme/linestyles/
 ---
 ## FormatScheme.LineStyles property
 
-返回主题定义的线条样式的集合。 只读[`ILineFormatCollection`](../../ilineformatcollection)。
+返回主题定义的线条样式的集合。 只读[`ILineFormatCollection`](../../ilineformatcollection).
 
 ```csharp
 public ILineFormatCollection LineStyles { get; }

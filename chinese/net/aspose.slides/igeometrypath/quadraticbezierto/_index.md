@@ -37,10 +37,10 @@ public void QuadraticBezierTo(float x1, float y1, float x2, float y2)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| x1 | Single | X方向点坐标 |
-| y1 | Single | 方向点 Y 坐标 |
-| x2 | Single | 终点 X 坐标 |
-| y2 | Single | 终点 Y 坐标 |
+| x1 | Single | 方向点X坐标 |
+| y1 | Single | 方向点Y坐标 |
+| x2 | Single | 终点X坐标 |
+| y2 | Single | 终点Y坐标 |
 
 ### 也可以看看
 
@@ -62,7 +62,7 @@ public void QuadraticBezierTo(PointF point1, PointF point2, uint index)
 | --- | --- | --- |
 | point1 | PointF | 方向点 |
 | point2 | PointF | 终点 |
-| index | UInt32 | PathData 中的段索引 |
+| index | UInt32 | PathData 中段的索引 |
 
 ### 例外
 
@@ -88,11 +88,11 @@ public void QuadraticBezierTo(float x1, float y1, float x2, float y2, uint index
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| x1 | Single | 方向点 X 坐标 |
-| y1 | Single | 方向点 Y 坐标 |
-| x2 | Single | X 坐标端点 |
-| y2 | Single | 端点 Y 坐标 |
-| index | UInt32 | PathData 中的段索引 |
+| x1 | Single | 方向点X坐标 |
+| y1 | Single | 方向点Y坐标 |
+| x2 | Single | 终点X坐标 |
+| y2 | Single | 终点Y坐标 |
+| index | UInt32 | PathData 中段的索引 |
 
 ### 例外
 

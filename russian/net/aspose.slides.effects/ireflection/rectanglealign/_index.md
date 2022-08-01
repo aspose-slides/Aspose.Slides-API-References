@@ -1,14 +1,14 @@
 ---
 title: RectangleAlign
 second_title: Справочник по API Aspose.Slides для .NET
-description: Выравнивание прямоугольника. Чтение/записьRectangleAlignmentaspose.slides/rectanglealignment.
+description: Выравнивание прямоугольника. Чтение/записьRectangleAlignmentaspose.slides/rectanglealignment .
 type: docs
 weight: 90
 url: /ru/net/aspose.slides.effects/ireflection/rectanglealign/
 ---
 ## IReflection.RectangleAlign property
 
-Выравнивание прямоугольника. Чтение/запись[`RectangleAlignment`](../../../aspose.slides/rectanglealignment).
+Выравнивание прямоугольника. Чтение/запись[`RectangleAlignment`](../../../aspose.slides/rectanglealignment) .
 
 ```csharp
 public RectangleAlignment RectangleAlign { get; set; }

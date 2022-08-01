@@ -1,14 +1,14 @@
 ---
 title: Height
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置标题高度为图表高度的一部分 读/写Single
+description: 返回或设置标题高度为图表高度的一部分 读/写Single.
 type: docs
 weight: 90
 url: /zh/net/aspose.slides.charts/datalabel/height/
 ---
 ## DataLabel.Height property
 
-返回或设置标题高度为图表高度的一部分。 读/写Single。
+返回或设置标题高度为图表高度的一部分。 读/写Single.
 
 ```csharp
 public float Height { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: MasterText
 second_title: Aspose.Slides for .NET API 参考
-description: 此幻灯片母版页形状上的文本
+description: 此幻灯片的母版页形状上的文本
 type: docs
 weight: 20
 url: /zh/net/aspose.slides/islidetext/mastertext/
 ---
 ## ISlideText.MasterText property
 
-此幻灯片母版页形状上的文本
+此幻灯片的母版页形状上的文本
 
 ```csharp
 public string MasterText { get; }

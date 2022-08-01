@@ -1,14 +1,14 @@
 ---
 title: PPImageFormat
 second_title: Справочник по API Aspose.Slides для .NET
-description: Форматы изображений. Это перечисление заменяет класс System.Drawing.Imaging.ImageFormat . Это необходимо для COM-совместимости.
+description: Форматы изображений. Это перечисление является заменой дляSystem.Drawing.Imaging.ImageFormat class. Это необходимо для COM-совместимости.
 type: docs
 weight: 8530
 url: /ru/net/aspose.slides/ppimageformat/
 ---
 ## PPImageFormat enumeration
 
-Форматы изображений. Это перечисление заменяет класс` System.Drawing.Imaging.ImageFormat` . Это необходимо для COM-совместимости.
+Форматы изображений. Это перечисление является заменой для`System.Drawing.Imaging.ImageFormat` class. Это необходимо для COM-совместимости.
 
 ```csharp
 public enum PPImageFormat
@@ -18,9 +18,9 @@ public enum PPImageFormat
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| Bmp | `0` | Получает формат растрового изображения (BMP). |
+| Bmp | `0` | Получает формат изображения растрового изображения (BMP). |
 | Emf | `1` | Получает формат изображения расширенного метафайла (EMF). |
-| Exif | `2` | Получает формат Exchangeable Image File (Exif). |
+| Exif | `2` | Получает формат обмениваемого файла изображения (Exif). |
 | Gif | `3` | Получает формат изображения Graphics Interchange Format (GIF). |
 | Icon | `4` | Получает формат изображения значка Windows. |
 | Jpeg | `5` | Получает формат изображения Объединенной группы экспертов по фотографии (JPEG). |

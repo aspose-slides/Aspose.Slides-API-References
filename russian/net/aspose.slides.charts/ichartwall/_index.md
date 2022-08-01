@@ -18,9 +18,9 @@ public interface IChartWall
 
 | Имя | Описание |
 | --- | --- |
-| [Format](../../aspose.slides.charts/ichartwall/format) { get; } | Возвращает заливку стены, линию, эффект, 3D-стили. Только для чтения[`IFormat`](../iformat). |
-| [PictureType](../../aspose.slides.charts/ichartwall/picturetype) { get; set; } | Возвращает или устанавливает тип изображения. Чтение/запись[`PictureType`](./picturetype). |
-| [Thickness](../../aspose.slides.charts/ichartwall/thickness) { get; set; } | Возвращает или задает толщину стен в процентах от наибольшего измерения объема графика. Чтение/записьInt32. |
+| [Format](../../aspose.slides.charts/ichartwall/format) { get; } | Возвращает заливку стены, линию, эффект, 3D-стили. Только для чтения[`IFormat`](../iformat) . |
+| [PictureType](../../aspose.slides.charts/ichartwall/picturetype) { get; set; } | Возвращает или устанавливает тип изображения. Чтение/запись[`PictureType`](./picturetype) . |
+| [Thickness](../../aspose.slides.charts/ichartwall/thickness) { get; set; } | Возвращает или задает толщину стенок в процентах от наибольшего размера объема графика. Чтение/записьInt32 . |
 
 ### Смотрите также
 

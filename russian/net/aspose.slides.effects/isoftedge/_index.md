@@ -1,14 +1,14 @@
 ---
 title: ISoftEdge
 second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет эффект мягкого края. Края фигуры размыты а заливка не затронута.
+description: Представляет эффект Мягкий край. Края фигуры размыты а заливка не затронута.
 type: docs
 weight: 3320
 url: /ru/net/aspose.slides.effects/isoftedge/
 ---
 ## ISoftEdge interface
 
-Представляет эффект мягкого края. Края фигуры размыты, а заливка не затронута.
+Представляет эффект «Мягкий край». Края фигуры размыты, а заливка не затронута.
 
 ```csharp
 public interface ISoftEdge : IAccessiblePVIObject<ISoftEdgeEffectiveData>, IImageTransformOperation
@@ -18,9 +18,9 @@ public interface ISoftEdge : IAccessiblePVIObject<ISoftEdgeEffectiveData>, IImag
 
 | Имя | Описание |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/isoftedge/asiaccessiblepviobject) { get; } | Позволяет получить базовый интерфейс IAccessiblePVIObject. Только для чтения[`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/isoftedge/asiimagetransformoperation) { get; } | Позволяет получить базовый интерфейс IImageTransformOperation. Только для чтения[`IImageTransformOperation`](../iimagetransformoperation). |
-| [Radius](../../aspose.slides.effects/isoftedge/radius) { get; set; } | Указывает радиус размытия, применяемый к краям. Чтение/записьDouble. |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/isoftedge/asiaccessiblepviobject) { get; } | Позволяет получить базовый интерфейс IAccessiblePVIObject. Только для чтения[`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1) . |
+| [AsIImageTransformOperation](../../aspose.slides.effects/isoftedge/asiimagetransformoperation) { get; } | Позволяет получить базовый интерфейс IImageTransformOperation. Только для чтения[`IImageTransformOperation`](../iimagetransformoperation) . |
+| [Radius](../../aspose.slides.effects/isoftedge/radius) { get; set; } | Определяет радиус размытия, применяемый к краям. Чтение/записьDouble . |
 
 ### Смотрите также
 

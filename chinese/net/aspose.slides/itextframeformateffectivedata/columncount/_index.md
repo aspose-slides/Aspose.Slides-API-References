@@ -1,14 +1,14 @@
 ---
 title: ColumnCount
 second_title: Aspose.Slides for .NET API 参考
-description: 指定边界矩形中的文本列数 只读Int32
+description: 指定边界矩形中的文本列数 只读Int32.
 type: docs
 weight: 40
 url: /zh/net/aspose.slides/itextframeformateffectivedata/columncount/
 ---
 ## ITextFrameFormatEffectiveData.ColumnCount property
 
-指定边界矩形中的文本列数。 只读Int32。
+指定边界矩形中的文本列数。 只读Int32.
 
 ```csharp
 public int ColumnCount { get; }

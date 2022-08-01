@@ -1,14 +1,14 @@
 ---
 title: IsMergedCell
 second_title: Aspose.Slides for .NET API 参考
-description: 如果单元格与任何调整后的单元格合并则返回 true否则返回 false 只读Boolean
+description: 如果单元格与任何调整后的单元格合并则返回 true否则返回 false 只读Boolean.
 type: docs
 weight: 100
 url: /zh/net/aspose.slides/icell/ismergedcell/
 ---
 ## ICell.IsMergedCell property
 
-如果单元格与任何调整后的单元格合并，则返回 true，否则返回 false。 只读Boolean。
+如果单元格与任何调整后的单元格合并，则返回 true，否则返回 false。 只读Boolean.
 
 ```csharp
 public bool IsMergedCell { get; }

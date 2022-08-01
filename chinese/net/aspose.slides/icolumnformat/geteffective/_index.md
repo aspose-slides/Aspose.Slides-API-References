@@ -1,14 +1,14 @@
 ---
 title: GetEffective
 second_title: Aspose.Slides for .NET API 参考
-description: 获取有效的表格列格式属性并应用了继承和表格样式
+description: 获取有效的表格列格式属性并应用继承和表格样式
 type: docs
 weight: 10
 url: /zh/net/aspose.slides/icolumnformat/geteffective/
 ---
 ## IColumnFormat.GetEffective method
 
-获取有效的表格列格式属性，并应用了继承和表格样式。
+获取有效的表格列格式属性，并应用继承和表格样式。
 
 ```csharp
 public IColumnFormatEffectiveData GetEffective()
@@ -16,7 +16,7 @@ public IColumnFormatEffectiveData GetEffective()
 
 ### 返回值
 
-A[`IColumnFormatEffectiveData`](../../icolumnformateffectivedata)。
+一个[`IColumnFormatEffectiveData`](../../icolumnformateffectivedata).
 
 ### 也可以看看
 

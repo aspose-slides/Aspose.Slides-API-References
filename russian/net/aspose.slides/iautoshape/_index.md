@@ -18,18 +18,18 @@ public interface IAutoShape : IGeometryShape
 
 | Имя | Описание |
 | --- | --- |
-| [AsIGeometryShape](../../aspose.slides/iautoshape/asigeometryshape) { get; } | Позволяет получить базовый интерфейс IGeometryShape. Только для чтения[`IGeometryShape`](../igeometryshape). |
-| [AutoShapeLock](../../aspose.slides/iautoshape/autoshapelock) { get; } | Возвращает блокировки AutoShape. Только для чтения[`IAutoShapeLock`](../iautoshapelock). |
+| [AsIGeometryShape](../../aspose.slides/iautoshape/asigeometryshape) { get; } | Позволяет получить базовый интерфейс IGeometryShape. Только для чтения[`IGeometryShape`](../igeometryshape) . |
+| [AutoShapeLock](../../aspose.slides/iautoshape/autoshapelock) { get; } | Возвращает блокировки AutoShape. Только для чтения[`IAutoShapeLock`](../iautoshapelock) . |
 | [IsTextBox](../../aspose.slides/iautoshape/istextbox) { get; } | Указывает, является ли фигура текстовым полем. |
-| [ShapeLock](../../aspose.slides/iautoshape/shapelock) { get; } | Возвращает блокировки формы. Только для чтения[`IAutoShapeLock`](../iautoshapelock). |
-| [TextFrame](../../aspose.slides/iautoshape/textframe) { get; } | Возвращает объект TextFrameEx для AutoShapeEx. Только для чтения[`ITextFrame`](../itextframe). |
-| [UseBackgroundFill](../../aspose.slides/iautoshape/usebackgroundfill) { get; set; } | Определяет, следует ли заполнять автофигуру фоновой заливкой слайда, а не заданной стилем или форматом заливки. Чтение/записьBoolean. |
+| [ShapeLock](../../aspose.slides/iautoshape/shapelock) { get; } | Возвращает блокировки формы. Только для чтения[`IAutoShapeLock`](../iautoshapelock) . |
+| [TextFrame](../../aspose.slides/iautoshape/textframe) { get; } | Возвращает объект TextFrameEx для AutoShapeEx. Только для чтения[`ITextFrame`](../itextframe) . |
+| [UseBackgroundFill](../../aspose.slides/iautoshape/usebackgroundfill) { get; set; } | Определяет, следует ли заполнять эту автофигуру заливкой фона слайда, а не заданной стилем или форматом заливки. Чтение/записьBoolean . |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [AddTextFrame](../../aspose.slides/iautoshape/addtextframe)(string) | Добавляет к фигуре новый TextFrameEx. Если фигура уже имеет TextFrameEx, то просто меняет ее текст. |
+| [AddTextFrame](../../aspose.slides/iautoshape/addtextframe)(string) | Добавляет новый TextFrameEx в фигуру. Если фигура уже имеет TextFrameEx, просто меняет ее текст. |
 
 ### Смотрите также
 

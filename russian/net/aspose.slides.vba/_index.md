@@ -17,7 +17,7 @@ url: /ru/net/aspose.slides.vba/
 | [VbaProject](./vbaproject) | Представляет проект VBA с макросами презентации. |
 | [VbaProjectFactory](./vbaprojectfactory) | Позволяет создать проект VBA через COM-интерфейс |
 | [VbaReferenceCollection](./vbareferencecollection) | Представляет коллекцию ссылок проекта VBA. |
-| [VbaReferenceFactory](./vbareferencefactory) | Позволяет создавать ссылки на проекты VBA через COM-интерфейс |
+| [VbaReferenceFactory](./vbareferencefactory) | Позволяет создавать ссылки на проекты VBA через интерфейс COM |
 | [VbaReferenceOleTypeLib](./vbareferenceoletypelib) | Представляет ссылку на библиотеку типов OLE Automation. |
 ## Интерфейсы
 
@@ -29,7 +29,7 @@ url: /ru/net/aspose.slides.vba/
 | [IVbaProjectFactory](./ivbaprojectfactory) | Позволяет создать проект VBA через COM-интерфейс |
 | [IVbaReference](./ivbareference) | Представляет имя ссылки на проект VBA. |
 | [IVbaReferenceCollection](./ivbareferencecollection) | Представляет коллекцию ссылок проекта VBA. |
-| [IVbaReferenceFactory](./ivbareferencefactory) | Позволяет создавать ссылки на проекты VBA через COM-интерфейс |
+| [IVbaReferenceFactory](./ivbareferencefactory) | Позволяет создавать ссылки на проекты VBA через интерфейс COM |
 | [IVbaReferenceOleTwiddledTypeLib](./ivbareferenceoletwiddledtypelib) | Представляет измененную ссылку на библиотеку типов OLE Automation, в которой все элементы управления помечены как расширяемые. |
 | [IVbaReferenceOleTypeLib](./ivbareferenceoletypelib) | Представляет ссылку на библиотеку типов OLE Automation. |
 | [IVbaReferenceProject](./ivbareferenceproject) | Представляет ссылку на внешний проект VBA. |

@@ -1,14 +1,14 @@
 ---
 title: SlideSizeScaleType
 second_title: Aspose.Slides for .NET API 参考
-description: 表示幻灯片内容的缩放类型
+description: 代表幻灯片内容的缩放类型
 type: docs
 weight: 9710
 url: /zh/net/aspose.slides/slidesizescaletype/
 ---
 ## SlideSizeScaleType enumeration
 
-表示幻灯片内容的缩放类型。
+代表幻灯片内容的缩放类型。
 
 ```csharp
 public enum SlideSizeScaleType
@@ -20,7 +20,7 @@ public enum SlideSizeScaleType
 | --- | --- | --- |
 | DoNotScale | `0` | 不要缩放。 |
 | EnsureFit | `1` | 缩放以确保适合。 |
-| Maximize | `2` | 最大化内容大小。 |
+| Maximize | `2` | 最大化内容的大小。 |
 
 ### 也可以看看
 

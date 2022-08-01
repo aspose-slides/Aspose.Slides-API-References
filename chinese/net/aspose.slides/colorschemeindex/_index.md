@@ -24,12 +24,12 @@ public enum ColorSchemeIndex : byte
 | Light2 | `3` | 光 2. |
 | Accent1 | `4` | 重音 1. |
 | Accent2 | `5` | 重音 2. |
-| Accent3 | `6` | 重音 3. |
-| Accent4 | `7` | 重音 4. |
+| Accent3 | `6` | 口音 3. |
+| Accent4 | `7` | 口音 4. |
 | Accent5 | `8` | 重音 5. |
-| Accent6 | `9` | 口音 6. |
+| Accent6 | `9` | 重音 6. |
 | Hyperlink | `10` | 超链接。 |
-| FollowedHyperlink | `11` | 跟随超链接。 |
+| FollowedHyperlink | `11` | 关注超链接。 |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: IAlphaInverse
 second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет эффект обратного альфа-канала. Значения альфа-канала непрозрачности инвертируются путем вычитания из 100.
+description: Представляет эффект инвертирования альфа-канала. Значения альфа-канала непрозрачности инвертируются путем вычитания из 100.
 type: docs
 weight: 2900
 url: /ru/net/aspose.slides.effects/ialphainverse/
 ---
 ## IAlphaInverse interface
 
-Представляет эффект обратного альфа-канала. Значения альфа-канала (непрозрачности) инвертируются путем вычитания из 100%.
+Представляет эффект инвертирования альфа-канала. Значения альфа-канала (непрозрачности) инвертируются путем вычитания из 100%.
 
 ```csharp
 public interface IAlphaInverse : IAccessiblePVIObject<IAlphaInverseEffectiveData>, 
@@ -19,8 +19,8 @@ public interface IAlphaInverse : IAccessiblePVIObject<IAlphaInverseEffectiveData
 
 | Имя | Описание |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphainverse/asiaccessiblepviobject) { get; } | Позволяет получить базовый интерфейс IAccessiblePVIObject. Только чтение[`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ialphainverse/asiimagetransformoperation) { get; } | Позволяет получить базовый интерфейс IImageTransformOperation. Только для чтения[`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphainverse/asiaccessiblepviobject) { get; } | Позволяет получить базовый интерфейс IAccessiblePVIObject. Только для чтения[`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1) . |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ialphainverse/asiimagetransformoperation) { get; } | Позволяет получить базовый интерфейс IImageTransformOperation. Только для чтения[`IImageTransformOperation`](../iimagetransformoperation) . |
 
 ### Смотрите также
 

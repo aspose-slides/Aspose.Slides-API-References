@@ -1,14 +1,14 @@
 ---
 title: Output
 second_title: Aspose.Slides for .NET API 参考
-description: 返回文档输出元素的集合 只读Outputaspose.slides.export.web/webdocument/output
+description: 返回文档输出元素的集合 只读Outputaspose.slides.export.web/webdocument/output.
 type: docs
 weight: 40
 url: /zh/net/aspose.slides.export.web/webdocument/output/
 ---
 ## WebDocument.Output property
 
-返回文档输出元素的集合。 只读`Output`。
+返回文档输出元素的集合。 只读`Output`.
 
 ```csharp
 public Output Output { get; }
@@ -29,10 +29,10 @@ using (Presentation pres = new Presentation("pres.pptx"))
     
     WebDocument document = new WebDocument(options);
 
-     // 将“index.html”添加到输出文件中，使用“index”模板生成它并将变量作为model
+    // 将“index.html”添加到输出文件中，使用“index”模板生成它并将pres变量作为模型
     document.Output.Add("index.html", "index", pres);
 
-     // ... 设置文档的其他选项，然后保存文档
+    // ... 设置文档的其他选项，然后保存文档
     document.Save();
 }
 ```

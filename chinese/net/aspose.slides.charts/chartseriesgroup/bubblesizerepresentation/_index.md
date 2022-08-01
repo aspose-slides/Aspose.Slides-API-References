@@ -1,14 +1,14 @@
 ---
 title: BubbleSizeRepresentation
 second_title: Aspose.Slides for .NET API 参考
-description: 指定气泡大小值在气泡图上的表示方式 读/写BubbleSizeRepresentationTypeaspose.slides.charts/bubblesizerepresentationtype
+description: 指定气泡大小值在气泡图上的表示方式 读/写BubbleSizeRepresentationTypeaspose.slides.charts/bubblesizerepresentationtype.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides.charts/chartseriesgroup/bubblesizerepresentation/
 ---
 ## ChartSeriesGroup.BubbleSizeRepresentation property
 
-指定气泡大小值在气泡图上的表示方式。 读/写[`BubbleSizeRepresentationType`](../../bubblesizerepresentationtype)。
+指定气泡大小值在气泡图上的表示方式。 读/写[`BubbleSizeRepresentationType`](../../bubblesizerepresentationtype).
 
 ```csharp
 public BubbleSizeRepresentationType BubbleSizeRepresentation { get; set; }

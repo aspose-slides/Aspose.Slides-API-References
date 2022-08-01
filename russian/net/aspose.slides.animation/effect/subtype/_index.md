@@ -1,14 +1,14 @@
 ---
 title: Subtype
 second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет подтип эффекта. Чтение/записьEffectSubtypeaspose.slides.animation/effectsubtype.
+description: Определяет подтип эффекта. Чтение/записьEffectSubtypeaspose.slides.animation/effectsubtype .
 type: docs
 weight: 40
 url: /ru/net/aspose.slides.animation/effect/subtype/
 ---
 ## Effect.Subtype property
 
-Определяет подтип эффекта. Чтение/запись[`EffectSubtype`](../../effectsubtype).
+Определяет подтип эффекта. Чтение/запись[`EffectSubtype`](../../effectsubtype) .
 
 ```csharp
 public EffectSubtype Subtype { get; set; }

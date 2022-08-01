@@ -1,14 +1,14 @@
 ---
 title: VerticalBanding
 second_title: Aspose.Slides for .NET API 参考
-description: 确定偶数列是否必须以不同的格式绘制 读/写Boolean
+description: 确定偶数列是否必须以不同的格式绘制 读/写Boolean.
 type: docs
 weight: 120
 url: /zh/net/aspose.slides/table/verticalbanding/
 ---
 ## Table.VerticalBanding property
 
-确定偶数列是否必须以不同的格式绘制。 读/写Boolean。
+确定偶数列是否必须以不同的格式绘制。 读/写Boolean.
 
 ```csharp
 public bool VerticalBanding { get; set; }

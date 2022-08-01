@@ -1,14 +1,14 @@
 ---
 title: InsertConnector
 second_title: Aspose.Slides for .NET API 参考
-description: 创建一个新的连接器从默认模板调整它并将其插入到 指定索引处的集合
+description: 创建一个新的连接器根据默认模板对其进行调整并将其插入到指定索引处的集合中 
 type: docs
 weight: 280
 url: /zh/net/aspose.slides/ishapecollection/insertconnector/
 ---
 ## InsertConnector(int, ShapeType, float, float, float, float) {#insertconnector}
 
-创建一个新的连接器，从默认模板调整它并将其插入到 指定索引处的集合。
+创建一个新的连接器，根据默认模板对其进行调整并将其插入到指定索引处的集合中 。
 
 ```csharp
 public IConnector InsertConnector(int index, ShapeType shapeType, float x, float y, float width, 
@@ -17,8 +17,8 @@ public IConnector InsertConnector(int index, ShapeType shapeType, float x, float
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| index | Int32 | 应该插入值的从零开始的索引。 |
-| shapeType | ShapeType | 一个[`ShapeType`](../../shapetype)形状。 |
+| index | Int32 | 应插入值的从零开始的索引。 |
+| shapeType | ShapeType | 一个[`ShapeType`](../../shapetype)的形状。 |
 | x | Single | 形状框架左侧的 X 坐标。 |
 | y | Single | 形状框架顶部的 Y 坐标。 |
 | width | Single | 形状框架的宽度。 |
@@ -26,7 +26,7 @@ public IConnector InsertConnector(int index, ShapeType shapeType, float x, float
 
 ### 返回值
 
-已创建连接器对象。
+创建了连接器对象。
 
 ### 也可以看看
 
@@ -49,17 +49,17 @@ public IConnector InsertConnector(int index, ShapeType shapeType, float x, float
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| index | Int32 | 应该插入值的从零开始的索引。 |
-| shapeType | ShapeType | 一个[`ShapeType`](../../shapetype)形状。 |
+| index | Int32 | 应插入值的从零开始的索引。 |
+| shapeType | ShapeType | 一个[`ShapeType`](../../shapetype)的形状。 |
 | x | Single | 形状框架左侧的 X 坐标。 |
 | y | Single | 形状框架顶部的 Y 坐标。 |
 | width | Single | 形状框架的宽度。 |
 | height | Single | 形状框架的高度。 |
-| createFromTemplate | Boolean | 如果为真，则将从默认模板调整新形状。非空名称， 简单样式，居中的文本将被关联到新形状。 如果为 false，则新形状的所有属性值都将具有默认值。 |
+| createFromTemplate | Boolean | 如果为 true，则新形状将从默认模板进行调整。非空名称， 简单样式，文本居中将被关联到新形状。 如果为 false，则新形状的所有属性值都将具有默认值。 |
 
 ### 返回值
 
-已创建连接器对象。
+创建了连接器对象。
 
 ### 也可以看看
 

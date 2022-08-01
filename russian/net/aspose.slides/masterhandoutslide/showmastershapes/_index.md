@@ -1,14 +1,14 @@
 ---
 title: ShowMasterShapes
 second_title: Справочник по API Aspose.Slides для .NET
-description: Указывает должны ли фигуры на мастер-слайде отображаться на слайдах или нет. Для самого мастер-слайда это свойство всегда возвращает false . Чтение/записьBoolean.
+description: Указывает должны ли фигуры на мастер-слайде отображаться на слайдах или нет. Для самого мастер-слайда это свойство всегда возвращает значение.ЛОЖЬ . Чтение/записьBoolean .
 type: docs
 weight: 20
 url: /ru/net/aspose.slides/masterhandoutslide/showmastershapes/
 ---
 ## MasterHandoutSlide.ShowMasterShapes property
 
-Указывает, должны ли фигуры на мастер-слайде отображаться на слайдах или нет. Для самого мастер-слайда это свойство всегда возвращает` false` . Чтение/записьBoolean.
+Указывает, должны ли фигуры на мастер-слайде отображаться на слайдах или нет. Для самого мастер-слайда это свойство всегда возвращает значение.`ЛОЖЬ` . Чтение/записьBoolean .
 
 ```csharp
 public override bool ShowMasterShapes { get; set; }
@@ -18,7 +18,7 @@ public override bool ShowMasterShapes { get; set; }
 
 | исключение | условие |
 | --- | --- |
-| NotSupportedException | Выбрасывается, если установлено` true` для мастер-слайд. |
+| NotSupportedException | Выбрасывается, если установлено`истинный` для мастер-слайда. |
 
 ### Смотрите также
 

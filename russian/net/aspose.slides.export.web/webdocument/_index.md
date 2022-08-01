@@ -1,14 +1,14 @@
 ---
 title: WebDocument
 second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет переходную форму презентации для сохранения в веб-формат.
+description: Представляет форму перехода презентации для сохранения в веб-формат.
 type: docs
 weight: 4250
 url: /ru/net/aspose.slides.export.web/webdocument/
 ---
 ## WebDocument class
 
-Представляет переходную форму презентации для сохранения в веб-формат.
+Представляет форму перехода презентации для сохранения в веб-формат.
 
 ```csharp
 public class WebDocument
@@ -18,15 +18,15 @@ public class WebDocument
 
 | Имя | Описание |
 | --- | --- |
-| [WebDocument](webdocument)(WebDocumentOptions) | [`WebDocument`](../webdocument)конструктор. |
+| [WebDocument](webdocument)(WebDocumentOptions) | [`WebDocument`](../webdocument) конструктор. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Global](../../aspose.slides.export.web/webdocument/global) { get; } | Возвращает глобальное хранилище документа. Только для чтения[`Storage`](../storage). |
+| [Global](../../aspose.slides.export.web/webdocument/global) { get; } | Возвращает глобальное хранилище документа. Только для чтения[`Storage`](../storage) . |
 | [Input](../../aspose.slides.export.web/webdocument/input) { get; } |  |
-| [Output](../../aspose.slides.export.web/webdocument/output) { get; } | Возвращает набор выходных элементов документа. Только чтение[`Output`](./output). |
+| [Output](../../aspose.slides.export.web/webdocument/output) { get; } | Возвращает набор выходных элементов документа. Только для чтения[`Output`](./output) . |
 
 ## Методы
 

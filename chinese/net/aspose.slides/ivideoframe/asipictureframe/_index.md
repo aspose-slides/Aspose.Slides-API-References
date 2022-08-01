@@ -1,14 +1,14 @@
 ---
 title: AsIPictureFrame
 second_title: Aspose.Slides for .NET API 参考
-description: 允许获取基础 IPictureFrame 接口 只读IPictureFrameaspose.slides/ipictureframe
+description: 允许获取基本 IPictureFrame 接口 只读IPictureFrameaspose.slides/ipictureframe.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides/ivideoframe/asipictureframe/
 ---
 ## IVideoFrame.AsIPictureFrame property
 
-允许获取基础 IPictureFrame 接口。 只读[`IPictureFrame`](../../ipictureframe)。
+允许获取基本 IPictureFrame 接口。 只读[`IPictureFrame`](../../ipictureframe).
 
 ```csharp
 public IPictureFrame AsIPictureFrame { get; }

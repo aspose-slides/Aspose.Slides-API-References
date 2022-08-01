@@ -1,14 +1,14 @@
 ---
 title: NumberFormatOfBubbleSizes
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置系列气泡大小的数字格式 读/写String
+description: 返回或设置系列气泡大小的数字格式 读/写String.
 type: docs
 weight: 220
 url: /zh/net/aspose.slides.charts/ichartseries/numberformatofbubblesizes/
 ---
 ## IChartSeries.NumberFormatOfBubbleSizes property
 
-返回或设置系列气泡大小的数字格式。 读/写String。
+返回或设置系列气泡大小的数字格式。 读/写String.
 
 ```csharp
 public string NumberFormatOfBubbleSizes { get; set; }

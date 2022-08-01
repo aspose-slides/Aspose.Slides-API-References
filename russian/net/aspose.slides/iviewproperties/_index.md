@@ -18,11 +18,11 @@ public interface IViewProperties
 
 | Имя | Описание |
 | --- | --- |
-| [LastView](../../aspose.slides/iviewproperties/lastview) { get; set; } | Указывает режим просмотра, который использовался при последнем сохранении документа презентации. Чтение/запись[`ViewType`](../viewtype). |
-| [NormalViewProperties](../../aspose.slides/iviewproperties/normalviewproperties) { get; } | Представляет свойства обычного вида. Обычный вид состоит из трех областей содержимого:самого слайда, боковой области содержимого и нижней области содержимого. Только для чтения[`INormalViewProperties`](../inormalviewproperties). |
-| [NotesViewProperties](../../aspose.slides/iviewproperties/notesviewproperties) { get; } | Задает общие свойства просмотра, связанные с режимом просмотра заметок. Только для чтения[`ICommonSlideViewProperties`](../icommonslideviewproperties). |
-| [ShowComments](../../aspose.slides/iviewproperties/showcomments) { get; set; } | Указывает, должны ли отображаться комментарии к слайду. Чтение/запись[`NullableBool`](../nullablebool). |
-| [SlideViewProperties](../../aspose.slides/iviewproperties/slideviewproperties) { get; } | Задает общие свойства просмотра, связанные с режимом просмотра слайдов. Только для чтения[`ICommonSlideViewProperties`](../icommonslideviewproperties). |
+| [LastView](../../aspose.slides/iviewproperties/lastview) { get; set; } | Указывает режим просмотра, который использовался при последнем сохранении документа презентации. Чтение/запись[`ViewType`](../viewtype) . |
+| [NormalViewProperties](../../aspose.slides/iviewproperties/normalviewproperties) { get; } | Представляет свойства обычного вида. Обычный вид состоит из трех областей содержимого: самого слайда, боковой области содержимого и нижней области содержимого. Только для чтения[`INormalViewProperties`](../inormalviewproperties) . |
+| [NotesViewProperties](../../aspose.slides/iviewproperties/notesviewproperties) { get; } | Задает общие свойства представления, связанные с режимом просмотра примечаний. Только для чтения[`ICommonSlideViewProperties`](../icommonslideviewproperties) |
+| [ShowComments](../../aspose.slides/iviewproperties/showcomments) { get; set; } | Указывает, должны ли отображаться комментарии к слайду. Чтение/запись[`NullableBool`](../nullablebool) . |
+| [SlideViewProperties](../../aspose.slides/iviewproperties/slideviewproperties) { get; } | Задает общие свойства просмотра, связанные с режимом просмотра слайдов. Только для чтения[`ICommonSlideViewProperties`](../icommonslideviewproperties) . |
 
 ### Смотрите также
 

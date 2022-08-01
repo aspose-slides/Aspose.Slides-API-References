@@ -1,14 +1,14 @@
 ---
 title: CommentAuthors
 second_title: Aspose.Slides for .NET API 参考
-description: 返回评论 autors 的集合 只读ICommentAuthorCollectionaspose.slides/icommentauthorcollection
+description: 返回评论 autors 的集合 只读ICommentAuthorCollectionaspose.slides/icommentauthorcollection.
 type: docs
 weight: 50
 url: /zh/net/aspose.slides/ipresentation/commentauthors/
 ---
 ## IPresentation.CommentAuthors property
 
-返回评论 autors 的集合。 只读[`ICommentAuthorCollection`](../../icommentauthorcollection)。
+返回评论 autors 的集合。 只读[`ICommentAuthorCollection`](../../icommentauthorcollection).
 
 ```csharp
 public ICommentAuthorCollection CommentAuthors { get; }

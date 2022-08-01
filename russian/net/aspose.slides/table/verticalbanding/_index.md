@@ -1,14 +1,14 @@
 ---
 title: VerticalBanding
 second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет должны ли четные столбцы отображаться с другим форматированием. Чтение/записьBoolean.
+description: Определяет должны ли четные столбцы отображаться с другим форматированием. Чтение/записьBoolean .
 type: docs
 weight: 120
 url: /ru/net/aspose.slides/table/verticalbanding/
 ---
 ## Table.VerticalBanding property
 
-Определяет, должны ли четные столбцы отображаться с другим форматированием. Чтение/записьBoolean.
+Определяет, должны ли четные столбцы отображаться с другим форматированием. Чтение/записьBoolean .
 
 ```csharp
 public bool VerticalBanding { get; set; }

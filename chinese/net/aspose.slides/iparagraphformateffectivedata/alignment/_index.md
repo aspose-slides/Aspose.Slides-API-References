@@ -1,14 +1,14 @@
 ---
 title: Alignment
 second_title: Aspose.Slides for .NET API 参考
-description: 返回段落中的文本对齐方式 只读TextAlignmentaspose.slides/textalignment
+description: 返回段落中的文本对齐方式 只读TextAlignmentaspose.slides/textalignment.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides/iparagraphformateffectivedata/alignment/
 ---
 ## IParagraphFormatEffectiveData.Alignment property
 
-返回段落中的文本对齐方式。 只读[`TextAlignment`](../../textalignment)。
+返回段落中的文本对齐方式。 只读[`TextAlignment`](../../textalignment).
 
 ```csharp
 public TextAlignment Alignment { get; }

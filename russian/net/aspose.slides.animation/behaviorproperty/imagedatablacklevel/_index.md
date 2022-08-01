@@ -8,7 +8,7 @@ url: /ru/net/aspose.slides.animation/behaviorproperty/imagedatablacklevel/
 ---
 ## BehaviorProperty.ImageDataBlacklevel property
 
-Представляет свойство 'imageData.blacklevel'
+Представляет свойство imageData.blacklevel
 
 ```csharp
 public static BehaviorProperty ImageDataBlacklevel { get; }

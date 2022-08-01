@@ -18,14 +18,14 @@ public interface ITextStyle
 
 | 姓名 | 描述 |
 | --- | --- |
-| [DefaultParagraphFormat](../../aspose.slides/itextstyle/defaultparagraphformat) { get; } | 默认段落属性。 只读[`IParagraphFormat`](../iparagraphformat)。 |
+| [DefaultParagraphFormat](../../aspose.slides/itextstyle/defaultparagraphformat) { get; } | 默认段落属性。 只读[`IParagraphFormat`](../iparagraphformat). |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
 | [GetEffective](../../aspose.slides/itextstyle/geteffective)() | 获取应用了继承的有效文本样式格式数据。 |
-| [GetLevel](../../aspose.slides/itextstyle/getlevel)(int) | 如果样式级别存在则返回它，否则返回null。 |
+| [GetLevel](../../aspose.slides/itextstyle/getlevel)(int) | 如果样式级别存在则返回，否则返回null。 |
 
 ### 也可以看看
 

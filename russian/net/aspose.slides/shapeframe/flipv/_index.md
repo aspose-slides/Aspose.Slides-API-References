@@ -1,14 +1,14 @@
 ---
 title: FlipV
 second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет переворачивается ли кадр по вертикали. Только для чтенияNullableBoolaspose.slides/nullablebool.
+description: Определяет переворачивается ли кадр по вертикали. Только для чтенияNullableBoolaspose.slides/nullablebool .
 type: docs
 weight: 50
 url: /ru/net/aspose.slides/shapeframe/flipv/
 ---
 ## ShapeFrame.FlipV property
 
-Определяет, переворачивается ли кадр по вертикали. Только для чтения[`NullableBool`](../../nullablebool).
+Определяет, переворачивается ли кадр по вертикали. Только для чтения[`NullableBool`](../../nullablebool) .
 
 ```csharp
 public NullableBool FlipV { get; }

@@ -1,14 +1,14 @@
 ---
 title: ShadowColor
 second_title: Aspose.Slides for .NET API 参考
-description: 阴影颜色 只读Color
+description: 阴影颜色 只读Color.
 type: docs
 weight: 90
 url: /zh/net/aspose.slides.effects/ioutershadoweffectivedata/shadowcolor/
 ---
 ## IOuterShadowEffectiveData.ShadowColor property
 
-阴影颜色。 只读Color。
+阴影颜色。 只读Color.
 
 ```csharp
 public Color ShadowColor { get; }

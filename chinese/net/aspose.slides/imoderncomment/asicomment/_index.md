@@ -1,14 +1,14 @@
 ---
 title: AsIComment
 second_title: Aspose.Slides for .NET API 参考
-description: 允许获取基本 IComment 接口 只读ICommentaspose.slides/icomment
+description: 允许获取基本的 IComment 接口 只读ICommentaspose.slides/icomment.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides/imoderncomment/asicomment/
 ---
 ## IModernComment.AsIComment property
 
-允许获取基本 IComment 接口。 只读[`IComment`](../../icomment)。
+允许获取基本的 IComment 接口。 只读[`IComment`](../../icomment).
 
 ```csharp
 public IComment AsIComment { get; }

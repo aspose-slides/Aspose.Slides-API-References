@@ -1,14 +1,14 @@
 ---
 title: SymbolFont
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или устанавливает информацию о символическом шрифте. Null означает что шрифт не определен и должен быть унаследован от мастера. Чтение/записьIFontDataaspose.slides/ifontdata.
+description: Возвращает или устанавливает информацию о символическом шрифте. Null означает что шрифт не определен и должен быть унаследован от мастера. Чтение/записьIFontDataaspose.slides/ifontdata .
 type: docs
 weight: 230
 url: /ru/net/aspose.slides/ibaseportionformat/symbolfont/
 ---
 ## IBasePortionFormat.SymbolFont property
 
-Возвращает или устанавливает информацию о символическом шрифте. Null означает, что шрифт не определен и должен быть унаследован от мастера. Чтение/запись[`IFontData`](../../ifontdata).
+Возвращает или устанавливает информацию о символическом шрифте. Null означает, что шрифт не определен и должен быть унаследован от мастера. Чтение/запись[`IFontData`](../../ifontdata) .
 
 ```csharp
 public IFontData SymbolFont { get; set; }

@@ -16,7 +16,7 @@ public void Remove(IMasterSlide value)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | IMasterSlide | 要从集合中删除的母版幻灯片。 |
+| value | IMasterSlide | 要从集合中删除的主幻灯片。 |
 
 ### 也可以看看
 

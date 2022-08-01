@@ -1,14 +1,14 @@
 ---
 title: ViewProperties
 second_title: Aspose.Slides for .NET API 参考
-description: 获取展示范围视图属性 只读IViewPropertiesaspose.slides/iviewproperties
+description: 获取演示文稿范围的视图属性 只读IViewPropertiesaspose.slides/iviewproperties.
 type: docs
 weight: 280
 url: /zh/net/aspose.slides/presentation/viewproperties/
 ---
 ## Presentation.ViewProperties property
 
-获取展示范围视图属性。 只读[`IViewProperties`](../../iviewproperties)。
+获取演示文稿范围的视图属性。 只读[`IViewProperties`](../../iviewproperties).
 
 ```csharp
 public IViewProperties ViewProperties { get; }

@@ -19,28 +19,28 @@ public sealed class SVGOptions : SaveOptions, ISVGOptions
 | Имя | Описание |
 | --- | --- |
 | [SVGOptions](svgoptions#constructor)() | Инициализирует новый экземпляр класса SVGOptions. |
-| [SVGOptions](svgoptions#constructor_1)(ILinkEmbedController) | Инициализирует новый экземпляр класса SVGOptions, определяя объект контроллера внедрения ссылки. |
+| [SVGOptions](svgoptions#constructor_1)(ILinkEmbedController) | Инициализирует новый экземпляр класса SVGOptions, указывающий объект контроллера внедрения ссылки. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| static [Default](../../aspose.slides.export/svgoptions/default) { get; } | Возвращает настройки по умолчанию. Только для чтения[`SVGOptions`](../svgoptions). |
-| static [Simple](../../aspose.slides.export/svgoptions/simple) { get; } | Возвращает настройки для создания самого простого и наименьшего файла SVG. Только для чтения[`SVGOptions`](../svgoptions). |
-| static [WYSIWYG](../../aspose.slides.export/svgoptions/wysiwyg) { get; } | Возвращает настройки для наиболее точного создания файла SVG. Только для чтения[`SVGOptions`](../svgoptions). |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Возвращает или устанавливает шрифт, используемый в случае, если исходный шрифт не найден. Чтение-записьString. |
-| [DeletePicturesCroppedAreas](../../aspose.slides.export/svgoptions/deletepicturescroppedareas) { get; set; } | Логический флаг указывает, остаются ли обрезанные части частью документа. Если true, обрезанные части будут удалены, если false, они будут сериализованы в документе (что может привести к увеличению файла ) |
-| [Disable3DText](../../aspose.slides.export/svgoptions/disable3dtext) { get; set; } | Определяет, отключен ли 3D-текст в SVG. Чтение/записьBoolean. |
-| [DisableGradientSplit](../../aspose.slides.export/svgoptions/disablegradientsplit) { get; set; } | Отключает разделение градиентов FromCornerX и FromCenter. Чтение/записьBoolean. |
-| [DisableLineEndCropping](../../aspose.slides.export/svgoptions/disablelineendcropping) { get; set; } | В SVG 1.1 отсутствует возможность определять вставки для маркеров. Механизм записи SVG Aspose.Slides имеет обходной путь для этой проблемы: он обрезает конец строки стрелкой, поэтому линия не перекрывает маркеры. Эта опция отключает такое поведение. Чтение/записьBoolean. |
-| [ExternalFontsHandling](../../aspose.slides.export/svgoptions/externalfontshandling) { get; set; } | Определяет способ обработки загруженных извне шрифтов. Чтение/запись[`SvgExternalFontsHandling`](../svgexternalfontshandling). |
-| [JpegQuality](../../aspose.slides.export/svgoptions/jpegquality) { get; set; } | Определяет качество кодирования JPEG. Чтение/записьInt32. |
-| [MetafileRasterizationDpi](../../aspose.slides.export/svgoptions/metafilerasterizationdpi) { get; set; } | Возвращает или задает нижний предел разрешения для растеризации метафайла. Чтение/записьInt32. |
+| static [Default](../../aspose.slides.export/svgoptions/default) { get; } | Возвращает настройки по умолчанию. Только для чтения[`SVGOptions`](../svgoptions) . |
+| static [Simple](../../aspose.slides.export/svgoptions/simple) { get; } | Возвращает настройки для создания самого простого и наименьшего файла SVG. Только для чтения[`SVGOptions`](../svgoptions) . |
+| static [WYSIWYG](../../aspose.slides.export/svgoptions/wysiwyg) { get; } | Возвращает настройки для наиболее точного создания файла SVG. Только для чтения[`SVGOptions`](../svgoptions) . |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Возвращает или устанавливает шрифт, используемый в случае, если исходный шрифт не найден. Чтение-записьString . |
+| [DeletePicturesCroppedAreas](../../aspose.slides.export/svgoptions/deletepicturescroppedareas) { get; set; } | Логический флаг указывает, остаются ли обрезанные части частью документа. Если true, обрезанные части будут удалены, если false, они будут сериализованы в документе (что может привести к увеличению файла на ) |
+| [Disable3DText](../../aspose.slides.export/svgoptions/disable3dtext) { get; set; } | Определяет, отключен ли 3D-текст в SVG. Чтение/записьBoolean . |
+| [DisableGradientSplit](../../aspose.slides.export/svgoptions/disablegradientsplit) { get; set; } | Отключает разделение градиентов FromCornerX и FromCenter. Чтение/записьBoolean . |
+| [DisableLineEndCropping](../../aspose.slides.export/svgoptions/disablelineendcropping) { get; set; } | В SVG 1.1 отсутствует возможность определять вставки для маркеров. Механизм записи Aspose.Slides SVG имеет обходной путь для этой проблемы: он обрезает конец строки стрелкой, поэтому линия не перекрывает маркеры. Этот параметр отключает такое поведение. Чтение/записьBoolean . |
+| [ExternalFontsHandling](../../aspose.slides.export/svgoptions/externalfontshandling) { get; set; } | Определяет способ обработки загруженных извне шрифтов. Чтение/запись[`SvgExternalFontsHandling`](../svgexternalfontshandling) . |
+| [JpegQuality](../../aspose.slides.export/svgoptions/jpegquality) { get; set; } | Определяет качество кодирования JPEG. Чтение/записьInt32 . |
+| [MetafileRasterizationDpi](../../aspose.slides.export/svgoptions/metafilerasterizationdpi) { get; set; } | Возвращает или задает нижний предел разрешения для растеризации метафайла. Чтение/записьInt32 . |
 | [PicturesCompression](../../aspose.slides.export/svgoptions/picturescompression) { get; set; } | Представляет уровень сжатия изображений |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Представляет объект обратного вызова для сохранения обновлений хода выполнения в процентах. См.[`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [ShapeFormattingController](../../aspose.slides.export/svgoptions/shapeformattingcontroller) { get; set; } | Возвращает и устанавливает интерфейс обратного вызова, который позволяет пользователю управлять преобразованием формы. Чтение/запись[`ISvgShapeFormattingController`](../isvgshapeformattingcontroller). |
-| [VectorizeText](../../aspose.slides.export/svgoptions/vectorizetext) { get; set; } | Определяет, будет ли текст на слайде сохранен как графика. Чтение/записьBoolean. |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Возвращает наборы объект, который получает предупреждения и решает, будет ли процесс загрузки продолжен или будет прерван. Чтение/запись[`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Представляет объект обратного вызова для сохранения обновлений хода выполнения в процентах. См.[`IProgressCallback`](../../aspose.slides/iprogresscallback) . |
+| [ShapeFormattingController](../../aspose.slides.export/svgoptions/shapeformattingcontroller) { get; set; } | Возвращает и устанавливает интерфейс обратного вызова, который позволяет пользователю управлять преобразованием формы. Чтение/запись[`ISvgShapeFormattingController`](../isvgshapeformattingcontroller) . |
+| [VectorizeText](../../aspose.slides.export/svgoptions/vectorizetext) { get; set; } | Определяет, будет ли текст на слайде сохранен как графика. Чтение/записьBoolean . |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Возвращает наборы объекта, который получает предупреждения и решает, будет ли процесс загрузки продолжен или будет прерван. Чтение/запись[`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback) . |
 
 ### Смотрите также
 

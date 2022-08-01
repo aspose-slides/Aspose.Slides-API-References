@@ -1,14 +1,14 @@
 ---
 title: StyleTextEffectOutline
 second_title: Aspose.Slides for .NET API 参考
-description: 表示 style.textEffectOutline 属性
+description: 表示style.textEffectOutline 属性
 type: docs
 weight: 1160
 url: /zh/net/aspose.slides.animation/behaviorproperty/styletexteffectoutline/
 ---
 ## BehaviorProperty.StyleTextEffectOutline property
 
-表示 'style.textEffectOutline' 属性
+表示'style.textEffectOutline' 属性
 
 ```csharp
 public static BehaviorProperty StyleTextEffectOutline { get; }

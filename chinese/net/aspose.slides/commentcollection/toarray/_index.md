@@ -16,7 +16,7 @@ public IComment[] ToArray()
 
 ### 返回值
 
-[`Comment`](../../comment)数组。
+数组[`Comment`](../../comment).
 
 ### 也可以看看
 
@@ -38,11 +38,11 @@ public IComment[] ToArray(int startIndex, int count)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | startIndex | Int32 | 要返回的第一条评论的索引。 |
-| count | Int32 | 要返回的评论数。 |
+| count | Int32 | 一些评论要返回。 |
 
 ### 返回值
 
-[`Comment`](../../comment)的数组。
+数组[`Comment`](../../comment).
 
 ### 也可以看看
 

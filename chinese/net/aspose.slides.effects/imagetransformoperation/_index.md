@@ -18,7 +18,7 @@ public abstract class ImageTransformOperation : PVIObject, IImageTransformOperat
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允许获取基本 IPresentationComponent 接口。 只读[`IPresentationComponent`](../../aspose.slides/ipresentationcomponent)。 |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允许获取基本 IPresentationComponent 接口。 只读[`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 
 ## 方法
 

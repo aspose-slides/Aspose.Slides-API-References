@@ -1,14 +1,14 @@
 ---
 title: StrikethroughHorizontal
 second_title: Справочник по API Aspose.Slides для .NET
-description: Strikethrough Horizontal по умолчанию false - указывает скрытое или отображаемое состояние зачеркнутой горизонтальной линии.
+description: Strikethrough Horizontal по умолчанию false  указывает скрытое или отображаемое состояние зачеркнутой горизонтальной линии.
 type: docs
 weight: 80
 url: /ru/net/aspose.slides.mathtext/imathborderbox/strikethroughhorizontal/
 ---
 ## IMathBorderBox.StrikethroughHorizontal property
 
-Strikethrough Horizontal (по умолчанию false) - указывает скрытое или отображаемое состояние зачеркнутой горизонтальной линии.
+Strikethrough Horizontal (по умолчанию false) — указывает скрытое или отображаемое состояние зачеркнутой горизонтальной линии.
 
 ```csharp
 public bool StrikethroughHorizontal { get; set; }

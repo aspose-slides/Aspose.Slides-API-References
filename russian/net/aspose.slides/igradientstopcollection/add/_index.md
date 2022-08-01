@@ -16,8 +16,8 @@ public IGradientStop Add(float position, Color color)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| position | Single | Позиция новой остановки градиента. |
-| color | Color | Цвет новой радиентной остановки. |
+| position | Single | Положение новой остановки градиента. |
+| color | Color | Цвет новой лучистой стопы. |
 
 ### Возвращаемое значение
 
@@ -42,8 +42,8 @@ public IGradientStop Add(float position, PresetColor presetColor)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| position | Single | Позиция новой остановки градиента. |
-| presetColor | PresetColor | Цвет новой остановки радианта. |
+| position | Single | Положение новой остановки градиента. |
+| presetColor | PresetColor | Цвет новой лучистой стопы. |
 
 ### Возвращаемое значение
 
@@ -69,8 +69,8 @@ public IGradientStop Add(float position, SchemeColor schemeColor)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| position | Single | Позиция новой остановки градиента. |
-| schemeColor | SchemeColor | Цвет новой радиантной остановки. |
+| position | Single | Положение новой остановки градиента. |
+| schemeColor | SchemeColor | Цвет новой лучистой стопы. |
 
 ### Возвращаемое значение
 

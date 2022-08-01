@@ -1,14 +1,14 @@
 ---
 title: AsIHyperlinkContainer
 second_title: Aspose.Slides for .NET API 参考
-description: 允许获取基本 IHyperlinkContainer 接口 只读IHyperlinkContaineraspose.slides/ihyperlinkcontainer
+description: 允许获取基本 IHyperlinkContainer 接口 只读IHyperlinkContaineraspose.slides/ihyperlinkcontainer.
 type: docs
 weight: 30
 url: /zh/net/aspose.slides/ishape/asihyperlinkcontainer/
 ---
 ## IShape.AsIHyperlinkContainer property
 
-允许获取基本 IHyperlinkContainer 接口。 只读[`IHyperlinkContainer`](../../ihyperlinkcontainer)。
+允许获取基本 IHyperlinkContainer 接口。 只读[`IHyperlinkContainer`](../../ihyperlinkcontainer).
 
 ```csharp
 public IHyperlinkContainer AsIHyperlinkContainer { get; }

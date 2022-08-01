@@ -1,14 +1,14 @@
 ---
 title: AsIChartComponent
 second_title: Aspose.Slides for .NET API 参考
-description: 允许获取基本 IChartComponent 接口 只读IChartComponentaspose.slides.charts/ichartcomponent
+description: 允许获取基本 IChartComponent 接口 只读IChartComponentaspose.slides.charts/ichartcomponent.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides.charts/ichartseriesgroup/asichartcomponent/
 ---
 ## IChartSeriesGroup.AsIChartComponent property
 
-允许获取基本 IChartComponent 接口。 只读[`IChartComponent`](../../ichartcomponent)。
+允许获取基本 IChartComponent 接口。 只读[`IChartComponent`](../../ichartcomponent).
 
 ```csharp
 public IChartComponent AsIChartComponent { get; }

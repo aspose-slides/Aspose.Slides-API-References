@@ -1,14 +1,14 @@
 ---
 title: LatinLineBreak
 second_title: Aspose.Slides for .NET API 参考
-description: 确定段落中是否使用拉丁换行符 读/写NullableBoolaspose.slides/nullablebool
+description: 确定段落中是否使用拉丁换行符 读/写NullableBoolaspose.slides/nullablebool.
 type: docs
 weight: 70
 url: /zh/net/aspose.slides.charts/ichartparagraphformat/latinlinebreak/
 ---
 ## IChartParagraphFormat.LatinLineBreak property
 
-确定段落中是否使用拉丁换行符。 读/写[`NullableBool`](../../../aspose.slides/nullablebool)。
+确定段落中是否使用拉丁换行符。 读/写[`NullableBool`](../../../aspose.slides/nullablebool).
 
 ```csharp
 public NullableBool LatinLineBreak { get; set; }

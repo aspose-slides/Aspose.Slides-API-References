@@ -1,14 +1,14 @@
 ---
 title: IVideoCollection
 second_title: Aspose.Slides for .NET API 参考
-description: 表示视频对象的集合
+description: 表示 Video 对象的集合
 type: docs
 weight: 6790
 url: /zh/net/aspose.slides/ivideocollection/
 ---
 ## IVideoCollection interface
 
-表示视频对象的集合。
+表示 Video 对象的集合。
 
 ```csharp
 public interface IVideoCollection : IGenericCollection<IVideo>
@@ -18,15 +18,15 @@ public interface IVideoCollection : IGenericCollection<IVideo>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Item](../../aspose.slides/ivideocollection/item) { get; } | 获取指定索引处的元素。 只读[`IVideo`](../ivideo)。 |
+| [Item](../../aspose.slides/ivideocollection/item) { get; } | 获取指定索引处的元素。 只读[`IVideo`](../ivideo). |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AddVideo](../../aspose.slides/ivideocollection/addvideo#addvideo_1)(byte[]) | 从字节数组创建视频并将其添加到演示文稿。 |
+| [AddVideo](../../aspose.slides/ivideocollection/addvideo#addvideo_1)(byte[]) | 从字节数组创建视频并将其添加到演示文稿中。 |
 | [AddVideo](../../aspose.slides/ivideocollection/addvideo#addvideo)(IVideo) | 添加来自另一个演示文稿的视频文件的副本。 |
-| [AddVideo](../../aspose.slides/ivideocollection/addvideo#addvideo_3)(Stream, LoadingStreamBehavior) | 创建视频并将其添加到流中的演示文稿。 |
+| [AddVideo](../../aspose.slides/ivideocollection/addvideo#addvideo_3)(Stream, LoadingStreamBehavior) | 从流中创建视频并将其添加到演示文稿中。 |
 
 ### 也可以看看
 

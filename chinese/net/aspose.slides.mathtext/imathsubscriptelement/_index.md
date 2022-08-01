@@ -1,14 +1,14 @@
 ---
 title: IMathSubscriptElement
 second_title: Aspose.Slides for .NET API 参考
-description: 指定下标对象它由一个基本的 和一个位于右下方的缩小尺寸的下标组成
+description: 指定下标对象它由一个基本的 和一个位于下方和右侧的缩小尺寸的下标组成
 type: docs
 weight: 7750
 url: /zh/net/aspose.slides.mathtext/imathsubscriptelement/
 ---
 ## IMathSubscriptElement interface
 
-指定下标对象，它由一个基本的 和一个位于右下方的缩小尺寸的下标组成。
+指定下标对象，它由一个基本的 和一个位于下方和右侧的缩小尺寸的下标组成。
 
 ```csharp
 public interface IMathSubscriptElement : IMathElement
@@ -24,7 +24,7 @@ public interface IMathSubscriptElement : IMathElement
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]

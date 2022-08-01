@@ -1,14 +1,14 @@
 ---
 title: Accent6
 second_title: Aspose.Slides for .NET API 参考
-description: 方案中的第六种强调色 只读IColorFormataspose.slides/icolorformat
+description: 方案中的第六种强调色 只读IColorFormataspose.slides/icolorformat.
 type: docs
 weight: 60
 url: /zh/net/aspose.slides.theme/colorscheme/accent6/
 ---
 ## ColorScheme.Accent6 property
 
-方案中的第六种强调色。 只读[`IColorFormat`](../../../aspose.slides/icolorformat)。
+方案中的第六种强调色。 只读[`IColorFormat`](../../../aspose.slides/icolorformat).
 
 ```csharp
 public IColorFormat Accent6 { get; }

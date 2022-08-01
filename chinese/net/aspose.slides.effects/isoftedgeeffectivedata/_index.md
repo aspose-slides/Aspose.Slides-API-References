@@ -18,8 +18,8 @@ public interface ISoftEdgeEffectiveData : IEffectEffectiveData
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/isoftedgeeffectivedata/asieffecteffectivedata) { get; } | 允许获取基础 IEffectEffectiveData 接口。 只读[`IEffectEffectiveData`](../ieffecteffectivedata)。 |
-| [Radius](../../aspose.slides.effects/isoftedgeeffectivedata/radius) { get; } | 指定应用于边缘的模糊半径。 只读Double。 |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/isoftedgeeffectivedata/asieffecteffectivedata) { get; } | 允许获取基本 IEffectEffectiveData 接口。 只读[`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [Radius](../../aspose.slides.effects/isoftedgeeffectivedata/radius) { get; } | 指定应用到边缘的模糊半径。 只读Double. |
 
 ### 也可以看看
 

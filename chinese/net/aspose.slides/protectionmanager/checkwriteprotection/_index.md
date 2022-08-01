@@ -16,15 +16,15 @@ public bool CheckWriteProtection(string password)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| password | String | 校验密码。 |
+| password | String | 检查的密码。 |
 
 ### 返回值
 
-如果密码有效则为真；否则为假。
+如果密码有效，则为真；否则为假。
 
 ### 评论
 
-1. 在调用它之前，您应该检查[`IsWriteProtected`](../iswriteprotected)属性方法。 2.当密码为null或为空时，该方法返回false。
+1. 你应该检查[`IsWriteProtected`](../iswriteprotected)调用该方法前的属性。 2.当密码为null或为空时，该方法返回false。
 
 ### 例子
 

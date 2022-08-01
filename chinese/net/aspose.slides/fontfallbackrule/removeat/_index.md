@@ -16,16 +16,16 @@ public void RemoveAt(int index)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| index | Int32 | 从零开始的字体索引消除。 |
+| index | Int32 | 要删除的字体的从零开始的索引。 |
 
 ### 例子
 
 ```csharp
 [C#]
- // 创建一个包含字体列表的规则。
+// 创建一个包含字体列表的规则。
 IFontFallBackRule newRule = new FontFallBackRule(0x3040, 0x309F, "MS Mincho, MS Gothic, Tahoma, Times New Roman");
 
- //从列表中删除 Tahoma.
+//从列表中删除 Tahoma。
 newRule.Remove (2);
 ```
 

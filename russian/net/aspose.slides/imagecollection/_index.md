@@ -18,10 +18,10 @@ public sealed class ImageCollection : DomObject<Presentation>, IImageCollection
 
 | Имя | Описание |
 | --- | --- |
-| [Count](../../aspose.slides/imagecollection/count) { get; } | Возвращает количество изображений в коллекции. Только для чтенияInt32. |
-| [IsSynchronized](../../aspose.slides/imagecollection/issynchronized) { get; } | Возвращает значение, указывающее, является ли доступ к коллекции синхронизированным (потокобезопасным). Только чтениеBoolean. |
-| [Item](../../aspose.slides/imagecollection/item) { get; } | Получает элемент по указанному индексу. Только для чтения[`IPPImage`](../ippimage). |
-| [SyncRoot](../../aspose.slides/imagecollection/syncroot) { get; } | Возвращает корень синхронизации. Только для чтенияObject. |
+| [Count](../../aspose.slides/imagecollection/count) { get; } | Возвращает количество изображений в коллекции. Только для чтенияInt32 . |
+| [IsSynchronized](../../aspose.slides/imagecollection/issynchronized) { get; } | Возвращает значение, указывающее, является ли доступ к коллекции синхронизированным (потокобезопасным). Только для чтенияBoolean . |
+| [Item](../../aspose.slides/imagecollection/item) { get; } | Получает элемент по указанному индексу. Только для чтения[`IPPImage`](../ippimage) . |
+| [SyncRoot](../../aspose.slides/imagecollection/syncroot) { get; } | Возвращает корень синхронизации. Только для чтенияObject . |
 
 ## Методы
 
@@ -34,8 +34,8 @@ public sealed class ImageCollection : DomObject<Presentation>, IImageCollection
 | [AddImage](../../aspose.slides/imagecollection/addimage#addimage_4)(MemoryStream) | Добавить изображение в презентацию из потока. |
 | [AddImage](../../aspose.slides/imagecollection/addimage#addimage_5)(Stream) | Добавить изображение в презентацию из потока. |
 | [AddImage](../../aspose.slides/imagecollection/addimage#addimage_6)(Stream, LoadingStreamBehavior) | Создает и добавляет изображение в презентацию из потока. |
-| [CopyTo](../../aspose.slides/imagecollection/copyto)(Array, int) | Копирует все элементы из коллекции в указанный массив. |
-| [GetEnumerator](../../aspose.slides/imagecollection/getenumerator)() | Возвращает перечислитель, который перебирает коллекцию. |
+| [CopyTo](../../aspose.slides/imagecollection/copyto)(Array, int) | Копирует все элементы коллекции в указанный массив. |
+| [GetEnumerator](../../aspose.slides/imagecollection/getenumerator)() | Возвращает перечислитель, который выполняет итерацию по коллекции. |
 
 ### Смотрите также
 

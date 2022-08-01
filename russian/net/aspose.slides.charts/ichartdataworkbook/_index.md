@@ -26,11 +26,11 @@ public interface IChartDataWorkbook
 | --- | --- |
 | [CalculateFormulas](../../aspose.slides.charts/ichartdataworkbook/calculateformulas)() | Вычисляет все формулы в книге и обновляет значения соответствующих ячеек. |
 | [Clear](../../aspose.slides.charts/ichartdataworkbook/clear)(int) | Очистить все значения ячеек на листе |
-| [GetCell](../../aspose.slides.charts/ichartdataworkbook/getcell#getcell_2)(int, string) | Получает ячейку, которую можно использовать для серий или категорий диаграммы |
-| [GetCell](../../aspose.slides.charts/ichartdataworkbook/getcell#getcell)(int, int, int) | Получает ячейку, которую можно использовать для серий или категорий диаграммы |
-| [GetCell](../../aspose.slides.charts/ichartdataworkbook/getcell#getcell_3)(int, string, object) | Получает ячейку, которую можно использовать для серий или категорий диаграммы |
-| [GetCell](../../aspose.slides.charts/ichartdataworkbook/getcell#getcell_4)(string, int, int) | Получает ячейку, которую можно использовать для серий или категорий диаграммы |
-| [GetCell](../../aspose.slides.charts/ichartdataworkbook/getcell#getcell_1)(int, int, int, object) | Получает ячейку, которую можно использовать для серий или категорий диаграммы |
+| [GetCell](../../aspose.slides.charts/ichartdataworkbook/getcell#getcell_2)(int, string) | Получает ячейку, которую можно использовать для серий или категорий диаграмм |
+| [GetCell](../../aspose.slides.charts/ichartdataworkbook/getcell#getcell)(int, int, int) | Получает ячейку, которую можно использовать для серий или категорий диаграмм |
+| [GetCell](../../aspose.slides.charts/ichartdataworkbook/getcell#getcell_3)(int, string, object) | Получает ячейку, которую можно использовать для серий или категорий диаграмм |
+| [GetCell](../../aspose.slides.charts/ichartdataworkbook/getcell#getcell_4)(string, int, int) | Получает ячейку, которую можно использовать для серий или категорий диаграмм |
+| [GetCell](../../aspose.slides.charts/ichartdataworkbook/getcell#getcell_1)(int, int, int, object) | Получает ячейку, которую можно использовать для серий или категорий диаграмм |
 | [GetCellCollection](../../aspose.slides.charts/ichartdataworkbook/getcellcollection)(string, bool) | Получает набор ячеек. |
 
 ### Смотрите также

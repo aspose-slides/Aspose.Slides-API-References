@@ -18,17 +18,17 @@ public class GradientStopCollectionEffectiveData : IGradientStopCollectionEffect
 
 | Имя | Описание |
 | --- | --- |
-| [Count](../../aspose.slides/gradientstopcollectioneffectivedata/count) { get; } | Возвращает количество остановок градиента в коллекции. Только для чтенияInt32. |
-| [IsSynchronized](../../aspose.slides/gradientstopcollectioneffectivedata/issynchronized) { get; } | Возвращает значение, указывающее, является ли доступ к коллекции синхронизированным (потокобезопасным). Только чтениеBoolean. |
-| [Item](../../aspose.slides/gradientstopcollectioneffectivedata/item) { get; } | Возвращает точку градиента по индексу. |
-| [SyncRoot](../../aspose.slides/gradientstopcollectioneffectivedata/syncroot) { get; } | Возвращает корень синхронизации. Только для чтенияObject. |
+| [Count](../../aspose.slides/gradientstopcollectioneffectivedata/count) { get; } | Возвращает количество остановок градиента в коллекции. Только для чтенияInt32 . |
+| [IsSynchronized](../../aspose.slides/gradientstopcollectioneffectivedata/issynchronized) { get; } | Возвращает значение, указывающее, является ли доступ к коллекции синхронизированным (потокобезопасным). Только для чтенияBoolean . |
+| [Item](../../aspose.slides/gradientstopcollectioneffectivedata/item) { get; } | Возвращает остановку градиента по индексу. |
+| [SyncRoot](../../aspose.slides/gradientstopcollectioneffectivedata/syncroot) { get; } | Возвращает корень синхронизации. Только для чтенияObject . |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [CopyTo](../../aspose.slides/gradientstopcollectioneffectivedata/copyto)(Array, int) | Копирует все элементы из коллекции в указанный массив. |
-| [GetEnumerator](../../aspose.slides/gradientstopcollectioneffectivedata/getenumerator)() | Возвращает перечислитель, который перебирает коллекцию. |
+| [CopyTo](../../aspose.slides/gradientstopcollectioneffectivedata/copyto)(Array, int) | Копирует все элементы коллекции в указанный массив. |
+| [GetEnumerator](../../aspose.slides/gradientstopcollectioneffectivedata/getenumerator)() | Возвращает перечислитель, который выполняет итерацию по коллекции. |
 
 ### Смотрите также
 

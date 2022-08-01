@@ -1,14 +1,14 @@
 ---
 title: GetThumbnail
 second_title: Aspose.Slides for .NET API 参考
-description: 返回形状缩略图 ShapeThumbnailBounds.Shape 形状缩略图边界类型默认使用
+description: 返回形状缩略图 ShapeThumbnailBounds默认使用形状缩略图边界类型
 type: docs
 weight: 300
 url: /zh/net/aspose.slides/ishape/getthumbnail/
 ---
 ## GetThumbnail() {#getthumbnail}
 
-返回形状缩略图。 ShapeThumbnailBounds.Shape 形状缩略图边界类型默认使用。
+返回形状缩略图。 ShapeThumbnailBounds。默认使用形状缩略图边界类型。
 
 ```csharp
 public Bitmap GetThumbnail()
@@ -37,12 +37,12 @@ public Bitmap GetThumbnail(ShapeThumbnailBounds bounds, float scaleX, float scal
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | bounds | ShapeThumbnailBounds | 形状缩略图边界类型。 |
-| scaleX | Single | X 比例 |
-| scaleY | Single | Y 比例 |
+| scaleX | Single | X 比例尺 |
+| scaleY | Single | 刻度 |
 
 ### 返回值
 
-形状缩略图，如果使用 ShapeThumbnailBounds.Appearance 并且形状没有可见元素，则为 null。
+如果使用 ShapeThumbnailBounds.Appearance 并且形状没有可见元素，则形状缩略图或 null。
 
 ### 也可以看看
 

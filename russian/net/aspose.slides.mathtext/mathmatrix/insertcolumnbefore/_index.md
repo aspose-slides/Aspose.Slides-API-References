@@ -1,14 +1,14 @@
 ---
 title: InsertColumnBefore
 second_title: Справочник по API Aspose.Slides для .NET
-description: Вставить новый столбец перед указанным Изначально все элементы в новом столбце пустые.
+description: Вставить новый столбец перед указанным one Изначально все элементы в новом столбце равны нулю.
 type: docs
 weight: 170
 url: /ru/net/aspose.slides.mathtext/mathmatrix/insertcolumnbefore/
 ---
 ## MathMatrix.InsertColumnBefore method
 
-Вставить новый столбец перед указанным Изначально все элементы в новом столбце пустые.
+Вставить новый столбец перед указанным one Изначально все элементы в новом столбце равны нулю.
 
 ```csharp
 public void InsertColumnBefore(int columnIndex)

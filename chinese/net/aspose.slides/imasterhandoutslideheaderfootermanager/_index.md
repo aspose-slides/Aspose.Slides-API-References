@@ -1,14 +1,14 @@
 ---
 title: IMasterHandoutSlideHeaderFooterManager
 second_title: Aspose.Slides for .NET API 参考
-description: 表示管理器它保存主讲义幻灯片占位符的行为包括标题占位符
+description: 代表管理器它保存主讲义幻灯片占位符的行为包括标题占位符
 type: docs
 weight: 5800
 url: /zh/net/aspose.slides/imasterhandoutslideheaderfootermanager/
 ---
 ## IMasterHandoutSlideHeaderFooterManager interface
 
-表示管理器，它保存主讲义幻灯片占位符的行为，包括标题占位符。
+代表管理器，它保存主讲义幻灯片占位符的行为，包括标题占位符。
 
 ```csharp
 public interface IMasterHandoutSlideHeaderFooterManager : IBaseHandoutNotesSlideHeaderFooterManag

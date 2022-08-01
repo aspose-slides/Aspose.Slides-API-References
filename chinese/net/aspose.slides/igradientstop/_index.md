@@ -18,8 +18,8 @@ public interface IGradientStop
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Color](../../aspose.slides/igradientstop/color) { get; } | 返回渐变色标的颜色。 只读[`IColorFormat`](../icolorformat)。 |
-| [Position](../../aspose.slides/igradientstop/position) { get; set; } | 返回或设置渐变停止的位置 (0..1)。 读/写Single。 |
+| [Color](../../aspose.slides/igradientstop/color) { get; } | 返回渐变色标的颜色。 只读[`IColorFormat`](../icolorformat). |
+| [Position](../../aspose.slides/igradientstop/position) { get; set; } | 返回或设置梯度停止的位置 (0..1)。 读/写Single. |
 
 ### 也可以看看
 

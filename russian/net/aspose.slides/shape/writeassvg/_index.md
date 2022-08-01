@@ -1,14 +1,14 @@
 ---
 title: WriteAsSvg
 second_title: Справочник по API Aspose.Slides для .NET
-description: Сохраняет содержимое Shape как файл SVG.
+description: Сохраняет содержимое формы в виде файла SVG.
 type: docs
 weight: 350
 url: /ru/net/aspose.slides/shape/writeassvg/
 ---
 ## WriteAsSvg(Stream) {#writeassvg}
 
-Сохраняет содержимое Shape как файл SVG.
+Сохраняет содержимое формы в виде файла SVG.
 
 ```csharp
 public void WriteAsSvg(Stream stream)
@@ -28,7 +28,7 @@ public void WriteAsSvg(Stream stream)
 
 ## WriteAsSvg(Stream, ISVGOptions) {#writeassvg_1}
 
-Сохраняет содержимое Shape как файл SVG.
+Сохраняет содержимое формы в виде файла SVG.
 
 ```csharp
 public void WriteAsSvg(Stream stream, ISVGOptions svgOptions)
@@ -37,7 +37,7 @@ public void WriteAsSvg(Stream stream, ISVGOptions svgOptions)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | stream | Stream | Целевой поток |
-| svgOptions | ISVGOptions | Параметры генерации SVG |
+| svgOptions | ISVGOptions | Варианты генерации SVG |
 
 ### Смотрите также
 

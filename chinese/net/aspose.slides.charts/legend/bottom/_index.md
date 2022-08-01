@@ -1,14 +1,14 @@
 ---
 title: Bottom
 second_title: Aspose.Slides for .NET API 参考
-description: 底部 只读Single
+description: 底部 只读Single.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides.charts/legend/bottom/
 ---
 ## Legend.Bottom property
 
-底部。 只读Single。
+底部。 只读Single.
 
 ```csharp
 public float Bottom { get; }

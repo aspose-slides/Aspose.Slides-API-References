@@ -16,7 +16,7 @@ public ICellFormatEffectiveData GetEffective()
 
 ### 返回值
 
-A[`ICellFormatEffectiveData`](../../icellformateffectivedata)。
+一个[`ICellFormatEffectiveData`](../../icellformateffectivedata).
 
 ### 也可以看看
 

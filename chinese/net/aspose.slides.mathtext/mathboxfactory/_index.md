@@ -1,14 +1,14 @@
 ---
 title: MathBoxFactory
 second_title: Aspose.Slides for .NET API 参考
-description: 允许创建数学框
+description: 允许创建一个数学框
 type: docs
 weight: 7920
 url: /zh/net/aspose.slides.mathtext/mathboxfactory/
 ---
 ## MathBoxFactory class
 
-允许创建数学框
+允许创建一个数学框
 
 ```csharp
 public class MathBoxFactory : IMathBoxFactory
@@ -24,11 +24,11 @@ public class MathBoxFactory : IMathBoxFactory
 
 | 姓名 | 描述 |
 | --- | --- |
-| [CreateMathBox](../../aspose.slides.mathtext/mathboxfactory/createmathbox)(IMathElement) | 通过应用于元素 |
+| [CreateMathBox](../../aspose.slides.mathtext/mathboxfactory/createmathbox)(IMathElement) | 通过应用到元素创建一个数学框 |
 
 ### 评论
 
-用于 COM 比较
+用于 COM 可比性
 
 ### 也可以看看
 

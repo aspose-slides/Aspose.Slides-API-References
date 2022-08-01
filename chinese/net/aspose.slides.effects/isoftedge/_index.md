@@ -18,9 +18,9 @@ public interface ISoftEdge : IAccessiblePVIObject<ISoftEdgeEffectiveData>, IImag
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/isoftedge/asiaccessiblepviobject) { get; } | 允许获取基本 IAccessiblePVIObject 接口。 只读[`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1)。 |
-| [AsIImageTransformOperation](../../aspose.slides.effects/isoftedge/asiimagetransformoperation) { get; } | 允许获取基础 IImageTransformOperation 接口。 只读[`IImageTransformOperation`](../iimagetransformoperation)。 |
-| [Radius](../../aspose.slides.effects/isoftedge/radius) { get; set; } | 指定应用于边缘的模糊半径。 读/写Double。 |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/isoftedge/asiaccessiblepviobject) { get; } | 允许获取基本 IAccessiblePVIObject 接口。 只读[`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/isoftedge/asiimagetransformoperation) { get; } | 允许获取基本 IImageTransformOperation 接口。 只读[`IImageTransformOperation`](../iimagetransformoperation). |
+| [Radius](../../aspose.slides.effects/isoftedge/radius) { get; set; } | 指定应用到边缘的模糊半径。 读/写Double. |
 
 ### 也可以看看
 

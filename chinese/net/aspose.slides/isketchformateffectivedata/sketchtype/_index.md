@@ -1,14 +1,14 @@
 ---
 title: SketchType
 second_title: Aspose.Slides for .NET API 参考
-description: 返回草图类型 只读LineSketchTypeaspose.slides/linesketchtype
+description: 返回草图类型 只读LineSketchTypeaspose.slides/linesketchtype.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides/isketchformateffectivedata/sketchtype/
 ---
 ## ISketchFormatEffectiveData.SketchType property
 
-返回草图类型。 只读[`LineSketchType`](../../linesketchtype)。
+返回草图类型。 只读[`LineSketchType`](../../linesketchtype).
 
 ```csharp
 public LineSketchType SketchType { get; }

@@ -18,15 +18,15 @@ public class AlphaFloor : ImageTransformOperation, IAlphaFloor
 
 | Имя | Описание |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Позволяет получить базовый интерфейс IPresentationComponent. Только для чтения[`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Позволяет получить базовый интерфейс IPresentationComponent. Только для чтения[`IPresentationComponent`](../../aspose.slides/ipresentationcomponent) . |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/alphafloor/equals)(object) | Определяет, равен ли указанный[`AlphaFloor`](../alphafloor)текущемуAlphaFloor. |
+| override [Equals](../../aspose.slides.effects/alphafloor/equals)(object) | Определяет, является ли указанный[`AlphaFloor`](../alphafloor) равен текущему[`AlphaFloor`](../alphafloor) . |
 | [GetEffective](../../aspose.slides.effects/alphafloor/geteffective)() | Получает эффективные данные эффекта Alpha Floor с применением наследования. |
-| override [GetHashCode](../../aspose.slides.effects/alphafloor/gethashcode)() | Служит хэш-функцией для определенного типа. |
+| override [GetHashCode](../../aspose.slides.effects/alphafloor/gethashcode)() | Служит хеш-функцией для определенного типа. |
 
 ### Смотрите также
 

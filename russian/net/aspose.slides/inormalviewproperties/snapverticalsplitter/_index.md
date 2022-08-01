@@ -1,14 +1,14 @@
 ---
 title: SnapVerticalSplitter
 second_title: Справочник по API Aspose.Slides для .NET
-description: Указывает должен ли вертикальный разделитель привязываться к свернутому состоянию когда сторона области достаточно мала. Чтение/записьBoolean.
+description: Указывает должен ли вертикальный разделитель привязываться к свернутому состоянию когда область side достаточно мала. Чтение/записьBoolean .
 type: docs
 weight: 60
 url: /ru/net/aspose.slides/inormalviewproperties/snapverticalsplitter/
 ---
 ## INormalViewProperties.SnapVerticalSplitter property
 
-Указывает, должен ли вертикальный разделитель привязываться к свернутому состоянию, когда сторона области достаточно мала. Чтение/записьBoolean.
+Указывает, должен ли вертикальный разделитель привязываться к свернутому состоянию, когда область side достаточно мала. Чтение/записьBoolean .
 
 ```csharp
 public bool SnapVerticalSplitter { get; set; }

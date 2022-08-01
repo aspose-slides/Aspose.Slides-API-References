@@ -18,9 +18,9 @@ public interface IChartWall
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Format](../../aspose.slides.charts/ichartwall/format) { get; } | 返回墙填充、线条、效果、3d 样式。 只读[`IFormat`](../iformat)。 |
-| [PictureType](../../aspose.slides.charts/ichartwall/picturetype) { get; set; } | 返回或设置图片类型。 读/写[`PictureType`](./picturetype)。 |
-| [Thickness](../../aspose.slides.charts/ichartwall/thickness) { get; set; } | 以绘图体积最大 尺寸的百分比返回或设置壁厚。 读/写Int32。 |
+| [Format](../../aspose.slides.charts/ichartwall/format) { get; } | 返回墙填充、线条、效果、3d 样式。 只读[`IFormat`](../iformat). |
+| [PictureType](../../aspose.slides.charts/ichartwall/picturetype) { get; set; } | 返回或设置图片类型。 读/写[`PictureType`](./picturetype). |
+| [Thickness](../../aspose.slides.charts/ichartwall/thickness) { get; set; } | 以绘图体积最大 尺寸的百分比形式返回或设置壁厚。 读/写Int32. |
 
 ### 也可以看看
 

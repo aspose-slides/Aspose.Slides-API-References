@@ -1,14 +1,14 @@
 ---
 title: Value2
 second_title: Aspose.Slides for .NET API 参考
-description: 定义偏移量的第三个值 读/写Single
+description: 定义偏移量的第三个值 读/写Single.
 type: docs
 weight: 30
 url: /zh/net/aspose.slides.animation/icoloroffset/value2/
 ---
 ## IColorOffset.Value2 property
 
-定义偏移量的第三个值。 读/写Single。
+定义偏移量的第三个值。 读/写Single.
 
 ```csharp
 public float Value2 { get; set; }

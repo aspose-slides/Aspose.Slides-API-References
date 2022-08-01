@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: Aspose.Slides for .NET API 参考
-description: 确定指定的PresetShadowaspose.slides.effects/presetshadow是否等于当前的PresetShadow
+description: 判断是否指定PresetShadowaspose.slides.effects/presetshadow等于当前PresetShadowaspose.slides.effects/presetshadow.
 type: docs
 weight: 50
 url: /zh/net/aspose.slides.effects/presetshadow/equals/
 ---
 ## PresetShadow.Equals method
 
-确定指定的[`PresetShadow`](../../presetshadow)是否等于当前的PresetShadow。
+判断是否指定[`PresetShadow`](../../presetshadow)等于当前[`PresetShadow`](../../presetshadow).
 
 ```csharp
 public override bool Equals(object obj)
@@ -16,11 +16,11 @@ public override bool Equals(object obj)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| obj | Object | [`PresetShadow`](../../presetshadow)进行比较。 |
+| obj | Object | 这[`PresetShadow`](../../presetshadow)比较。 |
 
 ### 返回值
 
-如果对象相等，则为真；否则为假。
+如果对象相等，则为 true；否则为假。
 
 ### 也可以看看
 

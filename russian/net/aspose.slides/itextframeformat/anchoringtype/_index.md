@@ -1,14 +1,14 @@
 ---
 title: AnchoringType
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или задает текст вертикальной привязки в TextFrame. Чтение/записьTextAnchorTypeaspose.slides/textanchortype.
+description: Возвращает или задает текст вертикальной привязки в TextFrame. Чтение/записьTextAnchorTypeaspose.slides/textanchortype .
 type: docs
 weight: 10
 url: /ru/net/aspose.slides/itextframeformat/anchoringtype/
 ---
 ## ITextFrameFormat.AnchoringType property
 
-Возвращает или задает текст вертикальной привязки в TextFrame. Чтение/запись[`TextAnchorType`](../../textanchortype).
+Возвращает или задает текст вертикальной привязки в TextFrame. Чтение/запись[`TextAnchorType`](../../textanchortype) .
 
 ```csharp
 public TextAnchorType AnchoringType { get; set; }

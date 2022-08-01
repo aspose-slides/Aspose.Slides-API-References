@@ -24,7 +24,7 @@ public IOutputFile Add<TContextObject>(string path, string templateKey,
 
 ## Add(string, IPPImage) {#add_1}
 
-为图像添加输出元素。
+为图像添加一个输出元素。
 
 ```csharp
 public IOutputFile Add(string path, IPPImage image)
@@ -37,7 +37,7 @@ public IOutputFile Add(string path, IPPImage image)
 
 ### 返回值
 
-[`IOutputFile`](../../ioutputfile)图像对象。
+[`IOutputFile`](../../ioutputfile)图像的对象。
 
 ### 也可以看看
 
@@ -51,7 +51,7 @@ public IOutputFile Add(string path, IPPImage image)
 
 ## Add(string, Image) {#add_3}
 
-为图像添加输出元素。
+为图像添加一个输出元素。
 
 ```csharp
 public IOutputFile Add(string path, Image image)
@@ -64,7 +64,7 @@ public IOutputFile Add(string path, Image image)
 
 ### 返回值
 
-[`IOutputFile`](../../ioutputfile)图像对象。
+[`IOutputFile`](../../ioutputfile)图像的对象。
 
 ### 也可以看看
 
@@ -90,7 +90,7 @@ public IOutputFile Add(string path, IVideo video)
 
 ### 返回值
 
-[`IOutputFile`](../../ioutputfile)视频对象。
+[`IOutputFile`](../../ioutputfile)视频的对象。
 
 ### 也可以看看
 
@@ -104,7 +104,7 @@ public IOutputFile Add(string path, IVideo video)
 
 ## Add(string, IFontData, FontStyle) {#add}
 
-为字体添加输出元素。
+为字体添加一个输出元素。
 
 ```csharp
 public IOutputFile Add(string path, IFontData fontData, FontStyle fontStyle)
@@ -118,7 +118,7 @@ public IOutputFile Add(string path, IFontData fontData, FontStyle fontStyle)
 
 ### 返回值
 
-[`IOutputFile`](../../ioutputfile)字体对象。
+[`IOutputFile`](../../ioutputfile)字体的对象。
 
 ### 也可以看看
 

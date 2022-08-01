@@ -20,11 +20,11 @@ public int IndexOf(IMathBlock mathBlock)
 
 ### 返回值
 
-*mathBlock*的索引（如果在集合中找到）；否则，-1。
+的索引*mathBlock*如果在集合中找到；否则，-1.
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]

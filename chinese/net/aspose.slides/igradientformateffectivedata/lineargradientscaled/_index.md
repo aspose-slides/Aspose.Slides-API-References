@@ -1,14 +1,14 @@
 ---
 title: LinearGradientScaled
 second_title: Aspose.Slides for .NET API 参考
-description: 确定渐变是否被缩放 只读Boolean
+description: 确定是否缩放渐变 只读Boolean.
 type: docs
 weight: 60
 url: /zh/net/aspose.slides/igradientformateffectivedata/lineargradientscaled/
 ---
 ## IGradientFormatEffectiveData.LinearGradientScaled property
 
-确定渐变是否被缩放。 只读Boolean。
+确定是否缩放渐变。 只读Boolean.
 
 ```csharp
 public bool LinearGradientScaled { get; }

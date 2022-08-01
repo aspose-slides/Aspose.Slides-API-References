@@ -18,10 +18,10 @@ public interface IDigitalSignature
 
 | Имя | Описание |
 | --- | --- |
-| [Certificate](../../aspose.slides/idigitalsignature/certificate) { get; } | Объект сертификата, который использовался для подписи документа. Только для чтенияX509Certificate2. |
-| [Comments](../../aspose.slides/idigitalsignature/comments) { get; set; } | Цель подписи. Чтение/записьString. |
-| [IsValid](../../aspose.slides/idigitalsignature/isvalid) { get; } | Если эта цифровая подпись действительна и документ не был подделан, это значение будет истинным. Только чтениеBoolean. |
-| [SignTime](../../aspose.slides/idigitalsignature/signtime) { get; } | Время подписания документа. Только для чтенияDateTime. |
+| [Certificate](../../aspose.slides/idigitalsignature/certificate) { get; } | Объект сертификата, который использовался для подписи документа. Только для чтенияX509Certificate2 . |
+| [Comments](../../aspose.slides/idigitalsignature/comments) { get; set; } | Назначение подписи. Чтение/записьString . |
+| [IsValid](../../aspose.slides/idigitalsignature/isvalid) { get; } | Если эта цифровая подпись действительна и документ не был подделан, это значение будет истинным. Только для чтенияBoolean . |
+| [SignTime](../../aspose.slides/idigitalsignature/signtime) { get; } | Время подписания документа. Только для чтенияDateTime . |
 
 ### Смотрите также
 

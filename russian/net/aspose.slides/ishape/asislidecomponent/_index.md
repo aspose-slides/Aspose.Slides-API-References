@@ -1,14 +1,14 @@
 ---
 title: AsISlideComponent
 second_title: Справочник по API Aspose.Slides для .NET
-description: Позволяет получить базовый интерфейс ISlideComponent. Только для чтенияISlideComponentaspose.slides/islidecomponent.
+description: Позволяет получить базовый интерфейс ISlideComponent. Только для чтенияISlideComponentaspose.slides/islidecomponent .
 type: docs
 weight: 40
 url: /ru/net/aspose.slides/ishape/asislidecomponent/
 ---
 ## IShape.AsISlideComponent property
 
-Позволяет получить базовый интерфейс ISlideComponent. Только для чтения[`ISlideComponent`](../../islidecomponent).
+Позволяет получить базовый интерфейс ISlideComponent. Только для чтения[`ISlideComponent`](../../islidecomponent) .
 
 ```csharp
 public ISlideComponent AsISlideComponent { get; }

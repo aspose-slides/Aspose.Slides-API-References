@@ -18,10 +18,10 @@ public interface IFormat
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Effect](../../aspose.slides.charts/iformat/effect) { get; } | 返回用于图表的效果。 只读[`IEffectFormat`](../../aspose.slides/ieffectformat)。 |
-| [Effect3D](../../aspose.slides.charts/iformat/effect3d) { get; } | 返回图表的 3D 格式。 只读[`IThreeDFormat`](../../aspose.slides/ithreedformat)。 |
-| [Fill](../../aspose.slides.charts/iformat/fill) { get; } | 返回图表的填充样式属性。 只读[`IFillFormat`](../../aspose.slides/ifillformat)。 |
-| [Line](../../aspose.slides.charts/iformat/line) { get; } | 返回图表的线型属性。 只读[`ILineFormat`](../../aspose.slides/ilineformat)。 |
+| [Effect](../../aspose.slides.charts/iformat/effect) { get; } | 返回用于图表的效果。 只读[`IEffectFormat`](../../aspose.slides/ieffectformat). |
+| [Effect3D](../../aspose.slides.charts/iformat/effect3d) { get; } | 返回图表的 3D 格式。 只读[`IThreeDFormat`](../../aspose.slides/ithreedformat). |
+| [Fill](../../aspose.slides.charts/iformat/fill) { get; } | 返回图表的填充样式属性。 只读[`IFillFormat`](../../aspose.slides/ifillformat). |
+| [Line](../../aspose.slides.charts/iformat/line) { get; } | 返回图表的线型属性。 只读[`ILineFormat`](../../aspose.slides/ilineformat). |
 
 ### 也可以看看
 

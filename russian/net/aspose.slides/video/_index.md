@@ -18,14 +18,14 @@ public class Video : IVideo
 
 | Имя | Описание |
 | --- | --- |
-| [BinaryData](../../aspose.slides/video/binarydata) { get; } | Возвращает копию аудиоданных. В случае большого объема данных рассмотрите возможность использования метода [`GetStream`](./getstream)для предотвращения ненужной загрузки данных видео в память или даже OutOfMemoryException. Только для чтенияByte[]. |
-| [ContentType](../../aspose.slides/video/contenttype) { get; } | Возвращает MIME-тип видео, закодированный в[`BinaryData`](./binarydata). Только чтениеString. |
+| [BinaryData](../../aspose.slides/video/binarydata) { get; } | Возвращает копию аудиоданных. В случае большого объема данных рассмотрите возможность использования [`GetStream`](./getstream) метод предотвращения ненужной загрузки данных видео в память или даже OutOfMemoryException. Только для чтенияByte []. |
+| [ContentType](../../aspose.slides/video/contenttype) { get; } | Возвращает MIME-тип видео, закодированного в[`BinaryData`](./binarydata) . Только для чтенияString . |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [GetStream](../../aspose.slides/video/getstream)() | Возвращает поток Stream для чтения. Используйте 'using' или закройте поток после использования. |
+| [GetStream](../../aspose.slides/video/getstream)() | Возвращает поток для чтения. Используйте 'using' или закройте поток после использования. |
 
 ### Смотрите также
 

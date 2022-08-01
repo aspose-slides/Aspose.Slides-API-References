@@ -18,8 +18,8 @@ public abstract class BaseChartValue : IBaseChartValue
 
 | Имя | Описание |
 | --- | --- |
-| abstract [Data](../../aspose.slides.charts/basechartvalue/data) { get; set; } | Данные. Чтение/записьObject. |
-| [DataSourceType](../../aspose.slides.charts/basechartvalue/datasourcetype) { get; set; } | Указывает, является ли свойство AsCell, AsCells, AsLiteralString или AsLiteralDouble актуальным в потомках. Другими словами, он указывает тип значения свойства Data. Чтение/запись[`DataSourceType`](../datasourcetype). |
+| abstract [Data](../../aspose.slides.charts/basechartvalue/data) { get; set; } | Данные. Чтение/записьObject . |
+| [DataSourceType](../../aspose.slides.charts/basechartvalue/datasourcetype) { get; set; } | Указывает, является ли свойство AsCell, AsCells, AsLiteralString или AsLiteralDouble действительным в потомках. Другими словами, он указывает тип значения свойства Data. Чтение/запись[`DataSourceType`](../datasourcetype) . |
 
 ### Смотрите также
 

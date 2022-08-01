@@ -1,14 +1,14 @@
 ---
 title: ToBox
 second_title: Aspose.Slides for .NET API 参考
-description: 将此元素置于非可视框逻辑分组 用于对方程的组件或其他数学文本实例进行分组. 装箱对象可以例如用作带有或不带有对齐点的操作员模拟器 用作换行点或者被分组以不允许换行内破
+description: 将此元素放置在非可视框逻辑分组中点 用作换行点或被分组以不允许换行
 type: docs
 weight: 190
 url: /zh/net/aspose.slides.mathtext/mathelementbase/tobox/
 ---
 ## MathElementBase.ToBox method
 
-将此元素置于非可视框（逻辑分组） 用于对方程的组件或其他数学文本实例进行分组. 装箱对象可以（例如）用作带有或不带有对齐点的操作员模拟器， 用作换行点，或者被分组以不允许换行内破。
+将此元素放置在非可视框（逻辑分组）中点， 用作换行点，或被分组以不允许换行。
 
 ```csharp
 public IMathBox ToBox()
@@ -16,11 +16,11 @@ public IMathBox ToBox()
 
 ### 返回值
 
-带有此元素的逻辑框
+包含此元素的逻辑框
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]

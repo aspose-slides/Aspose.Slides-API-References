@@ -34,7 +34,7 @@ public IChartSeries Add(ChartType type)
 
 ## Add(IChartDataCell, ChartType) {#add_2}
 
-从[`ChartDataCell`](../../chartdatacell)创建新的图表系列并将其添加到集合中。
+创建新的图表系列[`ChartDataCell`](../../chartdatacell)并将其添加到集合中。
 
 ```csharp
 public IChartSeries Add(IChartDataCell cellWithSeriesName, ChartType type)
@@ -43,15 +43,15 @@ public IChartSeries Add(IChartDataCell cellWithSeriesName, ChartType type)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | cellWithSeriesName | IChartDataCell | 包含系列名称的单元格。 |
-| type | ChartType | Type set type of series |
+| type | ChartType | 类型设置系列类型 |
 
 ### 返回值
 
-添加图表系列或已经在集合中的系列。
+添加了图表系列或已经在收藏中的系列。
 
 ### 评论
 
-如果图表系列已从集合中的同一单元格中删除 则方法不添加任何内容并返回它的索引。
+如果图表系列已从集合 中的同一单元格中删除，则方法不添加任何内容并返回它的索引。
 
 ### 也可以看看
 
@@ -66,7 +66,7 @@ public IChartSeries Add(IChartDataCell cellWithSeriesName, ChartType type)
 
 ## Add(IChartCellCollection, ChartType) {#add_1}
 
-从[`ChartCellCollection`](../../chartcellcollection)创建新的图表系列并将其添加到集合中。
+创建新的图表系列[`ChartCellCollection`](../../chartcellcollection)并将其添加到集合中。
 
 ```csharp
 public IChartSeries Add(IChartCellCollection cellsWithSeriesName, ChartType type)
@@ -75,15 +75,15 @@ public IChartSeries Add(IChartCellCollection cellsWithSeriesName, ChartType type
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | cellsWithSeriesName | IChartCellCollection | 包含系列名称的单元格。 |
-| type | ChartType | Type set type of series |
+| type | ChartType | 类型设置系列类型 |
 
 ### 返回值
 
-添加图表系列或已经在集合中的系列。
+添加了图表系列或已经在收藏中的系列。
 
 ### 评论
 
-如果图表系列已从集合中的同一单元格中删除 则方法不添加任何内容并返回它的索引。
+如果图表系列已从集合 中的同一单元格中删除，则方法不添加任何内容并返回它的索引。
 
 ### 也可以看看
 
@@ -107,11 +107,11 @@ public IChartSeries Add(string name, ChartType type)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | name | String | 系列名称。 |
-| type | ChartType | Type set type of series |
+| type | ChartType | 类型设置系列类型 |
 
 ### 返回值
 
-添加图表系列。
+添加了图表系列。
 
 ### 也可以看看
 

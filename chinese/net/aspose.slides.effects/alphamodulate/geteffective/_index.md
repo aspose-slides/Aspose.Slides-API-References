@@ -1,14 +1,14 @@
 ---
 title: GetEffective
 second_title: Aspose.Slides for .NET API 参考
-description: 在应用了继承的情况下获取有效的 Alpha 调制效果数据
+description: 应用继承获取有效的 Alpha 调制效果数据
 type: docs
 weight: 20
 url: /zh/net/aspose.slides.effects/alphamodulate/geteffective/
 ---
 ## AlphaModulate.GetEffective method
 
-在应用了继承的情况下获取有效的 Alpha 调制效果数据。
+应用继承获取有效的 Alpha 调制效果数据。
 
 ```csharp
 public IAlphaModulateEffectiveData GetEffective()
@@ -16,7 +16,7 @@ public IAlphaModulateEffectiveData GetEffective()
 
 ### 返回值
 
-A[`IAlphaModulateEffectiveData`](../../ialphamodulateeffectivedata)。
+一个[`IAlphaModulateEffectiveData`](../../ialphamodulateeffectivedata).
 
 ### 也可以看看
 

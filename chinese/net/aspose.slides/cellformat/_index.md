@@ -18,14 +18,14 @@ public class CellFormat : PVIObject, ICellFormat
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允许获取基本 IPresentationComponent 接口。 只读[`IPresentationComponent`](../ipresentationcomponent)。 |
-| [BorderBottom](../../aspose.slides/cellformat/borderbottom) { get; } | 返回底部边框线属性对象。 只读[`ILineFormat`](../ilineformat)。 |
-| [BorderDiagonalDown](../../aspose.slides/cellformat/borderdiagonaldown) { get; } | 返回左上角到右下角的对角线属性对象。 只读[`ILineFormat`](../ilineformat)。 |
-| [BorderDiagonalUp](../../aspose.slides/cellformat/borderdiagonalup) { get; } | 返回左下角到右上角的对角线属性对象。 只读[`ILineFormat`](../ilineformat)。 |
-| [BorderLeft](../../aspose.slides/cellformat/borderleft) { get; } | 返回左边界线属性对象。 只读[`ILineFormat`](../ilineformat)。 |
-| [BorderRight](../../aspose.slides/cellformat/borderright) { get; } | 返回右边界线属性对象。 只读[`ILineFormat`](../ilineformat)。 |
-| [BorderTop](../../aspose.slides/cellformat/bordertop) { get; } | 返回顶部边框线属性对象。 只读[`ILineFormat`](../ilineformat)。 |
-| [FillFormat](../../aspose.slides/cellformat/fillformat) { get; } | 返回一个单元格填充属性对象。 只读[`IFillFormat`](../ifillformat)。 |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允许获取基本 IPresentationComponent 接口。 只读[`IPresentationComponent`](../ipresentationcomponent). |
+| [BorderBottom](../../aspose.slides/cellformat/borderbottom) { get; } | 返回底部边框线属性对象。 只读[`ILineFormat`](../ilineformat). |
+| [BorderDiagonalDown](../../aspose.slides/cellformat/borderdiagonaldown) { get; } | 返回从左上角到右下角的对角线属性对象。 只读[`ILineFormat`](../ilineformat). |
+| [BorderDiagonalUp](../../aspose.slides/cellformat/borderdiagonalup) { get; } | 返回从左下角到右上角的对角线属性对象。 只读[`ILineFormat`](../ilineformat). |
+| [BorderLeft](../../aspose.slides/cellformat/borderleft) { get; } | 返回左边框线属性对象。 只读[`ILineFormat`](../ilineformat). |
+| [BorderRight](../../aspose.slides/cellformat/borderright) { get; } | 返回右边界线属性对象。 只读[`ILineFormat`](../ilineformat). |
+| [BorderTop](../../aspose.slides/cellformat/bordertop) { get; } | 返回顶部边框线属性对象。 只读[`ILineFormat`](../ilineformat). |
+| [FillFormat](../../aspose.slides/cellformat/fillformat) { get; } | 返回一个单元格填充属性对象。 只读[`IFillFormat`](../ifillformat). |
 
 ## 方法
 

@@ -1,14 +1,14 @@
 ---
 title: FloatG
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или устанавливает зеленый компонент цвета. Все преобразования цвета игнорируются. Чтение/записьSingle.
+description: Возвращает или задает зеленый компонент цвета. Все преобразования цвета игнорируются. Чтение/записьSingle .
 type: docs
 weight: 60
 url: /ru/net/aspose.slides/colorformat/floatg/
 ---
 ## ColorFormat.FloatG property
 
-Возвращает или устанавливает зеленый компонент цвета. Все преобразования цвета игнорируются. Чтение/записьSingle.
+Возвращает или задает зеленый компонент цвета. Все преобразования цвета игнорируются. Чтение/записьSingle .
 
 ```csharp
 public float FloatG { get; set; }

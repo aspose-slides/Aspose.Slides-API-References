@@ -1,14 +1,14 @@
 ---
 title: SummaryZoomSectionCollection
 second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет набор объектов Суммарный раздел масштабирования.
+description: Представляет коллекцию объектов раздела сводного масштабирования.
 type: docs
 weight: 9980
 url: /ru/net/aspose.slides/summaryzoomsectioncollection/
 ---
 ## SummaryZoomSectionCollection class
 
-Представляет набор объектов Суммарный раздел масштабирования.
+Представляет коллекцию объектов раздела сводного масштабирования.
 
 ```csharp
 public sealed class SummaryZoomSectionCollection : DomObject<SummaryZoomFrame>, 
@@ -19,22 +19,22 @@ public sealed class SummaryZoomSectionCollection : DomObject<SummaryZoomFrame>,
 
 | Имя | Описание |
 | --- | --- |
-| [Count](../../aspose.slides/summaryzoomsectioncollection/count) { get; } | Получает количество элементов, фактически содержащихся в коллекции. Только для чтенияInt32. |
-| [IsSynchronized](../../aspose.slides/summaryzoomsectioncollection/issynchronized) { get; } | Возвращает значение, указывающее, является ли доступ к коллекции синхронизированным (потокобезопасным). Только чтениеBoolean. |
-| [Item](../../aspose.slides/summaryzoomsectioncollection/item) { get; } | Получает элемент по указанному индексу. Только для чтения[`ISummaryZoomSection`](../isummaryzoomsection). |
-| [SyncRoot](../../aspose.slides/summaryzoomsectioncollection/syncroot) { get; } | Возвращает корень синхронизации. Только для чтенияObject. |
+| [Count](../../aspose.slides/summaryzoomsectioncollection/count) { get; } | Получает количество элементов, фактически содержащихся в коллекции. Только для чтенияInt32 . |
+| [IsSynchronized](../../aspose.slides/summaryzoomsectioncollection/issynchronized) { get; } | Возвращает значение, указывающее, является ли доступ к коллекции синхронизированным (потокобезопасным). Только для чтенияBoolean . |
+| [Item](../../aspose.slides/summaryzoomsectioncollection/item) { get; } | Получает элемент по указанному индексу. Только для чтения[`ISummaryZoomSection`](../isummaryzoomsection) . |
+| [SyncRoot](../../aspose.slides/summaryzoomsectioncollection/syncroot) { get; } | Возвращает корень синхронизации. Только для чтенияObject . |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [AddSummaryZoomSection](../../aspose.slides/summaryzoomsectioncollection/addsummaryzoomsection)(ISection) | Создает новый объект Сводная секция масштабирования и добавляет его в коллекцию |
+| [AddSummaryZoomSection](../../aspose.slides/summaryzoomsectioncollection/addsummaryzoomsection)(ISection) | Создает новый объект Суммарный раздел масштабирования и добавляет его в коллекцию |
 | [Clear](../../aspose.slides/summaryzoomsectioncollection/clear)() | Удаляет все объекты SummaryZoomSection из коллекции. |
 | [CopyTo](../../aspose.slides/summaryzoomsectioncollection/copyto)(Array, int) | Копирует всю коллекцию в указанный массив. |
-| [GetEnumerator](../../aspose.slides/summaryzoomsectioncollection/getenumerator)() | Возвращает перечислитель, который перебирает коллекцию. |
-| [GetSummarySection](../../aspose.slides/summaryzoomsectioncollection/getsummarysection)(ISection) | Возвращает элемент Summary Zoom Section для данного раздела. |
+| [GetEnumerator](../../aspose.slides/summaryzoomsectioncollection/getenumerator)() | Возвращает перечислитель, который выполняет итерацию по коллекции. |
+| [GetSummarySection](../../aspose.slides/summaryzoomsectioncollection/getsummarysection)(ISection) | Возвращает элемент сводного масштаба раздела для данного раздела. |
 | [IndexOf](../../aspose.slides/summaryzoomsectioncollection/indexof)(ISummaryZoomSection) | Возвращает индекс указанного объекта SummaryZoomSection. |
-| [RemoveSummaryZoomSection](../../aspose.slides/summaryzoomsectioncollection/removesummaryzoomsection)(ISection) | Удалить объект Сводная секция масштабирования из коллекции. |
+| [RemoveSummaryZoomSection](../../aspose.slides/summaryzoomsectioncollection/removesummaryzoomsection)(ISection) | Удалить объект "Раздел сводного масштаба" из коллекции. |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: AddDataPointForStockSeries
 second_title: Aspose.Slides for .NET API 参考
-description: 创建新数据点并将其添加到集合的末尾 适用于 chartType 是 Stock 子类型之一的系列 另请参见IsChartTypeStockaspose.slides.charts/charttypecharacterizer/ischarttypestock方法
+description: 创建新数据点并将其添加到集合的末尾 适用于 chartType 是 Stock 子类型之一的系列 另请参阅IsChartTypeStockaspose.slides.charts/charttypecharacterizer/ischarttypestock方法.
 type: docs
 weight: 220
 url: /zh/net/aspose.slides.charts/chartdatapointcollection/adddatapointforstockseries/
 ---
 ## AddDataPointForStockSeries(IChartDataCell) {#adddatapointforstockseries}
 
-创建新数据点并将其添加到集合的末尾。 适用于 chartType 是 Stock 子类型之一的系列 （另请参见[`IsChartTypeStock`](../../charttypecharacterizer/ischarttypestock)方法)。
+创建新数据点并将其添加到集合的末尾。 适用于 chartType 是 Stock 子类型之一的系列 （另请参阅[`IsChartTypeStock`](../../charttypecharacterizer/ischarttypestock)方法）.
 
 ```csharp
 public IChartDataPoint AddDataPointForStockSeries(IChartDataCell value)
@@ -34,7 +34,7 @@ public IChartDataPoint AddDataPointForStockSeries(IChartDataCell value)
 
 ## AddDataPointForStockSeries(double) {#adddatapointforstockseries_1}
 
-创建新数据点并将其添加到集合的末尾。 适用于 chartType 是 Stock 子类型之一的系列 （另请参见[`IsChartTypeStock`](../../charttypecharacterizer/ischarttypestock)方法)。
+创建新数据点并将其添加到集合的末尾。 适用于 chartType 是 Stock 子类型 之一的系列（另请参阅[`IsChartTypeStock`](../../charttypecharacterizer/ischarttypestock)方法）.
 
 ```csharp
 public IChartDataPoint AddDataPointForStockSeries(double value)

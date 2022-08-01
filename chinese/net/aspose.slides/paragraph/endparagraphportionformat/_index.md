@@ -1,14 +1,14 @@
 ---
 title: EndParagraphPortionFormat
 second_title: Aspose.Slides for .NET API 参考
-description: 指定如果在 最后一个部分之后插入另一个部分时要使用的部分属性
+description: 指定在 最后一个部分之后插入另一部分时要使用的部分属性
 type: docs
 weight: 20
 url: /zh/net/aspose.slides/paragraph/endparagraphportionformat/
 ---
 ## Paragraph.EndParagraphPortionFormat property
 
-指定如果在 最后一个部分之后插入另一个部分时要使用的部分属性。
+指定在 最后一个部分之后插入另一部分时要使用的部分属性。
 
 ```csharp
 public IPortionFormat EndParagraphPortionFormat { get; set; }

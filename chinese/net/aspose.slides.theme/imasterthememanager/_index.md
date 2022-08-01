@@ -18,9 +18,9 @@ public interface IMasterThemeManager : IThemeManager
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsIThemeManager](../../aspose.slides.theme/imasterthememanager/asithememanager) { get; } | 允许获取基本 IThemeManager 接口。 只读[`IThemeManager`](../ithememanager)。 |
-| [IsOverrideThemeEnabled](../../aspose.slides.theme/imasterthememanager/isoverridethemeenabled) { get; set; } | 确定 OverrideTheme 是否覆盖继承的有效主题（Presentation.MasterTheme）。 读/写Boolean。 |
-| [OverrideTheme](../../aspose.slides.theme/imasterthememanager/overridetheme) { get; set; } | 返回覆盖主题对象。 读/写[`IMasterTheme`](../imastertheme)。 |
+| [AsIThemeManager](../../aspose.slides.theme/imasterthememanager/asithememanager) { get; } | 允许获取基本 IThemeManager 接口。 只读[`IThemeManager`](../ithememanager). |
+| [IsOverrideThemeEnabled](../../aspose.slides.theme/imasterthememanager/isoverridethemeenabled) { get; set; } | 确定 OverrideTheme 是否覆盖继承的有效主题（Presentation.MasterTheme）。 读/写Boolean. |
+| [OverrideTheme](../../aspose.slides.theme/imasterthememanager/overridetheme) { get; set; } | 返回覆盖主题对象。 读/写[`IMasterTheme`](../imastertheme). |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: DisplayUnit
 second_title: Aspose.Slides for .NET API 参考
-description: 指定数值轴的显示单位的缩放值 读/写DisplayUnitTypeaspose.slides.charts/displayunittype
+description: 指定数值轴显示单位的缩放值 读/写DisplayUnitTypeaspose.slides.charts/displayunittype.
 type: docs
 weight: 150
 url: /zh/net/aspose.slides.charts/iaxis/displayunit/
 ---
 ## IAxis.DisplayUnit property
 
-指定数值轴的显示单位的缩放值。 读/写[`DisplayUnitType`](../../displayunittype)。
+指定数值轴显示单位的缩放值。 读/写[`DisplayUnitType`](../../displayunittype).
 
 ```csharp
 public DisplayUnitType DisplayUnit { get; set; }

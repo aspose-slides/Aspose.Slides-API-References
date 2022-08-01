@@ -1,14 +1,14 @@
 ---
 title: MotionCmdPath
 second_title: Справочник по API Aspose.Slides для .NET
-description: Представляют одну команду пути.
+description: Представляет одну команду пути.
 type: docs
 weight: 550
 url: /ru/net/aspose.slides.animation/motioncmdpath/
 ---
 ## MotionCmdPath class
 
-Представляют одну команду пути.
+Представляет одну команду пути.
 
 ```csharp
 public class MotionCmdPath : IMotionCmdPath
@@ -18,10 +18,10 @@ public class MotionCmdPath : IMotionCmdPath
 
 | Имя | Описание |
 | --- | --- |
-| [CommandType](../../aspose.slides.animation/motioncmdpath/commandtype) { get; set; } | Указывает тип команды. Чтение/запись[`MotionCommandPathType`](../motioncommandpathtype). |
-| [IsRelative](../../aspose.slides.animation/motioncmdpath/isrelative) { get; set; } | Определить координаты команды относительные или нет. Чтение/записьBoolean. |
-| [Points](../../aspose.slides.animation/motioncmdpath/points) { get; set; } | Определяет точки командования. Чтение/записьPointF[]. |
-| [PointsType](../../aspose.slides.animation/motioncmdpath/pointstype) { get; set; } | Определяет тип командных точек Чтение/запись[`MotionPathPointsType`](../motionpathpointstype). |
+| [CommandType](../../aspose.slides.animation/motioncmdpath/commandtype) { get; set; } | Определяет тип команды. Чтение/запись[`MotionCommandPathType`](../motioncommandpathtype) . |
+| [IsRelative](../../aspose.slides.animation/motioncmdpath/isrelative) { get; set; } | Определить координаты команды относительные или нет. Чтение/записьBoolean . |
+| [Points](../../aspose.slides.animation/motioncmdpath/points) { get; set; } | Определяет точки управления. Чтение/записьPointF []. |
+| [PointsType](../../aspose.slides.animation/motioncmdpath/pointstype) { get; set; } | Задает тип командных точек Чтение/запись[`MotionPathPointsType`](../motionpathpointstype) . |
 
 ### Смотрите также
 

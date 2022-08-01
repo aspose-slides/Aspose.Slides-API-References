@@ -1,14 +1,14 @@
 ---
 title: GetCellCollection
 second_title: Aspose.Slides for .NET API 参考
-description: 获取单元格集
+description: 获取单元集
 type: docs
 weight: 50
 url: /zh/net/aspose.slides.charts/ichartdataworkbook/getcellcollection/
 ---
 ## IChartDataWorkbook.GetCellCollection method
 
-获取单元格集。
+获取单元集。
 
 ```csharp
 public IChartCellCollection GetCellCollection(string formula, bool skipHiddenCells)
@@ -17,11 +17,11 @@ public IChartCellCollection GetCellCollection(string formula, bool skipHiddenCel
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | formula | String | Excel 公式，例如“Sheet1！$A$2:$A$5”。 |
-| skipHiddenCells | Boolean | 如果为真，则方法返回没有隐藏单元格的集合。 |
+| skipHiddenCells | Boolean | 如果为 true，则方法返回没有隐藏单元格的集合。 |
 
 ### 返回值
 
-单元格集[`IChartCellCollection`](../../ichartcellcollection)
+一组细胞[`IChartCellCollection`](../../ichartcellcollection)
 
 ### 也可以看看
 

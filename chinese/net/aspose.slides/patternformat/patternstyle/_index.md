@@ -1,14 +1,14 @@
 ---
 title: PatternStyle
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置图案样式 读/写PatternStyleaspose.slides/patternstyle
+description: 返回或设置图案样式 读/写PatternStyleaspose.slides/patternstyle.
 type: docs
 weight: 30
 url: /zh/net/aspose.slides/patternformat/patternstyle/
 ---
 ## PatternFormat.PatternStyle property
 
-返回或设置图案样式。 读/写[`PatternStyle`](../../patternstyle)。
+返回或设置图案样式。 读/写[`PatternStyle`](../../patternstyle).
 
 ```csharp
 public PatternStyle PatternStyle { get; set; }

@@ -18,11 +18,11 @@ public interface IMathNaryOperatorProperties
 
 | Имя | Описание |
 | --- | --- |
-| [GrowToMatchOperandHeight](../../aspose.slides.mathtext/imathnaryoperatorproperties/growtomatchoperandheight) { get; set; } | Символ оператора увеличивается вертикально, чтобы соответствовать высоте операнда |
+| [GrowToMatchOperandHeight](../../aspose.slides.mathtext/imathnaryoperatorproperties/growtomatchoperandheight) { get; set; } | Символ оператора увеличивается по вертикали, чтобы соответствовать высоте операнда |
 | [HideSubscript](../../aspose.slides.mathtext/imathnaryoperatorproperties/hidesubscript) { get; set; } | Скрыть индекс |
 | [HideSuperscript](../../aspose.slides.mathtext/imathnaryoperatorproperties/hidesuperscript) { get; set; } | Скрыть верхний индекс |
 | [LimitLocation](../../aspose.slides.mathtext/imathnaryoperatorproperties/limitlocation) { get; set; } | Расположение пределов (нижний и верхний индекс) |
-| [Operator](../../aspose.slides.mathtext/imathnaryoperatorproperties/operator) { get; set; } | Nary Operator Character Например:'∑', '∫' |
+| [Operator](../../aspose.slides.mathtext/imathnaryoperatorproperties/operator) { get; set; } | Символ оператора Например: '∑', '∫' |
 
 ### Смотрите также
 

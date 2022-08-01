@@ -1,14 +1,14 @@
 ---
 title: ShowBubbleSize
 second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет поведение отображения значения размера пузырька метки данных указанной диаграммы. True отображает значение размера пузырька. Ложь скрывать. Чтение/записьBoolean.
+description: Представляет поведение отображения значения размера пузырька метки данных указанной диаграммы. True отображает значение размера пузырька. False чтобы скрыть. Чтение/записьBoolean .
 type: docs
 weight: 70
 url: /ru/net/aspose.slides.charts/idatalabelformat/showbubblesize/
 ---
 ## IDataLabelFormat.ShowBubbleSize property
 
-Представляет поведение отображения значения размера пузырька метки данных указанной диаграммы. True отображает значение размера пузырька. Ложь скрывать. Чтение/записьBoolean.
+Представляет поведение отображения значения размера пузырька метки данных указанной диаграммы. True отображает значение размера пузырька. False, чтобы скрыть. Чтение/записьBoolean .
 
 ```csharp
 public bool ShowBubbleSize { get; set; }
@@ -16,7 +16,7 @@ public bool ShowBubbleSize { get; set; }
 
 ### Примечания
 
-Если родителем этого объекта DataLabelFormat является коллекция меток данных DataLabelCollection, то это свойство получает или задает значение по умолчанию свойства ShowBubbleSize для новых меток данных в коллекции DataLabelCollection. Установка этого свойства со значением также устанавливает это значение в свойство ShowBubbleSize для всех меток данных в коллекции DataLabelCollection (т.е. "DataLabels.DefaultDataLabelFormat.ShowBubbleSize = val;" приводит к тому, что все DataLabels[i].ShowBubbleSize равно val).
+Если родителем этого объекта DataLabelFormat является коллекция меток данных DataLabelCollection, то свойство this получает или задает значение по умолчанию свойства ShowBubbleSize для новых меток данных в коллекции DataLabelCollection. Свойство ShowBubbleSize для всех меток данных в DataLabelCollection collection (т. е. «DataLabels.DefaultDataLabelFormat.ShowBubbleSize = val;» приводит к тому, что все DataLabels[i].ShowBubbleSize равно val).
 
 ### Смотрите также
 

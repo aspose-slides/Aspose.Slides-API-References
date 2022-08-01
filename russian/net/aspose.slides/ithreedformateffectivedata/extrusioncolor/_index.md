@@ -1,14 +1,14 @@
 ---
 title: ExtrusionColor
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает цвет экструзии. Только для чтенияColor.
+description: Возвращает цвет выдавливания. Только для чтенияColor .
 type: docs
 weight: 80
 url: /ru/net/aspose.slides/ithreedformateffectivedata/extrusioncolor/
 ---
 ## IThreeDFormatEffectiveData.ExtrusionColor property
 
-Возвращает цвет экструзии. Только для чтенияColor.
+Возвращает цвет выдавливания. Только для чтенияColor .
 
 ```csharp
 public Color ExtrusionColor { get; }

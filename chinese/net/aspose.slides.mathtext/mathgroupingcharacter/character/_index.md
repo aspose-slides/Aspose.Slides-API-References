@@ -1,14 +1,14 @@
 ---
 title: Character
 second_title: Aspose.Slides for .NET API 参考
-description: 分组字符 默认值U23DF下大括号
+description: 分组字符 默认值U23DF BOTTOM CURLY BRACKET
 type: docs
 weight: 30
 url: /zh/net/aspose.slides.mathtext/mathgroupingcharacter/character/
 ---
 ## MathGroupingCharacter.Character property
 
-分组字符 默认值:U+23DF（下大括号）
+分组字符 默认值：U+23DF (BOTTOM CURLY BRACKET)
 
 ```csharp
 public char Character { get; set; }
@@ -16,12 +16,12 @@ public char Character { get; set; }
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]
 MathGroupingCharacter groupingCharacter = new MathGroupingCharacter(new MathematicalText("abc"));
-groupingCharacter.Character = '\u23DD';  // 底部括号
+groupingCharacter.Character = '\u23DD'; // 下括号
 ```
 
 ### 也可以看看

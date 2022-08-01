@@ -1,14 +1,14 @@
 ---
 title: Count
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает количество слайдов макета в коллекции. Только для чтенияInt32.
+description: Возвращает количество слайдов макета в коллекции. Только для чтенияInt32 .
 type: docs
 weight: 10
 url: /ru/net/aspose.slides/layoutslidecollection/count/
 ---
 ## LayoutSlideCollection.Count property
 
-Возвращает количество слайдов макета в коллекции. Только для чтенияInt32.
+Возвращает количество слайдов макета в коллекции. Только для чтенияInt32 .
 
 ```csharp
 public int Count { get; }

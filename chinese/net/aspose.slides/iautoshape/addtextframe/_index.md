@@ -1,14 +1,14 @@
 ---
 title: AddTextFrame
 second_title: Aspose.Slides for .NET API 参考
-description: 将新的 TextFrameEx 添加到形状 如果形状已经有 TextFrameEx 则只需更改其文本
+description: 将新的 TextFrameEx 添加到形状 如果形状已经有 TextFrameEx则只需更改其文本
 type: docs
 weight: 70
 url: /zh/net/aspose.slides/iautoshape/addtextframe/
 ---
 ## IAutoShape.AddTextFrame method
 
-将新的 TextFrameEx 添加到形状。 如果形状已经有 TextFrameEx 则只需更改其文本。
+将新的 TextFrameEx 添加到形状。 如果形状已经有 TextFrameEx，则只需更改其文本。
 
 ```csharp
 public ITextFrame AddTextFrame(string text)
@@ -20,7 +20,7 @@ public ITextFrame AddTextFrame(string text)
 
 ### 返回值
 
-新[`ITextFrame`](../../itextframe)对象。
+新[`ITextFrame`](../../itextframe)对象.
 
 ### 也可以看看
 

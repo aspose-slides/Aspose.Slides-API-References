@@ -1,14 +1,14 @@
 ---
 title: Alignment
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или задает выравнивание текста в абзаце. Чтение/записьTextAlignmentaspose.slides/textalignment.
+description: Возвращает или задает выравнивание текста в абзаце. Чтение/записьTextAlignmentaspose.slides/textalignment .
 type: docs
 weight: 10
 url: /ru/net/aspose.slides.charts/ichartparagraphformat/alignment/
 ---
 ## IChartParagraphFormat.Alignment property
 
-Возвращает или задает выравнивание текста в абзаце. Чтение/запись[`TextAlignment`](../../../aspose.slides/textalignment).
+Возвращает или задает выравнивание текста в абзаце. Чтение/запись[`TextAlignment`](../../../aspose.slides/textalignment) .
 
 ```csharp
 public TextAlignment Alignment { get; set; }

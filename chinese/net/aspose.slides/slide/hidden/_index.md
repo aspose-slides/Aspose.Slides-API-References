@@ -1,14 +1,14 @@
 ---
 title: Hidden
 second_title: Aspose.Slides for .NET API 参考
-description: 确定幻灯片放映期间是否隐藏指定的幻灯片 读/写Boolean
+description: 确定在幻灯片放映期间是否隐藏指定的幻灯片 读/写Boolean.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides/slide/hidden/
 ---
 ## Slide.Hidden property
 
-确定幻灯片放映期间是否隐藏指定的幻灯片。 读/写Boolean。
+确定在幻灯片放映期间是否隐藏指定的幻灯片。 读/写Boolean.
 
 ```csharp
 public bool Hidden { get; set; }

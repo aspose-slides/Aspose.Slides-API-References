@@ -1,14 +1,14 @@
 ---
 title: ExternalResourceResolver
 second_title: Aspose.Slides for .NET API 参考
-description: 用于在 HtmlSvg 文档导入期间解析外部资源的回调类  当客户端提供的 HTML 或 SVG 文件将使服务器软件获取本地或网络文件时使用此解析器可能会产生漏洞谨慎使用建议根本不要指定 ExternalResourceResolver只会读取嵌入的对象或创建一些子类来检查指定的 uri 是否有效
+description: 用于在HtmlSvg文档导入时解析外部资源的回调类 当客户端提供的 HTML 或 SVG 文件会使服务器软件获取本地或网络文件时使用此解析器可能会产生漏洞谨慎使用建议根本不要指定 ExternalResourceResolver只会读取嵌入的对象或创建一些子类来检查指定的 uri 是否有效
 type: docs
 weight: 6870
 url: /zh/net/aspose.slides.import/externalresourceresolver/
 ---
 ## ExternalResourceResolver class
 
-用于在 Html、Svg 文档导入期间解析外部资源的回调类。  当客户端提供的 HTML 或 SVG 文件将使服务器软件获取本地或网络文件时，使用此解析器可能会产生漏洞。谨慎使用。建议根本不要指定 ExternalResourceResolver（只会读取嵌入的对象）或创建一些子类来检查指定的 uri 是否有效。
+用于在Html、Svg文档导入时解析外部资源的回调类。 当客户端提供的 HTML 或 SVG 文件会使服务器软件获取本地或网络文件时，使用此解析器可能会产生漏洞。谨慎使用。建议根本不要指定 ExternalResourceResolver（只会读取嵌入的对象）或创建一些子类来检查指定的 uri 是否有效。
 
 ```csharp
 public class ExternalResourceResolver : IExternalResourceResolver

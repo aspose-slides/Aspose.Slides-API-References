@@ -1,14 +1,14 @@
 ---
 title: TitleStyle
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает стиль текста заголовка. Только для чтенияITextStyleaspose.slides/itextstyle.
+description: Возвращает стиль текста заголовка. Только для чтенияITextStyleaspose.slides/itextstyle .
 type: docs
 weight: 90
 url: /ru/net/aspose.slides/imasterslide/titlestyle/
 ---
 ## IMasterSlide.TitleStyle property
 
-Возвращает стиль текста заголовка. Только для чтения[`ITextStyle`](../../itextstyle).
+Возвращает стиль текста заголовка. Только для чтения[`ITextStyle`](../../itextstyle) .
 
 ```csharp
 public ITextStyle TitleStyle { get; }

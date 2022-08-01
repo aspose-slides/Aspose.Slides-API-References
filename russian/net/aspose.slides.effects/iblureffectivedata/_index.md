@@ -1,14 +1,14 @@
 ---
 title: IBlurEffectiveData
 second_title: Справочник по API Aspose.Slides для .NET
-description: Неизменяемый объект представляющий эффект размытия применяемый ко всей фигуре включая ее заливку. Все цветовые каналы включая альфа затронуты.
+description: Неизменяемый объект представляющий эффект размытия применяемый ко всей фигуре включая ее заливку. Затрагиваются все цветовые каналы включая альфа-канал.
 type: docs
 weight: 3010
 url: /ru/net/aspose.slides.effects/iblureffectivedata/
 ---
 ## IBlurEffectiveData interface
 
-Неизменяемый объект, представляющий эффект размытия, применяемый ко всей фигуре, включая ее заливку. Все цветовые каналы, включая альфа, затронуты.
+Неизменяемый объект, представляющий эффект размытия, применяемый ко всей фигуре, включая ее заливку. Затрагиваются все цветовые каналы, включая альфа-канал.
 
 ```csharp
 public interface IBlurEffectiveData : IEffectEffectiveData
@@ -18,9 +18,9 @@ public interface IBlurEffectiveData : IEffectEffectiveData
 
 | Имя | Описание |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/iblureffectivedata/asieffecteffectivedata) { get; } | Позволяет получить базовый интерфейс IEffectEffectiveData. Только для чтения[`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Grow](../../aspose.slides.effects/iblureffectivedata/grow) { get; } | Определяет, должны ли границы объекта увеличиваться в результате размытия. True указывает, что границы увеличиваются, а false указывает, что это не так. Только чтениеBoolean. |
-| [Radius](../../aspose.slides.effects/iblureffectivedata/radius) { get; } | Возвращает или задает радиус размытия. Только для чтенияDouble. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/iblureffectivedata/asieffecteffectivedata) { get; } | Позволяет получить базовый интерфейс IEffectEffectiveData. Только для чтения[`IEffectEffectiveData`](../ieffecteffectivedata) . |
+| [Grow](../../aspose.slides.effects/iblureffectivedata/grow) { get; } | Определяет, должны ли границы объекта увеличиваться в результате размытия. True указывает, что границы увеличиваются, а false указывает, что они не увеличиваются. Только для чтенияBoolean . |
+| [Radius](../../aspose.slides.effects/iblureffectivedata/radius) { get; } | Возвращает или задает радиус размытия. Только для чтенияDouble . |
 
 ### Смотрите также
 

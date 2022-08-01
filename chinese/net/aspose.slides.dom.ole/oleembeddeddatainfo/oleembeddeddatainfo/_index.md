@@ -24,7 +24,7 @@ public OleEmbeddedDataInfo()
 
 ## OleEmbeddedDataInfo(byte[], string) {#constructor_1}
 
-为 OLE 对象创建嵌入数据信息的新实例。  嵌入 OLE 对象的文件数据Byte[]。 当前嵌入 OLE 对象的文件扩展名String。
+为 OLE 对象创建嵌入数据信息的新实例。 嵌入 OLE 对象的文件数据Byte[]。当前嵌入的 OLE 对象的文件扩展名String.
 
 ```csharp
 public OleEmbeddedDataInfo(byte[] embeddedFileData, string embeddedFileExtension)

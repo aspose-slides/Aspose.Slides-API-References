@@ -1,14 +1,14 @@
 ---
 title: FillFormat
 second_title: Aspose.Slides for .NET API 参考
-description: 返回段落的项目符号填充格式 只读IFillFormatEffectiveDataaspose.slides/ifillformateffectivedata
+description: 返回段落的项目符号填充格式 只读IFillFormatEffectiveDataaspose.slides/ifillformateffectivedata.
 type: docs
 weight: 30
 url: /zh/net/aspose.slides/ibulletformateffectivedata/fillformat/
 ---
 ## IBulletFormatEffectiveData.FillFormat property
 
-返回段落的项目符号填充格式。 只读[`IFillFormatEffectiveData`](../../ifillformateffectivedata)。
+返回段落的项目符号填充格式。 只读[`IFillFormatEffectiveData`](../../ifillformateffectivedata).
 
 ```csharp
 public IFillFormatEffectiveData FillFormat { get; }
@@ -22,8 +22,8 @@ public IFillFormatEffectiveData FillFormat { get; }
 [C#]
 using (Presentation pres = new Presentation("SomePresentation.pptx"))
 {
-     // 假设第一张幻灯片上的第一个形状是带有一些文本的自选图形...
-     // 输出文本段落的子弹信息
+    // 假设第一张幻灯片上的第一个形状是带有一些文本的自选图形...
+    // 输出文本段落的项目符号信息
     AutoShape autoShape = (AutoShape)pres.Slides[0].Shapes[0];
     foreach (Paragraph para in autoShape.TextFrame.Paragraphs)
     {

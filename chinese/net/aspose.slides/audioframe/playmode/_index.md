@@ -1,14 +1,14 @@
 ---
 title: PlayMode
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置音频播放模式 读/写AudioPlayModePresetaspose.slides/audioplaymodepreset
+description: 返回或设置音频播放模式 读/写AudioPlayModePresetaspose.slides/audioplaymodepreset.
 type: docs
 weight: 110
 url: /zh/net/aspose.slides/audioframe/playmode/
 ---
 ## AudioFrame.PlayMode property
 
-返回或设置音频播放模式。 读/写[`AudioPlayModePreset`](../../audioplaymodepreset)。
+返回或设置音频播放模式。 读/写[`AudioPlayModePreset`](../../audioplaymodepreset).
 
 ```csharp
 public AudioPlayModePreset PlayMode { get; set; }

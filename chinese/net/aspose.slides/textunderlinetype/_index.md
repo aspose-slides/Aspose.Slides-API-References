@@ -1,14 +1,14 @@
 ---
 title: TextUnderlineType
 second_title: Aspose.Slides for .NET API 参考
-description: 表示文字下划线的类型
+description: 代表文字下划线的类型
 type: docs
 weight: 10200
 url: /zh/net/aspose.slides/textunderlinetype/
 ---
 ## TextUnderlineType enumeration
 
-表示文字下划线的类型。
+代表文字下划线的类型。
 
 ```csharp
 public enum TextUnderlineType : sbyte

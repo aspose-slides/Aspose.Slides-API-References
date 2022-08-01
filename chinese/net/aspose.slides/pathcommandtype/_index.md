@@ -20,7 +20,7 @@ public enum PathCommandType : byte
 | --- | --- | --- |
 | Close | `0` | 关闭几何路径 |
 | MoveTo | `1` | 设置几何路径的下一个点位置 |
-| LineTo | `2` | 将行追加到几何路径 |
+| LineTo | `2` | 将线追加到几何路径 |
 | ArcTo | `3` | 将指定的弧附加到几何路径。 |
 | QuadBezierTo | `4` | 将二次贝塞尔曲线附加到几何路径 |
 | CubicBezierTo | `5` | 将三次贝塞尔曲线附加到几何路径 |

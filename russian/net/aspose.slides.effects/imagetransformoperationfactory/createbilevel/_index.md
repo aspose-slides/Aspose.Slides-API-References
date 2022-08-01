@@ -16,7 +16,7 @@ public IBiLevel CreateBiLevel(float threshold)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| порог | Single | Порог. |
+| threshold | Single | Порог. |
 
 ### Возвращаемое значение
 

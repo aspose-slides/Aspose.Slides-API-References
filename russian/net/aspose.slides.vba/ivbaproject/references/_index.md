@@ -1,14 +1,14 @@
 ---
 title: References
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает список всех ссылок содержащихся в проекте VBA. Только для чтенияIVbaReferenceCollectionaspose.slides.vba/ivbareferencecollection.
+description: Возвращает список всех ссылок содержащихся в проекте VBA. Только для чтенияIVbaReferenceCollectionaspose.slides.vba/ivbareferencecollection .
 type: docs
 weight: 30
 url: /ru/net/aspose.slides.vba/ivbaproject/references/
 ---
 ## IVbaProject.References property
 
-Возвращает список всех ссылок, содержащихся в проекте VBA. Только для чтения[`IVbaReferenceCollection`](../../ivbareferencecollection).
+Возвращает список всех ссылок, содержащихся в проекте VBA. Только для чтения[`IVbaReferenceCollection`](../../ivbareferencecollection) .
 
 ```csharp
 public IVbaReferenceCollection References { get; }

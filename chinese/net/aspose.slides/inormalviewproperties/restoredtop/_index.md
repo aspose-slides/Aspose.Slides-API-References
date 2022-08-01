@@ -1,14 +1,14 @@
 ---
 title: RestoredTop
 second_title: Aspose.Slides for .NET API 参考
-description: 此元素指定普通视图的顶部滑动区域的大小当该区域为变量 恢复大小既不最小化也不最大化 只读INormalViewRestoredPropertiesaspose.slides/inormalviewrestoredproperties
+description: 此元素指定正常视图的顶部滑动区域的大小当该区域具有可变大小时INormalViewRestoredPropertiesaspose.slides/inormalviewrestoredproperties.
 type: docs
 weight: 40
 url: /zh/net/aspose.slides/inormalviewproperties/restoredtop/
 ---
 ## INormalViewProperties.RestoredTop property
 
-此元素指定普通视图的顶部滑动区域的大小，当该区域为变量 恢复大小（既不最小化也不最大化）。 只读[`INormalViewRestoredProperties`](../../inormalviewrestoredproperties)。
+此元素指定正常视图的顶部滑动区域的大小，当该区域具有可变大小时[`INormalViewRestoredProperties`](../../inormalviewrestoredproperties).
 
 ```csharp
 public INormalViewRestoredProperties RestoredTop { get; }

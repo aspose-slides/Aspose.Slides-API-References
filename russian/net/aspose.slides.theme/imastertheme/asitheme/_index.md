@@ -1,14 +1,14 @@
 ---
 title: AsITheme
 second_title: Справочник по API Aspose.Slides для .NET
-description: Позволяет получить базовый интерфейс ITheme. Только для чтенияIThemeaspose.slides.theme/itheme.
+description: Позволяет получить базовый интерфейс ITheme. Только для чтенияIThemeaspose.slides.theme/itheme .
 type: docs
 weight: 10
 url: /ru/net/aspose.slides.theme/imastertheme/asitheme/
 ---
 ## IMasterTheme.AsITheme property
 
-Позволяет получить базовый интерфейс ITheme. Только для чтения[`ITheme`](../../itheme).
+Позволяет получить базовый интерфейс ITheme. Только для чтения[`ITheme`](../../itheme) .
 
 ```csharp
 public ITheme AsITheme { get; }

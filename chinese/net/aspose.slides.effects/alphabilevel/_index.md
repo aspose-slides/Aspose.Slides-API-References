@@ -1,14 +1,14 @@
 ---
 title: AlphaBiLevel
 second_title: Aspose.Slides for .NET API 参考
-description: 表示 Alpha Bi-Level 效果 Alpha不透明度值小于阈值更改为 0完全透明 alpha 值大于或等于阈值更改为 100完全不透明 .
+description: 表示 Alpha Bi-Level 效果 小于阈值的 Alpha不透明度值更改为 0完全透明 大于或等于阈值的 alpha 值更改为 100完全不透明
 type: docs
 weight: 2670
 url: /zh/net/aspose.slides.effects/alphabilevel/
 ---
 ## AlphaBiLevel class
 
-表示 Alpha Bi-Level 效果。 Alpha（不透明度）值小于阈值更改为 0（完全透明）， alpha 值大于或等于阈值更改为 100%（完全不透明） .
+表示 Alpha Bi-Level 效果。 小于阈值的 Alpha（不透明度）值更改为 0（完全透明）， 大于或等于阈值的 alpha 值更改为 100%（完全不透明）。
 
 ```csharp
 public class AlphaBiLevel : ImageTransformOperation, IAlphaBiLevel
@@ -18,14 +18,14 @@ public class AlphaBiLevel : ImageTransformOperation, IAlphaBiLevel
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允许获取基本 IPresentationComponent 接口。 只读[`IPresentationComponent`](../../aspose.slides/ipresentationcomponent)。 |
-| [Threshold](../../aspose.slides.effects/alphabilevel/threshold) { get; set; } | 返回效果阈值。 读/写Single。 |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允许获取基本 IPresentationComponent 接口。 只读[`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [Threshold](../../aspose.slides.effects/alphabilevel/threshold) { get; set; } | 返回效果阈值。 读/写Single. |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/alphabilevel/equals)(object) | 确定指定的[`AlphaBiLevel`](../alphabilevel)是否等于当前的AlphaBiLevel。 |
+| override [Equals](../../aspose.slides.effects/alphabilevel/equals)(object) | 判断是否指定[`AlphaBiLevel`](../alphabilevel)等于当前[`AlphaBiLevel`](../alphabilevel). |
 | [GetEffective](../../aspose.slides.effects/alphabilevel/geteffective)() | 获取应用了继承的有效 Alpha Bi-Level 效果数据。 |
 | override [GetHashCode](../../aspose.slides.effects/alphabilevel/gethashcode)() | 用作特定类型的哈希函数。 |
 

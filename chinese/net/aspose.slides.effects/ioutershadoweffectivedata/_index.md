@@ -18,17 +18,17 @@ public interface IOuterShadowEffectiveData : IEffectEffectiveData
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ioutershadoweffectivedata/asieffecteffectivedata) { get; } | 允许获取基础 IEffectEffectiveData 接口。 只读[`IEffectEffectiveData`](../ieffecteffectivedata)。 |
-| [BlurRadius](../../aspose.slides.effects/ioutershadoweffectivedata/blurradius) { get; } | 模糊半径。 只读Double。 |
-| [Direction](../../aspose.slides.effects/ioutershadoweffectivedata/direction) { get; } | 阴影方向。 只读Single。 |
-| [Distance](../../aspose.slides.effects/ioutershadoweffectivedata/distance) { get; } | 阴影距离。 只读Double。 |
-| [RectangleAlign](../../aspose.slides.effects/ioutershadoweffectivedata/rectanglealign) { get; } | 矩形对齐。 只读[`RectangleAlignment`](../../aspose.slides/rectanglealignment)。 |
-| [RotateShadowWithShape](../../aspose.slides.effects/ioutershadoweffectivedata/rotateshadowwithshape) { get; } | 指定如果形状旋转，阴影是否应随形状旋转。 只读Boolean。 |
-| [ScaleHorizontal](../../aspose.slides.effects/ioutershadoweffectivedata/scalehorizontal) { get; } | 指定水平缩放因子，负缩放会导致翻转。 只读Double。 |
-| [ScaleVertical](../../aspose.slides.effects/ioutershadoweffectivedata/scalevertical) { get; } | 指定垂直缩放因子，负缩放会导致翻转。 只读Double。 |
-| [ShadowColor](../../aspose.slides.effects/ioutershadoweffectivedata/shadowcolor) { get; } | 阴影颜色。 只读Color。 |
-| [SkewHorizontal](../../aspose.slides.effects/ioutershadoweffectivedata/skewhorizontal) { get; } | 指定水平倾斜角度（以度为单位）。 只读Double。 |
-| [SkewVertical](../../aspose.slides.effects/ioutershadoweffectivedata/skewvertical) { get; } | 指定垂直倾斜角度（以度为单位）。 只读Double。 |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ioutershadoweffectivedata/asieffecteffectivedata) { get; } | 允许获取基本 IEffectEffectiveData 接口。 只读[`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [BlurRadius](../../aspose.slides.effects/ioutershadoweffectivedata/blurradius) { get; } | 模糊半径。 只读Double. |
+| [Direction](../../aspose.slides.effects/ioutershadoweffectivedata/direction) { get; } | 阴影方向。 只读Single. |
+| [Distance](../../aspose.slides.effects/ioutershadoweffectivedata/distance) { get; } | 阴影距离。 只读Double. |
+| [RectangleAlign](../../aspose.slides.effects/ioutershadoweffectivedata/rectanglealign) { get; } | 矩形对齐。 只读[`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
+| [RotateShadowWithShape](../../aspose.slides.effects/ioutershadoweffectivedata/rotateshadowwithshape) { get; } | 指定如果形状旋转，阴影是否应随形状旋转。 只读Boolean. |
+| [ScaleHorizontal](../../aspose.slides.effects/ioutershadoweffectivedata/scalehorizontal) { get; } | 指定水平缩放因子，负缩放会导致翻转。 只读Double. |
+| [ScaleVertical](../../aspose.slides.effects/ioutershadoweffectivedata/scalevertical) { get; } | 指定垂直缩放因子，负缩放会导致翻转。 只读Double. |
+| [ShadowColor](../../aspose.slides.effects/ioutershadoweffectivedata/shadowcolor) { get; } | 阴影颜色。 只读Color. |
+| [SkewHorizontal](../../aspose.slides.effects/ioutershadoweffectivedata/skewhorizontal) { get; } | 指定水平倾斜角度（以度为单位）。 只读Double. |
+| [SkewVertical](../../aspose.slides.effects/ioutershadoweffectivedata/skewvertical) { get; } | 指定垂直倾斜角度（以度为单位）。 只读Double. |
 
 ### 也可以看看
 

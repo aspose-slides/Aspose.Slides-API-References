@@ -1,14 +1,14 @@
 ---
 title: IsGrouped
 second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет сгруппирована ли фигура. Только чтениеBoolean.
+description: Определяет сгруппирована ли фигура. Только для чтенияBoolean .
 type: docs
 weight: 130
 url: /ru/net/aspose.slides/ishape/isgrouped/
 ---
 ## IShape.IsGrouped property
 
-Определяет, сгруппирована ли фигура. Только чтениеBoolean.
+Определяет, сгруппирована ли фигура. Только для чтенияBoolean .
 
 ```csharp
 public bool IsGrouped { get; }
@@ -16,7 +16,7 @@ public bool IsGrouped { get; }
 
 ### Примечания
 
-Свойство[`ParentGroup`](../parentgroup)возвращает родителя Объект GroupShape, если фигура сгруппирована.
+Свойство[`ParentGroup`](../parentgroup) возвращает родительский объект GroupShape, если фигура сгруппирована.
 
 ### Смотрите также
 

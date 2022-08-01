@@ -16,14 +16,14 @@ public void InitColorSchemeFrom(IColorScheme colorScheme)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| colorScheme | IColorScheme | 初始化数据。 |
+| colorScheme | IColorScheme | 要初始化的数据。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| InvalidOperationException | 如果 ColorScheme 已经初始化（非空）则抛出。 |
-| ArgumentNullException | 如果 colorScheme 参数为空则抛出。 |
+| InvalidOperationException | 如果 ColorScheme 已经初始化（不为 null），则抛出该异常。 |
+| ArgumentNullException | 如果 colorScheme 参数为空，则引发。 |
 
 ### 也可以看看
 

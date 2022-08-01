@@ -1,14 +1,14 @@
 ---
 title: Remove
 second_title: Aspose.Slides for .NET API 参考
-description: 从集合中删除特定对象的第一个匹配项/gt
+description: 从集合中删除第一次出现的特定对象/gt.
 type: docs
 weight: 90
 url: /zh/net/aspose.slides.mathtext/imathblockcollection/remove/
 ---
 ## IMathBlockCollection.Remove method
 
-从集合中删除特定对象的第一个匹配项/&gt;。
+从集合中删除第一次出现的特定对象/&gt;.
 
 ```csharp
 public bool Remove(IMathBlock item)
@@ -16,15 +16,15 @@ public bool Remove(IMathBlock item)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| item | IMathBlock | 要从集合中删除的对象。 |
+| item | IMathBlock | 要从集合中移除的对象。 |
 
 ### 返回值
 
-如果*item*从集合中成功删除，则为真；否则为假。 如果*item*未在原始集合中找到/&gt;，则此方法也返回 false。
+真如果*item*已成功从集合中删除；否则为假。 这个方法也返回 false if*item*未在原始集合中找到/&gt;.
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]

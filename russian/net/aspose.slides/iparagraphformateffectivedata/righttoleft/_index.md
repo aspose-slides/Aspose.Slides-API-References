@@ -1,14 +1,14 @@
 ---
 title: RightToLeft
 second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет используется ли в абзаце написание справа налево. Только чтениеBoolean.
+description: Определяет используется ли в абзаце написание справа налево. Только для чтенияBoolean .
 type: docs
 weight: 130
 url: /ru/net/aspose.slides/iparagraphformateffectivedata/righttoleft/
 ---
 ## IParagraphFormatEffectiveData.RightToLeft property
 
-Определяет, используется ли в абзаце написание справа налево. Только чтениеBoolean.
+Определяет, используется ли в абзаце написание справа налево. Только для чтенияBoolean .
 
 ```csharp
 public bool RightToLeft { get; }

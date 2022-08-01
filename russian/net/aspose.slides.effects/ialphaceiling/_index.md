@@ -1,14 +1,14 @@
 ---
 title: IAlphaCeiling
 second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет эффект альфа-потолка. Значения альфа-канала непрозрачности больше нуля изменены на 100. Другими словами все частично непрозрачное становится полностью непрозрачным.
+description: Представляет эффект альфа-потолка. Значения альфа-канала непрозрачности больше нуля изменяются на 100. Другими словами все частично непрозрачное становится полностью непрозрачным.
 type: docs
 weight: 2860
 url: /ru/net/aspose.slides.effects/ialphaceiling/
 ---
 ## IAlphaCeiling interface
 
-Представляет эффект альфа-потолка. Значения альфа-канала (непрозрачности) больше нуля изменены на 100%. Другими словами, все частично непрозрачное становится полностью непрозрачным.
+Представляет эффект альфа-потолка. Значения альфа-канала (непрозрачности) больше нуля изменяются на 100%. Другими словами, все частично непрозрачное становится полностью непрозрачным.
 
 ```csharp
 public interface IAlphaCeiling : IAccessiblePVIObject<IAlphaCeilingEffectiveData>, 
@@ -19,8 +19,8 @@ public interface IAlphaCeiling : IAccessiblePVIObject<IAlphaCeilingEffectiveData
 
 | Имя | Описание |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphaceiling/asiaccessiblepviobject) { get; } | Позволяет получить базовый интерфейс IAccessiblePVIObject. Только чтение[`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ialphaceiling/asiimagetransformoperation) { get; } | Позволяет получить базовый интерфейс IImageTransformOperationEx. Только для чтения[`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphaceiling/asiaccessiblepviobject) { get; } | Позволяет получить базовый интерфейс IAccessiblePVIObject. Только для чтения[`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1) . |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ialphaceiling/asiimagetransformoperation) { get; } | Позволяет получить базовый интерфейс IImageTransformOperationEx. Только для чтения[`IImageTransformOperation`](../iimagetransformoperation) . |
 
 ### Смотрите также
 

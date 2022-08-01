@@ -1,14 +1,14 @@
 ---
 title: Slide
 second_title: Aspose.Slides for .NET API 参考
-description: 迭代每个Slideaspose.slides.lowcode/foreach/slide在Presentationaspose.slides/presentation中
+description: 迭代每个Slideaspose.slides.lowcode/foreach/slide在里面Presentationaspose.slides/presentation.
 type: docs
 weight: 60
 url: /zh/net/aspose.slides.lowcode/foreach/slide/
 ---
 ## ForEach.Slide method
 
-迭代每个`Slide`在[`Presentation`](../../../aspose.slides/presentation)中。
+迭代每个`Slide`在里面[`Presentation`](../../../aspose.slides/presentation).
 
 ```csharp
 public static void Slide(Presentation pres, ForEachSlideCallback forEachSlide)
@@ -16,8 +16,8 @@ public static void Slide(Presentation pres, ForEachSlideCallback forEachSlide)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| pres | Presentation | 演示迭代幻灯片 |
-| forEachSlide | ForEachSlideCallback | 回调将为每张幻灯片调用 |
+| pres | Presentation | 演示以迭代幻灯片 |
+| forEachSlide | ForEachSlideCallback | 将为每张幻灯片调用的回调 |
 
 ### 例子
 

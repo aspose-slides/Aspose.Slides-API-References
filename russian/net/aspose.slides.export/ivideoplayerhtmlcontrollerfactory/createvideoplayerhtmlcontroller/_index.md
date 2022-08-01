@@ -17,7 +17,7 @@ public IVideoPlayerHtmlController CreateVideoPlayerHtmlController(string path, s
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| path | String | Путь. |
+| path | String | Дорожка. |
 | fileName | String | Имя файла. |
 | baseUri | String | Базовый URI. |
 

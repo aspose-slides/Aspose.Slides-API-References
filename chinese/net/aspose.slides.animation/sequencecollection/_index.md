@@ -18,14 +18,14 @@ public class SequenceCollection : ISequenceCollection
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Count](../../aspose.slides.animation/sequencecollection/count) { get; } | 返回集合中元素的数量 只读Int32。 |
+| [Count](../../aspose.slides.animation/sequencecollection/count) { get; } | 返回集合中的元素数 只读Int32. |
 | [Item](../../aspose.slides.animation/sequencecollection/item) { get; } | 返回指定索引处的序列。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Add](../../aspose.slides.animation/sequencecollection/add)(IShape) | 添加新的交互序列。 读/写[`Sequence`](../sequence)。 |
+| [Add](../../aspose.slides.animation/sequencecollection/add)(IShape) | 添加新的交互序列。 读/写[`Sequence`](../sequence). |
 | [Clear](../../aspose.slides.animation/sequencecollection/clear)() | 从集合中删除所有序列。 |
 | [GetEnumerator](../../aspose.slides.animation/sequencecollection/getenumerator)() | 返回一个遍历集合的枚举器。 |
 | [Remove](../../aspose.slides.animation/sequencecollection/remove)(ISequence) | 从集合中删除指定的序列。 |

@@ -17,12 +17,12 @@ public IMathLimit CreateMathLimit(IMathElement baseArg, IMathElement limit, bool
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | baseArg | IMathElement | 应用限制的基本参数 |
-| limit | IMathElement | 限制元素 |
+| limit | IMathElement | 限位元件 |
 | upperLimit | Boolean | 设置限制在顶部的位置 |
 
 ### 返回值
 
-新数学限制
+新的数学极限
 
 ### 也可以看看
 
@@ -44,12 +44,12 @@ public IMathLimit CreateMathLimit(IMathElement baseArg, IMathElement limit)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| baseArg | IMathElement | 基本参数应用限制 |
-| limit | IMathElement | 限制元素 |
+| baseArg | IMathElement | 应用限制的基本参数 |
+| limit | IMathElement | 限位元件 |
 
 ### 返回值
 
-新数学限制
+新的数学极限
 
 ### 也可以看看
 

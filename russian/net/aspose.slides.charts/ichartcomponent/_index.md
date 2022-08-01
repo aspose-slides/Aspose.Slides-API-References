@@ -18,8 +18,8 @@ public interface IChartComponent : ISlideComponent
 
 | Имя | Описание |
 | --- | --- |
-| [AsISlideComponent](../../aspose.slides.charts/ichartcomponent/asislidecomponent) { get; } | Позволяет получить базовый интерфейс ISlideComponent. Только для чтения[`ISlideComponent`](../../aspose.slides/islidecomponent). |
-| [Chart](../../aspose.slides.charts/ichartcomponent/chart) { get; } | Возвращает диаграмму. Только для чтения[`IChart`](../ichart). |
+| [AsISlideComponent](../../aspose.slides.charts/ichartcomponent/asislidecomponent) { get; } | Позволяет получить базовый интерфейс ISlideComponent. Только для чтения[`ISlideComponent`](../../aspose.slides/islidecomponent) . |
+| [Chart](../../aspose.slides.charts/ichartcomponent/chart) { get; } | Возвращает диаграмму. Только для чтения[`IChart`](../ichart) . |
 
 ### Смотрите также
 

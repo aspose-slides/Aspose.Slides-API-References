@@ -1,14 +1,14 @@
 ---
 title: Slide
 second_title: Aspose.Slides for .NET API 参考
-description: 返回 CellCollection 的父幻灯片 只读IBaseSlideaspose.slides/ibaseslide
+description: 返回 CellCollection 的父幻灯片 只读IBaseSlideaspose.slides/ibaseslide.
 type: docs
 weight: 50
 url: /zh/net/aspose.slides/cellcollection/slide/
 ---
 ## CellCollection.Slide property
 
-返回 CellCollection 的父幻灯片。 只读[`IBaseSlide`](../../ibaseslide)。
+返回 CellCollection 的父幻灯片。 只读[`IBaseSlide`](../../ibaseslide).
 
 ```csharp
 public IBaseSlide Slide { get; }

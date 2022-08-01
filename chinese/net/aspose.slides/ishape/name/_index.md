@@ -1,14 +1,14 @@
 ---
 title: Name
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置形状的名称 读/写String
+description: 返回或设置形状的名称 读/写String.
 type: docs
 weight: 160
 url: /zh/net/aspose.slides/ishape/name/
 ---
 ## IShape.Name property
 
-返回或设置形状的名称。 读/写String。
+返回或设置形状的名称。 读/写String.
 
 ```csharp
 public string Name { get; set; }

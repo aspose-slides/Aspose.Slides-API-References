@@ -19,14 +19,14 @@ public class OleEmbeddedDataInfo : IOleEmbeddedDataInfo
 | 姓名 | 描述 |
 | --- | --- |
 | [OleEmbeddedDataInfo](oleembeddeddatainfo#constructor)() | 为 OLE 对象创建新的嵌入数据信息。 |
-| [OleEmbeddedDataInfo](oleembeddeddatainfo#constructor_1)(byte[], string) | 为 OLE 对象创建嵌入数据信息的新实例。  嵌入 OLE 对象的文件数据Byte[]。 当前嵌入 OLE 对象的文件扩展名String。 |
+| [OleEmbeddedDataInfo](oleembeddeddatainfo#constructor_1)(byte[], string) | 为 OLE 对象创建嵌入数据信息的新实例。 嵌入 OLE 对象的文件数据Byte[]。当前嵌入的 OLE 对象的文件扩展名String. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EmbeddedFileData](../../aspose.slides.dom.ole/oleembeddeddatainfo/embeddedfiledata) { get; } | 返回嵌入 OLE 对象的文件数据 只读Byte[]。 |
-| [EmbeddedFileExtension](../../aspose.slides.dom.ole/oleembeddeddatainfo/embeddedfileextension) { get; } | 返回当前嵌入 OLE 对象的文件扩展名 只读String。 |
+| [EmbeddedFileData](../../aspose.slides.dom.ole/oleembeddeddatainfo/embeddedfiledata) { get; } | 返回嵌入 OLE 对象的文件数据 只读Byte[]. |
+| [EmbeddedFileExtension](../../aspose.slides.dom.ole/oleembeddeddatainfo/embeddedfileextension) { get; } | 返回当前嵌入 OLE 对象的文件扩展名 只读String. |
 
 ### 也可以看看
 

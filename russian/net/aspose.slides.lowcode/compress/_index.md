@@ -1,14 +1,14 @@
 ---
 title: Compress
 second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет группу методов предназначенных для сжатияPresentation../aspose.slides/presentation.
+description: Представляет группу методов предназначенных для сжатияPresentation../aspose.slides/presentation .
 type: docs
 weight: 7170
 url: /ru/net/aspose.slides.lowcode/compress/
 ---
 ## Compress class
 
-Представляет группу методов, предназначенных для сжатия[`Presentation`](../../aspose.slides/presentation).
+Представляет группу методов, предназначенных для сжатия[`Presentation`](../../aspose.slides/presentation) .
 
 ```csharp
 public static class Compress
@@ -18,8 +18,8 @@ public static class Compress
 
 | Имя | Описание |
 | --- | --- |
-| static [RemoveUnusedLayoutSlides](../../aspose.slides.lowcode/compress/removeunusedlayoutslides)(Presentation) | Выполняет сжатие[`Presentation`](../../aspose.slides/presentation)путем удаления неиспользуемых слайдов макета. |
-| static [RemoveUnusedMasterSlides](../../aspose.slides.lowcode/compress/removeunusedmasterslides)(Presentation) | Выполняет сжатие[`Presentation`](../../aspose.slides/presentation)путем удаления неиспользуемых мастер-слайдов. |
+| static [RemoveUnusedLayoutSlides](../../aspose.slides.lowcode/compress/removeunusedlayoutslides)(Presentation) | Выполняет сжатие[`Presentation`](../../aspose.slides/presentation) путем удаления неиспользуемых слайдов макета. |
+| static [RemoveUnusedMasterSlides](../../aspose.slides.lowcode/compress/removeunusedmasterslides)(Presentation) | Выполняет сжатие[`Presentation`](../../aspose.slides/presentation) путем удаления неиспользуемых мастер-слайдов. |
 
 ### Примеры
 

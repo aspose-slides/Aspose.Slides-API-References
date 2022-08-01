@@ -1,14 +1,14 @@
 ---
 title: StyleTextShadow
 second_title: Aspose.Slides for .NET API 参考
-description: 表示style.textShadow属性
+description: 代表style.textShadow 属性
 type: docs
 weight: 1170
 url: /zh/net/aspose.slides.animation/behaviorproperty/styletextshadow/
 ---
 ## BehaviorProperty.StyleTextShadow property
 
-表示'style.textShadow'属性
+代表'style.textShadow' 属性
 
 ```csharp
 public static BehaviorProperty StyleTextShadow { get; }

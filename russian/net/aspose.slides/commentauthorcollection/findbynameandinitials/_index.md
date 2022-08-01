@@ -17,7 +17,7 @@ public ICommentAuthor[] FindByNameAndInitials(string name, string initials)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | name | String | Имя автора, которого нужно найти. |
-| initials | String | Инициалы автора, которого нужно найти. |
+| initials | String | Инициалы автора найти. |
 
 ### Возвращаемое значение
 

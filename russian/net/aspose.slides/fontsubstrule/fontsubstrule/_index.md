@@ -40,7 +40,7 @@ public FontSubstRule(IFontData sourceFont, IFontData destFont, FontSubstConditio
 | --- | --- | --- |
 | sourceFont | IFontData | Исходный шрифт. |
 | destFont | IFontData | Целевой шрифт. |
-| fontSubstRule | FontSubstCondition | Подправило шрифта. |
+| fontSubstRule | FontSubstCondition | Правило замены шрифта. |
 
 ### Смотрите также
 

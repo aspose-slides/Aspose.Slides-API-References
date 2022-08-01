@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Справочник по API Aspose.Slides для .NET
-description: Получает свойства записи легенды соответствующей Chart.ChartData.Series0.DataPointsindex в случае типа диаграммы из этого list ChartType.BarOfPie ChartType.ExplodedPie ChartType.ExplodedPie3D ChartType.Pie ChartType.Pie3D ChartType.PieOfPie или соответствующий Chart.ChartData.Seriesindex для других типов диаграмм.
+description: Получает свойства записи легенды соответствующей Chart.ChartData.Series0.DataPointsindex в случае типа диаграммы из этого списка ChartType.BarOfPie ChartType.ExplodedPie ChartType.ExplodedPie3D ChartType. Pie ChartType.Pie3D ChartType.PieOfPie или соответствующий Chart.ChartData.Seriesindex для других типов диаграмм.
 type: docs
 weight: 20
 url: /ru/net/aspose.slides.charts/ilegendentrycollection/item/
 ---
 ## ILegendEntryCollection indexer
 
-Получает свойства записи легенды, соответствующей Chart.ChartData.Series[0].DataPoints[index] в случае типа диаграммы из этого list: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie; или соответствующий Chart.ChartData.Series[index] для других типов диаграмм.
+Получает свойства записи легенды, соответствующей Chart.ChartData.Series[0].DataPoints[index] в случае типа диаграммы из этого списка: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType. Pie, ChartType.Pie3D, ChartType.PieOfPie; или соответствующий Chart.ChartData.Series[index] для других типов диаграмм.
 
 ```csharp
 public ILegendEntryProperties this[int index] { get; }

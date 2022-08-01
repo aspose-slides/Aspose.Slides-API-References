@@ -16,7 +16,7 @@ public static void LoadExternalFonts(string[] directories)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| directories | String[] | 读取其他字体的目录。 |
+| directories | String[] | 用于读取其他字体的目录。 |
 
 ### 也可以看看
 

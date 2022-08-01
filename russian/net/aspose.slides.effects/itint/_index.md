@@ -1,14 +1,14 @@
 ---
 title: ITint
 second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет эффект оттенка. Смещает значения цвета эффекта в сторону/от оттенка на указанную величину.
+description: Представляет эффект Tint. Смещает значения цвета эффекта в сторону/от оттенка на указанную величину.
 type: docs
 weight: 3340
 url: /ru/net/aspose.slides.effects/itint/
 ---
 ## ITint interface
 
-Представляет эффект оттенка. Смещает значения цвета эффекта в сторону/от оттенка на указанную величину.
+Представляет эффект Tint. Смещает значения цвета эффекта в сторону/от оттенка на указанную величину.
 
 ```csharp
 public interface ITint : IAccessiblePVIObject<ITintEffectiveData>, IImageTransformOperation
@@ -18,8 +18,8 @@ public interface ITint : IAccessiblePVIObject<ITintEffectiveData>, IImageTransfo
 
 | Имя | Описание |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/itint/asiaccessiblepviobject) { get; } | Позволяет получить базовый интерфейс IAccessiblePVIObject. Только чтение[`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/itint/asiimagetransformoperation) { get; } | Позволяет получить базовый интерфейс IImageTransformOperation. Только для чтения[`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/itint/asiaccessiblepviobject) { get; } | Позволяет получить базовый интерфейс IAccessiblePVIObject. Только для чтения[`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1) . |
+| [AsIImageTransformOperation](../../aspose.slides.effects/itint/asiimagetransformoperation) { get; } | Позволяет получить базовый интерфейс IImageTransformOperation. Только для чтения[`IImageTransformOperation`](../iimagetransformoperation) . |
 
 ### Смотрите также
 

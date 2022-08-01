@@ -1,14 +1,14 @@
 ---
 title: IsAutomaticMinValue
 second_title: Aspose.Slides for .NET API 参考
-description: 表示是否自动分配最小值 读/写Boolean
+description: 表示是否自动分配最小值 读/写Boolean.
 type: docs
 weight: 210
 url: /zh/net/aspose.slides.charts/iaxis/isautomaticminvalue/
 ---
 ## IAxis.IsAutomaticMinValue property
 
-表示是否自动分配最小值。 读/写Boolean。
+表示是否自动分配最小值。 读/写Boolean.
 
 ```csharp
 public bool IsAutomaticMinValue { get; set; }

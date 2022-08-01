@@ -1,14 +1,14 @@
 ---
 title: IGradientStopEffectiveData
 second_title: Справочник по API Aspose.Slides для .NET
-description: неизменяемый объект представляющий остановку градиента.
+description: неизменяемый объект представляющий точку остановки градиента.
 type: docs
 weight: 5520
 url: /ru/net/aspose.slides/igradientstopeffectivedata/
 ---
 ## IGradientStopEffectiveData interface
 
-неизменяемый объект, представляющий остановку градиента.
+неизменяемый объект, представляющий точку остановки градиента.
 
 ```csharp
 public interface IGradientStopEffectiveData
@@ -18,8 +18,8 @@ public interface IGradientStopEffectiveData
 
 | Имя | Описание |
 | --- | --- |
-| [Color](../../aspose.slides/igradientstopeffectivedata/color) { get; } | Возвращает цвет точки градиента. Только для чтенияColor. |
-| [Position](../../aspose.slides/igradientstopeffectivedata/position) { get; } | Возвращает положение (0..1) точки градиента. Только для чтенияSingle. |
+| [Color](../../aspose.slides/igradientstopeffectivedata/color) { get; } | Возвращает цвет точки градиента. Только для чтенияColor . |
+| [Position](../../aspose.slides/igradientstopeffectivedata/position) { get; } | Возвращает положение (0..1) точки градиента. Только для чтенияSingle . |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: Image
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает встроенное изображение. Только для чтенияIPPImageaspose.slides/ippimage.
+description: Возвращает встроенное изображение. Только для чтенияIPPImageaspose.slides/ippimage .
 type: docs
 weight: 10
 url: /ru/net/aspose.slides/ipictureeffectivedata/image/
 ---
 ## IPictureEffectiveData.Image property
 
-Возвращает встроенное изображение. Только для чтения[`IPPImage`](../../ippimage).
+Возвращает встроенное изображение. Только для чтения[`IPPImage`](../../ippimage) .
 
 ```csharp
 public IPPImage Image { get; }

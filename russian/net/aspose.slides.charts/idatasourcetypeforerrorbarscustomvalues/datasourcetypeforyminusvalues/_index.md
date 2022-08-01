@@ -1,14 +1,14 @@
 ---
 title: DataSourceTypeForYMinusValues
 second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет является ли свойство AsCell или AsLiteralString или AsLiteralDouble действительным в объекте свойств точек данных YMinus для пользовательских значений баров погрешностей. Другими словами он указывает тип значения свойства ChartDataPointEx.ErrorBarsCustomValues.YMinus.Data. Чтение/записьDataSourceTypeaspose.slides.charts/datasourcetype.
+description: Указывает является ли свойство AsCell AsLiteralString или AsLiteralDouble действительным в объекте свойств точек данных YMinus для настраиваемых значений планок погрешностей. Другими словами он указывает тип значения свойства ChartDataPointEx.ErrorBarsCustomValues.YMinus.Data. Чтение/записьDataSourceTypeaspose.slides.charts/datasourcetype .
 type: docs
 weight: 30
 url: /ru/net/aspose.slides.charts/idatasourcetypeforerrorbarscustomvalues/datasourcetypeforyminusvalues/
 ---
 ## IDataSourceTypeForErrorBarsCustomValues.DataSourceTypeForYMinusValues property
 
-Определяет, является ли свойство AsCell или AsLiteralString или AsLiteralDouble действительным в объекте свойств точек данных YMinus для пользовательских значений баров погрешностей. Другими словами, он указывает тип значения свойства ChartDataPointEx.ErrorBarsCustomValues.YMinus.Data. Чтение/запись[`DataSourceType`](../../datasourcetype).
+Указывает, является ли свойство AsCell, AsLiteralString или AsLiteralDouble действительным в объекте свойств точек данных YMinus для настраиваемых значений планок погрешностей. Другими словами, он указывает тип значения свойства ChartDataPointEx.ErrorBarsCustomValues.YMinus.Data. Чтение/запись[`DataSourceType`](../../datasourcetype) .
 
 ```csharp
 public DataSourceType DataSourceTypeForYMinusValues { get; set; }

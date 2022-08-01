@@ -1,14 +1,14 @@
 ---
 title: GetEffective
 second_title: Справочник по API Aspose.Slides для .NET
-description: Получает эффективную альфа-версию Заменить данные эффекта с применением наследования.
+description: Получает эффективную альфа-замену данных эффекта с применением наследования.
 type: docs
 weight: 20
 url: /ru/net/aspose.slides.effects/alphareplace/geteffective/
 ---
 ## AlphaReplace.GetEffective method
 
-Получает эффективную альфа-версию Заменить данные эффекта с применением наследования.
+Получает эффективную альфа-замену данных эффекта с применением наследования.
 
 ```csharp
 public IAlphaReplaceEffectiveData GetEffective()
@@ -16,7 +16,7 @@ public IAlphaReplaceEffectiveData GetEffective()
 
 ### Возвращаемое значение
 
-A[`IAlphaReplaceEffectiveData`](../../ialphareplaceeffectivedata).
+А[`IAlphaReplaceEffectiveData`](../../ialphareplaceeffectivedata).
 
 ### Смотрите также
 

@@ -19,7 +19,7 @@ public interface ILinkEmbedController
 | Имя | Описание |
 | --- | --- |
 | [GetObjectStoringLocation](../../aspose.slides.export/ilinkembedcontroller/getobjectstoringlocation)(int, byte[], string, string, string) | Определяет, где должен храниться объект. Этот метод вызывается один раз для каждого идентификатора объекта. Не гарантируется, что не будет двух объектов с одинаковыми данными, semanticName и contentType, но с разными идентификаторами. |
-| [GetUrl](../../aspose.slides.export/ilinkembedcontroller/geturl)(int, int) | Возвращает URL внешнего объекта. Этот метод всегда вызывается, еслиStringвозвращаетсяLinkи может вызываться, если[`GetObjectStoringLocation`](./getobjectstoringlocation)возвращеноEmbedно встраивание невозможно. Может вызываться несколько раз для одного и того же идентификатора объекта. |
+| [GetUrl](../../aspose.slides.export/ilinkembedcontroller/geturl)(int, int) | Возвращает URL-адрес внешнего объекта. Этот метод всегда вызывается, если[`GetObjectStoringLocation`](./getobjectstoringlocation) вернулсяLink и может быть вызван, если[`GetObjectStoringLocation`](./getobjectstoringlocation) вернулсяEmbedно встраивание невозможно. Может вызываться несколько раз для одного и того же идентификатора объекта. |
 | [SaveExternal](../../aspose.slides.export/ilinkembedcontroller/saveexternal)(int, byte[]) | Сохраняет внешний объект. |
 
 ### Смотрите также

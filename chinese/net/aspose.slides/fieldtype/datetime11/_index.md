@@ -1,14 +1,14 @@
 ---
 title: DateTime11
 second_title: Aspose.Slides for .NET API 参考
-description: 第十一种预定义格式的当前日期和时间英语为 hhmmss 只读FieldTypeaspose.slides/fieldtype
+description: 当前日期和时间第 11 种预定义格式英语为 hhmmss 只读FieldTypeaspose.slides/fieldtype.
 type: docs
 weight: 50
 url: /zh/net/aspose.slides/fieldtype/datetime11/
 ---
 ## FieldType.DateTime11 property
 
-第十一种预定义格式的当前日期和时间（英语为 hh:mm:ss）。 只读[`FieldType`](../../fieldtype)。
+当前日期和时间，第 11 种预定义格式（英语为 hh:mm:ss）。 只读[`FieldType`](../../fieldtype).
 
 ```csharp
 public static FieldType DateTime11 { get; }

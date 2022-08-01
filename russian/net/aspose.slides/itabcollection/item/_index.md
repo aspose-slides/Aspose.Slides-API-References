@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Справочник по API Aspose.Slides для .NET
-description: Получает элемент по указанному индексу. Только для чтенияITabaspose.slides/itab.
+description: Получает элемент по указанному индексу. Только для чтенияITabaspose.slides/itab .
 type: docs
 weight: 10
 url: /ru/net/aspose.slides/itabcollection/item/
 ---
 ## ITabCollection indexer
 
-Получает элемент по указанному индексу. Только для чтения[`ITab`](../../itab).
+Получает элемент по указанному индексу. Только для чтения[`ITab`](../../itab) .
 
 ```csharp
 public ITab this[int index] { get; }

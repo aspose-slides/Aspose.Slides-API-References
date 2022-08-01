@@ -18,7 +18,7 @@ public void Remove()
 
 | исключение | условие |
 | --- | --- |
-| [PptxEditException](../../pptxeditexception) | Выдается, если комментарий уже удален |
+| [PptxEditException](../../pptxeditexception) | Выбрасывается, если комментарий уже удален |
 
 ### Смотрите также
 

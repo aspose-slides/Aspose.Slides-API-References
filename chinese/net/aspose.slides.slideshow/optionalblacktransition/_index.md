@@ -18,13 +18,13 @@ public class OptionalBlackTransition : TransitionValueBase, IOptionalBlackTransi
 
 | 姓名 | 描述 |
 | --- | --- |
-| [FromBlack](../../aspose.slides.slideshow/optionalblacktransition/fromblack) { get; set; } | 此属性指定转换是否从黑屏 开始（然后将新幻灯片转换为黑色）。 读/写Boolean。 |
+| [FromBlack](../../aspose.slides.slideshow/optionalblacktransition/fromblack) { get; set; } | 此属性指定转换是否从黑屏开始 （然后将新幻灯片转换为黑色）。 读/写Boolean. |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | 判断两个 TransitionValueBase 实例是否相等。 |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | 判断两个TransitionValueBase实例是否相等。 |
 | override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | 用作特定类型的哈希函数，适合在哈希算法和哈希表等数据结构中使用 。 |
 
 ### 也可以看看

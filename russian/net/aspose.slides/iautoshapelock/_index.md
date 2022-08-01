@@ -18,18 +18,18 @@ public interface IAutoShapeLock : IBaseShapeLock
 
 | Имя | Описание |
 | --- | --- |
-| [AdjustHandlesLocked](../../aspose.slides/iautoshapelock/adjusthandleslocked) { get; set; } | Определяет, запрещено ли изменение значений настройки. Чтение-записьBoolean. |
-| [ArrowheadsLocked](../../aspose.slides/iautoshapelock/arrowheadslocked) { get; set; } | Определяет, запрещена ли смена наконечников стрелок. Чтение-записьBoolean. |
-| [AsIBaseShapeLock](../../aspose.slides/iautoshapelock/asibaseshapelock) { get; } | Позволяет получить базовый интерфейс IBaseShapeLock. Только для чтения[`IBaseShapeLock`](../ibaseshapelock). |
-| [AspectRatioLocked](../../aspose.slides/iautoshapelock/aspectratiolocked) { get; set; } | Определяет, должна ли фигура сохранять соотношение сторон при изменении размера. Чтение-записьBoolean. |
-| [EditPointsLocked](../../aspose.slides/iautoshapelock/editpointslocked) { get; set; } | Определяет, запрещено ли прямое изменение контура этой формы. Чтение-записьBoolean. |
-| [GroupingLocked](../../aspose.slides/iautoshapelock/groupinglocked) { get; set; } | Определяет, запрещено ли добавление этой формы в группу. Чтение-записьBoolean. |
-| [PositionLocked](../../aspose.slides/iautoshapelock/positionlocked) { get; set; } | Определяет, запрещено ли перемещение этой фигуры. Чтение-записьBoolean. |
-| [RotateLocked](../../aspose.slides/iautoshapelock/rotatelocked) { get; set; } | Определяет, запрещено ли изменение угла поворота этой фигуры. Чтение-записьBoolean. |
-| [SelectLocked](../../aspose.slides/iautoshapelock/selectlocked) { get; set; } | Определяет, запрещен ли выбор этой формы. Чтение-записьBoolean. |
-| [ShapeTypeLocked](../../aspose.slides/iautoshapelock/shapetypelocked) { get; set; } | Определяет, запрещено ли изменение типа формы. Чтение-записьBoolean. |
-| [SizeLocked](../../aspose.slides/iautoshapelock/sizelocked) { get; set; } | Определяет, запрещено ли изменение размера этой формы. Чтение-записьBoolean. |
-| [TextLocked](../../aspose.slides/iautoshapelock/textlocked) { get; set; } | Определяет, запрещено ли редактирование текста. Чтение-записьBoolean. |
+| [AdjustHandlesLocked](../../aspose.slides/iautoshapelock/adjusthandleslocked) { get; set; } | Определяет, запрещено ли изменение значений настройки. Чтение-записьBoolean . |
+| [ArrowheadsLocked](../../aspose.slides/iautoshapelock/arrowheadslocked) { get; set; } | Определяет, запрещено ли изменение стрелок. Чтение-записьBoolean . |
+| [AsIBaseShapeLock](../../aspose.slides/iautoshapelock/asibaseshapelock) { get; } | Позволяет получить базовый интерфейс IBaseShapeLock. Только для чтения[`IBaseShapeLock`](../ibaseshapelock) . |
+| [AspectRatioLocked](../../aspose.slides/iautoshapelock/aspectratiolocked) { get; set; } | Определяет, должна ли фигура сохранять соотношение сторон при изменении размера. Чтение-записьBoolean . |
+| [EditPointsLocked](../../aspose.slides/iautoshapelock/editpointslocked) { get; set; } | Определяет, запрещено ли прямое изменение контура этой формы. Чтение-записьBoolean . |
+| [GroupingLocked](../../aspose.slides/iautoshapelock/groupinglocked) { get; set; } | Определяет, запрещено ли добавление этой фигуры в группу. Чтение-записьBoolean . |
+| [PositionLocked](../../aspose.slides/iautoshapelock/positionlocked) { get; set; } | Определяет, запрещено ли перемещение этой фигуры. Чтение-записьBoolean . |
+| [RotateLocked](../../aspose.slides/iautoshapelock/rotatelocked) { get; set; } | Определяет, запрещено ли изменение угла поворота этой формы. Чтение-записьBoolean . |
+| [SelectLocked](../../aspose.slides/iautoshapelock/selectlocked) { get; set; } | Определяет, запрещен ли выбор этой фигуры. Чтение-записьBoolean . |
+| [ShapeTypeLocked](../../aspose.slides/iautoshapelock/shapetypelocked) { get; set; } | Определяет, запрещено ли изменение типа фигуры. Чтение-записьBoolean . |
+| [SizeLocked](../../aspose.slides/iautoshapelock/sizelocked) { get; set; } | Определяет, запрещено ли изменение размера этой фигуры. Чтение-записьBoolean . |
+| [TextLocked](../../aspose.slides/iautoshapelock/textlocked) { get; set; } | Определяет, запрещено ли редактирование текста. Чтение-записьBoolean . |
 
 ### Смотрите также
 

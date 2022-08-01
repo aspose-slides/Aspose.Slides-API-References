@@ -1,14 +1,14 @@
 ---
 title: StrokeDashStyle
 second_title: Aspose.Slides for .NET API 参考
-description: 表示 stroke.dashstyle 属性
+description: 代表 stroke.dashstyle 属性
 type: docs
 weight: 900
 url: /zh/net/aspose.slides.animation/behaviorproperty/strokedashstyle/
 ---
 ## BehaviorProperty.StrokeDashStyle property
 
-表示 'stroke.dashstyle' 属性
+代表 'stroke.dashstyle' 属性
 
 ```csharp
 public static BehaviorProperty StrokeDashStyle { get; }

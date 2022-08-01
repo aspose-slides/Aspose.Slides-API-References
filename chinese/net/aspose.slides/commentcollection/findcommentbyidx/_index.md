@@ -1,14 +1,14 @@
 ---
 title: FindCommentByIdx
 second_title: Aspose.Slides for .NET API 参考
-description: 按索引在集合中查找注释
+description: 按索引在集合中查找评论
 type: docs
 weight: 90
 url: /zh/net/aspose.slides/commentcollection/findcommentbyidx/
 ---
 ## CommentCollection.FindCommentByIdx method
 
-按索引在集合中查找注释。
+按索引在集合中查找评论。
 
 ```csharp
 public IComment FindCommentByIdx(int idx)
@@ -16,11 +16,11 @@ public IComment FindCommentByIdx(int idx)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| idx | Int32 | 用于查找Int32的评论的唯一索引。 |
+| idx | Int32 | 要查找的评论的唯一索引Int32. |
 
 ### 返回值
 
-找到评论或空[`IComment`](../../icomment)。
+找到评论或为空[`IComment`](../../icomment).
 
 ### 也可以看看
 

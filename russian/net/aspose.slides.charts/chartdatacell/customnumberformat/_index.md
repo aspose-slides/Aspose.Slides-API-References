@@ -1,14 +1,14 @@
 ---
 title: CustomNumberFormat
 second_title: Справочник по API Aspose.Slides для .NET
-description: Получает или задает настраиваемый формат отображения чисел и дат. Если значение пустое будет использоваться значение PresetNumberFormat. Чтение/записьString.
+description: Получает или задает пользовательский формат отображения чисел и дат. Если значение пустое будет использоваться значение PresetNumberFormat. Чтение/записьString .
 type: docs
 weight: 30
 url: /ru/net/aspose.slides.charts/chartdatacell/customnumberformat/
 ---
 ## ChartDataCell.CustomNumberFormat property
 
-Получает или задает настраиваемый формат отображения чисел и дат. Если значение пустое, будет использоваться значение PresetNumberFormat. Чтение/записьString.
+Получает или задает пользовательский формат отображения чисел и дат. Если значение пустое, будет использоваться значение PresetNumberFormat. Чтение/записьString .
 
 ```csharp
 public string CustomNumberFormat { get; set; }
@@ -18,7 +18,7 @@ public string CustomNumberFormat { get; set; }
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | Выбрасывается, если значение равно` null` . |
+| ArgumentNullException | Выбрасывается, если значение равно`нулевой`. |
 
 ### Смотрите также
 

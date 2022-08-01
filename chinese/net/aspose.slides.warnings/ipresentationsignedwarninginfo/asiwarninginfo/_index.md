@@ -1,14 +1,14 @@
 ---
 title: AsIWarningInfo
 second_title: Aspose.Slides for .NET API 参考
-description: 返回 IWarningInfo 接口 只读IWarningInfoaspose.slides.warnings/iwarninginfo
+description: 返回 IWarningInfo 接口 只读IWarningInfoaspose.slides.warnings/iwarninginfo.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides.warnings/ipresentationsignedwarninginfo/asiwarninginfo/
 ---
 ## IPresentationSignedWarningInfo.AsIWarningInfo property
 
-返回 IWarningInfo 接口。 只读[`IWarningInfo`](../../iwarninginfo)。
+返回 IWarningInfo 接口。 只读[`IWarningInfo`](../../iwarninginfo).
 
 ```csharp
 public IWarningInfo AsIWarningInfo { get; }

@@ -18,10 +18,10 @@ public interface IFormat
 
 | Имя | Описание |
 | --- | --- |
-| [Effect](../../aspose.slides.charts/iformat/effect) { get; } | Возвращает эффекты, используемые для диаграммы. Только для чтения[`IEffectFormat`](../../aspose.slides/ieffectformat). |
-| [Effect3D](../../aspose.slides.charts/iformat/effect3d) { get; } | Возвращает трехмерный формат диаграммы. Только для чтения[`IThreeDFormat`](../../aspose.slides/ithreedformat). |
-| [Fill](../../aspose.slides.charts/iformat/fill) { get; } | Возвращает свойства стиля заливки диаграммы. Только для чтения[`IFillFormat`](../../aspose.slides/ifillformat). |
-| [Line](../../aspose.slides.charts/iformat/line) { get; } | Возвращает свойства стиля линии диаграммы. Только для чтения[`ILineFormat`](../../aspose.slides/ilineformat). |
+| [Effect](../../aspose.slides.charts/iformat/effect) { get; } | Возвращает эффекты, используемые для диаграммы. Только для чтения[`IEffectFormat`](../../aspose.slides/ieffectformat) . |
+| [Effect3D](../../aspose.slides.charts/iformat/effect3d) { get; } | Возвращает трехмерный формат диаграммы. Только для чтения[`IThreeDFormat`](../../aspose.slides/ithreedformat) . |
+| [Fill](../../aspose.slides.charts/iformat/fill) { get; } | Возвращает свойства стиля заливки диаграммы. Только для чтения[`IFillFormat`](../../aspose.slides/ifillformat) . |
+| [Line](../../aspose.slides.charts/iformat/line) { get; } | Возвращает свойства стиля линии диаграммы. Только для чтения[`ILineFormat`](../../aspose.slides/ilineformat) . |
 
 ### Смотрите также
 

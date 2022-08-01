@@ -1,14 +1,14 @@
 ---
 title: OperationType
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置操作的类型 只读ColorTransformOperationaspose.slides/colortransformoperation
+description: 返回或设置操作的类型 只读ColorTransformOperationaspose.slides/colortransformoperation.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides/icoloroperation/operationtype/
 ---
 ## IColorOperation.OperationType property
 
-返回或设置操作的类型。 只读[`ColorTransformOperation`](../../colortransformoperation)。
+返回或设置操作的类型。 只读[`ColorTransformOperation`](../../colortransformoperation).
 
 ```csharp
 public ColorTransformOperation OperationType { get; }

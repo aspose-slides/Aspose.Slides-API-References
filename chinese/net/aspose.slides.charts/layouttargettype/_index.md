@@ -1,14 +1,14 @@
 ---
 title: LayoutTargetType
 second_title: Aspose.Slides for .NET API 参考
-description: 如果手动定义绘图区域的布局此属性指定 是否按内部布局绘图区域不包括轴和轴标签或在 之外包括轴和轴标签
+description: 如果手动定义绘图区域的布局此属性指定 是按其内部不包括轴和轴标签还是外部 包括轴和轴标签来布局绘图区域
 type: docs
 weight: 2130
 url: /zh/net/aspose.slides.charts/layouttargettype/
 ---
 ## LayoutTargetType enumeration
 
-如果手动定义绘图区域的布局，此属性指定 是否按内部布局绘图区域（不包括轴和轴标签）或在 之外（包括轴和轴标签）。
+如果手动定义绘图区域的布局，此属性指定 是按其内部（不包括轴和轴标签）还是外部 （包括轴和轴标签）来布局绘图区域。
 
 ```csharp
 public enum LayoutTargetType

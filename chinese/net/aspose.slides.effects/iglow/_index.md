@@ -18,10 +18,10 @@ public interface IGlow : IAccessiblePVIObject<IGlowEffectiveData>, IImageTransfo
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/iglow/asiaccessiblepviobject) { get; } | 允许获取基本 IAccessiblePVIObject 接口。 只读[`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1)。 |
-| [AsIImageTransformOperation](../../aspose.slides.effects/iglow/asiimagetransformoperation) { get; } | 允许获取基础 IImageTransformOperation 接口。 只读[`IImageTransformOperation`](../iimagetransformoperation)。 |
-| [Color](../../aspose.slides.effects/iglow/color) { get; } | 颜色格式。 只读[`IColorFormat`](../../aspose.slides/icolorformat)。 |
-| [Radius](../../aspose.slides.effects/iglow/radius) { get; set; } | 半径。 读/写Double。 |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/iglow/asiaccessiblepviobject) { get; } | 允许获取基本 IAccessiblePVIObject 接口。 只读[`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/iglow/asiimagetransformoperation) { get; } | 允许获取基本 IImageTransformOperation 接口。 只读[`IImageTransformOperation`](../iimagetransformoperation). |
+| [Color](../../aspose.slides.effects/iglow/color) { get; } | 颜色格式。 只读[`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Radius](../../aspose.slides.effects/iglow/radius) { get; set; } | 半径. 读/写Double. |
 
 ### 也可以看看
 

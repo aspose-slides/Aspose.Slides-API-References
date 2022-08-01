@@ -1,14 +1,14 @@
 ---
 title: IPresentationFactory
 second_title: Справочник по API Aspose.Slides для .NET
-description: Позволяет создать презентацию через COM-интерфейс
+description: Позволяет создавать презентацию через COM-интерфейс
 type: docs
 weight: 6210
 url: /ru/net/aspose.slides/ipresentationfactory/
 ---
 ## IPresentationFactory interface
 
-Позволяет создать презентацию через COM-интерфейс
+Позволяет создавать презентацию через COM-интерфейс
 
 ```csharp
 public interface IPresentationFactory
@@ -19,14 +19,14 @@ public interface IPresentationFactory
 | Имя | Описание |
 | --- | --- |
 | [CreatePresentation](../../aspose.slides/ipresentationfactory/createpresentation#createpresentation)() | Создает новую презентацию. |
-| [CreatePresentation](../../aspose.slides/ipresentationfactory/createpresentation#createpresentation_1)(ILoadOptions) | Создает новую презентацию с дополнительными опциями загрузки |
+| [CreatePresentation](../../aspose.slides/ipresentationfactory/createpresentation#createpresentation_1)(ILoadOptions) | Создает новую презентацию с дополнительными параметрами загрузки |
 | [GetPresentationInfo](../../aspose.slides/ipresentationfactory/getpresentationinfo#getpresentationinfo)(Stream) | Получает информацию о презентации в указанном потоке. |
 | [GetPresentationInfo](../../aspose.slides/ipresentationfactory/getpresentationinfo#getpresentationinfo_1)(string) | Получает информацию о презентации в указанном файле. |
-| [GetPresentationText](../../aspose.slides/ipresentationfactory/getpresentationtext#getpresentationtext)(Stream, TextExtractionArrangingMode) | Получает необработанный текст со слайдов |
+| [GetPresentationText](../../aspose.slides/ipresentationfactory/getpresentationtext#getpresentationtext)(Stream, TextExtractionArrangingMode) | Извлекает необработанный текст со слайдов |
 | [GetPresentationText](../../aspose.slides/ipresentationfactory/getpresentationtext#getpresentationtext_2)(string, TextExtractionArrangingMode) | Извлекает необработанный текст со слайдов |
-| [GetPresentationText](../../aspose.slides/ipresentationfactory/getpresentationtext#getpresentationtext_1)(Stream, TextExtractionArrangingMode, ILoadOptions) | Получает необработанный текст со слайдов |
-| [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation)(byte[]) | Читает существующую презентацию из массива |
-| [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation_2)(Stream) | Читает существующую презентацию из потока |
+| [GetPresentationText](../../aspose.slides/ipresentationfactory/getpresentationtext#getpresentationtext_1)(Stream, TextExtractionArrangingMode, ILoadOptions) | Извлекает необработанный текст со слайдов |
+| [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation)(byte[]) | Читает существующую презентацию из array |
+| [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation_2)(Stream) | Читает существующую презентацию из stream |
 | [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation_4)(string) | Читает существующую презентацию из файла |
 | [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation_1)(byte[], ILoadOptions) | Читает существующую презентацию из массива с дополнительными параметрами загрузки |
 | [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation_3)(Stream, ILoadOptions) | Читает существующую презентацию из потока с дополнительными параметрами загрузки |

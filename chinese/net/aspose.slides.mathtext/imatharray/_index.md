@@ -1,14 +1,14 @@
 ---
 title: IMathArray
 second_title: Aspose.Slides for .NET API 参考
-description: 指定方程或任何数学对象的垂直数组
+description: 指定方程的垂直数组或任何数学对象
 type: docs
 weight: 7390
 url: /zh/net/aspose.slides.mathtext/imatharray/
 ---
 ## IMathArray interface
 
-指定方程或任何数学对象的垂直数组
+指定方程的垂直数组或任何数学对象
 
 ```csharp
 public interface IMathArray : IMathElement
@@ -18,17 +18,17 @@ public interface IMathArray : IMathElement
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Arguments](../../aspose.slides.mathtext/imatharray/arguments) { get; } | 数组项的集合 |
+| [Arguments](../../aspose.slides.mathtext/imatharray/arguments) { get; } | 数组的项目集 |
 | [AsIMathElement](../../aspose.slides.mathtext/imatharray/asimathelement) { get; } | 允许获取基础 IMathElement 接口 [`IMathElement`](../imathelement) |
-| [BaseJustification](../../aspose.slides.mathtext/imatharray/basejustification) { get; set; } | 指定数组相对于周围文本的对齐方式 数组外的文本可以与数组的底部、顶部或中心对齐目的。 默认值:中心 |
-| [MaximumDistribution](../../aspose.slides.mathtext/imatharray/maximumdistribution) { get; set; } | 最大分布 当为真时，数组的间距为包含元素（页面、列、单元格等）的最大宽度。 |
-| [ObjectDistribution](../../aspose.slides.mathtext/imatharray/objectdistribution) { get; set; } | 对象分布 当为真时，数组内容的间距为数组对象的最大宽度。 |
-| [RowSpacing](../../aspose.slides.mathtext/imatharray/rowspacing) { get; set; } | 数组行之间的间距 仅当 RowSpacingRule 设置为 3 时才使用，在这种情况下，度量单位是点 或倍数，在这种情况下，度量单位是半线。 默认值:0 |
+| [BaseJustification](../../aspose.slides.mathtext/imatharray/basejustification) { get; set; } | 指定数组相对于周围文本的对齐方式 数组外的文本可以与数组对象的底部、顶部或中心对齐。 默认值：Center |
+| [MaximumDistribution](../../aspose.slides.mathtext/imatharray/maximumdistribution) { get; set; } | 最大分布 当为真时，数组的间距为包含元素（页、列、单元格等）的最大宽度。 |
+| [ObjectDistribution](../../aspose.slides.mathtext/imatharray/objectdistribution) { get; set; } | 对象分布 当为真时，数组的内容被间隔到数组对象的最大宽度。 |
+| [RowSpacing](../../aspose.slides.mathtext/imatharray/rowspacing) { get; set; } | 数组行之间的间距 仅在 RowSpacingRule 设置为 3 时使用。在这种情况下，测量单位是点 或在这种情况下，测量单位是半线。 |
 | [RowSpacingRule](../../aspose.slides.mathtext/imatharray/rowspacingrule) { get; set; } | 数组元素之间的垂直间距类型 |
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]

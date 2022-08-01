@@ -18,7 +18,7 @@ public interface ISmartArtShapeCollection : IGenericCollection<ISmartArtShape>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Item](../../aspose.slides.smartart/ismartartshapecollection/item) { get; } | 获取指定索引处的元素。 只读[`ISmartArtShape`](../ismartartshape)。  元素的从零开始的索引 |
+| [Item](../../aspose.slides.smartart/ismartartshapecollection/item) { get; } | 获取指定索引处的元素。 只读[`ISmartArtShape`](../ismartartshape). 元素的从零开始的索引 |
 
 ### 也可以看看
 

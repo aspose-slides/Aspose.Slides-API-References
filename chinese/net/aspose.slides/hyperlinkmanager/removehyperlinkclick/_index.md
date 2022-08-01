@@ -1,14 +1,14 @@
 ---
 title: RemoveHyperlinkClick
 second_title: Aspose.Slides for .NET API 参考
-description: 点击时删除超链接
+description: 删除点击时的超链接
 type: docs
 weight: 10
 url: /zh/net/aspose.slides/hyperlinkmanager/removehyperlinkclick/
 ---
 ## HyperlinkManager.RemoveHyperlinkClick method
 
-点击时删除超链接。
+删除点击时的超链接。
 
 ```csharp
 public void RemoveHyperlinkClick()

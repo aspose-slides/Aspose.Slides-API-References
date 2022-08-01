@@ -1,14 +1,14 @@
 ---
 title: Label
 second_title: Aspose.Slides for .NET API 参考
-description: 表示图表数据点的标签 只读IDataLabelaspose.slides.charts/idatalabel
+description: 表示图表数据点的标签 只读IDataLabelaspose.slides.charts/idatalabel.
 type: docs
 weight: 100
 url: /zh/net/aspose.slides.charts/ichartdatapoint/label/
 ---
 ## IChartDataPoint.Label property
 
-表示图表数据点的标签。 只读[`IDataLabel`](../../idatalabel)。
+表示图表数据点的标签。 只读[`IDataLabel`](../../idatalabel).
 
 ```csharp
 public IDataLabel Label { get; }

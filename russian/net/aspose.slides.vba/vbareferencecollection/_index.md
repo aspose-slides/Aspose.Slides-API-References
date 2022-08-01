@@ -18,18 +18,18 @@ public class VbaReferenceCollection : IVbaReferenceCollection
 
 | Имя | Описание |
 | --- | --- |
-| [Count](../../aspose.slides.vba/vbareferencecollection/count) { get; } | Получает количество элементов, фактически содержащихся в коллекции. Только для чтенияInt32. |
-| [IsSynchronized](../../aspose.slides.vba/vbareferencecollection/issynchronized) { get; } | Возвращает значение, указывающее, является ли доступ к коллекции синхронизированным (потокобезопасным). Только чтениеBoolean. |
+| [Count](../../aspose.slides.vba/vbareferencecollection/count) { get; } | Получает количество элементов, фактически содержащихся в коллекции. Только для чтенияInt32 . |
+| [IsSynchronized](../../aspose.slides.vba/vbareferencecollection/issynchronized) { get; } | Возвращает значение, указывающее, является ли доступ к коллекции синхронизированным (потокобезопасным). Только для чтенияBoolean . |
 | [Item](../../aspose.slides.vba/vbareferencecollection/item) { get; } | Получает элемент по указанному индексу. |
-| [SyncRoot](../../aspose.slides.vba/vbareferencecollection/syncroot) { get; } | Возвращает корень синхронизации. Только для чтенияObject. |
+| [SyncRoot](../../aspose.slides.vba/vbareferencecollection/syncroot) { get; } | Возвращает корень синхронизации. Только для чтенияObject . |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
 | [Add](../../aspose.slides.vba/vbareferencecollection/add)(IVbaReference) | Добавляет новую ссылку в коллекцию ссылок |
-| [CopyTo](../../aspose.slides.vba/vbareferencecollection/copyto)(Array, int) | Копирует все элементы из коллекции в указанный массив. |
-| [GetEnumerator](../../aspose.slides.vba/vbareferencecollection/getenumerator)() | Возвращает перечислитель, который перебирает коллекцию. |
+| [CopyTo](../../aspose.slides.vba/vbareferencecollection/copyto)(Array, int) | Копирует все элементы коллекции в указанный массив. |
+| [GetEnumerator](../../aspose.slides.vba/vbareferencecollection/getenumerator)() | Возвращает перечислитель, который выполняет итерацию по коллекции. |
 
 ### Смотрите также
 

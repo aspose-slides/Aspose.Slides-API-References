@@ -1,14 +1,14 @@
 ---
 title: RecoverWorkbookFromChartCache
 second_title: Aspose.Slides for .NET API 参考
-description: 如果图表的数据源是外部工作簿且不可用则会从图表缓存中恢复
+description: 如果图表的数据源是外部工作簿且不可用将从图表缓存中恢复
 type: docs
 weight: 20
 url: /zh/net/aspose.slides/ispreadsheetoptions/recoverworkbookfromchartcache/
 ---
 ## ISpreadsheetOptions.RecoverWorkbookFromChartCache property
 
-如果图表的数据源是外部工作簿且不可用，则会从图表缓存中恢复。
+如果图表的数据源是外部工作簿且不可用，将从图表缓存中恢复。
 
 ```csharp
 public bool RecoverWorkbookFromChartCache { get; set; }
@@ -18,11 +18,11 @@ public bool RecoverWorkbookFromChartCache { get; set; }
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| InvalidOperationException | 当外部工作簿不可用且 RecoverWorkbookFromChartCache 属性值为 false 时抛出。 |
+| InvalidOperationException | 当外部工作簿不可用且 RecoverWorkbookFromChartCache 属性值为 false 时引发。 |
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]

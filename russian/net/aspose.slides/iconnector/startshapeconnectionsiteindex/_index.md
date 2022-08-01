@@ -1,14 +1,14 @@
 ---
 title: StartShapeConnectionSiteIndex
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или задает индекс места соединения для начальной формы. Чтение/записьUInt32.
+description: Возвращает или задает индекс сайта соединения для начальной формы. Чтение/записьUInt32 .
 type: docs
 weight: 70
 url: /ru/net/aspose.slides/iconnector/startshapeconnectionsiteindex/
 ---
 ## IConnector.StartShapeConnectionSiteIndex property
 
-Возвращает или задает индекс места соединения для начальной формы. Чтение/записьUInt32.
+Возвращает или задает индекс сайта соединения для начальной формы. Чтение/записьUInt32 .
 
 ```csharp
 public uint StartShapeConnectionSiteIndex { get; set; }

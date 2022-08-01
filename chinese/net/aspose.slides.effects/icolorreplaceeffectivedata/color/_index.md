@@ -1,14 +1,14 @@
 ---
 title: Color
 second_title: Aspose.Slides for .NET API 参考
-description: 返回颜色格式它将替换每个像素的颜色 只读Color
+description: 返回颜色格式它将替换每个像素的颜色 只读Color.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides.effects/icolorreplaceeffectivedata/color/
 ---
 ## IColorReplaceEffectiveData.Color property
 
-返回颜色格式，它将替换每个像素的颜色。 只读Color。
+返回颜色格式，它将替换每个像素的颜色。 只读Color.
 
 ```csharp
 public Color Color { get; }

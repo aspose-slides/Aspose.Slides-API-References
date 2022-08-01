@@ -18,7 +18,7 @@ public class RowFormat : DomObject<Row>, IRowFormat
 
 | 姓名 | 描述 |
 | --- | --- |
-| [GetEffective](../../aspose.slides/rowformat/geteffective)() | 获取有效的表格行格式化属性，并应用了继承和表格样式。 |
+| [GetEffective](../../aspose.slides/rowformat/geteffective)() | 获取有效的表格行格式化属性，并应用继承和表格样式。 |
 
 ### 也可以看看
 

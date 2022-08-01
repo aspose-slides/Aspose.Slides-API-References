@@ -16,7 +16,7 @@ public string this[string name] { get; set; }
 
 | 范围 | 描述 |
 | --- | --- |
-| name | 属性名称。 |
+| name | 财产名称。 |
 
 ### 也可以看看
 

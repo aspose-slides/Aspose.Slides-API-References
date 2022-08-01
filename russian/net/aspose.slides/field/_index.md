@@ -18,7 +18,7 @@ public sealed class Field : DomObject<Portion>, IField
 
 | Имя | Описание |
 | --- | --- |
-| [Type](../../aspose.slides/field/type) { get; set; } | Возвращает или устанавливает тип поля. Чтение/запись[`IFieldType`](../ifieldtype). |
+| [Type](../../aspose.slides/field/type) { get; set; } | Возвращает или устанавливает тип поля. Чтение/запись[`IFieldType`](../ifieldtype) . |
 
 ### Смотрите также
 

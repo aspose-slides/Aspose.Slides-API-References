@@ -24,7 +24,7 @@ public class NotesSize : INotesSize
 
 | Имя | Описание |
 | --- | --- |
-| [Size](../../aspose.slides/notessize/size) { get; set; } | Возвращает или задает размер в пунктах. Чтение/записьSizeF. |
+| [Size](../../aspose.slides/notessize/size) { get; set; } | Возвращает или задает размер в пунктах. Чтение/записьSizeF . |
 
 ### Смотрите также
 

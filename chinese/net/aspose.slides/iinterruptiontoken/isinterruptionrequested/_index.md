@@ -1,14 +1,14 @@
 ---
 title: IsInterruptionRequested
 second_title: Aspose.Slides for .NET API 参考
-description: 如果请求中断则返回Boolean.true
+description: 返回Boolean.true 如果请求中断
 type: docs
 weight: 10
 url: /zh/net/aspose.slides/iinterruptiontoken/isinterruptionrequested/
 ---
 ## IInterruptionToken.IsInterruptionRequested property
 
-如果请求中断，则返回Boolean.true。
+返回Boolean.true 如果请求中断。
 
 ```csharp
 public bool IsInterruptionRequested { get; }

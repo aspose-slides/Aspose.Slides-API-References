@@ -1,14 +1,14 @@
 ---
 title: Dark1
 second_title: Aspose.Slides for .NET API 参考
-description: 方案中的第一个深色 只读IColorFormataspose.slides/icolorformat
+description: 方案中的第一个深色 只读IColorFormataspose.slides/icolorformat.
 type: docs
 weight: 70
 url: /zh/net/aspose.slides.theme/colorscheme/dark1/
 ---
 ## ColorScheme.Dark1 property
 
-方案中的第一个深色。 只读[`IColorFormat`](../../../aspose.slides/icolorformat)。
+方案中的第一个深色。 只读[`IColorFormat`](../../../aspose.slides/icolorformat).
 
 ```csharp
 public IColorFormat Dark1 { get; }

@@ -1,14 +1,14 @@
 ---
 title: InsertPictureFrame
 second_title: Aspose.Slides for .NET API 参考
-description: 创建一个新的 PictureFrame 并将其插入到指定索引处的集合中
+description: 创建一个新的 PictureFrame 并将其插入到集合中指定索引处
 type: docs
 weight: 360
 url: /zh/net/aspose.slides/shapecollection/insertpictureframe/
 ---
 ## ShapeCollection.InsertPictureFrame method
 
-创建一个新的 PictureFrame 并将其插入到指定索引处的集合中。
+创建一个新的 PictureFrame 并将其插入到集合中指定索引处。
 
 ```csharp
 public IPictureFrame InsertPictureFrame(int index, ShapeType shapeType, float x, float y, 
@@ -17,8 +17,8 @@ public IPictureFrame InsertPictureFrame(int index, ShapeType shapeType, float x,
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| index | Int32 | 应该插入值的从零开始的索引。 |
-| shapeType | ShapeType | 集合中包含的形状[`ShapeType`](../../shapetype) 形状，除了各种线条: |
+| index | Int32 | 应插入值的从零开始的索引。 |
+| shapeType | ShapeType | 集合中包含的形状[`ShapeType`](../../shapetype) 的形状，除了各种线条： |
 | x | Single | 形状框架左侧的 X 坐标。 |
 | y | Single | 形状框架顶部的 Y 坐标。 |
 | width | Single | 形状框架的宽度。 |
@@ -27,7 +27,7 @@ public IPictureFrame InsertPictureFrame(int index, ShapeType shapeType, float x,
 
 ### 返回值
 
-创建的 PictureFrame 对象。
+创建了 PictureFrame 对象。
 
 ### 也可以看看
 

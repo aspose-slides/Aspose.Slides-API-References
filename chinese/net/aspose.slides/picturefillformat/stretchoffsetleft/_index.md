@@ -1,14 +1,14 @@
 ---
 title: StretchOffsetLeft
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置填充矩形的左边缘该矩形由距离形状边界框左边缘的百分比偏移量 定义 正百分比指定插入而负百分比指定开始 读/写Single
+description: 返回或设置填充矩形的左边缘该矩形由距离形状边界框左边缘的百分比偏移 定义 正百分比指定插入而负百分比指定开始 读/写Single.
 type: docs
 weight: 90
 url: /zh/net/aspose.slides/picturefillformat/stretchoffsetleft/
 ---
 ## PictureFillFormat.StretchOffsetLeft property
 
-返回或设置填充矩形的左边缘，该矩形由距离形状边界框左边缘的百分比偏移量 定义。 正百分比指定插入，而负百分比指定开始。 读/写Single。
+返回或设置填充矩形的左边缘，该矩形由距离形状边界框左边缘的百分比偏移 定义。 正百分比指定插入，而负百分比指定开始。 读/写Single.
 
 ```csharp
 public float StretchOffsetLeft { get; set; }

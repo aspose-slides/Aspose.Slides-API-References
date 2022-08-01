@@ -1,14 +1,14 @@
 ---
 title: Direction
 second_title: Справочник по API Aspose.Slides для .NET
-description: Направление перехода. Чтение/записьOrientationaspose.slides/orientation.
+description: Направление перехода. Чтение/записьOrientationaspose.slides/orientation .
 type: docs
 weight: 10
 url: /ru/net/aspose.slides.slideshow/orientationtransition/direction/
 ---
 ## OrientationTransition.Direction property
 
-Направление перехода. Чтение/запись[`Orientation`](../../../aspose.slides/orientation).
+Направление перехода. Чтение/запись[`Orientation`](../../../aspose.slides/orientation) .
 
 ```csharp
 public Orientation Direction { get; set; }

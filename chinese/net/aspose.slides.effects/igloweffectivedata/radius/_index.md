@@ -1,14 +1,14 @@
 ---
 title: Radius
 second_title: Aspose.Slides for .NET API 参考
-description: 半径 只读Double
+description: 半径. 只读Double.
 type: docs
 weight: 30
 url: /zh/net/aspose.slides.effects/igloweffectivedata/radius/
 ---
 ## IGlowEffectiveData.Radius property
 
-半径。 只读Double。
+半径. 只读Double.
 
 ```csharp
 public double Radius { get; }

@@ -18,7 +18,7 @@ public IMathRightSubSuperscriptElement CreateMathRightSubSuperscriptElement(IMat
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | baseArg | IMathElement | Базовый аргумент для применения индексов |
-| subScript | IMathElement | нижний правый индекс |
+| subScript | IMathElement | нижний правый указатель |
 | superScript | IMathElement | верхний правый индекс |
 
 ### Возвращаемое значение

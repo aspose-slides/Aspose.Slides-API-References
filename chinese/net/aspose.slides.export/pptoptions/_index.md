@@ -24,10 +24,10 @@ public class PptOptions : SaveOptions, IPptOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | 返回或设置在未找到源字体时使用的字体。 读写String。 |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | 表示用于保存进度更新百分比的回调对象。 见[`IProgressCallback`](../../aspose.slides/iprogresscallback)。 |
-| [RootDirectoryClsid](../../aspose.slides.export/pptoptions/rootdirectoryclsid) { get; set; } | 表示存储在根目录条目中的对象类 GUID (CLSID)。可用于 COM 激活文档的应用程序。 默认值为“64818D11-4F9B-11CF-86EA-00AA00B929E8”，对应于“Microsoft Powerpoint.Slide.8”。 |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | 返回一个对象，该对象接收警告并决定加载过程是继续还是中止。 读/写[`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback)。 |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | 返回或设置在未找到源字体时使用的字体。 读写String. |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | 表示以百分比保存进度更新的回调对象。 见[`IProgressCallback`](../../aspose.slides/iprogresscallback). |
+| [RootDirectoryClsid](../../aspose.slides.export/pptoptions/rootdirectoryclsid) { get; set; } | 表示存储在根目录条目中的对象类 GUID (CLSID)。可用于 COM 激活文档的应用程序。 默认值为 '64818D11-4F9B-11CF-86EA-00AA00B929E8'，对应于 'Microsoft Powerpoint.Slide.8'。 |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | 设置一个对象的返回，该对象接收警告并决定加载过程是继续还是中止。 读/写[`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
 ### 也可以看看
 

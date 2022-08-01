@@ -1,14 +1,14 @@
 ---
 title: LastView
 second_title: Aspose.Slides for .NET API 参考
-description: 指定上次保存演示文档时使用的查看模式 读/写ViewTypeaspose.slides/viewtype
+description: 指定上次保存演示文档时使用的查看模式 读/写ViewTypeaspose.slides/viewtype.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides/iviewproperties/lastview/
 ---
 ## IViewProperties.LastView property
 
-指定上次保存演示文档时使用的查看模式。 读/写[`ViewType`](../../viewtype)。
+指定上次保存演示文档时使用的查看模式。 读/写[`ViewType`](../../viewtype).
 
 ```csharp
 public ViewType LastView { get; set; }

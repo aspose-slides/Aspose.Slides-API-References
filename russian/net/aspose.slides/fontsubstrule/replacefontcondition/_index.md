@@ -1,14 +1,14 @@
 ---
 title: ReplaceFontCondition
 second_title: Справочник по API Aspose.Slides для .NET
-description: Правило применения замены. Только для чтенияFontSubstConditionaspose.slides/fontsubstcondition.
+description: Правило для замены. Только для чтенияFontSubstConditionaspose.slides/fontsubstcondition .
 type: docs
 weight: 30
 url: /ru/net/aspose.slides/fontsubstrule/replacefontcondition/
 ---
 ## FontSubstRule.ReplaceFontCondition property
 
-Правило применения замены. Только для чтения[`FontSubstCondition`](../../fontsubstcondition).
+Правило для замены. Только для чтения[`FontSubstCondition`](../../fontsubstcondition) .
 
 ```csharp
 public FontSubstCondition ReplaceFontCondition { get; }

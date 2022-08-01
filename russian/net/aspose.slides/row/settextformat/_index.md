@@ -1,14 +1,14 @@
 ---
 title: SetTextFormat
 second_title: Справочник по API Aspose.Slides для .NET
-description: Устанавливает определенные свойства формата части для всех частей ячеек строки.
+description: Задает определенные свойства формата части для всех частей ячеек строки.
 type: docs
 weight: 40
 url: /ru/net/aspose.slides/row/settextformat/
 ---
 ## SetTextFormat(IPortionFormat) {#settextformat_1}
 
-Устанавливает определенные свойства формата части для всех частей ячеек строки.
+Задает определенные свойства формата части для всех частей ячеек строки.
 
 ```csharp
 public void SetTextFormat(IPortionFormat source)
@@ -16,7 +16,7 @@ public void SetTextFormat(IPortionFormat source)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| source | IPortionFormat | Объект IPortionFormat с необходимым набором свойств. |
+| source | IPortionFormat | Объект IPortionFormat с набором необходимых свойств. |
 
 ### Смотрите также
 
@@ -29,7 +29,7 @@ public void SetTextFormat(IPortionFormat source)
 
 ## SetTextFormat(IParagraphFormat) {#settextformat}
 
-Устанавливает определенные свойства формата абзаца для всех абзацев ячеек строки.
+Задает определенные свойства формата абзаца для всех абзацев ячеек строки.
 
 ```csharp
 public void SetTextFormat(IParagraphFormat source)
@@ -37,7 +37,7 @@ public void SetTextFormat(IParagraphFormat source)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| source | IParagraphFormat | Объект IParagraphFormat с установленными необходимыми свойствами. |
+| source | IParagraphFormat | Объект IParagraphFormat с набором необходимых свойств. |
 
 ### Смотрите также
 
@@ -50,7 +50,7 @@ public void SetTextFormat(IParagraphFormat source)
 
 ## SetTextFormat(ITextFrameFormat) {#settextformat_2}
 
-Устанавливает определенные свойства формата текстового фрейма для всех текстовых фреймов ячеек строки.
+Задает определенные свойства формата текстового фрейма для всех текстовых фреймов ячеек строки.
 
 ```csharp
 public void SetTextFormat(ITextFrameFormat source)
@@ -58,7 +58,7 @@ public void SetTextFormat(ITextFrameFormat source)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| source | ITextFrameFormat | Объект ITextFrameFormat с необходимым набором свойств. |
+| source | ITextFrameFormat | Объект ITextFrameFormat с набором необходимых свойств. |
 
 ### Смотрите также
 

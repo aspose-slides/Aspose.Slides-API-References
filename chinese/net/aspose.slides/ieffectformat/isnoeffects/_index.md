@@ -1,14 +1,14 @@
 ---
 title: IsNoEffects
 second_title: Aspose.Slides for .NET API 参考
-description: 如果所有效果都被禁用如刚刚创建的默认 EffectFormat 对象则返回 true 只读Boolean
+description: 如果所有效果都被禁用如刚刚创建的默认 EffectFormat 对象则返回 true 只读Boolean.
 type: docs
 weight: 60
 url: /zh/net/aspose.slides/ieffectformat/isnoeffects/
 ---
 ## IEffectFormat.IsNoEffects property
 
-如果所有效果都被禁用（如刚刚创建的默认 EffectFormat 对象），则返回 true。 只读Boolean。
+如果所有效果都被禁用（如刚刚创建的默认 EffectFormat 对象），则返回 true。 只读Boolean.
 
 ```csharp
 public bool IsNoEffects { get; }

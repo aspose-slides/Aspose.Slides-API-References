@@ -1,14 +1,14 @@
 ---
 title: NumberFormatOfYValues
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置 y 系列值的数字格式 读/写String
+description: 返回或设置序列 y 值的数字格式 读/写String.
 type: docs
 weight: 250
 url: /zh/net/aspose.slides.charts/ichartseries/numberformatofyvalues/
 ---
 ## IChartSeries.NumberFormatOfYValues property
 
-返回或设置 y 系列值的数字格式。 读/写String。
+返回或设置序列 y 值的数字格式。 读/写String.
 
 ```csharp
 public string NumberFormatOfYValues { get; set; }

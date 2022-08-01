@@ -17,9 +17,9 @@ public IVideoPlayerHtmlController CreateVideoPlayerHtmlController(string path, s
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| path | String | 路径。 |
+| path | String | 小路。 |
 | fileName | String | 文件名。 |
-| baseUri | String | 基本 URI。 |
+| baseUri | String | 基础 URI。 |
 
 ### 返回值
 

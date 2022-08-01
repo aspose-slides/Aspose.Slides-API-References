@@ -1,14 +1,14 @@
 ---
 title: XValue
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает значение x точки данных диаграммы. Только для чтенияIStringOrDoubleChartValueaspose.slides.charts/istringordoublechartvalue.
+description: Возвращает значение x точки данных диаграммы. Только для чтенияIStringOrDoubleChartValueaspose.slides.charts/istringordoublechartvalue .
 type: docs
 weight: 160
 url: /ru/net/aspose.slides.charts/ichartdatapoint/xvalue/
 ---
 ## IChartDataPoint.XValue property
 
-Возвращает значение x точки данных диаграммы. Только для чтения[`IStringOrDoubleChartValue`](../../istringordoublechartvalue).
+Возвращает значение x точки данных диаграммы. Только для чтения[`IStringOrDoubleChartValue`](../../istringordoublechartvalue) .
 
 ```csharp
 public IStringOrDoubleChartValue XValue { get; }

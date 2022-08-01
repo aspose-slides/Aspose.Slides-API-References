@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: Aspose.Slides for .NET API 参考
-description: 确定指定的AlphaReplaceaspose.slides.effects/alphareplace是否等于当前的AlphaReplace
+description: 判断是否指定AlphaReplaceaspose.slides.effects/alphareplace等于当前AlphaReplaceaspose.slides.effects/alphareplace.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides.effects/alphareplace/equals/
 ---
 ## AlphaReplace.Equals method
 
-确定指定的[`AlphaReplace`](../../alphareplace)是否等于当前的AlphaReplace。
+判断是否指定[`AlphaReplace`](../../alphareplace)等于当前[`AlphaReplace`](../../alphareplace).
 
 ```csharp
 public override bool Equals(object obj)
@@ -16,11 +16,11 @@ public override bool Equals(object obj)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| obj | Object | [`AlphaReplace`](../../alphareplace)进行比较。 |
+| obj | Object | 这[`AlphaReplace`](../../alphareplace)比较。 |
 
 ### 返回值
 
-如果对象相等，则为真；否则为假。
+如果对象相等，则为 true；否则为假。
 
 ### 也可以看看
 

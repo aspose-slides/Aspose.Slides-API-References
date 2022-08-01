@@ -1,14 +1,14 @@
 ---
 title: Symbol
 second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет стиль маркера на линейной диаграмме точечной диаграмме или лепестковой диаграмме. Чтение/записьMarkerStyleTypeaspose.slides.charts/markerstyletype.
+description: Представляет стиль маркера на линейной диаграмме точечной диаграмме или лепестковой диаграмме. Чтение/записьMarkerStyleTypeaspose.slides.charts/markerstyletype .
 type: docs
 weight: 30
 url: /ru/net/aspose.slides.charts/marker/symbol/
 ---
 ## Marker.Symbol property
 
-Представляет стиль маркера на линейной диаграмме, точечной диаграмме или лепестковой диаграмме. Чтение/запись[`MarkerStyleType`](../../markerstyletype).
+Представляет стиль маркера на линейной диаграмме, точечной диаграмме или лепестковой диаграмме. Чтение/запись[`MarkerStyleType`](../../markerstyletype) .
 
 ```csharp
 public MarkerStyleType Symbol { get; set; }

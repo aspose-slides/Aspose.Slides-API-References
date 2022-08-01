@@ -16,7 +16,7 @@ public IMathBorderBox ToBorderBox()
 
 ### Возвращаемое значение
 
-Рамка с этот элемент помещен внутри
+Бордюр с этим элементом внутри
 
 ### Примеры
 
@@ -48,18 +48,18 @@ public IMathBorderBox ToBorderBox(bool hideTop, bool hideBottom, bool hideLeft, 
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| hideTop | Boolean | Hide Top Край |
+| hideTop | Boolean | Скрыть верхний край |
 | hideBottom | Boolean | Скрыть нижний край |
 | hideLeft | Boolean | Скрыть левый край |
 | hideRight | Boolean | Скрыть правый край |
-| strikethroughHorizontal | Boolean | Border Box Strikethrough Horizontal |
-| strikethroughVertical | Boolean | Рамка, перечеркнутая по вертикали |
-| strikethroughBottomLeftToTopRight | Boolean | Border Box, перечеркнутая снизу слева вверх-справа |
-| strikethroughTopLeftToBottomRight | Boolean | Пограничный блок, перечеркнутый сверху слева и снизу справа |
+| strikethroughHorizontal | Boolean | Пограничная рамка Зачеркнутая Горизонтальная |
+| strikethroughVertical | Boolean | Рамка Перечеркнутая Вертикальная |
+| strikethroughBottomLeftToTopRight | Boolean | Граница перечеркнута снизу слева вверх-вправо |
+| strikethroughTopLeftToBottomRight | Boolean | Граница перечеркнута слева вверху справа внизу |
 
 ### Возвращаемое значение
 
-Пограничный блок с этим элементом, размещенным внутри
+Бордюр с этим элементом внутри
 
 ### Примеры
 

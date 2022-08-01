@@ -18,7 +18,7 @@ public interface ICommentAuthorCollection : IGenericCollection<ICommentAuthor>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Item](../../aspose.slides/icommentauthorcollection/item) { get; } | 获取指定索引处的元素。 只读[`ICommentAuthor`](../icommentauthor)。 |
+| [Item](../../aspose.slides/icommentauthorcollection/item) { get; } | 获取指定索引处的元素。 只读[`ICommentAuthor`](../icommentauthor). |
 
 ## 方法
 

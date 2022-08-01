@@ -1,14 +1,14 @@
 ---
 title: TransitionType
 second_title: Aspose.Slides for .NET API 参考
-description: 代表幻灯片过渡类型
+description: 表示幻灯片放映过渡类型
 type: docs
 weight: 9670
 url: /zh/net/aspose.slides.slideshow/transitiontype/
 ---
 ## TransitionType enumeration
 
-代表幻灯片过渡类型。
+表示幻灯片放映过渡类型。
 
 ```csharp
 public enum TransitionType
@@ -37,9 +37,9 @@ public enum TransitionType
 | Split | `16` | 相当于 PowerPoint 2010 中的过渡擦除。 |
 | Strips | `17` |  |
 | Wedge | `18` | 与 PowerPoint 2010 中的过渡时钟（带有选项楔形）有关。 |
-| Wheel | `19` | 与 PowerPoint 2010 中的转换时钟（带有选项顺时针）有关。 |
+| Wheel | `19` | 与 PowerPoint 2010 中的过渡时钟（带有选项顺时针）有关。 |
 | Wipe | `20` |  |
-| Zoom | `21` | 与 PowerPoint 2010 中的过渡形状（带有输入/输出选项）相关。 另请参见Warp与 PowerPoint 2010 中的过渡缩放有关。 |
+| Zoom | `21` | 与 PowerPoint 2010 中的过渡形状（带有输入/输出选项）有关。 另请参阅Warp与 PowerPoint 2010 中的过渡缩放有关。 |
 | Vortex | `22` | 在 PowerPoint 2010 中可用。 |
 | Switch | `23` | 在 PowerPoint 2010 中可用。 |
 | Flip | `24` | 在 PowerPoint 2010 中可用。 |
@@ -61,7 +61,7 @@ public enum TransitionType
 | Flash | `40` | 在 PowerPoint 2010 中可用。 |
 | Shred | `41` | 在 PowerPoint 2010 中可用。 |
 | Reveal | `42` | 在 PowerPoint 2010 中可用。 |
-| WheelReverse | `43` | 与 PowerPoint 2010 中的转换时钟（带有选项逆时针）相关。 在 PowerPoint 2010 中可用。 |
+| WheelReverse | `43` | 与 PowerPoint 2010 中的过渡时钟（带有选项逆时针）有关。 在 PowerPoint 2010 中可用。 |
 | FallOver | `44` | 在 PowerPoint 2013 中可用。 |
 | Drape | `45` | 在 PowerPoint 2013 中可用。 |
 | Curtains | `46` | 在 PowerPoint 2013 中可用。 |
@@ -74,7 +74,7 @@ public enum TransitionType
 | PageCurlSingle | `53` | 在 PowerPoint 2013 中可用。 |
 | Airplane | `54` | 在 PowerPoint 2013 中可用。 |
 | Origami | `55` | 在 PowerPoint 2013 中可用。 |
-| Morph | `56` | 与 PowerPoint 2019 中的过渡变形（带有选项类型）有关。 |
+| Morph | `56` | 与 PowerPoint 2019 中的过渡变形（带有选项类型）相关。 |
 
 ### 也可以看看
 

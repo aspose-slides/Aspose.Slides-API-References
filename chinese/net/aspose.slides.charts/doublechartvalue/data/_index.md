@@ -1,14 +1,14 @@
 ---
 title: Data
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置数据对象 读/写Object
+description: 返回或设置数据对象 读/写Object.
 type: docs
 weight: 30
 url: /zh/net/aspose.slides.charts/doublechartvalue/data/
 ---
 ## DoubleChartValue.Data property
 
-返回或设置数据对象。 读/写Object。
+返回或设置数据对象。 读/写Object.
 
 ```csharp
 public override object Data { get; set; }

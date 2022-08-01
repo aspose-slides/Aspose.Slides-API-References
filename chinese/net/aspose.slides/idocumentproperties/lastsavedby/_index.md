@@ -1,14 +1,14 @@
 ---
 title: LastSavedBy
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置最后修改演示文稿的人的姓名 读/写String
+description: 返回或设置最后修改演示文稿的人的姓名 读/写String.
 type: docs
 weight: 150
 url: /zh/net/aspose.slides/idocumentproperties/lastsavedby/
 ---
 ## IDocumentProperties.LastSavedBy property
 
-返回或设置最后修改演示文稿的人的姓名。 读/写String。
+返回或设置最后修改演示文稿的人的姓名。 读/写String.
 
 ```csharp
 public string LastSavedBy { get; set; }

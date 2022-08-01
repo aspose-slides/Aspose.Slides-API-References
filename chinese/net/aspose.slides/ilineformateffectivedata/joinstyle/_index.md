@@ -1,14 +1,14 @@
 ---
 title: JoinStyle
 second_title: Aspose.Slides for .NET API 参考
-description: 返回线连接样式 只读LineJoinStyleaspose.slides/linejoinstyle
+description: 返回线连接样式 只读LineJoinStyleaspose.slides/linejoinstyle.
 type: docs
 weight: 130
 url: /zh/net/aspose.slides/ilineformateffectivedata/joinstyle/
 ---
 ## ILineFormatEffectiveData.JoinStyle property
 
-返回线连接样式。 只读[`LineJoinStyle`](../../linejoinstyle)。
+返回线连接样式。 只读[`LineJoinStyle`](../../linejoinstyle).
 
 ```csharp
 public LineJoinStyle JoinStyle { get; }

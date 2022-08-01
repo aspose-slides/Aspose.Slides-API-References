@@ -16,7 +16,7 @@ public void QuadraticBezierTo(PointF point1, PointF point2)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| point1 | PointF | Направление точка |
+| point1 | PointF | Точка направления |
 | point2 | PointF | Конечная точка |
 
 ### Смотрите также
@@ -38,7 +38,7 @@ public void QuadraticBezierTo(float x1, float y1, float x2, float y2)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | x1 | Single | X координата точки направления |
-| y1 | Single | Y координата точки направления |
+| y1 | Single | Координата Y точки направления |
 | x2 | Single | X координата конечной точки |
 | y2 | Single | Координата Y конечной точки |
 
@@ -68,7 +68,7 @@ public void QuadraticBezierTo(PointF point1, PointF point2, uint index)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentOutOfRangeException | Индекс сегмента вне диапазона PathData |
+| ArgumentOutOfRangeException | Индекс сегмента выходит за пределы диапазона PathData |
 
 ### Смотрите также
 
@@ -89,8 +89,8 @@ public void QuadraticBezierTo(float x1, float y1, float x2, float y2, uint index
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | x1 | Single | X координата точки направления |
-| y1 | Single | Y координата точки направления |
-| x2 | Single | X координата конечная точка |
+| y1 | Single | Координата Y точки направления |
+| x2 | Single | X координата конечной точки |
 | y2 | Single | Координата Y конечной точки |
 | index | UInt32 | Индекс сегмента в PathData |
 
@@ -98,7 +98,7 @@ public void QuadraticBezierTo(float x1, float y1, float x2, float y2, uint index
 
 | исключение | условие |
 | --- | --- |
-| ArgumentOutOfRangeException | Индекс сегмента вне диапазона PathData |
+| ArgumentOutOfRangeException | Индекс сегмента выходит за пределы диапазона PathData |
 
 ### Смотрите также
 

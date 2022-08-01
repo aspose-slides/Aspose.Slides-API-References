@@ -24,13 +24,13 @@ public class GifOptions : SaveOptions, IGifOptions
 
 | Имя | Описание |
 | --- | --- |
-| [DefaultDelay](../../aspose.slides.export/gifoptions/defaultdelay) { get; set; } | Получает или устанавливает время задержки по умолчанию [мс]. Это значение будет использоваться, если[`AdvanceAfterTime`](../../aspose.slides/islideshowtransition/advanceaftertime)не установлено. Значение по умолчанию 1000. |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Возвращает или устанавливает шрифт, используемый в случае, если исходный шрифт не найден. Чтение-записьString. |
+| [DefaultDelay](../../aspose.slides.export/gifoptions/defaultdelay) { get; set; } | Получает или задает время задержки по умолчанию [мс]. Это значение будет использоваться, если[`AdvanceAfterTime`](../../aspose.slides/islideshowtransition/advanceaftertime) не установлено. Значение по умолчанию: 1000. |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Возвращает или устанавливает шрифт, используемый в случае, если исходный шрифт не найден. Чтение-записьString . |
 | [ExportHiddenSlides](../../aspose.slides.export/gifoptions/exporthiddenslides) { get; set; } | Определяет, будут ли экспортироваться скрытые слайды. Значение по умолчанию — false. |
 | [FrameSize](../../aspose.slides.export/gifoptions/framesize) { get; set; } | Получает или задает размер кадра. |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Представляет объект обратного вызова для сохранения обновлений хода выполнения в процентах. См.[`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [TransitionFps](../../aspose.slides.export/gifoptions/transitionfps) { get; set; } | Получает или устанавливает FPS перехода [кадры/сек] Значение по умолчанию равно 25. |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Возвращает наборы объект, который получает предупреждения и решает, будет ли процесс загрузки продолжен или будет прерван. Чтение/запись[`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Представляет объект обратного вызова для сохранения обновлений хода выполнения в процентах. См.[`IProgressCallback`](../../aspose.slides/iprogresscallback) . |
+| [TransitionFps](../../aspose.slides.export/gifoptions/transitionfps) { get; set; } | Получает или задает FPS перехода [кадров/сек] Значение по умолчанию: 25. |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Возвращает наборы объекта, который получает предупреждения и решает, будет ли процесс загрузки продолжен или будет прерван. Чтение/запись[`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback) . |
 
 ### Смотрите также
 

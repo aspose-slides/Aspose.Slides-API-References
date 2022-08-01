@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает строку по указанному индексу. Только чтениеRowaspose.slides/row.
+description: Возвращает строку по указанному индексу. Только для чтенияRowaspose.slides/row .
 type: docs
 weight: 30
 url: /ru/net/aspose.slides/rowcollection/item/
 ---
 ## RowCollection indexer
 
-Возвращает строку по указанному индексу. Только чтение[`Row`](../../row).
+Возвращает строку по указанному индексу. Только для чтения[`Row`](../../row) .
 
 ```csharp
 public IRow this[int index] { get; }

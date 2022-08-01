@@ -1,14 +1,14 @@
 ---
 title: LastView
 second_title: Справочник по API Aspose.Slides для .NET
-description: Указывает режим просмотра который использовался при последнем сохранении документа презентации. Чтение/записьViewTypeaspose.slides/viewtype.
+description: Указывает режим просмотра который использовался при последнем сохранении документа презентации. Чтение/записьViewTypeaspose.slides/viewtype .
 type: docs
 weight: 10
 url: /ru/net/aspose.slides/iviewproperties/lastview/
 ---
 ## IViewProperties.LastView property
 
-Указывает режим просмотра, который использовался при последнем сохранении документа презентации. Чтение/запись[`ViewType`](../../viewtype).
+Указывает режим просмотра, который использовался при последнем сохранении документа презентации. Чтение/запись[`ViewType`](../../viewtype) .
 
 ```csharp
 public ViewType LastView { get; set; }

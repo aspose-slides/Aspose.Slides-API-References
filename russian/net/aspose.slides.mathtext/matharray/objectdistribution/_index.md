@@ -1,14 +1,14 @@
 ---
 title: ObjectDistribution
 second_title: Справочник по API Aspose.Slides для .NET
-description: Распределение объектов При значении true содержимое массива размещается на максимальной ширине объекта массива.
+description: Object Distribution При значении true содержимое массива размещается на максимальной ширине объекта массива.
 type: docs
 weight: 50
 url: /ru/net/aspose.slides.mathtext/matharray/objectdistribution/
 ---
 ## MathArray.ObjectDistribution property
 
-Распределение объектов При значении true содержимое массива размещается на максимальной ширине объекта массива.
+Object Distribution При значении true содержимое массива размещается на максимальной ширине объекта массива.
 
 ```csharp
 public bool ObjectDistribution { get; set; }

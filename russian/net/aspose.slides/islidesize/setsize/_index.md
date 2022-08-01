@@ -1,14 +1,14 @@
 ---
 title: SetSize
 second_title: Справочник по API Aspose.Slides для .NET
-description: Устанавливает тип размера слайда и масштабирует содержимое используя тип масштаба.  Присвоение любого значения кромеCustomизменитсяSizeaspose.slides/islidesize/size соответственно но сохранитOrientationaspose.slides/islidesize/orientation нетронутыми.
+description: Задает тип размера слайда и масштабирует содержимое с использованием типа масштаба.  Присвоение любого значения кромеCustom изменитсяРазмерaspose.slides/islidesize/size соответственно но сохранитОриентацияaspose.slides/islidesize/orientation нетронутый.
 type: docs
 weight: 40
 url: /ru/net/aspose.slides/islidesize/setsize/
 ---
 ## SetSize(SlideSizeType, SlideSizeScaleType) {#setsize}
 
-Устанавливает тип размера слайда и масштабирует содержимое, используя тип масштаба.  Присвоение любого значения, кромеCustomизменится[`Size`](../size) соответственно, но сохранит[`Orientation`](../orientation) нетронутыми.
+Задает тип размера слайда и масштабирует содержимое с использованием типа масштаба.  Присвоение любого значения, кромеCustom изменится[`Размер`](../size) соответственно, но сохранит[`Ориентация`](../orientation) нетронутый.
 
 ```csharp
 public void SetSize(SlideSizeType type, SlideSizeScaleType scaleType)
@@ -17,7 +17,7 @@ public void SetSize(SlideSizeType type, SlideSizeScaleType scaleType)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | type | SlideSizeType | Тип размера слайда. |
-| scaleType | SlideSizeScaleType | Тип масштаба содержимого слайда. |
+| scaleType | SlideSizeScaleType | Тип масштабирования содержимого слайда. |
 
 ### Смотрите также
 
@@ -31,7 +31,7 @@ public void SetSize(SlideSizeType type, SlideSizeScaleType scaleType)
 
 ## SetSize(float, float, SlideSizeScaleType) {#setsize_1}
 
-Устанавливает размер в пунктах и масштабирует содержимое, используя тип масштаба.  Присвоение любого значения приведет к сбросу[`Type`](../type) свойствоCustomи установите[`Orientation`](../orientation) .
+Устанавливает размер в пунктах и масштабирует содержимое, используя тип масштаба.  Присвоение любого значения сбросит[`Тип`](../type) собственность наCustom и установить[`Ориентация`](../orientation).
 
 ```csharp
 public void SetSize(float width, float height, SlideSizeScaleType scaleType)
@@ -40,8 +40,8 @@ public void SetSize(float width, float height, SlideSizeScaleType scaleType)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | width | Single | Ширина. |
-| высота | Single | Высота. |
-| scaleType | SlideSizeScaleType | Тип масштаба содержимого слайда. |
+| height | Single | Высота. |
+| scaleType | SlideSizeScaleType | Тип масштабирования содержимого слайда. |
 
 ### Смотрите также
 

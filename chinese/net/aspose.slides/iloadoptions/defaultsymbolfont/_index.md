@@ -1,14 +1,14 @@
 ---
 title: DefaultSymbolFont
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置在找不到源字体时使用的符号字体 读写String
+description: 返回或设置在找不到源字体时使用的符号字体 读写String.
 type: docs
 weight: 40
 url: /zh/net/aspose.slides/iloadoptions/defaultsymbolfont/
 ---
 ## ILoadOptions.DefaultSymbolFont property
 
-返回或设置在找不到源字体时使用的符号字体。 读写String。
+返回或设置在找不到源字体时使用的符号字体。 读写String.
 
 ```csharp
 public string DefaultSymbolFont { get; set; }

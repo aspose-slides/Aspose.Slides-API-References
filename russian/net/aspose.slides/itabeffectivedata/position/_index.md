@@ -1,14 +1,14 @@
 ---
 title: Position
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает позицию вкладки. Назначение этого свойства может изменить индекс вкладки в коллекции и сделать Enumerator недействительным. Только для чтенияDouble.
+description: Возвращает позицию вкладки. Присвоение этого свойства может изменить индекс вкладки в коллекции и аннулировать Enumerator. Только для чтенияDouble .
 type: docs
 weight: 30
 url: /ru/net/aspose.slides/itabeffectivedata/position/
 ---
 ## ITabEffectiveData.Position property
 
-Возвращает позицию вкладки. Назначение этого свойства может изменить индекс вкладки в коллекции и сделать Enumerator недействительным. Только для чтенияDouble.
+Возвращает позицию вкладки. Присвоение этого свойства может изменить индекс вкладки в коллекции и аннулировать Enumerator. Только для чтенияDouble .
 
 ```csharp
 public double Position { get; }

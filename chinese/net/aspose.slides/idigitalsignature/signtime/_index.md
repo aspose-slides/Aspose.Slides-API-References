@@ -1,14 +1,14 @@
 ---
 title: SignTime
 second_title: Aspose.Slides for .NET API 参考
-description: 文件签署的时间 只读DateTime
+description: 文档签署的时间 只读DateTime.
 type: docs
 weight: 40
 url: /zh/net/aspose.slides/idigitalsignature/signtime/
 ---
 ## IDigitalSignature.SignTime property
 
-文件签署的时间。 只读DateTime。
+文档签署的时间。 只读DateTime.
 
 ```csharp
 public DateTime SignTime { get; }

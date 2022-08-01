@@ -16,7 +16,7 @@ public MathHorizontalAlignment GetColumnAlignment(int columnIndex)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| columnIndex | Int32 | Zero- индекс столбца на основе |
+| columnIndex | Int32 | Индекс столбца с отсчетом от нуля |
 
 ### Возвращаемое значение
 

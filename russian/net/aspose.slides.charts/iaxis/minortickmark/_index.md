@@ -1,14 +1,14 @@
 ---
 title: MinorTickMark
 second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет тип вспомогательной засечки для указанной оси. Чтение/записьTickMarkTypeaspose.slides.charts/tickmarktype.
+description: Представляет тип второстепенной отметки для указанной оси. Чтение/записьTickMarkTypeaspose.slides.charts/tickmarktype .
 type: docs
 weight: 400
 url: /ru/net/aspose.slides.charts/iaxis/minortickmark/
 ---
 ## IAxis.MinorTickMark property
 
-Представляет тип вспомогательной засечки для указанной оси. Чтение/запись[`TickMarkType`](../../tickmarktype).
+Представляет тип второстепенной отметки для указанной оси. Чтение/запись[`TickMarkType`](../../tickmarktype) .
 
 ```csharp
 public TickMarkType MinorTickMark { get; set; }

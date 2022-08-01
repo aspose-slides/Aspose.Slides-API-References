@@ -18,17 +18,17 @@ public class ImageWrapper : IImageWrapper
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Image](../../aspose.slides/imagewrapper/image) { get; } | 获取图像。 只读[`Image`](./image)。 |
-| [Size](../../aspose.slides/imagewrapper/size) { get; } | 获取图像的宽度和高度（以像素为单位）。 只读[`Size`](./size)。 |
+| [Image](../../aspose.slides/imagewrapper/image) { get; } | 获取图像。 只读[`Image`](./image). |
+| [Size](../../aspose.slides/imagewrapper/size) { get; } | 获取图像的宽度和高度，以像素为单位。 只读[`Size`](./size). |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Dispose](../../aspose.slides/imagewrapper/dispose)() | Dispose ImageWrapper |
+| [Dispose](../../aspose.slides/imagewrapper/dispose)() | 处理 ImageWrapper |
 | [Save](../../aspose.slides/imagewrapper/save#save_1)(string) | 将图像保存到指定文件 |
 | [Save](../../aspose.slides/imagewrapper/save#save)(Stream, PPImageFormat) | 以指定格式将图像保存到指定流中。 |
-| [Save](../../aspose.slides/imagewrapper/save#save_2)(string, PPImageFormat) | 以指定格式将图像保存到指定文件。 |
+| [Save](../../aspose.slides/imagewrapper/save#save_2)(string, PPImageFormat) | 将图像以指定格式保存到指定文件中。 |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: FromBlack
 second_title: Справочник по API Aspose.Slides для .NET
-description: Этот атрибут указывает будет ли переход начинаться с черного экрана и затем переходить новый слайд поверх черного. Чтение/записьBoolean.
+description: Этот атрибут указывает будет ли переход начинаться с черного экрана и затем переходить новый слайд поверх черного. Чтение/записьBoolean .
 type: docs
 weight: 20
 url: /ru/net/aspose.slides.slideshow/ioptionalblacktransition/fromblack/
 ---
 ## IOptionalBlackTransition.FromBlack property
 
-Этот атрибут указывает, будет ли переход начинаться с черного экрана (и затем переходить новый слайд поверх черного). Чтение/записьBoolean.
+Этот атрибут указывает, будет ли переход начинаться с черного экрана (и затем переходить новый слайд поверх черного). Чтение/записьBoolean .
 
 ```csharp
 public bool FromBlack { get; set; }

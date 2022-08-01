@@ -18,8 +18,8 @@ public interface ILeftRightDirectionTransition : ITransitionValueBase
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/ileftrightdirectiontransition/asitransitionvaluebase) { get; } | 允许获取基本 ITransitionValueBase 接口。 只读[`ITransitionValueBase`](../itransitionvaluebase)。 |
-| [Direction](../../aspose.slides.slideshow/ileftrightdirectiontransition/direction) { get; set; } | 过渡方向。 读/写[`TransitionLeftRightDirectionType`](../transitionleftrightdirectiontype)。 |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/ileftrightdirectiontransition/asitransitionvaluebase) { get; } | 允许获取基本 ITransitionValueBase 接口。 只读[`ITransitionValueBase`](../itransitionvaluebase). |
+| [Direction](../../aspose.slides.slideshow/ileftrightdirectiontransition/direction) { get; set; } | 转换方向。 读/写[`TransitionLeftRightDirectionType`](../transitionleftrightdirectiontype). |
 
 ### 也可以看看
 

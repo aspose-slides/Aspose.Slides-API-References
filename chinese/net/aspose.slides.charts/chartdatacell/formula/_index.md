@@ -1,14 +1,14 @@
 ---
 title: Formula
 second_title: Aspose.Slides for .NET API 参考
-description: 获取或设置 A1 样式的公式
+description: 获取或设置A1风格的公式
 type: docs
 weight: 40
 url: /zh/net/aspose.slides.charts/chartdatacell/formula/
 ---
 ## ChartDataCell.Formula property
 
-获取或设置 A1 样式的公式。
+获取或设置A1风格的公式。
 
 ```csharp
 public string Formula { get; set; }

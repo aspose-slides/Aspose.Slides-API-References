@@ -18,7 +18,7 @@ public interface ISvgShapeFormattingController
 
 | 姓名 | 描述 |
 | --- | --- |
-| [FormatShape](../../aspose.slides.export/isvgshapeformattingcontroller/formatshape)(ISvgShape, IShape) | 在将形状渲染到 SVG 之前调用此函数，以允许用户控制生成的 SVG。 |
+| [FormatShape](../../aspose.slides.export/isvgshapeformattingcontroller/formatshape)(ISvgShape, IShape) | 在将形状渲染为 SVG 之前调用此函数，以允许用户控制生成的 SVG。 |
 
 ### 也可以看看
 

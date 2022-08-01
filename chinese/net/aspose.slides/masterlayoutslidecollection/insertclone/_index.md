@@ -25,7 +25,7 @@ public ILayoutSlide InsertClone(int index, ILayoutSlide sourceLayout)
 
 ### 评论
 
-新布局将与此布局幻灯片集合的父母版幻灯片链接。 所以这类似于 PowerPoint 中带有“使用目标主题”选项的复制/粘贴。
+新布局将与此布局幻灯片集合的父母版幻灯片链接。 因此，这类似于 PowerPoint 中带有“使用目标主题”选项的复制/粘贴。
 
 ### 也可以看看
 

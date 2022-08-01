@@ -18,9 +18,9 @@ public interface IHtml5Options : ISaveOptions
 
 | Имя | Описание |
 | --- | --- |
-| [AnimateShapes](../../aspose.slides.export/ihtml5options/animateshapes) { get; set; } | Возвращает или устанавливает параметры анимации фигур. Чтение/записьBoolean. |
-| [AnimateTransitions](../../aspose.slides.export/ihtml5options/animatetransitions) { get; set; } | Возвращает или устанавливает параметр анимации переходов. Чтение/записьBoolean. |
-| [AsISaveOptions](../../aspose.slides.export/ihtml5options/asisaveoptions) { get; } | Возвращает интерфейс ISaveOptions. Только для чтения[`ISaveOptions`](../isaveoptions). |
+| [AnimateShapes](../../aspose.slides.export/ihtml5options/animateshapes) { get; set; } | Возвращает или задает параметр анимации фигур. Чтение/записьBoolean . |
+| [AnimateTransitions](../../aspose.slides.export/ihtml5options/animatetransitions) { get; set; } | Возвращает или задает параметр анимации переходов. Чтение/записьBoolean . |
+| [AsISaveOptions](../../aspose.slides.export/ihtml5options/asisaveoptions) { get; } | Возвращает интерфейс ISaveOptions. Только для чтения[`ISaveOptions`](../isaveoptions) . |
 
 ### Примеры
 

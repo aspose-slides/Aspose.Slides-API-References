@@ -1,14 +1,14 @@
 ---
 title: BodyStyle
 second_title: Aspose.Slides for .NET API 参考
-description: 返回正文的样式 只读ITextStyleaspose.slides/itextstyle
+description: 返回正文的样式 只读ITextStyleaspose.slides/itextstyle.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides/masterslide/bodystyle/
 ---
 ## MasterSlide.BodyStyle property
 
-返回正文的样式。 只读[`ITextStyle`](../../itextstyle)。
+返回正文的样式。 只读[`ITextStyle`](../../itextstyle).
 
 ```csharp
 public ITextStyle BodyStyle { get; }

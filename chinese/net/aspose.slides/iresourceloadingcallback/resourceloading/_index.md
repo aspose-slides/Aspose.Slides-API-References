@@ -16,11 +16,11 @@ public ResourceLoadingAction ResourceLoading(IResourceLoadingArgs args)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| args | IResourceLoadingArgs | 加载资源数据[`IResourceLoadingArgs`](../../iresourceloadingargs)。 |
+| args | IResourceLoadingArgs | 加载资源数据[`IResourceLoadingArgs`](../../iresourceloadingargs). |
 
 ### 返回值
 
-资源加载决策[`ResourceLoadingAction`](../../resourceloadingaction)。
+资源加载决策[`ResourceLoadingAction`](../../resourceloadingaction).
 
 ### 也可以看看
 

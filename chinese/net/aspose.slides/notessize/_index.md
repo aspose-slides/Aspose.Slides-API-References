@@ -24,7 +24,7 @@ public class NotesSize : INotesSize
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Size](../../aspose.slides/notessize/size) { get; set; } | 以磅为单位返回或设置大小。 读/写SizeF。 |
+| [Size](../../aspose.slides/notessize/size) { get; set; } | 以点为单位返回或设置大小。 读/写SizeF. |
 
 ### 也可以看看
 

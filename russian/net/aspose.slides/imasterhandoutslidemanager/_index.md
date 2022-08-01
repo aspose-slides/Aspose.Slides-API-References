@@ -1,14 +1,14 @@
 ---
 title: IMasterHandoutSlideManager
 second_title: Справочник по API Aspose.Slides для .NET
-description: Мастер слайд-менеджера раздаточных материалов.
+description: Диспетчер слайдов основного раздаточного материала.
 type: docs
 weight: 5810
 url: /ru/net/aspose.slides/imasterhandoutslidemanager/
 ---
 ## IMasterHandoutSlideManager interface
 
-Мастер слайд-менеджера раздаточных материалов.
+Диспетчер слайдов основного раздаточного материала.
 
 ```csharp
 public interface IMasterHandoutSlideManager
@@ -18,14 +18,14 @@ public interface IMasterHandoutSlideManager
 
 | Имя | Описание |
 | --- | --- |
-| [MasterHandoutSlide](../../aspose.slides/imasterhandoutslidemanager/masterhandoutslide) { get; } | Возвращает образец для всех слайдов заметок этой презентации, если он есть, в противном случае возвращает ноль. Только для чтения[`IMasterHandoutSlide`](../imasterhandoutslide). |
+| [MasterHandoutSlide](../../aspose.slides/imasterhandoutslidemanager/masterhandoutslide) { get; } | Возвращает образец для всех слайдов заметок этой презентации, если он есть, в противном случае возвращает null. Только для чтения[`IMasterHandoutSlide`](../imasterhandoutslide) . |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
 | [RemoveMasterHandoutSlide](../../aspose.slides/imasterhandoutslidemanager/removemasterhandoutslide)() | Удаляет основной слайд раздаточных материалов. |
-| [SetDefaultMasterHandoutSlide](../../aspose.slides/imasterhandoutslidemanager/setdefaultmasterhandoutslide)() | Устанавливает основной слайд раздаточного материала по умолчанию в соответствующий слайд раздаточного материала. |
+| [SetDefaultMasterHandoutSlide](../../aspose.slides/imasterhandoutslidemanager/setdefaultmasterhandoutslide)() | Устанавливает основной слайд раздаточного материала по умолчанию на соответствующий слайд раздаточного материала. |
 
 ### Смотрите также
 

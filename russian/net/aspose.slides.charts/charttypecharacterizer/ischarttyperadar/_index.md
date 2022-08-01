@@ -1,14 +1,14 @@
 ---
 title: IsChartTypeRadar
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает true если chartType является одним из подтипов Radar. Набор подтипов соответствует соответствующему набору в PowerPoint см. диалоговое окно Изменить тип диаграммы в PowerPoint FilledRadar Radar RadarWithMarkers.
+description: Возвращает true если chartType является одним из подтипов Radar. Набор подтипов соответствует соответствующему набору в PowerPoint см. диалоговое окно Изменить тип диаграммы в PowerPoint FilledRadar  Radar  RadarWithMarkers .
 type: docs
 weight: 120
 url: /ru/net/aspose.slides.charts/charttypecharacterizer/ischarttyperadar/
 ---
 ## ChartTypeCharacterizer.IsChartTypeRadar method
 
-Возвращает true, если chartType является одним из подтипов Radar. Набор подтипов соответствует соответствующему набору в PowerPoint (см. диалоговое окно «Изменить тип диаграммы» в PowerPoint): FilledRadar, Radar, RadarWithMarkers.
+Возвращает true, если chartType является одним из подтипов Radar. Набор подтипов соответствует соответствующему набору в PowerPoint (см. диалоговое окно «Изменить тип диаграммы» в PowerPoint): FilledRadar , Radar , RadarWithMarkers .
 
 ```csharp
 public static bool IsChartTypeRadar(ChartType chartType)

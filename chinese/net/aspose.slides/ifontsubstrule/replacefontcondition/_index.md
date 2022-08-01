@@ -1,14 +1,14 @@
 ---
 title: ReplaceFontCondition
 second_title: Aspose.Slides for .NET API 参考
-description: 申请替换规则 只读FontSubstConditionaspose.slides/fontsubstcondition
+description: 申请替换的规则 只读FontSubstConditionaspose.slides/fontsubstcondition.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides/ifontsubstrule/replacefontcondition/
 ---
 ## IFontSubstRule.ReplaceFontCondition property
 
-申请替换规则 只读[`FontSubstCondition`](../../fontsubstcondition)。
+申请替换的规则 只读[`FontSubstCondition`](../../fontsubstcondition).
 
 ```csharp
 public FontSubstCondition ReplaceFontCondition { get; }

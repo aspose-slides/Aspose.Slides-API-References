@@ -20,7 +20,7 @@ public interface IBulkTextFormattable
 | --- | --- |
 | [SetTextFormat](../../aspose.slides/ibulktextformattable/settextformat#settextformat)(IParagraphFormat) | Устанавливает определенные свойства формата абзаца для всех абзацев элемента. |
 | [SetTextFormat](../../aspose.slides/ibulktextformattable/settextformat#settextformat_1)(IPortionFormat) | Устанавливает определенные свойства формата части для всех частей элемента. |
-| [SetTextFormat](../../aspose.slides/ibulktextformattable/settextformat#settextformat_2)(ITextFrameFormat) | Устанавливает определенные свойства формата текстового фрейма для всех текстовых фреймов элемента. |
+| [SetTextFormat](../../aspose.slides/ibulktextformattable/settextformat#settextformat_2)(ITextFrameFormat) | Задает определенные свойства формата текстового фрейма для всех текстовых фреймов элемента. |
 
 ### Смотрите также
 

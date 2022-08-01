@@ -1,14 +1,14 @@
 ---
 title: ShowLegendKey
 second_title: Справочник по API Aspose.Slides для .NET
-description: Истинно если ключ легенды метки данных виден. Чтение/записьBoolean.
+description: Истинно если виден ключ легенды метки данных. Чтение/записьBoolean .
 type: docs
 weight: 60
 url: /ru/net/aspose.slides.charts/datatable/showlegendkey/
 ---
 ## DataTable.ShowLegendKey property
 
-Истинно, если ключ легенды метки данных виден. Чтение/записьBoolean.
+Истинно, если виден ключ легенды метки данных. Чтение/записьBoolean .
 
 ```csharp
 public bool ShowLegendKey { get; set; }

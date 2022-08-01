@@ -1,14 +1,14 @@
 ---
 title: Compliance
 second_title: Aspose.Slides for .NET API 参考
-description: 生成的 PDF 文档所需的一致性级别 读/写PdfComplianceaspose.slides.export/pdfcompliance
+description: 生成的 PDF 文档所需的一致性级别 读/写PdfComplianceaspose.slides.export/pdfcompliance.
 type: docs
 weight: 60
 url: /zh/net/aspose.slides.export/ipdfoptions/compliance/
 ---
 ## IPdfOptions.Compliance property
 
-生成的 PDF 文档所需的一致性级别。 读/写[`PdfCompliance`](../../pdfcompliance)。
+生成的 PDF 文档所需的一致性级别。 读/写[`PdfCompliance`](../../pdfcompliance).
 
 ```csharp
 public PdfCompliance Compliance { get; set; }

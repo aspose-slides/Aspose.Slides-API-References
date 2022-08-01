@@ -1,14 +1,14 @@
 ---
 title: HSL
 second_title: Aspose.Slides for .NET API 参考
-description: 表示色相/饱和度/亮度效果 色调饱和度和亮度都可以相对于其当前值进行调整
+description: 表示色相/饱和度/亮度效果 色相饱和度和亮度都可以相对于其当前值进行调整
 type: docs
 weight: 2830
 url: /zh/net/aspose.slides.effects/hsl/
 ---
 ## HSL class
 
-表示色相/饱和度/亮度效果。 色调、饱和度和亮度都可以相对于其当前值进行调整。
+表示色相/饱和度/亮度效果。 色相、饱和度和亮度都可以相对于其当前值进行调整。
 
 ```csharp
 public class HSL : ImageTransformOperation, IHSL
@@ -18,13 +18,13 @@ public class HSL : ImageTransformOperation, IHSL
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允许获取基本 IPresentationComponent 接口。 只读[`IPresentationComponent`](../../aspose.slides/ipresentationcomponent)。 |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允许获取基本 IPresentationComponent 接口。 只读[`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/hsl/equals)(object) | 确定指定的[`HSL`](../hsl)是否等于当前的HSL。 |
+| override [Equals](../../aspose.slides.effects/hsl/equals)(object) | 判断是否指定[`HSL`](../hsl)等于当前[`HSL`](../hsl). |
 | [GetEffective](../../aspose.slides.effects/hsl/geteffective)() | 获取应用了继承的有效色相/饱和度/亮度效果数据。 |
 | override [GetHashCode](../../aspose.slides.effects/hsl/gethashcode)() | 用作特定类型的哈希函数。 |
 

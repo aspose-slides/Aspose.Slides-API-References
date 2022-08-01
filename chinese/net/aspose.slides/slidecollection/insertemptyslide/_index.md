@@ -17,7 +17,7 @@ public ISlide InsertEmptySlide(int index, ILayoutSlide layout)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | index | Int32 | 新幻灯片的索引。 |
-| layout | ILayoutSlide | 幻灯片布局。 |
+| layout | ILayoutSlide | 幻灯片的布局。 |
 
 ### 返回值
 

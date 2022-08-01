@@ -22,7 +22,7 @@ public IMathSubscriptElement CreateMathSubscriptElement(IMathElement baseArg,
 
 ### 返回值
 
-new IMathSubscriptElement
+新的 IMathSubscriptElement
 
 ### 也可以看看
 

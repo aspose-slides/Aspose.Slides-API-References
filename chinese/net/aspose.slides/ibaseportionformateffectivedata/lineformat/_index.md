@@ -1,14 +1,14 @@
 ---
 title: LineFormat
 second_title: Aspose.Slides for .NET API 参考
-description: 返回文本轮廓的 LineFormat 属性 只读ILineFormatEffectiveDataaspose.slides/ilineformateffectivedata
+description: 返回文本轮廓的 LineFormat 属性 只读ILineFormatEffectiveDataaspose.slides/ilineformateffectivedata.
 type: docs
 weight: 180
 url: /zh/net/aspose.slides/ibaseportionformateffectivedata/lineformat/
 ---
 ## IBasePortionFormatEffectiveData.LineFormat property
 
-返回文本轮廓的 LineFormat 属性。 只读[`ILineFormatEffectiveData`](../../ilineformateffectivedata)。
+返回文本轮廓的 LineFormat 属性。 只读[`ILineFormatEffectiveData`](../../ilineformateffectivedata).
 
 ```csharp
 public ILineFormatEffectiveData LineFormat { get; }

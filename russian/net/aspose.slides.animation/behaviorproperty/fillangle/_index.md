@@ -8,7 +8,7 @@ url: /ru/net/aspose.slides.animation/behaviorproperty/fillangle/
 ---
 ## BehaviorProperty.FillAngle property
 
-Представляет свойство 'fill.angle'
+Представляет свойство fill.angle
 
 ```csharp
 public static BehaviorProperty FillAngle { get; }

@@ -1,14 +1,14 @@
 ---
 title: StylePreset
 second_title: Aspose.Slides for .NET API 参考
-description: 获取或设置内置表格样式 读/写TableStylePresetaspose.slides/tablestylepreset
+description: 获取或设置内置表格样式 读/写TableStylePresetaspose.slides/tablestylepreset.
 type: docs
 weight: 120
 url: /zh/net/aspose.slides/itable/stylepreset/
 ---
 ## ITable.StylePreset property
 
-获取或设置内置表格样式。 读/写[`TableStylePreset`](../../tablestylepreset)。
+获取或设置内置表格样式。 读/写[`TableStylePreset`](../../tablestylepreset).
 
 ```csharp
 public TableStylePreset StylePreset { get; set; }

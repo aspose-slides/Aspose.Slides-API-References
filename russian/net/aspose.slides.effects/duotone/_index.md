@@ -1,14 +1,14 @@
 ---
 title: Duotone
 second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет эффект Duotone. Для каждого пикселя объединяет Color1 и Color2 посредством линейной интерполяции для определения нового цвета для этого пикселя.
+description: Представляет эффект Duotone. Для каждого пикселя объединяет Цвет1 и Цвет2 посредством линейной интерполяции для определения нового цвета для этого пикселя.
 type: docs
 weight: 2780
 url: /ru/net/aspose.slides.effects/duotone/
 ---
 ## Duotone class
 
-Представляет эффект Duotone. Для каждого пикселя объединяет Color1 и Color2 посредством линейной интерполяции для определения нового цвета для этого пикселя.
+Представляет эффект Duotone. Для каждого пикселя объединяет Цвет1 и Цвет2 посредством линейной интерполяции для определения нового цвета для этого пикселя.
 
 ```csharp
 public class Duotone : ImageTransformOperation, IDuotone
@@ -18,17 +18,17 @@ public class Duotone : ImageTransformOperation, IDuotone
 
 | Имя | Описание |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Позволяет получить базовый интерфейс IPresentationComponent. Только для чтения[`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
-| [Color1](../../aspose.slides.effects/duotone/color1) { get; } | Возвращает формат целевого цвета для темных пикселей. Только для чтения[`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Color2](../../aspose.slides.effects/duotone/color2) { get; } | Возвращает формат целевого цвета для светлых пикселей. Только для чтения[`IColorFormat`](../../aspose.slides/icolorformat). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Позволяет получить базовый интерфейс IPresentationComponent. Только для чтения[`IPresentationComponent`](../../aspose.slides/ipresentationcomponent) . |
+| [Color1](../../aspose.slides.effects/duotone/color1) { get; } | Возвращает формат целевого цвета для темных пикселей. Только для чтения[`IColorFormat`](../../aspose.slides/icolorformat) . |
+| [Color2](../../aspose.slides.effects/duotone/color2) { get; } | Возвращает формат целевого цвета для светлых пикселей. Только для чтения[`IColorFormat`](../../aspose.slides/icolorformat) . |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/duotone/equals)(object) | Определяет, равен ли указанный[`Duotone`](../duotone)текущемуDuotone. |
-| [GetEffective](../../aspose.slides.effects/duotone/geteffective)() | Получает эффективные данные эффекта Duotone с применением наследования. |
-| override [GetHashCode](../../aspose.slides.effects/duotone/gethashcode)() | Служит хэш-функцией для определенного типа. |
+| override [Equals](../../aspose.slides.effects/duotone/equals)(object) | Определяет, является ли указанный[`Duotone`](../duotone) равен текущему[`Duotone`](../duotone) . |
+| [GetEffective](../../aspose.slides.effects/duotone/geteffective)() | Получает данные об эффекте Duotone с применением наследования. |
+| override [GetHashCode](../../aspose.slides.effects/duotone/gethashcode)() | Служит хеш-функцией для определенного типа. |
 
 ### Смотрите также
 

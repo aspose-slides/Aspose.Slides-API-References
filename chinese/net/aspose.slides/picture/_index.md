@@ -11,19 +11,19 @@ url: /zh/net/aspose.slides/picture/
 表示演示文稿中的图片。
 
 ```csharp
-public class Picture : PVIObject, ISlidesPicture
+public class Picture : ISlidesPicture
 ```
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允许获取基本 IPresentationComponent 接口。 只读[`IPresentationComponent`](../ipresentationcomponent)。 |
-| [Image](../../aspose.slides/picture/image) { get; set; } | 返回或设置嵌入图像。 读/写[`IPPImage`](../ippimage)。 |
-| [ImageTransform](../../aspose.slides/picture/imagetransform) { get; } | 返回图像变换效果的集合。 只读[`IImageTransformOperationCollection`](../../aspose.slides.effects/iimagetransformoperationcollection)。 |
-| [LinkPathLong](../../aspose.slides/picture/linkpathlong) { get; set; } | 返回集合链接图像的 URL。 读/写String。 |
-| [Presentation](../../aspose.slides/picture/presentation) { get; } | 返回演示文稿。 只读[`IPresentation`](../ipresentation)。 |
-| [Slide](../../aspose.slides/picture/slide) { get; } | 返回图片的父幻灯片。 只读[`IBaseSlide`](../ibaseslide)。 |
+| [AsIPresentationComponent](../../aspose.slides/picture/asipresentationcomponent) { get; } | 允许获取基本 IPresentationComponent 接口。 只读[`IPresentationComponent`](../ipresentationcomponent). |
+| [Image](../../aspose.slides/picture/image) { get; set; } | 返回或设置嵌入的图像。 读/写[`IPPImage`](../ippimage). |
+| [ImageTransform](../../aspose.slides/picture/imagetransform) { get; } | 返回图像变换效果的集合。 只读[`IImageTransformOperationCollection`](../../aspose.slides.effects/iimagetransformoperationcollection). |
+| [LinkPathLong](../../aspose.slides/picture/linkpathlong) { get; set; } | 返回集合链接图像的 URL。 读/写String. |
+| [Presentation](../../aspose.slides/picture/presentation) { get; } | 返回演示文稿。 只读[`IPresentation`](../ipresentation). |
+| [Slide](../../aspose.slides/picture/slide) { get; } | 返回图片的父幻灯片。 只读[`IBaseSlide`](../ibaseslide). |
 
 ## 方法
 
@@ -34,7 +34,6 @@ public class Picture : PVIObject, ISlidesPicture
 
 ### 也可以看看
 
-* class [PVIObject](../pviobject)
 * interface [ISlidesPicture](../islidespicture)
 * 命名空间 [Aspose.Slides](../../aspose.slides)
 * 部件 [Aspose.Slides](../../)

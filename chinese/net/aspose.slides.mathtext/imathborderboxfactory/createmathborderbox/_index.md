@@ -1,14 +1,14 @@
 ---
 title: CreateMathBorderBox
 second_title: Aspose.Slides for .NET API 参考
-description: 通过应用于元素
+description: 通过应用于 element 创建一个数学边界框
 type: docs
 weight: 10
 url: /zh/net/aspose.slides.mathtext/imathborderboxfactory/createmathborderbox/
 ---
 ## CreateMathBorderBox(IMathElement) {#createmathborderbox}
 
-通过应用于元素
+通过应用于 element 创建一个数学边界框
 
 ```csharp
 public IMathBorderBox CreateMathBorderBox(IMathElement element)
@@ -16,11 +16,11 @@ public IMathBorderBox CreateMathBorderBox(IMathElement element)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| element | IMathElement | 创建数学边框数学元素应用边框 |
+| element | IMathElement | 应用边框的数学元素 |
 
 ### 返回值
 
-新边框元素
+新的边框框元素
 
 ### 也可以看看
 
@@ -34,7 +34,7 @@ public IMathBorderBox CreateMathBorderBox(IMathElement element)
 
 ## CreateMathBorderBox(IMathElement, bool, bool, bool, bool, bool, bool, bool, bool) {#createmathborderbox_1}
 
-通过应用于元素
+通过应用于 element 创建一个数学边界框
 
 ```csharp
 public IMathBorderBox CreateMathBorderBox(IMathElement element, bool hideTop, bool hideBottom, 
@@ -44,19 +44,19 @@ public IMathBorderBox CreateMathBorderBox(IMathElement element, bool hideTop, bo
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| element | IMathElement | 创建数学边框应用边框的数学元素 |
+| element | IMathElement | 应用边框的数学元素 |
 | hideTop | Boolean | 隐藏顶部边缘 |
-| hideBottom | Boolean | 隐藏底部边缘 |
+| hideBottom | Boolean | 隐藏底边 |
 | hideLeft | Boolean | 隐藏左边缘 |
 | hideRight | Boolean | 隐藏右边缘 |
-| strikethroughHorizontal | Boolean | 边界框水平删除线 |
-| strikethroughVertical | Boolean | 边界框垂直删除线 |
-| strikethroughBottomLeftToTopRight | Boolean | 边框从左下到右上删除线 |
-| strikethroughTopLeftToBottomRight | Boolean | 边框从左上到右下删除线 |
+| strikethroughHorizontal | Boolean | 边界框删除线水平 |
+| strikethroughVertical | Boolean | 边框框删除线垂直 |
+| strikethroughBottomLeftToTopRight | Boolean | 边框框删除线从左下到右上角 |
+| strikethroughTopLeftToBottomRight | Boolean | 边框框删除线从左上到右下 |
 
 ### 返回值
 
-新边框元素
+新的边框框元素
 
 ### 也可以看看
 

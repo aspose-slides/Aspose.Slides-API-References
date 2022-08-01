@@ -1,14 +1,14 @@
 ---
 title: ToColor
 second_title: Aspose.Slides for .NET API 参考
-description: 将替换的颜色 只读Color
+description: 将替换的颜色 只读Color.
 type: docs
 weight: 30
 url: /zh/net/aspose.slides.effects/icolorchangeeffectivedata/tocolor/
 ---
 ## IColorChangeEffectiveData.ToColor property
 
-将替换的颜色。 只读Color。
+将替换的颜色。 只读Color.
 
 ```csharp
 public Color ToColor { get; }

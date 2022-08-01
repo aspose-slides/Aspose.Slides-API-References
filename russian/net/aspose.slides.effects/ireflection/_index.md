@@ -19,22 +19,22 @@ public interface IReflection : IAccessiblePVIObject<IReflectionEffectiveData>,
 
 | Имя | Описание |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ireflection/asiaccessiblepviobject) { get; } | Позволяет получить базовый интерфейс IAccessiblePVIObject. Только чтение[`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ireflection/asiimagetransformoperation) { get; } | Позволяет получить базовый интерфейс IImageTransformOperation. Только для чтения[`IImageTransformOperation`](../iimagetransformoperation). |
-| [BlurRadius](../../aspose.slides.effects/ireflection/blurradius) { get; set; } | Радиус размытия. Чтение/записьDouble. |
-| [Direction](../../aspose.slides.effects/ireflection/direction) { get; set; } | Направление отражения. Чтение/записьSingle. |
-| [Distance](../../aspose.slides.effects/ireflection/distance) { get; set; } | Расстояние отражения. Чтение/записьDouble. |
-| [EndPosAlpha](../../aspose.slides.effects/ireflection/endposalpha) { get; set; } | Задает конечное положение (вдоль линейного градиента альфа-канала) конечного значения альфа-канала (в процентах). Чтение/записьSingle. |
-| [EndReflectionOpacity](../../aspose.slides.effects/ireflection/endreflectionopacity) { get; set; } | Непрозрачность конечного отражения. (проценты). Чтение/записьSingle. |
-| [FadeDirection](../../aspose.slides.effects/ireflection/fadedirection) { get; set; } | Задает направление смещения отражения. (угол). Чтение/записьSingle. |
-| [RectangleAlign](../../aspose.slides.effects/ireflection/rectanglealign) { get; set; } | Выравнивание прямоугольника. Чтение/запись[`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
-| [RotateShadowWithShape](../../aspose.slides.effects/ireflection/rotateshadowwithshape) { get; set; } | Указывает, должно ли отражение вращаться вместе с фигурой, если фигура вращается. Чтение/записьBoolean. |
-| [ScaleHorizontal](../../aspose.slides.effects/ireflection/scalehorizontal) { get; set; } | Задает коэффициент масштабирования по горизонтали, отрицательное масштабирование приводит к перевороту. (проценты) Чтение/записьDouble. |
-| [ScaleVertical](../../aspose.slides.effects/ireflection/scalevertical) { get; set; } | Определяет коэффициент масштабирования по вертикали, отрицательное масштабирование приводит к перевороту. (проценты) Чтение/записьDouble. |
-| [SkewHorizontal](../../aspose.slides.effects/ireflection/skewhorizontal) { get; set; } | Задает угол наклона по горизонтали. Чтение/записьDouble. |
-| [SkewVertical](../../aspose.slides.effects/ireflection/skewvertical) { get; set; } | Указывает вертикальный угол наклона. Чтение/записьDouble. |
-| [StartPosAlpha](../../aspose.slides.effects/ireflection/startposalpha) { get; set; } | Определяет начальную позицию (вдоль шкалы альфа-градиента) начального значения альфа-канала (в процентах). Чтение/записьSingle. |
-| [StartReflectionOpacity](../../aspose.slides.effects/ireflection/startreflectionopacity) { get; set; } | Начальная непрозрачность отражения. (проценты). Чтение/записьSingle. |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ireflection/asiaccessiblepviobject) { get; } | Позволяет получить базовый интерфейс IAccessiblePVIObject. Только для чтения[`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1) . |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ireflection/asiimagetransformoperation) { get; } | Позволяет получить базовый интерфейс IImageTransformOperation. Только для чтения[`IImageTransformOperation`](../iimagetransformoperation) . |
+| [BlurRadius](../../aspose.slides.effects/ireflection/blurradius) { get; set; } | Радиус размытия. Чтение/записьDouble . |
+| [Direction](../../aspose.slides.effects/ireflection/direction) { get; set; } | Направление отражения. Чтение/записьSingle . |
+| [Distance](../../aspose.slides.effects/ireflection/distance) { get; set; } | Расстояние отражения. Чтение/записьDouble . |
+| [EndPosAlpha](../../aspose.slides.effects/ireflection/endposalpha) { get; set; } | Определяет конечное положение (вдоль шкалы альфа-градиента) конечного значения альфа-канала (в процентах). Чтение/записьSingle . |
+| [EndReflectionOpacity](../../aspose.slides.effects/ireflection/endreflectionopacity) { get; set; } | Непрозрачность конечного отражения. (проценты). Чтение/записьSingle . |
+| [FadeDirection](../../aspose.slides.effects/ireflection/fadedirection) { get; set; } | Определяет направление смещения отражения. (угол). Чтение/записьSingle . |
+| [RectangleAlign](../../aspose.slides.effects/ireflection/rectanglealign) { get; set; } | Выравнивание прямоугольника. Чтение/запись[`RectangleAlignment`](../../aspose.slides/rectanglealignment) . |
+| [RotateShadowWithShape](../../aspose.slides.effects/ireflection/rotateshadowwithshape) { get; set; } | Указывает, должно ли отражение вращаться вместе с фигурой, если фигура вращается. Чтение/записьBoolean . |
+| [ScaleHorizontal](../../aspose.slides.effects/ireflection/scalehorizontal) { get; set; } | Определяет коэффициент масштабирования по горизонтали, отрицательное масштабирование приводит к флипу. (проценты) Чтение/записьDouble . |
+| [ScaleVertical](../../aspose.slides.effects/ireflection/scalevertical) { get; set; } | Определяет коэффициент масштабирования по вертикали, отрицательное масштабирование приводит к флипу. (проценты) Чтение/записьDouble . |
+| [SkewHorizontal](../../aspose.slides.effects/ireflection/skewhorizontal) { get; set; } | Задает угол наклона по горизонтали. Чтение/записьDouble . |
+| [SkewVertical](../../aspose.slides.effects/ireflection/skewvertical) { get; set; } | Определяет вертикальный угол наклона. Чтение/записьDouble . |
+| [StartPosAlpha](../../aspose.slides.effects/ireflection/startposalpha) { get; set; } | Указывает начальную позицию (вдоль линейного градиента альфа-канала) начального значения альфа-канала (в процентах). Чтение/записьSingle . |
+| [StartReflectionOpacity](../../aspose.slides.effects/ireflection/startreflectionopacity) { get; set; } | Начальная непрозрачность отражения. (проценты). Чтение/записьSingle . |
 
 ### Смотрите также
 

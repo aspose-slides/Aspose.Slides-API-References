@@ -1,14 +1,14 @@
 ---
 title: MarginRight
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или задает правое поле в точках в TextFrame. Изменение этого свойства может оказать определенное влияние только на следующие части диаграммы DataLabel и DataLabelFormat полная поддержка в PowerPoint 2013 в PowerPoint 2007 нет эффекта для рендеринга. Чтение/записьDouble.
+description: Возвращает или задает правое поле в точках в TextFrame. Изменение этого свойства может оказать определенное влияние только на следующие части диаграммы . Чтение/записьDouble .
 type: docs
 weight: 60
 url: /ru/net/aspose.slides.charts/icharttextblockformat/marginright/
 ---
 ## IChartTextBlockFormat.MarginRight property
 
-Возвращает или задает правое поле (в точках) в TextFrame. Изменение этого свойства может оказать определенное влияние только на следующие части диаграммы: DataLabel и DataLabelFormat (полная поддержка в PowerPoint 2013; в PowerPoint 2007 нет эффекта для рендеринга). Чтение/записьDouble.
+Возвращает или задает правое поле (в точках) в TextFrame. Изменение этого свойства может оказать определенное влияние только на следующие части диаграммы: ). Чтение/записьDouble .
 
 ```csharp
 public double MarginRight { get; set; }

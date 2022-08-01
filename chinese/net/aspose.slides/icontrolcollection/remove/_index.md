@@ -1,14 +1,14 @@
 ---
 title: Remove
 second_title: Aspose.Slides for .NET API 参考
-description: 从集合中删除 ActiveX 控件
+description: 从集合中删除一个 ActiveX 控件
 type: docs
 weight: 40
 url: /zh/net/aspose.slides/icontrolcollection/remove/
 ---
 ## IControlCollection.Remove method
 
-从集合中删除 ActiveX 控件。
+从集合中删除一个 ActiveX 控件。
 
 ```csharp
 public void Remove(IControl item)

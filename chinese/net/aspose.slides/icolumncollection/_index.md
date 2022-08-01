@@ -18,13 +18,13 @@ public interface IColumnCollection : IGenericCollection<IColumn>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Item](../../aspose.slides/icolumncollection/item) { get; } | 返回指定索引处的列。 只读[`IColumn`](../icolumn)。 |
+| [Item](../../aspose.slides/icolumncollection/item) { get; } | 返回指定索引处的列。 只读[`IColumn`](../icolumn). |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AddClone](../../aspose.slides/icolumncollection/addclone)(IColumn, bool) | 创建指定模板行的副本并将其插入表格底部。 |
+| [AddClone](../../aspose.slides/icolumncollection/addclone)(IColumn, bool) | 创建指定模板行的副本并将其插入到表的底部。 |
 | [InsertClone](../../aspose.slides/icolumncollection/insertclone)(int, IColumn, bool) | 创建指定模板列的副本并将其插入到表中的指定位置。 |
 | [RemoveAt](../../aspose.slides/icolumncollection/removeat)(int, bool) | 从表中删除指定位置的列。 |
 

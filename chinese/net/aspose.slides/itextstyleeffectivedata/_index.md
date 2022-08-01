@@ -18,7 +18,7 @@ public interface ITextStyleEffectiveData
 
 | 姓名 | 描述 |
 | --- | --- |
-| [DefaultParagraphFormat](../../aspose.slides/itextstyleeffectivedata/defaultparagraphformat) { get; } | 返回有效的默认段落属性。 只读[`IParagraphFormatEffectiveData`](../iparagraphformateffectivedata)。 |
+| [DefaultParagraphFormat](../../aspose.slides/itextstyleeffectivedata/defaultparagraphformat) { get; } | 返回有效的默认段落属性。 只读[`IParagraphFormatEffectiveData`](../iparagraphformateffectivedata). |
 
 ## 方法
 
@@ -28,7 +28,7 @@ public interface ITextStyleEffectiveData
 
 ### 评论
 
-此接口与ITextStyle一起使用接口返回应用继承的有效格式值。
+该接口与[`ITextStyle`](../itextstyle)返回应用继承的有效格式值的接口。
 
 ### 也可以看看
 

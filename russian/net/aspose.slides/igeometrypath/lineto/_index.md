@@ -1,14 +1,14 @@
 ---
 title: LineTo
 second_title: Справочник по API Aspose.Slides для .NET
-description: Добавляет линию в конец пути
+description: Добавляет строку в конец пути
 type: docs
 weight: 70
 url: /ru/net/aspose.slides/igeometrypath/lineto/
 ---
 ## LineTo(PointF) {#lineto_2}
 
-Добавляет линию в конец пути
+Добавляет строку в конец пути
 
 ```csharp
 public void LineTo(PointF point)
@@ -16,7 +16,7 @@ public void LineTo(PointF point)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| point | PointF | Конечная точка строки |
+| point | PointF | Конечная точка линии |
 
 ### Смотрите также
 
@@ -28,7 +28,7 @@ public void LineTo(PointF point)
 
 ## LineTo(float, float) {#lineto}
 
-Добавляет линию в конец пути
+Добавляет строку в конец пути
 
 ```csharp
 public void LineTo(float x, float y)
@@ -36,7 +36,7 @@ public void LineTo(float x, float y)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| x | Single | Координата X конечной точки линии |
+| x | Single | X координата конечной точки линии |
 | y | Single | Координата Y конечной точки линии |
 
 ### Смотрите также
@@ -57,14 +57,14 @@ public void LineTo(PointF point, uint index)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| point | PointF | End point |
+| point | PointF | Конечная точка |
 | index | UInt32 | Индекс сегмента в PathData |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentOutOfRangeException | Индекс сегмента отсутствует диапазона PathData |
+| ArgumentOutOfRangeException | Индекс сегмента выходит за пределы диапазона PathData |
 
 ### Смотрите также
 
@@ -85,14 +85,14 @@ public void LineTo(float x, float y, uint index)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | x | Single | X координата точки |
-| y | Single | Y координата точки |
+| y | Single | координата Y точки |
 | index | UInt32 | Индекс сегмента в PathData |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentOutOfRangeException | Индекс сегмента вне диапазона PathData |
+| ArgumentOutOfRangeException | Индекс сегмента выходит за пределы диапазона PathData |
 
 ### Смотрите также
 

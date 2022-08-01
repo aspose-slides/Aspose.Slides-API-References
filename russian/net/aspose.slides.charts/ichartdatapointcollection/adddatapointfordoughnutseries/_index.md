@@ -1,14 +1,14 @@
 ---
 title: AddDataPointForDoughnutSeries
 second_title: Справочник по API Aspose.Slides для .NET
-description: Создает новую точку данных и добавляет ее в конец коллекции. Применимо для серий чей тип диаграммы является одним из подтипов Пончика см. также метод ChartTypeCharacterizer.IsChartTypeDoughnutChartType.
+description: Создает новую точку данных и добавляет ее в конец коллекции. Применяется для рядов тип диаграммы которых является одним из подтипов пончика см. также метод ChartTypeCharacterizer.IsChartTypeDoughnutChartType.
 type: docs
 weight: 110
 url: /ru/net/aspose.slides.charts/ichartdatapointcollection/adddatapointfordoughnutseries/
 ---
 ## AddDataPointForDoughnutSeries(IChartDataCell) {#adddatapointfordoughnutseries}
 
-Создает новую точку данных и добавляет ее в конец коллекции. Применимо для серий, чей тип диаграммы является одним из подтипов Пончика (см. также метод ChartTypeCharacterizer.IsChartTypeDoughnut(ChartType)).
+Создает новую точку данных и добавляет ее в конец коллекции. Применяется для рядов, тип диаграммы которых является одним из подтипов пончика (см. также метод ChartTypeCharacterizer.IsChartTypeDoughnut(ChartType)).
 
 ```csharp
 public IChartDataPoint AddDataPointForDoughnutSeries(IChartDataCell value)
@@ -16,7 +16,7 @@ public IChartDataPoint AddDataPointForDoughnutSeries(IChartDataCell value)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| значение | IChartDataCell | Точка данных Значение |
+| value | IChartDataCell | Точка данных Значение |
 
 ### Возвращаемое значение
 
@@ -34,7 +34,7 @@ public IChartDataPoint AddDataPointForDoughnutSeries(IChartDataCell value)
 
 ## AddDataPointForDoughnutSeries(double) {#adddatapointfordoughnutseries_1}
 
-Создает новую точку данных и добавляет ее в конец коллекции. Применимо для серий, чей тип диаграммы является одним из подтипов Пончика (см. также метод ChartTypeCharacterizer.IsChartTypeDoughnut(ChartType)).
+Создает новую точку данных и добавляет ее в конец коллекции. Применяется для рядов, тип диаграммы которых является одним из подтипов пончика (см. также метод ChartTypeCharacterizer.IsChartTypeDoughnut(ChartType)).
 
 ```csharp
 public IChartDataPoint AddDataPointForDoughnutSeries(double value)
@@ -42,7 +42,7 @@ public IChartDataPoint AddDataPointForDoughnutSeries(double value)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| значение | Double | Точка данных Значение |
+| value | Double | Точка данных Значение |
 
 ### Возвращаемое значение
 

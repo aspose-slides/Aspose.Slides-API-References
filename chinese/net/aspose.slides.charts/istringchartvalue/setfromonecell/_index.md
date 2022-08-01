@@ -1,14 +1,14 @@
 ---
 title: SetFromOneCell
 second_title: Aspose.Slides for .NET API 参考
-description: 从指定单元格设置值
+description: 设置指定单元格的值
 type: docs
 weight: 40
 url: /zh/net/aspose.slides.charts/istringchartvalue/setfromonecell/
 ---
 ## IStringChartValue.SetFromOneCell method
 
-从指定单元格设置值。
+设置指定单元格的值。
 
 ```csharp
 public void SetFromOneCell(IChartDataCell cell)
@@ -16,7 +16,7 @@ public void SetFromOneCell(IChartDataCell cell)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| cell | IChartDataCell | 单元格。 |
+| cell | IChartDataCell | 细胞。 |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: GetEmbeddedFonts
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает встроенные в презентацию шрифты
+description: Возвращает шрифты встроенные в презентацию
 type: docs
 weight: 40
 url: /ru/net/aspose.slides/ifontsmanager/getembeddedfonts/
 ---
 ## IFontsManager.GetEmbeddedFonts method
 
-Возвращает встроенные в презентацию шрифты
+Возвращает шрифты, встроенные в презентацию
 
 ```csharp
 public IFontData[] GetEmbeddedFonts()

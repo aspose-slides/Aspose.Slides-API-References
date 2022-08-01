@@ -1,14 +1,14 @@
 ---
 title: MasterTheme
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает основную тему. Только для чтенияIMasterThemeaspose.slides.theme/imastertheme.
+description: Возвращает основную тему. Только для чтенияIMasterThemeaspose.slides.theme/imastertheme .
 type: docs
 weight: 190
 url: /ru/net/aspose.slides/presentation/mastertheme/
 ---
 ## Presentation.MasterTheme property
 
-Возвращает основную тему. Только для чтения[`IMasterTheme`](../../../aspose.slides.theme/imastertheme).
+Возвращает основную тему. Только для чтения[`IMasterTheme`](../../../aspose.slides.theme/imastertheme) .
 
 ```csharp
 public IMasterTheme MasterTheme { get; }

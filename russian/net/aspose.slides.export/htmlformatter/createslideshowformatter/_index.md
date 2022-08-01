@@ -17,7 +17,7 @@ public static HtmlFormatter CreateSlideShowFormatter(string css, bool showSlideT
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | css | String | Указывает URL-адрес используемого файла CCS. |
-| showSlideTitle | Boolean | Добавить заголовок слайда, если есть изображение над слайдом. |
+| showSlideTitle | Boolean | Добавьте название слайда, если над слайдом есть одно изображение. |
 
 ### Смотрите также
 

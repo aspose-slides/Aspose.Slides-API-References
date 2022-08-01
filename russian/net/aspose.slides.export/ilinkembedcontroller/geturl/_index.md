@@ -1,14 +1,14 @@
 ---
 title: GetUrl
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает URL внешнего объекта. Этот метод всегда вызывается еслиStringвозвращаетсяLinkи может вызываться еслиGetObjectStoringLocationaspose.slides.export/ilinkembedcontroller/getobjectstoringlocationвозвращеноEmbedно встраивание невозможно. Может вызываться несколько раз для одного и того же идентификатора объекта.
+description: Возвращает URL-адрес внешнего объекта. Этот метод всегда вызывается еслиGetObjectStoringLocationaspose.slides.export/ilinkembedcontroller/getobjectstoringlocation вернулсяLink и может быть вызван еслиGetObjectStoringLocationaspose.slides.export/ilinkembedcontroller/getobjectstoringlocation вернулсяEmbedно встраивание невозможно. Может вызываться несколько раз для одного и того же идентификатора объекта.
 type: docs
 weight: 20
 url: /ru/net/aspose.slides.export/ilinkembedcontroller/geturl/
 ---
 ## ILinkEmbedController.GetUrl method
 
-Возвращает URL внешнего объекта. Этот метод всегда вызывается, еслиStringвозвращаетсяLinkи может вызываться, если[`GetObjectStoringLocation`](../getobjectstoringlocation)возвращеноEmbedно встраивание невозможно. Может вызываться несколько раз для одного и того же идентификатора объекта.
+Возвращает URL-адрес внешнего объекта. Этот метод всегда вызывается, если[`GetObjectStoringLocation`](../getobjectstoringlocation) вернулсяLink и может быть вызван, если[`GetObjectStoringLocation`](../getobjectstoringlocation) вернулсяEmbedно встраивание невозможно. Может вызываться несколько раз для одного и того же идентификатора объекта.
 
 ```csharp
 public string GetUrl(int id, int referrer)

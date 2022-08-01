@@ -1,14 +1,14 @@
 ---
 title: HighlightColor
 second_title: Aspose.Slides for .NET API 参考
-description: 返回用于突出显示文本的颜色 只读Color
+description: 返回用于突出显示文本的颜色 只读Color.
 type: docs
 weight: 110
 url: /zh/net/aspose.slides/ibaseportionformateffectivedata/highlightcolor/
 ---
 ## IBasePortionFormatEffectiveData.HighlightColor property
 
-返回用于突出显示文本的颜色。 只读Color。
+返回用于突出显示文本的颜色。 只读Color.
 
 ```csharp
 public Color HighlightColor { get; }

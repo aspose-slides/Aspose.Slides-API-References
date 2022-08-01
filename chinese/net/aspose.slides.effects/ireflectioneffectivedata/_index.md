@@ -18,21 +18,21 @@ public interface IReflectionEffectiveData : IEffectEffectiveData
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ireflectioneffectivedata/asieffecteffectivedata) { get; } | 允许获取基础 IEffectEffectiveData 接口。 只读[`IEffectEffectiveData`](../ieffecteffectivedata)。 |
-| [BlurRadius](../../aspose.slides.effects/ireflectioneffectivedata/blurradius) { get; } | 模糊半径。 只读Double。 |
-| [Direction](../../aspose.slides.effects/ireflectioneffectivedata/direction) { get; } | 反射方向。 只读Single。 |
-| [Distance](../../aspose.slides.effects/ireflectioneffectivedata/distance) { get; } | 反射距离。 只读Double。 |
-| [EndPosAlpha](../../aspose.slides.effects/ireflectioneffectivedata/endposalpha) { get; } | 指定结束 alpha 值（百分比）的结束位置（沿着 alpha 渐变斜坡）。 只读Single。 |
-| [EndReflectionOpacity](../../aspose.slides.effects/ireflectioneffectivedata/endreflectionopacity) { get; } | 结束反射不透明度。 （百分比）。 只读Single。 |
-| [FadeDirection](../../aspose.slides.effects/ireflectioneffectivedata/fadedirection) { get; } | 指定偏移反射的方向。 （角度）。 只读Single。 |
-| [RectangleAlign](../../aspose.slides.effects/ireflectioneffectivedata/rectanglealign) { get; } | 矩形对齐。 只读[`RectangleAlignment`](../../aspose.slides/rectanglealignment)。 |
-| [RotateShadowWithShape](../../aspose.slides.effects/ireflectioneffectivedata/rotateshadowwithshape) { get; } | 指定如果形状旋转，反射是否应随形状旋转。 只读Boolean。 |
-| [ScaleHorizontal](../../aspose.slides.effects/ireflectioneffectivedata/scalehorizontal) { get; } | 指定水平缩放因子，负缩放会导致翻转。 （百分比） 只读Double。 |
-| [ScaleVertical](../../aspose.slides.effects/ireflectioneffectivedata/scalevertical) { get; } | 指定垂直缩放因子，负缩放会导致翻转。 （百分比） 只读Double。 |
-| [SkewHorizontal](../../aspose.slides.effects/ireflectioneffectivedata/skewhorizontal) { get; } | 指定水平倾斜角度。 只读Double。 |
-| [SkewVertical](../../aspose.slides.effects/ireflectioneffectivedata/skewvertical) { get; } | 指定垂直倾斜角度。 只读Double。 |
-| [StartPosAlpha](../../aspose.slides.effects/ireflectioneffectivedata/startposalpha) { get; } | 指定起始 alpha 值（百分比）的起始位置（沿着 alpha 渐变斜坡）。 只读Single。 |
-| [StartReflectionOpacity](../../aspose.slides.effects/ireflectioneffectivedata/startreflectionopacity) { get; } | 开始反射不透明度。 （百分比）。 只读Single。 |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ireflectioneffectivedata/asieffecteffectivedata) { get; } | 允许获取基本 IEffectEffectiveData 接口。 只读[`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [BlurRadius](../../aspose.slides.effects/ireflectioneffectivedata/blurradius) { get; } | 模糊半径。 只读Double. |
+| [Direction](../../aspose.slides.effects/ireflectioneffectivedata/direction) { get; } | 反射方向。 只读Single. |
+| [Distance](../../aspose.slides.effects/ireflectioneffectivedata/distance) { get; } | 反射距离。 只读Double. |
+| [EndPosAlpha](../../aspose.slides.effects/ireflectioneffectivedata/endposalpha) { get; } | 指定结束 alpha 值（百分比）的结束位置（沿着 alpha 渐变斜坡）。 只读Single. |
+| [EndReflectionOpacity](../../aspose.slides.effects/ireflectioneffectivedata/endreflectionopacity) { get; } | 结束反射不透明度。 （百分比）. 只读Single. |
+| [FadeDirection](../../aspose.slides.effects/ireflectioneffectivedata/fadedirection) { get; } | 指定偏移反射的方向。 (角度). 只读Single. |
+| [RectangleAlign](../../aspose.slides.effects/ireflectioneffectivedata/rectanglealign) { get; } | 矩形对齐。 只读[`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
+| [RotateShadowWithShape](../../aspose.slides.effects/ireflectioneffectivedata/rotateshadowwithshape) { get; } | 指定如果形状旋转，反射是否应随形状旋转。 只读Boolean. |
+| [ScaleHorizontal](../../aspose.slides.effects/ireflectioneffectivedata/scalehorizontal) { get; } | 指定水平缩放因子，负缩放会导致翻转。 （百分比） 只读Double. |
+| [ScaleVertical](../../aspose.slides.effects/ireflectioneffectivedata/scalevertical) { get; } | 指定垂直缩放因子，负缩放会导致翻转。 （百分比） 只读Double. |
+| [SkewHorizontal](../../aspose.slides.effects/ireflectioneffectivedata/skewhorizontal) { get; } | 指定水平倾斜角度。 只读Double. |
+| [SkewVertical](../../aspose.slides.effects/ireflectioneffectivedata/skewvertical) { get; } | 指定垂直倾斜角度。 只读Double. |
+| [StartPosAlpha](../../aspose.slides.effects/ireflectioneffectivedata/startposalpha) { get; } | 指定起始 alpha 值（百分比）的起始位置（沿着 alpha 渐变斜坡）。 只读Single. |
+| [StartReflectionOpacity](../../aspose.slides.effects/ireflectioneffectivedata/startreflectionopacity) { get; } | 开始反射不透明度。 （百分比）. 只读Single. |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: Name
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает имя этого значения настройки. Только чтениеString.
+description: Возвращает имя этого значения настройки. Только для чтенияString .
 type: docs
 weight: 20
 url: /ru/net/aspose.slides/adjustvalue/name/
 ---
 ## AdjustValue.Name property
 
-Возвращает имя этого значения настройки. Только чтениеString.
+Возвращает имя этого значения настройки. Только для чтенияString .
 
 ```csharp
 public string Name { get; }

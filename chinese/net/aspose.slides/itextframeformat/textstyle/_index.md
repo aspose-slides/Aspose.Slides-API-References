@@ -1,14 +1,14 @@
 ---
 title: TextStyle
 second_title: Aspose.Slides for .NET API 参考
-description: 返回文本的样式 只读ITextStyleaspose.slides/itextstyle
+description: 返回文本的样式 只读ITextStyleaspose.slides/itextstyle.
 type: docs
 weight: 120
 url: /zh/net/aspose.slides/itextframeformat/textstyle/
 ---
 ## ITextFrameFormat.TextStyle property
 
-返回文本的样式。 只读[`ITextStyle`](../../itextstyle)。
+返回文本的样式。 只读[`ITextStyle`](../../itextstyle).
 
 ```csharp
 public ITextStyle TextStyle { get; }

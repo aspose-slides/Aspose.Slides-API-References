@@ -22,11 +22,11 @@ public void RemoveAt(int index)
 
 | исключение | условие |
 | --- | --- |
-| [PptxEditException](../../pptxeditexception) | Вызывается, если удаляемый мастер используется в презентации (его свойство HasDependingSlides равно true). |
+| [PptxEditException](../../pptxeditexception) | Генерируется, если удаляемый образец используется в презентации (его свойство HasDependingSlides равно true). |
 
 ### Примечания
 
-Чтобы избежать создания исключения PptxEditException, предварительно проверьте свойство HasDependingSlides мастера.
+Чтобы избежать создания PptxEditException, проверьте свойство HasDependingSlides мастера перед.
 
 ### Смотрите также
 

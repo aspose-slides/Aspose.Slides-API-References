@@ -1,14 +1,14 @@
 ---
 title: IVbaReferenceFactory
 second_title: Справочник по API Aspose.Slides для .NET
-description: Позволяет создавать ссылки на проекты VBA через COM-интерфейс
+description: Позволяет создавать ссылки на проекты VBA через интерфейс COM
 type: docs
 weight: 10780
 url: /ru/net/aspose.slides.vba/ivbareferencefactory/
 ---
 ## IVbaReferenceFactory interface
 
-Позволяет создавать ссылки на проекты VBA через COM-интерфейс
+Позволяет создавать ссылки на проекты VBA через интерфейс COM
 
 ```csharp
 public interface IVbaReferenceFactory

@@ -16,7 +16,7 @@ public void Add(IFontFallBackRule sourceRule)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| sourceRule | IFontFallBackRule | 添加 |
+| sourceRule | IFontFallBackRule | 指定添加规则 |
 
 ### 例子
 
@@ -24,12 +24,10 @@ public void Add(IFontFallBackRule sourceRule)
 [C#]
 using (Presentation pres = new Presentation ())
 {
-     //从 FontsManager
-则集合
+    //从 FontsManager 获取空的或预初始化的规则集合
     IFontFallBackRulesCollection rulesList = pres.FontsManager.FontFallBackRulesCollection;
 
-    //向collection
-
+    //向集合中添加新规则
     rulesList.Add(new FontFallBackRule(0x400,0x4FF, "Times New Roman"));
 }
 ```

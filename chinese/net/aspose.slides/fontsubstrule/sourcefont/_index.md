@@ -1,14 +1,14 @@
 ---
 title: SourceFont
 second_title: Aspose.Slides for .NET API 参考
-description: 要替换的字体 只读IFontDataaspose.slides/ifontdata
+description: 要替换的字体 只读IFontDataaspose.slides/ifontdata.
 type: docs
 weight: 40
 url: /zh/net/aspose.slides/fontsubstrule/sourcefont/
 ---
 ## FontSubstRule.SourceFont property
 
-要替换的字体。 只读[`IFontData`](../../ifontdata)。
+要替换的字体。 只读[`IFontData`](../../ifontdata).
 
 ```csharp
 public IFontData SourceFont { get; }

@@ -18,7 +18,7 @@ public interface ISectionCollection : IGenericCollection<ISection>
 
 | Имя | Описание |
 | --- | --- |
-| [Item](../../aspose.slides/isectioncollection/item) { get; } | Получает элемент по указанному индексу. Только для чтения[`ISection`](../isection). |
+| [Item](../../aspose.slides/isectioncollection/item) { get; } | Получает элемент по указанному индексу. Только для чтения[`ISection`](../isection) . |
 
 ## Методы
 

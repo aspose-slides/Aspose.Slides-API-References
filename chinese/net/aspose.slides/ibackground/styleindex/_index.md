@@ -1,14 +1,14 @@
 ---
 title: StyleIndex
 second_title: Aspose.Slides for .NET API 参考
-description: 返回BackgroundType的索引Themed填充背景主题集合 0 表示没有填充 1..999 - 索引 读/写UInt16
+description: 返回BackgroundType 的索引主题填充背景主题集合 0 表示不填充 1..999 - 索引 读/写UInt16.
 type: docs
 weight: 60
 url: /zh/net/aspose.slides/ibackground/styleindex/
 ---
 ## IBackground.StyleIndex property
 
-返回BackgroundType的索引。Themed填充背景主题集合。 0 表示没有填充。 1..999 - 索引。 读/写UInt16。
+返回BackgroundType 的索引。主题填充背景主题集合。 0 表示不填充。 1..999 - 索引。 读/写UInt16.
 
 ```csharp
 public ushort StyleIndex { get; set; }

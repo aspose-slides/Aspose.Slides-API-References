@@ -18,13 +18,13 @@ public interface IFontsEffectiveData
 
 | Имя | Описание |
 | --- | --- |
-| [ComplexScriptFont](../../aspose.slides/ifontseffectivedata/complexscriptfont) { get; } | Возвращает шрифт сложного сценария. Только для чтения[`IFontData`](../ifontdata). |
-| [EastAsianFont](../../aspose.slides/ifontseffectivedata/eastasianfont) { get; } | Возвращает восточноазиатский шрифт. Только для чтения[`IFontData`](../ifontdata). |
-| [LatinFont](../../aspose.slides/ifontseffectivedata/latinfont) { get; } | Возвращает латинский шрифт. Только для чтения[`IFontData`](../ifontdata). |
+| [ComplexScriptFont](../../aspose.slides/ifontseffectivedata/complexscriptfont) { get; } | Возвращает шрифт сложного сценария. Только для чтения[`IFontData`](../ifontdata) . |
+| [EastAsianFont](../../aspose.slides/ifontseffectivedata/eastasianfont) { get; } | Возвращает восточноазиатский шрифт. Только для чтения[`IFontData`](../ifontdata) . |
+| [LatinFont](../../aspose.slides/ifontseffectivedata/latinfont) { get; } | Возвращает латинский шрифт. Только для чтения[`IFontData`](../ifontdata) . |
 
 ### Примечания
 
-Этот интерфейс используется как часть[`IBasePortionFormatEffectiveData`](../ibaseportionformateffectivedata)и[`IFontSchemeEffectiveData`](../../aspose.slides.theme/ifontschemeeffectivedata)интерфейсы.
+Этот интерфейс используется как часть[`IBasePortionFormatEffectiveData`](../ibaseportionformateffectivedata) а также[`IFontSchemeEffectiveData`](../../aspose.slides.theme/ifontschemeeffectivedata) интерфейсы.
 
 ### Смотрите также
 

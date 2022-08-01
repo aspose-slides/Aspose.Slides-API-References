@@ -16,7 +16,7 @@ public IBlurEffectiveData GetEffective()
 
 ### 返回值
 
-A[`IBlurEffectiveData`](../../iblureffectivedata)。
+一个[`IBlurEffectiveData`](../../iblureffectivedata).
 
 ### 也可以看看
 

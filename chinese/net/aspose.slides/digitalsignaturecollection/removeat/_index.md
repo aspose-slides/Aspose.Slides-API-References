@@ -16,7 +16,7 @@ public void RemoveAt(int index)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| index | Int32 | 应该删除的签名的索引。 |
+| index | Int32 | 应删除的签名索引。 |
 
 ### 也可以看看
 

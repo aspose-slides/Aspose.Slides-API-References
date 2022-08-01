@@ -18,11 +18,11 @@ public interface IFormatScheme : ISlideComponent
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsISlideComponent](../../aspose.slides.theme/iformatscheme/asislidecomponent) { get; } | 允许获取基础 ISlideComponent 接口。 只读[`ISlideComponent`](../../aspose.slides/islidecomponent)。 |
-| [BackgroundFillStyles](../../aspose.slides.theme/iformatscheme/backgroundfillstyles) { get; } | 返回主题定义的背景填充样式的集合。 只读[`IFillFormatCollection`](../ifillformatcollection)。 |
-| [EffectStyles](../../aspose.slides.theme/iformatscheme/effectstyles) { get; } | 返回主题定义效果样式的集合。 只读[`IEffectStyleCollection`](../ieffectstylecollection)。 |
-| [FillStyles](../../aspose.slides.theme/iformatscheme/fillstyles) { get; } | 返回主题定义的填充样式的集合。 只读[`IFillFormatCollection`](../ifillformatcollection)。 |
-| [LineStyles](../../aspose.slides.theme/iformatscheme/linestyles) { get; } | 返回主题定义的线条样式的集合。 只读[`ILineFormatCollection`](../ilineformatcollection)。 |
+| [AsISlideComponent](../../aspose.slides.theme/iformatscheme/asislidecomponent) { get; } | 允许获取基本 ISlideComponent 接口。 只读[`ISlideComponent`](../../aspose.slides/islidecomponent). |
+| [BackgroundFillStyles](../../aspose.slides.theme/iformatscheme/backgroundfillstyles) { get; } | 返回主题定义的背景填充样式的集合。 只读[`IFillFormatCollection`](../ifillformatcollection). |
+| [EffectStyles](../../aspose.slides.theme/iformatscheme/effectstyles) { get; } | 返回主题定义效果样式的集合。 只读[`IEffectStyleCollection`](../ieffectstylecollection). |
+| [FillStyles](../../aspose.slides.theme/iformatscheme/fillstyles) { get; } | 返回主题定义的填充样式的集合。 只读[`IFillFormatCollection`](../ifillformatcollection). |
+| [LineStyles](../../aspose.slides.theme/iformatscheme/linestyles) { get; } | 返回主题定义的线条样式的集合。 只读[`ILineFormatCollection`](../ilineformatcollection). |
 
 ### 也可以看看
 

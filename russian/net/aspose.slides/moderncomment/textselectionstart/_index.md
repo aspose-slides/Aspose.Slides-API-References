@@ -1,14 +1,14 @@
 ---
 title: TextSelectionStart
 second_title: Справочник по API Aspose.Slides для .NET
-description: Получает или задает начальную позицию выделения текста в текстовом фрейме если комментарий связан с автофигурой. Чтение/записьInt32.
+description: Получает или задает начальную позицию выделения текста в текстовом фрейме если комментарий связан с AutoShape. Чтение/записьInt32 .
 type: docs
 weight: 40
 url: /ru/net/aspose.slides/moderncomment/textselectionstart/
 ---
 ## ModernComment.TextSelectionStart property
 
-Получает или задает начальную позицию выделения текста в текстовом фрейме, если комментарий связан с автофигурой. Чтение/записьInt32.
+Получает или задает начальную позицию выделения текста в текстовом фрейме, если комментарий связан с AutoShape. Чтение/записьInt32 .
 
 ```csharp
 public int TextSelectionStart { get; set; }

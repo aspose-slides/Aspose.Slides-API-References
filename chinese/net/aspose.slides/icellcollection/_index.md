@@ -18,8 +18,8 @@ public interface ICellCollection : IGenericCollection<ICell>, ISlideComponent
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsISlideComponent](../../aspose.slides/icellcollection/asislidecomponent) { get; } | 允许获取基础 ISlideComponent 接口。 只读[`ISlideComponent`](../islidecomponent)。 |
-| [Item](../../aspose.slides/icellcollection/item) { get; } | 按位置返回单元格。 只读[`ICell`](../icell)。 |
+| [AsISlideComponent](../../aspose.slides/icellcollection/asislidecomponent) { get; } | 允许获取基本 ISlideComponent 接口。 只读[`ISlideComponent`](../islidecomponent). |
+| [Item](../../aspose.slides/icellcollection/item) { get; } | 按位置返回单元格。 只读[`ICell`](../icell). |
 
 ### 也可以看看
 

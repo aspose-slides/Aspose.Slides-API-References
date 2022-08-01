@@ -1,14 +1,14 @@
 ---
 title: QuickStyle
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или задает быстрый стиль объекта SmartArt. Чтение/записьSmartArtQuickStyleTypeaspose.slides.smartart/smartartquickstyletype.
+description: Возвращает или задает быстрый стиль объекта SmartArt. Чтение/записьSmartArtQuickStyleTypeaspose.slides.smartart/smartartquickstyletype .
 type: docs
 weight: 60
 url: /ru/net/aspose.slides.smartart/smartart/quickstyle/
 ---
 ## SmartArt.QuickStyle property
 
-Возвращает или задает быстрый стиль объекта SmartArt. Чтение/запись[`SmartArtQuickStyleType`](../../smartartquickstyletype).
+Возвращает или задает быстрый стиль объекта SmartArt. Чтение/запись[`SmartArtQuickStyleType`](../../smartartquickstyletype) .
 
 ```csharp
 public SmartArtQuickStyleType QuickStyle { get; set; }

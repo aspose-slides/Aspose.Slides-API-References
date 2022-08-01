@@ -1,14 +1,14 @@
 ---
 title: ColumnGapRule
 second_title: Справочник по API Aspose.Slides для .NET
-description: Тип горизонтального интервала между столбцами матрицы Единицами интервала по горизонтали могут быть ems или пункты хранятся как twips. По умолчаниюSingleSpacingGap 0
+description: Тип горизонтального интервала между столбцами матрицы Единицами интервала по горизонтали могут быть ems или пункты хранятся как twips. По умолчанию SingleSpacingGap 0
 type: docs
 weight: 50
 url: /ru/net/aspose.slides.mathtext/mathmatrix/columngaprule/
 ---
 ## MathMatrix.ColumnGapRule property
 
-Тип горизонтального интервала между столбцами матрицы; Единицами интервала по горизонтали могут быть ems или пункты (хранятся как twips). По умолчанию:SingleSpacingGap (0)
+Тип горизонтального интервала между столбцами матрицы; Единицами интервала по горизонтали могут быть ems или пункты (хранятся как twips). По умолчанию: SingleSpacingGap (0)
 
 ```csharp
 public MathSpacingRules ColumnGapRule { get; set; }

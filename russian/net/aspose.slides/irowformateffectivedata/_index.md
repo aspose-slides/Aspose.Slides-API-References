@@ -1,14 +1,14 @@
 ---
 title: IRowFormatEffectiveData
 second_title: Справочник по API Aspose.Slides для .NET
-description: Неизменяемый объект содержащий эффективные свойства форматирования строк таблицы.
+description: Неизменяемый объект содержащий эффективные свойства форматирования строки таблицы.
 type: docs
 weight: 6320
 url: /ru/net/aspose.slides/irowformateffectivedata/
 ---
 ## IRowFormatEffectiveData interface
 
-Неизменяемый объект, содержащий эффективные свойства форматирования строк таблицы.
+Неизменяемый объект, содержащий эффективные свойства форматирования строки таблицы.
 
 ```csharp
 public interface IRowFormatEffectiveData : IBaseTableFormatEffectiveData
@@ -18,11 +18,11 @@ public interface IRowFormatEffectiveData : IBaseTableFormatEffectiveData
 
 | Имя | Описание |
 | --- | --- |
-| [AsIBaseTableFormatEffectiveData](../../aspose.slides/irowformateffectivedata/asibasetableformateffectivedata) { get; } | Позволяет получить базовый интерфейс IBaseTableFormatEffectiveData. Только для чтения[`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata). |
+| [AsIBaseTableFormatEffectiveData](../../aspose.slides/irowformateffectivedata/asibasetableformateffectivedata) { get; } | Позволяет получить базовый интерфейс IBaseTableFormatEffectiveData. Только для чтения[`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata) . |
 
 ### Примечания
 
-Этот интерфейс используется вместе с[`IRowFormat`](../irowformat)Интерфейс для возврата эффективных значений форматирования с примененными стилями наследования и таблиц.
+Этот интерфейс используется вместе с[`IRowFormat`](../irowformat) интерфейс для возврата эффективных значений форматирования с примененными стилями наследования и таблиц.
 
 ### Смотрите также
 

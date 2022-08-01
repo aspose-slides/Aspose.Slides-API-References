@@ -19,7 +19,7 @@ public enum HyperlinkActionType
 | Имя | Ценность | Описание |
 | --- | --- | --- |
 | Unknown | `-1` | Неизвестный тип действия. |
-| NoAction | `0` | Нет действий. |
+| NoAction | `0` | Никаких действий. |
 | Hyperlink | `1` | Обычная гиперссылка. |
 | JumpFirstSlide | `2` | Перейти к первому слайду презентации. |
 | JumpPreviousSlide | `3` | Перейти к предыдущему слайду. |
@@ -27,8 +27,8 @@ public enum HyperlinkActionType
 | JumpLastSlide | `5` | Перейти к последнему слайду презентации. |
 | JumpEndShow | `6` | Перейти в конец слайд-шоу. |
 | JumpLastViewedSlide | `7` | Перейти к последнему просмотренному слайду. |
-| JumpSpecificSlide | `8` | Перейти к определенному слайду, на который указывает[`TargetSlide`](../ihyperlink/targetslide)свойство. |
-| StartCustomSlideShow | `9` | Запуск пользовательского слайд-шоу. |
+| JumpSpecificSlide | `8` | Перейти к определенному слайду, указанному[`TargetSlide`](../ihyperlink/targetslide) свойство. |
+| StartCustomSlideShow | `9` | Начать пользовательское слайд-шоу. |
 | OpenFile | `10` | Открыть указанный файл. |
 | OpenPresentation | `11` | Открыть указанную презентацию. |
 | StartStopMedia | `12` | Начать/остановить воспроизведение медиафайла. |

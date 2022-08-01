@@ -1,14 +1,14 @@
 ---
 title: CommandType
 second_title: Aspose.Slides for .NET API 参考
-description: 指定命令类型 读/写MotionCommandPathTypeaspose.slides.animation/motioncommandpathtype
+description: 指定命令类型 读/写MotionCommandPathTypeaspose.slides.animation/motioncommandpathtype.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides.animation/motioncmdpath/commandtype/
 ---
 ## MotionCmdPath.CommandType property
 
-指定命令类型。 读/写[`MotionCommandPathType`](../../motioncommandpathtype)。
+指定命令类型。 读/写[`MotionCommandPathType`](../../motioncommandpathtype).
 
 ```csharp
 public MotionCommandPathType CommandType { get; set; }

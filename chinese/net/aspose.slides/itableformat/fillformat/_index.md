@@ -1,14 +1,14 @@
 ---
 title: FillFormat
 second_title: Aspose.Slides for .NET API 参考
-description: 返回表格填充属性对象 只读IFillFormataspose.slides/ifillformat
+description: 返回一个表格填充属性对象 只读IFillFormataspose.slides/ifillformat.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides/itableformat/fillformat/
 ---
 ## ITableFormat.FillFormat property
 
-返回表格填充属性对象。 只读[`IFillFormat`](../../ifillformat)。
+返回一个表格填充属性对象。 只读[`IFillFormat`](../../ifillformat).
 
 ```csharp
 public IFillFormat FillFormat { get; }

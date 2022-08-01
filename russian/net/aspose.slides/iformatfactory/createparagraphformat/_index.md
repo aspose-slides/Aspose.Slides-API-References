@@ -1,14 +1,14 @@
 ---
 title: CreateParagraphFormat
 second_title: Справочник по API Aspose.Slides для .NET
-description: Создает новыйIParagraphFormataspose.slides/iparagraphformat.
+description: Создает новыйIParagraphFormataspose.slides/iparagraphformat .
 type: docs
 weight: 10
 url: /ru/net/aspose.slides/iformatfactory/createparagraphformat/
 ---
 ## IFormatFactory.CreateParagraphFormat method
 
-Создает новый[`IParagraphFormat`](../../iparagraphformat).
+Создает новый[`IParagraphFormat`](../../iparagraphformat) .
 
 ```csharp
 public IParagraphFormat CreateParagraphFormat()

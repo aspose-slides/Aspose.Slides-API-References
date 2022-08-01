@@ -16,7 +16,7 @@ public ISlide[] ToArray()
 
 ### 返回值
 
-[`ISlide`](../../islide)
+数组[`ISlide`](../../islide)
 
 ### 也可以看看
 
@@ -42,7 +42,7 @@ public ISlide[] ToArray(int startIndex, int count)
 
 ### 返回值
 
-[`ISlide`](../../islide)
+数组[`ISlide`](../../islide)
 
 ### 也可以看看
 

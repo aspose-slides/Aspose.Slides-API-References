@@ -1,14 +1,14 @@
 ---
 title: ValueType
 second_title: Aspose.Slides for .NET API 参考
-description: 表示确定误差线长度的可能方法 如果使用自定义值类型来指定值请使用ErrorBarsCustomValuesaspose.slides.charts/ichartdatapoint/errorbarscustomvaluesDataPoints 系列集合中特定数据点的属性 读/写ErrorBarValueTypeaspose.slides.charts/errorbarvaluetype
+description: 表示确定误差线长度的可能方法 在自定义值类型的情况下指定值使用ErrorBarsCustomValuesaspose.slides.charts/ichartdatapoint/errorbarscustomvaluesDataPoints 系列集合中特定数据点的属性 读/写ErrorBarValueTypeaspose.slides.charts/errorbarvaluetype.
 type: docs
 weight: 70
 url: /zh/net/aspose.slides.charts/ierrorbarsformat/valuetype/
 ---
 ## IErrorBarsFormat.ValueType property
 
-表示确定误差线长度的可能方法。 如果使用自定义值类型来指定值，请使用[`ErrorBarsCustomValues`](../../ichartdatapoint/errorbarscustomvalues)DataPoints 系列集合中特定数据点的属性。 读/写[`ErrorBarValueType`](../../errorbarvaluetype)。
+表示确定误差线长度的可能方法。 在自定义值类型的情况下指定值使用[`ErrorBarsCustomValues`](../../ichartdatapoint/errorbarscustomvalues)DataPoints 系列集合中特定数据点的属性。 读/写[`ErrorBarValueType`](../../errorbarvaluetype).
 
 ```csharp
 public ErrorBarValueType ValueType { get; set; }

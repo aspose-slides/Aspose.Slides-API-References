@@ -1,14 +1,14 @@
 ---
 title: SetData
 second_title: Aspose.Slides for .NET API 参考
-description: 设置用户提供的资源数据 ifResourceLoadingaspose.slides/iresourceloadingcallback/resourceloading 返回UserProvided
+description: 设置用户提供的资源数据如果ResourceLoadingaspose.slides/iresourceloadingcallback/resourceloading 返回UserProvided
 type: docs
 weight: 30
 url: /zh/net/aspose.slides/iresourceloadingargs/setdata/
 ---
 ## IResourceLoadingArgs.SetData method
 
-设置用户提供的资源数据 if[`ResourceLoading`](../../iresourceloadingcallback/resourceloading) 返回UserProvided。
+设置用户提供的资源数据，如果[`ResourceLoading`](../../iresourceloadingcallback/resourceloading) 返回UserProvided
 
 ```csharp
 public void SetData(byte[] data)

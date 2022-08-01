@@ -1,14 +1,14 @@
 ---
 title: WarningType
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает тип предупреждения. Только чтениеWarningTypeaspose.slides.warnings/iwarninginfo/warningtype.
+description: Возвращает тип предупреждения. Только для чтенияWarningTypeaspose.slides.warnings/iwarninginfo/warningtype .
 type: docs
 weight: 20
 url: /ru/net/aspose.slides.warnings/iwarninginfo/warningtype/
 ---
 ## IWarningInfo.WarningType property
 
-Возвращает тип предупреждения. Только чтение`WarningType`.
+Возвращает тип предупреждения. Только для чтения`WarningType` .
 
 ```csharp
 public WarningType WarningType { get; }

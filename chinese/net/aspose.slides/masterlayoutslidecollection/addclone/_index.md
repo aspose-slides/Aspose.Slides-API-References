@@ -20,11 +20,11 @@ public ILayoutSlide AddClone(ILayoutSlide sourceLayout)
 
 ### 返回值
 
-添加幻灯片。
+添加了幻灯片。
 
 ### 评论
 
-1) 新布局将与此布局幻灯片集合的父母版幻灯片链接。 所以这类似于 PowerPoint 中带有“使用目标主题”选项的复制/粘贴。 2) 该方法的类似物是方法[`AddClone`](../../igloballayoutslidecollection/addclone) 使用[`LayoutSlides`](../../ipresentation/layoutslides)属性访问。
+1) 新布局将与此布局幻灯片集合的父母版幻灯片链接。 所以这类似于 PowerPoint 中带有“使用目标主题”选项的复制/粘贴。 2) 这种方法的类似物是方法[`AddClone`](../../igloballayoutslidecollection/addclone) 访问[`LayoutSlides`](../../ipresentation/layoutslides)属性.
 
 ### 也可以看看
 

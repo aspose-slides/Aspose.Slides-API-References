@@ -18,10 +18,10 @@ public interface IGroupShape : IShape
 
 | Имя | Описание |
 | --- | --- |
-| [AsIShape](../../aspose.slides/igroupshape/asishape) { get; } | Позволяет получить базовый интерфейс IShape. Только для чтения[`IShape`](../ishape). |
-| [GroupShapeLock](../../aspose.slides/igroupshape/groupshapelock) { get; } | Возвращает блокировки фигуры. Только для чтения[`IGroupShapeLock`](../igroupshapelock). |
-| [ShapeLock](../../aspose.slides/igroupshape/shapelock) { get; } | Возвращает блокировки фигуры. Только для чтения[`IGroupShapeLock`](../igroupshapelock). |
-| [Shapes](../../aspose.slides/igroupshape/shapes) { get; } | Возвращает набор фигур внутри группы. Только чтение[`IShapeCollection`](../ishapecollection). |
+| [AsIShape](../../aspose.slides/igroupshape/asishape) { get; } | Позволяет получить базовый интерфейс IShape. Только для чтения[`IShape`](../ishape) . |
+| [GroupShapeLock](../../aspose.slides/igroupshape/groupshapelock) { get; } | Возвращает блокировки формы. Только для чтения[`IGroupShapeLock`](../igroupshapelock) . |
+| [ShapeLock](../../aspose.slides/igroupshape/shapelock) { get; } | Возвращает блокировки формы. Только для чтения[`IGroupShapeLock`](../igroupshapelock) . |
+| [Shapes](../../aspose.slides/igroupshape/shapes) { get; } | Возвращает набор фигур внутри группы. Только для чтения[`IShapeCollection`](../ishapecollection) . |
 
 ### Смотрите также
 

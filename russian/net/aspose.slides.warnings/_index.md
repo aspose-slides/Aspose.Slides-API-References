@@ -13,10 +13,10 @@ url: /ru/net/aspose.slides.warnings/
 | Интерфейс | Описание |
 | --- | --- |
 | [IKnownIssueWarningInfo](./iknownissuewarninginfo) | Представляет собой предупреждение об известной проблеме, которая не будет исправлена в ближайшем будущем. |
-| [INotImplementedWarningInfo](./inotimplementedwarninginfo) | Представляет собой предупреждение об известной не реализованной функции, которая не будет реализована в ближайшем будущем. |
+| [INotImplementedWarningInfo](./inotimplementedwarninginfo) | Представляет предупреждение об известной не реализованной функции, которая не будет реализована в ближайшем будущем. |
 | [IObsoletePresLockingBehaviorWarningInfo](./iobsoletepreslockingbehaviorwarninginfo) | Это предупреждение указывает на то, что используется устаревшее поведение блокировки представления. |
-| [IPresentationSignedWarningInfo](./ipresentationsignedwarninginfo) | Это предупреждение указывает на то, что читаемая презентация имеет подпись и эта подпись будет удалена при обработке. |
-| [IWarningCallback](./iwarningcallback) | Интерфейс для классов, которые получают предупреждения |
+| [IPresentationSignedWarningInfo](./ipresentationsignedwarninginfo) | Это предупреждение означает, что читаемая презентация имеет подпись и эта подпись будет удалена во время обработки. |
+| [IWarningCallback](./iwarningcallback) | Интерфейс для классов, которые получают предупреждение |
 | [IWarningInfo](./iwarninginfo) | Представляет базовый интерфейс для всех предупреждений. |
 ## перечисление
 

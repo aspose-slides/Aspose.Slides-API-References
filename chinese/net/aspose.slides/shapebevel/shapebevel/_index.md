@@ -16,7 +16,7 @@ public ShapeBevel(bool bIsTopBevel)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| bIsTopBevel | Boolean | 是顶部斜角。 |
+| bIsTopBevel | Boolean | 是顶部斜面。 |
 
 ### 也可以看看
 

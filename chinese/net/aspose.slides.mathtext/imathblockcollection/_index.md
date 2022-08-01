@@ -19,24 +19,24 @@ public interface IMathBlockCollection : IEnumerable<IMathBlock>
 | 姓名 | 描述 |
 | --- | --- |
 | [AsIEnumerable](../../aspose.slides.mathtext/imathblockcollection/asienumerable) { get; } | 允许获取基本 IEnumerable 接口 IEnumerable |
-| [Count](../../aspose.slides.mathtext/imathblockcollection/count) { get; } | 获取集合中实际包含的元素数量。 只读Int32。 |
-| [Item](../../aspose.slides.mathtext/imathblockcollection/item) { get; set; } | 获取指定索引处的项目。 只读[`IMathBlock`](../imathblock)。 |
+| [Count](../../aspose.slides.mathtext/imathblockcollection/count) { get; } | 获取集合中实际包含的元素数。 只读Int32. |
+| [Item](../../aspose.slides.mathtext/imathblockcollection/item) { get; set; } | 获取指定索引处的项目。 只读[`IMathBlock`](../imathblock). |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Add](../../aspose.slides.mathtext/imathblockcollection/add)(IMathBlock) | 将 IMathBlock 添加到集合末尾。 |
+| [Add](../../aspose.slides.mathtext/imathblockcollection/add)(IMathBlock) | 将 IMathBlock 添加到集合的末尾。 |
 | [Clear](../../aspose.slides.mathtext/imathblockcollection/clear)() | 从集合中删除所有元素。 |
 | [Contains](../../aspose.slides.mathtext/imathblockcollection/contains)(IMathBlock) | 确定集合是否包含特定值。 |
 | [IndexOf](../../aspose.slides.mathtext/imathblockcollection/indexof)(IMathBlock) | 确定集合中特定 IMathBlock 的索引。 |
 | [Insert](../../aspose.slides.mathtext/imathblockcollection/insert)(int, IMathBlock) | 将 IMathBlock 插入到集合中指定索引处。 |
-| [Remove](../../aspose.slides.mathtext/imathblockcollection/remove)(IMathBlock) | 从集合中删除特定对象的第一个匹配项/&gt;。 |
+| [Remove](../../aspose.slides.mathtext/imathblockcollection/remove)(IMathBlock) | 从集合中删除第一次出现的特定对象/&gt;. |
 | [RemoveAt](../../aspose.slides.mathtext/imathblockcollection/removeat)(int) | 删除集合指定索引处的项目。 |
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]

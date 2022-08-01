@@ -1,14 +1,14 @@
 ---
 title: PresetColor
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или устанавливает предустановку цвета. Чтение/записьPresetColoraspose.slides/presetcolor.
+description: Возвращает или устанавливает предустановку цвета. Чтение/записьPresetColoraspose.slides/presetcolor .
 type: docs
 weight: 110
 url: /ru/net/aspose.slides/colorformat/presetcolor/
 ---
 ## ColorFormat.PresetColor property
 
-Возвращает или устанавливает предустановку цвета. Чтение/запись[`PresetColor`](../../presetcolor).
+Возвращает или устанавливает предустановку цвета. Чтение/запись[`PresetColor`](../../presetcolor) .
 
 ```csharp
 public PresetColor PresetColor { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: Properties
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает набор свойств ActiveX.  ПримечаниеAspose.Slides поддерживает только свойства ActiveX на основе XML. Если свойства хранятся в двоичном формате это свойство возвращает значение null. Только чтениеIControlPropertiesCollectionaspose.slides/icontrolpropertiescollection.
+description: Возвращает набор свойств ActiveX. Примечание. Aspose.Slides поддерживает только свойства ActiveX на основе XML. Если свойства хранятся в двоичном формате это свойство возвращает значение null. Только для чтенияIControlPropertiesCollectionaspose.slides/icontrolpropertiescollection .
 type: docs
 weight: 60
 url: /ru/net/aspose.slides/control/properties/
 ---
 ## Control.Properties property
 
-Возвращает набор свойств ActiveX.  Примечание:Aspose.Slides поддерживает только свойства ActiveX на основе XML. Если свойства хранятся в двоичном формате, это свойство возвращает значение null. Только чтение[`IControlPropertiesCollection`](../../icontrolpropertiescollection).
+Возвращает набор свойств ActiveX. Примечание. Aspose.Slides поддерживает только свойства ActiveX на основе XML. Если свойства хранятся в двоичном формате, это свойство возвращает значение null. Только для чтения[`IControlPropertiesCollection`](../../icontrolpropertiescollection) .
 
 ```csharp
 public IControlPropertiesCollection Properties { get; }

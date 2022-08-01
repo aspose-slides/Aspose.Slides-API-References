@@ -1,14 +1,14 @@
 ---
 title: DashStyle
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置划线样式 读/写LineDashStyleaspose.slides/linedashstyle
+description: 返回或设置划线样式 读/写LineDashStyleaspose.slides/linedashstyle.
 type: docs
 weight: 80
 url: /zh/net/aspose.slides/ilineformat/dashstyle/
 ---
 ## ILineFormat.DashStyle property
 
-返回或设置划线样式。 读/写[`LineDashStyle`](../../linedashstyle)。
+返回或设置划线样式。 读/写[`LineDashStyle`](../../linedashstyle).
 
 ```csharp
 public LineDashStyle DashStyle { get; set; }

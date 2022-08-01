@@ -1,14 +1,14 @@
 ---
 title: NotesSlideManager
 second_title: Aspose.Slides for .NET API 参考
-description: 允许访问笔记幻灯片添加和删除它 只读INotesSlideManageraspose.slides/inotesslidemanager
+description: 允许访问笔记幻灯片添加和删除它 只读INotesSlideManageraspose.slides/inotesslidemanager.
 type: docs
 weight: 40
 url: /zh/net/aspose.slides/slide/notesslidemanager/
 ---
 ## Slide.NotesSlideManager property
 
-允许访问笔记幻灯片，添加和删除它。 只读[`INotesSlideManager`](../../inotesslidemanager)。
+允许访问笔记幻灯片，添加和删除它。 只读[`INotesSlideManager`](../../inotesslidemanager).
 
 ```csharp
 public INotesSlideManager NotesSlideManager { get; }

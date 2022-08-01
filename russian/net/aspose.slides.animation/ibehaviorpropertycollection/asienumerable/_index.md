@@ -1,14 +1,14 @@
 ---
 title: AsIEnumerable
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает интерфейсы IEnumerable. Только для чтенияIEnumerable.
+description: Возвращает интерфейсы IEnumerable. Только для чтенияIEnumerable .
 type: docs
 weight: 10
 url: /ru/net/aspose.slides.animation/ibehaviorpropertycollection/asienumerable/
 ---
 ## IBehaviorPropertyCollection.AsIEnumerable property
 
-Возвращает интерфейсы IEnumerable. Только для чтенияIEnumerable.
+Возвращает интерфейсы IEnumerable. Только для чтенияIEnumerable .
 
 ```csharp
 public IEnumerable AsIEnumerable { get; }

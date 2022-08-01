@@ -44,8 +44,8 @@ public IStreamWrapper CreateFileStreamWrapper(string fileName, FileMode fileMode
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | fileName | String | Имя файлаString |
-| fileMode | FileMode | Режим файлаFileMode |
-| fileAccess | FileAccess | Доступ к файлуFileAccess |
+| fileMode | FileMode | Файловый режимFileMode |
+| fileAccess | FileAccess | Доступ к файламFileAccess |
 
 ### Возвращаемое значение
 

@@ -1,14 +1,14 @@
 ---
 title: ColorScheme
 second_title: Aspose.Slides for .NET API 参考
-description: 返回配色方案 只读IColorSchemeaspose.slides.theme/icolorscheme
+description: 返回配色方案 只读IColorSchemeaspose.slides.theme/icolorscheme.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides.theme/overridetheme/colorscheme/
 ---
 ## OverrideTheme.ColorScheme property
 
-返回配色方案。 只读[`IColorScheme`](../../icolorscheme)。
+返回配色方案。 只读[`IColorScheme`](../../icolorscheme).
 
 ```csharp
 public override IColorScheme ColorScheme { get; }

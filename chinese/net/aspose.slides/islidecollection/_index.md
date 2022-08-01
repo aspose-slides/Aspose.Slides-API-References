@@ -18,7 +18,7 @@ public interface ISlideCollection : IGenericCollection<ISlide>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Item](../../aspose.slides/islidecollection/item) { get; } | 获取指定索引处的元素。 只读[`ISlide`](../islide)。 |
+| [Item](../../aspose.slides/islidecollection/item) { get; } | 获取指定索引处的元素。 只读[`ISlide`](../islide). |
 
 ## 方法
 
@@ -27,8 +27,8 @@ public interface ISlideCollection : IGenericCollection<ISlide>
 | [AddClone](../../aspose.slides/islidecollection/addclone#addclone)(ISlide) | 将指定幻灯片的副本添加到集合的末尾。 |
 | [AddClone](../../aspose.slides/islidecollection/addclone#addclone_1)(ISlide, ILayoutSlide) | 将指定幻灯片的副本添加到集合的末尾。 |
 | [AddClone](../../aspose.slides/islidecollection/addclone#addclone_3)(ISlide, ISection) | 将指定幻灯片的副本添加到指定部分的末尾。 |
-| [AddClone](../../aspose.slides/islidecollection/addclone#addclone_2)(ISlide, IMasterSlide, bool) | 将指定源幻灯片的副本添加到集合的末尾。 将自动从指定的 master 中选择适当的布局（适当的布局是与源幻灯片布局的 具有相同类型或名称的布局）。如果没有适当的布局，则源幻灯片的 布局将被克隆（如果 allowCloneMissingLayout 为真）或 PptxEditException 将被抛出（如果 allowCloneMissingLayout 是假的）。 |
-| [AddEmptySlide](../../aspose.slides/islidecollection/addemptyslide)(ILayoutSlide) | 将新的空幻灯片添加到集合的末尾。 |
+| [AddClone](../../aspose.slides/islidecollection/addclone#addclone_2)(ISlide, IMasterSlide, bool) | 将指定源幻灯片的副本添加到集合的末尾。 将从指定的 母版中自动选择适当的布局（适当的布局是与源幻灯片布局的 具有相同类型或名称的布局）。如果没有合适的布局 then 源幻灯片的布局将被克隆（如果 allowCloneMissingLayout 为真）或 PptxEditException 将被抛出（如果 allowCloneMissingLayout 为假）。 |
+| [AddEmptySlide](../../aspose.slides/islidecollection/addemptyslide)(ILayoutSlide) | 将新的空白幻灯片添加到集合的末尾。 |
 | [AddFromHtml](../../aspose.slides/islidecollection/addfromhtml#addfromhtml)(Stream) | 从 HTML 文本创建幻灯片并将它们添加到集合的末尾。 |
 | [AddFromHtml](../../aspose.slides/islidecollection/addfromhtml#addfromhtml_4)(string) | 从 HTML 文本创建幻灯片并将它们添加到集合的末尾。 |
 | [AddFromHtml](../../aspose.slides/islidecollection/addfromhtml#addfromhtml_2)(TextReader) | 从 HTML 文本创建幻灯片并将它们添加到集合的末尾。 |
@@ -40,14 +40,14 @@ public interface ISlideCollection : IGenericCollection<ISlide>
 | [IndexOf](../../aspose.slides/islidecollection/indexof)(ISlide) | 返回集合中指定幻灯片的索引。 |
 | [InsertClone](../../aspose.slides/islidecollection/insertclone#insertclone)(int, ISlide) | 将指定幻灯片的副本插入到集合的指定位置。 |
 | [InsertClone](../../aspose.slides/islidecollection/insertclone#insertclone_1)(int, ISlide, ILayoutSlide) | 将指定幻灯片的副本插入到集合的指定位置。 |
-| [InsertClone](../../aspose.slides/islidecollection/insertclone#insertclone_2)(int, ISlide, IMasterSlide, bool) | 将指定源幻灯片的副本插入到集合的指定位置。 将自动从指定的 master 中选择适当的布局（适当的布局是与源幻灯片布局的 具有相同类型或名称的布局）。如果没有适当的布局，则源幻灯片的 布局将被克隆（如果 allowCloneMissingLayout 为真）或 PptxEditException 将被抛出（如果 allowCloneMissingLayout 是假的）。 |
+| [InsertClone](../../aspose.slides/islidecollection/insertclone#insertclone_2)(int, ISlide, IMasterSlide, bool) | 将指定源幻灯片的副本插入到集合的指定位置。 将从指定的 母版中自动选择适当的布局（适当的布局是与源幻灯片布局的 具有相同类型或名称的布局）。如果没有合适的布局 then 源幻灯片的布局将被克隆（如果 allowCloneMissingLayout 为真）或 PptxEditException 将被抛出（如果 allowCloneMissingLayout 为假）。 |
 | [InsertEmptySlide](../../aspose.slides/islidecollection/insertemptyslide)(int, ILayoutSlide) | 将指定幻灯片的副本插入到集合的指定位置。 |
-| [InsertFromHtml](../../aspose.slides/islidecollection/insertfromhtml#insertfromhtml)(int, Stream) | 从 HTML 文本创建幻灯片并将它们插入到指定位置的集合中。 |
-| [InsertFromHtml](../../aspose.slides/islidecollection/insertfromhtml#insertfromhtml_4)(int, string) | 从 HTML 文本创建幻灯片并将它们插入到指定位置的集合中。 |
-| [InsertFromHtml](../../aspose.slides/islidecollection/insertfromhtml#insertfromhtml_2)(int, TextReader) | 从 HTML 文本创建幻灯片并将它们插入到指定位置的集合中。 |
-| [InsertFromHtml](../../aspose.slides/islidecollection/insertfromhtml#insertfromhtml_1)(int, Stream, IExternalResourceResolver, string) | 从 HTML 文本创建幻灯片并将它们插入到指定位置的集合中。 |
-| [InsertFromHtml](../../aspose.slides/islidecollection/insertfromhtml#insertfromhtml_5)(int, string, IExternalResourceResolver, string) | 从 HTML 文本创建幻灯片并将它们插入到指定位置的集合中。 |
-| [InsertFromHtml](../../aspose.slides/islidecollection/insertfromhtml#insertfromhtml_3)(int, TextReader, IExternalResourceResolver, string) | 从 HTML 文本创建幻灯片并将它们插入到指定位置的集合中。 |
+| [InsertFromHtml](../../aspose.slides/islidecollection/insertfromhtml#insertfromhtml)(int, Stream) | 从 HTML 文本创建幻灯片并将它们插入到集合中的指定位置。 |
+| [InsertFromHtml](../../aspose.slides/islidecollection/insertfromhtml#insertfromhtml_4)(int, string) | 从 HTML 文本创建幻灯片并将它们插入到集合中的指定位置。 |
+| [InsertFromHtml](../../aspose.slides/islidecollection/insertfromhtml#insertfromhtml_2)(int, TextReader) | 从 HTML 文本创建幻灯片并将它们插入到集合中的指定位置。 |
+| [InsertFromHtml](../../aspose.slides/islidecollection/insertfromhtml#insertfromhtml_1)(int, Stream, IExternalResourceResolver, string) | 从 HTML 文本创建幻灯片并将它们插入到集合中的指定位置。 |
+| [InsertFromHtml](../../aspose.slides/islidecollection/insertfromhtml#insertfromhtml_5)(int, string, IExternalResourceResolver, string) | 从 HTML 文本创建幻灯片并将它们插入到集合中的指定位置。 |
+| [InsertFromHtml](../../aspose.slides/islidecollection/insertfromhtml#insertfromhtml_3)(int, TextReader, IExternalResourceResolver, string) | 从 HTML 文本创建幻灯片并将它们插入到集合中的指定位置。 |
 | [Remove](../../aspose.slides/islidecollection/remove)(ISlide) | 从集合中删除特定对象的第一个匹配项。 |
 | [RemoveAt](../../aspose.slides/islidecollection/removeat)(int) | 移除集合指定索引处的元素。 |
 | [Reorder](../../aspose.slides/islidecollection/reorder#reorder)(int, ISlide) | 将幻灯片从集合移动到指定位置。 |

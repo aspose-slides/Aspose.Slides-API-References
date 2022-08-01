@@ -1,14 +1,14 @@
 ---
 title: Accent4
 second_title: Aspose.Slides for .NET API 参考
-description: 方案中的第四个强调色 只读IColorFormataspose.slides/icolorformat
+description: 方案中的第四个强调色 只读IColorFormataspose.slides/icolorformat.
 type: docs
 weight: 40
 url: /zh/net/aspose.slides.theme/colorscheme/accent4/
 ---
 ## ColorScheme.Accent4 property
 
-方案中的第四个强调色。 只读[`IColorFormat`](../../../aspose.slides/icolorformat)。
+方案中的第四个强调色。 只读[`IColorFormat`](../../../aspose.slides/icolorformat).
 
 ```csharp
 public IColorFormat Accent4 { get; }

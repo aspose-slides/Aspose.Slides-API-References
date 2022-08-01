@@ -16,11 +16,11 @@ public string GetFontName(IThemeEffectiveData theme)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| theme | IThemeEffectiveData | Тема, из которой должно быть взято название тематического шрифта. Вызывающий должен указать правильное значение. См.[`CreateThemeEffective`](../../../aspose.slides.theme/ithemeable/createthemeeffective) |
+| theme | IThemeEffectiveData | Тема, из которой должно быть взято название тематического шрифта. Вызывающий должен указать правильное значение. Видеть[`CreateThemeEffective`](../../../aspose.slides.theme/ithemeable/createthemeeffective) |
 
 ### Возвращаемое значение
 
-Имя шрифта.
+Название шрифта.
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: BeginningCharacter
 second_title: Aspose.Slides for .NET API 参考
-description: 分隔符开始字符指定开始或开始分隔符 数学定界符是括起来的字符例如圆括号方括号和花括号 默认值
+description: 分隔符开始字符指定开始或开始分隔符 数学分隔符是括起来的字符例如圆括号方括号和花括号 默认值.
 type: docs
 weight: 30
 url: /zh/net/aspose.slides.mathtext/mathdelimiter/beginningcharacter/
 ---
 ## MathDelimiter.BeginningCharacter property
 
-分隔符开始字符指定开始或开始分隔符。 数学定界符是括起来的字符，例如圆括号、方括号和花括号。 默认值:'('。
+分隔符开始字符指定开始或开始分隔符。 数学分隔符是括起来的字符，例如圆括号、方括号和花括号。 默认值：'('.
 
 ```csharp
 public char BeginningCharacter { get; set; }
@@ -16,7 +16,7 @@ public char BeginningCharacter { get; set; }
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]

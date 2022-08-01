@@ -1,14 +1,14 @@
 ---
 title: FontSubstCondition
 second_title: Aspose.Slides for .NET API 参考
-description: 表示字体替换规则
+description: 表示字体替换的规则
 type: docs
 weight: 4430
 url: /zh/net/aspose.slides/fontsubstcondition/
 ---
 ## FontSubstCondition enumeration
 
-表示字体替换规则
+表示字体替换的规则
 
 ```csharp
 public enum FontSubstCondition

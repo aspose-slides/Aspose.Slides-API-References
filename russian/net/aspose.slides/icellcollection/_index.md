@@ -18,8 +18,8 @@ public interface ICellCollection : IGenericCollection<ICell>, ISlideComponent
 
 | Имя | Описание |
 | --- | --- |
-| [AsISlideComponent](../../aspose.slides/icellcollection/asislidecomponent) { get; } | Позволяет получить базовый интерфейс ISlideComponent. Только для чтения[`ISlideComponent`](../islidecomponent). |
-| [Item](../../aspose.slides/icellcollection/item) { get; } | Возвращает ячейку по ее положению. Только для чтения[`ICell`](../icell). |
+| [AsISlideComponent](../../aspose.slides/icellcollection/asislidecomponent) { get; } | Позволяет получить базовый интерфейс ISlideComponent. Только для чтения[`ISlideComponent`](../islidecomponent) . |
+| [Item](../../aspose.slides/icellcollection/item) { get; } | Возвращает ячейку по ее положению. Только для чтения[`ICell`](../icell) . |
 
 ### Смотрите также
 

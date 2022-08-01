@@ -17,7 +17,7 @@ public ISection AddSection(string name, ISlide startedFromSlide)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | name | String | Название раздела |
-| startedFromSlide | ISlide | Первый слайд раздел |
+| startedFromSlide | ISlide | Первый слайд раздела |
 
 ### Возвращаемое значение
 

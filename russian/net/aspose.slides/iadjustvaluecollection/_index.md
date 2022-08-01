@@ -18,9 +18,9 @@ public interface IAdjustValueCollection : ICollection
 
 | Имя | Описание |
 | --- | --- |
-| [AsICollection](../../aspose.slides/iadjustvaluecollection/asicollection) { get; } | Позволяет получить базовый интерфейс ICollection. Только для чтенияICollection. |
-| [AsIEnumerable](../../aspose.slides/iadjustvaluecollection/asienumerable) { get; } | Возвращает интерфейс IEnumerable. Только для чтенияIEnumerable. |
-| [Item](../../aspose.slides/iadjustvaluecollection/item) { get; } | Возвращает настройку по индексу. |
+| [AsICollection](../../aspose.slides/iadjustvaluecollection/asicollection) { get; } | Позволяет получить базовый интерфейс ICollection. Только для чтенияICollection . |
+| [AsIEnumerable](../../aspose.slides/iadjustvaluecollection/asienumerable) { get; } | Возвращает интерфейс IEnumerable. Только для чтенияIEnumerable . |
+| [Item](../../aspose.slides/iadjustvaluecollection/item) { get; } | Возвращает корректировку по индексу. |
 
 ### Смотрите также
 

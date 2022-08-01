@@ -1,14 +1,14 @@
 ---
 title: Certificate
 second_title: Aspose.Slides for .NET API 参考
-description: 用于签署文档的证书对象 只读X509Certificate2
+description: 用于签署文档的证书对象 只读X509Certificate2.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides/idigitalsignature/certificate/
 ---
 ## IDigitalSignature.Certificate property
 
-用于签署文档的证书对象。 只读X509Certificate2。
+用于签署文档的证书对象。 只读X509Certificate2.
 
 ```csharp
 public X509Certificate2 Certificate { get; }

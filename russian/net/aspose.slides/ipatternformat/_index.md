@@ -18,9 +18,9 @@ public interface IPatternFormat
 
 | Имя | Описание |
 | --- | --- |
-| [BackColor](../../aspose.slides/ipatternformat/backcolor) { get; } | Возвращает цвет фонового узора. Только для чтения[`IColorFormat`](../icolorformat). |
-| [ForeColor](../../aspose.slides/ipatternformat/forecolor) { get; } | Возвращает цвет шаблона переднего плана. Только для чтения[`IColorFormat`](../icolorformat). |
-| [PatternStyle](../../aspose.slides/ipatternformat/patternstyle) { get; set; } | Возвращает или задает стиль узора. Чтение/запись[`PatternStyle`](../patternstyle). |
+| [BackColor](../../aspose.slides/ipatternformat/backcolor) { get; } | Возвращает цвет фонового узора. Только для чтения[`IColorFormat`](../icolorformat) . |
+| [ForeColor](../../aspose.slides/ipatternformat/forecolor) { get; } | Возвращает цвет шаблона переднего плана. Только для чтения[`IColorFormat`](../icolorformat) . |
+| [PatternStyle](../../aspose.slides/ipatternformat/patternstyle) { get; set; } | Возвращает или задает стиль шаблона. Чтение/запись[`PatternStyle`](../patternstyle) . |
 
 ## Методы
 

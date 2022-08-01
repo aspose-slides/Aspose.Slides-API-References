@@ -16,15 +16,15 @@ public IZoomFrame AddZoomFrame(float x, float y, float width, float height, ISli
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| x | Single | Координата X нового Zoom кадрSingle. |
+| x | Single | Координата X нового кадра ZoomSingle. |
 | y | Single | Координата Y нового кадра ZoomSingle. |
-| width | Single | Ширина нового кадра ZoomSingle. |
-| height | Single | Высота нового кадра ZoomSingle. |
-| slide | ISlide | Объект слайда, на который ссылается фрейм Zoom[`ISlide`](../../islide). |
+| width | Single | Ширина новой рамки ZoomSingle. |
+| height | Single | Высота новой рамки ZoomSingle. |
+| slide | ISlide | Объект слайда, на который ссылается рамка масштабирования[`ISlide`](../../islide). |
 
 ### Возвращаемое значение
 
-Создан объект Zoom[`IZoomFrame`](../../izoomframe).
+Создан зум-объект[`IZoomFrame`](../../izoomframe).
 
 ### Исключения
 
@@ -65,16 +65,16 @@ public IZoomFrame AddZoomFrame(float x, float y, float width, float height, ISli
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| x | Single | Координата X нового Zoom кадрSingle. |
+| x | Single | Координата X нового кадра ZoomSingle. |
 | y | Single | Координата Y нового кадра ZoomSingle. |
-| width | Single | Ширина нового кадра ZoomSingle. |
-| height | Single | Высота нового кадра ZoomSingle. |
-| slide | ISlide | Объект слайда, на который ссылается фрейм Zoom[`ISlide`](../../islide). |
+| width | Single | Ширина новой рамки ZoomSingle. |
+| height | Single | Высота новой рамки ZoomSingle. |
+| slide | ISlide | Объект слайда, на который ссылается рамка масштабирования[`ISlide`](../../islide). |
 | image | IPPImage | Изображение для указанного слайда[`IPPImage`](../../ippimage) |
 
 ### Возвращаемое значение
 
-Создан объект Zoom[`IZoomFrame`](../../izoomframe).
+Создан зум-объект[`IZoomFrame`](../../izoomframe).
 
 ### Исключения
 

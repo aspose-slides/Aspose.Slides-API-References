@@ -1,14 +1,14 @@
 ---
 title: SetCustomPropertyValue
 second_title: Aspose.Slides for .NET API 参考
-description: 设置命名布尔自定义属性
+description: 设置一个命名的布尔自定义属性
 type: docs
 weight: 310
 url: /zh/net/aspose.slides/idocumentproperties/setcustompropertyvalue/
 ---
 ## SetCustomPropertyValue(string, bool) {#setcustompropertyvalue}
 
-设置命名布尔自定义属性。
+设置一个命名的布尔自定义属性。
 
 ```csharp
 public void SetCustomPropertyValue(string name, bool value)
@@ -92,7 +92,7 @@ public void SetCustomPropertyValue(string name, string value)
 
 ## SetCustomPropertyValue(string, float) {#setcustompropertyvalue_3}
 
-设置命名浮点自定义属性。
+设置一个命名的浮动自定义属性。
 
 ```csharp
 public void SetCustomPropertyValue(string name, float value)
@@ -113,7 +113,7 @@ public void SetCustomPropertyValue(string name, float value)
 
 ## SetCustomPropertyValue(string, double) {#setcustompropertyvalue_1}
 
-设置命名双自定义属性。
+设置命名的双重自定义属性。
 
 ```csharp
 public void SetCustomPropertyValue(string name, double value)

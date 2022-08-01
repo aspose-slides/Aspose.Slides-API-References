@@ -1,14 +1,14 @@
 ---
 title: MarginTop
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置 TextFrame 的上边距 读/写Double
+description: 返回或设置 TextFrame 中的上边距 读/写Double
 type: docs
 weight: 140
 url: /zh/net/aspose.slides/icell/margintop/
 ---
 ## ICell.MarginTop property
 
-返回或设置 TextFrame 的上边距。 读/写Double。
+返回或设置 TextFrame 中的上边距。 读/写Double
 
 ```csharp
 public double MarginTop { get; set; }

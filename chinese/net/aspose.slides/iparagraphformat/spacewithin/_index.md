@@ -1,14 +1,14 @@
 ---
 title: SpaceWithin
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置段落中基线之间的空间量正值表示百分比负值表示以点为单位的大小未应用继承 读/写Single
+description: 返回或设置段落中基线之间的空间量正值表示百分比负值表示以点为单位的大小未应用继承 读/写Single.
 type: docs
 weight: 160
 url: /zh/net/aspose.slides/iparagraphformat/spacewithin/
 ---
 ## IParagraphFormat.SpaceWithin property
 
-返回或设置段落中基线之间的空间量。正值表示百分比，负值表示以点为单位的大小。未应用继承。 读/写Single。
+返回或设置段落中基线之间的空间量。正值表示百分比，负值表示以点为单位的大小。未应用继承。 读/写Single.
 
 ```csharp
 public float SpaceWithin { get; set; }

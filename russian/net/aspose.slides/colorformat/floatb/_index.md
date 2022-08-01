@@ -1,14 +1,14 @@
 ---
 title: FloatB
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или задает синюю составляющую цвета. Все преобразования цвета игнорируются. Чтение/записьSingle.
+description: Возвращает или задает синюю составляющую цвета. Все преобразования цвета игнорируются. Чтение/записьSingle .
 type: docs
 weight: 50
 url: /ru/net/aspose.slides/colorformat/floatb/
 ---
 ## ColorFormat.FloatB property
 
-Возвращает или задает синюю составляющую цвета. Все преобразования цвета игнорируются. Чтение/записьSingle.
+Возвращает или задает синюю составляющую цвета. Все преобразования цвета игнорируются. Чтение/записьSingle .
 
 ```csharp
 public float FloatB { get; set; }

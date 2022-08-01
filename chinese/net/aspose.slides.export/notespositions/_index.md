@@ -20,7 +20,7 @@ public enum NotesPositions
 | --- | --- | --- |
 | None | `0` | 指定根本不应该显示注释。 |
 | BottomFull | `1` | 指定注释应根据需要使用附加页面完整显示。 |
-| BottomTruncated | `2` | 指定注释应仅显示在一页中。 |
+| BottomTruncated | `2` | 指定注释应该只显示在一页中。 |
 
 ### 也可以看看
 

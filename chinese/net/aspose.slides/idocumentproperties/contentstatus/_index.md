@@ -1,14 +1,14 @@
 ---
 title: ContentStatus
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置演示文稿的内容状态 读/写String
+description: 返回或设置演示文稿的内容状态 读/写String.
 type: docs
 weight: 70
 url: /zh/net/aspose.slides/idocumentproperties/contentstatus/
 ---
 ## IDocumentProperties.ContentStatus property
 
-返回或设置演示文稿的内容状态。 读/写String。
+返回或设置演示文稿的内容状态。 读/写String.
 
 ```csharp
 public string ContentStatus { get; set; }

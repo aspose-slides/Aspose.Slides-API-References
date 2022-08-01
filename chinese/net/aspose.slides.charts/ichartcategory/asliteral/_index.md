@@ -1,14 +1,14 @@
 ---
 title: AsLiteral
 second_title: Aspose.Slides for .NET API 参考
-description: 如果 UseCell 为假则返回或设置 AsLiteral 读/写Object
+description: 如果 UseCell 为假则返回或设置 AsLiteral 读/写Object.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides.charts/ichartcategory/asliteral/
 ---
 ## IChartCategory.AsLiteral property
 
-如果 UseCell 为假，则返回或设置 AsLiteral。 读/写Object。
+如果 UseCell 为假，则返回或设置 AsLiteral。 读/写Object.
 
 ```csharp
 public object AsLiteral { get; set; }

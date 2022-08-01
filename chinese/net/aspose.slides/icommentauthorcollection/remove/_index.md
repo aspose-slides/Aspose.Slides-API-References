@@ -22,8 +22,8 @@ public void Remove(ICommentAuthor author)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | 作者是` null` |
-| [PptxEditException](../../pptxeditexception) | 如果作者已被删除则抛出。 |
+| ArgumentNullException | 作者是`无效的` |
+| [PptxEditException](../../pptxeditexception) | 如果作者已被删除，则抛出。 |
 
 ### 也可以看看
 

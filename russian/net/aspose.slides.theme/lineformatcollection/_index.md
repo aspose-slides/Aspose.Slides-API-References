@@ -18,17 +18,17 @@ public sealed class LineFormatCollection : DomObject<FormatScheme>, ILineFormatC
 
 | Имя | Описание |
 | --- | --- |
-| [Count](../../aspose.slides.theme/lineformatcollection/count) { get; } | Получает количество элементов, фактически содержащихся в коллекции. Только для чтенияInt32. |
-| [IsSynchronized](../../aspose.slides.theme/lineformatcollection/issynchronized) { get; } | Возвращает значение, указывающее, является ли доступ к коллекции синхронизированным (потокобезопасным). Только чтениеBoolean. |
-| [Item](../../aspose.slides.theme/lineformatcollection/item) { get; } | Получает элемент по указанному индексу. Только для чтения[`ILineFormat`](../../aspose.slides/ilineformat). |
-| [SyncRoot](../../aspose.slides.theme/lineformatcollection/syncroot) { get; } | Возвращает корень синхронизации. Только для чтенияObject. |
+| [Count](../../aspose.slides.theme/lineformatcollection/count) { get; } | Получает количество элементов, фактически содержащихся в коллекции. Только для чтенияInt32 . |
+| [IsSynchronized](../../aspose.slides.theme/lineformatcollection/issynchronized) { get; } | Возвращает значение, указывающее, является ли доступ к коллекции синхронизированным (потокобезопасным). Только для чтенияBoolean . |
+| [Item](../../aspose.slides.theme/lineformatcollection/item) { get; } | Получает элемент по указанному индексу. Только для чтения[`ILineFormat`](../../aspose.slides/ilineformat) . |
+| [SyncRoot](../../aspose.slides.theme/lineformatcollection/syncroot) { get; } | Возвращает корень синхронизации. Только для чтенияObject . |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [CopyTo](../../aspose.slides.theme/lineformatcollection/copyto)(Array, int) | Копирует все элементы из коллекции в указанный массив. |
-| [GetEnumerator](../../aspose.slides.theme/lineformatcollection/getenumerator)() | Возвращает перечислитель, который перебирает коллекцию. |
+| [CopyTo](../../aspose.slides.theme/lineformatcollection/copyto)(Array, int) | Копирует все элементы коллекции в указанный массив. |
+| [GetEnumerator](../../aspose.slides.theme/lineformatcollection/getenumerator)() | Возвращает перечислитель, который выполняет итерацию по коллекции. |
 
 ### Смотрите также
 

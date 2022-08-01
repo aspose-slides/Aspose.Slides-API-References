@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет равен ли указанныйAlphaInverseaspose.slides.effects/alphainverseтекущемуАльфа-Инверсия.
+description: Определяет является ли указанныйAlphaInverseaspose.slides.effects/alphainverse равен текущемуAlphaInverseaspose.slides.effects/alphainverse .
 type: docs
 weight: 10
 url: /ru/net/aspose.slides.effects/alphainverse/equals/
 ---
 ## AlphaInverse.Equals method
 
-Определяет, равен ли указанный[`AlphaInverse`](../../alphainverse)текущемуАльфа-Инверсия.
+Определяет, является ли указанный[`AlphaInverse`](../../alphainverse) равен текущему[`AlphaInverse`](../../alphainverse) .
 
 ```csharp
 public override bool Equals(object obj)
@@ -16,7 +16,7 @@ public override bool Equals(object obj)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| obj | Object | [`AlphaInverse`](../../alphainverse)для сравнения. |
+| obj | Object | [`AlphaInverse`](../../alphainverse) сравнивать. |
 
 ### Возвращаемое значение
 

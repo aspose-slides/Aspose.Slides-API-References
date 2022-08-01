@@ -1,14 +1,14 @@
 ---
 title: Direction
 second_title: Aspose.Slides for .NET API 参考
-description: 光照方向 读/写LightingDirectionaspose.slides/lightingdirection
+description: 光照方向 读/写LightingDirectionaspose.slides/lightingdirection.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides/ilightrig/direction/
 ---
 ## ILightRig.Direction property
 
-光照方向。 读/写[`LightingDirection`](../../lightingdirection)。
+光照方向。 读/写[`LightingDirection`](../../lightingdirection).
 
 ```csharp
 public LightingDirection Direction { get; set; }

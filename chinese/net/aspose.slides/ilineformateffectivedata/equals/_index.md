@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: Aspose.Slides for .NET API 参考
-description: 确定两个 ILineFormatEffectiveData 实例是否相等
+description: 判断两个 ILineFormatEffectiveData 实例是否相等
 type: docs
 weight: 180
 url: /zh/net/aspose.slides/ilineformateffectivedata/equals/
 ---
 ## ILineFormatEffectiveData.Equals method
 
-确定两个 ILineFormatEffectiveData 实例是否相等。
+判断两个 ILineFormatEffectiveData 实例是否相等。
 
 ```csharp
 public bool Equals(ILineFormatEffectiveData lf)
@@ -20,7 +20,7 @@ public bool Equals(ILineFormatEffectiveData lf)
 
 ### 返回值
 
-**true** 如果指定的 ILineFormatEffectiveData 等于当前的 ILineFormatEffectiveData；否则， **false** 。
+**真的**如果指定的 ILineFormatEffectiveData 等于当前的 ILineFormatEffectiveData；否则， **错误的**.
 
 ### 也可以看看
 

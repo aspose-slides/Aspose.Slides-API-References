@@ -16,7 +16,7 @@ public IShape[] ToArray()
 
 ### 返回值
 
-[`IShape`](../../ishape)
+数组[`IShape`](../../ishape)
 
 ### 也可以看看
 
@@ -38,11 +38,11 @@ public IShape[] ToArray(int startIndex, int count)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | startIndex | Int32 | 要返回的第一个形状的索引。 |
-| count | Int32 | 要返回的形状数量。 |
+| count | Int32 | 要返回的许多形状。 |
 
 ### 返回值
 
-[`IShape`](../../ishape)
+数组[`IShape`](../../ishape)
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: BinaryData
 second_title: Aspose.Slides for .NET API 参考
-description: 返回音频数据的副本如果数据量很大请考虑 使用GetStreamaspose.slides/audio/getstream方法来防止将音频的 数据不必要地加载到内存甚至 OutOfMemoryException 只读Byte
+description: 返回音频数据的副本在大量数据的情况下考虑使用 GetStreamaspose.slides/audio/getstream防止将音频的 数据不必要地加载到内存甚至OutOfMemoryException. 只读的方法Byte.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides/audio/binarydata/
 ---
 ## Audio.BinaryData property
 
-返回音频数据的副本。如果数据量很大，请考虑 使用[`GetStream`](../getstream)方法来防止将音频的 数据不必要地加载到内存甚至 OutOfMemoryException。 只读Byte[]。
+返回音频数据的副本。在大量数据的情况下考虑使用 [`GetStream`](../getstream)防止将音频的 数据不必要地加载到内存甚至OutOfMemoryException. 只读的方法Byte[].
 
 ```csharp
 public byte[] BinaryData { get; }

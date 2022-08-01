@@ -1,14 +1,14 @@
 ---
 title: Preserve
 second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет удаляется ли соответствующий мастер когда удаляются все слайды  следующие за этим мастером. ПримечаниеAspose.Slides никогда не удалит неиспользуемый мастер сам по себе для фактического удаления неиспользуемых мастеров вызовитеRemoveUnusedaspose.slides/imasterslidecollection/removeunused Чтение/записьBoolean.
+description: Определяет удаляется ли соответствующий мастер когда все слайды следующие за этим мастером удаляются.RemoveUnusedaspose.slides/imasterslidecollection/removeunused Чтение/записьBoolean .
 type: docs
 weight: 80
 url: /ru/net/aspose.slides/imasterslide/preserve/
 ---
 ## IMasterSlide.Preserve property
 
-Определяет, удаляется ли соответствующий мастер, когда удаляются все слайды , следующие за этим мастером. Примечание:Aspose.Slides никогда не удалит неиспользуемый мастер сам по себе, для фактического удаления неиспользуемых мастеров вызовите[`RemoveUnused`](../../imasterslidecollection/removeunused) Чтение/записьBoolean.
+Определяет, удаляется ли соответствующий мастер, когда все слайды, следующие за этим мастером, удаляются.[`RemoveUnused`](../../imasterslidecollection/removeunused) Чтение/записьBoolean .
 
 ```csharp
 public bool Preserve { get; set; }

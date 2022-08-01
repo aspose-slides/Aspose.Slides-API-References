@@ -1,14 +1,14 @@
 ---
 title: Position
 second_title: Справочник по API Aspose.Slides для .NET
-description: Указывает положение легенды на диаграмме. Значения свойств X Y Width Heigt отличные от NaN переопределяют эффект этого свойства. Чтение/записьLegendPositionTypeaspose.slides.charts/legendpositiontype.
+description: Указывает положение легенды на диаграмме. Значения свойств X Y Width Heigt отличные от NaN переопределяют действие этого свойства. Чтение/записьLegendPositionTypeaspose.slides.charts/legendpositiontype .
 type: docs
 weight: 60
 url: /ru/net/aspose.slides.charts/ilegend/position/
 ---
 ## ILegend.Position property
 
-Указывает положение легенды на диаграмме. Значения свойств X, Y, Width, Heigt, отличные от NaN, переопределяют эффект этого свойства. Чтение/запись[`LegendPositionType`](../../legendpositiontype).
+Указывает положение легенды на диаграмме. Значения свойств X, Y, Width, Heigt, отличные от NaN, переопределяют действие этого свойства. Чтение/запись[`LegendPositionType`](../../legendpositiontype) .
 
 ```csharp
 public LegendPositionType Position { get; set; }

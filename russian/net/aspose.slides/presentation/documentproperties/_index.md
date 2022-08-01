@@ -1,14 +1,14 @@
 ---
 title: DocumentProperties
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает объект DocumentProperties который содержит стандартные и пользовательские свойства документа. Только для чтенияIDocumentPropertiesaspose.slides/idocumentproperties.
+description: Возвращает объект DocumentProperties который содержит стандартные и настраиваемые свойства документа. Только для чтенияIDocumentPropertiesaspose.slides/idocumentproperties .
 type: docs
 weight: 90
 url: /ru/net/aspose.slides/presentation/documentproperties/
 ---
 ## Presentation.DocumentProperties property
 
-Возвращает объект DocumentProperties, который содержит стандартные и пользовательские свойства документа. Только для чтения[`IDocumentProperties`](../../idocumentproperties).
+Возвращает объект DocumentProperties, который содержит стандартные и настраиваемые свойства документа. Только для чтения[`IDocumentProperties`](../../idocumentproperties) .
 
 ```csharp
 public IDocumentProperties DocumentProperties { get; }

@@ -18,9 +18,9 @@ public sealed class CommentAuthor : ICommentAuthor
 
 | Имя | Описание |
 | --- | --- |
-| [Comments](../../aspose.slides/commentauthor/comments) { get; } | Возвращает коллекцию комментариев, сделанных этим автором. Только для чтения[`ICommentCollection`](../icommentcollection). |
-| [Initials](../../aspose.slides/commentauthor/initials) { get; set; } | Возвращает или устанавливает инициалы авторов. Чтение/записьString. |
-| [Name](../../aspose.slides/commentauthor/name) { get; set; } | Возвращает или устанавливает имя автора. Чтение/записьString. |
+| [Comments](../../aspose.slides/commentauthor/comments) { get; } | Возвращает коллекцию комментариев, сделанных этим автором. Только для чтения[`ICommentCollection`](../icommentcollection) . |
+| [Initials](../../aspose.slides/commentauthor/initials) { get; set; } | Возвращает или устанавливает инициалы авторов. Чтение/записьString . |
+| [Name](../../aspose.slides/commentauthor/name) { get; set; } | Возвращает или устанавливает имя автора. Чтение/записьString . |
 
 ## Методы
 

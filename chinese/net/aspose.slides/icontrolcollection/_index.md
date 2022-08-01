@@ -18,15 +18,15 @@ public interface IControlCollection : IGenericCollection<IControl>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Item](../../aspose.slides/icontrolcollection/item) { get; } | 返回指定位置的控件。 |
+| [Item](../../aspose.slides/icontrolcollection/item) { get; } | 在指定位置返回一个控件。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AddControl](../../aspose.slides/icontrolcollection/addcontrol)(ControlType, float, float, float, float) | 创建新控件并将其添加到集合中。 |
+| [AddControl](../../aspose.slides/icontrolcollection/addcontrol)(ControlType, float, float, float, float) | 创建一个新控件并将其添加到集合中。 |
 | [Clear](../../aspose.slides/icontrolcollection/clear)() | 从集合中删除所有控件。 |
-| [Remove](../../aspose.slides/icontrolcollection/remove)(IControl) | 从集合中删除 ActiveX 控件。 |
+| [Remove](../../aspose.slides/icontrolcollection/remove)(IControl) | 从集合中删除一个 ActiveX 控件。 |
 | [RemoveAt](../../aspose.slides/icontrolcollection/removeat)(int) | 从集合中删除存储在指定位置的 ActiveX 控件。 |
 
 ### 也可以看看

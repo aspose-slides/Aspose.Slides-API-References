@@ -18,19 +18,19 @@ public interface IGeometryShape : IShape
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Adjustments](../../aspose.slides/igeometryshape/adjustments) { get; } | 返回形状调整值的集合。 只读[`IAdjustValueCollection`](../iadjustvaluecollection)。 |
-| [AsIShape](../../aspose.slides/igeometryshape/asishape) { get; } | 允许获取基本 IShape 接口。 只读[`IShape`](../ishape)。 |
-| [ShapeStyle](../../aspose.slides/igeometryshape/shapestyle) { get; } | 返回形状的样式对象。 只读[`IShapeStyle`](../ishapestyle)。 |
-| [ShapeType](../../aspose.slides/igeometryshape/shapetype) { get; set; } | 返回或设置几何预设类型。 注意:在更改值时，所有调整值都将重置为其默认值。 读/写[`ShapeType`](../shapetype)。 |
+| [Adjustments](../../aspose.slides/igeometryshape/adjustments) { get; } | 返回形状调整值的集合。 只读[`IAdjustValueCollection`](../iadjustvaluecollection). |
+| [AsIShape](../../aspose.slides/igeometryshape/asishape) { get; } | 允许获取基本 IShape 接口。 只读[`IShape`](../ishape). |
+| [ShapeStyle](../../aspose.slides/igeometryshape/shapestyle) { get; } | 返回形状的样式对象。 只读[`IShapeStyle`](../ishapestyle). |
+| [ShapeType](../../aspose.slides/igeometryshape/shapetype) { get; set; } | 返回或设置几何预设类型。 注意：在更改值时，所有调整值将重置为其默认值。 读/写[`ShapeType`](../shapetype). |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
 | [CreateShapeElements](../../aspose.slides/igeometryshape/createshapeelements)() | 创建并返回形状元素的数组。 |
-| [GetGeometryPaths](../../aspose.slides/igeometryshape/getgeometrypaths)() | 返回几何形状路径的副本。 坐标相对于形状的左上角。 |
-| [SetGeometryPath](../../aspose.slides/igeometryshape/setgeometrypath)(IGeometryPath) | 从[`IGeometryPath`](../igeometrypath)对象更新形状几何。坐标必须相对于形状的左 上角。 将形状的类型（[`ShapeType`](./shapetype)）更改为Custom. |
-| [SetGeometryPaths](../../aspose.slides/igeometryshape/setgeometrypaths)(IGeometryPath[]) | 从[`IGeometryPath`](../igeometrypath)数组更新形状几何。坐标必须相对于形状的左 上角。 将形状的类型（[`ShapeType`](./shapetype)）更改为Custom. |
+| [GetGeometryPaths](../../aspose.slides/igeometryshape/getgeometrypaths)() | 返回几何形状路径的副本。坐标相对于形状的左上角。 |
+| [SetGeometryPath](../../aspose.slides/igeometryshape/setgeometrypath)(IGeometryPath) | 更新形状几何[`IGeometryPath`](../igeometrypath)目的。坐标必须相对于形状的 left 上角。 更改形状的类型（[`ShapeType`](./shapetype) ） 至Custom |
+| [SetGeometryPaths](../../aspose.slides/igeometryshape/setgeometrypaths)(IGeometryPath[]) | 从数组更新形状几何[`IGeometryPath`](../igeometrypath).坐标必须相对于形状的 left 上角。 更改形状的类型（[`ShapeType`](./shapetype) ） 至Custom |
 
 ### 也可以看看
 

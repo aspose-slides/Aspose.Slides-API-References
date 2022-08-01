@@ -1,14 +1,14 @@
 ---
 title: AsIDisposable
 second_title: Aspose.Slides for .NET API 参考
-description: 允许获取基本 IDisposable 接口 只读IDisposable
+description: 允许获取基本 IDisposable 接口 只读IDisposable.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides/istreamwrapper/asidisposable/
 ---
 ## IStreamWrapper.AsIDisposable property
 
-允许获取基本 IDisposable 接口。 只读IDisposable。
+允许获取基本 IDisposable 接口。 只读IDisposable.
 
 ```csharp
 public IDisposable AsIDisposable { get; }

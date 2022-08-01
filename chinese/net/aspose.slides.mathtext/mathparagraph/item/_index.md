@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Slides for .NET API 参考
-description: 获取指定索引处的项目 只读IMathBlockaspose.slides.mathtext/imathblock
+description: 获取指定索引处的项目 只读IMathBlockaspose.slides.mathtext/imathblock.
 type: docs
 weight: 30
 url: /zh/net/aspose.slides.mathtext/mathparagraph/item/
 ---
 ## MathParagraph indexer
 
-获取指定索引处的项目。 只读[`IMathBlock`](../../imathblock)。
+获取指定索引处的项目。 只读[`IMathBlock`](../../imathblock).
 
 ```csharp
 public IMathBlock this[int index] { get; set; }
@@ -20,11 +20,11 @@ public IMathBlock this[int index] { get; set; }
 
 ### 返回值
 
-数学文本块。
+数学文本的块。
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]

@@ -1,14 +1,14 @@
 ---
 title: Format
 second_title: Справочник по API Aspose.Slides для .NET
-description: Получает или задает заливку маркера. Только для чтенияIFormataspose.slides.charts/iformat.
+description: Получает или задает заливку маркера. Только для чтенияIFormataspose.slides.charts/iformat .
 type: docs
 weight: 10
 url: /ru/net/aspose.slides.charts/marker/format/
 ---
 ## Marker.Format property
 
-Получает или задает заливку маркера. Только для чтения[`IFormat`](../../iformat).
+Получает или задает заливку маркера. Только для чтения[`IFormat`](../../iformat) .
 
 ```csharp
 public IFormat Format { get; }

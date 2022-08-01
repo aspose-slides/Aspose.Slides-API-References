@@ -1,14 +1,14 @@
 ---
 title: ZOrderPosition
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает положение фигуры в z-порядке. Shapes0 возвращает форму в конце z-порядка и ShapesShapes.Count - 1 возвращает форму в начале z-порядка . Только для чтенияInt32.
+description: Возвращает позицию фигуры в z-порядке. Shapes0 возвращает фигуру в конце z-порядка и ShapesShapes.Count - 1 возвращает фигуру в начале z-порядка. order. Только для чтенияInt32 .
 type: docs
 weight: 280
 url: /ru/net/aspose.slides/ishape/zorderposition/
 ---
 ## IShape.ZOrderPosition property
 
-Возвращает положение фигуры в z-порядке. Shapes[0] возвращает форму в конце z-порядка, и Shapes[Shapes.Count - 1] возвращает форму в начале z-порядка . Только для чтенияInt32.
+Возвращает позицию фигуры в z-порядке. Shapes[0] возвращает фигуру в конце z-порядка, и Shapes[Shapes.Count - 1] возвращает фигуру в начале z-порядка. order. Только для чтенияInt32 .
 
 ```csharp
 public int ZOrderPosition { get; }

@@ -1,14 +1,14 @@
 ---
 title: AddDataPointForTreemapSeries
 second_title: Aspose.Slides for .NET API 参考
-description: 创建新数据点并将其添加到集合的末尾 适用于图表类型为Treemap的系列
+description: 创建新的数据点并将其添加到集合的末尾 适用于图表类型为 Treemap 的系列
 type: docs
 weight: 220
 url: /zh/net/aspose.slides.charts/ichartdatapointcollection/adddatapointfortreemapseries/
 ---
 ## IChartDataPointCollection.AddDataPointForTreemapSeries method
 
-创建新数据点并将其添加到集合的末尾。 适用于图表类型为Treemap的系列。
+创建新的数据点并将其添加到集合的末尾。 适用于图表类型为 Treemap 的系列。
 
 ```csharp
 public IChartDataPoint AddDataPointForTreemapSeries(IChartDataCell sizeValue)
@@ -16,7 +16,7 @@ public IChartDataPoint AddDataPointForTreemapSeries(IChartDataCell sizeValue)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| sizeValue | IChartDataCell | 数据点 SizeValue |
+| sizeValue | IChartDataCell | 数据点大小值 |
 
 ### 返回值
 

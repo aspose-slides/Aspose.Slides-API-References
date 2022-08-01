@@ -1,14 +1,14 @@
 ---
 title: Marker
 second_title: Справочник по API Aspose.Slides для .NET
-description: Маркер. Только для чтенияIMarkeraspose.slides.charts/imarker.
+description: Маркер. Только для чтенияIMarkeraspose.slides.charts/imarker .
 type: docs
 weight: 200
 url: /ru/net/aspose.slides.charts/chartseries/marker/
 ---
 ## ChartSeries.Marker property
 
-Маркер. Только для чтения[`IMarker`](../../imarker).
+Маркер. Только для чтения[`IMarker`](../../imarker) .
 
 ```csharp
 public IMarker Marker { get; }

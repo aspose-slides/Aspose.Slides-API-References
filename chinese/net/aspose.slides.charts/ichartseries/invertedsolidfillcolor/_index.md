@@ -1,14 +1,14 @@
 ---
 title: InvertedSolidFillColor
 second_title: Aspose.Slides for .NET API 参考
-description: 指定系列的反转纯色要将颜色设置集系列格式 FillType 应用于 FillType.Solid 读/写IColorFormataspose.slides/icolorformat
+description: 为系列指定反转纯色将颜色设置设置系列格式 FillType 应用于 FillType.Solid. 读/写IColorFormataspose.slides/icolorformat.
 type: docs
 weight: 160
 url: /zh/net/aspose.slides.charts/ichartseries/invertedsolidfillcolor/
 ---
 ## IChartSeries.InvertedSolidFillColor property
 
-指定系列的反转纯色。要将颜色设置集系列格式 FillType 应用于 FillType.Solid。 读/写[`IColorFormat`](../../../aspose.slides/icolorformat)。
+为系列指定反转纯色。将颜色设置设置系列格式 FillType 应用于 FillType.Solid. 读/写[`IColorFormat`](../../../aspose.slides/icolorformat).
 
 ```csharp
 public IColorFormat InvertedSolidFillColor { get; }

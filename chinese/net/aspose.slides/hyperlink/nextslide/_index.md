@@ -1,14 +1,14 @@
 ---
 title: NextSlide
 second_title: Aspose.Slides for .NET API 参考
-description: 返回下一张幻灯片的超链接 只读Hyperlinkaspose.slides/hyperlink
+description: 返回下一张幻灯片的超链接 只读Hyperlinkaspose.slides/hyperlink.
 type: docs
 weight: 70
 url: /zh/net/aspose.slides/hyperlink/nextslide/
 ---
 ## Hyperlink.NextSlide property
 
-返回下一张幻灯片的超链接。 只读[`Hyperlink`](../../hyperlink)。
+返回下一张幻灯片的超链接。 只读[`Hyperlink`](../../hyperlink).
 
 ```csharp
 public static Hyperlink NextSlide { get; }

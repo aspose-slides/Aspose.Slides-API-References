@@ -1,14 +1,14 @@
 ---
 title: Value
 second_title: Aspose.Slides for .NET API 参考
-description: 表示点值 仅限boolColorFormatfloatintstring 读/写Object
+description: 表示点值 仅限boolColorFormatfloatintstring 读/写Object.
 type: docs
 weight: 30
 url: /zh/net/aspose.slides.animation/ipoint/value/
 ---
 ## IPoint.Value property
 
-表示点值。 仅限:bool、ColorFormat、float、int、string。 读/写Object。
+表示点值。 仅限：bool、ColorFormat、float、int、string。 读/写Object.
 
 ```csharp
 public object Value { get; set; }

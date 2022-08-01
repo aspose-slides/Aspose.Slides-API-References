@@ -1,14 +1,14 @@
 ---
 title: InvertIfNegative
 second_title: Aspose.Slides for .NET API 参考
-description: 指定如果值为负数数据点应反转其颜色 读/写Boolean
+description: 如果值为负数则指定数据点应反转其颜色 读/写Boolean.
 type: docs
 weight: 110
 url: /zh/net/aspose.slides.charts/chartdatapoint/invertifnegative/
 ---
 ## ChartDataPoint.InvertIfNegative property
 
-指定如果值为负数，数据点应反转其颜色。 读/写Boolean。
+如果值为负数，则指定数据点应反转其颜色。 读/写Boolean.
 
 ```csharp
 public bool InvertIfNegative { get; set; }

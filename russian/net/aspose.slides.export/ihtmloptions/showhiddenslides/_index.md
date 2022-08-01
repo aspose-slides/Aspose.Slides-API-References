@@ -1,14 +1,14 @@
 ---
 title: ShowHiddenSlides
 second_title: Справочник по API Aspose.Slides для .NET
-description: Указывает должен ли сгенерированный документ включать скрытые слайды или нет. По умолчанию false .
+description: Указывает должен ли сгенерированный документ включать скрытые слайды или нет. Значение по умолчаниюЛОЖЬ
 type: docs
 weight: 70
 url: /ru/net/aspose.slides.export/ihtmloptions/showhiddenslides/
 ---
 ## IHtmlOptions.ShowHiddenSlides property
 
-Указывает, должен ли сгенерированный документ включать скрытые слайды или нет. По умолчанию:` false` .
+Указывает, должен ли сгенерированный документ включать скрытые слайды или нет. Значение по умолчанию:`ЛОЖЬ`
 
 ```csharp
 public bool ShowHiddenSlides { get; set; }

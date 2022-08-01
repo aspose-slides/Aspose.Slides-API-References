@@ -1,14 +1,14 @@
 ---
 title: Tabs
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает таблицы абзаца. Наследование не применяется. Только для чтенияITabCollectionaspose.slides/itabcollection.
+description: Возвращает таблицы абзаца. Наследование не применяется. Только для чтенияITabCollectionaspose.slides/itabcollection .
 type: docs
 weight: 150
 url: /ru/net/aspose.slides/paragraphformat/tabs/
 ---
 ## ParagraphFormat.Tabs property
 
-Возвращает таблицы абзаца. Наследование не применяется. Только для чтения[`ITabCollection`](../../itabcollection).
+Возвращает таблицы абзаца. Наследование не применяется. Только для чтения[`ITabCollection`](../../itabcollection) .
 
 ```csharp
 public ITabCollection Tabs { get; }

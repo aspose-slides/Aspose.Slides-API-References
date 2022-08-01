@@ -24,7 +24,7 @@ public IChart AddChart(ChartType type, float x, float y, float width, float heig
 
 ### 返回值
 
-创建图表。
+创建的图表。
 
 ### 也可以看看
 
@@ -52,11 +52,11 @@ public IChart AddChart(ChartType type, float x, float y, float width, float heig
 | y | Single | 新图表的 Y 坐标。 |
 | width | Single | 图表的宽度。 |
 | height | Single | 图表的高度。 |
-| initWithSample | Boolean | 如果为真，则新图表将使用样本系列数据和设置进行初始化。 如果为假，则新图表将没有系列和最小设置。在这种情况下 图表创建会更快。 |
+| initWithSample | Boolean | 如果为真，则新图表将使用示例系列数据和设置进行初始化。 如果为假，则新图表将没有系列和最小设置。在这种情况下 图表创建会更快。 |
 
 ### 返回值
 
-创建图表。
+创建的图表。
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: AudioCdEndTrackTime
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置最后的跟踪时间 读/写Int32
+description: 返回或设置最后的磁道时间 读/写Int32.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides/audioframe/audiocdendtracktime/
 ---
 ## AudioFrame.AudioCdEndTrackTime property
 
-返回或设置最后的跟踪时间。 读/写Int32。
+返回或设置最后的磁道时间。 读/写Int32.
 
 ```csharp
 public int AudioCdEndTrackTime { get; set; }

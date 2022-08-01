@@ -1,14 +1,14 @@
 ---
 title: CreatePropertyEffect
 second_title: Справочник по API Aspose.Slides для .NET
-description: Создает эффект свойства.
+description: Создает эффект свойств.
 type: docs
 weight: 60
 url: /ru/net/aspose.slides.animation/behaviorfactory/createpropertyeffect/
 ---
 ## BehaviorFactory.CreatePropertyEffect method
 
-Создает эффект свойства.
+Создает эффект свойств.
 
 ```csharp
 public IPropertyEffect CreatePropertyEffect()

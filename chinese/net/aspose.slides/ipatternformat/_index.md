@@ -18,9 +18,9 @@ public interface IPatternFormat
 
 | 姓名 | 描述 |
 | --- | --- |
-| [BackColor](../../aspose.slides/ipatternformat/backcolor) { get; } | 返回背景图案颜色。 只读[`IColorFormat`](../icolorformat)。 |
-| [ForeColor](../../aspose.slides/ipatternformat/forecolor) { get; } | 返回前景图案颜色。 只读[`IColorFormat`](../icolorformat)。 |
-| [PatternStyle](../../aspose.slides/ipatternformat/patternstyle) { get; set; } | 返回或设置图案样式。 读/写[`PatternStyle`](../patternstyle)。 |
+| [BackColor](../../aspose.slides/ipatternformat/backcolor) { get; } | 返回背景图案颜色。 只读[`IColorFormat`](../icolorformat). |
+| [ForeColor](../../aspose.slides/ipatternformat/forecolor) { get; } | 返回前景图案颜色。 只读[`IColorFormat`](../icolorformat). |
+| [PatternStyle](../../aspose.slides/ipatternformat/patternstyle) { get; set; } | 返回或设置图案样式。 读/写[`PatternStyle`](../patternstyle). |
 
 ## 方法
 

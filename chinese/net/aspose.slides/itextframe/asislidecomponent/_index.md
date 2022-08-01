@@ -1,14 +1,14 @@
 ---
 title: AsISlideComponent
 second_title: Aspose.Slides for .NET API 参考
-description: 允许获取基础 ISlideComponent 接口 只读ISlideComponentaspose.slides/islidecomponent
+description: 允许获取基本 ISlideComponent 接口 只读ISlideComponentaspose.slides/islidecomponent.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides/itextframe/asislidecomponent/
 ---
 ## ITextFrame.AsISlideComponent property
 
-允许获取基础 ISlideComponent 接口。 只读[`ISlideComponent`](../../islidecomponent)。
+允许获取基本 ISlideComponent 接口。 只读[`ISlideComponent`](../../islidecomponent).
 
 ```csharp
 public ISlideComponent AsISlideComponent { get; }

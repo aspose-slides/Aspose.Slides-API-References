@@ -1,14 +1,14 @@
 ---
 title: RowSpan
 second_title: Aspose.Slides for .NET API 参考
-description: 返回合并单元格跨越的行数这与 与其他单元格上的 vMerge 属性结合使用以指定水平合并的开始单元格  只读Int32
+description: 返回合并单元格跨越的行数这与其他单元格上的 vMerge 属性结合使用以指定水平合并的开始 cell  只读Int32.
 type: docs
 weight: 180
 url: /zh/net/aspose.slides/cell/rowspan/
 ---
 ## Cell.RowSpan property
 
-返回合并单元格跨越的行数。这与 与其他单元格上的 vMerge 属性结合使用，以指定水平合并的开始单元格 。 只读Int32。
+返回合并单元格跨越的行数。这与其他单元格上的 vMerge 属性结合使用，以指定水平合并的开始 cell 。 只读Int32.
 
 ```csharp
 public int RowSpan { get; }

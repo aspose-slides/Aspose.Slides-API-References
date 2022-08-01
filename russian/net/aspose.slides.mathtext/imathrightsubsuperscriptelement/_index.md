@@ -18,10 +18,10 @@ public interface IMathRightSubSuperscriptElement : IMathElement
 
 | Имя | Описание |
 | --- | --- |
-| [AlignScripts](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/alignscripts) { get; set; } | Задает выравнивание нижнего/верхнего индекса. При значении true нижний и верхний индексы выравниваются по горизонтали относительно друг друга. При значении false они привязываются к форме основания. Значение по умолчанию — false. |
+| [AlignScripts](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/alignscripts) { get; set; } | Определяет выравнивание нижнего/верхнего индекса. При значении true верхний и нижний индексы выравниваются по горизонтали относительно друг друга. При значении false они кернингуются по форме основания. Значение по умолчанию — false. |
 | [AsIMathElement](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/asimathelement) { get; } | Позволяет получить базовый интерфейс IMathElement [`IMathElement`](../imathelement) |
 | [Base](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/base) { get; } | Базовый аргумент |
-| [Subscript](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/subscript) { get; } | Нижний индекс |
+| [Subscript](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/subscript) { get; } | Аргумент нижнего индекса |
 | [Superscript](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/superscript) { get; } | Надстрочный аргумент |
 
 ### Примеры

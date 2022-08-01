@@ -35,7 +35,7 @@ public class BehaviorFactory : IBehaviorFactory
 
 ### 评论
 
-为了 COM 兼容性。
+用于 COM 兼容性。
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: InsertVideoFrame
 second_title: Aspose.Slides for .NET API 参考
-description: 创建一个新视频帧并将其插入到指定索引处的集合中
+description: 创建一个新的视频帧并将其插入到指定索引处的集合中
 type: docs
 weight: 350
 url: /zh/net/aspose.slides/ishapecollection/insertvideoframe/
 ---
 ## IShapeCollection.InsertVideoFrame method
 
-创建一个新视频帧并将其插入到指定索引处的集合中。
+创建一个新的视频帧并将其插入到指定索引处的集合中。
 
 ```csharp
 public IVideoFrame InsertVideoFrame(int index, float x, float y, float width, float height, 

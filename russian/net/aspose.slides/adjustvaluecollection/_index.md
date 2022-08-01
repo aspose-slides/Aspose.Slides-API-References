@@ -18,16 +18,16 @@ public sealed class AdjustValueCollection : DomObject<GeometryShape>, IAdjustVal
 
 | Имя | Описание |
 | --- | --- |
-| [Count](../../aspose.slides/adjustvaluecollection/count) { get; } | Вернуть количество корректировок. Только для чтенияInt32. |
-| [IsSynchronized](../../aspose.slides/adjustvaluecollection/issynchronized) { get; } | Возвращает значение, указывающее, является ли доступ к коллекции синхронизированным (потокобезопасным). Только чтениеBoolean. |
-| [Item](../../aspose.slides/adjustvaluecollection/item) { get; } | Возвращает настройку по индексу. |
-| [SyncRoot](../../aspose.slides/adjustvaluecollection/syncroot) { get; } | Возвращает корень синхронизации. Только для чтенияObject. |
+| [Count](../../aspose.slides/adjustvaluecollection/count) { get; } | Возвращает количество корректировок. Только для чтенияInt32 . |
+| [IsSynchronized](../../aspose.slides/adjustvaluecollection/issynchronized) { get; } | Возвращает значение, указывающее, является ли доступ к коллекции синхронизированным (потокобезопасным). Только для чтенияBoolean . |
+| [Item](../../aspose.slides/adjustvaluecollection/item) { get; } | Возвращает корректировку по индексу. |
+| [SyncRoot](../../aspose.slides/adjustvaluecollection/syncroot) { get; } | Возвращает корень синхронизации. Только для чтенияObject . |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [CopyTo](../../aspose.slides/adjustvaluecollection/copyto)(Array, int) | Копирует все элементы из коллекции в указанный массив. |
+| [CopyTo](../../aspose.slides/adjustvaluecollection/copyto)(Array, int) | Копирует все элементы коллекции в указанный массив. |
 
 ### Смотрите также
 

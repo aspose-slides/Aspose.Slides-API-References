@@ -1,14 +1,14 @@
 ---
 title: GetEffective
 second_title: Aspose.Slides for .NET API 参考
-description: 获取应用继承的有效数据
+description: 获取应用了继承的有效数据
 type: docs
 weight: 10
 url: /zh/net/aspose.slides/iaccessiblepviobject-1/geteffective/
 ---
 ## IAccessiblePVIObject&lt;T&gt;.GetEffective method
 
-获取应用继承的有效数据。
+获取应用了继承的有效数据。
 
 ```csharp
 public T GetEffective()

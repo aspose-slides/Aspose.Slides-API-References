@@ -18,9 +18,9 @@ public interface ITrendlineCollection : IEnumerable<ITrendline>
 
 | Имя | Описание |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.charts/itrendlinecollection/asienumerable) { get; } | Позволяет получить базовый интерфейс IEnumerable. Только для чтенияIEnumerable. |
-| [Count](../../aspose.slides.charts/itrendlinecollection/count) { get; } | Получает количество элементов, фактически содержащихся в коллекции. Только для чтенияInt32. |
-| [Item](../../aspose.slides.charts/itrendlinecollection/item) { get; } | Получает элемент по указанному индексу. Только для чтения[`ITrendline`](../itrendline). |
+| [AsIEnumerable](../../aspose.slides.charts/itrendlinecollection/asienumerable) { get; } | Позволяет получить базовый интерфейс IEnumerable. Только для чтенияIEnumerable . |
+| [Count](../../aspose.slides.charts/itrendlinecollection/count) { get; } | Получает количество элементов, фактически содержащихся в коллекции. Только для чтенияInt32 . |
+| [Item](../../aspose.slides.charts/itrendlinecollection/item) { get; } | Получает элемент по указанному индексу. Только для чтения[`ITrendline`](../itrendline) . |
 
 ## Методы
 

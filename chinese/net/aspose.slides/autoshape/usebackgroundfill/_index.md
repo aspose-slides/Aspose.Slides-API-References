@@ -1,14 +1,14 @@
 ---
 title: UseBackgroundFill
 second_title: Aspose.Slides for .NET API 参考
-description: 确定此自选图形是否应使用幻灯片的背景填充而不是由样式或填充格式指定 读/写Boolean
+description: 确定此自选图形是否应使用幻灯片的背景填充而不是由样式或填充格式指定 读/写Boolean.
 type: docs
 weight: 50
 url: /zh/net/aspose.slides/autoshape/usebackgroundfill/
 ---
 ## AutoShape.UseBackgroundFill property
 
-确定此自选图形是否应使用幻灯片的背景填充而不是由样式或填充格式指定。 读/写Boolean。
+确定此自选图形是否应使用幻灯片的背景填充而不是由样式或填充格式指定。 读/写Boolean.
 
 ```csharp
 public bool UseBackgroundFill { get; set; }

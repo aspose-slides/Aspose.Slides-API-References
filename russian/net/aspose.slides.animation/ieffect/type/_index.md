@@ -1,14 +1,14 @@
 ---
 title: Type
 second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет тип эффекта. Чтение/записьEffectTypeaspose.slides.animation/effecttype.
+description: Определяет тип эффекта. Чтение/записьEffectTypeaspose.slides.animation/effecttype .
 type: docs
 weight: 80
 url: /ru/net/aspose.slides.animation/ieffect/type/
 ---
 ## IEffect.Type property
 
-Определяет тип эффекта. Чтение/запись[`EffectType`](../../effecttype).
+Определяет тип эффекта. Чтение/запись[`EffectType`](../../effecttype) .
 
 ```csharp
 public EffectType Type { get; set; }

@@ -1,22 +1,22 @@
 ---
 title: PresentationLockingBehavior
 second_title: Aspose.Slides for .NET API 参考
-description: 表示关于处理IPresentation./ipresentation源文件或 Stream同时加载和使用IPresentation./ipresentation的实例  源是传递给IPresentation./ipresentation构造函数的参数在下面的 示例中源是pres.pptx文件
+description: 表示有关对待IPresentation./ipresentation源文件或 Stream  在加载和使用的实例时IPresentation./ipresentation源是传递给IPresentation./ipresentation构造函数在下面的 示例中来源是pres.pptx文件
 type: docs
 weight: 8910
 url: /zh/net/aspose.slides/presentationlockingbehavior/
 ---
 ## PresentationLockingBehavior enumeration
 
-表示关于处理[`IPresentation`](../ipresentation)源（文件或 Stream)，同时加载和使用[`IPresentation`](../ipresentation)的实例。  源是传递给[`IPresentation`](../ipresentation)构造函数的参数。在下面的 示例中，源是“pres.pptx”文件:
-   
+表示有关对待[`IPresentation`](../ipresentation)源（文件或 Stream ) 在加载和使用的实例时[`IPresentation`](../ipresentation)源是传递给[`IPresentation`](../ipresentation)构造函数。在下面的 示例中，来源是“pres.pptx”文件：
+
 ```csharp
 LoadOptions loadOptions = new LoadOptions { 
   BlobManagementOptions = { PresentationLockingBehavior = PresentationLockingBehavior.KeepLocked } };
 using (IPresentation pres = new Presentation("pres.pptx", loadOptions)) { }
-``` 
+```
 
- 对于此示例，源（“pres.pptx”文件）将被锁定为[`IPresentation`](../ipresentation) 实例生命周期，即不能由其他进程更改或删除。
+对于这个例子，源（“pres.pptx”文件）将被锁定一段时间[`IPresentation`](../ipresentation) 实例生命周期，即不能被其他进程更改或删除。
 
 ```csharp
 public enum PresentationLockingBehavior
@@ -26,9 +26,8 @@ public enum PresentationLockingBehavior
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| LoadAndRelease | `0` | 源将仅在[`IPresentation`](../ipresentation)构造函数执行期间被锁定。  如果[`IsTemporaryFilesAllowed`](../iblobmanagementoptions/istemporaryfilesallowed)设置为 false，则将加载所有 BLOB 进入记忆。否则，可能会使用其他方式，例如临时文件。 这种行为比KeepLocked慢，如果可以通过 源的所有权为[`IPresentation`](../ipresentation)，建议使用KeepLocked。 |
-| KeepLocked | `1` | 源将被锁定整个生命周期[`IPresentation`](../ipresentation)实例，直到它 被处置。 [`IsTemporaryFilesAllowed`](../iblobmanagementoptions/istemporaryfilesallowed)必须设置为 true 才能使用 这种行为，否则会抛出异常。 建议使用此行为，它比LoadAndRelease更快且消耗更少的内存。 |
-| LoadAndRelease_Legacy_TemporaryDefault | `255` | 源将仅锁定时间[`IPresentation`](../ipresentation)构造函数执行，所有 BLOB 将被加载到内存中。 此行为是提供向后兼容性的遗留行为。通过使用LoadAndRelease并设置:::R5:P:Aspose.Slides.IBlobManagementOptions.IsTemporaryFilesAllowed::可以实现相同的行为 为假。 请考虑选择LoadAndRelease或KeepLocked行为，什么是 最适合你。 LoadAndRelease_Legacy_TemporaryDefault之后将被删除，KeepLocked 将是默认行为。 |
+| LoadAndRelease | `0` | 源将仅被锁定一段时间[`IPresentation`](../ipresentation)构造函数执行. 如果[`IsTemporaryFilesAllowed`](../iblobmanagementoptions/istemporaryfilesallowed)设置为 false，所有 BLOB 将被加载到内存中。否则，可能会使用其他方式，例如临时文件。这种行为比KeepLocked，并且如果可以将源的 所有权传递给[`IPresentation`](../ipresentation) 建议使用KeepLocked. |
+| KeepLocked | `1` | 源将被锁定整个生命周期[`IPresentation`](../ipresentation)例如，直到它将 被处置。 [`IsTemporaryFilesAllowed`](../iblobmanagementoptions/istemporaryfilesallowed)is 必须设置为 true 才能使用 这种行为，否则将引发异常。建议使用此行为，它比LoadAndRelease. |
 
 ### 也可以看看
 

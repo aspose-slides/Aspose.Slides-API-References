@@ -24,25 +24,25 @@ public class SwfOptions : SaveOptions, ISwfOptions
 
 | Имя | Описание |
 | --- | --- |
-| [Compressed](../../aspose.slides.export/swfoptions/compressed) { get; set; } | Указывает, следует ли сжимать сгенерированный SWF-документ. По умолчанию:` true` . |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Возвращает или устанавливает шрифт, используемый в случае, если исходный шрифт не найден. Чтение-записьString. |
+| [Compressed](../../aspose.slides.export/swfoptions/compressed) { get; set; } | Указывает, следует ли сжимать сгенерированный SWF-документ. Значение по умолчанию:`истинный` |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Возвращает или устанавливает шрифт, используемый в случае, если исходный шрифт не найден. Чтение-записьString . |
 | [EnableContextMenu](../../aspose.slides.export/swfoptions/enablecontextmenu) { get; set; } | Включить/выключить контекстное меню. Значение по умолчанию верно. |
-| [JpegQuality](../../aspose.slides.export/swfoptions/jpegquality) { get; set; } | Определяет качество изображений JPEG. По умолчанию 95. |
-| [LogoImageBytes](../../aspose.slides.export/swfoptions/logoimagebytes) { get; set; } | Изображение, которое будет отображаться как логотип в правом верхнем углу окна просмотра. Изображение должно быть PNG-изображением размером 32x64 пикселя, иначе логотип может отображаться некорректно. |
-| [LogoLink](../../aspose.slides.export/swfoptions/logolink) { get; set; } | Получает или задает полный адрес гиперссылки для логотипа. Имеет эффект, только если указан[`LogoImageBytes`](./logoimagebytes). |
+| [JpegQuality](../../aspose.slides.export/swfoptions/jpegquality) { get; set; } | Определяет качество изображений JPEG. Значение по умолчанию: 95. |
+| [LogoImageBytes](../../aspose.slides.export/swfoptions/logoimagebytes) { get; set; } | Изображение, которое будет отображаться как логотип в правом верхнем углу окна просмотра. Изображение должно быть размером 32x64 пикселей в формате PNG, иначе логотип может отображаться некорректно. |
+| [LogoLink](../../aspose.slides.export/swfoptions/logolink) { get; set; } | Получает или задает полный адрес гиперссылки для логотипа. Действует, только если[`LogoImageBytes`](./logoimagebytes) указано. |
 | [NotesCommentsLayouting](../../aspose.slides.export/swfoptions/notescommentslayouting) { get; } | Предоставляет параметры, управляющие размещением примечаний и комментариев в экспортируемом документе. |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Представляет объект обратного вызова для сохранения обновлений хода выполнения в процентах. См.[`IProgressCallback`](../../aspose.slides/iprogresscallback). |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Представляет объект обратного вызова для сохранения обновлений хода выполнения в процентах. См.[`IProgressCallback`](../../aspose.slides/iprogresscallback) . |
 | [ShowBottomPane](../../aspose.slides.export/swfoptions/showbottompane) { get; set; } | Показать/скрыть нижнюю панель. Может быть переопределен в flashvars. Значение по умолчанию верно. |
 | [ShowFullScreen](../../aspose.slides.export/swfoptions/showfullscreen) { get; set; } | Показать/скрыть полноэкранную кнопку. Может быть переопределен в flashvars. Значение по умолчанию верно. |
-| [ShowHiddenSlides](../../aspose.slides.export/swfoptions/showhiddenslides) { get; set; } | Указывает, должен ли сгенерированный документ включать скрытые слайды или нет. По умолчанию:` false` . |
+| [ShowHiddenSlides](../../aspose.slides.export/swfoptions/showhiddenslides) { get; set; } | Указывает, должен ли сгенерированный документ включать скрытые слайды или нет. Значение по умолчанию:`ЛОЖЬ` |
 | [ShowLeftPane](../../aspose.slides.export/swfoptions/showleftpane) { get; set; } | Показать/скрыть левую панель. Может быть переопределен в flashvars. Значение по умолчанию верно. |
 | [ShowPageBorder](../../aspose.slides.export/swfoptions/showpageborder) { get; set; } | Указывает, следует ли отображать границу вокруг страниц. Значение по умолчанию верно. |
 | [ShowPageStepper](../../aspose.slides.export/swfoptions/showpagestepper) { get; set; } | Показать/скрыть степпер страниц. Может быть переопределен в flashvars. Значение по умолчанию верно. |
 | [ShowSearch](../../aspose.slides.export/swfoptions/showsearch) { get; set; } | Показать/скрыть раздел поиска. Может быть переопределен в flashvars. Значение по умолчанию верно. |
 | [ShowTopPane](../../aspose.slides.export/swfoptions/showtoppane) { get; set; } | Показать/скрыть всю верхнюю панель. Может быть переопределен в flashvars. Значение по умолчанию верно. |
 | [StartOpenLeftPane](../../aspose.slides.export/swfoptions/startopenleftpane) { get; set; } | Начните с открытой левой панели. Может быть переопределен в flashvars. Значение по умолчанию — ложь. |
-| [ViewerIncluded](../../aspose.slides.export/swfoptions/viewerincluded) { get; set; } | Указывает, должен ли сгенерированный SWF-документ включать интегрированное средство просмотра документов или нет. По умолчанию:` true` . |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Возвращает наборы объект, который получает предупреждения и решает, будет ли процесс загрузки продолжен или будет прерван. Чтение/запись[`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [ViewerIncluded](../../aspose.slides.export/swfoptions/viewerincluded) { get; set; } | Указывает, должен ли сгенерированный SWF-документ включать интегрированное средство просмотра документов или нет. Значение по умолчанию:`истинный` |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Возвращает наборы объекта, который получает предупреждения и решает, будет ли процесс загрузки продолжен или будет прерван. Чтение/запись[`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback) . |
 
 ### Смотрите также
 

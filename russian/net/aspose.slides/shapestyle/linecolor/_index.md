@@ -1,14 +1,14 @@
 ---
 title: LineColor
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает цвет контура фигуры. Только для чтенияIColorFormataspose.slides/icolorformat.
+description: Возвращает цвет контура фигуры. Только для чтенияIColorFormataspose.slides/icolorformat .
 type: docs
 weight: 70
 url: /ru/net/aspose.slides/shapestyle/linecolor/
 ---
 ## ShapeStyle.LineColor property
 
-Возвращает цвет контура фигуры. Только для чтения[`IColorFormat`](../../icolorformat).
+Возвращает цвет контура фигуры. Только для чтения[`IColorFormat`](../../icolorformat) .
 
 ```csharp
 public IColorFormat LineColor { get; }

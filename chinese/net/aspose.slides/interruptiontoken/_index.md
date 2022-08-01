@@ -18,14 +18,14 @@ public class InterruptionToken : IInterruptionToken
 
 | 姓名 | 描述 |
 | --- | --- |
-| static [None](../../aspose.slides/interruptiontoken/none) { get; } | 表示一个空的中断令牌。  长时间运行的操作永远不会被[`Interrupt`](../interruptiontokensource/interrupt) 中断使用时这个令牌。 |
-| [IsInterruptionRequested](../../aspose.slides/interruptiontoken/isinterruptionrequested) { get; } | 如果请求中断，则返回Boolean.true。 |
+| static [None](../../aspose.slides/interruptiontoken/none) { get; } | 表示一个空的中断令牌。 长时间运行的操作永远不会被中断[`Interrupt`](../interruptiontokensource/interrupt) 使用此令牌时。 |
+| [IsInterruptionRequested](../../aspose.slides/interruptiontoken/isinterruptionrequested) { get; } | 返回Boolean.true 如果请求中断。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ThrowIfInterruptionRequested](../../aspose.slides/interruptiontoken/throwifinterruptionrequested)() | 抛出 OperationCanceledException if 中断请求。 |
+| [ThrowIfInterruptionRequested](../../aspose.slides/interruptiontoken/throwifinterruptionrequested)() | 抛出一个操作取消异常if 请求中断。 |
 
 ### 也可以看看
 

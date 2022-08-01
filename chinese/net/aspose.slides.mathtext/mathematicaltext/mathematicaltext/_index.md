@@ -16,7 +16,7 @@ public MathematicalText()
 
 ### 例子
 
-示例
+示例：
 
 ```csharp
 [C#]
@@ -41,11 +41,11 @@ public MathematicalText(char mathSymbol)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| mathSymbol | Char | 单个符号 |
+| mathSymbol | Char | 单一符号 |
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]
@@ -62,7 +62,7 @@ MathematicalText mathText = new MathematicalText('$');
 
 ## MathematicalText(string) {#constructor_2}
 
-从文本创建 MathematicalText
+从 text 创建数学文本
 
 ```csharp
 public MathematicalText(string mathText)
@@ -74,7 +74,7 @@ public MathematicalText(string mathText)
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]
@@ -91,7 +91,7 @@ MathematicalText mathText = new MathematicalText("x+y");
 
 ## MathematicalText(string, IPortionFormat) {#constructor_3}
 
-从文本和格式设置创建 MathematicalText
+从文本和格式设置创建数学文本
 
 ```csharp
 public MathematicalText(string mathText, IPortionFormat portionFormat)
@@ -104,7 +104,7 @@ public MathematicalText(string mathText, IPortionFormat portionFormat)
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]

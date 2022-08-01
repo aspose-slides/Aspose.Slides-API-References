@@ -21,7 +21,7 @@ public enum MathHorizontalAlignment
 | NotDefined | `0` | 值未定义 |
 | Left | `1` | 左对齐 |
 | Center | `2` | 中心 |
-| Right | `3` | 右 |
+| Right | `3` | 对 |
 
 ### 也可以看看
 

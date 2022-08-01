@@ -1,14 +1,14 @@
 ---
 title: PlayLoopMode
 second_title: Aspose.Slides for .NET API 参考
-description: 确定音频是否循环播放 读/写Boolean
+description: 确定音频是否循环播放 读/写Boolean.
 type: docs
 weight: 100
 url: /zh/net/aspose.slides/audioframe/playloopmode/
 ---
 ## AudioFrame.PlayLoopMode property
 
-确定音频是否循环播放。 读/写Boolean。
+确定音频是否循环播放。 读/写Boolean.
 
 ```csharp
 public bool PlayLoopMode { get; set; }

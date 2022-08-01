@@ -1,14 +1,14 @@
 ---
 title: ChartData
 second_title: Aspose.Slides for .NET API 参考
-description: 返回有关与图表关联的链接或嵌入数据的信息 只读IChartDataaspose.slides.charts/ichartdata
+description: 返回有关与图表关联的链接或嵌入数据的信息 只读IChartDataaspose.slides.charts/ichartdata.
 type: docs
 weight: 60
 url: /zh/net/aspose.slides.charts/ichart/chartdata/
 ---
 ## IChart.ChartData property
 
-返回有关与图表关联的链接或嵌入数据的信息。 只读[`IChartData`](../../ichartdata)。
+返回有关与图表关联的链接或嵌入数据的信息。 只读[`IChartData`](../../ichartdata).
 
 ```csharp
 public IChartData ChartData { get; }

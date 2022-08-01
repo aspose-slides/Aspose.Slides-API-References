@@ -1,14 +1,14 @@
 ---
 title: OverrideTheme
 second_title: Aspose.Slides for .NET API 参考
-description: 返回覆盖主题对象 读/写IOverrideThemeaspose.slides.theme/ioverridetheme
+description: 返回覆盖主题对象 读/写IOverrideThemeaspose.slides.theme/ioverridetheme.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides.theme/baseoverridethememanager/overridetheme/
 ---
 ## BaseOverrideThemeManager.OverrideTheme property
 
-返回覆盖主题对象。 读/写[`IOverrideTheme`](../../ioverridetheme)。
+返回覆盖主题对象。 读/写[`IOverrideTheme`](../../ioverridetheme).
 
 ```csharp
 public IOverrideTheme OverrideTheme { get; set; }

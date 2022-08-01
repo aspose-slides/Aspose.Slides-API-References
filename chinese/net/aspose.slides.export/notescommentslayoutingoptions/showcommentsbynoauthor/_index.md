@@ -1,14 +1,14 @@
 ---
 title: ShowCommentsByNoAuthor
 second_title: Aspose.Slides for .NET API 参考
-description: 获取或设置没有作者的评论的可见性如果为真那么评论 将被显示 仅在显示评论时适用
+description: 获取或设置没有作者的评论的可见性如果为 true则将显示评论  仅在显示评论时适用
 type: docs
 weight: 60
 url: /zh/net/aspose.slides.export/notescommentslayoutingoptions/showcommentsbynoauthor/
 ---
 ## NotesCommentsLayoutingOptions.ShowCommentsByNoAuthor property
 
-获取或设置没有作者的评论的可见性。如果为真，那么评论 将被显示。 （仅在显示评论时适用）。
+获取或设置没有作者的评论的可见性。如果为 true，则将显示评论 。 （仅在显示评论时适用）。
 
 ```csharp
 public bool ShowCommentsByNoAuthor { get; set; }
@@ -16,7 +16,7 @@ public bool ShowCommentsByNoAuthor { get; set; }
 
 ### 评论
 
-默认值为 **false** .
+默认值为 **错误的**.
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: MetafileRasterizationDpi
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или задает нижний предел разрешения для растеризации метафайла. Чтение/записьInt32.
+description: Возвращает или задает нижний предел разрешения для растеризации метафайла. Чтение/записьInt32 .
 type: docs
 weight: 80
 url: /ru/net/aspose.slides.export/isvgoptions/metafilerasterizationdpi/
 ---
 ## ISVGOptions.MetafileRasterizationDpi property
 
-Возвращает или задает нижний предел разрешения для растеризации метафайла. Чтение/записьInt32.
+Возвращает или задает нижний предел разрешения для растеризации метафайла. Чтение/записьInt32 .
 
 ```csharp
 public int MetafileRasterizationDpi { get; set; }

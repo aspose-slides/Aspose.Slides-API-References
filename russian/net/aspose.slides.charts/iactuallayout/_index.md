@@ -18,10 +18,10 @@ public interface IActualLayout
 
 | Имя | Описание |
 | --- | --- |
-| [ActualHeight](../../aspose.slides.charts/iactuallayout/actualheight) { get; } | Определяет фактическую высоту элемента диаграммы. Вызовите метод IChart.ValidateChartLayout() перед тем, как получить фактические значения. ЧитатьSingle. |
-| [ActualWidth](../../aspose.slides.charts/iactuallayout/actualwidth) { get; } | Задает фактическую ширину элемента диаграммы. Вызовите метод IChart.ValidateChartLayout() перед тем, как получить фактические значения. ЧитатьSingle. |
-| [ActualX](../../aspose.slides.charts/iactuallayout/actualx) { get; } | Задает фактическое положение x (слева) элемента диаграммы относительно левого верхнего угла диаграммы. Вызовите метод IChart.ValidateChartLayout() перед тем, как получить фактические значения. ЧитатьSingle. |
-| [ActualY](../../aspose.slides.charts/iactuallayout/actualy) { get; } | Указывает фактическую вершину элемента диаграммы относительно левого верхнего угла диаграммы. Вызовите метод IChart.ValidateChartLayout() перед тем, как получить фактические значения. ЧитатьSingle. |
+| [ActualHeight](../../aspose.slides.charts/iactuallayout/actualheight) { get; } | Определяет фактическую высоту элемента диаграммы. Вызовите метод IChart.ValidateChartLayout() перед тем, как получить фактические значения. ЧитатьSingle . |
+| [ActualWidth](../../aspose.slides.charts/iactuallayout/actualwidth) { get; } | Определяет фактическую ширину элемента диаграммы. Вызовите метод IChart.ValidateChartLayout() перед тем, как получить фактические значения. ЧитатьSingle . |
+| [ActualX](../../aspose.slides.charts/iactuallayout/actualx) { get; } | Указывает фактическое положение x (слева) элемента диаграммы относительно левого верхнего угла диаграммы. Вызовите метод IChart.ValidateChartLayout() перед тем, как получить фактические значения. ЧитатьSingle . |
+| [ActualY](../../aspose.slides.charts/iactuallayout/actualy) { get; } | Указывает фактическую верхнюю часть элемента диаграммы относительно левого верхнего угла диаграммы. Вызовите метод IChart.ValidateChartLayout() перед получением фактических значений. ЧитатьSingle . |
 
 ### Смотрите также
 

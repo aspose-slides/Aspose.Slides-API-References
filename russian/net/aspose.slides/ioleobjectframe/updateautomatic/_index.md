@@ -1,14 +1,14 @@
 ---
 title: UpdateAutomatic
 second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет будет ли автоматически обновляться связанный встроенный объект при открытии или печати презентации. Чтение/записьBoolean.
+description: Определяет будет ли автоматически обновляться связанный встроенный объект при открытии или печати презентации. Чтение/записьBoolean .
 type: docs
 weight: 130
 url: /ru/net/aspose.slides/ioleobjectframe/updateautomatic/
 ---
 ## IOleObjectFrame.UpdateAutomatic property
 
-Определяет, будет ли автоматически обновляться связанный встроенный объект при открытии или печати презентации. Чтение/записьBoolean.
+Определяет, будет ли автоматически обновляться связанный встроенный объект при открытии или печати презентации. Чтение/записьBoolean .
 
 ```csharp
 public bool UpdateAutomatic { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: SetEmbeddedData
 second_title: Aspose.Slides for .NET API 参考
-description: 设置有关 OLE 嵌入数据的信息  此方法更改对象的属性以反映新数据并且 将 IsObjectLink 标志设置为 false指示 OLE 对象已嵌入
+description: 设置有关 OLE 嵌入数据的信息  此方法更改对象的属性以反映新数据 将 IsObjectLink 标志设置为 false表示 OLE 对象已嵌入
 type: docs
 weight: 140
 url: /zh/net/aspose.slides/oleobjectframe/setembeddeddata/
 ---
 ## OleObjectFrame.SetEmbeddedData method
 
-设置有关 OLE 嵌入数据的信息。  此方法更改对象的属性以反映新数据，并且 将 IsObjectLink 标志设置为 false，指示 OLE 对象已嵌入。
+设置有关 OLE 嵌入数据的信息。  此方法更改对象的属性以反映新数据， 将 IsObjectLink 标志设置为 false，表示 OLE 对象已嵌入。
 
 ```csharp
 public void SetEmbeddedData(IOleEmbeddedDataInfo embeddedData)

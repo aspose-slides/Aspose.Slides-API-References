@@ -1,14 +1,14 @@
 ---
 title: StyleTextDecorationLineThrough
 second_title: Aspose.Slides for .NET API 参考
-description: 表示 style.textDecorationLineThrough 属性
+description: 表示style.textDecorationLineThrough 属性
 type: docs
 weight: 1130
 url: /zh/net/aspose.slides.animation/behaviorproperty/styletextdecorationlinethrough/
 ---
 ## BehaviorProperty.StyleTextDecorationLineThrough property
 
-表示 'style.textDecorationLineThrough' 属性
+表示'style.textDecorationLineThrough' 属性
 
 ```csharp
 public static BehaviorProperty StyleTextDecorationLineThrough { get; }

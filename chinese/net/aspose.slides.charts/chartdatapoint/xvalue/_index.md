@@ -1,14 +1,14 @@
 ---
 title: XValue
 second_title: Aspose.Slides for .NET API 参考
-description: XValue 只读IStringOrDoubleChartValueaspose.slides.charts/istringordoublechartvalue
+description: XValue. 只读IStringOrDoubleChartValueaspose.slides.charts/istringordoublechartvalue.
 type: docs
 weight: 190
 url: /zh/net/aspose.slides.charts/chartdatapoint/xvalue/
 ---
 ## ChartDataPoint.XValue property
 
-XValue。 只读[`IStringOrDoubleChartValue`](../../istringordoublechartvalue)。
+XValue. 只读[`IStringOrDoubleChartValue`](../../istringordoublechartvalue).
 
 ```csharp
 public IStringOrDoubleChartValue XValue { get; }

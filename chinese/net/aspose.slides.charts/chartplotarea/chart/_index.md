@@ -1,14 +1,14 @@
 ---
 title: Chart
 second_title: Aspose.Slides for .NET API 参考
-description: 图表 只读IChartaspose.slides.charts/ichart
+description: 图表 只读IChartaspose.slides.charts/ichart.
 type: docs
 weight: 60
 url: /zh/net/aspose.slides.charts/chartplotarea/chart/
 ---
 ## ChartPlotArea.Chart property
 
-图表。 只读[`IChart`](../../ichart)。
+图表。 只读[`IChart`](../../ichart).
 
 ```csharp
 public IChart Chart { get; }

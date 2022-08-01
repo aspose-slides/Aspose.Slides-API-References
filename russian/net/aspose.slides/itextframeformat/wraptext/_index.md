@@ -1,14 +1,14 @@
 ---
 title: WrapText
 second_title: Справочник по API Aspose.Slides для .NET
-description: Истинно  если текст переносится на поля TextFrame. Чтение/записьNullableBoolaspose.slides/nullablebool.
+description: Истинный если текст перенесен на поля TextFrame. Чтение/записьNullableBoolaspose.slides/nullablebool .
 type: docs
 weight: 160
 url: /ru/net/aspose.slides/itextframeformat/wraptext/
 ---
 ## ITextFrameFormat.WrapText property
 
-**Истинно** , если текст переносится на поля TextFrame. Чтение/запись[`NullableBool`](../../nullablebool).
+**Истинный** если текст перенесен на поля TextFrame. Чтение/запись[`NullableBool`](../../nullablebool) .
 
 ```csharp
 public NullableBool WrapText { get; set; }

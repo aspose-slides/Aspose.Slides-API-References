@@ -1,14 +1,14 @@
 ---
 title: Spokes
 second_title: Aspose.Slides for .NET API 参考
-description: 车轮过渡的辐条数 读/写UInt32
+description: 车轮过渡的辐条数 读/写UInt32.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides.slideshow/wheeltransition/spokes/
 ---
 ## WheelTransition.Spokes property
 
-车轮过渡的辐条数。 读/写UInt32。
+车轮过渡的辐条数。 读/写UInt32.
 
 ```csharp
 public uint Spokes { get; set; }

@@ -16,7 +16,7 @@ public bool UpperLimit { get; set; }
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]

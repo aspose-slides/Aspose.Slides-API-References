@@ -1,14 +1,14 @@
 ---
 title: Add
 second_title: Справочник по API Aspose.Slides для .NET
-description: Если категория существует в коллекции вернуть ее. Else создает новую категорию диаграммы из IChartDataCellaspose.slides.charts/ichartdatacellи добавляет ее в коллекцию.
+description: Если категория существует в коллекции вернуть ее. Else создает новую категорию диаграммы из IChartDataCellaspose.slides.charts/ichartdatacell и добавляет в коллекцию.
 type: docs
 weight: 70
 url: /ru/net/aspose.slides.charts/chartcategorycollection/add/
 ---
 ## Add(IChartDataCell) {#add}
 
-Если категория существует в коллекции, вернуть ее. Else создает новую категорию диаграммы из [`IChartDataCell`](../../ichartdatacell)и добавляет ее в коллекцию.
+Если категория существует в коллекции, вернуть ее. Else создает новую категорию диаграммы из [`IChartDataCell`](../../ichartdatacell) и добавляет в коллекцию.
 
 ```csharp
 public IChartCategory Add(IChartDataCell chartDataCell)
@@ -34,7 +34,7 @@ public IChartCategory Add(IChartDataCell chartDataCell)
 
 ## Add(object) {#add_1}
 
-Создает новый[`ChartCategory`](../../chartcategory)из значения и добавляет его в коллекцию.
+Создает новый[`ChartCategory`](../../chartcategory) из значения и добавляет его в коллекцию.
 
 ```csharp
 public IChartCategory Add(object value)
@@ -46,17 +46,17 @@ public IChartCategory Add(object value)
 
 ### Возвращаемое значение
 
-Добавлено[`IChartCategory`](../../ichartcategory).
+Добавлен[`IChartCategory`](../../ichartcategory).
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| InvalidOperationException | при превышении лимита |
+| InvalidOperationException | если лимит превышен |
 
 ### Примечания
 
-Этот метод добавляет рабочий лист с именем AUTO_DATA и добавляет туда все значения. Если вы используете[`ChartDataWorkbook`](../../chartdataworkbook)для добавления или редактирования значений ячеек, убедитесь, что вы не используете этот рабочий лист Максимальное количество значений, добавляемых с помощью этого метод не должен превышать 16711680
+Этот метод добавляет рабочий лист с именем AUTO_DATA и добавляет туда все значения. Если вы используете[`ChartDataWorkbook`](../../chartdataworkbook) чтобы добавить или изменить значения ячеек, убедитесь, что вы не используете этот рабочий лист Максимальное количество значений, добавляемых с помощью этого метода, не должно превышать 16711680
 
 ### Смотрите также
 

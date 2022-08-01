@@ -1,14 +1,14 @@
 ---
 title: DefaultSymbolFont
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или устанавливает символьный шрифт используемый в случае если исходный шрифт не найден. Чтение-записьString.
+description: Возвращает или задает шрифт символов используемый в случае если исходный шрифт не найден. Чтение-записьString .
 type: docs
 weight: 40
 url: /ru/net/aspose.slides/iloadoptions/defaultsymbolfont/
 ---
 ## ILoadOptions.DefaultSymbolFont property
 
-Возвращает или устанавливает символьный шрифт, используемый в случае, если исходный шрифт не найден. Чтение-записьString.
+Возвращает или задает шрифт символов, используемый в случае, если исходный шрифт не найден. Чтение-записьString .
 
 ```csharp
 public string DefaultSymbolFont { get; set; }

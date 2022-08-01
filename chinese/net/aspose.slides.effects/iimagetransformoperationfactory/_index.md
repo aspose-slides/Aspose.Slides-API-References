@@ -1,14 +1,14 @@
 ---
 title: IImageTransformOperationFactory
 second_title: Aspose.Slides for .NET API 参考
-description: 允许创建图像效果实例
+description: 允许创建图像效果的实例
 type: docs
 weight: 3210
 url: /zh/net/aspose.slides.effects/iimagetransformoperationfactory/
 ---
 ## IImageTransformOperationFactory interface
 
-允许创建图像效果实例
+允许创建图像效果的实例
 
 ```csharp
 public interface IImageTransformOperationFactory

@@ -1,14 +1,14 @@
 ---
 title: Accelerate
 second_title: Aspose.Slides for .NET API 参考
-description: 描述持续时间加速行为效果的百分比 读/写Single
+description: 描述持续时间加速行为效果的百分比 读/写Single.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides.animation/itiming/accelerate/
 ---
 ## ITiming.Accelerate property
 
-描述持续时间加速行为效果的百分比。 读/写Single。
+描述持续时间加速行为效果的百分比。 读/写Single.
 
 ```csharp
 public float Accelerate { get; set; }

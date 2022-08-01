@@ -1,14 +1,14 @@
 ---
 title: Add
 second_title: Aspose.Slides for .NET API 参考
-description: 添加对引用集合的新引用
+description: 将新引用添加到引用集合
 type: docs
 weight: 50
 url: /zh/net/aspose.slides.vba/vbareferencecollection/add/
 ---
 ## VbaReferenceCollection.Add method
 
-添加对引用集合的新引用
+将新引用添加到引用集合
 
 ```csharp
 public void Add(IVbaReference value)

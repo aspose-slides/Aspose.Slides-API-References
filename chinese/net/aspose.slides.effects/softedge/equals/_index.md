@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: Aspose.Slides for .NET API 参考
-description: 确定指定的SoftEdgeaspose.slides.effects/softedge是否等于当前SoftEdge
+description: 判断是否指定SoftEdgeaspose.slides.effects/softedge等于当前SoftEdgeaspose.slides.effects/softedge.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides.effects/softedge/equals/
 ---
 ## SoftEdge.Equals method
 
-确定指定的[`SoftEdge`](../../softedge)是否等于当前SoftEdge。
+判断是否指定[`SoftEdge`](../../softedge)等于当前[`SoftEdge`](../../softedge).
 
 ```csharp
 public override bool Equals(object obj)
@@ -16,11 +16,11 @@ public override bool Equals(object obj)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| obj | Object | [`SoftEdge`](../../softedge)进行比较。 |
+| obj | Object | 这[`SoftEdge`](../../softedge)比较。 |
 
 ### 返回值
 
-如果对象相等，则为真；否则为假。
+如果对象相等，则为 true；否则为假。
 
 ### 也可以看看
 

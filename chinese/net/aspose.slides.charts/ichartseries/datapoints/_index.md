@@ -1,14 +1,14 @@
 ---
 title: DataPoints
 second_title: Aspose.Slides for .NET API 参考
-description: 返回该系列数据点的集合 只读IChartDataPointCollectionaspose.slides.charts/ichartdatapointcollection
+description: 返回该系列的数据点集合 只读IChartDataPointCollectionaspose.slides.charts/ichartdatapointcollection.
 type: docs
 weight: 50
 url: /zh/net/aspose.slides.charts/ichartseries/datapoints/
 ---
 ## IChartSeries.DataPoints property
 
-返回该系列数据点的集合。 只读[`IChartDataPointCollection`](../../ichartdatapointcollection)。
+返回该系列的数据点集合。 只读[`IChartDataPointCollection`](../../ichartdatapointcollection).
 
 ```csharp
 public IChartDataPointCollection DataPoints { get; }

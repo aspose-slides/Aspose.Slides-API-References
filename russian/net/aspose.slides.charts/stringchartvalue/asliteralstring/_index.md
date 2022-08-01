@@ -1,14 +1,14 @@
 ---
 title: AsLiteralString
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или устанавливает значение как литеральную строку. Чтение/записьString.
+description: Возвращает или задает значение как литеральную строку. Чтение/записьString .
 type: docs
 weight: 20
 url: /ru/net/aspose.slides.charts/stringchartvalue/asliteralstring/
 ---
 ## StringChartValue.AsLiteralString property
 
-Возвращает или устанавливает значение как литеральную строку. Чтение/записьString.
+Возвращает или задает значение как литеральную строку. Чтение/записьString .
 
 ```csharp
 public string AsLiteralString { get; set; }

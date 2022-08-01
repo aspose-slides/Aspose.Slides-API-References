@@ -18,14 +18,14 @@ public class PPImage : IDisposable, IPPImage
 
 | Имя | Описание |
 | --- | --- |
-| [BinaryData](../../aspose.slides/ppimage/binarydata) { get; } | Возвращает копию данных изображения. Только для чтенияByte[]. |
-| [ContentType](../../aspose.slides/ppimage/contenttype) { get; } | Возвращает MIME-тип изображения, закодированного в[`BinaryData`](./binarydata). Только чтениеString. |
-| [Height](../../aspose.slides/ppimage/height) { get; } | Возвращает высоту изображения. Только для чтенияInt32. |
-| [SvgImage](../../aspose.slides/ppimage/svgimage) { get; set; } | Возвращает или устанавливает объект ISvgImage[`ISvgImage`](../isvgimage) |
-| [SystemImage](../../aspose.slides/ppimage/systemimage) { get; } | Возвращает копию изображения. Только для чтенияImage. |
-| [Width](../../aspose.slides/ppimage/width) { get; } | Возвращает ширину изображения. Только для чтенияInt32. |
-| [X](../../aspose.slides/ppimage/x) { get; } | Возвращает X-смещение изображения. Только для чтенияInt32. |
-| [Y](../../aspose.slides/ppimage/y) { get; } | Возвращает Y-смещение изображения. Только для чтенияInt32. |
+| [BinaryData](../../aspose.slides/ppimage/binarydata) { get; } | Возвращает копию данных изображения. Только для чтенияByte []. |
+| [ContentType](../../aspose.slides/ppimage/contenttype) { get; } | Возвращает MIME-тип изображения, закодированного в[`BinaryData`](./binarydata) . Только для чтенияString . |
+| [Height](../../aspose.slides/ppimage/height) { get; } | Возвращает высоту изображения. Только для чтенияInt32 . |
+| [SvgImage](../../aspose.slides/ppimage/svgimage) { get; set; } | Возвращает или задает объект ISvgImage[`ISvgImage`](../isvgimage) |
+| [SystemImage](../../aspose.slides/ppimage/systemimage) { get; } | Возвращает копию изображения. Только для чтенияImage . |
+| [Width](../../aspose.slides/ppimage/width) { get; } | Возвращает ширину изображения. Только для чтенияInt32 . |
+| [X](../../aspose.slides/ppimage/x) { get; } | Возвращает X-смещение изображения. Только для чтенияInt32 . |
+| [Y](../../aspose.slides/ppimage/y) { get; } | Возвращает смещение изображения по оси Y. Только для чтенияInt32 . |
 
 ## Методы
 
@@ -33,9 +33,9 @@ public class PPImage : IDisposable, IPPImage
 | --- | --- |
 | [Dispose](../../aspose.slides/ppimage/dispose)() | Удаляет объект. |
 | override [GetHashCode](../../aspose.slides/ppimage/gethashcode)() | Возвращает хэш-код изображения. |
-| [ReplaceImage](../../aspose.slides/ppimage/replaceimage#replaceimage_1)(byte[]) | Заменяет данные изображения.  Данные нового изображения. Когда параметр newImageData имеет значение null. |
-| [ReplaceImage](../../aspose.slides/ppimage/replaceimage#replaceimage_2)(Image) | Заменяет данные изображения. Внимание:когда изображение является метафайлом - оно будет растеризовано из-за ограничений GDI+. Вместо этого используйте ReplaceImage(byte[])  Новое изображение. Когда параметр newImage имеет значение null. |
-| [ReplaceImage](../../aspose.slides/ppimage/replaceimage#replaceimage)(IPPImage) | Заменяет данные изображения.  Новый IPPImage. Когда параметр newImage имеет значение null. |
+| [ReplaceImage](../../aspose.slides/ppimage/replaceimage#replaceimage_1)(byte[]) | Заменяет данные изображения. Данные нового изображения.Когда параметр newImageData имеет значение null. |
+| [ReplaceImage](../../aspose.slides/ppimage/replaceimage#replaceimage_2)(Image) | Заменяет данные изображения. Внимание: когда изображение является метафайлом - оно будет растеризовано из-за ограничений GDI+. Вместо этого используйте ReplaceImage(byte[]) Новый образ.Когда параметр newImage имеет значение null. |
+| [ReplaceImage](../../aspose.slides/ppimage/replaceimage#replaceimage)(IPPImage) | Заменяет данные изображения. Новый IPPImage.Когда параметр newImage имеет значение null. |
 
 ### Смотрите также
 

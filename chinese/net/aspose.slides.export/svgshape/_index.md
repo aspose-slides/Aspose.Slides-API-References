@@ -18,13 +18,13 @@ public sealed class SvgShape : ISvgShape
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Id](../../aspose.slides.export/svgshape/id) { get; set; } | 获取形状 ID |
+| [Id](../../aspose.slides.export/svgshape/id) { get; set; } | 获取形状 id |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [SetEventHandler](../../aspose.slides.export/svgshape/seteventhandler)(SvgEvent, string) | 为形状设置事件处理程序 |
+| [SetEventHandler](../../aspose.slides.export/svgshape/seteventhandler)(SvgEvent, string) | 为 shape 设置事件处理程序 |
 
 ### 也可以看看
 

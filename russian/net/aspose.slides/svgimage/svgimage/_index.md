@@ -36,7 +36,7 @@ public SvgImage(string svgContent)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| svgContent | String | Svg-контент. |
+| svgContent | String | SVG-контент. |
 
 ### Смотрите также
 
@@ -56,7 +56,7 @@ public SvgImage(Stream stream)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| stream | Stream | Поток SVG. |
+| stream | Stream | Свг-поток. |
 
 ### Смотрите также
 
@@ -99,7 +99,7 @@ public SvgImage(string svgContent, IExternalResourceResolver externalResResolver
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| svgContent | String | Svg-контент. |
+| svgContent | String | SVG-контент. |
 | externalResResolver | IExternalResourceResolver | Объект обратного вызова, используемый для получения внешних объектов. Если этот параметр равен нулю, все внешние объекты будут игнорироваться. |
 | baseUri | String | Базовый URI указанного Svg. Используется для разрешения относительных ссылок. |
 
@@ -122,7 +122,7 @@ public SvgImage(Stream stream, IExternalResourceResolver externalResResolver, st
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| stream | Stream | Поток SVG. |
+| stream | Stream | Свг-поток. |
 | externalResResolver | IExternalResourceResolver | Объект обратного вызова, используемый для получения внешних объектов. Если этот параметр равен нулю, все внешние объекты будут игнорироваться. |
 | baseUri | String | Базовый URI указанного Svg. Используется для разрешения относительных ссылок. |
 

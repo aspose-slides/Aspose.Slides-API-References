@@ -17,7 +17,7 @@ public void ArcTo(float width, float heigth, float startAngle, float sweepAngle)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | width | Single | 矩形的宽度 |
-| heigth | Single | 矩形的高度矩形 |
+| heigth | Single | 矩形的高度 |
 | startAngle | Single | 起始角度。 |
 | sweepAngle | Single | 扫角/ |
 

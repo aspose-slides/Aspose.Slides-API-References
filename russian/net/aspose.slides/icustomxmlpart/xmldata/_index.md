@@ -1,14 +1,14 @@
 ---
 title: XmlData
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или устанавливает данные xml. Чтение/записьByte.  значение равно null .Значение пусто или xml-данные недействительны.
+description: Возвращает или устанавливает данные xml. Чтение/записьByte . значениенулевой.значение пусто или данные xml недействительны.
 type: docs
 weight: 40
 url: /ru/net/aspose.slides/icustomxmlpart/xmldata/
 ---
 ## ICustomXmlPart.XmlData property
 
-Возвращает или устанавливает данные xml. Чтение/записьByte[].  значение равно` null` .Значение пусто или xml-данные недействительны.
+Возвращает или устанавливает данные xml. Чтение/записьByte []. значение`нулевой`.значение пусто или данные xml недействительны.
 
 ```csharp
 public byte[] XmlData { get; set; }

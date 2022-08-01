@@ -20,7 +20,7 @@ public IShape FindShapeByAltText(string altText)
 
 ### Возвращаемое значение
 
-Объект формы или null.
+Объект формы или ноль.
 
 ### Смотрите также
 

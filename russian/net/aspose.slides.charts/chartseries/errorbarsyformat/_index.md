@@ -1,14 +1,14 @@
 ---
 title: ErrorBarsYFormat
 second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет ErrorBars серии с направлением Y.  ErrorBars с направлением Y доступно для серий типа площадь полоса линия разброс и пузырек. Для любых других типов диаграмм это свойство возвращает значение null включая трехмерные диаграммы. В случае пользовательских значений используйте коллекцию DataPoints для указания значения со свойствомErrorBarsCustomValuesaspose.slides.charts/ichartdatapoint/errorbarscustomvalues.  Только для чтенияIErrorBarsFormataspose.slides.charts/ierrorbarsformat.
+description: Представляет ErrorBars серии с направлением Y.  ErrorBars с направлением Y доступны для серий типа область полоса линия разброс и пузырек. Для любых других типов диаграмм это свойство возвращает значение null включая трехмерные диаграммы. В случае пользовательских значений используйте коллекцию DataPoints для указания значения сErrorBarsCustomValuesaspose.slides.charts/ichartdatapoint/errorbarscustomvalues свойство.  Только для чтенияIErrorBarsFormataspose.slides.charts/ierrorbarsformat .
 type: docs
 weight: 80
 url: /ru/net/aspose.slides.charts/chartseries/errorbarsyformat/
 ---
 ## ChartSeries.ErrorBarsYFormat property
 
-Представляет ErrorBars серии с направлением Y.  ErrorBars с направлением Y доступно для серий типа площадь, полоса, линия, разброс и пузырек. Для любых других типов диаграмм это свойство возвращает значение null (включая трехмерные диаграммы). В случае пользовательских значений используйте коллекцию DataPoints для указания значения (со свойством[`ErrorBarsCustomValues`](../../ichartdatapoint/errorbarscustomvalues)).  Только для чтения[`IErrorBarsFormat`](../../ierrorbarsformat).
+Представляет ErrorBars серии с направлением Y.  ErrorBars с направлением Y доступны для серий типа область, полоса, линия, разброс и пузырек. Для любых других типов диаграмм это свойство возвращает значение null (включая трехмерные диаграммы). В случае пользовательских значений используйте коллекцию DataPoints для указания значения (с[`ErrorBarsCustomValues`](../../ichartdatapoint/errorbarscustomvalues) свойство).  Только для чтения[`IErrorBarsFormat`](../../ierrorbarsformat) .
 
 ```csharp
 public IErrorBarsFormat ErrorBarsYFormat { get; }

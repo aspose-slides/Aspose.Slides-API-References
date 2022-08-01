@@ -1,14 +1,14 @@
 ---
 title: IControlCollection
 second_title: Справочник по API Aspose.Slides для .NET
-description: Набор элементов управления ActiveX.
+description: Коллекция элементов управления ActiveX.
 type: docs
 weight: 5140
 url: /ru/net/aspose.slides/icontrolcollection/
 ---
 ## IControlCollection interface
 
-Набор элементов управления ActiveX.
+Коллекция элементов управления ActiveX.
 
 ```csharp
 public interface IControlCollection : IGenericCollection<IControl>

@@ -16,7 +16,7 @@ public IMasterSlide ApplyExternalThemeToDependingSlides(string fname)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| fname | String | Путь к файлу внешней темы (.thmx). |
+| fname | String | Путь к внешнему файлу темы (.thmx). |
 
 ### Возвращаемое значение
 

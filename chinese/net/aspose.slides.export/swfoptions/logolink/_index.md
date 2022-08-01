@@ -1,14 +1,14 @@
 ---
 title: LogoLink
 second_title: Aspose.Slides for .NET API 参考
-description: 获取或设置徽标的完整超链接地址 仅在指定LogoImageBytesaspose.slides.export/swfoptions/logoimagebytes时有效
+description: 获取或设置徽标的完整超链接地址 仅当LogoImageBytesaspose.slides.export/swfoptions/logoimagebytes被指定
 type: docs
 weight: 60
 url: /zh/net/aspose.slides.export/swfoptions/logolink/
 ---
 ## SwfOptions.LogoLink property
 
-获取或设置徽标的完整超链接地址。 仅在指定[`LogoImageBytes`](../logoimagebytes)时有效。
+获取或设置徽标的完整超链接地址。 仅当[`LogoImageBytes`](../logoimagebytes)被指定。
 
 ```csharp
 public string LogoLink { get; set; }

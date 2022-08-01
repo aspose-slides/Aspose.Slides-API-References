@@ -1,14 +1,14 @@
 ---
 title: DateTime3
 second_title: Aspose.Slides for .NET API 参考
-description: 第三种预定义格式的当前日期和时间英语为 DD Month YYYY 只读FieldTypeaspose.slides/fieldtype
+description: 第三种预定义格式的当前日期和时间英语为 DD 月 YYYY 只读FieldTypeaspose.slides/fieldtype.
 type: docs
 weight: 90
 url: /zh/net/aspose.slides/fieldtype/datetime3/
 ---
 ## FieldType.DateTime3 property
 
-第三种预定义格式的当前日期和时间（英语为 DD Month YYYY）。 只读[`FieldType`](../../fieldtype)。
+第三种预定义格式的当前日期和时间（英语为 DD 月 YYYY）。 只读[`FieldType`](../../fieldtype).
 
 ```csharp
 public static FieldType DateTime3 { get; }

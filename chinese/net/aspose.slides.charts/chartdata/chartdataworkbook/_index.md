@@ -1,14 +1,14 @@
 ---
 title: ChartDataWorkbook
 second_title: Aspose.Slides for .NET API 参考
-description: 获取单元格工厂以创建用于图表系列或类别的单元格 只读IChartDataWorkbookaspose.slides.charts/ichartdataworkbook
+description: 获取单元格工厂以创建用于图表系列或类别的单元格 只读IChartDataWorkbookaspose.slides.charts/ichartdataworkbook.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides.charts/chartdata/chartdataworkbook/
 ---
 ## ChartData.ChartDataWorkbook property
 
-获取单元格工厂以创建用于图表系列或类别的单元格。 只读[`IChartDataWorkbook`](../../ichartdataworkbook)。
+获取单元格工厂以创建用于图表系列或类别的单元格。 只读[`IChartDataWorkbook`](../../ichartdataworkbook).
 
 ```csharp
 public IChartDataWorkbook ChartDataWorkbook { get; }

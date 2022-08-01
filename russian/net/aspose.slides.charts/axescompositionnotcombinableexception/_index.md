@@ -1,14 +1,14 @@
 ---
 title: AxesCompositionNotCombinableException
 second_title: Справочник по API Aspose.Slides для .NET
-description: Исключение возникающее когда состав осей ряда не сочетается с существующими осями состав на диаграмме.
+description: Исключение возникающее когда состав осей ряда не комбинируется с имеющимся составом осей в диаграмме.
 type: docs
 weight: 1020
 url: /ru/net/aspose.slides.charts/axescompositionnotcombinableexception/
 ---
 ## AxesCompositionNotCombinableException class
 
-Исключение, возникающее, когда состав осей ряда не сочетается с существующими осями состав на диаграмме.
+Исключение, возникающее, когда состав осей ряда не комбинируется с имеющимся составом осей в диаграмме.
 
 ```csharp
 public class AxesCompositionNotCombinableException : InvalidOperationException
@@ -19,7 +19,7 @@ public class AxesCompositionNotCombinableException : InvalidOperationException
 | Имя | Описание |
 | --- | --- |
 | [AxesCompositionNotCombinableException](axescompositionnotcombinableexception#constructor)() | Конструктор по умолчанию. |
-| [AxesCompositionNotCombinableException](axescompositionnotcombinableexception#constructor_1)(string) | Конструктор, позволяющий добавить сообщение к этому исключению. |
+| [AxesCompositionNotCombinableException](axescompositionnotcombinableexception#constructor_1)(string) | Конструктор, позволяющий добавить сообщение в это исключение. |
 | [AxesCompositionNotCombinableException](axescompositionnotcombinableexception#constructor_2)(string, Exception) | Конструктор исключения, содержащего сообщение и встроенное исключение. |
 
 ### Смотрите также

@@ -1,14 +1,14 @@
 ---
 title: LightRig
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или устанавливает тип источника света. Только для чтенияILightRigaspose.slides/ilightrig.
+description: Возвращает или задает тип источника света. Только для чтенияILightRigaspose.slides/ilightrig .
 type: docs
 weight: 90
 url: /ru/net/aspose.slides/threedformat/lightrig/
 ---
 ## ThreeDFormat.LightRig property
 
-Возвращает или устанавливает тип источника света. Только для чтения[`ILightRig`](../../ilightrig).
+Возвращает или задает тип источника света. Только для чтения[`ILightRig`](../../ilightrig) .
 
 ```csharp
 public ILightRig LightRig { get; }

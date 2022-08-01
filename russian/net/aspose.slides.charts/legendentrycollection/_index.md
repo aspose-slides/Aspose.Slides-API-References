@@ -18,8 +18,8 @@ public class LegendEntryCollection : ILegendEntryCollection
 
 | Имя | Описание |
 | --- | --- |
-| [Count](../../aspose.slides.charts/legendentrycollection/count) { get; } | Получает количество записей легенды. Только для чтенияInt32. |
-| [Item](../../aspose.slides.charts/legendentrycollection/item) { get; } | Получает свойства записи легенды, соответствующей Chart.ChartData.Series[0].DataPoints[index] в случае типа диаграммы из этого list: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie; или соответствующий Chart.ChartData.Series[index] для других типов диаграмм. |
+| [Count](../../aspose.slides.charts/legendentrycollection/count) { get; } | Получает количество записей легенды. Только для чтенияInt32 . |
+| [Item](../../aspose.slides.charts/legendentrycollection/item) { get; } | Получает свойства записи легенды, соответствующей Chart.ChartData.Series[0].DataPoints[index] в случае типа диаграммы из этого списка: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType. Pie, ChartType.Pie3D, ChartType.PieOfPie; или соответствующий Chart.ChartData.Series[index] для других типов диаграмм. |
 
 ### Смотрите также
 

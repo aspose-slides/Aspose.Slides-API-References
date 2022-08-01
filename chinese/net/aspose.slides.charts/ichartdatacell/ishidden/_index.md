@@ -1,14 +1,14 @@
 ---
 title: IsHidden
 second_title: Aspose.Slides for .NET API 参考
-description: 确定单元格是否隐藏 只读Boolean
+description: 确定单元格是否隐藏 只读Boolean.
 type: docs
 weight: 50
 url: /zh/net/aspose.slides.charts/ichartdatacell/ishidden/
 ---
 ## IChartDataCell.IsHidden property
 
-确定单元格是否隐藏。 只读Boolean。
+确定单元格是否隐藏。 只读Boolean.
 
 ```csharp
 public bool IsHidden { get; }

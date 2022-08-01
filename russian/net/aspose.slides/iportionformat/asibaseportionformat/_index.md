@@ -1,14 +1,14 @@
 ---
 title: AsIBasePortionFormat
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает интерфейс IBasePortionFormat. Только для чтенияIBasePortionFormataspose.slides/ibaseportionformat.
+description: Возвращает интерфейс IBasePortionFormat. Только для чтенияIBasePortionFormataspose.slides/ibaseportionformat .
 type: docs
 weight: 10
 url: /ru/net/aspose.slides/iportionformat/asibaseportionformat/
 ---
 ## IPortionFormat.AsIBasePortionFormat property
 
-Возвращает интерфейс IBasePortionFormat. Только для чтения[`IBasePortionFormat`](../../ibaseportionformat).
+Возвращает интерфейс IBasePortionFormat. Только для чтения[`IBasePortionFormat`](../../ibaseportionformat) .
 
 ```csharp
 public IBasePortionFormat AsIBasePortionFormat { get; }

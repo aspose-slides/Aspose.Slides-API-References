@@ -18,13 +18,13 @@ public interface ISmartArt : IGraphicalObject
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AllNodes](../../aspose.slides.smartart/ismartart/allnodes) { get; } | 返回 SmartArt 对象中所有节点的集合。 只读[`ISmartArtNodeCollection`](../ismartartnodecollection)。 |
-| [AsIGraphicalObject](../../aspose.slides.smartart/ismartart/asigraphicalobject) { get; } | 允许获取基本 IGraphicalObject 接口。 只读[`IGraphicalObject`](../../aspose.slides/igraphicalobject)。 |
-| [ColorStyle](../../aspose.slides.smartart/ismartart/colorstyle) { get; set; } | 返回或设置 SmartArt 对象的颜色样式。 读/写[`SmartArtColorType`](../smartartcolortype)。 |
-| [IsReversed](../../aspose.slides.smartart/ismartart/isreversed) { get; set; } | 如果图表支持反转，则返回或设置 SmartArt 图表相对于（从左到右）LTR 或（从右到左）RTL 的状态. 读/写Boolean。 |
-| [Layout](../../aspose.slides.smartart/ismartart/layout) { get; set; } | 返回或设置 SmartArt 对象的布局。 读/写[`SmartArtLayoutType`](../smartartlayouttype)。 |
-| [Nodes](../../aspose.slides.smartart/ismartart/nodes) { get; } | 返回 SmartArt 对象中根节点的集合。 只读[`ISmartArtNodeCollection`](../ismartartnodecollection)。 |
-| [QuickStyle](../../aspose.slides.smartart/ismartart/quickstyle) { get; set; } | 返回或设置 SmartArt 对象的快速样式。 读/写[`SmartArtQuickStyleType`](../smartartquickstyletype)。 |
+| [AllNodes](../../aspose.slides.smartart/ismartart/allnodes) { get; } | 返回 SmartArt 对象中所有节点的集合。 只读[`ISmartArtNodeCollection`](../ismartartnodecollection). |
+| [AsIGraphicalObject](../../aspose.slides.smartart/ismartart/asigraphicalobject) { get; } | 允许获取基本 IGraphicalObject 接口。 只读[`IGraphicalObject`](../../aspose.slides/igraphicalobject). |
+| [ColorStyle](../../aspose.slides.smartart/ismartart/colorstyle) { get; set; } | 返回或设置 SmartArt 对象的颜色样式。 读/写[`SmartArtColorType`](../smartartcolortype). |
+| [IsReversed](../../aspose.slides.smartart/ismartart/isreversed) { get; set; } | 如果图表支持反转，则返回或设置 SmartArt 图表关于（从左到右）LTR 或（从右到左）RTL 的状态。 读/写Boolean. |
+| [Layout](../../aspose.slides.smartart/ismartart/layout) { get; set; } | 返回或设置 SmartArt 对象的布局。 读/写[`SmartArtLayoutType`](../smartartlayouttype). |
+| [Nodes](../../aspose.slides.smartart/ismartart/nodes) { get; } | 返回 SmartArt 对象中根节点的集合。 只读[`ISmartArtNodeCollection`](../ismartartnodecollection). |
+| [QuickStyle](../../aspose.slides.smartart/ismartart/quickstyle) { get; set; } | 返回或设置 SmartArt 对象的快速样式。 读/写[`SmartArtQuickStyleType`](../smartartquickstyletype). |
 
 ### 也可以看看
 

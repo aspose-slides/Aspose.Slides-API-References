@@ -1,14 +1,14 @@
 ---
 title: FromColor
 second_title: Aspose.Slides for .NET API 参考
-description: 将被替换的颜色 只读Color
+description: 将被替换的颜色 只读Color.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides.effects/icolorchangeeffectivedata/fromcolor/
 ---
 ## IColorChangeEffectiveData.FromColor property
 
-将被替换的颜色。 只读Color。
+将被替换的颜色。 只读Color.
 
 ```csharp
 public Color FromColor { get; }

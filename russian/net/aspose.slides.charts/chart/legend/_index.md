@@ -1,14 +1,14 @@
 ---
 title: Legend
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или задает легенду для диаграммы. Только для чтенияILegendaspose.slides.charts/ilegend.
+description: Возвращает или задает легенду для диаграммы. Только для чтенияILegendaspose.slides.charts/ilegend .
 type: docs
 weight: 140
 url: /ru/net/aspose.slides.charts/chart/legend/
 ---
 ## Chart.Legend property
 
-Возвращает или задает легенду для диаграммы. Только для чтения[`ILegend`](../../ilegend).
+Возвращает или задает легенду для диаграммы. Только для чтения[`ILegend`](../../ilegend) .
 
 ```csharp
 public ILegend Legend { get; }

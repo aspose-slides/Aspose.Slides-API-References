@@ -21,7 +21,7 @@ public IMathMatrix CreateMathMatrix(int rowCount, int columnCount)
 
 ### 返回值
 
-新数学矩阵
+新的数学矩阵
 
 ### 也可以看看
 

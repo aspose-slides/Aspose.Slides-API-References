@@ -1,14 +1,14 @@
 ---
 title: IThemeable
 second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет объекты которые могут быть оформлены с помощьюITheme./itheme.
+description: Представляет объекты которые могут быть оформлены с помощьюITheme./itheme .
 type: docs
 weight: 10590
 url: /ru/net/aspose.slides.theme/ithemeable/
 ---
 ## IThemeable interface
 
-Представляет объекты, которые могут быть оформлены с помощью[`ITheme`](../itheme).
+Представляет объекты, которые могут быть оформлены с помощью[`ITheme`](../itheme) .
 
 ```csharp
 public interface IThemeable : ISlideComponent
@@ -18,7 +18,7 @@ public interface IThemeable : ISlideComponent
 
 | Имя | Описание |
 | --- | --- |
-| [AsISlideComponent](../../aspose.slides.theme/ithemeable/asislidecomponent) { get; } | Возвращает интерфейс ISlideComponent. Только для чтения[`ISlideComponent`](../../aspose.slides/islidecomponent). |
+| [AsISlideComponent](../../aspose.slides.theme/ithemeable/asislidecomponent) { get; } | Возвращает интерфейс ISlideComponent. Только для чтения[`ISlideComponent`](../../aspose.slides/islidecomponent) . |
 
 ## Методы
 

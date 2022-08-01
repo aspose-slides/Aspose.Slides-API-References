@@ -16,18 +16,18 @@ public ICustomXmlPart Add(string xmlString)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| xmlString | String | Строка xml новой части, которая будет добавлена. |
+| xmlString | String | Строка xml новой добавляемой детали. |
 
 ### Возвращаемое значение
 
-Создана пользовательская часть xml.
+Создал пользовательскую часть xml.
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | xmlString is` null` . |
-| ArgumentException | xmlString пуста или xml-данные недействительны. |
+| ArgumentNullException | xmlString это`нулевой`. |
+| ArgumentException | xmlString пуст или данные xml недействительны. |
 
 ### Смотрите также
 
@@ -48,18 +48,18 @@ public ICustomXmlPart Add(byte[] xmlData)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| xmlData | Byte[] | XML-данные новой добавляемой детали. |
+| xmlData | Byte[] | Добавляемые XML-данные новой детали. |
 
 ### Возвращаемое значение
 
-Создана пользовательская часть xml.
+Создал пользовательскую часть xml.
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | xmlData is` null` . |
-| ArgumentException | xmlData пусто или недопустимо. |
+| ArgumentNullException | xmlData`нулевой`. |
+| ArgumentException | xmlData пуст или недействителен. |
 
 ### Смотрите также
 
@@ -84,13 +84,13 @@ public ICustomXmlPart Add(Stream inputStream)
 
 ### Возвращаемое значение
 
-Создана пользовательская часть xml.
+Создал пользовательскую часть xml.
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | inputStream is` null` . |
+| ArgumentNullException | inputStream это`нулевой`. |
 | ArgumentException | Данные в inputStream пусты или недействительны. |
 
 ### Смотрите также

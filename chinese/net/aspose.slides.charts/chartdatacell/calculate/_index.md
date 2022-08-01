@@ -16,7 +16,7 @@ public void Calculate(bool updateValues)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| updateValues | Boolean | 如果为假，则不进行实际计算。使用 true 进行可能的异常检查。 |
+| updateValues | Boolean | 如果为 false，则不会执行实际计算。使用 true 进行可能的异常检查。 |
 
 ### 也可以看看
 

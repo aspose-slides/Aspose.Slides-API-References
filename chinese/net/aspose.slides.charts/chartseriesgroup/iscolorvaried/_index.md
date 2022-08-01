@@ -1,14 +1,14 @@
 ---
 title: IsColorVaried
 second_title: Aspose.Slides for .NET API 参考
-description: 指定系列中的每个数据标记具有不同的颜色 读/写Boolean
+description: 指定系列中的每个数据标记具有不同的颜色 读/写Boolean.
 type: docs
 weight: 100
 url: /zh/net/aspose.slides.charts/chartseriesgroup/iscolorvaried/
 ---
 ## ChartSeriesGroup.IsColorVaried property
 
-指定系列中的每个数据标记具有不同的颜色。 读/写Boolean。
+指定系列中的每个数据标记具有不同的颜色。 读/写Boolean.
 
 ```csharp
 public bool IsColorVaried { get; set; }

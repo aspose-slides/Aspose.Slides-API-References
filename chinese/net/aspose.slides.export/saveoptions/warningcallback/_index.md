@@ -1,14 +1,14 @@
 ---
 title: WarningCallback
 second_title: Aspose.Slides for .NET API 参考
-description: 返回一个对象该对象接收警告并决定加载过程是继续还是中止 读/写IWarningCallbackaspose.slides.warnings/iwarningcallback
+description: 设置一个对象的返回该对象接收警告并决定加载过程是继续还是中止 读/写IWarningCallbackaspose.slides.warnings/iwarningcallback.
 type: docs
 weight: 30
 url: /zh/net/aspose.slides.export/saveoptions/warningcallback/
 ---
 ## SaveOptions.WarningCallback property
 
-返回一个对象，该对象接收警告并决定加载过程是继续还是中止。 读/写[`IWarningCallback`](../../../aspose.slides.warnings/iwarningcallback)。
+设置一个对象的返回，该对象接收警告并决定加载过程是继续还是中止。 读/写[`IWarningCallback`](../../../aspose.slides.warnings/iwarningcallback).
 
 ```csharp
 public IWarningCallback WarningCallback { get; set; }

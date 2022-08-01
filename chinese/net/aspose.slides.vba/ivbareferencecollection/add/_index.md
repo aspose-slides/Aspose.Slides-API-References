@@ -16,7 +16,7 @@ public void Add(IVbaReference value)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | IVbaReference | VBA 项目引用[`IVbaReference`](../../ivbareference) |
+| value | IVbaReference | VBA项目参考[`IVbaReference`](../../ivbareference) |
 
 ### 也可以看看
 

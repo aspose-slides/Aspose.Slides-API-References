@@ -1,14 +1,14 @@
 ---
 title: AddDataPointForBoxAndWhiskerSeries
 second_title: Справочник по API Aspose.Slides для .NET
-description: Создает новую точку данных и добавляет ее в конец коллекции. Применимо к сериям с типом диаграммы BoxAndWhisker.
+description: Создает новую точку данных и добавляет ее в конец коллекции. Применяется для серий с типом диаграммы BoxAndWhisker.
 type: docs
 weight: 90
 url: /ru/net/aspose.slides.charts/ichartdatapointcollection/adddatapointforboxandwhiskerseries/
 ---
 ## IChartDataPointCollection.AddDataPointForBoxAndWhiskerSeries method
 
-Создает новую точку данных и добавляет ее в конец коллекции. Применимо к сериям с типом диаграммы BoxAndWhisker.
+Создает новую точку данных и добавляет ее в конец коллекции. Применяется для серий с типом диаграммы BoxAndWhisker.
 
 ```csharp
 public IChartDataPoint AddDataPointForBoxAndWhiskerSeries(IChartDataCell value)
@@ -16,7 +16,7 @@ public IChartDataPoint AddDataPointForBoxAndWhiskerSeries(IChartDataCell value)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| значение | IChartDataCell | Точка данных Значение |
+| value | IChartDataCell | Точка данных Значение |
 
 ### Возвращаемое значение
 

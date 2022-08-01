@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Slides for .NET API 参考
-description: 获取指定索引处的元素 只读Slideaspose.slides/slide
+description: 获取指定索引处的元素 只读Slideaspose.slides/slide.
 type: docs
 weight: 30
 url: /zh/net/aspose.slides/slidecollection/item/
 ---
 ## SlideCollection indexer
 
-获取指定索引处的元素。 只读[`Slide`](../../slide)。
+获取指定索引处的元素。 只读[`Slide`](../../slide).
 
 ```csharp
 public ISlide this[int index] { get; }

@@ -18,21 +18,21 @@ public interface IReflectionEffectiveData : IEffectEffectiveData
 
 | Имя | Описание |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ireflectioneffectivedata/asieffecteffectivedata) { get; } | Позволяет получить базовый интерфейс IEffectEffectiveData. Только для чтения[`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [BlurRadius](../../aspose.slides.effects/ireflectioneffectivedata/blurradius) { get; } | Радиус размытия. Только для чтенияDouble. |
-| [Direction](../../aspose.slides.effects/ireflectioneffectivedata/direction) { get; } | Направление отражения. Только для чтенияSingle. |
-| [Distance](../../aspose.slides.effects/ireflectioneffectivedata/distance) { get; } | Расстояние отражения. Только для чтенияDouble. |
-| [EndPosAlpha](../../aspose.slides.effects/ireflectioneffectivedata/endposalpha) { get; } | Задает конечное положение (вдоль линейного градиента альфа-канала) конечного значения альфа-канала (в процентах). Только для чтенияSingle. |
-| [EndReflectionOpacity](../../aspose.slides.effects/ireflectioneffectivedata/endreflectionopacity) { get; } | Непрозрачность конечного отражения. (проценты). Только для чтенияSingle. |
-| [FadeDirection](../../aspose.slides.effects/ireflectioneffectivedata/fadedirection) { get; } | Задает направление смещения отражения. (угол). Только для чтенияSingle. |
-| [RectangleAlign](../../aspose.slides.effects/ireflectioneffectivedata/rectanglealign) { get; } | Выравнивание прямоугольника. Только для чтения[`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
-| [RotateShadowWithShape](../../aspose.slides.effects/ireflectioneffectivedata/rotateshadowwithshape) { get; } | Указывает, должно ли отражение вращаться вместе с фигурой, если фигура вращается. Только чтениеBoolean. |
-| [ScaleHorizontal](../../aspose.slides.effects/ireflectioneffectivedata/scalehorizontal) { get; } | Задает коэффициент масштабирования по горизонтали, отрицательное масштабирование приводит к перевороту. (в процентах) Только для чтенияDouble. |
-| [ScaleVertical](../../aspose.slides.effects/ireflectioneffectivedata/scalevertical) { get; } | Определяет коэффициент масштабирования по вертикали, отрицательное масштабирование приводит к перевороту. (в процентах) Только для чтенияDouble. |
-| [SkewHorizontal](../../aspose.slides.effects/ireflectioneffectivedata/skewhorizontal) { get; } | Задает угол наклона по горизонтали. Только для чтенияDouble. |
-| [SkewVertical](../../aspose.slides.effects/ireflectioneffectivedata/skewvertical) { get; } | Задает вертикальный угол наклона. Только для чтенияDouble. |
-| [StartPosAlpha](../../aspose.slides.effects/ireflectioneffectivedata/startposalpha) { get; } | Определяет начальную позицию (вдоль шкалы альфа-градиента) начального значения альфа-канала (в процентах). Только для чтенияSingle. |
-| [StartReflectionOpacity](../../aspose.slides.effects/ireflectioneffectivedata/startreflectionopacity) { get; } | Начальная непрозрачность отражения. (проценты). Только для чтенияSingle. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ireflectioneffectivedata/asieffecteffectivedata) { get; } | Позволяет получить базовый интерфейс IEffectEffectiveData. Только для чтения[`IEffectEffectiveData`](../ieffecteffectivedata) . |
+| [BlurRadius](../../aspose.slides.effects/ireflectioneffectivedata/blurradius) { get; } | Радиус размытия. Только для чтенияDouble . |
+| [Direction](../../aspose.slides.effects/ireflectioneffectivedata/direction) { get; } | Направление отражения. Только для чтенияSingle . |
+| [Distance](../../aspose.slides.effects/ireflectioneffectivedata/distance) { get; } | Расстояние отражения. Только для чтенияDouble . |
+| [EndPosAlpha](../../aspose.slides.effects/ireflectioneffectivedata/endposalpha) { get; } | Указывает конечное положение (вдоль линейного градиента альфа-канала) конечного значения альфа-канала (в процентах). Только для чтенияSingle . |
+| [EndReflectionOpacity](../../aspose.slides.effects/ireflectioneffectivedata/endreflectionopacity) { get; } | Непрозрачность конечного отражения. (проценты). Только для чтенияSingle . |
+| [FadeDirection](../../aspose.slides.effects/ireflectioneffectivedata/fadedirection) { get; } | Определяет направление смещения отражения. (угол). Только для чтенияSingle . |
+| [RectangleAlign](../../aspose.slides.effects/ireflectioneffectivedata/rectanglealign) { get; } | Выравнивание прямоугольника. Только для чтения[`RectangleAlignment`](../../aspose.slides/rectanglealignment) . |
+| [RotateShadowWithShape](../../aspose.slides.effects/ireflectioneffectivedata/rotateshadowwithshape) { get; } | Указывает, должно ли отражение вращаться вместе с фигурой, если фигура вращается. Только для чтенияBoolean . |
+| [ScaleHorizontal](../../aspose.slides.effects/ireflectioneffectivedata/scalehorizontal) { get; } | Определяет коэффициент масштабирования по горизонтали, отрицательное масштабирование приводит к флипу. (проценты) Только для чтенияDouble . |
+| [ScaleVertical](../../aspose.slides.effects/ireflectioneffectivedata/scalevertical) { get; } | Определяет коэффициент масштабирования по вертикали, отрицательное масштабирование приводит к флипу. (проценты) Только для чтенияDouble . |
+| [SkewHorizontal](../../aspose.slides.effects/ireflectioneffectivedata/skewhorizontal) { get; } | Задает угол наклона по горизонтали. Только для чтенияDouble . |
+| [SkewVertical](../../aspose.slides.effects/ireflectioneffectivedata/skewvertical) { get; } | Определяет угол наклона по вертикали. Только для чтенияDouble . |
+| [StartPosAlpha](../../aspose.slides.effects/ireflectioneffectivedata/startposalpha) { get; } | Указывает начальную позицию (вдоль линейного градиента альфа-канала) начального значения альфа-канала (в процентах). Только для чтенияSingle . |
+| [StartReflectionOpacity](../../aspose.slides.effects/ireflectioneffectivedata/startreflectionopacity) { get; } | Начальная непрозрачность отражения. (проценты). Только для чтенияSingle . |
 
 ### Смотрите также
 

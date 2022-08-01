@@ -1,14 +1,14 @@
 ---
 title: FirstColumn
 second_title: Справочник по API Aspose.Slides для .NET
-description: Получает первый столбец ячейки. Только для чтенияIColumnaspose.slides/icolumn.
+description: Получает первый столбец ячейки. Только для чтенияIColumnaspose.slides/icolumn .
 type: docs
 weight: 50
 url: /ru/net/aspose.slides/icell/firstcolumn/
 ---
 ## ICell.FirstColumn property
 
-Получает первый столбец ячейки. Только для чтения[`IColumn`](../../icolumn).
+Получает первый столбец ячейки. Только для чтения[`IColumn`](../../icolumn) .
 
 ```csharp
 public IColumn FirstColumn { get; }

@@ -16,7 +16,7 @@ public IList<IHyperlinkContainer> GetHyperlinkClicks()
 
 ### 返回值
 
-包含非空 HyperlinkClick
+包含非空 HyperlinkClick 的所有 IHyperlinkContainer 子对象
 
 ### 也可以看看
 

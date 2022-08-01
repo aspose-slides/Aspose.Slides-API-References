@@ -1,14 +1,14 @@
 ---
 title: Sound
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置嵌入的音频数据 读/写IAudioaspose.slides/iaudio
+description: 返回或设置嵌入的音频数据 读/写IAudioaspose.slides/iaudio.
 type: docs
 weight: 30
 url: /zh/net/aspose.slides.slideshow/slideshowtransition/sound/
 ---
 ## SlideShowTransition.Sound property
 
-返回或设置嵌入的音频数据。 读/写[`IAudio`](../../../aspose.slides/iaudio)。
+返回或设置嵌入的音频数据。 读/写[`IAudio`](../../../aspose.slides/iaudio).
 
 ```csharp
 public IAudio Sound { get; set; }

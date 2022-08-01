@@ -19,7 +19,7 @@ public interface IBaseHandoutNotesSlideHeaderFooterManag : IBaseSlideHeaderFoote
 | Имя | Описание |
 | --- | --- |
 | [AsIBaseSlideHeaderFooterManager](../../aspose.slides/ibasehandoutnotesslideheaderfootermanag/asibaseslideheaderfootermanager) { get; } | Возвращает интерфейс IBaseSlideHeaderFooterManager. |
-| [IsHeaderVisible](../../aspose.slides/ibasehandoutnotesslideheaderfootermanag/isheadervisible) { get; } | Получает значение, указывающее, что присутствует заполнитель заголовка. ЧтениеBoolean. |
+| [IsHeaderVisible](../../aspose.slides/ibasehandoutnotesslideheaderfootermanag/isheadervisible) { get; } | Получает значение, указывающее на наличие заполнителя заголовка. ЧтениеBoolean . |
 
 ## Методы
 
@@ -30,7 +30,7 @@ public interface IBaseHandoutNotesSlideHeaderFooterManag : IBaseSlideHeaderFoote
 
 ### Примечания
 
-Оригинальное имя интерфейса "IBaseHandoutNotesSlideHeaderFooterManager" преобразовано в "IBaseHandoutNotesSlideHeaderFooterManag" для COM-совместимости (длина имени типа не должна превышать 39).
+Исходное имя интерфейса "IBaseHandoutNotesSlideHeaderFooterManager" преобразовано в "IBaseHandoutNotesSlideHeaderFooterManag" для совместимости с COM (длина имени типа не должна превышать 39).
 
 ### Смотрите также
 

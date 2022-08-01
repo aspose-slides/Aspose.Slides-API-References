@@ -1,14 +1,14 @@
 ---
 title: Value
 second_title: Aspose.Slides for .NET API 参考
-description: 获取或设置值 读/写Object
+description: 获取或设置值 读/写Object.
 type: docs
 weight: 90
 url: /zh/net/aspose.slides.charts/chartdatacell/value/
 ---
 ## ChartDataCell.Value property
 
-获取或设置值。 读/写Object。
+获取或设置值。 读/写Object.
 
 ```csharp
 public object Value { get; set; }

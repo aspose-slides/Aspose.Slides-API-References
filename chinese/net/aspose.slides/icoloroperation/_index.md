@@ -18,8 +18,8 @@ public interface IColorOperation
 
 | 姓名 | 描述 |
 | --- | --- |
-| [OperationType](../../aspose.slides/icoloroperation/operationtype) { get; } | 返回或设置操作的类型。 只读[`ColorTransformOperation`](../colortransformoperation)。 |
-| [Parameter](../../aspose.slides/icoloroperation/parameter) { get; } | 返回操作的参数。 只读Single。 |
+| [OperationType](../../aspose.slides/icoloroperation/operationtype) { get; } | 返回或设置操作的类型。 只读[`ColorTransformOperation`](../colortransformoperation). |
+| [Parameter](../../aspose.slides/icoloroperation/parameter) { get; } | 返回操作的参数。 只读Single. |
 
 ### 也可以看看
 

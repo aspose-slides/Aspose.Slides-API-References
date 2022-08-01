@@ -16,12 +16,12 @@ public long Seek(long offset, SeekOrigin origin)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| offset | Int64 | 字节偏移量相对于原始参数Int64 |
-| origin | SeekOrigin | 类型为SeekOrigin表示用于获取新位置的参考点 |
+| offset | Int64 | 相对于 origin 参数的字节偏移量Int64 |
+| origin | SeekOrigin | 类型的值SeekOrigin指示用于获取新位置的参考点 |
 
 ### 返回值
 
-当前流中的新位置:::R5:T:System.Int64::
+当前流中的新位置Int64
 
 ### 也可以看看
 

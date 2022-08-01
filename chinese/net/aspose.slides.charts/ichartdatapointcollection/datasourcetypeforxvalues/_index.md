@@ -1,14 +1,14 @@
 ---
 title: DataSourceTypeForXValues
 second_title: Aspose.Slides for .NET API 参考
-description: 指定 AsCell 或 AsLiteralString 或 AsLiteralDouble 属性 在数据点 XValue 属性对象中是否是实际的换句话说它指定 ChartDataPointEx.XValue.Data 属性的值类型 读/写DataSourceTypeaspose.slides.charts/datasourcetype
+description: 指定 AsCell 或 AsLiteralString 或 AsLiteralDouble 属性 在数据点 XValue 属性对象中是否是实际的换句话说它指定 ChartDataPointEx.XValue.Data 属性的值类型 读/写DataSourceTypeaspose.slides.charts/datasourcetype.
 type: docs
 weight: 40
 url: /zh/net/aspose.slides.charts/ichartdatapointcollection/datasourcetypeforxvalues/
 ---
 ## IChartDataPointCollection.DataSourceTypeForXValues property
 
-指定 AsCell 或 AsLiteralString 或 AsLiteralDouble 属性 在数据点 XValue 属性对象中是否是实际的。换句话说，它指定 ChartDataPointEx.XValue.Data 属性的值类型。 读/写[`DataSourceType`](../../datasourcetype)。
+指定 AsCell 或 AsLiteralString 或 AsLiteralDouble 属性 在数据点 XValue 属性对象中是否是实际的。换句话说，它指定 ChartDataPointEx.XValue.Data 属性的值类型。 读/写[`DataSourceType`](../../datasourcetype).
 
 ```csharp
 public DataSourceType DataSourceTypeForXValues { get; set; }

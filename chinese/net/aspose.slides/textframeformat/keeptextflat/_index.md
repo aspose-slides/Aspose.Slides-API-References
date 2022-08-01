@@ -1,14 +1,14 @@
 ---
 title: KeepTextFlat
 second_title: Aspose.Slides for .NET API 参考
-description: 获取或设置即使应用了 3-D 旋转效果也保持文本平坦 读/写Boolean
+description: 获取或设置即使应用了 3-D 旋转效果也保持文本平坦 读/写Boolean.
 type: docs
 weight: 70
 url: /zh/net/aspose.slides/textframeformat/keeptextflat/
 ---
 ## TextFrameFormat.KeepTextFlat property
 
-获取或设置即使应用了 3-D 旋转效果也保持文本平坦。 读/写Boolean。
+获取或设置即使应用了 3-D 旋转效果也保持文本平坦。 读/写Boolean.
 
 ```csharp
 public bool KeepTextFlat { get; set; }

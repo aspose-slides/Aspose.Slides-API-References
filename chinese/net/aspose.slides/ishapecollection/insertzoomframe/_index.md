@@ -17,16 +17,16 @@ public IZoomFrame InsertZoomFrame(int index, float x, float y, float width, floa
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| index | Int32 | 零-应插入缩放帧的基于索引。 |
-| x | Single | 新缩放框的 X 坐标Single。 |
-| y | Single | 新缩放框的 Y 坐标Single。 |
-| width | Single | 新缩放框的宽度Single。 |
-| height | Single | 新缩放框的高度Single。 |
-| slide | ISlide | Zoom frame[`ISlide`](../../islide)引用的幻灯片对象。 |
+| index | Int32 | 应插入缩放帧的从零开始的索引。 |
+| x | Single | 新缩放框的 X 坐标Single. |
+| y | Single | 新缩放框的 Y 坐标Single. |
+| width | Single | 新缩放框的宽度Single. |
+| height | Single | 新缩放框的高度Single. |
+| slide | ISlide | 缩放框架引用的幻灯片对象[`ISlide`](../../islide). |
 
 ### 返回值
 
-创建缩放对象[`IZoomFrame`](../../izoomframe)。
+创建缩放对象[`IZoomFrame`](../../izoomframe).
 
 ### 例外
 
@@ -36,7 +36,7 @@ public IZoomFrame InsertZoomFrame(int index, float x, float y, float width, floa
 
 ### 例子
 
-此示例演示在集合的指定索引处创建和插入缩放对象 （假设“Presentation.pptx”演示文稿中至少有两张幻灯片）:
+此示例演示在集合的指定索引处创建和插入缩放对象 （假设“Presentation.pptx”演示文稿中至少有两张幻灯片）：
 
 ```csharp
 [C#]
@@ -67,17 +67,17 @@ public IZoomFrame InsertZoomFrame(int index, float x, float y, float width, floa
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| index | Int32 | 零-应插入缩放帧的基于索引。 |
-| x | Single | 新缩放框的 X 坐标Single。 |
-| y | Single | 新缩放框的 Y 坐标Single。 |
-| width | Single | 新缩放框的宽度Single。 |
-| height | Single | 新缩放框的高度Single。 |
-| slide | ISlide | Zoom frame[`ISlide`](../../islide)引用的幻灯片对象。 |
+| index | Int32 | 应插入缩放帧的从零开始的索引。 |
+| x | Single | 新缩放框的 X 坐标Single. |
+| y | Single | 新缩放框的 Y 坐标Single. |
+| width | Single | 新缩放框的宽度Single. |
+| height | Single | 新缩放框的高度Single. |
+| slide | ISlide | 缩放框架引用的幻灯片对象[`ISlide`](../../islide). |
 | image | IPPImage | 引用幻灯片的图像[`IPPImage`](../../ippimage) |
 
 ### 返回值
 
-创建缩放对象[`IZoomFrame`](../../izoomframe)。
+创建缩放对象[`IZoomFrame`](../../izoomframe).
 
 ### 例外
 
@@ -87,7 +87,7 @@ public IZoomFrame InsertZoomFrame(int index, float x, float y, float width, floa
 
 ### 例子
 
-此示例演示在集合的指定索引处创建和插入缩放对象 （假设“Presentation.pptx”演示文稿中至少有两张幻灯片）:
+此示例演示在集合的指定索引处创建和插入缩放对象 （假设“Presentation.pptx”演示文稿中至少有两张幻灯片）：
 
 ```csharp
 [C#]

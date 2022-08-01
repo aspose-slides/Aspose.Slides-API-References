@@ -1,14 +1,14 @@
 ---
 title: AsIMasterThemeable
 second_title: Aspose.Slides for .NET API 参考
-description: 返回 IMasterThemeable 接口 只读IMasterThemeableaspose.slides.theme/imasterthemeable
+description: 返回 IMasterThemeable 接口 只读IMasterThemeableaspose.slides.theme/imasterthemeable.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides/imasterslide/asimasterthemeable/
 ---
 ## IMasterSlide.AsIMasterThemeable property
 
-返回 IMasterThemeable 接口。 只读[`IMasterThemeable`](../../../aspose.slides.theme/imasterthemeable)。
+返回 IMasterThemeable 接口。 只读[`IMasterThemeable`](../../../aspose.slides.theme/imasterthemeable).
 
 ```csharp
 public IMasterThemeable AsIMasterThemeable { get; }

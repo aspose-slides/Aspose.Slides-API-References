@@ -18,11 +18,11 @@ public interface IPresetShadowEffectiveData : IEffectEffectiveData
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ipresetshadoweffectivedata/asieffecteffectivedata) { get; } | 允许获取基础 IEffectEffectiveData 接口。 只读[`IEffectEffectiveData`](../ieffecteffectivedata)。 |
-| [Direction](../../aspose.slides.effects/ipresetshadoweffectivedata/direction) { get; } | 阴影方向。 只读Single。 |
-| [Distance](../../aspose.slides.effects/ipresetshadoweffectivedata/distance) { get; } | 阴影距离。 只读Double。 |
-| [Preset](../../aspose.slides.effects/ipresetshadoweffectivedata/preset) { get; } | 预设。 只读[`PresetShadowType`](../../aspose.slides/presetshadowtype)。 |
-| [ShadowColor](../../aspose.slides.effects/ipresetshadoweffectivedata/shadowcolor) { get; } | 阴影颜色。 只读Color。 |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ipresetshadoweffectivedata/asieffecteffectivedata) { get; } | 允许获取基本 IEffectEffectiveData 接口。 只读[`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [Direction](../../aspose.slides.effects/ipresetshadoweffectivedata/direction) { get; } | 阴影方向。 只读Single. |
+| [Distance](../../aspose.slides.effects/ipresetshadoweffectivedata/distance) { get; } | 阴影距离。 只读Double. |
+| [Preset](../../aspose.slides.effects/ipresetshadoweffectivedata/preset) { get; } | 预设。 只读[`PresetShadowType`](../../aspose.slides/presetshadowtype). |
+| [ShadowColor](../../aspose.slides.effects/ipresetshadoweffectivedata/shadowcolor) { get; } | 阴影颜色。 只读Color. |
 
 ### 也可以看看
 

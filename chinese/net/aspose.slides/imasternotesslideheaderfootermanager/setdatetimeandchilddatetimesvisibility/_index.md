@@ -1,14 +1,14 @@
 ---
 title: SetDateTimeAndChildDateTimesVisibility
 second_title: Aspose.Slides for .NET API 参考
-description: 更改主笔记幻灯片日期时间占位符和所有子日期时间占位符的可见性 子占位符意味着占位符包含在依赖注释幻灯片中 依赖于笔记幻灯片使用并依赖于主笔记幻灯片
+description: 更改主注释幻灯片日期时间占位符和所有子日期时间占位符的可见性 子占位符表示占位符包含在依赖注释幻灯片中 依赖注释幻灯片使用并依赖主注释幻灯片
 type: docs
 weight: 30
 url: /zh/net/aspose.slides/imasternotesslideheaderfootermanager/setdatetimeandchilddatetimesvisibility/
 ---
 ## IMasterNotesSlideHeaderFooterManager.SetDateTimeAndChildDateTimesVisibility method
 
-更改主笔记幻灯片日期时间占位符和所有子日期时间占位符的可见性。 子占位符意味着占位符包含在依赖注释幻灯片中。 依赖于笔记幻灯片使用并依赖于主笔记幻灯片。
+更改主注释幻灯片日期时间占位符和所有子日期时间占位符的可见性。 子占位符表示占位符包含在依赖注释幻灯片中。 依赖注释幻灯片使用并依赖主注释幻灯片。
 
 ```csharp
 public void SetDateTimeAndChildDateTimesVisibility(bool isVisible)

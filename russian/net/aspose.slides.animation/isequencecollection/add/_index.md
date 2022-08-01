@@ -16,7 +16,7 @@ public ISequence Add(IShape shapeTrigger)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| shapeTrigger | IShape | Shape object[`IShape`](../../../aspose.slides/ishape) |
+| shapeTrigger | IShape | Объект формы[`IShape`](../../../aspose.slides/ishape) |
 
 ### Возвращаемое значение
 

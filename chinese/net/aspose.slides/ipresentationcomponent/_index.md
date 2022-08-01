@@ -18,7 +18,7 @@ public interface IPresentationComponent
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Presentation](../../aspose.slides/ipresentationcomponent/presentation) { get; } | 返回演示文稿。 只读[`IPresentation`](../ipresentation)。 |
+| [Presentation](../../aspose.slides/ipresentationcomponent/presentation) { get; } | 返回演示文稿。 只读[`IPresentation`](../ipresentation). |
 
 ### 也可以看看
 

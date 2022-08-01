@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет равен ли указанныйColorReplaceaspose.slides.effects/colorreplaceтекущемуЗаменацвета.
+description: Определяет является ли указанныйColorReplaceaspose.slides.effects/colorreplace равен текущемуColorReplaceaspose.slides.effects/colorreplace .
 type: docs
 weight: 20
 url: /ru/net/aspose.slides.effects/colorreplace/equals/
 ---
 ## ColorReplace.Equals method
 
-Определяет, равен ли указанный[`ColorReplace`](../../colorreplace)текущемуЗаменацвета.
+Определяет, является ли указанный[`ColorReplace`](../../colorreplace) равен текущему[`ColorReplace`](../../colorreplace) .
 
 ```csharp
 public override bool Equals(object obj)
@@ -16,7 +16,7 @@ public override bool Equals(object obj)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| obj | Object | [`ColorReplace`](../../colorreplace)для сравнения. |
+| obj | Object | [`ColorReplace`](../../colorreplace) сравнивать. |
 
 ### Возвращаемое значение
 

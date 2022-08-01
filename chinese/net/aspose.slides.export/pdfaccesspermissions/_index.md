@@ -20,14 +20,14 @@ public enum PdfAccessPermissions
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | None | `0` | 指定用户没有访问权限。 |
-| PrintDocument | `4` | 指定用户是否可以打印文档（可能不是最高质量级别，取决于 是否位HighQualityPrint也已设置）。 |
-| ModifyContent | `8` | 指定用户是否可以通过位:::R5:F:Aspose 控制的操作以外的操作修改文档的内容 。 Slides.Export.PdfAccessPermissions.AddOrModifyFields:::,FillExistingFields,AssembleDocument. |
-| CopyTextAndGraphics | `10` | 指定用户是否可以通过操作 而非位:::R5 控制的操作从文档中复制或提取文本和图形:F:Aspose.Slides.Export.PdfAccessPermissions.ExtractTextAndGraphics:::。 |
-| AddOrModifyFields | `20` | 指定用户是否可以添加或修改文本注释，填写交互式表单字段，如果位 ModifyContent也是设置、创建或修改交互式表单字段（包括签名 字段）。 |
-| FillExistingFields | `100` | 指定用户是否可以填写现有的交互式表单字段（包括签名字段），即使 bitAddOrModifyFields很清楚。 |
+| PrintDocument | `4` | 指定用户是否可以打印文档（可能不是最高质量级别，取决于 是否位HighQualityPrint也设置）. |
+| ModifyContent | `8` | 指定用户是否可以通过位控制以外的操作修改文档的内容 AddOrModifyFields ,FillExistingFields ,AssembleDocument. |
+| CopyTextAndGraphics | `10` | 指定用户是否可以通过操作 而非位控制的操作从文档中复制或提取文本和图形ExtractTextAndGraphics. |
+| AddOrModifyFields | `20` | 指定用户是否可以添加或修改文本注释、填写交互式表单字段，以及，如果 bit ModifyContent还设置、创建或修改交互式表单字段（包括签名 字段）。 |
+| FillExistingFields | `100` | 指定用户是否可以填写现有的交互式表单字段（包括签名字段），即使 位AddOrModifyFields很清楚。 |
 | ExtractTextAndGraphics | `200` | 指定用户是否可以提取文本和图形以支持残障用户的可访问性 或用于其他目的。 |
-| AssembleDocument | `400` | 指定用户是否可以组合文档（插入、旋转或删除页面并创建书签或 缩略图），即使 bitModifyContent很清楚。 |
-| HighQualityPrint | `800` | 指定用户是否可以将文档打印为可以生成 PDF 内容的忠实数字副本的表示。当此位被清除（并且位PrintDocument已设置）时， 打印仅限于外观的低级表示，可能质量下降。 |
+| AssembleDocument | `400` | 指定用户是否可以组合文档（插入、旋转或删除页面并创建书签或 缩略图），即使位ModifyContent很清楚。 |
+| HighQualityPrint | `800` | 指定用户是否可以将文档打印为可以生成 PDF 内容的 的忠实数字副本的表示形式。当该位清零时（和位PrintDocument已设置）， 打印仅限于外观的低级表示，可能质量下降。 |
 
 ### 也可以看看
 

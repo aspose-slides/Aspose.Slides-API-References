@@ -24,7 +24,7 @@ public interface ITagCollection : IGenericCollection<KeyValuePair<string, string
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Add](../../aspose.slides/itagcollection/add)(string, string) | 向集合添加新标签。 |
+| [Add](../../aspose.slides/itagcollection/add)(string, string) | 将新标签添加到集合中。 |
 | [Clear](../../aspose.slides/itagcollection/clear)() | 从集合中删除所有标签。 |
 | [Contains](../../aspose.slides/itagcollection/contains)(string) | 确定集合是否包含特定名称。 |
 | [GetNameByIndex](../../aspose.slides/itagcollection/getnamebyindex)(int) | 返回指定索引处标签的键。 |

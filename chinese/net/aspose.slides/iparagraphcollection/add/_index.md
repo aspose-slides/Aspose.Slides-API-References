@@ -1,14 +1,14 @@
 ---
 title: Add
 second_title: Aspose.Slides for .NET API 参考
-description: 将段落添加到集合末尾
+description: 在集合末尾添加一个段落
 type: docs
 weight: 50
 url: /zh/net/aspose.slides/iparagraphcollection/add/
 ---
 ## Add(IParagraph) {#add_1}
 
-将段落添加到集合末尾。
+在集合末尾添加一个段落。
 
 ```csharp
 public void Add(IParagraph value)
@@ -41,7 +41,7 @@ public int Add(IParagraphCollection value)
 
 ### 返回值
 
-添加段落的索引或 -1 如果没有要添加的内容。
+添加段落的索引，如果没有要添加的内容，则为 -1。
 
 ### 也可以看看
 

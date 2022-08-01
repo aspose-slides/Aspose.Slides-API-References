@@ -16,7 +16,7 @@ public IDuotoneEffectiveData GetEffective()
 
 ### 返回值
 
-A[`IDuotoneEffectiveData`](../../iduotoneeffectivedata)。
+一个[`IDuotoneEffectiveData`](../../iduotoneeffectivedata).
 
 ### 也可以看看
 

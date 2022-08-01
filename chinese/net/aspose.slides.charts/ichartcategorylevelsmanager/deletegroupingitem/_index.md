@@ -1,14 +1,14 @@
 ---
 title: DeleteGroupingItem
 second_title: Aspose.Slides for .NET API 参考
-description: 删除定义级别的分组项
+description: 删除已定义级别的分组项
 type: docs
 weight: 20
 url: /zh/net/aspose.slides.charts/ichartcategorylevelsmanager/deletegroupingitem/
 ---
 ## IChartCategoryLevelsManager.DeleteGroupingItem method
 
-删除定义级别的分组项。
+删除已定义级别的分组项。
 
 ```csharp
 public void DeleteGroupingItem(int level)

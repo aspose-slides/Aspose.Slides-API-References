@@ -16,11 +16,11 @@ public IBulletFormatEffectiveData GetEffective()
 
 ### Возвращаемое значение
 
-A[`IBulletFormatEffectiveData`](../../ibulletformateffectivedata).
+А[`IBulletFormatEffectiveData`](../../ibulletformateffectivedata).
 
 ### Примеры
 
-Этот пример демонстрирует получение некоторых эффективных свойств формата маркера.
+Этот пример демонстрирует получение некоторых эффективных свойств формата маркеров.
 
 ```csharp
 [C#]

@@ -1,14 +1,14 @@
 ---
 title: DrilldownLocked
 second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет запрещен ли выбор подформ этого объекта. Чтение/записьBoolean.
+description: Определяет запрещен ли выбор подформ этого объекта. Чтение/записьBoolean .
 type: docs
 weight: 20
 url: /ru/net/aspose.slides/graphicalobjectlock/drilldownlocked/
 ---
 ## GraphicalObjectLock.DrilldownLocked property
 
-Определяет, запрещен ли выбор подформ этого объекта. Чтение/записьBoolean.
+Определяет, запрещен ли выбор подформ этого объекта. Чтение/записьBoolean .
 
 ```csharp
 public bool DrilldownLocked { get; set; }

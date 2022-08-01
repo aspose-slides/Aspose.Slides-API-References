@@ -1,14 +1,14 @@
 ---
 title: Type
 second_title: Aspose.Slides for .NET API 参考
-description: 定义效果类型 读/写EffectTypeaspose.slides.animation/effecttype
+description: 定义效果类型 读/写EffectTypeaspose.slides.animation/effecttype.
 type: docs
 weight: 80
 url: /zh/net/aspose.slides.animation/effect/type/
 ---
 ## Effect.Type property
 
-定义效果类型。 读/写[`EffectType`](../../effecttype)。
+定义效果类型。 读/写[`EffectType`](../../effecttype).
 
 ```csharp
 public EffectType Type { get; set; }

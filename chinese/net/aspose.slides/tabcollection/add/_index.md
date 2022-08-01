@@ -16,7 +16,7 @@ public ITab Add(double position, TabAlignment align)
 
 ### 返回值
 
-添加选项卡。
+添加了选项卡。
 
 ### 也可以看看
 
@@ -38,7 +38,7 @@ public int Add(ITab value)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | ITab | 要添加到集合末尾的 Tab 对象。 |
+| value | ITab | 要在集合末尾添加的 Tab 对象。 |
 
 ### 返回值
 

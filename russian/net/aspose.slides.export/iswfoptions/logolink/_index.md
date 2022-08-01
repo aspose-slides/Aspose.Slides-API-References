@@ -1,14 +1,14 @@
 ---
 title: LogoLink
 second_title: Справочник по API Aspose.Slides для .NET
-description: Получает или задает полный адрес гиперссылки для логотипа. Имеет эффект только если указанLogoImageBytesaspose.slides.export/iswfoptions/logoimagebytes.
+description: Получает или задает полный адрес гиперссылки для логотипа. Действует только еслиLogoImageBytesaspose.slides.export/iswfoptions/logoimagebytes указано.
 type: docs
 weight: 60
 url: /ru/net/aspose.slides.export/iswfoptions/logolink/
 ---
 ## ISwfOptions.LogoLink property
 
-Получает или задает полный адрес гиперссылки для логотипа. Имеет эффект, только если указан[`LogoImageBytes`](../logoimagebytes).
+Получает или задает полный адрес гиперссылки для логотипа. Действует, только если[`LogoImageBytes`](../logoimagebytes) указано.
 
 ```csharp
 public string LogoLink { get; set; }

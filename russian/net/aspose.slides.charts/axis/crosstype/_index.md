@@ -1,14 +1,14 @@
 ---
 title: CrossType
 second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет CrossType на указанной оси где пересекается другая ось. Чтение/записьCrossesTypeaspose.slides.charts/crossestype.
+description: Представляет CrossType на указанной оси где пересекается другая ось. Чтение/записьCrossesTypeaspose.slides.charts/crossestype .
 type: docs
 weight: 140
 url: /ru/net/aspose.slides.charts/axis/crosstype/
 ---
 ## Axis.CrossType property
 
-Представляет CrossType на указанной оси, где пересекается другая ось. Чтение/запись[`CrossesType`](../../crossestype).
+Представляет CrossType на указанной оси, где пересекается другая ось. Чтение/запись[`CrossesType`](../../crossestype) .
 
 ```csharp
 public CrossesType CrossType { get; set; }

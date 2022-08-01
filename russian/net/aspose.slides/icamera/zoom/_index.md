@@ -1,14 +1,14 @@
 ---
 title: Zoom
 second_title: Справочник по API Aspose.Slides для .NET
-description: Увеличение камеры положительное значение в процентах Чтение/записьSingle.
+description: Масштаб камеры положительное значение в процентах Чтение/записьSingle .
 type: docs
 weight: 30
 url: /ru/net/aspose.slides/icamera/zoom/
 ---
 ## ICamera.Zoom property
 
-Увеличение камеры (положительное значение в процентах) Чтение/записьSingle.
+Масштаб камеры (положительное значение в процентах) Чтение/записьSingle .
 
 ```csharp
 public float Zoom { get; set; }

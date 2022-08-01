@@ -1,14 +1,14 @@
 ---
 title: EndShow
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает гиперссылку завершающую показ. Только чтениеHyperlinkaspose.slides/hyperlink.
+description: Возвращает гиперссылку завершающую показ. Только для чтенияHyperlinkaspose.slides/hyperlink .
 type: docs
 weight: 20
 url: /ru/net/aspose.slides/hyperlink/endshow/
 ---
 ## Hyperlink.EndShow property
 
-Возвращает гиперссылку, завершающую показ. Только чтение[`Hyperlink`](../../hyperlink).
+Возвращает гиперссылку, завершающую показ. Только для чтения[`Hyperlink`](../../hyperlink) .
 
 ```csharp
 public static Hyperlink EndShow { get; }

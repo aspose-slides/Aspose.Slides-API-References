@@ -1,14 +1,14 @@
 ---
 title: IMasterNotesSlideHeaderFooterManager
 second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет менеджер который содержит поведение нижнего колонтитула слайда основных заметок даты-времени заполнителей номеров страниц и всех дочерних заполнителей. Дочерние заполнители означают что заполнители содержатся в зависимых слайдах заметок. Зависящие слайды заметок используют и зависят от основного слайда заметок.
+description: Представляет менеджер который определяет поведение нижнего колонтитула слайда основных заметок заполнителей даты и времени номеров страниц и всех дочерних заполнителей. Дочерние заполнители означают что заполнители содержатся в зависимых слайдах заметок.
 type: docs
 weight: 5840
 url: /ru/net/aspose.slides/imasternotesslideheaderfootermanager/
 ---
 ## IMasterNotesSlideHeaderFooterManager interface
 
-Представляет менеджер, который содержит поведение нижнего колонтитула слайда основных заметок, даты-времени, заполнителей номеров страниц и всех дочерних заполнителей. Дочерние заполнители означают, что заполнители содержатся в зависимых слайдах заметок. Зависящие слайды заметок используют и зависят от основного слайда заметок.
+Представляет менеджер, который определяет поведение нижнего колонтитула слайда основных заметок, заполнителей даты и времени, номеров страниц и всех дочерних заполнителей. Дочерние заполнители означают, что заполнители содержатся в зависимых слайдах заметок.
 
 ```csharp
 public interface IMasterNotesSlideHeaderFooterManager : IBaseHandoutNotesSlideHeaderFooterManag
@@ -24,13 +24,13 @@ public interface IMasterNotesSlideHeaderFooterManager : IBaseHandoutNotesSlideHe
 
 | Имя | Описание |
 | --- | --- |
-| [SetDateTimeAndChildDateTimesText](../../aspose.slides/imasternotesslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | Устанавливает текст для заполнителя даты и времени слайда основных заметок и всех дочерних заполнителей даты и времени. Дочерние заполнители означают, что заполнители содержатся в зависимых слайдах заметок. Зависящие слайды заметок используют и зависят от основного слайда заметок. |
-| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | Изменяет видимость заполнителей даты и времени слайда основных заметок и всех дочерних заполнителей даты и времени. Дочерние заполнители означают, что заполнители содержатся в зависимых слайдах заметок. Зависящие слайды заметок используют и зависят от основного слайда заметок. |
-| [SetFooterAndChildFootersText](../../aspose.slides/imasternotesslideheaderfootermanager/setfooterandchildfooterstext)(string) | Устанавливает текст для заполнителя нижнего колонтитула слайда основных заметок и всех дочерних заполнителей нижнего колонтитула. Дочерние заполнители означают, что заполнители содержатся в зависимых слайдах заметок. Зависящие слайды заметок используют и зависят от основного слайда заметок. |
-| [SetFooterAndChildFootersVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | Изменяет видимость заполнителя нижнего колонтитула слайда основных заметок и всех дочерних заполнителей нижнего колонтитула. Дочерние заполнители означают, что заполнители содержатся в зависимых слайдах заметок. Зависящие слайды заметок используют и зависят от основного слайда заметок. |
-| [SetHeaderAndChildHeadersText](../../aspose.slides/imasternotesslideheaderfootermanager/setheaderandchildheaderstext)(string) | Устанавливает текст для заполнителя заголовка слайда основных заметок и всех дочерних заполнителей заголовков. Дочерние заполнители означают, что заполнители содержатся в зависимых слайдах заметок. Зависящие слайды заметок используют и зависят от основного слайда заметок. |
-| [SetHeaderAndChildHeadersVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setheaderandchildheadersvisibility)(bool) | Изменяет заполнитель заголовка слайда основных заметок и видимость всех дочерних заполнителей заголовков. Дочерние заполнители означают, что заполнители содержатся в зависимых слайдах заметок. Зависящие слайды заметок используют и зависят от основного слайда заметок. |
-| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | Изменяет видимость заполнителя номера страницы слайда основных заметок и всех заполнителей номеров дочерних страниц. Дочерние заполнители означают, что заполнители содержатся в зависимых слайдах заметок. Зависящие слайды заметок используют и зависят от основного слайда заметок. |
+| [SetDateTimeAndChildDateTimesText](../../aspose.slides/imasternotesslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | Задает текст для заполнителя даты и времени слайда основных заметок и всех дочерних заполнителей даты и времени. Дочерние заполнители означают, что заполнители содержатся в зависимых слайдах заметок. Зависящие слайды заметок используют и зависят от слайда основных заметок. |
+| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | Изменяет заполнитель даты и времени слайда основных заметок и видимость всех дочерних заполнителей даты и времени. Дочерние заполнители означают, что заполнители содержатся в зависимых слайдах заметок. Зависящие слайды заметок используют и зависят от слайда основных заметок. |
+| [SetFooterAndChildFootersText](../../aspose.slides/imasternotesslideheaderfootermanager/setfooterandchildfooterstext)(string) | Задает текст для заполнителя нижнего колонтитула слайда основных заметок и всех дочерних заполнителей нижнего колонтитула. Дочерние заполнители означают, что заполнители содержатся в зависимых слайдах заметок. Зависящие слайды заметок используют и зависят от слайда основных заметок. |
+| [SetFooterAndChildFootersVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | Изменяет заполнитель нижнего колонтитула слайда основных примечаний и видимость всех дочерних заполнителей нижнего колонтитула. Дочерние заполнители означают, что заполнители содержатся в зависимых слайдах заметок. |
+| [SetHeaderAndChildHeadersText](../../aspose.slides/imasternotesslideheaderfootermanager/setheaderandchildheaderstext)(string) | Задает текст для заполнителя заголовка слайда основных заметок и всех дочерних заполнителей заголовков. Дочерние заполнители означают, что заполнители содержатся в зависимых слайдах заметок. Зависящие слайды заметок используют и зависят от слайда основных заметок. |
+| [SetHeaderAndChildHeadersVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setheaderandchildheadersvisibility)(bool) | Изменяет заполнитель заголовка слайда основных заметок и видимость всех дочерних заполнителей заголовков. Дочерние заполнители означают, что заполнители содержатся в зависимых слайдах заметок. Зависящие слайды заметок используют и зависят от слайда основных заметок. |
+| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | Изменяет заполнитель номера страницы слайда основных заметок и видимость всех заполнителей номеров дочерних страниц. Дочерние заполнители означают, что заполнители содержатся в зависимых слайдах заметок. Зависящие слайды заметок используют и зависят от слайда основных заметок. |
 
 ### Смотрите также
 

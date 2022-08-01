@@ -1,14 +1,14 @@
 ---
 title: SourceFormat
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает информацию о том из какого формата была загружена презентация. Только для чтенияSourceFormataspose.slides/sourceformat.
+description: Возвращает информацию о том из какого формата была загружена презентация. Только для чтенияSourceFormataspose.slides/sourceformat .
 type: docs
 weight: 250
 url: /ru/net/aspose.slides/presentation/sourceformat/
 ---
 ## Presentation.SourceFormat property
 
-Возвращает информацию о том, из какого формата была загружена презентация. Только для чтения[`SourceFormat`](../../sourceformat).
+Возвращает информацию о том, из какого формата была загружена презентация. Только для чтения[`SourceFormat`](../../sourceformat) .
 
 ```csharp
 public SourceFormat SourceFormat { get; }

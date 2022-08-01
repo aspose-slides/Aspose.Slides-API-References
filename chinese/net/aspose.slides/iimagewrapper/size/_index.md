@@ -1,14 +1,14 @@
 ---
 title: Size
 second_title: Aspose.Slides for .NET API 参考
-description: 获取 Image 只读IImageWrapper的宽度和高度以像素为单位尺寸
+description: 获取 Image 的宽度和高度以像素为单位 只读Sizeaspose.slides/iimagewrapper/size.
 type: docs
 weight: 30
 url: /zh/net/aspose.slides/iimagewrapper/size/
 ---
 ## IImageWrapper.Size property
 
-获取 Image 只读IImageWrapper的宽度和高度（以像素为单位）。尺寸。
+获取 Image 的宽度和高度（以像素为单位） 只读`Size`.
 
 ```csharp
 public Size Size { get; }

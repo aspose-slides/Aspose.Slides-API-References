@@ -1,14 +1,14 @@
 ---
 title: AddDataPointForFunnelSeries
 second_title: Aspose.Slides for .NET API 参考
-description: 创建新数据点并将其添加到集合的末尾 适用于图表类型为漏斗的系列
+description: 创建新的数据点并将其添加到集合的末尾 适用于图表类型为漏斗的系列
 type: docs
 weight: 150
 url: /zh/net/aspose.slides.charts/chartdatapointcollection/adddatapointforfunnelseries/
 ---
 ## ChartDataPointCollection.AddDataPointForFunnelSeries method
 
-创建新数据点并将其添加到集合的末尾。 适用于图表类型为漏斗的系列。
+创建新的数据点并将其添加到集合的末尾。 适用于图表类型为漏斗的系列。
 
 ```csharp
 public IChartDataPoint AddDataPointForFunnelSeries(IChartDataCell value)

@@ -18,14 +18,14 @@ public interface IPPImage
 
 | 姓名 | 描述 |
 | --- | --- |
-| [BinaryData](../../aspose.slides/ippimage/binarydata) { get; } | 返回图像数据的副本。 只读Byte[]。 |
-| [ContentType](../../aspose.slides/ippimage/contenttype) { get; } | 返回图像的 MIME 类型，编码为[`BinaryData`](./binarydata)。 只读String。 |
-| [Height](../../aspose.slides/ippimage/height) { get; } | 返回图像的高度。 只读Int32。 |
+| [BinaryData](../../aspose.slides/ippimage/binarydata) { get; } | 返回图像数据的副本。 只读Byte[]. |
+| [ContentType](../../aspose.slides/ippimage/contenttype) { get; } | 返回图像的 MIME 类型，编码为[`BinaryData`](./binarydata) . 只读String. |
+| [Height](../../aspose.slides/ippimage/height) { get; } | 返回图像的高度。 只读Int32. |
 | [SvgImage](../../aspose.slides/ippimage/svgimage) { get; set; } | 返回或设置 ISvgImage 对象[`ISvgImage`](../isvgimage) |
-| [SystemImage](../../aspose.slides/ippimage/systemimage) { get; } | 返回 System.Drawing.Image 类型的图像的副本。 只读Image。 |
-| [Width](../../aspose.slides/ippimage/width) { get; } | 返回图像的宽度。 只读Int32。 |
-| [X](../../aspose.slides/ippimage/x) { get; } | 返回图像的 X 偏移量。 只读Int32。 |
-| [Y](../../aspose.slides/ippimage/y) { get; } | 返回图像的 Y 偏移量。 只读Int32。 |
+| [SystemImage](../../aspose.slides/ippimage/systemimage) { get; } | 返回 System.Drawing.Image 类型的图像的副本。 只读Image. |
+| [Width](../../aspose.slides/ippimage/width) { get; } | 返回图像的宽度。 只读Int32. |
+| [X](../../aspose.slides/ippimage/x) { get; } | 返回图像的 X 偏移量。 只读Int32. |
+| [Y](../../aspose.slides/ippimage/y) { get; } | 返回图像的 Y 偏移量。 只读Int32. |
 
 ## 方法
 

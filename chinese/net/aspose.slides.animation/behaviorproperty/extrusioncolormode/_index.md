@@ -1,14 +1,14 @@
 ---
 title: ExtrusionColorMode
 second_title: Aspose.Slides for .NET API 参考
-description: 表示 extrusion.colormode 属性
+description: 表示extrusion.colormode 属性
 type: docs
 weight: 40
 url: /zh/net/aspose.slides.animation/behaviorproperty/extrusioncolormode/
 ---
 ## BehaviorProperty.ExtrusionColorMode property
 
-表示 'extrusion.colormode' 属性
+表示'extrusion.colormode' 属性
 
 ```csharp
 public static BehaviorProperty ExtrusionColorMode { get; }

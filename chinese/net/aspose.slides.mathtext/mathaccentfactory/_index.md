@@ -1,14 +1,14 @@
 ---
 title: MathAccentFactory
 second_title: Aspose.Slides for .NET API 参考
-description: 允许创建数学重音
+description: 允许创建数学口音
 type: docs
 weight: 7820
 url: /zh/net/aspose.slides.mathtext/mathaccentfactory/
 ---
 ## MathAccentFactory class
 
-允许创建数学重音
+允许创建数学口音
 
 ```csharp
 public class MathAccentFactory : IMathAccentFactory
@@ -29,7 +29,7 @@ public class MathAccentFactory : IMathAccentFactory
 
 ### 评论
 
-用于 COM 比较
+用于 COM 可比性
 
 ### 也可以看看
 

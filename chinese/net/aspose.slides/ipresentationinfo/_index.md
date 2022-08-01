@@ -18,10 +18,10 @@ public interface IPresentationInfo
 
 | 姓名 | 描述 |
 | --- | --- |
-| [IsEncrypted](../../aspose.slides/ipresentationinfo/isencrypted) { get; } | 如果绑定的表示已加密，则为 True，否则为 False。 只读Boolean。 |
-| [IsPasswordProtected](../../aspose.slides/ipresentationinfo/ispasswordprotected) { get; } | 获取一个值，该值指示绑定的演示文稿是否受密码保护才能打开。 |
-| [IsWriteProtected](../../aspose.slides/ipresentationinfo/iswriteprotected) { get; } | 获取一个值，该值指示绑定的表示是否被写保护。 |
-| [LoadFormat](../../aspose.slides/ipresentationinfo/loadformat) { get; } | 获取绑定演示文稿的格式。 只读[`LoadFormat`](../loadformat)。 |
+| [IsEncrypted](../../aspose.slides/ipresentationinfo/isencrypted) { get; } | 如果绑定的演示文稿已加密，则为 True，否则为 False。 只读Boolean. |
+| [IsPasswordProtected](../../aspose.slides/ipresentationinfo/ispasswordprotected) { get; } | 获取一个值，该值指示绑定的演示文稿是否受打开密码保护。 |
+| [IsWriteProtected](../../aspose.slides/ipresentationinfo/iswriteprotected) { get; } | 获取一个值，该值指示绑定的表示是否写保护。 |
+| [LoadFormat](../../aspose.slides/ipresentationinfo/loadformat) { get; } | 获取绑定的演示文稿的格式。 只读[`LoadFormat`](../loadformat). |
 
 ## 方法
 

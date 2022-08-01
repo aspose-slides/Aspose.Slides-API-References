@@ -1,14 +1,14 @@
 ---
 title: ContourColor
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置轮廓的颜色 只读IColorFormataspose.slides/icolorformat
+description: 返回或设置轮廓的颜色 只读IColorFormataspose.slides/icolorformat.
 type: docs
 weight: 40
 url: /zh/net/aspose.slides/threedformat/contourcolor/
 ---
 ## ThreeDFormat.ContourColor property
 
-返回或设置轮廓的颜色。 只读[`IColorFormat`](../../icolorformat)。
+返回或设置轮廓的颜色。 只读[`IColorFormat`](../../icolorformat).
 
 ```csharp
 public IColorFormat ContourColor { get; }

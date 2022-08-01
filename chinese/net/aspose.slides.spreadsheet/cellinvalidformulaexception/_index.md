@@ -18,10 +18,10 @@ public class CellInvalidFormulaException : PptxEditException
 
 | 姓名 | 描述 |
 | --- | --- |
-| [CellInvalidFormulaException](cellinvalidformulaexception#constructor)() | 初始化[`CellInvalidFormulaException`](../cellinvalidformulaexception)类的新实例。 |
-| [CellInvalidFormulaException](cellinvalidformulaexception#constructor_1)(string) | 使用指定的错误消息初始化[`CellInvalidFormulaException`](../cellinvalidformulaexception)类的新实例。 |
-| [CellInvalidFormulaException](cellinvalidformulaexception#constructor_2)(string, Exception) | 初始化[`CellInvalidFormulaException`](../cellinvalidformulaexception)类的新实例并指定错误消息 以及对导致此异常的内部异常的引用。 |
-| [CellInvalidFormulaException](cellinvalidformulaexception#constructor_3)(string, string) | 初始化[`CellInvalidFormulaException`](../cellinvalidformulaexception)类的新实例并指定错误消息 以及包含无效公式的单元格引用。 |
+| [CellInvalidFormulaException](cellinvalidformulaexception#constructor)() | 初始化[`CellInvalidFormulaException`](../cellinvalidformulaexception)类. |
+| [CellInvalidFormulaException](cellinvalidformulaexception#constructor_1)(string) | 初始化[`CellInvalidFormulaException`](../cellinvalidformulaexception)具有指定错误消息的类。 |
+| [CellInvalidFormulaException](cellinvalidformulaexception#constructor_2)(string, Exception) | 初始化[`CellInvalidFormulaException`](../cellinvalidformulaexception)具有指定错误消息 和对导致此异常的内部异常的引用的类。 |
+| [CellInvalidFormulaException](cellinvalidformulaexception#constructor_3)(string, string) | 初始化[`CellInvalidFormulaException`](../cellinvalidformulaexception)具有指定错误消息 和包含无效公式的单元格引用的类。 |
 
 ## 特性
 

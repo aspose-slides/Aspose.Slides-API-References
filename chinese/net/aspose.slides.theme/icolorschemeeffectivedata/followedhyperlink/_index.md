@@ -1,14 +1,14 @@
 ---
 title: FollowedHyperlink
 second_title: Aspose.Slides for .NET API 参考
-description: 已访问超链接的颜色 只读Color
+description: 已访问超链接的颜色 只读Color.
 type: docs
 weight: 90
 url: /zh/net/aspose.slides.theme/icolorschemeeffectivedata/followedhyperlink/
 ---
 ## IColorSchemeEffectiveData.FollowedHyperlink property
 
-已访问超链接的颜色。 只读Color。
+已访问超链接的颜色。 只读Color.
 
 ```csharp
 public Color FollowedHyperlink { get; }

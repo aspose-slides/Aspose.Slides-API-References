@@ -1,14 +1,14 @@
 ---
 title: TextLocked
 second_title: Aspose.Slides for .NET API 参考
-description: 确定是否禁止编辑文本 读/写Boolean
+description: 确定是否禁止编辑文本 读/写Boolean.
 type: docs
 weight: 110
 url: /zh/net/aspose.slides/autoshapelock/textlocked/
 ---
 ## AutoShapeLock.TextLocked property
 
-确定是否禁止编辑文本。 读/写Boolean。
+确定是否禁止编辑文本。 读/写Boolean.
 
 ```csharp
 public bool TextLocked { get; set; }

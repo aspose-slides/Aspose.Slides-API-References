@@ -1,14 +1,14 @@
 ---
 title: FractionType
 second_title: Aspose.Slides for .NET API 参考
-description: 分数类型 默认值条形
+description: 分数类型 默认值Bar
 type: docs
 weight: 30
 url: /zh/net/aspose.slides.mathtext/mathfraction/fractiontype/
 ---
 ## MathFraction.FractionType property
 
-分数类型 默认值:条形
+分数类型 默认值：Bar
 
 ```csharp
 public MathFractionTypes FractionType { get; set; }
@@ -16,7 +16,7 @@ public MathFractionTypes FractionType { get; set; }
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]

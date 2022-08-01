@@ -1,14 +1,14 @@
 ---
 title: PlotArea
 second_title: Aspose.Slides for .NET API 参考
-description: 表示图表的绘图区域 只读IChartPlotAreaaspose.slides.charts/ichartplotarea
+description: 表示图表的绘图区域 只读IChartPlotAreaaspose.slides.charts/ichartplotarea.
 type: docs
 weight: 150
 url: /zh/net/aspose.slides.charts/chart/plotarea/
 ---
 ## Chart.PlotArea property
 
-表示图表的绘图区域。 只读[`IChartPlotArea`](../../ichartplotarea)。
+表示图表的绘图区域。 只读[`IChartPlotArea`](../../ichartplotarea).
 
 ```csharp
 public IChartPlotArea PlotArea { get; }

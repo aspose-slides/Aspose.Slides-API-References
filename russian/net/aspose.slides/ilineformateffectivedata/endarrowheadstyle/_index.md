@@ -1,14 +1,14 @@
 ---
 title: EndArrowheadStyle
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает стиль стрелки в конце строки. Только для чтенияLineArrowheadStyleaspose.slides/linearrowheadstyle.
+description: Возвращает стиль стрелки в конце строки. Только для чтенияLineArrowheadStyleaspose.slides/linearrowheadstyle .
 type: docs
 weight: 100
 url: /ru/net/aspose.slides/ilineformateffectivedata/endarrowheadstyle/
 ---
 ## ILineFormatEffectiveData.EndArrowheadStyle property
 
-Возвращает стиль стрелки в конце строки. Только для чтения[`LineArrowheadStyle`](../../linearrowheadstyle).
+Возвращает стиль стрелки в конце строки. Только для чтения[`LineArrowheadStyle`](../../linearrowheadstyle) .
 
 ```csharp
 public LineArrowheadStyle EndArrowheadStyle { get; }

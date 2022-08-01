@@ -20,7 +20,7 @@ public IEffect AddEffect(IShape shape, EffectType effectType, EffectSubtype subt
 | shape | IShape | 形状对象[`IShape`](../../../aspose.slides/ishape)用于添加效果 |
 | effectType | EffectType | 动画效果的类型[`EffectType`](../../effecttype) |
 | subtype | EffectSubtype | 动画效果的子类型[`EffectSubtype`](../../effectsubtype) |
-| triggerType | EffectTriggerType | 效果的触发类型[`EffectTriggerType`](../../effecttriggertype) |
+| triggerType | EffectTriggerType | 触发效果类型[`EffectTriggerType`](../../effecttriggertype) |
 
 ### 返回值
 
@@ -53,7 +53,7 @@ public IEffect AddEffect(IParagraph paragraph, EffectType effectType, EffectSubt
 | paragraph | IParagraph | 段落对象[`IParagraph`](../../../aspose.slides/iparagraph) |
 | effectType | EffectType | 动画效果的类型[`EffectType`](../../effecttype) |
 | subtype | EffectSubtype | 动画效果的子类型[`EffectSubtype`](../../effectsubtype) |
-| triggerType | EffectTriggerType | 效果的触发类型[`EffectTriggerType`](../../effecttriggertype) |
+| triggerType | EffectTriggerType | 触发效果类型[`EffectTriggerType`](../../effecttriggertype) |
 
 ### 返回值
 
@@ -65,11 +65,11 @@ public IEffect AddEffect(IParagraph paragraph, EffectType effectType, EffectSubt
 [C#]
 using(Presentation presentation = new Presentation(path + "input.pptx"))
 {        
-   // 选择段落添加 effect
+   // 选择段落添加效果
    IAutoShape autoShape = (IAutoShape)presentation.Slides[0].Shapes[0];
    IParagraph paragraph = autoShape.TextFrame.Paragraphs[0];
 
-    // 为选中的段落添加飞行动画效果
+   // 给选中的段落添加飞行动画效果
    IEffect effect = presentation.Slides[0].Timeline.MainSequence.AddEffect(
    paragraph, EffectType.Fly, EffectSubtype.Left, EffectTriggerType.OnClick);
 }
@@ -101,10 +101,10 @@ public IEffect AddEffect(IChart chart, EffectChartMajorGroupingType type, int in
 | --- | --- | --- |
 | chart | IChart | 图表对象[`IChart`](../../../aspose.slides.charts/ichart) |
 | type | EffectChartMajorGroupingType | 动画效果的类型[`EffectChartMinorGroupingType`](../../effectchartminorgroupingtype) |
-| index | Int32 | IndexInt32 |
-| effectType | EffectType | 动画效果的类型EffectType |
+| index | Int32 | 指数Int32 |
+| effectType | EffectType | 动画效果的类型[`EffectType`](../../effecttype) |
 | subtype | EffectSubtype | 动画效果的子类型[`EffectSubtype`](../../effectsubtype) |
-| triggerType | EffectTriggerType | 效果的触发类型[`EffectTriggerType`](../../effecttriggertype) |
+| triggerType | EffectTriggerType | 触发效果类型[`EffectTriggerType`](../../effecttriggertype) |
 
 ### 返回值
 
@@ -126,7 +126,7 @@ public IEffect AddEffect(IChart chart, EffectChartMajorGroupingType type, int in
 
 ## AddEffect(IChart, EffectChartMinorGroupingType, int, int, EffectType, EffectSubtype, EffectTriggerType) {#addeffect_1}
 
-将类别或系列元素的新图表动画效果添加到序列末尾。
+将类别或系列中元素的新图表动画效果添加到序列末尾。
 
 ```csharp
 public IEffect AddEffect(IChart chart, EffectChartMinorGroupingType type, int seriesIndex, 
@@ -139,10 +139,10 @@ public IEffect AddEffect(IChart chart, EffectChartMinorGroupingType type, int se
 | chart | IChart | 图表对象[`IChart`](../../../aspose.slides.charts/ichart) |
 | type | EffectChartMinorGroupingType | 动画效果的类型[`EffectChartMinorGroupingType`](../../effectchartminorgroupingtype) |
 | seriesIndex | Int32 | 图表系列索引Int32 |
-| categoriesIndex | Int32 | 类别索引Int32 |
+| categoriesIndex | Int32 | 分类索引Int32 |
 | effectType | EffectType | 动画效果的类型[`EffectType`](../../effecttype) |
 | subtype | EffectSubtype | 动画效果的子类型[`EffectSubtype`](../../effectsubtype) |
-| triggerType | EffectTriggerType | 效果的触发类型[`EffectTriggerType`](../../effecttriggertype) |
+| triggerType | EffectTriggerType | 触发效果类型[`EffectTriggerType`](../../effecttriggertype) |
 
 ### 返回值
 

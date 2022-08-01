@@ -1,14 +1,14 @@
 ---
 title: ShowMinorGridLines
 second_title: Справочник по API Aspose.Slides для .NET
-description: Чтобы скрыть второстепенные линии сетки установите для параметра MinorGridLinesFormat.Line.FillFormat.FillType значение FillType.NoFill. Только чтениеBoolean.
+description: Чтобы скрыть второстепенные линии сетки задайте для параметра MinorGridLinesFormat.Line.FillFormat.FillType значение FillType.NoFill. Только для чтенияBoolean .
 type: docs
 weight: 490
 url: /ru/net/aspose.slides.charts/axis/showminorgridlines/
 ---
 ## Axis.ShowMinorGridLines property
 
-Чтобы скрыть второстепенные линии сетки, установите для параметра MinorGridLinesFormat.Line.FillFormat.FillType значение FillType.NoFill. Только чтениеBoolean.
+Чтобы скрыть второстепенные линии сетки, задайте для параметра MinorGridLinesFormat.Line.FillFormat.FillType значение FillType.NoFill. Только для чтенияBoolean .
 
 ```csharp
 public bool ShowMinorGridLines { get; }

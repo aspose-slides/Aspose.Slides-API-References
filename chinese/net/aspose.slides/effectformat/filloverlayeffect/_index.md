@@ -1,14 +1,14 @@
 ---
 title: FillOverlayEffect
 second_title: Aspose.Slides for .NET API 参考
-description: 填充叠加效果 读/写IFillOverlayaspose.slides.effects/ifilloverlay
+description: 填充叠加效果 读/写IFillOverlayaspose.slides.effects/ifilloverlay.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides/effectformat/filloverlayeffect/
 ---
 ## EffectFormat.FillOverlayEffect property
 
-填充叠加效果。 读/写[`IFillOverlay`](../../../aspose.slides.effects/ifilloverlay)。
+填充叠加效果。 读/写[`IFillOverlay`](../../../aspose.slides.effects/ifilloverlay).
 
 ```csharp
 public IFillOverlay FillOverlayEffect { get; set; }

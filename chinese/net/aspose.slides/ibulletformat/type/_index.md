@@ -1,14 +1,14 @@
 ---
 title: Type
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置没有继承的段落的项目符号类型 读/写BulletTypeaspose.slides/bullettype
+description: 返回或设置没有继承的段落的项目符号类型 读/写BulletTypeaspose.slides/bullettype.
 type: docs
 weight: 100
 url: /zh/net/aspose.slides/ibulletformat/type/
 ---
 ## IBulletFormat.Type property
 
-返回或设置没有继承的段落的项目符号类型。 读/写[`BulletType`](../../bullettype)。
+返回或设置没有继承的段落的项目符号类型。 读/写[`BulletType`](../../bullettype).
 
 ```csharp
 public BulletType Type { get; set; }

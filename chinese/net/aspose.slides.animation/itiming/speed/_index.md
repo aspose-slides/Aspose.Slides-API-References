@@ -1,14 +1,14 @@
 ---
 title: Speed
 second_title: Aspose.Slides for .NET API 参考
-description: 指定加快或减慢计时的百分比 读/写Single
+description: 指定加快或减慢时序的百分比 读/写Single.
 type: docs
 weight: 80
 url: /zh/net/aspose.slides.animation/itiming/speed/
 ---
 ## ITiming.Speed property
 
-指定加快（或减慢）计时的百分比。 读/写Single。
+指定加快（或减慢）时序的百分比。 读/写Single.
 
 ```csharp
 public float Speed { get; set; }

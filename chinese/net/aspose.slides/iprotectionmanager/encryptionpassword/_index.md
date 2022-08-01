@@ -1,14 +1,14 @@
 ---
 title: EncryptionPassword
 second_title: Aspose.Slides for .NET API 参考
-description: 返回加密密码 只读String
+description: 返回加密密码 只读String.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides/iprotectionmanager/encryptionpassword/
 ---
 ## IProtectionManager.EncryptionPassword property
 
-返回加密密码。 只读String。
+返回加密密码。 只读String.
 
 ```csharp
 public string EncryptionPassword { get; }

@@ -18,7 +18,7 @@ public class ChartCellCollection : IChartCellCollection
 
 | Имя | Описание |
 | --- | --- |
-| [Count](../../aspose.slides.charts/chartcellcollection/count) { get; } | Получает количество ячеек в коллекции. Только для чтенияInt32. |
+| [Count](../../aspose.slides.charts/chartcellcollection/count) { get; } | Получает количество ячеек в коллекции. Только для чтенияInt32 . |
 | [Item](../../aspose.slides.charts/chartcellcollection/item) { get; } | Возвращает ячейку (IChartDataCell) по индексу. |
 
 ## Методы
@@ -26,10 +26,10 @@ public class ChartCellCollection : IChartCellCollection
 | Имя | Описание |
 | --- | --- |
 | [Add](../../aspose.slides.charts/chartcellcollection/add#add)(IChartDataCell) | Добавить новую ячейку в коллекцию. |
-| [Add](../../aspose.slides.charts/chartcellcollection/add#add_1)(object) | Создает[`ChartDataCell`](../chartdatacell)из указанного значения и добавляет его в коллекцию. |
+| [Add](../../aspose.slides.charts/chartcellcollection/add#add_1)(object) | Создает[`ChartDataCell`](../chartdatacell) из указанного значения и добавляет его в коллекцию. |
 | [GetCellsAddress](../../aspose.slides.charts/chartcellcollection/getcellsaddress)() | Возвращает адрес набора ячеек в книге. |
-| [GetConcatenatedValuesFromCells](../../aspose.slides.charts/chartcellcollection/getconcatenatedvaluesfromcells)() | Строка конкатенации из строковых значений всех ячеек. |
-| [GetEnumerator](../../aspose.slides.charts/chartcellcollection/getenumerator)() | Возвращает перечислитель, который перебирает коллекцию. |
+| [GetConcatenatedValuesFromCells](../../aspose.slides.charts/chartcellcollection/getconcatenatedvaluesfromcells)() | Строка конкатенации из всех строковых значений ячеек. |
+| [GetEnumerator](../../aspose.slides.charts/chartcellcollection/getenumerator)() | Возвращает перечислитель, который выполняет итерацию по коллекции. |
 | [RemoveAt](../../aspose.slides.charts/chartcellcollection/removeat)(int) | Удаляет ячейку из коллекции по индексу. |
 
 ### Смотрите также

@@ -18,10 +18,10 @@ public class CustomXmlPartCollection : ICustomXmlPartCollection
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Count](../../aspose.slides/customxmlpartcollection/count) { get; } | 返回集合中自定义 xml 部分的计数。 只读Int32。 |
-| [IsSynchronized](../../aspose.slides/customxmlpartcollection/issynchronized) { get; } | 返回一个值，指示对集合的访问是否同步（线程安全）。 只读Boolean。 |
+| [Count](../../aspose.slides/customxmlpartcollection/count) { get; } | 返回集合中自定义 xml 部分的计数。 只读Int32. |
+| [IsSynchronized](../../aspose.slides/customxmlpartcollection/issynchronized) { get; } | 返回一个值，指示对集合的访问是否同步（线程安全）。 只读Boolean. |
 | [Item](../../aspose.slides/customxmlpartcollection/item) { get; } | 返回指定索引处的元素。 |
-| [SyncRoot](../../aspose.slides/customxmlpartcollection/syncroot) { get; } | 返回同步根。 只读Object。 |
+| [SyncRoot](../../aspose.slides/customxmlpartcollection/syncroot) { get; } | 返回同步根。 只读Object. |
 
 ## 方法
 

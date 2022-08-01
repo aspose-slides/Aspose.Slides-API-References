@@ -1,14 +1,14 @@
 ---
 title: SizeValue
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает значение размера точки данных диаграммы. Используется с диаграммами Treemap и Sunburst. Только для чтенияIDoubleChartValueaspose.slides.charts/idoublechartvalue.
+description: Возвращает значение размера точки данных диаграммы. Используется с диаграммами Treemap и Sunburst. Только для чтенияIDoubleChartValueaspose.slides.charts/idoublechartvalue .
 type: docs
 weight: 140
 url: /ru/net/aspose.slides.charts/ichartdatapoint/sizevalue/
 ---
 ## IChartDataPoint.SizeValue property
 
-Возвращает значение размера точки данных диаграммы. Используется с диаграммами Treemap и Sunburst. Только для чтения[`IDoubleChartValue`](../../idoublechartvalue).
+Возвращает значение размера точки данных диаграммы. Используется с диаграммами Treemap и Sunburst. Только для чтения[`IDoubleChartValue`](../../idoublechartvalue) .
 
 ```csharp
 public IDoubleChartValue SizeValue { get; }

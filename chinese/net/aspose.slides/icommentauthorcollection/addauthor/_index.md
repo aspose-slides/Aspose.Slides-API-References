@@ -21,7 +21,7 @@ public ICommentAuthor AddAuthor(string name, string initials)
 
 ### 返回值
 
-新[`ICommentAuthor`](../../icommentauthor)对象。
+新的[`ICommentAuthor`](../../icommentauthor)目的。
 
 ### 也可以看看
 

@@ -17,8 +17,8 @@ public ISmartArt AddSmartArt(float x, float y, float width, float height,
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| x | Single | 图框左侧的 X 坐标。 |
-| y | Single | 图表框架左侧的 Y 坐标。 |
+| x | Single | 图框架左侧的 X 坐标。 |
+| y | Single | 图框架左侧的 Y 坐标。 |
 | width | Single | 图表框架的宽度。 |
 | height | Single | 图表框架的高度。 |
 | layoutType | SmartArtLayoutType | SmartArt 图表的类型 |
@@ -29,13 +29,20 @@ public ISmartArt AddSmartArt(float x, float y, float width, float height,
 
 ### 例子
 
-示例: &lt;code&gt; [Visual Basic] Private pres As New Presentation() Private slide As Slide = pres.Slides(0) Private smart As SmartArt = slide.Shapes.AddSmartArt(0, 0, 400, 400, SmartArtLayoutType.BasicBlockList) &lt;/code&gt;
+示例：
 
 ```csharp
 [C#]
 Presentation pres = new Presentation();
 Slide slide = pres.Slides[0];
 SmartArt smart = slide.Shapes.AddSmartArt(0, 0, 400, 400, SmartArtLayoutType.BasicBlockList);
+```
+
+```csharp
+[Visual Basic]
+Private pres As New Presentation()
+Private slide As Slide = pres.Slides(0)
+Private smart As SmartArt = slide.Shapes.AddSmartArt(0, 0, 400, 400, SmartArtLayoutType.BasicBlockList)
 ```
 
 ### 也可以看看

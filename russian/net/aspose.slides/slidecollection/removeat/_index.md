@@ -18,6 +18,12 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | Отсчитываемый от нуля индекс удаляемого элемента. |
 
+### Исключения
+
+| исключение | условие |
+| --- | --- |
+| ArgumentOutOfRangeException |  |
+
 ### Смотрите также
 
 * class [SlideCollection](../../slidecollection)

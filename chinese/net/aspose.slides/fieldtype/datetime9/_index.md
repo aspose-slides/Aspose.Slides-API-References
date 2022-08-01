@@ -1,14 +1,14 @@
 ---
 title: DateTime9
 second_title: Aspose.Slides for .NET API 参考
-description: 第九种预定义格式的当前日期和时间英文为 MM/DD/YYYY hhmmss AM/PM 只读FieldTypeaspose.slides/fieldtype
+description: 第九种预定义格式的当前日期和时间英文为 MM/DD/YYYY hhmmss AM/PM 只读FieldTypeaspose.slides/fieldtype.
 type: docs
 weight: 150
 url: /zh/net/aspose.slides/fieldtype/datetime9/
 ---
 ## FieldType.DateTime9 property
 
-第九种预定义格式的当前日期和时间（英文为 MM/DD/YYYY hh:mm:ss AM/PM）。 只读[`FieldType`](../../fieldtype)。
+第九种预定义格式的当前日期和时间（英文为 MM/DD/YYYY hh:mm:ss AM/PM）。 只读[`FieldType`](../../fieldtype).
 
 ```csharp
 public static FieldType DateTime9 { get; }

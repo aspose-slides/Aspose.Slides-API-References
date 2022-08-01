@@ -1,14 +1,14 @@
 ---
 title: ContentType
 second_title: Aspose.Slides for .NET API 参考
-description: 返回音频的 MIME 类型编码为BinaryDataaspose.slides/iaudio/binarydata 只读String
+description: 返回音频的 MIME 类型编码为BinaryDataaspose.slides/iaudio/binarydata . 只读String.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides/iaudio/contenttype/
 ---
 ## IAudio.ContentType property
 
-返回音频的 MIME 类型，编码为[`BinaryData`](../binarydata)。 只读String。
+返回音频的 MIME 类型，编码为[`BinaryData`](../binarydata) . 只读String.
 
 ```csharp
 public string ContentType { get; }

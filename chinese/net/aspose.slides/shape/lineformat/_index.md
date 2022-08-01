@@ -1,14 +1,14 @@
 ---
 title: LineFormat
 second_title: Aspose.Slides for .NET API 参考
-description: 返回包含形状的行格式属性的 LineFormat 对象 注意对于某些没有线条属性的形状类型可以返回 null 只读ILineFormataspose.slides/ilineformat
+description: 返回包含形状的线条格式属性的 LineFormat 对象 注意对于没有线条属性的某些类型的形状可以返回 null 只读ILineFormataspose.slides/ilineformat.
 type: docs
 weight: 160
 url: /zh/net/aspose.slides/shape/lineformat/
 ---
 ## Shape.LineFormat property
 
-返回包含形状的行格式属性的 LineFormat 对象。 注意:对于某些没有线条属性的形状类型，可以返回 null。 只读[`ILineFormat`](../../ilineformat)。
+返回包含形状的线条格式属性的 LineFormat 对象。 注意：对于没有线条属性的某些类型的形状，可以返回 null。 只读[`ILineFormat`](../../ilineformat).
 
 ```csharp
 public virtual ILineFormat LineFormat { get; }

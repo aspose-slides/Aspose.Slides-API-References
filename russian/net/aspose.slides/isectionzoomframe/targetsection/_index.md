@@ -1,14 +1,14 @@
 ---
 title: TargetSection
 second_title: Справочник по API Aspose.Slides для .NET
-description: Получает или задает объект раздела с которым связан объект масштабирования раздела. Чтение/записьISectionaspose.slides/isection.
+description: Получает или задает объект сечения с которым связан объект масштабирования сечения. Чтение/записьISectionaspose.slides/isection .
 type: docs
 weight: 20
 url: /ru/net/aspose.slides/isectionzoomframe/targetsection/
 ---
 ## ISectionZoomFrame.TargetSection property
 
-Получает или задает объект раздела, с которым связан объект масштабирования раздела. Чтение/запись[`ISection`](../../isection).
+Получает или задает объект сечения, с которым связан объект масштабирования сечения. Чтение/запись[`ISection`](../../isection) .
 
 ```csharp
 public ISection TargetSection { get; set; }
@@ -16,7 +16,7 @@ public ISection TargetSection { get; set; }
 
 ### Примеры
 
-Этот пример демонстрирует изменение целевого раздела и создание нового изображения для объекта масштабирования раздела:
+В этом примере показано изменение целевого раздела и создание нового изображения для объекта масштабирования раздела:
 
 ```csharp
 [C#]

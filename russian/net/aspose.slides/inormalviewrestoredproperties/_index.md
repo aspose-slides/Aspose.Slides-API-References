@@ -1,14 +1,14 @@
 ---
 title: INormalViewRestoredProperties
 second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет размер области слайда ширина когда дочерний элемент restoreTop высота когда дочерний элемент restoreLeft нормального вида когда область имеет переменный восстановленный размер ни минимизирована ни максимизирована.
+description: Определяет размер области слайда ширина когда дочерний элемент restoreTop высота когда a дочерний элемент restoreLeft нормального вида когда область имеет переменный восстановленный размер ни свернутый ни развернутый.
 type: docs
 weight: 5920
 url: /ru/net/aspose.slides/inormalviewrestoredproperties/
 ---
 ## INormalViewRestoredProperties interface
 
-Определяет размер области слайда ((ширина, когда дочерний элемент restoreTop, высота, когда дочерний элемент restoreLeft) нормального вида, когда область имеет переменный восстановленный размер (ни минимизирована, ни максимизирована).
+Определяет размер области слайда ((ширина, когда дочерний элемент restoreTop, высота, когда a дочерний элемент restoreLeft) нормального вида, когда область имеет переменный восстановленный размер (ни свернутый, ни развернутый).
 
 ```csharp
 public interface INormalViewRestoredProperties
@@ -18,8 +18,8 @@ public interface INormalViewRestoredProperties
 
 | Имя | Описание |
 | --- | --- |
-| [AutoAdjust](../../aspose.slides/inormalviewrestoredproperties/autoadjust) { get; set; } | Указывает, должен ли размер боковой области содержимого компенсировать новый размер при изменении размера окна, содержащего представление в приложении Чтение/записьBoolean. |
-| [DimensionSize](../../aspose.slides/inormalviewrestoredproperties/dimensionsize) { get; set; } | Определяет размер области слайда (ширина, когда является дочерним элементом RestoredTop, высота, когда является дочерним элементом RestoredLeft). Чтение/записьSingle.  Выдает, когда значение меньше 0 или больше 100. |
+| [AutoAdjust](../../aspose.slides/inormalviewrestoredproperties/autoadjust) { get; set; } | Указывает, должен ли размер области бокового содержимого компенсировать новый размер при изменении размера окна, содержащего представление в приложении Чтение/записьBoolean . |
+| [DimensionSize](../../aspose.slides/inormalviewrestoredproperties/dimensionsize) { get; set; } | Определяет размер области слайда (ширина, когда является дочерним элементом RestoredTop, высота, когда является дочерним элементом RestoredLeft). Чтение/записьSingle . Выдает, когда значение меньше 0 или больше 100. |
 
 ### Смотрите также
 

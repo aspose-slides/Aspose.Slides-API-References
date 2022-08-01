@@ -1,14 +1,14 @@
 ---
 title: Accumulate
 second_title: Aspose.Slides for .NET API 参考
-description: 表示是否累积动画行为 读/写NullableBoolaspose.slides/nullablebool
+description: 表示动画行为是否累积 读/写NullableBoolaspose.slides/nullablebool.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides.animation/ibehavior/accumulate/
 ---
 ## IBehavior.Accumulate property
 
-表示是否累积动画行为。 读/写[`NullableBool`](../../../aspose.slides/nullablebool)。
+表示动画行为是否累积。 读/写[`NullableBool`](../../../aspose.slides/nullablebool).
 
 ```csharp
 public NullableBool Accumulate { get; set; }

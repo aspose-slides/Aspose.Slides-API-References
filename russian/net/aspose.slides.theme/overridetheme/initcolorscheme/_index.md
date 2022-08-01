@@ -18,7 +18,7 @@ public void InitColorScheme()
 
 | исключение | условие |
 | --- | --- |
-| InvalidOperationException | Генерируется, если ColorScheme уже инициализирована (не нуль). |
+| InvalidOperationException | Вызывается, если ColorScheme уже инициализирована (не нуль). |
 
 ### Смотрите также
 

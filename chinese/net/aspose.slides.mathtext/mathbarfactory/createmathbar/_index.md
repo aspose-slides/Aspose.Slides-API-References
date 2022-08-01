@@ -1,14 +1,14 @@
 ---
 title: CreateMathBar
 second_title: Aspose.Slides for .NET API 参考
-description: 通过应用于元素
+description: 通过应用到元素创建一个数学条
 type: docs
 weight: 20
 url: /zh/net/aspose.slides.mathtext/mathbarfactory/createmathbar/
 ---
 ## CreateMathBar(IMathElement) {#createmathbar}
 
-通过应用于元素
+通过应用到元素创建一个数学条
 
 ```csharp
 public IMathBar CreateMathBar(IMathElement element)
@@ -16,7 +16,7 @@ public IMathBar CreateMathBar(IMathElement element)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| element | IMathElement | math 创建一个数学条要应用的元素 bar |
+| element | IMathElement | 应用栏的数学元素 |
 
 ### 返回值
 
@@ -34,7 +34,7 @@ public IMathBar CreateMathBar(IMathElement element)
 
 ## CreateMathBar(IMathElement, MathTopBotPositions) {#createmathbar_1}
 
-通过应用于元素
+通过应用到元素创建一个数学条
 
 ```csharp
 public IMathBar CreateMathBar(IMathElement element, MathTopBotPositions position)
@@ -42,12 +42,12 @@ public IMathBar CreateMathBar(IMathElement element, MathTopBotPositions position
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| element | IMathElement | Math 创建一个数学条要应用的元素 bar |
-| position | MathTopBotPositions | 栏的位置 |
+| element | IMathElement | 应用栏的数学元素 |
+| position | MathTopBotPositions | 酒吧的位置 |
 
 ### 返回值
 
-新数学栏元素
+新的数学栏元素
 
 ### 也可以看看
 

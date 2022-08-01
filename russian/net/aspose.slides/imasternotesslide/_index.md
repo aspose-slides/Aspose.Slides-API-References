@@ -18,10 +18,10 @@ public interface IMasterNotesSlide : IBaseSlide, IMasterThemeable
 
 | Имя | Описание |
 | --- | --- |
-| [AsIBaseSlide](../../aspose.slides/imasternotesslide/asibaseslide) { get; } | Позволяет получить базовый интерфейс IBaseSlide. Только для чтения[`IBaseSlide`](../ibaseslide). |
-| [AsIMasterThemeable](../../aspose.slides/imasternotesslide/asimasterthemeable) { get; } | Возвращает интерфейс IMasterThemeable. Только для чтения[`IMasterThemeable`](../../aspose.slides.theme/imasterthemeable). |
-| [HeaderFooterManager](../../aspose.slides/imasternotesslide/headerfootermanager) { get; } | Возвращает менеджер HeaderFooter слайда основных заметок. Только для чтения[`IMasterNotesSlideHeaderFooterManager`](../imasternotesslideheaderfootermanager). |
-| [NotesStyle](../../aspose.slides/imasternotesslide/notesstyle) { get; } | Возвращает стиль текста заметки. Только для чтения[`ITextStyle`](../itextstyle). |
+| [AsIBaseSlide](../../aspose.slides/imasternotesslide/asibaseslide) { get; } | Позволяет получить базовый интерфейс IBaseSlide. Только для чтения[`IBaseSlide`](../ibaseslide) . |
+| [AsIMasterThemeable](../../aspose.slides/imasternotesslide/asimasterthemeable) { get; } | Возвращает интерфейс IMasterThemeable. Только для чтения[`IMasterThemeable`](../../aspose.slides.theme/imasterthemeable) . |
+| [HeaderFooterManager](../../aspose.slides/imasternotesslide/headerfootermanager) { get; } | Возвращает менеджер HeaderFooter слайда основных заметок. Только для чтения[`IMasterNotesSlideHeaderFooterManager`](../imasternotesslideheaderfootermanager) . |
+| [NotesStyle](../../aspose.slides/imasternotesslide/notesstyle) { get; } | Возвращает стиль текста заметки. Только для чтения[`ITextStyle`](../itextstyle) . |
 
 ### Смотрите также
 

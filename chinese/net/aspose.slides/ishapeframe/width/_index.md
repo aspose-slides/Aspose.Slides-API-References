@@ -1,14 +1,14 @@
 ---
 title: Width
 second_title: Aspose.Slides for .NET API 参考
-description: 返回帧的宽度 只读Single
+description: 返回帧的宽度 只读Single.
 type: docs
 weight: 80
 url: /zh/net/aspose.slides/ishapeframe/width/
 ---
 ## IShapeFrame.Width property
 
-返回帧的宽度。 只读Single。
+返回帧的宽度。 只读Single.
 
 ```csharp
 public float Width { get; }

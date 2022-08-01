@@ -1,14 +1,14 @@
 ---
 title: HeaderFooterManager
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает менеджер нижнего колонтитула мастер-слайда. Только для чтенияIMasterSlideHeaderFooterManageraspose.slides/imasterslideheaderfootermanager.
+description: Возвращает менеджер HeaderFooter мастер-слайда. Только для чтенияIMasterSlideHeaderFooterManageraspose.slides/imasterslideheaderfootermanager .
 type: docs
 weight: 50
 url: /ru/net/aspose.slides/imasterslide/headerfootermanager/
 ---
 ## IMasterSlide.HeaderFooterManager property
 
-Возвращает менеджер нижнего колонтитула мастер-слайда. Только для чтения[`IMasterSlideHeaderFooterManager`](../../imasterslideheaderfootermanager).
+Возвращает менеджер HeaderFooter мастер-слайда. Только для чтения[`IMasterSlideHeaderFooterManager`](../../imasterslideheaderfootermanager) .
 
 ```csharp
 public IMasterSlideHeaderFooterManager HeaderFooterManager { get; }

@@ -25,10 +25,10 @@ public class DigitalSignature : IDigitalSignature
 
 | Имя | Описание |
 | --- | --- |
-| [Certificate](../../aspose.slides/digitalsignature/certificate) { get; } | Объект сертификата, который использовался для подписи документа. Только для чтенияX509Certificate2. |
-| [Comments](../../aspose.slides/digitalsignature/comments) { get; set; } | Цель подписи. Чтение/записьString. |
-| [IsValid](../../aspose.slides/digitalsignature/isvalid) { get; } | Если эта цифровая подпись действительна и документ не был подделан, это значение будет истинным. Только чтениеBoolean. |
-| [SignTime](../../aspose.slides/digitalsignature/signtime) { get; } | Время подписания документа. Только для чтенияDateTime. |
+| [Certificate](../../aspose.slides/digitalsignature/certificate) { get; } | Объект сертификата, который использовался для подписи документа. Только для чтенияX509Certificate2 . |
+| [Comments](../../aspose.slides/digitalsignature/comments) { get; set; } | Назначение подписи. Чтение/записьString . |
+| [IsValid](../../aspose.slides/digitalsignature/isvalid) { get; } | Если эта цифровая подпись действительна и документ не был подделан, это значение будет истинным. Только для чтенияBoolean . |
+| [SignTime](../../aspose.slides/digitalsignature/signtime) { get; } | Время подписания документа. Только для чтенияDateTime . |
 
 ### Смотрите также
 

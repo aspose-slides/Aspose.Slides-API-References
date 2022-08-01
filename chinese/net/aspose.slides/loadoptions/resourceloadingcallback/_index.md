@@ -1,14 +1,14 @@
 ---
 title: ResourceLoadingCallback
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置管理外部资源加载的回调接口 读/写IResourceLoadingCallbackaspose.slides/iresourceloadingcallback
+description: 返回或设置管理外部资源加载的回调接口 读/写IResourceLoadingCallbackaspose.slides/iresourceloadingcallback.
 type: docs
 weight: 110
 url: /zh/net/aspose.slides/loadoptions/resourceloadingcallback/
 ---
 ## LoadOptions.ResourceLoadingCallback property
 
-返回或设置管理外部资源加载的回调接口。 读/写[`IResourceLoadingCallback`](../../iresourceloadingcallback)。
+返回或设置管理外部资源加载的回调接口。 读/写[`IResourceLoadingCallback`](../../iresourceloadingcallback).
 
 ```csharp
 public IResourceLoadingCallback ResourceLoadingCallback { get; set; }

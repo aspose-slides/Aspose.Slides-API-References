@@ -18,7 +18,7 @@ public void Remove()
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| [PptxEditException](../../pptxeditexception) | 如果布局已经从演示文稿中删除或者布局是在演示文稿中使用（其 HasDependingSlides 属性为 true）。 |
+| [PptxEditException](../../pptxeditexception) | 如果布局已从演示文稿中删除或在演示文稿中使用布局（其 HasDependingSlides 属性为 true），则抛出。 |
 
 ### 评论
 

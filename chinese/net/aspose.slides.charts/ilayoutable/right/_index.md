@@ -1,14 +1,14 @@
 ---
 title: Right
 second_title: Aspose.Slides for .NET API 参考
-description: 获取图表元素的右侧作为图表宽度的一部分 只读Single
+description: 获取图表元素的右侧作为图表宽度的一部分 只读Single.
 type: docs
 weight: 40
 url: /zh/net/aspose.slides.charts/ilayoutable/right/
 ---
 ## ILayoutable.Right property
 
-获取图表元素的右侧，作为图表宽度的一部分。 只读Single。
+获取图表元素的右侧，作为图表宽度的一部分。 只读Single.
 
 ```csharp
 public float Right { get; }

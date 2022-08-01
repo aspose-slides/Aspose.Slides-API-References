@@ -1,14 +1,14 @@
 ---
 title: IWheelTransition
 second_title: Справочник по API Aspose.Slides для .NET
-description: Эффект перехода при скольжении колеса.
+description: Эффект перехода скольжения колеса.
 type: docs
 weight: 9440
 url: /ru/net/aspose.slides.slideshow/iwheeltransition/
 ---
 ## IWheelTransition interface
 
-Эффект перехода при скольжении колеса.
+Эффект перехода скольжения колеса.
 
 ```csharp
 public interface IWheelTransition : ITransitionValueBase
@@ -18,8 +18,8 @@ public interface IWheelTransition : ITransitionValueBase
 
 | Имя | Описание |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/iwheeltransition/asitransitionvaluebase) { get; } | Позволяет получить базовый интерфейс ITransitionValueBase. Только для чтения[`ITransitionValueBase`](../itransitionvaluebase). |
-| [Spokes](../../aspose.slides.slideshow/iwheeltransition/spokes) { get; set; } | Количество спиц колесного перехода. Чтение/записьUInt32. |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/iwheeltransition/asitransitionvaluebase) { get; } | Позволяет получить базовый интерфейс ITransitionValueBase. Только для чтения[`ITransitionValueBase`](../itransitionvaluebase) . |
+| [Spokes](../../aspose.slides.slideshow/iwheeltransition/spokes) { get; set; } | Количество спиц перехода колеса. Чтение/записьUInt32 . |
 
 ### Смотрите также
 

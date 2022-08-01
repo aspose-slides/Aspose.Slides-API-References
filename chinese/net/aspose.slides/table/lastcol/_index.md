@@ -1,14 +1,14 @@
 ---
 title: LastCol
 second_title: Aspose.Slides for .NET API 参考
-description: 确定表格的最后一列是否必须以特殊格式绘制 读/写Boolean
+description: 确定表格的最后一列是否必须使用特殊格式绘制 读/写Boolean.
 type: docs
 weight: 60
 url: /zh/net/aspose.slides/table/lastcol/
 ---
 ## Table.LastCol property
 
-确定表格的最后一列是否必须以特殊格式绘制。 读/写Boolean。
+确定表格的最后一列是否必须使用特殊格式绘制。 读/写Boolean.
 
 ```csharp
 public bool LastCol { get; set; }

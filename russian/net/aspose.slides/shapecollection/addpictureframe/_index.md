@@ -17,12 +17,12 @@ public IPictureFrame AddPictureFrame(ShapeType shapeType, float x, float y, floa
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| shapeType | ShapeType | Форма, содержащаяся в наборе[`ShapeType`](../../shapetype) фигур, кроме всяких линий: |
-| x | Single | Координата X для левой стороны рамки формы. |
-| y | Single | Y-координата верхней стороны рамки фигуры. |
+| shapeType | ShapeType | Форма, содержащаяся в наборе[`ShapeType`](../../shapetype) фигур, кроме всех видов линий: |
+| x | Single | Координата X для левой стороны рамки фигуры. |
+| y | Single | Координата Y верхней стороны рамки фигуры. |
 | width | Single | Ширина рамки фигуры. |
 | height | Single | Высота рамки фигуры. |
-| image | IPPImage | Изображение рамки изображения. |
+| image | IPPImage | Изображение фоторамки. |
 
 ### Возвращаемое значение
 

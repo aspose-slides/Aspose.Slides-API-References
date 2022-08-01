@@ -18,13 +18,13 @@ public interface IHtml5Options : ISaveOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AnimateShapes](../../aspose.slides.export/ihtml5options/animateshapes) { get; set; } | 返回或设置形状动画选项。 读/写Boolean。 |
-| [AnimateTransitions](../../aspose.slides.export/ihtml5options/animatetransitions) { get; set; } | 返回或设置过渡动画选项。 读/写Boolean。 |
-| [AsISaveOptions](../../aspose.slides.export/ihtml5options/asisaveoptions) { get; } | 返回 ISaveOptions 接口。 只读[`ISaveOptions`](../isaveoptions)。 |
+| [AnimateShapes](../../aspose.slides.export/ihtml5options/animateshapes) { get; set; } | 返回或设置形状动画选项。 读/写Boolean. |
+| [AnimateTransitions](../../aspose.slides.export/ihtml5options/animatetransitions) { get; set; } | 返回或设置过渡动画选项。 读/写Boolean. |
+| [AsISaveOptions](../../aspose.slides.export/ihtml5options/asisaveoptions) { get; } | 返回 ISaveOptions 接口。 只读[`ISaveOptions`](../isaveoptions). |
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]

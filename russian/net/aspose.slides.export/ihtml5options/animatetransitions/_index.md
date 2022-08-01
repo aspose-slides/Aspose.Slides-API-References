@@ -1,14 +1,14 @@
 ---
 title: AnimateTransitions
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или устанавливает параметр анимации переходов. Чтение/записьBoolean.
+description: Возвращает или задает параметр анимации переходов. Чтение/записьBoolean .
 type: docs
 weight: 20
 url: /ru/net/aspose.slides.export/ihtml5options/animatetransitions/
 ---
 ## IHtml5Options.AnimateTransitions property
 
-Возвращает или устанавливает параметр анимации переходов. Чтение/записьBoolean.
+Возвращает или задает параметр анимации переходов. Чтение/записьBoolean .
 
 ```csharp
 public bool AnimateTransitions { get; set; }

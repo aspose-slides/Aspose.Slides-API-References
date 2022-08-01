@@ -1,14 +1,14 @@
 ---
 title: IPptxOptions
 second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет варианты сохранения презентаций OpenXml PPTX PPSX POTX PPTM PPSM POTM.
+description: Представляет параметры для сохранения презентаций OpenXml PPTX PPSX POTX PPTM PPSM POTM.
 type: docs
 weight: 3700
 url: /ru/net/aspose.slides.export/ipptxoptions/
 ---
 ## IPptxOptions interface
 
-Представляет варианты сохранения презентаций OpenXml (PPTX, PPSX, POTX, PPTM, PPSM, POTM).
+Представляет параметры для сохранения презентаций OpenXml (PPTX, PPSX, POTX, PPTM, PPSM, POTM).
 
 ```csharp
 public interface IPptxOptions : ISaveOptions
@@ -18,7 +18,7 @@ public interface IPptxOptions : ISaveOptions
 
 | Имя | Описание |
 | --- | --- |
-| [AsISaveOptions](../../aspose.slides.export/ipptxoptions/asisaveoptions) { get; } | Позволяет получить базовый интерфейс ISaveOptions. Только для чтения[`ISaveOptions`](../isaveoptions). |
+| [AsISaveOptions](../../aspose.slides.export/ipptxoptions/asisaveoptions) { get; } | Позволяет получить базовый интерфейс ISaveOptions. Только для чтения[`ISaveOptions`](../isaveoptions) . |
 | [Conformance](../../aspose.slides.export/ipptxoptions/conformance) { get; set; } | Указывает класс соответствия, которому соответствует документ презентации. Значение по умолчанию:Ecma376_2006 |
 
 ### Смотрите также

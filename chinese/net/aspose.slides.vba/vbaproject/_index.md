@@ -18,16 +18,16 @@ public sealed class VbaProject : IVbaProject
 
 | 姓名 | 描述 |
 | --- | --- |
-| [VbaProject](vbaproject#constructor)() | 此构造函数从头开始创建新的 VBA 项目。 项目将在 1252 Windows Latin 1 (ANSI) 代码页 |
+| [VbaProject](vbaproject#constructor)() | 此构造函数从头开始创建新的 VBA 项目。 项目将在 1252 Windows Latin 1 (ANSI) 代码页中创建 |
 | [VbaProject](vbaproject#constructor_1)(byte[]) | 此构造函数从 OLE 容器的二进制表示加载 VBA 项目。 |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Modules](../../aspose.slides.vba/vbaproject/modules) { get; } | 返回 VBA 项目中包含的所有模块的列表。 只读[`IVbaModuleCollection`](../ivbamodulecollection)。 |
-| [Name](../../aspose.slides.vba/vbaproject/name) { get; } | 返回 VBA 项目的名称。 只读String。 |
-| [References](../../aspose.slides.vba/vbaproject/references) { get; } | 返回包含在 VBA 项目中的所有引用的列表。 只读[`IVbaReferenceCollection`](../ivbareferencecollection)。 |
+| [Modules](../../aspose.slides.vba/vbaproject/modules) { get; } | 返回 VBA 项目中包含的所有模块的列表。 只读[`IVbaModuleCollection`](../ivbamodulecollection). |
+| [Name](../../aspose.slides.vba/vbaproject/name) { get; } | 返回 VBA 项目的名称。 只读String. |
+| [References](../../aspose.slides.vba/vbaproject/references) { get; } | 返回 VBA 项目中包含的所有引用的列表。 只读[`IVbaReferenceCollection`](../ivbareferencecollection). |
 
 ## 方法
 

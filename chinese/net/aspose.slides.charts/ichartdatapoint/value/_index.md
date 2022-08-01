@@ -1,14 +1,14 @@
 ---
 title: Value
 second_title: Aspose.Slides for .NET API 参考
-description: 返回图表数据点的值 只读IDoubleChartValueaspose.slides.charts/idoublechartvalue
+description: 返回图表数据点的值 只读IDoubleChartValueaspose.slides.charts/idoublechartvalue.
 type: docs
 weight: 150
 url: /zh/net/aspose.slides.charts/ichartdatapoint/value/
 ---
 ## IChartDataPoint.Value property
 
-返回图表数据点的值。 只读[`IDoubleChartValue`](../../idoublechartvalue)。
+返回图表数据点的值。 只读[`IDoubleChartValue`](../../idoublechartvalue).
 
 ```csharp
 public IDoubleChartValue Value { get; }

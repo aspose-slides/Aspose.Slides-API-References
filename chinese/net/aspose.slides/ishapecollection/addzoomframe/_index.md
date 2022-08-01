@@ -16,15 +16,15 @@ public IZoomFrame AddZoomFrame(float x, float y, float width, float height, ISli
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| x | Single | 新缩放的X坐标框架Single。 |
-| y | Single | 新缩放框的 Y 坐标Single。 |
-| width | Single | 新缩放框的宽度Single。 |
-| height | Single | 新缩放框的高度Single。 |
-| slide | ISlide | Zoom frame[`ISlide`](../../islide)引用的幻灯片对象。 |
+| x | Single | 新缩放框的 X 坐标Single. |
+| y | Single | 新缩放框的 Y 坐标Single. |
+| width | Single | 新缩放框的宽度Single. |
+| height | Single | 新缩放框的高度Single. |
+| slide | ISlide | 缩放框架引用的幻灯片对象[`ISlide`](../../islide). |
 
 ### 返回值
 
-创建缩放对象[`IZoomFrame`](../../izoomframe)。
+创建缩放对象[`IZoomFrame`](../../izoomframe).
 
 ### 例外
 
@@ -34,7 +34,7 @@ public IZoomFrame AddZoomFrame(float x, float y, float width, float height, ISli
 
 ### 例子
 
-此示例演示将 Zoom 对象添加到集合的末尾 （假设“Presentation.pptx”演示文稿中至少有两张幻灯片）:
+这个例子演示了在集合的末尾添加一个缩放对象 （假设“Presentation.pptx”演示文稿中至少有两张幻灯片）：
 
 ```csharp
 [C#]
@@ -65,16 +65,16 @@ public IZoomFrame AddZoomFrame(float x, float y, float width, float height, ISli
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| x | Single | 新缩放的X坐标框架Single。 |
-| y | Single | 新缩放框的 Y 坐标Single。 |
-| width | Single | 新缩放框的宽度Single。 |
-| height | Single | 新缩放框的高度Single。 |
-| slide | ISlide | Zoom frame[`ISlide`](../../islide)引用的幻灯片对象。 |
+| x | Single | 新缩放框的 X 坐标Single. |
+| y | Single | 新缩放框的 Y 坐标Single. |
+| width | Single | 新缩放框的宽度Single. |
+| height | Single | 新缩放框的高度Single. |
+| slide | ISlide | 缩放框架引用的幻灯片对象[`ISlide`](../../islide). |
 | image | IPPImage | 引用幻灯片的图像[`IPPImage`](../../ippimage) |
 
 ### 返回值
 
-创建缩放对象[`IZoomFrame`](../../izoomframe)。
+创建缩放对象[`IZoomFrame`](../../izoomframe).
 
 ### 例外
 
@@ -84,7 +84,7 @@ public IZoomFrame AddZoomFrame(float x, float y, float width, float height, ISli
 
 ### 例子
 
-此示例演示将 Zoom 对象添加到集合的末尾 （假设“Presentation.pptx”演示文稿中至少有两张幻灯片）:
+这个例子演示了在集合的末尾添加一个缩放对象 （假设“Presentation.pptx”演示文稿中至少有两张幻灯片）：
 
 ```csharp
 [C#]

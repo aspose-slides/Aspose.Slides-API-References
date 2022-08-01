@@ -1,14 +1,14 @@
 ---
 title: ShowSeriesName
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置一个布尔值以指示图表上数据标签的系列名称显示行为 True 显示系列名称虚假隐藏 读/写Boolean
+description: 返回或设置一个布尔值以指示图表上数据标签的系列名称显示行为 True 显示系列名称假隐藏 读/写Boolean.
 type: docs
 weight: 140
 url: /zh/net/aspose.slides.charts/idatalabelformat/showseriesname/
 ---
 ## IDataLabelFormat.ShowSeriesName property
 
-返回或设置一个布尔值以指示图表上数据标签的系列名称显示行为。 True 显示系列名称。虚假隐藏。 读/写Boolean。
+返回或设置一个布尔值以指示图表上数据标签的系列名称显示行为。 True 显示系列名称。假隐藏。 读/写Boolean.
 
 ```csharp
 public bool ShowSeriesName { get; set; }
@@ -16,7 +16,7 @@ public bool ShowSeriesName { get; set; }
 
 ### 评论
 
-如果此 DataLabelFormat 对象的父对象是数据标签的 DataLabelCollection 集合，则此 属性获取或设置 DataLabelCollection 集合中新数据 标签的 ShowSeriesName 属性的默认值。 将此属性设置为 value 还将此值设置为 ShowSeriesName 属性 用于 DataLabelCollection 集合中的所有数据标签 （即“DataLabels.DefaultDataLabelFormat.ShowSeriesName = val;" 导致 所有 DataLabels[i].ShowSeriesName 等于 val)。
+如果此 DataLabelFormat 对象的父对象是数据标签的 DataLabelCollection 集合，则 this 属性获取或设置 DataLabelCollection 集合中新数据 标签的 ShowSeriesName 属性的默认值。 使用值设置此属性也会将此值设置为DataLabelCollection 集合中所有数据标签的 ShowSeriesName 属性 （即“DataLabels.DefaultDataLabelFormat.ShowSeriesName = val;”导致 所有 DataLabels[i].ShowSeriesName 等于 val）。
 
 ### 也可以看看
 

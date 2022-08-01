@@ -18,10 +18,10 @@ public sealed class AdjustValueCollection : DomObject<GeometryShape>, IAdjustVal
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Count](../../aspose.slides/adjustvaluecollection/count) { get; } | 返回调整数。 只读Int32。 |
-| [IsSynchronized](../../aspose.slides/adjustvaluecollection/issynchronized) { get; } | 返回一个值，指示对集合的访问是否同步（线程安全）。 只读Boolean。 |
-| [Item](../../aspose.slides/adjustvaluecollection/item) { get; } | 按索引返回调整。 |
-| [SyncRoot](../../aspose.slides/adjustvaluecollection/syncroot) { get; } | 返回同步根。 只读Object。 |
+| [Count](../../aspose.slides/adjustvaluecollection/count) { get; } | 返回调整数。 只读Int32. |
+| [IsSynchronized](../../aspose.slides/adjustvaluecollection/issynchronized) { get; } | 返回一个值，指示对集合的访问是否同步（线程安全）。 只读Boolean. |
+| [Item](../../aspose.slides/adjustvaluecollection/item) { get; } | 按索引返回调整值。 |
+| [SyncRoot](../../aspose.slides/adjustvaluecollection/syncroot) { get; } | 返回同步根。 只读Object. |
 
 ## 方法
 

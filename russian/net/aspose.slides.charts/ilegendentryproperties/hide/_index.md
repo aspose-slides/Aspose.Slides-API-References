@@ -1,14 +1,14 @@
 ---
 title: Hide
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или устанавливает флаг скрытия записи легенды. Чтение/записьBoolean.
+description: Возвращает или устанавливает флаг скрытия записи легенды. Чтение/записьBoolean .
 type: docs
 weight: 20
 url: /ru/net/aspose.slides.charts/ilegendentryproperties/hide/
 ---
 ## ILegendEntryProperties.Hide property
 
-Возвращает или устанавливает флаг скрытия записи легенды. Чтение/записьBoolean.
+Возвращает или устанавливает флаг скрытия записи легенды. Чтение/записьBoolean .
 
 ```csharp
 public bool Hide { get; set; }

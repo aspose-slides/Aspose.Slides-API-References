@@ -16,7 +16,7 @@ public IMathLimit SetLowerLimit(IMathElement limit)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| limit | IMathElement | limit |
+| limit | IMathElement | 限制 |
 
 ### 返回值
 
@@ -24,7 +24,7 @@ public IMathLimit SetLowerLimit(IMathElement limit)
 
 ### 例子
 
-示例
+示例：
 
 ```csharp
 [C#]
@@ -52,7 +52,7 @@ public IMathLimit SetLowerLimit(string limit)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| limit | String | limit |
+| limit | String | 限制 |
 
 ### 返回值
 
@@ -60,7 +60,7 @@ public IMathLimit SetLowerLimit(string limit)
 
 ### 例子
 
-示例
+示例：
 
 ```csharp
 [C#]

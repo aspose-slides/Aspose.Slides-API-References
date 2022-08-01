@@ -1,14 +1,14 @@
 ---
 title: Time
 second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет значение времени. Чтение/записьSingle.
+description: Представляет значение времени. Чтение/записьSingle .
 type: docs
 weight: 30
 url: /ru/net/aspose.slides.animation/point/time/
 ---
 ## Point.Time property
 
-Представляет значение времени. Чтение/записьSingle.
+Представляет значение времени. Чтение/записьSingle .
 
 ```csharp
 public float Time { get; set; }

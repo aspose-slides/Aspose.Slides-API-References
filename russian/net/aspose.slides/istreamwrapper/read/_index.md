@@ -18,7 +18,7 @@ public void Read(byte[] buffer, int offset, int count)
 | --- | --- | --- |
 | buffer | Byte[] | Последовательность байтовByte[] |
 | offset | Int32 | Позиция начала чтенияInt32 |
-| count | Int32 | Количество байтов для чтенияInt32 |
+| count | Int32 | Считать байты для чтенияInt32 |
 
 ### Смотрите также
 

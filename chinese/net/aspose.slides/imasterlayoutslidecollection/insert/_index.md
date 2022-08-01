@@ -17,8 +17,8 @@ public ILayoutSlide Insert(int index, SlideLayoutType layoutType, string layoutN
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | index | Int32 | 新幻灯片的索引。 |
-| layoutType | SlideLayoutType | 新布局的布局类型。 支持的布局类型:Title、TitleOnly、Blank、TitleAndObject、VerticalText、VerticalTitleAndText、TwoObjects、SectionHeader、TwoTextAndTwoObjects、TitleObjectAndCaption、PictureAndCaption、Custom。 现在不支持其他布局类型:Text、TwoColumnText、Table、TextAndChart、ChartAndText、Diagram、Chart、TextAndClipArt、ClipArtAndText、TextAndObject、ObjectAndText、Object、TextAndMedia、MediaAndText、ObjectOverText、TextOverObject、TextAndTwoObjects、TwoObjectsAndText , TwoObjectsOverText, FourObjects, ClipArtAndVerticalText, VerticalTitleAndTextOverChart, ObjectAndTwoObject, TwoObjectsAndObject。 |
-| layoutName | String | 新布局的名称。如果传递的名称已在使用中，则会抛出 ArgumentException。 如果传递了 null 参数，则根据传递的布局类型自动生成名称 （例如“Title Slide”或“1_Title Slide”、“2_..”等。 ）。 |
+| layoutType | SlideLayoutType | 新布局的布局类型。 支持的布局类型：Title、TitleOnly、Blank、TitleAndObject、VerticalText、VerticalTitleAndText、TwoObjects、SectionHeader、TwoTextAndTwoObjects、TitleObjectAndCaption、PictureAndCaption、Custom。 现在不支持其他布局类型：Text、TwoColumnText、表，TextAndChart，ChartAndText，图表，TextAndClipArt，ClipArtAndText，TextAndObject，ObjectAndText，对象，TextAndMedia，MediaAndText，ObjectOverText，TextOverObject，TextAndTwoObjects，TwoObjectsAndText，TwoObjectsOverText，FourObjects，ClipArtAndVerticalText，VerticalTitleAndTextOverChart，ObjectAndTwoObject，TwoObjectsAndObject. |
+| layoutName | String | 新布局的名称。如果传递的名称已在使用中，则将抛出 ArgumentException。 如果传递了空参数，则根据传递的布局类型 自动生成名称（例如“Title Slide”或“1_Title Slide”、“2_..”等.). |
 
 ### 返回值
 
@@ -28,12 +28,12 @@ public ILayoutSlide Insert(int index, SlideLayoutType layoutType, string layoutN
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| NotImplementedException | 如果参数值不受支持，则抛出*layoutType*通过了。现在不支持的布局类型:Text、TwoColumnText、Table、TextAndChart、ChartAndText、Diagram、Chart、TextAndClipArt、ClipArtAndText、TextAndObject、ObjectAndText、Object、TextAndMedia、MediaAndText、ObjectOverText、TextOverObject、TextAndTwoObjects、TwoObjectsAndText、TwoObjectsOverText、FourObjects、ClipArtAndVerticalText、 VerticalTitleAndTextOverChart、ObjectAndTwoObject、TwoObjectsAndObject。 |
-| ArgumentException | 如果布局名称值为*layoutName*则抛出已在 此布局集合中使用。 |
+| NotImplementedException | 如果参数值不受支持则抛出*layoutType*已通过。现在不支持的布局类型：Text、TwoColumnText、Table、TextAndChart、ChartAndText、Diagram、Chart、TextAndClipArt、ClipArtAndText、TextAndObject、ObjectAndText、Object、TextAndMedia、MediaAndText、ObjectOverText、TextOverObject、TextAndTwoObjects、TwoObjectsAndText、TwoObjectsOverText、FourObjects、ClipArtAndVerticalText、 VerticalTitleAndTextOverChart、ObjectAndTwoObject、TwoObjectsAndObject. |
+| ArgumentException | 如果布局名称值抛出*layoutName*已在 此布局集合中使用。 |
 
 ### 评论
 
-值 SlideLayoutType.Custom of*layoutType*:::的插入布局47:::不包含占位符和形状。
+值 SlideLayoutType.Custom 的插入布局*layoutType* 不包含占位符和形状。
 
 ### 也可以看看
 

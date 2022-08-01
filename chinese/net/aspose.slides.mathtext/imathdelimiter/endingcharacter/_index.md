@@ -1,14 +1,14 @@
 ---
 title: EndingCharacter
 second_title: Aspose.Slides for .NET API 参考
-description: Delimiter Ending Character 指定结束或关闭分隔符 数学定界符是括起来的字符例如圆括号方括号和花括号 默认值
+description: Delimiter Ending Character 指定结束或结束分隔符 数学分隔符是括起来的字符例如圆括号方括号和大括号 默认值
 type: docs
 weight: 50
 url: /zh/net/aspose.slides.mathtext/imathdelimiter/endingcharacter/
 ---
 ## IMathDelimiter.EndingCharacter property
 
-Delimiter Ending Character 指定结束或关闭分隔符。 数学定界符是括起来的字符，例如圆括号、方括号和花括号。 默认值:')'。
+Delimiter Ending Character 指定结束或结束分隔符。 数学分隔符是括起来的字符，例如圆括号、方括号和大括号。 默认值：')'。
 
 ```csharp
 public char EndingCharacter { get; set; }
@@ -16,7 +16,7 @@ public char EndingCharacter { get; set; }
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]

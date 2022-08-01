@@ -1,14 +1,14 @@
 ---
 title: GradientFormat
 second_title: Aspose.Slides for .NET API 参考
-description: 返回渐变填充格式 只读IGradientFormataspose.slides/igradientformat
+description: 返回渐变填充格式 只读IGradientFormataspose.slides/igradientformat.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides/linefillformat/gradientformat/
 ---
 ## LineFillFormat.GradientFormat property
 
-返回渐变填充格式。 只读[`IGradientFormat`](../../igradientformat)。
+返回渐变填充格式。 只读[`IGradientFormat`](../../igradientformat).
 
 ```csharp
 public IGradientFormat GradientFormat { get; }

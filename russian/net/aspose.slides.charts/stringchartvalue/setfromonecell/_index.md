@@ -16,7 +16,7 @@ public void SetFromOneCell(IChartDataCell cell)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| ячейка | IChartDataCell | Ячейка. |
+| cell | IChartDataCell | Клетка. |
 
 ### Смотрите также
 

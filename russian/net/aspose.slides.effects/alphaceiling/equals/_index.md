@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет равен ли указанныйAlphaCeilingaspose.slides.effects/alphaceilingтекущемуАльфаПотолок.
+description: Определяет является ли указанныйAlphaCeilingaspose.slides.effects/alphaceiling равен текущемуAlphaCeilingaspose.slides.effects/alphaceiling .
 type: docs
 weight: 10
 url: /ru/net/aspose.slides.effects/alphaceiling/equals/
 ---
 ## AlphaCeiling.Equals method
 
-Определяет, равен ли указанный[`AlphaCeiling`](../../alphaceiling)текущемуАльфаПотолок.
+Определяет, является ли указанный[`AlphaCeiling`](../../alphaceiling) равен текущему[`AlphaCeiling`](../../alphaceiling) .
 
 ```csharp
 public override bool Equals(object obj)
@@ -16,7 +16,7 @@ public override bool Equals(object obj)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| obj | Object | [`AlphaCeiling`](../../alphaceiling)для сравнения. |
+| obj | Object | [`AlphaCeiling`](../../alphaceiling) сравнивать. |
 
 ### Возвращаемое значение
 

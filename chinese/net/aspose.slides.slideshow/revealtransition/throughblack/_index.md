@@ -1,14 +1,14 @@
 ---
 title: ThroughBlack
 second_title: Aspose.Slides for .NET API 参考
-description: 指定过渡是否淡入黑色 读/写Boolean
+description: 指定过渡是否淡入黑色 读/写Boolean.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides.slideshow/revealtransition/throughblack/
 ---
 ## RevealTransition.ThroughBlack property
 
-指定过渡是否淡入黑色。 读/写Boolean。
+指定过渡是否淡入黑色。 读/写Boolean.
 
 ```csharp
 public bool ThroughBlack { get; set; }

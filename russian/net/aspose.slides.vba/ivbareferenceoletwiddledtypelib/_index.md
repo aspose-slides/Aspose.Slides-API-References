@@ -18,7 +18,7 @@ public interface IVbaReferenceOleTwiddledTypeLib : IVbaReference
 
 | Имя | Описание |
 | --- | --- |
-| [AsIVbaReference](../../aspose.slides.vba/ivbareferenceoletwiddledtypelib/asivbareference) { get; } | Возвращает интерфейс IVbaReference. Только для чтения[`IVbaReference`](../ivbareference). |
+| [AsIVbaReference](../../aspose.slides.vba/ivbareferenceoletwiddledtypelib/asivbareference) { get; } | Возвращает интерфейс IVbaReference. Только для чтения[`IVbaReference`](../ivbareference) . |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: RotationLocked
 second_title: Aspose.Slides for .NET API 参考
-description: 决定是否禁止改变这个形状的旋转角度 读/写Boolean
+description: 决定是否禁止改变这个形状的旋转角度 读/写Boolean.
 type: docs
 weight: 50
 url: /zh/net/aspose.slides/igroupshapelock/rotationlocked/
 ---
 ## IGroupShapeLock.RotationLocked property
 
-决定是否禁止改变这个形状的旋转角度。 读/写Boolean。
+决定是否禁止改变这个形状的旋转角度。 读/写Boolean.
 
 ```csharp
 public bool RotationLocked { get; set; }

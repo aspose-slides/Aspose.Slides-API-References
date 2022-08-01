@@ -1,14 +1,14 @@
 ---
 title: Frame
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или задает свойства фрейма фигуры. Чтение/записьIShapeFrameaspose.slides/ishapeframe.
+description: Возвращает или задает свойства фрейма формы. Чтение/записьIShapeFrameaspose.slides/ishapeframe .
 type: docs
 weight: 80
 url: /ru/net/aspose.slides/shape/frame/
 ---
 ## Shape.Frame property
 
-Возвращает или задает свойства фрейма фигуры. Чтение/запись[`IShapeFrame`](../../ishapeframe).
+Возвращает или задает свойства фрейма формы. Чтение/запись[`IShapeFrame`](../../ishapeframe) .
 
 ```csharp
 public IShapeFrame Frame { get; set; }
@@ -16,7 +16,7 @@ public IShapeFrame Frame { get; set; }
 
 ### Примечания
 
-Значение каждого свойства возвращаемого экземпляра IShapeFrame не равно undefined ( не является NaN или NotDefined). Значение каждого свойства назначенного экземпляра IShapeFrame не должно быть неопределенным (не должно быть NaN или NotDefined). Вы можете установить неопределенные значения для свойств экземпляра RawFrame.
+Значение каждого свойства возвращенного экземпляра IShapeFrame не равно undefined (не является NaN или NotDefined). Значение каждого свойства назначенного экземпляра IShapeFrame не должно быть неопределенным (должно быть не NaN или NotDefined). Вы можете установить неопределенные значения для свойств экземпляра RawFrame.
 
 ### Смотрите также
 

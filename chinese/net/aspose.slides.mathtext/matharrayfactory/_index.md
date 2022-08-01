@@ -1,14 +1,14 @@
 ---
 title: MathArrayFactory
 second_title: Aspose.Slides for .NET API 参考
-description: 允许创建数学数组
+description: 允许创建一个数学数组
 type: docs
 weight: 7840
 url: /zh/net/aspose.slides.mathtext/matharrayfactory/
 ---
 ## MathArrayFactory class
 
-允许创建数学数组
+允许创建一个数学数组
 
 ```csharp
 public class MathArrayFactory : IMathArrayFactory
@@ -24,12 +24,12 @@ public class MathArrayFactory : IMathArrayFactory
 
 | 姓名 | 描述 |
 | --- | --- |
-| [CreateMathArray](../../aspose.slides.mathtext/matharrayfactory/creatematharray#creatematharray)(IMathElement) | 创建一个数学数组并将指定元素放入其中 |
+| [CreateMathArray](../../aspose.slides.mathtext/matharrayfactory/creatematharray#creatematharray)(IMathElement) | 创建一个数学数组并将指定的元素放入其中 |
 | [CreateMathArray](../../aspose.slides.mathtext/matharrayfactory/creatematharray#creatematharray_1)(IMathElementCollection) | 创建一个数学数组并将指定的元素放入其中 |
 
 ### 评论
 
-用于 COM 比较
+用于 COM 可比性
 
 ### 也可以看看
 

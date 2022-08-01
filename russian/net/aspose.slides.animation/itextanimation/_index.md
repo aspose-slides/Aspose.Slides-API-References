@@ -1,14 +1,14 @@
 ---
 title: ITextAnimation
 second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет текстовую анимацию.
+description: Представлять текстовую анимацию.
 type: docs
 weight: 520
 url: /ru/net/aspose.slides.animation/itextanimation/
 ---
 ## ITextAnimation interface
 
-Представляет текстовую анимацию.
+Представлять текстовую анимацию.
 
 ```csharp
 public interface ITextAnimation
@@ -18,14 +18,14 @@ public interface ITextAnimation
 
 | Имя | Описание |
 | --- | --- |
-| [BuildType](../../aspose.slides.animation/itextanimation/buildtype) { get; set; } | Список типов сборки (для эксп. п.1,2,3, Все сразу) текстовой анимации. Чтение/запись[`BuildType`](./buildtype). |
-| [EffectAnimateBackgroundShape](../../aspose.slides.animation/itextanimation/effectanimatebackgroundshape) { get; set; } | Связанный эффект формы с группой или нет (null) Чтение/запись[`IEffect`](../ieffect). |
+| [BuildType](../../aspose.slides.animation/itextanimation/buildtype) { get; set; } | Список типов сборки (для упр. Пункт 1,2,3, Все сразу) текстовой анимации. Чтение/запись[`BuildType`](./buildtype) . |
+| [EffectAnimateBackgroundShape](../../aspose.slides.animation/itextanimation/effectanimatebackgroundshape) { get; set; } | Эффект связанной формы с группой или нет (null) Чтение/запись[`IEffect`](../ieffect) . |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [AddEffect](../../aspose.slides.animation/itextanimation/addeffect)(EffectType, EffectSubtype, EffectTriggerType) | Добавить новый эффект в конец текущей последовательности в конец групповой текстовой анимации. Действителен только в том случае, если количество текстовых абзацев равно или больше количества подсчетов этой группы! |
+| [AddEffect](../../aspose.slides.animation/itextanimation/addeffect)(EffectType, EffectSubtype, EffectTriggerType) | Добавить новый эффект в конец текущей последовательности до конца групповых текстовых анимаций. Действителен, только если количество текстовых абзацев равно или больше количества эффектов этой группы! |
 
 ### Смотрите также
 

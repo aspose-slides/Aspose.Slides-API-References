@@ -1,14 +1,14 @@
 ---
 title: SkewMatrixXtoX
 second_title: Aspose.Slides for .NET API 参考
-description: 表示skew.matrix.xtox属性
+description: 表示skew.matrix.xtox 属性
 type: docs
 weight: 790
 url: /zh/net/aspose.slides.animation/behaviorproperty/skewmatrixxtox/
 ---
 ## BehaviorProperty.SkewMatrixXtoX property
 
-表示'skew.matrix.xtox'属性
+表示'skew.matrix.xtox' 属性
 
 ```csharp
 public static BehaviorProperty SkewMatrixXtoX { get; }

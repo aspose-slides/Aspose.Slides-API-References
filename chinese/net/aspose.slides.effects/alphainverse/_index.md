@@ -1,14 +1,14 @@
 ---
 title: AlphaInverse
 second_title: Aspose.Slides for .NET API 参考
-description: 表示 Alpha Inverse 效果 Alpha不透明度值通过从 100 中减去来反转
+description: 表示 Alpha 反转效果 Alpha不透明度值通过从 100 中减去来反转
 type: docs
 weight: 2700
 url: /zh/net/aspose.slides.effects/alphainverse/
 ---
 ## AlphaInverse class
 
-表示 Alpha Inverse 效果。 Alpha（不透明度）值通过从 100% 中减去来反转。
+表示 Alpha 反转效果。 Alpha（不透明度）值通过从 100% 中减去来反转。
 
 ```csharp
 public sealed class AlphaInverse : ImageTransformOperation, IAlphaInverse
@@ -18,13 +18,13 @@ public sealed class AlphaInverse : ImageTransformOperation, IAlphaInverse
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允许获取基本 IPresentationComponent 接口。 只读[`IPresentationComponent`](../../aspose.slides/ipresentationcomponent)。 |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允许获取基本 IPresentationComponent 接口。 只读[`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/alphainverse/equals)(object) | 确定指定的[`AlphaInverse`](../alphainverse)是否等于当前的AlphaInverse。 |
+| override [Equals](../../aspose.slides.effects/alphainverse/equals)(object) | 判断是否指定[`AlphaInverse`](../alphainverse)等于当前[`AlphaInverse`](../alphainverse). |
 | [GetEffective](../../aspose.slides.effects/alphainverse/geteffective)() | 获取应用了继承的有效 Alpha Inverse 效果数据。 |
 | override [GetHashCode](../../aspose.slides.effects/alphainverse/gethashcode)() | 用作特定类型的哈希函数。 |
 

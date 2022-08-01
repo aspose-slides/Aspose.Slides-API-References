@@ -1,14 +1,14 @@
 ---
 title: LinkPathLong
 second_title: Aspose.Slides for .NET API 参考
-description: 返回集合链接图像的 URL 读/写String
+description: 返回集合链接图像的 URL 读/写String.
 type: docs
-weight: 30
+weight: 40
 url: /zh/net/aspose.slides/picture/linkpathlong/
 ---
 ## Picture.LinkPathLong property
 
-返回集合链接图像的 URL。 读/写String。
+返回集合链接图像的 URL。 读/写String.
 
 ```csharp
 public string LinkPathLong { get; set; }

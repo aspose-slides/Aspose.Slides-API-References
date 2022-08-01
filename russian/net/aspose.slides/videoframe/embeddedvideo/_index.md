@@ -1,14 +1,14 @@
 ---
 title: EmbeddedVideo
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или задает встроенный видеообъект. Чтение/записьIVideoaspose.slides/ivideo.
+description: Возвращает или задает встроенный видеообъект. Чтение/записьIVideoaspose.slides/ivideo .
 type: docs
 weight: 10
 url: /ru/net/aspose.slides/videoframe/embeddedvideo/
 ---
 ## VideoFrame.EmbeddedVideo property
 
-Возвращает или задает встроенный видеообъект. Чтение/запись[`IVideo`](../../ivideo).
+Возвращает или задает встроенный видеообъект. Чтение/запись[`IVideo`](../../ivideo) .
 
 ```csharp
 public IVideo EmbeddedVideo { get; set; }

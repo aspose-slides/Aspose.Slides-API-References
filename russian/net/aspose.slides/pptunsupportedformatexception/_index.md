@@ -19,7 +19,7 @@ public class PptUnsupportedFormatException : PptReadException
 | Имя | Описание |
 | --- | --- |
 | [PptUnsupportedFormatException](pptunsupportedformatexception#constructor)() | Конструктор по умолчанию. |
-| [PptUnsupportedFormatException](pptunsupportedformatexception#constructor_1)(string) | Конструктор, позволяющий добавить сообщение к этому исключению. |
+| [PptUnsupportedFormatException](pptunsupportedformatexception#constructor_1)(string) | Конструктор, позволяющий добавить сообщение в это исключение. |
 | [PptUnsupportedFormatException](pptunsupportedformatexception#constructor_2)(string, Exception) | Конструктор исключения, содержащего сообщение и встроенное исключение. |
 
 ### Смотрите также

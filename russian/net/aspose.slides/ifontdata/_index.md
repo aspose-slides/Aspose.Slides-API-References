@@ -18,7 +18,7 @@ public interface IFontData
 
 | Имя | Описание |
 | --- | --- |
-| [FontName](../../aspose.slides/ifontdata/fontname) { get; } | Возвращает имя шрифта. Только чтениеString. |
+| [FontName](../../aspose.slides/ifontdata/fontname) { get; } | Возвращает имя шрифта. Только для чтенияString . |
 
 ## Методы
 

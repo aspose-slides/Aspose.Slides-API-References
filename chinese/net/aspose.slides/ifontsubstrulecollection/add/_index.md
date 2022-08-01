@@ -1,14 +1,14 @@
 ---
 title: Add
 second_title: Aspose.Slides for .NET API 参考
-description: 将新的字体替换规则添加到集合
+description: 将新的字体替换规则添加到集合中
 type: docs
 weight: 20
 url: /zh/net/aspose.slides/ifontsubstrulecollection/add/
 ---
 ## IFontSubstRuleCollection.Add method
 
-将新的字体替换规则添加到集合
+将新的字体替换规则添加到集合中
 
 ```csharp
 public void Add(IFontSubstRule value)
@@ -16,7 +16,7 @@ public void Add(IFontSubstRule value)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | IFontSubstRule | Font替换规则[`IFontSubstRule`](../../ifontsubstrule) |
+| value | IFontSubstRule | 字体替换规则[`IFontSubstRule`](../../ifontsubstrule) |
 
 ### 也可以看看
 

@@ -50,7 +50,7 @@ public void Save(Stream stream, PPImageFormat imageFormat)
 
 ## Save(string, PPImageFormat) {#save_2}
 
-以指定格式将图像保存到指定文件。
+将图像以指定格式保存到指定文件中。
 
 ```csharp
 public void Save(string fileName, PPImageFormat imageFormat)

@@ -1,14 +1,14 @@
 ---
 title: SoftEdgeEffect
 second_title: Aspose.Slides for .NET API 参考
-description: 软边 只读ISoftEdgeEffectiveDataaspose.slides.effects/isoftedgeeffectivedata
+description: 软边缘 只读ISoftEdgeEffectiveDataaspose.slides.effects/isoftedgeeffectivedata.
 type: docs
 weight: 100
 url: /zh/net/aspose.slides/ieffectformateffectivedata/softedgeeffect/
 ---
 ## IEffectFormatEffectiveData.SoftEdgeEffect property
 
-软边。 只读[`ISoftEdgeEffectiveData`](../../../aspose.slides.effects/isoftedgeeffectivedata)。
+软边缘。 只读[`ISoftEdgeEffectiveData`](../../../aspose.slides.effects/isoftedgeeffectivedata).
 
 ```csharp
 public ISoftEdgeEffectiveData SoftEdgeEffect { get; }

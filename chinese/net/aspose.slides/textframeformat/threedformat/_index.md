@@ -1,14 +1,14 @@
 ---
 title: ThreeDFormat
 second_title: Aspose.Slides for .NET API 参考
-description: 返回表示文本的 3d 效果属性的 ThreeDFormat 对象 只读IThreeDFormataspose.slides/ithreedformat
+description: 返回表示文本的 3d 效果属性的 ThreeDFormat 对象 只读IThreeDFormataspose.slides/ithreedformat.
 type: docs
 weight: 140
 url: /zh/net/aspose.slides/textframeformat/threedformat/
 ---
 ## TextFrameFormat.ThreeDFormat property
 
-返回表示文本的 3d 效果属性的 ThreeDFormat 对象。 只读[`IThreeDFormat`](../../ithreedformat)。
+返回表示文本的 3d 效果属性的 ThreeDFormat 对象。 只读[`IThreeDFormat`](../../ithreedformat).
 
 ```csharp
 public IThreeDFormat ThreeDFormat { get; }
@@ -26,29 +26,29 @@ using (Presentation pres = new Presentation())
 
     textFrame.Text = "Aspose.Slide Test Text";
 
-     // 设置文本 transformation
+    // 设置文字变换
     textFrame.TextFrameFormat.Transform = TextShapeType.ArchUpPour;
 
-    // 设置 Extrusion
+    // 设置挤压
     textFrame.TextFrameFormat.ThreeDFormat.ExtrusionColor.Color = Color.Orange;
     textFrame.TextFrameFormat.ThreeDFormat.ExtrusionHeight = 6;
 
-     // 设置 Contour
+    // 设置轮廓
     textFrame.TextFrameFormat.ThreeDFormat.ContourColor.Color = Color.DarkRed;
     textFrame.TextFrameFormat.ThreeDFormat.ContourWidth = 1.5;
 
-     // 设置深度
+    // 设置深度
     textFrame.TextFrameFormat.ThreeDFormat.Depth = 3;
 
-     // 设置 Material
+    // 设置材质
     textFrame.TextFrameFormat.ThreeDFormat.Material = MaterialPresetType.Plastic;
 
-     // 设置 Lighting
+    // 设置光照
     textFrame.TextFrameFormat.ThreeDFormat.LightRig.Direction = LightingDirection.Top;
     textFrame.TextFrameFormat.ThreeDFormat.LightRig.LightType = LightRigPresetType.Balanced;
     textFrame.TextFrameFormat.ThreeDFormat.LightRig.SetRotation(0, 0, 40);
 
-     // 设置相机类型
+    // 设置相机类型
     textFrame.TextFrameFormat.ThreeDFormat.Camera.CameraType = CameraPresetType.PerspectiveContrastingRightFacing;
 }
 ```

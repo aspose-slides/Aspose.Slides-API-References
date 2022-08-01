@@ -1,14 +1,14 @@
 ---
 title: CenterText
 second_title: Справочник по API Aspose.Slides для .NET
-description: Если NullableBool.True то текст должен быть центрирован в поле по горизонтали. Чтение/записьNullableBoolaspose.slides/nullablebool.
+description: Если NullableBool.True то текст должен быть центрирован в поле по горизонтали. Чтение/записьNullableBoolaspose.slides/nullablebool .
 type: docs
 weight: 30
 url: /ru/net/aspose.slides.charts/icharttextblockformat/centertext/
 ---
 ## IChartTextBlockFormat.CenterText property
 
-Если NullableBool.True, то текст должен быть центрирован в поле по горизонтали. Чтение/запись[`NullableBool`](../../../aspose.slides/nullablebool).
+Если NullableBool.True, то текст должен быть центрирован в поле по горизонтали. Чтение/запись[`NullableBool`](../../../aspose.slides/nullablebool) .
 
 ```csharp
 public NullableBool CenterText { get; set; }

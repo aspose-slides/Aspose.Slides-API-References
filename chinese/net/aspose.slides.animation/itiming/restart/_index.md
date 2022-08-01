@@ -1,14 +1,14 @@
 ---
 title: Restart
 second_title: Aspose.Slides for .NET API 参考
-description: 指定效果是否在完成后重新启动 读/写EffectRestartTypeaspose.slides.animation/effectrestarttype
+description: 指定效果是否在完成后重新启动 读/写EffectRestartTypeaspose.slides.animation/effectrestarttype.
 type: docs
 weight: 70
 url: /zh/net/aspose.slides.animation/itiming/restart/
 ---
 ## ITiming.Restart property
 
-指定效果是否在完成后重新启动。 读/写[`EffectRestartType`](../../effectrestarttype)。
+指定效果是否在完成后重新启动。 读/写[`EffectRestartType`](../../effectrestarttype).
 
 ```csharp
 public EffectRestartType Restart { get; set; }

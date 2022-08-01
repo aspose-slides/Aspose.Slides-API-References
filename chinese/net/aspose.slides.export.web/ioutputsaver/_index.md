@@ -18,7 +18,7 @@ public interface IOutputSaver
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Save](../../aspose.slides.export.web/ioutputsaver/save)(string, IOutputFile) | 将输出文件保存到给定路径。 |
+| [Save](../../aspose.slides.export.web/ioutputsaver/save)(string, IOutputFile) | 将输出文件保存到给定的路径。 |
 
 ### 也可以看看
 

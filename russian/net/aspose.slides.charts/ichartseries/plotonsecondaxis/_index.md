@@ -1,14 +1,14 @@
 ---
 title: PlotOnSecondAxis
 second_title: Справочник по API Aspose.Slides для .NET
-description: Указывает нанесен ли этот ряд на вторую ось значений. Чтение/записьBoolean.
+description: Указывает нанесен ли этот ряд на вторую ось значений. Чтение/записьBoolean .
 type: docs
 weight: 330
 url: /ru/net/aspose.slides.charts/ichartseries/plotonsecondaxis/
 ---
 ## IChartSeries.PlotOnSecondAxis property
 
-Указывает, нанесен ли этот ряд на вторую ось значений. Чтение/записьBoolean.
+Указывает, нанесен ли этот ряд на вторую ось значений. Чтение/записьBoolean .
 
 ```csharp
 public bool PlotOnSecondAxis { get; set; }

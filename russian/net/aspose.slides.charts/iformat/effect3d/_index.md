@@ -1,14 +1,14 @@
 ---
 title: Effect3D
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает трехмерный формат диаграммы. Только для чтенияIThreeDFormataspose.slides/ithreedformat.
+description: Возвращает трехмерный формат диаграммы. Только для чтенияIThreeDFormataspose.slides/ithreedformat .
 type: docs
 weight: 20
 url: /ru/net/aspose.slides.charts/iformat/effect3d/
 ---
 ## IFormat.Effect3D property
 
-Возвращает трехмерный формат диаграммы. Только для чтения[`IThreeDFormat`](../../../aspose.slides/ithreedformat).
+Возвращает трехмерный формат диаграммы. Только для чтения[`IThreeDFormat`](../../../aspose.slides/ithreedformat) .
 
 ```csharp
 public IThreeDFormat Effect3D { get; }

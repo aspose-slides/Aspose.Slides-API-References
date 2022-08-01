@@ -18,7 +18,7 @@ public interface ISummaryZoomSection : ISectionZoomFrame
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsISectionZoomFrame](../../aspose.slides/isummaryzoomsection/asisectionzoomframe) { get; } | 返回 ISectionZoomFrame 接口。 |
+| [AsISectionZoomFrame](../../aspose.slides/isummaryzoomsection/asisectionzoomframe) { get; } | 返回ISectionZoomFrame 接口。 |
 | [Description](../../aspose.slides/isummaryzoomsection/description) { get; set; } | 返回摘要缩放部分对象的文本描述。 |
 | [Title](../../aspose.slides/isummaryzoomsection/title) { get; set; } | 返回摘要缩放部分对象的文本标题。 |
 

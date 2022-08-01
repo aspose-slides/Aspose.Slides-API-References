@@ -1,14 +1,14 @@
 ---
 title: ValidateChartLayout
 second_title: Справочник по API Aspose.Slides для .NET
-description: Вычисляет фактические значения элементов диаграммы. Фактические значения включают положение элементов которые реализуют интерфейс IActualLayout IActualLayout.ActualX IActualLayout.ActualY IActualLayout.ActualWidth IActualLayout.ActualHeight и фактические значения осей IAxis.ActualMaxValue IAxis.ActualMinValue IAxis.ActualMajorUnit IAxis.ActualMinorUnit IAxis.ActualMajorUnitScale IAxis.ActualMinorUnitScale
+description: Вычисляет фактические значения элементов диаграммы. Фактические значения включают положение элементов реализующих интерфейс IActualLayout IActualLayout.ActualX IActualLayout.ActualY IActualLayout.ActualWidth IActualLayout.ActualHeight и фактические значения осей IAxis.ActualMaxValue IAxis.ActualMinValue IAxis.ActualMajorUnit IAxis.Minort. IAxis.ActualMajorUnitScale IAxis.ActualMinorUnitScale
 type: docs
 weight: 240
 url: /ru/net/aspose.slides.charts/ichart/validatechartlayout/
 ---
 ## IChart.ValidateChartLayout method
 
-Вычисляет фактические значения элементов диаграммы. Фактические значения включают положение элементов, которые реализуют интерфейс IActualLayout (IActualLayout.ActualX, IActualLayout.ActualY, IActualLayout.ActualWidth, IActualLayout.ActualHeight) и фактические значения осей (IAxis.ActualMaxValue, IAxis.ActualMinValue, IAxis.ActualMajorUnit, IAxis.ActualMinorUnit, IAxis.ActualMajorUnitScale, IAxis.ActualMinorUnitScale)
+Вычисляет фактические значения элементов диаграммы. Фактические значения включают положение элементов, реализующих интерфейс IActualLayout (IActualLayout.ActualX, IActualLayout.ActualY, IActualLayout.ActualWidth, IActualLayout.ActualHeight) и фактические значения осей (IAxis.ActualMaxValue, IAxis.ActualMinValue, IAxis.ActualMajorUnit, IAxis.Minort. IAxis.ActualMajorUnitScale, IAxis.ActualMinorUnitScale)
 
 ```csharp
 public void ValidateChartLayout()

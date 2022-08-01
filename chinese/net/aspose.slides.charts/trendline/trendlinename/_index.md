@@ -1,14 +1,14 @@
 ---
 title: TrendlineName
 second_title: Aspose.Slides for .NET API 参考
-description: 获取或设置趋势线的名称 读/写String
+description: 获取或设置趋势线的名称 读/写String.
 type: docs
 weight: 130
 url: /zh/net/aspose.slides.charts/trendline/trendlinename/
 ---
 ## Trendline.TrendlineName property
 
-获取或设置趋势线的名称。 读/写String。
+获取或设置趋势线的名称。 读/写String.
 
 ```csharp
 public string TrendlineName { get; set; }

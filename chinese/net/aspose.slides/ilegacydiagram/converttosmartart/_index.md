@@ -1,14 +1,14 @@
 ---
 title: ConvertToSmartArt
 second_title: Aspose.Slides for .NET API 参考
-description: 将旧图转换为可编辑的 SmartArt 对象 创建的 SmartArt 对象添加到父组形状的相同位置
+description: 将旧图转换为可编辑的 SmartArt 对象 创建的 SmartArt 对象在同一位置添加到父组形状
 type: docs
 weight: 30
 url: /zh/net/aspose.slides/ilegacydiagram/converttosmartart/
 ---
 ## ILegacyDiagram.ConvertToSmartArt method
 
-将旧图转换为可编辑的 SmartArt 对象。 创建的 SmartArt 对象添加到父组形状的相同位置。
+将旧图转换为可编辑的 SmartArt 对象。 创建的 SmartArt 对象在同一位置添加到父组形状。
 
 ```csharp
 public ISmartArt ConvertToSmartArt()
@@ -16,7 +16,7 @@ public ISmartArt ConvertToSmartArt()
 
 ### 返回值
 
-已创建 SmartArt 对象。
+创建了 SmartArt 对象。
 
 ### 也可以看看
 

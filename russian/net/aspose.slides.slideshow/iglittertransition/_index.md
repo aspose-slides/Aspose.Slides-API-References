@@ -1,14 +1,14 @@
 ---
 title: IGlitterTransition
 second_title: Справочник по API Aspose.Slides для .NET
-description: Эффект перехода с блестками.
+description: Эффект перехода слайдов с блестками.
 type: docs
 weight: 9320
 url: /ru/net/aspose.slides.slideshow/iglittertransition/
 ---
 ## IGlitterTransition interface
 
-Эффект перехода с блестками.
+Эффект перехода слайдов с блестками.
 
 ```csharp
 public interface IGlitterTransition : ITransitionValueBase
@@ -18,9 +18,9 @@ public interface IGlitterTransition : ITransitionValueBase
 
 | Имя | Описание |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/iglittertransition/asitransitionvaluebase) { get; } | Позволяет получить базовый интерфейс ITransitionValueBase. Только для чтения[`ITransitionValueBase`](../itransitionvaluebase). |
-| [Direction](../../aspose.slides.slideshow/iglittertransition/direction) { get; set; } | Направление перехода. Чтение/запись[`TransitionSideDirectionType`](../transitionsidedirectiontype). |
-| [Pattern](../../aspose.slides.slideshow/iglittertransition/pattern) { get; set; } | Задает форму визуальных элементов, используемых во время перехода. Чтение/запись[`TransitionPattern`](../transitionpattern). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/iglittertransition/asitransitionvaluebase) { get; } | Позволяет получить базовый интерфейс ITransitionValueBase. Только для чтения[`ITransitionValueBase`](../itransitionvaluebase) . |
+| [Direction](../../aspose.slides.slideshow/iglittertransition/direction) { get; set; } | Направление перехода. Чтение/запись[`TransitionSideDirectionType`](../transitionsidedirectiontype) . |
+| [Pattern](../../aspose.slides.slideshow/iglittertransition/pattern) { get; set; } | Определяет форму визуальных элементов, используемых во время перехода. Чтение/запись[`TransitionPattern`](../transitionpattern) . |
 
 ### Смотрите также
 

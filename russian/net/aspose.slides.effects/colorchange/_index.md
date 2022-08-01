@@ -18,17 +18,17 @@ public class ColorChange : ImageTransformOperation, IColorChange
 
 | Имя | Описание |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Позволяет получить базовый интерфейс IPresentationComponent. Только для чтения[`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
-| [FromColor](../../aspose.slides.effects/colorchange/fromcolor) { get; } | Цвет, который будет заменен. Только для чтения[`IColorFormat`](../../aspose.slides/icolorformat). |
-| [ToColor](../../aspose.slides.effects/colorchange/tocolor) { get; } | Цвет, который заменит. Только для чтения[`IColorFormat`](../../aspose.slides/icolorformat). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Позволяет получить базовый интерфейс IPresentationComponent. Только для чтения[`IPresentationComponent`](../../aspose.slides/ipresentationcomponent) . |
+| [FromColor](../../aspose.slides.effects/colorchange/fromcolor) { get; } | Цвет, который будет заменен. Только для чтения[`IColorFormat`](../../aspose.slides/icolorformat) . |
+| [ToColor](../../aspose.slides.effects/colorchange/tocolor) { get; } | Цвет, который заменит. Только для чтения[`IColorFormat`](../../aspose.slides/icolorformat) . |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/colorchange/equals)(object) | Определяет, равен ли указанный[`ColorChange`](../colorchange)текущемуИзменениецвета. |
+| override [Equals](../../aspose.slides.effects/colorchange/equals)(object) | Определяет, является ли указанный[`ColorChange`](../colorchange) равен текущему[`ColorChange`](../colorchange) . |
 | [GetEffective](../../aspose.slides.effects/colorchange/geteffective)() | Получает данные об эффективном эффекте изменения цвета с применением наследования. |
-| override [GetHashCode](../../aspose.slides.effects/colorchange/gethashcode)() | Служит хэш-функцией для определенного типа. |
+| override [GetHashCode](../../aspose.slides.effects/colorchange/gethashcode)() | Служит хеш-функцией для определенного типа. |
 
 ### Смотрите также
 

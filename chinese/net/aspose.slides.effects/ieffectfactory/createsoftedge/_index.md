@@ -16,7 +16,7 @@ public ISoftEdge CreateSoftEdge()
 
 ### 返回值
 
-软边缘效果。
+软边效果。
 
 ### 也可以看看
 

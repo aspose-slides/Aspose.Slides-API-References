@@ -1,14 +1,14 @@
 ---
 title: Label
 second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет метку данных уровня точки данных. Применяется для серий Treemap и Sunburst. Только чтениеIDataLabelaspose.slides.charts/idatalabel.
+description: Представляет метку данных уровня точки данных. Применяется для типов Treemap и Sunburst sereis. Только для чтенияIDataLabelaspose.slides.charts/idatalabel .
 type: docs
 weight: 20
 url: /ru/net/aspose.slides.charts/ichartdatapointlevel/label/
 ---
 ## IChartDataPointLevel.Label property
 
-Представляет метку данных уровня точки данных. Применяется для серий Treemap и Sunburst. Только чтение[`IDataLabel`](../../idatalabel).
+Представляет метку данных уровня точки данных. Применяется для типов Treemap и Sunburst sereis. Только для чтения[`IDataLabel`](../../idatalabel) .
 
 ```csharp
 public IDataLabel Label { get; }

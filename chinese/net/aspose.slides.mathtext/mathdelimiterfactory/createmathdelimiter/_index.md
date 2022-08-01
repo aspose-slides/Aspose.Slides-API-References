@@ -1,14 +1,14 @@
 ---
 title: CreateMathDelimiter
 second_title: Aspose.Slides for .NET API 参考
-description: 通过应用于元素
+description: 通过应用于元素创建数学分隔符
 type: docs
 weight: 20
 url: /zh/net/aspose.slides.mathtext/mathdelimiterfactory/createmathdelimiter/
 ---
 ## CreateMathDelimiter(IMathElement) {#createmathdelimiter}
 
-通过应用于元素
+通过应用于元素创建数学分隔符
 
 ```csharp
 public IMathDelimiter CreateMathDelimiter(IMathElement element)
@@ -16,11 +16,11 @@ public IMathDelimiter CreateMathDelimiter(IMathElement element)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| element | IMathElement | math 创建数学分隔符要应用分隔符的元素 |
+| element | IMathElement | 应用分隔符的数学元素 |
 
 ### 返回值
 
-新数学分隔符
+新的数学分隔符
 
 ### 也可以看看
 
@@ -34,7 +34,7 @@ public IMathDelimiter CreateMathDelimiter(IMathElement element)
 
 ## CreateMathDelimiter(IMathElementCollection) {#createmathdelimiter_1}
 
-通过应用于元素
+通过应用于元素创建数学分隔符
 
 ```csharp
 public IMathDelimiter CreateMathDelimiter(IMathElementCollection mathElements)
@@ -42,11 +42,11 @@ public IMathDelimiter CreateMathDelimiter(IMathElementCollection mathElements)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| mathElements | IMathElementCollection | math 创建数学分隔符要应用分隔符的元素 |
+| mathElements | IMathElementCollection | 应用分隔符的数学元素 |
 
 ### 返回值
 
-新数学分隔符
+新的数学分隔符
 
 ### 也可以看看
 

@@ -18,7 +18,7 @@ public interface IKnownIssueWarningInfo : IWarningInfo
 
 | Имя | Описание |
 | --- | --- |
-| [AsIWarningInfo](../../aspose.slides.warnings/iknownissuewarninginfo/asiwarninginfo) { get; } | Возвращает интерфейс IWarningInfo. Только для чтения[`IWarningInfo`](../iwarninginfo). |
+| [AsIWarningInfo](../../aspose.slides.warnings/iknownissuewarninginfo/asiwarninginfo) { get; } | Возвращает интерфейс IWarningInfo. Только для чтения[`IWarningInfo`](../iwarninginfo) . |
 
 ### Смотрите также
 

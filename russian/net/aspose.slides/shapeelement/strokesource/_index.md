@@ -1,14 +1,14 @@
 ---
 title: StrokeSource
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает информацию о том как обводить элемент. Только для чтенияShapeElementStrokeSourceaspose.slides/shapeelementstrokesource.
+description: Возвращает информацию о том как обвести элемент. Только для чтенияShapeElementStrokeSourceaspose.slides/shapeelementstrokesource .
 type: docs
 weight: 40
 url: /ru/net/aspose.slides/shapeelement/strokesource/
 ---
 ## ShapeElement.StrokeSource property
 
-Возвращает информацию о том, как обводить элемент. Только для чтения[`ShapeElementStrokeSource`](../../shapeelementstrokesource).
+Возвращает информацию о том, как обвести элемент. Только для чтения[`ShapeElementStrokeSource`](../../shapeelementstrokesource) .
 
 ```csharp
 public ShapeElementStrokeSource StrokeSource { get; }

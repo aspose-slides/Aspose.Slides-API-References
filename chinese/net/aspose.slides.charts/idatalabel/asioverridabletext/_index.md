@@ -1,14 +1,14 @@
 ---
 title: AsIOverridableText
 second_title: Aspose.Slides for .NET API 参考
-description: 返回 IOverridableText 接口 只读IOverridableTextaspose.slides.charts/ioverridabletext
+description: 返回 IOverridableText 接口 只读IOverridableTextaspose.slides.charts/ioverridabletext.
 type: docs
 weight: 30
 url: /zh/net/aspose.slides.charts/idatalabel/asioverridabletext/
 ---
 ## IDataLabel.AsIOverridableText property
 
-返回 IOverridableText 接口。 只读[`IOverridableText`](../../ioverridabletext)。
+返回 IOverridableText 接口。 只读[`IOverridableText`](../../ioverridabletext).
 
 ```csharp
 public IOverridableText AsIOverridableText { get; }

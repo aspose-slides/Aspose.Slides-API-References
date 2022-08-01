@@ -24,10 +24,10 @@ public class BlobManagementOptions : IBlobManagementOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [IsTemporaryFilesAllowed](../../aspose.slides/blobmanagementoptions/istemporaryfilesallowed) { get; set; } | 设置不允许使用临时文件以优化在演示生命周期内处理 大量数据时的内存消耗。如果为 false，则可以抛出 OutOfMemoryException。 |
-| [MaxBlobsBytesInMemory](../../aspose.slides/blobmanagementoptions/maxblobsbytesinmemory) { get; set; } | 一个阈值，指示 BLOB 可以在内存中占用的最大字节数。在达到 这个阈值后，所有新的 BLOB 都会被放到临时文件中，不会影响 进程的总内存消耗。 [`IsTemporaryFilesAllowed`](./istemporaryfilesallowed)应设置为 true 才能使用此属性。 |
+| [IsTemporaryFilesAllowed](../../aspose.slides/blobmanagementoptions/istemporaryfilesallowed) { get; set; } | 设置不允许使用临时文件，以优化在演示文稿生命周期内处理 大量数据时的内存消耗。如果为 false，则可以抛出 OutOfMemoryException。 |
+| [MaxBlobsBytesInMemory](../../aspose.slides/blobmanagementoptions/maxblobsbytesinmemory) { get; set; } | 一个阈值，指示 BLOB 可以在内存中占用的最大字节数。在达到 这个阈值后，所有新的BLOB都会被放到临时文件中，不会影响进程的 总内存消耗。 [`IsTemporaryFilesAllowed`](./istemporaryfilesallowed)应设置为 true 以使用此属性。 |
 | [PresentationLockingBehavior](../../aspose.slides/blobmanagementoptions/presentationlockingbehavior) { get; set; } | 表示演示文稿源（流或文件）的锁定行为。 |
-| [TempFilesRootPath](../../aspose.slides/blobmanagementoptions/tempfilesrootpath) { get; set; } | 表示文件系统上的根路径，临时文件将存储在其中。系统 默认使用临时目录。 |
+| [TempFilesRootPath](../../aspose.slides/blobmanagementoptions/tempfilesrootpath) { get; set; } | 表示文件系统上的根路径，临时文件将存储在其中。默认使用system 临时目录 |
 
 ### 也可以看看
 

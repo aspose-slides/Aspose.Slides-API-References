@@ -1,14 +1,14 @@
 ---
 title: GeometryPathToGraphicsPath
 second_title: Aspose.Slides for .NET API 参考
-description: 将IGeometryPathaspose.slides/igeometrypath转换为GraphicsPath  GraphicsPath 可以使用其方便的方法以不同的方式进行转换然后再转换回 IGeometryPathaspose.slides/igeometrypath在GeometryShapeaspose.slides/geometryshape中使用GraphicsPath方法
+description: 转换IGeometryPathaspose.slides/igeometrypath至GraphicsPath.  GraphicsPath 可以使用其方便的方法以不同的方式转换然后再转换回 IGeometryPathaspose.slides/igeometrypath用在GeometryShapeaspose.slides/geometryshape通过GraphicsPathToGeometryPathaspose.slides.util/shapeutil/graphicspathtogeometrypath方法.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides.util/shapeutil/geometrypathtographicspath/
 ---
 ## ShapeUtil.GeometryPathToGraphicsPath method
 
-将[`IGeometryPath`](../../../aspose.slides/igeometrypath)转换为GraphicsPath。  GraphicsPath 可以使用其方便的方法以不同的方式进行转换，然后再转换回 [`IGeometryPath`](../../../aspose.slides/igeometrypath)在[`GeometryShape`](../../../aspose.slides/geometryshape)中使用GraphicsPath)方法。
+转换[`IGeometryPath`](../../../aspose.slides/igeometrypath)至GraphicsPath.  GraphicsPath 可以使用其方便的方法以不同的方式转换，然后再转换回 [`IGeometryPath`](../../../aspose.slides/igeometrypath)用在[`GeometryShape`](../../../aspose.slides/geometryshape)通过[`GraphicsPathToGeometryPath`](../graphicspathtogeometrypath)方法.
 
 ```csharp
 public static GraphicsPath GeometryPathToGraphicsPath(IGeometryPath geometryPath)

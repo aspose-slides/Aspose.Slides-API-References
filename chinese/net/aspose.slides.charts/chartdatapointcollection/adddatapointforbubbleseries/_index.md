@@ -1,14 +1,14 @@
 ---
 title: AddDataPointForBubbleSeries
 second_title: Aspose.Slides for .NET API 参考
-description: 创建新数据点并将其添加到集合的末尾 适用于 chartType 是 Bubble 子类型之一的系列另请参见IsChartTypeBubbleaspose.slides.charts/charttypecharacterizer/ischarttypebubble方法 .
+description: 创建新数据点并将其添加到集合的末尾 适用于 chartType 是 Bubble 子类型之一的系列另请参阅IsChartTypeBubbleaspose.slides.charts/charttypecharacterizer/ischarttypebubble方法.
 type: docs
 weight: 130
 url: /zh/net/aspose.slides.charts/chartdatapointcollection/adddatapointforbubbleseries/
 ---
 ## AddDataPointForBubbleSeries(IChartDataCell, IChartDataCell, IChartDataCell) {#adddatapointforbubbleseries}
 
-创建新数据点并将其添加到集合的末尾。 适用于 chartType 是 Bubble 子类型之一的系列（另请参见[`IsChartTypeBubble`](../../charttypecharacterizer/ischarttypebubble)方法） .
+创建新数据点并将其添加到集合的末尾。 适用于 chartType 是 Bubble 子类型之一的系列（另请参阅[`IsChartTypeBubble`](../../charttypecharacterizer/ischarttypebubble)方法）.
 
 ```csharp
 public IChartDataPoint AddDataPointForBubbleSeries(IChartDataCell xValue, IChartDataCell yValue, 
@@ -37,7 +37,7 @@ public IChartDataPoint AddDataPointForBubbleSeries(IChartDataCell xValue, IChart
 
 ## AddDataPointForBubbleSeries(double, IChartDataCell, IChartDataCell) {#adddatapointforbubbleseries_4}
 
-创建新数据点并将其添加到集合的末尾。 适用于 chartType 是 Bubble 子类型之一的系列（另请参见[`IsChartTypeBubble`](../../charttypecharacterizer/ischarttypebubble)方法） .
+创建新数据点并将其添加到集合的末尾。 适用于 chartType 是 Bubble 子类型之一的系列（另请参阅[`IsChartTypeBubble`](../../charttypecharacterizer/ischarttypebubble)方法）.
 
 ```csharp
 public IChartDataPoint AddDataPointForBubbleSeries(double xValue, IChartDataCell yValue, 
@@ -66,7 +66,7 @@ public IChartDataPoint AddDataPointForBubbleSeries(double xValue, IChartDataCell
 
 ## AddDataPointForBubbleSeries(string, IChartDataCell, IChartDataCell) {#adddatapointforbubbleseries_8}
 
-创建新数据点并将其添加到集合的末尾。 适用于 chartType 是 Bubble 子类型之一的系列（另请参见[`IsChartTypeBubble`](../../charttypecharacterizer/ischarttypebubble)方法） .
+创建新数据点并将其添加到集合的末尾。 适用于 chartType 是 Bubble 子类型之一的系列（另请参阅[`IsChartTypeBubble`](../../charttypecharacterizer/ischarttypebubble)方法）.
 
 ```csharp
 public IChartDataPoint AddDataPointForBubbleSeries(string xValue, IChartDataCell yValue, 
@@ -95,7 +95,7 @@ public IChartDataPoint AddDataPointForBubbleSeries(string xValue, IChartDataCell
 
 ## AddDataPointForBubbleSeries(IChartDataCell, double, IChartDataCell) {#adddatapointforbubbleseries_2}
 
-创建新数据点并将其添加到集合的末尾。 适用于 chartType 是 Bubble 子类型之一的系列（另请参见[`IsChartTypeBubble`](../../charttypecharacterizer/ischarttypebubble)方法） .
+创建新数据点并将其添加到集合的末尾。 适用于 chartType 是 Bubble 子类型之一的系列（另请参阅[`IsChartTypeBubble`](../../charttypecharacterizer/ischarttypebubble)方法）.
 
 ```csharp
 public IChartDataPoint AddDataPointForBubbleSeries(IChartDataCell xValue, double yValue, 
@@ -124,7 +124,7 @@ public IChartDataPoint AddDataPointForBubbleSeries(IChartDataCell xValue, double
 
 ## AddDataPointForBubbleSeries(double, double, IChartDataCell) {#adddatapointforbubbleseries_6}
 
-创建新数据点并将其添加到集合的末尾。 适用于 chartType 是 Bubble 子类型之一的系列（另请参见[`IsChartTypeBubble`](../../charttypecharacterizer/ischarttypebubble)方法） .
+创建新数据点并将其添加到集合的末尾。 适用于 chartType 是 Bubble 子类型之一的系列（另请参阅[`IsChartTypeBubble`](../../charttypecharacterizer/ischarttypebubble)方法）.
 
 ```csharp
 public IChartDataPoint AddDataPointForBubbleSeries(double xValue, double yValue, 
@@ -153,7 +153,7 @@ public IChartDataPoint AddDataPointForBubbleSeries(double xValue, double yValue,
 
 ## AddDataPointForBubbleSeries(string, double, IChartDataCell) {#adddatapointforbubbleseries_10}
 
-创建新数据点并将其添加到集合的末尾。 适用于 chartType 是 Bubble 子类型之一的系列（另请参见[`IsChartTypeBubble`](../../charttypecharacterizer/ischarttypebubble)方法） .
+创建新数据点并将其添加到集合的末尾。 适用于 chartType 是 Bubble 子类型之一的系列（另请参阅[`IsChartTypeBubble`](../../charttypecharacterizer/ischarttypebubble)方法）.
 
 ```csharp
 public IChartDataPoint AddDataPointForBubbleSeries(string xValue, double yValue, 
@@ -182,7 +182,7 @@ public IChartDataPoint AddDataPointForBubbleSeries(string xValue, double yValue,
 
 ## AddDataPointForBubbleSeries(IChartDataCell, IChartDataCell, double) {#adddatapointforbubbleseries_1}
 
-创建新数据点并将其添加到集合的末尾。 适用于 chartType 是 Bubble 子类型之一的系列（另请参见[`IsChartTypeBubble`](../../charttypecharacterizer/ischarttypebubble)方法） .
+创建新数据点并将其添加到集合的末尾。 适用于 chartType 是 Bubble 子类型之一的系列（另请参阅[`IsChartTypeBubble`](../../charttypecharacterizer/ischarttypebubble)方法）.
 
 ```csharp
 public IChartDataPoint AddDataPointForBubbleSeries(IChartDataCell xValue, IChartDataCell yValue, 
@@ -211,7 +211,7 @@ public IChartDataPoint AddDataPointForBubbleSeries(IChartDataCell xValue, IChart
 
 ## AddDataPointForBubbleSeries(double, IChartDataCell, double) {#adddatapointforbubbleseries_5}
 
-创建新数据点并将其添加到集合的末尾。 适用于 chartType 是 Bubble 子类型之一的系列（另请参见[`IsChartTypeBubble`](../../charttypecharacterizer/ischarttypebubble)方法） .
+创建新数据点并将其添加到集合的末尾。 适用于 chartType 是 Bubble 子类型之一的系列（另请参阅[`IsChartTypeBubble`](../../charttypecharacterizer/ischarttypebubble)方法）.
 
 ```csharp
 public IChartDataPoint AddDataPointForBubbleSeries(double xValue, IChartDataCell yValue, 
@@ -240,7 +240,7 @@ public IChartDataPoint AddDataPointForBubbleSeries(double xValue, IChartDataCell
 
 ## AddDataPointForBubbleSeries(string, IChartDataCell, double) {#adddatapointforbubbleseries_9}
 
-创建新数据点并将其添加到集合的末尾。 适用于 chartType 是 Bubble 子类型之一的系列（另请参见[`IsChartTypeBubble`](../../charttypecharacterizer/ischarttypebubble)方法） .
+创建新数据点并将其添加到集合的末尾。 适用于 chartType 是 Bubble 子类型之一的系列（另请参阅[`IsChartTypeBubble`](../../charttypecharacterizer/ischarttypebubble)方法）.
 
 ```csharp
 public IChartDataPoint AddDataPointForBubbleSeries(string xValue, IChartDataCell yValue, 
@@ -269,7 +269,7 @@ public IChartDataPoint AddDataPointForBubbleSeries(string xValue, IChartDataCell
 
 ## AddDataPointForBubbleSeries(IChartDataCell, double, double) {#adddatapointforbubbleseries_3}
 
-创建新数据点并将其添加到集合的末尾。 适用于 chartType 是 Bubble 子类型之一的系列（另请参见[`IsChartTypeBubble`](../../charttypecharacterizer/ischarttypebubble)方法） .
+创建新数据点并将其添加到集合的末尾。 适用于 chartType 是 Bubble 子类型之一的系列（另请参阅[`IsChartTypeBubble`](../../charttypecharacterizer/ischarttypebubble)方法）.
 
 ```csharp
 public IChartDataPoint AddDataPointForBubbleSeries(IChartDataCell xValue, double yValue, 
@@ -298,7 +298,7 @@ public IChartDataPoint AddDataPointForBubbleSeries(IChartDataCell xValue, double
 
 ## AddDataPointForBubbleSeries(double, double, double) {#adddatapointforbubbleseries_7}
 
-创建新数据点并将其添加到集合的末尾。 适用于 chartType 是 Bubble 子类型之一的系列（另请参见[`IsChartTypeBubble`](../../charttypecharacterizer/ischarttypebubble)方法） .
+创建新数据点并将其添加到集合的末尾。 适用于 chartType 是 Bubble 子类型之一的系列（另请参阅[`IsChartTypeBubble`](../../charttypecharacterizer/ischarttypebubble)方法）.
 
 ```csharp
 public IChartDataPoint AddDataPointForBubbleSeries(double xValue, double yValue, double bubbleSize)
@@ -325,7 +325,7 @@ public IChartDataPoint AddDataPointForBubbleSeries(double xValue, double yValue,
 
 ## AddDataPointForBubbleSeries(string, double, double) {#adddatapointforbubbleseries_11}
 
-创建新数据点并将其添加到集合的末尾。 适用于 chartType 是 Bubble 子类型之一的系列（另请参见[`IsChartTypeBubble`](../../charttypecharacterizer/ischarttypebubble)方法） .
+创建新数据点并将其添加到集合的末尾。 适用于 chartType 是 Bubble 子类型之一的系列（另请参阅[`IsChartTypeBubble`](../../charttypecharacterizer/ischarttypebubble)方法）.
 
 ```csharp
 public IChartDataPoint AddDataPointForBubbleSeries(string xValue, double yValue, double bubbleSize)

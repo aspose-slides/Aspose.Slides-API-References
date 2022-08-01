@@ -18,8 +18,8 @@ public class ChartThemeManager : BaseOverrideThemeManager
 
 | Имя | Описание |
 | --- | --- |
-| [IsOverrideThemeEnabled](../../aspose.slides.theme/baseoverridethememanager/isoverridethemeenabled) { get; } | Определяет, переопределяет ли OverrideTheme унаследованную действующую тему или нет. Чтобы включить OverrideTheme для переопределения, используйте методы OverrideTheme.Init*(). Чтобы отключить OverrideTheme от переопределения, используйте метод OverrideTheme.Clear(). Только чтениеBoolean. |
-| [OverrideTheme](../../aspose.slides.theme/baseoverridethememanager/overridetheme) { get; set; } | Возвращает основной объект темы. Чтение/запись[`IOverrideTheme`](../ioverridetheme). |
+| [IsOverrideThemeEnabled](../../aspose.slides.theme/baseoverridethememanager/isoverridethemeenabled) { get; } | Определяет, переопределяет ли OverrideTheme унаследованную действующую тему или нет. Чтобы включить OverrideTheme для переопределения, используйте методы OverrideTheme.Init*().Boolean . |
+| [OverrideTheme](../../aspose.slides.theme/baseoverridethememanager/overridetheme) { get; set; } | Возвращает основной объект темы. Чтение/запись[`IOverrideTheme`](../ioverridetheme) . |
 
 ## Методы
 

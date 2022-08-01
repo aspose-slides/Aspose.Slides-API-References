@@ -1,14 +1,14 @@
 ---
 title: LoadFormat
 second_title: Справочник по API Aspose.Slides для .NET
-description: Получает формат привязанной презентации. Только для чтенияLoadFormataspose.slides/loadformat.
+description: Получает формат привязанной презентации. Только для чтенияLoadFormataspose.slides/loadformat .
 type: docs
 weight: 40
 url: /ru/net/aspose.slides/presentationinfo/loadformat/
 ---
 ## PresentationInfo.LoadFormat property
 
-Получает формат привязанной презентации. Только для чтения[`LoadFormat`](../../loadformat).
+Получает формат привязанной презентации. Только для чтения[`LoadFormat`](../../loadformat) .
 
 ```csharp
 public LoadFormat LoadFormat { get; }

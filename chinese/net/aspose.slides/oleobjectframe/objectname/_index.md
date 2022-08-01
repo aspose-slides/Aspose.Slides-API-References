@@ -1,14 +1,14 @@
 ---
 title: ObjectName
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置对象的名称 读/写String
+description: 返回或设置对象的名称 读/写String.
 type: docs
 weight: 90
 url: /zh/net/aspose.slides/oleobjectframe/objectname/
 ---
 ## OleObjectFrame.ObjectName property
 
-返回或设置对象的名称。 读/写String。
+返回或设置对象的名称。 读/写String.
 
 ```csharp
 public string ObjectName { get; set; }

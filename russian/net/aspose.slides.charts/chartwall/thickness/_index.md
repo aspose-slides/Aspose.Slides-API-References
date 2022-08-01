@@ -1,14 +1,14 @@
 ---
 title: Thickness
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или задает толщину стен в процентах от наибольшего измерения объема графика. Чтение/записьInt32.
+description: Возвращает или задает толщину стенок в процентах от наибольшего размера объема графика. Чтение/записьInt32 .
 type: docs
 weight: 30
 url: /ru/net/aspose.slides.charts/chartwall/thickness/
 ---
 ## ChartWall.Thickness property
 
-Возвращает или задает толщину стен в процентах от наибольшего измерения объема графика. Чтение/записьInt32.
+Возвращает или задает толщину стенок в процентах от наибольшего размера объема графика. Чтение/записьInt32 .
 
 ```csharp
 public int Thickness { get; set; }

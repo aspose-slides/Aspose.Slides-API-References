@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Slides for .NET API 参考
-description: 获取指定索引处的元素 只读ITrendlineaspose.slides.charts/itrendline
+description: 获取指定索引处的元素 只读ITrendlineaspose.slides.charts/itrendline.
 type: docs
 weight: 30
 url: /zh/net/aspose.slides.charts/itrendlinecollection/item/
 ---
 ## ITrendlineCollection indexer
 
-获取指定索引处的元素。 只读[`ITrendline`](../../itrendline)。
+获取指定索引处的元素。 只读[`ITrendline`](../../itrendline).
 
 ```csharp
 public ITrendline this[int index] { get; }

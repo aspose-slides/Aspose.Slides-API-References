@@ -1,14 +1,14 @@
 ---
 title: InOutTransition
 second_title: Справочник по API Aspose.Slides для .NET
-description: Эффект перехода слайда In-Out.
+description: Эффект перехода слайдов внутрь и наружу.
 type: docs
 weight: 9450
 url: /ru/net/aspose.slides.slideshow/inouttransition/
 ---
 ## InOutTransition class
 
-Эффект перехода слайда In-Out.
+Эффект перехода слайдов внутрь и наружу.
 
 ```csharp
 public class InOutTransition : TransitionValueBase, IInOutTransition
@@ -18,14 +18,14 @@ public class InOutTransition : TransitionValueBase, IInOutTransition
 
 | Имя | Описание |
 | --- | --- |
-| [Direction](../../aspose.slides.slideshow/inouttransition/direction) { get; set; } | Направление эффекта перехода. Чтение/запись[`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
+| [Direction](../../aspose.slides.slideshow/inouttransition/direction) { get; set; } | Направление эффекта перехода. Чтение/запись[`TransitionInOutDirectionType`](../transitioninoutdirectiontype) . |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Определяет, равны ли два экземпляра TransitionValueBase. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Служит хэш-функцией для определенного типа, подходящей для использования в алгоритмах хеширования и структурах данных, таких как хэш-таблица. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Служит хеш-функцией для определенного типа, подходящей для использования в алгоритмах хэширования и структурах данных, таких как хэш-таблица. |
 
 ### Смотрите также
 

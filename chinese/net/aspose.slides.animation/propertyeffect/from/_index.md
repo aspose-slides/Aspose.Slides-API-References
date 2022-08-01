@@ -1,14 +1,14 @@
 ---
 title: From
 second_title: Aspose.Slides for .NET API 参考
-description: 指定动画的起始值 读/写String
+description: 指定动画的起始值 读/写String.
 type: docs
 weight: 40
 url: /zh/net/aspose.slides.animation/propertyeffect/from/
 ---
 ## PropertyEffect.From property
 
-指定动画的起始值。 读/写String。
+指定动画的起始值。 读/写String.
 
 ```csharp
 public string From { get; set; }

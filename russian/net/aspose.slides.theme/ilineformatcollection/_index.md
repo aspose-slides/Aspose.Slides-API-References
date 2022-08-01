@@ -18,7 +18,7 @@ public interface ILineFormatCollection : IGenericCollection<ILineFormat>
 
 | Имя | Описание |
 | --- | --- |
-| [Item](../../aspose.slides.theme/ilineformatcollection/item) { get; } | Получает элемент по указанному индексу. Только для чтения[`ILineFormat`](../../aspose.slides/ilineformat). |
+| [Item](../../aspose.slides.theme/ilineformatcollection/item) { get; } | Получает элемент по указанному индексу. Только для чтения[`ILineFormat`](../../aspose.slides/ilineformat) . |
 
 ### Смотрите также
 

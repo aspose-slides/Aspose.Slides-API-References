@@ -1,14 +1,14 @@
 ---
 title: ImageTransformOperationFactory
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает ImageTransformOperationFactory. Только для чтенияIImageTransformOperationFactoryaspose.slides.effects/iimagetransformoperationfactory.
+description: Возвращает ImageTransformOperationFactory. Только для чтенияIImageTransformOperationFactoryaspose.slides.effects/iimagetransformoperationfactory .
 type: docs
 weight: 20
 url: /ru/net/aspose.slides.effects/effectfactory/imagetransformoperationfactory/
 ---
 ## EffectFactory.ImageTransformOperationFactory property
 
-Возвращает ImageTransformOperationFactory. Только для чтения[`IImageTransformOperationFactory`](../../iimagetransformoperationfactory).
+Возвращает ImageTransformOperationFactory. Только для чтения[`IImageTransformOperationFactory`](../../iimagetransformoperationfactory) .
 
 ```csharp
 public IImageTransformOperationFactory ImageTransformOperationFactory { get; }

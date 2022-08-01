@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Справочник по API Aspose.Slides для .NET
-description: Получает элемент по указанному индексу. Только для чтенияIEffectStyleEffectiveDataaspose.slides.theme/ieffectstyleeffectivedata.
+description: Получает элемент по указанному индексу. Только для чтенияIEffectStyleEffectiveDataaspose.slides.theme/ieffectstyleeffectivedata .
 type: docs
 weight: 10
 url: /ru/net/aspose.slides.theme/ieffectstylecollectioneffectivedata/item/
 ---
 ## IEffectStyleCollectionEffectiveData indexer
 
-Получает элемент по указанному индексу. Только для чтения[`IEffectStyleEffectiveData`](../../ieffectstyleeffectivedata).
+Получает элемент по указанному индексу. Только для чтения[`IEffectStyleEffectiveData`](../../ieffectstyleeffectivedata) .
 
 ```csharp
 public IEffectStyleEffectiveData this[int index] { get; }

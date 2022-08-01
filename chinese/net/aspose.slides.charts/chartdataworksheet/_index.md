@@ -1,14 +1,14 @@
 ---
 title: ChartDataWorksheet
 second_title: Aspose.Slides for .NET API 参考
-description: 表示与IChartDataCell./ichartdatacell
+description: 表示与关联的工作表IChartDataCell./ichartdatacell
 type: docs
 weight: 1250
 url: /zh/net/aspose.slides.charts/chartdataworksheet/
 ---
 ## ChartDataWorksheet class
 
-表示与[`IChartDataCell`](../ichartdatacell)
+表示与关联的工作表[`IChartDataCell`](../ichartdatacell)
 
 ```csharp
 public class ChartDataWorksheet : DomObject<ChartDataWorksheetCollection>, IChartDataWorksheet
@@ -18,8 +18,8 @@ public class ChartDataWorksheet : DomObject<ChartDataWorksheetCollection>, IChar
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Index](../../aspose.slides.charts/chartdataworksheet/index) { get; } | 获取工作表的索引。 只读Int32。 |
-| [Name](../../aspose.slides.charts/chartdataworksheet/name) { get; } | 返回工作表的名称。 只读String。 |
+| [Index](../../aspose.slides.charts/chartdataworksheet/index) { get; } | 获取工作表的索引。 只读Int32. |
+| [Name](../../aspose.slides.charts/chartdataworksheet/name) { get; } | 返回工作表的名称。 只读String. |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: AddVideoFrame
 second_title: Aspose.Slides for .NET API 参考
-description: 将新视频帧添加到集合的末尾
+description: 将新的视频帧添加到集合的末尾
 type: docs
 weight: 180
 url: /zh/net/aspose.slides/ishapecollection/addvideoframe/
 ---
 ## AddVideoFrame(float, float, float, float, string) {#addvideoframe_1}
 
-将新视频帧添加到集合的末尾。
+将新的视频帧添加到集合的末尾。
 
 ```csharp
 public IVideoFrame AddVideoFrame(float x, float y, float width, float height, string fname)
@@ -37,7 +37,7 @@ public IVideoFrame AddVideoFrame(float x, float y, float width, float height, st
 
 ## AddVideoFrame(float, float, float, float, IVideo) {#addvideoframe}
 
-将新视频帧添加到集合的末尾。
+将新的视频帧添加到集合的末尾。
 
 ```csharp
 public IVideoFrame AddVideoFrame(float x, float y, float width, float height, IVideo video)
@@ -49,7 +49,7 @@ public IVideoFrame AddVideoFrame(float x, float y, float width, float height, IV
 | y | Single | 新视频帧的 Y 坐标。 |
 | width | Single | 新视频帧的宽度。 |
 | height | Single | 新视频帧的高度。 |
-| 视频 | IVideo | 视频。 |
+| video | IVideo | 视频。 |
 
 ### 返回值
 

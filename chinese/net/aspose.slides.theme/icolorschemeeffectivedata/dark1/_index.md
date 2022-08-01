@@ -1,14 +1,14 @@
 ---
 title: Dark1
 second_title: Aspose.Slides for .NET API 参考
-description: 方案中的第一个深色 只读Color
+description: 方案中的第一个深色 只读Color.
 type: docs
 weight: 70
 url: /zh/net/aspose.slides.theme/icolorschemeeffectivedata/dark1/
 ---
 ## IColorSchemeEffectiveData.Dark1 property
 
-方案中的第一个深色。 只读Color。
+方案中的第一个深色。 只读Color.
 
 ```csharp
 public Color Dark1 { get; }

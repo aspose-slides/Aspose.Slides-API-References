@@ -1,14 +1,14 @@
 ---
 title: ImageDataGrayscale
 second_title: Aspose.Slides for .NET API 参考
-description: 表示imageData.grayscale属性
+description: 表示imageData.grayscale 属性
 type: docs
 weight: 500
 url: /zh/net/aspose.slides.animation/behaviorproperty/imagedatagrayscale/
 ---
 ## BehaviorProperty.ImageDataGrayscale property
 
-表示'imageData.grayscale'属性
+表示'imageData.grayscale' 属性
 
 ```csharp
 public static BehaviorProperty ImageDataGrayscale { get; }

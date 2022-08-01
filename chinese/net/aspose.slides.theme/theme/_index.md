@@ -18,10 +18,10 @@ public abstract class Theme : ITheme
 
 | 姓名 | 描述 |
 | --- | --- |
-| abstract [ColorScheme](../../aspose.slides.theme/theme/colorscheme) { get; } | 返回配色方案。 只读[`IColorScheme`](../icolorscheme)。 |
-| abstract [FontScheme](../../aspose.slides.theme/theme/fontscheme) { get; } | 返回字体方案。 只读[`IFontScheme`](../ifontscheme)。 |
-| abstract [FormatScheme](../../aspose.slides.theme/theme/formatscheme) { get; } | 返回形状格式方案。 只读[`IFormatScheme`](../iformatscheme)。 |
-| [Presentation](../../aspose.slides.theme/theme/presentation) { get; } | 返回父演示文稿。 只读[`IPresentation`](../../aspose.slides/ipresentation)。 |
+| abstract [ColorScheme](../../aspose.slides.theme/theme/colorscheme) { get; } | 返回配色方案。 只读[`IColorScheme`](../icolorscheme). |
+| abstract [FontScheme](../../aspose.slides.theme/theme/fontscheme) { get; } | 返回字体方案。 只读[`IFontScheme`](../ifontscheme). |
+| abstract [FormatScheme](../../aspose.slides.theme/theme/formatscheme) { get; } | 返回形状格式方案。 只读[`IFormatScheme`](../iformatscheme). |
+| [Presentation](../../aspose.slides.theme/theme/presentation) { get; } | 返回父演示文稿。 只读[`IPresentation`](../../aspose.slides/ipresentation). |
 
 ## 方法
 

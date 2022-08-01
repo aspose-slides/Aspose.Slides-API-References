@@ -1,14 +1,14 @@
 ---
 title: GraphicsPathToGeometryPath
 second_title: Aspose.Slides for .NET API 参考
-description: 将GraphicsPath转换为R5TAspose.Slides.IGeometryPath 方法调用的返回值可用于通过 IGeometryShape.SetGeometryPaths 方法更改 IGeometryShape 对象的几何形状
+description: 转换一个GraphicsPath到IGeometryPathaspose.slides/igeometrypath 方法调用的返回值可用于更改 IGeometryShape 对象的几何形状 with IGeometryShape.SetGeometryPaths 方法
 type: docs
 weight: 20
 url: /zh/net/aspose.slides.util/shapeutil/graphicspathtogeometrypath/
 ---
 ## ShapeUtil.GraphicsPathToGeometryPath method
 
-将GraphicsPath转换为:::R5:T:Aspose.Slides.IGeometryPath:: 方法调用的返回值可用于通过 IGeometryShape.SetGeometryPaths 方法更改 IGeometryShape 对象的几何形状。
+转换一个GraphicsPath到[`IGeometryPath`](../../../aspose.slides/igeometrypath) 方法调用的返回值可用于更改 IGeometryShape 对象的几何形状 with IGeometryShape.SetGeometryPaths 方法。
 
 ```csharp
 public static IGeometryPath GraphicsPathToGeometryPath(GraphicsPath graphicsPath)

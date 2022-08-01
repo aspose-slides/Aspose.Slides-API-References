@@ -16,7 +16,7 @@ public IHyperlink SetExternalHyperlinkMouseOver(string url)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| url | String | 超链接 URL。 |
+| url | String | 超链接网址。 |
 
 ### 返回值
 

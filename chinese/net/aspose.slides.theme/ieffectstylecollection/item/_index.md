@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Slides for .NET API 参考
-description: 返回指定位置的元素 只读IEffectStyleaspose.slides.theme/ieffectstyle
+description: 返回指定位置的元素 只读IEffectStyleaspose.slides.theme/ieffectstyle.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides.theme/ieffectstylecollection/item/
 ---
 ## IEffectStyleCollection indexer
 
-返回指定位置的元素。 只读[`IEffectStyle`](../../ieffectstyle)。
+返回指定位置的元素。 只读[`IEffectStyle`](../../ieffectstyle).
 
 ```csharp
 public IEffectStyle this[int index] { get; }

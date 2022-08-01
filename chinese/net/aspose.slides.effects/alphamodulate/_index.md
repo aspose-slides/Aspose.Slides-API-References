@@ -18,14 +18,14 @@ public class AlphaModulate : ImageTransformOperation, IAlphaModulate
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允许获取基本 IPresentationComponent 接口。 只读[`IPresentationComponent`](../../aspose.slides/ipresentationcomponent)。 |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允许获取基本 IPresentationComponent 接口。 只读[`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/alphamodulate/equals)(object) | 确定指定的[`AlphaModulate`](../alphamodulate)是否等于当前的AlphaModulate。 |
-| [GetEffective](../../aspose.slides.effects/alphamodulate/geteffective)() | 在应用了继承的情况下获取有效的 Alpha 调制效果数据。 |
+| override [Equals](../../aspose.slides.effects/alphamodulate/equals)(object) | 判断是否指定[`AlphaModulate`](../alphamodulate)等于当前[`AlphaModulate`](../alphamodulate). |
+| [GetEffective](../../aspose.slides.effects/alphamodulate/geteffective)() | 应用继承获取有效的 Alpha 调制效果数据。 |
 | override [GetHashCode](../../aspose.slides.effects/alphamodulate/gethashcode)() | 用作特定类型的哈希函数。 |
 
 ### 也可以看看

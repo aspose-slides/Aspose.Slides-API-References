@@ -1,14 +1,14 @@
 ---
 title: SetDefaultMasterHandoutSlide
 second_title: Справочник по API Aspose.Slides для .NET
-description: Устанавливает основной слайд раздаточного материала по умолчанию в соответствующий слайд раздаточного материала.
+description: Устанавливает основной слайд раздаточного материала по умолчанию на соответствующий слайд раздаточного материала.
 type: docs
 weight: 30
 url: /ru/net/aspose.slides/imasterhandoutslidemanager/setdefaultmasterhandoutslide/
 ---
 ## IMasterHandoutSlideManager.SetDefaultMasterHandoutSlide method
 
-Устанавливает основной слайд раздаточного материала по умолчанию в соответствующий слайд раздаточного материала.
+Устанавливает основной слайд раздаточного материала по умолчанию на соответствующий слайд раздаточного материала.
 
 ```csharp
 public IMasterHandoutSlide SetDefaultMasterHandoutSlide()
@@ -16,7 +16,7 @@ public IMasterHandoutSlide SetDefaultMasterHandoutSlide()
 
 ### Возвращаемое значение
 
-Главный раздаточный слайд[`IMasterHandoutSlide`](../../imasterhandoutslide)
+Основной раздаточный слайд[`IMasterHandoutSlide`](../../imasterhandoutslide)
 
 ### Смотрите также
 

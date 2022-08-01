@@ -1,14 +1,14 @@
 ---
 title: SketchType
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или задает тип эскиза. Чтение/записьLineSketchTypeaspose.slides/linesketchtype.
+description: Возвращает или задает тип скетча. Чтение/записьLineSketchTypeaspose.slides/linesketchtype .
 type: docs
 weight: 10
 url: /ru/net/aspose.slides/sketchformat/sketchtype/
 ---
 ## SketchFormat.SketchType property
 
-Возвращает или задает тип эскиза. Чтение/запись[`LineSketchType`](../../linesketchtype).
+Возвращает или задает тип скетча. Чтение/запись[`LineSketchType`](../../linesketchtype) .
 
 ```csharp
 public LineSketchType SketchType { get; set; }

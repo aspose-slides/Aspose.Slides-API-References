@@ -1,14 +1,14 @@
 ---
 title: SlideImageSizeUnit
 second_title: Aspose.Slides for .NET API 参考
-description: 返回指定幻灯片图像大小的单位 只读SvgCoordinateUnitaspose.slides.export/svgcoordinateunit
+description: 返回指定幻灯片图像大小的单位 只读SvgCoordinateUnitaspose.slides.export/svgcoordinateunit.
 type: docs
 weight: 40
 url: /zh/net/aspose.slides.export/htmlgenerator/slideimagesizeunit/
 ---
 ## HtmlGenerator.SlideImageSizeUnit property
 
-返回指定幻灯片图像大小的单位。 只读[`SvgCoordinateUnit`](../../svgcoordinateunit)。
+返回指定幻灯片图像大小的单位。 只读[`SvgCoordinateUnit`](../../svgcoordinateunit).
 
 ```csharp
 public SvgCoordinateUnit SlideImageSizeUnit { get; }

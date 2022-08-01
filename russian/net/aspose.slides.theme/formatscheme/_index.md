@@ -18,12 +18,12 @@ public class FormatScheme : IFormatScheme
 
 | Имя | Описание |
 | --- | --- |
-| [BackgroundFillStyles](../../aspose.slides.theme/formatscheme/backgroundfillstyles) { get; } | Возвращает набор стилей заливки фона, определенных темой. Только для чтения[`IFillFormatCollection`](../ifillformatcollection). |
-| [EffectStyles](../../aspose.slides.theme/formatscheme/effectstyles) { get; } | Возвращает набор стилей эффектов, определенных темой. Только для чтения[`IEffectStyleCollection`](../ieffectstylecollection). |
-| [FillStyles](../../aspose.slides.theme/formatscheme/fillstyles) { get; } | Возвращает набор стилей заливки, определенных темой. Только для чтения[`IFillFormatCollection`](../ifillformatcollection). |
-| [LineStyles](../../aspose.slides.theme/formatscheme/linestyles) { get; } | Возвращает набор стилей линий, определенных темой. Только для чтения[`ILineFormatCollection`](../ilineformatcollection). |
-| [Presentation](../../aspose.slides.theme/formatscheme/presentation) { get; } | Возвращает родительскую презентацию. Только чтение[`IPresentation`](../../aspose.slides/ipresentation). |
-| [Slide](../../aspose.slides.theme/formatscheme/slide) { get; } | Возвращает родительский слайд. Только для чтения[`IBaseSlide`](../../aspose.slides/ibaseslide). |
+| [BackgroundFillStyles](../../aspose.slides.theme/formatscheme/backgroundfillstyles) { get; } | Возвращает коллекцию стилей заливки фона, определенных темой. Только для чтения[`IFillFormatCollection`](../ifillformatcollection) . |
+| [EffectStyles](../../aspose.slides.theme/formatscheme/effectstyles) { get; } | Возвращает набор стилей эффектов, определенных темой. Только для чтения[`IEffectStyleCollection`](../ieffectstylecollection) . |
+| [FillStyles](../../aspose.slides.theme/formatscheme/fillstyles) { get; } | Возвращает коллекцию стилей заливки, определенных темой. Только для чтения[`IFillFormatCollection`](../ifillformatcollection) . |
+| [LineStyles](../../aspose.slides.theme/formatscheme/linestyles) { get; } | Возвращает коллекцию стилей линий, определенных темой. Только для чтения[`ILineFormatCollection`](../ilineformatcollection) . |
+| [Presentation](../../aspose.slides.theme/formatscheme/presentation) { get; } | Возвращает родительскую презентацию. Только для чтения[`IPresentation`](../../aspose.slides/ipresentation) . |
+| [Slide](../../aspose.slides.theme/formatscheme/slide) { get; } | Возвращает родительский слайд. Только для чтения[`IBaseSlide`](../../aspose.slides/ibaseslide) . |
 
 ### Смотрите также
 

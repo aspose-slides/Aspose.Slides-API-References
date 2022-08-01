@@ -1,14 +1,14 @@
 ---
 title: ActualBulletValue
 second_title: Aspose.Slides for .NET API 参考
-description: 返回父段落的实际项目符号值 只读String
+description: 返回父段落的实际项目符号值 只读String.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides/ibulletformateffectivedata/actualbulletvalue/
 ---
 ## IBulletFormatEffectiveData.ActualBulletValue property
 
-返回父段落的实际项目符号值。 只读String。
+返回父段落的实际项目符号值。 只读String.
 
 ```csharp
 public string ActualBulletValue { get; }

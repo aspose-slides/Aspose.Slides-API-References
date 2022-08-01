@@ -18,17 +18,17 @@ public interface IOuterShadowEffectiveData : IEffectEffectiveData
 
 | Имя | Описание |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ioutershadoweffectivedata/asieffecteffectivedata) { get; } | Позволяет получить базовый интерфейс IEffectEffectiveData. Только для чтения[`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [BlurRadius](../../aspose.slides.effects/ioutershadoweffectivedata/blurradius) { get; } | Радиус размытия. Только для чтенияDouble. |
-| [Direction](../../aspose.slides.effects/ioutershadoweffectivedata/direction) { get; } | Направление тени. Только для чтенияSingle. |
-| [Distance](../../aspose.slides.effects/ioutershadoweffectivedata/distance) { get; } | Расстояние тени. Только для чтенияDouble. |
-| [RectangleAlign](../../aspose.slides.effects/ioutershadoweffectivedata/rectanglealign) { get; } | Выравнивание прямоугольника. Только для чтения[`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
-| [RotateShadowWithShape](../../aspose.slides.effects/ioutershadoweffectivedata/rotateshadowwithshape) { get; } | Указывает, должна ли тень вращаться вместе с фигурой, если фигура вращается. Только чтениеBoolean. |
-| [ScaleHorizontal](../../aspose.slides.effects/ioutershadoweffectivedata/scalehorizontal) { get; } | Задает коэффициент масштабирования по горизонтали, отрицательное масштабирование приводит к перевороту. Только для чтенияDouble. |
-| [ScaleVertical](../../aspose.slides.effects/ioutershadoweffectivedata/scalevertical) { get; } | Определяет коэффициент масштабирования по вертикали, отрицательное масштабирование приводит к перевороту. Только для чтенияDouble. |
-| [ShadowColor](../../aspose.slides.effects/ioutershadoweffectivedata/shadowcolor) { get; } | Цвет тени. Только для чтенияColor. |
-| [SkewHorizontal](../../aspose.slides.effects/ioutershadoweffectivedata/skewhorizontal) { get; } | Задает угол наклона по горизонтали (в градусах). Только для чтенияDouble. |
-| [SkewVertical](../../aspose.slides.effects/ioutershadoweffectivedata/skewvertical) { get; } | Указывает вертикальный угол наклона (в градусах). Только для чтенияDouble. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ioutershadoweffectivedata/asieffecteffectivedata) { get; } | Позволяет получить базовый интерфейс IEffectEffectiveData. Только для чтения[`IEffectEffectiveData`](../ieffecteffectivedata) . |
+| [BlurRadius](../../aspose.slides.effects/ioutershadoweffectivedata/blurradius) { get; } | Радиус размытия. Только для чтенияDouble . |
+| [Direction](../../aspose.slides.effects/ioutershadoweffectivedata/direction) { get; } | Направление тени. Только для чтенияSingle . |
+| [Distance](../../aspose.slides.effects/ioutershadoweffectivedata/distance) { get; } | Расстояние тени. Только для чтенияDouble . |
+| [RectangleAlign](../../aspose.slides.effects/ioutershadoweffectivedata/rectanglealign) { get; } | Выравнивание прямоугольника. Только для чтения[`RectangleAlignment`](../../aspose.slides/rectanglealignment) . |
+| [RotateShadowWithShape](../../aspose.slides.effects/ioutershadoweffectivedata/rotateshadowwithshape) { get; } | Указывает, должна ли тень вращаться вместе с фигурой, если фигура вращается. Только для чтенияBoolean . |
+| [ScaleHorizontal](../../aspose.slides.effects/ioutershadoweffectivedata/scalehorizontal) { get; } | Задает коэффициент масштабирования по горизонтали, отрицательное масштабирование приводит к перевороту. Только для чтенияDouble . |
+| [ScaleVertical](../../aspose.slides.effects/ioutershadoweffectivedata/scalevertical) { get; } | Задает коэффициент масштабирования по вертикали, отрицательное масштабирование приводит к перевороту. Только для чтенияDouble . |
+| [ShadowColor](../../aspose.slides.effects/ioutershadoweffectivedata/shadowcolor) { get; } | Цвет тени. Только для чтенияColor . |
+| [SkewHorizontal](../../aspose.slides.effects/ioutershadoweffectivedata/skewhorizontal) { get; } | Указывает угол наклона по горизонтали (в градусах). Только для чтенияDouble . |
+| [SkewVertical](../../aspose.slides.effects/ioutershadoweffectivedata/skewvertical) { get; } | Указывает вертикальный угол наклона (в градусах). Только для чтенияDouble . |
 
 ### Смотрите также
 

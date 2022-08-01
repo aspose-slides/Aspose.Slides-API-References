@@ -1,14 +1,14 @@
 ---
 title: HighlightColor
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает цвет используемый для выделения текста. Только для чтенияColor.
+description: Возвращает цвет используемый для выделения текста. Только для чтенияColor .
 type: docs
 weight: 110
 url: /ru/net/aspose.slides/ibaseportionformateffectivedata/highlightcolor/
 ---
 ## IBasePortionFormatEffectiveData.HighlightColor property
 
-Возвращает цвет, используемый для выделения текста. Только для чтенияColor.
+Возвращает цвет, используемый для выделения текста. Только для чтенияColor .
 
 ```csharp
 public Color HighlightColor { get; }

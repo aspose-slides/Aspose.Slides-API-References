@@ -1,14 +1,14 @@
 ---
 title: AddClone
 second_title: Справочник по API Aspose.Slides для .NET
-description: Создает копию указанной строки шаблона и вставляет ее внизу таблицы.
+description: Создает копию указанной строки шаблона и вставляет ее в конец таблицы.
 type: docs
 weight: 50
 url: /ru/net/aspose.slides/columncollection/addclone/
 ---
 ## ColumnCollection.AddClone method
 
-Создает копию указанной строки шаблона и вставляет ее внизу таблицы.
+Создает копию указанной строки шаблона и вставляет ее в конец таблицы.
 
 ```csharp
 public IColumn[] AddClone(IColumn templ, bool withAttachedColumns)

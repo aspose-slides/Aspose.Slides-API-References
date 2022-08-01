@@ -1,14 +1,14 @@
 ---
 title: ActionType
 second_title: Aspose.Slides for .NET API 参考
-description: 返回超链接操作的类型 只读HyperlinkActionTypeaspose.slides/hyperlinkactiontype
+description: 返回超链接操作的类型 只读HyperlinkActionTypeaspose.slides/hyperlinkactiontype.
 type: docs
 weight: 100
 url: /zh/net/aspose.slides/hyperlink/actiontype/
 ---
 ## Hyperlink.ActionType property
 
-返回超链接操作的类型。 只读[`HyperlinkActionType`](../../hyperlinkactiontype)。
+返回超链接操作的类型。 只读[`HyperlinkActionType`](../../hyperlinkactiontype).
 
 ```csharp
 public HyperlinkActionType ActionType { get; }

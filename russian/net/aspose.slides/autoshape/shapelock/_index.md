@@ -1,14 +1,14 @@
 ---
 title: ShapeLock
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает блокировки формы. Только для чтенияIAutoShapeLockaspose.slides/iautoshapelock.
+description: Возвращает блокировки формы. Только для чтенияIAutoShapeLockaspose.slides/iautoshapelock .
 type: docs
 weight: 30
 url: /ru/net/aspose.slides/autoshape/shapelock/
 ---
 ## AutoShape.ShapeLock property
 
-Возвращает блокировки формы. Только для чтения[`IAutoShapeLock`](../../iautoshapelock).
+Возвращает блокировки формы. Только для чтения[`IAutoShapeLock`](../../iautoshapelock) .
 
 ```csharp
 public IAutoShapeLock ShapeLock { get; }

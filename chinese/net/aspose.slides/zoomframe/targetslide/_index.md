@@ -1,14 +1,14 @@
 ---
 title: TargetSlide
 second_title: Aspose.Slides for .NET API 参考
-description: 获取或设置幻灯片缩放对象链接到的幻灯片对象 读/写ISlideaspose.slides/islide
+description: 获取或设置幻灯片缩放对象链接到的幻灯片对象 读/写ISlideaspose.slides/islide.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides/zoomframe/targetslide/
 ---
 ## ZoomFrame.TargetSlide property
 
-获取或设置幻灯片缩放对象链接到的幻灯片对象。 读/写[`ISlide`](../../islide)。
+获取或设置幻灯片缩放对象链接到的幻灯片对象。 读/写[`ISlide`](../../islide).
 
 ```csharp
 public ISlide TargetSlide { get; set; }
@@ -16,7 +16,7 @@ public ISlide TargetSlide { get; set; }
 
 ### 例子
 
-下一个示例演示更改目标幻灯片并为幻灯片缩放对象创建新图像:
+下一个示例演示更改目标幻灯片并为幻灯片缩放对象创建新图像：
 
 ```csharp
 [C#]

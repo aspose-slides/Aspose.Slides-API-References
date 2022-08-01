@@ -18,15 +18,15 @@ public class Section : DomObject<SectionCollection>, ISection
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Name](../../aspose.slides/section/name) { get; set; } | 节的名称。 |
-| [SectionId](../../aspose.slides/section/sectionid) { get; } | 部分 ID。 |
+| [Name](../../aspose.slides/section/name) { get; set; } | 部分的名称。 |
+| [SectionId](../../aspose.slides/section/sectionid) { get; } | 部分 ID. |
 | [StartedFromSlide](../../aspose.slides/section/startedfromslide) { get; } | 返回该部分的第一张幻灯片。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [GetSlidesListOfSection](../../aspose.slides/section/getslideslistofsection)() | 返回节中的幻灯片列表。 |
+| [GetSlidesListOfSection](../../aspose.slides/section/getslideslistofsection)() | 返回部分中的幻灯片列表。 |
 
 ### 也可以看看
 

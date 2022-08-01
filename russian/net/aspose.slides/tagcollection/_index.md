@@ -18,10 +18,10 @@ public sealed class TagCollection : ITagCollection
 
 | Имя | Описание |
 | --- | --- |
-| [Count](../../aspose.slides/tagcollection/count) { get; } | Возвращает количество тегов в коллекции. Только для чтенияInt32. |
-| [IsSynchronized](../../aspose.slides/tagcollection/issynchronized) { get; } | Возвращает значение, указывающее, является ли доступ к коллекции синхронизированным (потокобезопасным). Только чтениеBoolean. |
+| [Count](../../aspose.slides/tagcollection/count) { get; } | Возвращает количество тегов в коллекции. Только для чтенияInt32 . |
+| [IsSynchronized](../../aspose.slides/tagcollection/issynchronized) { get; } | Возвращает значение, указывающее, является ли доступ к коллекции синхронизированным (потокобезопасным). Только для чтенияBoolean . |
 | [Item](../../aspose.slides/tagcollection/item) { get; set; } | Возвращает или задает пару ключ-значение тега. |
-| [SyncRoot](../../aspose.slides/tagcollection/syncroot) { get; } | Возвращает корень синхронизации. Только для чтенияObject. |
+| [SyncRoot](../../aspose.slides/tagcollection/syncroot) { get; } | Возвращает корень синхронизации. Только для чтенияObject . |
 
 ## Методы
 
@@ -30,8 +30,8 @@ public sealed class TagCollection : ITagCollection
 | [Add](../../aspose.slides/tagcollection/add)(string, string) | Добавляет новый тег в коллекцию. |
 | [Clear](../../aspose.slides/tagcollection/clear)() | Удаляет все теги из коллекции. |
 | [Contains](../../aspose.slides/tagcollection/contains)(string) | Определяет, содержит ли коллекция определенное имя. |
-| [CopyTo](../../aspose.slides/tagcollection/copyto)(Array, int) | Копирует все элементы из коллекции в указанный массив. |
-| [GetEnumerator](../../aspose.slides/tagcollection/getenumerator)() | Возвращает перечислитель, который перебирает коллекцию. |
+| [CopyTo](../../aspose.slides/tagcollection/copyto)(Array, int) | Копирует все элементы коллекции в указанный массив. |
+| [GetEnumerator](../../aspose.slides/tagcollection/getenumerator)() | Возвращает перечислитель, который выполняет итерацию по коллекции. |
 | [GetNameByIndex](../../aspose.slides/tagcollection/getnamebyindex)(int) | Возвращает ключ тега по указанному индексу. |
 | [GetNamesOfTags](../../aspose.slides/tagcollection/getnamesoftags)() | Возвращает имена тегов. |
 | [GetValueByIndex](../../aspose.slides/tagcollection/getvaluebyindex)(int) | Возвращает значение тега по указанному индексу. |

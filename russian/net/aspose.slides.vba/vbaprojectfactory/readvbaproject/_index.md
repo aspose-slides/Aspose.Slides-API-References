@@ -16,7 +16,7 @@ public IVbaProject ReadVbaProject(byte[] data)
 
 ### Возвращаемое значение
 
-Чтение проекта VBA
+Читать проект VBA
 
 ### Смотрите также
 

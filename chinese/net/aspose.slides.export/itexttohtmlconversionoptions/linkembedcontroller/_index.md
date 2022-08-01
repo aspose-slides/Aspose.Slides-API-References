@@ -1,14 +1,14 @@
 ---
 title: LinkEmbedController
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置一个回调对象该对象控制外部对象的存储方式 读/写ILinkEmbedControlleraspose.slides.export/ilinkembedcontroller
+description: 返回或设置一个回调对象该对象控制外部对象的存储方式 读/写ILinkEmbedControlleraspose.slides.export/ilinkembedcontroller.
 type: docs
 weight: 30
 url: /zh/net/aspose.slides.export/itexttohtmlconversionoptions/linkembedcontroller/
 ---
 ## ITextToHtmlConversionOptions.LinkEmbedController property
 
-返回或设置一个回调对象，该对象控制外部对象的存储方式。 读/写[`ILinkEmbedController`](../../ilinkembedcontroller)。
+返回或设置一个回调对象，该对象控制外部对象的存储方式。 读/写[`ILinkEmbedController`](../../ilinkembedcontroller).
 
 ```csharp
 public ILinkEmbedController LinkEmbedController { get; set; }

@@ -18,12 +18,12 @@ public interface IRotation3D
 
 | 姓名 | 描述 |
 | --- | --- |
-| [DepthPercents](../../aspose.slides.charts/irotation3d/depthpercents) { get; set; } | 将 3D 图表的深度返回或设置为图表宽度的百分比（介于 20% 和 2000% 之间）。 读/写UInt16。 |
-| [HeightPercents](../../aspose.slides.charts/irotation3d/heightpercents) { get; set; } | 将 3-D 图表的高度指定为图表宽度的百分比（介于 5% 和 500% 之间）。 读/写UInt16。 |
-| [Perspective](../../aspose.slides.charts/irotation3d/perspective) { get; set; } | 返回或设置 3D 图表的透视值（视野角度）（0 到 100 之间）。 如果 RightAngleAxes 属性值为 true，则忽略。 读/写Byte。 |
-| [RightAngleAxes](../../aspose.slides.charts/irotation3d/rightangleaxes) { get; set; } | 确定图表轴是否成直角，而不是透视绘制。 换句话说，它确定轴的图表角度是否独立于图表 旋转或仰角。 读/写Boolean。 |
-| [RotationX](../../aspose.slides.charts/irotation3d/rotationx) { get; set; } | 返回或设置围绕 X 轴的旋转度数，即 3D 图表的 Y 方向（-90 到 90 度之间）。 该属性与 ECMA-376 中的 21.2.2.157 rotX（X 旋转）项和 PowerPoint 2007+ 中的“Y 旋转”选项匹配。 读/写SByte。 |
-| [RotationY](../../aspose.slides.charts/irotation3d/rotationy) { get; set; } | 返回或设置绕 Y 轴的旋转度数，即 3D 图表的 X 方向（0 到 360 度之间）。 该属性与 ECMA-376 中的 21.2.2.158 rotY（Y 旋转）项和 PowerPoint 2007+ 中的“X 旋转”选项匹配。 读/写UInt16。 |
+| [DepthPercents](../../aspose.slides.charts/irotation3d/depthpercents) { get; set; } | 将 3D 图表的深度返回或设置为图表宽度的百分比（介于 20% 和 2000% 之间）。 读/写UInt16. |
+| [HeightPercents](../../aspose.slides.charts/irotation3d/heightpercents) { get; set; } | 将 3-D 图表的高度指定为图表宽度的百分比（介于 5% 和 500% 之间）。 读/写UInt16. |
+| [Perspective](../../aspose.slides.charts/irotation3d/perspective) { get; set; } | 返回或设置 3D 图表的透视值（视野角度）（0 到 100 之间）。 如果 RightAngleAxes 属性值为 true，则忽略。 读/写Byte. |
+| [RightAngleAxes](../../aspose.slides.charts/irotation3d/rightangleaxes) { get; set; } | 确定图表轴是否成直角，而不是透视绘制。 换句话说，它确定轴的图表角度是否独立于图表 旋转或仰角。 读/写Boolean. |
+| [RotationX](../../aspose.slides.charts/irotation3d/rotationx) { get; set; } | 返回或设置绕 X 轴的旋转度数，即 3D 图表的 Y 方向（-90 到 90 度之间）。 该属性与 ECMA-376 中的 21.2.2.157 rotX (X Rotation) 项匹配，并且使用 PowerPoint 2007+ 中的“Y 旋转”选项。 读/写SByte. |
+| [RotationY](../../aspose.slides.charts/irotation3d/rotationy) { get; set; } | 返回或设置绕 Y 轴的旋转度数，即 3D 图表的 X 方向（0 到 360 度之间）。 该属性与 ECMA-376 中的 21.2.2.158 rotY（Y 旋转）项匹配，并与PowerPoint 2007+ 中的“X 旋转”选项。 读/写UInt16. |
 
 ### 也可以看看
 

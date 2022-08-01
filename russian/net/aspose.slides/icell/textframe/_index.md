@@ -1,14 +1,14 @@
 ---
 title: TextFrame
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает текстовый фрейм ячейки. Только для чтенияITextFrameaspose.slides/itextframe.
+description: Возвращает текстовый фрейм ячейки. Только для чтенияITextFrameaspose.slides/itextframe .
 type: docs
 weight: 210
 url: /ru/net/aspose.slides/icell/textframe/
 ---
 ## ICell.TextFrame property
 
-Возвращает текстовый фрейм ячейки. Только для чтения[`ITextFrame`](../../itextframe).
+Возвращает текстовый фрейм ячейки. Только для чтения[`ITextFrame`](../../itextframe) .
 
 ```csharp
 public ITextFrame TextFrame { get; }

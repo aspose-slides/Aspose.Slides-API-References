@@ -1,14 +1,14 @@
 ---
 title: SpaceBefore
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置没有继承的段落中第一行之前的空格量 正值指定空白应该是字体大小的百分比 负值以磅为单位指定空白的大小 读/写Single
+description: 返回或设置没有继承的段落中第一行之前的空格量 正值指定空白应该是字体大小的百分比 负值指定空白的大小以磅为单位size. 读/写Single.
 type: docs
 weight: 150
 url: /zh/net/aspose.slides/iparagraphformat/spacebefore/
 ---
 ## IParagraphFormat.SpaceBefore property
 
-返回或设置没有继承的段落中第一行之前的空格量。 正值指定空白应该是字体大小的百分比。 负值以磅为单位指定空白的大小。 读/写Single。
+返回或设置没有继承的段落中第一行之前的空格量。 正值指定空白应该是字体大小的百分比。 负值指定空白的大小以磅为单位size. 读/写Single.
 
 ```csharp
 public float SpaceBefore { get; set; }

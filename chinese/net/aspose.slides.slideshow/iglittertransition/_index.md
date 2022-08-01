@@ -18,9 +18,9 @@ public interface IGlitterTransition : ITransitionValueBase
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/iglittertransition/asitransitionvaluebase) { get; } | 允许获取基本 ITransitionValueBase 接口。 只读[`ITransitionValueBase`](../itransitionvaluebase)。 |
-| [Direction](../../aspose.slides.slideshow/iglittertransition/direction) { get; set; } | 过渡方向。 读/写[`TransitionSideDirectionType`](../transitionsidedirectiontype)。 |
-| [Pattern](../../aspose.slides.slideshow/iglittertransition/pattern) { get; set; } | 指定过渡期间使用的视觉效果的形状。 读/写[`TransitionPattern`](../transitionpattern)。 |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/iglittertransition/asitransitionvaluebase) { get; } | 允许获取基本 ITransitionValueBase 接口。 只读[`ITransitionValueBase`](../itransitionvaluebase). |
+| [Direction](../../aspose.slides.slideshow/iglittertransition/direction) { get; set; } | 转换方向。 读/写[`TransitionSideDirectionType`](../transitionsidedirectiontype). |
+| [Pattern](../../aspose.slides.slideshow/iglittertransition/pattern) { get; set; } | 指定过渡期间使用的视觉效果的形状。 读/写[`TransitionPattern`](../transitionpattern). |
 
 ### 也可以看看
 

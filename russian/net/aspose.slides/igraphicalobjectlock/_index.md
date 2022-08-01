@@ -18,13 +18,13 @@ public interface IGraphicalObjectLock : IBaseShapeLock
 
 | Имя | Описание |
 | --- | --- |
-| [AsIBaseShapeLock](../../aspose.slides/igraphicalobjectlock/asibaseshapelock) { get; } | Позволяет получить базовый интерфейс IBaseShapeLock. Только для чтения[`IBaseShapeLock`](../ibaseshapelock). |
-| [AspectRatioLocked](../../aspose.slides/igraphicalobjectlock/aspectratiolocked) { get; set; } | Определяет, должна ли фигура сохранять соотношение сторон при изменении размера. Чтение/записьBoolean. |
-| [DrilldownLocked](../../aspose.slides/igraphicalobjectlock/drilldownlocked) { get; set; } | Определяет, запрещен ли выбор подформ этого объекта. Чтение/записьBoolean. |
-| [GroupingLocked](../../aspose.slides/igraphicalobjectlock/groupinglocked) { get; set; } | Определяет, запрещено ли добавление этой формы в группу. Чтение/записьBoolean. |
-| [PositionLocked](../../aspose.slides/igraphicalobjectlock/positionlocked) { get; set; } | Определяет, запрещено ли перемещение этой фигуры. Чтение/записьBoolean. |
-| [SelectLocked](../../aspose.slides/igraphicalobjectlock/selectlocked) { get; set; } | Определяет, запрещен ли выбор этой фигуры. Чтение/записьBoolean. |
-| [SizeLocked](../../aspose.slides/igraphicalobjectlock/sizelocked) { get; set; } | Определяет, запрещено ли изменение размера этой фигуры. Чтение/записьBoolean. |
+| [AsIBaseShapeLock](../../aspose.slides/igraphicalobjectlock/asibaseshapelock) { get; } | Позволяет получить базовый интерфейс IBaseShapeLock. Только для чтения[`IBaseShapeLock`](../ibaseshapelock) . |
+| [AspectRatioLocked](../../aspose.slides/igraphicalobjectlock/aspectratiolocked) { get; set; } | Определяет, должна ли фигура сохранять соотношение сторон при изменении размера. Чтение/записьBoolean . |
+| [DrilldownLocked](../../aspose.slides/igraphicalobjectlock/drilldownlocked) { get; set; } | Определяет, запрещен ли выбор подформ этого объекта. Чтение/записьBoolean . |
+| [GroupingLocked](../../aspose.slides/igraphicalobjectlock/groupinglocked) { get; set; } | Определяет, запрещено ли добавление этой формы в группу. Чтение/записьBoolean . |
+| [PositionLocked](../../aspose.slides/igraphicalobjectlock/positionlocked) { get; set; } | Определяет, запрещено ли перемещение этой фигуры. Чтение/записьBoolean . |
+| [SelectLocked](../../aspose.slides/igraphicalobjectlock/selectlocked) { get; set; } | Определяет, запрещен ли выбор этой формы. Чтение/записьBoolean . |
+| [SizeLocked](../../aspose.slides/igraphicalobjectlock/sizelocked) { get; set; } | Определяет, запрещено ли изменение размера этой фигуры. Чтение/записьBoolean . |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: Add
 second_title: Справочник по API Aspose.Slides для .NET
-description: Добавить новую команду в путь
+description: Добавить новую команду в path
 type: docs
 weight: 40
 url: /ru/net/aspose.slides.animation/imotionpath/add/
 ---
 ## IMotionPath.Add method
 
-Добавить новую команду в путь
+Добавить новую команду в path
 
 ```csharp
 public IMotionCmdPath Add(MotionCommandPathType type, PointF[] pts, MotionPathPointsType ptsType, 
@@ -17,9 +17,9 @@ public IMotionCmdPath Add(MotionCommandPathType type, PointF[] pts, MotionPathPo
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| type | MotionCommandPathType | Тип команды для анимации поведение эффекта движения[`MotionCommandPathType`](../../motioncommandpathtype) |
+| type | MotionCommandPathType | Тип команды для поведения эффекта движения анимации[`MotionCommandPathType`](../../motioncommandpathtype) |
 | pts | PointF[] | Массив точекPointF[] |
-| ptsType | MotionPathPointsType | Тип точек в пути движения анимации[`MotionPathPointsType`](../../motionpathpointstype) |
+| ptsType | MotionPathPointsType | Тип точек на пути движения анимации[`MotionPathPointsType`](../../motionpathpointstype) |
 | bRelativeCoord | Boolean | Указывает, использовать ли относительные координаты или нетBoolean |
 
 ### Возвращаемое значение

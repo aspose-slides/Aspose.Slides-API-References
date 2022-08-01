@@ -1,14 +1,14 @@
 ---
 title: Direction
 second_title: Aspose.Slides for .NET API 参考
-description: 过渡方向 读/写TransitionCornerAndCenterDirectionTypeaspose.slides.slideshow/transitioncornerandcenterdirectiontype
+description: 转换方向 读/写TransitionCornerAndCenterDirectionTypeaspose.slides.slideshow/transitioncornerandcenterdirectiontype.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides.slideshow/rippletransition/direction/
 ---
 ## RippleTransition.Direction property
 
-过渡方向。 读/写[`TransitionCornerAndCenterDirectionType`](../../transitioncornerandcenterdirectiontype)。
+转换方向。 读/写[`TransitionCornerAndCenterDirectionType`](../../transitioncornerandcenterdirectiontype).
 
 ```csharp
 public TransitionCornerAndCenterDirectionType Direction { get; set; }

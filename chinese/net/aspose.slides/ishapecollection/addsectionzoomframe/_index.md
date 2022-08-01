@@ -17,15 +17,15 @@ public ISectionZoomFrame AddSectionZoomFrame(float x, float y, float width, floa
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| x | Single | 新的 X 坐标部分缩放框架Single。 |
-| y | Single | 新截面缩放框的 Y 坐标Single。 |
-| width | Single | 新截面缩放框的宽度Single。 |
-| height | Single | 新截面缩放框的高度Single。 |
-| section | ISection | Section Zoom frame[`ISection`](../../isection)引用的section对象。 |
+| x | Single | 新截面缩放框架的 X 坐标Single. |
+| y | Single | 新截面缩放框架的 Y 坐标Single. |
+| width | Single | 新截面缩放框的宽度Single. |
+| height | Single | 新截面缩放框的高度Single. |
+| section | ISection | 截面缩放框架引用的截面对象[`ISection`](../../isection). |
 
 ### 返回值
 
-创建截面缩放对象[`ISectionZoomFrame`](../../isectionzoomframe)。
+创建截面缩放对象[`ISectionZoomFrame`](../../isectionzoomframe).
 
 ### 例外
 
@@ -35,7 +35,7 @@ public ISectionZoomFrame AddSectionZoomFrame(float x, float y, float width, floa
 
 ### 例子
 
-此示例演示了将 Section Zoom 对象添加到集合的末尾 :（假设“Presentation.pptx”演示文稿中至少有两个部分）:
+这个例子演示了在集合的末尾添加一个Section Zoom对象 （假设“Presentation.pptx”演示文稿中至少有两个部分）：
 
 ```csharp
 [C#]
@@ -57,7 +57,7 @@ using (Presentation pres = new Presentation("Presentation.pptx"))
 
 ## AddSectionZoomFrame(float, float, float, float, ISection, IPPImage) {#addsectionzoomframe_1}
 
-将新的 Section Zoom 对象添加到带有预定义图像的集合的末尾。
+将新的截面缩放对象添加到具有预定义图像的集合的末尾。
 
 ```csharp
 public ISectionZoomFrame AddSectionZoomFrame(float x, float y, float width, float height, 
@@ -66,16 +66,16 @@ public ISectionZoomFrame AddSectionZoomFrame(float x, float y, float width, floa
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| x | Single | 新的 X 坐标部分缩放框架Single。 |
-| y | Single | 新截面缩放框的 Y 坐标Single。 |
-| width | Single | 新截面缩放框的宽度Single。 |
-| height | Single | 新截面缩放框的高度Single。 |
-| section | ISection | Section Zoom frame[`ISection`](../../isection)引用的section对象。 |
+| x | Single | 新截面缩放框架的 X 坐标Single. |
+| y | Single | 新截面缩放框架的 Y 坐标Single. |
+| width | Single | 新截面缩放框的宽度Single. |
+| height | Single | 新截面缩放框的高度Single. |
+| section | ISection | 截面缩放框架引用的截面对象[`ISection`](../../isection). |
 | image | IPPImage | 引用幻灯片的图像[`IPPImage`](../../ippimage) |
 
 ### 返回值
 
-创建截面缩放对象[`ISectionZoomFrame`](../../isectionzoomframe)。
+创建截面缩放对象[`ISectionZoomFrame`](../../isectionzoomframe).
 
 ### 例外
 
@@ -85,7 +85,7 @@ public ISectionZoomFrame AddSectionZoomFrame(float x, float y, float width, floa
 
 ### 例子
 
-此示例演示了将 Section Zoom 对象添加到集合的末尾 :（假设“Presentation.pptx”演示文稿中至少有两个部分）:
+这个例子演示了在集合的末尾添加一个Section Zoom对象 （假设“Presentation.pptx”演示文稿中至少有两个部分）：
 
 ```csharp
 [C#]

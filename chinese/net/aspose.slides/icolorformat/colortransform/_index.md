@@ -1,14 +1,14 @@
 ---
 title: ColorTransform
 second_title: Aspose.Slides for .NET API 参考
-description: 返回应用于颜色的颜色转换的集合 只读IColorOperationCollectionaspose.slides/icoloroperationcollection
+description: 返回应用于颜色的颜色转换的集合 只读IColorOperationCollectionaspose.slides/icoloroperationcollection.
 type: docs
 weight: 40
 url: /zh/net/aspose.slides/icolorformat/colortransform/
 ---
 ## IColorFormat.ColorTransform property
 
-返回应用于颜色的颜色转换的集合。 只读[`IColorOperationCollection`](../../icoloroperationcollection)。
+返回应用于颜色的颜色转换的集合。 只读[`IColorOperationCollection`](../../icoloroperationcollection).
 
 ```csharp
 public IColorOperationCollection ColorTransform { get; }

@@ -18,8 +18,8 @@ public interface ICustomData
 
 | Имя | Описание |
 | --- | --- |
-| [CustomXmlParts](../../aspose.slides/icustomdata/customxmlparts) { get; } | Возвращает пользовательскую коллекцию частей xml. Только для чтения[`ICustomXmlPartCollection`](../icustomxmlpartcollection). |
-| [Tags](../../aspose.slides/icustomdata/tags) { get; } | Возвращает коллекцию тегов данных клиента. Только для чтения[`ITagCollection`](../itagcollection). |
+| [CustomXmlParts](../../aspose.slides/icustomdata/customxmlparts) { get; } | Возвращает пользовательскую коллекцию частей xml. Только для чтения[`ICustomXmlPartCollection`](../icustomxmlpartcollection) . |
+| [Tags](../../aspose.slides/icustomdata/tags) { get; } | Возвращает коллекцию тегов данных клиента. Только для чтения[`ITagCollection`](../itagcollection) . |
 
 ### Смотрите также
 

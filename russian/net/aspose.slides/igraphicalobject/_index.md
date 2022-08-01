@@ -18,9 +18,9 @@ public interface IGraphicalObject : IShape
 
 | Имя | Описание |
 | --- | --- |
-| [AsIShape](../../aspose.slides/igraphicalobject/asishape) { get; } | Позволяет получить базовый интерфейс IShape. Только для чтения[`IShape`](../ishape). |
-| [GraphicalObjectLock](../../aspose.slides/igraphicalobject/graphicalobjectlock) { get; } | Возвращает блокировки фигуры. Только для чтения[`IGraphicalObjectLock`](../igraphicalobjectlock). |
-| [ShapeLock](../../aspose.slides/igraphicalobject/shapelock) { get; } | Возвращает блокировки фигуры. Только для чтения[`IGraphicalObjectLock`](../igraphicalobjectlock). |
+| [AsIShape](../../aspose.slides/igraphicalobject/asishape) { get; } | Позволяет получить базовый интерфейс IShape. Только для чтения[`IShape`](../ishape) . |
+| [GraphicalObjectLock](../../aspose.slides/igraphicalobject/graphicalobjectlock) { get; } | Возвращает блокировки формы. Только для чтения[`IGraphicalObjectLock`](../igraphicalobjectlock) . |
+| [ShapeLock](../../aspose.slides/igraphicalobject/shapelock) { get; } | Возвращает блокировки формы. Только для чтения[`IGraphicalObjectLock`](../igraphicalobjectlock) . |
 
 ### Смотрите также
 

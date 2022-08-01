@@ -1,14 +1,14 @@
 ---
 title: AddDataPointForPieSeries
 second_title: Справочник по API Aspose.Slides для .NET
-description: Создает новую точку данных и добавляет ее в конец коллекции. Применимо для серий тип диаграммы которых является одним из подтипов круговой диаграммы см. также метод ChartTypeCharacterizer.IsChartTypePieChartType.
+description: Создает новую точку данных и добавляет ее в конец коллекции. Применяется для рядов тип диаграммы которых является одним из подтипов круговой диаграммы см. также метод ChartTypeCharacterizer.IsChartTypePieChartType.
 type: docs
 weight: 160
 url: /ru/net/aspose.slides.charts/ichartdatapointcollection/adddatapointforpieseries/
 ---
 ## AddDataPointForPieSeries(IChartDataCell) {#adddatapointforpieseries}
 
-Создает новую точку данных и добавляет ее в конец коллекции. Применимо для серий, тип диаграммы которых является одним из подтипов круговой диаграммы (см. также метод ChartTypeCharacterizer.IsChartTypePie(ChartType)).
+Создает новую точку данных и добавляет ее в конец коллекции. Применяется для рядов, тип диаграммы которых является одним из подтипов круговой диаграммы (см. также метод ChartTypeCharacterizer.IsChartTypePie(ChartType)).
 
 ```csharp
 public IChartDataPoint AddDataPointForPieSeries(IChartDataCell value)
@@ -16,7 +16,7 @@ public IChartDataPoint AddDataPointForPieSeries(IChartDataCell value)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| значение | IChartDataCell | Точка данных Значение |
+| value | IChartDataCell | Точка данных Значение |
 
 ### Возвращаемое значение
 
@@ -34,7 +34,7 @@ public IChartDataPoint AddDataPointForPieSeries(IChartDataCell value)
 
 ## AddDataPointForPieSeries(double) {#adddatapointforpieseries_1}
 
-Создает новую точку данных и добавляет ее в конец коллекции. Применимо для серий, тип диаграммы которых является одним из подтипов круговой диаграммы (см. также метод ChartTypeCharacterizer.IsChartTypePie(ChartType)).
+Создает новую точку данных и добавляет ее в конец коллекции. Применяется для рядов, тип диаграммы которых является одним из подтипов круговой диаграммы (см. также метод ChartTypeCharacterizer.IsChartTypePie(ChartType)).
 
 ```csharp
 public IChartDataPoint AddDataPointForPieSeries(double value)
@@ -42,7 +42,7 @@ public IChartDataPoint AddDataPointForPieSeries(double value)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| значение | Double | Точка данных Значение |
+| value | Double | Точка данных Значение |
 
 ### Возвращаемое значение
 

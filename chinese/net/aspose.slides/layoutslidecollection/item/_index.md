@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Slides for .NET API 参考
-description: 按索引返回布局幻灯片 只读LayoutSlideaspose.slides/layoutslide
+description: 按索引返回布局幻灯片 只读LayoutSlideaspose.slides/layoutslide.
 type: docs
 weight: 30
 url: /zh/net/aspose.slides/layoutslidecollection/item/
 ---
 ## LayoutSlideCollection indexer
 
-按索引返回布局幻灯片。 只读[`LayoutSlide`](../../layoutslide)。
+按索引返回布局幻灯片。 只读[`LayoutSlide`](../../layoutslide).
 
 ```csharp
 public ILayoutSlide this[int index] { get; }

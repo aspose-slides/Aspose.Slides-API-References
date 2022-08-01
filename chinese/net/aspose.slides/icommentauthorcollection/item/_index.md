@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Slides for .NET API 参考
-description: 获取指定索引处的元素 只读ICommentAuthoraspose.slides/icommentauthor
+description: 获取指定索引处的元素 只读ICommentAuthoraspose.slides/icommentauthor.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides/icommentauthorcollection/item/
 ---
 ## ICommentAuthorCollection indexer
 
-获取指定索引处的元素。 只读[`ICommentAuthor`](../../icommentauthor)。
+获取指定索引处的元素。 只读[`ICommentAuthor`](../../icommentauthor).
 
 ```csharp
 public ICommentAuthor this[int index] { get; }

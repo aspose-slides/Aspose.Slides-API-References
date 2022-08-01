@@ -1,14 +1,14 @@
 ---
 title: AutofitType
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или устанавливает режим автоподгонки текста. Чтение/записьTextAutofitTypeaspose.slides/textautofittype.
+description: Возвращает или устанавливает режим автоподбора текста. Чтение/записьTextAutofitTypeaspose.slides/textautofittype .
 type: docs
 weight: 30
 url: /ru/net/aspose.slides/textframeformat/autofittype/
 ---
 ## TextFrameFormat.AutofitType property
 
-Возвращает или устанавливает режим автоподгонки текста. Чтение/запись[`TextAutofitType`](../../textautofittype).
+Возвращает или устанавливает режим автоподбора текста. Чтение/запись[`TextAutofitType`](../../textautofittype) .
 
 ```csharp
 public TextAutofitType AutofitType { get; set; }

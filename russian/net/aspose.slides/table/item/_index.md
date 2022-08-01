@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает ячейку с указанными индексами столбца и строки. Только для чтенияCellaspose.slides/cell.
+description: Возвращает ячейку с указанными индексами столбца и строки. Только для чтенияCellaspose.slides/cell .
 type: docs
 weight: 50
 url: /ru/net/aspose.slides/table/item/
 ---
 ## Table indexer
 
-Возвращает ячейку с указанными индексами столбца и строки. Только для чтения[`Cell`](../../cell).
+Возвращает ячейку с указанными индексами столбца и строки. Только для чтения[`Cell`](../../cell) .
 
 ```csharp
 public ICell this[int columnIndex, int rowIndex] { get; }

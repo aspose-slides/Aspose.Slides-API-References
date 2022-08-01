@@ -1,14 +1,14 @@
 ---
 title: FirstCol
 second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет должен ли первый столбец таблицы отображаться со специальным форматированием. Чтение/записьBoolean.
+description: Определяет должен ли первый столбец таблицы отображаться со специальным форматированием. Чтение/записьBoolean .
 type: docs
 weight: 40
 url: /ru/net/aspose.slides/itable/firstcol/
 ---
 ## ITable.FirstCol property
 
-Определяет, должен ли первый столбец таблицы отображаться со специальным форматированием. Чтение/записьBoolean.
+Определяет, должен ли первый столбец таблицы отображаться со специальным форматированием. Чтение/записьBoolean .
 
 ```csharp
 public bool FirstCol { get; set; }

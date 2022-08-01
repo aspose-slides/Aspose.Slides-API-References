@@ -1,14 +1,14 @@
 ---
 title: ChartTitle
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置图表标题 只读IChartTitleaspose.slides.charts/icharttitle
+description: 返回或设置图表标题 只读IChartTitleaspose.slides.charts/icharttitle.
 type: docs
 weight: 70
 url: /zh/net/aspose.slides.charts/chart/charttitle/
 ---
 ## Chart.ChartTitle property
 
-返回或设置图表标题。 只读[`IChartTitle`](../../icharttitle)。
+返回或设置图表标题。 只读[`IChartTitle`](../../icharttitle).
 
 ```csharp
 public IChartTitle ChartTitle { get; }

@@ -1,14 +1,14 @@
 ---
 title: EffectSubtype
 second_title: Aspose.Slides for .NET API 参考
-description: 表示动画效果的子类型
+description: 代表动画效果的子类型
 type: docs
 weight: 240
 url: /zh/net/aspose.slides.animation/effectsubtype/
 ---
 ## EffectSubtype enumeration
 
-表示动画效果的子类型。
+代表动画效果的子类型。
 
 ```csharp
 public enum EffectSubtype

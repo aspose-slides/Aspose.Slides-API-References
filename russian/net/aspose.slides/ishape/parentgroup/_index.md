@@ -1,14 +1,14 @@
 ---
 title: ParentGroup
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает родительский объект GroupShape если фигура сгруппирована. В противном случае возвращает ноль. Только для чтенияIGroupShapeaspose.slides/igroupshape.
+description: Возвращает родительский объект GroupShape если фигура сгруппирована. В противном случае возвращает null. Только для чтенияIGroupShapeaspose.slides/igroupshape .
 type: docs
 weight: 180
 url: /ru/net/aspose.slides/ishape/parentgroup/
 ---
 ## IShape.ParentGroup property
 
-Возвращает родительский объект GroupShape, если фигура сгруппирована. В противном случае возвращает ноль. Только для чтения[`IGroupShape`](../../igroupshape).
+Возвращает родительский объект GroupShape, если фигура сгруппирована. В противном случае возвращает null. Только для чтения[`IGroupShape`](../../igroupshape) .
 
 ```csharp
 public IGroupShape ParentGroup { get; }
@@ -16,7 +16,7 @@ public IGroupShape ParentGroup { get; }
 
 ### Примечания
 
-Свойство[`IsGrouped`](../isgrouped)определяет, форма сгруппирована.
+Свойство[`IsGrouped`](../isgrouped) определяет, сгруппирована ли фигура.
 
 ### Смотрите также
 

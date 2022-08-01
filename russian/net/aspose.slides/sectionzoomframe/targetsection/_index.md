@@ -1,14 +1,14 @@
 ---
 title: TargetSection
 second_title: Справочник по API Aspose.Slides для .NET
-description: Получает или задает объект раздела на который ссылается объект Масштаб раздела. Чтение/записьISectionaspose.slides/isection.
+description: Получает или задает объект раздела на который ссылается объект Масштаб раздела. Чтение/записьISectionaspose.slides/isection .
 type: docs
 weight: 10
 url: /ru/net/aspose.slides/sectionzoomframe/targetsection/
 ---
 ## SectionZoomFrame.TargetSection property
 
-Получает или задает объект раздела, на который ссылается объект «Масштаб раздела». Чтение/запись[`ISection`](../../isection).
+Получает или задает объект раздела, на который ссылается объект «Масштаб раздела». Чтение/запись[`ISection`](../../isection) .
 
 ```csharp
 public ISection TargetSection { get; set; }

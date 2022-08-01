@@ -20,7 +20,7 @@ public int GetCount(IShape shape)
 
 ### 返回值
 
-效果计数Int32
+效果数Int32
 
 ### 也可以看看
 

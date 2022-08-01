@@ -1,14 +1,14 @@
 ---
 title: TileFlip
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置渐变的翻转模式 读/写TileFlipaspose.slides/tileflip
+description: 返回或设置渐变的翻转模式 读/写TileFlipaspose.slides/tileflip.
 type: docs
 weight: 70
 url: /zh/net/aspose.slides/igradientformat/tileflip/
 ---
 ## IGradientFormat.TileFlip property
 
-返回或设置渐变的翻转模式。 读/写[`TileFlip`](../../tileflip)。
+返回或设置渐变的翻转模式。 读/写[`TileFlip`](../../tileflip).
 
 ```csharp
 public TileFlip TileFlip { get; set; }

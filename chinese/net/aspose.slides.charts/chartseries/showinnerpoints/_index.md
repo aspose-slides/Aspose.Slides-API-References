@@ -1,14 +1,14 @@
 ---
 title: ShowInnerPoints
 second_title: Aspose.Slides for .NET API 参考
-description: 表示内点如果内部点显示在 BoxAndWhisker 图表上则为真仅适用于 BoxAndWhisker 图表 读/写Boolean
+description: 表示内部点如果内部点显示在 BoxAndWhisker 图表上则为真仅适用于 BoxAndWhisker 图表 读/写Boolean.
 type: docs
 weight: 380
 url: /zh/net/aspose.slides.charts/chartseries/showinnerpoints/
 ---
 ## ChartSeries.ShowInnerPoints property
 
-表示内点。如果内部点显示在 BoxAndWhisker 图表上，则为真。仅适用于 BoxAndWhisker 图表。 读/写Boolean。
+表示内部点。如果内部点显示在 BoxAndWhisker 图表上，则为真。仅适用于 BoxAndWhisker 图表。 读/写Boolean.
 
 ```csharp
 public bool ShowInnerPoints { get; set; }

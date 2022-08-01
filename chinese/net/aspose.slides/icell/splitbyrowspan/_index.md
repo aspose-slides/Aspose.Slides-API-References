@@ -16,7 +16,7 @@ public void SplitByRowSpan(int index)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| index | Int32 | 行索引。 |
+| index | Int32 | 行的索引。 |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: SetGeometryPath
 second_title: Aspose.Slides for .NET API 参考
-description: 从IGeometryPathaspose.slides/igeometrypath对象更新形状几何坐标必须相对于形状的左 上角 将形状的类型ShapeTypeaspose.slides/geometryshape/shapetype更改为Custom.
+description: 更新形状几何IGeometryPathaspose.slides/igeometrypath目的坐标必须相对于形状的 left 上角 更改形状的类型ShapeTypeaspose.slides/geometryshape/shapetype  至Custom
 type: docs
 weight: 60
 url: /zh/net/aspose.slides/geometryshape/setgeometrypath/
 ---
 ## GeometryShape.SetGeometryPath method
 
-从[`IGeometryPath`](../../igeometrypath)对象更新形状几何。坐标必须相对于形状的左 上角。 将形状的类型（[`ShapeType`](../shapetype)）更改为Custom.
+更新形状几何[`IGeometryPath`](../../igeometrypath)目的。坐标必须相对于形状的 left 上角。 更改形状的类型（[`ShapeType`](../shapetype) ） 至Custom
 
 ```csharp
 public void SetGeometryPath(IGeometryPath geometryPath)
@@ -22,12 +22,12 @@ public void SetGeometryPath(IGeometryPath geometryPath)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentException | 否找到路径 |
+| ArgumentException | 找不到路径 |
 | ArgumentException | 找到空路径 |
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]

@@ -1,14 +1,14 @@
 ---
 title: HighlightText
 second_title: Aspose.Slides for .NET API 参考
-description: 使用指定的颜色突出显示文本框架文本中样本的所有匹配项
+description: 使用指定颜色突出显示文本框架文本中样本的所有匹配项
 type: docs
 weight: 80
 url: /zh/net/aspose.slides/textframe/highlighttext/
 ---
 ## HighlightText(string, Color) {#highlighttext}
 
-使用指定的颜色突出显示文本框架文本中样本的所有匹配项。
+使用指定颜色突出显示文本框架文本中样本的所有匹配项。
 
 ```csharp
 public void HighlightText(string text, Color highlightColor)
@@ -17,7 +17,7 @@ public void HighlightText(string text, Color highlightColor)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | text | String | 要突出显示的文本示例。 |
-| highlightColor | Color | 高亮颜色。 |
+| highlightColor | Color | 突出颜色。 |
 
 ### 也可以看看
 
@@ -29,7 +29,7 @@ public void HighlightText(string text, Color highlightColor)
 
 ## HighlightText(string, Color, ITextHighlightingOptions) {#highlighttext_1}
 
-使用指定的颜色突出显示文本框架文本中样本的所有匹配项。
+使用指定颜色突出显示文本框架文本中样本的所有匹配项。
 
 ```csharp
 public void HighlightText(string text, Color highlightColor, ITextHighlightingOptions options)
@@ -38,8 +38,8 @@ public void HighlightText(string text, Color highlightColor, ITextHighlightingOp
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | text | String | 要突出显示的文本示例。 |
-| highlightColor | Color | 高亮颜色。 |
-| options | ITextHighlightingOptions | 高亮选项。 |
+| highlightColor | Color | 突出颜色。 |
+| options | ITextHighlightingOptions | 突出显示选项。 |
 
 ### 也可以看看
 

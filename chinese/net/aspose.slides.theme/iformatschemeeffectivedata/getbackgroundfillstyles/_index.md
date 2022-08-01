@@ -20,7 +20,7 @@ public IFillFormatCollectionEffectiveData GetBackgroundFillStyles(Color styleCol
 
 ### 返回值
 
-有效背景填充格式集合[`IFillFormatCollectionEffectiveData`](../../ifillformatcollectioneffectivedata)
+收集有效的背景填充格式[`IFillFormatCollectionEffectiveData`](../../ifillformatcollectioneffectivedata)
 
 ### 也可以看看
 

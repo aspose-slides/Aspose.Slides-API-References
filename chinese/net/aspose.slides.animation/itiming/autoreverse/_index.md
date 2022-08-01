@@ -1,14 +1,14 @@
 ---
 title: AutoReverse
 second_title: Aspose.Slides for .NET API 参考
-description: 描述动画 正向播放后是否自动反向播放 读/写Boolean
+description: 描述动画是否自动反向播放 正向播放 读/写Boolean.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides.animation/itiming/autoreverse/
 ---
 ## ITiming.AutoReverse property
 
-描述动画 正向播放后是否自动反向播放。 读/写Boolean。
+描述动画是否自动反向播放 正向播放。 读/写Boolean.
 
 ```csharp
 public bool AutoReverse { get; set; }

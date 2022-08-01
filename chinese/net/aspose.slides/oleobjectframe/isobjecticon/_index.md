@@ -1,14 +1,14 @@
 ---
 title: IsObjectIcon
 second_title: Aspose.Slides for .NET API 参考
-description: 确定对象是否作为图标可见 读/写Boolean
+description: 确定对象是否作为图标可见 读/写Boolean.
 type: docs
 weight: 50
 url: /zh/net/aspose.slides/oleobjectframe/isobjecticon/
 ---
 ## OleObjectFrame.IsObjectIcon property
 
-确定对象是否作为图标可见。 读/写Boolean。
+确定对象是否作为图标可见。 读/写Boolean.
 
 ```csharp
 public bool IsObjectIcon { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: InterruptionToken
 second_title: Справочник по API Aspose.Slides для .NET
-description: Этот класс представляет токен используемый для сигнализации длительных задач о том было ли запрошено прерывание.
+description: Этот класс представляет токен который используется для сигнализации длительных задач о том было ли запрошено прерывание.
 type: docs
 weight: 6910
 url: /ru/net/aspose.slides/interruptiontoken/
 ---
 ## InterruptionToken class
 
-Этот класс представляет токен, используемый для сигнализации длительных задач о том, было ли запрошено прерывание.
+Этот класс представляет токен, который используется для сигнализации длительных задач о том, было ли запрошено прерывание.
 
 ```csharp
 public class InterruptionToken : IInterruptionToken
@@ -18,14 +18,14 @@ public class InterruptionToken : IInterruptionToken
 
 | Имя | Описание |
 | --- | --- |
-| static [None](../../aspose.slides/interruptiontoken/none) { get; } | Представляет пустой маркер прерывания.  Длительные операции никогда не будут прерываться через[`Interrupt`](../interruptiontokensource/interrupt) при использовании этот токен. |
-| [IsInterruptionRequested](../../aspose.slides/interruptiontoken/isinterruptionrequested) { get; } | ВозвращаетBoolean.true, если было запрошено прерывание. |
+| static [None](../../aspose.slides/interruptiontoken/none) { get; } | Представляет пустой токен прерывания.  Длительные операции никогда не будут прерваны через[`Interrupt`](../interruptiontokensource/interrupt) при использовании этого токена. |
+| [IsInterruptionRequested](../../aspose.slides/interruptiontoken/isinterruptionrequested) { get; } | ВозвращаетBoolean .true, если было запрошено прерывание. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [ThrowIfInterruptionRequested](../../aspose.slides/interruptiontoken/throwifinterruptionrequested)() | Выдает OperationCanceledException , если прерывание было просил. |
+| [ThrowIfInterruptionRequested](../../aspose.slides/interruptiontoken/throwifinterruptionrequested)() | ВыбрасываетOperationCanceledException if было запрошено прерывание. |
 
 ### Смотрите также
 

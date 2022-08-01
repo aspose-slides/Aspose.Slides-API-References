@@ -1,14 +1,14 @@
 ---
 title: CustomXmlPartCollection
 second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет набор пользовательских частей xml.
+description: Представляет коллекцию пользовательских частей XML.
 type: docs
 weight: 2600
 url: /ru/net/aspose.slides/customxmlpartcollection/
 ---
 ## CustomXmlPartCollection class
 
-Представляет набор пользовательских частей xml.
+Представляет коллекцию пользовательских частей XML.
 
 ```csharp
 public class CustomXmlPartCollection : ICustomXmlPartCollection
@@ -18,10 +18,10 @@ public class CustomXmlPartCollection : ICustomXmlPartCollection
 
 | Имя | Описание |
 | --- | --- |
-| [Count](../../aspose.slides/customxmlpartcollection/count) { get; } | Возвращает количество пользовательских частей xml в коллекции. Только для чтенияInt32. |
-| [IsSynchronized](../../aspose.slides/customxmlpartcollection/issynchronized) { get; } | Возвращает значение, указывающее, является ли доступ к коллекции синхронизированным (потокобезопасным). Только чтениеBoolean. |
+| [Count](../../aspose.slides/customxmlpartcollection/count) { get; } | Возвращает количество пользовательских частей xml в коллекции. Только для чтенияInt32 . |
+| [IsSynchronized](../../aspose.slides/customxmlpartcollection/issynchronized) { get; } | Возвращает значение, указывающее, является ли доступ к коллекции синхронизированным (потокобезопасным). Только для чтенияBoolean . |
 | [Item](../../aspose.slides/customxmlpartcollection/item) { get; } | Возвращает элемент по указанному индексу. |
-| [SyncRoot](../../aspose.slides/customxmlpartcollection/syncroot) { get; } | Возвращает корень синхронизации. Только для чтенияObject. |
+| [SyncRoot](../../aspose.slides/customxmlpartcollection/syncroot) { get; } | Возвращает корень синхронизации. Только для чтенияObject . |
 
 ## Методы
 
@@ -30,9 +30,9 @@ public class CustomXmlPartCollection : ICustomXmlPartCollection
 | [Add](../../aspose.slides/customxmlpartcollection/add#add)(byte[]) | Добавляет новую пользовательскую часть xml. |
 | [Add](../../aspose.slides/customxmlpartcollection/add#add_1)(Stream) | Добавляет новую пользовательскую часть xml. |
 | [Add](../../aspose.slides/customxmlpartcollection/add#add_2)(string) | Добавляет новую пользовательскую часть xml. |
-| [Clear](../../aspose.slides/customxmlpartcollection/clear)() | Удаляет все предметы из коллекции. |
+| [Clear](../../aspose.slides/customxmlpartcollection/clear)() | Удаляет все элементы из коллекции. |
 | [CopyTo](../../aspose.slides/customxmlpartcollection/copyto)(Array, int) | Копировать в указанный массив. |
-| [GetEnumerator](../../aspose.slides/customxmlpartcollection/getenumerator)() | Возвращает перечислитель, который перебирает коллекцию. |
+| [GetEnumerator](../../aspose.slides/customxmlpartcollection/getenumerator)() | Возвращает перечислитель, который выполняет итерацию по коллекции. |
 | [Remove](../../aspose.slides/customxmlpartcollection/remove)(ICustomXmlPart) | Удаляет первое вхождение определенного объекта из коллекции. |
 | [RemoveAt](../../aspose.slides/customxmlpartcollection/removeat)(int) | Удаляет пользовательскую часть xml по указанному индексу. |
 

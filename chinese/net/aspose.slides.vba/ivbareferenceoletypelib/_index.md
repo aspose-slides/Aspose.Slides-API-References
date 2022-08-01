@@ -18,8 +18,8 @@ public interface IVbaReferenceOleTypeLib : IVbaReference
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsIVbaReference](../../aspose.slides.vba/ivbareferenceoletypelib/asivbareference) { get; } | 返回 IVbaReference 接口。 只读[`IVbaReference`](../ivbareference)。 |
-| [Libid](../../aspose.slides.vba/ivbareferenceoletypelib/libid) { get; set; } | 表示自动化类型库的标识符。 读/写String。 |
+| [AsIVbaReference](../../aspose.slides.vba/ivbareferenceoletypelib/asivbareference) { get; } | 返回 IVbaReference 接口。 只读[`IVbaReference`](../ivbareference). |
+| [Libid](../../aspose.slides.vba/ivbareferenceoletypelib/libid) { get; set; } | 表示自动化类型库的标识符。 读/写String. |
 
 ### 也可以看看
 

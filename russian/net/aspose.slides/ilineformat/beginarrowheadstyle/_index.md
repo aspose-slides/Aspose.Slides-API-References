@@ -1,14 +1,14 @@
 ---
 title: BeginArrowheadStyle
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или задает стиль стрелки в начале строки. Чтение/записьLineArrowheadStyleaspose.slides/linearrowheadstyle.
+description: Возвращает или задает стиль стрелки в начале строки. Чтение/записьLineArrowheadStyleaspose.slides/linearrowheadstyle .
 type: docs
 weight: 40
 url: /ru/net/aspose.slides/ilineformat/beginarrowheadstyle/
 ---
 ## ILineFormat.BeginArrowheadStyle property
 
-Возвращает или задает стиль стрелки в начале строки. Чтение/запись[`LineArrowheadStyle`](../../linearrowheadstyle).
+Возвращает или задает стиль стрелки в начале строки. Чтение/запись[`LineArrowheadStyle`](../../linearrowheadstyle) .
 
 ```csharp
 public LineArrowheadStyle BeginArrowheadStyle { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: EncodingName
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置 html 编码名称 此值将保存到生成的 HTML 文件中但由调用者确保文件将以这种编码保存 读/写String
+description: 返回或设置 html 编码名称 此值将保存到生成的 HTML 文件中但由调用者确保文件将以此编码保存 读/写String.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides.export/itexttohtmlconversionoptions/encodingname/
 ---
 ## ITextToHtmlConversionOptions.EncodingName property
 
-返回或设置 html 编码名称。 此值将保存到生成的 HTML 文件中，但由调用者确保文件将以这种编码保存。 读/写String。
+返回或设置 html 编码名称。 此值将保存到生成的 HTML 文件中，但由调用者确保文件将以此编码保存。 读/写String.
 
 ```csharp
 public string EncodingName { get; set; }

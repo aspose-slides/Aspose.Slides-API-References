@@ -20,7 +20,7 @@ public string GetResourcePath(object obj)
 
 ### Возвращаемое значение
 
-Путь к ресурсу.
+Путь ресурса.
 
 ### Смотрите также
 

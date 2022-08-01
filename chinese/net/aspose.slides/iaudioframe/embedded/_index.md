@@ -1,14 +1,14 @@
 ---
 title: Embedded
 second_title: Aspose.Slides for .NET API 参考
-description: 确定声音是否嵌入到演示文稿中 只读Boolean
+description: 确定声音是否嵌入到演示文稿中 只读Boolean.
 type: docs
 weight: 60
 url: /zh/net/aspose.slides/iaudioframe/embedded/
 ---
 ## IAudioFrame.Embedded property
 
-确定声音是否嵌入到演示文稿中。 只读Boolean。
+确定声音是否嵌入到演示文稿中。 只读Boolean.
 
 ```csharp
 public bool Embedded { get; }

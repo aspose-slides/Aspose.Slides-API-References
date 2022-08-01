@@ -1,14 +1,14 @@
 ---
 title: SetAllFootersText
 second_title: Aspose.Slides for .NET API 参考
-description: 将文本设置为所有页脚占位符包括母版幻灯片布局幻灯片幻灯片 注释母版注释幻灯片和讲义母版
+description: 为所有页脚占位符设置文本包括母版幻灯片布局幻灯片幻灯片 注释母版注释幻灯片和讲义母版
 type: docs
 weight: 30
 url: /zh/net/aspose.slides/presentationheaderfootermanager/setallfooterstext/
 ---
 ## PresentationHeaderFooterManager.SetAllFootersText method
 
-将文本设置为所有页脚占位符，包括母版幻灯片、布局幻灯片、幻灯片、 注释母版、注释幻灯片和讲义母版。
+为所有页脚占位符设置文本，包括母版幻灯片、布局幻灯片、幻灯片、 注释母版、注释幻灯片和讲义母版。
 
 ```csharp
 public void SetAllFootersText(string text)

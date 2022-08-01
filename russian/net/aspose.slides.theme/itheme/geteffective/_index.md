@@ -1,14 +1,14 @@
 ---
 title: GetEffective
 second_title: Справочник по API Aspose.Slides для .NET
-description: Получает эффективные данные темы с примененным наследованием.
+description: Получает действующие данные темы с применением наследования.
 type: docs
 weight: 50
 url: /ru/net/aspose.slides.theme/itheme/geteffective/
 ---
 ## ITheme.GetEffective method
 
-Получает эффективные данные темы с примененным наследованием.
+Получает действующие данные темы с применением наследования.
 
 ```csharp
 public IThemeEffectiveData GetEffective()
@@ -16,7 +16,7 @@ public IThemeEffectiveData GetEffective()
 
 ### Возвращаемое значение
 
-A[`IThemeEffectiveData`](../../ithemeeffectivedata).
+А[`IThemeEffectiveData`](../../ithemeeffectivedata).
 
 ### Смотрите также
 

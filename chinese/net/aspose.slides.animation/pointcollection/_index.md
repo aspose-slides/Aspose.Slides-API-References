@@ -24,7 +24,7 @@ public class PointCollection : IPointCollection
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Count](../../aspose.slides.animation/pointcollection/count) { get; } | 返回集合中的点数。 只读Int32。 |
+| [Count](../../aspose.slides.animation/pointcollection/count) { get; } | 返回集合中的点数。 只读Int32. |
 | [Item](../../aspose.slides.animation/pointcollection/item) { get; } | 返回指定索引处的点。 |
 
 ## 方法

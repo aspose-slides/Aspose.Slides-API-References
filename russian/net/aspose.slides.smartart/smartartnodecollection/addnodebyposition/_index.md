@@ -1,14 +1,14 @@
 ---
 title: AddNodeByPosition
 second_title: Справочник по API Aspose.Slides для .NET
-description: Добавить новый узел в выбранную позицию коллекции узлов
+description: Добавить новый узел в выбранную позицию узлов collection
 type: docs
 weight: 60
 url: /ru/net/aspose.slides.smartart/smartartnodecollection/addnodebyposition/
 ---
 ## SmartArtNodeCollection.AddNodeByPosition method
 
-Добавить новый узел в выбранную позицию коллекции узлов
+Добавить новый узел в выбранную позицию узлов collection
 
 ```csharp
 public ISmartArtNode AddNodeByPosition(int position)
@@ -16,7 +16,7 @@ public ISmartArtNode AddNodeByPosition(int position)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| position | Int32 | Позиция узла с нулевой базой |
+| position | Int32 | Положение узла с нулевой базой |
 
 ### Возвращаемое значение
 

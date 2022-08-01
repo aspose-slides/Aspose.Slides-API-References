@@ -18,11 +18,11 @@ public IChartDataCell GetCell(string worksheetName, int row, int column)
 | --- | --- | --- |
 | worksheetName | String | 工作表的名称。 |
 | row | Int32 | 行。 |
-| column | Int32 | 列。 |
+| column | Int32 | 专栏。 |
 
 ### 返回值
 
-单元对象
+单元格对象
 
 ### 也可以看看
 
@@ -45,11 +45,11 @@ public IChartDataCell GetCell(int worksheetIndex, int row, int column)
 | --- | --- | --- |
 | worksheetIndex | Int32 | 工作表的索引。 |
 | row | Int32 | 行。 |
-| column | Int32 | 列。 |
+| column | Int32 | 专栏。 |
 
 ### 返回值
 
-单元对象
+单元格对象
 
 ### 也可以看看
 
@@ -71,11 +71,11 @@ public IChartDataCell GetCell(int worksheetIndex, string cellName)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | worksheetIndex | Int32 | 工作表的索引。 |
-| cellName | String | 单元的名称。 |
+| cellName | String | 单元格的名称。 |
 
 ### 返回值
 
-单元对象
+单元格对象
 
 ### 也可以看看
 
@@ -97,12 +97,12 @@ public IChartDataCell GetCell(int worksheetIndex, string cellName, object value)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | worksheetIndex | Int32 | 工作表的索引。 |
-| cellName | String | 单元的名称。 |
-| value | Object | 值。 |
+| cellName | String | 单元格的名称。 |
+| value | Object | 价值。 |
 
 ### 返回值
 
-单元对象
+单元格对象
 
 ### 也可以看看
 
@@ -125,12 +125,12 @@ public IChartDataCell GetCell(int worksheetIndex, int row, int column, object va
 | --- | --- | --- |
 | worksheetIndex | Int32 | 工作表的索引。 |
 | row | Int32 | 行。 |
-| column | Int32 | 列。 |
-| value | Object | 值。 |
+| column | Int32 | 专栏。 |
+| value | Object | 价值。 |
 
 ### 返回值
 
-单元对象
+单元格对象
 
 ### 也可以看看
 

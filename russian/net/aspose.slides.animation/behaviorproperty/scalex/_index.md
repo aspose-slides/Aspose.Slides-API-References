@@ -8,7 +8,7 @@ url: /ru/net/aspose.slides.animation/behaviorproperty/scalex/
 ---
 ## BehaviorProperty.ScaleX property
 
-Представляет свойство 'ScaleX'
+Представляет свойство ScaleX
 
 ```csharp
 public static BehaviorProperty ScaleX { get; }

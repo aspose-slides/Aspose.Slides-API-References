@@ -1,14 +1,14 @@
 ---
 title: ShowPercentage
 second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет поведение отображения процентного значения метки данных указанной диаграммы. True отображает процентное значение. Ложь скрывать. Чтение/записьBoolean.
+description: Представляет поведение отображения процентного значения метки данных указанной диаграммы. True отображает процентное значение. False чтобы скрыть. Чтение/записьBoolean .
 type: docs
 weight: 130
 url: /ru/net/aspose.slides.charts/idatalabelformat/showpercentage/
 ---
 ## IDataLabelFormat.ShowPercentage property
 
-Представляет поведение отображения процентного значения метки данных указанной диаграммы. True отображает процентное значение. Ложь скрывать. Чтение/записьBoolean.
+Представляет поведение отображения процентного значения метки данных указанной диаграммы. True отображает процентное значение. False, чтобы скрыть. Чтение/записьBoolean .
 
 ```csharp
 public bool ShowPercentage { get; set; }
@@ -16,7 +16,7 @@ public bool ShowPercentage { get; set; }
 
 ### Примечания
 
-Если родителем этого объекта DataLabelFormat является коллекция меток данных DataLabelCollection, то это свойство получает или задает значение по умолчанию свойства ShowPercentage для новых меток данных в коллекции DataLabelCollection. Установка этого свойства со значением также устанавливает это значение в свойство ShowPercentage для всех меток данных в коллекции DataLabelCollection (т.е. "DataLabels.DefaultDataLabelFormat.ShowPercentage = val;" приводит к тому, что все DataLabels[i].ShowPercentage равно val).
+Если родителем этого объекта DataLabelFormat является коллекция меток данных DataLabelCollection, то свойство this получает или задает значение по умолчанию свойства ShowPercentage для новых меток данных в коллекции DataLabelCollection. Свойство ShowPercentage для всех меток данных в DataLabelCollection collection (т. е. "DataLabels.DefaultDataLabelFormat.ShowPercentage = val;" приводит к тому, что все DataLabels[i].ShowPercentage равно val).
 
 ### Смотрите также
 

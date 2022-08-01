@@ -18,18 +18,18 @@ public interface ILightRigEffectiveData
 
 | Имя | Описание |
 | --- | --- |
-| [Direction](../../aspose.slides/ilightrigeffectivedata/direction) { get; } | Направление света. Только для чтения[`LightingDirection`](../lightingdirection). |
-| [LightType](../../aspose.slides/ilightrigeffectivedata/lighttype) { get; } | Представляет предустановленное право света, которое можно применить к фигуре. Световая установка представляет собой группу источников света, ориентированных определенным образом относительно 3D-сцены. Только для чтения[`LightRigPresetType`](../lightrigpresettype). |
+| [Direction](../../aspose.slides/ilightrigeffectivedata/direction) { get; } | Направление света. Только для чтения[`LightingDirection`](../lightingdirection) . |
+| [LightType](../../aspose.slides/ilightrigeffectivedata/lighttype) { get; } | Представляет предустановленное право света, которое можно применить к фигуре. Световая установка представляет собой группу источников света, ориентированных определенным образом относительно 3D-сцены. Только для чтения[`LightRigPresetType`](../lightrigpresettype) . |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [GetRotation](../../aspose.slides/ilightrigeffectivedata/getrotation)() | Вращение определяется с помощью использования координаты широты, координаты долготы и вращения вокруг оси в качестве координат широты и долготы. Первый элемент возвращаемого массива - широта, второй - долгота, третий - оборот. |
+| [GetRotation](../../aspose.slides/ilightrigeffectivedata/getrotation)() | Вращение определяется использованием координаты широты, координаты долготы и оборота вокруг оси в качестве координат широты и долготы. Первый элемент в возвращаемом массиве - широта, второй - долгота, третий - оборот. |
 
 ### Примечания
 
-Этот интерфейс используется как часть[`IThreeDFormatEffectiveData`](../ithreedformateffectivedata).
+Этот интерфейс используется как часть[`IThreeDFormatEffectiveData`](../ithreedformateffectivedata) .
 
 ### Смотрите также
 

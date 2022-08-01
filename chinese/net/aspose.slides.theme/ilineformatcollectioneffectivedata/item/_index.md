@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Slides for .NET API 参考
-description: 获取指定索引处的元素 只读ILineFormatEffectiveDataaspose.slides/ilineformateffectivedata
+description: 获取指定索引处的元素 只读ILineFormatEffectiveDataaspose.slides/ilineformateffectivedata.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides.theme/ilineformatcollectioneffectivedata/item/
 ---
 ## ILineFormatCollectionEffectiveData indexer
 
-获取指定索引处的元素。 只读[`ILineFormatEffectiveData`](../../../aspose.slides/ilineformateffectivedata)。
+获取指定索引处的元素。 只读[`ILineFormatEffectiveData`](../../../aspose.slides/ilineformateffectivedata).
 
 ```csharp
 public ILineFormatEffectiveData this[int index] { get; }

@@ -1,14 +1,14 @@
 ---
 title: Portion
 second_title: Справочник по API Aspose.Slides для .NET
-description: Итерация каждогоPortionaspose.slides.lowcode/foreach/portionвPresentationaspose.slides/presentation.  Части будут повторяться во всех типах слайдов -Slideaspose.slides.lowcode/foreach/slideMasterSlideaspose.slides.lowcode/foreach/masterslideиLayoutSlideaspose.slides.lowcode/foreach/layoutslide
+description: Итерировать каждыйPortionaspose.slides.lowcode/foreach/portion вPresentationaspose.slides/presentation . Части будут повторяться во всех типах слайдов -Slideaspose.slides.lowcode/foreach/slide MasterSlideaspose.slides.lowcode/foreach/masterslide а такжеLayoutSlideaspose.slides.lowcode/foreach/layoutslide
 type: docs
 weight: 40
 url: /ru/net/aspose.slides.lowcode/foreach/portion/
 ---
 ## ForEach.Portion method
 
-Итерация каждого`Portion`в[`Presentation`](../../../aspose.slides/presentation).  Части будут повторяться во всех типах слайдов -[`Slide`](../slide),[`MasterSlide`](../masterslide)и[`LayoutSlide`](../layoutslide):
+Итерировать каждый`Portion` в[`Presentation`](../../../aspose.slides/presentation) . Части будут повторяться во всех типах слайдов -[`Slide`](../slide) ,[`MasterSlide`](../masterslide) а также[`LayoutSlide`](../layoutslide)
 
 ```csharp
 public static void Portion(Presentation pres, ForEachPortionCallback forEachPortion)
@@ -16,8 +16,8 @@ public static void Portion(Presentation pres, ForEachPortionCallback forEachPort
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| pres | Presentation | Представление для повторения частей |
-| forEachPortion | ForEachPortionCallback | Обратный вызов, который будет вызываться для каждой части |
+| pres | Presentation | Презентация повторяющихся частей |
+| forEachPortion | ForEachPortionCallback | Обратный вызов, который будет вызываться для каждой порции |
 
 ### Примеры
 

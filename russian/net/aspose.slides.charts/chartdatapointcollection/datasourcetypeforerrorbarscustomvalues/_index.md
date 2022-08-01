@@ -1,14 +1,14 @@
 ---
 title: DataSourceTypeForErrorBarsCustomValues
 second_title: Справочник по API Aspose.Slides для .NET
-description: Задает типы значений в списке свойств ChartDataPoint.ErrorBarsCustomValues. Только для чтенияIDataSourceTypeForErrorBarsCustomValuesaspose.slides.charts/idatasourcetypeforerrorbarscustomvalues.
+description: Указывает типы значений в списке свойств ChartDataPoint.ErrorBarsCustomValues. Только для чтенияIDataSourceTypeForErrorBarsCustomValuesaspose.slides.charts/idatasourcetypeforerrorbarscustomvalues .
 type: docs
 weight: 30
 url: /ru/net/aspose.slides.charts/chartdatapointcollection/datasourcetypeforerrorbarscustomvalues/
 ---
 ## ChartDataPointCollection.DataSourceTypeForErrorBarsCustomValues property
 
-Задает типы значений в списке свойств ChartDataPoint.ErrorBarsCustomValues. Только для чтения[`IDataSourceTypeForErrorBarsCustomValues`](../../idatasourcetypeforerrorbarscustomvalues).
+Указывает типы значений в списке свойств ChartDataPoint.ErrorBarsCustomValues. Только для чтения[`IDataSourceTypeForErrorBarsCustomValues`](../../idatasourcetypeforerrorbarscustomvalues) .
 
 ```csharp
 public IDataSourceTypeForErrorBarsCustomValues DataSourceTypeForErrorBarsCustomValues { get; }

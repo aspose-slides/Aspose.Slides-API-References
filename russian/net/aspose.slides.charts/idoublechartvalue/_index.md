@@ -18,8 +18,8 @@ public interface IDoubleChartValue : ISingleCellChartValue
 
 | Имя | Описание |
 | --- | --- |
-| [AsISingleCellChartValue](../../aspose.slides.charts/idoublechartvalue/asisinglecellchartvalue) { get; } | Позволяет получить базовый интерфейс ISingleCellChartValue. Только для чтения[`ISingleCellChartValue`](../isinglecellchartvalue). |
-| [AsLiteralDouble](../../aspose.slides.charts/idoublechartvalue/asliteraldouble) { get; set; } | Возвращает или задает литеральное двойное значение, если DataSourceType = Charts.DataSourceType.DoubleLiterals. Чтение/записьDouble. |
+| [AsISingleCellChartValue](../../aspose.slides.charts/idoublechartvalue/asisinglecellchartvalue) { get; } | Позволяет получить базовый интерфейс ISingleCellChartValue. Только для чтения[`ISingleCellChartValue`](../isinglecellchartvalue) . |
+| [AsLiteralDouble](../../aspose.slides.charts/idoublechartvalue/asliteraldouble) { get; set; } | Возвращает или задает литеральное двойное значение, если DataSourceType = Charts.DataSourceType.DoubleLiterals. Чтение/записьDouble . |
 
 ## Методы
 

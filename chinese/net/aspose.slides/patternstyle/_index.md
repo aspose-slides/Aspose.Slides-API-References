@@ -1,14 +1,14 @@
 ---
 title: PatternStyle
 second_title: Aspose.Slides for .NET API 参考
-description: 表示图案样式
+description: 代表图案样式
 type: docs
 weight: 8630
 url: /zh/net/aspose.slides/patternstyle/
 ---
 ## PatternStyle enumeration
 
-表示图案样式。
+代表图案样式。
 
 ```csharp
 public enum PatternStyle : sbyte

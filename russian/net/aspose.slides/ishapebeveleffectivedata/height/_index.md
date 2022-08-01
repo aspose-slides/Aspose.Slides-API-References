@@ -1,14 +1,14 @@
 ---
 title: Height
 second_title: Справочник по API Aspose.Slides для .NET
-description: Высота скоса. Только для чтенияDouble.
+description: Высота скоса. Только для чтенияDouble .
 type: docs
 weight: 20
 url: /ru/net/aspose.slides/ishapebeveleffectivedata/height/
 ---
 ## IShapeBevelEffectiveData.Height property
 
-Высота скоса. Только для чтенияDouble.
+Высота скоса. Только для чтенияDouble .
 
 ```csharp
 public double Height { get; }

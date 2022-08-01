@@ -1,14 +1,14 @@
 ---
 title: VectorizeText
 second_title: Aspose.Slides for .NET API 参考
-description: 确定幻灯片上的文本是否保存为图形 读/写Boolean
+description: 确定幻灯片上的文本是否将保存为图形 读/写Boolean.
 type: docs
 weight: 140
 url: /zh/net/aspose.slides.export/svgoptions/vectorizetext/
 ---
 ## SVGOptions.VectorizeText property
 
-确定幻灯片上的文本是否保存为图形。 读/写Boolean。
+确定幻灯片上的文本是否将保存为图形。 读/写Boolean.
 
 ```csharp
 public bool VectorizeText { get; set; }

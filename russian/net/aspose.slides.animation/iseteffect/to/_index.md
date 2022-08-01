@@ -1,14 +1,14 @@
 ---
 title: To
 second_title: Справочник по API Aspose.Slides для .NET
-description: Указывает определенный атрибут эффекта после эффекта анимации. Представляет значение в очках. Толькоbool ColorFormat float int string. Чтение/записьObject.
+description: Указывает определенный атрибут эффекта после эффекта анимации. Представляет значение точки. Только bool ColorFormat float int string. Чтение/записьObject .
 type: docs
 weight: 20
 url: /ru/net/aspose.slides.animation/iseteffect/to/
 ---
 ## ISetEffect.To property
 
-Указывает определенный атрибут эффекта после эффекта анимации. Представляет значение в очках. Только:bool, ColorFormat, float, int, string. Чтение/записьObject.
+Указывает определенный атрибут эффекта после эффекта анимации. Представляет значение точки. Только: bool, ColorFormat, float, int, string. Чтение/записьObject .
 
 ```csharp
 public object To { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: AsLiteralString
 second_title: Aspose.Slides for .NET API 参考
-description: 将值返回或设置为文字字符串 读/写String
+description: 以文字字符串的形式返回或设置值 读/写String.
 type: docs
 weight: 30
 url: /zh/net/aspose.slides.charts/stringordoublechartvalue/asliteralstring/
 ---
 ## StringOrDoubleChartValue.AsLiteralString property
 
-将值返回或设置为文字字符串。 读/写String。
+以文字字符串的形式返回或设置值。 读/写String.
 
 ```csharp
 public string AsLiteralString { get; set; }

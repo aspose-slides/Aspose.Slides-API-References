@@ -1,14 +1,14 @@
 ---
 title: OperationType
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или задает тип операции. Только для чтенияColorTransformOperationaspose.slides/colortransformoperation.
+description: Возвращает или задает тип операции. Только для чтенияColorTransformOperationaspose.slides/colortransformoperation .
 type: docs
 weight: 10
 url: /ru/net/aspose.slides/icoloroperation/operationtype/
 ---
 ## IColorOperation.OperationType property
 
-Возвращает или задает тип операции. Только для чтения[`ColorTransformOperation`](../../colortransformoperation).
+Возвращает или задает тип операции. Только для чтения[`ColorTransformOperation`](../../colortransformoperation) .
 
 ```csharp
 public ColorTransformOperation OperationType { get; }

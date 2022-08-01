@@ -1,14 +1,14 @@
 ---
 title: Is3DChart
 second_title: Aspose.Slides for .NET API 参考
-description: 如果chartType是 3D 图表类型之一则返回 true
+description: 如果返回真chartType是 3D 图表类型之一
 type: docs
 weight: 30
 url: /zh/net/aspose.slides.charts/charttypecharacterizer/is3dchart/
 ---
 ## ChartTypeCharacterizer.Is3DChart method
 
-如果*chartType*是 3D 图表类型之一，则返回 true。
+如果返回真*chartType*是 3D 图表类型之一。
 
 ```csharp
 public static bool Is3DChart(ChartType chartType)

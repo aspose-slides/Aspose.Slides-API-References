@@ -1,14 +1,14 @@
 ---
 title: Persistence
 second_title: Aspose.Slides for .NET API 参考
-description: 获取用于存储 ActiveX 控件属性的方法 只读PersistenceTypeaspose.slides/persistencetype
+description: 获取用于存储 ActiveX 控件属性的方法 只读PersistenceTypeaspose.slides/persistencetype.
 type: docs
 weight: 60
 url: /zh/net/aspose.slides/icontrol/persistence/
 ---
 ## IControl.Persistence property
 
-获取用于存储 ActiveX 控件属性的方法。 只读[`PersistenceType`](../../persistencetype)。
+获取用于存储 ActiveX 控件属性的方法。 只读[`PersistenceType`](../../persistencetype).
 
 ```csharp
 public PersistenceType Persistence { get; }

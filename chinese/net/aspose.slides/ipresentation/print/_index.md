@@ -44,7 +44,7 @@ public void Print(PrinterSettings printerSettings)
 
 ## Print(string) {#print_3}
 
-将整个演示文稿打印到指定的打印机 使用标准（无用户界面）打印控制器。
+将整个演示文稿打印到指定的打印机， 使用标准（无用户界面）打印控制器。
 
 ```csharp
 public void Print(string printerName)
@@ -73,7 +73,7 @@ public void Print(PrinterSettings printerSettings, string presName)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | printerSettings | PrinterSettings | 要使用的 .NET 打印机设置。 |
-| presName | String | 打印演示文稿时要显示的演示文稿名称（例如，在打印 状态对话框或打印机队列中）。 |
+| presName | String | 打印演示文稿时要显示的演示文稿名称（例如，在 print 状态对话框或打印机队列中）。 |
 
 ### 也可以看看
 

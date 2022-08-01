@@ -1,14 +1,14 @@
 ---
 title: WrapText
 second_title: Aspose.Slides for .NET API 参考
-description: True 如果文本在 TextFrame 的边距处换行 更改此属性只会对这些图表部分产生一定的影响 DataLabel 和 DataLabelFormat在 PowerPoint 2007/2013 中完全支持 读/写NullableBoolaspose.slides/nullablebool
+description: 真的如果文本在 TextFrame 的边距处换行 更改此属性只会对这些图表部分产生一定的影响 DataLabel 和 DataLabelFormat在 PowerPoint 2007/2013 中完全支持 读/写NullableBoolaspose.slides/nullablebool.
 type: docs
 weight: 100
 url: /zh/net/aspose.slides.charts/icharttextblockformat/wraptext/
 ---
 ## IChartTextBlockFormat.WrapText property
 
-**True** 如果文本在 TextFrame 的边距处换行。 更改此属性只会对这些图表部分产生一定的影响:: DataLabel 和 DataLabelFormat（在 PowerPoint 2007/2013 中完全支持）。 读/写[`NullableBool`](../../../aspose.slides/nullablebool)。
+**真的**如果文本在 TextFrame 的边距处换行。 更改此属性只会对这些图表部分产生一定的影响： DataLabel 和 DataLabelFormat（在 PowerPoint 2007/2013 中完全支持）。 读/写[`NullableBool`](../../../aspose.slides/nullablebool).
 
 ```csharp
 public NullableBool WrapText { get; set; }

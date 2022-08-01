@@ -18,10 +18,10 @@ public sealed class EffectStyleCollection : DomObject<FormatScheme>, IEffectStyl
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Count](../../aspose.slides.theme/effectstylecollection/count) { get; } | 返回集合中的元素数量。 只读Int32, 只读Int32。 |
-| [IsSynchronized](../../aspose.slides.theme/effectstylecollection/issynchronized) { get; } | 返回一个值，指示对集合的访问是否同步（线程安全）。 只读Boolean。 |
-| [Item](../../aspose.slides.theme/effectstylecollection/item) { get; } | 返回指定位置的元素。 只读[`EffectStyle`](../effectstyle)。 |
-| [SyncRoot](../../aspose.slides.theme/effectstylecollection/syncroot) { get; } | 返回同步根。 只读Object。 |
+| [Count](../../aspose.slides.theme/effectstylecollection/count) { get; } | 返回集合中的元素数量。 只读Int32 , 只读Int32. |
+| [IsSynchronized](../../aspose.slides.theme/effectstylecollection/issynchronized) { get; } | 返回一个值，指示对集合的访问是否同步（线程安全）。 只读Boolean. |
+| [Item](../../aspose.slides.theme/effectstylecollection/item) { get; } | 返回指定位置的元素。 只读[`EffectStyle`](../effectstyle). |
+| [SyncRoot](../../aspose.slides.theme/effectstylecollection/syncroot) { get; } | 返回同步根。 只读Object. |
 
 ## 方法
 

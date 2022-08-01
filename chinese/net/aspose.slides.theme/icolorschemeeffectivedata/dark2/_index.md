@@ -1,14 +1,14 @@
 ---
 title: Dark2
 second_title: Aspose.Slides for .NET API 参考
-description: 方案中的第二个深色 只读Color
+description: 方案中的第二个深色 只读Color.
 type: docs
 weight: 80
 url: /zh/net/aspose.slides.theme/icolorschemeeffectivedata/dark2/
 ---
 ## IColorSchemeEffectiveData.Dark2 property
 
-方案中的第二个深色。 只读Color。
+方案中的第二个深色。 只读Color.
 
 ```csharp
 public Color Dark2 { get; }

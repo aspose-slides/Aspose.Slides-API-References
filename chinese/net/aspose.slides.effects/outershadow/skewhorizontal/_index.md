@@ -1,14 +1,14 @@
 ---
 title: SkewHorizontal
 second_title: Aspose.Slides for .NET API 参考
-description: 指定水平倾斜角度以度为单位 读/写Double
+description: 指定水平倾斜角度以度为单位 读/写Double.
 type: docs
 weight: 90
 url: /zh/net/aspose.slides.effects/outershadow/skewhorizontal/
 ---
 ## OuterShadow.SkewHorizontal property
 
-指定水平倾斜角度（以度为单位）。 读/写Double。
+指定水平倾斜角度（以度为单位）。 读/写Double.
 
 ```csharp
 public double SkewHorizontal { get; set; }

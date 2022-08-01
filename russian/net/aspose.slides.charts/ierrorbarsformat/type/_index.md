@@ -1,14 +1,14 @@
 ---
 title: Type
 second_title: Справочник по API Aspose.Slides для .NET
-description: Получает или задает тип баров ошибок. Чтение/записьErrorBarTypeaspose.slides.charts/errorbartype.
+description: Получает или задает тип баров ошибок. Чтение/записьErrorBarTypeaspose.slides.charts/errorbartype .
 type: docs
 weight: 50
 url: /ru/net/aspose.slides.charts/ierrorbarsformat/type/
 ---
 ## IErrorBarsFormat.Type property
 
-Получает или задает тип баров ошибок. Чтение/запись[`ErrorBarType`](../../errorbartype).
+Получает или задает тип баров ошибок. Чтение/запись[`ErrorBarType`](../../errorbartype) .
 
 ```csharp
 public ErrorBarType Type { get; set; }

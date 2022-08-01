@@ -20,7 +20,7 @@ public interface IMathBlockFactory
 | --- | --- |
 | [CreateMathBlock](../../aspose.slides.mathtext/imathblockfactory/createmathblock#createmathblock)() | Создать математический блок |
 | [CreateMathBlock](../../aspose.slides.mathtext/imathblockfactory/createmathblock#createmathblock_1)(IMathElement) | Создайте математический блок и поместите в него элемент |
-| [CreateMathBlock](../../aspose.slides.mathtext/imathblockfactory/createmathblock#createmathblock_2)(IMathElementCollection) | Создать математический блок и поместить в него элементы |
+| [CreateMathBlock](../../aspose.slides.mathtext/imathblockfactory/createmathblock#createmathblock_2)(IMathElementCollection) | Создайте математический блок и поместите в него элементы |
 
 ### Примечания
 

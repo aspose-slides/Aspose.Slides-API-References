@@ -1,14 +1,14 @@
 ---
 title: VideoCollection
 second_title: Aspose.Slides for .NET API 参考
-description: 表示视频对象的集合
+description: 表示 Video 对象的集合
 type: docs
 weight: 10900
 url: /zh/net/aspose.slides/videocollection/
 ---
 ## VideoCollection class
 
-表示视频对象的集合。
+表示 Video 对象的集合。
 
 ```csharp
 public class VideoCollection : DomObject<Presentation>, IVideoCollection
@@ -18,19 +18,19 @@ public class VideoCollection : DomObject<Presentation>, IVideoCollection
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Count](../../aspose.slides/videocollection/count) { get; } | 返回集合中的视频文件数量。 只读Int32。 |
-| [IsSynchronized](../../aspose.slides/videocollection/issynchronized) { get; } | 返回一个值，指示对集合的访问是否同步（线程安全）。 只读Boolean。 |
-| [Item](../../aspose.slides/videocollection/item) { get; } | 获取指定索引处的元素。 只读[`IVideo`](../ivideo)。 |
-| [SyncRoot](../../aspose.slides/videocollection/syncroot) { get; } | 返回同步根。 只读Object。 |
+| [Count](../../aspose.slides/videocollection/count) { get; } | 返回集合中的多个视频文件。 只读Int32. |
+| [IsSynchronized](../../aspose.slides/videocollection/issynchronized) { get; } | 返回一个值，指示对集合的访问是否同步（线程安全）。 只读Boolean. |
+| [Item](../../aspose.slides/videocollection/item) { get; } | 获取指定索引处的元素。 只读[`IVideo`](../ivideo). |
+| [SyncRoot](../../aspose.slides/videocollection/syncroot) { get; } | 返回同步根。 只读Object. |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AddVideo](../../aspose.slides/videocollection/addvideo#addvideo_1)(byte[]) | 从字节数组创建视频并将其添加到演示文稿。 |
+| [AddVideo](../../aspose.slides/videocollection/addvideo#addvideo_1)(byte[]) | 从字节数组创建视频并将其添加到演示文稿中。 |
 | [AddVideo](../../aspose.slides/videocollection/addvideo#addvideo)(IVideo) | 添加来自另一个演示文稿的视频文件的副本。 |
-| [AddVideo](../../aspose.slides/videocollection/addvideo#addvideo_2)(Stream) | 创建视频并将其添加到流中的演示文稿。 |
-| [AddVideo](../../aspose.slides/videocollection/addvideo#addvideo_3)(Stream, LoadingStreamBehavior) | 创建视频并将其添加到流中的演示文稿。 |
+| [AddVideo](../../aspose.slides/videocollection/addvideo#addvideo_2)(Stream) | 从流中创建视频并将其添加到演示文稿中。 |
+| [AddVideo](../../aspose.slides/videocollection/addvideo#addvideo_3)(Stream, LoadingStreamBehavior) | 从流中创建视频并将其添加到演示文稿中。 |
 | [CopyTo](../../aspose.slides/videocollection/copyto)(Array, int) | 从指定索引开始将视频复制到指定数组。 |
 | [GetEnumerator](../../aspose.slides/videocollection/getenumerator)() | 返回一个遍历集合的枚举器。 |
 

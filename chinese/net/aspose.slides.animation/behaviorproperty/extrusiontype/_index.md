@@ -1,14 +1,14 @@
 ---
 title: ExtrusionType
 second_title: Aspose.Slides for .NET API 参考
-description: 表示 extrusion.type 属性
+description: 表示extrusion.type 属性
 type: docs
 weight: 210
 url: /zh/net/aspose.slides.animation/behaviorproperty/extrusiontype/
 ---
 ## BehaviorProperty.ExtrusionType property
 
-表示 'extrusion.type' 属性
+表示'extrusion.type' 属性
 
 ```csharp
 public static BehaviorProperty ExtrusionType { get; }

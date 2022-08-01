@@ -1,14 +1,14 @@
 ---
 title: YValue
 second_title: Справочник по API Aspose.Slides для .NET
-description: Значение Y. Только для чтенияIDoubleChartValueaspose.slides.charts/idoublechartvalue.
+description: YValue. Только для чтенияIDoubleChartValueaspose.slides.charts/idoublechartvalue .
 type: docs
 weight: 200
 url: /ru/net/aspose.slides.charts/chartdatapoint/yvalue/
 ---
 ## ChartDataPoint.YValue property
 
-Значение Y. Только для чтения[`IDoubleChartValue`](../../idoublechartvalue).
+YValue. Только для чтения[`IDoubleChartValue`](../../idoublechartvalue) .
 
 ```csharp
 public IDoubleChartValue YValue { get; }

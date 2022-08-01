@@ -1,14 +1,14 @@
 ---
 title: IMathBar
 second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет функцию панели состоящую из базового аргумента и верхней или нижней черты
+description: Определяет функцию панели состоящую из базового аргумента и верхней или нижней панели
 type: docs
 weight: 7410
 url: /ru/net/aspose.slides.mathtext/imathbar/
 ---
 ## IMathBar interface
 
-Определяет функцию панели, состоящую из базового аргумента и верхней или нижней черты
+Определяет функцию панели, состоящую из базового аргумента и верхней или нижней панели
 
 ```csharp
 public interface IMathBar : IMathElement
@@ -20,7 +20,7 @@ public interface IMathBar : IMathElement
 | --- | --- |
 | [AsIMathElement](../../aspose.slides.mathtext/imathbar/asimathelement) { get; } | Позволяет получить базовый интерфейс IMathElement [`IMathElement`](../imathelement) |
 | [Base](../../aspose.slides.mathtext/imathbar/base) { get; } | Базовый аргумент |
-| [Position](../../aspose.slides.mathtext/imathbar/position) { get; set; } | Положение такта. По умолчанию:Верх |
+| [Position](../../aspose.slides.mathtext/imathbar/position) { get; set; } | Положение тактовой черты. По умолчанию: Top |
 
 ### Примеры
 

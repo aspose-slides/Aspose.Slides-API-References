@@ -16,7 +16,7 @@ public void CopyTo(ITextFrame destTextFrame)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| destTextFrame | ITextFrame | Текстовый фрейм, в который копируется текстовый формат. |
+| destTextFrame | ITextFrame | Текстовый фрейм, в который нужно скопировать текстовый формат. |
 
 ### Смотрите также
 

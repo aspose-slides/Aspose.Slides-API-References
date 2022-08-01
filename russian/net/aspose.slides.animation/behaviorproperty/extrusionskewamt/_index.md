@@ -8,7 +8,7 @@ url: /ru/net/aspose.slides.animation/behaviorproperty/extrusionskewamt/
 ---
 ## BehaviorProperty.ExtrusionSkewAmt property
 
-Представляет свойство 'extrusion.skewamt'
+Представляет свойство extrusion.skewamt
 
 ```csharp
 public static BehaviorProperty ExtrusionSkewAmt { get; }

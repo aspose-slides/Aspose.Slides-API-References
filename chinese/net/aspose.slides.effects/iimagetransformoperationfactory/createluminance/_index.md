@@ -16,8 +16,8 @@ public ILuminance CreateLuminance(float brightness, float contrast)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| 亮度 | Single | 亮度。 |
-| 对比度 | Single | 对比度。 |
+| brightness | Single | 亮度。 |
+| contrast | Single | 对比。 |
 
 ### 返回值
 

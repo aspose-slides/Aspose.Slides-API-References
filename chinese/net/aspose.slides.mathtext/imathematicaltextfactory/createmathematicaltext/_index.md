@@ -16,7 +16,7 @@ public IMathematicalText CreateMathematicalText()
 
 ### 返回值
 
-new Mathematical Text
+新数学课本
 
 ### 也可以看看
 
@@ -37,11 +37,11 @@ public IMathematicalText CreateMathematicalText(char mathSymbol)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| mathSymbol | Char | 单个符号用作文本值 |
+| mathSymbol | Char | 用作文本值的单个符号 |
 
 ### 返回值
 
-新数学文本
+新数学课本
 
 ### 也可以看看
 
@@ -62,11 +62,11 @@ public IMathematicalText CreateMathematicalText(string mathText)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| mathText | String | text值 |
+| mathText | String | 文本值 |
 
 ### 返回值
 
-新数学文本
+新数学课本
 
 ### 也可以看看
 
@@ -92,7 +92,7 @@ public IMathematicalText CreateMathematicalText(string mathText, IPortionFormat 
 
 ### 返回值
 
-新数学文本
+新数学课本
 
 ### 也可以看看
 

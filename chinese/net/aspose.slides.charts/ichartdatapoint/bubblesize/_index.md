@@ -1,14 +1,14 @@
 ---
 title: BubbleSize
 second_title: Aspose.Slides for .NET API 参考
-description: 返回图表数据点的气泡大小 只读IDoubleChartValueaspose.slides.charts/idoublechartvalue
+description: 返回图表数据点的气泡大小 只读IDoubleChartValueaspose.slides.charts/idoublechartvalue.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides.charts/ichartdatapoint/bubblesize/
 ---
 ## IChartDataPoint.BubbleSize property
 
-返回图表数据点的气泡大小。 只读[`IDoubleChartValue`](../../idoublechartvalue)。
+返回图表数据点的气泡大小。 只读[`IDoubleChartValue`](../../idoublechartvalue).
 
 ```csharp
 public IDoubleChartValue BubbleSize { get; }

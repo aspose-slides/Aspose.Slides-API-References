@@ -1,14 +1,14 @@
 ---
 title: GrowToMatchOperandHeight
 second_title: Aspose.Slides for .NET API 参考
-description: 运算符 字符垂直增长以匹配其操作数高度
+description: 操作符垂直增长以匹配其操作数高度
 type: docs
 weight: 30
 url: /zh/net/aspose.slides.mathtext/mathnaryoperator/growtomatchoperandheight/
 ---
 ## MathNaryOperator.GrowToMatchOperandHeight property
 
-运算符 字符垂直增长以匹配其操作数高度
+操作符垂直增长以匹配其操作数高度
 
 ```csharp
 public bool GrowToMatchOperandHeight { get; set; }
@@ -16,7 +16,7 @@ public bool GrowToMatchOperandHeight { get; set; }
 
 ### 例子
 
-示例
+示例：
 
 ```csharp
 [C#]

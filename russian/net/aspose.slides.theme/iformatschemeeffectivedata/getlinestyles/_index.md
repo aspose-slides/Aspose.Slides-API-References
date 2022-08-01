@@ -1,14 +1,14 @@
 ---
 title: GetLineStyles
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает набор стилей линий определенных темой.
+description: Возвращает коллекцию стилей линий определенных темой.
 type: docs
 weight: 40
 url: /ru/net/aspose.slides.theme/iformatschemeeffectivedata/getlinestyles/
 ---
 ## IFormatSchemeEffectiveData.GetLineStyles method
 
-Возвращает набор стилей линий, определенных темой.
+Возвращает коллекцию стилей линий, определенных темой.
 
 ```csharp
 public ILineFormatCollectionEffectiveData GetLineStyles(Color styleColor)
@@ -16,7 +16,7 @@ public ILineFormatCollectionEffectiveData GetLineStyles(Color styleColor)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| styleColor | Color | ColorColor |
+| styleColor | Color | ЦветColor |
 
 ### Возвращаемое значение
 

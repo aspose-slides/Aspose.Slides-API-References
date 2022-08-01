@@ -19,12 +19,12 @@ public interface IPresetShadow : IAccessiblePVIObject<IPresetShadowEffectiveData
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ipresetshadow/asiaccessiblepviobject) { get; } | 允许获取基本 IAccessiblePVIObject 接口。 只读[`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1)。 |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ipresetshadow/asiimagetransformoperation) { get; } | 允许获取基础 IImageTransformOperation 接口。 只读[`IImageTransformOperation`](../iimagetransformoperation)。 |
-| [Direction](../../aspose.slides.effects/ipresetshadow/direction) { get; set; } | 阴影方向。 读/写Single。 |
-| [Distance](../../aspose.slides.effects/ipresetshadow/distance) { get; set; } | 阴影距离。 读/写Double。 |
-| [Preset](../../aspose.slides.effects/ipresetshadow/preset) { get; set; } | 预设。 读/写[`PresetShadowType`](../../aspose.slides/presetshadowtype)。 |
-| [ShadowColor](../../aspose.slides.effects/ipresetshadow/shadowcolor) { get; } | 阴影颜色。 只读[`IColorFormat`](../../aspose.slides/icolorformat)。 |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ipresetshadow/asiaccessiblepviobject) { get; } | 允许获取基本 IAccessiblePVIObject 接口。 只读[`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ipresetshadow/asiimagetransformoperation) { get; } | 允许获取基本 IImageTransformOperation 接口。 只读[`IImageTransformOperation`](../iimagetransformoperation). |
+| [Direction](../../aspose.slides.effects/ipresetshadow/direction) { get; set; } | 阴影的方向。 读/写Single. |
+| [Distance](../../aspose.slides.effects/ipresetshadow/distance) { get; set; } | 阴影距离。 读/写Double. |
+| [Preset](../../aspose.slides.effects/ipresetshadow/preset) { get; set; } | 预设。 读/写[`PresetShadowType`](../../aspose.slides/presetshadowtype). |
+| [ShadowColor](../../aspose.slides.effects/ipresetshadow/shadowcolor) { get; } | 阴影颜色。 只读[`IColorFormat`](../../aspose.slides/icolorformat). |
 
 ### 也可以看看
 

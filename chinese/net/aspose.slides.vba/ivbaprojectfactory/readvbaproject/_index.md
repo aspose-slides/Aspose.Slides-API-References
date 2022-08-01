@@ -16,11 +16,11 @@ public IVbaProject ReadVbaProject(byte[] data)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| data | Byte[] | Ole 数据Byte[] |
+| data | Byte[] | 数据Byte[] |
 
 ### 返回值
 
-读取 VBA 项目
+阅读 VBA 项目
 
 ### 也可以看看
 

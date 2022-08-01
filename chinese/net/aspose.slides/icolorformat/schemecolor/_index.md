@@ -1,14 +1,14 @@
 ---
 title: SchemeColor
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置由配色方案标识的颜色 读/写SchemeColoraspose.slides/schemecolor
+description: 返回或设置由配色方案标识的颜色 读/写SchemeColoraspose.slides/schemecolor.
 type: docs
 weight: 150
 url: /zh/net/aspose.slides/icolorformat/schemecolor/
 ---
 ## IColorFormat.SchemeColor property
 
-返回或设置由配色方案标识的颜色。 读/写[`SchemeColor`](../../schemecolor)。
+返回或设置由配色方案标识的颜色。 读/写[`SchemeColor`](../../schemecolor).
 
 ```csharp
 public SchemeColor SchemeColor { get; set; }

@@ -18,7 +18,7 @@ public interface ISection
 
 | Имя | Описание |
 | --- | --- |
-| [Name](../../aspose.slides/isection/name) { get; set; } | Имя раздела. |
+| [Name](../../aspose.slides/isection/name) { get; set; } | Название раздела. |
 | [SectionId](../../aspose.slides/isection/sectionid) { get; } | Идентификатор раздела. |
 | [StartedFromSlide](../../aspose.slides/isection/startedfromslide) { get; } | Возвращает первый слайд раздела. |
 

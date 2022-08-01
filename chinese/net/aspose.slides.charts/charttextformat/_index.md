@@ -18,9 +18,9 @@ public class ChartTextFormat : IChartTextFormat
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ParagraphFormat](../../aspose.slides.charts/charttextformat/paragraphformat) { get; } | 段落格式。 只读[`IChartParagraphFormat`](../ichartparagraphformat)。 |
-| [PortionFormat](../../aspose.slides.charts/charttextformat/portionformat) { get; } | 部分格式。 只读[`IChartPortionFormat`](../ichartportionformat)。 |
-| [TextBlockFormat](../../aspose.slides.charts/charttextformat/textblockformat) { get; } | TextBlockFormat。 只读[`IChartTextBlockFormat`](../icharttextblockformat)。 |
+| [ParagraphFormat](../../aspose.slides.charts/charttextformat/paragraphformat) { get; } | ParagraphFormat. 只读[`IChartParagraphFormat`](../ichartparagraphformat). |
+| [PortionFormat](../../aspose.slides.charts/charttextformat/portionformat) { get; } | PortionFormat. 只读[`IChartPortionFormat`](../ichartportionformat). |
+| [TextBlockFormat](../../aspose.slides.charts/charttextformat/textblockformat) { get; } | TextBlockFormat. 只读[`IChartTextBlockFormat`](../icharttextblockformat). |
 
 ## 方法
 

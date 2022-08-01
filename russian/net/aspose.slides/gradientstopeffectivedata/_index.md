@@ -18,14 +18,14 @@ public class GradientStopEffectiveData : IGradientStopEffectiveData
 
 | Имя | Описание |
 | --- | --- |
-| [Color](../../aspose.slides/gradientstopeffectivedata/color) { get; } | Возвращает цвет точки градиента. Только для чтенияColor. |
-| [Position](../../aspose.slides/gradientstopeffectivedata/position) { get; } | Возвращает положение (0..1) точки градиента. Только для чтенияSingle. |
+| [Color](../../aspose.slides/gradientstopeffectivedata/color) { get; } | Возвращает цвет точки градиента. Только для чтенияColor . |
+| [Position](../../aspose.slides/gradientstopeffectivedata/position) { get; } | Возвращает положение (0..1) точки градиента. Только для чтенияSingle . |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| override [Equals](../../aspose.slides/gradientstopeffectivedata/equals)(object) | Определяет, равен ли указанный[`GradientStopEffectiveData`](../gradientstopeffectivedata)текущемуГрадиентСтопЭффективеДата. |
+| override [Equals](../../aspose.slides/gradientstopeffectivedata/equals)(object) | Определяет, является ли указанный[`GradientStopEffectiveData`](../gradientstopeffectivedata) равен текущему[`GradientStopEffectiveData`](../gradientstopeffectivedata) . |
 | override [GetHashCode](../../aspose.slides/gradientstopeffectivedata/gethashcode)() |  |
 
 ### Смотрите также

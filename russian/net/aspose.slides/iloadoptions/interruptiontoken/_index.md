@@ -1,14 +1,14 @@
 ---
 title: InterruptionToken
 second_title: Справочник по API Aspose.Slides для .NET
-description: Маркер для отслеживания запросов прерывания.  Этот токен управляет всемIPresentationaspose.slides/ipresentationвременем существования экземпляра. Любая длительная операция такая как презентация загрузка или сохранение будет прервана вызовом методаInterruptaspose.slides/iinterruptiontokensource/interrupt theIInterruptionTokenSourceaspose.slides/iinterruptiontokensource.
+description: Маркер для отслеживания запросов прерывания.  Этот токен управляет всемIPresentationaspose.slides/ipresentation время жизни экземпляра. Любая длительная операция такая как загрузка или сохранение презентации  будет прервана вызовом функцииInterruptaspose.slides/iinterruptiontokensource/interrupt метод IInterruptionTokenSourceaspose.slides/iinterruptiontokensource .
 type: docs
 weight: 60
 url: /ru/net/aspose.slides/iloadoptions/interruptiontoken/
 ---
 ## ILoadOptions.InterruptionToken property
 
-Маркер для отслеживания запросов прерывания.  Этот токен управляет всем[`IPresentation`](../../ipresentation)временем существования экземпляра. Любая длительная операция, такая как презентация загрузка или сохранение, будет прервана вызовом метода[`Interrupt`](../../iinterruptiontokensource/interrupt) the[`IInterruptionTokenSource`](../../iinterruptiontokensource).
+Маркер для отслеживания запросов прерывания.  Этот токен управляет всем[`IPresentation`](../../ipresentation) время жизни экземпляра. Любая длительная операция, такая как загрузка или сохранение презентации , будет прервана вызовом функции[`Interrupt`](../../iinterruptiontokensource/interrupt) метод [`IInterruptionTokenSource`](../../iinterruptiontokensource) .
 
 ```csharp
 public IInterruptionToken InterruptionToken { get; set; }

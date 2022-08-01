@@ -1,14 +1,14 @@
 ---
 title: IsBulletHardColor
 second_title: Aspose.Slides for .NET API 参考
-description: 确定子弹是否有自己的颜色或从段落的第一部分继承它  NullableBool.True 如果子弹有自己的颜色和 NullableBool.False if bullet 从段落的第一部分继承颜色 读/写NullableBoolaspose.slides/nullablebool
+description: 确定子弹是否有自己的颜色或从段落的第一部分继承它  NullableBool.True如果子弹有自己的颜色和 NullableBool.False如果 bullet 从段落的第一部分继承颜色 读/写NullableBoolaspose.slides/nullablebool.
 type: docs
 weight: 50
 url: /zh/net/aspose.slides/bulletformat/isbullethardcolor/
 ---
 ## BulletFormat.IsBulletHardColor property
 
-确定子弹是否有自己的颜色或从段落的第一部分继承它。  **NullableBool.True** 如果子弹有自己的颜色和 **NullableBool.False** if bullet 从段落的第一部分继承颜色。 读/写[`NullableBool`](../../nullablebool)。
+确定子弹是否有自己的颜色或从段落的第一部分继承它。  **NullableBool.True**如果子弹有自己的颜色和 **NullableBool.False**如果 bullet 从段落的第一部分继承颜色。 读/写[`NullableBool`](../../nullablebool).
 
 ```csharp
 public NullableBool IsBulletHardColor { get; set; }

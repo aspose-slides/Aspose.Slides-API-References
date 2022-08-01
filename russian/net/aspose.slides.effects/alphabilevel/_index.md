@@ -1,14 +1,14 @@
 ---
 title: AlphaBiLevel
 second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет двухуровневый альфа-эффект. Значения альфа-канала непрозрачности меньшие порогового значения изменяются на 0 полностью прозрачный и значения альфа-канала превышающие или равные пороговому значению изменяются на 100 полностью непрозрачный .
+description: Представляет эффект двухуровневого альфа-канала. Значения альфа-канала непрозрачности меньшие порогового значения изменяются на 0 полностью прозрачные а значения альфа-канала превышающие пороговое значение или равные ему изменяются на 100  полностью непрозрачные.
 type: docs
 weight: 2670
 url: /ru/net/aspose.slides.effects/alphabilevel/
 ---
 ## AlphaBiLevel class
 
-Представляет двухуровневый альфа-эффект. Значения альфа-канала (непрозрачности), меньшие порогового значения, изменяются на 0 (полностью прозрачный) и значения альфа-канала, превышающие или равные пороговому значению, изменяются на 100% (полностью непрозрачный) .
+Представляет эффект двухуровневого альфа-канала. Значения альфа-канала (непрозрачности), меньшие порогового значения, изменяются на 0 (полностью прозрачные), а значения альфа-канала, превышающие пороговое значение или равные ему, изменяются на 100 % (полностью непрозрачные).
 
 ```csharp
 public class AlphaBiLevel : ImageTransformOperation, IAlphaBiLevel
@@ -18,16 +18,16 @@ public class AlphaBiLevel : ImageTransformOperation, IAlphaBiLevel
 
 | Имя | Описание |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Позволяет получить базовый интерфейс IPresentationComponent. Только для чтения[`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
-| [Threshold](../../aspose.slides.effects/alphabilevel/threshold) { get; set; } | Возвращает порог эффекта. Чтение/записьSingle. |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Позволяет получить базовый интерфейс IPresentationComponent. Только для чтения[`IPresentationComponent`](../../aspose.slides/ipresentationcomponent) . |
+| [Threshold](../../aspose.slides.effects/alphabilevel/threshold) { get; set; } | Возвращает порог эффекта. Чтение/записьSingle . |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/alphabilevel/equals)(object) | Определяет, равен ли указанный[`AlphaBiLevel`](../alphabilevel)текущемуAlphaBiLevel. |
-| [GetEffective](../../aspose.slides.effects/alphabilevel/geteffective)() | Получает эффективные данные эффекта двухуровневого альфа-канала с применением наследования. |
-| override [GetHashCode](../../aspose.slides.effects/alphabilevel/gethashcode)() | Служит хэш-функцией для определенного типа. |
+| override [Equals](../../aspose.slides.effects/alphabilevel/equals)(object) | Определяет, является ли указанный[`AlphaBiLevel`](../alphabilevel) равен текущему[`AlphaBiLevel`](../alphabilevel) . |
+| [GetEffective](../../aspose.slides.effects/alphabilevel/geteffective)() | Получает данные об эффективном двухуровневом альфа-канале с применением наследования. |
+| override [GetHashCode](../../aspose.slides.effects/alphabilevel/gethashcode)() | Служит хеш-функцией для определенного типа. |
 
 ### Смотрите также
 

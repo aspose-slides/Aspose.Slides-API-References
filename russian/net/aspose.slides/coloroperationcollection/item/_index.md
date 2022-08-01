@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или задает операцию по указанному индексу. Чтение/записьColorOperationaspose.slides/coloroperation.
+description: Возвращает или задает операцию по указанному индексу. Чтение/записьColorOperationaspose.slides/coloroperation .
 type: docs
 weight: 30
 url: /ru/net/aspose.slides/coloroperationcollection/item/
 ---
 ## ColorOperationCollection indexer
 
-Возвращает или задает операцию по указанному индексу. Чтение/запись[`ColorOperation`](../../coloroperation).
+Возвращает или задает операцию по указанному индексу. Чтение/запись[`ColorOperation`](../../coloroperation) .
 
 ```csharp
 public IColorOperation this[int index] { get; set; }

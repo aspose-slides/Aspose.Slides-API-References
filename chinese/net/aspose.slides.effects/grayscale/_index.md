@@ -18,13 +18,13 @@ public class GrayScale : ImageTransformOperation, IGrayScale
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允许获取基本 IPresentationComponent 接口。 只读[`IPresentationComponent`](../../aspose.slides/ipresentationcomponent)。 |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允许获取基本 IPresentationComponent 接口。 只读[`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/grayscale/equals)(object) | 确定指定的[`GrayScale`](../grayscale)是否等于当前的GrayScale。 |
+| override [Equals](../../aspose.slides.effects/grayscale/equals)(object) | 判断是否指定[`GrayScale`](../grayscale)等于当前[`GrayScale`](../grayscale). |
 | [GetEffective](../../aspose.slides.effects/grayscale/geteffective)() | 获取应用了继承的有效灰度效果数据。 |
 | override [GetHashCode](../../aspose.slides.effects/grayscale/gethashcode)() | 用作特定类型的哈希函数。 |
 

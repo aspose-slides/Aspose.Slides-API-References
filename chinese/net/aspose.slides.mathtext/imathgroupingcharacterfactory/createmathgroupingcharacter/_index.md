@@ -17,14 +17,14 @@ public IMathGroupingCharacter CreateMathGroupingCharacter(IMathElement element, 
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| element | IMathElement | 数学元素以应用分组字符 |
+| element | IMathElement | 应用分组字符的数学元素 |
 | character | Char | 分组字符 |
-| position | MathTopBotPositions | 分组字符位置 |
+| position | MathTopBotPositions | 分组字符的位置 |
 | verticalJustification | MathTopBotPositions | 垂直对齐 |
 
 ### 返回值
 
-新分组字符元素
+新的分组字符元素
 
 ### 也可以看看
 
@@ -47,7 +47,7 @@ public IMathGroupingCharacter CreateMathGroupingCharacter(IMathElement element)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| element | IMathElement | 数学元素以应用分组字符 |
+| element | IMathElement | 应用分组字符的数学元素 |
 
 ### 返回值
 

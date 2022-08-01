@@ -1,14 +1,14 @@
 ---
 title: Height
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置没有继承的段落的项目符号高度 值 float.NaN 确定项目符号从段落的第一部分继承高度 读/写Single
+description: 返回或设置没有继承的段落的项目符号高度 值 float.NaN 确定项目符号从段落的第一部分继承高度 读/写Single.
 type: docs
 weight: 40
 url: /zh/net/aspose.slides/bulletformat/height/
 ---
 ## BulletFormat.Height property
 
-返回或设置没有继承的段落的项目符号高度。 值 float.NaN 确定项目符号从段落的第一部分继承高度。 读/写Single。
+返回或设置没有继承的段落的项目符号高度。 值 float.NaN 确定项目符号从段落的第一部分继承高度。 读/写Single.
 
 ```csharp
 public float Height { get; set; }

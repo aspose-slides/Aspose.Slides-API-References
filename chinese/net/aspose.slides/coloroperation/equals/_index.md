@@ -20,7 +20,7 @@ public override bool Equals(object obj)
 
 ### 返回值
 
-**true** 如果指定的 ColorOperation 等于当前 ColorOperation； 否则， **false** 。
+**真的**如果指定的 ColorOperation 等于当前的 ColorOperation； 否则， **错误的**.
 
 ### 也可以看看
 

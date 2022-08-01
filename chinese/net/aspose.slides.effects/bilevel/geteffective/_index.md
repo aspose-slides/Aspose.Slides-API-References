@@ -16,7 +16,7 @@ public IBiLevelEffectiveData GetEffective()
 
 ### 返回值
 
-A[`IBiLevelEffectiveData`](../../ibileveleffectivedata)。
+一个[`IBiLevelEffectiveData`](../../ibileveleffectivedata).
 
 ### 也可以看看
 

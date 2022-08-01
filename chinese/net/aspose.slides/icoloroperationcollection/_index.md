@@ -19,7 +19,7 @@ public interface IColorOperationCollection : IGenericCloneable<IColorOperationCo
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Item](../../aspose.slides/icoloroperationcollection/item) { get; set; } | 返回或设置指定索引处的操作。 读/写[`IColorOperation`](../icoloroperation)。 |
+| [Item](../../aspose.slides/icoloroperationcollection/item) { get; set; } | 返回或设置指定索引处的操作。 读/写[`IColorOperation`](../icoloroperation). |
 
 ## 方法
 
@@ -30,7 +30,7 @@ public interface IColorOperationCollection : IGenericCloneable<IColorOperationCo
 | [Clear](../../aspose.slides/icoloroperationcollection/clear)() | 删除所有颜色操作。 |
 | [Insert](../../aspose.slides/icoloroperationcollection/insert#insert)(int, ColorTransformOperation) | 将新操作插入到集合中。 |
 | [Insert](../../aspose.slides/icoloroperationcollection/insert#insert_1)(int, ColorTransformOperation, float) | 将新操作插入到集合中。 |
-| [RemoveAt](../../aspose.slides/icoloroperationcollection/removeat)(int) | 从集合中移除颜色操作。 |
+| [RemoveAt](../../aspose.slides/icoloroperationcollection/removeat)(int) | 从集合中删除颜色操作。 |
 
 ### 也可以看看
 

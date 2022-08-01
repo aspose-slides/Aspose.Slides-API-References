@@ -1,14 +1,14 @@
 ---
 title: Period
 second_title: Aspose.Slides for .NET API 参考
-description: 指定移动平均趋势线的趋势线周期其他趋势 线变体将被忽略值必须介于 2 和 255 之间 读/写Byte
+description: 指定移动平均趋势线的趋势线周期其他trend 线变体将被忽略值必须介于 2 和 255 之间 读/写Byte.
 type: docs
 weight: 90
 url: /zh/net/aspose.slides.charts/trendline/period/
 ---
 ## Trendline.Period property
 
-指定移动平均趋势线的趋势线周期。其他趋势 线变体将被忽略。值必须介于 2 和 255 之间。 读/写Byte。
+指定移动平均趋势线的趋势线周期。其他trend 线变体将被忽略。值必须介于 2 和 255 之间。 读/写Byte.
 
 ```csharp
 public byte Period { get; set; }

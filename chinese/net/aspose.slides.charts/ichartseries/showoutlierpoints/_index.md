@@ -1,14 +1,14 @@
 ---
 title: ShowOutlierPoints
 second_title: Aspose.Slides for .NET API 参考
-description: 代表离群点如果异常点显示在 BoxAndWhisker 图表上则为真仅适用于 BoxAndWhisker 图表 读/写Boolean
+description: 代表离群点如果异常点显示在 BoxAndWhisker 图表上则为真仅适用于 BoxAndWhisker 图表 读/写Boolean.
 type: docs
 weight: 410
 url: /zh/net/aspose.slides.charts/ichartseries/showoutlierpoints/
 ---
 ## IChartSeries.ShowOutlierPoints property
 
-代表离群点。如果异常点显示在 BoxAndWhisker 图表上，则为真。仅适用于 BoxAndWhisker 图表。 读/写Boolean。
+代表离群点。如果异常点显示在 BoxAndWhisker 图表上，则为真。仅适用于 BoxAndWhisker 图表。 读/写Boolean.
 
 ```csharp
 public bool ShowOutlierPoints { get; set; }

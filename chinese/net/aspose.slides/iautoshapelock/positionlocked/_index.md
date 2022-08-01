@@ -1,14 +1,14 @@
 ---
 title: PositionLocked
 second_title: Aspose.Slides for .NET API 参考
-description: 确定是否禁止移动此形状 读写Boolean
+description: 确定是否禁止移动此形状 读写Boolean.
 type: docs
 weight: 70
 url: /zh/net/aspose.slides/iautoshapelock/positionlocked/
 ---
 ## IAutoShapeLock.PositionLocked property
 
-确定是否禁止移动此形状。 读写Boolean。
+确定是否禁止移动此形状。 读写Boolean.
 
 ```csharp
 public bool PositionLocked { get; set; }

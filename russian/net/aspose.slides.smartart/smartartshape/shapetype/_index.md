@@ -1,14 +1,14 @@
 ---
 title: ShapeType
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или задает тип предустановки геометрии. Примечаниепри изменении значения все значения регулировки будут возвращены к значениям по умолчанию. Чтение/записьShapeTypeaspose.slides/shapetype.
+description: Возвращает или задает тип предустановки геометрии. Примечание при изменении значения все значения регулировки будут сброшены к значениям по умолчанию. Чтение/записьShapeTypeaspose.slides/shapetype .
 type: docs
 weight: 10
 url: /ru/net/aspose.slides.smartart/smartartshape/shapetype/
 ---
 ## SmartArtShape.ShapeType property
 
-Возвращает или задает тип предустановки геометрии. Примечание:при изменении значения все значения регулировки будут возвращены к значениям по умолчанию. Чтение/запись[`ShapeType`](../../../aspose.slides/shapetype).
+Возвращает или задает тип предустановки геометрии. Примечание: при изменении значения все значения регулировки будут сброшены к значениям по умолчанию. Чтение/запись[`ShapeType`](../../../aspose.slides/shapetype) .
 
 ```csharp
 public override ShapeType ShapeType { get; set; }
@@ -18,7 +18,7 @@ public override ShapeType ShapeType { get; set; }
 
 | исключение | условие |
 | --- | --- |
-| ArgumentException | Вызывается, когда значение равно ShapeType.NotDefined или ShapeType.Custom |
+| ArgumentException | Вызывается, когда значение равно ShapeType.NotDefined или ShapeType.Custom. |
 
 ### Смотрите также
 

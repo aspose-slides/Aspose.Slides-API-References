@@ -1,14 +1,14 @@
 ---
 title: TextAnimationCollection
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает коллекцию текстовых анимаций. Только для чтенияITextAnimationCollectionaspose.slides.animation/itextanimationcollection.
+description: Возвращает набор текстовых анимаций. Только для чтенияITextAnimationCollectionaspose.slides.animation/itextanimationcollection .
 type: docs
 weight: 30
 url: /ru/net/aspose.slides.animation/animationtimeline/textanimationcollection/
 ---
 ## AnimationTimeLine.TextAnimationCollection property
 
-Возвращает коллекцию текстовых анимаций. Только для чтения[`ITextAnimationCollection`](../../itextanimationcollection).
+Возвращает набор текстовых анимаций. Только для чтения[`ITextAnimationCollection`](../../itextanimationcollection) .
 
 ```csharp
 public ITextAnimationCollection TextAnimationCollection { get; }

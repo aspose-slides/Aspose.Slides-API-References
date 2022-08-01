@@ -8,7 +8,7 @@ url: /ru/net/aspose.slides.animation/behaviorproperty/shadowopacity/
 ---
 ## BehaviorProperty.ShadowOpacity property
 
-Представляет свойство 'shadow.opacity'
+Представляет свойство shadow.opacity
 
 ```csharp
 public static BehaviorProperty ShadowOpacity { get; }

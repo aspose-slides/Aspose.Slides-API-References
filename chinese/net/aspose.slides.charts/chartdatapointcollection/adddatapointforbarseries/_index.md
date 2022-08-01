@@ -1,14 +1,14 @@
 ---
 title: AddDataPointForBarSeries
 second_title: Aspose.Slides for .NET API 参考
-description: 创建新数据点并将其添加到集合的末尾 适用于 chartType 是 Column 或 Bar 子类型之一的系列另请参见IsChartTypeColumnaspose.slides.charts/charttypecharacterizer/ischarttypecolumn和IsChartTypeBaraspose.slides.charts/charttypecharacterizer/ischarttypebar方法
+description: 创建新数据点并将其添加到集合的末尾 适用于 chartType 是 Column 或 Bar 子类型之一的系列另请参阅IsChartTypeColumnaspose.slides.charts/charttypecharacterizer/ischarttypecolumn和IsChartTypeBaraspose.slides.charts/charttypecharacterizer/ischarttypebar方法.
 type: docs
 weight: 110
 url: /zh/net/aspose.slides.charts/chartdatapointcollection/adddatapointforbarseries/
 ---
 ## AddDataPointForBarSeries(IChartDataCell) {#adddatapointforbarseries}
 
-创建新数据点并将其添加到集合的末尾。 适用于 chartType 是 Column 或 Bar 子类型之一的系列（另请参见[`IsChartTypeColumn`](../../charttypecharacterizer/ischarttypecolumn)和[`IsChartTypeBar`](../../charttypecharacterizer/ischarttypebar)方法）。
+创建新数据点并将其添加到集合的末尾。 适用于 chartType 是 Column 或 Bar 子类型之一的系列（另请参阅[`IsChartTypeColumn`](../../charttypecharacterizer/ischarttypecolumn)和[`IsChartTypeBar`](../../charttypecharacterizer/ischarttypebar)方法）.
 
 ```csharp
 public IChartDataPoint AddDataPointForBarSeries(IChartDataCell value)
@@ -34,7 +34,7 @@ public IChartDataPoint AddDataPointForBarSeries(IChartDataCell value)
 
 ## AddDataPointForBarSeries(double) {#adddatapointforbarseries_1}
 
-创建新数据点并将其添加到集合的末尾。 适用于 chartType 是 Column 或 Bar 子类型之一的系列（另请参见[`IsChartTypeColumn`](../../charttypecharacterizer/ischarttypecolumn)和[`IsChartTypeBar`](../../charttypecharacterizer/ischarttypebar)方法）。
+创建新数据点并将其添加到集合的末尾。 适用于 chartType 是 Column 或 Bar 子类型之一的系列（另请参阅[`IsChartTypeColumn`](../../charttypecharacterizer/ischarttypecolumn)和[`IsChartTypeBar`](../../charttypecharacterizer/ischarttypebar)方法）.
 
 ```csharp
 public IChartDataPoint AddDataPointForBarSeries(double value)

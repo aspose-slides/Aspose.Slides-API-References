@@ -1,14 +1,14 @@
 ---
 title: Hide
 second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет скрыта ли запись легенды. Чтение/записьBoolean.
+description: Определяет скрыта ли запись легенды. Чтение/записьBoolean .
 type: docs
 weight: 20
 url: /ru/net/aspose.slides.charts/legendentryproperties/hide/
 ---
 ## LegendEntryProperties.Hide property
 
-Определяет, скрыта ли запись легенды. Чтение/записьBoolean.
+Определяет, скрыта ли запись легенды. Чтение/записьBoolean .
 
 ```csharp
 public bool Hide { get; set; }

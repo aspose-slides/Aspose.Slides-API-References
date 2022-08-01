@@ -1,14 +1,14 @@
 ---
 title: ConnectionSiteCount
 second_title: Aspose.Slides for .NET API 参考
-description: 返回形状上的连接点数 只读Int32
+description: 返回形状上的连接站点数 只读Int32.
 type: docs
 weight: 40
 url: /zh/net/aspose.slides/shape/connectionsitecount/
 ---
 ## Shape.ConnectionSiteCount property
 
-返回形状上的连接点数。 只读Int32。
+返回形状上的连接站点数。 只读Int32.
 
 ```csharp
 public int ConnectionSiteCount { get; }

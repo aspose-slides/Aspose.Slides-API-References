@@ -1,14 +1,14 @@
 ---
 title: ShowMinorGridLines
 second_title: Aspose.Slides for .NET API 参考
-description: 表示是否显示次要网格线 只读Boolean
+description: 表示是否显示次要网格线 只读Boolean.
 type: docs
 weight: 490
 url: /zh/net/aspose.slides.charts/iaxis/showminorgridlines/
 ---
 ## IAxis.ShowMinorGridLines property
 
-表示是否显示次要网格线。 只读Boolean。
+表示是否显示次要网格线。 只读Boolean.
 
 ```csharp
 public bool ShowMinorGridLines { get; }

@@ -1,14 +1,14 @@
 ---
 title: IsTextHolder
 second_title: Aspose.Slides for .NET API 参考
-description: 判断形状是否为TextHolder 只读Boolean
+description: 确定形状是否为 TextHolder 只读Boolean.
 type: docs
 weight: 140
 url: /zh/net/aspose.slides/ishape/istextholder/
 ---
 ## IShape.IsTextHolder property
 
-判断形状是否为TextHolder。 只读Boolean。
+确定形状是否为 TextHolder。 只读Boolean.
 
 ```csharp
 public bool IsTextHolder { get; }

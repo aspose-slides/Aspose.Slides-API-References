@@ -1,14 +1,14 @@
 ---
 title: MasterHandoutSlideManager
 second_title: Aspose.Slides for .NET API 参考
-description: 返回讲义主管理器 只读IMasterHandoutSlideManageraspose.slides/imasterhandoutslidemanager
+description: 返回讲义主经理 只读IMasterHandoutSlideManageraspose.slides/imasterhandoutslidemanager.
 type: docs
 weight: 170
 url: /zh/net/aspose.slides/ipresentation/masterhandoutslidemanager/
 ---
 ## IPresentation.MasterHandoutSlideManager property
 
-返回讲义主管理器。 只读[`IMasterHandoutSlideManager`](../../imasterhandoutslidemanager)。
+返回讲义主经理。 只读[`IMasterHandoutSlideManager`](../../imasterhandoutslidemanager).
 
 ```csharp
 public IMasterHandoutSlideManager MasterHandoutSlideManager { get; }

@@ -16,11 +16,11 @@ public IMathGroupingCharacter Group()
 
 ### 返回值
 
-新[`IMathGroupingCharacter`](../../imathgroupingcharacter)
+类型的新实例[`IMathGroupingCharacter`](../../imathgroupingcharacter)
 
 ### 例子
 
-类型的实例示例:
+示例：
 
 ```csharp
 [C#]
@@ -38,7 +38,7 @@ IMathGroupingCharacter groupingElement = new MathematicalText("x;y;z").Group();
 
 ## Group(char, MathTopBotPositions, MathTopBotPositions) {#group_1}
 
-使用分组字符（例如下大括号或另一个
+使用分组字符（例如下大括号或另一个）将此元素放在一个组中
 
 ```csharp
 public IMathGroupingCharacter Group(char character, MathTopBotPositions position, 
@@ -47,17 +47,17 @@ public IMathGroupingCharacter Group(char character, MathTopBotPositions position
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| 字符 | Char | 分组字符，例如 BOTTOM CURLY BRACKET (U+23DF) 或任何其他 |
-| 位置 | MathTopBotPositions | 分组字符位置 |
-| verticalJustification | MathTopBotPositions | 组字符的垂直对齐。 指定对象相对于基线的对齐方式。 例如，当组字符在对象上方时， VerticalJustification of Top 表示对象的顶部落在基线上； 当 VerticalJustification 设置为 Bottom 时，对象的底部在基线上 |
+| character | Char | 分组字符，例如 BOTTOM CURLY BRACKET (U+23DF) 或任何其他 |
+| position | MathTopBotPositions | 分组字符的位置 |
+| verticalJustification | MathTopBotPositions | 组字符的垂直对齐。 指定对象相对于基线的对齐方式。 例如，当组字符在对象上方时， 顶部的垂直对齐表示对象的顶部落在基线上； 当 VerticalJustification 设置为 Bottom 时，对象的底部在 baseline 上 |
 
 ### 返回值
 
-[`IMathGroupingCharacter`](../../imathgroupingcharacter)
+类型的新实例[`IMathGroupingCharacter`](../../imathgroupingcharacter)
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]

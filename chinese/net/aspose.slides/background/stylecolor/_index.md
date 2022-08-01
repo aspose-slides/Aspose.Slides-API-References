@@ -1,14 +1,14 @@
 ---
 title: StyleColor
 second_title: Aspose.Slides for .NET API 参考
-description: 为 BackgroundType.Themed 填充返回 ColorFormat 只读IColorFormataspose.slides/icolorformat
+description: 返回背景类型的颜色格式主题填充 只读IColorFormataspose.slides/icolorformat.
 type: docs
 weight: 50
 url: /zh/net/aspose.slides/background/stylecolor/
 ---
 ## Background.StyleColor property
 
-为 BackgroundType.Themed 填充返回 ColorFormat。 只读[`IColorFormat`](../../icolorformat)。
+返回背景类型的颜色格式。主题填充。 只读[`IColorFormat`](../../icolorformat).
 
 ```csharp
 public IColorFormat StyleColor { get; }

@@ -1,14 +1,14 @@
 ---
 title: Y
 second_title: Aspose.Slides for .NET API 参考
-description: 返回图像的 Y 偏移量 只读Int32
+description: 返回图像的 Y 偏移量 只读Int32.
 type: docs
 weight: 80
 url: /zh/net/aspose.slides/ppimage/y/
 ---
 ## PPImage.Y property
 
-返回图像的 Y 偏移量。 只读Int32。
+返回图像的 Y 偏移量。 只读Int32.
 
 ```csharp
 public int Y { get; }

@@ -1,14 +1,14 @@
 ---
 title: Depth
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置 3D 形状的深度 读/写Double
+description: 返回或设置 3D 形状的深度 读/写Double.
 type: docs
 weight: 60
 url: /zh/net/aspose.slides/threedformat/depth/
 ---
 ## ThreeDFormat.Depth property
 
-返回或设置 3D 形状的深度。 读/写Double。
+返回或设置 3D 形状的深度。 读/写Double.
 
 ```csharp
 public double Depth { get; set; }

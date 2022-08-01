@@ -8,7 +8,7 @@ url: /ru/net/aspose.slides.animation/behaviorproperty/extrusionplane/
 ---
 ## BehaviorProperty.ExtrusionPlane property
 
-Представляет свойство 'extrusion.plane'
+Представляет свойство "extrusion.plane"
 
 ```csharp
 public static BehaviorProperty ExtrusionPlane { get; }

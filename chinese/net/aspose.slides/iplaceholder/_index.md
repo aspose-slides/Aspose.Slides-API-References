@@ -18,10 +18,10 @@ public interface IPlaceholder
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Index](../../aspose.slides/iplaceholder/index) { get; } | 获取占位符的索引。 只读UInt32。 |
-| [Orientation](../../aspose.slides/iplaceholder/orientation) { get; } | 获取占位符的方向。 只读[`Orientation`](../orientation)。 |
-| [Size](../../aspose.slides/iplaceholder/size) { get; } | 获取占位符的大小。 只读[`PlaceholderSize`](../placeholdersize)。 |
-| [Type](../../aspose.slides/iplaceholder/type) { get; } | 获取占位符的类型。 只读[`PlaceholderType`](../placeholdertype)。 |
+| [Index](../../aspose.slides/iplaceholder/index) { get; } | 获取占位符的索引。 只读UInt32. |
+| [Orientation](../../aspose.slides/iplaceholder/orientation) { get; } | 获取占位符的方向。 只读[`Orientation`](../orientation). |
+| [Size](../../aspose.slides/iplaceholder/size) { get; } | 获取占位符的大小。 只读[`PlaceholderSize`](../placeholdersize). |
+| [Type](../../aspose.slides/iplaceholder/type) { get; } | 获取占位符的类型。 只读[`PlaceholderType`](../placeholdertype). |
 
 ### 也可以看看
 

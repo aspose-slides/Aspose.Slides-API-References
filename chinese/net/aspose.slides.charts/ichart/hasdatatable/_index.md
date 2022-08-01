@@ -1,14 +1,14 @@
 ---
 title: HasDataTable
 second_title: Aspose.Slides for .NET API 参考
-description: 判断图表是否有数据表 读/写Boolean
+description: 判断一个图表是否有数据表 读/写Boolean.
 type: docs
 weight: 110
 url: /zh/net/aspose.slides.charts/ichart/hasdatatable/
 ---
 ## IChart.HasDataTable property
 
-判断图表是否有数据表。 读/写Boolean。
+判断一个图表是否有数据表。 读/写Boolean.
 
 ```csharp
 public bool HasDataTable { get; set; }

@@ -22,9 +22,15 @@ public bool CheckWriteProtection(string password)
 
 如果演示文稿被写保护并且密码正确，则为真。否则为假。
 
+### 例外
+
+| 例外 | （健康）状况 |
+| --- | --- |
+| InvalidOperationException |  |
+
 ### 评论
 
-1. 您应该检查[`IsWriteProtected`](../iswriteprotected)调用此方法之前的属性。 2.当密码为空或为空时，该方法返回false。
+1. 你应该检查[`IsWriteProtected`](../iswriteprotected)调用此方法前的属性。 2.当密码为null或为空时，此方法返回false。
 
 ### 例子
 

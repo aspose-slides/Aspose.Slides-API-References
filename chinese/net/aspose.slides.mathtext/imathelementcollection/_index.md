@@ -18,9 +18,9 @@ public interface IMathElementCollection : IEnumerable<IMathElement>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.mathtext/imathelementcollection/asienumerable) { get; } | 返回 IEnumerable 接口。 只读IEnumerable。 |
-| [Count](../../aspose.slides.mathtext/imathelementcollection/count) { get; } | 获取集合中实际包含的元素数量。 只读Int32。 |
-| [Item](../../aspose.slides.mathtext/imathelementcollection/item) { get; } | 获取指定索引处的元素。 只读[`IMathElement`](../imathelement)。 |
+| [AsIEnumerable](../../aspose.slides.mathtext/imathelementcollection/asienumerable) { get; } | 返回 IEnumerable 接口。 只读IEnumerable. |
+| [Count](../../aspose.slides.mathtext/imathelementcollection/count) { get; } | 获取集合中实际包含的元素数。 只读Int32. |
+| [Item](../../aspose.slides.mathtext/imathelementcollection/item) { get; } | 获取指定索引处的元素。 只读[`IMathElement`](../imathelement). |
 
 ## 方法
 
@@ -37,7 +37,7 @@ public interface IMathElementCollection : IEnumerable<IMathElement>
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]

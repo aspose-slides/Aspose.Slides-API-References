@@ -1,14 +1,14 @@
 ---
 title: Amount
 second_title: Aspose.Slides for .NET API 参考
-description: 返回效果量 只读Single
+description: 返回效果量 只读Single.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides.effects/itinteffectivedata/amount/
 ---
 ## ITintEffectiveData.Amount property
 
-返回效果量。 只读Single。
+返回效果量。 只读Single.
 
 ```csharp
 public float Amount { get; }

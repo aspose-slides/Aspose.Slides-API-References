@@ -20,7 +20,7 @@ public enum NullableBool : sbyte
 | --- | --- | --- |
 | NotDefined | `-1` | 布尔值未定义。 |
 | False | `0` | 假值。 |
-| True | `1` | 真值。 |
+| True | `1` | 真实值。 |
 
 ### 也可以看看
 

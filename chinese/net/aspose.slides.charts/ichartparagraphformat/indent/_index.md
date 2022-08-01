@@ -1,14 +1,14 @@
 ---
 title: Indent
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置段落首行缩进/悬挂缩进悬挂缩进可以用负值定义 读/写Single
+description: 返回或设置段落首行缩进/悬挂缩进悬挂缩进可以用负值定义 读/写Single.
 type: docs
 weight: 60
 url: /zh/net/aspose.slides.charts/ichartparagraphformat/indent/
 ---
 ## IChartParagraphFormat.Indent property
 
-返回或设置段落首行缩进/悬挂缩进。悬挂缩进可以用负值定义。 读/写Single。
+返回或设置段落首行缩进/悬挂缩进。悬挂缩进可以用负值定义。 读/写Single.
 
 ```csharp
 public float Indent { get; set; }

@@ -18,14 +18,14 @@ public interface IMasterNotesSlideManager
 
 | 姓名 | 描述 |
 | --- | --- |
-| [MasterNotesSlide](../../aspose.slides/imasternotesslidemanager/masternotesslide) { get; } | 如果有，则返回此演示文稿的所有笔记幻灯片的母版，否则返回 null。 只读[`IMasterNotesSlide`](../imasternotesslide)。 |
+| [MasterNotesSlide](../../aspose.slides/imasternotesslidemanager/masternotesslide) { get; } | 如果有，则返回此演示文稿的所有笔记幻灯片的母版，否则返回 null。 只读[`IMasterNotesSlide`](../imasternotesslide). |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
 | [RemoveMasterNotesSlide](../../aspose.slides/imasternotesslidemanager/removemasternotesslide)() | 删除主注释幻灯片。 |
-| [SetDefaultMasterNotesSlide](../../aspose.slides/imasternotesslidemanager/setdefaultmasternotesslide)() | 为相关笔记幻灯片设置默认主笔记幻灯片。 |
+| [SetDefaultMasterNotesSlide](../../aspose.slides/imasternotesslidemanager/setdefaultmasternotesslide)() | 为相关笔记幻灯片设置默认的主笔记幻灯片。 |
 
 ### 也可以看看
 

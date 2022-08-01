@@ -1,14 +1,14 @@
 ---
 title: Presentation
 second_title: Aspose.Slides for .NET API 参考
-description: 此构造函数从头开始创建新的表示 创建的演示文稿有一张空白幻灯片
+description: 此构造函数从头开始创建新的演示文稿 创建的演示文稿有一张空幻灯片
 type: docs
 weight: 10
 url: /zh/net/aspose.slides/presentation/presentation/
 ---
 ## Presentation() {#constructor}
 
-此构造函数从头开始创建新的表示。 创建的演示文稿有一张空白幻灯片。
+此构造函数从头开始创建新的演示文稿。 创建的演示文稿有一张空幻灯片。
 
 ```csharp
 public Presentation()
@@ -24,7 +24,7 @@ public Presentation()
 
 ## Presentation(LoadOptions) {#constructor_1}
 
-此构造函数从头开始创建新的表示。 创建的演示文稿有一张空白幻灯片。
+此构造函数从头开始创建新的演示文稿。 创建的演示文稿有一张空幻灯片。
 
 ```csharp
 public Presentation(LoadOptions loadOptions)
@@ -32,7 +32,7 @@ public Presentation(LoadOptions loadOptions)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| loadOptions | LoadOptions | 附加加载选项。 |
+| loadOptions | LoadOptions | 附加负载选项。 |
 
 ### 也可以看看
 
@@ -90,7 +90,7 @@ public Presentation(Stream stream, LoadOptions loadOptions)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | stream | Stream | 输入流。 |
-| loadOptions | LoadOptions | 附加加载选项。 |
+| loadOptions | LoadOptions | 附加负载选项。 |
 
 ### 也可以看看
 
@@ -103,7 +103,7 @@ public Presentation(Stream stream, LoadOptions loadOptions)
 
 ## Presentation(string) {#constructor_4}
 
-此构造函数获取源文件路径，从中读取 演示文稿的内容。
+此构造函数获取源文件路径， 从中读取演示文稿的内容。
 
 ```csharp
 public Presentation(string file)
@@ -117,7 +117,7 @@ public Presentation(string file)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentException | 当输入文件长度为零时抛出 |
+| ArgumentException | 当输入文件的长度为零时抛出 |
 
 ### 例子
 
@@ -141,7 +141,7 @@ Dim pres As Presentation = New Presentation("demo.pptx")
 
 ## Presentation(string, LoadOptions) {#constructor_5}
 
-此构造函数获取源文件路径，从中读取 演示文稿的内容。
+此构造函数获取源文件路径， 从中读取演示文稿的内容。
 
 ```csharp
 public Presentation(string file, LoadOptions loadOptions)
@@ -150,13 +150,13 @@ public Presentation(string file, LoadOptions loadOptions)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | file | String | 输入文件。 |
-| loadOptions | LoadOptions | 附加加载选项。 |
+| loadOptions | LoadOptions | 附加负载选项。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentException | 当输入文件长度为零时抛出 |
+| ArgumentException | 当输入文件的长度为零时抛出 |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: FirstRowIndex
 second_title: Aspose.Slides for .NET API 参考
-description: 返回单元格覆盖的第一行的索引 只读Int32
+description: 返回单元格覆盖的第一行的索引 只读Int32.
 type: docs
 weight: 80
 url: /zh/net/aspose.slides/icell/firstrowindex/
 ---
 ## ICell.FirstRowIndex property
 
-返回单元格覆盖的第一行的索引。 只读Int32。
+返回单元格覆盖的第一行的索引。 只读Int32.
 
 ```csharp
 public int FirstRowIndex { get; }

@@ -18,7 +18,7 @@ public interface IPresentationComponent
 
 | Имя | Описание |
 | --- | --- |
-| [Presentation](../../aspose.slides/ipresentationcomponent/presentation) { get; } | Возвращает презентацию. Только чтение[`IPresentation`](../ipresentation). |
+| [Presentation](../../aspose.slides/ipresentationcomponent/presentation) { get; } | Возвращает презентацию. Только для чтения[`IPresentation`](../ipresentation) . |
 
 ### Смотрите также
 

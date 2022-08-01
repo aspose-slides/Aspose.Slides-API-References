@@ -1,14 +1,14 @@
 ---
 title: GetCoordinates
 second_title: Aspose.Slides for .NET API 参考
-description: 获取部分开始的坐标 point 的 X 坐标表示 从第一个字符开始的部分包括左侧轴承 Y 坐标 包括顶侧轴承
+description: 获取部分开始的坐标点的 X 坐标表示从第一个字符开始的 部分包括左侧方位 Y 坐标 包括顶侧轴承
 type: docs
 weight: 60
 url: /zh/net/aspose.slides/iportion/getcoordinates/
 ---
 ## IPortion.GetCoordinates method
 
-获取部分开始的坐标。 point 的 X 坐标表示 从第一个字符开始的部分，包括左侧轴承。 Y 坐标 包括顶侧轴承。
+获取部分开始的坐标。点的 X 坐标表示从第一个字符开始的 部分，包括左侧方位。 Y 坐标 包括顶侧轴承。
 
 ```csharp
 public PointF GetCoordinates()
@@ -16,7 +16,7 @@ public PointF GetCoordinates()
 
 ### 返回值
 
-部分开头的坐标PointF
+部分开始的坐标PointF
 
 ### 也可以看看
 

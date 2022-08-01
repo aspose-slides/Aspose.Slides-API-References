@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Справочник по API Aspose.Slides для .NET
-description: Получает элемент по указанному индексу. Только для чтенияICommentaspose.slides/icomment.
+description: Получает элемент по указанному индексу. Только для чтенияICommentaspose.slides/icomment .
 type: docs
 weight: 10
 url: /ru/net/aspose.slides/icommentcollection/item/
 ---
 ## ICommentCollection indexer
 
-Получает элемент по указанному индексу. Только для чтения[`IComment`](../../icomment).
+Получает элемент по указанному индексу. Только для чтения[`IComment`](../../icomment) .
 
 ```csharp
 public IComment this[int index] { get; }

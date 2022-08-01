@@ -1,14 +1,14 @@
 ---
 title: ThrowIfInterruptionRequested
 second_title: Справочник по API Aspose.Slides для .NET
-description: Выдает OperationCanceledException  если прерывание было просил.
+description: ВыбрасываетOperationCanceledException if было запрошено прерывание.
 type: docs
 weight: 30
 url: /ru/net/aspose.slides/interruptiontoken/throwifinterruptionrequested/
 ---
 ## InterruptionToken.ThrowIfInterruptionRequested method
 
-Выдает OperationCanceledException , если прерывание было просил.
+ВыбрасываетOperationCanceledException if было запрошено прерывание.
 
 ```csharp
 public void ThrowIfInterruptionRequested()
@@ -18,7 +18,7 @@ public void ThrowIfInterruptionRequested()
 
 | исключение | условие |
 | --- | --- |
-| OperationCanceledException | Возникает при запросе прерывания. |
+| OperationCanceledException | Выброшено, когда было запрошено прерывание. |
 
 ### Смотрите также
 

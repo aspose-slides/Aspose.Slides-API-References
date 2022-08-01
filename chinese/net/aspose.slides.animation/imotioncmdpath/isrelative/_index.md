@@ -1,14 +1,14 @@
 ---
 title: IsRelative
 second_title: Aspose.Slides for .NET API 参考
-description: 确定命令坐标是否相对 读/写Boolean
+description: 确定命令坐标是否相对 读/写Boolean.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides.animation/imotioncmdpath/isrelative/
 ---
 ## IMotionCmdPath.IsRelative property
 
-确定命令坐标是否相对。 读/写Boolean。
+确定命令坐标是否相对。 读/写Boolean.
 
 ```csharp
 public bool IsRelative { get; set; }

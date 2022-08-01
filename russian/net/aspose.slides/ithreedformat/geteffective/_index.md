@@ -16,7 +16,7 @@ public IThreeDFormatEffectiveData GetEffective()
 
 ### Возвращаемое значение
 
-A[`IThreeDFormatEffectiveData`](../../ithreedformateffectivedata).
+А[`IThreeDFormatEffectiveData`](../../ithreedformateffectivedata).
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: Rows
 second_title: Aspose.Slides for .NET API 参考
-description: 返回行的集合 只读IRowCollectionaspose.slides/irowcollection
+description: 返回行的集合 只读IRowCollectionaspose.slides/irowcollection.
 type: docs
 weight: 110
 url: /zh/net/aspose.slides/itable/rows/
 ---
 ## ITable.Rows property
 
-返回行的集合。 只读[`IRowCollection`](../../irowcollection)。
+返回行的集合。 只读[`IRowCollection`](../../irowcollection).
 
 ```csharp
 public IRowCollection Rows { get; }

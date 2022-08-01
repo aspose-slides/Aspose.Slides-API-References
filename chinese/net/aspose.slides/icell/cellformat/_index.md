@@ -1,14 +1,14 @@
 ---
 title: CellFormat
 second_title: Aspose.Slides for .NET API 参考
-description: 返回包含此单元格格式属性的 CellFormat 对象 只读ICellFormataspose.slides/icellformat
+description: 返回包含此单元格格式属性的 CellFormat 对象 只读ICellFormataspose.slides/icellformat.
 type: docs
 weight: 30
 url: /zh/net/aspose.slides/icell/cellformat/
 ---
 ## ICell.CellFormat property
 
-返回包含此单元格格式属性的 CellFormat 对象。 只读[`ICellFormat`](../../icellformat)。
+返回包含此单元格格式属性的 CellFormat 对象。 只读[`ICellFormat`](../../icellformat).
 
 ```csharp
 public ICellFormat CellFormat { get; }

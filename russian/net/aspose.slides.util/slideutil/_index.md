@@ -18,10 +18,10 @@ public static class SlideUtil
 
 | Имя | Описание |
 | --- | --- |
-| static [AlignShapes](../../aspose.slides.util/slideutil/alignshapes#alignshapes)(ShapesAlignmentType, bool, IBaseSlide) | Изменяет размещение всех фигур на слайде. Выравнивает фигуры по полям или краю слайда или выравнивает их относительно друг друга. |
+| static [AlignShapes](../../aspose.slides.util/slideutil/alignshapes#alignshapes)(ShapesAlignmentType, bool, IBaseSlide) | Изменяет расположение всех фигур на слайде. Выравнивает фигуры по полям или краю слайда или выравнивает их относительно друг друга. |
 | static [AlignShapes](../../aspose.slides.util/slideutil/alignshapes#alignshapes_2)(ShapesAlignmentType, bool, IGroupShape) | Изменяет размещение всех фигур в групповой форме. Выравнивает фигуры по полям или краю слайда или выравнивает их относительно друг друга. |
 | static [AlignShapes](../../aspose.slides.util/slideutil/alignshapes#alignshapes_1)(ShapesAlignmentType, bool, IBaseSlide, int[]) | Изменяет размещение выбранных фигур на слайде. Выравнивает фигуры по полям или краю слайда или выравнивает их относительно друг друга. |
-| static [AlignShapes](../../aspose.slides.util/slideutil/alignshapes#alignshapes_3)(ShapesAlignmentType, bool, IGroupShape, int[]) | Изменяет размещение выбранных фигур внутри группы фигур. Выравнивает фигуры по полям или краю слайда или выравнивает их относительно друг друга. |
+| static [AlignShapes](../../aspose.slides.util/slideutil/alignshapes#alignshapes_3)(ShapesAlignmentType, bool, IGroupShape, int[]) | Изменяет размещение выбранных фигур внутри групповой фигуры. Выравнивает фигуры по полям или краю слайда или выравнивает их относительно друг друга. |
 | static [FindShape](../../aspose.slides.util/slideutil/findshape#findshape)(IBaseSlide, string) | Поиск фигуры по альтернативному тексту на слайде в презентации PPTX. |
 | static [FindShape](../../aspose.slides.util/slideutil/findshape#findshape_1)(IPresentation, string) | Поиск фигуры по альтернативному тексту в презентации PPTX. |
 | static [GetAllTextBoxes](../../aspose.slides.util/slideutil/getalltextboxes)(IBaseSlide) | Возвращает все текстовые фреймы на слайде в презентации PPTX. |

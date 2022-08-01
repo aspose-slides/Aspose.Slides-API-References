@@ -1,14 +1,14 @@
 ---
 title: TextFormat
 second_title: Aspose.Slides for .NET API 参考
-description: 返回图表文本格式 该属性不适用于以下类型TreemapSunburst WaterfallHistogramFunnelBoxAndWhisker 只读IChartTextFormataspose.slides.charts/icharttextformat
+description: 返回图表文本格式 该属性不适用于以下类型Treemap Sunburst  Waterfall Histogram FunnelBoxAndWhisker . 只读IChartTextFormataspose.slides.charts/icharttextformat.
 type: docs
 weight: 210
 url: /zh/net/aspose.slides.charts/chart/textformat/
 ---
 ## Chart.TextFormat property
 
-返回图表文本格式。 该属性不适用于以下类型:Treemap,Sunburst, Waterfall,Histogram,Funnel,BoxAndWhisker。 只读[`IChartTextFormat`](../../icharttextformat)。
+返回图表文本格式。 该属性不适用于以下类型：Treemap ,Sunburst , Waterfall ,Histogram ,Funnel,BoxAndWhisker . 只读[`IChartTextFormat`](../../icharttextformat).
 
 ```csharp
 public IChartTextFormat TextFormat { get; }

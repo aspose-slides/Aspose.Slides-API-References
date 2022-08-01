@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: Aspose.Slides for .NET API 参考
-description: 确定两个 IBaseSlide 实例是否相等 返回值是根据幻灯片的结构和静态内容计算的 如果所有形状样式文本动画和其他设置两张幻灯片相等等是平等的比较不考虑唯一标识符值例如 SlideId 和动态内容例如日期占位符中的当前日期值
+description: 判断两个IBaseSlide实例是否相等 返回值根据幻灯片的结构和静态内容计算 如果所有形状样式文本动画和其他设置两个幻灯片相等等是平等的比较不考虑唯一标识符值例如 SlideId 和动态内容例如 Date Placeholder. 中的当前日期值
 type: docs
 weight: 130
 url: /zh/net/aspose.slides/baseslide/equals/
 ---
 ## BaseSlide.Equals method
 
-确定两个 IBaseSlide 实例是否相等。 返回值是根据幻灯片的结构和静态内容计算的。 如果所有形状、样式、文本、动画和其他设置，两张幻灯片相等。等是平等的。比较不考虑唯一标识符值，例如 SlideId 和动态内容，例如日期占位符中的当前日期值。
+判断两个IBaseSlide实例是否相等。 返回值根据幻灯片的结构和静态内容计算。 如果所有形状、样式、文本、动画和其他设置，两个幻灯片相等。等是平等的。比较不考虑唯一标识符值，例如 SlideId 和动态内容，例如 Date Placeholder. 中的当前日期值
 
 ```csharp
 public bool Equals(IBaseSlide slide)
@@ -16,11 +16,11 @@ public bool Equals(IBaseSlide slide)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| slide | IBaseSlide | 要与当前 IBaseSlide 进行比较的 IBaseSlide。 |
+| slide | IBaseSlide | 与当前 IBaseSlide 进行比较的 IBaseSlide。 |
 
 ### 返回值
 
-**true** 如果指定的 IBaseSlide 等于当前的 IBaseSlide； 否则， **false** 。
+**真的**如果指定的 IBaseSlide 等于当前的 IBaseSlide； 否则， **错误的**.
 
 ### 也可以看看
 

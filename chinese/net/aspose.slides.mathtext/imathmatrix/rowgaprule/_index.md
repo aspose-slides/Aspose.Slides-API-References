@@ -8,7 +8,7 @@ url: /zh/net/aspose.slides.mathtext/imathmatrix/rowgaprule/
 ---
 ## IMathMatrix.RowGapRule property
 
-矩阵行之间的垂直间距类型； 垂直间距单位可以是线或点（存储为缇）。 默认值:SingleSpacingGap (0)
+矩阵行之间的垂直间距类型； 垂直间距单位可以是线或点（存储为缇）。 默认值：SingleSpacingGap (0)
 
 ```csharp
 public MathSpacingRules RowGapRule { get; set; }
@@ -16,7 +16,7 @@ public MathSpacingRules RowGapRule { get; set; }
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]

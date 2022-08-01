@@ -18,14 +18,14 @@ public class ColorReplace : ImageTransformOperation, IColorReplace
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允许获取基本 IPresentationComponent 接口。 只读[`IPresentationComponent`](../../aspose.slides/ipresentationcomponent)。 |
-| [Color](../../aspose.slides.effects/colorreplace/color) { get; } | 返回颜色格式，它将替换每个像素的颜色。 只读[`IColorFormat`](../../aspose.slides/icolorformat)。 |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允许获取基本 IPresentationComponent 接口。 只读[`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [Color](../../aspose.slides.effects/colorreplace/color) { get; } | 返回颜色格式，它将替换每个像素的颜色。 只读[`IColorFormat`](../../aspose.slides/icolorformat). |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/colorreplace/equals)(object) | 确定指定的[`ColorReplace`](../colorreplace)是否等于当前的ColorReplace。 |
+| override [Equals](../../aspose.slides.effects/colorreplace/equals)(object) | 判断是否指定[`ColorReplace`](../colorreplace)等于当前[`ColorReplace`](../colorreplace). |
 | [GetEffective](../../aspose.slides.effects/colorreplace/geteffective)() | 获取应用了继承的有效颜色替换效果数据。 |
 | override [GetHashCode](../../aspose.slides.effects/colorreplace/gethashcode)() | 用作特定类型的哈希函数。 |
 

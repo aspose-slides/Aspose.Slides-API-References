@@ -18,15 +18,15 @@ public class WebDocument
 
 | 姓名 | 描述 |
 | --- | --- |
-| [WebDocument](webdocument)(WebDocumentOptions) | [`WebDocument`](../webdocument)构造函数。 |
+| [WebDocument](webdocument)(WebDocumentOptions) | [`WebDocument`](../webdocument)构造函数. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Global](../../aspose.slides.export.web/webdocument/global) { get; } | 返回文档的全局存储。 只读[`Storage`](../storage)。 |
+| [Global](../../aspose.slides.export.web/webdocument/global) { get; } | 返回文档的全局存储。 只读[`Storage`](../storage). |
 | [Input](../../aspose.slides.export.web/webdocument/input) { get; } |  |
-| [Output](../../aspose.slides.export.web/webdocument/output) { get; } | 返回文档输出元素的集合。 只读[`Output`](./output)。 |
+| [Output](../../aspose.slides.export.web/webdocument/output) { get; } | 返回文档输出元素的集合。 只读[`Output`](./output). |
 
 ## 方法
 

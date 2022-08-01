@@ -8,7 +8,7 @@ url: /ru/net/aspose.slides.animation/behaviorproperty/styletexteffectemboss/
 ---
 ## BehaviorProperty.StyleTextEffectEmboss property
 
-Представляет свойство 'style.textEffectEmboss'
+Представляет свойство style.textEffectEmboss
 
 ```csharp
 public static BehaviorProperty StyleTextEffectEmboss { get; }

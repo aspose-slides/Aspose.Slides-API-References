@@ -1,14 +1,14 @@
 ---
 title: SectionCollection
 second_title: Aspose.Slides for .NET API 参考
-description: 表示节的集合
+description: 表示部分的集合
 type: docs
 weight: 9030
 url: /zh/net/aspose.slides/sectioncollection/
 ---
 ## SectionCollection class
 
-表示节的集合。
+表示部分的集合。
 
 ```csharp
 public sealed class SectionCollection : DomObject<Presentation>, ISectionCollection
@@ -18,10 +18,10 @@ public sealed class SectionCollection : DomObject<Presentation>, ISectionCollect
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Count](../../aspose.slides/sectioncollection/count) { get; } | 获取集合中实际包含的元素数量。 只读Int32。 |
-| [IsSynchronized](../../aspose.slides/sectioncollection/issynchronized) { get; } | 返回一个值，指示对集合的访问是否同步（线程安全）。 只读Boolean。 |
-| [Item](../../aspose.slides/sectioncollection/item) { get; } | 获取指定索引处的元素。 只读[`ISection`](../isection)。 |
-| [SyncRoot](../../aspose.slides/sectioncollection/syncroot) { get; } | 返回同步根。 只读Object。 |
+| [Count](../../aspose.slides/sectioncollection/count) { get; } | 获取集合中实际包含的元素数。 只读Int32. |
+| [IsSynchronized](../../aspose.slides/sectioncollection/issynchronized) { get; } | 返回一个值，指示对集合的访问是否同步（线程安全）。 只读Boolean. |
+| [Item](../../aspose.slides/sectioncollection/item) { get; } | 获取指定索引处的元素。 只读[`ISection`](../isection). |
+| [SyncRoot](../../aspose.slides/sectioncollection/syncroot) { get; } | 返回同步根。 只读Object. |
 
 ## 方法
 
@@ -33,7 +33,7 @@ public sealed class SectionCollection : DomObject<Presentation>, ISectionCollect
 | [Clear](../../aspose.slides/sectioncollection/clear)() | 从集合中删除所有部分。 |
 | [CopyTo](../../aspose.slides/sectioncollection/copyto)(Array, int) | 将整个集合复制到指定的数组。 |
 | [GetEnumerator](../../aspose.slides/sectioncollection/getenumerator)() | 返回一个遍历集合的枚举器。 |
-| [IndexOf](../../aspose.slides/sectioncollection/indexof)(ISection) | 返回集合中指定部分的索引。 |
+| [IndexOf](../../aspose.slides/sectioncollection/indexof)(ISection) | 返回集合中指定节的索引。 |
 | [RemoveSection](../../aspose.slides/sectioncollection/removesection)(ISection) | 删除部分。该部分中包含的幻灯片将合并到上一部分中。 |
 | [RemoveSectionWithSlides](../../aspose.slides/sectioncollection/removesectionwithslides)(ISection) | 删除部分和该部分中包含的幻灯片。 |
 | [ReorderSectionWithSlides](../../aspose.slides/sectioncollection/reordersectionwithslides)(ISection, int) | 将部分及其幻灯片从集合移动到指定位置。 |

@@ -1,14 +1,14 @@
 ---
 title: LightRig
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置灯光的类型 只读ILightRigaspose.slides/ilightrig
+description: 返回或设置灯光的类型 只读ILightRigaspose.slides/ilightrig.
 type: docs
 weight: 90
 url: /zh/net/aspose.slides/threedformat/lightrig/
 ---
 ## ThreeDFormat.LightRig property
 
-返回或设置灯光的类型。 只读[`ILightRig`](../../ilightrig)。
+返回或设置灯光的类型。 只读[`ILightRig`](../../ilightrig).
 
 ```csharp
 public ILightRig LightRig { get; }

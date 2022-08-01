@@ -1,14 +1,14 @@
 ---
 title: Overlay
 second_title: Aspose.Slides for .NET API 参考
-description: 确定是否允许其他图表元素与图例重叠 读/写Boolean
+description: 确定是否应允许其他图表元素与图例重叠 读/写Boolean.
 type: docs
 weight: 50
 url: /zh/net/aspose.slides.charts/ilegend/overlay/
 ---
 ## ILegend.Overlay property
 
-确定是否允许其他图表元素与图例重叠。 读/写Boolean。
+确定是否应允许其他图表元素与图例重叠。 读/写Boolean.
 
 ```csharp
 public bool Overlay { get; set; }

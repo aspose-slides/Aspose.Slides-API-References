@@ -16,7 +16,7 @@ public HtmlOptions(ILinkEmbedController linkEmbedController)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| linkEmbedController | ILinkEmbedController | Объект обратного вызова, управляющий сохранением проекта. |
+| linkEmbedController | ILinkEmbedController | Объект обратного вызова, который управляет сохранением проекта. |
 
 ### Смотрите также
 

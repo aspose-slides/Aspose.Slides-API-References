@@ -1,14 +1,14 @@
 ---
 title: Print
 second_title: Справочник по API Aspose.Slides для .NET
-description: Печать всей презентации на принтер по умолчанию.
+description: Печать всей презентации на принтере по умолчанию.
 type: docs
 weight: 330
 url: /ru/net/aspose.slides/ipresentation/print/
 ---
 ## Print() {#print}
 
-Печать всей презентации на принтер по умолчанию.
+Печать всей презентации на принтере по умолчанию.
 
 ```csharp
 public void Print()
@@ -64,7 +64,7 @@ public void Print(string printerName)
 
 ## Print(PrinterSettings, string) {#print_2}
 
-Печатает документ в соответствии с указанными настройками принтера, используя стандартный (без пользовательского интерфейса) контроллер печати и имя презентации.
+Печать документа в соответствии с указанными настройками принтера с использованием стандартного (без пользовательского интерфейса) контроллера печати и имени презентации.
 
 ```csharp
 public void Print(PrinterSettings printerSettings, string presName)
@@ -73,7 +73,7 @@ public void Print(PrinterSettings printerSettings, string presName)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | printerSettings | PrinterSettings | Используемые настройки принтера .NET. |
-| presName | String | Имя презентации для отображения (например, в диалоговом окне состояния печати или в очереди печати) при печати презентации. |
+| presName | String | Имя презентации для отображения (например, в диалоговом окне состояния print или в очереди печати) при печати презентации. |
 
 ### Смотрите также
 

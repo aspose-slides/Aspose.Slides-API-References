@@ -1,14 +1,14 @@
 ---
 title: Output
 second_title: Aspose.Slides for .NET API 参考
-description: 表示IWebDocument的输出元素的集合
+description: 表示输出元素的集合IWebDocument.
 type: docs
 weight: 4210
 url: /zh/net/aspose.slides.export.web/output/
 ---
 ## Output class
 
-表示!:IWebDocument的输出元素的集合。
+表示输出元素的集合!:IWebDocument.
 
 ```csharp
 public sealed class Output
@@ -18,11 +18,11 @@ public sealed class Output
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Add](../../aspose.slides.export.web/output/add#add_3)(string, Image) | 为图像添加输出元素。 |
-| [Add](../../aspose.slides.export.web/output/add#add_1)(string, IPPImage) | 为图像添加输出元素。 |
+| [Add](../../aspose.slides.export.web/output/add#add_3)(string, Image) | 为图像添加一个输出元素。 |
+| [Add](../../aspose.slides.export.web/output/add#add_1)(string, IPPImage) | 为图像添加一个输出元素。 |
 | [Add](../../aspose.slides.export.web/output/add#add_2)(string, IVideo) | 为视频添加一个输出元素。 |
 | [Add](../../aspose.slides.export.web/output/add#add_4)(string, string) | 为文本内容添加一个输出元素。 |
-| [Add](../../aspose.slides.export.web/output/add#add)(string, IFontData, FontStyle) | 为字体添加输出元素。 |
+| [Add](../../aspose.slides.export.web/output/add#add)(string, IFontData, FontStyle) | 为字体添加一个输出元素。 |
 | [Add&lt;TContextObject&gt;](../../aspose.slides.export.web/output/add#add_5)(string, string, TContextObject) |  |
 | [BindResource](../../aspose.slides.export.web/output/bindresource)(IOutputFile, object) | 将资源绑定到输出文件。 |
 | [GetResourcePath](../../aspose.slides.export.web/output/getresourcepath)(object) | 返回给定资源的路径。 |

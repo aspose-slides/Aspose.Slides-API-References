@@ -1,14 +1,14 @@
 ---
 title: Luminance
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置 HSL 表示中颜色的亮度分量 忽略所有颜色转换 读/写Single
+description: 返回或设置 HSL 表示中颜色的亮度分量 忽略所有颜色转换 读/写Single.
 type: docs
 weight: 110
 url: /zh/net/aspose.slides/icolorformat/luminance/
 ---
 ## IColorFormat.Luminance property
 
-返回或设置 HSL 表示中颜色的亮度分量。 忽略所有颜色转换。 读/写Single。
+返回或设置 HSL 表示中颜色的亮度分量。 忽略所有颜色转换。 读/写Single.
 
 ```csharp
 public float Luminance { get; set; }

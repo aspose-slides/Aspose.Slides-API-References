@@ -1,14 +1,14 @@
 ---
 title: TextFrameForOverriding
 second_title: Справочник по API Aspose.Slides для .NET
-description: Может содержать форматированный текст. Если это свойство не равно null то это форматированное текстовое значение переопределяет автоматически сгенерированный текст метки данных. Автоматически сгенерированный текст метки данных означает текст управляемый свойствами ShowSeriesName ShowValue ... и отформатированный с помощью свойства TextFormatManager.TextFormat. Только для чтенияITextFrameaspose.slides/itextframe.
+description: Может содержать форматированный текст. Если это свойство не равно null то это форматированное текстовое значение переопределяет автоматически сгенерированный текст метки данных. Автоматически сгенерированный текст метки данных означает текст который управляется свойствами ShowSeriesName ShowValue ... и отформатирован с помощью TextFormatManager Свойство .TextFormat. Только для чтенияITextFrameaspose.slides/itextframe .
 type: docs
 weight: 120
 url: /ru/net/aspose.slides.charts/trendline/textframeforoverriding/
 ---
 ## Trendline.TextFrameForOverriding property
 
-Может содержать форматированный текст. Если это свойство не равно null, то это форматированное текстовое значение переопределяет автоматически сгенерированный текст метки данных. Автоматически сгенерированный текст метки данных означает текст, управляемый свойствами ShowSeriesName, ShowValue, ... и отформатированный с помощью свойства TextFormatManager.TextFormat. Только для чтения[`ITextFrame`](../../../aspose.slides/itextframe).
+Может содержать форматированный текст. Если это свойство не равно null, то это форматированное текстовое значение переопределяет автоматически сгенерированный текст метки данных. Автоматически сгенерированный текст метки данных означает текст, который управляется свойствами ShowSeriesName, ShowValue, ... и отформатирован с помощью TextFormatManager Свойство .TextFormat. Только для чтения[`ITextFrame`](../../../aspose.slides/itextframe) .
 
 ```csharp
 public ITextFrame TextFrameForOverriding { get; }

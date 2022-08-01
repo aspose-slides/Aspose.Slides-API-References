@@ -1,14 +1,14 @@
 ---
 title: ShadowColor
 second_title: Aspose.Slides for .NET API 参考
-description: 阴影颜色 只读IColorFormataspose.slides/icolorformat
+description: 阴影颜色 只读IColorFormataspose.slides/icolorformat.
 type: docs
 weight: 60
 url: /zh/net/aspose.slides.effects/ipresetshadow/shadowcolor/
 ---
 ## IPresetShadow.ShadowColor property
 
-阴影颜色。 只读[`IColorFormat`](../../../aspose.slides/icolorformat)。
+阴影颜色。 只读[`IColorFormat`](../../../aspose.slides/icolorformat).
 
 ```csharp
 public IColorFormat ShadowColor { get; }

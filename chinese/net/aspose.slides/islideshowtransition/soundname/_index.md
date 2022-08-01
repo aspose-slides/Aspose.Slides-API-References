@@ -1,14 +1,14 @@
 ---
 title: SoundName
 second_title: Aspose.Slides for .NET API 参考
-description: 指定过渡声音的人类可读名称必须分配Soundaspose.slides/islideshowtransition/sound属性以获取或设置声音名称 读写String
+description: 为过渡的声音指定一个人类可读的名称这Soundaspose.slides/islideshowtransition/sound必须分配属性以获取或设置声音名称 读写String.
 type: docs
 weight: 70
 url: /zh/net/aspose.slides/islideshowtransition/soundname/
 ---
 ## ISlideShowTransition.SoundName property
 
-指定过渡声音的人类可读名称。必须分配[`Sound`](../sound)属性以获取或设置声音名称。 读写String。
+为过渡的声音指定一个人类可读的名称。这[`Sound`](../sound)必须分配属性以获取或设置声音名称。 读写String.
 
 ```csharp
 public string SoundName { get; set; }
@@ -18,7 +18,7 @@ public string SoundName { get; set; }
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| [PptxException](../../pptxexception) | 当[`Sound`](../sound)属性未分配时。 |
+| [PptxException](../../pptxexception) | 什么时候[`Sound`](../sound)属性未分配。 |
 
 ### 评论
 

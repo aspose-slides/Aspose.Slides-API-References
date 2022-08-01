@@ -20,7 +20,7 @@ public string GetFontName(IThemeEffectiveData theme)
 
 ### Возвращаемое значение
 
-Имя шрифта.
+Название шрифта.
 
 ### Смотрите также
 

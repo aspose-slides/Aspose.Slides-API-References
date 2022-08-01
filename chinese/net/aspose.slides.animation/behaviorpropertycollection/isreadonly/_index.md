@@ -1,14 +1,14 @@
 ---
 title: IsReadOnly
 second_title: Aspose.Slides for .NET API 参考
-description: 获取一个值该值指示ICollection是否为只读 只读Boolean
+description: 获取一个值该值指示是否ICollection是只读的 只读Boolean.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides.animation/behaviorpropertycollection/isreadonly/
 ---
 ## BehaviorPropertyCollection.IsReadOnly property
 
-获取一个值，该值指示ICollection是否为只读。 只读Boolean。
+获取一个值，该值指示是否ICollection是只读的。 只读Boolean.
 
 ```csharp
 public bool IsReadOnly { get; }

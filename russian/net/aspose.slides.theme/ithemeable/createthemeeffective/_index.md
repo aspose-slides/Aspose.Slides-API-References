@@ -16,7 +16,7 @@ public IThemeEffectiveData CreateThemeEffective()
 
 ### Возвращаемое значение
 
-Эффективная тема[`IThemeEffectiveData`](../../ithemeeffectivedata)
+Эффектная тема[`IThemeEffectiveData`](../../ithemeeffectivedata)
 
 ### Смотрите также
 

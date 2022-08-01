@@ -1,14 +1,14 @@
 ---
 title: AsICellCollection
 second_title: Справочник по API Aspose.Slides для .NET
-description: Позволяет получить базовый интерфейс ICellCollection. Только для чтенияICellCollectionaspose.slides/icellcollection.
+description: Позволяет получить базовый интерфейс ICellCollection. Только для чтенияICellCollectionaspose.slides/icellcollection .
 type: docs
 weight: 20
 url: /ru/net/aspose.slides/irow/asicellcollection/
 ---
 ## IRow.AsICellCollection property
 
-Позволяет получить базовый интерфейс ICellCollection. Только для чтения[`ICellCollection`](../../icellcollection).
+Позволяет получить базовый интерфейс ICellCollection. Только для чтения[`ICellCollection`](../../icellcollection) .
 
 ```csharp
 public ICellCollection AsICellCollection { get; }

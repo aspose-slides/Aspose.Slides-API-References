@@ -18,14 +18,14 @@ public interface IStringChartValue : IMultipleCellChartValue
 
 | Имя | Описание |
 | --- | --- |
-| [AsIMultipleCellChartValue](../../aspose.slides.charts/istringchartvalue/asimultiplecellchartvalue) { get; } | Позволяет получить базовый интерфейс IMultipleCellChartValue. Только для чтения[`IMultipleCellChartValue`](../imultiplecellchartvalue). |
-| [AsLiteralString](../../aspose.slides.charts/istringchartvalue/asliteralstring) { get; set; } | Возвращает или задает литеральную строку, если свойство DataSourceType имеет значение DataSourceType.StringLiterals. Чтение/записьString. |
+| [AsIMultipleCellChartValue](../../aspose.slides.charts/istringchartvalue/asimultiplecellchartvalue) { get; } | Позволяет получить базовый интерфейс IMultipleCellChartValue. Только для чтения[`IMultipleCellChartValue`](../imultiplecellchartvalue) . |
+| [AsLiteralString](../../aspose.slides.charts/istringchartvalue/asliteralstring) { get; set; } | Возвращает или задает литеральную строку, если свойство DataSourceType имеет значение DataSourceType.StringLiterals. Чтение/записьString . |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [GetCellsAddressInWorkbook](../../aspose.slides.charts/istringchartvalue/getcellsaddressinworkbook)() | Если свойство DataSourceType имеет значение DataSourceType.Worksheet, то этот метод возвращает адрес ячеек в рабочей книге, которые представляют строковые данные. В противном случае вернуть пустую строку. |
+| [GetCellsAddressInWorkbook](../../aspose.slides.charts/istringchartvalue/getcellsaddressinworkbook)() | Если свойство DataSourceType имеет значение DataSourceType.Worksheet, то этот метод возвращает адрес ячеек в книге, которые представляют строковые данные. В противном случае return пустая строка. |
 | [SetFromOneCell](../../aspose.slides.charts/istringchartvalue/setfromonecell)(IChartDataCell) | Устанавливает значение из указанной ячейки. |
 | [ToString](../../aspose.slides.charts/istringchartvalue/tostring)() | Возвращает строковое представление. |
 

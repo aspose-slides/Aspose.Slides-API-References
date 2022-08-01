@@ -18,12 +18,12 @@ public interface IZoomObject : IGraphicalObject
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsIGraphicalObject](../../aspose.slides/izoomobject/asigraphicalobject) { get; } | 允许获取基本 IGraphicalObject 接口。 只读[`IGraphicalObject`](../igraphicalobject)。 |
-| [Image](../../aspose.slides/izoomobject/image) { get; set; } | 获取或设置缩放对象的图像。 读/写[`IPPImage`](../ippimage)。 |
-| [ImageType](../../aspose.slides/izoomobject/imagetype) { get; set; } | 获取或设置缩放对象的图像类型。 读/写[`ZoomImageType`](../zoomimagetype)。 默认值:预览 |
-| [ReturnToParent](../../aspose.slides/izoomobject/returntoparent) { get; set; } | 获取或设置幻灯片中的导航行为。 读/写Boolean。 默认值:false |
-| [ShowBackground](../../aspose.slides/izoomobject/showbackground) { get; set; } | 获取或设置指定缩放是否使用目标幻灯片背景的值。 读/写Boolean。 默认值:true |
-| [TransitionDuration](../../aspose.slides/izoomobject/transitionduration) { get; set; } | 获取或设置缩放和幻灯片之间转换的持续时间。 读/写Single。 默认值:1.0f |
+| [AsIGraphicalObject](../../aspose.slides/izoomobject/asigraphicalobject) { get; } | 允许获取基本 IGraphicalObject 接口。 只读[`IGraphicalObject`](../igraphicalobject). |
+| [Image](../../aspose.slides/izoomobject/image) { get; set; } | 获取或设置缩放对象的图像。 读/写[`IPPImage`](../ippimage). |
+| [ImageType](../../aspose.slides/izoomobject/imagetype) { get; set; } | 获取或设置缩放对象的图像类型。 读/写[`ZoomImageType`](../zoomimagetype). 默认值：Preview |
+| [ReturnToParent](../../aspose.slides/izoomobject/returntoparent) { get; set; } | 获取或设置幻灯片中的导航行为。 读/写Boolean. 默认值：false |
+| [ShowBackground](../../aspose.slides/izoomobject/showbackground) { get; set; } | 获取或设置指定缩放是否将使用目标幻灯片的背景的值。 读/写Boolean. 默认值：true |
+| [TransitionDuration](../../aspose.slides/izoomobject/transitionduration) { get; set; } | 获取或设置缩放和幻灯片之间转换的持续时间。 读/写Single. 默认值：1.0f |
 
 ### 也可以看看
 

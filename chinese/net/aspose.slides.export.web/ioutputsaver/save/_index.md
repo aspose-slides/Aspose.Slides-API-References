@@ -1,14 +1,14 @@
 ---
 title: Save
 second_title: Aspose.Slides for .NET API 参考
-description: 将输出文件保存到给定路径
+description: 将输出文件保存到给定的路径
 type: docs
 weight: 10
 url: /zh/net/aspose.slides.export.web/ioutputsaver/save/
 ---
 ## IOutputSaver.Save method
 
-将输出文件保存到给定路径。
+将输出文件保存到给定的路径。
 
 ```csharp
 public void Save(string path, IOutputFile outputFile)
@@ -21,7 +21,7 @@ public void Save(string path, IOutputFile outputFile)
 
 ### 例子
 
-保存到FileStream实现示例:
+保存到FileStream实现示例：
 
 ```csharp
 [C#]

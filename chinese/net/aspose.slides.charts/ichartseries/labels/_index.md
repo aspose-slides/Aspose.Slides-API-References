@@ -1,14 +1,14 @@
 ---
 title: Labels
 second_title: Aspose.Slides for .NET API 参考
-description: 返回系列的标签 只读IDataLabelCollectionaspose.slides.charts/idatalabelcollection
+description: 返回一个系列的标签 只读IDataLabelCollectionaspose.slides.charts/idatalabelcollection.
 type: docs
 weight: 190
 url: /zh/net/aspose.slides.charts/ichartseries/labels/
 ---
 ## IChartSeries.Labels property
 
-返回系列的标签。 只读[`IDataLabelCollection`](../../idatalabelcollection)。
+返回一个系列的标签。 只读[`IDataLabelCollection`](../../idatalabelcollection).
 
 ```csharp
 public IDataLabelCollection Labels { get; }

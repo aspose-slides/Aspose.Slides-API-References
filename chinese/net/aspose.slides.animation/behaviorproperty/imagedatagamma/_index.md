@@ -1,14 +1,14 @@
 ---
 title: ImageDataGamma
 second_title: Aspose.Slides for .NET API 参考
-description: 表示 imageData.gamma 属性
+description: 表示imageData.gamma 属性
 type: docs
 weight: 490
 url: /zh/net/aspose.slides.animation/behaviorproperty/imagedatagamma/
 ---
 ## BehaviorProperty.ImageDataGamma property
 
-表示 'imageData.gamma' 属性
+表示'imageData.gamma' 属性
 
 ```csharp
 public static BehaviorProperty ImageDataGamma { get; }

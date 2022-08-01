@@ -1,14 +1,14 @@
 ---
 title: PortionFormat
 second_title: Справочник по API Aspose.Slides для .NET
-description: Формат порции. Только для чтенияIChartPortionFormataspose.slides.charts/ichartportionformat.
+description: Формат порции. Только для чтенияIChartPortionFormataspose.slides.charts/ichartportionformat .
 type: docs
 weight: 20
 url: /ru/net/aspose.slides.charts/charttextformat/portionformat/
 ---
 ## ChartTextFormat.PortionFormat property
 
-Формат порции. Только для чтения[`IChartPortionFormat`](../../ichartportionformat).
+Формат порции. Только для чтения[`IChartPortionFormat`](../../ichartportionformat) .
 
 ```csharp
 public IChartPortionFormat PortionFormat { get; }

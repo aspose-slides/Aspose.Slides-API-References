@@ -1,14 +1,14 @@
 ---
 title: CameraType
 second_title: Aspose.Slides for .NET API 参考
-description: 相机类型 读/写CameraPresetTypeaspose.slides/camerapresettype
+description: 相机类型 读/写CameraPresetTypeaspose.slides/camerapresettype.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides/icamera/cameratype/
 ---
 ## ICamera.CameraType property
 
-相机类型 读/写[`CameraPresetType`](../../camerapresettype)。
+相机类型 读/写[`CameraPresetType`](../../camerapresettype).
 
 ```csharp
 public CameraPresetType CameraType { get; set; }

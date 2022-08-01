@@ -1,14 +1,14 @@
 ---
 title: IMasterHandoutSlideHeaderFooterManager
 second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет менеджер который определяет поведение заполнителей слайдов основного раздаточного материала включая заполнитель заголовка.
+description: Представляет диспетчер который определяет поведение заполнителей слайдов основного раздаточного материала включая заполнитель заголовка.
 type: docs
 weight: 5800
 url: /ru/net/aspose.slides/imasterhandoutslideheaderfootermanager/
 ---
 ## IMasterHandoutSlideHeaderFooterManager interface
 
-Представляет менеджер, который определяет поведение заполнителей слайдов основного раздаточного материала, включая заполнитель заголовка.
+Представляет диспетчер, который определяет поведение заполнителей слайдов основного раздаточного материала, включая заполнитель заголовка.
 
 ```csharp
 public interface IMasterHandoutSlideHeaderFooterManager : IBaseHandoutNotesSlideHeaderFooterManag

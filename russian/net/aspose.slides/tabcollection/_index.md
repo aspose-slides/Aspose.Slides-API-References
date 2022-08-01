@@ -18,10 +18,10 @@ public sealed class TabCollection : ITabCollection
 
 | Имя | Описание |
 | --- | --- |
-| [Count](../../aspose.slides/tabcollection/count) { get; } | Получает количество элементов, фактически содержащихся в коллекции. Только для чтенияInt32. |
-| [IsSynchronized](../../aspose.slides/tabcollection/issynchronized) { get; } | Возвращает значение, указывающее, является ли доступ к коллекции синхронизированным (потокобезопасным). Только чтениеBoolean. |
-| [Item](../../aspose.slides/tabcollection/item) { get; } | Получает элемент по указанному индексу. Только для чтения[`Tab`](../tab). |
-| [SyncRoot](../../aspose.slides/tabcollection/syncroot) { get; } | Возвращает корень синхронизации. Только для чтенияObject. |
+| [Count](../../aspose.slides/tabcollection/count) { get; } | Получает количество элементов, фактически содержащихся в коллекции. Только для чтенияInt32 . |
+| [IsSynchronized](../../aspose.slides/tabcollection/issynchronized) { get; } | Возвращает значение, указывающее, является ли доступ к коллекции синхронизированным (потокобезопасным). Только для чтенияBoolean . |
+| [Item](../../aspose.slides/tabcollection/item) { get; } | Получает элемент по указанному индексу. Только для чтения[`Tab`](../tab) . |
+| [SyncRoot](../../aspose.slides/tabcollection/syncroot) { get; } | Возвращает корень синхронизации. Только для чтенияObject . |
 
 ## Методы
 
@@ -30,10 +30,10 @@ public sealed class TabCollection : ITabCollection
 | [Add](../../aspose.slides/tabcollection/add#add_1)(ITab) | Добавляет вкладку в коллекцию. |
 | [Add](../../aspose.slides/tabcollection/add#add)(double, TabAlignment) | Добавляет вкладку в коллекцию. |
 | [Clear](../../aspose.slides/tabcollection/clear)() | Удаляет все элементы из коллекции. |
-| [CopyTo](../../aspose.slides/tabcollection/copyto)(Array, int) | Копирует все элементы из коллекции в указанный массив. |
+| [CopyTo](../../aspose.slides/tabcollection/copyto)(Array, int) | Копирует все элементы коллекции в указанный массив. |
 | override [Equals](../../aspose.slides/tabcollection/equals)(object) | Определяет, равны ли два экземпляра TabsEx. |
-| [GetEnumerator](../../aspose.slides/tabcollection/getenumerator)() | Возвращает перечислитель, который перебирает коллекцию. |
-| override [GetHashCode](../../aspose.slides/tabcollection/gethashcode)() | Возвращает хеш-код для этого объекта. |
+| [GetEnumerator](../../aspose.slides/tabcollection/getenumerator)() | Возвращает перечислитель, который выполняет итерацию по коллекции. |
+| override [GetHashCode](../../aspose.slides/tabcollection/gethashcode)() | Возвращает хэш-код для этого объекта. |
 | [RemoveAt](../../aspose.slides/tabcollection/removeat)(int) | Удаляет элемент по указанному индексу коллекции. |
 
 ### Смотрите также

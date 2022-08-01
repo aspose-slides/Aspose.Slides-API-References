@@ -1,14 +1,14 @@
 ---
 title: IsChartTypeLine
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает true если chartType является одним из подтипов Line. Набор подтипов соответствует соответствующему набору в PowerPoint см. диалоговое окно Изменить тип диаграммы в PowerPoint Строка LineWithMarkers PercentsStackedLine PercentsStackedLineWithMarkers StackedLine StackedLineWithMarkers Line3D.
+description: Возвращает true если chartType является одним из подтипов Line. Набор подтипов соответствует соответствующему набору в PowerPoint см. диалоговое окно Изменить тип диаграммы в PowerPoint Line  LineWithMarkers  PercentsStackedLine  PercentsStackedLineWithMarkers  StackedLine  StackedLineWithMarkers  Line3D .
 type: docs
 weight: 100
 url: /ru/net/aspose.slides.charts/charttypecharacterizer/ischarttypeline/
 ---
 ## ChartTypeCharacterizer.IsChartTypeLine method
 
-Возвращает true, если chartType является одним из подтипов Line. Набор подтипов соответствует соответствующему набору в PowerPoint (см. диалоговое окно «Изменить тип диаграммы» в PowerPoint): Строка, LineWithMarkers, PercentsStackedLine, PercentsStackedLineWithMarkers, StackedLine, StackedLineWithMarkers, Line3D.
+Возвращает true, если chartType является одним из подтипов Line. Набор подтипов соответствует соответствующему набору в PowerPoint (см. диалоговое окно «Изменить тип диаграммы» в PowerPoint): Line , LineWithMarkers , PercentsStackedLine , PercentsStackedLineWithMarkers , StackedLine , StackedLineWithMarkers , Line3D .
 
 ```csharp
 public static bool IsChartTypeLine(ChartType chartType)

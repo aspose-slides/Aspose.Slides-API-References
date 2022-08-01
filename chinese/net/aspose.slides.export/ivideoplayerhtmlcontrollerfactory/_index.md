@@ -1,14 +1,14 @@
 ---
 title: IVideoPlayerHtmlControllerFactory
 second_title: Aspose.Slides for .NET API 参考
-description: 允许创建 VideoPlayerHtmlController
+description: 允许创建 VideoPlayerHtmlController.
 type: docs
 weight: 3850
 url: /zh/net/aspose.slides.export/ivideoplayerhtmlcontrollerfactory/
 ---
 ## IVideoPlayerHtmlControllerFactory interface
 
-允许创建 VideoPlayerHtmlController。
+允许创建 VideoPlayerHtmlController.
 
 ```csharp
 public interface IVideoPlayerHtmlControllerFactory

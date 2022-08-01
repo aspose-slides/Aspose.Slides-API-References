@@ -1,14 +1,14 @@
 ---
 title: TargetSlide
 second_title: Справочник по API Aspose.Slides для .NET
-description: Если гиперссылка нацелена на определенный слайд возвращается этот слайд. Только для чтенияISlideaspose.slides/islide.
+description: Если гиперссылка указывает на конкретный слайд возвращается этот слайд. Только для чтенияISlideaspose.slides/islide .
 type: docs
 weight: 170
 url: /ru/net/aspose.slides/hyperlink/targetslide/
 ---
 ## Hyperlink.TargetSlide property
 
-Если гиперссылка нацелена на определенный слайд, возвращается этот слайд. Только для чтения[`ISlide`](../../islide).
+Если гиперссылка указывает на конкретный слайд, возвращается этот слайд. Только для чтения[`ISlide`](../../islide) .
 
 ```csharp
 public ISlide TargetSlide { get; }

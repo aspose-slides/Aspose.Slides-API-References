@@ -1,14 +1,14 @@
 ---
 title: Accent1
 second_title: Aspose.Slides for .NET API 参考
-description: 方案中的第一个强调色 只读Color
+description: 方案中的第一个强调色 只读Color.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides.theme/icolorschemeeffectivedata/accent1/
 ---
 ## IColorSchemeEffectiveData.Accent1 property
 
-方案中的第一个强调色。 只读Color。
+方案中的第一个强调色。 只读Color.
 
 ```csharp
 public Color Accent1 { get; }

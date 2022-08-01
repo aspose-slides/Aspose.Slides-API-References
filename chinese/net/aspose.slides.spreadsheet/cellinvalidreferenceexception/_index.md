@@ -18,10 +18,10 @@ public class CellInvalidReferenceException : PptxEditException
 
 | 姓名 | 描述 |
 | --- | --- |
-| [CellInvalidReferenceException](cellinvalidreferenceexception#constructor)() | 初始化[`CellInvalidReferenceException`](../cellinvalidreferenceexception)类的新实例。 |
-| [CellInvalidReferenceException](cellinvalidreferenceexception#constructor_1)(string) | 使用指定的错误消息初始化[`CellInvalidReferenceException`](../cellinvalidreferenceexception)类的新实例。 |
-| [CellInvalidReferenceException](cellinvalidreferenceexception#constructor_2)(string, Exception) | 初始化[`CellInvalidReferenceException`](../cellinvalidreferenceexception)类的新实例并指定错误消息 以及对导致此异常的内部异常的引用。 |
-| [CellInvalidReferenceException](cellinvalidreferenceexception#constructor_3)(string, string) | 使用指定的错误消息:::47::初始化[`CellCircularReferenceException`](../cellcircularreferenceexception)类的新实例:和无效的单元格引用。 |
+| [CellInvalidReferenceException](cellinvalidreferenceexception#constructor)() | 初始化[`CellInvalidReferenceException`](../cellinvalidreferenceexception)类. |
+| [CellInvalidReferenceException](cellinvalidreferenceexception#constructor_1)(string) | 初始化[`CellInvalidReferenceException`](../cellinvalidreferenceexception)具有指定错误消息的类。 |
+| [CellInvalidReferenceException](cellinvalidreferenceexception#constructor_2)(string, Exception) | 初始化[`CellInvalidReferenceException`](../cellinvalidreferenceexception)具有指定错误消息 和对导致此异常的内部异常的引用的类。 |
+| [CellInvalidReferenceException](cellinvalidreferenceexception#constructor_3)(string, string) | 初始化[`CellCircularReferenceException`](../cellcircularreferenceexception)具有指定错误消息 和无效单元格引用的类。 |
 
 ## 特性
 

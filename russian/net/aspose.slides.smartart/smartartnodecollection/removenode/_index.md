@@ -1,14 +1,14 @@
 ---
 title: RemoveNode
 second_title: Справочник по API Aspose.Slides для .NET
-description: Удалить узел или подузел по индексу
+description: Удалить узел или подузел по index
 type: docs
 weight: 90
 url: /ru/net/aspose.slides.smartart/smartartnodecollection/removenode/
 ---
 ## RemoveNode(int) {#removenode_1}
 
-Удалить узел или подузел по индексу
+Удалить узел или подузел по index
 
 ```csharp
 public void RemoveNode(int index)
@@ -16,13 +16,13 @@ public void RemoveNode(int index)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | На основе нуля индекс узла |
+| index | Int32 | Отсчитываемый от нуля индекс узла |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentOutOfRangeException | индекс меньше 0. -или- индекс равен или больше числа братьев и сестер |
+| ArgumentOutOfRangeException | индекс меньше 0. -или-индекс равен или больше числа братьев и сестер |
 
 ### Смотрите также
 
@@ -42,7 +42,7 @@ public void RemoveNode(ISmartArtNode node)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| node | ISmartArtNode | Удаляемый узел |
+| node | ISmartArtNode | Узел для удаления |
 
 ### Смотрите также
 

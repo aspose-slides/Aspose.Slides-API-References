@@ -1,14 +1,14 @@
 ---
 title: RowSpacing
 second_title: Aspose.Slides for .NET API 参考
-description: 数组行之间的间距 仅当 RowSpacingRule 设置为 3 时才使用在这种情况下度量单位是点 或倍数在这种情况下度量单位是半线 默认值0
+description: 数组行之间的间距 仅在 RowSpacingRule 设置为 3 时使用在这种情况下测量单位是点 或在这种情况下测量单位是半线
 type: docs
 weight: 60
 url: /zh/net/aspose.slides.mathtext/matharray/rowspacing/
 ---
 ## MathArray.RowSpacing property
 
-数组行之间的间距 仅当 RowSpacingRule 设置为 3 时才使用，在这种情况下，度量单位是点 或倍数，在这种情况下，度量单位是半线。 默认值:0
+数组行之间的间距 仅在 RowSpacingRule 设置为 3 时使用。在这种情况下，测量单位是点 或在这种情况下，测量单位是半线。
 
 ```csharp
 public uint RowSpacing { get; set; }
@@ -16,7 +16,7 @@ public uint RowSpacing { get; set; }
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]

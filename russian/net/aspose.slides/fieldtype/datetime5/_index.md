@@ -1,14 +1,14 @@
 ---
 title: DateTime5
 second_title: Справочник по API Aspose.Slides для .NET
-description: Текущая дата и время в пятом предустановленном формате ДД-Пн-ГГ для английского. Только для чтенияFieldTypeaspose.slides/fieldtype.
+description: Текущая дата и время в пятом предварительно заданном формате ДД-Пн-ГГ для английского. Только для чтенияFieldTypeaspose.slides/fieldtype .
 type: docs
 weight: 110
 url: /ru/net/aspose.slides/fieldtype/datetime5/
 ---
 ## FieldType.DateTime5 property
 
-Текущая дата и время в пятом предустановленном формате (ДД-Пн-ГГ для английского). Только для чтения[`FieldType`](../../fieldtype).
+Текущая дата и время в пятом предварительно заданном формате (ДД-Пн-ГГ для английского). Только для чтения[`FieldType`](../../fieldtype) .
 
 ```csharp
 public static FieldType DateTime5 { get; }

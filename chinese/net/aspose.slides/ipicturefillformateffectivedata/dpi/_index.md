@@ -1,14 +1,14 @@
 ---
 title: Dpi
 second_title: Aspose.Slides for .NET API 参考
-description: 返回用于填充图片的 dpi 只读Int32
+description: 返回用于填充图片的 dpi 只读Int32.
 type: docs
 weight: 60
 url: /zh/net/aspose.slides/ipicturefillformateffectivedata/dpi/
 ---
 ## IPictureFillFormatEffectiveData.Dpi property
 
-返回用于填充图片的 dpi。 只读Int32。
+返回用于填充图片的 dpi。 只读Int32.
 
 ```csharp
 public int Dpi { get; }

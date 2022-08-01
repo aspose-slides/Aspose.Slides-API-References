@@ -18,12 +18,12 @@ public enum TextAlignment
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| NotDefined | `-1` | 默认对齐。 |
+| NotDefined | `-1` | 默认对齐方式。 |
 | Left | `0` | 左对齐。 |
 | Center | `1` | 居中对齐。 |
 | Right | `2` | 右对齐。 |
 | Justify | `3` | 对齐对齐。 |
-| JustifyLow | `4` | Kashida 证明低。 |
+| JustifyLow | `4` | 桧田辩解低。 |
 | Distributed | `5` | 分布式对齐。 |
 
 ### 也可以看看

@@ -1,14 +1,14 @@
 ---
 title: AsIEffectEffectiveData
 second_title: Aspose.Slides for .NET API 参考
-description: 允许获取基础 IEffectEffectiveData 接口 只读IEffectEffectiveDataaspose.slides.effects/ieffecteffectivedata
+description: 允许获取基本 IEffectEffectiveData 接口 只读IEffectEffectiveDataaspose.slides.effects/ieffecteffectivedata.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides.effects/ioutershadoweffectivedata/asieffecteffectivedata/
 ---
 ## IOuterShadowEffectiveData.AsIEffectEffectiveData property
 
-允许获取基础 IEffectEffectiveData 接口。 只读[`IEffectEffectiveData`](../../ieffecteffectivedata)。
+允许获取基本 IEffectEffectiveData 接口。 只读[`IEffectEffectiveData`](../../ieffecteffectivedata).
 
 ```csharp
 public IEffectEffectiveData AsIEffectEffectiveData { get; }

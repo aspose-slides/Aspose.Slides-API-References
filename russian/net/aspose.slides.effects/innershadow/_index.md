@@ -18,18 +18,18 @@ public class InnerShadow : IInnerShadow
 
 | Имя | Описание |
 | --- | --- |
-| [BlurRadius](../../aspose.slides.effects/innershadow/blurradius) { get; set; } | Радиус размытия. Чтение/записьDouble. |
-| [Direction](../../aspose.slides.effects/innershadow/direction) { get; set; } | Направление тени. Чтение/записьSingle. |
-| [Distance](../../aspose.slides.effects/innershadow/distance) { get; set; } | Расстояние тени. Чтение/записьDouble. |
-| [ShadowColor](../../aspose.slides.effects/innershadow/shadowcolor) { get; } | Цвет тени. Только для чтения[`IColorFormat`](../../aspose.slides/icolorformat). |
+| [BlurRadius](../../aspose.slides.effects/innershadow/blurradius) { get; set; } | Радиус размытия. Чтение/записьDouble . |
+| [Direction](../../aspose.slides.effects/innershadow/direction) { get; set; } | Направление тени. Чтение/записьSingle . |
+| [Distance](../../aspose.slides.effects/innershadow/distance) { get; set; } | Расстояние тени. Чтение/записьDouble . |
+| [ShadowColor](../../aspose.slides.effects/innershadow/shadowcolor) { get; } | Цвет тени. Только для чтения[`IColorFormat`](../../aspose.slides/icolorformat) . |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/innershadow/equals)(object) | Определяет, равен ли указанный[`InnerShadow`](../innershadow)текущемуВнутренняяТень. |
-| [GetEffective](../../aspose.slides.effects/innershadow/geteffective)() | Получает эффективные данные эффекта внутренней тени с применением наследования. |
-| override [GetHashCode](../../aspose.slides.effects/innershadow/gethashcode)() | Служит хэш-функцией для определенного типа. |
+| override [Equals](../../aspose.slides.effects/innershadow/equals)(object) | Определяет, является ли указанный[`InnerShadow`](../innershadow) равен текущему[`InnerShadow`](../innershadow) . |
+| [GetEffective](../../aspose.slides.effects/innershadow/geteffective)() | Получает данные об эффективном эффекте Внутренней тени с применением наследования. |
+| override [GetHashCode](../../aspose.slides.effects/innershadow/gethashcode)() | Служит хеш-функцией для определенного типа. |
 
 ### Смотрите также
 

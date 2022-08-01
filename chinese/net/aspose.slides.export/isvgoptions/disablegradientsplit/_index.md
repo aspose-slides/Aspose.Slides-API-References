@@ -1,14 +1,14 @@
 ---
 title: DisableGradientSplit
 second_title: Aspose.Slides for .NET API 参考
-description: 禁用拆分 FromCornerX 和 FromCenter 渐变 读/写Boolean
+description: 禁用拆分 FromCornerX 和 FromCenter 渐变 读/写Boolean.
 type: docs
 weight: 40
 url: /zh/net/aspose.slides.export/isvgoptions/disablegradientsplit/
 ---
 ## ISVGOptions.DisableGradientSplit property
 
-禁用拆分 FromCornerX 和 FromCenter 渐变。 读/写Boolean。
+禁用拆分 FromCornerX 和 FromCenter 渐变。 读/写Boolean.
 
 ```csharp
 public bool DisableGradientSplit { get; set; }

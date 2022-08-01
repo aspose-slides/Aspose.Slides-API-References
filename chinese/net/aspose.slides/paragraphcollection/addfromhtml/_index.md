@@ -37,8 +37,8 @@ public void AddFromHtml(string text, IExternalResourceResolver resolver, string 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | text | String | HTML 文本。 |
-| resolver | IExternalResourceResolver | 解析 URI 并获取引用对象的解析器回调对象。 |
-| uri | String | 添加 HTML 文档的 URI。用于解析相对链接。 |
+| resolver | IExternalResourceResolver | 解析器回调对象，它解析 URI 并获取引用的对象。 |
+| uri | String | 用于添加 HTML 文档的 URI。用于解析相对链接。 |
 
 ### 评论
 

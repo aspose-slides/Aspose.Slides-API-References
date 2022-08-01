@@ -18,8 +18,8 @@ public interface ICornerDirectionTransition : ITransitionValueBase
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/icornerdirectiontransition/asitransitionvaluebase) { get; } | 允许获取基本 ITransitionValueBase 接口。 只读[`ITransitionValueBase`](../itransitionvaluebase)。 |
-| [Direction](../../aspose.slides.slideshow/icornerdirectiontransition/direction) { get; set; } | 过渡方向。 读/写[`TransitionCornerDirectionType`](../transitioncornerdirectiontype)。 |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/icornerdirectiontransition/asitransitionvaluebase) { get; } | 允许获取基本 ITransitionValueBase 接口。 只读[`ITransitionValueBase`](../itransitionvaluebase). |
+| [Direction](../../aspose.slides.slideshow/icornerdirectiontransition/direction) { get; set; } | 转换方向。 读/写[`TransitionCornerDirectionType`](../transitioncornerdirectiontype). |
 
 ### 也可以看看
 

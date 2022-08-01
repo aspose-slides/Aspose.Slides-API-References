@@ -1,14 +1,14 @@
 ---
 title: FollowedHyperlink
 second_title: Справочник по API Aspose.Slides для .NET
-description: Цвет посещенных гиперссылок. Только для чтенияIColorFormataspose.slides/icolorformat.
+description: Цвет посещенных гиперссылок. Только для чтенияIColorFormataspose.slides/icolorformat .
 type: docs
 weight: 90
 url: /ru/net/aspose.slides.theme/colorscheme/followedhyperlink/
 ---
 ## ColorScheme.FollowedHyperlink property
 
-Цвет посещенных гиперссылок. Только для чтения[`IColorFormat`](../../../aspose.slides/icolorformat).
+Цвет посещенных гиперссылок. Только для чтения[`IColorFormat`](../../../aspose.slides/icolorformat) .
 
 ```csharp
 public IColorFormat FollowedHyperlink { get; }

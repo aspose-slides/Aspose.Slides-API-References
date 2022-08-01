@@ -1,14 +1,14 @@
 ---
 title: Dark1
 second_title: Справочник по API Aspose.Slides для .NET
-description: Первый тёмный цвет в схеме. Только для чтенияIColorFormataspose.slides/icolorformat.
+description: Первый темный цвет в схеме. Только для чтенияIColorFormataspose.slides/icolorformat .
 type: docs
 weight: 70
 url: /ru/net/aspose.slides.theme/colorscheme/dark1/
 ---
 ## ColorScheme.Dark1 property
 
-Первый тёмный цвет в схеме. Только для чтения[`IColorFormat`](../../../aspose.slides/icolorformat).
+Первый темный цвет в схеме. Только для чтения[`IColorFormat`](../../../aspose.slides/icolorformat) .
 
 ```csharp
 public IColorFormat Dark1 { get; }

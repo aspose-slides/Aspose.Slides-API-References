@@ -1,14 +1,14 @@
 ---
 title: HangingPunctuation
 second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет используются ли в абзаце висячие знаки препинания. Чтение/записьNullableBoolaspose.slides/nullablebool.
+description: Определяет используются ли в абзаце висячие знаки препинания. Чтение/записьNullableBoolaspose.slides/nullablebool .
 type: docs
 weight: 50
 url: /ru/net/aspose.slides.charts/ichartparagraphformat/hangingpunctuation/
 ---
 ## IChartParagraphFormat.HangingPunctuation property
 
-Определяет, используются ли в абзаце висячие знаки препинания. Чтение/запись[`NullableBool`](../../../aspose.slides/nullablebool).
+Определяет, используются ли в абзаце висячие знаки препинания. Чтение/запись[`NullableBool`](../../../aspose.slides/nullablebool) .
 
 ```csharp
 public NullableBool HangingPunctuation { get; set; }

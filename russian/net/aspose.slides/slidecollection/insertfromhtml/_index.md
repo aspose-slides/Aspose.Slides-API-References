@@ -74,7 +74,7 @@ public ISlide[] InsertFromHtml(int index, TextReader htmlReader,
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | index | Int32 | Позиция для вставки. |
-| htmlReader | TextReader | TextReader Объект, который будет использоваться как источник HTML-файла. |
+| htmlReader | TextReader | Объект TextReader, который будет использоваться в качестве источника файла HTML. |
 | resolver | IExternalResourceResolver | Объект обратного вызова, используемый для получения внешних объектов. Если этот параметр равен нулю, все внешние объекты будут игнорироваться. |
 | uri | String | URI указанного HTML. Используется для разрешения относительных ссылок. |
 
@@ -103,7 +103,7 @@ public ISlide[] InsertFromHtml(int index, TextReader htmlReader)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | index | Int32 | Позиция для вставки. |
-| htmlReader | TextReader | TextReader Объект, который будет использоваться как источник HTML-файла. |
+| htmlReader | TextReader | Объект TextReader, который будет использоваться в качестве источника файла HTML. |
 
 ### Возвращаемое значение
 
@@ -130,7 +130,7 @@ public ISlide[] InsertFromHtml(int index, Stream htmlStream, IExternalResourceRe
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | index | Int32 | Позиция для вставки. |
-| htmlStream | Stream | Объект Stream, который будет использоваться как источник файла HTML. |
+| htmlStream | Stream | Объект Stream, который будет использоваться в качестве источника файла HTML. |
 | resolver | IExternalResourceResolver | Объект обратного вызова, используемый для получения внешних объектов. Если этот параметр равен нулю, все внешние объекты будут игнорироваться. |
 | uri | String | URI указанного HTML. Используется для разрешения относительных ссылок. |
 
@@ -159,7 +159,7 @@ public ISlide[] InsertFromHtml(int index, Stream htmlStream)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | index | Int32 | Позиция для вставки. |
-| htmlStream | Stream | Объект Stream, который будет использоваться как источник файла HTML. |
+| htmlStream | Stream | Объект Stream, который будет использоваться в качестве источника файла HTML. |
 
 ### Возвращаемое значение
 

@@ -18,14 +18,14 @@ public class AlphaFloor : ImageTransformOperation, IAlphaFloor
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允许获取基本 IPresentationComponent 接口。 只读[`IPresentationComponent`](../../aspose.slides/ipresentationcomponent)。 |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允许获取基本 IPresentationComponent 接口。 只读[`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/alphafloor/equals)(object) | 确定指定的[`AlphaFloor`](../alphafloor)是否等于当前的AlphaFloor。 |
-| [GetEffective](../../aspose.slides.effects/alphafloor/geteffective)() | 获取应用了继承的有效 Alpha Floor 效果数据。 |
+| override [Equals](../../aspose.slides.effects/alphafloor/equals)(object) | 判断是否指定[`AlphaFloor`](../alphafloor)等于当前[`AlphaFloor`](../alphafloor). |
+| [GetEffective](../../aspose.slides.effects/alphafloor/geteffective)() | 应用继承获取有效的 Alpha Floor 效果数据。 |
 | override [GetHashCode](../../aspose.slides.effects/alphafloor/gethashcode)() | 用作特定类型的哈希函数。 |
 
 ### 也可以看看

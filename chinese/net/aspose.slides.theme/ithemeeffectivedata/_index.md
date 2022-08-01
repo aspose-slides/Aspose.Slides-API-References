@@ -18,8 +18,8 @@ public interface IThemeEffectiveData
 
 | 姓名 | 描述 |
 | --- | --- |
-| [FontScheme](../../aspose.slides.theme/ithemeeffectivedata/fontscheme) { get; } | 返回字体方案。 只读[`IFontSchemeEffectiveData`](../ifontschemeeffectivedata)。 |
-| [FormatScheme](../../aspose.slides.theme/ithemeeffectivedata/formatscheme) { get; } | 返回形状格式方案。 只读[`IFormatSchemeEffectiveData`](../iformatschemeeffectivedata)。 |
+| [FontScheme](../../aspose.slides.theme/ithemeeffectivedata/fontscheme) { get; } | 返回字体方案。 只读[`IFontSchemeEffectiveData`](../ifontschemeeffectivedata). |
+| [FormatScheme](../../aspose.slides.theme/ithemeeffectivedata/formatscheme) { get; } | 返回形状格式方案。 只读[`IFormatSchemeEffectiveData`](../iformatschemeeffectivedata). |
 
 ## 方法
 
@@ -29,7 +29,7 @@ public interface IThemeEffectiveData
 
 ### 评论
 
-此接口与Theme一起使用。ITheme接口返回应用继承的有效格式值。
+该接口与[`ITheme`](../itheme)返回应用继承的有效格式值的接口。
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: MorphType
 second_title: Справочник по API Aspose.Slides для .NET
-description: Тип перехода морфинга. Чтение/записьTransitionMorphTypeaspose.slides.slideshow/transitionmorphtype.
+description: Тип перехода морфинга. Чтение/записьTransitionMorphTypeaspose.slides.slideshow/transitionmorphtype .
 type: docs
 weight: 10
 url: /ru/net/aspose.slides.slideshow/morphtransition/morphtype/
 ---
 ## MorphTransition.MorphType property
 
-Тип перехода морфинга. Чтение/запись[`TransitionMorphType`](../../transitionmorphtype).
+Тип перехода морфинга. Чтение/запись[`TransitionMorphType`](../../transitionmorphtype) .
 
 ```csharp
 public TransitionMorphType MorphType { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: AddClipboardFragmentHeader
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置值指示是否应添加剪贴板标题 读/写Boolean
+description: 返回或设置值指示是否应添加剪贴板标题 读/写Boolean.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides.export/itexttohtmlconversionoptions/addclipboardfragmentheader/
 ---
 ## ITextToHtmlConversionOptions.AddClipboardFragmentHeader property
 
-返回或设置值，指示是否应添加剪贴板标题。 读/写Boolean。
+返回或设置值，指示是否应添加剪贴板标题。 读/写Boolean.
 
 ```csharp
 public bool AddClipboardFragmentHeader { get; set; }

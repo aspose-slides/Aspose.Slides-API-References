@@ -1,14 +1,14 @@
 ---
 title: NotesSize
 second_title: Aspose.Slides for .NET API 参考
-description: 返回笔记幻灯片大小对象 只读INotesSizeaspose.slides/inotessize
+description: 返回笔记幻灯片大小对象 只读INotesSizeaspose.slides/inotessize.
 type: docs
 weight: 210
 url: /zh/net/aspose.slides/ipresentation/notessize/
 ---
 ## IPresentation.NotesSize property
 
-返回笔记幻灯片大小对象。 只读[`INotesSize`](../../inotessize)。
+返回笔记幻灯片大小对象。 只读[`INotesSize`](../../inotessize).
 
 ```csharp
 public INotesSize NotesSize { get; }

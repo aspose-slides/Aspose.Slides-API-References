@@ -1,14 +1,14 @@
 ---
 title: IsTemporaryFilesAllowed
 second_title: Aspose.Slides for .NET API 参考
-description: 此属性定义是否可以在使用 BLOB 时创建临时文件这极大地减少了 的内存消耗但需要创建文件的权限  演示完成后所有文件都将被删除
+description: 此属性定义是否可以在使用 BLOB 时创建临时文件 大大减少了内存消耗但需要创建文件的权限 完成演示文稿后所有文件都将被删除
 type: docs
 weight: 10
 url: /zh/net/aspose.slides/iblobmanagementoptions/istemporaryfilesallowed/
 ---
 ## IBlobManagementOptions.IsTemporaryFilesAllowed property
 
-此属性定义是否可以在使用 BLOB 时创建临时文件，这极大地减少了 的内存消耗，但需要创建文件的权限。  演示完成后，所有文件都将被删除。
+此属性定义是否可以在使用 BLOB 时创建临时文件， 大大减少了内存消耗，但需要创建文件的权限。 完成演示文稿后，所有文件都将被删除。
 
 ```csharp
 public bool IsTemporaryFilesAllowed { get; set; }

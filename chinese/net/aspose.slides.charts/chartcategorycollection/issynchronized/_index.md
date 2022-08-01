@@ -1,14 +1,14 @@
 ---
 title: IsSynchronized
 second_title: Aspose.Slides for .NET API 参考
-description: 返回一个值指示对 List 的访问是否同步线程安全 只读Boolean
+description: 返回一个值指示对 List 的访问是否同步线程安全 只读Boolean.
 type: docs
 weight: 30
 url: /zh/net/aspose.slides.charts/chartcategorycollection/issynchronized/
 ---
 ## ChartCategoryCollection.IsSynchronized property
 
-返回一个值，指示对 List 的访问是否同步（线程安全）。 只读Boolean。
+返回一个值，指示对 List 的访问是否同步（线程安全）。 只读Boolean.
 
 ```csharp
 public bool IsSynchronized { get; }

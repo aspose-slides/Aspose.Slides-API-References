@@ -1,14 +1,14 @@
 ---
 title: OfficeInteropShapeId
 second_title: Aspose.Slides for .NET API 参考
-description: 获取幻灯片范围内的唯一形状标识符 只读UInt32 另请参见UniqueIdaspose.slides/ishape/uniqueid以获取表示范围内的唯一形状标识符
+description: 获取幻灯片范围内的唯一形状标识符 只读UInt32. 另请参阅UniqueIdaspose.slides/ishape/uniqueid用于在表示范围内获取唯一的形状标识符
 type: docs
 weight: 170
 url: /zh/net/aspose.slides/ishape/officeinteropshapeid/
 ---
 ## IShape.OfficeInteropShapeId property
 
-获取幻灯片范围内的唯一形状标识符。 只读UInt32。 另请参见[`UniqueId`](../uniqueid)以获取表示范围内的唯一形状标识符。
+获取幻灯片范围内的唯一形状标识符。 只读UInt32. 另请参阅[`UniqueId`](../uniqueid)用于在表示范围内获取唯一的形状标识符。
 
 ```csharp
 public uint OfficeInteropShapeId { get; }

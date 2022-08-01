@@ -1,14 +1,14 @@
 ---
 title: RightToLeft
 second_title: Aspose.Slides for .NET API 参考
-description: 确定段落中是否使用从右到左书写未应用继承 读/写NullableBoolaspose.slides/nullablebool
+description: 确定段落中是否使用从右到左书写未应用继承 读/写NullableBoolaspose.slides/nullablebool.
 type: docs
 weight: 110
 url: /zh/net/aspose.slides/paragraphformat/righttoleft/
 ---
 ## ParagraphFormat.RightToLeft property
 
-确定段落中是否使用从右到左书写。未应用继承。 读/写[`NullableBool`](../../nullablebool)。
+确定段落中是否使用从右到左书写。未应用继承。 读/写[`NullableBool`](../../nullablebool).
 
 ```csharp
 public NullableBool RightToLeft { get; set; }

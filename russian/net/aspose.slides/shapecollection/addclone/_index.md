@@ -17,10 +17,10 @@ public IShape AddClone(IShape sourceShape, float x, float y, float width, float 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | sourceShape | IShape | Форма для клонирования. |
-| x | Single | X координата новой формы. |
+| x | Single | Координата X новой формы. |
 | y | Single | Координата Y новой формы. |
 | width | Single | Ширина новой формы. |
-| height | Single | Высота новой фигуры. |
+| height | Single | Высота новой формы. |
 
 ### Возвращаемое значение
 
@@ -37,7 +37,7 @@ public IShape AddClone(IShape sourceShape, float x, float y, float width, float 
 
 ## AddClone(IShape, float, float) {#addclone_1}
 
-Добавляет копию указанной фигуры в конец коллекции. Ширина и высота новой формы равны ширине и высоте*sourceShape*.
+Добавляет копию указанной фигуры в конец коллекции. Ширина и высота новой фигуры равны ширине и высоте*sourceShape* .
 
 ```csharp
 public IShape AddClone(IShape sourceShape, float x, float y)
@@ -46,7 +46,7 @@ public IShape AddClone(IShape sourceShape, float x, float y)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | sourceShape | IShape | Форма для клонирования. |
-| x | Single | X координата новой формы. |
+| x | Single | Координата X новой формы. |
 | y | Single | Координата Y новой формы. |
 
 ### Возвращаемое значение
@@ -64,7 +64,7 @@ public IShape AddClone(IShape sourceShape, float x, float y)
 
 ## AddClone(IShape) {#addclone}
 
-Добавляет копию указанной фигуры в конец коллекции. X, Y, ширина и высота новой формы равны X, Y, ширине и высоте*sourceShape*.
+Добавляет копию указанной фигуры в конец коллекции. X, Y, ширина и высота новой фигуры равны X, Y, ширине и высоте*sourceShape* .
 
 ```csharp
 public IShape AddClone(IShape sourceShape)

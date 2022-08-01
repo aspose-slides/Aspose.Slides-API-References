@@ -1,14 +1,14 @@
 ---
 title: FirstRow
 second_title: Aspose.Slides for .NET API 参考
-description: 确定表格的第一行是否必须以特殊格式绘制 读/写Boolean
+description: 确定表格的第一行是否必须使用特殊格式绘制 读/写Boolean.
 type: docs
 weight: 50
 url: /zh/net/aspose.slides/itable/firstrow/
 ---
 ## ITable.FirstRow property
 
-确定表格的第一行是否必须以特殊格式绘制。 读/写Boolean。
+确定表格的第一行是否必须使用特殊格式绘制。 读/写Boolean.
 
 ```csharp
 public bool FirstRow { get; set; }

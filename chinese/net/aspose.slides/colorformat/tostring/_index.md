@@ -1,14 +1,14 @@
 ---
 title: ToString
 second_title: Aspose.Slides for .NET API 参考
-description: 返回代表当前颜色格式的String
+description: 返回一个String表示当前颜色格式
 type: docs
 weight: 190
 url: /zh/net/aspose.slides/colorformat/tostring/
 ---
 ## ColorFormat.ToString method
 
-返回代表当前颜色格式的String。
+返回一个String表示当前颜色格式。
 
 ```csharp
 public string ToString(ColorStringFormat format)

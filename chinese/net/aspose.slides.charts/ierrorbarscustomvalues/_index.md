@@ -1,14 +1,14 @@
 ---
 title: IErrorBarsCustomValues
 second_title: Aspose.Slides for .NET API 参考
-description: 指定错误栏值仅当误差线值类型为自定义时才应使用
+description: 指定错误栏值仅当误差线值类型为 Custom. 时才应使用
 type: docs
 weight: 1940
 url: /zh/net/aspose.slides.charts/ierrorbarscustomvalues/
 ---
 ## IErrorBarsCustomValues interface
 
-指定错误栏值。仅当误差线值类型为自定义时才应使用。
+指定错误栏值。仅当误差线值类型为 Custom. 时才应使用
 
 ```csharp
 public interface IErrorBarsCustomValues
@@ -18,10 +18,10 @@ public interface IErrorBarsCustomValues
 
 | 姓名 | 描述 |
 | --- | --- |
-| [XMinus](../../aspose.slides.charts/ierrorbarscustomvalues/xminus) { get; } | 指定负方向的误差线值。 如果错误栏值类型为自定义且允许 ErrorBarsXFormat，则可用。 在任何其他情况下，此属性都返回 null。 只读[`IDoubleChartValue`](../idoublechartvalue)。 |
-| [XPlus](../../aspose.slides.charts/ierrorbarscustomvalues/xplus) { get; } | 指定正方向的误差线值。 如果错误栏值类型为自定义且允许 ErrorBarsXFormat，则可用。 在任何其他情况下，此属性都返回 null。 只读[`IDoubleChartValue`](../idoublechartvalue)。 |
-| [YMinus](../../aspose.slides.charts/ierrorbarscustomvalues/yminus) { get; } | 指定负方向的误差线值。 如果错误栏值类型为自定义且允许 ErrorBarsYFormat，则可用。 在任何其他情况下，此属性都返回 null。 只读[`IDoubleChartValue`](../idoublechartvalue)。 |
-| [YPlus](../../aspose.slides.charts/ierrorbarscustomvalues/yplus) { get; } | 指定正方向的误差线值。 如果错误栏值类型为自定义且允许 ErrorBarsYFormat，则可用。 在任何其他情况下，此属性都返回 null。 只读[`IDoubleChartValue`](../idoublechartvalue)。 |
+| [XMinus](../../aspose.slides.charts/ierrorbarscustomvalues/xminus) { get; } | 指定负方向的误差线值。 如果误差线值类型为自定义且允许使用 ErrorBarsXFormat 则可用。 在任何其他情况下，此属性返回 null。 只读[`IDoubleChartValue`](../idoublechartvalue). |
+| [XPlus](../../aspose.slides.charts/ierrorbarscustomvalues/xplus) { get; } | 指定正方向的误差线值。 如果误差线值类型为自定义且允许 ErrorBarsXFormat 则可用。 在任何其他情况下，此属性都返回 null。 只读[`IDoubleChartValue`](../idoublechartvalue). |
+| [YMinus](../../aspose.slides.charts/ierrorbarscustomvalues/yminus) { get; } | 指定负方向的误差线值。 如果误差线值类型为自定义且允许 ErrorBarsYFormat 则可用。 在任何其他情况下，此属性都返回 null。 只读[`IDoubleChartValue`](../idoublechartvalue). |
+| [YPlus](../../aspose.slides.charts/ierrorbarscustomvalues/yplus) { get; } | 指定正方向的误差线值。 如果误差线值类型为自定义且允许 ErrorBarsYFormat 则可用。 在任何其他情况下，此属性返回 null。 只读[`IDoubleChartValue`](../idoublechartvalue). |
 
 ### 也可以看看
 

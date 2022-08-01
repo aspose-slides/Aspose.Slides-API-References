@@ -16,7 +16,7 @@ public void SetSlideNumberVisibility(bool isVisible)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| isVisible | Boolean | true - делает заполнитель номера страницы видимым, иначе - скрывает его. |
+| isVisible | Boolean | true — делает заполнитель номера страницы видимым, иначе — скрывает его. |
 
 ### Смотрите также
 

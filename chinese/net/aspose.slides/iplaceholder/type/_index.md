@@ -1,14 +1,14 @@
 ---
 title: Type
 second_title: Aspose.Slides for .NET API 参考
-description: 获取占位符的类型 只读PlaceholderTypeaspose.slides/placeholdertype
+description: 获取占位符的类型 只读PlaceholderTypeaspose.slides/placeholdertype.
 type: docs
 weight: 40
 url: /zh/net/aspose.slides/iplaceholder/type/
 ---
 ## IPlaceholder.Type property
 
-获取占位符的类型。 只读[`PlaceholderType`](../../placeholdertype)。
+获取占位符的类型。 只读[`PlaceholderType`](../../placeholdertype).
 
 ```csharp
 public PlaceholderType Type { get; }

@@ -1,14 +1,14 @@
 ---
 title: Remove
 second_title: Aspose.Slides for .NET API 参考
-description: 从集合中删除布局
+description: 从集合中删除一个布局
 type: docs
 weight: 30
 url: /zh/net/aspose.slides/ilayoutslidecollection/remove/
 ---
 ## ILayoutSlideCollection.Remove method
 
-从集合中删除布局。
+从集合中删除一个布局。
 
 ```csharp
 public void Remove(ILayoutSlide value)
@@ -26,7 +26,7 @@ public void Remove(ILayoutSlide value)
 
 ### 评论
 
-1) 为避免抛出 PptxEditException 之前检查布局的 HasDependingSlides 属性。 2) 您也可以使用[`Remove`](../../ilayoutslide/remove)方法来简化代码。
+1) 为避免之前抛出 PptxEditException 检查布局的 HasDependingSlides 属性。 2) 您也可以使用[`Remove`](../../ilayoutslide/remove)简化代码的方法.
 
 ### 也可以看看
 

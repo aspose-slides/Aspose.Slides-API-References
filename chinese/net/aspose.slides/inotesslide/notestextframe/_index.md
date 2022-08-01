@@ -1,14 +1,14 @@
 ---
 title: NotesTextFrame
 second_title: Aspose.Slides for .NET API 参考
-description: 如果有注释文本则返回带有注释文本的 TextFrame 只读ITextFrameaspose.slides/itextframe
+description: 如果有则返回带有注释文本的 TextFrame 只读ITextFrameaspose.slides/itextframe.
 type: docs
 weight: 40
 url: /zh/net/aspose.slides/inotesslide/notestextframe/
 ---
 ## INotesSlide.NotesTextFrame property
 
-如果有注释文本，则返回带有注释文本的 TextFrame。 只读[`ITextFrame`](../../itextframe)。
+如果有，则返回带有注释文本的 TextFrame。 只读[`ITextFrame`](../../itextframe).
 
 ```csharp
 public ITextFrame NotesTextFrame { get; }

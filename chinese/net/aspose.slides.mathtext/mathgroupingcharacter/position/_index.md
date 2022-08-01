@@ -8,7 +8,7 @@ url: /zh/net/aspose.slides.mathtext/mathgroupingcharacter/position/
 ---
 ## MathGroupingCharacter.Position property
 
-分组字符的位置。 默认值:底部
+分组字符的位置。 默认值：底部
 
 ```csharp
 public MathTopBotPositions Position { get; set; }
@@ -16,7 +16,7 @@ public MathTopBotPositions Position { get; set; }
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]

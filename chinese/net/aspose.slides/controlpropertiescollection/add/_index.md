@@ -17,7 +17,7 @@ public void Add(string name, string value)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | name | String | 属性的名称。 |
-| value | String | 属性的价值。 |
+| value | String | 财产的价值。 |
 
 ### 也可以看看
 

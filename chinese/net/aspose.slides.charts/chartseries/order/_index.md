@@ -1,14 +1,14 @@
 ---
 title: Order
 second_title: Aspose.Slides for .NET API 参考
-description: 返回系列的顺序 读/写Int32
+description: 返回系列的顺序 读/写Int32.
 type: docs
 weight: 260
 url: /zh/net/aspose.slides.charts/chartseries/order/
 ---
 ## ChartSeries.Order property
 
-返回系列的顺序。 读/写Int32。
+返回系列的顺序。 读/写Int32.
 
 ```csharp
 public int Order { get; set; }

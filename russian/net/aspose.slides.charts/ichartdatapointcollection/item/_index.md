@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает точку данных ряда по индексу.
+description: Возвращает точку данных серии по индексу.
 type: docs
 weight: 60
 url: /ru/net/aspose.slides.charts/ichartdatapointcollection/item/
 ---
 ## IChartDataPointCollection indexer (1 of 2)
 
-Возвращает точку данных ряда по индексу.
+Возвращает точку данных серии по индексу.
 
 ```csharp
 public IChartDataPoint this[int index] { get; }

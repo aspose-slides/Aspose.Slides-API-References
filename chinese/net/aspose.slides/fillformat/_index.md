@@ -18,20 +18,20 @@ public class FillFormat : PVIObject, IFillFormat
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允许获取基本 IPresentationComponent 接口。 只读[`IPresentationComponent`](../ipresentationcomponent)。 |
-| [FillType](../../aspose.slides/fillformat/filltype) { get; set; } | 返回或设置填充类型。 读/写[`FillType`](../filltype)。 |
-| [GradientFormat](../../aspose.slides/fillformat/gradientformat) { get; } | 返回渐变填充格式。 只读[`IGradientFormat`](../igradientformat)。 |
-| [PatternFormat](../../aspose.slides/fillformat/patternformat) { get; } | 返回图案填充格式。 只读[`IPatternFormat`](../ipatternformat)。 |
-| [PictureFillFormat](../../aspose.slides/fillformat/picturefillformat) { get; } | 返回图片填充格式。 只读[`IPictureFillFormat`](../ipicturefillformat)。 |
-| [RotateWithShape](../../aspose.slides/fillformat/rotatewithshape) { get; set; } | 确定填充是否应随形状旋转。 读/写[`NullableBool`](../nullablebool)。 |
-| [SolidFillColor](../../aspose.slides/fillformat/solidfillcolor) { get; } | 返回填充颜色。 只读[`IColorFormat`](../icolorformat)。 |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允许获取基本 IPresentationComponent 接口。 只读[`IPresentationComponent`](../ipresentationcomponent). |
+| [FillType](../../aspose.slides/fillformat/filltype) { get; set; } | 返回或设置填充类型。 读/写[`FillType`](../filltype). |
+| [GradientFormat](../../aspose.slides/fillformat/gradientformat) { get; } | 返回渐变填充格式。 只读[`IGradientFormat`](../igradientformat). |
+| [PatternFormat](../../aspose.slides/fillformat/patternformat) { get; } | 返回图案填充格式。 只读[`IPatternFormat`](../ipatternformat). |
+| [PictureFillFormat](../../aspose.slides/fillformat/picturefillformat) { get; } | 返回图片填充格式。 只读[`IPictureFillFormat`](../ipicturefillformat). |
+| [RotateWithShape](../../aspose.slides/fillformat/rotatewithshape) { get; set; } | 确定填充是否应随形状旋转。 读/写[`NullableBool`](../nullablebool). |
+| [SolidFillColor](../../aspose.slides/fillformat/solidfillcolor) { get; } | 返回填充颜色。 只读[`IColorFormat`](../icolorformat). |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | 与指定对象比较。 |
-| [GetEffective](../../aspose.slides/fillformat/geteffective)() | 获取应用继承的有效填充格式数据。 |
+| [GetEffective](../../aspose.slides/fillformat/geteffective)() | 获取应用了继承的有效填充格式数据。 |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | 返回哈希码。 |
 
 ### 也可以看看

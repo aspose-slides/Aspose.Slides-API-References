@@ -1,14 +1,14 @@
 ---
 title: Enclose
 second_title: Справочник по API Aspose.Slides для .NET
-description: Заключает дочерние элементы этого блока в указанные символы такие как круглые скобки или другие символы в качестве обрамления
+description: Заключает дочерние элементы этого блока в указанные символы такие как круглые скобки или другие символы такие как framing
 type: docs
 weight: 100
 url: /ru/net/aspose.slides.mathtext/mathblock/enclose/
 ---
 ## Enclose(char, char) {#enclose_1}
 
-Заключает дочерние элементы этого блока в указанные символы, такие как круглые скобки или другие символы в качестве обрамления
+Заключает дочерние элементы этого блока в указанные символы, такие как круглые скобки или другие символы, такие как framing
 
 ```csharp
 public override IMathDelimiter Enclose(char beginningCharacter, char endingCharacter)
@@ -21,7 +21,7 @@ public override IMathDelimiter Enclose(char beginningCharacter, char endingChara
 
 ### Возвращаемое значение
 
-Математический элемент типа[`IMathDelimiter`](../../imathdelimiter)который включает указанные символы в качестве кадрирования
+Математический элемент типа[`IMathDelimiter`](../../imathdelimiter) который включает указанные символы в качестве обрамления
 
 ### Примеры
 
@@ -44,7 +44,7 @@ IMathDelimiter delimiter = block.Enclose('[', ']');
 
 ## Enclose(char, char, char) {#enclose_2}
 
-Заключает дочерние элементы этого блока в указанные символы, такие как круглые скобки или другие в качестве обрамления и разделяет символом-разделителем
+Заключает дочерние элементы этого блока в указанные символы, такие как круглые скобки или другие, такие как framing и разделяет символом разделителя
 
 ```csharp
 public IMathDelimiter Enclose(char beginningCharacter, char endingCharacter, 
@@ -54,12 +54,12 @@ public IMathDelimiter Enclose(char beginningCharacter, char endingCharacter,
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | beginningCharacter | Char | Начальный символ (обычно левая скобка) |
-| endingCharacter | Char | Конечный символ (обычно правая скобка) ) |
-| separatorCharacter | Char | Знак-разделитель |
+| endingCharacter | Char | Конечный символ (обычно правая скобка) |
+| separatorCharacter | Char | Символ-разделитель |
 
 ### Возвращаемое значение
 
-Математический элемент типа[`IMathDelimiter`](../../imathdelimiter)который включает указанные символы в качестве обрамления и разделителя
+Математический элемент типа[`IMathDelimiter`](../../imathdelimiter) который включает указанные символы в качестве обрамления и разделителя
 
 ### Примеры
 

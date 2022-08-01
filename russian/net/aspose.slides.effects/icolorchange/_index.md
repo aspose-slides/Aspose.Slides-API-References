@@ -19,10 +19,10 @@ public interface IColorChange : IAccessiblePVIObject<IColorChangeEffectiveData>,
 
 | Имя | Описание |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/icolorchange/asiaccessiblepviobject) { get; } | Позволяет получить базовый интерфейс IAccessiblePVIObject. Только чтение[`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/icolorchange/asiimagetransformoperation) { get; } | Позволяет получить базовый интерфейс IImageTransformOperation. Только для чтения[`IImageTransformOperation`](../iimagetransformoperation). |
-| [FromColor](../../aspose.slides.effects/icolorchange/fromcolor) { get; } | Цвет, который будет заменен. Только для чтения[`IColorFormat`](../../aspose.slides/icolorformat). |
-| [ToColor](../../aspose.slides.effects/icolorchange/tocolor) { get; } | Цвет, который заменит. Только для чтения[`IColorFormat`](../../aspose.slides/icolorformat). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/icolorchange/asiaccessiblepviobject) { get; } | Позволяет получить базовый интерфейс IAccessiblePVIObject. Только для чтения[`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1) . |
+| [AsIImageTransformOperation](../../aspose.slides.effects/icolorchange/asiimagetransformoperation) { get; } | Позволяет получить базовый интерфейс IImageTransformOperation. Только для чтения[`IImageTransformOperation`](../iimagetransformoperation) . |
+| [FromColor](../../aspose.slides.effects/icolorchange/fromcolor) { get; } | Цвет, который будет заменен. Только для чтения[`IColorFormat`](../../aspose.slides/icolorformat) . |
+| [ToColor](../../aspose.slides.effects/icolorchange/tocolor) { get; } | Цвет, который заменит. Только для чтения[`IColorFormat`](../../aspose.slides/icolorformat) . |
 
 ### Смотрите также
 

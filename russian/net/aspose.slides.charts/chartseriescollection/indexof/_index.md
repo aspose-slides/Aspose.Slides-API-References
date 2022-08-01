@@ -1,14 +1,14 @@
 ---
 title: IndexOf
 second_title: Справочник по API Aspose.Slides для .NET
-description: Ищет указанныйChartSeriesaspose.slides.charts/chartseriesи возвращает отсчитываемый от нуля индекс первого вхождения во всем Коллекция
+description: Ищет указанныйChartSeriesaspose.slides.charts/chartseries и возвращает отсчитываемый от нуля индекс первого вхождения во всей коллекции Collection
 type: docs
 weight: 90
 url: /ru/net/aspose.slides.charts/chartseriescollection/indexof/
 ---
 ## ChartSeriesCollection.IndexOf method
 
-Ищет указанный[`ChartSeries`](../../chartseries)и возвращает отсчитываемый от нуля индекс первого вхождения во всем Коллекция
+Ищет указанный[`ChartSeries`](../../chartseries) и возвращает отсчитываемый от нуля индекс первого вхождения во всей коллекции Collection
 
 ```csharp
 public int IndexOf(IChartSeries value)
@@ -20,7 +20,7 @@ public int IndexOf(IChartSeries value)
 
 ### Возвращаемое значение
 
-Отсчитываемый от нуля индекс первого вхождения значения во всей CollectionBase, если он найден; иначе -1.
+Отсчитываемый от нуля индекс первого вхождения значения во всей коллекции CollectionBase, если он найден; иначе -1.
 
 ### Смотрите также
 

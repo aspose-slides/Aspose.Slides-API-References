@@ -18,12 +18,12 @@ public interface IColorEffect : IBehavior
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsIBehavior](../../aspose.slides.animation/icoloreffect/asibehavior) { get; } | 允许获取基本 IBehavior 接口。 只读[`IBehavior`](../ibehavior)。 |
-| [By](../../aspose.slides.animation/icoloreffect/by) { get; set; } | 描述彩色动画的相对偏移值。 读/写[`IColorOffset`](../icoloroffset)。 |
-| [ColorSpace](../../aspose.slides.animation/icoloreffect/colorspace) { get; set; } | 表示行为的色彩空间。 读/写[`ColorSpace`](./colorspace)。 |
-| [Direction](../../aspose.slides.animation/icoloreffect/direction) { get; set; } | 指定围绕色轮循环色调的方向。 读/写[`ColorDirection`](../colordirection)。 |
-| [From](../../aspose.slides.animation/icoloreffect/from) { get; set; } | 该值用于指定行为的起始颜色。 读/写[`IColorFormat`](../../aspose.slides/icolorformat)。 |
-| [To](../../aspose.slides.animation/icoloreffect/to) { get; set; } | 描述动画颜色变化的结果颜色。 读/写[`IColorFormat`](../../aspose.slides/icolorformat)。 |
+| [AsIBehavior](../../aspose.slides.animation/icoloreffect/asibehavior) { get; } | 允许获取基本 IBehavior 接口。 只读[`IBehavior`](../ibehavior). |
+| [By](../../aspose.slides.animation/icoloreffect/by) { get; set; } | 描述彩色动画的相对偏移值。 读/写[`IColorOffset`](../icoloroffset). |
+| [ColorSpace](../../aspose.slides.animation/icoloreffect/colorspace) { get; set; } | 表示行为的颜色空间。 读/写[`ColorSpace`](./colorspace). |
+| [Direction](../../aspose.slides.animation/icoloreffect/direction) { get; set; } | 指定围绕色轮循环色调的方向。 读/写[`ColorDirection`](../colordirection). |
+| [From](../../aspose.slides.animation/icoloreffect/from) { get; set; } | 此值用于指定行为的起始颜色。 读/写[`IColorFormat`](../../aspose.slides/icolorformat). |
+| [To](../../aspose.slides.animation/icoloreffect/to) { get; set; } | 描述动画颜色变化的结果颜色。 读/写[`IColorFormat`](../../aspose.slides/icolorformat). |
 
 ### 也可以看看
 

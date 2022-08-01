@@ -1,14 +1,14 @@
 ---
 title: TextAnimation
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает текстовую анимацию. Только чтениеITextAnimationaspose.slides.animation/itextanimation.
+description: Возвращает текстовую анимацию. Только для чтенияITextAnimationaspose.slides.animation/itextanimation .
 type: docs
 weight: 60
 url: /ru/net/aspose.slides.animation/ieffect/textanimation/
 ---
 ## IEffect.TextAnimation property
 
-Возвращает текстовую анимацию. Только чтение[`ITextAnimation`](../../itextanimation).
+Возвращает текстовую анимацию. Только для чтения[`ITextAnimation`](../../itextanimation) .
 
 ```csharp
 public ITextAnimation TextAnimation { get; }

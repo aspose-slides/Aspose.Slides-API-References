@@ -1,14 +1,14 @@
 ---
 title: Width
 second_title: Справочник по API Aspose.Slides для .NET
-description: Ширина фаски. Чтение/записьDouble.
+description: Ширина скоса. Чтение/записьDouble .
 type: docs
 weight: 40
 url: /ru/net/aspose.slides/shapebevel/width/
 ---
 ## ShapeBevel.Width property
 
-Ширина фаски. Чтение/записьDouble.
+Ширина скоса. Чтение/записьDouble .
 
 ```csharp
 public double Width { get; set; }

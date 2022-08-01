@@ -22,7 +22,7 @@ public interface ITabFactory
 
 ### 评论
 
-用于 COM 兼容性。
+为了 COM 兼容性。
 
 ### 也可以看看
 

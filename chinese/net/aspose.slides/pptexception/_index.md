@@ -1,14 +1,14 @@
 ---
 title: PptException
 second_title: Aspose.Slides for .NET API 参考
-description: 表示标准内部异常类型
+description: 表示标准的内部异常类型
 type: docs
 weight: 8790
 url: /zh/net/aspose.slides/pptexception/
 ---
 ## PptException class
 
-表示标准内部异常类型。
+表示标准的内部异常类型。
 
 ```csharp
 public class PptException : Exception

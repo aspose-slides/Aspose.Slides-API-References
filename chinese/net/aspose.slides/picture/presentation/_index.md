@@ -1,14 +1,14 @@
 ---
 title: Presentation
 second_title: Aspose.Slides for .NET API 参考
-description: 返回演示文稿 只读IPresentationaspose.slides/ipresentation
+description: 返回演示文稿 只读IPresentationaspose.slides/ipresentation.
 type: docs
-weight: 40
+weight: 50
 url: /zh/net/aspose.slides/picture/presentation/
 ---
 ## Picture.Presentation property
 
-返回演示文稿。 只读[`IPresentation`](../../ipresentation)。
+返回演示文稿。 只读[`IPresentation`](../../ipresentation).
 
 ```csharp
 public IPresentation Presentation { get; }

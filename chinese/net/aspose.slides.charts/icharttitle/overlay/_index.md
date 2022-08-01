@@ -1,14 +1,14 @@
 ---
 title: Overlay
 second_title: Aspose.Slides for .NET API 参考
-description: 确定是否允许其他图表元素与标题重叠 读/写Boolean
+description: 确定是否允许其他图表元素重叠标题 读/写Boolean.
 type: docs
 weight: 40
 url: /zh/net/aspose.slides.charts/icharttitle/overlay/
 ---
 ## IChartTitle.Overlay property
 
-确定是否允许其他图表元素与标题重叠。 读/写Boolean。
+确定是否允许其他图表元素重叠标题。 读/写Boolean.
 
 ```csharp
 public bool Overlay { get; set; }

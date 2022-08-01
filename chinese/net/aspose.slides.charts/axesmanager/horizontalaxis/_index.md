@@ -1,14 +1,14 @@
 ---
 title: HorizontalAxis
 second_title: Aspose.Slides for .NET API 参考
-description: 获取图表的水平轴 只读IAxisaspose.slides.charts/iaxis
+description: 获取图表的水平轴 只读IAxisaspose.slides.charts/iaxis.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides.charts/axesmanager/horizontalaxis/
 ---
 ## AxesManager.HorizontalAxis property
 
-获取图表的水平轴。 只读[`IAxis`](../../iaxis)。
+获取图表的水平轴。 只读[`IAxis`](../../iaxis).
 
 ```csharp
 public IAxis HorizontalAxis { get; }

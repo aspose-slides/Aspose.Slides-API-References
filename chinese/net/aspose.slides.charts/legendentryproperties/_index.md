@@ -18,9 +18,9 @@ public class LegendEntryProperties : ILegendEntryProperties
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Chart](../../aspose.slides.charts/legendentryproperties/chart) { get; } | 返回父图表。 只读[`IChart`](../ichart)。 |
-| [Hide](../../aspose.slides.charts/legendentryproperties/hide) { get; set; } | 确定图例条目是否隐藏。 读/写Boolean。 |
-| [TextFormat](../../aspose.slides.charts/legendentryproperties/textformat) { get; } | 返回文本格式。 只读[`IChartTextFormat`](../icharttextformat)。 |
+| [Chart](../../aspose.slides.charts/legendentryproperties/chart) { get; } | 返回父图表。 只读[`IChart`](../ichart). |
+| [Hide](../../aspose.slides.charts/legendentryproperties/hide) { get; set; } | 确定图例条目是否隐藏。 读/写Boolean. |
+| [TextFormat](../../aspose.slides.charts/legendentryproperties/textformat) { get; } | 返回文本格式。 只读[`IChartTextFormat`](../icharttextformat). |
 
 ### 也可以看看
 

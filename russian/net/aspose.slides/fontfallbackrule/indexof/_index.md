@@ -26,10 +26,10 @@ public int IndexOf(string fontName)
 
 ```csharp
 [C#]
- // Создать правило, содержащее список шрифтов.
+// Создать правило, содержащее список шрифтов.
 IFontFallBackRule newRule = new FontFallBackRule(0x3040, 0x309F, "MS Mincho, MS Gothic, Tahoma, Times New Roman");
 
- // Получить индекс Tahoma.
+// Получить индекс Tahoma.
 int tahomaIndex = newRule.IndexOf("Tahoma");
 ```
 

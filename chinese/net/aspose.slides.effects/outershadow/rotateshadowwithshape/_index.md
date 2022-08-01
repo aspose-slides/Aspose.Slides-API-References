@@ -1,14 +1,14 @@
 ---
 title: RotateShadowWithShape
 second_title: Aspose.Slides for .NET API 参考
-description: 指定如果形状旋转阴影是否应随形状旋转 读/写Boolean
+description: 指定如果形状旋转阴影是否应随形状旋转 读/写Boolean.
 type: docs
 weight: 50
 url: /zh/net/aspose.slides.effects/outershadow/rotateshadowwithshape/
 ---
 ## OuterShadow.RotateShadowWithShape property
 
-指定如果形状旋转，阴影是否应随形状旋转。 读/写Boolean。
+指定如果形状旋转，阴影是否应随形状旋转。 读/写Boolean.
 
 ```csharp
 public bool RotateShadowWithShape { get; set; }

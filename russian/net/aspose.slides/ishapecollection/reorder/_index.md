@@ -17,7 +17,7 @@ public void Reorder(int index, IShape shape)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | index | Int32 | Целевой индекс. |
-| shape | IShape | Форма для перемещения. |
+| shape | IShape | Форма для движения. |
 
 ### Смотрите также
 
@@ -39,7 +39,7 @@ public void Reorder(int index, params IShape[] shapes)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | index | Int32 | Целевой индекс. |
-| shapes | IShape[] | Фигуры для перемещения. |
+| shapes | IShape[] | Формы для перемещения. |
 
 ### Смотрите также
 

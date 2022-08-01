@@ -20,11 +20,11 @@ public bool Contains(IMathElement item)
 
 ### 返回值
 
-如果在集合中找到*item*则为真；否则为假。
+真如果*item*在集合中找到；否则为假。
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]

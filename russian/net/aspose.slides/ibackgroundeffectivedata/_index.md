@@ -19,12 +19,12 @@ public interface IBackgroundEffectiveData : IFillParamSource
 | Имя | Описание |
 | --- | --- |
 | [AsIFillParamSource](../../aspose.slides/ibackgroundeffectivedata/asifillparamsource) { get; } | Возвращает интерфейс IFillParamSource. |
-| [EffectFormat](../../aspose.slides/ibackgroundeffectivedata/effectformat) { get; } | Возвращает эффективный формат эффекта. Только для чтения[`IEffectFormatEffectiveData`](../ieffectformateffectivedata). |
-| [FillFormat](../../aspose.slides/ibackgroundeffectivedata/fillformat) { get; } | Возвращает эффективный формат заполнения. Только для чтения[`IFillFormatEffectiveData`](../ifillformateffectivedata). |
+| [EffectFormat](../../aspose.slides/ibackgroundeffectivedata/effectformat) { get; } | Возвращает эффективный формат эффекта. Только для чтения[`IEffectFormatEffectiveData`](../ieffectformateffectivedata) . |
+| [FillFormat](../../aspose.slides/ibackgroundeffectivedata/fillformat) { get; } | Возвращает эффективный формат заполнения. Только для чтения[`IFillFormatEffectiveData`](../ifillformateffectivedata) . |
 
 ### Примечания
 
-Этот интерфейс используется вместе с[`IBackground`](../ibackground)интерфейс для возврата эффективных значений форматирования с применением наследования.
+Этот интерфейс используется вместе с[`IBackground`](../ibackground) интерфейс для возврата эффективных значений форматирования с применением наследования.
 
 ### Смотрите также
 

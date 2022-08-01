@@ -1,14 +1,14 @@
 ---
 title: AsIBulkTextFormattable
 second_title: Aspose.Slides for .NET API 参考
-description: 允许获取基本的 IBulkTextFormattable 接口 只读IBulkTextFormattableaspose.slides/ibulktextformattable
+description: 允许获取基本 IBulkTextFormattable 接口 只读IBulkTextFormattableaspose.slides/ibulktextformattable.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides/itable/asibulktextformattable/
 ---
 ## ITable.AsIBulkTextFormattable property
 
-允许获取基本的 IBulkTextFormattable 接口。 只读[`IBulkTextFormattable`](../../ibulktextformattable)。
+允许获取基本 IBulkTextFormattable 接口。 只读[`IBulkTextFormattable`](../../ibulktextformattable).
 
 ```csharp
 public IBulkTextFormattable AsIBulkTextFormattable { get; }

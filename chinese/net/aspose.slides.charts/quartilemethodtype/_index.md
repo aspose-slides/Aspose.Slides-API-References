@@ -18,8 +18,8 @@ public enum QuartileMethodType
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Exclusive | `0` | 表示独占四分位数方法。 |
-| Inclusive | `1` | 表示包容四分位数法。 |
+| Exclusive | `0` | 表示排他四分位数方法。 |
+| Inclusive | `1` | 代表包容四分位数法。 |
 
 ### 也可以看看
 

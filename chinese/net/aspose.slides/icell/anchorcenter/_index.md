@@ -1,14 +1,14 @@
 ---
 title: AnchorCenter
 second_title: Aspose.Slides for .NET API 参考
-description: 确定文本框是否在单元格内居中 读/写Boolean
+description: 确定文本框是否在单元格内居中 读/写Boolean.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides/icell/anchorcenter/
 ---
 ## ICell.AnchorCenter property
 
-确定文本框是否在单元格内居中。 读/写Boolean。
+确定文本框是否在单元格内居中。 读/写Boolean.
 
 ```csharp
 public bool AnchorCenter { get; set; }

@@ -18,9 +18,9 @@ public interface ITab : IComparable
 
 | Имя | Описание |
 | --- | --- |
-| [Alignment](../../aspose.slides/itab/alignment) { get; set; } | Возвращает или задает стиль выравнивания вкладки. Чтение/запись[`TabAlignment`](../tabalignment). |
-| [AsIComparable](../../aspose.slides/itab/asicomparable) { get; } | Возвращает интерфейс IComparable. Только для чтенияIComparable. |
-| [Position](../../aspose.slides/itab/position) { get; set; } | Возвращает или устанавливает позицию вкладки. Назначение этого свойства может изменить индекс вкладки в коллекции и сделать Enumerator недействительным. Чтение/записьDouble. |
+| [Alignment](../../aspose.slides/itab/alignment) { get; set; } | Возвращает или задает стиль выравнивания вкладки. Чтение/запись[`TabAlignment`](../tabalignment) . |
+| [AsIComparable](../../aspose.slides/itab/asicomparable) { get; } | Возвращает интерфейс IComparable. Только для чтенияIComparable . |
+| [Position](../../aspose.slides/itab/position) { get; set; } | Возвращает или задает положение вкладки. Назначение этого свойства может изменить индекс вкладки в коллекции и аннулировать Enumerator. Чтение/записьDouble . |
 
 ### Смотрите также
 

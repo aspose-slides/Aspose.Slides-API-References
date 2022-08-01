@@ -1,14 +1,14 @@
 ---
 title: StrokeEndArrow
 second_title: Aspose.Slides for .NET API 参考
-description: 表示 stroke.endArrow 属性
+description: 代表 stroke.endArrow 属性
 type: docs
 weight: 910
 url: /zh/net/aspose.slides.animation/behaviorproperty/strokeendarrow/
 ---
 ## BehaviorProperty.StrokeEndArrow property
 
-表示 'stroke.endArrow' 属性
+代表 'stroke.endArrow' 属性
 
 ```csharp
 public static BehaviorProperty StrokeEndArrow { get; }

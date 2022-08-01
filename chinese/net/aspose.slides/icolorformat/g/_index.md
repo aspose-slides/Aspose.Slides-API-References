@@ -1,14 +1,14 @@
 ---
 title: G
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置颜色的绿色分量所有颜色转换都被忽略 读/写Byte
+description: 返回或设置颜色的绿色分量忽略所有颜色转换 读/写Byte.
 type: docs
 weight: 90
 url: /zh/net/aspose.slides/icolorformat/g/
 ---
 ## IColorFormat.G property
 
-返回或设置颜色的绿色分量。所有颜色转换都被忽略。 读/写Byte。
+返回或设置颜色的绿色分量。忽略所有颜色转换。 读/写Byte.
 
 ```csharp
 public byte G { get; set; }

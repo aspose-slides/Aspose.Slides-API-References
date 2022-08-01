@@ -1,14 +1,14 @@
 ---
 title: IsObjectLink
 second_title: Aspose.Slides for .NET API 参考
-description: 确定对象是否链接到外部文件 只读Boolean
+description: 确定对象是否链接到外部文件 只读Boolean.
 type: docs
 weight: 60
 url: /zh/net/aspose.slides/ioleobjectframe/isobjectlink/
 ---
 ## IOleObjectFrame.IsObjectLink property
 
-确定对象是否链接到外部文件。 只读Boolean。
+确定对象是否链接到外部文件。 只读Boolean.
 
 ```csharp
 public bool IsObjectLink { get; }

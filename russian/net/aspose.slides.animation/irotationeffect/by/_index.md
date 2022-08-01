@@ -1,14 +1,14 @@
 ---
 title: By
 second_title: Справочник по API Aspose.Slides для .NET
-description: Описывает значение относительного смещения для анимации. Чтение/записьSingle.
+description: Описывает значение относительного смещения для анимации. Чтение/записьSingle .
 type: docs
 weight: 20
 url: /ru/net/aspose.slides.animation/irotationeffect/by/
 ---
 ## IRotationEffect.By property
 
-Описывает значение относительного смещения для анимации. Чтение/записьSingle.
+Описывает значение относительного смещения для анимации. Чтение/записьSingle .
 
 ```csharp
 public float By { get; set; }

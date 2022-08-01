@@ -1,14 +1,14 @@
 ---
 title: Nary
 second_title: Aspose.Slides for .NET API 参考
-description: 创建 N 元运算符
+description: 创建一个 N 元运算符
 type: docs
 weight: 90
 url: /zh/net/aspose.slides.mathtext/mathelementbase/nary/
 ---
 ## Nary(MathNaryOperatorTypes, IMathElement, IMathElement) {#nary}
 
-创建 N 元运算符
+创建一个 N 元运算符
 
 ```csharp
 public IMathNaryOperator Nary(MathNaryOperatorTypes type, IMathElement lowerLimit, 
@@ -17,7 +17,7 @@ public IMathNaryOperator Nary(MathNaryOperatorTypes type, IMathElement lowerLimi
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| type | MathNaryOperatorTypes | N 元运算符类型 |
+| type | MathNaryOperatorTypes | N元运算符类型 |
 | lowerLimit | IMathElement | 下限 |
 | upperLimit | IMathElement | 上限 |
 
@@ -27,7 +27,7 @@ public IMathNaryOperator Nary(MathNaryOperatorTypes type, IMathElement lowerLimi
 
 ### 例子
 
-示例
+示例：
 
 ```csharp
 [C#]
@@ -50,7 +50,7 @@ IMathNaryOperator naryOperator = baseElement.Nary(MathNaryOperatorTypes.Summatio
 
 ## Nary(MathNaryOperatorTypes, string, string) {#nary_1}
 
-创建 N 元运算符
+创建一个 N 元运算符
 
 ```csharp
 public IMathNaryOperator Nary(MathNaryOperatorTypes type, string lowerLimit, string upperLimit)
@@ -58,7 +58,7 @@ public IMathNaryOperator Nary(MathNaryOperatorTypes type, string lowerLimit, str
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| type | MathNaryOperatorTypes | N 元运算符类型 |
+| type | MathNaryOperatorTypes | N元运算符类型 |
 | lowerLimit | String | 下限 |
 | upperLimit | String | 上限 |
 
@@ -68,7 +68,7 @@ public IMathNaryOperator Nary(MathNaryOperatorTypes type, string lowerLimit, str
 
 ### 例子
 
-示例
+示例：
 
 ```csharp
 [C#]

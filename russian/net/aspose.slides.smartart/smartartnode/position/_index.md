@@ -1,14 +1,14 @@
 ---
 title: Position
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или задает отсчитываемую от нуля позицию узла среди одноуровневых узлов. Чтение/записьInt32.
+description: Возвращает или задает отсчитываемую от нуля позицию узла среди одноуровневых узлов. Чтение/записьInt32 .
 type: docs
 weight: 70
 url: /ru/net/aspose.slides.smartart/smartartnode/position/
 ---
 ## SmartArtNode.Position property
 
-Возвращает или задает отсчитываемую от нуля позицию узла среди одноуровневых узлов. Чтение/записьInt32.
+Возвращает или задает отсчитываемую от нуля позицию узла среди одноуровневых узлов. Чтение/записьInt32 .
 
 ```csharp
 public int Position { get; set; }
@@ -18,7 +18,7 @@ public int Position { get; set; }
 
 | исключение | условие |
 | --- | --- |
-| ArgumentOutOfRangeException | Значение меньше 0. -или-значение равно или больше, чем число братьев и сестер |
+| ArgumentOutOfRangeException | значение меньше 0. -или- значение больше или равно числу братьев и сестер |
 
 ### Смотрите также
 

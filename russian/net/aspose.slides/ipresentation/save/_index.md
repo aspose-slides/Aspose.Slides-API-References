@@ -52,7 +52,7 @@ public void Save(Stream stream, SaveFormat format)
 
 ## Save(string, SaveFormat, ISaveOptions) {#save_6}
 
-Сохраняет все слайды презентации в файл заданного формата и с дополнительными параметрами.
+Сохраняет все слайды презентации в файл указанного формата и с дополнительными параметрами.
 
 ```csharp
 public void Save(string fname, SaveFormat format, ISaveOptions options)
@@ -92,7 +92,7 @@ public void Save(Stream stream, SaveFormat format, ISaveOptions options)
 
 | исключение | условие |
 | --- | --- |
-| NotSupportedException | Если вы попытаетесь сохранить зашифрованный файл в формате none Office 2007-2010 |
+| NotSupportedException | При попытке сохранить зашифрованный файл в формате none Формат Office 2007-2010 |
 
 ### Смотрите также
 
@@ -115,15 +115,15 @@ public void Save(string fname, int[] slides, SaveFormat format)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | fname | String | Путь к созданному файлу. |
-| slides | Int32[] | Массив позиций слайдов, начиная с 1. |
-| format | SaveFormat | Формат экспортируемых данных . |
+| slides | Int32[] | Массив с позициями слайдов, начиная с 1. |
+| format | SaveFormat | Формат экспортируемых данных. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
 | ArgumentNullException | Когда параметр потока или слайдов имеет значение null. |
-| ArgumentOutOfRangeException | Когда параметр слайдов содержит неверные номера страниц. |
+| ArgumentOutOfRangeException | Параметр «Слайды» содержит неверные номера страниц. |
 | InvalidOperationException | Когда используется неподдерживаемый формат сохранения, например, PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
 
 ### Смотрите также
@@ -146,8 +146,8 @@ public void Save(string fname, int[] slides, SaveFormat format, ISaveOptions opt
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | fname | String | Путь к созданному файлу. |
-| slides | Int32[] | Массив позиций слайдов, начиная с 1. |
-| format | SaveFormat | Формат экспортируемых данных . |
+| slides | Int32[] | Массив с позициями слайдов, начиная с 1. |
+| format | SaveFormat | Формат экспортируемых данных. |
 | options | ISaveOptions | Дополнительные параметры формата. |
 
 ### Исключения
@@ -155,7 +155,7 @@ public void Save(string fname, int[] slides, SaveFormat format, ISaveOptions opt
 | исключение | условие |
 | --- | --- |
 | ArgumentNullException | Когда параметр потока или слайдов имеет значение null. |
-| ArgumentOutOfRangeException | Когда параметр слайдов содержит неверные номера страниц. |
+| ArgumentOutOfRangeException | Параметр «Слайды» содержит неверные номера страниц. |
 | InvalidOperationException | Когда используется неподдерживаемый формат сохранения, например, PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
 
 ### Смотрите также
@@ -170,7 +170,7 @@ public void Save(string fname, int[] slides, SaveFormat format, ISaveOptions opt
 
 ## Save(Stream, int[], SaveFormat) {#save_3}
 
-Сохраняет указанные слайды презентации в поток в указанном формате.
+Сохраняет указанные слайды презентации в потоке в указанном формате.
 
 ```csharp
 public void Save(Stream stream, int[] slides, SaveFormat format)
@@ -179,15 +179,15 @@ public void Save(Stream stream, int[] slides, SaveFormat format)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | stream | Stream | Выходной поток. |
-| slides | Int32[] | Массив позиций слайдов, начиная с 1. |
-| format | SaveFormat | Формат экспортируемых данных . |
+| slides | Int32[] | Массив с позициями слайдов, начиная с 1. |
+| format | SaveFormat | Формат экспортируемых данных. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
 | ArgumentNullException | Когда параметр потока или слайдов имеет значение null. |
-| ArgumentOutOfRangeException | Когда параметр слайдов содержит неверные номера страниц. |
+| ArgumentOutOfRangeException | Параметр «Слайды» содержит неверные номера страниц. |
 | InvalidOperationException | Когда используется неподдерживаемый формат сохранения, например, PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
 
 ### Смотрите также
@@ -201,7 +201,7 @@ public void Save(Stream stream, int[] slides, SaveFormat format)
 
 ## Save(Stream, int[], SaveFormat, ISaveOptions) {#save_4}
 
-Сохраняет указанные слайды презентации в поток в указанном формате.
+Сохраняет указанные слайды презентации в потоке в указанном формате.
 
 ```csharp
 public void Save(Stream stream, int[] slides, SaveFormat format, ISaveOptions options)
@@ -210,8 +210,8 @@ public void Save(Stream stream, int[] slides, SaveFormat format, ISaveOptions op
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | stream | Stream | Выходной поток. |
-| slides | Int32[] | Массив позиций слайдов, начиная с 1. |
-| format | SaveFormat | Формат экспортируемых данных . |
+| slides | Int32[] | Массив с позициями слайдов, начиная с 1. |
+| format | SaveFormat | Формат экспортируемых данных. |
 | options | ISaveOptions | Дополнительные параметры формата. |
 
 ### Исключения
@@ -219,7 +219,7 @@ public void Save(Stream stream, int[] slides, SaveFormat format, ISaveOptions op
 | исключение | условие |
 | --- | --- |
 | ArgumentNullException | Когда параметр потока или слайдов имеет значение null. |
-| ArgumentOutOfRangeException | Когда параметр слайдов содержит неверные номера страниц. |
+| ArgumentOutOfRangeException | Параметр «Слайды» содержит неверные номера страниц. |
 | InvalidOperationException | Когда используется неподдерживаемый формат сохранения, например, PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
 
 ### Смотрите также

@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: Aspose.Slides for .NET API 参考
-description: 判断两个 TransitionValueBase 实例是否相等
+description: 判断两个TransitionValueBase实例是否相等
 type: docs
 weight: 10
 url: /zh/net/aspose.slides.slideshow/transitionvaluebase/equals/
 ---
 ## TransitionValueBase.Equals method
 
-判断两个 TransitionValueBase 实例是否相等。
+判断两个TransitionValueBase实例是否相等。
 
 ```csharp
 public override bool Equals(object obj)
@@ -20,7 +20,7 @@ public override bool Equals(object obj)
 
 ### 返回值
 
-**true** 如果指定的 TransitionValueBase 等于当前的 TransitionValueBase；否则， **false** 。
+**真的**如果指定的 TransitionValueBase 等于当前的 TransitionValueBase；否则， **错误的**.
 
 ### 也可以看看
 

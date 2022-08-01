@@ -8,7 +8,7 @@ url: /ru/net/aspose.slides.animation/behaviorproperty/extrusioncolormode/
 ---
 ## BehaviorProperty.ExtrusionColorMode property
 
-Представляет свойство 'extrusion.colormode'
+Представляет свойство extrusion.colormode
 
 ```csharp
 public static BehaviorProperty ExtrusionColorMode { get; }

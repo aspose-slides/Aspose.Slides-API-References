@@ -18,12 +18,12 @@ public interface IEffectStyleEffectiveData
 
 | Имя | Описание |
 | --- | --- |
-| [EffectFormat](../../aspose.slides.theme/ieffectstyleeffectivedata/effectformat) { get; } | Возвращает формат эффекта. Только для чтения[`IEffectFormatEffectiveData`](../../aspose.slides/ieffectformateffectivedata). |
-| [ThreeDFormat](../../aspose.slides.theme/ieffectstyleeffectivedata/threedformat) { get; } | Возвращает формат 3D. Только для чтения[`IThreeDFormatEffectiveData`](../../aspose.slides/ithreedformateffectivedata). |
+| [EffectFormat](../../aspose.slides.theme/ieffectstyleeffectivedata/effectformat) { get; } | Возвращает формат эффекта. Только для чтения[`IEffectFormatEffectiveData`](../../aspose.slides/ieffectformateffectivedata) . |
+| [ThreeDFormat](../../aspose.slides.theme/ieffectstyleeffectivedata/threedformat) { get; } | Возвращает формат 3D. Только для чтения[`IThreeDFormatEffectiveData`](../../aspose.slides/ithreedformateffectivedata) . |
 
 ### Примечания
 
-Этот интерфейс используется как часть[`IEffectStyleCollectionEffectiveData`](../ieffectstylecollectioneffectivedata).
+Этот интерфейс используется как часть[`IEffectStyleCollectionEffectiveData`](../ieffectstylecollectioneffectivedata) .
 
 ### Смотрите также
 

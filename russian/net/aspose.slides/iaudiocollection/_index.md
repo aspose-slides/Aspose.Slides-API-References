@@ -18,15 +18,15 @@ public interface IAudioCollection : IGenericCollection<IAudio>
 
 | Имя | Описание |
 | --- | --- |
-| [Item](../../aspose.slides/iaudiocollection/item) { get; } | Получает элемент по указанному индексу. Только для чтения[`IAudio`](../iaudio). |
+| [Item](../../aspose.slides/iaudiocollection/item) { get; } | Получает элемент по указанному индексу. Только для чтения[`IAudio`](../iaudio) . |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [AddAudio](../../aspose.slides/iaudiocollection/addaudio#addaudio_1)(byte[]) | Создает и добавляет звук к презентации из массива байтов. |
+| [AddAudio](../../aspose.slides/iaudiocollection/addaudio#addaudio_1)(byte[]) | Создает и добавляет аудио к презентации из байтового массива. |
 | [AddAudio](../../aspose.slides/iaudiocollection/addaudio#addaudio)(IAudio) | Добавляет копию аудиофайла из другой презентации. |
-| [AddAudio](../../aspose.slides/iaudiocollection/addaudio#addaudio_3)(Stream, LoadingStreamBehavior) | Создает и добавляет звук к презентации из потока. |
+| [AddAudio](../../aspose.slides/iaudiocollection/addaudio#addaudio_3)(Stream, LoadingStreamBehavior) | Создает и добавляет звук в презентацию из потока. |
 
 ### Смотрите также
 

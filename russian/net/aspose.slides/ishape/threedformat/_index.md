@@ -1,14 +1,14 @@
 ---
 title: ThreeDFormat
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает объект ThreeDFormat который содержит свойства форматирования линии для фигуры. Только для чтенияIThreeDFormataspose.slides/ithreedformat.
+description: Возвращает объект ThreeDFormat содержащий свойства форматирования линии для фигуры. Только для чтенияIThreeDFormataspose.slides/ithreedformat .
 type: docs
 weight: 230
 url: /ru/net/aspose.slides/ishape/threedformat/
 ---
 ## IShape.ThreeDFormat property
 
-Возвращает объект ThreeDFormat, который содержит свойства форматирования линии для фигуры. Только для чтения[`IThreeDFormat`](../../ithreedformat).
+Возвращает объект ThreeDFormat, содержащий свойства форматирования линии для фигуры. Только для чтения[`IThreeDFormat`](../../ithreedformat) .
 
 ```csharp
 public IThreeDFormat ThreeDFormat { get; }

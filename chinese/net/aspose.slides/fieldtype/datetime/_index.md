@@ -1,14 +1,14 @@
 ---
 title: DateTime
 second_title: Aspose.Slides for .NET API 参考
-description: 呈现应用程序默认日期时间格式的当前日期和时间 只读FieldTypeaspose.slides/fieldtype
+description: 呈现应用程序的默认日期时间格式的当前日期和时间 只读FieldTypeaspose.slides/fieldtype.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides/fieldtype/datetime/
 ---
 ## FieldType.DateTime property
 
-呈现应用程序默认日期时间格式的当前日期和时间。 只读[`FieldType`](../../fieldtype)。
+呈现应用程序的默认日期时间格式的当前日期和时间。 只读[`FieldType`](../../fieldtype).
 
 ```csharp
 public static FieldType DateTime { get; }

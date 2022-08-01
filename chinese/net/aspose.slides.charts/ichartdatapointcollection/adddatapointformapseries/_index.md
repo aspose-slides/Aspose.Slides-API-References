@@ -1,14 +1,14 @@
 ---
 title: AddDataPointForMapSeries
 second_title: Aspose.Slides for .NET API 参考
-description: 创建新数据点并将其添加到集合的末尾 适用于图表类型为地图的系列
+description: 创建新的数据点并将其添加到集合的末尾 适用于图表类型为 Map 的系列
 type: docs
 weight: 150
 url: /zh/net/aspose.slides.charts/ichartdatapointcollection/adddatapointformapseries/
 ---
 ## IChartDataPointCollection.AddDataPointForMapSeries method
 
-创建新数据点并将其添加到集合的末尾。 适用于图表类型为地图的系列。
+创建新的数据点并将其添加到集合的末尾。 适用于图表类型为 Map 的系列。
 
 ```csharp
 public IChartDataPoint AddDataPointForMapSeries(IChartDataCell value)
@@ -16,7 +16,7 @@ public IChartDataPoint AddDataPointForMapSeries(IChartDataCell value)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | IChartDataCell | 数据点 ColorValue |
+| value | IChartDataCell | 数据点颜色值 |
 
 ### 返回值
 

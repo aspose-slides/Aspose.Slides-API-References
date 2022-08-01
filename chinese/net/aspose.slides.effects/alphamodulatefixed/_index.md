@@ -18,15 +18,15 @@ public class AlphaModulateFixed : ImageTransformOperation, IAlphaModulateFixed
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Amount](../../aspose.slides.effects/alphamodulatefixed/amount) { get; set; } | 以百分比返回效果量。 读/写Single。 |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允许获取基本 IPresentationComponent 接口。 只读[`IPresentationComponent`](../../aspose.slides/ipresentationcomponent)。 |
+| [Amount](../../aspose.slides.effects/alphamodulatefixed/amount) { get; set; } | 以百分比返回效果量。 读/写Single. |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允许获取基本 IPresentationComponent 接口。 只读[`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/alphamodulatefixed/equals)(object) | 确定指定的[`AlphaModulateFixed`](../alphamodulatefixed)是否等于当前的AlphaModulateFixed。 |
-| [GetEffective](../../aspose.slides.effects/alphamodulatefixed/geteffective)() | 在应用了继承的情况下获取有效的 Alpha Modulate Fixed 效果数据。 |
+| override [Equals](../../aspose.slides.effects/alphamodulatefixed/equals)(object) | 判断是否指定[`AlphaModulateFixed`](../alphamodulatefixed)等于当前[`AlphaModulateFixed`](../alphamodulatefixed). |
+| [GetEffective](../../aspose.slides.effects/alphamodulatefixed/geteffective)() | 获取有效的 Alpha Modulate Fixed 效果数据并应用继承。 |
 | override [GetHashCode](../../aspose.slides.effects/alphamodulatefixed/gethashcode)() | 用作特定类型的哈希函数。 |
 
 ### 也可以看看

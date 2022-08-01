@@ -18,10 +18,10 @@ public interface IColumn : IBulkTextFormattable, ICellCollection
 
 | Имя | Описание |
 | --- | --- |
-| [AsIBulkTextFormattable](../../aspose.slides/icolumn/asibulktextformattable) { get; } | Позволяет получить базовый интерфейс IBulkTextFormattable. Только для чтения[`IBulkTextFormattable`](../ibulktextformattable). |
-| [AsICellCollection](../../aspose.slides/icolumn/asicellcollection) { get; } | Позволяет получить базовый интерфейс ICellCollection. Только для чтения[`ICellCollection`](../icellcollection). |
-| [ColumnFormat](../../aspose.slides/icolumn/columnformat) { get; } | Возвращает объект ColumnFormat, содержащий свойства форматирования для этого столбца. Только для чтения[`IColumnFormat`](../icolumnformat). |
-| [Width](../../aspose.slides/icolumn/width) { get; set; } | Возвращает или задает ширину столбца. Чтение/записьDouble. |
+| [AsIBulkTextFormattable](../../aspose.slides/icolumn/asibulktextformattable) { get; } | Позволяет получить базовый интерфейс IBulkTextFormattable. Только для чтения[`IBulkTextFormattable`](../ibulktextformattable) . |
+| [AsICellCollection](../../aspose.slides/icolumn/asicellcollection) { get; } | Позволяет получить базовый интерфейс ICellCollection. Только для чтения[`ICellCollection`](../icellcollection) . |
+| [ColumnFormat](../../aspose.slides/icolumn/columnformat) { get; } | Возвращает объект ColumnFormat, содержащий свойства форматирования для этого столбца. Только для чтения[`IColumnFormat`](../icolumnformat) . |
+| [Width](../../aspose.slides/icolumn/width) { get; set; } | Возвращает или задает ширину столбца. Чтение/записьDouble . |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: Collect
 second_title: Aspose.Slides for .NET API 参考
-description: 表示一组方法旨在从Presentation../aspose.slides/presentation收集不同类型的模型对象
+description: 表示一组用于收集不同类型模型对象的方法Presentation../aspose.slides/presentation.
 type: docs
 weight: 7160
 url: /zh/net/aspose.slides.lowcode/collect/
 ---
 ## Collect class
 
-表示一组方法，旨在从[`Presentation`](../../aspose.slides/presentation)收集不同类型的模型对象。
+表示一组用于收集不同类型模型对象的方法[`Presentation`](../../aspose.slides/presentation).
 
 ```csharp
 public static class Collect
@@ -18,7 +18,7 @@ public static class Collect
 
 | 姓名 | 描述 |
 | --- | --- |
-| static [Shapes](../../aspose.slides.lowcode/collect/shapes)(Presentation) | 收集[`Shape`](../../aspose.slides/shape)中的所有实例[`Presentation`](../../aspose.slides/presentation). |
+| static [Shapes](../../aspose.slides.lowcode/collect/shapes)(Presentation) | 收集所有实例[`Shape`](../../aspose.slides/shape)在里面[`Presentation`](../../aspose.slides/presentation) |
 
 ### 例子
 
@@ -27,7 +27,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 {
     foreach (Shape shape in Collect.Shapes(pres))
     {
-         // ... 更改形状格式或其他属性
+        // ... 更改形状格式或其他属性
     }
 }    
 ```

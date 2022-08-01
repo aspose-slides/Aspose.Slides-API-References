@@ -1,14 +1,14 @@
 ---
 title: Brightness
 second_title: Справочник по API Aspose.Slides для .NET
-description: Яркость. Только для чтенияSingle.
+description: Яркость. Только для чтенияSingle .
 type: docs
 weight: 20
 url: /ru/net/aspose.slides.effects/iluminanceeffectivedata/brightness/
 ---
 ## ILuminanceEffectiveData.Brightness property
 
-Яркость. Только для чтенияSingle.
+Яркость. Только для чтенияSingle .
 
 ```csharp
 public float Brightness { get; }

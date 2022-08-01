@@ -1,14 +1,14 @@
 ---
 title: SourceCode
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или задает исходный код модуля. Чтение/записьString.
+description: Возвращает или задает исходный код модуля. Чтение/записьString .
 type: docs
 weight: 20
 url: /ru/net/aspose.slides.vba/vbamodule/sourcecode/
 ---
 ## VbaModule.SourceCode property
 
-Возвращает или задает исходный код модуля. Чтение/записьString.
+Возвращает или задает исходный код модуля. Чтение/записьString .
 
 ```csharp
 public string SourceCode { get; set; }

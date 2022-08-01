@@ -1,14 +1,14 @@
 ---
 title: AsIMasterThemeable
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает интерфейс IMasterThemeable. Только для чтенияIMasterThemeableaspose.slides.theme/imasterthemeable.
+description: Возвращает интерфейс IMasterThemeable. Только для чтенияIMasterThemeableaspose.slides.theme/imasterthemeable .
 type: docs
 weight: 20
 url: /ru/net/aspose.slides/imasterhandoutslide/asimasterthemeable/
 ---
 ## IMasterHandoutSlide.AsIMasterThemeable property
 
-Возвращает интерфейс IMasterThemeable. Только для чтения[`IMasterThemeable`](../../../aspose.slides.theme/imasterthemeable).
+Возвращает интерфейс IMasterThemeable. Только для чтения[`IMasterThemeable`](../../../aspose.slides.theme/imasterthemeable) .
 
 ```csharp
 public IMasterThemeable AsIMasterThemeable { get; }

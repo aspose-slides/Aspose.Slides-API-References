@@ -1,14 +1,14 @@
 ---
 title: DateTime1
 second_title: Aspose.Slides for .NET API 参考
-description: 第一种预定义格式英文为MM/DD/YYYY的当前日期和时间 只读FieldTypeaspose.slides/fieldtype
+description: 第一种预定义格式的当前日期和时间英文为 MM/DD/YYYY 只读FieldTypeaspose.slides/fieldtype.
 type: docs
 weight: 30
 url: /zh/net/aspose.slides/fieldtype/datetime1/
 ---
 ## FieldType.DateTime1 property
 
-第一种预定义格式（英文为MM/DD/YYYY）的当前日期和时间。 只读[`FieldType`](../../fieldtype)。
+第一种预定义格式的当前日期和时间（英文为 MM/DD/YYYY）。 只读[`FieldType`](../../fieldtype).
 
 ```csharp
 public static FieldType DateTime1 { get; }

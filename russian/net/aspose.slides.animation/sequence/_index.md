@@ -18,9 +18,9 @@ public sealed class Sequence : ISequence
 
 | Имя | Описание |
 | --- | --- |
-| [Count](../../aspose.slides.animation/sequence/count) { get; } | Возвращает количество эффектов в последовательности. Только для чтенияInt32. |
+| [Count](../../aspose.slides.animation/sequence/count) { get; } | Возвращает количество эффектов в последовательности. Только для чтенияInt32 . |
 | [Item](../../aspose.slides.animation/sequence/item) { get; } | Возвращает эффект по указанному индексу. |
-| [TriggerShape](../../aspose.slides.animation/sequence/triggershape) { get; set; } | Возвращает или задает цель формы для ИНТЕРАКТИВНОЙ последовательности. Если последовательность не интерактивна, то возвращает null. Чтение/запись[`IShape`](../../aspose.slides/ishape). |
+| [TriggerShape](../../aspose.slides.animation/sequence/triggershape) { get; set; } | Возвращает или задает цель формы для ИНТЕРАКТИВНОЙ последовательности. Если последовательность не является интерактивной, возвращает значение null. Чтение/запись[`IShape`](../../aspose.slides/ishape) . |
 
 ## Методы
 
@@ -34,10 +34,10 @@ public sealed class Sequence : ISequence
 | [GetCount](../../aspose.slides.animation/sequence/getcount)(IShape) | Возвращает количество эффектов для указанной формы. |
 | [GetEffectsByParagraph](../../aspose.slides.animation/sequence/geteffectsbyparagraph)(IParagraph) | Возвращает массив эффектов для указанного абзаца. |
 | [GetEffectsByShape](../../aspose.slides.animation/sequence/geteffectsbyshape)(IShape) | Возвращает массив эффектов для указанной фигуры. |
-| [GetEnumerator](../../aspose.slides.animation/sequence/getenumerator)() | Возвращает перечислитель, который перебирает коллекцию. |
+| [GetEnumerator](../../aspose.slides.animation/sequence/getenumerator)() | Возвращает перечислитель, который выполняет итерацию по коллекции. |
 | [Remove](../../aspose.slides.animation/sequence/remove)(IEffect) | Удаляет указанный эффект из коллекции. |
 | [RemoveAt](../../aspose.slides.animation/sequence/removeat)(int) | Удаляет эффект из коллекции. |
-| [RemoveByShape](../../aspose.slides.animation/sequence/removebyshape)(IShape) | Удалить эффект для указанной фигуры. |
+| [RemoveByShape](../../aspose.slides.animation/sequence/removebyshape)(IShape) | Удалить эффект для указанной формы. |
 
 ### Смотрите также
 

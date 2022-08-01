@@ -1,14 +1,14 @@
 ---
 title: IsVisible
 second_title: Aspose.Slides for .NET API 参考
-description: 表示轴是否可见 读/写Boolean
+description: 表示轴是否可见 读/写Boolean.
 type: docs
 weight: 310
 url: /zh/net/aspose.slides.charts/iaxis/isvisible/
 ---
 ## IAxis.IsVisible property
 
-表示轴是否可见。 读/写Boolean。
+表示轴是否可见。 读/写Boolean.
 
 ```csharp
 public bool IsVisible { get; set; }

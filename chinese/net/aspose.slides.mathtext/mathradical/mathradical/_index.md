@@ -16,12 +16,12 @@ public MathRadical(IMathElement baseArgument, IMathElement degreeArgument)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| baseArgument | IMathElement | Base |
-| degreeArgument | IMathElement | Degree |
+| baseArgument | IMathElement | 根据 |
+| degreeArgument | IMathElement | 程度 |
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]

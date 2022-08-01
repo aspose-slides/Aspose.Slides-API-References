@@ -18,7 +18,7 @@ public ICell MergeCells(ICell cell1, ICell cell2, bool allowSplitting)
 | --- | --- | --- |
 | cell1 | ICell | 要合并的单元格。 |
 | cell2 | ICell | 要合并的单元格。 |
-| allowSplitting | Boolean | True 以允许单元格拆分。 |
+| allowSplitting | Boolean | True 允许细胞分裂。 |
 
 ### 返回值
 

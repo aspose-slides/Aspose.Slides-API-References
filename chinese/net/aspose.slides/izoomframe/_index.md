@@ -1,14 +1,14 @@
 ---
 title: IZoomFrame
 second_title: Aspose.Slides for .NET API 参考
-description: 表示幻灯片中的幻灯片缩放对象
+description: 表示幻灯片中的 Slide Zoom 对象
 type: docs
 weight: 6820
 url: /zh/net/aspose.slides/izoomframe/
 ---
 ## IZoomFrame interface
 
-表示幻灯片中的幻灯片缩放对象。
+表示幻灯片中的 Slide Zoom 对象。
 
 ```csharp
 public interface IZoomFrame : IZoomObject
@@ -19,7 +19,7 @@ public interface IZoomFrame : IZoomObject
 | 姓名 | 描述 |
 | --- | --- |
 | [AsIZoomObject](../../aspose.slides/izoomframe/asizoomobject) { get; } | 返回 IZoomObject 接口。 |
-| [TargetSlide](../../aspose.slides/izoomframe/targetslide) { get; set; } | 获取或设置幻灯片缩放对象链接到的幻灯片对象。 读/写[`ISlide`](../islide)。 |
+| [TargetSlide](../../aspose.slides/izoomframe/targetslide) { get; set; } | 获取或设置幻灯片缩放对象链接到的幻灯片对象。 读/写[`ISlide`](../islide). |
 
 ### 也可以看看
 

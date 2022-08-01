@@ -24,8 +24,8 @@ public class MathDelimiterFactory : IMathDelimiterFactory
 
 | Имя | Описание |
 | --- | --- |
-| [CreateMathDelimiter](../../aspose.slides.mathtext/mathdelimiterfactory/createmathdelimiter#createmathdelimiter)(IMathElement) | Создать математический разделитель, применив его к элементу |
-| [CreateMathDelimiter](../../aspose.slides.mathtext/mathdelimiterfactory/createmathdelimiter#createmathdelimiter_1)(IMathElementCollection) | Создать математический разделитель, применив к элементу |
+| [CreateMathDelimiter](../../aspose.slides.mathtext/mathdelimiterfactory/createmathdelimiter#createmathdelimiter)(IMathElement) | Создайте математический разделитель, применив его к element |
+| [CreateMathDelimiter](../../aspose.slides.mathtext/mathdelimiterfactory/createmathdelimiter#createmathdelimiter_1)(IMathElementCollection) | Создайте математический разделитель, применив его к element |
 
 ### Примечания
 

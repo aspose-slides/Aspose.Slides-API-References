@@ -1,14 +1,14 @@
 ---
 title: FontAlignment
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置段落中的字体对齐方式 读/写FontAlignmentaspose.slides/fontalignment
+description: 返回或设置段落中的字体对齐方式 读/写FontAlignmentaspose.slides/fontalignment.
 type: docs
 weight: 40
 url: /zh/net/aspose.slides.charts/ichartparagraphformat/fontalignment/
 ---
 ## IChartParagraphFormat.FontAlignment property
 
-返回或设置段落中的字体对齐方式。 读/写[`FontAlignment`](../../../aspose.slides/fontalignment)。
+返回或设置段落中的字体对齐方式。 读/写[`FontAlignment`](../../../aspose.slides/fontalignment).
 
 ```csharp
 public FontAlignment FontAlignment { get; set; }

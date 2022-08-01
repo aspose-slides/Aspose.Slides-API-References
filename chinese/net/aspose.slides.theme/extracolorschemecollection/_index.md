@@ -18,10 +18,10 @@ public class ExtraColorSchemeCollection : IExtraColorSchemeCollection
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Count](../../aspose.slides.theme/extracolorschemecollection/count) { get; } | 返回集合中的元素数量。 只读Int32。 |
-| [IsSynchronized](../../aspose.slides.theme/extracolorschemecollection/issynchronized) { get; } | 返回一个值，指示对 ArrayList 的访问是否同步（线程安全）。 只读Boolean。 |
-| [Item](../../aspose.slides.theme/extracolorschemecollection/item) { get; } | 按索引返回配色方案。 只读[`ExtraColorScheme`](../extracolorscheme)。 |
-| [SyncRoot](../../aspose.slides.theme/extracolorschemecollection/syncroot) { get; } | 返回一个可用于同步访问集合的对象。 只读Object。 |
+| [Count](../../aspose.slides.theme/extracolorschemecollection/count) { get; } | 返回集合中的元素数量。 只读Int32. |
+| [IsSynchronized](../../aspose.slides.theme/extracolorschemecollection/issynchronized) { get; } | 返回一个值，指示对 ArrayList 的访问是否同步（线程安全）。 只读Boolean. |
+| [Item](../../aspose.slides.theme/extracolorschemecollection/item) { get; } | 按索引返回配色方案。 只读[`ExtraColorScheme`](../extracolorscheme). |
+| [SyncRoot](../../aspose.slides.theme/extracolorschemecollection/syncroot) { get; } | 返回一个可用于同步访问集合的对象。 只读Object. |
 
 ## 方法
 

@@ -16,7 +16,7 @@ public IAlphaFloorEffectiveData GetEffective()
 
 ### Возвращаемое значение
 
-A[`IAlphaFloorEffectiveData`](../../ialphaflooreffectivedata).
+А[`IAlphaFloorEffectiveData`](../../ialphaflooreffectivedata).
 
 ### Смотрите также
 

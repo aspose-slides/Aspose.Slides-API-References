@@ -1,14 +1,14 @@
 ---
 title: CreateInnerShadow
 second_title: Aspose.Slides for .NET API 参考
-description: 创建内阴影效果
+description: 创建内部阴影效果
 type: docs
 weight: 40
 url: /zh/net/aspose.slides.effects/effectfactory/createinnershadow/
 ---
 ## EffectFactory.CreateInnerShadow method
 
-创建内阴影效果。
+创建内部阴影效果。
 
 ```csharp
 public IInnerShadow CreateInnerShadow()

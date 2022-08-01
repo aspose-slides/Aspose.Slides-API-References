@@ -1,14 +1,14 @@
 ---
 title: AddTintEffect
 second_title: Aspose.Slides for .NET API 参考
-description: 将新的 Tint 效果添加到集合的末尾
+description: 将新的色调效果添加到集合的末尾
 type: docs
 weight: 190
 url: /zh/net/aspose.slides.effects/iimagetransformoperationcollection/addtinteffect/
 ---
 ## IImageTransformOperationCollection.AddTintEffect method
 
-将新的 Tint 效果添加到集合的末尾。
+将新的色调效果添加到集合的末尾。
 
 ```csharp
 public ITint AddTintEffect(float hue, float amount)

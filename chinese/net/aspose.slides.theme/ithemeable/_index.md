@@ -1,14 +1,14 @@
 ---
 title: IThemeable
 second_title: Aspose.Slides for .NET API 参考
-description: 表示可以使用ITheme./itheme主题化的对象
+description: 表示可以使用主题的对象ITheme./itheme.
 type: docs
 weight: 10590
 url: /zh/net/aspose.slides.theme/ithemeable/
 ---
 ## IThemeable interface
 
-表示可以使用[`ITheme`](../itheme)主题化的对象。
+表示可以使用主题的对象[`ITheme`](../itheme).
 
 ```csharp
 public interface IThemeable : ISlideComponent
@@ -18,13 +18,13 @@ public interface IThemeable : ISlideComponent
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsISlideComponent](../../aspose.slides.theme/ithemeable/asislidecomponent) { get; } | 返回 ISlideComponent 接口。 只读[`ISlideComponent`](../../aspose.slides/islidecomponent)。 |
+| [AsISlideComponent](../../aspose.slides.theme/ithemeable/asislidecomponent) { get; } | 返回 ISlideComponent 接口。 只读[`ISlideComponent`](../../aspose.slides/islidecomponent). |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [CreateThemeEffective](../../aspose.slides.theme/ithemeable/createthemeeffective)() | 返回此可主题化对象的有效主题。 |
+| [CreateThemeEffective](../../aspose.slides.theme/ithemeable/createthemeeffective)() | 返回此主题对象的有效主题。 |
 
 ### 也可以看看
 

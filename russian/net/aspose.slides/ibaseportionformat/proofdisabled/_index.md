@@ -1,14 +1,14 @@
 ---
 title: ProofDisabled
 second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет нужно ли проверять текст. Наследование не применяется. Чтение/записьNullableBoolaspose.slides/nullablebool.
+description: Определяет нужно ли проверять текст. Наследование не применяется. Чтение/записьNullableBoolaspose.slides/nullablebool .
 type: docs
 weight: 200
 url: /ru/net/aspose.slides/ibaseportionformat/proofdisabled/
 ---
 ## IBasePortionFormat.ProofDisabled property
 
-Определяет, нужно ли проверять текст. Наследование не применяется. Чтение/запись[`NullableBool`](../../nullablebool).
+Определяет, нужно ли проверять текст. Наследование не применяется. Чтение/запись[`NullableBool`](../../nullablebool) .
 
 ```csharp
 public NullableBool ProofDisabled { get; set; }

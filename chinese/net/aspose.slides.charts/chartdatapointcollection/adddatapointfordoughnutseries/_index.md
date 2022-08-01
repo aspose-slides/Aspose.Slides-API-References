@@ -1,14 +1,14 @@
 ---
 title: AddDataPointForDoughnutSeries
 second_title: Aspose.Slides for .NET API 参考
-description: 创建新数据点并将其添加到集合的末尾 适用于 chartType 是 Donut 子类型之一的系列另请参见IsChartTypeDoughnutaspose.slides.charts/charttypecharacterizer/ischarttypedoughnut方法 .
+description: 创建新数据点并将其添加到集合的末尾 适用于 chartType 是 Donut 子类型之一的系列另请参阅IsChartTypeDoughnutaspose.slides.charts/charttypecharacterizer/ischarttypedoughnut方法.
 type: docs
 weight: 140
 url: /zh/net/aspose.slides.charts/chartdatapointcollection/adddatapointfordoughnutseries/
 ---
 ## AddDataPointForDoughnutSeries(IChartDataCell) {#adddatapointfordoughnutseries}
 
-创建新数据点并将其添加到集合的末尾。 适用于 chartType 是 Donut 子类型之一的系列（另请参见[`IsChartTypeDoughnut`](../../charttypecharacterizer/ischarttypedoughnut)方法） .
+创建新数据点并将其添加到集合的末尾。 适用于 chartType 是 Donut 子类型之一的系列（另请参阅[`IsChartTypeDoughnut`](../../charttypecharacterizer/ischarttypedoughnut)方法）.
 
 ```csharp
 public IChartDataPoint AddDataPointForDoughnutSeries(IChartDataCell value)
@@ -34,7 +34,7 @@ public IChartDataPoint AddDataPointForDoughnutSeries(IChartDataCell value)
 
 ## AddDataPointForDoughnutSeries(double) {#adddatapointfordoughnutseries_1}
 
-创建新数据点并将其添加到集合的末尾。 适用于 chartType 是 Donut 子类型之一的系列（另请参见[`IsChartTypeDoughnut`](../../charttypecharacterizer/ischarttypedoughnut)方法） .
+创建新数据点并将其添加到集合的末尾。 适用于 chartType 是 Donut 子类型之一的系列（另请参阅[`IsChartTypeDoughnut`](../../charttypecharacterizer/ischarttypedoughnut)方法）.
 
 ```csharp
 public IChartDataPoint AddDataPointForDoughnutSeries(double value)

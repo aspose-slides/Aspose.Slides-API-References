@@ -1,14 +1,14 @@
 ---
 title: HideAtShowing
 second_title: Aspose.Slides for .NET API 参考
-description: 确定 VideoFrame 是否隐藏 读/写Boolean
+description: 确定 VideoFrame 是否隐藏 读/写Boolean.
 type: docs
 weight: 40
 url: /zh/net/aspose.slides/ivideoframe/hideatshowing/
 ---
 ## IVideoFrame.HideAtShowing property
 
-确定 VideoFrame 是否隐藏。 读/写Boolean。
+确定 VideoFrame 是否隐藏。 读/写Boolean.
 
 ```csharp
 public bool HideAtShowing { get; set; }

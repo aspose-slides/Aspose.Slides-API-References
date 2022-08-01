@@ -1,14 +1,14 @@
 ---
 title: Label
 second_title: Aspose.Slides for .NET API 参考
-description: 表示数据点级别的数据标签适用于 Treemap 和 Sunburst sereis 类型 只读IDataLabelaspose.slides.charts/idatalabel
+description: 表示数据点级别的数据标签适用于 Treemap 和 Sunburst sereis types. 只读IDataLabelaspose.slides.charts/idatalabel.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides.charts/ichartdatapointlevel/label/
 ---
 ## IChartDataPointLevel.Label property
 
-表示数据点级别的数据标签。适用于 Treemap 和 Sunburst sereis 类型。 只读[`IDataLabel`](../../idatalabel)。
+表示数据点级别的数据标签。适用于 Treemap 和 Sunburst sereis types. 只读[`IDataLabel`](../../idatalabel).
 
 ```csharp
 public IDataLabel Label { get; }

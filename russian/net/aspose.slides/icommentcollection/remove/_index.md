@@ -1,14 +1,14 @@
 ---
 title: Remove
 second_title: Справочник по API Aspose.Slides для .NET
-description: Удаляет первое вхождение указанного комментария в коллекции.
+description: Удаляет первое появление указанного комментария в коллекции.
 type: docs
 weight: 70
 url: /ru/net/aspose.slides/icommentcollection/remove/
 ---
 ## ICommentCollection.Remove method
 
-Удаляет первое вхождение указанного комментария в коллекции.
+Удаляет первое появление указанного комментария в коллекции.
 
 ```csharp
 public void Remove(IComment comment)
@@ -16,14 +16,14 @@ public void Remove(IComment comment)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| comment | IComment | Комментарий, который необходимо удалить из коллекции. |
+| comment | IComment | Комментарий, который нужно удалить из коллекции. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | Если комментарий` null` |
-| [PptxEditException](../../pptxeditexception) | Генерируется, если комментарий уже удален. |
+| ArgumentNullException | Если комментарий`нулевой` |
+| [PptxEditException](../../pptxeditexception) | Выбрасывается, если комментарий уже удален. |
 
 ### Смотрите также
 

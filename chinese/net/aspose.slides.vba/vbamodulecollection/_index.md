@@ -18,10 +18,10 @@ public sealed class VbaModuleCollection : IVbaModuleCollection
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Count](../../aspose.slides.vba/vbamodulecollection/count) { get; } | 获取集合中实际包含的元素数量。 只读Int32。 |
-| [IsSynchronized](../../aspose.slides.vba/vbamodulecollection/issynchronized) { get; } | 返回一个值，指示对集合的访问是否同步（线程安全）。 只读Boolean。 |
+| [Count](../../aspose.slides.vba/vbamodulecollection/count) { get; } | 获取集合中实际包含的元素数。 只读Int32. |
+| [IsSynchronized](../../aspose.slides.vba/vbamodulecollection/issynchronized) { get; } | 返回一个值，指示对集合的访问是否同步（线程安全）。 只读Boolean. |
 | [Item](../../aspose.slides.vba/vbamodulecollection/item) { get; } | 获取指定索引处的元素。 |
-| [SyncRoot](../../aspose.slides.vba/vbamodulecollection/syncroot) { get; } | 返回同步根。 只读Object。 |
+| [SyncRoot](../../aspose.slides.vba/vbamodulecollection/syncroot) { get; } | 返回同步根。 只读Object. |
 
 ## 方法
 

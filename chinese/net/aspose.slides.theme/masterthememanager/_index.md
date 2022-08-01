@@ -18,14 +18,14 @@ public class MasterThemeManager : BaseThemeManager, IMasterThemeManager
 
 | 姓名 | 描述 |
 | --- | --- |
-| [IsOverrideThemeEnabled](../../aspose.slides.theme/masterthememanager/isoverridethemeenabled) { get; set; } | 确定 OverrideTheme 是否覆盖继承的有效主题（Presentation.MasterTheme）。 读/写Boolean。 |
-| [OverrideTheme](../../aspose.slides.theme/masterthememanager/overridetheme) { get; set; } | 返回覆盖主题对象。 读/写[`IMasterTheme`](../imastertheme)。 |
+| [IsOverrideThemeEnabled](../../aspose.slides.theme/masterthememanager/isoverridethemeenabled) { get; set; } | 确定 OverrideTheme 是否覆盖继承的有效主题（Presentation.MasterTheme）。 读/写Boolean. |
+| [OverrideTheme](../../aspose.slides.theme/masterthememanager/overridetheme) { get; set; } | 返回覆盖主题对象。 读/写[`IMasterTheme`](../imastertheme). |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ApplyColorScheme](../../aspose.slides.theme/masterthememanager/applycolorscheme)(IExtraColorScheme) | 将额外的配色方案应用于幻灯片。 |
+| [ApplyColorScheme](../../aspose.slides.theme/masterthememanager/applycolorscheme)(IExtraColorScheme) | 对幻灯片应用额外的配色方案。 |
 | [CreateThemeEffective](../../aspose.slides.theme/masterthememanager/createthemeeffective)() | 返回主题对象。 |
 
 ### 也可以看看

@@ -1,14 +1,14 @@
 ---
 title: DisplayEquation
 second_title: Aspose.Slides for .NET API 参考
-description: 指定趋势线的方程显示在图表上与 Rsquaredvalue 在同一标签中 读/写Boolean
+description: 指定趋势线的方程显示在图表上在与 Rsquared 值相同的标签中 读/写Boolean.
 type: docs
 weight: 30
 url: /zh/net/aspose.slides.charts/trendline/displayequation/
 ---
 ## Trendline.DisplayEquation property
 
-指定趋势线的方程显示在图表上（与 Rsquaredvalue 在同一标签中）。 读/写Boolean。
+指定趋势线的方程显示在图表上（在与 Rsquared 值相同的标签中）。 读/写Boolean.
 
 ```csharp
 public bool DisplayEquation { get; set; }

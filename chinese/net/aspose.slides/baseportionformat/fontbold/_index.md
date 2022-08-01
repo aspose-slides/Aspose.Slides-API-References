@@ -1,14 +1,14 @@
 ---
 title: FontBold
 second_title: Aspose.Slides for .NET API 参考
-description: 确定字体是否为粗体未应用继承 读/写NullableBoolaspose.slides/nullablebool
+description: 确定字体是否为粗体未应用继承 读/写NullableBoolaspose.slides/nullablebool.
 type: docs
 weight: 70
 url: /zh/net/aspose.slides/baseportionformat/fontbold/
 ---
 ## BasePortionFormat.FontBold property
 
-确定字体是否为粗体。未应用继承。 读/写[`NullableBool`](../../nullablebool)。
+确定字体是否为粗体。未应用继承。 读/写[`NullableBool`](../../nullablebool).
 
 ```csharp
 public NullableBool FontBold { get; set; }

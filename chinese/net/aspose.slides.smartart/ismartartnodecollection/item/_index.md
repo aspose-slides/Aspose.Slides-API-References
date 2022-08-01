@@ -16,7 +16,7 @@ public ISmartArtNode this[int index] { get; }
 
 | 范围 | 描述 |
 | --- | --- |
-| index | 从零开始的索引的元素。 |
+| index | 元素的从零开始的索引。 |
 
 ### 也可以看看
 

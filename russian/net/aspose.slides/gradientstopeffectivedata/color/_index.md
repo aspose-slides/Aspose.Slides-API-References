@@ -1,14 +1,14 @@
 ---
 title: Color
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает цвет точки градиента. Только для чтенияColor.
+description: Возвращает цвет точки градиента. Только для чтенияColor .
 type: docs
 weight: 10
 url: /ru/net/aspose.slides/gradientstopeffectivedata/color/
 ---
 ## GradientStopEffectiveData.Color property
 
-Возвращает цвет точки градиента. Только для чтенияColor.
+Возвращает цвет точки градиента. Только для чтенияColor .
 
 ```csharp
 public Color Color { get; }

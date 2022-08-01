@@ -1,14 +1,14 @@
 ---
 title: Glow
 second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет эффект свечения при котором размытый цвет контура добавляется за края объекта.
+description: Представляет эффект свечения при котором контур размытия цвета добавляется за края объекта.
 type: docs
 weight: 2810
 url: /ru/net/aspose.slides.effects/glow/
 ---
 ## Glow class
 
-Представляет эффект свечения, при котором размытый цвет контура добавляется за края объекта.
+Представляет эффект свечения, при котором контур размытия цвета добавляется за края объекта.
 
 ```csharp
 public class Glow : IGlow
@@ -18,16 +18,16 @@ public class Glow : IGlow
 
 | Имя | Описание |
 | --- | --- |
-| [Color](../../aspose.slides.effects/glow/color) { get; } | Формат цвета. Только для чтения[`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Radius](../../aspose.slides.effects/glow/radius) { get; set; } | Радиус. Чтение/записьDouble. |
+| [Color](../../aspose.slides.effects/glow/color) { get; } | Цветовой формат. Только для чтения[`IColorFormat`](../../aspose.slides/icolorformat) . |
+| [Radius](../../aspose.slides.effects/glow/radius) { get; set; } | Радиус. Чтение/записьDouble . |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/glow/equals)(object) | Определяет, равен ли указанный[`Glow`](../glow)текущемуСвечение. |
+| override [Equals](../../aspose.slides.effects/glow/equals)(object) | Определяет, является ли указанный[`Glow`](../glow) равен текущему[`Glow`](../glow) . |
 | [GetEffective](../../aspose.slides.effects/glow/geteffective)() | Получает данные об эффективном эффекте свечения с применением наследования. |
-| override [GetHashCode](../../aspose.slides.effects/glow/gethashcode)() | Служит хэш-функцией для определенного типа. |
+| override [GetHashCode](../../aspose.slides.effects/glow/gethashcode)() | Служит хеш-функцией для определенного типа. |
 
 ### Смотрите также
 

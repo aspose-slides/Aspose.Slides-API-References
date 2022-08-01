@@ -1,14 +1,14 @@
 ---
 title: IMathNaryOperator
 second_title: Aspose.Slides for .NET API 参考
-description: 指定 N 元数学对象例如 Summation 和 Integral 它由一个运算符一个基数或操作数和可选的上限和下限组成 N 元运算符的示例有求和并集交集积分
+description: 指定 N 元数学对象例如 Summation 和 Integral 它由运算符基数或操作数以及可选的上限和下限组成 N 元运算符的示例有求和并集交集积分
 type: docs
 weight: 7650
 url: /zh/net/aspose.slides.mathtext/imathnaryoperator/
 ---
 ## IMathNaryOperator interface
 
-指定 N 元数学对象，例如 Summation 和 Integral。 它由一个运算符、一个基数（或操作数）和可选的上限和下限组成。 N 元运算符的示例有:求和、并集、交集、积分
+指定 N 元数学对象，例如 Summation 和 Integral。 它由运算符、基数（或操作数）以及可选的上限和下限组成。 N 元运算符的示例有：求和、并集、交集、积分
 
 ```csharp
 public interface IMathNaryOperator : IMathElement, IMathNaryOperatorProperties
@@ -26,7 +26,7 @@ public interface IMathNaryOperator : IMathElement, IMathNaryOperatorProperties
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]

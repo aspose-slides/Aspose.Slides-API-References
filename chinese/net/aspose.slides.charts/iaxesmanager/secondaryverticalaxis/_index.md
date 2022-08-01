@@ -1,14 +1,14 @@
 ---
 title: SecondaryVerticalAxis
 second_title: Aspose.Slides for .NET API 参考
-description: 获取图表的第二纵轴 只读IAxisaspose.slides.charts/iaxis
+description: 获取图表的第二纵轴 只读IAxisaspose.slides.charts/iaxis.
 type: docs
 weight: 30
 url: /zh/net/aspose.slides.charts/iaxesmanager/secondaryverticalaxis/
 ---
 ## IAxesManager.SecondaryVerticalAxis property
 
-获取图表的第二纵轴。 只读[`IAxis`](../../iaxis)。
+获取图表的第二纵轴。 只读[`IAxis`](../../iaxis).
 
 ```csharp
 public IAxis SecondaryVerticalAxis { get; }

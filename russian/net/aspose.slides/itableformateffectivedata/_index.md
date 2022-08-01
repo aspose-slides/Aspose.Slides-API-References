@@ -18,11 +18,11 @@ public interface ITableFormatEffectiveData : IBaseTableFormatEffectiveData
 
 | Имя | Описание |
 | --- | --- |
-| [AsIBaseTableFormatEffectiveData](../../aspose.slides/itableformateffectivedata/asibasetableformateffectivedata) { get; } | Позволяет получить базовый интерфейс IBaseTableFormatEffectiveData. Только для чтения[`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata). |
+| [AsIBaseTableFormatEffectiveData](../../aspose.slides/itableformateffectivedata/asibasetableformateffectivedata) { get; } | Позволяет получить базовый интерфейс IBaseTableFormatEffectiveData. Только для чтения[`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata) . |
 
 ### Примечания
 
-Этот интерфейс используется вместе с[`ITableFormat`](../itableformat)Интерфейс для возврата эффективных значений форматирования с примененными стилями наследования и таблиц.
+Этот интерфейс используется вместе с[`ITableFormat`](../itableformat) интерфейс для возврата эффективных значений форматирования с примененными стилями наследования и таблиц.
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: TextAnimation
 second_title: Aspose.Slides for .NET API 参考
-description: TextAnimation 只读ITextAnimationaspose.slides.animation/itextanimation
+description: TextAnimation 只读ITextAnimationaspose.slides.animation/itextanimation.
 type: docs
 weight: 60
 url: /zh/net/aspose.slides.animation/effect/textanimation/
 ---
 ## Effect.TextAnimation property
 
-TextAnimation 只读[`ITextAnimation`](../../itextanimation)。
+TextAnimation 只读[`ITextAnimation`](../../itextanimation).
 
 ```csharp
 public ITextAnimation TextAnimation { get; }

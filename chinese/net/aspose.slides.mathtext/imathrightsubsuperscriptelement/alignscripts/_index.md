@@ -1,14 +1,14 @@
 ---
 title: AlignScripts
 second_title: Aspose.Slides for .NET API 参考
-description: 指定下标/上标的对齐方式 当为真时下标和上标相互水平对齐 当为 false 时它们被紧缩到底部的形状 默认值为假
+description: 指定下标/上标的对齐方式 true 时下标和上标相互水平对齐 false 时它们与base 的形状紧缩 默认值为false
 type: docs
 weight: 10
 url: /zh/net/aspose.slides.mathtext/imathrightsubsuperscriptelement/alignscripts/
 ---
 ## IMathRightSubSuperscriptElement.AlignScripts property
 
-指定下标/上标的对齐方式。 当为真时，下标和上标相互水平对齐。 当为 false 时，它们被紧缩到底部的形状。 默认值为假。
+指定下标/上标的对齐方式。 true 时，下标和上标相互水平对齐。 false 时，它们与base 的形状紧缩。 默认值为false。
 
 ```csharp
 public bool AlignScripts { get; set; }
@@ -16,7 +16,7 @@ public bool AlignScripts { get; set; }
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]

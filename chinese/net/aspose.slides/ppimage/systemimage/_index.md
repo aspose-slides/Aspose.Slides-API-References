@@ -1,14 +1,14 @@
 ---
 title: SystemImage
 second_title: Aspose.Slides for .NET API 参考
-description: 返回图像的副本 只读Image
+description: 返回图像的副本 只读Image.
 type: docs
 weight: 50
 url: /zh/net/aspose.slides/ppimage/systemimage/
 ---
 ## PPImage.SystemImage property
 
-返回图像的副本。 只读Image。
+返回图像的副本。 只读Image.
 
 ```csharp
 public Image SystemImage { get; }

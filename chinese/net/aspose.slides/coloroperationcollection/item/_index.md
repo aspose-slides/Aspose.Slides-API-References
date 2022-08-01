@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置指定索引处的操作 读/写ColorOperationaspose.slides/coloroperation
+description: 返回或设置指定索引处的操作 读/写ColorOperationaspose.slides/coloroperation.
 type: docs
 weight: 30
 url: /zh/net/aspose.slides/coloroperationcollection/item/
 ---
 ## ColorOperationCollection indexer
 
-返回或设置指定索引处的操作。 读/写[`ColorOperation`](../../coloroperation)。
+返回或设置指定索引处的操作。 读/写[`ColorOperation`](../../coloroperation).
 
 ```csharp
 public IColorOperation this[int index] { get; set; }

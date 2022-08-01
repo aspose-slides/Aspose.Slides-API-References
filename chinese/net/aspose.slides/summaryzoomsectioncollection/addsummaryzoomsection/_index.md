@@ -1,14 +1,14 @@
 ---
 title: AddSummaryZoomSection
 second_title: Aspose.Slides for .NET API 参考
-description: 创建新的 Summary Zoom Section 对象并将其添加到集合
+description: 创建新的摘要缩放部分对象并将其添加到集合中
 type: docs
 weight: 50
 url: /zh/net/aspose.slides/summaryzoomsectioncollection/addsummaryzoomsection/
 ---
 ## SummaryZoomSectionCollection.AddSummaryZoomSection method
 
-创建新的 Summary Zoom Section 对象并将其添加到集合
+创建新的摘要缩放部分对象并将其添加到集合中
 
 ```csharp
 public ISummaryZoomSection AddSummaryZoomSection(ISection section)
@@ -20,21 +20,21 @@ public ISummaryZoomSection AddSummaryZoomSection(ISection section)
 
 ### 返回值
 
-添加[`ISummaryZoomFrame`](../../isummaryzoomframe)element
+添加[`ISummaryZoomFrame`](../../isummaryzoomframe)元素
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentException | 引用部分不属于当前演示文稿或不包含任何幻灯片。 |
+| ArgumentException | 引用的部分不属于当前演示文稿或不包含任何幻灯片。 |
 
 ### 评论
 
-如果集合中已存在此部分的元素，则返回现有元素。
+如果该部分的元素已存在于集合中，则返回现有元素。
 
 ### 例子
 
-该示例演示了按索引获取摘要缩放部分元素:
+该示例演示了按索引获取摘要缩放部分元素：
 
 ```csharp
 [C#]

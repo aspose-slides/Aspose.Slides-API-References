@@ -19,7 +19,7 @@ public enum MathFractionTypes
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | Bar | `1` | 条形分数 |
-| Skewed | `2` | 倾斜 |
+| Skewed | `2` | 歪斜 |
 | Linear | `3` | 线性分数 |
 | NoBar | `4` | 无杆分数（堆栈） |
 

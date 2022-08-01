@@ -1,14 +1,14 @@
 ---
 title: ExportHiddenSlides
 second_title: Aspose.Slides for .NET API 参考
-description: 确定是否导出隐藏的幻灯片
+description: 确定是否将导出隐藏的幻灯片
 type: docs
 weight: 20
 url: /zh/net/aspose.slides.export.xaml/ixamloptions/exporthiddenslides/
 ---
 ## IXamlOptions.ExportHiddenSlides property
 
-确定是否导出隐藏的幻灯片。
+确定是否将导出隐藏的幻灯片。
 
 ```csharp
 public bool ExportHiddenSlides { get; set; }

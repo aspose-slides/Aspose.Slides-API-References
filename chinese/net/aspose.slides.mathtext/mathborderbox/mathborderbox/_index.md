@@ -16,11 +16,11 @@ public MathBorderBox(IMathElement element)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| element | IMathElement | 基本元素应用了哪个边框。可以为空。 |
+| element | IMathElement | 应用边框的基本元素。可以为空。 |
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]
@@ -48,19 +48,19 @@ public MathBorderBox(IMathElement element, bool hideTop, bool hideBottom, bool h
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| element | IMathElement | 边框的基本元素应用框 |
-| hideTop | Boolean | 隐藏顶边 |
+| element | IMathElement | 应用边框的基本元素 |
+| hideTop | Boolean | 隐藏顶部边缘 |
 | hideBottom | Boolean | 隐藏底边 |
 | hideLeft | Boolean | 隐藏左边缘 |
 | hideRight | Boolean | 隐藏右边缘 |
-| 水平删除线 | Boolean | 水平删除线 |
-| strikethroughVertical | Boolean | 垂直删除线 |
-| strikethroughBottomLeftToTopRight | Boolean | 删除线左下角到右上 |
+| strikethroughHorizontal | Boolean | 水平删除线 |
+| strikethroughVertical | Boolean | 删除线垂直 |
+| strikethroughBottomLeftToTopRight | Boolean | 删除线从左下到右上角 |
 | strikethroughTopLeftToBottomRight | Boolean | 删除线从左上到右下 |
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]

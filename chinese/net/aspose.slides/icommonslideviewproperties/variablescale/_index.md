@@ -1,14 +1,14 @@
 ---
 title: VariableScale
 second_title: Aspose.Slides for .NET API 参考
-description: 指定视图内容应自动缩放以最适合当前窗口大小 读/写Boolean
+description: 指定视图内容应自动缩放以最适合当前窗口大小 读/写Boolean.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides/icommonslideviewproperties/variablescale/
 ---
 ## ICommonSlideViewProperties.VariableScale property
 
-指定视图内容应自动缩放以最适合当前窗口大小。 读/写Boolean。
+指定视图内容应自动缩放以最适合当前窗口大小。 读/写Boolean.
 
 ```csharp
 public bool VariableScale { get; set; }

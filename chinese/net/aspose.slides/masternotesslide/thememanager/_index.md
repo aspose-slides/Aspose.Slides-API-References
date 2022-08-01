@@ -1,14 +1,14 @@
 ---
 title: ThemeManager
 second_title: Aspose.Slides for .NET API 参考
-description: 返回主题管理器 只读IMasterThemeManageraspose.slides.theme/imasterthememanager
+description: 返回主题管理器 只读IMasterThemeManageraspose.slides.theme/imasterthememanager.
 type: docs
 weight: 40
 url: /zh/net/aspose.slides/masternotesslide/thememanager/
 ---
 ## MasterNotesSlide.ThemeManager property
 
-返回主题管理器。 只读[`IMasterThemeManager`](../../../aspose.slides.theme/imasterthememanager)。
+返回主题管理器。 只读[`IMasterThemeManager`](../../../aspose.slides.theme/imasterthememanager).
 
 ```csharp
 public IMasterThemeManager ThemeManager { get; }

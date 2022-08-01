@@ -18,17 +18,17 @@ public class ThreeDFormat : PVIObject, IThreeDFormat
 
 | Имя | Описание |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Позволяет получить базовый интерфейс IPresentationComponent. Только для чтения[`IPresentationComponent`](../ipresentationcomponent). |
-| [BevelBottom](../../aspose.slides/threedformat/bevelbottom) { get; } | Возвращает или задает тип нижней 3D фаски. Только для чтения[`IShapeBevel`](../ishapebevel). |
-| [BevelTop](../../aspose.slides/threedformat/beveltop) { get; } | Возвращает или задает тип верхней 3D фаски. Только для чтения[`IShapeBevel`](../ishapebevel). |
-| [Camera](../../aspose.slides/threedformat/camera) { get; } | Возвращает или устанавливает настройки камеры. Только для чтения[`ICamera`](../icamera). |
-| [ContourColor](../../aspose.slides/threedformat/contourcolor) { get; } | Возвращает или устанавливает цвет контура. Только для чтения[`IColorFormat`](../icolorformat). |
-| [ContourWidth](../../aspose.slides/threedformat/contourwidth) { get; set; } | Возвращает или задает ширину трехмерного контура. Чтение/записьDouble. |
-| [Depth](../../aspose.slides/threedformat/depth) { get; set; } | Возвращает или задает глубину трехмерной формы. Чтение/записьDouble. |
-| [ExtrusionColor](../../aspose.slides/threedformat/extrusioncolor) { get; } | Возвращает или задает цвет выдавливания. Только для чтения[`IColorFormat`](../icolorformat). |
-| [ExtrusionHeight](../../aspose.slides/threedformat/extrusionheight) { get; set; } | Возвращает или задает высоту эффекта выдавливания. Чтение/записьDouble. |
-| [LightRig](../../aspose.slides/threedformat/lightrig) { get; } | Возвращает или устанавливает тип источника света. Только для чтения[`ILightRig`](../ilightrig). |
-| [Material](../../aspose.slides/threedformat/material) { get; set; } | Возвращает или задает тип материала. Чтение/запись[`MaterialPresetType`](../materialpresettype). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Позволяет получить базовый интерфейс IPresentationComponent. Только для чтения[`IPresentationComponent`](../ipresentationcomponent) . |
+| [BevelBottom](../../aspose.slides/threedformat/bevelbottom) { get; } | Возвращает или задает тип нижней 3D фаски. Только для чтения[`IShapeBevel`](../ishapebevel) . |
+| [BevelTop](../../aspose.slides/threedformat/beveltop) { get; } | Возвращает или задает тип верхней 3D фаски. Только для чтения[`IShapeBevel`](../ishapebevel) . |
+| [Camera](../../aspose.slides/threedformat/camera) { get; } | Возвращает или задает настройки камеры. Только для чтения[`ICamera`](../icamera) . |
+| [ContourColor](../../aspose.slides/threedformat/contourcolor) { get; } | Возвращает или задает цвет контура. Только для чтения[`IColorFormat`](../icolorformat) . |
+| [ContourWidth](../../aspose.slides/threedformat/contourwidth) { get; set; } | Возвращает или задает ширину 3D-контура. Чтение/записьDouble . |
+| [Depth](../../aspose.slides/threedformat/depth) { get; set; } | Возвращает или задает глубину 3D-формы. Чтение/записьDouble . |
+| [ExtrusionColor](../../aspose.slides/threedformat/extrusioncolor) { get; } | Возвращает или задает цвет выдавливания. Только для чтения[`IColorFormat`](../icolorformat) . |
+| [ExtrusionHeight](../../aspose.slides/threedformat/extrusionheight) { get; set; } | Возвращает или задает высоту эффекта выдавливания. Чтение/записьDouble . |
+| [LightRig](../../aspose.slides/threedformat/lightrig) { get; } | Возвращает или задает тип источника света. Только для чтения[`ILightRig`](../ilightrig) . |
+| [Material](../../aspose.slides/threedformat/material) { get; set; } | Возвращает или задает тип материала. Чтение/запись[`MaterialPresetType`](../materialpresettype) . |
 
 ## Методы
 

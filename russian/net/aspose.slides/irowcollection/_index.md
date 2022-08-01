@@ -24,7 +24,7 @@ public interface IRowCollection : IGenericCollection<IRow>
 
 | Имя | Описание |
 | --- | --- |
-| [AddClone](../../aspose.slides/irowcollection/addclone)(IRow, bool) | Создает копию указанной строки шаблона и вставляет ее внизу таблицы. |
+| [AddClone](../../aspose.slides/irowcollection/addclone)(IRow, bool) | Создает копию указанной строки шаблона и вставляет ее в конец таблицы. |
 | [InsertClone](../../aspose.slides/irowcollection/insertclone)(int, IRow, bool) | Создает копию указанной строки шаблона и вставляет ее в указанную позицию в таблице. |
 | [RemoveAt](../../aspose.slides/irowcollection/removeat)(int, bool) | Удаляет строку в указанной позиции из таблицы. |
 

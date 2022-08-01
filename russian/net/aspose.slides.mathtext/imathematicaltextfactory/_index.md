@@ -18,7 +18,7 @@ public interface IMathematicalTextFactory
 
 | Имя | Описание |
 | --- | --- |
-| [CreateMathematicalText](../../aspose.slides.mathtext/imathematicaltextfactory/createmathematicaltext#createmathematicaltext)() | Создать пустой элемент математического текста |
+| [CreateMathematicalText](../../aspose.slides.mathtext/imathematicaltextfactory/createmathematicaltext#createmathematicaltext)() | Создать пустой математический текст element |
 | [CreateMathematicalText](../../aspose.slides.mathtext/imathematicaltextfactory/createmathematicaltext#createmathematicaltext_1)(char) | Создать элемент математического текста с указанным значением |
 | [CreateMathematicalText](../../aspose.slides.mathtext/imathematicaltextfactory/createmathematicaltext#createmathematicaltext_2)(string) | Создать пустой элемент математического текста с указанным значением |
 | [CreateMathematicalText](../../aspose.slides.mathtext/imathematicaltextfactory/createmathematicaltext#createmathematicaltext_3)(string, IPortionFormat) | Создать пустой элемент математического текста с указанным значением и свойствами форматирования |

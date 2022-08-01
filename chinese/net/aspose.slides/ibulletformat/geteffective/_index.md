@@ -16,11 +16,11 @@ public IBulletFormatEffectiveData GetEffective()
 
 ### 返回值
 
-A[`IBulletFormatEffectiveData`](../../ibulletformateffectivedata)。
+一个[`IBulletFormatEffectiveData`](../../ibulletformateffectivedata).
 
 ### 例子
 
-此示例演示了如何获取一些有效的项目符号格式属性。
+这个例子演示了获得一些有效的项目符号格式属性。
 
 ```csharp
 [C#]

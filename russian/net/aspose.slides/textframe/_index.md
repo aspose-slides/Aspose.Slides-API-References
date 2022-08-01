@@ -18,20 +18,20 @@ public sealed class TextFrame : ITextFrame
 
 | Имя | Описание |
 | --- | --- |
-| [HyperlinkQueries](../../aspose.slides/textframe/hyperlinkqueries) { get; } | Обеспечивает легкий доступ к содержащимся гиперссылкам. Только для чтения[`IHyperlinkQueries`](../ihyperlinkqueries). |
-| [Paragraphs](../../aspose.slides/textframe/paragraphs) { get; } | Возвращает список всех абзацев в кадре. Только для чтения[`IParagraphCollection`](../iparagraphcollection). |
-| [Presentation](../../aspose.slides/textframe/presentation) { get; } | Возвращает родительское представление TextFrame. Только чтение[`IPresentation`](../ipresentation). |
-| [Slide](../../aspose.slides/textframe/slide) { get; } | Возвращает родительский слайд TextFrame. Только для чтения[`IBaseSlide`](../ibaseslide). |
-| [Text](../../aspose.slides/textframe/text) { get; set; } | Получает или задает обычный текст для TextFrame. Чтение/записьString. |
-| [TextFrameFormat](../../aspose.slides/textframe/textframeformat) { get; } | Возвращает объект форматирования для этого объекта TextFrame. Только для чтения[`ITextFrameFormat`](../itextframeformat). |
+| [HyperlinkQueries](../../aspose.slides/textframe/hyperlinkqueries) { get; } | Обеспечивает легкий доступ к содержащимся гиперссылкам. Только для чтения[`IHyperlinkQueries`](../ihyperlinkqueries) . |
+| [Paragraphs](../../aspose.slides/textframe/paragraphs) { get; } | Возвращает список всех абзацев в кадре. Только для чтения[`IParagraphCollection`](../iparagraphcollection) . |
+| [Presentation](../../aspose.slides/textframe/presentation) { get; } | Возвращает родительское представление TextFrame. Только для чтения[`IPresentation`](../ipresentation) . |
+| [Slide](../../aspose.slides/textframe/slide) { get; } | Возвращает родительский слайд TextFrame. Только для чтения[`IBaseSlide`](../ibaseslide) . |
+| [Text](../../aspose.slides/textframe/text) { get; set; } | Получает или задает обычный текст для TextFrame. Чтение/записьString . |
+| [TextFrameFormat](../../aspose.slides/textframe/textframeformat) { get; } | Возвращает объект форматирования для этого объекта TextFrame. Только для чтения[`ITextFrameFormat`](../itextframeformat) . |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [HighlightRegex](../../aspose.slides/textframe/highlightregex)(string, Color, ITextHighlightingOptions) | Выделить все совпадения с регулярным выражением в текстовом фрейме указанным цветом. |
-| [HighlightText](../../aspose.slides/textframe/highlighttext#highlighttext)(string, Color) | Выделить все совпадения образца в текстовом фрейме указанным цветом. |
-| [HighlightText](../../aspose.slides/textframe/highlighttext#highlighttext_1)(string, Color, ITextHighlightingOptions) | Выделить все совпадения образца в текстовом фрейме указанным цветом. |
+| [HighlightRegex](../../aspose.slides/textframe/highlightregex)(string, Color, ITextHighlightingOptions) | Выделить все совпадения регулярного выражения в тексте текстового фрейма, используя указанный цвет. |
+| [HighlightText](../../aspose.slides/textframe/highlighttext#highlighttext)(string, Color) | Выделить все совпадения образца в текстовом фрейме, используя указанный цвет. |
+| [HighlightText](../../aspose.slides/textframe/highlighttext#highlighttext_1)(string, Color, ITextHighlightingOptions) | Выделить все совпадения образца в текстовом фрейме, используя указанный цвет. |
 | [JoinPortionsWithSameFormatting](../../aspose.slides/textframe/joinportionswithsameformatting)() | Соединения выполняются с одинаковым форматированием во всех абзацах. |
 
 ### Смотрите также

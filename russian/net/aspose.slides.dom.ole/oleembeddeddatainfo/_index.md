@@ -1,14 +1,14 @@
 ---
 title: OleEmbeddedDataInfo
 second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет информацию о встроенных данных для объекта OLE.
+description: Представляет информацию о внедренных данных для объекта OLE.
 type: docs
 weight: 2610
 url: /ru/net/aspose.slides.dom.ole/oleembeddeddatainfo/
 ---
 ## OleEmbeddedDataInfo class
 
-Представляет информацию о встроенных данных для объекта OLE.
+Представляет информацию о внедренных данных для объекта OLE.
 
 ```csharp
 public class OleEmbeddedDataInfo : IOleEmbeddedDataInfo
@@ -25,8 +25,8 @@ public class OleEmbeddedDataInfo : IOleEmbeddedDataInfo
 
 | Имя | Описание |
 | --- | --- |
-| [EmbeddedFileData](../../aspose.slides.dom.ole/oleembeddeddatainfo/embeddedfiledata) { get; } | Возвращает данные файла встроенного объекта OLE Только чтениеByte[]. |
-| [EmbeddedFileExtension](../../aspose.slides.dom.ole/oleembeddeddatainfo/embeddedfileextension) { get; } | Возвращает расширение файла для текущего встроенного объекта OLE Только чтениеString. |
+| [EmbeddedFileData](../../aspose.slides.dom.ole/oleembeddeddatainfo/embeddedfiledata) { get; } | Возвращает данные файла встроенного объекта OLE Только для чтенияByte []. |
+| [EmbeddedFileExtension](../../aspose.slides.dom.ole/oleembeddeddatainfo/embeddedfileextension) { get; } | Возвращает расширение файла для текущего встроенного объекта OLE Только для чтенияString . |
 
 ### Смотрите также
 

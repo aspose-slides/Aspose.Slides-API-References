@@ -1,14 +1,14 @@
 ---
 title: AddDataPointForScatterSeries
 second_title: Справочник по API Aspose.Slides для .NET
-description: Создает новую точку данных и добавляет ее в конец коллекции. Применяется для серий ChartType которых является одним из подтипов Scatter см. также метод ChartTypeCharacterizer.IsChartTypeScatterChartType.
+description: Создает новую точку данных и добавляет ее в конец коллекции. Применяется для серий тип диаграммы которых является одним из подтипов Scatter см. также метод ChartTypeCharacterizer.IsChartTypeScatterChartType.
 type: docs
 weight: 180
 url: /ru/net/aspose.slides.charts/ichartdatapointcollection/adddatapointforscatterseries/
 ---
 ## AddDataPointForScatterSeries(IChartDataCell, IChartDataCell) {#adddatapointforscatterseries}
 
-Создает новую точку данных и добавляет ее в конец коллекции. Применяется для серий, ChartType которых является одним из подтипов Scatter (см. также метод ChartTypeCharacterizer.IsChartTypeScatter(ChartType)).
+Создает новую точку данных и добавляет ее в конец коллекции. Применяется для серий, тип диаграммы которых является одним из подтипов Scatter (см. также метод ChartTypeCharacterizer.IsChartTypeScatter(ChartType)).
 
 ```csharp
 public IChartDataPoint AddDataPointForScatterSeries(IChartDataCell xValue, IChartDataCell yValue)
@@ -35,7 +35,7 @@ public IChartDataPoint AddDataPointForScatterSeries(IChartDataCell xValue, IChar
 
 ## AddDataPointForScatterSeries(double, IChartDataCell) {#adddatapointforscatterseries_2}
 
-Создает новую точку данных и добавляет ее в конец коллекции. Применяется для серий, ChartType которых является одним из подтипов Scatter (см. также метод ChartTypeCharacterizer.IsChartTypeScatter(ChartType)).
+Создает новую точку данных и добавляет ее в конец коллекции. Применяется для серий, тип диаграммы которых является одним из подтипов Scatter (см. также метод ChartTypeCharacterizer.IsChartTypeScatter(ChartType)).
 
 ```csharp
 public IChartDataPoint AddDataPointForScatterSeries(double xValue, IChartDataCell yValue)
@@ -62,7 +62,7 @@ public IChartDataPoint AddDataPointForScatterSeries(double xValue, IChartDataCel
 
 ## AddDataPointForScatterSeries(string, IChartDataCell) {#adddatapointforscatterseries_4}
 
-Создает новую точку данных и добавляет ее в конец коллекции. Применяется для серий, ChartType которых является одним из подтипов Scatter (см. также метод ChartTypeCharacterizer.IsChartTypeScatter(ChartType)).
+Создает новую точку данных и добавляет ее в конец коллекции. Применяется для серий, тип диаграммы которых является одним из подтипов Scatter (см. также метод ChartTypeCharacterizer.IsChartTypeScatter(ChartType)).
 
 ```csharp
 public IChartDataPoint AddDataPointForScatterSeries(string xValue, IChartDataCell yValue)
@@ -89,7 +89,7 @@ public IChartDataPoint AddDataPointForScatterSeries(string xValue, IChartDataCel
 
 ## AddDataPointForScatterSeries(IChartDataCell, double) {#adddatapointforscatterseries_1}
 
-Создает новую точку данных и добавляет ее в конец коллекции. Применяется для серий, ChartType которых является одним из подтипов Scatter (см. также метод ChartTypeCharacterizer.IsChartTypeScatter(ChartType)).
+Создает новую точку данных и добавляет ее в конец коллекции. Применяется для серий, тип диаграммы которых является одним из подтипов Scatter (см. также метод ChartTypeCharacterizer.IsChartTypeScatter(ChartType)).
 
 ```csharp
 public IChartDataPoint AddDataPointForScatterSeries(IChartDataCell xValue, double yValue)
@@ -116,7 +116,7 @@ public IChartDataPoint AddDataPointForScatterSeries(IChartDataCell xValue, doubl
 
 ## AddDataPointForScatterSeries(double, double) {#adddatapointforscatterseries_3}
 
-Создает новую точку данных и добавляет ее в конец коллекции. Применяется для серий, ChartType которых является одним из подтипов Scatter (см. также метод ChartTypeCharacterizer.IsChartTypeScatter(ChartType)).
+Создает новую точку данных и добавляет ее в конец коллекции. Применяется для серий, тип диаграммы которых является одним из подтипов Scatter (см. также метод ChartTypeCharacterizer.IsChartTypeScatter(ChartType)).
 
 ```csharp
 public IChartDataPoint AddDataPointForScatterSeries(double xValue, double yValue)
@@ -142,7 +142,7 @@ public IChartDataPoint AddDataPointForScatterSeries(double xValue, double yValue
 
 ## AddDataPointForScatterSeries(string, double) {#adddatapointforscatterseries_5}
 
-Создает новую точку данных и добавляет ее в конец коллекции. Применяется для серий, ChartType которых является одним из подтипов Scatter (см. также метод ChartTypeCharacterizer.IsChartTypeScatter(ChartType)).
+Создает новую точку данных и добавляет ее в конец коллекции. Применяется для серий, тип диаграммы которых является одним из подтипов Scatter (см. также метод ChartTypeCharacterizer.IsChartTypeScatter(ChartType)).
 
 ```csharp
 public IChartDataPoint AddDataPointForScatterSeries(string xValue, double yValue)

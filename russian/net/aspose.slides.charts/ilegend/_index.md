@@ -18,12 +18,12 @@ public interface ILegend : IFormattedTextContainer, ILayoutable
 
 | Имя | Описание |
 | --- | --- |
-| [AsIFormattedTextContainer](../../aspose.slides.charts/ilegend/asiformattedtextcontainer) { get; } | Позволяет получить базовый интерфейс IFormattedTextContainer. Только для чтения[`IFormattedTextContainer`](../iformattedtextcontainer). |
-| [AsILayoutable](../../aspose.slides.charts/ilegend/asilayoutable) { get; } | Позволяет получить базовый интерфейс ILayoutable. Только для чтения[`ILayoutable`](../ilayoutable). |
-| [Entries](../../aspose.slides.charts/ilegend/entries) { get; } | Получает записи легенды. Только для чтения[`ILegendEntryCollection`](../ilegendentrycollection). |
-| [Format](../../aspose.slides.charts/ilegend/format) { get; } | Возвращает формат легенды. Только для чтения[`IFormat`](../iformat). |
-| [Overlay](../../aspose.slides.charts/ilegend/overlay) { get; set; } | Определяет, разрешено ли другим элементам диаграммы перекрывать легенду. Чтение/записьBoolean. |
-| [Position](../../aspose.slides.charts/ilegend/position) { get; set; } | Указывает положение легенды на диаграмме. Значения свойств X, Y, Width, Heigt, отличные от NaN, переопределяют эффект этого свойства. Чтение/запись[`LegendPositionType`](../legendpositiontype). |
+| [AsIFormattedTextContainer](../../aspose.slides.charts/ilegend/asiformattedtextcontainer) { get; } | Позволяет получить базовый интерфейс IFormattedTextContainer. Только для чтения[`IFormattedTextContainer`](../iformattedtextcontainer) . |
+| [AsILayoutable](../../aspose.slides.charts/ilegend/asilayoutable) { get; } | Позволяет получить базовый интерфейс ILayoutable. Только для чтения[`ILayoutable`](../ilayoutable) . |
+| [Entries](../../aspose.slides.charts/ilegend/entries) { get; } | Получает записи легенды. Только для чтения[`ILegendEntryCollection`](../ilegendentrycollection) . |
+| [Format](../../aspose.slides.charts/ilegend/format) { get; } | Возвращает формат легенды. Только для чтения[`IFormat`](../iformat) . |
+| [Overlay](../../aspose.slides.charts/ilegend/overlay) { get; set; } | Определяет, разрешено ли другим элементам диаграммы перекрывать легенду. Чтение/записьBoolean . |
+| [Position](../../aspose.slides.charts/ilegend/position) { get; set; } | Указывает положение легенды на диаграмме. Значения свойств X, Y, Width, Heigt, отличные от NaN, переопределяют действие этого свойства. Чтение/запись[`LegendPositionType`](../legendpositiontype) . |
 
 ### Смотрите также
 

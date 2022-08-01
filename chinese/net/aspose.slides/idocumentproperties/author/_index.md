@@ -1,14 +1,14 @@
 ---
 title: Author
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置演示文稿的作者 读/写String
+description: 返回或设置演示文稿的作者 读/写String.
 type: docs
 weight: 30
 url: /zh/net/aspose.slides/idocumentproperties/author/
 ---
 ## IDocumentProperties.Author property
 
-返回或设置演示文稿的作者。 读/写String。
+返回或设置演示文稿的作者。 读/写String.
 
 ```csharp
 public string Author { get; set; }

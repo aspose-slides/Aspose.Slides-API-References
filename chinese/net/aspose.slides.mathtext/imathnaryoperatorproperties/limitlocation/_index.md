@@ -1,14 +1,14 @@
 ---
 title: LimitLocation
 second_title: Aspose.Slides for .NET API 参考
-description: 限制位置下标和上标
+description: 界限的位置下标和上标
 type: docs
 weight: 40
 url: /zh/net/aspose.slides.mathtext/imathnaryoperatorproperties/limitlocation/
 ---
 ## IMathNaryOperatorProperties.LimitLocation property
 
-限制位置（下标和上标）
+界限的位置（下标和上标）
 
 ```csharp
 public MathLimitLocations LimitLocation { get; set; }
@@ -16,7 +16,7 @@ public MathLimitLocations LimitLocation { get; set; }
 
 ### 例子
 
-示例
+示例：
 
 ```csharp
 [C#]

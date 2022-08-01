@@ -1,14 +1,14 @@
 ---
 title: Remove
 second_title: Aspose.Slides for .NET API 参考
-description: 从ICollection中删除特定对象的第一个匹配项
+description: 从ICollection.
 type: docs
 weight: 260
 url: /zh/net/aspose.slides.effects/imagetransformoperationcollection/remove/
 ---
 ## ImageTransformOperationCollection.Remove method
 
-从ICollection中删除特定对象的第一个匹配项。
+从ICollection.
 
 ```csharp
 public bool Remove(IImageTransformOperation item)
@@ -16,17 +16,17 @@ public bool Remove(IImageTransformOperation item)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| item | IImageTransformOperation | 要从ICollection中删除的对象. |
+| item | IImageTransformOperation | 要从中删除的对象ICollection. |
 
 ### 返回值
 
-如果*item*从:::R5 中成功删除，则为真:T:System.Collections.Generic.ICollection`1:::;否则为假。如果*item*在原始ICollection中找不到，则此方法也返回 false。
+真如果*item*已成功从ICollection;否则为假。如果此方法也返回 false*item*原版中没有找到ICollection.
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| NotSupportedException | ICollection是只读的。 |
+| NotSupportedException | 这ICollection是只读的。 |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: FullScreenMode
 second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет отображается ли видео в полноэкранном режиме. Чтение/записьBoolean.
+description: Определяет отображается ли видео в полноэкранном режиме. Чтение/записьBoolean .
 type: docs
 weight: 20
 url: /ru/net/aspose.slides/videoframe/fullscreenmode/
 ---
 ## VideoFrame.FullScreenMode property
 
-Определяет, отображается ли видео в полноэкранном режиме. Чтение/записьBoolean.
+Определяет, отображается ли видео в полноэкранном режиме. Чтение/записьBoolean .
 
 ```csharp
 public bool FullScreenMode { get; set; }

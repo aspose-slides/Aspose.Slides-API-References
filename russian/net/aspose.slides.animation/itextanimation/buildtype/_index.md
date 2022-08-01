@@ -1,14 +1,14 @@
 ---
 title: BuildType
 second_title: Справочник по API Aspose.Slides для .NET
-description: Список типов сборки для эксп. п.123 Все сразу текстовой анимации. Чтение/записьBuildTypeaspose.slides.animation/itextanimation/buildtype.
+description: Список типов сборки для упр. Пункт 123 Все сразу текстовой анимации. Чтение/записьBuildTypeaspose.slides.animation/itextanimation/buildtype .
 type: docs
 weight: 10
 url: /ru/net/aspose.slides.animation/itextanimation/buildtype/
 ---
 ## ITextAnimation.BuildType property
 
-Список типов сборки (для эксп. п.1,2,3, Все сразу) текстовой анимации. Чтение/запись`BuildType`.
+Список типов сборки (для упр. Пункт 1,2,3, Все сразу) текстовой анимации. Чтение/запись`BuildType` .
 
 ```csharp
 public BuildType BuildType { get; set; }

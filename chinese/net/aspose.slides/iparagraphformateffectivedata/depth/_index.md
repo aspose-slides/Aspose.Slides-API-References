@@ -1,14 +1,14 @@
 ---
 title: Depth
 second_title: Aspose.Slides for .NET API 参考
-description: 返回段落的深度 只读Int16
+description: 返回段落的深度 只读Int16.
 type: docs
 weight: 50
 url: /zh/net/aspose.slides/iparagraphformateffectivedata/depth/
 ---
 ## IParagraphFormatEffectiveData.Depth property
 
-返回段落的深度。 只读Int16。
+返回段落的深度。 只读Int16.
 
 ```csharp
 public short Depth { get; }

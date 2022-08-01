@@ -1,14 +1,14 @@
 ---
 title: ShowBackground
 second_title: Aspose.Slides for .NET API 参考
-description: 获取或设置指定缩放是否使用目标幻灯片背景的值 读/写Boolean 默认值true
+description: 获取或设置指定缩放是否将使用目标幻灯片的背景的值 读/写Boolean. 默认值true
 type: docs
 weight: 50
 url: /zh/net/aspose.slides/izoomobject/showbackground/
 ---
 ## IZoomObject.ShowBackground property
 
-获取或设置指定缩放是否使用目标幻灯片背景的值。 读/写Boolean。 默认值:true
+获取或设置指定缩放是否将使用目标幻灯片的背景的值。 读/写Boolean. 默认值：true
 
 ```csharp
 public bool ShowBackground { get; set; }
@@ -16,7 +16,7 @@ public bool ShowBackground { get; set; }
 
 ### 例子
 
-该示例演示了删除缩放对象图像的背景:
+该示例演示了删除缩放对象图像的背景：
 
 ```csharp
 [C#]

@@ -1,14 +1,14 @@
 ---
 title: TextBlockFormat
 second_title: Aspose.Slides for .NET API 参考
-description: TextBlockFormat 只读IChartTextBlockFormataspose.slides.charts/icharttextblockformat
+description: TextBlockFormat. 只读IChartTextBlockFormataspose.slides.charts/icharttextblockformat.
 type: docs
 weight: 30
 url: /zh/net/aspose.slides.charts/charttextformat/textblockformat/
 ---
 ## ChartTextFormat.TextBlockFormat property
 
-TextBlockFormat。 只读[`IChartTextBlockFormat`](../../icharttextblockformat)。
+TextBlockFormat. 只读[`IChartTextBlockFormat`](../../icharttextblockformat).
 
 ```csharp
 public IChartTextBlockFormat TextBlockFormat { get; }

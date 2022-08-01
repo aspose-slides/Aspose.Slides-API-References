@@ -1,14 +1,14 @@
 ---
 title: IFontFallBackRule
 second_title: Aspose.Slides for .NET API 参考
-description: 表示字体回退规则
+description: 代表字体回退规则
 type: docs
 weight: 5320
 url: /zh/net/aspose.slides/ifontfallbackrule/
 ---
 ## IFontFallBackRule interface
 
-表示字体回退规则
+代表字体回退规则
 
 ```csharp
 public interface IFontFallBackRule
@@ -31,7 +31,7 @@ public interface IFontFallBackRule
 | [AddFallBackFonts](../../aspose.slides/ifontfallbackrule/addfallbackfonts#addfallbackfonts_1)(string[]) | 将新字体添加到后备字体列表中。 |
 | [Clear](../../aspose.slides/ifontfallbackrule/clear)() | 从列表中删除所有字体。 |
 | [IndexOf](../../aspose.slides/ifontfallbackrule/indexof)(string) | 返回集合中指定规则的索引。 |
-| [Remove](../../aspose.slides/ifontfallbackrule/remove)(string) | 从列表中删除第一次出现的特定 FallBack 字体。 |
+| [Remove](../../aspose.slides/ifontfallbackrule/remove)(string) | 从列表中删除第一次出现的特定后备字体。 |
 | [RemoveAt](../../aspose.slides/ifontfallbackrule/removeat)(int) | 删除列表指定索引处的 FallBack 字体。 |
 | [ToArray](../../aspose.slides/ifontfallbackrule/toarray#toarray)() | 创建并返回一个包含此规则的所有后备字体的数组。 |
 | [ToArray](../../aspose.slides/ifontfallbackrule/toarray#toarray_1)(int, int) | 创建并返回一个数组，其中包含列表中指定范围内的所有后备字体。 |

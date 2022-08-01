@@ -1,14 +1,14 @@
 ---
 title: ProofDisabled
 second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет нужно ли проверять текст. Только чтениеBoolean.
+description: Определяет следует ли проверять текст. Только для чтенияBoolean .
 type: docs
 weight: 200
 url: /ru/net/aspose.slides/ibaseportionformateffectivedata/proofdisabled/
 ---
 ## IBasePortionFormatEffectiveData.ProofDisabled property
 
-Определяет, нужно ли проверять текст. Только чтениеBoolean.
+Определяет, следует ли проверять текст. Только для чтенияBoolean .
 
 ```csharp
 public bool ProofDisabled { get; }

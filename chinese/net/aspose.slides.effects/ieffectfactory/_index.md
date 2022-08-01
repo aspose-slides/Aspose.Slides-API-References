@@ -18,14 +18,14 @@ public interface IEffectFactory
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ImageTransformOperationFactory](../../aspose.slides.effects/ieffectfactory/imagetransformoperationfactory) { get; } | 返回 ImageTransformOperationFactory。 只读[`IImageTransformOperationFactory`](../iimagetransformoperationfactory)。 |
+| [ImageTransformOperationFactory](../../aspose.slides.effects/ieffectfactory/imagetransformoperationfactory) { get; } | 返回 ImageTransformOperationFactory. 只读[`IImageTransformOperationFactory`](../iimagetransformoperationfactory). |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
 | [CreateGlow](../../aspose.slides.effects/ieffectfactory/createglow)() | 创建发光效果。 |
-| [CreateInnerShadow](../../aspose.slides.effects/ieffectfactory/createinnershadow)() | 创建内阴影效果。 |
+| [CreateInnerShadow](../../aspose.slides.effects/ieffectfactory/createinnershadow)() | 创建内部阴影效果。 |
 | [CreateOuterShadow](../../aspose.slides.effects/ieffectfactory/createoutershadow)() | 创建外阴影效果。 |
 | [CreatePresetShadow](../../aspose.slides.effects/ieffectfactory/createpresetshadow)() | 创建预设阴影效果。 |
 | [CreateReflection](../../aspose.slides.effects/ieffectfactory/createreflection)() | 创建反射效果。 |
@@ -33,7 +33,7 @@ public interface IEffectFactory
 
 ### 评论
 
-为了 COM 兼容性。
+用于 COM 兼容性。
 
 ### 也可以看看
 

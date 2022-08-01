@@ -18,10 +18,10 @@ public interface ISlidesPicture : ISlideComponent
 
 | Имя | Описание |
 | --- | --- |
-| [AsISlideComponent](../../aspose.slides/islidespicture/asislidecomponent) { get; } | Позволяет получить базовый интерфейс ISlideComponent. Только для чтения[`ISlideComponent`](../islidecomponent). |
-| [Image](../../aspose.slides/islidespicture/image) { get; set; } | Возвращает или устанавливает встроенное изображение. Чтение/запись[`IPPImage`](../ippimage). |
-| [ImageTransform](../../aspose.slides/islidespicture/imagetransform) { get; } | Возвращает набор эффектов преобразования изображения. Только для чтения[`IImageTransformOperationCollection`](../../aspose.slides.effects/iimagetransformoperationcollection). |
-| [LinkPathLong](../../aspose.slides/islidespicture/linkpathlong) { get; set; } | Возвращает наборы URL связанного изображения. Чтение/записьString. |
+| [AsISlideComponent](../../aspose.slides/islidespicture/asislidecomponent) { get; } | Позволяет получить базовый интерфейс ISlideComponent. Только для чтения[`ISlideComponent`](../islidecomponent) . |
+| [Image](../../aspose.slides/islidespicture/image) { get; set; } | Возвращает или устанавливает встроенное изображение. Чтение/запись[`IPPImage`](../ippimage) . |
+| [ImageTransform](../../aspose.slides/islidespicture/imagetransform) { get; } | Возвращает набор эффектов преобразования изображения. Только для чтения[`IImageTransformOperationCollection`](../../aspose.slides.effects/iimagetransformoperationcollection) . |
+| [LinkPathLong](../../aspose.slides/islidespicture/linkpathlong) { get; set; } | Возвращает наборы URL-адреса связанного изображения. Чтение/записьString . |
 
 ### Смотрите также
 

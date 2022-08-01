@@ -1,14 +1,14 @@
 ---
 title: DrawSlidesFrame
 second_title: Aspose.Slides for .NET API 参考
-description: True 在每张幻灯片周围绘制黑框 读/写Boolean
+description: True 在每张幻灯片周围绘制黑框 读/写Boolean.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides.export/xpsoptions/drawslidesframe/
 ---
 ## XpsOptions.DrawSlidesFrame property
 
-True 在每张幻灯片周围绘制黑框。 读/写Boolean。
+True 在每张幻灯片周围绘制黑框。 读/写Boolean.
 
 ```csharp
 public bool DrawSlidesFrame { get; set; }
@@ -16,7 +16,7 @@ public bool DrawSlidesFrame { get; set; }
 
 ### 评论
 
-默认为 **false** 。
+默认为 **错误的**.
 
 ### 也可以看看
 

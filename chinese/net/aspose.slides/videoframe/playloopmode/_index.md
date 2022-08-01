@@ -1,14 +1,14 @@
 ---
 title: PlayLoopMode
 second_title: Aspose.Slides for .NET API 参考
-description: 确定视频是否循环播放 读/写Boolean
+description: 确定视频是否循环播放 读/写Boolean.
 type: docs
 weight: 50
 url: /zh/net/aspose.slides/videoframe/playloopmode/
 ---
 ## VideoFrame.PlayLoopMode property
 
-确定视频是否循环播放。 读/写Boolean。
+确定视频是否循环播放。 读/写Boolean.
 
 ```csharp
 public bool PlayLoopMode { get; set; }

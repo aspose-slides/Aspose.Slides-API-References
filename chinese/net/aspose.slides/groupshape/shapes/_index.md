@@ -1,14 +1,14 @@
 ---
 title: Shapes
 second_title: Aspose.Slides for .NET API 参考
-description: 返回组内形状的集合 只读IShapeCollectionaspose.slides/ishapecollection
+description: 返回组内形状的集合 只读IShapeCollectionaspose.slides/ishapecollection.
 type: docs
 weight: 50
 url: /zh/net/aspose.slides/groupshape/shapes/
 ---
 ## GroupShape.Shapes property
 
-返回组内形状的集合。 只读[`IShapeCollection`](../../ishapecollection)。
+返回组内形状的集合。 只读[`IShapeCollection`](../../ishapecollection).
 
 ```csharp
 public IShapeCollection Shapes { get; }

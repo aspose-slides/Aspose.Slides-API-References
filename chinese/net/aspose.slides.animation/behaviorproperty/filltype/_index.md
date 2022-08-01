@@ -1,14 +1,14 @@
 ---
 title: FillType
 second_title: Aspose.Slides for .NET API 参考
-description: 表示 fill.type 属性
+description: 代表 fill.type 属性
 type: docs
 weight: 390
 url: /zh/net/aspose.slides.animation/behaviorproperty/filltype/
 ---
 ## BehaviorProperty.FillType property
 
-表示 'fill.type' 属性
+代表 'fill.type' 属性
 
 ```csharp
 public static BehaviorProperty FillType { get; }

@@ -1,14 +1,14 @@
 ---
 title: TextFormat
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает формат текста диаграммы. Только чтениеIChartTextFormataspose.slides.charts/icharttextformat.
+description: Возвращает формат текста диаграммы. Только для чтенияIChartTextFormataspose.slides.charts/icharttextformat .
 type: docs
 weight: 160
 url: /ru/net/aspose.slides.charts/datalabelformat/textformat/
 ---
 ## DataLabelFormat.TextFormat property
 
-Возвращает формат текста диаграммы. Только чтение[`IChartTextFormat`](../../icharttextformat).
+Возвращает формат текста диаграммы. Только для чтения[`IChartTextFormat`](../../icharttextformat) .
 
 ```csharp
 public IChartTextFormat TextFormat { get; }

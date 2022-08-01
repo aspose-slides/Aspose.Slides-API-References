@@ -25,9 +25,9 @@ public class FontSubstRule : IFontSubstRule
 
 | Имя | Описание |
 | --- | --- |
-| [DestFont](../../aspose.slides/fontsubstrule/destfont) { get; } | Шрифт для подстановки. Только для чтения[`IFontData`](../ifontdata). |
-| [ReplaceFontCondition](../../aspose.slides/fontsubstrule/replacefontcondition) { get; } | Правило применения замены. Только для чтения[`FontSubstCondition`](../fontsubstcondition). |
-| [SourceFont](../../aspose.slides/fontsubstrule/sourcefont) { get; } | Шрифт для подстановки. Только для чтения[`IFontData`](../ifontdata). |
+| [DestFont](../../aspose.slides/fontsubstrule/destfont) { get; } | Шрифт для замены. Только для чтения[`IFontData`](../ifontdata) . |
+| [ReplaceFontCondition](../../aspose.slides/fontsubstrule/replacefontcondition) { get; } | Правило для замены. Только для чтения[`FontSubstCondition`](../fontsubstcondition) . |
+| [SourceFont](../../aspose.slides/fontsubstrule/sourcefont) { get; } | Шрифт для замены. Только для чтения[`IFontData`](../ifontdata) . |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: HyperlinkClick
 second_title: Aspose.Slides for .NET API 参考
-description: 返回为鼠标单击定义的超链接 只读IHyperlinkaspose.slides/ihyperlink
+description: 返回为鼠标单击定义的超链接 只读IHyperlinkaspose.slides/ihyperlink.
 type: docs
 weight: 30
 url: /zh/net/aspose.slides/iportionformateffectivedata/hyperlinkclick/
 ---
 ## IPortionFormatEffectiveData.HyperlinkClick property
 
-返回为鼠标单击定义的超链接。 只读[`IHyperlink`](../../ihyperlink)。
+返回为鼠标单击定义的超链接。 只读[`IHyperlink`](../../ihyperlink).
 
 ```csharp
 public IHyperlink HyperlinkClick { get; }

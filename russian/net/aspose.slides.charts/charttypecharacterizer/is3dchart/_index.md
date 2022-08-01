@@ -1,14 +1,14 @@
 ---
 title: Is3DChart
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает true еслиchartTypeявляется одним из типов трехмерных диаграмм.
+description: Вернуть true еслиchartType является одним из типов трехмерных диаграмм.
 type: docs
 weight: 30
 url: /ru/net/aspose.slides.charts/charttypecharacterizer/is3dchart/
 ---
 ## ChartTypeCharacterizer.Is3DChart method
 
-Возвращает true, если*chartType*является одним из типов трехмерных диаграмм.
+Вернуть true, если*chartType* является одним из типов трехмерных диаграмм.
 
 ```csharp
 public static bool Is3DChart(ChartType chartType)

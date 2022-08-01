@@ -1,14 +1,14 @@
 ---
 title: KeepTextFlat
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или устанавливает полное удаление текста из 3D-сцены. Чтение/записьBoolean.
+description: Возвращает или устанавливает полное удаление текста из 3D-сцены. Чтение/записьBoolean .
 type: docs
 weight: 60
 url: /ru/net/aspose.slides/itextframeformat/keeptextflat/
 ---
 ## ITextFrameFormat.KeepTextFlat property
 
-Возвращает или устанавливает полное удаление текста из 3D-сцены. Чтение/записьBoolean.
+Возвращает или устанавливает полное удаление текста из 3D-сцены. Чтение/записьBoolean .
 
 ```csharp
 public bool KeepTextFlat { get; set; }

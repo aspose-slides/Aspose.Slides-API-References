@@ -1,14 +1,14 @@
 ---
 title: HideAtShowing
 second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет скрыт ли видеокадр. Чтение/записьBoolean.
+description: Определяет скрыт ли видеокадр. Чтение/записьBoolean .
 type: docs
 weight: 40
 url: /ru/net/aspose.slides/ivideoframe/hideatshowing/
 ---
 ## IVideoFrame.HideAtShowing property
 
-Определяет, скрыт ли видеокадр. Чтение/записьBoolean.
+Определяет, скрыт ли видеокадр. Чтение/записьBoolean .
 
 ```csharp
 public bool HideAtShowing { get; set; }

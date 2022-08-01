@@ -1,14 +1,14 @@
 ---
 title: FontSubstRuleList
 second_title: Aspose.Slides for .NET API 参考
-description: 渲染时使用的字体替换 读/写IFontSubstRuleCollectionaspose.slides/ifontsubstrulecollection
+description: 渲染时使用的字体替换 读/写IFontSubstRuleCollectionaspose.slides/ifontsubstrulecollection.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides/fontsmanager/fontsubstrulelist/
 ---
 ## FontsManager.FontSubstRuleList property
 
-渲染时使用的字体替换。 读/写[`IFontSubstRuleCollection`](../../ifontsubstrulecollection)。
+渲染时使用的字体替换。 读/写[`IFontSubstRuleCollection`](../../ifontsubstrulecollection).
 
 ```csharp
 public IFontSubstRuleCollection FontSubstRuleList { get; set; }

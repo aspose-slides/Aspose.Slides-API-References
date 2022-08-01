@@ -18,13 +18,13 @@ public interface IStreamWrapper : IDisposable
 
 | Имя | Описание |
 | --- | --- |
-| [AsIDisposable](../../aspose.slides/istreamwrapper/asidisposable) { get; } | Позволяет получить базовый интерфейс IDisposable. Только для чтенияIDisposable. |
-| [CanRead](../../aspose.slides/istreamwrapper/canread) { get; } | Получает значение, указывающее, поддерживает ли текущий поток чтение. Только чтениеBoolean. |
-| [CanSeek](../../aspose.slides/istreamwrapper/canseek) { get; } | Получает значение, указывающее, поддерживает ли текущий поток поиск. Только чтениеBoolean. |
-| [CanWrite](../../aspose.slides/istreamwrapper/canwrite) { get; } | Получает значение, указывающее, поддерживает ли текущий поток запись. Только чтениеBoolean. |
-| [Length](../../aspose.slides/istreamwrapper/length) { get; } | Получает длину потока в байтах. Только для чтенияInt64. |
-| [Position](../../aspose.slides/istreamwrapper/position) { get; } | Получает позицию в текущем потоке. Только для чтенияInt64. |
-| [Stream](../../aspose.slides/istreamwrapper/stream) { get; } | Получает поток. Только чтениеStream. |
+| [AsIDisposable](../../aspose.slides/istreamwrapper/asidisposable) { get; } | Позволяет получить базовый интерфейс IDisposable. Только для чтенияIDisposable . |
+| [CanRead](../../aspose.slides/istreamwrapper/canread) { get; } | Получает значение, указывающее, поддерживает ли текущий поток чтение. Только для чтенияBoolean . |
+| [CanSeek](../../aspose.slides/istreamwrapper/canseek) { get; } | Получает значение, указывающее, поддерживает ли текущий поток поиск. Только для чтенияBoolean . |
+| [CanWrite](../../aspose.slides/istreamwrapper/canwrite) { get; } | Получает значение, указывающее, поддерживает ли текущий поток запись. Только для чтенияBoolean . |
+| [Length](../../aspose.slides/istreamwrapper/length) { get; } | Получает длину потока в байтах. Только для чтенияInt64 . |
+| [Position](../../aspose.slides/istreamwrapper/position) { get; } | Получает позицию в текущем потоке. Только для чтенияInt64 . |
+| [Stream](../../aspose.slides/istreamwrapper/stream) { get; } | Получает поток. Только для чтенияStream . |
 
 ## Методы
 

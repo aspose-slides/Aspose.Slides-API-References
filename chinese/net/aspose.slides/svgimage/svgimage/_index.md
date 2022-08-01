@@ -16,7 +16,7 @@ public SvgImage(byte[] data)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| data | Byte[] | Svg 数据。 |
+| data | Byte[] | SVG数据。 |
 
 ### 也可以看看
 
@@ -36,7 +36,7 @@ public SvgImage(string svgContent)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| svgContent | String | Svg 内容。 |
+| svgContent | String | SVG 内容。 |
 
 ### 也可以看看
 
@@ -56,7 +56,7 @@ public SvgImage(Stream stream)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| stream | Stream | Svg 流。 |
+| stream | Stream | SVG流。 |
 
 ### 也可以看看
 
@@ -76,7 +76,7 @@ public SvgImage(byte[] data, IExternalResourceResolver externalResResolver, stri
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| data | Byte[] | Svg 数据。 |
+| data | Byte[] | SVG数据。 |
 | externalResResolver | IExternalResourceResolver | 用于获取外部对象的回调对象。如果此参数为 null，则所有外部对象都将被忽略。 |
 | baseUri | String | 指定 Svg 的基本 URI。用于解析相对链接。 |
 
@@ -99,7 +99,7 @@ public SvgImage(string svgContent, IExternalResourceResolver externalResResolver
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| svgContent | String | Svg 内容。 |
+| svgContent | String | SVG 内容。 |
 | externalResResolver | IExternalResourceResolver | 用于获取外部对象的回调对象。如果此参数为 null，则所有外部对象都将被忽略。 |
 | baseUri | String | 指定 Svg 的基本 URI。用于解析相对链接。 |
 
@@ -122,7 +122,7 @@ public SvgImage(Stream stream, IExternalResourceResolver externalResResolver, st
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| stream | Stream | Svg 流。 |
+| stream | Stream | SVG流。 |
 | externalResResolver | IExternalResourceResolver | 用于获取外部对象的回调对象。如果此参数为 null，则所有外部对象都将被忽略。 |
 | baseUri | String | 指定 Svg 的基本 URI。用于解析相对链接。 |
 

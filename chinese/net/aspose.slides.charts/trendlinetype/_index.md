@@ -1,14 +1,14 @@
 ---
 title: TrendlineType
 second_title: Aspose.Slides for .NET API 参考
-description: 表示趋势线的类型
+description: 代表趋势线的类型
 type: docs
 weight: 2350
 url: /zh/net/aspose.slides.charts/trendlinetype/
 ---
 ## TrendlineType enumeration
 
-表示趋势线的类型
+代表趋势线的类型
 
 ```csharp
 public enum TrendlineType
@@ -22,7 +22,7 @@ public enum TrendlineType
 | Linear | `1` | 指定趋势线应为表格中的一条线。 |
 | Logarithmic | `2` | 指定趋势线应为形式的对数曲线，其中 log 为自然对数。 |
 | MovingAverage | `3` | 指定趋势线应为周期的移动平均线。 |
-| Polynomial | `4` | 指定趋势线应为Order形式的多项式曲线。 |
+| Polynomial | `4` | 指定趋势线应为形式Order 的多项式曲线。 |
 | Power | `5` | 指定趋势线应为幂曲线形式。 |
 
 ### 也可以看看

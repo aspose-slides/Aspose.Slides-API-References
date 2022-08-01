@@ -1,14 +1,14 @@
 ---
 title: AsIDisposable
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает интерфейс IDisposable. Только для чтенияIDisposable.
+description: Возвращает интерфейс IDisposable. Только для чтенияIDisposable .
 type: docs
 weight: 10
 url: /ru/net/aspose.slides/iimagewrapper/asidisposable/
 ---
 ## IImageWrapper.AsIDisposable property
 
-Возвращает интерфейс IDisposable. Только для чтенияIDisposable.
+Возвращает интерфейс IDisposable. Только для чтенияIDisposable .
 
 ```csharp
 public IDisposable AsIDisposable { get; }

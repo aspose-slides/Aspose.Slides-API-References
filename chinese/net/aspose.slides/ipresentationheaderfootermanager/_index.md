@@ -1,14 +1,14 @@
 ---
 title: IPresentationHeaderFooterManager
 second_title: Aspose.Slides for .NET API 参考
-description: 表示管理器它保存所有页脚日期时间和页码占位符的行为
+description: 代表管理器它保存所有页脚日期时间和页码占位符的行为
 type: docs
 weight: 6220
 url: /zh/net/aspose.slides/ipresentationheaderfootermanager/
 ---
 ## IPresentationHeaderFooterManager interface
 
-表示管理器，它保存所有页脚、日期时间和页码占位符的行为。
+代表管理器，它保存所有页脚、日期时间和页码占位符的行为。
 
 ```csharp
 public interface IPresentationHeaderFooterManager : IBaseHeaderFooterManager
@@ -31,7 +31,7 @@ public interface IPresentationHeaderFooterManager : IBaseHeaderFooterManager
 | [SetAllHeadersText](../../aspose.slides/ipresentationheaderfootermanager/setallheaderstext)(string) | 为所有标题占位符设置文本，包括笔记母版、笔记幻灯片和讲义母版。 |
 | [SetAllHeadersVisibility](../../aspose.slides/ipresentationheaderfootermanager/setallheadersvisibility)(bool) | 更改所有标题占位符的可见性，包括笔记母版、笔记幻灯片和讲义母版。 |
 | [SetAllSlideNumbersVisibility](../../aspose.slides/ipresentationheaderfootermanager/setallslidenumbersvisibility)(bool) | 更改所有页码占位符的可见性，包括母版幻灯片、布局幻灯片和幻灯片。 |
-| [SetVisibilityOnAllTitleSlides](../../aspose.slides/ipresentationheaderfootermanager/setvisibilityonalltitleslides)(bool) | 更改所有标题幻灯片和第一张布局幻灯片的页脚、日期时间和页码占位符可见性。 标题幻灯片 – 基于第一个布局幻灯片的幻灯片（无论第一个布局的类型如何）。 |
+| [SetVisibilityOnAllTitleSlides](../../aspose.slides/ipresentationheaderfootermanager/setvisibilityonalltitleslides)(bool) | 更改所有标题幻灯片和第一个布局幻灯片的页脚、日期时间和页码占位符的可见性。 标题幻灯片 - 基于第一个布局幻灯片的幻灯片（不管第一个布局的类型）。 |
 
 ### 也可以看看
 

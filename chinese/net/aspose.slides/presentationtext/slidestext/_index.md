@@ -1,14 +1,14 @@
 ---
 title: SlidesText
 second_title: Aspose.Slides for .NET API 参考
-description: SlideTextaspose.slides/islidetext 的数组包含演示文稿的文本
+description: 一个数组幻灯片文本aspose.slides/islidetext包含演示文稿的文本
 type: docs
 weight: 10
 url: /zh/net/aspose.slides/presentationtext/slidestext/
 ---
 ## PresentationText.SlidesText property
 
-[`SlideText`](../../islidetext) 的数组包含演示文稿的文本。
+一个数组[`幻灯片文本`](../../islidetext)包含演示文稿的文本。
 
 ```csharp
 public ISlideText[] SlidesText { get; }

@@ -1,14 +1,14 @@
 ---
 title: Write
 second_title: Aspose.Slides for .NET API 参考
-description: 将字节序列写入当前流并将该流中的当前位置前进写入的字节数
+description: 将字节序列写入当前流并将该流中的当前位置提前写入的字节数
 type: docs
 weight: 140
 url: /zh/net/aspose.slides/streamwrapper/write/
 ---
 ## StreamWrapper.Write method
 
-将字节序列写入当前流，并将该流中的当前位置前进写入的字节数。
+将字节序列写入当前流，并将该流中的当前位置提前写入的字节数。
 
 ```csharp
 public void Write(byte[] buffer, int offset, int count)

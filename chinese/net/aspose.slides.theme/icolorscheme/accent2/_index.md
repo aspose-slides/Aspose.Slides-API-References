@@ -1,14 +1,14 @@
 ---
 title: Accent2
 second_title: Aspose.Slides for .NET API 参考
-description: 方案中的第二个强调色 只读IColorFormataspose.slides/icolorformat
+description: 方案中的第二个强调色 只读IColorFormataspose.slides/icolorformat.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides.theme/icolorscheme/accent2/
 ---
 ## IColorScheme.Accent2 property
 
-方案中的第二个强调色。 只读[`IColorFormat`](../../../aspose.slides/icolorformat)。
+方案中的第二个强调色。 只读[`IColorFormat`](../../../aspose.slides/icolorformat).
 
 ```csharp
 public IColorFormat Accent2 { get; }

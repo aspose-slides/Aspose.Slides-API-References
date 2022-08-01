@@ -1,14 +1,14 @@
 ---
 title: CreateMathFraction
 second_title: Aspose.Slides for .NET API 参考
-description: 创建数学分数
+description: 创建一个数学分数
 type: docs
 weight: 20
 url: /zh/net/aspose.slides.mathtext/mathfractionfactory/createmathfraction/
 ---
 ## CreateMathFraction(IMathElement, IMathElement, MathFractionTypes) {#createmathfraction_1}
 
-创建数学分数
+创建一个数学分数
 
 ```csharp
 public IMathFraction CreateMathFraction(IMathElement numerator, IMathElement denominator, 
@@ -17,8 +17,8 @@ public IMathFraction CreateMathFraction(IMathElement numerator, IMathElement den
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| numerator | IMathElement | Numerator |
-| 分母 | IMathElement | 分母 |
+| numerator | IMathElement | 分子 |
+| denominator | IMathElement | 分母 |
 | fractionType | MathFractionTypes | 分数类型 |
 
 ### 也可以看看
@@ -34,7 +34,7 @@ public IMathFraction CreateMathFraction(IMathElement numerator, IMathElement den
 
 ## CreateMathFraction(IMathElement, IMathElement) {#createmathfraction}
 
-创建数学分数
+创建一个数学分数
 
 ```csharp
 public IMathFraction CreateMathFraction(IMathElement numerator, IMathElement denominator)
@@ -42,8 +42,8 @@ public IMathFraction CreateMathFraction(IMathElement numerator, IMathElement den
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| numerator | IMathElement | Numerator |
-| 分母 | IMathElement | 分母 |
+| numerator | IMathElement | 分子 |
+| denominator | IMathElement | 分母 |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: MasterNotesSlideManager
 second_title: Aspose.Slides for .NET API 参考
-description: 返回笔记主管理器 只读IMasterNotesSlideManageraspose.slides/imasternotesslidemanager
+description: 返回注释主管理器 只读IMasterNotesSlideManageraspose.slides/imasternotesslidemanager.
 type: docs
 weight: 170
 url: /zh/net/aspose.slides/presentation/masternotesslidemanager/
 ---
 ## Presentation.MasterNotesSlideManager property
 
-返回笔记主管理器。 只读[`IMasterNotesSlideManager`](../../imasternotesslidemanager)。
+返回注释主管理器。 只读[`IMasterNotesSlideManager`](../../imasternotesslidemanager).
 
 ```csharp
 public IMasterNotesSlideManager MasterNotesSlideManager { get; }

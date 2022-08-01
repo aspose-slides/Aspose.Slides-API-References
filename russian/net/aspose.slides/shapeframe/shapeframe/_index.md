@@ -1,14 +1,14 @@
 ---
 title: ShapeFrame
 second_title: Справочник по API Aspose.Slides для .NET
-description: Создает свойства нового фрейма формы.
+description: Создает новые свойства рамки формы.
 type: docs
 weight: 10
 url: /ru/net/aspose.slides/shapeframe/shapeframe/
 ---
 ## ShapeFrame constructor
 
-Создает свойства нового фрейма формы.
+Создает новые свойства рамки формы.
 
 ```csharp
 public ShapeFrame(float x, float y, float width, float height, NullableBool flipH, 
@@ -18,12 +18,12 @@ public ShapeFrame(float x, float y, float width, float height, NullableBool flip
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | x | Single | X координата кадра. |
-| y | Single | Y координата кадра. |
-| width | Single | Ширина кадра. |
-| height | Single | Высота кадра. |
-| flipH | NullableBool | Истинно, если кадр переворачивается по горизонтали. |
-| flipV | NullableBool | Истинно, если кадр переворачивается по вертикали. |
-| rotationAngle | Single | Количество градусов, на которое повернут кадр. |
+| y | Single | Координата Y кадра. |
+| width | Single | Ширина рамы. |
+| height | Single | Высота рамы. |
+| flipH | NullableBool | Истинно, если кадр перевернут горизонтально. |
+| flipV | NullableBool | Истинно, если кадр перевернут по вертикали. |
+| rotationAngle | Single | Количество градусов, на которое поворачивается кадр. |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: Value
 second_title: Aspose.Slides for .NET API 参考
-description: 幻灯片放映过渡值 只读ITransitionValueBaseaspose.slides.slideshow/itransitionvaluebase
+description: 幻灯片放映过渡值 只读ITransitionValueBaseaspose.slides.slideshow/itransitionvaluebase.
 type: docs
 weight: 100
 url: /zh/net/aspose.slides.slideshow/slideshowtransition/value/
 ---
 ## SlideShowTransition.Value property
 
-幻灯片放映过渡值。 只读[`ITransitionValueBase`](../../itransitionvaluebase)。
+幻灯片放映过渡值。 只读[`ITransitionValueBase`](../../itransitionvaluebase).
 
 ```csharp
 public ITransitionValueBase Value { get; }

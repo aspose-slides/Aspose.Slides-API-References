@@ -1,14 +1,14 @@
 ---
 title: AsIDisposable
 second_title: Справочник по API Aspose.Slides для .NET
-description: Позволяет получить базовый интерфейс IDisposable. Только для чтенияIDisposable.
+description: Позволяет получить базовый интерфейс IDisposable. Только для чтенияIDisposable .
 type: docs
 weight: 10
 url: /ru/net/aspose.slides/streamwrapper/asidisposable/
 ---
 ## StreamWrapper.AsIDisposable property
 
-Позволяет получить базовый интерфейс IDisposable. Только для чтенияIDisposable.
+Позволяет получить базовый интерфейс IDisposable. Только для чтенияIDisposable .
 
 ```csharp
 public IDisposable AsIDisposable { get; }

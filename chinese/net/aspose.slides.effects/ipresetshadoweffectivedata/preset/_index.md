@@ -1,14 +1,14 @@
 ---
 title: Preset
 second_title: Aspose.Slides for .NET API 参考
-description: 预设 只读PresetShadowTypeaspose.slides/presetshadowtype
+description: 预设 只读PresetShadowTypeaspose.slides/presetshadowtype.
 type: docs
 weight: 40
 url: /zh/net/aspose.slides.effects/ipresetshadoweffectivedata/preset/
 ---
 ## IPresetShadowEffectiveData.Preset property
 
-预设。 只读[`PresetShadowType`](../../../aspose.slides/presetshadowtype)。
+预设。 只读[`PresetShadowType`](../../../aspose.slides/presetshadowtype).
 
 ```csharp
 public PresetShadowType Preset { get; }

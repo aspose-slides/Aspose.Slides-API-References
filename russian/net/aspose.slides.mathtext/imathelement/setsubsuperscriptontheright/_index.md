@@ -18,7 +18,7 @@ public IMathRightSubSuperscriptElement SetSubSuperscriptOnTheRight(IMathElement 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | subscript | IMathElement | Нижний индекс (нижний индекс справа) |
-| верхнийиндекс | IMathElement | Верхний индекс (верхний индекс справа) |
+| superscript | IMathElement | Верхний индекс (верхний индекс справа) |
 
 ### Возвращаемое значение
 
@@ -57,7 +57,7 @@ public IMathRightSubSuperscriptElement SetSubSuperscriptOnTheRight(string subscr
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | subscript | String | Нижний индекс (нижний индекс справа) |
-| верхнийиндекс | String | Верхний индекс (верхний индекс справа) |
+| superscript | String | Верхний индекс (верхний индекс справа) |
 
 ### Возвращаемое значение
 

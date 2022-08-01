@@ -8,7 +8,7 @@ url: /ru/net/aspose.slides.animation/behaviorproperty/extrusionorientationz/
 ---
 ## BehaviorProperty.ExtrusionOrientationZ property
 
-Представляет свойство 'extrusion.orientation.z'
+Представляет свойство «extrusion.orientation.z»
 
 ```csharp
 public static BehaviorProperty ExtrusionOrientationZ { get; }

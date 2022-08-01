@@ -33,17 +33,17 @@ public sealed class GeometryPath : IGeometryPath
 | 姓名 | 描述 |
 | --- | --- |
 | [ArcTo](../../aspose.slides/geometrypath/arcto)(float, float, float, float) | 将指定的弧附加到路径。 |
-| [CloseFigure](../../aspose.slides/geometrypath/closefigure)() | 关闭当前路径 |
+| [CloseFigure](../../aspose.slides/geometrypath/closefigure)() | 关闭此路径的当前图形 |
 | [CubicBezierTo](../../aspose.slides/geometrypath/cubicbezierto#cubicbezierto_2)(PointF, PointF, PointF) | 在路径末尾添加三次贝塞尔曲线 |
 | [CubicBezierTo](../../aspose.slides/geometrypath/cubicbezierto#cubicbezierto_3)(PointF, PointF, PointF, uint) | 将三次贝塞尔曲线添加到路径的指定位置 |
 | [CubicBezierTo](../../aspose.slides/geometrypath/cubicbezierto#cubicbezierto)(float, float, float, float, float, float) | 在路径末尾添加三次贝塞尔曲线 |
 | [CubicBezierTo](../../aspose.slides/geometrypath/cubicbezierto#cubicbezierto_1)(float, float, float, float, float, float, uint) | 将三次贝塞尔曲线添加到路径的指定位置 |
-| [LineTo](../../aspose.slides/geometrypath/lineto#lineto_2)(PointF) | 在路径末尾添加行 |
-| [LineTo](../../aspose.slides/geometrypath/lineto#lineto)(float, float) | 在路径末尾添加一行 |
+| [LineTo](../../aspose.slides/geometrypath/lineto#lineto_2)(PointF) | 将行添加到路径的末尾 |
+| [LineTo](../../aspose.slides/geometrypath/lineto#lineto)(float, float) | 将行添加到路径的末尾 |
 | [LineTo](../../aspose.slides/geometrypath/lineto#lineto_3)(PointF, uint) | 将行添加到路径的指定位置 |
 | [LineTo](../../aspose.slides/geometrypath/lineto#lineto_1)(float, float, uint) | 将行添加到路径的指定位置 |
-| [MoveTo](../../aspose.slides/geometrypath/moveto#moveto_1)(PointF) | 设置下一个点的位置。 |
-| [MoveTo](../../aspose.slides/geometrypath/moveto#moveto)(float, float) | 设置下一个点的位置。 |
+| [MoveTo](../../aspose.slides/geometrypath/moveto#moveto_1)(PointF) | 设置下一个点位置。 |
+| [MoveTo](../../aspose.slides/geometrypath/moveto#moveto)(float, float) | 设置下一个点位置。 |
 | [QuadraticBezierTo](../../aspose.slides/geometrypath/quadraticbezierto#quadraticbezierto_2)(PointF, PointF) | 在路径末尾添加二次贝塞尔曲线 |
 | [QuadraticBezierTo](../../aspose.slides/geometrypath/quadraticbezierto#quadraticbezierto_3)(PointF, PointF, uint) | 将二次贝塞尔曲线添加到路径的指定位置 |
 | [QuadraticBezierTo](../../aspose.slides/geometrypath/quadraticbezierto#quadraticbezierto)(float, float, float, float) | 在路径末尾添加二次贝塞尔曲线 |

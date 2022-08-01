@@ -1,14 +1,14 @@
 ---
 title: TextCapType
 second_title: Aspose.Slides for .NET API 参考
-description: 返回文本大写的类型 只读TextCapTypeaspose.slides/textcaptype
+description: 返回文本大写的类型 只读TextCapTypeaspose.slides/textcaptype.
 type: docs
 weight: 250
 url: /zh/net/aspose.slides/ibaseportionformateffectivedata/textcaptype/
 ---
 ## IBasePortionFormatEffectiveData.TextCapType property
 
-返回文本大写的类型。 只读[`TextCapType`](../../textcaptype)。
+返回文本大写的类型。 只读[`TextCapType`](../../textcaptype).
 
 ```csharp
 public TextCapType TextCapType { get; }

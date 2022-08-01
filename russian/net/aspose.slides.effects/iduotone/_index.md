@@ -18,10 +18,10 @@ public interface IDuotone : IAccessiblePVIObject<IDuotoneEffectiveData>, IImageT
 
 | Имя | Описание |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/iduotone/asiaccessiblepviobject) { get; } | Позволяет получить базовый интерфейс IAccessiblePVIObject. Только чтение[`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/iduotone/asiimagetransformoperation) { get; } | Позволяет получить базовый интерфейс IImageTransformOperation. Только для чтения[`IImageTransformOperation`](../iimagetransformoperation). |
-| [Color1](../../aspose.slides.effects/iduotone/color1) { get; } | Возвращает формат целевого цвета для темных пикселей. Только для чтения[`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Color2](../../aspose.slides.effects/iduotone/color2) { get; } | Возвращает формат целевого цвета для светлых пикселей. Только для чтения[`IColorFormat`](../../aspose.slides/icolorformat). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/iduotone/asiaccessiblepviobject) { get; } | Позволяет получить базовый интерфейс IAccessiblePVIObject. Только для чтения[`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1) . |
+| [AsIImageTransformOperation](../../aspose.slides.effects/iduotone/asiimagetransformoperation) { get; } | Позволяет получить базовый интерфейс IImageTransformOperation. Только для чтения[`IImageTransformOperation`](../iimagetransformoperation) . |
+| [Color1](../../aspose.slides.effects/iduotone/color1) { get; } | Возвращает формат целевого цвета для темных пикселей. Только для чтения[`IColorFormat`](../../aspose.slides/icolorformat) . |
+| [Color2](../../aspose.slides.effects/iduotone/color2) { get; } | Возвращает формат целевого цвета для светлых пикселей. Только для чтения[`IColorFormat`](../../aspose.slides/icolorformat) . |
 
 ### Смотрите также
 

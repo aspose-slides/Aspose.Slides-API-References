@@ -1,14 +1,14 @@
 ---
 title: FontData
 second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет определение шрифта. Неизменный.
+description: Представляет определение шрифта. Неизменяемый.
 type: docs
 weight: 4380
 url: /ru/net/aspose.slides/fontdata/
 ---
 ## FontData class
 
-Представляет определение шрифта. Неизменный.
+Представляет определение шрифта. Неизменяемый.
 
 ```csharp
 public sealed class FontData : IFontData
@@ -24,7 +24,7 @@ public sealed class FontData : IFontData
 
 | Имя | Описание |
 | --- | --- |
-| [FontName](../../aspose.slides/fontdata/fontname) { get; } | Возвращает имя шрифта. Чтение/записьString. |
+| [FontName](../../aspose.slides/fontdata/fontname) { get; } | Возвращает имя шрифта. Чтение/записьString . |
 
 ## Методы
 
@@ -32,7 +32,7 @@ public sealed class FontData : IFontData
 | --- | --- |
 | override [Equals](../../aspose.slides/fontdata/equals)(object) | Определяет, равны ли два экземпляра FontData. |
 | [GetFontName](../../aspose.slides/fontdata/getfontname)(IThemeEffectiveData) | Возвращает имя шрифта, заменяя ссылку на тему фактически используемым шрифтом. |
-| override [GetHashCode](../../aspose.slides/fontdata/gethashcode)() | Служит хэш-функцией для определенного типа, подходящей для использования в алгоритмах хеширования и структурах данных, таких как хэш-таблица. |
+| override [GetHashCode](../../aspose.slides/fontdata/gethashcode)() | Служит хеш-функцией для определенного типа, подходящей для использования в алгоритмах хэширования и структурах данных, таких как хэш-таблица. |
 | override [ToString](../../aspose.slides/fontdata/tostring)() | Возвращает строковое представление. |
 
 ### Смотрите также

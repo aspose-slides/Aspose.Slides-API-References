@@ -1,14 +1,14 @@
 ---
 title: EndArrowheadLength
 second_title: Aspose.Slides for .NET API 参考
-description: 返回行尾的箭头长度 只读LineArrowheadLengthaspose.slides/linearrowheadlength
+description: 返回行尾的箭头长度 只读LineArrowheadLengthaspose.slides/linearrowheadlength.
 type: docs
 weight: 90
 url: /zh/net/aspose.slides/ilineformateffectivedata/endarrowheadlength/
 ---
 ## ILineFormatEffectiveData.EndArrowheadLength property
 
-返回行尾的箭头长度。 只读[`LineArrowheadLength`](../../linearrowheadlength)。
+返回行尾的箭头长度。 只读[`LineArrowheadLength`](../../linearrowheadlength).
 
 ```csharp
 public LineArrowheadLength EndArrowheadLength { get; }

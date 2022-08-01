@@ -1,14 +1,14 @@
 ---
 title: SetAllHeadersText
 second_title: Справочник по API Aspose.Slides для .NET
-description: Устанавливает текст во все заполнители заголовков включая образец заметок слайды заметок и образец раздаточных материалов.
+description: Задает текст для всех заполнителей заголовков включая образец заметок слайды заметок и образец раздаточных материалов.
 type: docs
 weight: 60
 url: /ru/net/aspose.slides/ipresentationheaderfootermanager/setallheaderstext/
 ---
 ## IPresentationHeaderFooterManager.SetAllHeadersText method
 
-Устанавливает текст во все заполнители заголовков, включая образец заметок, слайды заметок и образец раздаточных материалов.
+Задает текст для всех заполнителей заголовков, включая образец заметок, слайды заметок и образец раздаточных материалов.
 
 ```csharp
 public void SetAllHeadersText(string text)

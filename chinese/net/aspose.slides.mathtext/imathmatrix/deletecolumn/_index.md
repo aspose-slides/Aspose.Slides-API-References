@@ -16,11 +16,11 @@ public void DeleteColumn(int columnIndex)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| columnIndex | Int32 | 从零开始的索引要删除的列。 |
+| columnIndex | Int32 | 要删除的列的从零开始的索引。 |
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]

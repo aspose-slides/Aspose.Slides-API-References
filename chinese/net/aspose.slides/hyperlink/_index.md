@@ -18,32 +18,32 @@ public class Hyperlink : PVIObject, IHyperlink
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Hyperlink](hyperlink#constructor_1)(ISlide) | 创建指向特定幻灯片的超链接实例。 注意:创建的超链接应分配给同一演示文稿中的某个对象，否则链接将保存为 NoAction。 |
-| [Hyperlink](hyperlink#constructor_2)(string) | 创建超链接的实例。 |
+| [Hyperlink](hyperlink#constructor_1)(ISlide) | 创建指向特定幻灯片的超链接实例。 注意：创建的超链接应分配给同一演示文稿中的某个对象，否则链接将保存为 NoAction。 |
+| [Hyperlink](hyperlink#constructor_2)(string) | 创建一个超链接的实例。 |
 | [Hyperlink](hyperlink#constructor)(Hyperlink, string, string, bool, bool, bool) | 使用另一个超链接作为源创建超链接的实例，覆盖辅助属性。 |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| static [EndShow](../../aspose.slides/hyperlink/endshow) { get; } | 返回结束节目的超链接。 只读[`Hyperlink`](../hyperlink)。 |
-| static [FirstSlide](../../aspose.slides/hyperlink/firstslide) { get; } | 返回演示文稿第一张幻灯片的超链接。 只读[`Hyperlink`](../hyperlink)。 |
-| static [LastSlide](../../aspose.slides/hyperlink/lastslide) { get; } | 返回演示文稿最后一张幻灯片的超链接。 只读[`Hyperlink`](../hyperlink)。 |
-| static [LastVievedSlide](../../aspose.slides/hyperlink/lastvievedslide) { get; } | 返回最后查看的幻灯片的超链接。 只读[`Hyperlink`](../hyperlink)。 |
-| static [Media](../../aspose.slides/hyperlink/media) { get; } | 返回一个特殊的“播放媒体文件”超链接。在 AudioFrame 和 VideoFrame 中使用。 只读[`Hyperlink`](../hyperlink)。 |
-| static [NextSlide](../../aspose.slides/hyperlink/nextslide) { get; } | 返回下一张幻灯片的超链接。 只读[`Hyperlink`](../hyperlink)。 |
-| static [NoAction](../../aspose.slides/hyperlink/noaction) { get; } | 返回一个特殊的“什么都不做”超链接。 只读[`Hyperlink`](../hyperlink)。 |
-| static [PreviousSlide](../../aspose.slides/hyperlink/previousslide) { get; } | 返回上一张幻灯片的超链接。 只读[`Hyperlink`](../hyperlink)。 |
-| [ActionType](../../aspose.slides/hyperlink/actiontype) { get; } | 返回超链接操作的类型。 只读[`HyperlinkActionType`](../hyperlinkactiontype)。 |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允许获取基本 IPresentationComponent 接口。 只读[`IPresentationComponent`](../ipresentationcomponent)。 |
-| [ColorSource](../../aspose.slides/hyperlink/colorsource) { get; set; } | 表示超链接颜色的来源 - 样式或部分格式。 读/写[`HyperlinkColorSource`](../hyperlinkcolorsource)。 |
-| [ExternalUrl](../../aspose.slides/hyperlink/externalurl) { get; } | 指定外部 URL。 只读String。 |
-| [HighlightClick](../../aspose.slides/hyperlink/highlightclick) { get; set; } | 确定超链接是否应在单击时突出显示。 读/写Boolean。 |
-| [History](../../aspose.slides/hyperlink/history) { get; set; } | 确定父超链接的目标是否应在调用时将 添加到查看的超链接列表中。 读/写Boolean。 |
-| [StopSoundOnClick](../../aspose.slides/hyperlink/stopsoundonclick) { get; set; } | 确定是否应在单击超链接时停止声音。 读/写Boolean。 |
-| [TargetFrame](../../aspose.slides/hyperlink/targetframe) { get; set; } | 为父超链接的目标 返回父 HTML 框架集中的框架（如果存在）。 读/写String。 |
-| [TargetSlide](../../aspose.slides/hyperlink/targetslide) { get; } | 如果超链接以特定幻灯片为目标，则返回此幻灯片。 只读[`ISlide`](../islide)。 |
-| [Tooltip](../../aspose.slides/hyperlink/tooltip) { get; set; } | 返回与父超链接相关联的可能出现在用户界面 中的字符串。 读/写String。 |
+| static [EndShow](../../aspose.slides/hyperlink/endshow) { get; } | 返回结束节目的超链接。 只读[`Hyperlink`](../hyperlink). |
+| static [FirstSlide](../../aspose.slides/hyperlink/firstslide) { get; } | 返回演示文稿第一张幻灯片的超链接。 只读[`Hyperlink`](../hyperlink). |
+| static [LastSlide](../../aspose.slides/hyperlink/lastslide) { get; } | 返回演示文稿最后一张幻灯片的超链接。 只读[`Hyperlink`](../hyperlink). |
+| static [LastVievedSlide](../../aspose.slides/hyperlink/lastvievedslide) { get; } | 返回最后查看的幻灯片的超链接。 只读[`Hyperlink`](../hyperlink). |
+| static [Media](../../aspose.slides/hyperlink/media) { get; } | 返回一个特殊的“播放媒体文件”超链接。用于 AudioFrame 和 VideoFrame. 只读[`Hyperlink`](../hyperlink). |
+| static [NextSlide](../../aspose.slides/hyperlink/nextslide) { get; } | 返回下一张幻灯片的超链接。 只读[`Hyperlink`](../hyperlink). |
+| static [NoAction](../../aspose.slides/hyperlink/noaction) { get; } | 返回一个特殊的“什么都不做”超链接。 只读[`Hyperlink`](../hyperlink). |
+| static [PreviousSlide](../../aspose.slides/hyperlink/previousslide) { get; } | 返回上一张幻灯片的超链接。 只读[`Hyperlink`](../hyperlink). |
+| [ActionType](../../aspose.slides/hyperlink/actiontype) { get; } | 返回超链接操作的类型。 只读[`HyperlinkActionType`](../hyperlinkactiontype). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允许获取基本 IPresentationComponent 接口。 只读[`IPresentationComponent`](../ipresentationcomponent). |
+| [ColorSource](../../aspose.slides/hyperlink/colorsource) { get; set; } | 表示超链接颜色的来源 - 样式或部分格式。 读/写[`HyperlinkColorSource`](../hyperlinkcolorsource). |
+| [ExternalUrl](../../aspose.slides/hyperlink/externalurl) { get; } | 指定外部 URL。 只读String. |
+| [HighlightClick](../../aspose.slides/hyperlink/highlightclick) { get; set; } | 确定单击时是否应突出显示超链接。 读/写Boolean. |
+| [History](../../aspose.slides/hyperlink/history) { get; set; } | 确定父超链接的目标是否应在调用时添加 到查看的超链接列表中。 读/写Boolean. |
+| [StopSoundOnClick](../../aspose.slides/hyperlink/stopsoundonclick) { get; set; } | 确定是否应在单击超链接时停止声音。 读/写Boolean. |
+| [TargetFrame](../../aspose.slides/hyperlink/targetframe) { get; set; } | 为父超链接的 target 返回父 HTML 框架集中的框架（如果存在）。 读/写String. |
+| [TargetSlide](../../aspose.slides/hyperlink/targetslide) { get; } | 如果超链接针对特定幻灯片返回此幻灯片。 只读[`ISlide`](../islide). |
+| [Tooltip](../../aspose.slides/hyperlink/tooltip) { get; set; } | 返回可能在用户界面中显示的字符串 与父超链接相关联。 读/写String. |
 
 ## 方法
 

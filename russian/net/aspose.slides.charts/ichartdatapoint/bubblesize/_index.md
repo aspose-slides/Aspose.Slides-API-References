@@ -1,14 +1,14 @@
 ---
 title: BubbleSize
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает размер пузырька точки данных диаграммы. Только для чтенияIDoubleChartValueaspose.slides.charts/idoublechartvalue.
+description: Возвращает размер пузырька точки данных диаграммы. Только для чтенияIDoubleChartValueaspose.slides.charts/idoublechartvalue .
 type: docs
 weight: 20
 url: /ru/net/aspose.slides.charts/ichartdatapoint/bubblesize/
 ---
 ## IChartDataPoint.BubbleSize property
 
-Возвращает размер пузырька точки данных диаграммы. Только для чтения[`IDoubleChartValue`](../../idoublechartvalue).
+Возвращает размер пузырька точки данных диаграммы. Только для чтения[`IDoubleChartValue`](../../idoublechartvalue) .
 
 ```csharp
 public IDoubleChartValue BubbleSize { get; }

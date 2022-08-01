@@ -18,14 +18,14 @@ public class PPImage : IDisposable, IPPImage
 
 | 姓名 | 描述 |
 | --- | --- |
-| [BinaryData](../../aspose.slides/ppimage/binarydata) { get; } | 返回图像数据的副本。 只读Byte[]。 |
-| [ContentType](../../aspose.slides/ppimage/contenttype) { get; } | 返回图像的 MIME 类型，编码为[`BinaryData`](./binarydata)。 只读String。 |
-| [Height](../../aspose.slides/ppimage/height) { get; } | 返回图像的高度。 只读Int32。 |
+| [BinaryData](../../aspose.slides/ppimage/binarydata) { get; } | 返回图像数据的副本。 只读Byte[]. |
+| [ContentType](../../aspose.slides/ppimage/contenttype) { get; } | 返回图像的 MIME 类型，编码为[`BinaryData`](./binarydata) . 只读String. |
+| [Height](../../aspose.slides/ppimage/height) { get; } | 返回图像的高度。 只读Int32. |
 | [SvgImage](../../aspose.slides/ppimage/svgimage) { get; set; } | 返回或设置 ISvgImage 对象[`ISvgImage`](../isvgimage) |
-| [SystemImage](../../aspose.slides/ppimage/systemimage) { get; } | 返回图像的副本。 只读Image。 |
-| [Width](../../aspose.slides/ppimage/width) { get; } | 返回图像的宽度。 只读Int32。 |
-| [X](../../aspose.slides/ppimage/x) { get; } | 返回图像的 X 偏移量。 只读Int32。 |
-| [Y](../../aspose.slides/ppimage/y) { get; } | 返回图像的 Y 偏移量。 只读Int32。 |
+| [SystemImage](../../aspose.slides/ppimage/systemimage) { get; } | 返回图像的副本。 只读Image. |
+| [Width](../../aspose.slides/ppimage/width) { get; } | 返回图像的宽度。 只读Int32. |
+| [X](../../aspose.slides/ppimage/x) { get; } | 返回图像的 X 偏移量。 只读Int32. |
+| [Y](../../aspose.slides/ppimage/y) { get; } | 返回图像的 Y 偏移量。 只读Int32. |
 
 ## 方法
 
@@ -33,9 +33,9 @@ public class PPImage : IDisposable, IPPImage
 | --- | --- |
 | [Dispose](../../aspose.slides/ppimage/dispose)() | 处理对象。 |
 | override [GetHashCode](../../aspose.slides/ppimage/gethashcode)() | 返回图像的哈希码。 |
-| [ReplaceImage](../../aspose.slides/ppimage/replaceimage#replaceimage_1)(byte[]) | 替换图像数据。  新图像的数据。 当 newImageData 参数为空时。 |
-| [ReplaceImage](../../aspose.slides/ppimage/replaceimage#replaceimage_2)(Image) | 替换图像数据。注意:当 Image 为 metafile 时 - 由于 GDI+ 的限制，它会被光栅化。使用 ReplaceImage(byte[]) 代替  新图像。 当 newImage 参数为空时。 |
-| [ReplaceImage](../../aspose.slides/ppimage/replaceimage#replaceimage)(IPPImage) | 替换图像数据。  新的 IPPImage。 当 newImage 参数为空时。 |
+| [ReplaceImage](../../aspose.slides/ppimage/replaceimage#replaceimage_1)(byte[]) | 替换图像数据。 新图像的数据。当 newImageData 参数为空时。 |
+| [ReplaceImage](../../aspose.slides/ppimage/replaceimage#replaceimage_2)(Image) | 替换图像数据。注意：当 Image 为 metafile 时 - 由于 GDI+ 的限制，它会被光栅化。使用 ReplaceImage(byte[]) 代替 新形象。当 newImage 参数为空时。 |
+| [ReplaceImage](../../aspose.slides/ppimage/replaceimage#replaceimage)(IPPImage) | 替换图像数据。 新的 IPPImage。当 newImage 参数为空时。 |
 
 ### 也可以看看
 

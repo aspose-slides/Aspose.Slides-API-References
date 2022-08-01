@@ -8,7 +8,7 @@ url: /zh/net/aspose.slides.animation/behaviorproperty/ppth/
 ---
 ## BehaviorProperty.PptH property
 
-表示'ppt_h'属性
+表示“ppt_h”属性
 
 ```csharp
 public static BehaviorProperty PptH { get; }

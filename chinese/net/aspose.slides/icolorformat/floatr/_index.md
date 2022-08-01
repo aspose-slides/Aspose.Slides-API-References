@@ -1,14 +1,14 @@
 ---
 title: FloatR
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置颜色的红色分量所有颜色转换都被忽略 读/写Single
+description: 返回或设置颜色的红色分量忽略所有颜色转换 读/写Single.
 type: docs
 weight: 80
 url: /zh/net/aspose.slides/icolorformat/floatr/
 ---
 ## IColorFormat.FloatR property
 
-返回或设置颜色的红色分量。所有颜色转换都被忽略。 读/写Single。
+返回或设置颜色的红色分量。忽略所有颜色转换。 读/写Single.
 
 ```csharp
 public float FloatR { get; set; }

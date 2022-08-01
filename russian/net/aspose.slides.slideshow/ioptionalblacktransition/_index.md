@@ -18,8 +18,8 @@ public interface IOptionalBlackTransition : ITransitionValueBase
 
 | Имя | Описание |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/ioptionalblacktransition/asitransitionvaluebase) { get; } | Позволяет получить базовый интерфейс ITransitionValueBase. Только для чтения[`ITransitionValueBase`](../itransitionvaluebase). |
-| [FromBlack](../../aspose.slides.slideshow/ioptionalblacktransition/fromblack) { get; set; } | Этот атрибут указывает, будет ли переход начинаться с черного экрана (и затем переходить новый слайд поверх черного). Чтение/записьBoolean. |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/ioptionalblacktransition/asitransitionvaluebase) { get; } | Позволяет получить базовый интерфейс ITransitionValueBase. Только для чтения[`ITransitionValueBase`](../itransitionvaluebase) . |
+| [FromBlack](../../aspose.slides.slideshow/ioptionalblacktransition/fromblack) { get; set; } | Этот атрибут указывает, будет ли переход начинаться с черного экрана (и затем переходить новый слайд поверх черного). Чтение/записьBoolean . |
 
 ### Смотрите также
 

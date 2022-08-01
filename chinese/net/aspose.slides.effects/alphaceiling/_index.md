@@ -1,14 +1,14 @@
 ---
 title: AlphaCeiling
 second_title: Aspose.Slides for .NET API 参考
-description: 表示 Alpha Ceiling 效果 大于零的 Alpha不透明度值更改为 100 换句话说任何部分不透明的东西都会变成完全不透明的
+description: 表示 Alpha Ceiling 效果 大于零的 Alpha不透明度值更改为 100 换句话说任何部分不透明的东西都变成完全不透明的
 type: docs
 weight: 2680
 url: /zh/net/aspose.slides.effects/alphaceiling/
 ---
 ## AlphaCeiling class
 
-表示 Alpha Ceiling 效果。 大于零的 Alpha（不透明度）值更改为 100%。 换句话说，任何部分不透明的东西都会变成完全不透明的。
+表示 Alpha Ceiling 效果。 大于零的 Alpha（不透明度）值更改为 100%。 换句话说，任何部分不透明的东西都变成完全不透明的。
 
 ```csharp
 public class AlphaCeiling : ImageTransformOperation, IAlphaCeiling
@@ -18,13 +18,13 @@ public class AlphaCeiling : ImageTransformOperation, IAlphaCeiling
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允许获取基本 IPresentationComponent 接口。 只读[`IPresentationComponent`](../../aspose.slides/ipresentationcomponent)。 |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允许获取基本 IPresentationComponent 接口。 只读[`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/alphaceiling/equals)(object) | 确定指定的[`AlphaCeiling`](../alphaceiling)是否等于当前AlphaCeiling。 |
+| override [Equals](../../aspose.slides.effects/alphaceiling/equals)(object) | 判断是否指定[`AlphaCeiling`](../alphaceiling)等于当前[`AlphaCeiling`](../alphaceiling). |
 | [GetEffective](../../aspose.slides.effects/alphaceiling/geteffective)() | 获取应用了继承的有效 Alpha Ceiling 效果数据。 |
 | override [GetHashCode](../../aspose.slides.effects/alphaceiling/gethashcode)() | 用作特定类型的哈希函数。 |
 

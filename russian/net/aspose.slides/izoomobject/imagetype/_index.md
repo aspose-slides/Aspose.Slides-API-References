@@ -1,14 +1,14 @@
 ---
 title: ImageType
 second_title: Справочник по API Aspose.Slides для .NET
-description: Получает или задает тип изображения масштабируемого объекта. Чтение/записьZoomImageTypeaspose.slides/zoomimagetype. Значение по умолчаниюПредварительный просмотр
+description: Получает или задает тип изображения масштабируемого объекта. Чтение/записьZoomImageTypeaspose.slides/zoomimagetype . Значение по умолчанию Preview
 type: docs
 weight: 30
 url: /ru/net/aspose.slides/izoomobject/imagetype/
 ---
 ## IZoomObject.ImageType property
 
-Получает или задает тип изображения масштабируемого объекта. Чтение/запись[`ZoomImageType`](../../zoomimagetype). Значение по умолчанию:Предварительный просмотр
+Получает или задает тип изображения масштабируемого объекта. Чтение/запись[`ZoomImageType`](../../zoomimagetype) . Значение по умолчанию: Preview
 
 ```csharp
 public ZoomImageType ImageType { get; set; }
@@ -16,7 +16,7 @@ public ZoomImageType ImageType { get; set; }
 
 ### Примечания
 
-Указывает, использует ли объект масштабирования слайд превью или изображение обложки.
+Указывает, использует ли объект масштабирования предварительный просмотр слайда или изображение обложки.
 
 ### Примеры
 

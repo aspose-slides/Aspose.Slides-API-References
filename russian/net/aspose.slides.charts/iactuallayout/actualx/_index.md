@@ -1,14 +1,14 @@
 ---
 title: ActualX
 second_title: Справочник по API Aspose.Slides для .NET
-description: Задает фактическое положение x слева элемента диаграммы относительно левого верхнего угла диаграммы. Вызовите метод IChart.ValidateChartLayout перед тем как получить фактические значения. ЧитатьSingle.
+description: Указывает фактическое положение x слева элемента диаграммы относительно левого верхнего угла диаграммы. Вызовите метод IChart.ValidateChartLayout перед тем как получить фактические значения. ЧитатьSingle .
 type: docs
 weight: 30
 url: /ru/net/aspose.slides.charts/iactuallayout/actualx/
 ---
 ## IActualLayout.ActualX property
 
-Задает фактическое положение x (слева) элемента диаграммы относительно левого верхнего угла диаграммы. Вызовите метод IChart.ValidateChartLayout() перед тем, как получить фактические значения. ЧитатьSingle.
+Указывает фактическое положение x (слева) элемента диаграммы относительно левого верхнего угла диаграммы. Вызовите метод IChart.ValidateChartLayout() перед тем, как получить фактические значения. ЧитатьSingle .
 
 ```csharp
 public float ActualX { get; }

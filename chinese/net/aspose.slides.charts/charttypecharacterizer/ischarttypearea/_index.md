@@ -1,14 +1,14 @@
 ---
 title: IsChartTypeArea
 second_title: Aspose.Slides for .NET API 参考
-description: 如果 chartType 是 Area 子类型之一则返回 true 子类型集对应于 PowerPoint 中的相应集参见 PowerPoint 中的更改图表类型对话框 ChartType面积 PercentsStackedArea PercentsStackedArea3D StackedArea StackedArea3D Area3D
+description: 如果 chartType 是 Area 子类型之一则返回 true 子类型集对应于 PowerPoint 中的相应集请参阅 PowerPoint 中的更改图表类型对话框 Area  PercentsStackedArea  PercentsStackedArea3D  StackedArea  StackedArea3D  Area3D.
 type: docs
 weight: 50
 url: /zh/net/aspose.slides.charts/charttypecharacterizer/ischarttypearea/
 ---
 ## ChartTypeCharacterizer.IsChartTypeArea method
 
-如果 chartType 是 Area 子类型之一，则返回 true。 子类型集对应于 PowerPoint 中的相应集（参见 PowerPoint 中的“更改图表类型”对话框）:: ChartType。面积, PercentsStackedArea, PercentsStackedArea3D, StackedArea, StackedArea3D, Area3D。
+如果 chartType 是 Area 子类型之一，则返回 true。 子类型集对应于 PowerPoint 中的相应集（请参阅 PowerPoint 中的“更改图表类型”对话框）： Area , PercentsStackedArea , PercentsStackedArea3D , StackedArea , StackedArea3D , Area3D.
 
 ```csharp
 public static bool IsChartTypeArea(ChartType chartType)

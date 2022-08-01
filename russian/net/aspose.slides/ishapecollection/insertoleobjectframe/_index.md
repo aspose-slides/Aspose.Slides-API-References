@@ -17,8 +17,8 @@ public IOleObjectFrame InsertOleObjectFrame(int index, float x, float y, float w
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Отсчитываемый от нуля индекс, в который должен быть вставлен объект OLE. |
-| x | Single | X координата нового кадра OLE. |
+| index | Int32 | Отсчитываемый от нуля индекс, по которому должен быть вставлен объект OLE. |
+| x | Single | Координата X нового кадра OLE. |
 | y | Single | Координата Y нового кадра OLE. |
 | width | Single | Ширина нового кадра OLE. |
 | height | Single | Высота нового кадра OLE. |
@@ -26,7 +26,7 @@ public IOleObjectFrame InsertOleObjectFrame(int index, float x, float y, float w
 
 ### Возвращаемое значение
 
-Создан объект OLE.
+Создан OLE-объект.
 
 ### Смотрите также
 
@@ -49,8 +49,8 @@ public IOleObjectFrame InsertOleObjectFrame(int index, float x, float y, float w
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Отсчитываемый от нуля индекс, в который должен быть вставлен объект OLE. |
-| x | Single | X координата нового кадра OLE. |
+| index | Int32 | Отсчитываемый от нуля индекс, по которому должен быть вставлен объект OLE. |
+| x | Single | Координата X нового кадра OLE. |
 | y | Single | Координата Y нового кадра OLE. |
 | width | Single | Ширина нового кадра OLE. |
 | height | Single | Высота нового кадра OLE. |
@@ -59,7 +59,7 @@ public IOleObjectFrame InsertOleObjectFrame(int index, float x, float y, float w
 
 ### Возвращаемое значение
 
-Создан объект OLE.
+Создан OLE-объект.
 
 ### Смотрите также
 

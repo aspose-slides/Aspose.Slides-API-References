@@ -18,7 +18,7 @@ public interface IThemeManager
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ApplyColorScheme](../../aspose.slides.theme/ithememanager/applycolorscheme)(IExtraColorScheme) | 将额外的配色方案应用于幻灯片。 |
+| [ApplyColorScheme](../../aspose.slides.theme/ithememanager/applycolorscheme)(IExtraColorScheme) | 对幻灯片应用额外的配色方案。 |
 | [CreateThemeEffective](../../aspose.slides.theme/ithememanager/createthemeeffective)() | 返回主题对象。 |
 
 ### 也可以看看

@@ -1,14 +1,14 @@
 ---
 title: TransitionCornerAndCenterDirectionType
 second_title: Aspose.Slides for .NET API 参考
-description: 指定限制在角落和中心的方向
+description: 指定限制为角和中心的方向
 type: docs
 weight: 9560
 url: /zh/net/aspose.slides.slideshow/transitioncornerandcenterdirectiontype/
 ---
 ## TransitionCornerAndCenterDirectionType enumeration
 
-指定限制在角落和中心的方向。
+指定限制为角和中心的方向。
 
 ```csharp
 public enum TransitionCornerAndCenterDirectionType

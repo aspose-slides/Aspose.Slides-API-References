@@ -1,14 +1,14 @@
 ---
 title: R
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置颜色的红色分量所有颜色转换都被忽略 读/写Byte
+description: 返回或设置颜色的红色分量忽略所有颜色转换 读/写Byte.
 type: docs
 weight: 120
 url: /zh/net/aspose.slides/colorformat/r/
 ---
 ## ColorFormat.R property
 
-返回或设置颜色的红色分量。所有颜色转换都被忽略。 读/写Byte。
+返回或设置颜色的红色分量。忽略所有颜色转换。 读/写Byte.
 
 ```csharp
 public byte R { get; set; }

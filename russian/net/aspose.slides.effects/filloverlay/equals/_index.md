@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет равен ли указанныйFillOverlayaspose.slides.effects/filloverlayтекущемуFillOverlay.
+description: Определяет является ли указанныйFillOverlayaspose.slides.effects/filloverlay равен текущемуFillOverlayaspose.slides.effects/filloverlay .
 type: docs
 weight: 30
 url: /ru/net/aspose.slides.effects/filloverlay/equals/
 ---
 ## FillOverlay.Equals method
 
-Определяет, равен ли указанный[`FillOverlay`](../../filloverlay)текущемуFillOverlay.
+Определяет, является ли указанный[`FillOverlay`](../../filloverlay) равен текущему[`FillOverlay`](../../filloverlay) .
 
 ```csharp
 public override bool Equals(object obj)
@@ -16,7 +16,7 @@ public override bool Equals(object obj)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| obj | Object | [`FillOverlay`](../../filloverlay)для сравнения. |
+| obj | Object | [`FillOverlay`](../../filloverlay) сравнивать. |
 
 ### Возвращаемое значение
 

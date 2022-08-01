@@ -25,17 +25,17 @@ public class HtmlOptions : SaveOptions, IHtmlOptions
 
 | Имя | Описание |
 | --- | --- |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Возвращает или устанавливает шрифт, используемый в случае, если исходный шрифт не найден. Чтение-записьString. |
-| [DeletePicturesCroppedAreas](../../aspose.slides.export/htmloptions/deletepicturescroppedareas) { get; set; } | Логический флаг указывает, остаются ли обрезанные части частью документа. Если true, обрезанные части будут удалены, если false, они будут сериализованы в документе (что может привести к увеличению файла ) |
-| [HtmlFormatter](../../aspose.slides.export/htmloptions/htmlformatter) { get; set; } | Возвращает или устанавливает шаблон HTML. Чтение/запись[`IHtmlFormatter`](../ihtmlformatter). |
-| [JpegQuality](../../aspose.slides.export/htmloptions/jpegquality) { get; set; } | Возвращает или задает значение, определяющее качество изображений JPEG внутри документа PDF. Чтение/записьByte. |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Возвращает или устанавливает шрифт, используемый в случае, если исходный шрифт не найден. Чтение-записьString . |
+| [DeletePicturesCroppedAreas](../../aspose.slides.export/htmloptions/deletepicturescroppedareas) { get; set; } | Логический флаг указывает, остаются ли обрезанные части частью документа. Если true, обрезанные части будут удалены, если false, они будут сериализованы в документе (что может привести к увеличению файла на ) |
+| [HtmlFormatter](../../aspose.slides.export/htmloptions/htmlformatter) { get; set; } | Возвращает или задает шаблон HTML. Чтение/запись[`IHtmlFormatter`](../ihtmlformatter) . |
+| [JpegQuality](../../aspose.slides.export/htmloptions/jpegquality) { get; set; } | Возвращает или задает значение, определяющее качество изображений JPEG внутри документа PDF. Чтение/записьByte . |
 | [NotesCommentsLayouting](../../aspose.slides.export/htmloptions/notescommentslayouting) { get; } | Предоставляет параметры, управляющие размещением примечаний и комментариев в экспортируемом документе. |
 | [PicturesCompression](../../aspose.slides.export/htmloptions/picturescompression) { get; set; } | Представляет уровень сжатия изображений |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Представляет объект обратного вызова для сохранения обновлений хода выполнения в процентах. См.[`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [ShowHiddenSlides](../../aspose.slides.export/htmloptions/showhiddenslides) { get; set; } | Указывает, должен ли сгенерированный документ включать скрытые слайды или нет. По умолчанию:` false` . |
-| [SlideImageFormat](../../aspose.slides.export/htmloptions/slideimageformat) { get; set; } | Возвращает или задает параметры формата изображения слайда. Чтение/запись[`ISlideImageFormat`](../islideimageformat). |
-| [SvgResponsiveLayout](../../aspose.slides.export/htmloptions/svgresponsivelayout) { get; set; } | True, чтобы исключить атрибуты ширины и высоты из контейнера svg — это сделает макет отзывчивым. Ложь - иначе. Чтение/записьBoolean. |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Возвращает наборы объект, который получает предупреждения и решает, будет ли процесс загрузки продолжен или будет прерван. Чтение/запись[`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Представляет объект обратного вызова для сохранения обновлений хода выполнения в процентах. См.[`IProgressCallback`](../../aspose.slides/iprogresscallback) . |
+| [ShowHiddenSlides](../../aspose.slides.export/htmloptions/showhiddenslides) { get; set; } | Указывает, должен ли сгенерированный документ включать скрытые слайды или нет. Значение по умолчанию:`ЛОЖЬ` |
+| [SlideImageFormat](../../aspose.slides.export/htmloptions/slideimageformat) { get; set; } | Возвращает или задает параметры формата изображения слайда. Чтение/запись[`ISlideImageFormat`](../islideimageformat) . |
+| [SvgResponsiveLayout](../../aspose.slides.export/htmloptions/svgresponsivelayout) { get; set; } | Истинно, чтобы исключить атрибуты ширины и высоты из контейнера svg — это сделает макет отзывчивым. False - иначе. Чтение/записьBoolean . |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Возвращает наборы объекта, который получает предупреждения и решает, будет ли процесс загрузки продолжен или будет прерван. Чтение/запись[`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback) . |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: GrowToMatchOperandHeight
 second_title: Справочник по API Aspose.Slides для .NET
-description: Символ оператора увеличивается вертикально чтобы соответствовать высоте операнда
+description: Символ оператора увеличивается по вертикали чтобы соответствовать высоте операнда
 type: docs
 weight: 30
 url: /ru/net/aspose.slides.mathtext/mathnaryoperator/growtomatchoperandheight/
 ---
 ## MathNaryOperator.GrowToMatchOperandHeight property
 
-Символ оператора увеличивается вертикально, чтобы соответствовать высоте операнда
+Символ оператора увеличивается по вертикали, чтобы соответствовать высоте операнда
 
 ```csharp
 public bool GrowToMatchOperandHeight { get; set; }

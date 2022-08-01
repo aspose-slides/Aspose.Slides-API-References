@@ -1,14 +1,14 @@
 ---
 title: ITextAnimationCollection
 second_title: Aspose.Slides for .NET API 参考
-description: 表示文本动画的集合
+description: 代表文字动画的集合
 type: docs
 weight: 530
 url: /zh/net/aspose.slides.animation/itextanimationcollection/
 ---
 ## ITextAnimationCollection interface
 
-表示文本动画的集合。
+代表文字动画的集合。
 
 ```csharp
 public interface ITextAnimationCollection : IGenericCollection<ITextAnimation>

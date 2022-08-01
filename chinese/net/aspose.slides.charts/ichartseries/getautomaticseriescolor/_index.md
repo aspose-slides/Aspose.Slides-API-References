@@ -16,7 +16,7 @@ public Color GetAutomaticSeriesColor()
 
 ### 返回值
 
-系列自动颜色Color
+系列自动上色Color
 
 ### 也可以看看
 

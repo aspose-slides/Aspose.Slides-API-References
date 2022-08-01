@@ -1,14 +1,14 @@
 ---
 title: Length
 second_title: Aspose.Slides for .NET API 参考
-description: 获取流的长度以字节为单位 只读Int64
+description: 获取流的字节长度 只读Int64.
 type: docs
 weight: 50
 url: /zh/net/aspose.slides/istreamwrapper/length/
 ---
 ## IStreamWrapper.Length property
 
-获取流的长度（以字节为单位）。 只读Int64。
+获取流的字节长度。 只读Int64.
 
 ```csharp
 public long Length { get; }

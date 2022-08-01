@@ -1,14 +1,14 @@
 ---
 title: StrokeSrc
 second_title: Aspose.Slides for .NET API 参考
-description: 表示 stroke.src 属性
+description: 表示stroke.src 属性
 type: docs
 weight: 1000
 url: /zh/net/aspose.slides.animation/behaviorproperty/strokesrc/
 ---
 ## BehaviorProperty.StrokeSrc property
 
-表示 'stroke.src' 属性
+表示'stroke.src' 属性
 
 ```csharp
 public static BehaviorProperty StrokeSrc { get; }

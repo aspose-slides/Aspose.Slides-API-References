@@ -1,14 +1,14 @@
 ---
 title: FillFormat
 second_title: Aspose.Slides for .NET API 参考
-description: 填充格式 只读IFillFormataspose.slides/ifillformat
+description: 填充格式 只读IFillFormataspose.slides/ifillformat.
 type: docs
 weight: 40
 url: /zh/net/aspose.slides.effects/ifilloverlay/fillformat/
 ---
 ## IFillOverlay.FillFormat property
 
-填充格式。 只读[`IFillFormat`](../../../aspose.slides/ifillformat)。
+填充格式。 只读[`IFillFormat`](../../../aspose.slides/ifillformat).
 
 ```csharp
 public IFillFormat FillFormat { get; }

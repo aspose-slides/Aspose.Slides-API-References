@@ -19,7 +19,7 @@ public class PptEditException : PptException
 | Имя | Описание |
 | --- | --- |
 | [PptEditException](ppteditexception#constructor)() | Конструктор по умолчанию. |
-| [PptEditException](ppteditexception#constructor_1)(string) | Конструктор, позволяющий добавить сообщение к этому исключению. |
+| [PptEditException](ppteditexception#constructor_1)(string) | Конструктор, позволяющий добавить сообщение в это исключение. |
 | [PptEditException](ppteditexception#constructor_2)(string, Exception) | Конструктор исключения, содержащего сообщение и встроенное исключение. |
 
 ### Смотрите также

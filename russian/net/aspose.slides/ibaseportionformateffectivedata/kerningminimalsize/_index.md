@@ -1,14 +1,14 @@
 ---
 title: KerningMinimalSize
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает минимальный размер шрифта для которого должен быть включен кернинг. Только для чтенияSingle.
+description: Возвращает минимальный размер шрифта для которого должен быть включен кернинг. Только для чтенияSingle .
 type: docs
 weight: 140
 url: /ru/net/aspose.slides/ibaseportionformateffectivedata/kerningminimalsize/
 ---
 ## IBasePortionFormatEffectiveData.KerningMinimalSize property
 
-Возвращает минимальный размер шрифта, для которого должен быть включен кернинг. Только для чтенияSingle.
+Возвращает минимальный размер шрифта, для которого должен быть включен кернинг. Только для чтенияSingle .
 
 ```csharp
 public float KerningMinimalSize { get; }

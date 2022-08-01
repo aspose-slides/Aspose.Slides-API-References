@@ -18,10 +18,10 @@ public interface IChartTitle : ILayoutable, IOverridableText
 
 | Имя | Описание |
 | --- | --- |
-| [AsILayoutable](../../aspose.slides.charts/icharttitle/asilayoutable) { get; } | Позволяет получить базовый интерфейс ILayoutable. Только для чтения[`ILayoutable`](../ilayoutable). |
-| [AsIOverridableText](../../aspose.slides.charts/icharttitle/asioverridabletext) { get; } | Позволяет получить базовый интерфейс IOverridableText. Только для чтения[`IOverridableText`](../ioverridabletext). |
-| [Format](../../aspose.slides.charts/icharttitle/format) { get; } | Возвращает стили заливки, линии, эффекта заголовка. Только для чтения[`IFormat`](../iformat). |
-| [Overlay](../../aspose.slides.charts/icharttitle/overlay) { get; set; } | Определяет, разрешено ли другим элементам диаграммы перекрывать заголовок. Чтение/записьBoolean. |
+| [AsILayoutable](../../aspose.slides.charts/icharttitle/asilayoutable) { get; } | Позволяет получить базовый интерфейс ILayoutable. Только для чтения[`ILayoutable`](../ilayoutable) . |
+| [AsIOverridableText](../../aspose.slides.charts/icharttitle/asioverridabletext) { get; } | Позволяет получить базовый интерфейс IOverridableText. Только для чтения[`IOverridableText`](../ioverridabletext) . |
+| [Format](../../aspose.slides.charts/icharttitle/format) { get; } | Возвращает стили заливки, линии и эффекта заголовка. Только для чтения[`IFormat`](../iformat) . |
+| [Overlay](../../aspose.slides.charts/icharttitle/overlay) { get; set; } | Определяет, разрешено ли другим элементам диаграммы перекрывать заголовок. Чтение/записьBoolean . |
 
 ### Смотрите также
 

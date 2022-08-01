@@ -16,20 +16,20 @@ url: /zh/net/aspose.slides.theme/
 | [BaseThemeManager](./basethememanager) | 提供对不同类型主题的访问的类的基类。 |
 | [ChartThemeManager](./chartthememanager) | 提供对图表主题覆盖的访问。 |
 | [ColorScheme](./colorscheme) | 存储主题定义的颜色。 |
-| [EffectStyle](./effectstyle) | 表示效果样式。 |
+| [EffectStyle](./effectstyle) | 代表一种效果风格。 |
 | [EffectStyleCollection](./effectstylecollection) | 表示效果样式的集合。 |
-| [ExtraColorScheme](./extracolorscheme) | 表示可以分配给幻灯片的附加颜色方案。 |
+| [ExtraColorScheme](./extracolorscheme) | 表示可以分配给幻灯片的附加配色方案。 |
 | [ExtraColorSchemeCollection](./extracolorschemecollection) | 表示附加配色方案的集合。 |
 | [FillFormatCollection](./fillformatcollection) | 表示填充样式的集合。 |
 | [FontScheme](./fontscheme) | 存储主题定义的字体。 |
 | [FormatScheme](./formatscheme) | 存储主题定义的形状格式。 |
-| [LayoutSlideThemeManager](./layoutslidethememanager) | 提供对覆盖的布局幻灯片主题的访问。 |
+| [LayoutSlideThemeManager](./layoutslidethememanager) | 提供对布局幻灯片主题覆盖的访问。 |
 | [LineFormatCollection](./lineformatcollection) | 表示线条样式的集合。 |
-| [MasterTheme](./mastertheme) | 代表主主题。 |
+| [MasterTheme](./mastertheme) | 代表一个主主题。 |
 | [MasterThemeManager](./masterthememanager) | 提供对演示主主题的访问。 |
-| [NotesSlideThemeManager](./notesslidethememanager) | 提供对覆盖的笔记幻灯片主题的访问。 |
-| [OverrideTheme](./overridetheme) | 表示覆盖主题。 |
-| [SlideThemeManager](./slidethememanager) | 提供对幻灯片主题覆盖的访问。 |
+| [NotesSlideThemeManager](./notesslidethememanager) | 提供对覆盖笔记幻灯片主题的访问。 |
+| [OverrideTheme](./overridetheme) | 代表一个压倒一切的主题。 |
+| [SlideThemeManager](./slidethememanager) | 提供对幻灯片主题覆盖的访问权限。 |
 | [Theme](./theme) | 代表一个主题。 |
 ## 接口
 
@@ -37,11 +37,11 @@ url: /zh/net/aspose.slides.theme/
 | --- | --- |
 | [IColorScheme](./icolorscheme) | 存储主题定义的颜色。 |
 | [IColorSchemeEffectiveData](./icolorschemeeffectivedata) | 包含有效配色方案属性的不可变对象。 |
-| [IEffectStyle](./ieffectstyle) | 表示效果样式。 |
+| [IEffectStyle](./ieffectstyle) | 代表一种效果风格。 |
 | [IEffectStyleCollection](./ieffectstylecollection) | 表示效果样式的集合。 |
 | [IEffectStyleCollectionEffectiveData](./ieffectstylecollectioneffectivedata) | 表示有效效果样式的只读集合的不可变对象。 |
 | [IEffectStyleEffectiveData](./ieffectstyleeffectivedata) | 包含有效效果样式属性的不可变对象。 |
-| [IExtraColorScheme](./iextracolorscheme) | 表示可以分配给幻灯片的附加颜色方案。 |
+| [IExtraColorScheme](./iextracolorscheme) | 表示可以分配给幻灯片的附加配色方案。 |
 | [IExtraColorSchemeCollection](./iextracolorschemecollection) | 表示附加配色方案的集合。 |
 | [IFillFormatCollection](./ifillformatcollection) | 表示填充样式的集合。 |
 | [IFillFormatCollectionEffectiveData](./ifillformatcollectioneffectivedata) | 表示有效填充格式的只读集合的不可变对象。 |
@@ -51,14 +51,14 @@ url: /zh/net/aspose.slides.theme/
 | [IFormatSchemeEffectiveData](./iformatschemeeffectivedata) | 包含有效格式方案属性的不可变对象。 |
 | [ILineFormatCollection](./ilineformatcollection) | 表示线条样式的集合。 |
 | [ILineFormatCollectionEffectiveData](./ilineformatcollectioneffectivedata) | 表示有效行格式的只读集合的不可变对象。 |
-| [IMasterTheme](./imastertheme) | 代表主主题。 |
+| [IMasterTheme](./imastertheme) | 代表一个主主题。 |
 | [IMasterThemeable](./imasterthemeable) | 代表主主题管理器。 |
 | [IMasterThemeManager](./imasterthememanager) | 提供对演示主主题的访问。 |
-| [IOverrideTheme](./ioverridetheme) | 表示覆盖主题。 |
+| [IOverrideTheme](./ioverridetheme) | 代表一个压倒一切的主题。 |
 | [IOverrideThemeable](./ioverridethemeable) | 表示覆盖主题管理器。 |
 | [IOverrideThemeManager](./ioverridethememanager) | 提供对不同类型的覆盖主题的访问。 |
 | [ITheme](./itheme) | 代表一个主题。 |
-| [IThemeable](./ithemeable) | 表示可以使用[`ITheme`](../aspose.slides.theme/itheme)主题化的对象。 |
+| [IThemeable](./ithemeable) | 表示可以使用主题的对象[`ITheme`](../aspose.slides.theme/itheme). |
 | [IThemeEffectiveData](./ithemeeffectivedata) | 包含有效主题属性的不可变对象。 |
 | [IThemeManager](./ithememanager) | 代表主题属性。 |
 

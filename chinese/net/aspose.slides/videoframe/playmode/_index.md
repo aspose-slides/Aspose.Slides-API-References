@@ -1,14 +1,14 @@
 ---
 title: PlayMode
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置视频播放模式 读/写VideoPlayModePresetaspose.slides/videoplaymodepreset
+description: 返回或设置视频播放模式 读/写VideoPlayModePresetaspose.slides/videoplaymodepreset.
 type: docs
 weight: 60
 url: /zh/net/aspose.slides/videoframe/playmode/
 ---
 ## VideoFrame.PlayMode property
 
-返回或设置视频播放模式。 读/写[`VideoPlayModePreset`](../../videoplaymodepreset)。
+返回或设置视频播放模式。 读/写[`VideoPlayModePreset`](../../videoplaymodepreset).
 
 ```csharp
 public VideoPlayModePreset PlayMode { get; set; }

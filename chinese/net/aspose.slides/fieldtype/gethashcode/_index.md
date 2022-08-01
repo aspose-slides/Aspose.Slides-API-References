@@ -16,7 +16,7 @@ public override int GetHashCode()
 
 ### 返回值
 
-哈希码Int32。
+哈希码Int32.
 
 ### 也可以看看
 

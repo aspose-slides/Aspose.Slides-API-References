@@ -1,14 +1,14 @@
 ---
 title: TextCompression
 second_title: Справочник по API Aspose.Slides для .NET
-description: Указывает тип сжатия который будет использоваться для всего текстового содержимого в документе. Чтение/записьPdfTextCompressionaspose.slides.export/pdftextcompression.
+description: Указывает тип сжатия который будет использоваться для всего текстового содержимого в документе. Чтение/записьPdfTextCompressionaspose.slides.export/pdftextcompression .
 type: docs
 weight: 170
 url: /ru/net/aspose.slides.export/pdfoptions/textcompression/
 ---
 ## PdfOptions.TextCompression property
 
-Указывает тип сжатия, который будет использоваться для всего текстового содержимого в документе. Чтение/запись[`PdfTextCompression`](../../pdftextcompression).
+Указывает тип сжатия, который будет использоваться для всего текстового содержимого в документе. Чтение/запись[`PdfTextCompression`](../../pdftextcompression) .
 
 ```csharp
 public PdfTextCompression TextCompression { get; set; }
@@ -16,7 +16,7 @@ public PdfTextCompression TextCompression { get; set; }
 
 ### Примечания
 
-По умолчанию:Flate.
+По умолчаниюFlate .
 
 ### Смотрите также
 

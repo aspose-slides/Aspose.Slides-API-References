@@ -1,14 +1,14 @@
 ---
 title: PortionFactory
 second_title: Справочник по API Aspose.Slides для .NET
-description: Позволяет создавать тестовые участки
+description: Позволяет создавать тестовые порции
 type: docs
 weight: 8750
 url: /ru/net/aspose.slides/portionfactory/
 ---
 ## PortionFactory class
 
-Позволяет создавать тестовые участки
+Позволяет создавать тестовые порции
 
 ```csharp
 public class PortionFactory : IPortionFactory
@@ -25,7 +25,7 @@ public class PortionFactory : IPortionFactory
 | Имя | Описание |
 | --- | --- |
 | [CreatePortion](../../aspose.slides/portionfactory/createportion#createportion)() | Создает пустую текстовую часть. |
-| [CreatePortion](../../aspose.slides/portionfactory/createportion#createportion_1)(IPortion) | Создает порцию с использованием данных указанной порции. |
+| [CreatePortion](../../aspose.slides/portionfactory/createportion#createportion_1)(IPortion) | Создает часть с использованием данных указанной части. |
 | [CreatePortion](../../aspose.slides/portionfactory/createportion#createportion_2)(string) | Создает текстовую часть из указанной строки. |
 
 ### Примечания

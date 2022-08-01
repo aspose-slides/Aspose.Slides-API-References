@@ -18,10 +18,10 @@ public sealed class TabCollection : ITabCollection
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Count](../../aspose.slides/tabcollection/count) { get; } | 获取集合中实际包含的元素数量。 只读Int32。 |
-| [IsSynchronized](../../aspose.slides/tabcollection/issynchronized) { get; } | 返回一个值，指示对集合的访问是否同步（线程安全）。 只读Boolean。 |
-| [Item](../../aspose.slides/tabcollection/item) { get; } | 获取指定索引处的元素。 只读[`Tab`](../tab)。 |
-| [SyncRoot](../../aspose.slides/tabcollection/syncroot) { get; } | 返回同步根。 只读Object。 |
+| [Count](../../aspose.slides/tabcollection/count) { get; } | 获取集合中实际包含的元素数。 只读Int32. |
+| [IsSynchronized](../../aspose.slides/tabcollection/issynchronized) { get; } | 返回一个值，指示对集合的访问是否同步（线程安全）。 只读Boolean. |
+| [Item](../../aspose.slides/tabcollection/item) { get; } | 获取指定索引处的元素。 只读[`Tab`](../tab). |
+| [SyncRoot](../../aspose.slides/tabcollection/syncroot) { get; } | 返回同步根。 只读Object. |
 
 ## 方法
 

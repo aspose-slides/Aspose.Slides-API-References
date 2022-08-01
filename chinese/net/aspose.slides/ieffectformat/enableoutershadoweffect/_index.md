@@ -1,14 +1,14 @@
 ---
 title: EnableOuterShadowEffect
 second_title: Aspose.Slides for .NET API 参考
-description: 启用外阴影效果
+description: 启用外部阴影效果
 type: docs
 weight: 220
 url: /zh/net/aspose.slides/ieffectformat/enableoutershadoweffect/
 ---
 ## IEffectFormat.EnableOuterShadowEffect method
 
-启用外阴影效果。
+启用外部阴影效果。
 
 ```csharp
 public void EnableOuterShadowEffect()

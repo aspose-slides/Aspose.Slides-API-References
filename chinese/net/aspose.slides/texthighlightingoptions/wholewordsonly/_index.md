@@ -1,14 +1,14 @@
 ---
 title: WholeWordsOnly
 second_title: Aspose.Slides for .NET API 参考
-description: 设置为真以仅匹配整个单词否则为假 读/写Boolean
+description: 设置为真以仅匹配整个单词否则为假 读/写Boolean.
 type: docs
 weight: 30
 url: /zh/net/aspose.slides/texthighlightingoptions/wholewordsonly/
 ---
 ## TextHighlightingOptions.WholeWordsOnly property
 
-设置为真以仅匹配整个单词，否则为假。 读/写Boolean。
+设置为真以仅匹配整个单词，否则为假。 读/写Boolean.
 
 ```csharp
 public bool WholeWordsOnly { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: Direction
 second_title: Aspose.Slides for .NET API 参考
-description: 过渡方向 读/写TransitionInOutDirectionTypeaspose.slides.slideshow/transitioninoutdirectiontype
+description: 转换方向 读/写TransitionInOutDirectionTypeaspose.slides.slideshow/transitioninoutdirectiontype.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides.slideshow/iflythroughtransition/direction/
 ---
 ## IFlyThroughTransition.Direction property
 
-过渡方向。 读/写[`TransitionInOutDirectionType`](../../transitioninoutdirectiontype)。
+转换方向。 读/写[`TransitionInOutDirectionType`](../../transitioninoutdirectiontype).
 
 ```csharp
 public TransitionInOutDirectionType Direction { get; set; }

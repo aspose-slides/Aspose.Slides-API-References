@@ -16,7 +16,7 @@ public MathFunction(IMathElement funcName, IMathElement baseArgument)
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]
@@ -42,7 +42,7 @@ public MathFunction(string funcName, IMathElement baseArgument)
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]

@@ -1,14 +1,14 @@
 ---
 title: AsITransitionValueBase
 second_title: Справочник по API Aspose.Slides для .NET
-description: Позволяет получить базовый интерфейс ITransitionValueBase. Только для чтенияITransitionValueBaseaspose.slides.slideshow/itransitionvaluebase.
+description: Позволяет получить базовый интерфейс ITransitionValueBase. Только для чтенияITransitionValueBaseaspose.slides.slideshow/itransitionvaluebase .
 type: docs
 weight: 10
 url: /ru/net/aspose.slides.slideshow/iinouttransition/asitransitionvaluebase/
 ---
 ## IInOutTransition.AsITransitionValueBase property
 
-Позволяет получить базовый интерфейс ITransitionValueBase. Только для чтения[`ITransitionValueBase`](../../itransitionvaluebase).
+Позволяет получить базовый интерфейс ITransitionValueBase. Только для чтения[`ITransitionValueBase`](../../itransitionvaluebase) .
 
 ```csharp
 public ITransitionValueBase AsITransitionValueBase { get; }

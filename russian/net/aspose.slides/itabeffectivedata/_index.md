@@ -1,14 +1,14 @@
 ---
 title: ITabEffectiveData
 second_title: Справочник по API Aspose.Slides для .NET
-description: Неизменяемый объект который содержит свойства остановки табуляции действующего текста.
+description: Неизменяемый объект содержащий свойства остановки табуляции действующего текста.
 type: docs
 weight: 6630
 url: /ru/net/aspose.slides/itabeffectivedata/
 ---
 ## ITabEffectiveData interface
 
-Неизменяемый объект, который содержит свойства остановки табуляции действующего текста.
+Неизменяемый объект, содержащий свойства остановки табуляции действующего текста.
 
 ```csharp
 public interface ITabEffectiveData : IComparable
@@ -18,13 +18,13 @@ public interface ITabEffectiveData : IComparable
 
 | Имя | Описание |
 | --- | --- |
-| [Alignment](../../aspose.slides/itabeffectivedata/alignment) { get; } | Возвращает стиль выравнивания вкладки. Только чтение[`TabAlignment`](../tabalignment). |
-| [AsIComparable](../../aspose.slides/itabeffectivedata/asicomparable) { get; } | Возвращает интерфейс IComparable. Только для чтенияIComparable. |
-| [Position](../../aspose.slides/itabeffectivedata/position) { get; } | Возвращает позицию вкладки. Назначение этого свойства может изменить индекс вкладки в коллекции и сделать Enumerator недействительным. Только для чтенияDouble. |
+| [Alignment](../../aspose.slides/itabeffectivedata/alignment) { get; } | Возвращает стиль выравнивания вкладки. Только для чтения[`TabAlignment`](../tabalignment) . |
+| [AsIComparable](../../aspose.slides/itabeffectivedata/asicomparable) { get; } | Возвращает интерфейс IComparable. Только для чтенияIComparable . |
+| [Position](../../aspose.slides/itabeffectivedata/position) { get; } | Возвращает позицию вкладки. Присвоение этого свойства может изменить индекс вкладки в коллекции и аннулировать Enumerator. Только для чтенияDouble . |
 
 ### Примечания
 
-Этот интерфейс используется как часть[`IParagraphFormatEffectiveData`](../iparagraphformateffectivedata).
+Этот интерфейс используется как часть[`IParagraphFormatEffectiveData`](../iparagraphformateffectivedata) .
 
 ### Смотрите также
 

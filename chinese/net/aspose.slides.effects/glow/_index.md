@@ -18,15 +18,15 @@ public class Glow : IGlow
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Color](../../aspose.slides.effects/glow/color) { get; } | 颜色格式。 只读[`IColorFormat`](../../aspose.slides/icolorformat)。 |
-| [Radius](../../aspose.slides.effects/glow/radius) { get; set; } | 半径。 读/写Double。 |
+| [Color](../../aspose.slides.effects/glow/color) { get; } | 颜色格式。 只读[`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Radius](../../aspose.slides.effects/glow/radius) { get; set; } | 半径. 读/写Double. |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/glow/equals)(object) | 确定指定的[`Glow`](../glow)是否等于当前的Glow。 |
-| [GetEffective](../../aspose.slides.effects/glow/geteffective)() | 获取应用了继承的有效辉光效果数据。 |
+| override [Equals](../../aspose.slides.effects/glow/equals)(object) | 判断是否指定[`Glow`](../glow)等于当前[`Glow`](../glow). |
+| [GetEffective](../../aspose.slides.effects/glow/geteffective)() | 获取应用了继承的有效发光效果数据。 |
 | override [GetHashCode](../../aspose.slides.effects/glow/gethashcode)() | 用作特定类型的哈希函数。 |
 
 ### 也可以看看

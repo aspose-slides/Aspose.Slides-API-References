@@ -19,7 +19,7 @@ public interface IGradientStopCollectionEffectiveData :
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Item](../../aspose.slides/igradientstopcollectioneffectivedata/item) { get; } | 返回按索引停止的渐变。 |
+| [Item](../../aspose.slides/igradientstopcollectioneffectivedata/item) { get; } | 按索引返回梯度停止点。 |
 
 ### 也可以看看
 

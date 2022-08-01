@@ -1,14 +1,14 @@
 ---
 title: LayoutType
 second_title: Aspose.Slides for .NET API 参考
-description: 返回此布局幻灯片的布局类型 只读SlideLayoutTypeaspose.slides/slidelayouttype
+description: 返回此布局幻灯片的布局类型 只读SlideLayoutTypeaspose.slides/slidelayouttype.
 type: docs
 weight: 30
 url: /zh/net/aspose.slides/layoutslide/layouttype/
 ---
 ## LayoutSlide.LayoutType property
 
-返回此布局幻灯片的布局类型。 只读[`SlideLayoutType`](../../slidelayouttype)。
+返回此布局幻灯片的布局类型。 只读[`SlideLayoutType`](../../slidelayouttype).
 
 ```csharp
 public SlideLayoutType LayoutType { get; }

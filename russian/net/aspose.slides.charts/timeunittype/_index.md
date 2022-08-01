@@ -1,14 +1,14 @@
 ---
 title: TimeUnitType
 second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет базовую единицу для оси категорий
+description: Представляет базовую единицу для категории axis
 type: docs
 weight: 2320
 url: /ru/net/aspose.slides.charts/timeunittype/
 ---
 ## TimeUnitType enumeration
 
-Представляет базовую единицу для оси категорий
+Представляет базовую единицу для категории axis
 
 ```csharp
 public enum TimeUnitType

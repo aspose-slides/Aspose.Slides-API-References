@@ -18,7 +18,7 @@ public interface IVbaReferenceProject : IVbaReference
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsIVbaReference](../../aspose.slides.vba/ivbareferenceproject/asivbareference) { get; } | 返回 IVbaReference 接口。 只读[`IVbaReference`](../ivbareference)。 |
+| [AsIVbaReference](../../aspose.slides.vba/ivbareferenceproject/asivbareference) { get; } | 返回 IVbaReference 接口。 只读[`IVbaReference`](../ivbareference). |
 
 ### 也可以看看
 

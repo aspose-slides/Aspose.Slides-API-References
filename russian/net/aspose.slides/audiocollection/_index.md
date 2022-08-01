@@ -18,21 +18,21 @@ public class AudioCollection : DomObject<Presentation>, IAudioCollection
 
 | Имя | Описание |
 | --- | --- |
-| [Count](../../aspose.slides/audiocollection/count) { get; } | Возвращает количество аудиофайлов в коллекции. Только для чтенияInt32. |
-| [IsSynchronized](../../aspose.slides/audiocollection/issynchronized) { get; } | Возвращает значение, указывающее, является ли доступ к коллекции синхронизированным (потокобезопасным). Только чтениеBoolean. |
-| [Item](../../aspose.slides/audiocollection/item) { get; } | Получает элемент по указанному индексу. Только для чтения[`IAudio`](../iaudio). |
-| [SyncRoot](../../aspose.slides/audiocollection/syncroot) { get; } | Возвращает корень синхронизации. Только для чтенияObject. |
+| [Count](../../aspose.slides/audiocollection/count) { get; } | Возвращает количество аудиофайлов в коллекции. Только для чтенияInt32 . |
+| [IsSynchronized](../../aspose.slides/audiocollection/issynchronized) { get; } | Возвращает значение, указывающее, является ли доступ к коллекции синхронизированным (потокобезопасным). Только для чтенияBoolean . |
+| [Item](../../aspose.slides/audiocollection/item) { get; } | Получает элемент по указанному индексу. Только для чтения[`IAudio`](../iaudio) . |
+| [SyncRoot](../../aspose.slides/audiocollection/syncroot) { get; } | Возвращает корень синхронизации. Только для чтенияObject . |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [AddAudio](../../aspose.slides/audiocollection/addaudio#addaudio_1)(byte[]) | Создает и добавляет звук к презентации из массива байтов. |
+| [AddAudio](../../aspose.slides/audiocollection/addaudio#addaudio_1)(byte[]) | Создает и добавляет аудио к презентации из байтового массива. |
 | [AddAudio](../../aspose.slides/audiocollection/addaudio#addaudio)(IAudio) | Добавляет копию аудиофайла из другой презентации. |
-| [AddAudio](../../aspose.slides/audiocollection/addaudio#addaudio_2)(Stream) | Создает и добавляет звук к презентации из потока. |
-| [AddAudio](../../aspose.slides/audiocollection/addaudio#addaudio_3)(Stream, LoadingStreamBehavior) | Создает и добавляет звук к презентации из потока. |
+| [AddAudio](../../aspose.slides/audiocollection/addaudio#addaudio_2)(Stream) | Создает и добавляет звук в презентацию из потока. |
+| [AddAudio](../../aspose.slides/audiocollection/addaudio#addaudio_3)(Stream, LoadingStreamBehavior) | Создает и добавляет звук в презентацию из потока. |
 | [CopyTo](../../aspose.slides/audiocollection/copyto)(Array, int) | Копирует аудио в указанный массив, начиная с указанного индекса. |
-| [GetEnumerator](../../aspose.slides/audiocollection/getenumerator)() | Возвращает перечислитель, который перебирает коллекцию. |
+| [GetEnumerator](../../aspose.slides/audiocollection/getenumerator)() | Возвращает перечислитель, который выполняет итерацию по коллекции. |
 
 ### Смотрите также
 

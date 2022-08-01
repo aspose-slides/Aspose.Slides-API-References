@@ -17,8 +17,8 @@ public void Read(byte[] buffer, int offset, int count)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | buffer | Byte[] | 字节序列Byte[] |
-| offset | Int32 | 开始读取位置Int32 |
-| count | Int32 | 读取字节数Int32 |
+| offset | Int32 | 开始阅读位置Int32 |
+| count | Int32 | 计算要读取的字节数Int32 |
 
 ### 也可以看看
 

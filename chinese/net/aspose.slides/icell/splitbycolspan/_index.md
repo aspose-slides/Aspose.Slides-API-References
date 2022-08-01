@@ -16,7 +16,7 @@ public void SplitByColSpan(int index)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| index | Int32 | 列索引。 |
+| index | Int32 | 列的索引。 |
 
 ### 也可以看看
 

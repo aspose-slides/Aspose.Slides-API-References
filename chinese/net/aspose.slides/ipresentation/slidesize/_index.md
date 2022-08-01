@@ -1,14 +1,14 @@
 ---
 title: SlideSize
 second_title: Aspose.Slides for .NET API 参考
-description: 返回幻灯片大小对象 只读ISlideSizeaspose.slides/islidesize
+description: 返回幻灯片大小对象 只读ISlideSizeaspose.slides/islidesize.
 type: docs
 weight: 250
 url: /zh/net/aspose.slides/ipresentation/slidesize/
 ---
 ## IPresentation.SlideSize property
 
-返回幻灯片大小对象。 只读[`ISlideSize`](../../islidesize)。
+返回幻灯片大小对象。 只读[`ISlideSize`](../../islidesize).
 
 ```csharp
 public ISlideSize SlideSize { get; }

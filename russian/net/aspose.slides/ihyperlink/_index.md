@@ -1,14 +1,14 @@
 ---
 title: IHyperlink
 second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет собой гиперссылку.
+description: Представляет гиперссылку.
 type: docs
 weight: 5570
 url: /ru/net/aspose.slides/ihyperlink/
 ---
 ## IHyperlink interface
 
-Представляет собой гиперссылку.
+Представляет гиперссылку.
 
 ```csharp
 public interface IHyperlink
@@ -18,15 +18,15 @@ public interface IHyperlink
 
 | Имя | Описание |
 | --- | --- |
-| [ActionType](../../aspose.slides/ihyperlink/actiontype) { get; } | Возвращает тип действия HyperLinkEx. Только для чтения[`HyperlinkActionType`](../hyperlinkactiontype). |
-| [ColorSource](../../aspose.slides/ihyperlink/colorsource) { get; set; } | Представляет источник цвета гиперссылки - стили или формат части. Чтение/запись[`HyperlinkColorSource`](../hyperlinkcolorsource). |
-| [ExternalUrl](../../aspose.slides/ihyperlink/externalurl) { get; } | Указывает внешний URL-адрес Если это свойство становится не нулевым, тогда свойство TargetSlide становится нулевым. Только чтениеString. |
-| [HighlightClick](../../aspose.slides/ihyperlink/highlightclick) { get; set; } | Определяет, должна ли гиперссылка подсвечиваться при щелчке. Чтение/записьBoolean. |
-| [History](../../aspose.slides/ihyperlink/history) { get; set; } | Определяет, будет ли цель родительской гиперссылки добавляться в список просматриваемых гиперссылок при ее вызове. Чтение/записьBoolean. |
-| [StopSoundOnClick](../../aspose.slides/ihyperlink/stopsoundonclick) { get; set; } | Определяет, должен ли звук останавливаться при клике по гиперссылке. Чтение/записьBoolean. |
-| [TargetFrame](../../aspose.slides/ihyperlink/targetframe) { get; set; } | Возвращает фрейм в родительском наборе фреймов HTML для цели родительской гиперссылки, если она существует. Чтение/записьString. |
-| [TargetSlide](../../aspose.slides/ihyperlink/targetslide) { get; } | Если HyperlinkEx нацелен на определенный слайд, возвращает этот слайд. Если свойство становится не нулевым, тогда свойство ExternalUrl становится нулевым. Только для чтения[`ISlide`](../islide). |
-| [Tooltip](../../aspose.slides/ihyperlink/tooltip) { get; set; } | Возвращает строку, которая может отображаться в пользовательском интерфейсе как связанную с родительской гиперссылкой. Чтение/записьString. |
+| [ActionType](../../aspose.slides/ihyperlink/actiontype) { get; } | Возвращает тип действия HyperLinkEx. Только для чтения[`HyperlinkActionType`](../hyperlinkactiontype) . |
+| [ColorSource](../../aspose.slides/ihyperlink/colorsource) { get; set; } | Представляет источник цвета гиперссылки — стили или формат части. Чтение/запись[`HyperlinkColorSource`](../hyperlinkcolorsource) . |
+| [ExternalUrl](../../aspose.slides/ihyperlink/externalurl) { get; } | Указывает внешний URL-адрес. Если это свойство становится не нулевым, свойство TargetSlide становится нулевым. Только для чтенияString . |
+| [HighlightClick](../../aspose.slides/ihyperlink/highlightclick) { get; set; } | Определяет, следует ли выделять гиперссылку при нажатии. Чтение/записьBoolean . |
+| [History](../../aspose.slides/ihyperlink/history) { get; set; } | Определяет, будет ли цель родительской гиперссылки добавляться в список просматриваемых гиперссылок при ее вызове. Чтение/записьBoolean . |
+| [StopSoundOnClick](../../aspose.slides/ihyperlink/stopsoundonclick) { get; set; } | Определяет, должен ли звук останавливаться при щелчке по гиперссылке. Чтение/записьBoolean . |
+| [TargetFrame](../../aspose.slides/ihyperlink/targetframe) { get; set; } | Возвращает фрейм в родительском наборе фреймов HTML для target родительской гиперссылки, если она существует. Чтение/записьString . |
+| [TargetSlide](../../aspose.slides/ihyperlink/targetslide) { get; } | Если HyperlinkEx нацелен на определенный слайд, возвращает этот слайд. Если свойство становится не нулевым, то свойство ExternalUrl становится нулевым. Только для чтения[`ISlide`](../islide) . |
+| [Tooltip](../../aspose.slides/ihyperlink/tooltip) { get; set; } | Возвращает строку, которая может отображаться в пользовательском интерфейсе как связанную с родительской гиперссылкой. Чтение/записьString . |
 
 ## Методы
 

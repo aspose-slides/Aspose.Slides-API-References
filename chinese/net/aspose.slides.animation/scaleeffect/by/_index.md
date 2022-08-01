@@ -1,14 +1,14 @@
 ---
 title: By
 second_title: Aspose.Slides for .NET API 参考
-description: 描述动画的相对偏移值以百分比为单位 读/写PointF
+description: 描述动画的相对偏移值以百分比为单位 读/写PointF.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides.animation/scaleeffect/by/
 ---
 ## ScaleEffect.By property
 
-描述动画的相对偏移值（以百分比为单位）。 读/写PointF。
+描述动画的相对偏移值（以百分比为单位）。 读/写PointF.
 
 ```csharp
 public PointF By { get; set; }

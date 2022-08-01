@@ -1,14 +1,14 @@
 ---
 title: EditPointsLocked
 second_title: Aspose.Slides for .NET API 参考
-description: 确定是否禁止直接更改此形状的轮廓 读/写Boolean
+description: 确定是否禁止直接更改此形状的轮廓 读/写Boolean.
 type: docs
 weight: 60
 url: /zh/net/aspose.slides/ipictureframelock/editpointslocked/
 ---
 ## IPictureFrameLock.EditPointsLocked property
 
-确定是否禁止直接更改此形状的轮廓。 读/写Boolean。
+确定是否禁止直接更改此形状的轮廓。 读/写Boolean.
 
 ```csharp
 public bool EditPointsLocked { get; set; }

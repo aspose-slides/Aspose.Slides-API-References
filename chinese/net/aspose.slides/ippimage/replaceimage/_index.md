@@ -36,7 +36,7 @@ public void ReplaceImage(Image newImage)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| newImage | Image | 新图像。 |
+| newImage | Image | 新形象。 |
 
 ### 也可以看看
 

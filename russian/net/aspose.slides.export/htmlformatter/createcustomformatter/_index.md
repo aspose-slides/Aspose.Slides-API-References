@@ -16,7 +16,7 @@ public static HtmlFormatter CreateCustomFormatter(IHtmlFormattingController form
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| formattingController | IHtmlFormattingController | Интерфейс обратного вызова, управляющий генерацией HTML-файла. |
+| formattingController | IHtmlFormattingController | Интерфейс обратного вызова, который управляет генерацией HTML-файла. |
 
 ### Смотрите также
 

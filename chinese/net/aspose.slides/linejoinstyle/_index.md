@@ -1,14 +1,14 @@
 ---
 title: LineJoinStyle
 second_title: Aspose.Slides for .NET API 参考
-description: 表示线连接样式
+description: 表示线条连接样式
 type: docs
 weight: 7100
 url: /zh/net/aspose.slides/linejoinstyle/
 ---
 ## LineJoinStyle enumeration
 
-表示线连接样式。
+表示线条连接样式。
 
 ```csharp
 public enum LineJoinStyle : sbyte

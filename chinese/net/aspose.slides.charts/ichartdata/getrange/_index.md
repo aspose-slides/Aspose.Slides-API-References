@@ -16,7 +16,7 @@ public string GetRange()
 
 ### 返回值
 
-单元格数据范围公式。例如:"Sheet1!$A$1:$C$4"
+单元格数据范围公式。例如：“Sheet1！$A$1:$C$4”
 
 ### 例外
 

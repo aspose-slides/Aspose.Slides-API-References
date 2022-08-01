@@ -1,14 +1,14 @@
 ---
 title: ResourceLoadingCallback
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или задает интерфейс обратного вызова управляющий загрузкой внешних ресурсов. Чтение/записьIResourceLoadingCallbackaspose.slides/iresourceloadingcallback.
+description: Возвращает или задает интерфейс обратного вызова который управляет загрузкой внешних ресурсов. Чтение/записьIResourceLoadingCallbackaspose.slides/iresourceloadingcallback .
 type: docs
 weight: 110
 url: /ru/net/aspose.slides/loadoptions/resourceloadingcallback/
 ---
 ## LoadOptions.ResourceLoadingCallback property
 
-Возвращает или задает интерфейс обратного вызова, управляющий загрузкой внешних ресурсов. Чтение/запись[`IResourceLoadingCallback`](../../iresourceloadingcallback).
+Возвращает или задает интерфейс обратного вызова, который управляет загрузкой внешних ресурсов. Чтение/запись[`IResourceLoadingCallback`](../../iresourceloadingcallback) .
 
 ```csharp
 public IResourceLoadingCallback ResourceLoadingCallback { get; set; }

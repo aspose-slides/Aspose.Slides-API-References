@@ -1,14 +1,14 @@
 ---
 title: Type
 second_title: Aspose.Slides for .NET API 参考
-description: 获取或设置误差线的类型 读/写ErrorBarTypeaspose.slides.charts/errorbartype
+description: 获取或设置误差线的类型 读/写ErrorBarTypeaspose.slides.charts/errorbartype.
 type: docs
 weight: 50
 url: /zh/net/aspose.slides.charts/errorbarsformat/type/
 ---
 ## ErrorBarsFormat.Type property
 
-获取或设置误差线的类型。 读/写[`ErrorBarType`](../../errorbartype)。
+获取或设置误差线的类型。 读/写[`ErrorBarType`](../../errorbartype).
 
 ```csharp
 public ErrorBarType Type { get; set; }

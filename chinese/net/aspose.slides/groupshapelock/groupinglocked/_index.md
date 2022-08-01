@@ -1,14 +1,14 @@
 ---
 title: GroupingLocked
 second_title: Aspose.Slides for .NET API 参考
-description: 确定是否禁止将此形状添加到组中 读/写Boolean
+description: 确定是否禁止将此形状添加到组中 读/写Boolean.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides/groupshapelock/groupinglocked/
 ---
 ## GroupShapeLock.GroupingLocked property
 
-确定是否禁止将此形状添加到组中。 读/写Boolean。
+确定是否禁止将此形状添加到组中。 读/写Boolean.
 
 ```csharp
 public bool GroupingLocked { get; set; }

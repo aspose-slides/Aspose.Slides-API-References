@@ -1,14 +1,14 @@
 ---
 title: UpDownBars
 second_title: Aspose.Slides for .NET API 参考
-description: 提供对折线图或股票图的向上/向下条的访问 只读IUpDownBarsManageraspose.slides.charts/iupdownbarsmanager
+description: 提供对折线图或股票图的向上/向下条的访问权限 只读IUpDownBarsManageraspose.slides.charts/iupdownbarsmanager.
 type: docs
 weight: 200
 url: /zh/net/aspose.slides.charts/ichartseriesgroup/updownbars/
 ---
 ## IChartSeriesGroup.UpDownBars property
 
-提供对折线图或股票图的向上/向下条的访问。 只读[`IUpDownBarsManager`](../../iupdownbarsmanager)。
+提供对折线图或股票图的向上/向下条的访问权限。 只读[`IUpDownBarsManager`](../../iupdownbarsmanager).
 
 ```csharp
 public IUpDownBarsManager UpDownBars { get; }

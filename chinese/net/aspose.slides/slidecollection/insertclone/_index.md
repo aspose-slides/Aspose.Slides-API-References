@@ -25,7 +25,7 @@ public ISlide InsertClone(int index, ISlide sourceSlide)
 
 ### 评论
 
-在不同的演示文稿之间克隆幻灯片时，也可以克隆幻灯片的母版。 内部注册表用于跟踪自动克隆的母版，以防止创建同一母版幻灯片的多个克隆。 不会阻止或注册手动克隆母版幻灯片。 如果您需要对克隆过程进行更多控制，请使用 [`InsertClone`](../insertclone)或 [`InsertClone`](../insertclone)用于克隆幻灯片和 [`AddClone`](../../imasterslidecollection/addclone)用于克隆母版。
+在不同演示文稿之间克隆幻灯片时，也可以克隆幻灯片的母版。 内部注册表用于跟踪自动克隆的母版，以防止创建同一母版幻灯片的多个克隆。 既不会阻止也不会注册手动克隆母版幻灯片。 如果您需要对克隆过程进行更多控制，请使用 [`InsertClone`](../insertclone) or [`InsertClone`](../insertclone)用于克隆幻灯片和 [`AddClone`](../../imasterslidecollection/addclone)用于克隆大师。
 
 ### 也可以看看
 
@@ -66,7 +66,7 @@ public ISlide InsertClone(int index, ISlide sourceSlide, ILayoutSlide destLayout
 
 ## InsertClone(int, ISlide, IMasterSlide, bool) {#insertclone_2}
 
-将指定源幻灯片的副本插入到集合的指定位置。 将自动从指定的 master 中选择适当的布局（适当的布局是与源幻灯片布局的 具有相同类型或名称的布局）。如果没有适当的布局，则源幻灯片的 布局将被克隆（如果 allowCloneMissingLayout 为真）或 PptxEditException 将被抛出（如果 allowCloneMissingLayout 是假的）。
+将指定源幻灯片的副本插入到集合的指定位置。 将从指定的 母版中自动选择适当的布局（适当的布局是与源幻灯片布局的 具有相同类型或名称的布局）。如果没有合适的布局 then 源幻灯片的布局将被克隆（如果 allowCloneMissingLayout 为真）或 PptxEditException 将被抛出（如果 allowCloneMissingLayout 为假）。
 
 ```csharp
 public ISlide InsertClone(int index, ISlide sourceSlide, IMasterSlide destMaster, 
@@ -78,7 +78,7 @@ public ISlide InsertClone(int index, ISlide sourceSlide, IMasterSlide destMaster
 | index | Int32 | 新幻灯片的索引。 |
 | sourceSlide | ISlide | 滑动克隆。 |
 | destMaster | IMasterSlide | 新幻灯片的母版幻灯片。 |
-| allowCloneMissingLayout | Boolean | 如果指定母版中没有适当的布局，则将克隆 源幻灯片的布局（如果 allowCloneMissingLayout 为 true）或 PptxEditException 将被抛出（如果 allowCloneMissingLayout 为 false）。 |
+| allowCloneMissingLayout | Boolean | 如果指定母版中没有适当的布局，则将克隆 源幻灯片的布局（如果 allowCloneMissingLayout 为 true）或抛出 PptxEditException（如果 allowCloneMissingLayout 为 false）。 |
 
 ### 返回值
 
@@ -88,7 +88,7 @@ public ISlide InsertClone(int index, ISlide sourceSlide, IMasterSlide destMaster
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| [PptxEditException](../../pptxeditexception) | 如果指定母版中没有适当的布局并且 allowCloneMissingLayout 为假。 |
+| [PptxEditException](../../pptxeditexception) | 如果在指定的 master 中没有合适的布局并且 allowCloneMissingLayout 为 false，则抛出。 |
 
 ### 也可以看看
 

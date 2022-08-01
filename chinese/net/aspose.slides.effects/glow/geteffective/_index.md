@@ -1,14 +1,14 @@
 ---
 title: GetEffective
 second_title: Aspose.Slides for .NET API 参考
-description: 获取应用了继承的有效辉光效果数据
+description: 获取应用了继承的有效发光效果数据
 type: docs
 weight: 40
 url: /zh/net/aspose.slides.effects/glow/geteffective/
 ---
 ## Glow.GetEffective method
 
-获取应用了继承的有效辉光效果数据。
+获取应用了继承的有效发光效果数据。
 
 ```csharp
 public IGlowEffectiveData GetEffective()
@@ -16,7 +16,7 @@ public IGlowEffectiveData GetEffective()
 
 ### 返回值
 
-A[`IGlowEffectiveData`](../../igloweffectivedata)。
+一个[`IGlowEffectiveData`](../../igloweffectivedata).
 
 ### 也可以看看
 

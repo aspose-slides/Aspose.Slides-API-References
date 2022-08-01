@@ -16,14 +16,14 @@ public void InitFormatSchemeFrom(IFormatScheme formatScheme)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| formatScheme | IFormatScheme | 初始化数据。 |
+| formatScheme | IFormatScheme | 要初始化的数据。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| InvalidOperationException | 如果 FormatScheme 已经初始化（非空）则抛出。 |
-| ArgumentNullException | 如果 formatScheme 参数为空则抛出。 |
+| InvalidOperationException | 如果 FormatScheme 已经初始化（非空），则抛出该异常。 |
+| ArgumentNullException | 如果 formatScheme 参数为 null，则引发。 |
 
 ### 也可以看看
 

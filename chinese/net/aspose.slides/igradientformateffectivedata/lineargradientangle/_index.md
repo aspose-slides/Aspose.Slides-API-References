@@ -1,14 +1,14 @@
 ---
 title: LinearGradientAngle
 second_title: Aspose.Slides for .NET API 参考
-description: 返回渐变的角度 只读Single
+description: 返回渐变的角度 只读Single.
 type: docs
 weight: 50
 url: /zh/net/aspose.slides/igradientformateffectivedata/lineargradientangle/
 ---
 ## IGradientFormatEffectiveData.LinearGradientAngle property
 
-返回渐变的角度。 只读Single。
+返回渐变的角度。 只读Single.
 
 ```csharp
 public float LinearGradientAngle { get; }

@@ -16,7 +16,7 @@ public MemoryStream ReadWorkbookStream()
 
 ### 返回值
 
-返回` MemoryStream`的实例 包含内部包含的 Excel 工作簿的副本。
+返回一个实例`记忆流`包含内部包含的 Excel 工作簿的副本。
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: Depth
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置段落的深度 值 0 表示未定义的值 读/写Int16
+description: 返回或设置段落的深度 值 0 表示未定义的值 读/写Int16.
 type: docs
 weight: 50
 url: /zh/net/aspose.slides/iparagraphformat/depth/
 ---
 ## IParagraphFormat.Depth property
 
-返回或设置段落的深度。 值 0 表示未定义的值。 读/写Int16。
+返回或设置段落的深度。 值 0 表示未定义的值。 读/写Int16.
 
 ```csharp
 public short Depth { get; set; }

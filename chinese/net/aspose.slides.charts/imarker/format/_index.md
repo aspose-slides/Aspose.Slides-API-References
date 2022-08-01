@@ -1,14 +1,14 @@
 ---
 title: Format
 second_title: Aspose.Slides for .NET API 参考
-description: 获取标记填充 只读IFormataspose.slides.charts/iformat
+description: 获取标记填充 只读IFormataspose.slides.charts/iformat.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides.charts/imarker/format/
 ---
 ## IMarker.Format property
 
-获取标记填充。 只读[`IFormat`](../../iformat)。
+获取标记填充。 只读[`IFormat`](../../iformat).
 
 ```csharp
 public IFormat Format { get; }

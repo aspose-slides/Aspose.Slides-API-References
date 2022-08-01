@@ -1,14 +1,14 @@
 ---
 title: Luminance
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает яркость в процентах. Только для чтенияSingle.
+description: Возвращает яркость в процентах. Только для чтенияSingle .
 type: docs
 weight: 30
 url: /ru/net/aspose.slides.effects/ihsleffectivedata/luminance/
 ---
 ## IHSLEffectiveData.Luminance property
 
-Возвращает яркость в процентах. Только для чтенияSingle.
+Возвращает яркость в процентах. Только для чтенияSingle .
 
 ```csharp
 public float Luminance { get; }

@@ -18,7 +18,7 @@ public interface IExtraColorSchemeCollection : IGenericCollection<IExtraColorSch
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Item](../../aspose.slides.theme/iextracolorschemecollection/item) { get; } | 按索引返回配色方案。 只读[`IExtraColorScheme`](../iextracolorscheme)。 |
+| [Item](../../aspose.slides.theme/iextracolorschemecollection/item) { get; } | 按索引返回配色方案。 只读[`IExtraColorScheme`](../iextracolorscheme). |
 
 ### 也可以看看
 

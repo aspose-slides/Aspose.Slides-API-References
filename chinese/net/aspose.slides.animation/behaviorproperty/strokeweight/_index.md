@@ -8,7 +8,7 @@ url: /zh/net/aspose.slides.animation/behaviorproperty/strokeweight/
 ---
 ## BehaviorProperty.StrokeWeight property
 
-表示'stroke.weight'属性
+表示“stroke.weight”属性
 
 ```csharp
 public static BehaviorProperty StrokeWeight { get; }

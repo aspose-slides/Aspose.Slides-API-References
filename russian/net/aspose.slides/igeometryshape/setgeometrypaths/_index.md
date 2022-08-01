@@ -1,14 +1,14 @@
 ---
 title: SetGeometryPaths
 second_title: Справочник по API Aspose.Slides для .NET
-description: Обновляет геометрию формы из массиваIGeometryPathaspose.slides/igeometrypath. Координаты должны быть относительно левого верхнего угла фигуры. Изменяет тип фигуры ShapeTypeaspose.slides/igeometryshape/shapetype наCustom.
+description: Обновляет геометрию формы из массиваIGeometryPathaspose.slides/igeometrypath. Координаты должны указываться относительно левого верхнего угла фигуры. Изменяет тип фигуры ShapeTypeaspose.slides/igeometryshape/shapetype  кCustom .
 type: docs
 weight: 80
 url: /ru/net/aspose.slides/igeometryshape/setgeometrypaths/
 ---
 ## IGeometryShape.SetGeometryPaths method
 
-Обновляет геометрию формы из массива[`IGeometryPath`](../../igeometrypath). Координаты должны быть относительно левого верхнего угла фигуры. Изменяет тип фигуры ([`ShapeType`](../shapetype)) наCustom.
+Обновляет геометрию формы из массива[`IGeometryPath`](../../igeometrypath). Координаты должны указываться относительно левого верхнего угла фигуры. Изменяет тип фигуры ([`ShapeType`](../shapetype) ) кCustom .
 
 ```csharp
 public void SetGeometryPaths(IGeometryPath[] geometryPaths)

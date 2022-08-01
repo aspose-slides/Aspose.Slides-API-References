@@ -1,14 +1,14 @@
 ---
 title: Level
 second_title: Aspose.Slides for .NET API 参考
-description: 返回节点的嵌套级别 只读Int32
+description: 返回节点的嵌套级别 只读Int32.
 type: docs
 weight: 50
 url: /zh/net/aspose.slides.smartart/smartartnode/level/
 ---
 ## SmartArtNode.Level property
 
-返回节点的嵌套级别。 只读Int32。
+返回节点的嵌套级别。 只读Int32.
 
 ```csharp
 public int Level { get; }

@@ -16,7 +16,7 @@ public IAlphaModulate CreateAlphaModulate()
 
 ### 返回值
 
-Alpha 调制效果。
+阿尔法调制效果。
 
 ### 也可以看看
 

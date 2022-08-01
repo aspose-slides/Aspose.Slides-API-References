@@ -20,7 +20,7 @@ public IParagraphFormatEffectiveData GetLevel(int index)
 
 ### Возвращаемое значение
 
-Эффективное форматирование уровня[`IParagraphFormatEffectiveData`](../../iparagraphformateffectivedata).
+Эффективное форматирование уровня[`IParagraphFormatEffectiveData`](../../iparagraphformateffectivedata) .
 
 ### Смотрите также
 

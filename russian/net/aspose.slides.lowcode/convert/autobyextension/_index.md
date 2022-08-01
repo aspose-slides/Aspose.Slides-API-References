@@ -1,14 +1,14 @@
 ---
 title: AutoByExtension
 second_title: Справочник по API Aspose.Slides для .NET
-description: ПреобразуетPresentationaspose.slides/presentationс использованием переданного расширения выходного пути для определения требуемого формата экспорта.
+description: ПреобразуетPresentationaspose.slides/presentation используя переданное расширение выходного пути чтобы определить требуемый формат экспорта.
 type: docs
 weight: 10
 url: /ru/net/aspose.slides.lowcode/convert/autobyextension/
 ---
 ## Convert.AutoByExtension method
 
-Преобразует[`Presentation`](../../../aspose.slides/presentation)с использованием переданного расширения выходного пути для определения требуемого формата экспорта.
+Преобразует[`Presentation`](../../../aspose.slides/presentation) используя переданное расширение выходного пути, чтобы определить требуемый формат экспорта.
 
 ```csharp
 public static void AutoByExtension(string presPath, string outPath)

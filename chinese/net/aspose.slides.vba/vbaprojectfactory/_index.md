@@ -24,7 +24,7 @@ public class VbaProjectFactory : IVbaProjectFactory
 
 | 姓名 | 描述 |
 | --- | --- |
-| static [Instance](../../aspose.slides.vba/vbaprojectfactory/instance) { get; } | VBA 项目工厂静态实例。 只读[`VbaProjectFactory`](../vbaprojectfactory)。 |
+| static [Instance](../../aspose.slides.vba/vbaprojectfactory/instance) { get; } | VBA 工程工厂静态实例。 只读[`VbaProjectFactory`](../vbaprojectfactory). |
 
 ## 方法
 

@@ -1,14 +1,14 @@
 ---
 title: TextAnchorType
 second_title: Aspose.Slides for .NET API 参考
-description: 文本区域内的文本框对齐
+description: 文本区域内的文本框对齐方式
 type: docs
 weight: 10100
 url: /zh/net/aspose.slides/textanchortype/
 ---
 ## TextAnchorType enumeration
 
-文本区域内的文本框对齐。
+文本区域内的文本框对齐方式。
 
 ```csharp
 public enum TextAnchorType : sbyte

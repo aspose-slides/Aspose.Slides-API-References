@@ -18,11 +18,11 @@ public interface INotesCommentsLayoutingOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [CommentsAreaColor](../../aspose.slides.export/inotescommentslayoutingoptions/commentsareacolor) { get; set; } | 获取或设置评论区的颜色 （仅适用于评论显示在右侧）。 |
+| [CommentsAreaColor](../../aspose.slides.export/inotescommentslayoutingoptions/commentsareacolor) { get; set; } | 获取或设置评论区颜色 （仅当评论显示在右侧时才适用） |
 | [CommentsAreaWidth](../../aspose.slides.export/inotescommentslayoutingoptions/commentsareawidth) { get; set; } | 获取或设置评论输出区域的宽度，以像素为单位 （仅适用于评论显示在右侧）。 |
 | [CommentsPosition](../../aspose.slides.export/inotescommentslayoutingoptions/commentsposition) { get; set; } | 获取或设置评论在页面上的位置。 |
 | [NotesPosition](../../aspose.slides.export/inotescommentslayoutingoptions/notesposition) { get; set; } | 获取或设置笔记在页面上的位置。 |
-| [ShowCommentsByNoAuthor](../../aspose.slides.export/inotescommentslayoutingoptions/showcommentsbynoauthor) { get; set; } | 获取或设置没有作者的评论的可见性。如果为真，那么评论 将被显示。 （仅在显示评论时适用）。 |
+| [ShowCommentsByNoAuthor](../../aspose.slides.export/inotescommentslayoutingoptions/showcommentsbynoauthor) { get; set; } | 获取或设置没有作者的评论的可见性。如果为 true，则将显示评论 。 （仅在显示评论时适用）。 |
 
 ### 也可以看看
 

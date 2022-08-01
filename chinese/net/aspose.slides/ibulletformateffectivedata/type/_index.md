@@ -1,14 +1,14 @@
 ---
 title: Type
 second_title: Aspose.Slides for .NET API 参考
-description: 返回段落的项目符号类型 只读BulletTypeaspose.slides/bullettype
+description: 返回段落的项目符号类型 只读BulletTypeaspose.slides/bullettype.
 type: docs
 weight: 100
 url: /zh/net/aspose.slides/ibulletformateffectivedata/type/
 ---
 ## IBulletFormatEffectiveData.Type property
 
-返回段落的项目符号类型。 只读[`BulletType`](../../bullettype)。
+返回段落的项目符号类型。 只读[`BulletType`](../../bullettype).
 
 ```csharp
 public BulletType Type { get; }

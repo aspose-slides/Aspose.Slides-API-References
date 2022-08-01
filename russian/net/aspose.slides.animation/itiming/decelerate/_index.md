@@ -1,14 +1,14 @@
 ---
 title: Decelerate
 second_title: Справочник по API Aspose.Slides для .NET
-description: Описывает процент продолжительности эффекта замедления поведения. Чтение/записьSingle.
+description: Описывает процент продолжительности эффекта замедления поведения. Чтение/записьSingle .
 type: docs
 weight: 30
 url: /ru/net/aspose.slides.animation/itiming/decelerate/
 ---
 ## ITiming.Decelerate property
 
-Описывает процент продолжительности эффекта замедления поведения. Чтение/записьSingle.
+Описывает процент продолжительности эффекта замедления поведения. Чтение/записьSingle .
 
 ```csharp
 public float Decelerate { get; set; }

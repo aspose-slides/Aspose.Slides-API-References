@@ -1,14 +1,14 @@
 ---
 title: SpaceWithin
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置段落中基线之间的空间量 读/写Single
+description: 返回或设置段落中基线之间的空间量 读/写Single.
 type: docs
 weight: 130
 url: /zh/net/aspose.slides.charts/ichartparagraphformat/spacewithin/
 ---
 ## IChartParagraphFormat.SpaceWithin property
 
-返回或设置段落中基线之间的空间量。 读/写Single。
+返回或设置段落中基线之间的空间量。 读/写Single.
 
 ```csharp
 public float SpaceWithin { get; set; }

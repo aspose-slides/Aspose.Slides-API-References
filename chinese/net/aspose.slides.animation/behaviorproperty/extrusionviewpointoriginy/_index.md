@@ -1,14 +1,14 @@
 ---
 title: ExtrusionViewPointOriginY
 second_title: Aspose.Slides for .NET API 参考
-description: 表示 extrusion.viewpointorigin.y 属性
+description: 表示extrusion.viewpointorigin.y 属性
 type: docs
 weight: 230
 url: /zh/net/aspose.slides.animation/behaviorproperty/extrusionviewpointoriginy/
 ---
 ## BehaviorProperty.ExtrusionViewPointOriginY property
 
-表示 'extrusion.viewpointorigin.y' 属性
+表示'extrusion.viewpointorigin.y' 属性
 
 ```csharp
 public static BehaviorProperty ExtrusionViewPointOriginY { get; }

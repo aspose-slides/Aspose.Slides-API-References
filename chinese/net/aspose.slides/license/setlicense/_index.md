@@ -20,7 +20,7 @@ public void SetLicense(string licenseName)
 
 ### 评论
 
-尝试在以下位置查找许可证:
+尝试在以下位置查找许可证：
 
 1. 显式路径。
 
@@ -28,11 +28,11 @@ public void SetLicense(string licenseName)
 
 3. 客户端调用程序集的文件夹。
 
-4. 入口程序集所在文件夹。
+4.入口组件的文件夹。
 
 5. 客户端调用程序集中的嵌入资源。
 
-**注意:** 在 .NET Compact Framework 上，尝试仅在这些位置查找许可证
+**笔记：**在 .NET Compact Framework 上，尝试仅在以下位置查找许可证：
 
 1. 显式路径。
 
@@ -40,7 +40,7 @@ public void SetLicense(string licenseName)
 
 ### 例子
 
-在本例中，将尝试查找名为 MyLicense.lic 的许可证文件 在包含组件的文件夹中，在包含调用程序集的文件夹中， 在条目程序集的文件夹中，然后在调用程序集的嵌入资源中。
+在此示例中，将尝试在包含组件的文件夹中、在包含调用程序集的文件夹中、 在条目程序集的文件夹中找到名为 MyLicense.lic 的许可证文件，然后在嵌入的资源中调用程序集的.
 
 ```csharp
 [C#]
@@ -77,7 +77,7 @@ public void SetLicense(Stream stream)
 
 ### 评论
 
-使用此方法从流中加载许可证。
+使用此方法从流加载许可证。
 
 ### 例子
 

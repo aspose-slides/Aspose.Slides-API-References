@@ -1,14 +1,14 @@
 ---
 title: Escapement
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает текст верхнего или нижнего индекса. Значение от -100 нижний индекс до 100 верхний индекс. Только для чтенияSingle.
+description: Возвращает текст верхнего или нижнего индекса. Значение от -100 нижний индекс до 100 верхний индекс. Только для чтенияSingle .
 type: docs
 weight: 50
 url: /ru/net/aspose.slides/ibaseportionformateffectivedata/escapement/
 ---
 ## IBasePortionFormatEffectiveData.Escapement property
 
-Возвращает текст верхнего или нижнего индекса. Значение от -100% (нижний индекс) до 100% (верхний индекс). Только для чтенияSingle.
+Возвращает текст верхнего или нижнего индекса. Значение от -100% (нижний индекс) до 100% (верхний индекс). Только для чтенияSingle .
 
 ```csharp
 public float Escapement { get; }

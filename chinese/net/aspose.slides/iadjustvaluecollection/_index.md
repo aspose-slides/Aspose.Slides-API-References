@@ -18,9 +18,9 @@ public interface IAdjustValueCollection : ICollection
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsICollection](../../aspose.slides/iadjustvaluecollection/asicollection) { get; } | 允许获取基本 ICollection 接口。 只读ICollection。 |
-| [AsIEnumerable](../../aspose.slides/iadjustvaluecollection/asienumerable) { get; } | 返回 IEnumerable 接口。 只读IEnumerable。 |
-| [Item](../../aspose.slides/iadjustvaluecollection/item) { get; } | 按索引返回调整。 |
+| [AsICollection](../../aspose.slides/iadjustvaluecollection/asicollection) { get; } | 允许获取基本 ICollection 接口。 只读ICollection. |
+| [AsIEnumerable](../../aspose.slides/iadjustvaluecollection/asienumerable) { get; } | 返回 IEnumerable 接口。 只读IEnumerable. |
+| [Item](../../aspose.slides/iadjustvaluecollection/item) { get; } | 按索引返回调整值。 |
 
 ### 也可以看看
 

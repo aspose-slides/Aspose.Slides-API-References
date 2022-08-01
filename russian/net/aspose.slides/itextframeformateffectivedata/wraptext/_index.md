@@ -1,14 +1,14 @@
 ---
 title: WrapText
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает если текст перенесен на поля TextFrame. Только чтениеBoolean.
+description: Возвращает если текст обтекает поля TextFrame. Только для чтенияBoolean .
 type: docs
 weight: 120
 url: /ru/net/aspose.slides/itextframeformateffectivedata/wraptext/
 ---
 ## ITextFrameFormatEffectiveData.WrapText property
 
-Возвращает, если текст перенесен на поля TextFrame. Только чтениеBoolean.
+Возвращает, если текст обтекает поля TextFrame. Только для чтенияBoolean .
 
 ```csharp
 public bool WrapText { get; }

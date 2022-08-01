@@ -19,10 +19,10 @@ public interface IDataLabel : IActualLayout, ILayoutable, IOverridableText
 | Имя | Описание |
 | --- | --- |
 | [AsIActualLayout](../../aspose.slides.charts/idatalabel/asiactuallayout) { get; } | Возвращает интерфейс IActualLayout. |
-| [AsILayoutable](../../aspose.slides.charts/idatalabel/asilayoutable) { get; } | Возвращает интерфейс ILayoutable. Только для чтения[`ILayoutable`](../ilayoutable). |
-| [AsIOverridableText](../../aspose.slides.charts/idatalabel/asioverridabletext) { get; } | Возвращает интерфейс IOverridableText. Только для чтения[`IOverridableText`](../ioverridabletext). |
-| [DataLabelFormat](../../aspose.slides.charts/idatalabel/datalabelformat) { get; } | Возвращает формат метки данных. Только для чтения[`IDataLabelFormat`](../idatalabelformat). |
-| [IsVisible](../../aspose.slides.charts/idatalabel/isvisible) { get; } | False означает, что метка данных не видна (поэтому все флаги Show* (ShowValue, ...) ложны). Только чтениеBoolean. |
+| [AsILayoutable](../../aspose.slides.charts/idatalabel/asilayoutable) { get; } | Возвращает интерфейс ILayoutable. Только для чтения[`ILayoutable`](../ilayoutable) . |
+| [AsIOverridableText](../../aspose.slides.charts/idatalabel/asioverridabletext) { get; } | Возвращает интерфейс IOverridableText. Только для чтения[`IOverridableText`](../ioverridabletext) . |
+| [DataLabelFormat](../../aspose.slides.charts/idatalabel/datalabelformat) { get; } | Возвращает формат метки данных. Только для чтения[`IDataLabelFormat`](../idatalabelformat) . |
+| [IsVisible](../../aspose.slides.charts/idatalabel/isvisible) { get; } | False означает, что метка данных не видна (поэтому все флаги Show* (ShowValue, ...) имеют значение false). Только для чтенияBoolean . |
 | [ValueFromCell](../../aspose.slides.charts/idatalabel/valuefromcell) { get; set; } | Получает или задает ячейку данных рабочей книги. Применяется, если свойство IDataLabelFormat.ShowLabelValueFromCell равно true. |
 
 ## Методы
@@ -30,7 +30,7 @@ public interface IDataLabel : IActualLayout, ILayoutable, IOverridableText
 | Имя | Описание |
 | --- | --- |
 | [GetActualLabelText](../../aspose.slides.charts/idatalabel/getactuallabeltext)() | Возвращает фактический текст метки на основе настроек DataLabelFormat или значения TextFrameForOverriding.Text. |
-| [Hide](../../aspose.slides.charts/idatalabel/hide)() | Сделать метку данных скрытой, установив все флаги Show* (ShowValue, ...) в ложное состояние. IsVisible после этого будет false. |
+| [Hide](../../aspose.slides.charts/idatalabel/hide)() | Сделать метку данных скрытой, установив все флаги Show* (ShowValue, ...) в ложное состояние. После этого IsVisible станет ложным. |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: Aspose.Slides for .NET API 参考
-description: 确定指定的AlphaModulateaspose.slides.effects/alphamodulate是否等于当前的AlphaModulate
+description: 判断是否指定AlphaModulateaspose.slides.effects/alphamodulate等于当前AlphaModulateaspose.slides.effects/alphamodulate.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides.effects/alphamodulate/equals/
 ---
 ## AlphaModulate.Equals method
 
-确定指定的[`AlphaModulate`](../../alphamodulate)是否等于当前的AlphaModulate。
+判断是否指定[`AlphaModulate`](../../alphamodulate)等于当前[`AlphaModulate`](../../alphamodulate).
 
 ```csharp
 public override bool Equals(object obj)
@@ -16,11 +16,11 @@ public override bool Equals(object obj)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| obj | Object | [`AlphaModulate`](../../alphamodulate)进行比较。 |
+| obj | Object | 这[`AlphaModulate`](../../alphamodulate)比较。 |
 
 ### 返回值
 
-如果对象相等，则为真；否则为假。
+如果对象相等，则为 true；否则为假。
 
 ### 也可以看看
 

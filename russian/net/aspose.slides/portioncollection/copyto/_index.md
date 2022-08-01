@@ -1,14 +1,14 @@
 ---
 title: CopyTo
 second_title: Справочник по API Aspose.Slides для .NET
-description: Копирует элементыICollectionвArray начиная с определенногоArrayindex.
+description: Копирует элементыICollection чтобыArray  начиная с определенногоArray индекс.
 type: docs
 weight: 70
 url: /ru/net/aspose.slides/portioncollection/copyto/
 ---
 ## PortionCollection.CopyTo method
 
-Копирует элементыICollectionвArray, начиная с определенногоArrayindex.
+Копирует элементыICollection чтобыArray , начиная с определенногоArray индекс.
 
 ```csharp
 public void CopyTo(IPortion[] array, int arrayIndex)
@@ -16,16 +16,16 @@ public void CopyTo(IPortion[] array, int arrayIndex)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| array | IPortion[] | ОдномерныйArrayкуда копируются элементы fromICollection.Arrayдолжен иметь индексацию с отсчетом от нуля. |
-| arrayIndex | Int32 | Отсчитываемый от нуля индекс в*array*с которого начинается копирование. |
+| array | IPortion[] | одномерныйArray это место назначения элементов, скопированных изICollection .Array должны иметь индексацию с отсчетом от нуля. |
+| arrayIndex | Int32 | Индекс с отсчетом от нуля в*array* при котором начинается копирование. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *array*равно нулю. |
-| ArgumentOutOfRangeException | *arrayIndex*меньше 0. |
-| ArgumentException | Количество элементов в источникеICollectionбольше, чем доступное пространство из*arrayIndex*до конца адресата*array*. |
+| ArgumentNullException | *array* нулевой. |
+| ArgumentOutOfRangeException | *arrayIndex* меньше 0. |
+| ArgumentException | Количество элементов в исходникеICollection больше, чем доступное пространство от*arrayIndex* до конца пункта назначения*array*. |
 
 ### Смотрите также
 

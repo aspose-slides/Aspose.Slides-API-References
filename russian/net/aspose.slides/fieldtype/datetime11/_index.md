@@ -1,14 +1,14 @@
 ---
 title: DateTime11
 second_title: Справочник по API Aspose.Slides для .NET
-description: Текущая дата и время в одиннадцатом предустановленном формате ччммсс для английского. Только для чтенияFieldTypeaspose.slides/fieldtype.
+description: Текущая дата и время в одиннадцатом предварительно заданном формате ччммсс для английского. Только для чтенияFieldTypeaspose.slides/fieldtype .
 type: docs
 weight: 50
 url: /ru/net/aspose.slides/fieldtype/datetime11/
 ---
 ## FieldType.DateTime11 property
 
-Текущая дата и время в одиннадцатом предустановленном формате (чч:мм:сс для английского). Только для чтения[`FieldType`](../../fieldtype).
+Текущая дата и время в одиннадцатом предварительно заданном формате (чч:мм:сс для английского). Только для чтения[`FieldType`](../../fieldtype) .
 
 ```csharp
 public static FieldType DateTime11 { get; }

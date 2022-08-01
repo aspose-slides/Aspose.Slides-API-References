@@ -1,14 +1,14 @@
 ---
 title: PatternStyle
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или задает стиль узора. Чтение/записьPatternStyleaspose.slides/patternstyle.
+description: Возвращает или задает стиль шаблона. Чтение/записьPatternStyleaspose.slides/patternstyle .
 type: docs
 weight: 30
 url: /ru/net/aspose.slides/ipatternformat/patternstyle/
 ---
 ## IPatternFormat.PatternStyle property
 
-Возвращает или задает стиль узора. Чтение/запись[`PatternStyle`](../../patternstyle).
+Возвращает или задает стиль шаблона. Чтение/запись[`PatternStyle`](../../patternstyle) .
 
 ```csharp
 public PatternStyle PatternStyle { get; set; }

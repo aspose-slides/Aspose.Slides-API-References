@@ -1,14 +1,14 @@
 ---
 title: IsPasswordProtected
 second_title: Aspose.Slides for .NET API 参考
-description: 获取一个值该值指示绑定的演示文稿是否受密码保护才能打开
+description: 获取一个值该值指示绑定的演示文稿是否受打开密码保护
 type: docs
 weight: 20
 url: /zh/net/aspose.slides/presentationinfo/ispasswordprotected/
 ---
 ## PresentationInfo.IsPasswordProtected property
 
-获取一个值，该值指示绑定的演示文稿是否受密码保护才能打开。
+获取一个值，该值指示绑定的演示文稿是否受打开密码保护。
 
 ```csharp
 public bool IsPasswordProtected { get; }

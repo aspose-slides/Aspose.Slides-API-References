@@ -1,14 +1,14 @@
 ---
 title: FillFormat
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает эффективное значение формата заполнения. Только для чтенияIFillFormatEffectiveDataaspose.slides/ifillformateffectivedata.
+description: Возвращает эффективное значение формата заполнения. Только для чтенияIFillFormatEffectiveDataaspose.slides/ifillformateffectivedata .
 type: docs
 weight: 70
 url: /ru/net/aspose.slides/ibasetableformateffectivedata/fillformat/
 ---
 ## IBaseTableFormatEffectiveData.FillFormat property
 
-Возвращает эффективное значение формата заполнения. Только для чтения[`IFillFormatEffectiveData`](../../ifillformateffectivedata).
+Возвращает эффективное значение формата заполнения. Только для чтения[`IFillFormatEffectiveData`](../../ifillformateffectivedata) .
 
 ```csharp
 public IFillFormatEffectiveData FillFormat { get; }

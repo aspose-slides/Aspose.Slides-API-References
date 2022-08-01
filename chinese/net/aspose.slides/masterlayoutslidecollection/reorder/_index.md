@@ -16,7 +16,7 @@ public void Reorder(int index, ILayoutSlide layoutSlide)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| index | Int32 | 目标索引。 |
+| index | Int32 | 目标指数。 |
 | layoutSlide | ILayoutSlide | 滑动移动。 |
 
 ### 也可以看看

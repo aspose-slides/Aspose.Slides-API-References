@@ -1,14 +1,14 @@
 ---
 title: EmbeddedFileData
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает данные файла встроенного объекта OLE Только чтениеByte.
+description: Возвращает данные файла встроенного объекта OLE Только для чтенияByte .
 type: docs
 weight: 20
 url: /ru/net/aspose.slides.dom.ole/oleembeddeddatainfo/embeddedfiledata/
 ---
 ## OleEmbeddedDataInfo.EmbeddedFileData property
 
-Возвращает данные файла встроенного объекта OLE Только чтениеByte[].
+Возвращает данные файла встроенного объекта OLE Только для чтенияByte [].
 
 ```csharp
 public byte[] EmbeddedFileData { get; }

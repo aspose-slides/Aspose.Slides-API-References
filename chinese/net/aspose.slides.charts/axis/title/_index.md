@@ -1,14 +1,14 @@
 ---
 title: Title
 second_title: Aspose.Slides for .NET API 参考
-description: 获取轴的标题 只读IChartTitleaspose.slides.charts/icharttitle
+description: 获取轴的标题 只读IChartTitleaspose.slides.charts/icharttitle.
 type: docs
 weight: 550
 url: /zh/net/aspose.slides.charts/axis/title/
 ---
 ## Axis.Title property
 
-获取轴的标题。 只读[`IChartTitle`](../../icharttitle)。
+获取轴的标题。 只读[`IChartTitle`](../../icharttitle).
 
 ```csharp
 public IChartTitle Title { get; }

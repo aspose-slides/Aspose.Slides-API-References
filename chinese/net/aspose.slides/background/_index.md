@@ -1,14 +1,14 @@
 ---
 title: Background
 second_title: Aspose.Slides for .NET API 参考
-description: 表示幻灯片的背景
+description: 代表幻灯片的背景
 type: docs
 weight: 830
 url: /zh/net/aspose.slides/background/
 ---
 ## Background class
 
-表示幻灯片的背景。
+代表幻灯片的背景。
 
 ```csharp
 public sealed class Background : PVIObject, IBackground
@@ -18,14 +18,14 @@ public sealed class Background : PVIObject, IBackground
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允许获取基本 IPresentationComponent 接口。 只读[`IPresentationComponent`](../ipresentationcomponent)。 |
-| [EffectFormat](../../aspose.slides/background/effectformat) { get; } | 返回 BackgroundType.OwnBackground 填充的 EffectFormat。 只读[`IEffectFormat`](../ieffectformat)。 |
-| [FillFormat](../../aspose.slides/background/fillformat) { get; } | 返回 BackgroundType.OwnBackground 填充的 FillFormat。 只读[`IFillFormat`](../ifillformat)。 |
-| [Presentation](../../aspose.slides/background/presentation) { get; } | 返回幻灯片的父演示文稿。 只读[`IPresentation`](../ipresentation)。 |
-| [Slide](../../aspose.slides/background/slide) { get; } | 返回形状的父幻灯片。 只读[`IBaseSlide`](../ibaseslide)。 |
-| [StyleColor](../../aspose.slides/background/stylecolor) { get; } | 为 BackgroundType.Themed 填充返回 ColorFormat。 只读[`IColorFormat`](../icolorformat)。 |
-| [StyleIndex](../../aspose.slides/background/styleindex) { get; set; } | 返回BackgroundType的索引。Themed填充背景主题集合。 0 表示没有填充。 1..999 - 索引。 读/写UInt16。 |
-| [Type](../../aspose.slides/background/type) { get; set; } | 返回一种背景填充。 读/写[`BackgroundType`](../backgroundtype)。 |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允许获取基本 IPresentationComponent 接口。 只读[`IPresentationComponent`](../ipresentationcomponent). |
+| [EffectFormat](../../aspose.slides/background/effectformat) { get; } | 返回 BackgroundType.OwnBackground 填充的 EffectFormat。 只读[`IEffectFormat`](../ieffectformat). |
+| [FillFormat](../../aspose.slides/background/fillformat) { get; } | 返回 BackgroundType 的 FillFormat。OwnBackground 填充。 只读[`IFillFormat`](../ifillformat). |
+| [Presentation](../../aspose.slides/background/presentation) { get; } | 返回幻灯片的父演示文稿。 只读[`IPresentation`](../ipresentation). |
+| [Slide](../../aspose.slides/background/slide) { get; } | 返回形状的父幻灯片。 只读[`IBaseSlide`](../ibaseslide). |
+| [StyleColor](../../aspose.slides/background/stylecolor) { get; } | 返回背景类型的颜色格式。主题填充。 只读[`IColorFormat`](../icolorformat). |
+| [StyleIndex](../../aspose.slides/background/styleindex) { get; set; } | 返回BackgroundType 的索引。主题填充背景主题集合。 0 表示不填充。 1..999 - 索引。 读/写UInt16. |
+| [Type](../../aspose.slides/background/type) { get; set; } | 返回一种背景填充类型。 读/写[`BackgroundType`](../backgroundtype). |
 
 ## 方法
 

@@ -1,14 +1,14 @@
 ---
 title: Width
 second_title: Aspose.Slides for .NET API 参考
-description: 斜角宽度 读/写Double
+description: 斜角宽度 读/写Double.
 type: docs
 weight: 40
 url: /zh/net/aspose.slides/shapebevel/width/
 ---
 ## ShapeBevel.Width property
 
-斜角宽度。 读/写Double。
+斜角宽度。 读/写Double.
 
 ```csharp
 public double Width { get; set; }

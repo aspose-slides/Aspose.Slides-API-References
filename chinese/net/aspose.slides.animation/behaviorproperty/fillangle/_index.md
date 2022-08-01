@@ -1,14 +1,14 @@
 ---
 title: FillAngle
 second_title: Aspose.Slides for .NET API 参考
-description: 表示fill.angle属性
+description: 表示fill.angle 属性
 type: docs
 weight: 270
 url: /zh/net/aspose.slides.animation/behaviorproperty/fillangle/
 ---
 ## BehaviorProperty.FillAngle property
 
-表示'fill.angle'属性
+表示'fill.angle' 属性
 
 ```csharp
 public static BehaviorProperty FillAngle { get; }

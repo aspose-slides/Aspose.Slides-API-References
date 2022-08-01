@@ -1,14 +1,14 @@
 ---
 title: LayoutTargetType
 second_title: Aspose.Slides for .NET API 参考
-description: 如果手动定义绘图区域的布局此属性指定 是否按内部布局绘图区域不包括轴和轴标签或在 之外包括轴和轴标签 读/写LayoutTargetTypeaspose.slides.charts/chartplotarea/layouttargettype
+description: 如果手动定义绘图区域的布局此属性指定 是按其内部不包括轴和轴标签还是外部 包括轴和轴标签来布局绘图区域 读/写LayoutTargetTypeaspose.slides.charts/chartplotarea/layouttargettype.
 type: docs
 weight: 100
 url: /zh/net/aspose.slides.charts/chartplotarea/layouttargettype/
 ---
 ## ChartPlotArea.LayoutTargetType property
 
-如果手动定义绘图区域的布局，此属性指定 是否按内部布局绘图区域（不包括轴和轴标签）或在 之外（包括轴和轴标签）。 读/写`LayoutTargetType`。
+如果手动定义绘图区域的布局，此属性指定 是按其内部（不包括轴和轴标签）还是外部 （包括轴和轴标签）来布局绘图区域。 读/写`LayoutTargetType`.
 
 ```csharp
 public LayoutTargetType LayoutTargetType { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: GetByType
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает первый макет слайда указанного типа.  Тип макета слайда для поиска.LayoutSlideaspose.slides/layoutslideс указанным типом или null если макеты не найдены.
+description: Возвращает первый слайд макета указанного типа. Тип макета слайда для поиска.LayoutSlideaspose.slides/layoutslide с указанным типом или null если макеты не найдены.
 type: docs
 weight: 60
 url: /ru/net/aspose.slides/layoutslidecollection/getbytype/
 ---
 ## LayoutSlideCollection.GetByType method
 
-Возвращает первый макет слайда указанного типа.  Тип макета слайда для поиска.[`LayoutSlide`](../../layoutslide)с указанным типом или null, если макеты не найдены.
+Возвращает первый слайд макета указанного типа. Тип макета слайда для поиска.[`LayoutSlide`](../../layoutslide) с указанным типом или null, если макеты не найдены.
 
 ```csharp
 public ILayoutSlide GetByType(SlideLayoutType type)

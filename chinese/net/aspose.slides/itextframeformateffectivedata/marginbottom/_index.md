@@ -1,14 +1,14 @@
 ---
 title: MarginBottom
 second_title: Aspose.Slides for .NET API 参考
-description: 返回 TextFrame 中的底部边距点 只读Double
+description: 返回 TextFrame 中的下边距点 只读Double.
 type: docs
 weight: 60
 url: /zh/net/aspose.slides/itextframeformateffectivedata/marginbottom/
 ---
 ## ITextFrameFormatEffectiveData.MarginBottom property
 
-返回 TextFrame 中的底部边距（点）。 只读Double。
+返回 TextFrame 中的下边距（点）。 只读Double.
 
 ```csharp
 public double MarginBottom { get; }

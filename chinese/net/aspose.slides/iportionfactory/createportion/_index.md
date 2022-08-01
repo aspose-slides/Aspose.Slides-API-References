@@ -1,14 +1,14 @@
 ---
 title: CreatePortion
 second_title: Aspose.Slides for .NET API 参考
-description: 创建一个空文本部分
+description: 创建一个空的文本部分
 type: docs
 weight: 10
 url: /zh/net/aspose.slides/iportionfactory/createportion/
 ---
 ## CreatePortion() {#createportion}
 
-创建一个空文本部分。
+创建一个空的文本部分。
 
 ```csharp
 public IPortion CreatePortion()
@@ -29,7 +29,7 @@ public IPortion CreatePortion()
 
 ## CreatePortion(string) {#createportion_2}
 
-从指定字符串创建文本部分。
+从指定的字符串创建文本部分。
 
 ```csharp
 public IPortion CreatePortion(string str)
@@ -37,7 +37,7 @@ public IPortion CreatePortion(string str)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| str | String | 字符串。 |
+| str | String | 细绳。 |
 
 ### 返回值
 
@@ -62,7 +62,7 @@ public IPortion CreatePortion(IPortion portion)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| portion | IPortion | 要使用的部分。 |
+| portion | IPortion | 使用的一部分。 |
 
 ### 返回值
 

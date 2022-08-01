@@ -1,14 +1,14 @@
 ---
 title: FirstColumn
 second_title: Aspose.Slides for .NET API 参考
-description: 获取单元格的第一列 只读IColumnaspose.slides/icolumn
+description: 获取单元格的第一列 只读IColumnaspose.slides/icolumn.
 type: docs
 weight: 50
 url: /zh/net/aspose.slides/icell/firstcolumn/
 ---
 ## ICell.FirstColumn property
 
-获取单元格的第一列。 只读[`IColumn`](../../icolumn)。
+获取单元格的第一列。 只读[`IColumn`](../../icolumn).
 
 ```csharp
 public IColumn FirstColumn { get; }

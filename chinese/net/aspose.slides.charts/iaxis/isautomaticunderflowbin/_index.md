@@ -1,14 +1,14 @@
 ---
 title: IsAutomaticUnderflowBin
 second_title: Aspose.Slides for .NET API 参考
-description: 指定自动下溢 bin 值如果为 false使用 UnderflowBin 属性
+description: 指定自动下溢 bin 值如果为假使用 UnderflowBin 属性
 type: docs
 weight: 250
 url: /zh/net/aspose.slides.charts/iaxis/isautomaticunderflowbin/
 ---
 ## IAxis.IsAutomaticUnderflowBin property
 
-指定自动下溢 bin 值。如果为 false:使用 UnderflowBin 属性。
+指定自动下溢 bin 值。如果为假：使用 UnderflowBin 属性。
 
 ```csharp
 public bool IsAutomaticUnderflowBin { get; set; }

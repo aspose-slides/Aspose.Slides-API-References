@@ -1,14 +1,14 @@
 ---
 title: ExternalUrl
 second_title: Справочник по API Aspose.Slides для .NET
-description: Указывает внешний URL-адрес. Только чтениеString.
+description: Указывает внешний URL. Только для чтенияString .
 type: docs
 weight: 120
 url: /ru/net/aspose.slides/hyperlink/externalurl/
 ---
 ## Hyperlink.ExternalUrl property
 
-Указывает внешний URL-адрес. Только чтениеString.
+Указывает внешний URL. Только для чтенияString .
 
 ```csharp
 public string ExternalUrl { get; }

@@ -1,14 +1,14 @@
 ---
 title: LatinFont
 second_title: Aspose.Slides for .NET API 参考
-description: 返回拉丁字体 只读IFontDataaspose.slides/ifontdata
+description: 返回拉丁字体 只读IFontDataaspose.slides/ifontdata.
 type: docs
 weight: 30
 url: /zh/net/aspose.slides/ifontseffectivedata/latinfont/
 ---
 ## IFontsEffectiveData.LatinFont property
 
-返回拉丁字体。 只读[`IFontData`](../../ifontdata)。
+返回拉丁字体。 只读[`IFontData`](../../ifontdata).
 
 ```csharp
 public IFontData LatinFont { get; }

@@ -1,14 +1,14 @@
 ---
 title: TrendlineType
 second_title: Справочник по API Aspose.Slides для .NET
-description: Получает или задает тип линии тренда. Чтение/записьTrendlineTypeaspose.slides.charts/itrendline/trendlinetype.
+description: Получает или задает тип линии тренда. Чтение/записьTrendlineTypeaspose.slides.charts/itrendline/trendlinetype .
 type: docs
 weight: 120
 url: /ru/net/aspose.slides.charts/itrendline/trendlinetype/
 ---
 ## ITrendline.TrendlineType property
 
-Получает или задает тип линии тренда. Чтение/запись`TrendlineType`.
+Получает или задает тип линии тренда. Чтение/запись`TrendlineType` .
 
 ```csharp
 public TrendlineType TrendlineType { get; set; }

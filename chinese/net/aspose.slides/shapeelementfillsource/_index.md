@@ -18,11 +18,11 @@ public enum ShapeElementFillSource : byte
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| NoFill | `0` | 不填充原语。 |
+| NoFill | `0` | 不填充图元。 |
 | Shape | `1` | 使用形状的填充。 |
 | Lighten | `2` | 使用减轻形状的填充。 |
 | LightenLess | `3` | 使用较少的淡化形状填充。 |
-| Darken | `4` | 使用加深形状的填充。 |
+| Darken | `4` | 使用变暗形状的填充。 |
 | DarkenLess | `5` | 使用较暗的形状填充。 |
 
 ### 也可以看看

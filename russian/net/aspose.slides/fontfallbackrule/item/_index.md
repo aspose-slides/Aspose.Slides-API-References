@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Справочник по API Aspose.Slides для .NET
-description: Получает имя шрифта по указанному индексу. Только для чтенияIFontFallBackRuleaspose.slides/ifontfallbackrule.
+description: Получает имя шрифта по указанному индексу. Только для чтенияIFontFallBackRuleaspose.slides/ifontfallbackrule .
 type: docs
 weight: 30
 url: /ru/net/aspose.slides/fontfallbackrule/item/
 ---
 ## FontFallBackRule indexer
 
-Получает имя шрифта по указанному индексу. Только для чтения[`IFontFallBackRule`](../../ifontfallbackrule).
+Получает имя шрифта по указанному индексу. Только для чтения[`IFontFallBackRule`](../../ifontfallbackrule) .
 
 ```csharp
 public string this[int index] { get; }

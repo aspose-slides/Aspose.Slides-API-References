@@ -26,11 +26,11 @@ public void SetEmbeddedData(IOleEmbeddedDataInfo embeddedData)
 
 ### 评论
 
-此方法更改对象的属性以反映新数据和 将 IsObjectLink 标志设置为 false，表示 OLE 对象已嵌入。
+此方法更改对象的属性以反映新数据， 将 IsObjectLink 标志设置为 false，表示 OLE 对象已嵌入。
 
 ### 例子
 
-以下示例演示如何更改 OLE 嵌入数据 及其现有T的类型:Aspose.Slides.IOleObjectFrame对象
+以下示例演示如何更改 OLE 嵌入数据 及其类型为现有[`IOleObjectFrame`](../../ioleobjectframe)对象
 
 ```csharp
 [C#]

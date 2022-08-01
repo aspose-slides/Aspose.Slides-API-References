@@ -1,14 +1,14 @@
 ---
 title: Id
 second_title: Aspose.Slides for .NET API 参考
-description: 设置或获取形状的 id
+description: 设置或获取 shape 的 id
 type: docs
 weight: 10
 url: /zh/net/aspose.slides.export/isvgshape/id/
 ---
 ## ISvgShape.Id property
 
-设置或获取形状的 id
+设置或获取 shape 的 id
 
 ```csharp
 public string Id { get; set; }

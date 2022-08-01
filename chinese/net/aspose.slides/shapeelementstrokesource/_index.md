@@ -18,8 +18,8 @@ public enum ShapeElementStrokeSource : byte
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| NoStroke | `0` | 不要描边。 |
-| Shape | `1` | 使用形状的 LineFormat。 |
+| NoStroke | `0` | 不要描边图元。 |
+| Shape | `1` | 使用形状的 LineFormat. |
 | OwnStroke | `2` | 使用自己的笔画。 |
 
 ### 也可以看看

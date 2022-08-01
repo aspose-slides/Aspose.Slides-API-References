@@ -18,10 +18,10 @@ public sealed class PresentationInfo : IPresentationInfo
 
 | Имя | Описание |
 | --- | --- |
-| [IsEncrypted](../../aspose.slides/presentationinfo/isencrypted) { get; } | Получает значение True, если связанная презентация зашифрована, в противном случае — значение False. Только чтениеBoolean. |
+| [IsEncrypted](../../aspose.slides/presentationinfo/isencrypted) { get; } | Получает значение True, если связанная презентация зашифрована, в противном случае — значение False. Только для чтенияBoolean . |
 | [IsPasswordProtected](../../aspose.slides/presentationinfo/ispasswordprotected) { get; } | Получает значение, указывающее, защищена ли связанная презентация паролем для открытия. |
 | [IsWriteProtected](../../aspose.slides/presentationinfo/iswriteprotected) { get; } | Получает значение, указывающее, защищена ли связанная презентация от записи. |
-| [LoadFormat](../../aspose.slides/presentationinfo/loadformat) { get; } | Получает формат привязанной презентации. Только для чтения[`LoadFormat`](../loadformat). |
+| [LoadFormat](../../aspose.slides/presentationinfo/loadformat) { get; } | Получает формат привязанной презентации. Только для чтения[`LoadFormat`](../loadformat) . |
 
 ## Методы
 

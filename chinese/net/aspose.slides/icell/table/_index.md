@@ -1,14 +1,14 @@
 ---
 title: Table
 second_title: Aspose.Slides for .NET API 参考
-description: 返回单元格的父 Table 对象 只读ITableaspose.slides/itable
+description: 返回单元格的父表对象 只读ITableaspose.slides/itable.
 type: docs
 weight: 190
 url: /zh/net/aspose.slides/icell/table/
 ---
 ## ICell.Table property
 
-返回单元格的父 Table 对象。 只读[`ITable`](../../itable)。
+返回单元格的父表对象。 只读[`ITable`](../../itable).
 
 ```csharp
 public ITable Table { get; }

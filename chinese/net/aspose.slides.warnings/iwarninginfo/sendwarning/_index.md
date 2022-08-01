@@ -16,7 +16,7 @@ public void SendWarning(IWarningCallback receiver)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| receiver | IWarningCallback | 接收器对象[`IWarningCallback`](../../iwarningcallback) |
+| receiver | IWarningCallback | 接收对象[`IWarningCallback`](../../iwarningcallback) |
 
 ### 也可以看看
 

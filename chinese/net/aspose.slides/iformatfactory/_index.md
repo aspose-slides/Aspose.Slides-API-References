@@ -18,9 +18,9 @@ public interface IFormatFactory
 
 | 姓名 | 描述 |
 | --- | --- |
-| [CreateParagraphFormat](../../aspose.slides/iformatfactory/createparagraphformat)() | 创建新的[`IParagraphFormat`](../iparagraphformat)。 |
-| [CreatePortionFormat](../../aspose.slides/iformatfactory/createportionformat)() | 创建新的[`IPortionFormat`](../iportionformat)。 |
-| [CreateTextFrameFormat](../../aspose.slides/iformatfactory/createtextframeformat)() | 创建新的[`ITextFrameFormat`](../itextframeformat)。 |
+| [CreateParagraphFormat](../../aspose.slides/iformatfactory/createparagraphformat)() | 创建新的[`IParagraphFormat`](../iparagraphformat). |
+| [CreatePortionFormat](../../aspose.slides/iformatfactory/createportionformat)() | 创建新的[`IPortionFormat`](../iportionformat). |
+| [CreateTextFrameFormat](../../aspose.slides/iformatfactory/createtextframeformat)() | 创建新的[`ITextFrameFormat`](../itextframeformat). |
 
 ### 也可以看看
 

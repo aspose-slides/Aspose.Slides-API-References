@@ -18,16 +18,16 @@ public class VbaReferenceCollection : IVbaReferenceCollection
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Count](../../aspose.slides.vba/vbareferencecollection/count) { get; } | 获取集合中实际包含的元素数量。 只读Int32。 |
-| [IsSynchronized](../../aspose.slides.vba/vbareferencecollection/issynchronized) { get; } | 返回一个值，指示对集合的访问是否同步（线程安全）。 只读Boolean。 |
+| [Count](../../aspose.slides.vba/vbareferencecollection/count) { get; } | 获取集合中实际包含的元素数。 只读Int32. |
+| [IsSynchronized](../../aspose.slides.vba/vbareferencecollection/issynchronized) { get; } | 返回一个值，指示对集合的访问是否同步（线程安全）。 只读Boolean. |
 | [Item](../../aspose.slides.vba/vbareferencecollection/item) { get; } | 获取指定索引处的元素。 |
-| [SyncRoot](../../aspose.slides.vba/vbareferencecollection/syncroot) { get; } | 返回同步根。 只读Object。 |
+| [SyncRoot](../../aspose.slides.vba/vbareferencecollection/syncroot) { get; } | 返回同步根。 只读Object. |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Add](../../aspose.slides.vba/vbareferencecollection/add)(IVbaReference) | 添加对引用集合的新引用 |
+| [Add](../../aspose.slides.vba/vbareferencecollection/add)(IVbaReference) | 将新引用添加到引用集合 |
 | [CopyTo](../../aspose.slides.vba/vbareferencecollection/copyto)(Array, int) | 将集合中的所有元素复制到指定的数组。 |
 | [GetEnumerator](../../aspose.slides.vba/vbareferencecollection/getenumerator)() | 返回一个遍历集合的枚举器。 |
 

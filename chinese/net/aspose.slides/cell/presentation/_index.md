@@ -1,14 +1,14 @@
 ---
 title: Presentation
 second_title: Aspose.Slides for .NET API 参考
-description: 返回单元格的父表示 只读IPresentationaspose.slides/ipresentation
+description: 返回单元格的父表示形式 只读IPresentationaspose.slides/ipresentation.
 type: docs
 weight: 170
 url: /zh/net/aspose.slides/cell/presentation/
 ---
 ## Cell.Presentation property
 
-返回单元格的父表示。 只读[`IPresentation`](../../ipresentation)。
+返回单元格的父表示形式。 只读[`IPresentation`](../../ipresentation).
 
 ```csharp
 public IPresentation Presentation { get; }

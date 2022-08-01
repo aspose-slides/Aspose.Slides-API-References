@@ -16,7 +16,7 @@ public void SetTextFormat(IPortionFormat source)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| source | IPortionFormat | Объект IPortionFormat с необходимым набором свойств. |
+| source | IPortionFormat | Объект IPortionFormat с набором необходимых свойств. |
 
 ### Смотрите также
 
@@ -29,7 +29,7 @@ public void SetTextFormat(IPortionFormat source)
 
 ## SetTextFormat(IParagraphFormat) {#settextformat}
 
-Устанавливает определенные свойства формата абзаца для всех абзацев ячеек таблицы.
+Задает определенные свойства формата абзаца для всех абзацев ячеек таблицы.
 
 ```csharp
 public void SetTextFormat(IParagraphFormat source)
@@ -37,7 +37,7 @@ public void SetTextFormat(IParagraphFormat source)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| source | IParagraphFormat | Объект IParagraphFormat с установленными необходимыми свойствами. |
+| source | IParagraphFormat | Объект IParagraphFormat с набором необходимых свойств. |
 
 ### Смотрите также
 
@@ -50,7 +50,7 @@ public void SetTextFormat(IParagraphFormat source)
 
 ## SetTextFormat(ITextFrameFormat) {#settextformat_2}
 
-Устанавливает определенные свойства формата текстового фрейма для всех текстовых фреймов ячеек таблицы.
+Задает определенные свойства формата текстового фрейма для всех текстовых фреймов ячеек таблицы.
 
 ```csharp
 public void SetTextFormat(ITextFrameFormat source)
@@ -58,7 +58,7 @@ public void SetTextFormat(ITextFrameFormat source)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| source | ITextFrameFormat | Объект ITextFrameFormat с необходимым набором свойств. |
+| source | ITextFrameFormat | Объект ITextFrameFormat с набором необходимых свойств. |
 
 ### Смотрите также
 

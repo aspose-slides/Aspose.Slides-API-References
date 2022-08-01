@@ -18,9 +18,9 @@ public interface IOverrideThemeManager : IThemeManager
 
 | Имя | Описание |
 | --- | --- |
-| [AsIThemeManager](../../aspose.slides.theme/ioverridethememanager/asithememanager) { get; } | Позволяет получить базовый интерфейс IThemeManager. Только для чтения[`IThemeManager`](../ithememanager). |
-| [IsOverrideThemeEnabled](../../aspose.slides.theme/ioverridethememanager/isoverridethemeenabled) { get; } | Определяет, переопределяет ли OverrideTheme унаследованную действующую тему или нет. Чтобы включить OverrideTheme для переопределения, используйте методы OverrideTheme.Init*(). Чтобы отключить OverrideTheme от переопределения, используйте метод OverrideTheme.Clear(). Только чтениеBoolean. |
-| [OverrideTheme](../../aspose.slides.theme/ioverridethememanager/overridetheme) { get; set; } | Возвращает основной объект темы. Чтение/запись[`IOverrideTheme`](../ioverridetheme). |
+| [AsIThemeManager](../../aspose.slides.theme/ioverridethememanager/asithememanager) { get; } | Позволяет получить базовый интерфейс IThemeManager. Только для чтения[`IThemeManager`](../ithememanager) . |
+| [IsOverrideThemeEnabled](../../aspose.slides.theme/ioverridethememanager/isoverridethemeenabled) { get; } | Определяет, переопределяет ли OverrideTheme унаследованную действующую тему или нет. Чтобы включить OverrideTheme для переопределения, используйте методы OverrideTheme.Init*().Boolean . |
+| [OverrideTheme](../../aspose.slides.theme/ioverridethememanager/overridetheme) { get; set; } | Возвращает основной объект темы. Чтение/запись[`IOverrideTheme`](../ioverridetheme) . |
 
 ### Смотрите также
 

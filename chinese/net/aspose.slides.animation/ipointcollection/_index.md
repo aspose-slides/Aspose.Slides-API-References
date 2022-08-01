@@ -18,8 +18,8 @@ public interface IPointCollection : IEnumerable<IPoint>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.animation/ipointcollection/asienumerable) { get; } | 允许获取基本 IEnumerable 接口。 只读IEnumerable。 |
-| [Count](../../aspose.slides.animation/ipointcollection/count) { get; } | 返回集合中的点数。 只读Int32。 |
+| [AsIEnumerable](../../aspose.slides.animation/ipointcollection/asienumerable) { get; } | 允许获取基本 IEnumerable 接口。 只读IEnumerable. |
+| [Count](../../aspose.slides.animation/ipointcollection/count) { get; } | 返回集合中的点数。 只读Int32. |
 | [Item](../../aspose.slides.animation/ipointcollection/item) { get; } | 返回指定索引处的点。 |
 
 ### 也可以看看

@@ -20,9 +20,9 @@ public interface IMathGroupingCharacter : IMathElement
 | --- | --- |
 | [AsIMathElement](../../aspose.slides.mathtext/imathgroupingcharacter/asimathelement) { get; } | Позволяет получить базовый интерфейс IMathElement [`IMathElement`](../imathelement) |
 | [Base](../../aspose.slides.mathtext/imathgroupingcharacter/base) { get; } | Базовый аргумент |
-| [Character](../../aspose.slides.mathtext/imathgroupingcharacter/character) { get; set; } | Символ группировки Значение по умолчанию:U+23DF (НИЖНЯЯ КРУПНАЯ СКОБКА) |
-| [Position](../../aspose.slides.mathtext/imathgroupingcharacter/position) { get; set; } | Позиция группирующего символа. По умолчанию:Низ |
-| [VerticalJustification](../../aspose.slides.mathtext/imathgroupingcharacter/verticaljustification) { get; set; } | Вертикальное выравнивание группового символа. Задает выравнивание объекта относительно базовой линии. Например, когда символ группы находится над объектом, Вертикальное выравнивание по верху означает, что верх объекта падает на базовую линию; когда для параметра VerticalJustification установлено значение Bottom, нижняя часть объекта находится на базовой линии По умолчанию:Bottom для Position=Top и Top для Position=Bottom |
+| [Character](../../aspose.slides.mathtext/imathgroupingcharacter/character) { get; set; } | Группирующий символ Значение по умолчанию: U+23DF (НИЖНЯЯ КРУПНАЯ СКОБКА) |
+| [Position](../../aspose.slides.mathtext/imathgroupingcharacter/position) { get; set; } | Позиция группирующего символа. По умолчанию: Снизу |
+| [VerticalJustification](../../aspose.slides.mathtext/imathgroupingcharacter/verticaljustification) { get; set; } | Вертикальное выравнивание группового символа. Задает выравнивание объекта относительно базовой линии. Например, когда групповой символ находится над объектом, Вертикальное выравнивание по верху означает, что верхняя часть объекта падает на базовую линию; когда для параметра VerticalJustification установлено значение Bottom, нижняя часть объекта находится на baseline По умолчанию: Bottom для Position=Top и Top для Position=Bottom |
 
 ### Примеры
 

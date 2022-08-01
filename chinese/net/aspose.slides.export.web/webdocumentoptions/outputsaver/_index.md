@@ -1,14 +1,14 @@
 ---
 title: OutputSaver
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置输出保护程序 读/写IOutputSaveraspose.slides.export.web/ioutputsaver
+description: 返回或设置输出保护程序 读/写IOutputSaveraspose.slides.export.web/ioutputsaver.
 type: docs
 weight: 50
 url: /zh/net/aspose.slides.export.web/webdocumentoptions/outputsaver/
 ---
 ## WebDocumentOptions.OutputSaver property
 
-返回或设置输出保护程序。 读/写[`IOutputSaver`](../../ioutputsaver)。
+返回或设置输出保护程序。 读/写[`IOutputSaver`](../../ioutputsaver).
 
 ```csharp
 public IOutputSaver OutputSaver { get; set; }

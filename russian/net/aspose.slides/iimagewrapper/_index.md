@@ -1,14 +1,14 @@
 ---
 title: IImageWrapper
 second_title: Справочник по API Aspose.Slides для .NET
-description: System.Drawing.Image оболочка для COM-интерфейса.
+description: Оболочка System.Drawing.Image для интерфейса COM.
 type: docs
 weight: 5620
 url: /ru/net/aspose.slides/iimagewrapper/
 ---
 ## IImageWrapper interface
 
-System.Drawing.Image оболочка для COM-интерфейса.
+Оболочка System.Drawing.Image для интерфейса COM.
 
 ```csharp
 public interface IImageWrapper : IDisposable
@@ -18,9 +18,9 @@ public interface IImageWrapper : IDisposable
 
 | Имя | Описание |
 | --- | --- |
-| [AsIDisposable](../../aspose.slides/iimagewrapper/asidisposable) { get; } | Возвращает интерфейс IDisposable. Только для чтенияIDisposable. |
-| [Image](../../aspose.slides/iimagewrapper/image) { get; } | Получает Syste.Drawing.Image Только для чтения[`Image`](./image). |
-| [Size](../../aspose.slides/iimagewrapper/size) { get; } | Получает ширину и высоту в пикселях изображения Только для чтенияРазмер. |
+| [AsIDisposable](../../aspose.slides/iimagewrapper/asidisposable) { get; } | Возвращает интерфейс IDisposable. Только для чтенияIDisposable . |
+| [Image](../../aspose.slides/iimagewrapper/image) { get; } | Получает Syste.Drawing.Image Только для чтения[`Image`](./image) . |
+| [Size](../../aspose.slides/iimagewrapper/size) { get; } | Получает ширину и высоту изображения в пикселях. Только для чтения[`Size`](./size) . |
 
 ## Методы
 

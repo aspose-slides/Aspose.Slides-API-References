@@ -1,14 +1,14 @@
 ---
 title: NotesStyle
 second_title: Aspose.Slides for .NET API 参考
-description: 返回注释文本的样式 只读ITextStyleaspose.slides/itextstyle
+description: 返回注释文本的样式 只读ITextStyleaspose.slides/itextstyle.
 type: docs
 weight: 40
 url: /zh/net/aspose.slides/imasternotesslide/notesstyle/
 ---
 ## IMasterNotesSlide.NotesStyle property
 
-返回注释文本的样式。 只读[`ITextStyle`](../../itextstyle)。
+返回注释文本的样式。 只读[`ITextStyle`](../../itextstyle).
 
 ```csharp
 public ITextStyle NotesStyle { get; }

@@ -1,14 +1,14 @@
 ---
 title: Slide
 second_title: Справочник по API Aspose.Slides для .NET
-description: Итерировать каждыйSlideaspose.slides.lowcode/foreach/slideвPresentationaspose.slides/presentation.
+description: Итерировать каждыйSlideaspose.slides.lowcode/foreach/slide вPresentationaspose.slides/presentation .
 type: docs
 weight: 60
 url: /ru/net/aspose.slides.lowcode/foreach/slide/
 ---
 ## ForEach.Slide method
 
-Итерировать каждый`Slide`в[`Presentation`](../../../aspose.slides/presentation).
+Итерировать каждый`Slide` в[`Presentation`](../../../aspose.slides/presentation) .
 
 ```csharp
 public static void Slide(Presentation pres, ForEachSlideCallback forEachSlide)

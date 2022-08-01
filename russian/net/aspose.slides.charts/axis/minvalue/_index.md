@@ -1,14 +1,14 @@
 ---
 title: MinValue
 second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет минимальное значение на оси значений. Чтение/записьDouble.
+description: Представляет минимальное значение на оси значений. Чтение/записьDouble .
 type: docs
 weight: 430
 url: /ru/net/aspose.slides.charts/axis/minvalue/
 ---
 ## Axis.MinValue property
 
-Представляет минимальное значение на оси значений. Чтение/записьDouble.
+Представляет минимальное значение на оси значений. Чтение/записьDouble .
 
 ```csharp
 public double MinValue { get; set; }

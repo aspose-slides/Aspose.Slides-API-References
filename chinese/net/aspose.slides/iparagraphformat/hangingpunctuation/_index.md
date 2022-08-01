@@ -1,14 +1,14 @@
 ---
 title: HangingPunctuation
 second_title: Aspose.Slides for .NET API 参考
-description: 确定段落中是否使用悬挂标点未应用继承 读/写NullableBoolaspose.slides/nullablebool
+description: 确定段落中是否使用悬挂标点未应用继承 读/写NullableBoolaspose.slides/nullablebool.
 type: docs
 weight: 80
 url: /zh/net/aspose.slides/iparagraphformat/hangingpunctuation/
 ---
 ## IParagraphFormat.HangingPunctuation property
 
-确定段落中是否使用悬挂标点。未应用继承。 读/写[`NullableBool`](../../nullablebool)。
+确定段落中是否使用悬挂标点。未应用继承。 读/写[`NullableBool`](../../nullablebool).
 
 ```csharp
 public NullableBool HangingPunctuation { get; set; }

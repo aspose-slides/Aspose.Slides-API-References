@@ -1,14 +1,14 @@
 ---
 title: ColorStyle
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или задает цветовой стиль объекта SmartArt. Чтение/записьSmartArtColorTypeaspose.slides.smartart/smartartcolortype.
+description: Возвращает или задает цветовой стиль объекта SmartArt. Чтение/записьSmartArtColorTypeaspose.slides.smartart/smartartcolortype .
 type: docs
 weight: 20
 url: /ru/net/aspose.slides.smartart/smartart/colorstyle/
 ---
 ## SmartArt.ColorStyle property
 
-Возвращает или задает цветовой стиль объекта SmartArt. Чтение/запись[`SmartArtColorType`](../../smartartcolortype).
+Возвращает или задает цветовой стиль объекта SmartArt. Чтение/запись[`SmartArtColorType`](../../smartartcolortype) .
 
 ```csharp
 public SmartArtColorType ColorStyle { get; set; }

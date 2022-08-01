@@ -16,16 +16,16 @@ public string[] ToArray()
 
 ### 返回值
 
-System的数组。字符串
+数组String
 
 ### 例子
 
 ```csharp
 [C#]
- // 创建一个包含字体列表的规则。
+// 创建一个包含字体列表的规则。
 IFontFallBackRule newRule = new FontFallBackRule(0x3040, 0x309F, "MS Mincho, MS Gothic, Tahoma, Times New Roman");
 
- // 以数组形式获取所有字体名称。
+// 获取所有字体名称作为数组。
 string[] fontNames = newRule.ToArray();
 ```
 
@@ -48,20 +48,20 @@ public string[] ToArray(int startIndex, int count)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | startIndex | Int32 | 要添加的第一个字体的索引。 |
-| count | Int32 | 要添加的字体数量。 |
+| count | Int32 | 一些要添加的字体。 |
 
 ### 返回值
 
-String
+数组String
 
 ### 例子
 
 ```csharp
 [C#]
- // 创建一个包含字体列表的规则。
+// 创建一个包含字体列表的规则。
 IFontFallBackRule newRule = new FontFallBackRule(0x3040, 0x309F, "MS Mincho, MS Gothic, Tahoma, Times New Roman");
 
- // 获取最后两个字体名称作为数组.
+// 获取最后两个字体名称作为数组。
 string[] fontNames = newRule.ToArray(2,2);
 ```
 

@@ -1,14 +1,14 @@
 ---
 title: ExtrusionColor
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置拉伸的颜色 只读IColorFormataspose.slides/icolorformat
+description: 返回或设置拉伸的颜色 只读IColorFormataspose.slides/icolorformat.
 type: docs
 weight: 70
 url: /zh/net/aspose.slides/threedformat/extrusioncolor/
 ---
 ## ThreeDFormat.ExtrusionColor property
 
-返回或设置拉伸的颜色。 只读[`IColorFormat`](../../icolorformat)。
+返回或设置拉伸的颜色。 只读[`IColorFormat`](../../icolorformat).
 
 ```csharp
 public IColorFormat ExtrusionColor { get; }

@@ -18,13 +18,13 @@ public enum BuildType
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| AsOneObject | `0` | С содержащей форму. |
+| AsOneObject | `0` | С содержащим shape. |
 | AllParagraphsAtOnce | `1` | Весь абзац. |
-| ByLevelParagraphs1 | `2` | По группам абзацев глубины 1. |
-| ByLevelParagraphs2 | `3` | По группам абзацев глубины 2. |
-| ByLevelParagraphs3 | `4` | По группам абзацев глубины 3. |
-| ByLevelParagraphs4 | `5` | По группам абзацев глубины 4. |
-| ByLevelParagraphs5 | `6` | По группам абзацев глубины 5. |
+| ByLevelParagraphs1 | `2` | По группам абзацев глубиной 1. |
+| ByLevelParagraphs2 | `3` | По группам абзацев глубиной 2. |
+| ByLevelParagraphs3 | `4` | По группам абзацев глубиной 3. |
+| ByLevelParagraphs4 | `5` | По группам абзацев глубиной 4. |
+| ByLevelParagraphs5 | `6` | По группам абзацев глубиной 5. |
 
 ### Смотрите также
 

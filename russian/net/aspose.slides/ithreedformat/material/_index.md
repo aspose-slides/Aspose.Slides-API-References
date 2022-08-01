@@ -1,14 +1,14 @@
 ---
 title: Material
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или задает тип материала. Чтение/записьMaterialPresetTypeaspose.slides/materialpresettype.
+description: Возвращает или задает тип материала. Чтение/записьMaterialPresetTypeaspose.slides/materialpresettype .
 type: docs
 weight: 110
 url: /ru/net/aspose.slides/ithreedformat/material/
 ---
 ## IThreeDFormat.Material property
 
-Возвращает или задает тип материала. Чтение/запись[`MaterialPresetType`](../../materialpresettype).
+Возвращает или задает тип материала. Чтение/запись[`MaterialPresetType`](../../materialpresettype) .
 
 ```csharp
 public MaterialPresetType Material { get; set; }

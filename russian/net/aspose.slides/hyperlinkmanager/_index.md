@@ -1,14 +1,14 @@
 ---
 title: HyperlinkManager
 second_title: Справочник по API Aspose.Slides для .NET
-description: Обеспечивает управление гиперссылками добавление удаление.
+description: Обеспечить управление гиперссылками добавление удаление.
 type: docs
 weight: 4670
 url: /ru/net/aspose.slides/hyperlinkmanager/
 ---
 ## HyperlinkManager class
 
-Обеспечивает управление гиперссылками (добавление, удаление).
+Обеспечить управление гиперссылками (добавление, удаление).
 
 ```csharp
 public sealed class HyperlinkManager : IHyperlinkManager
@@ -18,13 +18,13 @@ public sealed class HyperlinkManager : IHyperlinkManager
 
 | Имя | Описание |
 | --- | --- |
-| [RemoveHyperlinkClick](../../aspose.slides/hyperlinkmanager/removehyperlinkclick)() | Удаляет гиперссылку при клике. |
-| [RemoveHyperlinkMouseOver](../../aspose.slides/hyperlinkmanager/removehyperlinkmouseover)() | Удаляет гиперссылку, наведенную мышью. |
+| [RemoveHyperlinkClick](../../aspose.slides/hyperlinkmanager/removehyperlinkclick)() | Удаляет гиперссылку при нажатии. |
+| [RemoveHyperlinkMouseOver](../../aspose.slides/hyperlinkmanager/removehyperlinkmouseover)() | Удаляет мышь над гиперссылкой. |
 | [SetExternalHyperlinkClick](../../aspose.slides/hyperlinkmanager/setexternalhyperlinkclick)(string) | Установить внешнюю гиперссылку по клику. |
 | [SetExternalHyperlinkMouseOver](../../aspose.slides/hyperlinkmanager/setexternalhyperlinkmouseover)(string) | Наводит указатель мыши на внешнюю гиперссылку. |
 | [SetInternalHyperlinkClick](../../aspose.slides/hyperlinkmanager/setinternalhyperlinkclick)(ISlide) | Устанавливает внутреннюю гиперссылку по клику. |
 | [SetInternalHyperlinkMouseOver](../../aspose.slides/hyperlinkmanager/setinternalhyperlinkmouseover)(ISlide) | Наводит указатель мыши на внутреннюю гиперссылку. |
-| [SetMacroHyperlinkClick](../../aspose.slides/hyperlinkmanager/setmacrohyperlinkclick)(string) | Установить гиперссылку макроса по клику. |
+| [SetMacroHyperlinkClick](../../aspose.slides/hyperlinkmanager/setmacrohyperlinkclick)(string) | Установить гиперссылку макроса одним кликом. |
 
 ### Смотрите также
 

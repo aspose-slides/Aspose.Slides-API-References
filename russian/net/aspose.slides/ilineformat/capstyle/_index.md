@@ -1,14 +1,14 @@
 ---
 title: CapStyle
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или задает стиль окончания строки. Чтение/записьLineCapStyleaspose.slides/linecapstyle.
+description: Возвращает или задает стиль окончания строки. Чтение/записьLineCapStyleaspose.slides/linecapstyle .
 type: docs
 weight: 60
 url: /ru/net/aspose.slides/ilineformat/capstyle/
 ---
 ## ILineFormat.CapStyle property
 
-Возвращает или задает стиль окончания строки. Чтение/запись[`LineCapStyle`](../../linecapstyle).
+Возвращает или задает стиль окончания строки. Чтение/запись[`LineCapStyle`](../../linecapstyle) .
 
 ```csharp
 public LineCapStyle CapStyle { get; set; }

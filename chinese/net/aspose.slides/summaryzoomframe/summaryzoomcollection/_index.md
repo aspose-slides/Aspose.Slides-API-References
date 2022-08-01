@@ -1,14 +1,14 @@
 ---
 title: SummaryZoomCollection
 second_title: Aspose.Slides for .NET API 参考
-description: 为摘要缩放框架对象获取ISummaryZoomSectionCollectionaspose.slides/isummaryzoomsectioncollection
+description: 获取ISummaryZoomSectionCollectionaspose.slides/isummaryzoomsectioncollection对于摘要缩放框架对象
 type: docs
 weight: 20
 url: /zh/net/aspose.slides/summaryzoomframe/summaryzoomcollection/
 ---
 ## SummaryZoomFrame.SummaryZoomCollection property
 
-为摘要缩放框架对象获取[`ISummaryZoomSectionCollection`](../../isummaryzoomsectioncollection)。
+获取[`ISummaryZoomSectionCollection`](../../isummaryzoomsectioncollection)对于摘要缩放框架对象。
 
 ```csharp
 public ISummaryZoomSectionCollection SummaryZoomCollection { get; }
@@ -16,7 +16,7 @@ public ISummaryZoomSectionCollection SummaryZoomCollection { get; }
 
 ### 例子
 
-该示例演示了按索引获取摘要缩放部分元素:
+该示例演示了按索引获取摘要缩放部分元素：
 
 ```csharp
 [C#]

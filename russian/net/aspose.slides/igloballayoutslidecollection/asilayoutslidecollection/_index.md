@@ -1,14 +1,14 @@
 ---
 title: AsILayoutSlideCollection
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает интерфейс ILayoutSlideCollection. Только для чтенияILayoutSlideCollectionaspose.slides/ilayoutslidecollection.
+description: Возвращает интерфейс ILayoutSlideCollection. Только для чтенияILayoutSlideCollectionaspose.slides/ilayoutslidecollection .
 type: docs
 weight: 10
 url: /ru/net/aspose.slides/igloballayoutslidecollection/asilayoutslidecollection/
 ---
 ## IGlobalLayoutSlideCollection.AsILayoutSlideCollection property
 
-Возвращает интерфейс ILayoutSlideCollection. Только для чтения[`ILayoutSlideCollection`](../../ilayoutslidecollection).
+Возвращает интерфейс ILayoutSlideCollection. Только для чтения[`ILayoutSlideCollection`](../../ilayoutslidecollection) .
 
 ```csharp
 public ILayoutSlideCollection AsILayoutSlideCollection { get; }

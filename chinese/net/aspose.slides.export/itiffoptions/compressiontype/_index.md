@@ -1,14 +1,14 @@
 ---
 title: CompressionType
 second_title: Aspose.Slides for .NET API 参考
-description: 指定压缩类型 读/写TiffCompressionTypesaspose.slides.export/tiffcompressiontypes
+description: 指定压缩类型 读/写TiffCompressionTypesaspose.slides.export/tiffcompressiontypes.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides.export/itiffoptions/compressiontype/
 ---
 ## ITiffOptions.CompressionType property
 
-指定压缩类型。 读/写[`TiffCompressionTypes`](../../tiffcompressiontypes)。
+指定压缩类型。 读/写[`TiffCompressionTypes`](../../tiffcompressiontypes).
 
 ```csharp
 public TiffCompressionTypes CompressionType { get; set; }

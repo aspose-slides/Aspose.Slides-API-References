@@ -16,7 +16,7 @@ public int IndexOf(IDataLabel value)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | IDataLabel | DataLabel 查找。 |
+| value | IDataLabel | 要查找的数据标签。 |
 
 ### 返回值
 

@@ -1,14 +1,14 @@
 ---
 title: ReadOnlyRecommended
 second_title: Aspose.Slides for .NET API 参考
-description: 获取或设置只读推荐 读/写Boolean
+description: 获取或设置只读推荐 读/写Boolean.
 type: docs
 weight: 60
 url: /zh/net/aspose.slides/iprotectionmanager/readonlyrecommended/
 ---
 ## IProtectionManager.ReadOnlyRecommended property
 
-获取或设置只读推荐。 读/写Boolean。
+获取或设置只读推荐。 读/写Boolean.
 
 ```csharp
 public bool ReadOnlyRecommended { get; set; }

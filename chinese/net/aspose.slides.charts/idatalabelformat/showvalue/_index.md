@@ -1,14 +1,14 @@
 ---
 title: ShowValue
 second_title: Aspose.Slides for .NET API 参考
-description: 表示指定图表的数据标签百分比值显示行为 True 显示百分比值虚假隐藏 读/写Boolean
+description: 表示指定图表的数据标签百分比值显示行为 True 显示百分比值假隐藏 读/写Boolean.
 type: docs
 weight: 150
 url: /zh/net/aspose.slides.charts/idatalabelformat/showvalue/
 ---
 ## IDataLabelFormat.ShowValue property
 
-表示指定图表的数据标签百分比值显示行为。 True 显示百分比值。虚假隐藏。 读/写Boolean。
+表示指定图表的数据标签百分比值显示行为。 True 显示百分比值。假隐藏。 读/写Boolean.
 
 ```csharp
 public bool ShowValue { get; set; }
@@ -16,7 +16,7 @@ public bool ShowValue { get; set; }
 
 ### 评论
 
-如果此 DataLabelFormat 对象的父对象是数据标签的 DataLabelCollection 集合，则此 属性获取或设置 DataLabelCollection 集合中新数据 标签的 ShowValue 属性的默认值。 使用值设置此属性也将此值设置为 ShowValue 属性 用于 DataLabelCollection 集合中的所有数据标签 （即“DataLabels.DefaultDataLabelFormat.ShowValue = val;" 导致 所有 DataLabels[i].ShowValue 等于 val)。
+如果此 DataLabelFormat 对象的父对象是数据标签的 DataLabelCollection 集合，则 this 属性获取或设置 DataLabelCollection 集合中新数据 标签的 ShowValue 属性的默认值。 使用值设置此属性也会将此值设置为ShowValue 属性 用于 DataLabelCollection 集合中的所有数据标签
 
 ### 也可以看看
 

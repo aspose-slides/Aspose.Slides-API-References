@@ -1,14 +1,14 @@
 ---
 title: Masters
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает список всех мастер-слайдов определенных в презентации. Только для чтенияIMasterSlideCollectionaspose.slides/imasterslidecollection.
+description: Возвращает список всех мастер-слайдов определенных в презентации. Только для чтенияIMasterSlideCollectionaspose.slides/imasterslidecollection .
 type: docs
 weight: 190
 url: /ru/net/aspose.slides/ipresentation/masters/
 ---
 ## IPresentation.Masters property
 
-Возвращает список всех мастер-слайдов, определенных в презентации. Только для чтения[`IMasterSlideCollection`](../../imasterslidecollection).
+Возвращает список всех мастер-слайдов, определенных в презентации. Только для чтения[`IMasterSlideCollection`](../../imasterslidecollection) .
 
 ```csharp
 public IMasterSlideCollection Masters { get; }

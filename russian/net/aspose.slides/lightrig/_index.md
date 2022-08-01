@@ -18,9 +18,9 @@ public class LightRig : PVIObject, ILightRig
 
 | Имя | Описание |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Позволяет получить базовый интерфейс IPresentationComponent. Только для чтения[`IPresentationComponent`](../ipresentationcomponent). |
-| [Direction](../../aspose.slides/lightrig/direction) { get; set; } | Направление света. Чтение/запись[`LightingDirection`](../lightingdirection). |
-| [LightType](../../aspose.slides/lightrig/lighttype) { get; set; } | Представляет предустановленное право света, которое можно применить к фигуре. Световая установка представляет собой группу источников света, ориентированных определенным образом относительно трехмерной сцены. Чтение/запись[`LightRigPresetType`](../lightrigpresettype). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Позволяет получить базовый интерфейс IPresentationComponent. Только для чтения[`IPresentationComponent`](../ipresentationcomponent) . |
+| [Direction](../../aspose.slides/lightrig/direction) { get; set; } | Направление света. Чтение/запись[`LightingDirection`](../lightingdirection) . |
+| [LightType](../../aspose.slides/lightrig/lighttype) { get; set; } | Представляет предустановленное право света, которое можно применить к фигуре. Световая установка представляет собой группу источников света, ориентированных определенным образом относительно 3D-сцены. Чтение/запись[`LightRigPresetType`](../lightrigpresettype) . |
 
 ## Методы
 
@@ -28,8 +28,8 @@ public class LightRig : PVIObject, ILightRig
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Сравнивает с указанным объектом. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Возвращает хэш-код. |
-| [GetRotation](../../aspose.slides/lightrig/getrotation)() | Вращение определяется с помощью координаты широты, координаты долготы и вращения вокруг оси как координаты широты и долготы. первый элемент возвращаемого массива - широта, второй - долгота, третий - оборот. Возвращает null, если вращение не определено. |
-| [SetRotation](../../aspose.slides/lightrig/setrotation)(float, float, float) | Вращение определяется с помощью координаты широты, координаты долготы и вращения вокруг оси как координаты широты и долготы. Если какое-либо из значений координат имеет значение float.NaN, все вращения не определены. |
+| [GetRotation](../../aspose.slides/lightrig/getrotation)() | Вращение определяется с помощью использования координаты широты , координаты долготы и оборота вокруг оси в качестве координат широты и долготы. первый элемент в возвращаемом массиве - широта, второй - долгота, третий - оборот. Возвращает null, если вращение не определено. |
+| [SetRotation](../../aspose.slides/lightrig/setrotation)(float, float, float) | Вращение определяется с использованием координаты широты , координаты долготы и вращения вокруг оси в качестве координат широты и долготы. Если какое-либо из значений координат равно float.NaN, все вращения не определены. |
 
 ### Смотрите также
 

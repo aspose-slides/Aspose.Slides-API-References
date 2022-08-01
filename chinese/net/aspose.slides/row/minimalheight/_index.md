@@ -1,14 +1,14 @@
 ---
 title: MinimalHeight
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置行的最小可能高度 读/写Double
+description: 返回或设置行的最小可能高度 读/写Double.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides/row/minimalheight/
 ---
 ## Row.MinimalHeight property
 
-返回或设置行的最小可能高度。 读/写Double。
+返回或设置行的最小可能高度。 读/写Double.
 
 ```csharp
 public double MinimalHeight { get; set; }

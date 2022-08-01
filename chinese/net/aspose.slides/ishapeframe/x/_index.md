@@ -1,14 +1,14 @@
 ---
 title: X
 second_title: Aspose.Slides for .NET API 参考
-description: 返回帧左上角的 X 坐标 只读Single
+description: 返回一帧左上角的 X 坐标 只读Single.
 type: docs
 weight: 90
 url: /zh/net/aspose.slides/ishapeframe/x/
 ---
 ## IShapeFrame.X property
 
-返回帧左上角的 X 坐标。 只读Single。
+返回一帧左上角的 X 坐标。 只读Single.
 
 ```csharp
 public float X { get; }

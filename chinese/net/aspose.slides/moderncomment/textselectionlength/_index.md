@@ -1,14 +1,14 @@
 ---
 title: TextSelectionLength
 second_title: Aspose.Slides for .NET API 参考
-description: 如果注释与自选图形关联则获取或设置文本框中的文本选择长度 读/写Int32
+description: 如果注释与自选图形关联则获取或设置文本框中的文本选择长度 读/写Int32.
 type: docs
 weight: 30
 url: /zh/net/aspose.slides/moderncomment/textselectionlength/
 ---
 ## ModernComment.TextSelectionLength property
 
-如果注释与自选图形关联，则获取或设置文本框中的文本选择长度。 读/写Int32。
+如果注释与自选图形关联，则获取或设置文本框中的文本选择长度。 读/写Int32.
 
 ```csharp
 public int TextSelectionLength { get; set; }

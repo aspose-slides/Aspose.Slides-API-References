@@ -23,7 +23,7 @@ public void RenderToGraphics(IRenderingOptions options, Graphics graphics)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| InvalidOperationException | 当 notesCommentsLayouting.NotesPosition 取值 NotesPositions.BottomFull |
+| InvalidOperationException | 当 notesCommentsLayouting.NotesPosition 取值 NotesPositions.BottomFull 时抛出 |
 
 ### 也可以看看
 
@@ -36,7 +36,7 @@ public void RenderToGraphics(IRenderingOptions options, Graphics graphics)
 
 ## RenderToGraphics(IRenderingOptions, Graphics, float, float) {#rendertographics_4}
 
-使用自定义缩放将某些幻灯片渲染到 Graphics 对象。
+使用自定义缩放将某些幻灯片渲染到图形对象。
 
 ```csharp
 public void RenderToGraphics(IRenderingOptions options, Graphics graphics, float scaleX, 
@@ -47,14 +47,14 @@ public void RenderToGraphics(IRenderingOptions options, Graphics graphics, float
 | --- | --- | --- |
 | options | IRenderingOptions | 渲染选项。 |
 | graphics | Graphics | 渲染到的对象。 |
-| scaleX | Single | x轴方向渲染幻灯片的比例（1.0为100%）。 |
-| scaleY | Single | y轴方向渲染幻灯片的比例（1.0为100%）。 |
+| scaleX | Single | 在 x 轴方向上渲染幻灯片的比例（1.0 为 100%）。 |
+| scaleY | Single | 在 y 轴方向上渲染幻灯片的比例（1.0 为 100%）。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| InvalidOperationException | 当 notesCommentsLayouting.NotesPosition 取值 NotesPositions.BottomFull |
+| InvalidOperationException | 当 notesCommentsLayouting.NotesPosition 取值 NotesPositions.BottomFull 时抛出 |
 
 ### 也可以看看
 
@@ -67,7 +67,7 @@ public void RenderToGraphics(IRenderingOptions options, Graphics graphics, float
 
 ## RenderToGraphics(IRenderingOptions, Graphics, Size) {#rendertographics_5}
 
-使用指定大小将某些幻灯片渲染到 Graphics 对象。
+使用指定大小将某些幻灯片渲染到图形对象。
 
 ```csharp
 public void RenderToGraphics(IRenderingOptions options, Graphics graphics, Size renderingSize)
@@ -83,7 +83,7 @@ public void RenderToGraphics(IRenderingOptions options, Graphics graphics, Size 
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| InvalidOperationException | 当 notesCommentsLayouting.NotesPosition 取值 NotesPositions.BottomFull |
+| InvalidOperationException | 当 notesCommentsLayouting.NotesPosition 取值 NotesPositions.BottomFull 时抛出 |
 
 ### 也可以看看
 

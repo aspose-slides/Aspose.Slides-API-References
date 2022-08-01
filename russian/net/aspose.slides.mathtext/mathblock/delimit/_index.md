@@ -1,14 +1,14 @@
 ---
 title: Delimit
 second_title: Справочник по API Aspose.Slides для .NET
-description: Разграничивает дочерние элементы символом-разделителем без скобок
+description: Разделяет дочерние элементы символом-разделителем без скобок
 type: docs
 weight: 90
 url: /ru/net/aspose.slides.mathtext/mathblock/delimit/
 ---
 ## MathBlock.Delimit method
 
-Разграничивает дочерние элементы символом-разделителем (без скобок)
+Разделяет дочерние элементы символом-разделителем (без скобок)
 
 ```csharp
 public IMathDelimiter Delimit(char separatorCharacter)
@@ -16,7 +16,7 @@ public IMathDelimiter Delimit(char separatorCharacter)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| separatorCharacter | Char | Знак-разделитель |
+| separatorCharacter | Char | Символ-разделитель |
 
 ### Возвращаемое значение
 

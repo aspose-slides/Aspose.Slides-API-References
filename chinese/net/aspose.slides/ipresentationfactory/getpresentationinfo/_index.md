@@ -41,7 +41,7 @@ public IPresentationInfo GetPresentationInfo(Stream stream)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| stream | Stream | 表示流。 |
+| stream | Stream | 演示流。 |
 
 ### 返回值
 

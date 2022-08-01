@@ -16,7 +16,7 @@ public Hyperlink(string url)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| url | String | URL гиперссылки. |
+| url | String | URL-адрес гиперссылки. |
 
 ### Смотрите также
 
@@ -28,7 +28,7 @@ public Hyperlink(string url)
 
 ## Hyperlink(ISlide) {#constructor_1}
 
-Создает экземпляр гиперссылки, которая указывает на определенный слайд. Примечание:созданная гиперссылка должна быть привязана к какому-либо объекту из той же презентации, иначе ссылка будет сохранена как NoAction.
+Создает экземпляр гиперссылки, указывающей на определенный слайд. Примечание: созданная гиперссылка должна быть привязана к какому-либо объекту из той же презентации, иначе ссылка будет сохранена как NoAction.
 
 ```csharp
 public Hyperlink(ISlide slide)
@@ -36,7 +36,7 @@ public Hyperlink(ISlide slide)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| слайд | ISlide | Целевой слайд. |
+| slide | ISlide | Целевой слайд. |
 
 ### Смотрите также
 
@@ -58,10 +58,10 @@ public Hyperlink(Hyperlink source, string targetFrame, string tooltip, bool hist
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| source | Hyperlink | Гиперссылка на источник |
+| source | Hyperlink | Исходная гиперссылка |
 | targetFrame | String | Целевой кадр |
-| подсказка | String | Текст подсказки |
-| история | Boolean |  |
+| tooltip | String | Текст всплывающей подсказки |
+| history | Boolean |  |
 | stopSoundsOnClick | Boolean |  |
 | highlightClick | Boolean |  |
 

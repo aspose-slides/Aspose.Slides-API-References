@@ -1,14 +1,14 @@
 ---
 title: Picture
 second_title: Aspose.Slides for .NET API 参考
-description: 返回图片 只读IPictureEffectiveDataaspose.slides/ipictureeffectivedata
+description: 返回图片 只读IPictureEffectiveDataaspose.slides/ipictureeffectivedata.
 type: docs
 weight: 70
 url: /zh/net/aspose.slides/ipicturefillformateffectivedata/picture/
 ---
 ## IPictureFillFormatEffectiveData.Picture property
 
-返回图片。 只读[`IPictureEffectiveData`](../../ipictureeffectivedata)。
+返回图片。 只读[`IPictureEffectiveData`](../../ipictureeffectivedata).
 
 ```csharp
 public IPictureEffectiveData Picture { get; }

@@ -17,7 +17,7 @@ public void Reorder(int index, ILayoutSlide layoutSlide)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | index | Int32 | Целевой индекс. |
-| layoutSlide | ILayoutSlide | Слайд для перемещения. |
+| layoutSlide | ILayoutSlide | Сдвиньте, чтобы двигаться. |
 
 ### Смотрите также
 

@@ -18,14 +18,14 @@ public class TrendlineCollection : DomObject<ChartSeries>, ITrendlineCollection
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Count](../../aspose.slides.charts/trendlinecollection/count) { get; } | 获取集合中实际包含的元素数量。 只读Int32。 |
-| [Item](../../aspose.slides.charts/trendlinecollection/item) { get; } | 获取指定索引处的元素。 只读[`Trendline`](../trendline)。 |
+| [Count](../../aspose.slides.charts/trendlinecollection/count) { get; } | 获取集合中实际包含的元素数。 只读Int32. |
+| [Item](../../aspose.slides.charts/trendlinecollection/item) { get; } | 获取指定索引处的元素。 只读[`Trendline`](../trendline). |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Add](../../aspose.slides.charts/trendlinecollection/add)(TrendlineType) | 在集合末尾添加新的趋势线并返回。 |
+| [Add](../../aspose.slides.charts/trendlinecollection/add)(TrendlineType) | 在集合末尾添加新的趋势线并返回它。 |
 | [GetEnumerator](../../aspose.slides.charts/trendlinecollection/getenumerator)() | 返回一个遍历集合的枚举器。 |
 | [Remove](../../aspose.slides.charts/trendlinecollection/remove)(ITrendline) | 删除指定的值。 |
 

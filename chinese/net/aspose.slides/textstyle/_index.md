@@ -18,8 +18,8 @@ public class TextStyle : PVIObject, ITextStyle
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允许获取基本 IPresentationComponent 接口。 只读[`IPresentationComponent`](../ipresentationcomponent)。 |
-| [DefaultParagraphFormat](../../aspose.slides/textstyle/defaultparagraphformat) { get; } | 默认段落属性。 只读[`IParagraphFormat`](../iparagraphformat)。 |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允许获取基本 IPresentationComponent 接口。 只读[`IPresentationComponent`](../ipresentationcomponent). |
+| [DefaultParagraphFormat](../../aspose.slides/textstyle/defaultparagraphformat) { get; } | 默认段落属性。 只读[`IParagraphFormat`](../iparagraphformat). |
 
 ## 方法
 
@@ -28,13 +28,13 @@ public class TextStyle : PVIObject, ITextStyle
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | 与指定对象比较。 |
 | [GetEffective](../../aspose.slides/textstyle/geteffective)() | 获取应用了继承的有效文本样式格式数据。 |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | 返回哈希码。 |
-| [GetLevel](../../aspose.slides/textstyle/getlevel)(int) | 如果样式级别存在则返回它，否则返回null。 |
+| [GetLevel](../../aspose.slides/textstyle/getlevel)(int) | 如果样式级别存在则返回，否则返回null。 |
 
 ## 字段
 
 | 姓名 | 描述 |
 | --- | --- |
-| static readonly [MaxLevelCount](../../aspose.slides/textstyle/maxlevelcount) | 可以定义的样式级别的最大数量。 与 GetLevel(int index) |
+| static readonly [MaxLevelCount](../../aspose.slides/textstyle/maxlevelcount) | 可以定义的样式级别的最大计数。 与 GetLevel(int index)一起使用 |
 
 ### 也可以看看
 

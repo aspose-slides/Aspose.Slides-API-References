@@ -33,7 +33,7 @@ public IPresentationInfo GetPresentationInfo(string file)
 
 ## GetPresentationInfo(Stream) {#getpresentationinfo}
 
-Создает из потока новый объект PresentationInfo и привязывает к нему презентацию. Получает информацию о презентации в указанном потоке.
+Создает новый объект PresentationInfo из потока и привязывает к нему презентацию. Получает информацию о презентации в указанном потоке.
 
 ```csharp
 public IPresentationInfo GetPresentationInfo(Stream stream)
@@ -41,7 +41,7 @@ public IPresentationInfo GetPresentationInfo(Stream stream)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| stream | Stream | Поток представления. |
+| stream | Stream | Презентационный поток. |
 
 ### Возвращаемое значение
 

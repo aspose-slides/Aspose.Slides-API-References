@@ -1,14 +1,14 @@
 ---
 title: IControlPropertiesCollection
 second_title: Справочник по API Aspose.Slides для .NET
-description: Набор элементов управления ActiveX.
+description: Коллекция элементов управления ActiveX.
 type: docs
 weight: 5150
 url: /ru/net/aspose.slides/icontrolpropertiescollection/
 ---
 ## IControlPropertiesCollection interface
 
-Набор элементов управления ActiveX.
+Коллекция элементов управления ActiveX.
 
 ```csharp
 public interface IControlPropertiesCollection : IEnumerable<KeyValuePair<string, string>>
@@ -18,10 +18,10 @@ public interface IControlPropertiesCollection : IEnumerable<KeyValuePair<string,
 
 | Имя | Описание |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides/icontrolpropertiescollection/asienumerable) { get; } | Возвращает интерфейс IEnumerable. Только для чтенияIEnumerable. |
-| [Count](../../aspose.slides/icontrolpropertiescollection/count) { get; } | Возвращает ряд свойств в коллекции. Только для чтенияInt32. |
+| [AsIEnumerable](../../aspose.slides/icontrolpropertiescollection/asienumerable) { get; } | Возвращает интерфейс IEnumerable. Только для чтенияIEnumerable . |
+| [Count](../../aspose.slides/icontrolpropertiescollection/count) { get; } | Возвращает ряд свойств в коллекции. Только для чтенияInt32 . |
 | [Item](../../aspose.slides/icontrolpropertiescollection/item) { get; set; } | Возвращает или устанавливает свойство. |
-| [NamesOfProperties](../../aspose.slides/icontrolpropertiescollection/namesofproperties) { get; } | Возвращает ряд свойств в коллекции. Только для чтенияICollection. |
+| [NamesOfProperties](../../aspose.slides/icontrolpropertiescollection/namesofproperties) { get; } | Возвращает ряд свойств в коллекции. Только для чтенияICollection . |
 
 ## Методы
 

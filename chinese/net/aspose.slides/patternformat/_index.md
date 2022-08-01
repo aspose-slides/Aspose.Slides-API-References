@@ -18,10 +18,10 @@ public class PatternFormat : PVIObject, IPatternFormat
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允许获取基本 IPresentationComponent 接口。 只读[`IPresentationComponent`](../ipresentationcomponent)。 |
-| [BackColor](../../aspose.slides/patternformat/backcolor) { get; } | 返回背景图案颜色。 只读[`IColorFormat`](../icolorformat)。 |
-| [ForeColor](../../aspose.slides/patternformat/forecolor) { get; } | 返回前景图案颜色。 只读[`IColorFormat`](../icolorformat)。 |
-| [PatternStyle](../../aspose.slides/patternformat/patternstyle) { get; set; } | 返回或设置图案样式。 读/写[`PatternStyle`](../patternstyle)。 |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允许获取基本 IPresentationComponent 接口。 只读[`IPresentationComponent`](../ipresentationcomponent). |
+| [BackColor](../../aspose.slides/patternformat/backcolor) { get; } | 返回背景图案颜色。 只读[`IColorFormat`](../icolorformat). |
+| [ForeColor](../../aspose.slides/patternformat/forecolor) { get; } | 返回前景图案颜色。 只读[`IColorFormat`](../icolorformat). |
+| [PatternStyle](../../aspose.slides/patternformat/patternstyle) { get; set; } | 返回或设置图案样式。 读/写[`PatternStyle`](../patternstyle). |
 
 ## 方法
 

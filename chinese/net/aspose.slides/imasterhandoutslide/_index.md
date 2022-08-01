@@ -18,9 +18,9 @@ public interface IMasterHandoutSlide : IBaseSlide, IMasterThemeable
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsIBaseSlide](../../aspose.slides/imasterhandoutslide/asibaseslide) { get; } | 允许获取基本 IBaseSlide 接口。 只读[`IBaseSlide`](../ibaseslide)。 |
-| [AsIMasterThemeable](../../aspose.slides/imasterhandoutslide/asimasterthemeable) { get; } | 返回 IMasterThemeable 接口。 只读[`IMasterThemeable`](../../aspose.slides.theme/imasterthemeable)。 |
-| [HeaderFooterManager](../../aspose.slides/imasterhandoutslide/headerfootermanager) { get; } | 返回主讲义幻灯片的 HeaderFooter 管理器。 只读[`IMasterHandoutSlideHeaderFooterManager`](../imasterhandoutslideheaderfootermanager)。 |
+| [AsIBaseSlide](../../aspose.slides/imasterhandoutslide/asibaseslide) { get; } | 允许获取基本 IBaseSlide 接口。 只读[`IBaseSlide`](../ibaseslide). |
+| [AsIMasterThemeable](../../aspose.slides/imasterhandoutslide/asimasterthemeable) { get; } | 返回 IMasterThemeable 接口。 只读[`IMasterThemeable`](../../aspose.slides.theme/imasterthemeable). |
+| [HeaderFooterManager](../../aspose.slides/imasterhandoutslide/headerfootermanager) { get; } | 返回主讲义幻灯片的页眉页脚管理器。 只读[`IMasterHandoutSlideHeaderFooterManager`](../imasterhandoutslideheaderfootermanager). |
 
 ### 也可以看看
 

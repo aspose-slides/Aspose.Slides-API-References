@@ -18,10 +18,10 @@ public interface IColorChangeEffectiveData : IEffectEffectiveData
 
 | Имя | Описание |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/icolorchangeeffectivedata/asieffecteffectivedata) { get; } | Позволяет получить базовый интерфейс IEffectEffectiveData. Только для чтения[`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [FromColor](../../aspose.slides.effects/icolorchangeeffectivedata/fromcolor) { get; } | Цвет, который будет заменен. Только для чтенияColor. |
-| [ToColor](../../aspose.slides.effects/icolorchangeeffectivedata/tocolor) { get; } | Цвет, который заменит. Только для чтенияColor. |
-| [UseAlpha](../../aspose.slides.effects/icolorchangeeffectivedata/usealpha) { get; } | Возвращает логическое значение, которое определяет, следует ли использовать альфа-компонент. Только чтениеBoolean. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/icolorchangeeffectivedata/asieffecteffectivedata) { get; } | Позволяет получить базовый интерфейс IEffectEffectiveData. Только для чтения[`IEffectEffectiveData`](../ieffecteffectivedata) . |
+| [FromColor](../../aspose.slides.effects/icolorchangeeffectivedata/fromcolor) { get; } | Цвет, который будет заменен. Только для чтенияColor . |
+| [ToColor](../../aspose.slides.effects/icolorchangeeffectivedata/tocolor) { get; } | Цвет, который заменит. Только для чтенияColor . |
+| [UseAlpha](../../aspose.slides.effects/icolorchangeeffectivedata/usealpha) { get; } | Возвращает логическое значение, определяющее, следует ли использовать альфа-компонент. Только для чтенияBoolean . |
 
 ### Смотрите также
 

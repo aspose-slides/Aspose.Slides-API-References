@@ -18,13 +18,13 @@ public class TableFormat : DomObject<Table>, ITableFormat
 
 | 姓名 | 描述 |
 | --- | --- |
-| [FillFormat](../../aspose.slides/tableformat/fillformat) { get; } | 返回表格填充属性对象。 只读[`IFillFormat`](../ifillformat)。 |
+| [FillFormat](../../aspose.slides/tableformat/fillformat) { get; } | 返回一个表格填充属性对象。 只读[`IFillFormat`](../ifillformat). |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [GetEffective](../../aspose.slides/tableformat/geteffective)() | 获取应用了继承和表格样式的有效表格格式化属性。 |
+| [GetEffective](../../aspose.slides/tableformat/geteffective)() | 应用继承和表格样式获取有效的表格格式化属性。 |
 
 ### 也可以看看
 

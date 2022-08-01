@@ -1,14 +1,14 @@
 ---
 title: ColorType
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или устанавливает метод определения цвета. Чтение/записьColorTypeaspose.slides/colortype.
+description: Возвращает или задает метод определения цвета. Чтение/записьColorTypeaspose.slides/colortype .
 type: docs
 weight: 50
 url: /ru/net/aspose.slides/icolorformat/colortype/
 ---
 ## IColorFormat.ColorType property
 
-Возвращает или устанавливает метод определения цвета. Чтение/запись[`ColorType`](../../colortype).
+Возвращает или задает метод определения цвета. Чтение/запись[`ColorType`](../../colortype) .
 
 ```csharp
 public ColorType ColorType { get; set; }

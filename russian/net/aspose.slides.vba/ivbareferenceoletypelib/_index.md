@@ -18,8 +18,8 @@ public interface IVbaReferenceOleTypeLib : IVbaReference
 
 | Имя | Описание |
 | --- | --- |
-| [AsIVbaReference](../../aspose.slides.vba/ivbareferenceoletypelib/asivbareference) { get; } | Возвращает интерфейс IVbaReference. Только для чтения[`IVbaReference`](../ivbareference). |
-| [Libid](../../aspose.slides.vba/ivbareferenceoletypelib/libid) { get; set; } | Представляет идентификатор библиотеки типов автоматизации. Чтение/записьString. |
+| [AsIVbaReference](../../aspose.slides.vba/ivbareferenceoletypelib/asivbareference) { get; } | Возвращает интерфейс IVbaReference. Только для чтения[`IVbaReference`](../ivbareference) . |
+| [Libid](../../aspose.slides.vba/ivbareferenceoletypelib/libid) { get; set; } | Представляет идентификатор библиотеки типов автоматизации. Чтение/записьString . |
 
 ### Смотрите также
 

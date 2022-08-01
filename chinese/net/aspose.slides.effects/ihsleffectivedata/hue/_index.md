@@ -1,14 +1,14 @@
 ---
 title: Hue
 second_title: Aspose.Slides for .NET API 参考
-description: 返回色调百分比 只读Single
+description: 返回色调百分比 只读Single.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides.effects/ihsleffectivedata/hue/
 ---
 ## IHSLEffectiveData.Hue property
 
-返回色调百分比。 只读Single。
+返回色调百分比。 只读Single.
 
 ```csharp
 public float Hue { get; }

@@ -18,14 +18,14 @@ public class GradientStopEffectiveData : IGradientStopEffectiveData
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Color](../../aspose.slides/gradientstopeffectivedata/color) { get; } | 返回渐变色标的颜色。 只读Color。 |
-| [Position](../../aspose.slides/gradientstopeffectivedata/position) { get; } | 返回渐变停止的位置 (0..1)。 只读Single。 |
+| [Color](../../aspose.slides/gradientstopeffectivedata/color) { get; } | 返回渐变色标的颜色。 只读Color. |
+| [Position](../../aspose.slides/gradientstopeffectivedata/position) { get; } | 返回梯度停止点的位置 (0..1)。 只读Single. |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [Equals](../../aspose.slides/gradientstopeffectivedata/equals)(object) | 确定指定的[`GradientStopEffectiveData`](../gradientstopeffectivedata)是否等于当前的Slides。GradientStopEffectiveData。 |
+| override [Equals](../../aspose.slides/gradientstopeffectivedata/equals)(object) | 判断是否指定[`GradientStopEffectiveData`](../gradientstopeffectivedata)等于当前[`GradientStopEffectiveData`](../gradientstopeffectivedata). |
 | override [GetHashCode](../../aspose.slides/gradientstopeffectivedata/gethashcode)() |  |
 
 ### 也可以看看

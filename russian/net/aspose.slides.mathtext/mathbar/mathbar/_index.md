@@ -1,14 +1,14 @@
 ---
 title: MathBar
 second_title: Справочник по API Aspose.Slides для .NET
-description: Инициализирует MathBar с верхней чертой верхнее положение
+description: Инициализирует MathBar с верхней полосой верхнее положение
 type: docs
 weight: 10
 url: /ru/net/aspose.slides.mathtext/mathbar/mathbar/
 ---
 ## MathBar(IMathElement) {#constructor}
 
-Инициализирует MathBar с верхней чертой (верхнее положение)
+Инициализирует MathBar с верхней полосой (верхнее положение)
 
 ```csharp
 public MathBar(IMathElement element)
@@ -16,7 +16,7 @@ public MathBar(IMathElement element)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| element | IMathElement | База элемент, к которому применяется полоса |
+| element | IMathElement | Базовый элемент, к которому применяется полоса |
 
 ### Примеры
 
@@ -46,8 +46,8 @@ public MathBar(IMathElement element, MathTopBotPositions position)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| element | IMathElement | Базовый элемент, к которому бар применяется |
-| position | MathTopBotPositions | Позиция линии бара. |
+| element | IMathElement | Базовый элемент, к которому применяется полоса |
+| position | MathTopBotPositions | Положение барной линии. |
 
 ### Примеры
 

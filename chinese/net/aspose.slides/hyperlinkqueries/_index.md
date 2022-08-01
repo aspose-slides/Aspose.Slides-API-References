@@ -18,9 +18,9 @@ public sealed class HyperlinkQueries : IHyperlinkQueries
 
 | 姓名 | 描述 |
 | --- | --- |
-| [GetAnyHyperlinks](../../aspose.slides/hyperlinkqueries/getanyhyperlinks)() | 获取所有包含非空 HyperlinkMouseOver 的 IHyperlinkContainer 子对象。 使用给定的 IHyperlinkContainer 对象，您可以管理其超链接（读取、更新或删除）。请参阅 IHyperlinkContainer 接口。 |
+| [GetAnyHyperlinks](../../aspose.slides/hyperlinkqueries/getanyhyperlinks)() | 获取所有包含非空 HyperlinkMouseOver. 的 IHyperlinkContainer 子对象。使用给定的 IHyperlinkContainer 对象，您可以管理其超链接（读取、更新或删除）。请参阅 IHyperlinkContainer 接口。 |
 | [GetHyperlinkClicks](../../aspose.slides/hyperlinkqueries/gethyperlinkclicks)() | 获取所有包含非空 HyperlinkClick 的 IHyperlinkContainer 子对象。 使用给定的 IHyperlinkContainer 对象，您可以管理其超链接（读取、更新或删除）。请参阅 IHyperlinkContainer 接口。 |
-| [GetHyperlinkMouseOvers](../../aspose.slides/hyperlinkqueries/gethyperlinkmouseovers)() | 获取所有包含非空 HyperlinkMouseOver 的 IHyperlinkContainer 子对象。 使用给定的 IHyperlinkContainer 对象，您可以管理其超链接（读取、更新或删除）。请参阅 IHyperlinkContainer 接口。 |
+| [GetHyperlinkMouseOvers](../../aspose.slides/hyperlinkqueries/gethyperlinkmouseovers)() | 获取所有包含非空 HyperlinkMouseOver. 的 IHyperlinkContainer 子对象。使用给定的 IHyperlinkContainer 对象，您可以管理其超链接（读取、更新或删除）。请参阅 IHyperlinkContainer 接口。 |
 | [RemoveAllHyperlinks](../../aspose.slides/hyperlinkqueries/removeallhyperlinks)() | 删除所有包含的 HyperlinkClick 和 HyperlinkMouseOver 超链接（在所有 IHyperlinkContainer 子对象中）。 |
 
 ### 也可以看看

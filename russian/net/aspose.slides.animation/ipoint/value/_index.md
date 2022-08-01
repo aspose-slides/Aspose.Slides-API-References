@@ -1,14 +1,14 @@
 ---
 title: Value
 second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет значение в очках. Толькоbool ColorFormat float int string. Чтение/записьObject.
+description: Представляет значение точки. Только bool ColorFormat float int string. Чтение/записьObject .
 type: docs
 weight: 30
 url: /ru/net/aspose.slides.animation/ipoint/value/
 ---
 ## IPoint.Value property
 
-Представляет значение в очках. Только:bool, ColorFormat, float, int, string. Чтение/записьObject.
+Представляет значение точки. Только: bool, ColorFormat, float, int, string. Чтение/записьObject .
 
 ```csharp
 public object Value { get; set; }

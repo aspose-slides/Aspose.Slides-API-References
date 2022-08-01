@@ -1,14 +1,14 @@
 ---
 title: Luminance
 second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет эффект яркости. Яркость линейно сдвигает все цвета ближе к белому или черному. Контраст масштабирует все цвета так чтобы они были либо ближе либо дальше друг от друга.
+description: Представляет эффект яркости. Яркость линейно сдвигает все цвета ближе к белому или черному. Контрастность масштабирует все цвета чтобы они были ближе или дальше друг от друга.
 type: docs
 weight: 3410
 url: /ru/net/aspose.slides.effects/luminance/
 ---
 ## Luminance class
 
-Представляет эффект яркости. Яркость линейно сдвигает все цвета ближе к белому или черному. Контраст масштабирует все цвета так, чтобы они были либо ближе, либо дальше друг от друга.
+Представляет эффект яркости. Яркость линейно сдвигает все цвета ближе к белому или черному. Контрастность масштабирует все цвета, чтобы они были ближе или дальше друг от друга.
 
 ```csharp
 public class Luminance : ImageTransformOperation, ILuminance
@@ -18,15 +18,15 @@ public class Luminance : ImageTransformOperation, ILuminance
 
 | Имя | Описание |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Позволяет получить базовый интерфейс IPresentationComponent. Только для чтения[`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Позволяет получить базовый интерфейс IPresentationComponent. Только для чтения[`IPresentationComponent`](../../aspose.slides/ipresentationcomponent) . |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/luminance/equals)(object) | Определяет, равен ли указанный[`Luminance`](../luminance)текущемуЯркость. |
+| override [Equals](../../aspose.slides.effects/luminance/equals)(object) | Определяет, является ли указанный[`Luminance`](../luminance) равен текущему[`Luminance`](../luminance) . |
 | [GetEffective](../../aspose.slides.effects/luminance/geteffective)() | Получает данные об эффективном эффекте яркости с применением наследования. |
-| override [GetHashCode](../../aspose.slides.effects/luminance/gethashcode)() | Служит хэш-функцией для определенного типа. |
+| override [GetHashCode](../../aspose.slides.effects/luminance/gethashcode)() | Служит хеш-функцией для определенного типа. |
 
 ### Смотрите также
 

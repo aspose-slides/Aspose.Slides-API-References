@@ -18,8 +18,8 @@ public interface IRippleTransition : ITransitionValueBase
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/irippletransition/asitransitionvaluebase) { get; } | 允许获取基本 ITransitionValueBase 接口。 只读[`ITransitionValueBase`](../itransitionvaluebase)。 |
-| [Direction](../../aspose.slides.slideshow/irippletransition/direction) { get; set; } | 过渡方向。 读/写[`TransitionCornerAndCenterDirectionType`](../transitioncornerandcenterdirectiontype)。 |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/irippletransition/asitransitionvaluebase) { get; } | 允许获取基本 ITransitionValueBase 接口。 只读[`ITransitionValueBase`](../itransitionvaluebase). |
+| [Direction](../../aspose.slides.slideshow/irippletransition/direction) { get; set; } | 转换方向。 读/写[`TransitionCornerAndCenterDirectionType`](../transitioncornerandcenterdirectiontype). |
 
 ### 也可以看看
 

@@ -18,7 +18,7 @@ public interface IEffectStyleCollection : IGenericCollection<IEffectStyle>
 
 | Имя | Описание |
 | --- | --- |
-| [Item](../../aspose.slides.theme/ieffectstylecollection/item) { get; } | Возвращает элемент в указанной позиции. Только для чтения[`IEffectStyle`](../ieffectstyle). |
+| [Item](../../aspose.slides.theme/ieffectstylecollection/item) { get; } | Возвращает элемент в указанной позиции. Только для чтения[`IEffectStyle`](../ieffectstyle) . |
 
 ### Смотрите также
 

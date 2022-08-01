@@ -16,7 +16,7 @@ public IDataLabel this[int index] { get; }
 
 ### 评论
 
-访问数据标签的替代方法是: - SeriesEx.DataPoints[ i].Label - 管理标签属性。
+访问数据标签的替代方法是： - SeriesEx.DataPoints[i].Label - 管理标签属性。
 
 ### 也可以看看
 

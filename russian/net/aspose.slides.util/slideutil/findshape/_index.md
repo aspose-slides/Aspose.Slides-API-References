@@ -17,11 +17,11 @@ public static IShape FindShape(IPresentation pres, string altText)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | pres | IPresentation | Отсканированная презентация. |
-| altText | String | Альтернативный текст фигуры. |
+| altText | String | Альтернативный текст формы. |
 
 ### Возвращаемое значение
 
-Shape или null.
+Форма или ноль.
 
 ### Смотрите также
 
@@ -43,12 +43,12 @@ public static IShape FindShape(IBaseSlide slide, string altText)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| слайд | IBaseSlide | Отсканированный слайд. |
-| altText | String | Альтернативный текст фигуры. |
+| slide | IBaseSlide | Сканированный слайд. |
+| altText | String | Альтернативный текст формы. |
 
 ### Возвращаемое значение
 
-Shape или null.
+Форма или ноль.
 
 ### Смотрите также
 

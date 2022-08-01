@@ -18,23 +18,23 @@ public interface IBaseSlide : IThemeable
 
 | Имя | Описание |
 | --- | --- |
-| [AsIThemeable](../../aspose.slides/ibaseslide/asithemeable) { get; } | Позволяет получить базовый интерфейс IThemeable. Только для чтения[`IThemeable`](../../aspose.slides.theme/ithemeable). |
-| [Background](../../aspose.slides/ibaseslide/background) { get; } | Возвращает фон слайда. Только чтение[`IBackground`](../ibackground). |
-| [Controls](../../aspose.slides/ibaseslide/controls) { get; } | Возвращает набор элементов управления ActiveX на слайде. Только для чтения[`IControlCollection`](../icontrolcollection). |
-| [CustomData](../../aspose.slides/ibaseslide/customdata) { get; } | Возвращает пользовательские данные слайда. Только для чтения[`ICustomData`](../icustomdata). |
-| [HyperlinkQueries](../../aspose.slides/ibaseslide/hyperlinkqueries) { get; } | Обеспечивает легкий доступ к содержащимся гиперссылкам. Только для чтения[`IHyperlinkQueries`](../ihyperlinkqueries). |
-| [Name](../../aspose.slides/ibaseslide/name) { get; set; } | Возвращает или задает имя слайда. Чтение/записьString. |
-| [Shapes](../../aspose.slides/ibaseslide/shapes) { get; } | Возвращает формы слайда. Только чтение[`IShapeCollection`](../ishapecollection). |
-| [ShowMasterShapes](../../aspose.slides/ibaseslide/showmastershapes) { get; set; } | Указывает, должны ли фигуры на мастер-слайде отображаться на слайдах или нет. Для самого мастер-слайда это свойство всегда возвращает` false` . Чтение/записьBoolean. |
-| [SlideId](../../aspose.slides/ibaseslide/slideid) { get; } | Возвращает идентификатор слайда. Только для чтенияUInt32. |
-| [SlideShowTransition](../../aspose.slides/ibaseslide/slideshowtransition) { get; } | Возвращает объект TransitionEx, который содержит информацию о продвижении указанного слайда во время показа слайдов. Только для чтения[`ISlideShowTransition`](../islideshowtransition). |
-| [Timeline](../../aspose.slides/ibaseslide/timeline) { get; } | Возвращает объект временной шкалы анимации. Только для чтения[`IAnimationTimeLine`](../ianimationtimeline). |
+| [AsIThemeable](../../aspose.slides/ibaseslide/asithemeable) { get; } | Позволяет получить базовый интерфейс IThemeable. Только для чтения[`IThemeable`](../../aspose.slides.theme/ithemeable) . |
+| [Background](../../aspose.slides/ibaseslide/background) { get; } | Возвращает фон слайда. Только для чтения[`IBackground`](../ibackground) . |
+| [Controls](../../aspose.slides/ibaseslide/controls) { get; } | Возвращает коллекцию элементов управления ActiveX на слайде. Только для чтения[`IControlCollection`](../icontrolcollection) . |
+| [CustomData](../../aspose.slides/ibaseslide/customdata) { get; } | Возвращает пользовательские данные слайда. Только для чтения[`ICustomData`](../icustomdata) . |
+| [HyperlinkQueries](../../aspose.slides/ibaseslide/hyperlinkqueries) { get; } | Обеспечивает легкий доступ к содержащимся гиперссылкам. Только для чтения[`IHyperlinkQueries`](../ihyperlinkqueries) . |
+| [Name](../../aspose.slides/ibaseslide/name) { get; set; } | Возвращает или задает имя слайда. Чтение/записьString . |
+| [Shapes](../../aspose.slides/ibaseslide/shapes) { get; } | Возвращает формы слайда. Только для чтения[`IShapeCollection`](../ishapecollection) . |
+| [ShowMasterShapes](../../aspose.slides/ibaseslide/showmastershapes) { get; set; } | Указывает, должны ли фигуры на мастер-слайде отображаться на слайдах или нет. Для самого мастер-слайда это свойство всегда возвращает значение.`ЛОЖЬ` . Чтение/записьBoolean . |
+| [SlideId](../../aspose.slides/ibaseslide/slideid) { get; } | Возвращает идентификатор слайда. Только для чтенияUInt32 . |
+| [SlideShowTransition](../../aspose.slides/ibaseslide/slideshowtransition) { get; } | Возвращает объект TransitionEx, который содержит информацию о способе продвижения указанного слайда во время показа слайдов. Только для чтения[`ISlideShowTransition`](../islideshowtransition) . |
+| [Timeline](../../aspose.slides/ibaseslide/timeline) { get; } | Возвращает объект временной шкалы анимации. Только для чтения[`IAnimationTimeLine`](../ianimationtimeline) . |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [Equals](../../aspose.slides/ibaseslide/equals)(IBaseSlide) | Определяет, равны ли два экземпляра IBaseSlide. Возвращаемое значение рассчитывается на основе структуры слайда и статического содержимого. Два слайда равны, если все формы, стили, тексты, анимация и другие настройки. и т. д. равны. При сравнении не учитываются значения уникальных идентификаторов, например SlideId, и динамическое содержимое, например текущее значение даты в заполнителе даты. |
+| [Equals](../../aspose.slides/ibaseslide/equals)(IBaseSlide) | Определяет, равны ли два экземпляра IBaseSlide. Возвращаемое значение рассчитывается на основе структуры слайда и статического содержимого. Два слайда равны, если все формы, стили, тексты, анимация и другие настройки. и т. д. равны. При сравнении не учитываются значения уникальных идентификаторов, например SlideId и динамическое содержимое, например текущее значение даты в заполнителе даты. |
 | [FindShapeByAltText](../../aspose.slides/ibaseslide/findshapebyalttext)(string) | Находит первое вхождение фигуры с указанным альтернативным текстом. |
 | [JoinPortionsWithSameFormatting](../../aspose.slides/ibaseslide/joinportionswithsameformatting)() | Соединения выполняются с одинаковым форматированием во всех абзацах во всех допустимых формах. |
 

@@ -1,14 +1,14 @@
 ---
 title: AddEffect
 second_title: Справочник по API Aspose.Slides для .NET
-description: Добавить новый эффект в конец текущей последовательности в конец групповой текстовой анимации. Действителен только в том случае если количество текстовых абзацев равно или больше количества подсчетов этой группы
+description: Добавить новый эффект в конец текущей последовательности до конца групповых текстовых анимаций. Действителен только если количество текстовых абзацев равно или больше количества эффектов этой группы
 type: docs
 weight: 30
 url: /ru/net/aspose.slides.animation/itextanimation/addeffect/
 ---
 ## ITextAnimation.AddEffect method
 
-Добавить новый эффект в конец текущей последовательности в конец групповой текстовой анимации. Действителен только в том случае, если количество текстовых абзацев равно или больше количества подсчетов этой группы!
+Добавить новый эффект в конец текущей последовательности до конца групповых текстовых анимаций. Действителен, только если количество текстовых абзацев равно или больше количества эффектов этой группы!
 
 ```csharp
 public IEffect AddEffect(EffectType effectType, EffectSubtype subtype, 
@@ -18,8 +18,8 @@ public IEffect AddEffect(EffectType effectType, EffectSubtype subtype,
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | effectType | EffectType | Тип эффекта анимации[`EffectType`](../../effecttype) |
-| subtype | EffectSubtype | Подтипы эффекта анимации[`EffectSubtype`](../../effectsubtype) |
-| triggerType | EffectTriggerType | Тип эффекта триггера[`EffectTriggerType`](../../effecttriggertype) |
+| subtype | EffectSubtype | Подтипы анимационного эффекта[`EffectSubtype`](../../effectsubtype) |
+| triggerType | EffectTriggerType | Триггерный тип эффекта[`EffectTriggerType`](../../effecttriggertype) |
 
 ### Возвращаемое значение
 

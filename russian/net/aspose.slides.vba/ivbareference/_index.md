@@ -18,7 +18,7 @@ public interface IVbaReference
 
 | Имя | Описание |
 | --- | --- |
-| [Name](../../aspose.slides.vba/ivbareference/name) { get; set; } | Представляет имя ссылки на проект VBA. Чтение/записьString. |
+| [Name](../../aspose.slides.vba/ivbareference/name) { get; set; } | Представляет имя ссылки на проект VBA. Чтение/записьString . |
 
 ### Смотрите также
 

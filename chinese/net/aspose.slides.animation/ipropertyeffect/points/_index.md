@@ -1,14 +1,14 @@
 ---
 title: Points
 second_title: Aspose.Slides for .NET API 参考
-description: 指定动画的点 读/写IPointCollectionaspose.slides.animation/ipointcollection
+description: 指定动画的点 读/写IPointCollectionaspose.slides.animation/ipointcollection.
 type: docs
 weight: 50
 url: /zh/net/aspose.slides.animation/ipropertyeffect/points/
 ---
 ## IPropertyEffect.Points property
 
-指定动画的点。 读/写[`IPointCollection`](../../ipointcollection)。
+指定动画的点。 读/写[`IPointCollection`](../../ipointcollection).
 
 ```csharp
 public IPointCollection Points { get; set; }

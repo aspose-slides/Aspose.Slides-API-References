@@ -17,7 +17,7 @@ public string ExportToHtml(int firstParagraphIndex, int paragraphsCount,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| firstParagraphIndex | Int32 | Индекс первого абзацаInt32 |
+| firstParagraphIndex | Int32 | Указатель первого абзацаInt32 |
 | paragraphsCount | Int32 | Количество абзацевInt32 |
 | options | ITextToHtmlConversionOptions | Параметры преобразования[`ITextToHtmlConversionOptions`](../../../aspose.slides.export/itexttohtmlconversionoptions) |
 

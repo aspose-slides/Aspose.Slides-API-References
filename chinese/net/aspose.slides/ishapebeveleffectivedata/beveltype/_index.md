@@ -1,14 +1,14 @@
 ---
 title: BevelType
 second_title: Aspose.Slides for .NET API 参考
-description: 斜角类型 只读BevelPresetTypeaspose.slides/bevelpresettype
+description: 斜角类型 只读BevelPresetTypeaspose.slides/bevelpresettype.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides/ishapebeveleffectivedata/beveltype/
 ---
 ## IShapeBevelEffectiveData.BevelType property
 
-斜角类型。 只读[`BevelPresetType`](../../bevelpresettype)。
+斜角类型。 只读[`BevelPresetType`](../../bevelpresettype).
 
 ```csharp
 public BevelPresetType BevelType { get; }

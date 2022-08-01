@@ -1,14 +1,14 @@
 ---
 title: Tint
 second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет эффект оттенка. Смещает значения цвета эффекта в сторону/от оттенка на указанную величину.
+description: Представляет эффект Tint. Смещает значения цвета эффекта в сторону/от оттенка на указанную величину.
 type: docs
 weight: 3460
 url: /ru/net/aspose.slides.effects/tint/
 ---
 ## Tint class
 
-Представляет эффект оттенка. Смещает значения цвета эффекта в сторону/от оттенка на указанную величину.
+Представляет эффект Tint. Смещает значения цвета эффекта в сторону/от оттенка на указанную величину.
 
 ```csharp
 public class Tint : ImageTransformOperation, ITint
@@ -18,15 +18,15 @@ public class Tint : ImageTransformOperation, ITint
 
 | Имя | Описание |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Позволяет получить базовый интерфейс IPresentationComponent. Только для чтения[`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Позволяет получить базовый интерфейс IPresentationComponent. Только для чтения[`IPresentationComponent`](../../aspose.slides/ipresentationcomponent) . |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/tint/equals)(object) | Определяет, равен ли указанный[`Tint`](../tint)текущемуОттенок. |
+| override [Equals](../../aspose.slides.effects/tint/equals)(object) | Определяет, является ли указанный[`Tint`](../tint) равен текущему[`Tint`](../tint) . |
 | [GetEffective](../../aspose.slides.effects/tint/geteffective)() | Получает данные об эффективном эффекте Tint с применением наследования. |
-| override [GetHashCode](../../aspose.slides.effects/tint/gethashcode)() | Служит хэш-функцией для определенного типа. |
+| override [GetHashCode](../../aspose.slides.effects/tint/gethashcode)() | Служит хеш-функцией для определенного типа. |
 
 ### Смотрите также
 

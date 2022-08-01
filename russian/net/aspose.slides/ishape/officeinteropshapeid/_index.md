@@ -1,14 +1,14 @@
 ---
 title: OfficeInteropShapeId
 second_title: Справочник по API Aspose.Slides для .NET
-description: Получает уникальный идентификатор формы в области слайдов. Только для чтенияUInt32. См. такжеUniqueIdaspose.slides/ishape/uniqueidдля получения уникального идентификатора фигуры в области презентации.
+description: Получает уникальный идентификатор формы в области слайда. Только для чтенияUInt32 . См. такжеUniqueIdaspose.slides/ishape/uniqueid для получения уникального идентификатора формы в области презентации.
 type: docs
 weight: 170
 url: /ru/net/aspose.slides/ishape/officeinteropshapeid/
 ---
 ## IShape.OfficeInteropShapeId property
 
-Получает уникальный идентификатор формы в области слайдов. Только для чтенияUInt32. См. также[`UniqueId`](../uniqueid)для получения уникального идентификатора фигуры в области презентации.
+Получает уникальный идентификатор формы в области слайда. Только для чтенияUInt32 . См. также[`UniqueId`](../uniqueid) для получения уникального идентификатора формы в области презентации.
 
 ```csharp
 public uint OfficeInteropShapeId { get; }

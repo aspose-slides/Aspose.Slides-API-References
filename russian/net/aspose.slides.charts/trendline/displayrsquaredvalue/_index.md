@@ -1,14 +1,14 @@
 ---
 title: DisplayRSquaredValue
 second_title: Справочник по API Aspose.Slides для .NET
-description: Указывает что значение R-квадрата линии тренда отображается на диаграмме в той же метке что и уравнение. Чтение/записьBoolean.
+description: Указывает что значение R-квадрата линии тренда отображается на диаграмме в той же метке что и уравнение. Чтение/записьBoolean .
 type: docs
 weight: 40
 url: /ru/net/aspose.slides.charts/trendline/displayrsquaredvalue/
 ---
 ## Trendline.DisplayRSquaredValue property
 
-Указывает, что значение R-квадрата линии тренда отображается на диаграмме (в той же метке, что и уравнение). Чтение/записьBoolean.
+Указывает, что значение R-квадрата линии тренда отображается на диаграмме (в той же метке, что и уравнение). Чтение/записьBoolean .
 
 ```csharp
 public bool DisplayRSquaredValue { get; set; }

@@ -16,7 +16,7 @@ public void CopyFrom(ITextFrame sourceTextFrame)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| sourceTextFrame | ITextFrame | 复制文本格式的文本框。 |
+| sourceTextFrame | ITextFrame | 文本框架复制文本格式。 |
 
 ### 也可以看看
 

@@ -18,8 +18,8 @@ public class BehaviorCollection : IBehaviorCollection
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Count](../../aspose.slides.animation/behaviorcollection/count) { get; } | 返回集合中的行为数。 只读Int32。 |
-| [IsReadOnly](../../aspose.slides.animation/behaviorcollection/isreadonly) { get; } | 获取一个值，该值指示ICollection是否为只读。 只读Boolean。 |
+| [Count](../../aspose.slides.animation/behaviorcollection/count) { get; } | 返回集合中的行为数。 只读Int32. |
+| [IsReadOnly](../../aspose.slides.animation/behaviorcollection/isreadonly) { get; } | 获取一个值，该值指示是否ICollection是只读的。 只读Boolean. |
 | [Item](../../aspose.slides.animation/behaviorcollection/item) { get; set; } | 退出指定索引处的行为。 |
 
 ## 方法
@@ -28,10 +28,10 @@ public class BehaviorCollection : IBehaviorCollection
 | --- | --- |
 | [Add](../../aspose.slides.animation/behaviorcollection/add)(IBehavior) | 向集合添加新行为。 |
 | [Clear](../../aspose.slides.animation/behaviorcollection/clear)() | 从集合中删除所有行为。 |
-| [Contains](../../aspose.slides.animation/behaviorcollection/contains)(IBehavior) | 确定ICollection是否包含特定值。 |
-| [CopyTo](../../aspose.slides.animation/behaviorcollection/copyto)(IBehavior[], int) | 将ICollection的元素复制到System。Array，从特定的Array索引开始。 |
+| [Contains](../../aspose.slides.animation/behaviorcollection/contains)(IBehavior) | 确定是否ICollection包含特定值。 |
+| [CopyTo](../../aspose.slides.animation/behaviorcollection/copyto)(IBehavior[], int) | 复制元素ICollection对一个Array，从一个特定的开始Array索引. |
 | [GetEnumerator](../../aspose.slides.animation/behaviorcollection/getenumerator)() | 返回一个遍历集合的枚举器。 |
-| [IndexOf](../../aspose.slides.animation/behaviorcollection/indexof)(IBehavior) | 确定IList中特定项目的索引。 |
+| [IndexOf](../../aspose.slides.animation/behaviorcollection/indexof)(IBehavior) | 确定特定项目的索引IList. |
 | [Insert](../../aspose.slides.animation/behaviorcollection/insert)(int, IBehavior) | 将新行为插入到指定索引处的集合中。 |
 | [Remove](../../aspose.slides.animation/behaviorcollection/remove)(IBehavior) | 从集合中删除指定的行为。 |
 | [RemoveAt](../../aspose.slides.animation/behaviorcollection/removeat)(int) | 从指定索引处的集合中删除行为。 |

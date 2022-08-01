@@ -24,11 +24,11 @@ public interface ISvgShapeAndTextFormattingController : ISvgShapeFormattingContr
 
 | 姓名 | 描述 |
 | --- | --- |
-| [FormatText](../../aspose.slides.export/isvgshapeandtextformattingcontroller/formattext)(ISvgTSpan, IPortion, ITextFrame) | 在将文本部分渲染到 SVG 之前调用此函数，以允许用户控制生成的 SVG。 |
+| [FormatText](../../aspose.slides.export/isvgshapeandtextformattingcontroller/formattext)(ISvgTSpan, IPortion, ITextFrame) | 在将文本部分渲染为 SVG 之前调用此函数，以允许用户控制生成的 SVG。 |
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]

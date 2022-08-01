@@ -18,9 +18,9 @@ public class ControlPropertiesCollection : IControlPropertiesCollection
 
 | Имя | Описание |
 | --- | --- |
-| [Count](../../aspose.slides/controlpropertiescollection/count) { get; } | Возвращает ряд свойств в коллекции. Только для чтенияInt32. |
+| [Count](../../aspose.slides/controlpropertiescollection/count) { get; } | Возвращает ряд свойств в коллекции. Только для чтенияInt32 . |
 | [Item](../../aspose.slides/controlpropertiescollection/item) { get; set; } | Возвращает или устанавливает свойство. |
-| [NamesOfProperties](../../aspose.slides/controlpropertiescollection/namesofproperties) { get; } | Возвращает коллекцию имен свойств. Только для чтенияICollection. |
+| [NamesOfProperties](../../aspose.slides/controlpropertiescollection/namesofproperties) { get; } | Возвращает набор имен свойств. Только для чтенияICollection . |
 
 ## Методы
 
@@ -28,7 +28,7 @@ public class ControlPropertiesCollection : IControlPropertiesCollection
 | --- | --- |
 | [Add](../../aspose.slides/controlpropertiescollection/add)(string, string) | Добавляет свойство в коллекцию. |
 | [Clear](../../aspose.slides/controlpropertiescollection/clear)() | Удаляет все свойства. |
-| [GetEnumerator](../../aspose.slides/controlpropertiescollection/getenumerator)() | Возвращает перечислитель, который перебирает коллекцию. |
+| [GetEnumerator](../../aspose.slides/controlpropertiescollection/getenumerator)() | Возвращает перечислитель, который выполняет итерацию по коллекции. |
 | [Remove](../../aspose.slides/controlpropertiescollection/remove)(string) | Удаляет свойство с указанным именем. |
 
 ### Смотрите также

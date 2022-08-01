@@ -18,11 +18,11 @@ public interface ICellFormatEffectiveData : IBaseTableFormatEffectiveData
 
 | Имя | Описание |
 | --- | --- |
-| [AsIBaseTableFormatEffectiveData](../../aspose.slides/icellformateffectivedata/asibasetableformateffectivedata) { get; } | Позволяет получить базовый интерфейс IBaseTableFormatEffectiveData. Только для чтения[`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata). |
+| [AsIBaseTableFormatEffectiveData](../../aspose.slides/icellformateffectivedata/asibasetableformateffectivedata) { get; } | Позволяет получить базовый интерфейс IBaseTableFormatEffectiveData. Только для чтения[`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata) . |
 
 ### Примечания
 
-Этот интерфейс используется вместе с[`ICellFormat`](../icellformat)Интерфейс для возврата эффективных значений форматирования с примененными стилями наследования и таблиц.
+Этот интерфейс используется вместе с[`ICellFormat`](../icellformat) интерфейс для возврата эффективных значений форматирования с примененными стилями наследования и таблиц.
 
 ### Смотрите также
 

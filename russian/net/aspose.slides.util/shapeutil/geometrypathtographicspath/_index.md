@@ -1,14 +1,14 @@
 ---
 title: GeometryPathToGraphicsPath
 second_title: Справочник по API Aspose.Slides для .NET
-description: ПреобразуетIGeometryPathaspose.slides/igeometrypathвGraphicsPath.  GraphicsPath можно трансформировать различными способами используя его удобные методы а затем преобразовать обратно в IGeometryPathaspose.slides/igeometrypathдля использования вGeometryShapeaspose.slides/geometryshapeчерезGraphicsPathToGeometryPathaspose.slides.util/shapeutil/graphicspathtogeometrypathметод.
+description: ПреобразуетIGeometryPathaspose.slides/igeometrypath кGraphicsPath .  GraphicsPath можно по-разному преобразовывать удобными для него методами а затем снова преобразовывать в IGeometryPathaspose.slides/igeometrypath использовать вGeometryShapeaspose.slides/geometryshape с помощьюGraphicsPathToGeometryPathaspose.slides.util/shapeutil/graphicspathtogeometrypath метод.
 type: docs
 weight: 10
 url: /ru/net/aspose.slides.util/shapeutil/geometrypathtographicspath/
 ---
 ## ShapeUtil.GeometryPathToGraphicsPath method
 
-Преобразует[`IGeometryPath`](../../../aspose.slides/igeometrypath)вGraphicsPath.  GraphicsPath можно трансформировать различными способами, используя его удобные методы, а затем преобразовать обратно в [`IGeometryPath`](../../../aspose.slides/igeometrypath)для использования в[`GeometryShape`](../../../aspose.slides/geometryshape)через[`GraphicsPathToGeometryPath`](../graphicspathtogeometrypath)метод.
+Преобразует[`IGeometryPath`](../../../aspose.slides/igeometrypath) кGraphicsPath .  GraphicsPath можно по-разному преобразовывать удобными для него методами, а затем снова преобразовывать в [`IGeometryPath`](../../../aspose.slides/igeometrypath) использовать в[`GeometryShape`](../../../aspose.slides/geometryshape) с помощью[`GraphicsPathToGeometryPath`](../graphicspathtogeometrypath) метод.
 
 ```csharp
 public static GraphicsPath GeometryPathToGraphicsPath(IGeometryPath geometryPath)

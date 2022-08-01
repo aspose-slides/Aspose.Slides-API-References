@@ -16,15 +16,15 @@ public int IndexOf(ISummaryZoomSection summaryZoomSection)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| summaryZoomSection | ISummaryZoomSection | SummaryZoomSection 对象找到[`ISummaryZoomSection`](../../isummaryzoomsection)。 |
+| summaryZoomSection | ISummaryZoomSection | 要查找的 SummaryZoomSection 对象[`ISummaryZoomSection`](../../isummaryzoomsection). |
 
 ### 返回值
 
-SummaryZoomSection 对象的索引，如果 SummaryZoomSection 对象不在此集合中，则为 -1。
+SummaryZoomSection 对象的索引，如果 SummaryZoomSection 对象不来自此集合，则为 -1。
 
 ### 例子
 
-该示例演示了按索引获取摘要缩放部分元素:
+该示例演示了按索引获取摘要缩放部分元素：
 
 ```csharp
 [C#]

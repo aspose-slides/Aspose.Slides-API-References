@@ -1,14 +1,14 @@
 ---
 title: FillFormat
 second_title: Aspose.Slides for .NET API 参考
-description: 返回文本 FillFormat 属性未应用继承 只读IFillFormataspose.slides/ifillformat
+description: 返回文本 FillFormat 属性未应用继承 只读IFillFormataspose.slides/ifillformat.
 type: docs
 weight: 60
 url: /zh/net/aspose.slides/baseportionformat/fillformat/
 ---
 ## BasePortionFormat.FillFormat property
 
-返回文本 FillFormat 属性。未应用继承。 只读[`IFillFormat`](../../ifillformat)。
+返回文本 FillFormat 属性。未应用继承。 只读[`IFillFormat`](../../ifillformat).
 
 ```csharp
 public IFillFormat FillFormat { get; }

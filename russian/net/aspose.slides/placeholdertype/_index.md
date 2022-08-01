@@ -19,9 +19,9 @@ public enum PlaceholderType : sbyte
 | Имя | Ценность | Описание |
 | --- | --- | --- |
 | Title | `0` | Название. |
-| Body | `1` | Кузов. |
+| Body | `1` | Тело. |
 | CenteredTitle | `2` | Заголовок по центру. |
-| Subtitle | `3` | Подзаголовок. |
+| Subtitle | `3` | Субтитры. |
 | DateAndTime | `4` | Дата и время. |
 | SlideNumber | `5` | Номер слайда. |
 | Footer | `6` | Нижний колонтитул. |
@@ -33,7 +33,7 @@ public enum PlaceholderType : sbyte
 | Diagram | `12` | Диаграмма. |
 | Media | `13` | Медиа. |
 | SlideImage | `14` | Изображение слайда. |
-| Picture | `15` | Картинка. |
+| Picture | `15` | Изображение. |
 
 ### Смотрите также
 

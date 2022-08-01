@@ -1,14 +1,14 @@
 ---
 title: AsIFormattedTextContainer
 second_title: Aspose.Slides for .NET API 参考
-description: 允许获取基本 IFormattedTextContainer 接口 只读IFormattedTextContaineraspose.slides.charts/iformattedtextcontainer
+description: 允许获取基本 IFormattedTextContainer 接口 只读IFormattedTextContaineraspose.slides.charts/iformattedtextcontainer.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides.charts/chart/asiformattedtextcontainer/
 ---
 ## Chart.AsIFormattedTextContainer property
 
-允许获取基本 IFormattedTextContainer 接口。 只读[`IFormattedTextContainer`](../../iformattedtextcontainer)。
+允许获取基本 IFormattedTextContainer 接口。 只读[`IFormattedTextContainer`](../../iformattedtextcontainer).
 
 ```csharp
 public IFormattedTextContainer AsIFormattedTextContainer { get; }

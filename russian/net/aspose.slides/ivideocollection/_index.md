@@ -18,7 +18,7 @@ public interface IVideoCollection : IGenericCollection<IVideo>
 
 | Имя | Описание |
 | --- | --- |
-| [Item](../../aspose.slides/ivideocollection/item) { get; } | Получает элемент по указанному индексу. Только для чтения[`IVideo`](../ivideo). |
+| [Item](../../aspose.slides/ivideocollection/item) { get; } | Получает элемент по указанному индексу. Только для чтения[`IVideo`](../ivideo) . |
 
 ## Методы
 

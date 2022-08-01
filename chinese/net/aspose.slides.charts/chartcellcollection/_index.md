@@ -18,17 +18,17 @@ public class ChartCellCollection : IChartCellCollection
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Count](../../aspose.slides.charts/chartcellcollection/count) { get; } | 获取集合中的单元格计数。 只读Int32。 |
-| [Item](../../aspose.slides.charts/chartcellcollection/item) { get; } | 按索引返回单元格 (IChartDataCell)。 |
+| [Count](../../aspose.slides.charts/chartcellcollection/count) { get; } | 获取集合中的单元格计数。 只读Int32. |
+| [Item](../../aspose.slides.charts/chartcellcollection/item) { get; } | 按索引返回一个单元格 (IChartDataCell)。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
 | [Add](../../aspose.slides.charts/chartcellcollection/add#add)(IChartDataCell) | 将新单元格添加到集合中。 |
-| [Add](../../aspose.slides.charts/chartcellcollection/add#add_1)(object) | 从指定值创建[`ChartDataCell`](../chartdatacell)并将其添加到集合中。 |
+| [Add](../../aspose.slides.charts/chartcellcollection/add#add_1)(object) | 创建[`ChartDataCell`](../chartdatacell)从指定的值并将其添加到集合中。 |
 | [GetCellsAddress](../../aspose.slides.charts/chartcellcollection/getcellsaddress)() | 返回工作簿中单元格集的地址。 |
-| [GetConcatenatedValuesFromCells](../../aspose.slides.charts/chartcellcollection/getconcatenatedvaluesfromcells)() | 来自所有单元格字符串值的连接字符串。 |
+| [GetConcatenatedValuesFromCells](../../aspose.slides.charts/chartcellcollection/getconcatenatedvaluesfromcells)() | 来自所有单元格字符串值的串联字符串。 |
 | [GetEnumerator](../../aspose.slides.charts/chartcellcollection/getenumerator)() | 返回一个遍历集合的枚举器。 |
 | [RemoveAt](../../aspose.slides.charts/chartcellcollection/removeat)(int) | 按索引从集合中删除一个单元格。 |
 

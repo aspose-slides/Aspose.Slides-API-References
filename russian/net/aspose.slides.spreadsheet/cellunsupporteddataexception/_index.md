@@ -18,9 +18,9 @@ public class CellUnsupportedDataException : PptxEditException
 
 | Имя | Описание |
 | --- | --- |
-| [CellUnsupportedDataException](cellunsupporteddataexception#constructor)() | Инициализирует новый экземпляр класса[`CellUnsupportedDataException`](../cellunsupporteddataexception). |
-| [CellUnsupportedDataException](cellunsupporteddataexception#constructor_1)(string) | Инициализирует новый экземпляр класса[`CellUnsupportedDataException`](../cellunsupporteddataexception)с указанной ошибкой сообщение. |
-| [CellUnsupportedDataException](cellunsupporteddataexception#constructor_2)(string, Exception) | Инициализирует новый экземпляр класса[`CellUnsupportedDataException`](../cellunsupporteddataexception)с указанной ошибкой сообщение и ссылку на внутреннее исключение, которое является причиной этого исключения. |
+| [CellUnsupportedDataException](cellunsupporteddataexception#constructor)() | Инициализирует новый экземпляр[`CellUnsupportedDataException`](../cellunsupporteddataexception) класс. |
+| [CellUnsupportedDataException](cellunsupporteddataexception#constructor_1)(string) | Инициализирует новый экземпляр[`CellUnsupportedDataException`](../cellunsupporteddataexception) класс с указанным сообщением error . |
+| [CellUnsupportedDataException](cellunsupporteddataexception#constructor_2)(string, Exception) | Инициализирует новый экземпляр[`CellUnsupportedDataException`](../cellunsupporteddataexception) класс с указанным сообщением error и ссылкой на внутреннее исключение, которое является причиной этого исключения. |
 
 ### Смотрите также
 

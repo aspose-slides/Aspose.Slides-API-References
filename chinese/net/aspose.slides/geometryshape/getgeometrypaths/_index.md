@@ -1,14 +1,14 @@
 ---
 title: GetGeometryPaths
 second_title: Aspose.Slides for .NET API 参考
-description: 返回几何形状路径的副本 坐标相对于形状的左上角
+description: 返回几何形状路径的副本坐标相对于形状的左上角
 type: docs
 weight: 50
 url: /zh/net/aspose.slides/geometryshape/getgeometrypaths/
 ---
 ## GeometryShape.GetGeometryPaths method
 
-返回几何形状路径的副本。 坐标相对于形状的左上角。
+返回几何形状路径的副本。坐标相对于形状的左上角。
 
 ```csharp
 public IGeometryPath[] GetGeometryPaths()
@@ -16,11 +16,11 @@ public IGeometryPath[] GetGeometryPaths()
 
 ### 返回值
 
-[`IGeometryPath`](../../igeometrypath)
+数组[`IGeometryPath`](../../igeometrypath)
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]

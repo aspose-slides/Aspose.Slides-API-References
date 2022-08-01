@@ -1,14 +1,14 @@
 ---
 title: Control
 second_title: Aspose.Slides for .NET API 参考
-description: 表示一个 ActiveX 控件
+description: 表示 ActiveX 控件
 type: docs
 weight: 2540
 url: /zh/net/aspose.slides/control/
 ---
 ## Control class
 
-表示一个 ActiveX 控件。
+表示 ActiveX 控件。
 
 ```csharp
 public class Control : DomObject<ControlCollection>, IControl
@@ -19,12 +19,12 @@ public class Control : DomObject<ControlCollection>, IControl
 | 姓名 | 描述 |
 | --- | --- |
 | [ActiveXControlBinary](../../aspose.slides/control/activexcontrolbinary) { get; } | 当用于持久化的方法是 PersistStream、PersistStreamInit 或 PersistStorage 时，指定 ActiveX 控件的持久性。 |
-| [ClassId](../../aspose.slides/control/classid) { get; set; } | 获取此控件的类 ID。 只读Guid。 |
-| [Frame](../../aspose.slides/control/frame) { get; set; } | 返回或设置控件的框架。 读/写[`IShapeFrame`](../ishapeframe)。 |
-| [Name](../../aspose.slides/control/name) { get; set; } | 获取或设置此控件的名称。 读/写String。 |
-| [Persistence](../../aspose.slides/control/persistence) { get; } | 获取用于存储 ActiveX 控件属性的方法。 只读[`PersistenceType`](../persistencetype)。 |
-| [Properties](../../aspose.slides/control/properties) { get; } | 返回 ActiveX 属性的集合。  注意:Aspose.Slides 仅支持基于 XML 的 ActiveX 属性。如果属性以二进制格式存储，则此属性将返回 null。 只读[`IControlPropertiesCollection`](../icontrolpropertiescollection)。 |
-| [SubstitutePictureFormat](../../aspose.slides/control/substitutepictureformat) { get; } | 返回控制图像填充属性对象。 只读[`IPictureFillFormat`](../ipicturefillformat)。 |
+| [ClassId](../../aspose.slides/control/classid) { get; set; } | 获取此控件的类 ID。 只读Guid. |
+| [Frame](../../aspose.slides/control/frame) { get; set; } | 返回或设置控件的框架。 读/写[`IShapeFrame`](../ishapeframe). |
+| [Name](../../aspose.slides/control/name) { get; set; } | 获取或设置此控件的名称。 读/写String. |
+| [Persistence](../../aspose.slides/control/persistence) { get; } | 获取用于存储 ActiveX 控件属性的方法。 只读[`PersistenceType`](../persistencetype). |
+| [Properties](../../aspose.slides/control/properties) { get; } | 返回 ActiveX 属性的集合。 注意：Aspose.Slides 仅支持基于 XML 的 ActiveX 属性。如果属性以二进制格式存储，则此属性将返回 null。 只读[`IControlPropertiesCollection`](../icontrolpropertiescollection). |
+| [SubstitutePictureFormat](../../aspose.slides/control/substitutepictureformat) { get; } | 返回控制图像填充属性对象。 只读[`IPictureFillFormat`](../ipicturefillformat). |
 
 ### 也可以看看
 

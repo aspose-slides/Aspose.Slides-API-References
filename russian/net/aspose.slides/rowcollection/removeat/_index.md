@@ -17,7 +17,7 @@ public void RemoveAt(int firstRowIndex, bool withAttachedRows)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | firstRowIndex | Int32 | Индекс удаляемой строки. |
-| withAttachedRows | Boolean | Истинно, чтобы также удалить все прикрепленные строки. |
+| withAttachedRows | Boolean | Значение true, чтобы также удалить все прикрепленные строки. |
 
 ### Смотрите также
 

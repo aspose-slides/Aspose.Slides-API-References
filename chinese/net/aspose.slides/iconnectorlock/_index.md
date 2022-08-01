@@ -18,17 +18,17 @@ public interface IConnectorLock : IBaseShapeLock
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AdjustHandlesLocked](../../aspose.slides/iconnectorlock/adjusthandleslocked) { get; set; } | 确定是否禁止更改调整值。 读/写Boolean。 |
-| [ArrowheadsLocked](../../aspose.slides/iconnectorlock/arrowheadslocked) { get; set; } | 确定是否禁止更改箭头。 读/写Boolean。 |
-| [AsIBaseShapeLock](../../aspose.slides/iconnectorlock/asibaseshapelock) { get; } | 允许获取基本 IBaseShapeLock 接口。 只读[`IBaseShapeLock`](../ibaseshapelock)。 |
-| [AspectRatioLocked](../../aspose.slides/iconnectorlock/aspectratiolocked) { get; set; } | 确定形状在调整大小时是否必须保持纵横比。 读/写Boolean。 |
-| [EditPointsLocked](../../aspose.slides/iconnectorlock/editpointslocked) { get; set; } | 确定是否禁止直接更改此形状的轮廓。 读/写Boolean。 |
-| [GroupingLocked](../../aspose.slides/iconnectorlock/groupinglocked) { get; set; } | 确定是否禁止将此形状添加到组中。 读/写Boolean。 |
-| [PositionMove](../../aspose.slides/iconnectorlock/positionmove) { get; set; } | 确定是否禁止移动此形状。 读/写Boolean。 |
-| [RotateLocked](../../aspose.slides/iconnectorlock/rotatelocked) { get; set; } | 确定是否禁止更改此形状的旋转角度。 读/写Boolean。 |
-| [SelectLocked](../../aspose.slides/iconnectorlock/selectlocked) { get; set; } | 确定是否禁止选择此形状。 读/写Boolean。 |
-| [ShapeTypeLocked](../../aspose.slides/iconnectorlock/shapetypelocked) { get; set; } | 确定是否禁止更改形状类型。 读/写Boolean。 |
-| [SizeLocked](../../aspose.slides/iconnectorlock/sizelocked) { get; set; } | 确定是否禁止调整此形状的大小。 读/写Boolean。 |
+| [AdjustHandlesLocked](../../aspose.slides/iconnectorlock/adjusthandleslocked) { get; set; } | 确定是否禁止更改调整值。 读/写Boolean. |
+| [ArrowheadsLocked](../../aspose.slides/iconnectorlock/arrowheadslocked) { get; set; } | 确定是否禁止更改箭头。 读/写Boolean. |
+| [AsIBaseShapeLock](../../aspose.slides/iconnectorlock/asibaseshapelock) { get; } | 允许获取基本 IBaseShapeLock 接口。 只读[`IBaseShapeLock`](../ibaseshapelock). |
+| [AspectRatioLocked](../../aspose.slides/iconnectorlock/aspectratiolocked) { get; set; } | 确定形状是否必须在调整大小时保持纵横比。 读/写Boolean. |
+| [EditPointsLocked](../../aspose.slides/iconnectorlock/editpointslocked) { get; set; } | 确定是否禁止直接更改此形状的轮廓。 读/写Boolean. |
+| [GroupingLocked](../../aspose.slides/iconnectorlock/groupinglocked) { get; set; } | 确定是否禁止将此形状添加到组中。 读/写Boolean. |
+| [PositionMove](../../aspose.slides/iconnectorlock/positionmove) { get; set; } | 确定是否禁止移动此形状。 读/写Boolean. |
+| [RotateLocked](../../aspose.slides/iconnectorlock/rotatelocked) { get; set; } | 确定是否禁止更改此形状的旋转角度。 读/写Boolean. |
+| [SelectLocked](../../aspose.slides/iconnectorlock/selectlocked) { get; set; } | 确定是否禁止选择此形状。 读/写Boolean. |
+| [ShapeTypeLocked](../../aspose.slides/iconnectorlock/shapetypelocked) { get; set; } | 确定是否禁止更改形状类型。 读/写Boolean. |
+| [SizeLocked](../../aspose.slides/iconnectorlock/sizelocked) { get; set; } | 确定是否禁止调整此形状的大小。 读/写Boolean. |
 
 ### 也可以看看
 

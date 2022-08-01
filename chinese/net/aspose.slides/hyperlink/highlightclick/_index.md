@@ -1,14 +1,14 @@
 ---
 title: HighlightClick
 second_title: Aspose.Slides for .NET API 参考
-description: 确定超链接是否应在单击时突出显示 读/写Boolean
+description: 确定单击时是否应突出显示超链接 读/写Boolean.
 type: docs
 weight: 130
 url: /zh/net/aspose.slides/hyperlink/highlightclick/
 ---
 ## Hyperlink.HighlightClick property
 
-确定超链接是否应在单击时突出显示。 读/写Boolean。
+确定单击时是否应突出显示超链接。 读/写Boolean.
 
 ```csharp
 public bool HighlightClick { get; set; }

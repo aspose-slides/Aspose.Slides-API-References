@@ -18,9 +18,9 @@ public interface IRevealTransition : ITransitionValueBase
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/irevealtransition/asitransitionvaluebase) { get; } | 允许获取基本 ITransitionValueBase 接口。 只读[`ITransitionValueBase`](../itransitionvaluebase)。 |
-| [Direction](../../aspose.slides.slideshow/irevealtransition/direction) { get; set; } | 过渡方向。 读/写[`TransitionLeftRightDirectionType`](../transitionleftrightdirectiontype)。 |
-| [ThroughBlack](../../aspose.slides.slideshow/irevealtransition/throughblack) { get; set; } | 指定过渡是否淡入黑色。 读/写Boolean。 |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/irevealtransition/asitransitionvaluebase) { get; } | 允许获取基本 ITransitionValueBase 接口。 只读[`ITransitionValueBase`](../itransitionvaluebase). |
+| [Direction](../../aspose.slides.slideshow/irevealtransition/direction) { get; set; } | 转换方向。 读/写[`TransitionLeftRightDirectionType`](../transitionleftrightdirectiontype). |
+| [ThroughBlack](../../aspose.slides.slideshow/irevealtransition/throughblack) { get; set; } | 指定过渡是否淡入黑色。 读/写Boolean. |
 
 ### 也可以看看
 

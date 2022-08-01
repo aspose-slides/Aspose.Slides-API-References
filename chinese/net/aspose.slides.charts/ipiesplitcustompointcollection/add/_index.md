@@ -16,7 +16,7 @@ public void Add(int dataPointIndex)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| dataPointIndex | Int32 | 父系列点集合中的数据点索引。 |
+| dataPointIndex | Int32 | 父系列点集合中数据点的索引。 |
 
 ### 也可以看看
 

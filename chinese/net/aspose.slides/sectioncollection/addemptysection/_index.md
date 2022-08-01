@@ -17,11 +17,11 @@ public ISection AddEmptySection(string name, int index)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | name | String | 部分名称 |
-| index | Int32 | 新索引部分。 |
+| index | Int32 | 新部分的索引。 |
 
 ### 返回值
 
-新增部分。
+添加部分。
 
 ### 也可以看看
 

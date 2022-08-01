@@ -1,14 +1,14 @@
 ---
 title: From
 second_title: Справочник по API Aspose.Slides для .NET
-description: Описывает начальное значение анимации. Чтение/записьSingle.
+description: Описывает начальное значение для анимации. Чтение/записьSingle .
 type: docs
 weight: 30
 url: /ru/net/aspose.slides.animation/rotationeffect/from/
 ---
 ## RotationEffect.From property
 
-Описывает начальное значение анимации. Чтение/записьSingle.
+Описывает начальное значение для анимации. Чтение/записьSingle .
 
 ```csharp
 public float From { get; set; }

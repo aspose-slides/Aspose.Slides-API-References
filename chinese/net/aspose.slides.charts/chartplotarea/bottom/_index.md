@@ -1,14 +1,14 @@
 ---
 title: Bottom
 second_title: Aspose.Slides for .NET API 参考
-description: 底部 只读Single
+description: 底部 只读Single.
 type: docs
 weight: 50
 url: /zh/net/aspose.slides.charts/chartplotarea/bottom/
 ---
 ## ChartPlotArea.Bottom property
 
-底部。 只读Single。
+底部。 只读Single.
 
 ```csharp
 public float Bottom { get; }

@@ -1,14 +1,14 @@
 ---
 title: EmbeddedData
 second_title: Aspose.Slides for .NET API 参考
-description: 获取或设置有关 OLE 嵌入数据的信息 读/写IOleEmbeddedDataInfoaspose.slides/ioleembeddeddatainfo
+description: 获取或设置有关 OLE 嵌入数据的信息 读/写IOleEmbeddedDataInfoaspose.slides/ioleembeddeddatainfo.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides/oleobjectframe/embeddeddata/
 ---
 ## OleObjectFrame.EmbeddedData property
 
-获取或设置有关 OLE 嵌入数据的信息。 读/写[`IOleEmbeddedDataInfo`](../../ioleembeddeddatainfo)。
+获取或设置有关 OLE 嵌入数据的信息。 读/写[`IOleEmbeddedDataInfo`](../../ioleembeddeddatainfo).
 
 ```csharp
 public IOleEmbeddedDataInfo EmbeddedData { get; }

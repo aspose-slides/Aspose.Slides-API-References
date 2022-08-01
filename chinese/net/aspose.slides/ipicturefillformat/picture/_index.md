@@ -1,14 +1,14 @@
 ---
 title: Picture
 second_title: Aspose.Slides for .NET API 参考
-description: 返回图片 只读ISlidesPictureaspose.slides/islidespicture
+description: 返回图片 只读ISlidesPictureaspose.slides/islidespicture.
 type: docs
 weight: 70
 url: /zh/net/aspose.slides/ipicturefillformat/picture/
 ---
 ## IPictureFillFormat.Picture property
 
-返回图片。 只读[`ISlidesPicture`](../../islidespicture)。
+返回图片。 只读[`ISlidesPicture`](../../islidespicture).
 
 ```csharp
 public ISlidesPicture Picture { get; }

@@ -1,14 +1,14 @@
 ---
 title: ILuminance
 second_title: Aspose.Slides for .NET API 参考
-description: 表示亮度效果 亮度线性地使所有颜色更接近白色或黑色 对比度将所有颜色缩放为更近或更远
+description: 表示亮度效果 亮度线性地将所有颜色移近白色或黑色 对比度将所有颜色缩放为更近或更远
 type: docs
 weight: 3240
 url: /zh/net/aspose.slides.effects/iluminance/
 ---
 ## ILuminance interface
 
-表示亮度效果。 亮度线性地使所有颜色更接近白色或黑色。 对比度将所有颜色缩放为更近或更远。
+表示亮度效果。 亮度线性地将所有颜色移近白色或黑色。 对比度将所有颜色缩放为更近或更远。
 
 ```csharp
 public interface ILuminance : IAccessiblePVIObject<ILuminanceEffectiveData>, 
@@ -19,8 +19,8 @@ public interface ILuminance : IAccessiblePVIObject<ILuminanceEffectiveData>,
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/iluminance/asiaccessiblepviobject) { get; } | 允许获取基本 IAccessiblePVIObject 接口。 只读[`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1)。 |
-| [AsIImageTransformOperation](../../aspose.slides.effects/iluminance/asiimagetransformoperation) { get; } | 允许获取基础 IImageTransformOperation 接口。 只读[`IImageTransformOperation`](../iimagetransformoperation)。 |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/iluminance/asiaccessiblepviobject) { get; } | 允许获取基本 IAccessiblePVIObject 接口。 只读[`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/iluminance/asiimagetransformoperation) { get; } | 允许获取基本 IImageTransformOperation 接口。 只读[`IImageTransformOperation`](../iimagetransformoperation). |
 
 ### 也可以看看
 

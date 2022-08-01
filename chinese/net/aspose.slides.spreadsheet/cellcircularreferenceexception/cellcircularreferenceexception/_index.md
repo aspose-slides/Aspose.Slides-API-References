@@ -1,14 +1,14 @@
 ---
 title: CellCircularReferenceException
 second_title: Aspose.Slides for .NET API 参考
-description: 初始化CellCircularReferenceExceptionaspose.slides.spreadsheet/cellcircularreferenceexception类的新实例
+description: 初始化CellCircularReferenceExceptionaspose.slides.spreadsheet/cellcircularreferenceexception类.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides.spreadsheet/cellcircularreferenceexception/cellcircularreferenceexception/
 ---
 ## CellCircularReferenceException() {#constructor}
 
-初始化[`CellCircularReferenceException`](../../cellcircularreferenceexception)类的新实例。
+初始化[`CellCircularReferenceException`](../../cellcircularreferenceexception)类.
 
 ```csharp
 public CellCircularReferenceException()
@@ -24,7 +24,7 @@ public CellCircularReferenceException()
 
 ## CellCircularReferenceException(string) {#constructor_1}
 
-使用指定的错误消息初始化[`CellCircularReferenceException`](../../cellcircularreferenceexception)类的新实例。
+初始化[`CellCircularReferenceException`](../../cellcircularreferenceexception)具有指定错误消息的类。
 
 ```csharp
 public CellCircularReferenceException(string message)
@@ -44,7 +44,7 @@ public CellCircularReferenceException(string message)
 
 ## CellCircularReferenceException(string, Exception) {#constructor_2}
 
-使用指定的错误消息:::47::初始化[`CellCircularReferenceException`](../../cellcircularreferenceexception)类的新实例:以及对导致此异常的内部异常的引用。
+初始化[`CellCircularReferenceException`](../../cellcircularreferenceexception)具有指定错误消息 和对导致此异常的内部异常的引用的类。
 
 ```csharp
 public CellCircularReferenceException(string message, Exception innerException)
@@ -65,7 +65,7 @@ public CellCircularReferenceException(string message, Exception innerException)
 
 ## CellCircularReferenceException(string, string) {#constructor_3}
 
-使用指定的错误消息:::47::初始化[`CellCircularReferenceException`](../../cellcircularreferenceexception)类的新实例:和循环单元格引用。
+初始化[`CellCircularReferenceException`](../../cellcircularreferenceexception)具有指定错误消息 和循环单元格引用的类。
 
 ```csharp
 public CellCircularReferenceException(string message, string reference)

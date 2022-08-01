@@ -1,14 +1,14 @@
 ---
 title: WriteShapeEnd
 second_title: Aspose.Slides for .NET API 参考
-description: 在形状渲染之前调用每个形状调用一次如果此函数向生成器写入任何内容则当前幻灯片图像生成将完成插入添加的 html 片段并在前一个图像之上启动新图像
+description: 在形状渲染之前调用每个形状调用一次如果此函数向生成器写入任何内容则当前幻灯片图像生成将完成插入添加的 html 片段新图像将在先前的顶部开始
 type: docs
 weight: 30
 url: /zh/net/aspose.slides.export/ihtmlformattingcontroller/writeshapeend/
 ---
 ## IHtmlFormattingController.WriteShapeEnd method
 
-在形状渲染之前调用。每个形状调用一次。如果此函数向生成器写入任何内容，则当前幻灯片图像生成将完成，插入添加的 html 片段并在前一个图像之上启动新图像。
+在形状渲染之前调用。每个形状调用一次。如果此函数向生成器写入任何内容，则当前幻灯片图像生成将完成，插入添加的 html 片段，新图像将在先前的顶部开始。
 
 ```csharp
 public void WriteShapeEnd(IHtmlGenerator generator, IShape shape)

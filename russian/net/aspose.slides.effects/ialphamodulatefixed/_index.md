@@ -19,9 +19,9 @@ public interface IAlphaModulateFixed : IAccessiblePVIObject<IAlphaModulateFixedE
 
 | Имя | Описание |
 | --- | --- |
-| [Amount](../../aspose.slides.effects/ialphamodulatefixed/amount) { get; set; } | Возвращает количество эффекта в процентах. Чтение/записьSingle. |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphamodulatefixed/asiaccessiblepviobject) { get; } | Позволяет получить базовый интерфейс IAccessiblePVIObject. Только чтение[`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ialphamodulatefixed/asiimagetransformoperation) { get; } | Позволяет получить базовый интерфейс IImageTransformOperation. Только для чтения[`IImageTransformOperation`](../iimagetransformoperation). |
+| [Amount](../../aspose.slides.effects/ialphamodulatefixed/amount) { get; set; } | Возвращает величину эффекта в процентах. Чтение/записьSingle . |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphamodulatefixed/asiaccessiblepviobject) { get; } | Позволяет получить базовый интерфейс IAccessiblePVIObject. Только для чтения[`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1) . |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ialphamodulatefixed/asiimagetransformoperation) { get; } | Позволяет получить базовый интерфейс IImageTransformOperation. Только для чтения[`IImageTransformOperation`](../iimagetransformoperation) . |
 
 ### Смотрите также
 

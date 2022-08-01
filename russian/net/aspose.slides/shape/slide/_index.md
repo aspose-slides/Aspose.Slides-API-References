@@ -1,14 +1,14 @@
 ---
 title: Slide
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает родительский слайд фигуры. Только для чтенияIBaseSlideaspose.slides/ibaseslide.
+description: Возвращает родительский слайд фигуры. Только для чтенияIBaseSlideaspose.slides/ibaseslide .
 type: docs
 weight: 250
 url: /ru/net/aspose.slides/shape/slide/
 ---
 ## Shape.Slide property
 
-Возвращает родительский слайд фигуры. Только для чтения[`IBaseSlide`](../../ibaseslide).
+Возвращает родительский слайд фигуры. Только для чтения[`IBaseSlide`](../../ibaseslide) .
 
 ```csharp
 public IBaseSlide Slide { get; }

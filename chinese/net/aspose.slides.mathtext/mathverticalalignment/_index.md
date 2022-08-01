@@ -1,14 +1,14 @@
 ---
 title: MathVerticalAlignment
 second_title: Aspose.Slides for .NET API 参考
-description: 垂直对齐
+description: 垂直对齐方式
 type: docs
 weight: 8320
 url: /zh/net/aspose.slides.mathtext/mathverticalalignment/
 ---
 ## MathVerticalAlignment enumeration
 
-垂直对齐
+垂直对齐方式
 
 ```csharp
 public enum MathVerticalAlignment

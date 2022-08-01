@@ -1,14 +1,14 @@
 ---
 title: TextFrame
 second_title: Aspose.Slides for .NET API 参考
-description: 返回单元格的文本框 只读ITextFrameaspose.slides/itextframe
+description: 返回单元格的文本框 只读ITextFrameaspose.slides/itextframe.
 type: docs
 weight: 210
 url: /zh/net/aspose.slides/icell/textframe/
 ---
 ## ICell.TextFrame property
 
-返回单元格的文本框。 只读[`ITextFrame`](../../itextframe)。
+返回单元格的文本框。 只读[`ITextFrame`](../../itextframe).
 
 ```csharp
 public ITextFrame TextFrame { get; }

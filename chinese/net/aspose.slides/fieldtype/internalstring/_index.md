@@ -1,14 +1,14 @@
 ---
 title: InternalString
 second_title: Aspose.Slides for .NET API 参考
-description: 返回此 FieldType 对象的内部名称 读/写String
+description: 返回此 FieldType 对象的内部名称 读/写String.
 type: docs
 weight: 190
 url: /zh/net/aspose.slides/fieldtype/internalstring/
 ---
 ## FieldType.InternalString property
 
-返回此 FieldType 对象的内部名称。 读/写String。
+返回此 FieldType 对象的内部名称。 读/写String.
 
 ```csharp
 public string InternalString { get; set; }

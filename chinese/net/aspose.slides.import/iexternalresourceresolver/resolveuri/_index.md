@@ -17,7 +17,7 @@ public string ResolveUri(string baseUri, string relativeUri)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | baseUri | String | 链接对象的基本 URI |
-| relativeUri | String | 相对 URI到链接的对象。 |
+| relativeUri | String | 链接对象的相对 URI。 |
 
 ### 返回值
 

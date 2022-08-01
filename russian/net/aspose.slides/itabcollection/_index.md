@@ -18,7 +18,7 @@ public interface ITabCollection : IGenericCollection<ITab>
 
 | Имя | Описание |
 | --- | --- |
-| [Item](../../aspose.slides/itabcollection/item) { get; } | Получает элемент по указанному индексу. Только для чтения[`ITab`](../itab). |
+| [Item](../../aspose.slides/itabcollection/item) { get; } | Получает элемент по указанному индексу. Только для чтения[`ITab`](../itab) . |
 
 ## Методы
 

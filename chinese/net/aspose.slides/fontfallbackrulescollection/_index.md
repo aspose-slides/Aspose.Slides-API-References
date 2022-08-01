@@ -1,14 +1,14 @@
 ---
 title: FontFallBackRulesCollection
 second_title: Aspose.Slides for .NET API 参考
-description: 表示 FontFallBack 规则的集合由用户定义
+description: 表示 FontFallBack 规则的集合由 user 定义
 type: docs
 weight: 4410
 url: /zh/net/aspose.slides/fontfallbackrulescollection/
 ---
 ## FontFallBackRulesCollection class
 
-表示 FontFallBack 规则的集合，由用户定义
+表示 FontFallBack 规则的集合，由 user 定义
 
 ```csharp
 public class FontFallBackRulesCollection : IFontFallBackRulesCollection
@@ -24,10 +24,10 @@ public class FontFallBackRulesCollection : IFontFallBackRulesCollection
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Count](../../aspose.slides/fontfallbackrulescollection/count) { get; } | 获取集合中实际包含的规则数。 只读Int32。 |
-| [IsSynchronized](../../aspose.slides/fontfallbackrulescollection/issynchronized) { get; } | 返回一个值，指示对集合的访问是否同步（线程安全）。 只读Boolean。 |
-| [Item](../../aspose.slides/fontfallbackrulescollection/item) { get; } | 获取指定索引处的规则。 只读[`IFontFallBackRule`](../ifontfallbackrule)。 |
-| [SyncRoot](../../aspose.slides/fontfallbackrulescollection/syncroot) { get; } | 返回同步根。 只读Object。 |
+| [Count](../../aspose.slides/fontfallbackrulescollection/count) { get; } | 获取集合中实际包含的规则数。 只读Int32. |
+| [IsSynchronized](../../aspose.slides/fontfallbackrulescollection/issynchronized) { get; } | 返回一个值，指示对集合的访问是否同步（线程安全）。 只读Boolean. |
+| [Item](../../aspose.slides/fontfallbackrulescollection/item) { get; } | 获取指定索引处的规则。 只读[`IFontFallBackRule`](../ifontfallbackrule). |
+| [SyncRoot](../../aspose.slides/fontfallbackrulescollection/syncroot) { get; } | 返回同步根。 只读Object. |
 
 ## 方法
 

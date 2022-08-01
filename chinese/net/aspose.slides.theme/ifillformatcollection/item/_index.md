@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Slides for .NET API 参考
-description: 获取指定索引处的元素 只读IFillFormataspose.slides/ifillformat
+description: 获取指定索引处的元素 只读IFillFormataspose.slides/ifillformat.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides.theme/ifillformatcollection/item/
 ---
 ## IFillFormatCollection indexer
 
-获取指定索引处的元素。 只读[`IFillFormat`](../../../aspose.slides/ifillformat)。
+获取指定索引处的元素。 只读[`IFillFormat`](../../../aspose.slides/ifillformat).
 
 ```csharp
 public IFillFormat this[int index] { get; }

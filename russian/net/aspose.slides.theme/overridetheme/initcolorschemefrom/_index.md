@@ -22,7 +22,7 @@ public void InitColorSchemeFrom(IColorScheme colorScheme)
 
 | исключение | условие |
 | --- | --- |
-| InvalidOperationException | Генерируется, если ColorScheme уже инициализирована (не нуль). |
+| InvalidOperationException | Вызывается, если ColorScheme уже инициализирована (не нуль). |
 | ArgumentNullException | Вызывается, если параметр colorScheme имеет значение null. |
 
 ### Смотрите также

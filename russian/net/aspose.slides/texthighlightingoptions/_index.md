@@ -24,8 +24,8 @@ public class TextHighlightingOptions : ITextHighlightingOptions
 
 | Имя | Описание |
 | --- | --- |
-| [CaseSensitive](../../aspose.slides/texthighlightingoptions/casesensitive) { get; set; } | Установите true, чтобы использовать поиск с учетом регистра, false - иначе. Чтение/записьBoolean. |
-| [WholeWordsOnly](../../aspose.slides/texthighlightingoptions/wholewordsonly) { get; set; } | Установите true для соответствия только целым словам, false - в противном случае. Чтение/записьBoolean. |
+| [CaseSensitive](../../aspose.slides/texthighlightingoptions/casesensitive) { get; set; } | Установите true, чтобы использовать поиск с учетом регистра, false — иначе. Чтение/записьBoolean . |
+| [WholeWordsOnly](../../aspose.slides/texthighlightingoptions/wholewordsonly) { get; set; } | Установите true, чтобы соответствовать только целым словам, иначе false. Чтение/записьBoolean . |
 
 ### Смотрите также
 

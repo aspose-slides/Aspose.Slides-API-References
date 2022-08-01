@@ -16,7 +16,7 @@ public Bitmap[] GetThumbnails(IRenderingOptions options)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| options | IRenderingOptions | Опции Tiff. |
+| options | IRenderingOptions | Тифф варианты. |
 
 ### Возвращаемое значение
 
@@ -41,7 +41,7 @@ public Bitmap[] GetThumbnails(IRenderingOptions options, int[] slides)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| options | IRenderingOptions | Опции Tiff. |
+| options | IRenderingOptions | Тифф варианты. |
 | slides | Int32[] | Массив с позициями слайдов, начиная с 1. |
 
 ### Возвращаемое значение
@@ -67,9 +67,9 @@ public Bitmap[] GetThumbnails(IRenderingOptions options, float scaleX, float sca
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| options | IRenderingOptions | Опции Tiff. |
-| scaleX | Single | Значение, на которое масштабируется эта миниатюра в направлении оси x. |
-| scaleY | Single | Значение, на которое следует масштабировать этот эскиз по оси Y. |
+| options | IRenderingOptions | Тифф варианты. |
+| scaleX | Single | Значение, на которое следует масштабировать этот эскиз в направлении оси x. |
+| scaleY | Single | Значение, на которое следует масштабировать эту миниатюру по оси Y. |
 
 ### Возвращаемое значение
 
@@ -94,10 +94,10 @@ public Bitmap[] GetThumbnails(IRenderingOptions options, int[] slides, float sca
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| options | IRenderingOptions | Опции Tiff. |
-| slides | Int32[] | Массив позиций слайдов, начиная с 1. |
-| scaleX | Single | Значение, по которому масштабируйте эту миниатюру в направлении оси X. |
-| scaleY | Single | Значение, на которое следует масштабировать этот эскиз по оси Y. |
+| options | IRenderingOptions | Тифф варианты. |
+| slides | Int32[] | Массив с позициями слайдов, начиная с 1. |
+| scaleX | Single | Значение, на которое следует масштабировать этот эскиз в направлении оси x. |
+| scaleY | Single | Значение, на которое следует масштабировать эту миниатюру по оси Y. |
 
 ### Возвращаемое значение
 
@@ -114,7 +114,7 @@ public Bitmap[] GetThumbnails(IRenderingOptions options, int[] slides, float sca
 
 ## GetThumbnails(IRenderingOptions, Size) {#getthumbnails_11}
 
-Возвращает объекты Thumbnail Bitmap для всех слайдов презентации указанного размера.
+Возвращает объекты Thumbnail Bitmap для всех слайдов презентации с указанным размером.
 
 ```csharp
 public Bitmap[] GetThumbnails(IRenderingOptions options, Size imageSize)
@@ -122,8 +122,8 @@ public Bitmap[] GetThumbnails(IRenderingOptions options, Size imageSize)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| options | IRenderingOptions | Опции Tiff. |
-| imageSize | Size | Размер создаваемого образа. |
+| options | IRenderingOptions | Тифф варианты. |
+| imageSize | Size | Размер образа для создания. |
 
 ### Возвращаемое значение
 
@@ -148,9 +148,9 @@ public Bitmap[] GetThumbnails(IRenderingOptions options, int[] slides, Size imag
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| options | IRenderingOptions | Опции Tiff. |
+| options | IRenderingOptions | Тифф варианты. |
 | slides | Int32[] | Массив с позициями слайдов, начиная с 1. |
-| imageSize | Size | Размер изображения для Создайте. |
+| imageSize | Size | Размер образа для создания. |
 
 ### Возвращаемое значение
 

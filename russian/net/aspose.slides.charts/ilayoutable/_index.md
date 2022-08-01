@@ -18,13 +18,13 @@ public interface ILayoutable : IChartComponent
 
 | Имя | Описание |
 | --- | --- |
-| [AsIChartComponent](../../aspose.slides.charts/ilayoutable/asichartcomponent) { get; } | Позволяет получить базовый интерфейс IChartComponent. Только для чтения[`IChartComponent`](../ichartcomponent). |
-| [Bottom](../../aspose.slides.charts/ilayoutable/bottom) { get; } | Получает верхнюю часть элемента диаграммы как часть высоты диаграммы. Только для чтенияSingle. |
-| [Height](../../aspose.slides.charts/ilayoutable/height) { get; set; } | Задает высоту элемента диаграммы как часть высоты диаграммы. Чтение/записьSingle. |
-| [Right](../../aspose.slides.charts/ilayoutable/right) { get; } | Получает правую часть элемента диаграммы как часть ширины диаграммы. Только для чтенияSingle. |
-| [Width](../../aspose.slides.charts/ilayoutable/width) { get; set; } | Задает ширину элемента диаграммы как часть ширины диаграммы. Чтение/записьSingle. |
-| [X](../../aspose.slides.charts/ilayoutable/x) { get; set; } | Указывает положение x (слева) элемента диаграммы как часть ширины диаграммы. Чтение/записьSingle. |
-| [Y](../../aspose.slides.charts/ilayoutable/y) { get; set; } | Определяет верхнюю часть элемента диаграммы как часть высоты диаграммы. Чтение/записьSingle. |
+| [AsIChartComponent](../../aspose.slides.charts/ilayoutable/asichartcomponent) { get; } | Позволяет получить базовый интерфейс IChartComponent. Только для чтения[`IChartComponent`](../ichartcomponent) . |
+| [Bottom](../../aspose.slides.charts/ilayoutable/bottom) { get; } | Получает верхнюю часть элемента диаграммы как часть высоты диаграммы. Только для чтенияSingle . |
+| [Height](../../aspose.slides.charts/ilayoutable/height) { get; set; } | Определяет высоту элемента диаграммы как часть высоты диаграммы. Чтение/записьSingle . |
+| [Right](../../aspose.slides.charts/ilayoutable/right) { get; } | Получает правую часть элемента диаграммы как часть ширины диаграммы. Только для чтенияSingle . |
+| [Width](../../aspose.slides.charts/ilayoutable/width) { get; set; } | Определяет ширину элемента диаграммы как часть ширины диаграммы. Чтение/записьSingle . |
+| [X](../../aspose.slides.charts/ilayoutable/x) { get; set; } | Определяет положение x (слева) элемента диаграммы как часть ширины диаграммы. Чтение/записьSingle . |
+| [Y](../../aspose.slides.charts/ilayoutable/y) { get; set; } | Определяет верхнюю часть элемента диаграммы как часть высоты диаграммы. Чтение/записьSingle . |
 
 ### Смотрите также
 

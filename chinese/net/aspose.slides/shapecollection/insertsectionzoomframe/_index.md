@@ -17,16 +17,16 @@ public ISectionZoomFrame InsertSectionZoomFrame(int index, float x, float y, flo
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| index | Int32 | The应插入截面缩放框架的从零开始的索引。 |
-| x | Single | 新截面缩放框的 X 坐标Single。 |
-| y | Single | 新截面缩放框的 Y 坐标Single。 |
-| width | Single | 新截面缩放框的宽度Single。 |
-| height | Single | 新截面缩放框的高度Single。 |
-| section | ISection | Section Zoom frame[`ISection`](../../isection)引用的幻灯片对象。 |
+| index | Int32 | 应插入截面缩放框架的从零开始的索引。 |
+| x | Single | 新截面缩放框架的 X 坐标Single. |
+| y | Single | 新截面缩放框架的 Y 坐标Single. |
+| width | Single | 新截面缩放框的宽度Single. |
+| height | Single | 新截面缩放框的高度Single. |
+| section | ISection | 截面缩放框架引用的幻灯片对象[`ISection`](../../isection). |
 
 ### 返回值
 
-创建截面缩放对象[`ISectionZoomFrame`](../../isectionzoomframe)。
+创建截面缩放对象[`ISectionZoomFrame`](../../isectionzoomframe).
 
 ### 例外
 
@@ -36,7 +36,7 @@ public ISectionZoomFrame InsertSectionZoomFrame(int index, float x, float y, flo
 
 ### 例子
 
-此示例演示了在集合的指定索引处创建和插入 Section Zoom 对象 （假设“Presentation.pptx”演示文稿中至少有两个部分）:
+这个例子演示了在集合的指定索引处创建和插入Section Zoom对象 （假设“Presentation.pptx”演示文稿中至少有两个部分）：
 
 ```csharp
 [C#]
@@ -67,17 +67,17 @@ public ISectionZoomFrame InsertSectionZoomFrame(int index, float x, float y, flo
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| index | Int32 | The应插入截面缩放框架的从零开始的索引。 |
-| x | Single | 新截面缩放框的 X 坐标Single。 |
-| y | Single | 新截面缩放框的 Y 坐标Single。 |
-| width | Single | 新截面缩放框的宽度Single。 |
-| height | Single | 新截面缩放框的高度Single。 |
-| section | ISection | Section Zoom frame[`ISection`](../../isection)引用的幻灯片对象。 |
+| index | Int32 | 应插入截面缩放框架的从零开始的索引。 |
+| x | Single | 新截面缩放框架的 X 坐标Single. |
+| y | Single | 新截面缩放框架的 Y 坐标Single. |
+| width | Single | 新截面缩放框的宽度Single. |
+| height | Single | 新截面缩放框的高度Single. |
+| section | ISection | 截面缩放框架引用的幻灯片对象[`ISection`](../../isection). |
 | image | IPPImage | 引用幻灯片的图像[`IPPImage`](../../ippimage) |
 
 ### 返回值
 
-创建截面缩放对象[`ISectionZoomFrame`](../../isectionzoomframe)。
+创建截面缩放对象[`ISectionZoomFrame`](../../isectionzoomframe).
 
 ### 例外
 
@@ -87,7 +87,7 @@ public ISectionZoomFrame InsertSectionZoomFrame(int index, float x, float y, flo
 
 ### 例子
 
-此示例演示了在集合的指定索引处创建和插入 Section Zoom 对象 （假设“Presentation.pptx”演示文稿中至少有两个部分）:
+这个例子演示了在集合的指定索引处创建和插入Section Zoom对象 （假设“Presentation.pptx”演示文稿中至少有两个部分）：
 
 ```csharp
 [C#]

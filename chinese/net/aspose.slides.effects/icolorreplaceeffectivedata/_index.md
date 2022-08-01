@@ -18,8 +18,8 @@ public interface IColorReplaceEffectiveData : IEffectEffectiveData
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/icolorreplaceeffectivedata/asieffecteffectivedata) { get; } | 允许获取基础 IEffectEffectiveData 接口。 只读[`IEffectEffectiveData`](../ieffecteffectivedata)。 |
-| [Color](../../aspose.slides.effects/icolorreplaceeffectivedata/color) { get; } | 返回颜色格式，它将替换每个像素的颜色。 只读Color。 |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/icolorreplaceeffectivedata/asieffecteffectivedata) { get; } | 允许获取基本 IEffectEffectiveData 接口。 只读[`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [Color](../../aspose.slides.effects/icolorreplaceeffectivedata/color) { get; } | 返回颜色格式，它将替换每个像素的颜色。 只读Color. |
 
 ### 也可以看看
 

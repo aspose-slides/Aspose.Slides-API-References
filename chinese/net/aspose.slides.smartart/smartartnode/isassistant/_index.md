@@ -1,14 +1,14 @@
 ---
 title: IsAssistant
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置节点为助手 读/写Boolean
+description: 返回或设置节点为助手 读/写Boolean.
 type: docs
 weight: 30
 url: /zh/net/aspose.slides.smartart/smartartnode/isassistant/
 ---
 ## SmartArtNode.IsAssistant property
 
-返回或设置节点为助手。 读/写Boolean。
+返回或设置节点为助手。 读/写Boolean.
 
 ```csharp
 public bool IsAssistant { get; set; }

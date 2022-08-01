@@ -18,7 +18,7 @@ public interface IVbaReference
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Name](../../aspose.slides.vba/ivbareference/name) { get; set; } | 表示 VBA 项目引用的名称。 读/写String。 |
+| [Name](../../aspose.slides.vba/ivbareference/name) { get; set; } | 表示 VBA 项目引用的名称。 读/写String. |
 
 ### 也可以看看
 

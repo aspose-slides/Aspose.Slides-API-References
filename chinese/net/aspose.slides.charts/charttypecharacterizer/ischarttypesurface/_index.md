@@ -1,14 +1,14 @@
 ---
 title: IsChartTypeSurface
 second_title: Aspose.Slides for .NET API 参考
-description: 如果 chartType 是 Surface 子类型之一则返回 true 子类型集对应于 PowerPoint 中的相应集参见 PowerPoint 中的更改图表类型对话框 ChartTypeSurface3D WireframeSurface3D Contour WireframeContour
+description: 如果 chartType 是 Surface 子类型之一则返回 true 子类型集对应于 PowerPoint 中的相应集请参阅 PowerPoint 中的更改图表类型对话框 Surface3D  WireframeSurface3D  Contour  WireframeContour.
 type: docs
 weight: 150
 url: /zh/net/aspose.slides.charts/charttypecharacterizer/ischarttypesurface/
 ---
 ## ChartTypeCharacterizer.IsChartTypeSurface method
 
-如果 chartType 是 Surface 子类型之一，则返回 true。 子类型集对应于 PowerPoint 中的相应集（参见 PowerPoint 中的“更改图表类型”对话框）:: ChartType。Surface3D, WireframeSurface3D, Contour, WireframeContour。
+如果 chartType 是 Surface 子类型之一，则返回 true。 子类型集对应于 PowerPoint 中的相应集（请参阅 PowerPoint 中的“更改图表类型”对话框）： Surface3D , WireframeSurface3D , Contour , WireframeContour.
 
 ```csharp
 public static bool IsChartTypeSurface(ChartType chartType)

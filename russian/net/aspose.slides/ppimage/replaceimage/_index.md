@@ -1,14 +1,14 @@
 ---
 title: ReplaceImage
 second_title: Справочник по API Aspose.Slides для .NET
-description: Заменяет данные изображения.  Данные нового изображения. Когда параметр newImageData имеет значение null.
+description: Заменяет данные изображения. Данные нового изображения.Когда параметр newImageData имеет значение null.
 type: docs
 weight: 110
 url: /ru/net/aspose.slides/ppimage/replaceimage/
 ---
 ## ReplaceImage(byte[]) {#replaceimage_1}
 
-Заменяет данные изображения.  Данные нового изображения. Когда параметр newImageData имеет значение null.
+Заменяет данные изображения. Данные нового изображения.Когда параметр newImageData имеет значение null.
 
 ```csharp
 public void ReplaceImage(byte[] newImageData)
@@ -24,7 +24,7 @@ public void ReplaceImage(byte[] newImageData)
 
 ## ReplaceImage(Image) {#replaceimage_2}
 
-Заменяет данные изображения. Внимание:когда изображение является метафайлом - оно будет растеризовано из-за ограничений GDI+. Вместо этого используйте ReplaceImage(byte[])  Новое изображение. Когда параметр newImage имеет значение null.
+Заменяет данные изображения. Внимание: когда изображение является метафайлом - оно будет растеризовано из-за ограничений GDI+. Вместо этого используйте ReplaceImage(byte[]) Новый образ.Когда параметр newImage имеет значение null.
 
 ```csharp
 public void ReplaceImage(Image newImage)
@@ -40,7 +40,7 @@ public void ReplaceImage(Image newImage)
 
 ## ReplaceImage(IPPImage) {#replaceimage}
 
-Заменяет данные изображения.  Новый IPPImage. Когда параметр newImage имеет значение null.
+Заменяет данные изображения. Новый IPPImage.Когда параметр newImage имеет значение null.
 
 ```csharp
 public void ReplaceImage(IPPImage newImage)

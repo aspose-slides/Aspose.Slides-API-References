@@ -1,14 +1,14 @@
 ---
 title: Position
 second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет позицию метки данных. Чтение/записьLegendDataLabelPositionaspose.slides.charts/legenddatalabelposition.
+description: Представляет положение метки данных. Чтение/записьLegendDataLabelPositionaspose.slides.charts/legenddatalabelposition .
 type: docs
 weight: 50
 url: /ru/net/aspose.slides.charts/datalabelformat/position/
 ---
 ## DataLabelFormat.Position property
 
-Представляет позицию метки данных. Чтение/запись[`LegendDataLabelPosition`](../../legenddatalabelposition).
+Представляет положение метки данных. Чтение/запись[`LegendDataLabelPosition`](../../legenddatalabelposition) .
 
 ```csharp
 public LegendDataLabelPosition Position { get; set; }
@@ -16,7 +16,7 @@ public LegendDataLabelPosition Position { get; set; }
 
 ### Примечания
 
-Если родителем этого объекта DataLabelFormat является коллекция меток данных DataLabelCollection, то это свойство получает или задает значение по умолчанию свойства Position для новых меток данных в коллекции DataLabelCollection. Представляет положение объектов DataLabel. Установка этого свойства со значением также устанавливает это значение в свойство Position для всех меток данных в коллекции DataLabelCollection (т.е. "DataLabels.DefaultDataLabelFormat.Position = val;" приводит к all DataLabels[i].Position равно val).
+Если родителем этого объекта DataLabelFormat является коллекция меток данных DataLabelCollection, то свойство this получает или задает значение по умолчанию свойства Position для новых меток данных в коллекции DataLabelCollection. Представляет позицию для объектов DataLabel. Установите это значение. свойство со значением также устанавливает это значение в свойство Position для всех меток данных в DataLabelCollection collection (т. е. "DataLabels.DefaultDataLabelFormat.Position = val;" приводит к всем DataLabels[i].Position равно val).
 
 ### Смотрите также
 

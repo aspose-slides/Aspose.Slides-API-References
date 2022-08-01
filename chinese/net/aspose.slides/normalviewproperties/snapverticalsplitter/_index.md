@@ -1,14 +1,14 @@
 ---
 title: SnapVerticalSplitter
 second_title: Aspose.Slides for .NET API 参考
-description: 指定当边 区域足够小时垂直分割器是否应捕捉到最小化状态 读/写Boolean
+description: 指定当 side 区域足够小时垂直分割器是否应捕捉到最小化状态 读/写Boolean.
 type: docs
 weight: 60
 url: /zh/net/aspose.slides/normalviewproperties/snapverticalsplitter/
 ---
 ## NormalViewProperties.SnapVerticalSplitter property
 
-指定当边 区域足够小时，垂直分割器是否应捕捉到最小化状态。 读/写Boolean。
+指定当 side 区域足够小时，垂直分割器是否应捕捉到最小化状态。 读/写Boolean.
 
 ```csharp
 public bool SnapVerticalSplitter { get; set; }

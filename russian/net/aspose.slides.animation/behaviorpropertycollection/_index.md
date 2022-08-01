@@ -18,23 +18,23 @@ public class BehaviorPropertyCollection : IBehaviorPropertyCollection
 
 | Имя | Описание |
 | --- | --- |
-| [Count](../../aspose.slides.animation/behaviorpropertycollection/count) { get; } | Возвращает количество свойств, хранящихся в коллекции. Только для чтенияInt32. |
-| [IsReadOnly](../../aspose.slides.animation/behaviorpropertycollection/isreadonly) { get; } | Получает значение, указывающее, является ли коллекцияICollectionдоступной только для чтения. Только чтениеBoolean. |
+| [Count](../../aspose.slides.animation/behaviorpropertycollection/count) { get; } | Возвращает количество свойств, хранящихся в коллекции. Только для чтенияInt32 . |
+| [IsReadOnly](../../aspose.slides.animation/behaviorpropertycollection/isreadonly) { get; } | Получает значение, указывающее,ICollection доступен только для чтения. Только для чтенияBoolean . |
 | [Item](../../aspose.slides.animation/behaviorpropertycollection/item) { get; set; } | Возвращает свойство по указанному индексу. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [Add](../../aspose.slides.animation/behaviorpropertycollection/add#add)(IBehaviorProperty) | Добавляет в коллекцию новое свойство. |
-| [Add](../../aspose.slides.animation/behaviorpropertycollection/add#add_1)(string) | Добавляет в коллекцию новое свойство. |
+| [Add](../../aspose.slides.animation/behaviorpropertycollection/add#add)(IBehaviorProperty) | Добавляет новое свойство в коллекцию. |
+| [Add](../../aspose.slides.animation/behaviorpropertycollection/add#add_1)(string) | Добавляет новое свойство в коллекцию. |
 | [Clear](../../aspose.slides.animation/behaviorpropertycollection/clear)() | Удаляет все свойства из коллекции. |
-| [Contains](../../aspose.slides.animation/behaviorpropertycollection/contains#contains)(IBehaviorProperty) | Определяет, содержит лиICollectionопределенное значение. |
-| [Contains](../../aspose.slides.animation/behaviorpropertycollection/contains#contains_1)(string) | Определяет, содержит лиICollectionопределенное значение. |
-| [CopyTo](../../aspose.slides.animation/behaviorpropertycollection/copyto)(IBehaviorProperty[], int) | Копирует элементыICollectionвArray, начиная с определенногоArrayindex. |
-| [GetEnumerator](../../aspose.slides.animation/behaviorpropertycollection/getenumerator)() | Возвращает перечислитель, который перебирает коллекцию. |
-| [IndexOf](../../aspose.slides.animation/behaviorpropertycollection/indexof#indexof)(IBehaviorProperty) | Определяет индекс конкретного элемента вIList. |
-| [IndexOf](../../aspose.slides.animation/behaviorpropertycollection/indexof#indexof_1)(string) | Определяет индекс конкретного элемента по значению свойства вIList. |
+| [Contains](../../aspose.slides.animation/behaviorpropertycollection/contains#contains)(IBehaviorProperty) | Определяет,ICollection содержит определенное значение. |
+| [Contains](../../aspose.slides.animation/behaviorpropertycollection/contains#contains_1)(string) | Определяет,ICollection содержит определенное значение. |
+| [CopyTo](../../aspose.slides.animation/behaviorpropertycollection/copyto)(IBehaviorProperty[], int) | Копирует элементыICollection чтобыArray , начиная с определенногоArray индекс. |
+| [GetEnumerator](../../aspose.slides.animation/behaviorpropertycollection/getenumerator)() | Возвращает перечислитель, который выполняет итерацию по коллекции. |
+| [IndexOf](../../aspose.slides.animation/behaviorpropertycollection/indexof#indexof)(IBehaviorProperty) | Определяет индекс конкретного элемента вIList . |
+| [IndexOf](../../aspose.slides.animation/behaviorpropertycollection/indexof#indexof_1)(string) | Определяет индекс конкретного элемента по значению свойства вIList . |
 | [Insert](../../aspose.slides.animation/behaviorpropertycollection/insert#insert)(int, IBehaviorProperty) | Вставляет новое свойство в коллекцию по указанному индексу. |
 | [Insert](../../aspose.slides.animation/behaviorpropertycollection/insert#insert_1)(int, string) | Вставляет новое свойство (с указанным значением свойства) в коллекцию по указанному индексу. |
 | [Remove](../../aspose.slides.animation/behaviorpropertycollection/remove#remove)(IBehaviorProperty) | Удаляет указанное свойство из коллекции. |

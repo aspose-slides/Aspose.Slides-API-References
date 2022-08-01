@@ -1,14 +1,14 @@
 ---
 title: Chart
 second_title: Aspose.Slides for .NET API 参考
-description: 返回父图表 只读IChartaspose.slides.charts/ichart
+description: 返回父图表 只读IChartaspose.slides.charts/ichart.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides.charts/legendentryproperties/chart/
 ---
 ## LegendEntryProperties.Chart property
 
-返回父图表。 只读[`IChart`](../../ichart)。
+返回父图表。 只读[`IChart`](../../ichart).
 
 ```csharp
 public IChart Chart { get; }

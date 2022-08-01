@@ -1,14 +1,14 @@
 ---
 title: ImageDataCropRight
 second_title: Aspose.Slides for .NET API 参考
-description: 表示 imageData.cropRight 属性
+description: 表示imageData.cropRight 属性
 type: docs
 weight: 460
 url: /zh/net/aspose.slides.animation/behaviorproperty/imagedatacropright/
 ---
 ## BehaviorProperty.ImageDataCropRight property
 
-表示 'imageData.cropRight' 属性
+表示'imageData.cropRight' 属性
 
 ```csharp
 public static BehaviorProperty ImageDataCropRight { get; }

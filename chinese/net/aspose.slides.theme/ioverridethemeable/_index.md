@@ -18,8 +18,8 @@ public interface IOverrideThemeable : IThemeable
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsIThemeable](../../aspose.slides.theme/ioverridethemeable/asithemeable) { get; } | 返回 IThemeable 接口。 只读[`IThemeable`](../ithemeable)。 |
-| [ThemeManager](../../aspose.slides.theme/ioverridethemeable/thememanager) { get; } | 返回覆盖主题管理器。 只读[`IOverrideThemeManager`](../ioverridethememanager)。 |
+| [AsIThemeable](../../aspose.slides.theme/ioverridethemeable/asithemeable) { get; } | 返回 IThemeable 接口。 只读[`IThemeable`](../ithemeable). |
+| [ThemeManager](../../aspose.slides.theme/ioverridethemeable/thememanager) { get; } | 返回覆盖主题管理器。 只读[`IOverrideThemeManager`](../ioverridethememanager). |
 
 ### 也可以看看
 

@@ -28,7 +28,7 @@ public class BehaviorFactory : IBehaviorFactory
 | [CreateCommandEffect](../../aspose.slides.animation/behaviorfactory/createcommandeffect)() | Создает командный эффект. |
 | [CreateFilterEffect](../../aspose.slides.animation/behaviorfactory/createfiltereffect)() | Создает эффект фильтра. |
 | [CreateMotionEffect](../../aspose.slides.animation/behaviorfactory/createmotioneffect)() | Создает эффект движения. |
-| [CreatePropertyEffect](../../aspose.slides.animation/behaviorfactory/createpropertyeffect)() | Создает эффект свойства. |
+| [CreatePropertyEffect](../../aspose.slides.animation/behaviorfactory/createpropertyeffect)() | Создает эффект свойств. |
 | [CreateRotationEffect](../../aspose.slides.animation/behaviorfactory/createrotationeffect)() | Создает эффект вращения. |
 | [CreateScaleEffect](../../aspose.slides.animation/behaviorfactory/createscaleeffect)() | Создает эффект масштаба. |
 | [CreateSetEffect](../../aspose.slides.animation/behaviorfactory/createseteffect)() | Создает эффект набора. |

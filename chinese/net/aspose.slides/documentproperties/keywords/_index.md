@@ -1,14 +1,14 @@
 ---
 title: Keywords
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置演示文稿的关键字 读/写String
+description: 返回或设置演示文稿的关键字 读/写String.
 type: docs
 weight: 140
 url: /zh/net/aspose.slides/documentproperties/keywords/
 ---
 ## DocumentProperties.Keywords property
 
-返回或设置演示文稿的关键字。 读/写String。
+返回或设置演示文稿的关键字。 读/写String.
 
 ```csharp
 public string Keywords { get; set; }

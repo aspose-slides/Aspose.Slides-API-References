@@ -1,14 +1,14 @@
 ---
 title: Height
 second_title: Aspose.Slides for .NET API 参考
-description: 返回帧的高度 只读Single
+description: 返回帧的高度 只读Single.
 type: docs
 weight: 50
 url: /zh/net/aspose.slides/ishapeframe/height/
 ---
 ## IShapeFrame.Height property
 
-返回帧的高度。 只读Single。
+返回帧的高度。 只读Single.
 
 ```csharp
 public float Height { get; }

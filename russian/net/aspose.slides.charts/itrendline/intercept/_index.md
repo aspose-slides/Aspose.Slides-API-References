@@ -1,14 +1,14 @@
 ---
 title: Intercept
 second_title: Справочник по API Aspose.Slides для .NET
-description: Указывает значение при котором линия тренда должна пересекать ось Y. Это свойство должно поддерживаться только когда тип линии тренда exp linear или poly. Чтение/записьDouble.
+description: Указывает значение при котором линия тренда должна пересекать ось Y. Это свойство должно поддерживаться only  когда тип линии тренда exp linear или poly. Чтение/записьDouble .
 type: docs
 weight: 70
 url: /ru/net/aspose.slides.charts/itrendline/intercept/
 ---
 ## ITrendline.Intercept property
 
-Указывает значение, при котором линия тренда должна пересекать ось Y. Это свойство должно поддерживаться только когда тип линии тренда exp, linear или poly. Чтение/записьDouble.
+Указывает значение, при котором линия тренда должна пересекать ось Y. Это свойство должно поддерживаться only , когда тип линии тренда exp, linear или poly. Чтение/записьDouble .
 
 ```csharp
 public double Intercept { get; set; }

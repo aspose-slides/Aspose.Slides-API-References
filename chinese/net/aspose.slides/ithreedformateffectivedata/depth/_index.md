@@ -1,14 +1,14 @@
 ---
 title: Depth
 second_title: Aspose.Slides for .NET API 参考
-description: 返回 3D 形状的深度 只读Double
+description: 返回 3D 形状的深度 只读Double.
 type: docs
 weight: 70
 url: /zh/net/aspose.slides/ithreedformateffectivedata/depth/
 ---
 ## IThreeDFormatEffectiveData.Depth property
 
-返回 3D 形状的深度。 只读Double。
+返回 3D 形状的深度。 只读Double.
 
 ```csharp
 public double Depth { get; }

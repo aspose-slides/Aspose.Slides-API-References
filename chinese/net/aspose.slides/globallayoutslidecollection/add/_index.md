@@ -17,25 +17,25 @@ public ILayoutSlide Add(IMasterSlide master, SlideLayoutType layoutType, string 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | master | IMasterSlide | 新布局的母版幻灯片。 |
-| layoutType | SlideLayoutType | 新布局的布局类型。 支持的布局类型:Title、TitleOnly、Blank、TitleAndObject、VerticalText、VerticalTitleAndText、TwoObjects、SectionHeader、TwoTextAndTwoObjects、TitleObjectAndCaption、PictureAndCaption、Custom。 现在不支持其他布局类型:Text、TwoColumnText、Table、TextAndChart、ChartAndText、Diagram、Chart、TextAndClipArt、ClipArtAndText、TextAndObject、ObjectAndText、Object、TextAndMedia、MediaAndText、ObjectOverText、TextOverObject、TextAndTwoObjects、TwoObjectsAndText , TwoObjectsOverText, FourObjects, ClipArtAndVerticalText, VerticalTitleAndTextOverChart, ObjectAndTwoObject, TwoObjectsAndObject。 |
-| layoutName | String | 新布局的名称。如果传递的名称已在使用中，则会抛出 ArgumentException。 如果传递了 null 参数，则根据传递的布局类型自动生成名称 （例如“Title Slide”或“1_Title Slide”、“2_..”等。 ）。 |
+| layoutType | SlideLayoutType | 新布局的布局类型。 支持的布局类型：Title、TitleOnly、Blank、TitleAndObject、VerticalText、VerticalTitleAndText、TwoObjects、SectionHeader、TwoTextAndTwoObjects、TitleObjectAndCaption、PictureAndCaption、Custom。 现在不支持其他布局类型：Text、TwoColumnText、表，TextAndChart，ChartAndText，图表，TextAndClipArt，ClipArtAndText，TextAndObject，ObjectAndText，对象，TextAndMedia，MediaAndText，ObjectOverText，TextOverObject，TextAndTwoObjects，TwoObjectsAndText，TwoObjectsOverText，FourObjects，ClipArtAndVerticalText，VerticalTitleAndTextOverChart，ObjectAndTwoObject，TwoObjectsAndObject. |
+| layoutName | String | 新布局的名称。如果传递的名称已在使用中，则将抛出 ArgumentException。 如果传递了空参数，则根据传递的布局类型 自动生成名称（例如“Title Slide”或“1_Title Slide”、“2_..”等.). |
 
 ### 返回值
 
-添加幻灯片。
+添加了幻灯片。
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| NotImplementedException | 如果参数值不受支持，则抛出*layoutType*通过了。现在不支持的布局类型:Text、TwoColumnText、Table、TextAndChart、ChartAndText、Diagram、Chart、TextAndClipArt、ClipArtAndText、TextAndObject、ObjectAndText、Object、TextAndMedia、MediaAndText、ObjectOverText、TextOverObject、TextAndTwoObjects、TwoObjectsAndText、TwoObjectsOverText、FourObjects、ClipArtAndVerticalText、 VerticalTitleAndTextOverChart、ObjectAndTwoObject、TwoObjectsAndObject。 |
-| ArgumentNullException | 如果*master*为空则抛出。 |
-| ArgumentException | 如果*master*属于其他介绍。 |
-| ArgumentException | 如果布局名称值为*layoutName*则抛出已经在 的布局集合中使用*master*。 |
+| NotImplementedException | 如果参数值不受支持则抛出*layoutType*已通过。现在不支持的布局类型：Text、TwoColumnText、Table、TextAndChart、ChartAndText、Diagram、Chart、TextAndClipArt、ClipArtAndText、TextAndObject、ObjectAndText、Object、TextAndMedia、MediaAndText、ObjectOverText、TextOverObject、TextAndTwoObjects、TwoObjectsAndText、TwoObjectsOverText、FourObjects、ClipArtAndVerticalText、 VerticalTitleAndTextOverChart、ObjectAndTwoObject、TwoObjectsAndObject. |
+| ArgumentNullException | 抛出如果*master*为空。 |
+| ArgumentException | 抛出如果*master*属于另一个演示文稿。 |
+| ArgumentException | 如果布局名称值抛出*layoutName*已在 的布局集合中使用*master*. |
 
 ### 评论
 
-1) 为*layoutType*的值 SlideLayoutType.Custom 添加了布局 不包含占位符和形状。 2) 该方法的类似物是方法[`Add`](../../imasterlayoutslidecollection/add) 使用[`LayoutSlides`](../../imasterslide/layoutslides)属性访问。
+1) 为值 SlideLayoutType.Custom 添加了布局*layoutType* 不包含占位符和形状。 2) 此方法的类似物是方法[`Add`](../../imasterlayoutslidecollection/add) 访问[`LayoutSlides`](../../imasterslide/layoutslides)属性.
 
 ### 也可以看看
 

@@ -18,9 +18,9 @@ public class ControlPropertiesCollection : IControlPropertiesCollection
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Count](../../aspose.slides/controlpropertiescollection/count) { get; } | 返回集合中的许多属性。 只读Int32。 |
+| [Count](../../aspose.slides/controlpropertiescollection/count) { get; } | 返回集合中的多个属性。 只读Int32. |
 | [Item](../../aspose.slides/controlpropertiescollection/item) { get; set; } | 返回或设置属性。 |
-| [NamesOfProperties](../../aspose.slides/controlpropertiescollection/namesofproperties) { get; } | 返回属性名称的集合。 只读ICollection。 |
+| [NamesOfProperties](../../aspose.slides/controlpropertiescollection/namesofproperties) { get; } | 返回属性名称的集合。 只读ICollection. |
 
 ## 方法
 

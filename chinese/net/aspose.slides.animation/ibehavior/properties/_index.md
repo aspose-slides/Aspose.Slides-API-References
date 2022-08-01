@@ -1,14 +1,14 @@
 ---
 title: Properties
 second_title: Aspose.Slides for .NET API 参考
-description: 表示行为的属性 只读IBehaviorPropertyCollectionaspose.slides.animation/ibehaviorpropertycollection
+description: 表示行为的属性 只读IBehaviorPropertyCollectionaspose.slides.animation/ibehaviorpropertycollection.
 type: docs
 weight: 30
 url: /zh/net/aspose.slides.animation/ibehavior/properties/
 ---
 ## IBehavior.Properties property
 
-表示行为的属性。 只读[`IBehaviorPropertyCollection`](../../ibehaviorpropertycollection)。
+表示行为的属性。 只读[`IBehaviorPropertyCollection`](../../ibehaviorpropertycollection).
 
 ```csharp
 public IBehaviorPropertyCollection Properties { get; }

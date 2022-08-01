@@ -1,14 +1,14 @@
 ---
 title: EndReflectionOpacity
 second_title: Aspose.Slides for .NET API 参考
-description: 结束反射不透明度 百分比 只读Single
+description: 结束反射不透明度 百分比. 只读Single.
 type: docs
 weight: 60
 url: /zh/net/aspose.slides.effects/ireflectioneffectivedata/endreflectionopacity/
 ---
 ## IReflectionEffectiveData.EndReflectionOpacity property
 
-结束反射不透明度。 （百分比）。 只读Single。
+结束反射不透明度。 （百分比）. 只读Single.
 
 ```csharp
 public float EndReflectionOpacity { get; }

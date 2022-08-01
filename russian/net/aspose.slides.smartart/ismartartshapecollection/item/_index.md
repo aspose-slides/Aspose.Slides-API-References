@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Справочник по API Aspose.Slides для .NET
-description: Получает элемент по указанному индексу. Только для чтенияISmartArtShapeaspose.slides.smartart/ismartartshape.  Отсчитываемый от нуля индекс элемента
+description: Получает элемент по указанному индексу. Только для чтенияISmartArtShapeaspose.slides.smartart/ismartartshape . Отсчитываемый от нуля индекс элемента
 type: docs
 weight: 10
 url: /ru/net/aspose.slides.smartart/ismartartshapecollection/item/
 ---
 ## ISmartArtShapeCollection indexer
 
-Получает элемент по указанному индексу. Только для чтения[`ISmartArtShape`](../../ismartartshape).  Отсчитываемый от нуля индекс элемента
+Получает элемент по указанному индексу. Только для чтения[`ISmartArtShape`](../../ismartartshape) . Отсчитываемый от нуля индекс элемента
 
 ```csharp
 public ISmartArtShape this[int index] { get; }

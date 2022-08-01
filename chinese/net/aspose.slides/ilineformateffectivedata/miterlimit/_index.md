@@ -1,14 +1,14 @@
 ---
 title: MiterLimit
 second_title: Aspose.Slides for .NET API 参考
-description: 返回行的斜接限制 只读Single
+description: 返回一行的斜接限制 只读Single.
 type: docs
 weight: 140
 url: /zh/net/aspose.slides/ilineformateffectivedata/miterlimit/
 ---
 ## ILineFormatEffectiveData.MiterLimit property
 
-返回行的斜接限制。 只读Single。
+返回一行的斜接限制。 只读Single.
 
 ```csharp
 public float MiterLimit { get; }

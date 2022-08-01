@@ -1,14 +1,14 @@
 ---
 title: ControlCollection
 second_title: Справочник по API Aspose.Slides для .NET
-description: Набор элементов управления ActiveX.
+description: Коллекция элементов управления ActiveX.
 type: docs
 weight: 2550
 url: /ru/net/aspose.slides/controlcollection/
 ---
 ## ControlCollection class
 
-Набор элементов управления ActiveX.
+Коллекция элементов управления ActiveX.
 
 ```csharp
 public class ControlCollection : IControlCollection
@@ -18,10 +18,10 @@ public class ControlCollection : IControlCollection
 
 | Имя | Описание |
 | --- | --- |
-| [Count](../../aspose.slides/controlcollection/count) { get; } | Возвращает количество объектов в коллекции. Только для чтенияInt32. |
-| [IsSynchronized](../../aspose.slides/controlcollection/issynchronized) { get; } | Возвращает значение, указывающее, является ли доступ к коллекции синхронизированным (потокобезопасным). Только чтениеBoolean. |
+| [Count](../../aspose.slides/controlcollection/count) { get; } | Возвращает количество объектов в коллекции. Только для чтенияInt32 . |
+| [IsSynchronized](../../aspose.slides/controlcollection/issynchronized) { get; } | Возвращает значение, указывающее, является ли доступ к коллекции синхронизированным (потокобезопасным). Только для чтенияBoolean . |
 | [Item](../../aspose.slides/controlcollection/item) { get; } | Возвращает элемент управления в указанной позиции. |
-| [SyncRoot](../../aspose.slides/controlcollection/syncroot) { get; } | Возвращает корень синхронизации. Только для чтенияObject. |
+| [SyncRoot](../../aspose.slides/controlcollection/syncroot) { get; } | Возвращает корень синхронизации. Только для чтенияObject . |
 
 ## Методы
 
@@ -30,7 +30,7 @@ public class ControlCollection : IControlCollection
 | [AddControl](../../aspose.slides/controlcollection/addcontrol)(ControlType, float, float, float, float) | Создает и добавляет в коллекцию новый элемент управления. |
 | [Clear](../../aspose.slides/controlcollection/clear)() | Удаляет все элементы управления из коллекции. |
 | [CopyTo](../../aspose.slides/controlcollection/copyto)(Array, int) | Копирует всю коллекцию в указанный массив. |
-| [GetEnumerator](../../aspose.slides/controlcollection/getenumerator)() | Возвращает перечислитель, который перебирает коллекцию. |
+| [GetEnumerator](../../aspose.slides/controlcollection/getenumerator)() | Возвращает перечислитель, который выполняет итерацию по коллекции. |
 | [Remove](../../aspose.slides/controlcollection/remove)(IControl) | Удаляет элемент управления ActiveX из коллекции. |
 | [RemoveAt](../../aspose.slides/controlcollection/removeat)(int) | Удаляет элемент управления ActiveX, хранящийся в указанной позиции, из коллекции. |
 

@@ -16,27 +16,27 @@ url: /zh/net/aspose.slides.animation/
 | [Behavior](./behavior) | 表示效果的基类行为。 |
 | [BehaviorCollection](./behaviorcollection) | 表示行为效果的集合。 |
 | [BehaviorFactory](./behaviorfactory) | 允许创建动画效果 |
-| [BehaviorProperty](./behaviorproperty) | 表示动画行为的属性类型。 遵循 https://msdn.microsoft.com/en-us/library/dd949052(v=office.15).aspx 和 https:// 的属性列表/msdn.microsoft.com/en-us/library/documentformat.openxml.presentation.attributename(v=office.15).aspx |
+| [BehaviorProperty](./behaviorproperty) | 表示动画行为的属性类型。 遵循 https://msdn.microsoft.com/en-us/library/dd949052(v=office.15).aspx 和 https://msdn.microsoft 中的属性列表。 com/en-us/library/documentformat.openxml.presentation.attributename(v=office.15).aspx |
 | [BehaviorPropertyCollection](./behaviorpropertycollection) | 表示效果行为的时序属性。 |
 | [ColorEffect](./coloreffect) | 表示动画行为的颜色效果。 |
-| [ColorOffset](./coloroffset) | 表示颜色偏移。 |
+| [ColorOffset](./coloroffset) | 表示颜色偏移量。 |
 | [CommandEffect](./commandeffect) | 表示动画行为的命令效果。 |
 | [Effect](./effect) | 表示动画效果。 |
 | [FilterEffect](./filtereffect) | 表示行为的过滤效果。 |
-| [MotionCmdPath](./motioncmdpath) | 表示路径的一个命令。 |
+| [MotionCmdPath](./motioncmdpath) | 表示一个路径的一个命令。 |
 | [MotionEffect](./motioneffect) | 表示效果的运动效果行为。 |
 | [MotionPath](./motionpath) | 表示运动路径。 |
 | [Point](./point) | 表示动画点。 |
 | [PointCollection](./pointcollection) | 表示动画点的集合。 |
 | [PropertyEffect](./propertyeffect) | 表示属性效果行为。 |
 | [RotationEffect](./rotationeffect) | 表示效果的旋转行为。 |
-| [ScaleEffect](./scaleeffect) | 表示动画缩放效果。 |
+| [ScaleEffect](./scaleeffect) | 代表动画缩放效果。 |
 | [Sequence](./sequence) | 表示序列（效果的集合）。 |
 | [SequenceCollection](./sequencecollection) | 表示交互序列的集合。 |
 | [SetEffect](./seteffect) | 表示动画行为的设置效果。 |
-| [TextAnimation](./textanimation) | 表示文字动画。 |
-| [TextAnimationCollection](./textanimationcollection) | 表示文本动画的集合。 |
-| [Timing](./timing) | 表示动画时间。 |
+| [TextAnimation](./textanimation) | 代表文字动画。 |
+| [TextAnimationCollection](./textanimationcollection) | 代表文字动画的集合。 |
+| [Timing](./timing) | 表示动画时序。 |
 ## 接口
 
 | 界面 | 描述 |
@@ -44,32 +44,32 @@ url: /zh/net/aspose.slides.animation/
 | [IBehavior](./ibehavior) | 表示效果的基类行为。 |
 | [IBehaviorCollection](./ibehaviorcollection) | 表示行为效果的集合。 |
 | [IBehaviorFactory](./ibehaviorfactory) | 允许创建动画效果 |
-| [IBehaviorProperty](./ibehaviorproperty) | 表示动画行为的属性类型。 遵循 https://msdn.microsoft.com/en-us/library/dd949052(v=office.15).aspx 和 https:// 的属性列表/msdn.microsoft.com/en-us/library/documentformat.openxml.presentation.attributename(v=office.15).aspx |
+| [IBehaviorProperty](./ibehaviorproperty) | 表示动画行为的属性类型。 遵循 https://msdn.microsoft.com/en-us/library/dd949052(v=office.15).aspx 和 https://msdn.microsoft 中的属性列表。 com/en-us/library/documentformat.openxml.presentation.attributename(v=office.15).aspx |
 | [IBehaviorPropertyCollection](./ibehaviorpropertycollection) | 表示效果行为的时序属性。 |
 | [IColorEffect](./icoloreffect) | 表示动画行为的颜色效果。 |
-| [IColorOffset](./icoloroffset) | 表示颜色偏移。 |
+| [IColorOffset](./icoloroffset) | 表示颜色偏移量。 |
 | [ICommandEffect](./icommandeffect) | 表示动画行为的命令效果。 |
 | [IEffect](./ieffect) | 表示动画效果。 |
 | [IFilterEffect](./ifiltereffect) | 表示行为的过滤效果。 |
-| [IMotionCmdPath](./imotioncmdpath) | 表示路径的一个命令。 |
+| [IMotionCmdPath](./imotioncmdpath) | 表示一个路径的一个命令。 |
 | [IMotionEffect](./imotioneffect) | 表示效果的运动效果行为。 |
 | [IMotionPath](./imotionpath) | 表示运动路径。 |
 | [IPoint](./ipoint) | 表示动画点。 |
 | [IPointCollection](./ipointcollection) | 表示部分的集合。 |
 | [IPropertyEffect](./ipropertyeffect) | 表示属性效果行为。 |
 | [IRotationEffect](./irotationeffect) | 表示效果的旋转行为。 |
-| [IScaleEffect](./iscaleeffect) | 表示动画缩放效果。 |
+| [IScaleEffect](./iscaleeffect) | 代表动画缩放效果。 |
 | [ISequence](./isequence) | 表示序列（效果的集合）。 |
 | [ISequenceCollection](./isequencecollection) | 表示交互序列的集合。 |
 | [ISetEffect](./iseteffect) | 表示动画行为的设置效果。 |
-| [ITextAnimation](./itextanimation) | 表示文字动画。 |
-| [ITextAnimationCollection](./itextanimationcollection) | 表示文本动画的集合。 |
-| [ITiming](./itiming) | 表示动画时间。 |
+| [ITextAnimation](./itextanimation) | 代表文字动画。 |
+| [ITextAnimationCollection](./itextanimationcollection) | 代表文字动画的集合。 |
+| [ITiming](./itiming) | 表示动画时序。 |
 ## 枚举
 
 | 枚举 | 描述 |
 | --- | --- |
-| [BehaviorAccumulateType](./behavioraccumulatetype) | 表示效果行为的累积类型。 |
+| [BehaviorAccumulateType](./behavioraccumulatetype) | 代表效果行为的累积类型。 |
 | [BehaviorAdditiveType](./behavioradditivetype) | 表示效果行为的加法类型。 |
 | [BuildType](./buildtype) | 确定动画期间文本在形状上的显示方式。 |
 | [ColorDirection](./colordirection) | 表示颜色效果行为的颜色方向。 |
@@ -80,7 +80,7 @@ url: /zh/net/aspose.slides.animation/
 | [EffectFillType](./effectfilltype) | 表示填充类型。 |
 | [EffectPresetClassType](./effectpresetclasstype) | 表示效果类类型。 |
 | [EffectRestartType](./effectrestarttype) | 表示计时的重启类型。 |
-| [EffectSubtype](./effectsubtype) | 表示动画效果的子类型。 |
+| [EffectSubtype](./effectsubtype) | 代表动画效果的子类型。 |
 | [EffectTriggerType](./effecttriggertype) | 表示效果的触发类型。 |
 | [EffectType](./effecttype) | 表示动画效果的类型。 |
 | [FilterEffectRevealType](./filtereffectrevealtype) | 表示过滤器显示类型。 |

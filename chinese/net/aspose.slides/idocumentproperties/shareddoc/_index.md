@@ -1,14 +1,14 @@
 ---
 title: SharedDoc
 second_title: Aspose.Slides for .NET API 参考
-description: 确定演示文稿是否在多人之间共享 读/写Boolean
+description: 确定演示文稿是否在多人之间共享 读/写Boolean.
 type: docs
 weight: 210
 url: /zh/net/aspose.slides/idocumentproperties/shareddoc/
 ---
 ## IDocumentProperties.SharedDoc property
 
-确定演示文稿是否在多人之间共享。 读/写Boolean。
+确定演示文稿是否在多人之间共享。 读/写Boolean.
 
 ```csharp
 public bool SharedDoc { get; set; }

@@ -18,8 +18,8 @@ public class ChartDataPointLevel : DomObject<ChartDataPointLevelsManager>, IChar
 
 | Имя | Описание |
 | --- | --- |
-| [Format](../../aspose.slides.charts/chartdatapointlevel/format) { get; } | Представляет свойства форматирования уровня точки данных. Чтение/запись[`IFormat`](../iformat). |
-| [Label](../../aspose.slides.charts/chartdatapointlevel/label) { get; } | Представляет метку данных уровня точки данных. Применяется для серий Treemap и Sunburst. Только чтение[`IDataLabel`](../idatalabel). |
+| [Format](../../aspose.slides.charts/chartdatapointlevel/format) { get; } | Представляет свойства форматирования уровня точки данных. Чтение/запись[`IFormat`](../iformat) . |
+| [Label](../../aspose.slides.charts/chartdatapointlevel/label) { get; } | Представляет метку данных уровня точки данных. Применяется для типов Treemap и Sunburst sereis. Только для чтения[`IDataLabel`](../idatalabel) . |
 
 ### Смотрите также
 

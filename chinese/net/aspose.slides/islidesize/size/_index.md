@@ -1,14 +1,14 @@
 ---
 title: Size
 second_title: Aspose.Slides for .NET API 参考
-description: 以磅为单位返回或设置大小  赋值将重置Typeaspose.slides/islidesize/type 属性为Custom并设置Orientationaspose.slides/islidesize/orientation  读/写SizeF
+description: 以磅为单位返回或设置大小 分配任何值都会重置类型aspose.slides/islidesize/type财产Custom并设置方向aspose.slides/islidesize/orientation. 读/写SizeF.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides/islidesize/size/
 ---
 ## ISlideSize.Size property
 
-以磅为单位返回或设置大小。  赋值将重置[`Type`](../type) 属性为Custom并设置[`Orientation`](../orientation) 。 读/写SizeF。
+以磅为单位返回或设置大小。 分配任何值都会重置[`类型`](../type)财产Custom并设置[`方向`](../orientation). 读/写SizeF.
 
 ```csharp
 public SizeF Size { get; }

@@ -1,14 +1,14 @@
 ---
 title: IsVisible
 second_title: Aspose.Slides for .NET API 参考
-description: 获取或设置错误栏可见性 读/写Boolean
+description: 获取或设置错误栏可见性 . 读/写Boolean.
 type: docs
 weight: 40
 url: /zh/net/aspose.slides.charts/errorbarsformat/isvisible/
 ---
 ## ErrorBarsFormat.IsVisible property
 
-获取或设置错误栏可见性。 读/写Boolean。
+获取或设置错误栏可见性 . 读/写Boolean.
 
 ```csharp
 public bool IsVisible { get; set; }

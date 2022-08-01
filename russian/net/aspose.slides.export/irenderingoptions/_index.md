@@ -18,7 +18,7 @@ public interface IRenderingOptions : ISaveOptions
 
 | Имя | Описание |
 | --- | --- |
-| [AsISaveOptions](../../aspose.slides.export/irenderingoptions/asisaveoptions) { get; } | Возвращает интерфейс ISaveOptions. Только для чтения[`ISaveOptions`](../isaveoptions). |
+| [AsISaveOptions](../../aspose.slides.export/irenderingoptions/asisaveoptions) { get; } | Возвращает интерфейс ISaveOptions. Только для чтения[`ISaveOptions`](../isaveoptions) . |
 | [NotesCommentsLayouting](../../aspose.slides.export/irenderingoptions/notescommentslayouting) { get; } | Предоставляет параметры, управляющие размещением примечаний и комментариев в экспортируемом документе. |
 
 ### Примеры

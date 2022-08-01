@@ -16,7 +16,7 @@ public IVbaProject ReadVbaProject(byte[] data)
 
 ### 返回值
 
-读取 VBA 项目
+阅读 VBA 项目
 
 ### 也可以看看
 

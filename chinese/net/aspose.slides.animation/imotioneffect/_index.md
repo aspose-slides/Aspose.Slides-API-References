@@ -18,15 +18,15 @@ public interface IMotionEffect : IBehavior
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Angle](../../aspose.slides.animation/imotioneffect/angle) { get; set; } | 描述运动路径的相对角度。 读/写Single。 |
-| [AsIBehavior](../../aspose.slides.animation/imotioneffect/asibehavior) { get; } | 允许获取基本 IBehavior 接口。 只读[`IBehavior`](../ibehavior)。 |
-| [By](../../aspose.slides.animation/imotioneffect/by) { get; set; } | 描述动画的相对偏移值（以百分比为单位）。 读/写PointF。 |
-| [From](../../aspose.slides.animation/imotioneffect/from) { get; set; } | 指定开始动画的 x/y 坐标（以百分比为单位）。 读/写PointF。 |
-| [Origin](../../aspose.slides.animation/imotioneffect/origin) { get; set; } | 指定运动路径的原点相对于什么，例如幻灯片的布局、 或父级。 读/写[`MotionOriginType`](../motionorigintype)。 |
-| [Path](../../aspose.slides.animation/imotioneffect/path) { get; set; } | 指定路径图元，后跟动画运动的坐标。 读/写[`IMotionPath`](../imotionpath)。 |
-| [PathEditMode](../../aspose.slides.animation/imotioneffect/patheditmode) { get; set; } | 指定移动形状时运动路径的移动方式。 读/写[`MotionPathEditMode`](../motionpatheditmode)。 |
-| [RotationCenter](../../aspose.slides.animation/imotioneffect/rotationcenter) { get; set; } | 描述用于将运动路径旋转 X 角的旋转中心。 读/写PointF。 |
-| [To](../../aspose.slides.animation/imotioneffect/to) { get; set; } | 指定动画运动效果的目标位置（以百分比为单位）。 读/写PointF。 |
+| [Angle](../../aspose.slides.animation/imotioneffect/angle) { get; set; } | 描述运动路径的相对角度。 读/写Single. |
+| [AsIBehavior](../../aspose.slides.animation/imotioneffect/asibehavior) { get; } | 允许获取基本 IBehavior 接口。 只读[`IBehavior`](../ibehavior). |
+| [By](../../aspose.slides.animation/imotioneffect/by) { get; set; } | 描述动画的相对偏移值（以百分比为单位）。 读/写PointF. |
+| [From](../../aspose.slides.animation/imotioneffect/from) { get; set; } | 指定开始动画的 x/y 坐标（以百分比为单位）。 读/写PointF. |
+| [Origin](../../aspose.slides.animation/imotioneffect/origin) { get; set; } | 指定运动路径的原点相对于什么，例如幻灯片的布局、 或父级。 读/写[`MotionOriginType`](../motionorigintype). |
+| [Path](../../aspose.slides.animation/imotioneffect/path) { get; set; } | 指定路径图元，后跟动画运动的坐标。 读/写[`IMotionPath`](../imotionpath). |
+| [PathEditMode](../../aspose.slides.animation/imotioneffect/patheditmode) { get; set; } | 指定形状移动时运动路径如何移动。 读/写[`MotionPathEditMode`](../motionpatheditmode). |
+| [RotationCenter](../../aspose.slides.animation/imotioneffect/rotationcenter) { get; set; } | 描述用于将运动路径旋转 X 角度的旋转中心。 读/写PointF. |
+| [To](../../aspose.slides.animation/imotioneffect/to) { get; set; } | 指定动画运动效果的目标位置（以百分比为单位）。 读/写PointF. |
 
 ### 也可以看看
 

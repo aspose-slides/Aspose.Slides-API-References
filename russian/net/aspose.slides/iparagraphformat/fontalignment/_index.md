@@ -1,14 +1,14 @@
 ---
 title: FontAlignment
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или задает выравнивание шрифта в абзаце без наследования. Чтение/записьFontAlignmentaspose.slides/fontalignment.
+description: Возвращает или задает выравнивание шрифта в абзаце без наследования. Чтение/записьFontAlignmentaspose.slides/fontalignment .
 type: docs
 weight: 70
 url: /ru/net/aspose.slides/iparagraphformat/fontalignment/
 ---
 ## IParagraphFormat.FontAlignment property
 
-Возвращает или задает выравнивание шрифта в абзаце без наследования. Чтение/запись[`FontAlignment`](../../fontalignment).
+Возвращает или задает выравнивание шрифта в абзаце без наследования. Чтение/запись[`FontAlignment`](../../fontalignment) .
 
 ```csharp
 public FontAlignment FontAlignment { get; set; }

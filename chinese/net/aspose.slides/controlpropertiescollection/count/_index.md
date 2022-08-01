@@ -1,14 +1,14 @@
 ---
 title: Count
 second_title: Aspose.Slides for .NET API 参考
-description: 返回集合中的许多属性 只读Int32
+description: 返回集合中的多个属性 只读Int32.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides/controlpropertiescollection/count/
 ---
 ## ControlPropertiesCollection.Count property
 
-返回集合中的许多属性。 只读Int32。
+返回集合中的多个属性。 只读Int32.
 
 ```csharp
 public int Count { get; }

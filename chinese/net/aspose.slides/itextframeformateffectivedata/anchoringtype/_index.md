@@ -1,14 +1,14 @@
 ---
 title: AnchoringType
 second_title: Aspose.Slides for .NET API 参考
-description: 在 TextFrame 中返回垂直锚文本 只读TextAnchorTypeaspose.slides/textanchortype
+description: 在 TextFrame 中返回垂直锚文本 只读TextAnchorTypeaspose.slides/textanchortype.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides/itextframeformateffectivedata/anchoringtype/
 ---
 ## ITextFrameFormatEffectiveData.AnchoringType property
 
-在 TextFrame 中返回垂直锚文本。 只读[`TextAnchorType`](../../textanchortype)。
+在 TextFrame 中返回垂直锚文本。 只读[`TextAnchorType`](../../textanchortype).
 
 ```csharp
 public TextAnchorType AnchoringType { get; }

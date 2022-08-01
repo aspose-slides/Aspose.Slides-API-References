@@ -1,14 +1,14 @@
 ---
 title: SetGeometryPaths
 second_title: Aspose.Slides for .NET API 参考
-description: 从IGeometryPathaspose.slides/igeometrypath数组更新形状几何坐标必须相对于形状的左 上角 将形状的类型ShapeTypeaspose.slides/geometryshape/shapetype更改为Custom.
+description: 从数组更新形状几何IGeometryPathaspose.slides/igeometrypath.坐标必须相对于形状的 left 上角 更改形状的类型ShapeTypeaspose.slides/geometryshape/shapetype  至Custom
 type: docs
 weight: 70
 url: /zh/net/aspose.slides/geometryshape/setgeometrypaths/
 ---
 ## GeometryShape.SetGeometryPaths method
 
-从[`IGeometryPath`](../../igeometrypath)数组更新形状几何。坐标必须相对于形状的左 上角。 将形状的类型（[`ShapeType`](../shapetype)）更改为Custom.
+从数组更新形状几何[`IGeometryPath`](../../igeometrypath).坐标必须相对于形状的 left 上角。 更改形状的类型（[`ShapeType`](../shapetype) ） 至Custom
 
 ```csharp
 public void SetGeometryPaths(IGeometryPath[] geometryPaths)
@@ -16,7 +16,7 @@ public void SetGeometryPaths(IGeometryPath[] geometryPaths)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| geometryPaths | IGeometryPath[] | 数组几何路径 |
+| geometryPaths | IGeometryPath[] | 阵列几何路径 |
 
 ### 例外
 
@@ -27,7 +27,7 @@ public void SetGeometryPaths(IGeometryPath[] geometryPaths)
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]

@@ -1,14 +1,14 @@
 ---
 title: Layout
 second_title: Справочник по API Aspose.Slides для .NET
-description: Получает расположение разделов сводного масштабирования в кадре. Значение по умолчанию  GridLayout.
+description: Получает макет разделов сводного масштабирования в кадре. Значение по умолчанию  GridLayout.
 type: docs
 weight: 20
 url: /ru/net/aspose.slides/isummaryzoomframe/layout/
 ---
 ## ISummaryZoomFrame.Layout property
 
-Получает расположение разделов сводного масштабирования в кадре. Значение по умолчанию — GridLayout.
+Получает макет разделов сводного масштабирования в кадре. Значение по умолчанию — GridLayout.
 
 ```csharp
 public ZoomLayout Layout { get; }

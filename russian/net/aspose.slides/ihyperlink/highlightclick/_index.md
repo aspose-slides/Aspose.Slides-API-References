@@ -1,14 +1,14 @@
 ---
 title: HighlightClick
 second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет должна ли гиперссылка подсвечиваться при щелчке. Чтение/записьBoolean.
+description: Определяет следует ли выделять гиперссылку при нажатии. Чтение/записьBoolean .
 type: docs
 weight: 40
 url: /ru/net/aspose.slides/ihyperlink/highlightclick/
 ---
 ## IHyperlink.HighlightClick property
 
-Определяет, должна ли гиперссылка подсвечиваться при щелчке. Чтение/записьBoolean.
+Определяет, следует ли выделять гиперссылку при нажатии. Чтение/записьBoolean .
 
 ```csharp
 public bool HighlightClick { get; set; }

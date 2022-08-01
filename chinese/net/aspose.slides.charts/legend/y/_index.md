@@ -1,14 +1,14 @@
 ---
 title: Y
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置图例的 y 坐标为图表高度的一部分 读/写Single
+description: 返回或设置图例的 y 坐标作为图表高度的一部分 读/写Single.
 type: docs
 weight: 120
 url: /zh/net/aspose.slides.charts/legend/y/
 ---
 ## Legend.Y property
 
-返回或设置图例的 y 坐标为图表高度的一部分。 读/写Single。
+返回或设置图例的 y 坐标作为图表高度的一部分。 读/写Single.
 
 ```csharp
 public float Y { get; set; }

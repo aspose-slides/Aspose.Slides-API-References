@@ -1,14 +1,14 @@
 ---
 title: Category
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или задает категорию презентации. Чтение/записьString.
+description: Возвращает или задает категорию презентации. Чтение/записьString .
 type: docs
 weight: 50
 url: /ru/net/aspose.slides/documentproperties/category/
 ---
 ## DocumentProperties.Category property
 
-Возвращает или задает категорию презентации. Чтение/записьString.
+Возвращает или задает категорию презентации. Чтение/записьString .
 
 ```csharp
 public string Category { get; set; }

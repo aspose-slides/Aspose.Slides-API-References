@@ -1,14 +1,14 @@
 ---
 title: Type
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или задает тип размера слайда.  Присвоение любого значения кромеCustomизменитсяSizeaspose.slides/islidesize/size соответственно но сохранитOrientationaspose.slides/islidesize/orientation нетронутыми. Чтение/записьSlideSizeTypeaspose.slides/slidesizetype.
+description: Возвращает или задает тип размера слайда.  Присвоение любого значения кромеCustom изменитсяРазмерaspose.slides/islidesize/size соответственно но сохранитОриентацияaspose.slides/islidesize/orientation нетронутый. Чтение/записьSlideSizeTypeaspose.slides/slidesizetype .
 type: docs
 weight: 30
 url: /ru/net/aspose.slides/islidesize/type/
 ---
 ## ISlideSize.Type property
 
-Возвращает или задает тип размера слайда.  Присвоение любого значения, кромеCustomизменится[`Size`](../size) соответственно, но сохранит[`Orientation`](../orientation) нетронутыми. Чтение/запись[`SlideSizeType`](../../slidesizetype).
+Возвращает или задает тип размера слайда.  Присвоение любого значения, кромеCustom изменится[`Размер`](../size) соответственно, но сохранит[`Ориентация`](../orientation) нетронутый. Чтение/запись[`SlideSizeType`](../../slidesizetype) .
 
 ```csharp
 public SlideSizeType Type { get; }

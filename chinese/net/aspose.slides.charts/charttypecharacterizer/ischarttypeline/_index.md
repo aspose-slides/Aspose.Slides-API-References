@@ -1,14 +1,14 @@
 ---
 title: IsChartTypeLine
 second_title: Aspose.Slides for .NET API 参考
-description: 如果 chartType 是 Line 子类型之一则返回 true 子类型集对应于 PowerPoint 中的相应集参见 PowerPoint 中的更改图表类型对话框 ChartTypeLine LineWithMarkers PercentsStackedLine PercentsStackedLineWithMarkers StackedLine StackedLineWithMarkers Line3D
+description: 如果 chartType 是 Line 子类型之一则返回 true 子类型集对应于 PowerPoint 中的相应集请参阅 PowerPoint 中的更改图表类型对话框 Line  LineWithMarkers  PercentsStackedLine  PercentsStackedLineWithMarkers  StackedLine  StackedLineWithMarkers  Line3D.
 type: docs
 weight: 100
 url: /zh/net/aspose.slides.charts/charttypecharacterizer/ischarttypeline/
 ---
 ## ChartTypeCharacterizer.IsChartTypeLine method
 
-如果 chartType 是 Line 子类型之一，则返回 true。 子类型集对应于 PowerPoint 中的相应集（参见 PowerPoint 中的“更改图表类型”对话框）:: ChartType。Line, LineWithMarkers, PercentsStackedLine, PercentsStackedLineWithMarkers, StackedLine, StackedLineWithMarkers, Line3D。
+如果 chartType 是 Line 子类型之一，则返回 true。 子类型集对应于 PowerPoint 中的相应集（请参阅 PowerPoint 中的“更改图表类型”对话框）： Line , LineWithMarkers , PercentsStackedLine , PercentsStackedLineWithMarkers , StackedLine , StackedLineWithMarkers , Line3D.
 
 ```csharp
 public static bool IsChartTypeLine(ChartType chartType)

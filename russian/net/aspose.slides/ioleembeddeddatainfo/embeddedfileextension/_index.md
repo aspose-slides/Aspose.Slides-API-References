@@ -1,14 +1,14 @@
 ---
 title: EmbeddedFileExtension
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает расширение файла для текущего встроенного объекта OLE Только чтениеString.
+description: Возвращает расширение файла для текущего встроенного объекта OLE Только для чтенияString .
 type: docs
 weight: 20
 url: /ru/net/aspose.slides/ioleembeddeddatainfo/embeddedfileextension/
 ---
 ## IOleEmbeddedDataInfo.EmbeddedFileExtension property
 
-Возвращает расширение файла для текущего встроенного объекта OLE Только чтениеString.
+Возвращает расширение файла для текущего встроенного объекта OLE Только для чтенияString .
 
 ```csharp
 public string EmbeddedFileExtension { get; }

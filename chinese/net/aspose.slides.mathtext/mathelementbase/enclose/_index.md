@@ -1,14 +1,14 @@
 ---
 title: Enclose
 second_title: Aspose.Slides for .NET API 参考
-description: 将数学元素括在指定字符中例如括号或其他字符作为框架
+description: 将数学元素括在指定字符中例如括号或其他字符如 framing
 type: docs
 weight: 40
 url: /zh/net/aspose.slides.mathtext/mathelementbase/enclose/
 ---
 ## Enclose(char, char) {#enclose_1}
 
-将数学元素括在指定字符中，例如括号或其他字符，作为框架
+将数学元素括在指定字符中，例如括号或其他字符，如 framing
 
 ```csharp
 public virtual IMathDelimiter Enclose(char beginningCharacter, char endingCharacter)
@@ -16,16 +16,16 @@ public virtual IMathDelimiter Enclose(char beginningCharacter, char endingCharac
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| beginCharacter | Char | 开始字符（通常是左括号） |
+| beginningCharacter | Char | 开始字符（通常是左括号） |
 | endingCharacter | Char | 结束字符（通常是右括号） |
 
 ### 返回值
 
-[`IMathDelimiter`](../../imathdelimiter)类型的数学元素，其中包括指定字符作为框架
+类型的数学元素[`IMathDelimiter`](../../imathdelimiter)其中包括指定的字符作为框架
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]
@@ -44,7 +44,7 @@ IMathDelimiter delimiter = element.Enclose('[', ']');
 
 ## Enclose() {#enclose}
 
-将数学元素括在括号中
+用括号括起来一个数学元素
 
 ```csharp
 public IMathDelimiter Enclose()
@@ -52,11 +52,11 @@ public IMathDelimiter Enclose()
 
 ### 返回值
 
-类型的数学元素[`IMathDelimiter`](../../imathdelimiter)包括括号
+类型的数学元素[`IMathDelimiter`](../../imathdelimiter)其中包括括号
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]

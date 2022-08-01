@@ -18,14 +18,14 @@ public class OptionalBlackTransition : TransitionValueBase, IOptionalBlackTransi
 
 | Имя | Описание |
 | --- | --- |
-| [FromBlack](../../aspose.slides.slideshow/optionalblacktransition/fromblack) { get; set; } | Этот атрибут указывает, будет ли переход начинаться с черного экрана (и затем переходить новый слайд поверх черного). Чтение/записьBoolean. |
+| [FromBlack](../../aspose.slides.slideshow/optionalblacktransition/fromblack) { get; set; } | Этот атрибут указывает, будет ли переход начинаться с черного экрана (и затем переходить новый слайд поверх черного). Чтение/записьBoolean . |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Определяет, равны ли два экземпляра TransitionValueBase. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Служит хэш-функцией для определенного типа, подходящей для использования в алгоритмах хеширования и структурах данных, таких как хэш-таблица. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Служит хеш-функцией для определенного типа, подходящей для использования в алгоритмах хэширования и структурах данных, таких как хэш-таблица. |
 
 ### Смотрите также
 

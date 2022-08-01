@@ -1,14 +1,14 @@
 ---
 title: DrawSlidesFrame
 second_title: Справочник по API Aspose.Slides для .NET
-description: True для рисования черной рамки вокруг каждого слайда. Чтение/записьBoolean.
+description: True для рисования черной рамки вокруг каждого слайда. Чтение/записьBoolean .
 type: docs
 weight: 20
 url: /ru/net/aspose.slides.export/xpsoptions/drawslidesframe/
 ---
 ## XpsOptions.DrawSlidesFrame property
 
-True для рисования черной рамки вокруг каждого слайда. Чтение/записьBoolean.
+True для рисования черной рамки вокруг каждого слайда. Чтение/записьBoolean .
 
 ```csharp
 public bool DrawSlidesFrame { get; set; }
@@ -16,7 +16,7 @@ public bool DrawSlidesFrame { get; set; }
 
 ### Примечания
 
-По умолчанию: **false** .
+По умолчанию **ЛОЖЬ** .
 
 ### Смотрите также
 

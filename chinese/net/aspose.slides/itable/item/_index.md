@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Slides for .NET API 参考
-description: 返回指定列和行索引处的单元格 只读ICellaspose.slides/icell
+description: 返回指定列和行索引处的单元格 只读ICellaspose.slides/icell.
 type: docs
 weight: 70
 url: /zh/net/aspose.slides/itable/item/
 ---
 ## ITable indexer
 
-返回指定列和行索引处的单元格。 只读[`ICell`](../../icell)。
+返回指定列和行索引处的单元格。 只读[`ICell`](../../icell).
 
 ```csharp
 public ICell this[int columnIndex, int rowIndex] { get; }

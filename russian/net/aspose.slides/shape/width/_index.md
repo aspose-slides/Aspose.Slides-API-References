@@ -1,14 +1,14 @@
 ---
 title: Width
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или задает ширину фигуры. Чтение/записьSingle.
+description: Возвращает или задает ширину фигуры. Чтение/записьSingle .
 type: docs
 weight: 280
 url: /ru/net/aspose.slides/shape/width/
 ---
 ## Shape.Width property
 
-Возвращает или задает ширину фигуры. Чтение/записьSingle.
+Возвращает или задает ширину фигуры. Чтение/записьSingle .
 
 ```csharp
 public float Width { get; set; }

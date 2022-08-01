@@ -1,14 +1,14 @@
 ---
 title: Series
 second_title: Aspose.Slides for .NET API 参考
-description: 返回图表系列的只读集合 只读IChartSeriesReadonlyCollectionaspose.slides.charts/ichartseriesreadonlycollection
+description: 返回图表系列的只读集合 只读IChartSeriesReadonlyCollectionaspose.slides.charts/ichartseriesreadonlycollection.
 type: docs
 weight: 180
 url: /zh/net/aspose.slides.charts/ichartseriesgroup/series/
 ---
 ## IChartSeriesGroup.Series property
 
-返回图表系列的只读集合。 只读[`IChartSeriesReadonlyCollection`](../../ichartseriesreadonlycollection)。
+返回图表系列的只读集合。 只读[`IChartSeriesReadonlyCollection`](../../ichartseriesreadonlycollection).
 
 ```csharp
 public IChartSeriesReadonlyCollection Series { get; }

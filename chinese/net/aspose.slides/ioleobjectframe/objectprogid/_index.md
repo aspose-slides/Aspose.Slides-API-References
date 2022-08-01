@@ -1,14 +1,14 @@
 ---
 title: ObjectProgId
 second_title: Aspose.Slides for .NET API 参考
-description: 返回对象的 ProgID 读取 olnyString
+description: 返回对象的 ProgID Read olnyString.
 type: docs
 weight: 100
 url: /zh/net/aspose.slides/ioleobjectframe/objectprogid/
 ---
 ## IOleObjectFrame.ObjectProgId property
 
-返回对象的 ProgID。 读取 olnyString。
+返回对象的 ProgID。 Read olnyString.
 
 ```csharp
 public string ObjectProgId { get; set; }

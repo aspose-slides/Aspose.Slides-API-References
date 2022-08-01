@@ -8,7 +8,7 @@ url: /zh/net/aspose.slides.mathtext/mathparagraph/justification/
 ---
 ## MathParagraph.Justification property
 
-段落对齐 默认值:CenteredAsGroup
+段落对齐 默认值：CenteredAsGroup
 
 ```csharp
 public MathJustification Justification { get; set; }
@@ -16,7 +16,7 @@ public MathJustification Justification { get; set; }
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]

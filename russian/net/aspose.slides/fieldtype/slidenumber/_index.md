@@ -1,14 +1,14 @@
 ---
 title: SlideNumber
 second_title: Справочник по API Aspose.Slides для .NET
-description: Номер текущего слайда. Только для чтенияFieldTypeaspose.slides/fieldtype.
+description: Номер текущего слайда. Только для чтенияFieldTypeaspose.slides/fieldtype .
 type: docs
 weight: 180
 url: /ru/net/aspose.slides/fieldtype/slidenumber/
 ---
 ## FieldType.SlideNumber property
 
-Номер текущего слайда. Только для чтения[`FieldType`](../../fieldtype).
+Номер текущего слайда. Только для чтения[`FieldType`](../../fieldtype) .
 
 ```csharp
 public static FieldType SlideNumber { get; }

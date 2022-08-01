@@ -1,14 +1,14 @@
 ---
 title: ImageDataBlacklevel
 second_title: Aspose.Slides for .NET API 参考
-description: 表示imageData.blacklevel属性
+description: 表示imageData.blacklevel 属性
 type: docs
 weight: 420
 url: /zh/net/aspose.slides.animation/behaviorproperty/imagedatablacklevel/
 ---
 ## BehaviorProperty.ImageDataBlacklevel property
 
-表示'imageData.blacklevel'属性
+表示'imageData.blacklevel' 属性
 
 ```csharp
 public static BehaviorProperty ImageDataBlacklevel { get; }

@@ -1,14 +1,14 @@
 ---
 title: AsIBaseTableFormatEffectiveData
 second_title: Справочник по API Aspose.Slides для .NET
-description: Позволяет получить базовый интерфейс IBaseTableFormatEffectiveData. Только для чтенияIBaseTableFormatEffectiveDataaspose.slides/ibasetableformateffectivedata.
+description: Позволяет получить базовый интерфейс IBaseTableFormatEffectiveData. Только для чтенияIBaseTableFormatEffectiveDataaspose.slides/ibasetableformateffectivedata .
 type: docs
 weight: 10
 url: /ru/net/aspose.slides/icellformateffectivedata/asibasetableformateffectivedata/
 ---
 ## ICellFormatEffectiveData.AsIBaseTableFormatEffectiveData property
 
-Позволяет получить базовый интерфейс IBaseTableFormatEffectiveData. Только для чтения[`IBaseTableFormatEffectiveData`](../../ibasetableformateffectivedata).
+Позволяет получить базовый интерфейс IBaseTableFormatEffectiveData. Только для чтения[`IBaseTableFormatEffectiveData`](../../ibasetableformateffectivedata) .
 
 ```csharp
 public IBaseTableFormatEffectiveData AsIBaseTableFormatEffectiveData { get; }

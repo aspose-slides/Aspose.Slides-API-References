@@ -1,14 +1,14 @@
 ---
 title: LayoutText
 second_title: Aspose.Slides for .NET API 参考
-description: 此幻灯片布局页面形状上的文本
+description: 此幻灯片的布局页面形状上的文本
 type: docs
 weight: 10
 url: /zh/net/aspose.slides/islidetext/layouttext/
 ---
 ## ISlideText.LayoutText property
 
-此幻灯片布局页面形状上的文本
+此幻灯片的布局页面形状上的文本
 
 ```csharp
 public string LayoutText { get; }

@@ -18,7 +18,7 @@ public interface IMetered
 
 | Имя | Описание |
 | --- | --- |
-| [SetMeteredKey](../../aspose.slides/imetered/setmeteredkey)(string, string) | Устанавливает измеренные открытый и закрытый ключи. |
+| [SetMeteredKey](../../aspose.slides/imetered/setmeteredkey)(string, string) | Устанавливает измеренный открытый и закрытый ключ. |
 
 ### Смотрите также
 

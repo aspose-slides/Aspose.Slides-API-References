@@ -1,14 +1,14 @@
 ---
 title: MarginTop
 second_title: Aspose.Slides for .NET API 参考
-description: 返回 TextFrame 中的上边距点 只读Double
+description: 返回 TextFrame 中的上边距点 只读Double.
 type: docs
 weight: 90
 url: /zh/net/aspose.slides/itextframeformateffectivedata/margintop/
 ---
 ## ITextFrameFormatEffectiveData.MarginTop property
 
-返回 TextFrame 中的上边距（点）。 只读Double。
+返回 TextFrame 中的上边距（点）。 只读Double.
 
 ```csharp
 public double MarginTop { get; }

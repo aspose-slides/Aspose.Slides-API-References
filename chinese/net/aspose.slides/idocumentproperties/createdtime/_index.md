@@ -1,14 +1,14 @@
 ---
 title: CreatedTime
 second_title: Aspose.Slides for .NET API 参考
-description: 返回创建演示文稿的日期 读/写DateTime
+description: 返回创建演示文稿的日期 读/写DateTime.
 type: docs
 weight: 100
 url: /zh/net/aspose.slides/idocumentproperties/createdtime/
 ---
 ## IDocumentProperties.CreatedTime property
 
-返回创建演示文稿的日期。 读/写DateTime。
+返回创建演示文稿的日期。 读/写DateTime.
 
 ```csharp
 public DateTime CreatedTime { get; set; }

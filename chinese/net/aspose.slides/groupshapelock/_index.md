@@ -18,14 +18,14 @@ public class GroupShapeLock : BaseShapeLock, IGroupShapeLock
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AspectRatioLocked](../../aspose.slides/groupshapelock/aspectratiolocked) { get; set; } | 确定形状在调整大小时是否必须保持纵横比。 读/写Boolean。 |
-| [GroupingLocked](../../aspose.slides/groupshapelock/groupinglocked) { get; set; } | 确定是否禁止将此形状添加到组中。 读/写Boolean。 |
-| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | 如果所有锁定标志都被禁用，则返回 true。 只读Boolean。 |
-| [PositionLocked](../../aspose.slides/groupshapelock/positionlocked) { get; set; } | 确定是否禁止移动此形状。 读/写Boolean。 |
-| [RotationLocked](../../aspose.slides/groupshapelock/rotationlocked) { get; set; } | 决定是否禁止改变这个形状的旋转角度。 读/写Boolean。 |
-| [SelectLocked](../../aspose.slides/groupshapelock/selectlocked) { get; set; } | 确定是否禁止选择此形状。 读/写Boolean。 |
-| [SizeLocked](../../aspose.slides/groupshapelock/sizelocked) { get; set; } | 确定是否禁止调整此形状的大小。 读/写Boolean。 |
-| [UngroupingLocked](../../aspose.slides/groupshapelock/ungroupinglocked) { get; set; } | 确定是否禁止拆分此 groupshape。 读/写Boolean。 |
+| [AspectRatioLocked](../../aspose.slides/groupshapelock/aspectratiolocked) { get; set; } | 确定形状是否必须在调整大小时保持纵横比。 读/写Boolean. |
+| [GroupingLocked](../../aspose.slides/groupshapelock/groupinglocked) { get; set; } | 确定是否禁止将此形状添加到组中。 读/写Boolean. |
+| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | 如果所有锁定标志都被禁用，则返回 true。 只读Boolean. |
+| [PositionLocked](../../aspose.slides/groupshapelock/positionlocked) { get; set; } | 确定是否禁止移动此形状。 读/写Boolean. |
+| [RotationLocked](../../aspose.slides/groupshapelock/rotationlocked) { get; set; } | 决定是否禁止改变这个形状的旋转角度。 读/写Boolean. |
+| [SelectLocked](../../aspose.slides/groupshapelock/selectlocked) { get; set; } | 确定是否禁止选择此形状。 读/写Boolean. |
+| [SizeLocked](../../aspose.slides/groupshapelock/sizelocked) { get; set; } | 确定是否禁止调整此形状的大小。 读/写Boolean. |
+| [UngroupingLocked](../../aspose.slides/groupshapelock/ungroupinglocked) { get; set; } | 确定是否禁止拆分此 groupshape。 读/写Boolean. |
 
 ### 也可以看看
 

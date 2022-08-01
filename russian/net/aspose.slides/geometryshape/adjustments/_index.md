@@ -1,14 +1,14 @@
 ---
 title: Adjustments
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает набор значений настройки формы. Только для чтенияIAdjustValueCollectionaspose.slides/iadjustvaluecollection.
+description: Возвращает набор значений настройки фигуры. Только для чтенияIAdjustValueCollectionaspose.slides/iadjustvaluecollection .
 type: docs
 weight: 10
 url: /ru/net/aspose.slides/geometryshape/adjustments/
 ---
 ## GeometryShape.Adjustments property
 
-Возвращает набор значений настройки формы. Только для чтения[`IAdjustValueCollection`](../../iadjustvaluecollection).
+Возвращает набор значений настройки фигуры. Только для чтения[`IAdjustValueCollection`](../../iadjustvaluecollection) .
 
 ```csharp
 public IAdjustValueCollection Adjustments { get; }

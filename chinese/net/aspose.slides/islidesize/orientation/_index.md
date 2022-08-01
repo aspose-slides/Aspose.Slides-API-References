@@ -1,14 +1,14 @@
 ---
 title: Orientation
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置幻灯片方向  更改此值将交换幻灯片的尺寸 读/写SlideOrientationaspose.slides/slideorientation
+description: 返回或设置幻灯片方向 更改此值将交换幻灯片的尺寸 读/写SlideOrientationaspose.slides/slideorientation.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides/islidesize/orientation/
 ---
 ## ISlideSize.Orientation property
 
-返回或设置幻灯片方向。  更改此值将交换幻灯片的尺寸。 读/写[`SlideOrientation`](../../slideorientation)。
+返回或设置幻灯片方向。 更改此值将交换幻灯片的尺寸。 读/写[`SlideOrientation`](../../slideorientation).
 
 ```csharp
 public SlideOrientation Orientation { get; set; }

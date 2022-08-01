@@ -1,14 +1,14 @@
 ---
 title: Contains
 second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет содержит лиICollectionопределенное значение.
+description: ОпределяетICollection содержит определенное значение.
 type: docs
 weight: 60
 url: /ru/net/aspose.slides.animation/behaviorpropertycollection/contains/
 ---
 ## Contains(IBehaviorProperty) {#contains}
 
-Определяет, содержит лиICollectionопределенное значение.
+Определяет,ICollection содержит определенное значение.
 
 ```csharp
 public bool Contains(IBehaviorProperty item)
@@ -16,11 +16,11 @@ public bool Contains(IBehaviorProperty item)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| item | IBehaviorProperty | Свойство для поиска вICollection. |
+| item | IBehaviorProperty | Недвижимость для размещения в г.ICollection. |
 
 ### Возвращаемое значение
 
-true, если*item*находится вICollection; в противном случае ложно.
+верно, если*item* находится вICollection ; в противном случае false.
 
 ### Смотрите также
 
@@ -33,7 +33,7 @@ true, если*item*находится вICollection; в противном сл
 
 ## Contains(string) {#contains_1}
 
-Определяет, содержит лиICollectionопределенное значение.
+Определяет,ICollection содержит определенное значение.
 
 ```csharp
 public bool Contains(string propertyValue)
@@ -41,11 +41,11 @@ public bool Contains(string propertyValue)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| propertyValue | String | Значение свойства, которое нужно найти вICollection. |
+| propertyValue | String | Стоимость имущества для размещения вICollection. |
 
 ### Возвращаемое значение
 
-true, если*propertyValue*находится вICollection; в противном случае ложно.
+верно, если*propertyValue* находится вICollection ; в противном случае false.
 
 ### Смотрите также
 

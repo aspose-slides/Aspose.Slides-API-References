@@ -1,14 +1,14 @@
 ---
 title: Placeholder
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает заполнитель для фигуры. Возвращает null если в фигуре нет заполнителя. Только для чтенияIPlaceholderaspose.slides/iplaceholder.
+description: Возвращает заполнитель для фигуры. Возвращает значение null если в фигуре нет заполнителя. Только для чтенияIPlaceholderaspose.slides/iplaceholder .
 type: docs
 weight: 200
 url: /ru/net/aspose.slides/shape/placeholder/
 ---
 ## Shape.Placeholder property
 
-Возвращает заполнитель для фигуры. Возвращает null, если в фигуре нет заполнителя. Только для чтения[`IPlaceholder`](../../iplaceholder).
+Возвращает заполнитель для фигуры. Возвращает значение null, если в фигуре нет заполнителя. Только для чтения[`IPlaceholder`](../../iplaceholder) .
 
 ```csharp
 public IPlaceholder Placeholder { get; }

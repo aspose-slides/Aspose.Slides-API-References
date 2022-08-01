@@ -16,11 +16,11 @@ public IMathBar Underbar()
 
 ### 返回值
 
-的新实例输入[`IMathBar`](../../imathbar)
+类型的新实例[`IMathBar`](../../imathbar)
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]

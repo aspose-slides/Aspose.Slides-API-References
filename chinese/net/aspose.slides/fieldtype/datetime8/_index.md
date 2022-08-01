@@ -1,14 +1,14 @@
 ---
 title: DateTime8
 second_title: Aspose.Slides for .NET API 参考
-description: 第八种预定义格式的当前日期和时间MM/DD/YYYY hhmm AM/PM 表示英语 只读FieldTypeaspose.slides/fieldtype
+description: 第八种预定义格式的当前日期和时间英文为 MM/DD/YYYY hhmm AM/PM 只读FieldTypeaspose.slides/fieldtype.
 type: docs
 weight: 140
 url: /zh/net/aspose.slides/fieldtype/datetime8/
 ---
 ## FieldType.DateTime8 property
 
-第八种预定义格式的当前日期和时间（MM/DD/YYYY hh:mm AM/PM 表示英语）。 只读[`FieldType`](../../fieldtype)。
+第八种预定义格式的当前日期和时间（英文为 MM/DD/YYYY hh:mm AM/PM）。 只读[`FieldType`](../../fieldtype).
 
 ```csharp
 public static FieldType DateTime8 { get; }

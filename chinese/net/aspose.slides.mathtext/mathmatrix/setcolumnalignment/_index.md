@@ -16,12 +16,12 @@ public void SetColumnAlignment(int columnIndex, MathHorizontalAlignment val)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| columnIndex | Int32 | 零基于列索引 |
+| columnIndex | Int32 | 从零开始的列索引 |
 | val | MathHorizontalAlignment | 指定列水平对齐的新值 |
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]

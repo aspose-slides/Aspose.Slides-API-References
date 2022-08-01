@@ -1,14 +1,14 @@
 ---
 title: ShapeElementFillSource
 second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет как должен быть заполнен элемент формы.
+description: Указывает как должен быть заполнен элемент формы.
 type: docs
 weight: 9100
 url: /ru/net/aspose.slides/shapeelementfillsource/
 ---
 ## ShapeElementFillSource enumeration
 
-Представляет, как должен быть заполнен элемент формы.
+Указывает, как должен быть заполнен элемент формы.
 
 ```csharp
 public enum ShapeElementFillSource : byte
@@ -19,11 +19,11 @@ public enum ShapeElementFillSource : byte
 | Имя | Ценность | Описание |
 | --- | --- | --- |
 | NoFill | `0` | Не заполнять примитив. |
-| Shape | `1` | Использовать заливку формы. |
+| Shape | `1` | Использовать заливку фигуры. |
 | Lighten | `2` | Использовать более светлую заливку формы. |
-| LightenLess | `3` | Использовать менее светлую заливку формы. |
-| Darken | `4` | Используйте затемнение формы. |
-| DarkenLess | `5` | Используйте менее затемненную заливку формы. |
+| LightenLess | `3` | Используйте менее светлую заливку формы. |
+| Darken | `4` | Использовать затемнение формы для заливки. |
+| DarkenLess | `5` | Использовать менее затемненную заливку фигуры. |
 
 ### Смотрите также
 

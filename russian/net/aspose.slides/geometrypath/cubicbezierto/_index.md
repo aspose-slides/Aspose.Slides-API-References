@@ -16,7 +16,7 @@ public void CubicBezierTo(PointF point1, PointF point2, PointF point3)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| point1 | PointF | Первый точка направления |
+| point1 | PointF | Первая точка направления |
 | point2 | PointF | Вторая точка направления |
 | point3 | PointF | Конечная точка |
 
@@ -38,11 +38,11 @@ public void CubicBezierTo(float x1, float y1, float x2, float y2, float x3, floa
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| x1 | Single | X координата первой точки направления |
-| y1 | Single | Y координата первой точки направления |
-| x2 | Single | X координата точка второго направления |
-| y2 | Single | Y-координата второй точки направления |
-| x3 | Single | X-координата конечной точки |
+| x1 | Single | Координата X первой точки направления |
+| y1 | Single | Координата Y первой точки направления |
+| x2 | Single | Координата X второй точки направления |
+| y2 | Single | Координата Y второй точки направления |
+| x3 | Single | X координата конечной точки |
 | y3 | Single | Координата Y конечной точки |
 
 ### Смотрите также
@@ -72,7 +72,7 @@ public void CubicBezierTo(PointF point1, PointF point2, PointF point3, uint inde
 
 | исключение | условие |
 | --- | --- |
-| ArgumentOutOfRangeException | Индекс сегмента вне диапазона PathData |
+| ArgumentOutOfRangeException | Индекс сегмента выходит за пределы диапазона PathData |
 
 ### Смотрите также
 
@@ -94,9 +94,9 @@ public void CubicBezierTo(float x1, float y1, float x2, float y2, float x3, floa
 | --- | --- | --- |
 | x1 | Single | Координата X первой точки направления |
 | y1 | Single | Координата Y первой точки направления |
-| x2 | Single | X координата точки второго направления |
-| y2 | Single | Y координата точки второго направления |
-| x3 | Single | X координата конечная точка |
+| x2 | Single | Координата X второй точки направления |
+| y2 | Single | Координата Y второй точки направления |
+| x3 | Single | X координата конечной точки |
 | y3 | Single | Координата Y конечной точки |
 | index | UInt32 | Индекс сегмента в PathData |
 
@@ -104,7 +104,7 @@ public void CubicBezierTo(float x1, float y1, float x2, float y2, float x3, floa
 
 | исключение | условие |
 | --- | --- |
-| ArgumentOutOfRangeException | Индекс сегмента вне диапазона PathData |
+| ArgumentOutOfRangeException | Индекс сегмента выходит за пределы диапазона PathData |
 
 ### Смотрите также
 

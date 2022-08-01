@@ -1,14 +1,14 @@
 ---
 title: Angle
 second_title: Справочник по API Aspose.Slides для .NET
-description: Описывает относительный угол траектории движения. Чтение/записьSingle.
+description: Описывает относительный угол траектории движения. Чтение/записьSingle .
 type: docs
 weight: 20
 url: /ru/net/aspose.slides.animation/motioneffect/angle/
 ---
 ## MotionEffect.Angle property
 
-Описывает относительный угол траектории движения. Чтение/записьSingle.
+Описывает относительный угол траектории движения. Чтение/записьSingle .
 
 ```csharp
 public float Angle { get; set; }

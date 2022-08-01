@@ -18,7 +18,7 @@ public void Remove()
 
 | исключение | условие |
 | --- | --- |
-| [PptxEditException](../../pptxeditexception) | Генерируется, если слайд уже удален из презентации. |
+| [PptxEditException](../../pptxeditexception) | Выдается, если слайд уже удален из презентации. |
 
 ### Смотрите также
 

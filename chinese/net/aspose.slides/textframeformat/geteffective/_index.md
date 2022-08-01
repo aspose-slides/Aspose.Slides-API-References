@@ -16,11 +16,11 @@ public ITextFrameFormatEffectiveData GetEffective()
 
 ### 返回值
 
-A[`ITextFrameFormatEffectiveData`](../../itextframeformateffectivedata)。
+一个[`ITextFrameFormatEffectiveData`](../../itextframeformateffectivedata).
 
 ### 例子
 
-此示例演示了获取一些有效的文本框架格式属性。
+这个例子演示了获取一些有效的文本框架格式属性。
 
 ```csharp
 [C#]

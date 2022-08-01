@@ -1,14 +1,14 @@
 ---
 title: CellInvalidFormulaException
 second_title: Aspose.Slides for .NET API 参考
-description: 初始化CellInvalidFormulaExceptionaspose.slides.spreadsheet/cellinvalidformulaexception类的新实例
+description: 初始化CellInvalidFormulaExceptionaspose.slides.spreadsheet/cellinvalidformulaexception类.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides.spreadsheet/cellinvalidformulaexception/cellinvalidformulaexception/
 ---
 ## CellInvalidFormulaException() {#constructor}
 
-初始化[`CellInvalidFormulaException`](../../cellinvalidformulaexception)类的新实例。
+初始化[`CellInvalidFormulaException`](../../cellinvalidformulaexception)类.
 
 ```csharp
 public CellInvalidFormulaException()
@@ -24,7 +24,7 @@ public CellInvalidFormulaException()
 
 ## CellInvalidFormulaException(string) {#constructor_1}
 
-使用指定的错误消息初始化[`CellInvalidFormulaException`](../../cellinvalidformulaexception)类的新实例。
+初始化[`CellInvalidFormulaException`](../../cellinvalidformulaexception)具有指定错误消息的类。
 
 ```csharp
 public CellInvalidFormulaException(string message)
@@ -44,7 +44,7 @@ public CellInvalidFormulaException(string message)
 
 ## CellInvalidFormulaException(string, Exception) {#constructor_2}
 
-初始化[`CellInvalidFormulaException`](../../cellinvalidformulaexception)类的新实例并指定错误消息 以及对导致此异常的内部异常的引用。
+初始化[`CellInvalidFormulaException`](../../cellinvalidformulaexception)具有指定错误消息 和对导致此异常的内部异常的引用的类。
 
 ```csharp
 public CellInvalidFormulaException(string message, Exception innerException)
@@ -65,7 +65,7 @@ public CellInvalidFormulaException(string message, Exception innerException)
 
 ## CellInvalidFormulaException(string, string) {#constructor_3}
 
-初始化[`CellInvalidFormulaException`](../../cellinvalidformulaexception)类的新实例并指定错误消息 以及包含无效公式的单元格引用。
+初始化[`CellInvalidFormulaException`](../../cellinvalidformulaexception)具有指定错误消息 和包含无效公式的单元格引用的类。
 
 ```csharp
 public CellInvalidFormulaException(string message, string reference)

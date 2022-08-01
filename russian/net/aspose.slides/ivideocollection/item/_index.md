@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Справочник по API Aspose.Slides для .NET
-description: Получает элемент по указанному индексу. Только для чтенияIVideoaspose.slides/ivideo.
+description: Получает элемент по указанному индексу. Только для чтенияIVideoaspose.slides/ivideo .
 type: docs
 weight: 10
 url: /ru/net/aspose.slides/ivideocollection/item/
 ---
 ## IVideoCollection indexer
 
-Получает элемент по указанному индексу. Только для чтения[`IVideo`](../../ivideo).
+Получает элемент по указанному индексу. Только для чтения[`IVideo`](../../ivideo) .
 
 ```csharp
 public IVideo this[int index] { get; }

@@ -1,14 +1,14 @@
 ---
 title: AddAutoShape
 second_title: Aspose.Slides for .NET API 参考
-description: 创建一个新的自选图形从默认模板对其进行调整并将其添加到集合的末尾
+description: 创建一个新的自选图形根据默认模板对其进行调整并将其添加到集合的末尾
 type: docs
 weight: 60
 url: /zh/net/aspose.slides/ishapecollection/addautoshape/
 ---
 ## AddAutoShape(ShapeType, float, float, float, float) {#addautoshape}
 
-创建一个新的自选图形，从默认模板对其进行调整并将其添加到集合的末尾。
+创建一个新的自选图形，根据默认模板对其进行调整并将其添加到集合的末尾。
 
 ```csharp
 public IAutoShape AddAutoShape(ShapeType shapeType, float x, float y, float width, float height)
@@ -16,7 +16,7 @@ public IAutoShape AddAutoShape(ShapeType shapeType, float x, float y, float widt
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| shapeType | ShapeType | [`ShapeType`](../../shapetype)形状。 |
+| shapeType | ShapeType | 这[`ShapeType`](../../shapetype)的形状。 |
 | x | Single | 形状框架左侧的 X 坐标。 |
 | y | Single | 形状框架顶部的 Y 坐标。 |
 | width | Single | 形状框架的宽度。 |
@@ -47,12 +47,12 @@ public IAutoShape AddAutoShape(ShapeType shapeType, float x, float y, float widt
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| shapeType | ShapeType | [`ShapeType`](../../shapetype)形状。 |
+| shapeType | ShapeType | 这[`ShapeType`](../../shapetype)的形状。 |
 | x | Single | 形状框架左侧的 X 坐标。 |
 | y | Single | 形状框架顶部的 Y 坐标。 |
 | width | Single | 形状框架的宽度。 |
 | height | Single | 形状框架的高度。 |
-| createFromTemplate | Boolean | 如果为真，则将从默认模板调整新形状。非空名称， 简单样式，居中的文本将被关联到新形状。 如果为 false，则新形状的所有属性值都将具有默认值。 |
+| createFromTemplate | Boolean | 如果为 true，则新形状将从默认模板进行调整。非空名称， 简单样式，文本居中将被关联到新形状。 如果为 false，则新形状的所有属性值都将具有默认值。 |
 
 ### 返回值
 

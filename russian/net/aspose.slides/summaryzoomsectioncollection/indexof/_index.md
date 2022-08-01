@@ -16,7 +16,7 @@ public int IndexOf(ISummaryZoomSection summaryZoomSection)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| summaryZoomSection | ISummaryZoomSection | SummaryZoomSection объект для поиска[`ISummaryZoomSection`](../../isummaryzoomsection). |
+| summaryZoomSection | ISummaryZoomSection | Объект SummaryZoomSection для поиска[`ISummaryZoomSection`](../../isummaryzoomsection). |
 
 ### Возвращаемое значение
 

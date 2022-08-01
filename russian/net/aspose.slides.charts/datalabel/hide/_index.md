@@ -1,14 +1,14 @@
 ---
 title: Hide
 second_title: Справочник по API Aspose.Slides для .NET
-description: Сделать метку данных скрытой установив все флаги Show ShowValue ... в ложное состояние. IsVisible после этого будет false.
+description: Сделать метку данных скрытой установив все флаги Show ShowValue ... в ложное состояние. После этого IsVisible станет ложным.
 type: docs
 weight: 200
 url: /ru/net/aspose.slides.charts/datalabel/hide/
 ---
 ## DataLabel.Hide method
 
-Сделать метку данных скрытой, установив все флаги Show* (ShowValue, ...) в ложное состояние. IsVisible после этого будет false.
+Сделать метку данных скрытой, установив все флаги Show* (ShowValue, ...) в ложное состояние. После этого IsVisible станет ложным.
 
 ```csharp
 public void Hide()
@@ -16,7 +16,7 @@ public void Hide()
 
 ### Примечания
 
-Если метка данных не видна (IsVisible имеет значение false), вы можете сделать метку данных видимой с помощью установка флагов Show* (ShowValue, ...) в истинное состояние.
+Если метка данных не видна (IsVisible имеет значение false), вы можете сделать метку данных видимой с помощью установки Show*-flags (ShowValue, ...) в состояние true.
 
 ### Смотрите также
 

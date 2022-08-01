@@ -1,14 +1,14 @@
 ---
 title: Tabs
 second_title: Aspose.Slides for .NET API 参考
-description: 返回段落的列表 只读ITabEffectiveDataaspose.slides/itabeffectivedata
+description: 返回段落的列表 只读ITabEffectiveDataaspose.slides/itabeffectivedata.
 type: docs
 weight: 170
 url: /zh/net/aspose.slides/iparagraphformateffectivedata/tabs/
 ---
 ## IParagraphFormatEffectiveData.Tabs property
 
-返回段落的列表。 只读[`ITabEffectiveData`](../../itabeffectivedata)[]。
+返回段落的列表。 只读[`ITabEffectiveData`](../../itabeffectivedata)[].
 
 ```csharp
 public ITabEffectiveData[] Tabs { get; }

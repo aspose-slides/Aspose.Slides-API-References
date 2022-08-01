@@ -1,14 +1,14 @@
 ---
 title: IMotionEffect
 second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет поведение эффекта движения.
+description: Представляет поведение эффекта движения для эффекта.
 type: docs
 weight: 420
 url: /ru/net/aspose.slides.animation/imotioneffect/
 ---
 ## IMotionEffect interface
 
-Представляет поведение эффекта движения.
+Представляет поведение эффекта движения для эффекта.
 
 ```csharp
 public interface IMotionEffect : IBehavior
@@ -18,15 +18,15 @@ public interface IMotionEffect : IBehavior
 
 | Имя | Описание |
 | --- | --- |
-| [Angle](../../aspose.slides.animation/imotioneffect/angle) { get; set; } | Описывает относительный угол траектории движения. Чтение/записьSingle. |
-| [AsIBehavior](../../aspose.slides.animation/imotioneffect/asibehavior) { get; } | Позволяет получить базовый интерфейс IBeavior. Только для чтения[`IBehavior`](../ibehavior). |
-| [By](../../aspose.slides.animation/imotioneffect/by) { get; set; } | Описывает значение относительного смещения для анимации (в процентах). Чтение/записьPointF. |
-| [From](../../aspose.slides.animation/imotioneffect/from) { get; set; } | Указывает координату x/y для начала анимации (в процентах). Чтение/записьPointF. |
-| [Origin](../../aspose.slides.animation/imotioneffect/origin) { get; set; } | Определяет начало пути движения относительно макета слайда, или родителя. Чтение/запись[`MotionOriginType`](../motionorigintype). |
-| [Path](../../aspose.slides.animation/imotioneffect/path) { get; set; } | Задает примитив пути, за которым следуют координаты для анимации движения. Чтение/запись[`IMotionPath`](../imotionpath). |
-| [PathEditMode](../../aspose.slides.animation/imotioneffect/patheditmode) { get; set; } | Указывает, как перемещается траектория движения при перемещении фигуры. Чтение/запись[`MotionPathEditMode`](../motionpatheditmode). |
-| [RotationCenter](../../aspose.slides.animation/imotioneffect/rotationcenter) { get; set; } | Описывает центр вращения, используемый для поворота траектории движения на угол X. Чтение/записьPointF. |
-| [To](../../aspose.slides.animation/imotioneffect/to) { get; set; } | Определяет целевое местоположение для эффекта движения анимации (в процентах). Чтение/записьPointF. |
+| [Angle](../../aspose.slides.animation/imotioneffect/angle) { get; set; } | Описывает относительный угол траектории движения. Чтение/записьSingle . |
+| [AsIBehavior](../../aspose.slides.animation/imotioneffect/asibehavior) { get; } | Позволяет получить базовый интерфейс IBehavior. Только для чтения[`IBehavior`](../ibehavior) . |
+| [By](../../aspose.slides.animation/imotioneffect/by) { get; set; } | Описывает значение относительного смещения анимации (в процентах). Чтение/записьPointF . |
+| [From](../../aspose.slides.animation/imotioneffect/from) { get; set; } | Указывает координату x/y, с которой начинается анимация (в процентах). Чтение/записьPointF . |
+| [Origin](../../aspose.slides.animation/imotioneffect/origin) { get; set; } | Определяет источник пути движения относительно макета слайда, или родителя. Чтение/запись[`MotionOriginType`](../motionorigintype) . |
+| [Path](../../aspose.slides.animation/imotioneffect/path) { get; set; } | Определяет примитив пути, за которым следуют координаты для анимации движения. Чтение/запись[`IMotionPath`](../imotionpath) . |
+| [PathEditMode](../../aspose.slides.animation/imotioneffect/patheditmode) { get; set; } | Указывает, как перемещается траектория движения при перемещении фигуры. Чтение/запись[`MotionPathEditMode`](../motionpatheditmode) . |
+| [RotationCenter](../../aspose.slides.animation/imotioneffect/rotationcenter) { get; set; } | Описывает центр вращения, используемый для поворота траектории движения на угол X. Чтение/записьPointF . |
+| [To](../../aspose.slides.animation/imotioneffect/to) { get; set; } | Указывает целевое местоположение для эффекта движения анимации (в процентах). Чтение/записьPointF . |
 
 ### Смотрите также
 

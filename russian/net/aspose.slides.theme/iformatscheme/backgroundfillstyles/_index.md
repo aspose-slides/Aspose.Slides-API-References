@@ -1,14 +1,14 @@
 ---
 title: BackgroundFillStyles
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает набор стилей заливки фона определенных темой. Только для чтенияIFillFormatCollectionaspose.slides.theme/ifillformatcollection.
+description: Возвращает коллекцию стилей заливки фона определенных темой. Только для чтенияIFillFormatCollectionaspose.slides.theme/ifillformatcollection .
 type: docs
 weight: 20
 url: /ru/net/aspose.slides.theme/iformatscheme/backgroundfillstyles/
 ---
 ## IFormatScheme.BackgroundFillStyles property
 
-Возвращает набор стилей заливки фона, определенных темой. Только для чтения[`IFillFormatCollection`](../../ifillformatcollection).
+Возвращает коллекцию стилей заливки фона, определенных темой. Только для чтения[`IFillFormatCollection`](../../ifillformatcollection) .
 
 ```csharp
 public IFillFormatCollection BackgroundFillStyles { get; }

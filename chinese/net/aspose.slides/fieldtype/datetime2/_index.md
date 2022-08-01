@@ -1,14 +1,14 @@
 ---
 title: DateTime2
 second_title: Aspose.Slides for .NET API 参考
-description: 当前日期和时间采用第二种预定义格式英文为日月 DDYYYY 只读FieldTypeaspose.slides/fieldtype
+description: 当前日期和时间采用第二种预定义格式英文为日月 DDYYYY 只读FieldTypeaspose.slides/fieldtype.
 type: docs
 weight: 80
 url: /zh/net/aspose.slides/fieldtype/datetime2/
 ---
 ## FieldType.DateTime2 property
 
-当前日期和时间，采用第二种预定义格式（英文为日、月 DD、YYYY）。 只读[`FieldType`](../../fieldtype)。
+当前日期和时间，采用第二种预定义格式（英文为日、月 DD、YYYY）。 只读[`FieldType`](../../fieldtype).
 
 ```csharp
 public static FieldType DateTime2 { get; }

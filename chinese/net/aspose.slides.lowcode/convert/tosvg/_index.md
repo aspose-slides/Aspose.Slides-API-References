@@ -1,14 +1,14 @@
 ---
 title: ToSvg
 second_title: Aspose.Slides for .NET API 参考
-description: 将Presentationaspose.slides/presentation转换为 SVG
+description: 转换Presentationaspose.slides/presentation到 SVG.
 type: docs
 weight: 30
 url: /zh/net/aspose.slides.lowcode/convert/tosvg/
 ---
 ## ToSvg(string) {#tosvg_3}
 
-将[`Presentation`](../../../aspose.slides/presentation)转换为 SVG。
+转换[`Presentation`](../../../aspose.slides/presentation)到 SVG.
 
 ```csharp
 public static void ToSvg(string presPath)
@@ -16,7 +16,7 @@ public static void ToSvg(string presPath)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| presPath | String | 输入表示的路径 |
+| presPath | String | 输入呈现路径 |
 
 ### 例子
 
@@ -34,7 +34,7 @@ Convert.ToSvg("pres.pptx");
 
 ## ToSvg(string, GetOutPathCallback) {#tosvg_4}
 
-将[`Presentation`](../../../aspose.slides/presentation)转换为 SVG。
+转换[`Presentation`](../../../aspose.slides/presentation)到 SVG.
 
 ```csharp
 public static void ToSvg(string presPath, GetOutPathCallback getOutPath)
@@ -42,8 +42,8 @@ public static void ToSvg(string presPath, GetOutPathCallback getOutPath)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| presPath | String | 输入表示的路径 |
-| getOutPath | GetOutPathCallback | 回调那个返回演示文稿中每张幻灯片的 SVG 输出路径 |
+| presPath | String | 输入呈现路径 |
+| getOutPath | GetOutPathCallback | 返回演示文稿中每张幻灯片的 SVG 输出路径的回调 |
 
 ### 例子
 
@@ -62,7 +62,7 @@ Convert.ToSvg("pres.pptx", (slide, index) => $"pres_{index}-out.svg");
 
 ## ToSvg(Presentation, GetOutPathCallback) {#tosvg_1}
 
-将[`Presentation`](../../../aspose.slides/presentation)转换为 SVG。
+转换[`Presentation`](../../../aspose.slides/presentation)到 SVG.
 
 ```csharp
 public static void ToSvg(Presentation pres, GetOutPathCallback getOutPath)
@@ -70,8 +70,8 @@ public static void ToSvg(Presentation pres, GetOutPathCallback getOutPath)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| pres | Presentation | 输入表示 |
-| getOutPath | GetOutPathCallback | &gt; 返回的回调演示文稿中每张幻灯片的 SVG 输出路径 |
+| pres | Presentation | 输入演示 |
+| getOutPath | GetOutPathCallback | &gt;返回演示文稿中每张幻灯片的 SVG 输出路径的回调 |
 
 ### 例子
 
@@ -94,7 +94,7 @@ using (Presentation pres = new Presentation("input.pptx"))
 
 ## ToSvg(Presentation, ISVGOptions) {#tosvg}
 
-将[`Presentation`](../../../aspose.slides/presentation)转换为 SVG。
+转换[`Presentation`](../../../aspose.slides/presentation)到 SVG.
 
 ```csharp
 public static void ToSvg(Presentation pres, ISVGOptions options)
@@ -102,7 +102,7 @@ public static void ToSvg(Presentation pres, ISVGOptions options)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| pres | Presentation | 输入表示 |
+| pres | Presentation | 输入演示 |
 | options | ISVGOptions | SVG 导出选项 |
 
 ### 例子
@@ -126,7 +126,7 @@ using (Presentation pres = new Presentation("input.pptx"))
 
 ## ToSvg(Presentation, GetOutPathCallback, ISVGOptions) {#tosvg_2}
 
-将[`Presentation`](../../../aspose.slides/presentation)转换为 SVG。
+转换[`Presentation`](../../../aspose.slides/presentation)到 SVG.
 
 ```csharp
 public static void ToSvg(Presentation pres, GetOutPathCallback getOutPath, ISVGOptions options)
@@ -134,8 +134,8 @@ public static void ToSvg(Presentation pres, GetOutPathCallback getOutPath, ISVGO
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| pres | Presentation | 输入表示 |
-| getOutPath | GetOutPathCallback | 返回 SVG 的回调演示文稿中每张幻灯片的输出路径 |
+| pres | Presentation | 输入演示 |
+| getOutPath | GetOutPathCallback | 返回演示文稿中每张幻灯片的 SVG 输出路径的回调 |
 | options | ISVGOptions | SVG 导出选项 |
 
 ### 例子

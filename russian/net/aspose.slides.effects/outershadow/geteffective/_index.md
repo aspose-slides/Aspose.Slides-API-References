@@ -16,7 +16,7 @@ public IOuterShadowEffectiveData GetEffective()
 
 ### Возвращаемое значение
 
-A[`IOuterShadowEffectiveData`](../../ioutershadoweffectivedata).
+А[`IOuterShadowEffectiveData`](../../ioutershadoweffectivedata).
 
 ### Смотрите также
 

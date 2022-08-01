@@ -1,14 +1,14 @@
 ---
 title: Bottom
 second_title: Aspose.Slides for .NET API 参考
-description: 底部 只读Single
+description: 底部 只读Single.
 type: docs
 weight: 60
 url: /zh/net/aspose.slides.charts/datalabel/bottom/
 ---
 ## DataLabel.Bottom property
 
-底部。 只读Single。
+底部。 只读Single.
 
 ```csharp
 public float Bottom { get; }

@@ -18,16 +18,16 @@ public sealed class TagCollection : ITagCollection
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Count](../../aspose.slides/tagcollection/count) { get; } | 返回集合中的标签数量。 只读Int32。 |
-| [IsSynchronized](../../aspose.slides/tagcollection/issynchronized) { get; } | 返回一个值，指示对集合的访问是否同步（线程安全）。 只读Boolean。 |
+| [Count](../../aspose.slides/tagcollection/count) { get; } | 返回集合中的标签数量。 只读Int32. |
+| [IsSynchronized](../../aspose.slides/tagcollection/issynchronized) { get; } | 返回一个值，指示对集合的访问是否同步（线程安全）。 只读Boolean. |
 | [Item](../../aspose.slides/tagcollection/item) { get; set; } | 返回或设置标签的键值对。 |
-| [SyncRoot](../../aspose.slides/tagcollection/syncroot) { get; } | 返回同步根。 只读Object。 |
+| [SyncRoot](../../aspose.slides/tagcollection/syncroot) { get; } | 返回同步根。 只读Object. |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Add](../../aspose.slides/tagcollection/add)(string, string) | 向集合添加新标签。 |
+| [Add](../../aspose.slides/tagcollection/add)(string, string) | 将新标签添加到集合中。 |
 | [Clear](../../aspose.slides/tagcollection/clear)() | 从集合中删除所有标签。 |
 | [Contains](../../aspose.slides/tagcollection/contains)(string) | 确定集合是否包含特定名称。 |
 | [CopyTo](../../aspose.slides/tagcollection/copyto)(Array, int) | 将集合中的所有元素复制到指定的数组中。 |

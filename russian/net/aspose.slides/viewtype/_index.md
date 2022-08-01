@@ -1,14 +1,14 @@
 ---
 title: ViewType
 second_title: Справочник по API Aspose.Slides для .NET
-description: Типы представлений
+description: Типы представления презентации
 type: docs
 weight: 10940
 url: /ru/net/aspose.slides/viewtype/
 ---
 ## ViewType enumeration
 
-Типы представлений
+Типы представления презентации
 
 ```csharp
 public enum ViewType
@@ -22,11 +22,11 @@ public enum ViewType
 | SlideView | `1` | Обычный вид слайда |
 | SlideMasterView | `2` | Образец слайдов |
 | NotesView | `3` | Просмотр заметок |
-| HandoutView | `4` | Просмотр раздаточных материалов |
+| HandoutView | `4` | Представление раздаточных материалов |
 | NotesMasterView | `5` | Основной вид заметок |
 | OutlineView | `6` | Контурный вид |
 | SlideSorterView | `7` | Просмотр сортировщика слайдов |
-| SlideThumbnailView | `8` | Миниатюры слайдов |
+| SlideThumbnailView | `8` | Просмотр эскизов слайдов |
 
 ### Смотрите также
 

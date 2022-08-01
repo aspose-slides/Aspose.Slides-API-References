@@ -1,14 +1,14 @@
 ---
 title: MathLimitLocations
 second_title: Справочник по API Aspose.Slides для .NET
-description: Расположение пределов индекс/верхний индекс в n-арных операторах.
+description: Расположение пределов нижний/верхний индекс в n-арных операторах.
 type: docs
 weight: 8120
 url: /ru/net/aspose.slides.mathtext/mathlimitlocations/
 ---
 ## MathLimitLocations enumeration
 
-Расположение пределов (индекс/верхний индекс) в n-арных операторах.
+Расположение пределов (нижний/верхний индекс) в n-арных операторах.
 
 ```csharp
 public enum MathLimitLocations
@@ -19,8 +19,8 @@ public enum MathLimitLocations
 | Имя | Ценность | Описание |
 | --- | --- | --- |
 | NotDefined | `0` | Не определено |
-| UnderOver | `1` | Ограничивает рисование сверху и снизу символа оператора |
-| SubscriptSuperscript | `2` | Пределы рисуются в виде нижнего и верхнего индекса |
+| UnderOver | `1` | Ограничивает отрисовку сверху и снизу символа оператора |
+| SubscriptSuperscript | `2` | Пределы отрисовки в виде нижнего и верхнего индекса |
 
 ### Смотрите также
 

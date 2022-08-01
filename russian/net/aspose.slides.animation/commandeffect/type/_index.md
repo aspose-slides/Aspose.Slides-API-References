@@ -1,14 +1,14 @@
 ---
 title: Type
 second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет тип поведения командного эффекта. Чтение/записьCommandEffectTypeaspose.slides.animation/commandeffecttype.
+description: Определяет тип поведения командного эффекта. Чтение/записьCommandEffectTypeaspose.slides.animation/commandeffecttype .
 type: docs
 weight: 40
 url: /ru/net/aspose.slides.animation/commandeffect/type/
 ---
 ## CommandEffect.Type property
 
-Определяет тип поведения командного эффекта. Чтение/запись[`CommandEffectType`](../../commandeffecttype).
+Определяет тип поведения командного эффекта. Чтение/запись[`CommandEffectType`](../../commandeffecttype) .
 
 ```csharp
 public CommandEffectType Type { get; set; }

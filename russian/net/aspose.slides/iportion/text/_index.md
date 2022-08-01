@@ -1,14 +1,14 @@
 ---
 title: Text
 second_title: Справочник по API Aspose.Slides для .NET
-description: Получает или задает обычный текст части. Чтение/записьString.
+description: Получает или задает обычный текст части. Чтение/записьString .
 type: docs
 weight: 40
 url: /ru/net/aspose.slides/iportion/text/
 ---
 ## IPortion.Text property
 
-Получает или задает обычный текст части. Чтение/записьString.
+Получает или задает обычный текст части. Чтение/записьString .
 
 ```csharp
 public string Text { get; set; }

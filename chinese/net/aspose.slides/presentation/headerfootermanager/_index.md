@@ -1,14 +1,14 @@
 ---
 title: HeaderFooterManager
 second_title: Aspose.Slides for .NET API 参考
-description: 返回实际的 HeaderFooter 管理器 只读IPresentationHeaderFooterManageraspose.slides/ipresentationheaderfootermanager
+description: 返回实际的 HeaderFooter 管理器 只读IPresentationHeaderFooterManageraspose.slides/ipresentationheaderfootermanager.
 type: docs
 weight: 120
 url: /zh/net/aspose.slides/presentation/headerfootermanager/
 ---
 ## Presentation.HeaderFooterManager property
 
-返回实际的 HeaderFooter 管理器。 只读[`IPresentationHeaderFooterManager`](../../ipresentationheaderfootermanager)。
+返回实际的 HeaderFooter 管理器。 只读[`IPresentationHeaderFooterManager`](../../ipresentationheaderfootermanager).
 
 ```csharp
 public IPresentationHeaderFooterManager HeaderFooterManager { get; }

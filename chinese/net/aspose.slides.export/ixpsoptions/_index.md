@@ -18,10 +18,10 @@ public interface IXpsOptions : ISaveOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsISaveOptions](../../aspose.slides.export/ixpsoptions/asisaveoptions) { get; } | 返回 ISaveOptions 接口。 只读[`ISaveOptions`](../isaveoptions)。 |
-| [DrawSlidesFrame](../../aspose.slides.export/ixpsoptions/drawslidesframe) { get; set; } | True 在每张幻灯片周围绘制黑框。 读/写Boolean。 |
-| [SaveMetafilesAsPng](../../aspose.slides.export/ixpsoptions/savemetafilesaspng) { get; set; } | True 将演示文稿中使用的所有元文件转换为 PNG 图像。 读/写Boolean。 |
-| [ShowHiddenSlides](../../aspose.slides.export/ixpsoptions/showhiddenslides) { get; set; } | 指定生成的文档是否应包含隐藏幻灯片。 默认为` false` 。 |
+| [AsISaveOptions](../../aspose.slides.export/ixpsoptions/asisaveoptions) { get; } | 返回 ISaveOptions 接口。 只读[`ISaveOptions`](../isaveoptions). |
+| [DrawSlidesFrame](../../aspose.slides.export/ixpsoptions/drawslidesframe) { get; set; } | True 在每张幻灯片周围绘制黑框。 读/写Boolean. |
+| [SaveMetafilesAsPng](../../aspose.slides.export/ixpsoptions/savemetafilesaspng) { get; set; } | True 将演示文稿中使用的所有元文件转换为 PNG 图像。 读/写Boolean. |
+| [ShowHiddenSlides](../../aspose.slides.export/ixpsoptions/showhiddenslides) { get; set; } | 指定生成的文档是否应包含隐藏幻灯片。 默认为`错误的` |
 
 ### 也可以看看
 

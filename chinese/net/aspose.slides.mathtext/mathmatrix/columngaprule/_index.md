@@ -8,7 +8,7 @@ url: /zh/net/aspose.slides.mathtext/mathmatrix/columngaprule/
 ---
 ## MathMatrix.ColumnGapRule property
 
-矩阵列之间的水平间距类型； 水平间距单位可以是 em 或点（存储为缇）。 默认值:SingleSpacingGap (0)
+矩阵列之间的水平间距类型； 水平间距单位可以是 em 或点（存储为缇）。 默认值：SingleSpacingGap (0)
 
 ```csharp
 public MathSpacingRules ColumnGapRule { get; set; }
@@ -16,7 +16,7 @@ public MathSpacingRules ColumnGapRule { get; set; }
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]

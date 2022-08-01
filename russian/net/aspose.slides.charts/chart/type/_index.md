@@ -1,14 +1,14 @@
 ---
 title: Type
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или задает тип диаграммы. Чтение/записьChartTypeaspose.slides.charts/charttype.
+description: Возвращает или задает тип диаграммы. Чтение/записьChartTypeaspose.slides.charts/charttype .
 type: docs
 weight: 230
 url: /ru/net/aspose.slides.charts/chart/type/
 ---
 ## Chart.Type property
 
-Возвращает или задает тип диаграммы. Чтение/запись[`ChartType`](../../charttype).
+Возвращает или задает тип диаграммы. Чтение/запись[`ChartType`](../../charttype) .
 
 ```csharp
 public ChartType Type { get; set; }

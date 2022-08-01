@@ -1,14 +1,14 @@
 ---
 title: Direction
 second_title: Справочник по API Aspose.Slides для .NET
-description: Направление света. Только для чтенияLightingDirectionaspose.slides/lightingdirection.
+description: Направление света. Только для чтенияLightingDirectionaspose.slides/lightingdirection .
 type: docs
 weight: 10
 url: /ru/net/aspose.slides/ilightrigeffectivedata/direction/
 ---
 ## ILightRigEffectiveData.Direction property
 
-Направление света. Только для чтения[`LightingDirection`](../../lightingdirection).
+Направление света. Только для чтения[`LightingDirection`](../../lightingdirection) .
 
 ```csharp
 public LightingDirection Direction { get; }

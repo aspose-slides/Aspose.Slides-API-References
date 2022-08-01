@@ -1,14 +1,14 @@
 ---
 title: IMathFunction
 second_title: Справочник по API Aspose.Slides для .NET
-description: Задает функцию аргумента.
+description: Определяет функцию аргумента.
 type: docs
 weight: 7560
 url: /ru/net/aspose.slides.mathtext/imathfunction/
 ---
 ## IMathFunction interface
 
-Задает функцию аргумента.
+Определяет функцию аргумента.
 
 ```csharp
 public interface IMathFunction : IMathElement

@@ -21,11 +21,11 @@ public enum TransitionType
 | None | `0` |  |
 | Blinds | `1` |  |
 | Checker | `2` |  |
-| Circle | `3` | Относится к переходу Shape (с параметром Circle) в PowerPoint 2010. |
+| Circle | `3` | Относится к фигуре перехода (с параметром «Круг») в PowerPoint 2010. |
 | Comb | `4` |  |
 | Cover | `5` |  |
 | Cut | `6` |  |
-| Diamond | `7` | Относится к фигуре перехода (с опцией "ромб") в PowerPoint 2010. |
+| Diamond | `7` | Относится к фигуре перехода (с параметром «Ромб») в PowerPoint 2010. |
 | Dissolve | `8` |  |
 | Fade | `9` |  |
 | Newsflash | `10` |  |
@@ -34,12 +34,12 @@ public enum TransitionType
 | Push | `13` |  |
 | Random | `14` |  |
 | RandomBar | `15` |  |
-| Split | `16` | Эквивалент перехода Wipe в PowerPoint 2010. |
+| Split | `16` | Эквивалент перехода «Очистка» в PowerPoint 2010. |
 | Strips | `17` |  |
 | Wedge | `18` | Относится к переходу Часы (с опцией Wedge) в PowerPoint 2010. |
-| Wheel | `19` | Относится к переходу Часы (с параметром По часовой стрелке) в PowerPoint 2010. |
+| Wheel | `19` | Относится к переходу «Часы» (с параметром «По часовой стрелке») в PowerPoint 2010. |
 | Wipe | `20` |  |
-| Zoom | `21` | Относится к фигуре перехода (с параметрами In/Out) в PowerPoint 2010. См. такжеWarp, относящийся к переходу Zoom в PowerPoint 2010. |
+| Zoom | `21` | Относится к фигуре перехода (с параметрами In/Out) в PowerPoint 2010. См. такжеWarp что касается перехода Zoom в PowerPoint 2010. |
 | Vortex | `22` | Доступно в PowerPoint 2010. |
 | Switch | `23` | Доступно в PowerPoint 2010. |
 | Flip | `24` | Доступно в PowerPoint 2010. |
@@ -56,12 +56,12 @@ public enum TransitionType
 | Conveyor | `35` | Доступно в PowerPoint 2010. |
 | Pan | `36` | Доступно в PowerPoint 2010. |
 | Glitter | `37` | Доступно в PowerPoint 2010. |
-| Warp | `38` | Относится к переходу Zoom in PowerPoint 2010. Доступно в PowerPoint 2010. |
+| Warp | `38` | Относится к переходу Увеличить PowerPoint 2010. Доступно в PowerPoint 2010. |
 | Flythrough | `39` | Доступно в PowerPoint 2010. |
 | Flash | `40` | Доступно в PowerPoint 2010. |
 | Shred | `41` | Доступно в PowerPoint 2010. |
 | Reveal | `42` | Доступно в PowerPoint 2010. |
-| WheelReverse | `43` | Относится к переходу Часы (с параметром Против часовой стрелки) в PowerPoint 2010. Доступно в PowerPoint 2010. |
+| WheelReverse | `43` | Относится к переходу «Часы» (с параметром «Против часовой стрелки») в PowerPoint 2010. Доступно в PowerPoint 2010. |
 | FallOver | `44` | Доступно в PowerPoint 2013. |
 | Drape | `45` | Доступно в PowerPoint 2013. |
 | Curtains | `46` | Доступно в PowerPoint 2013. |
@@ -74,7 +74,7 @@ public enum TransitionType
 | PageCurlSingle | `53` | Доступно в PowerPoint 2013. |
 | Airplane | `54` | Доступно в PowerPoint 2013. |
 | Origami | `55` | Доступно в PowerPoint 2013. |
-| Morph | `56` | Относится к переходу Трансформация (с параметром Тип) в PowerPoint 2019. |
+| Morph | `56` | Относится к переходу «Трансформация» (с параметром «Тип») в PowerPoint 2019. |
 
 ### Смотрите также
 

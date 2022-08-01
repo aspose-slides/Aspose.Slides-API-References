@@ -18,12 +18,12 @@ public interface IPictureFrame : IGeometryShape
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsIGeometryShape](../../aspose.slides/ipictureframe/asigeometryshape) { get; } | 允许获取基本的 IGeometryShape 接口。 只读[`IGeometryShape`](../igeometryshape)。 |
-| [PictureFormat](../../aspose.slides/ipictureframe/pictureformat) { get; } | 返回相框的 PictureFillFormat 对象。 只读[`IPictureFillFormat`](../ipicturefillformat)。 |
-| [PictureFrameLock](../../aspose.slides/ipictureframe/pictureframelock) { get; } | 返回 PictureFrame 的锁。 只读[`IPictureFrameLock`](../ipictureframelock)。 |
-| [RelativeScaleHeight](../../aspose.slides/ipictureframe/relativescaleheight) { get; set; } | 返回或设置相框的高度比例（相对于原始图片大小）。值 1.0 对应于 100%。 读/写Single。 |
-| [RelativeScaleWidth](../../aspose.slides/ipictureframe/relativescalewidth) { get; set; } | 返回或设置图片帧的宽度比例（相对于原始图片大小）。值 1.0 对应于 100%。 读/写Single。 |
-| [ShapeLock](../../aspose.slides/ipictureframe/shapelock) { get; } | 返回形状的锁。 只读[`IPictureFrameLock`](../ipictureframelock)。 |
+| [AsIGeometryShape](../../aspose.slides/ipictureframe/asigeometryshape) { get; } | 允许获取基本 IGeometryShape 接口。 只读[`IGeometryShape`](../igeometryshape). |
+| [PictureFormat](../../aspose.slides/ipictureframe/pictureformat) { get; } | 返回图片帧的 PictureFillFormat 对象。 只读[`IPictureFillFormat`](../ipicturefillformat). |
+| [PictureFrameLock](../../aspose.slides/ipictureframe/pictureframelock) { get; } | 返回 PictureFrame 的锁。 只读[`IPictureFrameLock`](../ipictureframelock). |
+| [RelativeScaleHeight](../../aspose.slides/ipictureframe/relativescaleheight) { get; set; } | 返回或设置图片帧的高度比例（相对于原始图片大小）。值 1.0 对应 100%. 读/写Single. |
+| [RelativeScaleWidth](../../aspose.slides/ipictureframe/relativescalewidth) { get; set; } | 返回或设置图片帧的宽度比例（相对于原始图片大小）。值 1.0 对应 100%. 读/写Single. |
+| [ShapeLock](../../aspose.slides/ipictureframe/shapelock) { get; } | 返回形状的锁。 只读[`IPictureFrameLock`](../ipictureframelock). |
 
 ### 也可以看看
 

@@ -16,7 +16,7 @@ public IAudioFrame AddAudioFrameLinked(float x, float y, float width, float heig
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| x | Single | X координата нового звукового кадра. |
+| x | Single | Координата X нового звукового кадра. |
 | y | Single | Координата Y нового звукового кадра. |
 | width | Single | Ширина нового звукового кадра. |
 | height | Single | Высота нового звукового кадра. |

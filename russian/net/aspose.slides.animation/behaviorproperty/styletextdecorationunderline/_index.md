@@ -8,7 +8,7 @@ url: /ru/net/aspose.slides.animation/behaviorproperty/styletextdecorationunderli
 ---
 ## BehaviorProperty.StyleTextDecorationUnderline property
 
-Представляет свойство 'style.textDecorationUnderline'
+Представляет свойство style.textDecorationUnderline
 
 ```csharp
 public static BehaviorProperty StyleTextDecorationUnderline { get; }

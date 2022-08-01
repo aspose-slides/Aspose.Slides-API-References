@@ -1,14 +1,14 @@
 ---
 title: Chart
 second_title: Справочник по API Aspose.Slides для .NET
-description: Диаграмма. Только для чтенияIChartaspose.slides.charts/ichart.
+description: Диаграмма. Только для чтенияIChartaspose.slides.charts/ichart .
 type: docs
 weight: 60
 url: /ru/net/aspose.slides.charts/chartplotarea/chart/
 ---
 ## ChartPlotArea.Chart property
 
-Диаграмма. Только для чтения[`IChart`](../../ichart).
+Диаграмма. Только для чтения[`IChart`](../../ichart) .
 
 ```csharp
 public IChart Chart { get; }

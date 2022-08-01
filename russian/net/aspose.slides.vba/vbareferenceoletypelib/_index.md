@@ -24,8 +24,8 @@ public class VbaReferenceOleTypeLib : IVbaReferenceOleTypeLib
 
 | Имя | Описание |
 | --- | --- |
-| [Libid](../../aspose.slides.vba/vbareferenceoletypelib/libid) { get; set; } | Представляет идентификатор библиотеки типов автоматизации. Чтение/записьString. |
-| [Name](../../aspose.slides.vba/vbareferenceoletypelib/name) { get; set; } | Представляет имя ссылки на проект VBA. Чтение/записьString. |
+| [Libid](../../aspose.slides.vba/vbareferenceoletypelib/libid) { get; set; } | Представляет идентификатор библиотеки типов автоматизации. Чтение/записьString . |
+| [Name](../../aspose.slides.vba/vbareferenceoletypelib/name) { get; set; } | Представляет имя ссылки на проект VBA. Чтение/записьString . |
 
 ### Смотрите также
 

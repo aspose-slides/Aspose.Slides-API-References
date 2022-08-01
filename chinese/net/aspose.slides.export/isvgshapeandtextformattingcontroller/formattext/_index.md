@@ -1,14 +1,14 @@
 ---
 title: FormatText
 second_title: Aspose.Slides for .NET API 参考
-description: 在将文本部分渲染到 SVG 之前调用此函数以允许用户控制生成的 SVG
+description: 在将文本部分渲染为 SVG 之前调用此函数以允许用户控制生成的 SVG
 type: docs
 weight: 20
 url: /zh/net/aspose.slides.export/isvgshapeandtextformattingcontroller/formattext/
 ---
 ## ISvgShapeAndTextFormattingController.FormatText method
 
-在将文本部分渲染到 SVG 之前调用此函数，以允许用户控制生成的 SVG。
+在将文本部分渲染为 SVG 之前调用此函数，以允许用户控制生成的 SVG。
 
 ```csharp
 public void FormatText(ISvgTSpan svgTSpan, IPortion portion, ITextFrame textFrame)

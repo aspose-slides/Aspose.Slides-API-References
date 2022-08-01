@@ -1,14 +1,14 @@
 ---
 title: PictureFormat
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает объект PictureFillFormat для рамки изображения. Только для чтенияIPictureFillFormataspose.slides/ipicturefillformat.
+description: Возвращает объект PictureFillFormat для рамки изображения. Только для чтенияIPictureFillFormataspose.slides/ipicturefillformat .
 type: docs
 weight: 20
 url: /ru/net/aspose.slides/ipictureframe/pictureformat/
 ---
 ## IPictureFrame.PictureFormat property
 
-Возвращает объект PictureFillFormat для рамки изображения. Только для чтения[`IPictureFillFormat`](../../ipicturefillformat).
+Возвращает объект PictureFillFormat для рамки изображения. Только для чтения[`IPictureFillFormat`](../../ipicturefillformat) .
 
 ```csharp
 public IPictureFillFormat PictureFormat { get; }

@@ -8,7 +8,7 @@ url: /ru/net/aspose.slides.animation/behaviorproperty/stylerotation/
 ---
 ## BehaviorProperty.StyleRotation property
 
-Представляет свойство 'style.rotation'
+Представляет свойство style.rotation
 
 ```csharp
 public static BehaviorProperty StyleRotation { get; }

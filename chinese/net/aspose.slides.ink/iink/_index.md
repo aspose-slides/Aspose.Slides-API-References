@@ -18,7 +18,7 @@ public interface IInk : IGraphicalObject
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsIGraphicalObject](../../aspose.slides.ink/iink/asigraphicalobject) { get; } | 允许获取基本 IGraphicalObject 接口。 只读[`IGraphicalObject`](../../aspose.slides/igraphicalobject)。 |
+| [AsIGraphicalObject](../../aspose.slides.ink/iink/asigraphicalobject) { get; } | 允许获取基本 IGraphicalObject 接口。 只读[`IGraphicalObject`](../../aspose.slides/igraphicalobject). |
 
 ### 也可以看看
 

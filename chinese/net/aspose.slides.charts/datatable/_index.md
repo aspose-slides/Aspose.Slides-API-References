@@ -18,13 +18,13 @@ public class DataTable : DomObject<Chart>, IDataTable
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Chart](../../aspose.slides.charts/datatable/chart) { get; } | 返回图表。 只读[`IChart`](../ichart)。 |
-| [Format](../../aspose.slides.charts/datatable/format) { get; } | 返回对象的线条、填充和效果样式。 只读[`IFormat`](../iformat)。 |
-| [HasBorderHorizontal](../../aspose.slides.charts/datatable/hasborderhorizontal) { get; set; } | 如果图表数据表具有水平单元格边框，则为真。 读/写Boolean。 |
-| [HasBorderOutline](../../aspose.slides.charts/datatable/hasborderoutline) { get; set; } | 如果图表数据表有轮廓边框，则为真。 读/写Boolean。 |
-| [HasBorderVertical](../../aspose.slides.charts/datatable/hasbordervertical) { get; set; } | 如果图表数据表具有垂直单元格边框，则为真。 读/写Boolean。 |
-| [ShowLegendKey](../../aspose.slides.charts/datatable/showlegendkey) { get; set; } | 如果数据标签图例键可见，则为真。 读/写Boolean。 |
-| [TextFormat](../../aspose.slides.charts/datatable/textformat) { get; } | 返回文本格式。 只读[`IChartTextFormat`](../icharttextformat)。 |
+| [Chart](../../aspose.slides.charts/datatable/chart) { get; } | 返回图表。 只读[`IChart`](../ichart). |
+| [Format](../../aspose.slides.charts/datatable/format) { get; } | 返回对象的线条、填充和效果样式。 只读[`IFormat`](../iformat). |
+| [HasBorderHorizontal](../../aspose.slides.charts/datatable/hasborderhorizontal) { get; set; } | 如果图表数据表具有水平单元格边框，则为真。 读/写Boolean. |
+| [HasBorderOutline](../../aspose.slides.charts/datatable/hasborderoutline) { get; set; } | 如果图表数据表有轮廓边框，则为真。 读/写Boolean. |
+| [HasBorderVertical](../../aspose.slides.charts/datatable/hasbordervertical) { get; set; } | 如果图表数据表有垂直单元格边框，则为真。 读/写Boolean. |
+| [ShowLegendKey](../../aspose.slides.charts/datatable/showlegendkey) { get; set; } | 如果数据标签图例键可见，则为真。 读/写Boolean. |
+| [TextFormat](../../aspose.slides.charts/datatable/textformat) { get; } | 返回文本格式。 只读[`IChartTextFormat`](../icharttextformat). |
 
 ### 也可以看看
 

@@ -18,8 +18,8 @@ public enum EffectChartMinorGroupingType
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| ByElementInSeries | `0` | 按系列元素制作图表 |
-| ByElementInCategory | `1` | 类别中的元素动画图表 |
+| ByElementInSeries | `0` | 按系列中的元素为图表制作动画 |
+| ByElementInCategory | `1` | 按类别中的元素为图表制作动画 |
 
 ### 也可以看看
 

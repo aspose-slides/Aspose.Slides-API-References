@@ -1,14 +1,14 @@
 ---
 title: Hide
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置图例条目的隐藏标志 读/写Boolean
+description: 返回或设置图例条目的隐藏标志 读/写Boolean.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides.charts/ilegendentryproperties/hide/
 ---
 ## ILegendEntryProperties.Hide property
 
-返回或设置图例条目的隐藏标志。 读/写Boolean。
+返回或设置图例条目的隐藏标志。 读/写Boolean.
 
 ```csharp
 public bool Hide { get; set; }

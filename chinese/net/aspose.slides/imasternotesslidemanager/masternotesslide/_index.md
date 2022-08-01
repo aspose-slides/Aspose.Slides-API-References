@@ -1,14 +1,14 @@
 ---
 title: MasterNotesSlide
 second_title: Aspose.Slides for .NET API 参考
-description: 如果有则返回此演示文稿的所有笔记幻灯片的母版否则返回 null 只读IMasterNotesSlideaspose.slides/imasternotesslide
+description: 如果有则返回此演示文稿的所有笔记幻灯片的母版否则返回 null 只读IMasterNotesSlideaspose.slides/imasternotesslide.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides/imasternotesslidemanager/masternotesslide/
 ---
 ## IMasterNotesSlideManager.MasterNotesSlide property
 
-如果有，则返回此演示文稿的所有笔记幻灯片的母版，否则返回 null。 只读[`IMasterNotesSlide`](../../imasternotesslide)。
+如果有，则返回此演示文稿的所有笔记幻灯片的母版，否则返回 null。 只读[`IMasterNotesSlide`](../../imasternotesslide).
 
 ```csharp
 public IMasterNotesSlide MasterNotesSlide { get; }

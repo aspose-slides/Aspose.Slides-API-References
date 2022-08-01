@@ -18,10 +18,10 @@ public class VideoCollection : DomObject<Presentation>, IVideoCollection
 
 | Имя | Описание |
 | --- | --- |
-| [Count](../../aspose.slides/videocollection/count) { get; } | Возвращает количество видеофайлов в коллекции. Только для чтенияInt32. |
-| [IsSynchronized](../../aspose.slides/videocollection/issynchronized) { get; } | Возвращает значение, указывающее, является ли доступ к коллекции синхронизированным (потокобезопасным). Только чтениеBoolean. |
-| [Item](../../aspose.slides/videocollection/item) { get; } | Получает элемент по указанному индексу. Только для чтения[`IVideo`](../ivideo). |
-| [SyncRoot](../../aspose.slides/videocollection/syncroot) { get; } | Возвращает корень синхронизации. Только для чтенияObject. |
+| [Count](../../aspose.slides/videocollection/count) { get; } | Возвращает количество видеофайлов в коллекции. Только для чтенияInt32 . |
+| [IsSynchronized](../../aspose.slides/videocollection/issynchronized) { get; } | Возвращает значение, указывающее, является ли доступ к коллекции синхронизированным (потокобезопасным). Только для чтенияBoolean . |
+| [Item](../../aspose.slides/videocollection/item) { get; } | Получает элемент по указанному индексу. Только для чтения[`IVideo`](../ivideo) . |
+| [SyncRoot](../../aspose.slides/videocollection/syncroot) { get; } | Возвращает корень синхронизации. Только для чтенияObject . |
 
 ## Методы
 
@@ -32,7 +32,7 @@ public class VideoCollection : DomObject<Presentation>, IVideoCollection
 | [AddVideo](../../aspose.slides/videocollection/addvideo#addvideo_2)(Stream) | Создает и добавляет видео в презентацию из потока. |
 | [AddVideo](../../aspose.slides/videocollection/addvideo#addvideo_3)(Stream, LoadingStreamBehavior) | Создает и добавляет видео в презентацию из потока. |
 | [CopyTo](../../aspose.slides/videocollection/copyto)(Array, int) | Копирует видео в указанный массив, начиная с указанного индекса. |
-| [GetEnumerator](../../aspose.slides/videocollection/getenumerator)() | Возвращает перечислитель, который перебирает коллекцию. |
+| [GetEnumerator](../../aspose.slides/videocollection/getenumerator)() | Возвращает перечислитель, который выполняет итерацию по коллекции. |
 
 ### Смотрите также
 

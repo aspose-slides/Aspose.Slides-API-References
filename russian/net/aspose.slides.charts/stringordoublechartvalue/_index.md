@@ -1,14 +1,14 @@
 ---
 title: StringOrDoubleChartValue
 second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет строку или двойное значение которое может быть сохранено в документе презентации pptx двумя способами 1 в ячейке/ячейках рабочей книги связанной с диаграммой  2 как буквальное значение.
+description: Представляет строку или двойное значение которое может быть сохранено в документе презентации pptx двумя способами 1 в ячейке/ячейках рабочей книги связанной с диаграммой 2 как буквальное значение.
 type: docs
 weight: 2280
 url: /ru/net/aspose.slides.charts/stringordoublechartvalue/
 ---
 ## StringOrDoubleChartValue class
 
-Представляет строку или двойное значение, которое может быть сохранено в документе презентации pptx двумя способами: 1) в ячейке/ячейках рабочей книги, связанной с диаграммой ; 2) как буквальное значение.
+Представляет строку или двойное значение, которое может быть сохранено в документе презентации pptx двумя способами: 1) в ячейке/ячейках рабочей книги, связанной с диаграммой; 2) как буквальное значение.
 
 ```csharp
 public class StringOrDoubleChartValue : BaseChartValue, IStringOrDoubleChartValue
@@ -18,17 +18,17 @@ public class StringOrDoubleChartValue : BaseChartValue, IStringOrDoubleChartValu
 
 | Имя | Описание |
 | --- | --- |
-| [AsCell](../../aspose.slides.charts/stringordoublechartvalue/ascell) { get; set; } | Возвращает или устанавливает ячейку данных диаграммы. Чтение/запись[`IChartDataCell`](../ichartdatacell). |
-| [AsLiteralDouble](../../aspose.slides.charts/stringordoublechartvalue/asliteraldouble) { get; set; } | Возвращает или устанавливает значение как буквальное двойное число. Чтение/записьDouble. |
-| [AsLiteralString](../../aspose.slides.charts/stringordoublechartvalue/asliteralstring) { get; set; } | Возвращает или устанавливает значение как литеральную строку. Чтение/записьString. |
-| override [Data](../../aspose.slides.charts/stringordoublechartvalue/data) { get; set; } | Возвращает или устанавливает объект данных. Чтение/записьObject. |
-| [DataSourceType](../../aspose.slides.charts/basechartvalue/datasourcetype) { get; set; } | Указывает, является ли свойство AsCell, AsCells, AsLiteralString или AsLiteralDouble актуальным в потомках. Другими словами, он указывает тип значения свойства Data. Чтение/запись[`DataSourceType`](../datasourcetype). |
+| [AsCell](../../aspose.slides.charts/stringordoublechartvalue/ascell) { get; set; } | Возвращает или устанавливает ячейку данных диаграммы. Чтение/запись[`IChartDataCell`](../ichartdatacell) . |
+| [AsLiteralDouble](../../aspose.slides.charts/stringordoublechartvalue/asliteraldouble) { get; set; } | Возвращает или устанавливает значение как литерал double. Чтение/записьDouble . |
+| [AsLiteralString](../../aspose.slides.charts/stringordoublechartvalue/asliteralstring) { get; set; } | Возвращает или задает значение как литеральную строку. Чтение/записьString . |
+| override [Data](../../aspose.slides.charts/stringordoublechartvalue/data) { get; set; } | Возвращает или устанавливает объект данных. Чтение/записьObject . |
+| [DataSourceType](../../aspose.slides.charts/basechartvalue/datasourcetype) { get; set; } | Указывает, является ли свойство AsCell, AsCells, AsLiteralString или AsLiteralDouble действительным в потомках. Другими словами, он указывает тип значения свойства Data. Чтение/запись[`DataSourceType`](../datasourcetype) . |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [ToDouble](../../aspose.slides.charts/stringordoublechartvalue/todouble)() | Преобразует в двойной. |
+| [ToDouble](../../aspose.slides.charts/stringordoublechartvalue/todouble)() | Преобразуется в двойное. |
 
 ### Смотрите также
 

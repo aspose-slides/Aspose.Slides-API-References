@@ -1,14 +1,14 @@
 ---
 title: IHSL
 second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет эффект оттенка/насыщенности/яркости. Оттенок насыщенность и яркость можно настроить относительно текущего значения.
+description: Представляет эффект Hue/Saturation/Luminance. Оттенок насыщенность и яркость можно настроить относительно текущего значения.
 type: docs
 weight: 3160
 url: /ru/net/aspose.slides.effects/ihsl/
 ---
 ## IHSL interface
 
-Представляет эффект оттенка/насыщенности/яркости. Оттенок, насыщенность и яркость можно настроить относительно текущего значения.
+Представляет эффект Hue/Saturation/Luminance. Оттенок, насыщенность и яркость можно настроить относительно текущего значения.
 
 ```csharp
 public interface IHSL : IAccessiblePVIObject<IHSLEffectiveData>, IImageTransformOperation
@@ -18,8 +18,8 @@ public interface IHSL : IAccessiblePVIObject<IHSLEffectiveData>, IImageTransform
 
 | Имя | Описание |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ihsl/asiaccessiblepviobject) { get; } | Позволяет получить базовый интерфейс IAccessiblePVIObject. Только чтение[`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ihsl/asiimagetransformoperation) { get; } | Возвращает интерфейс IImageTransformOperation. Только для чтения[`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ihsl/asiaccessiblepviobject) { get; } | Позволяет получить базовый интерфейс IAccessiblePVIObject. Только для чтения[`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1) . |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ihsl/asiimagetransformoperation) { get; } | Возвращает интерфейс IImageTransformOperation. Только для чтения[`IImageTransformOperation`](../iimagetransformoperation) . |
 
 ### Смотрите также
 

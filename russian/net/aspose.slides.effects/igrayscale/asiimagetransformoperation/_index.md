@@ -1,14 +1,14 @@
 ---
 title: AsIImageTransformOperation
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает интерфейс IImageTransformOperation. Только для чтенияIImageTransformOperationaspose.slides.effects/iimagetransformoperation.
+description: Возвращает интерфейс IImageTransformOperation. Только для чтенияIImageTransformOperationaspose.slides.effects/iimagetransformoperation .
 type: docs
 weight: 20
 url: /ru/net/aspose.slides.effects/igrayscale/asiimagetransformoperation/
 ---
 ## IGrayScale.AsIImageTransformOperation property
 
-Возвращает интерфейс IImageTransformOperation. Только для чтения[`IImageTransformOperation`](../../iimagetransformoperation).
+Возвращает интерфейс IImageTransformOperation. Только для чтения[`IImageTransformOperation`](../../iimagetransformoperation) .
 
 ```csharp
 public IImageTransformOperation AsIImageTransformOperation { get; }

@@ -1,14 +1,14 @@
 ---
 title: Differential
 second_title: Aspose.Slides for .NET API 参考
-description: 微分 当为真时该框充当微分例如被积函数中的并接收适当的47 数学微分的水平间距 默认值假
+description: Differential 当为真时该框充当微分例如被积函数中的并为数学微分接收适当的 水平间距 默认值false
 type: docs
 weight: 40
 url: /zh/net/aspose.slides.mathtext/mathbox/differential/
 ---
 ## MathBox.Differential property
 
-微分 当为真时，该框充当微分（例如，被积函数中的𝑑𝑥），并接收适当的:::47:* 数学微分的水平间距。 默认值:假
+Differential 当为真时，该框充当微分（例如，被积函数中的𝑑𝑥），并为数学微分接收适当的 水平间距。 默认值：false
 
 ```csharp
 public bool Differential { get; set; }
@@ -16,7 +16,7 @@ public bool Differential { get; set; }
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]

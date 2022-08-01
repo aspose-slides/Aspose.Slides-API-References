@@ -1,14 +1,14 @@
 ---
 title: CenterText
 second_title: Aspose.Slides for .NET API 参考
-description: 如果 NullableBool.True 则文本应在框中水平居中 读/写NullableBoolaspose.slides/nullablebool
+description: 如果 NullableBool.True 则文本应在框中水平居中 读/写NullableBoolaspose.slides/nullablebool.
 type: docs
 weight: 30
 url: /zh/net/aspose.slides.charts/icharttextblockformat/centertext/
 ---
 ## IChartTextBlockFormat.CenterText property
 
-如果 NullableBool.True 则文本应在框中水平居中。 读/写[`NullableBool`](../../../aspose.slides/nullablebool)。
+如果 NullableBool.True 则文本应在框中水平居中。 读/写[`NullableBool`](../../../aspose.slides/nullablebool).
 
 ```csharp
 public NullableBool CenterText { get; set; }

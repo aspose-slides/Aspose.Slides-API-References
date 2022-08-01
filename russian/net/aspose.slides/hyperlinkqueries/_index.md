@@ -1,14 +1,14 @@
 ---
 title: HyperlinkQueries
 second_title: Справочник по API Aspose.Slides для .NET
-description: Обеспечивает легкий доступ к содержащимся гиперссылкам.
+description: Обеспечьте легкий доступ к содержащимся гиперссылкам.
 type: docs
 weight: 4680
 url: /ru/net/aspose.slides/hyperlinkqueries/
 ---
 ## HyperlinkQueries class
 
-Обеспечивает легкий доступ к содержащимся гиперссылкам.
+Обеспечьте легкий доступ к содержащимся гиперссылкам.
 
 ```csharp
 public sealed class HyperlinkQueries : IHyperlinkQueries
@@ -19,7 +19,7 @@ public sealed class HyperlinkQueries : IHyperlinkQueries
 | Имя | Описание |
 | --- | --- |
 | [GetAnyHyperlinks](../../aspose.slides/hyperlinkqueries/getanyhyperlinks)() | Получить все подобъекты IHyperlinkContainer, которые содержат не null HyperlinkMouseOver. С данным объектом IHyperlinkContainer вы можете управлять его гиперссылкой (читать, обновлять или удалять). См. интерфейс IHyperlinkContainer. |
-| [GetHyperlinkClicks](../../aspose.slides/hyperlinkqueries/gethyperlinkclicks)() | Получить все подобъекты IHyperlinkContainer, содержащие ненулевой HyperlinkClick. С данным объектом IHyperlinkContainer вы можете управлять его гиперссылкой (читать, обновлять или удалять). См. интерфейс IHyperlinkContainer. |
+| [GetHyperlinkClicks](../../aspose.slides/hyperlinkqueries/gethyperlinkclicks)() | Получить все подобъекты IHyperlinkContainer, которые содержат не null HyperlinkClick. С данным объектом IHyperlinkContainer вы можете управлять его гиперссылкой (читать, обновлять или удалять). См. интерфейс IHyperlinkContainer. |
 | [GetHyperlinkMouseOvers](../../aspose.slides/hyperlinkqueries/gethyperlinkmouseovers)() | Получить все подобъекты IHyperlinkContainer, которые содержат не null HyperlinkMouseOver. С данным объектом IHyperlinkContainer вы можете управлять его гиперссылкой (читать, обновлять или удалять). См. интерфейс IHyperlinkContainer. |
 | [RemoveAllHyperlinks](../../aspose.slides/hyperlinkqueries/removeallhyperlinks)() | Удаляет все содержащиеся гиперссылки HyperlinkClick и HyperlinkMouseOver (во всех подобъектах IHyperlinkContainer). |
 

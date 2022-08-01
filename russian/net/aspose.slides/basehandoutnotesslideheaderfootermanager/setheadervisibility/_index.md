@@ -16,7 +16,7 @@ public void SetHeaderVisibility(bool isVisible)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| isVisible | Boolean | true - делает заполнитель заголовка видимым, иначе - скрывает его. |
+| isVisible | Boolean | true — делает заполнитель заголовка видимым, иначе — скрывает его. |
 
 ### Смотрите также
 

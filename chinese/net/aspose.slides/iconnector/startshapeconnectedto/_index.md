@@ -1,14 +1,14 @@
 ---
 title: StartShapeConnectedTo
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置将连接器开头附加到的形状 读/写IShapeaspose.slides/ishape
+description: 返回或设置将连接器的开头附加到的形状 读/写IShapeaspose.slides/ishape.
 type: docs
 weight: 60
 url: /zh/net/aspose.slides/iconnector/startshapeconnectedto/
 ---
 ## IConnector.StartShapeConnectedTo property
 
-返回或设置将连接器开头附加到的形状。 读/写[`IShape`](../../ishape)。
+返回或设置将连接器的开头附加到的形状。 读/写[`IShape`](../../ishape).
 
 ```csharp
 public IShape StartShapeConnectedTo { get; set; }

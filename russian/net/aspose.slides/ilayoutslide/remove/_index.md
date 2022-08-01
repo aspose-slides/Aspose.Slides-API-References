@@ -18,11 +18,11 @@ public void Remove()
 
 | исключение | условие |
 | --- | --- |
-| [PptxEditException](../../pptxeditexception) | Генерируется, если макет уже удален из презентации или если макет используется в презентации (его свойство HasDependingSlides равно true). |
+| [PptxEditException](../../pptxeditexception) | Вызывается, если макет уже удален из презентации или если макет используется в презентации (его свойство HasDependingSlides равно true). |
 
 ### Примечания
 
-Чтобы избежать создания исключения PptxEditException, проверьте свойство HasDependingSlides макета ранее.
+Чтобы избежать создания исключения PptxEditException, проверьте свойство HasDependingSlides макета перед.
 
 ### Смотрите также
 

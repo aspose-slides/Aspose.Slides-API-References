@@ -1,14 +1,14 @@
 ---
 title: AsILayoutable
 second_title: Aspose.Slides for .NET API 参考
-description: 返回 ILayoutable 接口 只读ILayoutableaspose.slides.charts/ilayoutable
+description: 返回 ILayoutable 接口 只读ILayoutableaspose.slides.charts/ilayoutable.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides.charts/idatalabel/asilayoutable/
 ---
 ## IDataLabel.AsILayoutable property
 
-返回 ILayoutable 接口。 只读[`ILayoutable`](../../ilayoutable)。
+返回 ILayoutable 接口。 只读[`ILayoutable`](../../ilayoutable).
 
 ```csharp
 public ILayoutable AsILayoutable { get; }

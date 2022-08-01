@@ -17,9 +17,9 @@ public IMathFraction CreateMathFraction(IMathElement numerator, IMathElement den
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| числитель | IMathElement | Числитель |
-| знаменатель | IMathElement | Знаменатель |
-| fractionType | MathFractionTypes | Тип дроби |
+| numerator | IMathElement | Числитель |
+| denominator | IMathElement | Знаменатель |
+| fractionType | MathFractionTypes | Тип фракции |
 
 ### Возвращаемое значение
 
@@ -46,8 +46,8 @@ public IMathFraction CreateMathFraction(IMathElement numerator, IMathElement den
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| числитель | IMathElement | Числитель |
-| знаменатель | IMathElement | Знаменатель |
+| numerator | IMathElement | Числитель |
+| denominator | IMathElement | Знаменатель |
 
 ### Возвращаемое значение
 

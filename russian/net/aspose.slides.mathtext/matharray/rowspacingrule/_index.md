@@ -1,14 +1,14 @@
 ---
 title: RowSpacingRule
 second_title: Справочник по API Aspose.Slides для .NET
-description: Тип интервала по вертикали между элементами массива По умолчаниюSingleLineGap
+description: Тип интервала по вертикали между элементами массива По умолчанию SingleLineGap
 type: docs
 weight: 70
 url: /ru/net/aspose.slides.mathtext/matharray/rowspacingrule/
 ---
 ## MathArray.RowSpacingRule property
 
-Тип интервала по вертикали между элементами массива По умолчанию:SingleLineGap
+Тип интервала по вертикали между элементами массива По умолчанию: SingleLineGap
 
 ```csharp
 public MathRowSpacingRule RowSpacingRule { get; set; }

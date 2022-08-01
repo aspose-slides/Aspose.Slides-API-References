@@ -18,8 +18,8 @@ public interface IGradientStopEffectiveData
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Color](../../aspose.slides/igradientstopeffectivedata/color) { get; } | 返回渐变色标的颜色。 只读Color。 |
-| [Position](../../aspose.slides/igradientstopeffectivedata/position) { get; } | 返回渐变停止的位置 (0..1)。 只读Single。 |
+| [Color](../../aspose.slides/igradientstopeffectivedata/color) { get; } | 返回渐变色标的颜色。 只读Color. |
+| [Position](../../aspose.slides/igradientstopeffectivedata/position) { get; } | 返回梯度停止点的位置 (0..1)。 只读Single. |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: PresetShadowEffect
 second_title: Aspose.Slides for .NET API 参考
-description: 预设阴影 只读IPresetShadowEffectiveDataaspose.slides.effects/ipresetshadoweffectivedata
+description: 预设阴影 只读IPresetShadowEffectiveDataaspose.slides.effects/ipresetshadoweffectivedata.
 type: docs
 weight: 80
 url: /zh/net/aspose.slides/ieffectformateffectivedata/presetshadoweffect/
 ---
 ## IEffectFormatEffectiveData.PresetShadowEffect property
 
-预设阴影。 只读[`IPresetShadowEffectiveData`](../../../aspose.slides.effects/ipresetshadoweffectivedata)。
+预设阴影。 只读[`IPresetShadowEffectiveData`](../../../aspose.slides.effects/ipresetshadoweffectivedata).
 
 ```csharp
 public IPresetShadowEffectiveData PresetShadowEffect { get; }

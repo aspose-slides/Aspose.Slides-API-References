@@ -1,14 +1,14 @@
 ---
 title: IChartCategoryCollection
 second_title: Aspose.Slides for .NET API 参考
-description: 表示IChartCategory./ichartcategory
+description: 代表集合IChartCategory./ichartcategory
 type: docs
 weight: 1620
 url: /zh/net/aspose.slides.charts/ichartcategorycollection/
 ---
 ## IChartCategoryCollection interface
 
-表示[`IChartCategory`](../ichartcategory)
+代表集合[`IChartCategory`](../ichartcategory)
 
 ```csharp
 public interface IChartCategoryCollection : IGenericCollection<IChartCategory>
@@ -18,18 +18,18 @@ public interface IChartCategoryCollection : IGenericCollection<IChartCategory>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [GroupingLevelCount](../../aspose.slides.charts/ichartcategorycollection/groupinglevelcount) { get; } | 返回使用的类别分组级别的计数。 多于一个多级类别。 只读Int32。 |
+| [GroupingLevelCount](../../aspose.slides.charts/ichartcategorycollection/groupinglevelcount) { get; } | 返回使用的类别分组级别的计数。 对于多级类别，多于一个。 只读Int32. |
 | [Item](../../aspose.slides.charts/ichartcategorycollection/item) { get; } | 获取指定索引处的元素。 |
-| [UseCells](../../aspose.slides.charts/ichartcategorycollection/usecells) { get; set; } | 如果为true，则工作表用于存储类别（这种情况下支持多级类别）。 如果为 false，则工作表不用于存储值（并且这种情况不支持 多级类别）。 读/写Boolean。 |
+| [UseCells](../../aspose.slides.charts/ichartcategorycollection/usecells) { get; set; } | 如果为 true，则工作表用于存储类别（此案例支持多级类别）。 如果为 false，则工作表不用于存储值（并且此案例不支持 多级类别）。 读取/写Boolean. |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Add](../../aspose.slides.charts/ichartcategorycollection/add#add)(IChartDataCell) | 如果集合中存在类别，则返回它。 Else 从 [`IChartDataCell`](../ichartdatacell)创建新的图表类别并将其添加到集合中。 |
-| [Add](../../aspose.slides.charts/ichartcategorycollection/add#add_1)(object) | 从 value 创建新的[`IChartCategory`](../ichartcategory)并将其添加到集合中。 |
+| [Add](../../aspose.slides.charts/ichartcategorycollection/add#add)(IChartDataCell) | 如果集合中存在类别，则返回它。否则从 创建新的图表类别[`IChartDataCell`](../ichartdatacell)并将其添加到集合中。 |
+| [Add](../../aspose.slides.charts/ichartcategorycollection/add#add_1)(object) | 创建新的[`IChartCategory`](../ichartcategory)从值并将其添加到集合中。 |
 | [Clear](../../aspose.slides.charts/ichartcategorycollection/clear)() | 从集合中删除所有元素。 |
-| [IndexOf](../../aspose.slides.charts/ichartcategorycollection/indexof)(IChartCategory) | 搜索指定的[`IChartCategory`](../ichartcategory)并返回整个中第一次出现的从零开始的索引集合 |
+| [IndexOf](../../aspose.slides.charts/ichartcategorycollection/indexof)(IChartCategory) | 搜索指定的[`IChartCategory`](../ichartcategory)并返回整个 Collection 中第一次出现的从零开始的索引 |
 | [Remove](../../aspose.slides.charts/ichartcategorycollection/remove)(IChartCategory) | 删除指定的值。 |
 | [RemoveAt](../../aspose.slides.charts/ichartcategorycollection/removeat)(int) | 删除给定索引处的元素。 |
 

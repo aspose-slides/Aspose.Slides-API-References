@@ -18,15 +18,15 @@ public interface IVbaProject
 
 | Имя | Описание |
 | --- | --- |
-| [Modules](../../aspose.slides.vba/ivbaproject/modules) { get; } | Возвращает список всех модулей, содержащихся в проекте VBA. Только для чтения[`IVbaModuleCollection`](../ivbamodulecollection). |
-| [Name](../../aspose.slides.vba/ivbaproject/name) { get; } | Возвращает имя проекта VBA. Только чтениеString. |
-| [References](../../aspose.slides.vba/ivbaproject/references) { get; } | Возвращает список всех ссылок, содержащихся в проекте VBA. Только для чтения[`IVbaReferenceCollection`](../ivbareferencecollection). |
+| [Modules](../../aspose.slides.vba/ivbaproject/modules) { get; } | Возвращает список всех модулей, содержащихся в проекте VBA. Только для чтения[`IVbaModuleCollection`](../ivbamodulecollection) . |
+| [Name](../../aspose.slides.vba/ivbaproject/name) { get; } | Возвращает имя проекта VBA. Только для чтенияString . |
+| [References](../../aspose.slides.vba/ivbaproject/references) { get; } | Возвращает список всех ссылок, содержащихся в проекте VBA. Только для чтения[`IVbaReferenceCollection`](../ivbareferencecollection) . |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [ToBinary](../../aspose.slides.vba/ivbaproject/tobinary)() | Возвращает двоичное представление проекта VBA в виде OLE-контейнера. Только для чтенияByte[]. |
+| [ToBinary](../../aspose.slides.vba/ivbaproject/tobinary)() | Возвращает двоичное представление проекта VBA в виде контейнера OLE. Только для чтенияByte []. |
 
 ### Смотрите также
 

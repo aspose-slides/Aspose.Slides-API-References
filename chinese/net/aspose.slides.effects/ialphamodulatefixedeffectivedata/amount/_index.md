@@ -1,14 +1,14 @@
 ---
 title: Amount
 second_title: Aspose.Slides for .NET API 参考
-description: 以百分比返回效果量 只读Single
+description: 以百分比返回效果量 只读Single.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides.effects/ialphamodulatefixedeffectivedata/amount/
 ---
 ## IAlphaModulateFixedEffectiveData.Amount property
 
-以百分比返回效果量。 只读Single。
+以百分比返回效果量。 只读Single.
 
 ```csharp
 public float Amount { get; }

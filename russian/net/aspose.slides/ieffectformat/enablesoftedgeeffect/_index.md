@@ -1,14 +1,14 @@
 ---
 title: EnableSoftEdgeEffect
 second_title: Справочник по API Aspose.Slides для .NET
-description: Включает эффект мягкого края.
+description: Включает эффект мягких краев.
 type: docs
 weight: 250
 url: /ru/net/aspose.slides/ieffectformat/enablesoftedgeeffect/
 ---
 ## IEffectFormat.EnableSoftEdgeEffect method
 
-Включает эффект мягкого края.
+Включает эффект мягких краев.
 
 ```csharp
 public void EnableSoftEdgeEffect()

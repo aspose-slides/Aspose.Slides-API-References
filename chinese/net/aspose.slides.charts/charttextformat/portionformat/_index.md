@@ -1,14 +1,14 @@
 ---
 title: PortionFormat
 second_title: Aspose.Slides for .NET API 参考
-description: 部分格式 只读IChartPortionFormataspose.slides.charts/ichartportionformat
+description: PortionFormat. 只读IChartPortionFormataspose.slides.charts/ichartportionformat.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides.charts/charttextformat/portionformat/
 ---
 ## ChartTextFormat.PortionFormat property
 
-部分格式。 只读[`IChartPortionFormat`](../../ichartportionformat)。
+PortionFormat. 只读[`IChartPortionFormat`](../../ichartportionformat).
 
 ```csharp
 public IChartPortionFormat PortionFormat { get; }

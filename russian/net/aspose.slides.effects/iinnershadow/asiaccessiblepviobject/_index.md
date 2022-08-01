@@ -1,14 +1,14 @@
 ---
 title: AsIAccessiblePVIObject
 second_title: Справочник по API Aspose.Slides для .NET
-description: Позволяет получить базовый интерфейс IAccessiblePVIObject. Только чтениеIAccessiblePVIObjectaspose.slides/iaccessiblepviobject-1.
+description: Позволяет получить базовый интерфейс IAccessiblePVIObject. Только для чтенияIAccessiblePVIObjectaspose.slides/iaccessiblepviobject-1 .
 type: docs
 weight: 10
 url: /ru/net/aspose.slides.effects/iinnershadow/asiaccessiblepviobject/
 ---
 ## IInnerShadow.AsIAccessiblePVIObject property
 
-Позволяет получить базовый интерфейс IAccessiblePVIObject. Только чтение[`IAccessiblePVIObject`](../../../aspose.slides/iaccessiblepviobject-1).
+Позволяет получить базовый интерфейс IAccessiblePVIObject. Только для чтения[`IAccessiblePVIObject`](../../../aspose.slides/iaccessiblepviobject-1) .
 
 ```csharp
 public IAccessiblePVIObject<IInnerShadowEffectiveData> AsIAccessiblePVIObject { get; }

@@ -24,23 +24,23 @@ public class ImageTransformOCollectionEffectiveData : IImageTransformOCollection
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Count](../../aspose.slides.effects/imagetransformocollectioneffectivedata/count) { get; } | 返回集合中图像效果的数量。 只读Int32。 |
-| [IsSynchronized](../../aspose.slides.effects/imagetransformocollectioneffectivedata/issynchronized) { get; } | 返回一个值，指示对集合的访问是否同步（线程安全）。 只读Boolean。 |
+| [Count](../../aspose.slides.effects/imagetransformocollectioneffectivedata/count) { get; } | 返回集合中图像效果的数量。 只读Int32. |
+| [IsSynchronized](../../aspose.slides.effects/imagetransformocollectioneffectivedata/issynchronized) { get; } | 返回一个值，指示对集合的访问是否同步（线程安全）。 只读Boolean. |
 | [Item](../../aspose.slides.effects/imagetransformocollectioneffectivedata/item) { get; } | 按索引返回元素。 |
-| [SyncRoot](../../aspose.slides.effects/imagetransformocollectioneffectivedata/syncroot) { get; } | 返回同步根。 只读Object。 |
+| [SyncRoot](../../aspose.slides.effects/imagetransformocollectioneffectivedata/syncroot) { get; } | 返回同步根。 只读Object. |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
 | [CopyTo](../../aspose.slides.effects/imagetransformocollectioneffectivedata/copyto)(Array, int) | 将集合中的所有元素复制到指定的数组中。 |
-| override [Equals](../../aspose.slides.effects/imagetransformocollectioneffectivedata/equals)(object) | 判断指定对象是否等于当前对象。 |
+| override [Equals](../../aspose.slides.effects/imagetransformocollectioneffectivedata/equals)(object) | 判断指定对象是否等于当前对象 |
 | [GetEnumerator](../../aspose.slides.effects/imagetransformocollectioneffectivedata/getenumerator)() | 返回一个遍历集合的枚举器。 |
 | override [GetHashCode](../../aspose.slides.effects/imagetransformocollectioneffectivedata/gethashcode)() | 用作特定类型的哈希函数，适用于哈希算法和哈希表等数据结构。 |
 
 ### 评论
 
-名称 IImageTransformOperationCollectionEffectiveData 被截断为 IImageTransformOCollectionEffectiveData 因为 COM 名称长度不能超过 39。
+名称 IImageTransformOperationCollectionEffectiveData 被截断为 IImageTransformOCollectionEffectiveData，因为 COM 名称长度不能超过 39.
 
 ### 也可以看看
 

@@ -8,7 +8,7 @@ url: /ru/net/aspose.slides.animation/behaviorproperty/shadowmatrixytox/
 ---
 ## BehaviorProperty.ShadowMatrixYtoX property
 
-Представляет свойство 'shadow.matrix.ytox'
+Представляет свойство shadow.matrix.ytox
 
 ```csharp
 public static BehaviorProperty ShadowMatrixYtoX { get; }

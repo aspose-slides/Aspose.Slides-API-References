@@ -8,7 +8,7 @@ url: /zh/net/aspose.slides.animation/behaviorproperty/pptx/
 ---
 ## BehaviorProperty.PptX property
 
-表示'ppt_x'属性
+表示“ppt_x”属性
 
 ```csharp
 public static BehaviorProperty PptX { get; }

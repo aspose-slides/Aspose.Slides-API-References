@@ -1,14 +1,14 @@
 ---
 title: Value
 second_title: Справочник по API Aspose.Slides для .NET
-description: Значение перехода слайд-шоу. Только для чтенияITransitionValueBaseaspose.slides.slideshow/itransitionvaluebase.
+description: Значение перехода слайд-шоу. Только для чтенияITransitionValueBaseaspose.slides.slideshow/itransitionvaluebase .
 type: docs
 weight: 100
 url: /ru/net/aspose.slides.slideshow/slideshowtransition/value/
 ---
 ## SlideShowTransition.Value property
 
-Значение перехода слайд-шоу. Только для чтения[`ITransitionValueBase`](../../itransitionvaluebase).
+Значение перехода слайд-шоу. Только для чтения[`ITransitionValueBase`](../../itransitionvaluebase) .
 
 ```csharp
 public ITransitionValueBase Value { get; }

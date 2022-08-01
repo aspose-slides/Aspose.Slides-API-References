@@ -1,14 +1,14 @@
 ---
 title: ApplyExternalThemeToDependingSlides
 second_title: Aspose.Slides for .NET API 参考
-description: 基于当前幻灯片创建新的母版幻灯片为其应用外部主题 并将创建的母版幻灯片应用于所有相关幻灯片
+description: 在当前幻灯片的基础上创建新的母版幻灯片为其应用外部主题 并将创建的母版幻灯片应用于所有相关幻灯片
 type: docs
 weight: 110
 url: /zh/net/aspose.slides/masterslide/applyexternalthemetodependingslides/
 ---
 ## MasterSlide.ApplyExternalThemeToDependingSlides method
 
-基于当前幻灯片创建新的母版幻灯片，为其应用外部主题 并将创建的母版幻灯片应用于所有相关幻灯片。
+在当前幻灯片的基础上创建新的母版幻灯片，为其应用外部主题 并将创建的母版幻灯片应用于所有相关幻灯片。
 
 ```csharp
 public IMasterSlide ApplyExternalThemeToDependingSlides(string fname)
@@ -20,7 +20,7 @@ public IMasterSlide ApplyExternalThemeToDependingSlides(string fname)
 
 ### 返回值
 
-新主题 MasterSlide。
+新主题的 MasterSlide。
 
 ### 例外
 

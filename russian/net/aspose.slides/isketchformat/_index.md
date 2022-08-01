@@ -18,7 +18,7 @@ public interface ISketchFormat
 
 | Имя | Описание |
 | --- | --- |
-| [SketchType](../../aspose.slides/isketchformat/sketchtype) { get; set; } | Возвращает или задает тип эскиза. Чтение/запись[`LineSketchType`](../linesketchtype). |
+| [SketchType](../../aspose.slides/isketchformat/sketchtype) { get; set; } | Возвращает или задает тип скетча. Чтение/запись[`LineSketchType`](../linesketchtype) . |
 
 ### Смотрите также
 

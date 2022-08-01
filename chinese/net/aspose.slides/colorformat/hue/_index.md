@@ -1,14 +1,14 @@
 ---
 title: Hue
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置 HSL 表示中颜色的色调分量 忽略所有颜色转换 读/写Single
+description: 返回或设置 HSL 表示中颜色的色调分量 忽略所有颜色转换 读/写Single.
 type: docs
 weight: 90
 url: /zh/net/aspose.slides/colorformat/hue/
 ---
 ## ColorFormat.Hue property
 
-返回或设置 HSL 表示中颜色的色调分量。 忽略所有颜色转换。 读/写Single。
+返回或设置 HSL 表示中颜色的色调分量。 忽略所有颜色转换。 读/写Single.
 
 ```csharp
 public float Hue { get; set; }

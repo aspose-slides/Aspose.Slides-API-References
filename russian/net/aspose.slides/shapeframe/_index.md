@@ -18,22 +18,22 @@ public class ShapeFrame : IShapeFrame
 
 | Имя | Описание |
 | --- | --- |
-| [ShapeFrame](shapeframe)(float, float, float, float, NullableBool, NullableBool, float) | Создает свойства нового фрейма формы. |
+| [ShapeFrame](shapeframe)(float, float, float, float, NullableBool, NullableBool, float) | Создает новые свойства рамки формы. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [CenterX](../../aspose.slides/shapeframe/centerx) { get; } | Возвращает координату X центра кадра. Только для чтенияSingle. |
-| [CenterY](../../aspose.slides/shapeframe/centery) { get; } | Возвращает координату Y центра кадра. Только для чтенияSingle. |
-| [FlipH](../../aspose.slides/shapeframe/fliph) { get; } | Определяет, переворачивается ли кадр по горизонтали. Только для чтения[`NullableBool`](../nullablebool). |
-| [FlipV](../../aspose.slides/shapeframe/flipv) { get; } | Определяет, переворачивается ли кадр по вертикали. Только для чтения[`NullableBool`](../nullablebool). |
-| [Height](../../aspose.slides/shapeframe/height) { get; } | Возвращает высоту кадра. Только для чтенияSingle. |
-| [Rectangle](../../aspose.slides/shapeframe/rectangle) { get; } | Возвращает координаты кадра. Только для чтенияRectangleF. |
-| [Rotation](../../aspose.slides/shapeframe/rotation) { get; } | Возвращает количество градусов, на которое кадр повернут вокруг оси z. Положительное значение указывает на вращение по часовой стрелке; отрицательное значение указывает на вращение против часовой стрелки. Только для чтенияSingle. |
-| [Width](../../aspose.slides/shapeframe/width) { get; } | Возвращает ширину кадра. Только для чтенияSingle. |
-| [X](../../aspose.slides/shapeframe/x) { get; } | Возвращает координату X левого верхнего угла кадра. Только для чтенияSingle. |
-| [Y](../../aspose.slides/shapeframe/y) { get; } | Возвращает координату Y левого верхнего угла кадра. Только для чтенияSingle. |
+| [CenterX](../../aspose.slides/shapeframe/centerx) { get; } | Возвращает координату X центра кадра. Только для чтенияSingle . |
+| [CenterY](../../aspose.slides/shapeframe/centery) { get; } | Возвращает координату Y центра кадра. Только для чтенияSingle . |
+| [FlipH](../../aspose.slides/shapeframe/fliph) { get; } | Определяет, переворачивается ли кадр по горизонтали. Только для чтения[`NullableBool`](../nullablebool) . |
+| [FlipV](../../aspose.slides/shapeframe/flipv) { get; } | Определяет, переворачивается ли кадр по вертикали. Только для чтения[`NullableBool`](../nullablebool) . |
+| [Height](../../aspose.slides/shapeframe/height) { get; } | Возвращает высоту кадра. Только для чтенияSingle . |
+| [Rectangle](../../aspose.slides/shapeframe/rectangle) { get; } | Возвращает координаты кадра. Только для чтенияRectangleF . |
+| [Rotation](../../aspose.slides/shapeframe/rotation) { get; } | Возвращает число градусов, на которое кадр повернут вокруг оси Z. Положительное значение указывает на вращение по часовой стрелке; отрицательное значение указывает на вращение против часовой стрелки. Только для чтенияSingle . |
+| [Width](../../aspose.slides/shapeframe/width) { get; } | Возвращает ширину кадра. Только для чтенияSingle . |
+| [X](../../aspose.slides/shapeframe/x) { get; } | Возвращает координату X левого верхнего угла кадра. Только для чтенияSingle . |
+| [Y](../../aspose.slides/shapeframe/y) { get; } | Возвращает координату Y левого верхнего угла кадра. Только для чтенияSingle . |
 
 ## Методы
 

@@ -17,11 +17,11 @@ public ISlide InsertEmptySlide(int index, ILayoutSlide layout)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | index | Int32 | Индекс нового слайда. |
-| layout | ILayoutSlide | Макет слайда. |
+| layout | ILayoutSlide | Макет для слайда. |
 
 ### Возвращаемое значение
 
-Вставлен слайд.
+Вставленный слайд.
 
 ### Смотрите также
 

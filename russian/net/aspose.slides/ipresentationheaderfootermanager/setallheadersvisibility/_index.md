@@ -1,14 +1,14 @@
 ---
 title: SetAllHeadersVisibility
 second_title: Справочник по API Aspose.Slides для .NET
-description: Изменяет видимость всех заполнителей заголовков включая мастер заметок слайды заметок и мастер раздаточных материалов.
+description: Изменяет видимость всех заполнителей заголовков включая образец заметок слайды заметок и образец раздаточных материалов.
 type: docs
 weight: 70
 url: /ru/net/aspose.slides/ipresentationheaderfootermanager/setallheadersvisibility/
 ---
 ## IPresentationHeaderFooterManager.SetAllHeadersVisibility method
 
-Изменяет видимость всех заполнителей заголовков, включая мастер заметок, слайды заметок и мастер раздаточных материалов.
+Изменяет видимость всех заполнителей заголовков, включая образец заметок, слайды заметок и образец раздаточных материалов.
 
 ```csharp
 public void SetAllHeadersVisibility(bool isVisible)

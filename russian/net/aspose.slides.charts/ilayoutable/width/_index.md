@@ -1,14 +1,14 @@
 ---
 title: Width
 second_title: Справочник по API Aspose.Slides для .NET
-description: Задает ширину элемента диаграммы как часть ширины диаграммы. Чтение/записьSingle.
+description: Определяет ширину элемента диаграммы как часть ширины диаграммы. Чтение/записьSingle .
 type: docs
 weight: 50
 url: /ru/net/aspose.slides.charts/ilayoutable/width/
 ---
 ## ILayoutable.Width property
 
-Задает ширину элемента диаграммы как часть ширины диаграммы. Чтение/записьSingle.
+Определяет ширину элемента диаграммы как часть ширины диаграммы. Чтение/записьSingle .
 
 ```csharp
 public float Width { get; set; }

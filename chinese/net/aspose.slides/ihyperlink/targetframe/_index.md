@@ -1,14 +1,14 @@
 ---
 title: TargetFrame
 second_title: Aspose.Slides for .NET API 参考
-description: 为父超链接的目标 返回父 HTML 框架集中的框架如果存在 读/写String
+description: 在父超链接的 target 存在时返回父 HTML 框架集中的框架 读/写String.
 type: docs
 weight: 70
 url: /zh/net/aspose.slides/ihyperlink/targetframe/
 ---
 ## IHyperlink.TargetFrame property
 
-为父超链接的目标 返回父 HTML 框架集中的框架（如果存在）。 读/写String。
+在父超链接的 target 存在时返回父 HTML 框架集中的框架。 读/写String.
 
 ```csharp
 public string TargetFrame { get; set; }

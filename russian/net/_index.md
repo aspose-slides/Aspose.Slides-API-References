@@ -27,7 +27,7 @@ is_root: true
 | [Aspose.Slides.SmartArt](./aspose.slides.smartart) | Содержит классы для работы с объектами SmartArt |
 | [Aspose.Slides.Spreadsheet](./aspose.slides.spreadsheet) |  |
 | [Aspose.Slides.Theme](./aspose.slides.theme) | Содержит классы для работы с разными типами тем. |
-| [Aspose.Slides.Util](./aspose.slides.util) | Содержит служебные классы, помогающие работать с презентациями. |
+| [Aspose.Slides.Util](./aspose.slides.util) | Содержит классы утилит, помогающие работать с презентациями. |
 | [Aspose.Slides.Vba](./aspose.slides.vba) | Содержит классы для работы с макросами VBA |
 | [Aspose.Slides.Warnings](./aspose.slides.warnings) | Содержит классы, представляющие различные виды предупреждений |
 

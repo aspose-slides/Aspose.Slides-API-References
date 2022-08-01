@@ -1,14 +1,14 @@
 ---
 title: LastPrinted
 second_title: Aspose.Slides for .NET API 参考
-description: 返回上次打印演示文稿的日期 读/写DateTime
+description: 返回上次打印演示文稿的日期 读/写DateTime.
 type: docs
 weight: 140
 url: /zh/net/aspose.slides/idocumentproperties/lastprinted/
 ---
 ## IDocumentProperties.LastPrinted property
 
-返回上次打印演示文稿的日期。 读/写DateTime。
+返回上次打印演示文稿的日期。 读/写DateTime.
 
 ```csharp
 public DateTime LastPrinted { get; set; }

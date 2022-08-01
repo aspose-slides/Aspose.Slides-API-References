@@ -1,14 +1,14 @@
 ---
 title: Right
 second_title: Aspose.Slides for .NET API 参考
-description: 对 只读Single
+description: 对 只读Single.
 type: docs
 weight: 80
 url: /zh/net/aspose.slides.charts/legend/right/
 ---
 ## Legend.Right property
 
-对。 只读Single。
+对。 只读Single.
 
 ```csharp
 public float Right { get; }

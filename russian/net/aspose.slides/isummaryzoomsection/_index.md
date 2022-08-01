@@ -1,14 +1,14 @@
 ---
 title: ISummaryZoomSection
 second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет объект Раздел сводного масштаба в кадре Сводной масштаб.
+description: Представляет объект Раздел сводного масштабирования в кадре Сводное масштабирование.
 type: docs
 weight: 6580
 url: /ru/net/aspose.slides/isummaryzoomsection/
 ---
 ## ISummaryZoomSection interface
 
-Представляет объект «Раздел сводного масштаба» в кадре «Сводной масштаб».
+Представляет объект «Раздел сводного масштабирования» в кадре «Сводное масштабирование».
 
 ```csharp
 public interface ISummaryZoomSection : ISectionZoomFrame
@@ -19,8 +19,8 @@ public interface ISummaryZoomSection : ISectionZoomFrame
 | Имя | Описание |
 | --- | --- |
 | [AsISectionZoomFrame](../../aspose.slides/isummaryzoomsection/asisectionzoomframe) { get; } | Возвращает интерфейс ISectionZoomFrame. |
-| [Description](../../aspose.slides/isummaryzoomsection/description) { get; set; } | Возвращает текстовое описание объекта Суммарный раздел масштабирования. |
-| [Title](../../aspose.slides/isummaryzoomsection/title) { get; set; } | Возвращает текстовый заголовок объекта «Сводная секция масштабирования». |
+| [Description](../../aspose.slides/isummaryzoomsection/description) { get; set; } | Возвращает текстовое описание объекта «Сводная секция масштабирования». |
+| [Title](../../aspose.slides/isummaryzoomsection/title) { get; set; } | Возвращает текстовое название объекта «Раздел сводного масштаба». |
 
 ### Смотрите также
 

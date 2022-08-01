@@ -1,14 +1,14 @@
 ---
 title: Default
 second_title: Aspose.Slides for .NET API 参考
-description: 返回默认设置 只读SVGOptionsaspose.slides.export/svgoptions
+description: 返回默认设置 只读SVGOptionsaspose.slides.export/svgoptions.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides.export/svgoptions/default/
 ---
 ## SVGOptions.Default property
 
-返回默认设置。 只读[`SVGOptions`](../../svgoptions)。
+返回默认设置。 只读[`SVGOptions`](../../svgoptions).
 
 ```csharp
 public static SVGOptions Default { get; }

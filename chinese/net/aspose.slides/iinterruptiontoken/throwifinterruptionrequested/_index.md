@@ -1,14 +1,14 @@
 ---
 title: ThrowIfInterruptionRequested
 second_title: Aspose.Slides for .NET API 参考
-description: 抛出 OperationCanceledException if 中断请求  请求中断时抛出
+description: 抛出一个操作取消异常if 请求中断 请求中断时抛出
 type: docs
 weight: 20
 url: /zh/net/aspose.slides/iinterruptiontoken/throwifinterruptionrequested/
 ---
 ## IInterruptionToken.ThrowIfInterruptionRequested method
 
-抛出 OperationCanceledException if 中断请求。  请求中断时抛出。
+抛出一个操作取消异常if 请求中断。 请求中断时抛出。
 
 ```csharp
 public void ThrowIfInterruptionRequested()

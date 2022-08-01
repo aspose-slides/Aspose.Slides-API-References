@@ -18,7 +18,7 @@ public interface ITabCollection : IGenericCollection<ITab>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Item](../../aspose.slides/itabcollection/item) { get; } | 获取指定索引处的元素。 只读[`ITab`](../itab)。 |
+| [Item](../../aspose.slides/itabcollection/item) { get; } | 获取指定索引处的元素。 只读[`ITab`](../itab). |
 
 ## 方法
 

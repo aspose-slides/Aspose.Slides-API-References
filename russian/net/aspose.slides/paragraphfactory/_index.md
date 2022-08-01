@@ -25,11 +25,11 @@ public class ParagraphFactory : IParagraphFactory
 | Имя | Описание |
 | --- | --- |
 | [CreateParagraph](../../aspose.slides/paragraphfactory/createparagraph#createparagraph)() | Создает новый пустой абзац. |
-| [CreateParagraph](../../aspose.slides/paragraphfactory/createparagraph#createparagraph_1)(IParagraph) | Создает новый абзац с использованием указанных данных абзаца. |
+| [CreateParagraph](../../aspose.slides/paragraphfactory/createparagraph#createparagraph_1)(IParagraph) | Создает новый абзац с указанными данными абзаца, используя. |
 
 ### Примечания
 
-Для COM-совместимость.
+Для COM-совместимости.
 
 ### Смотрите также
 

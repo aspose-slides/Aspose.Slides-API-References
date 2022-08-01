@@ -1,14 +1,14 @@
 ---
 title: IAlphaBiLevel
 second_title: Aspose.Slides for .NET API 参考
-description: 表示 Alpha Bi-Level 效果 Alpha不透明度值小于阈值更改为 0完全透明 alpha 值大于或等于阈值更改为 100完全不透明 .
+description: 表示 Alpha Bi-Level 效果 小于阈值的 Alpha不透明度值更改为 0完全透明 大于或等于阈值的 alpha 值更改为 100完全不透明
 type: docs
 weight: 2840
 url: /zh/net/aspose.slides.effects/ialphabilevel/
 ---
 ## IAlphaBiLevel interface
 
-表示 Alpha Bi-Level 效果。 Alpha（不透明度）值小于阈值更改为 0（完全透明）， alpha 值大于或等于阈值更改为 100%（完全不透明） .
+表示 Alpha Bi-Level 效果。 小于阈值的 Alpha（不透明度）值更改为 0（完全透明）， 大于或等于阈值的 alpha 值更改为 100%（完全不透明）。
 
 ```csharp
 public interface IAlphaBiLevel : IAccessiblePVIObject<IAlphaBiLevelEffectiveData>, 
@@ -19,9 +19,9 @@ public interface IAlphaBiLevel : IAccessiblePVIObject<IAlphaBiLevelEffectiveData
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphabilevel/asiaccessiblepviobject) { get; } | 允许获取基本 IAccessiblePVIObject 接口。 只读[`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1)。 |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ialphabilevel/asiimagetransformoperation) { get; } | 允许获取基础 IImageTransformOperation 接口。 只读[`IImageTransformOperation`](../iimagetransformoperation)。 |
-| [Threshold](../../aspose.slides.effects/ialphabilevel/threshold) { get; set; } | 返回效果阈值。 读/写Single。 |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphabilevel/asiaccessiblepviobject) { get; } | 允许获取基本 IAccessiblePVIObject 接口。 只读[`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ialphabilevel/asiimagetransformoperation) { get; } | 允许获取基本 IImageTransformOperation 接口。 只读[`IImageTransformOperation`](../iimagetransformoperation). |
+| [Threshold](../../aspose.slides.effects/ialphabilevel/threshold) { get; set; } | 返回效果阈值。 读/写Single. |
 
 ### 评论
 

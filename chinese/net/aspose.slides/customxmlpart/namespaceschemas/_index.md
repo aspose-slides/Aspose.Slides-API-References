@@ -1,14 +1,14 @@
 ---
 title: NamespaceSchemas
 second_title: Aspose.Slides for .NET API 参考
-description: 返回与自定义 XML 部件关联的集合 XML 架构 只读String
+description: 返回与自定义 XML 部分关联的集合 XML 架构 只读String.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides/customxmlpart/namespaceschemas/
 ---
 ## CustomXmlPart.NamespaceSchemas property
 
-返回与自定义 XML 部件关联的集合 XML 架构。 只读String[]。
+返回与自定义 XML 部分关联的集合 XML 架构。 只读String[].
 
 ```csharp
 public string[] NamespaceSchemas { get; }

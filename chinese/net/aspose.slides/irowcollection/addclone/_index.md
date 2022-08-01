@@ -1,14 +1,14 @@
 ---
 title: AddClone
 second_title: Aspose.Slides for .NET API 参考
-description: 创建指定模板行的副本并将其插入表格底部
+description: 创建指定模板行的副本并将其插入到表的底部
 type: docs
 weight: 20
 url: /zh/net/aspose.slides/irowcollection/addclone/
 ---
 ## IRowCollection.AddClone method
 
-创建指定模板行的副本并将其插入表格底部。
+创建指定模板行的副本并将其插入到表的底部。
 
 ```csharp
 public IRow[] AddClone(IRow templ, bool withAttachedRows)
@@ -17,11 +17,11 @@ public IRow[] AddClone(IRow templ, bool withAttachedRows)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | templ | IRow | 用作模板的行。 |
-| withAttachedRows | Boolean | True 也复制附加到模板行的所有行。 |
+| withAttachedRows | Boolean | 也可以复制附加到模板行的所有行。 |
 
 ### 返回值
 
-添加行。
+添加了行。
 
 ### 也可以看看
 

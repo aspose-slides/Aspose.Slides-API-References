@@ -1,14 +1,14 @@
 ---
 title: NumberFormatOfXValues
 second_title: Справочник по API Aspose.Slides для .NET
-description: NumberFormatOfXValues. Чтение/записьString.
+description: NumberFormatOfXValues. Чтение/записьString .
 type: docs
 weight: 240
 url: /ru/net/aspose.slides.charts/chartseries/numberformatofxvalues/
 ---
 ## ChartSeries.NumberFormatOfXValues property
 
-NumberFormatOfXValues. Чтение/записьString.
+NumberFormatOfXValues. Чтение/записьString .
 
 ```csharp
 public string NumberFormatOfXValues { get; set; }

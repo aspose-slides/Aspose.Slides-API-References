@@ -19,22 +19,22 @@ public interface IChartDataPoint : IActualLayout
 | Имя | Описание |
 | --- | --- |
 | [AsIActualLayout](../../aspose.slides.charts/ichartdatapoint/asiactuallayout) { get; } | Возвращает интерфейс IActualLayout. |
-| [BubbleSize](../../aspose.slides.charts/ichartdatapoint/bubblesize) { get; } | Возвращает размер пузырька точки данных диаграммы. Только для чтения[`IDoubleChartValue`](../idoublechartvalue). |
-| [ColorValue](../../aspose.slides.charts/ichartdatapoint/colorvalue) { get; } | Возвращает значение цвета точки данных диаграммы. Используется с диаграммами Map. Только для чтения[`IDoubleChartValue`](../idoublechartvalue). |
+| [BubbleSize](../../aspose.slides.charts/ichartdatapoint/bubblesize) { get; } | Возвращает размер пузырька точки данных диаграммы. Только для чтения[`IDoubleChartValue`](../idoublechartvalue) . |
+| [ColorValue](../../aspose.slides.charts/ichartdatapoint/colorvalue) { get; } | Возвращает значение цвета точки данных диаграммы. Используется с диаграммами карты. Только для чтения[`IDoubleChartValue`](../idoublechartvalue) . |
 | [DataPointLevels](../../aspose.slides.charts/ichartdatapoint/datapointlevels) { get; } | Возвращает контейнер уровней точек данных. Применяется для серий Treeamp и Sunburst. Индексация уровней точек данных начинается с нуля. |
-| [ErrorBarsCustomValues](../../aspose.slides.charts/ichartdatapoint/errorbarscustomvalues) { get; } | Представляет значения баров погрешностей серии в случае пользовательского типа значения. Только для чтения[`IErrorBarsCustomValues`](../ierrorbarscustomvalues). |
-| [Explosion](../../aspose.slides.charts/ichartdatapoint/explosion) { get; set; } | Задает величину, на которую точка данных должна быть перемещена из центра круговой диаграммы. Чтение/записьInt32. |
-| [Format](../../aspose.slides.charts/ichartdatapoint/format) { get; set; } | Представляет свойства форматирования. Чтение/запись[`IFormat`](../iformat). |
-| [InvertIfNegative](../../aspose.slides.charts/ichartdatapoint/invertifnegative) { get; set; } | Указывает, что точка данных должна инвертировать свои цвета, если значение отрицательное. Чтение/записьBoolean. |
-| [IsBubble3D](../../aspose.slides.charts/ichartdatapoint/isbubble3d) { get; set; } | Указывает, что к пузырькам применяется трехмерный эффект. Чтение/записьBoolean. |
-| [Label](../../aspose.slides.charts/ichartdatapoint/label) { get; } | Представляет метку точки данных диаграммы. Только чтение[`IDataLabel`](../idatalabel). |
-| [Marker](../../aspose.slides.charts/ichartdatapoint/marker) { get; } | Указывает маркер данных. Только для чтения[`IMarker`](../imarker). |
-| [RelatedLegendEntry](../../aspose.slides.charts/ichartdatapoint/relatedlegendentry) { get; } | Свойства соответствующей записи легенды в случае типа диаграммы из этого списка: ChartType.BarOfPie, ChartType.ExplodedPie , ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie. Только для чтения[`ILegendEntryProperties`](../ilegendentryproperties). |
+| [ErrorBarsCustomValues](../../aspose.slides.charts/ichartdatapoint/errorbarscustomvalues) { get; } | Представляет значения баров ошибок серии в случае пользовательского типа значения. Только для чтения[`IErrorBarsCustomValues`](../ierrorbarscustomvalues) . |
+| [Explosion](../../aspose.slides.charts/ichartdatapoint/explosion) { get; set; } | Задает величину, на которую точка данных должна быть перемещена из центра круговой диаграммы. Чтение/записьInt32 . |
+| [Format](../../aspose.slides.charts/ichartdatapoint/format) { get; set; } | Представляет свойства форматирования. Чтение/запись[`IFormat`](../iformat) . |
+| [InvertIfNegative](../../aspose.slides.charts/ichartdatapoint/invertifnegative) { get; set; } | Указывает, что точка данных должна инвертировать свои цвета, если значение отрицательное. Чтение/записьBoolean . |
+| [IsBubble3D](../../aspose.slides.charts/ichartdatapoint/isbubble3d) { get; set; } | Указывает, что к пузырькам применяется трехмерный эффект. Чтение/записьBoolean . |
+| [Label](../../aspose.slides.charts/ichartdatapoint/label) { get; } | Представляет метку точки данных диаграммы. Только для чтения[`IDataLabel`](../idatalabel) . |
+| [Marker](../../aspose.slides.charts/ichartdatapoint/marker) { get; } | Указывает маркер данных. Только для чтения[`IMarker`](../imarker) . |
+| [RelatedLegendEntry](../../aspose.slides.charts/ichartdatapoint/relatedlegendentry) { get; } | Свойства соответствующей записи легенды в случае типа диаграммы из этого списка: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie. ChartType.PieOfPie. ChartType.PieOfPie. ChartType.PieOfPie. ChartType.PieOfPie.[`ILegendEntryProperties`](../ilegendentryproperties) . |
 | [SetAsTotal](../../aspose.slides.charts/ichartdatapoint/setastotal) { get; set; } | Устанавливает точку данных как общую. Применяется только для серии Waterfall. |
-| [SizeValue](../../aspose.slides.charts/ichartdatapoint/sizevalue) { get; } | Возвращает значение размера точки данных диаграммы. Используется с диаграммами Treemap и Sunburst. Только для чтения[`IDoubleChartValue`](../idoublechartvalue). |
-| [Value](../../aspose.slides.charts/ichartdatapoint/value) { get; } | Возвращает значение точки данных диаграммы. Только для чтения[`IDoubleChartValue`](../idoublechartvalue). |
-| [XValue](../../aspose.slides.charts/ichartdatapoint/xvalue) { get; } | Возвращает значение x точки данных диаграммы. Только для чтения[`IStringOrDoubleChartValue`](../istringordoublechartvalue). |
-| [YValue](../../aspose.slides.charts/ichartdatapoint/yvalue) { get; } | Возвращает значение y точки данных диаграммы. Только для чтения[`IDoubleChartValue`](../idoublechartvalue). |
+| [SizeValue](../../aspose.slides.charts/ichartdatapoint/sizevalue) { get; } | Возвращает значение размера точки данных диаграммы. Используется с диаграммами Treemap и Sunburst. Только для чтения[`IDoubleChartValue`](../idoublechartvalue) . |
+| [Value](../../aspose.slides.charts/ichartdatapoint/value) { get; } | Возвращает значение точки данных диаграммы. Только для чтения[`IDoubleChartValue`](../idoublechartvalue) . |
+| [XValue](../../aspose.slides.charts/ichartdatapoint/xvalue) { get; } | Возвращает значение x точки данных диаграммы. Только для чтения[`IStringOrDoubleChartValue`](../istringordoublechartvalue) . |
+| [YValue](../../aspose.slides.charts/ichartdatapoint/yvalue) { get; } | Возвращает значение y точки данных диаграммы. Только для чтения[`IDoubleChartValue`](../idoublechartvalue) . |
 
 ## Методы
 

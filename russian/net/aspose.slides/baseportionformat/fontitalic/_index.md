@@ -1,14 +1,14 @@
 ---
 title: FontItalic
 second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет является ли шрифт курсивным. Наследование не применяется. Чтение/записьNullableBoolaspose.slides/nullablebool.
+description: Определяет является ли шрифт курсивным. Наследование не применяется. Чтение/записьNullableBoolaspose.slides/nullablebool .
 type: docs
 weight: 90
 url: /ru/net/aspose.slides/baseportionformat/fontitalic/
 ---
 ## BasePortionFormat.FontItalic property
 
-Определяет, является ли шрифт курсивным. Наследование не применяется. Чтение/запись[`NullableBool`](../../nullablebool).
+Определяет, является ли шрифт курсивным. Наследование не применяется. Чтение/запись[`NullableBool`](../../nullablebool) .
 
 ```csharp
 public NullableBool FontItalic { get; set; }

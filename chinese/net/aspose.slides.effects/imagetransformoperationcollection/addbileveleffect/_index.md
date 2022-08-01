@@ -1,14 +1,14 @@
 ---
 title: AddBiLevelEffect
 second_title: Aspose.Slides for .NET API 参考
-description: 将新的 Bi-Level黑/白效果添加到集合的末尾
+description: 将新的双级黑/白效果添加到集合的末尾
 type: docs
 weight: 120
 url: /zh/net/aspose.slides.effects/imagetransformoperationcollection/addbileveleffect/
 ---
 ## ImageTransformOperationCollection.AddBiLevelEffect method
 
-将新的 Bi-Level（黑/白）效果添加到集合的末尾。
+将新的双级（黑/白）效果添加到集合的末尾。
 
 ```csharp
 public IBiLevel AddBiLevelEffect(float threshold)

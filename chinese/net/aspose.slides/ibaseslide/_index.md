@@ -18,25 +18,25 @@ public interface IBaseSlide : IThemeable
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsIThemeable](../../aspose.slides/ibaseslide/asithemeable) { get; } | 允许获取基本 IThemeable 接口。 只读[`IThemeable`](../../aspose.slides.theme/ithemeable)。 |
-| [Background](../../aspose.slides/ibaseslide/background) { get; } | 返回幻灯片的背景。 只读[`IBackground`](../ibackground)。 |
-| [Controls](../../aspose.slides/ibaseslide/controls) { get; } | 返回幻灯片上 ActiveX 控件的集合。 只读[`IControlCollection`](../icontrolcollection)。 |
-| [CustomData](../../aspose.slides/ibaseslide/customdata) { get; } | 返回幻灯片的自定义数据。 只读[`ICustomData`](../icustomdata)。 |
-| [HyperlinkQueries](../../aspose.slides/ibaseslide/hyperlinkqueries) { get; } | 提供对包含的超链接的轻松访问。 只读[`IHyperlinkQueries`](../ihyperlinkqueries)。 |
-| [Name](../../aspose.slides/ibaseslide/name) { get; set; } | 返回或设置幻灯片的名称。 读/写String。 |
-| [Shapes](../../aspose.slides/ibaseslide/shapes) { get; } | 返回幻灯片的形状。 只读[`IShapeCollection`](../ishapecollection)。 |
-| [ShowMasterShapes](../../aspose.slides/ibaseslide/showmastershapes) { get; set; } | 指定母版幻灯片上的形状是否应显示在幻灯片上。 对于母版幻灯片本身，此属性始终返回` false` 。 读/写Boolean。 |
-| [SlideId](../../aspose.slides/ibaseslide/slideid) { get; } | 返回幻灯片的 ID。 只读UInt32。 |
-| [SlideShowTransition](../../aspose.slides/ibaseslide/slideshowtransition) { get; } | 返回包含有关 指定幻灯片在幻灯片放映期间如何前进的信息的 TransitionEx 对象。 只读[`ISlideShowTransition`](../islideshowtransition)。 |
-| [Timeline](../../aspose.slides/ibaseslide/timeline) { get; } | 返回动画时间线对象。 只读[`IAnimationTimeLine`](../ianimationtimeline)。 |
+| [AsIThemeable](../../aspose.slides/ibaseslide/asithemeable) { get; } | 允许获取基本 IThemeable 接口。 只读[`IThemeable`](../../aspose.slides.theme/ithemeable). |
+| [Background](../../aspose.slides/ibaseslide/background) { get; } | 返回幻灯片的背景。 只读[`IBackground`](../ibackground). |
+| [Controls](../../aspose.slides/ibaseslide/controls) { get; } | 返回幻灯片上 ActiveX 控件的集合。 只读[`IControlCollection`](../icontrolcollection). |
+| [CustomData](../../aspose.slides/ibaseslide/customdata) { get; } | 返回幻灯片的自定义数据。 只读[`ICustomData`](../icustomdata). |
+| [HyperlinkQueries](../../aspose.slides/ibaseslide/hyperlinkqueries) { get; } | 提供对包含的超链接的轻松访问。 只读[`IHyperlinkQueries`](../ihyperlinkqueries). |
+| [Name](../../aspose.slides/ibaseslide/name) { get; set; } | 返回或设置幻灯片的名称。 读/写String. |
+| [Shapes](../../aspose.slides/ibaseslide/shapes) { get; } | 返回幻灯片的形状。 只读[`IShapeCollection`](../ishapecollection). |
+| [ShowMasterShapes](../../aspose.slides/ibaseslide/showmastershapes) { get; set; } | 指定母版幻灯片上的形状是否应显示在幻灯片上。 对于母版幻灯片本身，此属性始终返回`错误的`. 读/写Boolean. |
+| [SlideId](../../aspose.slides/ibaseslide/slideid) { get; } | 返回幻灯片的 ID。 只读UInt32. |
+| [SlideShowTransition](../../aspose.slides/ibaseslide/slideshowtransition) { get; } | 返回包含关于 在幻灯片放映期间指定幻灯片如何前进的信息的 TransitionEx 对象。 只读[`ISlideShowTransition`](../islideshowtransition). |
+| [Timeline](../../aspose.slides/ibaseslide/timeline) { get; } | 返回动画时间轴对象。 只读[`IAnimationTimeLine`](../ianimationtimeline). |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Equals](../../aspose.slides/ibaseslide/equals)(IBaseSlide) | 确定两个 IBaseSlide 实例是否相等。 返回值是根据幻灯片的结构和静态内容计算的。 如果所有形状、样式、文本、动画和其他设置，两张幻灯片相等。等是平等的。比较不考虑唯一标识符值，例如 SlideId 和动态内容，例如日期占位符中的当前日期值。 |
+| [Equals](../../aspose.slides/ibaseslide/equals)(IBaseSlide) | 判断两个IBaseSlide实例是否相等。 返回值根据幻灯片的结构和静态内容计算。 如果所有形状、样式、文本、动画和其他设置，两个幻灯片相等。等是平等的。比较不考虑唯一标识符值，例如 SlideId 和动态内容，例如 Date Placeholder. 中的当前日期值 |
 | [FindShapeByAltText](../../aspose.slides/ibaseslide/findshapebyalttext)(string) | 查找具有指定替代文本的形状的第一个匹配项。 |
-| [JoinPortionsWithSameFormatting](../../aspose.slides/ibaseslide/joinportionswithsameformatting)() | 在所有可接受的形状的所有段落中以相同的格式运行连接。 |
+| [JoinPortionsWithSameFormatting](../../aspose.slides/ibaseslide/joinportionswithsameformatting)() | 以所有可接受的形状在所有段落中以相同的格式运行。 |
 
 ### 也可以看看
 

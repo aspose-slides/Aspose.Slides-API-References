@@ -16,7 +16,7 @@ public IMathLimit SetUpperLimit(IMathElement limit)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| limit | IMathElement | limit |
+| limit | IMathElement | ограничение |
 
 ### Возвращаемое значение
 
@@ -53,7 +53,7 @@ public IMathLimit SetUpperLimit(string limit)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| limit | String | limit |
+| limit | String | ограничение |
 
 ### Возвращаемое значение
 

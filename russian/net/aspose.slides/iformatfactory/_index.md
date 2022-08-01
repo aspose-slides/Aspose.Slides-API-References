@@ -1,14 +1,14 @@
 ---
 title: IFormatFactory
 second_title: Справочник по API Aspose.Slides для .NET
-description: Позволяет создавать форматы через COM интерфейс.
+description: Позволяет создавать форматы через COM-интерфейс.
 type: docs
 weight: 5410
 url: /ru/net/aspose.slides/iformatfactory/
 ---
 ## IFormatFactory interface
 
-Позволяет создавать форматы через COM интерфейс.
+Позволяет создавать форматы через COM-интерфейс.
 
 ```csharp
 public interface IFormatFactory
@@ -18,9 +18,9 @@ public interface IFormatFactory
 
 | Имя | Описание |
 | --- | --- |
-| [CreateParagraphFormat](../../aspose.slides/iformatfactory/createparagraphformat)() | Создает новый[`IParagraphFormat`](../iparagraphformat). |
-| [CreatePortionFormat](../../aspose.slides/iformatfactory/createportionformat)() | Создает новый[`IPortionFormat`](../iportionformat). |
-| [CreateTextFrameFormat](../../aspose.slides/iformatfactory/createtextframeformat)() | Создает новый[`ITextFrameFormat`](../itextframeformat). |
+| [CreateParagraphFormat](../../aspose.slides/iformatfactory/createparagraphformat)() | Создает новый[`IParagraphFormat`](../iparagraphformat) . |
+| [CreatePortionFormat](../../aspose.slides/iformatfactory/createportionformat)() | Создает новый[`IPortionFormat`](../iportionformat) . |
+| [CreateTextFrameFormat](../../aspose.slides/iformatfactory/createtextframeformat)() | Создает новый[`ITextFrameFormat`](../itextframeformat) . |
 
 ### Смотрите также
 

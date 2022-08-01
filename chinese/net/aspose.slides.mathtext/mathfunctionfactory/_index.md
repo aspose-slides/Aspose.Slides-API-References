@@ -29,7 +29,7 @@ public class MathFunctionFactory : IMathFunctionFactory
 
 ### 评论
 
-用于 COM 比较
+用于 COM 可比性
 
 ### 也可以看看
 

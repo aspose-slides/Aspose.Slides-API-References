@@ -1,14 +1,14 @@
 ---
 title: HasBounce
 second_title: Aspose.Slides for .NET API 参考
-description: 指定在过渡期间演示幻灯片的移动包括反弹 读/写Boolean
+description: 指定在过渡期间演示幻灯片的移动包括弹跳 读/写Boolean.
 type: docs
 weight: 30
 url: /zh/net/aspose.slides.slideshow/iflythroughtransition/hasbounce/
 ---
 ## IFlyThroughTransition.HasBounce property
 
-指定在过渡期间演示幻灯片的移动包括反弹。 读/写Boolean。
+指定在过渡期间演示幻灯片的移动包括弹跳。 读/写Boolean.
 
 ```csharp
 public bool HasBounce { get; set; }

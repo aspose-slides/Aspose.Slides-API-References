@@ -1,14 +1,14 @@
 ---
 title: NotesViewProperties
 second_title: Справочник по API Aspose.Slides для .NET
-description: Задает общие свойства просмотра связанные с режимом просмотра заметок. Только для чтенияICommonSlideViewPropertiesaspose.slides/icommonslideviewproperties.
+description: Задает общие свойства представления связанные с режимом просмотра примечаний. Только для чтенияICommonSlideViewPropertiesaspose.slides/icommonslideviewproperties .
 type: docs
 weight: 30
 url: /ru/net/aspose.slides/viewproperties/notesviewproperties/
 ---
 ## ViewProperties.NotesViewProperties property
 
-Задает общие свойства просмотра, связанные с режимом просмотра заметок. Только для чтения[`ICommonSlideViewProperties`](../../icommonslideviewproperties).
+Задает общие свойства представления, связанные с режимом просмотра примечаний. Только для чтения[`ICommonSlideViewProperties`](../../icommonslideviewproperties) .
 
 ```csharp
 public ICommonSlideViewProperties NotesViewProperties { get; }

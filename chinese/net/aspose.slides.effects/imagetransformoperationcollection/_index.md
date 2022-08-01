@@ -19,10 +19,10 @@ public sealed class ImageTransformOperationCollection : PVIObject,
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允许获取基本 IPresentationComponent 接口。 只读[`IPresentationComponent`](../../aspose.slides/ipresentationcomponent)。 |
-| [Count](../../aspose.slides.effects/imagetransformoperationcollection/count) { get; } | 返回集合中图像效果的数量。 只读Int32。 |
-| [IsReadOnly](../../aspose.slides.effects/imagetransformoperationcollection/isreadonly) { get; } | 获取一个值，该值指示ICollection是否为只读。 只读Boolean。 |
-| [Item](../../aspose.slides.effects/imagetransformoperationcollection/item) { get; } | 通过它的索引从集合中返回[`ImageTransformOperation`](../imagetransformoperation)。 |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允许获取基本 IPresentationComponent 接口。 只读[`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [Count](../../aspose.slides.effects/imagetransformoperationcollection/count) { get; } | 返回集合中图像效果的数量。 只读Int32. |
+| [IsReadOnly](../../aspose.slides.effects/imagetransformoperationcollection/isreadonly) { get; } | 获取一个值，该值指示是否ICollection是只读的。 只读Boolean. |
+| [Item](../../aspose.slides.effects/imagetransformoperationcollection/item) { get; } | 返回一个[`ImageTransformOperation`](../imagetransformoperation)从集合中的索引. |
 
 ## 方法
 
@@ -36,7 +36,7 @@ public sealed class ImageTransformOperationCollection : PVIObject,
 | [AddAlphaModulateEffect](../../aspose.slides.effects/imagetransformoperationcollection/addalphamodulateeffect)() | 将新的 Alpha 调制效果添加到集合的末尾。 |
 | [AddAlphaModulateFixedEffect](../../aspose.slides.effects/imagetransformoperationcollection/addalphamodulatefixedeffect)(float) | 将新的 Alpha Modulate Fixed 效果添加到集合的末尾。 |
 | [AddAlphaReplaceEffect](../../aspose.slides.effects/imagetransformoperationcollection/addalphareplaceeffect)(float) | 将新的 Alpha Replace 效果添加到集合的末尾。 |
-| [AddBiLevelEffect](../../aspose.slides.effects/imagetransformoperationcollection/addbileveleffect)(float) | 将新的 Bi-Level（黑/白）效果添加到集合的末尾。 |
+| [AddBiLevelEffect](../../aspose.slides.effects/imagetransformoperationcollection/addbileveleffect)(float) | 将新的双级（黑/白）效果添加到集合的末尾。 |
 | [AddBlurEffect](../../aspose.slides.effects/imagetransformoperationcollection/addblureffect)(double, bool) | 将新的模糊效果添加到集合的末尾。 |
 | [AddColorChangeEffect](../../aspose.slides.effects/imagetransformoperationcollection/addcolorchangeeffect)() | 将新的颜色变化效果添加到集合的末尾。 |
 | [AddColorReplaceEffect](../../aspose.slides.effects/imagetransformoperationcollection/addcolorreplaceeffect)() | 将新的颜色替换效果添加到集合的末尾。 |
@@ -45,14 +45,14 @@ public sealed class ImageTransformOperationCollection : PVIObject,
 | [AddGrayScaleEffect](../../aspose.slides.effects/imagetransformoperationcollection/addgrayscaleeffect)() | 将新的灰度效果添加到集合的末尾。 |
 | [AddHSLEffect](../../aspose.slides.effects/imagetransformoperationcollection/addhsleffect)(float, float, float) | 将新的色相/饱和度/亮度效果添加到集合的末尾。 |
 | [AddLuminanceEffect](../../aspose.slides.effects/imagetransformoperationcollection/addluminanceeffect)(float, float) | 将新的亮度效果添加到集合的末尾。 |
-| [AddTintEffect](../../aspose.slides.effects/imagetransformoperationcollection/addtinteffect)(float, float) | 将新的 Tint 效果添加到集合的末尾。 |
+| [AddTintEffect](../../aspose.slides.effects/imagetransformoperationcollection/addtinteffect)(float, float) | 将新的色调效果添加到集合的末尾。 |
 | [Clear](../../aspose.slides.effects/imagetransformoperationcollection/clear)() | 从集合中删除所有图像效果。 |
-| [Contains](../../aspose.slides.effects/imagetransformoperationcollection/contains)(IImageTransformOperation) | 确定ICollection是否包含特定值。 |
-| [CopyTo](../../aspose.slides.effects/imagetransformoperationcollection/copyto)(IImageTransformOperation[], int) | 将ICollection的元素复制到System。Array，从特定的Array索引开始。 |
+| [Contains](../../aspose.slides.effects/imagetransformoperationcollection/contains)(IImageTransformOperation) | 确定是否ICollection包含特定值。 |
+| [CopyTo](../../aspose.slides.effects/imagetransformoperationcollection/copyto)(IImageTransformOperation[], int) | 复制元素ICollection对一个Array，从一个特定的开始Array索引. |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | 与指定对象比较。 |
 | [GetEnumerator](../../aspose.slides.effects/imagetransformoperationcollection/getenumerator)() | 返回一个遍历集合的枚举器。 |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | 返回哈希码。 |
-| [Remove](../../aspose.slides.effects/imagetransformoperationcollection/remove)(IImageTransformOperation) | 从ICollection中删除特定对象的第一个匹配项。 |
+| [Remove](../../aspose.slides.effects/imagetransformoperationcollection/remove)(IImageTransformOperation) | 从ICollection. |
 | [RemoveAt](../../aspose.slides.effects/imagetransformoperationcollection/removeat)(int) | 从指定索引处的集合中删除图像效果。 |
 
 ### 也可以看看

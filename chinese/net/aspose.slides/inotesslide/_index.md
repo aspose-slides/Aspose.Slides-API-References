@@ -18,11 +18,11 @@ public interface INotesSlide : IBaseSlide, IOverrideThemeable
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsIBaseSlide](../../aspose.slides/inotesslide/asibaseslide) { get; } | 允许获取基本 IBaseSlide 接口。 只读[`IBaseSlide`](../ibaseslide)。 |
-| [AsIOverrideThemeable](../../aspose.slides/inotesslide/asioverridethemeable) { get; } | 返回 IOverrideThemeable 接口。 只读[`IOverrideThemeable`](../../aspose.slides.theme/ioverridethemeable)。 |
-| [HeaderFooterManager](../../aspose.slides/inotesslide/headerfootermanager) { get; } | 返回注释幻灯片的 HeaderFooter 管理器。 只读[`INotesSlideHeaderFooterManager`](../inotesslideheaderfootermanager)。 |
-| [NotesTextFrame](../../aspose.slides/inotesslide/notestextframe) { get; } | 如果有注释文本，则返回带有注释文本的 TextFrame。 只读[`ITextFrame`](../itextframe)。 |
-| [ParentSlide](../../aspose.slides/inotesslide/parentslide) { get; } | 返回 ParentSlide 只读[`ISlide`](../islide)。 |
+| [AsIBaseSlide](../../aspose.slides/inotesslide/asibaseslide) { get; } | 允许获取基本 IBaseSlide 接口。 只读[`IBaseSlide`](../ibaseslide). |
+| [AsIOverrideThemeable](../../aspose.slides/inotesslide/asioverridethemeable) { get; } | 返回 IOverrideThemeable 接口。 只读[`IOverrideThemeable`](../../aspose.slides.theme/ioverridethemeable). |
+| [HeaderFooterManager](../../aspose.slides/inotesslide/headerfootermanager) { get; } | 返回注释幻灯片的页眉页脚管理器。 只读[`INotesSlideHeaderFooterManager`](../inotesslideheaderfootermanager). |
+| [NotesTextFrame](../../aspose.slides/inotesslide/notestextframe) { get; } | 如果有，则返回带有注释文本的 TextFrame。 只读[`ITextFrame`](../itextframe). |
+| [ParentSlide](../../aspose.slides/inotesslide/parentslide) { get; } | 返回一个 ParentSlide 只读[`ISlide`](../islide). |
 
 ### 也可以看看
 

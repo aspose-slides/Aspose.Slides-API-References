@@ -29,7 +29,7 @@ public void Add(IChartDataCell chartDataCell)
 
 ## Add(object) {#add_1}
 
-从指定值创建[`IChartDataCell`](../../ichartdatacell)并将其添加到集合中。
+创建[`IChartDataCell`](../../ichartdatacell)从指定的值并将其添加到集合中。
 
 ```csharp
 public void Add(object value)
@@ -37,7 +37,7 @@ public void Add(object value)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | Object | 值。 |
+| value | Object | 价值。 |
 
 ### 例外
 
@@ -47,7 +47,7 @@ public void Add(object value)
 
 ### 评论
 
-此方法添加名称为 AUTO_DATA 的工作表并在那里添加所有值。如果您使用[`IChartDataWorkbook`](../../ichartdataworkbook)添加或编辑单元格值，请确保您不使用此工作表 使用此添加的最大值数方法不得超过 16711680
+此方法添加名称为 AUTO_DATA 的工作表并在那里添加所有值。如果你使用[`IChartDataWorkbook`](../../ichartdataworkbook)要添加或编辑单元格值，请确保不要使用此工作表 使用此方法添加的值的最大数量不得超过 16711680
 
 ### 也可以看看
 

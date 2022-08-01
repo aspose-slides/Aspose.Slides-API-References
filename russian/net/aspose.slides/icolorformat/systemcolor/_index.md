@@ -1,14 +1,14 @@
 ---
 title: SystemColor
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или задает цвет указанный в системной таблице цветов. Чтение/записьSystemColoraspose.slides/systemcolor.
+description: Возвращает или задает цвет указанный в таблице системных цветов. Чтение/записьSystemColoraspose.slides/systemcolor .
 type: docs
 weight: 160
 url: /ru/net/aspose.slides/icolorformat/systemcolor/
 ---
 ## IColorFormat.SystemColor property
 
-Возвращает или задает цвет, указанный в системной таблице цветов. Чтение/запись[`SystemColor`](../../systemcolor).
+Возвращает или задает цвет, указанный в таблице системных цветов. Чтение/запись[`SystemColor`](../../systemcolor) .
 
 ```csharp
 public SystemColor SystemColor { get; set; }

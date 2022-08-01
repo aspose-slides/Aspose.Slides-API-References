@@ -1,14 +1,14 @@
 ---
 title: FillSource
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает информацию о том как заполнить элемент. Только для чтенияShapeElementFillSourceaspose.slides/shapeelementfillsource.
+description: Возвращает информацию о том как заполнить элемент. Только для чтенияShapeElementFillSourceaspose.slides/shapeelementfillsource .
 type: docs
 weight: 10
 url: /ru/net/aspose.slides/shapeelement/fillsource/
 ---
 ## ShapeElement.FillSource property
 
-Возвращает информацию о том, как заполнить элемент. Только для чтения[`ShapeElementFillSource`](../../shapeelementfillsource).
+Возвращает информацию о том, как заполнить элемент. Только для чтения[`ShapeElementFillSource`](../../shapeelementfillsource) .
 
 ```csharp
 public ShapeElementFillSource FillSource { get; }

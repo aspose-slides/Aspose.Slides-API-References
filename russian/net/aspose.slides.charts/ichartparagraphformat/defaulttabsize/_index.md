@@ -1,14 +1,14 @@
 ---
 title: DefaultTabSize
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или устанавливает размер табуляции по умолчанию. Чтение/записьSingle.
+description: Возвращает или задает размер табуляции по умолчанию. Чтение/записьSingle .
 type: docs
 weight: 20
 url: /ru/net/aspose.slides.charts/ichartparagraphformat/defaulttabsize/
 ---
 ## IChartParagraphFormat.DefaultTabSize property
 
-Возвращает или устанавливает размер табуляции по умолчанию. Чтение/записьSingle.
+Возвращает или задает размер табуляции по умолчанию. Чтение/записьSingle .
 
 ```csharp
 public float DefaultTabSize { get; set; }

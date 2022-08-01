@@ -18,8 +18,8 @@ public interface ISequenceCollection : IEnumerable<ISequence>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.animation/isequencecollection/asienumerable) { get; } | 返回 IEnumerable 接口。 只读IEnumerable。 |
-| [Count](../../aspose.slides.animation/isequencecollection/count) { get; } | 返回集合中元素的数量 只读Int32。 |
+| [AsIEnumerable](../../aspose.slides.animation/isequencecollection/asienumerable) { get; } | 返回 IEnumerable 接口。 只读IEnumerable. |
+| [Count](../../aspose.slides.animation/isequencecollection/count) { get; } | 返回集合中的元素数 只读Int32. |
 | [Item](../../aspose.slides.animation/isequencecollection/item) { get; } | 返回指定索引处的序列。 |
 
 ## 方法

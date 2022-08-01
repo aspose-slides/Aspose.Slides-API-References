@@ -1,14 +1,14 @@
 ---
 title: Kumimoji
 second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет должны ли числа игнорировать вертикальное расположение текста для восточного языка. Наследование не применяется. Чтение/записьNullableBoolaspose.slides/nullablebool.
+description: Определяет должны ли числа игнорировать вертикальное расположение текста для восточного языка. Наследование не применяется. Чтение/записьNullableBoolaspose.slides/nullablebool .
 type: docs
 weight: 150
 url: /ru/net/aspose.slides/baseportionformat/kumimoji/
 ---
 ## BasePortionFormat.Kumimoji property
 
-Определяет, должны ли числа игнорировать вертикальное расположение текста для восточного языка. Наследование не применяется. Чтение/запись[`NullableBool`](../../nullablebool).
+Определяет, должны ли числа игнорировать вертикальное расположение текста для восточного языка. Наследование не применяется. Чтение/запись[`NullableBool`](../../nullablebool) .
 
 ```csharp
 public NullableBool Kumimoji { get; set; }

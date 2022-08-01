@@ -18,9 +18,9 @@ public interface IShapeBevel
 
 | Имя | Описание |
 | --- | --- |
-| [BevelType](../../aspose.slides/ishapebevel/beveltype) { get; set; } | Тип скоса. Чтение/запись[`BevelPresetType`](../bevelpresettype). |
-| [Height](../../aspose.slides/ishapebevel/height) { get; set; } | Высота скоса. Чтение/записьDouble. |
-| [Width](../../aspose.slides/ishapebevel/width) { get; set; } | Ширина фаски. Чтение/записьDouble. |
+| [BevelType](../../aspose.slides/ishapebevel/beveltype) { get; set; } | Тип скоса. Чтение/запись[`BevelPresetType`](../bevelpresettype) . |
+| [Height](../../aspose.slides/ishapebevel/height) { get; set; } | Высота скоса. Чтение/записьDouble . |
+| [Width](../../aspose.slides/ishapebevel/width) { get; set; } | Ширина скоса. Чтение/записьDouble . |
 
 ### Смотрите также
 

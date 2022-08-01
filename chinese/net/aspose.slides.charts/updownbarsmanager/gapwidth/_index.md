@@ -1,14 +1,14 @@
 ---
 title: GapWidth
 second_title: Aspose.Slides for .NET API 参考
-description: 间隙宽度 读/写Int32
+description: GapWidth. 读/写Int32.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides.charts/updownbarsmanager/gapwidth/
 ---
 ## UpDownBarsManager.GapWidth property
 
-间隙宽度。 读/写Int32。
+GapWidth. 读/写Int32.
 
 ```csharp
 public int GapWidth { get; set; }

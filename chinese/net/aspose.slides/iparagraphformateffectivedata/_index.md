@@ -18,27 +18,27 @@ public interface IParagraphFormatEffectiveData
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Alignment](../../aspose.slides/iparagraphformateffectivedata/alignment) { get; } | 返回段落中的文本对齐方式。 只读[`TextAlignment`](../textalignment)。 |
-| [Bullet](../../aspose.slides/iparagraphformateffectivedata/bullet) { get; } | 返回段落的项目符号格式。 只读[`IBulletFormatEffectiveData`](../ibulletformateffectivedata)。 |
-| [DefaultPortionFormat](../../aspose.slides/iparagraphformateffectivedata/defaultportionformat) { get; } | 返回段落的默认部分格式。 只读[`IPortionFormatEffectiveData`](../iportionformateffectivedata)。 |
-| [DefaultTabSize](../../aspose.slides/iparagraphformateffectivedata/defaulttabsize) { get; } | 返回默认列表大小。 只读Single。 |
-| [Depth](../../aspose.slides/iparagraphformateffectivedata/depth) { get; } | 返回段落的深度。 只读Int16。 |
-| [EastAsianLineBreak](../../aspose.slides/iparagraphformateffectivedata/eastasianlinebreak) { get; } | 确定段落中是否使用东亚换行符。 只读Boolean。 |
-| [FontAlignment](../../aspose.slides/iparagraphformateffectivedata/fontalignment) { get; } | 返回段落中的字体对齐方式。 只读[`FontAlignment`](../fontalignment)。 |
-| [HangingPunctuation](../../aspose.slides/iparagraphformateffectivedata/hangingpunctuation) { get; } | 确定段落中是否使用悬挂标点。 只读Boolean。 |
-| [Indent](../../aspose.slides/iparagraphformateffectivedata/indent) { get; } | 返回段落首行缩进/悬挂缩进。悬挂缩进可以用负值定义。 只读Single。 |
-| [LatinLineBreak](../../aspose.slides/iparagraphformateffectivedata/latinlinebreak) { get; } | 确定段落中是否使用拉丁换行符。 只读Boolean。 |
-| [MarginLeft](../../aspose.slides/iparagraphformateffectivedata/marginleft) { get; } | 返回段落的左边距。 只读Single。 |
-| [MarginRight](../../aspose.slides/iparagraphformateffectivedata/marginright) { get; } | 返回段落的右边距。 只读Single。 |
-| [RightToLeft](../../aspose.slides/iparagraphformateffectivedata/righttoleft) { get; } | 确定段落中是否使用从右到左书写。 只读Boolean。 |
-| [SpaceAfter](../../aspose.slides/iparagraphformateffectivedata/spaceafter) { get; } | 返回段落最后一行之后的空格量。 只读Single。 |
-| [SpaceBefore](../../aspose.slides/iparagraphformateffectivedata/spacebefore) { get; } | 返回段落第一行之前的空格量。 只读Single。 |
-| [SpaceWithin](../../aspose.slides/iparagraphformateffectivedata/spacewithin) { get; } | 返回段落中基线之间的空间量。 只读Single。 |
-| [Tabs](../../aspose.slides/iparagraphformateffectivedata/tabs) { get; } | 返回段落的列表。 只读[`ITabEffectiveData`](../itabeffectivedata)[]。 |
+| [Alignment](../../aspose.slides/iparagraphformateffectivedata/alignment) { get; } | 返回段落中的文本对齐方式。 只读[`TextAlignment`](../textalignment). |
+| [Bullet](../../aspose.slides/iparagraphformateffectivedata/bullet) { get; } | 返回段落的项目符号格式。 只读[`IBulletFormatEffectiveData`](../ibulletformateffectivedata). |
+| [DefaultPortionFormat](../../aspose.slides/iparagraphformateffectivedata/defaultportionformat) { get; } | 返回段落的默认部分格式。 只读[`IPortionFormatEffectiveData`](../iportionformateffectivedata). |
+| [DefaultTabSize](../../aspose.slides/iparagraphformateffectivedata/defaulttabsize) { get; } | 返回默认制表大小。 只读Single. |
+| [Depth](../../aspose.slides/iparagraphformateffectivedata/depth) { get; } | 返回段落的深度。 只读Int16. |
+| [EastAsianLineBreak](../../aspose.slides/iparagraphformateffectivedata/eastasianlinebreak) { get; } | 确定段落中是否使用东亚换行符。 只读Boolean. |
+| [FontAlignment](../../aspose.slides/iparagraphformateffectivedata/fontalignment) { get; } | 返回段落中的字体对齐方式。 只读[`FontAlignment`](../fontalignment). |
+| [HangingPunctuation](../../aspose.slides/iparagraphformateffectivedata/hangingpunctuation) { get; } | 确定段落中是否使用悬挂标点。 只读Boolean. |
+| [Indent](../../aspose.slides/iparagraphformateffectivedata/indent) { get; } | 返回段落首行缩进/悬挂缩进。悬挂缩进可以用负值定义。 只读Single. |
+| [LatinLineBreak](../../aspose.slides/iparagraphformateffectivedata/latinlinebreak) { get; } | 确定段落中是否使用拉丁换行符。 只读Boolean. |
+| [MarginLeft](../../aspose.slides/iparagraphformateffectivedata/marginleft) { get; } | 返回段落的左边距。 只读Single. |
+| [MarginRight](../../aspose.slides/iparagraphformateffectivedata/marginright) { get; } | 返回段落的右边距。 只读Single. |
+| [RightToLeft](../../aspose.slides/iparagraphformateffectivedata/righttoleft) { get; } | 确定段落中是否使用从右到左书写。 只读Boolean. |
+| [SpaceAfter](../../aspose.slides/iparagraphformateffectivedata/spaceafter) { get; } | 返回段落最后一行之后的空格量。 只读Single. |
+| [SpaceBefore](../../aspose.slides/iparagraphformateffectivedata/spacebefore) { get; } | 返回段落第一行之前的空格量。 只读Single. |
+| [SpaceWithin](../../aspose.slides/iparagraphformateffectivedata/spacewithin) { get; } | 返回段落中基线之间的空间量。 只读Single. |
+| [Tabs](../../aspose.slides/iparagraphformateffectivedata/tabs) { get; } | 返回段落的列表。 只读[`ITabEffectiveData`](../itabeffectivedata)[]. |
 
 ### 评论
 
-此接口与IParagraphFormat一起使用接口返回应用继承的有效格式值。
+该接口与[`IParagraphFormat`](../iparagraphformat)返回应用继承的有效格式值的接口。
 
 ### 也可以看看
 

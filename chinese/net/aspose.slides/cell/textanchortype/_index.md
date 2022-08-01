@@ -1,14 +1,14 @@
 ---
 title: TextAnchorType
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置文本锚类型 读/写TextAnchorTypeaspose.slides/textanchortype
+description: 返回或设置文本锚类型 读/写TextAnchorTypeaspose.slides/textanchortype.
 type: docs
 weight: 210
 url: /zh/net/aspose.slides/cell/textanchortype/
 ---
 ## Cell.TextAnchorType property
 
-返回或设置文本锚类型。 读/写[`TextAnchorType`](../../textanchortype)。
+返回或设置文本锚类型。 读/写[`TextAnchorType`](../../textanchortype).
 
 ```csharp
 public TextAnchorType TextAnchorType { get; set; }

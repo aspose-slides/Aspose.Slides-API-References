@@ -1,14 +1,14 @@
 ---
 title: TextFrameForOverriding
 second_title: Aspose.Slides for .NET API 参考
-description: 可以包含格式丰富的文本如果此属性不为 null则此 格式化文本值将覆盖自动生成的文本 自动生成的文本是数据标签的隐含属性显示 数值轴的单位标签轴标题图表标题趋势线的标签 自动生成的文本使用 IFormattedTextContainer.TextFormat 属性进行格式化 只读ITextFrameaspose.slides/itextframe
+description: 可以包含格式丰富的文本如果此属性不为空则此 格式化文本值将覆盖自动生成的文本 自动生成的文本是数据标签的隐式属性显示值轴的 单位标签轴标题图表标题趋势线的标签 自动生成的文本使用 IFormattedTextContainer.TextFormat 属性格式化 只读ITextFrameaspose.slides/itextframe.
 type: docs
 weight: 80
 url: /zh/net/aspose.slides.charts/charttitle/textframeforoverriding/
 ---
 ## ChartTitle.TextFrameForOverriding property
 
-可以包含格式丰富的文本。如果此属性不为 null，则此 格式化文本值将覆盖自动生成的文本。 自动生成的文本是数据标签的隐含属性，显示 数值轴的单位标签、轴标题、图表标题、趋势线的标签。 自动生成的文本使用 IFormattedTextContainer.TextFormat 属性进行格式化。 只读[`ITextFrame`](../../../aspose.slides/itextframe)。
+可以包含格式丰富的文本。如果此属性不为空，则此 格式化文本值将覆盖自动生成的文本。 自动生成的文本是数据标签的隐式属性，显示值轴的 单位标签，轴标题，图表标题，趋势线的标签。 自动生成的文本使用 IFormattedTextContainer.TextFormat 属性格式化。 只读[`ITextFrame`](../../../aspose.slides/itextframe).
 
 ```csharp
 public ITextFrame TextFrameForOverriding { get; }

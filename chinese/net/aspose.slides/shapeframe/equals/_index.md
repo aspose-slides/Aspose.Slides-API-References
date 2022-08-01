@@ -20,7 +20,7 @@ public override bool Equals(object obj)
 
 ### 返回值
 
-**True** 如果 obj 是与此实例具有相同值的 ShapeFrame；否则， **false** 。
+**真的**如果 obj 是与此实例具有相同值的 ShapeFrame；否则， **错误的**.
 
 ### 也可以看看
 
@@ -44,7 +44,7 @@ public bool Equals(ShapeFrame value)
 
 ### 返回值
 
-**True** 如果 value 是与此实例具有相同值的 ShapeFrame；否则， **false** 。
+**真的**如果 value 是与此实例具有相同值的 ShapeFrame；否则， **错误的**.
 
 ### 也可以看看
 

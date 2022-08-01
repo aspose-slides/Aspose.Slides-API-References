@@ -18,10 +18,10 @@ public sealed class ColorOperationCollection : IColorOperationCollection
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Count](../../aspose.slides/coloroperationcollection/count) { get; } | 返回集合中的操作数。 只读Int32。 |
-| [IsSynchronized](../../aspose.slides/coloroperationcollection/issynchronized) { get; } | 返回一个值，指示对集合的访问是否同步（线程安全）。 只读Boolean。 |
-| [Item](../../aspose.slides/coloroperationcollection/item) { get; set; } | 返回或设置指定索引处的操作。 读/写[`ColorOperation`](../coloroperation)。 |
-| [SyncRoot](../../aspose.slides/coloroperationcollection/syncroot) { get; } | 返回同步根。 只读Object。 |
+| [Count](../../aspose.slides/coloroperationcollection/count) { get; } | 返回集合中的操作数。 只读Int32. |
+| [IsSynchronized](../../aspose.slides/coloroperationcollection/issynchronized) { get; } | 返回一个值，指示对集合的访问是否同步（线程安全）。 只读Boolean. |
+| [Item](../../aspose.slides/coloroperationcollection/item) { get; set; } | 返回或设置指定索引处的操作。 读/写[`ColorOperation`](../coloroperation). |
+| [SyncRoot](../../aspose.slides/coloroperationcollection/syncroot) { get; } | 返回同步根。 只读Object. |
 
 ## 方法
 
@@ -36,7 +36,7 @@ public sealed class ColorOperationCollection : IColorOperationCollection
 | [GetEnumerator](../../aspose.slides/coloroperationcollection/getenumerator)() | 返回一个遍历集合的枚举器。 |
 | [Insert](../../aspose.slides/coloroperationcollection/insert#insert)(int, ColorTransformOperation) | 将新操作插入到集合中。 |
 | [Insert](../../aspose.slides/coloroperationcollection/insert#insert_1)(int, ColorTransformOperation, float) | 将新操作插入到集合中。 |
-| [RemoveAt](../../aspose.slides/coloroperationcollection/removeat)(int) | 从集合中移除颜色操作。 |
+| [RemoveAt](../../aspose.slides/coloroperationcollection/removeat)(int) | 从集合中删除颜色操作。 |
 
 ### 也可以看看
 

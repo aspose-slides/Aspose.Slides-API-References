@@ -1,14 +1,14 @@
 ---
 title: HasEndCap
 second_title: Aspose.Slides for .NET API 参考
-description: 指定不在误差线上绘制端盖 读/写Boolean
+description: 指定未在误差线上绘制端盖 读/写Boolean.
 type: docs
 weight: 30
 url: /zh/net/aspose.slides.charts/errorbarsformat/hasendcap/
 ---
 ## ErrorBarsFormat.HasEndCap property
 
-指定不在误差线上绘制端盖。 读/写Boolean。
+指定未在误差线上绘制端盖。 读/写Boolean.
 
 ```csharp
 public bool HasEndCap { get; set; }

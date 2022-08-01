@@ -38,7 +38,7 @@ IMathGroupingCharacter groupingElement = new MathematicalText("x;y;z").Group();
 
 ## Group(char, MathTopBotPositions, MathTopBotPositions) {#group_1}
 
-Помещает этот элемент в группу, используя символ группировки, такой как нижняя фигурная скобка или другой
+Помещает этот элемент в группу с помощью символа группировки, такого как нижняя фигурная скобка или other
 
 ```csharp
 public IMathGroupingCharacter Group(char character, MathTopBotPositions position, 
@@ -48,8 +48,8 @@ public IMathGroupingCharacter Group(char character, MathTopBotPositions position
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | character | Char | Символ группировки, такой как НИЖНЯЯ КРЮЧКА (U+23DF) или любой другой |
-| position | MathTopBotPositions | Позиция символа группировки |
-| verticalJustification | MathTopBotPositions | Вертикальное выравнивание группового символа. Задает выравнивание объекта относительно базовой линии. Например, когда символ группы находится над объектом, Вертикальное выравнивание по верху означает, что верх объекта падает на базовую линию; когда для параметра VerticalJustification установлено значение Bottom, нижняя часть объекта находится на базовой линии |
+| position | MathTopBotPositions | Позиция группирующего символа |
+| verticalJustification | MathTopBotPositions | Вертикальное выравнивание группового символа. Указывает выравнивание объекта относительно базовой линии. Например, когда групповой символ находится над объектом, Вертикальное выравнивание по верху означает, что верхняя часть объекта падает на базовую линию; когда для параметра VerticalJustification установлено значение Bottom, нижняя часть объекта находится на baseline |
 
 ### Возвращаемое значение
 

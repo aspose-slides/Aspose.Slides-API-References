@@ -1,14 +1,14 @@
 ---
 title: FontFallBackRulesCollection
 second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет набор правил FontFallBack определенных пользователем
+description: Представляет набор правил FontFallBack определенных пользователем user
 type: docs
 weight: 4410
 url: /ru/net/aspose.slides/fontfallbackrulescollection/
 ---
 ## FontFallBackRulesCollection class
 
-Представляет набор правил FontFallBack, определенных пользователем
+Представляет набор правил FontFallBack, определенных пользователем user
 
 ```csharp
 public class FontFallBackRulesCollection : IFontFallBackRulesCollection
@@ -24,18 +24,18 @@ public class FontFallBackRulesCollection : IFontFallBackRulesCollection
 
 | Имя | Описание |
 | --- | --- |
-| [Count](../../aspose.slides/fontfallbackrulescollection/count) { get; } | Получает количество правил, фактически содержащихся в коллекции. Только для чтенияInt32. |
-| [IsSynchronized](../../aspose.slides/fontfallbackrulescollection/issynchronized) { get; } | Возвращает значение, указывающее, является ли доступ к коллекции синхронизированным (потокобезопасным). Только чтениеBoolean. |
-| [Item](../../aspose.slides/fontfallbackrulescollection/item) { get; } | Получает правило по указанному индексу. Только для чтения[`IFontFallBackRule`](../ifontfallbackrule). |
-| [SyncRoot](../../aspose.slides/fontfallbackrulescollection/syncroot) { get; } | Возвращает корень синхронизации. Только для чтенияObject. |
+| [Count](../../aspose.slides/fontfallbackrulescollection/count) { get; } | Получает количество правил, фактически содержащихся в коллекции. Только для чтенияInt32 . |
+| [IsSynchronized](../../aspose.slides/fontfallbackrulescollection/issynchronized) { get; } | Возвращает значение, указывающее, является ли доступ к коллекции синхронизированным (потокобезопасным). Только для чтенияBoolean . |
+| [Item](../../aspose.slides/fontfallbackrulescollection/item) { get; } | Получает правило по указанному индексу. Только для чтения[`IFontFallBackRule`](../ifontfallbackrule) . |
+| [SyncRoot](../../aspose.slides/fontfallbackrulescollection/syncroot) { get; } | Возвращает корень синхронизации. Только для чтенияObject . |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
 | [Add](../../aspose.slides/fontfallbackrulescollection/add)(IFontFallBackRule) | Добавить указанное правило FallBack в конец коллекции. |
-| [CopyTo](../../aspose.slides/fontfallbackrulescollection/copyto)(Array, int) | Копирует все элементы из коллекции в указанный массив. |
-| [GetEnumerator](../../aspose.slides/fontfallbackrulescollection/getenumerator)() | Возвращает перечислитель, который перебирает коллекцию. |
+| [CopyTo](../../aspose.slides/fontfallbackrulescollection/copyto)(Array, int) | Копирует все элементы коллекции в указанный массив. |
+| [GetEnumerator](../../aspose.slides/fontfallbackrulescollection/getenumerator)() | Возвращает перечислитель, который выполняет итерацию по коллекции. |
 | [Remove](../../aspose.slides/fontfallbackrulescollection/remove)(IFontFallBackRule) | Удаляет первое вхождение определенного правила FallBack из коллекции. |
 
 ### Смотрите также

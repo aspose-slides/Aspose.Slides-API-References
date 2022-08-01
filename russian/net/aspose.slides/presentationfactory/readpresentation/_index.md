@@ -1,14 +1,14 @@
 ---
 title: ReadPresentation
 second_title: Справочник по API Aspose.Slides для .NET
-description: Читает существующую презентацию из массива
+description: Читает существующую презентацию из array
 type: docs
 weight: 60
 url: /ru/net/aspose.slides/presentationfactory/readpresentation/
 ---
 ## ReadPresentation(byte[]) {#readpresentation}
 
-Читает существующую презентацию из массива
+Читает существующую презентацию из array
 
 ```csharp
 public IPresentation ReadPresentation(byte[] data)
@@ -42,7 +42,7 @@ public IPresentation ReadPresentation(byte[] data, ILoadOptions options)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | data | Byte[] | Массив для чтения |
-| options | ILoadOptions | Опции загрузки |
+| options | ILoadOptions | Параметры загрузки |
 
 ### Возвращаемое значение
 
@@ -60,7 +60,7 @@ public IPresentation ReadPresentation(byte[] data, ILoadOptions options)
 
 ## ReadPresentation(Stream) {#readpresentation_2}
 
-Читает существующую презентацию из потока
+Читает существующую презентацию из stream
 
 ```csharp
 public IPresentation ReadPresentation(Stream stream)
@@ -94,7 +94,7 @@ public IPresentation ReadPresentation(Stream stream, ILoadOptions options)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | stream | Stream | Входной поток для чтения |
-| options | ILoadOptions | Загрузить параметры |
+| options | ILoadOptions | Параметры загрузки |
 
 ### Возвращаемое значение
 
@@ -146,11 +146,11 @@ public IPresentation ReadPresentation(string file, ILoadOptions options)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | file | String | Имя файла |
-| options | ILoadOptions | Опции загрузки |
+| options | ILoadOptions | Параметры загрузки |
 
 ### Возвращаемое значение
 
-Прочитать презентацию
+Читать презентацию
 
 ### Смотрите также
 

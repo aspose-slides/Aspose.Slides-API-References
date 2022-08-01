@@ -22,11 +22,11 @@ public MathDelimiter(IMathElement element)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| InvalidOperationException | Throws then*element*是另一个元素的容器，例如 MathBlock .在这种情况下，您需要使用 IEnumerable 参数调用不同的构造函数。 |
+| InvalidOperationException | 然后抛出*element*是另一个元素的容器，例如 MathBlock。在这种情况下，您需要使用 IEnumerable 参数调用不同的构造函数。 |
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]

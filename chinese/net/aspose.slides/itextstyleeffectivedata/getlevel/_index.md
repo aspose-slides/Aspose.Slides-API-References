@@ -20,7 +20,7 @@ public IParagraphFormatEffectiveData GetLevel(int index)
 
 ### 返回值
 
-级别的有效格式[`IParagraphFormatEffectiveData`](../../iparagraphformateffectivedata)。
+级别的有效格式化[`IParagraphFormatEffectiveData`](../../iparagraphformateffectivedata).
 
 ### 也可以看看
 

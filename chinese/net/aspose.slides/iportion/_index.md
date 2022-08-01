@@ -18,10 +18,10 @@ public interface IPortion : ISlideComponent
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsISlideComponent](../../aspose.slides/iportion/asislidecomponent) { get; } | 允许获取基础 ISlideComponent 接口。 只读[`ISlideComponent`](../islidecomponent)。 |
-| [Field](../../aspose.slides/iportion/field) { get; } | 返回此部分的字段。 只读[`IField`](../ifield)。 |
-| [PortionFormat](../../aspose.slides/iportion/portionformat) { get; } | 返回格式化对象，其中包含明确设置的文本部分的格式化属性，没有应用继承。 只读[`IPortionFormat`](../iportionformat)。 |
-| [Text](../../aspose.slides/iportion/text) { get; set; } | 获取或设置部分的纯文本。 读/写String。 |
+| [AsISlideComponent](../../aspose.slides/iportion/asislidecomponent) { get; } | 允许获取基本 ISlideComponent 接口。 只读[`ISlideComponent`](../islidecomponent). |
+| [Field](../../aspose.slides/iportion/field) { get; } | 返回此部分的字段。 只读[`IField`](../ifield). |
+| [PortionFormat](../../aspose.slides/iportion/portionformat) { get; } | 返回格式化对象，其中包含明确设置的文本部分的格式化属性，没有应用继承。 只读[`IPortionFormat`](../iportionformat). |
+| [Text](../../aspose.slides/iportion/text) { get; set; } | 获取或设置部分的纯文本。 读/写String. |
 
 ## 方法
 
@@ -29,8 +29,8 @@ public interface IPortion : ISlideComponent
 | --- | --- |
 | [AddField](../../aspose.slides/iportion/addfield#addfield)(IFieldType) | 将此部分转换为自动更新的字段。 |
 | [AddField](../../aspose.slides/iportion/addfield#addfield_1)(string) | 将此部分转换为自动更新的字段。 |
-| [GetCoordinates](../../aspose.slides/iportion/getcoordinates)() | 获取部分开始的坐标。 point 的 X 坐标表示 从第一个字符开始的部分，包括左侧轴承。 Y 坐标 包括顶侧轴承。 |
-| [GetRect](../../aspose.slides/iportion/getrect)() | 获取边界部分的矩形坐标。 rect 包括部分 文本的所有行，包括空行。 |
+| [GetCoordinates](../../aspose.slides/iportion/getcoordinates)() | 获取部分开始的坐标。点的 X 坐标表示从第一个字符开始的 部分，包括左侧方位。 Y 坐标 包括顶侧轴承。 |
+| [GetRect](../../aspose.slides/iportion/getrect)() | 获取边界部分的矩形坐标。 rect 部分包含 文本的所有行，包括空行。 |
 | [RemoveField](../../aspose.slides/iportion/removefield)() | 将此字段部分转换为简单部分。 |
 
 ### 也可以看看

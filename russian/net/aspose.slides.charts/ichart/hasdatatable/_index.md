@@ -1,14 +1,14 @@
 ---
 title: HasDataTable
 second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет имеет ли диаграмма таблицу данных. Чтение/записьBoolean.
+description: Определяет имеет ли диаграмма таблицу данных. Чтение/записьBoolean .
 type: docs
 weight: 110
 url: /ru/net/aspose.slides.charts/ichart/hasdatatable/
 ---
 ## IChart.HasDataTable property
 
-Определяет, имеет ли диаграмма таблицу данных. Чтение/записьBoolean.
+Определяет, имеет ли диаграмма таблицу данных. Чтение/записьBoolean .
 
 ```csharp
 public bool HasDataTable { get; set; }

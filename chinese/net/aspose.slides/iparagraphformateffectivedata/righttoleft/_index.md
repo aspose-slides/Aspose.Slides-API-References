@@ -1,14 +1,14 @@
 ---
 title: RightToLeft
 second_title: Aspose.Slides for .NET API 参考
-description: 确定段落中是否使用从右到左书写 只读Boolean
+description: 确定段落中是否使用从右到左书写 只读Boolean.
 type: docs
 weight: 130
 url: /zh/net/aspose.slides/iparagraphformateffectivedata/righttoleft/
 ---
 ## IParagraphFormatEffectiveData.RightToLeft property
 
-确定段落中是否使用从右到左书写。 只读Boolean。
+确定段落中是否使用从右到左书写。 只读Boolean.
 
 ```csharp
 public bool RightToLeft { get; }

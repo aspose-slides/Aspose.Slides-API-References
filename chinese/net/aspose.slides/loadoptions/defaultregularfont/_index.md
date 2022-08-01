@@ -1,14 +1,14 @@
 ---
 title: DefaultRegularFont
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置在未找到源字体时使用的常规字体 读/写String
+description: 返回或设置在找不到源字体的情况下使用的常规字体 读/写String.
 type: docs
 weight: 40
 url: /zh/net/aspose.slides/loadoptions/defaultregularfont/
 ---
 ## LoadOptions.DefaultRegularFont property
 
-返回或设置在未找到源字体时使用的常规字体。 读/写String。
+返回或设置在找不到源字体的情况下使用的常规字体。 读/写String.
 
 ```csharp
 public string DefaultRegularFont { get; set; }

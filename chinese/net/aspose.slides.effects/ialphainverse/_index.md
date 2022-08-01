@@ -1,14 +1,14 @@
 ---
 title: IAlphaInverse
 second_title: Aspose.Slides for .NET API 参考
-description: 表示 Alpha Inverse 效果 Alpha不透明度值通过从 100 中减去来反转
+description: 表示 Alpha 反转效果 Alpha不透明度值通过从 100 中减去来反转
 type: docs
 weight: 2900
 url: /zh/net/aspose.slides.effects/ialphainverse/
 ---
 ## IAlphaInverse interface
 
-表示 Alpha Inverse 效果。 Alpha（不透明度）值通过从 100% 中减去来反转。
+表示 Alpha 反转效果。 Alpha（不透明度）值通过从 100% 中减去来反转。
 
 ```csharp
 public interface IAlphaInverse : IAccessiblePVIObject<IAlphaInverseEffectiveData>, 
@@ -19,8 +19,8 @@ public interface IAlphaInverse : IAccessiblePVIObject<IAlphaInverseEffectiveData
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphainverse/asiaccessiblepviobject) { get; } | 允许获取基本 IAccessiblePVIObject 接口。 只读[`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1)。 |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ialphainverse/asiimagetransformoperation) { get; } | 允许获取基础 IImageTransformOperation 接口。 只读[`IImageTransformOperation`](../iimagetransformoperation)。 |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphainverse/asiaccessiblepviobject) { get; } | 允许获取基本 IAccessiblePVIObject 接口。 只读[`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ialphainverse/asiimagetransformoperation) { get; } | 允许获取基本 IImageTransformOperation 接口。 只读[`IImageTransformOperation`](../iimagetransformoperation). |
 
 ### 也可以看看
 

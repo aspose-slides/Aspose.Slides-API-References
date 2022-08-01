@@ -1,14 +1,14 @@
 ---
 title: ShowMeanLine
 second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет средние маркеры. Истинно если на диаграмме BoxAndWhisker отображаются средние линии. Применяется только к диаграммам BoxAndWhisker. Чтение/записьBoolean.
+description: Представляет средние маркеры. Истинно если на диаграмме BoxAndWhisker отображаются средние линии. Применяется только к диаграммам BoxAndWhisker. Чтение/записьBoolean .
 type: docs
 weight: 390
 url: /ru/net/aspose.slides.charts/ichartseries/showmeanline/
 ---
 ## IChartSeries.ShowMeanLine property
 
-Представляет средние маркеры. Истинно, если на диаграмме BoxAndWhisker отображаются средние линии. Применяется только к диаграммам BoxAndWhisker. Чтение/записьBoolean.
+Представляет средние маркеры. Истинно, если на диаграмме BoxAndWhisker отображаются средние линии. Применяется только к диаграммам BoxAndWhisker. Чтение/записьBoolean .
 
 ```csharp
 public bool ShowMeanLine { get; set; }

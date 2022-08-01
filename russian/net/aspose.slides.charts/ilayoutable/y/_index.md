@@ -1,14 +1,14 @@
 ---
 title: Y
 second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет верхнюю часть элемента диаграммы как часть высоты диаграммы. Чтение/записьSingle.
+description: Определяет верхнюю часть элемента диаграммы как часть высоты диаграммы. Чтение/записьSingle .
 type: docs
 weight: 70
 url: /ru/net/aspose.slides.charts/ilayoutable/y/
 ---
 ## ILayoutable.Y property
 
-Определяет верхнюю часть элемента диаграммы как часть высоты диаграммы. Чтение/записьSingle.
+Определяет верхнюю часть элемента диаграммы как часть высоты диаграммы. Чтение/записьSingle .
 
 ```csharp
 public float Y { get; set; }

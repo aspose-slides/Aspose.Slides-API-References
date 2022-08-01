@@ -22,7 +22,7 @@ public void SetExternalWorkbook(string workbookPath)
 
 | исключение | условие |
 | --- | --- |
-| InvalidOperationException | Внешняя рабочая книга недоступна или не может быть загружена. |
+| InvalidOperationException | Внешняя книга недоступна или не может быть загружена. |
 
 ### Примеры
 
@@ -55,13 +55,13 @@ public void SetExternalWorkbook(string workbookPath, bool updateChartData)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | workbookPath | String | Путь к целевой книге |
-| updateChartData | Boolean | Если значение имеет значение false, будет обновлен только путь к книге. Данные диаграммы не будут загружаться и обновляться из целевой книги. Может использоваться, когда целевая книга не существует или недоступна. Если значение равно true, данные диаграммы будут обновлены из целевой книги. |
+| updateChartData | Boolean | Если значение равно false, будет обновлен только путь к книге. Данные диаграммы не будут загружаться и обновляться из целевой книги. Может использоваться, когда целевая рабочая книга не существует или недоступна. Если значение равно true, данные диаграммы будут обновлены из целевой рабочей книги. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| InvalidOperationException | Внешняя рабочая книга недоступна или не может быть загружена. |
+| InvalidOperationException | Внешняя книга недоступна или не может быть загружена. |
 
 ### Примеры
 
@@ -71,7 +71,7 @@ using (Presentation pres = new Presentation())
    IChart chart = pres.Slides[0].Shapes.AddChart(ChartType.Pie, 50, 50, 400, 600, true);
    IChartData chartData = chart.ChartData;
 
-   (chartData as ChartData).SetExternalWorkbook("http: //путь/не существует/не существует", false);
+   (chartData as ChartData).SetExternalWorkbook("http://путь/не существует/не существует", false);
 
 
 ```

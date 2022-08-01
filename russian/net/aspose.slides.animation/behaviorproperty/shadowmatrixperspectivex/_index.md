@@ -8,7 +8,7 @@ url: /ru/net/aspose.slides.animation/behaviorproperty/shadowmatrixperspectivex/
 ---
 ## BehaviorProperty.ShadowMatrixPerspectiveX property
 
-Представляет свойство 'shadow.matrix.perspectiveX'
+Представляет свойство shadow.matrix.perspectiveX
 
 ```csharp
 public static BehaviorProperty ShadowMatrixPerspectiveX { get; }

@@ -1,14 +1,14 @@
 ---
 title: MarginBottom
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置 TextFrame 的下边距 读/写Double
+description: 返回或设置 TextFrame 中的下边距 读/写Double
 type: docs
 weight: 100
 url: /zh/net/aspose.slides/cell/marginbottom/
 ---
 ## Cell.MarginBottom property
 
-返回或设置 TextFrame 的下边距。 读/写Double。
+返回或设置 TextFrame 中的下边距。 读/写Double
 
 ```csharp
 public double MarginBottom { get; set; }

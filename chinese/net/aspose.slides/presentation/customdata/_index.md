@@ -1,14 +1,14 @@
 ---
 title: CustomData
 second_title: Aspose.Slides for .NET API 参考
-description: 返回演示文稿的自定义数据 只读ICustomDataaspose.slides/icustomdata
+description: 返回演示文稿的自定义数据 只读ICustomDataaspose.slides/icustomdata.
 type: docs
 weight: 60
 url: /zh/net/aspose.slides/presentation/customdata/
 ---
 ## Presentation.CustomData property
 
-返回演示文稿的自定义数据。 只读[`ICustomData`](../../icustomdata)。
+返回演示文稿的自定义数据。 只读[`ICustomData`](../../icustomdata).
 
 ```csharp
 public ICustomData CustomData { get; }

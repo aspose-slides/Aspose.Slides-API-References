@@ -18,7 +18,7 @@ public interface ITextStyleEffectiveData
 
 | Имя | Описание |
 | --- | --- |
-| [DefaultParagraphFormat](../../aspose.slides/itextstyleeffectivedata/defaultparagraphformat) { get; } | Возвращает действующие свойства абзаца по умолчанию. Только для чтения[`IParagraphFormatEffectiveData`](../iparagraphformateffectivedata). |
+| [DefaultParagraphFormat](../../aspose.slides/itextstyleeffectivedata/defaultparagraphformat) { get; } | Возвращает действующие свойства абзаца по умолчанию. Только для чтения[`IParagraphFormatEffectiveData`](../iparagraphformateffectivedata) . |
 
 ## Методы
 
@@ -28,7 +28,7 @@ public interface ITextStyleEffectiveData
 
 ### Примечания
 
-Этот интерфейс используется вместе с[`ITextStyle`](../itextstyle)интерфейс для возврата эффективных значений форматирования с применением наследования.
+Этот интерфейс используется вместе с[`ITextStyle`](../itextstyle) интерфейс для возврата эффективных значений форматирования с применением наследования.
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: GetHashCode
 second_title: Справочник по API Aspose.Slides для .NET
-description: Служит хэш-функцией для определенного типа.
+description: Служит хеш-функцией для определенного типа.
 type: docs
 weight: 30
 url: /ru/net/aspose.slides.effects/tint/gethashcode/
 ---
 ## Tint.GetHashCode method
 
-Служит хэш-функцией для определенного типа.
+Служит хеш-функцией для определенного типа.
 
 ```csharp
 public override int GetHashCode()
@@ -16,7 +16,7 @@ public override int GetHashCode()
 
 ### Возвращаемое значение
 
-Хэш-код текущего объекта.
+Хэш-код для текущего объекта.
 
 ### Смотрите также
 

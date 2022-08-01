@@ -8,7 +8,7 @@ url: /ru/net/aspose.slides.animation/behaviorproperty/styletextdecorationlinethr
 ---
 ## BehaviorProperty.StyleTextDecorationLineThrough property
 
-Представляет свойство 'style.textDecorationLineThrough'
+Представляет свойство style.textDecorationLineThrough
 
 ```csharp
 public static BehaviorProperty StyleTextDecorationLineThrough { get; }

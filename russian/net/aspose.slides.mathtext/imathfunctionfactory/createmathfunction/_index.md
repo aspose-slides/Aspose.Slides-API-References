@@ -16,7 +16,7 @@ public IMathFunction CreateMathFunction(IMathElement funcName, IMathElement base
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| funcName | IMathElement | Элемент, используемый как имя функции |
+| funcName | IMathElement | Элемент, используемый в качестве имени функции |
 | baseArgument | IMathElement | Элемент, используемый в качестве аргумента функции |
 
 ### Возвращаемое значение

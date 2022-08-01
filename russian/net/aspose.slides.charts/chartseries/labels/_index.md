@@ -1,14 +1,14 @@
 ---
 title: Labels
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает метки серии. Только для чтенияIDataLabelCollectionaspose.slides.charts/idatalabelcollection.
+description: Возвращает метки серии. Только для чтенияIDataLabelCollectionaspose.slides.charts/idatalabelcollection .
 type: docs
 weight: 190
 url: /ru/net/aspose.slides.charts/chartseries/labels/
 ---
 ## ChartSeries.Labels property
 
-Возвращает метки серии. Только для чтения[`IDataLabelCollection`](../../idatalabelcollection).
+Возвращает метки серии. Только для чтения[`IDataLabelCollection`](../../idatalabelcollection) .
 
 ```csharp
 public IDataLabelCollection Labels { get; }

@@ -24,7 +24,7 @@ public class MotionPath : IMotionPath
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Count](../../aspose.slides.animation/motionpath/count) { get; } | 返回集合中的路径数。 只读Int32。 |
+| [Count](../../aspose.slides.animation/motionpath/count) { get; } | 返回集合中的路径数。 只读Int32. |
 | [Item](../../aspose.slides.animation/motionpath/item) { get; } | 返回指定索引处的命令。 |
 
 ## 方法
@@ -34,7 +34,7 @@ public class MotionPath : IMotionPath
 | [Add](../../aspose.slides.animation/motionpath/add)(MotionCommandPathType, PointF[], MotionPathPointsType, bool) | 将新命令添加到路径 |
 | [Clear](../../aspose.slides.animation/motionpath/clear)() | 从集合中删除所有命令。 |
 | [GetEnumerator](../../aspose.slides.animation/motionpath/getenumerator)() | 返回一个遍历集合的枚举器。 |
-| [Insert](../../aspose.slides.animation/motionpath/insert)(int, MotionCommandPathType, PointF[], MotionPathPointsType, bool) | 向路径插入新命令 |
+| [Insert](../../aspose.slides.animation/motionpath/insert)(int, MotionCommandPathType, PointF[], MotionPathPointsType, bool) | 将新命令插入路径 |
 | [Remove](../../aspose.slides.animation/motionpath/remove)(IMotionCmdPath) | 从集合中删除指定的命令。 |
 | [RemoveAt](../../aspose.slides.animation/motionpath/removeat)(int) | 删除指定索引处的命令。 |
 

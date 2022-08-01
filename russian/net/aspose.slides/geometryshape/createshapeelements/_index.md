@@ -1,14 +1,14 @@
 ---
 title: CreateShapeElements
 second_title: Справочник по API Aspose.Slides для .NET
-description: Создает и возвращает массив элементов формы.
+description: Создает и возвращает массив элементов фигуры.
 type: docs
 weight: 40
 url: /ru/net/aspose.slides/geometryshape/createshapeelements/
 ---
 ## GeometryShape.CreateShapeElements method
 
-Создает и возвращает массив элементов формы.
+Создает и возвращает массив элементов фигуры.
 
 ```csharp
 public IShapeElement[] CreateShapeElements()

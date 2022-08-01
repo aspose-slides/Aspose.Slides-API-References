@@ -1,14 +1,14 @@
 ---
 title: ReflectionEffect
 second_title: Справочник по API Aspose.Slides для .NET
-description: Отражение. Чтение/записьIReflectionaspose.slides.effects/ireflection.
+description: Отражение. Чтение/записьIReflectionaspose.slides.effects/ireflection .
 type: docs
 weight: 80
 url: /ru/net/aspose.slides/effectformat/reflectioneffect/
 ---
 ## EffectFormat.ReflectionEffect property
 
-Отражение. Чтение/запись[`IReflection`](../../../aspose.slides.effects/ireflection).
+Отражение. Чтение/запись[`IReflection`](../../../aspose.slides.effects/ireflection) .
 
 ```csharp
 public IReflection ReflectionEffect { get; set; }

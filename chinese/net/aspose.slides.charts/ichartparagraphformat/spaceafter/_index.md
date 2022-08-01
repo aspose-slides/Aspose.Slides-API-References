@@ -1,14 +1,14 @@
 ---
 title: SpaceAfter
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置段落最后一行之后的空格量 读/写Single
+description: 返回或设置段落最后一行之后的空格量 读/写Single.
 type: docs
 weight: 110
 url: /zh/net/aspose.slides.charts/ichartparagraphformat/spaceafter/
 ---
 ## IChartParagraphFormat.SpaceAfter property
 
-返回或设置段落最后一行之后的空格量。 读/写Single。
+返回或设置段落最后一行之后的空格量。 读/写Single.
 
 ```csharp
 public float SpaceAfter { get; set; }

@@ -16,11 +16,11 @@ public override bool Equals(object obj)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| obj | Object | 要与当前 TabsEx 比较的 TabsEx。 |
+| obj | Object | 与当前 TabsEx 进行比较的 TabsEx。 |
 
 ### 返回值
 
-**true** 如果指定的 TabsEx 等于当前 TabsEx；否则， **false** 。
+**真的**如果指定的 TabsEx 等于当前的 TabsEx；否则， **错误的**.
 
 ### 也可以看看
 

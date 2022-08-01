@@ -18,13 +18,13 @@ public interface IPictureEffectiveData
 
 | Имя | Описание |
 | --- | --- |
-| [Image](../../aspose.slides/ipictureeffectivedata/image) { get; } | Возвращает встроенное изображение. Только для чтения[`IPPImage`](../ippimage). |
-| [ImageTransform](../../aspose.slides/ipictureeffectivedata/imagetransform) { get; } | Возвращает набор эффектов преобразования изображения. Только для чтения[`IImageTransformOCollectionEffectiveData`](../../aspose.slides.effects/iimagetransformocollectioneffectivedata). |
-| [LinkPathLong](../../aspose.slides/ipictureeffectivedata/linkpathlong) { get; } | Возвращает URL связанного изображения. Только чтениеString. |
+| [Image](../../aspose.slides/ipictureeffectivedata/image) { get; } | Возвращает встроенное изображение. Только для чтения[`IPPImage`](../ippimage) . |
+| [ImageTransform](../../aspose.slides/ipictureeffectivedata/imagetransform) { get; } | Возвращает набор эффектов преобразования изображения. Только для чтения[`IImageTransformOCollectionEffectiveData`](../../aspose.slides.effects/iimagetransformocollectioneffectivedata) . |
+| [LinkPathLong](../../aspose.slides/ipictureeffectivedata/linkpathlong) { get; } | Возвращает URL связанного изображения. Только для чтенияString . |
 
 ### Примечания
 
-Этот интерфейс используется как часть[`IPictureFillFormatEffectiveData`](../ipicturefillformateffectivedata)и[`IBulletFormatEffectiveData`](../ibulletformateffectivedata).
+Этот интерфейс используется как часть[`IPictureFillFormatEffectiveData`](../ipicturefillformateffectivedata) а также[`IBulletFormatEffectiveData`](../ibulletformateffectivedata) .
 
 ### Смотрите также
 

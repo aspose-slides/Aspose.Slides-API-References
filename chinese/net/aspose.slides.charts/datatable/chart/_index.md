@@ -1,14 +1,14 @@
 ---
 title: Chart
 second_title: Aspose.Slides for .NET API 参考
-description: 返回图表 只读IChartaspose.slides.charts/ichart
+description: 返回图表 只读IChartaspose.slides.charts/ichart.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides.charts/datatable/chart/
 ---
 ## DataTable.Chart property
 
-返回图表。 只读[`IChart`](../../ichart)。
+返回图表。 只读[`IChart`](../../ichart).
 
 ```csharp
 public IChart Chart { get; }

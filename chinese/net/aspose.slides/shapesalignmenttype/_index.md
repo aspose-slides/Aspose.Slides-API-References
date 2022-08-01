@@ -1,14 +1,14 @@
 ---
 title: ShapesAlignmentType
 second_title: Aspose.Slides for .NET API 参考
-description: 定义一种更改幻灯片上选定形状位置的方法
+description: 定义一种更改幻灯片上选定形状的位置的方法
 type: docs
 weight: 9160
 url: /zh/net/aspose.slides/shapesalignmenttype/
 ---
 ## ShapesAlignmentType enumeration
 
-定义一种更改幻灯片上选定形状位置的方法。
+定义一种更改幻灯片上选定形状的位置的方法。
 
 ```csharp
 public enum ShapesAlignmentType
@@ -20,11 +20,11 @@ public enum ShapesAlignmentType
 | --- | --- | --- |
 | AlignLeft | `0` | 左对齐 |
 | AlignRight | `1` | 右对齐 |
-| AlignCenter | `2` | 居中对齐 |
+| AlignCenter | `2` | 对齐中心 |
 | AlignTop | `3` | 对齐顶部 |
 | AlignMiddle | `4` | 居中对齐 |
 | AlignBottom | `5` | 对齐底部 |
-| DistributeHorizontally | `6` | 横向分布 |
+| DistributeHorizontally | `6` | 水平分布 |
 | DistributeVertically | `7` | 垂直分布 |
 
 ### 也可以看看

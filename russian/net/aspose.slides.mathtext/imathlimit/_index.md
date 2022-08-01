@@ -21,7 +21,7 @@ public interface IMathLimit : IMathElement
 | [AsIMathElement](../../aspose.slides.mathtext/imathlimit/asimathelement) { get; } | Позволяет получить базовый интерфейс IMathElement [`IMathElement`](../imathelement) |
 | [Base](../../aspose.slides.mathtext/imathlimit/base) { get; } | Базовый аргумент |
 | [Limit](../../aspose.slides.mathtext/imathlimit/limit) { get; } | Предельный аргумент |
-| [UpperLimit](../../aspose.slides.mathtext/imathlimit/upperlimit) { get; set; } | Задает верхний или нижний предел |
+| [UpperLimit](../../aspose.slides.mathtext/imathlimit/upperlimit) { get; set; } | Указывает верхний или нижний предел |
 
 ### Примеры
 

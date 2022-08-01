@@ -1,14 +1,14 @@
 ---
 title: ImageDataGain
 second_title: Aspose.Slides for .NET API 参考
-description: 表示imageData.gain属性
+description: 表示imageData.gain 属性
 type: docs
 weight: 480
 url: /zh/net/aspose.slides.animation/behaviorproperty/imagedatagain/
 ---
 ## BehaviorProperty.ImageDataGain property
 
-表示'imageData.gain'属性
+表示'imageData.gain' 属性
 
 ```csharp
 public static BehaviorProperty ImageDataGain { get; }

@@ -19,7 +19,7 @@ public class OOXMLCorruptFileException : OOXMLException
 | Имя | Описание |
 | --- | --- |
 | [OOXMLCorruptFileException](ooxmlcorruptfileexception#constructor)() | Конструктор по умолчанию. |
-| [OOXMLCorruptFileException](ooxmlcorruptfileexception#constructor_1)(string) | Конструктор, позволяющий добавить сообщение к этому исключению. |
+| [OOXMLCorruptFileException](ooxmlcorruptfileexception#constructor_1)(string) | Конструктор, позволяющий добавить сообщение в это исключение. |
 | [OOXMLCorruptFileException](ooxmlcorruptfileexception#constructor_2)(string, Exception) | Конструктор исключения, содержащего сообщение и встроенное исключение. |
 
 ### Смотрите также

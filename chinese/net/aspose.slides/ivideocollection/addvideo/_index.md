@@ -33,7 +33,7 @@ public IVideo AddVideo(IVideo video)
 
 ## AddVideo(Stream, LoadingStreamBehavior) {#addvideo_3}
 
-创建视频并将其添加到流中的演示文稿。
+从流中创建视频并将其添加到演示文稿中。
 
 ```csharp
 public IVideo AddVideo(Stream stream, LoadingStreamBehavior loadingStreamBehavior)
@@ -46,7 +46,7 @@ public IVideo AddVideo(Stream stream, LoadingStreamBehavior loadingStreamBehavio
 
 ### 返回值
 
-添加[`IVideo`](../../ivideo)。
+添加[`IVideo`](../../ivideo).
 
 ### 也可以看看
 
@@ -60,7 +60,7 @@ public IVideo AddVideo(Stream stream, LoadingStreamBehavior loadingStreamBehavio
 
 ## AddVideo(byte[]) {#addvideo_1}
 
-从字节数组创建视频并将其添加到演示文稿。
+从字节数组创建视频并将其添加到演示文稿中。
 
 ```csharp
 public IVideo AddVideo(byte[] videoData)

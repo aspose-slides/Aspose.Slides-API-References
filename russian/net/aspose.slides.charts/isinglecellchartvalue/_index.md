@@ -18,8 +18,8 @@ public interface ISingleCellChartValue : IBaseChartValue
 
 | Имя | Описание |
 | --- | --- |
-| [AsCell](../../aspose.slides.charts/isinglecellchartvalue/ascell) { get; set; } | Возвращает или устанавливает ячейку данных диаграммы. Чтение/запись[`IChartDataCell`](../ichartdatacell). |
-| [AsIBaseChartValue](../../aspose.slides.charts/isinglecellchartvalue/asibasechartvalue) { get; } | Позволяет получить базовый интерфейс IBaseChartValue. Только для чтения[`IBaseChartValue`](../ibasechartvalue). |
+| [AsCell](../../aspose.slides.charts/isinglecellchartvalue/ascell) { get; set; } | Возвращает или устанавливает ячейку данных диаграммы. Чтение/запись[`IChartDataCell`](../ichartdatacell) . |
+| [AsIBaseChartValue](../../aspose.slides.charts/isinglecellchartvalue/asibasechartvalue) { get; } | Позволяет получить базовый интерфейс IBaseChartValue. Только для чтения[`IBaseChartValue`](../ibasechartvalue) . |
 
 ### Смотрите также
 

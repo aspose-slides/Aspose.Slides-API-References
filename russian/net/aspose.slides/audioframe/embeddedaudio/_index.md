@@ -1,14 +1,14 @@
 ---
 title: EmbeddedAudio
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или устанавливает встроенный звуковой объект. Чтение/записьIAudioaspose.slides/iaudio.
+description: Возвращает или устанавливает встроенный звуковой объект. Чтение/записьIAudioaspose.slides/iaudio .
 type: docs
 weight: 60
 url: /ru/net/aspose.slides/audioframe/embeddedaudio/
 ---
 ## AudioFrame.EmbeddedAudio property
 
-Возвращает или устанавливает встроенный звуковой объект. Чтение/запись[`IAudio`](../../iaudio).
+Возвращает или устанавливает встроенный звуковой объект. Чтение/запись[`IAudio`](../../iaudio) .
 
 ```csharp
 public IAudio EmbeddedAudio { get; set; }

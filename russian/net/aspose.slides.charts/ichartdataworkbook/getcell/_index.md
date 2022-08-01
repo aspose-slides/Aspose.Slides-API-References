@@ -1,14 +1,14 @@
 ---
 title: GetCell
 second_title: Справочник по API Aspose.Slides для .NET
-description: Получает ячейку которую можно использовать для серий или категорий диаграммы
+description: Получает ячейку которую можно использовать для серий или категорий диаграмм
 type: docs
 weight: 40
 url: /ru/net/aspose.slides.charts/ichartdataworkbook/getcell/
 ---
 ## GetCell(string, int, int) {#getcell_4}
 
-Получает ячейку, которую можно использовать для серий или категорий диаграммы
+Получает ячейку, которую можно использовать для серий или категорий диаграмм
 
 ```csharp
 public IChartDataCell GetCell(string worksheetName, int row, int column)
@@ -17,8 +17,8 @@ public IChartDataCell GetCell(string worksheetName, int row, int column)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | worksheetName | String | Имя рабочего листа. |
-| row | Int32 | Строка. |
-| столбец | Int32 | Столбец. |
+| row | Int32 | Ряд. |
+| column | Int32 | Колонка. |
 
 ### Возвращаемое значение
 
@@ -35,7 +35,7 @@ public IChartDataCell GetCell(string worksheetName, int row, int column)
 
 ## GetCell(int, int, int) {#getcell}
 
-Получает ячейку, которую можно использовать для серий или категорий диаграммы
+Получает ячейку, которую можно использовать для серий или категорий диаграмм
 
 ```csharp
 public IChartDataCell GetCell(int worksheetIndex, int row, int column)
@@ -44,8 +44,8 @@ public IChartDataCell GetCell(int worksheetIndex, int row, int column)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | worksheetIndex | Int32 | Индекс рабочего листа. |
-| row | Int32 | Строка. |
-| столбец | Int32 | Столбец. |
+| row | Int32 | Ряд. |
+| column | Int32 | Колонка. |
 
 ### Возвращаемое значение
 
@@ -62,7 +62,7 @@ public IChartDataCell GetCell(int worksheetIndex, int row, int column)
 
 ## GetCell(int, string) {#getcell_2}
 
-Получает ячейку, которую можно использовать для серий или категорий диаграммы
+Получает ячейку, которую можно использовать для серий или категорий диаграмм
 
 ```csharp
 public IChartDataCell GetCell(int worksheetIndex, string cellName)
@@ -88,7 +88,7 @@ public IChartDataCell GetCell(int worksheetIndex, string cellName)
 
 ## GetCell(int, string, object) {#getcell_3}
 
-Получает ячейку, которую можно использовать для серий или категорий диаграммы
+Получает ячейку, которую можно использовать для серий или категорий диаграмм
 
 ```csharp
 public IChartDataCell GetCell(int worksheetIndex, string cellName, object value)
@@ -115,7 +115,7 @@ public IChartDataCell GetCell(int worksheetIndex, string cellName, object value)
 
 ## GetCell(int, int, int, object) {#getcell_1}
 
-Получает ячейку, которую можно использовать для серий или категорий диаграммы
+Получает ячейку, которую можно использовать для серий или категорий диаграмм
 
 ```csharp
 public IChartDataCell GetCell(int worksheetIndex, int row, int column, object value)
@@ -124,8 +124,8 @@ public IChartDataCell GetCell(int worksheetIndex, int row, int column, object va
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | worksheetIndex | Int32 | Индекс рабочего листа. |
-| row | Int32 | Строка. |
-| столбец | Int32 | Столбец. |
+| row | Int32 | Ряд. |
+| column | Int32 | Колонка. |
 | value | Object | Значение. |
 
 ### Возвращаемое значение

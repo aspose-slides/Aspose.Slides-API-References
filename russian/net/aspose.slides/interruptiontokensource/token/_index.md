@@ -1,14 +1,14 @@
 ---
 title: Token
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает новый токен привязанный к этомуInterruptionTokenSourceaspose.slides/interruptiontokensource.
+description: Возвращает новый токен привязанный к этомуInterruptionTokenSourceaspose.slides/interruptiontokensource .
 type: docs
 weight: 30
 url: /ru/net/aspose.slides/interruptiontokensource/token/
 ---
 ## InterruptionTokenSource.Token property
 
-Возвращает новый токен, привязанный к этому[`InterruptionTokenSource`](../../interruptiontokensource).
+Возвращает новый токен, привязанный к этому[`InterruptionTokenSource`](../../interruptiontokensource) .
 
 ```csharp
 public IInterruptionToken Token { get; }

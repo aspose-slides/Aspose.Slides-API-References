@@ -1,14 +1,14 @@
 ---
 title: Color1
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает формат целевого цвета для темных пикселей. Только для чтенияIColorFormataspose.slides/icolorformat.
+description: Возвращает формат целевого цвета для темных пикселей. Только для чтенияIColorFormataspose.slides/icolorformat .
 type: docs
 weight: 30
 url: /ru/net/aspose.slides.effects/iduotone/color1/
 ---
 ## IDuotone.Color1 property
 
-Возвращает формат целевого цвета для темных пикселей. Только для чтения[`IColorFormat`](../../../aspose.slides/icolorformat).
+Возвращает формат целевого цвета для темных пикселей. Только для чтения[`IColorFormat`](../../../aspose.slides/icolorformat) .
 
 ```csharp
 public IColorFormat Color1 { get; }

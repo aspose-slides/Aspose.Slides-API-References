@@ -19,12 +19,12 @@ public interface IInnerShadow : IAccessiblePVIObject<IInnerShadowEffectiveData>,
 
 | Имя | Описание |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/iinnershadow/asiaccessiblepviobject) { get; } | Позволяет получить базовый интерфейс IAccessiblePVIObject. Только чтение[`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/iinnershadow/asiimagetransformoperation) { get; } | Позволяет получить базовый интерфейс IImageTransformOperation. Только для чтения[`IImageTransformOperation`](../iimagetransformoperation). |
-| [BlurRadius](../../aspose.slides.effects/iinnershadow/blurradius) { get; set; } | Радиус размытия. Чтение/записьDouble. |
-| [Direction](../../aspose.slides.effects/iinnershadow/direction) { get; set; } | Направление тени. Чтение/записьSingle. |
-| [Distance](../../aspose.slides.effects/iinnershadow/distance) { get; set; } | Расстояние тени. Чтение/записьDouble. |
-| [ShadowColor](../../aspose.slides.effects/iinnershadow/shadowcolor) { get; } | Цвет тени. Только для чтения[`IColorFormat`](../../aspose.slides/icolorformat). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/iinnershadow/asiaccessiblepviobject) { get; } | Позволяет получить базовый интерфейс IAccessiblePVIObject. Только для чтения[`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1) . |
+| [AsIImageTransformOperation](../../aspose.slides.effects/iinnershadow/asiimagetransformoperation) { get; } | Позволяет получить базовый интерфейс IImageTransformOperation. Только для чтения[`IImageTransformOperation`](../iimagetransformoperation) . |
+| [BlurRadius](../../aspose.slides.effects/iinnershadow/blurradius) { get; set; } | Радиус размытия. Чтение/записьDouble . |
+| [Direction](../../aspose.slides.effects/iinnershadow/direction) { get; set; } | Направление тени. Чтение/записьSingle . |
+| [Distance](../../aspose.slides.effects/iinnershadow/distance) { get; set; } | Расстояние тени. Чтение/записьDouble . |
+| [ShadowColor](../../aspose.slides.effects/iinnershadow/shadowcolor) { get; } | Цвет тени. Только для чтения[`IColorFormat`](../../aspose.slides/icolorformat) . |
 
 ### Смотрите также
 

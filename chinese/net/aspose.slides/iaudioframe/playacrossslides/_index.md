@@ -1,14 +1,14 @@
 ---
 title: PlayAcrossSlides
 second_title: Aspose.Slides for .NET API 参考
-description: 确定是否正在跨幻灯片播放音频 读/写Boolean
+description: 确定是否在幻灯片上播放音频 读/写Boolean.
 type: docs
 weight: 100
 url: /zh/net/aspose.slides/iaudioframe/playacrossslides/
 ---
 ## IAudioFrame.PlayAcrossSlides property
 
-确定是否正在跨幻灯片播放音频。 读/写Boolean。
+确定是否在幻灯片上播放音频。 读/写Boolean.
 
 ```csharp
 public bool PlayAcrossSlides { get; set; }
@@ -25,10 +25,10 @@ using (Presentation pres = new Presentation())
     // 添加音频帧
     IAudioFrame audioFrame = slide.Shapes.AddAudioFrameLinked(50, 50, 100, 100, "sampleaudio.wav");
 
-     // 设置音频跨幻灯片播放
+    // 设置音频跨幻灯片播放
     audioFrame.PlayAcrossSlides = true;
 
-     // 设置音频播放后自动倒带开始
+    // 设置音频播放后自动倒带开始
     audioFrame.RewindAudio = true;
 
     pres.Save("AudioFrame_out.pptx", SaveFormat.Pptx);

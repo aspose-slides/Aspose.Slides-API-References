@@ -1,14 +1,14 @@
 ---
 title: GroupShapeLock
 second_title: Aspose.Slides for .NET API 参考
-description: 返回形状的锁 只读IGroupShapeLockaspose.slides/igroupshapelock
+description: 返回形状的锁 只读IGroupShapeLockaspose.slides/igroupshapelock.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides/groupshape/groupshapelock/
 ---
 ## GroupShape.GroupShapeLock property
 
-返回形状的锁。 只读[`IGroupShapeLock`](../../igroupshapelock)。
+返回形状的锁。 只读[`IGroupShapeLock`](../../igroupshapelock).
 
 ```csharp
 public IGroupShapeLock GroupShapeLock { get; }

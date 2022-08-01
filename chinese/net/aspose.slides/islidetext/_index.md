@@ -18,8 +18,8 @@ public interface ISlideText
 
 | 姓名 | 描述 |
 | --- | --- |
-| [LayoutText](../../aspose.slides/islidetext/layouttext) { get; } | 此幻灯片布局页面形状上的文本 |
-| [MasterText](../../aspose.slides/islidetext/mastertext) { get; } | 此幻灯片母版页形状上的文本 |
+| [LayoutText](../../aspose.slides/islidetext/layouttext) { get; } | 此幻灯片的布局页面形状上的文本 |
+| [MasterText](../../aspose.slides/islidetext/mastertext) { get; } | 此幻灯片的母版页形状上的文本 |
 | [NotesText](../../aspose.slides/islidetext/notestext) { get; } | 此幻灯片备注页形状上的文本 |
 | [Text](../../aspose.slides/islidetext/text) { get; } | 幻灯片形状上的文本 |
 

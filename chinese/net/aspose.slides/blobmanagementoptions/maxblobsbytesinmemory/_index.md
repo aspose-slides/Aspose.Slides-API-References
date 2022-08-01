@@ -1,14 +1,14 @@
 ---
 title: MaxBlobsBytesInMemory
 second_title: Aspose.Slides for .NET API 参考
-description: 一个阈值指示 BLOB 可以在内存中占用的最大字节数在达到 这个阈值后所有新的 BLOB 都会被放到临时文件中不会影响 进程的总内存消耗 IsTemporaryFilesAllowedaspose.slides/blobmanagementoptions/istemporaryfilesallowed应设置为 true 才能使用此属性
+description: 一个阈值指示 BLOB 可以在内存中占用的最大字节数在达到 这个阈值后所有新的BLOB都会被放到临时文件中不会影响进程的 总内存消耗 IsTemporaryFilesAllowedaspose.slides/blobmanagementoptions/istemporaryfilesallowed应设置为 true 以使用此属性
 type: docs
 weight: 30
 url: /zh/net/aspose.slides/blobmanagementoptions/maxblobsbytesinmemory/
 ---
 ## BlobManagementOptions.MaxBlobsBytesInMemory property
 
-一个阈值，指示 BLOB 可以在内存中占用的最大字节数。在达到 这个阈值后，所有新的 BLOB 都会被放到临时文件中，不会影响 进程的总内存消耗。 [`IsTemporaryFilesAllowed`](../istemporaryfilesallowed)应设置为 true 才能使用此属性。
+一个阈值，指示 BLOB 可以在内存中占用的最大字节数。在达到 这个阈值后，所有新的BLOB都会被放到临时文件中，不会影响进程的 总内存消耗。 [`IsTemporaryFilesAllowed`](../istemporaryfilesallowed)应设置为 true 以使用此属性。
 
 ```csharp
 public ulong MaxBlobsBytesInMemory { get; set; }

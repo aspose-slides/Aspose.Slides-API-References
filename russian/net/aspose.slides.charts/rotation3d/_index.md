@@ -18,12 +18,12 @@ public class Rotation3D : IRotation3D
 
 | Имя | Описание |
 | --- | --- |
-| [DepthPercents](../../aspose.slides.charts/rotation3d/depthpercents) { get; set; } | Возвращает или задает глубину трехмерной диаграммы в процентах от ширины диаграммы (от 20 до 2000 процентов). Чтение/записьUInt16. |
-| [HeightPercents](../../aspose.slides.charts/rotation3d/heightpercents) { get; set; } | Указывает высоту трехмерной диаграммы в процентах от ширины диаграммы (от 5 до 500 процентов). Чтение/записьUInt16. |
-| [Perspective](../../aspose.slides.charts/rotation3d/perspective) { get; set; } | Возвращает или задает значение перспективы (угол поля зрения) для трехмерных диаграмм (от 0 до 240). Игнорируется, если значение свойства RightAngleAxes равно true. Чтение/записьByte. |
-| [RightAngleAxes](../../aspose.slides.charts/rotation3d/rightangleaxes) { get; set; } | Определяет, расположены ли оси диаграммы под прямым углом, а не в перспективе. Другими словами, он определяет, независимы ли углы осей диаграммы от поворота или возвышения диаграммы . Чтение/записьBoolean. |
-| [RotationX](../../aspose.slides.charts/rotation3d/rotationx) { get; set; } | Возвращает или задает угол поворота вокруг оси X, т.е. в направлении Y для трехмерных диаграмм (от -90 до 90 градусов). Свойство соответствует элементу 21.2.2.157 rotX (X Rotation) в ECMA-376 и параметру Y Rotation в PowerPoint 2007+. Чтение/записьSByte. |
-| [RotationY](../../aspose.slides.charts/rotation3d/rotationy) { get; set; } | Возвращает или задает угол поворота вокруг оси Y, т.е. в направлении X для трехмерных диаграмм (от 0 до 360 градусов). Свойство соответствует элементу 21.2.2.158 rotY (Y Rotation) в ECMA-376 и параметру X Rotation в PowerPoint 2007+. Чтение/записьUInt16. |
+| [DepthPercents](../../aspose.slides.charts/rotation3d/depthpercents) { get; set; } | Возвращает или задает глубину трехмерной диаграммы в процентах от ширины диаграммы (от 20 до 2000 процентов). Чтение/записьUInt16 . |
+| [HeightPercents](../../aspose.slides.charts/rotation3d/heightpercents) { get; set; } | Указывает высоту трехмерной диаграммы в процентах от ширины диаграммы (от 5 до 500 процентов). Чтение/записьUInt16 . |
+| [Perspective](../../aspose.slides.charts/rotation3d/perspective) { get; set; } | Возвращает или задает значение перспективы (угол поля обзора) для трехмерных диаграмм (от 0 до 240). Игнорируется, если значение свойства RightAngleAxes равно true. Чтение/записьByte . |
+| [RightAngleAxes](../../aspose.slides.charts/rotation3d/rightangleaxes) { get; set; } | Определяет, расположены ли оси диаграммы под прямым углом, а не в перспективе. Другими словами, он определяет, независимы ли углы осей диаграммы от поворота или высоты диаграммы . Чтение/записьBoolean . |
+| [RotationX](../../aspose.slides.charts/rotation3d/rotationx) { get; set; } | Возвращает или задает угол поворота вокруг оси X, т. е. в направлении Y для трехмерных диаграмм (от -90 до 90 градусов). Свойство соответствует элементу 21.2.2.157 rotX (X Rotation) в ECMA-376 и с параметром «Поворот по оси Y» в PowerPoint 2007+. Чтение/записьSByte . |
+| [RotationY](../../aspose.slides.charts/rotation3d/rotationy) { get; set; } | Возвращает или задает угол поворота вокруг оси Y, т. е. в направлении X для трехмерных диаграмм (от 0 до 360 градусов). Свойство соответствует элементу 21.2.2.158 rotY (Y Rotation) в ECMA-376 и параметр «Поворот по оси X» в PowerPoint 2007+. Чтение/записьUInt16 . |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: AddPlaceholder
 second_title: Aspose.Slides for .NET API 参考
-description: 如果没有则添加新的占位符并将占位符属性设置为指定的占位符
+description: 如果没有则添加新的占位符并将占位符属性设置为指定的
 type: docs
 weight: 320
 url: /zh/net/aspose.slides/shape/addplaceholder/
 ---
 ## Shape.AddPlaceholder method
 
-如果没有，则添加新的占位符并将占位符属性设置为指定的占位符。
+如果没有，则添加新的占位符并将占位符属性设置为指定的。
 
 ```csharp
 public IPlaceholder AddPlaceholder(IPlaceholder placeholderToCopyFrom)
@@ -20,7 +20,7 @@ public IPlaceholder AddPlaceholder(IPlaceholder placeholderToCopyFrom)
 
 ### 返回值
 
-新[`Placeholder`](../placeholder)。
+新的[`Placeholder`](../placeholder).
 
 ### 也可以看看
 

@@ -18,10 +18,10 @@ public interface IColorChangeEffectiveData : IEffectEffectiveData
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/icolorchangeeffectivedata/asieffecteffectivedata) { get; } | 允许获取基础 IEffectEffectiveData 接口。 只读[`IEffectEffectiveData`](../ieffecteffectivedata)。 |
-| [FromColor](../../aspose.slides.effects/icolorchangeeffectivedata/fromcolor) { get; } | 将被替换的颜色。 只读Color。 |
-| [ToColor](../../aspose.slides.effects/icolorchangeeffectivedata/tocolor) { get; } | 将替换的颜色。 只读Color。 |
-| [UseAlpha](../../aspose.slides.effects/icolorchangeeffectivedata/usealpha) { get; } | 返回一个布尔值，用于确定是否应使用 alpha 分量。 只读Boolean。 |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/icolorchangeeffectivedata/asieffecteffectivedata) { get; } | 允许获取基本 IEffectEffectiveData 接口。 只读[`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [FromColor](../../aspose.slides.effects/icolorchangeeffectivedata/fromcolor) { get; } | 将被替换的颜色。 只读Color. |
+| [ToColor](../../aspose.slides.effects/icolorchangeeffectivedata/tocolor) { get; } | 将替换的颜色。 只读Color. |
+| [UseAlpha](../../aspose.slides.effects/icolorchangeeffectivedata/usealpha) { get; } | 返回一个布尔值，用于确定是否应使用 alpha 分量。 只读Boolean. |
 
 ### 也可以看看
 

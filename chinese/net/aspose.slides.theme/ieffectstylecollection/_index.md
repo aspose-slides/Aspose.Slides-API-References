@@ -18,7 +18,7 @@ public interface IEffectStyleCollection : IGenericCollection<IEffectStyle>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Item](../../aspose.slides.theme/ieffectstylecollection/item) { get; } | 返回指定位置的元素。 只读[`IEffectStyle`](../ieffectstyle)。 |
+| [Item](../../aspose.slides.theme/ieffectstylecollection/item) { get; } | 返回指定位置的元素。 只读[`IEffectStyle`](../ieffectstyle). |
 
 ### 也可以看看
 

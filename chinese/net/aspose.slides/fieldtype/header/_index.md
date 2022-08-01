@@ -1,14 +1,14 @@
 ---
 title: Header
 second_title: Aspose.Slides for .NET API 参考
-description: 幻灯片的标题 只读FieldTypeaspose.slides/fieldtype
+description: 幻灯片的标题 只读FieldTypeaspose.slides/fieldtype.
 type: docs
 weight: 170
 url: /zh/net/aspose.slides/fieldtype/header/
 ---
 ## FieldType.Header property
 
-幻灯片的标题。 只读[`FieldType`](../../fieldtype)。
+幻灯片的标题。 只读[`FieldType`](../../fieldtype).
 
 ```csharp
 public static FieldType Header { get; }

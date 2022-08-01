@@ -18,7 +18,7 @@ public interface ILineFormatCollection : IGenericCollection<ILineFormat>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Item](../../aspose.slides.theme/ilineformatcollection/item) { get; } | 获取指定索引处的元素。 只读[`ILineFormat`](../../aspose.slides/ilineformat)。 |
+| [Item](../../aspose.slides.theme/ilineformatcollection/item) { get; } | 获取指定索引处的元素。 只读[`ILineFormat`](../../aspose.slides/ilineformat). |
 
 ### 也可以看看
 

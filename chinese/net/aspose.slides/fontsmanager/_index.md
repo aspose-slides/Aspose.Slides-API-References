@@ -18,20 +18,20 @@ public class FontsManager : IFontsManager
 
 | 姓名 | 描述 |
 | --- | --- |
-| [FontFallBackRulesCollection](../../aspose.slides/fontsmanager/fontfallbackrulescollection) { get; set; } | 表示用户的 FontFallBack 规则集合，用于管理字体集合以通过回退功能进行适当替换 读/写[`IFontFallBackRulesCollection`](../ifontfallbackrulescollection)。 |
-| [FontSubstRuleList](../../aspose.slides/fontsmanager/fontsubstrulelist) { get; set; } | 渲染时使用的字体替换。 读/写[`IFontSubstRuleCollection`](../ifontsubstrulecollection)。 |
+| [FontFallBackRulesCollection](../../aspose.slides/fontsmanager/fontfallbackrulescollection) { get; set; } | 表示用户的 FontFallBack 规则集合，用于管理字体集合以通过回退功能进行正确替换 读/写[`IFontFallBackRulesCollection`](../ifontfallbackrulescollection). |
+| [FontSubstRuleList](../../aspose.slides/fontsmanager/fontsubstrulelist) { get; set; } | 渲染时使用的字体替换。 读/写[`IFontSubstRuleCollection`](../ifontsubstrulecollection). |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AddEmbeddedFont](../../aspose.slides/fontsmanager/addembeddedfont#addembeddedfont_1)(byte[], EmbedFontCharacters) | 添加嵌入字体  复制任何字体时请记住，大多数字体都受版权保护。首先找到 字体的许可证，并验证它们可以自由转移到另一台机器上。 如果字体数据为空或该字体已嵌入，则可能引发 ArgumentException |
-| [AddEmbeddedFont](../../aspose.slides/fontsmanager/addembeddedfont#addembeddedfont)(IFontData, EmbedFontCharacters) | 添加嵌入字体  复制任何字体时请记住，大多数字体都受版权保护。首先找到 字体的许可证，并验证它们可以自由转移到另一台机器上。 如果字体数据为空或该字体已嵌入，则可能引发 ArgumentException |
-| [GetEmbeddedFonts](../../aspose.slides/fontsmanager/getembeddedfonts)() | 返回嵌入在演示文稿中的字体 |
+| [AddEmbeddedFont](../../aspose.slides/fontsmanager/addembeddedfont#addembeddedfont_1)(byte[], EmbedFontCharacters) | 添加嵌入的字体 在复制大多数字体受版权保护的任何字体时，请记住。首先先找到 字体的许可证，然后确认它们可以自由转移到另一台机器上。如果字体数据为空或此字体已嵌入，则可能引发 ArgumentException |
+| [AddEmbeddedFont](../../aspose.slides/fontsmanager/addembeddedfont#addembeddedfont)(IFontData, EmbedFontCharacters) | 添加嵌入的字体 在复制大多数字体受版权保护的任何字体时，请记住。首先先找到 字体的许可证，然后确认它们可以自由转移到另一台机器上。如果字体数据为空或此字体已嵌入，则可能引发 ArgumentException |
+| [GetEmbeddedFonts](../../aspose.slides/fontsmanager/getembeddedfonts)() | 返回演示文稿中嵌入的字体 |
 | [GetFonts](../../aspose.slides/fontsmanager/getfonts)() | 返回演示文稿中使用的字体 |
-| [RemoveEmbeddedFont](../../aspose.slides/fontsmanager/removeembeddedfont)(IFontData) | 移除嵌入字体 |
-| [ReplaceFont](../../aspose.slides/fontsmanager/replacefont#replacefont_1)(IFontSubstRule) | 使用[`FontSubstRule`](../fontsubstrule)中提供的信息替换演示文稿中的字体 |
-| [ReplaceFont](../../aspose.slides/fontsmanager/replacefont#replacefont_2)(IFontSubstRuleCollection) | 使用[`FontSubstRule`](../fontsubstrule) 集合中提供的信息替换演示文稿中的字体 |
+| [RemoveEmbeddedFont](../../aspose.slides/fontsmanager/removeembeddedfont)(IFontData) | 移除嵌入的字体 |
+| [ReplaceFont](../../aspose.slides/fontsmanager/replacefont#replacefont_1)(IFontSubstRule) | 使用提供的信息替换演示文稿中的字体[`字体子规则`](../fontsubstrule) |
+| [ReplaceFont](../../aspose.slides/fontsmanager/replacefont#replacefont_2)(IFontSubstRuleCollection) | 使用集合中提供的信息替换演示文稿中的字体[`字体子规则`](../fontsubstrule) |
 | [ReplaceFont](../../aspose.slides/fontsmanager/replacefont#replacefont)(IFontData, IFontData) | 替换演示文稿中的字体 |
 
 ### 也可以看看

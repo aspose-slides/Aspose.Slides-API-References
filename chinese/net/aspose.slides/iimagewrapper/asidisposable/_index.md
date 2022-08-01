@@ -1,14 +1,14 @@
 ---
 title: AsIDisposable
 second_title: Aspose.Slides for .NET API 参考
-description: 返回 IDisposable 接口 只读IDisposable
+description: 返回 IDisposable 接口 只读IDisposable.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides/iimagewrapper/asidisposable/
 ---
 ## IImageWrapper.AsIDisposable property
 
-返回 IDisposable 接口。 只读IDisposable。
+返回 IDisposable 接口。 只读IDisposable.
 
 ```csharp
 public IDisposable AsIDisposable { get; }

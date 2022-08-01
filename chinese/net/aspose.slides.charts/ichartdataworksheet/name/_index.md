@@ -1,14 +1,14 @@
 ---
 title: Name
 second_title: Aspose.Slides for .NET API 参考
-description: 获取名称 只读String
+description: 获取名称 只读String.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides.charts/ichartdataworksheet/name/
 ---
 ## IChartDataWorksheet.Name property
 
-获取名称。 只读String。
+获取名称。 只读String.
 
 ```csharp
 public string Name { get; }

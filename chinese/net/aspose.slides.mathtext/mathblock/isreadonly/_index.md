@@ -1,14 +1,14 @@
 ---
 title: IsReadOnly
 second_title: Aspose.Slides for .NET API 参考
-description: 返回 false因为可以修改子元素集合
+description: 返回 false因为子元素集合可以修改
 type: docs
 weight: 30
 url: /zh/net/aspose.slides.mathtext/mathblock/isreadonly/
 ---
 ## MathBlock.IsReadOnly property
 
-返回 false，因为可以修改子元素集合。
+返回 false，因为子元素集合可以修改。
 
 ```csharp
 public bool IsReadOnly { get; }

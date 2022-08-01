@@ -17,7 +17,7 @@ public IMathNaryOperator Nary(MathNaryOperatorTypes type, IMathElement lowerLimi
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| type | MathNaryOperatorTypes | N-арный тип оператора |
+| type | MathNaryOperatorTypes | Тип N-арного оператора |
 | lowerLimit | IMathElement | Нижний предел |
 | upperLimit | IMathElement | Верхний предел |
 
@@ -57,7 +57,7 @@ public IMathNaryOperator Nary(MathNaryOperatorTypes type, string lowerLimit, str
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| type | MathNaryOperatorTypes | N-арный тип оператора |
+| type | MathNaryOperatorTypes | Тип N-арного оператора |
 | lowerLimit | String | Нижний предел |
 | upperLimit | String | Верхний предел |
 

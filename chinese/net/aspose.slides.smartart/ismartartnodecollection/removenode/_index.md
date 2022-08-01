@@ -16,13 +16,13 @@ public void RemoveNode(int index)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| index | Int32 | 从零开始的节点索引 |
+| index | Int32 | 节点的从零开始的索引 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentOutOfRangeException | 索引小于 0。-或- 索引等于或大于同级计数。 |
+| ArgumentOutOfRangeException | index 小于 0。 - 或 - index 等于或大于同级计数。 |
 
 ### 也可以看看
 

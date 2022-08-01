@@ -1,14 +1,14 @@
 ---
 title: Camera
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置相机的设置 只读ICameraaspose.slides/icamera
+description: 返回或设置相机的设置 只读ICameraaspose.slides/icamera.
 type: docs
 weight: 30
 url: /zh/net/aspose.slides/threedformat/camera/
 ---
 ## ThreeDFormat.Camera property
 
-返回或设置相机的设置。 只读[`ICamera`](../../icamera)。
+返回或设置相机的设置。 只读[`ICamera`](../../icamera).
 
 ```csharp
 public ICamera Camera { get; }

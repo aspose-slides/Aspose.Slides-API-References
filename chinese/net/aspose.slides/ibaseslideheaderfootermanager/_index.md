@@ -19,19 +19,19 @@ public interface IBaseSlideHeaderFooterManager : IBaseHeaderFooterManager
 | 姓名 | 描述 |
 | --- | --- |
 | [AsIBaseHeaderFooterManager](../../aspose.slides/ibaseslideheaderfootermanager/asibaseheaderfootermanager) { get; } | 返回 IBaseHeaderFooterManager 接口。 |
-| [IsDateTimeVisible](../../aspose.slides/ibaseslideheaderfootermanager/isdatetimevisible) { get; } | 获取指示存在日期时间占位符的值。 读取Boolean。 |
-| [IsFooterVisible](../../aspose.slides/ibaseslideheaderfootermanager/isfootervisible) { get; } | 获取指示页脚占位符存在的值。 读取Boolean。 |
-| [IsSlideNumberVisible](../../aspose.slides/ibaseslideheaderfootermanager/isslidenumbervisible) { get; } | 获取指示页码占位符存在的值。 读取Boolean。 |
+| [IsDateTimeVisible](../../aspose.slides/ibaseslideheaderfootermanager/isdatetimevisible) { get; } | 获取指示存在日期时间占位符的值。 读取Boolean. |
+| [IsFooterVisible](../../aspose.slides/ibaseslideheaderfootermanager/isfootervisible) { get; } | 获取指示存在页脚占位符的值。 读取Boolean. |
+| [IsSlideNumberVisible](../../aspose.slides/ibaseslideheaderfootermanager/isslidenumbervisible) { get; } | 获取指示页码占位符存在的值。 读取Boolean. |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [SetDateTimeText](../../aspose.slides/ibaseslideheaderfootermanager/setdatetimetext)(string) | 将文本设置为幻灯片日期时间占位符。 |
+| [SetDateTimeText](../../aspose.slides/ibaseslideheaderfootermanager/setdatetimetext)(string) | 将文本设置为滑动日期时间占位符。 |
 | [SetDateTimeVisibility](../../aspose.slides/ibaseslideheaderfootermanager/setdatetimevisibility)(bool) | 更改幻灯片日期时间占位符的可见性。 |
 | [SetFooterText](../../aspose.slides/ibaseslideheaderfootermanager/setfootertext)(string) | 将文本设置为幻灯片页脚占位符。 |
 | [SetFooterVisibility](../../aspose.slides/ibaseslideheaderfootermanager/setfootervisibility)(bool) | 更改幻灯片页脚占位符的可见性。 |
-| [SetSlideNumberVisibility](../../aspose.slides/ibaseslideheaderfootermanager/setslidenumbervisibility)(bool) | 更改幻灯片页码占位符的可见性。 |
+| [SetSlideNumberVisibility](../../aspose.slides/ibaseslideheaderfootermanager/setslidenumbervisibility)(bool) | 更改幻灯片页码占位符可见性。 |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: Style
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置线型 读/写LineStyleaspose.slides/linestyle
+description: 返回或设置线型 读/写LineStyleaspose.slides/linestyle.
 type: docs
 weight: 170
 url: /zh/net/aspose.slides/ilineformat/style/
 ---
 ## ILineFormat.Style property
 
-返回或设置线型。 读/写[`LineStyle`](../../linestyle)。
+返回或设置线型。 读/写[`LineStyle`](../../linestyle).
 
 ```csharp
 public LineStyle Style { get; set; }

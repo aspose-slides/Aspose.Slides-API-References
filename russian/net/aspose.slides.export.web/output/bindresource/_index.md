@@ -1,14 +1,14 @@
 ---
 title: BindResource
 second_title: Справочник по API Aspose.Slides для .NET
-description: Связывает ресурс с выходным файлом.
+description: Привязывает ресурс к выходному файлу.
 type: docs
 weight: 20
 url: /ru/net/aspose.slides.export.web/output/bindresource/
 ---
 ## Output.BindResource method
 
-Связывает ресурс с выходным файлом.
+Привязывает ресурс к выходному файлу.
 
 ```csharp
 public void BindResource(IOutputFile outputFile, object obj)
@@ -17,7 +17,7 @@ public void BindResource(IOutputFile outputFile, object obj)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | outputFile | IOutputFile | Выходной файл. |
-| obj | Object | Объект ресурса. |
+| obj | Object | Ресурсный объект. |
 
 ### Смотрите также
 

@@ -18,10 +18,10 @@ public interface IChartTitle : ILayoutable, IOverridableText
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsILayoutable](../../aspose.slides.charts/icharttitle/asilayoutable) { get; } | 允许获取基本的 ILayoutable 接口。 只读[`ILayoutable`](../ilayoutable)。 |
-| [AsIOverridableText](../../aspose.slides.charts/icharttitle/asioverridabletext) { get; } | 允许获取基本 IOverridableText 接口。 只读[`IOverridableText`](../ioverridabletext)。 |
-| [Format](../../aspose.slides.charts/icharttitle/format) { get; } | 返回标题的填充、线条、效果样式。 只读[`IFormat`](../iformat)。 |
-| [Overlay](../../aspose.slides.charts/icharttitle/overlay) { get; set; } | 确定是否允许其他图表元素与标题重叠。 读/写Boolean。 |
+| [AsILayoutable](../../aspose.slides.charts/icharttitle/asilayoutable) { get; } | 允许获取基本 ILayoutable 接口。 只读[`ILayoutable`](../ilayoutable). |
+| [AsIOverridableText](../../aspose.slides.charts/icharttitle/asioverridabletext) { get; } | 允许获取基本 IOverridableText 接口。 只读[`IOverridableText`](../ioverridabletext). |
+| [Format](../../aspose.slides.charts/icharttitle/format) { get; } | 返回标题的填充、线条、效果样式。 只读[`IFormat`](../iformat). |
+| [Overlay](../../aspose.slides.charts/icharttitle/overlay) { get; set; } | 确定是否允许其他图表元素重叠标题。 读/写Boolean. |
 
 ### 也可以看看
 

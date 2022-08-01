@@ -1,14 +1,14 @@
 ---
 title: Properties
 second_title: Aspose.Slides for .NET API 参考
-description: 返回 ActiveX 属性的集合 只读IControlPropertiesCollectionaspose.slides/icontrolpropertiescollection
+description: 返回 ActiveX 属性的集合 只读IControlPropertiesCollectionaspose.slides/icontrolpropertiescollection.
 type: docs
 weight: 70
 url: /zh/net/aspose.slides/icontrol/properties/
 ---
 ## IControl.Properties property
 
-返回 ActiveX 属性的集合。 只读[`IControlPropertiesCollection`](../../icontrolpropertiescollection)。
+返回 ActiveX 属性的集合。 只读[`IControlPropertiesCollection`](../../icontrolpropertiescollection).
 
 ```csharp
 public IControlPropertiesCollection Properties { get; }

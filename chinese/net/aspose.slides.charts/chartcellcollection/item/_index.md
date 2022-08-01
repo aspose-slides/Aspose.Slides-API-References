@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Slides for .NET API 参考
-description: 按索引返回单元格 IChartDataCell
+description: 按索引返回一个单元格 IChartDataCell
 type: docs
 weight: 20
 url: /zh/net/aspose.slides.charts/chartcellcollection/item/
 ---
 ## ChartCellCollection indexer
 
-按索引返回单元格 (IChartDataCell)。
+按索引返回一个单元格 (IChartDataCell)。
 
 ```csharp
 public IChartDataCell this[int index] { get; }
@@ -20,7 +20,7 @@ public IChartDataCell this[int index] { get; }
 
 ### 返回值
 
-包含数据的单元格。
+带有数据的单元格。
 
 ### 也可以看看
 

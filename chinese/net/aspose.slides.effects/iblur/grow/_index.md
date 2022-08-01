@@ -1,14 +1,14 @@
 ---
 title: Grow
 second_title: Aspose.Slides for .NET API 参考
-description: 确定对象的边界是否应因模糊而增大 True 表示边界已增长而 false 表示边界未增长 读/写Boolean
+description: 确定对象的边界是否应因模糊而扩大 True 表示边界已扩大而 false 表示未扩大 读/写Boolean.
 type: docs
 weight: 30
 url: /zh/net/aspose.slides.effects/iblur/grow/
 ---
 ## IBlur.Grow property
 
-确定对象的边界是否应因模糊而增大。 True 表示边界已增长，而 false 表示边界未增长。 读/写Boolean。
+确定对象的边界是否应因模糊而扩大。 True 表示边界已扩大，而 false 表示未扩大。 读/写Boolean.
 
 ```csharp
 public bool Grow { get; set; }

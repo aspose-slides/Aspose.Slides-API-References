@@ -1,14 +1,14 @@
 ---
 title: FirstRow
 second_title: Aspose.Slides for .NET API 参考
-description: 获取第一行单元格 只读IRowaspose.slides/irow
+description: 获取单元格的第一行 只读IRowaspose.slides/irow.
 type: docs
 weight: 70
 url: /zh/net/aspose.slides/icell/firstrow/
 ---
 ## ICell.FirstRow property
 
-获取第一行单元格。 只读[`IRow`](../../irow)。
+获取单元格的第一行。 只读[`IRow`](../../irow).
 
 ```csharp
 public IRow FirstRow { get; }

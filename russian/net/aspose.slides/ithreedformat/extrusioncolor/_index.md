@@ -1,14 +1,14 @@
 ---
 title: ExtrusionColor
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или задает цвет выдавливания. Только для чтенияIColorFormataspose.slides/icolorformat.
+description: Возвращает или задает цвет выдавливания. Только для чтенияIColorFormataspose.slides/icolorformat .
 type: docs
 weight: 80
 url: /ru/net/aspose.slides/ithreedformat/extrusioncolor/
 ---
 ## IThreeDFormat.ExtrusionColor property
 
-Возвращает или задает цвет выдавливания. Только для чтения[`IColorFormat`](../../icolorformat).
+Возвращает или задает цвет выдавливания. Только для чтения[`IColorFormat`](../../icolorformat) .
 
 ```csharp
 public IColorFormat ExtrusionColor { get; }

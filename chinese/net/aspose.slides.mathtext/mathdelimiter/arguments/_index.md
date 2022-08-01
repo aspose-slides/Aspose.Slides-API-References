@@ -1,14 +1,14 @@
 ---
 title: Arguments
 second_title: Aspose.Slides for .NET API 参考
-description: 一个或多个用分隔符分隔的数学元素
+description: 一个或多个由分隔符分隔的数学元素
 type: docs
 weight: 20
 url: /zh/net/aspose.slides.mathtext/mathdelimiter/arguments/
 ---
 ## MathDelimiter.Arguments property
 
-一个或多个用分隔符分隔的数学元素
+一个或多个由分隔符分隔的数学元素
 
 ```csharp
 public IMathElementCollection Arguments { get; }
@@ -16,7 +16,7 @@ public IMathElementCollection Arguments { get; }
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]

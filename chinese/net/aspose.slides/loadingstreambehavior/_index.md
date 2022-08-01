@@ -1,14 +1,14 @@
 ---
 title: LoadingStreamBehavior
 second_title: Aspose.Slides for .NET API 参考
-description: 传递给方法的Stream被视为二进制大对象 BLOB参见 IBlobManagementOptions./iblobmanagementoptions描述此枚举的值确定 Stream在传递给方法时应如何处理根据 要求可以做出不同的决定来提供最有效的行为
+description: 的Stream传递给方法被视为二进制大对象 BLOB请参阅 IBlobManagementOptions./iblobmanagementoptions描述此枚举的值标识 Stream当它传递给方法时应该被处理根据 要求可以做出不同的决定来提供最有效的行为
 type: docs
 weight: 7150
 url: /zh/net/aspose.slides/loadingstreambehavior/
 ---
 ## LoadingStreamBehavior enumeration
 
-传递给方法的Stream被视为二进制大对象 (BLOB)（参见 [`IBlobManagementOptions`](../iblobmanagementoptions)描述）。此枚举的值确定 Stream在传递给方法时应如何处理。根据 要求，可以做出不同的决定来提供最有效的行为。
+的Stream传递给方法被视为二进制大对象 (BLOB)（请参阅 [`IBlobManagementOptions`](../iblobmanagementoptions)描述）。此枚举的值标识 Stream当它传递给方法时应该被处理。根据 要求，可以做出不同的决定来提供最有效的行为。
 
 ```csharp
 public enum LoadingStreamBehavior
@@ -18,8 +18,8 @@ public enum LoadingStreamBehavior
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| ReadStreamAndRelease | `0` | 流将被读取到最后然后释放 - 即保证该流 不会被:::使用R5:T:Aspose.Slides.IPresentation:::未来的实例。它可以由客户端 代码关闭或以任何其他方式使用。 |
-| KeepLocked | `1` | 流将被锁定在[`IPresentation`](../ipresentation)对象内，即 的所有权流将被传输。[`IPresentation`](../ipresentation)对象将负责 当该对象自行释放时正确释放流。 当您需要序列化大型 BLOB 文件（例如大型 视频或音频 - 参见[`IBlobManagementOptions`](../iblobmanagementoptions)描述）并希望防止将 该文件加载到内存或其他性能问题。您可以只打开该文件的FileStream 并传递给一个方法，选择LoadingStreamBehavior。KeepLockedLoadingStreamBehavior。 |
+| ReadStreamAndRelease | `0` | 流将被读取到最后，然后释放 - 即保证该流 不会被[`IPresentation`](../ipresentation)将来的实例。它可以由客户端 代码关闭或以任何其他方式使用。 |
+| KeepLocked | `1` | 流将被锁定在[`IPresentation`](../ipresentation)对象，即 流的所有权将被转移。这[`IPresentation`](../ipresentation)对象将负责 在此对象自行处置时正确处置流。 当您需要序列化大型 BLOB 文件（例如大型 视频或音频 - 参见[`IBlobManagementOptions`](../iblobmanagementoptions)描述）并希望防止将 此文件加载到内存或其他性能问题。你可以直接打开FileStream 用于此文件并传递给一个方法，选择KeepLockedLoadingStreamBehavior. |
 
 ### 也可以看看
 

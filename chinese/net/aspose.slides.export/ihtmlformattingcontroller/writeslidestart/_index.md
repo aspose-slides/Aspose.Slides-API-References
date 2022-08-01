@@ -1,14 +1,14 @@
 ---
 title: WriteSlideStart
 second_title: Aspose.Slides for .NET API 参考
-description: 调用以编写 html 幻灯片标题每张幻灯片调用一次
+description: 调用编写 html 幻灯片标题每张幻灯片调用一次
 type: docs
 weight: 60
 url: /zh/net/aspose.slides.export/ihtmlformattingcontroller/writeslidestart/
 ---
 ## IHtmlFormattingController.WriteSlideStart method
 
-调用以编写 html 幻灯片标题。每张幻灯片调用一次。
+调用编写 html 幻灯片标题。每张幻灯片调用一次。
 
 ```csharp
 public void WriteSlideStart(IHtmlGenerator generator, ISlide slide)

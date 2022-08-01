@@ -24,25 +24,25 @@ public class PresentationFactory : IPresentationFactory
 
 | 姓名 | 描述 |
 | --- | --- |
-| static [Instance](../../aspose.slides/presentationfactory/instance) { get; } | 表示工厂静态实例。 只读[`PresentationFactory`](../presentationfactory)。 |
+| static [Instance](../../aspose.slides/presentationfactory/instance) { get; } | 表示工厂静态实例。 只读[`PresentationFactory`](../presentationfactory). |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
 | [CreatePresentation](../../aspose.slides/presentationfactory/createpresentation#createpresentation)() | 创建新的演示文稿。 |
-| [CreatePresentation](../../aspose.slides/presentationfactory/createpresentation#createpresentation_1)(ILoadOptions) | 创建带有附加加载选项的新演示文稿 |
-| [GetPresentationInfo](../../aspose.slides/presentationfactory/getpresentationinfo#getpresentationinfo)(Stream) | 从流中创建新的 PresentationInfo 对象并将演示文稿绑定到它。 获取有关指定流中的演示文稿的信息。 |
+| [CreatePresentation](../../aspose.slides/presentationfactory/createpresentation#createpresentation_1)(ILoadOptions) | 使用额外的加载选项创建新的演示文稿 |
+| [GetPresentationInfo](../../aspose.slides/presentationfactory/getpresentationinfo#getpresentationinfo)(Stream) | 从流中创建新的 PresentationInfo 对象并将演示文稿绑定到它。 获取有关指定流中演示文稿的信息。 |
 | [GetPresentationInfo](../../aspose.slides/presentationfactory/getpresentationinfo#getpresentationinfo_1)(string) | 从文件创建新的 PresentationInfo 对象并将演示文稿绑定到它。 |
 | [GetPresentationText](../../aspose.slides/presentationfactory/getpresentationtext#getpresentationtext)(Stream, TextExtractionArrangingMode) | 从幻灯片中检索原始文本 |
 | [GetPresentationText](../../aspose.slides/presentationfactory/getpresentationtext#getpresentationtext_2)(string, TextExtractionArrangingMode) | 从幻灯片中检索原始文本 |
 | [GetPresentationText](../../aspose.slides/presentationfactory/getpresentationtext#getpresentationtext_1)(Stream, TextExtractionArrangingMode, ILoadOptions) | 从幻灯片中检索原始文本 |
-| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation)(byte[]) | 从数组 |
-| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_2)(Stream) | 从流中读取现有演示文稿 |
+| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation)(byte[]) | 从 array 读取现有的演示文稿 |
+| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_2)(Stream) | 从流 中读取现有演示文稿 |
 | [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_4)(string) | 从文件中读取现有演示文稿 |
 | [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_1)(byte[], ILoadOptions) | 从带有附加加载选项的数组中读取现有演示文稿 |
-| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_3)(Stream, ILoadOptions) | 从带有附加加载选项的流中读取现有演示文稿 |
-| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_5)(string, ILoadOptions) | 从带有附加加载选项的流中读取现有演示文稿 |
+| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_3)(Stream, ILoadOptions) | 使用附加加载选项从流中读取现有演示文稿 |
+| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_5)(string, ILoadOptions) | 使用附加加载选项从流中读取现有演示文稿 |
 
 ### 也可以看看
 

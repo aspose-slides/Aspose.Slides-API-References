@@ -1,14 +1,14 @@
 ---
 title: NumberFormatOfXValues
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или задает числовой формат для значений ряда x. Чтение/записьString.
+description: Возвращает или задает числовой формат для значений серии x. Чтение/записьString .
 type: docs
 weight: 240
 url: /ru/net/aspose.slides.charts/ichartseries/numberformatofxvalues/
 ---
 ## IChartSeries.NumberFormatOfXValues property
 
-Возвращает или задает числовой формат для значений ряда x. Чтение/записьString.
+Возвращает или задает числовой формат для значений серии x. Чтение/записьString .
 
 ```csharp
 public string NumberFormatOfXValues { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: UseCells
 second_title: Aspose.Slides for .NET API 参考
-description: 如果为true则工作表用于存储类别这种情况下支持多级类别 如果为 false则工作表不用于存储值并且这种情况不支持 多级类别 读/写Boolean
+description: 如果为 true则工作表用于存储类别此案例支持多级类别 如果为 false则工作表不用于存储值并且此案例不支持 多级类别 读取/写Boolean.
 type: docs
 weight: 30
 url: /zh/net/aspose.slides.charts/ichartcategorycollection/usecells/
 ---
 ## IChartCategoryCollection.UseCells property
 
-如果为true，则工作表用于存储类别（这种情况下支持多级类别）。 如果为 false，则工作表不用于存储值（并且这种情况不支持 多级类别）。 读/写Boolean。
+如果为 true，则工作表用于存储类别（此案例支持多级类别）。 如果为 false，则工作表不用于存储值（并且此案例不支持 多级类别）。 读取/写Boolean.
 
 ```csharp
 public bool UseCells { get; set; }

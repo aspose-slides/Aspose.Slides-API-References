@@ -18,9 +18,9 @@ public class ChartTextFormat : IChartTextFormat
 
 | Имя | Описание |
 | --- | --- |
-| [ParagraphFormat](../../aspose.slides.charts/charttextformat/paragraphformat) { get; } | Формат абзаца. Только для чтения[`IChartParagraphFormat`](../ichartparagraphformat). |
-| [PortionFormat](../../aspose.slides.charts/charttextformat/portionformat) { get; } | Формат порции. Только для чтения[`IChartPortionFormat`](../ichartportionformat). |
-| [TextBlockFormat](../../aspose.slides.charts/charttextformat/textblockformat) { get; } | TextBlockFormat. Только для чтения[`IChartTextBlockFormat`](../icharttextblockformat). |
+| [ParagraphFormat](../../aspose.slides.charts/charttextformat/paragraphformat) { get; } | Формат абзаца. Только для чтения[`IChartParagraphFormat`](../ichartparagraphformat) . |
+| [PortionFormat](../../aspose.slides.charts/charttextformat/portionformat) { get; } | Формат порции. Только для чтения[`IChartPortionFormat`](../ichartportionformat) . |
+| [TextBlockFormat](../../aspose.slides.charts/charttextformat/textblockformat) { get; } | TextBlockFormat. Только для чтения[`IChartTextBlockFormat`](../icharttextblockformat) . |
 
 ## Методы
 

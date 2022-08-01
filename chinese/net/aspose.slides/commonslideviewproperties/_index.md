@@ -18,8 +18,8 @@ public class CommonSlideViewProperties : ICommonSlideViewProperties
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Scale](../../aspose.slides/commonslideviewproperties/scale) { get; set; } | 以百分比指定视图缩放比例。 读/写Int32。 |
-| [VariableScale](../../aspose.slides/commonslideviewproperties/variablescale) { get; set; } | 指定视图内容应自动缩放以最适合当前窗口大小。 读/写Boolean。 |
+| [Scale](../../aspose.slides/commonslideviewproperties/scale) { get; set; } | 以百分比指定视图缩放比例。 读/写Int32. |
+| [VariableScale](../../aspose.slides/commonslideviewproperties/variablescale) { get; set; } | 指定视图内容应自动缩放以最适合当前窗口大小。 读/写Boolean. |
 
 ### 也可以看看
 

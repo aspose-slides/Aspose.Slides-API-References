@@ -18,7 +18,7 @@ public void Remove()
 
 | исключение | условие |
 | --- | --- |
-| [PptxEditException](../../pptxeditexception) | Генерируется, если автор уже удален. |
+| [PptxEditException](../../pptxeditexception) | Брошен, если автор уже удален. |
 
 ### Смотрите также
 

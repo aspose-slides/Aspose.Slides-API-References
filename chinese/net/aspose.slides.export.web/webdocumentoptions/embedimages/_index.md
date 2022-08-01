@@ -1,14 +1,14 @@
 ---
 title: EmbedImages
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置图像嵌入选项 读/写Boolean
+description: 返回或设置图像嵌入选项 读/写Boolean.
 type: docs
 weight: 40
 url: /zh/net/aspose.slides.export.web/webdocumentoptions/embedimages/
 ---
 ## WebDocumentOptions.EmbedImages property
 
-返回或设置图像嵌入选项。 读/写Boolean。
+返回或设置图像嵌入选项。 读/写Boolean.
 
 ```csharp
 public bool EmbedImages { get; set; }

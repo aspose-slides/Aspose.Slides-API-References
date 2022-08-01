@@ -1,14 +1,14 @@
 ---
 title: ValueType
 second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет возможные способы определения длины планок ошибок. В случае пользовательского типа значения для указания значения используйтеErrorBarsCustomValuesaspose.slides.charts/ichartdatapoint/errorbarscustomvaluesсвойство конкретной точки данных в наборе рядов DataPoints. В случае типа значения Fixed Percentage или StandardDeviation используйте свойство Value для указания значения. Чтение/записьErrorBarValueTypeaspose.slides.charts/errorbarvaluetype.
+description: Представляет возможные способы определения длины полос ошибок. В случае пользовательского типа значения для указания использования значенияErrorBarsCustomValuesaspose.slides.charts/ichartdatapoint/errorbarscustomvaluesсвойство конкретной точки данных в наборе DataPoints серии. В случае типа значения Fixed Percentage или StandardDeviation используйте свойство Value для указания значения. Чтение/записьErrorBarValueTypeaspose.slides.charts/errorbarvaluetype .
 type: docs
 weight: 70
 url: /ru/net/aspose.slides.charts/errorbarsformat/valuetype/
 ---
 ## ErrorBarsFormat.ValueType property
 
-Представляет возможные способы определения длины планок ошибок. В случае пользовательского типа значения для указания значения используйте[`ErrorBarsCustomValues`](../../ichartdatapoint/errorbarscustomvalues)свойство конкретной точки данных в наборе рядов DataPoints. В случае типа значения Fixed, Percentage или StandardDeviation используйте свойство Value для указания значения. Чтение/запись[`ErrorBarValueType`](../../errorbarvaluetype).
+Представляет возможные способы определения длины полос ошибок. В случае пользовательского типа значения для указания использования значения[`ErrorBarsCustomValues`](../../ichartdatapoint/errorbarscustomvalues)свойство конкретной точки данных в наборе DataPoints серии. В случае типа значения Fixed, Percentage или StandardDeviation используйте свойство Value для указания значения. Чтение/запись[`ErrorBarValueType`](../../errorbarvaluetype) .
 
 ```csharp
 public ErrorBarValueType ValueType { get; set; }

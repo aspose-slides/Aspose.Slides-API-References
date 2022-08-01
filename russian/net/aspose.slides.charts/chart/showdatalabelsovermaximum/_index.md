@@ -1,14 +1,14 @@
 ---
 title: ShowDataLabelsOverMaximum
 second_title: Справочник по API Aspose.Slides для .NET
-description: Указывает что должны отображаться метки данных превышающие максимум диаграммы. Чтение/записьBoolean.
+description: Указывает что должны отображаться метки данных превышающие максимум диаграммы. Чтение/записьBoolean .
 type: docs
 weight: 180
 url: /ru/net/aspose.slides.charts/chart/showdatalabelsovermaximum/
 ---
 ## Chart.ShowDataLabelsOverMaximum property
 
-Указывает, что должны отображаться метки данных, превышающие максимум диаграммы. Чтение/записьBoolean.
+Указывает, что должны отображаться метки данных, превышающие максимум диаграммы. Чтение/записьBoolean .
 
 ```csharp
 public bool ShowDataLabelsOverMaximum { get; set; }

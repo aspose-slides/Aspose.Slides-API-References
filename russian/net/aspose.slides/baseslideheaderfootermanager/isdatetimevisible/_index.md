@@ -1,14 +1,14 @@
 ---
 title: IsDateTimeVisible
 second_title: Справочник по API Aspose.Slides для .NET
-description: Получает значение указывающее на наличие заполнителя даты и времени. ЧтениеBoolean.
+description: Получает значение указывающее на наличие заполнителя даты и времени. ЧтениеBoolean .
 type: docs
 weight: 10
 url: /ru/net/aspose.slides/baseslideheaderfootermanager/isdatetimevisible/
 ---
 ## BaseSlideHeaderFooterManager.IsDateTimeVisible property
 
-Получает значение, указывающее на наличие заполнителя даты и времени. ЧтениеBoolean.
+Получает значение, указывающее на наличие заполнителя даты и времени. ЧтениеBoolean .
 
 ```csharp
 public bool IsDateTimeVisible { get; }

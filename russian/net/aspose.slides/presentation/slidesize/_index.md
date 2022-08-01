@@ -1,14 +1,14 @@
 ---
 title: SlideSize
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает объект размера слайда. Только для чтенияISlideSizeaspose.slides/islidesize.
+description: Возвращает объект размера слайда. Только для чтенияISlideSizeaspose.slides/islidesize .
 type: docs
 weight: 240
 url: /ru/net/aspose.slides/presentation/slidesize/
 ---
 ## Presentation.SlideSize property
 
-Возвращает объект размера слайда. Только для чтения[`ISlideSize`](../../islidesize).
+Возвращает объект размера слайда. Только для чтения[`ISlideSize`](../../islidesize) .
 
 ```csharp
 public ISlideSize SlideSize { get; }

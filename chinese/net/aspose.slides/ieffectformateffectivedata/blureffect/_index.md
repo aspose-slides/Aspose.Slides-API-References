@@ -1,14 +1,14 @@
 ---
 title: BlurEffect
 second_title: Aspose.Slides for .NET API 参考
-description: 模糊效果 只读IBlurEffectiveDataaspose.slides.effects/iblureffectivedata
+description: 模糊效果 只读IBlurEffectiveDataaspose.slides.effects/iblureffectivedata.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides/ieffectformateffectivedata/blureffect/
 ---
 ## IEffectFormatEffectiveData.BlurEffect property
 
-模糊效果。 只读[`IBlurEffectiveData`](../../../aspose.slides.effects/iblureffectivedata)。
+模糊效果。 只读[`IBlurEffectiveData`](../../../aspose.slides.effects/iblureffectivedata).
 
 ```csharp
 public IBlurEffectiveData BlurEffect { get; }

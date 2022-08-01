@@ -1,14 +1,14 @@
 ---
 title: ExtrusionLockRotationCenter
 second_title: Aspose.Slides for .NET API 参考
-description: 表示 extrusion.lockrotationcenter 属性
+description: 表示extrusion.lockrotationcenter 属性
 type: docs
 weight: 60
 url: /zh/net/aspose.slides.animation/behaviorproperty/extrusionlockrotationcenter/
 ---
 ## BehaviorProperty.ExtrusionLockRotationCenter property
 
-表示 'extrusion.lockrotationcenter' 属性
+表示'extrusion.lockrotationcenter' 属性
 
 ```csharp
 public static BehaviorProperty ExtrusionLockRotationCenter { get; }

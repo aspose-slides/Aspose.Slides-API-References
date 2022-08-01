@@ -1,14 +1,14 @@
 ---
 title: AsIThemeable
 second_title: Aspose.Slides for .NET API 参考
-description: 返回 IThemeable 接口 只读IThemeableaspose.slides.theme/ithemeable
+description: 返回 IThemeable 接口 只读IThemeableaspose.slides.theme/ithemeable.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides.theme/ioverridethemeable/asithemeable/
 ---
 ## IOverrideThemeable.AsIThemeable property
 
-返回 IThemeable 接口。 只读[`IThemeable`](../../ithemeable)。
+返回 IThemeable 接口。 只读[`IThemeable`](../../ithemeable).
 
 ```csharp
 public IThemeable AsIThemeable { get; }

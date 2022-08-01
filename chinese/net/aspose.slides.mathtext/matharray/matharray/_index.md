@@ -1,14 +1,14 @@
 ---
 title: MathArray
 second_title: Aspose.Slides for .NET API 参考
-description: 创建一个数学数组并将指定元素放入其中
+description: 创建一个数学数组并将指定的元素放入其中
 type: docs
 weight: 10
 url: /zh/net/aspose.slides.mathtext/matharray/matharray/
 ---
 ## MathArray(IMathElement) {#constructor}
 
-创建一个数学数组并将指定元素放入其中
+创建一个数学数组并将指定的元素放入其中
 
 ```csharp
 public MathArray(IMathElement element)
@@ -20,7 +20,7 @@ public MathArray(IMathElement element)
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]
@@ -38,7 +38,7 @@ MathArray mathArray = new MathArray(new MathematicalText("item1"));
 
 ## MathArray(IEnumerable&lt;IMathElement&gt;) {#constructor_1}
 
-创建一个数学数组并在其中放置指定元素
+创建一个数学数组并将指定的元素放入其中
 
 ```csharp
 public MathArray(IEnumerable<IMathElement> elements)

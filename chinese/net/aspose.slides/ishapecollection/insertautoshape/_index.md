@@ -1,14 +1,14 @@
 ---
 title: InsertAutoShape
 second_title: Aspose.Slides for .NET API 参考
-description: 创建一个新的自选图形根据默认模板对其进行调整并将其插入到 指定索引处的集合中 注意形状的类型将由 shapeType 参数确定
+description: 创建一个新的自选图形从默认模板对其进行调整并将其插入到 指定索引处的集合中 注意形状的类型将由 shapeType 参数确定
 type: docs
 weight: 250
 url: /zh/net/aspose.slides/ishapecollection/insertautoshape/
 ---
 ## InsertAutoShape(int, ShapeType, float, float, float, float) {#insertautoshape}
 
-创建一个新的自选图形，根据默认模板对其进行调整并将其插入到 指定索引处的集合中。 注意:形状的类型将由 shapeType 参数确定。
+创建一个新的自选图形，从默认模板对其进行调整并将其插入到 指定索引处的集合中。 注意：形状的类型将由 shapeType 参数确定。
 
 ```csharp
 public IAutoShape InsertAutoShape(int index, ShapeType shapeType, float x, float y, float width, 
@@ -17,8 +17,8 @@ public IAutoShape InsertAutoShape(int index, ShapeType shapeType, float x, float
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| index | Int32 | 应该插入值的从零开始的索引。 |
-| shapeType | ShapeType | 一个[`ShapeType`](../../shapetype)形状。 |
+| index | Int32 | 应插入值的从零开始的索引。 |
+| shapeType | ShapeType | 一个[`ShapeType`](../../shapetype)的形状。 |
 | x | Single | 形状框架左侧的 X 坐标。 |
 | y | Single | 形状框架顶部的 Y 坐标。 |
 | width | Single | 形状框架的宽度。 |
@@ -40,7 +40,7 @@ public IAutoShape InsertAutoShape(int index, ShapeType shapeType, float x, float
 
 ## InsertAutoShape(int, ShapeType, float, float, float, float, bool) {#insertautoshape_1}
 
-创建一个新的自选图形并将其插入到指定索引处的集合中。 注意:形状的类型将由 shapeType 参数确定。
+创建一个新的自选图形并将其插入到集合中指定索引处。 注意：形状的类型将由 shapeType 参数确定。
 
 ```csharp
 public IAutoShape InsertAutoShape(int index, ShapeType shapeType, float x, float y, float width, 
@@ -49,13 +49,13 @@ public IAutoShape InsertAutoShape(int index, ShapeType shapeType, float x, float
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| index | Int32 | 应该插入值的从零开始的索引。 |
-| shapeType | ShapeType | 一个[`ShapeType`](../../shapetype)形状。 |
+| index | Int32 | 应插入值的从零开始的索引。 |
+| shapeType | ShapeType | 一个[`ShapeType`](../../shapetype)的形状。 |
 | x | Single | 形状框架左侧的 X 坐标。 |
 | y | Single | 形状框架顶部的 Y 坐标。 |
 | width | Single | 形状框架的宽度。 |
 | height | Single | 形状框架的高度。 |
-| createFromTemplate | Boolean | 如果为真，则将从默认模板调整新形状。非空名称， 简单样式，居中的文本将被关联到新形状。 如果为 false，则新形状的所有属性值都将具有默认值。 |
+| createFromTemplate | Boolean | 如果为 true，则新形状将从默认模板进行调整。非空名称， 简单样式，文本居中将被关联到新形状。 如果为 false，则新形状的所有属性值都将具有默认值。 |
 
 ### 返回值
 

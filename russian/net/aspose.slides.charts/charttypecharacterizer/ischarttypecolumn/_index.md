@@ -1,14 +1,14 @@
 ---
 title: IsChartTypeColumn
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает true если chartType является одним из подтипов Column. Набор подтипов соответствует соответствующему набору в PowerPoint см. диалоговое окно Изменить тип диаграммы в PowerPoint ClusteredColumn ClusteredColumn3D ClusteredCone ClusteredCylinder ClusteredPyramid PercentsStackedColumn PercentsStackedColumn3D PercentsStackedCone PercentsStackedCylinder PercentsStackedPyramid StackedColumn StackedColumn3D StackedCone StackedCylinder StackedPyramid Column3D Cylinder3D Cone3D Pyramid3D.
+description: Возвращает true если chartType является одним из подтипов Column. Набор подтипов соответствует соответствующему набору в PowerPoint см. диалоговое окно Изменить тип диаграммы в PowerPoint ClusteredColumn  ClusteredColumn3D  ClusteredCone  ClusteredCylinder  ClusteredPyramid  PercentsStackedColumn  PercentsStackedColumn3D  PercentsStackedCone  PercentsStackedCylinder  PercentsStackedPyramid  StackedColumn  StackedColumn3D  StackedCone  StackedCylinder  StackedPyramid  Column3D  Cylinder3D  Cone3D  Pyramid3D .
 type: docs
 weight: 80
 url: /ru/net/aspose.slides.charts/charttypecharacterizer/ischarttypecolumn/
 ---
 ## ChartTypeCharacterizer.IsChartTypeColumn method
 
-Возвращает true, если chartType является одним из подтипов Column. Набор подтипов соответствует соответствующему набору в PowerPoint (см. диалоговое окно «Изменить тип диаграммы» в PowerPoint): ClusteredColumn, ClusteredColumn3D, ClusteredCone, ClusteredCylinder, ClusteredPyramid, PercentsStackedColumn, PercentsStackedColumn3D, PercentsStackedCone, PercentsStackedCylinder, PercentsStackedPyramid, StackedColumn, StackedColumn3D, StackedCone, StackedCylinder, StackedPyramid, Column3D, Cylinder3D, Cone3D, Pyramid3D.
+Возвращает true, если chartType является одним из подтипов Column. Набор подтипов соответствует соответствующему набору в PowerPoint (см. диалоговое окно «Изменить тип диаграммы» в PowerPoint): ClusteredColumn , ClusteredColumn3D , ClusteredCone , ClusteredCylinder , ClusteredPyramid , PercentsStackedColumn , PercentsStackedColumn3D , PercentsStackedCone , PercentsStackedCylinder , PercentsStackedPyramid , StackedColumn , StackedColumn3D , StackedCone , StackedCylinder , StackedPyramid , Column3D , Cylinder3D , Cone3D , Pyramid3D .
 
 ```csharp
 public static bool IsChartTypeColumn(ChartType chartType)

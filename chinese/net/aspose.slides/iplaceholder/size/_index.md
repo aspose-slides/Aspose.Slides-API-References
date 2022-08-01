@@ -1,14 +1,14 @@
 ---
 title: Size
 second_title: Aspose.Slides for .NET API 参考
-description: 获取占位符的大小 只读PlaceholderSizeaspose.slides/placeholdersize
+description: 获取占位符的大小 只读PlaceholderSizeaspose.slides/placeholdersize.
 type: docs
 weight: 30
 url: /zh/net/aspose.slides/iplaceholder/size/
 ---
 ## IPlaceholder.Size property
 
-获取占位符的大小。 只读[`PlaceholderSize`](../../placeholdersize)。
+获取占位符的大小。 只读[`PlaceholderSize`](../../placeholdersize).
 
 ```csharp
 public PlaceholderSize Size { get; }

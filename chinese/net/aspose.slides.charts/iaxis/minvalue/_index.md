@@ -1,14 +1,14 @@
 ---
 title: MinValue
 second_title: Aspose.Slides for .NET API 参考
-description: 表示数值轴上的最小值 读/写Double
+description: 表示数值轴上的最小值 读/写Double.
 type: docs
 weight: 430
 url: /zh/net/aspose.slides.charts/iaxis/minvalue/
 ---
 ## IAxis.MinValue property
 
-表示数值轴上的最小值。 读/写Double。
+表示数值轴上的最小值。 读/写Double.
 
 ```csharp
 public double MinValue { get; set; }

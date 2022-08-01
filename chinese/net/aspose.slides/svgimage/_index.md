@@ -29,10 +29,10 @@ public class SvgImage : ISvgImage
 
 | 姓名 | 描述 |
 | --- | --- |
-| [BaseUri](../../aspose.slides/svgimage/baseuri) { get; } | 返回指定 Svg 的基本 URI。用于解析相对链接。 只读String。 |
-| [ExternalResourceResolver](../../aspose.slides/svgimage/externalresourceresolver) { get; } | 返回Svg文档导入时解析外部资源的回调接口。 只读[`IExternalResourceResolver`](../../aspose.slides.import/iexternalresourceresolver)。 |
-| [SvgContent](../../aspose.slides/svgimage/svgcontent) { get; } | 返回 SVG 内容。 只读String。 |
-| [SvgData](../../aspose.slides/svgimage/svgdata) { get; } | 返回 SVG 数据。 只读Byte[]。 |
+| [BaseUri](../../aspose.slides/svgimage/baseuri) { get; } | 返回指定 Svg 的基本 URI。用于解析相对链接。 只读String. |
+| [ExternalResourceResolver](../../aspose.slides/svgimage/externalresourceresolver) { get; } | 在Svg文档导入时返回用于解析外部资源的回调接口。 只读[`IExternalResourceResolver`](../../aspose.slides.import/iexternalresourceresolver). |
+| [SvgContent](../../aspose.slides/svgimage/svgcontent) { get; } | 返回 SVG 内容。 只读String. |
+| [SvgData](../../aspose.slides/svgimage/svgdata) { get; } | 返回 SVG 数据。 只读Byte[]. |
 
 ### 也可以看看
 

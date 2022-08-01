@@ -18,7 +18,7 @@ public interface IKnownIssueWarningInfo : IWarningInfo
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsIWarningInfo](../../aspose.slides.warnings/iknownissuewarninginfo/asiwarninginfo) { get; } | 返回 IWarningInfo 接口。 只读[`IWarningInfo`](../iwarninginfo)。 |
+| [AsIWarningInfo](../../aspose.slides.warnings/iknownissuewarninginfo/asiwarninginfo) { get; } | 返回 IWarningInfo 接口。 只读[`IWarningInfo`](../iwarninginfo). |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: ExternalFontsHandling
 second_title: Aspose.Slides for .NET API 参考
-description: 确定处理外部加载字体的方式 读/写SvgExternalFontsHandlingaspose.slides.export/svgexternalfontshandling
+description: 确定处理外部加载字体的方式 读/写SvgExternalFontsHandlingaspose.slides.export/svgexternalfontshandling.
 type: docs
 weight: 60
 url: /zh/net/aspose.slides.export/isvgoptions/externalfontshandling/
 ---
 ## ISVGOptions.ExternalFontsHandling property
 
-确定处理外部加载字体的方式。 读/写[`SvgExternalFontsHandling`](../../svgexternalfontshandling)。
+确定处理外部加载字体的方式。 读/写[`SvgExternalFontsHandling`](../../svgexternalfontshandling).
 
 ```csharp
 public SvgExternalFontsHandling ExternalFontsHandling { get; set; }

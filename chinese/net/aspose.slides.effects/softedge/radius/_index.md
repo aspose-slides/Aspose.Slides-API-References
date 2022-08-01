@@ -1,14 +1,14 @@
 ---
 title: Radius
 second_title: Aspose.Slides for .NET API 参考
-description: 指定应用于边缘的模糊半径 读/写Double
+description: 指定应用到边缘的模糊半径 读/写Double.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides.effects/softedge/radius/
 ---
 ## SoftEdge.Radius property
 
-指定应用于边缘的模糊半径。 读/写Double。
+指定应用到边缘的模糊半径。 读/写Double.
 
 ```csharp
 public double Radius { get; set; }

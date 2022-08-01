@@ -1,14 +1,14 @@
 ---
 title: Behaviors
 second_title: Aspose.Slides for .NET API 参考
-description: 返回效果的行为集合 读/写IBehaviorCollectionaspose.slides.animation/ibehaviorcollection
+description: 返回效果的行为集合 读/写IBehaviorCollectionaspose.slides.animation/ibehaviorcollection.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides.animation/ieffect/behaviors/
 ---
 ## IEffect.Behaviors property
 
-返回效果的行为集合。 读/写[`IBehaviorCollection`](../../ibehaviorcollection)。
+返回效果的行为集合。 读/写[`IBehaviorCollection`](../../ibehaviorcollection).
 
 ```csharp
 public IBehaviorCollection Behaviors { get; set; }

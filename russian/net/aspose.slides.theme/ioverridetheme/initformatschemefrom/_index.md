@@ -22,7 +22,7 @@ public void InitFormatSchemeFrom(IFormatScheme formatScheme)
 
 | исключение | условие |
 | --- | --- |
-| InvalidOperationException | Генерируется, если FormatScheme уже инициализирована (не нуль). |
+| InvalidOperationException | Вызывается, если FormatScheme уже инициализирован (не нуль). |
 | ArgumentNullException | Вызывается, если параметр formatScheme имеет значение null. |
 
 ### Смотрите также

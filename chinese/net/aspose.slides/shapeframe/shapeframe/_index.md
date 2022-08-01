@@ -17,11 +17,11 @@ public ShapeFrame(float x, float y, float width, float height, NullableBool flip
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| x | Single | 一帧的 X 坐标。 |
-| y | Single | 一帧的 Y 坐标。 |
-| width | Single | 帧的宽度。 |
-| height | Single | 帧的高度。 |
-| flipH | NullableBool | 如果帧水平翻转，则为真。 |
+| x | Single | 帧的 X 坐标。 |
+| y | Single | 框架的 Y 坐标。 |
+| width | Single | 框架的宽度。 |
+| height | Single | 框架的高度。 |
+| flipH | NullableBool | 如果框架水平翻转，则为真。 |
 | flipV | NullableBool | 如果帧垂直翻转，则为真。 |
 | rotationAngle | Single | 框架旋转的度数。 |
 

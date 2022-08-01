@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: Aspose.Slides for .NET API 参考
-description: 确定指定的GradientStopEffectiveDataaspose.slides/gradientstopeffectivedata是否等于当前的SlidesGradientStopEffectiveData
+description: 判断是否指定GradientStopEffectiveDataaspose.slides/gradientstopeffectivedata等于当前GradientStopEffectiveDataaspose.slides/gradientstopeffectivedata.
 type: docs
 weight: 30
 url: /zh/net/aspose.slides/gradientstopeffectivedata/equals/
 ---
 ## GradientStopEffectiveData.Equals method
 
-确定指定的[`GradientStopEffectiveData`](../../gradientstopeffectivedata)是否等于当前的Slides。GradientStopEffectiveData。
+判断是否指定[`GradientStopEffectiveData`](../../gradientstopeffectivedata)等于当前[`GradientStopEffectiveData`](../../gradientstopeffectivedata).
 
 ```csharp
 public override bool Equals(object obj)
@@ -16,11 +16,11 @@ public override bool Equals(object obj)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| obj | Object | [`GradientStopEffectiveData`](../../gradientstopeffectivedata)进行比较。 |
+| obj | Object | 这[`GradientStopEffectiveData`](../../gradientstopeffectivedata)比较。 |
 
 ### 返回值
 
-如果对象相等，则为真；否则为假。
+如果对象相等，则为 true；否则为假。
 
 ### 也可以看看
 

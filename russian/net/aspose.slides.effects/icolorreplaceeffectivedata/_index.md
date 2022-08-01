@@ -1,14 +1,14 @@
 ---
 title: IColorReplaceEffectiveData
 second_title: Справочник по API Aspose.Slides для .NET
-description: Неизменяемый объект представляющий эффект замены цвета. Все цвета эффектов изменены на фиксированный цвет. Значения альфа-канала не изменяются.
+description: Неизменяемый объект представляющий эффект замены цвета. Все цвета эффекта изменены на фиксированный цвет. Значения альфа-канала не изменяются.
 type: docs
 weight: 3050
 url: /ru/net/aspose.slides.effects/icolorreplaceeffectivedata/
 ---
 ## IColorReplaceEffectiveData interface
 
-Неизменяемый объект, представляющий эффект замены цвета. Все цвета эффектов изменены на фиксированный цвет. Значения альфа-канала не изменяются.
+Неизменяемый объект, представляющий эффект замены цвета. Все цвета эффекта изменены на фиксированный цвет. Значения альфа-канала не изменяются.
 
 ```csharp
 public interface IColorReplaceEffectiveData : IEffectEffectiveData
@@ -18,8 +18,8 @@ public interface IColorReplaceEffectiveData : IEffectEffectiveData
 
 | Имя | Описание |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/icolorreplaceeffectivedata/asieffecteffectivedata) { get; } | Позволяет получить базовый интерфейс IEffectEffectiveData. Только для чтения[`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Color](../../aspose.slides.effects/icolorreplaceeffectivedata/color) { get; } | Возвращает формат цвета, который заменит цвет каждого пикселя. Только для чтенияColor. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/icolorreplaceeffectivedata/asieffecteffectivedata) { get; } | Позволяет получить базовый интерфейс IEffectEffectiveData. Только для чтения[`IEffectEffectiveData`](../ieffecteffectivedata) . |
+| [Color](../../aspose.slides.effects/icolorreplaceeffectivedata/color) { get; } | Возвращает формат цвета, который заменяет цвет каждого пикселя. Только для чтенияColor . |
 
 ### Смотрите также
 

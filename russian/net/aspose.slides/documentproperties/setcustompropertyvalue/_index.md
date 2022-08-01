@@ -16,8 +16,8 @@ public void SetCustomPropertyValue(string name, bool value)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| name | String | Имя устанавливаемого пользовательского свойства |
-| value | Boolean | Значение пользовательского свойства |
+| name | String | Имя пользовательского свойства для установки |
+| value | Boolean | Пользовательское значение свойства |
 
 ### Смотрите также
 
@@ -29,7 +29,7 @@ public void SetCustomPropertyValue(string name, bool value)
 
 ## SetCustomPropertyValue(string, int) {#setcustompropertyvalue_2}
 
-Устанавливает именованное целочисленное пользовательское свойство.
+Задает именованное целочисленное пользовательское свойство.
 
 ```csharp
 public void SetCustomPropertyValue(string name, int value)
@@ -37,8 +37,8 @@ public void SetCustomPropertyValue(string name, int value)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| name | String | Имя устанавливаемого пользовательского свойства |
-| value | Int32 | Значение пользовательского свойства |
+| name | String | Имя пользовательского свойства для установки |
+| value | Int32 | Пользовательское значение свойства |
 
 ### Смотрите также
 
@@ -58,8 +58,8 @@ public void SetCustomPropertyValue(string name, DateTime value)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| name | String | Имя устанавливаемого пользовательского свойства |
-| value | DateTime | Значение пользовательского свойства |
+| name | String | Имя пользовательского свойства для установки |
+| value | DateTime | Пользовательское значение свойства |
 
 ### Смотрите также
 
@@ -79,8 +79,8 @@ public void SetCustomPropertyValue(string name, string value)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| name | String | Имя устанавливаемого пользовательского свойства |
-| value | String | Значение пользовательского свойства |
+| name | String | Имя пользовательского свойства для установки |
+| value | String | Пользовательское значение свойства |
 
 ### Смотрите также
 
@@ -92,7 +92,7 @@ public void SetCustomPropertyValue(string name, string value)
 
 ## SetCustomPropertyValue(string, float) {#setcustompropertyvalue_3}
 
-Устанавливает именованное пользовательское свойство с плавающей запятой.
+Задает именованное пользовательское свойство с плавающей запятой.
 
 ```csharp
 public void SetCustomPropertyValue(string name, float value)
@@ -100,8 +100,8 @@ public void SetCustomPropertyValue(string name, float value)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| name | String | Имя устанавливаемого пользовательского свойства |
-| value | Single | Значение пользовательского свойства |
+| name | String | Имя пользовательского свойства для установки |
+| value | Single | Пользовательское значение свойства |
 
 ### Смотрите также
 
@@ -113,7 +113,7 @@ public void SetCustomPropertyValue(string name, float value)
 
 ## SetCustomPropertyValue(string, double) {#setcustompropertyvalue_1}
 
-Устанавливает именованное двойное пользовательское свойство.
+Задает именованное двойное пользовательское свойство.
 
 ```csharp
 public void SetCustomPropertyValue(string name, double value)
@@ -121,8 +121,8 @@ public void SetCustomPropertyValue(string name, double value)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| name | String | Имя устанавливаемого пользовательского свойства |
-| value | Double | Значение пользовательского свойства |
+| name | String | Имя пользовательского свойства для установки |
+| value | Double | Пользовательское значение свойства |
 
 ### Смотрите также
 

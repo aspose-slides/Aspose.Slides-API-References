@@ -18,10 +18,10 @@ public sealed class SectionCollection : DomObject<Presentation>, ISectionCollect
 
 | Имя | Описание |
 | --- | --- |
-| [Count](../../aspose.slides/sectioncollection/count) { get; } | Получает количество элементов, фактически содержащихся в коллекции. Только для чтенияInt32. |
-| [IsSynchronized](../../aspose.slides/sectioncollection/issynchronized) { get; } | Возвращает значение, указывающее, является ли доступ к коллекции синхронизированным (потокобезопасным). Только чтениеBoolean. |
-| [Item](../../aspose.slides/sectioncollection/item) { get; } | Получает элемент по указанному индексу. Только для чтения[`ISection`](../isection). |
-| [SyncRoot](../../aspose.slides/sectioncollection/syncroot) { get; } | Возвращает корень синхронизации. Только для чтенияObject. |
+| [Count](../../aspose.slides/sectioncollection/count) { get; } | Получает количество элементов, фактически содержащихся в коллекции. Только для чтенияInt32 . |
+| [IsSynchronized](../../aspose.slides/sectioncollection/issynchronized) { get; } | Возвращает значение, указывающее, является ли доступ к коллекции синхронизированным (потокобезопасным). Только для чтенияBoolean . |
+| [Item](../../aspose.slides/sectioncollection/item) { get; } | Получает элемент по указанному индексу. Только для чтения[`ISection`](../isection) . |
+| [SyncRoot](../../aspose.slides/sectioncollection/syncroot) { get; } | Возвращает корень синхронизации. Только для чтенияObject . |
 
 ## Методы
 
@@ -32,7 +32,7 @@ public sealed class SectionCollection : DomObject<Presentation>, ISectionCollect
 | [AppendEmptySection](../../aspose.slides/sectioncollection/appendemptysection)(string) | Добавить пустой раздел в конец коллекции. |
 | [Clear](../../aspose.slides/sectioncollection/clear)() | Удаляет все разделы из коллекции. |
 | [CopyTo](../../aspose.slides/sectioncollection/copyto)(Array, int) | Копирует всю коллекцию в указанный массив. |
-| [GetEnumerator](../../aspose.slides/sectioncollection/getenumerator)() | Возвращает перечислитель, который перебирает коллекцию. |
+| [GetEnumerator](../../aspose.slides/sectioncollection/getenumerator)() | Возвращает перечислитель, который выполняет итерацию по коллекции. |
 | [IndexOf](../../aspose.slides/sectioncollection/indexof)(ISection) | Возвращает индекс указанного раздела в коллекции. |
 | [RemoveSection](../../aspose.slides/sectioncollection/removesection)(ISection) | Удалить раздел. Слайды, содержащиеся в этом разделе, будут объединены с предыдущим разделом. |
 | [RemoveSectionWithSlides](../../aspose.slides/sectioncollection/removesectionwithslides)(ISection) | Удалить раздел и слайды, содержащиеся в разделе. |

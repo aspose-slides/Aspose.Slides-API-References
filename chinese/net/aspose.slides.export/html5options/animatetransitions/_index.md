@@ -1,14 +1,14 @@
 ---
 title: AnimateTransitions
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置过渡动画选项 读/写Boolean
+description: 返回或设置过渡动画选项 读/写Boolean.
 type: docs
 weight: 30
 url: /zh/net/aspose.slides.export/html5options/animatetransitions/
 ---
 ## Html5Options.AnimateTransitions property
 
-返回或设置过渡动画选项。 读/写Boolean。
+返回或设置过渡动画选项。 读/写Boolean.
 
 ```csharp
 public bool AnimateTransitions { get; set; }
@@ -16,7 +16,7 @@ public bool AnimateTransitions { get; set; }
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]

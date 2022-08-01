@@ -22,7 +22,7 @@ public IMathSuperscriptElement CreateMathSuperscriptElement(IMathElement baseArg
 
 ### 返回值
 
-new IMathSuperscriptElement
+新的 IMathSuperscript 元素
 
 ### 也可以看看
 

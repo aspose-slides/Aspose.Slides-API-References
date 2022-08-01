@@ -18,11 +18,11 @@ public interface IInnerShadowEffectiveData : IEffectEffectiveData
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/iinnershadoweffectivedata/asieffecteffectivedata) { get; } | 允许获取基础 IEffectEffectiveData 接口。 只读[`IEffectEffectiveData`](../ieffecteffectivedata)。 |
-| [BlurRadius](../../aspose.slides.effects/iinnershadoweffectivedata/blurradius) { get; } | 模糊半径。 只读Double。 |
-| [Direction](../../aspose.slides.effects/iinnershadoweffectivedata/direction) { get; } | 阴影方向。 只读Single。 |
-| [Distance](../../aspose.slides.effects/iinnershadoweffectivedata/distance) { get; } | 阴影距离。 只读Double。 |
-| [ShadowColor](../../aspose.slides.effects/iinnershadoweffectivedata/shadowcolor) { get; } | 阴影颜色。 只读Color。 |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/iinnershadoweffectivedata/asieffecteffectivedata) { get; } | 允许获取基本 IEffectEffectiveData 接口。 只读[`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [BlurRadius](../../aspose.slides.effects/iinnershadoweffectivedata/blurradius) { get; } | 模糊半径。 只读Double. |
+| [Direction](../../aspose.slides.effects/iinnershadoweffectivedata/direction) { get; } | 阴影方向。 只读Single. |
+| [Distance](../../aspose.slides.effects/iinnershadoweffectivedata/distance) { get; } | 阴影距离。 只读Double. |
+| [ShadowColor](../../aspose.slides.effects/iinnershadoweffectivedata/shadowcolor) { get; } | 阴影颜色。 只读Color. |
 
 ### 也可以看看
 

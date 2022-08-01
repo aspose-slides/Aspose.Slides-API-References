@@ -1,14 +1,14 @@
 ---
 title: ChartDataWorksheet
 second_title: Aspose.Slides for .NET API 参考
-description: 获取工作表 只读IChartDataWorksheetaspose.slides.charts/ichartdataworksheet
+description: 获取工作表 只读IChartDataWorksheetaspose.slides.charts/ichartdataworksheet.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides.charts/ichartdatacell/chartdataworksheet/
 ---
 ## IChartDataCell.ChartDataWorksheet property
 
-获取工作表。 只读[`IChartDataWorksheet`](../../ichartdataworksheet)。
+获取工作表。 只读[`IChartDataWorksheet`](../../ichartdataworksheet).
 
 ```csharp
 public IChartDataWorksheet ChartDataWorksheet { get; }

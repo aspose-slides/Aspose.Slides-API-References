@@ -17,7 +17,7 @@ public IPresentationText GetPresentationText(string file, TextExtractionArrangin
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | file | String | 输入文件 |
-| mode | TextExtractionArrangingMode | 提取模式 |
+| mode | TextExtractionArrangingMode | 提取方式 |
 
 ### 返回值
 
@@ -44,7 +44,7 @@ public IPresentationText GetPresentationText(Stream stream, TextExtractionArrang
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | stream | Stream | 输入流 |
-| mode | TextExtractionArrangingMode | 提取模式 |
+| mode | TextExtractionArrangingMode | 提取方式 |
 
 ### 返回值
 
@@ -72,7 +72,7 @@ public IPresentationText GetPresentationText(Stream stream, TextExtractionArrang
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | stream | Stream | 输入流 |
-| mode | TextExtractionArrangingMode | 提取模式 |
+| mode | TextExtractionArrangingMode | 提取方式 |
 | options | ILoadOptions | 加载选项 |
 
 ### 返回值

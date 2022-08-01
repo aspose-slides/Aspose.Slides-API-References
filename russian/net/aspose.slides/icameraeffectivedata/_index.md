@@ -18,19 +18,19 @@ public interface ICameraEffectiveData
 
 | Имя | Описание |
 | --- | --- |
-| [CameraType](../../aspose.slides/icameraeffectivedata/cameratype) { get; } | Тип камеры. Только для чтения[`CameraPresetType`](../camerapresettype). |
-| [FieldOfViewAngle](../../aspose.slides/icameraeffectivedata/fieldofviewangle) { get; } | FOV камеры (0-180 град, поле зрения). Только для чтенияSingle. |
-| [Zoom](../../aspose.slides/icameraeffectivedata/zoom) { get; } | Увеличение камеры (положительное значение в процентах). Только для чтенияSingle. |
+| [CameraType](../../aspose.slides/icameraeffectivedata/cameratype) { get; } | Тип камеры. Только для чтения[`CameraPresetType`](../camerapresettype) . |
+| [FieldOfViewAngle](../../aspose.slides/icameraeffectivedata/fieldofviewangle) { get; } | FOV камеры (0-180 градусов, поле зрения). Только для чтенияSingle . |
+| [Zoom](../../aspose.slides/icameraeffectivedata/zoom) { get; } | Масштаб камеры (положительное значение в процентах). Только для чтенияSingle . |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [GetRotation](../../aspose.slides/icameraeffectivedata/getrotation)() | Вращение определяется с помощью координаты широты, координаты долготы и вращения вокруг оси как координаты широты и долготы. первый элемент возвращаемого массива - широта, второй - долгота, третий - оборот. Возвращает null, если вращение не определено. |
+| [GetRotation](../../aspose.slides/icameraeffectivedata/getrotation)() | Вращение определяется с помощью использования координаты широты , координаты долготы и оборота вокруг оси в качестве координат широты и долготы. первый элемент в возвращаемом массиве - широта, второй - долгота, третий - оборот. Возвращает null, если вращение не определено. |
 
 ### Примечания
 
-Этот интерфейс используется как часть[`IThreeDFormatEffectiveData`](../ithreedformateffectivedata).
+Этот интерфейс используется как часть[`IThreeDFormatEffectiveData`](../ithreedformateffectivedata) .
 
 ### Смотрите также
 

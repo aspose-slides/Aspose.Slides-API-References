@@ -1,14 +1,14 @@
 ---
 title: Timing
 second_title: Aspose.Slides for .NET API 参考
-description: 表示效果行为的时序属性 读/写ITimingaspose.slides.animation/itiming
+description: 表示效果行为的时序属性 读/写ITimingaspose.slides.animation/itiming.
 type: docs
 weight: 40
 url: /zh/net/aspose.slides.animation/behavior/timing/
 ---
 ## Behavior.Timing property
 
-表示效果行为的时序属性。 读/写[`ITiming`](../../itiming)。
+表示效果行为的时序属性。 读/写[`ITiming`](../../itiming).
 
 ```csharp
 public ITiming Timing { get; set; }

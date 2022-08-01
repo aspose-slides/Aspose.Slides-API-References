@@ -8,7 +8,7 @@ url: /ru/net/aspose.slides.animation/behaviorproperty/extrusionviewpointz/
 ---
 ## BehaviorProperty.ExtrusionViewPointZ property
 
-Представляет свойство 'extrusion.viewpoint.z'
+Представляет свойство "extrusion.viewpoint.z"
 
 ```csharp
 public static BehaviorProperty ExtrusionViewPointZ { get; }

@@ -1,14 +1,14 @@
 ---
 title: ColorSpace
 second_title: Aspose.Slides for .NET API 参考
-description: 表示行为的色彩空间 读/写ColorSpaceaspose.slides.animation/colorspace
+description: 表示行为的颜色空间 读/写ColorSpaceaspose.slides.animation/colorspace.
 type: docs
 weight: 30
 url: /zh/net/aspose.slides.animation/coloreffect/colorspace/
 ---
 ## ColorEffect.ColorSpace property
 
-表示行为的色彩空间。 读/写[`ColorSpace`](../../colorspace)。
+表示行为的颜色空间。 读/写[`ColorSpace`](../../colorspace).
 
 ```csharp
 public ColorSpace ColorSpace { get; set; }

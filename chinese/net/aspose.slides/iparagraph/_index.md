@@ -1,14 +1,14 @@
 ---
 title: IParagraph
 second_title: Aspose.Slides for .NET API 参考
-description: 表示一段文本
+description: 代表一段文字
 type: docs
 weight: 6000
 url: /zh/net/aspose.slides/iparagraph/
 ---
 ## IParagraph interface
 
-表示一段文本。
+代表一段文字。
 
 ```csharp
 public interface IParagraph : ISlideComponent
@@ -18,18 +18,18 @@ public interface IParagraph : ISlideComponent
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsISlideComponent](../../aspose.slides/iparagraph/asislidecomponent) { get; } | 允许获取基础 ISlideComponent 接口。 只读[`ISlideComponent`](../islidecomponent)。 |
-| [EndParagraphPortionFormat](../../aspose.slides/iparagraph/endparagraphportionformat) { get; set; } | 指定如果在 最后一个部分之后插入另一个部分时要使用的部分属性。 |
-| [ParagraphFormat](../../aspose.slides/iparagraph/paragraphformat) { get; } | 返回此段落的格式化对象。 只读[`IParagraphFormat`](../iparagraphformat)。 |
-| [Portions](../../aspose.slides/iparagraph/portions) { get; } | 返回文本部分的集合。 只读[`IPortionCollection`](../iportioncollection)。 |
-| [Text](../../aspose.slides/iparagraph/text) { get; set; } | 获取或设置段落的纯文本。 读/写String。 |
+| [AsISlideComponent](../../aspose.slides/iparagraph/asislidecomponent) { get; } | 允许获取基本 ISlideComponent 接口。 只读[`ISlideComponent`](../islidecomponent). |
+| [EndParagraphPortionFormat](../../aspose.slides/iparagraph/endparagraphportionformat) { get; set; } | 指定在 最后一个部分之后插入另一部分时要使用的部分属性。 |
+| [ParagraphFormat](../../aspose.slides/iparagraph/paragraphformat) { get; } | 返回此段落的格式化对象。 只读[`IParagraphFormat`](../iparagraphformat). |
+| [Portions](../../aspose.slides/iparagraph/portions) { get; } | 返回文本部分的集合。 只读[`IPortionCollection`](../iportioncollection). |
+| [Text](../../aspose.slides/iparagraph/text) { get; set; } | 获取或设置段落的纯文本。 读/写String. |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [GetRect](../../aspose.slides/iparagraph/getrect)() | 获取段落边界的矩形坐标。 rect 包括段落中 文本的所有行，包括空行。 |
-| [JoinPortionsWithSameFormatting](../../aspose.slides/iparagraph/joinportionswithsameformatting)() | 加入以相同格式运行。 |
+| [GetRect](../../aspose.slides/iparagraph/getrect)() | 获取段落边界的矩形坐标。矩形包括段落中 文本的所有行，包括空行。 |
+| [JoinPortionsWithSameFormatting](../../aspose.slides/iparagraph/joinportionswithsameformatting)() | 连接以相同的格式运行。 |
 
 ### 也可以看看
 

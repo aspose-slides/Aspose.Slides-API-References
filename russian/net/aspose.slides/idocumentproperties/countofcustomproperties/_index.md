@@ -1,14 +1,14 @@
 ---
 title: CountOfCustomProperties
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает количество пользовательских свойств фактически содержащихся в коллекции. Только для чтенияInt32.
+description: Возвращает количество пользовательских свойств фактически содержащихся в коллекции. Только для чтенияInt32 .
 type: docs
 weight: 90
 url: /ru/net/aspose.slides/idocumentproperties/countofcustomproperties/
 ---
 ## IDocumentProperties.CountOfCustomProperties property
 
-Возвращает количество пользовательских свойств, фактически содержащихся в коллекции. Только для чтенияInt32.
+Возвращает количество пользовательских свойств, фактически содержащихся в коллекции. Только для чтенияInt32 .
 
 ```csharp
 public int CountOfCustomProperties { get; }

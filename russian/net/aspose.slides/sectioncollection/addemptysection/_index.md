@@ -16,8 +16,8 @@ public ISection AddEmptySection(string name, int index)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| name | String | Имя раздела |
-| index | Int32 | Индекс нового раздел. |
+| name | String | Название раздела |
+| index | Int32 | Указатель нового раздела. |
 
 ### Возвращаемое значение
 

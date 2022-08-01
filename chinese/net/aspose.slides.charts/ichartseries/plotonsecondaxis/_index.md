@@ -1,14 +1,14 @@
 ---
 title: PlotOnSecondAxis
 second_title: Aspose.Slides for .NET API 参考
-description: 指示此系列是否绘制在第二个值轴上 读/写Boolean
+description: 指示该系列是否绘制在第二个值轴上 读/写Boolean.
 type: docs
 weight: 330
 url: /zh/net/aspose.slides.charts/ichartseries/plotonsecondaxis/
 ---
 ## IChartSeries.PlotOnSecondAxis property
 
-指示此系列是否绘制在第二个值轴上。 读/写Boolean。
+指示该系列是否绘制在第二个值轴上。 读/写Boolean.
 
 ```csharp
 public bool PlotOnSecondAxis { get; set; }

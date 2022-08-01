@@ -1,14 +1,14 @@
 ---
 title: XValue
 second_title: Aspose.Slides for .NET API 参考
-description: 返回图表数据点的 x 值 只读IStringOrDoubleChartValueaspose.slides.charts/istringordoublechartvalue
+description: 返回图表数据点的 x 值 只读IStringOrDoubleChartValueaspose.slides.charts/istringordoublechartvalue.
 type: docs
 weight: 160
 url: /zh/net/aspose.slides.charts/ichartdatapoint/xvalue/
 ---
 ## IChartDataPoint.XValue property
 
-返回图表数据点的 x 值。 只读[`IStringOrDoubleChartValue`](../../istringordoublechartvalue)。
+返回图表数据点的 x 值。 只读[`IStringOrDoubleChartValue`](../../istringordoublechartvalue).
 
 ```csharp
 public IStringOrDoubleChartValue XValue { get; }

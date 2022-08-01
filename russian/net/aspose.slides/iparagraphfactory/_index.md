@@ -19,11 +19,11 @@ public interface IParagraphFactory
 | Имя | Описание |
 | --- | --- |
 | [CreateParagraph](../../aspose.slides/iparagraphfactory/createparagraph#createparagraph)() | Создает новый пустой абзац. |
-| [CreateParagraph](../../aspose.slides/iparagraphfactory/createparagraph#createparagraph_1)(IParagraph) | Создает новый абзац с использованием указанных данных абзаца. |
+| [CreateParagraph](../../aspose.slides/iparagraphfactory/createparagraph#createparagraph_1)(IParagraph) | Создает новый абзац с указанными данными абзаца, используя. |
 
 ### Примечания
 
-Для COM-совместимость.
+Для COM-совместимости.
 
 ### Смотрите также
 

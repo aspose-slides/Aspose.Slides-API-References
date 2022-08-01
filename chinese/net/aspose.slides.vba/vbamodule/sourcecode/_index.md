@@ -1,14 +1,14 @@
 ---
 title: SourceCode
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置模块的源代码 读/写String
+description: 返回或设置模块的源代码 读/写String.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides.vba/vbamodule/sourcecode/
 ---
 ## VbaModule.SourceCode property
 
-返回或设置模块的源代码。 读/写String。
+返回或设置模块的源代码。 读/写String.
 
 ```csharp
 public string SourceCode { get; set; }

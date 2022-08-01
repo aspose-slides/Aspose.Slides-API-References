@@ -19,12 +19,12 @@ public interface IPresetShadow : IAccessiblePVIObject<IPresetShadowEffectiveData
 
 | Имя | Описание |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ipresetshadow/asiaccessiblepviobject) { get; } | Позволяет получить базовый интерфейс IAccessiblePVIObject. Только чтение[`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ipresetshadow/asiimagetransformoperation) { get; } | Позволяет получить базовый интерфейс IImageTransformOperation. Только для чтения[`IImageTransformOperation`](../iimagetransformoperation). |
-| [Direction](../../aspose.slides.effects/ipresetshadow/direction) { get; set; } | Направление тени. Чтение/записьSingle. |
-| [Distance](../../aspose.slides.effects/ipresetshadow/distance) { get; set; } | Расстояние тени. Чтение/записьDouble. |
-| [Preset](../../aspose.slides.effects/ipresetshadow/preset) { get; set; } | Предустановка. Чтение/запись[`PresetShadowType`](../../aspose.slides/presetshadowtype). |
-| [ShadowColor](../../aspose.slides.effects/ipresetshadow/shadowcolor) { get; } | Цвет тени. Только для чтения[`IColorFormat`](../../aspose.slides/icolorformat). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ipresetshadow/asiaccessiblepviobject) { get; } | Позволяет получить базовый интерфейс IAccessiblePVIObject. Только для чтения[`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1) . |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ipresetshadow/asiimagetransformoperation) { get; } | Позволяет получить базовый интерфейс IImageTransformOperation. Только для чтения[`IImageTransformOperation`](../iimagetransformoperation) . |
+| [Direction](../../aspose.slides.effects/ipresetshadow/direction) { get; set; } | Направление тени. Чтение/записьSingle . |
+| [Distance](../../aspose.slides.effects/ipresetshadow/distance) { get; set; } | Расстояние тени. Чтение/записьDouble . |
+| [Preset](../../aspose.slides.effects/ipresetshadow/preset) { get; set; } | Предустановка. Чтение/запись[`PresetShadowType`](../../aspose.slides/presetshadowtype) . |
+| [ShadowColor](../../aspose.slides.effects/ipresetshadow/shadowcolor) { get; } | Цвет тени. Только для чтения[`IColorFormat`](../../aspose.slides/icolorformat) . |
 
 ### Смотрите также
 

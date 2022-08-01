@@ -1,14 +1,14 @@
 ---
 title: IThemeManager
 second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет свойства темы.
+description: Представление свойств темы.
 type: docs
 weight: 10580
 url: /ru/net/aspose.slides.theme/ithememanager/
 ---
 ## IThemeManager interface
 
-Представляет свойства темы.
+Представление свойств темы.
 
 ```csharp
 public interface IThemeManager

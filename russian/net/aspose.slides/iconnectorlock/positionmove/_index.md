@@ -1,14 +1,14 @@
 ---
 title: PositionMove
 second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет запрещено ли перемещение этой фигуры. Чтение/записьBoolean.
+description: Определяет запрещено ли перемещение этой фигуры. Чтение/записьBoolean .
 type: docs
 weight: 70
 url: /ru/net/aspose.slides/iconnectorlock/positionmove/
 ---
 ## IConnectorLock.PositionMove property
 
-Определяет, запрещено ли перемещение этой фигуры. Чтение/записьBoolean.
+Определяет, запрещено ли перемещение этой фигуры. Чтение/записьBoolean .
 
 ```csharp
 public bool PositionMove { get; set; }

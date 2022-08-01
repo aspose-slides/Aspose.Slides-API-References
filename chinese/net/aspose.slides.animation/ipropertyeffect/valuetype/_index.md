@@ -1,14 +1,14 @@
 ---
 title: ValueType
 second_title: Aspose.Slides for .NET API 参考
-description: 指定属性值的类型 读/写PropertyValueTypeaspose.slides.animation/propertyvaluetype
+description: 指定属性值的类型 读/写PropertyValueTypeaspose.slides.animation/propertyvaluetype.
 type: docs
 weight: 70
 url: /zh/net/aspose.slides.animation/ipropertyeffect/valuetype/
 ---
 ## IPropertyEffect.ValueType property
 
-指定属性值的类型。 读/写[`PropertyValueType`](../../propertyvaluetype)。
+指定属性值的类型。 读/写[`PropertyValueType`](../../propertyvaluetype).
 
 ```csharp
 public PropertyValueType ValueType { get; set; }

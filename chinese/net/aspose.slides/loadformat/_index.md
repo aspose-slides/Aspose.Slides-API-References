@@ -19,19 +19,19 @@ public enum LoadFormat
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | Auto | `0` | 指示 Aspose.Slides 自动识别格式。 |
-| Ppt | `1` | Microsoft PowerPoint 97-2003 演示文稿。 |
-| Pps | `2` | Microsoft PowerPoint 97-2003 幻灯片。 |
-| Pptx | `3` | Microsoft Office Open XML PresentationML 文档。 |
-| Ppsx | `4` | Microsoft Office Open XML PresentationML 幻灯片。 |
-| Odp | `5` | OpenOffice ODF 演示文稿。 |
+| Ppt | `1` | Microsoft PowerPoint 97-2003 演示文稿. |
+| Pps | `2` | Microsoft PowerPoint 97-2003 幻灯片放映. |
+| Pptx | `3` | Microsoft Office Open XML PresentationML Document. |
+| Ppsx | `4` | Microsoft Office Open XML PresentationML SlideShow. |
+| Odp | `5` | OpenOffice ODF 演示文稿. |
 | Potx | `6` | Microsoft Office Open XML PresentationML 模板。 |
 | Pptm | `7` | Microsoft Office Open XML PresentationML 启用宏的文档。 |
-| Ppsm | `8` | Microsoft Office Open XML PresentationML 启用宏的幻灯片。 |
+| Ppsm | `8` | Microsoft Office Open XML PresentationML 启用宏的幻灯片放映。 |
 | Potm | `9` | Microsoft Office Open XML PresentationML 启用宏的模板。 |
-| Otp | `10` | OpenOffice OTP 演示模板。 |
-| Ppt95 | `11` | Microsoft PowerPoint 95 演示文稿。 |
+| Otp | `10` | OpenOffice OTP 演示文稿模板。 |
+| Ppt95 | `11` | Microsoft PowerPoint 95 演示文稿. |
 | Pot | `12` | Microsoft PowerPoint 97-2003 演示模板。 |
-| Fodp | `13` | 平面 XML ODF 表示。 |
+| Fodp | `13` | 平面 XML ODF 演示文稿. |
 | Unknown | `255` | 未知文件格式 |
 
 ### 也可以看看

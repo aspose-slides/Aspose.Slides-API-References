@@ -1,14 +1,14 @@
 ---
 title: IMathParagraph
 second_title: Aspose.Slides for .NET API 参考
-description: 数学段落它是数学块 IMathBlock 的容器
+description: 作为数学块容器的数学段落IMathBlock
 type: docs
 weight: 7680
 url: /zh/net/aspose.slides.mathtext/imathparagraph/
 ---
 ## IMathParagraph interface
 
-数学段落，它是数学块 (IMathBlock) 的容器
+作为数学块容器的数学段落（IMathBlock）
 
 ```csharp
 public interface IMathParagraph : IMathBlockCollection
@@ -19,17 +19,17 @@ public interface IMathParagraph : IMathBlockCollection
 | 姓名 | 描述 |
 | --- | --- |
 | [AsIMathBlockCollection](../../aspose.slides.mathtext/imathparagraph/asimathblockcollection) { get; } | 允许获取基础 IMathBlockCollection 接口 [`IMathBlockCollection`](../imathblockcollection) |
-| [Justification](../../aspose.slides.mathtext/imathparagraph/justification) { get; set; } | 段落对齐 默认值:CenteredAsGroup |
+| [Justification](../../aspose.slides.mathtext/imathparagraph/justification) { get; set; } | 段落对齐 默认值：CenteredAsGroup |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [WriteAsMathMl](../../aspose.slides.mathtext/imathparagraph/writeasmathml)(Stream) | 将此[`IMathParagraph`](../imathparagraph)的内容保存为 MathML |
+| [WriteAsMathMl](../../aspose.slides.mathtext/imathparagraph/writeasmathml)(Stream) | 保存此内容[`IMathParagraph`](../imathparagraph)作为 MathML |
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]

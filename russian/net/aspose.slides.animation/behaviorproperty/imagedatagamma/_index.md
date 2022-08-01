@@ -8,7 +8,7 @@ url: /ru/net/aspose.slides.animation/behaviorproperty/imagedatagamma/
 ---
 ## BehaviorProperty.ImageDataGamma property
 
-Представляет свойство 'imageData.gamma'
+Представляет свойство imageData.gamma
 
 ```csharp
 public static BehaviorProperty ImageDataGamma { get; }

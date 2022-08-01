@@ -1,14 +1,14 @@
 ---
 title: ExtrusionHeight
 second_title: Aspose.Slides for .NET API 参考
-description: 返回挤压效果的高度 只读Double
+description: 返回挤压效果的高度 只读Double.
 type: docs
 weight: 90
 url: /zh/net/aspose.slides/ithreedformateffectivedata/extrusionheight/
 ---
 ## IThreeDFormatEffectiveData.ExtrusionHeight property
 
-返回挤压效果的高度。 只读Double。
+返回挤压效果的高度。 只读Double.
 
 ```csharp
 public double ExtrusionHeight { get; }

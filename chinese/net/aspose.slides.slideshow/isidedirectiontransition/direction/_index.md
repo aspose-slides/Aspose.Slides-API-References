@@ -1,14 +1,14 @@
 ---
 title: Direction
 second_title: Aspose.Slides for .NET API 参考
-description: 过渡方向 读/写TransitionSideDirectionTypeaspose.slides.slideshow/transitionsidedirectiontype
+description: 转换方向 读/写TransitionSideDirectionTypeaspose.slides.slideshow/transitionsidedirectiontype.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides.slideshow/isidedirectiontransition/direction/
 ---
 ## ISideDirectionTransition.Direction property
 
-过渡方向。 读/写[`TransitionSideDirectionType`](../../transitionsidedirectiontype)。
+转换方向。 读/写[`TransitionSideDirectionType`](../../transitionsidedirectiontype).
 
 ```csharp
 public TransitionSideDirectionType Direction { get; set; }

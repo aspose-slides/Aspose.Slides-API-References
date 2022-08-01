@@ -1,14 +1,14 @@
 ---
 title: SoundMode
 second_title: Справочник по API Aspose.Slides для .NET
-description: Установить или вернуть звуковой режим для перехода между слайдами. Чтение/записьTransitionSoundModeaspose.slides.slideshow/transitionsoundmode.
+description: Установка или возврат звукового режима для перехода между слайдами. Чтение/записьTransitionSoundModeaspose.slides.slideshow/transitionsoundmode .
 type: docs
 weight: 60
 url: /ru/net/aspose.slides.slideshow/slideshowtransition/soundmode/
 ---
 ## SlideShowTransition.SoundMode property
 
-Установить или вернуть звуковой режим для перехода между слайдами. Чтение/запись[`TransitionSoundMode`](../../transitionsoundmode).
+Установка или возврат звукового режима для перехода между слайдами. Чтение/запись[`TransitionSoundMode`](../../transitionsoundmode) .
 
 ```csharp
 public TransitionSoundMode SoundMode { get; set; }

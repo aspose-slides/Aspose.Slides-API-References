@@ -1,14 +1,14 @@
 ---
 title: FlipH
 second_title: Aspose.Slides for .NET API 参考
-description: 确定帧是否水平翻转 只读NullableBoolaspose.slides/nullablebool
+description: 确定帧是否水平翻转 只读NullableBoolaspose.slides/nullablebool.
 type: docs
 weight: 40
 url: /zh/net/aspose.slides/shapeframe/fliph/
 ---
 ## ShapeFrame.FlipH property
 
-确定帧是否水平翻转。 只读[`NullableBool`](../../nullablebool)。
+确定帧是否水平翻转。 只读[`NullableBool`](../../nullablebool).
 
 ```csharp
 public NullableBool FlipH { get; }

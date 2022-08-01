@@ -1,14 +1,14 @@
 ---
 title: HyperlinkQueries
 second_title: Aspose.Slides for .NET API 参考
-description: 提供对所有演示幻灯片中包含的所有超链接的轻松访问不在母版布局注释幻灯片中 只读IHyperlinkQueriesaspose.slides/ihyperlinkqueries
+description: 提供对所有演示幻灯片不在母版布局注释幻灯片中中包含的所有超链接的轻松访问 只读IHyperlinkQueriesaspose.slides/ihyperlinkqueries.
 type: docs
 weight: 140
 url: /zh/net/aspose.slides/ipresentation/hyperlinkqueries/
 ---
 ## IPresentation.HyperlinkQueries property
 
-提供对所有演示幻灯片中包含的所有超链接的轻松访问（不在母版、布局、注释幻灯片中）。 只读[`IHyperlinkQueries`](../../ihyperlinkqueries)。
+提供对所有演示幻灯片（不在母版、布局、注释幻灯片中）中包含的所有超链接的轻松访问。 只读[`IHyperlinkQueries`](../../ihyperlinkqueries).
 
 ```csharp
 public IHyperlinkQueries HyperlinkQueries { get; }

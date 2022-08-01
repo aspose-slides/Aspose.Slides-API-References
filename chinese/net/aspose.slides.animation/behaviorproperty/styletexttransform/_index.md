@@ -1,14 +1,14 @@
 ---
 title: StyleTextTransform
 second_title: Aspose.Slides for .NET API 参考
-description: 表示 style.textTransform 属性
+description: 代表style.textTransform 属性
 type: docs
 weight: 1180
 url: /zh/net/aspose.slides.animation/behaviorproperty/styletexttransform/
 ---
 ## BehaviorProperty.StyleTextTransform property
 
-表示 'style.textTransform' 属性
+代表'style.textTransform' 属性
 
 ```csharp
 public static BehaviorProperty StyleTextTransform { get; }

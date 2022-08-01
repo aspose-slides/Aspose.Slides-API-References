@@ -18,15 +18,15 @@ public class SmartArtNode : ISmartArtNode
 
 | Имя | Описание |
 | --- | --- |
-| [BulletFillFormat](../../aspose.slides.smartart/smartartnode/bulletfillformat) { get; } | Возвращает объект FillFormat, который содержит свойства форматирования заполнения для маркера узла. Примечание. Может возвращать значение null для определенных типов макетов SmartArt, которые не содержат маркеры для узлов. Только для чтения[`IFillFormat`](../../aspose.slides/ifillformat). |
-| [ChildNodes](../../aspose.slides.smartart/smartartnode/childnodes) { get; } | Возвращает коллекции всех дочерних узлов текущего узла. Только для чтения[`ISmartArtNodeCollection`](../ismartartnodecollection). |
-| [IsAssistant](../../aspose.slides.smartart/smartartnode/isassistant) { get; set; } | Возвращает или устанавливает узел в качестве помощника. Чтение/записьBoolean. |
-| [IsHidden](../../aspose.slides.smartart/smartartnode/ishidden) { get; } | Возвращает true, если этот узел является скрытым узлом в модели данных. Только чтениеBoolean. |
-| [Level](../../aspose.slides.smartart/smartartnode/level) { get; } | Возвращает уровень вложенности узла. Только для чтенияInt32. |
-| [OrganizationChartLayout](../../aspose.slides.smartart/smartartnode/organizationchartlayout) { get; set; } | Возвращает или задает тип макета организационной диаграммы, связанный с текущим узлом. Чтение/запись[`OrganizationChartLayoutType`](../organizationchartlayouttype). |
-| [Position](../../aspose.slides.smartart/smartartnode/position) { get; set; } | Возвращает или задает отсчитываемую от нуля позицию узла среди одноуровневых узлов. Чтение/записьInt32. |
-| [Shapes](../../aspose.slides.smartart/smartartnode/shapes) { get; } | Возвращает коллекции всех форм, связанных с узлом. Только для чтения[`ISmartArtShapeCollection`](../ismartartshapecollection). |
-| [TextFrame](../../aspose.slides.smartart/smartartnode/textframe) { get; } | Возвращает или задает текст узла. Только для чтения[`ITextFrame`](../../aspose.slides/itextframe). |
+| [BulletFillFormat](../../aspose.slides.smartart/smartartnode/bulletfillformat) { get; } | Возвращает объект FillFormat, который содержит свойства форматирования заливки для маркера узла. Примечание. Может возвращать значение null для определенных типов макетов SmartArt, которые не предоставляют маркеры для узлов. Только для чтения[`IFillFormat`](../../aspose.slides/ifillformat) . |
+| [ChildNodes](../../aspose.slides.smartart/smartartnode/childnodes) { get; } | Возвращает коллекции всех дочерних узлов текущего узла. Только для чтения[`ISmartArtNodeCollection`](../ismartartnodecollection) . |
+| [IsAssistant](../../aspose.slides.smartart/smartartnode/isassistant) { get; set; } | Возвращает или устанавливает узел в качестве помощника. Чтение/записьBoolean . |
+| [IsHidden](../../aspose.slides.smartart/smartartnode/ishidden) { get; } | Возвращает true, если этот узел является скрытым узлом в модели данных. Только для чтенияBoolean . |
+| [Level](../../aspose.slides.smartart/smartartnode/level) { get; } | Возвращает уровень вложенности узла. Только для чтенияInt32 . |
+| [OrganizationChartLayout](../../aspose.slides.smartart/smartartnode/organizationchartlayout) { get; set; } | Возвращает или задает тип макета организационной диаграммы, связанный с текущим узлом. Чтение/запись[`OrganizationChartLayoutType`](../organizationchartlayouttype) . |
+| [Position](../../aspose.slides.smartart/smartartnode/position) { get; set; } | Возвращает или задает отсчитываемую от нуля позицию узла среди одноуровневых узлов. Чтение/записьInt32 . |
+| [Shapes](../../aspose.slides.smartart/smartartnode/shapes) { get; } | Возвращает коллекции всех форм, связанных с узлом. Только для чтения[`ISmartArtShapeCollection`](../ismartartshapecollection) . |
+| [TextFrame](../../aspose.slides.smartart/smartartnode/textframe) { get; } | Возвращает или задает текст узла. Только для чтения[`ITextFrame`](../../aspose.slides/itextframe) . |
 
 ## Методы
 

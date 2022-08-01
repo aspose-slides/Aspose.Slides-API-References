@@ -18,10 +18,10 @@ public class CellInvalidReferenceException : PptxEditException
 
 | Имя | Описание |
 | --- | --- |
-| [CellInvalidReferenceException](cellinvalidreferenceexception#constructor)() | Инициализирует новый экземпляр класса[`CellInvalidReferenceException`](../cellinvalidreferenceexception). |
-| [CellInvalidReferenceException](cellinvalidreferenceexception#constructor_1)(string) | Инициализирует новый экземпляр класса[`CellInvalidReferenceException`](../cellinvalidreferenceexception)с указанным сообщением об ошибке. |
-| [CellInvalidReferenceException](cellinvalidreferenceexception#constructor_2)(string, Exception) | Инициализирует новый экземпляр класса[`CellInvalidReferenceException`](../cellinvalidreferenceexception)с указанным сообщением об ошибке и ссылка на внутреннее исключение, которое является причиной этого исключения. |
-| [CellInvalidReferenceException](cellinvalidreferenceexception#constructor_3)(string, string) | Инициализирует новый экземпляр класса[`CellCircularReferenceException`](../cellcircularreferenceexception)с указанным сообщением об ошибке и недопустимая ссылка на ячейку. |
+| [CellInvalidReferenceException](cellinvalidreferenceexception#constructor)() | Инициализирует новый экземпляр[`CellInvalidReferenceException`](../cellinvalidreferenceexception) класс. |
+| [CellInvalidReferenceException](cellinvalidreferenceexception#constructor_1)(string) | Инициализирует новый экземпляр[`CellInvalidReferenceException`](../cellinvalidreferenceexception) класс с указанным сообщением об ошибке. |
+| [CellInvalidReferenceException](cellinvalidreferenceexception#constructor_2)(string, Exception) | Инициализирует новый экземпляр[`CellInvalidReferenceException`](../cellinvalidreferenceexception) класс с указанным сообщением об ошибке и ссылкой на внутреннее исключение, которое является причиной этого исключения. |
+| [CellInvalidReferenceException](cellinvalidreferenceexception#constructor_3)(string, string) | Инициализирует новый экземпляр[`CellCircularReferenceException`](../cellcircularreferenceexception) class с указанным сообщением об ошибке message и недопустимой ссылкой на ячейку. |
 
 ## Характеристики
 

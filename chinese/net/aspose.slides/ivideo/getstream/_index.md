@@ -1,14 +1,14 @@
 ---
 title: GetStream
 second_title: Aspose.Slides for .NET API 参考
-description: 返回 Stream 流以供读取 使用 using 或在使用后关闭流
+description: 返回 Stream 流以供读取 使用使用或在使用后关闭流
 type: docs
 weight: 30
 url: /zh/net/aspose.slides/ivideo/getstream/
 ---
 ## IVideo.GetStream method
 
-返回 Stream 流以供读取。 使用 'using' 或在使用后关闭流。
+返回 Stream 流以供读取。 使用“使用”或在使用后关闭流。
 
 ```csharp
 public Stream GetStream()
@@ -16,7 +16,7 @@ public Stream GetStream()
 
 ### 返回值
 
-用于阅读的流。
+流式阅读。
 
 ### 也可以看看
 

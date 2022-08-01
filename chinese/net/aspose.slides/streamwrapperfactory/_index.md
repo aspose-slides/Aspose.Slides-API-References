@@ -25,7 +25,7 @@ public class StreamWrapperFactory : IStreamWrapperFactory
 | 姓名 | 描述 |
 | --- | --- |
 | [CreateFileStreamWrapper](../../aspose.slides/streamwrapperfactory/createfilestreamwrapper#createfilestreamwrapper)(string, FileMode) | 使用指定的路径和创建模式创建 FileStream。 |
-| [CreateFileStreamWrapper](../../aspose.slides/streamwrapperfactory/createfilestreamwrapper#createfilestreamwrapper_1)(string, FileMode, FileAccess) | 创建具有指定路径、创建方式和读/写权限的 FileStream。 |
+| [CreateFileStreamWrapper](../../aspose.slides/streamwrapperfactory/createfilestreamwrapper#createfilestreamwrapper_1)(string, FileMode, FileAccess) | 使用指定的路径、创建方式和读/写权限创建 FileStream。 |
 | [CreateMemoryStreamWrapper](../../aspose.slides/streamwrapperfactory/creatememorystreamwrapper#creatememorystreamwrapper)() | 创建 MemoryStream 包装器。 |
 | [CreateMemoryStreamWrapper](../../aspose.slides/streamwrapperfactory/creatememorystreamwrapper#creatememorystreamwrapper_1)(byte[]) | 根据指定的字节数组创建 MemoryStream 包装器。 |
 

@@ -17,7 +17,7 @@ public IBlur AddBlurEffect(double radius, bool grow)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | radius | Double | 模糊半径。 |
-| grow | Boolean | 指定对象的边界是否应因模糊而增长。 True 表示边界已增长，而 false 表示边界未增长。 |
+| grow | Boolean | 指定对象的边界是否应因模糊而增长。 True 表示边界已增长，而 false 表示它们没有增长。 |
 
 ### 返回值
 

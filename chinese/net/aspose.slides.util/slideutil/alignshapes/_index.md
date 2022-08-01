@@ -17,13 +17,13 @@ public static void AlignShapes(ShapesAlignmentType alignmentType, bool alignToSl
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| alignmentType | ShapesAlignmentType | 确定将应用哪种对齐类型。 |
-| alignToSlide | Boolean | 如果为真，则形状将相对于幻灯片边缘对齐。 |
+| alignmentType | ShapesAlignmentType | 确定将应用哪种类型的对齐方式。 |
+| alignToSlide | Boolean | 如果为 true，形状将相对于幻灯片边缘对齐。 |
 | slide | IBaseSlide | 父幻灯片。 |
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]
@@ -45,7 +45,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 
 ## AlignShapes(ShapesAlignmentType, bool, IBaseSlide, int[]) {#alignshapes_1}
 
-更改选定形状在幻灯片上的位置。将形状与幻灯片的边距或边缘对齐 或将它们相对于彼此对齐。
+更改幻灯片上选定形状的位置。将形状与幻灯片的边距或边缘对齐 或将它们相对于彼此对齐。
 
 ```csharp
 public static void AlignShapes(ShapesAlignmentType alignmentType, bool alignToSlide, 
@@ -54,14 +54,14 @@ public static void AlignShapes(ShapesAlignmentType alignmentType, bool alignToSl
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| alignmentType | ShapesAlignmentType | 确定将应用哪种对齐类型。 |
-| alignToSlide | Boolean | 如果为真，则形状将相对于幻灯片边缘对齐。 |
+| alignmentType | ShapesAlignmentType | 确定将应用哪种类型的对齐方式。 |
+| alignToSlide | Boolean | 如果为 true，形状将相对于幻灯片边缘对齐。 |
 | slide | IBaseSlide | 父幻灯片。 |
 | shapeIndexes | Int32[] | 要对齐的形状的索引。 |
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]
@@ -100,13 +100,13 @@ public static void AlignShapes(ShapesAlignmentType alignmentType, bool alignToSl
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| alignmentType | ShapesAlignmentType | 确定将应用哪种对齐类型。 |
-| alignToSlide | Boolean | 如果为真，则形状将相对于幻灯片边缘对齐。 |
+| alignmentType | ShapesAlignmentType | 确定将应用哪种类型的对齐方式。 |
+| alignToSlide | Boolean | 如果为 true，形状将相对于幻灯片边缘对齐。 |
 | groupShape | IGroupShape | 父组形状。 |
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]
@@ -137,14 +137,14 @@ public static void AlignShapes(ShapesAlignmentType alignmentType, bool alignToSl
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| alignmentType | ShapesAlignmentType | 确定将应用哪种对齐类型。 |
-| alignToSlide | Boolean | 如果为真，则形状将相对于幻灯片边缘对齐。 |
+| alignmentType | ShapesAlignmentType | 确定将应用哪种类型的对齐方式。 |
+| alignToSlide | Boolean | 如果为 true，形状将相对于幻灯片边缘对齐。 |
 | groupShape | IGroupShape | 父组形状。 |
 | shapeIndexes | Int32[] | 要对齐的形状的索引。 |
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]

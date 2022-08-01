@@ -1,14 +1,14 @@
 ---
 title: CellUnsupportedDataException
 second_title: Aspose.Slides for .NET API 参考
-description: 在电子表格单元格中遇到不受支持的数据时引发的异常
+description: 在电子表格单元格中遇到不支持的数据时引发的异常
 type: docs
 weight: 9920
 url: /zh/net/aspose.slides.spreadsheet/cellunsupporteddataexception/
 ---
 ## CellUnsupportedDataException class
 
-在电子表格单元格中遇到不受支持的数据时引发的异常。
+在电子表格单元格中遇到不支持的数据时引发的异常。
 
 ```csharp
 public class CellUnsupportedDataException : PptxEditException
@@ -18,9 +18,9 @@ public class CellUnsupportedDataException : PptxEditException
 
 | 姓名 | 描述 |
 | --- | --- |
-| [CellUnsupportedDataException](cellunsupporteddataexception#constructor)() | 初始化[`CellUnsupportedDataException`](../cellunsupporteddataexception)类的新实例。 |
-| [CellUnsupportedDataException](cellunsupporteddataexception#constructor_1)(string) | 初始化[`CellUnsupportedDataException`](../cellunsupporteddataexception)类的新实例，指定错误 信息。 |
-| [CellUnsupportedDataException](cellunsupporteddataexception#constructor_2)(string, Exception) | 初始化[`CellUnsupportedDataException`](../cellunsupporteddataexception)类的新实例，指定错误 消息和对导致此异常的内部异常的引用。 |
+| [CellUnsupportedDataException](cellunsupporteddataexception#constructor)() | 初始化[`CellUnsupportedDataException`](../cellunsupporteddataexception)类. |
+| [CellUnsupportedDataException](cellunsupporteddataexception#constructor_1)(string) | 初始化[`CellUnsupportedDataException`](../cellunsupporteddataexception)具有指定 error message. 的类 |
+| [CellUnsupportedDataException](cellunsupporteddataexception#constructor_2)(string, Exception) | 初始化[`CellUnsupportedDataException`](../cellunsupporteddataexception)类具有指定的 error 消息和对导致此异常的内部异常的引用。 |
 
 ### 也可以看看
 

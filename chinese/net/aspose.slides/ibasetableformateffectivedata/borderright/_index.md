@@ -1,14 +1,14 @@
 ---
 title: BorderRight
 second_title: Aspose.Slides for .NET API 参考
-description: 返回右边框线格式有效值 只读ILineFormatEffectiveDataaspose.slides/ilineformateffectivedata
+description: 返回右边框线格式有效值 只读ILineFormatEffectiveDataaspose.slides/ilineformateffectivedata.
 type: docs
 weight: 50
 url: /zh/net/aspose.slides/ibasetableformateffectivedata/borderright/
 ---
 ## IBaseTableFormatEffectiveData.BorderRight property
 
-返回右边框线格式有效值。 只读[`ILineFormatEffectiveData`](../../ilineformateffectivedata)。
+返回右边框线格式有效值。 只读[`ILineFormatEffectiveData`](../../ilineformateffectivedata).
 
 ```csharp
 public ILineFormatEffectiveData BorderRight { get; }

@@ -1,14 +1,14 @@
 ---
 title: ShapeType
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置 PictureFrame 的自选图形类型 集合中的所有项目都允许ShapeTypeaspose.slides/shapetype 除了各种行
+description: 返回或设置一个 PictureFrame 的自选图形类型 允许集合的所有项目ShapeTypeaspose.slides/shapetype 除了各种行
 type: docs
 weight: 60
 url: /zh/net/aspose.slides/pictureframe/shapetype/
 ---
 ## PictureFrame.ShapeType property
 
-返回或设置 PictureFrame 的自选图形类型。 集合中的所有项目都允许[`ShapeType`](../../shapetype), 除了各种行:
+返回或设置一个 PictureFrame 的自选图形类型。 允许集合的所有项目[`ShapeType`](../../shapetype) 除了各种行：
 
 ShapeType.Line,
 
@@ -30,7 +30,7 @@ ShapeType.CurvedConnector4,
 
 ShapeType.CurvedConnector5。
 
-读/写[`ShapeType`](../../shapetype)。
+读/写[`ShapeType`](../../shapetype).
 
 ```csharp
 public override ShapeType ShapeType { get; set; }

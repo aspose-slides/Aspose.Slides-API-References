@@ -1,14 +1,14 @@
 ---
 title: Width
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или задает ширину заголовка как часть ширины диаграммы. Чтение/записьSingle.
+description: Возвращает или задает ширину заголовка как часть ширины диаграммы. Чтение/записьSingle .
 type: docs
 weight: 150
 url: /ru/net/aspose.slides.charts/datalabel/width/
 ---
 ## DataLabel.Width property
 
-Возвращает или задает ширину заголовка как часть ширины диаграммы. Чтение/записьSingle.
+Возвращает или задает ширину заголовка как часть ширины диаграммы. Чтение/записьSingle .
 
 ```csharp
 public float Width { get; set; }

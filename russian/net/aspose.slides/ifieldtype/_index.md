@@ -18,7 +18,7 @@ public interface IFieldType
 
 | Имя | Описание |
 | --- | --- |
-| [InternalString](../../aspose.slides/ifieldtype/internalstring) { get; set; } | Возвращает внутреннее имя этого объекта FieldTypeEx. Чтение/записьString. |
+| [InternalString](../../aspose.slides/ifieldtype/internalstring) { get; set; } | Возвращает внутреннее имя этого объекта FieldTypeEx. Чтение/записьString . |
 
 ### Смотрите также
 

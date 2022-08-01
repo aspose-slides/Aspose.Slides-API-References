@@ -1,14 +1,14 @@
 ---
 title: Pattern
 second_title: Aspose.Slides for .NET API 参考
-description: 指定过渡期间使用的视觉效果的形状 读/写TransitionPatternaspose.slides.slideshow/transitionpattern
+description: 指定过渡期间使用的视觉效果的形状 读/写TransitionPatternaspose.slides.slideshow/transitionpattern.
 type: docs
 weight: 30
 url: /zh/net/aspose.slides.slideshow/iglittertransition/pattern/
 ---
 ## IGlitterTransition.Pattern property
 
-指定过渡期间使用的视觉效果的形状。 读/写[`TransitionPattern`](../../transitionpattern)。
+指定过渡期间使用的视觉效果的形状。 读/写[`TransitionPattern`](../../transitionpattern).
 
 ```csharp
 public TransitionPattern Pattern { get; set; }

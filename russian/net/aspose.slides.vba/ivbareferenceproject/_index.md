@@ -18,7 +18,7 @@ public interface IVbaReferenceProject : IVbaReference
 
 | Имя | Описание |
 | --- | --- |
-| [AsIVbaReference](../../aspose.slides.vba/ivbareferenceproject/asivbareference) { get; } | Возвращает интерфейс IVbaReference. Только для чтения[`IVbaReference`](../ivbareference). |
+| [AsIVbaReference](../../aspose.slides.vba/ivbareferenceproject/asivbareference) { get; } | Возвращает интерфейс IVbaReference. Только для чтения[`IVbaReference`](../ivbareference) . |
 
 ### Смотрите также
 

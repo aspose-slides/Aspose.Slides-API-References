@@ -1,14 +1,14 @@
 ---
 title: ExtrusionPlane
 second_title: Aspose.Slides for .NET API 参考
-description: 表示 extrusion.plane 属性
+description: 表示extrusion.plane属性
 type: docs
 weight: 120
 url: /zh/net/aspose.slides.animation/behaviorproperty/extrusionplane/
 ---
 ## BehaviorProperty.ExtrusionPlane property
 
-表示 'extrusion.plane' 属性
+表示“extrusion.plane”属性
 
 ```csharp
 public static BehaviorProperty ExtrusionPlane { get; }

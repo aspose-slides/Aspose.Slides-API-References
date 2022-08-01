@@ -1,14 +1,14 @@
 ---
 title: Position
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置选项卡的位置 分配此属性可以更改集合中选项卡的索引并使枚举器无效 读/写Double
+description: 返回或设置选项卡的位置 分配此属性可以更改选项卡在集合中的索引并使枚举器无效 读/写Double.
 type: docs
 weight: 30
 url: /zh/net/aspose.slides/itab/position/
 ---
 ## ITab.Position property
 
-返回或设置选项卡的位置。 分配此属性可以更改集合中选项卡的索引并使枚举器无效。 读/写Double。
+返回或设置选项卡的位置。 分配此属性可以更改选项卡在集合中的索引并使枚举器无效。 读/写Double.
 
 ```csharp
 public double Position { get; set; }

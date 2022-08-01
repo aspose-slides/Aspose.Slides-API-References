@@ -1,14 +1,14 @@
 ---
 title: DateTime10
 second_title: Справочник по API Aspose.Slides для .NET
-description: Текущая дата и время в предопределенном десятом формате ччмм для английского. Только для чтенияFieldTypeaspose.slides/fieldtype.
+description: Текущая дата и время в предустановленном десятом формате ччмм для английского. Только для чтенияFieldTypeaspose.slides/fieldtype .
 type: docs
 weight: 40
 url: /ru/net/aspose.slides/fieldtype/datetime10/
 ---
 ## FieldType.DateTime10 property
 
-Текущая дата и время в предопределенном десятом формате (чч:мм для английского). Только для чтения[`FieldType`](../../fieldtype).
+Текущая дата и время в предустановленном десятом формате (чч:мм для английского). Только для чтения[`FieldType`](../../fieldtype) .
 
 ```csharp
 public static FieldType DateTime10 { get; }

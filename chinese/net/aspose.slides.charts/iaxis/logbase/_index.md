@@ -1,14 +1,14 @@
 ---
 title: LogBase
 second_title: Aspose.Slides for .NET API 参考
-description: 表示对数底默认值为 10 读/写Double
+description: 表示对数底默认值为 10. 读/写Double.
 type: docs
 weight: 330
 url: /zh/net/aspose.slides.charts/iaxis/logbase/
 ---
 ## IAxis.LogBase property
 
-表示对数底。默认值为 10。 读/写Double。
+表示对数底。默认值为 10. 读/写Double.
 
 ```csharp
 public double LogBase { get; set; }

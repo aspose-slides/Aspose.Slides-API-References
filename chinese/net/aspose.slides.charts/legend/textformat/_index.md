@@ -1,14 +1,14 @@
 ---
 title: TextFormat
 second_title: Aspose.Slides for .NET API 参考
-description: 文本格式 只读IChartTextFormataspose.slides.charts/icharttextformat
+description: 文本格式 只读IChartTextFormataspose.slides.charts/icharttextformat.
 type: docs
 weight: 90
 url: /zh/net/aspose.slides.charts/legend/textformat/
 ---
 ## Legend.TextFormat property
 
-文本格式。 只读[`IChartTextFormat`](../../icharttextformat)。
+文本格式。 只读[`IChartTextFormat`](../../icharttextformat).
 
 ```csharp
 public IChartTextFormat TextFormat { get; }

@@ -18,14 +18,14 @@ public interface IWarningInfo
 
 | Имя | Описание |
 | --- | --- |
-| [Description](../../aspose.slides.warnings/iwarninginfo/description) { get; } | Возвращает удобочитаемое описание этого предупреждения. Только чтениеString. |
-| [WarningType](../../aspose.slides.warnings/iwarninginfo/warningtype) { get; } | Возвращает тип предупреждения. Только чтение[`WarningType`](./warningtype). |
+| [Description](../../aspose.slides.warnings/iwarninginfo/description) { get; } | Возвращает удобочитаемое описание этого предупреждения. Только для чтенияString . |
+| [WarningType](../../aspose.slides.warnings/iwarninginfo/warningtype) { get; } | Возвращает тип предупреждения. Только для чтения[`WarningType`](./warningtype) . |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [SendWarning](../../aspose.slides.warnings/iwarninginfo/sendwarning)(IWarningCallback) | Если получатель не нулевой, завершает предупреждение указанному получателю и генерирует исключение AbortRequestedException, если получатель решил прервать операцию. |
+| [SendWarning](../../aspose.slides.warnings/iwarninginfo/sendwarning)(IWarningCallback) | Если получатель не нулевой, завершает предупреждение для указанного получателя и выдает исключение AbortRequestedException, если получатель решил прервать операцию. |
 
 ### Смотрите также
 

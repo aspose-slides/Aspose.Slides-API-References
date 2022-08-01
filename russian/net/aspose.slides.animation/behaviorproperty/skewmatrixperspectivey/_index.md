@@ -8,7 +8,7 @@ url: /ru/net/aspose.slides.animation/behaviorproperty/skewmatrixperspectivey/
 ---
 ## BehaviorProperty.SkewMatrixPerspectiveY property
 
-Представляет свойство 'skew.matrix.perspectiveY'
+Представляет свойство skew.matrix.perspectiveY
 
 ```csharp
 public static BehaviorProperty SkewMatrixPerspectiveY { get; }

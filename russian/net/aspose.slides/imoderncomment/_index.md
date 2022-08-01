@@ -18,11 +18,11 @@ public interface IModernComment : IComment
 
 | Имя | Описание |
 | --- | --- |
-| [AsIComment](../../aspose.slides/imoderncomment/asicomment) { get; } | Позволяет получить базовый интерфейс IComment. Только для чтения[`IComment`](../icomment). |
-| [Shape](../../aspose.slides/imoderncomment/shape) { get; } | Возвращает фигуру, связанную с комментарием. Только для чтения[`IShape`](../ishape). |
-| [Status](../../aspose.slides/imoderncomment/status) { get; set; } | Возвращает или устанавливает статус комментария. Чтение/запись[`ModernCommentStatus`](../moderncommentstatus). |
-| [TextSelectionLength](../../aspose.slides/imoderncomment/textselectionlength) { get; set; } | Возвращает или задает длину выделения текста в текстовом фрейме, если комментарий связан с автофигурой. Чтение/записьInt32. |
-| [TextSelectionStart](../../aspose.slides/imoderncomment/textselectionstart) { get; set; } | Возвращает или задает начальную позицию выделения текста в текстовом фрейме, если комментарий связан с автофигурой. Чтение/записьInt32. |
+| [AsIComment](../../aspose.slides/imoderncomment/asicomment) { get; } | Позволяет получить базовый интерфейс IComment. Только для чтения[`IComment`](../icomment) . |
+| [Shape](../../aspose.slides/imoderncomment/shape) { get; } | Возвращает форму, связанную с комментарием. Только для чтения[`IShape`](../ishape) . |
+| [Status](../../aspose.slides/imoderncomment/status) { get; set; } | Возвращает или устанавливает статус комментария. Чтение/запись[`ModernCommentStatus`](../moderncommentstatus) . |
+| [TextSelectionLength](../../aspose.slides/imoderncomment/textselectionlength) { get; set; } | Возвращает или задает длину выделения текста в текстовом фрейме, если комментарий связан с AutoShape. Чтение/записьInt32 . |
+| [TextSelectionStart](../../aspose.slides/imoderncomment/textselectionstart) { get; set; } | Возвращает или задает начальную позицию выделения текста в текстовом фрейме, если комментарий связан с AutoShape. Чтение/записьInt32 . |
 
 ### Примеры
 

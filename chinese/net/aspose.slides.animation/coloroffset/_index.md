@@ -1,14 +1,14 @@
 ---
 title: ColorOffset
 second_title: Aspose.Slides for .NET API 参考
-description: 表示颜色偏移
+description: 表示颜色偏移量
 type: docs
 weight: 140
 url: /zh/net/aspose.slides.animation/coloroffset/
 ---
 ## ColorOffset class
 
-表示颜色偏移。
+表示颜色偏移量。
 
 ```csharp
 public class ColorOffset : IColorOffset
@@ -24,9 +24,9 @@ public class ColorOffset : IColorOffset
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Value0](../../aspose.slides.animation/coloroffset/value0) { get; set; } | 定义偏移量的第一个值。 读/写Single。 |
-| [Value1](../../aspose.slides.animation/coloroffset/value1) { get; set; } | 定义偏移量的第二个值。 读/写Single。 |
-| [Value2](../../aspose.slides.animation/coloroffset/value2) { get; set; } | 定义偏移量的第三个值。 读/写Single。 |
+| [Value0](../../aspose.slides.animation/coloroffset/value0) { get; set; } | 定义偏移量的第一个值。 读/写Single. |
+| [Value1](../../aspose.slides.animation/coloroffset/value1) { get; set; } | 定义偏移量的第二个值。 读/写Single. |
+| [Value2](../../aspose.slides.animation/coloroffset/value2) { get; set; } | 定义偏移量的第三个值。 读/写Single. |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: AsIComparable
 second_title: Aspose.Slides for .NET API 参考
-description: 返回 IComparable 接口 只读IComparable
+description: 返回 IComparable 接口 只读IComparable.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides/itabeffectivedata/asicomparable/
 ---
 ## ITabEffectiveData.AsIComparable property
 
-返回 IComparable 接口。 只读IComparable。
+返回 IComparable 接口。 只读IComparable.
 
 ```csharp
 public IComparable AsIComparable { get; }

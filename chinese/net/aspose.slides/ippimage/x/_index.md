@@ -1,14 +1,14 @@
 ---
 title: X
 second_title: Aspose.Slides for .NET API 参考
-description: 返回图像的 X 偏移量 只读Int32
+description: 返回图像的 X 偏移量 只读Int32.
 type: docs
 weight: 70
 url: /zh/net/aspose.slides/ippimage/x/
 ---
 ## IPPImage.X property
 
-返回图像的 X 偏移量。 只读Int32。
+返回图像的 X 偏移量。 只读Int32.
 
 ```csharp
 public int X { get; }

@@ -18,8 +18,8 @@ public interface ILegendEntryProperties : IFormattedTextContainer
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsIFormattedTextContainer](../../aspose.slides.charts/ilegendentryproperties/asiformattedtextcontainer) { get; } | 允许获取基本 IFormattedTextContainer 接口。 只读[`IFormattedTextContainer`](../iformattedtextcontainer)。 |
-| [Hide](../../aspose.slides.charts/ilegendentryproperties/hide) { get; set; } | 返回或设置图例条目的隐藏标志。 读/写Boolean。 |
+| [AsIFormattedTextContainer](../../aspose.slides.charts/ilegendentryproperties/asiformattedtextcontainer) { get; } | 允许获取基本 IFormattedTextContainer 接口。 只读[`IFormattedTextContainer`](../iformattedtextcontainer). |
+| [Hide](../../aspose.slides.charts/ilegendentryproperties/hide) { get; set; } | 返回或设置图例条目的隐藏标志。 读/写Boolean. |
 
 ### 也可以看看
 

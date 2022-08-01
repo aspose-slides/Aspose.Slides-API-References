@@ -17,11 +17,11 @@ public IColorOperation Add(ColorTransformOperation operation, float parameter)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | operation | ColorTransformOperation | 操作类型。 |
-| parameter | Single | 操作的参数。 |
+| parameter | Single | 操作参数。 |
 
 ### 返回值
 
-添加操作。
+添加了操作。
 
 ### 也可以看看
 
@@ -47,7 +47,7 @@ public IColorOperation Add(ColorTransformOperation operation)
 
 ### 返回值
 
-添加操作。
+添加了操作。
 
 ### 也可以看看
 

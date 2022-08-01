@@ -1,14 +1,14 @@
 ---
 title: ToDouble
 second_title: Справочник по API Aspose.Slides для .NET
-description: Преобразует вDouble.
+description: Преобразуется вDouble .
 type: docs
 weight: 40
 url: /ru/net/aspose.slides.charts/doublechartvalue/todouble/
 ---
 ## DoubleChartValue.ToDouble method
 
-Преобразует вDouble.
+Преобразуется вDouble .
 
 ```csharp
 public double ToDouble()
@@ -16,7 +16,7 @@ public double ToDouble()
 
 ### Возвращаемое значение
 
-Возвращает LiteralDouble, если DataSourceType равен DoubleLiterals. Если DataSourceType равно Worksheet, возвращает значение, успешно преобразованное в двойное значение ячейки, в противном случае возвращает NaN.
+Возвращает LiteralDouble, если DataSourceType равен DoubleLiterals. Если DataSourceType равен DoubleLiterals.
 
 ### Смотрите также
 

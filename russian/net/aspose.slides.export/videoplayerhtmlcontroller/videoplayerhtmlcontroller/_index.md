@@ -16,9 +16,9 @@ public VideoPlayerHtmlController(string path, string fileName, string baseUri)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| path | String | Путь, где находится видео и будут сгенерированы аудиофайлы |
-| fileName | String | Имя файла HTML |
-| baseUri | String | База URI, который будет использоваться для генерации ссылок |
+| path | String | Путь, по которому будут генерироваться видео и аудио файлы |
+| fileName | String | Имя HTML-файла |
+| baseUri | String | Базовый URI, который будет использоваться для генерации ссылок |
 
 ### Смотрите также
 

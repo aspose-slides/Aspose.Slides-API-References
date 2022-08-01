@@ -19,7 +19,7 @@ public interface ISectionZoomFrame : IZoomObject
 | Имя | Описание |
 | --- | --- |
 | [AsIZoomObject](../../aspose.slides/isectionzoomframe/asizoomobject) { get; } | Возвращает интерфейс IZoomObject. |
-| [TargetSection](../../aspose.slides/isectionzoomframe/targetsection) { get; set; } | Получает или задает объект раздела, с которым связан объект масштабирования раздела. Чтение/запись[`ISection`](../isection). |
+| [TargetSection](../../aspose.slides/isectionzoomframe/targetsection) { get; set; } | Получает или задает объект сечения, с которым связан объект масштабирования сечения. Чтение/запись[`ISection`](../isection) . |
 
 ### Смотрите также
 

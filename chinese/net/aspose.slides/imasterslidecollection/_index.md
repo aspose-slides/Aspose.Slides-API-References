@@ -18,7 +18,7 @@ public interface IMasterSlideCollection : IGenericCollection<IMasterSlide>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Item](../../aspose.slides/imasterslidecollection/item) { get; } | 获取指定索引处的元素。 只读[`IMasterSlide`](../imasterslide)。 |
+| [Item](../../aspose.slides/imasterslidecollection/item) { get; } | 获取指定索引处的元素。 只读[`IMasterSlide`](../imasterslide). |
 
 ## 方法
 

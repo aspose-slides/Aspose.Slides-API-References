@@ -1,14 +1,14 @@
 ---
 title: GradientDirection
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает стиль градиента. Только для чтенияGradientDirectionaspose.slides/gradientdirection.
+description: Возвращает стиль градиента. Только для чтенияGradientDirectionaspose.slides/gradientdirection .
 type: docs
 weight: 20
 url: /ru/net/aspose.slides/igradientformateffectivedata/gradientdirection/
 ---
 ## IGradientFormatEffectiveData.GradientDirection property
 
-Возвращает стиль градиента. Только для чтения[`GradientDirection`](../../gradientdirection).
+Возвращает стиль градиента. Только для чтения[`GradientDirection`](../../gradientdirection) .
 
 ```csharp
 public GradientDirection GradientDirection { get; }

@@ -1,14 +1,14 @@
 ---
 title: IsReversed
 second_title: Aspose.Slides for .NET API 参考
-description: 如果图表支持反转则返回或设置 SmartArt 图表相对于从左到右LTR 或从右到左RTL 的状态. 读/写Boolean
+description: 如果图表支持反转则返回或设置 SmartArt 图表关于从左到右LTR 或从右到左RTL 的状态 读/写Boolean.
 type: docs
 weight: 30
 url: /zh/net/aspose.slides.smartart/smartart/isreversed/
 ---
 ## SmartArt.IsReversed property
 
-如果图表支持反转，则返回或设置 SmartArt 图表相对于（从左到右）LTR 或（从右到左）RTL 的状态. 读/写Boolean。
+如果图表支持反转，则返回或设置 SmartArt 图表关于（从左到右）LTR 或（从右到左）RTL 的状态。 读/写Boolean.
 
 ```csharp
 public bool IsReversed { get; set; }

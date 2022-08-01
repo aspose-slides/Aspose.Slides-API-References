@@ -1,14 +1,14 @@
 ---
 title: Radius
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置模糊半径 读/写Double
+description: 返回或设置模糊半径 读/写Double.
 type: docs
 weight: 40
 url: /zh/net/aspose.slides.effects/iblur/radius/
 ---
 ## IBlur.Radius property
 
-返回或设置模糊半径。 读/写Double。
+返回或设置模糊半径。 读/写Double.
 
 ```csharp
 public double Radius { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Slides for .NET API 参考
-description: 获取指定索引处的元素 只读SmartArtShapeaspose.slides.smartart/smartartshape.gt
+description: 获取指定索引处的元素 只读SmartArtShapeaspose.slides.smartart/smartartshape .gt.
 type: docs
 weight: 30
 url: /zh/net/aspose.slides.smartart/smartartshapecollection/item/
 ---
 ## SmartArtShapeCollection indexer
 
-获取指定索引处的元素。 只读[`SmartArtShape`](../../smartartshape).&gt;。
+获取指定索引处的元素。 只读[`SmartArtShape`](../../smartartshape) .&gt;.
 
 ```csharp
 public ISmartArtShape this[int index] { get; }

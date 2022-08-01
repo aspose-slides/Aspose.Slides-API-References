@@ -1,14 +1,14 @@
 ---
 title: Output
 second_title: Aspose.Slides for .NET API 参考
-description: 返回宿主文档的输出元素的集合 只读Outputaspose.slides.export.web/templatecontext-1/output
+description: 返回主文档的输出元素的集合 只读Outputaspose.slides.export.web/templatecontext-1/output.
 type: docs
 weight: 40
 url: /zh/net/aspose.slides.export.web/templatecontext-1/output/
 ---
 ## TemplateContext&lt;TObject&gt;.Output property
 
-返回宿主文档的输出元素的集合。 只读`Output`。
+返回主文档的输出元素的集合。 只读`Output`.
 
 ```csharp
 public Output Output { get; }

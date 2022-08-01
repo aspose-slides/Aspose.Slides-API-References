@@ -1,14 +1,14 @@
 ---
 title: IsBar3DChart
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает true если chartType является одним из подтипов bar3DChart трехмерные столбцы или столбцы.
+description: Возвращает true если chartType является одним из подтипов bar3DChart трехмерные столбцы или бары.
 type: docs
 weight: 40
 url: /ru/net/aspose.slides.charts/charttypecharacterizer/isbar3dchart/
 ---
 ## ChartTypeCharacterizer.IsBar3DChart method
 
-Возвращает true, если chartType является одним из подтипов bar3DChart (трехмерные столбцы или столбцы).
+Возвращает true, если chartType является одним из подтипов bar3DChart (трехмерные столбцы или бары).
 
 ```csharp
 public static bool IsBar3DChart(ChartType chartType)

@@ -1,14 +1,14 @@
 ---
 title: ExtrusionViewPointX
 second_title: Aspose.Slides for .NET API 参考
-description: 表示 extrusion.viewpoint.x 属性
+description: 代表extrusion.viewpoint.x属性
 type: docs
 weight: 240
 url: /zh/net/aspose.slides.animation/behaviorproperty/extrusionviewpointx/
 ---
 ## BehaviorProperty.ExtrusionViewPointX property
 
-表示 'extrusion.viewpoint.x' 属性
+代表“extrusion.viewpoint.x”属性
 
 ```csharp
 public static BehaviorProperty ExtrusionViewPointX { get; }

@@ -1,14 +1,14 @@
 ---
 title: MiterLimit
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или устанавливает предел скоса линии. Чтение/записьSingle.
+description: Возвращает или устанавливает предел скоса линии. Чтение/записьSingle .
 type: docs
 weight: 140
 url: /ru/net/aspose.slides/lineformat/miterlimit/
 ---
 ## LineFormat.MiterLimit property
 
-Возвращает или устанавливает предел скоса линии. Чтение/записьSingle.
+Возвращает или устанавливает предел скоса линии. Чтение/записьSingle .
 
 ```csharp
 public float MiterLimit { get; set; }

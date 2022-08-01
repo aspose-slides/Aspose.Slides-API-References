@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Slides for .NET API 参考
-description: 获取指定索引处的元素 只读IVideoaspose.slides/ivideo
+description: 获取指定索引处的元素 只读IVideoaspose.slides/ivideo.
 type: docs
 weight: 30
 url: /zh/net/aspose.slides/videocollection/item/
 ---
 ## VideoCollection indexer
 
-获取指定索引处的元素。 只读[`IVideo`](../../ivideo)。
+获取指定索引处的元素。 只读[`IVideo`](../../ivideo).
 
 ```csharp
 public IVideo this[int index] { get; }

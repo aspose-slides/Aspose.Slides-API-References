@@ -8,7 +8,7 @@ url: /ru/net/aspose.slides.animation/behaviorproperty/styletextshadow/
 ---
 ## BehaviorProperty.StyleTextShadow property
 
-Представляет свойство 'style.textShadow'
+Представляет свойство style.textShadow
 
 ```csharp
 public static BehaviorProperty StyleTextShadow { get; }

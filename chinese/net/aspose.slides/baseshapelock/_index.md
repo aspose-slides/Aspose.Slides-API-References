@@ -18,7 +18,7 @@ public class BaseShapeLock : IBaseShapeLock
 
 | 姓名 | 描述 |
 | --- | --- |
-| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | 如果所有锁定标志都被禁用，则返回 true。 只读Boolean。 |
+| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | 如果所有锁定标志都被禁用，则返回 true。 只读Boolean. |
 
 ### 也可以看看
 

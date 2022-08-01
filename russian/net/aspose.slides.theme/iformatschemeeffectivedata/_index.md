@@ -18,14 +18,14 @@ public interface IFormatSchemeEffectiveData
 
 | Имя | Описание |
 | --- | --- |
-| [GetBackgroundFillStyles](../../aspose.slides.theme/iformatschemeeffectivedata/getbackgroundfillstyles)(Color) | Возвращает набор стилей заливки фона, определенных темой. |
-| [GetEffectStyles](../../aspose.slides.theme/iformatschemeeffectivedata/geteffectstyles)(Color) | Возвращает набор стилей эффектов, определенных темой. |
-| [GetFillStyles](../../aspose.slides.theme/iformatschemeeffectivedata/getfillstyles)(Color) | Возвращает набор стилей заливки, определенных темой. |
-| [GetLineStyles](../../aspose.slides.theme/iformatschemeeffectivedata/getlinestyles)(Color) | Возвращает набор стилей линий, определенных темой. |
+| [GetBackgroundFillStyles](../../aspose.slides.theme/iformatschemeeffectivedata/getbackgroundfillstyles)(Color) | Возвращает коллекцию стилей заливки фона, определенных темой. |
+| [GetEffectStyles](../../aspose.slides.theme/iformatschemeeffectivedata/geteffectstyles)(Color) | Возвращает коллекцию стилей эффектов, определенных темой. |
+| [GetFillStyles](../../aspose.slides.theme/iformatschemeeffectivedata/getfillstyles)(Color) | Возвращает коллекцию стилей заливки, определенных темой. |
+| [GetLineStyles](../../aspose.slides.theme/iformatschemeeffectivedata/getlinestyles)(Color) | Возвращает коллекцию стилей линий, определенных темой. |
 
 ### Примечания
 
-Этот интерфейс используется как часть[`IThemeEffectiveData`](../ithemeeffectivedata).
+Этот интерфейс используется как часть[`IThemeEffectiveData`](../ithemeeffectivedata) .
 
 ### Смотрите также
 

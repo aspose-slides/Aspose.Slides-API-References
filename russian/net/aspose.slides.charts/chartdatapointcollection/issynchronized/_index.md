@@ -1,14 +1,14 @@
 ---
 title: IsSynchronized
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает значение указывающее является ли доступ к коллекции синхронизированным потокобезопасным. Только чтениеBoolean.
+description: Возвращает значение указывающее является ли доступ к коллекции синхронизированным потокобезопасным. Только для чтенияBoolean .
 type: docs
 weight: 70
 url: /ru/net/aspose.slides.charts/chartdatapointcollection/issynchronized/
 ---
 ## ChartDataPointCollection.IsSynchronized property
 
-Возвращает значение, указывающее, является ли доступ к коллекции синхронизированным (потокобезопасным). Только чтениеBoolean.
+Возвращает значение, указывающее, является ли доступ к коллекции синхронизированным (потокобезопасным). Только для чтенияBoolean .
 
 ```csharp
 public bool IsSynchronized { get; }

@@ -1,14 +1,14 @@
 ---
 title: Columns
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает набор столбцов. Только для чтенияIColumnCollectionaspose.slides/icolumncollection.
+description: Возвращает набор столбцов. Только для чтенияIColumnCollectionaspose.slides/icolumncollection .
 type: docs
 weight: 10
 url: /ru/net/aspose.slides/table/columns/
 ---
 ## Table.Columns property
 
-Возвращает набор столбцов. Только для чтения[`IColumnCollection`](../../icolumncollection).
+Возвращает набор столбцов. Только для чтения[`IColumnCollection`](../../icolumncollection) .
 
 ```csharp
 public IColumnCollection Columns { get; }

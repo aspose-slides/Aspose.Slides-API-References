@@ -1,14 +1,14 @@
 ---
 title: Hue
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает оттенок. Только для чтенияSingle.
+description: Возвращает оттенок. Только для чтенияSingle .
 type: docs
 weight: 30
 url: /ru/net/aspose.slides.effects/itinteffectivedata/hue/
 ---
 ## ITintEffectiveData.Hue property
 
-Возвращает оттенок. Только для чтенияSingle.
+Возвращает оттенок. Только для чтенияSingle .
 
 ```csharp
 public float Hue { get; }

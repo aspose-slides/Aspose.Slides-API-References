@@ -18,13 +18,13 @@ public interface IFontSchemeEffectiveData
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Major](../../aspose.slides.theme/ifontschemeeffectivedata/major) { get; } | 返回幻灯片“标题”部分的字体集合。 只读[`IFontsEffectiveData`](../../aspose.slides/ifontseffectivedata)。 |
-| [Minor](../../aspose.slides.theme/ifontschemeeffectivedata/minor) { get; } | 返回幻灯片“正文”部分的字体集合。 只读[`IFontsEffectiveData`](../../aspose.slides/ifontseffectivedata)。 |
-| [Name](../../aspose.slides.theme/ifontschemeeffectivedata/name) { get; } | 返回字体方案名称。 只读String。 |
+| [Major](../../aspose.slides.theme/ifontschemeeffectivedata/major) { get; } | 返回幻灯片“标题”部分的字体集合。 只读[`IFontsEffectiveData`](../../aspose.slides/ifontseffectivedata). |
+| [Minor](../../aspose.slides.theme/ifontschemeeffectivedata/minor) { get; } | 返回幻灯片“正文”部分的字体集合。 只读[`IFontsEffectiveData`](../../aspose.slides/ifontseffectivedata). |
+| [Name](../../aspose.slides.theme/ifontschemeeffectivedata/name) { get; } | 返回字体方案名称。 只读String. |
 
 ### 评论
 
-此接口用作IThemeEffectiveData。
+该接口用作[`IThemeEffectiveData`](../ithemeeffectivedata).
 
 ### 也可以看看
 

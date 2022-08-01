@@ -1,14 +1,14 @@
 ---
 title: Instance
 second_title: Aspose.Slides for .NET API 参考
-description: VBA 项目引用工厂静态实例 只读VbaReferenceFactoryaspose.slides.vba/vbareferencefactory
+description: VBA 项目引用工厂静态实例 只读VbaReferenceFactoryaspose.slides.vba/vbareferencefactory.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides.vba/vbareferencefactory/instance/
 ---
 ## VbaReferenceFactory.Instance property
 
-VBA 项目引用工厂静态实例。 只读[`VbaReferenceFactory`](../../vbareferencefactory)。
+VBA 项目引用工厂静态实例。 只读[`VbaReferenceFactory`](../../vbareferencefactory).
 
 ```csharp
 public static VbaReferenceFactory Instance { get; }

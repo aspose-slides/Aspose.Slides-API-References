@@ -18,11 +18,11 @@ public interface ISketchFormatEffectiveData
 
 | 姓名 | 描述 |
 | --- | --- |
-| [SketchType](../../aspose.slides/isketchformateffectivedata/sketchtype) { get; } | 返回草图类型。 只读[`LineSketchType`](../linesketchtype)。 |
+| [SketchType](../../aspose.slides/isketchformateffectivedata/sketchtype) { get; } | 返回草图类型。 只读[`LineSketchType`](../linesketchtype). |
 
 ### 评论
 
-此接口用作ILineFormatEffectiveData的一部分。
+该接口用作[`ILineFormatEffectiveData`](../ilineformateffectivedata).
 
 ### 也可以看看
 

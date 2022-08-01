@@ -1,14 +1,14 @@
 ---
 title: ShowPercentage
 second_title: Aspose.Slides for .NET API 参考
-description: 表示指定图表的数据标签百分比值显示行为 True 显示百分比值虚假隐藏 读/写Boolean
+description: 表示指定图表的数据标签百分比值显示行为 True 显示百分比值假隐藏 读/写Boolean.
 type: docs
 weight: 130
 url: /zh/net/aspose.slides.charts/datalabelformat/showpercentage/
 ---
 ## DataLabelFormat.ShowPercentage property
 
-表示指定图表的数据标签百分比值显示行为。 True 显示百分比值。虚假隐藏。 读/写Boolean。
+表示指定图表的数据标签百分比值显示行为。 True 显示百分比值。假隐藏。 读/写Boolean.
 
 ```csharp
 public bool ShowPercentage { get; set; }
@@ -16,7 +16,7 @@ public bool ShowPercentage { get; set; }
 
 ### 评论
 
-如果此 DataLabelFormat 对象的父对象是数据标签的 DataLabelCollection 集合，则此 属性获取或设置 DataLabelCollection 集合中新数据 标签的 ShowPercentage 属性的默认值。 将此属性设置为值也将此值设置为 ShowPercentage 属性 用于 DataLabelCollection 集合中的所有数据标签 （即“DataLabels.DefaultDataLabelFormat.ShowPercentage = val;" 导致 所有 DataLabels[i].ShowPercentage 等于 val)。
+如果此 DataLabelFormat 对象的父对象是数据标签的 DataLabelCollection 集合，则 this 属性获取或设置 DataLabelCollection 集合中新数据 标签的 ShowPercentage 属性的默认值。 使用值设置此属性也会将此值设置为DataLabelCollection 集合中所有数据标签的 ShowPercentage 属性 （即“DataLabels.DefaultDataLabelFormat.ShowPercentage = val;”导致 所有 DataLabels[i].ShowPercentage 等于 val）。
 
 ### 也可以看看
 

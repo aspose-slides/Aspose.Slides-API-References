@@ -24,14 +24,14 @@ public class PointCollection : IPointCollection
 
 | Имя | Описание |
 | --- | --- |
-| [Count](../../aspose.slides.animation/pointcollection/count) { get; } | Возвращает количество точек в коллекции. Только для чтенияInt32. |
+| [Count](../../aspose.slides.animation/pointcollection/count) { get; } | Возвращает количество точек в коллекции. Только для чтенияInt32 . |
 | [Item](../../aspose.slides.animation/pointcollection/item) { get; } | Возвращает точку по указанному индексу. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [GetEnumerator](../../aspose.slides.animation/pointcollection/getenumerator)() | Возвращает перечислитель, который перебирает коллекцию. |
+| [GetEnumerator](../../aspose.slides.animation/pointcollection/getenumerator)() | Возвращает перечислитель, который выполняет итерацию по коллекции. |
 
 ### Смотрите также
 

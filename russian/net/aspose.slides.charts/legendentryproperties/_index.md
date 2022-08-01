@@ -18,9 +18,9 @@ public class LegendEntryProperties : ILegendEntryProperties
 
 | Имя | Описание |
 | --- | --- |
-| [Chart](../../aspose.slides.charts/legendentryproperties/chart) { get; } | Возвращает родительскую диаграмму. Только для чтения[`IChart`](../ichart). |
-| [Hide](../../aspose.slides.charts/legendentryproperties/hide) { get; set; } | Определяет, скрыта ли запись легенды. Чтение/записьBoolean. |
-| [TextFormat](../../aspose.slides.charts/legendentryproperties/textformat) { get; } | Возвращает текстовый формат. Только чтение[`IChartTextFormat`](../icharttextformat). |
+| [Chart](../../aspose.slides.charts/legendentryproperties/chart) { get; } | Возвращает родительскую диаграмму. Только для чтения[`IChart`](../ichart) . |
+| [Hide](../../aspose.slides.charts/legendentryproperties/hide) { get; set; } | Определяет, скрыта ли запись легенды. Чтение/записьBoolean . |
+| [TextFormat](../../aspose.slides.charts/legendentryproperties/textformat) { get; } | Возвращает текстовый формат. Только для чтения[`IChartTextFormat`](../icharttextformat) . |
 
 ### Смотрите также
 

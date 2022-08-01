@@ -1,14 +1,14 @@
 ---
 title: Name
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置作者姓名 读/写String
+description: 返回或设置作者姓名 读/写String.
 type: docs
 weight: 30
 url: /zh/net/aspose.slides/commentauthor/name/
 ---
 ## CommentAuthor.Name property
 
-返回或设置作者姓名。 读/写String。
+返回或设置作者姓名。 读/写String.
 
 ```csharp
 public string Name { get; set; }

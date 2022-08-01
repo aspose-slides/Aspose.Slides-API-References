@@ -1,14 +1,14 @@
 ---
 title: Insert
 second_title: Aspose.Slides for .NET API 参考
-description: 向路径插入新命令
+description: 将新命令插入路径
 type: docs
 weight: 70
 url: /zh/net/aspose.slides.animation/motionpath/insert/
 ---
 ## MotionPath.Insert method
 
-向路径插入新命令
+将新命令插入路径
 
 ```csharp
 public void Insert(int index, MotionCommandPathType type, PointF[] pts, 

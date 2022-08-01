@@ -1,14 +1,14 @@
 ---
 title: ShapeType
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или задает тип автофигуры. Чтение/записьShapeTypeaspose.slides/shapetype.
+description: Возвращает или задает тип автофигуры. Чтение/записьShapeTypeaspose.slides/shapetype .
 type: docs
 weight: 50
 url: /ru/net/aspose.slides/connector/shapetype/
 ---
 ## Connector.ShapeType property
 
-Возвращает или задает тип автофигуры. Чтение/запись[`ShapeType`](../../shapetype).
+Возвращает или задает тип автофигуры. Чтение/запись[`ShapeType`](../../shapetype) .
 
 ```csharp
 public override ShapeType ShapeType { get; set; }

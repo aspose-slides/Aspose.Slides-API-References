@@ -1,14 +1,14 @@
 ---
 title: CategoryAxisType
 second_title: Справочник по API Aspose.Slides для .NET
-description: Указывает тип оси категорий. Чтение/записьCategoryAxisTypeaspose.slides.charts/iaxis/categoryaxistype.
+description: Определяет тип оси категорий. Чтение/записьCategoryAxisTypeaspose.slides.charts/iaxis/categoryaxistype .
 type: docs
 weight: 120
 url: /ru/net/aspose.slides.charts/iaxis/categoryaxistype/
 ---
 ## IAxis.CategoryAxisType property
 
-Указывает тип оси категорий. Чтение/запись`CategoryAxisType`.
+Определяет тип оси категорий. Чтение/запись`CategoryAxisType` .
 
 ```csharp
 public CategoryAxisType CategoryAxisType { get; set; }

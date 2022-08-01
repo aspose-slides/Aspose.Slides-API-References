@@ -1,14 +1,14 @@
 ---
 title: Token
 second_title: Aspose.Slides for .NET API 参考
-description: 返回绑定到此InterruptionTokenSourceaspose.slides/interruptiontokensource的新令牌
+description: 返回绑定到此的新令牌InterruptionTokenSourceaspose.slides/interruptiontokensource.
 type: docs
 weight: 30
 url: /zh/net/aspose.slides/interruptiontokensource/token/
 ---
 ## InterruptionTokenSource.Token property
 
-返回绑定到此[`InterruptionTokenSource`](../../interruptiontokensource)的新令牌。
+返回绑定到此的新令牌[`InterruptionTokenSource`](../../interruptiontokensource).
 
 ```csharp
 public IInterruptionToken Token { get; }

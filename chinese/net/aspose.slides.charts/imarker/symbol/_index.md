@@ -1,14 +1,14 @@
 ---
 title: Symbol
 second_title: Aspose.Slides for .NET API 参考
-description: 表示折线图散点图或雷达图中的标记样式 读/写MarkerStyleTypeaspose.slides.charts/markerstyletype
+description: 表示折线图散点图或雷达图中的标记样式 读/写MarkerStyleTypeaspose.slides.charts/markerstyletype.
 type: docs
 weight: 30
 url: /zh/net/aspose.slides.charts/imarker/symbol/
 ---
 ## IMarker.Symbol property
 
-表示折线图、散点图或雷达图中的标记样式。 读/写[`MarkerStyleType`](../../markerstyletype)。
+表示折线图、散点图或雷达图中的标记样式。 读/写[`MarkerStyleType`](../../markerstyletype).
 
 ```csharp
 public MarkerStyleType Symbol { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: GetRect
 second_title: Aspose.Slides for .NET API 参考
-description: 获取边界部分的矩形坐标 rect 包括部分 文本的所有行包括空行
+description: 获取边界部分的矩形坐标 rect 部分包含 文本的所有行包括空行
 type: docs
 weight: 70
 url: /zh/net/aspose.slides/portion/getrect/
 ---
 ## Portion.GetRect method
 
-获取边界部分的矩形坐标。 rect 包括部分 文本的所有行，包括空行。
+获取边界部分的矩形坐标。 rect 部分包含 文本的所有行，包括空行。
 
 ```csharp
 public RectangleF GetRect()
@@ -16,7 +16,7 @@ public RectangleF GetRect()
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]

@@ -1,14 +1,14 @@
 ---
 title: Width
 second_title: Aspose.Slides for .NET API 参考
-description: 返回图像的宽度 只读Int32
+description: 返回图像的宽度 只读Int32.
 type: docs
 weight: 60
 url: /zh/net/aspose.slides/ippimage/width/
 ---
 ## IPPImage.Width property
 
-返回图像的宽度。 只读Int32。
+返回图像的宽度。 只读Int32.
 
 ```csharp
 public int Width { get; }

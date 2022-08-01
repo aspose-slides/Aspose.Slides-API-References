@@ -122,7 +122,7 @@ public Bitmap GetThumbnail(IRenderingOptions options)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| InvalidOperationException | 当 notesCommentsLayouting.NotesPosition 取值 NotesPositions.BottomFull |
+| InvalidOperationException | 当 notesCommentsLayouting.NotesPosition 取值 NotesPositions.BottomFull 时抛出 |
 
 ### 也可以看看
 
@@ -155,7 +155,7 @@ public Bitmap GetThumbnail(IRenderingOptions options, float scaleX, float scaleY
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| InvalidOperationException | 当 notesCommentsLayouting.NotesPosition 取值 NotesPositions.BottomFull |
+| InvalidOperationException | 当 notesCommentsLayouting.NotesPosition 取值 NotesPositions.BottomFull 时抛出 |
 
 ### 也可以看看
 
@@ -187,7 +187,7 @@ public Bitmap GetThumbnail(IRenderingOptions options, Size imageSize)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| InvalidOperationException | 当 options.NotesCommentsLayouting.NotesPosition 取值 NotesPositions.BottomFull |
+| InvalidOperationException | 当 options.NotesCommentsLayouting.NotesPosition 取值 NotesPositions.BottomFull 时抛出 |
 
 ### 也可以看看
 

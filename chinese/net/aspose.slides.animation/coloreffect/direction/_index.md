@@ -1,14 +1,14 @@
 ---
 title: Direction
 second_title: Aspose.Slides for .NET API 参考
-description: 指定围绕色轮循环色调的方向 读/写ColorDirectionaspose.slides.animation/colordirection
+description: 指定围绕色轮循环色调的方向 读/写ColorDirectionaspose.slides.animation/colordirection.
 type: docs
 weight: 40
 url: /zh/net/aspose.slides.animation/coloreffect/direction/
 ---
 ## ColorEffect.Direction property
 
-指定围绕色轮循环色调的方向。 读/写[`ColorDirection`](../../colordirection)。
+指定围绕色轮循环色调的方向。 读/写[`ColorDirection`](../../colordirection).
 
 ```csharp
 public ColorDirection Direction { get; set; }

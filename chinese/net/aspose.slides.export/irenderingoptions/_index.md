@@ -1,14 +1,14 @@
 ---
 title: IRenderingOptions
 second_title: Aspose.Slides for .NET API 参考
-description: 提供控制演示文稿/幻灯片呈现方式的选项
+description: 提供控制如何呈现演示文稿/幻灯片的选项
 type: docs
 weight: 3710
 url: /zh/net/aspose.slides.export/irenderingoptions/
 ---
 ## IRenderingOptions interface
 
-提供控制演示文稿/幻灯片呈现方式的选项。
+提供控制如何呈现演示文稿/幻灯片的选项。
 
 ```csharp
 public interface IRenderingOptions : ISaveOptions
@@ -18,7 +18,7 @@ public interface IRenderingOptions : ISaveOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsISaveOptions](../../aspose.slides.export/irenderingoptions/asisaveoptions) { get; } | 返回 ISaveOptions 接口。 只读[`ISaveOptions`](../isaveoptions)。 |
+| [AsISaveOptions](../../aspose.slides.export/irenderingoptions/asisaveoptions) { get; } | 返回 ISaveOptions 接口。 只读[`ISaveOptions`](../isaveoptions). |
 | [NotesCommentsLayouting](../../aspose.slides.export/irenderingoptions/notescommentslayouting) { get; } | 提供控制注释和注释在导出文档中的放置方式的选项。 |
 
 ### 例子

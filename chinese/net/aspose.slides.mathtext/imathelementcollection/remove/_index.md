@@ -16,15 +16,15 @@ public bool Remove(IMathElement item)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| item | IMathElement | 要从集合中删除的对象。 |
+| item | IMathElement | 要从集合中移除的对象。 |
 
 ### 返回值
 
-如果*item*从集合中成功删除，则为真；否则为假。如果在原始集合中找不到*item*，此方法也会返回 false。
+真如果*item*已成功从集合中删除；否则为假。如果此方法也返回 false*item*在原始集合中找不到。
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]

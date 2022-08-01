@@ -1,14 +1,14 @@
 ---
 title: DocumentProperties
 second_title: Aspose.Slides for .NET API 参考
-description: 返回包含标准和自定义文档属性的 DocumentProperties 对象 只读IDocumentPropertiesaspose.slides/idocumentproperties
+description: 返回包含标准和自定义文档属性的 DocumentProperties 对象 只读IDocumentPropertiesaspose.slides/idocumentproperties.
 type: docs
 weight: 90
 url: /zh/net/aspose.slides/presentation/documentproperties/
 ---
 ## Presentation.DocumentProperties property
 
-返回包含标准和自定义文档属性的 DocumentProperties 对象。 只读[`IDocumentProperties`](../../idocumentproperties)。
+返回包含标准和自定义文档属性的 DocumentProperties 对象。 只读[`IDocumentProperties`](../../idocumentproperties).
 
 ```csharp
 public IDocumentProperties DocumentProperties { get; }

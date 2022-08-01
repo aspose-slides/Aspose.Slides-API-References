@@ -1,14 +1,14 @@
 ---
 title: Escapement
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置上标或下标文本 值从 -100下标到 100上标  float.NaN 表示值未定义应从 Master 继承 读/写Single
+description: 返回或设置上标或下标文本 值从 -100下标到 100上标  浮点数.NaN表示值未定义应从 Master 继承 读/写Single.
 type: docs
 weight: 50
 url: /zh/net/aspose.slides/baseportionformat/escapement/
 ---
 ## BasePortionFormat.Escapement property
 
-返回或设置上标或下标文本。 值从 -100%（下标）到 100%（上标）。  **float.NaN** 表示值未定义，应从 Master 继承。 读/写Single。
+返回或设置上标或下标文本。 值从 -100%（下标）到 100%（上标）。  **浮点数.NaN**表示值未定义，应从 Master 继承。 读/写Single.
 
 ```csharp
 public float Escapement { get; set; }

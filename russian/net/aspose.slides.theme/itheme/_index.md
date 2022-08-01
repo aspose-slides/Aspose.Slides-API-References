@@ -18,16 +18,16 @@ public interface ITheme : IPresentationComponent
 
 | Имя | Описание |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides.theme/itheme/asipresentationcomponent) { get; } | Позволяет получить базовый интерфейс IPresentationComponent. Только для чтения[`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
-| [ColorScheme](../../aspose.slides.theme/itheme/colorscheme) { get; } | Возвращает цветовую схему. Только для чтения[`IColorScheme`](../icolorscheme). |
-| [FontScheme](../../aspose.slides.theme/itheme/fontscheme) { get; } | Возвращает схему шрифта. Только для чтения[`IFontScheme`](../ifontscheme). |
-| [FormatScheme](../../aspose.slides.theme/itheme/formatscheme) { get; } | Возвращает схему формата формы. Только для чтения[`IFormatScheme`](../iformatscheme). |
+| [AsIPresentationComponent](../../aspose.slides.theme/itheme/asipresentationcomponent) { get; } | Позволяет получить базовый интерфейс IPresentationComponent. Только для чтения[`IPresentationComponent`](../../aspose.slides/ipresentationcomponent) . |
+| [ColorScheme](../../aspose.slides.theme/itheme/colorscheme) { get; } | Возвращает цветовую схему. Только для чтения[`IColorScheme`](../icolorscheme) . |
+| [FontScheme](../../aspose.slides.theme/itheme/fontscheme) { get; } | Возвращает схему шрифта. Только для чтения[`IFontScheme`](../ifontscheme) . |
+| [FormatScheme](../../aspose.slides.theme/itheme/formatscheme) { get; } | Возвращает схему формата формы. Только для чтения[`IFormatScheme`](../iformatscheme) . |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [GetEffective](../../aspose.slides.theme/itheme/geteffective)() | Получает эффективные данные темы с примененным наследованием. |
+| [GetEffective](../../aspose.slides.theme/itheme/geteffective)() | Получает действующие данные темы с применением наследования. |
 
 ### Смотрите также
 

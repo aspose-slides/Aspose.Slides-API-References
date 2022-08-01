@@ -29,7 +29,7 @@ public class MathGroupingCharacterFactory : IMathGroupingCharacterFactory
 
 ### 评论
 
-对于 COM 兼容性
+用于 COM 兼容性
 
 ### 也可以看看
 

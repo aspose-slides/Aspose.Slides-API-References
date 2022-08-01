@@ -19,7 +19,7 @@ public interface IZoomFrame : IZoomObject
 | Имя | Описание |
 | --- | --- |
 | [AsIZoomObject](../../aspose.slides/izoomframe/asizoomobject) { get; } | Возвращает интерфейс IZoomObject. |
-| [TargetSlide](../../aspose.slides/izoomframe/targetslide) { get; set; } | Получает или задает объект слайда, на который ссылается объект «Масштаб слайда». Чтение/запись[`ISlide`](../islide). |
+| [TargetSlide](../../aspose.slides/izoomframe/targetslide) { get; set; } | Получает или задает объект слайда, на который ссылается объект «Масштаб слайда». Чтение/запись[`ISlide`](../islide) . |
 
 ### Смотрите также
 

@@ -29,7 +29,7 @@ public class ParagraphFactory : IParagraphFactory
 
 ### 评论
 
-For COM 兼容性。
+用于 COM 兼容性。
 
 ### 也可以看看
 

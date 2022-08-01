@@ -24,12 +24,12 @@ public class MathParagraphFactory : IMathParagraphFactory
 
 | 姓名 | 描述 |
 | --- | --- |
-| [CreateMathParagraph](../../aspose.slides.mathtext/mathparagraphfactory/createmathparagraph#createmathparagraph)() | 创建空数学段落 |
+| [CreateMathParagraph](../../aspose.slides.mathtext/mathparagraphfactory/createmathparagraph#createmathparagraph)() | 创建空的数学段落 |
 | [CreateMathParagraph](../../aspose.slides.mathtext/mathparagraphfactory/createmathparagraph#createmathparagraph_1)(IMathBlock) | 创建一个数学段落并将指定的数学块放入其中 |
 
 ### 评论
 
-用于 COM 比较
+用于 COM 可比性
 
 ### 也可以看看
 

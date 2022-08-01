@@ -1,14 +1,14 @@
 ---
 title: IFillFormatCollection
 second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет набор стилей заливки.
+description: Представляет коллекцию стилей заливки.
 type: docs
 weight: 10420
 url: /ru/net/aspose.slides.theme/ifillformatcollection/
 ---
 ## IFillFormatCollection interface
 
-Представляет набор стилей заливки.
+Представляет коллекцию стилей заливки.
 
 ```csharp
 public interface IFillFormatCollection : IGenericCollection<IFillFormat>
@@ -18,7 +18,7 @@ public interface IFillFormatCollection : IGenericCollection<IFillFormat>
 
 | Имя | Описание |
 | --- | --- |
-| [Item](../../aspose.slides.theme/ifillformatcollection/item) { get; } | Получает элемент по указанному индексу. Только для чтения[`IFillFormat`](../../aspose.slides/ifillformat). |
+| [Item](../../aspose.slides.theme/ifillformatcollection/item) { get; } | Получает элемент по указанному индексу. Только для чтения[`IFillFormat`](../../aspose.slides/ifillformat) . |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: ITabEffectiveData
 second_title: Aspose.Slides for .NET API 参考
-description: 包含有效文本的制表符停止属性的不可变对象
+description: 包含有效文本的制表停止属性的不可变对象
 type: docs
 weight: 6630
 url: /zh/net/aspose.slides/itabeffectivedata/
 ---
 ## ITabEffectiveData interface
 
-包含有效文本的制表符停止属性的不可变对象。
+包含有效文本的制表停止属性的不可变对象。
 
 ```csharp
 public interface ITabEffectiveData : IComparable
@@ -18,13 +18,13 @@ public interface ITabEffectiveData : IComparable
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Alignment](../../aspose.slides/itabeffectivedata/alignment) { get; } | 返回选项卡的对齐样式。 只读[`TabAlignment`](../tabalignment)。 |
-| [AsIComparable](../../aspose.slides/itabeffectivedata/asicomparable) { get; } | 返回 IComparable 接口。 只读IComparable。 |
-| [Position](../../aspose.slides/itabeffectivedata/position) { get; } | 返回选项卡的位置。 分配此属性可以更改集合中选项卡的索引并使枚举器无效。 只读Double。 |
+| [Alignment](../../aspose.slides/itabeffectivedata/alignment) { get; } | 返回选项卡的对齐样式。 只读[`TabAlignment`](../tabalignment). |
+| [AsIComparable](../../aspose.slides/itabeffectivedata/asicomparable) { get; } | 返回 IComparable 接口。 只读IComparable. |
+| [Position](../../aspose.slides/itabeffectivedata/position) { get; } | 返回选项卡的位置。 分配此属性可以更改选项卡在集合中的索引并使枚举器无效。 只读Double. |
 
 ### 评论
 
-此接口用作IParagraphFormatEffectiveData的一部分。
+该接口用作[`IParagraphFormatEffectiveData`](../iparagraphformateffectivedata).
 
 ### 也可以看看
 

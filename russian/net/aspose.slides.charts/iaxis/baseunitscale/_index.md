@@ -1,14 +1,14 @@
 ---
 title: BaseUnitScale
 second_title: Справочник по API Aspose.Slides для .NET
-description: Указывает наименьшую единицу времени представленную на оси дат. Чтение/записьTimeUnitTypeaspose.slides.charts/timeunittype.
+description: Указывает наименьшую единицу времени представленную на оси даты. Чтение/записьTimeUnitTypeaspose.slides.charts/timeunittype .
 type: docs
 weight: 100
 url: /ru/net/aspose.slides.charts/iaxis/baseunitscale/
 ---
 ## IAxis.BaseUnitScale property
 
-Указывает наименьшую единицу времени, представленную на оси дат. Чтение/запись[`TimeUnitType`](../../timeunittype).
+Указывает наименьшую единицу времени, представленную на оси даты. Чтение/запись[`TimeUnitType`](../../timeunittype) .
 
 ```csharp
 public TimeUnitType BaseUnitScale { get; set; }

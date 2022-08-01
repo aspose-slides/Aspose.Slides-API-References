@@ -25,12 +25,12 @@ public interface IImageCollection : IGenericCollection<IPPImage>
 | 姓名 | 描述 |
 | --- | --- |
 | [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_2)(byte[]) | 将图像从指定缓冲区添加到演示文稿。 |
-| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_3)(Image) | 将图像添加到演示文稿。 |
-| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage)(IPPImage) | 添加来自另一个演示文稿的图像的副本。 |
+| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_3)(Image) | 将图像添加到演示文稿中。 |
+| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage)(IPPImage) | 添加来自另一个演示文稿的图像副本。 |
 | [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_1)(ISvgImage) | 将图像从 SVG 对象添加到演示文稿。 |
 | [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_4)(MemoryStream) | 从内存流中添加图像。 |
 | [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_5)(Stream) | 将图像从流中添加到演示文稿。 |
-| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_6)(Stream, LoadingStreamBehavior) | 从流中创建图像并将其添加到演示文稿。 |
+| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_6)(Stream, LoadingStreamBehavior) | 从流中创建图像并将其添加到演示文稿中。 |
 
 ### 也可以看看
 

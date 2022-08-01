@@ -1,14 +1,14 @@
 ---
 title: SpaceWithin
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или задает расстояние между базовыми строками в абзаце. Чтение/записьSingle.
+description: Возвращает или задает расстояние между базовыми строками в абзаце. Чтение/записьSingle .
 type: docs
 weight: 130
 url: /ru/net/aspose.slides.charts/ichartparagraphformat/spacewithin/
 ---
 ## IChartParagraphFormat.SpaceWithin property
 
-Возвращает или задает расстояние между базовыми строками в абзаце. Чтение/записьSingle.
+Возвращает или задает расстояние между базовыми строками в абзаце. Чтение/записьSingle .
 
 ```csharp
 public float SpaceWithin { get; set; }

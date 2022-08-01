@@ -1,14 +1,14 @@
 ---
 title: EmbeddedWoffFontsHtmlController
 second_title: Aspose.Slides for .NET API 参考
-description: 用于以 WOFF 格式嵌入字体的格式化控制器类
+description: 用于嵌入 WOFF 格式的字体的格式化控制器类
 type: docs
 weight: 3520
 url: /zh/net/aspose.slides.export/embeddedwofffontshtmlcontroller/
 ---
 ## EmbeddedWoffFontsHtmlController class
 
-用于以 WOFF 格式嵌入字体的格式化控制器类
+用于嵌入 WOFF 格式的字体的格式化控制器类
 
 ```csharp
 public class EmbeddedWoffFontsHtmlController : IEmbeddedWoffFontsHtmlController

@@ -1,14 +1,14 @@
 ---
 title: Accumulate
 second_title: Справочник по API Aspose.Slides для .NET
-description: Указывает накапливаются ли варианты поведения анимации. Чтение/записьNullableBoolaspose.slides/nullablebool.
+description: Указывает накапливаются ли варианты поведения анимации. Чтение/записьNullableBoolaspose.slides/nullablebool .
 type: docs
 weight: 10
 url: /ru/net/aspose.slides.animation/ibehavior/accumulate/
 ---
 ## IBehavior.Accumulate property
 
-Указывает, накапливаются ли варианты поведения анимации. Чтение/запись[`NullableBool`](../../../aspose.slides/nullablebool).
+Указывает, накапливаются ли варианты поведения анимации. Чтение/запись[`NullableBool`](../../../aspose.slides/nullablebool) .
 
 ```csharp
 public NullableBool Accumulate { get; set; }

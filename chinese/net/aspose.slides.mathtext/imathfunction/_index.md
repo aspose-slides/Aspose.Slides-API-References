@@ -20,11 +20,11 @@ public interface IMathFunction : IMathElement
 | --- | --- |
 | [AsIMathElement](../../aspose.slides.mathtext/imathfunction/asimathelement) { get; } | 允许获取基础 IMathElement 接口 [`IMathElement`](../imathelement) |
 | [Base](../../aspose.slides.mathtext/imathfunction/base) { get; } | 函数参数 |
-| [Name](../../aspose.slides.mathtext/imathfunction/name) { get; } | 函数名 例如函数名是 sin 和 cos |
+| [Name](../../aspose.slides.mathtext/imathfunction/name) { get; } | 函数名 例如函数名是sin和cos |
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]

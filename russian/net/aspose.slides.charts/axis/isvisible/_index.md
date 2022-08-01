@@ -1,14 +1,14 @@
 ---
 title: IsVisible
 second_title: Справочник по API Aspose.Slides для .NET
-description: Указывает видна ли ось. Чтение/записьBoolean.
+description: Указывает видна ли ось. Чтение/записьBoolean .
 type: docs
 weight: 310
 url: /ru/net/aspose.slides.charts/axis/isvisible/
 ---
 ## Axis.IsVisible property
 
-Указывает, видна ли ось. Чтение/записьBoolean.
+Указывает, видна ли ось. Чтение/записьBoolean .
 
 ```csharp
 public bool IsVisible { get; set; }

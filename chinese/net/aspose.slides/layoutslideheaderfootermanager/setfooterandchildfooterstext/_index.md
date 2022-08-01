@@ -1,14 +1,14 @@
 ---
 title: SetFooterAndChildFootersText
 second_title: Aspose.Slides for .NET API 参考
-description: 将文本设置为布局幻灯片页脚占位符和所有子页脚占位符 子占位符意味着占位符包含在依赖幻灯片上 取决于幻灯片使用并取决于布局幻灯片
+description: 将文本设置为布局幻灯片页脚占位符和所有子页脚占位符 子占位符意味着占位符包含在依赖的幻灯片中 依赖于幻灯片使用并依赖于布局幻灯片
 type: docs
 weight: 30
 url: /zh/net/aspose.slides/layoutslideheaderfootermanager/setfooterandchildfooterstext/
 ---
 ## LayoutSlideHeaderFooterManager.SetFooterAndChildFootersText method
 
-将文本设置为布局幻灯片页脚占位符和所有子页脚占位符。 子占位符意味着占位符包含在依赖幻灯片上。 取决于幻灯片使用并取决于布局幻灯片。
+将文本设置为布局幻灯片页脚占位符和所有子页脚占位符。 子占位符意味着占位符包含在依赖的幻灯片中。 依赖于幻灯片使用并依赖于布局幻灯片。
 
 ```csharp
 public void SetFooterAndChildFootersText(string text)

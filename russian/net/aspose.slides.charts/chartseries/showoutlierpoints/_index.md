@@ -1,14 +1,14 @@
 ---
 title: ShowOutlierPoints
 second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет точки выбросов. Значение true если на диаграмме BoxAndWhisker отображаются точки выброса. Применяется только к диаграммам BoxAndWhisker. Чтение/записьBoolean.
+description: Представляет точки выбросов. Значение true если на диаграмме BoxAndWhisker отображаются точки выброса. Применяется только к диаграммам BoxAndWhisker. Чтение/записьBoolean .
 type: docs
 weight: 410
 url: /ru/net/aspose.slides.charts/chartseries/showoutlierpoints/
 ---
 ## ChartSeries.ShowOutlierPoints property
 
-Представляет точки выбросов. Значение true, если на диаграмме BoxAndWhisker отображаются точки выброса. Применяется только к диаграммам BoxAndWhisker. Чтение/записьBoolean.
+Представляет точки выбросов. Значение true, если на диаграмме BoxAndWhisker отображаются точки выброса. Применяется только к диаграммам BoxAndWhisker. Чтение/записьBoolean .
 
 ```csharp
 public bool ShowOutlierPoints { get; set; }

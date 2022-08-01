@@ -1,14 +1,14 @@
 ---
 title: InterruptionTokenSource
 second_title: Справочник по API Aspose.Slides для .NET
-description: Создает новыйInterruptionTokenSourceaspose.slides/interruptiontokensource.
+description: Создает новыйInterruptionTokenSourceaspose.slides/interruptiontokensource .
 type: docs
 weight: 10
 url: /ru/net/aspose.slides/interruptiontokensource/interruptiontokensource/
 ---
 ## InterruptionTokenSource constructor
 
-Создает новый[`InterruptionTokenSource`](../../interruptiontokensource).
+Создает новый[`InterruptionTokenSource`](../../interruptiontokensource) .
 
 ```csharp
 public InterruptionTokenSource()

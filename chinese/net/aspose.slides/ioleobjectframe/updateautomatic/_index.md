@@ -1,14 +1,14 @@
 ---
 title: UpdateAutomatic
 second_title: Aspose.Slides for .NET API 参考
-description: 确定在打开或打印演示文稿时是否自动更新链接的嵌入对象 读/写Boolean
+description: 确定在打开或打印演示文稿时是否自动更新链接的嵌入对象 读/写Boolean.
 type: docs
 weight: 130
 url: /zh/net/aspose.slides/ioleobjectframe/updateautomatic/
 ---
 ## IOleObjectFrame.UpdateAutomatic property
 
-确定在打开或打印演示文稿时是否自动更新链接的嵌入对象。 读/写Boolean。
+确定在打开或打印演示文稿时是否自动更新链接的嵌入对象。 读/写Boolean.
 
 ```csharp
 public bool UpdateAutomatic { get; set; }

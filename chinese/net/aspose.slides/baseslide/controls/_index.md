@@ -1,14 +1,14 @@
 ---
 title: Controls
 second_title: Aspose.Slides for .NET API 参考
-description: 返回幻灯片上 ActiveX 控件的集合 只读IControlCollectionaspose.slides/icontrolcollection
+description: 返回幻灯片上 ActiveX 控件的集合 只读IControlCollectionaspose.slides/icontrolcollection.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides/baseslide/controls/
 ---
 ## BaseSlide.Controls property
 
-返回幻灯片上 ActiveX 控件的集合。 只读[`IControlCollection`](../../icontrolcollection)。
+返回幻灯片上 ActiveX 控件的集合。 只读[`IControlCollection`](../../icontrolcollection).
 
 ```csharp
 public IControlCollection Controls { get; }

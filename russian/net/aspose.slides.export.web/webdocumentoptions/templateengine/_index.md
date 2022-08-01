@@ -1,14 +1,14 @@
 ---
 title: TemplateEngine
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или устанавливает механизм шаблонов. Чтение/записьITemplateEngineaspose.slides.export.web/itemplateengine.
+description: Возвращает или устанавливает механизм шаблонов. Чтение/записьITemplateEngineaspose.slides.export.web/itemplateengine .
 type: docs
 weight: 60
 url: /ru/net/aspose.slides.export.web/webdocumentoptions/templateengine/
 ---
 ## WebDocumentOptions.TemplateEngine property
 
-Возвращает или устанавливает механизм шаблонов. Чтение/запись[`ITemplateEngine`](../../itemplateengine).
+Возвращает или устанавливает механизм шаблонов. Чтение/запись[`ITemplateEngine`](../../itemplateengine) .
 
 ```csharp
 public ITemplateEngine TemplateEngine { get; set; }

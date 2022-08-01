@@ -18,8 +18,8 @@ public interface IMorphTransition : ITransitionValueBase
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/imorphtransition/asitransitionvaluebase) { get; } | 允许获取基本 ITransitionValueBase 接口。 只读[`ITransitionValueBase`](../itransitionvaluebase)。 |
-| [MorphType](../../aspose.slides.slideshow/imorphtransition/morphtype) { get; set; } | 变形过渡的类型。 读/写[`TransitionMorphType`](../transitionmorphtype)。 |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/imorphtransition/asitransitionvaluebase) { get; } | 允许获取基本 ITransitionValueBase 接口。 只读[`ITransitionValueBase`](../itransitionvaluebase). |
+| [MorphType](../../aspose.slides.slideshow/imorphtransition/morphtype) { get; set; } | 变形转换的类型。 读/写[`TransitionMorphType`](../transitionmorphtype). |
 
 ### 也可以看看
 

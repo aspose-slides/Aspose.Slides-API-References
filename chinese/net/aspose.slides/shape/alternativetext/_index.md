@@ -1,14 +1,14 @@
 ---
 title: AlternativeText
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置与形状关联的替代文本 读/写String
+description: 返回或设置与形状关联的替代文本 读/写String.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides/shape/alternativetext/
 ---
 ## Shape.AlternativeText property
 
-返回或设置与形状关联的替代文本。 读/写String。
+返回或设置与形状关联的替代文本。 读/写String.
 
 ```csharp
 public string AlternativeText { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: CustomXmlPart
 second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет пользовательскую часть xml.
+description: Представляет пользовательскую XML-часть.
 type: docs
 weight: 2590
 url: /ru/net/aspose.slides/customxmlpart/
 ---
 ## CustomXmlPart class
 
-Представляет пользовательскую часть xml.
+Представляет пользовательскую XML-часть.
 
 ```csharp
 public class CustomXmlPart : ICustomXmlPart
@@ -18,10 +18,10 @@ public class CustomXmlPart : ICustomXmlPart
 
 | Имя | Описание |
 | --- | --- |
-| [ItemId](../../aspose.slides/customxmlpart/itemid) { get; set; } | Задает глобальный уникальный идентификатор (GUID), однозначно идентифицирующий одну пользовательскую часть XML в документе Office Open XML. Только чтениеGuid. |
-| [NamespaceSchemas](../../aspose.slides/customxmlpart/namespaceschemas) { get; } | Возвращает XML-схемы коллекции, связанные с настраиваемой частью XML. Только для чтенияString[]. |
-| [XmlAsString](../../aspose.slides/customxmlpart/xmlasstring) { get; set; } | Возвращает или задает данные xml в виде строки UTF-8. Чтение/записьString.  значение равно` null` .Значение пусто или xml-данные недействительны. |
-| [XmlData](../../aspose.slides/customxmlpart/xmldata) { get; set; } | Возвращает или устанавливает данные xml. Чтение/записьByte[].  значение равно` null` .Значение пусто или xml-данные недействительны. |
+| [ItemId](../../aspose.slides/customxmlpart/itemid) { get; set; } | Задает глобальный уникальный идентификатор (GUID), однозначно идентифицирующий одну пользовательскую часть XML в документе Office Open XML. Только для чтенияGuid . |
+| [NamespaceSchemas](../../aspose.slides/customxmlpart/namespaceschemas) { get; } | Возвращает XML-схемы коллекции, связанные с настраиваемой частью XML. Только для чтенияString []. |
+| [XmlAsString](../../aspose.slides/customxmlpart/xmlasstring) { get; set; } | Возвращает или задает данные xml в виде строки UTF-8. Чтение/записьString . значение`нулевой`.значение пусто или данные xml недействительны. |
+| [XmlData](../../aspose.slides/customxmlpart/xmldata) { get; set; } | Возвращает или устанавливает данные xml. Чтение/записьByte []. значение`нулевой`.значение пусто или данные xml недействительны. |
 
 ## Методы
 

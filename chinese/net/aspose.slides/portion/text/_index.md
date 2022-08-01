@@ -1,14 +1,14 @@
 ---
 title: Text
 second_title: Aspose.Slides for .NET API 参考
-description: 获取或设置部分的纯文本 读/写String
+description: 获取或设置部分的纯文本 读/写String.
 type: docs
 weight: 40
 url: /zh/net/aspose.slides/portion/text/
 ---
 ## Portion.Text property
 
-获取或设置部分的纯文本。 读/写String。
+获取或设置部分的纯文本。 读/写String.
 
 ```csharp
 public string Text { get; set; }
@@ -16,7 +16,7 @@ public string Text { get; set; }
 
 ### 适当的价值
 
-文本。
+文本.
 
 ### 也可以看看
 

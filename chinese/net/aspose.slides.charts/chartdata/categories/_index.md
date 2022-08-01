@@ -1,14 +1,14 @@
 ---
 title: Categories
 second_title: Aspose.Slides for .NET API 参考
-description: 获取主要类别或主要和次要类别 ifUseSecondaryCategoriesaspose.slides.charts/chartdata/usesecondarycategories属性为假 只读IChartCategoryCollectionaspose.slides.charts/ichartcategorycollection
+description: 获取主要类别或主要和次要类别 ifUseSecondaryCategoriesaspose.slides.charts/chartdata/usesecondarycategories属性为假. 只读IChartCategoryCollectionaspose.slides.charts/ichartcategorycollection.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides.charts/chartdata/categories/
 ---
 ## ChartData.Categories property
 
-获取主要类别（或主要和次要类别 if[`UseSecondaryCategories`](../usesecondarycategories)属性为假）。 只读[`IChartCategoryCollection`](../../ichartcategorycollection)。
+获取主要类别（或主要和次要类别 if[`UseSecondaryCategories`](../usesecondarycategories)属性为假）. 只读[`IChartCategoryCollection`](../../ichartcategorycollection).
 
 ```csharp
 public IChartCategoryCollection Categories { get; }
@@ -16,7 +16,7 @@ public IChartCategoryCollection Categories { get; }
 
 ### 评论
 
-如果[`UseSecondaryCategories`](../usesecondarycategories)属性为 false 则[`SecondaryCategories`](../secondarycategories) 属性返回 null 并且此Categories属性用于主要 和次要系列。 如果[`UseSecondaryCategories`](../usesecondarycategories)属性为真，则SecondaryCategories中的数据 属性用于次要系列，并且此`Categories`属性用于主要数据 系列。
+如果[`UseSecondaryCategories`](../usesecondarycategories)那么属性为假[`SecondaryCategories`](../secondarycategories) 属性返回 null 和数据在这个`Categories`属性用于主要 和次要系列。 如果[`UseSecondaryCategories`](../usesecondarycategories)属性为真，则数据在[`SecondaryCategories`](../secondarycategories) 属性用于此中的次系列和数据`Categories`属性用于主要系列的 。
 
 ### 例子
 
@@ -25,11 +25,11 @@ public IChartCategoryCollection Categories { get; }
 ```csharp
 if (series.PlotOnSecondAxis && series.Chart.ChartData.UseSecondaryCategories)
 {
-     // 相关类别为 series.Chart.ChartData.SecondaryCategories
+    // 相关类别为 series.Chart.ChartData.SecondaryCategories
 }
 else
 {
-     // 相关类别为 series.Chart.ChartData.Categories
+    // 相关类别为 series.Chart.ChartData.Categories
 }
 ```
 

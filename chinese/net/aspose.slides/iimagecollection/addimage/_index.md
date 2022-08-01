@@ -1,14 +1,14 @@
 ---
 title: AddImage
 second_title: Aspose.Slides for .NET API 参考
-description: 将图像添加到演示文稿
+description: 将图像添加到演示文稿中
 type: docs
 weight: 20
 url: /zh/net/aspose.slides/iimagecollection/addimage/
 ---
 ## AddImage(Image) {#addimage_3}
 
-将图像添加到演示文稿。
+将图像添加到演示文稿中。
 
 ```csharp
 public IPPImage AddImage(Image image)
@@ -91,7 +91,7 @@ public IPPImage AddImage(Stream stream)
 
 ## AddImage(Stream, LoadingStreamBehavior) {#addimage_6}
 
-从流中创建图像并将其添加到演示文稿。
+从流中创建图像并将其添加到演示文稿中。
 
 ```csharp
 public IPPImage AddImage(Stream stream, LoadingStreamBehavior loadingStreamBehavior)
@@ -104,7 +104,7 @@ public IPPImage AddImage(Stream stream, LoadingStreamBehavior loadingStreamBehav
 
 ### 返回值
 
-添加[`IPPImage`](../../ippimage)。
+添加[`IPPImage`](../../ippimage).
 
 ### 也可以看看
 
@@ -126,7 +126,7 @@ public IPPImage AddImage(byte[] buffer)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| buffer | Byte[] | 缓冲区。 |
+| buffer | Byte[] | 缓冲。 |
 
 ### 返回值
 
@@ -143,7 +143,7 @@ public IPPImage AddImage(byte[] buffer)
 
 ## AddImage(IPPImage) {#addimage}
 
-添加来自另一个演示文稿的图像的副本。
+添加来自另一个演示文稿的图像副本。
 
 ```csharp
 public IPPImage AddImage(IPPImage imageSource)

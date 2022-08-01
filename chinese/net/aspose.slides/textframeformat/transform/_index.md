@@ -1,14 +1,14 @@
 ---
 title: Transform
 second_title: Aspose.Slides for .NET API 参考
-description: 获取或设置文本环绕形状 读/写TextShapeTypeaspose.slides/textshapetype
+description: 获取或设置文本环绕形状 读/写TextShapeTypeaspose.slides/textshapetype.
 type: docs
 weight: 150
 url: /zh/net/aspose.slides/textframeformat/transform/
 ---
 ## TextFrameFormat.Transform property
 
-获取或设置文本环绕形状。 读/写[`TextShapeType`](../../textshapetype)。
+获取或设置文本环绕形状。 读/写[`TextShapeType`](../../textshapetype).
 
 ```csharp
 public TextShapeType Transform { get; set; }

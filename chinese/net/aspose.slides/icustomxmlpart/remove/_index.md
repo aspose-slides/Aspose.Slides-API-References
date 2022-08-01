@@ -18,7 +18,7 @@ public void Remove()
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| [PptxEditException](../../pptxeditexception) | 如果已删除 xml 部分则抛出。 |
+| [PptxEditException](../../pptxeditexception) | 如果 xml 部分已被删除，则抛出。 |
 
 ### 也可以看看
 

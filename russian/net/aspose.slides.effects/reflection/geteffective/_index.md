@@ -16,7 +16,7 @@ public IReflectionEffectiveData GetEffective()
 
 ### Возвращаемое значение
 
-A[`IReflectionEffectiveData`](../../ireflectioneffectivedata).
+А[`IReflectionEffectiveData`](../../ireflectioneffectivedata).
 
 ### Смотрите также
 

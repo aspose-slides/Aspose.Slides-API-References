@@ -1,14 +1,14 @@
 ---
 title: TextAnchorType
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или задает тип привязки к тексту. Чтение/записьTextAnchorTypeaspose.slides/textanchortype.
+description: Возвращает или задает тип привязки к тексту. Чтение/записьTextAnchorTypeaspose.slides/textanchortype .
 type: docs
 weight: 200
 url: /ru/net/aspose.slides/icell/textanchortype/
 ---
 ## ICell.TextAnchorType property
 
-Возвращает или задает тип привязки к тексту. Чтение/запись[`TextAnchorType`](../../textanchortype).
+Возвращает или задает тип привязки к тексту. Чтение/запись[`TextAnchorType`](../../textanchortype) .
 
 ```csharp
 public TextAnchorType TextAnchorType { get; set; }

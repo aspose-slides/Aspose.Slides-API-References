@@ -1,14 +1,14 @@
 ---
 title: AdvanceOnClick
 second_title: Aspose.Slides for .NET API 参考
-description: 指定鼠标点击是否会推进幻灯片如果此属性未指定 则假定值为 true 读写Boolean
+description: 指定鼠标单击是否会推进幻灯片如果未指定此属性 则假定值为真 读写Boolean.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides/islideshowtransition/advanceonclick/
 ---
 ## ISlideShowTransition.AdvanceOnClick property
 
-指定鼠标点击是否会推进幻灯片。如果此属性未指定 ，则假定值为 true。 读写Boolean。
+指定鼠标单击是否会推进幻灯片。如果未指定此属性 ，则假定值为真。 读写Boolean.
 
 ```csharp
 public bool AdvanceOnClick { get; set; }

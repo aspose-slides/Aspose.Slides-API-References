@@ -1,14 +1,14 @@
 ---
 title: Decelerate
 second_title: Aspose.Slides for .NET API 参考
-description: 描述减速行为效果的持续时间百分比 读/写Single
+description: 描述减速行为效果的持续时间百分比 读/写Single.
 type: docs
 weight: 30
 url: /zh/net/aspose.slides.animation/itiming/decelerate/
 ---
 ## ITiming.Decelerate property
 
-描述减速行为效果的持续时间百分比。 读/写Single。
+描述减速行为效果的持续时间百分比。 读/写Single.
 
 ```csharp
 public float Decelerate { get; set; }

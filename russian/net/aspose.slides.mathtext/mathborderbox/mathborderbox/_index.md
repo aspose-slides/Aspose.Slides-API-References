@@ -16,7 +16,7 @@ public MathBorderBox(IMathElement element)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| element | IMathElement | Базовый элемент для к которому применяется рамка. Может быть нулевым. |
+| element | IMathElement | Базовый элемент, к которому применяется рамка. Может быть нулевым. |
 
 ### Примеры
 
@@ -48,15 +48,15 @@ public MathBorderBox(IMathElement element, bool hideTop, bool hideBottom, bool h
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| element | IMathElement | Базовый элемент, к которому примыкает граница применяется рамка |
+| element | IMathElement | Базовый элемент, к которому применяется рамка |
 | hideTop | Boolean | Скрыть верхний край |
 | hideBottom | Boolean | Скрыть нижний край |
 | hideLeft | Boolean | Скрыть левый край |
 | hideRight | Boolean | Скрыть правый край |
-| ЗачеркиваниеГоризонтальное | Boolean | Зачеркивание Горизонтальное |
-| ЗачеркиваниеВертикальное | Boolean | Зачеркивание Вертикальное |
-| ЗачеркиваниеВнизуСлеваВверхПраво | Boolean | Зачеркивание Снизу-Слева до Сверху-справа |
-| зачеркиваниеTopLeftToBottomRight | Boolean | Зачеркивание слева сверху вниз справа |
+| strikethroughHorizontal | Boolean | Зачеркнутый по горизонтали |
+| strikethroughVertical | Boolean | Зачеркнутый Вертикальный |
+| strikethroughBottomLeftToTopRight | Boolean | Зачеркнуть снизу слева вверх справа |
+| strikethroughTopLeftToBottomRight | Boolean | Перечеркнутый верхний левый нижний правый |
 
 ### Примеры
 

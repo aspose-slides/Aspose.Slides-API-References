@@ -1,14 +1,14 @@
 ---
 title: PptR
 second_title: Aspose.Slides for .NET API 参考
-description: 表示 ppt_r 属性
+description: 表示ppt_r属性
 type: docs
 weight: 530
 url: /zh/net/aspose.slides.animation/behaviorproperty/pptr/
 ---
 ## BehaviorProperty.PptR property
 
-表示 'ppt_r' 属性
+表示“ppt_r”属性
 
 ```csharp
 public static BehaviorProperty PptR { get; }

@@ -1,14 +1,14 @@
 ---
 title: GetEffective
 second_title: Aspose.Slides for .NET API 参考
-description: 获取有效的表格行格式化属性并应用了继承和表格样式
+description: 获取有效的表格行格式化属性并应用继承和表格样式
 type: docs
 weight: 10
 url: /zh/net/aspose.slides/rowformat/geteffective/
 ---
 ## RowFormat.GetEffective method
 
-获取有效的表格行格式化属性，并应用了继承和表格样式。
+获取有效的表格行格式化属性，并应用继承和表格样式。
 
 ```csharp
 public IRowFormatEffectiveData GetEffective()
@@ -16,11 +16,11 @@ public IRowFormatEffectiveData GetEffective()
 
 ### 返回值
 
-A[`IRowFormatEffectiveData`](../../irowformateffectivedata)。
+一个[`IRowFormatEffectiveData`](../../irowformateffectivedata).
 
 ### 例子
 
-此示例演示了为不同的表逻辑部分获取有效的填充格式。 请注意，单元格格式的优先级始终高于行格式，行 - 高于列，列 - 高于整个表格。 所以最后 CellFormatEffectiveData 属性总是用来绘制表格。以下代码只是 API 的一个示例。
+这个例子演示了为不同的表格逻辑部分获取有效的填充格式。 请注意，单元格格式总是比行格式具有更高的优先级，行 - 高于列，列 - 高于整个表格。 所以最后 CellFormatEffectiveData 属性总是用于绘制桌子。以下代码只是 API 的一个示例。
 
 ```csharp
 [C#]

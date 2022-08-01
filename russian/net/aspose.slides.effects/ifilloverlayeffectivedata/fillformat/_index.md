@@ -1,14 +1,14 @@
 ---
 title: FillFormat
 second_title: Справочник по API Aspose.Slides для .NET
-description: Формат заполнения. Только для чтенияIFillFormatEffectiveDataaspose.slides/ifillformateffectivedata.
+description: Формат заполнения. Только для чтенияIFillFormatEffectiveDataaspose.slides/ifillformateffectivedata .
 type: docs
 weight: 30
 url: /ru/net/aspose.slides.effects/ifilloverlayeffectivedata/fillformat/
 ---
 ## IFillOverlayEffectiveData.FillFormat property
 
-Формат заполнения. Только для чтения[`IFillFormatEffectiveData`](../../../aspose.slides/ifillformateffectivedata).
+Формат заполнения. Только для чтения[`IFillFormatEffectiveData`](../../../aspose.slides/ifillformateffectivedata) .
 
 ```csharp
 public IFillFormatEffectiveData FillFormat { get; }

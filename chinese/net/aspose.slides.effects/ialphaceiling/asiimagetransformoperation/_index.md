@@ -1,14 +1,14 @@
 ---
 title: AsIImageTransformOperation
 second_title: Aspose.Slides for .NET API 参考
-description: 允许获取基本 IImageTransformOperationEx 接口 只读IImageTransformOperationaspose.slides.effects/iimagetransformoperation
+description: 允许获取基本 IImageTransformOperationEx 接口 只读IImageTransformOperationaspose.slides.effects/iimagetransformoperation.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides.effects/ialphaceiling/asiimagetransformoperation/
 ---
 ## IAlphaCeiling.AsIImageTransformOperation property
 
-允许获取基本 IImageTransformOperationEx 接口。 只读[`IImageTransformOperation`](../../iimagetransformoperation)。
+允许获取基本 IImageTransformOperationEx 接口。 只读[`IImageTransformOperation`](../../iimagetransformoperation).
 
 ```csharp
 public IImageTransformOperation AsIImageTransformOperation { get; }

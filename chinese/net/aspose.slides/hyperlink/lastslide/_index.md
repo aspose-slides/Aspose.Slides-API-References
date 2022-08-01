@@ -1,14 +1,14 @@
 ---
 title: LastSlide
 second_title: Aspose.Slides for .NET API 参考
-description: 返回演示文稿最后一张幻灯片的超链接 只读Hyperlinkaspose.slides/hyperlink
+description: 返回演示文稿最后一张幻灯片的超链接 只读Hyperlinkaspose.slides/hyperlink.
 type: docs
 weight: 40
 url: /zh/net/aspose.slides/hyperlink/lastslide/
 ---
 ## Hyperlink.LastSlide property
 
-返回演示文稿最后一张幻灯片的超链接。 只读[`Hyperlink`](../../hyperlink)。
+返回演示文稿最后一张幻灯片的超链接。 只读[`Hyperlink`](../../hyperlink).
 
 ```csharp
 public static Hyperlink LastSlide { get; }

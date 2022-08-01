@@ -1,14 +1,14 @@
 ---
 title: ILayoutSlideHeaderFooterManager
 second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет менеджер который содержит поведение нижнего колонтитула слайда макета дату-время заполнители номеров страниц и все дочерние заполнители. Дочерние заполнители означают что заполнители содержатся на зависимых слайдах. Использование слайдов зависит от макета слайда.
+description: Представляет менеджер который определяет поведение нижнего колонтитула слайда макета даты-времени заполнителей номеров страниц и всех дочерних заполнителей. Дочерние заполнители означают что заполнители содержатся на зависимых слайдах.
 type: docs
 weight: 5680
 url: /ru/net/aspose.slides/ilayoutslideheaderfootermanager/
 ---
 ## ILayoutSlideHeaderFooterManager interface
 
-Представляет менеджер, который содержит поведение нижнего колонтитула слайда макета, дату-время, заполнители номеров страниц и все дочерние заполнители. Дочерние заполнители означают, что заполнители содержатся на зависимых слайдах. Использование слайдов зависит от макета слайда.
+Представляет менеджер, который определяет поведение нижнего колонтитула слайда макета, даты-времени, заполнителей номеров страниц и всех дочерних заполнителей. Дочерние заполнители означают, что заполнители содержатся на зависимых слайдах.
 
 ```csharp
 public interface ILayoutSlideHeaderFooterManager : IBaseSlideHeaderFooterManager
@@ -24,11 +24,11 @@ public interface ILayoutSlideHeaderFooterManager : IBaseSlideHeaderFooterManager
 
 | Имя | Описание |
 | --- | --- |
-| [SetDateTimeAndChildDateTimesText](../../aspose.slides/ilayoutslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | Устанавливает текст для заполнителя даты и времени макета слайда и всех дочерних заполнителей даты и времени. Дочерние заполнители означают, что заполнители содержатся на зависимых слайдах. Использование слайдов зависит от макета слайда. |
-| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/ilayoutslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | Изменяет заполнитель даты и времени макета слайда и видимость всех дочерних заполнителей даты и времени. Дочерние заполнители означают, что заполнители содержатся на зависимых слайдах. Использование слайдов зависит от макета слайда. |
-| [SetFooterAndChildFootersText](../../aspose.slides/ilayoutslideheaderfootermanager/setfooterandchildfooterstext)(string) | Устанавливает текст в заполнитель нижнего колонтитула слайда макета и все дочерние заполнители нижнего колонтитула. Дочерние заполнители означают, что заполнители содержатся на зависимых слайдах. Использование слайдов зависит от макета слайда. |
+| [SetDateTimeAndChildDateTimesText](../../aspose.slides/ilayoutslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | Задает текст для заполнителя даты и времени слайда макета и всех дочерних заполнителей даты и времени. Дочерние заполнители означают, что заполнители содержатся на зависимых слайдах. Зависящие слайды используют и зависят от слайда макета. |
+| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/ilayoutslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | Изменяет заполнитель даты-времени слайда макета и видимость всех дочерних заполнителей даты-времени. Дочерние заполнители означают, что заполнители содержатся на зависимых слайдах. Зависящие слайды используют и зависят от слайда макета. |
+| [SetFooterAndChildFootersText](../../aspose.slides/ilayoutslideheaderfootermanager/setfooterandchildfooterstext)(string) | Задает текст для заполнителя нижнего колонтитула слайда макета и всех дочерних заполнителей нижнего колонтитула. Дочерние заполнители означают, что заполнители содержатся на зависимых слайдах. Зависящие слайды используют и зависят от слайда макета. |
 | [SetFooterAndChildFootersVisibility](../../aspose.slides/ilayoutslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | Изменяет заполнитель нижнего колонтитула слайда макета и видимость всех дочерних заполнителей нижнего колонтитула. Дочерние заполнители означают, что заполнители содержатся на зависимых слайдах. Зависящие слайды используют мастер-слайд и зависят от него. |
-| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/ilayoutslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | Изменяет заполнитель номеров страниц макета и видимость всех заполнителей номеров дочерних страниц. Дочерние заполнители означают, что заполнители содержатся на зависимых слайдах. Использование слайдов зависит от макета слайда. |
+| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/ilayoutslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | Изменяет заполнитель номера страницы слайда макета и видимость всех заполнителей номеров дочерних страниц. Дочерние заполнители означают, что заполнители содержатся на зависимых слайдах. Зависящие слайды используют и зависят от слайда макета. |
 
 ### Смотрите также
 

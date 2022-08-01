@@ -1,14 +1,14 @@
 ---
 title: IGradientStopCollection
 second_title: Aspose.Slides for .NET API 参考
-description: 表示渐变停止的集合
+description: 代表梯度停止的集合
 type: docs
 weight: 5500
 url: /zh/net/aspose.slides/igradientstopcollection/
 ---
 ## IGradientStopCollection interface
 
-表示渐变停止的集合。
+代表梯度停止的集合。
 
 ```csharp
 public interface IGradientStopCollection : IGenericCollection<IGradientStop>
@@ -18,20 +18,20 @@ public interface IGradientStopCollection : IGenericCollection<IGradientStop>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Item](../../aspose.slides/igradientstopcollection/item) { get; } | 返回按索引停止的渐变。 |
+| [Item](../../aspose.slides/igradientstopcollection/item) { get; } | 按索引返回梯度停止点。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Add](../../aspose.slides/igradientstopcollection/add#add_2)(float, Color) | 创建新的渐变色标并将其添加到集合的末尾。 |
-| [Add](../../aspose.slides/igradientstopcollection/add#add)(float, PresetColor) | 创建新的渐变色标并将其添加到集合的末尾。 |
-| [Add](../../aspose.slides/igradientstopcollection/add#add_1)(float, SchemeColor) | 创建新的渐变色标并将其添加到集合的末尾。 |
-| [Clear](../../aspose.slides/igradientstopcollection/clear)() | 从集合中删除所有渐变停止点。 |
+| [Add](../../aspose.slides/igradientstopcollection/add#add_2)(float, Color) | 创建新的渐变停止并将其添加到集合的末尾。 |
+| [Add](../../aspose.slides/igradientstopcollection/add#add)(float, PresetColor) | 创建新的渐变停止并将其添加到集合的末尾。 |
+| [Add](../../aspose.slides/igradientstopcollection/add#add_1)(float, SchemeColor) | 创建新的渐变停止并将其添加到集合的末尾。 |
+| [Clear](../../aspose.slides/igradientstopcollection/clear)() | 从集合中移除所有渐变色标。 |
 | [Insert](../../aspose.slides/igradientstopcollection/insert#insert_2)(int, float, Color) | 创建新的渐变色标并将其插入到集合的指定索引处。 |
 | [Insert](../../aspose.slides/igradientstopcollection/insert#insert)(int, float, PresetColor) | 创建新的渐变色标并将其插入到集合的指定索引处。 |
 | [Insert](../../aspose.slides/igradientstopcollection/insert#insert_1)(int, float, SchemeColor) | 创建新的渐变色标并将其插入到集合的指定索引处。 |
-| [RemoveAt](../../aspose.slides/igradientstopcollection/removeat)(int) | 删除指定索引处的渐变停止。 |
+| [RemoveAt](../../aspose.slides/igradientstopcollection/removeat)(int) | 删除指定索引处的梯度停止点。 |
 
 ### 也可以看看
 

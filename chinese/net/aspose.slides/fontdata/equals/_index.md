@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: Aspose.Slides for .NET API 参考
-description: 确定两个 FontData 实例是否相等
+description: 判断两个 FontData 实例是否相等
 type: docs
 weight: 30
 url: /zh/net/aspose.slides/fontdata/equals/
 ---
 ## FontData.Equals method
 
-确定两个 FontData 实例是否相等。
+判断两个 FontData 实例是否相等。
 
 ```csharp
 public override bool Equals(object obj)
@@ -16,11 +16,11 @@ public override bool Equals(object obj)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| obj | Object | 要与当前 FontData 比较的 FontData。 |
+| obj | Object | 要与当前 FontData 进行比较的 FontData。 |
 
 ### 返回值
 
-**true** 如果指定的 FontData 等于当前 FontData；否则， **false** 。
+**真的**如果指定的 FontData 等于当前的 FontData；否则， **错误的**.
 
 ### 也可以看看
 

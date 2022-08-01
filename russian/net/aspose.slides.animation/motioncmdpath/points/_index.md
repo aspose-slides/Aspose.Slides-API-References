@@ -1,14 +1,14 @@
 ---
 title: Points
 second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет точки командования. Чтение/записьPointF.
+description: Определяет точки управления. Чтение/записьPointF .
 type: docs
 weight: 30
 url: /ru/net/aspose.slides.animation/motioncmdpath/points/
 ---
 ## MotionCmdPath.Points property
 
-Определяет точки командования. Чтение/записьPointF[].
+Определяет точки управления. Чтение/записьPointF [].
 
 ```csharp
 public PointF[] Points { get; set; }

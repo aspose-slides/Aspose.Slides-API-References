@@ -1,14 +1,14 @@
 ---
 title: Rectangle
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает координаты кадра. Только для чтенияRectangleF.
+description: Возвращает координаты кадра. Только для чтенияRectangleF .
 type: docs
 weight: 70
 url: /ru/net/aspose.slides/shapeframe/rectangle/
 ---
 ## ShapeFrame.Rectangle property
 
-Возвращает координаты кадра. Только для чтенияRectangleF.
+Возвращает координаты кадра. Только для чтенияRectangleF .
 
 ```csharp
 public RectangleF Rectangle { get; }

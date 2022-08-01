@@ -24,16 +24,16 @@ public class FontSubstRuleCollection : IFontSubstRuleCollection
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Count](../../aspose.slides/fontsubstrulecollection/count) { get; } | 获取集合中实际包含的元素数量。 只读Int32。 |
-| [IsSynchronized](../../aspose.slides/fontsubstrulecollection/issynchronized) { get; } | 返回一个值，指示对集合的访问是否同步（线程安全）。 只读Boolean。 |
+| [Count](../../aspose.slides/fontsubstrulecollection/count) { get; } | 获取集合中实际包含的元素数。 只读Int32. |
+| [IsSynchronized](../../aspose.slides/fontsubstrulecollection/issynchronized) { get; } | 返回一个值，指示对集合的访问是否同步（线程安全）。 只读Boolean. |
 | [Item](../../aspose.slides/fontsubstrulecollection/item) { get; } | 获取指定索引处的元素。 |
-| [SyncRoot](../../aspose.slides/fontsubstrulecollection/syncroot) { get; } | 返回同步根。 只读Object。 |
+| [SyncRoot](../../aspose.slides/fontsubstrulecollection/syncroot) { get; } | 返回同步根。 只读Object. |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Add](../../aspose.slides/fontsubstrulecollection/add)(IFontSubstRule) | 将新的字体替换规则添加到集合 |
+| [Add](../../aspose.slides/fontsubstrulecollection/add)(IFontSubstRule) | 将新的字体替换规则添加到集合中 |
 | [CopyTo](../../aspose.slides/fontsubstrulecollection/copyto)(Array, int) | 将集合中的所有元素复制到指定的数组。 |
 | [GetEnumerator](../../aspose.slides/fontsubstrulecollection/getenumerator)() | 返回一个遍历集合的枚举器。 |
 | [Remove](../../aspose.slides/fontsubstrulecollection/remove)(IFontSubstRule) | 从集合中删除特定对象的第一个匹配项。 |

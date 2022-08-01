@@ -1,14 +1,14 @@
 ---
 title: Luminance
 second_title: Aspose.Slides for .NET API 参考
-description: 返回亮度百分比 只读Single
+description: 返回亮度百分比 只读Single.
 type: docs
 weight: 30
 url: /zh/net/aspose.slides.effects/ihsleffectivedata/luminance/
 ---
 ## IHSLEffectiveData.Luminance property
 
-返回亮度百分比。 只读Single。
+返回亮度百分比。 只读Single.
 
 ```csharp
 public float Luminance { get; }

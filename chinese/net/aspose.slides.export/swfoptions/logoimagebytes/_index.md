@@ -1,14 +1,14 @@
 ---
 title: LogoImageBytes
 second_title: Aspose.Slides for .NET API 参考
-description: 将在查看器右上角显示为徽标的图像 图片应为 32x64 像素的 PNG 图片否则徽标可能无法正常显示
+description: 将在查看器右上角显示为徽标的图像 图像应为 32x64 像素的 PNG 图像否则徽标可能无法正常显示
 type: docs
 weight: 50
 url: /zh/net/aspose.slides.export/swfoptions/logoimagebytes/
 ---
 ## SwfOptions.LogoImageBytes property
 
-将在查看器右上角显示为徽标的图像。 图片应为 32x64 像素的 PNG 图片，否则徽标可能无法正常显示。
+将在查看器右上角显示为徽标的图像。 图像应为 32x64 像素的 PNG 图像，否则徽标可能无法正常显示。
 
 ```csharp
 public byte[] LogoImageBytes { get; set; }

@@ -25,8 +25,8 @@ public class FontFallBackRule : IFontFallBackRule
 
 | Имя | Описание |
 | --- | --- |
-| [Count](../../aspose.slides/fontfallbackrule/count) { get; } | Получает количество шрифтов, фактически определенных для диапазона. Только для чтенияInt32. |
-| [Item](../../aspose.slides/fontfallbackrule/item) { get; } | Получает имя шрифта по указанному индексу. Только для чтения[`IFontFallBackRule`](../ifontfallbackrule). |
+| [Count](../../aspose.slides/fontfallbackrule/count) { get; } | Получает количество шрифтов, фактически определенных для диапазона. Только для чтенияInt32 . |
+| [Item](../../aspose.slides/fontfallbackrule/item) { get; } | Получает имя шрифта по указанному индексу. Только для чтения[`IFontFallBackRule`](../ifontfallbackrule) . |
 | [RangeEndIndex](../../aspose.slides/fontfallbackrule/rangeendindex) { get; set; } | Получить последний индекс непрерывного диапазона юникода. |
 | [RangeStartIndex](../../aspose.slides/fontfallbackrule/rangestartindex) { get; set; } | Получить первый индекс непрерывного диапазона юникода. |
 
@@ -34,7 +34,7 @@ public class FontFallBackRule : IFontFallBackRule
 
 | Имя | Описание |
 | --- | --- |
-| [AddFallBackFonts](../../aspose.slides/fontfallbackrule/addfallbackfonts#addfallbackfonts)(string) | Добавляет новый шрифт в список шрифтов FallBack. |
+| [AddFallBackFonts](../../aspose.slides/fontfallbackrule/addfallbackfonts#addfallbackfonts)(string) | Добавляет новый шрифт(ы) в список шрифтов FallBack. |
 | [AddFallBackFonts](../../aspose.slides/fontfallbackrule/addfallbackfonts#addfallbackfonts_1)(string[]) | Добавляет новый шрифт в список шрифтов FallBack. |
 | [Clear](../../aspose.slides/fontfallbackrule/clear)() | Удаляет все шрифты из списка. |
 | [IndexOf](../../aspose.slides/fontfallbackrule/indexof)(string) | Возвращает индекс указанного правила в коллекции. |

@@ -1,14 +1,14 @@
 ---
 title: StyleColor
 second_title: Aspose.Slides for .NET API 参考
-description: 表示style.color属性
+description: 代表 style.color 属性
 type: docs
 weight: 1050
 url: /zh/net/aspose.slides.animation/behaviorproperty/stylecolor/
 ---
 ## BehaviorProperty.StyleColor property
 
-表示'style.color'属性
+代表 'style.color' 属性
 
 ```csharp
 public static BehaviorProperty StyleColor { get; }

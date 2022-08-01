@@ -18,14 +18,14 @@ public abstract class BaseOverrideThemeManager : BaseThemeManager, IOverrideThem
 
 | 姓名 | 描述 |
 | --- | --- |
-| [IsOverrideThemeEnabled](../../aspose.slides.theme/baseoverridethememanager/isoverridethemeenabled) { get; } | 确定 OverrideTheme 是否覆盖继承的有效主题。 要启用 OverrideTheme 进行覆盖，请使用 OverrideTheme.Init*() 方法。 要禁用 OverrideTheme 覆盖使用 OverrideTheme.Clear() 方法。 只读Boolean。 |
-| [OverrideTheme](../../aspose.slides.theme/baseoverridethememanager/overridetheme) { get; set; } | 返回覆盖主题对象。 读/写[`IOverrideTheme`](../ioverridetheme)。 |
+| [IsOverrideThemeEnabled](../../aspose.slides.theme/baseoverridethememanager/isoverridethemeenabled) { get; } | 确定 OverrideTheme 是否覆盖继承的有效主题。 启用 OverrideTheme 进行覆盖使用 OverrideTheme.Init*() 方法。 禁用 OverrideTheme 覆盖使用 OverrideTheme.Clear() 方法。 只读Boolean. |
+| [OverrideTheme](../../aspose.slides.theme/baseoverridethememanager/overridetheme) { get; set; } | 返回覆盖主题对象。 读/写[`IOverrideTheme`](../ioverridetheme). |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ApplyColorScheme](../../aspose.slides.theme/baseoverridethememanager/applycolorscheme)(IExtraColorScheme) | 将额外的配色方案应用于幻灯片。 |
+| [ApplyColorScheme](../../aspose.slides.theme/baseoverridethememanager/applycolorscheme)(IExtraColorScheme) | 对幻灯片应用额外的配色方案。 |
 | [CreateThemeEffective](../../aspose.slides.theme/baseoverridethememanager/createthemeeffective)() | 返回主题对象。 |
 
 ### 也可以看看

@@ -1,14 +1,14 @@
 ---
 title: Explosion
 second_title: Aspose.Slides for .NET API 参考
-description: 一个开放的饼图切片到饼图中心的距离以饼图直径的百分比表示 读/写Int32
+description: 一个开放的饼图与饼图中心的距离表示为饼图直径的百分比 读/写Int32.
 type: docs
 weight: 90
 url: /zh/net/aspose.slides.charts/ichartseries/explosion/
 ---
 ## IChartSeries.Explosion property
 
-一个开放的饼图切片到饼图中心的距离以饼图直径的百分比表示。 读/写Int32。
+一个开放的饼图与饼图中心的距离表示为饼图直径的百分比。 读/写Int32.
 
 ```csharp
 public int Explosion { get; set; }

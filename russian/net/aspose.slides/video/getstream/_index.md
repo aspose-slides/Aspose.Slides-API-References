@@ -1,14 +1,14 @@
 ---
 title: GetStream
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает поток Stream для чтения. Используйте using или закройте поток после использования.
+description: Возвращает поток для чтения. Используйте using или закройте поток после использования.
 type: docs
 weight: 30
 url: /ru/net/aspose.slides/video/getstream/
 ---
 ## Video.GetStream method
 
-Возвращает поток Stream для чтения. Используйте 'using' или закройте поток после использования.
+Возвращает поток для чтения. Используйте 'using' или закройте поток после использования.
 
 ```csharp
 public Stream GetStream()
@@ -16,7 +16,7 @@ public Stream GetStream()
 
 ### Возвращаемое значение
 
-Поток для чтения.
+Стрим для чтения.
 
 ### Смотрите также
 

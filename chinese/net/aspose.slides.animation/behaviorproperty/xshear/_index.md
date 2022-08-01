@@ -8,7 +8,7 @@ url: /zh/net/aspose.slides.animation/behaviorproperty/xshear/
 ---
 ## BehaviorProperty.XShear property
 
-表示'xshear'属性
+表示“xshear”属性
 
 ```csharp
 public static BehaviorProperty XShear { get; }

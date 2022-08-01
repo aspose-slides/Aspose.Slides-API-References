@@ -16,7 +16,7 @@ public DigitalSignature(X509Certificate2 certificate)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| certificate | X509Certificate2 | 用于签署演示文稿的证书。 |
+| certificate | X509Certificate2 | 将用于签署演示文稿的证书。 |
 
 ### 也可以看看
 
@@ -37,7 +37,7 @@ public DigitalSignature(string filePath, string password)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | filePath | String | 带有证书的文件的路径。 |
-| password | String | 访问证书需要密码。 |
+| password | String | 访问证书所需的密码。 |
 
 ### 也可以看看
 

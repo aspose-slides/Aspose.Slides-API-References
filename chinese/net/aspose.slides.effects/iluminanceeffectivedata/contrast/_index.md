@@ -1,14 +1,14 @@
 ---
 title: Contrast
 second_title: Aspose.Slides for .NET API 参考
-description: 对比度 只读Single
+description: 对比度 只读Single.
 type: docs
 weight: 30
 url: /zh/net/aspose.slides.effects/iluminanceeffectivedata/contrast/
 ---
 ## ILuminanceEffectiveData.Contrast property
 
-对比度。 只读Single。
+对比度。 只读Single.
 
 ```csharp
 public float Contrast { get; }

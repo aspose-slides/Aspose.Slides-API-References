@@ -8,7 +8,7 @@ url: /ru/net/aspose.slides.animation/behaviorproperty/styletexteffectoutline/
 ---
 ## BehaviorProperty.StyleTextEffectOutline property
 
-Представляет свойство 'style.textEffectOutline'
+Представляет свойство style.textEffectOutline
 
 ```csharp
 public static BehaviorProperty StyleTextEffectOutline { get; }

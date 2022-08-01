@@ -1,14 +1,14 @@
 ---
 title: SvgResponsiveLayout
 second_title: Aspose.Slides for .NET API 参考
-description: True 从 svg 容器中排除宽度和高度属性 - 这将使布局响应错误 - 否则 读/写Boolean
+description: True 从 svg 容器中排除宽度和高度属性 - 这将使布局响应假 - 否则 读/写Boolean.
 type: docs
 weight: 90
 url: /zh/net/aspose.slides.export/htmloptions/svgresponsivelayout/
 ---
 ## HtmlOptions.SvgResponsiveLayout property
 
-True 从 svg 容器中排除宽度和高度属性 - 这将使布局响应。错误 - 否则。 读/写Boolean。
+True 从 svg 容器中排除宽度和高度属性 - 这将使布局响应。假 - 否则。 读/写Boolean.
 
 ```csharp
 public bool SvgResponsiveLayout { get; set; }

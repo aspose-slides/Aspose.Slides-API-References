@@ -1,14 +1,14 @@
 ---
 title: SetSubSuperscriptOnTheLeft
 second_title: Справочник по API Aspose.Slides для .NET
-description: Создает нижний и верхний индексы слева
+description: Создает нижний и верхний индекс слева
 type: docs
 weight: 140
 url: /ru/net/aspose.slides.mathtext/mathelementbase/setsubsuperscriptontheleft/
 ---
 ## SetSubSuperscriptOnTheLeft(IMathElement, IMathElement) {#setsubsuperscriptontheleft}
 
-Создает нижний и верхний индексы слева
+Создает нижний и верхний индекс слева
 
 ```csharp
 public IMathLeftSubSuperscriptElement SetSubSuperscriptOnTheLeft(IMathElement subscript, 
@@ -18,7 +18,7 @@ public IMathLeftSubSuperscriptElement SetSubSuperscriptOnTheLeft(IMathElement su
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | subscript | IMathElement | Нижний индекс (нижний индекс слева) |
-| верхнийиндекс | IMathElement | Верхний индекс (верхний индекс слева) |
+| superscript | IMathElement | Верхний индекс (верхний индекс слева) |
 
 ### Возвращаемое значение
 
@@ -48,7 +48,7 @@ IMathLeftSubSuperscriptElement leftSubsuperscript = baseElement.SetSubSuperscrip
 
 ## SetSubSuperscriptOnTheLeft(string, string) {#setsubsuperscriptontheleft_1}
 
-Создает нижний и верхний индексы слева
+Создает нижний и верхний индекс слева
 
 ```csharp
 public IMathLeftSubSuperscriptElement SetSubSuperscriptOnTheLeft(string subscript, 
@@ -58,7 +58,7 @@ public IMathLeftSubSuperscriptElement SetSubSuperscriptOnTheLeft(string subscrip
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | subscript | String | Нижний индекс (нижний индекс слева) |
-| верхнийиндекс | String | Верхний индекс (верхний индекс слева) |
+| superscript | String | Верхний индекс (верхний индекс слева) |
 
 ### Возвращаемое значение
 

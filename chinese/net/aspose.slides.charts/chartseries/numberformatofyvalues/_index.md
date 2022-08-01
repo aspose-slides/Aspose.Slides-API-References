@@ -1,14 +1,14 @@
 ---
 title: NumberFormatOfYValues
 second_title: Aspose.Slides for .NET API 参考
-description: NumberFormatOfYValues 读/写String
+description: NumberFormatOfYValues. 读/写String.
 type: docs
 weight: 250
 url: /zh/net/aspose.slides.charts/chartseries/numberformatofyvalues/
 ---
 ## ChartSeries.NumberFormatOfYValues property
 
-NumberFormatOfYValues。 读/写String。
+NumberFormatOfYValues. 读/写String.
 
 ```csharp
 public string NumberFormatOfYValues { get; set; }

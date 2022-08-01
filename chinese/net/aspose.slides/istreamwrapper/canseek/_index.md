@@ -1,14 +1,14 @@
 ---
 title: CanSeek
 second_title: Aspose.Slides for .NET API 参考
-description: 获取当前流是否支持查找的值 只读Boolean
+description: 获取当前流是否支持搜索的值 只读Boolean.
 type: docs
 weight: 30
 url: /zh/net/aspose.slides/istreamwrapper/canseek/
 ---
 ## IStreamWrapper.CanSeek property
 
-获取当前流是否支持查找的值。 只读Boolean。
+获取当前流是否支持搜索的值。 只读Boolean.
 
 ```csharp
 public bool CanSeek { get; }

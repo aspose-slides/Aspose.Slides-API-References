@@ -1,14 +1,14 @@
 ---
 title: AsIChartComponent
 second_title: Aspose.Slides for .NET API 参考
-description: 返回 IChartComponent 接口 只读IChartComponentaspose.slides.charts/ichartcomponent
+description: 返回 IChartComponent 接口 只读IChartComponentaspose.slides.charts/ichartcomponent.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides.charts/ierrorbarsformat/asichartcomponent/
 ---
 ## IErrorBarsFormat.AsIChartComponent property
 
-返回 IChartComponent 接口。 只读[`IChartComponent`](../../ichartcomponent)。
+返回 IChartComponent 接口。 只读[`IChartComponent`](../../ichartcomponent).
 
 ```csharp
 public IChartComponent AsIChartComponent { get; }

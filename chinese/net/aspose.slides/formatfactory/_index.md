@@ -24,15 +24,15 @@ public class FormatFactory : IFormatFactory
 
 | 姓名 | 描述 |
 | --- | --- |
-| static [Instance](../../aspose.slides/formatfactory/instance) { get; } | 格式工厂静态实例。 只读[`FormatFactory`](../formatfactory)。 |
+| static [Instance](../../aspose.slides/formatfactory/instance) { get; } | 格式工厂静态实例。 只读[`FormatFactory`](../formatfactory). |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [CreateParagraphFormat](../../aspose.slides/formatfactory/createparagraphformat)() | 创建新的[`IParagraphFormat`](../iparagraphformat)。 |
-| [CreatePortionFormat](../../aspose.slides/formatfactory/createportionformat)() | 创建新的[`IPortionFormat`](../iportionformat)。 |
-| [CreateTextFrameFormat](../../aspose.slides/formatfactory/createtextframeformat)() | 创建新的[`ITextFrameFormat`](../itextframeformat)。 |
+| [CreateParagraphFormat](../../aspose.slides/formatfactory/createparagraphformat)() | 创建新的[`IParagraphFormat`](../iparagraphformat). |
+| [CreatePortionFormat](../../aspose.slides/formatfactory/createportionformat)() | 创建新的[`IPortionFormat`](../iportionformat). |
+| [CreateTextFrameFormat](../../aspose.slides/formatfactory/createtextframeformat)() | 创建新的[`ITextFrameFormat`](../itextframeformat). |
 
 ### 也可以看看
 

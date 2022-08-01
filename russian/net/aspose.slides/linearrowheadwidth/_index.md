@@ -1,14 +1,14 @@
 ---
 title: LineArrowheadWidth
 second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет ширину наконечника стрелки.
+description: Представляет ширину стрелки.
 type: docs
 weight: 7050
 url: /ru/net/aspose.slides/linearrowheadwidth/
 ---
 ## LineArrowheadWidth enumeration
 
-Представляет ширину наконечника стрелки.
+Представляет ширину стрелки.
 
 ```csharp
 public enum LineArrowheadWidth : sbyte

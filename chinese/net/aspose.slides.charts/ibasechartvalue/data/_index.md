@@ -1,14 +1,14 @@
 ---
 title: Data
 second_title: Aspose.Slides for .NET API 参考
-description: 读/写Object
+description: 读/写Object.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides.charts/ibasechartvalue/data/
 ---
 ## IBaseChartValue.Data property
 
-读/写Object。
+读/写Object.
 
 ```csharp
 public object Data { get; set; }

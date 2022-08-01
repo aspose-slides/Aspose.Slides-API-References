@@ -1,14 +1,14 @@
 ---
 title: Position
 second_title: Aspose.Slides for .NET API 参考
-description: 指定图例在图表上的位置 XYWidthHeigt 属性的非 NaN 值会覆盖此属性的效果 读/写LegendPositionTypeaspose.slides.charts/legendpositiontype
+description: 指定图例在图表上的位置 XY宽度高度属性的非 NaN 值覆盖此属性的效果 读/写LegendPositionTypeaspose.slides.charts/legendpositiontype.
 type: docs
 weight: 60
 url: /zh/net/aspose.slides.charts/ilegend/position/
 ---
 ## ILegend.Position property
 
-指定图例在图表上的位置。 X、Y、Width、Heigt 属性的非 NaN 值会覆盖此属性的效果。 读/写[`LegendPositionType`](../../legendpositiontype)。
+指定图例在图表上的位置。 X、Y、宽度、高度属性的非 NaN 值覆盖此属性的效果。 读/写[`LegendPositionType`](../../legendpositiontype).
 
 ```csharp
 public LegendPositionType Position { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: AddFallBackFonts
 second_title: Справочник по API Aspose.Slides для .NET
-description: Добавляет новый шрифт в список шрифтов FallBack.
+description: Добавляет новый шрифты в список шрифтов FallBack.
 type: docs
 weight: 60
 url: /ru/net/aspose.slides/fontfallbackrule/addfallbackfonts/
 ---
 ## AddFallBackFonts(string) {#addfallbackfonts}
 
-Добавляет новый шрифт в список шрифтов FallBack.
+Добавляет новый шрифт(ы) в список шрифтов FallBack.
 
 ```csharp
 public void AddFallBackFonts(string fontName)
@@ -16,18 +16,18 @@ public void AddFallBackFonts(string fontName)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| fontName | String | Имя или имена шрифтов (разделенные запятой) для FallBack |
+| fontName | String | Имя шрифта или имена (разделенные запятой) для FallBack |
 
 ### Примеры
 
 ```csharp
 [C#]
- // Создаем новый экземпляр FontFallBackRule
+// Создаем новый экземпляр FontFallBackRule
 IFontFallBackRule newRule = new FontFallBackRule(0x3040, 0x309F, "MS Mincho");
 
- //Добавляем второй шрифт в правило 
+//добавляем второй шрифт к правилу 
 newRule.AddFallBackFonts("MS Gothic");
- //Добавляем третий и четвертый шрифты в правило 
+//Добавляем в правило третий и четвертый шрифты 
 newRule.AddFallBackFonts("Tahoma, Times New Roman");
 ```
 
@@ -49,16 +49,16 @@ public void AddFallBackFonts(string[] fontNames)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| fontNames | String[] | Имя или имена шрифтов (разделенные запятой) для FallBack |
+| fontNames | String[] | Имя шрифта или имена (разделенные запятой) для FallBack |
 
 ### Примеры
 
 ```csharp
 [C#]
- //Создаем новый экземпляр FontFallBackRule
+//Создаем новый экземпляр FontFallBackRule
 IFontFallBackRule newRule = new FontFallBackRule(0x3040, 0x309F, "MS Mincho");
 
-//Добавляем еще три шрифта в правило 
+//добавляем в правило еще три шрифта 
 newRule.AddFallBackFonts(new string [] {"MS Gothic","Tahoma, Times New Roman"});
 ```
 

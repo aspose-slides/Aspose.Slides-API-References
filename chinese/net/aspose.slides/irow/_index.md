@@ -18,11 +18,11 @@ public interface IRow : IBulkTextFormattable, ICellCollection
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsIBulkTextFormattable](../../aspose.slides/irow/asibulktextformattable) { get; } | 允许获取基本的 IBulkTextFormattable 接口。 只读[`IBulkTextFormattable`](../ibulktextformattable)。 |
-| [AsICellCollection](../../aspose.slides/irow/asicellcollection) { get; } | 允许获取基本 ICellCollection 接口。 只读[`ICellCollection`](../icellcollection)。 |
-| [Height](../../aspose.slides/irow/height) { get; } | 返回一行的高度。 只读Double。 |
-| [MinimalHeight](../../aspose.slides/irow/minimalheight) { get; set; } | 返回或设置行的最小可能高度。 读/写Double。 |
-| [RowFormat](../../aspose.slides/irow/rowformat) { get; } | 返回包含该行格式属性的 RowFormat 对象。 只读[`IRowFormat`](../irowformat)。 |
+| [AsIBulkTextFormattable](../../aspose.slides/irow/asibulktextformattable) { get; } | 允许获取基本 IBulkTextFormattable 接口。 只读[`IBulkTextFormattable`](../ibulktextformattable). |
+| [AsICellCollection](../../aspose.slides/irow/asicellcollection) { get; } | 允许获取基本 ICellCollection 接口。 只读[`ICellCollection`](../icellcollection). |
+| [Height](../../aspose.slides/irow/height) { get; } | 返回行高。 只读Double. |
+| [MinimalHeight](../../aspose.slides/irow/minimalheight) { get; set; } | 返回或设置行的最小可能高度。 读/写Double. |
+| [RowFormat](../../aspose.slides/irow/rowformat) { get; } | 返回包含此行格式属性的 RowFormat 对象。 只读[`IRowFormat`](../irowformat). |
 
 ### 也可以看看
 

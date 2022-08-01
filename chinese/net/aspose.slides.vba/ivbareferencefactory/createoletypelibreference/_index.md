@@ -21,7 +21,7 @@ public IVbaReferenceOleTypeLib CreateOleTypeLibReference(string name, string lib
 
 ### 返回值
 
-新 OLE 自动化类型库参考[`IVbaReferenceOleTypeLib`](../../ivbareferenceoletypelib)
+新的 OLE 自动化类型库参考[`IVbaReferenceOleTypeLib`](../../ivbareferenceoletypelib)
 
 ### 也可以看看
 

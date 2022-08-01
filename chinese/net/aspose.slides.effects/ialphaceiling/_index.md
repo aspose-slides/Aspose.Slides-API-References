@@ -1,14 +1,14 @@
 ---
 title: IAlphaCeiling
 second_title: Aspose.Slides for .NET API 参考
-description: 表示 Alpha Ceiling 效果 大于零的 Alpha不透明度值更改为 100 换句话说任何部分不透明的东西都会变成完全不透明的
+description: 表示 Alpha Ceiling 效果 大于零的 Alpha不透明度值更改为 100 换句话说任何部分不透明的东西都变成完全不透明的
 type: docs
 weight: 2860
 url: /zh/net/aspose.slides.effects/ialphaceiling/
 ---
 ## IAlphaCeiling interface
 
-表示 Alpha Ceiling 效果。 大于零的 Alpha（不透明度）值更改为 100%。 换句话说，任何部分不透明的东西都会变成完全不透明的。
+表示 Alpha Ceiling 效果。 大于零的 Alpha（不透明度）值更改为 100%。 换句话说，任何部分不透明的东西都变成完全不透明的。
 
 ```csharp
 public interface IAlphaCeiling : IAccessiblePVIObject<IAlphaCeilingEffectiveData>, 
@@ -19,8 +19,8 @@ public interface IAlphaCeiling : IAccessiblePVIObject<IAlphaCeilingEffectiveData
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphaceiling/asiaccessiblepviobject) { get; } | 允许获取基本 IAccessiblePVIObject 接口。 只读[`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1)。 |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ialphaceiling/asiimagetransformoperation) { get; } | 允许获取基本 IImageTransformOperationEx 接口。 只读[`IImageTransformOperation`](../iimagetransformoperation)。 |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphaceiling/asiaccessiblepviobject) { get; } | 允许获取基本 IAccessiblePVIObject 接口。 只读[`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ialphaceiling/asiimagetransformoperation) { get; } | 允许获取基本 IImageTransformOperationEx 接口。 只读[`IImageTransformOperation`](../iimagetransformoperation). |
 
 ### 也可以看看
 

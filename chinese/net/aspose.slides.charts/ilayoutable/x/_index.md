@@ -1,14 +1,14 @@
 ---
 title: X
 second_title: Aspose.Slides for .NET API 参考
-description: 将图表元素的 x 位置左侧指定为图表宽度的一部分 读/写Single
+description: 将图表元素的 x 位置左侧指定为图表宽度的一部分 读/写Single.
 type: docs
 weight: 60
 url: /zh/net/aspose.slides.charts/ilayoutable/x/
 ---
 ## ILayoutable.X property
 
-将图表元素的 x 位置（左侧）指定为图表宽度的一部分。 读/写Single。
+将图表元素的 x 位置（左侧）指定为图表宽度的一部分。 读/写Single.
 
 ```csharp
 public float X { get; set; }

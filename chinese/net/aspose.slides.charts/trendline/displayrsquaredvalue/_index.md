@@ -1,14 +1,14 @@
 ---
 title: DisplayRSquaredValue
 second_title: Aspose.Slides for .NET API 参考
-description: 指定趋势线的 R 平方值显示在图表上在与等式相同的标签中 读/写Boolean
+description: 指定趋势线的 R 平方值显示在图表上在与方程相同的标签中 读/写Boolean.
 type: docs
 weight: 40
 url: /zh/net/aspose.slides.charts/trendline/displayrsquaredvalue/
 ---
 ## Trendline.DisplayRSquaredValue property
 
-指定趋势线的 R 平方值显示在图表上（在与等式相同的标签中）。 读/写Boolean。
+指定趋势线的 R 平方值显示在图表上（在与方程相同的标签中）。 读/写Boolean.
 
 ```csharp
 public bool DisplayRSquaredValue { get; set; }

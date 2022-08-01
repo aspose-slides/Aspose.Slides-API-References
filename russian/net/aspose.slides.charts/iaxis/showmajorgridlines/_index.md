@@ -1,14 +1,14 @@
 ---
 title: ShowMajorGridLines
 second_title: Справочник по API Aspose.Slides для .NET
-description: Указывает показаны ли основные линии сетки. Только чтениеBoolean.
+description: Указывает показаны ли основные линии сетки. Только для чтенияBoolean .
 type: docs
 weight: 480
 url: /ru/net/aspose.slides.charts/iaxis/showmajorgridlines/
 ---
 ## IAxis.ShowMajorGridLines property
 
-Указывает, показаны ли основные линии сетки. Только чтениеBoolean.
+Указывает, показаны ли основные линии сетки. Только для чтенияBoolean .
 
 ```csharp
 public bool ShowMajorGridLines { get; }

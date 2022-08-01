@@ -1,14 +1,14 @@
 ---
 title: WholeWordsOnly
 second_title: Справочник по API Aspose.Slides для .NET
-description: Установите true для соответствия только целым словам false - в противном случае. Чтение/записьBoolean.
+description: Установите true чтобы соответствовать только целым словам иначе false. Чтение/записьBoolean .
 type: docs
 weight: 20
 url: /ru/net/aspose.slides/itexthighlightingoptions/wholewordsonly/
 ---
 ## ITextHighlightingOptions.WholeWordsOnly property
 
-Установите true для соответствия только целым словам, false - в противном случае. Чтение/записьBoolean.
+Установите true, чтобы соответствовать только целым словам, иначе false. Чтение/записьBoolean .
 
 ```csharp
 public bool WholeWordsOnly { get; set; }

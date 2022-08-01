@@ -1,14 +1,14 @@
 ---
 title: DigitalSignatures
 second_title: Aspose.Slides for .NET API 参考
-description: 返回用于签署演示文稿的签名集合 只读IDigitalSignatureCollectionaspose.slides/idigitalsignaturecollection
+description: 返回用于签署演示文稿的签名集合 只读IDigitalSignatureCollectionaspose.slides/idigitalsignaturecollection.
 type: docs
 weight: 80
 url: /zh/net/aspose.slides/presentation/digitalsignatures/
 ---
 ## Presentation.DigitalSignatures property
 
-返回用于签署演示文稿的签名集合。 只读[`IDigitalSignatureCollection`](../../idigitalsignaturecollection)。
+返回用于签署演示文稿的签名集合。 只读[`IDigitalSignatureCollection`](../../idigitalsignaturecollection).
 
 ```csharp
 public IDigitalSignatureCollection DigitalSignatures { get; }

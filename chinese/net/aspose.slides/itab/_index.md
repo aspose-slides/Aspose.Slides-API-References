@@ -18,9 +18,9 @@ public interface ITab : IComparable
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Alignment](../../aspose.slides/itab/alignment) { get; set; } | 返回或设置选项卡的对齐样式。 读/写[`TabAlignment`](../tabalignment)。 |
-| [AsIComparable](../../aspose.slides/itab/asicomparable) { get; } | 返回 IComparable 接口。 只读IComparable。 |
-| [Position](../../aspose.slides/itab/position) { get; set; } | 返回或设置选项卡的位置。 分配此属性可以更改集合中选项卡的索引并使枚举器无效。 读/写Double。 |
+| [Alignment](../../aspose.slides/itab/alignment) { get; set; } | 返回或设置选项卡的对齐样式。 读/写[`TabAlignment`](../tabalignment). |
+| [AsIComparable](../../aspose.slides/itab/asicomparable) { get; } | 返回 IComparable 接口。 只读IComparable. |
+| [Position](../../aspose.slides/itab/position) { get; set; } | 返回或设置选项卡的位置。 分配此属性可以更改选项卡在集合中的索引并使枚举器无效。 读/写Double. |
 
 ### 也可以看看
 

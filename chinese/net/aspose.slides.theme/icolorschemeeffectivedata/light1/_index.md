@@ -1,14 +1,14 @@
 ---
 title: Light1
 second_title: Aspose.Slides for .NET API 参考
-description: 方案中的第一个浅色 只读Color
+description: 方案中的第一个浅色 只读Color.
 type: docs
 weight: 120
 url: /zh/net/aspose.slides.theme/icolorschemeeffectivedata/light1/
 ---
 ## IColorSchemeEffectiveData.Light1 property
 
-方案中的第一个浅色。 只读Color。
+方案中的第一个浅色。 只读Color.
 
 ```csharp
 public Color Light1 { get; }

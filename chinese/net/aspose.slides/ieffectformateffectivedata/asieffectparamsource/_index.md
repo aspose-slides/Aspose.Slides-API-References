@@ -1,14 +1,14 @@
 ---
 title: AsIEffectParamSource
 second_title: Aspose.Slides for .NET API 参考
-description: 允许获取基础 IEffectParamSource 接口 只读IEffectParamSourceaspose.slides/ieffectparamsource
+description: 允许获取基本 IEffectParamSource 接口 只读IEffectParamSourceaspose.slides/ieffectparamsource.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides/ieffectformateffectivedata/asieffectparamsource/
 ---
 ## IEffectFormatEffectiveData.AsIEffectParamSource property
 
-允许获取基础 IEffectParamSource 接口。 只读[`IEffectParamSource`](../../ieffectparamsource)。
+允许获取基本 IEffectParamSource 接口。 只读[`IEffectParamSource`](../../ieffectparamsource).
 
 ```csharp
 public IEffectParamSource AsIEffectParamSource { get; }

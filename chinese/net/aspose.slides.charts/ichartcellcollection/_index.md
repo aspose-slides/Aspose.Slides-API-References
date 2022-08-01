@@ -18,18 +18,18 @@ public interface IChartCellCollection : IEnumerable<IChartDataCell>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.charts/ichartcellcollection/asienumerable) { get; } | 返回 ICollection 接口。 只读IEnumerable。 |
-| [Count](../../aspose.slides.charts/ichartcellcollection/count) { get; } | 获取集合中的单元格计数。 只读Int32。 |
-| [Item](../../aspose.slides.charts/ichartcellcollection/item) { get; } | 按索引返回单元格 (IChartDataCell)。 |
+| [AsIEnumerable](../../aspose.slides.charts/ichartcellcollection/asienumerable) { get; } | 返回 ICollection 接口。 只读IEnumerable. |
+| [Count](../../aspose.slides.charts/ichartcellcollection/count) { get; } | 获取集合中的单元格计数。 只读Int32. |
+| [Item](../../aspose.slides.charts/ichartcellcollection/item) { get; } | 按索引返回一个单元格 (IChartDataCell)。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
 | [Add](../../aspose.slides.charts/ichartcellcollection/add#add)(IChartDataCell) | 将新单元格添加到集合中。 |
-| [Add](../../aspose.slides.charts/ichartcellcollection/add#add_1)(object) | 从指定值创建[`IChartDataCell`](../ichartdatacell)并将其添加到集合中。 |
+| [Add](../../aspose.slides.charts/ichartcellcollection/add#add_1)(object) | 创建[`IChartDataCell`](../ichartdatacell)从指定的值并将其添加到集合中。 |
 | [GetCellsAddress](../../aspose.slides.charts/ichartcellcollection/getcellsaddress)() | 返回工作簿中单元格集的地址。 |
-| [GetConcatenatedValuesFromCells](../../aspose.slides.charts/ichartcellcollection/getconcatenatedvaluesfromcells)() | 来自所有单元格字符串值的连接字符串。 |
+| [GetConcatenatedValuesFromCells](../../aspose.slides.charts/ichartcellcollection/getconcatenatedvaluesfromcells)() | 来自所有单元格字符串值的串联字符串。 |
 | [RemoveAt](../../aspose.slides.charts/ichartcellcollection/removeat)(int) | 按索引从集合中删除一个单元格。 |
 
 ### 也可以看看

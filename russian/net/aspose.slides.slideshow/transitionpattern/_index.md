@@ -1,14 +1,14 @@
 ---
 title: TransitionPattern
 second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет геометрический узор который мозаично заполняет большую область.
+description: Определяет геометрический узор который мозаично заполняет большую площадь.
 type: docs
 weight: 9620
 url: /ru/net/aspose.slides.slideshow/transitionpattern/
 ---
 ## TransitionPattern enumeration
 
-Определяет геометрический узор, который мозаично заполняет большую область.
+Определяет геометрический узор, который мозаично заполняет большую площадь.
 
 ```csharp
 public enum TransitionPattern
@@ -19,7 +19,7 @@ public enum TransitionPattern
 | Имя | Ценность | Описание |
 | --- | --- | --- |
 | Diamond | `0` | Ромбовидная плитка |
-| Hexagon | `1` | Шестиугольная плитка |
+| Hexagon | `1` | Шаблон плитки с шестиугольником |
 
 ### Смотрите также
 

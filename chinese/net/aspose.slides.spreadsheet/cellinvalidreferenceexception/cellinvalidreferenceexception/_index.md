@@ -1,14 +1,14 @@
 ---
 title: CellInvalidReferenceException
 second_title: Aspose.Slides for .NET API 参考
-description: 初始化CellInvalidReferenceExceptionaspose.slides.spreadsheet/cellinvalidreferenceexception类的新实例
+description: 初始化CellInvalidReferenceExceptionaspose.slides.spreadsheet/cellinvalidreferenceexception类.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides.spreadsheet/cellinvalidreferenceexception/cellinvalidreferenceexception/
 ---
 ## CellInvalidReferenceException() {#constructor}
 
-初始化[`CellInvalidReferenceException`](../../cellinvalidreferenceexception)类的新实例。
+初始化[`CellInvalidReferenceException`](../../cellinvalidreferenceexception)类.
 
 ```csharp
 public CellInvalidReferenceException()
@@ -24,7 +24,7 @@ public CellInvalidReferenceException()
 
 ## CellInvalidReferenceException(string) {#constructor_1}
 
-使用指定的错误消息初始化[`CellInvalidReferenceException`](../../cellinvalidreferenceexception)类的新实例。
+初始化[`CellInvalidReferenceException`](../../cellinvalidreferenceexception)具有指定错误消息的类。
 
 ```csharp
 public CellInvalidReferenceException(string message)
@@ -44,7 +44,7 @@ public CellInvalidReferenceException(string message)
 
 ## CellInvalidReferenceException(string, Exception) {#constructor_2}
 
-初始化[`CellInvalidReferenceException`](../../cellinvalidreferenceexception)类的新实例并指定错误消息 以及对导致此异常的内部异常的引用。
+初始化[`CellInvalidReferenceException`](../../cellinvalidreferenceexception)具有指定错误消息 和对导致此异常的内部异常的引用的类。
 
 ```csharp
 public CellInvalidReferenceException(string message, Exception innerException)
@@ -65,7 +65,7 @@ public CellInvalidReferenceException(string message, Exception innerException)
 
 ## CellInvalidReferenceException(string, string) {#constructor_3}
 
-使用指定的错误消息:::47::初始化[`CellCircularReferenceException`](../../cellcircularreferenceexception)类的新实例:和无效的单元格引用。
+初始化[`CellCircularReferenceException`](../../cellcircularreferenceexception)具有指定错误消息 和无效单元格引用的类。
 
 ```csharp
 public CellInvalidReferenceException(string message, string reference)

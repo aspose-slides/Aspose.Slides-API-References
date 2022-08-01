@@ -1,14 +1,14 @@
 ---
 title: Global
 second_title: Aspose.Slides for .NET API 参考
-description: 返回文档的全局存储 只读Storageaspose.slides.export.web/storage
+description: 返回文档的全局存储 只读Storageaspose.slides.export.web/storage.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides.export.web/webdocument/global/
 ---
 ## WebDocument.Global property
 
-返回文档的全局存储。 只读[`Storage`](../../storage)。
+返回文档的全局存储。 只读[`Storage`](../../storage).
 
 ```csharp
 public Storage Global { get; }
@@ -16,7 +16,7 @@ public Storage Global { get; }
 
 ### 例子
 
-使用这个`Global`属性（实现[`Storage`](../../storage)接口）一个 属性可以放在模板中稍后使用它:
+使用这个`Global`财产（实施[`Storage`](../../storage)接口）a 属性可以放在模板后面使用：
 
 ```csharp
 [C#]
@@ -29,11 +29,10 @@ var options = new WebDocumentOptions
 
 WebDocument document = new WebDocument(options);
 
- // 将“slideMargin”属性从templates
-
+// 将“slideMargin”属性从模板中使用
 document.Global.Put("slideMargin", 10);
 
- // ... 设置文档的其他选项，然后保存文档
+// ... 设置文档的其他选项，然后保存文档
 document.Save();
 ```
 

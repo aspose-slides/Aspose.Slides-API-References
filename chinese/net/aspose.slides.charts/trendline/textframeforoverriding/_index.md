@@ -1,14 +1,14 @@
 ---
 title: TextFrameForOverriding
 second_title: Aspose.Slides for .NET API 参考
-description: 可以包含格式丰富的文本如果此属性不为空则此 格式化文本值将覆盖自动生成的数据标签文本 数据标签的自动生成文本是指由 ShowSeriesName ShowValue ... 属性管理并使用 TextFormatManager.TextFormat 属性格式化的文本 只读ITextFrameaspose.slides/itextframe
+description: 可以包含格式丰富的文本如果此属性不为空则此 格式化文本值将覆盖数据标签的自动生成文本 数据标签的自动生成文本表示由 ShowSeriesName ShowValue... 属性管理并使用 TextFormatManager 格式化的文本.TextFormat 属性. 只读ITextFrameaspose.slides/itextframe.
 type: docs
 weight: 120
 url: /zh/net/aspose.slides.charts/trendline/textframeforoverriding/
 ---
 ## Trendline.TextFrameForOverriding property
 
-可以包含格式丰富的文本。如果此属性不为空，则此 格式化文本值将覆盖自动生成的数据标签文本。 数据标签的自动生成文本是指由 ShowSeriesName, ShowValue, ... 属性管理并使用 TextFormatManager.TextFormat 属性格式化的文本。 只读[`ITextFrame`](../../../aspose.slides/itextframe)。
+可以包含格式丰富的文本。如果此属性不为空，则此 格式化文本值将覆盖数据标签的自动生成文本。 数据标签的自动生成文本表示由 ShowSeriesName、 ShowValue、... 属性管理并使用 TextFormatManager 格式化的文本.TextFormat 属性. 只读[`ITextFrame`](../../../aspose.slides/itextframe).
 
 ```csharp
 public ITextFrame TextFrameForOverriding { get; }

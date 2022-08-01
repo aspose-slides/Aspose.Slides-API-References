@@ -1,14 +1,14 @@
 ---
 title: JpegQuality
 second_title: Aspose.Slides for .NET API 参考
-description: 确定 JPEG 编码质量 读/写Int32
+description: 确定 JPEG 编码质量 读/写Int32.
 type: docs
 weight: 100
 url: /zh/net/aspose.slides.export/svgoptions/jpegquality/
 ---
 ## SVGOptions.JpegQuality property
 
-确定 JPEG 编码质量。 读/写Int32。
+确定 JPEG 编码质量。 读/写Int32.
 
 ```csharp
 public int JpegQuality { get; set; }

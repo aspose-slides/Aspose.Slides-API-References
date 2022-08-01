@@ -1,14 +1,14 @@
 ---
 title: IPathSegment
 second_title: Aspose.Slides for .NET API 参考
-description: 表示 GeometryShape 的图形路径段
+description: 代表GeometryShape的图形路径段
 type: docs
 weight: 6050
 url: /zh/net/aspose.slides/ipathsegment/
 ---
 ## IPathSegment interface
 
-表示 GeometryShape 的图形路径段
+代表GeometryShape的图形路径段
 
 ```csharp
 public interface IPathSegment

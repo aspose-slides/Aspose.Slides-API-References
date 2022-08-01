@@ -1,14 +1,14 @@
 ---
 title: ToMathArray
 second_title: Aspose.Slides for .NET API 参考
-description: 放入垂直数组
+description: 放入一个垂直数组
 type: docs
 weight: 200
 url: /zh/net/aspose.slides.mathtext/mathelementbase/tomatharray/
 ---
 ## MathElementBase.ToMathArray method
 
-放入垂直数组
+放入一个垂直数组
 
 ```csharp
 public virtual IMathArray ToMathArray()
@@ -20,7 +20,7 @@ public virtual IMathArray ToMathArray()
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]

@@ -16,7 +16,7 @@ public ISlide[] AddFromHtml(string htmlText, IExternalResourceResolver resolver,
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| htmlText | String | Html 添加。 |
+| htmlText | String | 要添加的 HTML。 |
 | resolver | IExternalResourceResolver | 用于获取外部对象的回调对象。如果此参数为 null，则所有外部对象都将被忽略。 |
 | uri | String | 指定 HTML 的 URI。用于解析相对链接。 |
 
@@ -44,11 +44,11 @@ public ISlide[] AddFromHtml(string htmlText)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| htmlText | String | Html 添加。 |
+| htmlText | String | 要添加的 HTML。 |
 
 ### 返回值
 
-添加幻灯片
+添加了幻灯片
 
 ### 也可以看看
 
@@ -69,7 +69,7 @@ public ISlide[] AddFromHtml(TextReader htmlReader, IExternalResourceResolver res
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| htmlReader | TextReader | TextReader 对象，将用作 HTML 文件的源。 |
+| htmlReader | TextReader | TextReader 对象将用作 HTML 文件的源。 |
 | resolver | IExternalResourceResolver | 用于获取外部对象的回调对象。如果此参数为 null，则所有外部对象都将被忽略。 |
 | uri | String | 指定 HTML 的 URI。用于解析相对链接。 |
 
@@ -97,11 +97,11 @@ public ISlide[] AddFromHtml(TextReader htmlReader)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| htmlReader | TextReader | TextReader 对象，将用作 HTML 文件的源。 |
+| htmlReader | TextReader | TextReader 对象将用作 HTML 文件的源。 |
 
 ### 返回值
 
-添加幻灯片
+添加了幻灯片
 
 ### 也可以看看
 
@@ -154,7 +154,7 @@ public ISlide[] AddFromHtml(Stream htmlStream)
 
 ### 返回值
 
-添加幻灯片
+添加了幻灯片
 
 ### 也可以看看
 

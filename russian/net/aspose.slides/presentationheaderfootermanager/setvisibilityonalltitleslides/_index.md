@@ -8,7 +8,7 @@ url: /ru/net/aspose.slides/presentationheaderfootermanager/setvisibilityonalltit
 ---
 ## PresentationHeaderFooterManager.SetVisibilityOnAllTitleSlides method
 
-Изменяет видимость заполнителей нижнего колонтитула, даты-времени и номера страницы для всех титульных слайдов и для первого слайда макета. Титульные слайды – слайды на основе первого слайда макета (независимо от типа этого первого макета).
+Изменяет видимость заполнителей нижнего колонтитула, даты-времени и номера страницы для всех титульных слайдов и для первого слайда макета. Титульные слайды — слайды на основе первого слайда макета (независимо от типа этого первого макета).
 
 ```csharp
 public void SetVisibilityOnAllTitleSlides(bool isVisible)

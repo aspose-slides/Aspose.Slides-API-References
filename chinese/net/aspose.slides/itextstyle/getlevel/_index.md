@@ -1,14 +1,14 @@
 ---
 title: GetLevel
 second_title: Aspose.Slides for .NET API 参考
-description: 如果样式级别存在则返回它否则返回null
+description: 如果样式级别存在则返回否则返回null
 type: docs
 weight: 30
 url: /zh/net/aspose.slides/itextstyle/getlevel/
 ---
 ## ITextStyle.GetLevel method
 
-如果样式级别存在则返回它，否则返回null。
+如果样式级别存在则返回，否则返回null。
 
 ```csharp
 public IParagraphFormat GetLevel(int index)
@@ -20,7 +20,7 @@ public IParagraphFormat GetLevel(int index)
 
 ### 返回值
 
-级别格式[`IParagraphFormat`](../../iparagraphformat)。
+级别的格式化[`IParagraphFormat`](../../iparagraphformat).
 
 ### 也可以看看
 

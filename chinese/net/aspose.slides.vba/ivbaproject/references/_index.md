@@ -1,14 +1,14 @@
 ---
 title: References
 second_title: Aspose.Slides for .NET API 参考
-description: 返回包含在 VBA 项目中的所有引用的列表 只读IVbaReferenceCollectionaspose.slides.vba/ivbareferencecollection
+description: 返回 VBA 项目中包含的所有引用的列表 只读IVbaReferenceCollectionaspose.slides.vba/ivbareferencecollection.
 type: docs
 weight: 30
 url: /zh/net/aspose.slides.vba/ivbaproject/references/
 ---
 ## IVbaProject.References property
 
-返回包含在 VBA 项目中的所有引用的列表。 只读[`IVbaReferenceCollection`](../../ivbareferencecollection)。
+返回 VBA 项目中包含的所有引用的列表。 只读[`IVbaReferenceCollection`](../../ivbareferencecollection).
 
 ```csharp
 public IVbaReferenceCollection References { get; }

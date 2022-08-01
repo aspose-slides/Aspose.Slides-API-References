@@ -1,14 +1,14 @@
 ---
 title: Style
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или задает стиль диаграммы. Чтение/записьStyleTypeaspose.slides.charts/styletype.
+description: Возвращает или задает стиль диаграммы. Чтение/записьStyleTypeaspose.slides.charts/styletype .
 type: docs
 weight: 200
 url: /ru/net/aspose.slides.charts/chart/style/
 ---
 ## Chart.Style property
 
-Возвращает или задает стиль диаграммы. Чтение/запись[`StyleType`](../../styletype).
+Возвращает или задает стиль диаграммы. Чтение/запись[`StyleType`](../../styletype) .
 
 ```csharp
 public StyleType Style { get; set; }

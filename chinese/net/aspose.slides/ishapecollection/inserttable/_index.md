@@ -1,14 +1,14 @@
 ---
 title: InsertTable
 second_title: Aspose.Slides for .NET API 参考
-description: 创建一个新表并将其插入到指定索引处的集合中
+description: 创建一个新表并将其插入到集合中指定索引处
 type: docs
 weight: 340
 url: /zh/net/aspose.slides/ishapecollection/inserttable/
 ---
 ## IShapeCollection.InsertTable method
 
-创建一个新表并将其插入到指定索引处的集合中。
+创建一个新表并将其插入到集合中指定索引处。
 
 ```csharp
 public ITable InsertTable(int index, float x, float y, double[] columnWidths, double[] rowHeights)
@@ -16,11 +16,11 @@ public ITable InsertTable(int index, float x, float y, double[] columnWidths, do
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| index | Int32 | 应该插入值的从零开始的索引。 |
+| index | Int32 | 应插入值的从零开始的索引。 |
 | x | Single | 形状框架左侧的 X 坐标。 |
 | y | Single | 形状框架顶部的 Y 坐标。 |
 | columnWidths | Double[] | 双精度数组，表示表中列的宽度。 |
-| rowHeights | Double[] | 双精度数组，表示表中行的高度。 |
+| rowHeights | Double[] | 表示表中行高的双精度数组。 |
 
 ### 返回值
 

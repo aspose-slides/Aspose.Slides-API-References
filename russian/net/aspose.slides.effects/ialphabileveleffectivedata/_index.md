@@ -1,14 +1,14 @@
 ---
 title: IAlphaBiLevelEffectiveData
 second_title: Справочник по API Aspose.Slides для .NET
-description: Неизменяемый объект представляющий двухуровневый альфа-эффект. Значения альфа-канала непрозрачности меньшие порогового значения изменяются на 0 полностью прозрачный и значения альфа-канала превышающие или равные пороговому значению изменяются на 100 полностью непрозрачный .
+description: Неизменяемый объект представляющий эффект двухуровневого альфа-канала. Значения альфа-канала непрозрачности меньше порогового значения изменяются на 0 полностью прозрачный и значения альфа-канала превышающие или равный пороговому значению изменяются на 100 полностью непрозрачный.
 type: docs
 weight: 2850
 url: /ru/net/aspose.slides.effects/ialphabileveleffectivedata/
 ---
 ## IAlphaBiLevelEffectiveData interface
 
-Неизменяемый объект, представляющий двухуровневый альфа-эффект. Значения альфа-канала (непрозрачности), меньшие порогового значения, изменяются на 0 (полностью прозрачный) и значения альфа-канала, превышающие или равные пороговому значению, изменяются на 100% (полностью непрозрачный) .
+Неизменяемый объект, представляющий эффект двухуровневого альфа-канала. Значения альфа-канала (непрозрачности) меньше порогового значения изменяются на 0 (полностью прозрачный) и значения альфа-канала, превышающие или равный пороговому значению, изменяются на 100% (полностью непрозрачный).
 
 ```csharp
 public interface IAlphaBiLevelEffectiveData : IEffectEffectiveData
@@ -18,8 +18,8 @@ public interface IAlphaBiLevelEffectiveData : IEffectEffectiveData
 
 | Имя | Описание |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphabileveleffectivedata/asieffecteffectivedata) { get; } | Позволяет получить базовый интерфейс IEffectEffectiveData. Только для чтения[`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Threshold](../../aspose.slides.effects/ialphabileveleffectivedata/threshold) { get; } | Возвращает порог эффекта. Только для чтенияSingle. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphabileveleffectivedata/asieffecteffectivedata) { get; } | Позволяет получить базовый интерфейс IEffectEffectiveData. Только для чтения[`IEffectEffectiveData`](../ieffecteffectivedata) . |
+| [Threshold](../../aspose.slides.effects/ialphabileveleffectivedata/threshold) { get; } | Возвращает порог эффекта. Только для чтенияSingle . |
 
 ### Смотрите также
 

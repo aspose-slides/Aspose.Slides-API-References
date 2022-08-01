@@ -8,7 +8,7 @@ url: /ru/net/aspose.slides.animation/behaviorproperty/extrusionrotationcenterx/
 ---
 ## BehaviorProperty.ExtrusionRotationCenterX property
 
-Представляет свойство 'extrusion.rotationcenter.x'
+Представляет свойство "extrusion.rotationcenter.x"
 
 ```csharp
 public static BehaviorProperty ExtrusionRotationCenterX { get; }

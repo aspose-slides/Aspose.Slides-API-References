@@ -1,14 +1,14 @@
 ---
 title: GetOrCreateDataPointByIdx
 second_title: Aspose.Slides for .NET API 参考
-description: 如果集合已经包含索引为index的数据点则返回此数据点 如果集合不包含索引为indexN 的数据点当此集合中的数据点数小于或等于 N 时则添加不足的数据点并返回最后一个已请求索引例如集合索引为0 1 2请求索引为5然后方法添加不足的数据点012345并返回索引为 5 的数据点
+description: 如果集合已经包含带索引的数据点index然后返回此数据点 如果集合不包含带索引的数据点indexN当此集合中的数据点数小于或等于 N 时然后添加不足的数据点并返回最后一个已请求索引例如集合索引为0 1 2请求索引为5然后方法添加不足的数据点012345并返回索引为 5. 的数据点
 type: docs
 weight: 300
 url: /zh/net/aspose.slides.charts/chartdatapointcollection/getorcreatedatapointbyidx/
 ---
 ## ChartDataPointCollection.GetOrCreateDataPointByIdx method
 
-如果集合已经包含索引为*index*的数据点，则返回此数据点。 如果集合不包含索引为*index*==N 的数据点（当此集合中的数据点数小于或等于 N 时），则添加不足的数据点并返回最后一个（已请求索引）。例如集合索引为{0, 1, 2}，请求索引为5。然后方法添加不足的数据点:{0,1,2,3,4,5}。并返回索引为 5 的数据点。
+如果集合已经包含带索引的数据点*index*然后返回此数据点。 如果集合不包含带索引的数据点*index*==N（当此集合中的数据点数小于或等于 N 时）然后添加不足的数据点并返回最后一个（已请求索引）。例如集合索引为{0, 1, 2}，请求索引为5。然后方法添加不足的数据点：{0,1,2,3,4,5}。并返回索引为 5. 的数据点
 
 ```csharp
 public IChartDataPoint GetOrCreateDataPointByIdx(uint index)
@@ -16,7 +16,7 @@ public IChartDataPoint GetOrCreateDataPointByIdx(uint index)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| index | UInt32 | 索引。 |
+| index | UInt32 | 指数。 |
 
 ### 返回值
 

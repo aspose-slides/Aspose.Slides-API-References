@@ -16,11 +16,11 @@ public IChartSeries Add(ChartType type)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| type | ChartType | Тип ряда |
+| type | ChartType | Тип серии |
 
 ### Возвращаемое значение
 
-Новый ряд диаграммы.
+Новая серия графиков.
 
 ### Смотрите также
 
@@ -34,7 +34,7 @@ public IChartSeries Add(ChartType type)
 
 ## Add(IChartDataCell, ChartType) {#add_2}
 
-Создает новую серию диаграмм из[`ChartDataCell`](../../chartdatacell)и добавляет ее в коллекцию.
+Создает новую серию диаграмм из[`ChartDataCell`](../../chartdatacell) и добавляет в коллекцию.
 
 ```csharp
 public IChartSeries Add(IChartDataCell cellWithSeriesName, ChartType type)
@@ -42,12 +42,12 @@ public IChartSeries Add(IChartDataCell cellWithSeriesName, ChartType type)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| cellWithSeriesName | IChartDataCell | Ячейка, содержащая имя серии. |
-| type | ChartType | Type set type of series |
+| cellWithSeriesName | IChartDataCell | Ячейка, содержащая название серии. |
+| type | ChartType | Тип задать тип серии |
 
 ### Возвращаемое значение
 
-Добавлены серии диаграмм или серии, которые уже есть в коллекции.
+Добавлены серии диаграмм или серии, которые уже находятся в коллекции.
 
 ### Примечания
 
@@ -66,7 +66,7 @@ public IChartSeries Add(IChartDataCell cellWithSeriesName, ChartType type)
 
 ## Add(IChartCellCollection, ChartType) {#add_1}
 
-Создает новую серию диаграмм из[`ChartCellCollection`](../../chartcellcollection)и добавляет ее в коллекцию.
+Создает новую серию диаграмм из[`ChartCellCollection`](../../chartcellcollection) и добавляет в коллекцию.
 
 ```csharp
 public IChartSeries Add(IChartCellCollection cellsWithSeriesName, ChartType type)
@@ -74,12 +74,12 @@ public IChartSeries Add(IChartCellCollection cellsWithSeriesName, ChartType type
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| cellsWithSeriesName | IChartCellCollection | Ячейки, которые содержат имя серии. |
-| type | ChartType | Type set type of series |
+| cellsWithSeriesName | IChartCellCollection | Ячейки, содержащие название серии. |
+| type | ChartType | Тип задать тип серии |
 
 ### Возвращаемое значение
 
-Добавлены серии диаграмм или серии, которые уже есть в коллекции.
+Добавлены серии диаграмм или серии, которые уже находятся в коллекции.
 
 ### Примечания
 
@@ -107,11 +107,11 @@ public IChartSeries Add(string name, ChartType type)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | name | String | Название серии. |
-| type | ChartType | Type установить тип ряда |
+| type | ChartType | Тип задать тип серии |
 
 ### Возвращаемое значение
 
-Добавлен ряд графиков.
+Добавлены серии графиков.
 
 ### Смотрите также
 

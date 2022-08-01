@@ -1,14 +1,14 @@
 ---
 title: Restart
 second_title: Справочник по API Aspose.Slides для .NET
-description: Указывает должен ли эффект перезапускаться после завершения. Чтение/записьEffectRestartTypeaspose.slides.animation/effectrestarttype.
+description: Указывает должен ли эффект перезапускаться после завершения. Чтение/записьEffectRestartTypeaspose.slides.animation/effectrestarttype .
 type: docs
 weight: 70
 url: /ru/net/aspose.slides.animation/itiming/restart/
 ---
 ## ITiming.Restart property
 
-Указывает, должен ли эффект перезапускаться после завершения. Чтение/запись[`EffectRestartType`](../../effectrestarttype).
+Указывает, должен ли эффект перезапускаться после завершения. Чтение/запись[`EffectRestartType`](../../effectrestarttype) .
 
 ```csharp
 public EffectRestartType Restart { get; set; }

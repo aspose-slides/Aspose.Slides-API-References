@@ -1,14 +1,14 @@
 ---
 title: RewindAudio
 second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет будет ли звук автоматически перематываться назад после воспроизведения. Чтение/записьBoolean.
+description: Определяет будет ли звук автоматически перематываться назад после воспроизведения. Чтение/записьBoolean .
 type: docs
 weight: 120
 url: /ru/net/aspose.slides/audioframe/rewindaudio/
 ---
 ## AudioFrame.RewindAudio property
 
-Определяет, будет ли звук автоматически перематываться назад после воспроизведения. Чтение/записьBoolean.
+Определяет, будет ли звук автоматически перематываться назад после воспроизведения. Чтение/записьBoolean .
 
 ```csharp
 public bool RewindAudio { get; set; }
@@ -22,13 +22,13 @@ using (Presentation pres = new Presentation())
 {
     ISlide slide = pres.Slides[0];
 
-     // Добавить аудио кадр
+    // Добавляем звуковой кадр
     IAudioFrame audioFrame = slide.Shapes.AddAudioFrameLinked(50, 50, 100, 100, "sampleaudio.wav");
 
-     // Настраиваем воспроизведение звука на слайдах
+    // Устанавливаем звук для воспроизведения на слайдах
     audioFrame.PlayAcrossSlides = true;
 
-     // Установить автоматическую перемотку аудио после воспроизведения
+    // Настраиваем аудио на автоматическую перемотку после воспроизведения
     audioFrame.RewindAudio = true;
 
     pres.Save("AudioFrame_out.pptx", SaveFormat.Pptx);

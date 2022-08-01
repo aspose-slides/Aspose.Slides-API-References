@@ -1,14 +1,14 @@
 ---
 title: Position
 second_title: Aspose.Slides for .NET API 参考
-description: 表示轴的位置 读/写AxisPositionTypeaspose.slides.charts/axispositiontype
+description: 表示轴的位置 读/写AxisPositionTypeaspose.slides.charts/axispositiontype.
 type: docs
 weight: 470
 url: /zh/net/aspose.slides.charts/iaxis/position/
 ---
 ## IAxis.Position property
 
-表示轴的位置。 读/写[`AxisPositionType`](../../axispositiontype)。
+表示轴的位置。 读/写[`AxisPositionType`](../../axispositiontype).
 
 ```csharp
 public AxisPositionType Position { get; set; }

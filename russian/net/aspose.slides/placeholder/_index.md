@@ -18,10 +18,10 @@ public class Placeholder : IPlaceholder
 
 | Имя | Описание |
 | --- | --- |
-| [Index](../../aspose.slides/placeholder/index) { get; } | Получает или задает индекс заполнителя. Только для чтенияUInt32. |
-| [Orientation](../../aspose.slides/placeholder/orientation) { get; } | Получает или задает ориентацию заполнителя. Только для чтения[`Orientation`](../orientation). |
-| [Size](../../aspose.slides/placeholder/size) { get; } | Получает или задает размер заполнителя. Только для чтения[`PlaceholderSize`](../placeholdersize). |
-| [Type](../../aspose.slides/placeholder/type) { get; } | Получает или задает тип заполнителя. Только для чтения[`PlaceholderType`](../placeholdertype). |
+| [Index](../../aspose.slides/placeholder/index) { get; } | Получает или задает индекс заполнителя. Только для чтенияUInt32 . |
+| [Orientation](../../aspose.slides/placeholder/orientation) { get; } | Получает или задает ориентацию заполнителя. Только для чтения[`Orientation`](../orientation) . |
+| [Size](../../aspose.slides/placeholder/size) { get; } | Получает или задает размер заполнителя. Только для чтения[`PlaceholderSize`](../placeholdersize) . |
+| [Type](../../aspose.slides/placeholder/type) { get; } | Получает или задает тип заполнителя. Только для чтения[`PlaceholderType`](../placeholdertype) . |
 
 ### Смотрите также
 

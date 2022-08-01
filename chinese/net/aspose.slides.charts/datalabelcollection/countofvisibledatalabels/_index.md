@@ -1,14 +1,14 @@
 ---
 title: CountOfVisibleDataLabels
 second_title: Aspose.Slides for .NET API 参考
-description: 获取集合中可见数据标签的数量 只读Int32
+description: 获取集合中可见数据标签的数量 只读Int32.
 type: docs
 weight: 30
 url: /zh/net/aspose.slides.charts/datalabelcollection/countofvisibledatalabels/
 ---
 ## DataLabelCollection.CountOfVisibleDataLabels property
 
-获取集合中可见数据标签的数量。 只读Int32。
+获取集合中可见数据标签的数量。 只读Int32.
 
 ```csharp
 public int CountOfVisibleDataLabels { get; }

@@ -1,14 +1,14 @@
 ---
 title: StretchOffsetTop
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置填充矩形的顶部边缘该填充矩形由距离形状边界框顶部边缘的百分比偏移 定义 正百分比指定插入而负百分比指定开始 读/写Single
+description: 返回或设置填充矩形的上边缘该矩形由形状边界框上边缘的百分比偏移 定义 正百分比指定插入而负百分比指定开始 读/写Single.
 type: docs
 weight: 120
 url: /zh/net/aspose.slides/ipicturefillformat/stretchoffsettop/
 ---
 ## IPictureFillFormat.StretchOffsetTop property
 
-返回或设置填充矩形的顶部边缘，该填充矩形由距离形状边界框顶部边缘的百分比偏移 定义。 正百分比指定插入，而负百分比指定开始。 读/写Single。
+返回或设置填充矩形的上边缘，该矩形由形状边界框上边缘的百分比偏移 定义。 正百分比指定插入，而负百分比指定开始。 读/写Single.
 
 ```csharp
 public float StretchOffsetTop { get; set; }

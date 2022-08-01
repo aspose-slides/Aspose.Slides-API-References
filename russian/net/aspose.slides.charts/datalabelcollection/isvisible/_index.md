@@ -1,14 +1,14 @@
 ---
 title: IsVisible
 second_title: Справочник по API Aspose.Slides для .NET
-description: False означает что метка данных по умолчанию не видна и следовательно все Show-флаги ShowValue ... DefaultDataLabelFormat свойство ложно. Только чтениеBoolean.
+description: False означает что метка данных по умолчанию не видна поэтому все флаги Show ShowValue ... свойства DefaultDataLabelFormat имеют значение false. Только для чтенияBoolean .
 type: docs
 weight: 50
 url: /ru/net/aspose.slides.charts/datalabelcollection/isvisible/
 ---
 ## DataLabelCollection.IsVisible property
 
-False означает, что метка данных по умолчанию не видна (и, следовательно, все Show*-флаги (ShowValue, ...) DefaultDataLabelFormat свойство ложно). Только чтениеBoolean.
+False означает, что метка данных по умолчанию не видна (поэтому все флаги Show* (ShowValue, ...) свойства DefaultDataLabelFormat имеют значение false). Только для чтенияBoolean .
 
 ```csharp
 public bool IsVisible { get; }
@@ -16,7 +16,7 @@ public bool IsVisible { get; }
 
 ### Примечания
 
-Если метка данных видна по умолчанию, вы можете сделать ее скрытой по умолчанию с помощью метода Hide(). Но если метка данных не видна по умолчанию (IsVisible имеет значение false), вы можете сделать метку данных "видимой по умолчанию", установив Show*-флаги (ShowValue, ... ) свойства DefaultDataLabelFormat в истинное состояние.
+Если метка данных видна по умолчанию, вы можете сделать ее скрытой по умолчанию с помощью метода Hide(). *-флаги (ShowValue, ...) свойства DefaultDataLabelFormat property в истинное состояние.
 
 ### Смотрите также
 

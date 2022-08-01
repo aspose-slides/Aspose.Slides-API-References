@@ -1,14 +1,14 @@
 ---
 title: EndShapeConnectionSiteIndex
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置末端形状的连接点索引 读/写UInt32
+description: 返回或设置结束形状的连接点索引 读/写UInt32.
 type: docs
 weight: 40
 url: /zh/net/aspose.slides/iconnector/endshapeconnectionsiteindex/
 ---
 ## IConnector.EndShapeConnectionSiteIndex property
 
-返回或设置末端形状的连接点索引。 读/写UInt32。
+返回或设置结束形状的连接点索引。 读/写UInt32.
 
 ```csharp
 public uint EndShapeConnectionSiteIndex { get; set; }
@@ -18,7 +18,7 @@ public uint EndShapeConnectionSiteIndex { get; set; }
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentException | 当值小于 EndShapeConnectedTo.ConnectionSiteCount |
+| ArgumentException | 当值小于 EndShapeConnectedTo.ConnectionSiteCount 时抛出 |
 
 ### 也可以看看
 

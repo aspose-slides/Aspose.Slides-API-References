@@ -1,14 +1,14 @@
 ---
 title: HasTitle
 second_title: Aspose.Slides for .NET API 参考
-description: 确定图表是否有可见标题 读/写Boolean
+description: 确定图表是否有可见标题 读/写Boolean.
 type: docs
 weight: 130
 url: /zh/net/aspose.slides.charts/chart/hastitle/
 ---
 ## Chart.HasTitle property
 
-确定图表是否有可见标题。 读/写Boolean。
+确定图表是否有可见标题。 读/写Boolean.
 
 ```csharp
 public bool HasTitle { get; set; }

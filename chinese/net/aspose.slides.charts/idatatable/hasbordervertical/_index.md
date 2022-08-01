@@ -1,14 +1,14 @@
 ---
 title: HasBorderVertical
 second_title: Aspose.Slides for .NET API 参考
-description: 如果图表数据表具有垂直单元格边框则为真 读/写Boolean
+description: 如果图表数据表有垂直单元格边框则为真 读/写Boolean.
 type: docs
 weight: 50
 url: /zh/net/aspose.slides.charts/idatatable/hasbordervertical/
 ---
 ## IDataTable.HasBorderVertical property
 
-如果图表数据表具有垂直单元格边框，则为真。 读/写Boolean。
+如果图表数据表有垂直单元格边框，则为真。 读/写Boolean.
 
 ```csharp
 public bool HasBorderVertical { get; set; }

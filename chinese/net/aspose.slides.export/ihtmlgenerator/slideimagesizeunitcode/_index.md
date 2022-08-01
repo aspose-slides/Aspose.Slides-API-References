@@ -1,14 +1,14 @@
 ---
 title: SlideImageSizeUnitCode
 second_title: Aspose.Slides for .NET API 参考
-description: 返回指定幻灯片图像大小的单位 css 代码 只读String
+description: 返回指定幻灯片图像大小的单位 css 代码 只读String.
 type: docs
 weight: 50
 url: /zh/net/aspose.slides.export/ihtmlgenerator/slideimagesizeunitcode/
 ---
 ## IHtmlGenerator.SlideImageSizeUnitCode property
 
-返回指定幻灯片图像大小的单位 css 代码。 只读String。
+返回指定幻灯片图像大小的单位 css 代码。 只读String.
 
 ```csharp
 public string SlideImageSizeUnitCode { get; }

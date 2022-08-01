@@ -1,14 +1,14 @@
 ---
 title: Clear
 second_title: Справочник по API Aspose.Slides для .NET
-description: Удаляет все предметы из коллекции.
+description: Удаляет все элементы из коллекции.
 type: docs
 weight: 30
 url: /ru/net/aspose.slides/icustomxmlpartcollection/clear/
 ---
 ## ICustomXmlPartCollection.Clear method
 
-Удаляет все предметы из коллекции.
+Удаляет все элементы из коллекции.
 
 ```csharp
 public void Clear()

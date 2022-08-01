@@ -1,14 +1,14 @@
 ---
 title: BackgroundFillStyles
 second_title: Aspose.Slides for .NET API 参考
-description: 返回主题定义的背景填充样式的集合 只读IFillFormatCollectionaspose.slides.theme/ifillformatcollection
+description: 返回主题定义的背景填充样式的集合 只读IFillFormatCollectionaspose.slides.theme/ifillformatcollection.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides.theme/formatscheme/backgroundfillstyles/
 ---
 ## FormatScheme.BackgroundFillStyles property
 
-返回主题定义的背景填充样式的集合。 只读[`IFillFormatCollection`](../../ifillformatcollection)。
+返回主题定义的背景填充样式的集合。 只读[`IFillFormatCollection`](../../ifillformatcollection).
 
 ```csharp
 public IFillFormatCollection BackgroundFillStyles { get; }

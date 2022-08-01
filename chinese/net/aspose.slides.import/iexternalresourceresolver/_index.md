@@ -1,14 +1,14 @@
 ---
 title: IExternalResourceResolver
 second_title: Aspose.Slides for .NET API 参考
-description: HtmlSvg文档导入时用于解析外部资源的回调接口
+description: HtmlSvg文档导入时解析外部资源的回调接口
 type: docs
 weight: 6880
 url: /zh/net/aspose.slides.import/iexternalresourceresolver/
 ---
 ## IExternalResourceResolver interface
 
-Html、Svg文档导入时用于解析外部资源的回调接口。
+Html、Svg文档导入时解析外部资源的回调接口。
 
 ```csharp
 public interface IExternalResourceResolver

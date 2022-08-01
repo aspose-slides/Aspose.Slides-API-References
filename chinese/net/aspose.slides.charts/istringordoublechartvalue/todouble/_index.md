@@ -1,14 +1,14 @@
 ---
 title: ToDouble
 second_title: Aspose.Slides for .NET API 参考
-description: 将值转换为双精度
+description: 将值转换为双精度值
 type: docs
 weight: 40
 url: /zh/net/aspose.slides.charts/istringordoublechartvalue/todouble/
 ---
 ## IStringOrDoubleChartValue.ToDouble method
 
-将值转换为双精度。
+将值转换为双精度值。
 
 ```csharp
 public double ToDouble()
@@ -16,7 +16,7 @@ public double ToDouble()
 
 ### 返回值
 
-双精度值Double
+双倍价值Double
 
 ### 也可以看看
 

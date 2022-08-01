@@ -16,11 +16,11 @@ public IAlphaReplace CreateAlphaReplace(float alpha)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| alpha | Single | Alpha |
+| alpha | Single | Альфа |
 
 ### Возвращаемое значение
 
-Alpha эффект замены.
+Альфа-эффект замены.
 
 ### Смотрите также
 

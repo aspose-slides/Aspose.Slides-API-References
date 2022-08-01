@@ -19,15 +19,15 @@ public interface IBaseSlideHeaderFooterManager : IBaseHeaderFooterManager
 | Имя | Описание |
 | --- | --- |
 | [AsIBaseHeaderFooterManager](../../aspose.slides/ibaseslideheaderfootermanager/asibaseheaderfootermanager) { get; } | Возвращает интерфейс IBaseHeaderFooterManager. |
-| [IsDateTimeVisible](../../aspose.slides/ibaseslideheaderfootermanager/isdatetimevisible) { get; } | Получает значение, указывающее на наличие заполнителя даты и времени. ЧтениеBoolean. |
-| [IsFooterVisible](../../aspose.slides/ibaseslideheaderfootermanager/isfootervisible) { get; } | Получает значение, указывающее, что присутствует заполнитель нижнего колонтитула. ЧтениеBoolean. |
-| [IsSlideNumberVisible](../../aspose.slides/ibaseslideheaderfootermanager/isslidenumbervisible) { get; } | Получает значение, указывающее, что присутствует заполнитель номера страницы. ЧтениеBoolean. |
+| [IsDateTimeVisible](../../aspose.slides/ibaseslideheaderfootermanager/isdatetimevisible) { get; } | Получает значение, указывающее на наличие заполнителя даты и времени. ЧтениеBoolean . |
+| [IsFooterVisible](../../aspose.slides/ibaseslideheaderfootermanager/isfootervisible) { get; } | Получает значение, указывающее, что присутствует заполнитель нижнего колонтитула. ЧтениеBoolean . |
+| [IsSlideNumberVisible](../../aspose.slides/ibaseslideheaderfootermanager/isslidenumbervisible) { get; } | Получает значение, указывающее, что присутствует заполнитель номера страницы. ЧтениеBoolean . |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [SetDateTimeText](../../aspose.slides/ibaseslideheaderfootermanager/setdatetimetext)(string) | Устанавливает текст в качестве заполнителя даты и времени слайда. |
+| [SetDateTimeText](../../aspose.slides/ibaseslideheaderfootermanager/setdatetimetext)(string) | Устанавливает текст в качестве заполнителя даты и времени на слайде. |
 | [SetDateTimeVisibility](../../aspose.slides/ibaseslideheaderfootermanager/setdatetimevisibility)(bool) | Изменяет видимость заполнителя даты и времени слайда. |
 | [SetFooterText](../../aspose.slides/ibaseslideheaderfootermanager/setfootertext)(string) | Устанавливает текст в качестве заполнителя нижнего колонтитула слайда. |
 | [SetFooterVisibility](../../aspose.slides/ibaseslideheaderfootermanager/setfootervisibility)(bool) | Изменяет видимость заполнителя нижнего колонтитула слайда. |

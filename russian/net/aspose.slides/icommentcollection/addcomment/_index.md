@@ -17,7 +17,7 @@ public IComment AddComment(string text, ISlide slide, PointF position, DateTime 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | text | String | Простой текст нового комментария. |
-| слайд | ISlide | Слайд в презентации, куда добавить новый комментарий. |
+| slide | ISlide | Слайд в презентации, где добавить новый комментарий. |
 | position | PointF | Позиция на слайде, где добавить новый комментарий. |
 | creationTime | DateTime | Время создания комментария. |
 

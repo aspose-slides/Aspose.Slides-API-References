@@ -1,14 +1,14 @@
 ---
 title: MotionPathEditMode
 second_title: Справочник по API Aspose.Slides для .NET
-description: Указывает как движется траектория движения при перемещении целевой фигуры
+description: Указывает как перемещается траектория движения при перемещении целевой фигуры
 type: docs
 weight: 600
 url: /ru/net/aspose.slides.animation/motionpatheditmode/
 ---
 ## MotionPathEditMode enumeration
 
-Указывает, как движется траектория движения при перемещении целевой фигуры
+Указывает, как перемещается траектория движения при перемещении целевой фигуры
 
 ```csharp
 public enum MotionPathEditMode

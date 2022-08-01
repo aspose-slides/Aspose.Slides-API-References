@@ -1,14 +1,14 @@
 ---
 title: TrendLines
 second_title: Aspose.Slides for .NET API 参考
-description: 系列趋势线集合 只读ITrendlineCollectionaspose.slides.charts/itrendlinecollection
+description: 系列趋势线集合 只读ITrendlineCollectionaspose.slides.charts/itrendlinecollection.
 type: docs
 weight: 430
 url: /zh/net/aspose.slides.charts/ichartseries/trendlines/
 ---
 ## IChartSeries.TrendLines property
 
-系列趋势线集合 只读[`ITrendlineCollection`](../../itrendlinecollection)。
+系列趋势线集合 只读[`ITrendlineCollection`](../../itrendlinecollection).
 
 ```csharp
 public ITrendlineCollection TrendLines { get; }

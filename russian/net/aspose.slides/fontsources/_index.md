@@ -25,7 +25,7 @@ public class FontSources : IFontSources
 | Имя | Описание |
 | --- | --- |
 | [FontFolders](../../aspose.slides/fontsources/fontfolders) { get; set; } | Папки, содержащие файлы шрифтов. Все файлы шрифтов, расположенные в этих папках, включены в коллекцию. Папки, в которых выполняется рекурсивный поиск. |
-| [MemoryFonts](../../aspose.slides/fontsources/memoryfonts) { get; set; } | Коллекция шрифтов, представленных в виде байтовых массивов. |
+| [MemoryFonts](../../aspose.slides/fontsources/memoryfonts) { get; set; } | Коллекция шрифтов, представленных в виде массивов байтов. |
 
 ### Смотрите также
 

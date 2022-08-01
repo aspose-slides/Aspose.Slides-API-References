@@ -18,10 +18,10 @@ public interface ICommandEffect : IBehavior
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsIBehavior](../../aspose.slides.animation/icommandeffect/asibehavior) { get; } | 允许获取基本 IBehavior 接口。 只读[`IBehavior`](../ibehavior)。 |
-| [CommandString](../../aspose.slides.animation/icommandeffect/commandstring) { get; set; } | 定义命令字符串。 读/写String。 |
-| [ShapeTarget](../../aspose.slides.animation/icommandeffect/shapetarget) { get; set; } | 定义命令效果的形状目标。 读/写[`IShape`](../../aspose.slides/ishape)。 |
-| [Type](../../aspose.slides.animation/icommandeffect/type) { get; set; } | 定义行为的命令效果类型。 读/写[`CommandEffectType`](../commandeffecttype)。 |
+| [AsIBehavior](../../aspose.slides.animation/icommandeffect/asibehavior) { get; } | 允许获取基本 IBehavior 接口。 只读[`IBehavior`](../ibehavior). |
+| [CommandString](../../aspose.slides.animation/icommandeffect/commandstring) { get; set; } | 定义命令字符串。 读/写String. |
+| [ShapeTarget](../../aspose.slides.animation/icommandeffect/shapetarget) { get; set; } | 定义命令效果的形状目标。 读/写[`IShape`](../../aspose.slides/ishape). |
+| [Type](../../aspose.slides.animation/icommandeffect/type) { get; set; } | 定义行为的命令效果类型。 读/写[`CommandEffectType`](../commandeffecttype). |
 
 ### 也可以看看
 

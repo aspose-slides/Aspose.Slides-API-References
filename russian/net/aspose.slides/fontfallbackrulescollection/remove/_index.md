@@ -16,7 +16,7 @@ public void Remove(IFontFallBackRule targetRule)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| targetRule | IFontFallBackRule | Правило для удаления из коллекции. |
+| targetRule | IFontFallBackRule | Правило удаления из коллекции. |
 
 ### Примеры
 
@@ -24,16 +24,16 @@ public void Remove(IFontFallBackRule targetRule)
 [C#]
 using (Presentation pres = new Presentation ())
 {
-     //Получение пустой или предварительно инициализированной коллекции правил из FontsManager
+    //Получение пустой или предварительно инициализированной коллекции правил из FontsManager
     IFontFallBackRulesCollection rulesList = pres.FontsManager.FontFallBackRulesCollection;
 
-     //Добавление нескольких правил в collection
+    //Добавление нескольких правил в коллекцию
     rulesList.Add(new FontFallBackRule(0x400,0x4FF, "Times New Roman"));
     rulesList.Add(new FontFallBackRule(0x3040, 0x309F, "MS Mincho"));
 
-     //Получение объекта первого правила в collection
+    //Получение объекта первого правила в коллекции
     IFontFallBackRule firstRule = rulesList[0];
-     //Удаление 
+    //Удаление 
     rulesList.Remove (firstRule);
 }
 ```

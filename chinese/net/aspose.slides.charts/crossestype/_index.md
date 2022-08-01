@@ -1,14 +1,14 @@
 ---
 title: CrossesType
 second_title: Aspose.Slides for .NET API 参考
-description: 确定轴的交叉位置
+description: 确定轴将交叉的位置
 type: docs
 weight: 1400
 url: /zh/net/aspose.slides.charts/crossestype/
 ---
 ## CrossesType enumeration
 
-确定轴的交叉位置。
+确定轴将交叉的位置。
 
 ```csharp
 public enum CrossesType
@@ -18,9 +18,9 @@ public enum CrossesType
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| AxisCrossesAtZero | `0` | 类别轴在值轴的零点交叉（如果可能），或最小值（如果最小值大于零）或最大值（如果最大值小于零）。 |
+| AxisCrossesAtZero | `0` | 类别轴交叉在值轴的零点（如果可能），或最小值（如果最小值大于零）或最大值（如果最大值小于零）。 |
 | Maximum | `1` | 轴在最大值处相交。 |
-| Custom | `2` | 属性 CrossAt 的自定义值 |
+| Custom | `2` | 来自属性 CrossAt 的自定义值 |
 
 ### 也可以看看
 

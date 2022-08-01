@@ -1,14 +1,14 @@
 ---
 title: Format
 second_title: Aspose.Slides for .NET API 参考
-description: 表示数据标签的格式 只读IFormataspose.slides.charts/iformat
+description: 表示数据标签的格式 只读IFormataspose.slides.charts/iformat.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides.charts/idatalabelformat/format/
 ---
 ## IDataLabelFormat.Format property
 
-表示数据标签的格式。 只读[`IFormat`](../../iformat)。
+表示数据标签的格式。 只读[`IFormat`](../../iformat).
 
 ```csharp
 public IFormat Format { get; }
@@ -16,7 +16,7 @@ public IFormat Format { get; }
 
 ### 评论
 
-如果此 DataLabelFormat 对象的父对象是数据标签的 DataLabelCollection 集合，则此 属性表示 DataLabelCollection 集合中新数据标签的默认格式。
+如果此 DataLabelFormat 对象的父对象是数据标签的 DataLabelCollection 集合，则 this 属性表示 DataLabelCollection 集合中新数据标签的默认格式。
 
 ### 也可以看看
 

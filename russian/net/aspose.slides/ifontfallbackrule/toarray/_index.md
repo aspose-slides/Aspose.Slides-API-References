@@ -16,16 +16,16 @@ public string[] ToArray()
 
 ### Возвращаемое значение
 
-МассивСтрока
+МассивString
 
 ### Примеры
 
 ```csharp
 [C#]
- // Создать правило, содержащее список шрифтов.
+// Создать правило, содержащее список шрифтов.
 IFontFallBackRule newRule = new FontFallBackRule(0x3040, 0x309F, "MS Mincho, MS Gothic, Tahoma, Times New Roman");
 
- //Получить все имена шрифтов как array
+//Получить все имена шрифтов в виде массива
 string[] fontNames = newRule.ToArray();
 ```
 
@@ -48,7 +48,7 @@ public string[] ToArray(int startIndex, int count)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | startIndex | Int32 | Индекс первого добавляемого шрифта. |
-| count | Int32 | Количество шрифтов для добавления. |
+| count | Int32 | Несколько шрифтов для добавления. |
 
 ### Возвращаемое значение
 
@@ -58,10 +58,10 @@ public string[] ToArray(int startIndex, int count)
 
 ```csharp
 [C#]
- // Создать правило, содержащее список шрифтов.
+// Создать правило, содержащее список шрифтов.
 IFontFallBackRule newRule = new FontFallBackRule(0x3040, 0x309F, "MS Mincho, MS Gothic, Tahoma, Times New Roman");
 
-//Получить два последних имени шрифта как array
+//Получить два последних имени шрифта в виде массива
 string[] fontNames = newRule.ToArray(2,2);
 ```
 

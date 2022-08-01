@@ -16,7 +16,7 @@ public INotesSlide AddNotesSlide()
 
 ### Возвращаемое значение
 
-[`INotesSlide`](../../inotesslide)для этого слайда.
+[`INotesSlide`](../../inotesslide) для этого слайда.
 
 ### Смотрите также
 

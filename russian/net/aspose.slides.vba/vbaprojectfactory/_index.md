@@ -24,7 +24,7 @@ public class VbaProjectFactory : IVbaProjectFactory
 
 | Имя | Описание |
 | --- | --- |
-| static [Instance](../../aspose.slides.vba/vbaprojectfactory/instance) { get; } | Статический экземпляр фабрики проектов VBA. Только для чтения[`VbaProjectFactory`](../vbaprojectfactory). |
+| static [Instance](../../aspose.slides.vba/vbaprojectfactory/instance) { get; } | Статический экземпляр фабрики проектов VBA. Только для чтения[`VbaProjectFactory`](../vbaprojectfactory) . |
 
 ## Методы
 

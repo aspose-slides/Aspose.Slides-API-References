@@ -17,14 +17,14 @@ public MathNaryOperator(char operatorSymbol, IMathElement baseArgument, IMathEle
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| operatorSymbol | Char | Nary operator symbol |
-| baseArgument | IMathElement | Base argument |
+| operatorSymbol | Char | Nary 运算符符号 |
+| baseArgument | IMathElement | 基本参数 |
 | lowerLimit | IMathElement | 下限 |
 | upperLimit | IMathElement | 上限 |
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]
@@ -50,13 +50,13 @@ public MathNaryOperator(char operatorSymbol, IMathElement baseArgument, IMathEle
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| operatorSymbol | Char | Nary operator symbol |
-| baseArgument | IMathElement | Base argument |
+| operatorSymbol | Char | Nary 运算符符号 |
+| baseArgument | IMathElement | 基本参数 |
 | lowerLimit | IMathElement | 下限 |
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]
@@ -82,12 +82,12 @@ public MathNaryOperator(char operatorSymbol, IMathElement baseArgument)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| operatorSymbol | Char | Nary operator symbol |
-| baseArgument | IMathElement | Base argument |
+| operatorSymbol | Char | Nary 运算符符号 |
+| baseArgument | IMathElement | 基本参数 |
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]

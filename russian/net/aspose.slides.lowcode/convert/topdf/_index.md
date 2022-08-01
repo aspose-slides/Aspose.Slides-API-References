@@ -1,14 +1,14 @@
 ---
 title: ToPdf
 second_title: Справочник по API Aspose.Slides для .NET
-description: ПреобразуетPresentationaspose.slides/presentationв PDF.
+description: ПреобразуетPresentationaspose.slides/presentation в PDF.
 type: docs
 weight: 20
 url: /ru/net/aspose.slides.lowcode/convert/topdf/
 ---
 ## ToPdf(string, string) {#topdf_2}
 
-Преобразует[`Presentation`](../../../aspose.slides/presentation)в PDF.
+Преобразует[`Presentation`](../../../aspose.slides/presentation) в PDF.
 
 ```csharp
 public static void ToPdf(string presPath, string outPath)
@@ -35,7 +35,7 @@ Convert.ToPdf("pres.pptx", "pres.pdf");
 
 ## ToPdf(string, string, IPdfOptions) {#topdf_3}
 
-Преобразует[`Presentation`](../../../aspose.slides/presentation)в PDF.
+Преобразует[`Presentation`](../../../aspose.slides/presentation) в PDF.
 
 ```csharp
 public static void ToPdf(string presPath, string outPath, IPdfOptions options)
@@ -64,7 +64,7 @@ Convert.ToPdf("pres.pptx", "pres.pdf", new PdfOptions{ Compliance = PdfComplianc
 
 ## ToPdf(Presentation, string) {#topdf}
 
-Преобразует[`Presentation`](../../../aspose.slides/presentation)в PDF.
+Преобразует[`Presentation`](../../../aspose.slides/presentation) в PDF.
 
 ```csharp
 public static void ToPdf(Presentation pres, string outPath)
@@ -95,7 +95,7 @@ using (Presentation pres = new Presentation("input.pptx"))
 
 ## ToPdf(Presentation, string, IPdfOptions) {#topdf_1}
 
-Преобразует[`Presentation`](../../../aspose.slides/presentation)в PDF.
+Преобразует[`Presentation`](../../../aspose.slides/presentation) в PDF.
 
 ```csharp
 public static void ToPdf(Presentation pres, string outPath, IPdfOptions options)

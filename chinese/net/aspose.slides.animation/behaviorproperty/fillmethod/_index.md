@@ -1,14 +1,14 @@
 ---
 title: FillMethod
 second_title: Aspose.Slides for .NET API 参考
-description: 表示fill.method属性
+description: 表示 fill.method 属性
 type: docs
 weight: 350
 url: /zh/net/aspose.slides.animation/behaviorproperty/fillmethod/
 ---
 ## BehaviorProperty.FillMethod property
 
-表示'fill.method'属性
+表示 'fill.method' 属性
 
 ```csharp
 public static BehaviorProperty FillMethod { get; }

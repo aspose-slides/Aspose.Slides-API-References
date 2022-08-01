@@ -1,14 +1,14 @@
 ---
 title: Type
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает тип этой группы серий. Только для чтенияCombinableSeriesTypesGroupaspose.slides.charts/combinableseriestypesgroup.
+description: Возвращает тип этой группы серий. Только для чтенияCombinableSeriesTypesGroupaspose.slides.charts/combinableseriestypesgroup .
 type: docs
 weight: 190
 url: /ru/net/aspose.slides.charts/ichartseriesgroup/type/
 ---
 ## IChartSeriesGroup.Type property
 
-Возвращает тип этой группы серий. Только для чтения[`CombinableSeriesTypesGroup`](../../combinableseriestypesgroup).
+Возвращает тип этой группы серий. Только для чтения[`CombinableSeriesTypesGroup`](../../combinableseriestypesgroup) .
 
 ```csharp
 public CombinableSeriesTypesGroup Type { get; }

@@ -18,10 +18,10 @@ public interface IActualLayout
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ActualHeight](../../aspose.slides.charts/iactuallayout/actualheight) { get; } | 指定图表元素的实际高度。在获取实际值之前调用方法 IChart.ValidateChartLayout()。 读取Single。 |
-| [ActualWidth](../../aspose.slides.charts/iactuallayout/actualwidth) { get; } | 指定图表元素的实际宽度。在获取实际值之前调用方法 IChart.ValidateChartLayout()。 读取Single。 |
-| [ActualX](../../aspose.slides.charts/iactuallayout/actualx) { get; } | 指定图表元素相对于图表左上角的实际 x 位置（左侧）。 在获取实际值之前调用方法 IChart.ValidateChartLayout()。 读取Single。 |
-| [ActualY](../../aspose.slides.charts/iactuallayout/actualy) { get; } | 指定相对于图表左上角的图表元素的实际顶部。 在获取实际值之前调用方法 IChart.ValidateChartLayout()。 读取Single。 |
+| [ActualHeight](../../aspose.slides.charts/iactuallayout/actualheight) { get; } | 指定图表元素的实际高度。在获取实际值之前调用方法 IChart.ValidateChartLayout()。 读Single. |
+| [ActualWidth](../../aspose.slides.charts/iactuallayout/actualwidth) { get; } | 指定图表元素的实际宽度。在获取实际值之前调用方法 IChart.ValidateChartLayout()。 读Single. |
+| [ActualX](../../aspose.slides.charts/iactuallayout/actualx) { get; } | 指定图表元素相对于图表左上角的实际 x 位置（左侧）。 在获取实际值之前调用方法 IChart.ValidateChartLayout()。 读Single. |
+| [ActualY](../../aspose.slides.charts/iactuallayout/actualy) { get; } | 指定相对于图表左上角的图表元素的实际顶部。 在获取实际值之前调用方法 IChart.ValidateChartLayout()。 读Single. |
 
 ### 也可以看看
 

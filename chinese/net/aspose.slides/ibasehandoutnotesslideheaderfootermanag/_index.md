@@ -19,7 +19,7 @@ public interface IBaseHandoutNotesSlideHeaderFooterManag : IBaseSlideHeaderFoote
 | 姓名 | 描述 |
 | --- | --- |
 | [AsIBaseSlideHeaderFooterManager](../../aspose.slides/ibasehandoutnotesslideheaderfootermanag/asibaseslideheaderfootermanager) { get; } | 返回 IBaseSlideHeaderFooterManager 接口。 |
-| [IsHeaderVisible](../../aspose.slides/ibasehandoutnotesslideheaderfootermanag/isheadervisible) { get; } | 获取指示存在标头占位符的值。 读取Boolean。 |
+| [IsHeaderVisible](../../aspose.slides/ibasehandoutnotesslideheaderfootermanag/isheadervisible) { get; } | 获取指示存在标头占位符的值。 读取Boolean. |
 
 ## 方法
 
@@ -30,7 +30,7 @@ public interface IBaseHandoutNotesSlideHeaderFooterManag : IBaseSlideHeaderFoote
 
 ### 评论
 
-原始接口名称“IBaseHandoutNotesSlideHeaderFooterManager”为了 COM 兼容性被转换为“IBaseHandoutNotesSlideHeaderFooterManag”（类型名称长度必须不超过 39）。
+原来的接口名称“IBaseHandoutNotesSlideHeaderFooterManager”为了兼容 COM 被转换为“IBaseHandoutNotesSlideHeaderFooterManag”（类型名称长度不能超过 39）。
 
 ### 也可以看看
 

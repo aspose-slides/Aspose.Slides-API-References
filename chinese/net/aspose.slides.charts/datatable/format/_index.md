@@ -1,14 +1,14 @@
 ---
 title: Format
 second_title: Aspose.Slides for .NET API 参考
-description: 返回对象的线条填充和效果样式 只读IFormataspose.slides.charts/iformat
+description: 返回对象的线条填充和效果样式 只读IFormataspose.slides.charts/iformat.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides.charts/datatable/format/
 ---
 ## DataTable.Format property
 
-返回对象的线条、填充和效果样式。 只读[`IFormat`](../../iformat)。
+返回对象的线条、填充和效果样式。 只读[`IFormat`](../../iformat).
 
 ```csharp
 public IFormat Format { get; }

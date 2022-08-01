@@ -1,14 +1,14 @@
 ---
 title: ErrorBarsFormat
 second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет планки погрешностей ряда диаграммы. Пользовательские значения ErrorBars находятся в IChartDataPointCollection в свойствеErrorBarsCustomValues./ichartdatapoint/errorbarscustomvalues.
+description: Представляет планки погрешностей рядов диаграмм. Пользовательские значения ErrorBars находятся в IChartDataPointCollection вErrorBarsCustomValues./ichartdatapoint/errorbarscustomvalues свойство.
 type: docs
 weight: 1530
 url: /ru/net/aspose.slides.charts/errorbarsformat/
 ---
 ## ErrorBarsFormat class
 
-Представляет планки погрешностей ряда диаграммы. Пользовательские значения ErrorBars находятся в IChartDataPointCollection (в свойстве[`ErrorBarsCustomValues`](../ichartdatapoint/errorbarscustomvalues)).
+Представляет планки погрешностей рядов диаграмм. Пользовательские значения ErrorBars находятся в IChartDataPointCollection (в[`ErrorBarsCustomValues`](../ichartdatapoint/errorbarscustomvalues) свойство).
 
 ```csharp
 public class ErrorBarsFormat : DomObject<ChartSeries>, IErrorBarsFormat
@@ -18,13 +18,13 @@ public class ErrorBarsFormat : DomObject<ChartSeries>, IErrorBarsFormat
 
 | Имя | Описание |
 | --- | --- |
-| [Chart](../../aspose.slides.charts/errorbarsformat/chart) { get; } | Возвращает родительскую диаграмму. Только для чтения[`IChart`](../ichart). |
-| [Format](../../aspose.slides.charts/errorbarsformat/format) { get; set; } | Представляет формат полос ошибок. Чтение/запись[`IFormat`](../iformat). |
-| [HasEndCap](../../aspose.slides.charts/errorbarsformat/hasendcap) { get; set; } | Указывает, что заглушка не рисуется на планках погрешностей. Чтение/записьBoolean. |
-| [IsVisible](../../aspose.slides.charts/errorbarsformat/isvisible) { get; set; } | Получает или задает видимость полос ошибок. Чтение/записьBoolean. |
-| [Type](../../aspose.slides.charts/errorbarsformat/type) { get; set; } | Получает или задает тип баров ошибок. Чтение/запись[`ErrorBarType`](../errorbartype). |
-| [Value](../../aspose.slides.charts/errorbarsformat/value) { get; set; } | Получает или задает значение, которое используется с типами значений Fixed, Percentage и StandardDeviation для определения длины полос ошибок. В любом другом случае вернет NaN. Чтение/записьSingle. |
-| [ValueType](../../aspose.slides.charts/errorbarsformat/valuetype) { get; set; } | Представляет возможные способы определения длины планок ошибок. В случае пользовательского типа значения для указания значения используйте[`ErrorBarsCustomValues`](../ichartdatapoint/errorbarscustomvalues)свойство конкретной точки данных в наборе рядов DataPoints. В случае типа значения Fixed, Percentage или StandardDeviation используйте свойство Value для указания значения. Чтение/запись[`ErrorBarValueType`](../errorbarvaluetype). |
+| [Chart](../../aspose.slides.charts/errorbarsformat/chart) { get; } | Возвращает родительскую диаграмму. Только для чтения[`IChart`](../ichart) . |
+| [Format](../../aspose.slides.charts/errorbarsformat/format) { get; set; } | Представляет формат полос ошибок. Чтение/запись[`IFormat`](../iformat) . |
+| [HasEndCap](../../aspose.slides.charts/errorbarsformat/hasendcap) { get; set; } | Указывает, что заглушка не рисуется на планках погрешностей. Чтение/записьBoolean . |
+| [IsVisible](../../aspose.slides.charts/errorbarsformat/isvisible) { get; set; } | Получает или устанавливает видимость полос ошибок . Чтение/записьBoolean . |
+| [Type](../../aspose.slides.charts/errorbarsformat/type) { get; set; } | Получает или задает тип баров ошибок. Чтение/запись[`ErrorBarType`](../errorbartype) . |
+| [Value](../../aspose.slides.charts/errorbarsformat/value) { get; set; } | Получает или задает значение, которое используется с типами значений Fixed, Percentage и StandardDeviation для определения длины полос ошибок. В любом другом случае вернет NaN. Чтение/записьSingle . |
+| [ValueType](../../aspose.slides.charts/errorbarsformat/valuetype) { get; set; } | Представляет возможные способы определения длины полос ошибок. В случае пользовательского типа значения для указания использования значения[`ErrorBarsCustomValues`](../ichartdatapoint/errorbarscustomvalues)свойство конкретной точки данных в наборе DataPoints серии. В случае типа значения Fixed, Percentage или StandardDeviation используйте свойство Value для указания значения. Чтение/запись[`ErrorBarValueType`](../errorbarvaluetype) . |
 
 ### Смотрите также
 

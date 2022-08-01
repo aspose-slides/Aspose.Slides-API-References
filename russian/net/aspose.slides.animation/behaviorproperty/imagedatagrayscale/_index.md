@@ -8,7 +8,7 @@ url: /ru/net/aspose.slides.animation/behaviorproperty/imagedatagrayscale/
 ---
 ## BehaviorProperty.ImageDataGrayscale property
 
-Представляет свойство 'imageData.grayscale'
+Представляет свойство imageData.grayscale
 
 ```csharp
 public static BehaviorProperty ImageDataGrayscale { get; }

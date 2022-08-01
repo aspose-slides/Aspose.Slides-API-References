@@ -17,10 +17,10 @@ public IMotionCmdPath Add(MotionCommandPathType type, PointF[] pts, MotionPathPo
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| type | MotionCommandPathType | 动画命令类型运动效果行为[`MotionCommandPathType`](../../motioncommandpathtype) |
-| pts | PointF[] | Points arrayPointF[] |
+| type | MotionCommandPathType | 动画运动效果行为的命令类型[`MotionCommandPathType`](../../motioncommandpathtype) |
+| pts | PointF[] | 点数组PointF[] |
 | ptsType | MotionPathPointsType | 动画运动路径中的点类型[`MotionPathPointsType`](../../motionpathpointstype) |
-| bRelativeCoord | Boolean | 表示是否使用相对坐标Boolean |
+| bRelativeCoord | Boolean | 指示是否使用相对坐标Boolean |
 
 ### 返回值
 

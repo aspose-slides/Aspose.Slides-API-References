@@ -1,14 +1,14 @@
 ---
 title: SpaceBefore
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или задает количество места перед первой строкой в абзаце. Чтение/записьSingle.
+description: Возвращает или задает расстояние перед первой строкой абзаца. Чтение/записьSingle .
 type: docs
 weight: 120
 url: /ru/net/aspose.slides.charts/ichartparagraphformat/spacebefore/
 ---
 ## IChartParagraphFormat.SpaceBefore property
 
-Возвращает или задает количество места перед первой строкой в абзаце. Чтение/записьSingle.
+Возвращает или задает расстояние перед первой строкой абзаца. Чтение/записьSingle .
 
 ```csharp
 public float SpaceBefore { get; set; }

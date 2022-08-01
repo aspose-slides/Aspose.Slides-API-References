@@ -1,14 +1,14 @@
 ---
 title: InsertGroupShape
 second_title: Aspose.Slides for .NET API 参考
-description: 创建一个新的 GroupShape 并将其插入到指定索引处的集合中 将新形状添加到 GroupShape 时GroupShape 框架的大小和位置将适合内容
+description: 创建一个新的 GroupShape 并将其插入到指定索引处的集合中 当将新形状添加到 GroupShape 中时GroupShape 框架的大小和位置将适合内容
 type: docs
 weight: 340
 url: /zh/net/aspose.slides/shapecollection/insertgroupshape/
 ---
 ## ShapeCollection.InsertGroupShape method
 
-创建一个新的 GroupShape 并将其插入到指定索引处的集合中。 将新形状添加到 GroupShape 时，GroupShape 框架的大小和位置将适合内容。
+创建一个新的 GroupShape 并将其插入到指定索引处的集合中。 当将新形状添加到 GroupShape 中时，GroupShape 框架的大小和位置将适合内容。
 
 ```csharp
 public IGroupShape InsertGroupShape(int index)
@@ -16,7 +16,7 @@ public IGroupShape InsertGroupShape(int index)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| index | Int32 | 应该插入值的从零开始的索引。 |
+| index | Int32 | 应插入值的从零开始的索引。 |
 
 ### 返回值
 

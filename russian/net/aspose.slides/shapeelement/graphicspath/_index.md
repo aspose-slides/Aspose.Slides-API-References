@@ -1,14 +1,14 @@
 ---
 title: GraphicsPath
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает путь элемента. Только для чтенияGraphicsPath.
+description: Возвращает путь к элементу. Только для чтенияGraphicsPath .
 type: docs
 weight: 20
 url: /ru/net/aspose.slides/shapeelement/graphicspath/
 ---
 ## ShapeElement.GraphicsPath property
 
-Возвращает путь элемента. Только для чтенияGraphicsPath.
+Возвращает путь к элементу. Только для чтенияGraphicsPath .
 
 ```csharp
 public GraphicsPath GraphicsPath { get; }

@@ -18,10 +18,10 @@ public interface IFilterEffect : IBehavior
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsIBehavior](../../aspose.slides.animation/ifiltereffect/asibehavior) { get; } | 允许获取基本 IBehavior 接口。 只读[`IBehavior`](../ibehavior)。 |
-| [Reveal](../../aspose.slides.animation/ifiltereffect/reveal) { get; set; } | 表示具有行为的效果必须显示（输入/输出） 读/写Animation。FilterEffectRevealType。 |
-| [Subtype](../../aspose.slides.animation/ifiltereffect/subtype) { get; set; } | 表示滤镜效果的子类型。 读/写[`FilterEffectSubtype`](../filtereffectsubtype)。 |
-| [Type](../../aspose.slides.animation/ifiltereffect/type) { get; set; } | 表示滤镜效果的类型。 读/写[`FilterEffectType`](../filtereffecttype)。 |
+| [AsIBehavior](../../aspose.slides.animation/ifiltereffect/asibehavior) { get; } | 允许获取基本 IBehavior 接口。 只读[`IBehavior`](../ibehavior). |
+| [Reveal](../../aspose.slides.animation/ifiltereffect/reveal) { get; set; } | 表示具有行为的效果必须显示（输入/输出） 读/写[`FilterEffectRevealType`](../filtereffectrevealtype). |
+| [Subtype](../../aspose.slides.animation/ifiltereffect/subtype) { get; set; } | 表示滤镜效果的子类型。 读/写[`FilterEffectSubtype`](../filtereffectsubtype). |
+| [Type](../../aspose.slides.animation/ifiltereffect/type) { get; set; } | 表示滤镜效果的类型。 读/写[`FilterEffectType`](../filtereffecttype). |
 
 ### 也可以看看
 

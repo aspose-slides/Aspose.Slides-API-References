@@ -1,14 +1,14 @@
 ---
 title: IndexOf
 second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет индекс конкретного IMathBlock в коллекции.
+description: Определяет индекс конкретного блока IMathBlock в коллекции.
 type: docs
 weight: 70
 url: /ru/net/aspose.slides.mathtext/imathblockcollection/indexof/
 ---
 ## IMathBlockCollection.IndexOf method
 
-Определяет индекс конкретного IMathBlock в коллекции.
+Определяет индекс конкретного блока IMathBlock в коллекции.
 
 ```csharp
 public int IndexOf(IMathBlock item)
@@ -20,7 +20,7 @@ public int IndexOf(IMathBlock item)
 
 ### Возвращаемое значение
 
-Индекс*item*если он найден в коллекции; иначе -1.
+Индекс*item* если найдено в коллекции; иначе -1.
 
 ### Примеры
 

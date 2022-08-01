@@ -1,14 +1,14 @@
 ---
 title: FillFormat
 second_title: Aspose.Slides for .NET API 参考
-description: 返回文本 FillFormat 属性 只读IFillFormatEffectiveDataaspose.slides/ifillformateffectivedata
+description: 返回文本 FillFormat 属性 只读IFillFormatEffectiveDataaspose.slides/ifillformateffectivedata.
 type: docs
 weight: 60
 url: /zh/net/aspose.slides/ibaseportionformateffectivedata/fillformat/
 ---
 ## IBasePortionFormatEffectiveData.FillFormat property
 
-返回文本 FillFormat 属性。 只读[`IFillFormatEffectiveData`](../../ifillformateffectivedata)。
+返回文本 FillFormat 属性。 只读[`IFillFormatEffectiveData`](../../ifillformateffectivedata).
 
 ```csharp
 public IFillFormatEffectiveData FillFormat { get; }

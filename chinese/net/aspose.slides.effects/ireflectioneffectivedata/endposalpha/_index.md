@@ -1,14 +1,14 @@
 ---
 title: EndPosAlpha
 second_title: Aspose.Slides for .NET API 参考
-description: 指定结束 alpha 值百分比的结束位置沿着 alpha 渐变斜坡 只读Single
+description: 指定结束 alpha 值百分比的结束位置沿着 alpha 渐变斜坡 只读Single.
 type: docs
 weight: 50
 url: /zh/net/aspose.slides.effects/ireflectioneffectivedata/endposalpha/
 ---
 ## IReflectionEffectiveData.EndPosAlpha property
 
-指定结束 alpha 值（百分比）的结束位置（沿着 alpha 渐变斜坡）。 只读Single。
+指定结束 alpha 值（百分比）的结束位置（沿着 alpha 渐变斜坡）。 只读Single.
 
 ```csharp
 public float EndPosAlpha { get; }

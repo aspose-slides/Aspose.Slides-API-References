@@ -18,8 +18,8 @@ public sealed class VbaModule : IVbaModule
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Name](../../aspose.slides.vba/vbamodule/name) { get; } | 获取模块的名称。 只读String。 |
-| [SourceCode](../../aspose.slides.vba/vbamodule/sourcecode) { get; set; } | 返回或设置模块的源代码。 读/写String。 |
+| [Name](../../aspose.slides.vba/vbamodule/name) { get; } | 获取模块的名称。 只读String. |
+| [SourceCode](../../aspose.slides.vba/vbamodule/sourcecode) { get; set; } | 返回或设置模块的源代码。 读/写String. |
 
 ### 也可以看看
 

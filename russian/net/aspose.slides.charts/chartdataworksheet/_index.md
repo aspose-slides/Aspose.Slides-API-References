@@ -18,8 +18,8 @@ public class ChartDataWorksheet : DomObject<ChartDataWorksheetCollection>, IChar
 
 | Имя | Описание |
 | --- | --- |
-| [Index](../../aspose.slides.charts/chartdataworksheet/index) { get; } | Получает индекс листа. Только для чтенияInt32. |
-| [Name](../../aspose.slides.charts/chartdataworksheet/name) { get; } | Возвращает имя листа. Только чтениеString. |
+| [Index](../../aspose.slides.charts/chartdataworksheet/index) { get; } | Получает индекс рабочего листа. Только для чтенияInt32 . |
+| [Name](../../aspose.slides.charts/chartdataworksheet/name) { get; } | Возвращает имя рабочего листа. Только для чтенияString . |
 
 ### Смотрите также
 

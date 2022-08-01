@@ -1,14 +1,14 @@
 ---
 title: Material
 second_title: Aspose.Slides for .NET API 参考
-description: 返回材质的类型 只读MaterialPresetTypeaspose.slides/materialpresettype
+description: 返回材质的类型 只读MaterialPresetTypeaspose.slides/materialpresettype.
 type: docs
 weight: 110
 url: /zh/net/aspose.slides/ithreedformateffectivedata/material/
 ---
 ## IThreeDFormatEffectiveData.Material property
 
-返回材质的类型。 只读[`MaterialPresetType`](../../materialpresettype)。
+返回材质的类型。 只读[`MaterialPresetType`](../../materialpresettype).
 
 ```csharp
 public MaterialPresetType Material { get; }

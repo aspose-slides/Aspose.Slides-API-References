@@ -1,14 +1,14 @@
 ---
 title: Name
 second_title: Aspose.Slides for .NET API 参考
-description: 节的名称
+description: 部分的名称
 type: docs
 weight: 10
 url: /zh/net/aspose.slides/isection/name/
 ---
 ## ISection.Name property
 
-节的名称。
+部分的名称。
 
 ```csharp
 public string Name { get; set; }

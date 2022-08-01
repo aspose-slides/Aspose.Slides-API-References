@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Slides for .NET API 参考
-description: 返回按索引停止的渐变
+description: 按索引返回梯度停止点
 type: docs
 weight: 10
 url: /zh/net/aspose.slides/igradientstopcollection/item/
 ---
 ## IGradientStopCollection indexer
 
-返回按索引停止的渐变。
+按索引返回梯度停止点。
 
 ```csharp
 public IGradientStop this[int index] { get; }

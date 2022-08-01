@@ -18,12 +18,12 @@ public interface IDataTable : IFormattedTextContainer
 
 | Имя | Описание |
 | --- | --- |
-| [AsIFormattedTextContainer](../../aspose.slides.charts/idatatable/asiformattedtextcontainer) { get; } | Позволяет получить базовый интерфейс IFormattedTextContainer. Только для чтения[`IFormattedTextContainer`](../iformattedtextcontainer). |
-| [Format](../../aspose.slides.charts/idatatable/format) { get; } | Возвращает стили линии, заливки и эффекта объекта. Только для чтения[`IFormat`](../iformat). |
-| [HasBorderHorizontal](../../aspose.slides.charts/idatatable/hasborderhorizontal) { get; set; } | Истинно, если таблица данных диаграммы имеет горизонтальные границы ячеек. Чтение/записьBoolean. |
-| [HasBorderOutline](../../aspose.slides.charts/idatatable/hasborderoutline) { get; set; } | Истинно, если таблица данных диаграммы имеет контурные границы. Чтение/записьBoolean. |
-| [HasBorderVertical](../../aspose.slides.charts/idatatable/hasbordervertical) { get; set; } | Истинно, если таблица данных диаграммы имеет вертикальные границы ячеек. Чтение/записьBoolean. |
-| [ShowLegendKey](../../aspose.slides.charts/idatatable/showlegendkey) { get; set; } | Истинно, если ключ легенды метки данных виден. Чтение/записьBoolean. |
+| [AsIFormattedTextContainer](../../aspose.slides.charts/idatatable/asiformattedtextcontainer) { get; } | Позволяет получить базовый интерфейс IFormattedTextContainer. Только для чтения[`IFormattedTextContainer`](../iformattedtextcontainer) . |
+| [Format](../../aspose.slides.charts/idatatable/format) { get; } | Возвращает стили линии, заливки и эффекта объекта. Только для чтения[`IFormat`](../iformat) . |
+| [HasBorderHorizontal](../../aspose.slides.charts/idatatable/hasborderhorizontal) { get; set; } | Истинно, если таблица данных диаграммы имеет горизонтальные границы ячеек. Чтение/записьBoolean . |
+| [HasBorderOutline](../../aspose.slides.charts/idatatable/hasborderoutline) { get; set; } | Истинно, если таблица данных диаграммы имеет контурные границы. Чтение/записьBoolean . |
+| [HasBorderVertical](../../aspose.slides.charts/idatatable/hasbordervertical) { get; set; } | Истинно, если таблица данных диаграммы имеет вертикальные границы ячеек. Чтение/записьBoolean . |
+| [ShowLegendKey](../../aspose.slides.charts/idatatable/showlegendkey) { get; set; } | Истинно, если виден ключ легенды метки данных. Чтение/записьBoolean . |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: Count
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает ряд свойств в коллекции. Только для чтенияInt32.
+description: Возвращает ряд свойств в коллекции. Только для чтенияInt32 .
 type: docs
 weight: 20
 url: /ru/net/aspose.slides/icontrolpropertiescollection/count/
 ---
 ## IControlPropertiesCollection.Count property
 
-Возвращает ряд свойств в коллекции. Только для чтенияInt32.
+Возвращает ряд свойств в коллекции. Только для чтенияInt32 .
 
 ```csharp
 public int Count { get; }

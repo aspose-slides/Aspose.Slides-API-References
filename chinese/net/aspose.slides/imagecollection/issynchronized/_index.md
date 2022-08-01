@@ -1,14 +1,14 @@
 ---
 title: IsSynchronized
 second_title: Aspose.Slides for .NET API 参考
-description: 返回一个值指示对集合的访问是否同步线程安全 只读Boolean
+description: 返回一个值指示对集合的访问是否同步线程安全 只读Boolean.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides/imagecollection/issynchronized/
 ---
 ## ImageCollection.IsSynchronized property
 
-返回一个值，指示对集合的访问是否同步（线程安全）。 只读Boolean。
+返回一个值，指示对集合的访问是否同步（线程安全）。 只读Boolean.
 
 ```csharp
 public bool IsSynchronized { get; }

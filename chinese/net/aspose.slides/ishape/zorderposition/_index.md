@@ -1,14 +1,14 @@
 ---
 title: ZOrderPosition
 second_title: Aspose.Slides for .NET API 参考
-description: 返回形状在 z 顺序中的位置 Shapes0 返回 z 顺序后面的形状 和 ShapesShapes.Count - 1 返回 z 顺序前面的形状. 只读Int32
+description: 返回形状在 z 顺序中的位置 Shapes0 返回 z 顺序后面的形状 和 ShapesShapes.Count - 1 返回 z 前面的形状order. 只读Int32.
 type: docs
 weight: 280
 url: /zh/net/aspose.slides/ishape/zorderposition/
 ---
 ## IShape.ZOrderPosition property
 
-返回形状在 z 顺序中的位置。 Shapes[0] 返回 z 顺序后面的形状， 和 Shapes[Shapes.Count - 1] 返回 z 顺序前面的形状. 只读Int32。
+返回形状在 z 顺序中的位置。 Shapes[0] 返回 z 顺序后面的形状， 和 Shapes[Shapes.Count - 1] 返回 z 前面的形状order. 只读Int32.
 
 ```csharp
 public int ZOrderPosition { get; }

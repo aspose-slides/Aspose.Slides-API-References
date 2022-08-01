@@ -18,13 +18,13 @@ public interface ILayoutSlideCollection : IGenericCollection<ILayoutSlide>
 
 | Имя | Описание |
 | --- | --- |
-| [Item](../../aspose.slides/ilayoutslidecollection/item) { get; } | Возвращает макет слайда по индексу. Только для чтения[`ILayoutSlide`](../ilayoutslide). |
+| [Item](../../aspose.slides/ilayoutslidecollection/item) { get; } | Возвращает макет слайда по индексу. Только для чтения[`ILayoutSlide`](../ilayoutslide) . |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [GetByType](../../aspose.slides/ilayoutslidecollection/getbytype)(SlideLayoutType) | Возвращает первый макет слайда указанного типа. |
+| [GetByType](../../aspose.slides/ilayoutslidecollection/getbytype)(SlideLayoutType) | Возвращает первый слайд макета указанного типа. |
 | [Remove](../../aspose.slides/ilayoutslidecollection/remove)(ILayoutSlide) | Удаляет макет из коллекции. |
 | [RemoveUnused](../../aspose.slides/ilayoutslidecollection/removeunused)() | Удаляет неиспользуемые слайды макета (слайды макета, HasDependingSlides которых имеет значение false). |
 

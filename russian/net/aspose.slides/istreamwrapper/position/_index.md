@@ -1,14 +1,14 @@
 ---
 title: Position
 second_title: Справочник по API Aspose.Slides для .NET
-description: Получает позицию в текущем потоке. Только для чтенияInt64.
+description: Получает позицию в текущем потоке. Только для чтенияInt64 .
 type: docs
 weight: 60
 url: /ru/net/aspose.slides/istreamwrapper/position/
 ---
 ## IStreamWrapper.Position property
 
-Получает позицию в текущем потоке. Только для чтенияInt64.
+Получает позицию в текущем потоке. Только для чтенияInt64 .
 
 ```csharp
 public long Position { get; }

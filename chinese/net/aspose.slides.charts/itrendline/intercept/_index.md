@@ -1,14 +1,14 @@
 ---
 title: Intercept
 second_title: Aspose.Slides for .NET API 参考
-description: 指定趋势线应与 y 轴相交的值只有当趋势线类型为 explinear 或 poly 时才支持该属性  读/写Double
+description: 指定趋势线应与 y 轴相交的值仅当趋势线类型为 explinear 或 poly 时应支持此属性  读/写Double.
 type: docs
 weight: 70
 url: /zh/net/aspose.slides.charts/itrendline/intercept/
 ---
 ## ITrendline.Intercept property
 
-指定趋势线应与 y 轴相交的值。只有当趋势线类型为 exp、linear 或 poly 时，才支持该属性 。 读/写Double。
+指定趋势线应与 y 轴相交的值。仅当趋势线类型为 exp、linear 或 poly 时，应支持此属性 。 读/写Double.
 
 ```csharp
 public double Intercept { get; set; }

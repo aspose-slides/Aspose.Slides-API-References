@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Справочник по API Aspose.Slides для .NET
-description: Получает элемент по указанному индексу. Только для чтенияILineFormatEffectiveDataaspose.slides/ilineformateffectivedata.
+description: Получает элемент по указанному индексу. Только для чтенияILineFormatEffectiveDataaspose.slides/ilineformateffectivedata .
 type: docs
 weight: 10
 url: /ru/net/aspose.slides.theme/ilineformatcollectioneffectivedata/item/
 ---
 ## ILineFormatCollectionEffectiveData indexer
 
-Получает элемент по указанному индексу. Только для чтения[`ILineFormatEffectiveData`](../../../aspose.slides/ilineformateffectivedata).
+Получает элемент по указанному индексу. Только для чтения[`ILineFormatEffectiveData`](../../../aspose.slides/ilineformateffectivedata) .
 
 ```csharp
 public ILineFormatEffectiveData this[int index] { get; }

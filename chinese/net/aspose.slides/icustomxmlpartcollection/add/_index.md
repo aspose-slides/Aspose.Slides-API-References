@@ -16,17 +16,17 @@ public ICustomXmlPart Add(byte[] xmlData)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| xmlData | Byte[] | 要添加的新部件的xml数据。 |
+| xmlData | Byte[] | 要添加的新部件的 xml 数据。 |
 
 ### 返回值
 
-创建自定义 xml 部分。
+创建了自定义 xml 部分。
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | xmlData 是` null` 。 |
+| ArgumentNullException | xmlData 是`无效的`. |
 | ArgumentException | xmlData 为空或无效。 |
 
 ### 也可以看看
@@ -48,17 +48,17 @@ public ICustomXmlPart Add(string xmlString)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| xmlString | String | 要添加的新部分的 xml 字符串。 |
+| xmlString | String | 要添加的新部件的 xml 字符串。 |
 
 ### 返回值
 
-创建自定义 xml 部分。
+创建了自定义 xml 部分。
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | xmlString 是` null` 。 |
+| ArgumentNullException | xmlString 是`无效的`. |
 | ArgumentException | xmlString 为空或 xml-data 无效。 |
 
 ### 也可以看看
@@ -84,13 +84,13 @@ public ICustomXmlPart Add(Stream inputStream)
 
 ### 返回值
 
-创建自定义 xml 部分。
+创建了自定义 xml 部分。
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | inputStream 是` null` 。 |
+| ArgumentNullException | 输入流是`无效的`. |
 | ArgumentException | inputStream 中的数据为空或无效。 |
 
 ### 也可以看看

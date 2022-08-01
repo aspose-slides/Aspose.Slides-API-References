@@ -1,14 +1,14 @@
 ---
 title: ScaleHorizontal
 second_title: Aspose.Slides for .NET API 参考
-description: 指定水平缩放因子负缩放会导致翻转 百分比 读/写Double
+description: 指定水平缩放因子负缩放会导致翻转 百分比 读/写Double.
 type: docs
 weight: 90
 url: /zh/net/aspose.slides.effects/reflection/scalehorizontal/
 ---
 ## Reflection.ScaleHorizontal property
 
-指定水平缩放因子，负缩放会导致翻转。 （百分比） 读/写Double。
+指定水平缩放因子，负缩放会导致翻转。 （百分比） 读/写Double.
 
 ```csharp
 public double ScaleHorizontal { get; set; }

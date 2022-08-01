@@ -1,14 +1,14 @@
 ---
 title: SolidFillColor
 second_title: Aspose.Slides for .NET API 参考
-description: 返回填充颜色 只读IColorFormataspose.slides/icolorformat
+description: 返回填充颜色 只读IColorFormataspose.slides/icolorformat.
 type: docs
 weight: 60
 url: /zh/net/aspose.slides/fillformat/solidfillcolor/
 ---
 ## FillFormat.SolidFillColor property
 
-返回填充颜色。 只读[`IColorFormat`](../../icolorformat)。
+返回填充颜色。 只读[`IColorFormat`](../../icolorformat).
 
 ```csharp
 public IColorFormat SolidFillColor { get; }

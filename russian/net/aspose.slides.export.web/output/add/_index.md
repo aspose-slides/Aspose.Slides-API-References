@@ -24,7 +24,7 @@ public IOutputFile Add<TContextObject>(string path, string templateKey,
 
 ## Add(string, IPPImage) {#add_1}
 
-Добавляет выходной элемент для изображения.
+Добавляет элемент вывода для изображения.
 
 ```csharp
 public IOutputFile Add(string path, IPPImage image)
@@ -37,7 +37,7 @@ public IOutputFile Add(string path, IPPImage image)
 
 ### Возвращаемое значение
 
-[`IOutputFile`](../../ioutputfile)объект для изображения.
+[`IOutputFile`](../../ioutputfile)предмет для изображения.
 
 ### Смотрите также
 
@@ -51,7 +51,7 @@ public IOutputFile Add(string path, IPPImage image)
 
 ## Add(string, Image) {#add_3}
 
-Добавляет выходной элемент для изображения.
+Добавляет элемент вывода для изображения.
 
 ```csharp
 public IOutputFile Add(string path, Image image)
@@ -64,7 +64,7 @@ public IOutputFile Add(string path, Image image)
 
 ### Возвращаемое значение
 
-[`IOutputFile`](../../ioutputfile)объект для изображения.
+[`IOutputFile`](../../ioutputfile)предмет для изображения.
 
 ### Смотрите также
 
@@ -90,7 +90,7 @@ public IOutputFile Add(string path, IVideo video)
 
 ### Возвращаемое значение
 
-[`IOutputFile`](../../ioutputfile)объект для видео.
+[`IOutputFile`](../../ioutputfile) объект для видео.
 
 ### Смотрите также
 
@@ -118,7 +118,7 @@ public IOutputFile Add(string path, IFontData fontData, FontStyle fontStyle)
 
 ### Возвращаемое значение
 
-[`IOutputFile`](../../ioutputfile)объект для шрифта.
+[`IOutputFile`](../../ioutputfile) объект для шрифта.
 
 ### Смотрите также
 
@@ -141,11 +141,11 @@ public IOutputFile Add(string path, string textContent)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | path | String | Выходной путь. |
-| textContent | String | Содержимое для вывода. |
+| textContent | String | Контент для вывода. |
 
 ### Возвращаемое значение
 
-[`IOutputFile`](../../ioutputfile)объект для текстового содержимого.
+[`IOutputFile`](../../ioutputfile) объект для текстового содержимого.
 
 ### Смотрите также
 

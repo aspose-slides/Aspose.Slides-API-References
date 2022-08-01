@@ -18,9 +18,9 @@ public interface IPatternFormatEffectiveData
 
 | 姓名 | 描述 |
 | --- | --- |
-| [BackColor](../../aspose.slides/ipatternformateffectivedata/backcolor) { get; } | 返回背景图案颜色。 只读Color。 |
-| [ForeColor](../../aspose.slides/ipatternformateffectivedata/forecolor) { get; } | 返回前景图案颜色。 只读Color。 |
-| [PatternStyle](../../aspose.slides/ipatternformateffectivedata/patternstyle) { get; } | 返回图案样式。 只读[`PatternStyle`](../patternstyle)。 |
+| [BackColor](../../aspose.slides/ipatternformateffectivedata/backcolor) { get; } | 返回背景图案颜色。 只读Color. |
+| [ForeColor](../../aspose.slides/ipatternformateffectivedata/forecolor) { get; } | 返回前景图案颜色。 只读Color. |
+| [PatternStyle](../../aspose.slides/ipatternformateffectivedata/patternstyle) { get; } | 返回图案样式。 只读[`PatternStyle`](../patternstyle). |
 
 ## 方法
 
@@ -30,7 +30,7 @@ public interface IPatternFormatEffectiveData
 
 ### 评论
 
-此接口用作IFillFormatEffectiveData的一部分和[`ILineFillFormatEffectiveData`](../ilinefillformateffectivedata)。
+该接口用作[`IFillFormatEffectiveData`](../ifillformateffectivedata)和[`ILineFillFormatEffectiveData`](../ilinefillformateffectivedata).
 
 ### 也可以看看
 

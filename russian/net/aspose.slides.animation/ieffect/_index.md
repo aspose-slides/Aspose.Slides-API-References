@@ -18,14 +18,14 @@ public interface IEffect
 
 | Имя | Описание |
 | --- | --- |
-| [Behaviors](../../aspose.slides.animation/ieffect/behaviors) { get; set; } | Возвращает коллекцию поведения для эффекта. Чтение/запись[`IBehaviorCollection`](../ibehaviorcollection). |
-| [PresetClassType](../../aspose.slides.animation/ieffect/presetclasstype) { get; set; } | Определяет класс эффекта. Чтение/запись[`EffectPresetClassType`](../effectpresetclasstype). |
-| [Sequence](../../aspose.slides.animation/ieffect/sequence) { get; } | Возвращает последовательность для эффекта. Только для чтения[`ISequence`](../isequence). |
-| [Subtype](../../aspose.slides.animation/ieffect/subtype) { get; set; } | Определяет подтип эффекта. Чтение/запись[`EffectSubtype`](../effectsubtype). |
-| [TargetShape](../../aspose.slides.animation/ieffect/targetshape) { get; } | Возвращает целевую форму для эффекта. Только для чтения[`IShape`](../../aspose.slides/ishape). |
-| [TextAnimation](../../aspose.slides.animation/ieffect/textanimation) { get; } | Возвращает текстовую анимацию. Только чтение[`ITextAnimation`](../itextanimation). |
-| [Timing](../../aspose.slides.animation/ieffect/timing) { get; set; } | Определяет значение времени для эффекта. Чтение/запись[`ITiming`](../itiming). |
-| [Type](../../aspose.slides.animation/ieffect/type) { get; set; } | Определяет тип эффекта. Чтение/запись[`EffectType`](../effecttype). |
+| [Behaviors](../../aspose.slides.animation/ieffect/behaviors) { get; set; } | Возвращает коллекцию поведения для эффекта. Чтение/запись[`IBehaviorCollection`](../ibehaviorcollection) . |
+| [PresetClassType](../../aspose.slides.animation/ieffect/presetclasstype) { get; set; } | Определяет класс эффекта. Чтение/запись[`EffectPresetClassType`](../effectpresetclasstype) . |
+| [Sequence](../../aspose.slides.animation/ieffect/sequence) { get; } | Возвращает последовательность для эффекта. Только для чтения[`ISequence`](../isequence) . |
+| [Subtype](../../aspose.slides.animation/ieffect/subtype) { get; set; } | Определяет подтип эффекта. Чтение/запись[`EffectSubtype`](../effectsubtype) . |
+| [TargetShape](../../aspose.slides.animation/ieffect/targetshape) { get; } | Возвращает целевую форму для эффекта. Только для чтения[`IShape`](../../aspose.slides/ishape) . |
+| [TextAnimation](../../aspose.slides.animation/ieffect/textanimation) { get; } | Возвращает текстовую анимацию. Только для чтения[`ITextAnimation`](../itextanimation) . |
+| [Timing](../../aspose.slides.animation/ieffect/timing) { get; set; } | Определяет значение времени для эффекта. Чтение/запись[`ITiming`](../itiming) . |
+| [Type](../../aspose.slides.animation/ieffect/type) { get; set; } | Определяет тип эффекта. Чтение/запись[`EffectType`](../effecttype) . |
 
 ### Смотрите также
 

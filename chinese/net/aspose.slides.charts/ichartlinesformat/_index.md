@@ -18,8 +18,8 @@ public interface IChartLinesFormat
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Effect](../../aspose.slides.charts/ichartlinesformat/effect) { get; } | 返回用于图表线的效果。 只读[`IEffectFormat`](../../aspose.slides/ieffectformat)。 |
-| [Line](../../aspose.slides.charts/ichartlinesformat/line) { get; } | 返回图表线的线型属性。 只读[`ILineFormat`](../../aspose.slides/ilineformat)。 |
+| [Effect](../../aspose.slides.charts/ichartlinesformat/effect) { get; } | 返回用于图表线的效果。 只读[`IEffectFormat`](../../aspose.slides/ieffectformat). |
+| [Line](../../aspose.slides.charts/ichartlinesformat/line) { get; } | 返回图表线的线型属性。 只读[`ILineFormat`](../../aspose.slides/ilineformat). |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: INotesCommentsLayoutingOptions
 second_title: Справочник по API Aspose.Slides для .NET
-description: Предоставляет параметры управляющие внешним видом компоновки примечаний и комментариев в экспортируемом документе.
+description: Предоставляет параметры управляющие внешним видом компоновки примечаний и комментариев в экспортированном документе.
 type: docs
 weight: 3670
 url: /ru/net/aspose.slides.export/inotescommentslayoutingoptions/
 ---
 ## INotesCommentsLayoutingOptions interface
 
-Предоставляет параметры, управляющие внешним видом компоновки примечаний и комментариев в экспортируемом документе.
+Предоставляет параметры, управляющие внешним видом компоновки примечаний и комментариев в экспортированном документе.
 
 ```csharp
 public interface INotesCommentsLayoutingOptions
@@ -18,11 +18,11 @@ public interface INotesCommentsLayoutingOptions
 
 | Имя | Описание |
 | --- | --- |
-| [CommentsAreaColor](../../aspose.slides.export/inotescommentslayoutingoptions/commentsareacolor) { get; set; } | Получает или задает цвет области комментариев (Применяется, только если комментарии отображаются справа). |
+| [CommentsAreaColor](../../aspose.slides.export/inotescommentslayoutingoptions/commentsareacolor) { get; set; } | Получает или задает цвет комментариев area (Применяется, только если комментарии отображаются справа). |
 | [CommentsAreaWidth](../../aspose.slides.export/inotescommentslayoutingoptions/commentsareawidth) { get; set; } | Получает или задает ширину области вывода комментариев в пикселях (Применяется, только если комментарии отображаются справа). |
 | [CommentsPosition](../../aspose.slides.export/inotescommentslayoutingoptions/commentsposition) { get; set; } | Получает или задает положение комментариев на странице. |
 | [NotesPosition](../../aspose.slides.export/inotescommentslayoutingoptions/notesposition) { get; set; } | Получает или задает положение заметок на странице. |
-| [ShowCommentsByNoAuthor](../../aspose.slides.export/inotescommentslayoutingoptions/showcommentsbynoauthor) { get; set; } | Получает или устанавливает видимость комментариев, у которых нет автора. Если true, то будут отображаться комментарии . (Применяется только при отображении комментариев). |
+| [ShowCommentsByNoAuthor](../../aspose.slides.export/inotescommentslayoutingoptions/showcommentsbynoauthor) { get; set; } | Получает или задает видимость комментариев, у которых нет автора. Если true, то будут отображаться комментарии . (Применяется, только если комментарии отображаются). |
 
 ### Смотрите также
 

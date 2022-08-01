@@ -1,14 +1,14 @@
 ---
 title: IChartDataWorkbook
 second_title: Aspose.Slides for .NET API 参考
-description: 提供对嵌入式 Excel 工作簿的访问
+description: 提供对嵌入式 Excel 工作簿的访问权限
 type: docs
 weight: 1720
 url: /zh/net/aspose.slides.charts/ichartdataworkbook/
 ---
 ## IChartDataWorkbook interface
 
-提供对嵌入式 Excel 工作簿的访问
+提供对嵌入式 Excel 工作簿的访问权限
 
 ```csharp
 public interface IChartDataWorkbook
@@ -25,13 +25,13 @@ public interface IChartDataWorkbook
 | 姓名 | 描述 |
 | --- | --- |
 | [CalculateFormulas](../../aspose.slides.charts/ichartdataworkbook/calculateformulas)() | 计算工作簿中的所有公式并更新相应的单元格值。 |
-| [Clear](../../aspose.slides.charts/ichartdataworkbook/clear)(int) | 清除工作表上的所有单元格值 |
+| [Clear](../../aspose.slides.charts/ichartdataworkbook/clear)(int) | 清除 sheet 上的所有单元格值 |
 | [GetCell](../../aspose.slides.charts/ichartdataworkbook/getcell#getcell_2)(int, string) | 获取可用于图表系列或类别的单元格 |
 | [GetCell](../../aspose.slides.charts/ichartdataworkbook/getcell#getcell)(int, int, int) | 获取可用于图表系列或类别的单元格 |
 | [GetCell](../../aspose.slides.charts/ichartdataworkbook/getcell#getcell_3)(int, string, object) | 获取可用于图表系列或类别的单元格 |
 | [GetCell](../../aspose.slides.charts/ichartdataworkbook/getcell#getcell_4)(string, int, int) | 获取可用于图表系列或类别的单元格 |
 | [GetCell](../../aspose.slides.charts/ichartdataworkbook/getcell#getcell_1)(int, int, int, object) | 获取可用于图表系列或类别的单元格 |
-| [GetCellCollection](../../aspose.slides.charts/ichartdataworkbook/getcellcollection)(string, bool) | 获取单元格集。 |
+| [GetCellCollection](../../aspose.slides.charts/ichartdataworkbook/getcellcollection)(string, bool) | 获取单元集。 |
 
 ### 也可以看看
 

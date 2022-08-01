@@ -1,14 +1,14 @@
 ---
 title: AsIComparable
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает интерфейс IComparable. Только для чтенияIComparable.
+description: Возвращает интерфейс IComparable. Только для чтенияIComparable .
 type: docs
 weight: 20
 url: /ru/net/aspose.slides/itabeffectivedata/asicomparable/
 ---
 ## ITabEffectiveData.AsIComparable property
 
-Возвращает интерфейс IComparable. Только для чтенияIComparable.
+Возвращает интерфейс IComparable. Только для чтенияIComparable .
 
 ```csharp
 public IComparable AsIComparable { get; }

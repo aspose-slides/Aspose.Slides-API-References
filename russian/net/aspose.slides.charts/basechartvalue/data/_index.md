@@ -1,14 +1,14 @@
 ---
 title: Data
 second_title: Справочник по API Aspose.Slides для .NET
-description: Данные. Чтение/записьObject.
+description: Данные. Чтение/записьObject .
 type: docs
 weight: 10
 url: /ru/net/aspose.slides.charts/basechartvalue/data/
 ---
 ## BaseChartValue.Data property
 
-Данные. Чтение/записьObject.
+Данные. Чтение/записьObject .
 
 ```csharp
 public abstract object Data { get; set; }

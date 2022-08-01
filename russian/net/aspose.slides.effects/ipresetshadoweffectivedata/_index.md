@@ -1,14 +1,14 @@
 ---
 title: IPresetShadowEffectiveData
 second_title: Справочник по API Aspose.Slides для .NET
-description: Неизменяемый объект представляющий эффект Preset Shadow.
+description: Неизменяемый объект представляющий предварительно заданный эффект тени.
 type: docs
 weight: 3290
 url: /ru/net/aspose.slides.effects/ipresetshadoweffectivedata/
 ---
 ## IPresetShadowEffectiveData interface
 
-Неизменяемый объект, представляющий эффект Preset Shadow.
+Неизменяемый объект, представляющий предварительно заданный эффект тени.
 
 ```csharp
 public interface IPresetShadowEffectiveData : IEffectEffectiveData
@@ -18,11 +18,11 @@ public interface IPresetShadowEffectiveData : IEffectEffectiveData
 
 | Имя | Описание |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ipresetshadoweffectivedata/asieffecteffectivedata) { get; } | Позволяет получить базовый интерфейс IEffectEffectiveData. Только для чтения[`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Direction](../../aspose.slides.effects/ipresetshadoweffectivedata/direction) { get; } | Направление тени. Только для чтенияSingle. |
-| [Distance](../../aspose.slides.effects/ipresetshadoweffectivedata/distance) { get; } | Расстояние тени. Только для чтенияDouble. |
-| [Preset](../../aspose.slides.effects/ipresetshadoweffectivedata/preset) { get; } | Предустановка. Только для чтения[`PresetShadowType`](../../aspose.slides/presetshadowtype). |
-| [ShadowColor](../../aspose.slides.effects/ipresetshadoweffectivedata/shadowcolor) { get; } | Цвет тени. Только для чтенияColor. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ipresetshadoweffectivedata/asieffecteffectivedata) { get; } | Позволяет получить базовый интерфейс IEffectEffectiveData. Только для чтения[`IEffectEffectiveData`](../ieffecteffectivedata) . |
+| [Direction](../../aspose.slides.effects/ipresetshadoweffectivedata/direction) { get; } | Направление тени. Только для чтенияSingle . |
+| [Distance](../../aspose.slides.effects/ipresetshadoweffectivedata/distance) { get; } | Расстояние тени. Только для чтенияDouble . |
+| [Preset](../../aspose.slides.effects/ipresetshadoweffectivedata/preset) { get; } | Предустановка. Только для чтения[`PresetShadowType`](../../aspose.slides/presetshadowtype) . |
+| [ShadowColor](../../aspose.slides.effects/ipresetshadoweffectivedata/shadowcolor) { get; } | Цвет тени. Только для чтенияColor . |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: Position
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置幻灯片上注释的位置 读/写PointF
+description: 返回或设置评论在幻灯片上的位置 读/写PointF.
 type: docs
 weight: 40
 url: /zh/net/aspose.slides/icomment/position/
 ---
 ## IComment.Position property
 
-返回或设置幻灯片上注释的位置。 读/写PointF。
+返回或设置评论在幻灯片上的位置。 读/写PointF.
 
 ```csharp
 public PointF Position { get; set; }

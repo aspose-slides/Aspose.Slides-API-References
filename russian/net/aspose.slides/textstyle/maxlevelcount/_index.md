@@ -1,14 +1,14 @@
 ---
 title: MaxLevelCount
 second_title: Справочник по API Aspose.Slides для .NET
-description: Максимальное количество уровней стилей которые можно определить. Используйте его с GetLevelint index
+description: Максимальное количество уровней стиля которое может быть определено. Используйте его с GetLevelint index
 type: docs
 weight: 40
 url: /ru/net/aspose.slides/textstyle/maxlevelcount/
 ---
 ## TextStyle.MaxLevelCount field
 
-Максимальное количество уровней стилей, которые можно определить. Используйте его с GetLevel(int index)
+Максимальное количество уровней стиля, которое может быть определено. Используйте его с GetLevel(int index)
 
 ```csharp
 public static readonly byte MaxLevelCount;

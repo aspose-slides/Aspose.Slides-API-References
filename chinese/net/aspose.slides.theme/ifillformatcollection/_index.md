@@ -18,7 +18,7 @@ public interface IFillFormatCollection : IGenericCollection<IFillFormat>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Item](../../aspose.slides.theme/ifillformatcollection/item) { get; } | 获取指定索引处的元素。 只读[`IFillFormat`](../../aspose.slides/ifillformat)。 |
+| [Item](../../aspose.slides.theme/ifillformatcollection/item) { get; } | 获取指定索引处的元素。 只读[`IFillFormat`](../../aspose.slides/ifillformat). |
 
 ### 也可以看看
 

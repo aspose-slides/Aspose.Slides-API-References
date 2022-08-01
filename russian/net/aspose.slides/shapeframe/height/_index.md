@@ -1,14 +1,14 @@
 ---
 title: Height
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает высоту кадра. Только для чтенияSingle.
+description: Возвращает высоту кадра. Только для чтенияSingle .
 type: docs
 weight: 60
 url: /ru/net/aspose.slides/shapeframe/height/
 ---
 ## ShapeFrame.Height property
 
-Возвращает высоту кадра. Только для чтенияSingle.
+Возвращает высоту кадра. Только для чтенияSingle .
 
 ```csharp
 public float Height { get; }

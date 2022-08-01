@@ -1,14 +1,14 @@
 ---
 title: IndexOf
 second_title: Aspose.Slides for .NET API 参考
-description: 确定IList中特定项目的索引
+description: 确定特定项目的索引IList.
 type: docs
 weight: 110
 url: /zh/net/aspose.slides/paragraphcollection/indexof/
 ---
 ## ParagraphCollection.IndexOf method
 
-确定IList中特定项目的索引。
+确定特定项目的索引IList.
 
 ```csharp
 public int IndexOf(IParagraph item)
@@ -16,11 +16,11 @@ public int IndexOf(IParagraph item)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| item | IParagraph | 在IList中定位的对象. |
+| item | IParagraph | 要定位的对象IList. |
 
 ### 返回值
 
-*item*的索引（如果在列表中找到）；否则，-1。
+的索引*item*如果在列表中找到；否则，-1.
 
 ### 也可以看看
 

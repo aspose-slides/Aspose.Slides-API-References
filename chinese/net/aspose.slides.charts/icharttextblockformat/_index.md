@@ -18,16 +18,16 @@ public interface IChartTextBlockFormat
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AnchoringType](../../aspose.slides.charts/icharttextblockformat/anchoringtype) { get; set; } | 返回或设置 TextFrame 中的垂直锚文本。 读/写[`TextAnchorType`](../../aspose.slides/textanchortype)。 |
-| [AutofitType](../../aspose.slides.charts/icharttextblockformat/autofittype) { get; set; } | 返回或设置文本的自动调整模式。 更改此属性只会对这些图表部分产生一定的影响: DataLabel 和 DataLabelFormat（在 PowerPoint 2013 中完全支持；在 PowerPoint 2007 中对渲染没有影响）。 读/写[`TextAutofitType`](../../aspose.slides/textautofittype)。 |
-| [CenterText](../../aspose.slides.charts/icharttextblockformat/centertext) { get; set; } | 如果 NullableBool.True 则文本应在框中水平居中。 读/写[`NullableBool`](../../aspose.slides/nullablebool)。 |
-| [MarginBottom](../../aspose.slides.charts/icharttextblockformat/marginbottom) { get; set; } | 返回或设置 TextFrame 中的下边距（点）。 更改此属性只会对这些图表部分产生一定的影响: DataLabel 和 DataLabelFormat（在 PowerPoint 2013 中完全支持；在 PowerPoint 2007 中对渲染没有影响）。 读/写Double。 |
-| [MarginLeft](../../aspose.slides.charts/icharttextblockformat/marginleft) { get; set; } | 返回或设置 TextFrame 中的左边距（点）。 更改此属性只会对这些图表部分产生一定的影响: DataLabel 和 DataLabelFormat（在 PowerPoint 2013 中完全支持；在 PowerPoint 2007 中对渲染没有影响）。 读/写Double。 |
-| [MarginRight](../../aspose.slides.charts/icharttextblockformat/marginright) { get; set; } | 返回或设置 TextFrame 中的右边距（点）。 更改此属性只会对这些图表部分产生一定的影响: DataLabel 和 DataLabelFormat（在 PowerPoint 2013 中完全支持；在 PowerPoint 2007 中对渲染没有影响）。 读/写Double。 |
-| [MarginTop](../../aspose.slides.charts/icharttextblockformat/margintop) { get; set; } | 返回或设置 TextFrame 中的上边距（点）。 更改此属性只会对这些图表部分产生一定的影响: DataLabel 和 DataLabelFormat（在 PowerPoint 2013 中完全支持；在 PowerPoint 2007 中对渲染没有影响）。 读/写Double。 |
-| [RotationAngle](../../aspose.slides.charts/icharttextblockformat/rotationangle) { get; set; } | 指定应用于边界框内文本的自定义旋转。如果未指定 ，则使用伴随形状的旋转。如果已指定，则为 独立于形状应用。也就是说，除了文本本身应用了旋转之外，形状还可以在 中应用旋转。 从该属性总结的可视文本旋转的结果值，并在属性 TextVerticalType 中预定义 垂直类型。 读/写Single。 |
-| [TextVerticalType](../../aspose.slides.charts/icharttextblockformat/textverticaltype) { get; set; } | 确定文本方向。 从此属性和自定义角度 中的属性 RotationAngle 汇总的可视文本旋转的结果值。 读/写[`TextVerticalType`](../../aspose.slides/textverticaltype)。 |
-| [WrapText](../../aspose.slides.charts/icharttextblockformat/wraptext) { get; set; } | **True** 如果文本在 TextFrame 的边距处换行。 更改此属性只会对这些图表部分产生一定的影响:: DataLabel 和 DataLabelFormat（在 PowerPoint 2007/2013 中完全支持）。 读/写[`NullableBool`](../../aspose.slides/nullablebool)。 |
+| [AnchoringType](../../aspose.slides.charts/icharttextblockformat/anchoringtype) { get; set; } | 返回或设置 TextFrame 中的垂直锚文本。 读/写[`TextAnchorType`](../../aspose.slides/textanchortype). |
+| [AutofitType](../../aspose.slides.charts/icharttextblockformat/autofittype) { get; set; } | 返回或设置文本的自动调整模式。 更改此属性只会对这些图表部分产生一定的影响： DataLabel 和 DataLabelFormat（在 PowerPoint 2013 中完全支持；在 PowerPoint 2007 中对渲染没有影响）。 读/写[`TextAutofitType`](../../aspose.slides/textautofittype). |
+| [CenterText](../../aspose.slides.charts/icharttextblockformat/centertext) { get; set; } | 如果 NullableBool.True 则文本应在框中水平居中。 读/写[`NullableBool`](../../aspose.slides/nullablebool). |
+| [MarginBottom](../../aspose.slides.charts/icharttextblockformat/marginbottom) { get; set; } | 返回或设置 TextFrame 中的下边距（点）。 更改此属性只会对以下图表部分产生一定的影响： DataLabel 和 DataLabelFormat（在 PowerPoint 2013 中完全支持；在 PowerPoint 2007 中对渲染没有影响). 读/写Double. |
+| [MarginLeft](../../aspose.slides.charts/icharttextblockformat/marginleft) { get; set; } | 返回或设置 TextFrame 中的左边距（点）。 更改此属性只会对以下图表部分产生一定的影响： DataLabel 和 DataLabelFormat（在 PowerPoint 2013 中完全支持；在 PowerPoint 2007 中对渲染没有影响). 读/写Double. |
+| [MarginRight](../../aspose.slides.charts/icharttextblockformat/marginright) { get; set; } | 返回或设置 TextFrame 中的右边距（点）。 更改此属性只会对以下图表部分产生一定的影响： DataLabel 和 DataLabelFormat（在 PowerPoint 2013 中完全支持；在 PowerPoint 2007 中对渲染没有影响). 读/写Double. |
+| [MarginTop](../../aspose.slides.charts/icharttextblockformat/margintop) { get; set; } | 返回或设置 TextFrame 中的上边距（点）。 更改此属性只能对以下图表部分产生一定的影响： DataLabel 和 DataLabelFormat（在 PowerPoint 2013 中完全支持；在 PowerPoint 2007 中对渲染没有影响). 读/写Double. |
+| [RotationAngle](../../aspose.slides.charts/icharttextblockformat/rotationangle) { get; set; } | 指定应用于边界框内文本的自定义旋转。如果未指定 ，则使用伴随形状的旋转。如果已指定，则此 is 独立于形状应用。也就是说，形状可以在 中应用旋转，除了文本本身应用了旋转。 从该属性和属性TextVerticalType中预定义 垂直类型总结的可视文本旋转的结果值。 读/写Single. |
+| [TextVerticalType](../../aspose.slides.charts/icharttextblockformat/textverticaltype) { get; set; } | 确定文本方向。 从此属性汇总的可视文本旋转结果值和属性 RotationAngle 中的自定义角度 。 读/写[`TextVerticalType`](../../aspose.slides/textverticaltype). |
+| [WrapText](../../aspose.slides.charts/icharttextblockformat/wraptext) { get; set; } | **真的**如果文本在 TextFrame 的边距处换行。 更改此属性只会对这些图表部分产生一定的影响： DataLabel 和 DataLabelFormat（在 PowerPoint 2007/2013 中完全支持）。 读/写[`NullableBool`](../../aspose.slides/nullablebool). |
 
 ### 也可以看看
 

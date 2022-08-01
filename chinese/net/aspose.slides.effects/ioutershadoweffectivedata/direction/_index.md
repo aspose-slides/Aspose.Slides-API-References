@@ -1,14 +1,14 @@
 ---
 title: Direction
 second_title: Aspose.Slides for .NET API 参考
-description: 阴影方向 只读Single
+description: 阴影方向 只读Single.
 type: docs
 weight: 30
 url: /zh/net/aspose.slides.effects/ioutershadoweffectivedata/direction/
 ---
 ## IOuterShadowEffectiveData.Direction property
 
-阴影方向。 只读Single。
+阴影方向。 只读Single.
 
 ```csharp
 public float Direction { get; }

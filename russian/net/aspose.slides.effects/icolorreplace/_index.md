@@ -1,14 +1,14 @@
 ---
 title: IColorReplace
 second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет собой эффект замены цвета.
+description: Представляет эффект замены цвета.
 type: docs
 weight: 3040
 url: /ru/net/aspose.slides.effects/icolorreplace/
 ---
 ## IColorReplace interface
 
-Представляет собой эффект замены цвета.
+Представляет эффект замены цвета.
 
 ```csharp
 public interface IColorReplace : IAccessiblePVIObject<IColorReplaceEffectiveData>, 
@@ -19,9 +19,9 @@ public interface IColorReplace : IAccessiblePVIObject<IColorReplaceEffectiveData
 
 | Имя | Описание |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/icolorreplace/asiaccessiblepviobject) { get; } | Позволяет получить базовый интерфейс IAccessiblePVIObject. Только чтение[`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/icolorreplace/asiimagetransformoperation) { get; } | Позволяет получить базовый интерфейс IImageTransformOperation. Только для чтения[`IImageTransformOperation`](../iimagetransformoperation). |
-| [Color](../../aspose.slides.effects/icolorreplace/color) { get; } | Возвращает формат цвета, который заменит цвет каждого пикселя. Только для чтения[`IColorFormat`](../../aspose.slides/icolorformat). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/icolorreplace/asiaccessiblepviobject) { get; } | Позволяет получить базовый интерфейс IAccessiblePVIObject. Только для чтения[`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1) . |
+| [AsIImageTransformOperation](../../aspose.slides.effects/icolorreplace/asiimagetransformoperation) { get; } | Позволяет получить базовый интерфейс IImageTransformOperation. Только для чтения[`IImageTransformOperation`](../iimagetransformoperation) . |
+| [Color](../../aspose.slides.effects/icolorreplace/color) { get; } | Возвращает формат цвета, который заменяет цвет каждого пикселя. Только для чтения[`IColorFormat`](../../aspose.slides/icolorformat) . |
 
 ### Смотрите также
 

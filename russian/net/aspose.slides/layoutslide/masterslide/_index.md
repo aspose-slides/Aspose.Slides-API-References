@@ -1,14 +1,14 @@
 ---
 title: MasterSlide
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или задает мастер-слайд для макета. Чтение/записьIMasterSlideaspose.slides/imasterslide.
+description: Возвращает или задает мастер-слайд для макета. Чтение/записьIMasterSlideaspose.slides/imasterslide .
 type: docs
 weight: 40
 url: /ru/net/aspose.slides/layoutslide/masterslide/
 ---
 ## LayoutSlide.MasterSlide property
 
-Возвращает или задает мастер-слайд для макета. Чтение/запись[`IMasterSlide`](../../imasterslide).
+Возвращает или задает мастер-слайд для макета. Чтение/запись[`IMasterSlide`](../../imasterslide) .
 
 ```csharp
 public IMasterSlide MasterSlide { get; set; }

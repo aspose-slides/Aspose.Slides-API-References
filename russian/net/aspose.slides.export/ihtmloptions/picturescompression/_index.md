@@ -1,14 +1,14 @@
 ---
 title: PicturesCompression
 second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет уровень сжатия изображений Чтение/записьPicturesCompressionaspose.slides.export/ihtmloptions/picturescompression.
+description: Представляет уровень сжатия изображений Чтение/записьPicturesCompressionaspose.slides.export/ihtmloptions/picturescompression .
 type: docs
 weight: 60
 url: /ru/net/aspose.slides.export/ihtmloptions/picturescompression/
 ---
 ## IHtmlOptions.PicturesCompression property
 
-Представляет уровень сжатия изображений Чтение/запись`PicturesCompression`.
+Представляет уровень сжатия изображений Чтение/запись`PicturesCompression` .
 
 ```csharp
 public PicturesCompression PicturesCompression { get; set; }

@@ -23,9 +23,9 @@ public enum TextVerticalType : sbyte
 | Vertical | `1` | 竖排文本。 |
 | Vertical270 | `2` | 垂直 270 度文本。 |
 | WordArtVertical | `3` | 艺术字垂直文本。 |
-| EastAsianVertical | `4` | 东亚垂直文本。 |
-| MongolianVertical | `5` | 蒙古文竖排文字。 |
-| WordArtVerticalRightToLeft | `6` | 艺术字从右到左垂直文本。 |
+| EastAsianVertical | `4` | 东亚竖排文字. |
+| MongolianVertical | `5` | 蒙古文竖排文字. |
+| WordArtVerticalRightToLeft | `6` | 垂直从右到左的艺术字文本。 |
 
 ### 也可以看看
 

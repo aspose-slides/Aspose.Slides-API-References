@@ -1,14 +1,14 @@
 ---
 title: Radius
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или задает радиус размытия. Только для чтенияDouble.
+description: Возвращает или задает радиус размытия. Только для чтенияDouble .
 type: docs
 weight: 30
 url: /ru/net/aspose.slides.effects/iblureffectivedata/radius/
 ---
 ## IBlurEffectiveData.Radius property
 
-Возвращает или задает радиус размытия. Только для чтенияDouble.
+Возвращает или задает радиус размытия. Только для чтенияDouble .
 
 ```csharp
 public double Radius { get; }

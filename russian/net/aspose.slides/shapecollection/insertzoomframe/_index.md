@@ -17,16 +17,16 @@ public IZoomFrame InsertZoomFrame(int index, float x, float y, float width, floa
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Нуль- на основе индекса, в который следует вставить кадр масштабирования. |
+| index | Int32 | Отсчитываемый от нуля индекс, в который следует вставить кадр масштабирования. |
 | x | Single | Координата X нового кадра ZoomSingle. |
 | y | Single | Координата Y нового кадра ZoomSingle. |
-| width | Single | Ширина нового кадра ZoomSingle. |
-| height | Single | Высота нового кадра ZoomSingle. |
-| slide | ISlide | Объект слайда, на который ссылается фрейм Zoom[`ISlide`](../../islide). |
+| width | Single | Ширина новой рамки ZoomSingle. |
+| height | Single | Высота новой рамки ZoomSingle. |
+| slide | ISlide | Объект слайда, на который ссылается рамка масштабирования[`ISlide`](../../islide). |
 
 ### Возвращаемое значение
 
-Создан объект Zoom[`IZoomFrame`](../../izoomframe).
+Создан зум-объект[`IZoomFrame`](../../izoomframe).
 
 ### Исключения
 
@@ -36,7 +36,7 @@ public IZoomFrame InsertZoomFrame(int index, float x, float y, float width, floa
 
 ### Примеры
 
-Этот пример демонстрирует создание и вставку объекта Zoom по указанному индексу коллекции (предположим, что в презентации "Presentation.pptx" не менее двух слайдов):
+Этот пример демонстрирует создание и вставку объекта Zoom по указанному индексу коллекции (предположим, что в презентации "Presentation.pptx" есть как минимум два слайда):
 
 ```csharp
 [C#]
@@ -67,17 +67,17 @@ public IZoomFrame InsertZoomFrame(int index, float x, float y, float width, floa
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Нуль- на основе индекса, в который следует вставить кадр масштабирования. |
+| index | Int32 | Отсчитываемый от нуля индекс, в который следует вставить кадр масштабирования. |
 | x | Single | Координата X нового кадра ZoomSingle. |
 | y | Single | Координата Y нового кадра ZoomSingle. |
-| width | Single | Ширина нового кадра ZoomSingle. |
-| height | Single | Высота нового кадра ZoomSingle. |
-| slide | ISlide | Объект слайда, на который ссылается фрейм Zoom[`ISlide`](../../islide). |
+| width | Single | Ширина новой рамки ZoomSingle. |
+| height | Single | Высота новой рамки ZoomSingle. |
+| slide | ISlide | Объект слайда, на который ссылается рамка масштабирования[`ISlide`](../../islide). |
 | image | IPPImage | Изображение для указанного слайда[`IPPImage`](../../ippimage) |
 
 ### Возвращаемое значение
 
-Создан объект Zoom[`IZoomFrame`](../../izoomframe).
+Создан зум-объект[`IZoomFrame`](../../izoomframe).
 
 ### Исключения
 
@@ -87,7 +87,7 @@ public IZoomFrame InsertZoomFrame(int index, float x, float y, float width, floa
 
 ### Примеры
 
-Этот пример демонстрирует создание и вставку объекта Zoom по указанному индексу коллекции (предположим, что в презентации "Presentation.pptx" не менее двух слайдов):
+Этот пример демонстрирует создание и вставку объекта Zoom по указанному индексу коллекции (предположим, что в презентации "Presentation.pptx" есть как минимум два слайда):
 
 ```csharp
 [C#]

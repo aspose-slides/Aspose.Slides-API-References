@@ -1,14 +1,14 @@
 ---
 title: Contains
 second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет содержит лиICollectionопределенное значение.
+description: ОпределяетICollection содержит определенное значение.
 type: docs
 weight: 60
 url: /ru/net/aspose.slides/portioncollection/contains/
 ---
 ## PortionCollection.Contains method
 
-Определяет, содержит лиICollectionопределенное значение.
+Определяет,ICollection содержит определенное значение.
 
 ```csharp
 public bool Contains(IPortion item)
@@ -16,11 +16,11 @@ public bool Contains(IPortion item)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| item | IPortion | Объект для размещения вICollection. |
+| item | IPortion | Объект, который необходимо найти вICollection. |
 
 ### Возвращаемое значение
 
-true, если*item*находится вICollection; в противном случае ложно.
+верно, если*item* находится вICollection ; в противном случае false.
 
 ### Смотрите также
 

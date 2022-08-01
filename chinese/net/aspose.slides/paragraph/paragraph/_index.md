@@ -24,7 +24,7 @@ public Paragraph()
 
 ## Paragraph(Paragraph) {#constructor_1}
 
-用于初始化 Paragraph 类的新实例的复制构造函数。
+初始化段落类的新实例的复制构造函数。
 
 ```csharp
 public Paragraph(Paragraph para)

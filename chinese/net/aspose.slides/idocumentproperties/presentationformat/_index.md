@@ -1,14 +1,14 @@
 ---
 title: PresentationFormat
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置演示文稿的预期格式 读/写String
+description: 返回或设置演示文稿的预期格式 读/写String.
 type: docs
 weight: 190
 url: /zh/net/aspose.slides/idocumentproperties/presentationformat/
 ---
 ## IDocumentProperties.PresentationFormat property
 
-返回或设置演示文稿的预期格式。 读/写String。
+返回或设置演示文稿的预期格式。 读/写String.
 
 ```csharp
 public string PresentationFormat { get; set; }

@@ -24,7 +24,7 @@ public class EffectFactory : IEffectFactory
 
 | Имя | Описание |
 | --- | --- |
-| [ImageTransformOperationFactory](../../aspose.slides.effects/effectfactory/imagetransformoperationfactory) { get; } | Возвращает ImageTransformOperationFactory. Только для чтения[`IImageTransformOperationFactory`](../iimagetransformoperationfactory). |
+| [ImageTransformOperationFactory](../../aspose.slides.effects/effectfactory/imagetransformoperationfactory) { get; } | Возвращает ImageTransformOperationFactory. Только для чтения[`IImageTransformOperationFactory`](../iimagetransformoperationfactory) . |
 
 ## Методы
 
@@ -39,7 +39,7 @@ public class EffectFactory : IEffectFactory
 
 ### Примечания
 
-Для COM-совместимость.
+Для COM-совместимости.
 
 ### Смотрите также
 

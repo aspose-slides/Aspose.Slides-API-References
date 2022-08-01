@@ -42,7 +42,7 @@ public Bitmap[] GetThumbnails(IRenderingOptions options, int[] slides)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | options | IRenderingOptions | 渲染选项。 |
-| slides | Int32[] | 包含幻灯片位置的数组，从 1 开始。 |
+| slides | Int32[] | 具有幻灯片位置的数组，从 1 开始。 |
 
 ### 返回值
 
@@ -95,8 +95,8 @@ public Bitmap[] GetThumbnails(IRenderingOptions options, int[] slides, float sca
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | options | IRenderingOptions | 渲染选项。 |
-| slides | Int32[] | 包含幻灯片位置的数组，从 1 开始。 |
-| scaleX | Single | 用于计算的值在 x 轴方向上缩放此缩略图。 |
+| slides | Int32[] | 具有幻灯片位置的数组，从 1 开始。 |
+| scaleX | Single | 在 x 轴方向上缩放此缩略图的值。 |
 | scaleY | Single | 在 y 轴方向上缩放此缩略图的值。 |
 
 ### 返回值
@@ -114,7 +114,7 @@ public Bitmap[] GetThumbnails(IRenderingOptions options, int[] slides, float sca
 
 ## GetThumbnails(IRenderingOptions, Size) {#getthumbnails_11}
 
-返回具有指定大小的演示文稿的所有幻灯片的缩略图位图对象。
+为具有指定大小的演示文稿的所有幻灯片返回缩略图位图对象。
 
 ```csharp
 public Bitmap[] GetThumbnails(IRenderingOptions options, Size imageSize)
@@ -149,8 +149,8 @@ public Bitmap[] GetThumbnails(IRenderingOptions options, int[] slides, Size imag
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | options | IRenderingOptions | 渲染选项。 |
-| slides | Int32[] | 包含幻灯片位置的数组，从 1 开始。 |
-| imageSize | Size | 图像的大小创造。 |
+| slides | Int32[] | 具有幻灯片位置的数组，从 1 开始。 |
+| imageSize | Size | 要创建的图像的大小。 |
 
 ### 返回值
 

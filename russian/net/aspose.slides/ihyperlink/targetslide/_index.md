@@ -1,14 +1,14 @@
 ---
 title: TargetSlide
 second_title: Справочник по API Aspose.Slides для .NET
-description: Если HyperlinkEx нацелен на определенный слайд возвращает этот слайд. Если свойство становится не нулевым тогда свойство ExternalUrl становится нулевым. Только для чтенияISlideaspose.slides/islide.
+description: Если HyperlinkEx нацелен на определенный слайд возвращает этот слайд. Если свойство становится не нулевым то свойство ExternalUrl становится нулевым. Только для чтенияISlideaspose.slides/islide .
 type: docs
 weight: 80
 url: /ru/net/aspose.slides/ihyperlink/targetslide/
 ---
 ## IHyperlink.TargetSlide property
 
-Если HyperlinkEx нацелен на определенный слайд, возвращает этот слайд. Если свойство становится не нулевым, тогда свойство ExternalUrl становится нулевым. Только для чтения[`ISlide`](../../islide).
+Если HyperlinkEx нацелен на определенный слайд, возвращает этот слайд. Если свойство становится не нулевым, то свойство ExternalUrl становится нулевым. Только для чтения[`ISlide`](../../islide) .
 
 ```csharp
 public ISlide TargetSlide { get; }

@@ -1,14 +1,14 @@
 ---
 title: TargetShape
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает целевую форму для эффекта. Только для чтенияIShapeaspose.slides/ishape.
+description: Возвращает целевую форму для эффекта. Только для чтенияIShapeaspose.slides/ishape .
 type: docs
 weight: 50
 url: /ru/net/aspose.slides.animation/effect/targetshape/
 ---
 ## Effect.TargetShape property
 
-Возвращает целевую форму для эффекта. Только для чтения[`IShape`](../../../aspose.slides/ishape).
+Возвращает целевую форму для эффекта. Только для чтения[`IShape`](../../../aspose.slides/ishape) .
 
 ```csharp
 public IShape TargetShape { get; }

@@ -1,14 +1,14 @@
 ---
 title: PathSegment
 second_title: Aspose.Slides for .NET API 参考
-description: 表示 GeometryShape 的图形路径段
+description: 代表GeometryShape的图形路径段
 type: docs
 weight: 8610
 url: /zh/net/aspose.slides/pathsegment/
 ---
 ## PathSegment class
 
-表示 GeometryShape 的图形路径段
+代表GeometryShape的图形路径段
 
 ```csharp
 public sealed class PathSegment : IPathSegment

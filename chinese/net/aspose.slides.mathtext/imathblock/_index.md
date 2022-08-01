@@ -1,14 +1,14 @@
 ---
 title: IMathBlock
 second_title: Aspose.Slides for .NET API 参考
-description: 指定包含在 MathParagraph 中并在其自己的行上开始的数学文本实例 所有数学区域包括方程式表达式方程式或表达式的数组以及公式都由数学块表示
+description: 指定包含在 MathParagraph 中并在其自己的行上开始的数学文本实例 所有数学区域包括方程式表达式方程式或表达式数组以及公式都由数学块表示
 type: docs
 weight: 7430
 url: /zh/net/aspose.slides.mathtext/imathblock/
 ---
 ## IMathBlock interface
 
-指定包含在 MathParagraph 中并在其自己的行上开始的数学文本实例。 所有数学区域，包括方程式、表达式、方程式或表达式的数组以及公式都由数学块表示。
+指定包含在 MathParagraph 中并在其自己的行上开始的数学文本实例。 所有数学区域，包括方程式、表达式、方程式或表达式数组以及公式都由数学块表示。
 
 ```csharp
 public interface IMathBlock : IMathElement, IMathElementCollection
@@ -27,12 +27,12 @@ public interface IMathBlock : IMathElement, IMathElementCollection
 | --- | --- |
 | [Delimit](../../aspose.slides.mathtext/imathblock/delimit)(char) | 用分隔符分隔所有子元素（不带括号） |
 | [Enclose](../../aspose.slides.mathtext/imathblock/enclose)(char, char, char) | 将此块的子元素括在指定字符中，例如括号或其他作为框架 并用分隔符分隔 |
-| [JoinBlock](../../aspose.slides.mathtext/imathblock/joinblock)(IMathBlock) | 连接另一个数学块 |
-| [WriteAsMathMl](../../aspose.slides.mathtext/imathblock/writeasmathml)(Stream) | 将此[`IMathBlock`](../imathblock)的内容保存为 MathML |
+| [JoinBlock](../../aspose.slides.mathtext/imathblock/joinblock)(IMathBlock) | 将另一个数学块与这个 连接起来 |
+| [WriteAsMathMl](../../aspose.slides.mathtext/imathblock/writeasmathml)(Stream) | 保存此内容[`IMathBlock`](../imathblock)作为 MathML |
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]

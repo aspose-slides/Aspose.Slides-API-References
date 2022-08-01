@@ -1,14 +1,14 @@
 ---
 title: MaxLevelCount
 second_title: Aspose.Slides for .NET API 参考
-description: 可以定义的样式级别的最大数量 与 GetLevelint index
+description: 可以定义的样式级别的最大计数 与 GetLevelint index一起使用
 type: docs
 weight: 40
 url: /zh/net/aspose.slides/textstyle/maxlevelcount/
 ---
 ## TextStyle.MaxLevelCount field
 
-可以定义的样式级别的最大数量。 与 GetLevel(int index)
+可以定义的样式级别的最大计数。 与 GetLevel(int index)一起使用
 
 ```csharp
 public static readonly byte MaxLevelCount;

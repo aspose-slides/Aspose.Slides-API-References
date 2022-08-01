@@ -16,7 +16,7 @@ public IPropertyEffect CreatePropertyEffect()
 
 ### 返回值
 
-属性效果。
+属性效应。
 
 ### 也可以看看
 

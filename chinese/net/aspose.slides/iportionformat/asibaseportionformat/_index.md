@@ -1,14 +1,14 @@
 ---
 title: AsIBasePortionFormat
 second_title: Aspose.Slides for .NET API 参考
-description: 返回 IBasePortionFormat 接口 只读IBasePortionFormataspose.slides/ibaseportionformat
+description: 返回 IBasePortionFormat 接口 只读IBasePortionFormataspose.slides/ibaseportionformat.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides/iportionformat/asibaseportionformat/
 ---
 ## IPortionFormat.AsIBasePortionFormat property
 
-返回 IBasePortionFormat 接口。 只读[`IBasePortionFormat`](../../ibaseportionformat)。
+返回 IBasePortionFormat 接口。 只读[`IBasePortionFormat`](../../ibaseportionformat).
 
 ```csharp
 public IBasePortionFormat AsIBasePortionFormat { get; }

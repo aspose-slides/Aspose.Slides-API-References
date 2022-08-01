@@ -18,9 +18,9 @@ public interface IGraphicalObject : IShape
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsIShape](../../aspose.slides/igraphicalobject/asishape) { get; } | 允许获取基本 IShape 接口。 只读[`IShape`](../ishape)。 |
-| [GraphicalObjectLock](../../aspose.slides/igraphicalobject/graphicalobjectlock) { get; } | 返回形状的锁。 只读[`IGraphicalObjectLock`](../igraphicalobjectlock)。 |
-| [ShapeLock](../../aspose.slides/igraphicalobject/shapelock) { get; } | 返回形状的锁。 只读[`IGraphicalObjectLock`](../igraphicalobjectlock)。 |
+| [AsIShape](../../aspose.slides/igraphicalobject/asishape) { get; } | 允许获取基本 IShape 接口。 只读[`IShape`](../ishape). |
+| [GraphicalObjectLock](../../aspose.slides/igraphicalobject/graphicalobjectlock) { get; } | 返回形状的锁。 只读[`IGraphicalObjectLock`](../igraphicalobjectlock). |
+| [ShapeLock](../../aspose.slides/igraphicalobject/shapelock) { get; } | 返回形状的锁。 只读[`IGraphicalObjectLock`](../igraphicalobjectlock). |
 
 ### 也可以看看
 

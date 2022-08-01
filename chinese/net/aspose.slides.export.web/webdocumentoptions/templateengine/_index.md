@@ -1,14 +1,14 @@
 ---
 title: TemplateEngine
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置模板引擎 读/写ITemplateEngineaspose.slides.export.web/itemplateengine
+description: 返回或设置模板引擎 读/写ITemplateEngineaspose.slides.export.web/itemplateengine.
 type: docs
 weight: 60
 url: /zh/net/aspose.slides.export.web/webdocumentoptions/templateengine/
 ---
 ## WebDocumentOptions.TemplateEngine property
 
-返回或设置模板引擎。 读/写[`ITemplateEngine`](../../itemplateengine)。
+返回或设置模板引擎。 读/写[`ITemplateEngine`](../../itemplateengine).
 
 ```csharp
 public ITemplateEngine TemplateEngine { get; set; }

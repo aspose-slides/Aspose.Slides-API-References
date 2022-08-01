@@ -1,14 +1,14 @@
 ---
 title: IBehaviorProperty
 second_title: Aspose.Slides for .NET API 参考
-description: 表示动画行为的属性类型 遵循 https//msdn.microsoft.com/en-us/library/dd949052voffice.15.aspx 和 https// 的属性列表/msdn.microsoft.com/en-us/library/documentformat.openxml.presentation.attributenamevoffice.15.aspx
+description: 表示动画行为的属性类型 遵循 https//msdn.microsoft.com/en-us/library/dd949052voffice.15.aspx 和 https//msdn.microsoft 中的属性列表 com/en-us/library/documentformat.openxml.presentation.attributenamevoffice.15.aspx
 type: docs
 weight: 340
 url: /zh/net/aspose.slides.animation/ibehaviorproperty/
 ---
 ## IBehaviorProperty interface
 
-表示动画行为的属性类型。 遵循 https://msdn.microsoft.com/en-us/library/dd949052(v=office.15).aspx 和 https:// 的属性列表/msdn.microsoft.com/en-us/library/documentformat.openxml.presentation.attributename(v=office.15).aspx
+表示动画行为的属性类型。 遵循 https://msdn.microsoft.com/en-us/library/dd949052(v=office.15).aspx 和 https://msdn.microsoft 中的属性列表。 com/en-us/library/documentformat.openxml.presentation.attributename(v=office.15).aspx
 
 ```csharp
 public interface IBehaviorProperty
@@ -18,7 +18,7 @@ public interface IBehaviorProperty
 
 | 姓名 | 描述 |
 | --- | --- |
-| [IsCustom](../../aspose.slides.animation/ibehaviorproperty/iscustom) { get; } | 显示此属性是否不属于规范中的预定义属性列表: https://msdn.microsoft.com/en-我们/图书馆/dd949052(v=office.15).aspx |
+| [IsCustom](../../aspose.slides.animation/ibehaviorproperty/iscustom) { get; } | 显示此属性是否不属于规范中的预定义属性列表： https://msdn.microsoft.com/en-us/library/dd949052(v=office.15).aspx |
 | [Value](../../aspose.slides.animation/ibehaviorproperty/value) { get; } | 属性值 |
 
 ### 也可以看看

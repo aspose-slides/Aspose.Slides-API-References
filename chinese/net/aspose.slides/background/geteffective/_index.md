@@ -16,7 +16,7 @@ public IBackgroundEffectiveData GetEffective()
 
 ### 返回值
 
-A[`IBackgroundEffectiveData`](../../ibackgroundeffectivedata)。
+一个[`IBackgroundEffectiveData`](../../ibackgroundeffectivedata).
 
 ### 例子
 

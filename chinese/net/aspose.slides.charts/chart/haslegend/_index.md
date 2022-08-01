@@ -1,14 +1,14 @@
 ---
 title: HasLegend
 second_title: Aspose.Slides for .NET API 参考
-description: 确定图表是否有图例 读/写Boolean
+description: 确定图表是否有图例 读/写Boolean.
 type: docs
 weight: 110
 url: /zh/net/aspose.slides.charts/chart/haslegend/
 ---
 ## Chart.HasLegend property
 
-确定图表是否有图例。 读/写Boolean。
+确定图表是否有图例。 读/写Boolean.
 
 ```csharp
 public bool HasLegend { get; set; }

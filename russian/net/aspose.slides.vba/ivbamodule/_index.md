@@ -18,8 +18,8 @@ public interface IVbaModule
 
 | Имя | Описание |
 | --- | --- |
-| [Name](../../aspose.slides.vba/ivbamodule/name) { get; } | Имя модуля. Только чтениеString. |
-| [SourceCode](../../aspose.slides.vba/ivbamodule/sourcecode) { get; set; } | Исходный код модуля. Чтение/записьString. |
+| [Name](../../aspose.slides.vba/ivbamodule/name) { get; } | Имя модуля. Только для чтенияString . |
+| [SourceCode](../../aspose.slides.vba/ivbamodule/sourcecode) { get; set; } | Исходный код модуля. Чтение/записьString . |
 
 ### Смотрите также
 

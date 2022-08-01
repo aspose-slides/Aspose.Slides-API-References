@@ -18,10 +18,10 @@ public sealed class Backdrop3DScene : PVIObject, IBackdrop3DScene
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AnchorPoint](../../aspose.slides/backdrop3dscene/anchorpoint) { get; set; } | 返回或设置 3D 空间中的一个点。该点是空间中锚定背景平面的点。 3D 点，由定义 X、Y 和 Z 坐标的 3 个浮点值组成的数组表示。 读/写Single[]。 |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允许获取基本 IPresentationComponent 接口。 只读[`IPresentationComponent`](../ipresentationcomponent)。 |
-| [NormalVector](../../aspose.slides/backdrop3dscene/normalvector) { get; set; } | 返回或设置法线向量。更准确地说，这个属性定义了一个向量 垂直于背景平面的表面。由 3 个浮点值数组表示的向量 定义 X、Y 和 Z 坐标。 读/写Single[]。 |
-| [UpVector](../../aspose.slides/backdrop3dscene/upvector) { get; set; } | 返回或设置一个表示向上的向量。更准确地说，该属性定义了一个向量 表示相对于背景平面的面的向上。由定义 X、Y 和 Z 坐标的 3 个浮点值的数组 表示的向量。 读/写Single[]。 |
+| [AnchorPoint](../../aspose.slides/backdrop3dscene/anchorpoint) { get; set; } | 返回或设置 3D 空间中的点。该点是空间中锚定背景平面的点。 3D 点，由定义 X、Y 和 Z 坐标的 3 个浮点值数组表示。 读/写Single[]. |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允许获取基本 IPresentationComponent 接口。 只读[`IPresentationComponent`](../ipresentationcomponent). |
+| [NormalVector](../../aspose.slides/backdrop3dscene/normalvector) { get; set; } | 返回或设置一个法线向量。更准确地说，这个属性定义了一个垂直于背景平面的vector 。向量由定义 X、Y 和 Z 坐标的 3 个浮点值 的数组表示。 读/写Single[]. |
+| [UpVector](../../aspose.slides/backdrop3dscene/upvector) { get; set; } | 返回或设置一个表示向上的向量。更准确地说，这个属性定义了一个vector ，表示相对于背景平面的面。由定义 X、Y 和 Z 坐标的 3 个浮点值的 array 表示的向量。 读/写Single[]. |
 
 ## 方法
 

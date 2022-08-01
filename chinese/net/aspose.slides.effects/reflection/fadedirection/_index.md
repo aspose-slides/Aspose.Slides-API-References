@@ -1,14 +1,14 @@
 ---
 title: FadeDirection
 second_title: Aspose.Slides for .NET API 参考
-description: 指定偏移反射的方向 角度 读/写Single
+description: 指定偏移反射的方向 角度. 读/写Single.
 type: docs
 weight: 60
 url: /zh/net/aspose.slides.effects/reflection/fadedirection/
 ---
 ## Reflection.FadeDirection property
 
-指定偏移反射的方向。 （角度）。 读/写Single。
+指定偏移反射的方向。 (角度). 读/写Single.
 
 ```csharp
 public float FadeDirection { get; set; }

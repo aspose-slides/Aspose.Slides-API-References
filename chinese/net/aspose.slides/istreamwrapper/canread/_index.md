@@ -1,14 +1,14 @@
 ---
 title: CanRead
 second_title: Aspose.Slides for .NET API 参考
-description: 获取当前流是否支持读取的值 只读Boolean
+description: 获取表示当前流是否支持读取的值 只读Boolean.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides/istreamwrapper/canread/
 ---
 ## IStreamWrapper.CanRead property
 
-获取当前流是否支持读取的值。 只读Boolean。
+获取表示当前流是否支持读取的值。 只读Boolean.
 
 ```csharp
 public bool CanRead { get; }

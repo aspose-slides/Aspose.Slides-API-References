@@ -18,22 +18,22 @@ public interface ITextFrameFormat
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AnchoringType](../../aspose.slides/itextframeformat/anchoringtype) { get; set; } | 返回或设置 TextFrame 中的垂直锚文本。 读/写[`TextAnchorType`](../textanchortype)。 |
-| [AutofitType](../../aspose.slides/itextframeformat/autofittype) { get; set; } | 返回或设置文本的自动调整模式。 读/写[`TextAutofitType`](../textautofittype)。 |
-| [CenterText](../../aspose.slides/itextframeformat/centertext) { get; set; } | 如果 NullableBool.True 则文本应在框中水平居中。 读/写[`NullableBool`](../nullablebool)。 |
-| [ColumnCount](../../aspose.slides/itextframeformat/columncount) { get; set; } | 返回或设置文本区域的列数。 此值必须为正数。否则，该值将设置为零。 值 0 表示未定义的值。 读/写Int32。 |
-| [ColumnSpacing](../../aspose.slides/itextframeformat/columnspacing) { get; set; } | 返回或设置文本区域中文本列之间的间距（以磅为单位）。这应该只适用于 当存在超过 1 列时。 此值必须为正数。否则，该值将设置为零。 读/写Double。 |
-| [KeepTextFlat](../../aspose.slides/itextframeformat/keeptextflat) { get; set; } | 返回或设置将文本完全排除在 3D 场景之外。 读/写Boolean。 |
-| [MarginBottom](../../aspose.slides/itextframeformat/marginbottom) { get; set; } | 返回或设置 TextFrame 中的下边距（点）。 读/写Double。 |
-| [MarginLeft](../../aspose.slides/itextframeformat/marginleft) { get; set; } | 返回或设置 TextFrame 中的左边距（点）。 读/写Double。 |
-| [MarginRight](../../aspose.slides/itextframeformat/marginright) { get; set; } | 返回或设置 TextFrame 中的右边距（点）。 读/写Double。 |
-| [MarginTop](../../aspose.slides/itextframeformat/margintop) { get; set; } | 返回或设置 TextFrame 中的上边距（点）。 读/写Double。 |
-| [RotationAngle](../../aspose.slides/itextframeformat/rotationangle) { get; set; } | 指定应用于边界框内文本的自定义旋转。如果未指定 ，则使用伴随形状的旋转。如果已指定，则为 独立于形状应用。也就是说，除了文本本身应用了旋转之外，形状还可以在 中应用旋转。 从该属性总结的可视文本旋转的结果值，并在属性 TextVerticalType 中预定义 垂直类型。 读/写Single。 |
-| [TextStyle](../../aspose.slides/itextframeformat/textstyle) { get; } | 返回文本的样式。 只读[`ITextStyle`](../itextstyle)。 |
-| [TextVerticalType](../../aspose.slides/itextframeformat/textverticaltype) { get; set; } | 确定文本方向。 从此属性和自定义角度 中的属性 RotationAngle 汇总的可视文本旋转的结果值。 读/写[`TextVerticalType`](../textverticaltype)。 |
-| [ThreeDFormat](../../aspose.slides/itextframeformat/threedformat) { get; } | 返回表示文本的 3d 效果属性的 ThreeDFormat 对象。 只读[`IThreeDFormat`](../ithreedformat)。 |
-| [Transform](../../aspose.slides/itextframeformat/transform) { get; set; } | 获取或设置文本环绕形状。 读/写[`TextShapeType`](../textshapetype)。 |
-| [WrapText](../../aspose.slides/itextframeformat/wraptext) { get; set; } | **True** 如果文本在 TextFrame 的边距处换行。 读/写[`NullableBool`](../nullablebool)。 |
+| [AnchoringType](../../aspose.slides/itextframeformat/anchoringtype) { get; set; } | 返回或设置 TextFrame 中的垂直锚文本。 读/写[`TextAnchorType`](../textanchortype). |
+| [AutofitType](../../aspose.slides/itextframeformat/autofittype) { get; set; } | 返回或设置文本的自动调整模式。 读/写[`TextAutofitType`](../textautofittype). |
+| [CenterText](../../aspose.slides/itextframeformat/centertext) { get; set; } | 如果 NullableBool.True 则文本应在框中水平居中。 读/写[`NullableBool`](../nullablebool). |
+| [ColumnCount](../../aspose.slides/itextframeformat/columncount) { get; set; } | 返回或设置文本区域中的列数。 此值必须为正数。否则，该值将设置为零。 值 0 表示未定义的值。 读/写Int32. |
+| [ColumnSpacing](../../aspose.slides/itextframeformat/columnspacing) { get; set; } | 返回或设置文本区域中文本列之间的间距（以磅为单位）。仅当存在多于 1 列时才应应用 。 此值必须为正数。否则，该值将设置为零。 读/写Double. |
+| [KeepTextFlat](../../aspose.slides/itextframeformat/keeptextflat) { get; set; } | 返回或设置将文本完全排除在 3D 场景之外。 读/写Boolean. |
+| [MarginBottom](../../aspose.slides/itextframeformat/marginbottom) { get; set; } | 返回或设置 TextFrame 中的下边距（点）。 读/写Double. |
+| [MarginLeft](../../aspose.slides/itextframeformat/marginleft) { get; set; } | 返回或设置 TextFrame 中的左边距（点）。 读/写Double. |
+| [MarginRight](../../aspose.slides/itextframeformat/marginright) { get; set; } | 返回或设置 TextFrame 中的右边距（点）。 读/写Double. |
+| [MarginTop](../../aspose.slides/itextframeformat/margintop) { get; set; } | 返回或设置 TextFrame 中的上边距（点）。 读/写Double. |
+| [RotationAngle](../../aspose.slides/itextframeformat/rotationangle) { get; set; } | 指定应用于边界框内文本的自定义旋转。如果未指定 ，则使用伴随形状的旋转。如果已指定，则此 is 独立于形状应用。也就是说，形状可以在 中应用旋转，除了文本本身应用了旋转。 从该属性和属性TextVerticalType中预定义 垂直类型总结的可视文本旋转的结果值。 读/写Single. |
+| [TextStyle](../../aspose.slides/itextframeformat/textstyle) { get; } | 返回文本的样式。 只读[`ITextStyle`](../itextstyle). |
+| [TextVerticalType](../../aspose.slides/itextframeformat/textverticaltype) { get; set; } | 确定文本方向。 从此属性汇总的可视文本旋转结果值和属性 RotationAngle 中的自定义角度 。 读/写[`TextVerticalType`](../textverticaltype). |
+| [ThreeDFormat](../../aspose.slides/itextframeformat/threedformat) { get; } | 返回表示文本的 3d 效果属性的 ThreeDFormat 对象。 只读[`IThreeDFormat`](../ithreedformat). |
+| [Transform](../../aspose.slides/itextframeformat/transform) { get; set; } | 获取或设置文本环绕形状。 读/写[`TextShapeType`](../textshapetype). |
+| [WrapText](../../aspose.slides/itextframeformat/wraptext) { get; set; } | **真的**如果文本在 TextFrame 的边距处换行。 读/写[`NullableBool`](../nullablebool). |
 
 ## 方法
 

@@ -1,14 +1,14 @@
 ---
 title: Width
 second_title: Aspose.Slides for .NET API 参考
-description: 斜角宽度 只读Double
+description: 斜角宽度 只读Double.
 type: docs
 weight: 30
 url: /zh/net/aspose.slides/ishapebeveleffectivedata/width/
 ---
 ## IShapeBevelEffectiveData.Width property
 
-斜角宽度。 只读Double。
+斜角宽度。 只读Double.
 
 ```csharp
 public double Width { get; }

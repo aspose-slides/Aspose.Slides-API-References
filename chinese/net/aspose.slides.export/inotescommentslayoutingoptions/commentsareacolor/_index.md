@@ -1,14 +1,14 @@
 ---
 title: CommentsAreaColor
 second_title: Aspose.Slides for .NET API 参考
-description: 获取或设置评论区的颜色 仅适用于评论显示在右侧
+description: 获取或设置评论区颜色 仅当评论显示在右侧时才适用
 type: docs
 weight: 10
 url: /zh/net/aspose.slides.export/inotescommentslayoutingoptions/commentsareacolor/
 ---
 ## INotesCommentsLayoutingOptions.CommentsAreaColor property
 
-获取或设置评论区的颜色 （仅适用于评论显示在右侧）。
+获取或设置评论区颜色 （仅当评论显示在右侧时才适用）
 
 ```csharp
 public Color CommentsAreaColor { get; set; }
@@ -16,7 +16,7 @@ public Color CommentsAreaColor { get; set; }
 
 ### 评论
 
-默认为 **Color.SkyBlue** 。
+默认为 **颜色.天蓝色**.
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: op_Inequality
 second_title: Aspose.Slides for .NET API 参考
-description: 检查两个 FieldType 对象是否不相等
+description: 检查两个 FieldType 对象是否不等
 type: docs
 weight: 230
 url: /zh/net/aspose.slides/fieldtype/op_inequality/
 ---
 ## FieldType Inequality operator
 
-检查两个 FieldType 对象是否不相等。
+检查两个 FieldType 对象是否不等。
 
 ```csharp
 public static bool operator !=(FieldType a, FieldType b)

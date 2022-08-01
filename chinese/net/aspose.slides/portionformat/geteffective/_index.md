@@ -1,14 +1,14 @@
 ---
 title: GetEffective
 second_title: Aspose.Slides for .NET API 参考
-description: 获取应用继承的有效部分格式化数据
+description: 获取应用了继承的有效部分格式化数据
 type: docs
 weight: 70
 url: /zh/net/aspose.slides/portionformat/geteffective/
 ---
 ## PortionFormat.GetEffective method
 
-获取应用继承的有效部分格式化数据。
+获取应用了继承的有效部分格式化数据。
 
 ```csharp
 public IPortionFormatEffectiveData GetEffective()
@@ -16,11 +16,11 @@ public IPortionFormatEffectiveData GetEffective()
 
 ### 返回值
 
-A[`IPortionFormatEffectiveData`](../../iportionformateffectivedata)。
+一个[`IPortionFormatEffectiveData`](../../iportionformateffectivedata).
 
 ### 例子
 
-此示例演示了获取一些有效的部分格式属性。
+这个例子演示了获取一些有效的部分格式属性。
 
 ```csharp
 [C#]

@@ -1,14 +1,14 @@
 ---
 title: AxisAggregationType
 second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет тип агрегации оси категорий. Используется только с сериями Histogram или HistogramPareto.
+description: Представляет тип агрегирования оси категорий. Используется только с сериями Histogram или HistogramPareto.
 type: docs
 weight: 1050
 url: /ru/net/aspose.slides.charts/axisaggregationtype/
 ---
 ## AxisAggregationType enumeration
 
-Представляет тип агрегации оси категорий. Используется только с сериями Histogram или HistogramPareto.
+Представляет тип агрегирования оси категорий. Используется только с сериями Histogram или HistogramPareto.
 
 ```csharp
 public enum AxisAggregationType

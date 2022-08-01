@@ -1,14 +1,14 @@
 ---
 title: RemoveAt
 second_title: Aspose.Slides for .NET API 参考
-description: 删除指定索引处的渐变停止
+description: 删除指定索引处的梯度停止点
 type: docs
 weight: 100
 url: /zh/net/aspose.slides/gradientstopcollection/removeat/
 ---
 ## GradientStopCollection.RemoveAt method
 
-删除指定索引处的渐变停止。
+删除指定索引处的梯度停止点。
 
 ```csharp
 public void RemoveAt(int index)
@@ -16,7 +16,7 @@ public void RemoveAt(int index)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| index | Int32 | 应删除的梯度停止索引。 |
+| index | Int32 | 应该删除的梯度停止的索引。 |
 
 ### 也可以看看
 

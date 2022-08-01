@@ -17,14 +17,14 @@ public IMathNaryOperator CreateMathNaryOperator(char operatorSymbol, IMathElemen
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| operatorSymbol | Char | 运算符符号 |
+| operatorSymbol | Char | 运营商标志 |
 | baseArgument | IMathElement | 应用运算符的基本参数 |
 | lowerLimit | IMathElement | 下限 |
 | upperLimit | IMathElement | 上限 |
 
 ### 返回值
 
-新 IMathNaryOperator
+新的数学运算器
 
 ### 也可以看看
 
@@ -47,13 +47,13 @@ public IMathNaryOperator CreateMathNaryOperator(char operatorSymbol, IMathElemen
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| operatorSymbol | Char | 运算符符号 |
+| operatorSymbol | Char | 运营商标志 |
 | baseArgument | IMathElement | 应用运算符的基本参数 |
 | lowerLimit | IMathElement | 下限 |
 
 ### 返回值
 
-新的 IMathNaryOperator
+新的数学运算器
 
 ### 也可以看看
 
@@ -75,12 +75,12 @@ public IMathNaryOperator CreateMathNaryOperator(char operatorSymbol, IMathElemen
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| operatorSymbol | Char | 运算符符号 |
+| operatorSymbol | Char | 运营商标志 |
 | baseArgument | IMathElement | 应用运算符的基本参数 |
 
 ### 返回值
 
-new IMathNaryOperator
+新的数学运算器
 
 ### 也可以看看
 

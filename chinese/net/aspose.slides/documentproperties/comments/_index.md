@@ -1,14 +1,14 @@
 ---
 title: Comments
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置演示文稿的注释 读/写String
+description: 返回或设置演示文稿的评论 读/写String.
 type: docs
 weight: 60
 url: /zh/net/aspose.slides/documentproperties/comments/
 ---
 ## DocumentProperties.Comments property
 
-返回或设置演示文稿的注释。 读/写String。
+返回或设置演示文稿的评论。 读/写String.
 
 ```csharp
 public string Comments { get; set; }

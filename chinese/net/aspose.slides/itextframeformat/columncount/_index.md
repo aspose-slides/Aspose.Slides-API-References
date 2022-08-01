@@ -1,14 +1,14 @@
 ---
 title: ColumnCount
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置文本区域的列数 此值必须为正数否则该值将设置为零 值 0 表示未定义的值 读/写Int32
+description: 返回或设置文本区域中的列数 此值必须为正数否则该值将设置为零 值 0 表示未定义的值 读/写Int32.
 type: docs
 weight: 40
 url: /zh/net/aspose.slides/itextframeformat/columncount/
 ---
 ## ITextFrameFormat.ColumnCount property
 
-返回或设置文本区域的列数。 此值必须为正数。否则，该值将设置为零。 值 0 表示未定义的值。 读/写Int32。
+返回或设置文本区域中的列数。 此值必须为正数。否则，该值将设置为零。 值 0 表示未定义的值。 读/写Int32.
 
 ```csharp
 public int ColumnCount { get; set; }

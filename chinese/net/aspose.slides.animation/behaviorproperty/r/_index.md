@@ -8,7 +8,7 @@ url: /zh/net/aspose.slides.animation/behaviorproperty/r/
 ---
 ## BehaviorProperty.R property
 
-表示'r'属性
+表示“r”属性
 
 ```csharp
 public static BehaviorProperty R { get; }

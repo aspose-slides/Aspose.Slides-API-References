@@ -1,14 +1,14 @@
 ---
 title: Font
 second_title: Aspose.Slides for .NET API 参考
-description: 返回段落的项目符号字体 只读IFontDataaspose.slides/ifontdata
+description: 返回段落的项目符号字体 只读IFontDataaspose.slides/ifontdata.
 type: docs
 weight: 40
 url: /zh/net/aspose.slides/ibulletformateffectivedata/font/
 ---
 ## IBulletFormatEffectiveData.Font property
 
-返回段落的项目符号字体。 只读[`IFontData`](../../ifontdata)。
+返回段落的项目符号字体。 只读[`IFontData`](../../ifontdata).
 
 ```csharp
 public IFontData Font { get; }

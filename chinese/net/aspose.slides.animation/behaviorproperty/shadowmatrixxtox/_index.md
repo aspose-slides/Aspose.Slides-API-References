@@ -1,14 +1,14 @@
 ---
 title: ShadowMatrixXtoX
 second_title: Aspose.Slides for .NET API 参考
-description: 表示shadow.matrix.xtox属性
+description: 代表shadow.matrix.xtox属性
 type: docs
 weight: 640
 url: /zh/net/aspose.slides.animation/behaviorproperty/shadowmatrixxtox/
 ---
 ## BehaviorProperty.ShadowMatrixXtoX property
 
-表示'shadow.matrix.xtox'属性
+代表“shadow.matrix.xtox”属性
 
 ```csharp
 public static BehaviorProperty ShadowMatrixXtoX { get; }

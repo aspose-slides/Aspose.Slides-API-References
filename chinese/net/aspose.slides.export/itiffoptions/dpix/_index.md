@@ -1,14 +1,14 @@
 ---
 title: DpiX
 second_title: Aspose.Slides for .NET API 参考
-description: 以每英寸点数指定水平分辨率 读/写UInt32
+description: 以每英寸点数指定水平分辨率 读/写UInt32.
 type: docs
 weight: 30
 url: /zh/net/aspose.slides.export/itiffoptions/dpix/
 ---
 ## ITiffOptions.DpiX property
 
-以每英寸点数指定水平分辨率。 读/写UInt32。
+以每英寸点数指定水平分辨率。 读/写UInt32.
 
 ```csharp
 public uint DpiX { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: FontName
 second_title: Aspose.Slides for .NET API 参考
-description: 返回字体名称 只读String
+description: 返回字体名称 只读String.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides/ifontdata/fontname/
 ---
 ## IFontData.FontName property
 
-返回字体名称。 只读String。
+返回字体名称。 只读String.
 
 ```csharp
 public string FontName { get; }

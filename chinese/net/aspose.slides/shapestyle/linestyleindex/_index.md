@@ -1,14 +1,14 @@
 ---
 title: LineStyleIndex
 second_title: Aspose.Slides for .NET API 参考
-description: 在样式矩阵中返回或设置行的列索引 读/写UInt16
+description: 在样式矩阵中返回或设置行的列索引 读/写UInt16.
 type: docs
 weight: 80
 url: /zh/net/aspose.slides/shapestyle/linestyleindex/
 ---
 ## ShapeStyle.LineStyleIndex property
 
-在样式矩阵中返回或设置行的列索引。 读/写UInt16。
+在样式矩阵中返回或设置行的列索引。 读/写UInt16.
 
 ```csharp
 public ushort LineStyleIndex { get; set; }

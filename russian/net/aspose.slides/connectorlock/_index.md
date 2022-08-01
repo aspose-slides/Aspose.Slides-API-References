@@ -18,17 +18,17 @@ public class ConnectorLock : BaseShapeLock, IConnectorLock
 
 | Имя | Описание |
 | --- | --- |
-| [AdjustHandlesLocked](../../aspose.slides/connectorlock/adjusthandleslocked) { get; set; } | Определяет, запрещено ли изменение значений настройки. Чтение/записьBoolean. |
-| [ArrowheadsLocked](../../aspose.slides/connectorlock/arrowheadslocked) { get; set; } | Определяет, запрещена ли смена наконечников стрелок. Чтение/записьBoolean. |
-| [AspectRatioLocked](../../aspose.slides/connectorlock/aspectratiolocked) { get; set; } | Определяет, должна ли фигура сохранять соотношение сторон при изменении размера. Чтение/записьBoolean. |
-| [EditPointsLocked](../../aspose.slides/connectorlock/editpointslocked) { get; set; } | Определяет, запрещено ли прямое изменение контура этой формы. Чтение/записьBoolean. |
-| [GroupingLocked](../../aspose.slides/connectorlock/groupinglocked) { get; set; } | Определяет, запрещено ли добавление этой формы в группу. Чтение/записьBoolean. |
-| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | Возвращает true, если все флаги блокировки отключены. Только чтениеBoolean. |
-| [PositionMove](../../aspose.slides/connectorlock/positionmove) { get; set; } | Определяет, запрещено ли перемещение этой фигуры. Чтение/записьBoolean. |
-| [RotateLocked](../../aspose.slides/connectorlock/rotatelocked) { get; set; } | Определяет, запрещено ли изменение угла поворота этой фигуры. Чтение/записьBoolean. |
-| [SelectLocked](../../aspose.slides/connectorlock/selectlocked) { get; set; } | Определяет, запрещен ли выбор этой формы. Чтение/записьBoolean. |
-| [ShapeTypeLocked](../../aspose.slides/connectorlock/shapetypelocked) { get; set; } | Определяет, запрещено ли изменение типа формы. Чтение/записьBoolean. |
-| [SizeLocked](../../aspose.slides/connectorlock/sizelocked) { get; set; } | Определяет, запрещено ли изменение размера этой фигуры. Чтение/записьBoolean. |
+| [AdjustHandlesLocked](../../aspose.slides/connectorlock/adjusthandleslocked) { get; set; } | Определяет, запрещено ли изменение значений настройки. Чтение/записьBoolean . |
+| [ArrowheadsLocked](../../aspose.slides/connectorlock/arrowheadslocked) { get; set; } | Определяет, запрещено ли изменение наконечников стрелок. Чтение/записьBoolean . |
+| [AspectRatioLocked](../../aspose.slides/connectorlock/aspectratiolocked) { get; set; } | Определяет, должна ли фигура сохранять соотношение сторон при изменении размера. Чтение/записьBoolean . |
+| [EditPointsLocked](../../aspose.slides/connectorlock/editpointslocked) { get; set; } | Определяет, запрещено ли прямое изменение контура этой формы. Чтение/записьBoolean . |
+| [GroupingLocked](../../aspose.slides/connectorlock/groupinglocked) { get; set; } | Определяет, запрещено ли добавление этой формы в группу. Чтение/записьBoolean . |
+| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | Возвращает true, если все флаги блокировки отключены. Только для чтенияBoolean . |
+| [PositionMove](../../aspose.slides/connectorlock/positionmove) { get; set; } | Определяет, запрещено ли перемещение этой фигуры. Чтение/записьBoolean . |
+| [RotateLocked](../../aspose.slides/connectorlock/rotatelocked) { get; set; } | Определяет, запрещено ли изменение угла поворота этой формы. Чтение/записьBoolean . |
+| [SelectLocked](../../aspose.slides/connectorlock/selectlocked) { get; set; } | Определяет, запрещен ли выбор этой фигуры. Чтение/записьBoolean . |
+| [ShapeTypeLocked](../../aspose.slides/connectorlock/shapetypelocked) { get; set; } | Определяет, запрещено ли изменение типа формы. Чтение/записьBoolean . |
+| [SizeLocked](../../aspose.slides/connectorlock/sizelocked) { get; set; } | Определяет, запрещено ли изменение размера этой фигуры. Чтение/записьBoolean . |
 
 ### Смотрите также
 

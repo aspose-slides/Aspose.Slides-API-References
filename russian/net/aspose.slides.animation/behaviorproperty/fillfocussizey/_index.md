@@ -8,7 +8,7 @@ url: /ru/net/aspose.slides.animation/behaviorproperty/fillfocussizey/
 ---
 ## BehaviorProperty.FillFocusSizeY property
 
-Представляет свойство 'fill.focussize.y'
+Представляет свойство fill.focussize.y
 
 ```csharp
 public static BehaviorProperty FillFocusSizeY { get; }

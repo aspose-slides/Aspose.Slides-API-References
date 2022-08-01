@@ -18,7 +18,7 @@ public class PresentationText : IPresentationText
 
 | Имя | Описание |
 | --- | --- |
-| [SlidesText](../../aspose.slides/presentationtext/slidestext) { get; } | Массив[`SlideText`](../islidetext) содержит текст презентации. |
+| [SlidesText](../../aspose.slides/presentationtext/slidestext) { get; } | Массив[`Текст слайда`](../islidetext) содержит текст презентации. |
 
 ### Смотрите также
 

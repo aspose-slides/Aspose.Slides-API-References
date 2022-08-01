@@ -8,7 +8,7 @@ url: /ru/net/aspose.slides.animation/behaviorproperty/fillfocuspositionx/
 ---
 ## BehaviorProperty.FillFocusPositionX property
 
-Представляет свойство 'fill.focusposition.x'
+Представляет свойство fill.focusposition.x
 
 ```csharp
 public static BehaviorProperty FillFocusPositionX { get; }

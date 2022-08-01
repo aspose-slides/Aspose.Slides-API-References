@@ -1,14 +1,14 @@
 ---
 title: IPatternFormatEffectiveData
 second_title: Справочник по API Aspose.Slides для .NET
-description: Неизменяемый объект который содержит эффективные свойства заполнения шаблона.
+description: Неизменяемый объект содержащий эффективные свойства заполнения шаблона.
 type: docs
 weight: 6070
 url: /ru/net/aspose.slides/ipatternformateffectivedata/
 ---
 ## IPatternFormatEffectiveData interface
 
-Неизменяемый объект, который содержит эффективные свойства заполнения шаблона.
+Неизменяемый объект, содержащий эффективные свойства заполнения шаблона.
 
 ```csharp
 public interface IPatternFormatEffectiveData
@@ -18,9 +18,9 @@ public interface IPatternFormatEffectiveData
 
 | Имя | Описание |
 | --- | --- |
-| [BackColor](../../aspose.slides/ipatternformateffectivedata/backcolor) { get; } | Возвращает цвет фонового узора. Только для чтенияColor. |
-| [ForeColor](../../aspose.slides/ipatternformateffectivedata/forecolor) { get; } | Возвращает цвет шаблона переднего плана. Только для чтенияColor. |
-| [PatternStyle](../../aspose.slides/ipatternformateffectivedata/patternstyle) { get; } | Возвращает стиль шаблона. Только для чтения[`PatternStyle`](../patternstyle). |
+| [BackColor](../../aspose.slides/ipatternformateffectivedata/backcolor) { get; } | Возвращает цвет фонового узора. Только для чтенияColor . |
+| [ForeColor](../../aspose.slides/ipatternformateffectivedata/forecolor) { get; } | Возвращает цвет шаблона переднего плана. Только для чтенияColor . |
+| [PatternStyle](../../aspose.slides/ipatternformateffectivedata/patternstyle) { get; } | Возвращает стиль шаблона. Только для чтения[`PatternStyle`](../patternstyle) . |
 
 ## Методы
 
@@ -30,7 +30,7 @@ public interface IPatternFormatEffectiveData
 
 ### Примечания
 
-Этот интерфейс используется как часть[`IFillFormatEffectiveData`](../ifillformateffectivedata)и[`ILineFillFormatEffectiveData`](../ilinefillformateffectivedata).
+Этот интерфейс используется как часть[`IFillFormatEffectiveData`](../ifillformateffectivedata) а также[`ILineFillFormatEffectiveData`](../ilinefillformateffectivedata) .
 
 ### Смотрите также
 

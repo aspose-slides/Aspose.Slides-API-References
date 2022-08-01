@@ -17,17 +17,17 @@ public IMathDelimiter Enclose(char beginningCharacter, char endingCharacter,
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| 开始字符 | Char | 开始字符（通常是左括号） |
-| 结束字符 | Char | 结束字符（通常是右括号） |
-| 分隔符字符 | Char | 分隔符 |
+| beginningCharacter | Char | 开始字符（通常是左括号） |
+| endingCharacter | Char | 结束字符（通常是右括号） |
+| separatorCharacter | Char | 分隔符 |
 
 ### 返回值
 
-[`IMathDelimiter`](../../imathdelimiter)类型的数学元素，其中包括指定字符作为框架和分隔符
+类型的数学元素[`IMathDelimiter`](../../imathdelimiter)其中包括指定的字符作为框架和分隔符
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]

@@ -1,14 +1,14 @@
 ---
 title: Alpha
 second_title: Aspose.Slides for .NET API 参考
-description: 在区间 0..1 中返回新的 alpha 值 只读Single.
+description: 返回区间 0..1 内的新 alpha 值 只读Single.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides.effects/ialphareplaceeffectivedata/alpha/
 ---
 ## IAlphaReplaceEffectiveData.Alpha property
 
-在区间 [0..1] 中返回新的 alpha 值 只读Single.
+返回区间 [0..1] 内的新 alpha 值 只读Single.
 
 ```csharp
 public float Alpha { get; }

@@ -18,8 +18,8 @@ public interface IChartComponent : ISlideComponent
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsISlideComponent](../../aspose.slides.charts/ichartcomponent/asislidecomponent) { get; } | 允许获取基础 ISlideComponent 接口。 只读[`ISlideComponent`](../../aspose.slides/islidecomponent)。 |
-| [Chart](../../aspose.slides.charts/ichartcomponent/chart) { get; } | 返回图表。 只读[`IChart`](../ichart)。 |
+| [AsISlideComponent](../../aspose.slides.charts/ichartcomponent/asislidecomponent) { get; } | 允许获取基本 ISlideComponent 接口。 只读[`ISlideComponent`](../../aspose.slides/islidecomponent). |
+| [Chart](../../aspose.slides.charts/ichartcomponent/chart) { get; } | 返回图表。 只读[`IChart`](../ichart). |
 
 ### 也可以看看
 

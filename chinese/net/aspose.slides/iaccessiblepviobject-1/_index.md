@@ -17,13 +17,13 @@ public interface IAccessiblePVIObject<T>
 
 | 范围 | 描述 |
 | --- | --- |
-| T | 有效数据类型。 |
+| T | 有效数据的类型。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [GetEffective](../../aspose.slides/iaccessiblepviobject`1/geteffective)() | 获取应用继承的有效数据。 |
+| [GetEffective](../../aspose.slides/iaccessiblepviobject`1/geteffective)() | 获取应用了继承的有效数据。 |
 
 ### 也可以看看
 

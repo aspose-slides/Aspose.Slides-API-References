@@ -18,19 +18,19 @@ public abstract class CellCollection : ICellCollection
 
 | Имя | Описание |
 | --- | --- |
-| [Count](../../aspose.slides/cellcollection/count) { get; } | Возвращает количество ячеек в коллекции. Только для чтенияInt32. |
-| [IsSynchronized](../../aspose.slides/cellcollection/issynchronized) { get; } | Возвращает значение, указывающее, является ли доступ к коллекции синхронизированным (потокобезопасным). Только чтениеBoolean. |
-| [Item](../../aspose.slides/cellcollection/item) { get; } | Возвращает ячейку по ее положению. Только для чтения[`Cell`](../cell). |
-| [Presentation](../../aspose.slides/cellcollection/presentation) { get; } | Возвращает родительское представление CellCollection. Только чтение[`IPresentation`](../ipresentation). |
-| [Slide](../../aspose.slides/cellcollection/slide) { get; } | Возвращает родительский слайд CellCollection. Только для чтения[`IBaseSlide`](../ibaseslide). |
-| [SyncRoot](../../aspose.slides/cellcollection/syncroot) { get; } | Возвращает корень синхронизации. Только для чтенияObject. |
+| [Count](../../aspose.slides/cellcollection/count) { get; } | Возвращает количество ячеек в коллекции. Только для чтенияInt32 . |
+| [IsSynchronized](../../aspose.slides/cellcollection/issynchronized) { get; } | Возвращает значение, указывающее, является ли доступ к коллекции синхронизированным (потокобезопасным). Только для чтенияBoolean . |
+| [Item](../../aspose.slides/cellcollection/item) { get; } | Возвращает ячейку по ее положению. Только для чтения[`Cell`](../cell) . |
+| [Presentation](../../aspose.slides/cellcollection/presentation) { get; } | Возвращает родительское представление CellCollection. Только для чтения[`IPresentation`](../ipresentation) . |
+| [Slide](../../aspose.slides/cellcollection/slide) { get; } | Возвращает родительский слайд CellCollection. Только для чтения[`IBaseSlide`](../ibaseslide) . |
+| [SyncRoot](../../aspose.slides/cellcollection/syncroot) { get; } | Возвращает корень синхронизации. Только для чтенияObject . |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [CopyTo](../../aspose.slides/cellcollection/copyto)(Array, int) | Копирует все элементы из коллекции в указанный массив. |
-| [GetEnumerator](../../aspose.slides/cellcollection/getenumerator)() | Возвращает перечислитель, который перебирает коллекцию. |
+| [CopyTo](../../aspose.slides/cellcollection/copyto)(Array, int) | Копирует все элементы коллекции в указанный массив. |
+| [GetEnumerator](../../aspose.slides/cellcollection/getenumerator)() | Возвращает перечислитель, который выполняет итерацию по коллекции. |
 
 ### Смотрите также
 

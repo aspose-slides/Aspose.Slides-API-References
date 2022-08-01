@@ -16,7 +16,7 @@ public void CubicBezierTo(PointF point1, PointF point2, PointF point3)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| point1 | PointF | First方向点 |
+| point1 | PointF | 第一个方向点 |
 | point2 | PointF | 第二方向点 |
 | point3 | PointF | 终点 |
 
@@ -38,12 +38,12 @@ public void CubicBezierTo(float x1, float y1, float x2, float y2, float x3, floa
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| x1 | Single | X第一个方向点坐标 |
-| y1 | Single | 第一个方向点 Y 坐标 |
-| x2 | Single | X 坐标第二方向点 |
-| y2 | Single | 第二方向点 Y 坐标 |
-| x3 | Single | 终点 X 坐标 |
-| y3 | Single | 终点 Y 坐标 |
+| x1 | Single | 第一个方向点的X坐标 |
+| y1 | Single | 第一个方向点的Y坐标 |
+| x2 | Single | 第二方向点X坐标 |
+| y2 | Single | 第二方向点的Y坐标 |
+| x3 | Single | 终点X坐标 |
+| y3 | Single | 终点Y坐标 |
 
 ### 也可以看看
 
@@ -64,7 +64,7 @@ public void CubicBezierTo(PointF point1, PointF point2, PointF point3, uint inde
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | point1 | PointF | 第一个方向点 |
-| point2 | PointF | 第二个方向点 |
+| point2 | PointF | 第二方向点 |
 | point3 | PointF | 终点 |
 | index | UInt32 | PathData 中段的索引 |
 
@@ -92,13 +92,13 @@ public void CubicBezierTo(float x1, float y1, float x2, float y2, float x3, floa
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| x1 | Single | 第一方向点 X 坐标 |
-| y1 | Single | 第一方向点 Y 坐标 |
-| x2 | Single | X第二方向点坐标 |
-| y2 | Single | 第二方向点 Y 坐标 |
-| x3 | Single | X 坐标端点 |
-| y3 | Single | 端点 Y 坐标 |
-| index | UInt32 | PathData 中的段索引 |
+| x1 | Single | 第一个方向点的X坐标 |
+| y1 | Single | 第一个方向点的Y坐标 |
+| x2 | Single | 第二方向点X坐标 |
+| y2 | Single | 第二方向点的Y坐标 |
+| x3 | Single | 终点X坐标 |
+| y3 | Single | 终点Y坐标 |
+| index | UInt32 | PathData 中段的索引 |
 
 ### 例外
 

@@ -20,11 +20,11 @@ public ISummaryZoomSection GetSummarySection(ISection section)
 
 ### 返回值
 
-[`ISummaryZoomSection`](../../isummaryzoomsection)如果集合不包含该部分的元素，则为 null。
+[`ISummaryZoomSection`](../../isummaryzoomsection)如果集合不包含该部分的元素，则返回 null。
 
 ### 例子
 
-该示例演示了按索引获取摘要缩放部分元素:
+该示例演示了按索引获取摘要缩放部分元素：
 
 ```csharp
 [C#]

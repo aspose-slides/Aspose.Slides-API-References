@@ -1,14 +1,14 @@
 ---
 title: AsISlideComponent
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает интерфейс ISlideComponent. Только для чтенияISlideComponentaspose.slides/islidecomponent.
+description: Возвращает интерфейс ISlideComponent. Только для чтенияISlideComponentaspose.slides/islidecomponent .
 type: docs
 weight: 20
 url: /ru/net/aspose.slides/ibackground/asislidecomponent/
 ---
 ## IBackground.AsISlideComponent property
 
-Возвращает интерфейс ISlideComponent. Только для чтения[`ISlideComponent`](../../islidecomponent).
+Возвращает интерфейс ISlideComponent. Только для чтения[`ISlideComponent`](../../islidecomponent) .
 
 ```csharp
 public ISlideComponent AsISlideComponent { get; }

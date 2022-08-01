@@ -1,14 +1,14 @@
 ---
 title: FillFocusPositionY
 second_title: Aspose.Slides for .NET API 参考
-description: 表示 fill.focusposition.y 属性
+description: 表示fill.focusposition.y 属性
 type: docs
 weight: 320
 url: /zh/net/aspose.slides.animation/behaviorproperty/fillfocuspositiony/
 ---
 ## BehaviorProperty.FillFocusPositionY property
 
-表示 'fill.focusposition.y' 属性
+表示'fill.focusposition.y' 属性
 
 ```csharp
 public static BehaviorProperty FillFocusPositionY { get; }

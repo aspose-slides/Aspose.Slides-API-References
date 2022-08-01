@@ -21,7 +21,7 @@ public ICommentAuthor AddAuthor(string name, string initials)
 
 ### Возвращаемое значение
 
-Новый объект[`ICommentAuthor`](../../icommentauthor).
+Новый[`ICommentAuthor`](../../icommentauthor) объект.
 
 ### Смотрите также
 

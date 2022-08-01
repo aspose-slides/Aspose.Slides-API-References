@@ -1,14 +1,14 @@
 ---
 title: ParagraphFormat
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает объект форматирования для этого абзаца. Только для чтенияIParagraphFormataspose.slides/iparagraphformat.
+description: Возвращает объект форматирования для этого абзаца. Только для чтенияIParagraphFormataspose.slides/iparagraphformat .
 type: docs
 weight: 30
 url: /ru/net/aspose.slides/paragraph/paragraphformat/
 ---
 ## Paragraph.ParagraphFormat property
 
-Возвращает объект форматирования для этого абзаца. Только для чтения[`IParagraphFormat`](../../iparagraphformat).
+Возвращает объект форматирования для этого абзаца. Только для чтения[`IParagraphFormat`](../../iparagraphformat) .
 
 ```csharp
 public IParagraphFormat ParagraphFormat { get; }
@@ -16,9 +16,9 @@ public IParagraphFormat ParagraphFormat { get; }
 
 ### Примечания
 
-ОФ содержит параметры форматирования, определенные только для текущего абзаца, унаследованные данные не применяются .
+ОФ содержит параметры форматирования, определенные только для текущего абзаца, унаследованные данные не применяются.
 
-Для получения действующих значений, включая унаследованные, используйте метод[`GetEffective`](../../paragraphformat/geteffective).
+Для получения эффективных значений, в том числе унаследованных, используйте[`GetEffective`](../../paragraphformat/geteffective) метод.
 
 ### Смотрите также
 

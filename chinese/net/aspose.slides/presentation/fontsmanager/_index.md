@@ -1,14 +1,14 @@
 ---
 title: FontsManager
 second_title: Aspose.Slides for .NET API 参考
-description: 返回字体管理器 只读IFontsManageraspose.slides/ifontsmanager
+description: 返回字体管理器 只读IFontsManageraspose.slides/ifontsmanager.
 type: docs
 weight: 110
 url: /zh/net/aspose.slides/presentation/fontsmanager/
 ---
 ## Presentation.FontsManager property
 
-返回字体管理器。 只读[`IFontsManager`](../../ifontsmanager)。
+返回字体管理器。 只读[`IFontsManager`](../../ifontsmanager).
 
 ```csharp
 public IFontsManager FontsManager { get; }

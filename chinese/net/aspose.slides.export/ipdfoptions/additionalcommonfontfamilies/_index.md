@@ -1,14 +1,14 @@
 ---
 title: AdditionalCommonFontFamilies
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置用户定义的字体系列名称数组Aspose.Slides 应该认为这些名称是通用的 读/写String
+description: 返回或设置用户定义的字体系列名称数组Aspose.Slides 应该认为这些名称是常见的 读/写String.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides.export/ipdfoptions/additionalcommonfontfamilies/
 ---
 ## IPdfOptions.AdditionalCommonFontFamilies property
 
-返回或设置用户定义的字体系列名称数组，Aspose.Slides 应该认为这些名称是通用的。 读/写String[]。
+返回或设置用户定义的字体系列名称数组，Aspose.Slides 应该认为这些名称是常见的。 读/写String[].
 
 ```csharp
 public string[] AdditionalCommonFontFamilies { get; set; }

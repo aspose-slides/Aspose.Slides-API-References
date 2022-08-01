@@ -1,14 +1,14 @@
 ---
 title: MasterTheme
 second_title: Aspose.Slides for .NET API 参考
-description: 代表主主题
+description: 代表一个主主题
 type: docs
 weight: 10620
 url: /zh/net/aspose.slides.theme/mastertheme/
 ---
 ## MasterTheme class
 
-代表主主题。
+代表一个主主题。
 
 ```csharp
 public class MasterTheme : Theme, IMasterTheme
@@ -18,12 +18,12 @@ public class MasterTheme : Theme, IMasterTheme
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [ColorScheme](../../aspose.slides.theme/mastertheme/colorscheme) { get; } | 返回配色方案。 只读[`IColorScheme`](../icolorscheme)。 |
-| [ExtraColorSchemes](../../aspose.slides.theme/mastertheme/extracolorschemes) { get; } | 返回附加配色方案的集合。 这些方案不会影响演示文稿的外观，它们可以被选为幻灯片的主要配色方案。 只读[`IExtraColorSchemeCollection`](../iextracolorschemecollection)。 |
-| override [FontScheme](../../aspose.slides.theme/mastertheme/fontscheme) { get; } | 返回字体方案。 只读[`IFontScheme`](../ifontscheme)。 |
-| override [FormatScheme](../../aspose.slides.theme/mastertheme/formatscheme) { get; } | 返回形状格式方案。 只读[`IFormatScheme`](../iformatscheme)。 |
-| [Name](../../aspose.slides.theme/mastertheme/name) { get; set; } | 返回主题的名称。 读/写String。 |
-| [Presentation](../../aspose.slides.theme/theme/presentation) { get; } | 返回父演示文稿。 只读[`IPresentation`](../../aspose.slides/ipresentation)。 |
+| override [ColorScheme](../../aspose.slides.theme/mastertheme/colorscheme) { get; } | 返回配色方案。 只读[`IColorScheme`](../icolorscheme). |
+| [ExtraColorSchemes](../../aspose.slides.theme/mastertheme/extracolorschemes) { get; } | 返回附加配色方案的集合。 这些配色方案不会影响演示文稿的外观，它们可以被选为幻灯片的主要配色方案。 只读[`IExtraColorSchemeCollection`](../iextracolorschemecollection). |
+| override [FontScheme](../../aspose.slides.theme/mastertheme/fontscheme) { get; } | 返回字体方案。 只读[`IFontScheme`](../ifontscheme). |
+| override [FormatScheme](../../aspose.slides.theme/mastertheme/formatscheme) { get; } | 返回形状格式方案。 只读[`IFormatScheme`](../iformatscheme). |
+| [Name](../../aspose.slides.theme/mastertheme/name) { get; set; } | 返回主题的名称。 读/写String. |
+| [Presentation](../../aspose.slides.theme/theme/presentation) { get; } | 返回父演示文稿。 只读[`IPresentation`](../../aspose.slides/ipresentation). |
 
 ## 方法
 

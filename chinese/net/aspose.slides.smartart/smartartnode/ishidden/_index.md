@@ -1,14 +1,14 @@
 ---
 title: IsHidden
 second_title: Aspose.Slides for .NET API 参考
-description: 如果此节点是数据模型中的隐藏节点则返回 true 只读Boolean
+description: 如果此节点是数据模型中的隐藏节点则返回 true 只读Boolean.
 type: docs
 weight: 40
 url: /zh/net/aspose.slides.smartart/smartartnode/ishidden/
 ---
 ## SmartArtNode.IsHidden property
 
-如果此节点是数据模型中的隐藏节点，则返回 true。 只读Boolean。
+如果此节点是数据模型中的隐藏节点，则返回 true。 只读Boolean.
 
 ```csharp
 public bool IsHidden { get; }

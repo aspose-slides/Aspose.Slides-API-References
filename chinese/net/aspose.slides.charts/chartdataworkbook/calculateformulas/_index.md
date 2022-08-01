@@ -19,11 +19,11 @@ public void CalculateFormulas()
 | 例外 | （健康）状况 |
 | --- | --- |
 | [CellCircularReferenceException](../../../aspose.slides.spreadsheet/cellcircularreferenceexception) | 工作簿包含带有循环引用的公式。 |
-| [CellUnsupportedDataException](../../../aspose.slides.spreadsheet/cellunsupporteddataexception) | 单元格数据不受支持。 |
+| [CellUnsupportedDataException](../../../aspose.slides.spreadsheet/cellunsupporteddataexception) | 不支持单元格数据。 |
 
 ### 例子
 
-示例显示如何将公式分配给单元格并计算值。 “B4”单元格的值设置为 5。
+示例显示如何将公式分配给单元格并计算值。 “B4”单元格的值设置为 5.
 
 ```csharp
 [C#]

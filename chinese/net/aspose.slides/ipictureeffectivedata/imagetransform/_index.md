@@ -1,14 +1,14 @@
 ---
 title: ImageTransform
 second_title: Aspose.Slides for .NET API 参考
-description: 返回图像变换效果的集合 只读IImageTransformOCollectionEffectiveDataaspose.slides.effects/iimagetransformocollectioneffectivedata
+description: 返回图像变换效果的集合 只读IImageTransformOCollectionEffectiveDataaspose.slides.effects/iimagetransformocollectioneffectivedata.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides/ipictureeffectivedata/imagetransform/
 ---
 ## IPictureEffectiveData.ImageTransform property
 
-返回图像变换效果的集合。 只读[`IImageTransformOCollectionEffectiveData`](../../../aspose.slides.effects/iimagetransformocollectioneffectivedata)。
+返回图像变换效果的集合。 只读[`IImageTransformOCollectionEffectiveData`](../../../aspose.slides.effects/iimagetransformocollectioneffectivedata).
 
 ```csharp
 public IImageTransformOCollectionEffectiveData ImageTransform { get; }

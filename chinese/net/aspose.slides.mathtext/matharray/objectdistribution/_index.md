@@ -1,14 +1,14 @@
 ---
 title: ObjectDistribution
 second_title: Aspose.Slides for .NET API 参考
-description: 对象分布 当为真时数组内容的间距为数组对象的最大宽度
+description: 对象分布 当为真时数组的内容被间隔到数组对象的最大宽度
 type: docs
 weight: 50
 url: /zh/net/aspose.slides.mathtext/matharray/objectdistribution/
 ---
 ## MathArray.ObjectDistribution property
 
-对象分布 当为真时，数组内容的间距为数组对象的最大宽度。
+对象分布 当为真时，数组的内容被间隔到数组对象的最大宽度。
 
 ```csharp
 public bool ObjectDistribution { get; set; }
@@ -16,7 +16,7 @@ public bool ObjectDistribution { get; set; }
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]

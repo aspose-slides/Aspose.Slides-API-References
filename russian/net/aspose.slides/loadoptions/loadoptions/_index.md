@@ -32,7 +32,7 @@ public LoadOptions(LoadFormat loadFormat)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| loadFormat | LoadFormat | Формат загружаемой презентации. |
+| loadFormat | LoadFormat | Формат презентации для загрузки. |
 
 ### Смотрите также
 

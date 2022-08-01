@@ -1,14 +1,14 @@
 ---
 title: AsCells
 second_title: Справочник по API Aspose.Slides для .NET
-description: Присвоение нулевого значения не допускается. Возвращаемое значение всегда не равно нулю. Чтение/записьIChartCellCollectionaspose.slides.charts/ichartcellcollection.
+description: Назначение нулевого значения не разрешено. Возвращаемое значение всегда не является нулевым. Чтение/записьIChartCellCollectionaspose.slides.charts/ichartcellcollection .
 type: docs
 weight: 10
 url: /ru/net/aspose.slides.charts/stringchartvalue/ascells/
 ---
 ## StringChartValue.AsCells property
 
-Присвоение нулевого значения не допускается. Возвращаемое значение всегда не равно нулю. Чтение/запись[`IChartCellCollection`](../../ichartcellcollection).
+Назначение нулевого значения не разрешено. Возвращаемое значение всегда не является нулевым. Чтение/запись[`IChartCellCollection`](../../ichartcellcollection) .
 
 ```csharp
 public IChartCellCollection AsCells { get; set; }

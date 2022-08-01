@@ -1,14 +1,14 @@
 ---
 title: CreateVideoPlayerHtmlController
 second_title: Справочник по API Aspose.Slides для .NET
-description: Создает новый VideoPlayerHtmlController .
+description: Создает новыйвидеоплеерхтмлконтроллер .
 type: docs
 weight: 20
 url: /ru/net/aspose.slides.export/videoplayerhtmlcontrollerfactory/createvideoplayerhtmlcontroller/
 ---
 ## VideoPlayerHtmlControllerFactory.CreateVideoPlayerHtmlController method
 
-Создает новый` VideoPlayerHtmlController` .
+Создает новый`видеоплеерхтмлконтроллер` .
 
 ```csharp
 public IVideoPlayerHtmlController CreateVideoPlayerHtmlController(string path, string fileName, 
@@ -17,7 +17,7 @@ public IVideoPlayerHtmlController CreateVideoPlayerHtmlController(string path, s
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| path | String | Путь. |
+| path | String | Дорожка. |
 | fileName | String | Имя файла. |
 | baseUri | String | Базовый URI. |
 

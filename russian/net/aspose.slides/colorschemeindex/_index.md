@@ -19,7 +19,7 @@ public enum ColorSchemeIndex : byte
 | Имя | Ценность | Описание |
 | --- | --- | --- |
 | Dark1 | `0` | Темный 1. |
-| Light1 | `1` | Свет 1. |
+| Light1 | `1` | Легкий 1. |
 | Dark2 | `2` | Темный 2. |
 | Light2 | `3` | Свет 2. |
 | Accent1 | `4` | Акцент 1. |
@@ -29,7 +29,7 @@ public enum ColorSchemeIndex : byte
 | Accent5 | `8` | Акцент 5. |
 | Accent6 | `9` | Акцент 6. |
 | Hyperlink | `10` | Гиперссылка. |
-| FollowedHyperlink | `11` | Переход по гиперссылке. |
+| FollowedHyperlink | `11` | Отслеживание гиперссылки. |
 
 ### Смотрите также
 

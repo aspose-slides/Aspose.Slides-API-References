@@ -1,14 +1,14 @@
 ---
 title: Path
 second_title: Справочник по API Aspose.Slides для .NET
-description: Задает примитив пути за которым следуют координаты для анимации движения. Чтение/записьIMotionPathaspose.slides.animation/imotionpath.
+description: Определяет примитив пути за которым следуют координаты для анимации движения. Чтение/записьIMotionPathaspose.slides.animation/imotionpath .
 type: docs
 weight: 60
 url: /ru/net/aspose.slides.animation/motioneffect/path/
 ---
 ## MotionEffect.Path property
 
-Задает примитив пути, за которым следуют координаты для анимации движения. Чтение/запись[`IMotionPath`](../../imotionpath).
+Определяет примитив пути, за которым следуют координаты для анимации движения. Чтение/запись[`IMotionPath`](../../imotionpath) .
 
 ```csharp
 public IMotionPath Path { get; set; }

@@ -55,7 +55,7 @@ public IMathBlock CreateMathBlock(IMathElement mathElement)
 
 ## CreateMathBlock(IMathElementCollection) {#createmathblock_2}
 
-Создать математический блок и поместить в него элементы
+Создайте математический блок и поместите в него элементы
 
 ```csharp
 public IMathBlock CreateMathBlock(IMathElementCollection mathElements)
@@ -63,7 +63,7 @@ public IMathBlock CreateMathBlock(IMathElementCollection mathElements)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| mathElements | IMathElementCollection | math элементы |
+| mathElements | IMathElementCollection | математические элементы |
 
 ### Возвращаемое значение
 

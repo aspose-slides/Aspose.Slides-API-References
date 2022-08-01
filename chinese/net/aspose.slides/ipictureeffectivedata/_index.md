@@ -18,13 +18,13 @@ public interface IPictureEffectiveData
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Image](../../aspose.slides/ipictureeffectivedata/image) { get; } | 返回嵌入的图像。 只读[`IPPImage`](../ippimage)。 |
-| [ImageTransform](../../aspose.slides/ipictureeffectivedata/imagetransform) { get; } | 返回图像变换效果的集合。 只读[`IImageTransformOCollectionEffectiveData`](../../aspose.slides.effects/iimagetransformocollectioneffectivedata)。 |
-| [LinkPathLong](../../aspose.slides/ipictureeffectivedata/linkpathlong) { get; } | 返回链接图像的 URL。 只读String。 |
+| [Image](../../aspose.slides/ipictureeffectivedata/image) { get; } | 返回嵌入的图像。 只读[`IPPImage`](../ippimage). |
+| [ImageTransform](../../aspose.slides/ipictureeffectivedata/imagetransform) { get; } | 返回图像变换效果的集合。 只读[`IImageTransformOCollectionEffectiveData`](../../aspose.slides.effects/iimagetransformocollectioneffectivedata). |
+| [LinkPathLong](../../aspose.slides/ipictureeffectivedata/linkpathlong) { get; } | 返回链接图像的 URL。 只读String. |
 
 ### 评论
 
-此接口用作IPictureFillFormatEffectiveData的一部分和[`IBulletFormatEffectiveData`](../ibulletformateffectivedata)。
+该接口用作[`IPictureFillFormatEffectiveData`](../ipicturefillformateffectivedata)和[`IBulletFormatEffectiveData`](../ibulletformateffectivedata).
 
 ### 也可以看看
 

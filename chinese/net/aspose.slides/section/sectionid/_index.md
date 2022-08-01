@@ -1,14 +1,14 @@
 ---
 title: SectionId
 second_title: Aspose.Slides for .NET API 参考
-description: 部分 ID
+description: 部分 ID.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides/section/sectionid/
 ---
 ## Section.SectionId property
 
-部分 ID。
+部分 ID.
 
 ```csharp
 public Guid SectionId { get; }

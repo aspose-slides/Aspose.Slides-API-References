@@ -1,14 +1,14 @@
 ---
 title: HasBorderHorizontal
 second_title: Справочник по API Aspose.Slides для .NET
-description: Истинно если таблица данных диаграммы имеет горизонтальные границы ячеек. Чтение/записьBoolean.
+description: Истинно если таблица данных диаграммы имеет горизонтальные границы ячеек. Чтение/записьBoolean .
 type: docs
 weight: 30
 url: /ru/net/aspose.slides.charts/idatatable/hasborderhorizontal/
 ---
 ## IDataTable.HasBorderHorizontal property
 
-Истинно, если таблица данных диаграммы имеет горизонтальные границы ячеек. Чтение/записьBoolean.
+Истинно, если таблица данных диаграммы имеет горизонтальные границы ячеек. Чтение/записьBoolean .
 
 ```csharp
 public bool HasBorderHorizontal { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: FontHeight
 second_title: Aspose.Slides for .NET API 参考
-description: 返回部分的字体高度 只读Single
+description: 返回部分的字体高度 只读Single.
 type: docs
 weight: 80
 url: /zh/net/aspose.slides/ibaseportionformateffectivedata/fontheight/
 ---
 ## IBasePortionFormatEffectiveData.FontHeight property
 
-返回部分的字体高度。 只读Single。
+返回部分的字体高度。 只读Single.
 
 ```csharp
 public float FontHeight { get; }

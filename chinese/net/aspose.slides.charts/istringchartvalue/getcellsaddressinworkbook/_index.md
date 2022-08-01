@@ -1,14 +1,14 @@
 ---
 title: GetCellsAddressInWorkbook
 second_title: Aspose.Slides for .NET API 参考
-description: 如果 DataSourceType 属性是 DataSourceType.Worksheet 则此方法返回地址 工作簿中表示字符串数据的单元格否则返回 空字符串
+description: 如果 DataSourceType 属性是 DataSourceType.Worksheet则此方法返回工作簿中表示字符串数据的单元格的 address 否则返回 空字符串.
 type: docs
 weight: 30
 url: /zh/net/aspose.slides.charts/istringchartvalue/getcellsaddressinworkbook/
 ---
 ## IStringChartValue.GetCellsAddressInWorkbook method
 
-如果 DataSourceType 属性是 DataSourceType.Worksheet 则此方法返回地址 工作簿中表示字符串数据的单元格。否则返回 空字符串。
+如果 DataSourceType 属性是 DataSourceType.Worksheet，则此方法返回工作簿中表示字符串数据的单元格的 address 。否则返回 空字符串.
 
 ```csharp
 public string GetCellsAddressInWorkbook()

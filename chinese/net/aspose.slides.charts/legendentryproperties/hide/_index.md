@@ -1,14 +1,14 @@
 ---
 title: Hide
 second_title: Aspose.Slides for .NET API 参考
-description: 确定图例条目是否隐藏 读/写Boolean
+description: 确定图例条目是否隐藏 读/写Boolean.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides.charts/legendentryproperties/hide/
 ---
 ## LegendEntryProperties.Hide property
 
-确定图例条目是否隐藏。 读/写Boolean。
+确定图例条目是否隐藏。 读/写Boolean.
 
 ```csharp
 public bool Hide { get; set; }

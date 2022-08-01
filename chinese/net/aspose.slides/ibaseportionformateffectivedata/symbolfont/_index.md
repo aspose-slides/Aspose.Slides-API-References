@@ -1,14 +1,14 @@
 ---
 title: SymbolFont
 second_title: Aspose.Slides for .NET API 参考
-description: 返回符号字体信息 只读IFontDataaspose.slides/ifontdata
+description: 返回符号字体信息 只读IFontDataaspose.slides/ifontdata.
 type: docs
 weight: 240
 url: /zh/net/aspose.slides/ibaseportionformateffectivedata/symbolfont/
 ---
 ## IBasePortionFormatEffectiveData.SymbolFont property
 
-返回符号字体信息。 只读[`IFontData`](../../ifontdata)。
+返回符号字体信息。 只读[`IFontData`](../../ifontdata).
 
 ```csharp
 public IFontData SymbolFont { get; }

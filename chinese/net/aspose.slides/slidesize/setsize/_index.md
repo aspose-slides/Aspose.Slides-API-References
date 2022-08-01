@@ -1,14 +1,14 @@
 ---
 title: SetSize
 second_title: Aspose.Slides for .NET API 参考
-description: 设置幻灯片大小的类型并使用缩放类型缩放内容  分配除Custom以外的任何值都会改变Sizeaspose.slides/slidesize/size 相应但将保持Orientationaspose.slides/slidesize/orientation 完整
+description: 设置幻灯片大小的类型并使用缩放类型缩放内容 分配任何值除了Custom将改变尺寸aspose.slides/slidesize/size因此但会保持方向aspose.slides/slidesize/orientation完好无损的
 type: docs
 weight: 40
 url: /zh/net/aspose.slides/slidesize/setsize/
 ---
 ## SetSize(SlideSizeType, SlideSizeScaleType) {#setsize}
 
-设置幻灯片大小的类型并使用缩放类型缩放内容。  分配除Custom以外的任何值都会改变[`Size`](../size) 相应，但将保持[`Orientation`](../orientation) 完整。
+设置幻灯片大小的类型并使用缩放类型缩放内容。 分配任何值，除了Custom将改变[`尺寸`](../size)因此，但会保持[`方向`](../orientation)完好无损的。
 
 ```csharp
 public void SetSize(SlideSizeType type, SlideSizeScaleType scaleType)
@@ -16,7 +16,7 @@ public void SetSize(SlideSizeType type, SlideSizeScaleType scaleType)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| type | SlideSizeType | 幻灯片尺寸类型。 |
+| type | SlideSizeType | 幻灯片大小类型。 |
 | scaleType | SlideSizeScaleType | 幻灯片内容的缩放类型。 |
 
 ### 也可以看看
@@ -31,7 +31,7 @@ public void SetSize(SlideSizeType type, SlideSizeScaleType scaleType)
 
 ## SetSize(float, float, SlideSizeScaleType) {#setsize_1}
 
-以磅为单位设置大小并使用缩放类型缩放内容。  赋值将重置[`Type`](../type) 属性为Custom并设置[`Orientation`](../orientation) 。
+以磅为单位设置大小并使用缩放类型缩放内容。 分配任何值都会重置[`类型`](../type)财产Custom并设置[`方向`](../orientation).
 
 ```csharp
 public void SetSize(float width, float height, SlideSizeScaleType scaleType)

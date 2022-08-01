@@ -1,14 +1,14 @@
 ---
 title: MinColumnWidth
 second_title: Aspose.Slides for .NET API 参考
-description: 最小列宽以缇为单位点的 1/20 间隙间距也称为列间隙或间隙 Width添加到 MinColumnWidth 以确定总矩阵列间距 不同列的相同边缘之间的距离 默认值0
+description: 以缇为单位的最小列宽点的 1/20 将间隙间距也称为列间隙或间隙宽度添加到 MinColumnWidth 以确定总矩阵列间距 与不同列的相同边缘. 默认值0.
 type: docs
 weight: 80
 url: /zh/net/aspose.slides.mathtext/mathmatrix/mincolumnwidth/
 ---
 ## MathMatrix.MinColumnWidth property
 
-最小列宽，以缇为单位（点的 1/20） 间隙间距（也称为“列间隙”或“间隙” Width”）添加到 MinColumnWidth 以确定总矩阵列间距 （不同列的相同边缘之间的距离）。 默认值:0。
+以缇为单位的最小列宽（点的 1/20） 将间隙间距（也称为“列间隙”或“间隙宽度”）添加到 MinColumnWidth 以确定总矩阵列间距 （与不同列的相同边缘）. 默认值：0.
 
 ```csharp
 public uint MinColumnWidth { get; set; }
@@ -16,7 +16,7 @@ public uint MinColumnWidth { get; set; }
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]

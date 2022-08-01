@@ -18,14 +18,14 @@ public interface ITiffOptions : ISaveOptions
 
 | Имя | Описание |
 | --- | --- |
-| [AsISaveOptions](../../aspose.slides.export/itiffoptions/asisaveoptions) { get; } | Возвращает интерфейс ISaveOptions. Только для чтения[`ISaveOptions`](../isaveoptions). |
-| [CompressionType](../../aspose.slides.export/itiffoptions/compressiontype) { get; set; } | Задает тип сжатия. Чтение/запись[`TiffCompressionTypes`](../tiffcompressiontypes). |
-| [DpiX](../../aspose.slides.export/itiffoptions/dpix) { get; set; } | Определяет горизонтальное разрешение в точках на дюйм. Чтение/записьUInt32. |
-| [DpiY](../../aspose.slides.export/itiffoptions/dpiy) { get; set; } | Определяет вертикальное разрешение в точках на дюйм. Чтение/записьUInt32. |
-| [ImageSize](../../aspose.slides.export/itiffoptions/imagesize) { get; set; } | Указывает размер сгенерированного изображения TIFF. Значение по умолчанию 0x0, что означает, что размеры сгенерированного изображения будут рассчитаны на основе значения размера слайда презентации. Чтение/записьSize. |
+| [AsISaveOptions](../../aspose.slides.export/itiffoptions/asisaveoptions) { get; } | Возвращает интерфейс ISaveOptions. Только для чтения[`ISaveOptions`](../isaveoptions) . |
+| [CompressionType](../../aspose.slides.export/itiffoptions/compressiontype) { get; set; } | Определяет тип сжатия. Чтение/запись[`TiffCompressionTypes`](../tiffcompressiontypes) . |
+| [DpiX](../../aspose.slides.export/itiffoptions/dpix) { get; set; } | Определяет горизонтальное разрешение в точках на дюйм. Чтение/записьUInt32 . |
+| [DpiY](../../aspose.slides.export/itiffoptions/dpiy) { get; set; } | Определяет вертикальное разрешение в точках на дюйм. Чтение/записьUInt32 . |
+| [ImageSize](../../aspose.slides.export/itiffoptions/imagesize) { get; set; } | Указывает размер сгенерированного изображения TIFF. Значение по умолчанию 0x0, что означает, что размеры сгенерированного изображения будут рассчитаны на основе значения размера слайда презентации. Чтение/записьSize . |
 | [NotesCommentsLayouting](../../aspose.slides.export/itiffoptions/notescommentslayouting) { get; } | Предоставляет параметры, управляющие размещением примечаний и комментариев в экспортируемом документе. |
-| [PixelFormat](../../aspose.slides.export/itiffoptions/pixelformat) { get; set; } | Указывает формат пикселей для сгенерированных изображений. Чтение/запись[`ImagePixelFormat`](../imagepixelformat). |
-| [ShowHiddenSlides](../../aspose.slides.export/itiffoptions/showhiddenslides) { get; set; } | Указывает, должен ли сгенерированный документ включать скрытые слайды или нет. По умолчанию:` false` . |
+| [PixelFormat](../../aspose.slides.export/itiffoptions/pixelformat) { get; set; } | Определяет формат пикселей для сгенерированных изображений. Чтение/запись[`ImagePixelFormat`](../imagepixelformat) . |
+| [ShowHiddenSlides](../../aspose.slides.export/itiffoptions/showhiddenslides) { get; set; } | Указывает, должен ли сгенерированный документ включать скрытые слайды или нет. Значение по умолчанию:`ЛОЖЬ` |
 
 ### Смотрите также
 

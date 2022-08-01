@@ -1,14 +1,14 @@
 ---
 title: SourceCode
 second_title: Справочник по API Aspose.Slides для .NET
-description: Исходный код модуля. Чтение/записьString.
+description: Исходный код модуля. Чтение/записьString .
 type: docs
 weight: 20
 url: /ru/net/aspose.slides.vba/ivbamodule/sourcecode/
 ---
 ## IVbaModule.SourceCode property
 
-Исходный код модуля. Чтение/записьString.
+Исходный код модуля. Чтение/записьString .
 
 ```csharp
 public string SourceCode { get; set; }

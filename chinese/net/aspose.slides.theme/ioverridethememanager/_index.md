@@ -18,9 +18,9 @@ public interface IOverrideThemeManager : IThemeManager
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsIThemeManager](../../aspose.slides.theme/ioverridethememanager/asithememanager) { get; } | 允许获取基本 IThemeManager 接口。 只读[`IThemeManager`](../ithememanager)。 |
-| [IsOverrideThemeEnabled](../../aspose.slides.theme/ioverridethememanager/isoverridethemeenabled) { get; } | 确定 OverrideTheme 是否覆盖继承的有效主题。 要启用 OverrideTheme 进行覆盖，请使用 OverrideTheme.Init*() 方法。 要禁用 OverrideTheme 覆盖使用 OverrideTheme.Clear() 方法。 只读Boolean。 |
-| [OverrideTheme](../../aspose.slides.theme/ioverridethememanager/overridetheme) { get; set; } | 返回覆盖主题对象。 读/写[`IOverrideTheme`](../ioverridetheme)。 |
+| [AsIThemeManager](../../aspose.slides.theme/ioverridethememanager/asithememanager) { get; } | 允许获取基本 IThemeManager 接口。 只读[`IThemeManager`](../ithememanager). |
+| [IsOverrideThemeEnabled](../../aspose.slides.theme/ioverridethememanager/isoverridethemeenabled) { get; } | 确定 OverrideTheme 是否覆盖继承的有效主题。 启用 OverrideTheme 进行覆盖使用 OverrideTheme.Init*() 方法。 禁用 OverrideTheme 覆盖使用 OverrideTheme.Clear() 方法。 只读Boolean. |
+| [OverrideTheme](../../aspose.slides.theme/ioverridethememanager/overridetheme) { get; set; } | 返回覆盖主题对象。 读/写[`IOverrideTheme`](../ioverridetheme). |
 
 ### 也可以看看
 

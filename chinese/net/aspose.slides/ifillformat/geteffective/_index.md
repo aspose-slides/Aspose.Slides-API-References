@@ -1,14 +1,14 @@
 ---
 title: GetEffective
 second_title: Aspose.Slides for .NET API 参考
-description: 获取应用继承的有效填充格式数据
+description: 获取应用了继承的有效填充格式数据
 type: docs
 weight: 80
 url: /zh/net/aspose.slides/ifillformat/geteffective/
 ---
 ## IFillFormat.GetEffective method
 
-获取应用继承的有效填充格式数据。
+获取应用了继承的有效填充格式数据。
 
 ```csharp
 public IFillFormatEffectiveData GetEffective()
@@ -16,7 +16,7 @@ public IFillFormatEffectiveData GetEffective()
 
 ### 返回值
 
-A[`IFillFormatEffectiveData`](../../ifillformateffectivedata)。
+一个[`IFillFormatEffectiveData`](../../ifillformateffectivedata).
 
 ### 也可以看看
 

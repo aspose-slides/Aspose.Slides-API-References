@@ -1,14 +1,14 @@
 ---
 title: LightingDirection
 second_title: Справочник по API Aspose.Slides для .NET
-description: Константы определяющие направления света.
+description: Константы определяющие направление света.
 type: docs
 weight: 7010
 url: /ru/net/aspose.slides/lightingdirection/
 ---
 ## LightingDirection enumeration
 
-Константы, определяющие направления света.
+Константы, определяющие направление света.
 
 ```csharp
 public enum LightingDirection

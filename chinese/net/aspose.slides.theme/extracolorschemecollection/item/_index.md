@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Slides for .NET API 参考
-description: 按索引返回配色方案 只读ExtraColorSchemeaspose.slides.theme/extracolorscheme
+description: 按索引返回配色方案 只读ExtraColorSchemeaspose.slides.theme/extracolorscheme.
 type: docs
 weight: 30
 url: /zh/net/aspose.slides.theme/extracolorschemecollection/item/
 ---
 ## ExtraColorSchemeCollection indexer
 
-按索引返回配色方案。 只读[`ExtraColorScheme`](../../extracolorscheme)。
+按索引返回配色方案。 只读[`ExtraColorScheme`](../../extracolorscheme).
 
 ```csharp
 public IExtraColorScheme this[int index] { get; }

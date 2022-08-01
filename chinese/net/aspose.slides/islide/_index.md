@@ -18,13 +18,13 @@ public interface ISlide : IBaseSlide, IOverrideThemeable
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsIBaseSlide](../../aspose.slides/islide/asibaseslide) { get; } | 允许获取基本 IBaseSlide 接口。 只读[`IBaseSlide`](../ibaseslide)。 |
-| [AsIOverrideThemeable](../../aspose.slides/islide/asioverridethemeable) { get; } | 返回 IOverrideThemeable 接口。 只读[`IOverrideThemeable`](../../aspose.slides.theme/ioverridethemeable)。 |
-| [HeaderFooterManager](../../aspose.slides/islide/headerfootermanager) { get; } | 返回幻灯片的 HeaderFooter 管理器。 只读[`ISlideHeaderFooterManager`](../islideheaderfootermanager)。 |
-| [Hidden](../../aspose.slides/islide/hidden) { get; set; } | 确定幻灯片放映期间是否隐藏指定的幻灯片。 读/写Boolean。 |
-| [LayoutSlide](../../aspose.slides/islide/layoutslide) { get; set; } | 返回或设置当前幻灯片的布局幻灯片。 读/写[`ILayoutSlide`](../ilayoutslide)。 |
-| [NotesSlideManager](../../aspose.slides/islide/notesslidemanager) { get; } | 允许访问笔记幻灯片，添加和删除它。 只读[`INotesSlideManager`](../inotesslidemanager)。 |
-| [SlideNumber](../../aspose.slides/islide/slidenumber) { get; set; } | 返回幻灯片的数量。 [`Slides`](../ipresentation/slides)集合中幻灯片的索引始终等于 SlideNumber - 1。 读/写Int32。 |
+| [AsIBaseSlide](../../aspose.slides/islide/asibaseslide) { get; } | 允许获取基本 IBaseSlide 接口。 只读[`IBaseSlide`](../ibaseslide). |
+| [AsIOverrideThemeable](../../aspose.slides/islide/asioverridethemeable) { get; } | 返回 IOverrideThemeable 接口。 只读[`IOverrideThemeable`](../../aspose.slides.theme/ioverridethemeable). |
+| [HeaderFooterManager](../../aspose.slides/islide/headerfootermanager) { get; } | 返回幻灯片的 HeaderFooter 管理器。 只读[`ISlideHeaderFooterManager`](../islideheaderfootermanager). |
+| [Hidden](../../aspose.slides/islide/hidden) { get; set; } | 确定在幻灯片放映期间是否隐藏指定的幻灯片。 读/写Boolean. |
+| [LayoutSlide](../../aspose.slides/islide/layoutslide) { get; set; } | 返回或设置当前幻灯片的布局幻灯片。 读/写[`ILayoutSlide`](../ilayoutslide). |
+| [NotesSlideManager](../../aspose.slides/islide/notesslidemanager) { get; } | 允许访问笔记幻灯片，添加和删除它。 只读[`INotesSlideManager`](../inotesslidemanager). |
+| [SlideNumber](../../aspose.slides/islide/slidenumber) { get; set; } | 返回幻灯片的数量。 幻灯片的索引[`Slides`](../ipresentation/slides)集合总是等于 SlideNumber - 1. 读/写Int32. |
 
 ## 方法
 
@@ -40,8 +40,8 @@ public interface ISlide : IBaseSlide, IOverrideThemeable
 | [GetThumbnail](../../aspose.slides/islide/getthumbnail#getthumbnail_5)(IRenderingOptions, float, float) | 返回具有自定义缩放的缩略图位图对象。 |
 | [Remove](../../aspose.slides/islide/remove)() | 从演示文稿中删除幻灯片。 |
 | [RenderToGraphics](../../aspose.slides/islide/rendertographics#rendertographics_3)(IRenderingOptions, Graphics) | 将某些幻灯片呈现给图形对象。 |
-| [RenderToGraphics](../../aspose.slides/islide/rendertographics#rendertographics_5)(IRenderingOptions, Graphics, Size) | 使用指定大小将某些幻灯片渲染到 Graphics 对象。 |
-| [RenderToGraphics](../../aspose.slides/islide/rendertographics#rendertographics_4)(IRenderingOptions, Graphics, float, float) | 使用自定义缩放将某些幻灯片渲染到 Graphics 对象。 |
+| [RenderToGraphics](../../aspose.slides/islide/rendertographics#rendertographics_5)(IRenderingOptions, Graphics, Size) | 使用指定大小将某些幻灯片渲染到图形对象。 |
+| [RenderToGraphics](../../aspose.slides/islide/rendertographics#rendertographics_4)(IRenderingOptions, Graphics, float, float) | 使用自定义缩放将某些幻灯片渲染到图形对象。 |
 | [Reset](../../aspose.slides/islide/reset)() | 重置在 LayoutSlide 上有原型的每个形状的位置、大小和格式。 |
 | [WriteAsSvg](../../aspose.slides/islide/writeassvg#writeassvg)(Stream) | 将幻灯片的内容保存为 SVG 文件。 |
 | [WriteAsSvg](../../aspose.slides/islide/writeassvg#writeassvg_1)(Stream, ISVGOptions) | 将幻灯片的内容保存为 SVG 文件。 |

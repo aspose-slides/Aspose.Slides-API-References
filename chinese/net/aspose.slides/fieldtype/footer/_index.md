@@ -1,14 +1,14 @@
 ---
 title: Footer
 second_title: Aspose.Slides for .NET API 参考
-description: 幻灯片的页脚 只读FieldTypeaspose.slides/fieldtype
+description: 幻灯片的页脚 只读FieldTypeaspose.slides/fieldtype.
 type: docs
 weight: 160
 url: /zh/net/aspose.slides/fieldtype/footer/
 ---
 ## FieldType.Footer property
 
-幻灯片的页脚。 只读[`FieldType`](../../fieldtype)。
+幻灯片的页脚。 只读[`FieldType`](../../fieldtype).
 
 ```csharp
 public static FieldType Footer { get; }

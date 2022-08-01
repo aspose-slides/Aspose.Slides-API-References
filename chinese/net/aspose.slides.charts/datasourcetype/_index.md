@@ -20,7 +20,7 @@ public enum DataSourceType
 | --- | --- | --- |
 | Worksheet | `0` | 使用 CellXls 对象存储工作表中数据点的 XValue、YValue、Value 或 BubbleSize。 |
 | StringLiterals | `1` | 使用快速访问字符串变量来存储 数据点的 XValue、YValue、Value 或 BubbleSize。工作表不用于存储值。 |
-| DoubleLiterals | `2` | 使用快速访问双精度变量来存储 数据点的 XValue、YValue、Value 或 BubbleSize。工作表不用于存储值。 |
+| DoubleLiterals | `2` | 使用快速访问双变量来存储 数据点的 XValue、YValue、Value 或 BubbleSize。工作表不用于存储值。 |
 
 ### 也可以看看
 

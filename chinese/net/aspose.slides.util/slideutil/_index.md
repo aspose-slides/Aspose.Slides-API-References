@@ -20,10 +20,10 @@ public static class SlideUtil
 | --- | --- |
 | static [AlignShapes](../../aspose.slides.util/slideutil/alignshapes#alignshapes)(ShapesAlignmentType, bool, IBaseSlide) | 更改幻灯片上所有形状的位置。将形状与幻灯片的边距或边缘对齐 或将它们相对于彼此对齐。 |
 | static [AlignShapes](../../aspose.slides.util/slideutil/alignshapes#alignshapes_2)(ShapesAlignmentType, bool, IGroupShape) | 更改组形状中所有形状的位置。将形状与幻灯片的边距或边缘对齐 或将它们相对于彼此对齐。 |
-| static [AlignShapes](../../aspose.slides.util/slideutil/alignshapes#alignshapes_1)(ShapesAlignmentType, bool, IBaseSlide, int[]) | 更改选定形状在幻灯片上的位置。将形状与幻灯片的边距或边缘对齐 或将它们相对于彼此对齐。 |
+| static [AlignShapes](../../aspose.slides.util/slideutil/alignshapes#alignshapes_1)(ShapesAlignmentType, bool, IBaseSlide, int[]) | 更改幻灯片上选定形状的位置。将形状与幻灯片的边距或边缘对齐 或将它们相对于彼此对齐。 |
 | static [AlignShapes](../../aspose.slides.util/slideutil/alignshapes#alignshapes_3)(ShapesAlignmentType, bool, IGroupShape, int[]) | 更改选定形状在组形状中的位置。将形状与幻灯片的边距或边缘对齐 或将它们相对于彼此对齐。 |
 | static [FindShape](../../aspose.slides.util/slideutil/findshape#findshape)(IBaseSlide, string) | 在 PPTX 演示文稿中通过幻灯片上的替代文本查找形状。 |
-| static [FindShape](../../aspose.slides.util/slideutil/findshape#findshape_1)(IPresentation, string) | 在 PPTX 演示文稿中按替代文本查找形状。 |
+| static [FindShape](../../aspose.slides.util/slideutil/findshape#findshape_1)(IPresentation, string) | 在 PPTX 演示文稿中通过替代文本查找形状。 |
 | static [GetAllTextBoxes](../../aspose.slides.util/slideutil/getalltextboxes)(IBaseSlide) | 返回 PPTX 演示文稿中幻灯片上的所有文本框架。 |
 | static [GetAllTextFrames](../../aspose.slides.util/slideutil/getalltextframes)(IPresentation, bool) | 返回 PPTX 演示文稿中的所有文本框架。 |
 

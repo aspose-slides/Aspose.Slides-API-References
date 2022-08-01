@@ -1,14 +1,14 @@
 ---
 title: PieSplitCustomPoints
 second_title: Aspose.Slides for .NET API 参考
-description: 带有自定义拆分的饼图或饼图的自定义拆分信息 包含应在饼图或 饼图的第二个饼或条中绘制的数据点 这不仅是该系列的属性而且是父系列的所有系列 组的属性 - 这是适当组属性的投影 只读IPieSplitCustomPointCollectionaspose.slides.charts/ipiesplitcustompointcollection
+description: 带有自定义拆分的饼图或饼图条形图的自定义拆分信息 包含应在饼图或 bar-of 中的第二个饼图或条形图中绘制的数据点-饼图. 这不仅是该系列的属性而且是父系列 组的所有系列的属性-这是适当组属性的投影 只读IPieSplitCustomPointCollectionaspose.slides.charts/ipiesplitcustompointcollection.
 type: docs
 weight: 310
 url: /zh/net/aspose.slides.charts/ichartseries/piesplitcustompoints/
 ---
 ## IChartSeries.PieSplitCustomPoints property
 
-带有自定义拆分的饼图或饼图的自定义拆分信息。 包含应在饼图或 饼图的第二个饼或条中绘制的数据点。 这不仅是该系列的属性，而且是父系列的所有系列 组的属性 - 这是适当组属性的投影 只读[`IPieSplitCustomPointCollection`](../../ipiesplitcustompointcollection)。
+带有自定义拆分的饼图或饼图条形图的自定义拆分信息。 包含应在饼图或 bar-of 中的第二个饼图或条形图中绘制的数据点-饼图. 这不仅是该系列的属性，而且是父系列 组的所有系列的属性-这是适当组属性的投影 只读[`IPieSplitCustomPointCollection`](../../ipiesplitcustompointcollection).
 
 ```csharp
 public IPieSplitCustomPointCollection PieSplitCustomPoints { get; }
@@ -16,7 +16,7 @@ public IPieSplitCustomPointCollection PieSplitCustomPoints { get; }
 
 ### 评论
 
-这是属性 ParentSeriesGroup.PieSplitCustomPoints 的投影。
+这是属性 ParentSeriesGroup.PieSplitCustomPoints. 的投影
 
 ### 也可以看看
 

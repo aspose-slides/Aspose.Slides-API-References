@@ -1,14 +1,14 @@
 ---
 title: Slides
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает список всех слайдов определенных в презентации. Только для чтенияISlideCollectionaspose.slides/islidecollection.
+description: Возвращает список всех слайдов определенных в презентации. Только для чтенияISlideCollectionaspose.slides/islidecollection .
 type: docs
 weight: 240
 url: /ru/net/aspose.slides/ipresentation/slides/
 ---
 ## IPresentation.Slides property
 
-Возвращает список всех слайдов, определенных в презентации. Только для чтения[`ISlideCollection`](../../islidecollection).
+Возвращает список всех слайдов, определенных в презентации. Только для чтения[`ISlideCollection`](../../islidecollection) .
 
 ```csharp
 public ISlideCollection Slides { get; }

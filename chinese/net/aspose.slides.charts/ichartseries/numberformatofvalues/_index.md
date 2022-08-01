@@ -1,14 +1,14 @@
 ---
 title: NumberFormatOfValues
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置系列值的数字格式 读/写String
+description: 返回或设置系列值的数字格式 读/写String.
 type: docs
 weight: 230
 url: /zh/net/aspose.slides.charts/ichartseries/numberformatofvalues/
 ---
 ## IChartSeries.NumberFormatOfValues property
 
-返回或设置系列值的数字格式。 读/写String。
+返回或设置系列值的数字格式。 读/写String.
 
 ```csharp
 public string NumberFormatOfValues { get; set; }

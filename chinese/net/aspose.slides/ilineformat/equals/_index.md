@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: Aspose.Slides for .NET API 参考
-description: 确定两个 LineFormat 实例是否相等
+description: 判断两个 LineFormat 实例是否相等
 type: docs
 weight: 190
 url: /zh/net/aspose.slides/ilineformat/equals/
 ---
 ## ILineFormat.Equals method
 
-确定两个 LineFormat 实例是否相等。
+判断两个 LineFormat 实例是否相等。
 
 ```csharp
 public bool Equals(ILineFormat lineFormat)
@@ -16,11 +16,11 @@ public bool Equals(ILineFormat lineFormat)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| lineFormat | ILineFormat | 要与当前 LineFormat 比较的 LineFormat。 |
+| lineFormat | ILineFormat | 要与当前 LineFormat 进行比较的 LineFormat。 |
 
 ### 返回值
 
-**true** 如果指定的 LineFormat 等于当前 LineFormat； 否则， **false** 。
+**真的**如果指定的 LineFormat 等于当前 LineFormat； 否则， **错误的**.
 
 ### 也可以看看
 

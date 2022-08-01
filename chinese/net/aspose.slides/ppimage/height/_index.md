@@ -1,14 +1,14 @@
 ---
 title: Height
 second_title: Aspose.Slides for .NET API 参考
-description: 返回图像的高度 只读Int32
+description: 返回图像的高度 只读Int32.
 type: docs
 weight: 30
 url: /zh/net/aspose.slides/ppimage/height/
 ---
 ## PPImage.Height property
 
-返回图像的高度。 只读Int32。
+返回图像的高度。 只读Int32.
 
 ```csharp
 public int Height { get; }

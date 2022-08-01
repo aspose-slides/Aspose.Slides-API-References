@@ -1,14 +1,14 @@
 ---
 title: SlideShowTransition
 second_title: Aspose.Slides for .NET API 参考
-description: 返回包含有关 指定幻灯片在幻灯片放映期间如何前进的信息的 TransitionEx 对象 只读ISlideShowTransitionaspose.slides/islideshowtransition
+description: 返回包含关于 在幻灯片放映期间指定幻灯片如何前进的信息的 TransitionEx 对象 只读ISlideShowTransitionaspose.slides/islideshowtransition.
 type: docs
 weight: 100
 url: /zh/net/aspose.slides/ibaseslide/slideshowtransition/
 ---
 ## IBaseSlide.SlideShowTransition property
 
-返回包含有关 指定幻灯片在幻灯片放映期间如何前进的信息的 TransitionEx 对象。 只读[`ISlideShowTransition`](../../islideshowtransition)。
+返回包含关于 在幻灯片放映期间指定幻灯片如何前进的信息的 TransitionEx 对象。 只读[`ISlideShowTransition`](../../islideshowtransition).
 
 ```csharp
 public ISlideShowTransition SlideShowTransition { get; }

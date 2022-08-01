@@ -18,10 +18,10 @@ public interface IGroupShape : IShape
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsIShape](../../aspose.slides/igroupshape/asishape) { get; } | 允许获取基本 IShape 接口。 只读[`IShape`](../ishape)。 |
-| [GroupShapeLock](../../aspose.slides/igroupshape/groupshapelock) { get; } | 返回形状的锁。 只读[`IGroupShapeLock`](../igroupshapelock)。 |
-| [ShapeLock](../../aspose.slides/igroupshape/shapelock) { get; } | 返回形状的锁。 只读[`IGroupShapeLock`](../igroupshapelock)。 |
-| [Shapes](../../aspose.slides/igroupshape/shapes) { get; } | 返回组内形状的集合。 只读[`IShapeCollection`](../ishapecollection)。 |
+| [AsIShape](../../aspose.slides/igroupshape/asishape) { get; } | 允许获取基本 IShape 接口。 只读[`IShape`](../ishape). |
+| [GroupShapeLock](../../aspose.slides/igroupshape/groupshapelock) { get; } | 返回形状的锁。 只读[`IGroupShapeLock`](../igroupshapelock). |
+| [ShapeLock](../../aspose.slides/igroupshape/shapelock) { get; } | 返回形状的锁。 只读[`IGroupShapeLock`](../igroupshapelock). |
+| [Shapes](../../aspose.slides/igroupshape/shapes) { get; } | 返回组内形状的集合。 只读[`IShapeCollection`](../ishapecollection). |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: INotesSlideHeaderFooterManager
 second_title: Aspose.Slides for .NET API 参考
-description: 代表管理器它保存笔记幻灯片占位符的行为包括标题占位符
+description: 表示保存笔记幻灯片占位符行为的管理器包括标题占位符
 type: docs
 weight: 5950
 url: /zh/net/aspose.slides/inotesslideheaderfootermanager/
 ---
 ## INotesSlideHeaderFooterManager interface
 
-代表管理器，它保存笔记幻灯片占位符的行为，包括标题占位符。
+表示保存笔记幻灯片占位符行为的管理器，包括标题占位符。
 
 ```csharp
 public interface INotesSlideHeaderFooterManager : IBaseHandoutNotesSlideHeaderFooterManag

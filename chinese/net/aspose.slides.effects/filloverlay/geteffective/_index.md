@@ -16,7 +16,7 @@ public IFillOverlayEffectiveData GetEffective()
 
 ### 返回值
 
-A[`IFillOverlayEffectiveData`](../../ifilloverlayeffectivedata)。
+一个[`IFillOverlayEffectiveData`](../../ifilloverlayeffectivedata).
 
 ### 也可以看看
 

@@ -18,16 +18,16 @@ public class DoubleChartValue : BaseChartValue, IDoubleChartValue
 
 | Имя | Описание |
 | --- | --- |
-| [AsCell](../../aspose.slides.charts/doublechartvalue/ascell) { get; set; } | Возвращает или устанавливает ячейку данных диаграммы. Чтение/запись[`IChartDataCell`](../ichartdatacell). |
-| [AsLiteralDouble](../../aspose.slides.charts/doublechartvalue/asliteraldouble) { get; set; } | Возвращает или устанавливает значение как буквальное двойное число. Чтение/записьDouble. |
-| override [Data](../../aspose.slides.charts/doublechartvalue/data) { get; set; } | Возвращает или устанавливает объект данных. Чтение/записьObject. |
-| [DataSourceType](../../aspose.slides.charts/basechartvalue/datasourcetype) { get; set; } | Указывает, является ли свойство AsCell, AsCells, AsLiteralString или AsLiteralDouble актуальным в потомках. Другими словами, он указывает тип значения свойства Data. Чтение/запись[`DataSourceType`](../datasourcetype). |
+| [AsCell](../../aspose.slides.charts/doublechartvalue/ascell) { get; set; } | Возвращает или устанавливает ячейку данных диаграммы. Чтение/запись[`IChartDataCell`](../ichartdatacell) . |
+| [AsLiteralDouble](../../aspose.slides.charts/doublechartvalue/asliteraldouble) { get; set; } | Возвращает или устанавливает значение как литерал double. Чтение/записьDouble . |
+| override [Data](../../aspose.slides.charts/doublechartvalue/data) { get; set; } | Возвращает или устанавливает объект данных. Чтение/записьObject . |
+| [DataSourceType](../../aspose.slides.charts/basechartvalue/datasourcetype) { get; set; } | Указывает, является ли свойство AsCell, AsCells, AsLiteralString или AsLiteralDouble действительным в потомках. Другими словами, он указывает тип значения свойства Data. Чтение/запись[`DataSourceType`](../datasourcetype) . |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [ToDouble](../../aspose.slides.charts/doublechartvalue/todouble)() | Преобразует вDouble. |
+| [ToDouble](../../aspose.slides.charts/doublechartvalue/todouble)() | Преобразуется вDouble . |
 
 ### Смотрите также
 

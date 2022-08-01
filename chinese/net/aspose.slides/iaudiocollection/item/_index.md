@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Slides for .NET API 参考
-description: 获取指定索引处的元素 只读IAudioaspose.slides/iaudio
+description: 获取指定索引处的元素 只读IAudioaspose.slides/iaudio.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides/iaudiocollection/item/
 ---
 ## IAudioCollection indexer
 
-获取指定索引处的元素。 只读[`IAudio`](../../iaudio)。
+获取指定索引处的元素。 只读[`IAudio`](../../iaudio).
 
 ```csharp
 public IAudio this[int index] { get; }

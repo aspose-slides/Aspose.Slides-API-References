@@ -1,14 +1,14 @@
 ---
 title: AddClone
 second_title: Aspose.Slides for .NET API 参考
-description: 创建指定模板行的副本并将其插入表格底部
+description: 创建指定模板行的副本并将其插入到表的底部
 type: docs
 weight: 20
 url: /zh/net/aspose.slides/icolumncollection/addclone/
 ---
 ## IColumnCollection.AddClone method
 
-创建指定模板行的副本并将其插入表格底部。
+创建指定模板行的副本并将其插入到表的底部。
 
 ```csharp
 public IColumn[] AddClone(IColumn templ, bool withAttachedColumns)
@@ -17,7 +17,7 @@ public IColumn[] AddClone(IColumn templ, bool withAttachedColumns)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | templ | IColumn | 用作模板的列。 |
-| withAttachedColumns | Boolean | True 也复制附加到模板行的所有列。 |
+| withAttachedColumns | Boolean | True 还可以复制附加到模板行的所有列。 |
 
 ### 返回值
 

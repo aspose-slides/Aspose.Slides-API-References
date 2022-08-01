@@ -1,14 +1,14 @@
 ---
 title: Author
 second_title: Aspose.Slides for .NET API 参考
-description: 返回评论的作者 只读ICommentAuthoraspose.slides/icommentauthor
+description: 返回评论的作者 只读ICommentAuthoraspose.slides/icommentauthor.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides/comment/author/
 ---
 ## Comment.Author property
 
-返回评论的作者。 只读[`ICommentAuthor`](../../icommentauthor)。
+返回评论的作者。 只读[`ICommentAuthor`](../../icommentauthor).
 
 ```csharp
 public ICommentAuthor Author { get; }

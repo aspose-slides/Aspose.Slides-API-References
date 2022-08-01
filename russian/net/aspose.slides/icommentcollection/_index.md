@@ -18,7 +18,7 @@ public interface ICommentCollection : IGenericCollection<IComment>
 
 | Имя | Описание |
 | --- | --- |
-| [Item](../../aspose.slides/icommentcollection/item) { get; } | Получает элемент по указанному индексу. Только для чтения[`IComment`](../icomment). |
+| [Item](../../aspose.slides/icommentcollection/item) { get; } | Получает элемент по указанному индексу. Только для чтения[`IComment`](../icomment) . |
 
 ## Методы
 
@@ -29,7 +29,7 @@ public interface ICommentCollection : IGenericCollection<IComment>
 | [Clear](../../aspose.slides/icommentcollection/clear)() | Удаляет все комментарии из коллекции. |
 | [InsertComment](../../aspose.slides/icommentcollection/insertcomment)(int, string, ISlide, PointF, DateTime) | Вставить новый комментарий в коллекцию по указанному индексу. |
 | [InsertModernComment](../../aspose.slides/icommentcollection/insertmoderncomment)(int, string, ISlide, IShape, PointF, DateTime) | Вставить новый современный комментарий в коллекцию по указанному индексу. |
-| [Remove](../../aspose.slides/icommentcollection/remove)(IComment) | Удаляет первое вхождение указанного комментария в коллекции. |
+| [Remove](../../aspose.slides/icommentcollection/remove)(IComment) | Удаляет первое появление указанного комментария в коллекции. |
 | [RemoveAt](../../aspose.slides/icommentcollection/removeat)(int) | Удаляет элемент по указанному индексу в коллекции. |
 | [ToArray](../../aspose.slides/icommentcollection/toarray#toarray)() | Создает и возвращает массив со всеми комментариями. |
 | [ToArray](../../aspose.slides/icommentcollection/toarray#toarray_1)(int, int) | Создает и возвращает массив со всеми комментариями из указанного диапазона. |

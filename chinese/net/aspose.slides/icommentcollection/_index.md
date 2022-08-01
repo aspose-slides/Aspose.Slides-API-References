@@ -1,14 +1,14 @@
 ---
 title: ICommentCollection
 second_title: Aspose.Slides for .NET API 参考
-description: 表示一个作者的评论集合
+description: 代表一个作者的评论集合
 type: docs
 weight: 5090
 url: /zh/net/aspose.slides/icommentcollection/
 ---
 ## ICommentCollection interface
 
-表示一个作者的评论集合。
+代表一个作者的评论集合。
 
 ```csharp
 public interface ICommentCollection : IGenericCollection<IComment>
@@ -18,17 +18,17 @@ public interface ICommentCollection : IGenericCollection<IComment>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Item](../../aspose.slides/icommentcollection/item) { get; } | 获取指定索引处的元素。 只读[`IComment`](../icomment)。 |
+| [Item](../../aspose.slides/icommentcollection/item) { get; } | 获取指定索引处的元素。 只读[`IComment`](../icomment). |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
 | [AddComment](../../aspose.slides/icommentcollection/addcomment)(string, ISlide, PointF, DateTime) | 在集合末尾添加新评论。 |
-| [AddModernComment](../../aspose.slides/icommentcollection/addmoderncomment)(string, ISlide, IShape, PointF, DateTime) | 在集合末尾添加新的现代注释。 |
-| [Clear](../../aspose.slides/icommentcollection/clear)() | 从集合中删除所有评论。 |
-| [InsertComment](../../aspose.slides/icommentcollection/insertcomment)(int, string, ISlide, PointF, DateTime) | 在指定索引处向集合插入新注释。 |
-| [InsertModernComment](../../aspose.slides/icommentcollection/insertmoderncomment)(int, string, ISlide, IShape, PointF, DateTime) | 将新的现代注释插入到指定索引处的集合中。 |
+| [AddModernComment](../../aspose.slides/icommentcollection/addmoderncomment)(string, ISlide, IShape, PointF, DateTime) | 在集合末尾添加新的现代评论。 |
+| [Clear](../../aspose.slides/icommentcollection/clear)() | 删除集合中的所有评论。 |
+| [InsertComment](../../aspose.slides/icommentcollection/insertcomment)(int, string, ISlide, PointF, DateTime) | 在指定索引处向集合插入新评论。 |
+| [InsertModernComment](../../aspose.slides/icommentcollection/insertmoderncomment)(int, string, ISlide, IShape, PointF, DateTime) | 将新的现代评论插入到指定索引处的集合中。 |
 | [Remove](../../aspose.slides/icommentcollection/remove)(IComment) | 删除集合中第一次出现的指定注释。 |
 | [RemoveAt](../../aspose.slides/icommentcollection/removeat)(int) | 删除集合中指定索引处的元素。 |
 | [ToArray](../../aspose.slides/icommentcollection/toarray#toarray)() | 创建并返回一个包含所有注释的数组。 |

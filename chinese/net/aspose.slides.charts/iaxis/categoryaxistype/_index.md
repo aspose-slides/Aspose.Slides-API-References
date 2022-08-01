@@ -1,14 +1,14 @@
 ---
 title: CategoryAxisType
 second_title: Aspose.Slides for .NET API 参考
-description: 指定类别轴的类型 读/写CategoryAxisTypeaspose.slides.charts/iaxis/categoryaxistype
+description: 指定类别轴的类型 读/写CategoryAxisTypeaspose.slides.charts/iaxis/categoryaxistype.
 type: docs
 weight: 120
 url: /zh/net/aspose.slides.charts/iaxis/categoryaxistype/
 ---
 ## IAxis.CategoryAxisType property
 
-指定类别轴的类型。 读/写`CategoryAxisType`。
+指定类别轴的类型。 读/写`CategoryAxisType`.
 
 ```csharp
 public CategoryAxisType CategoryAxisType { get; set; }

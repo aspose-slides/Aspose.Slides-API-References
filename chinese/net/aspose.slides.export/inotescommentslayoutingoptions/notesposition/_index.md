@@ -16,7 +16,7 @@ public NotesPositions NotesPosition { get; set; }
 
 ### 评论
 
-默认为 **NotesPositions.None** 。
+默认为 **NotesPositions.None**.
 
 ### 也可以看看
 

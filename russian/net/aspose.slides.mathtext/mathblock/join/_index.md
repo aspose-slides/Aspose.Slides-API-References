@@ -16,7 +16,7 @@ public override IMathBlock Join(IMathElement mathElement)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| mathElement | IMathElement | Элемент для соединения |
+| mathElement | IMathElement | Элемент, который нужно соединить |
 
 ### Возвращаемое значение
 
@@ -53,11 +53,11 @@ public override IMathBlock Join(string mathText)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| mathText | String | Математический текст для соединения |
+| mathText | String | Соединяемый математический текст |
 
 ### Возвращаемое значение
 
-Новый блок IMathBlock, содержащий этот экземпляр и указанный аргумент
+Новый IMathBlock, содержащий этот экземпляр и указанный аргумент
 
 ### Примеры
 

@@ -1,14 +1,14 @@
 ---
 title: HyperlinkMouseOver
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置为鼠标悬停定义的超链接 读/写IHyperlinkaspose.slides/ihyperlink
+description: 返回或设置为鼠标悬停定义的超链接 读/写IHyperlinkaspose.slides/ihyperlink.
 type: docs
 weight: 30
 url: /zh/net/aspose.slides/ihyperlinkcontainer/hyperlinkmouseover/
 ---
 ## IHyperlinkContainer.HyperlinkMouseOver property
 
-返回或设置为鼠标悬停定义的超链接。 读/写[`IHyperlink`](../../ihyperlink)。
+返回或设置为鼠标悬停定义的超链接。 读/写[`IHyperlink`](../../ihyperlink).
 
 ```csharp
 public IHyperlink HyperlinkMouseOver { get; set; }

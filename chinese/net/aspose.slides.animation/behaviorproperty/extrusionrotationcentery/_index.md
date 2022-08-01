@@ -1,14 +1,14 @@
 ---
 title: ExtrusionRotationCenterY
 second_title: Aspose.Slides for .NET API 参考
-description: 表示 extrusion.rotationcenter.y 属性
+description: 表示extrusion.rotationcenter.y属性
 type: docs
 weight: 170
 url: /zh/net/aspose.slides.animation/behaviorproperty/extrusionrotationcentery/
 ---
 ## BehaviorProperty.ExtrusionRotationCenterY property
 
-表示 'extrusion.rotationcenter.y' 属性
+表示“extrusion.rotationcenter.y”属性
 
 ```csharp
 public static BehaviorProperty ExtrusionRotationCenterY { get; }

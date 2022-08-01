@@ -8,7 +8,7 @@ url: /zh/net/aspose.slides.mathtext/imathnaryoperatorproperties/operator/
 ---
 ## IMathNaryOperatorProperties.Operator property
 
-Nary Operator Character 例如:'∑', '∫'
+Nary Operator Character 例如：'∑', '∫'
 
 ```csharp
 public char Operator { get; set; }
@@ -16,7 +16,7 @@ public char Operator { get; set; }
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]

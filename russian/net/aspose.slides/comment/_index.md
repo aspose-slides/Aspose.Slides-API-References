@@ -18,12 +18,12 @@ public class Comment : IComment
 
 | Имя | Описание |
 | --- | --- |
-| [Author](../../aspose.slides/comment/author) { get; } | Возвращает автора комментария. Только для чтения[`ICommentAuthor`](../icommentauthor). |
-| [CreatedTime](../../aspose.slides/comment/createdtime) { get; set; } | Возвращает или устанавливает время создания комментария. Установка для этого свойства значенияMinValueозначает, что время комментариев не установлено. Чтение/записьDateTime. |
-| [ParentComment](../../aspose.slides/comment/parentcomment) { get; set; } | Получает или задает родительский комментарий. Чтение/запись[`IComment`](../icomment). |
-| [Position](../../aspose.slides/comment/position) { get; set; } | Возвращает или задает положение комментария на слайде. Чтение/записьPointF. |
-| [Slide](../../aspose.slides/comment/slide) { get; } | Возвращает или устанавливает родительский слайд комментария. Только для чтения[`ISlide`](../islide). |
-| [Text](../../aspose.slides/comment/text) { get; set; } | Возвращает или задает обычный текст комментария к слайду. Чтение/записьString. |
+| [Author](../../aspose.slides/comment/author) { get; } | Возвращает автора комментария. Только для чтения[`ICommentAuthor`](../icommentauthor) . |
+| [CreatedTime](../../aspose.slides/comment/createdtime) { get; set; } | Возвращает или задает время создания комментария. Установка для этого свойства значенияMinValue означает, что время комментариев не установлено. Чтение/записьDateTime . |
+| [ParentComment](../../aspose.slides/comment/parentcomment) { get; set; } | Получает или задает родительский комментарий. Чтение/запись[`IComment`](../icomment) . |
+| [Position](../../aspose.slides/comment/position) { get; set; } | Возвращает или устанавливает позицию комментария на слайде. Чтение/записьPointF . |
+| [Slide](../../aspose.slides/comment/slide) { get; } | Возвращает или задает родительский слайд комментария. Только для чтения[`ISlide`](../islide) . |
+| [Text](../../aspose.slides/comment/text) { get; set; } | Возвращает или задает обычный текст комментария к слайду. Чтение/записьString . |
 
 ## Методы
 

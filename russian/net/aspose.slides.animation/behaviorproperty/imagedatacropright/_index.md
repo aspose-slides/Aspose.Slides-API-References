@@ -8,7 +8,7 @@ url: /ru/net/aspose.slides.animation/behaviorproperty/imagedatacropright/
 ---
 ## BehaviorProperty.ImageDataCropRight property
 
-Представляет свойство 'imageData.cropRight'
+Представляет свойство imageData.cropRight
 
 ```csharp
 public static BehaviorProperty ImageDataCropRight { get; }

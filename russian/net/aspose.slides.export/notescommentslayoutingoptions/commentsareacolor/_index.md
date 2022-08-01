@@ -1,14 +1,14 @@
 ---
 title: CommentsAreaColor
 second_title: Справочник по API Aspose.Slides для .NET
-description: Получает или задает цвет области комментариев Применяется только если комментарии отображаются справа.
+description: Получает или задает цвет комментариев area Применяется только если комментарии отображаются справа.
 type: docs
 weight: 20
 url: /ru/net/aspose.slides.export/notescommentslayoutingoptions/commentsareacolor/
 ---
 ## NotesCommentsLayoutingOptions.CommentsAreaColor property
 
-Получает или задает цвет области комментариев (Применяется, только если комментарии отображаются справа).
+Получает или задает цвет комментариев area (Применяется, только если комментарии отображаются справа).
 
 ```csharp
 public Color CommentsAreaColor { get; set; }
@@ -16,7 +16,7 @@ public Color CommentsAreaColor { get; set; }
 
 ### Примечания
 
-По умолчанию: **Color.SkyBlue** .
+По умолчанию **Цвет.Небесно-голубой** .
 
 ### Смотрите также
 

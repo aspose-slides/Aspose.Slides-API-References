@@ -1,14 +1,14 @@
 ---
 title: Presentation
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает родительское представление ячейки. Только чтениеIPresentationaspose.slides/ipresentation.
+description: Возвращает родительское представление ячейки. Только для чтенияIPresentationaspose.slides/ipresentation .
 type: docs
 weight: 170
 url: /ru/net/aspose.slides/cell/presentation/
 ---
 ## Cell.Presentation property
 
-Возвращает родительское представление ячейки. Только чтение[`IPresentation`](../../ipresentation).
+Возвращает родительское представление ячейки. Только для чтения[`IPresentation`](../../ipresentation) .
 
 ```csharp
 public IPresentation Presentation { get; }

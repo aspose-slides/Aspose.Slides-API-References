@@ -1,14 +1,14 @@
 ---
 title: CameraPresetType
 second_title: Aspose.Slides for .NET API 参考
-description: 定义相机预设类型的常量
+description: 定义相机预设类型的常数
 type: docs
 weight: 980
 url: /zh/net/aspose.slides/camerapresettype/
 ---
 ## CameraPresetType enumeration
 
-定义相机预设类型的常量。
+定义相机预设类型的常数。
 
 ```csharp
 public enum CameraPresetType

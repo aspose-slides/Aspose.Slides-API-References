@@ -18,8 +18,8 @@ public interface IMotionPath : IEnumerable<IMotionCmdPath>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.animation/imotionpath/asienumerable) { get; } | 允许获取基本 IBehavior 接口。 只读IEnumerable。 |
-| [Count](../../aspose.slides.animation/imotionpath/count) { get; } | 返回集合中的路径数。 只读Int32。 |
+| [AsIEnumerable](../../aspose.slides.animation/imotionpath/asienumerable) { get; } | 允许获取基本 IBehavior 接口。 只读IEnumerable. |
+| [Count](../../aspose.slides.animation/imotionpath/count) { get; } | 返回集合中的路径数。 只读Int32. |
 | [Item](../../aspose.slides.animation/imotionpath/item) { get; } | 返回指定索引处的命令。 |
 
 ## 方法

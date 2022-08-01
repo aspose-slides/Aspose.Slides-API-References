@@ -1,14 +1,14 @@
 ---
 title: UseSecondaryCategories
 second_title: Справочник по API Aspose.Slides для .NET
-description: Если false тоSecondaryCategoriesaspose.slides.charts/ichartdata/secondarycategoriesсвойство возвращает null и данные вCategoriesaspose.slides.charts/ichartdata/categoriesсвойство используется как для основного так и для дополнительного ряда. Если true то данные в свойствеSecondaryCategoriesaspose.slides.charts/ichartdata/secondarycategoriesиспользуются для вторичных рядов и данных вCategoriesaspose.slides.charts/ichartdata/categoriesсвойство используется для основной серии. Чтение/записьBoolean.
+description: Если ложь тоSecondaryCategoriesaspose.slides.charts/ichartdata/secondarycategories свойство возвращает null и данные вCategoriesaspose.slides.charts/ichartdata/categories свойство используется как для первичной так и для вторичной серии. Если true то данные вSecondaryCategoriesaspose.slides.charts/ichartdata/secondarycategories свойство используется для вторичной серии и данных вCategoriesaspose.slides.charts/ichartdata/categoriesсвойство используется для первичной серии. Чтение/записьBoolean .
 type: docs
 weight: 80
 url: /ru/net/aspose.slides.charts/ichartdata/usesecondarycategories/
 ---
 ## IChartData.UseSecondaryCategories property
 
-Если false, то[`SecondaryCategories`](../secondarycategories)свойство возвращает null и данные в[`Categories`](../categories)свойство используется как для основного, так и для дополнительного ряда. Если true, то данные в свойстве[`SecondaryCategories`](../secondarycategories)используются для вторичных рядов и данных в[`Categories`](../categories)свойство используется для основной серии. Чтение/записьBoolean.
+Если ложь, то[`SecondaryCategories`](../secondarycategories) свойство возвращает null и данные в[`Categories`](../categories) свойство используется как для первичной, так и для вторичной серии. Если true, то данные в[`SecondaryCategories`](../secondarycategories) свойство используется для вторичной серии и данных в[`Categories`](../categories)свойство используется для первичной серии. Чтение/записьBoolean .
 
 ```csharp
 public bool UseSecondaryCategories { get; set; }
@@ -16,16 +16,16 @@ public bool UseSecondaryCategories { get; set; }
 
 ### Примеры
 
-Пример. Какие категории связаны с сериями - ChartData.Categories или ChartData.SecondaryCategories?
+Пример. Какие категории относятся к рядам - ChartData.Categories или ChartData.SecondaryCategories?
 
 ```csharp
 if (series.PlotOnSecondAxis && series.Chart.ChartData.UseSecondaryCategories)
 {
-     // связанные категории: series.Chart.ChartData.SecondaryCategories
+    // связанные категории: series.Chart.ChartData.SecondaryCategories
 }
 else
 {
-     // связанные категории: series.Chart.ChartData.Categories
+    // связанные категории: series.Chart.ChartData.Categories
 }
 ```
 

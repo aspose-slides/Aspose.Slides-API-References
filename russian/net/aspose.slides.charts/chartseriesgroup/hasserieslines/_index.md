@@ -1,14 +1,14 @@
 ---
 title: HasSeriesLines
 second_title: Справочник по API Aspose.Slides для .NET
-description: Истинно если на диаграмме есть линии серий. Применяется к линейчатым диаграммам с накоплением и круговым диаграммам. Чтение/записьBoolean.
+description: Истинно если на диаграмме есть линии серий. Применяется к линейчатым диаграммам с накоплением и круговым диаграммам. Чтение/записьBoolean .
 type: docs
 weight: 80
 url: /ru/net/aspose.slides.charts/chartseriesgroup/hasserieslines/
 ---
 ## ChartSeriesGroup.HasSeriesLines property
 
-Истинно, если на диаграмме есть линии серий. Применяется к линейчатым диаграммам с накоплением и круговым диаграммам. Чтение/записьBoolean.
+Истинно, если на диаграмме есть линии серий. Применяется к линейчатым диаграммам с накоплением и круговым диаграммам. Чтение/записьBoolean .
 
 ```csharp
 public bool HasSeriesLines { get; set; }

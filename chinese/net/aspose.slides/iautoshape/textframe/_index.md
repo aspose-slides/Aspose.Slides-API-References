@@ -1,14 +1,14 @@
 ---
 title: TextFrame
 second_title: Aspose.Slides for .NET API 参考
-description: 返回自选图形的 TextFrameEx 对象 只读ITextFrameaspose.slides/itextframe
+description: 返回 AutoShapeEx 的 TextFrameEx 对象 只读ITextFrameaspose.slides/itextframe.
 type: docs
 weight: 50
 url: /zh/net/aspose.slides/iautoshape/textframe/
 ---
 ## IAutoShape.TextFrame property
 
-返回自选图形的 TextFrameEx 对象。 只读[`ITextFrame`](../../itextframe)。
+返回 AutoShapeEx 的 TextFrameEx 对象。 只读[`ITextFrame`](../../itextframe).
 
 ```csharp
 public ITextFrame TextFrame { get; }

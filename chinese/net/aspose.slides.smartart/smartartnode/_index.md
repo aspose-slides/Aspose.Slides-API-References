@@ -18,15 +18,15 @@ public class SmartArtNode : ISmartArtNode
 
 | 姓名 | 描述 |
 | --- | --- |
-| [BulletFillFormat](../../aspose.slides.smartart/smartartnode/bulletfillformat) { get; } | 返回包含节点项目符号的填充格式属性的 FillFormat 对象。 注意:对于不为节点提供项目符号的某些类型的 SmartArt 布局，可以返回 null。 只读[`IFillFormat`](../../aspose.slides/ifillformat)。 |
-| [ChildNodes](../../aspose.slides.smartart/smartartnode/childnodes) { get; } | 返回当前节点的所有子节点的集合。 只读[`ISmartArtNodeCollection`](../ismartartnodecollection)。 |
-| [IsAssistant](../../aspose.slides.smartart/smartartnode/isassistant) { get; set; } | 返回或设置节点为助手。 读/写Boolean。 |
-| [IsHidden](../../aspose.slides.smartart/smartartnode/ishidden) { get; } | 如果此节点是数据模型中的隐藏节点，则返回 true。 只读Boolean。 |
-| [Level](../../aspose.slides.smartart/smartartnode/level) { get; } | 返回节点的嵌套级别。 只读Int32。 |
-| [OrganizationChartLayout](../../aspose.slides.smartart/smartartnode/organizationchartlayout) { get; set; } | 返回或设置与当前节点关联的组织结构图布局类型。 读/写[`OrganizationChartLayoutType`](../organizationchartlayouttype)。 |
-| [Position](../../aspose.slides.smartart/smartartnode/position) { get; set; } | 返回或设置兄弟节点中节点从零开始的位置。 读/写Int32。 |
-| [Shapes](../../aspose.slides.smartart/smartartnode/shapes) { get; } | 返回与节点关联的所有形状的集合。 只读[`ISmartArtShapeCollection`](../ismartartshapecollection)。 |
-| [TextFrame](../../aspose.slides.smartart/smartartnode/textframe) { get; } | 返回或设置节点的文本。 只读[`ITextFrame`](../../aspose.slides/itextframe)。 |
+| [BulletFillFormat](../../aspose.slides.smartart/smartartnode/bulletfillformat) { get; } | 返回包含节点项目符号的填充格式属性的 FillFormat 对象。 注意：对于不为节点提供项目符号的某些类型的 SmartArt 布局，可以返回 null。 只读[`IFillFormat`](../../aspose.slides/ifillformat). |
+| [ChildNodes](../../aspose.slides.smartart/smartartnode/childnodes) { get; } | 返回当前节点的所有子节点的集合。 只读[`ISmartArtNodeCollection`](../ismartartnodecollection). |
+| [IsAssistant](../../aspose.slides.smartart/smartartnode/isassistant) { get; set; } | 返回或设置节点为助手。 读/写Boolean. |
+| [IsHidden](../../aspose.slides.smartart/smartartnode/ishidden) { get; } | 如果此节点是数据模型中的隐藏节点，则返回 true。 只读Boolean. |
+| [Level](../../aspose.slides.smartart/smartartnode/level) { get; } | 返回节点的嵌套级别。 只读Int32. |
+| [OrganizationChartLayout](../../aspose.slides.smartart/smartartnode/organizationchartlayout) { get; set; } | 返回或设置与当前节点关联的组织结构图布局类型。 读/写[`OrganizationChartLayoutType`](../organizationchartlayouttype). |
+| [Position](../../aspose.slides.smartart/smartartnode/position) { get; set; } | 返回或设置节点在兄弟节点中的从零开始的位置。 读/写Int32. |
+| [Shapes](../../aspose.slides.smartart/smartartnode/shapes) { get; } | 返回与节点关联的所有形状的集合。 只读[`ISmartArtShapeCollection`](../ismartartshapecollection). |
+| [TextFrame](../../aspose.slides.smartart/smartartnode/textframe) { get; } | 返回或设置节点的文本。 只读[`ITextFrame`](../../aspose.slides/itextframe). |
 
 ## 方法
 

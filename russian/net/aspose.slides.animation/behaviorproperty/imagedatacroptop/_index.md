@@ -8,7 +8,7 @@ url: /ru/net/aspose.slides.animation/behaviorproperty/imagedatacroptop/
 ---
 ## BehaviorProperty.ImageDataCropTop property
 
-Представляет свойство 'imageData.cropTop'
+Представляет свойство imageData.cropTop
 
 ```csharp
 public static BehaviorProperty ImageDataCropTop { get; }

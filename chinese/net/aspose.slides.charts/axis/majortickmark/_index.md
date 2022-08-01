@@ -1,14 +1,14 @@
 ---
 title: MajorTickMark
 second_title: Aspose.Slides for .NET API 参考
-description: 表示指定轴的主刻度线的类型 读/写TickMarkTypeaspose.slides.charts/tickmarktype
+description: 表示指定轴的主要刻度线的类型 读/写TickMarkTypeaspose.slides.charts/tickmarktype.
 type: docs
 weight: 350
 url: /zh/net/aspose.slides.charts/axis/majortickmark/
 ---
 ## Axis.MajorTickMark property
 
-表示指定轴的主刻度线的类型。 读/写[`TickMarkType`](../../tickmarktype)。
+表示指定轴的主要刻度线的类型。 读/写[`TickMarkType`](../../tickmarktype).
 
 ```csharp
 public TickMarkType MajorTickMark { get; set; }

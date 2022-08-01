@@ -1,14 +1,14 @@
 ---
 title: SvgContent
 second_title: Aspose.Slides for .NET API 参考
-description: 返回 SVG 内容 只读String
+description: 返回 SVG 内容 只读String.
 type: docs
 weight: 30
 url: /zh/net/aspose.slides/isvgimage/svgcontent/
 ---
 ## ISvgImage.SvgContent property
 
-返回 SVG 内容。 只读String。
+返回 SVG 内容。 只读String.
 
 ```csharp
 public string SvgContent { get; }

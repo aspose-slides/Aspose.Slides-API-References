@@ -1,14 +1,14 @@
 ---
 title: Shape
 second_title: Aspose.Slides for .NET API 参考
-description: 迭代每个Shapeaspose.slides.lowcode/foreach/shape在Presentationaspose.slides/presentation中  形状将在所有类型的幻灯片中迭代 -Slideaspose.slides.lowcode/foreach/slideMasterSlideaspose.slides.lowcode/foreach/masterslide和LayoutSlideaspose.slides.lowcode/foreach/layoutslide
+description: 迭代每个Shapeaspose.slides.lowcode/foreach/shape在里面Presentationaspose.slides/presentation. 形状将在所有类型的幻灯片中迭代 -Slideaspose.slides.lowcode/foreach/slide MasterSlideaspose.slides.lowcode/foreach/masterslide和LayoutSlideaspose.slides.lowcode/foreach/layoutslide
 type: docs
 weight: 50
 url: /zh/net/aspose.slides.lowcode/foreach/shape/
 ---
 ## Shape(Presentation, ForEachShapeCallback) {#shape_1}
 
-迭代每个`Shape`在[`Presentation`](../../../aspose.slides/presentation)中。  形状将在所有类型的幻灯片中迭代 -[`Slide`](../slide),[`MasterSlide`](../masterslide)和[`LayoutSlide`](../layoutslide)
+迭代每个`Shape`在里面[`Presentation`](../../../aspose.slides/presentation). 形状将在所有类型的幻灯片中迭代 -[`Slide`](../slide) ,[`MasterSlide`](../masterslide)和[`LayoutSlide`](../layoutslide)
 
 ```csharp
 public static void Shape(Presentation pres, ForEachShapeCallback forEachShape)
@@ -16,7 +16,7 @@ public static void Shape(Presentation pres, ForEachShapeCallback forEachShape)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| pres | Presentation | 表示迭代布局形状 |
+| pres | Presentation | 演示以迭代布局形状 |
 | forEachShape | ForEachShapeCallback | 将为每个形状调用的回调 |
 
 ### 例子
@@ -43,7 +43,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 
 ## Shape(BaseSlide, ForEachShapeCallback) {#shape}
 
-迭代每个[`Shape`](../shape)在[`BaseSlide`](../../../aspose.slides/baseslide)中。 [`BaseSlide`](../../../aspose.slides/baseslide)是ForEachSlideCallback),[`MasterSlide`](../masterslide)和[`LayoutSlide`](../layoutslide)
+迭代每个[`Shape`](../shape)在里面[`BaseSlide`](../../../aspose.slides/baseslide). [`BaseSlide`](../../../aspose.slides/baseslide)是基本类型[`Slide`](../slide) ,[`MasterSlide`](../masterslide)和[`LayoutSlide`](../layoutslide)
 
 ```csharp
 public static void Shape(BaseSlide baseSlide, ForEachShapeCallback forEachShape)
@@ -52,7 +52,7 @@ public static void Shape(BaseSlide baseSlide, ForEachShapeCallback forEachShape)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | baseSlide | BaseSlide | 滑动以迭代布局形状 |
-| forEachShape | ForEachShapeCallback | 将被调用的回调每个形状 |
+| forEachShape | ForEachShapeCallback | 将为每个形状调用的回调 |
 
 ### 例子
 

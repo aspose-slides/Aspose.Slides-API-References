@@ -18,7 +18,7 @@ public interface ISketchFormat
 
 | 姓名 | 描述 |
 | --- | --- |
-| [SketchType](../../aspose.slides/isketchformat/sketchtype) { get; set; } | 返回或设置草图类型。 读/写[`LineSketchType`](../linesketchtype)。 |
+| [SketchType](../../aspose.slides/isketchformat/sketchtype) { get; set; } | 返回或设置草图类型。 读/写[`LineSketchType`](../linesketchtype). |
 
 ### 也可以看看
 

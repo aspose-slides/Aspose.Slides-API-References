@@ -8,7 +8,7 @@ url: /ru/net/aspose.slides.animation/behaviorproperty/stylefontfamily/
 ---
 ## BehaviorProperty.StyleFontFamily property
 
-Представляет свойство 'style.fontFamily'
+Представляет свойство style.fontFamily
 
 ```csharp
 public static BehaviorProperty StyleFontFamily { get; }

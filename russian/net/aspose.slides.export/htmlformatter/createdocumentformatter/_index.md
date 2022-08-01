@@ -1,14 +1,14 @@
 ---
 title: CreateDocumentFormatter
 second_title: Справочник по API Aspose.Slides для .NET
-description: Создает и возвращает средство форматирования HTML для простого представления документа состоящего из последовательностей слайдов один под другим.
+description: Создает и возвращает модуль форматирования HTML для простого представления документа состоящего из последовательностей слайдов один под другим.
 type: docs
 weight: 20
 url: /ru/net/aspose.slides.export/htmlformatter/createdocumentformatter/
 ---
 ## HtmlFormatter.CreateDocumentFormatter method
 
-Создает и возвращает средство форматирования HTML для простого представления документа, состоящего из последовательностей слайдов один под другим.
+Создает и возвращает модуль форматирования HTML для простого представления документа, состоящего из последовательностей слайдов один под другим.
 
 ```csharp
 public static HtmlFormatter CreateDocumentFormatter(string css, bool showSlideTitle)
@@ -17,7 +17,7 @@ public static HtmlFormatter CreateDocumentFormatter(string css, bool showSlideTi
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | css | String | Указывает CSS для этого файла. |
-| showSlideTitle | Boolean | Добавить заголовок слайда, если есть изображение над слайдом. |
+| showSlideTitle | Boolean | Добавьте название слайда, если над слайдом есть одно изображение. |
 
 ### Смотрите также
 

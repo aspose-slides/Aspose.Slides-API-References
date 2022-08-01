@@ -1,14 +1,14 @@
 ---
 title: CustomNumberFormat
 second_title: Aspose.Slides for .NET API 参考
-description: 获取或设置数字和日期的自定义显示格式 如果值为空将使用 PresetNumberFormat 值 读/写String
+description: 获取或设置数字和日期的自定义显示格式 如果值为空将使用 PresetNumberFormat 值 读/写String.
 type: docs
 weight: 30
 url: /zh/net/aspose.slides.charts/chartdatacell/customnumberformat/
 ---
 ## ChartDataCell.CustomNumberFormat property
 
-获取或设置数字和日期的自定义显示格式。 如果值为空，将使用 PresetNumberFormat 值。 读/写String。
+获取或设置数字和日期的自定义显示格式。 如果值为空，将使用 PresetNumberFormat 值。 读/写String.
 
 ```csharp
 public string CustomNumberFormat { get; set; }
@@ -18,7 +18,7 @@ public string CustomNumberFormat { get; set; }
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | 如果值为` null` 则抛出. |
+| ArgumentNullException | 如果值为`无效的`. |
 
 ### 也可以看看
 

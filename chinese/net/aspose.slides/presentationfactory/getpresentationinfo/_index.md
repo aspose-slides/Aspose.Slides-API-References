@@ -20,7 +20,7 @@ public IPresentationInfo GetPresentationInfo(string file)
 
 ### 返回值
 
-绑定到演示文稿的演示文稿信息。
+演示文稿信息绑定到演示文稿。
 
 ### 也可以看看
 
@@ -33,7 +33,7 @@ public IPresentationInfo GetPresentationInfo(string file)
 
 ## GetPresentationInfo(Stream) {#getpresentationinfo}
 
-从流中创建新的 PresentationInfo 对象并将演示文稿绑定到它。 获取有关指定流中的演示文稿的信息。
+从流中创建新的 PresentationInfo 对象并将演示文稿绑定到它。 获取有关指定流中演示文稿的信息。
 
 ```csharp
 public IPresentationInfo GetPresentationInfo(Stream stream)
@@ -41,11 +41,11 @@ public IPresentationInfo GetPresentationInfo(Stream stream)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| stream | Stream | 表示流。 |
+| stream | Stream | 演示流。 |
 
 ### 返回值
 
-绑定到演示文稿的演示文稿信息。
+演示文稿信息绑定到演示文稿。
 
 ### 也可以看看
 

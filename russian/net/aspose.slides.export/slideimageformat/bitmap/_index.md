@@ -16,7 +16,7 @@ public static SlideImageFormat Bitmap(float scale, ImageFormat imgFormat)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| scale | Single | Коэффициент масштабирования изображения. |
+| scale | Single | Масштабный коэффициент изображения. |
 | imgFormat | ImageFormat | Формат изображения. |
 
 ### Смотрите также

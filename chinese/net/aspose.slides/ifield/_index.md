@@ -1,14 +1,14 @@
 ---
 title: IField
 second_title: Aspose.Slides for .NET API 参考
-description: 表示一个字段
+description: 代表一个字段
 type: docs
 weight: 5250
 url: /zh/net/aspose.slides/ifield/
 ---
 ## IField interface
 
-表示一个字段。
+代表一个字段。
 
 ```csharp
 public interface IField : ISlideComponent
@@ -18,8 +18,8 @@ public interface IField : ISlideComponent
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsISlideComponent](../../aspose.slides/ifield/asislidecomponent) { get; } | 允许获取基础 ISlideComponent 接口。 只读[`ISlideComponent`](../islidecomponent)。 |
-| [Type](../../aspose.slides/ifield/type) { get; set; } | 返回或设置字段的类型。 读/写[`IFieldType`](../ifieldtype)。 |
+| [AsISlideComponent](../../aspose.slides/ifield/asislidecomponent) { get; } | 允许获取基本 ISlideComponent 接口。 只读[`ISlideComponent`](../islidecomponent). |
+| [Type](../../aspose.slides/ifield/type) { get; set; } | 返回或设置字段的类型。 读/写[`IFieldType`](../ifieldtype). |
 
 ### 也可以看看
 

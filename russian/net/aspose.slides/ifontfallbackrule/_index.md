@@ -27,7 +27,7 @@ public interface IFontFallBackRule
 
 | Имя | Описание |
 | --- | --- |
-| [AddFallBackFonts](../../aspose.slides/ifontfallbackrule/addfallbackfonts#addfallbackfonts)(string) | Добавляет новый шрифт в список шрифтов FallBack. |
+| [AddFallBackFonts](../../aspose.slides/ifontfallbackrule/addfallbackfonts#addfallbackfonts)(string) | Добавляет новый шрифт(ы) в список шрифтов FallBack. |
 | [AddFallBackFonts](../../aspose.slides/ifontfallbackrule/addfallbackfonts#addfallbackfonts_1)(string[]) | Добавляет новый шрифт в список шрифтов FallBack. |
 | [Clear](../../aspose.slides/ifontfallbackrule/clear)() | Удаляет все шрифты из списка. |
 | [IndexOf](../../aspose.slides/ifontfallbackrule/indexof)(string) | Возвращает индекс указанного правила в коллекции. |

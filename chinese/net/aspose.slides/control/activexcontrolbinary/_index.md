@@ -16,7 +16,7 @@ public byte[] ActiveXControlBinary { get; }
 
 ### 例子
 
-下一个示例显示使用 ActiveXControlBinary 属性更改 ActiveX 属性:
+下一个示例显示了使用 ActiveXControlBinary 属性更改 ActiveX 属性：
 
 ```csharp
 [C#]
@@ -26,7 +26,7 @@ if (control.Persistence == PersistenceType.PersistPropertyBag)
 }
 else
 {
-    YourMethodHere(control.ActiveXControlBinary);  //使用您自己的方法来管理存储在其二进制文件中的 ActiveX 属性
+    YourMethodHere(control.ActiveXControlBinary); //使用您自己的方法来管理存储在其二进制文件中的 ActiveX 属性
 }
 ```
 

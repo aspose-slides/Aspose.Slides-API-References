@@ -28,7 +28,7 @@ public class MathRightSubSuperscriptElementFactory : IMathRightSubSuperscriptEle
 
 ### Примечания
 
-Для COM-совместимость
+Для COM-совместимости
 
 ### Смотрите также
 

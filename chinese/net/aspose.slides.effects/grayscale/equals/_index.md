@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: Aspose.Slides for .NET API 参考
-description: 确定指定的GrayScaleaspose.slides.effects/grayscale是否等于当前的GrayScale
+description: 判断是否指定GrayScaleaspose.slides.effects/grayscale等于当前GrayScaleaspose.slides.effects/grayscale.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides.effects/grayscale/equals/
 ---
 ## GrayScale.Equals method
 
-确定指定的[`GrayScale`](../../grayscale)是否等于当前的GrayScale。
+判断是否指定[`GrayScale`](../../grayscale)等于当前[`GrayScale`](../../grayscale).
 
 ```csharp
 public override bool Equals(object obj)
@@ -16,11 +16,11 @@ public override bool Equals(object obj)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| obj | Object | [`GrayScale`](../../grayscale)进行比较。 |
+| obj | Object | 这[`GrayScale`](../../grayscale)比较。 |
 
 ### 返回值
 
-如果对象相等，则为真；否则为假。
+如果对象相等，则为 true；否则为假。
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: PlotVisibleCellsOnly
 second_title: Aspose.Slides for .NET API 参考
-description: 确定是否仅绘制可见单元格 False 绘制可见和隐藏单元格 读/写Boolean
+description: 确定是否仅绘制可见单元格绘制可见和隐藏单元格的错误 读/写Boolean.
 type: docs
 weight: 170
 url: /zh/net/aspose.slides.charts/ichart/plotvisiblecellsonly/
 ---
 ## IChart.PlotVisibleCellsOnly property
 
-确定是否仅绘制可见单元格。 False 绘制可见和隐藏单元格。 读/写Boolean。
+确定是否仅绘制可见单元格。绘制可见和隐藏单元格的错误。 读/写Boolean.
 
 ```csharp
 public bool PlotVisibleCellsOnly { get; set; }

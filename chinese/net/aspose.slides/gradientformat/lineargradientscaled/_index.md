@@ -1,14 +1,14 @@
 ---
 title: LinearGradientScaled
 second_title: Aspose.Slides for .NET API 参考
-description: 确定渐变是否被缩放 读/写NullableBoolaspose.slides/nullablebool
+description: 确定是否缩放渐变 读/写NullableBoolaspose.slides/nullablebool.
 type: docs
 weight: 50
 url: /zh/net/aspose.slides/gradientformat/lineargradientscaled/
 ---
 ## GradientFormat.LinearGradientScaled property
 
-确定渐变是否被缩放。 读/写[`NullableBool`](../../nullablebool)。
+确定是否缩放渐变。 读/写[`NullableBool`](../../nullablebool).
 
 ```csharp
 public NullableBool LinearGradientScaled { get; set; }

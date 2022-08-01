@@ -18,7 +18,7 @@ public IRow[] InsertClone(int index, IRow templ, bool withAttachedRows)
 | --- | --- | --- |
 | index | Int32 | 新行的索引。 |
 | templ | IRow | 用作模板的行。 |
-| withAttachedRows | Boolean | True 也复制附加到模板行的所有行。 |
+| withAttachedRows | Boolean | 也可以复制附加到模板行的所有行。 |
 
 ### 返回值
 

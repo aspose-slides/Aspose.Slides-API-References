@@ -1,14 +1,14 @@
 ---
 title: IBackground
 second_title: Aspose.Slides for .NET API 参考
-description: 表示幻灯片的背景
+description: 代表幻灯片的背景
 type: docs
 weight: 4790
 url: /zh/net/aspose.slides/ibackground/
 ---
 ## IBackground interface
 
-表示幻灯片的背景。
+代表幻灯片的背景。
 
 ```csharp
 public interface IBackground : IFillParamSource, ISlideComponent
@@ -18,13 +18,13 @@ public interface IBackground : IFillParamSource, ISlideComponent
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsIFillParamSource](../../aspose.slides/ibackground/asifillparamsource) { get; } | 返回 IFillParamSource 接口。 只读[`IFillParamSource`](../ifillparamsource)。 |
-| [AsISlideComponent](../../aspose.slides/ibackground/asislidecomponent) { get; } | 返回 ISlideComponent 接口。 只读[`ISlideComponent`](../islidecomponent)。 |
-| [EffectFormat](../../aspose.slides/ibackground/effectformat) { get; } | 返回 BackgroundType.OwnBackground 填充的 EffectFormat。 只读[`IEffectFormat`](../ieffectformat)。 |
-| [FillFormat](../../aspose.slides/ibackground/fillformat) { get; } | 返回 BackgroundType.OwnBackground 填充的 FillFormat。 只读[`IFillFormat`](../ifillformat)。 |
-| [StyleColor](../../aspose.slides/ibackground/stylecolor) { get; } | 返回 BackgroundType.Themed 填充的 ColorFormat。 只读[`IColorFormat`](../icolorformat)。 |
-| [StyleIndex](../../aspose.slides/ibackground/styleindex) { get; set; } | 返回BackgroundType的索引。Themed填充背景主题集合。 0 表示没有填充。 1..999 - 索引。 读/写UInt16。 |
-| [Type](../../aspose.slides/ibackground/type) { get; set; } | 返回一种背景填充。 读/写[`BackgroundType`](../backgroundtype)。 |
+| [AsIFillParamSource](../../aspose.slides/ibackground/asifillparamsource) { get; } | 返回 IFillParamSource 接口。 只读[`IFillParamSource`](../ifillparamsource). |
+| [AsISlideComponent](../../aspose.slides/ibackground/asislidecomponent) { get; } | 返回 ISlideComponent 接口。 只读[`ISlideComponent`](../islidecomponent). |
+| [EffectFormat](../../aspose.slides/ibackground/effectformat) { get; } | 返回 BackgroundType.OwnBackground 填充的 EffectFormat。 只读[`IEffectFormat`](../ieffectformat). |
+| [FillFormat](../../aspose.slides/ibackground/fillformat) { get; } | 返回 BackgroundType 的 FillFormat。OwnBackground 填充。 只读[`IFillFormat`](../ifillformat). |
+| [StyleColor](../../aspose.slides/ibackground/stylecolor) { get; } | 返回背景类型的 ColorFormat。主题填充。 只读[`IColorFormat`](../icolorformat). |
+| [StyleIndex](../../aspose.slides/ibackground/styleindex) { get; set; } | 返回BackgroundType 的索引。主题填充背景主题集合。 0 表示不填充。 1..999 - 索引。 读/写UInt16. |
+| [Type](../../aspose.slides/ibackground/type) { get; set; } | 返回一种背景填充类型。 读/写[`BackgroundType`](../backgroundtype). |
 
 ## 方法
 

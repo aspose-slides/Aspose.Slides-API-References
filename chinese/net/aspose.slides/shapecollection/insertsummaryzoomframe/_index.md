@@ -17,15 +17,15 @@ public ISummaryZoomFrame InsertSummaryZoomFrame(int index, float x, float y, flo
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| index | Int32 | 零- 应插入截面缩放框架的索引。 |
-| x | Single | 新截面缩放框的 X 坐标Single。 |
-| y | Single | 新截面缩放框的 Y 坐标Single。 |
-| width | Single | 新截面缩放框的宽度Single。 |
-| height | Single | 新截面缩放框的高度Single。 |
+| index | Int32 | 应插入截面缩放框架的从零开始的索引。 |
+| x | Single | 新截面缩放框架的 X 坐标Single. |
+| y | Single | 新截面缩放框架的 Y 坐标Single. |
+| width | Single | 新截面缩放框的宽度Single. |
+| height | Single | 新截面缩放框的高度Single. |
 
 ### 返回值
 
-创建摘要缩放对象[`ISummaryZoomFrame`](../../isummaryzoomframe)。
+创建摘要缩放对象[`ISummaryZoomFrame`](../../isummaryzoomframe).
 
 ### 例外
 
@@ -35,11 +35,11 @@ public ISummaryZoomFrame InsertSummaryZoomFrame(int index, float x, float y, flo
 
 ### 评论
 
-此方法创建一个新的摘要缩放并将对象集合放入其中以用于所有部分这个演示文稿。
+此方法创建一个新的摘要缩放并将一个对象集合放入此演示文稿中的所有部分。
 
 ### 例子
 
-此示例演示在集合的指定索引处创建和插入摘要缩放对象 （假设“Presentation.pptx”演示文稿中至少有两个部分）:
+此示例演示在集合的指定索引处创建和插入摘要缩放对象 （假设“Presentation.pptx”演示文稿中至少有两个部分）：
 
 ```csharp
 [C#]

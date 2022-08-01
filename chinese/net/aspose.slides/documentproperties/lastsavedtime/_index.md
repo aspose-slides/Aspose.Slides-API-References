@@ -1,14 +1,14 @@
 ---
 title: LastSavedTime
 second_title: Aspose.Slides for .NET API 参考
-description: 返回上次修改演示文稿的日期 在 Presentation.DocumentProperties 的情况下为只读因为它将在 IPresentation 对象保存过程中在内部更新 可以通过方法返回的 DocumentProperties 实例进行更改ReadDocumentPropertiesaspose.slides/ipresentationinfo/readdocumentproperties 请参见R5 中的示例MAspose.Slides.IPresentationInfo.UpdateDocumentPropertiesAspose.Slides.IDocumentProperties方法总结
+description: 返回上次修改演示文稿的日期 在 Presentation.DocumentProperties 的情况下为只读因为它将在 IPresentation 对象保存过程中在内部更新 可以通过方法返回的 DocumentProperties 实例进行更改ReadDocumentPropertiesaspose.slides/ipresentationinfo/readdocumentproperties 请参见示例UpdateDocumentPropertiesaspose.slides/ipresentationinfo/updatedocumentproperties方法摘要.
 type: docs
 weight: 170
 url: /zh/net/aspose.slides/documentproperties/lastsavedtime/
 ---
 ## DocumentProperties.LastSavedTime property
 
-返回上次修改演示文稿的日期。 在 Presentation.DocumentProperties 的情况下为只读（因为它将在 IPresentation 对象保存过程中在内部更新）。 可以通过方法返回的 DocumentProperties 实例进行更改[`ReadDocumentProperties`](../../ipresentationinfo/readdocumentproperties) 请参见:::R5 中的示例:M:Aspose.Slides.IPresentationInfo.UpdateDocumentProperties(Aspose.Slides.IDocumentProperties):::方法总结。
+返回上次修改演示文稿的日期。 在 Presentation.DocumentProperties 的情况下为只读（因为它将在 IPresentation 对象保存过程中在内部更新）。 可以通过方法返回的 DocumentProperties 实例进行更改[`ReadDocumentProperties`](../../ipresentationinfo/readdocumentproperties) 请参见示例[`UpdateDocumentProperties`](../../ipresentationinfo/updatedocumentproperties)方法摘要.
 
 ```csharp
 public DateTime LastSavedTime { get; set; }

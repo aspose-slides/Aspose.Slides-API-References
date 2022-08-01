@@ -1,14 +1,14 @@
 ---
 title: FillSource
 second_title: Aspose.Slides for .NET API 参考
-description: 返回有关如何填充元素的信息 只读ShapeElementFillSourceaspose.slides/shapeelementfillsource
+description: 返回有关如何填充元素的信息 只读ShapeElementFillSourceaspose.slides/shapeelementfillsource.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides/shapeelement/fillsource/
 ---
 ## ShapeElement.FillSource property
 
-返回有关如何填充元素的信息。 只读[`ShapeElementFillSource`](../../shapeelementfillsource)。
+返回有关如何填充元素的信息。 只读[`ShapeElementFillSource`](../../shapeelementfillsource).
 
 ```csharp
 public ShapeElementFillSource FillSource { get; }

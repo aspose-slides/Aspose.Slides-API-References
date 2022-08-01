@@ -1,14 +1,14 @@
 ---
 title: Additive
 second_title: Справочник по API Aspose.Slides для .NET
-description: Указывает сочетается ли текущее поведение анимации с другими работающими анимациями. Чтение/записьBehaviorAdditiveTypeaspose.slides.animation/behavioradditivetype.
+description: Указывает комбинируется ли текущее поведение анимации с другими работающими анимациями. Чтение/записьBehaviorAdditiveTypeaspose.slides.animation/behavioradditivetype .
 type: docs
 weight: 20
 url: /ru/net/aspose.slides.animation/behavior/additive/
 ---
 ## Behavior.Additive property
 
-Указывает, сочетается ли текущее поведение анимации с другими работающими анимациями. Чтение/запись[`BehaviorAdditiveType`](../../behavioradditivetype).
+Указывает, комбинируется ли текущее поведение анимации с другими работающими анимациями. Чтение/запись[`BehaviorAdditiveType`](../../behavioradditivetype) .
 
 ```csharp
 public BehaviorAdditiveType Additive { get; set; }

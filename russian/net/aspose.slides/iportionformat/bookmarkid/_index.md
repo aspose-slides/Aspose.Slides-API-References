@@ -1,14 +1,14 @@
 ---
 title: BookmarkId
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или устанавливает идентификатор закладки. Чтение/записьString.
+description: Возвращает или устанавливает идентификатор закладки. Чтение/записьString .
 type: docs
 weight: 30
 url: /ru/net/aspose.slides/iportionformat/bookmarkid/
 ---
 ## IPortionFormat.BookmarkId property
 
-Возвращает или устанавливает идентификатор закладки. Чтение/записьString.
+Возвращает или устанавливает идентификатор закладки. Чтение/записьString .
 
 ```csharp
 public string BookmarkId { get; set; }

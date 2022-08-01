@@ -18,17 +18,17 @@ public class ChartTitle : IChartTitle
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Bottom](../../aspose.slides.charts/charttitle/bottom) { get; } | 底部。 只读Single。 |
-| [Chart](../../aspose.slides.charts/charttitle/chart) { get; } | 返回父图表。 只读[`IChart`](../ichart)。 |
-| [Format](../../aspose.slides.charts/charttitle/format) { get; } | 返回标题的填充、线条、效果样式。 只读[`IFormat`](../iformat)。 |
-| [Height](../../aspose.slides.charts/charttitle/height) { get; set; } | 返回或设置标题高度为图表高度的一部分。 读/写Single。 |
-| [Overlay](../../aspose.slides.charts/charttitle/overlay) { get; set; } | 确定是否允许其他图表元素与标题重叠。 读/写Boolean。 |
-| [Right](../../aspose.slides.charts/charttitle/right) { get; } | 对。 只读Single。 |
-| [TextFormat](../../aspose.slides.charts/charttitle/textformat) { get; } | 返回文本格式。 只读[`IChartTextFormat`](../icharttextformat)。 |
-| [TextFrameForOverriding](../../aspose.slides.charts/charttitle/textframeforoverriding) { get; } | 可以包含格式丰富的文本。如果此属性不为 null，则此 格式化文本值将覆盖自动生成的文本。 自动生成的文本是数据标签的隐含属性，显示 数值轴的单位标签、轴标题、图表标题、趋势线的标签。 自动生成的文本使用 IFormattedTextContainer.TextFormat 属性进行格式化。 只读[`ITextFrame`](../../aspose.slides/itextframe)。 |
-| [Width](../../aspose.slides.charts/charttitle/width) { get; set; } | 返回或设置标题宽度为图表宽度的一部分。 读/写Single。 |
-| [X](../../aspose.slides.charts/charttitle/x) { get; set; } | 返回或设置标题的 x 坐标为图表宽度的一部分。 读/写Single。 |
-| [Y](../../aspose.slides.charts/charttitle/y) { get; set; } | 将标题的 y 坐标返回或设置为图表高度的分数。 读/写Single。 |
+| [Bottom](../../aspose.slides.charts/charttitle/bottom) { get; } | 底部。 只读Single. |
+| [Chart](../../aspose.slides.charts/charttitle/chart) { get; } | 返回父图表。 只读[`IChart`](../ichart). |
+| [Format](../../aspose.slides.charts/charttitle/format) { get; } | 返回标题的填充、线条、效果样式。 只读[`IFormat`](../iformat). |
+| [Height](../../aspose.slides.charts/charttitle/height) { get; set; } | 返回或设置标题高度为图表高度的一部分。 读/写Single. |
+| [Overlay](../../aspose.slides.charts/charttitle/overlay) { get; set; } | 确定是否允许其他图表元素重叠标题。 读/写Boolean. |
+| [Right](../../aspose.slides.charts/charttitle/right) { get; } | 对。 只读Single. |
+| [TextFormat](../../aspose.slides.charts/charttitle/textformat) { get; } | 返回文本格式。 只读[`IChartTextFormat`](../icharttextformat). |
+| [TextFrameForOverriding](../../aspose.slides.charts/charttitle/textframeforoverriding) { get; } | 可以包含格式丰富的文本。如果此属性不为空，则此 格式化文本值将覆盖自动生成的文本。 自动生成的文本是数据标签的隐式属性，显示值轴的 单位标签，轴标题，图表标题，趋势线的标签。 自动生成的文本使用 IFormattedTextContainer.TextFormat 属性格式化。 只读[`ITextFrame`](../../aspose.slides/itextframe). |
+| [Width](../../aspose.slides.charts/charttitle/width) { get; set; } | 返回或设置标题宽度为图表宽度的一部分。 读/写Single. |
+| [X](../../aspose.slides.charts/charttitle/x) { get; set; } | 返回或设置标题的 x 坐标作为图表宽度的一部分。 读/写Single. |
+| [Y](../../aspose.slides.charts/charttitle/y) { get; set; } | 返回或设置标题的 y 坐标为图表高度的一部分。 读/写Single. |
 
 ## 方法
 

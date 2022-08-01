@@ -19,13 +19,13 @@ public interface IResourceLoadingArgs
 | Имя | Описание |
 | --- | --- |
 | [OriginalUri](../../aspose.slides/iresourceloadingargs/originaluri) { get; } | Исходный URI ресурса, указанный в импортированной презентации. |
-| [Uri](../../aspose.slides/iresourceloadingargs/uri) { get; set; } | URI ресурса, который используется для загрузки, если[`ResourceLoading`](../iresourceloadingcallback/resourceloading) возвращаетDefault. Первоначально он установлен на исходный URI ресурса, но может быть переопределен на любое значение. |
+| [Uri](../../aspose.slides/iresourceloadingargs/uri) { get; set; } | URI ресурса, который используется для скачивания, если[`ResourceLoading`](../iresourceloadingcallback/resourceloading) возвращаетDefault . Изначально устанавливается в исходный URI ресурса, но может быть переопределен на любое значение. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [SetData](../../aspose.slides/iresourceloadingargs/setdata)(byte[]) | Устанавливает предоставленные пользователем данные ресурса, который используется, если[`ResourceLoading`](../iresourceloadingcallback/resourceloading) возвращаетUserProvided. |
+| [SetData](../../aspose.slides/iresourceloadingargs/setdata)(byte[]) | Устанавливает предоставленные пользователем данные ресурса, который используется, если[`ResourceLoading`](../iresourceloadingcallback/resourceloading) возвращаетUserProvided |
 
 ### Смотрите также
 

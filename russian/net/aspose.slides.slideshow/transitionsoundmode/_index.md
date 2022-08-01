@@ -1,14 +1,14 @@
 ---
 title: TransitionSoundMode
 second_title: Справочник по API Aspose.Slides для .NET
-description: Представляют звуковой режим перехода.
+description: Представляет звуковой режим перехода.
 type: docs
 weight: 9650
 url: /ru/net/aspose.slides.slideshow/transitionsoundmode/
 ---
 ## TransitionSoundMode enumeration
 
-Представляют звуковой режим перехода.
+Представляет звуковой режим перехода.
 
 ```csharp
 public enum TransitionSoundMode

@@ -20,7 +20,7 @@ public ILineFormatCollectionEffectiveData GetLineStyles(Color styleColor)
 
 ### 返回值
 
-有效行格式集合[`ILineFormatCollectionEffectiveData`](../../ilineformatcollectioneffectivedata)
+有效行格式的集合[`ILineFormatCollectionEffectiveData`](../../ilineformatcollectioneffectivedata)
 
 ### 也可以看看
 

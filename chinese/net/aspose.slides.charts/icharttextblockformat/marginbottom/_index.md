@@ -1,14 +1,14 @@
 ---
 title: MarginBottom
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置 TextFrame 中的下边距点 更改此属性只会对这些图表部分产生一定的影响 DataLabel 和 DataLabelFormat在 PowerPoint 2013 中完全支持在 PowerPoint 2007 中对渲染没有影响 读/写Double
+description: 返回或设置 TextFrame 中的下边距点 更改此属性只会对以下图表部分产生一定的影响 DataLabel 和 DataLabelFormat在 PowerPoint 2013 中完全支持在 PowerPoint 2007 中对渲染没有影响. 读/写Double.
 type: docs
 weight: 40
 url: /zh/net/aspose.slides.charts/icharttextblockformat/marginbottom/
 ---
 ## IChartTextBlockFormat.MarginBottom property
 
-返回或设置 TextFrame 中的下边距（点）。 更改此属性只会对这些图表部分产生一定的影响: DataLabel 和 DataLabelFormat（在 PowerPoint 2013 中完全支持；在 PowerPoint 2007 中对渲染没有影响）。 读/写Double。
+返回或设置 TextFrame 中的下边距（点）。 更改此属性只会对以下图表部分产生一定的影响： DataLabel 和 DataLabelFormat（在 PowerPoint 2013 中完全支持；在 PowerPoint 2007 中对渲染没有影响). 读/写Double.
 
 ```csharp
 public double MarginBottom { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: AutoByExtension
 second_title: Aspose.Slides for .NET API 参考
-description: 使用传递的输出路径扩展名转换Presentationaspose.slides/presentation以确定所需的导出格式
+description: 转换Presentationaspose.slides/presentation使用传递的输出路径扩展名来确定所需的导出格式
 type: docs
 weight: 10
 url: /zh/net/aspose.slides.lowcode/convert/autobyextension/
 ---
 ## Convert.AutoByExtension method
 
-使用传递的输出路径扩展名转换[`Presentation`](../../../aspose.slides/presentation)以确定所需的导出格式。
+转换[`Presentation`](../../../aspose.slides/presentation)使用传递的输出路径扩展名来确定所需的导出格式。
 
 ```csharp
 public static void AutoByExtension(string presPath, string outPath)

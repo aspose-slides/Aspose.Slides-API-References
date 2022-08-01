@@ -1,14 +1,14 @@
 ---
 title: IndexOf
 second_title: Aspose.Slides for .NET API 参考
-description: 搜索指定的IChartSeriesaspose.slides.charts/ichartseries并返回整个中第一次出现的从零开始的索引集合
+description: 搜索指定的IChartSeriesaspose.slides.charts/ichartseries并返回整个 Collection 中第一次出现的从零开始的索引
 type: docs
 weight: 40
 url: /zh/net/aspose.slides.charts/ichartseriescollection/indexof/
 ---
 ## IChartSeriesCollection.IndexOf method
 
-搜索指定的[`IChartSeries`](../../ichartseries)并返回整个中第一次出现的从零开始的索引集合
+搜索指定的[`IChartSeries`](../../ichartseries)并返回整个 Collection 中第一次出现的从零开始的索引
 
 ```csharp
 public int IndexOf(IChartSeries value)

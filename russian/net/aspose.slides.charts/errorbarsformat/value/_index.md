@@ -1,14 +1,14 @@
 ---
 title: Value
 second_title: Справочник по API Aspose.Slides для .NET
-description: Получает или задает значение которое используется с типами значений Fixed Percentage и StandardDeviation для определения длины полос ошибок. В любом другом случае вернет NaN. Чтение/записьSingle.
+description: Получает или задает значение которое используется с типами значений Fixed Percentage и StandardDeviation для определения длины полос ошибок. В любом другом случае вернет NaN. Чтение/записьSingle .
 type: docs
 weight: 60
 url: /ru/net/aspose.slides.charts/errorbarsformat/value/
 ---
 ## ErrorBarsFormat.Value property
 
-Получает или задает значение, которое используется с типами значений Fixed, Percentage и StandardDeviation для определения длины полос ошибок. В любом другом случае вернет NaN. Чтение/записьSingle.
+Получает или задает значение, которое используется с типами значений Fixed, Percentage и StandardDeviation для определения длины полос ошибок. В любом другом случае вернет NaN. Чтение/записьSingle .
 
 ```csharp
 public float Value { get; set; }

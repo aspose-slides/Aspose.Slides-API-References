@@ -1,14 +1,14 @@
 ---
 title: InsertAutoShape
 second_title: Справочник по API Aspose.Slides для .NET
-description: Создает новую автофигуру настраивает ее из шаблона по умолчанию и вставляет в коллекцию по указанному индексу. Примечаниетип фигуры будет определяться параметром shapeType.
+description: Создает новую автофигуру настраивает ее из шаблона по умолчанию и вставляет в коллекцию по указанному индексу. Примечание тип фигуры будет определяться параметром shapeType.
 type: docs
 weight: 250
 url: /ru/net/aspose.slides/ishapecollection/insertautoshape/
 ---
 ## InsertAutoShape(int, ShapeType, float, float, float, float) {#insertautoshape}
 
-Создает новую автофигуру, настраивает ее из шаблона по умолчанию и вставляет в коллекцию по указанному индексу. Примечание:тип фигуры будет определяться параметром shapeType.
+Создает новую автофигуру, настраивает ее из шаблона по умолчанию и вставляет в коллекцию по указанному индексу. Примечание: тип фигуры будет определяться параметром shapeType.
 
 ```csharp
 public IAutoShape InsertAutoShape(int index, ShapeType shapeType, float x, float y, float width, 
@@ -17,16 +17,16 @@ public IAutoShape InsertAutoShape(int index, ShapeType shapeType, float x, float
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Отсчитываемый от нуля индекс, в который следует вставить значение. |
-| shapeType | ShapeType | [`ShapeType`](../../shapetype)формы. |
-| x | Single | X-координата левой стороны рамки фигуры. |
-| y | Single | Y-координата верхней стороны рамки фигуры. |
+| index | Int32 | Отсчитываемый от нуля индекс, по которому должно быть вставлено значение. |
+| shapeType | ShapeType | Ан[`ShapeType`](../../shapetype) формы. |
+| x | Single | Координата X для левой стороны рамки фигуры. |
+| y | Single | Координата Y верхней стороны рамки фигуры. |
 | width | Single | Ширина рамки фигуры. |
 | height | Single | Высота рамки фигуры. |
 
 ### Возвращаемое значение
 
-Создан объект AutoShape.
+Создан объект автофигуры.
 
 ### Смотрите также
 
@@ -40,7 +40,7 @@ public IAutoShape InsertAutoShape(int index, ShapeType shapeType, float x, float
 
 ## InsertAutoShape(int, ShapeType, float, float, float, float, bool) {#insertautoshape_1}
 
-Создает новую автофигуру и вставляет ее в коллекцию по указанному индексу. Примечание:тип фигуры будет определяться параметром shapeType.
+Создает новую автофигуру и вставляет ее в коллекцию по указанному индексу. Примечание: тип фигуры будет определяться параметром shapeType.
 
 ```csharp
 public IAutoShape InsertAutoShape(int index, ShapeType shapeType, float x, float y, float width, 
@@ -49,17 +49,17 @@ public IAutoShape InsertAutoShape(int index, ShapeType shapeType, float x, float
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Отсчитываемый от нуля индекс, в который следует вставить значение. |
-| shapeType | ShapeType | [`ShapeType`](../../shapetype)формы. |
-| x | Single | X-координата левой стороны рамки фигуры. |
-| y | Single | Y-координата верхней стороны рамки фигуры. |
+| index | Int32 | Отсчитываемый от нуля индекс, по которому должно быть вставлено значение. |
+| shapeType | ShapeType | Ан[`ShapeType`](../../shapetype) формы. |
+| x | Single | Координата X для левой стороны рамки фигуры. |
+| y | Single | Координата Y верхней стороны рамки фигуры. |
 | width | Single | Ширина рамки фигуры. |
 | height | Single | Высота рамки фигуры. |
 | createFromTemplate | Boolean | Если true, то новая форма будет настроена из шаблона по умолчанию. Непустое имя, простой стиль, текст по центру будет присвоен новой форме. Если false, то все значения свойств новой формы будут иметь значения по умолчанию. |
 
 ### Возвращаемое значение
 
-Создан объект AutoShape.
+Создан объект автофигуры.
 
 ### Смотрите также
 

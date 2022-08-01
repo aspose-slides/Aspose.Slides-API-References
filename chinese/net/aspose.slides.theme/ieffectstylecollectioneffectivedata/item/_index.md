@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Slides for .NET API 参考
-description: 获取指定索引处的元素 只读IEffectStyleEffectiveDataaspose.slides.theme/ieffectstyleeffectivedata
+description: 获取指定索引处的元素 只读IEffectStyleEffectiveDataaspose.slides.theme/ieffectstyleeffectivedata.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides.theme/ieffectstylecollectioneffectivedata/item/
 ---
 ## IEffectStyleCollectionEffectiveData indexer
 
-获取指定索引处的元素。 只读[`IEffectStyleEffectiveData`](../../ieffectstyleeffectivedata)。
+获取指定索引处的元素。 只读[`IEffectStyleEffectiveData`](../../ieffectstyleeffectivedata).
 
 ```csharp
 public IEffectStyleEffectiveData this[int index] { get; }

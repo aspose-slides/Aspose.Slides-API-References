@@ -1,14 +1,14 @@
 ---
 title: PathEditMode
 second_title: Справочник по API Aspose.Slides для .NET
-description: Указывает как перемещается траектория движения при перемещении фигуры. Чтение/записьMotionPathEditModeaspose.slides.animation/motionpatheditmode.
+description: Указывает как перемещается траектория движения при перемещении фигуры. Чтение/записьMotionPathEditModeaspose.slides.animation/motionpatheditmode .
 type: docs
 weight: 70
 url: /ru/net/aspose.slides.animation/imotioneffect/patheditmode/
 ---
 ## IMotionEffect.PathEditMode property
 
-Указывает, как перемещается траектория движения при перемещении фигуры. Чтение/запись[`MotionPathEditMode`](../../motionpatheditmode).
+Указывает, как перемещается траектория движения при перемещении фигуры. Чтение/запись[`MotionPathEditMode`](../../motionpatheditmode) .
 
 ```csharp
 public MotionPathEditMode PathEditMode { get; set; }

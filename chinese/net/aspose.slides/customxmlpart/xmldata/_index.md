@@ -1,14 +1,14 @@
 ---
 title: XmlData
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置 xml 数据 读/写Byte  值为 null  值为空或 xml 数据无效
+description: 返回或设置 xml 数据 读/写Byte. 值为无效的.值为空或 xml-data 无效
 type: docs
 weight: 40
 url: /zh/net/aspose.slides/customxmlpart/xmldata/
 ---
 ## CustomXmlPart.XmlData property
 
-返回或设置 xml 数据。 读/写Byte[]。  值为` null` 。 值为空或 xml 数据无效。
+返回或设置 xml 数据。 读/写Byte[]. 值为`无效的`.值为空或 xml-data 无效。
 
 ```csharp
 public byte[] XmlData { get; set; }

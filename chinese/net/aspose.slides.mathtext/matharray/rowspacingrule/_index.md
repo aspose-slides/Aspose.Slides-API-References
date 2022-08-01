@@ -8,7 +8,7 @@ url: /zh/net/aspose.slides.mathtext/matharray/rowspacingrule/
 ---
 ## MathArray.RowSpacingRule property
 
-数组元素之间的垂直间距类型 默认值:SingleLineGap
+数组元素之间的垂直间距类型 默认值：SingleLineGap
 
 ```csharp
 public MathRowSpacingRule RowSpacingRule { get; set; }
@@ -16,7 +16,7 @@ public MathRowSpacingRule RowSpacingRule { get; set; }
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]

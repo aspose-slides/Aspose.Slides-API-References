@@ -16,7 +16,7 @@ public IAlphaReplaceEffectiveData GetEffective()
 
 ### 返回值
 
-A[`IAlphaReplaceEffectiveData`](../../ialphareplaceeffectivedata)。
+一个[`IAlphaReplaceEffectiveData`](../../ialphareplaceeffectivedata).
 
 ### 也可以看看
 

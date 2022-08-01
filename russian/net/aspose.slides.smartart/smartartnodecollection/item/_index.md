@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает узел по индексу
+description: Возвращает узел по index
 type: docs
 weight: 30
 url: /ru/net/aspose.slides.smartart/smartartnodecollection/item/
 ---
 ## SmartArtNodeCollection indexer
 
-Возвращает узел по индексу
+Возвращает узел по index
 
 ```csharp
 public ISmartArtNode this[int index] { get; }
@@ -16,7 +16,7 @@ public ISmartArtNode this[int index] { get; }
 
 | Параметр | Описание |
 | --- | --- |
-| index | Отсчитываемый от нуля индекс элемент |
+| index | Отсчитываемый от нуля индекс элемента |
 
 ### Возвращаемое значение
 

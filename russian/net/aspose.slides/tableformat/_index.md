@@ -18,13 +18,13 @@ public class TableFormat : DomObject<Table>, ITableFormat
 
 | Имя | Описание |
 | --- | --- |
-| [FillFormat](../../aspose.slides/tableformat/fillformat) { get; } | Возвращает объект свойств заполнения таблицы. Только для чтения[`IFillFormat`](../ifillformat). |
+| [FillFormat](../../aspose.slides/tableformat/fillformat) { get; } | Возвращает объект свойств заполнения таблицы. Только для чтения[`IFillFormat`](../ifillformat) . |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [GetEffective](../../aspose.slides/tableformat/geteffective)() | Получает эффективные свойства форматирования таблицы с применением стилей наследования и таблиц. |
+| [GetEffective](../../aspose.slides/tableformat/geteffective)() | Получает эффективные свойства форматирования таблицы с применением наследования и стилей таблицы. |
 
 ### Смотрите также
 

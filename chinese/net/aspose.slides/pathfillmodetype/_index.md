@@ -19,11 +19,11 @@ public enum PathFillModeType : byte
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | None | `0` | No Path Fill 这指定相应的路径应该没有填充。 |
-| Normal | `1` | 正常路径填充 这指定相应的路径应该有一个正常的阴影颜色应用于它的填充。 |
+| Normal | `1` | 正常路径填充 这指定相应的路径应该有一个正常的阴影颜色应用到它的填充。 |
 | Lighten | `2` | Lighten Path Fill 这指定相应的路径应该有一个浅色阴影应用于它的填充。 |
-| LightenLess | `3` | Lighten Path Fill Less 这指定了相应的路径应该有一个稍微浅一点的阴影颜色应用于它的填充。 |
-| Darken | `4` | Darken Path Fill 这指定相应的路径应该有一个更深的阴影颜色应用于它的填充。 |
-| DarkenLess | `5` | Darken Path Fill Less 这指定相应的路径应该有一个稍微深一点的阴影颜色应用于它的填充。 |
+| LightenLess | `3` | Lighten Path Fill Less 这指定相应的路径应该有一个稍微更亮的阴影颜色应用于它的填充。 |
+| Darken | `4` | 变暗路径填充 这指定相应的路径应该有一个更深的阴影颜色应用于它的填充。 |
+| DarkenLess | `5` | 变暗路径填充 Less 这指定相应的路径应该有一个稍微深一点的阴影颜色应用于它的填充。 |
 
 ### 也可以看看
 

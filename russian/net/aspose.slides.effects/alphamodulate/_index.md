@@ -1,14 +1,14 @@
 ---
 title: AlphaModulate
 second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет эффект альфа-модуляции. Значения альфа-канала эффекта непрозрачности умножаются на фиксированный процент. Контейнер эффекта определяет эффект содержащий альфа-значения для модуляции.
+description: Представляет эффект альфа-модуляции. Значения альфа-канала непрозрачности эффекта умножаются на фиксированный процент. Контейнер эффекта определяет эффект содержащий альфа-значения для модуляции.
 type: docs
 weight: 2710
 url: /ru/net/aspose.slides.effects/alphamodulate/
 ---
 ## AlphaModulate class
 
-Представляет эффект альфа-модуляции. Значения альфа-канала эффекта (непрозрачности) умножаются на фиксированный процент. Контейнер эффекта определяет эффект, содержащий альфа-значения для модуляции.
+Представляет эффект альфа-модуляции. Значения альфа-канала (непрозрачности) эффекта умножаются на фиксированный процент. Контейнер эффекта определяет эффект, содержащий альфа-значения для модуляции.
 
 ```csharp
 public class AlphaModulate : ImageTransformOperation, IAlphaModulate
@@ -18,15 +18,15 @@ public class AlphaModulate : ImageTransformOperation, IAlphaModulate
 
 | Имя | Описание |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Позволяет получить базовый интерфейс IPresentationComponent. Только для чтения[`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Позволяет получить базовый интерфейс IPresentationComponent. Только для чтения[`IPresentationComponent`](../../aspose.slides/ipresentationcomponent) . |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/alphamodulate/equals)(object) | Определяет, равен ли указанный[`AlphaModulate`](../alphamodulate)текущемуAlphaModulate. |
-| [GetEffective](../../aspose.slides.effects/alphamodulate/geteffective)() | Получает эффективные данные эффекта альфа-модуляции с применением наследования. |
-| override [GetHashCode](../../aspose.slides.effects/alphamodulate/gethashcode)() | Служит хэш-функцией для определенного типа. |
+| override [Equals](../../aspose.slides.effects/alphamodulate/equals)(object) | Определяет, является ли указанный[`AlphaModulate`](../alphamodulate) равен текущему[`AlphaModulate`](../alphamodulate) . |
+| [GetEffective](../../aspose.slides.effects/alphamodulate/geteffective)() | Получает данные об эффективном эффекте альфа-модуляции с применением наследования. |
+| override [GetHashCode](../../aspose.slides.effects/alphamodulate/gethashcode)() | Служит хеш-функцией для определенного типа. |
 
 ### Смотрите также
 

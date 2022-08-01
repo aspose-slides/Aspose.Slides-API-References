@@ -1,14 +1,14 @@
 ---
 title: Insert
 second_title: Справочник по API Aspose.Slides для .NET
-description: Вставить новую команду в путь
+description: Вставить новую команду в path
 type: docs
 weight: 70
 url: /ru/net/aspose.slides.animation/motionpath/insert/
 ---
 ## MotionPath.Insert method
 
-Вставить новую команду в путь
+Вставить новую команду в path
 
 ```csharp
 public void Insert(int index, MotionCommandPathType type, PointF[] pts, 

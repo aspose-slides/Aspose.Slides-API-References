@@ -1,14 +1,14 @@
 ---
 title: LineFillFormat
 second_title: Aspose.Slides for .NET API 参考
-description: 表示行填充的属性
+description: 表示线条填充的属性
 type: docs
 weight: 7080
 url: /zh/net/aspose.slides/linefillformat/
 ---
 ## LineFillFormat class
 
-表示行填充的属性。
+表示线条填充的属性。
 
 ```csharp
 public class LineFillFormat : PVIObject, ILineFillFormat
@@ -18,12 +18,12 @@ public class LineFillFormat : PVIObject, ILineFillFormat
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允许获取基本 IPresentationComponent 接口。 只读[`IPresentationComponent`](../ipresentationcomponent)。 |
-| [FillType](../../aspose.slides/linefillformat/filltype) { get; set; } | 返回或设置填充类型。 读/写[`FillType`](../filltype)。 |
-| [GradientFormat](../../aspose.slides/linefillformat/gradientformat) { get; } | 返回渐变填充格式。 只读[`IGradientFormat`](../igradientformat)。 |
-| [PatternFormat](../../aspose.slides/linefillformat/patternformat) { get; } | 返回图案填充格式。 只读[`IPatternFormat`](../ipatternformat)。 |
-| [RotateWithShape](../../aspose.slides/linefillformat/rotatewithshape) { get; set; } | 确定填充是否应随形状旋转。 读/写[`NullableBool`](../nullablebool)。 |
-| [SolidFillColor](../../aspose.slides/linefillformat/solidfillcolor) { get; } | 返回实心填充的颜色。 只读[`IColorFormat`](../icolorformat)。 |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允许获取基本 IPresentationComponent 接口。 只读[`IPresentationComponent`](../ipresentationcomponent). |
+| [FillType](../../aspose.slides/linefillformat/filltype) { get; set; } | 返回或设置填充类型。 读/写[`FillType`](../filltype). |
+| [GradientFormat](../../aspose.slides/linefillformat/gradientformat) { get; } | 返回渐变填充格式。 只读[`IGradientFormat`](../igradientformat). |
+| [PatternFormat](../../aspose.slides/linefillformat/patternformat) { get; } | 返回图案填充格式。 只读[`IPatternFormat`](../ipatternformat). |
+| [RotateWithShape](../../aspose.slides/linefillformat/rotatewithshape) { get; set; } | 确定是否应使用形状旋转填充。 读/写[`NullableBool`](../nullablebool). |
+| [SolidFillColor](../../aspose.slides/linefillformat/solidfillcolor) { get; } | 返回实心填充的颜色。 只读[`IColorFormat`](../icolorformat). |
 
 ## 方法
 

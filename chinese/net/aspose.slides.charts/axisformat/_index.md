@@ -18,9 +18,9 @@ public class AxisFormat : DomObject<Axis>, IAxisFormat
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Effect](../../aspose.slides.charts/axisformat/effect) { get; } | 返回用于轴的效果。 只读[`IEffectFormat`](../../aspose.slides/ieffectformat)。 |
-| [Fill](../../aspose.slides.charts/axisformat/fill) { get; } | 返回轴的填充样式属性。 只读[`IFillFormat`](../../aspose.slides/ifillformat)。 |
-| [Line](../../aspose.slides.charts/axisformat/line) { get; } | 返回轴的线型属性。 只读[`ILineFormat`](../../aspose.slides/ilineformat)。 |
+| [Effect](../../aspose.slides.charts/axisformat/effect) { get; } | 返回用于轴的效果。 只读[`IEffectFormat`](../../aspose.slides/ieffectformat). |
+| [Fill](../../aspose.slides.charts/axisformat/fill) { get; } | 返回轴的填充样式属性。 只读[`IFillFormat`](../../aspose.slides/ifillformat). |
+| [Line](../../aspose.slides.charts/axisformat/line) { get; } | 返回轴的线型属性。 只读[`ILineFormat`](../../aspose.slides/ilineformat). |
 
 ### 也可以看看
 

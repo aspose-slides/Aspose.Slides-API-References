@@ -1,14 +1,14 @@
 ---
 title: AddClone
 second_title: Aspose.Slides for .NET API 参考
-description: 将指定布局幻灯片的副本添加到演示文稿
+description: 将指定布局幻灯片的副本添加到演示文稿中
 type: docs
 weight: 30
 url: /zh/net/aspose.slides/igloballayoutslidecollection/addclone/
 ---
 ## AddClone(ILayoutSlide) {#addclone}
 
-将指定布局幻灯片的副本添加到演示文稿。
+将指定布局幻灯片的副本添加到演示文稿中。
 
 ```csharp
 public ILayoutSlide AddClone(ILayoutSlide sourceLayout)
@@ -20,11 +20,11 @@ public ILayoutSlide AddClone(ILayoutSlide sourceLayout)
 
 ### 返回值
 
-添加幻灯片。
+添加了幻灯片。
 
 ### 评论
 
-在不同的演示文稿之间克隆布局时，也可以克隆布局的母版 以保持源格式。 内部注册表用于跟踪自动克隆的母版，以防止创建 同一母版幻灯片的多个克隆。 不会阻止或注册手动克隆母版幻灯片。
+在不同演示文稿之间克隆布局时，也可以克隆布局的母版 以保持源格式。 内部注册表用于跟踪自动克隆的母版，以防止创建 同一母版幻灯片的多个克隆。 将手动克隆母版幻灯片既没有阻止也没有注册。
 
 ### 也可以看看
 
@@ -37,7 +37,7 @@ public ILayoutSlide AddClone(ILayoutSlide sourceLayout)
 
 ## AddClone(ILayoutSlide, IMasterSlide) {#addclone_1}
 
-将指定布局幻灯片的副本添加到演示文稿。
+将指定布局幻灯片的副本添加到演示文稿中。
 
 ```csharp
 public ILayoutSlide AddClone(ILayoutSlide sourceLayout, IMasterSlide destMaster)
@@ -50,11 +50,11 @@ public ILayoutSlide AddClone(ILayoutSlide sourceLayout, IMasterSlide destMaster)
 
 ### 返回值
 
-添加幻灯片。
+添加了幻灯片。
 
 ### 评论
 
-新布局将与目标演示中定义的主文件链接。 所以这类似于 PowerPoint 中带有“使用目标主题”选项的复制/粘贴。
+新布局将与目标演示文稿中定义的母版链接。 因此，这类似于 PowerPoint 中“使用目标主题”选项的复制/粘贴。
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: FontColor
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает цвет шрифта фигуры. Только для чтенияIColorFormataspose.slides/icolorformat.
+description: Возвращает цвет шрифта фигуры. Только для чтенияIColorFormataspose.slides/icolorformat .
 type: docs
 weight: 60
 url: /ru/net/aspose.slides/shapestyle/fontcolor/
 ---
 ## ShapeStyle.FontColor property
 
-Возвращает цвет шрифта фигуры. Только для чтения[`IColorFormat`](../../icolorformat).
+Возвращает цвет шрифта фигуры. Только для чтения[`IColorFormat`](../../icolorformat) .
 
 ```csharp
 public IColorFormat FontColor { get; }

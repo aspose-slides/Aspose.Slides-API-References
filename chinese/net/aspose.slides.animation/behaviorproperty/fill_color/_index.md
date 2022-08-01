@@ -1,14 +1,14 @@
 ---
 title: Fill_Color
 second_title: Aspose.Slides for .NET API 参考
-description: 表示fill.color属性
+description: 表示fill.color 属性
 type: docs
 weight: 400
 url: /zh/net/aspose.slides.animation/behaviorproperty/fill_color/
 ---
 ## BehaviorProperty.Fill_Color property
 
-表示'fill.color'属性
+表示'fill.color' 属性
 
 ```csharp
 public static BehaviorProperty Fill_Color { get; }

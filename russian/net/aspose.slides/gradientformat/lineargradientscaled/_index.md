@@ -1,14 +1,14 @@
 ---
 title: LinearGradientScaled
 second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет масштабируется ли градиент. Чтение/записьNullableBoolaspose.slides/nullablebool.
+description: Определяет масштабируется ли градиент. Чтение/записьNullableBoolaspose.slides/nullablebool .
 type: docs
 weight: 50
 url: /ru/net/aspose.slides/gradientformat/lineargradientscaled/
 ---
 ## GradientFormat.LinearGradientScaled property
 
-Определяет, масштабируется ли градиент. Чтение/запись[`NullableBool`](../../nullablebool).
+Определяет, масштабируется ли градиент. Чтение/запись[`NullableBool`](../../nullablebool) .
 
 ```csharp
 public NullableBool LinearGradientScaled { get; set; }

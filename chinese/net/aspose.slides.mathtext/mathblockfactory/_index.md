@@ -24,13 +24,13 @@ public class MathBlockFactory : IMathBlockFactory
 
 | 姓名 | 描述 |
 | --- | --- |
-| [CreateMathBlock](../../aspose.slides.mathtext/mathblockfactory/createmathblock#createmathblock)() | 创建数学块 |
+| [CreateMathBlock](../../aspose.slides.mathtext/mathblockfactory/createmathblock#createmathblock)() | 创建一个数学块 |
 | [CreateMathBlock](../../aspose.slides.mathtext/mathblockfactory/createmathblock#createmathblock_1)(IMathElement) | 创建一个数学块并将元素放入其中 |
 | [CreateMathBlock](../../aspose.slides.mathtext/mathblockfactory/createmathblock#createmathblock_2)(IMathElementCollection) | 创建一个数学块并在其中放置元素 |
 
 ### 评论
 
-用于 COM 比较
+用于 COM 可比性
 
 ### 也可以看看
 

@@ -18,13 +18,13 @@ public class InOutTransition : TransitionValueBase, IInOutTransition
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Direction](../../aspose.slides.slideshow/inouttransition/direction) { get; set; } | 过渡效果的方向。 读/写[`TransitionInOutDirectionType`](../transitioninoutdirectiontype)。 |
+| [Direction](../../aspose.slides.slideshow/inouttransition/direction) { get; set; } | 过渡效果的方向。 读/写[`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | 判断两个 TransitionValueBase 实例是否相等。 |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | 判断两个TransitionValueBase实例是否相等。 |
 | override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | 用作特定类型的哈希函数，适合在哈希算法和哈希表等数据结构中使用 。 |
 
 ### 也可以看看

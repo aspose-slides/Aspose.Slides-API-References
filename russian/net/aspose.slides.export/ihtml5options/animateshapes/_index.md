@@ -1,14 +1,14 @@
 ---
 title: AnimateShapes
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или устанавливает параметры анимации фигур. Чтение/записьBoolean.
+description: Возвращает или задает параметр анимации фигур. Чтение/записьBoolean .
 type: docs
 weight: 10
 url: /ru/net/aspose.slides.export/ihtml5options/animateshapes/
 ---
 ## IHtml5Options.AnimateShapes property
 
-Возвращает или устанавливает параметры анимации фигур. Чтение/записьBoolean.
+Возвращает или задает параметр анимации фигур. Чтение/записьBoolean .
 
 ```csharp
 public bool AnimateShapes { get; set; }

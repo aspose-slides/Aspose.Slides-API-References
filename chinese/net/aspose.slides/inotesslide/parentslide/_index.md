@@ -1,14 +1,14 @@
 ---
 title: ParentSlide
 second_title: Aspose.Slides for .NET API 参考
-description: 返回 ParentSlide 只读ISlideaspose.slides/islide
+description: 返回一个 ParentSlide 只读ISlideaspose.slides/islide.
 type: docs
 weight: 50
 url: /zh/net/aspose.slides/inotesslide/parentslide/
 ---
 ## INotesSlide.ParentSlide property
 
-返回 ParentSlide 只读[`ISlide`](../../islide)。
+返回一个 ParentSlide 只读[`ISlide`](../../islide).
 
 ```csharp
 public ISlide ParentSlide { get; }

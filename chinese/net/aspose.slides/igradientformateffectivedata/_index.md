@@ -18,17 +18,17 @@ public interface IGradientFormatEffectiveData : IFillParamSource
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsIFillParamSource](../../aspose.slides/igradientformateffectivedata/asifillparamsource) { get; } | 允许获取基本的 IFillParamSource 接口。 只读[`IFillParamSource`](../ifillparamsource)。 |
-| [GradientDirection](../../aspose.slides/igradientformateffectivedata/gradientdirection) { get; } | 返回渐变的样式。 只读[`GradientDirection`](../gradientdirection)。 |
-| [GradientShape](../../aspose.slides/igradientformateffectivedata/gradientshape) { get; } | 返回渐变的形状。 只读[`GradientShape`](../gradientshape)。 |
-| [GradientStops](../../aspose.slides/igradientformateffectivedata/gradientstops) { get; } | 返回梯度停止点的集合。 只读[`IGradientStopCollectionEffectiveData`](../igradientstopcollectioneffectivedata)。 |
-| [LinearGradientAngle](../../aspose.slides/igradientformateffectivedata/lineargradientangle) { get; } | 返回渐变的角度。 只读Single。 |
-| [LinearGradientScaled](../../aspose.slides/igradientformateffectivedata/lineargradientscaled) { get; } | 确定渐变是否被缩放。 只读Boolean。 |
-| [TileFlip](../../aspose.slides/igradientformateffectivedata/tileflip) { get; } | 返回渐变的翻转模式。 只读[`TileFlip`](../tileflip)。 |
+| [AsIFillParamSource](../../aspose.slides/igradientformateffectivedata/asifillparamsource) { get; } | 允许获取基本的 IFillParamSource 接口。 只读[`IFillParamSource`](../ifillparamsource). |
+| [GradientDirection](../../aspose.slides/igradientformateffectivedata/gradientdirection) { get; } | 返回渐变的样式。 只读[`GradientDirection`](../gradientdirection). |
+| [GradientShape](../../aspose.slides/igradientformateffectivedata/gradientshape) { get; } | 返回渐变的形状。 只读[`GradientShape`](../gradientshape). |
+| [GradientStops](../../aspose.slides/igradientformateffectivedata/gradientstops) { get; } | 返回梯度停止点的集合。 只读[`IGradientStopCollectionEffectiveData`](../igradientstopcollectioneffectivedata). |
+| [LinearGradientAngle](../../aspose.slides/igradientformateffectivedata/lineargradientangle) { get; } | 返回渐变的角度。 只读Single. |
+| [LinearGradientScaled](../../aspose.slides/igradientformateffectivedata/lineargradientscaled) { get; } | 确定是否缩放渐变。 只读Boolean. |
+| [TileFlip](../../aspose.slides/igradientformateffectivedata/tileflip) { get; } | 返回渐变的翻转模式。 只读[`TileFlip`](../tileflip). |
 
 ### 评论
 
-此接口用作IFillFormatEffectiveData的一部分和[`ILineFillFormatEffectiveData`](../ilinefillformateffectivedata)。
+该接口用作[`IFillFormatEffectiveData`](../ifillformateffectivedata)和[`ILineFillFormatEffectiveData`](../ilinefillformateffectivedata).
 
 ### 也可以看看
 

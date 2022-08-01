@@ -1,14 +1,14 @@
 ---
 title: TextAnimation
 second_title: Aspose.Slides for .NET API 参考
-description: 返回文本动画 只读ITextAnimationaspose.slides.animation/itextanimation
+description: 返回文本动画 只读ITextAnimationaspose.slides.animation/itextanimation.
 type: docs
 weight: 60
 url: /zh/net/aspose.slides.animation/ieffect/textanimation/
 ---
 ## IEffect.TextAnimation property
 
-返回文本动画。 只读[`ITextAnimation`](../../itextanimation)。
+返回文本动画。 只读[`ITextAnimation`](../../itextanimation).
 
 ```csharp
 public ITextAnimation TextAnimation { get; }

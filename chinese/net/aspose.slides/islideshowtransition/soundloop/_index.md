@@ -1,14 +1,14 @@
 ---
 title: SoundLoop
 second_title: Aspose.Slides for .NET API 参考
-description: 此属性指定声音是否会循环播放直到在 幻灯片中发生下一个声音事件 读写Boolean
+description: 此属性指定声音是否循环播放直到下一个声音事件发生在 幻灯片中 读写Boolean.
 type: docs
 weight: 50
 url: /zh/net/aspose.slides/islideshowtransition/soundloop/
 ---
 ## ISlideShowTransition.SoundLoop property
 
-此属性指定声音是否会循环播放，直到在 幻灯片中发生下一个声音事件。 读写Boolean。
+此属性指定声音是否循环播放直到下一个声音事件发生在 幻灯片中。 读写Boolean.
 
 ```csharp
 public bool SoundLoop { get; set; }

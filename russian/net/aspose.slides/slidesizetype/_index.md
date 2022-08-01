@@ -1,14 +1,14 @@
 ---
 title: SlideSizeType
 second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет предустановку размера слайда.
+description: Представляет заданный размер слайда.
 type: docs
 weight: 9720
 url: /ru/net/aspose.slides/slidesizetype/
 ---
 ## SlideSizeType enumeration
 
-Представляет предустановку размера слайда.
+Представляет заданный размер слайда.
 
 ```csharp
 public enum SlideSizeType
@@ -21,17 +21,17 @@ public enum SlideSizeType
 | OnScreen | `0` | На экране 4x3 |
 | LetterPaper | `1` | Письмо |
 | A4Paper | `2` | A4 |
-| Slide35mm | `3` | Слайд 35мм |
+| Slide35mm | `3` | Слайд 35 мм |
 | Overhead | `4` | Накладные расходы |
 | Banner | `5` | Баннер |
 | Custom | `6` | Пользовательский размер |
-| Ledger | `7` | Бухгалтерская книга |
+| Ledger | `7` | Леджер |
 | A3Paper | `8` | A3 |
 | B4IsoPaper | `9` | B4 ISO |
 | B5IsoPaper | `10` | B5 ISO |
 | B4JisPaper | `11` | B4 JIS |
 | B5JisPaper | `12` | B5 JIS |
-| HagakiCard | `13` | Карта Хагаки |
+| HagakiCard | `13` | Карточка Хагаки |
 | OnScreen16x9 | `14` | На экране 16x9 |
 | OnScreen16x10 | `15` | На экране 16x10 |
 | Widescreen | `16` | Широкоэкранный |

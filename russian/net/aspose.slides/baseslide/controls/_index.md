@@ -1,14 +1,14 @@
 ---
 title: Controls
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает набор элементов управления ActiveX на слайде. Только для чтенияIControlCollectionaspose.slides/icontrolcollection.
+description: Возвращает коллекцию элементов управления ActiveX на слайде. Только для чтенияIControlCollectionaspose.slides/icontrolcollection .
 type: docs
 weight: 20
 url: /ru/net/aspose.slides/baseslide/controls/
 ---
 ## BaseSlide.Controls property
 
-Возвращает набор элементов управления ActiveX на слайде. Только для чтения[`IControlCollection`](../../icontrolcollection).
+Возвращает коллекцию элементов управления ActiveX на слайде. Только для чтения[`IControlCollection`](../../icontrolcollection) .
 
 ```csharp
 public IControlCollection Controls { get; }

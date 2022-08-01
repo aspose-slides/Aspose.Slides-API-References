@@ -1,14 +1,14 @@
 ---
 title: ReturnToParent
 second_title: Справочник по API Aspose.Slides для .NET
-description: Получает или задает поведение навигации в слайд-шоу. Чтение/записьBoolean. Значение по умолчаниюfalse
+description: Получает или задает поведение навигации в слайд-шоу. Чтение/записьBoolean . Значение по умолчанию false
 type: docs
 weight: 30
 url: /ru/net/aspose.slides/zoomobject/returntoparent/
 ---
 ## ZoomObject.ReturnToParent property
 
-Получает или задает поведение навигации в слайд-шоу. Чтение/записьBoolean. Значение по умолчанию:false
+Получает или задает поведение навигации в слайд-шоу. Чтение/записьBoolean . Значение по умолчанию: false
 
 ```csharp
 public bool ReturnToParent { get; set; }
@@ -16,7 +16,7 @@ public bool ReturnToParent { get; set; }
 
 ### Примечания
 
-Истинное значение свойства указывает возврат к родителю поведение навигации в слайд-шоу.
+Истинное значение свойства определяет возврат к родительскому поведению навигации в слайд-шоу.
 
 ### Примеры
 

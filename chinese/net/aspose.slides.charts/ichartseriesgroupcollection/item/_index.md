@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Slides for .NET API 参考
-description: 按系列获取系列
+description: 按系列获取系列组
 type: docs
 weight: 10
 url: /zh/net/aspose.slides.charts/ichartseriesgroupcollection/item/
 ---
 ## IChartSeriesGroupCollection indexer (1 of 2)
 
-按系列获取系列。
+按系列获取系列组。
 
 ```csharp
 public IChartSeriesGroup this[IChartSeries ofSeries] { get; }

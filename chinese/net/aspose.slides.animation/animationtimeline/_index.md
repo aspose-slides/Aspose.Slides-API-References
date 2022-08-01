@@ -18,9 +18,9 @@ public class AnimationTimeLine : DomObject<BaseSlide>, IAnimationTimeLine
 
 | 姓名 | 描述 |
 | --- | --- |
-| [InteractiveSequences](../../aspose.slides.animation/animationtimeline/interactivesequences) { get; } | 返回交互序列的集合。 此序列可能仅包含“单击形状”并指定目标形状的效果。 只读[`ISequenceCollection`](../isequencecollection)。 |
-| [MainSequence](../../aspose.slides.animation/animationtimeline/mainsequence) { get; } | 返回可能仅包含主效果集合的主序列。 只读[`ISequence`](../isequence)。 |
-| [TextAnimationCollection](../../aspose.slides.animation/animationtimeline/textanimationcollection) { get; } | 返回文本动画的集合。 只读[`ITextAnimationCollection`](../itextanimationcollection)。 |
+| [InteractiveSequences](../../aspose.slides.animation/animationtimeline/interactivesequences) { get; } | 返回交互式序列的集合。 此序列可能仅包含“单击形状”并指定目标形状的效果。 只读[`ISequenceCollection`](../isequencecollection). |
+| [MainSequence](../../aspose.slides.animation/animationtimeline/mainsequence) { get; } | 返回可能仅包含主要效果集合的主序列。 只读[`ISequence`](../isequence). |
+| [TextAnimationCollection](../../aspose.slides.animation/animationtimeline/textanimationcollection) { get; } | 返回文本动画的集合。 只读[`ITextAnimationCollection`](../itextanimationcollection). |
 
 ### 也可以看看
 

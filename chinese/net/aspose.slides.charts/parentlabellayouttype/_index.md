@@ -18,7 +18,7 @@ public enum ParentLabelLayoutType
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Banner | `0` | 指定父类别标签显示为横幅 |
+| Banner | `0` | 指定父类别标签显示为banner |
 | None | `1` | 指定不绘制父类别标签 |
 | Overlapping | `2` | 指定父类别标签显示为重叠 |
 

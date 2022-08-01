@@ -1,14 +1,14 @@
 ---
 title: PlayMode
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или устанавливает режим воспроизведения звука. Чтение/записьAudioPlayModePresetaspose.slides/audioplaymodepreset.
+description: Возвращает или устанавливает режим воспроизведения аудио. Чтение/записьAudioPlayModePresetaspose.slides/audioplaymodepreset .
 type: docs
 weight: 120
 url: /ru/net/aspose.slides/iaudioframe/playmode/
 ---
 ## IAudioFrame.PlayMode property
 
-Возвращает или устанавливает режим воспроизведения звука. Чтение/запись[`AudioPlayModePreset`](../../audioplaymodepreset).
+Возвращает или устанавливает режим воспроизведения аудио. Чтение/запись[`AudioPlayModePreset`](../../audioplaymodepreset) .
 
 ```csharp
 public AudioPlayModePreset PlayMode { get; set; }

@@ -22,7 +22,7 @@ public void RemoveAt(int index)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentOutOfRangeException | 索引小于 0 或索引等于或大于计数 |
+| ArgumentOutOfRangeException | 索引小于 0 或索引等于或大于 Count |
 | [PptxEditException](../../pptxeditexception) | 如果评论已被删除，则抛出。 |
 
 ### 也可以看看

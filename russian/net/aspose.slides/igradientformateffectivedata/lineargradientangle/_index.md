@@ -1,14 +1,14 @@
 ---
 title: LinearGradientAngle
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает угол градиента. Только для чтенияSingle.
+description: Возвращает угол градиента. Только для чтенияSingle .
 type: docs
 weight: 50
 url: /ru/net/aspose.slides/igradientformateffectivedata/lineargradientangle/
 ---
 ## IGradientFormatEffectiveData.LinearGradientAngle property
 
-Возвращает угол градиента. Только для чтенияSingle.
+Возвращает угол градиента. Только для чтенияSingle .
 
 ```csharp
 public float LinearGradientAngle { get; }

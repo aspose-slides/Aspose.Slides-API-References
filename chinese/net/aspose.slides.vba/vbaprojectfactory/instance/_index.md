@@ -1,14 +1,14 @@
 ---
 title: Instance
 second_title: Aspose.Slides for .NET API 参考
-description: VBA 项目工厂静态实例 只读VbaProjectFactoryaspose.slides.vba/vbaprojectfactory
+description: VBA 工程工厂静态实例 只读VbaProjectFactoryaspose.slides.vba/vbaprojectfactory.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides.vba/vbaprojectfactory/instance/
 ---
 ## VbaProjectFactory.Instance property
 
-VBA 项目工厂静态实例。 只读[`VbaProjectFactory`](../../vbaprojectfactory)。
+VBA 工程工厂静态实例。 只读[`VbaProjectFactory`](../../vbaprojectfactory).
 
 ```csharp
 public static VbaProjectFactory Instance { get; }

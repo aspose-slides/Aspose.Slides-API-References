@@ -1,14 +1,14 @@
 ---
 title: GetEffective
 second_title: Aspose.Slides for .NET API 参考
-description: 获取应用了继承的有效 3-D 格式化数据
+description: 获取有效的 3-D 格式化数据并应用继承
 type: docs
 weight: 110
 url: /zh/net/aspose.slides/threedformat/geteffective/
 ---
 ## ThreeDFormat.GetEffective method
 
-获取应用了继承的有效 3-D 格式化数据。
+获取有效的 3-D 格式化数据并应用继承。
 
 ```csharp
 public IThreeDFormatEffectiveData GetEffective()
@@ -16,11 +16,11 @@ public IThreeDFormatEffectiveData GetEffective()
 
 ### 返回值
 
-A[`IThreeDFormatEffectiveData`](../../ithreedformateffectivedata)。
+一个[`IThreeDFormatEffectiveData`](../../ithreedformateffectivedata).
 
 ### 例子
 
-此示例演示如何获取相机、灯光装置和形状顶部斜角的有效属性。
+这个例子演示了如何为相机、灯光装置和形状的顶部斜角获取有效的属性。
 
 ```csharp
 [C#]

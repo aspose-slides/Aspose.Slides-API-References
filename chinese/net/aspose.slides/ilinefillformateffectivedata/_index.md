@@ -18,16 +18,16 @@ public interface ILineFillFormatEffectiveData : IFillParamSource
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsIFillParamSource](../../aspose.slides/ilinefillformateffectivedata/asifillparamsource) { get; } | 返回 IFillParamSource 接口。 只读[`IFillParamSource`](../ifillparamsource)。 |
-| [FillType](../../aspose.slides/ilinefillformateffectivedata/filltype) { get; } | 返回填充类型。 只读[`FillType`](../filltype)。 |
-| [GradientFormat](../../aspose.slides/ilinefillformateffectivedata/gradientformat) { get; } | 返回渐变填充格式。 只读[`IGradientFormatEffectiveData`](../igradientformateffectivedata)。 |
-| [PatternFormat](../../aspose.slides/ilinefillformateffectivedata/patternformat) { get; } | 返回图案填充格式。 只读[`IPatternFormatEffectiveData`](../ipatternformateffectivedata)。 |
-| [RotateWithShape](../../aspose.slides/ilinefillformateffectivedata/rotatewithshape) { get; } | 确定填充是否应随形状旋转。 只读Boolean。 |
-| [SolidFillColor](../../aspose.slides/ilinefillformateffectivedata/solidfillcolor) { get; } | 返回实心填充的颜色。 只读Color。 |
+| [AsIFillParamSource](../../aspose.slides/ilinefillformateffectivedata/asifillparamsource) { get; } | 返回 IFillParamSource 接口。 只读[`IFillParamSource`](../ifillparamsource). |
+| [FillType](../../aspose.slides/ilinefillformateffectivedata/filltype) { get; } | 返回填充类型。 只读[`FillType`](../filltype). |
+| [GradientFormat](../../aspose.slides/ilinefillformateffectivedata/gradientformat) { get; } | 返回渐变填充格式。 只读[`IGradientFormatEffectiveData`](../igradientformateffectivedata). |
+| [PatternFormat](../../aspose.slides/ilinefillformateffectivedata/patternformat) { get; } | 返回图案填充格式。 只读[`IPatternFormatEffectiveData`](../ipatternformateffectivedata). |
+| [RotateWithShape](../../aspose.slides/ilinefillformateffectivedata/rotatewithshape) { get; } | 确定是否应使用形状旋转填充。 只读Boolean. |
+| [SolidFillColor](../../aspose.slides/ilinefillformateffectivedata/solidfillcolor) { get; } | 返回实心填充的颜色。 只读Color. |
 
 ### 评论
 
-此接口用作ILineFormatEffectiveData的一部分。
+该接口用作[`ILineFormatEffectiveData`](../ilineformateffectivedata).
 
 ### 也可以看看
 

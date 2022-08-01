@@ -1,14 +1,14 @@
 ---
 title: Videos
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает коллекцию всех встроенных видеофайлов в презентации. Только для чтенияIVideoCollectionaspose.slides/ivideocollection.
+description: Возвращает коллекцию всех встроенных видеофайлов в презентацию. Только для чтенияIVideoCollectionaspose.slides/ivideocollection .
 type: docs
 weight: 270
 url: /ru/net/aspose.slides/presentation/videos/
 ---
 ## Presentation.Videos property
 
-Возвращает коллекцию всех встроенных видеофайлов в презентации. Только для чтения[`IVideoCollection`](../../ivideocollection).
+Возвращает коллекцию всех встроенных видеофайлов в презентацию. Только для чтения[`IVideoCollection`](../../ivideocollection) .
 
 ```csharp
 public IVideoCollection Videos { get; }

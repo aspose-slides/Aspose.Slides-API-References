@@ -25,7 +25,7 @@ public IStreamWrapper CreateFileStreamWrapper(string fileName, FileMode fileMode
 
 ## CreateFileStreamWrapper(string, FileMode, FileAccess) {#createfilestreamwrapper_1}
 
-创建具有指定路径、创建方式和读/写权限的 FileStream。
+使用指定的路径、创建方式和读/写权限创建 FileStream。
 
 ```csharp
 public IStreamWrapper CreateFileStreamWrapper(string fileName, FileMode fileMode, 

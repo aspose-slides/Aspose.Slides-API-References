@@ -1,14 +1,14 @@
 ---
 title: ErrorBarValueType
 second_title: Aspose.Slides for .NET API 参考
-description: 表示错误栏值的类型
+description: 代表错误栏值的类型
 type: docs
 weight: 1510
 url: /zh/net/aspose.slides.charts/errorbarvaluetype/
 ---
 ## ErrorBarValueType enumeration
 
-表示错误栏值的类型
+代表错误栏值的类型
 
 ```csharp
 public enum ErrorBarValueType
@@ -21,7 +21,7 @@ public enum ErrorBarValueType
 | Custom | `0` | 指定误差线的长度应由加号和减号元素确定。 |
 | Fixed | `1` | 指定误差线的长度应为由误差线值确定的固定值。 |
 | Percentage | `2` | 指定误差线的长度应为数据的误差线值百分比。 |
-| StandardDeviation | `3` | 指定误差线的长度应为数据的误差线值标准偏差。 |
+| StandardDeviation | `3` | 指定误差线的长度应为数据的误差线值标准差。 |
 | StandardError | `4` | 指定误差线的长度应为数据的误差线值标准误差。 |
 
 ### 也可以看看

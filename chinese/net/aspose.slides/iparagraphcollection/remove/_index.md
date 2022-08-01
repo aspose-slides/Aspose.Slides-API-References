@@ -20,7 +20,7 @@ public bool Remove(IParagraph item)
 
 ### 返回值
 
-如果成功删除*item*则为真；否则为假。
+真如果*item*已成功移除；否则为假。
 
 ### 也可以看看
 

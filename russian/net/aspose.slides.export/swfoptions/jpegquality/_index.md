@@ -1,14 +1,14 @@
 ---
 title: JpegQuality
 second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет качество изображений JPEG. По умолчанию 95.
+description: Определяет качество изображений JPEG. Значение по умолчанию 95.
 type: docs
 weight: 40
 url: /ru/net/aspose.slides.export/swfoptions/jpegquality/
 ---
 ## SwfOptions.JpegQuality property
 
-Определяет качество изображений JPEG. По умолчанию 95.
+Определяет качество изображений JPEG. Значение по умолчанию: 95.
 
 ```csharp
 public int JpegQuality { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Slides for .NET API 参考
-description: 获取指定索引处的元素 只读Color
+description: 获取指定索引处的元素 只读Color.
 type: docs
 weight: 110
 url: /zh/net/aspose.slides.theme/icolorschemeeffectivedata/item/
 ---
 ## IColorSchemeEffectiveData indexer
 
-获取指定索引处的元素。 只读Color。
+获取指定索引处的元素。 只读Color.
 
 ```csharp
 public Color this[ColorSchemeIndex index] { get; }

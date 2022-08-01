@@ -1,14 +1,14 @@
 ---
 title: PresetNumberFormat
 second_title: Aspose.Slides for .NET API 参考
-description: 获取或设置数字和日期的内置显示格式预设编号必须在 0..22 或 37..49 中 读/写Byte
+description: 获取或设置数字和日期的内置显示格式预设编号必须在 0..22 或 37..49. 读/写Byte.
 type: docs
 weight: 60
 url: /zh/net/aspose.slides.charts/ichartdatacell/presetnumberformat/
 ---
 ## IChartDataCell.PresetNumberFormat property
 
-获取或设置数字和日期的内置显示格式。预设编号必须在 [0..22] 或 [37..49] 中。 读/写Byte。
+获取或设置数字和日期的内置显示格式。预设编号必须在 [0..22] 或 [37..49]. 读/写Byte.
 
 ```csharp
 public byte PresetNumberFormat { get; set; }

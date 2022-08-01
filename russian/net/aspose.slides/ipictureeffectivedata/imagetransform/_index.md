@@ -1,14 +1,14 @@
 ---
 title: ImageTransform
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает набор эффектов преобразования изображения. Только для чтенияIImageTransformOCollectionEffectiveDataaspose.slides.effects/iimagetransformocollectioneffectivedata.
+description: Возвращает набор эффектов преобразования изображения. Только для чтенияIImageTransformOCollectionEffectiveDataaspose.slides.effects/iimagetransformocollectioneffectivedata .
 type: docs
 weight: 20
 url: /ru/net/aspose.slides/ipictureeffectivedata/imagetransform/
 ---
 ## IPictureEffectiveData.ImageTransform property
 
-Возвращает набор эффектов преобразования изображения. Только для чтения[`IImageTransformOCollectionEffectiveData`](../../../aspose.slides.effects/iimagetransformocollectioneffectivedata).
+Возвращает набор эффектов преобразования изображения. Только для чтения[`IImageTransformOCollectionEffectiveData`](../../../aspose.slides.effects/iimagetransformocollectioneffectivedata) .
 
 ```csharp
 public IImageTransformOCollectionEffectiveData ImageTransform { get; }

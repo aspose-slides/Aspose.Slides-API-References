@@ -1,14 +1,14 @@
 ---
 title: ParentShape
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает Shape_PPT для которого был создан элемент. Только чтениеShapeaspose.slides/shape.
+description: Возвращает Shape_PPT для которого был создан элемент. Только для чтенияShapeaspose.slides/shape .
 type: docs
 weight: 30
 url: /ru/net/aspose.slides/shapeelement/parentshape/
 ---
 ## ShapeElement.ParentShape property
 
-Возвращает Shape_PPT, для которого был создан элемент. Только чтение[`Shape`](../../shape).
+Возвращает Shape_PPT, для которого был создан элемент. Только для чтения[`Shape`](../../shape) .
 
 ```csharp
 public Shape ParentShape { get; }

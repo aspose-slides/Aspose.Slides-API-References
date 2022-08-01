@@ -1,14 +1,14 @@
 ---
 title: NoBreak
 second_title: Aspose.Slides for .NET API 参考
-description: 没有中断 此属性指定对象框上的牢不可破属性如果为 true则框内不会出现换行符 这对于由多个二元运算符组成的运算符模拟器可能很重要 如果未指定此元素则框内可能会出现中断 默认值true
+description: 无中断 此属性指定对象框上的不可破坏属性如果为 true则框内不会出现换行符 这对于包含多个二元运算符的运算符模拟器可能很重要 如果未指定此元素则框内可能会出现中断 默认值true
 type: docs
 weight: 60
 url: /zh/net/aspose.slides.mathtext/imathbox/nobreak/
 ---
 ## IMathBox.NoBreak property
 
-没有中断。 此属性指定对象框上的“牢不可破”属性。如果为 true，则框内不会出现换行符。 这对于由多个二元运算符组成的运算符模拟器可能很重要。 如果未指定此元素，则框内可能会出现中断。 默认值:true
+无中断。 此属性指定对象框上的“不可破坏”属性。如果为 true，则框内不会出现换行符。 这对于包含多个二元运算符的运算符模拟器可能很重要。 如果未指定此元素，则框内可能会出现中断。 默认值：true
 
 ```csharp
 public bool NoBreak { get; set; }
@@ -16,7 +16,7 @@ public bool NoBreak { get; set; }
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]

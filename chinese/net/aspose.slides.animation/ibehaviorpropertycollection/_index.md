@@ -18,16 +18,16 @@ public interface IBehaviorPropertyCollection : IList<IBehaviorProperty>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.animation/ibehaviorpropertycollection/asienumerable) { get; } | 返回 IEnumerable 接口。 只读IEnumerable。 |
+| [AsIEnumerable](../../aspose.slides.animation/ibehaviorpropertycollection/asienumerable) { get; } | 返回 IEnumerable 接口。 只读IEnumerable. |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
 | [Add](../../aspose.slides.animation/ibehaviorpropertycollection/add)(string) | 将新属性添加到集合中。 |
-| [Contains](../../aspose.slides.animation/ibehaviorpropertycollection/contains)(string) | 确定ICollection是否包含特定值。 |
-| [IndexOf](../../aspose.slides.animation/ibehaviorpropertycollection/indexof)(string) | 通过IList中的属性值确定特定项目的索引。 |
-| [Insert](../../aspose.slides.animation/ibehaviorpropertycollection/insert)(int, string) | 在指定索引处将新属性（具有指定属性值）插入到集合中。 |
+| [Contains](../../aspose.slides.animation/ibehaviorpropertycollection/contains)(string) | 确定是否ICollection包含特定值。 |
+| [IndexOf](../../aspose.slides.animation/ibehaviorpropertycollection/indexof)(string) | 通过属性值确定特定项的索引IList. |
+| [Insert](../../aspose.slides.animation/ibehaviorpropertycollection/insert)(int, string) | 将新属性（具有指定属性值）插入到指定索引处的集合中。 |
 | [Remove](../../aspose.slides.animation/ibehaviorpropertycollection/remove)(string) | 从集合中删除指定的属性。 |
 
 ### 也可以看看

@@ -18,8 +18,8 @@ public interface IInOutTransition : ITransitionValueBase
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/iinouttransition/asitransitionvaluebase) { get; } | 允许获取基本 ITransitionValueBase 接口。 只读[`ITransitionValueBase`](../itransitionvaluebase)。 |
-| [Direction](../../aspose.slides.slideshow/iinouttransition/direction) { get; set; } | 过渡效果的方向。 读/写[`TransitionInOutDirectionType`](../transitioninoutdirectiontype)。 |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/iinouttransition/asitransitionvaluebase) { get; } | 允许获取基本 ITransitionValueBase 接口。 只读[`ITransitionValueBase`](../itransitionvaluebase). |
+| [Direction](../../aspose.slides.slideshow/iinouttransition/direction) { get; set; } | 过渡效果的方向。 读/写[`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
 
 ### 也可以看看
 

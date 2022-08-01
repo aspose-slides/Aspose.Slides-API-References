@@ -18,8 +18,8 @@ public interface IVbaModule
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Name](../../aspose.slides.vba/ivbamodule/name) { get; } | 模块的名称。 只读String。 |
-| [SourceCode](../../aspose.slides.vba/ivbamodule/sourcecode) { get; set; } | 模块的源代码。 读/写String。 |
+| [Name](../../aspose.slides.vba/ivbamodule/name) { get; } | 模块名称。 只读String. |
+| [SourceCode](../../aspose.slides.vba/ivbamodule/sourcecode) { get; set; } | 模块的源代码。 读/写String. |
 
 ### 也可以看看
 

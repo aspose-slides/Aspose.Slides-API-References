@@ -1,14 +1,14 @@
 ---
 title: BaseUri
 second_title: Aspose.Slides for .NET API 参考
-description: 返回指定 SVG 的基本 URI用于解析相对链接 只读String
+description: 返回指定 SVG 的基本 URI用于解析相对链接 只读String.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides/isvgimage/baseuri/
 ---
 ## ISvgImage.BaseUri property
 
-返回指定 SVG 的基本 URI。用于解析相对链接。 只读String。
+返回指定 SVG 的基本 URI。用于解析相对链接。 只读String.
 
 ```csharp
 public string BaseUri { get; }

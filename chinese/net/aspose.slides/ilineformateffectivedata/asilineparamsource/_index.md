@@ -1,14 +1,14 @@
 ---
 title: AsILineParamSource
 second_title: Aspose.Slides for .NET API 参考
-description: 允许获取基本 ILineParamSource 接口 只读ILineParamSourceaspose.slides/ilineparamsource
+description: 允许获取基本 ILineParamSource 接口 只读ILineParamSourceaspose.slides/ilineparamsource.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides/ilineformateffectivedata/asilineparamsource/
 ---
 ## ILineFormatEffectiveData.AsILineParamSource property
 
-允许获取基本 ILineParamSource 接口。 只读[`ILineParamSource`](../../ilineparamsource)。
+允许获取基本 ILineParamSource 接口。 只读[`ILineParamSource`](../../ilineparamsource).
 
 ```csharp
 public ILineParamSource AsILineParamSource { get; }

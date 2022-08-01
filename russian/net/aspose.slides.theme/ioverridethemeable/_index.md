@@ -18,8 +18,8 @@ public interface IOverrideThemeable : IThemeable
 
 | Имя | Описание |
 | --- | --- |
-| [AsIThemeable](../../aspose.slides.theme/ioverridethemeable/asithemeable) { get; } | Возвращает интерфейс IThemeable. Только для чтения[`IThemeable`](../ithemeable). |
-| [ThemeManager](../../aspose.slides.theme/ioverridethemeable/thememanager) { get; } | Возвращает переопределение менеджера тем. Только для чтения[`IOverrideThemeManager`](../ioverridethememanager). |
+| [AsIThemeable](../../aspose.slides.theme/ioverridethemeable/asithemeable) { get; } | Возвращает интерфейс IThemeable. Только для чтения[`IThemeable`](../ithemeable) . |
+| [ThemeManager](../../aspose.slides.theme/ioverridethemeable/thememanager) { get; } | Возвращает переопределение менеджера тем. Только для чтения[`IOverrideThemeManager`](../ioverridethememanager) . |
 
 ### Смотрите также
 

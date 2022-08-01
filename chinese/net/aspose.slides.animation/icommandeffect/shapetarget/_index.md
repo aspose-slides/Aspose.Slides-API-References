@@ -1,14 +1,14 @@
 ---
 title: ShapeTarget
 second_title: Aspose.Slides for .NET API 参考
-description: 定义命令效果的形状目标 读/写IShapeaspose.slides/ishape
+description: 定义命令效果的形状目标 读/写IShapeaspose.slides/ishape.
 type: docs
 weight: 30
 url: /zh/net/aspose.slides.animation/icommandeffect/shapetarget/
 ---
 ## ICommandEffect.ShapeTarget property
 
-定义命令效果的形状目标。 读/写[`IShape`](../../../aspose.slides/ishape)。
+定义命令效果的形状目标。 读/写[`IShape`](../../../aspose.slides/ishape).
 
 ```csharp
 public IShape ShapeTarget { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: TextAnimationCollection
 second_title: Aspose.Slides for .NET API 参考
-description: 表示文本动画的集合
+description: 代表文字动画的集合
 type: docs
 weight: 730
 url: /zh/net/aspose.slides.animation/textanimationcollection/
 ---
 ## TextAnimationCollection class
 
-表示文本动画的集合。
+代表文字动画的集合。
 
 ```csharp
 public class TextAnimationCollection : ITextAnimationCollection
@@ -24,10 +24,10 @@ public class TextAnimationCollection : ITextAnimationCollection
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Count](../../aspose.slides.animation/textanimationcollection/count) { get; } | 返回集合中的元素数量。 只读Int32。 |
-| [IsSynchronized](../../aspose.slides.animation/textanimationcollection/issynchronized) { get; } | 返回一个值，指示对集合的访问是否同步（线程安全）。 只读Boolean。 |
+| [Count](../../aspose.slides.animation/textanimationcollection/count) { get; } | 返回集合中的元素数量。 只读Int32. |
+| [IsSynchronized](../../aspose.slides.animation/textanimationcollection/issynchronized) { get; } | 返回一个值，指示对集合的访问是否同步（线程安全）。 只读Boolean. |
 | [Item](../../aspose.slides.animation/textanimationcollection/item) { get; } | 按索引返回元素。 (2 indexers) |
-| [SyncRoot](../../aspose.slides.animation/textanimationcollection/syncroot) { get; } | 返回同步根。 只读Object。 |
+| [SyncRoot](../../aspose.slides.animation/textanimationcollection/syncroot) { get; } | 返回同步根。 只读Object. |
 
 ## 方法
 

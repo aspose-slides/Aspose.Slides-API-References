@@ -1,14 +1,14 @@
 ---
 title: DrilldownLocked
 second_title: Aspose.Slides for .NET API 参考
-description: 确定是否禁止选择此对象的子形状 读/写Boolean
+description: 确定是否禁止选择此对象的子形状 读/写Boolean.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides/graphicalobjectlock/drilldownlocked/
 ---
 ## GraphicalObjectLock.DrilldownLocked property
 
-确定是否禁止选择此对象的子形状。 读/写Boolean。
+确定是否禁止选择此对象的子形状。 读/写Boolean.
 
 ```csharp
 public bool DrilldownLocked { get; set; }

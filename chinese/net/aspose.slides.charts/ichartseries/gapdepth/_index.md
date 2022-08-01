@@ -1,14 +1,14 @@
 ---
 title: GapDepth
 second_title: Aspose.Slides for .NET API 参考
-description: 以标记宽度的百分比返回或设置 3D 图表中数据系列之间的距离 这不仅是这个系列的属性而且是所有父系列的属性 group - 这是适当组属性的投影所以这个属性 是只读的 使用 ParentSeriesGroup 属性访问父系列组 使用 ParentSeriesGroup.GapDepth 读/写属性来更改值 只读Int32
+description: 以标记宽度的百分比返回或设置 3D 图表中数据系列之间的距离 这不仅是该系列的属性也是父系列的所有系列的属性 group - 这是适当组的投影财产所以这个属性 是只读的 使用ParentSeriesGroup属性来访问父系列组 使用ParentSeriesGroup.GapDepth读/写属性来改变值 只读Int32.
 type: docs
 weight: 120
 url: /zh/net/aspose.slides.charts/ichartseries/gapdepth/
 ---
 ## IChartSeries.GapDepth property
 
-以标记宽度的百分比返回或设置 3D 图表中数据系列之间的距离。 这不仅是这个系列的属性，而且是所有父系列的属性 group - 这是适当组属性的投影。所以这个属性 是只读的。 使用 ParentSeriesGroup 属性访问父系列组。 使用 ParentSeriesGroup.GapDepth 读/写属性来更改值。 只读Int32。
+以标记宽度的百分比返回或设置 3D 图表中数据系列之间的距离。 这不仅是该系列的属性，也是父系列的所有系列的属性 group - 这是适当组的投影财产。所以这个属性 是只读的。 使用ParentSeriesGroup属性来访问父系列组。 使用ParentSeriesGroup.GapDepth读/写属性来改变值。 只读Int32.
 
 ```csharp
 public int GapDepth { get; }
@@ -16,7 +16,7 @@ public int GapDepth { get; }
 
 ### 评论
 
-这是属性 ParentSeriesGroup.GapDepth 的投影。
+这是属性 ParentSeriesGroup.GapDepth. 的投影
 
 ### 也可以看看
 

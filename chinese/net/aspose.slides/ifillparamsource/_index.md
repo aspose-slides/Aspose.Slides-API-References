@@ -1,14 +1,14 @@
 ---
 title: IFillParamSource
 second_title: Aspose.Slides for .NET API 参考
-description: 辅助填充参数界面
+description: 辅助填充参数界面.
 type: docs
 weight: 5290
 url: /zh/net/aspose.slides/ifillparamsource/
 ---
 ## IFillParamSource interface
 
-辅助填充参数界面。
+辅助填充参数界面.
 
 ```csharp
 public interface IFillParamSource

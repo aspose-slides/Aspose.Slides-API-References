@@ -1,14 +1,14 @@
 ---
 title: Position
 second_title: Aspose.Slides for .NET API 参考
-description: 获取或设置当前流中的位置 只读Int64
+description: 获取或设置当前流中的位置 只读Int64.
 type: docs
 weight: 60
 url: /zh/net/aspose.slides/streamwrapper/position/
 ---
 ## StreamWrapper.Position property
 
-获取或设置当前流中的位置。 只读Int64。
+获取或设置当前流中的位置。 只读Int64.
 
 ```csharp
 public long Position { get; }

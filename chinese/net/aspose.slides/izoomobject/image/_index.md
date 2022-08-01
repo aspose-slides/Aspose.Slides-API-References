@@ -1,14 +1,14 @@
 ---
 title: Image
 second_title: Aspose.Slides for .NET API 参考
-description: 获取或设置缩放对象的图像 读/写IPPImageaspose.slides/ippimage
+description: 获取或设置缩放对象的图像 读/写IPPImageaspose.slides/ippimage.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides/izoomobject/image/
 ---
 ## IZoomObject.Image property
 
-获取或设置缩放对象的图像。 读/写[`IPPImage`](../../ippimage)。
+获取或设置缩放对象的图像。 读/写[`IPPImage`](../../ippimage).
 
 ```csharp
 public IPPImage Image { get; set; }
@@ -16,7 +16,7 @@ public IPPImage Image { get; set; }
 
 ### 例子
 
-该示例演示更改缩放对象的图像:
+该示例演示更改缩放对象的图像：
 
 ```csharp
 [C#]

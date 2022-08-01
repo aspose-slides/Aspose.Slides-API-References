@@ -18,8 +18,8 @@ public static class ShapeUtil
 
 | Имя | Описание |
 | --- | --- |
-| static [GeometryPathToGraphicsPath](../../aspose.slides.util/shapeutil/geometrypathtographicspath)(IGeometryPath) | Преобразует[`IGeometryPath`](../../aspose.slides/igeometrypath)вGraphicsPath.  GraphicsPath можно трансформировать различными способами, используя его удобные методы, а затем преобразовать обратно в [`IGeometryPath`](../../aspose.slides/igeometrypath)для использования в[`GeometryShape`](../../aspose.slides/geometryshape)через[`GraphicsPathToGeometryPath`](./graphicspathtogeometrypath)метод. |
-| static [GraphicsPathToGeometryPath](../../aspose.slides.util/shapeutil/graphicspathtogeometrypath)(GraphicsPath) | ПреобразуетGraphicsPathв[`IGeometryPath`](../../aspose.slides/igeometrypath) Возвращаемое значение вызова метода можно использовать для изменения геометрии объекта IGeometryShape с помощью метода IGeometryShape.SetGeometryPaths. |
+| static [GeometryPathToGraphicsPath](../../aspose.slides.util/shapeutil/geometrypathtographicspath)(IGeometryPath) | Преобразует[`IGeometryPath`](../../aspose.slides/igeometrypath) кGraphicsPath .  GraphicsPath можно по-разному преобразовывать удобными для него методами, а затем снова преобразовывать в [`IGeometryPath`](../../aspose.slides/igeometrypath) использовать в[`GeometryShape`](../../aspose.slides/geometryshape) с помощью[`GraphicsPathToGeometryPath`](./graphicspathtogeometrypath) метод. |
+| static [GraphicsPathToGeometryPath](../../aspose.slides.util/shapeutil/graphicspathtogeometrypath)(GraphicsPath) | ПреобразуетGraphicsPath к[`IGeometryPath`](../../aspose.slides/igeometrypath) Возвращаемое значение вызова метода может использоваться для изменения геометрии объекта IGeometryShape с помощью метода IGeometryShape.SetGeometryPaths. |
 
 ### Смотрите также
 

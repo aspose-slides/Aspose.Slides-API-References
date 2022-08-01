@@ -1,14 +1,14 @@
 ---
 title: ExtrusionOrientationY
 second_title: Aspose.Slides for .NET API 参考
-description: 表示 extrusion.orientation.y 属性
+description: 表示extrusion.orientation.y属性
 type: docs
 weight: 100
 url: /zh/net/aspose.slides.animation/behaviorproperty/extrusionorientationy/
 ---
 ## BehaviorProperty.ExtrusionOrientationY property
 
-表示 'extrusion.orientation.y' 属性
+表示“extrusion.orientation.y”属性
 
 ```csharp
 public static BehaviorProperty ExtrusionOrientationY { get; }

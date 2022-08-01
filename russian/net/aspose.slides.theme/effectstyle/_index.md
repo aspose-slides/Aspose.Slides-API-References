@@ -18,8 +18,8 @@ public class EffectStyle : DomObject<EffectStyleCollection>, IEffectStyle
 
 | Имя | Описание |
 | --- | --- |
-| [EffectFormat](../../aspose.slides.theme/effectstyle/effectformat) { get; } | Возвращает формат эффекта. Только для чтения[`IEffectFormat`](../../aspose.slides/ieffectformat). |
-| [ThreeDFormat](../../aspose.slides.theme/effectstyle/threedformat) { get; } | Возвращает формат 3D. Только для чтения[`IThreeDFormat`](../../aspose.slides/ithreedformat). |
+| [EffectFormat](../../aspose.slides.theme/effectstyle/effectformat) { get; } | Возвращает формат эффекта. Только для чтения[`IEffectFormat`](../../aspose.slides/ieffectformat) . |
+| [ThreeDFormat](../../aspose.slides.theme/effectstyle/threedformat) { get; } | Возвращает формат 3D. Только для чтения[`IThreeDFormat`](../../aspose.slides/ithreedformat) . |
 
 ### Смотрите также
 

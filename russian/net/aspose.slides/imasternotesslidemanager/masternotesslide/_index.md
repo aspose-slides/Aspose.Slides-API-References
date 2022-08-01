@@ -1,14 +1,14 @@
 ---
 title: MasterNotesSlide
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает образец для всех слайдов заметок этой презентации если он есть в противном случае возвращает ноль. Только для чтенияIMasterNotesSlideaspose.slides/imasternotesslide.
+description: Возвращает образец для всех слайдов заметок этой презентации если он есть в противном случае возвращает null. Только для чтенияIMasterNotesSlideaspose.slides/imasternotesslide .
 type: docs
 weight: 10
 url: /ru/net/aspose.slides/imasternotesslidemanager/masternotesslide/
 ---
 ## IMasterNotesSlideManager.MasterNotesSlide property
 
-Возвращает образец для всех слайдов заметок этой презентации, если он есть, в противном случае возвращает ноль. Только для чтения[`IMasterNotesSlide`](../../imasternotesslide).
+Возвращает образец для всех слайдов заметок этой презентации, если он есть, в противном случае возвращает null. Только для чтения[`IMasterNotesSlide`](../../imasternotesslide) .
 
 ```csharp
 public IMasterNotesSlide MasterNotesSlide { get; }

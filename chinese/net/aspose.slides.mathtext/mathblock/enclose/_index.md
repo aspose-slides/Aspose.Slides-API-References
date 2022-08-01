@@ -1,14 +1,14 @@
 ---
 title: Enclose
 second_title: Aspose.Slides for .NET API 参考
-description: 将此块的子元素括在指定的字符中例如括号或其他字符作为框架
+description: 将此块的子元素括在指定字符中例如括号或其他字符如 framing
 type: docs
 weight: 100
 url: /zh/net/aspose.slides.mathtext/mathblock/enclose/
 ---
 ## Enclose(char, char) {#enclose_1}
 
-将此块的子元素括在指定的字符中，例如括号或其他字符作为框架
+将此块的子元素括在指定字符中，例如括号或其他字符，如 framing
 
 ```csharp
 public override IMathDelimiter Enclose(char beginningCharacter, char endingCharacter)
@@ -21,11 +21,11 @@ public override IMathDelimiter Enclose(char beginningCharacter, char endingChara
 
 ### 返回值
 
-[`IMathDelimiter`](../../imathdelimiter)类型的数学元素，其中包括指定字符作为框架
+类型的数学元素[`IMathDelimiter`](../../imathdelimiter)其中包括指定的字符作为框架
 
 ### 例子
 
-示例
+示例：
 
 ```csharp
 [C#]
@@ -53,17 +53,17 @@ public IMathDelimiter Enclose(char beginningCharacter, char endingCharacter,
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| 开始字符 | Char | 开始字符（通常是左括号） |
-| 结束字符 | Char | 结束字符（通常是右括号） |
-| 分隔符字符 | Char | 分隔符 |
+| beginningCharacter | Char | 开始字符（通常是左括号） |
+| endingCharacter | Char | 结束字符（通常是右括号） |
+| separatorCharacter | Char | 分隔符 |
 
 ### 返回值
 
-[`IMathDelimiter`](../../imathdelimiter)类型的数学元素，其中包括指定字符作为框架和分隔符
+类型的数学元素[`IMathDelimiter`](../../imathdelimiter)其中包括指定的字符作为框架和分隔符
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]

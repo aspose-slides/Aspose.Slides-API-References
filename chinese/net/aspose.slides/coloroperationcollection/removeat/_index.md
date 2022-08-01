@@ -1,14 +1,14 @@
 ---
 title: RemoveAt
 second_title: Aspose.Slides for .NET API 参考
-description: 从集合中移除颜色操作
+description: 从集合中删除颜色操作
 type: docs
 weight: 120
 url: /zh/net/aspose.slides/coloroperationcollection/removeat/
 ---
 ## ColorOperationCollection.RemoveAt method
 
-从集合中移除颜色操作。
+从集合中删除颜色操作。
 
 ```csharp
 public void RemoveAt(int index)

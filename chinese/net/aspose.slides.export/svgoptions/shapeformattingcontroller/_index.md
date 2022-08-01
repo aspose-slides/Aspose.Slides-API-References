@@ -1,14 +1,14 @@
 ---
 title: ShapeFormattingController
 second_title: Aspose.Slides for .NET API 参考
-description: 返回并设置一个允许用户控制形状转换的回调接口 读/写ISvgShapeFormattingControlleraspose.slides.export/isvgshapeformattingcontroller
+description: 返回并设置一个回调接口允许用户控制形状转换 读/写ISvgShapeFormattingControlleraspose.slides.export/isvgshapeformattingcontroller.
 type: docs
 weight: 130
 url: /zh/net/aspose.slides.export/svgoptions/shapeformattingcontroller/
 ---
 ## SVGOptions.ShapeFormattingController property
 
-返回并设置一个允许用户控制形状转换的回调接口。 读/写[`ISvgShapeFormattingController`](../../isvgshapeformattingcontroller)。
+返回并设置一个回调接口，允许用户控制形状转换。 读/写[`ISvgShapeFormattingController`](../../isvgshapeformattingcontroller).
 
 ```csharp
 public ISvgShapeFormattingController ShapeFormattingController { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: Divide
 second_title: Aspose.Slides for .NET API 参考
-description: 使用此分子和指定分母创建分数
+description: 用这个分子和指定的分母创建一个分数
 type: docs
 weight: 30
 url: /zh/net/aspose.slides.mathtext/mathelementbase/divide/
 ---
 ## Divide(IMathElement) {#divide}
 
-使用此分子和指定分母创建分数
+用这个分子和指定的分母创建一个分数
 
 ```csharp
 public IMathFraction Divide(IMathElement denominator)
@@ -24,7 +24,7 @@ public IMathFraction Divide(IMathElement denominator)
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]
@@ -45,7 +45,7 @@ IMathFraction fraction = numerator.Divide(denumerator);
 
 ## Divide(string) {#divide_2}
 
-使用此分子和指定分母创建分数
+用这个分子和指定的分母创建一个分数
 
 ```csharp
 public IMathFraction Divide(string denominator)
@@ -61,7 +61,7 @@ public IMathFraction Divide(string denominator)
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]
@@ -88,8 +88,8 @@ public IMathFraction Divide(IMathElement denominator, MathFractionTypes fraction
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| 分母 | IMathElement | 分母 |
-| fractionType | MathFractionTypes | 分数类型:条形、无条形、倾斜、线性 |
+| denominator | IMathElement | 分母 |
+| fractionType | MathFractionTypes | 分数类型：Bar、NoBar、Skewed、Linear |
 
 ### 返回值
 
@@ -97,7 +97,7 @@ public IMathFraction Divide(IMathElement denominator, MathFractionTypes fraction
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]
@@ -127,8 +127,8 @@ public IMathFraction Divide(string denominator, MathFractionTypes fractionType)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| 分母 | String | 分母 |
-| fractionType | MathFractionTypes | 分数类型:条形、无条形、倾斜、线性 |
+| denominator | String | 分母 |
+| fractionType | MathFractionTypes | 分数类型：Bar、NoBar、Skewed、Linear |
 
 ### 返回值
 
@@ -136,7 +136,7 @@ public IMathFraction Divide(string denominator, MathFractionTypes fractionType)
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]

@@ -18,8 +18,8 @@ public interface ISetEffect : IBehavior
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsIBehavior](../../aspose.slides.animation/iseteffect/asibehavior) { get; } | 允许获取基本 IBehavior 接口。 只读[`IBehavior`](../ibehavior)。 |
-| [To](../../aspose.slides.animation/iseteffect/to) { get; set; } | 指定动画效果后的效果的特定属性。 表示点值。 仅限:bool、ColorFormat、float、int、string。 读/写Object。 |
+| [AsIBehavior](../../aspose.slides.animation/iseteffect/asibehavior) { get; } | 允许获取基本 IBehavior 接口。 只读[`IBehavior`](../ibehavior). |
+| [To](../../aspose.slides.animation/iseteffect/to) { get; set; } | 指定动画效果后效果的某个属性。 表示点值。 仅限：bool、ColorFormat、float、int、string。 读/写Object. |
 
 ### 也可以看看
 

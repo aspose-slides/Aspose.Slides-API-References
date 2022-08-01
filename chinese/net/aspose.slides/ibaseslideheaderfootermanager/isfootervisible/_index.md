@@ -1,14 +1,14 @@
 ---
 title: IsFooterVisible
 second_title: Aspose.Slides for .NET API 参考
-description: 获取指示页脚占位符存在的值 读取Boolean
+description: 获取指示存在页脚占位符的值 读取Boolean.
 type: docs
 weight: 30
 url: /zh/net/aspose.slides/ibaseslideheaderfootermanager/isfootervisible/
 ---
 ## IBaseSlideHeaderFooterManager.IsFooterVisible property
 
-获取指示页脚占位符存在的值。 读取Boolean。
+获取指示存在页脚占位符的值。 读取Boolean.
 
 ```csharp
 public bool IsFooterVisible { get; }

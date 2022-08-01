@@ -1,14 +1,14 @@
 ---
 title: DateTime6
 second_title: Справочник по API Aspose.Slides для .NET
-description: Текущая дата и время в шестом предустановленном формате Month YY для английского. Только для чтенияFieldTypeaspose.slides/fieldtype.
+description: Текущая дата и время в шестом предварительно заданном формате Месяц YY для английского. Только для чтенияFieldTypeaspose.slides/fieldtype .
 type: docs
 weight: 120
 url: /ru/net/aspose.slides/fieldtype/datetime6/
 ---
 ## FieldType.DateTime6 property
 
-Текущая дата и время в шестом предустановленном формате (Month YY для английского). Только для чтения[`FieldType`](../../fieldtype).
+Текущая дата и время в шестом предварительно заданном формате (Месяц YY для английского). Только для чтения[`FieldType`](../../fieldtype) .
 
 ```csharp
 public static FieldType DateTime6 { get; }

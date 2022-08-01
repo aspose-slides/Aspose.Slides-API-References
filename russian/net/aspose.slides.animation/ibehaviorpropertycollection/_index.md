@@ -18,15 +18,15 @@ public interface IBehaviorPropertyCollection : IList<IBehaviorProperty>
 
 | Имя | Описание |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.animation/ibehaviorpropertycollection/asienumerable) { get; } | Возвращает интерфейсы IEnumerable. Только для чтенияIEnumerable. |
+| [AsIEnumerable](../../aspose.slides.animation/ibehaviorpropertycollection/asienumerable) { get; } | Возвращает интерфейсы IEnumerable. Только для чтенияIEnumerable . |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [Add](../../aspose.slides.animation/ibehaviorpropertycollection/add)(string) | Добавляет в коллекцию новое свойство. |
-| [Contains](../../aspose.slides.animation/ibehaviorpropertycollection/contains)(string) | Определяет, содержит лиICollectionопределенное значение. |
-| [IndexOf](../../aspose.slides.animation/ibehaviorpropertycollection/indexof)(string) | Определяет индекс конкретного элемента по значению свойства вIList. |
+| [Add](../../aspose.slides.animation/ibehaviorpropertycollection/add)(string) | Добавляет новое свойство в коллекцию. |
+| [Contains](../../aspose.slides.animation/ibehaviorpropertycollection/contains)(string) | Определяет,ICollection содержит определенное значение. |
+| [IndexOf](../../aspose.slides.animation/ibehaviorpropertycollection/indexof)(string) | Определяет индекс конкретного элемента по значению свойства вIList . |
 | [Insert](../../aspose.slides.animation/ibehaviorpropertycollection/insert)(int, string) | Вставляет новое свойство (с указанным значением свойства) в коллекцию по указанному индексу. |
 | [Remove](../../aspose.slides.animation/ibehaviorpropertycollection/remove)(string) | Удаляет указанное свойство из коллекции. |
 

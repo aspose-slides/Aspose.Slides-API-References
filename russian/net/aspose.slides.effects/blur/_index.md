@@ -1,14 +1,14 @@
 ---
 title: Blur
 second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет эффект размытия который применяется ко всей фигуре включая ее заливку. Все цветовые каналы включая альфа затронуты.
+description: Представляет эффект размытия который применяется ко всей фигуре включая ее заливку. Затрагиваются все цветовые каналы включая альфа-канал.
 type: docs
 weight: 2750
 url: /ru/net/aspose.slides.effects/blur/
 ---
 ## Blur class
 
-Представляет эффект размытия, который применяется ко всей фигуре, включая ее заливку. Все цветовые каналы, включая альфа, затронуты.
+Представляет эффект размытия, который применяется ко всей фигуре, включая ее заливку. Затрагиваются все цветовые каналы, включая альфа-канал.
 
 ```csharp
 public class Blur : ImageTransformOperation, IBlur
@@ -18,17 +18,17 @@ public class Blur : ImageTransformOperation, IBlur
 
 | Имя | Описание |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Позволяет получить базовый интерфейс IPresentationComponent. Только для чтения[`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
-| [Grow](../../aspose.slides.effects/blur/grow) { get; set; } | Определяет, должны ли границы объекта увеличиваться в результате размытия. True указывает, что границы увеличиваются, а false указывает, что это не так. Чтение/записьBoolean. |
-| [Radius](../../aspose.slides.effects/blur/radius) { get; set; } | Возвращает или задает радиус размытия. Чтение/записьDouble. |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Позволяет получить базовый интерфейс IPresentationComponent. Только для чтения[`IPresentationComponent`](../../aspose.slides/ipresentationcomponent) . |
+| [Grow](../../aspose.slides.effects/blur/grow) { get; set; } | Определяет, должны ли границы объекта увеличиваться в результате размытия. True указывает, что границы увеличиваются, а false указывает, что они не увеличиваются. Чтение/записьBoolean . |
+| [Radius](../../aspose.slides.effects/blur/radius) { get; set; } | Возвращает или задает радиус размытия. Чтение/записьDouble . |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/blur/equals)(object) | Определяет, равен ли указанный[`Blur`](../blur)текущемуРазмытие. |
+| override [Equals](../../aspose.slides.effects/blur/equals)(object) | Определяет, является ли указанный[`Blur`](../blur) равен текущему[`Blur`](../blur) . |
 | [GetEffective](../../aspose.slides.effects/blur/geteffective)() | Получает эффективные данные эффекта размытия с применением наследования. |
-| override [GetHashCode](../../aspose.slides.effects/blur/gethashcode)() | Служит хэш-функцией для определенного типа. |
+| override [GetHashCode](../../aspose.slides.effects/blur/gethashcode)() | Служит хеш-функцией для определенного типа. |
 
 ### Смотрите также
 

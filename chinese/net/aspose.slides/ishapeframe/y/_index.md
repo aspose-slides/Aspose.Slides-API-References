@@ -1,14 +1,14 @@
 ---
 title: Y
 second_title: Aspose.Slides for .NET API 参考
-description: 返回帧左上角的 Y 坐标 只读Single
+description: 返回一帧左上角的 Y 坐标 只读Single.
 type: docs
 weight: 100
 url: /zh/net/aspose.slides/ishapeframe/y/
 ---
 ## IShapeFrame.Y property
 
-返回帧左上角的 Y 坐标。 只读Single。
+返回一帧左上角的 Y 坐标。 只读Single.
 
 ```csharp
 public float Y { get; }

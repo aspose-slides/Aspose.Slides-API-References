@@ -18,10 +18,10 @@ public sealed class TemplateContext<TObject>
 
 | Имя | Описание |
 | --- | --- |
-| [Global](../../aspose.slides.export.web/templatecontext`1/global) { get; } | Возвращает глобальное хранилище основного документа. Только для чтения[`Storage`](../storage). |
-| [Local](../../aspose.slides.export.web/templatecontext`1/local) { get; } | Возвращает локальное хранилище текущего контекста шаблона. Только для чтения[`Storage`](../storage). |
-| [Object](../../aspose.slides.export.web/templatecontext`1/object) { get; } | Возвращает объект модели. Только для чтения!:TObject. |
-| [Output](../../aspose.slides.export.web/templatecontext`1/output) { get; } | Возвращает набор выходных элементов основного документа. Только чтение[`Output`](./output). |
+| [Global](../../aspose.slides.export.web/templatecontext`1/global) { get; } | Возвращает глобальное хранилище основного документа. Только для чтения[`Storage`](../storage) . |
+| [Local](../../aspose.slides.export.web/templatecontext`1/local) { get; } | Возвращает локальное хранилище текущего контекста шаблона. Только для чтения[`Storage`](../storage) . |
+| [Object](../../aspose.slides.export.web/templatecontext`1/object) { get; } | Возвращает объект модели. Только для чтения!:TObject . |
+| [Output](../../aspose.slides.export.web/templatecontext`1/output) { get; } | Возвращает набор выходных элементов основного документа. Только для чтения[`Output`](./output) . |
 
 ## Методы
 

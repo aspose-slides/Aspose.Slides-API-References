@@ -1,14 +1,14 @@
 ---
 title: ThreeDFormat
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает объект ThreeDFormat который создает свойства 3D-эффекта для фигуры. Примечаниеможет возвращать значение null для определенных типов фигур не имеющих 3D-свойств. Только для чтенияIThreeDFormataspose.slides/ithreedformat.
+description: Возвращает объект ThreeDFormat свойства 3D-эффекта для фигуры. Примечание может возвращать значение null для определенных типов фигур не имеющих 3D-свойств. Только для чтенияIThreeDFormataspose.slides/ithreedformat .
 type: docs
 weight: 260
 url: /ru/net/aspose.slides/shape/threedformat/
 ---
 ## Shape.ThreeDFormat property
 
-Возвращает объект ThreeDFormat, который создает свойства 3D-эффекта для фигуры. Примечание:может возвращать значение null для определенных типов фигур, не имеющих 3D-свойств. Только для чтения[`IThreeDFormat`](../../ithreedformat).
+Возвращает объект ThreeDFormat, свойства 3D-эффекта для фигуры. Примечание: может возвращать значение null для определенных типов фигур, не имеющих 3D-свойств. Только для чтения[`IThreeDFormat`](../../ithreedformat) .
 
 ```csharp
 public virtual IThreeDFormat ThreeDFormat { get; }

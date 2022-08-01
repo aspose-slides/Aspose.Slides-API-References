@@ -32,7 +32,7 @@ public Presentation(LoadOptions loadOptions)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| loadOptions | LoadOptions | Дополнительные параметры загрузки. |
+| loadOptions | LoadOptions | Дополнительные варианты загрузки. |
 
 ### Смотрите также
 
@@ -90,7 +90,7 @@ public Presentation(Stream stream, LoadOptions loadOptions)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | stream | Stream | Входной поток. |
-| loadOptions | LoadOptions | Дополнительные параметры загрузки. |
+| loadOptions | LoadOptions | Дополнительные варианты загрузки. |
 
 ### Смотрите также
 
@@ -103,7 +103,7 @@ public Presentation(Stream stream, LoadOptions loadOptions)
 
 ## Presentation(string) {#constructor_4}
 
-Этот конструктор получает путь к исходному файлу, из которого считывается содержимое презентации.
+Этот конструктор получает путь к исходному файлу, из которого читается содержимое презентации.
 
 ```csharp
 public Presentation(string file)
@@ -117,7 +117,7 @@ public Presentation(string file)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentException | Вызывается, когда входной файл имеет нулевую длину |
+| ArgumentException | Брошен, когда входной файл имеет нулевую длину |
 
 ### Примеры
 
@@ -141,7 +141,7 @@ Dim pres As Presentation = New Presentation("demo.pptx")
 
 ## Presentation(string, LoadOptions) {#constructor_5}
 
-Этот конструктор получает путь к исходному файлу, из которого считывается содержимое презентации.
+Этот конструктор получает путь к исходному файлу, из которого читается содержимое презентации.
 
 ```csharp
 public Presentation(string file, LoadOptions loadOptions)
@@ -150,13 +150,13 @@ public Presentation(string file, LoadOptions loadOptions)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | file | String | Входной файл. |
-| loadOptions | LoadOptions | Дополнительные параметры загрузки. |
+| loadOptions | LoadOptions | Дополнительные варианты загрузки. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentException | Вызывается, когда входной файл имеет нулевую длину |
+| ArgumentException | Брошен, когда входной файл имеет нулевую длину |
 
 ### Смотрите также
 

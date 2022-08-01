@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Slides for .NET API 参考
-description: 获取指定索引处的元素 只读ISectionaspose.slides/isection
+description: 获取指定索引处的元素 只读ISectionaspose.slides/isection.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides/isectioncollection/item/
 ---
 ## ISectionCollection indexer
 
-获取指定索引处的元素。 只读[`ISection`](../../isection)。
+获取指定索引处的元素。 只读[`ISection`](../../isection).
 
 ```csharp
 public ISection this[int index] { get; }

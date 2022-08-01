@@ -1,14 +1,14 @@
 ---
 title: IMathBorderBox
 second_title: Справочник по API Aspose.Slides для .NET
-description: Рисует прямоугольную или другую границу вокруг IMathElement.
+description: Рисует прямоугольную или другую рамку вокруг IMathElement.
 type: docs
 weight: 7460
 url: /ru/net/aspose.slides.mathtext/imathborderbox/
 ---
 ## IMathBorderBox interface
 
-Рисует прямоугольную или другую границу вокруг IMathElement.
+Рисует прямоугольную или другую рамку вокруг IMathElement.
 
 ```csharp
 public interface IMathBorderBox : IMathElement
@@ -20,14 +20,14 @@ public interface IMathBorderBox : IMathElement
 | --- | --- |
 | [AsIMathElement](../../aspose.slides.mathtext/imathborderbox/asimathelement) { get; } | Позволяет получить базовый интерфейс IMathElement [`IMathElement`](../imathelement) |
 | [Base](../../aspose.slides.mathtext/imathborderbox/base) { get; } | Базовый аргумент |
-| [HideBottom](../../aspose.slides.mathtext/imathborderbox/hidebottom) { get; set; } | Hide Bottom Edge (по умолчанию false) - указывает скрытое или отображаемое состояние нижнего края рамки. |
-| [HideLeft](../../aspose.slides.mathtext/imathborderbox/hideleft) { get; set; } | Скрыть левый край (по умолчанию false) - указывает скрытое или отображаемое состояние левого края рамки. |
-| [HideRight](../../aspose.slides.mathtext/imathborderbox/hideright) { get; set; } | Скрыть правый край (по умолчанию false) - указывает скрытое или отображаемое состояние правого края рамки. |
-| [HideTop](../../aspose.slides.mathtext/imathborderbox/hidetop) { get; set; } | Hide Top Edge (по умолчанию false) - указывает скрытое или отображаемое состояние верхнего края рамки. |
-| [StrikethroughBottomLeftToTopRight](../../aspose.slides.mathtext/imathborderbox/strikethroughbottomlefttotopright) { get; set; } | Перечеркнутый снизу-слева вверх-справа (по умолчанию false). Определяет скрытое или отображаемое состояние зачеркнутой диагональной линии от нижнего левого угла до верхнего правого угла рамки. |
-| [StrikethroughHorizontal](../../aspose.slides.mathtext/imathborderbox/strikethroughhorizontal) { get; set; } | Strikethrough Horizontal (по умолчанию false) - указывает скрытое или отображаемое состояние зачеркнутой горизонтальной линии. |
-| [StrikethroughTopLeftToBottomRight](../../aspose.slides.mathtext/imathborderbox/strikethroughtoplefttobottomright) { get; set; } | Перечеркнутый верхний левый нижний правый (по умолчанию false). Определяет скрытое или отображаемое состояние зачеркнутой диагональной линии от верхнего левого угла до нижнего правого угла рамки. |
-| [StrikethroughVertical](../../aspose.slides.mathtext/imathborderbox/strikethroughvertical) { get; set; } | Strikethrough Vertical (по умолчанию false) - указывает скрытое или отображаемое состояние зачеркнутой вертикальной линии. |
+| [HideBottom](../../aspose.slides.mathtext/imathborderbox/hidebottom) { get; set; } | Hide Bottom Edge (по умолчанию false) — указывает скрытое или отображаемое состояние нижнего края рамки. |
+| [HideLeft](../../aspose.slides.mathtext/imathborderbox/hideleft) { get; set; } | Скрыть левый край (по умолчанию false) — указывает скрытое или отображаемое состояние левого края рамки. |
+| [HideRight](../../aspose.slides.mathtext/imathborderbox/hideright) { get; set; } | Скрыть правый край (по умолчанию false) — указывает скрытое или отображаемое состояние правого края рамки. |
+| [HideTop](../../aspose.slides.mathtext/imathborderbox/hidetop) { get; set; } | Hide Top Edge (по умолчанию false) — указывает скрытое или отображаемое состояние верхнего края рамки. |
+| [StrikethroughBottomLeftToTopRight](../../aspose.slides.mathtext/imathborderbox/strikethroughbottomlefttotopright) { get; set; } | Зачеркнутый нижний левый угол в верхний правый (по умолчанию false). Определяет скрытое или отображаемое состояние зачеркнутой диагональной линии от нижнего левого угла до верхнего правого угла рамки. |
+| [StrikethroughHorizontal](../../aspose.slides.mathtext/imathborderbox/strikethroughhorizontal) { get; set; } | Strikethrough Horizontal (по умолчанию false) — указывает скрытое или отображаемое состояние зачеркнутой горизонтальной линии. |
+| [StrikethroughTopLeftToBottomRight](../../aspose.slides.mathtext/imathborderbox/strikethroughtoplefttobottomright) { get; set; } | Зачеркнутый верхний левый нижний правый угол (по умолчанию false). Определяет скрытое или отображаемое состояние зачеркнутой диагональной линии от верхнего левого угла до нижнего правого угла рамки. |
+| [StrikethroughVertical](../../aspose.slides.mathtext/imathborderbox/strikethroughvertical) { get; set; } | Зачеркнутая вертикаль (по умолчанию false) — указывает скрытое или отображаемое состояние зачеркнутой вертикальной линии. |
 
 ### Примеры
 

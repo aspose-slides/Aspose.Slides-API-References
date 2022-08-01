@@ -1,14 +1,14 @@
 ---
 title: Image
 second_title: Aspose.Slides for .NET API 参考
-description: 返回嵌入的图像 只读IPPImageaspose.slides/ippimage
+description: 返回嵌入的图像 只读IPPImageaspose.slides/ippimage.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides/ipictureeffectivedata/image/
 ---
 ## IPictureEffectiveData.Image property
 
-返回嵌入的图像。 只读[`IPPImage`](../../ippimage)。
+返回嵌入的图像。 只读[`IPPImage`](../../ippimage).
 
 ```csharp
 public IPPImage Image { get; }

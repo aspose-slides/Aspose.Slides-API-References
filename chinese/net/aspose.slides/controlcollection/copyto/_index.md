@@ -16,8 +16,8 @@ public void CopyTo(Array array, int index)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| array | Array | 目标数组 |
-| index | Int32 | 目标数组中的索引. |
+| array | Array | 目标阵列 |
+| index | Int32 | 目标数组中的索引。 |
 
 ### 也可以看看
 

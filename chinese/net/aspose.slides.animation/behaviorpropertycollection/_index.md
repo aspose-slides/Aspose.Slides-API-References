@@ -18,8 +18,8 @@ public class BehaviorPropertyCollection : IBehaviorPropertyCollection
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Count](../../aspose.slides.animation/behaviorpropertycollection/count) { get; } | 返回集合中存储的属性数。 只读Int32。 |
-| [IsReadOnly](../../aspose.slides.animation/behaviorpropertycollection/isreadonly) { get; } | 获取一个值，该值指示ICollection是否为只读。 只读Boolean。 |
+| [Count](../../aspose.slides.animation/behaviorpropertycollection/count) { get; } | 返回集合中存储的属性数。 只读Int32. |
+| [IsReadOnly](../../aspose.slides.animation/behaviorpropertycollection/isreadonly) { get; } | 获取一个值，该值指示是否ICollection是只读的。 只读Boolean. |
 | [Item](../../aspose.slides.animation/behaviorpropertycollection/item) { get; set; } | 返回指定索引处的属性。 |
 
 ## 方法
@@ -29,14 +29,14 @@ public class BehaviorPropertyCollection : IBehaviorPropertyCollection
 | [Add](../../aspose.slides.animation/behaviorpropertycollection/add#add)(IBehaviorProperty) | 将新属性添加到集合中。 |
 | [Add](../../aspose.slides.animation/behaviorpropertycollection/add#add_1)(string) | 将新属性添加到集合中。 |
 | [Clear](../../aspose.slides.animation/behaviorpropertycollection/clear)() | 从集合中删除所有属性。 |
-| [Contains](../../aspose.slides.animation/behaviorpropertycollection/contains#contains)(IBehaviorProperty) | 确定ICollection是否包含特定值。 |
-| [Contains](../../aspose.slides.animation/behaviorpropertycollection/contains#contains_1)(string) | 确定ICollection是否包含特定值。 |
-| [CopyTo](../../aspose.slides.animation/behaviorpropertycollection/copyto)(IBehaviorProperty[], int) | 将ICollection的元素复制到System。Array，从特定的Array索引开始。 |
+| [Contains](../../aspose.slides.animation/behaviorpropertycollection/contains#contains)(IBehaviorProperty) | 确定是否ICollection包含特定值。 |
+| [Contains](../../aspose.slides.animation/behaviorpropertycollection/contains#contains_1)(string) | 确定是否ICollection包含特定值。 |
+| [CopyTo](../../aspose.slides.animation/behaviorpropertycollection/copyto)(IBehaviorProperty[], int) | 复制元素ICollection对一个Array，从一个特定的开始Array索引. |
 | [GetEnumerator](../../aspose.slides.animation/behaviorpropertycollection/getenumerator)() | 返回一个遍历集合的枚举器。 |
-| [IndexOf](../../aspose.slides.animation/behaviorpropertycollection/indexof#indexof)(IBehaviorProperty) | 确定IList中特定项目的索引。 |
-| [IndexOf](../../aspose.slides.animation/behaviorpropertycollection/indexof#indexof_1)(string) | 通过IList中的属性值确定特定项目的索引。 |
-| [Insert](../../aspose.slides.animation/behaviorpropertycollection/insert#insert)(int, IBehaviorProperty) | 在指定索引处将新属性插入到集合中。 |
-| [Insert](../../aspose.slides.animation/behaviorpropertycollection/insert#insert_1)(int, string) | 在指定索引处将新属性（具有指定属性值）插入到集合中。 |
+| [IndexOf](../../aspose.slides.animation/behaviorpropertycollection/indexof#indexof)(IBehaviorProperty) | 确定特定项目的索引IList. |
+| [IndexOf](../../aspose.slides.animation/behaviorpropertycollection/indexof#indexof_1)(string) | 通过属性值确定特定项的索引IList. |
+| [Insert](../../aspose.slides.animation/behaviorpropertycollection/insert#insert)(int, IBehaviorProperty) | 向集合中指定索引处插入一个新属性。 |
+| [Insert](../../aspose.slides.animation/behaviorpropertycollection/insert#insert_1)(int, string) | 将新属性（具有指定属性值）插入到指定索引处的集合中。 |
 | [Remove](../../aspose.slides.animation/behaviorpropertycollection/remove#remove)(IBehaviorProperty) | 从集合中删除指定的属性。 |
 | [Remove](../../aspose.slides.animation/behaviorpropertycollection/remove#remove_1)(string) | 从集合中删除指定的属性。 |
 | [RemoveAt](../../aspose.slides.animation/behaviorpropertycollection/removeat)(int) | 删除指定索引处的属性。 |

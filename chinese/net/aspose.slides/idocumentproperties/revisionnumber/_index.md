@@ -1,14 +1,14 @@
 ---
 title: RevisionNumber
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置演示版本号 读/写Int32
+description: 返回或设置演示版本号 读/写Int32.
 type: docs
 weight: 200
 url: /zh/net/aspose.slides/idocumentproperties/revisionnumber/
 ---
 ## IDocumentProperties.RevisionNumber property
 
-返回或设置演示版本号。 读/写Int32。
+返回或设置演示版本号。 读/写Int32.
 
 ```csharp
 public int RevisionNumber { get; set; }

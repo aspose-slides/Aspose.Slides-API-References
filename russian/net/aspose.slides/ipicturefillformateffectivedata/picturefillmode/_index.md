@@ -1,14 +1,14 @@
 ---
 title: PictureFillMode
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает режим заливки картинкой. Только для чтенияPictureFillModeaspose.slides/picturefillmode.
+description: Возвращает режим заливки изображения. Только для чтенияPictureFillModeaspose.slides/picturefillmode .
 type: docs
 weight: 80
 url: /ru/net/aspose.slides/ipicturefillformateffectivedata/picturefillmode/
 ---
 ## IPictureFillFormatEffectiveData.PictureFillMode property
 
-Возвращает режим заливки картинкой. Только для чтения[`PictureFillMode`](../../picturefillmode).
+Возвращает режим заливки изображения. Только для чтения[`PictureFillMode`](../../picturefillmode) .
 
 ```csharp
 public PictureFillMode PictureFillMode { get; }

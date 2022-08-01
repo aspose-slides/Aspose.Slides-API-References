@@ -18,8 +18,8 @@ public interface IOrientationTransition : ITransitionValueBase
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/iorientationtransition/asitransitionvaluebase) { get; } | 允许获取基本 ITransitionValueBase 接口。 只读[`ITransitionValueBase`](../itransitionvaluebase)。 |
-| [Direction](../../aspose.slides.slideshow/iorientationtransition/direction) { get; set; } | 过渡方向。 读/写[`Orientation`](../../aspose.slides/orientation)。 |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/iorientationtransition/asitransitionvaluebase) { get; } | 允许获取基本 ITransitionValueBase 接口。 只读[`ITransitionValueBase`](../itransitionvaluebase). |
+| [Direction](../../aspose.slides.slideshow/iorientationtransition/direction) { get; set; } | 转换方向。 读/写[`Orientation`](../../aspose.slides/orientation). |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: ExplicitBreak
 second_title: Aspose.Slides for .NET API 参考
-description: 显式换行指定 Box 对象的开头是否有换行符 使得换行在盒子的开头目的 指定前一行数学文本上的运算符编号该编号应 用作当前数学文本行的对齐点 可能值1..255 默认值0无显式中断
+description: 显式断点指定在 Box 对象的开头是否有换行符 使得该行在盒子对象的开头换行 指定前一行数学文本上的运算符号 被使用作为当前数学文本行的对齐点 可能值1..255 默认值0无显式中断
 type: docs
 weight: 50
 url: /zh/net/aspose.slides.mathtext/mathbox/explicitbreak/
 ---
 ## MathBox.ExplicitBreak property
 
-显式换行指定 Box 对象的开头是否有换行符， 使得换行在盒子的开头目的。 指定前一行数学文本上的运算符编号，该编号应 用作当前数学文本行的对齐点 可能值:1..255 默认值:0（无显式中断）
+显式断点指定在 Box 对象的开头是否有换行符， 使得该行在盒子对象的开头换行。 指定前一行数学文本上的运算符号 被使用作为当前数学文本行的对齐点 可能值：1..255 默认值：0（无显式中断）
 
 ```csharp
 public byte ExplicitBreak { get; set; }
@@ -16,7 +16,7 @@ public byte ExplicitBreak { get; set; }
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]

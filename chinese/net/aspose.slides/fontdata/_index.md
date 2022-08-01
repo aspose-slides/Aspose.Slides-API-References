@@ -1,14 +1,14 @@
 ---
 title: FontData
 second_title: Aspose.Slides for .NET API 参考
-description: 表示字体定义不可变
+description: 表示字体定义不可变的.
 type: docs
 weight: 4380
 url: /zh/net/aspose.slides/fontdata/
 ---
 ## FontData class
 
-表示字体定义。不可变。
+表示字体定义。不可变的.
 
 ```csharp
 public sealed class FontData : IFontData
@@ -24,16 +24,16 @@ public sealed class FontData : IFontData
 
 | 姓名 | 描述 |
 | --- | --- |
-| [FontName](../../aspose.slides/fontdata/fontname) { get; } | 返回字体名称。 读/写String。 |
+| [FontName](../../aspose.slides/fontdata/fontname) { get; } | 返回字体名称。 读/写String. |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [Equals](../../aspose.slides/fontdata/equals)(object) | 确定两个 FontData 实例是否相等。 |
+| override [Equals](../../aspose.slides/fontdata/equals)(object) | 判断两个 FontData 实例是否相等。 |
 | [GetFontName](../../aspose.slides/fontdata/getfontname)(IThemeEffectiveData) | 返回字体名称，将主题引用替换为实际使用的字体。 |
 | override [GetHashCode](../../aspose.slides/fontdata/gethashcode)() | 用作特定类型的哈希函数，适合在哈希算法和哈希表等数据结构中使用 。 |
-| override [ToString](../../aspose.slides/fontdata/tostring)() | 返回字符串表示。 |
+| override [ToString](../../aspose.slides/fontdata/tostring)() | 返回字符串表示形式。 |
 
 ### 也可以看看
 

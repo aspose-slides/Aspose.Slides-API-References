@@ -55,7 +55,7 @@ public void SetExternalWorkbook(string workbookPath, bool updateChartData)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | workbookPath | String | 目标工作簿的路径 |
-| updateChartData | Boolean | If value为 false 只有工作簿路径将被更新。 图表数据不会从目标工作簿加载和更新。可在目标工作簿不存在或不可用时使用。 如果值为真，则图表数据将从目标工作簿更新。 |
+| updateChartData | Boolean | 如果值为 false，则只会更新工作簿路径。 图表数据不会从目标工作簿加载和更新。可以在目标工作簿不存在或不可用时使用。 如果值为 true，则图表数据将从目标工作簿更新。 |
 
 ### 例外
 
@@ -71,7 +71,7 @@ using (Presentation pres = new Presentation())
    IChart chart = pres.Slides[0].Shapes.AddChart(ChartType.Pie, 50, 50, 400, 600, true);
    IChartData chartData = chart.ChartData;
 
-   (chartData as ChartData).SetExternalWorkbook("http: //路径/不存在/存在", false);
+   (chartData as ChartData).SetExternalWorkbook("http://路径/不存在/存在", false);
 
 
 ```

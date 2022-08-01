@@ -18,12 +18,12 @@ public interface ILegend : IFormattedTextContainer, ILayoutable
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsIFormattedTextContainer](../../aspose.slides.charts/ilegend/asiformattedtextcontainer) { get; } | 允许获取基本 IFormattedTextContainer 接口。 只读[`IFormattedTextContainer`](../iformattedtextcontainer)。 |
-| [AsILayoutable](../../aspose.slides.charts/ilegend/asilayoutable) { get; } | 允许获取基本的 ILayoutable 接口。 只读[`ILayoutable`](../ilayoutable)。 |
-| [Entries](../../aspose.slides.charts/ilegend/entries) { get; } | 获取图例条目。 只读[`ILegendEntryCollection`](../ilegendentrycollection)。 |
-| [Format](../../aspose.slides.charts/ilegend/format) { get; } | 返回图例的格式。 只读[`IFormat`](../iformat)。 |
-| [Overlay](../../aspose.slides.charts/ilegend/overlay) { get; set; } | 确定是否允许其他图表元素与图例重叠。 读/写Boolean。 |
-| [Position](../../aspose.slides.charts/ilegend/position) { get; set; } | 指定图例在图表上的位置。 X、Y、Width、Heigt 属性的非 NaN 值会覆盖此属性的效果。 读/写[`LegendPositionType`](../legendpositiontype)。 |
+| [AsIFormattedTextContainer](../../aspose.slides.charts/ilegend/asiformattedtextcontainer) { get; } | 允许获取基本 IFormattedTextContainer 接口。 只读[`IFormattedTextContainer`](../iformattedtextcontainer). |
+| [AsILayoutable](../../aspose.slides.charts/ilegend/asilayoutable) { get; } | 允许获取基本 ILayoutable 接口。 只读[`ILayoutable`](../ilayoutable). |
+| [Entries](../../aspose.slides.charts/ilegend/entries) { get; } | 获取图例条目。 只读[`ILegendEntryCollection`](../ilegendentrycollection). |
+| [Format](../../aspose.slides.charts/ilegend/format) { get; } | 返回图例的格式。 只读[`IFormat`](../iformat). |
+| [Overlay](../../aspose.slides.charts/ilegend/overlay) { get; set; } | 确定是否应允许其他图表元素与图例重叠。 读/写Boolean. |
+| [Position](../../aspose.slides.charts/ilegend/position) { get; set; } | 指定图例在图表上的位置。 X、Y、宽度、高度属性的非 NaN 值覆盖此属性的效果。 读/写[`LegendPositionType`](../legendpositiontype). |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: None
 second_title: Aspose.Slides for .NET API 参考
-description: 表示一个空的中断令牌  长时间运行的操作永远不会被Interruptaspose.slides/interruptiontokensource/interrupt 中断使用时这个令牌
+description: 表示一个空的中断令牌 长时间运行的操作永远不会被中断Interruptaspose.slides/interruptiontokensource/interrupt 使用此令牌时
 type: docs
 weight: 10
 url: /zh/net/aspose.slides/interruptiontoken/none/
 ---
 ## InterruptionToken.None property
 
-表示一个空的中断令牌。  长时间运行的操作永远不会被[`Interrupt`](../../interruptiontokensource/interrupt) 中断使用时这个令牌。
+表示一个空的中断令牌。 长时间运行的操作永远不会被中断[`Interrupt`](../../interruptiontokensource/interrupt) 使用此令牌时。
 
 ```csharp
 public static InterruptionToken None { get; }

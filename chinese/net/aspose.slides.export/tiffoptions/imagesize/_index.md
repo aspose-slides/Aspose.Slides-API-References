@@ -1,14 +1,14 @@
 ---
 title: ImageSize
 second_title: Aspose.Slides for .NET API 参考
-description: 指定生成的 TIFF 图像的大小 默认值为0x0表示生成的图像大小将根据演示幻灯片大小值计算 读/写Size
+description: 指定生成的TIFF图像的大小 默认值为0x0这意味着生成的图像大小将根据演示幻灯片大小值计算 读/写Size.
 type: docs
 weight: 50
 url: /zh/net/aspose.slides.export/tiffoptions/imagesize/
 ---
 ## TiffOptions.ImageSize property
 
-指定生成的 TIFF 图像的大小。 默认值为0x0，表示生成的图像大小将根据演示幻灯片大小值计算。 读/写Size。
+指定生成的TIFF图像的大小。 默认值为0x0，这意味着生成的图像大小将根据演示幻灯片大小值计算。 读/写Size.
 
 ```csharp
 public Size ImageSize { get; set; }

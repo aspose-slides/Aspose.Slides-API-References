@@ -1,14 +1,14 @@
 ---
 title: Height
 second_title: Aspose.Slides for .NET API 参考
-description: 返回段落的项目符号高度 只读Single
+description: 返回段落的项目符号高度 只读Single.
 type: docs
 weight: 50
 url: /zh/net/aspose.slides/ibulletformateffectivedata/height/
 ---
 ## IBulletFormatEffectiveData.Height property
 
-返回段落的项目符号高度。 只读Single。
+返回段落的项目符号高度。 只读Single.
 
 ```csharp
 public float Height { get; }

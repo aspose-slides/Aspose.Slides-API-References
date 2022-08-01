@@ -1,14 +1,14 @@
 ---
 title: GapWidth
 second_title: Aspose.Slides for .NET API 参考
-description: 指定条形或列簇之间的间距以条形或列宽的百分比表示 读/写UInt16
+description: 指定条形或列簇之间的间距以条形或列宽的百分比表示 读/写UInt16.
 type: docs
 weight: 70
 url: /zh/net/aspose.slides.charts/chartseriesgroup/gapwidth/
 ---
 ## ChartSeriesGroup.GapWidth property
 
-指定条形或列簇之间的间距，以条形或列宽的百分比表示。 读/写UInt16。
+指定条形或列簇之间的间距，以条形或列宽的百分比表示。 读/写UInt16.
 
 ```csharp
 public ushort GapWidth { get; set; }

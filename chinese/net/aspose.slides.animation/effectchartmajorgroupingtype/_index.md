@@ -18,7 +18,7 @@ public enum EffectChartMajorGroupingType
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| BySeries | `0` | 按系列动画图表 |
+| BySeries | `0` | 系列动画图表 |
 | ByCategory | `1` | 按类别动画图表 |
 
 ### 也可以看看

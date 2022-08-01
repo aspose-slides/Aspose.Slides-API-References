@@ -1,14 +1,14 @@
 ---
 title: ReadOnlyRecommended
 second_title: Справочник по API Aspose.Slides для .NET
-description: Получает или задает рекомендацию только для чтения. Чтение/записьBoolean.
+description: Получает или задает рекомендацию только для чтения. Чтение/записьBoolean .
 type: docs
 weight: 60
 url: /ru/net/aspose.slides/protectionmanager/readonlyrecommended/
 ---
 ## ProtectionManager.ReadOnlyRecommended property
 
-Получает или задает рекомендацию только для чтения. Чтение/записьBoolean.
+Получает или задает рекомендацию только для чтения. Чтение/записьBoolean .
 
 ```csharp
 public bool ReadOnlyRecommended { get; set; }

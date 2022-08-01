@@ -16,7 +16,7 @@ public IAlphaCeilingEffectiveData GetEffective()
 
 ### 返回值
 
-A[`IAlphaCeilingEffectiveData`](../../ialphaceilingeffectivedata)。
+一个[`IAlphaCeilingEffectiveData`](../../ialphaceilingeffectivedata).
 
 ### 也可以看看
 

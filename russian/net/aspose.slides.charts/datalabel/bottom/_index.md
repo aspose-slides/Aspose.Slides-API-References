@@ -1,14 +1,14 @@
 ---
 title: Bottom
 second_title: Справочник по API Aspose.Slides для .NET
-description: Снизу. Только для чтенияSingle.
+description: Низ. Только для чтенияSingle .
 type: docs
 weight: 60
 url: /ru/net/aspose.slides.charts/datalabel/bottom/
 ---
 ## DataLabel.Bottom property
 
-Снизу. Только для чтенияSingle.
+Низ. Только для чтенияSingle .
 
 ```csharp
 public float Bottom { get; }

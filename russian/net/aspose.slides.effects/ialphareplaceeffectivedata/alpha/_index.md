@@ -1,14 +1,14 @@
 ---
 title: Alpha
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает новое альфа-значение в интервале 0..1 Только для чтенияSingle.
+description: Возвращает новое альфа-значение в интервале 0..1 Только для чтенияSingle .
 type: docs
 weight: 10
 url: /ru/net/aspose.slides.effects/ialphareplaceeffectivedata/alpha/
 ---
 ## IAlphaReplaceEffectiveData.Alpha property
 
-Возвращает новое альфа-значение в интервале [0..1] Только для чтенияSingle.
+Возвращает новое альфа-значение в интервале [0..1] Только для чтенияSingle .
 
 ```csharp
 public float Alpha { get; }

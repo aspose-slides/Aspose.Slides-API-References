@@ -1,14 +1,14 @@
 ---
 title: HyperlinkMouseOver
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает гиперссылку определенную для наведения мыши. Только для чтенияIHyperlinkaspose.slides/ihyperlink.
+description: Возвращает гиперссылку определенную для наведения указателя мыши. Только для чтенияIHyperlinkaspose.slides/ihyperlink .
 type: docs
 weight: 40
 url: /ru/net/aspose.slides/iportionformateffectivedata/hyperlinkmouseover/
 ---
 ## IPortionFormatEffectiveData.HyperlinkMouseOver property
 
-Возвращает гиперссылку, определенную для наведения мыши. Только для чтения[`IHyperlink`](../../ihyperlink).
+Возвращает гиперссылку, определенную для наведения указателя мыши. Только для чтения[`IHyperlink`](../../ihyperlink) .
 
 ```csharp
 public IHyperlink HyperlinkMouseOver { get; }

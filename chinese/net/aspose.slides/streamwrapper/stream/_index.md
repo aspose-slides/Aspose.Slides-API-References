@@ -1,14 +1,14 @@
 ---
 title: Stream
 second_title: Aspose.Slides for .NET API 参考
-description: 获取流 只读Stream
+description: 获取流 只读Stream.
 type: docs
 weight: 70
 url: /zh/net/aspose.slides/streamwrapper/stream/
 ---
 ## StreamWrapper.Stream property
 
-获取流。 只读Stream。
+获取流。 只读Stream.
 
 ```csharp
 public Stream Stream { get; }

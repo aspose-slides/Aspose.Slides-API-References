@@ -32,7 +32,7 @@ public OOXMLCorruptFileException(string message)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| message | String | 消息 |
+| message | String | 信息 |
 
 ### 也可以看看
 
@@ -52,7 +52,7 @@ public OOXMLCorruptFileException(string message, Exception exception)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| message | String | message |
+| message | String | 信息 |
 | exception | Exception | 原始异常 |
 
 ### 也可以看看

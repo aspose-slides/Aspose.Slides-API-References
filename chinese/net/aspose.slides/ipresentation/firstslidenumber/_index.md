@@ -1,14 +1,14 @@
 ---
 title: FirstSlideNumber
 second_title: Aspose.Slides for .NET API 参考
-description: 表示演示文稿中的第一张幻灯片编号 读/写Int32
+description: 表示演示文稿中的第一张幻灯片编号 读/写Int32.
 type: docs
 weight: 110
 url: /zh/net/aspose.slides/ipresentation/firstslidenumber/
 ---
 ## IPresentation.FirstSlideNumber property
 
-表示演示文稿中的第一张幻灯片编号。 读/写Int32。
+表示演示文稿中的第一张幻灯片编号。 读/写Int32.
 
 ```csharp
 public int FirstSlideNumber { get; set; }

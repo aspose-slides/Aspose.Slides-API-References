@@ -18,13 +18,13 @@ public class SoftEdge : ISoftEdge
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Radius](../../aspose.slides.effects/softedge/radius) { get; set; } | 指定应用于边缘的模糊半径。 读/写Double。 |
+| [Radius](../../aspose.slides.effects/softedge/radius) { get; set; } | 指定应用到边缘的模糊半径。 读/写Double. |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/softedge/equals)(object) | 确定指定的[`SoftEdge`](../softedge)是否等于当前SoftEdge。 |
+| override [Equals](../../aspose.slides.effects/softedge/equals)(object) | 判断是否指定[`SoftEdge`](../softedge)等于当前[`SoftEdge`](../softedge). |
 | [GetEffective](../../aspose.slides.effects/softedge/geteffective)() | 获取应用了继承的有效软边缘效果数据。 |
 | override [GetHashCode](../../aspose.slides.effects/softedge/gethashcode)() | 用作特定类型的哈希函数。 |
 

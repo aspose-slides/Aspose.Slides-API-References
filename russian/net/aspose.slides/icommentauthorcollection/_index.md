@@ -18,7 +18,7 @@ public interface ICommentAuthorCollection : IGenericCollection<ICommentAuthor>
 
 | Имя | Описание |
 | --- | --- |
-| [Item](../../aspose.slides/icommentauthorcollection/item) { get; } | Получает элемент по указанному индексу. Только для чтения[`ICommentAuthor`](../icommentauthor). |
+| [Item](../../aspose.slides/icommentauthorcollection/item) { get; } | Получает элемент по указанному индексу. Только для чтения[`ICommentAuthor`](../icommentauthor) . |
 
 ## Методы
 

@@ -1,14 +1,14 @@
 ---
 title: Height
 second_title: Aspose.Slides for .NET API 参考
-description: 将图表元素的高度指定为图表高度的一部分 读/写Single
+description: 将图表元素的高度指定为图表高度的一部分 读/写Single.
 type: docs
 weight: 30
 url: /zh/net/aspose.slides.charts/ilayoutable/height/
 ---
 ## ILayoutable.Height property
 
-将图表元素的高度指定为图表高度的一部分。 读/写Single。
+将图表元素的高度指定为图表高度的一部分。 读/写Single.
 
 ```csharp
 public float Height { get; set; }

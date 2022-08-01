@@ -1,14 +1,14 @@
 ---
 title: ProtectionManager
 second_title: Aspose.Slides for .NET API 参考
-description: 演示密码保护管理
+description: 演示密码保护管理.
 type: docs
 weight: 8950
 url: /zh/net/aspose.slides/protectionmanager/
 ---
 ## ProtectionManager class
 
-演示密码保护管理。
+演示密码保护管理.
 
 ```csharp
 public sealed class ProtectionManager : IProtectionManager
@@ -18,12 +18,12 @@ public sealed class ProtectionManager : IProtectionManager
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EncryptDocumentProperties](../../aspose.slides/protectionmanager/encryptdocumentproperties) { get; set; } | 如果演示文稿受密码保护，此属性是有意义的。 如果为真，则文档属性在演示文件中被加密。 如果为 false，则文档属性是公开的，而演示文稿是加密的。 读/写Boolean。 |
-| [EncryptionPassword](../../aspose.slides/protectionmanager/encryptionpassword) { get; } | 获取用于演示加密的密码。 只读String。 |
-| [IsEncrypted](../../aspose.slides/protectionmanager/isencrypted) { get; } | 获取指示此实例是否加密的值。 只读Boolean。 |
-| [IsOnlyDocumentPropertiesLoaded](../../aspose.slides/protectionmanager/isonlydocumentpropertiesloaded) { get; } | 如果演示文件受密码保护并且文档 该文件的属性是公共的，则此属性是有意义的。 true 的值意味着仅从加密的 演示文件中加载文档属性而不使用密码。 false 值表示使用正确的 密码加载整个加密演示文稿，而不仅仅是加载文档属性。 如果演示文稿未加密，则属性值始终为 false。 如果加密文件的文档属性不公开，则属性值始终为 false。 如果 Presentation.EncryptDocumentProperties 为真，则 IsOnlyDocumentPropertiesLoaded 属性值始终为假。 只读Boolean。 |
-| [IsWriteProtected](../../aspose.slides/protectionmanager/iswriteprotected) { get; } | 获取一个值，该值指示此演示文稿是否受写保护。 只读Boolean。 |
-| [ReadOnlyRecommended](../../aspose.slides/protectionmanager/readonlyrecommended) { get; set; } | 获取或设置只读推荐。 读/写Boolean。 |
+| [EncryptDocumentProperties](../../aspose.slides/protectionmanager/encryptdocumentproperties) { get; set; } | 如果演示文稿受密码保护，则此属性有意义。 如果为 true，则演示文稿文件中的文档属性被加密。 如果为 false，则演示文稿加密时文档属性是公共的。 读/写Boolean. |
+| [EncryptionPassword](../../aspose.slides/protectionmanager/encryptionpassword) { get; } | 获取用于演示加密的密码。 只读String. |
+| [IsEncrypted](../../aspose.slides/protectionmanager/isencrypted) { get; } | 获取一个值，该值指示此实例是否已加密。 只读Boolean. |
+| [IsOnlyDocumentPropertiesLoaded](../../aspose.slides/protectionmanager/isonlydocumentpropertiesloaded) { get; } | 此属性有意义，如果演示文件受密码保护并且此文件的文档 属性是公开的。 值为 true 表示仅从加密的 演示文件中加载文档属性而不使用密码。 值为 false 表示使用正确的 密码加载整个加密演示文稿，不仅加载文档属性。 如果演示文稿未加密，则属性值始终为假。 如果加密文件的文档属性不是公开的，则属性值始终为false. 如果 Presentation.EncryptDocumentProperties 为真，则 IsOnlyDocumentPropertiesLoaded 属性值始终为假。 只读Boolean. |
+| [IsWriteProtected](../../aspose.slides/protectionmanager/iswriteprotected) { get; } | 获取一个值，该值指示此演示文稿是否受写保护。 只读Boolean. |
+| [ReadOnlyRecommended](../../aspose.slides/protectionmanager/readonlyrecommended) { get; set; } | 获取或设置只读推荐。 读/写Boolean. |
 
 ## 方法
 

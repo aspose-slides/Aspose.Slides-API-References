@@ -1,14 +1,14 @@
 ---
 title: AsISlideComponent
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает интерфейс ISlideComponent. Только для чтенияISlideComponentaspose.slides/islidecomponent.
+description: Возвращает интерфейс ISlideComponent. Только для чтенияISlideComponentaspose.slides/islidecomponent .
 type: docs
 weight: 10
 url: /ru/net/aspose.slides.theme/ithemeable/asislidecomponent/
 ---
 ## IThemeable.AsISlideComponent property
 
-Возвращает интерфейс ISlideComponent. Только для чтения[`ISlideComponent`](../../../aspose.slides/islidecomponent).
+Возвращает интерфейс ISlideComponent. Только для чтения[`ISlideComponent`](../../../aspose.slides/islidecomponent) .
 
 ```csharp
 public ISlideComponent AsISlideComponent { get; }

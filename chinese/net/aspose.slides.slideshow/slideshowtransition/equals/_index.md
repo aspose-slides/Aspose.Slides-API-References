@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: Aspose.Slides for .NET API 参考
-description: 确定两个 SlideShowTransition 实例是否相等 读/写Boolean
+description: 确定两个 SlideShowTransition 实例是否相等 读/写Boolean.
 type: docs
 weight: 110
 url: /zh/net/aspose.slides.slideshow/slideshowtransition/equals/
 ---
 ## SlideShowTransition.Equals method
 
-确定两个 SlideShowTransition 实例是否相等。 读/写Boolean。
+确定两个 SlideShowTransition 实例是否相等。 读/写Boolean.
 
 ```csharp
 public override bool Equals(object obj)
@@ -20,7 +20,7 @@ public override bool Equals(object obj)
 
 ### 返回值
 
-**true** 如果指定的 SlideShowTransition 等于当前 SlideShowTransition；否则， **false** 。
+**真的**如果指定的 SlideShowTransition 等于当前 SlideShowTransition；否则， **错误的**.
 
 ### 也可以看看
 

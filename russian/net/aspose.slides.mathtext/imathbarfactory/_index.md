@@ -1,14 +1,14 @@
 ---
 title: IMathBarFactory
 second_title: Справочник по API Aspose.Slides для .NET
-description: Позволяет создать математическую панель
+description: Позволяет создать математическую шкалу
 type: docs
 weight: 7420
 url: /ru/net/aspose.slides.mathtext/imathbarfactory/
 ---
 ## IMathBarFactory interface
 
-Позволяет создать математическую панель
+Позволяет создать математическую шкалу
 
 ```csharp
 public interface IMathBarFactory
@@ -18,8 +18,8 @@ public interface IMathBarFactory
 
 | Имя | Описание |
 | --- | --- |
-| [CreateMathBar](../../aspose.slides.mathtext/imathbarfactory/createmathbar#createmathbar)(IMathElement) | Создать математическую полосу, применив к элементу |
-| [CreateMathBar](../../aspose.slides.mathtext/imathbarfactory/createmathbar#createmathbar_1)(IMathElement, MathTopBotPositions) | Создать математическую полосу, применив к элементу |
+| [CreateMathBar](../../aspose.slides.mathtext/imathbarfactory/createmathbar#createmathbar)(IMathElement) | Создайте математическую полосу, применив к element |
+| [CreateMathBar](../../aspose.slides.mathtext/imathbarfactory/createmathbar#createmathbar_1)(IMathElement, MathTopBotPositions) | Создайте математическую полосу, применив к element |
 
 ### Примечания
 

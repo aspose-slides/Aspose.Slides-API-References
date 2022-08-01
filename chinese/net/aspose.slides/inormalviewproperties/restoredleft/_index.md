@@ -1,14 +1,14 @@
 ---
 title: RestoredLeft
 second_title: Aspose.Slides for .NET API 参考
-description: 此元素指定正常视图的侧内容区域的大小当该区域是变量时 恢复大小既不是最小化也不是最小化最大化 选择性阅读INormalViewRestoredPropertiesaspose.slides/inormalviewrestoredproperties
+description: 该元素指定正常视图的侧面内容区域的大小当该区域具有可变大小时INormalViewRestoredPropertiesaspose.slides/inormalviewrestoredproperties.
 type: docs
 weight: 30
 url: /zh/net/aspose.slides/inormalviewproperties/restoredleft/
 ---
 ## INormalViewProperties.RestoredLeft property
 
-此元素指定正常视图的侧内容区域的大小，当该区域是变量时 恢复大小（既不是最小化也不是最小化）最大化）。 选择性阅读[`INormalViewRestoredProperties`](../../inormalviewrestoredproperties)。
+该元素指定正常视图的侧面内容区域的大小，当该区域具有可变大小时[`INormalViewRestoredProperties`](../../inormalviewrestoredproperties).
 
 ```csharp
 public INormalViewRestoredProperties RestoredLeft { get; }

@@ -1,14 +1,14 @@
 ---
 title: DefaultTabSize
 second_title: Aspose.Slides for .NET API 参考
-description: 返回默认列表大小 只读Single
+description: 返回默认制表大小 只读Single.
 type: docs
 weight: 40
 url: /zh/net/aspose.slides/iparagraphformateffectivedata/defaulttabsize/
 ---
 ## IParagraphFormatEffectiveData.DefaultTabSize property
 
-返回默认列表大小。 只读Single。
+返回默认制表大小。 只读Single.
 
 ```csharp
 public float DefaultTabSize { get; }

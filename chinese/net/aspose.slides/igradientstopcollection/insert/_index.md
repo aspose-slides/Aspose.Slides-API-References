@@ -17,8 +17,8 @@ public void Insert(int index, float position, Color color)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | index | Int32 | 集合中将插入新渐变停止点的索引。 |
-| position | Single | 新梯度停止的位置。 |
-| color | Color | 新辐射光阑的颜色。 |
+| position | Single | 新渐变停止的位置。 |
+| color | Color | 新辐射站的颜色。 |
 
 ### 也可以看看
 
@@ -39,8 +39,8 @@ public void Insert(int index, float position, PresetColor presetColor)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | index | Int32 | 集合中将插入新渐变停止点的索引。 |
-| position | Single | 新梯度停止的位置。 |
-| presetColor | PresetColor | 新辐射光阑的颜色。 |
+| position | Single | 新渐变停止的位置。 |
+| presetColor | PresetColor | 新辐射站的颜色。 |
 
 ### 也可以看看
 
@@ -62,8 +62,8 @@ public void Insert(int index, float position, SchemeColor schemeColor)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | index | Int32 | 集合中将插入新渐变停止点的索引。 |
-| position | Single | 新梯度停止的位置。 |
-| schemeColor | SchemeColor | 新辐射光阑的颜色。 |
+| position | Single | 新渐变停止的位置。 |
+| schemeColor | SchemeColor | 新辐射站的颜色。 |
 
 ### 也可以看看
 

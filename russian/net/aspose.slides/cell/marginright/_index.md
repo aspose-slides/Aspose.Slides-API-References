@@ -1,14 +1,14 @@
 ---
 title: MarginRight
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или устанавливает правое поле в TextFrame. Чтение/записьDouble.
+description: Возвращает или устанавливает правое поле в TextFrame. Чтение/записьDouble
 type: docs
 weight: 120
 url: /ru/net/aspose.slides/cell/marginright/
 ---
 ## Cell.MarginRight property
 
-Возвращает или устанавливает правое поле в TextFrame. Чтение/записьDouble.
+Возвращает или устанавливает правое поле в TextFrame. Чтение/записьDouble
 
 ```csharp
 public double MarginRight { get; set; }

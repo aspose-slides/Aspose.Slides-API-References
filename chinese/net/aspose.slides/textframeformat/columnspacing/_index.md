@@ -1,14 +1,14 @@
 ---
 title: ColumnSpacing
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置文本区域中文本列之间的间距以磅为单位这应该只适用于 当存在超过 1 列时 此值必须为正数否则该值将设置为零 读/写Double
+description: 返回或设置文本区域中文本列之间的间距以磅为单位仅当存在多于 1 列时才应应用  此值必须为正数否则该值将设置为零 读/写Double.
 type: docs
 weight: 60
 url: /zh/net/aspose.slides/textframeformat/columnspacing/
 ---
 ## TextFrameFormat.ColumnSpacing property
 
-返回或设置文本区域中文本列之间的间距（以磅为单位）。这应该只适用于 当存在超过 1 列时。 此值必须为正数。否则，该值将设置为零。 读/写Double。
+返回或设置文本区域中文本列之间的间距（以磅为单位）。仅当存在多于 1 列时才应应用 。 此值必须为正数。否则，该值将设置为零。 读/写Double.
 
 ```csharp
 public double ColumnSpacing { get; set; }

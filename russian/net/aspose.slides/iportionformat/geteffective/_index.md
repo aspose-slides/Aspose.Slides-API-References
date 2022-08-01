@@ -1,14 +1,14 @@
 ---
 title: GetEffective
 second_title: Справочник по API Aspose.Slides для .NET
-description: Получает данные форматирования эффективной части с примененным наследованием.
+description: Получает данные форматирования эффективной части с применением наследования.
 type: docs
 weight: 50
 url: /ru/net/aspose.slides/iportionformat/geteffective/
 ---
 ## IPortionFormat.GetEffective method
 
-Получает данные форматирования эффективной части с примененным наследованием.
+Получает данные форматирования эффективной части с применением наследования.
 
 ```csharp
 public IPortionFormatEffectiveData GetEffective()
@@ -16,7 +16,7 @@ public IPortionFormatEffectiveData GetEffective()
 
 ### Возвращаемое значение
 
-A[`IPortionFormatEffectiveData`](../../iportionformateffectivedata).
+А[`IPortionFormatEffectiveData`](../../iportionformateffectivedata).
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: IsUnderflowBin
 second_title: Справочник по API Aspose.Slides для .NET
-description: Указывает применяется ли корзина нижнего переполнения. Используйте IsAutomaticUnderflowBin и UnderflowBin чтобы настроить значение корзины для недорасхода.
+description: Указывает применяется ли бункер нижнего переполнения. Используйте IsAutomaticUnderflowBin и UnderflowBin для настройки значения корзины для недорасхода.
 type: docs
 weight: 300
 url: /ru/net/aspose.slides.charts/axis/isunderflowbin/
 ---
 ## Axis.IsUnderflowBin property
 
-Указывает, применяется ли корзина нижнего переполнения. Используйте IsAutomaticUnderflowBin и UnderflowBin, чтобы настроить значение корзины для недорасхода.
+Указывает, применяется ли бункер нижнего переполнения. Используйте IsAutomaticUnderflowBin и UnderflowBin для настройки значения корзины для недорасхода.
 
 ```csharp
 public bool IsUnderflowBin { get; set; }

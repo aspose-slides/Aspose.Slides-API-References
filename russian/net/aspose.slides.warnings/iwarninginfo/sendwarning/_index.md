@@ -1,14 +1,14 @@
 ---
 title: SendWarning
 second_title: Справочник по API Aspose.Slides для .NET
-description: Если получатель не нулевой завершает предупреждение указанному получателю и генерирует исключение AbortRequestedException если получатель решил прервать операцию.
+description: Если получатель не нулевой завершает предупреждение для указанного получателя и выдает исключение AbortRequestedException если получатель решил прервать операцию.
 type: docs
 weight: 30
 url: /ru/net/aspose.slides.warnings/iwarninginfo/sendwarning/
 ---
 ## IWarningInfo.SendWarning method
 
-Если получатель не нулевой, завершает предупреждение указанному получателю и генерирует исключение AbortRequestedException, если получатель решил прервать операцию.
+Если получатель не нулевой, завершает предупреждение для указанного получателя и выдает исключение AbortRequestedException, если получатель решил прервать операцию.
 
 ```csharp
 public void SendWarning(IWarningCallback receiver)

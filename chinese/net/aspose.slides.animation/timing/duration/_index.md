@@ -1,14 +1,14 @@
 ---
 title: Duration
 second_title: Aspose.Slides for .NET API 参考
-description: 描述动画效果的持续时间 读/写Single
+description: 描述动画效果的持续时间 读/写Single.
 type: docs
 weight: 40
 url: /zh/net/aspose.slides.animation/timing/duration/
 ---
 ## Timing.Duration property
 
-描述动画效果的持续时间。 读/写Single。
+描述动画效果的持续时间。 读/写Single.
 
 ```csharp
 public float Duration { get; set; }

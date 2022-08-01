@@ -1,14 +1,14 @@
 ---
 title: EndArrowheadLength
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает длину стрелки в конце строки. Только для чтенияLineArrowheadLengthaspose.slides/linearrowheadlength.
+description: Возвращает длину стрелки в конце строки. Только для чтенияLineArrowheadLengthaspose.slides/linearrowheadlength .
 type: docs
 weight: 90
 url: /ru/net/aspose.slides/ilineformateffectivedata/endarrowheadlength/
 ---
 ## ILineFormatEffectiveData.EndArrowheadLength property
 
-Возвращает длину стрелки в конце строки. Только для чтения[`LineArrowheadLength`](../../linearrowheadlength).
+Возвращает длину стрелки в конце строки. Только для чтения[`LineArrowheadLength`](../../linearrowheadlength) .
 
 ```csharp
 public LineArrowheadLength EndArrowheadLength { get; }

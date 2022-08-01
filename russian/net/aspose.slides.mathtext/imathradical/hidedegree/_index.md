@@ -1,14 +1,14 @@
 ---
 title: HideDegree
 second_title: Справочник по API Aspose.Slides для .NET
-description: Скрыть степень Когда истинно степень не отображается как в 
+description: Скрыть степень Когда установлено значение true степень не отображается как в 
 type: docs
 weight: 40
 url: /ru/net/aspose.slides.mathtext/imathradical/hidedegree/
 ---
 ## IMathRadical.HideDegree property
 
-Скрыть степень Когда истинно, степень не отображается, как в √𝑥
+Скрыть степень Когда установлено значение true, степень не отображается, как в √𝑥
 
 ```csharp
 public bool HideDegree { get; set; }
@@ -20,7 +20,7 @@ public bool HideDegree { get; set; }
 
 ```csharp
 [C#]
-IMathRadical radical = new MathematicalText("x").Radical("3");  // куб root
+IMathRadical radical = new MathematicalText("x").Radical("3"); // кубический корень
 radical.HideDegree = true;
 ```
 

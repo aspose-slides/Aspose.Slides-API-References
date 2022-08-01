@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Slides for .NET API 参考
-description: 按位置返回单元格 只读Cellaspose.slides/cell
+description: 按位置返回单元格 只读Cellaspose.slides/cell.
 type: docs
 weight: 30
 url: /zh/net/aspose.slides/cellcollection/item/
 ---
 ## CellCollection indexer
 
-按位置返回单元格。 只读[`Cell`](../../cell)。
+按位置返回单元格。 只读[`Cell`](../../cell).
 
 ```csharp
 public ICell this[int index] { get; }

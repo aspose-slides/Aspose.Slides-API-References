@@ -1,14 +1,14 @@
 ---
 title: NumberedBulletStyle
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置没有继承的编号项目符号的样式 读/写NumberedBulletStyleaspose.slides/numberedbulletstyle
+description: 返回或设置没有继承的编号项目符号的样式 读/写NumberedBulletStyleaspose.slides/numberedbulletstyle.
 type: docs
 weight: 80
 url: /zh/net/aspose.slides/bulletformat/numberedbulletstyle/
 ---
 ## BulletFormat.NumberedBulletStyle property
 
-返回或设置没有继承的编号项目符号的样式。 读/写[`NumberedBulletStyle`](../../numberedbulletstyle)。
+返回或设置没有继承的编号项目符号的样式。 读/写[`NumberedBulletStyle`](../../numberedbulletstyle).
 
 ```csharp
 public NumberedBulletStyle NumberedBulletStyle { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: AxisAggregationType
 second_title: Aspose.Slides for .NET API 参考
-description: 表示类别轴的聚合类型仅与 Histogram 或 HistogramPareto 系列一起使用
+description: 表示类别轴的聚合类型仅与直方图或直方图帕累托系列一起使用
 type: docs
 weight: 1050
 url: /zh/net/aspose.slides.charts/axisaggregationtype/
 ---
 ## AxisAggregationType enumeration
 
-表示类别轴的聚合类型。仅与 Histogram 或 HistogramPareto 系列一起使用。
+表示类别轴的聚合类型。仅与直方图或直方图帕累托系列一起使用。
 
 ```csharp
 public enum AxisAggregationType

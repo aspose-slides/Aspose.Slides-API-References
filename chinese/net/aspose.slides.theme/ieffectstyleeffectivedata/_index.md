@@ -18,12 +18,12 @@ public interface IEffectStyleEffectiveData
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EffectFormat](../../aspose.slides.theme/ieffectstyleeffectivedata/effectformat) { get; } | 返回效果格式。 只读[`IEffectFormatEffectiveData`](../../aspose.slides/ieffectformateffectivedata)。 |
-| [ThreeDFormat](../../aspose.slides.theme/ieffectstyleeffectivedata/threedformat) { get; } | 返回 3d 格式。 只读[`IThreeDFormatEffectiveData`](../../aspose.slides/ithreedformateffectivedata)。 |
+| [EffectFormat](../../aspose.slides.theme/ieffectstyleeffectivedata/effectformat) { get; } | 返回效果格式。 只读[`IEffectFormatEffectiveData`](../../aspose.slides/ieffectformateffectivedata). |
+| [ThreeDFormat](../../aspose.slides.theme/ieffectstyleeffectivedata/threedformat) { get; } | 返回 3d 格式。 只读[`IThreeDFormatEffectiveData`](../../aspose.slides/ithreedformateffectivedata). |
 
 ### 评论
 
-此接口用作IEffectStyleCollectionEffectiveData。
+该接口用作[`IEffectStyleCollectionEffectiveData`](../ieffectstylecollectioneffectivedata).
 
 ### 也可以看看
 

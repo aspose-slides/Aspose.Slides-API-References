@@ -16,7 +16,7 @@ public CommentsPositions CommentsPosition { get; set; }
 
 ### 评论
 
-默认为 **CommentsPositions.None** 。
+默认为 **CommentsPositions.None**.
 
 ### 也可以看看
 

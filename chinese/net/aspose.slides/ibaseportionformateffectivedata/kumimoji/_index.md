@@ -1,14 +1,14 @@
 ---
 title: Kumimoji
 second_title: Aspose.Slides for .NET API 参考
-description: 确定数字是否应忽略文本东方语言特定的垂直文本布局 只读Boolean
+description: 确定数字是否应忽略文本东方语言特定的垂直文本布局 只读Boolean.
 type: docs
 weight: 150
 url: /zh/net/aspose.slides/ibaseportionformateffectivedata/kumimoji/
 ---
 ## IBasePortionFormatEffectiveData.Kumimoji property
 
-确定数字是否应忽略文本东方语言特定的垂直文本布局。 只读Boolean。
+确定数字是否应忽略文本东方语言特定的垂直文本布局。 只读Boolean.
 
 ```csharp
 public bool Kumimoji { get; }

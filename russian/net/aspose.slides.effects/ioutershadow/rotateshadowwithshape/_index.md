@@ -1,14 +1,14 @@
 ---
 title: RotateShadowWithShape
 second_title: Справочник по API Aspose.Slides для .NET
-description: Указывает должна ли тень вращаться вместе с фигурой если фигура вращается. Чтение/записьBoolean.
+description: Указывает должна ли тень вращаться вместе с фигурой если фигура вращается. Чтение/записьBoolean .
 type: docs
 weight: 70
 url: /ru/net/aspose.slides.effects/ioutershadow/rotateshadowwithshape/
 ---
 ## IOuterShadow.RotateShadowWithShape property
 
-Указывает, должна ли тень вращаться вместе с фигурой, если фигура вращается. Чтение/записьBoolean.
+Указывает, должна ли тень вращаться вместе с фигурой, если фигура вращается. Чтение/записьBoolean .
 
 ```csharp
 public bool RotateShadowWithShape { get; set; }

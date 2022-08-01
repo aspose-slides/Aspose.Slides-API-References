@@ -1,14 +1,14 @@
 ---
 title: IsGrouped
 second_title: Aspose.Slides for .NET API 参考
-description: 确定形状是否被分组 只读Boolean
+description: 确定形状是否被分组 只读Boolean.
 type: docs
 weight: 140
 url: /zh/net/aspose.slides/shape/isgrouped/
 ---
 ## Shape.IsGrouped property
 
-确定形状是否被分组。 只读Boolean。
+确定形状是否被分组。 只读Boolean.
 
 ```csharp
 public bool IsGrouped { get; }
@@ -16,7 +16,7 @@ public bool IsGrouped { get; }
 
 ### 评论
 
-属性[`ParentGroup`](../parentgroup)返回父级如果形状被分组，则为 GroupShape 对象。
+属性[`ParentGroup`](../parentgroup)如果形状被分组，则返回父 GroupShape 对象。
 
 ### 也可以看看
 

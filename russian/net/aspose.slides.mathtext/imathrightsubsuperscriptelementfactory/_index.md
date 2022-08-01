@@ -22,7 +22,7 @@ public interface IMathRightSubSuperscriptElementFactory
 
 ### Примечания
 
-Для COM-совместимость
+Для COM-совместимости
 
 ### Смотрите также
 

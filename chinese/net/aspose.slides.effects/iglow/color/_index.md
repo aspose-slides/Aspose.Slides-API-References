@@ -1,14 +1,14 @@
 ---
 title: Color
 second_title: Aspose.Slides for .NET API 参考
-description: 颜色格式 只读IColorFormataspose.slides/icolorformat
+description: 颜色格式 只读IColorFormataspose.slides/icolorformat.
 type: docs
 weight: 30
 url: /zh/net/aspose.slides.effects/iglow/color/
 ---
 ## IGlow.Color property
 
-颜色格式。 只读[`IColorFormat`](../../../aspose.slides/icolorformat)。
+颜色格式。 只读[`IColorFormat`](../../../aspose.slides/icolorformat).
 
 ```csharp
 public IColorFormat Color { get; }

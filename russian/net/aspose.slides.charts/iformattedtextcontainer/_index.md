@@ -18,8 +18,8 @@ public interface IFormattedTextContainer : IChartComponent
 
 | Имя | Описание |
 | --- | --- |
-| [AsIChartComponent](../../aspose.slides.charts/iformattedtextcontainer/asichartcomponent) { get; } | Возвращает интерфейс IChartComponent. Только для чтения[`IChartComponent`](../ichartcomponent). |
-| [TextFormat](../../aspose.slides.charts/iformattedtextcontainer/textformat) { get; } | Возвращает формат текста диаграммы. Только чтение[`IChartTextFormat`](../icharttextformat). |
+| [AsIChartComponent](../../aspose.slides.charts/iformattedtextcontainer/asichartcomponent) { get; } | Возвращает интерфейс IChartComponent. Только для чтения[`IChartComponent`](../ichartcomponent) . |
+| [TextFormat](../../aspose.slides.charts/iformattedtextcontainer/textformat) { get; } | Возвращает формат текста диаграммы. Только для чтения[`IChartTextFormat`](../icharttextformat) . |
 
 ### Смотрите также
 

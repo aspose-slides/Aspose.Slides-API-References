@@ -1,14 +1,14 @@
 ---
 title: Paragraph
 second_title: Справочник по API Aspose.Slides для .NET
-description: Итерировать каждыйParagraphaspose.slides.lowcode/foreach/paragraphвPresentationaspose.slides/presentation.  Формы будут повторяться во всех типах слайдов -Slideaspose.slides.lowcode/foreach/slideMasterSlideaspose.slides.lowcode/foreach/masterslideиLayoutSlideaspose.slides.lowcode/foreach/layoutslide
+description: Итерировать каждыйParagraphaspose.slides.lowcode/foreach/paragraph вPresentationaspose.slides/presentation .  Формы будут повторяться во всех типах слайдов -Slideaspose.slides.lowcode/foreach/slide MasterSlideaspose.slides.lowcode/foreach/masterslide а такжеLayoutSlideaspose.slides.lowcode/foreach/layoutslide
 type: docs
 weight: 30
 url: /ru/net/aspose.slides.lowcode/foreach/paragraph/
 ---
 ## ForEach.Paragraph method
 
-Итерировать каждый`Paragraph`в[`Presentation`](../../../aspose.slides/presentation).  Формы будут повторяться во всех типах слайдов -[`Slide`](../slide),[`MasterSlide`](../masterslide)и[`LayoutSlide`](../layoutslide):
+Итерировать каждый`Paragraph` в[`Presentation`](../../../aspose.slides/presentation) .  Формы будут повторяться во всех типах слайдов -[`Slide`](../slide) ,[`MasterSlide`](../masterslide) а также[`LayoutSlide`](../layoutslide)
 
 ```csharp
 public static void Paragraph(Presentation pres, ForEachParagraphCallback forEachParagraph)
@@ -16,7 +16,7 @@ public static void Paragraph(Presentation pres, ForEachParagraphCallback forEach
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| pres | Presentation | Представление для повторения абзацев |
+| pres | Presentation | Презентация для повторения абзацев |
 | forEachParagraph | ForEachParagraphCallback | Обратный вызов, который будет вызываться для каждого абзаца |
 
 ### Примеры

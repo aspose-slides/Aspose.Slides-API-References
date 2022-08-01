@@ -18,18 +18,18 @@ public class PresetShadow : IPresetShadow
 
 | Имя | Описание |
 | --- | --- |
-| [Direction](../../aspose.slides.effects/presetshadow/direction) { get; set; } | Направление тени. Чтение/записьSingle. |
-| [Distance](../../aspose.slides.effects/presetshadow/distance) { get; set; } | Расстояние тени. Чтение/записьDouble. |
-| [Preset](../../aspose.slides.effects/presetshadow/preset) { get; set; } | Предустановка. Чтение/запись[`PresetShadowType`](../../aspose.slides/presetshadowtype). |
-| [ShadowColor](../../aspose.slides.effects/presetshadow/shadowcolor) { get; } | Цвет тени. Только для чтения[`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Direction](../../aspose.slides.effects/presetshadow/direction) { get; set; } | Направление тени. Чтение/записьSingle . |
+| [Distance](../../aspose.slides.effects/presetshadow/distance) { get; set; } | Расстояние тени. Чтение/записьDouble . |
+| [Preset](../../aspose.slides.effects/presetshadow/preset) { get; set; } | Предустановка. Чтение/запись[`PresetShadowType`](../../aspose.slides/presetshadowtype) . |
+| [ShadowColor](../../aspose.slides.effects/presetshadow/shadowcolor) { get; } | Цвет тени. Только для чтения[`IColorFormat`](../../aspose.slides/icolorformat) . |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/presetshadow/equals)(object) | Определяет, равен ли указанный[`PresetShadow`](../presetshadow)текущемуPresetShadow. |
-| [GetEffective](../../aspose.slides.effects/presetshadow/geteffective)() | Получает данные об эффективном предустановленном эффекте тени с применением наследования. |
-| override [GetHashCode](../../aspose.slides.effects/presetshadow/gethashcode)() | Служит хэш-функцией для определенного типа. |
+| override [Equals](../../aspose.slides.effects/presetshadow/equals)(object) | Определяет, является ли указанный[`PresetShadow`](../presetshadow) равен текущему[`PresetShadow`](../presetshadow) . |
+| [GetEffective](../../aspose.slides.effects/presetshadow/geteffective)() | Получает данные об эффекте Preset Shadow с применением наследования. |
+| override [GetHashCode](../../aspose.slides.effects/presetshadow/gethashcode)() | Служит хеш-функцией для определенного типа. |
 
 ### Смотрите также
 

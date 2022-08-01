@@ -18,13 +18,13 @@ public class Control : DomObject<ControlCollection>, IControl
 
 | Имя | Описание |
 | --- | --- |
-| [ActiveXControlBinary](../../aspose.slides/control/activexcontrolbinary) { get; } | Задает сохраняемость элемента управления ActiveX, когда для сохранения используется метод PersistStream, PersistStreamInit или PersistStorage. |
-| [ClassId](../../aspose.slides/control/classid) { get; set; } | Получает идентификатор класса этого элемента управления. Только чтениеGuid. |
-| [Frame](../../aspose.slides/control/frame) { get; set; } | Возвращает или устанавливает кадр элемента управления. Чтение/запись[`IShapeFrame`](../ishapeframe). |
-| [Name](../../aspose.slides/control/name) { get; set; } | Получает или задает имя этого элемента управления. Чтение/записьString. |
-| [Persistence](../../aspose.slides/control/persistence) { get; } | Получает метод, используемый для хранения свойств элемента управления ActiveX. Только чтение[`PersistenceType`](../persistencetype). |
-| [Properties](../../aspose.slides/control/properties) { get; } | Возвращает набор свойств ActiveX.  Примечание:Aspose.Slides поддерживает только свойства ActiveX на основе XML. Если свойства хранятся в двоичном формате, это свойство возвращает значение null. Только чтение[`IControlPropertiesCollection`](../icontrolpropertiescollection). |
-| [SubstitutePictureFormat](../../aspose.slides/control/substitutepictureformat) { get; } | Возвращает объект свойств заливки управляющего изображения. Только для чтения[`IPictureFillFormat`](../ipicturefillformat). |
+| [ActiveXControlBinary](../../aspose.slides/control/activexcontrolbinary) { get; } | Указывает сохраняемость элемента управления ActiveX, когда для сохранения используется метод PersistStream, PersistStreamInit или PersistStorage. |
+| [ClassId](../../aspose.slides/control/classid) { get; set; } | Получает идентификатор класса этого элемента управления. Только для чтенияGuid . |
+| [Frame](../../aspose.slides/control/frame) { get; set; } | Возвращает или устанавливает кадр элемента управления. Чтение/запись[`IShapeFrame`](../ishapeframe) . |
+| [Name](../../aspose.slides/control/name) { get; set; } | Получает или задает имя этого элемента управления. Чтение/записьString . |
+| [Persistence](../../aspose.slides/control/persistence) { get; } | Получает метод, используемый для хранения свойств элемента управления ActiveX. Только для чтения[`PersistenceType`](../persistencetype) . |
+| [Properties](../../aspose.slides/control/properties) { get; } | Возвращает набор свойств ActiveX. Примечание. Aspose.Slides поддерживает только свойства ActiveX на основе XML. Если свойства хранятся в двоичном формате, это свойство возвращает значение null. Только для чтения[`IControlPropertiesCollection`](../icontrolpropertiescollection) . |
+| [SubstitutePictureFormat](../../aspose.slides/control/substitutepictureformat) { get; } | Возвращает объект свойств заливки управляющего изображения. Только для чтения[`IPictureFillFormat`](../ipicturefillformat) . |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: LegendPositionType
 second_title: Aspose.Slides for .NET API 参考
-description: 确定图表上图例的位置
+description: 确定图例在图表上的位置
 type: docs
 weight: 2180
 url: /zh/net/aspose.slides.charts/legendpositiontype/
 ---
 ## LegendPositionType enumeration
 
-确定图表上图例的位置。
+确定图例在图表上的位置。
 
 ```csharp
 public enum LegendPositionType

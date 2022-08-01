@@ -1,14 +1,14 @@
 ---
 title: GlowEffect
 second_title: Aspose.Slides for .NET API 参考
-description: 发光效果 只读IGlowEffectiveDataaspose.slides.effects/igloweffectivedata
+description: 发光效果 只读IGlowEffectiveDataaspose.slides.effects/igloweffectivedata.
 type: docs
 weight: 40
 url: /zh/net/aspose.slides/ieffectformateffectivedata/gloweffect/
 ---
 ## IEffectFormatEffectiveData.GlowEffect property
 
-发光效果。 只读[`IGlowEffectiveData`](../../../aspose.slides.effects/igloweffectivedata)。
+发光效果。 只读[`IGlowEffectiveData`](../../../aspose.slides.effects/igloweffectivedata).
 
 ```csharp
 public IGlowEffectiveData GlowEffect { get; }

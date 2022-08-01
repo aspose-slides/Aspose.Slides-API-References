@@ -1,14 +1,14 @@
 ---
 title: MarginTop
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или задает верхнее поле в пунктах в TextFrame. Чтение/записьDouble.
+description: Возвращает или задает верхнее поле в точках в TextFrame. Чтение/записьDouble .
 type: docs
 weight: 110
 url: /ru/net/aspose.slides/textframeformat/margintop/
 ---
 ## TextFrameFormat.MarginTop property
 
-Возвращает или задает верхнее поле (в пунктах) в TextFrame. Чтение/записьDouble.
+Возвращает или задает верхнее поле (в точках) в TextFrame. Чтение/записьDouble .
 
 ```csharp
 public double MarginTop { get; set; }

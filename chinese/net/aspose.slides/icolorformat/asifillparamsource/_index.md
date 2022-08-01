@@ -1,14 +1,14 @@
 ---
 title: AsIFillParamSource
 second_title: Aspose.Slides for .NET API 参考
-description: 返回 IFillParamSource 接口 只读IFillParamSourceaspose.slides/ifillparamsource
+description: 返回 IFillParamSource 接口 只读IFillParamSourceaspose.slides/ifillparamsource.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides/icolorformat/asifillparamsource/
 ---
 ## IColorFormat.AsIFillParamSource property
 
-返回 IFillParamSource 接口。 只读[`IFillParamSource`](../../ifillparamsource)。
+返回 IFillParamSource 接口。 只读[`IFillParamSource`](../../ifillparamsource).
 
 ```csharp
 public IFillParamSource AsIFillParamSource { get; }

@@ -1,14 +1,14 @@
 ---
 title: HighlightColor
 second_title: Aspose.Slides for .NET API 参考
-description: 返回用于突出显示文本的颜色未应用继承 只读IColorFormataspose.slides/icolorformat
+description: 返回用于突出显示文本的颜色未应用继承 只读IColorFormataspose.slides/icolorformat.
 type: docs
 weight: 110
 url: /zh/net/aspose.slides/baseportionformat/highlightcolor/
 ---
 ## BasePortionFormat.HighlightColor property
 
-返回用于突出显示文本的颜色。未应用继承。 只读[`IColorFormat`](../../icolorformat)。
+返回用于突出显示文本的颜色。未应用继承。 只读[`IColorFormat`](../../icolorformat).
 
 ```csharp
 public IColorFormat HighlightColor { get; }

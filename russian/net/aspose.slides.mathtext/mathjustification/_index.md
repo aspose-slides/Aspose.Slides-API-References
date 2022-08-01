@@ -1,14 +1,14 @@
 ---
 title: MathJustification
 second_title: Справочник по API Aspose.Slides для .NET
-description: Задает выравнивание математического абзаца ряд смежных экземпляров математического текста в одном абзаце
+description: Определяет выравнивание математического абзаца ряд смежных экземпляров математического текста в одном абзаце
 type: docs
 weight: 8080
 url: /ru/net/aspose.slides.mathtext/mathjustification/
 ---
 ## MathJustification enumeration
 
-Задает выравнивание математического абзаца (ряд смежных экземпляров математического текста в одном абзаце)
+Определяет выравнивание математического абзаца (ряд смежных экземпляров математического текста в одном абзаце)
 
 ```csharp
 public enum MathJustification

@@ -1,14 +1,14 @@
 ---
 title: HighlightText
 second_title: Справочник по API Aspose.Slides для .NET
-description: Выделить все совпадения образца в текстовом фрейме указанным цветом.
+description: Выделить все совпадения образца в текстовом фрейме используя указанный цвет.
 type: docs
 weight: 70
 url: /ru/net/aspose.slides/itextframe/highlighttext/
 ---
 ## HighlightText(string, Color) {#highlighttext}
 
-Выделить все совпадения образца в текстовом фрейме указанным цветом.
+Выделить все совпадения образца в текстовом фрейме, используя указанный цвет.
 
 ```csharp
 public void HighlightText(string text, Color highlightColor)
@@ -17,7 +17,7 @@ public void HighlightText(string text, Color highlightColor)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | text | String | Образец текста для выделения. |
-| highlightColor | Color | Цвет подсветки. |
+| highlightColor | Color | Цвет выделения. |
 
 ### Смотрите также
 
@@ -29,7 +29,7 @@ public void HighlightText(string text, Color highlightColor)
 
 ## HighlightText(string, Color, ITextHighlightingOptions) {#highlighttext_1}
 
-Выделить все совпадения образца в текстовом фрейме указанным цветом.
+Выделить все совпадения образца в текстовом фрейме, используя указанный цвет.
 
 ```csharp
 public void HighlightText(string text, Color highlightColor, ITextHighlightingOptions options)
@@ -38,8 +38,8 @@ public void HighlightText(string text, Color highlightColor, ITextHighlightingOp
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | text | String | Образец текста для выделения. |
-| highlightColor | Color | Цвет подсветки. |
-| options | ITextHighlightingOptions | Подсветка параметров. |
+| highlightColor | Color | Цвет выделения. |
+| options | ITextHighlightingOptions | Варианты выделения. |
 
 ### Смотрите также
 

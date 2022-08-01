@@ -1,14 +1,14 @@
 ---
 title: IRotationEffect
 second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет поведение эффекта вращения.
+description: Представляет поведение вращения эффекта.
 type: docs
 weight: 470
 url: /ru/net/aspose.slides.animation/irotationeffect/
 ---
 ## IRotationEffect interface
 
-Представляет поведение эффекта вращения.
+Представляет поведение вращения эффекта.
 
 ```csharp
 public interface IRotationEffect : IBehavior
@@ -18,10 +18,10 @@ public interface IRotationEffect : IBehavior
 
 | Имя | Описание |
 | --- | --- |
-| [AsIBehavior](../../aspose.slides.animation/irotationeffect/asibehavior) { get; } | Позволяет получить базовый интерфейс IBeavior. Только для чтения[`IBehavior`](../ibehavior). |
-| [By](../../aspose.slides.animation/irotationeffect/by) { get; set; } | Описывает значение относительного смещения для анимации. Чтение/записьSingle. |
-| [From](../../aspose.slides.animation/irotationeffect/from) { get; set; } | Описывает начальное значение анимации. Чтение/записьSingle. |
-| [To](../../aspose.slides.animation/irotationeffect/to) { get; set; } | Описывает конечное значение анимации. Чтение/записьSingle. |
+| [AsIBehavior](../../aspose.slides.animation/irotationeffect/asibehavior) { get; } | Позволяет получить базовый интерфейс IBehavior. Только для чтения[`IBehavior`](../ibehavior) . |
+| [By](../../aspose.slides.animation/irotationeffect/by) { get; set; } | Описывает значение относительного смещения для анимации. Чтение/записьSingle . |
+| [From](../../aspose.slides.animation/irotationeffect/from) { get; set; } | Описывает начальное значение для анимации. Чтение/записьSingle . |
+| [To](../../aspose.slides.animation/irotationeffect/to) { get; set; } | Описывает конечное значение анимации. Чтение/записьSingle . |
 
 ### Смотрите также
 

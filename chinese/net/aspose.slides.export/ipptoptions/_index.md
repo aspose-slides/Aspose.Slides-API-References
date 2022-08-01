@@ -18,8 +18,8 @@ public interface IPptOptions : ISaveOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsISaveOptions](../../aspose.slides.export/ipptoptions/asisaveoptions) { get; } | 返回 ISaveOptions 接口。 只读[`ISaveOptions`](../isaveoptions)。 |
-| [RootDirectoryClsid](../../aspose.slides.export/ipptoptions/rootdirectoryclsid) { get; set; } | 表示存储在根目录条目中的对象类 GUID (CLSID)。可用于 COM 激活文档的应用程序。 默认值为“64818D11-4F9B-11CF-86EA-00AA00B929E8”，对应于“Microsoft Powerpoint.Slide.8”。 |
+| [AsISaveOptions](../../aspose.slides.export/ipptoptions/asisaveoptions) { get; } | 返回 ISaveOptions 接口。 只读[`ISaveOptions`](../isaveoptions). |
+| [RootDirectoryClsid](../../aspose.slides.export/ipptoptions/rootdirectoryclsid) { get; set; } | 表示存储在根目录条目中的对象类 GUID (CLSID)。可用于 COM 激活文档的应用程序。 默认值为 '64818D11-4F9B-11CF-86EA-00AA00B929E8'，对应于 'Microsoft Powerpoint.Slide.8'。 |
 
 ### 也可以看看
 

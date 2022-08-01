@@ -1,14 +1,14 @@
 ---
 title: TextFrame
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает текст фигуры SmartArt. Только для чтенияITextFrameaspose.slides/itextframe.
+description: Возвращает текст формы SmartArt. Только для чтенияITextFrameaspose.slides/itextframe .
 type: docs
 weight: 20
 url: /ru/net/aspose.slides.smartart/smartartshape/textframe/
 ---
 ## SmartArtShape.TextFrame property
 
-Возвращает текст фигуры SmartArt. Только для чтения[`ITextFrame`](../../../aspose.slides/itextframe).
+Возвращает текст формы SmartArt. Только для чтения[`ITextFrame`](../../../aspose.slides/itextframe) .
 
 ```csharp
 public ITextFrame TextFrame { get; }

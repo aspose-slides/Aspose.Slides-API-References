@@ -1,14 +1,14 @@
 ---
 title: IMathLeftSubSuperscriptElement
 second_title: Aspose.Slides for .NET API 参考
-description: 指定 Sub-Superscript 对象该对象由基 以及放置在基左侧的下标和上标组成
+description: 指定 Sub-Superscript 对象它由一个 base 和一个放置在 base 左侧的下标和上标组成
 type: docs
 weight: 7600
 url: /zh/net/aspose.slides.mathtext/imathleftsubsuperscriptelement/
 ---
 ## IMathLeftSubSuperscriptElement interface
 
-指定 Sub-Superscript 对象，该对象由基 以及放置在基左侧的下标和上标组成。
+指定 Sub-Superscript 对象，它由一个 base 和一个放置在 base 左侧的下标和上标组成。
 
 ```csharp
 public interface IMathLeftSubSuperscriptElement : IMathElement
@@ -25,7 +25,7 @@ public interface IMathLeftSubSuperscriptElement : IMathElement
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]

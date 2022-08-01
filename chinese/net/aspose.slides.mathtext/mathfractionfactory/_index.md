@@ -24,12 +24,12 @@ public class MathFractionFactory : IMathFractionFactory
 
 | 姓名 | 描述 |
 | --- | --- |
-| [CreateMathFraction](../../aspose.slides.mathtext/mathfractionfactory/createmathfraction#createmathfraction)(IMathElement, IMathElement) | 创建数学分数 |
-| [CreateMathFraction](../../aspose.slides.mathtext/mathfractionfactory/createmathfraction#createmathfraction_1)(IMathElement, IMathElement, MathFractionTypes) | 创建数学分数 |
+| [CreateMathFraction](../../aspose.slides.mathtext/mathfractionfactory/createmathfraction#createmathfraction)(IMathElement, IMathElement) | 创建一个数学分数 |
+| [CreateMathFraction](../../aspose.slides.mathtext/mathfractionfactory/createmathfraction#createmathfraction_1)(IMathElement, IMathElement, MathFractionTypes) | 创建一个数学分数 |
 
 ### 评论
 
-用于 COM 比较
+用于 COM 可比性
 
 ### 也可以看看
 

@@ -18,12 +18,12 @@ public interface IMathBarFactory
 
 | 姓名 | 描述 |
 | --- | --- |
-| [CreateMathBar](../../aspose.slides.mathtext/imathbarfactory/createmathbar#createmathbar)(IMathElement) | 通过应用于元素 |
-| [CreateMathBar](../../aspose.slides.mathtext/imathbarfactory/createmathbar#createmathbar_1)(IMathElement, MathTopBotPositions) | 通过应用于元素 |
+| [CreateMathBar](../../aspose.slides.mathtext/imathbarfactory/createmathbar#createmathbar)(IMathElement) | 通过应用到元素创建一个数学条 |
+| [CreateMathBar](../../aspose.slides.mathtext/imathbarfactory/createmathbar#createmathbar_1)(IMathElement, MathTopBotPositions) | 通过应用到元素创建一个数学条 |
 
 ### 评论
 
-用于 COM 比较
+用于 COM 可比性
 
 ### 也可以看看
 

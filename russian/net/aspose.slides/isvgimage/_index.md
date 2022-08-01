@@ -18,10 +18,10 @@ public interface ISvgImage
 
 | Имя | Описание |
 | --- | --- |
-| [BaseUri](../../aspose.slides/isvgimage/baseuri) { get; } | Возвращает базовый URI указанного SVG. Используется для разрешения относительных ссылок. Только чтениеString. |
-| [ExternalResourceResolver](../../aspose.slides/isvgimage/externalresourceresolver) { get; } | Возвращает интерфейс обратного вызова, используемый для разрешения внешних ресурсов во время импорта документов SVG. Только для чтения[`IExternalResourceResolver`](../../aspose.slides.import/iexternalresourceresolver). |
-| [SvgContent](../../aspose.slides/isvgimage/svgcontent) { get; } | Возвращает содержимое SVG. Только чтениеString. |
-| [SvgData](../../aspose.slides/isvgimage/svgdata) { get; } | Возвращает данные SVG. Только для чтенияByte[]. |
+| [BaseUri](../../aspose.slides/isvgimage/baseuri) { get; } | Возвращает базовый URI указанного SVG. Используется для разрешения относительных ссылок. Только для чтенияString . |
+| [ExternalResourceResolver](../../aspose.slides/isvgimage/externalresourceresolver) { get; } | Возвращает интерфейс обратного вызова, используемый для разрешения внешних ресурсов во время импорта документов SVG. Только для чтения[`IExternalResourceResolver`](../../aspose.slides.import/iexternalresourceresolver) . |
+| [SvgContent](../../aspose.slides/isvgimage/svgcontent) { get; } | Возвращает содержимое SVG. Только для чтенияString . |
+| [SvgData](../../aspose.slides/isvgimage/svgdata) { get; } | Возвращает данные SVG. Только для чтенияByte []. |
 
 ### Смотрите также
 

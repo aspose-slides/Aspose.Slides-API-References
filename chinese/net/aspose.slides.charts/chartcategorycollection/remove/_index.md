@@ -16,7 +16,7 @@ public void Remove(IChartCategory value)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | IChartCategory | 值。 |
+| value | IChartCategory | 价值。 |
 
 ### 例外
 

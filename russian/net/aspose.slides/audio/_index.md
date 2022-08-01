@@ -18,14 +18,14 @@ public class Audio : DomObject<AudioCollection>, IAudio
 
 | Имя | Описание |
 | --- | --- |
-| [BinaryData](../../aspose.slides/audio/binarydata) { get; } | Возвращает копию аудиоданных. В случае большого объема данных рассмотрите использование метода[`GetStream`](./getstream)для предотвращения ненужной загрузки аудио данных в memory или даже OutOfMemoryException. Только для чтенияByte[]. |
-| [ContentType](../../aspose.slides/audio/contenttype) { get; set; } | Возвращает MIME-тип аудио, закодированный в[`BinaryData`](./binarydata). Только чтениеString. |
+| [BinaryData](../../aspose.slides/audio/binarydata) { get; } | Возвращает копию аудиоданных. В случае большого объема данных рассмотрите возможность использования [`GetStream`](./getstream) метод для предотвращения ненужной загрузки данных audio's в память или даже OutOfMemoryException. Только для чтенияByte []. |
+| [ContentType](../../aspose.slides/audio/contenttype) { get; set; } | Возвращает MIME-тип аудио, закодированного в[`BinaryData`](./binarydata) . Только для чтенияString . |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [GetStream](../../aspose.slides/audio/getstream)() | Возвращает поток Stream для чтения. Используйте 'using' или закройте поток после использования. |
+| [GetStream](../../aspose.slides/audio/getstream)() | Возвращает поток для чтения. Используйте 'using' или закройте поток после использования. |
 
 ### Смотрите также
 

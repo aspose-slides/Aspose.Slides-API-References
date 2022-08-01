@@ -1,14 +1,14 @@
 ---
 title: Field
 second_title: Aspose.Slides for .NET API 参考
-description: 表示一个字段
+description: 代表一个字段
 type: docs
 weight: 4310
 url: /zh/net/aspose.slides/field/
 ---
 ## Field class
 
-表示一个字段。
+代表一个字段。
 
 ```csharp
 public sealed class Field : DomObject<Portion>, IField
@@ -18,7 +18,7 @@ public sealed class Field : DomObject<Portion>, IField
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Type](../../aspose.slides/field/type) { get; set; } | 返回或设置字段的类型。 读/写[`IFieldType`](../ifieldtype)。 |
+| [Type](../../aspose.slides/field/type) { get; set; } | 返回或设置字段的类型。 读/写[`IFieldType`](../ifieldtype). |
 
 ### 也可以看看
 

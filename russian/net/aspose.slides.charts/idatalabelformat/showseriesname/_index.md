@@ -1,14 +1,14 @@
 ---
 title: ShowSeriesName
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или задает логическое значение указывающее поведение отображения имени ряда для меток данных на диаграмме. True чтобы показать название серии. Ложь скрывать. Чтение/записьBoolean.
+description: Возвращает или задает логическое значение указывающее поведение отображения имени ряда для меток данных на диаграмме. Истинно чтобы показать название серии. False чтобы скрыть. Чтение/записьBoolean .
 type: docs
 weight: 140
 url: /ru/net/aspose.slides.charts/idatalabelformat/showseriesname/
 ---
 ## IDataLabelFormat.ShowSeriesName property
 
-Возвращает или задает логическое значение, указывающее поведение отображения имени ряда для меток данных на диаграмме. True, чтобы показать название серии. Ложь скрывать. Чтение/записьBoolean.
+Возвращает или задает логическое значение, указывающее поведение отображения имени ряда для меток данных на диаграмме. Истинно, чтобы показать название серии. False, чтобы скрыть. Чтение/записьBoolean .
 
 ```csharp
 public bool ShowSeriesName { get; set; }
@@ -16,7 +16,7 @@ public bool ShowSeriesName { get; set; }
 
 ### Примечания
 
-Если родителем этого объекта DataLabelFormat является коллекция меток данных DataLabelCollection, то это свойство получает или задает значение по умолчанию свойства ShowSeriesName для новых меток данных в коллекции DataLabelCollection. Установка этого свойства со значением также устанавливает это значение в свойство ShowSeriesName для всех меток данных в коллекции DataLabelCollection (т.е. "DataLabels.DefaultDataLabelFormat.ShowSeriesName = val;" приводит к all DataLabels[i].ShowSeriesName равно val).
+Если родителем этого объекта DataLabelFormat является коллекция меток данных DataLabelCollection, то свойство this получает или задает значение по умолчанию свойства ShowSeriesName для новых меток данных в коллекции DataLabelCollection. Свойство ShowSeriesName для всех меток данных в DataLabelCollection collection (т. е. «DataLabels.DefaultDataLabelFormat.ShowSeriesName = val;» приводит к тому, что все DataLabels[i].ShowSeriesName равно val).
 
 ### Смотрите также
 

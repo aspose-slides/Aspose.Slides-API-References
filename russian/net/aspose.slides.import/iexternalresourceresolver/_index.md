@@ -1,14 +1,14 @@
 ---
 title: IExternalResourceResolver
 second_title: Справочник по API Aspose.Slides для .NET
-description: Интерфейс обратного вызова используемый для разрешения внешних ресурсов при импорте документов Html Svg.
+description: Интерфейс обратного вызова используемый для разрешения внешних ресурсов во время импорта документов Html Svg.
 type: docs
 weight: 6880
 url: /ru/net/aspose.slides.import/iexternalresourceresolver/
 ---
 ## IExternalResourceResolver interface
 
-Интерфейс обратного вызова, используемый для разрешения внешних ресурсов при импорте документов Html, Svg.
+Интерфейс обратного вызова, используемый для разрешения внешних ресурсов во время импорта документов Html, Svg.
 
 ```csharp
 public interface IExternalResourceResolver

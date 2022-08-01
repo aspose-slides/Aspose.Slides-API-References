@@ -16,7 +16,7 @@ public void AddTemplate(string key, string template, Type modelType)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| key | String | Ключ для шаблона в коллекции шаблонов. |
+| key | String | Ключ шаблона в коллекции шаблонов. |
 | template | String | Содержимое шаблона. |
 | modelType | Type | Тип объекта модели для шаблона. |
 

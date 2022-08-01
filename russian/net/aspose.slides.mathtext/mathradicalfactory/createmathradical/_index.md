@@ -16,8 +16,8 @@ public IMathRadical CreateMathRadical(IMathElement baseArgument, IMathElement de
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| baseArgument | IMathElement | Базовый аргумент для применения радикала |
-| gradeArgument | IMathElement | Значение степени |
+| baseArgument | IMathElement | Основной аргумент в пользу радикального |
+| degreeArgument | IMathElement | Значение степени |
 
 ### Возвращаемое значение
 

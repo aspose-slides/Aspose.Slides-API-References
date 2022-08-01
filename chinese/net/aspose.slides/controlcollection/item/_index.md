@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Slides for .NET API 参考
-description: 返回指定位置的控件
+description: 在指定位置返回一个控件
 type: docs
 weight: 30
 url: /zh/net/aspose.slides/controlcollection/item/
 ---
 ## ControlCollection indexer
 
-返回指定位置的控件。
+在指定位置返回一个控件。
 
 ```csharp
 public IControl this[int index] { get; }

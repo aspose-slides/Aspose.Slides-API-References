@@ -17,7 +17,7 @@ public IAudioFrame InsertAudioFrameEmbedded(int index, float x, float y, float w
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| index | Int32 | 应该插入值的从零开始的索引。 |
+| index | Int32 | 应插入值的从零开始的索引。 |
 | x | Single | 新音频帧的 X 坐标。 |
 | y | Single | 新音频帧的 Y 坐标。 |
 | width | Single | 新音频帧的宽度。 |
@@ -39,7 +39,7 @@ public IAudioFrame InsertAudioFrameEmbedded(int index, float x, float y, float w
 
 ## InsertAudioFrameEmbedded(int, float, float, float, float, IAudio) {#insertaudioframeembedded}
 
-插入带有嵌入音频文件的 AudioFrame。 它使用 Presentation.Audios 列表中的音频文件。
+插入带有嵌入音频文件的音频帧。 它使用 Presentation.Audios 列表中的音频文件。
 
 ```csharp
 public IAudioFrame InsertAudioFrameEmbedded(int index, float x, float y, float width, float height, 
@@ -48,7 +48,7 @@ public IAudioFrame InsertAudioFrameEmbedded(int index, float x, float y, float w
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| index | Int32 | 应该插入值的从零开始的索引。 |
+| index | Int32 | 应插入值的从零开始的索引。 |
 | x | Single | 新音频帧的 X 坐标。 |
 | y | Single | 新音频帧的 Y 坐标。 |
 | width | Single | 新音频帧的宽度。 |

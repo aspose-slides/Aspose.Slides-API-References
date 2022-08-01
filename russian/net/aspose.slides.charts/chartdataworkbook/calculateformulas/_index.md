@@ -19,11 +19,11 @@ public void CalculateFormulas()
 | исключение | условие |
 | --- | --- |
 | [CellCircularReferenceException](../../../aspose.slides.spreadsheet/cellcircularreferenceexception) | Рабочая книга содержит формулы с циклической ссылкой. |
-| [CellUnsupportedDataException](../../../aspose.slides.spreadsheet/cellunsupporteddataexception) | Данные ячеек не поддерживаются. |
+| [CellUnsupportedDataException](../../../aspose.slides.spreadsheet/cellunsupporteddataexception) | Данные сотовой связи не поддерживаются. |
 
 ### Примеры
 
-Пример показывает, как присвоить ячейке формулу и вычислить значение. Значение ячейки «B4» устанавливается равным 5.
+В примере показано, как присвоить ячейке формулу и вычислить значение. Значение ячейки «B4» устанавливается равным 5.
 
 ```csharp
 [C#]

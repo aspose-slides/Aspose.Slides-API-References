@@ -1,14 +1,14 @@
 ---
 title: AddText
 second_title: Aspose.Slides for .NET API 参考
-description: 将纯文本添加到 html 文件用 html 实体替换特殊字符 换行符和空格不会被替换
+description: 将纯文本添加到 html 文件用 html 实体替换特殊字符 不替换换行符和空格
 type: docs
 weight: 90
 url: /zh/net/aspose.slides.export/htmlgenerator/addtext/
 ---
 ## AddText(string) {#addtext_2}
 
-将纯文本添加到 html 文件，用 html 实体替换特殊字符。 换行符和空格不会被替换。
+将纯文本添加到 html 文件，用 html 实体替换特殊字符。 不替换换行符和空格。
 
 ```csharp
 public void AddText(string text)
@@ -28,7 +28,7 @@ public void AddText(string text)
 
 ## AddText(char[]) {#addtext}
 
-将纯文本添加到 html 文件，用 html 实体替换特殊字符。 换行符和空格不会被替换。
+将纯文本添加到 html 文件，用 html 实体替换特殊字符。 不替换换行符和空格。
 
 ```csharp
 public void AddText(char[] text)
@@ -48,7 +48,7 @@ public void AddText(char[] text)
 
 ## AddText(char[], int, int) {#addtext_1}
 
-将纯文本添加到 html 文件，用 html 实体替换特殊字符。 换行符和空格不会被替换。
+将纯文本添加到 html 文件，用 html 实体替换特殊字符。 不替换换行符和空格。
 
 ```csharp
 public void AddText(char[] text, int startIndex, int length)

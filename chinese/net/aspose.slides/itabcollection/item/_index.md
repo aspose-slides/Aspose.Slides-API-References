@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Slides for .NET API 参考
-description: 获取指定索引处的元素 只读ITabaspose.slides/itab
+description: 获取指定索引处的元素 只读ITabaspose.slides/itab.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides/itabcollection/item/
 ---
 ## ITabCollection indexer
 
-获取指定索引处的元素。 只读[`ITab`](../../itab)。
+获取指定索引处的元素。 只读[`ITab`](../../itab).
 
 ```csharp
 public ITab this[int index] { get; }

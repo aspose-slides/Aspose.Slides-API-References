@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Справочник по API Aspose.Slides для .NET
-description: ВозвращаетIImageTransformOperationaspose.slides.effects/iimagetransformoperationиз коллекции по ее индексу.
+description: ВозвращаетIImageTransformOperationaspose.slides.effects/iimagetransformoperation из коллекции по индексу.
 type: docs
 weight: 20
 url: /ru/net/aspose.slides.effects/iimagetransformoperationcollection/item/
 ---
 ## IImageTransformOperationCollection indexer
 
-Возвращает[`IImageTransformOperation`](../../iimagetransformoperation)из коллекции по ее индексу.
+Возвращает[`IImageTransformOperation`](../../iimagetransformoperation) из коллекции по индексу.
 
 ```csharp
 public IImageTransformOperation this[int index] { get; }

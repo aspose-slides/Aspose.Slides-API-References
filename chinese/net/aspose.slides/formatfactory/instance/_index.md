@@ -1,14 +1,14 @@
 ---
 title: Instance
 second_title: Aspose.Slides for .NET API 参考
-description: 格式工厂静态实例 只读FormatFactoryaspose.slides/formatfactory
+description: 格式工厂静态实例 只读FormatFactoryaspose.slides/formatfactory.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides/formatfactory/instance/
 ---
 ## FormatFactory.Instance property
 
-格式工厂静态实例。 只读[`FormatFactory`](../../formatfactory)。
+格式工厂静态实例。 只读[`FormatFactory`](../../formatfactory).
 
 ```csharp
 public static FormatFactory Instance { get; }

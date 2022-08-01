@@ -1,14 +1,14 @@
 ---
 title: OtherStyle
 second_title: Aspose.Slides for .NET API 参考
-description: 返回其他文本的样式 只读ITextStyleaspose.slides/itextstyle
+description: 返回其他文本的样式 只读ITextStyleaspose.slides/itextstyle.
 type: docs
 weight: 70
 url: /zh/net/aspose.slides/imasterslide/otherstyle/
 ---
 ## IMasterSlide.OtherStyle property
 
-返回其他文本的样式。 只读[`ITextStyle`](../../itextstyle)。
+返回其他文本的样式。 只读[`ITextStyle`](../../itextstyle).
 
 ```csharp
 public ITextStyle OtherStyle { get; }

@@ -1,14 +1,14 @@
 ---
 title: IPointCollection
 second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет набор порций.
+description: Представляет набор частей.
 type: docs
 weight: 450
 url: /ru/net/aspose.slides.animation/ipointcollection/
 ---
 ## IPointCollection interface
 
-Представляет набор порций.
+Представляет набор частей.
 
 ```csharp
 public interface IPointCollection : IEnumerable<IPoint>
@@ -18,8 +18,8 @@ public interface IPointCollection : IEnumerable<IPoint>
 
 | Имя | Описание |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.animation/ipointcollection/asienumerable) { get; } | Позволяет получить базовый интерфейс IEnumerable. Только для чтенияIEnumerable. |
-| [Count](../../aspose.slides.animation/ipointcollection/count) { get; } | Возвращает количество точек в коллекции. Только для чтенияInt32. |
+| [AsIEnumerable](../../aspose.slides.animation/ipointcollection/asienumerable) { get; } | Позволяет получить базовый интерфейс IEnumerable. Только для чтенияIEnumerable . |
+| [Count](../../aspose.slides.animation/ipointcollection/count) { get; } | Возвращает количество точек в коллекции. Только для чтенияInt32 . |
 | [Item](../../aspose.slides.animation/ipointcollection/item) { get; } | Возвращает точку по указанному индексу. |
 
 ### Смотрите также

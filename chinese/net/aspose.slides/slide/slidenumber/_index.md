@@ -1,14 +1,14 @@
 ---
 title: SlideNumber
 second_title: Aspose.Slides for .NET API 参考
-description: 返回幻灯片的数量 Slidesaspose.slides/presentation/slides集合中幻灯片的索引始终等于 SlideNumber - Presentation.FirstSlideNumber 读/写Int32
+description: 返回幻灯片的数量 幻灯片的索引Slidesaspose.slides/presentation/slides集合总是等于 SlideNumber - Presentation.FirstSlideNumber. 读/写Int32.
 type: docs
 weight: 60
 url: /zh/net/aspose.slides/slide/slidenumber/
 ---
 ## Slide.SlideNumber property
 
-返回幻灯片的数量。 [`Slides`](../../presentation/slides)集合中幻灯片的索引始终等于 SlideNumber - Presentation.FirstSlideNumber。 读/写Int32。
+返回幻灯片的数量。 幻灯片的索引[`Slides`](../../presentation/slides)集合总是等于 SlideNumber - Presentation.FirstSlideNumber. 读/写Int32.
 
 ```csharp
 public int SlideNumber { get; set; }

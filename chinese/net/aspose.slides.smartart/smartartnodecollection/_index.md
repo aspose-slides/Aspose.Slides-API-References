@@ -18,10 +18,10 @@ public class SmartArtNodeCollection : ISmartArtNodeCollection
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Count](../../aspose.slides.smartart/smartartnodecollection/count) { get; } | 返回集合中的节点数 只读Int32 只读Int32。 |
-| [IsSynchronized](../../aspose.slides.smartart/smartartnodecollection/issynchronized) { get; } | 返回一个值，指示对集合的访问是否同步（线程安全）。 只读Boolean。 |
+| [Count](../../aspose.slides.smartart/smartartnodecollection/count) { get; } | 返回集合中的节点数 只读Int32 只读Int32. |
+| [IsSynchronized](../../aspose.slides.smartart/smartartnodecollection/issynchronized) { get; } | 返回一个值，指示对集合的访问是否同步（线程安全）。 只读Boolean. |
 | [Item](../../aspose.slides.smartart/smartartnodecollection/item) { get; } | 按索引返回节点 |
-| [SyncRoot](../../aspose.slides.smartart/smartartnodecollection/syncroot) { get; } | 返回同步根。 只读Object。 |
+| [SyncRoot](../../aspose.slides.smartart/smartartnodecollection/syncroot) { get; } | 返回同步根。 只读Object. |
 
 ## 方法
 

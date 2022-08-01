@@ -1,14 +1,14 @@
 ---
 title: FromBlack
 second_title: Aspose.Slides for .NET API 参考
-description: 此属性指定转换是否从黑屏 开始然后将新幻灯片转换为黑色 读/写Boolean
+description: 此属性指定转换是否从黑屏开始 然后将新幻灯片转换为黑色 读/写Boolean.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides.slideshow/optionalblacktransition/fromblack/
 ---
 ## OptionalBlackTransition.FromBlack property
 
-此属性指定转换是否从黑屏 开始（然后将新幻灯片转换为黑色）。 读/写Boolean。
+此属性指定转换是否从黑屏开始 （然后将新幻灯片转换为黑色）。 读/写Boolean.
 
 ```csharp
 public bool FromBlack { get; set; }

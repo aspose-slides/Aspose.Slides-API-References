@@ -16,12 +16,12 @@ public IMathRadical CreateMathRadical(IMathElement baseArgument, IMathElement de
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| baseArgument | IMathElement | 应用部首的基本参数 |
-| degreeArgument | IMathElement | 度数值 |
+| baseArgument | IMathElement | 应用激进的基本论点 |
+| degreeArgument | IMathElement | 度数 |
 
 ### 返回值
 
-新部首元素
+新激进元素
 
 ### 也可以看看
 

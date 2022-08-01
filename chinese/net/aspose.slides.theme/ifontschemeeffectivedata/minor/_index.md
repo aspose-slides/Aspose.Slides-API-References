@@ -1,14 +1,14 @@
 ---
 title: Minor
 second_title: Aspose.Slides for .NET API 参考
-description: 返回幻灯片正文部分的字体集合 只读IFontsEffectiveDataaspose.slides/ifontseffectivedata
+description: 返回幻灯片正文部分的字体集合 只读IFontsEffectiveDataaspose.slides/ifontseffectivedata.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides.theme/ifontschemeeffectivedata/minor/
 ---
 ## IFontSchemeEffectiveData.Minor property
 
-返回幻灯片“正文”部分的字体集合。 只读[`IFontsEffectiveData`](../../../aspose.slides/ifontseffectivedata)。
+返回幻灯片“正文”部分的字体集合。 只读[`IFontsEffectiveData`](../../../aspose.slides/ifontseffectivedata).
 
 ```csharp
 public IFontsEffectiveData Minor { get; }

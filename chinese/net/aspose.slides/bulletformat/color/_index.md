@@ -1,14 +1,14 @@
 ---
 title: Color
 second_title: Aspose.Slides for .NET API 参考
-description: 返回没有继承的段落项目符号的颜色格式 只读IColorFormataspose.slides/icolorformat
+description: 返回没有继承的段落项目符号的颜色格式 只读IColorFormataspose.slides/icolorformat.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides/bulletformat/color/
 ---
 ## BulletFormat.Color property
 
-返回没有继承的段落项目符号的颜色格式。 只读[`IColorFormat`](../../icolorformat)。
+返回没有继承的段落项目符号的颜色格式。 只读[`IColorFormat`](../../icolorformat).
 
 ```csharp
 public IColorFormat Color { get; }

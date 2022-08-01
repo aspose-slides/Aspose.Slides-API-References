@@ -1,14 +1,14 @@
 ---
 title: GetEffective
 second_title: Aspose.Slides for .NET API 参考
-description: 在应用了继承的情况下获取有效的格式化数据
+description: 获取应用了继承的有效效果格式化数据
 type: docs
 weight: 260
 url: /zh/net/aspose.slides/ieffectformat/geteffective/
 ---
 ## IEffectFormat.GetEffective method
 
-在应用了继承的情况下获取有效的格式化数据。
+获取应用了继承的有效效果格式化数据。
 
 ```csharp
 public IEffectFormatEffectiveData GetEffective()
@@ -16,7 +16,7 @@ public IEffectFormatEffectiveData GetEffective()
 
 ### 返回值
 
-A[`IEffectFormatEffectiveData`](../../ieffectformateffectivedata)。
+一个[`IEffectFormatEffectiveData`](../../ieffectformateffectivedata).
 
 ### 也可以看看
 

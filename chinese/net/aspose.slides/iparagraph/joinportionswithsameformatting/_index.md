@@ -1,14 +1,14 @@
 ---
 title: JoinPortionsWithSameFormatting
 second_title: Aspose.Slides for .NET API 参考
-description: 加入以相同格式运行
+description: 连接以相同的格式运行
 type: docs
 weight: 70
 url: /zh/net/aspose.slides/iparagraph/joinportionswithsameformatting/
 ---
 ## IParagraph.JoinPortionsWithSameFormatting method
 
-加入以相同格式运行。
+连接以相同的格式运行。
 
 ```csharp
 public void JoinPortionsWithSameFormatting()

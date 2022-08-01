@@ -1,14 +1,14 @@
 ---
 title: GetCellsAddressInWorkbook
 second_title: Справочник по API Aspose.Slides для .NET
-description: Если свойство DataSourceType имеет значение DataSourceType.Worksheet то этот метод возвращает адрес ячеек в рабочей книге которые представляют строковые данные. В противном случае вернуть пустую строку.
+description: Если свойство DataSourceType имеет значение DataSourceType.Worksheet то этот метод возвращает адрес ячеек в книге которые представляют строковые данные. В противном случае return пустая строка.
 type: docs
 weight: 40
 url: /ru/net/aspose.slides.charts/stringchartvalue/getcellsaddressinworkbook/
 ---
 ## StringChartValue.GetCellsAddressInWorkbook method
 
-Если свойство DataSourceType имеет значение DataSourceType.Worksheet, то этот метод возвращает адрес ячеек в рабочей книге, которые представляют строковые данные. В противном случае вернуть пустую строку.
+Если свойство DataSourceType имеет значение DataSourceType.Worksheet, то этот метод возвращает адрес ячеек в книге, которые представляют строковые данные. В противном случае return пустая строка.
 
 ```csharp
 public string GetCellsAddressInWorkbook()

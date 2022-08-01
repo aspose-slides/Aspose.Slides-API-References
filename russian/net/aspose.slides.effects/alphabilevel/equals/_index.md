@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет равен ли указанныйAlphaBiLevelaspose.slides.effects/alphabilevelтекущемуAlphaBiLevel.
+description: Определяет является ли указанныйAlphaBiLevelaspose.slides.effects/alphabilevel равен текущемуAlphaBiLevelaspose.slides.effects/alphabilevel .
 type: docs
 weight: 20
 url: /ru/net/aspose.slides.effects/alphabilevel/equals/
 ---
 ## AlphaBiLevel.Equals method
 
-Определяет, равен ли указанный[`AlphaBiLevel`](../../alphabilevel)текущемуAlphaBiLevel.
+Определяет, является ли указанный[`AlphaBiLevel`](../../alphabilevel) равен текущему[`AlphaBiLevel`](../../alphabilevel) .
 
 ```csharp
 public override bool Equals(object obj)
@@ -16,7 +16,7 @@ public override bool Equals(object obj)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| obj | Object | [`AlphaBiLevel`](../../alphabilevel)для сравнения. |
+| obj | Object | [`AlphaBiLevel`](../../alphabilevel) сравнивать. |
 
 ### Возвращаемое значение
 

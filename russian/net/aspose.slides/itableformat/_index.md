@@ -18,13 +18,13 @@ public interface ITableFormat
 
 | Имя | Описание |
 | --- | --- |
-| [FillFormat](../../aspose.slides/itableformat/fillformat) { get; } | Возвращает объект свойств заполнения таблицы. Только для чтения[`IFillFormat`](../ifillformat). |
+| [FillFormat](../../aspose.slides/itableformat/fillformat) { get; } | Возвращает объект свойств заполнения таблицы. Только для чтения[`IFillFormat`](../ifillformat) . |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [GetEffective](../../aspose.slides/itableformat/geteffective)() | Получает эффективные свойства форматирования таблицы с применением стилей наследования и таблиц. |
+| [GetEffective](../../aspose.slides/itableformat/geteffective)() | Получает эффективные свойства форматирования таблицы с применением наследования и стилей таблицы. |
 
 ### Смотрите также
 

@@ -8,7 +8,7 @@ url: /zh/net/aspose.slides.animation/behaviorproperty/extrusionforedepth/
 ---
 ## BehaviorProperty.ExtrusionForeDepth property
 
-表示'extrusion.foredepth'属性
+表示“extrusion.foredepth”属性
 
 ```csharp
 public static BehaviorProperty ExtrusionForeDepth { get; }

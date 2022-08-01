@@ -1,14 +1,14 @@
 ---
 title: Name
 second_title: Aspose.Slides for .NET API 参考
-description: 返回此调整值的名称 只读String
+description: 返回此调整值的名称 只读String.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides/iadjustvalue/name/
 ---
 ## IAdjustValue.Name property
 
-返回此调整值的名称。 只读String。
+返回此调整值的名称。 只读String.
 
 ```csharp
 public string Name { get; }

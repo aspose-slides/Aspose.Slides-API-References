@@ -8,7 +8,7 @@ url: /zh/net/aspose.slides/cell/marginright/
 ---
 ## Cell.MarginRight property
 
-返回或设置 TextFrame 中的右边距。 读/写Double。
+返回或设置 TextFrame 中的右边距。 读/写Double
 
 ```csharp
 public double MarginRight { get; set; }

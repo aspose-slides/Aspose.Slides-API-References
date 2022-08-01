@@ -1,14 +1,14 @@
 ---
 title: EndReflectionOpacity
 second_title: Справочник по API Aspose.Slides для .NET
-description: Непрозрачность конечного отражения. проценты. Чтение/записьSingle.
+description: Непрозрачность конечного отражения. проценты. Чтение/записьSingle .
 type: docs
 weight: 50
 url: /ru/net/aspose.slides.effects/reflection/endreflectionopacity/
 ---
 ## Reflection.EndReflectionOpacity property
 
-Непрозрачность конечного отражения. (проценты). Чтение/записьSingle.
+Непрозрачность конечного отражения. (проценты). Чтение/записьSingle .
 
 ```csharp
 public float EndReflectionOpacity { get; set; }

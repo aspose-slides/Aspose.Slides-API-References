@@ -1,14 +1,14 @@
 ---
 title: TrendLines
 second_title: Aspose.Slides for .NET API 参考
-description: 系列趋势线的集合 只读ITrendlineCollectionaspose.slides.charts/itrendlinecollection
+description: 系列趋势线的集合 只读ITrendlineCollectionaspose.slides.charts/itrendlinecollection.
 type: docs
 weight: 430
 url: /zh/net/aspose.slides.charts/chartseries/trendlines/
 ---
 ## ChartSeries.TrendLines property
 
-系列趋势线的集合。 只读[`ITrendlineCollection`](../../itrendlinecollection)。
+系列趋势线的集合。 只读[`ITrendlineCollection`](../../itrendlinecollection).
 
 ```csharp
 public ITrendlineCollection TrendLines { get; }
@@ -16,7 +16,7 @@ public ITrendlineCollection TrendLines { get; }
 
 ### 评论
 
-趋势线可用于（非空）未堆叠二维区域、条形、列中的数据系列、线、 股票、xy（散点图）和气泡图。趋势线不适用于任何堆叠或 3-D 图表类型中的数据系列 。趋势线也不适用于雷达、 饼图、曲面或圆环图。
+TrendLines 可用于未堆叠二维区域、条形图、柱形图、折线图、 股票、xy（散点图）和气泡图中的数据系列。趋势线不适用于任何堆叠或 3-D 图表类型中的数据系列 。趋势线也不适用于雷达图、 饼图、曲面图或圆环图。
 
 ### 也可以看看
 

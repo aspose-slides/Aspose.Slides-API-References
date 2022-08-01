@@ -1,14 +1,14 @@
 ---
 title: Instance
 second_title: Aspose.Slides for .NET API 参考
-description: 表示工厂静态实例 只读PresentationFactoryaspose.slides/presentationfactory
+description: 表示工厂静态实例 只读PresentationFactoryaspose.slides/presentationfactory.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides/presentationfactory/instance/
 ---
 ## PresentationFactory.Instance property
 
-表示工厂静态实例。 只读[`PresentationFactory`](../../presentationfactory)。
+表示工厂静态实例。 只读[`PresentationFactory`](../../presentationfactory).
 
 ```csharp
 public static PresentationFactory Instance { get; }

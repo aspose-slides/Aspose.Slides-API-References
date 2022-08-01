@@ -1,14 +1,14 @@
 ---
 title: YValue
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает значение y точки данных диаграммы. Только для чтенияIDoubleChartValueaspose.slides.charts/idoublechartvalue.
+description: Возвращает значение y точки данных диаграммы. Только для чтенияIDoubleChartValueaspose.slides.charts/idoublechartvalue .
 type: docs
 weight: 170
 url: /ru/net/aspose.slides.charts/ichartdatapoint/yvalue/
 ---
 ## IChartDataPoint.YValue property
 
-Возвращает значение y точки данных диаграммы. Только для чтения[`IDoubleChartValue`](../../idoublechartvalue).
+Возвращает значение y точки данных диаграммы. Только для чтения[`IDoubleChartValue`](../../idoublechartvalue) .
 
 ```csharp
 public IDoubleChartValue YValue { get; }

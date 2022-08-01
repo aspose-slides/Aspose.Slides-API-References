@@ -18,10 +18,10 @@ public interface IMasterNotesSlide : IBaseSlide, IMasterThemeable
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsIBaseSlide](../../aspose.slides/imasternotesslide/asibaseslide) { get; } | 允许获取基本 IBaseSlide 接口。 只读[`IBaseSlide`](../ibaseslide)。 |
-| [AsIMasterThemeable](../../aspose.slides/imasternotesslide/asimasterthemeable) { get; } | 返回 IMasterThemeable 接口。 只读[`IMasterThemeable`](../../aspose.slides.theme/imasterthemeable)。 |
-| [HeaderFooterManager](../../aspose.slides/imasternotesslide/headerfootermanager) { get; } | 返回主注释幻灯片的 HeaderFooter 管理器。 只读[`IMasterNotesSlideHeaderFooterManager`](../imasternotesslideheaderfootermanager)。 |
-| [NotesStyle](../../aspose.slides/imasternotesslide/notesstyle) { get; } | 返回注释文本的样式。 只读[`ITextStyle`](../itextstyle)。 |
+| [AsIBaseSlide](../../aspose.slides/imasternotesslide/asibaseslide) { get; } | 允许获取基本 IBaseSlide 接口。 只读[`IBaseSlide`](../ibaseslide). |
+| [AsIMasterThemeable](../../aspose.slides/imasternotesslide/asimasterthemeable) { get; } | 返回 IMasterThemeable 接口。 只读[`IMasterThemeable`](../../aspose.slides.theme/imasterthemeable). |
+| [HeaderFooterManager](../../aspose.slides/imasternotesslide/headerfootermanager) { get; } | 返回主注释幻灯片的 HeaderFooter 管理器。 只读[`IMasterNotesSlideHeaderFooterManager`](../imasternotesslideheaderfootermanager). |
+| [NotesStyle](../../aspose.slides/imasternotesslide/notesstyle) { get; } | 返回注释文本的样式。 只读[`ITextStyle`](../itextstyle). |
 
 ### 也可以看看
 

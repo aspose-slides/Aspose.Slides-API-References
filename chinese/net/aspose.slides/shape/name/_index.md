@@ -1,14 +1,14 @@
 ---
 title: Name
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置形状的名称 不能为空如果需要使用空字符串值 读/写String
+description: 返回或设置形状的名称 不能为空如果需要使用空字符串值 读/写String.
 type: docs
 weight: 170
 url: /zh/net/aspose.slides/shape/name/
 ---
 ## Shape.Name property
 
-返回或设置形状的名称。 不能为空。如果需要，使用空字符串值。 读/写String。
+返回或设置形状的名称。 不能为空。如果需要，使用空字符串值。 读/写String.
 
 ```csharp
 public string Name { get; set; }

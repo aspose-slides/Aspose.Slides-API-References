@@ -1,14 +1,14 @@
 ---
 title: Speed
 second_title: Aspose.Slides for .NET API 参考
-description: 指定从当前幻灯片 转换到下一张幻灯片时要使用的转换速度 读写TransitionSpeedaspose.slides.slideshow/transitionspeed
+description: 指定从当前幻灯片 转换到下一张幻灯片时要使用的转换速度 读写TransitionSpeedaspose.slides.slideshow/transitionspeed.
 type: docs
 weight: 80
 url: /zh/net/aspose.slides/islideshowtransition/speed/
 ---
 ## ISlideShowTransition.Speed property
 
-指定从当前幻灯片 转换到下一张幻灯片时要使用的转换速度。 读写[`TransitionSpeed`](../../../aspose.slides.slideshow/transitionspeed)。
+指定从当前幻灯片 转换到下一张幻灯片时要使用的转换速度。 读写[`TransitionSpeed`](../../../aspose.slides.slideshow/transitionspeed).
 
 ```csharp
 public TransitionSpeed Speed { get; set; }

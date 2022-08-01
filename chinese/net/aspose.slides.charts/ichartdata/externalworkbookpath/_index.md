@@ -1,14 +1,14 @@
 ---
 title: ExternalWorkbookPath
 second_title: Aspose.Slides for .NET API 参考
-description: 如果数据源是外部则表示外部工作簿路径否则为 null
+description: 如果数据源是外部的则表示外部工作簿路径否则为 null
 type: docs
 weight: 40
 url: /zh/net/aspose.slides.charts/ichartdata/externalworkbookpath/
 ---
 ## IChartData.ExternalWorkbookPath property
 
-如果数据源是外部，则表示外部工作簿路径，否则为 null
+如果数据源是外部的，则表示外部工作簿路径，否则为 null
 
 ```csharp
 public string ExternalWorkbookPath { get; }

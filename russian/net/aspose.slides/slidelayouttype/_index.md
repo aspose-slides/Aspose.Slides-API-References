@@ -34,25 +34,25 @@ public enum SlideLayoutType : sbyte
 | TextAndObject | `12` | Текст и объект |
 | ObjectAndText | `13` | Объект и текст |
 | Object | `14` | Объект |
-| TitleAndObject | `15` | Название и объект |
-| TextAndMedia | `16` | Текст и медиа |
-| MediaAndText | `17` | Медиа и текст |
-| ObjectOverText | `18` | Объект поверх текста |
-| TextOverObject | `19` | Текст поверх объекта |
+| TitleAndObject | `15` | Заголовок и Объект |
+| TextAndMedia | `16` | Текст и мультимедиа |
+| MediaAndText | `17` | Мультимедиа и текст |
+| ObjectOverText | `18` | Объект поверх Text |
+| TextOverObject | `19` | Текст поверх Object |
 | TextAndTwoObjects | `20` | Текст и два объекта |
 | TwoObjectsAndText | `21` | Два объекта и текст |
-| TwoObjectsOverText | `22` | Два объекта поверх текста |
+| TwoObjectsOverText | `22` | Два объекта над текстом |
 | FourObjects | `23` | Четыре объекта |
 | VerticalText | `24` | Вертикальный текст |
-| ClipArtAndVerticalText | `25` | Клип-арт и вертикальный текст |
-| VerticalTitleAndText | `26` | Вертикальное название и текст |
-| VerticalTitleAndTextOverChart | `27` | Вертикальное название и текст поверх диаграммы |
+| ClipArtAndVerticalText | `25` | Картинки и вертикальный текст |
+| VerticalTitleAndText | `26` | Вертикальный заголовок и текст |
+| VerticalTitleAndTextOverChart | `27` | Вертикальный заголовок и текст над диаграммой |
 | TwoObjects | `28` | Два объекта |
 | ObjectAndTwoObject | `29` | Объект и два объекта |
-| TwoObjectsAndObject | `30` | Два объекта и объект |
+| TwoObjectsAndObject | `30` | Два объекта и Object |
 | SectionHeader | `31` | Заголовок раздела |
 | TwoTextAndTwoObjects | `32` | Два текста и два объекта |
-| TitleObjectAndCaption | `33` | Заголовок, объект и подпись |
+| TitleObjectAndCaption | `33` | Заголовок, Объект и Подпись |
 | PictureAndCaption | `34` | Изображение и подпись |
 
 ### Смотрите также

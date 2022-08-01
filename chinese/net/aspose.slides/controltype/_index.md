@@ -1,14 +1,14 @@
 ---
 title: ControlType
 second_title: Aspose.Slides for .NET API 参考
-description: 定义一个控件类型应该通过Single
+description: 定义应该嵌入的控件类型AddControl./icontrolcollection/addcontrol.
 type: docs
 weight: 2570
 url: /zh/net/aspose.slides/controltype/
 ---
 ## ControlType enumeration
 
-定义一个控件类型，应该通过Single)。
+定义应该嵌入的控件类型[`AddControl`](../icontrolcollection/addcontrol).
 
 ```csharp
 public enum ControlType
@@ -18,7 +18,7 @@ public enum ControlType
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| WindowsMediaPlayer | `0` | Windows Media Player 控件。 |
+| WindowsMediaPlayer | `0` | Windows 媒体播放器控件。 |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: Aspose.Slides for .NET API 参考
-description: 确定指定的HSLaspose.slides.effects/hsl是否等于当前的HSL
+description: 判断是否指定HSLaspose.slides.effects/hsl等于当前HSLaspose.slides.effects/hsl.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides.effects/hsl/equals/
 ---
 ## HSL.Equals method
 
-确定指定的[`HSL`](../../hsl)是否等于当前的HSL。
+判断是否指定[`HSL`](../../hsl)等于当前[`HSL`](../../hsl).
 
 ```csharp
 public override bool Equals(object obj)
@@ -16,11 +16,11 @@ public override bool Equals(object obj)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| obj | Object | [`HSL`](../../hsl)进行比较。 |
+| obj | Object | 这[`HSL`](../../hsl)比较。 |
 
 ### 返回值
 
-如果对象相等，则为真；否则为假。
+如果对象相等，则为 true；否则为假。
 
 ### 也可以看看
 

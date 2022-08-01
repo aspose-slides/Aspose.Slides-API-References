@@ -18,7 +18,7 @@ public interface IEffectFactory
 
 | Имя | Описание |
 | --- | --- |
-| [ImageTransformOperationFactory](../../aspose.slides.effects/ieffectfactory/imagetransformoperationfactory) { get; } | Возвращает ImageTransformOperationFactory. Только для чтения[`IImageTransformOperationFactory`](../iimagetransformoperationfactory). |
+| [ImageTransformOperationFactory](../../aspose.slides.effects/ieffectfactory/imagetransformoperationfactory) { get; } | Возвращает ImageTransformOperationFactory. Только для чтения[`IImageTransformOperationFactory`](../iimagetransformoperationfactory) . |
 
 ## Методы
 

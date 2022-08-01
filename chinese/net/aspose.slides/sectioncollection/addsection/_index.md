@@ -17,7 +17,7 @@ public ISection AddSection(string name, ISlide startedFromSlide)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | name | String | 部分名称 |
-| startedFromSlide | ISlide | 第一张幻灯片部分 |
+| startedFromSlide | ISlide | 部分的第一张幻灯片 |
 
 ### 返回值
 

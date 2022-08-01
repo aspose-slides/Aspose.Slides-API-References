@@ -1,14 +1,14 @@
 ---
 title: AsILayoutSlideCollection
 second_title: Aspose.Slides for .NET API 参考
-description: 返回 ILayoutSlideCollection 接口 只读ILayoutSlideCollectionaspose.slides/ilayoutslidecollection
+description: 返回 ILayoutSlideCollection 接口 只读ILayoutSlideCollectionaspose.slides/ilayoutslidecollection.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides/igloballayoutslidecollection/asilayoutslidecollection/
 ---
 ## IGlobalLayoutSlideCollection.AsILayoutSlideCollection property
 
-返回 ILayoutSlideCollection 接口。 只读[`ILayoutSlideCollection`](../../ilayoutslidecollection)。
+返回 ILayoutSlideCollection 接口。 只读[`ILayoutSlideCollection`](../../ilayoutslidecollection).
 
 ```csharp
 public ILayoutSlideCollection AsILayoutSlideCollection { get; }

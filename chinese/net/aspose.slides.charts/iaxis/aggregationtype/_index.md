@@ -1,14 +1,14 @@
 ---
 title: AggregationType
 second_title: Aspose.Slides for .NET API 参考
-description: 表示类别轴的聚合类型分箱应用于类别仅与 Histogram 或 HistogramPareto 系列一起使用
+description: 表示类别轴的聚合类型分箱应用于类别仅与直方图或直方图帕累托系列一起使用
 type: docs
 weight: 70
 url: /zh/net/aspose.slides.charts/iaxis/aggregationtype/
 ---
 ## IAxis.AggregationType property
 
-表示类别轴的聚合类型（分箱）。应用于类别。仅与 Histogram 或 HistogramPareto 系列一起使用。
+表示类别轴的聚合类型（分箱）。应用于类别。仅与直方图或直方图帕累托系列一起使用。
 
 ```csharp
 public AxisAggregationType AggregationType { get; set; }

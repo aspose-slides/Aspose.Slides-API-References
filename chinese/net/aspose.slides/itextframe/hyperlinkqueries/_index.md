@@ -1,14 +1,14 @@
 ---
 title: HyperlinkQueries
 second_title: Aspose.Slides for .NET API 参考
-description: 提供对包含的超链接的轻松访问 只读IHyperlinkQueriesaspose.slides/ihyperlinkqueries
+description: 提供对包含的超链接的轻松访问 只读IHyperlinkQueriesaspose.slides/ihyperlinkqueries.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides/itextframe/hyperlinkqueries/
 ---
 ## ITextFrame.HyperlinkQueries property
 
-提供对包含的超链接的轻松访问。 只读[`IHyperlinkQueries`](../../ihyperlinkqueries)。
+提供对包含的超链接的轻松访问。 只读[`IHyperlinkQueries`](../../ihyperlinkqueries).
 
 ```csharp
 public IHyperlinkQueries HyperlinkQueries { get; }

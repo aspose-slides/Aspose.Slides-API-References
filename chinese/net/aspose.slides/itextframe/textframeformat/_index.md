@@ -1,14 +1,14 @@
 ---
 title: TextFrameFormat
 second_title: Aspose.Slides for .NET API 参考
-description: 返回此 TextFrame 对象的格式化对象 只读ITextFrameFormataspose.slides/itextframeformat
+description: 返回此 TextFrame 对象的格式化对象 只读ITextFrameFormataspose.slides/itextframeformat.
 type: docs
 weight: 50
 url: /zh/net/aspose.slides/itextframe/textframeformat/
 ---
 ## ITextFrame.TextFrameFormat property
 
-返回此 TextFrame 对象的格式化对象。 只读[`ITextFrameFormat`](../../itextframeformat)。
+返回此 TextFrame 对象的格式化对象。 只读[`ITextFrameFormat`](../../itextframeformat).
 
 ```csharp
 public ITextFrameFormat TextFrameFormat { get; }

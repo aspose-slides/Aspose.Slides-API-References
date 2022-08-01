@@ -1,14 +1,14 @@
 ---
 title: AutofitType
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置文本的自动调整模式 更改此属性只会对这些图表部分产生一定的影响 DataLabel 和 DataLabelFormat在 PowerPoint 2013 中完全支持在 PowerPoint 2007 中对渲染没有影响 读/写TextAutofitTypeaspose.slides/textautofittype
+description: 返回或设置文本的自动调整模式 更改此属性只会对这些图表部分产生一定的影响 DataLabel 和 DataLabelFormat在 PowerPoint 2013 中完全支持在 PowerPoint 2007 中对渲染没有影响 读/写TextAutofitTypeaspose.slides/textautofittype.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides.charts/icharttextblockformat/autofittype/
 ---
 ## IChartTextBlockFormat.AutofitType property
 
-返回或设置文本的自动调整模式。 更改此属性只会对这些图表部分产生一定的影响: DataLabel 和 DataLabelFormat（在 PowerPoint 2013 中完全支持；在 PowerPoint 2007 中对渲染没有影响）。 读/写[`TextAutofitType`](../../../aspose.slides/textautofittype)。
+返回或设置文本的自动调整模式。 更改此属性只会对这些图表部分产生一定的影响： DataLabel 和 DataLabelFormat（在 PowerPoint 2013 中完全支持；在 PowerPoint 2007 中对渲染没有影响）。 读/写[`TextAutofitType`](../../../aspose.slides/textautofittype).
 
 ```csharp
 public TextAutofitType AutofitType { get; set; }

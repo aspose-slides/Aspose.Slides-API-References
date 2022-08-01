@@ -1,14 +1,14 @@
 ---
 title: Frame
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置形状框架的属性 读/写IShapeFrameaspose.slides/ishapeframe
+description: 返回或设置形状框架的属性 读/写IShapeFrameaspose.slides/ishapeframe.
 type: docs
 weight: 100
 url: /zh/net/aspose.slides/ishape/frame/
 ---
 ## IShape.Frame property
 
-返回或设置形状框架的属性。 读/写[`IShapeFrame`](../../ishapeframe)。
+返回或设置形状框架的属性。 读/写[`IShapeFrame`](../../ishapeframe).
 
 ```csharp
 public IShapeFrame Frame { get; set; }
@@ -16,7 +16,7 @@ public IShapeFrame Frame { get; set; }
 
 ### 评论
 
-返回的 IShapeFrame 实例的每个属性的值不是 undefined (不是 NaN 或 NotDefined）。 分配的 IShapeFrame 实例的每个属性的值不得为 undefined（不得为 NaN 或 NotDefined）。 您可以为 RawFrame 实例属性设置未定义的值。
+返回的 IShapeFrame 实例的每个属性的值不是 undefined（不是 NaN 或 NotDefined）。 分配的 IShapeFrame 实例的每个属性的值必须不是 undefined（必须不是 NaN 或 NotDefined）。 可以设置RawFrame 实例属性的未定义值。
 
 ### 也可以看看
 

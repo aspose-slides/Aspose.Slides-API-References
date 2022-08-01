@@ -1,14 +1,14 @@
 ---
 title: MasterHandoutSlide
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает образец для всех слайдов заметок этой презентации если он есть в противном случае возвращает ноль. Только для чтенияIMasterHandoutSlideaspose.slides/imasterhandoutslide.
+description: Возвращает образец для всех слайдов заметок этой презентации если он есть в противном случае возвращает null. Только для чтенияIMasterHandoutSlideaspose.slides/imasterhandoutslide .
 type: docs
 weight: 10
 url: /ru/net/aspose.slides/imasterhandoutslidemanager/masterhandoutslide/
 ---
 ## IMasterHandoutSlideManager.MasterHandoutSlide property
 
-Возвращает образец для всех слайдов заметок этой презентации, если он есть, в противном случае возвращает ноль. Только для чтения[`IMasterHandoutSlide`](../../imasterhandoutslide).
+Возвращает образец для всех слайдов заметок этой презентации, если он есть, в противном случае возвращает null. Только для чтения[`IMasterHandoutSlide`](../../imasterhandoutslide) .
 
 ```csharp
 public IMasterHandoutSlide MasterHandoutSlide { get; }

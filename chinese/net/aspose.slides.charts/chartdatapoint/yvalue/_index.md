@@ -1,14 +1,14 @@
 ---
 title: YValue
 second_title: Aspose.Slides for .NET API 参考
-description: Y 值 只读IDoubleChartValueaspose.slides.charts/idoublechartvalue
+description: YValue. 只读IDoubleChartValueaspose.slides.charts/idoublechartvalue.
 type: docs
 weight: 200
 url: /zh/net/aspose.slides.charts/chartdatapoint/yvalue/
 ---
 ## ChartDataPoint.YValue property
 
-Y 值。 只读[`IDoubleChartValue`](../../idoublechartvalue)。
+YValue. 只读[`IDoubleChartValue`](../../idoublechartvalue).
 
 ```csharp
 public IDoubleChartValue YValue { get; }

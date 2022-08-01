@@ -1,14 +1,14 @@
 ---
 title: LayoutTargetType
 second_title: Справочник по API Aspose.Slides для .NET
-description: Если расположение области графика определяется вручную это свойство указывает будет ли размещать область построения по ее внутренней части не включая оси и метки осей или снаружи включая оси и метки осей. Чтение/записьLayoutTargetTypeaspose.slides.charts/ichartplotarea/layouttargettype.
+description: Если макет области графика определяется вручную это свойство указывает будет ли размещать область графика внутри без учета осей и меток осей или снаружи включая оси и метки осей. Чтение/записьLayoutTargetTypeaspose.slides.charts/ichartplotarea/layouttargettype .
 type: docs
 weight: 40
 url: /ru/net/aspose.slides.charts/ichartplotarea/layouttargettype/
 ---
 ## IChartPlotArea.LayoutTargetType property
 
-Если расположение области графика определяется вручную, это свойство указывает, будет ли размещать область построения по ее внутренней части (не включая оси и метки осей) или снаружи (включая оси и метки осей). Чтение/запись`LayoutTargetType`.
+Если макет области графика определяется вручную, это свойство указывает, будет ли размещать область графика внутри (без учета осей и меток осей) или снаружи (включая оси и метки осей). Чтение/запись`LayoutTargetType` .
 
 ```csharp
 public LayoutTargetType LayoutTargetType { get; set; }

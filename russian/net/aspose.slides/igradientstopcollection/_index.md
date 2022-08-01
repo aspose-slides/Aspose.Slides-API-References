@@ -18,7 +18,7 @@ public interface IGradientStopCollection : IGenericCollection<IGradientStop>
 
 | Имя | Описание |
 | --- | --- |
-| [Item](../../aspose.slides/igradientstopcollection/item) { get; } | Возвращает точку градиента по индексу. |
+| [Item](../../aspose.slides/igradientstopcollection/item) { get; } | Возвращает остановку градиента по индексу. |
 
 ## Методы
 

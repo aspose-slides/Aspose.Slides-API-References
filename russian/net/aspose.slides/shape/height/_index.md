@@ -1,14 +1,14 @@
 ---
 title: Height
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или задает высоту фигуры. Чтение/записьSingle.
+description: Возвращает или задает высоту фигуры. Чтение/записьSingle .
 type: docs
 weight: 90
 url: /ru/net/aspose.slides/shape/height/
 ---
 ## Shape.Height property
 
-Возвращает или задает высоту фигуры. Чтение/записьSingle.
+Возвращает или задает высоту фигуры. Чтение/записьSingle .
 
 ```csharp
 public float Height { get; set; }

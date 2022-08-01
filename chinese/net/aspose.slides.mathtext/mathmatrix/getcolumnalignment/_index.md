@@ -16,7 +16,7 @@ public MathHorizontalAlignment GetColumnAlignment(int columnIndex)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| columnIndex | Int32 | 零-基于列索引 |
+| columnIndex | Int32 | 从零开始的列索引 |
 
 ### 返回值
 
@@ -24,7 +24,7 @@ public MathHorizontalAlignment GetColumnAlignment(int columnIndex)
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]

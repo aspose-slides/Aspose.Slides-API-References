@@ -1,14 +1,14 @@
 ---
 title: ShadowMatrixYtoY
 second_title: Aspose.Slides for .NET API 参考
-description: 表示 shadow.matrix.ytoy 属性
+description: 代表shadow.matrix.ytoy属性
 type: docs
 weight: 670
 url: /zh/net/aspose.slides.animation/behaviorproperty/shadowmatrixytoy/
 ---
 ## BehaviorProperty.ShadowMatrixYtoY property
 
-表示 'shadow.matrix.ytoy' 属性
+代表“shadow.matrix.ytoy”属性
 
 ```csharp
 public static BehaviorProperty ShadowMatrixYtoY { get; }

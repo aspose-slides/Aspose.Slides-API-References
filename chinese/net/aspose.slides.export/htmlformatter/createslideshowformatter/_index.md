@@ -1,14 +1,14 @@
 ---
 title: CreateSlideShowFormatter
 second_title: Aspose.Slides for .NET API 参考
-description: 创建并返回 HTML 格式化程序用于一个简单的幻灯片放映 html它一个接一个地显示幻灯片
+description: 为一个简单的幻灯片放映 html 创建并返回 HTML 格式化程序它一个接一个地显示幻灯片
 type: docs
 weight: 30
 url: /zh/net/aspose.slides.export/htmlformatter/createslideshowformatter/
 ---
 ## HtmlFormatter.CreateSlideShowFormatter method
 
-创建并返回 HTML 格式化程序，用于一个简单的幻灯片放映 html，它一个接一个地显示幻灯片。
+为一个简单的幻灯片放映 html 创建并返回 HTML 格式化程序，它一个接一个地显示幻灯片。
 
 ```csharp
 public static HtmlFormatter CreateSlideShowFormatter(string css, bool showSlideTitle)

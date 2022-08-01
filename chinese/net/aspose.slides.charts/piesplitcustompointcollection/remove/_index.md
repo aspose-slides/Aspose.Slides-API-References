@@ -1,14 +1,14 @@
 ---
 title: Remove
 second_title: Aspose.Slides for .NET API 参考
-description: 从集合中移除项目
+description: 从集合中删除项目
 type: docs
 weight: 110
 url: /zh/net/aspose.slides.charts/piesplitcustompointcollection/remove/
 ---
 ## Remove(IChartDataPoint) {#remove}
 
-从集合中移除项目。
+从集合中删除项目。
 
 ```csharp
 public bool Remove(IChartDataPoint dataPoint)
@@ -20,7 +20,7 @@ public bool Remove(IChartDataPoint dataPoint)
 
 ### 返回值
 
-如果项目成功移除，则为真；否则为假。如果在 System.Collections.Generic.List{T} 中找不到项目，此方法还 返回 false。
+如果项目成功移除，则为 true；否则为假。如果在 System.Collections.Generic.List{T}. 中未找到项目，此方法也 返回 false
 
 ### 也可以看看
 
@@ -33,7 +33,7 @@ public bool Remove(IChartDataPoint dataPoint)
 
 ## Remove(int) {#remove_1}
 
-通过父系列点集合中的索引从集合中删除项目。
+通过它在父系列点集合中的索引从集合中删除项目。
 
 ```csharp
 public void Remove(int dataPointIndex)
@@ -41,7 +41,7 @@ public void Remove(int dataPointIndex)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| dataPointIndex | Int32 | 父系列点集合中的数据点索引。 |
+| dataPointIndex | Int32 | 父系列点集合中数据点的索引。 |
 
 ### 也可以看看
 

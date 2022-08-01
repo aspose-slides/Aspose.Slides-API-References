@@ -1,14 +1,14 @@
 ---
 title: StyleVisibility
 second_title: Aspose.Slides for .NET API 参考
-description: 表示style.visibility属性
+description: 表示style.visibility 属性
 type: docs
 weight: 1190
 url: /zh/net/aspose.slides.animation/behaviorproperty/stylevisibility/
 ---
 ## BehaviorProperty.StyleVisibility property
 
-表示'style.visibility'属性
+表示'style.visibility' 属性
 
 ```csharp
 public static BehaviorProperty StyleVisibility { get; }

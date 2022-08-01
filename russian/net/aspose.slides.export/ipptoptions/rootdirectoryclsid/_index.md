@@ -22,7 +22,7 @@ using (Presentation pres = new Presentation())
 {
     PptOptions pptOptions = new PptOptions();
     
-     /// установите для CLSID значение 'Microsoft Powerpoint.Show.8'
+    /// установить CLSID в 'Microsoft Powerpoint.Show.8'
     pptOptions.RootDirectoryClsid = new Guid("64818D10-4F9B-11CF-86EA-00AA00B929E8");
     
     pres.Save("pres.ppt", SaveFormat.Ppt, pptOptions);

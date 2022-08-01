@@ -1,14 +1,14 @@
 ---
 title: Hide
 second_title: Справочник по API Aspose.Slides для .NET
-description: Сделать метку данных скрытой по умолчанию установив все флаги Show ShowValue ... свойства DefaultDataLabelFormat в состояние false. IsVisible после этого будет false.
+description: Сделать метку данных скрытой по умолчанию установив для всех флагов Show ShowValue ... свойства DefaultDataLabelFormat значение false. IsVisible после этого станет ложным.
 type: docs
 weight: 90
 url: /ru/net/aspose.slides.charts/datalabelcollection/hide/
 ---
 ## DataLabelCollection.Hide method
 
-Сделать метку данных скрытой по умолчанию, установив все флаги Show* (ShowValue, ...) свойства DefaultDataLabelFormat в состояние false. IsVisible после этого будет false.
+Сделать метку данных скрытой по умолчанию, установив для всех флагов Show* (ShowValue, ...) свойства DefaultDataLabelFormat значение false. IsVisible после этого станет ложным.
 
 ```csharp
 public void Hide()
@@ -16,7 +16,7 @@ public void Hide()
 
 ### Примечания
 
-Если метка данных не видна по умолчанию (IsVisible имеет значение false), вы можете сделать метку данных "видимой". по умолчанию" с установкой флагов Show* (ShowValue, ...) свойства DefaultDataLabelFormat в истинное состояние.
+Если метка данных по умолчанию не видна (IsVisible имеет значение false), вы можете сделать метку данных "видимой по умолчанию", установив флаги Show* (ShowValue, ...) свойства DefaultDataLabelFormat в состояние true.
 
 ### Смотрите также
 

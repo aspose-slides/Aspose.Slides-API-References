@@ -18,10 +18,10 @@ public class Camera : PVIObject, ICamera
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允许获取基本 IPresentationComponent 接口。 只读[`IPresentationComponent`](../ipresentationcomponent)。 |
-| [CameraType](../../aspose.slides/camera/cameratype) { get; set; } | 相机类型。 读/写[`CameraPresetType`](../camerapresettype)。 |
-| [FieldOfViewAngle](../../aspose.slides/camera/fieldofviewangle) { get; set; } | 相机 FOV（0-180 度，视野）。 读/写Single。 |
-| [Zoom](../../aspose.slides/camera/zoom) { get; set; } | 相机缩放（正值百分比）。 读/写Single。 |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允许获取基本 IPresentationComponent 接口。 只读[`IPresentationComponent`](../ipresentationcomponent). |
+| [CameraType](../../aspose.slides/camera/cameratype) { get; set; } | 相机类型。 读/写[`CameraPresetType`](../camerapresettype). |
+| [FieldOfViewAngle](../../aspose.slides/camera/fieldofviewangle) { get; set; } | 相机 FOV（0-180 度，视野）。 读/写Single. |
+| [Zoom](../../aspose.slides/camera/zoom) { get; set; } | 相机缩放（百分比为正值）。 读/写Single. |
 
 ## 方法
 
@@ -29,8 +29,8 @@ public class Camera : PVIObject, ICamera
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | 与指定对象比较。 |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | 返回哈希码。 |
-| [GetRotation](../../aspose.slides/camera/getrotation)() | 旋转是通过使用纬度 坐标、经度坐标和绕轴:::47::旋转来定义的:作为经纬度坐标。 返回数组中的第一个元素 - 纬度，第二个 - 经度，第三个 - 旋转。 如果没有定义旋转，则返回 null。 |
-| [SetRotation](../../aspose.slides/camera/setrotation)(float, float, float) | 旋转是通过使用纬度 坐标、经度坐标和绕轴:::47::旋转来定义的:作为经纬度坐标。 如果任何坐标值为 float.NaN，则所有旋转都是未定义的。 |
+| [GetRotation](../../aspose.slides/camera/getrotation)() | 通过使用 latitude 坐标、经度坐标和绕轴 作为纬度和经度坐标的旋转来定义旋转。 返回数组中的第一个元素 - 纬度，第二个 - 经度，第三个 - 旋转。如果没有定义旋转，则为 null。 |
+| [SetRotation](../../aspose.slides/camera/setrotation)(float, float, float) | 通过使用 latitude 坐标、经度坐标和绕轴 的旋转作为纬度和经度坐标来定义旋转。 如果任何坐标值为 float.NaN，则所有旋转都未定义。 |
 
 ### 也可以看看
 

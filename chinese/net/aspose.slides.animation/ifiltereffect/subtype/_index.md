@@ -1,14 +1,14 @@
 ---
 title: Subtype
 second_title: Aspose.Slides for .NET API 参考
-description: 表示滤镜效果的子类型 读/写FilterEffectSubtypeaspose.slides.animation/filtereffectsubtype
+description: 表示滤镜效果的子类型 读/写FilterEffectSubtypeaspose.slides.animation/filtereffectsubtype.
 type: docs
 weight: 30
 url: /zh/net/aspose.slides.animation/ifiltereffect/subtype/
 ---
 ## IFilterEffect.Subtype property
 
-表示滤镜效果的子类型。 读/写[`FilterEffectSubtype`](../../filtereffectsubtype)。
+表示滤镜效果的子类型。 读/写[`FilterEffectSubtype`](../../filtereffectsubtype).
 
 ```csharp
 public FilterEffectSubtype Subtype { get; set; }

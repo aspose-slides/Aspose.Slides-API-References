@@ -1,14 +1,14 @@
 ---
 title: FillFormat
 second_title: Aspose.Slides for .NET API 参考
-description: 返回 BackgroundType.OwnBackground 填充的 FillFormat 只读IFillFormataspose.slides/ifillformat
+description: 返回 BackgroundType 的 FillFormatOwnBackground 填充 只读IFillFormataspose.slides/ifillformat.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides/background/fillformat/
 ---
 ## Background.FillFormat property
 
-返回 BackgroundType.OwnBackground 填充的 FillFormat。 只读[`IFillFormat`](../../ifillformat)。
+返回 BackgroundType 的 FillFormat。OwnBackground 填充。 只读[`IFillFormat`](../../ifillformat).
 
 ```csharp
 public IFillFormat FillFormat { get; }

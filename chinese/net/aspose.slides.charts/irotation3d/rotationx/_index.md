@@ -1,14 +1,14 @@
 ---
 title: RotationX
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置围绕 X 轴的旋转度数即 3D 图表的 Y 方向-90 到 90 度之间 该属性与 ECMA-376 中的 21.2.2.157 rotXX 旋转项和 PowerPoint 2007 中的Y 旋转选项匹配 读/写SByte
+description: 返回或设置绕 X 轴的旋转度数即 3D 图表的 Y 方向-90 到 90 度之间 该属性与 ECMA-376 中的 21.2.2.157 rotX X Rotation 项匹配并且使用 PowerPoint 2007 中的Y 旋转选项 读/写SByte.
 type: docs
 weight: 50
 url: /zh/net/aspose.slides.charts/irotation3d/rotationx/
 ---
 ## IRotation3D.RotationX property
 
-返回或设置围绕 X 轴的旋转度数，即 3D 图表的 Y 方向（-90 到 90 度之间）。 该属性与 ECMA-376 中的 21.2.2.157 rotX（X 旋转）项和 PowerPoint 2007+ 中的“Y 旋转”选项匹配。 读/写SByte。
+返回或设置绕 X 轴的旋转度数，即 3D 图表的 Y 方向（-90 到 90 度之间）。 该属性与 ECMA-376 中的 21.2.2.157 rotX (X Rotation) 项匹配，并且使用 PowerPoint 2007+ 中的“Y 旋转”选项。 读/写SByte.
 
 ```csharp
 public sbyte RotationX { get; set; }

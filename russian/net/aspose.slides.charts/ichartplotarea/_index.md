@@ -19,9 +19,9 @@ public interface IChartPlotArea : IActualLayout, ILayoutable
 | Имя | Описание |
 | --- | --- |
 | [AsIActualLayout](../../aspose.slides.charts/ichartplotarea/asiactuallayout) { get; } | Возвращает интерфейс IActualLayout. |
-| [AsILayoutable](../../aspose.slides.charts/ichartplotarea/asilayoutable) { get; } | Позволяет получить базовый интерфейс ILayoutable. Только для чтения[`ILayoutable`](../ilayoutable). |
-| [Format](../../aspose.slides.charts/ichartplotarea/format) { get; } | Возвращает формат области графика. Только для чтения[`IFormat`](../iformat). |
-| [LayoutTargetType](../../aspose.slides.charts/ichartplotarea/layouttargettype) { get; set; } | Если расположение области графика определяется вручную, это свойство указывает, будет ли размещать область построения по ее внутренней части (не включая оси и метки осей) или снаружи (включая оси и метки осей). Чтение/запись[`LayoutTargetType`](./layouttargettype). |
+| [AsILayoutable](../../aspose.slides.charts/ichartplotarea/asilayoutable) { get; } | Позволяет получить базовый интерфейс ILayoutable. Только для чтения[`ILayoutable`](../ilayoutable) . |
+| [Format](../../aspose.slides.charts/ichartplotarea/format) { get; } | Возвращает формат области графика. Только для чтения[`IFormat`](../iformat) . |
+| [LayoutTargetType](../../aspose.slides.charts/ichartplotarea/layouttargettype) { get; set; } | Если макет области графика определяется вручную, это свойство указывает, будет ли размещать область графика внутри (без учета осей и меток осей) или снаружи (включая оси и метки осей). Чтение/запись[`LayoutTargetType`](./layouttargettype) . |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: PreferSingleView
 second_title: Aspose.Slides for .NET API 参考
-description: 指定用户是否更喜欢查看具有三个内容区域的 标准普通视图的全窗口单内容区域如果启用应用程序可以选择 在整个窗口中显示内容区域之一 读/写Boolean
+description: 指定用户是否更喜欢查看具有三个内容区域的 标准普通视图的全窗口单内容区域如果启用应用程序可以选择 在整个窗口中显示其中一个内容区域 读/写Boolean.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides/inormalviewproperties/prefersingleview/
 ---
 ## INormalViewProperties.PreferSingleView property
 
-指定用户是否更喜欢查看具有三个内容区域的 标准普通视图的全窗口单内容区域。如果启用，应用程序可以选择 在整个窗口中显示内容区域之一。 读/写Boolean。
+指定用户是否更喜欢查看具有三个内容区域的 标准普通视图的全窗口单内容区域。如果启用，应用程序可以选择 在整个窗口中显示其中一个内容区域。 读/写Boolean.
 
 ```csharp
 public bool PreferSingleView { get; set; }

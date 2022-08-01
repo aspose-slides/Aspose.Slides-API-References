@@ -1,14 +1,14 @@
 ---
 title: SoftEdgeEffect
 second_title: Справочник по API Aspose.Slides для .NET
-description: Мягкий край. Только чтениеISoftEdgeEffectiveDataaspose.slides.effects/isoftedgeeffectivedata.
+description: Мягкий край. Только для чтенияISoftEdgeEffectiveDataaspose.slides.effects/isoftedgeeffectivedata .
 type: docs
 weight: 100
 url: /ru/net/aspose.slides/ieffectformateffectivedata/softedgeeffect/
 ---
 ## IEffectFormatEffectiveData.SoftEdgeEffect property
 
-Мягкий край. Только чтение[`ISoftEdgeEffectiveData`](../../../aspose.slides.effects/isoftedgeeffectivedata).
+Мягкий край. Только для чтения[`ISoftEdgeEffectiveData`](../../../aspose.slides.effects/isoftedgeeffectivedata) .
 
 ```csharp
 public ISoftEdgeEffectiveData SoftEdgeEffect { get; }

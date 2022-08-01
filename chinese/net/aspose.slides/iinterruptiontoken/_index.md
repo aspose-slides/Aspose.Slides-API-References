@@ -18,13 +18,13 @@ public interface IInterruptionToken
 
 | 姓名 | 描述 |
 | --- | --- |
-| [IsInterruptionRequested](../../aspose.slides/iinterruptiontoken/isinterruptionrequested) { get; } | 如果请求中断，则返回Boolean.true。 |
+| [IsInterruptionRequested](../../aspose.slides/iinterruptiontoken/isinterruptionrequested) { get; } | 返回Boolean.true 如果请求中断。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ThrowIfInterruptionRequested](../../aspose.slides/iinterruptiontoken/throwifinterruptionrequested)() | 抛出 OperationCanceledException if 中断请求。  请求中断时抛出。 |
+| [ThrowIfInterruptionRequested](../../aspose.slides/iinterruptiontoken/throwifinterruptionrequested)() | 抛出一个操作取消异常if 请求中断。 请求中断时抛出。 |
 
 ### 也可以看看
 

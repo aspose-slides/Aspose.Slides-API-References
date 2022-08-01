@@ -16,7 +16,7 @@ public IMathBlock Join(IMathElement mathElement)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| mathElement | IMathElement | 要加入的元素 |
+| mathElement | IMathElement | 要连接的元素 |
 
 ### 返回值
 
@@ -24,7 +24,7 @@ public IMathBlock Join(IMathElement mathElement)
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]
@@ -44,7 +44,7 @@ IMathBlock block = element1.Join(element2);
 
 ## Join(string) {#join_1}
 
-连接数学文本并形成数学块
+加入数学文本并形成数学块
 
 ```csharp
 public IMathBlock Join(string mathText)
@@ -52,7 +52,7 @@ public IMathBlock Join(string mathText)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| mathText | String | 数学要加入的文本 |
+| mathText | String | 要连接的数学文本 |
 
 ### 返回值
 
@@ -60,7 +60,7 @@ public IMathBlock Join(string mathText)
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]

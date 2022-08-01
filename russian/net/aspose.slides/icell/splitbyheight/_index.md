@@ -16,7 +16,7 @@ public void SplitByHeight(double height)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| height | Double | Высота строки. |
+| height | Double | Высота ряда. |
 
 ### Смотрите также
 

@@ -20,7 +20,7 @@ public enum GradientDirection
 | --- | --- | --- |
 | NotDefined | `-1` | Не определено |
 | FromCorner1 | `0` | Из верхнего левого угла |
-| FromCorner2 | `1` | Из правого верхнего угла |
+| FromCorner2 | `1` | Из верхнего правого угла |
 | FromCorner3 | `2` | Из нижнего левого угла |
 | FromCorner4 | `3` | Из нижнего правого угла |
 | FromCenter | `4` | Из центра |

@@ -1,14 +1,14 @@
 ---
 title: Fill
 second_title: Aspose.Slides for .NET API 参考
-description: 返回图表的填充样式属性 只读IFillFormataspose.slides/ifillformat
+description: 返回图表的填充样式属性 只读IFillFormataspose.slides/ifillformat.
 type: docs
 weight: 30
 url: /zh/net/aspose.slides.charts/iformat/fill/
 ---
 ## IFormat.Fill property
 
-返回图表的填充样式属性。 只读[`IFillFormat`](../../../aspose.slides/ifillformat)。
+返回图表的填充样式属性。 只读[`IFillFormat`](../../../aspose.slides/ifillformat).
 
 ```csharp
 public IFillFormat Fill { get; }

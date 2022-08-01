@@ -1,14 +1,14 @@
 ---
 title: BookmarkId
 second_title: Aspose.Slides for .NET API 参考
-description: 返回书签标识符 只读String
+description: 返回书签标识符 只读String.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides/iportionformateffectivedata/bookmarkid/
 ---
 ## IPortionFormatEffectiveData.BookmarkId property
 
-返回书签标识符。 只读String。
+返回书签标识符。 只读String.
 
 ```csharp
 public string BookmarkId { get; }

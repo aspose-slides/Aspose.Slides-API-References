@@ -1,14 +1,14 @@
 ---
 title: SetDefaultMasterNotesSlide
 second_title: Aspose.Slides for .NET API 参考
-description: 为相关笔记幻灯片设置默认主笔记幻灯片
+description: 为相关笔记幻灯片设置默认的主笔记幻灯片
 type: docs
 weight: 30
 url: /zh/net/aspose.slides/imasternotesslidemanager/setdefaultmasternotesslide/
 ---
 ## IMasterNotesSlideManager.SetDefaultMasterNotesSlide method
 
-为相关笔记幻灯片设置默认主笔记幻灯片。
+为相关笔记幻灯片设置默认的主笔记幻灯片。
 
 ```csharp
 public IMasterNotesSlide SetDefaultMasterNotesSlide()

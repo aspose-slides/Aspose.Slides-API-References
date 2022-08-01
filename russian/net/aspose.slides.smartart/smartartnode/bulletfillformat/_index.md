@@ -1,14 +1,14 @@
 ---
 title: BulletFillFormat
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает объект FillFormat который содержит свойства форматирования заполнения для маркера узла. Примечание. Может возвращать значение null для определенных типов макетов SmartArt которые не содержат маркеры для узлов. Только для чтенияIFillFormataspose.slides/ifillformat.
+description: Возвращает объект FillFormat который содержит свойства форматирования заливки для маркера узла. Примечание. Может возвращать значение null для определенных типов макетов SmartArt которые не предоставляют маркеры для узлов. Только для чтенияIFillFormataspose.slides/ifillformat .
 type: docs
 weight: 10
 url: /ru/net/aspose.slides.smartart/smartartnode/bulletfillformat/
 ---
 ## SmartArtNode.BulletFillFormat property
 
-Возвращает объект FillFormat, который содержит свойства форматирования заполнения для маркера узла. Примечание. Может возвращать значение null для определенных типов макетов SmartArt, которые не содержат маркеры для узлов. Только для чтения[`IFillFormat`](../../../aspose.slides/ifillformat).
+Возвращает объект FillFormat, который содержит свойства форматирования заливки для маркера узла. Примечание. Может возвращать значение null для определенных типов макетов SmartArt, которые не предоставляют маркеры для узлов. Только для чтения[`IFillFormat`](../../../aspose.slides/ifillformat) .
 
 ```csharp
 public IFillFormat BulletFillFormat { get; }

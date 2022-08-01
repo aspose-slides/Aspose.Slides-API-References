@@ -1,14 +1,14 @@
 ---
 title: Overlap
 second_title: Aspose.Slides for .NET API 参考
-description: 指定二维图表上应重叠多少条形和柱形从 -100 到 100 读/写SByte
+description: 指定二维图表上应重叠多少条形图和柱形图从 -100 到 100 读/写SByte.
 type: docs
 weight: 120
 url: /zh/net/aspose.slides.charts/chartseriesgroup/overlap/
 ---
 ## ChartSeriesGroup.Overlap property
 
-指定二维图表上应重叠多少条形和柱形（从 -100 到 100）。 读/写SByte。
+指定二维图表上应重叠多少条形图和柱形图（从 -100 到 100）。 读/写SByte.
 
 ```csharp
 public sbyte Overlap { get; set; }

@@ -22,15 +22,15 @@ public IOleObjectFrame InsertOleObjectFrame(int index, float x, float y, float w
 | y | Single | 新 OLE 框架的 Y 坐标。 |
 | width | Single | 新 OLE 框架的宽度。 |
 | height | Single | 新 OLE 框架的高度。 |
-| dataInfo | IOleEmbeddedDataInfo | 嵌入数据信息[`IOleEmbeddedDataInfo`](../../ioleembeddeddatainfo)。 |
+| dataInfo | IOleEmbeddedDataInfo | 嵌入数据信息[`IOleEmbeddedDataInfo`](../../ioleembeddeddatainfo). |
 
 ### 返回值
 
-创建 OLE 对象。
+创建了 OLE 对象。
 
 ### 例子
 
-此示例演示在第二个索引处插入 OLE 对象:
+此示例演示在第二个索引处插入 OLE 对象：
 
 ```csharp
 [C#]
@@ -70,7 +70,7 @@ public IOleObjectFrame InsertOleObjectFrame(int index, float x, float y, float w
 
 ### 返回值
 
-创建 OLE 对象。
+创建了 OLE 对象。
 
 ### 也可以看看
 

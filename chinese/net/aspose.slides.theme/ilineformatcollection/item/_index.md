@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Slides for .NET API 参考
-description: 获取指定索引处的元素 只读ILineFormataspose.slides/ilineformat
+description: 获取指定索引处的元素 只读ILineFormataspose.slides/ilineformat.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides.theme/ilineformatcollection/item/
 ---
 ## ILineFormatCollection indexer
 
-获取指定索引处的元素。 只读[`ILineFormat`](../../../aspose.slides/ilineformat)。
+获取指定索引处的元素。 只读[`ILineFormat`](../../../aspose.slides/ilineformat).
 
 ```csharp
 public ILineFormat this[int index] { get; }

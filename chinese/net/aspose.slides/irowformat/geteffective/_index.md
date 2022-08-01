@@ -1,14 +1,14 @@
 ---
 title: GetEffective
 second_title: Aspose.Slides for .NET API 参考
-description: 获取有效的表格行格式化属性并应用了继承和表格样式
+description: 获取有效的表格行格式化属性并应用继承和表格样式
 type: docs
 weight: 10
 url: /zh/net/aspose.slides/irowformat/geteffective/
 ---
 ## IRowFormat.GetEffective method
 
-获取有效的表格行格式化属性，并应用了继承和表格样式。
+获取有效的表格行格式化属性，并应用继承和表格样式。
 
 ```csharp
 public IRowFormatEffectiveData GetEffective()
@@ -16,7 +16,7 @@ public IRowFormatEffectiveData GetEffective()
 
 ### 返回值
 
-A[`IRowFormatEffectiveData`](../../irowformateffectivedata)。
+一个[`IRowFormatEffectiveData`](../../irowformateffectivedata).
 
 ### 也可以看看
 

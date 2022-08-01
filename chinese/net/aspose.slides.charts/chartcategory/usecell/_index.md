@@ -1,14 +1,14 @@
 ---
 title: UseCell
 second_title: Aspose.Slides for .NET API 参考
-description: 如果为真则 AsCell 属性是实际的换句话说工作表用于 存储类别本例支持多级类别 如果为假则 AsLiteral 属性是实际的换句话说工作表不使用 来存储类别并且这种情况下不支持多级类别 只读Boolean
+description: 如果为真则 AsCell 属性是实际的换句话说工作表用于 存储类别这种情况下支持多级类别 如果为false则AsLiteral 属性是实际的换句话说工作表不使用 来存储类别并且这种情况不支持多级类别 只读Boolean.
 type: docs
 weight: 40
 url: /zh/net/aspose.slides.charts/chartcategory/usecell/
 ---
 ## ChartCategory.UseCell property
 
-如果为真，则 AsCell 属性是实际的。换句话说，工作表用于 存储类别（本例支持多级类别）。 如果为假，则 AsLiteral 属性是实际的。换句话说，工作表不使用 来存储类别（并且这种情况下不支持多级类别）。 只读Boolean。
+如果为真，则 AsCell 属性是实际的。换句话说，工作表用于 存储类别（这种情况下支持多级类别）。 如果为false，则AsLiteral 属性是实际的。换句话说，工作表不使用 来存储类别（并且这种情况不支持多级类别）。 只读Boolean.
 
 ```csharp
 public bool UseCell { get; }
@@ -16,7 +16,7 @@ public bool UseCell { get; }
 
 ### 评论
 
-对于此属性的更改值（对于集合中的所有类别）设置新的 ChartCategoryCollection.UseCells 属性的值。
+要更改此属性的值（对于集合中的所有类别），请将新的 值设置为 ChartCategoryCollection.UseCells 属性。
 
 ### 也可以看看
 

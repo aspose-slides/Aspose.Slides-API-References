@@ -1,14 +1,14 @@
 ---
 title: Description
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает удобочитаемое описание этого предупреждения. Только чтениеString.
+description: Возвращает удобочитаемое описание этого предупреждения. Только для чтенияString .
 type: docs
 weight: 10
 url: /ru/net/aspose.slides.warnings/iwarninginfo/description/
 ---
 ## IWarningInfo.Description property
 
-Возвращает удобочитаемое описание этого предупреждения. Только чтениеString.
+Возвращает удобочитаемое описание этого предупреждения. Только для чтенияString .
 
 ```csharp
 public string Description { get; }

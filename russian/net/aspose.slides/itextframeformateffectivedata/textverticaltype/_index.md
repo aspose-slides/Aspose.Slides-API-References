@@ -1,14 +1,14 @@
 ---
 title: TextVerticalType
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает ориентацию текста. Только для чтенияTextVerticalTypeaspose.slides/textverticaltype.
+description: Возвращает ориентацию текста. Только для чтенияTextVerticalTypeaspose.slides/textverticaltype .
 type: docs
 weight: 110
 url: /ru/net/aspose.slides/itextframeformateffectivedata/textverticaltype/
 ---
 ## ITextFrameFormatEffectiveData.TextVerticalType property
 
-Возвращает ориентацию текста. Только для чтения[`TextVerticalType`](../../textverticaltype).
+Возвращает ориентацию текста. Только для чтения[`TextVerticalType`](../../textverticaltype) .
 
 ```csharp
 public TextVerticalType TextVerticalType { get; }

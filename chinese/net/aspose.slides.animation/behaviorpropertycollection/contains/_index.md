@@ -1,14 +1,14 @@
 ---
 title: Contains
 second_title: Aspose.Slides for .NET API 参考
-description: 确定ICollection是否包含特定值
+description: 确定是否ICollection包含特定值
 type: docs
 weight: 60
 url: /zh/net/aspose.slides.animation/behaviorpropertycollection/contains/
 ---
 ## Contains(IBehaviorProperty) {#contains}
 
-确定ICollection是否包含特定值。
+确定是否ICollection包含特定值。
 
 ```csharp
 public bool Contains(IBehaviorProperty item)
@@ -16,11 +16,11 @@ public bool Contains(IBehaviorProperty item)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| item | IBehaviorProperty | 要在ICollection中定位的属性. |
+| item | IBehaviorProperty | 该物业位于ICollection. |
 
 ### 返回值
 
-如果在:::R5 中找到*item*则为真:T:System.Collections.Generic.ICollection`1:::;否则为假。
+真如果*item*被发现在ICollection;否则为假。
 
 ### 也可以看看
 
@@ -33,7 +33,7 @@ public bool Contains(IBehaviorProperty item)
 
 ## Contains(string) {#contains_1}
 
-确定ICollection是否包含特定值。
+确定是否ICollection包含特定值。
 
 ```csharp
 public bool Contains(string propertyValue)
@@ -41,11 +41,11 @@ public bool Contains(string propertyValue)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| propertyValue | String | 要在ICollection. |
+| propertyValue | String | 要定位的物业的价值ICollection. |
 
 ### 返回值
 
-如果在:::R5 中找到*propertyValue*则为真:T:System.Collections.Generic.ICollection`1:::;否则为假。
+真如果*propertyValue*被发现在ICollection;否则为假。
 
 ### 也可以看看
 

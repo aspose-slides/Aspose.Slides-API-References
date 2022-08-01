@@ -18,9 +18,9 @@ public interface IAxisFormat
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Effect](../../aspose.slides.charts/iaxisformat/effect) { get; } | 返回用于轴的效果。 只读[`IEffectFormat`](../../aspose.slides/ieffectformat)。 |
-| [Fill](../../aspose.slides.charts/iaxisformat/fill) { get; } | 返回轴的填充样式属性。 只读[`IFillFormat`](../../aspose.slides/ifillformat)。 |
-| [Line](../../aspose.slides.charts/iaxisformat/line) { get; } | 返回轴的线型属性。 只读[`ILineFormat`](../../aspose.slides/ilineformat)。 |
+| [Effect](../../aspose.slides.charts/iaxisformat/effect) { get; } | 返回用于轴的效果。 只读[`IEffectFormat`](../../aspose.slides/ieffectformat). |
+| [Fill](../../aspose.slides.charts/iaxisformat/fill) { get; } | 返回轴的填充样式属性。 只读[`IFillFormat`](../../aspose.slides/ifillformat). |
+| [Line](../../aspose.slides.charts/iaxisformat/line) { get; } | 返回轴的线型属性。 只读[`ILineFormat`](../../aspose.slides/ilineformat). |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: AsICollection
 second_title: Aspose.Slides for .NET API 参考
-description: 允许获取基本 ICollection 接口 只读ICollection
+description: 允许获取基本 ICollection 接口 只读ICollection.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides/iadjustvaluecollection/asicollection/
 ---
 ## IAdjustValueCollection.AsICollection property
 
-允许获取基本 ICollection 接口。 只读ICollection。
+允许获取基本 ICollection 接口。 只读ICollection.
 
 ```csharp
 public ICollection AsICollection { get; }

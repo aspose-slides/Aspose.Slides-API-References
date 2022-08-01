@@ -1,14 +1,14 @@
 ---
 title: TextVerticalType
 second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет ориентацию текста. Результирующее значение поворота визуального текста суммированное из этого свойства и пользовательского угла в свойстве RotationAngle. Чтение/записьTextVerticalTypeaspose.slides/textverticaltype.
+description: Определяет ориентацию текста. Результирующее значение поворота визуального текста суммированное из этого свойства и пользовательского угла в свойстве RotationAngle. Чтение/записьTextVerticalTypeaspose.slides/textverticaltype .
 type: docs
 weight: 90
 url: /ru/net/aspose.slides.charts/icharttextblockformat/textverticaltype/
 ---
 ## IChartTextBlockFormat.TextVerticalType property
 
-Определяет ориентацию текста. Результирующее значение поворота визуального текста, суммированное из этого свойства и пользовательского угла в свойстве RotationAngle. Чтение/запись[`TextVerticalType`](../../../aspose.slides/textverticaltype).
+Определяет ориентацию текста. Результирующее значение поворота визуального текста, суммированное из этого свойства и пользовательского угла в свойстве RotationAngle. Чтение/запись[`TextVerticalType`](../../../aspose.slides/textverticaltype) .
 
 ```csharp
 public TextVerticalType TextVerticalType { get; set; }

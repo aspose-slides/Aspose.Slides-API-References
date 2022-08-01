@@ -1,14 +1,14 @@
 ---
 title: IndexOf
 second_title: Aspose.Slides for .NET API 参考
-description: 返回集合中指定部分的索引
+description: 返回集合中指定节的索引
 type: docs
 weight: 60
 url: /zh/net/aspose.slides/isectioncollection/indexof/
 ---
 ## ISectionCollection.IndexOf method
 
-返回集合中指定部分的索引。
+返回集合中指定节的索引。
 
 ```csharp
 public int IndexOf(ISection section)

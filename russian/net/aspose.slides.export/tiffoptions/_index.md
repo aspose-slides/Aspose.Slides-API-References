@@ -24,16 +24,16 @@ public class TiffOptions : SaveOptions, ITiffOptions
 
 | Имя | Описание |
 | --- | --- |
-| [CompressionType](../../aspose.slides.export/tiffoptions/compressiontype) { get; set; } | Задает тип сжатия. Чтение/запись[`TiffCompressionTypes`](../tiffcompressiontypes). |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Возвращает или устанавливает шрифт, используемый в случае, если исходный шрифт не найден. Чтение-записьString. |
-| [DpiX](../../aspose.slides.export/tiffoptions/dpix) { get; set; } | Определяет горизонтальное разрешение в точках на дюйм. Чтение/записьUInt32. |
-| [DpiY](../../aspose.slides.export/tiffoptions/dpiy) { get; set; } | Определяет вертикальное разрешение в точках на дюйм. Чтение/записьUInt32. |
-| [ImageSize](../../aspose.slides.export/tiffoptions/imagesize) { get; set; } | Указывает размер сгенерированного изображения TIFF. Значение по умолчанию 0x0, что означает, что размеры сгенерированного изображения будут рассчитаны на основе значения размера слайда презентации. Чтение/записьSize. |
+| [CompressionType](../../aspose.slides.export/tiffoptions/compressiontype) { get; set; } | Определяет тип сжатия. Чтение/запись[`TiffCompressionTypes`](../tiffcompressiontypes) . |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Возвращает или устанавливает шрифт, используемый в случае, если исходный шрифт не найден. Чтение-записьString . |
+| [DpiX](../../aspose.slides.export/tiffoptions/dpix) { get; set; } | Определяет горизонтальное разрешение в точках на дюйм. Чтение/записьUInt32 . |
+| [DpiY](../../aspose.slides.export/tiffoptions/dpiy) { get; set; } | Определяет вертикальное разрешение в точках на дюйм. Чтение/записьUInt32 . |
+| [ImageSize](../../aspose.slides.export/tiffoptions/imagesize) { get; set; } | Указывает размер сгенерированного изображения TIFF. Значение по умолчанию 0x0, что означает, что размеры сгенерированного изображения будут рассчитаны на основе значения размера слайда презентации. Чтение/записьSize . |
 | [NotesCommentsLayouting](../../aspose.slides.export/tiffoptions/notescommentslayouting) { get; } | Предоставляет параметры, управляющие размещением примечаний и комментариев в экспортируемом документе. |
-| [PixelFormat](../../aspose.slides.export/tiffoptions/pixelformat) { get; set; } | Указывает формат пикселей для сгенерированных изображений. Чтение/запись[`ImagePixelFormat`](../imagepixelformat). |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Представляет объект обратного вызова для сохранения обновлений хода выполнения в процентах. См.[`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [ShowHiddenSlides](../../aspose.slides.export/tiffoptions/showhiddenslides) { get; set; } | Указывает, должен ли сгенерированный документ включать скрытые слайды или нет. По умолчанию:` false` . |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Возвращает наборы объект, который получает предупреждения и решает, будет ли процесс загрузки продолжен или будет прерван. Чтение/запись[`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [PixelFormat](../../aspose.slides.export/tiffoptions/pixelformat) { get; set; } | Определяет формат пикселей для сгенерированных изображений. Чтение/запись[`ImagePixelFormat`](../imagepixelformat) . |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Представляет объект обратного вызова для сохранения обновлений хода выполнения в процентах. См.[`IProgressCallback`](../../aspose.slides/iprogresscallback) . |
+| [ShowHiddenSlides](../../aspose.slides.export/tiffoptions/showhiddenslides) { get; set; } | Указывает, должен ли сгенерированный документ включать скрытые слайды или нет. Значение по умолчанию:`ЛОЖЬ` |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Возвращает наборы объекта, который получает предупреждения и решает, будет ли процесс загрузки продолжен или будет прерван. Чтение/запись[`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback) . |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: ShowMajorGridLines
 second_title: Aspose.Slides for .NET API 参考
-description: 表示是否显示主要网格线 只读Boolean
+description: 表示是否显示主要网格线 只读Boolean.
 type: docs
 weight: 480
 url: /zh/net/aspose.slides.charts/iaxis/showmajorgridlines/
 ---
 ## IAxis.ShowMajorGridLines property
 
-表示是否显示主要网格线。 只读Boolean。
+表示是否显示主要网格线。 只读Boolean.
 
 ```csharp
 public bool ShowMajorGridLines { get; }

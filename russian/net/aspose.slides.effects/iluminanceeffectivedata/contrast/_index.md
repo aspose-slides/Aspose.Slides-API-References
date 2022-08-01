@@ -1,14 +1,14 @@
 ---
 title: Contrast
 second_title: Справочник по API Aspose.Slides для .NET
-description: Контраст. Только для чтенияSingle.
+description: Контраст. Только для чтенияSingle .
 type: docs
 weight: 30
 url: /ru/net/aspose.slides.effects/iluminanceeffectivedata/contrast/
 ---
 ## ILuminanceEffectiveData.Contrast property
 
-Контраст. Только для чтенияSingle.
+Контраст. Только для чтенияSingle .
 
 ```csharp
 public float Contrast { get; }

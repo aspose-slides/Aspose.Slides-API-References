@@ -1,14 +1,14 @@
 ---
 title: Height
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает высоту изображения. Только для чтенияInt32.
+description: Возвращает высоту изображения. Только для чтенияInt32 .
 type: docs
 weight: 30
 url: /ru/net/aspose.slides/ppimage/height/
 ---
 ## PPImage.Height property
 
-Возвращает высоту изображения. Только для чтенияInt32.
+Возвращает высоту изображения. Только для чтенияInt32 .
 
 ```csharp
 public int Height { get; }

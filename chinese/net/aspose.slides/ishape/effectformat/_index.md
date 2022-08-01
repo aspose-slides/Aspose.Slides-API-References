@@ -1,14 +1,14 @@
 ---
 title: EffectFormat
 second_title: Aspose.Slides for .NET API 参考
-description: 返回包含应用于形状的像素效果的 EffectFormat 对象 只读IEffectFormataspose.slides/ieffectformat
+description: 返回包含应用于形状的像素效果的 EffectFormat 对象 只读IEffectFormataspose.slides/ieffectformat.
 type: docs
 weight: 80
 url: /zh/net/aspose.slides/ishape/effectformat/
 ---
 ## IShape.EffectFormat property
 
-返回包含应用于形状的像素效果的 EffectFormat 对象。 只读[`IEffectFormat`](../../ieffectformat)。
+返回包含应用于形状的像素效果的 EffectFormat 对象。 只读[`IEffectFormat`](../../ieffectformat).
 
 ```csharp
 public IEffectFormat EffectFormat { get; }

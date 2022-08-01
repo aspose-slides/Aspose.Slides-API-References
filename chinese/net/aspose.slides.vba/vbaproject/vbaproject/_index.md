@@ -1,14 +1,14 @@
 ---
 title: VbaProject
 second_title: Aspose.Slides for .NET API 参考
-description: 此构造函数从头开始创建新的 VBA 项目 项目将在 1252 Windows Latin 1 ANSI 代码页
+description: 此构造函数从头开始创建新的 VBA 项目 项目将在 1252 Windows Latin 1 ANSI 代码页中创建
 type: docs
 weight: 10
 url: /zh/net/aspose.slides.vba/vbaproject/vbaproject/
 ---
 ## VbaProject() {#constructor}
 
-此构造函数从头开始创建新的 VBA 项目。 项目将在 1252 Windows Latin 1 (ANSI) 代码页
+此构造函数从头开始创建新的 VBA 项目。 项目将在 1252 Windows Latin 1 (ANSI) 代码页中创建
 
 ```csharp
 public VbaProject()

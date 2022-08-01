@@ -26,7 +26,7 @@ public ICustomXmlPart this[int index] { get; }
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentOutOfRangeException | 索引小于 0。-或-索引等于或大于计数 |
+| ArgumentOutOfRangeException | index 小于 0.-or-index 等于或大于 Count |
 
 ### 也可以看看
 

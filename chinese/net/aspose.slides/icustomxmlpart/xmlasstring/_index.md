@@ -1,14 +1,14 @@
 ---
 title: XmlAsString
 second_title: Aspose.Slides for .NET API 参考
-description: 将 xml 数据返回或设置为 UTF-8 字符串 读/写String  值为 null  值为空或 xml 数据无效
+description: 将 xml 数据返回或设置为 UTF-8 字符串 读/写String. 值为无效的.值为空或 xml-data 无效
 type: docs
 weight: 30
 url: /zh/net/aspose.slides/icustomxmlpart/xmlasstring/
 ---
 ## ICustomXmlPart.XmlAsString property
 
-将 xml 数据返回或设置为 UTF-8 字符串。 读/写String。  值为` null` 。 值为空或 xml 数据无效。
+将 xml 数据返回或设置为 UTF-8 字符串。 读/写String. 值为`无效的`.值为空或 xml-data 无效。
 
 ```csharp
 public string XmlAsString { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: CenterX
 second_title: Aspose.Slides for .NET API 参考
-description: 返回帧中心的 X 坐标 只读Single
+description: 返回框架中心的 X 坐标 只读Single.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides/ishapeframe/centerx/
 ---
 ## IShapeFrame.CenterX property
 
-返回帧中心的 X 坐标。 只读Single。
+返回框架中心的 X 坐标。 只读Single.
 
 ```csharp
 public float CenterX { get; }

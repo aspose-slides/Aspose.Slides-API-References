@@ -16,8 +16,8 @@ public void WriteDocumentEnd(IHtmlGenerator generator, IPresentation presentatio
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| генератор | IHtmlGenerator | Выходной объект. |
-| presentation | IPresentation | Презентация, которая отображается в данный момент. |
+| generator | IHtmlGenerator | Выходной объект. |
+| presentation | IPresentation | Презентация, которая в настоящее время отображается. |
 
 ### Смотрите также
 

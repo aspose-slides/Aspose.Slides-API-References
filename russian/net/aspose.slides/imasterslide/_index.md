@@ -18,15 +18,15 @@ public interface IMasterSlide : IBaseSlide, IMasterThemeable
 
 | Имя | Описание |
 | --- | --- |
-| [AsIBaseSlide](../../aspose.slides/imasterslide/asibaseslide) { get; } | Позволяет получить базовый интерфейс IBaseSlide. Только для чтения[`IBaseSlide`](../ibaseslide). |
-| [AsIMasterThemeable](../../aspose.slides/imasterslide/asimasterthemeable) { get; } | Возвращает интерфейс IMasterThemeable. Только для чтения[`IMasterThemeable`](../../aspose.slides.theme/imasterthemeable). |
-| [BodyStyle](../../aspose.slides/imasterslide/bodystyle) { get; } | Возвращает стиль основного текста. Только для чтения[`ITextStyle`](../itextstyle). |
-| [HasDependingSlides](../../aspose.slides/imasterslide/hasdependingslides) { get; } | Возвращает true, если существует хотя бы один слайд, зависящий от этого мастер-слайда. Только чтениеBoolean. |
-| [HeaderFooterManager](../../aspose.slides/imasterslide/headerfootermanager) { get; } | Возвращает менеджер нижнего колонтитула мастер-слайда. Только для чтения[`IMasterSlideHeaderFooterManager`](../imasterslideheaderfootermanager). |
-| [LayoutSlides](../../aspose.slides/imasterslide/layoutslides) { get; } | Возвращает коллекцию дочерних слайдов макета для этого мастер-слайда. Только для чтения[`IMasterLayoutSlideCollection`](../imasterlayoutslidecollection). |
-| [OtherStyle](../../aspose.slides/imasterslide/otherstyle) { get; } | Возвращает стиль другого текста. Только для чтения[`ITextStyle`](../itextstyle). |
-| [Preserve](../../aspose.slides/imasterslide/preserve) { get; set; } | Определяет, удаляется ли соответствующий мастер, когда удаляются все слайды , следующие за этим мастером. Примечание:Aspose.Slides никогда не удалит неиспользуемый мастер сам по себе, для фактического удаления неиспользуемых мастеров вызовите[`RemoveUnused`](../imasterslidecollection/removeunused) Чтение/записьBoolean. |
-| [TitleStyle](../../aspose.slides/imasterslide/titlestyle) { get; } | Возвращает стиль текста заголовка. Только для чтения[`ITextStyle`](../itextstyle). |
+| [AsIBaseSlide](../../aspose.slides/imasterslide/asibaseslide) { get; } | Позволяет получить базовый интерфейс IBaseSlide. Только для чтения[`IBaseSlide`](../ibaseslide) . |
+| [AsIMasterThemeable](../../aspose.slides/imasterslide/asimasterthemeable) { get; } | Возвращает интерфейс IMasterThemeable. Только для чтения[`IMasterThemeable`](../../aspose.slides.theme/imasterthemeable) . |
+| [BodyStyle](../../aspose.slides/imasterslide/bodystyle) { get; } | Возвращает стиль основного текста. Только для чтения[`ITextStyle`](../itextstyle) . |
+| [HasDependingSlides](../../aspose.slides/imasterslide/hasdependingslides) { get; } | Возвращает значение true, если существует хотя бы один слайд, зависящий от этого эталонного слайда. Только для чтенияBoolean . |
+| [HeaderFooterManager](../../aspose.slides/imasterslide/headerfootermanager) { get; } | Возвращает менеджер HeaderFooter мастер-слайда. Только для чтения[`IMasterSlideHeaderFooterManager`](../imasterslideheaderfootermanager) . |
+| [LayoutSlides](../../aspose.slides/imasterslide/layoutslides) { get; } | Возвращает коллекцию дочерних слайдов макета для этого мастер-слайда. Только для чтения[`IMasterLayoutSlideCollection`](../imasterlayoutslidecollection) . |
+| [OtherStyle](../../aspose.slides/imasterslide/otherstyle) { get; } | Возвращает стиль другого текста. Только для чтения[`ITextStyle`](../itextstyle) . |
+| [Preserve](../../aspose.slides/imasterslide/preserve) { get; set; } | Определяет, удаляется ли соответствующий мастер, когда все слайды, следующие за этим мастером, удаляются.[`RemoveUnused`](../imasterslidecollection/removeunused) Чтение/записьBoolean . |
+| [TitleStyle](../../aspose.slides/imasterslide/titlestyle) { get; } | Возвращает стиль текста заголовка. Только для чтения[`ITextStyle`](../itextstyle) . |
 
 ## Методы
 

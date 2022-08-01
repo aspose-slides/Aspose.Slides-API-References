@@ -1,14 +1,14 @@
 ---
 title: Row
 second_title: Aspose.Slides for .NET API 参考
-description: 返回单元格所在工作表行的索引 只读Int32
+description: 返回单元格所在工作表行的索引 只读Int32.
 type: docs
 weight: 80
 url: /zh/net/aspose.slides.charts/ichartdatacell/row/
 ---
 ## IChartDataCell.Row property
 
-返回单元格所在工作表行的索引。 只读Int32。
+返回单元格所在工作表行的索引。 只读Int32.
 
 ```csharp
 public int Row { get; }

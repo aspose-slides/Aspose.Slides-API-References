@@ -1,14 +1,14 @@
 ---
 title: Height
 second_title: Aspose.Slides for .NET API 参考
-description: 返回一行的高度 只读Double
+description: 返回行高 只读Double.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides/row/height/
 ---
 ## Row.Height property
 
-返回一行的高度。 只读Double。
+返回行高。 只读Double.
 
 ```csharp
 public double Height { get; }

@@ -1,14 +1,14 @@
 ---
 title: AddDataPointForBubbleSeries
 second_title: Справочник по API Aspose.Slides для .NET
-description: Создает новую точку данных и добавляет ее в конец коллекции. Применимо для серий тип диаграммы которых является одним из подтипов Bubble см. также метод ChartTypeCharacterizer.IsChartTypeBubbleChartType.
+description: Создает новую точку данных и добавляет ее в конец коллекции. Применяется для рядов тип диаграммы которых является одним из подтипов Bubble см. также метод ChartTypeCharacterizer.IsChartTypeBubbleChartType.
 type: docs
 weight: 100
 url: /ru/net/aspose.slides.charts/ichartdatapointcollection/adddatapointforbubbleseries/
 ---
 ## AddDataPointForBubbleSeries(IChartDataCell, IChartDataCell, IChartDataCell) {#adddatapointforbubbleseries}
 
-Создает новую точку данных и добавляет ее в конец коллекции. Применимо для серий, тип диаграммы которых является одним из подтипов Bubble (см. также метод ChartTypeCharacterizer.IsChartTypeBubble(ChartType)).
+Создает новую точку данных и добавляет ее в конец коллекции. Применяется для рядов, тип диаграммы которых является одним из подтипов Bubble (см. также метод ChartTypeCharacterizer.IsChartTypeBubble(ChartType)).
 
 ```csharp
 public IChartDataPoint AddDataPointForBubbleSeries(IChartDataCell xValue, IChartDataCell yValue, 
@@ -19,7 +19,7 @@ public IChartDataPoint AddDataPointForBubbleSeries(IChartDataCell xValue, IChart
 | --- | --- | --- |
 | xValue | IChartDataCell | Точка данных XValue |
 | yValue | IChartDataCell | Точка данных YValue |
-| bubbleSize | IChartDataCell | Точка данных BubbleSize |
+| bubbleSize | IChartDataCell | Точка данных |
 
 ### Возвращаемое значение
 
@@ -37,7 +37,7 @@ public IChartDataPoint AddDataPointForBubbleSeries(IChartDataCell xValue, IChart
 
 ## AddDataPointForBubbleSeries(double, IChartDataCell, IChartDataCell) {#adddatapointforbubbleseries_4}
 
-Создает новую точку данных и добавляет ее в конец коллекции. Применимо для серий, тип диаграммы которых является одним из подтипов Bubble (см. также метод ChartTypeCharacterizer.IsChartTypeBubble(ChartType)).
+Создает новую точку данных и добавляет ее в конец коллекции. Применяется для рядов, тип диаграммы которых является одним из подтипов Bubble (см. также метод ChartTypeCharacterizer.IsChartTypeBubble(ChartType)).
 
 ```csharp
 public IChartDataPoint AddDataPointForBubbleSeries(double xValue, IChartDataCell yValue, 
@@ -48,7 +48,7 @@ public IChartDataPoint AddDataPointForBubbleSeries(double xValue, IChartDataCell
 | --- | --- | --- |
 | xValue | Double | Точка данных XValue |
 | yValue | IChartDataCell | Точка данных YValue |
-| bubbleSize | IChartDataCell | Точка данных BubbleSize |
+| bubbleSize | IChartDataCell | Точка данных |
 
 ### Возвращаемое значение
 
@@ -66,7 +66,7 @@ public IChartDataPoint AddDataPointForBubbleSeries(double xValue, IChartDataCell
 
 ## AddDataPointForBubbleSeries(string, IChartDataCell, IChartDataCell) {#adddatapointforbubbleseries_8}
 
-Создает новую точку данных и добавляет ее в конец коллекции. Применимо для серий, тип диаграммы которых является одним из подтипов Bubble (см. также метод ChartTypeCharacterizer.IsChartTypeBubble(ChartType)).
+Создает новую точку данных и добавляет ее в конец коллекции. Применяется для рядов, тип диаграммы которых является одним из подтипов Bubble (см. также метод ChartTypeCharacterizer.IsChartTypeBubble(ChartType)).
 
 ```csharp
 public IChartDataPoint AddDataPointForBubbleSeries(string xValue, IChartDataCell yValue, 
@@ -77,7 +77,7 @@ public IChartDataPoint AddDataPointForBubbleSeries(string xValue, IChartDataCell
 | --- | --- | --- |
 | xValue | String | Точка данных XValue |
 | yValue | IChartDataCell | Точка данных YValue |
-| bubbleSize | IChartDataCell | Точка данных BubbleSize |
+| bubbleSize | IChartDataCell | Точка данных |
 
 ### Возвращаемое значение
 
@@ -95,7 +95,7 @@ public IChartDataPoint AddDataPointForBubbleSeries(string xValue, IChartDataCell
 
 ## AddDataPointForBubbleSeries(IChartDataCell, double, IChartDataCell) {#adddatapointforbubbleseries_2}
 
-Создает новую точку данных и добавляет ее в конец коллекции. Применимо для серий, тип диаграммы которых является одним из подтипов Bubble (см. также метод ChartTypeCharacterizer.IsChartTypeBubble(ChartType)).
+Создает новую точку данных и добавляет ее в конец коллекции. Применяется для рядов, тип диаграммы которых является одним из подтипов Bubble (см. также метод ChartTypeCharacterizer.IsChartTypeBubble(ChartType)).
 
 ```csharp
 public IChartDataPoint AddDataPointForBubbleSeries(IChartDataCell xValue, double yValue, 
@@ -106,7 +106,7 @@ public IChartDataPoint AddDataPointForBubbleSeries(IChartDataCell xValue, double
 | --- | --- | --- |
 | xValue | IChartDataCell | Точка данных XValue |
 | yValue | Double | Точка данных YValue |
-| bubbleSize | IChartDataCell | Точка данных BubbleSize |
+| bubbleSize | IChartDataCell | Точка данных |
 
 ### Возвращаемое значение
 
@@ -124,7 +124,7 @@ public IChartDataPoint AddDataPointForBubbleSeries(IChartDataCell xValue, double
 
 ## AddDataPointForBubbleSeries(double, double, IChartDataCell) {#adddatapointforbubbleseries_6}
 
-Создает новую точку данных и добавляет ее в конец коллекции. Применимо для серий, тип диаграммы которых является одним из подтипов Bubble (см. также метод ChartTypeCharacterizer.IsChartTypeBubble(ChartType)).
+Создает новую точку данных и добавляет ее в конец коллекции. Применяется для рядов, тип диаграммы которых является одним из подтипов Bubble (см. также метод ChartTypeCharacterizer.IsChartTypeBubble(ChartType)).
 
 ```csharp
 public IChartDataPoint AddDataPointForBubbleSeries(double xValue, double yValue, 
@@ -135,7 +135,7 @@ public IChartDataPoint AddDataPointForBubbleSeries(double xValue, double yValue,
 | --- | --- | --- |
 | xValue | Double | Точка данных XValue |
 | yValue | Double | Точка данных YValue |
-| bubbleSize | IChartDataCell | Точка данных BubbleSize |
+| bubbleSize | IChartDataCell | Точка данных |
 
 ### Возвращаемое значение
 
@@ -153,7 +153,7 @@ public IChartDataPoint AddDataPointForBubbleSeries(double xValue, double yValue,
 
 ## AddDataPointForBubbleSeries(string, double, IChartDataCell) {#adddatapointforbubbleseries_10}
 
-Создает новую точку данных и добавляет ее в конец коллекции. Применимо для серий, тип диаграммы которых является одним из подтипов Bubble (см. также метод ChartTypeCharacterizer.IsChartTypeBubble(ChartType)).
+Создает новую точку данных и добавляет ее в конец коллекции. Применяется для рядов, тип диаграммы которых является одним из подтипов Bubble (см. также метод ChartTypeCharacterizer.IsChartTypeBubble(ChartType)).
 
 ```csharp
 public IChartDataPoint AddDataPointForBubbleSeries(string xValue, double yValue, 
@@ -164,7 +164,7 @@ public IChartDataPoint AddDataPointForBubbleSeries(string xValue, double yValue,
 | --- | --- | --- |
 | xValue | String | Точка данных XValue |
 | yValue | Double | Точка данных YValue |
-| bubbleSize | IChartDataCell | Точка данных BubbleSize |
+| bubbleSize | IChartDataCell | Точка данных |
 
 ### Возвращаемое значение
 
@@ -182,7 +182,7 @@ public IChartDataPoint AddDataPointForBubbleSeries(string xValue, double yValue,
 
 ## AddDataPointForBubbleSeries(IChartDataCell, IChartDataCell, double) {#adddatapointforbubbleseries_1}
 
-Создает новую точку данных и добавляет ее в конец коллекции. Применимо для серий, тип диаграммы которых является одним из подтипов Bubble (см. также метод ChartTypeCharacterizer.IsChartTypeBubble(ChartType)).
+Создает новую точку данных и добавляет ее в конец коллекции. Применяется для рядов, тип диаграммы которых является одним из подтипов Bubble (см. также метод ChartTypeCharacterizer.IsChartTypeBubble(ChartType)).
 
 ```csharp
 public IChartDataPoint AddDataPointForBubbleSeries(IChartDataCell xValue, IChartDataCell yValue, 
@@ -193,7 +193,7 @@ public IChartDataPoint AddDataPointForBubbleSeries(IChartDataCell xValue, IChart
 | --- | --- | --- |
 | xValue | IChartDataCell | Точка данных XValue |
 | yValue | IChartDataCell | Точка данных YValue |
-| bubbleSize | Double | Точка данных BubbleSize |
+| bubbleSize | Double | Точка данных |
 
 ### Возвращаемое значение
 
@@ -211,7 +211,7 @@ public IChartDataPoint AddDataPointForBubbleSeries(IChartDataCell xValue, IChart
 
 ## AddDataPointForBubbleSeries(double, IChartDataCell, double) {#adddatapointforbubbleseries_5}
 
-Создает новую точку данных и добавляет ее в конец коллекции. Применимо для серий, тип диаграммы которых является одним из подтипов Bubble (см. также метод ChartTypeCharacterizer.IsChartTypeBubble(ChartType)).
+Создает новую точку данных и добавляет ее в конец коллекции. Применяется для рядов, тип диаграммы которых является одним из подтипов Bubble (см. также метод ChartTypeCharacterizer.IsChartTypeBubble(ChartType)).
 
 ```csharp
 public IChartDataPoint AddDataPointForBubbleSeries(double xValue, IChartDataCell yValue, 
@@ -222,7 +222,7 @@ public IChartDataPoint AddDataPointForBubbleSeries(double xValue, IChartDataCell
 | --- | --- | --- |
 | xValue | Double | Точка данных XValue |
 | yValue | IChartDataCell | Точка данных YValue |
-| bubbleSize | Double | Точка данных BubbleSize |
+| bubbleSize | Double | Точка данных |
 
 ### Возвращаемое значение
 
@@ -240,7 +240,7 @@ public IChartDataPoint AddDataPointForBubbleSeries(double xValue, IChartDataCell
 
 ## AddDataPointForBubbleSeries(string, IChartDataCell, double) {#adddatapointforbubbleseries_9}
 
-Создает новую точку данных и добавляет ее в конец коллекции. Применимо для серий, тип диаграммы которых является одним из подтипов Bubble (см. также метод ChartTypeCharacterizer.IsChartTypeBubble(ChartType)).
+Создает новую точку данных и добавляет ее в конец коллекции. Применяется для рядов, тип диаграммы которых является одним из подтипов Bubble (см. также метод ChartTypeCharacterizer.IsChartTypeBubble(ChartType)).
 
 ```csharp
 public IChartDataPoint AddDataPointForBubbleSeries(string xValue, IChartDataCell yValue, 
@@ -251,7 +251,7 @@ public IChartDataPoint AddDataPointForBubbleSeries(string xValue, IChartDataCell
 | --- | --- | --- |
 | xValue | String | Точка данных XValue |
 | yValue | IChartDataCell | Точка данных YValue |
-| bubbleSize | Double | Точка данных BubbleSize |
+| bubbleSize | Double | Точка данных |
 
 ### Возвращаемое значение
 
@@ -269,7 +269,7 @@ public IChartDataPoint AddDataPointForBubbleSeries(string xValue, IChartDataCell
 
 ## AddDataPointForBubbleSeries(IChartDataCell, double, double) {#adddatapointforbubbleseries_3}
 
-Создает новую точку данных и добавляет ее в конец коллекции. Применимо для серий, тип диаграммы которых является одним из подтипов Bubble (см. также метод ChartTypeCharacterizer.IsChartTypeBubble(ChartType)).
+Создает новую точку данных и добавляет ее в конец коллекции. Применяется для рядов, тип диаграммы которых является одним из подтипов Bubble (см. также метод ChartTypeCharacterizer.IsChartTypeBubble(ChartType)).
 
 ```csharp
 public IChartDataPoint AddDataPointForBubbleSeries(IChartDataCell xValue, double yValue, 
@@ -280,7 +280,7 @@ public IChartDataPoint AddDataPointForBubbleSeries(IChartDataCell xValue, double
 | --- | --- | --- |
 | xValue | IChartDataCell | Точка данных XValue |
 | yValue | Double | Точка данных YValue |
-| bubbleSize | Double | Точка данных BubbleSize |
+| bubbleSize | Double | Точка данных |
 
 ### Возвращаемое значение
 
@@ -298,7 +298,7 @@ public IChartDataPoint AddDataPointForBubbleSeries(IChartDataCell xValue, double
 
 ## AddDataPointForBubbleSeries(double, double, double) {#adddatapointforbubbleseries_7}
 
-Создает новую точку данных и добавляет ее в конец коллекции. Применимо для серий, тип диаграммы которых является одним из подтипов Bubble (см. также метод ChartTypeCharacterizer.IsChartTypeBubble(ChartType)).
+Создает новую точку данных и добавляет ее в конец коллекции. Применяется для рядов, тип диаграммы которых является одним из подтипов Bubble (см. также метод ChartTypeCharacterizer.IsChartTypeBubble(ChartType)).
 
 ```csharp
 public IChartDataPoint AddDataPointForBubbleSeries(double xValue, double yValue, double bubbleSize)
@@ -308,7 +308,7 @@ public IChartDataPoint AddDataPointForBubbleSeries(double xValue, double yValue,
 | --- | --- | --- |
 | xValue | Double | Точка данных XValue |
 | yValue | Double | Точка данных YValue |
-| bubbleSize | Double | Точка данных BubbleSize |
+| bubbleSize | Double | Точка данных |
 
 ### Возвращаемое значение
 
@@ -325,7 +325,7 @@ public IChartDataPoint AddDataPointForBubbleSeries(double xValue, double yValue,
 
 ## AddDataPointForBubbleSeries(string, double, double) {#adddatapointforbubbleseries_11}
 
-Создает новую точку данных и добавляет ее в конец коллекции. Применимо для серий, тип диаграммы которых является одним из подтипов Bubble (см. также метод ChartTypeCharacterizer.IsChartTypeBubble(ChartType)).
+Создает новую точку данных и добавляет ее в конец коллекции. Применяется для рядов, тип диаграммы которых является одним из подтипов Bubble (см. также метод ChartTypeCharacterizer.IsChartTypeBubble(ChartType)).
 
 ```csharp
 public IChartDataPoint AddDataPointForBubbleSeries(string xValue, double yValue, double bubbleSize)
@@ -335,7 +335,7 @@ public IChartDataPoint AddDataPointForBubbleSeries(string xValue, double yValue,
 | --- | --- | --- |
 | xValue | String | Точка данных XValue |
 | yValue | Double | Точка данных YValue |
-| bubbleSize | Double | Точка данных BubbleSize |
+| bubbleSize | Double | Точка данных |
 
 ### Возвращаемое значение
 

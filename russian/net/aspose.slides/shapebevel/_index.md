@@ -24,10 +24,10 @@ public class ShapeBevel : PVIObject, IShapeBevel
 
 | Имя | Описание |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Позволяет получить базовый интерфейс IPresentationComponent. Только для чтения[`IPresentationComponent`](../ipresentationcomponent). |
-| [BevelType](../../aspose.slides/shapebevel/beveltype) { get; set; } | Тип скоса. Чтение/запись[`BevelPresetType`](../bevelpresettype). |
-| [Height](../../aspose.slides/shapebevel/height) { get; set; } | Высота скоса. Чтение/записьDouble. |
-| [Width](../../aspose.slides/shapebevel/width) { get; set; } | Ширина фаски. Чтение/записьDouble. |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Позволяет получить базовый интерфейс IPresentationComponent. Только для чтения[`IPresentationComponent`](../ipresentationcomponent) . |
+| [BevelType](../../aspose.slides/shapebevel/beveltype) { get; set; } | Тип скоса. Чтение/запись[`BevelPresetType`](../bevelpresettype) . |
+| [Height](../../aspose.slides/shapebevel/height) { get; set; } | Высота скоса. Чтение/записьDouble . |
+| [Width](../../aspose.slides/shapebevel/width) { get; set; } | Ширина скоса. Чтение/записьDouble . |
 
 ## Методы
 

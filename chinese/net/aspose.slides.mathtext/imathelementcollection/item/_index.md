@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Slides for .NET API 参考
-description: 获取指定索引处的元素 只读IMathElementaspose.slides.mathtext/imathelement
+description: 获取指定索引处的元素 只读IMathElementaspose.slides.mathtext/imathelement.
 type: docs
 weight: 30
 url: /zh/net/aspose.slides.mathtext/imathelementcollection/item/
 ---
 ## IMathElementCollection indexer
 
-获取指定索引处的元素。 只读[`IMathElement`](../../imathelement)。
+获取指定索引处的元素。 只读[`IMathElement`](../../imathelement).
 
 ```csharp
 public IMathElement this[int index] { get; }
@@ -20,7 +20,7 @@ public IMathElement this[int index] { get; }
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]

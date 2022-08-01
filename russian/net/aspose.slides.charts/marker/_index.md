@@ -1,14 +1,14 @@
 ---
 title: Marker
 second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет маркер черти.
+description: Представляет собой маркер чертежа.
 type: docs
 weight: 2190
 url: /ru/net/aspose.slides.charts/marker/
 ---
 ## Marker class
 
-Представляет маркер черти.
+Представляет собой маркер чертежа.
 
 ```csharp
 public class Marker : IMarker
@@ -18,9 +18,9 @@ public class Marker : IMarker
 
 | Имя | Описание |
 | --- | --- |
-| [Format](../../aspose.slides.charts/marker/format) { get; } | Получает или задает заливку маркера. Только для чтения[`IFormat`](../iformat). |
-| [Size](../../aspose.slides.charts/marker/size) { get; set; } | Представляет размер маркера на линейной диаграмме, точечной диаграмме или лепестковой диаграмме. Чтение/записьInt32. |
-| [Symbol](../../aspose.slides.charts/marker/symbol) { get; set; } | Представляет стиль маркера на линейной диаграмме, точечной диаграмме или лепестковой диаграмме. Чтение/запись[`MarkerStyleType`](../markerstyletype). |
+| [Format](../../aspose.slides.charts/marker/format) { get; } | Получает или задает заливку маркера. Только для чтения[`IFormat`](../iformat) . |
+| [Size](../../aspose.slides.charts/marker/size) { get; set; } | Представляет размер маркера на линейной диаграмме, точечной диаграмме или лепестковой диаграмме. Чтение/записьInt32 . |
+| [Symbol](../../aspose.slides.charts/marker/symbol) { get; set; } | Представляет стиль маркера на линейной диаграмме, точечной диаграмме или лепестковой диаграмме. Чтение/запись[`MarkerStyleType`](../markerstyletype) . |
 
 ### Смотрите также
 

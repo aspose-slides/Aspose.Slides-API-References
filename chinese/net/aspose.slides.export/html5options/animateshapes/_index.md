@@ -1,14 +1,14 @@
 ---
 title: AnimateShapes
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置形状动画选项 读/写Boolean
+description: 返回或设置形状动画选项 读/写Boolean.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides.export/html5options/animateshapes/
 ---
 ## Html5Options.AnimateShapes property
 
-返回或设置形状动画选项。 读/写Boolean。
+返回或设置形状动画选项。 读/写Boolean.
 
 ```csharp
 public bool AnimateShapes { get; set; }
@@ -16,7 +16,7 @@ public bool AnimateShapes { get; set; }
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]

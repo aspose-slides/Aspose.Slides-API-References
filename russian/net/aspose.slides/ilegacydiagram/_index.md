@@ -18,7 +18,7 @@ public interface ILegacyDiagram : IGraphicalObject
 
 | Имя | Описание |
 | --- | --- |
-| [AsIGraphicalObject](../../aspose.slides/ilegacydiagram/asigraphicalobject) { get; } | Позволяет получить базовый интерфейс IGraphicalObject. Только для чтения[`IGraphicalObject`](../igraphicalobject). |
+| [AsIGraphicalObject](../../aspose.slides/ilegacydiagram/asigraphicalobject) { get; } | Позволяет получить базовый интерфейс IGraphicalObject. Только для чтения[`IGraphicalObject`](../igraphicalobject) . |
 
 ## Методы
 

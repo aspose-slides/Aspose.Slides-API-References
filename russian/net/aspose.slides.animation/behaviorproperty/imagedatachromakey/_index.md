@@ -8,7 +8,7 @@ url: /ru/net/aspose.slides.animation/behaviorproperty/imagedatachromakey/
 ---
 ## BehaviorProperty.ImageDataChromakey property
 
-Представляет свойство 'imageData.chromakey'
+Представляет свойство imageData.chromakey
 
 ```csharp
 public static BehaviorProperty ImageDataChromakey { get; }

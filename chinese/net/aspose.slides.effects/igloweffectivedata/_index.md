@@ -1,14 +1,14 @@
 ---
 title: IGlowEffectiveData
 second_title: Aspose.Slides for .NET API 参考
-description: 表示发光效果的不可变对象其中在对象边缘之外添加了颜色模糊轮廓 
+description: 表示发光效果的不可变对象其中在对象边缘之外添加了颜色模糊的轮廓 
 type: docs
 weight: 3130
 url: /zh/net/aspose.slides.effects/igloweffectivedata/
 ---
 ## IGlowEffectiveData interface
 
-表示发光效果的不可变对象，其中在对象边缘之外添加了颜色模糊轮廓 。
+表示发光效果的不可变对象，其中在对象边缘之外添加了颜色模糊的轮廓 。
 
 ```csharp
 public interface IGlowEffectiveData : IEffectEffectiveData
@@ -18,9 +18,9 @@ public interface IGlowEffectiveData : IEffectEffectiveData
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/igloweffectivedata/asieffecteffectivedata) { get; } | 允许获取基础 IEffectEffectiveData 接口。 只读[`IEffectEffectiveData`](../ieffecteffectivedata)。 |
-| [Color](../../aspose.slides.effects/igloweffectivedata/color) { get; } | 颜色。 只读Color。 |
-| [Radius](../../aspose.slides.effects/igloweffectivedata/radius) { get; } | 半径。 只读Double。 |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/igloweffectivedata/asieffecteffectivedata) { get; } | 允许获取基本 IEffectEffectiveData 接口。 只读[`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [Color](../../aspose.slides.effects/igloweffectivedata/color) { get; } | 颜色. 只读Color. |
+| [Radius](../../aspose.slides.effects/igloweffectivedata/radius) { get; } | 半径. 只读Double. |
 
 ### 也可以看看
 

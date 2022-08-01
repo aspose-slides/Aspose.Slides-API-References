@@ -1,14 +1,14 @@
 ---
 title: SeparatorCharacter
 second_title: Aspose.Slides for .NET API 参考
-description: Delimiter Separator Character 指定分隔分隔符对象中的参数的字符 默认值x7C
+description: Delimiter Separator Character 指定分隔分隔符对象中的参数的字符 默认值x7C.
 type: docs
 weight: 70
 url: /zh/net/aspose.slides.mathtext/mathdelimiter/separatorcharacter/
 ---
 ## MathDelimiter.SeparatorCharacter property
 
-Delimiter Separator Character 指定分隔分隔符对象中的参数的字符。 默认值:'&#x7C;'。
+Delimiter Separator Character 指定分隔分隔符对象中的参数的字符。 默认值：'&#x7C;'.
 
 ```csharp
 public char SeparatorCharacter { get; set; }
@@ -16,7 +16,7 @@ public char SeparatorCharacter { get; set; }
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]

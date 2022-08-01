@@ -1,14 +1,14 @@
 ---
 title: Index
 second_title: Aspose.Slides for .NET API 参考
-description: 获取工作表的索引 只读Int32
+description: 获取工作表的索引 只读Int32.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides.charts/chartdataworksheet/index/
 ---
 ## ChartDataWorksheet.Index property
 
-获取工作表的索引。 只读Int32。
+获取工作表的索引。 只读Int32.
 
 ```csharp
 public int Index { get; }

@@ -18,8 +18,8 @@ public interface ISmartArtShape : IGeometryShape
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsIGeometryShape](../../aspose.slides.smartart/ismartartshape/asigeometryshape) { get; } | 允许获取基本的 IGeometryShape 接口。 只读[`IGeometryShape`](../../aspose.slides/igeometryshape)。 |
-| [TextFrame](../../aspose.slides.smartart/ismartartshape/textframe) { get; } | 返回 SmartArt 形状的文本。 只读[`ITextFrame`](../../aspose.slides/itextframe)。 |
+| [AsIGeometryShape](../../aspose.slides.smartart/ismartartshape/asigeometryshape) { get; } | 允许获取基本 IGeometryShape 接口。 只读[`IGeometryShape`](../../aspose.slides/igeometryshape). |
+| [TextFrame](../../aspose.slides.smartart/ismartartshape/textframe) { get; } | 返回 SmartArt 形状的文本。 只读[`ITextFrame`](../../aspose.slides/itextframe). |
 
 ### 也可以看看
 

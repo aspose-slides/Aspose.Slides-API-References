@@ -1,14 +1,14 @@
 ---
 title: IInterruptionTokenSource
 second_title: Aspose.Slides for .NET API 参考
-description: 表示IInterruptionToken./iinterruptiontoken的来源
+description: 代表来源IInterruptionToken./iinterruptiontoken.
 type: docs
 weight: 5650
 url: /zh/net/aspose.slides/iinterruptiontokensource/
 ---
 ## IInterruptionTokenSource interface
 
-表示[`IInterruptionToken`](../iinterruptiontoken)的来源。
+代表来源[`IInterruptionToken`](../iinterruptiontoken).
 
 ```csharp
 public interface IInterruptionTokenSource
@@ -18,8 +18,8 @@ public interface IInterruptionTokenSource
 
 | 姓名 | 描述 |
 | --- | --- |
-| [IsInterruptionRequested](../../aspose.slides/iinterruptiontokensource/isinterruptionrequested) { get; } | 如果请求中断，则返回 true，否则返回 false。 |
-| [Token](../../aspose.slides/iinterruptiontokensource/token) { get; } | 返回绑定到此[`IInterruptionTokenSource`](../iinterruptiontokensource)的新令牌。 |
+| [IsInterruptionRequested](../../aspose.slides/iinterruptiontokensource/isinterruptionrequested) { get; } | 如果请求中断则返回真，否则返回假。 |
+| [Token](../../aspose.slides/iinterruptiontokensource/token) { get; } | 返回绑定到此的新令牌[`IInterruptionTokenSource`](../iinterruptiontokensource). |
 
 ## 方法
 

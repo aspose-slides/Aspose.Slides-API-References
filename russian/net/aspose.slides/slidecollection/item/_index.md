@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Справочник по API Aspose.Slides для .NET
-description: Получает элемент по указанному индексу. Только для чтенияSlideaspose.slides/slide.
+description: Получает элемент по указанному индексу. Только для чтенияSlideaspose.slides/slide .
 type: docs
 weight: 30
 url: /ru/net/aspose.slides/slidecollection/item/
 ---
 ## SlideCollection indexer
 
-Получает элемент по указанному индексу. Только для чтения[`Slide`](../../slide).
+Получает элемент по указанному индексу. Только для чтения[`Slide`](../../slide) .
 
 ```csharp
 public ISlide this[int index] { get; }

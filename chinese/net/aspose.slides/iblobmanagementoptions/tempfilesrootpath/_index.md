@@ -1,14 +1,14 @@
 ---
 title: TempFilesRootPath
 second_title: Aspose.Slides for .NET API 参考
-description: 创建临时文件的根路径托管进程应该有权限 在那里创建文件和文件夹
+description: 将创建临时文件的根路径托管进程应该有权 在那里创建文件和文件夹
 type: docs
 weight: 40
 url: /zh/net/aspose.slides/iblobmanagementoptions/tempfilesrootpath/
 ---
 ## IBlobManagementOptions.TempFilesRootPath property
 
-创建临时文件的根路径。托管进程应该有权限 在那里创建文件和文件夹。
+将创建临时文件的根路径。托管进程应该有权 在那里创建文件和文件夹。
 
 ```csharp
 public string TempFilesRootPath { get; set; }

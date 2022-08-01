@@ -1,14 +1,14 @@
 ---
 title: HideAtShowing
 second_title: Aspose.Slides for .NET API 参考
-description: 确定 AudioFrame 是否隐藏 读/写Boolean
+description: 确定是否隐藏 AudioFrame 读/写Boolean.
 type: docs
 weight: 80
 url: /zh/net/aspose.slides/iaudioframe/hideatshowing/
 ---
 ## IAudioFrame.HideAtShowing property
 
-确定 AudioFrame 是否隐藏。 读/写Boolean。
+确定是否隐藏 AudioFrame。 读/写Boolean.
 
 ```csharp
 public bool HideAtShowing { get; set; }

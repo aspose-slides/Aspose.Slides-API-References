@@ -1,14 +1,14 @@
 ---
 title: EightDirectionTransition
 second_title: Aspose.Slides for .NET API 参考
-description: 八方向滑动过渡效果
+description: 八方向幻灯片过渡效果
 type: docs
 weight: 9240
 url: /zh/net/aspose.slides.slideshow/eightdirectiontransition/
 ---
 ## EightDirectionTransition class
 
-八方向滑动过渡效果。
+八方向幻灯片过渡效果。
 
 ```csharp
 public class EightDirectionTransition : TransitionValueBase, IEightDirectionTransition
@@ -18,13 +18,13 @@ public class EightDirectionTransition : TransitionValueBase, IEightDirectionTran
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Direction](../../aspose.slides.slideshow/eightdirectiontransition/direction) { get; set; } | 过渡方向。 读/写[`TransitionEightDirectionType`](../transitioneightdirectiontype)。 |
+| [Direction](../../aspose.slides.slideshow/eightdirectiontransition/direction) { get; set; } | 转换方向。 读/写[`TransitionEightDirectionType`](../transitioneightdirectiontype). |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | 判断两个 TransitionValueBase 实例是否相等。 |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | 判断两个TransitionValueBase实例是否相等。 |
 | override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | 用作特定类型的哈希函数，适合在哈希算法和哈希表等数据结构中使用 。 |
 
 ### 也可以看看

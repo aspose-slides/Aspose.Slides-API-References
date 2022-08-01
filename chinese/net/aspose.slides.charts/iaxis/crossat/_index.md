@@ -1,14 +1,14 @@
 ---
 title: CrossAt
 second_title: Aspose.Slides for .NET API 参考
-description: 表示垂直轴与其相交的轴上的点 读/写Single
+description: 表示垂直轴与其相交的轴上的点 读/写Single.
 type: docs
 weight: 130
 url: /zh/net/aspose.slides.charts/iaxis/crossat/
 ---
 ## IAxis.CrossAt property
 
-表示垂直轴与其相交的轴上的点。 读/写Single。
+表示垂直轴与其相交的轴上的点。 读/写Single.
 
 ```csharp
 public float CrossAt { get; set; }

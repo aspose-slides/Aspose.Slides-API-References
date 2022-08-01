@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает столбец по указанному индексу. Только для чтенияIColumnaspose.slides/icolumn.
+description: Возвращает столбец по указанному индексу. Только для чтенияIColumnaspose.slides/icolumn .
 type: docs
 weight: 10
 url: /ru/net/aspose.slides/icolumncollection/item/
 ---
 ## IColumnCollection indexer
 
-Возвращает столбец по указанному индексу. Только для чтения[`IColumn`](../../icolumn).
+Возвращает столбец по указанному индексу. Только для чтения[`IColumn`](../../icolumn) .
 
 ```csharp
 public IColumn this[int index] { get; }

@@ -18,8 +18,8 @@ public interface ISingleCellChartValue : IBaseChartValue
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsCell](../../aspose.slides.charts/isinglecellchartvalue/ascell) { get; set; } | 返回或设置图表数据单元格。 读/写[`IChartDataCell`](../ichartdatacell)。 |
-| [AsIBaseChartValue](../../aspose.slides.charts/isinglecellchartvalue/asibasechartvalue) { get; } | 允许获取基本 IBaseChartValue 接口。 只读[`IBaseChartValue`](../ibasechartvalue)。 |
+| [AsCell](../../aspose.slides.charts/isinglecellchartvalue/ascell) { get; set; } | 返回或设置图表数据单元格。 读/写[`IChartDataCell`](../ichartdatacell). |
+| [AsIBaseChartValue](../../aspose.slides.charts/isinglecellchartvalue/asibasechartvalue) { get; } | 允许获取基本 IBaseChartValue 接口。 只读[`IBaseChartValue`](../ibasechartvalue). |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: ChartDataWorksheetCollection
 second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет набор рабочих листов книги данных диаграммы.
+description: Представляет набор листов рабочей книги данных диаграммы.
 type: docs
 weight: 1260
 url: /ru/net/aspose.slides.charts/chartdataworksheetcollection/
 ---
 ## ChartDataWorksheetCollection class
 
-Представляет набор рабочих листов книги данных диаграммы.
+Представляет набор листов рабочей книги данных диаграммы.
 
 ```csharp
 public sealed class ChartDataWorksheetCollection : IChartDataWorksheetCollection
@@ -18,17 +18,17 @@ public sealed class ChartDataWorksheetCollection : IChartDataWorksheetCollection
 
 | Имя | Описание |
 | --- | --- |
-| [Count](../../aspose.slides.charts/chartdataworksheetcollection/count) { get; } | Возвращает количество. Только для чтенияInt32. |
-| [IsSynchronized](../../aspose.slides.charts/chartdataworksheetcollection/issynchronized) { get; } | Возвращает значение, указывающее, является ли доступ к коллекции синхронизированным (потокобезопасным). Только чтениеBoolean. |
+| [Count](../../aspose.slides.charts/chartdataworksheetcollection/count) { get; } | Возвращает количество. Только для чтенияInt32 . |
+| [IsSynchronized](../../aspose.slides.charts/chartdataworksheetcollection/issynchronized) { get; } | Возвращает значение, указывающее, является ли доступ к коллекции синхронизированным (потокобезопасным). Только для чтенияBoolean . |
 | [Item](../../aspose.slides.charts/chartdataworksheetcollection/item) { get; } | Возвращает рабочий лист по индексу. |
-| [SyncRoot](../../aspose.slides.charts/chartdataworksheetcollection/syncroot) { get; } | Возвращает корень синхронизации. Только для чтенияObject. |
+| [SyncRoot](../../aspose.slides.charts/chartdataworksheetcollection/syncroot) { get; } | Возвращает корень синхронизации. Только для чтенияObject . |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
 | [CopyTo](../../aspose.slides.charts/chartdataworksheetcollection/copyto)(Array, int) | Копировать в указанный массив. |
-| [GetEnumerator](../../aspose.slides.charts/chartdataworksheetcollection/getenumerator)() | Возвращает перечислитель, который перебирает коллекцию. |
+| [GetEnumerator](../../aspose.slides.charts/chartdataworksheetcollection/getenumerator)() | Возвращает перечислитель, который выполняет итерацию по коллекции. |
 
 ### Примеры
 

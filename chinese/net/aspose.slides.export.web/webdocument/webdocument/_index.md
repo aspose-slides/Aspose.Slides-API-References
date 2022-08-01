@@ -1,14 +1,14 @@
 ---
 title: WebDocument
 second_title: Aspose.Slides for .NET API 参考
-description: WebDocumentaspose.slides.export.web/webdocument构造函数
+description: WebDocumentaspose.slides.export.web/webdocument构造函数.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides.export.web/webdocument/webdocument/
 ---
 ## WebDocument constructor
 
-[`WebDocument`](../../webdocument)构造函数。
+[`WebDocument`](../../webdocument)构造函数.
 
 ```csharp
 public WebDocument(WebDocumentOptions options)
@@ -20,7 +20,7 @@ public WebDocument(WebDocumentOptions options)
 
 ### 返回值
 
-[`WebDocument`](../../webdocument)的新实例。
+一个新的实例[`WebDocument`](../../webdocument).
 
 ### 也可以看看
 

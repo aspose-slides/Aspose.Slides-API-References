@@ -18,7 +18,7 @@ public interface IPresentationText
 
 | Имя | Описание |
 | --- | --- |
-| [SlidesText](../../aspose.slides/ipresentationtext/slidestext) { get; } | Массив[`SlideText`](../islidetext) содержит текст презентации. |
+| [SlidesText](../../aspose.slides/ipresentationtext/slidestext) { get; } | Массив[`Текст слайда`](../islidetext) содержит текст презентации. |
 
 ### Смотрите также
 

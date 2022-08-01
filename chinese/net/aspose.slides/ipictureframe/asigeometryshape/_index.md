@@ -1,14 +1,14 @@
 ---
 title: AsIGeometryShape
 second_title: Aspose.Slides for .NET API 参考
-description: 允许获取基本的 IGeometryShape 接口 只读IGeometryShapeaspose.slides/igeometryshape
+description: 允许获取基本 IGeometryShape 接口 只读IGeometryShapeaspose.slides/igeometryshape.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides/ipictureframe/asigeometryshape/
 ---
 ## IPictureFrame.AsIGeometryShape property
 
-允许获取基本的 IGeometryShape 接口。 只读[`IGeometryShape`](../../igeometryshape)。
+允许获取基本 IGeometryShape 接口。 只读[`IGeometryShape`](../../igeometryshape).
 
 ```csharp
 public IGeometryShape AsIGeometryShape { get; }

@@ -1,14 +1,14 @@
 ---
 title: FillFormat
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает объект FillFormat содержащий свойства форматирования заливки для фигуры. Только для чтенияIFillFormataspose.slides/ifillformat.
+description: Возвращает объект FillFormat содержащий свойства форматирования заливки для фигуры. Только для чтенияIFillFormataspose.slides/ifillformat .
 type: docs
 weight: 90
 url: /ru/net/aspose.slides/ishape/fillformat/
 ---
 ## IShape.FillFormat property
 
-Возвращает объект FillFormat, содержащий свойства форматирования заливки для фигуры. Только для чтения[`IFillFormat`](../../ifillformat).
+Возвращает объект FillFormat, содержащий свойства форматирования заливки для фигуры. Только для чтения[`IFillFormat`](../../ifillformat) .
 
 ```csharp
 public IFillFormat FillFormat { get; }

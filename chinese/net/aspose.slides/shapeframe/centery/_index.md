@@ -1,14 +1,14 @@
 ---
 title: CenterY
 second_title: Aspose.Slides for .NET API 参考
-description: 返回帧中心的 Y 坐标 只读Single
+description: 返回框架中心的 Y 坐标 只读Single.
 type: docs
 weight: 30
 url: /zh/net/aspose.slides/shapeframe/centery/
 ---
 ## ShapeFrame.CenterY property
 
-返回帧中心的 Y 坐标。 只读Single。
+返回框架中心的 Y 坐标。 只读Single.
 
 ```csharp
 public float CenterY { get; }

@@ -18,22 +18,22 @@ public enum PlaceholderType : sbyte
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Title | `0` | 标题。 |
-| Body | `1` | 正文。 |
-| CenteredTitle | `2` | 居中标题。 |
-| Subtitle | `3` | 字幕。 |
+| Title | `0` | 标题. |
+| Body | `1` | 身体. |
+| CenteredTitle | `2` | 居中标题. |
+| Subtitle | `3` | 字幕. |
 | DateAndTime | `4` | 日期和时间。 |
-| SlideNumber | `5` | 幻灯片编号。 |
-| Footer | `6` | 页脚。 |
-| Header | `7` | 标题。 |
-| Object | `8` | 对象。 |
-| Chart | `9` | 图表。 |
-| Table | `10` | 表。 |
-| ClipArt | `11` | 剪贴画。 |
-| Diagram | `12` | 图。 |
-| Media | `13` | 媒体。 |
-| SlideImage | `14` | 幻灯片图像。 |
-| Picture | `15` | 图片。 |
+| SlideNumber | `5` | 幻灯片编号. |
+| Footer | `6` | 页脚. |
+| Header | `7` | 标头. |
+| Object | `8` | 对象. |
+| Chart | `9` | 图表. |
+| Table | `10` | 表. |
+| ClipArt | `11` | 剪贴画. |
+| Diagram | `12` | 图表. |
+| Media | `13` | 媒体. |
+| SlideImage | `14` | 幻灯片图像. |
+| Picture | `15` | 图片. |
 
 ### 也可以看看
 

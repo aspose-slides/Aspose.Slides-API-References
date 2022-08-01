@@ -1,14 +1,14 @@
 ---
 title: HideDegree
 second_title: Aspose.Slides for .NET API 参考
-description: 隐藏度数 当为真时度数不显示如 
+description: 隐藏度数 当为真时度数不显示如
 type: docs
 weight: 40
 url: /zh/net/aspose.slides.mathtext/imathradical/hidedegree/
 ---
 ## IMathRadical.HideDegree property
 
-隐藏度数 当为真时，度数不显示，如 √𝑥
+隐藏度数 当为真时，度数不显示，如√𝑥
 
 ```csharp
 public bool HideDegree { get; set; }
@@ -16,7 +16,7 @@ public bool HideDegree { get; set; }
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]

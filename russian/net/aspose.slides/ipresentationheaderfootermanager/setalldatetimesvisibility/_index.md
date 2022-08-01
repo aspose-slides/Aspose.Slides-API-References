@@ -16,7 +16,7 @@ public void SetAllDateTimesVisibility(bool isVisible)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| isVisible | Boolean | true - делает видимыми заполнители даты и времени, иначе - скрывает их. |
+| isVisible | Boolean | true - делает заполнители даты и времени видимыми, иначе - скрывает их. |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: DateTime7
 second_title: Справочник по API Aspose.Slides для .NET
-description: Текущая дата и время в предопределенном седьмом формате Mon-YY для английского. Только для чтенияFieldTypeaspose.slides/fieldtype.
+description: Текущая дата и время в седьмом заранее заданном формате Mon-YY для английского. Только для чтенияFieldTypeaspose.slides/fieldtype .
 type: docs
 weight: 130
 url: /ru/net/aspose.slides/fieldtype/datetime7/
 ---
 ## FieldType.DateTime7 property
 
-Текущая дата и время в предопределенном седьмом формате (Mon-YY для английского). Только для чтения[`FieldType`](../../fieldtype).
+Текущая дата и время в седьмом заранее заданном формате (Mon-YY для английского). Только для чтения[`FieldType`](../../fieldtype) .
 
 ```csharp
 public static FieldType DateTime7 { get; }

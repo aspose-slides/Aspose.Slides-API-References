@@ -1,14 +1,14 @@
 ---
 title: JoinStyle
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или задает стиль соединения линий. Чтение/записьLineJoinStyleaspose.slides/linejoinstyle.
+description: Возвращает или задает стиль соединения линий. Чтение/записьLineJoinStyleaspose.slides/linejoinstyle .
 type: docs
 weight: 140
 url: /ru/net/aspose.slides/ilineformat/joinstyle/
 ---
 ## ILineFormat.JoinStyle property
 
-Возвращает или задает стиль соединения линий. Чтение/запись[`LineJoinStyle`](../../linejoinstyle).
+Возвращает или задает стиль соединения линий. Чтение/запись[`LineJoinStyle`](../../linejoinstyle) .
 
 ```csharp
 public LineJoinStyle JoinStyle { get; set; }

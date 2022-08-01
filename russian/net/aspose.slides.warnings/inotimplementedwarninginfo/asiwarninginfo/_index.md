@@ -1,14 +1,14 @@
 ---
 title: AsIWarningInfo
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает интерфейс IWarningInfo. Только для чтенияIWarningInfoaspose.slides.warnings/iwarninginfo.
+description: Возвращает интерфейс IWarningInfo. Только для чтенияIWarningInfoaspose.slides.warnings/iwarninginfo .
 type: docs
 weight: 10
 url: /ru/net/aspose.slides.warnings/inotimplementedwarninginfo/asiwarninginfo/
 ---
 ## INotImplementedWarningInfo.AsIWarningInfo property
 
-Возвращает интерфейс IWarningInfo. Только для чтения[`IWarningInfo`](../../iwarninginfo).
+Возвращает интерфейс IWarningInfo. Только для чтения[`IWarningInfo`](../../iwarninginfo) .
 
 ```csharp
 public IWarningInfo AsIWarningInfo { get; }

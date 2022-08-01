@@ -1,14 +1,14 @@
 ---
 title: MoveTo
 second_title: Справочник по API Aspose.Slides для .NET
-description: Устанавливает позицию следующей точки.
+description: Устанавливает положение следующей точки.
 type: docs
 weight: 80
 url: /ru/net/aspose.slides/igeometrypath/moveto/
 ---
 ## MoveTo(PointF) {#moveto_1}
 
-Устанавливает позицию следующей точки.
+Устанавливает положение следующей точки.
 
 ```csharp
 public void MoveTo(PointF point)
@@ -28,7 +28,7 @@ public void MoveTo(PointF point)
 
 ## MoveTo(float, float) {#moveto}
 
-Устанавливает позицию следующей точки.
+Устанавливает положение следующей точки.
 
 ```csharp
 public void MoveTo(float x, float y)
@@ -37,7 +37,7 @@ public void MoveTo(float x, float y)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | x | Single | X координата точки |
-| y | Single | Y координата точки |
+| y | Single | Y Координата точки |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: IUpDownBarsManager
 second_title: Aspose.Slides for .NET API 参考
-description: 提供对折线图或股票图的向上/向下条的访问
+description: 提供对折线图或股票图的向上/向下柱的访问
 type: docs
 weight: 2120
 url: /zh/net/aspose.slides.charts/iupdownbarsmanager/
 ---
 ## IUpDownBarsManager interface
 
-提供对折线图或股票图的向上/向下条的访问。
+提供对折线图或股票图的向上/向下柱的访问。
 
 ```csharp
 public interface IUpDownBarsManager
@@ -18,10 +18,10 @@ public interface IUpDownBarsManager
 
 | 姓名 | 描述 |
 | --- | --- |
-| [DownBarsFormat](../../aspose.slides.charts/iupdownbarsmanager/downbarsformat) { get; } | 返回下行柱的格式。 只读[`IFormat`](../iformat)。 |
-| [GapWidth](../../aspose.slides.charts/iupdownbarsmanager/gapwidth) { get; set; } | 返回或设置间隙宽度。 读/写Int32。 |
-| [HasUpDownBars](../../aspose.slides.charts/iupdownbarsmanager/hasupdownbars) { get; set; } | 确定图表是否有向上/向下柱。 读/写Boolean。 |
-| [UpBarsFormat](../../aspose.slides.charts/iupdownbarsmanager/upbarsformat) { get; } | 返回上行柱的格式。 只读[`IFormat`](../iformat)。 |
+| [DownBarsFormat](../../aspose.slides.charts/iupdownbarsmanager/downbarsformat) { get; } | 返回下行柱的格式。 只读[`IFormat`](../iformat). |
+| [GapWidth](../../aspose.slides.charts/iupdownbarsmanager/gapwidth) { get; set; } | 返回或设置间隙宽度。 读/写Int32. |
+| [HasUpDownBars](../../aspose.slides.charts/iupdownbarsmanager/hasupdownbars) { get; set; } | 确定图表是否有向上/向下柱线。 读/写Boolean. |
+| [UpBarsFormat](../../aspose.slides.charts/iupdownbarsmanager/upbarsformat) { get; } | 返回向上柱的格式。 只读[`IFormat`](../iformat). |
 
 ### 也可以看看
 

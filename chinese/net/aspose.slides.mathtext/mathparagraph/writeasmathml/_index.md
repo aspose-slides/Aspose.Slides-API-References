@@ -1,14 +1,14 @@
 ---
 title: WriteAsMathMl
 second_title: Aspose.Slides for .NET API 参考
-description: 将此MathParagraphaspose.slides.mathtext/mathparagraph的内容保存为 MathML
+description: 保存此内容MathParagraphaspose.slides.mathtext/mathparagraph作为 MathML
 type: docs
 weight: 120
 url: /zh/net/aspose.slides.mathtext/mathparagraph/writeasmathml/
 ---
 ## MathParagraph.WriteAsMathMl method
 
-将此[`MathParagraph`](../../mathparagraph)的内容保存为 MathML
+保存此内容[`MathParagraph`](../../mathparagraph)作为 MathML
 
 ```csharp
 public void WriteAsMathMl(Stream stream)

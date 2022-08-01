@@ -18,16 +18,16 @@ public FontFallBackRule(uint startIndex, uint endIndex, string fontNames)
 | --- | --- | --- |
 | startIndex | UInt32 | Начальный индекс диапазона юникода |
 | endIndex | UInt32 | Конечный индекс диапазона юникода |
-| fontNames | String | Имя или имена шрифтов (разделенные запятой) для FallBack |
+| fontNames | String | Имя шрифта или имена (разделенные запятой) для FallBack |
 
 ### Примеры
 
 ```csharp
 [C#]
- // Создаем новый экземпляр FantFallBackRule с одним шрифтом.
+// Создаем новый экземпляр FantFallBackRule с одним шрифтом.
 IFontFallBackRule newRule = new FontFallBackRule(0x3040, 0x309F, "MS Mincho");
 
- // Создаем новый экземпляр FantFallBackRule с несколькими шрифтами.
+// Создаем новый экземпляр FantFallBackRule с несколькими шрифтами.
 IFontFallBackRule newRule = new FontFallBackRule(0x3040, 0x309F, "MS Mincho, MS Gothic, Tahoma");
 ```
 
@@ -51,16 +51,16 @@ public FontFallBackRule(uint startIndex, uint endIndex, string[] fontNames)
 | --- | --- | --- |
 | startIndex | UInt32 | Начальный индекс диапазона юникода |
 | endIndex | UInt32 | Конечный индекс диапазона юникода |
-| fontNames | String[] | Имя или имена шрифтов (разделенные запятой) для FallBack |
+| fontNames | String[] | Имя шрифта или имена (разделенные запятой) для FallBack |
 
 ### Примеры
 
 ```csharp
 [C#]
- // Создаем новый экземпляр FantFallBackRule с двумя fonts
+// Создаем новый экземпляр FantFallBackRule с двумя шрифтами
 IFontFallBackRule newRule = new FontFallBackRule(0x3040, 0x309F, new string[] { "MS Mincho", "MS Gothic"});
 
- // Создаем новый экземпляр FantFallBackRule с несколькими шрифтами.
+// Создаем новый экземпляр FantFallBackRule с несколькими шрифтами.
 IFontFallBackRule newRule = new FontFallBackRule(0x3040, 0x309F, new string[] { "MS Gothic", "Tahoma, Times New Roman" });
 ```
 

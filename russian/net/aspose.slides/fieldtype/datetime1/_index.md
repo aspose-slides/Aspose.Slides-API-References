@@ -1,14 +1,14 @@
 ---
 title: DateTime1
 second_title: Справочник по API Aspose.Slides для .NET
-description: Текущая дата и время в предварительно заданном формате ММ/ДД/ГГГГ для английского. Только для чтенияFieldTypeaspose.slides/fieldtype.
+description: Текущая дата и время в предварительно заданном формате ММ/ДД/ГГГГ для английского языка. Только для чтенияFieldTypeaspose.slides/fieldtype .
 type: docs
 weight: 30
 url: /ru/net/aspose.slides/fieldtype/datetime1/
 ---
 ## FieldType.DateTime1 property
 
-Текущая дата и время в предварительно заданном формате (ММ/ДД/ГГГГ для английского). Только для чтения[`FieldType`](../../fieldtype).
+Текущая дата и время в предварительно заданном формате (ММ/ДД/ГГГГ для английского языка). Только для чтения[`FieldType`](../../fieldtype) .
 
 ```csharp
 public static FieldType DateTime1 { get; }

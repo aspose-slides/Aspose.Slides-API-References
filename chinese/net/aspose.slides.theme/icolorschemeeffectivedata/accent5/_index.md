@@ -1,14 +1,14 @@
 ---
 title: Accent5
 second_title: Aspose.Slides for .NET API 参考
-description: 方案中的第五种强调色 只读Color
+description: 方案中的第五种强调色 只读Color.
 type: docs
 weight: 50
 url: /zh/net/aspose.slides.theme/icolorschemeeffectivedata/accent5/
 ---
 ## IColorSchemeEffectiveData.Accent5 property
 
-方案中的第五种强调色。 只读Color。
+方案中的第五种强调色。 只读Color.
 
 ```csharp
 public Color Accent5 { get; }

@@ -1,14 +1,14 @@
 ---
 title: Style
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置图表样式 读/写StyleTypeaspose.slides.charts/styletype
+description: 返回或设置图表样式 读/写StyleTypeaspose.slides.charts/styletype.
 type: docs
 weight: 200
 url: /zh/net/aspose.slides.charts/chart/style/
 ---
 ## Chart.Style property
 
-返回或设置图表样式。 读/写[`StyleType`](../../styletype)。
+返回或设置图表样式。 读/写[`StyleType`](../../styletype).
 
 ```csharp
 public StyleType Style { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: Count
 second_title: Aspose.Slides for .NET API 参考
-description: 获取实际为范围定义的字体数量 只读Int32
+description: 获取实际为范围定义的字体数量 只读Int32.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides/fontfallbackrule/count/
 ---
 ## FontFallBackRule.Count property
 
-获取实际为范围定义的字体数量。 只读Int32。
+获取实际为范围定义的字体数量。 只读Int32.
 
 ```csharp
 public int Count { get; }

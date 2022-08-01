@@ -18,9 +18,9 @@ public interface IImageWrapper : IDisposable
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsIDisposable](../../aspose.slides/iimagewrapper/asidisposable) { get; } | 返回 IDisposable 接口。 只读IDisposable。 |
-| [Image](../../aspose.slides/iimagewrapper/image) { get; } | 获取 Syste.Drawing.Image 只读[`Image`](./image)。 |
-| [Size](../../aspose.slides/iimagewrapper/size) { get; } | 获取 Image 只读IImageWrapper的宽度和高度（以像素为单位）。尺寸。 |
+| [AsIDisposable](../../aspose.slides/iimagewrapper/asidisposable) { get; } | 返回 IDisposable 接口。 只读IDisposable. |
+| [Image](../../aspose.slides/iimagewrapper/image) { get; } | 获取 Syste.Drawing.Image 只读[`Image`](./image). |
+| [Size](../../aspose.slides/iimagewrapper/size) { get; } | 获取 Image 的宽度和高度（以像素为单位） 只读[`Size`](./size). |
 
 ## 方法
 
@@ -28,7 +28,7 @@ public interface IImageWrapper : IDisposable
 | --- | --- |
 | [Save](../../aspose.slides/iimagewrapper/save#save_1)(string) | 将图像保存到指定文件 |
 | [Save](../../aspose.slides/iimagewrapper/save#save)(Stream, PPImageFormat) | 以指定格式将图像保存到指定流中。 |
-| [Save](../../aspose.slides/iimagewrapper/save#save_2)(string, PPImageFormat) | 以指定格式将图像保存到指定文件。 |
+| [Save](../../aspose.slides/iimagewrapper/save#save_2)(string, PPImageFormat) | 将图像以指定格式保存到指定文件中。 |
 
 ### 也可以看看
 

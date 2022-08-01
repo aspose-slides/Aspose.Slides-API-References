@@ -1,14 +1,14 @@
 ---
 title: DimensionSize
 second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет размер области слайда ширина когда является дочерним элементом RestoredTop высота когда является дочерним элементом RestoredLeft. Чтение/записьSingle.
+description: Определяет размер области слайда ширина когда является дочерним элементом RestoredTop высота когда является дочерним элементом RestoredLeft. Чтение/записьSingle .
 type: docs
 weight: 20
 url: /ru/net/aspose.slides/normalviewrestoredproperties/dimensionsize/
 ---
 ## NormalViewRestoredProperties.DimensionSize property
 
-Определяет размер области слайда (ширина, когда является дочерним элементом RestoredTop, высота, когда является дочерним элементом RestoredLeft). Чтение/записьSingle.
+Определяет размер области слайда (ширина, когда является дочерним элементом RestoredTop, высота, когда является дочерним элементом RestoredLeft). Чтение/записьSingle .
 
 ```csharp
 public float DimensionSize { get; set; }

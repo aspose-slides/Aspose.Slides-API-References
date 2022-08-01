@@ -18,10 +18,10 @@ public interface ISlidesPicture : ISlideComponent
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsISlideComponent](../../aspose.slides/islidespicture/asislidecomponent) { get; } | 允许获取基础 ISlideComponent 接口。 只读[`ISlideComponent`](../islidecomponent)。 |
-| [Image](../../aspose.slides/islidespicture/image) { get; set; } | 返回或设置嵌入图像。 读/写[`IPPImage`](../ippimage)。 |
-| [ImageTransform](../../aspose.slides/islidespicture/imagetransform) { get; } | 返回图像变换效果的集合。 只读[`IImageTransformOperationCollection`](../../aspose.slides.effects/iimagetransformoperationcollection)。 |
-| [LinkPathLong](../../aspose.slides/islidespicture/linkpathlong) { get; set; } | 返回集合链接图像的 URL。 读/写String。 |
+| [AsISlideComponent](../../aspose.slides/islidespicture/asislidecomponent) { get; } | 允许获取基本 ISlideComponent 接口。 只读[`ISlideComponent`](../islidecomponent). |
+| [Image](../../aspose.slides/islidespicture/image) { get; set; } | 返回或设置嵌入的图像。 读/写[`IPPImage`](../ippimage). |
+| [ImageTransform](../../aspose.slides/islidespicture/imagetransform) { get; } | 返回图像变换效果的集合。 只读[`IImageTransformOperationCollection`](../../aspose.slides.effects/iimagetransformoperationcollection). |
+| [LinkPathLong](../../aspose.slides/islidespicture/linkpathlong) { get; set; } | 返回集合链接图像的 URL。 读/写String. |
 
 ### 也可以看看
 

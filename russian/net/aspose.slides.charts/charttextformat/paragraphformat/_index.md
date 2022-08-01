@@ -1,14 +1,14 @@
 ---
 title: ParagraphFormat
 second_title: Справочник по API Aspose.Slides для .NET
-description: Формат абзаца. Только для чтенияIChartParagraphFormataspose.slides.charts/ichartparagraphformat.
+description: Формат абзаца. Только для чтенияIChartParagraphFormataspose.slides.charts/ichartparagraphformat .
 type: docs
 weight: 10
 url: /ru/net/aspose.slides.charts/charttextformat/paragraphformat/
 ---
 ## ChartTextFormat.ParagraphFormat property
 
-Формат абзаца. Только для чтения[`IChartParagraphFormat`](../../ichartparagraphformat).
+Формат абзаца. Только для чтения[`IChartParagraphFormat`](../../ichartparagraphformat) .
 
 ```csharp
 public IChartParagraphFormat ParagraphFormat { get; }

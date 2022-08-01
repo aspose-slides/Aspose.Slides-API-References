@@ -18,8 +18,8 @@ public interface IMathDelimiterFactory
 
 | Имя | Описание |
 | --- | --- |
-| [CreateMathDelimiter](../../aspose.slides.mathtext/imathdelimiterfactory/createmathdelimiter#createmathdelimiter)(IMathElement) | Создать математический разделитель, применив его к элементу |
-| [CreateMathDelimiter](../../aspose.slides.mathtext/imathdelimiterfactory/createmathdelimiter#createmathdelimiter_1)(IMathElementCollection) | Создать математический разделитель, применив к элементу |
+| [CreateMathDelimiter](../../aspose.slides.mathtext/imathdelimiterfactory/createmathdelimiter#createmathdelimiter)(IMathElement) | Создайте математический разделитель, применив его к element |
+| [CreateMathDelimiter](../../aspose.slides.mathtext/imathdelimiterfactory/createmathdelimiter#createmathdelimiter_1)(IMathElementCollection) | Создайте математический разделитель, применив его к element |
 
 ### Примечания
 

@@ -1,14 +1,14 @@
 ---
 title: ChartDataWorksheet
 second_title: Справочник по API Aspose.Slides для .NET
-description: Получает рабочий лист. Только для чтенияIChartDataWorksheetaspose.slides.charts/ichartdataworksheet.
+description: Получает рабочий лист. Только для чтенияIChartDataWorksheetaspose.slides.charts/ichartdataworksheet .
 type: docs
 weight: 10
 url: /ru/net/aspose.slides.charts/chartdatacell/chartdataworksheet/
 ---
 ## ChartDataCell.ChartDataWorksheet property
 
-Получает рабочий лист. Только для чтения[`IChartDataWorksheet`](../../ichartdataworksheet).
+Получает рабочий лист. Только для чтения[`IChartDataWorksheet`](../../ichartdataworksheet) .
 
 ```csharp
 public IChartDataWorksheet ChartDataWorksheet { get; }

@@ -1,14 +1,14 @@
 ---
 title: Count
 second_title: Aspose.Slides for .NET API 参考
-description: 返回集合中的节点数 只读Int32 只读Int32
+description: 返回集合中的节点数 只读Int32 只读Int32.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides.smartart/smartartnodecollection/count/
 ---
 ## SmartArtNodeCollection.Count property
 
-返回集合中的节点数 只读Int32 只读Int32。
+返回集合中的节点数 只读Int32 只读Int32.
 
 ```csharp
 public int Count { get; }

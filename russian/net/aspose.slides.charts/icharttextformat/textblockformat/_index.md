@@ -1,14 +1,14 @@
 ---
 title: TextBlockFormat
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает формат текстовых элементов диаграммы. Только для чтенияIChartTextBlockFormataspose.slides.charts/icharttextblockformat.
+description: Возвращает формат текстовых элементов диаграммы. Только для чтенияIChartTextBlockFormataspose.slides.charts/icharttextblockformat .
 type: docs
 weight: 30
 url: /ru/net/aspose.slides.charts/icharttextformat/textblockformat/
 ---
 ## IChartTextFormat.TextBlockFormat property
 
-Возвращает формат текстовых элементов диаграммы. Только для чтения[`IChartTextBlockFormat`](../../icharttextblockformat).
+Возвращает формат текстовых элементов диаграммы. Только для чтения[`IChartTextBlockFormat`](../../icharttextblockformat) .
 
 ```csharp
 public IChartTextBlockFormat TextBlockFormat { get; }

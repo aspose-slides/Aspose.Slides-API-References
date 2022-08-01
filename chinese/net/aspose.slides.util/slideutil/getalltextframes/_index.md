@@ -21,7 +21,7 @@ public static ITextFrame[] GetAllTextFrames(IPresentation pres, bool withMasters
 
 ### 返回值
 
-[`TextFrame`](../../../aspose.slides/textframe)对象的数组。
+数组[`TextFrame`](../../../aspose.slides/textframe)对象。
 
 ### 也可以看看
 

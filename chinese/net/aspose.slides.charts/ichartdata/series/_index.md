@@ -1,14 +1,14 @@
 ---
 title: Series
 second_title: Aspose.Slides for .NET API 参考
-description: 获取系列 只读IChartSeriesCollectionaspose.slides.charts/ichartseriescollection
+description: 获取系列 只读IChartSeriesCollectionaspose.slides.charts/ichartseriescollection.
 type: docs
 weight: 60
 url: /zh/net/aspose.slides.charts/ichartdata/series/
 ---
 ## IChartData.Series property
 
-获取系列。 只读[`IChartSeriesCollection`](../../ichartseriescollection)。
+获取系列。 只读[`IChartSeriesCollection`](../../ichartseriescollection).
 
 ```csharp
 public IChartSeriesCollection Series { get; }

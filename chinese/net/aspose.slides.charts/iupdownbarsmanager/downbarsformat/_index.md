@@ -1,14 +1,14 @@
 ---
 title: DownBarsFormat
 second_title: Aspose.Slides for .NET API 参考
-description: 返回下行柱的格式 只读IFormataspose.slides.charts/iformat
+description: 返回下行柱的格式 只读IFormataspose.slides.charts/iformat.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides.charts/iupdownbarsmanager/downbarsformat/
 ---
 ## IUpDownBarsManager.DownBarsFormat property
 
-返回下行柱的格式。 只读[`IFormat`](../../iformat)。
+返回下行柱的格式。 只读[`IFormat`](../../iformat).
 
 ```csharp
 public IFormat DownBarsFormat { get; }

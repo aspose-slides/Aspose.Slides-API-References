@@ -18,18 +18,18 @@ public class Legend : DomObject<Chart>, ILegend
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Bottom](../../aspose.slides.charts/legend/bottom) { get; } | 底部。 只读Single。 |
-| [Chart](../../aspose.slides.charts/legend/chart) { get; } | 返回图表。 只读[`IChart`](../ichart)。 |
-| [Entries](../../aspose.slides.charts/legend/entries) { get; } | 获取图例条目。 只读[`ILegendEntryCollection`](../ilegendentrycollection)。 |
-| [Format](../../aspose.slides.charts/legend/format) { get; } | 返回图例的格式。 只读[`IFormat`](../iformat)。 |
-| [Height](../../aspose.slides.charts/legend/height) { get; set; } | 返回或设置图例高度为图表高度的一部分。 读/写Single。 |
-| [Overlay](../../aspose.slides.charts/legend/overlay) { get; set; } | 确定是否允许其他图表元素与图例重叠。 读/写Boolean。 |
-| [Position](../../aspose.slides.charts/legend/position) { get; set; } | 指定图例在图表上的位置。 X、Y、Width、Heigt 属性的非 NaN 值会覆盖此属性的效果。 读/写[`LegendPositionType`](../legendpositiontype)。 |
-| [Right](../../aspose.slides.charts/legend/right) { get; } | 对。 只读Single。 |
-| [TextFormat](../../aspose.slides.charts/legend/textformat) { get; } | 文本格式。 只读[`IChartTextFormat`](../icharttextformat)。 |
-| [Width](../../aspose.slides.charts/legend/width) { get; set; } | 返回或设置图例的宽度为图表宽度的一部分。 读/写Single。 |
-| [X](../../aspose.slides.charts/legend/x) { get; set; } | 返回或设置图例的 x 坐标为图表宽度的一部分。 读/写Single。 |
-| [Y](../../aspose.slides.charts/legend/y) { get; set; } | 返回或设置图例的 y 坐标为图表高度的一部分。 读/写Single。 |
+| [Bottom](../../aspose.slides.charts/legend/bottom) { get; } | 底部。 只读Single. |
+| [Chart](../../aspose.slides.charts/legend/chart) { get; } | 返回图表。 只读[`IChart`](../ichart). |
+| [Entries](../../aspose.slides.charts/legend/entries) { get; } | 获取图例条目。 只读[`ILegendEntryCollection`](../ilegendentrycollection). |
+| [Format](../../aspose.slides.charts/legend/format) { get; } | 返回图例的格式。 只读[`IFormat`](../iformat). |
+| [Height](../../aspose.slides.charts/legend/height) { get; set; } | 返回或设置图例高度为图表高度的一部分。 读/写Single. |
+| [Overlay](../../aspose.slides.charts/legend/overlay) { get; set; } | 确定是否应允许其他图表元素与图例重叠。 读/写Boolean. |
+| [Position](../../aspose.slides.charts/legend/position) { get; set; } | 指定图例在图表上的位置。 X、Y、宽度、高度属性的非 NaN 值覆盖此属性的效果。 读/写[`LegendPositionType`](../legendpositiontype). |
+| [Right](../../aspose.slides.charts/legend/right) { get; } | 对。 只读Single. |
+| [TextFormat](../../aspose.slides.charts/legend/textformat) { get; } | 文本格式。 只读[`IChartTextFormat`](../icharttextformat). |
+| [Width](../../aspose.slides.charts/legend/width) { get; set; } | 返回或设置图例宽度为图表宽度的一部分。 读/写Single. |
+| [X](../../aspose.slides.charts/legend/x) { get; set; } | 返回或设置图例的 x 坐标作为图表宽度的一部分。 读/写Single. |
+| [Y](../../aspose.slides.charts/legend/y) { get; set; } | 返回或设置图例的 y 坐标作为图表高度的一部分。 读/写Single. |
 
 ### 也可以看看
 

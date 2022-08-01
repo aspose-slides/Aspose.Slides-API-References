@@ -1,14 +1,14 @@
 ---
 title: IMathBorderBoxFactory
 second_title: Справочник по API Aspose.Slides для .NET
-description: Позволяет создать математическую рамку
+description: Позволяет создать математическую границу box
 type: docs
 weight: 7470
 url: /ru/net/aspose.slides.mathtext/imathborderboxfactory/
 ---
 ## IMathBorderBoxFactory interface
 
-Позволяет создать математическую рамку
+Позволяет создать математическую границу box
 
 ```csharp
 public interface IMathBorderBoxFactory
@@ -18,8 +18,8 @@ public interface IMathBorderBoxFactory
 
 | Имя | Описание |
 | --- | --- |
-| [CreateMathBorderBox](../../aspose.slides.mathtext/imathborderboxfactory/createmathborderbox#createmathborderbox)(IMathElement) | Создайте математическую рамку, применив к элементу |
-| [CreateMathBorderBox](../../aspose.slides.mathtext/imathborderboxfactory/createmathborderbox#createmathborderbox_1)(IMathElement, bool, bool, bool, bool, bool, bool, bool, bool) | Создайте математическую рамку, применив к элементу |
+| [CreateMathBorderBox](../../aspose.slides.mathtext/imathborderboxfactory/createmathborderbox#createmathborderbox)(IMathElement) | Создайте математическую рамку, применив к element |
+| [CreateMathBorderBox](../../aspose.slides.mathtext/imathborderboxfactory/createmathborderbox#createmathborderbox_1)(IMathElement, bool, bool, bool, bool, bool, bool, bool, bool) | Создайте математическую рамку, применив к element |
 
 ### Примечания
 

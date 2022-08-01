@@ -1,14 +1,14 @@
 ---
 title: Count
 second_title: Aspose.Slides for .NET API 参考
-description: 获取集合中实际包含的元素数量 只读Int32
+description: 获取集合中实际包含的元素数 只读Int32.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides.mathtext/imathelementcollection/count/
 ---
 ## IMathElementCollection.Count property
 
-获取集合中实际包含的元素数量。 只读Int32。
+获取集合中实际包含的元素数。 只读Int32.
 
 ```csharp
 public int Count { get; }
@@ -16,7 +16,7 @@ public int Count { get; }
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]

@@ -18,8 +18,8 @@ public interface IField : ISlideComponent
 
 | Имя | Описание |
 | --- | --- |
-| [AsISlideComponent](../../aspose.slides/ifield/asislidecomponent) { get; } | Позволяет получить базовый интерфейс ISlideComponent. Только для чтения[`ISlideComponent`](../islidecomponent). |
-| [Type](../../aspose.slides/ifield/type) { get; set; } | Возвращает или устанавливает тип поля. Чтение/запись[`IFieldType`](../ifieldtype). |
+| [AsISlideComponent](../../aspose.slides/ifield/asislidecomponent) { get; } | Позволяет получить базовый интерфейс ISlideComponent. Только для чтения[`ISlideComponent`](../islidecomponent) . |
+| [Type](../../aspose.slides/ifield/type) { get; set; } | Возвращает или устанавливает тип поля. Чтение/запись[`IFieldType`](../ifieldtype) . |
 
 ### Смотрите также
 

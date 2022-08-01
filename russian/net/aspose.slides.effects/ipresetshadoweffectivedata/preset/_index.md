@@ -1,14 +1,14 @@
 ---
 title: Preset
 second_title: Справочник по API Aspose.Slides для .NET
-description: Предустановка. Только для чтенияPresetShadowTypeaspose.slides/presetshadowtype.
+description: Предустановка. Только для чтенияPresetShadowTypeaspose.slides/presetshadowtype .
 type: docs
 weight: 40
 url: /ru/net/aspose.slides.effects/ipresetshadoweffectivedata/preset/
 ---
 ## IPresetShadowEffectiveData.Preset property
 
-Предустановка. Только для чтения[`PresetShadowType`](../../../aspose.slides/presetshadowtype).
+Предустановка. Только для чтения[`PresetShadowType`](../../../aspose.slides/presetshadowtype) .
 
 ```csharp
 public PresetShadowType Preset { get; }

@@ -17,12 +17,12 @@ public IHSL CreateHSL(float hue, float saturation, float luminance)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | hue | Single | 色调。 |
-| saturation | Single | 饱和度。 |
-| 亮度 | Single | 亮度。 |
+| saturation | Single | 饱和。 |
+| luminance | Single | 亮度。 |
 
 ### 返回值
 
-HSL 效果。
+HSL 效应。
 
 ### 也可以看看
 

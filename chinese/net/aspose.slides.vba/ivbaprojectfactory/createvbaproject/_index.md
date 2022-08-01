@@ -16,7 +16,7 @@ public IVbaProject CreateVbaProject()
 
 ### 返回值
 
-新 VBA 项目
+新建 VBA 项目
 
 ### 也可以看看
 

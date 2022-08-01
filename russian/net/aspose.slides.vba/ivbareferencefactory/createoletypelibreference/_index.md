@@ -21,7 +21,7 @@ public IVbaReferenceOleTypeLib CreateOleTypeLibReference(string name, string lib
 
 ### Возвращаемое значение
 
-Новая автоматизация OLE ссылка на библиотеку типов[`IVbaReferenceOleTypeLib`](../../ivbareferenceoletypelib)
+Справочник по новой библиотеке типов OLE Automation[`IVbaReferenceOleTypeLib`](../../ivbareferenceoletypelib)
 
 ### Смотрите также
 

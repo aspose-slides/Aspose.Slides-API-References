@@ -18,7 +18,7 @@ public class VideoPlayerHtmlController : IVideoPlayerHtmlController
 
 | 姓名 | 描述 |
 | --- | --- |
-| [VideoPlayerHtmlController](videoplayerhtmlcontroller)(string, string, string) | 创建控制器的新实例 |
+| [VideoPlayerHtmlController](videoplayerhtmlcontroller)(string, string, string) | 创建一个新的控制器实例 |
 
 ### 也可以看看
 

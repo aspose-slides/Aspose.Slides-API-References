@@ -1,14 +1,14 @@
 ---
 title: Distance
 second_title: Aspose.Slides for .NET API 参考
-description: 阴影距离 读/写Double
+description: 阴影距离 读/写Double.
 type: docs
 weight: 30
 url: /zh/net/aspose.slides.effects/outershadow/distance/
 ---
 ## OuterShadow.Distance property
 
-阴影距离。 读/写Double。
+阴影距离。 读/写Double.
 
 ```csharp
 public double Distance { get; set; }

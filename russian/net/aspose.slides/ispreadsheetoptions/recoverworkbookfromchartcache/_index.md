@@ -18,7 +18,7 @@ public bool RecoverWorkbookFromChartCache { get; set; }
 
 | исключение | условие |
 | --- | --- |
-| InvalidOperationException | Вызывается, когда внешняя рабочая книга недоступна, а значение свойства RecoverWorkbookFromChartCache равно false. |
+| InvalidOperationException | Вызывается, когда внешняя книга недоступна, а значение свойства RecoverWorkbookFromChartCache равно false. |
 
 ### Примеры
 

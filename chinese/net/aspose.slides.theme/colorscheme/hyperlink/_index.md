@@ -1,14 +1,14 @@
 ---
 title: Hyperlink
 second_title: Aspose.Slides for .NET API 参考
-description: 超链接的颜色 只读IColorFormataspose.slides/icolorformat
+description: 超链接的颜色 只读IColorFormataspose.slides/icolorformat.
 type: docs
 weight: 100
 url: /zh/net/aspose.slides.theme/colorscheme/hyperlink/
 ---
 ## ColorScheme.Hyperlink property
 
-超链接的颜色。 只读[`IColorFormat`](../../../aspose.slides/icolorformat)。
+超链接的颜色。 只读[`IColorFormat`](../../../aspose.slides/icolorformat).
 
 ```csharp
 public IColorFormat Hyperlink { get; }

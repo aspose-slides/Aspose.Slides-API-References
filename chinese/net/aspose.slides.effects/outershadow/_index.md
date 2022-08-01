@@ -18,22 +18,22 @@ public class OuterShadow : IOuterShadow
 
 | 姓名 | 描述 |
 | --- | --- |
-| [BlurRadius](../../aspose.slides.effects/outershadow/blurradius) { get; set; } | 模糊半径。 读/写Double。 |
-| [Direction](../../aspose.slides.effects/outershadow/direction) { get; set; } | 阴影方向。 读/写Single。 |
-| [Distance](../../aspose.slides.effects/outershadow/distance) { get; set; } | 阴影距离。 读/写Double。 |
-| [RectangleAlign](../../aspose.slides.effects/outershadow/rectanglealign) { get; set; } | 矩形对齐。 读/写[`RectangleAlignment`](../../aspose.slides/rectanglealignment)。 |
-| [RotateShadowWithShape](../../aspose.slides.effects/outershadow/rotateshadowwithshape) { get; set; } | 指定如果形状旋转，阴影是否应随形状旋转。 读/写Boolean。 |
-| [ScaleHorizontal](../../aspose.slides.effects/outershadow/scalehorizontal) { get; set; } | 指定水平缩放因子，负缩放会导致翻转。 读/写Double。 |
-| [ScaleVertical](../../aspose.slides.effects/outershadow/scalevertical) { get; set; } | 指定垂直缩放因子，负缩放会导致翻转。 读/写Double。 |
-| [ShadowColor](../../aspose.slides.effects/outershadow/shadowcolor) { get; } | 阴影颜色。 只读[`IColorFormat`](../../aspose.slides/icolorformat)。 |
-| [SkewHorizontal](../../aspose.slides.effects/outershadow/skewhorizontal) { get; set; } | 指定水平倾斜角度（以度为单位）。 读/写Double。 |
-| [SkewVertical](../../aspose.slides.effects/outershadow/skewvertical) { get; set; } | 指定垂直倾斜角度（以度为单位）。 读/写Double。 |
+| [BlurRadius](../../aspose.slides.effects/outershadow/blurradius) { get; set; } | 模糊半径。 读/写Double. |
+| [Direction](../../aspose.slides.effects/outershadow/direction) { get; set; } | 阴影的方向。 读/写Single. |
+| [Distance](../../aspose.slides.effects/outershadow/distance) { get; set; } | 阴影距离。 读/写Double. |
+| [RectangleAlign](../../aspose.slides.effects/outershadow/rectanglealign) { get; set; } | 矩形对齐。 读/写[`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
+| [RotateShadowWithShape](../../aspose.slides.effects/outershadow/rotateshadowwithshape) { get; set; } | 指定如果形状旋转，阴影是否应随形状旋转。 读/写Boolean. |
+| [ScaleHorizontal](../../aspose.slides.effects/outershadow/scalehorizontal) { get; set; } | 指定水平缩放因子，负缩放会导致翻转。 读/写Double. |
+| [ScaleVertical](../../aspose.slides.effects/outershadow/scalevertical) { get; set; } | 指定垂直缩放因子，负缩放导致翻转。 读/写Double. |
+| [ShadowColor](../../aspose.slides.effects/outershadow/shadowcolor) { get; } | 阴影颜色。 只读[`IColorFormat`](../../aspose.slides/icolorformat). |
+| [SkewHorizontal](../../aspose.slides.effects/outershadow/skewhorizontal) { get; set; } | 指定水平倾斜角度（以度为单位）。 读/写Double. |
+| [SkewVertical](../../aspose.slides.effects/outershadow/skewvertical) { get; set; } | 指定垂直倾斜角度（以度为单位）。 读/写Double. |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/outershadow/equals)(object) | 确定指定的[`OuterShadow`](../outershadow)是否等于当前的OuterShadow。 |
+| override [Equals](../../aspose.slides.effects/outershadow/equals)(object) | 判断是否指定[`OuterShadow`](../outershadow)等于当前[`OuterShadow`](../outershadow). |
 | [GetEffective](../../aspose.slides.effects/outershadow/geteffective)() | 获取应用了继承的有效外阴影效果数据。 |
 | override [GetHashCode](../../aspose.slides.effects/outershadow/gethashcode)() | 用作特定类型的哈希函数。 |
 

@@ -1,14 +1,14 @@
 ---
 title: ExtrusionRender
 second_title: Aspose.Slides for .NET API 参考
-description: 表示 extrusion.render 属性
+description: 表示extrusion.render属性
 type: docs
 weight: 130
 url: /zh/net/aspose.slides.animation/behaviorproperty/extrusionrender/
 ---
 ## BehaviorProperty.ExtrusionRender property
 
-表示 'extrusion.render' 属性
+表示“extrusion.render”属性
 
 ```csharp
 public static BehaviorProperty ExtrusionRender { get; }

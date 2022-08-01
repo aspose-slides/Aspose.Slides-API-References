@@ -1,14 +1,14 @@
 ---
 title: TransitionFps
 second_title: Aspose.Slides for .NET API 参考
-description: 获取或设置过渡 FPS 帧/秒 默认值为 25
+description: 获取或设置过渡 FPS 帧/秒 默认值为 25.
 type: docs
 weight: 50
 url: /zh/net/aspose.slides.export/igifoptions/transitionfps/
 ---
 ## IGifOptions.TransitionFps property
 
-获取或设置过渡 FPS [帧/秒] 默认值为 25。
+获取或设置过渡 FPS [帧/秒] 默认值为 25.
 
 ```csharp
 public int TransitionFps { get; set; }

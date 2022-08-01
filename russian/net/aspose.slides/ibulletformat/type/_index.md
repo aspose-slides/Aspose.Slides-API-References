@@ -1,14 +1,14 @@
 ---
 title: Type
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или задает тип маркера абзаца без наследования. Чтение/записьBulletTypeaspose.slides/bullettype.
+description: Возвращает или задает тип маркера абзаца без наследования. Чтение/записьBulletTypeaspose.slides/bullettype .
 type: docs
 weight: 100
 url: /ru/net/aspose.slides/ibulletformat/type/
 ---
 ## IBulletFormat.Type property
 
-Возвращает или задает тип маркера абзаца без наследования. Чтение/запись[`BulletType`](../../bullettype).
+Возвращает или задает тип маркера абзаца без наследования. Чтение/запись[`BulletType`](../../bullettype) .
 
 ```csharp
 public BulletType Type { get; set; }

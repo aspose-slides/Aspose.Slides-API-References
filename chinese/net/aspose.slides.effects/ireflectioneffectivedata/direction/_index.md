@@ -1,14 +1,14 @@
 ---
 title: Direction
 second_title: Aspose.Slides for .NET API 参考
-description: 反射方向 只读Single
+description: 反射方向 只读Single.
 type: docs
 weight: 30
 url: /zh/net/aspose.slides.effects/ireflectioneffectivedata/direction/
 ---
 ## IReflectionEffectiveData.Direction property
 
-反射方向。 只读Single。
+反射方向。 只读Single.
 
 ```csharp
 public float Direction { get; }

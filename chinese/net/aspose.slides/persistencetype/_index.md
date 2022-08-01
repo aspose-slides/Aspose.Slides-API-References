@@ -19,9 +19,9 @@ public enum PersistenceType
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | NotDefined | `-1` | 未指定持久性 ID。 |
-| PersistPropertyBag | `0` | 指定使用基于属性包的持久性来持久化 ActiveX 控件。 基于属性包的持久性通过名称 和指定 ActiveX 控件持久化数据的值对的集合来存储 ActiveX 控件。 |
+| PersistPropertyBag | `0` | 指定使用基于属性包的持久性来持久化 ActiveX 控件。 基于属性包的持久性通过名称 和值对的集合来存储 ActiveX 控件，这些值对指定由 ActiveX 控件持久保存的数据。 |
 | PersistStream | `1` | 指定使用不支持将 ActiveX 控件初始化为默认状态的基于流的持久性 来持久化 ActiveX 控件。 |
-| PersistStreamInit | `2` | 指定使用基于流的持久性 来持久化 ActiveX 控件，该持久性支持将 ActiveX 控件初始化为默认状态。 |
+| PersistStreamInit | `2` | 指定使用支持将 ActiveX 控件初始化为默认状态的基于流的持久性 来持久化 ActiveX 控件。 |
 | PersistStorage | `3` | 指定使用基于存储的持久性来持久化 ActiveX 控件。 |
 
 ### 也可以看看

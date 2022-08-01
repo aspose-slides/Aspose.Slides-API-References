@@ -18,13 +18,13 @@ public interface IGradientFormat : IFillParamSource
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsIFillParamSource](../../aspose.slides/igradientformat/asifillparamsource) { get; } | 允许获取基本的 IFillParamSource 接口。 只读[`IFillParamSource`](../ifillparamsource)。 |
-| [GradientDirection](../../aspose.slides/igradientformat/gradientdirection) { get; set; } | 返回或设置渐变的样式。 读/写[`GradientDirection`](../gradientdirection)。 |
-| [GradientShape](../../aspose.slides/igradientformat/gradientshape) { get; set; } | 返回或设置渐变的形状。 读/写[`GradientShape`](../gradientshape)。 |
-| [GradientStops](../../aspose.slides/igradientformat/gradientstops) { get; } | 返回梯度停止点的集合。 只读[`IGradientStopCollection`](../igradientstopcollection)。 |
-| [LinearGradientAngle](../../aspose.slides/igradientformat/lineargradientangle) { get; set; } | 返回或设置渐变的角度。 读/写Single。 |
-| [LinearGradientScaled](../../aspose.slides/igradientformat/lineargradientscaled) { get; set; } | 确定渐变是否被缩放。 读/写[`NullableBool`](../nullablebool)。 |
-| [TileFlip](../../aspose.slides/igradientformat/tileflip) { get; set; } | 返回或设置渐变的翻转模式。 读/写[`TileFlip`](../tileflip)。 |
+| [AsIFillParamSource](../../aspose.slides/igradientformat/asifillparamsource) { get; } | 允许获取基本的 IFillParamSource 接口。 只读[`IFillParamSource`](../ifillparamsource). |
+| [GradientDirection](../../aspose.slides/igradientformat/gradientdirection) { get; set; } | 返回或设置渐变的样式。 读/写[`GradientDirection`](../gradientdirection). |
+| [GradientShape](../../aspose.slides/igradientformat/gradientshape) { get; set; } | 返回或设置渐变的形状。 读/写[`GradientShape`](../gradientshape). |
+| [GradientStops](../../aspose.slides/igradientformat/gradientstops) { get; } | 返回梯度停止点的集合。 只读[`IGradientStopCollection`](../igradientstopcollection). |
+| [LinearGradientAngle](../../aspose.slides/igradientformat/lineargradientangle) { get; set; } | 返回或设置渐变的角度。 读/写Single. |
+| [LinearGradientScaled](../../aspose.slides/igradientformat/lineargradientscaled) { get; set; } | 确定是否缩放渐变。 读/写[`NullableBool`](../nullablebool). |
+| [TileFlip](../../aspose.slides/igradientformat/tileflip) { get; set; } | 返回或设置渐变的翻转模式。 读/写[`TileFlip`](../tileflip). |
 
 ### 也可以看看
 

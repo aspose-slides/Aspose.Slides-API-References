@@ -16,7 +16,7 @@ public override int GetHashCode()
 
 ### Возвращаемое значение
 
-ХэшкодInt32.
+Хэш-кодInt32.
 
 ### Смотрите также
 

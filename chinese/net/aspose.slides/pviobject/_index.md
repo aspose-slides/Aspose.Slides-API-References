@@ -1,14 +1,14 @@
 ---
 title: PVIObject
 second_title: Aspose.Slides for .NET API 参考
-description: 封装对象的基本服务基础设施可以是属性值继承的主体
+description: 封装了对象的基本服务基础设施可以是属性值继承的主体
 type: docs
 weight: 8540
 url: /zh/net/aspose.slides/pviobject/
 ---
 ## PVIObject class
 
-封装对象的基本服务基础设施可以是属性值继承的主体。
+封装了对象的基本服务基础设施，可以是属性值继承的主体。
 
 ```csharp
 public abstract class PVIObject : ISlideComponent
@@ -18,7 +18,7 @@ public abstract class PVIObject : ISlideComponent
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允许获取基本 IPresentationComponent 接口。 只读[`IPresentationComponent`](../ipresentationcomponent)。 |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允许获取基本 IPresentationComponent 接口。 只读[`IPresentationComponent`](../ipresentationcomponent). |
 
 ## 方法
 

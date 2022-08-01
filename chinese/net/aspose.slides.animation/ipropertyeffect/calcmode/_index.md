@@ -1,14 +1,14 @@
 ---
 title: CalcMode
 second_title: Aspose.Slides for .NET API 参考
-description: 指定动画的插值模式 读/写PropertyCalcModeTypeaspose.slides.animation/propertycalcmodetype
+description: 指定动画的插值模式 读/写PropertyCalcModeTypeaspose.slides.animation/propertycalcmodetype.
 type: docs
 weight: 30
 url: /zh/net/aspose.slides.animation/ipropertyeffect/calcmode/
 ---
 ## IPropertyEffect.CalcMode property
 
-指定动画的插值模式 读/写[`PropertyCalcModeType`](../../propertycalcmodetype)。
+指定动画的插值模式 读/写[`PropertyCalcModeType`](../../propertycalcmodetype).
 
 ```csharp
 public PropertyCalcModeType CalcMode { get; set; }

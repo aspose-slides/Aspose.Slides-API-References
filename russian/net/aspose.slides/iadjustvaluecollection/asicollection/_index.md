@@ -1,14 +1,14 @@
 ---
 title: AsICollection
 second_title: Справочник по API Aspose.Slides для .NET
-description: Позволяет получить базовый интерфейс ICollection. Только для чтенияICollection.
+description: Позволяет получить базовый интерфейс ICollection. Только для чтенияICollection .
 type: docs
 weight: 10
 url: /ru/net/aspose.slides/iadjustvaluecollection/asicollection/
 ---
 ## IAdjustValueCollection.AsICollection property
 
-Позволяет получить базовый интерфейс ICollection. Только для чтенияICollection.
+Позволяет получить базовый интерфейс ICollection. Только для чтенияICollection .
 
 ```csharp
 public ICollection AsICollection { get; }

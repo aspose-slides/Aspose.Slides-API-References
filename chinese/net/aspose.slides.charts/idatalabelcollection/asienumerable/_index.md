@@ -1,14 +1,14 @@
 ---
 title: AsIEnumerable
 second_title: Aspose.Slides for .NET API 参考
-description: 允许获取基本 IEnumerable 接口 只读IEnumerable
+description: 允许获取基本 IEnumerable 接口 只读IEnumerable.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides.charts/idatalabelcollection/asienumerable/
 ---
 ## IDataLabelCollection.AsIEnumerable property
 
-允许获取基本 IEnumerable 接口。 只读IEnumerable。
+允许获取基本 IEnumerable 接口。 只读IEnumerable.
 
 ```csharp
 public IEnumerable AsIEnumerable { get; }

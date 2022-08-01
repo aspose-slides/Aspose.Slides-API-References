@@ -16,7 +16,7 @@ public Tab(double position, TabAlignment align)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| position | Double | Позиция вкладки. |
+| position | Double | Позиция табуляции. |
 | align | TabAlignment | Выровнять. |
 
 ### Смотрите также

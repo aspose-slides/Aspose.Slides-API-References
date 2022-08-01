@@ -1,14 +1,14 @@
 ---
 title: IAlphaInverseEffectiveData
 second_title: Aspose.Slides for .NET API 参考
-description: 表示 Alpha Inverse 效果的不可变对象 Alpha不透明度值通过从 100 中减去来反转
+description: 表示 Alpha 反转效果的不可变对象 Alpha不透明度值通过从 100 中减去来反转
 type: docs
 weight: 2910
 url: /zh/net/aspose.slides.effects/ialphainverseeffectivedata/
 ---
 ## IAlphaInverseEffectiveData interface
 
-表示 Alpha Inverse 效果的不可变对象。 Alpha（不透明度）值通过从 100% 中减去来反转。
+表示 Alpha 反转效果的不可变对象。 Alpha（不透明度）值通过从 100% 中减去来反转。
 
 ```csharp
 public interface IAlphaInverseEffectiveData : IEffectEffectiveData
@@ -18,7 +18,7 @@ public interface IAlphaInverseEffectiveData : IEffectEffectiveData
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphainverseeffectivedata/asieffecteffectivedata) { get; } | 允许获取基础 IEffectEffectiveData 接口。 只读[`IEffectEffectiveData`](../ieffecteffectivedata)。 |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphainverseeffectivedata/asieffecteffectivedata) { get; } | 允许获取基本 IEffectEffectiveData 接口。 只读[`IEffectEffectiveData`](../ieffecteffectivedata). |
 
 ### 也可以看看
 

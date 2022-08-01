@@ -30,7 +30,7 @@ public void ReplaceFont(IFontData sourceFont, IFontData destFont)
 
 ## ReplaceFont(IFontSubstRule) {#replacefont_1}
 
-使用[`IFontSubstRule`](../../ifontsubstrule)中提供的信息替换演示文稿中的字体
+使用提供的信息替换演示文稿中的字体[`IFontSubstRule`](../../ifontsubstrule)
 
 ```csharp
 public void ReplaceFont(IFontSubstRule substRule)
@@ -51,7 +51,7 @@ public void ReplaceFont(IFontSubstRule substRule)
 
 ## ReplaceFont(IFontSubstRuleCollection) {#replacefont_2}
 
-使用[`IFontSubstRule`](../../ifontsubstrule) 集合中提供的信息替换演示文稿中的字体
+使用集合中提供的信息替换演示文稿中的字体[`IFontSubstRule`](../../ifontsubstrule)
 
 ```csharp
 public void ReplaceFont(IFontSubstRuleCollection substRules)
@@ -59,7 +59,7 @@ public void ReplaceFont(IFontSubstRuleCollection substRules)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| substRules | IFontSubstRuleCollection | 字体替换信息集合 |
+| substRules | IFontSubstRuleCollection | 字体替换信息收集 |
 
 ### 也可以看看
 

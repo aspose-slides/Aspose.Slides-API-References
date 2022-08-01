@@ -1,14 +1,14 @@
 ---
 title: ShowDataLabelsOverMaximum
 second_title: Aspose.Slides for .NET API 参考
-description: 指定应显示图表最大值的数据标签 读/写Boolean
+description: 指定应显示图表最大值的数据标签 读/写Boolean.
 type: docs
 weight: 190
 url: /zh/net/aspose.slides.charts/ichart/showdatalabelsovermaximum/
 ---
 ## IChart.ShowDataLabelsOverMaximum property
 
-指定应显示图表最大值的数据标签。 读/写Boolean。
+指定应显示图表最大值的数据标签。 读/写Boolean.
 
 ```csharp
 public bool ShowDataLabelsOverMaximum { get; set; }

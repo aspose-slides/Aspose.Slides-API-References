@@ -1,14 +1,14 @@
 ---
 title: MasterSlideCollection
 second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет набор мастер-слайдов.
+description: Представляет коллекцию мастер-слайдов.
 type: docs
 weight: 7330
 url: /ru/net/aspose.slides/masterslidecollection/
 ---
 ## MasterSlideCollection class
 
-Представляет набор мастер-слайдов.
+Представляет коллекцию мастер-слайдов.
 
 ```csharp
 public sealed class MasterSlideCollection : DomObject<Presentation>, IMasterSlideCollection
@@ -18,18 +18,18 @@ public sealed class MasterSlideCollection : DomObject<Presentation>, IMasterSlid
 
 | Имя | Описание |
 | --- | --- |
-| [Count](../../aspose.slides/masterslidecollection/count) { get; } | Получает количество элементов, фактически содержащихся в коллекции. Только для чтенияInt32. |
-| [IsSynchronized](../../aspose.slides/masterslidecollection/issynchronized) { get; } | Возвращает значение, указывающее, является ли доступ к коллекции синхронизированным (потокобезопасным). Только чтениеBoolean. |
-| [Item](../../aspose.slides/masterslidecollection/item) { get; } | Получает элемент по указанному индексу. Только чтение[`MasterSlide`](../masterslide). |
-| [SyncRoot](../../aspose.slides/masterslidecollection/syncroot) { get; } | Возвращает корень синхронизации. Только для чтенияObject. |
+| [Count](../../aspose.slides/masterslidecollection/count) { get; } | Получает количество элементов, фактически содержащихся в коллекции. Только для чтенияInt32 . |
+| [IsSynchronized](../../aspose.slides/masterslidecollection/issynchronized) { get; } | Возвращает значение, указывающее, является ли доступ к коллекции синхронизированным (потокобезопасным). Только для чтенияBoolean . |
+| [Item](../../aspose.slides/masterslidecollection/item) { get; } | Получает элемент по указанному индексу. Только для чтения[`MasterSlide`](../masterslide) . |
+| [SyncRoot](../../aspose.slides/masterslidecollection/syncroot) { get; } | Возвращает корень синхронизации. Только для чтенияObject . |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [AddClone](../../aspose.slides/masterslidecollection/addclone)(IMasterSlide) | Добавляет копию указанного мастер-слайда в конец коллекции. Связанные слайды макета также будут скопированы. |
-| [CopyTo](../../aspose.slides/masterslidecollection/copyto)(Array, int) | Копирует все элементы из коллекции в указанный массив. |
-| [GetEnumerator](../../aspose.slides/masterslidecollection/getenumerator)() | Возвращает перечислитель, который перебирает коллекцию. |
+| [AddClone](../../aspose.slides/masterslidecollection/addclone)(IMasterSlide) | Добавляет копию указанного мастер-слайда в конец коллекции. Связанные макеты слайдов также будут скопированы. |
+| [CopyTo](../../aspose.slides/masterslidecollection/copyto)(Array, int) | Копирует все элементы коллекции в указанный массив. |
+| [GetEnumerator](../../aspose.slides/masterslidecollection/getenumerator)() | Возвращает перечислитель, который выполняет итерацию по коллекции. |
 | [InsertClone](../../aspose.slides/masterslidecollection/insertclone)(int, IMasterSlide) | Вставляет копию указанного мастер-слайда в указанную позицию коллекции. Связанные слайды макета также будут скопированы. |
 | [Remove](../../aspose.slides/masterslidecollection/remove)(IMasterSlide) | Удаляет первое вхождение определенного объекта из коллекции. |
 | [RemoveAt](../../aspose.slides/masterslidecollection/removeat)(int) | Удаляет элемент по указанному индексу коллекции. |

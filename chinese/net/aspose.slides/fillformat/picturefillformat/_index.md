@@ -1,14 +1,14 @@
 ---
 title: PictureFillFormat
 second_title: Aspose.Slides for .NET API 参考
-description: 返回图片填充格式 只读IPictureFillFormataspose.slides/ipicturefillformat
+description: 返回图片填充格式 只读IPictureFillFormataspose.slides/ipicturefillformat.
 type: docs
 weight: 40
 url: /zh/net/aspose.slides/fillformat/picturefillformat/
 ---
 ## FillFormat.PictureFillFormat property
 
-返回图片填充格式。 只读[`IPictureFillFormat`](../../ipicturefillformat)。
+返回图片填充格式。 只读[`IPictureFillFormat`](../../ipicturefillformat).
 
 ```csharp
 public IPictureFillFormat PictureFillFormat { get; }

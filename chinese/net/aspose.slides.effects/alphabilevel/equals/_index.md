@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: Aspose.Slides for .NET API 参考
-description: 确定指定的AlphaBiLevelaspose.slides.effects/alphabilevel是否等于当前的AlphaBiLevel
+description: 判断是否指定AlphaBiLevelaspose.slides.effects/alphabilevel等于当前AlphaBiLevelaspose.slides.effects/alphabilevel.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides.effects/alphabilevel/equals/
 ---
 ## AlphaBiLevel.Equals method
 
-确定指定的[`AlphaBiLevel`](../../alphabilevel)是否等于当前的AlphaBiLevel。
+判断是否指定[`AlphaBiLevel`](../../alphabilevel)等于当前[`AlphaBiLevel`](../../alphabilevel).
 
 ```csharp
 public override bool Equals(object obj)
@@ -16,11 +16,11 @@ public override bool Equals(object obj)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| obj | Object | [`AlphaBiLevel`](../../alphabilevel)进行比较。 |
+| obj | Object | 这[`AlphaBiLevel`](../../alphabilevel)比较。 |
 
 ### 返回值
 
-如果对象相等，则为真；否则为假。
+如果对象相等，则为 true；否则为假。
 
 ### 也可以看看
 

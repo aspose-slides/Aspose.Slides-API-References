@@ -1,14 +1,14 @@
 ---
 title: Slide
 second_title: Aspose.Slides for .NET API 参考
-description: 返回形状的父幻灯片 只读IBaseSlideaspose.slides/ibaseslide
+description: 返回形状的父幻灯片 只读IBaseSlideaspose.slides/ibaseslide.
 type: docs
 weight: 250
 url: /zh/net/aspose.slides/shape/slide/
 ---
 ## Shape.Slide property
 
-返回形状的父幻灯片。 只读[`IBaseSlide`](../../ibaseslide)。
+返回形状的父幻灯片。 只读[`IBaseSlide`](../../ibaseslide).
 
 ```csharp
 public IBaseSlide Slide { get; }

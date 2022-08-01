@@ -1,14 +1,14 @@
 ---
 title: SetMacroHyperlinkClick
 second_title: Aspose.Slides for .NET API 参考
-description: 单击设置宏超链接
+description: 点击设置宏超链接
 type: docs
 weight: 70
 url: /zh/net/aspose.slides/ihyperlinkmanager/setmacrohyperlinkclick/
 ---
 ## IHyperlinkManager.SetMacroHyperlinkClick method
 
-单击设置宏超链接。
+点击设置宏超链接。
 
 ```csharp
 public IHyperlink SetMacroHyperlinkClick(string macroName)
@@ -16,7 +16,7 @@ public IHyperlink SetMacroHyperlinkClick(string macroName)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| macroName | String | 宏名称 |
+| macroName | String | 宏的名称 |
 
 ### 返回值
 

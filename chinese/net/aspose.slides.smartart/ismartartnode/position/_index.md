@@ -1,14 +1,14 @@
 ---
 title: Position
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置节点在兄弟节点中的从零开始的位置 读/写Int32
+description: 返回或设置节点在兄弟节点中的从零开始的位置 读/写Int32.
 type: docs
 weight: 70
 url: /zh/net/aspose.slides.smartart/ismartartnode/position/
 ---
 ## ISmartArtNode.Position property
 
-返回或设置节点在兄弟节点中的从零开始的位置。 读/写Int32。
+返回或设置节点在兄弟节点中的从零开始的位置。 读/写Int32.
 
 ```csharp
 public int Position { get; set; }

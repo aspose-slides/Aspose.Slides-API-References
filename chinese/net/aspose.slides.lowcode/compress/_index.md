@@ -1,14 +1,14 @@
 ---
 title: Compress
 second_title: Aspose.Slides for .NET API 参考
-description: 表示一组用于压缩Presentation../aspose.slides/presentation的方法
+description: 表示一组用于压缩的方法Presentation../aspose.slides/presentation.
 type: docs
 weight: 7170
 url: /zh/net/aspose.slides.lowcode/compress/
 ---
 ## Compress class
 
-表示一组用于压缩[`Presentation`](../../aspose.slides/presentation)的方法。
+表示一组用于压缩的方法[`Presentation`](../../aspose.slides/presentation).
 
 ```csharp
 public static class Compress
@@ -18,8 +18,8 @@ public static class Compress
 
 | 姓名 | 描述 |
 | --- | --- |
-| static [RemoveUnusedLayoutSlides](../../aspose.slides.lowcode/compress/removeunusedlayoutslides)(Presentation) | 通过删除未使用的布局幻灯片来压缩[`Presentation`](../../aspose.slides/presentation)。 |
-| static [RemoveUnusedMasterSlides](../../aspose.slides.lowcode/compress/removeunusedmasterslides)(Presentation) | 通过删除未使用的母版幻灯片来压缩[`Presentation`](../../aspose.slides/presentation)。 |
+| static [RemoveUnusedLayoutSlides](../../aspose.slides.lowcode/compress/removeunusedlayoutslides)(Presentation) | 进行压缩[`Presentation`](../../aspose.slides/presentation)通过删除未使用的布局幻灯片。 |
+| static [RemoveUnusedMasterSlides](../../aspose.slides.lowcode/compress/removeunusedmasterslides)(Presentation) | 进行压缩[`Presentation`](../../aspose.slides/presentation)通过删除未使用的母版幻灯片。 |
 
 ### 例子
 

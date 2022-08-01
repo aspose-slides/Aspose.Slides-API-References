@@ -18,13 +18,13 @@ public interface IFontSchemeEffectiveData
 
 | Имя | Описание |
 | --- | --- |
-| [Major](../../aspose.slides.theme/ifontschemeeffectivedata/major) { get; } | Возвращает коллекцию шрифтов для «заголовка» слайда. Только для чтения[`IFontsEffectiveData`](../../aspose.slides/ifontseffectivedata). |
-| [Minor](../../aspose.slides.theme/ifontschemeeffectivedata/minor) { get; } | Возвращает коллекцию шрифтов для основной части слайда. Только для чтения[`IFontsEffectiveData`](../../aspose.slides/ifontseffectivedata). |
-| [Name](../../aspose.slides.theme/ifontschemeeffectivedata/name) { get; } | Возвращает имя схемы шрифта. Только чтениеString. |
+| [Major](../../aspose.slides.theme/ifontschemeeffectivedata/major) { get; } | Возвращает коллекцию шрифтов для «заголовка» слайда. Только для чтения[`IFontsEffectiveData`](../../aspose.slides/ifontseffectivedata) . |
+| [Minor](../../aspose.slides.theme/ifontschemeeffectivedata/minor) { get; } | Возвращает коллекцию шрифтов для основной части слайда. Только для чтения[`IFontsEffectiveData`](../../aspose.slides/ifontseffectivedata) . |
+| [Name](../../aspose.slides.theme/ifontschemeeffectivedata/name) { get; } | Возвращает имя схемы шрифта. Только для чтенияString . |
 
 ### Примечания
 
-Этот интерфейс используется как часть[`IThemeEffectiveData`](../ithemeeffectivedata).
+Этот интерфейс используется как часть[`IThemeEffectiveData`](../ithemeeffectivedata) .
 
 ### Смотрите также
 

@@ -18,8 +18,8 @@ public class SketchFormat : PVIObject, ISketchFormat
 
 | Имя | Описание |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Позволяет получить базовый интерфейс IPresentationComponent. Только для чтения[`IPresentationComponent`](../ipresentationcomponent). |
-| [SketchType](../../aspose.slides/sketchformat/sketchtype) { get; set; } | Возвращает или задает тип эскиза. Чтение/запись[`LineSketchType`](../linesketchtype). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Позволяет получить базовый интерфейс IPresentationComponent. Только для чтения[`IPresentationComponent`](../ipresentationcomponent) . |
+| [SketchType](../../aspose.slides/sketchformat/sketchtype) { get; set; } | Возвращает или задает тип скетча. Чтение/запись[`LineSketchType`](../linesketchtype) . |
 
 ## Методы
 

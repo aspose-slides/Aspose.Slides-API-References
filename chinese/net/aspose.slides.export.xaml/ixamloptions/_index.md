@@ -18,8 +18,8 @@ public interface IXamlOptions : ISaveOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsISaveOptions](../../aspose.slides.export.xaml/ixamloptions/asisaveoptions) { get; } | 返回 ISaveOptions 接口。 只读[`ISaveOptions`](../../aspose.slides.export/isaveoptions)。 |
-| [ExportHiddenSlides](../../aspose.slides.export.xaml/ixamloptions/exporthiddenslides) { get; set; } | 确定是否导出隐藏的幻灯片。 |
+| [AsISaveOptions](../../aspose.slides.export.xaml/ixamloptions/asisaveoptions) { get; } | 返回 ISaveOptions 接口。 只读[`ISaveOptions`](../../aspose.slides.export/isaveoptions). |
+| [ExportHiddenSlides](../../aspose.slides.export.xaml/ixamloptions/exporthiddenslides) { get; set; } | 确定是否将导出隐藏的幻灯片。 |
 | [OutputSaver](../../aspose.slides.export.xaml/ixamloptions/outputsaver) { get; set; } | 表示 IOutputSaver 接口的实现。 |
 
 ### 例子

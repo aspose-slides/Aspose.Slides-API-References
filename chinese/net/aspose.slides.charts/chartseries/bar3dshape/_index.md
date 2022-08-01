@@ -1,14 +1,14 @@
 ---
 title: Bar3DShape
 second_title: Aspose.Slides for .NET API 参考
-description: 指定一系列 3-D 条形图的形状 更改此属性的值可能会导致自动更改系列的类型 读/写ChartShapeTypeaspose.slides.charts/chartshapetype
+description: 指定 3-D 条形图系列的形状 更改此属性的值会导致自动更改系列的类型 读/写ChartShapeTypeaspose.slides.charts/chartshapetype.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides.charts/chartseries/bar3dshape/
 ---
 ## ChartSeries.Bar3DShape property
 
-指定一系列 3-D 条形图的形状。 更改此属性的值可能会导致自动更改系列的类型。 读/写[`ChartShapeType`](../../chartshapetype)。
+指定 3-D 条形图系列的形状。 更改此属性的值会导致自动更改系列的类型。 读/写[`ChartShapeType`](../../chartshapetype).
 
 ```csharp
 public ChartShapeType Bar3DShape { get; set; }

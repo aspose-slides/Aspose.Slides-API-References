@@ -1,14 +1,14 @@
 ---
 title: Hidden
 second_title: Aspose.Slides for .NET API 参考
-description: 确定形状是否隐藏 读/写Boolean
+description: 确定形状是否隐藏 读/写Boolean.
 type: docs
 weight: 100
 url: /zh/net/aspose.slides/shape/hidden/
 ---
 ## Shape.Hidden property
 
-确定形状是否隐藏。 读/写Boolean。
+确定形状是否隐藏。 读/写Boolean.
 
 ```csharp
 public bool Hidden { get; set; }

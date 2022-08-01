@@ -1,14 +1,14 @@
 ---
 title: Angle
 second_title: Aspose.Slides for .NET API 参考
-description: 描述运动路径的相对角度 读/写Single
+description: 描述运动路径的相对角度 读/写Single.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides.animation/motioneffect/angle/
 ---
 ## MotionEffect.Angle property
 
-描述运动路径的相对角度。 读/写Single。
+描述运动路径的相对角度。 读/写Single.
 
 ```csharp
 public float Angle { get; set; }

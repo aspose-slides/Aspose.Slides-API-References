@@ -1,14 +1,14 @@
 ---
 title: IsSeriesUsesValueCoordinate
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает если указанный тип серии использует координаты значения.
+description: Возвращает если указанный тип серии использует координаты значений.
 type: docs
 weight: 190
 url: /ru/net/aspose.slides.charts/charttypecharacterizer/isseriesusesvaluecoordinate/
 ---
 ## ChartTypeCharacterizer.IsSeriesUsesValueCoordinate method
 
-Возвращает, если указанный тип серии использует координаты значения.
+Возвращает, если указанный тип серии использует координаты значений.
 
 ```csharp
 public static bool IsSeriesUsesValueCoordinate(ChartType seriesType)
@@ -16,7 +16,7 @@ public static bool IsSeriesUsesValueCoordinate(ChartType seriesType)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| seriesType | ChartType | Тип серии. |
+| seriesType | ChartType | Тип сериала. |
 
 ### Возвращаемое значение
 

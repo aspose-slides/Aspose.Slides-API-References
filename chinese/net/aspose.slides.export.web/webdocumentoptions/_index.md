@@ -1,14 +1,14 @@
 ---
 title: WebDocumentOptions
 second_title: Aspose.Slides for .NET API 参考
-description: 表示为WebDocument./webdocument保存设置的选项
+description: 表示为WebDocument./webdocument保存.
 type: docs
 weight: 4260
 url: /zh/net/aspose.slides.export.web/webdocumentoptions/
 ---
 ## WebDocumentOptions class
 
-表示为[`WebDocument`](../webdocument)保存设置的选项。
+表示为[`WebDocument`](../webdocument)保存.
 
 ```csharp
 public class WebDocumentOptions
@@ -24,11 +24,11 @@ public class WebDocumentOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AnimateShapes](../../aspose.slides.export.web/webdocumentoptions/animateshapes) { get; set; } | 返回或设置形状动画选项。 读/写Boolean。 |
-| [AnimateTransitions](../../aspose.slides.export.web/webdocumentoptions/animatetransitions) { get; set; } | 返回或设置过渡动画选项。 读/写Boolean。 |
-| [EmbedImages](../../aspose.slides.export.web/webdocumentoptions/embedimages) { get; set; } | 返回或设置图像嵌入选项。 读/写Boolean。 |
-| [OutputSaver](../../aspose.slides.export.web/webdocumentoptions/outputsaver) { get; set; } | 返回或设置输出保护程序。 读/写[`IOutputSaver`](../ioutputsaver)。 |
-| [TemplateEngine](../../aspose.slides.export.web/webdocumentoptions/templateengine) { get; set; } | 返回或设置模板引擎。 读/写[`ITemplateEngine`](../itemplateengine)。 |
+| [AnimateShapes](../../aspose.slides.export.web/webdocumentoptions/animateshapes) { get; set; } | 返回或设置形状动画选项。 读/写Boolean. |
+| [AnimateTransitions](../../aspose.slides.export.web/webdocumentoptions/animatetransitions) { get; set; } | 返回或设置过渡动画选项。 读/写Boolean. |
+| [EmbedImages](../../aspose.slides.export.web/webdocumentoptions/embedimages) { get; set; } | 返回或设置图像嵌入选项。 读/写Boolean. |
+| [OutputSaver](../../aspose.slides.export.web/webdocumentoptions/outputsaver) { get; set; } | 返回或设置输出保护程序。 读/写[`IOutputSaver`](../ioutputsaver). |
+| [TemplateEngine](../../aspose.slides.export.web/webdocumentoptions/templateengine) { get; set; } | 返回或设置模板引擎。 读/写[`ITemplateEngine`](../itemplateengine). |
 
 ### 也可以看看
 

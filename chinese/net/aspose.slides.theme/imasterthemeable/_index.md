@@ -18,8 +18,8 @@ public interface IMasterThemeable : IThemeable
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsIThemeable](../../aspose.slides.theme/imasterthemeable/asithemeable) { get; } | 返回 IThemeable 接口。 只读[`IThemeable`](../ithemeable)。 |
-| [ThemeManager](../../aspose.slides.theme/imasterthemeable/thememanager) { get; } | 返回主主题管理器。 只读[`IMasterThemeManager`](../imasterthememanager)。 |
+| [AsIThemeable](../../aspose.slides.theme/imasterthemeable/asithemeable) { get; } | 返回 IThemeable 接口。 只读[`IThemeable`](../ithemeable). |
+| [ThemeManager](../../aspose.slides.theme/imasterthemeable/thememanager) { get; } | 返回主主题管理器。 只读[`IMasterThemeManager`](../imasterthememanager). |
 
 ### 也可以看看
 

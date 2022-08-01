@@ -1,14 +1,14 @@
 ---
 title: ExternalUrl
 second_title: Aspose.Slides for .NET API 参考
-description: 指定外部 URL 只读String
+description: 指定外部 URL 只读String.
 type: docs
 weight: 120
 url: /zh/net/aspose.slides/hyperlink/externalurl/
 ---
 ## Hyperlink.ExternalUrl property
 
-指定外部 URL。 只读String。
+指定外部 URL。 只读String.
 
 ```csharp
 public string ExternalUrl { get; }

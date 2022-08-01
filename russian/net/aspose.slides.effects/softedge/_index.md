@@ -18,15 +18,15 @@ public class SoftEdge : ISoftEdge
 
 | Имя | Описание |
 | --- | --- |
-| [Radius](../../aspose.slides.effects/softedge/radius) { get; set; } | Указывает радиус размытия, применяемый к краям. Чтение/записьDouble. |
+| [Radius](../../aspose.slides.effects/softedge/radius) { get; set; } | Определяет радиус размытия, применяемый к краям. Чтение/записьDouble . |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/softedge/equals)(object) | Определяет, равен ли указанный[`SoftEdge`](../softedge)текущемуSoftEdge. |
-| [GetEffective](../../aspose.slides.effects/softedge/geteffective)() | Получает эффективные данные эффекта Soft Edge с применением наследования. |
-| override [GetHashCode](../../aspose.slides.effects/softedge/gethashcode)() | Служит хэш-функцией для определенного типа. |
+| override [Equals](../../aspose.slides.effects/softedge/equals)(object) | Определяет, является ли указанный[`SoftEdge`](../softedge) равен текущему[`SoftEdge`](../softedge) . |
+| [GetEffective](../../aspose.slides.effects/softedge/geteffective)() | Получает данные об эффективном эффекте Soft Edge с применением наследования. |
+| override [GetHashCode](../../aspose.slides.effects/softedge/gethashcode)() | Служит хеш-функцией для определенного типа. |
 
 ### Смотрите также
 

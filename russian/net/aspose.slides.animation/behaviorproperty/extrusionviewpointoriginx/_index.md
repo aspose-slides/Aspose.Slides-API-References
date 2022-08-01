@@ -8,7 +8,7 @@ url: /ru/net/aspose.slides.animation/behaviorproperty/extrusionviewpointoriginx/
 ---
 ## BehaviorProperty.ExtrusionViewPointOriginX property
 
-Представляет свойство 'extrusion.viewpointorigin.x'
+Представляет свойство "extrusion.viewpointorigin.x"
 
 ```csharp
 public static BehaviorProperty ExtrusionViewPointOriginX { get; }

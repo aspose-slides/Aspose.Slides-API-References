@@ -1,14 +1,14 @@
 ---
 title: Storage
 second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет временное хранилище данных дляWebDocument./webdocument.
+description: Представляет временное хранилище данных дляWebDocument./webdocument .
 type: docs
 weight: 4230
 url: /ru/net/aspose.slides.export.web/storage/
 ---
 ## Storage class
 
-Представляет временное хранилище данных для[`WebDocument`](../webdocument).
+Представляет временное хранилище данных для[`WebDocument`](../webdocument) .
 
 ```csharp
 public sealed class Storage

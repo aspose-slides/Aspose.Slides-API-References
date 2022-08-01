@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Slides for .NET API 参考
-description: 获取对应于 Chart.ChartData.Series0.DataPointsindex 图表类型的图例条目的属性 this列表 ChartType.BarOfPie ChartType.ExplodedPie ChartType.ExplodedPie3D ChartType.Pie ChartType.Pie3D ChartType.PieOfPie 或对应于其他图表类型的 Chart.ChartData.Seriesindex
+description: 获取对应于 Chart.ChartData.Series0.DataPointsindex 的图例条目的属性如果图表类型来自此列表 ChartType.BarOfPie ChartType.ExplodedPie ChartType.ExplodedPie3D ChartType Pie ChartType.Pie3D ChartType.PieOfPie 或对应其他图表类型的Chart.ChartData.Seriesindex
 type: docs
 weight: 20
 url: /zh/net/aspose.slides.charts/legendentrycollection/item/
 ---
 ## LegendEntryCollection indexer
 
-获取对应于 Chart.ChartData.Series[0].DataPoints[index] 图表类型的图例条目的属性 this列表: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie; 或对应于其他图表类型的 Chart.ChartData.Series[index]。
+获取对应于 Chart.ChartData.Series[0].DataPoints[index] 的图例条目的属性，如果图表类型来自此列表： ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType。 Pie, ChartType.Pie3D, ChartType.PieOfPie; 或对应其他图表类型的Chart.ChartData.Series[index]。
 
 ```csharp
 public ILegendEntryProperties this[int index] { get; }

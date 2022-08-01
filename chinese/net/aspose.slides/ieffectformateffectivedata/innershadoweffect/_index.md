@@ -1,14 +1,14 @@
 ---
 title: InnerShadowEffect
 second_title: Aspose.Slides for .NET API 参考
-description: 内阴影 只读IInnerShadowEffectiveDataaspose.slides.effects/iinnershadoweffectivedata
+description: 内部阴影 只读IInnerShadowEffectiveDataaspose.slides.effects/iinnershadoweffectivedata.
 type: docs
 weight: 50
 url: /zh/net/aspose.slides/ieffectformateffectivedata/innershadoweffect/
 ---
 ## IEffectFormatEffectiveData.InnerShadowEffect property
 
-内阴影。 只读[`IInnerShadowEffectiveData`](../../../aspose.slides.effects/iinnershadoweffectivedata)。
+内部阴影。 只读[`IInnerShadowEffectiveData`](../../../aspose.slides.effects/iinnershadoweffectivedata).
 
 ```csharp
 public IInnerShadowEffectiveData InnerShadowEffect { get; }

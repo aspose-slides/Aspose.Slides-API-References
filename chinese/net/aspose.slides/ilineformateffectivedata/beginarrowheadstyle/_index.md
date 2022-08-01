@@ -1,14 +1,14 @@
 ---
 title: BeginArrowheadStyle
 second_title: Aspose.Slides for .NET API 参考
-description: 返回行首的箭头样式 只读LineArrowheadStyleaspose.slides/linearrowheadstyle
+description: 返回行首的箭头样式 只读LineArrowheadStyleaspose.slides/linearrowheadstyle.
 type: docs
 weight: 40
 url: /zh/net/aspose.slides/ilineformateffectivedata/beginarrowheadstyle/
 ---
 ## ILineFormatEffectiveData.BeginArrowheadStyle property
 
-返回行首的箭头样式。 只读[`LineArrowheadStyle`](../../linearrowheadstyle)。
+返回行首的箭头样式。 只读[`LineArrowheadStyle`](../../linearrowheadstyle).
 
 ```csharp
 public LineArrowheadStyle BeginArrowheadStyle { get; }

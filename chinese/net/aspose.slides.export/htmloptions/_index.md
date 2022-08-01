@@ -25,17 +25,17 @@ public class HtmlOptions : SaveOptions, IHtmlOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | 返回或设置在未找到源字体时使用的字体。 读写String。 |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | 返回或设置在未找到源字体时使用的字体。 读写String. |
 | [DeletePicturesCroppedAreas](../../aspose.slides.export/htmloptions/deletepicturescroppedareas) { get; set; } | 一个布尔标志指示裁剪的部分是否保留为文档的一部分。如果为真，裁剪的 部分将被删除，如果为假，它们将在文档中序列化（这可能导致 更大的文件） |
-| [HtmlFormatter](../../aspose.slides.export/htmloptions/htmlformatter) { get; set; } | 返回或设置 HTML 模板。 读/写[`IHtmlFormatter`](../ihtmlformatter)。 |
-| [JpegQuality](../../aspose.slides.export/htmloptions/jpegquality) { get; set; } | 返回或设置确定 PDF 文档中 JPEG 图像质量的值。 读/写Byte。 |
+| [HtmlFormatter](../../aspose.slides.export/htmloptions/htmlformatter) { get; set; } | 返回或设置 HTML 模板。 读/写[`IHtmlFormatter`](../ihtmlformatter). |
+| [JpegQuality](../../aspose.slides.export/htmloptions/jpegquality) { get; set; } | 返回或设置确定 PDF 文档中 JPEG 图像质量的值。 读/写Byte. |
 | [NotesCommentsLayouting](../../aspose.slides.export/htmloptions/notescommentslayouting) { get; } | 提供控制注释和注释在导出文档中的放置方式的选项。 |
-| [PicturesCompression](../../aspose.slides.export/htmloptions/picturescompression) { get; set; } | 代表图片压缩等级 |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | 表示用于保存进度更新百分比的回调对象。 见[`IProgressCallback`](../../aspose.slides/iprogresscallback)。 |
-| [ShowHiddenSlides](../../aspose.slides.export/htmloptions/showhiddenslides) { get; set; } | 指定生成的文档是否应包含隐藏幻灯片。 默认为` false` 。 |
-| [SlideImageFormat](../../aspose.slides.export/htmloptions/slideimageformat) { get; set; } | 返回或设置幻灯片图像格式选项。 读/写[`ISlideImageFormat`](../islideimageformat)。 |
-| [SvgResponsiveLayout](../../aspose.slides.export/htmloptions/svgresponsivelayout) { get; set; } | True 从 svg 容器中排除宽度和高度属性 - 这将使布局响应。错误 - 否则。 读/写Boolean。 |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | 返回一个对象，该对象接收警告并决定加载过程是继续还是中止。 读/写[`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback)。 |
+| [PicturesCompression](../../aspose.slides.export/htmloptions/picturescompression) { get; set; } | 代表图片压缩级别 |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | 表示以百分比保存进度更新的回调对象。 见[`IProgressCallback`](../../aspose.slides/iprogresscallback). |
+| [ShowHiddenSlides](../../aspose.slides.export/htmloptions/showhiddenslides) { get; set; } | 指定生成的文档是否应包含隐藏幻灯片。 默认为`错误的` |
+| [SlideImageFormat](../../aspose.slides.export/htmloptions/slideimageformat) { get; set; } | 返回或设置幻灯片图像格式选项。 读/写[`ISlideImageFormat`](../islideimageformat). |
+| [SvgResponsiveLayout](../../aspose.slides.export/htmloptions/svgresponsivelayout) { get; set; } | True 从 svg 容器中排除宽度和高度属性 - 这将使布局响应。假 - 否则。 读/写Boolean. |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | 设置一个对象的返回，该对象接收警告并决定加载过程是继续还是中止。 读/写[`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
 ### 也可以看看
 

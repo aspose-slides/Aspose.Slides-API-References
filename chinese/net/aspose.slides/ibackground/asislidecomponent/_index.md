@@ -1,14 +1,14 @@
 ---
 title: AsISlideComponent
 second_title: Aspose.Slides for .NET API 参考
-description: 返回 ISlideComponent 接口 只读ISlideComponentaspose.slides/islidecomponent
+description: 返回 ISlideComponent 接口 只读ISlideComponentaspose.slides/islidecomponent.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides/ibackground/asislidecomponent/
 ---
 ## IBackground.AsISlideComponent property
 
-返回 ISlideComponent 接口。 只读[`ISlideComponent`](../../islidecomponent)。
+返回 ISlideComponent 接口。 只读[`ISlideComponent`](../../islidecomponent).
 
 ```csharp
 public ISlideComponent AsISlideComponent { get; }

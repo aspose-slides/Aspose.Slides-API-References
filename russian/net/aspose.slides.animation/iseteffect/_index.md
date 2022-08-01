@@ -18,8 +18,8 @@ public interface ISetEffect : IBehavior
 
 | Имя | Описание |
 | --- | --- |
-| [AsIBehavior](../../aspose.slides.animation/iseteffect/asibehavior) { get; } | Позволяет получить базовый интерфейс IBeavior. Только для чтения[`IBehavior`](../ibehavior). |
-| [To](../../aspose.slides.animation/iseteffect/to) { get; set; } | Указывает определенный атрибут эффекта после эффекта анимации. Представляет значение в очках. Только:bool, ColorFormat, float, int, string. Чтение/записьObject. |
+| [AsIBehavior](../../aspose.slides.animation/iseteffect/asibehavior) { get; } | Позволяет получить базовый интерфейс IBehavior. Только для чтения[`IBehavior`](../ibehavior) . |
+| [To](../../aspose.slides.animation/iseteffect/to) { get; set; } | Указывает определенный атрибут эффекта после эффекта анимации. Представляет значение точки. Только: bool, ColorFormat, float, int, string. Чтение/записьObject . |
 
 ### Смотрите также
 

@@ -18,14 +18,14 @@ public class Effect : IEffect
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Behaviors](../../aspose.slides.animation/effect/behaviors) { get; set; } | 返回效果的行为集合。 读/写[`IBehaviorCollection`](../ibehaviorcollection)。 |
-| [PresetClassType](../../aspose.slides.animation/effect/presetclasstype) { get; set; } | 定义效果等级。 读/写[`EffectPresetClassType`](../effectpresetclasstype)。 |
-| [Sequence](../../aspose.slides.animation/effect/sequence) { get; } | 返回效果的序列。 只读[`ISequence`](../isequence)。 |
-| [Subtype](../../aspose.slides.animation/effect/subtype) { get; set; } | 定义效果的子类型。 读/写[`EffectSubtype`](../effectsubtype)。 |
-| [TargetShape](../../aspose.slides.animation/effect/targetshape) { get; } | 返回效果的目标形状。 只读[`IShape`](../../aspose.slides/ishape)。 |
-| [TextAnimation](../../aspose.slides.animation/effect/textanimation) { get; } | TextAnimation 只读[`ITextAnimation`](../itextanimation)。 |
-| [Timing](../../aspose.slides.animation/effect/timing) { get; set; } | 定义效果的时间值。 读/写[`ITiming`](../itiming)。 |
-| [Type](../../aspose.slides.animation/effect/type) { get; set; } | 定义效果类型。 读/写[`EffectType`](../effecttype)。 |
+| [Behaviors](../../aspose.slides.animation/effect/behaviors) { get; set; } | 返回效果的行为集合。 读/写[`IBehaviorCollection`](../ibehaviorcollection). |
+| [PresetClassType](../../aspose.slides.animation/effect/presetclasstype) { get; set; } | 定义效果类别。 读/写[`EffectPresetClassType`](../effectpresetclasstype). |
+| [Sequence](../../aspose.slides.animation/effect/sequence) { get; } | 返回效果的序列。 只读[`ISequence`](../isequence). |
+| [Subtype](../../aspose.slides.animation/effect/subtype) { get; set; } | 定义效果的子类型。 读/写[`EffectSubtype`](../effectsubtype). |
+| [TargetShape](../../aspose.slides.animation/effect/targetshape) { get; } | 返回效果的目标形状。 只读[`IShape`](../../aspose.slides/ishape). |
+| [TextAnimation](../../aspose.slides.animation/effect/textanimation) { get; } | TextAnimation 只读[`ITextAnimation`](../itextanimation). |
+| [Timing](../../aspose.slides.animation/effect/timing) { get; set; } | 定义效果的时序值。 读/写[`ITiming`](../itiming). |
+| [Type](../../aspose.slides.animation/effect/type) { get; set; } | 定义效果类型。 读/写[`EffectType`](../effecttype). |
 
 ### 也可以看看
 

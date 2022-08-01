@@ -18,7 +18,7 @@ public interface IPptxOptions : ISaveOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsISaveOptions](../../aspose.slides.export/ipptxoptions/asisaveoptions) { get; } | 允许获取基本 ISaveOptions 接口。 只读[`ISaveOptions`](../isaveoptions)。 |
+| [AsISaveOptions](../../aspose.slides.export/ipptxoptions/asisaveoptions) { get; } | 允许获取基本 ISaveOptions 接口。 只读[`ISaveOptions`](../isaveoptions). |
 | [Conformance](../../aspose.slides.export/ipptxoptions/conformance) { get; set; } | 指定 Presentation 文档所遵循的一致性等级。 默认值为Ecma376_2006 |
 
 ### 也可以看看

@@ -1,14 +1,14 @@
 ---
 title: Shapes
 second_title: Aspose.Slides for .NET API 参考
-description: 返回幻灯片的形状 只读IShapeCollectionaspose.slides/ishapecollection
+description: 返回幻灯片的形状 只读IShapeCollectionaspose.slides/ishapecollection.
 type: docs
 weight: 70
 url: /zh/net/aspose.slides/baseslide/shapes/
 ---
 ## BaseSlide.Shapes property
 
-返回幻灯片的形状。 只读[`IShapeCollection`](../../ishapecollection)。
+返回幻灯片的形状。 只读[`IShapeCollection`](../../ishapecollection).
 
 ```csharp
 public IShapeCollection Shapes { get; }

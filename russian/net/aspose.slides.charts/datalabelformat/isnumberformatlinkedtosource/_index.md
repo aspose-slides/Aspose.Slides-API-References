@@ -1,14 +1,14 @@
 ---
 title: IsNumberFormatLinkedToSource
 second_title: Справочник по API Aspose.Slides для .NET
-description: Чтение/записьBoolean.
+description: Чтение/записьBoolean .
 type: docs
 weight: 30
 url: /ru/net/aspose.slides.charts/datalabelformat/isnumberformatlinkedtosource/
 ---
 ## DataLabelFormat.IsNumberFormatLinkedToSource property
 
-Чтение/записьBoolean.
+Чтение/записьBoolean .
 
 ```csharp
 public bool IsNumberFormatLinkedToSource { get; set; }
@@ -16,7 +16,7 @@ public bool IsNumberFormatLinkedToSource { get; set; }
 
 ### Примечания
 
-Если родителем этого объекта DataLabelFormat является коллекция меток данных DataLabelCollection, то это свойство получает или задает значение по умолчанию свойства IsNumberFormatLinkedToSource для новых меток данных в коллекции DataLabelCollection. Присвоение этому свойству значения также устанавливает это значение в свойство IsNumberFormatLinkedToSource для всех меток данных в коллекции DataLabelCollection (т.е. "DataLabels.DefaultDataLabelFormat.IsNumberFormatLinkedToSource = val;" приводит к тому, что все DataLabels[i].IsNumberFormatLinkedToSource равно val).
+Если родителем этого объекта DataLabelFormat является коллекция меток данных DataLabelCollection, то свойство this получает или задает значение по умолчанию свойства IsNumberFormatLinkedToSource для новых меток данных в коллекции DataLabelCollection. IsNumberFormatLinkedToSource свойство для всех меток данных в коллекции DataLabelCollection (т. е. «DataLabels.DefaultDataLabelFormat.IsNumberFormatLinkedToSource = val;» приводит к всем DataLabels[i].IsNumberFormatLinkedToSource равно val).
 
 ### Смотрите также
 

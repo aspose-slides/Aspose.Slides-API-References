@@ -1,14 +1,14 @@
 ---
 title: AsCells
 second_title: Aspose.Slides for .NET API 参考
-description: 不允许空值分配 返回值始终不为空 读/写IChartCellCollectionaspose.slides.charts/ichartcellcollection
+description: 不允许空值分配 返回值始终不为空 读/写IChartCellCollectionaspose.slides.charts/ichartcellcollection.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides.charts/stringchartvalue/ascells/
 ---
 ## StringChartValue.AsCells property
 
-不允许空值分配。 返回值始终不为空。 读/写[`IChartCellCollection`](../../ichartcellcollection)。
+不允许空值分配。 返回值始终不为空。 读/写[`IChartCellCollection`](../../ichartcellcollection).
 
 ```csharp
 public IChartCellCollection AsCells { get; set; }

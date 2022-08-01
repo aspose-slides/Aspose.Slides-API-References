@@ -1,14 +1,14 @@
 ---
 title: Masters
 second_title: Aspose.Slides for .NET API 参考
-description: 返回演示文稿中定义的所有母版幻灯片的列表 只读IMasterSlideCollectionaspose.slides/imasterslidecollection
+description: 返回演示文稿中定义的所有母版幻灯片的列表 只读IMasterSlideCollectionaspose.slides/imasterslidecollection.
 type: docs
 weight: 190
 url: /zh/net/aspose.slides/ipresentation/masters/
 ---
 ## IPresentation.Masters property
 
-返回演示文稿中定义的所有母版幻灯片的列表。 只读[`IMasterSlideCollection`](../../imasterslidecollection)。
+返回演示文稿中定义的所有母版幻灯片的列表。 只读[`IMasterSlideCollection`](../../imasterslidecollection).
 
 ```csharp
 public IMasterSlideCollection Masters { get; }

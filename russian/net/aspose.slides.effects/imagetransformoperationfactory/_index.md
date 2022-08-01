@@ -26,7 +26,7 @@ public class ImageTransformOperationFactory : IImageTransformOperationFactory
 | --- | --- |
 | [CreateAlphaBiLevel](../../aspose.slides.effects/imagetransformoperationfactory/createalphabilevel)(float) | Создает эффект Alpha BiLevel. |
 | [CreateAlphaFloor](../../aspose.slides.effects/imagetransformoperationfactory/createalphafloor)() | Создает эффект альфа-пола. |
-| [CreateAlphaInverse](../../aspose.slides.effects/imagetransformoperationfactory/createalphainverse)() | Создает обратный эффект альфа-канала. |
+| [CreateAlphaInverse](../../aspose.slides.effects/imagetransformoperationfactory/createalphainverse)() | Создает обратный альфа-эффект. |
 | [CreateAlphaModulate](../../aspose.slides.effects/imagetransformoperationfactory/createalphamodulate)() | Создает эффект альфа-модуляции. |
 | [CreateAlphaModulateFixed](../../aspose.slides.effects/imagetransformoperationfactory/createalphamodulatefixed)(float) | Создает фиксированный эффект альфа-модуляции. |
 | [CreateAlphaReplace](../../aspose.slides.effects/imagetransformoperationfactory/createalphareplace)(float) | Создает эффект альфа-замены. |

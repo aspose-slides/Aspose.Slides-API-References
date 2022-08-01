@@ -1,14 +1,14 @@
 ---
 title: LoadFormat
 second_title: Aspose.Slides for .NET API 参考
-description: 获取绑定演示文稿的格式 只读LoadFormataspose.slides/loadformat
+description: 获取绑定的演示文稿的格式 只读LoadFormataspose.slides/loadformat.
 type: docs
 weight: 40
 url: /zh/net/aspose.slides/ipresentationinfo/loadformat/
 ---
 ## IPresentationInfo.LoadFormat property
 
-获取绑定演示文稿的格式。 只读[`LoadFormat`](../../loadformat)。
+获取绑定的演示文稿的格式。 只读[`LoadFormat`](../../loadformat).
 
 ```csharp
 public LoadFormat LoadFormat { get; }

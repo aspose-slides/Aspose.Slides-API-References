@@ -1,14 +1,14 @@
 ---
 title: SolidFillColor
 second_title: Aspose.Slides for .NET API 参考
-description: 返回实心填充的颜色 只读Color
+description: 返回实心填充的颜色 只读Color.
 type: docs
 weight: 60
 url: /zh/net/aspose.slides/ilinefillformateffectivedata/solidfillcolor/
 ---
 ## ILineFillFormatEffectiveData.SolidFillColor property
 
-返回实心填充的颜色。 只读Color。
+返回实心填充的颜色。 只读Color.
 
 ```csharp
 public Color SolidFillColor { get; }

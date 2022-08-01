@@ -18,16 +18,16 @@ public interface ISlideShowTransition
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AdvanceAfterTime](../../aspose.slides/islideshowtransition/advanceaftertime) { get; set; } | 指定过渡开始的时间，以毫秒为单位。此设置 可以与 advClick 属性结合使用。如果未指定此属性 则假定不会发生自动前进。 读写UInt32。 |
-| [AdvanceOnClick](../../aspose.slides/islideshowtransition/advanceonclick) { get; set; } | 指定鼠标点击是否会推进幻灯片。如果此属性未指定 ，则假定值为 true。 读写Boolean。 |
-| [Sound](../../aspose.slides/islideshowtransition/sound) { get; set; } | 返回或设置嵌入的音频数据。 读写[`IAudio`](../iaudio)。 |
-| [SoundIsBuiltIn](../../aspose.slides/islideshowtransition/soundisbuiltin) { get; set; } | 指定此声音是否为内置声音。如果此属性设置为 true，则 会提醒生成应用程序检查为该声音指定的名称属性 在它的内置声音列表中，然后可以显示自定义名称或 UI 根据需要。 读写Boolean。 |
-| [SoundLoop](../../aspose.slides/islideshowtransition/soundloop) { get; set; } | 此属性指定声音是否会循环播放，直到在 幻灯片中发生下一个声音事件。 读写Boolean。 |
-| [SoundMode](../../aspose.slides/islideshowtransition/soundmode) { get; set; } | 设置或返回幻灯片过渡的声音模式。 读写[`TransitionSoundMode`](../../aspose.slides.slideshow/transitionsoundmode)。 |
-| [SoundName](../../aspose.slides/islideshowtransition/soundname) { get; set; } | 指定过渡声音的人类可读名称。必须分配[`Sound`](./sound)属性以获取或设置声音名称。 读写String。 |
-| [Speed](../../aspose.slides/islideshowtransition/speed) { get; set; } | 指定从当前幻灯片 转换到下一张幻灯片时要使用的转换速度。 读写[`TransitionSpeed`](../../aspose.slides.slideshow/transitionspeed)。 |
-| [Type](../../aspose.slides/islideshowtransition/type) { get; set; } | 过渡类型。 读写[`TransitionType`](../../aspose.slides.slideshow/transitiontype)。 |
-| [Value](../../aspose.slides/islideshowtransition/value) { get; } | 幻灯片放映过渡值。 只读[`ITransitionValueBase`](../../aspose.slides.slideshow/itransitionvaluebase)。 |
+| [AdvanceAfterTime](../../aspose.slides/islideshowtransition/advanceaftertime) { get; set; } | 指定过渡开始的时间（以毫秒为单位）。此 setting 可以与 advClick 属性结合使用。如果未指定此属性 ，则假定不会发生自动前进。 读写UInt32. |
+| [AdvanceOnClick](../../aspose.slides/islideshowtransition/advanceonclick) { get; set; } | 指定鼠标单击是否会推进幻灯片。如果未指定此属性 ，则假定值为真。 读写Boolean. |
+| [Sound](../../aspose.slides/islideshowtransition/sound) { get; set; } | 返回或设置嵌入的音频数据。 读写[`IAudio`](../iaudio). |
+| [SoundIsBuiltIn](../../aspose.slides/islideshowtransition/soundisbuiltin) { get; set; } | 指定此声音是否为内置声音。如果此属性设置为 true then 生成应用程序会收到警报，以检查其内置声音列表中为此 sound 指定的名称属性，然后可以根据需要显示自定义名称或 UI。 读写Boolean. |
+| [SoundLoop](../../aspose.slides/islideshowtransition/soundloop) { get; set; } | 此属性指定声音是否循环播放直到下一个声音事件发生在 幻灯片中。 读写Boolean. |
+| [SoundMode](../../aspose.slides/islideshowtransition/soundmode) { get; set; } | 设置或返回幻灯片过渡的声音模式。 读写[`TransitionSoundMode`](../../aspose.slides.slideshow/transitionsoundmode). |
+| [SoundName](../../aspose.slides/islideshowtransition/soundname) { get; set; } | 为过渡的声音指定一个人类可读的名称。这[`Sound`](./sound)必须分配属性以获取或设置声音名称。 读写String. |
+| [Speed](../../aspose.slides/islideshowtransition/speed) { get; set; } | 指定从当前幻灯片 转换到下一张幻灯片时要使用的转换速度。 读写[`TransitionSpeed`](../../aspose.slides.slideshow/transitionspeed). |
+| [Type](../../aspose.slides/islideshowtransition/type) { get; set; } | 转换类型。 读写[`TransitionType`](../../aspose.slides.slideshow/transitiontype). |
+| [Value](../../aspose.slides/islideshowtransition/value) { get; } | 幻灯片放映过渡值。 只读[`ITransitionValueBase`](../../aspose.slides.slideshow/itransitionvaluebase). |
 
 ### 也可以看看
 

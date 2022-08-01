@@ -18,13 +18,13 @@ public class SpreadsheetOptions : ISpreadsheetOptions
 
 | Имя | Описание |
 | --- | --- |
-| [SpreadsheetOptions](spreadsheetoptions)() | Инициализирует новый экземпляр класса[`SpreadsheetOptions`](../spreadsheetoptions). |
+| [SpreadsheetOptions](spreadsheetoptions)() | Инициализирует новый экземпляр[`SpreadsheetOptions`](../spreadsheetoptions) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [PreferredCulture](../../aspose.slides/spreadsheetoptions/preferredculture) { get; set; } | Получает или задает предпочтительные сведения о культуре для вычисления некоторых функций, предназначенных для использования с языками , использующими двухбайтовый набор символов (DBCS). |
+| [PreferredCulture](../../aspose.slides/spreadsheetoptions/preferredculture) { get; set; } | Получает или задает информацию о предпочтительном языке и региональных параметрах для вычисления некоторых функций, предназначенных для использования с языками , использующими двухбайтовый набор символов (DBCS). |
 | [RecoverWorkbookFromChartCache](../../aspose.slides/spreadsheetoptions/recoverworkbookfromchartcache) { get; set; } | Если источником данных для диаграммы является внешняя рабочая книга и она недоступна, она будет восстановлена из кэша диаграммы. |
 
 ### Смотрите также

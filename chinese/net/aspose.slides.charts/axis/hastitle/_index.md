@@ -1,14 +1,14 @@
 ---
 title: HasTitle
 second_title: Aspose.Slides for .NET API 参考
-description: 确定轴是否具有可见标题 读/写Boolean
+description: 确定轴是否有可见标题 读/写Boolean.
 type: docs
 weight: 170
 url: /zh/net/aspose.slides.charts/axis/hastitle/
 ---
 ## Axis.HasTitle property
 
-确定轴是否具有可见标题。 读/写Boolean。
+确定轴是否有可见标题。 读/写Boolean.
 
 ```csharp
 public bool HasTitle { get; set; }

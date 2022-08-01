@@ -1,14 +1,14 @@
 ---
 title: AsIEnumerable
 second_title: Справочник по API Aspose.Slides для .NET
-description: Позволяет получить базовый интерфейс IBeavior. Только для чтенияIEnumerable.
+description: Позволяет получить базовый интерфейс IBehavior. Только для чтенияIEnumerable .
 type: docs
 weight: 10
 url: /ru/net/aspose.slides.animation/imotionpath/asienumerable/
 ---
 ## IMotionPath.AsIEnumerable property
 
-Позволяет получить базовый интерфейс IBeavior. Только для чтенияIEnumerable.
+Позволяет получить базовый интерфейс IBehavior. Только для чтенияIEnumerable .
 
 ```csharp
 public IEnumerable AsIEnumerable { get; }

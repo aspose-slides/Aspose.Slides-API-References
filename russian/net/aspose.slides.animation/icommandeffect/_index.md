@@ -18,10 +18,10 @@ public interface ICommandEffect : IBehavior
 
 | Имя | Описание |
 | --- | --- |
-| [AsIBehavior](../../aspose.slides.animation/icommandeffect/asibehavior) { get; } | Позволяет получить базовый интерфейс IBeavior. Только для чтения[`IBehavior`](../ibehavior). |
-| [CommandString](../../aspose.slides.animation/icommandeffect/commandstring) { get; set; } | Определяет командную строку. Чтение/записьString. |
-| [ShapeTarget](../../aspose.slides.animation/icommandeffect/shapetarget) { get; set; } | Определяет форму цели командного эффекта. Чтение/запись[`IShape`](../../aspose.slides/ishape). |
-| [Type](../../aspose.slides.animation/icommandeffect/type) { get; set; } | Определяет тип поведения командного эффекта. Чтение/запись[`CommandEffectType`](../commandeffecttype). |
+| [AsIBehavior](../../aspose.slides.animation/icommandeffect/asibehavior) { get; } | Позволяет получить базовый интерфейс IBehavior. Только для чтения[`IBehavior`](../ibehavior) . |
+| [CommandString](../../aspose.slides.animation/icommandeffect/commandstring) { get; set; } | Определяет командную строку. Чтение/записьString . |
+| [ShapeTarget](../../aspose.slides.animation/icommandeffect/shapetarget) { get; set; } | Определяет цель формы командного эффекта. Чтение/запись[`IShape`](../../aspose.slides/ishape) . |
+| [Type](../../aspose.slides.animation/icommandeffect/type) { get; set; } | Определяет тип поведения командного эффекта. Чтение/запись[`CommandEffectType`](../commandeffecttype) . |
 
 ### Смотрите также
 

@@ -26,7 +26,7 @@ public void RemoveAt(int index)
 
 ### 评论
 
-1) 为避免抛出 PptxEditException 之前检查布局的 HasDependingSlides 属性。 2) 您也可以使用[`Remove`](../../ilayoutslide/remove)方法来简化代码。
+1) 为避免之前抛出 PptxEditException 检查布局的 HasDependingSlides 属性。 2) 您也可以使用[`Remove`](../../ilayoutslide/remove)简化代码的方法.
 
 ### 也可以看看
 

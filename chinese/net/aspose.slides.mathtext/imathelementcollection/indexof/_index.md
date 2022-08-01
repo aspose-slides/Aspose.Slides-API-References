@@ -20,11 +20,11 @@ public int IndexOf(IMathElement item)
 
 ### 返回值
 
-*item*的索引（如果在集合中找到）；否则，-1。
+的索引*item*如果在集合中找到；否则，-1.
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]

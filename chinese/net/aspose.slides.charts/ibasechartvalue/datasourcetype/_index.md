@@ -1,14 +1,14 @@
 ---
 title: DataSourceType
 second_title: Aspose.Slides for .NET API 参考
-description: 指定 AsCell 或 AsLiteralString 或 AsLiteralDouble 属性 是实际的换句话说它指定了 Data 属性的值的类型 此属性是只读的要更改此属性的值您可以使用 ChartDataPointCollection.DataSourceTypeForlt...gt 之一特性 读/写DataSourceTypeaspose.slides.charts/ibasechartvalue/datasourcetype
+description: 指定 AsCell 或 AsLiteralString 或 AsLiteralDouble 属性 是否是实际的换句话说它指定了 Data 属性的值类型 此属性是只读的要更改此属性的值您可以使用 ChartDataPointCollection.DataSourceTypeForlt...gt 属性之一 读/写DataSourceTypeaspose.slides.charts/ibasechartvalue/datasourcetype.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides.charts/ibasechartvalue/datasourcetype/
 ---
 ## IBaseChartValue.DataSourceType property
 
-指定 AsCell 或 AsLiteralString 或 AsLiteralDouble 属性 是实际的。换句话说，它指定了 Data 属性的值的类型。 此属性是只读的。要更改此属性的值，您可以使用 ChartDataPointCollection.DataSourceTypeFor&lt;...&gt; 之一特性。 读/写`DataSourceType`。
+指定 AsCell 或 AsLiteralString 或 AsLiteralDouble 属性 是否是实际的。换句话说，它指定了 Data 属性的值类型。 此属性是只读的。要更改此属性的值，您可以使用 ChartDataPointCollection.DataSourceTypeFor&lt;...&gt; 属性之一。 读/写`DataSourceType`.
 
 ```csharp
 public DataSourceType DataSourceType { get; set; }

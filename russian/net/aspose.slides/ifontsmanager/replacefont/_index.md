@@ -51,7 +51,7 @@ public void ReplaceFont(IFontSubstRule substRule)
 
 ## ReplaceFont(IFontSubstRuleCollection) {#replacefont_2}
 
-Заменить шрифт в презентации, используя информацию из коллекции[`IFontSubstRule`](../../ifontsubstrule)
+Заменить шрифт в презентации, используя информацию из набора[`IFontSubstRule`](../../ifontsubstrule)
 
 ```csharp
 public void ReplaceFont(IFontSubstRuleCollection substRules)

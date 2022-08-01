@@ -1,14 +1,14 @@
 ---
 title: BorderDiagonalDown
 second_title: Aspose.Slides for .NET API 参考
-description: 返回向下对角线格式的有效值 只读ILineFormatEffectiveDataaspose.slides/ilineformateffectivedata
+description: 返回向下对角线格式的有效值 只读ILineFormatEffectiveDataaspose.slides/ilineformateffectivedata.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides/ibasetableformateffectivedata/borderdiagonaldown/
 ---
 ## IBaseTableFormatEffectiveData.BorderDiagonalDown property
 
-返回向下对角线格式的有效值。 只读[`ILineFormatEffectiveData`](../../ilineformateffectivedata)。
+返回向下对角线格式的有效值。 只读[`ILineFormatEffectiveData`](../../ilineformateffectivedata).
 
 ```csharp
 public ILineFormatEffectiveData BorderDiagonalDown { get; }

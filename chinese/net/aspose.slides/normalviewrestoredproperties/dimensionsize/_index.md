@@ -1,14 +1,14 @@
 ---
 title: DimensionSize
 second_title: Aspose.Slides for .NET API 参考
-description: 指定滑动区域的大小RestoredTop 的子级时宽度RestoredLeft 的 子级时的高度 读/写Single
+description: 指定滑动区域的大小宽度为RestoredTop 的子级高度为a 的RestoredLeft 的子级 读/写Single.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides/normalviewrestoredproperties/dimensionsize/
 ---
 ## NormalViewRestoredProperties.DimensionSize property
 
-指定滑动区域的大小（RestoredTop 的子级时宽度，RestoredLeft 的 子级时的高度）。 读/写Single。
+指定滑动区域的大小（宽度为RestoredTop 的子级，高度为a 的RestoredLeft 的子级）。 读/写Single.
 
 ```csharp
 public float DimensionSize { get; set; }
@@ -18,7 +18,7 @@ public float DimensionSize { get; set; }
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentOutOfRangeException | 当值小于 0 或大于 100 时抛出。 |
+| ArgumentOutOfRangeException | 当值小于 0 且大于 100 时抛出。 |
 
 ### 也可以看看
 

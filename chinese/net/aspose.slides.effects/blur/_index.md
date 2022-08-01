@@ -1,14 +1,14 @@
 ---
 title: Blur
 second_title: Aspose.Slides for .NET API 参考
-description: 表示应用于整个形状的模糊效果包括其填充 所有颜色通道包括 alpha都会受到影响
+description: 表示应用到整个形状的模糊效果包括其填充 所有颜色通道包括 alpha都会受到影响
 type: docs
 weight: 2750
 url: /zh/net/aspose.slides.effects/blur/
 ---
 ## Blur class
 
-表示应用于整个形状的模糊效果，包括其填充。 所有颜色通道，包括 alpha，都会受到影响。
+表示应用到整个形状的模糊效果，包括其填充。 所有颜色通道，包括 alpha，都会受到影响。
 
 ```csharp
 public class Blur : ImageTransformOperation, IBlur
@@ -18,15 +18,15 @@ public class Blur : ImageTransformOperation, IBlur
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允许获取基本 IPresentationComponent 接口。 只读[`IPresentationComponent`](../../aspose.slides/ipresentationcomponent)。 |
-| [Grow](../../aspose.slides.effects/blur/grow) { get; set; } | 确定对象的边界是否应因模糊而增大。 True 表示边界已增长，而 false 表示边界未增长。 读/写Boolean。 |
-| [Radius](../../aspose.slides.effects/blur/radius) { get; set; } | 返回或设置模糊半径。 读/写Double。 |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允许获取基本 IPresentationComponent 接口。 只读[`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [Grow](../../aspose.slides.effects/blur/grow) { get; set; } | 确定对象的边界是否应因模糊而扩大。 True 表示边界已扩大，而 false 表示未扩大。 读/写Boolean. |
+| [Radius](../../aspose.slides.effects/blur/radius) { get; set; } | 返回或设置模糊半径。 读/写Double. |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/blur/equals)(object) | 确定指定的[`Blur`](../blur)是否等于当前的Blur。 |
+| override [Equals](../../aspose.slides.effects/blur/equals)(object) | 判断是否指定[`Blur`](../blur)等于当前[`Blur`](../blur). |
 | [GetEffective](../../aspose.slides.effects/blur/geteffective)() | 获取应用了继承的有效模糊效果数据。 |
 | override [GetHashCode](../../aspose.slides.effects/blur/gethashcode)() | 用作特定类型的哈希函数。 |
 

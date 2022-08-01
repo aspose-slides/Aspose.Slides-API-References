@@ -18,7 +18,7 @@ public IVideoFrame InsertVideoFrame(int index, float x, float y, float width, fl
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | index | Int32 | Отсчитываемый от нуля индекс, по которому должен быть вставлен видеокадр. |
-| x | Single | X координата нового видеокадра. |
+| x | Single | Координата X нового видеокадра. |
 | y | Single | Координата Y нового видеокадра. |
 | width | Single | Ширина нового видеокадра. |
 | height | Single | Высота нового видеокадра. |

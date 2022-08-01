@@ -1,14 +1,14 @@
 ---
 title: SketchFormat
 second_title: Aspose.Slides for .NET API 参考
-description: 返回线条的草图格式 只读ILineFillFormataspose.slides/ilinefillformat
+description: 返回线条的草图格式 只读ILineFillFormataspose.slides/ilinefillformat.
 type: docs
 weight: 150
 url: /zh/net/aspose.slides/lineformat/sketchformat/
 ---
 ## LineFormat.SketchFormat property
 
-返回线条的草图格式。 只读[`ILineFillFormat`](../../ilinefillformat)。
+返回线条的草图格式。 只读[`ILineFillFormat`](../../ilinefillformat).
 
 ```csharp
 public ISketchFormat SketchFormat { get; }

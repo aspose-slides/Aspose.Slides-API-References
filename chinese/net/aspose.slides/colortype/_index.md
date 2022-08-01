@@ -18,13 +18,13 @@ public enum ColorType
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| NotDefined | `-1` | 颜色根本没有定义。 |
+| NotDefined | `-1` | 根本没有定义颜色。 |
 | RGB | `0` | 标准 24 位 RGB 颜色。 |
-| RGBPercentage | `1` | 高清晰度 RGB 颜色。 |
-| HSL | `2` | 高清 HSL 颜色。 |
+| RGBPercentage | `1` | 高清RGB颜色。 |
+| HSL | `2` | 高清HSL颜色。 |
 | Scheme | `3` | 方案颜色。 |
-| System | `4` | 系统颜色。 |
-| Preset | `5` | 预设颜色。 |
+| System | `4` | 系统颜色. |
+| Preset | `5` | 预设颜色. |
 
 ### 也可以看看
 

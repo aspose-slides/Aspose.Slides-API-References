@@ -1,14 +1,14 @@
 ---
 title: IChartSeriesCollection
 second_title: Aspose.Slides for .NET API 参考
-description: 表示IChartSeries./ichartseries
+description: 代表集合IChartSeries./ichartseries
 type: docs
 weight: 1800
 url: /zh/net/aspose.slides.charts/ichartseriescollection/
 ---
 ## IChartSeriesCollection interface
 
-表示[`IChartSeries`](../ichartseries)
+代表集合[`IChartSeries`](../ichartseries)
 
 ```csharp
 public interface IChartSeriesCollection : IGenericCollection<IChartSeries>
@@ -25,14 +25,14 @@ public interface IChartSeriesCollection : IGenericCollection<IChartSeries>
 | 姓名 | 描述 |
 | --- | --- |
 | [Add](../../aspose.slides.charts/ichartseriescollection/add#add)(ChartType) | 创建新的图表系列并将其添加到集合中。 |
-| [Add](../../aspose.slides.charts/ichartseriescollection/add#add_1)(IChartCellCollection, ChartType) | 从[`IChartCellCollection`](../ichartcellcollection)创建新的图表系列并将其添加到集合中。 |
-| [Add](../../aspose.slides.charts/ichartseriescollection/add#add_2)(IChartDataCell, ChartType) | 从[`IChartDataCell`](../ichartdatacell)创建新的图表系列并将其添加到集合中。 |
+| [Add](../../aspose.slides.charts/ichartseriescollection/add#add_1)(IChartCellCollection, ChartType) | 创建新的图表系列[`IChartCellCollection`](../ichartcellcollection)并将其添加到集合中。 |
+| [Add](../../aspose.slides.charts/ichartseriescollection/add#add_2)(IChartDataCell, ChartType) | 创建新的图表系列[`IChartDataCell`](../ichartdatacell)并将其添加到集合中。 |
 | [Add](../../aspose.slides.charts/ichartseriescollection/add#add_3)(string, ChartType) | 从值创建新的图表系列并将其添加到集合中。 |
 | [Clear](../../aspose.slides.charts/ichartseriescollection/clear)() | 从集合中删除所有元素。 |
-| [IndexOf](../../aspose.slides.charts/ichartseriescollection/indexof)(IChartSeries) | 搜索指定的[`IChartSeries`](../ichartseries)并返回整个中第一次出现的从零开始的索引集合 |
+| [IndexOf](../../aspose.slides.charts/ichartseriescollection/indexof)(IChartSeries) | 搜索指定的[`IChartSeries`](../ichartseries)并返回整个 Collection 中第一次出现的从零开始的索引 |
 | [Insert](../../aspose.slides.charts/ichartseriescollection/insert)(int, ChartType) | 创建新的图表系列并将其插入到集合中。 |
 | [Remove](../../aspose.slides.charts/ichartseriescollection/remove)(IChartSeries) | 删除指定的值。 |
-| [RemoveAt](../../aspose.slides.charts/ichartseriescollection/removeat)(int) | 删除指定索引处的元素 |
+| [RemoveAt](../../aspose.slides.charts/ichartseriescollection/removeat)(int) | 移除指定索引处的元素 |
 
 ### 也可以看看
 

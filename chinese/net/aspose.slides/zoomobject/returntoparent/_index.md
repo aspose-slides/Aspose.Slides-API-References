@@ -1,14 +1,14 @@
 ---
 title: ReturnToParent
 second_title: Aspose.Slides for .NET API 参考
-description: 获取或设置幻灯片中的导航行为 读/写Boolean 默认值false
+description: 获取或设置幻灯片中的导航行为 读/写Boolean. 默认值false
 type: docs
 weight: 30
 url: /zh/net/aspose.slides/zoomobject/returntoparent/
 ---
 ## ZoomObject.ReturnToParent property
 
-获取或设置幻灯片中的导航行为。 读/写Boolean。 默认值:false
+获取或设置幻灯片中的导航行为。 读/写Boolean. 默认值：false
 
 ```csharp
 public bool ReturnToParent { get; set; }
@@ -16,11 +16,11 @@ public bool ReturnToParent { get; set; }
 
 ### 评论
 
-True 属性值指定返回父级幻灯片中的导航行为。
+属性的真值指定幻灯片中返回父导航行为。
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]

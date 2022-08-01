@@ -1,14 +1,14 @@
 ---
 title: Font
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает маркированный шрифт абзаца. Только для чтенияIFontDataaspose.slides/ifontdata.
+description: Возвращает маркерный шрифт абзаца. Только для чтенияIFontDataaspose.slides/ifontdata .
 type: docs
 weight: 40
 url: /ru/net/aspose.slides/ibulletformateffectivedata/font/
 ---
 ## IBulletFormatEffectiveData.Font property
 
-Возвращает маркированный шрифт абзаца. Только для чтения[`IFontData`](../../ifontdata).
+Возвращает маркерный шрифт абзаца. Только для чтения[`IFontData`](../../ifontdata) .
 
 ```csharp
 public IFontData Font { get; }

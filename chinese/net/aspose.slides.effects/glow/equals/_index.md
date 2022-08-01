@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: Aspose.Slides for .NET API 参考
-description: 确定指定的Glowaspose.slides.effects/glow是否等于当前的Glow
+description: 判断是否指定Glowaspose.slides.effects/glow等于当前Glowaspose.slides.effects/glow.
 type: docs
 weight: 30
 url: /zh/net/aspose.slides.effects/glow/equals/
 ---
 ## Glow.Equals method
 
-确定指定的[`Glow`](../../glow)是否等于当前的Glow。
+判断是否指定[`Glow`](../../glow)等于当前[`Glow`](../../glow).
 
 ```csharp
 public override bool Equals(object obj)
@@ -16,11 +16,11 @@ public override bool Equals(object obj)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| obj | Object | [`Glow`](../../glow)进行比较。 |
+| obj | Object | 这[`Glow`](../../glow)比较。 |
 
 ### 返回值
 
-如果对象相等，则为真；否则为假。
+如果对象相等，则为 true；否则为假。
 
 ### 也可以看看
 

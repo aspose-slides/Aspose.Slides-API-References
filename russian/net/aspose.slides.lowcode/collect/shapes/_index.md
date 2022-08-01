@@ -1,14 +1,14 @@
 ---
 title: Shapes
 second_title: Справочник по API Aspose.Slides для .NET
-description: Собирает все экземплярыShapeaspose.slides/shapeвPresentationaspose.slides/presentation.
+description: Собирает все экземплярыShapeaspose.slides/shape вPresentationaspose.slides/presentation
 type: docs
 weight: 10
 url: /ru/net/aspose.slides.lowcode/collect/shapes/
 ---
 ## Collect.Shapes method
 
-Собирает все экземпляры[`Shape`](../../../aspose.slides/shape)в[`Presentation`](../../../aspose.slides/presentation).
+Собирает все экземпляры[`Shape`](../../../aspose.slides/shape) в[`Presentation`](../../../aspose.slides/presentation)
 
 ```csharp
 public static IEnumerable<Shape> Shapes(Presentation pres)
@@ -16,11 +16,11 @@ public static IEnumerable<Shape> Shapes(Presentation pres)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| pres | Presentation | Презентация для сбора фигур |
+| pres | Presentation | Презентация по сбору фигур |
 
 ### Возвращаемое значение
 
-Коллекция всех форм, которые содержать в презентации
+Коллекция всех фигур, содержащихся в презентации
 
 ### Примеры
 
@@ -29,7 +29,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 {
     foreach (Shape shape in Collect.Shapes(pres))
     {
-         // если фигура AutoShape, добавьте сплошную черную границу border
+        // если фигура AutoShape, добавляем сплошную черную рамку
         if (shape is AutoShape autoShape)
         {
             autoShape.LineFormat.Style = LineStyle.Single;

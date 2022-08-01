@@ -18,11 +18,11 @@ public interface IGifOptions : ISaveOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsISaveOptions](../../aspose.slides.export/igifoptions/asisaveoptions) { get; } | 返回 ISaveOptions 接口。 只读[`ISaveOptions`](../isaveoptions)。 |
-| [DefaultDelay](../../aspose.slides.export/igifoptions/defaultdelay) { get; set; } | 获取或设置默认延迟时间 [ms]。如果[`AdvanceAfterTime`](../../aspose.slides/islideshowtransition/advanceaftertime)未设置，将使用此值。 默认值为 1000。 |
-| [ExportHiddenSlides](../../aspose.slides.export/igifoptions/exporthiddenslides) { get; set; } | 确定是否导出隐藏的幻灯片。 默认值为假。 |
+| [AsISaveOptions](../../aspose.slides.export/igifoptions/asisaveoptions) { get; } | 返回 ISaveOptions 接口。 只读[`ISaveOptions`](../isaveoptions). |
+| [DefaultDelay](../../aspose.slides.export/igifoptions/defaultdelay) { get; set; } | 获取或设置默认延迟时间 [ms]。此值将在以下情况下使用[`AdvanceAfterTime`](../../aspose.slides/islideshowtransition/advanceaftertime)未设置。 默认值为 1000。 |
+| [ExportHiddenSlides](../../aspose.slides.export/igifoptions/exporthiddenslides) { get; set; } | 确定是否将导出隐藏的幻灯片。 默认值为 false。 |
 | [FrameSize](../../aspose.slides.export/igifoptions/framesize) { get; set; } | 获取或设置帧大小。 |
-| [TransitionFps](../../aspose.slides.export/igifoptions/transitionfps) { get; set; } | 获取或设置过渡 FPS [帧/秒] 默认值为 25。 |
+| [TransitionFps](../../aspose.slides.export/igifoptions/transitionfps) { get; set; } | 获取或设置过渡 FPS [帧/秒] 默认值为 25. |
 
 ### 也可以看看
 

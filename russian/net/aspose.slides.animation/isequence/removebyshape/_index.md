@@ -16,7 +16,7 @@ public void RemoveByShape(IShape shape)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| shape | IShape | Shape object[`IShape`](../../../aspose.slides/ishape) |
+| shape | IShape | Объект формы[`IShape`](../../../aspose.slides/ishape) |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: ShapeType
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置自选图形类型 读/写ShapeTypeaspose.slides/shapetype
+description: 返回或设置自选图形类型 读/写ShapeTypeaspose.slides/shapetype.
 type: docs
 weight: 50
 url: /zh/net/aspose.slides/connector/shapetype/
 ---
 ## Connector.ShapeType property
 
-返回或设置自选图形类型。 读/写[`ShapeType`](../../shapetype)。
+返回或设置自选图形类型。 读/写[`ShapeType`](../../shapetype).
 
 ```csharp
 public override ShapeType ShapeType { get; set; }

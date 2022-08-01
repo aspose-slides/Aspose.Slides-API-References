@@ -18,13 +18,13 @@ public interface IPortionFactory
 
 | 姓名 | 描述 |
 | --- | --- |
-| [CreatePortion](../../aspose.slides/iportionfactory/createportion#createportion)() | 创建一个空文本部分。 |
+| [CreatePortion](../../aspose.slides/iportionfactory/createportion#createportion)() | 创建一个空的文本部分。 |
 | [CreatePortion](../../aspose.slides/iportionfactory/createportion#createportion_1)(IPortion) | 使用指定的部分数据创建部分。 |
-| [CreatePortion](../../aspose.slides/iportionfactory/createportion#createportion_2)(string) | 从指定字符串创建文本部分。 |
+| [CreatePortion](../../aspose.slides/iportionfactory/createportion#createportion_2)(string) | 从指定的字符串创建文本部分。 |
 
 ### 评论
 
-对于 COM 比较
+用于 COM 可比性
 
 ### 也可以看看
 

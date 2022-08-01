@@ -1,14 +1,14 @@
 ---
 title: ControlType
 second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет тип элемента управления который должен быть встроенAddControl./icontrolcollection/addcontrol.
+description: Определяет тип элемента управления который должен быть встроенAddControl./icontrolcollection/addcontrol .
 type: docs
 weight: 2570
 url: /ru/net/aspose.slides/controltype/
 ---
 ## ControlType enumeration
 
-Определяет тип элемента управления, который должен быть встроен[`AddControl`](../icontrolcollection/addcontrol).
+Определяет тип элемента управления, который должен быть встроен[`AddControl`](../icontrolcollection/addcontrol) .
 
 ```csharp
 public enum ControlType

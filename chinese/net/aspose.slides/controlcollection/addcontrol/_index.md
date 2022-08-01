@@ -1,14 +1,14 @@
 ---
 title: AddControl
 second_title: Aspose.Slides for .NET API 参考
-description: 创建新控件并将其添加到集合中
+description: 创建一个新控件并将其添加到集合中
 type: docs
 weight: 50
 url: /zh/net/aspose.slides/controlcollection/addcontrol/
 ---
 ## ControlCollection.AddControl method
 
-创建新控件并将其添加到集合中。
+创建一个新控件并将其添加到集合中。
 
 ```csharp
 public IControl AddControl(ControlType controlType, float x, float y, float width, float height)

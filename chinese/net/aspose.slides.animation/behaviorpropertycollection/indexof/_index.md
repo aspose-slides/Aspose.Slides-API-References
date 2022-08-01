@@ -1,14 +1,14 @@
 ---
 title: IndexOf
 second_title: Aspose.Slides for .NET API 参考
-description: 确定IList中特定项目的索引
+description: 确定特定项目的索引IList.
 type: docs
 weight: 90
 url: /zh/net/aspose.slides.animation/behaviorpropertycollection/indexof/
 ---
 ## IndexOf(IBehaviorProperty) {#indexof}
 
-确定IList中特定项目的索引。
+确定特定项目的索引IList.
 
 ```csharp
 public int IndexOf(IBehaviorProperty item)
@@ -16,11 +16,11 @@ public int IndexOf(IBehaviorProperty item)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| item | IBehaviorProperty | 在IList中定位的对象. |
+| item | IBehaviorProperty | 要定位的对象IList. |
 
 ### 返回值
 
-*item*的索引（如果在列表中找到）；否则，-1。
+指数*item*如果在列表中找到；否则，-1。
 
 ### 也可以看看
 
@@ -33,7 +33,7 @@ public int IndexOf(IBehaviorProperty item)
 
 ## IndexOf(string) {#indexof_1}
 
-通过IList中的属性值确定特定项目的索引。
+通过属性值确定特定项的索引IList.
 
 ```csharp
 public int IndexOf(string propertyValue)
@@ -41,11 +41,11 @@ public int IndexOf(string propertyValue)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| propertyValue | String | 属性值 |
+| propertyValue | String | 财产价值 |
 
 ### 返回值
 
-属性索引具有指定值
+具有指定值的属性的索引
 
 ### 也可以看看
 

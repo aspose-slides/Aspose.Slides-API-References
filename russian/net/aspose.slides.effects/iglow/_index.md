@@ -1,14 +1,14 @@
 ---
 title: IGlow
 second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет эффект свечения при котором размытый цвет контура добавляется за края объекта.
+description: Представляет эффект свечения при котором контур размытия цвета добавляется за края объекта.
 type: docs
 weight: 3120
 url: /ru/net/aspose.slides.effects/iglow/
 ---
 ## IGlow interface
 
-Представляет эффект свечения, при котором размытый цвет контура добавляется за края объекта.
+Представляет эффект свечения, при котором контур размытия цвета добавляется за края объекта.
 
 ```csharp
 public interface IGlow : IAccessiblePVIObject<IGlowEffectiveData>, IImageTransformOperation
@@ -18,10 +18,10 @@ public interface IGlow : IAccessiblePVIObject<IGlowEffectiveData>, IImageTransfo
 
 | Имя | Описание |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/iglow/asiaccessiblepviobject) { get; } | Позволяет получить базовый интерфейс IAccessiblePVIObject. Только чтение[`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/iglow/asiimagetransformoperation) { get; } | Позволяет получить базовый интерфейс IImageTransformOperation. Только для чтения[`IImageTransformOperation`](../iimagetransformoperation). |
-| [Color](../../aspose.slides.effects/iglow/color) { get; } | Формат цвета. Только для чтения[`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Radius](../../aspose.slides.effects/iglow/radius) { get; set; } | Радиус. Чтение/записьDouble. |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/iglow/asiaccessiblepviobject) { get; } | Позволяет получить базовый интерфейс IAccessiblePVIObject. Только для чтения[`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1) . |
+| [AsIImageTransformOperation](../../aspose.slides.effects/iglow/asiimagetransformoperation) { get; } | Позволяет получить базовый интерфейс IImageTransformOperation. Только для чтения[`IImageTransformOperation`](../iimagetransformoperation) . |
+| [Color](../../aspose.slides.effects/iglow/color) { get; } | Цветовой формат. Только для чтения[`IColorFormat`](../../aspose.slides/icolorformat) . |
+| [Radius](../../aspose.slides.effects/iglow/radius) { get; set; } | Радиус. Чтение/записьDouble . |
 
 ### Смотрите также
 

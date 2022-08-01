@@ -33,7 +33,7 @@ public IAudio AddAudio(IAudio audio)
 
 ## AddAudio(Stream, LoadingStreamBehavior) {#addaudio_3}
 
-从流中创建音频并将其添加到演示文稿。
+从流中创建音频并将其添加到演示文稿中。
 
 ```csharp
 public IAudio AddAudio(Stream stream, LoadingStreamBehavior loadingStreamBehavior)
@@ -60,7 +60,7 @@ public IAudio AddAudio(Stream stream, LoadingStreamBehavior loadingStreamBehavio
 
 ## AddAudio(byte[]) {#addaudio_1}
 
-从字节数组创建音频并将其添加到演示文稿。
+从字节数组创建音频并将其添加到演示文稿中。
 
 ```csharp
 public IAudio AddAudio(byte[] audioData)

@@ -18,8 +18,8 @@ public interface ISideDirectionTransition : ITransitionValueBase
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/isidedirectiontransition/asitransitionvaluebase) { get; } | 允许获取基本 ITransitionValueBase 接口。 只读[`ITransitionValueBase`](../itransitionvaluebase)。 |
-| [Direction](../../aspose.slides.slideshow/isidedirectiontransition/direction) { get; set; } | 过渡方向。 读/写[`TransitionSideDirectionType`](../transitionsidedirectiontype)。 |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/isidedirectiontransition/asitransitionvaluebase) { get; } | 允许获取基本 ITransitionValueBase 接口。 只读[`ITransitionValueBase`](../itransitionvaluebase). |
+| [Direction](../../aspose.slides.slideshow/isidedirectiontransition/direction) { get; set; } | 转换方向。 读/写[`TransitionSideDirectionType`](../transitionsidedirectiontype). |
 
 ### 也可以看看
 

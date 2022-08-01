@@ -18,27 +18,27 @@ public interface IParagraphFormatEffectiveData
 
 | Имя | Описание |
 | --- | --- |
-| [Alignment](../../aspose.slides/iparagraphformateffectivedata/alignment) { get; } | Возвращает выравнивание текста в абзаце. Только для чтения[`TextAlignment`](../textalignment). |
-| [Bullet](../../aspose.slides/iparagraphformateffectivedata/bullet) { get; } | Возвращает маркерный формат абзаца. Только для чтения[`IBulletFormatEffectiveData`](../ibulletformateffectivedata). |
-| [DefaultPortionFormat](../../aspose.slides/iparagraphformateffectivedata/defaultportionformat) { get; } | Возвращает формат части абзаца по умолчанию. Только для чтения[`IPortionFormatEffectiveData`](../iportionformateffectivedata). |
-| [DefaultTabSize](../../aspose.slides/iparagraphformateffectivedata/defaulttabsize) { get; } | Возвращает размер табуляции по умолчанию. Только для чтенияSingle. |
-| [Depth](../../aspose.slides/iparagraphformateffectivedata/depth) { get; } | Возвращает глубину абзаца. Только чтениеInt16. |
-| [EastAsianLineBreak](../../aspose.slides/iparagraphformateffectivedata/eastasianlinebreak) { get; } | Определяет, используется ли восточноазиатский разрыв строки в абзаце. Только чтениеBoolean. |
-| [FontAlignment](../../aspose.slides/iparagraphformateffectivedata/fontalignment) { get; } | Возвращает выравнивание шрифта в абзаце. Только чтение[`FontAlignment`](../fontalignment). |
-| [HangingPunctuation](../../aspose.slides/iparagraphformateffectivedata/hangingpunctuation) { get; } | Определяет, используются ли в абзаце висячие знаки препинания. Только чтениеBoolean. |
-| [Indent](../../aspose.slides/iparagraphformateffectivedata/indent) { get; } | Возвращает абзац Отступ первой строки/Висячий отступ. Висячий отступ может быть определен отрицательными значениями. Только для чтенияSingle. |
-| [LatinLineBreak](../../aspose.slides/iparagraphformateffectivedata/latinlinebreak) { get; } | Определяет, используется ли в абзаце разрыв строки на латинице. Только чтениеBoolean. |
-| [MarginLeft](../../aspose.slides/iparagraphformateffectivedata/marginleft) { get; } | Возвращает левое поле абзаца. Только для чтенияSingle. |
-| [MarginRight](../../aspose.slides/iparagraphformateffectivedata/marginright) { get; } | Возвращает правое поле в абзаце. Только для чтенияSingle. |
-| [RightToLeft](../../aspose.slides/iparagraphformateffectivedata/righttoleft) { get; } | Определяет, используется ли в абзаце написание справа налево. Только чтениеBoolean. |
-| [SpaceAfter](../../aspose.slides/iparagraphformateffectivedata/spaceafter) { get; } | Возвращает количество места после последней строки в абзаце. Только для чтенияSingle. |
-| [SpaceBefore](../../aspose.slides/iparagraphformateffectivedata/spacebefore) { get; } | Возвращает количество места перед первой строкой в абзаце. Только для чтенияSingle. |
-| [SpaceWithin](../../aspose.slides/iparagraphformateffectivedata/spacewithin) { get; } | Возвращает расстояние между базовыми строками в абзаце. Только для чтенияSingle. |
-| [Tabs](../../aspose.slides/iparagraphformateffectivedata/tabs) { get; } | Возвращает таблицы абзаца. Только для чтения[`ITabEffectiveData`](../itabeffectivedata)[]. |
+| [Alignment](../../aspose.slides/iparagraphformateffectivedata/alignment) { get; } | Возвращает выравнивание текста в абзаце. Только для чтения[`TextAlignment`](../textalignment) . |
+| [Bullet](../../aspose.slides/iparagraphformateffectivedata/bullet) { get; } | Возвращает формат маркера абзаца. Только для чтения[`IBulletFormatEffectiveData`](../ibulletformateffectivedata) . |
+| [DefaultPortionFormat](../../aspose.slides/iparagraphformateffectivedata/defaultportionformat) { get; } | Возвращает формат части абзаца по умолчанию. Только для чтения[`IPortionFormatEffectiveData`](../iportionformateffectivedata) . |
+| [DefaultTabSize](../../aspose.slides/iparagraphformateffectivedata/defaulttabsize) { get; } | Возвращает размер таблицы по умолчанию. Только для чтенияSingle . |
+| [Depth](../../aspose.slides/iparagraphformateffectivedata/depth) { get; } | Возвращает глубину абзаца. Только для чтенияInt16 . |
+| [EastAsianLineBreak](../../aspose.slides/iparagraphformateffectivedata/eastasianlinebreak) { get; } | Определяет, используется ли восточноазиатский разрыв строки в абзаце. Только для чтенияBoolean . |
+| [FontAlignment](../../aspose.slides/iparagraphformateffectivedata/fontalignment) { get; } | Возвращает выравнивание шрифта в абзаце. Только для чтения[`FontAlignment`](../fontalignment) . |
+| [HangingPunctuation](../../aspose.slides/iparagraphformateffectivedata/hangingpunctuation) { get; } | Определяет, используются ли в абзаце висячие знаки препинания. Только для чтенияBoolean . |
+| [Indent](../../aspose.slides/iparagraphformateffectivedata/indent) { get; } | Возвращает отступ первой строки/висячий отступ абзаца. Висячий отступ может быть определен отрицательными значениями. Только для чтенияSingle . |
+| [LatinLineBreak](../../aspose.slides/iparagraphformateffectivedata/latinlinebreak) { get; } | Определяет, используется ли в абзаце разрыв строки на латинице. Только для чтенияBoolean . |
+| [MarginLeft](../../aspose.slides/iparagraphformateffectivedata/marginleft) { get; } | Возвращает левое поле абзаца. Только для чтенияSingle . |
+| [MarginRight](../../aspose.slides/iparagraphformateffectivedata/marginright) { get; } | Возвращает правое поле абзаца. Только для чтенияSingle . |
+| [RightToLeft](../../aspose.slides/iparagraphformateffectivedata/righttoleft) { get; } | Определяет, используется ли в абзаце написание справа налево. Только для чтенияBoolean . |
+| [SpaceAfter](../../aspose.slides/iparagraphformateffectivedata/spaceafter) { get; } | Возвращает количество места после последней строки в абзаце. Только для чтенияSingle . |
+| [SpaceBefore](../../aspose.slides/iparagraphformateffectivedata/spacebefore) { get; } | Возвращает отступ перед первой строкой абзаца. Только для чтенияSingle . |
+| [SpaceWithin](../../aspose.slides/iparagraphformateffectivedata/spacewithin) { get; } | Возвращает расстояние между базовыми строками в абзаце. Только для чтенияSingle . |
+| [Tabs](../../aspose.slides/iparagraphformateffectivedata/tabs) { get; } | Возвращает таблицы абзаца. Только для чтения[`ITabEffectiveData`](../itabeffectivedata) []. |
 
 ### Примечания
 
-Этот интерфейс используется вместе с[`IParagraphFormat`](../iparagraphformat)интерфейс для возврата эффективных значений форматирования с применением наследования.
+Этот интерфейс используется вместе с[`IParagraphFormat`](../iparagraphformat) интерфейс для возврата эффективных значений форматирования с применением наследования.
 
 ### Смотрите также
 

@@ -18,13 +18,13 @@ public class GraphicalObjectLock : BaseShapeLock, IGraphicalObjectLock
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AspectRatioLocked](../../aspose.slides/graphicalobjectlock/aspectratiolocked) { get; set; } | 确定形状在调整大小时是否必须保持纵横比。 读/写Boolean。 |
-| [DrilldownLocked](../../aspose.slides/graphicalobjectlock/drilldownlocked) { get; set; } | 确定是否禁止选择此对象的子形状。 读/写Boolean。 |
-| [GroupingLocked](../../aspose.slides/graphicalobjectlock/groupinglocked) { get; set; } | 确定是否禁止将此形状添加到组中。 读/写Boolean。 |
-| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | 如果所有锁定标志都被禁用，则返回 true。 只读Boolean。 |
-| [PositionLocked](../../aspose.slides/graphicalobjectlock/positionlocked) { get; set; } | 确定是否禁止移动此形状。 读/写Boolean。 |
-| [SelectLocked](../../aspose.slides/graphicalobjectlock/selectlocked) { get; set; } | 确定是否禁止选择此形状。 读/写Boolean。 |
-| [SizeLocked](../../aspose.slides/graphicalobjectlock/sizelocked) { get; set; } | 确定是否禁止调整此形状的大小。 读/写Boolean。 |
+| [AspectRatioLocked](../../aspose.slides/graphicalobjectlock/aspectratiolocked) { get; set; } | 确定形状是否必须在调整大小时保持纵横比。 读/写Boolean. |
+| [DrilldownLocked](../../aspose.slides/graphicalobjectlock/drilldownlocked) { get; set; } | 确定是否禁止选择此对象的子形状。 读/写Boolean. |
+| [GroupingLocked](../../aspose.slides/graphicalobjectlock/groupinglocked) { get; set; } | 确定是否禁止将此形状添加到组中。 读/写Boolean. |
+| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | 如果所有锁定标志都被禁用，则返回 true。 只读Boolean. |
+| [PositionLocked](../../aspose.slides/graphicalobjectlock/positionlocked) { get; set; } | 确定是否禁止移动此形状。 读/写Boolean. |
+| [SelectLocked](../../aspose.slides/graphicalobjectlock/selectlocked) { get; set; } | 确定是否禁止选择此形状。 读/写Boolean. |
+| [SizeLocked](../../aspose.slides/graphicalobjectlock/sizelocked) { get; set; } | 确定是否禁止调整此形状的大小。 读/写Boolean. |
 
 ### 也可以看看
 

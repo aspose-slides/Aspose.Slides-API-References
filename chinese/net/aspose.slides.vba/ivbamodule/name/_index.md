@@ -1,14 +1,14 @@
 ---
 title: Name
 second_title: Aspose.Slides for .NET API 参考
-description: 模块的名称 只读String
+description: 模块名称 只读String.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides.vba/ivbamodule/name/
 ---
 ## IVbaModule.Name property
 
-模块的名称。 只读String。
+模块名称。 只读String.
 
 ```csharp
 public string Name { get; }

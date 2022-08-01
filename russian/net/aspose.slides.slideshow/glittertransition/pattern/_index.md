@@ -1,14 +1,14 @@
 ---
 title: Pattern
 second_title: Справочник по API Aspose.Slides для .NET
-description: Задает форму визуальных элементов используемых во время перехода. Чтение/записьTransitionPatternaspose.slides.slideshow/transitionpattern.
+description: Определяет форму визуальных элементов используемых во время перехода. Чтение/записьTransitionPatternaspose.slides.slideshow/transitionpattern .
 type: docs
 weight: 20
 url: /ru/net/aspose.slides.slideshow/glittertransition/pattern/
 ---
 ## GlitterTransition.Pattern property
 
-Задает форму визуальных элементов, используемых во время перехода. Чтение/запись[`TransitionPattern`](../../transitionpattern).
+Определяет форму визуальных элементов, используемых во время перехода. Чтение/запись[`TransitionPattern`](../../transitionpattern) .
 
 ```csharp
 public TransitionPattern Pattern { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: Title
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает текстовый заголовок объекта Сводная секция масштабирования.
+description: Возвращает текстовое название объекта Раздел сводного масштаба.
 type: docs
 weight: 30
 url: /ru/net/aspose.slides/isummaryzoomsection/title/
 ---
 ## ISummaryZoomSection.Title property
 
-Возвращает текстовый заголовок объекта «Сводная секция масштабирования».
+Возвращает текстовое название объекта «Раздел сводного масштаба».
 
 ```csharp
 public string Title { get; set; }

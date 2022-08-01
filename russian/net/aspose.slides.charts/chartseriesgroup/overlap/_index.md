@@ -1,14 +1,14 @@
 ---
 title: Overlap
 second_title: Справочник по API Aspose.Slides для .NET
-description: Указывает сколько полос и столбцов должно перекрываться на двумерных диаграммах от -100 до 100. Чтение/записьSByte.
+description: Указывает сколько полос и столбцов должно перекрываться на двумерных диаграммах от -100 до 100. Чтение/записьSByte .
 type: docs
 weight: 120
 url: /ru/net/aspose.slides.charts/chartseriesgroup/overlap/
 ---
 ## ChartSeriesGroup.Overlap property
 
-Указывает, сколько полос и столбцов должно перекрываться на двумерных диаграммах (от -100 до 100). Чтение/записьSByte.
+Указывает, сколько полос и столбцов должно перекрываться на двумерных диаграммах (от -100 до 100). Чтение/записьSByte .
 
 ```csharp
 public sbyte Overlap { get; set; }

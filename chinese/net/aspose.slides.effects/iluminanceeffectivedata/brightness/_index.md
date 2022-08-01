@@ -1,14 +1,14 @@
 ---
 title: Brightness
 second_title: Aspose.Slides for .NET API 参考
-description: 亮度 只读Single
+description: 亮度 只读Single.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides.effects/iluminanceeffectivedata/brightness/
 ---
 ## ILuminanceEffectiveData.Brightness property
 
-亮度。 只读Single。
+亮度。 只读Single.
 
 ```csharp
 public float Brightness { get; }

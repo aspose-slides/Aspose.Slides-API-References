@@ -1,14 +1,14 @@
 ---
 title: ShadowOpacity
 second_title: Aspose.Slides for .NET API 参考
-description: 表示shadow.opacity属性
+description: 代表shadow.opacity属性
 type: docs
 weight: 730
 url: /zh/net/aspose.slides.animation/behaviorproperty/shadowopacity/
 ---
 ## BehaviorProperty.ShadowOpacity property
 
-表示'shadow.opacity'属性
+代表“shadow.opacity”属性
 
 ```csharp
 public static BehaviorProperty ShadowOpacity { get; }

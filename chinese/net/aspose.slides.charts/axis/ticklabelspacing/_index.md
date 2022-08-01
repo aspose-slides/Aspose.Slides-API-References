@@ -1,14 +1,14 @@
 ---
 title: TickLabelSpacing
 second_title: Aspose.Slides for .NET API 参考
-description: 指定在绘制的标签之间跳过多少刻度标签应用于类别或系列轴 读/写UInt32
+description: 指定在绘制的标签之间跳过多少刻度标签应用于类别或系列轴 读/写UInt32.
 type: docs
 weight: 530
 url: /zh/net/aspose.slides.charts/axis/ticklabelspacing/
 ---
 ## Axis.TickLabelSpacing property
 
-指定在绘制的标签之间跳过多少刻度标签。应用于类别或系列轴。 读/写UInt32。
+指定在绘制的标签之间跳过多少刻度标签。应用于类别或系列轴。 读/写UInt32.
 
 ```csharp
 public uint TickLabelSpacing { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: HasTitle
 second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет имеет ли диаграмма видимый заголовок. Чтение/записьBoolean.
+description: Определяет имеет ли диаграмма видимый заголовок. Чтение/записьBoolean .
 type: docs
 weight: 130
 url: /ru/net/aspose.slides.charts/chart/hastitle/
 ---
 ## Chart.HasTitle property
 
-Определяет, имеет ли диаграмма видимый заголовок. Чтение/записьBoolean.
+Определяет, имеет ли диаграмма видимый заголовок. Чтение/записьBoolean .
 
 ```csharp
 public bool HasTitle { get; set; }

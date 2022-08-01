@@ -1,14 +1,14 @@
 ---
 title: PieSplitPosition
 second_title: Aspose.Slides for .NET API 参考
-description: 指定一个值用于确定哪些数据点 在饼图或饼图上的第二个饼图或条形图中饼图 与 PieSplitBy 属性一起使用 这不仅是这个系列的属性而且是所有父系列的属性 group - 这是适当组属性的投影所以这个属性 是只读的 使用 ParentSeriesGroup 属性访问父系列组 使用 ParentSeriesGroup.PieSplitPosition 读/写属性来更改值 只读Double
+description: 指定一个值用于确定饼图或饼图条形图的第二个饼图或条形图中的数据点  与 PieSplitBy 属性一起使用 这不仅是该系列的属性而且是父系列 组的所有系列的属性 - 这是适当组属性的投影所以这个属性 是只读的 使用ParentSeriesGroup属性来访问父系列组 使用ParentSeriesGroup.PieSplitPosition读/写属性来改变值 只读Double.
 type: docs
 weight: 320
 url: /zh/net/aspose.slides.charts/ichartseries/piesplitposition/
 ---
 ## IChartSeries.PieSplitPosition property
 
-指定一个值，用于确定哪些数据点 在饼图或饼图上的第二个饼图或条形图中饼图。 与 PieSplitBy 属性一起使用。 这不仅是这个系列的属性，而且是所有父系列的属性 group - 这是适当组属性的投影。所以这个属性 是只读的。 使用 ParentSeriesGroup 属性访问父系列组。 使用 ParentSeriesGroup.PieSplitPosition 读/写属性来更改值。 只读Double。
+指定一个值，用于确定饼图或饼图条形图的第二个饼图或条形图中的数据点 。 与 PieSplitBy 属性一起使用。 这不仅是该系列的属性，而且是父系列 组的所有系列的属性 - 这是适当组属性的投影。所以这个属性 是只读的。 使用ParentSeriesGroup属性来访问父系列组。 使用ParentSeriesGroup.PieSplitPosition读/写属性来改变值。 只读Double.
 
 ```csharp
 public double PieSplitPosition { get; }
@@ -16,7 +16,7 @@ public double PieSplitPosition { get; }
 
 ### 评论
 
-这是属性 ParentSeriesGroup.PieSplitPosition 的投影。
+这是属性 ParentSeriesGroup.PieSplitPosition. 的投影
 
 ### 也可以看看
 

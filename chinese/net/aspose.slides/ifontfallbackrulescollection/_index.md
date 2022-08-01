@@ -1,14 +1,14 @@
 ---
 title: IFontFallBackRulesCollection
 second_title: Aspose.Slides for .NET API 参考
-description: 表示 FontFallBack 规则的集合由用户定义
+description: 表示 FontFallBack 规则的集合由 user 定义
 type: docs
 weight: 5330
 url: /zh/net/aspose.slides/ifontfallbackrulescollection/
 ---
 ## IFontFallBackRulesCollection interface
 
-表示 FontFallBack 规则的集合，由用户定义
+表示 FontFallBack 规则的集合，由 user 定义
 
 ```csharp
 public interface IFontFallBackRulesCollection : IGenericCollection<IFontFallBackRule>
@@ -18,7 +18,7 @@ public interface IFontFallBackRulesCollection : IGenericCollection<IFontFallBack
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Item](../../aspose.slides/ifontfallbackrulescollection/item) { get; } | 获取指定索引处的规则。 只读[`IFontFallBackRule`](../ifontfallbackrule)。 |
+| [Item](../../aspose.slides/ifontfallbackrulescollection/item) { get; } | 获取指定索引处的规则。 只读[`IFontFallBackRule`](../ifontfallbackrule). |
 
 ## 方法
 

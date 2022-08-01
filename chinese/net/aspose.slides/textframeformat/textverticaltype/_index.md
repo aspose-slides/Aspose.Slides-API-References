@@ -1,14 +1,14 @@
 ---
 title: TextVerticalType
 second_title: Aspose.Slides for .NET API 参考
-description: 确定文本方向 从此属性和自定义角度 中的属性 RotationAngle 汇总的可视文本旋转的结果值 读/写TextVerticalTypeaspose.slides/textverticaltype
+description: 确定文本方向 从此属性汇总的可视文本旋转结果值和属性 RotationAngle 中的自定义角度  读/写TextVerticalTypeaspose.slides/textverticaltype.
 type: docs
 weight: 130
 url: /zh/net/aspose.slides/textframeformat/textverticaltype/
 ---
 ## TextFrameFormat.TextVerticalType property
 
-确定文本方向。 从此属性和自定义角度 中的属性 RotationAngle 汇总的可视文本旋转的结果值。 读/写[`TextVerticalType`](../../textverticaltype)。
+确定文本方向。 从此属性汇总的可视文本旋转结果值和属性 RotationAngle 中的自定义角度 。 读/写[`TextVerticalType`](../../textverticaltype).
 
 ```csharp
 public TextVerticalType TextVerticalType { get; set; }

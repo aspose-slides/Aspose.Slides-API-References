@@ -1,14 +1,14 @@
 ---
 title: InsertModernComment
 second_title: Aspose.Slides for .NET API 参考
-description: 将新的现代注释插入到指定索引处的集合中
+description: 将新的现代评论插入到指定索引处的集合中
 type: docs
 weight: 120
 url: /zh/net/aspose.slides/commentcollection/insertmoderncomment/
 ---
 ## CommentCollection.InsertModernComment method
 
-将新的现代注释插入到指定索引处的集合中。
+将新的现代评论插入到指定索引处的集合中。
 
 ```csharp
 public IModernComment InsertModernComment(int index, string text, ISlide slide, IShape shape, 
@@ -20,9 +20,9 @@ public IModernComment InsertModernComment(int index, string text, ISlide slide, 
 | index | Int32 | 集合中应插入现代注释的元素的索引。 |
 | text | String | 新现代评论的纯文本。 |
 | slide | ISlide | 在演示文稿中滑动以添加新的现代评论。 |
-| shape | IShape | 幻灯片上与新的现代评论相关联的形状。 |
-| position | PointF | 幻灯片上添加新现代评论的位置。 |
-| creationTime | DateTime | 现代评论创建时间。 |
+| shape | IShape | 与新的现代评论相关联的幻灯片上的形状。 |
+| position | PointF | 在幻灯片上添加新的现代评论的位置。 |
+| creationTime | DateTime | 现代评论创作的时代。 |
 
 ### 返回值
 

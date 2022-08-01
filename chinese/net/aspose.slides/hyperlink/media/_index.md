@@ -1,14 +1,14 @@
 ---
 title: Media
 second_title: Aspose.Slides for .NET API 参考
-description: 返回一个特殊的播放媒体文件超链接在 AudioFrame 和 VideoFrame 中使用 只读Hyperlinkaspose.slides/hyperlink
+description: 返回一个特殊的播放媒体文件超链接用于 AudioFrame 和 VideoFrame. 只读Hyperlinkaspose.slides/hyperlink.
 type: docs
 weight: 60
 url: /zh/net/aspose.slides/hyperlink/media/
 ---
 ## Hyperlink.Media property
 
-返回一个特殊的“播放媒体文件”超链接。在 AudioFrame 和 VideoFrame 中使用。 只读[`Hyperlink`](../../hyperlink)。
+返回一个特殊的“播放媒体文件”超链接。用于 AudioFrame 和 VideoFrame. 只读[`Hyperlink`](../../hyperlink).
 
 ```csharp
 public static Hyperlink Media { get; }

@@ -18,9 +18,9 @@ public class Fonts : IFonts
 
 | Имя | Описание |
 | --- | --- |
-| [ComplexScriptFont](../../aspose.slides/fonts/complexscriptfont) { get; set; } | Возвращает или задает шрифт сложного сценария. Чтение/запись[`IFontData`](../ifontdata). |
-| [EastAsianFont](../../aspose.slides/fonts/eastasianfont) { get; set; } | Возвращает или устанавливает восточноазиатский шрифт. Чтение/запись[`IFontData`](../ifontdata). |
-| [LatinFont](../../aspose.slides/fonts/latinfont) { get; set; } | Возвращает или задает латинский шрифт. Чтение/запись[`IFontData`](../ifontdata). |
+| [ComplexScriptFont](../../aspose.slides/fonts/complexscriptfont) { get; set; } | Возвращает или задает шрифт сложного сценария. Чтение/запись[`IFontData`](../ifontdata) . |
+| [EastAsianFont](../../aspose.slides/fonts/eastasianfont) { get; set; } | Возвращает или задает восточноазиатский шрифт. Чтение/запись[`IFontData`](../ifontdata) . |
+| [LatinFont](../../aspose.slides/fonts/latinfont) { get; set; } | Возвращает или задает латинский шрифт. Чтение/запись[`IFontData`](../ifontdata) . |
 
 ### Смотрите также
 

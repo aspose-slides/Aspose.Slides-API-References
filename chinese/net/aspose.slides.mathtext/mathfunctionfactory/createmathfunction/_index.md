@@ -16,12 +16,12 @@ public IMathFunction CreateMathFunction(IMathElement funcName, IMathElement base
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| funcName | IMathElement | 用作函数名称的元素 |
+| funcName | IMathElement | 用作函数名的元素 |
 | baseArgument | IMathElement | 用作函数参数的元素 |
 
 ### 返回值
 
-新数学函数
+新的数学函数
 
 ### 也可以看看
 
@@ -43,12 +43,12 @@ public IMathFunction CreateMathFunction(string funcName, IMathElement baseArgume
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| funcName | String | 函数名 |
+| funcName | String | 函数名称 |
 | baseArgument | IMathElement | 用作函数参数的元素 |
 
 ### 返回值
 
-新数学函数
+新的数学函数
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: ColumnSpacing
 second_title: Справочник по API Aspose.Slides для .NET
-description: Задает расстояние между текстовыми столбцами в текстовой области в пунктах. Только для чтенияSingle.
+description: Задает расстояние между текстовыми столбцами в текстовой области в пунктах. Только для чтенияSingle .
 type: docs
 weight: 50
 url: /ru/net/aspose.slides/itextframeformateffectivedata/columnspacing/
 ---
 ## ITextFrameFormatEffectiveData.ColumnSpacing property
 
-Задает расстояние между текстовыми столбцами в текстовой области (в пунктах). Только для чтенияSingle.
+Задает расстояние между текстовыми столбцами в текстовой области (в пунктах). Только для чтенияSingle .
 
 ```csharp
 public float ColumnSpacing { get; }

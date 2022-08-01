@@ -1,14 +1,14 @@
 ---
 title: ColumnCount
 second_title: Справочник по API Aspose.Slides для .NET
-description: Указывает количество столбцов текста в ограничивающем прямоугольнике. Только для чтенияInt32.
+description: Определяет количество столбцов текста в ограничивающем прямоугольнике. Только для чтенияInt32 .
 type: docs
 weight: 40
 url: /ru/net/aspose.slides/itextframeformateffectivedata/columncount/
 ---
 ## ITextFrameFormatEffectiveData.ColumnCount property
 
-Указывает количество столбцов текста в ограничивающем прямоугольнике. Только для чтенияInt32.
+Определяет количество столбцов текста в ограничивающем прямоугольнике. Только для чтенияInt32 .
 
 ```csharp
 public int ColumnCount { get; }

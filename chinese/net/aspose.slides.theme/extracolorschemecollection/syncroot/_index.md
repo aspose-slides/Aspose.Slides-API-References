@@ -1,16 +1,16 @@
 ---
 title: SyncRoot
 second_title: Aspose.Slides for .NET API 参考
-description: 返回一个可用于同步访问集合的对象 只读Object
+description: 返回一个可用于同步访问集合的对象 只读Object.
 type: docs
 weight: 40
 url: /zh/net/aspose.slides.theme/extracolorschemecollection/syncroot/
 ---
 ## ExtraColorSchemeCollection.SyncRoot property
 
-返回一个可用于同步访问集合的对象。 只读Object。
+返回一个可用于同步访问集合的对象。 只读Object.
 
-返回同步根。 只读Object。
+返回同步根。 只读Object.
 
 ```csharp
 public object SyncRoot { get; }

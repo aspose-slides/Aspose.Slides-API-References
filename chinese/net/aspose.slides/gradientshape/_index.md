@@ -1,14 +1,14 @@
 ---
 title: GradientShape
 second_title: Aspose.Slides for .NET API 参考
-description: 表示渐变填充的形状
+description: 代表渐变填充的形状
 type: docs
 weight: 4550
 url: /zh/net/aspose.slides/gradientshape/
 ---
 ## GradientShape enumeration
 
-表示渐变填充的形状。
+代表渐变填充的形状。
 
 ```csharp
 public enum GradientShape : sbyte

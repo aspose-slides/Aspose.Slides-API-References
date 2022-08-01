@@ -18,14 +18,14 @@ public interface ILayoutSlideCollection : IGenericCollection<ILayoutSlide>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Item](../../aspose.slides/ilayoutslidecollection/item) { get; } | 按索引返回布局幻灯片。 只读[`ILayoutSlide`](../ilayoutslide)。 |
+| [Item](../../aspose.slides/ilayoutslidecollection/item) { get; } | 按索引返回布局幻灯片。 只读[`ILayoutSlide`](../ilayoutslide). |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
 | [GetByType](../../aspose.slides/ilayoutslidecollection/getbytype)(SlideLayoutType) | 返回指定类型的第一张布局幻灯片。 |
-| [Remove](../../aspose.slides/ilayoutslidecollection/remove)(ILayoutSlide) | 从集合中删除布局。 |
+| [Remove](../../aspose.slides/ilayoutslidecollection/remove)(ILayoutSlide) | 从集合中删除一个布局。 |
 | [RemoveUnused](../../aspose.slides/ilayoutslidecollection/removeunused)() | 删除未使用的布局幻灯片（HasDependingSlides 为 false 的布局幻灯片）。 |
 
 ### 也可以看看

@@ -16,7 +16,7 @@ public IMathRadical Radical(IMathElement degree)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| степень | IMathElement | Аргумент радикала |
+| degree | IMathElement | Аргумент радикального |
 
 ### Возвращаемое значение
 
@@ -53,7 +53,7 @@ public IMathRadical Radical(string degree)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| степень | String | Аргумент радикала |
+| degree | String | Аргумент радикального |
 
 ### Возвращаемое значение
 

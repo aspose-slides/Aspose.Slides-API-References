@@ -1,14 +1,14 @@
 ---
 title: Bullet
 second_title: Aspose.Slides for .NET API 参考
-description: 返回段落的项目符号格式 只读IBulletFormataspose.slides/ibulletformat
+description: 返回段落的项目符号格式 只读IBulletFormataspose.slides/ibulletformat.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides/iparagraphformat/bullet/
 ---
 ## IParagraphFormat.Bullet property
 
-返回段落的项目符号格式。 只读[`IBulletFormat`](../../ibulletformat)。
+返回段落的项目符号格式。 只读[`IBulletFormat`](../../ibulletformat).
 
 ```csharp
 public IBulletFormat Bullet { get; }

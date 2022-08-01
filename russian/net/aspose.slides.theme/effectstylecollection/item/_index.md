@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает элемент в указанной позиции. Только для чтенияEffectStyleaspose.slides.theme/effectstyle.
+description: Возвращает элемент в указанной позиции. Только для чтенияEffectStyleaspose.slides.theme/effectstyle .
 type: docs
 weight: 30
 url: /ru/net/aspose.slides.theme/effectstylecollection/item/
 ---
 ## EffectStyleCollection indexer
 
-Возвращает элемент в указанной позиции. Только для чтения[`EffectStyle`](../../effectstyle).
+Возвращает элемент в указанной позиции. Только для чтения[`EffectStyle`](../../effectstyle) .
 
 ```csharp
 public IEffectStyle this[int index] { get; }
@@ -16,7 +16,7 @@ public IEffectStyle this[int index] { get; }
 
 | Параметр | Описание |
 | --- | --- |
-| index | Позиция элемента. |
+| index | Положение элемента. |
 
 ### Возвращаемое значение
 

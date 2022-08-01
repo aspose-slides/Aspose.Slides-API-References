@@ -1,14 +1,14 @@
 ---
 title: ValueType
 second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет возможные способы определения длины планок ошибок. В случае пользовательского типа значения для указания значения используйтеErrorBarsCustomValuesaspose.slides.charts/ichartdatapoint/errorbarscustomvaluesсвойство конкретной точки данных в наборе рядов DataPoints. Чтение/записьErrorBarValueTypeaspose.slides.charts/errorbarvaluetype.
+description: Представляет возможные способы определения длины полос ошибок. В случае пользовательского типа значения для указания использования значенияErrorBarsCustomValuesaspose.slides.charts/ichartdatapoint/errorbarscustomvalues свойство конкретной точки данных в наборе рядов DataPoints. Чтение/записьErrorBarValueTypeaspose.slides.charts/errorbarvaluetype .
 type: docs
 weight: 70
 url: /ru/net/aspose.slides.charts/ierrorbarsformat/valuetype/
 ---
 ## IErrorBarsFormat.ValueType property
 
-Представляет возможные способы определения длины планок ошибок. В случае пользовательского типа значения для указания значения используйте[`ErrorBarsCustomValues`](../../ichartdatapoint/errorbarscustomvalues)свойство конкретной точки данных в наборе рядов DataPoints. Чтение/запись[`ErrorBarValueType`](../../errorbarvaluetype).
+Представляет возможные способы определения длины полос ошибок. В случае пользовательского типа значения для указания использования значения[`ErrorBarsCustomValues`](../../ichartdatapoint/errorbarscustomvalues) свойство конкретной точки данных в наборе рядов DataPoints. Чтение/запись[`ErrorBarValueType`](../../errorbarvaluetype) .
 
 ```csharp
 public ErrorBarValueType ValueType { get; set; }

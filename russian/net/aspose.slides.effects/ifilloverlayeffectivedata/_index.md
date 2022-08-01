@@ -18,9 +18,9 @@ public interface IFillOverlayEffectiveData : IEffectEffectiveData
 
 | Имя | Описание |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ifilloverlayeffectivedata/asieffecteffectivedata) { get; } | Позволяет получить базовый интерфейс IEffectEffectiveData. Только для чтения[`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Blend](../../aspose.slides.effects/ifilloverlayeffectivedata/blend) { get; } | FillBlendMode. Только для чтения[`FillBlendMode`](../../aspose.slides/fillblendmode). |
-| [FillFormat](../../aspose.slides.effects/ifilloverlayeffectivedata/fillformat) { get; } | Формат заполнения. Только для чтения[`IFillFormatEffectiveData`](../../aspose.slides/ifillformateffectivedata). |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ifilloverlayeffectivedata/asieffecteffectivedata) { get; } | Позволяет получить базовый интерфейс IEffectEffectiveData. Только для чтения[`IEffectEffectiveData`](../ieffecteffectivedata) . |
+| [Blend](../../aspose.slides.effects/ifilloverlayeffectivedata/blend) { get; } | FillBlendMode. Только для чтения[`FillBlendMode`](../../aspose.slides/fillblendmode) . |
+| [FillFormat](../../aspose.slides.effects/ifilloverlayeffectivedata/fillformat) { get; } | Формат заполнения. Только для чтения[`IFillFormatEffectiveData`](../../aspose.slides/ifillformateffectivedata) . |
 
 ### Смотрите также
 

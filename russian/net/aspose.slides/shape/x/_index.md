@@ -1,14 +1,14 @@
 ---
 title: X
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или задает координату x левого верхнего угла фигуры. Чтение/записьSingle.
+description: Возвращает или задает координату x левого верхнего угла фигуры. Чтение/записьSingle .
 type: docs
 weight: 290
 url: /ru/net/aspose.slides/shape/x/
 ---
 ## Shape.X property
 
-Возвращает или задает координату x левого верхнего угла фигуры. Чтение/записьSingle.
+Возвращает или задает координату x левого верхнего угла фигуры. Чтение/записьSingle .
 
 ```csharp
 public float X { get; set; }

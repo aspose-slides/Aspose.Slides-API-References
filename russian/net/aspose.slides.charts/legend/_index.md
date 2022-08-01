@@ -18,18 +18,18 @@ public class Legend : DomObject<Chart>, ILegend
 
 | Имя | Описание |
 | --- | --- |
-| [Bottom](../../aspose.slides.charts/legend/bottom) { get; } | Снизу. Только для чтенияSingle. |
-| [Chart](../../aspose.slides.charts/legend/chart) { get; } | Возвращает диаграмму. Только для чтения[`IChart`](../ichart). |
-| [Entries](../../aspose.slides.charts/legend/entries) { get; } | Получает записи легенды. Только для чтения[`ILegendEntryCollection`](../ilegendentrycollection). |
-| [Format](../../aspose.slides.charts/legend/format) { get; } | Возвращает формат легенды. Только для чтения[`IFormat`](../iformat). |
-| [Height](../../aspose.slides.charts/legend/height) { get; set; } | Возвращает или задает высоту легенды как часть высоты диаграммы. Чтение/записьSingle. |
-| [Overlay](../../aspose.slides.charts/legend/overlay) { get; set; } | Определяет, разрешено ли другим элементам диаграммы перекрывать легенду. Чтение/записьBoolean. |
-| [Position](../../aspose.slides.charts/legend/position) { get; set; } | Указывает положение легенды на диаграмме. Значения свойств X, Y, Width, Heigt, отличные от NaN, переопределяют эффект этого свойства. Чтение/запись[`LegendPositionType`](../legendpositiontype). |
-| [Right](../../aspose.slides.charts/legend/right) { get; } | Верно. Только для чтенияSingle. |
-| [TextFormat](../../aspose.slides.charts/legend/textformat) { get; } | Текстовый формат. Только чтение[`IChartTextFormat`](../icharttextformat). |
-| [Width](../../aspose.slides.charts/legend/width) { get; set; } | Возвращает или задает ширину легенды как часть ширины диаграммы. Чтение/записьSingle. |
-| [X](../../aspose.slides.charts/legend/x) { get; set; } | Возвращает или задает координату x легенды как часть ширины диаграммы. Чтение/записьSingle. |
-| [Y](../../aspose.slides.charts/legend/y) { get; set; } | Возвращает или задает координату y легенды как часть высоты диаграммы. Чтение/записьSingle. |
+| [Bottom](../../aspose.slides.charts/legend/bottom) { get; } | Низ. Только для чтенияSingle . |
+| [Chart](../../aspose.slides.charts/legend/chart) { get; } | Возвращает диаграмму. Только для чтения[`IChart`](../ichart) . |
+| [Entries](../../aspose.slides.charts/legend/entries) { get; } | Получает записи легенды. Только для чтения[`ILegendEntryCollection`](../ilegendentrycollection) . |
+| [Format](../../aspose.slides.charts/legend/format) { get; } | Возвращает формат легенды. Только для чтения[`IFormat`](../iformat) . |
+| [Height](../../aspose.slides.charts/legend/height) { get; set; } | Возвращает или задает высоту легенды как часть высоты диаграммы. Чтение/записьSingle . |
+| [Overlay](../../aspose.slides.charts/legend/overlay) { get; set; } | Определяет, разрешено ли другим элементам диаграммы перекрывать легенду. Чтение/записьBoolean . |
+| [Position](../../aspose.slides.charts/legend/position) { get; set; } | Указывает положение легенды на диаграмме. Значения свойств X, Y, Width, Heigt, отличные от NaN, переопределяют действие этого свойства. Чтение/запись[`LegendPositionType`](../legendpositiontype) . |
+| [Right](../../aspose.slides.charts/legend/right) { get; } | Верно. Только для чтенияSingle . |
+| [TextFormat](../../aspose.slides.charts/legend/textformat) { get; } | Текстовый формат. Только для чтения[`IChartTextFormat`](../icharttextformat) . |
+| [Width](../../aspose.slides.charts/legend/width) { get; set; } | Возвращает или задает ширину легенды как часть ширины диаграммы. Чтение/записьSingle . |
+| [X](../../aspose.slides.charts/legend/x) { get; set; } | Возвращает или задает координату x легенды как часть ширины диаграммы. Чтение/записьSingle . |
+| [Y](../../aspose.slides.charts/legend/y) { get; set; } | Возвращает или задает координату y легенды как часть высоты диаграммы. Чтение/записьSingle . |
 
 ### Смотрите также
 

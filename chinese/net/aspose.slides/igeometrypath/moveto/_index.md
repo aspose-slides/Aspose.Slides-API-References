@@ -1,14 +1,14 @@
 ---
 title: MoveTo
 second_title: Aspose.Slides for .NET API 参考
-description: 设置下一个点的位置
+description: 设置下一个点位置
 type: docs
 weight: 80
 url: /zh/net/aspose.slides/igeometrypath/moveto/
 ---
 ## MoveTo(PointF) {#moveto_1}
 
-设置下一个点的位置。
+设置下一个点位置。
 
 ```csharp
 public void MoveTo(PointF point)
@@ -28,7 +28,7 @@ public void MoveTo(PointF point)
 
 ## MoveTo(float, float) {#moveto}
 
-设置下一个点的位置。
+设置下一个点位置。
 
 ```csharp
 public void MoveTo(float x, float y)
@@ -36,8 +36,8 @@ public void MoveTo(float x, float y)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| x | Single | 点的 X 坐标 |
-| y | Single | Y 坐标点 |
+| x | Single | 点的X坐标 |
+| y | Single | 点的Y坐标 |
 
 ### 也可以看看
 

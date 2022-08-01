@@ -1,14 +1,14 @@
 ---
 title: AutoAdjust
 second_title: Aspose.Slides for .NET API 参考
-description: 指定在应用程序中调整包含视图的窗口大小时侧边内容区域的大小是否应补偿新大小 读/写Boolean
+description: 指定在应用程序中调整包含视图的窗口大小时侧面内容区域的大小是否应补偿新的大小 读/写Boolean.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides/inormalviewrestoredproperties/autoadjust/
 ---
 ## INormalViewRestoredProperties.AutoAdjust property
 
-指定在应用程序中调整包含视图的窗口大小时，侧边内容区域的大小是否应补偿新大小 读/写Boolean。
+指定在应用程序中调整包含视图的窗口大小时，侧面内容区域的大小是否应补偿新的大小 读/写Boolean.
 
 ```csharp
 public bool AutoAdjust { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: WriteAllFonts
 second_title: Справочник по API Aspose.Slides для .NET
-description: Написать все шрифты содержащиеся вPresentationaspose.slides/presentation.
+description: Записать все шрифты содержащиеся вPresentationaspose.slides/presentation .
 type: docs
 weight: 20
 url: /ru/net/aspose.slides.export/embedallfontshtmlcontroller/writeallfonts/
 ---
 ## EmbedAllFontsHtmlController.WriteAllFonts method
 
-Написать все шрифты, содержащиеся в[`Presentation`](../../../aspose.slides/presentation).
+Записать все шрифты, содержащиеся в[`Presentation`](../../../aspose.slides/presentation) .
 
 ```csharp
 public virtual void WriteAllFonts(IHtmlGenerator generator, IPresentation presentation)
@@ -16,8 +16,8 @@ public virtual void WriteAllFonts(IHtmlGenerator generator, IPresentation presen
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| генератор | IHtmlGenerator | Выходной объект. |
-| presentation | IPresentation | Презентация, которая отображается в данный момент. |
+| generator | IHtmlGenerator | Выходной объект. |
+| presentation | IPresentation | Презентация, которая в настоящее время отображается. |
 
 ### Смотрите также
 

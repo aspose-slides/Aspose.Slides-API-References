@@ -18,7 +18,7 @@ public void Remove()
 
 | исключение | условие |
 | --- | --- |
-| [PptxEditException](../../../aspose.slides/pptxeditexception) | Генерируется, если точка данных уже удалена из серии диаграмм. |
+| [PptxEditException](../../../aspose.slides/pptxeditexception) | Выбрасывается, если точка данных уже удалена из ряда диаграммы. |
 
 ### Смотрите также
 

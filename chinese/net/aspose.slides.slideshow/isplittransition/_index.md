@@ -18,9 +18,9 @@ public interface ISplitTransition : ITransitionValueBase
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/isplittransition/asitransitionvaluebase) { get; } | 允许获取基本 ITransitionValueBase 接口。 只读[`ITransitionValueBase`](../itransitionvaluebase)。 |
-| [Direction](../../aspose.slides.slideshow/isplittransition/direction) { get; set; } | 过渡分割方向。 读/写[`TransitionInOutDirectionType`](../transitioninoutdirectiontype)。 |
-| [Orientation](../../aspose.slides.slideshow/isplittransition/orientation) { get; set; } | 过渡分割的方向。 读/写[`Orientation`](../../aspose.slides/orientation)。 |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/isplittransition/asitransitionvaluebase) { get; } | 允许获取基本 ITransitionValueBase 接口。 只读[`ITransitionValueBase`](../itransitionvaluebase). |
+| [Direction](../../aspose.slides.slideshow/isplittransition/direction) { get; set; } | 转换分割方向。 读/写[`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
+| [Orientation](../../aspose.slides.slideshow/isplittransition/orientation) { get; set; } | 转换分割的方向。 读/写[`Orientation`](../../aspose.slides/orientation). |
 
 ### 也可以看看
 

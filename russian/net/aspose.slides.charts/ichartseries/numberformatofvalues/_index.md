@@ -1,14 +1,14 @@
 ---
 title: NumberFormatOfValues
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или задает числовой формат для серийных значений. Чтение/записьString.
+description: Возвращает или задает числовой формат для значений серий. Чтение/записьString .
 type: docs
 weight: 230
 url: /ru/net/aspose.slides.charts/ichartseries/numberformatofvalues/
 ---
 ## IChartSeries.NumberFormatOfValues property
 
-Возвращает или задает числовой формат для серийных значений. Чтение/записьString.
+Возвращает или задает числовой формат для значений серий. Чтение/записьString .
 
 ```csharp
 public string NumberFormatOfValues { get; set; }

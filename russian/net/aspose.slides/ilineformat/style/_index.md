@@ -1,14 +1,14 @@
 ---
 title: Style
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или задает стиль линии. Чтение/записьLineStyleaspose.slides/linestyle.
+description: Возвращает или задает стиль линии. Чтение/записьLineStyleaspose.slides/linestyle .
 type: docs
 weight: 170
 url: /ru/net/aspose.slides/ilineformat/style/
 ---
 ## ILineFormat.Style property
 
-Возвращает или задает стиль линии. Чтение/запись[`LineStyle`](../../linestyle).
+Возвращает или задает стиль линии. Чтение/запись[`LineStyle`](../../linestyle) .
 
 ```csharp
 public LineStyle Style { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: IStringChartValue
 second_title: Aspose.Slides for .NET API 参考
-description: 表示字符串值可以通过两种方式存储在 pptx 演示文档中 1在与图表相关的工作簿的单元格中 2 作为文字值
+description: 表示字符串值可以两种方式存储在 pptx 演示文档中 1在与图表相关的工作簿的单元格中 2作为文字值
 type: docs
 weight: 2080
 url: /zh/net/aspose.slides.charts/istringchartvalue/
 ---
 ## IStringChartValue interface
 
-表示字符串值，可以通过两种方式存储在 pptx 演示文档中: 1）在与图表相关的工作簿的单元格中； 2) 作为文字值。
+表示字符串值，可以两种方式存储在 pptx 演示文档中： 1）在与图表相关的工作簿的单元格中； 2）作为文字值。
 
 ```csharp
 public interface IStringChartValue : IMultipleCellChartValue
@@ -18,16 +18,16 @@ public interface IStringChartValue : IMultipleCellChartValue
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsIMultipleCellChartValue](../../aspose.slides.charts/istringchartvalue/asimultiplecellchartvalue) { get; } | 允许获取基本的 IMultipleCellChartValue 接口。 只读[`IMultipleCellChartValue`](../imultiplecellchartvalue)。 |
-| [AsLiteralString](../../aspose.slides.charts/istringchartvalue/asliteralstring) { get; set; } | 如果 DataSourceType 属性是 DataSourceType.StringLiterals，则返回或设置文字字符串。 读/写String。 |
+| [AsIMultipleCellChartValue](../../aspose.slides.charts/istringchartvalue/asimultiplecellchartvalue) { get; } | 允许获取基本 IMultipleCellChartValue 接口。 只读[`IMultipleCellChartValue`](../imultiplecellchartvalue). |
+| [AsLiteralString](../../aspose.slides.charts/istringchartvalue/asliteralstring) { get; set; } | 如果 DataSourceType 属性为 DataSourceType.StringLiterals. 读/写，则返回或设置文字字符串String. |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [GetCellsAddressInWorkbook](../../aspose.slides.charts/istringchartvalue/getcellsaddressinworkbook)() | 如果 DataSourceType 属性是 DataSourceType.Worksheet 则此方法返回地址 工作簿中表示字符串数据的单元格。否则返回 空字符串。 |
-| [SetFromOneCell](../../aspose.slides.charts/istringchartvalue/setfromonecell)(IChartDataCell) | 从指定单元格设置值。 |
-| [ToString](../../aspose.slides.charts/istringchartvalue/tostring)() | 返回字符串表示。 |
+| [GetCellsAddressInWorkbook](../../aspose.slides.charts/istringchartvalue/getcellsaddressinworkbook)() | 如果 DataSourceType 属性是 DataSourceType.Worksheet，则此方法返回工作簿中表示字符串数据的单元格的 address 。否则返回 空字符串. |
+| [SetFromOneCell](../../aspose.slides.charts/istringchartvalue/setfromonecell)(IChartDataCell) | 设置指定单元格的值。 |
+| [ToString](../../aspose.slides.charts/istringchartvalue/tostring)() | 返回字符串表示形式。 |
 
 ### 也可以看看
 

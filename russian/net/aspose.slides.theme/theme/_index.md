@@ -18,16 +18,16 @@ public abstract class Theme : ITheme
 
 | Имя | Описание |
 | --- | --- |
-| abstract [ColorScheme](../../aspose.slides.theme/theme/colorscheme) { get; } | Возвращает цветовую схему. Только для чтения[`IColorScheme`](../icolorscheme). |
-| abstract [FontScheme](../../aspose.slides.theme/theme/fontscheme) { get; } | Возвращает схему шрифта. Только для чтения[`IFontScheme`](../ifontscheme). |
-| abstract [FormatScheme](../../aspose.slides.theme/theme/formatscheme) { get; } | Возвращает схему формата формы. Только для чтения[`IFormatScheme`](../iformatscheme). |
-| [Presentation](../../aspose.slides.theme/theme/presentation) { get; } | Возвращает родительскую презентацию. Только чтение[`IPresentation`](../../aspose.slides/ipresentation). |
+| abstract [ColorScheme](../../aspose.slides.theme/theme/colorscheme) { get; } | Возвращает цветовую схему. Только для чтения[`IColorScheme`](../icolorscheme) . |
+| abstract [FontScheme](../../aspose.slides.theme/theme/fontscheme) { get; } | Возвращает схему шрифта. Только для чтения[`IFontScheme`](../ifontscheme) . |
+| abstract [FormatScheme](../../aspose.slides.theme/theme/formatscheme) { get; } | Возвращает схему формата формы. Только для чтения[`IFormatScheme`](../iformatscheme) . |
+| [Presentation](../../aspose.slides.theme/theme/presentation) { get; } | Возвращает родительскую презентацию. Только для чтения[`IPresentation`](../../aspose.slides/ipresentation) . |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [GetEffective](../../aspose.slides.theme/theme/geteffective)() | Получает эффективные данные темы с примененным наследованием. |
+| [GetEffective](../../aspose.slides.theme/theme/geteffective)() | Получает действующие данные темы с применением наследования. |
 
 ### Смотрите также
 

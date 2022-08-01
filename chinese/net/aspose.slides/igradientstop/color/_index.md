@@ -1,14 +1,14 @@
 ---
 title: Color
 second_title: Aspose.Slides for .NET API 参考
-description: 返回渐变色标的颜色 只读IColorFormataspose.slides/icolorformat
+description: 返回渐变色标的颜色 只读IColorFormataspose.slides/icolorformat.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides/igradientstop/color/
 ---
 ## IGradientStop.Color property
 
-返回渐变色标的颜色。 只读[`IColorFormat`](../../icolorformat)。
+返回渐变色标的颜色。 只读[`IColorFormat`](../../icolorformat).
 
 ```csharp
 public IColorFormat Color { get; }

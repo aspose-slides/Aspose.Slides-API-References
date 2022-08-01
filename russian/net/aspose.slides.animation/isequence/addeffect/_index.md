@@ -17,10 +17,10 @@ public IEffect AddEffect(IShape shape, EffectType effectType, EffectSubtype subt
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| shape | IShape | Shape object[`IShape`](../../../aspose.slides/ishape)для добавления эффекта |
+| shape | IShape | Объект формы[`IShape`](../../../aspose.slides/ishape) для добавления эффекта |
 | effectType | EffectType | Тип эффекта анимации[`EffectType`](../../effecttype) |
-| subtype | EffectSubtype | Подтипы эффекта анимации[`EffectSubtype`](../../effectsubtype) |
-| triggerType | EffectTriggerType | Тип эффекта запуска[`EffectTriggerType`](../../effecttriggertype) |
+| subtype | EffectSubtype | Подтипы анимационного эффекта[`EffectSubtype`](../../effectsubtype) |
+| triggerType | EffectTriggerType | Триггерный тип эффекта[`EffectTriggerType`](../../effecttriggertype) |
 
 ### Возвращаемое значение
 
@@ -52,8 +52,8 @@ public IEffect AddEffect(IParagraph paragraph, EffectType effectType, EffectSubt
 | --- | --- | --- |
 | paragraph | IParagraph | Объект абзаца[`IParagraph`](../../../aspose.slides/iparagraph) |
 | effectType | EffectType | Тип эффекта анимации[`EffectType`](../../effecttype) |
-| subtype | EffectSubtype | Подтипы эффекта анимации[`EffectSubtype`](../../effectsubtype) |
-| triggerType | EffectTriggerType | Тип эффекта триггера[`EffectTriggerType`](../../effecttriggertype) |
+| subtype | EffectSubtype | Подтипы анимационного эффекта[`EffectSubtype`](../../effectsubtype) |
+| triggerType | EffectTriggerType | Триггерный тип эффекта[`EffectTriggerType`](../../effecttriggertype) |
 
 ### Возвращаемое значение
 
@@ -65,11 +65,11 @@ public IEffect AddEffect(IParagraph paragraph, EffectType effectType, EffectSubt
 [C#]
 using(Presentation presentation = new Presentation(path + "input.pptx"))
 {        
-   // выберите абзац для добавления effect
+   // выделить абзац для добавления эффекта
    IAutoShape autoShape = (IAutoShape)presentation.Slides[0].Shapes[0];
    IParagraph paragraph = autoShape.TextFrame.Paragraphs[0];
 
-    // добавить эффект анимации полета к выбранному параграфу
+   // добавить эффект анимации полета к выделенному абзацу
    IEffect effect = presentation.Slides[0].Timeline.MainSequence.AddEffect(
    paragraph, EffectType.Fly, EffectSubtype.Left, EffectTriggerType.OnClick);
 }
@@ -101,10 +101,10 @@ public IEffect AddEffect(IChart chart, EffectChartMajorGroupingType type, int in
 | --- | --- | --- |
 | chart | IChart | Объект диаграммы[`IChart`](../../../aspose.slides.charts/ichart) |
 | type | EffectChartMajorGroupingType | Тип эффекта анимации[`EffectChartMinorGroupingType`](../../effectchartminorgroupingtype) |
-| index | Int32 | IndexInt32 |
+| index | Int32 | ИндексInt32 |
 | effectType | EffectType | Тип эффекта анимации[`EffectType`](../../effecttype) |
-| subtype | EffectSubtype | Подтипы эффекта анимации[`EffectSubtype`](../../effectsubtype) |
-| triggerType | EffectTriggerType | Тип эффекта триггера[`EffectTriggerType`](../../effecttriggertype) |
+| subtype | EffectSubtype | Подтипы анимационного эффекта[`EffectSubtype`](../../effectsubtype) |
+| triggerType | EffectTriggerType | Триггерный тип эффекта[`EffectTriggerType`](../../effecttriggertype) |
 
 ### Возвращаемое значение
 
@@ -141,8 +141,8 @@ public IEffect AddEffect(IChart chart, EffectChartMinorGroupingType type, int se
 | seriesIndex | Int32 | Индекс серии диаграммInt32 |
 | categoriesIndex | Int32 | Индекс категорииInt32 |
 | effectType | EffectType | Тип эффекта анимации[`EffectType`](../../effecttype) |
-| subtype | EffectSubtype | Подтипы эффекта анимации[`EffectSubtype`](../../effectsubtype) |
-| triggerType | EffectTriggerType | Тип эффекта триггера[`EffectTriggerType`](../../effecttriggertype) |
+| subtype | EffectSubtype | Подтипы анимационного эффекта[`EffectSubtype`](../../effectsubtype) |
+| triggerType | EffectTriggerType | Триггерный тип эффекта[`EffectTriggerType`](../../effecttriggertype) |
 
 ### Возвращаемое значение
 

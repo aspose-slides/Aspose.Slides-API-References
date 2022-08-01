@@ -1,14 +1,14 @@
 ---
 title: IMathBar
 second_title: Aspose.Slides for .NET API 参考
-description: 指定 bar 函数由基本参数和上划线或下划线组成
+description: 指定 bar 函数由一个基本参数和一个 overbar 或 underbar 组成
 type: docs
 weight: 7410
 url: /zh/net/aspose.slides.mathtext/imathbar/
 ---
 ## IMathBar interface
 
-指定 bar 函数，由基本参数和上划线或下划线组成
+指定 bar 函数，由一个基本参数和一个 overbar 或 underbar 组成
 
 ```csharp
 public interface IMathBar : IMathElement
@@ -20,11 +20,11 @@ public interface IMathBar : IMathElement
 | --- | --- |
 | [AsIMathElement](../../aspose.slides.mathtext/imathbar/asimathelement) { get; } | 允许获取基础 IMathElement 接口 [`IMathElement`](../imathelement) |
 | [Base](../../aspose.slides.mathtext/imathbar/base) { get; } | 基本参数 |
-| [Position](../../aspose.slides.mathtext/imathbar/position) { get; set; } | 柱线的位置。 默认值:顶部 |
+| [Position](../../aspose.slides.mathtext/imathbar/position) { get; set; } | 条线的位置。 默认值：Top |
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]

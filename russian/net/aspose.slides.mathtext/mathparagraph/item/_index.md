@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Справочник по API Aspose.Slides для .NET
-description: Получает элемент по указанному индексу. Только для чтенияIMathBlockaspose.slides.mathtext/imathblock.
+description: Получает элемент по указанному индексу. Только для чтенияIMathBlockaspose.slides.mathtext/imathblock .
 type: docs
 weight: 30
 url: /ru/net/aspose.slides.mathtext/mathparagraph/item/
 ---
 ## MathParagraph indexer
 
-Получает элемент по указанному индексу. Только для чтения[`IMathBlock`](../../imathblock).
+Получает элемент по указанному индексу. Только для чтения[`IMathBlock`](../../imathblock) .
 
 ```csharp
 public IMathBlock this[int index] { get; set; }

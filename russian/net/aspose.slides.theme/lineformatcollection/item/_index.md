@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Справочник по API Aspose.Slides для .NET
-description: Получает элемент по указанному индексу. Только для чтенияILineFormataspose.slides/ilineformat.
+description: Получает элемент по указанному индексу. Только для чтенияILineFormataspose.slides/ilineformat .
 type: docs
 weight: 30
 url: /ru/net/aspose.slides.theme/lineformatcollection/item/
 ---
 ## LineFormatCollection indexer
 
-Получает элемент по указанному индексу. Только для чтения[`ILineFormat`](../../../aspose.slides/ilineformat).
+Получает элемент по указанному индексу. Только для чтения[`ILineFormat`](../../../aspose.slides/ilineformat) .
 
 ```csharp
 public ILineFormat this[int index] { get; }

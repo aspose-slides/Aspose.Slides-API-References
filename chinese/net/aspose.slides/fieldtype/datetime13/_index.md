@@ -1,14 +1,14 @@
 ---
 title: DateTime13
 second_title: Aspose.Slides for .NET API 参考
-description: 当前日期和时间采用第十三种预定义格式英语为 hhmmss AM/PM 只读FieldTypeaspose.slides/fieldtype
+description: 以第 13 种预定义格式表示的当前日期和时间英语为 hhmmss AM/PM 只读FieldTypeaspose.slides/fieldtype.
 type: docs
 weight: 70
 url: /zh/net/aspose.slides/fieldtype/datetime13/
 ---
 ## FieldType.DateTime13 property
 
-当前日期和时间，采用第十三种预定义格式（英语为 hh:mm:ss AM/PM）。 只读[`FieldType`](../../fieldtype)。
+以第 13 种预定义格式表示的当前日期和时间（英语为 hh:mm:ss AM/PM）。 只读[`FieldType`](../../fieldtype).
 
 ```csharp
 public static FieldType DateTime13 { get; }

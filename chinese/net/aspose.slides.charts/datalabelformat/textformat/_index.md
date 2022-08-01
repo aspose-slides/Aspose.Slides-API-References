@@ -1,14 +1,14 @@
 ---
 title: TextFormat
 second_title: Aspose.Slides for .NET API 参考
-description: 返回图表文本格式 只读IChartTextFormataspose.slides.charts/icharttextformat
+description: 返回图表文本格式 只读IChartTextFormataspose.slides.charts/icharttextformat.
 type: docs
 weight: 160
 url: /zh/net/aspose.slides.charts/datalabelformat/textformat/
 ---
 ## DataLabelFormat.TextFormat property
 
-返回图表文本格式。 只读[`IChartTextFormat`](../../icharttextformat)。
+返回图表文本格式。 只读[`IChartTextFormat`](../../icharttextformat).
 
 ```csharp
 public IChartTextFormat TextFormat { get; }

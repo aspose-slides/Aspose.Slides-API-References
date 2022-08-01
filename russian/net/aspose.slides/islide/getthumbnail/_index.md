@@ -17,7 +17,7 @@ public Bitmap GetThumbnail(float scaleX, float scaleY)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | scaleX | Single | Значение, на которое следует масштабировать этот эскиз в направлении оси x. |
-| scaleY | Single | Значение, на которое следует масштабировать этот эскиз по оси Y. |
+| scaleY | Single | Значение, на которое следует масштабировать эту миниатюру по оси Y. |
 
 ### Возвращаемое значение
 
@@ -61,7 +61,7 @@ public Bitmap GetThumbnail(Size imageSize)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| imageSize | Size | Размер создаваемого образа. |
+| imageSize | Size | Размер образа для создания. |
 
 ### Возвращаемое значение
 
@@ -85,7 +85,7 @@ public Bitmap GetThumbnail(ITiffOptions options)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| options | ITiffOptions | Опции Tiff. |
+| options | ITiffOptions | Тифф варианты. |
 
 ### Возвращаемое значение
 
@@ -110,7 +110,7 @@ public Bitmap GetThumbnail(IRenderingOptions options)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| options | IRenderingOptions | Параметры рендеринга. |
+| options | IRenderingOptions | Варианты рендеринга. |
 
 ### Возвращаемое значение
 
@@ -135,9 +135,9 @@ public Bitmap GetThumbnail(IRenderingOptions options, float scaleX, float scaleY
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| options | IRenderingOptions | Параметры рендеринга. |
-| scaleX | Single | Значение, на которое масштабируется эта миниатюра в направлении оси x. |
-| scaleY | Single | Значение, на которое следует масштабировать этот эскиз по оси Y. |
+| options | IRenderingOptions | Варианты рендеринга. |
+| scaleX | Single | Значение, на которое следует масштабировать этот эскиз в направлении оси x. |
+| scaleY | Single | Значение, на которое следует масштабировать эту миниатюру по оси Y. |
 
 ### Возвращаемое значение
 
@@ -162,8 +162,8 @@ public Bitmap GetThumbnail(IRenderingOptions options, Size imageSize)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| options | IRenderingOptions | Параметры рендеринга. |
-| imageSize | Size | Размер создаваемого образа. |
+| options | IRenderingOptions | Варианты рендеринга. |
+| imageSize | Size | Размер образа для создания. |
 
 ### Возвращаемое значение
 

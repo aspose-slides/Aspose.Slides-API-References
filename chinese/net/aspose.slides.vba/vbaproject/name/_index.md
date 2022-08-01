@@ -1,14 +1,14 @@
 ---
 title: Name
 second_title: Aspose.Slides for .NET API 参考
-description: 返回 VBA 项目的名称 只读String
+description: 返回 VBA 项目的名称 只读String.
 type: docs
 weight: 30
 url: /zh/net/aspose.slides.vba/vbaproject/name/
 ---
 ## VbaProject.Name property
 
-返回 VBA 项目的名称。 只读String。
+返回 VBA 项目的名称。 只读String.
 
 ```csharp
 public string Name { get; }

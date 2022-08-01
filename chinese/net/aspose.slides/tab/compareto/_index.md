@@ -20,7 +20,7 @@ public int CompareTo(object obj)
 
 ### 返回值
 
-一个 32 位整数，表示比较数的相对顺序。 返回值的含义如下: &lt;UL&gt;&lt;LI&gt; &lt; 0 - 此实例小于 obj。&lt;/LI&gt;&lt;LI&gt; = 0 - 此实例等于 obj。&lt;/LI&gt;&lt;LI&gt; &gt; 0 - 此实例大于 obj。&lt;/LI&gt;&lt;/UL&gt;
+一个 32 位整数，表示比较数的相对顺序。 返回值有以下含义：  &lt; 0 - 此实例小于 obj。 = 0 - 此实例等于 obj。 &gt; 0 - 此实例大于 obj。
 
 ### 也可以看看
 

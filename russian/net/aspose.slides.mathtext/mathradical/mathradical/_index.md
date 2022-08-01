@@ -16,8 +16,8 @@ public MathRadical(IMathElement baseArgument, IMathElement degreeArgument)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| baseArgument | IMathElement | Base |
-| gradeArgument | IMathElement | Степень |
+| baseArgument | IMathElement | База |
+| degreeArgument | IMathElement | Степень |
 
 ### Примеры
 

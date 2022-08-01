@@ -24,7 +24,7 @@ public VbaProject()
 
 ## VbaProject(byte[]) {#constructor_1}
 
-Этот конструктор загружает проект VBA из бинарного представления контейнера OLE.
+Этот конструктор загружает проект VBA из двоичного представления контейнера OLE.
 
 ```csharp
 public VbaProject(byte[] data)

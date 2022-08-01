@@ -1,14 +1,14 @@
 ---
 title: GetConcatenatedValuesFromCells
 second_title: Aspose.Slides for .NET API 参考
-description: 来自所有单元格字符串值的连接字符串
+description: 来自所有单元格字符串值的串联字符串
 type: docs
 weight: 60
 url: /zh/net/aspose.slides.charts/ichartcellcollection/getconcatenatedvaluesfromcells/
 ---
 ## IChartCellCollection.GetConcatenatedValuesFromCells method
 
-来自所有单元格字符串值的连接字符串。
+来自所有单元格字符串值的串联字符串。
 
 ```csharp
 public string GetConcatenatedValuesFromCells()

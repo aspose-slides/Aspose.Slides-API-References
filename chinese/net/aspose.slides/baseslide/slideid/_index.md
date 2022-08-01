@@ -1,14 +1,14 @@
 ---
 title: SlideId
 second_title: Aspose.Slides for .NET API 参考
-description: 返回幻灯片的 ID 只读UInt32
+description: 返回幻灯片的 ID 只读UInt32.
 type: docs
 weight: 90
 url: /zh/net/aspose.slides/baseslide/slideid/
 ---
 ## BaseSlide.SlideId property
 
-返回幻灯片的 ID。 只读UInt32。
+返回幻灯片的 ID。 只读UInt32.
 
 ```csharp
 public uint SlideId { get; }

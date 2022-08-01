@@ -1,14 +1,14 @@
 ---
 title: Image
 second_title: Aspose.Slides for .NET API 参考
-description: 获取 Syste.Drawing.Image 只读Imageaspose.slides/iimagewrapper/image
+description: 获取 Syste.Drawing.Image 只读Imageaspose.slides/iimagewrapper/image.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides/iimagewrapper/image/
 ---
 ## IImageWrapper.Image property
 
-获取 Syste.Drawing.Image 只读`Image`。
+获取 Syste.Drawing.Image 只读`Image`.
 
 ```csharp
 public Image Image { get; }

@@ -1,14 +1,14 @@
 ---
 title: TitleStyle
 second_title: Aspose.Slides for .NET API 参考
-description: 返回标题文本的样式 只读ITextStyleaspose.slides/itextstyle
+description: 返回标题文本的样式 只读ITextStyleaspose.slides/itextstyle.
 type: docs
 weight: 90
 url: /zh/net/aspose.slides/imasterslide/titlestyle/
 ---
 ## IMasterSlide.TitleStyle property
 
-返回标题文本的样式。 只读[`ITextStyle`](../../itextstyle)。
+返回标题文本的样式。 只读[`ITextStyle`](../../itextstyle).
 
 ```csharp
 public ITextStyle TitleStyle { get; }

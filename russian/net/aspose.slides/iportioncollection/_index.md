@@ -18,8 +18,8 @@ public interface IPortionCollection : IEnumerable<IPortion>
 
 | Имя | Описание |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides/iportioncollection/asienumerable) { get; } | Возвращает интерфейс IEnumerable. Только для чтенияIEnumerable. |
-| [Count](../../aspose.slides/iportioncollection/count) { get; } | Получает количество элементов, фактически содержащихся в коллекции. Только для чтенияInt32. |
+| [AsIEnumerable](../../aspose.slides/iportioncollection/asienumerable) { get; } | Возвращает интерфейс IEnumerable. Только для чтенияIEnumerable . |
+| [Count](../../aspose.slides/iportioncollection/count) { get; } | Получает количество элементов, фактически содержащихся в коллекции. Только для чтенияInt32 . |
 | [Item](../../aspose.slides/iportioncollection/item) { get; } | Получает элемент по указанному индексу. |
 
 ## Методы
@@ -28,10 +28,10 @@ public interface IPortionCollection : IEnumerable<IPortion>
 | --- | --- |
 | [Add](../../aspose.slides/iportioncollection/add)(IPortion) | Добавляет порцию в конец коллекции. |
 | [Clear](../../aspose.slides/iportioncollection/clear)() | Удаляет все элементы из коллекции. |
-| [Contains](../../aspose.slides/iportioncollection/contains)(IPortion) | Определяет, содержит лиICollectionопределенное значение. |
+| [Contains](../../aspose.slides/iportioncollection/contains)(IPortion) | Определяет,ICollection содержит определенное значение. |
 | [IndexOf](../../aspose.slides/iportioncollection/indexof)(IPortion) | Определяет индекс определенной части в коллекции. |
 | [Insert](../../aspose.slides/iportioncollection/insert)(int, IPortion) | Вставляет порцию в коллекцию по указанному индексу. |
-| [Remove](../../aspose.slides/iportioncollection/remove)(IPortion) | Удаляет первое вхождение определенного объекта изICollection. |
+| [Remove](../../aspose.slides/iportioncollection/remove)(IPortion) | Удаляет первое вхождение определенного объекта изICollection . |
 | [RemoveAt](../../aspose.slides/iportioncollection/removeat)(int) | Удаляет элемент по указанному индексу коллекции. |
 
 ### Смотрите также

@@ -1,14 +1,14 @@
 ---
 title: History
 second_title: Aspose.Slides for .NET API 参考
-description: 确定父超链接的目标是否应在调用时将 添加到查看的超链接列表中 读/写Boolean
+description: 确定父超链接的目标是否应在调用时添加 到查看的超链接列表中 读/写Boolean.
 type: docs
 weight: 140
 url: /zh/net/aspose.slides/hyperlink/history/
 ---
 ## Hyperlink.History property
 
-确定父超链接的目标是否应在调用时将 添加到查看的超链接列表中。 读/写Boolean。
+确定父超链接的目标是否应在调用时添加 到查看的超链接列表中。 读/写Boolean.
 
 ```csharp
 public bool History { get; set; }

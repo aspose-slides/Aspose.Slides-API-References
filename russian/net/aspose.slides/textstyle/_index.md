@@ -18,8 +18,8 @@ public class TextStyle : PVIObject, ITextStyle
 
 | Имя | Описание |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Позволяет получить базовый интерфейс IPresentationComponent. Только для чтения[`IPresentationComponent`](../ipresentationcomponent). |
-| [DefaultParagraphFormat](../../aspose.slides/textstyle/defaultparagraphformat) { get; } | Свойства абзаца по умолчанию. Только для чтения[`IParagraphFormat`](../iparagraphformat). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Позволяет получить базовый интерфейс IPresentationComponent. Только для чтения[`IPresentationComponent`](../ipresentationcomponent) . |
+| [DefaultParagraphFormat](../../aspose.slides/textstyle/defaultparagraphformat) { get; } | Свойства абзаца по умолчанию. Только для чтения[`IParagraphFormat`](../iparagraphformat) . |
 
 ## Методы
 
@@ -28,13 +28,13 @@ public class TextStyle : PVIObject, ITextStyle
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Сравнивает с указанным объектом. |
 | [GetEffective](../../aspose.slides/textstyle/geteffective)() | Получает данные форматирования эффективного текстового стиля с применением наследования. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Возвращает хэш-код. |
-| [GetLevel](../../aspose.slides/textstyle/getlevel)(int) | Если уровень стиля существует, возвращает его, иначе возвращает ноль. |
+| [GetLevel](../../aspose.slides/textstyle/getlevel)(int) | Если уровень стиля существует, возвращает его, иначе возвращает null. |
 
 ## Поля
 
 | Имя | Описание |
 | --- | --- |
-| static readonly [MaxLevelCount](../../aspose.slides/textstyle/maxlevelcount) | Максимальное количество уровней стилей, которые можно определить. Используйте его с GetLevel(int index) |
+| static readonly [MaxLevelCount](../../aspose.slides/textstyle/maxlevelcount) | Максимальное количество уровней стиля, которое может быть определено. Используйте его с GetLevel(int index) |
 
 ### Смотрите также
 

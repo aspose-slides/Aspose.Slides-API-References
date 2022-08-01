@@ -1,14 +1,14 @@
 ---
 title: NotesSlideManager
 second_title: Aspose.Slides for .NET API 参考
-description: 笔记幻灯片管理器
+description: 笔记幻灯片管理器.
 type: docs
 weight: 8430
 url: /zh/net/aspose.slides/notesslidemanager/
 ---
 ## NotesSlideManager class
 
-笔记幻灯片管理器。
+笔记幻灯片管理器.
 
 ```csharp
 public sealed class NotesSlideManager : DomObject<Slide>, INotesSlideManager
@@ -18,7 +18,7 @@ public sealed class NotesSlideManager : DomObject<Slide>, INotesSlideManager
 
 | 姓名 | 描述 |
 | --- | --- |
-| [NotesSlide](../../aspose.slides/notesslidemanager/notesslide) { get; } | 返回当前幻灯片的备注幻灯片。如果幻灯片没有备注幻灯片，则返回 null。 只读[`INotesSlide`](../inotesslide)。 |
+| [NotesSlide](../../aspose.slides/notesslidemanager/notesslide) { get; } | 返回当前幻灯片的备注幻灯片。如果幻灯片没有备注幻灯片，则返回 null。 只读[`INotesSlide`](../inotesslide). |
 
 ## 方法
 

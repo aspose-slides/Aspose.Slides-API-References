@@ -180,7 +180,7 @@ public IPPImage AddImage(ISvgImage svgImage)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| svgImage | ISvgImage | Объект изображения Svg[`ISvgImage`](../../isvgimage) |
+| svgImage | ISvgImage | Объект изображения SVG[`ISvgImage`](../../isvgimage) |
 
 ### Возвращаемое значение
 

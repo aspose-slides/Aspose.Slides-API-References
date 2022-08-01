@@ -1,14 +1,14 @@
 ---
 title: ITextFrameFormatEffectiveData
 second_title: Справочник по API Aspose.Slides для .NET
-description: Неизменяемый объект который содержит эффективные свойства форматирования текстового фрейма.
+description: Неизменяемый объект содержащий эффективные свойства форматирования текстового фрейма.
 type: docs
 weight: 6710
 url: /ru/net/aspose.slides/itextframeformateffectivedata/
 ---
 ## ITextFrameFormatEffectiveData interface
 
-Неизменяемый объект, который содержит эффективные свойства форматирования текстового фрейма.
+Неизменяемый объект, содержащий эффективные свойства форматирования текстового фрейма.
 
 ```csharp
 public interface ITextFrameFormatEffectiveData
@@ -18,22 +18,22 @@ public interface ITextFrameFormatEffectiveData
 
 | Имя | Описание |
 | --- | --- |
-| [AnchoringType](../../aspose.slides/itextframeformateffectivedata/anchoringtype) { get; } | Возвращает вертикальный якорный текст в TextFrame. Только для чтения[`TextAnchorType`](../textanchortype). |
-| [AutofitType](../../aspose.slides/itextframeformateffectivedata/autofittype) { get; } | Возвращает режим автоподбора текста. Только для чтения[`TextAutofitType`](../textautofittype). |
-| [CenterText](../../aspose.slides/itextframeformateffectivedata/centertext) { get; } | Возвращает, если текст должен быть центрирован в поле по горизонтали. Только чтениеBoolean. |
-| [ColumnCount](../../aspose.slides/itextframeformateffectivedata/columncount) { get; } | Указывает количество столбцов текста в ограничивающем прямоугольнике. Только для чтенияInt32. |
-| [ColumnSpacing](../../aspose.slides/itextframeformateffectivedata/columnspacing) { get; } | Задает расстояние между текстовыми столбцами в текстовой области (в пунктах). Только для чтенияSingle. |
-| [MarginBottom](../../aspose.slides/itextframeformateffectivedata/marginbottom) { get; } | Возвращает нижнее поле (в пунктах) в TextFrame. Только для чтенияDouble. |
-| [MarginLeft](../../aspose.slides/itextframeformateffectivedata/marginleft) { get; } | Возвращает левое поле (в точках) в TextFrame. Только для чтенияDouble. |
-| [MarginRight](../../aspose.slides/itextframeformateffectivedata/marginright) { get; } | Возвращает правое поле (в точках) в TextFrame. Только для чтенияDouble. |
-| [MarginTop](../../aspose.slides/itextframeformateffectivedata/margintop) { get; } | Возвращает верхнее поле (в пунктах) в TextFrame. Только для чтенияDouble. |
-| [TextStyle](../../aspose.slides/itextframeformateffectivedata/textstyle) { get; } | Возвращает эффективный стиль текста. Только для чтения[`ITextStyleEffectiveData`](../itextstyleeffectivedata). |
-| [TextVerticalType](../../aspose.slides/itextframeformateffectivedata/textverticaltype) { get; } | Возвращает ориентацию текста. Только для чтения[`TextVerticalType`](../textverticaltype). |
-| [WrapText](../../aspose.slides/itextframeformateffectivedata/wraptext) { get; } | Возвращает, если текст перенесен на поля TextFrame. Только чтениеBoolean. |
+| [AnchoringType](../../aspose.slides/itextframeformateffectivedata/anchoringtype) { get; } | Возвращает текст вертикальной привязки в TextFrame. Только для чтения[`TextAnchorType`](../textanchortype) . |
+| [AutofitType](../../aspose.slides/itextframeformateffectivedata/autofittype) { get; } | Возвращает режим автоподбора текста. Только для чтения[`TextAutofitType`](../textautofittype) . |
+| [CenterText](../../aspose.slides/itextframeformateffectivedata/centertext) { get; } | Возвращает значение, если текст должен быть центрирован в поле по горизонтали. Только для чтенияBoolean . |
+| [ColumnCount](../../aspose.slides/itextframeformateffectivedata/columncount) { get; } | Определяет количество столбцов текста в ограничивающем прямоугольнике. Только для чтенияInt32 . |
+| [ColumnSpacing](../../aspose.slides/itextframeformateffectivedata/columnspacing) { get; } | Задает расстояние между текстовыми столбцами в текстовой области (в пунктах). Только для чтенияSingle . |
+| [MarginBottom](../../aspose.slides/itextframeformateffectivedata/marginbottom) { get; } | Возвращает нижнее поле (в точках) в TextFrame. Только для чтенияDouble . |
+| [MarginLeft](../../aspose.slides/itextframeformateffectivedata/marginleft) { get; } | Возвращает левое поле (в точках) в TextFrame. Только для чтенияDouble . |
+| [MarginRight](../../aspose.slides/itextframeformateffectivedata/marginright) { get; } | Возвращает правое поле (в точках) в TextFrame. Только для чтенияDouble . |
+| [MarginTop](../../aspose.slides/itextframeformateffectivedata/margintop) { get; } | Возвращает верхнее поле (в точках) в TextFrame. Только для чтенияDouble . |
+| [TextStyle](../../aspose.slides/itextframeformateffectivedata/textstyle) { get; } | Возвращает действующий стиль текста. Только для чтения[`ITextStyleEffectiveData`](../itextstyleeffectivedata) . |
+| [TextVerticalType](../../aspose.slides/itextframeformateffectivedata/textverticaltype) { get; } | Возвращает ориентацию текста. Только для чтения[`TextVerticalType`](../textverticaltype) . |
+| [WrapText](../../aspose.slides/itextframeformateffectivedata/wraptext) { get; } | Возвращает, если текст обтекает поля TextFrame. Только для чтенияBoolean . |
 
 ### Примечания
 
-Этот интерфейс используется вместе с[`ITextFrameFormat`](../itextframeformat)интерфейс для возврата эффективных значений форматирования с применением наследования.
+Этот интерфейс используется вместе с[`ITextFrameFormat`](../itextframeformat) интерфейс для возврата эффективных значений форматирования с применением наследования.
 
 ### Смотрите также
 

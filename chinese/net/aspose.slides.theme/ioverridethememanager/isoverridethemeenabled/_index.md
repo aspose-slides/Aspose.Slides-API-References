@@ -1,14 +1,14 @@
 ---
 title: IsOverrideThemeEnabled
 second_title: Aspose.Slides for .NET API 参考
-description: 确定 OverrideTheme 是否覆盖继承的有效主题 要启用 OverrideTheme 进行覆盖请使用 OverrideTheme.Init 方法 要禁用 OverrideTheme 覆盖使用 OverrideTheme.Clear 方法 只读Boolean
+description: 确定 OverrideTheme 是否覆盖继承的有效主题 启用 OverrideTheme 进行覆盖使用 OverrideTheme.Init 方法 禁用 OverrideTheme 覆盖使用 OverrideTheme.Clear 方法 只读Boolean.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides.theme/ioverridethememanager/isoverridethemeenabled/
 ---
 ## IOverrideThemeManager.IsOverrideThemeEnabled property
 
-确定 OverrideTheme 是否覆盖继承的有效主题。 要启用 OverrideTheme 进行覆盖，请使用 OverrideTheme.Init*() 方法。 要禁用 OverrideTheme 覆盖使用 OverrideTheme.Clear() 方法。 只读Boolean。
+确定 OverrideTheme 是否覆盖继承的有效主题。 启用 OverrideTheme 进行覆盖使用 OverrideTheme.Init*() 方法。 禁用 OverrideTheme 覆盖使用 OverrideTheme.Clear() 方法。 只读Boolean.
 
 ```csharp
 public bool IsOverrideThemeEnabled { get; }

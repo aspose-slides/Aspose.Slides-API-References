@@ -16,7 +16,7 @@ public void RemoveAt(int index)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| index | Int32 | 要删除的标签的从零开始的索引。 |
+| index | Int32 | 要删除的标记的从零开始的索引。 |
 
 ### 也可以看看
 

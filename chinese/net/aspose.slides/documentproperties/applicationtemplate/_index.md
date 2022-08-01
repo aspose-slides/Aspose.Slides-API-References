@@ -1,14 +1,14 @@
 ---
 title: ApplicationTemplate
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置应用程序的模板 读/写String
+description: 返回或设置应用程序的模板 读/写String.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides/documentproperties/applicationtemplate/
 ---
 ## DocumentProperties.ApplicationTemplate property
 
-返回或设置应用程序的模板。 读/写String。
+返回或设置应用程序的模板。 读/写String.
 
 ```csharp
 public string ApplicationTemplate { get; set; }

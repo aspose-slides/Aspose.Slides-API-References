@@ -1,14 +1,14 @@
 ---
 title: CenterText
 second_title: Aspose.Slides for .NET API 参考
-description: 返回文本是否应在框中水平居中 只读Boolean
+description: 返回文本是否应在框中水平居中 只读Boolean.
 type: docs
 weight: 30
 url: /zh/net/aspose.slides/itextframeformateffectivedata/centertext/
 ---
 ## ITextFrameFormatEffectiveData.CenterText property
 
-返回文本是否应在框中水平居中。 只读Boolean。
+返回文本是否应在框中水平居中。 只读Boolean.
 
 ```csharp
 public bool CenterText { get; }

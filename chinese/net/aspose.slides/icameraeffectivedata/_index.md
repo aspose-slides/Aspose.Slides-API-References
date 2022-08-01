@@ -18,19 +18,19 @@ public interface ICameraEffectiveData
 
 | 姓名 | 描述 |
 | --- | --- |
-| [CameraType](../../aspose.slides/icameraeffectivedata/cameratype) { get; } | 相机类型。 只读[`CameraPresetType`](../camerapresettype)。 |
-| [FieldOfViewAngle](../../aspose.slides/icameraeffectivedata/fieldofviewangle) { get; } | 相机 FOV（0-180 度，视野）。 只读Single。 |
-| [Zoom](../../aspose.slides/icameraeffectivedata/zoom) { get; } | 相机缩放（正值百分比）。 只读Single。 |
+| [CameraType](../../aspose.slides/icameraeffectivedata/cameratype) { get; } | 相机类型。 只读[`CameraPresetType`](../camerapresettype). |
+| [FieldOfViewAngle](../../aspose.slides/icameraeffectivedata/fieldofviewangle) { get; } | 相机 FOV（0-180 度，视野）。 只读Single. |
+| [Zoom](../../aspose.slides/icameraeffectivedata/zoom) { get; } | 相机缩放（百分比为正值）。 只读Single. |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [GetRotation](../../aspose.slides/icameraeffectivedata/getrotation)() | 旋转是通过使用纬度 坐标、经度坐标和绕轴:::47::旋转来定义的:作为经纬度坐标。 返回数组中的第一个元素 - 纬度，第二个 - 经度，第三个 - 旋转。 如果没有定义旋转，则返回 null。 |
+| [GetRotation](../../aspose.slides/icameraeffectivedata/getrotation)() | 通过使用 latitude 坐标、经度坐标和绕轴 作为纬度和经度坐标的旋转来定义旋转。 返回数组中的第一个元素 - 纬度，第二个 - 经度，第三个 - 旋转。如果没有定义旋转，则为 null。 |
 
 ### 评论
 
-此接口用作IThreeDFormatEffectiveData的一部分。
+该接口用作[`IThreeDFormatEffectiveData`](../ithreedformateffectivedata).
 
 ### 也可以看看
 

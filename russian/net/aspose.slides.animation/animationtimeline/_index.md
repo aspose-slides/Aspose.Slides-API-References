@@ -18,9 +18,9 @@ public class AnimationTimeLine : DomObject<BaseSlide>, IAnimationTimeLine
 
 | Имя | Описание |
 | --- | --- |
-| [InteractiveSequences](../../aspose.slides.animation/animationtimeline/interactivesequences) { get; } | Возвращает коллекцию интерактивных последовательностей. Эти последовательности могут содержать только эффекты "щелчка по фигуре" с заданной целевой формой. Только для чтения[`ISequenceCollection`](../isequencecollection). |
-| [MainSequence](../../aspose.slides.animation/animationtimeline/mainsequence) { get; } | Возвращает основную последовательность, которая может содержать только коллекцию основных эффектов. Только для чтения[`ISequence`](../isequence). |
-| [TextAnimationCollection](../../aspose.slides.animation/animationtimeline/textanimationcollection) { get; } | Возвращает коллекцию текстовых анимаций. Только для чтения[`ITextAnimationCollection`](../itextanimationcollection). |
+| [InteractiveSequences](../../aspose.slides.animation/animationtimeline/interactivesequences) { get; } | Возвращает набор интерактивных последовательностей. Эти последовательности могут содержать только эффекты "щелчка по фигуре" с указанием целевой формы. Только для чтения[`ISequenceCollection`](../isequencecollection) . |
+| [MainSequence](../../aspose.slides.animation/animationtimeline/mainsequence) { get; } | Возвращает основную последовательность, которая может содержать только коллекцию основных эффектов. Только для чтения[`ISequence`](../isequence) . |
+| [TextAnimationCollection](../../aspose.slides.animation/animationtimeline/textanimationcollection) { get; } | Возвращает набор текстовых анимаций. Только для чтения[`ITextAnimationCollection`](../itextanimationcollection) . |
 
 ### Смотрите также
 

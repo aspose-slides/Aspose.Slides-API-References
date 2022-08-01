@@ -23,7 +23,7 @@ public IComment AddComment(string text, ISlide slide, PointF position, DateTime 
 
 ### 返回值
 
-添加评论。
+添加了评论。
 
 ### 也可以看看
 

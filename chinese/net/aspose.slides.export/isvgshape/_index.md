@@ -18,13 +18,13 @@ public interface ISvgShape
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Id](../../aspose.slides.export/isvgshape/id) { get; set; } | 设置或获取形状的 id |
+| [Id](../../aspose.slides.export/isvgshape/id) { get; set; } | 设置或获取 shape 的 id |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [SetEventHandler](../../aspose.slides.export/isvgshape/seteventhandler)(SvgEvent, string) | 为形状设置事件处理程序 |
+| [SetEventHandler](../../aspose.slides.export/isvgshape/seteventhandler)(SvgEvent, string) | 为 shape 设置事件处理程序 |
 
 ### 也可以看看
 

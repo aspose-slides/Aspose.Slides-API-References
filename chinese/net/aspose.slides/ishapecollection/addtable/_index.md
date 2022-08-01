@@ -19,7 +19,7 @@ public ITable AddTable(float x, float y, double[] columnWidths, double[] rowHeig
 | x | Single | 形状框架左侧的 X 坐标。 |
 | y | Single | 形状框架顶部的 Y 坐标。 |
 | columnWidths | Double[] | 双精度数组，表示表中列的宽度。 |
-| rowHeights | Double[] | 双精度数组，表示表中行的高度。 |
+| rowHeights | Double[] | 表示表中行高的双精度数组。 |
 
 ### 返回值
 

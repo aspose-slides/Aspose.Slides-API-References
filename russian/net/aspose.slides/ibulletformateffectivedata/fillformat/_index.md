@@ -1,14 +1,14 @@
 ---
 title: FillFormat
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает формат заполнения абзаца. Только для чтенияIFillFormatEffectiveDataaspose.slides/ifillformateffectivedata.
+description: Возвращает формат заполнения абзаца. Только для чтенияIFillFormatEffectiveDataaspose.slides/ifillformateffectivedata .
 type: docs
 weight: 30
 url: /ru/net/aspose.slides/ibulletformateffectivedata/fillformat/
 ---
 ## IBulletFormatEffectiveData.FillFormat property
 
-Возвращает формат заполнения абзаца. Только для чтения[`IFillFormatEffectiveData`](../../ifillformateffectivedata).
+Возвращает формат заполнения абзаца. Только для чтения[`IFillFormatEffectiveData`](../../ifillformateffectivedata) .
 
 ```csharp
 public IFillFormatEffectiveData FillFormat { get; }
@@ -22,8 +22,8 @@ public IFillFormatEffectiveData FillFormat { get; }
 [C#]
 using (Presentation pres = new Presentation("SomePresentation.pptx"))
 {
-     // Предположим, что первая фигура на первом слайде — это AutoShape с некоторым текстом...
-     // Вывод информации о абзацах текста bullets
+    // Предположим, что первая фигура на первом слайде — автофигура с текстом...
+    // Вывод информации о маркерах текстовых абзацев
     AutoShape autoShape = (AutoShape)pres.Slides[0].Shapes[0];
     foreach (Paragraph para in autoShape.TextFrame.Paragraphs)
     {

@@ -18,12 +18,12 @@ public class LineFillFormat : PVIObject, ILineFillFormat
 
 | Имя | Описание |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Позволяет получить базовый интерфейс IPresentationComponent. Только для чтения[`IPresentationComponent`](../ipresentationcomponent). |
-| [FillType](../../aspose.slides/linefillformat/filltype) { get; set; } | Возвращает или задает тип заливки. Чтение/запись[`FillType`](../filltype). |
-| [GradientFormat](../../aspose.slides/linefillformat/gradientformat) { get; } | Возвращает формат градиентной заливки. Только для чтения[`IGradientFormat`](../igradientformat). |
-| [PatternFormat](../../aspose.slides/linefillformat/patternformat) { get; } | Возвращает формат заполнения узором. Только для чтения[`IPatternFormat`](../ipatternformat). |
-| [RotateWithShape](../../aspose.slides/linefillformat/rotatewithshape) { get; set; } | Определяет, должна ли заливка поворачиваться вместе с фигурой. Чтение/запись[`NullableBool`](../nullablebool). |
-| [SolidFillColor](../../aspose.slides/linefillformat/solidfillcolor) { get; } | Возвращает цвет сплошной заливки. Только для чтения[`IColorFormat`](../icolorformat). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Позволяет получить базовый интерфейс IPresentationComponent. Только для чтения[`IPresentationComponent`](../ipresentationcomponent) . |
+| [FillType](../../aspose.slides/linefillformat/filltype) { get; set; } | Возвращает или задает тип заполнения. Чтение/запись[`FillType`](../filltype) . |
+| [GradientFormat](../../aspose.slides/linefillformat/gradientformat) { get; } | Возвращает формат градиентной заливки. Только для чтения[`IGradientFormat`](../igradientformat) . |
+| [PatternFormat](../../aspose.slides/linefillformat/patternformat) { get; } | Возвращает формат заполнения шаблона. Только для чтения[`IPatternFormat`](../ipatternformat) . |
+| [RotateWithShape](../../aspose.slides/linefillformat/rotatewithshape) { get; set; } | Определяет, должна ли заливка поворачиваться вместе с фигурой. Чтение/запись[`NullableBool`](../nullablebool) . |
+| [SolidFillColor](../../aspose.slides/linefillformat/solidfillcolor) { get; } | Возвращает цвет сплошной заливки. Только для чтения[`IColorFormat`](../icolorformat) . |
 
 ## Методы
 

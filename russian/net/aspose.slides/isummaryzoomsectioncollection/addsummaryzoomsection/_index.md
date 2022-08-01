@@ -1,14 +1,14 @@
 ---
 title: AddSummaryZoomSection
 second_title: Справочник по API Aspose.Slides для .NET
-description: Создает новый объект Сводная секция масштабирования и добавляет его в коллекцию
+description: Создает новый объект Суммарный раздел масштабирования и добавляет его в коллекцию
 type: docs
 weight: 20
 url: /ru/net/aspose.slides/isummaryzoomsectioncollection/addsummaryzoomsection/
 ---
 ## ISummaryZoomSectionCollection.AddSummaryZoomSection method
 
-Создает новый объект Сводная секция масштабирования и добавляет его в коллекцию
+Создает новый объект Суммарный раздел масштабирования и добавляет его в коллекцию
 
 ```csharp
 public ISummaryZoomSection AddSummaryZoomSection(ISection section)
@@ -16,11 +16,11 @@ public ISummaryZoomSection AddSummaryZoomSection(ISection section)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| section | ISection | Section для нового элемента Summary Zoom Section[`ISection`](../../isection) |
+| section | ISection | Раздел для нового элемента «Сводное масштабирование»[`ISection`](../../isection) |
 
 ### Возвращаемое значение
 
-Добавлен[`ISummaryZoomFrame`](../../isummaryzoomframe)element
+Добавлен[`ISummaryZoomFrame`](../../isummaryzoomframe) элемент
 
 ### Примечания
 

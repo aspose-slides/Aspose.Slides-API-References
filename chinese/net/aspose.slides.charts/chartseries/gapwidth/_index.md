@@ -1,14 +1,14 @@
 ---
 title: GapWidth
 second_title: Aspose.Slides for .NET API 参考
-description: 指定条形或列簇之间的间距以条形或列宽的百分比表示 这不仅是这个系列的属性而且是所有父系列的属性 group - 这是适当组属性的投影所以这个属性 是只读的 使用 ParentSeriesGroup 属性访问父系列组 使用 ParentSeriesGroup.GapWidth 读/写属性来更改值 只读Int32
+description: 指定条形或列簇之间的间距以条形或列宽的百分比表示 这不仅是该系列的属性也是父系列 组的所有系列的属性 - 这是适当组属性的投影所以这个属性 是只读的 使用ParentSeriesGroup属性来访问父系列组 使用ParentSeriesGroup.GapWidth读/写属性来改变值 只读Int32.
 type: docs
 weight: 130
 url: /zh/net/aspose.slides.charts/chartseries/gapwidth/
 ---
 ## ChartSeries.GapWidth property
 
-指定条形或列簇之间的间距，以条形或列宽的百分比表示。 这不仅是这个系列的属性，而且是所有父系列的属性 group - 这是适当组属性的投影。所以这个属性 是只读的。 使用 ParentSeriesGroup 属性访问父系列组。 使用 ParentSeriesGroup.GapWidth 读/写属性来更改值。 只读Int32。
+指定条形或列簇之间的间距，以条形或列宽的百分比表示。 这不仅是该系列的属性，也是父系列 组的所有系列的属性 - 这是适当组属性的投影。所以这个属性 是只读的。 使用ParentSeriesGroup属性来访问父系列组。 使用ParentSeriesGroup.GapWidth读/写属性来改变值。 只读Int32.
 
 ```csharp
 public int GapWidth { get; }
@@ -16,7 +16,7 @@ public int GapWidth { get; }
 
 ### 评论
 
-这是属性 ParentSeriesGroup.GapWidth 的投影。
+这是属性 ParentSeriesGroup.GapWidth. 的投影
 
 ### 也可以看看
 

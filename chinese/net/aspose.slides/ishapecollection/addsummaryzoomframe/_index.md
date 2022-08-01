@@ -16,14 +16,14 @@ public ISummaryZoomFrame AddSummaryZoomFrame(float x, float y, float width, floa
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| x | Single | 新的 X 坐标部分缩放框架Single。 |
-| y | Single | 新截面缩放框的 Y 坐标Single。 |
-| width | Single | 新截面缩放框的宽度Single。 |
-| height | Single | 新截面缩放框的高度Single。 |
+| x | Single | 新截面缩放框架的 X 坐标Single. |
+| y | Single | 新截面缩放框架的 Y 坐标Single. |
+| width | Single | 新截面缩放框的宽度Single. |
+| height | Single | 新截面缩放框的高度Single. |
 
 ### 返回值
 
-创建摘要缩放对象[`ISummaryZoomFrame`](../../isummaryzoomframe)。
+创建摘要缩放对象[`ISummaryZoomFrame`](../../isummaryzoomframe).
 
 ### 例外
 
@@ -33,11 +33,11 @@ public ISummaryZoomFrame AddSummaryZoomFrame(float x, float y, float width, floa
 
 ### 评论
 
-此方法创建一个新的摘要缩放并将对象集合放入其中以用于所有部分这个演示文稿。
+此方法创建一个新的摘要缩放并将一个对象集合放入此演示文稿中的所有部分。
 
 ### 例子
 
-此示例演示了将摘要缩放对象添加到集合的末尾 :（假设“Presentation.pptx”演示文稿中至少有两个部分）:
+这个例子演示了在集合末尾添加一个Summary Zoom 对象 （假设“Presentation.pptx”演示文稿中至少有两个部分）：
 
 ```csharp
 [C#]

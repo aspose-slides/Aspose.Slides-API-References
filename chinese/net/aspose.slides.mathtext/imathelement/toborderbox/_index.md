@@ -16,11 +16,11 @@ public IMathBorderBox ToBorderBox()
 
 ### 返回值
 
-边框与此元素放置在
+带有此元素的边框框
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]
@@ -38,7 +38,7 @@ IMathBorderBox borderBox = new MathematicalText("x+y+z").ToBorderBox();
 
 ## ToBorderBox(bool, bool, bool, bool, bool, bool, bool, bool) {#toborderbox_1}
 
-将此元素放在边框中
+将此元素放置在边框中
 
 ```csharp
 public IMathBorderBox ToBorderBox(bool hideTop, bool hideBottom, bool hideLeft, bool hideRight, 
@@ -49,13 +49,13 @@ public IMathBorderBox ToBorderBox(bool hideTop, bool hideBottom, bool hideLeft, 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | hideTop | Boolean | 隐藏顶部边缘 |
-| hideBottom | Boolean | 隐藏底部边缘 |
-| hideLeft | Boolean | 隐藏左侧边缘 |
+| hideBottom | Boolean | 隐藏底边 |
+| hideLeft | Boolean | 隐藏左边缘 |
 | hideRight | Boolean | 隐藏右边缘 |
-| strikethroughHorizontal | Boolean | 边框水平删除线 |
-| strikethroughVertical | Boolean | 边界框删除线垂直 |
-| strikethroughBottomLeftToTopRight | Boolean | 边界框删除线从左下到右上 |
-| strikethroughTopLeftToBottomRight | Boolean | 边框框从左上到右下划线 |
+| strikethroughHorizontal | Boolean | 边界框删除线水平 |
+| strikethroughVertical | Boolean | 边框框删除线垂直 |
+| strikethroughBottomLeftToTopRight | Boolean | 边框框删除线从左下到右上角 |
+| strikethroughTopLeftToBottomRight | Boolean | 边框框删除线从左上到右下 |
 
 ### 返回值
 
@@ -63,7 +63,7 @@ public IMathBorderBox ToBorderBox(bool hideTop, bool hideBottom, bool hideLeft, 
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]

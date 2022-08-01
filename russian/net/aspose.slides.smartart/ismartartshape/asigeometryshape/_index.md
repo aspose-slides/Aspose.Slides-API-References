@@ -1,14 +1,14 @@
 ---
 title: AsIGeometryShape
 second_title: Справочник по API Aspose.Slides для .NET
-description: Позволяет получить базовый интерфейс IGeometryShape. Только для чтенияIGeometryShapeaspose.slides/igeometryshape.
+description: Позволяет получить базовый интерфейс IGeometryShape. Только для чтенияIGeometryShapeaspose.slides/igeometryshape .
 type: docs
 weight: 10
 url: /ru/net/aspose.slides.smartart/ismartartshape/asigeometryshape/
 ---
 ## ISmartArtShape.AsIGeometryShape property
 
-Позволяет получить базовый интерфейс IGeometryShape. Только для чтения[`IGeometryShape`](../../../aspose.slides/igeometryshape).
+Позволяет получить базовый интерфейс IGeometryShape. Только для чтения[`IGeometryShape`](../../../aspose.slides/igeometryshape) .
 
 ```csharp
 public IGeometryShape AsIGeometryShape { get; }

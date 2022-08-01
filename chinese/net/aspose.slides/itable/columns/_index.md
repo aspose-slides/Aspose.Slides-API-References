@@ -1,14 +1,14 @@
 ---
 title: Columns
 second_title: Aspose.Slides for .NET API 参考
-description: 返回列的集合 只读IColumnCollectionaspose.slides/icolumncollection
+description: 返回列的集合 只读IColumnCollectionaspose.slides/icolumncollection.
 type: docs
 weight: 30
 url: /zh/net/aspose.slides/itable/columns/
 ---
 ## ITable.Columns property
 
-返回列的集合。 只读[`IColumnCollection`](../../icolumncollection)。
+返回列的集合。 只读[`IColumnCollection`](../../icolumncollection).
 
 ```csharp
 public IColumnCollection Columns { get; }

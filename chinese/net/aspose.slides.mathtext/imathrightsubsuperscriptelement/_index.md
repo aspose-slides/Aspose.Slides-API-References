@@ -1,14 +1,14 @@
 ---
 title: IMathRightSubSuperscriptElement
 second_title: Aspose.Slides for .NET API 参考
-description: 指定 Sub-Superscript 对象它由一个基 和一个放置在基右侧的下标和上标组成
+description: 指定 Sub-Superscript 对象它由一个 base 和一个放置在 base 右侧的下标和上标组成
 type: docs
 weight: 7730
 url: /zh/net/aspose.slides.mathtext/imathrightsubsuperscriptelement/
 ---
 ## IMathRightSubSuperscriptElement interface
 
-指定 Sub-Superscript 对象，它由一个基 和一个放置在基右侧的下标和上标组成。
+指定 Sub-Superscript 对象，它由一个 base 和一个放置在 base 右侧的下标和上标组成。
 
 ```csharp
 public interface IMathRightSubSuperscriptElement : IMathElement
@@ -18,7 +18,7 @@ public interface IMathRightSubSuperscriptElement : IMathElement
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AlignScripts](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/alignscripts) { get; set; } | 指定下标/上标的对齐方式。 当为真时，下标和上标相互水平对齐。 当为 false 时，它们被紧缩到底部的形状。 默认值为假。 |
+| [AlignScripts](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/alignscripts) { get; set; } | 指定下标/上标的对齐方式。 true 时，下标和上标相互水平对齐。 false 时，它们与base 的形状紧缩。 默认值为false。 |
 | [AsIMathElement](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/asimathelement) { get; } | 允许获取基础 IMathElement 接口 [`IMathElement`](../imathelement) |
 | [Base](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/base) { get; } | 基本参数 |
 | [Subscript](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/subscript) { get; } | 下标参数 |
@@ -26,7 +26,7 @@ public interface IMathRightSubSuperscriptElement : IMathElement
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]

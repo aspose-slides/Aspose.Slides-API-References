@@ -1,14 +1,14 @@
 ---
 title: MasterSlide
 second_title: Aspose.Slides for .NET API 参考
-description: 迭代每个MasterSlideaspose.slides.lowcode/foreach/masterslide在Presentationaspose.slides/presentation中
+description: 迭代每个MasterSlideaspose.slides.lowcode/foreach/masterslide在里面Presentationaspose.slides/presentation.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides.lowcode/foreach/masterslide/
 ---
 ## ForEach.MasterSlide method
 
-迭代每个`MasterSlide`在[`Presentation`](../../../aspose.slides/presentation)中。
+迭代每个`MasterSlide`在里面[`Presentation`](../../../aspose.slides/presentation).
 
 ```csharp
 public static void MasterSlide(Presentation pres, ForEachMasterSlideCallback forEachMasterSlide)
@@ -17,7 +17,7 @@ public static void MasterSlide(Presentation pres, ForEachMasterSlideCallback for
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | pres | Presentation | 演示以迭代母版幻灯片 |
-| forEachMasterSlide | ForEachMasterSlideCallback | 回调将为每个母版幻灯片调用 |
+| forEachMasterSlide | ForEachMasterSlideCallback | 将为每个母版幻灯片调用的回调 |
 
 ### 例子
 

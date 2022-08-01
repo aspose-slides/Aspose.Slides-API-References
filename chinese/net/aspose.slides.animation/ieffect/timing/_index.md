@@ -1,14 +1,14 @@
 ---
 title: Timing
 second_title: Aspose.Slides for .NET API 参考
-description: 定义效果的时间值 读/写ITimingaspose.slides.animation/itiming
+description: 定义效果的时序值 读/写ITimingaspose.slides.animation/itiming.
 type: docs
 weight: 70
 url: /zh/net/aspose.slides.animation/ieffect/timing/
 ---
 ## IEffect.Timing property
 
-定义效果的时间值。 读/写[`ITiming`](../../itiming)。
+定义效果的时序值。 读/写[`ITiming`](../../itiming).
 
 ```csharp
 public ITiming Timing { get; set; }

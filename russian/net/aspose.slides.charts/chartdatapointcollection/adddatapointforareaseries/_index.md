@@ -1,14 +1,14 @@
 ---
 title: AddDataPointForAreaSeries
 second_title: Справочник по API Aspose.Slides для .NET
-description: Создает новую точку данных и добавляет ее в конец коллекции. Применимо для серий тип диаграммы которых является одним из подтипов Area см. такжеIsChartTypeAreaaspose.slides.charts/charttypecharacterizer/ischarttypeareaметод .
+description: Создает новую точку данных и добавляет ее в конец коллекции. Применяется для рядов тип диаграммы которых является одним из подтипов Area см. такжеIsChartTypeAreaaspose.slides.charts/charttypecharacterizer/ischarttypearea метод.
 type: docs
 weight: 100
 url: /ru/net/aspose.slides.charts/chartdatapointcollection/adddatapointforareaseries/
 ---
 ## AddDataPointForAreaSeries(IChartDataCell) {#adddatapointforareaseries}
 
-Создает новую точку данных и добавляет ее в конец коллекции. Применимо для серий, тип диаграммы которых является одним из подтипов Area (см. также[`IsChartTypeArea`](../../charttypecharacterizer/ischarttypearea)метод) .
+Создает новую точку данных и добавляет ее в конец коллекции. Применяется для рядов, тип диаграммы которых является одним из подтипов Area (см. также[`IsChartTypeArea`](../../charttypecharacterizer/ischarttypearea) метод).
 
 ```csharp
 public IChartDataPoint AddDataPointForAreaSeries(IChartDataCell value)
@@ -16,7 +16,7 @@ public IChartDataPoint AddDataPointForAreaSeries(IChartDataCell value)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| значение | IChartDataCell | Точка данных Значение |
+| value | IChartDataCell | Точка данных Значение |
 
 ### Возвращаемое значение
 
@@ -34,7 +34,7 @@ public IChartDataPoint AddDataPointForAreaSeries(IChartDataCell value)
 
 ## AddDataPointForAreaSeries(double) {#adddatapointforareaseries_1}
 
-Создает новую точку данных и добавляет ее в конец коллекции. Применимо для серий, тип диаграммы которых является одним из подтипов Area (см. также[`IsChartTypeArea`](../../charttypecharacterizer/ischarttypearea)метод) .
+Создает новую точку данных и добавляет ее в конец коллекции. Применяется для рядов, тип диаграммы которых является одним из подтипов Area (см. также[`IsChartTypeArea`](../../charttypecharacterizer/ischarttypearea) метод).
 
 ```csharp
 public IChartDataPoint AddDataPointForAreaSeries(double value)
@@ -42,7 +42,7 @@ public IChartDataPoint AddDataPointForAreaSeries(double value)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| значение | Double | Точка данных Значение |
+| value | Double | Точка данных Значение |
 
 ### Возвращаемое значение
 

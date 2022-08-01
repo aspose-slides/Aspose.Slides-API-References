@@ -1,14 +1,14 @@
 ---
 title: LightRig
 second_title: Aspose.Slides for .NET API 参考
-description: 代表 LightRig
+description: 代表 LightRig.
 type: docs
 weight: 6990
 url: /zh/net/aspose.slides/lightrig/
 ---
 ## LightRig class
 
-代表 LightRig。
+代表 LightRig.
 
 ```csharp
 public class LightRig : PVIObject, ILightRig
@@ -18,9 +18,9 @@ public class LightRig : PVIObject, ILightRig
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允许获取基本 IPresentationComponent 接口。 只读[`IPresentationComponent`](../ipresentationcomponent)。 |
-| [Direction](../../aspose.slides/lightrig/direction) { get; set; } | 光照方向。 读/写[`LightingDirection`](../lightingdirection)。 |
-| [LightType](../../aspose.slides/lightrig/lighttype) { get; set; } | 表示可以应用于形状的预设光权。 灯光装置代表一组以特定方式定向的灯光 相对于 3D 场景。 读/写[`LightRigPresetType`](../lightrigpresettype)。 |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允许获取基本 IPresentationComponent 接口。 只读[`IPresentationComponent`](../ipresentationcomponent). |
+| [Direction](../../aspose.slides/lightrig/direction) { get; set; } | 光照方向。 读/写[`LightingDirection`](../lightingdirection). |
+| [LightType](../../aspose.slides/lightrig/lighttype) { get; set; } | 表示可以应用于形状的预设光权。 灯光装置以相对于 3D 场景的特定方式表示一组定向的灯光 。 读/写[`LightRigPresetType`](../lightrigpresettype). |
 
 ## 方法
 
@@ -28,8 +28,8 @@ public class LightRig : PVIObject, ILightRig
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | 与指定对象比较。 |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | 返回哈希码。 |
-| [GetRotation](../../aspose.slides/lightrig/getrotation)() | 旋转是通过使用纬度 坐标、经度坐标和绕轴:::47::旋转来定义的:作为经纬度坐标。 返回数组中的第一个元素 - 纬度，第二个 - 经度，第三个 - 旋转。 如果没有定义旋转，则返回 null。 |
-| [SetRotation](../../aspose.slides/lightrig/setrotation)(float, float, float) | 旋转是通过使用纬度 坐标、经度坐标和绕轴:::47::旋转来定义的:作为经纬度坐标。 如果任何坐标值为 float.NaN，则所有旋转都是未定义的。 |
+| [GetRotation](../../aspose.slides/lightrig/getrotation)() | 通过使用 latitude 坐标、经度坐标和绕轴 作为纬度和经度坐标的旋转来定义旋转。 返回数组中的第一个元素 - 纬度，第二个 - 经度，第三个 - 旋转。如果没有定义旋转，则为 null。 |
+| [SetRotation](../../aspose.slides/lightrig/setrotation)(float, float, float) | 通过使用 latitude 坐标、经度坐标和绕轴 的旋转作为纬度和经度坐标来定义旋转。 如果任何坐标值为 float.NaN，则所有旋转都未定义。 |
 
 ### 也可以看看
 

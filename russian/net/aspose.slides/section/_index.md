@@ -18,7 +18,7 @@ public class Section : DomObject<SectionCollection>, ISection
 
 | Имя | Описание |
 | --- | --- |
-| [Name](../../aspose.slides/section/name) { get; set; } | Имя раздела. |
+| [Name](../../aspose.slides/section/name) { get; set; } | Название раздела. |
 | [SectionId](../../aspose.slides/section/sectionid) { get; } | Идентификатор раздела. |
 | [StartedFromSlide](../../aspose.slides/section/startedfromslide) { get; } | Возвращает первый слайд раздела. |
 

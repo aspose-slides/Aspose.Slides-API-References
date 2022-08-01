@@ -1,14 +1,14 @@
 ---
 title: ToString
 second_title: Aspose.Slides for .NET API 参考
-description: 返回字符串表示
+description: 返回字符串表示形式
 type: docs
 weight: 50
 url: /zh/net/aspose.slides.charts/istringchartvalue/tostring/
 ---
 ## IStringChartValue.ToString method
 
-返回字符串表示。
+返回字符串表示形式。
 
 ```csharp
 public string ToString()

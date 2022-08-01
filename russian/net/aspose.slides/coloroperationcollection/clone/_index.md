@@ -16,7 +16,7 @@ public object Clone()
 
 ### Возвращаемое значение
 
-Новый[`ColorOperationCollection`](../../coloroperationcollection)коллекция.
+Новый[`ColorOperationCollection`](../../coloroperationcollection) коллекция.
 
 ### Смотрите также
 

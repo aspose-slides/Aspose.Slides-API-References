@@ -1,14 +1,14 @@
 ---
 title: Volume
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или устанавливает громкость звука. Чтение/записьAudioVolumeModeaspose.slides/audiovolumemode.
+description: Возвращает или устанавливает громкость звука. Чтение/записьAudioVolumeModeaspose.slides/audiovolumemode .
 type: docs
 weight: 140
 url: /ru/net/aspose.slides/iaudioframe/volume/
 ---
 ## IAudioFrame.Volume property
 
-Возвращает или устанавливает громкость звука. Чтение/запись[`AudioVolumeMode`](../../audiovolumemode).
+Возвращает или устанавливает громкость звука. Чтение/запись[`AudioVolumeMode`](../../audiovolumemode) .
 
 ```csharp
 public AudioVolumeMode Volume { get; set; }

@@ -24,7 +24,7 @@ public interface IFontSubstRuleCollection : IGenericCollection<IFontSubstRule>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Add](../../aspose.slides/ifontsubstrulecollection/add)(IFontSubstRule) | 将新的字体替换规则添加到集合 |
+| [Add](../../aspose.slides/ifontsubstrulecollection/add)(IFontSubstRule) | 将新的字体替换规则添加到集合中 |
 | [Remove](../../aspose.slides/ifontsubstrulecollection/remove)(IFontSubstRule) | 从集合中删除特定对象的第一个匹配项。 |
 
 ### 也可以看看

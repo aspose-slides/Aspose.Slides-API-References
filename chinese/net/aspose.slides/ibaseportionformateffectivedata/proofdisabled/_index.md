@@ -1,14 +1,14 @@
 ---
 title: ProofDisabled
 second_title: Aspose.Slides for .NET API 参考
-description: 确定文本是否不应校对 只读Boolean
+description: 确定文本是否不应校对 只读Boolean.
 type: docs
 weight: 200
 url: /zh/net/aspose.slides/ibaseportionformateffectivedata/proofdisabled/
 ---
 ## IBasePortionFormatEffectiveData.ProofDisabled property
 
-确定文本是否不应校对。 只读Boolean。
+确定文本是否不应校对。 只读Boolean.
 
 ```csharp
 public bool ProofDisabled { get; }

@@ -1,14 +1,14 @@
 ---
 title: ColorChange
 second_title: Aspose.Slides for .NET API 参考
-description: 表示颜色变化效果 FromColor 的实例被 ToColor 的实例替换
+description: 表示颜色变化效果 FromColor 的实例替换为 ToColor 的实例
 type: docs
 weight: 2760
 url: /zh/net/aspose.slides.effects/colorchange/
 ---
 ## ColorChange class
 
-表示颜色变化效果。 FromColor 的实例被 ToColor 的实例替换。
+表示颜色变化效果。 FromColor 的实例替换为 ToColor 的实例。
 
 ```csharp
 public class ColorChange : ImageTransformOperation, IColorChange
@@ -18,15 +18,15 @@ public class ColorChange : ImageTransformOperation, IColorChange
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允许获取基本 IPresentationComponent 接口。 只读[`IPresentationComponent`](../../aspose.slides/ipresentationcomponent)。 |
-| [FromColor](../../aspose.slides.effects/colorchange/fromcolor) { get; } | 将被替换的颜色。 只读[`IColorFormat`](../../aspose.slides/icolorformat)。 |
-| [ToColor](../../aspose.slides.effects/colorchange/tocolor) { get; } | 将替换的颜色。 只读[`IColorFormat`](../../aspose.slides/icolorformat)。 |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允许获取基本 IPresentationComponent 接口。 只读[`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [FromColor](../../aspose.slides.effects/colorchange/fromcolor) { get; } | 将被替换的颜色。 只读[`IColorFormat`](../../aspose.slides/icolorformat). |
+| [ToColor](../../aspose.slides.effects/colorchange/tocolor) { get; } | 将替换的颜色。 只读[`IColorFormat`](../../aspose.slides/icolorformat). |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/colorchange/equals)(object) | 确定指定的[`ColorChange`](../colorchange)是否等于当前的ColorChange。 |
+| override [Equals](../../aspose.slides.effects/colorchange/equals)(object) | 判断是否指定[`ColorChange`](../colorchange)等于当前[`ColorChange`](../colorchange). |
 | [GetEffective](../../aspose.slides.effects/colorchange/geteffective)() | 获取应用了继承的有效颜色变化效果数据。 |
 | override [GetHashCode](../../aspose.slides.effects/colorchange/gethashcode)() | 用作特定类型的哈希函数。 |
 

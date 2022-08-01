@@ -1,14 +1,14 @@
 ---
 title: UnderlineFillFormat
 second_title: Aspose.Slides for .NET API 参考
-description: 返回下划线行的 FillFormat 属性未应用继承 只读IFillFormataspose.slides/ifillformat
+description: 返回下划线行的 FillFormat 属性未应用继承 只读IFillFormataspose.slides/ifillformat.
 type: docs
 weight: 250
 url: /zh/net/aspose.slides/baseportionformat/underlinefillformat/
 ---
 ## BasePortionFormat.UnderlineFillFormat property
 
-返回下划线行的 FillFormat 属性。未应用继承。 只读[`IFillFormat`](../../ifillformat)。
+返回下划线行的 FillFormat 属性。未应用继承。 只读[`IFillFormat`](../../ifillformat).
 
 ```csharp
 public IFillFormat UnderlineFillFormat { get; }

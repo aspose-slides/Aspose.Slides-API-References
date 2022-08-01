@@ -1,14 +1,14 @@
 ---
 title: InterruptionTokenSource
 second_title: Aspose.Slides for .NET API 参考
-description: 创建一个新的InterruptionTokenSourceaspose.slides/interruptiontokensource
+description: 创建一个新的InterruptionTokenSourceaspose.slides/interruptiontokensource.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides/interruptiontokensource/interruptiontokensource/
 ---
 ## InterruptionTokenSource constructor
 
-创建一个新的[`InterruptionTokenSource`](../../interruptiontokensource)。
+创建一个新的[`InterruptionTokenSource`](../../interruptiontokensource).
 
 ```csharp
 public InterruptionTokenSource()

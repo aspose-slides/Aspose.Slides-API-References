@@ -1,14 +1,14 @@
 ---
 title: IsHardUnderlineFill
 second_title: Aspose.Slides for .NET API 参考
-description: 确定下划线样式是否有自己的 FillFormat 属性或从文本的 FillFormat 属性继承  读/写NullableBoolaspose.slides/nullablebool
+description: 确定下划线样式是否有自己的 FillFormat 属性或继承自文本的 FillFormat 属性  读/写NullableBoolaspose.slides/nullablebool.
 type: docs
 weight: 120
 url: /zh/net/aspose.slides/baseportionformat/ishardunderlinefill/
 ---
 ## BasePortionFormat.IsHardUnderlineFill property
 
-确定下划线样式是否有自己的 FillFormat 属性或从文本的 FillFormat 属性继承 。 读/写[`NullableBool`](../../nullablebool)。
+确定下划线样式是否有自己的 FillFormat 属性或继承自文本的 FillFormat 属性 。 读/写[`NullableBool`](../../nullablebool).
 
 ```csharp
 public NullableBool IsHardUnderlineFill { get; set; }

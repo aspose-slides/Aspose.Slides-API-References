@@ -1,14 +1,14 @@
 ---
 title: FirstRow
 second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет должна ли первая строка таблицы отображаться со специальным форматированием. Чтение/записьBoolean.
+description: Определяет должна ли первая строка таблицы отображаться со специальным форматированием. Чтение/записьBoolean .
 type: docs
 weight: 30
 url: /ru/net/aspose.slides/table/firstrow/
 ---
 ## Table.FirstRow property
 
-Определяет, должна ли первая строка таблицы отображаться со специальным форматированием. Чтение/записьBoolean.
+Определяет, должна ли первая строка таблицы отображаться со специальным форматированием. Чтение/записьBoolean .
 
 ```csharp
 public bool FirstRow { get; set; }

@@ -16,7 +16,7 @@ public ITintEffectiveData GetEffective()
 
 ### 返回值
 
-A[`ITintEffectiveData`](../../itinteffectivedata)。
+一个[`ITintEffectiveData`](../../itinteffectivedata).
 
 ### 也可以看看
 

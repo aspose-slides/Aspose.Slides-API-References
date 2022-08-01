@@ -1,14 +1,14 @@
 ---
 title: Major
 second_title: Aspose.Slides for .NET API 参考
-description: 返回幻灯片标题部分的字体集合 只读IFontsEffectiveDataaspose.slides/ifontseffectivedata
+description: 返回幻灯片标题部分的字体集合 只读IFontsEffectiveDataaspose.slides/ifontseffectivedata.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides.theme/ifontschemeeffectivedata/major/
 ---
 ## IFontSchemeEffectiveData.Major property
 
-返回幻灯片“标题”部分的字体集合。 只读[`IFontsEffectiveData`](../../../aspose.slides/ifontseffectivedata)。
+返回幻灯片“标题”部分的字体集合。 只读[`IFontsEffectiveData`](../../../aspose.slides/ifontseffectivedata).
 
 ```csharp
 public IFontsEffectiveData Major { get; }

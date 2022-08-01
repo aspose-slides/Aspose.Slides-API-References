@@ -18,10 +18,10 @@ public interface ISequence : IEnumerable<IEffect>
 
 | Имя | Описание |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.animation/isequence/asienumerable) { get; } | Позволяет получить базовый интерфейс IEnumerable. Только для чтенияIEnumerable. |
-| [Count](../../aspose.slides.animation/isequence/count) { get; } | Возвращает количество эффектов в последовательности. Только для чтенияInt32. |
+| [AsIEnumerable](../../aspose.slides.animation/isequence/asienumerable) { get; } | Позволяет получить базовый интерфейс IEnumerable. Только для чтенияIEnumerable . |
+| [Count](../../aspose.slides.animation/isequence/count) { get; } | Возвращает количество эффектов в последовательности. Только для чтенияInt32 . |
 | [Item](../../aspose.slides.animation/isequence/item) { get; } | Возвращает эффект по указанному индексу. |
-| [TriggerShape](../../aspose.slides.animation/isequence/triggershape) { get; set; } | Возвращает или задает цель формы для ИНТЕРАКТИВНОЙ последовательности. Если последовательность не интерактивна, то возвращает null. Чтение/запись[`IShape`](../../aspose.slides/ishape). |
+| [TriggerShape](../../aspose.slides.animation/isequence/triggershape) { get; set; } | Возвращает или задает цель формы для ИНТЕРАКТИВНОЙ последовательности. Если последовательность не является интерактивной, возвращает значение null. Чтение/запись[`IShape`](../../aspose.slides/ishape) . |
 
 ## Методы
 
@@ -34,7 +34,7 @@ public interface ISequence : IEnumerable<IEffect>
 | [Clear](../../aspose.slides.animation/isequence/clear)() | Удаляет все эффекты из коллекции. |
 | [GetCount](../../aspose.slides.animation/isequence/getcount)(IShape) | Возвращает количество эффектов для указанной формы. |
 | [GetEffectsByParagraph](../../aspose.slides.animation/isequence/geteffectsbyparagraph)(IParagraph) | Возвращает массив эффектов для указанного абзаца. |
-| [GetEffectsByShape](../../aspose.slides.animation/isequence/geteffectsbyshape)(IShape) | Возвращает массив эффектов для указанной формы. |
+| [GetEffectsByShape](../../aspose.slides.animation/isequence/geteffectsbyshape)(IShape) | Возвращает массив эффектов для указанной фигуры. |
 | [Remove](../../aspose.slides.animation/isequence/remove)(IEffect) | Удаляет указанный эффект из коллекции. |
 | [RemoveAt](../../aspose.slides.animation/isequence/removeat)(int) | Удаляет эффект из коллекции. |
 | [RemoveByShape](../../aspose.slides.animation/isequence/removebyshape)(IShape) | Удалить эффект для указанной формы. |

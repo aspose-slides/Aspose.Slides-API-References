@@ -18,7 +18,7 @@ public interface IMasterHandoutSlideManager
 
 | 姓名 | 描述 |
 | --- | --- |
-| [MasterHandoutSlide](../../aspose.slides/imasterhandoutslidemanager/masterhandoutslide) { get; } | 如果有，则返回此演示文稿的所有笔记幻灯片的母版，否则返回 null。 只读[`IMasterHandoutSlide`](../imasterhandoutslide)。 |
+| [MasterHandoutSlide](../../aspose.slides/imasterhandoutslidemanager/masterhandoutslide) { get; } | 如果有，则返回此演示文稿的所有笔记幻灯片的母版，否则返回 null。 只读[`IMasterHandoutSlide`](../imasterhandoutslide). |
 
 ## 方法
 

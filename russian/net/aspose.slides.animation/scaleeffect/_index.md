@@ -24,14 +24,14 @@ public class ScaleEffect : Behavior, IScaleEffect
 
 | Имя | Описание |
 | --- | --- |
-| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Указывает, накапливаются ли варианты поведения анимации. Чтение/запись[`NullableBool`](../../aspose.slides/nullablebool). |
-| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Указывает, сочетается ли текущее поведение анимации с другими работающими анимациями. Чтение/запись[`BehaviorAdditiveType`](../behavioradditivetype). |
-| [By](../../aspose.slides.animation/scaleeffect/by) { get; set; } | описывает значение относительного смещения для анимации (в процентах). Чтение/записьPointF. |
-| [From](../../aspose.slides.animation/scaleeffect/from) { get; set; } | Указывает координату x/y для начала анимации (в процентах). Чтение/записьPointF. |
-| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | Представляет свойства поведения. Только для чтения[`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
-| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Представляет свойства синхронизации для поведения эффекта. Чтение/запись[`ITiming`](../itiming). |
-| [To](../../aspose.slides.animation/scaleeffect/to) { get; set; } | Указывает целевое местоположение для эффекта масштабирования анимации (в процентах). Чтение/записьPointF. |
-| [ZoomContent](../../aspose.slides.animation/scaleeffect/zoomcontent) { get; set; } | Определяет, следует ли масштабировать содержимое. Чтение/запись[`NullableBool`](../../aspose.slides/nullablebool). |
+| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Указывает, накапливаются ли варианты поведения анимации. Чтение/запись[`NullableBool`](../../aspose.slides/nullablebool) . |
+| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Указывает, комбинируется ли текущее поведение анимации с другими работающими анимациями. Чтение/запись[`BehaviorAdditiveType`](../behavioradditivetype) . |
+| [By](../../aspose.slides.animation/scaleeffect/by) { get; set; } | описывает относительное значение смещения для анимации (в процентах). Чтение/записьPointF . |
+| [From](../../aspose.slides.animation/scaleeffect/from) { get; set; } | Указывает координату x/y для начала анимации (в процентах). Чтение/записьPointF . |
+| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | Представляет свойства поведения. Только для чтения[`IBehaviorPropertyCollection`](../ibehaviorpropertycollection) . |
+| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Представляет временные свойства поведения эффекта. Чтение/запись[`ITiming`](../itiming) . |
+| [To](../../aspose.slides.animation/scaleeffect/to) { get; set; } | Указывает целевое местоположение для эффекта масштабирования анимации (в процентах). Чтение/записьPointF . |
+| [ZoomContent](../../aspose.slides.animation/scaleeffect/zoomcontent) { get; set; } | Определяет, следует ли масштабировать содержимое. Чтение/запись[`NullableBool`](../../aspose.slides/nullablebool) . |
 
 ### Смотрите также
 

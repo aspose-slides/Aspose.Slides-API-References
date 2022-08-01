@@ -1,14 +1,14 @@
 ---
 title: Tags
 second_title: Aspose.Slides for .NET API 参考
-description: 返回客户数据标签集合 只读ITagCollectionaspose.slides/itagcollection
+description: 返回客户数据标签集合 只读ITagCollectionaspose.slides/itagcollection.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides/icustomdata/tags/
 ---
 ## ICustomData.Tags property
 
-返回客户数据标签集合。 只读[`ITagCollection`](../../itagcollection)。
+返回客户数据标签集合。 只读[`ITagCollection`](../../itagcollection).
 
 ```csharp
 public ITagCollection Tags { get; }

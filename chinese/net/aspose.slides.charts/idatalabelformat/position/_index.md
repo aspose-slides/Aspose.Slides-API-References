@@ -1,14 +1,14 @@
 ---
 title: Position
 second_title: Aspose.Slides for .NET API 参考
-description: 表示数据标签的位置 读/写LegendDataLabelPositionaspose.slides.charts/legenddatalabelposition
+description: 表示数据标签的位置 读/写LegendDataLabelPositionaspose.slides.charts/legenddatalabelposition.
 type: docs
 weight: 50
 url: /zh/net/aspose.slides.charts/idatalabelformat/position/
 ---
 ## IDataLabelFormat.Position property
 
-表示数据标签的位置。 读/写[`LegendDataLabelPosition`](../../legenddatalabelposition)。
+表示数据标签的位置。 读/写[`LegendDataLabelPosition`](../../legenddatalabelposition).
 
 ```csharp
 public LegendDataLabelPosition Position { get; set; }
@@ -16,7 +16,7 @@ public LegendDataLabelPosition Position { get; set; }
 
 ### 评论
 
-如果此 DataLabelFormat 对象的父对象是数据标签的 DataLabelCollection 集合，则此 属性获取或设置 DataLabelCollection 集合中新数据 标签的 Position 属性的默认值。 表示 DataLabel 对象的位置。 将此属性设置为 value 也将此值设置为 Position 属性 用于 DataLabelCollection 集合中的所有数据标签 （即“DataLabels.DefaultDataLabelFormat.Position = val;" 导致 所有 DataLabels[i].Position 等于 val)。
+如果此 DataLabelFormat 对象的父对象是数据标签的 DataLabelCollection 集合，则 this 属性获取或设置 DataLabelCollection 集合中新数据 标签的 Position 属性的默认值。 表示 DataLabel 对象的位置。 设置此值具有值的属性还将该值设置为 DataLabelCollection 集合中所有数据标签的位置属性 （即“DataLabels.DefaultDataLabelFormat.Position = val;”导致 所有 DataLabels[i].Position 等于 val）。
 
 ### 也可以看看
 

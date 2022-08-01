@@ -1,14 +1,14 @@
 ---
 title: HighlightRegex
 second_title: Справочник по API Aspose.Slides для .NET
-description: Выделить все совпадения с регулярным выражением в текстовом фрейме указанным цветом.
+description: Выделить все совпадения регулярного выражения в тексте текстового фрейма используя указанный цвет.
 type: docs
 weight: 60
 url: /ru/net/aspose.slides/itextframe/highlightregex/
 ---
 ## ITextFrame.HighlightRegex method
 
-Выделить все совпадения с регулярным выражением в текстовом фрейме указанным цветом.
+Выделить все совпадения регулярного выражения в тексте текстового фрейма, используя указанный цвет.
 
 ```csharp
 public void HighlightRegex(string regex, Color highlightColor, ITextHighlightingOptions options)
@@ -17,8 +17,8 @@ public void HighlightRegex(string regex, Color highlightColor, ITextHighlighting
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | regex | String | Текст регулярного выражения для выделения текста. |
-| highlightColor | Color | Цвет подсветки. |
-| options | ITextHighlightingOptions | Подсветка параметров. |
+| highlightColor | Color | Цвет выделения. |
+| options | ITextHighlightingOptions | Варианты выделения. |
 
 ### Смотрите также
 

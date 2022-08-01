@@ -1,14 +1,14 @@
 ---
 title: RowGapRule
 second_title: Справочник по API Aspose.Slides для .NET
-description: Тип интервала по вертикали между строками матрицы Единицами интервала по вертикали могут быть линии или точки хранящиеся как твипы. По умолчаниюSingleSpacingGap 0
+description: Тип интервала по вертикали между строками матрицы Единицами вертикального интервала могут быть линии или точки хранящиеся как твипы. По умолчанию SingleSpacingGap 0
 type: docs
 weight: 110
 url: /ru/net/aspose.slides.mathtext/mathmatrix/rowgaprule/
 ---
 ## MathMatrix.RowGapRule property
 
-Тип интервала по вертикали между строками матрицы; Единицами интервала по вертикали могут быть линии или точки (хранящиеся как твипы). По умолчанию:SingleSpacingGap (0)
+Тип интервала по вертикали между строками матрицы; Единицами вертикального интервала могут быть линии или точки (хранящиеся как твипы). По умолчанию: SingleSpacingGap (0)
 
 ```csharp
 public MathSpacingRules RowGapRule { get; set; }

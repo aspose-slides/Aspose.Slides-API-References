@@ -1,14 +1,14 @@
 ---
 title: ILuminanceEffectiveData
 second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет эффект яркости. Яркость линейно сдвигает все цвета ближе к белому или черному. Контраст масштабирует все цвета так чтобы они были либо ближе либо дальше друг от друга.
+description: Представляет эффект яркости. Яркость линейно сдвигает все цвета ближе к белому или черному. Контрастность масштабирует все цвета чтобы они были ближе или дальше друг от друга.
 type: docs
 weight: 3250
 url: /ru/net/aspose.slides.effects/iluminanceeffectivedata/
 ---
 ## ILuminanceEffectiveData interface
 
-Представляет эффект яркости. Яркость линейно сдвигает все цвета ближе к белому или черному. Контраст масштабирует все цвета так, чтобы они были либо ближе, либо дальше друг от друга.
+Представляет эффект яркости. Яркость линейно сдвигает все цвета ближе к белому или черному. Контрастность масштабирует все цвета, чтобы они были ближе или дальше друг от друга.
 
 ```csharp
 public interface ILuminanceEffectiveData : IEffectEffectiveData
@@ -18,9 +18,9 @@ public interface ILuminanceEffectiveData : IEffectEffectiveData
 
 | Имя | Описание |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/iluminanceeffectivedata/asieffecteffectivedata) { get; } | Позволяет получить базовый интерфейс IEffectEffectiveData. Только для чтения[`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Brightness](../../aspose.slides.effects/iluminanceeffectivedata/brightness) { get; } | Яркость. Только для чтенияSingle. |
-| [Contrast](../../aspose.slides.effects/iluminanceeffectivedata/contrast) { get; } | Контраст. Только для чтенияSingle. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/iluminanceeffectivedata/asieffecteffectivedata) { get; } | Позволяет получить базовый интерфейс IEffectEffectiveData. Только для чтения[`IEffectEffectiveData`](../ieffecteffectivedata) . |
+| [Brightness](../../aspose.slides.effects/iluminanceeffectivedata/brightness) { get; } | Яркость. Только для чтенияSingle . |
+| [Contrast](../../aspose.slides.effects/iluminanceeffectivedata/contrast) { get; } | Контраст. Только для чтенияSingle . |
 
 ### Смотрите также
 

@@ -19,19 +19,19 @@ public sealed class SlideHeaderFooterManager : BaseSlideHeaderFooterManager,
 
 | 姓名 | 描述 |
 | --- | --- |
-| [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | 获取指示存在日期时间占位符的值。 读取Boolean。 |
-| [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | 获取指示页脚占位符存在的值。 读取Boolean。 |
-| [IsSlideNumberVisible](../../aspose.slides/baseslideheaderfootermanager/isslidenumbervisible) { get; } | 获取指示页码占位符存在的值。 读取Boolean。 |
+| [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | 获取指示存在日期时间占位符的值。 读取Boolean. |
+| [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | 获取指示存在页脚占位符的值。 读取Boolean. |
+| [IsSlideNumberVisible](../../aspose.slides/baseslideheaderfootermanager/isslidenumbervisible) { get; } | 获取指示页码占位符存在的值。 读取Boolean. |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [SetDateTimeText](../../aspose.slides/baseslideheaderfootermanager/setdatetimetext)(string) | 将文本设置为幻灯片日期时间占位符。 |
+| [SetDateTimeText](../../aspose.slides/baseslideheaderfootermanager/setdatetimetext)(string) | 将文本设置为滑动日期时间占位符。 |
 | [SetDateTimeVisibility](../../aspose.slides/baseslideheaderfootermanager/setdatetimevisibility)(bool) | 更改幻灯片日期时间占位符的可见性。 |
 | [SetFooterText](../../aspose.slides/baseslideheaderfootermanager/setfootertext)(string) | 将文本设置为幻灯片页脚占位符。 |
 | [SetFooterVisibility](../../aspose.slides/baseslideheaderfootermanager/setfootervisibility)(bool) | 更改幻灯片页脚占位符的可见性。 |
-| [SetSlideNumberVisibility](../../aspose.slides/baseslideheaderfootermanager/setslidenumbervisibility)(bool) | 更改幻灯片页码占位符的可见性。 |
+| [SetSlideNumberVisibility](../../aspose.slides/baseslideheaderfootermanager/setslidenumbervisibility)(bool) | 更改幻灯片页码占位符可见性。 |
 
 ### 也可以看看
 

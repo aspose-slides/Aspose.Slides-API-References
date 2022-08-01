@@ -1,14 +1,14 @@
 ---
 title: Duotone
 second_title: Aspose.Slides for .NET API 参考
-description: 表示双色调效果 对于每个像素通过线性插值 组合 Color1 和 Color2 以确定该像素的新颜色
+description: 表示双色调效果 对于每个像素通过线性插值组合 Color1 和 Color2 以确定该像素的新颜色
 type: docs
 weight: 2780
 url: /zh/net/aspose.slides.effects/duotone/
 ---
 ## Duotone class
 
-表示双色调效果。 对于每个像素，通过线性插值 组合 Color1 和 Color2 以确定该像素的新颜色。
+表示双色调效果。 对于每个像素，通过线性插值组合 Color1 和 Color2 以确定该像素的新颜色。
 
 ```csharp
 public class Duotone : ImageTransformOperation, IDuotone
@@ -18,15 +18,15 @@ public class Duotone : ImageTransformOperation, IDuotone
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允许获取基本 IPresentationComponent 接口。 只读[`IPresentationComponent`](../../aspose.slides/ipresentationcomponent)。 |
-| [Color1](../../aspose.slides.effects/duotone/color1) { get; } | 返回暗像素的目标颜色格式。 只读[`IColorFormat`](../../aspose.slides/icolorformat)。 |
-| [Color2](../../aspose.slides.effects/duotone/color2) { get; } | 返回光像素的目标颜色格式。 只读[`IColorFormat`](../../aspose.slides/icolorformat)。 |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允许获取基本 IPresentationComponent 接口。 只读[`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [Color1](../../aspose.slides.effects/duotone/color1) { get; } | 返回暗像素的目标颜色格式。 只读[`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Color2](../../aspose.slides.effects/duotone/color2) { get; } | 返回浅色像素的目标颜色格式。 只读[`IColorFormat`](../../aspose.slides/icolorformat). |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/duotone/equals)(object) | 确定指定的[`Duotone`](../duotone)是否等于当前的Duotone。 |
+| override [Equals](../../aspose.slides.effects/duotone/equals)(object) | 判断是否指定[`Duotone`](../duotone)等于当前[`Duotone`](../duotone). |
 | [GetEffective](../../aspose.slides.effects/duotone/geteffective)() | 获取应用了继承的有效双色调效果数据。 |
 | override [GetHashCode](../../aspose.slides.effects/duotone/gethashcode)() | 用作特定类型的哈希函数。 |
 

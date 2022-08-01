@@ -1,14 +1,14 @@
 ---
 title: CountOfCustomProperties
 second_title: Aspose.Slides for .NET API 参考
-description: 返回集合中实际包含的自定义属性的数量 只读Int32
+description: 返回集合中实际包含的自定义属性的数量 只读Int32.
 type: docs
 weight: 90
 url: /zh/net/aspose.slides/idocumentproperties/countofcustomproperties/
 ---
 ## IDocumentProperties.CountOfCustomProperties property
 
-返回集合中实际包含的自定义属性的数量。 只读Int32。
+返回集合中实际包含的自定义属性的数量。 只读Int32.
 
 ```csharp
 public int CountOfCustomProperties { get; }

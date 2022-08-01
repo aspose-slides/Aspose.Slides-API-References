@@ -18,10 +18,10 @@ public interface IRotationEffect : IBehavior
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsIBehavior](../../aspose.slides.animation/irotationeffect/asibehavior) { get; } | 允许获取基本 IBehavior 接口。 只读[`IBehavior`](../ibehavior)。 |
-| [By](../../aspose.slides.animation/irotationeffect/by) { get; set; } | 描述动画的相对偏移值。 读/写Single。 |
-| [From](../../aspose.slides.animation/irotationeffect/from) { get; set; } | 描述动画的起始值。 读/写Single。 |
-| [To](../../aspose.slides.animation/irotationeffect/to) { get; set; } | 描述动画的结束值。 读/写Single。 |
+| [AsIBehavior](../../aspose.slides.animation/irotationeffect/asibehavior) { get; } | 允许获取基本 IBehavior 接口。 只读[`IBehavior`](../ibehavior). |
+| [By](../../aspose.slides.animation/irotationeffect/by) { get; set; } | 描述动画的相对偏移值。 读/写Single. |
+| [From](../../aspose.slides.animation/irotationeffect/from) { get; set; } | 描述动画的起始值。 读/写Single. |
+| [To](../../aspose.slides.animation/irotationeffect/to) { get; set; } | 描述动画的结束值。 读/写Single. |
 
 ### 也可以看看
 

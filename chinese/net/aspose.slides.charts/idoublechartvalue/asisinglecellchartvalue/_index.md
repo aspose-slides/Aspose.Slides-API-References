@@ -1,14 +1,14 @@
 ---
 title: AsISingleCellChartValue
 second_title: Aspose.Slides for .NET API 参考
-description: 允许获取基本 ISingleCellChartValue 接口 只读ISingleCellChartValueaspose.slides.charts/isinglecellchartvalue
+description: 允许获取基本 ISingleCellChartValue 接口 只读ISingleCellChartValueaspose.slides.charts/isinglecellchartvalue.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides.charts/idoublechartvalue/asisinglecellchartvalue/
 ---
 ## IDoubleChartValue.AsISingleCellChartValue property
 
-允许获取基本 ISingleCellChartValue 接口。 只读[`ISingleCellChartValue`](../../isinglecellchartvalue)。
+允许获取基本 ISingleCellChartValue 接口。 只读[`ISingleCellChartValue`](../../isinglecellchartvalue).
 
 ```csharp
 public ISingleCellChartValue AsISingleCellChartValue { get; }

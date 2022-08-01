@@ -1,14 +1,14 @@
 ---
 title: Right
 second_title: Справочник по API Aspose.Slides для .NET
-description: Получает правую часть элемента диаграммы как часть ширины диаграммы. Только для чтенияSingle.
+description: Получает правую часть элемента диаграммы как часть ширины диаграммы. Только для чтенияSingle .
 type: docs
 weight: 40
 url: /ru/net/aspose.slides.charts/ilayoutable/right/
 ---
 ## ILayoutable.Right property
 
-Получает правую часть элемента диаграммы как часть ширины диаграммы. Только для чтенияSingle.
+Получает правую часть элемента диаграммы как часть ширины диаграммы. Только для чтенияSingle .
 
 ```csharp
 public float Right { get; }

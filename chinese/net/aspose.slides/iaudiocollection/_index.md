@@ -18,15 +18,15 @@ public interface IAudioCollection : IGenericCollection<IAudio>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Item](../../aspose.slides/iaudiocollection/item) { get; } | 获取指定索引处的元素。 只读[`IAudio`](../iaudio)。 |
+| [Item](../../aspose.slides/iaudiocollection/item) { get; } | 获取指定索引处的元素。 只读[`IAudio`](../iaudio). |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AddAudio](../../aspose.slides/iaudiocollection/addaudio#addaudio_1)(byte[]) | 从字节数组创建音频并将其添加到演示文稿。 |
+| [AddAudio](../../aspose.slides/iaudiocollection/addaudio#addaudio_1)(byte[]) | 从字节数组创建音频并将其添加到演示文稿中。 |
 | [AddAudio](../../aspose.slides/iaudiocollection/addaudio#addaudio)(IAudio) | 添加来自另一个演示文稿的音频文件的副本。 |
-| [AddAudio](../../aspose.slides/iaudiocollection/addaudio#addaudio_3)(Stream, LoadingStreamBehavior) | 从流中创建音频并将其添加到演示文稿。 |
+| [AddAudio](../../aspose.slides/iaudiocollection/addaudio#addaudio_3)(Stream, LoadingStreamBehavior) | 从流中创建音频并将其添加到演示文稿中。 |
 
 ### 也可以看看
 

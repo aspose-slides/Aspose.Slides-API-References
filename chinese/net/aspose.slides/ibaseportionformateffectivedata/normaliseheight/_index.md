@@ -1,14 +1,14 @@
 ---
 title: NormaliseHeight
 second_title: Aspose.Slides for .NET API 参考
-description: 确定文本的高度是否应该标准化 只读Boolean
+description: 确定文本的高度是否应该标准化 只读Boolean.
 type: docs
 weight: 190
 url: /zh/net/aspose.slides/ibaseportionformateffectivedata/normaliseheight/
 ---
 ## IBasePortionFormatEffectiveData.NormaliseHeight property
 
-确定文本的高度是否应该标准化。 只读Boolean。
+确定文本的高度是否应该标准化。 只读Boolean.
 
 ```csharp
 public bool NormaliseHeight { get; }

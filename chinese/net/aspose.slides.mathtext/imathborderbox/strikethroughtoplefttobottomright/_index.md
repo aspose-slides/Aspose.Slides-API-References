@@ -1,14 +1,14 @@
 ---
 title: StrikethroughTopLeftToBottomRight
 second_title: Aspose.Slides for .NET API 参考
-description: 删除线从左上到右下默认为假 指定边框从左上角到右下角的删除线对角线的隐藏或显示状态
+description: 删除线从左上角到右下角默认为 false 指定从边框框的左上角到右下角的删除线对角线的隐藏或显示状态
 type: docs
 weight: 90
 url: /zh/net/aspose.slides.mathtext/imathborderbox/strikethroughtoplefttobottomright/
 ---
 ## IMathBorderBox.StrikethroughTopLeftToBottomRight property
 
-删除线从左上到右下（默认为假）。 指定边框从左上角到右下角的删除线对角线的隐藏或显示状态。
+删除线从左上角到右下角（默认为 false）。 指定从边框框的左上角到右下角的删除线对角线的隐藏或显示状态。
 
 ```csharp
 public bool StrikethroughTopLeftToBottomRight { get; set; }
@@ -16,7 +16,7 @@ public bool StrikethroughTopLeftToBottomRight { get; set; }
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]

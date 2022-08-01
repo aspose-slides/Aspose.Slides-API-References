@@ -46,7 +46,7 @@ public IVideo AddVideo(Stream stream, LoadingStreamBehavior loadingStreamBehavio
 
 ### Возвращаемое значение
 
-Добавлено[`IVideo`](../../ivideo).
+Добавлен[`IVideo`](../../ivideo).
 
 ### Смотрите также
 

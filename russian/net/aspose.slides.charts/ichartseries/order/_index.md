@@ -1,14 +1,14 @@
 ---
 title: Order
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает порядок ряда. Чтение/записьInt32.
+description: Возвращает порядок серии. Чтение/записьInt32 .
 type: docs
 weight: 260
 url: /ru/net/aspose.slides.charts/ichartseries/order/
 ---
 ## IChartSeries.Order property
 
-Возвращает порядок ряда. Чтение/записьInt32.
+Возвращает порядок серии. Чтение/записьInt32 .
 
 ```csharp
 public int Order { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: FormatScheme
 second_title: Aspose.Slides for .NET API 参考
-description: 返回形状格式方案 只读IFormatSchemeaspose.slides.theme/iformatscheme
+description: 返回形状格式方案 只读IFormatSchemeaspose.slides.theme/iformatscheme.
 type: docs
 weight: 30
 url: /zh/net/aspose.slides.theme/theme/formatscheme/
 ---
 ## Theme.FormatScheme property
 
-返回形状格式方案。 只读[`IFormatScheme`](../../iformatscheme)。
+返回形状格式方案。 只读[`IFormatScheme`](../../iformatscheme).
 
 ```csharp
 public abstract IFormatScheme FormatScheme { get; }

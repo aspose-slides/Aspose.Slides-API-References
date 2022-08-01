@@ -20,7 +20,7 @@ public IMasterSlide AddClone(IMasterSlide sourceMaster)
 
 ### 返回值
 
-添加幻灯片。
+添加了幻灯片。
 
 ### 也可以看看
 

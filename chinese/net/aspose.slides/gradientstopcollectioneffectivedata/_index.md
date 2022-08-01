@@ -18,10 +18,10 @@ public class GradientStopCollectionEffectiveData : IGradientStopCollectionEffect
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Count](../../aspose.slides/gradientstopcollectioneffectivedata/count) { get; } | 返回集合中渐变停止的数量。 只读Int32。 |
-| [IsSynchronized](../../aspose.slides/gradientstopcollectioneffectivedata/issynchronized) { get; } | 返回一个值，指示对集合的访问是否同步（线程安全）。 只读Boolean。 |
-| [Item](../../aspose.slides/gradientstopcollectioneffectivedata/item) { get; } | 返回按索引停止的渐变。 |
-| [SyncRoot](../../aspose.slides/gradientstopcollectioneffectivedata/syncroot) { get; } | 返回同步根。 只读Object。 |
+| [Count](../../aspose.slides/gradientstopcollectioneffectivedata/count) { get; } | 返回集合中渐变停止点的数量。 只读Int32. |
+| [IsSynchronized](../../aspose.slides/gradientstopcollectioneffectivedata/issynchronized) { get; } | 返回一个值，指示对集合的访问是否同步（线程安全）。 只读Boolean. |
+| [Item](../../aspose.slides/gradientstopcollectioneffectivedata/item) { get; } | 按索引返回梯度停止点。 |
+| [SyncRoot](../../aspose.slides/gradientstopcollectioneffectivedata/syncroot) { get; } | 返回同步根。 只读Object. |
 
 ## 方法
 

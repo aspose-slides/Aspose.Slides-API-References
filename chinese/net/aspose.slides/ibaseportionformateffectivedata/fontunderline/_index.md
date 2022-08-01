@@ -1,14 +1,14 @@
 ---
 title: FontUnderline
 second_title: Aspose.Slides for .NET API 参考
-description: 返回文本下划线类型 只读TextUnderlineTypeaspose.slides/textunderlinetype
+description: 返回文本下划线类型 只读TextUnderlineTypeaspose.slides/textunderlinetype.
 type: docs
 weight: 100
 url: /zh/net/aspose.slides/ibaseportionformateffectivedata/fontunderline/
 ---
 ## IBasePortionFormatEffectiveData.FontUnderline property
 
-返回文本下划线类型。 只读[`TextUnderlineType`](../../textunderlinetype)。
+返回文本下划线类型。 只读[`TextUnderlineType`](../../textunderlinetype).
 
 ```csharp
 public TextUnderlineType FontUnderline { get; }

@@ -1,14 +1,14 @@
 ---
 title: Name
 second_title: Aspose.Slides for .NET API 参考
-description: 函数名 例如函数名是 sin 和 cos
+description: 函数名 例如函数名是sin和cos
 type: docs
 weight: 30
 url: /zh/net/aspose.slides.mathtext/imathfunction/name/
 ---
 ## IMathFunction.Name property
 
-函数名 例如函数名是 sin 和 cos
+函数名 例如函数名是sin和cos
 
 ```csharp
 public IMathElement Name { get; }
@@ -16,7 +16,7 @@ public IMathElement Name { get; }
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]

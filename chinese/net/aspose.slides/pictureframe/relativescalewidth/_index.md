@@ -1,14 +1,14 @@
 ---
 title: RelativeScaleWidth
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置图片帧的宽度比例相对于原始图片大小值 1.0 对应于 100 读/写Single
+description: 返回或设置图片帧的宽度比例相对于原始图片大小值 1.0 对应 100. 读/写Single.
 type: docs
 weight: 40
 url: /zh/net/aspose.slides/pictureframe/relativescalewidth/
 ---
 ## PictureFrame.RelativeScaleWidth property
 
-返回或设置图片帧的宽度比例（相对于原始图片大小）。值 1.0 对应于 100%。 读/写Single。
+返回或设置图片帧的宽度比例（相对于原始图片大小）。值 1.0 对应 100%. 读/写Single.
 
 ```csharp
 public float RelativeScaleWidth { get; set; }

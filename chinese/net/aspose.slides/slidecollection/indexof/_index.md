@@ -16,7 +16,7 @@ public int IndexOf(ISlide slide)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| slide | ISlide | 滑动查找。 |
+| slide | ISlide | 滑动找到。 |
 
 ### 返回值
 

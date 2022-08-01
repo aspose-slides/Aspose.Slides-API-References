@@ -1,14 +1,14 @@
 ---
 title: FillOverlay
 second_title: Aspose.Slides for .NET API 参考
-description: 表示填充叠加效果填充覆盖可用于为对象指定 附加填充并将两种填充混合在一起
+description: 表示填充叠加效果填充覆盖可用于为对象指定 附加填充并将这两种填充混合在一起
 type: docs
 weight: 2800
 url: /zh/net/aspose.slides.effects/filloverlay/
 ---
 ## FillOverlay class
 
-表示填充叠加效果。填充覆盖可用于为对象指定 附加填充并将两种填充混合在一起。
+表示填充叠加效果。填充覆盖可用于为对象指定 附加填充并将这两种填充混合在一起。
 
 ```csharp
 public class FillOverlay : ImageTransformOperation, IFillOverlay
@@ -18,15 +18,15 @@ public class FillOverlay : ImageTransformOperation, IFillOverlay
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允许获取基本 IPresentationComponent 接口。 只读[`IPresentationComponent`](../../aspose.slides/ipresentationcomponent)。 |
-| [Blend](../../aspose.slides.effects/filloverlay/blend) { get; set; } | FillBlendMode。 读/写[`FillBlendMode`](../../aspose.slides/fillblendmode)。 |
-| [FillFormat](../../aspose.slides.effects/filloverlay/fillformat) { get; } | 填充格式。 只读[`IFillFormat`](../../aspose.slides/ifillformat)。 |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允许获取基本 IPresentationComponent 接口。 只读[`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [Blend](../../aspose.slides.effects/filloverlay/blend) { get; set; } | FillBlendMode. 读/写[`FillBlendMode`](../../aspose.slides/fillblendmode). |
+| [FillFormat](../../aspose.slides.effects/filloverlay/fillformat) { get; } | 填充格式。 只读[`IFillFormat`](../../aspose.slides/ifillformat). |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/filloverlay/equals)(object) | 确定指定的[`FillOverlay`](../filloverlay)是否等于当前的FillOverlay。 |
+| override [Equals](../../aspose.slides.effects/filloverlay/equals)(object) | 判断是否指定[`FillOverlay`](../filloverlay)等于当前[`FillOverlay`](../filloverlay). |
 | [GetEffective](../../aspose.slides.effects/filloverlay/geteffective)() | 获取应用了继承的有效填充叠加效果数据。 |
 | override [GetHashCode](../../aspose.slides.effects/filloverlay/gethashcode)() | 用作特定类型的哈希函数。 |
 

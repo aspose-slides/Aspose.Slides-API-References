@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает макет слайда по индексу. Только для чтенияLayoutSlideaspose.slides/layoutslide.
+description: Возвращает макет слайда по индексу. Только для чтенияLayoutSlideaspose.slides/layoutslide .
 type: docs
 weight: 30
 url: /ru/net/aspose.slides/layoutslidecollection/item/
 ---
 ## LayoutSlideCollection indexer
 
-Возвращает макет слайда по индексу. Только для чтения[`LayoutSlide`](../../layoutslide).
+Возвращает макет слайда по индексу. Только для чтения[`LayoutSlide`](../../layoutslide) .
 
 ```csharp
 public ILayoutSlide this[int index] { get; }

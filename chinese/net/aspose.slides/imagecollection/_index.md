@@ -18,22 +18,22 @@ public sealed class ImageCollection : DomObject<Presentation>, IImageCollection
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Count](../../aspose.slides/imagecollection/count) { get; } | 返回集合中的图像数量。 只读Int32。 |
-| [IsSynchronized](../../aspose.slides/imagecollection/issynchronized) { get; } | 返回一个值，指示对集合的访问是否同步（线程安全）。 只读Boolean。 |
-| [Item](../../aspose.slides/imagecollection/item) { get; } | 获取指定索引处的元素。 只读[`IPPImage`](../ippimage)。 |
-| [SyncRoot](../../aspose.slides/imagecollection/syncroot) { get; } | 返回同步根。 只读Object。 |
+| [Count](../../aspose.slides/imagecollection/count) { get; } | 返回集合中的图像数量。 只读Int32. |
+| [IsSynchronized](../../aspose.slides/imagecollection/issynchronized) { get; } | 返回一个值，指示对集合的访问是否同步（线程安全）。 只读Boolean. |
+| [Item](../../aspose.slides/imagecollection/item) { get; } | 获取指定索引处的元素。 只读[`IPPImage`](../ippimage). |
+| [SyncRoot](../../aspose.slides/imagecollection/syncroot) { get; } | 返回同步根。 只读Object. |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
 | [AddImage](../../aspose.slides/imagecollection/addimage#addimage_2)(byte[]) | 将图像从指定缓冲区添加到演示文稿。 |
-| [AddImage](../../aspose.slides/imagecollection/addimage#addimage_3)(Image) | 将图像添加到演示文稿。 |
-| [AddImage](../../aspose.slides/imagecollection/addimage#addimage)(IPPImage) | 添加来自另一个演示文稿的图像的副本。 |
-| [AddImage](../../aspose.slides/imagecollection/addimage#addimage_1)(ISvgImage) | 将图像添加到 Svg 对象的演示文稿中。 |
+| [AddImage](../../aspose.slides/imagecollection/addimage#addimage_3)(Image) | 将图像添加到演示文稿中。 |
+| [AddImage](../../aspose.slides/imagecollection/addimage#addimage)(IPPImage) | 添加来自另一个演示文稿的图像副本。 |
+| [AddImage](../../aspose.slides/imagecollection/addimage#addimage_1)(ISvgImage) | 将图像从 Svg 对象添加到演示文稿。 |
 | [AddImage](../../aspose.slides/imagecollection/addimage#addimage_4)(MemoryStream) | 将图像从流中添加到演示文稿。 |
 | [AddImage](../../aspose.slides/imagecollection/addimage#addimage_5)(Stream) | 将图像从流中添加到演示文稿。 |
-| [AddImage](../../aspose.slides/imagecollection/addimage#addimage_6)(Stream, LoadingStreamBehavior) | 从流中创建图像并将其添加到演示文稿。 |
+| [AddImage](../../aspose.slides/imagecollection/addimage#addimage_6)(Stream, LoadingStreamBehavior) | 从流中创建图像并将其添加到演示文稿中。 |
 | [CopyTo](../../aspose.slides/imagecollection/copyto)(Array, int) | 将集合中的所有元素复制到指定的数组。 |
 | [GetEnumerator](../../aspose.slides/imagecollection/getenumerator)() | 返回一个遍历集合的枚举器。 |
 

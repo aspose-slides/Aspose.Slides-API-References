@@ -1,14 +1,14 @@
 ---
 title: AdjustHandlesLocked
 second_title: Aspose.Slides for .NET API 参考
-description: 确定是否禁止更改调整值 读写Boolean
+description: 确定是否禁止更改调整值 读写Boolean.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides/iautoshapelock/adjusthandleslocked/
 ---
 ## IAutoShapeLock.AdjustHandlesLocked property
 
-确定是否禁止更改调整值。 读写Boolean。
+确定是否禁止更改调整值。 读写Boolean.
 
 ```csharp
 public bool AdjustHandlesLocked { get; set; }

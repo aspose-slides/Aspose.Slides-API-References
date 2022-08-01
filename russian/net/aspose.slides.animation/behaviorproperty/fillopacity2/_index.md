@@ -8,7 +8,7 @@ url: /ru/net/aspose.slides.animation/behaviorproperty/fillopacity2/
 ---
 ## BehaviorProperty.FillOpacity2 property
 
-Представляет свойство 'fill.opacity2'
+Представляет свойство fill.opacity2
 
 ```csharp
 public static BehaviorProperty FillOpacity2 { get; }

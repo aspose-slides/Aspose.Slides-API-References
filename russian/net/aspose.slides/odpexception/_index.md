@@ -1,14 +1,14 @@
 ---
 title: OdpException
 second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет стандартный тип внутреннего исключения.
+description: Представляет тип стандартного внутреннего исключения.
 type: docs
 weight: 8480
 url: /ru/net/aspose.slides/odpexception/
 ---
 ## OdpException class
 
-Представляет стандартный тип внутреннего исключения.
+Представляет тип стандартного внутреннего исключения.
 
 ```csharp
 public class OdpException : Exception
@@ -19,7 +19,7 @@ public class OdpException : Exception
 | Имя | Описание |
 | --- | --- |
 | [OdpException](odpexception#constructor)() | Конструктор по умолчанию |
-| [OdpException](odpexception#constructor_1)(string) | Конструктор, позволяющий добавить сообщение к этому исключению. |
+| [OdpException](odpexception#constructor_1)(string) | Конструктор, позволяющий добавить сообщение в это исключение. |
 | [OdpException](odpexception#constructor_2)(string, Exception) | Конструктор исключения, содержащего сообщение и встроенное исключение. |
 
 ### Смотрите также

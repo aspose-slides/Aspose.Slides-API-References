@@ -1,14 +1,14 @@
 ---
 title: MasterThemeManager
 second_title: Справочник по API Aspose.Slides для .NET
-description: Предоставляет доступ к основной теме презентации.
+description: Предоставляет доступ к главной теме презентации.
 type: docs
 weight: 10630
 url: /ru/net/aspose.slides.theme/masterthememanager/
 ---
 ## MasterThemeManager class
 
-Предоставляет доступ к основной теме презентации.
+Предоставляет доступ к главной теме презентации.
 
 ```csharp
 public class MasterThemeManager : BaseThemeManager, IMasterThemeManager
@@ -18,8 +18,8 @@ public class MasterThemeManager : BaseThemeManager, IMasterThemeManager
 
 | Имя | Описание |
 | --- | --- |
-| [IsOverrideThemeEnabled](../../aspose.slides.theme/masterthememanager/isoverridethemeenabled) { get; set; } | Определяет, переопределяет ли OverrideTheme унаследованную действующую тему (Presentation.MasterTheme) или нет. Чтение/записьBoolean. |
-| [OverrideTheme](../../aspose.slides.theme/masterthememanager/overridetheme) { get; set; } | Возвращает основной объект темы. Чтение/запись[`IMasterTheme`](../imastertheme). |
+| [IsOverrideThemeEnabled](../../aspose.slides.theme/masterthememanager/isoverridethemeenabled) { get; set; } | Определяет, переопределяет ли OverrideTheme унаследованную действующую тему (Presentation.MasterTheme) или нет. Чтение/записьBoolean . |
+| [OverrideTheme](../../aspose.slides.theme/masterthememanager/overridetheme) { get; set; } | Возвращает основной объект темы. Чтение/запись[`IMasterTheme`](../imastertheme) . |
 
 ## Методы
 

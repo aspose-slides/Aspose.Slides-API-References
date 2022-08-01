@@ -16,7 +16,7 @@ public IVbaModule AddEmptyModule(string name)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| name | String | Имя модуля |
+| name | String | Название модуля |
 
 ### Возвращаемое значение
 

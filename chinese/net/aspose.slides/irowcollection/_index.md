@@ -1,14 +1,14 @@
 ---
 title: IRowCollection
 second_title: Aspose.Slides for .NET API 参考
-description: 表示表格行集合
+description: 表示表行集合
 type: docs
 weight: 6300
 url: /zh/net/aspose.slides/irowcollection/
 ---
 ## IRowCollection interface
 
-表示表格行集合。
+表示表行集合。
 
 ```csharp
 public interface IRowCollection : IGenericCollection<IRow>
@@ -24,7 +24,7 @@ public interface IRowCollection : IGenericCollection<IRow>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AddClone](../../aspose.slides/irowcollection/addclone)(IRow, bool) | 创建指定模板行的副本并将其插入表格底部。 |
+| [AddClone](../../aspose.slides/irowcollection/addclone)(IRow, bool) | 创建指定模板行的副本并将其插入到表的底部。 |
 | [InsertClone](../../aspose.slides/irowcollection/insertclone)(int, IRow, bool) | 创建指定模板行的副本并将其插入到表中的指定位置。 |
 | [RemoveAt](../../aspose.slides/irowcollection/removeat)(int, bool) | 从表中删除指定位置的行。 |
 

@@ -16,7 +16,7 @@ public IPresetShadowEffectiveData GetEffective()
 
 ### 返回值
 
-A[`IPresetShadowEffectiveData`](../../ipresetshadoweffectivedata)。
+一个[`IPresetShadowEffectiveData`](../../ipresetshadoweffectivedata).
 
 ### 也可以看看
 

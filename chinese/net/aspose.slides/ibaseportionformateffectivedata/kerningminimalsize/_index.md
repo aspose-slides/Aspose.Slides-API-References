@@ -1,14 +1,14 @@
 ---
 title: KerningMinimalSize
 second_title: Aspose.Slides for .NET API 参考
-description: 返回最小字体大小应该打开字距调整 只读Single
+description: 返回最小字体大小应该打开字距调整 只读Single.
 type: docs
 weight: 140
 url: /zh/net/aspose.slides/ibaseportionformateffectivedata/kerningminimalsize/
 ---
 ## IBasePortionFormatEffectiveData.KerningMinimalSize property
 
-返回最小字体大小，应该打开字距调整。 只读Single。
+返回最小字体大小，应该打开字距调整。 只读Single.
 
 ```csharp
 public float KerningMinimalSize { get; }

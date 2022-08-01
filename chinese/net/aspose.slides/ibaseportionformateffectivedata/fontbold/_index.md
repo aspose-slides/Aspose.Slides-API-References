@@ -1,14 +1,14 @@
 ---
 title: FontBold
 second_title: Aspose.Slides for .NET API 参考
-description: 确定字体是否为粗体 只读Boolean
+description: 确定字体是否为粗体 只读Boolean.
 type: docs
 weight: 70
 url: /zh/net/aspose.slides/ibaseportionformateffectivedata/fontbold/
 ---
 ## IBasePortionFormatEffectiveData.FontBold property
 
-确定字体是否为粗体。 只读Boolean。
+确定字体是否为粗体。 只读Boolean.
 
 ```csharp
 public bool FontBold { get; }

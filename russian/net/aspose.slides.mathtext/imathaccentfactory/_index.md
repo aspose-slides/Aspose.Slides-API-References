@@ -18,7 +18,7 @@ public interface IMathAccentFactory
 
 | Имя | Описание |
 | --- | --- |
-| [CreateMathAccent](../../aspose.slides.mathtext/imathaccentfactory/createmathaccent#createmathaccent)(IMathElement) | Создает математический акцент, применяемый к указанному математическому элементу со значением символа акцента по умолчанию |
+| [CreateMathAccent](../../aspose.slides.mathtext/imathaccentfactory/createmathaccent#createmathaccent)(IMathElement) | Создает математический акцент, применяемый к указанному математическому элементу с символом ударения по умолчанию value |
 | [CreateMathAccent](../../aspose.slides.mathtext/imathaccentfactory/createmathaccent#createmathaccent_1)(IMathElement, char) | Создает математический акцент, применяемый к указанному математическому элементу |
 
 ### Примечания

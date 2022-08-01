@@ -18,14 +18,14 @@ public interface IGroupShapeLock : IBaseShapeLock
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsIBaseShapeLock](../../aspose.slides/igroupshapelock/asibaseshapelock) { get; } | 允许获取基本 IBaseShapeLock 接口。 只读[`IBaseShapeLock`](../ibaseshapelock)。 |
-| [AspectRatioLocked](../../aspose.slides/igroupshapelock/aspectratiolocked) { get; set; } | 确定形状在调整大小时是否必须保持纵横比。 读/写Boolean。 |
-| [GroupingLocked](../../aspose.slides/igroupshapelock/groupinglocked) { get; set; } | 确定是否禁止将此形状添加到组中。 读/写Boolean。 |
-| [PositionLocked](../../aspose.slides/igroupshapelock/positionlocked) { get; set; } | 确定是否禁止移动此形状。 读/写Boolean。 |
-| [RotationLocked](../../aspose.slides/igroupshapelock/rotationlocked) { get; set; } | 决定是否禁止改变这个形状的旋转角度。 读/写Boolean。 |
-| [SelectLocked](../../aspose.slides/igroupshapelock/selectlocked) { get; set; } | 确定是否禁止选择此形状。 读/写Boolean。 |
-| [SizeLocked](../../aspose.slides/igroupshapelock/sizelocked) { get; set; } | 确定是否禁止调整此形状的大小。 读/写Boolean。 |
-| [UngroupingLocked](../../aspose.slides/igroupshapelock/ungroupinglocked) { get; set; } | 确定是否禁止拆分此 groupshape。 读/写Boolean。 |
+| [AsIBaseShapeLock](../../aspose.slides/igroupshapelock/asibaseshapelock) { get; } | 允许获取基本 IBaseShapeLock 接口。 只读[`IBaseShapeLock`](../ibaseshapelock). |
+| [AspectRatioLocked](../../aspose.slides/igroupshapelock/aspectratiolocked) { get; set; } | 确定形状是否必须在调整大小时保持纵横比。 读/写Boolean. |
+| [GroupingLocked](../../aspose.slides/igroupshapelock/groupinglocked) { get; set; } | 确定是否禁止将此形状添加到组中。 读/写Boolean. |
+| [PositionLocked](../../aspose.slides/igroupshapelock/positionlocked) { get; set; } | 确定是否禁止移动此形状。 读/写Boolean. |
+| [RotationLocked](../../aspose.slides/igroupshapelock/rotationlocked) { get; set; } | 决定是否禁止改变这个形状的旋转角度。 读/写Boolean. |
+| [SelectLocked](../../aspose.slides/igroupshapelock/selectlocked) { get; set; } | 确定是否禁止选择此形状。 读/写Boolean. |
+| [SizeLocked](../../aspose.slides/igroupshapelock/sizelocked) { get; set; } | 确定是否禁止调整此形状的大小。 读/写Boolean. |
+| [UngroupingLocked](../../aspose.slides/igroupshapelock/ungroupinglocked) { get; set; } | 确定是否禁止拆分此 groupshape。 读/写Boolean. |
 
 ### 也可以看看
 

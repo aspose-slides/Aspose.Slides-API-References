@@ -1,14 +1,14 @@
 ---
 title: ShowLabelValueFromCell
 second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет поведение отображения значения ячейки метки данных указанной диаграммы. True отображает значение ячейки. Ложь скрывать. Чтение/записьBoolean.
+description: Представляет поведение отображения значения ячейки метки данных указанной диаграммы. True отображает значение ячейки. False чтобы скрыть. Чтение/записьBoolean .
 type: docs
 weight: 100
 url: /ru/net/aspose.slides.charts/idatalabelformat/showlabelvaluefromcell/
 ---
 ## IDataLabelFormat.ShowLabelValueFromCell property
 
-Представляет поведение отображения значения ячейки метки данных указанной диаграммы. True отображает значение ячейки. Ложь скрывать. Чтение/записьBoolean.
+Представляет поведение отображения значения ячейки метки данных указанной диаграммы. True отображает значение ячейки. False, чтобы скрыть. Чтение/записьBoolean .
 
 ```csharp
 public bool ShowLabelValueFromCell { get; set; }
@@ -16,7 +16,7 @@ public bool ShowLabelValueFromCell { get; set; }
 
 ### Примечания
 
-Если родителем этого объекта DataLabelFormat является коллекция меток данных DataLabelCollection, то это свойство получает или задает значение по умолчанию свойства ShowLabelValueFromCell для новых меток данных в коллекции DataLabelCollection. Установка этого свойства со значением также устанавливает это значение в свойство ShowLabelValueFromCell для всех меток данных в коллекции DataLabelCollection (т.е. "DataLabels.DefaultDataLabelFormat.ShowLabelValueFromCell = val;" приводит к тому, что все DataLabels[i].ShowLabelValueFromCell равно val).
+Если родителем этого объекта DataLabelFormat является коллекция меток данных DataLabelCollection, то свойство this получает или задает значение по умолчанию свойства ShowLabelValueFromCell для новых меток данных в коллекции DataLabelCollection. Свойство ShowLabelValueFromCell для всех меток данных в коллекции DataLabelCollection (т. е. «DataLabels.DefaultDataLabelFormat.ShowLabelValueFromCell = val;» приводит к всем DataLabels[i].ShowLabelValueFromCell равно val).
 
 ### Смотрите также
 

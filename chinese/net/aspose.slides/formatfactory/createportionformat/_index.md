@@ -1,14 +1,14 @@
 ---
 title: CreatePortionFormat
 second_title: Aspose.Slides for .NET API 参考
-description: 创建新的IPortionFormataspose.slides/iportionformat
+description: 创建新的IPortionFormataspose.slides/iportionformat.
 type: docs
 weight: 40
 url: /zh/net/aspose.slides/formatfactory/createportionformat/
 ---
 ## FormatFactory.CreatePortionFormat method
 
-创建新的[`IPortionFormat`](../../iportionformat)。
+创建新的[`IPortionFormat`](../../iportionformat).
 
 ```csharp
 public IPortionFormat CreatePortionFormat()
@@ -16,7 +16,7 @@ public IPortionFormat CreatePortionFormat()
 
 ### 返回值
 
-新部分格式。
+新的部分格式。
 
 ### 也可以看看
 

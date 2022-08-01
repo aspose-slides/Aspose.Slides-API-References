@@ -18,10 +18,10 @@ public class CustomXmlPart : ICustomXmlPart
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ItemId](../../aspose.slides/customxmlpart/itemid) { get; set; } | 指定一个全局唯一标识符 (GUID)，用于唯一标识 Office Open XML 文档中的单个自定义 XML 部分。 只读Guid。 |
-| [NamespaceSchemas](../../aspose.slides/customxmlpart/namespaceschemas) { get; } | 返回与自定义 XML 部件关联的集合 XML 架构。 只读String[]。 |
-| [XmlAsString](../../aspose.slides/customxmlpart/xmlasstring) { get; set; } | 将 xml 数据返回或设置为 UTF-8 字符串。 读/写String。  值为` null` 。 值为空或 xml 数据无效。 |
-| [XmlData](../../aspose.slides/customxmlpart/xmldata) { get; set; } | 返回或设置 xml 数据。 读/写Byte[]。  值为` null` 。 值为空或 xml 数据无效。 |
+| [ItemId](../../aspose.slides/customxmlpart/itemid) { get; set; } | 指定一个全局唯一标识符 (GUID)，用于唯一标识 Office Open XML 文档中的单个自定义 XML 部分。 只读Guid. |
+| [NamespaceSchemas](../../aspose.slides/customxmlpart/namespaceschemas) { get; } | 返回与自定义 XML 部分关联的集合 XML 架构。 只读String[]. |
+| [XmlAsString](../../aspose.slides/customxmlpart/xmlasstring) { get; set; } | 将 xml 数据返回或设置为 UTF-8 字符串。 读/写String. 值为`无效的`.值为空或 xml-data 无效。 |
+| [XmlData](../../aspose.slides/customxmlpart/xmldata) { get; set; } | 返回或设置 xml 数据。 读/写Byte[]. 值为`无效的`.值为空或 xml-data 无效。 |
 
 ## 方法
 

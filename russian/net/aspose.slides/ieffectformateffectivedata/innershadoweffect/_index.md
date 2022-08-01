@@ -1,14 +1,14 @@
 ---
 title: InnerShadowEffect
 second_title: Справочник по API Aspose.Slides для .NET
-description: Внутренняя тень. Только для чтенияIInnerShadowEffectiveDataaspose.slides.effects/iinnershadoweffectivedata.
+description: Внутренняя тень. Только для чтенияIInnerShadowEffectiveDataaspose.slides.effects/iinnershadoweffectivedata .
 type: docs
 weight: 50
 url: /ru/net/aspose.slides/ieffectformateffectivedata/innershadoweffect/
 ---
 ## IEffectFormatEffectiveData.InnerShadowEffect property
 
-Внутренняя тень. Только для чтения[`IInnerShadowEffectiveData`](../../../aspose.slides.effects/iinnershadoweffectivedata).
+Внутренняя тень. Только для чтения[`IInnerShadowEffectiveData`](../../../aspose.slides.effects/iinnershadoweffectivedata) .
 
 ```csharp
 public IInnerShadowEffectiveData InnerShadowEffect { get; }

@@ -18,20 +18,20 @@ public interface IBulletFormatEffectiveData
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ActualBulletValue](../../aspose.slides/ibulletformateffectivedata/actualbulletvalue) { get; } | 返回父段落的实际项目符号值。 只读String。 |
-| [Char](../../aspose.slides/ibulletformateffectivedata/char) { get; } | 返回段落的子弹字符。 只读Char。 |
-| [FillFormat](../../aspose.slides/ibulletformateffectivedata/fillformat) { get; } | 返回段落的项目符号填充格式。 只读[`IFillFormatEffectiveData`](../ifillformateffectivedata)。 |
-| [Font](../../aspose.slides/ibulletformateffectivedata/font) { get; } | 返回段落的项目符号字体。 只读[`IFontData`](../ifontdata)。 |
-| [Height](../../aspose.slides/ibulletformateffectivedata/height) { get; } | 返回段落的项目符号高度。 只读Single。 |
-| [IsBulletHardColor](../../aspose.slides/ibulletformateffectivedata/isbullethardcolor) { get; } | 确定子弹是否有自己的颜色或从段落的第一部分继承它。 返回 **true** 如果子弹有自己的颜色， **false** 如果子弹从段落的第一部分继承颜色。 只读Boolean。 |
-| [IsBulletHardFont](../../aspose.slides/ibulletformateffectivedata/isbullethardfont) { get; } | 确定项目符号是否具有自己的字体或从段落的第一部分继承。 返回 **true** 如果子弹有自己的字体和 **true** 如果子弹从段落的第一部分继承字体。 只读Boolean。 |
-| [NumberedBulletStartWith](../../aspose.slides/ibulletformateffectivedata/numberedbulletstartwith) { get; } | 返回用于编号项目符号组的第一个数字。 只读Int16。 |
-| [NumberedBulletStyle](../../aspose.slides/ibulletformateffectivedata/numberedbulletstyle) { get; } | 返回编号项目符号的样式。 只读[`NumberedBulletStyle`](../numberedbulletstyle)。 |
-| [Type](../../aspose.slides/ibulletformateffectivedata/type) { get; } | 返回段落的项目符号类型。 只读[`BulletType`](../bullettype)。 |
+| [ActualBulletValue](../../aspose.slides/ibulletformateffectivedata/actualbulletvalue) { get; } | 返回父段落的实际项目符号值。 只读String. |
+| [Char](../../aspose.slides/ibulletformateffectivedata/char) { get; } | 返回段落的项目符号字符。 只读Char. |
+| [FillFormat](../../aspose.slides/ibulletformateffectivedata/fillformat) { get; } | 返回段落的项目符号填充格式。 只读[`IFillFormatEffectiveData`](../ifillformateffectivedata). |
+| [Font](../../aspose.slides/ibulletformateffectivedata/font) { get; } | 返回段落的项目符号字体。 只读[`IFontData`](../ifontdata). |
+| [Height](../../aspose.slides/ibulletformateffectivedata/height) { get; } | 返回段落的项目符号高度。 只读Single. |
+| [IsBulletHardColor](../../aspose.slides/ibulletformateffectivedata/isbullethardcolor) { get; } | 确定子弹是否有自己的颜色或从段落的第一部分继承它。 返回 **真的**如果子弹有自己的颜色和 **错误的**如果项目符号从段落的第一部分继承颜色。 只读Boolean. |
+| [IsBulletHardFont](../../aspose.slides/ibulletformateffectivedata/isbullethardfont) { get; } | 确定项目符号是否有自己的字体或从段落的第一部分继承它。 返回 **真的**如果子弹有自己的字体和 **真的**如果项目符号从段落的第一部分继承字体。 只读Boolean. |
+| [NumberedBulletStartWith](../../aspose.slides/ibulletformateffectivedata/numberedbulletstartwith) { get; } | 返回用于编号项目符号组的第一个数字。 只读Int16. |
+| [NumberedBulletStyle](../../aspose.slides/ibulletformateffectivedata/numberedbulletstyle) { get; } | 返回编号项目符号的样式。 只读[`NumberedBulletStyle`](../numberedbulletstyle). |
+| [Type](../../aspose.slides/ibulletformateffectivedata/type) { get; } | 返回段落的项目符号类型。 只读[`BulletType`](../bullettype). |
 
 ### 评论
 
-此接口用作IParagraphFormatEffectiveData的一部分。
+该接口用作[`IParagraphFormatEffectiveData`](../iparagraphformateffectivedata).
 
 ### 也可以看看
 

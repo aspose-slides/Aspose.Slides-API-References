@@ -18,8 +18,8 @@ public interface IImageTransformOperationCollection : ICollection<IImageTransfor
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.effects/iimagetransformoperationcollection/asienumerable) { get; } | 返回 IEnumerable 接口。 只读IEnumerable。 |
-| [Item](../../aspose.slides.effects/iimagetransformoperationcollection/item) { get; } | 通过它的索引从集合中返回[`IImageTransformOperation`](../iimagetransformoperation)。 |
+| [AsIEnumerable](../../aspose.slides.effects/iimagetransformoperationcollection/asienumerable) { get; } | 返回 IEnumerable 接口。 只读IEnumerable. |
+| [Item](../../aspose.slides.effects/iimagetransformoperationcollection/item) { get; } | 返回一个[`IImageTransformOperation`](../iimagetransformoperation)从集合中的索引. |
 
 ## 方法
 
@@ -32,7 +32,7 @@ public interface IImageTransformOperationCollection : ICollection<IImageTransfor
 | [AddAlphaModulateEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphamodulateeffect)() | 将新的 Alpha 调制效果添加到集合的末尾。 |
 | [AddAlphaModulateFixedEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphamodulatefixedeffect)(float) | 将新的 Alpha Modulate Fixed 效果添加到集合的末尾。 |
 | [AddAlphaReplaceEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphareplaceeffect)(float) | 将新的 Alpha Replace 效果添加到集合的末尾。 |
-| [AddBiLevelEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addbileveleffect)(float) | 将新的 Bi-Level（黑/白）效果添加到集合的末尾。 |
+| [AddBiLevelEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addbileveleffect)(float) | 将新的双级（黑/白）效果添加到集合的末尾。 |
 | [AddBlurEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addblureffect)(double, bool) | 将新的模糊效果添加到集合的末尾。 |
 | [AddColorChangeEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addcolorchangeeffect)() | 将新的颜色变化效果添加到集合的末尾。 |
 | [AddColorReplaceEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addcolorreplaceeffect)() | 将新的颜色替换效果添加到集合的末尾。 |
@@ -41,7 +41,7 @@ public interface IImageTransformOperationCollection : ICollection<IImageTransfor
 | [AddGrayScaleEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addgrayscaleeffect)() | 将新的灰度效果添加到集合的末尾。 |
 | [AddHSLEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addhsleffect)(float, float, float) | 将新的色相/饱和度/亮度效果添加到集合的末尾。 |
 | [AddLuminanceEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addluminanceeffect)(float, float) | 将新的亮度效果添加到集合的末尾。 |
-| [AddTintEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addtinteffect)(float, float) | 将新的 Tint 效果添加到集合的末尾。 |
+| [AddTintEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addtinteffect)(float, float) | 将新的色调效果添加到集合的末尾。 |
 | [RemoveAt](../../aspose.slides.effects/iimagetransformoperationcollection/removeat)(int) | 从指定索引处的集合中删除图像效果。 |
 
 ### 也可以看看

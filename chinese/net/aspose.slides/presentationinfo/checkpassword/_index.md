@@ -20,11 +20,18 @@ public bool CheckPassword(string password)
 
 ### 返回值
 
-如果演示文稿受开放密码保护并且密码正确，则为真，否则为假。
+如果演示文稿受开放密码保护且密码正确，则为真，否则为假。
+
+### 例外
+
+| 例外 | （健康）状况 |
+| --- | --- |
+| InvalidOperationException |  |
+| NotSupportedException |  |
 
 ### 评论
 
-当密码为空或为空时，该方法返回false。
+密码为null或空时，此方法返回false。
 
 ### 例子
 

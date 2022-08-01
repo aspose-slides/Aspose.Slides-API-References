@@ -1,14 +1,14 @@
 ---
 title: SkewOriginY
 second_title: Aspose.Slides for .NET API 参考
-description: 表示 skew.origin.y 属性
+description: 表示skew.origin.y 属性
 type: docs
 weight: 870
 url: /zh/net/aspose.slides.animation/behaviorproperty/skeworiginy/
 ---
 ## BehaviorProperty.SkewOriginY property
 
-表示 'skew.origin.y' 属性
+表示'skew.origin.y' 属性
 
 ```csharp
 public static BehaviorProperty SkewOriginY { get; }

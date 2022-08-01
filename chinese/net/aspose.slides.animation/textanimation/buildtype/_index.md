@@ -1,14 +1,14 @@
 ---
 title: BuildType
 second_title: Aspose.Slides for .NET API 参考
-description: 文本动画的构建类型列表用于 exp. 第 123 段All at Once 读/写BuildTypeaspose.slides.animation/buildtype
+description: 文本动画的构建类型列表用于 exp. 第 123 段All at Once 读/写BuildTypeaspose.slides.animation/buildtype.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides.animation/textanimation/buildtype/
 ---
 ## TextAnimation.BuildType property
 
-文本动画的构建类型列表（用于 exp. 第 1,2,3 段，All at Once）。 读/写[`BuildType`](../../buildtype)。
+文本动画的构建类型列表（用于 exp. 第 1、2、3 段，All at Once）。 读/写[`BuildType`](../../buildtype).
 
 ```csharp
 public BuildType BuildType { get; set; }

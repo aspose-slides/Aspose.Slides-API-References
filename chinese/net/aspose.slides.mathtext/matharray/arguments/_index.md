@@ -1,14 +1,14 @@
 ---
 title: Arguments
 second_title: Aspose.Slides for .NET API 参考
-description: 数组项的集合
+description: 数组的项目集
 type: docs
 weight: 20
 url: /zh/net/aspose.slides.mathtext/matharray/arguments/
 ---
 ## MathArray.Arguments property
 
-数组项的集合
+数组的项目集
 
 ```csharp
 public IMathElementCollection Arguments { get; }
@@ -16,7 +16,7 @@ public IMathElementCollection Arguments { get; }
 
 ### 例子
 
-示例:
+示例：
 
 ```csharp
 [C#]

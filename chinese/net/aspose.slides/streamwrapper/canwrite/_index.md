@@ -1,14 +1,14 @@
 ---
 title: CanWrite
 second_title: Aspose.Slides for .NET API 参考
-description: 获取当前流是否支持写入的值 只读Boolean
+description: 获取表示当前流是否支持写入的值 只读Boolean.
 type: docs
 weight: 40
 url: /zh/net/aspose.slides/streamwrapper/canwrite/
 ---
 ## StreamWrapper.CanWrite property
 
-获取当前流是否支持写入的值。 只读Boolean。
+获取表示当前流是否支持写入的值。 只读Boolean.
 
 ```csharp
 public bool CanWrite { get; }

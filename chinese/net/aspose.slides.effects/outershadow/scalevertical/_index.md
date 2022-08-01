@@ -1,14 +1,14 @@
 ---
 title: ScaleVertical
 second_title: Aspose.Slides for .NET API 参考
-description: 指定垂直缩放因子负缩放会导致翻转 读/写Double
+description: 指定垂直缩放因子负缩放导致翻转 读/写Double.
 type: docs
 weight: 70
 url: /zh/net/aspose.slides.effects/outershadow/scalevertical/
 ---
 ## OuterShadow.ScaleVertical property
 
-指定垂直缩放因子，负缩放会导致翻转。 读/写Double。
+指定垂直缩放因子，负缩放导致翻转。 读/写Double.
 
 ```csharp
 public double ScaleVertical { get; set; }

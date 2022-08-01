@@ -1,14 +1,14 @@
 ---
 title: Light2
 second_title: Aspose.Slides for .NET API 参考
-description: 方案中的第二种浅色 只读Color
+description: 方案中的第二个浅色 只读Color.
 type: docs
 weight: 130
 url: /zh/net/aspose.slides.theme/icolorschemeeffectivedata/light2/
 ---
 ## IColorSchemeEffectiveData.Light2 property
 
-方案中的第二种浅色。 只读Color。
+方案中的第二个浅色。 只读Color.
 
 ```csharp
 public Color Light2 { get; }

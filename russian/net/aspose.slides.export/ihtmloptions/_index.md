@@ -18,15 +18,15 @@ public interface IHtmlOptions : ISaveOptions
 
 | Имя | Описание |
 | --- | --- |
-| [AsISaveOptions](../../aspose.slides.export/ihtmloptions/asisaveoptions) { get; } | Возвращает интерфейс ISaveOptions. Только для чтения[`ISaveOptions`](../isaveoptions). |
-| [DeletePicturesCroppedAreas](../../aspose.slides.export/ihtmloptions/deletepicturescroppedareas) { get; set; } | Логический флаг указывает, остаются ли обрезанные части частью документа. Если true, обрезанные части будут удалены, если false, они будут сериализованы в документе (что может привести к увеличению файла ) Read/ записьBoolean. |
-| [HtmlFormatter](../../aspose.slides.export/ihtmloptions/htmlformatter) { get; set; } | Возвращает или устанавливает шаблон HTML. Чтение/запись[`IHtmlFormatter`](../ihtmlformatter). |
-| [JpegQuality](../../aspose.slides.export/ihtmloptions/jpegquality) { get; set; } | Возвращает или задает значение, определяющее качество изображений JPEG внутри документа PDF. Чтение/записьByte. |
+| [AsISaveOptions](../../aspose.slides.export/ihtmloptions/asisaveoptions) { get; } | Возвращает интерфейс ISaveOptions. Только для чтения[`ISaveOptions`](../isaveoptions) . |
+| [DeletePicturesCroppedAreas](../../aspose.slides.export/ihtmloptions/deletepicturescroppedareas) { get; set; } | Логический флаг указывает, остаются ли обрезанные части частью документа. Если true, обрезанные части будут удалены, если false, они будут сериализованы в документе (что может привести к увеличению файла в ) Чтение/записьBoolean . |
+| [HtmlFormatter](../../aspose.slides.export/ihtmloptions/htmlformatter) { get; set; } | Возвращает или задает шаблон HTML. Чтение/запись[`IHtmlFormatter`](../ihtmlformatter) . |
+| [JpegQuality](../../aspose.slides.export/ihtmloptions/jpegquality) { get; set; } | Возвращает или задает значение, определяющее качество изображений JPEG внутри документа PDF. Чтение/записьByte . |
 | [NotesCommentsLayouting](../../aspose.slides.export/ihtmloptions/notescommentslayouting) { get; } | Предоставляет параметры, управляющие размещением примечаний и комментариев в экспортируемом документе. |
-| [PicturesCompression](../../aspose.slides.export/ihtmloptions/picturescompression) { get; set; } | Представляет уровень сжатия изображений Чтение/запись[`PicturesCompression`](./picturescompression). |
-| [ShowHiddenSlides](../../aspose.slides.export/ihtmloptions/showhiddenslides) { get; set; } | Указывает, должен ли сгенерированный документ включать скрытые слайды или нет. По умолчанию:` false` . |
-| [SlideImageFormat](../../aspose.slides.export/ihtmloptions/slideimageformat) { get; set; } | Возвращает или задает параметры формата изображения слайда. Чтение/запись[`ISlideImageFormat`](../islideimageformat). |
-| [SvgResponsiveLayout](../../aspose.slides.export/ihtmloptions/svgresponsivelayout) { get; set; } | True, чтобы исключить атрибуты ширины и высоты из контейнера SVG, что сделает макет адаптивным. Ложь - иначе. Чтение/записьBoolean. |
+| [PicturesCompression](../../aspose.slides.export/ihtmloptions/picturescompression) { get; set; } | Представляет уровень сжатия изображений Чтение/запись[`PicturesCompression`](./picturescompression) . |
+| [ShowHiddenSlides](../../aspose.slides.export/ihtmloptions/showhiddenslides) { get; set; } | Указывает, должен ли сгенерированный документ включать скрытые слайды или нет. Значение по умолчанию:`ЛОЖЬ` |
+| [SlideImageFormat](../../aspose.slides.export/ihtmloptions/slideimageformat) { get; set; } | Возвращает или задает параметры формата изображения слайда. Чтение/запись[`ISlideImageFormat`](../islideimageformat) . |
+| [SvgResponsiveLayout](../../aspose.slides.export/ihtmloptions/svgresponsivelayout) { get; set; } | Истинно, чтобы исключить атрибуты ширины и высоты из контейнера SVG — это сделает макет отзывчивым. False - иначе. Чтение/записьBoolean . |
 
 ### Смотрите также
 

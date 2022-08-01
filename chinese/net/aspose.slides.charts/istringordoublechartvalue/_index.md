@@ -1,14 +1,14 @@
 ---
 title: IStringOrDoubleChartValue
 second_title: Aspose.Slides for .NET API 参考
-description: 表示字符串或双精度值可以通过两种方式存储在 pptx 演示文档中 1 在与图表相关的工作簿的单元格中 2 作为文字值
+description: 表示字符串或双精度值可以两种方式存储在 pptx 演示文档中 1在与图表相关的工作簿的单元格中 2作为文字值
 type: docs
 weight: 2090
 url: /zh/net/aspose.slides.charts/istringordoublechartvalue/
 ---
 ## IStringOrDoubleChartValue interface
 
-表示字符串或双精度值，可以通过两种方式存储在 pptx 演示文档中: 1) 在与图表相关的工作簿的单元格中; 2) 作为文字值。
+表示字符串或双精度值，可以两种方式存储在 pptx 演示文档中： 1）在与图表相关的工作簿的单元格中； 2）作为文字值。
 
 ```csharp
 public interface IStringOrDoubleChartValue : ISingleCellChartValue
@@ -18,15 +18,15 @@ public interface IStringOrDoubleChartValue : ISingleCellChartValue
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsISingleCellChartValue](../../aspose.slides.charts/istringordoublechartvalue/asisinglecellchartvalue) { get; } | 允许获取基本 ISingleCellChartValue 接口。 只读[`ISingleCellChartValue`](../isinglecellchartvalue)。 |
-| [AsLiteralDouble](../../aspose.slides.charts/istringordoublechartvalue/asliteraldouble) { get; set; } | 如果 DataSourceType 属性是 DataSourceType.DoubleLiterals，则返回或设置字面量 double。 读/写Double。 |
-| [AsLiteralString](../../aspose.slides.charts/istringordoublechartvalue/asliteralstring) { get; set; } | 如果 DataSourceType 属性是 DataSourceType.StringLiterals，则返回或设置文字字符串。 读/写String。 |
+| [AsISingleCellChartValue](../../aspose.slides.charts/istringordoublechartvalue/asisinglecellchartvalue) { get; } | 允许获取基本 ISingleCellChartValue 接口。 只读[`ISingleCellChartValue`](../isinglecellchartvalue). |
+| [AsLiteralDouble](../../aspose.slides.charts/istringordoublechartvalue/asliteraldouble) { get; set; } | 如果 DataSourceType 属性为 DataSourceType.DoubleLiterals. 读/写，则返回或设置文字双精度Double. |
+| [AsLiteralString](../../aspose.slides.charts/istringordoublechartvalue/asliteralstring) { get; set; } | 如果 DataSourceType 属性为 DataSourceType.StringLiterals. 读/写，则返回或设置文字字符串String. |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ToDouble](../../aspose.slides.charts/istringordoublechartvalue/todouble)() | 将值转换为双精度。 |
+| [ToDouble](../../aspose.slides.charts/istringordoublechartvalue/todouble)() | 将值转换为双精度值。 |
 
 ### 也可以看看
 

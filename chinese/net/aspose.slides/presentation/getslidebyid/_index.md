@@ -1,14 +1,14 @@
 ---
 title: GetSlideById
 second_title: Aspose.Slides for .NET API 参考
-description: 按 Id 返回 SlideMasterSlide 或 LayoutSlide
+description: 按 ID 返回幻灯片MasterSlide 或 LayoutSlide
 type: docs
 weight: 300
 url: /zh/net/aspose.slides/presentation/getslidebyid/
 ---
 ## Presentation.GetSlideById method
 
-按 Id 返回 Slide、MasterSlide 或 LayoutSlide。
+按 ID 返回幻灯片、MasterSlide 或 LayoutSlide。
 
 ```csharp
 public IBaseSlide GetSlideById(uint id)

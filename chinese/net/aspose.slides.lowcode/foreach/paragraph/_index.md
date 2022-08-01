@@ -1,14 +1,14 @@
 ---
 title: Paragraph
 second_title: Aspose.Slides for .NET API 参考
-description: 迭代每个Paragraphaspose.slides.lowcode/foreach/paragraph在Presentationaspose.slides/presentation中  形状将在所有类型的幻灯片中迭代 -Slideaspose.slides.lowcode/foreach/slideMasterSlideaspose.slides.lowcode/foreach/masterslide和LayoutSlideaspose.slides.lowcode/foreach/layoutslide
+description: 迭代每个Paragraphaspose.slides.lowcode/foreach/paragraph在里面Presentationaspose.slides/presentation. 形状将在所有类型的幻灯片中迭代 -Slideaspose.slides.lowcode/foreach/slide MasterSlideaspose.slides.lowcode/foreach/masterslide和LayoutSlideaspose.slides.lowcode/foreach/layoutslide
 type: docs
 weight: 30
 url: /zh/net/aspose.slides.lowcode/foreach/paragraph/
 ---
 ## ForEach.Paragraph method
 
-迭代每个`Paragraph`在[`Presentation`](../../../aspose.slides/presentation)中。  形状将在所有类型的幻灯片中迭代 -[`Slide`](../slide),[`MasterSlide`](../masterslide)和[`LayoutSlide`](../layoutslide)
+迭代每个`Paragraph`在里面[`Presentation`](../../../aspose.slides/presentation). 形状将在所有类型的幻灯片中迭代 -[`Slide`](../slide) ,[`MasterSlide`](../masterslide)和[`LayoutSlide`](../layoutslide)
 
 ```csharp
 public static void Paragraph(Presentation pres, ForEachParagraphCallback forEachParagraph)
@@ -16,7 +16,7 @@ public static void Paragraph(Presentation pres, ForEachParagraphCallback forEach
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| pres | Presentation | 表示迭代段落 |
+| pres | Presentation | 演示以迭代段落 |
 | forEachParagraph | ForEachParagraphCallback | 将为每个段落调用的回调 |
 
 ### 例子

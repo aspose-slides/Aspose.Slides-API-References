@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Slides for .NET API 参考
-description: 获取指定索引处的元素 只读ISummaryZoomSectionaspose.slides/isummaryzoomsection
+description: 获取指定索引处的元素 只读ISummaryZoomSectionaspose.slides/isummaryzoomsection.
 type: docs
 weight: 30
 url: /zh/net/aspose.slides/summaryzoomsectioncollection/item/
 ---
 ## SummaryZoomSectionCollection indexer
 
-获取指定索引处的元素。 只读[`ISummaryZoomSection`](../../isummaryzoomsection)。
+获取指定索引处的元素。 只读[`ISummaryZoomSection`](../../isummaryzoomsection).
 
 ```csharp
 public ISummaryZoomSection this[int index] { get; }
@@ -16,7 +16,7 @@ public ISummaryZoomSection this[int index] { get; }
 
 ### 例子
 
-该示例演示了按索引获取摘要缩放部分元素:
+该示例演示了按索引获取摘要缩放部分元素：
 
 ```csharp
 [C#]

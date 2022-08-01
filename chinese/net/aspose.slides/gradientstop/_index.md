@@ -18,9 +18,9 @@ public sealed class GradientStop : PVIObject, IGradientStop
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允许获取基本 IPresentationComponent 接口。 只读[`IPresentationComponent`](../ipresentationcomponent)。 |
-| [Color](../../aspose.slides/gradientstop/color) { get; } | 返回渐变色标的颜色。 只读[`IColorFormat`](../icolorformat)。 |
-| [Position](../../aspose.slides/gradientstop/position) { get; set; } | 返回或设置渐变停止的位置 (0..1)。 读/写Single。 |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允许获取基本 IPresentationComponent 接口。 只读[`IPresentationComponent`](../ipresentationcomponent). |
+| [Color](../../aspose.slides/gradientstop/color) { get; } | 返回渐变色标的颜色。 只读[`IColorFormat`](../icolorformat). |
+| [Position](../../aspose.slides/gradientstop/position) { get; set; } | 返回或设置梯度停止的位置 (0..1)。 读/写Single. |
 
 ## 方法
 

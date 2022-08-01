@@ -1,14 +1,14 @@
 ---
 title: TextVerticalType
 second_title: Aspose.Slides for .NET API 参考
-description: 返回文本方向 只读TextVerticalTypeaspose.slides/textverticaltype
+description: 返回文本方向 只读TextVerticalTypeaspose.slides/textverticaltype.
 type: docs
 weight: 110
 url: /zh/net/aspose.slides/itextframeformateffectivedata/textverticaltype/
 ---
 ## ITextFrameFormatEffectiveData.TextVerticalType property
 
-返回文本方向。 只读[`TextVerticalType`](../../textverticaltype)。
+返回文本方向。 只读[`TextVerticalType`](../../textverticaltype).
 
 ```csharp
 public TextVerticalType TextVerticalType { get; }

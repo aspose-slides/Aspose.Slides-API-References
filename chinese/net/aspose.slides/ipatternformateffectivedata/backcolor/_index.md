@@ -1,14 +1,14 @@
 ---
 title: BackColor
 second_title: Aspose.Slides for .NET API 参考
-description: 返回背景图案颜色 只读Color
+description: 返回背景图案颜色 只读Color.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides/ipatternformateffectivedata/backcolor/
 ---
 ## IPatternFormatEffectiveData.BackColor property
 
-返回背景图案颜色。 只读Color。
+返回背景图案颜色。 只读Color.
 
 ```csharp
 public Color BackColor { get; }

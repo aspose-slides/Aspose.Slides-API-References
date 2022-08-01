@@ -26,16 +26,16 @@ public sealed class Paragraph : IParagraph
 | Имя | Описание |
 | --- | --- |
 | [EndParagraphPortionFormat](../../aspose.slides/paragraph/endparagraphportionformat) { get; set; } | Определяет свойства части, которые должны использоваться, если другая часть вставляется после последней. |
-| [ParagraphFormat](../../aspose.slides/paragraph/paragraphformat) { get; } | Возвращает объект форматирования для этого абзаца. Только для чтения[`IParagraphFormat`](../iparagraphformat). |
-| [Portions](../../aspose.slides/paragraph/portions) { get; } | Возвращает набор текстовых частей. Только для чтения[`IPortionCollection`](../iportioncollection). |
-| [Text](../../aspose.slides/paragraph/text) { get; set; } | Получает или задает обычный текст абзаца. Чтение/записьString. |
+| [ParagraphFormat](../../aspose.slides/paragraph/paragraphformat) { get; } | Возвращает объект форматирования для этого абзаца. Только для чтения[`IParagraphFormat`](../iparagraphformat) . |
+| [Portions](../../aspose.slides/paragraph/portions) { get; } | Возвращает набор текстовых частей. Только для чтения[`IPortionCollection`](../iportioncollection) . |
+| [Text](../../aspose.slides/paragraph/text) { get; set; } | Получает или задает обычный текст абзаца. Чтение/записьString . |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [GetRect](../../aspose.slides/paragraph/getrect)() | Получить координаты прямоугольника, ограничивающего абзац. Прямоугольник включает в себя все строки текста в абзаце, включая пустые. |
-| [JoinPortionsWithSameFormatting](../../aspose.slides/paragraph/joinportionswithsameformatting)() | Соединения выполняются с одинаковым форматированием. |
+| [GetRect](../../aspose.slides/paragraph/getrect)() | Получить координаты прямоугольника, ограничивающего абзац. Прямоугольник включает все строки текста в абзаце, включая пустые. |
+| [JoinPortionsWithSameFormatting](../../aspose.slides/paragraph/joinportionswithsameformatting)() | Объединяет запуски с одинаковым форматированием. |
 
 ### Смотрите также
 

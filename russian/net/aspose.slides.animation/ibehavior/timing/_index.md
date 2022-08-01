@@ -1,14 +1,14 @@
 ---
 title: Timing
 second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет свойства синхронизации для поведения эффекта. Чтение/записьITimingaspose.slides.animation/itiming.
+description: Представляет временные свойства поведения эффекта. Чтение/записьITimingaspose.slides.animation/itiming .
 type: docs
 weight: 40
 url: /ru/net/aspose.slides.animation/ibehavior/timing/
 ---
 ## IBehavior.Timing property
 
-Представляет свойства синхронизации для поведения эффекта. Чтение/запись[`ITiming`](../../itiming).
+Представляет временные свойства поведения эффекта. Чтение/запись[`ITiming`](../../itiming) .
 
 ```csharp
 public ITiming Timing { get; set; }

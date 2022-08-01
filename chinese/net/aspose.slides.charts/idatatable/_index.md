@@ -18,12 +18,12 @@ public interface IDataTable : IFormattedTextContainer
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsIFormattedTextContainer](../../aspose.slides.charts/idatatable/asiformattedtextcontainer) { get; } | 允许获取基本 IFormattedTextContainer 接口。 只读[`IFormattedTextContainer`](../iformattedtextcontainer)。 |
-| [Format](../../aspose.slides.charts/idatatable/format) { get; } | 返回对象的线条、填充和效果样式。 只读[`IFormat`](../iformat)。 |
-| [HasBorderHorizontal](../../aspose.slides.charts/idatatable/hasborderhorizontal) { get; set; } | 如果图表数据表具有水平单元格边框，则为真。 读/写Boolean。 |
-| [HasBorderOutline](../../aspose.slides.charts/idatatable/hasborderoutline) { get; set; } | 如果图表数据表有轮廓边框，则为真。 读/写Boolean。 |
-| [HasBorderVertical](../../aspose.slides.charts/idatatable/hasbordervertical) { get; set; } | 如果图表数据表具有垂直单元格边框，则为真。 读/写Boolean。 |
-| [ShowLegendKey](../../aspose.slides.charts/idatatable/showlegendkey) { get; set; } | 如果数据标签图例键可见，则为真。 读/写Boolean。 |
+| [AsIFormattedTextContainer](../../aspose.slides.charts/idatatable/asiformattedtextcontainer) { get; } | 允许获取基本 IFormattedTextContainer 接口。 只读[`IFormattedTextContainer`](../iformattedtextcontainer). |
+| [Format](../../aspose.slides.charts/idatatable/format) { get; } | 返回对象的线条、填充和效果样式。 只读[`IFormat`](../iformat). |
+| [HasBorderHorizontal](../../aspose.slides.charts/idatatable/hasborderhorizontal) { get; set; } | 如果图表数据表具有水平单元格边框，则为真。 读/写Boolean. |
+| [HasBorderOutline](../../aspose.slides.charts/idatatable/hasborderoutline) { get; set; } | 如果图表数据表有轮廓边框，则为真。 读/写Boolean. |
+| [HasBorderVertical](../../aspose.slides.charts/idatatable/hasbordervertical) { get; set; } | 如果图表数据表有垂直单元格边框，则为真。 读/写Boolean. |
+| [ShowLegendKey](../../aspose.slides.charts/idatatable/showlegendkey) { get; set; } | 如果数据标签图例键可见，则为真。 读/写Boolean. |
 
 ### 也可以看看
 

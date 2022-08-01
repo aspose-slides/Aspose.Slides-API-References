@@ -1,14 +1,14 @@
 ---
 title: AsIOverridableText
 second_title: Справочник по API Aspose.Slides для .NET
-description: Позволяет получить базовый интерфейс IOverridableText. Только для чтенияIOverridableTextaspose.slides.charts/ioverridabletext.
+description: Позволяет получить базовый интерфейс IOverridableText. Только для чтенияIOverridableTextaspose.slides.charts/ioverridabletext .
 type: docs
 weight: 20
 url: /ru/net/aspose.slides.charts/icharttitle/asioverridabletext/
 ---
 ## IChartTitle.AsIOverridableText property
 
-Позволяет получить базовый интерфейс IOverridableText. Только для чтения[`IOverridableText`](../../ioverridabletext).
+Позволяет получить базовый интерфейс IOverridableText. Только для чтения[`IOverridableText`](../../ioverridabletext) .
 
 ```csharp
 public IOverridableText AsIOverridableText { get; }

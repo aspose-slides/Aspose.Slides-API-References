@@ -1,14 +1,14 @@
 ---
 title: RemoveEmbeddedFont
 second_title: Aspose.Slides for .NET API 参考
-description: 移除嵌入字体
+description: 移除嵌入的字体
 type: docs
 weight: 60
 url: /zh/net/aspose.slides/fontsmanager/removeembeddedfont/
 ---
 ## FontsManager.RemoveEmbeddedFont method
 
-移除嵌入字体
+移除嵌入的字体
 
 ```csharp
 public void RemoveEmbeddedFont(IFontData fontData)

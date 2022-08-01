@@ -16,8 +16,8 @@ public void RemoveAt(int firstColumnIndex, bool withAttachedRows)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| firstColumnIndex | Int32 | Индекс удаляемого столбца. |
-| withAttachedRows | Boolean | Истинно, чтобы также удалить все прикрепленные столбцы. |
+| firstColumnIndex | Int32 | Индекс столбца для удаления. |
+| withAttachedRows | Boolean | Значение true, чтобы также удалить все прикрепленные столбцы. |
 
 ### Смотрите также
 

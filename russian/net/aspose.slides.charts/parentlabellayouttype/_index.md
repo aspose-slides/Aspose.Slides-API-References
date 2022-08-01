@@ -1,14 +1,14 @@
 ---
 title: ParentLabelLayoutType
 second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет макет меток данных категории. Используется только с сериями Treemap.
+description: Представляет макет меток данных категории. Используется только с серией Treemap.
 type: docs
 weight: 2210
 url: /ru/net/aspose.slides.charts/parentlabellayouttype/
 ---
 ## ParentLabelLayoutType enumeration
 
-Представляет макет меток данных категории. Используется только с сериями Treemap.
+Представляет макет меток данных категории. Используется только с серией Treemap.
 
 ```csharp
 public enum ParentLabelLayoutType
@@ -18,7 +18,7 @@ public enum ParentLabelLayoutType
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| Banner | `0` | Указывает, что метки родительской категории отображаются как баннер |
+| Banner | `0` | Указывает, что метки родительской категории отображаются как banner |
 | None | `1` | Указывает, что метки родительских категорий не отображаются |
 | Overlapping | `2` | Указывает, что метки родительских категорий отображаются как перекрывающиеся |
 

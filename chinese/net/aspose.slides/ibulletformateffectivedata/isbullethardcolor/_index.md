@@ -1,14 +1,14 @@
 ---
 title: IsBulletHardColor
 second_title: Aspose.Slides for .NET API 参考
-description: 确定子弹是否有自己的颜色或从段落的第一部分继承它 返回 true 如果子弹有自己的颜色 false 如果子弹从段落的第一部分继承颜色 只读Boolean
+description: 确定子弹是否有自己的颜色或从段落的第一部分继承它 返回 真的如果子弹有自己的颜色和 错误的如果项目符号从段落的第一部分继承颜色 只读Boolean.
 type: docs
 weight: 60
 url: /zh/net/aspose.slides/ibulletformateffectivedata/isbullethardcolor/
 ---
 ## IBulletFormatEffectiveData.IsBulletHardColor property
 
-确定子弹是否有自己的颜色或从段落的第一部分继承它。 返回 **true** 如果子弹有自己的颜色， **false** 如果子弹从段落的第一部分继承颜色。 只读Boolean。
+确定子弹是否有自己的颜色或从段落的第一部分继承它。 返回 **真的**如果子弹有自己的颜色和 **错误的**如果项目符号从段落的第一部分继承颜色。 只读Boolean.
 
 ```csharp
 public bool IsBulletHardColor { get; }

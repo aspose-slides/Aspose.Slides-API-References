@@ -18,12 +18,12 @@ public interface ILayoutSlide : IBaseSlide, IOverrideThemeable
 
 | Имя | Описание |
 | --- | --- |
-| [AsIBaseSlide](../../aspose.slides/ilayoutslide/asibaseslide) { get; } | Позволяет получить базовый интерфейс IBaseSlide. Только для чтения[`IBaseSlide`](../ibaseslide). |
-| [AsIOverrideThemeable](../../aspose.slides/ilayoutslide/asioverridethemeable) { get; } | Возвращает интерфейс IOverrideThemeable. Только для чтения[`IOverrideThemeable`](../../aspose.slides.theme/ioverridethemeable). |
-| [HasDependingSlides](../../aspose.slides/ilayoutslide/hasdependingslides) { get; } | Возвращает true, если существует хотя бы один слайд, который зависит от этого слайда макета. Только чтениеBoolean. |
-| [HeaderFooterManager](../../aspose.slides/ilayoutslide/headerfootermanager) { get; } | Возвращает менеджер HeaderFooter макета слайда. Только для чтения[`ILayoutSlideHeaderFooterManager`](../ilayoutslideheaderfootermanager). |
-| [LayoutType](../../aspose.slides/ilayoutslide/layouttype) { get; } | Возвращает тип макета этого слайда макета. Только для чтения[`SlideLayoutType`](../slidelayouttype). |
-| [MasterSlide](../../aspose.slides/ilayoutslide/masterslide) { get; set; } | Возвращает или задает мастер-слайд для макета. Чтение/запись[`IMasterSlide`](../imasterslide). |
+| [AsIBaseSlide](../../aspose.slides/ilayoutslide/asibaseslide) { get; } | Позволяет получить базовый интерфейс IBaseSlide. Только для чтения[`IBaseSlide`](../ibaseslide) . |
+| [AsIOverrideThemeable](../../aspose.slides/ilayoutslide/asioverridethemeable) { get; } | Возвращает интерфейс IOverrideThemeable. Только для чтения[`IOverrideThemeable`](../../aspose.slides.theme/ioverridethemeable) . |
+| [HasDependingSlides](../../aspose.slides/ilayoutslide/hasdependingslides) { get; } | Возвращает значение true, если существует хотя бы один слайд, который зависит от этого слайда макета. Только для чтенияBoolean . |
+| [HeaderFooterManager](../../aspose.slides/ilayoutslide/headerfootermanager) { get; } | Возвращает менеджер HeaderFooter макета слайда. Только для чтения[`ILayoutSlideHeaderFooterManager`](../ilayoutslideheaderfootermanager) . |
+| [LayoutType](../../aspose.slides/ilayoutslide/layouttype) { get; } | Возвращает тип макета этого слайда макета. Только для чтения[`SlideLayoutType`](../slidelayouttype) . |
+| [MasterSlide](../../aspose.slides/ilayoutslide/masterslide) { get; set; } | Возвращает или задает мастер-слайд для макета. Чтение/запись[`IMasterSlide`](../imasterslide) . |
 
 ## Методы
 

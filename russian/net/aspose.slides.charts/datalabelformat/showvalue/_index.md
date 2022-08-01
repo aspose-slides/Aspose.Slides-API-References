@@ -1,14 +1,14 @@
 ---
 title: ShowValue
 second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет поведение отображения процентного значения метки данных указанной диаграммы. True отображает процентное значение. Ложь скрывать. Чтение/записьBoolean.
+description: Представляет поведение отображения процентного значения метки данных указанной диаграммы. True отображает процентное значение. False чтобы скрыть. Чтение/записьBoolean .
 type: docs
 weight: 150
 url: /ru/net/aspose.slides.charts/datalabelformat/showvalue/
 ---
 ## DataLabelFormat.ShowValue property
 
-Представляет поведение отображения процентного значения метки данных указанной диаграммы. True отображает процентное значение. Ложь скрывать. Чтение/записьBoolean.
+Представляет поведение отображения процентного значения метки данных указанной диаграммы. True отображает процентное значение. False, чтобы скрыть. Чтение/записьBoolean .
 
 ```csharp
 public bool ShowValue { get; set; }
@@ -16,7 +16,7 @@ public bool ShowValue { get; set; }
 
 ### Примечания
 
-Если родителем этого объекта DataLabelFormat является коллекция меток данных DataLabelCollection, то это свойство получает или задает значение по умолчанию свойства ShowValue для новых меток данных в коллекции DataLabelCollection. Установка этого свойства со значением также устанавливает это значение в свойство ShowValue для всех меток данных в коллекции DataLabelCollection (т.е. "DataLabels.DefaultDataLabelFormat.ShowValue = val;" приводит к тому, что все DataLabels[i].ShowValue равно val).
+Если родителем этого объекта DataLabelFormat является коллекция меток данных DataLabelCollection, то свойство this получает или задает значение по умолчанию свойства ShowValue для новых меток данных в коллекции DataLabelCollection. Свойство ShowValue для всех меток данных в коллекции DataLabelCollection (т. е. «DataLabels.DefaultDataLabelFormat.ShowValue = val;» приводит к тому, что все DataLabels[i].ShowValue равно val).
 
 ### Смотрите также
 

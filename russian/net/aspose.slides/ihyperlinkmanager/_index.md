@@ -1,14 +1,14 @@
 ---
 title: IHyperlinkManager
 second_title: Справочник по API Aspose.Slides для .NET
-description: Обеспечивает управление гиперссылками добавление удаление.
+description: Обеспечить управление гиперссылками добавление удаление.
 type: docs
 weight: 5590
 url: /ru/net/aspose.slides/ihyperlinkmanager/
 ---
 ## IHyperlinkManager interface
 
-Обеспечивает управление гиперссылками (добавление, удаление).
+Обеспечить управление гиперссылками (добавление, удаление).
 
 ```csharp
 public interface IHyperlinkManager
@@ -18,13 +18,13 @@ public interface IHyperlinkManager
 
 | Имя | Описание |
 | --- | --- |
-| [RemoveHyperlinkClick](../../aspose.slides/ihyperlinkmanager/removehyperlinkclick)() | Удаляет гиперссылку при клике. |
-| [RemoveHyperlinkMouseOver](../../aspose.slides/ihyperlinkmanager/removehyperlinkmouseover)() | Удаляет гиперссылку, наведенную мышью. |
+| [RemoveHyperlinkClick](../../aspose.slides/ihyperlinkmanager/removehyperlinkclick)() | Удаляет гиперссылку при нажатии. |
+| [RemoveHyperlinkMouseOver](../../aspose.slides/ihyperlinkmanager/removehyperlinkmouseover)() | Удаляет мышь над гиперссылкой. |
 | [SetExternalHyperlinkClick](../../aspose.slides/ihyperlinkmanager/setexternalhyperlinkclick)(string) | Установить внешнюю гиперссылку по клику. |
 | [SetExternalHyperlinkMouseOver](../../aspose.slides/ihyperlinkmanager/setexternalhyperlinkmouseover)(string) | Наводит указатель мыши на внешнюю гиперссылку. |
 | [SetInternalHyperlinkClick](../../aspose.slides/ihyperlinkmanager/setinternalhyperlinkclick)(ISlide) | Устанавливает внутреннюю гиперссылку по клику. |
 | [SetInternalHyperlinkMouseOver](../../aspose.slides/ihyperlinkmanager/setinternalhyperlinkmouseover)(ISlide) | Наводит указатель мыши на внутреннюю гиперссылку. |
-| [SetMacroHyperlinkClick](../../aspose.slides/ihyperlinkmanager/setmacrohyperlinkclick)(string) | Установить гиперссылку макроса по клику. |
+| [SetMacroHyperlinkClick](../../aspose.slides/ihyperlinkmanager/setmacrohyperlinkclick)(string) | Установить гиперссылку макроса одним кликом. |
 
 ### Смотрите также
 

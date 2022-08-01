@@ -1,14 +1,14 @@
 ---
 title: AsIBaseShapeLock
 second_title: Справочник по API Aspose.Slides для .NET
-description: Позволяет получить базовый интерфейс IBaseShapeLock. Только для чтенияIBaseShapeLockaspose.slides/ibaseshapelock.
+description: Позволяет получить базовый интерфейс IBaseShapeLock. Только для чтенияIBaseShapeLockaspose.slides/ibaseshapelock .
 type: docs
 weight: 30
 url: /ru/net/aspose.slides/iconnectorlock/asibaseshapelock/
 ---
 ## IConnectorLock.AsIBaseShapeLock property
 
-Позволяет получить базовый интерфейс IBaseShapeLock. Только для чтения[`IBaseShapeLock`](../../ibaseshapelock).
+Позволяет получить базовый интерфейс IBaseShapeLock. Только для чтения[`IBaseShapeLock`](../../ibaseshapelock) .
 
 ```csharp
 public IBaseShapeLock AsIBaseShapeLock { get; }

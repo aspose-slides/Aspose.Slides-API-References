@@ -1,14 +1,14 @@
 ---
 title: Persistence
 second_title: Справочник по API Aspose.Slides для .NET
-description: Получает метод используемый для хранения свойств элемента управления ActiveX. Только чтениеPersistenceTypeaspose.slides/persistencetype.
+description: Получает метод используемый для хранения свойств элемента управления ActiveX. Только для чтенияPersistenceTypeaspose.slides/persistencetype .
 type: docs
 weight: 60
 url: /ru/net/aspose.slides/icontrol/persistence/
 ---
 ## IControl.Persistence property
 
-Получает метод, используемый для хранения свойств элемента управления ActiveX. Только чтение[`PersistenceType`](../../persistencetype).
+Получает метод, используемый для хранения свойств элемента управления ActiveX. Только для чтения[`PersistenceType`](../../persistencetype) .
 
 ```csharp
 public PersistenceType Persistence { get; }

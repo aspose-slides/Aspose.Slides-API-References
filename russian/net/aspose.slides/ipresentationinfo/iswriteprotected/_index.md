@@ -16,7 +16,7 @@ public NullableBool IsWriteProtected { get; }
 
 ### Примечания
 
-Если презентация защищен паролем для открытия, значение свойства равно NotDefined. См.[`NullableBool`](../../nullablebool)перечисление.
+Если презентация защищена паролем для открытия, значение свойства равно NotDefined. См.[`NullableBool`](../../nullablebool) перечисление.
 
 ### Примеры
 

@@ -1,14 +1,14 @@
 ---
 title: HideTop
 second_title: Справочник по API Aspose.Slides для .NET
-description: Hide Top Edge по умолчанию false - указывает скрытое или отображаемое состояние верхнего края рамки.
+description: Hide Top Edge по умолчанию false  указывает скрытое или отображаемое состояние верхнего края рамки.
 type: docs
 weight: 60
 url: /ru/net/aspose.slides.mathtext/imathborderbox/hidetop/
 ---
 ## IMathBorderBox.HideTop property
 
-Hide Top Edge (по умолчанию false) - указывает скрытое или отображаемое состояние верхнего края рамки.
+Hide Top Edge (по умолчанию false) — указывает скрытое или отображаемое состояние верхнего края рамки.
 
 ```csharp
 public bool HideTop { get; set; }

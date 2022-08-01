@@ -18,8 +18,8 @@ public interface ISpreadsheetOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [PreferredCulture](../../aspose.slides/ispreadsheetoptions/preferredculture) { get; set; } | 获取或设置用于计算某些函数的首选区域性信息，这些函数旨在用于使用双字节字符集 (DBCS) 的语言 。 |
-| [RecoverWorkbookFromChartCache](../../aspose.slides/ispreadsheetoptions/recoverworkbookfromchartcache) { get; set; } | 如果图表的数据源是外部工作簿且不可用，则会从图表缓存中恢复。 |
+| [PreferredCulture](../../aspose.slides/ispreadsheetoptions/preferredculture) { get; set; } | 获取或设置用于计算某些函数的首选区域性信息，这些函数旨在与使用双字节字符集 (DBCS) 的语言 一起使用。 |
+| [RecoverWorkbookFromChartCache](../../aspose.slides/ispreadsheetoptions/recoverworkbookfromchartcache) { get; set; } | 如果图表的数据源是外部工作簿且不可用，将从图表缓存中恢复。 |
 
 ### 也可以看看
 

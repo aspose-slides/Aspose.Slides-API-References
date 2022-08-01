@@ -1,14 +1,14 @@
 ---
 title: AddDataPointForLineSeries
 second_title: Справочник по API Aspose.Slides для .NET
-description: Создает новую точку данных и добавляет ее в конец коллекции. Применимо для серий тип диаграммы которых является одним из подтипов Line см. такжеIsChartTypeLineaspose.slides.charts/charttypecharacterizer/ischarttypelineметод .
+description: Создает новую точку данных и добавляет ее в конец коллекции. Применяется для рядов тип диаграммы которых является одним из подтипов Line см. такжеIsChartTypeLineaspose.slides.charts/charttypecharacterizer/ischarttypeline метод.
 type: docs
 weight: 170
 url: /ru/net/aspose.slides.charts/chartdatapointcollection/adddatapointforlineseries/
 ---
 ## AddDataPointForLineSeries(IChartDataCell) {#adddatapointforlineseries}
 
-Создает новую точку данных и добавляет ее в конец коллекции. Применимо для серий, тип диаграммы которых является одним из подтипов Line (см. также[`IsChartTypeLine`](../../charttypecharacterizer/ischarttypeline)метод) .
+Создает новую точку данных и добавляет ее в конец коллекции. Применяется для рядов, тип диаграммы которых является одним из подтипов Line (см. также[`IsChartTypeLine`](../../charttypecharacterizer/ischarttypeline) метод).
 
 ```csharp
 public IChartDataPoint AddDataPointForLineSeries(IChartDataCell value)
@@ -16,7 +16,7 @@ public IChartDataPoint AddDataPointForLineSeries(IChartDataCell value)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| значение | IChartDataCell | Значение точки данных. |
+| value | IChartDataCell | Значение точки данных. |
 
 ### Возвращаемое значение
 
@@ -34,7 +34,7 @@ public IChartDataPoint AddDataPointForLineSeries(IChartDataCell value)
 
 ## AddDataPointForLineSeries(double) {#adddatapointforlineseries_1}
 
-Создает новую точку данных и добавляет ее в конец коллекции. Применимо для серий, тип диаграммы которых является одним из подтипов Line (см. также[`IsChartTypeLine`](../../charttypecharacterizer/ischarttypeline)метод) .
+Создает новую точку данных и добавляет ее в конец коллекции. Применяется для рядов, тип диаграммы которых является одним из подтипов Line (см. также[`IsChartTypeLine`](../../charttypecharacterizer/ischarttypeline) метод).
 
 ```csharp
 public IChartDataPoint AddDataPointForLineSeries(double value)
@@ -42,7 +42,7 @@ public IChartDataPoint AddDataPointForLineSeries(double value)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| значение | Double | Значение точки данных. |
+| value | Double | Значение точки данных. |
 
 ### Возвращаемое значение
 

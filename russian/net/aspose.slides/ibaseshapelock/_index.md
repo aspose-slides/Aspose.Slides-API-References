@@ -18,7 +18,7 @@ public interface IBaseShapeLock
 
 | Имя | Описание |
 | --- | --- |
-| [NoLocks](../../aspose.slides/ibaseshapelock/nolocks) { get; } | Возвращает true, если все флаги блокировки отключены. Только чтениеBoolean. |
+| [NoLocks](../../aspose.slides/ibaseshapelock/nolocks) { get; } | Возвращает true, если все флаги блокировки отключены. Только для чтенияBoolean . |
 
 ### Смотрите также
 

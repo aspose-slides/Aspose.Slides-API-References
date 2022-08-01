@@ -1,14 +1,14 @@
 ---
 title: GetEffective
 second_title: Aspose.Slides for .NET API 参考
-description: 获取应用了继承和表格样式的有效表格格式化属性
+description: 应用继承和表格样式获取有效的表格格式化属性
 type: docs
 weight: 20
 url: /zh/net/aspose.slides/itableformat/geteffective/
 ---
 ## ITableFormat.GetEffective method
 
-获取应用了继承和表格样式的有效表格格式化属性。
+应用继承和表格样式获取有效的表格格式化属性。
 
 ```csharp
 public ITableFormatEffectiveData GetEffective()
@@ -16,7 +16,7 @@ public ITableFormatEffectiveData GetEffective()
 
 ### 返回值
 
-A[`ITableFormatEffectiveData`](../../itableformateffectivedata)。
+一个[`ITableFormatEffectiveData`](../../itableformateffectivedata).
 
 ### 也可以看看
 

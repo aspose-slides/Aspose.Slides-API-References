@@ -8,7 +8,7 @@ url: /ru/net/aspose.slides.animation/behaviorproperty/imagedatagain/
 ---
 ## BehaviorProperty.ImageDataGain property
 
-Представляет свойство 'imageData.gain'
+Представляет свойство imageData.gain
 
 ```csharp
 public static BehaviorProperty ImageDataGain { get; }

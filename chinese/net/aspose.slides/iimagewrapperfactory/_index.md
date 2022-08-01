@@ -1,14 +1,14 @@
 ---
 title: IImageWrapperFactory
 second_title: Aspose.Slides for .NET API 参考
-description: 该接口允许初始化 IBitmapWrapper
+description: 这个接口允许初始化 IBitmapWrapper
 type: docs
 weight: 5630
 url: /zh/net/aspose.slides/iimagewrapperfactory/
 ---
 ## IImageWrapperFactory interface
 
-该接口允许初始化 IBitmapWrapper。
+这个接口允许初始化 IBitmapWrapper。
 
 ```csharp
 public interface IImageWrapperFactory

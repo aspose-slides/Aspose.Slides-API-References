@@ -1,14 +1,14 @@
 ---
 title: RelatedLegendEntry
 second_title: Aspose.Slides for .NET API 参考
-description: 此列表中图表类型的相应图例条目的属性 ChartType.BarOfPie ChartType.ExplodedPie  ChartType.ExplodedPie3D ChartType.Pie ChartType.Pie3D ChartType.PieOfPie 只读ILegendEntryPropertiesaspose.slides.charts/ilegendentryproperties
+description: 此列表中图表类型的相应图例条目的属性 ChartType.BarOfPie ChartType.ExplodedPie ChartType.ExplodedPie3D ChartType.Pie ChartType.Pie3D ChartType.PieOfPie. 只读ILegendEntryPropertiesaspose.slides.charts/ilegendentryproperties.
 type: docs
 weight: 150
 url: /zh/net/aspose.slides.charts/chartdatapoint/relatedlegendentry/
 ---
 ## ChartDataPoint.RelatedLegendEntry property
 
-此列表中图表类型的相应图例条目的属性: ChartType.BarOfPie, ChartType.ExplodedPie , ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie。 只读[`ILegendEntryProperties`](../../ilegendentryproperties)。
+此列表中图表类型的相应图例条目的属性： ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie. 只读[`ILegendEntryProperties`](../../ilegendentryproperties).
 
 ```csharp
 public ILegendEntryProperties RelatedLegendEntry { get; }

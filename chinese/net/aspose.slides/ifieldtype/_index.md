@@ -1,14 +1,14 @@
 ---
 title: IFieldType
 second_title: Aspose.Slides for .NET API 参考
-description: 表示字段的类型 此值确定在更新时将哪些文本设置为字段部分
+description: 表示字段的类型 该值决定了在更新时将哪些文本设置为字段部分
 type: docs
 weight: 5260
 url: /zh/net/aspose.slides/ifieldtype/
 ---
 ## IFieldType interface
 
-表示字段的类型。 此值确定在更新时将哪些文本设置为字段部分。
+表示字段的类型。 该值决定了在更新时将哪些文本设置为字段部分。
 
 ```csharp
 public interface IFieldType
@@ -18,7 +18,7 @@ public interface IFieldType
 
 | 姓名 | 描述 |
 | --- | --- |
-| [InternalString](../../aspose.slides/ifieldtype/internalstring) { get; set; } | 返回此 FieldTypeEx 对象的内部名称。 读/写String。 |
+| [InternalString](../../aspose.slides/ifieldtype/internalstring) { get; set; } | 返回此 FieldTypeEx 对象的内部名称。 读/写String. |
 
 ### 也可以看看
 

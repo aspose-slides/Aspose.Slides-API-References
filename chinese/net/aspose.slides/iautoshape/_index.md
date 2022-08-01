@@ -18,18 +18,18 @@ public interface IAutoShape : IGeometryShape
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsIGeometryShape](../../aspose.slides/iautoshape/asigeometryshape) { get; } | 允许获取基本的 IGeometryShape 接口。 只读[`IGeometryShape`](../igeometryshape)。 |
-| [AutoShapeLock](../../aspose.slides/iautoshape/autoshapelock) { get; } | 返回自选图形的锁。 只读[`IAutoShapeLock`](../iautoshapelock)。 |
+| [AsIGeometryShape](../../aspose.slides/iautoshape/asigeometryshape) { get; } | 允许获取基本 IGeometryShape 接口。 只读[`IGeometryShape`](../igeometryshape). |
+| [AutoShapeLock](../../aspose.slides/iautoshape/autoshapelock) { get; } | 返回自选图形的锁。 只读[`IAutoShapeLock`](../iautoshapelock). |
 | [IsTextBox](../../aspose.slides/iautoshape/istextbox) { get; } | 指定形状是否为文本框。 |
-| [ShapeLock](../../aspose.slides/iautoshape/shapelock) { get; } | 返回形状的锁。 只读[`IAutoShapeLock`](../iautoshapelock)。 |
-| [TextFrame](../../aspose.slides/iautoshape/textframe) { get; } | 返回自选图形的 TextFrameEx 对象。 只读[`ITextFrame`](../itextframe)。 |
-| [UseBackgroundFill](../../aspose.slides/iautoshape/usebackgroundfill) { get; set; } | 确定此自选图形是否应使用幻灯片的背景填充而不是由样式或填充格式指定。 读/写Boolean。 |
+| [ShapeLock](../../aspose.slides/iautoshape/shapelock) { get; } | 返回形状的锁。 只读[`IAutoShapeLock`](../iautoshapelock). |
+| [TextFrame](../../aspose.slides/iautoshape/textframe) { get; } | 返回 AutoShapeEx 的 TextFrameEx 对象。 只读[`ITextFrame`](../itextframe). |
+| [UseBackgroundFill](../../aspose.slides/iautoshape/usebackgroundfill) { get; set; } | 确定此自选图形是否应使用幻灯片的背景填充而不是由样式或填充格式指定。 读/写Boolean. |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AddTextFrame](../../aspose.slides/iautoshape/addtextframe)(string) | 将新的 TextFrameEx 添加到形状。 如果形状已经有 TextFrameEx 则只需更改其文本。 |
+| [AddTextFrame](../../aspose.slides/iautoshape/addtextframe)(string) | 将新的 TextFrameEx 添加到形状。 如果形状已经有 TextFrameEx，则只需更改其文本。 |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: SystemColor
 second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет предварительно определенные системные цвета.
+description: Представляет предопределенные системные цвета.
 type: docs
 weight: 10000
 url: /ru/net/aspose.slides/systemcolor/
 ---
 ## SystemColor enumeration
 
-Представляет предварительно определенные системные цвета.
+Представляет предопределенные системные цвета.
 
 ```csharp
 public enum SystemColor

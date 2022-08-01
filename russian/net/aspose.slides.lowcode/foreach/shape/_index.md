@@ -1,14 +1,14 @@
 ---
 title: Shape
 second_title: Справочник по API Aspose.Slides для .NET
-description: Итерировать каждыйShapeaspose.slides.lowcode/foreach/shapeвPresentationaspose.slides/presentation.  Формы будут повторяться во всех типах слайдов -Slideaspose.slides.lowcode/foreach/slideMasterSlideaspose.slides.lowcode/foreach/masterslideиLayoutSlideaspose.slides.lowcode/foreach/layoutslide
+description: Итерировать каждыйShapeaspose.slides.lowcode/foreach/shape вPresentationaspose.slides/presentation .  Формы будут повторяться во всех типах слайдов -Slideaspose.slides.lowcode/foreach/slide MasterSlideaspose.slides.lowcode/foreach/masterslide а такжеLayoutSlideaspose.slides.lowcode/foreach/layoutslide
 type: docs
 weight: 50
 url: /ru/net/aspose.slides.lowcode/foreach/shape/
 ---
 ## Shape(Presentation, ForEachShapeCallback) {#shape_1}
 
-Итерировать каждый`Shape`в[`Presentation`](../../../aspose.slides/presentation).  Формы будут повторяться во всех типах слайдов -[`Slide`](../slide),[`MasterSlide`](../masterslide)и[`LayoutSlide`](../layoutslide):
+Итерировать каждый`Shape` в[`Presentation`](../../../aspose.slides/presentation) .  Формы будут повторяться во всех типах слайдов -[`Slide`](../slide) ,[`MasterSlide`](../masterslide) а также[`LayoutSlide`](../layoutslide)
 
 ```csharp
 public static void Shape(Presentation pres, ForEachShapeCallback forEachShape)
@@ -43,7 +43,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 
 ## Shape(BaseSlide, ForEachShapeCallback) {#shape}
 
-Итерировать каждый[`Shape`](../shape)в[`BaseSlide`](../../../aspose.slides/baseslide). [`BaseSlide`](../../../aspose.slides/baseslide)является базовым типом дляForEachSlideCallback),[`MasterSlide`](../masterslide)и[`LayoutSlide`](../layoutslide)
+Итерировать каждый[`Shape`](../shape) в[`BaseSlide`](../../../aspose.slides/baseslide) . [`BaseSlide`](../../../aspose.slides/baseslide) является базовым типом для[`Slide`](../slide) ,[`MasterSlide`](../masterslide) а также[`LayoutSlide`](../layoutslide)
 
 ```csharp
 public static void Shape(BaseSlide baseSlide, ForEachShapeCallback forEachShape)
@@ -51,8 +51,8 @@ public static void Shape(BaseSlide baseSlide, ForEachShapeCallback forEachShape)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| baseSlide | BaseSlide | Слайд для повторения форм макета |
-| forEachShape | ForEachShapeCallback | Обратный вызов, который будет вызываться для каждая фигура |
+| baseSlide | BaseSlide | Слайд, чтобы повторять фигуры макета |
+| forEachShape | ForEachShapeCallback | Обратный вызов, который будет вызываться для каждой формы |
 
 ### Примеры
 

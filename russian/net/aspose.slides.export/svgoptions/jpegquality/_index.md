@@ -1,14 +1,14 @@
 ---
 title: JpegQuality
 second_title: Справочник по API Aspose.Slides для .NET
-description: Определяет качество кодирования JPEG. Чтение/записьInt32.
+description: Определяет качество кодирования JPEG. Чтение/записьInt32 .
 type: docs
 weight: 100
 url: /ru/net/aspose.slides.export/svgoptions/jpegquality/
 ---
 ## SVGOptions.JpegQuality property
 
-Определяет качество кодирования JPEG. Чтение/записьInt32.
+Определяет качество кодирования JPEG. Чтение/записьInt32 .
 
 ```csharp
 public int JpegQuality { get; set; }

@@ -16,7 +16,7 @@ public interface IGenericCloneable<T> : ICloneable
 
 | 范围 | 描述 |
 | --- | --- |
-| T | 对象的类型克隆 |
+| T | 要克隆的对象类型 |
 
 ## 特性
 

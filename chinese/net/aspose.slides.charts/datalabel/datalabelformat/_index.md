@@ -1,14 +1,14 @@
 ---
 title: DataLabelFormat
 second_title: Aspose.Slides for .NET API 参考
-description: 返回数据标签格式 只读IDataLabelFormataspose.slides.charts/idatalabelformat
+description: 返回数据标签格式 只读IDataLabelFormataspose.slides.charts/idatalabelformat.
 type: docs
 weight: 80
 url: /zh/net/aspose.slides.charts/datalabel/datalabelformat/
 ---
 ## DataLabel.DataLabelFormat property
 
-返回数据标签格式。 只读[`IDataLabelFormat`](../../idatalabelformat)。
+返回数据标签格式。 只读[`IDataLabelFormat`](../../idatalabelformat).
 
 ```csharp
 public IDataLabelFormat DataLabelFormat { get; }

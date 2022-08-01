@@ -1,14 +1,14 @@
 ---
 title: Shapes
 second_title: Aspose.Slides for .NET API 参考
-description: 收集Shapeaspose.slides/shape中的所有实例Presentationaspose.slides/presentation.
+description: 收集所有实例Shapeaspose.slides/shape在里面Presentationaspose.slides/presentation
 type: docs
 weight: 10
 url: /zh/net/aspose.slides.lowcode/collect/shapes/
 ---
 ## Collect.Shapes method
 
-收集[`Shape`](../../../aspose.slides/shape)中的所有实例[`Presentation`](../../../aspose.slides/presentation).
+收集所有实例[`Shape`](../../../aspose.slides/shape)在里面[`Presentation`](../../../aspose.slides/presentation)
 
 ```csharp
 public static IEnumerable<Shape> Shapes(Presentation pres)
@@ -16,11 +16,11 @@ public static IEnumerable<Shape> Shapes(Presentation pres)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| pres | Presentation | 用于收集形状的演示 |
+| pres | Presentation | 收集形状的演示文稿 |
 
 ### 返回值
 
-所有形状的集合包含在演示文稿中
+包含在演示文稿中的所有形状的集合
 
 ### 例子
 
@@ -29,7 +29,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 {
     foreach (Shape shape in Collect.Shapes(pres))
     {
-         // 如果形状是自选图形，添加黑色实心边框
+        // 如果形状是自选图形，添加黑色实心边框
         if (shape is AutoShape autoShape)
         {
             autoShape.LineFormat.Style = LineStyle.Single;

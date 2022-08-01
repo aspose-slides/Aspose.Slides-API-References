@@ -1,14 +1,14 @@
 ---
 title: ConnectionSiteCount
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает количество сайтов соединения на фигуре. Только для чтенияInt32.
+description: Возвращает количество сайтов подключения на фигуре. Только для чтенияInt32 .
 type: docs
 weight: 40
 url: /ru/net/aspose.slides/shape/connectionsitecount/
 ---
 ## Shape.ConnectionSiteCount property
 
-Возвращает количество сайтов соединения на фигуре. Только для чтенияInt32.
+Возвращает количество сайтов подключения на фигуре. Только для чтенияInt32 .
 
 ```csharp
 public int ConnectionSiteCount { get; }

@@ -1,14 +1,14 @@
 ---
 title: IConnector
 second_title: Aspose.Slides for .NET API 参考
-description: 表示连接器
+description: 代表一个连接器
 type: docs
 weight: 5110
 url: /zh/net/aspose.slides/iconnector/
 ---
 ## IConnector interface
 
-表示连接器。
+代表一个连接器。
 
 ```csharp
 public interface IConnector : IGeometryShape
@@ -18,13 +18,13 @@ public interface IConnector : IGeometryShape
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsIGeometryShape](../../aspose.slides/iconnector/asigeometryshape) { get; } | 允许获取基本的 IGeometryShape 接口。 只读[`IGeometryShape`](../igeometryshape)。 |
-| [ConnectorLock](../../aspose.slides/iconnector/connectorlock) { get; } | 返回连接器的锁。 只读[`IConnectorLock`](../iconnectorlock)。 |
-| [EndShapeConnectedTo](../../aspose.slides/iconnector/endshapeconnectedto) { get; set; } | 返回或设置将连接器末端附加到的形状。 读/写[`IShape`](../ishape)。 |
-| [EndShapeConnectionSiteIndex](../../aspose.slides/iconnector/endshapeconnectionsiteindex) { get; set; } | 返回或设置末端形状的连接点索引。 读/写UInt32。 |
-| [ShapeLock](../../aspose.slides/iconnector/shapelock) { get; } | 返回形状的锁。 只读[`IConnectorLock`](../iconnectorlock)。 |
-| [StartShapeConnectedTo](../../aspose.slides/iconnector/startshapeconnectedto) { get; set; } | 返回或设置将连接器开头附加到的形状。 读/写[`IShape`](../ishape)。 |
-| [StartShapeConnectionSiteIndex](../../aspose.slides/iconnector/startshapeconnectionsiteindex) { get; set; } | 返回或设置起始形状的连接点索引。 读/写UInt32。 |
+| [AsIGeometryShape](../../aspose.slides/iconnector/asigeometryshape) { get; } | 允许获取基本 IGeometryShape 接口。 只读[`IGeometryShape`](../igeometryshape). |
+| [ConnectorLock](../../aspose.slides/iconnector/connectorlock) { get; } | 返回连接器的锁。 只读[`IConnectorLock`](../iconnectorlock). |
+| [EndShapeConnectedTo](../../aspose.slides/iconnector/endshapeconnectedto) { get; set; } | 返回或设置将连接器末端附加到的形状。 读/写[`IShape`](../ishape). |
+| [EndShapeConnectionSiteIndex](../../aspose.slides/iconnector/endshapeconnectionsiteindex) { get; set; } | 返回或设置结束形状的连接点索引。 读/写UInt32. |
+| [ShapeLock](../../aspose.slides/iconnector/shapelock) { get; } | 返回形状的锁。 只读[`IConnectorLock`](../iconnectorlock). |
+| [StartShapeConnectedTo](../../aspose.slides/iconnector/startshapeconnectedto) { get; set; } | 返回或设置将连接器的开头附加到的形状。 读/写[`IShape`](../ishape). |
+| [StartShapeConnectionSiteIndex](../../aspose.slides/iconnector/startshapeconnectionsiteindex) { get; set; } | 返回或设置起始形状的连接点索引。 读/写UInt32. |
 
 ## 方法
 

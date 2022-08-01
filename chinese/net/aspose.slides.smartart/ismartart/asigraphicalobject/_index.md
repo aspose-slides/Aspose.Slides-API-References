@@ -1,14 +1,14 @@
 ---
 title: AsIGraphicalObject
 second_title: Aspose.Slides for .NET API 参考
-description: 允许获取基本 IGraphicalObject 接口 只读IGraphicalObjectaspose.slides/igraphicalobject
+description: 允许获取基本 IGraphicalObject 接口 只读IGraphicalObjectaspose.slides/igraphicalobject.
 type: docs
 weight: 20
 url: /zh/net/aspose.slides.smartart/ismartart/asigraphicalobject/
 ---
 ## ISmartArt.AsIGraphicalObject property
 
-允许获取基本 IGraphicalObject 接口。 只读[`IGraphicalObject`](../../../aspose.slides/igraphicalobject)。
+允许获取基本 IGraphicalObject 接口。 只读[`IGraphicalObject`](../../../aspose.slides/igraphicalobject).
 
 ```csharp
 public IGraphicalObject AsIGraphicalObject { get; }

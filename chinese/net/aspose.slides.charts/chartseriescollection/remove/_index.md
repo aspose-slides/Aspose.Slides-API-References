@@ -16,7 +16,7 @@ public void Remove(IChartSeries value)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | IChartSeries | 值。 |
+| value | IChartSeries | 价值。 |
 
 ### 例外
 

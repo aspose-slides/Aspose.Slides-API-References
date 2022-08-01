@@ -1,14 +1,14 @@
 ---
 title: Spacing
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置字符间距增量  float.NaN 表示值未定义应从 Master 继承 读/写Single
+description: 返回或设置字符间距增量  浮点数.NaN表示值未定义应从 Master 继承 读/写Single.
 type: docs
 weight: 210
 url: /zh/net/aspose.slides/baseportionformat/spacing/
 ---
 ## BasePortionFormat.Spacing property
 
-返回或设置字符间距增量。  **float.NaN** 表示值未定义，应从 Master 继承。 读/写Single。
+返回或设置字符间距增量。  **浮点数.NaN**表示值未定义，应从 Master 继承。 读/写Single.
 
 ```csharp
 public float Spacing { get; set; }

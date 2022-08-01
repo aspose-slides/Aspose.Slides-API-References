@@ -18,23 +18,23 @@ public interface IThreeDFormat : IThreeDParamSource
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsIThreeDParamSource](../../aspose.slides/ithreedformat/asithreedparamsource) { get; } | 允许获取基本的 IThreeDParamSource 接口。 只读[`IThreeDParamSource`](../ithreedparamsource)。 |
-| [BevelBottom](../../aspose.slides/ithreedformat/bevelbottom) { get; } | 返回或设置底部 3D 斜角的类型。 只读[`IShapeBevel`](../ishapebevel)。 |
-| [BevelTop](../../aspose.slides/ithreedformat/beveltop) { get; } | 返回或设置顶部 3D 斜角的类型。 只读[`IShapeBevel`](../ishapebevel)。 |
-| [Camera](../../aspose.slides/ithreedformat/camera) { get; } | 返回或设置相机的设置。 只读[`ICamera`](../icamera)。 |
-| [ContourColor](../../aspose.slides/ithreedformat/contourcolor) { get; } | 返回或设置轮廓的颜色。 只读[`IColorFormat`](../icolorformat)。 |
-| [ContourWidth](../../aspose.slides/ithreedformat/contourwidth) { get; set; } | 返回或设置 3D 轮廓的宽度。 读/写Double。 |
-| [Depth](../../aspose.slides/ithreedformat/depth) { get; set; } | 返回或设置 3D 形状的深度。 读/写Double。 |
-| [ExtrusionColor](../../aspose.slides/ithreedformat/extrusioncolor) { get; } | 返回或设置拉伸的颜色。 只读[`IColorFormat`](../icolorformat)。 |
-| [ExtrusionHeight](../../aspose.slides/ithreedformat/extrusionheight) { get; set; } | 返回或设置挤压效果的高度。 读/写Double。 |
-| [LightRig](../../aspose.slides/ithreedformat/lightrig) { get; } | 返回或设置灯光的类型。 只读[`ILightRig`](../ilightrig)。 |
-| [Material](../../aspose.slides/ithreedformat/material) { get; set; } | 返回或设置材质的类型。 读/写[`MaterialPresetType`](../materialpresettype)。 |
+| [AsIThreeDParamSource](../../aspose.slides/ithreedformat/asithreedparamsource) { get; } | 允许获取基本 IThreeDParamSource 接口。 只读[`IThreeDParamSource`](../ithreedparamsource). |
+| [BevelBottom](../../aspose.slides/ithreedformat/bevelbottom) { get; } | 返回或设置底部 3D 斜面的类型。 只读[`IShapeBevel`](../ishapebevel). |
+| [BevelTop](../../aspose.slides/ithreedformat/beveltop) { get; } | 返回或设置顶部 3D 斜角的类型。 只读[`IShapeBevel`](../ishapebevel). |
+| [Camera](../../aspose.slides/ithreedformat/camera) { get; } | 返回或设置相机的设置。 只读[`ICamera`](../icamera). |
+| [ContourColor](../../aspose.slides/ithreedformat/contourcolor) { get; } | 返回或设置轮廓的颜色。 只读[`IColorFormat`](../icolorformat). |
+| [ContourWidth](../../aspose.slides/ithreedformat/contourwidth) { get; set; } | 返回或设置 3D 轮廓的宽度。 读/写Double. |
+| [Depth](../../aspose.slides/ithreedformat/depth) { get; set; } | 返回或设置 3D 形状的深度。 读/写Double. |
+| [ExtrusionColor](../../aspose.slides/ithreedformat/extrusioncolor) { get; } | 返回或设置拉伸的颜色。 只读[`IColorFormat`](../icolorformat). |
+| [ExtrusionHeight](../../aspose.slides/ithreedformat/extrusionheight) { get; set; } | 返回或设置挤压效果的高度。 读/写Double. |
+| [LightRig](../../aspose.slides/ithreedformat/lightrig) { get; } | 返回或设置灯光的类型。 只读[`ILightRig`](../ilightrig). |
+| [Material](../../aspose.slides/ithreedformat/material) { get; set; } | 返回或设置材质的类型。 读/写[`MaterialPresetType`](../materialpresettype). |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [GetEffective](../../aspose.slides/ithreedformat/geteffective)() | 获取应用了继承的有效 3-D 格式化数据。 |
+| [GetEffective](../../aspose.slides/ithreedformat/geteffective)() | 获取有效的 3-D 格式化数据并应用继承。 |
 
 ### 也可以看看
 

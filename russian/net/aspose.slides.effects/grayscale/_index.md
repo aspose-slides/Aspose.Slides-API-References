@@ -18,15 +18,15 @@ public class GrayScale : ImageTransformOperation, IGrayScale
 
 | Имя | Описание |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Позволяет получить базовый интерфейс IPresentationComponent. Только для чтения[`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Позволяет получить базовый интерфейс IPresentationComponent. Только для чтения[`IPresentationComponent`](../../aspose.slides/ipresentationcomponent) . |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/grayscale/equals)(object) | Определяет, равен ли указанный[`GrayScale`](../grayscale)текущемуОттенкисерого. |
+| override [Equals](../../aspose.slides.effects/grayscale/equals)(object) | Определяет, является ли указанный[`GrayScale`](../grayscale) равен текущему[`GrayScale`](../grayscale) . |
 | [GetEffective](../../aspose.slides.effects/grayscale/geteffective)() | Получает эффективные данные эффекта шкалы серого с применением наследования. |
-| override [GetHashCode](../../aspose.slides.effects/grayscale/gethashcode)() | Служит хэш-функцией для определенного типа. |
+| override [GetHashCode](../../aspose.slides.effects/grayscale/gethashcode)() | Служит хеш-функцией для определенного типа. |
 
 ### Смотрите также
 

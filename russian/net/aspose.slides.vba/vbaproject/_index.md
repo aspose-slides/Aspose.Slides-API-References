@@ -19,15 +19,15 @@ public sealed class VbaProject : IVbaProject
 | Имя | Описание |
 | --- | --- |
 | [VbaProject](vbaproject#constructor)() | Этот конструктор создает новый проект VBA с нуля. Проект будет создан в кодовой странице 1252 Windows Latin 1 (ANSI) |
-| [VbaProject](vbaproject#constructor_1)(byte[]) | Этот конструктор загружает проект VBA из бинарного представления контейнера OLE. |
+| [VbaProject](vbaproject#constructor_1)(byte[]) | Этот конструктор загружает проект VBA из двоичного представления контейнера OLE. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Modules](../../aspose.slides.vba/vbaproject/modules) { get; } | Возвращает список всех модулей, содержащихся в проекте VBA. Только для чтения[`IVbaModuleCollection`](../ivbamodulecollection). |
-| [Name](../../aspose.slides.vba/vbaproject/name) { get; } | Возвращает имя проекта VBA. Только чтениеString. |
-| [References](../../aspose.slides.vba/vbaproject/references) { get; } | Возвращает список всех ссылок, содержащихся в проекте VBA. Только для чтения[`IVbaReferenceCollection`](../ivbareferencecollection). |
+| [Modules](../../aspose.slides.vba/vbaproject/modules) { get; } | Возвращает список всех модулей, содержащихся в проекте VBA. Только для чтения[`IVbaModuleCollection`](../ivbamodulecollection) . |
+| [Name](../../aspose.slides.vba/vbaproject/name) { get; } | Возвращает имя проекта VBA. Только для чтенияString . |
+| [References](../../aspose.slides.vba/vbaproject/references) { get; } | Возвращает список всех ссылок, содержащихся в проекте VBA. Только для чтения[`IVbaReferenceCollection`](../ivbareferencecollection) . |
 
 ## Методы
 

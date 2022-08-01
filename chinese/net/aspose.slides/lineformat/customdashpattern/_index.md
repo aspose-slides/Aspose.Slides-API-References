@@ -1,14 +1,14 @@
 ---
 title: CustomDashPattern
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置自定义破折号模式 读/写Single
+description: 返回或设置自定义破折号模式 读/写Single.
 type: docs
 weight: 60
 url: /zh/net/aspose.slides/lineformat/customdashpattern/
 ---
 ## LineFormat.CustomDashPattern property
 
-返回或设置自定义破折号模式。 读/写Single[]。
+返回或设置自定义破折号模式。 读/写Single[].
 
 ```csharp
 public float[] CustomDashPattern { get; set; }

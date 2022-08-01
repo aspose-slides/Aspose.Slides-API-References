@@ -1,14 +1,14 @@
 ---
 title: ErrorBarsCustomValues
 second_title: Aspose.Slides for .NET API 参考
-description: 指定错误栏值仅当误差线值类型为自定义时才应使用
+description: 指定错误栏值仅当误差线值类型为 Custom. 时才应使用
 type: docs
 weight: 1520
 url: /zh/net/aspose.slides.charts/errorbarscustomvalues/
 ---
 ## ErrorBarsCustomValues class
 
-指定错误栏值。仅当误差线值类型为自定义时才应使用。
+指定错误栏值。仅当误差线值类型为 Custom. 时才应使用
 
 ```csharp
 public class ErrorBarsCustomValues : DomObject<ChartDataPoint>, IErrorBarsCustomValues
@@ -18,10 +18,10 @@ public class ErrorBarsCustomValues : DomObject<ChartDataPoint>, IErrorBarsCustom
 
 | 姓名 | 描述 |
 | --- | --- |
-| [XMinus](../../aspose.slides.charts/errorbarscustomvalues/xminus) { get; } | 指定负方向的误差线值。 如果误差线值类型是自定义并且允许 ErrorBarsXFormat 则可用。 在任何其他情况下，此属性都返回 null。 只读[`IDoubleChartValue`](../idoublechartvalue)。 |
-| [XPlus](../../aspose.slides.charts/errorbarscustomvalues/xplus) { get; } | 指定正方向的误差线值。 如果误差线值类型是自定义并且允许 ErrorBarsXFormat 则可用。 在任何其他情况下，此属性都返回 null。 只读[`IDoubleChartValue`](../idoublechartvalue)。 |
-| [YMinus](../../aspose.slides.charts/errorbarscustomvalues/yminus) { get; } | 指定负方向的误差线值。 如果误差线值类型是自定义并且允许 ErrorBarsYFormat 则可用。 在任何其他情况下，此属性都返回 null。 只读[`IDoubleChartValue`](../idoublechartvalue)。 |
-| [YPlus](../../aspose.slides.charts/errorbarscustomvalues/yplus) { get; } | 指定正方向的误差线值。 如果误差线值类型是自定义并且允许 ErrorBarsYFormat 则可用。 在任何其他情况下，此属性都返回 null。 只读[`IDoubleChartValue`](../idoublechartvalue)。 |
+| [XMinus](../../aspose.slides.charts/errorbarscustomvalues/xminus) { get; } | 指定负方向的误差线值。 如果误差线值类型为自定义且允许 ErrorBarsXFormat 时可用。 在任何其他情况下，此属性返回 null。 只读[`IDoubleChartValue`](../idoublechartvalue). |
+| [XPlus](../../aspose.slides.charts/errorbarscustomvalues/xplus) { get; } | 指定正方向的误差线值。 如果误差线值类型为自定义且允许 ErrorBarsXFormat 则可用。 在任何其他情况下，此属性都返回 null。 只读[`IDoubleChartValue`](../idoublechartvalue). |
+| [YMinus](../../aspose.slides.charts/errorbarscustomvalues/yminus) { get; } | 指定负方向的误差线值。 如果误差线值类型为自定义且允许 ErrorBarsYFormat 则可用。 在任何其他情况下，此属性都返回 null。 只读[`IDoubleChartValue`](../idoublechartvalue). |
+| [YPlus](../../aspose.slides.charts/errorbarscustomvalues/yplus) { get; } | 指定正方向的误差线值。 如果误差线值类型为自定义且允许 ErrorBarsYFormat 时可用。 在任何其他情况下，此属性返回 null。 只读[`IDoubleChartValue`](../idoublechartvalue). |
 
 ### 也可以看看
 

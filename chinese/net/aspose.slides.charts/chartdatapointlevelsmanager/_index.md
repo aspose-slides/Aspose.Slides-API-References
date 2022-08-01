@@ -1,14 +1,14 @@
 ---
 title: ChartDataPointLevelsManager
 second_title: Aspose.Slides for .NET API 参考
-description: 数据点级别的容器适用于 Treeamp 和 Sunburst 系列 数据点级别索引是从零开始的
+description: 数据点级别的容器应用于 Treeamp 和 Sunburst 系列 数据点级别索引是从零开始的
 type: docs
 weight: 1220
 url: /zh/net/aspose.slides.charts/chartdatapointlevelsmanager/
 ---
 ## ChartDataPointLevelsManager class
 
-数据点级别的容器。适用于 Treeamp 和 Sunburst 系列。 数据点级别索引是从零开始的。
+数据点级别的容器。应用于 Treeamp 和 Sunburst 系列。 数据点级别索引是从零开始的。
 
 ```csharp
 public class ChartDataPointLevelsManager : DomObject<ChartDataPoint>, IChartDataPointLevelsManager

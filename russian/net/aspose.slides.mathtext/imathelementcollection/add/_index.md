@@ -16,7 +16,7 @@ public void Add(IMathElement item)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| item | IMathElement | Элемент IMathElement, добавляемый в конец коллекции. |
+| item | IMathElement | IMathElement, добавляемый в конец коллекции. |
 
 ### Примеры
 

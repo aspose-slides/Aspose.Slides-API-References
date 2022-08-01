@@ -1,14 +1,14 @@
 ---
 title: TransitionInOutDirectionType
 second_title: Справочник по API Aspose.Slides для .NET
-description: Представляют типы перехода внутрь или наружу.
+description: Представляет типы перехода внутрь или наружу.
 type: docs
 weight: 9590
 url: /ru/net/aspose.slides.slideshow/transitioninoutdirectiontype/
 ---
 ## TransitionInOutDirectionType enumeration
 
-Представляют типы перехода внутрь или наружу.
+Представляет типы перехода внутрь или наружу.
 
 ```csharp
 public enum TransitionInOutDirectionType

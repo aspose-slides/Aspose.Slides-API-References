@@ -1,14 +1,14 @@
 ---
 title: RowFormat
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает объект RowFormat который содержит свойства форматирования для этой строки. Только для чтенияIRowFormataspose.slides/irowformat.
+description: Возвращает объект RowFormat содержащий свойства форматирования для этой строки. Только для чтенияIRowFormataspose.slides/irowformat .
 type: docs
 weight: 30
 url: /ru/net/aspose.slides/row/rowformat/
 ---
 ## Row.RowFormat property
 
-Возвращает объект RowFormat, который содержит свойства форматирования для этой строки. Только для чтения[`IRowFormat`](../../irowformat).
+Возвращает объект RowFormat, содержащий свойства форматирования для этой строки. Только для чтения[`IRowFormat`](../../irowformat) .
 
 ```csharp
 public IRowFormat RowFormat { get; }

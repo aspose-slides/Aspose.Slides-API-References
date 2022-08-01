@@ -1,14 +1,14 @@
 ---
 title: AxesCompositionNotCombinableException
 second_title: Aspose.Slides for .NET API 参考
-description: 当系列的轴组合不能与图表中的当前轴 组合时抛出的异常
+description: 系列的轴组成不能与图表中的当前轴 组合时引发的异常
 type: docs
 weight: 1020
 url: /zh/net/aspose.slides.charts/axescompositionnotcombinableexception/
 ---
 ## AxesCompositionNotCombinableException class
 
-当系列的轴组合不能与图表中的当前轴 组合时抛出的异常。
+系列的轴组成不能与图表中的当前轴 组合时引发的异常。
 
 ```csharp
 public class AxesCompositionNotCombinableException : InvalidOperationException

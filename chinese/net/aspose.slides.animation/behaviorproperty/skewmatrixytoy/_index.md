@@ -1,14 +1,14 @@
 ---
 title: SkewMatrixYtoY
 second_title: Aspose.Slides for .NET API 参考
-description: 表示skew.matrix.ytoy属性
+description: 表示skew.matrix.ytoy 属性
 type: docs
 weight: 820
 url: /zh/net/aspose.slides.animation/behaviorproperty/skewmatrixytoy/
 ---
 ## BehaviorProperty.SkewMatrixYtoY property
 
-表示'skew.matrix.ytoy'属性
+表示'skew.matrix.ytoy' 属性
 
 ```csharp
 public static BehaviorProperty SkewMatrixYtoY { get; }

@@ -3,7 +3,7 @@ title: Equals
 second_title: Aspose.Slides for .NET API 参考
 description: 与指定对象比较
 type: docs
-weight: 60
+weight: 70
 url: /zh/net/aspose.slides/picture/equals/
 ---
 ## Picture.Equals method

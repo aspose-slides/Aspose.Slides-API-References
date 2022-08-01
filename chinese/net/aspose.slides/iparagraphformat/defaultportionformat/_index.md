@@ -1,14 +1,14 @@
 ---
 title: DefaultPortionFormat
 second_title: Aspose.Slides for .NET API 参考
-description: 返回段落的默认部分格式未应用继承 只读IPortionFormataspose.slides/iportionformat
+description: 返回段落的默认部分格式未应用继承 只读IPortionFormataspose.slides/iportionformat.
 type: docs
 weight: 30
 url: /zh/net/aspose.slides/iparagraphformat/defaultportionformat/
 ---
 ## IParagraphFormat.DefaultPortionFormat property
 
-返回段落的默认部分格式。未应用继承。 只读[`IPortionFormat`](../../iportionformat)。
+返回段落的默认部分格式。未应用继承。 只读[`IPortionFormat`](../../iportionformat).
 
 ```csharp
 public IPortionFormat DefaultPortionFormat { get; }

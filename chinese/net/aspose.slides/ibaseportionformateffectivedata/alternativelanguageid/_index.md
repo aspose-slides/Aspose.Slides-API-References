@@ -1,14 +1,14 @@
 ---
 title: AlternativeLanguageId
 second_title: Aspose.Slides for .NET API 参考
-description: 返回替代语言的 ID 只读String
+description: 返回替代语言的 ID 只读String.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides/ibaseportionformateffectivedata/alternativelanguageid/
 ---
 ## IBasePortionFormatEffectiveData.AlternativeLanguageId property
 
-返回替代语言的 ID。 只读String。
+返回替代语言的 ID。 只读String.
 
 ```csharp
 public string AlternativeLanguageId { get; }

@@ -1,14 +1,14 @@
 ---
 title: StartShapeConnectedTo
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или задает форму для присоединения начала соединителя. Чтение/записьIShapeaspose.slides/ishape.
+description: Возвращает или задает форму для присоединения начала соединителя к. Чтение/записьIShapeaspose.slides/ishape .
 type: docs
 weight: 60
 url: /ru/net/aspose.slides/connector/startshapeconnectedto/
 ---
 ## Connector.StartShapeConnectedTo property
 
-Возвращает или задает форму для присоединения начала соединителя. Чтение/запись[`IShape`](../../ishape).
+Возвращает или задает форму для присоединения начала соединителя к. Чтение/запись[`IShape`](../../ishape) .
 
 ```csharp
 public IShape StartShapeConnectedTo { get; set; }
@@ -18,7 +18,7 @@ public IShape StartShapeConnectedTo { get; set; }
 
 | исключение | условие |
 | --- | --- |
-| ArgumentException | Вызывается, когда подключенная фигура не имеет сайтов подключения (IShape.ConnectionSiteCount равен нулю) |
+| ArgumentException | Создается, когда подключенная фигура не имеет сайтов подключения (IShape.ConnectionSiteCount равен нулю) |
 
 ### Смотрите также
 

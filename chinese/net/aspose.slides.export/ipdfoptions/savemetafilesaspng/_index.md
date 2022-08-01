@@ -1,14 +1,14 @@
 ---
 title: SaveMetafilesAsPng
 second_title: Aspose.Slides for .NET API 参考
-description: True 将演示文稿中使用的所有元文件转换为 PNG 图像 读/写Boolean
+description: True 将演示文稿中使用的所有元文件转换为 PNG 图像 读/写Boolean.
 type: docs
 weight: 140
 url: /zh/net/aspose.slides.export/ipdfoptions/savemetafilesaspng/
 ---
 ## IPdfOptions.SaveMetafilesAsPng property
 
-True 将演示文稿中使用的所有元文件转换为 PNG 图像。 读/写Boolean。
+True 将演示文稿中使用的所有元文件转换为 PNG 图像。 读/写Boolean.
 
 ```csharp
 public bool SaveMetafilesAsPng { get; set; }
@@ -16,7 +16,7 @@ public bool SaveMetafilesAsPng { get; set; }
 
 ### 评论
 
-默认为 **true** 。 Pdf 文档可以包含矢量图形和光栅图像。 如果 SaveMetafilesAsPng 设置为 true，则源 Metafile 图像将转换为 Png 格式并作为光栅 图像保存为 Pdf。如果 SaveMetafilesAsPng 设置为 false，则源 Metafile 将转换为 Pdf 矢量图形。每种方法都有优点 和缺点。例如，如果将 Metafile 转换为 PNG, 则在生成的 文档缩放期间可能会出现一些质量损失。如果将 Metafile 转换为 Pdf 矢量图形， 则可能会出现 Pdf 查看工具中的性能问题。
+默认为 **真的**. Pdf 文档可以包含矢量图形和光栅图像。 如果 SaveMetafilesAsPng 设置为 true，则源 Metafile 图像将转换为 Png 格式并作为光栅 图像保存为 Pdf。如果 SaveMetafilesAsPng 设置为 false，则源 Metafile 将转换为 Pdf 矢量图形。每种方法都有优点 和缺点。例如，如果 Metafile 转换为 PNG， ，则在生成的 文档缩放期间可能会出现一些质量损失。如果将 Metafile 转换为 Pdf 矢量图形， 则 Pdf 查看工具可能会出现性能问题。
 
 ### 也可以看看
 

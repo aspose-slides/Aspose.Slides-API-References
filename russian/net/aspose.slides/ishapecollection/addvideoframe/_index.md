@@ -16,7 +16,7 @@ public IVideoFrame AddVideoFrame(float x, float y, float width, float height, st
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| x | Single | X координата нового видеокадра. |
+| x | Single | Координата X нового видеокадра. |
 | y | Single | Координата Y нового видеокадра. |
 | width | Single | Ширина нового видеокадра. |
 | height | Single | Высота нового видеокадра. |
@@ -45,7 +45,7 @@ public IVideoFrame AddVideoFrame(float x, float y, float width, float height, IV
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| x | Single | X координата нового видеокадра. |
+| x | Single | Координата X нового видеокадра. |
 | y | Single | Координата Y нового видеокадра. |
 | width | Single | Ширина нового видеокадра. |
 | height | Single | Высота нового видеокадра. |

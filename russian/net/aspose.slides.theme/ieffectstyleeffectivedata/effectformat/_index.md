@@ -1,14 +1,14 @@
 ---
 title: EffectFormat
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает формат эффекта. Только для чтенияIEffectFormatEffectiveDataaspose.slides/ieffectformateffectivedata.
+description: Возвращает формат эффекта. Только для чтенияIEffectFormatEffectiveDataaspose.slides/ieffectformateffectivedata .
 type: docs
 weight: 10
 url: /ru/net/aspose.slides.theme/ieffectstyleeffectivedata/effectformat/
 ---
 ## IEffectStyleEffectiveData.EffectFormat property
 
-Возвращает формат эффекта. Только для чтения[`IEffectFormatEffectiveData`](../../../aspose.slides/ieffectformateffectivedata).
+Возвращает формат эффекта. Только для чтения[`IEffectFormatEffectiveData`](../../../aspose.slides/ieffectformateffectivedata) .
 
 ```csharp
 public IEffectFormatEffectiveData EffectFormat { get; }

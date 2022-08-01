@@ -1,14 +1,14 @@
 ---
 title: QuartileMethodType
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает тип метода квартилей
+description: Возвращает тип квартиля method
 type: docs
 weight: 2250
 url: /ru/net/aspose.slides.charts/quartilemethodtype/
 ---
 ## QuartileMethodType enumeration
 
-Возвращает тип метода квартилей
+Возвращает тип квартиля method
 
 ```csharp
 public enum QuartileMethodType

@@ -1,14 +1,14 @@
 ---
 title: MajorUnit
 second_title: Aspose.Slides for .NET API 参考
-description: 表示日期或数值轴的主要单位 读/写Double
+description: 表示日期或数值轴的主要单位 读/写Double.
 type: docs
 weight: 360
 url: /zh/net/aspose.slides.charts/axis/majorunit/
 ---
 ## Axis.MajorUnit property
 
-表示日期或数值轴的主要单位。 读/写Double。
+表示日期或数值轴的主要单位。 读/写Double.
 
 ```csharp
 public double MajorUnit { get; set; }

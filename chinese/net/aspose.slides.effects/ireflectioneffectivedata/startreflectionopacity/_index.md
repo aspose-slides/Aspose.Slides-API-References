@@ -1,14 +1,14 @@
 ---
 title: StartReflectionOpacity
 second_title: Aspose.Slides for .NET API 参考
-description: 开始反射不透明度 百分比 只读Single
+description: 开始反射不透明度 百分比. 只读Single.
 type: docs
 weight: 150
 url: /zh/net/aspose.slides.effects/ireflectioneffectivedata/startreflectionopacity/
 ---
 ## IReflectionEffectiveData.StartReflectionOpacity property
 
-开始反射不透明度。 （百分比）。 只读Single。
+开始反射不透明度。 （百分比）. 只读Single.
 
 ```csharp
 public float StartReflectionOpacity { get; }

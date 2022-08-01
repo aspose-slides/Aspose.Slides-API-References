@@ -19,7 +19,7 @@ public class PptCorruptFileException : PptReadException
 | Имя | Описание |
 | --- | --- |
 | [PptCorruptFileException](pptcorruptfileexception#constructor)() | Конструктор по умолчанию. |
-| [PptCorruptFileException](pptcorruptfileexception#constructor_1)(string) | Конструктор, позволяющий добавить сообщение к этому исключению. |
+| [PptCorruptFileException](pptcorruptfileexception#constructor_1)(string) | Конструктор, позволяющий добавить сообщение в это исключение. |
 | [PptCorruptFileException](pptcorruptfileexception#constructor_2)(string, Exception) | Конструктор исключения, содержащего сообщение и встроенное исключение. |
 
 ### Смотрите также

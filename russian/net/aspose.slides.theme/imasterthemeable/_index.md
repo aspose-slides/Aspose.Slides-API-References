@@ -18,8 +18,8 @@ public interface IMasterThemeable : IThemeable
 
 | Имя | Описание |
 | --- | --- |
-| [AsIThemeable](../../aspose.slides.theme/imasterthemeable/asithemeable) { get; } | Возвращает интерфейс IThemeable. Только для чтения[`IThemeable`](../ithemeable). |
-| [ThemeManager](../../aspose.slides.theme/imasterthemeable/thememanager) { get; } | Возвращает главный менеджер тем. Только для чтения[`IMasterThemeManager`](../imasterthememanager). |
+| [AsIThemeable](../../aspose.slides.theme/imasterthemeable/asithemeable) { get; } | Возвращает интерфейс IThemeable. Только для чтения[`IThemeable`](../ithemeable) . |
+| [ThemeManager](../../aspose.slides.theme/imasterthemeable/thememanager) { get; } | Возвращает главный менеджер тем. Только для чтения[`IMasterThemeManager`](../imasterthememanager) . |
 
 ### Смотрите также
 

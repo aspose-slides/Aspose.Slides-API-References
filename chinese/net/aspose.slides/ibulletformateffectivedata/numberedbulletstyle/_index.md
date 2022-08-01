@@ -1,14 +1,14 @@
 ---
 title: NumberedBulletStyle
 second_title: Aspose.Slides for .NET API 参考
-description: 返回编号项目符号的样式 只读NumberedBulletStyleaspose.slides/numberedbulletstyle
+description: 返回编号项目符号的样式 只读NumberedBulletStyleaspose.slides/numberedbulletstyle.
 type: docs
 weight: 90
 url: /zh/net/aspose.slides/ibulletformateffectivedata/numberedbulletstyle/
 ---
 ## IBulletFormatEffectiveData.NumberedBulletStyle property
 
-返回编号项目符号的样式。 只读[`NumberedBulletStyle`](../../numberedbulletstyle)。
+返回编号项目符号的样式。 只读[`NumberedBulletStyle`](../../numberedbulletstyle).
 
 ```csharp
 public NumberedBulletStyle NumberedBulletStyle { get; }

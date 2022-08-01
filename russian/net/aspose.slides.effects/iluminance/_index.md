@@ -1,14 +1,14 @@
 ---
 title: ILuminance
 second_title: Справочник по API Aspose.Slides для .NET
-description: Представляет эффект яркости. Яркость линейно сдвигает все цвета ближе к белому или черному. Контраст масштабирует все цвета так чтобы они были либо ближе либо дальше друг от друга.
+description: Представляет эффект яркости. Яркость линейно сдвигает все цвета ближе к белому или черному. Контрастность масштабирует все цвета чтобы они были ближе или дальше друг от друга.
 type: docs
 weight: 3240
 url: /ru/net/aspose.slides.effects/iluminance/
 ---
 ## ILuminance interface
 
-Представляет эффект яркости. Яркость линейно сдвигает все цвета ближе к белому или черному. Контраст масштабирует все цвета так, чтобы они были либо ближе, либо дальше друг от друга.
+Представляет эффект яркости. Яркость линейно сдвигает все цвета ближе к белому или черному. Контрастность масштабирует все цвета, чтобы они были ближе или дальше друг от друга.
 
 ```csharp
 public interface ILuminance : IAccessiblePVIObject<ILuminanceEffectiveData>, 
@@ -19,8 +19,8 @@ public interface ILuminance : IAccessiblePVIObject<ILuminanceEffectiveData>,
 
 | Имя | Описание |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/iluminance/asiaccessiblepviobject) { get; } | Позволяет получить базовый интерфейс IAccessiblePVIObject. Только чтение[`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/iluminance/asiimagetransformoperation) { get; } | Позволяет получить базовый интерфейс IImageTransformOperation. Только для чтения[`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/iluminance/asiaccessiblepviobject) { get; } | Позволяет получить базовый интерфейс IAccessiblePVIObject. Только для чтения[`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1) . |
+| [AsIImageTransformOperation](../../aspose.slides.effects/iluminance/asiimagetransformoperation) { get; } | Позволяет получить базовый интерфейс IImageTransformOperation. Только для чтения[`IImageTransformOperation`](../iimagetransformoperation) . |
 
 ### Смотрите также
 

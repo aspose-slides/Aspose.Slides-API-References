@@ -20,10 +20,10 @@ public interface IMathArray : IMathElement
 | --- | --- |
 | [Arguments](../../aspose.slides.mathtext/imatharray/arguments) { get; } | Набор элементов массива |
 | [AsIMathElement](../../aspose.slides.mathtext/imatharray/asimathelement) { get; } | Позволяет получить базовый интерфейс IMathElement [`IMathElement`](../imathelement) |
-| [BaseJustification](../../aspose.slides.mathtext/imatharray/basejustification) { get; set; } | Задает выравнивание массива относительно окружающего текста Текст за пределами массива может быть выровнен по низу, верху или центру массива объект. Значение по умолчанию:Center |
+| [BaseJustification](../../aspose.slides.mathtext/imatharray/basejustification) { get; set; } | Определяет выравнивание массива относительно окружающего text Текст за пределами массива может быть выровнен по нижнему, верхнему или центру объекта массива. Значение по умолчанию: Center |
 | [MaximumDistribution](../../aspose.slides.mathtext/imatharray/maximumdistribution) { get; set; } | Максимальное распределение При значении true массив размещается на максимальной ширине содержащего его элемента (страницы, столбца, ячейки и т. д.). |
-| [ObjectDistribution](../../aspose.slides.mathtext/imatharray/objectdistribution) { get; set; } | Распределение объектов При значении true содержимое массива размещается на максимальной ширине объекта массива. |
-| [RowSpacing](../../aspose.slides.mathtext/imatharray/rowspacing) { get; set; } | Расстояние между строками массива Используется только когда RowSpacingRule установлен в 3 Именно в этом случае единицей измерения являются точки или Multiple, в этом случае единицей измерения является половина строки. По умолчанию:0 |
+| [ObjectDistribution](../../aspose.slides.mathtext/imatharray/objectdistribution) { get; set; } | Object Distribution При значении true содержимое массива размещается на максимальной ширине объекта массива. |
+| [RowSpacing](../../aspose.slides.mathtext/imatharray/rowspacing) { get; set; } | Интервал между строками массива Используется только тогда, когда RowSpacingRule имеет значение 3. Именно в этом случае единицей измерения являются точки или Несколько, и в этом случае единицей измерения являются полулинии. По умолчанию: 0 |
 | [RowSpacingRule](../../aspose.slides.mathtext/imatharray/rowspacingrule) { get; set; } | Тип интервала между элементами массива по вертикали |
 
 ### Примеры

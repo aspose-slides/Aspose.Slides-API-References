@@ -1,14 +1,14 @@
 ---
 title: IMathRadicalFactory
 second_title: Aspose.Slides for .NET API 参考
-description: 允许创建数学根号
+description: 允许创建数学部首
 type: docs
 weight: 7720
 url: /zh/net/aspose.slides.mathtext/imathradicalfactory/
 ---
 ## IMathRadicalFactory interface
 
-允许创建数学根号
+允许创建数学部首
 
 ```csharp
 public interface IMathRadicalFactory
@@ -22,7 +22,7 @@ public interface IMathRadicalFactory
 
 ### 评论
 
-对于 COM 比较
+用于 COM 可比性
 
 ### 也可以看看
 

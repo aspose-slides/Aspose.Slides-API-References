@@ -8,7 +8,7 @@ url: /ru/net/aspose.slides.animation/behaviorproperty/strokedashstyle/
 ---
 ## BehaviorProperty.StrokeDashStyle property
 
-Представляет свойство 'stroke.dashstyle'
+Представляет свойство «stroke.dashstyle»
 
 ```csharp
 public static BehaviorProperty StrokeDashStyle { get; }

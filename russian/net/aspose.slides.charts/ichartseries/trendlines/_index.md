@@ -1,14 +1,14 @@
 ---
 title: TrendLines
 second_title: Справочник по API Aspose.Slides для .NET
-description: Коллекция линий тренда серии Только для чтенияITrendlineCollectionaspose.slides.charts/itrendlinecollection.
+description: Коллекция линий тренда ряда Только для чтенияITrendlineCollectionaspose.slides.charts/itrendlinecollection .
 type: docs
 weight: 430
 url: /ru/net/aspose.slides.charts/ichartseries/trendlines/
 ---
 ## IChartSeries.TrendLines property
 
-Коллекция линий тренда серии Только для чтения[`ITrendlineCollection`](../../itrendlinecollection).
+Коллекция линий тренда ряда Только для чтения[`ITrendlineCollection`](../../itrendlinecollection) .
 
 ```csharp
 public ITrendlineCollection TrendLines { get; }

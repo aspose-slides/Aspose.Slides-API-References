@@ -18,8 +18,8 @@ public interface IBaseChartValue
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Data](../../aspose.slides.charts/ibasechartvalue/data) { get; set; } | 读/写Object。 |
-| [DataSourceType](../../aspose.slides.charts/ibasechartvalue/datasourcetype) { get; set; } | 指定 AsCell 或 AsLiteralString 或 AsLiteralDouble 属性 是实际的。换句话说，它指定了 Data 属性的值的类型。 此属性是只读的。要更改此属性的值，您可以使用 ChartDataPointCollection.DataSourceTypeFor&lt;...&gt; 之一特性。 读/写[`DataSourceType`](./datasourcetype)。 |
+| [Data](../../aspose.slides.charts/ibasechartvalue/data) { get; set; } | 读/写Object. |
+| [DataSourceType](../../aspose.slides.charts/ibasechartvalue/datasourcetype) { get; set; } | 指定 AsCell 或 AsLiteralString 或 AsLiteralDouble 属性 是否是实际的。换句话说，它指定了 Data 属性的值类型。 此属性是只读的。要更改此属性的值，您可以使用 ChartDataPointCollection.DataSourceTypeFor&lt;...&gt; 属性之一。 读/写[`DataSourceType`](./datasourcetype). |
 
 ### 也可以看看
 

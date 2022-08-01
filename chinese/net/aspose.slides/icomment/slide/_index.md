@@ -1,14 +1,14 @@
 ---
 title: Slide
 second_title: Aspose.Slides for .NET API 参考
-description: 返回或设置评论的父幻灯片 只读ISlideaspose.slides/islide
+description: 返回或设置评论的父幻灯片 只读ISlideaspose.slides/islide.
 type: docs
 weight: 50
 url: /zh/net/aspose.slides/icomment/slide/
 ---
 ## IComment.Slide property
 
-返回或设置评论的父幻灯片。 只读[`ISlide`](../../islide)。
+返回或设置评论的父幻灯片。 只读[`ISlide`](../../islide).
 
 ```csharp
 public ISlide Slide { get; }

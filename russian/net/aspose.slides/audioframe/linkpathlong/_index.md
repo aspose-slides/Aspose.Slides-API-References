@@ -1,14 +1,14 @@
 ---
 title: LinkPathLong
 second_title: Справочник по API Aspose.Slides для .NET
-description: Возвращает или задает имя аудиофайла связанного с AudioFrame. Чтение/записьString.
+description: Возвращает или задает имя аудиофайла связанного с AudioFrame. Чтение/записьString .
 type: docs
 weight: 80
 url: /ru/net/aspose.slides/audioframe/linkpathlong/
 ---
 ## AudioFrame.LinkPathLong property
 
-Возвращает или задает имя аудиофайла, связанного с AudioFrame. Чтение/записьString.
+Возвращает или задает имя аудиофайла, связанного с AudioFrame. Чтение/записьString .
 
 ```csharp
 public string LinkPathLong { get; set; }

@@ -18,13 +18,13 @@ public class DataTable : DomObject<Chart>, IDataTable
 
 | Имя | Описание |
 | --- | --- |
-| [Chart](../../aspose.slides.charts/datatable/chart) { get; } | Возвращает диаграмму. Только для чтения[`IChart`](../ichart). |
-| [Format](../../aspose.slides.charts/datatable/format) { get; } | Возвращает стили линии, заливки и эффекта объекта. Только для чтения[`IFormat`](../iformat). |
-| [HasBorderHorizontal](../../aspose.slides.charts/datatable/hasborderhorizontal) { get; set; } | Истинно, если таблица данных диаграммы имеет горизонтальные границы ячеек. Чтение/записьBoolean. |
-| [HasBorderOutline](../../aspose.slides.charts/datatable/hasborderoutline) { get; set; } | Истинно, если таблица данных диаграммы имеет контурные границы. Чтение/записьBoolean. |
-| [HasBorderVertical](../../aspose.slides.charts/datatable/hasbordervertical) { get; set; } | Истинно, если таблица данных диаграммы имеет вертикальные границы ячеек. Чтение/записьBoolean. |
-| [ShowLegendKey](../../aspose.slides.charts/datatable/showlegendkey) { get; set; } | Истинно, если ключ легенды метки данных виден. Чтение/записьBoolean. |
-| [TextFormat](../../aspose.slides.charts/datatable/textformat) { get; } | Возвращает текстовый формат. Только чтение[`IChartTextFormat`](../icharttextformat). |
+| [Chart](../../aspose.slides.charts/datatable/chart) { get; } | Возвращает диаграмму. Только для чтения[`IChart`](../ichart) . |
+| [Format](../../aspose.slides.charts/datatable/format) { get; } | Возвращает стили линии, заливки и эффекта объекта. Только для чтения[`IFormat`](../iformat) . |
+| [HasBorderHorizontal](../../aspose.slides.charts/datatable/hasborderhorizontal) { get; set; } | Истинно, если таблица данных диаграммы имеет горизонтальные границы ячеек. Чтение/записьBoolean . |
+| [HasBorderOutline](../../aspose.slides.charts/datatable/hasborderoutline) { get; set; } | Истинно, если таблица данных диаграммы имеет контурные границы. Чтение/записьBoolean . |
+| [HasBorderVertical](../../aspose.slides.charts/datatable/hasbordervertical) { get; set; } | Истинно, если таблица данных диаграммы имеет вертикальные границы ячеек. Чтение/записьBoolean . |
+| [ShowLegendKey](../../aspose.slides.charts/datatable/showlegendkey) { get; set; } | Истинно, если виден ключ легенды метки данных. Чтение/записьBoolean . |
+| [TextFormat](../../aspose.slides.charts/datatable/textformat) { get; } | Возвращает текстовый формат. Только для чтения[`IChartTextFormat`](../icharttextformat) . |
 
 ### Смотрите также
 

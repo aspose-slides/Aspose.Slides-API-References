@@ -17,7 +17,7 @@ public ILuminance AddLuminanceEffect(float brightness, float contrast)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | brightness | Single | 改变亮度的百分比。 |
-| contrast | Single | 改变对比度的百分比。 |
+| contrast | Single | 更改对比度的百分比。 |
 
 ### 返回值
 

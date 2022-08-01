@@ -18,8 +18,8 @@ public interface ISequenceCollection : IEnumerable<ISequence>
 
 | Имя | Описание |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.animation/isequencecollection/asienumerable) { get; } | Возвращает интерфейс IEnumerable. Только для чтенияIEnumerable. |
-| [Count](../../aspose.slides.animation/isequencecollection/count) { get; } | Возвращает количество элементов в коллекции Только для чтенияInt32. |
+| [AsIEnumerable](../../aspose.slides.animation/isequencecollection/asienumerable) { get; } | Возвращает интерфейс IEnumerable. Только для чтенияIEnumerable . |
+| [Count](../../aspose.slides.animation/isequencecollection/count) { get; } | Возвращает количество элементов в коллекции Только для чтенияInt32 . |
 | [Item](../../aspose.slides.animation/isequencecollection/item) { get; } | Возвращает последовательность по указанному индексу. |
 
 ## Методы

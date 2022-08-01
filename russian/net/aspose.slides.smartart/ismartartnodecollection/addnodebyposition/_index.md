@@ -16,7 +16,7 @@ public ISmartArtNode AddNodeByPosition(int position)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| position | Int32 | Позиция узла с нулевой базой. |
+| position | Int32 | Положение узла с нулевой базой. |
 
 ### Возвращаемое значение
 

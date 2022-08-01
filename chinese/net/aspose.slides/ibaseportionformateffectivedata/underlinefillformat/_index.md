@@ -1,14 +1,14 @@
 ---
 title: UnderlineFillFormat
 second_title: Aspose.Slides for .NET API 参考
-description: 返回下划线行的 FillFormat 属性 只读IFillFormatEffectiveDataaspose.slides/ifillformateffectivedata
+description: 返回下划线行 FillFormat 属性 只读IFillFormatEffectiveDataaspose.slides/ifillformateffectivedata.
 type: docs
 weight: 260
 url: /zh/net/aspose.slides/ibaseportionformateffectivedata/underlinefillformat/
 ---
 ## IBasePortionFormatEffectiveData.UnderlineFillFormat property
 
-返回下划线行的 FillFormat 属性。 只读[`IFillFormatEffectiveData`](../../ifillformateffectivedata)。
+返回下划线行 FillFormat 属性。 只读[`IFillFormatEffectiveData`](../../ifillformateffectivedata).
 
 ```csharp
 public IFillFormatEffectiveData UnderlineFillFormat { get; }

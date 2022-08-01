@@ -1,14 +1,14 @@
 ---
 title: CameraType
 second_title: Aspose.Slides for .NET API 参考
-description: 相机类型 只读CameraPresetTypeaspose.slides/camerapresettype
+description: 相机类型 只读CameraPresetTypeaspose.slides/camerapresettype.
 type: docs
 weight: 10
 url: /zh/net/aspose.slides/icameraeffectivedata/cameratype/
 ---
 ## ICameraEffectiveData.CameraType property
 
-相机类型。 只读[`CameraPresetType`](../../camerapresettype)。
+相机类型。 只读[`CameraPresetType`](../../camerapresettype).
 
 ```csharp
 public CameraPresetType CameraType { get; }

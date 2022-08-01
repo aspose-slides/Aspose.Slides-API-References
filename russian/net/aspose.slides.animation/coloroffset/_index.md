@@ -1,14 +1,14 @@
 ---
 title: ColorOffset
 second_title: Справочник по API Aspose.Slides для .NET
-description: Представляют смещение цвета.
+description: Представляет смещение цвета.
 type: docs
 weight: 140
 url: /ru/net/aspose.slides.animation/coloroffset/
 ---
 ## ColorOffset class
 
-Представляют смещение цвета.
+Представляет смещение цвета.
 
 ```csharp
 public class ColorOffset : IColorOffset
@@ -24,9 +24,9 @@ public class ColorOffset : IColorOffset
 
 | Имя | Описание |
 | --- | --- |
-| [Value0](../../aspose.slides.animation/coloroffset/value0) { get; set; } | Определяет первое значение смещения. Чтение/записьSingle. |
-| [Value1](../../aspose.slides.animation/coloroffset/value1) { get; set; } | Определяет второе значение смещения. Чтение/записьSingle. |
-| [Value2](../../aspose.slides.animation/coloroffset/value2) { get; set; } | Определяет третье значение смещения. Чтение/записьSingle. |
+| [Value0](../../aspose.slides.animation/coloroffset/value0) { get; set; } | Определяет первое значение смещения. Чтение/записьSingle . |
+| [Value1](../../aspose.slides.animation/coloroffset/value1) { get; set; } | Определяет второе значение смещения. Чтение/записьSingle . |
+| [Value2](../../aspose.slides.animation/coloroffset/value2) { get; set; } | Определяет третье значение смещения. Чтение/записьSingle . |
 
 ### Смотрите также
 

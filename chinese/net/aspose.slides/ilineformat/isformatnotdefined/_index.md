@@ -1,14 +1,14 @@
 ---
 title: IsFormatNotDefined
 second_title: Aspose.Slides for .NET API 参考
-description: 如果未定义行格式如刚刚创建默认则返回 true 只读Boolean
+description: 如果未定义行格式如刚刚创建默认则返回 true 只读Boolean.
 type: docs
 weight: 130
 url: /zh/net/aspose.slides/ilineformat/isformatnotdefined/
 ---
 ## ILineFormat.IsFormatNotDefined property
 
-如果未定义行格式（如刚刚创建，默认），则返回 true。 只读Boolean。
+如果未定义行格式（如刚刚创建，默认），则返回 true。 只读Boolean.
 
 ```csharp
 public bool IsFormatNotDefined { get; }

@@ -18,8 +18,8 @@ public class BehaviorCollection : IBehaviorCollection
 
 | Имя | Описание |
 | --- | --- |
-| [Count](../../aspose.slides.animation/behaviorcollection/count) { get; } | Возвращает количество вариантов поведения в коллекции. Только для чтенияInt32. |
-| [IsReadOnly](../../aspose.slides.animation/behaviorcollection/isreadonly) { get; } | Получает значение, указывающее, является ли коллекцияICollectionдоступной только для чтения. Только чтениеBoolean. |
+| [Count](../../aspose.slides.animation/behaviorcollection/count) { get; } | Возвращает количество поведений в коллекции. Только для чтенияInt32 . |
+| [IsReadOnly](../../aspose.slides.animation/behaviorcollection/isreadonly) { get; } | Получает значение, указывающее,ICollection доступен только для чтения. Только для чтенияBoolean . |
 | [Item](../../aspose.slides.animation/behaviorcollection/item) { get; set; } | Восстанавливает поведение по указанному индексу. |
 
 ## Методы
@@ -28,10 +28,10 @@ public class BehaviorCollection : IBehaviorCollection
 | --- | --- |
 | [Add](../../aspose.slides.animation/behaviorcollection/add)(IBehavior) | Добавить новое поведение в коллекцию. |
 | [Clear](../../aspose.slides.animation/behaviorcollection/clear)() | Удаляет все варианты поведения из коллекции. |
-| [Contains](../../aspose.slides.animation/behaviorcollection/contains)(IBehavior) | Определяет, содержит лиICollectionопределенное значение. |
-| [CopyTo](../../aspose.slides.animation/behaviorcollection/copyto)(IBehavior[], int) | Копирует элементыICollectionвArray, начиная с определенногоArrayindex. |
-| [GetEnumerator](../../aspose.slides.animation/behaviorcollection/getenumerator)() | Возвращает перечислитель, который перебирает коллекцию. |
-| [IndexOf](../../aspose.slides.animation/behaviorcollection/indexof)(IBehavior) | Определяет индекс конкретного элемента вIList. |
+| [Contains](../../aspose.slides.animation/behaviorcollection/contains)(IBehavior) | Определяет,ICollection содержит определенное значение. |
+| [CopyTo](../../aspose.slides.animation/behaviorcollection/copyto)(IBehavior[], int) | Копирует элементыICollection чтобыArray , начиная с определенногоArray индекс. |
+| [GetEnumerator](../../aspose.slides.animation/behaviorcollection/getenumerator)() | Возвращает перечислитель, который выполняет итерацию по коллекции. |
+| [IndexOf](../../aspose.slides.animation/behaviorcollection/indexof)(IBehavior) | Определяет индекс конкретного элемента вIList . |
 | [Insert](../../aspose.slides.animation/behaviorcollection/insert)(int, IBehavior) | Вставляет новое поведение в коллекцию по указанному индексу. |
 | [Remove](../../aspose.slides.animation/behaviorcollection/remove)(IBehavior) | Удаляет указанное поведение из коллекции. |
 | [RemoveAt](../../aspose.slides.animation/behaviorcollection/removeat)(int) | Удаляет поведение из коллекции по указанному индексу. |

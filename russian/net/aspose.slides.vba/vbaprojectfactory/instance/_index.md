@@ -1,14 +1,14 @@
 ---
 title: Instance
 second_title: Справочник по API Aspose.Slides для .NET
-description: Статический экземпляр фабрики проектов VBA. Только для чтенияVbaProjectFactoryaspose.slides.vba/vbaprojectfactory.
+description: Статический экземпляр фабрики проектов VBA. Только для чтенияVbaProjectFactoryaspose.slides.vba/vbaprojectfactory .
 type: docs
 weight: 20
 url: /ru/net/aspose.slides.vba/vbaprojectfactory/instance/
 ---
 ## VbaProjectFactory.Instance property
 
-Статический экземпляр фабрики проектов VBA. Только для чтения[`VbaProjectFactory`](../../vbaprojectfactory).
+Статический экземпляр фабрики проектов VBA. Только для чтения[`VbaProjectFactory`](../../vbaprojectfactory) .
 
 ```csharp
 public static VbaProjectFactory Instance { get; }
