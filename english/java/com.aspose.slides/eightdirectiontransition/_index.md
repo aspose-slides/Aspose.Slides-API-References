@@ -1,0 +1,66 @@
+---
+title: EightDirectionTransition
+second_title: Aspose.Sildes for Java API Reference
+description: p
+ Eight direction slide transition effect.
+type: docs
+weight: 174
+url: /java/com.aspose.slides/eightdirectiontransition/
+---
+**Inheritance:**
+java.lang.Object, [com.aspose.slides.TransitionValueBase](../../com.aspose.slides/transitionvaluebase)
+
+**All Implemented Interfaces:**
+[com.aspose.slides.IEightDirectionTransition](../../com.aspose.slides/ieightdirectiontransition)
+```
+public class EightDirectionTransition extends TransitionValueBase implements IEightDirectionTransition
+```
+
+Eight direction slide transition effect.
+## Constructors
+
+| Constructor | Description |
+| --- | --- |
+| [EightDirectionTransition(int type)](#EightDirectionTransition-int-) | Constructor for eight direction slide transition effects. |
+## Methods
+
+| Method | Description |
+| --- | --- |
+| [getDirection()](#getDirection--) | Direction of transition. |
+| [setDirection(int value)](#setDirection-int-) | Direction of transition. |
+### EightDirectionTransition(int type) {#EightDirectionTransition-int-}
+```
+ EightDirectionTransition(int type)
+```
+
+
+Constructor for eight direction slide transition effects.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| type | int | Type of a transition effect. |
+
+### getDirection() {#getDirection--}
+```
+public final int getDirection()
+```
+
+
+Direction of transition. Read/write [TransitionEightDirectionType](../../com.aspose.slides/transitioneightdirectiontype).
+
+**Returns:**
+int
+### setDirection(int value) {#setDirection-int-}
+```
+public final void setDirection(int value)
+```
+
+
+Direction of transition. Read/write [TransitionEightDirectionType](../../com.aspose.slides/transitioneightdirectiontype).
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+

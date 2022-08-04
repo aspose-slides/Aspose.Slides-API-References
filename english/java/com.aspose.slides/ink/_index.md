@@ -1,0 +1,35 @@
+---
+title: Ink
+second_title: Aspose.Sildes for Java API Reference
+description: p
+ Represents an ink object on a slide.
+type: docs
+weight: 253
+url: /java/com.aspose.slides/ink/
+---
+**Inheritance:**
+java.lang.Object, [com.aspose.slides.Shape](../../com.aspose.slides/shape), [com.aspose.slides.GraphicalObject](../../com.aspose.slides/graphicalobject)
+
+**All Implemented Interfaces:**
+[com.aspose.slides.IInk](../../com.aspose.slides/iink)
+```
+public class Ink extends GraphicalObject implements IInk
+```
+
+Represents an ink object on a slide.
+## Constructors
+
+| Constructor | Description |
+| --- | --- |
+| [Ink(ShapeCollection parentImmediate)](#Ink-com.aspose.slides.ShapeCollection-) |  |
+### Ink(ShapeCollection parentImmediate) {#Ink-com.aspose.slides.ShapeCollection-}
+```
+ Ink(ShapeCollection parentImmediate)
+```
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| parentImmediate | [ShapeCollection](../../com.aspose.slides/shapecollection) |  |
+

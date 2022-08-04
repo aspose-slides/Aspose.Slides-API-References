@@ -1,0 +1,35 @@
+---
+title: NotesSlideHeaderFooterManager
+second_title: Aspose.Sildes for Java API Reference
+description: p
+ Represents manager which holds behavior of the notes slide placeholders including header placeholder.
+type: docs
+weight: 376
+url: /java/com.aspose.slides/notesslideheaderfootermanager/
+---
+**Inheritance:**
+java.lang.Object, [com.aspose.slides.BaseHeaderFooterManager](../../com.aspose.slides/baseheaderfootermanager), [com.aspose.slides.BaseSlideHeaderFooterManager](../../com.aspose.slides/baseslideheaderfootermanager), [com.aspose.slides.BaseHandoutNotesSlideHeaderFooterManager](../../com.aspose.slides/basehandoutnotesslideheaderfootermanager)
+
+**All Implemented Interfaces:**
+[com.aspose.slides.INotesSlideHeaderFooterManager](../../com.aspose.slides/inotesslideheaderfootermanager)
+```
+public final class NotesSlideHeaderFooterManager extends BaseHandoutNotesSlideHeaderFooterManager implements INotesSlideHeaderFooterManager
+```
+
+Represents manager which holds behavior of the notes slide placeholders, including header placeholder.
+## Constructors
+
+| Constructor | Description |
+| --- | --- |
+| [NotesSlideHeaderFooterManager(NotesSlide notesSlide)](#NotesSlideHeaderFooterManager-com.aspose.slides.NotesSlide-) |  |
+### NotesSlideHeaderFooterManager(NotesSlide notesSlide) {#NotesSlideHeaderFooterManager-com.aspose.slides.NotesSlide-}
+```
+ NotesSlideHeaderFooterManager(NotesSlide notesSlide)
+```
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| notesSlide | [NotesSlide](../../com.aspose.slides/notesslide) |  |
+

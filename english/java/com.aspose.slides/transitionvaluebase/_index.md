@@ -1,0 +1,71 @@
+---
+title: TransitionValueBase
+second_title: Aspose.Sildes for Java API Reference
+description: p
+ Base class for slide transition effects.
+type: docs
+weight: 590
+url: /java/com.aspose.slides/transitionvaluebase/
+---
+**Inheritance:**
+java.lang.Object
+
+**All Implemented Interfaces:**
+[com.aspose.slides.ITransitionValueBase](../../com.aspose.slides/itransitionvaluebase)
+```
+public class TransitionValueBase implements ITransitionValueBase
+```
+
+Base class for slide transition effects.
+## Constructors
+
+| Constructor | Description |
+| --- | --- |
+| [TransitionValueBase(int type)](#TransitionValueBase-int-) | Slide transition effect constructor. |
+## Methods
+
+| Method | Description |
+| --- | --- |
+| [equals(Object obj)](#equals-java.lang.Object-) | Determines whether the two TransitionValueBase instances are equal. |
+| [hashCode()](#hashCode--) | Serves as a hash function for a particular type, suitable for use in hashing algorithms and data structures like a hash table. |
+### TransitionValueBase(int type) {#TransitionValueBase-int-}
+```
+ TransitionValueBase(int type)
+```
+
+
+Slide transition effect constructor.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| type | int | Type of a transition effect. |
+
+### equals(Object obj) {#equals-java.lang.Object-}
+```
+public boolean equals(Object obj)
+```
+
+
+Determines whether the two TransitionValueBase instances are equal.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| obj | java.lang.Object | The TransitionValueBase to compare with the current TransitionValueBase. |
+
+**Returns:**
+boolean - <b>true</b> if the specified TransitionValueBase is equal to the current TransitionValueBase; otherwise, <b>false</b>.
+### hashCode() {#hashCode--}
+```
+public int hashCode()
+```
+
+
+Serves as a hash function for a particular type, suitable for use in hashing algorithms and data structures like a hash table.
+
+**Returns:**
+int - 23454
+ <p><hr>
+ Overriden to make compiler happy. Always returns constant because object is mutable.
+ </hr></p>

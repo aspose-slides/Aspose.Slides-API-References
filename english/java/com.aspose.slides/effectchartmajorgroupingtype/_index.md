@@ -1,0 +1,49 @@
+---
+title: EffectChartMajorGroupingType
+second_title: Aspose.Sildes for Java API Reference
+description: p
+ Represents the type of an animation effect for charts element.
+type: docs
+weight: 162
+url: /java/com.aspose.slides/effectchartmajorgroupingtype/
+---
+**Inheritance:**
+java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
+```
+public final class EffectChartMajorGroupingType extends System.Enum
+```
+
+Represents the type of an animation effect for chart's element.
+## Constructors
+
+| Constructor | Description |
+| --- | --- |
+| [EffectChartMajorGroupingType()](#EffectChartMajorGroupingType--) |  |
+## Fields
+
+| Field | Description |
+| --- | --- |
+| [BySeries](#BySeries) | Animate chart by series |
+| [ByCategory](#ByCategory) | Animate chart by category |
+### EffectChartMajorGroupingType() {#EffectChartMajorGroupingType--}
+```
+private EffectChartMajorGroupingType()
+```
+
+
+### BySeries {#BySeries}
+```
+public static final int BySeries
+```
+
+
+Animate chart by series
+
+### ByCategory {#ByCategory}
+```
+public static final int ByCategory
+```
+
+
+Animate chart by category
+

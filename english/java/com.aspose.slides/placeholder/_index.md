@@ -1,0 +1,94 @@
+---
+title: Placeholder
+second_title: Aspose.Sildes for Java API Reference
+description: p
+ Represents a placeholder on a slide.
+type: docs
+weight: 421
+url: /java/com.aspose.slides/placeholder/
+---
+**Inheritance:**
+java.lang.Object
+
+**All Implemented Interfaces:**
+[com.aspose.slides.IPlaceholder](../../com.aspose.slides/iplaceholder)
+```
+public class Placeholder implements IPlaceholder
+```
+
+Represents a placeholder on a slide.
+## Constructors
+
+| Constructor | Description |
+| --- | --- |
+| [Placeholder(byte orientation, byte size, byte type, long index, boolean hasCustomPrompt)](#Placeholder-byte-byte-byte-long-boolean-) |  |
+| [Placeholder()](#Placeholder--) |  |
+## Methods
+
+| Method | Description |
+| --- | --- |
+| [getOrientation()](#getOrientation--) | Gets or sets the orientation of a placeholder. |
+| [getSize()](#getSize--) | Gets or sets the size of a placeholder. |
+| [getType()](#getType--) | Gets or sets the type of a placeholder. |
+| [getIndex()](#getIndex--) | Gets or sets the index of a placeholder. |
+### Placeholder(byte orientation, byte size, byte type, long index, boolean hasCustomPrompt) {#Placeholder-byte-byte-byte-long-boolean-}
+```
+ Placeholder(byte orientation, byte size, byte type, long index, boolean hasCustomPrompt)
+```
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| orientation | byte |  |
+| size | byte |  |
+| type | byte |  |
+| index | long |  |
+| hasCustomPrompt | boolean |  |
+
+### Placeholder() {#Placeholder--}
+```
+ Placeholder()
+```
+
+
+### getOrientation() {#getOrientation--}
+```
+public byte getOrientation()
+```
+
+
+Gets or sets the orientation of a placeholder. Read-only [Orientation](../../com.aspose.slides/orientation).
+
+**Returns:**
+byte
+### getSize() {#getSize--}
+```
+public byte getSize()
+```
+
+
+Gets or sets the size of a placeholder. Read-only [PlaceholderSize](../../com.aspose.slides/placeholdersize).
+
+**Returns:**
+byte
+### getType() {#getType--}
+```
+public byte getType()
+```
+
+
+Gets or sets the type of a placeholder. Read-only [PlaceholderType](../../com.aspose.slides/placeholdertype).
+
+**Returns:**
+byte
+### getIndex() {#getIndex--}
+```
+public long getIndex()
+```
+
+
+Gets or sets the index of a placeholder. Read-only long.
+
+**Returns:**
+long

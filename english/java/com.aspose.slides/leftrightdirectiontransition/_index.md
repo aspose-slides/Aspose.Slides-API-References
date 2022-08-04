@@ -1,0 +1,66 @@
+---
+title: LeftRightDirectionTransition
+second_title: Aspose.Sildes for Java API Reference
+description: p
+ Left-right direction slide transition effect.
+type: docs
+weight: 264
+url: /java/com.aspose.slides/leftrightdirectiontransition/
+---
+**Inheritance:**
+java.lang.Object, [com.aspose.slides.TransitionValueBase](../../com.aspose.slides/transitionvaluebase)
+
+**All Implemented Interfaces:**
+[com.aspose.slides.ILeftRightDirectionTransition](../../com.aspose.slides/ileftrightdirectiontransition)
+```
+public class LeftRightDirectionTransition extends TransitionValueBase implements ILeftRightDirectionTransition
+```
+
+Left-right direction slide transition effect.
+## Constructors
+
+| Constructor | Description |
+| --- | --- |
+| [LeftRightDirectionTransition(int type)](#LeftRightDirectionTransition-int-) | Constructor for left-right direction slide transition effect. |
+## Methods
+
+| Method | Description |
+| --- | --- |
+| [getDirection()](#getDirection--) | Direction of transition. |
+| [setDirection(int value)](#setDirection-int-) | Direction of transition. |
+### LeftRightDirectionTransition(int type) {#LeftRightDirectionTransition-int-}
+```
+ LeftRightDirectionTransition(int type)
+```
+
+
+Constructor for left-right direction slide transition effect.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| type | int | Type of a transition effect. |
+
+### getDirection() {#getDirection--}
+```
+public final int getDirection()
+```
+
+
+Direction of transition. Read/write [TransitionLeftRightDirectionType](../../com.aspose.slides/transitionleftrightdirectiontype).
+
+**Returns:**
+int
+### setDirection(int value) {#setDirection-int-}
+```
+public final void setDirection(int value)
+```
+
+
+Direction of transition. Read/write [TransitionLeftRightDirectionType](../../com.aspose.slides/transitionleftrightdirectiontype).
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+

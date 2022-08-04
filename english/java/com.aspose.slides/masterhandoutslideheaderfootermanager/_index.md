@@ -1,0 +1,35 @@
+---
+title: MasterHandoutSlideHeaderFooterManager
+second_title: Aspose.Sildes for Java API Reference
+description: p
+ Represents manager which holds behavior of the master handout slide placeholders including header placeholder.
+type: docs
+weight: 295
+url: /java/com.aspose.slides/masterhandoutslideheaderfootermanager/
+---
+**Inheritance:**
+java.lang.Object, [com.aspose.slides.BaseHeaderFooterManager](../../com.aspose.slides/baseheaderfootermanager), [com.aspose.slides.BaseSlideHeaderFooterManager](../../com.aspose.slides/baseslideheaderfootermanager), [com.aspose.slides.BaseHandoutNotesSlideHeaderFooterManager](../../com.aspose.slides/basehandoutnotesslideheaderfootermanager)
+
+**All Implemented Interfaces:**
+[com.aspose.slides.IMasterHandoutSlideHeaderFooterManager](../../com.aspose.slides/imasterhandoutslideheaderfootermanager)
+```
+public class MasterHandoutSlideHeaderFooterManager extends BaseHandoutNotesSlideHeaderFooterManager implements IMasterHandoutSlideHeaderFooterManager
+```
+
+Represents manager which holds behavior of the master handout slide placeholders, including header placeholder.
+## Constructors
+
+| Constructor | Description |
+| --- | --- |
+| [MasterHandoutSlideHeaderFooterManager(MasterHandoutSlide masterHandoutSlide)](#MasterHandoutSlideHeaderFooterManager-com.aspose.slides.MasterHandoutSlide-) |  |
+### MasterHandoutSlideHeaderFooterManager(MasterHandoutSlide masterHandoutSlide) {#MasterHandoutSlideHeaderFooterManager-com.aspose.slides.MasterHandoutSlide-}
+```
+ MasterHandoutSlideHeaderFooterManager(MasterHandoutSlide masterHandoutSlide)
+```
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| masterHandoutSlide | [MasterHandoutSlide](../../com.aspose.slides/masterhandoutslide) |  |
+

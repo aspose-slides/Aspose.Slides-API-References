@@ -1,0 +1,67 @@
+---
+title: TabAlignment
+second_title: Aspose.Sildes for Java API Reference
+description: p
+ Represents the tab alignment.
+type: docs
+weight: 542
+url: /java/com.aspose.slides/tabalignment/
+---
+**Inheritance:**
+java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
+```
+public final class TabAlignment extends System.Enum
+```
+
+Represents the tab alignment.
+## Constructors
+
+| Constructor | Description |
+| --- | --- |
+| [TabAlignment()](#TabAlignment--) |  |
+## Fields
+
+| Field | Description |
+| --- | --- |
+| [Left](#Left) | Left alignment |
+| [Center](#Center) | Center alignment |
+| [Right](#Right) | Right alignment |
+| [Decimal](#Decimal) | Decimal alignment |
+### TabAlignment() {#TabAlignment--}
+```
+private TabAlignment()
+```
+
+
+### Left {#Left}
+```
+public static final int Left
+```
+
+
+Left alignment
+
+### Center {#Center}
+```
+public static final int Center
+```
+
+
+Center alignment
+
+### Right {#Right}
+```
+public static final int Right
+```
+
+
+Right alignment
+
+### Decimal {#Decimal}
+```
+public static final int Decimal
+```
+
+
+Decimal alignment
+

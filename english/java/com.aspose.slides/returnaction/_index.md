@@ -1,0 +1,49 @@
+---
+title: ReturnAction
+second_title: Aspose.Sildes for Java API Reference
+description: p
+ Represents warning callback decision options.
+type: docs
+weight: 462
+url: /java/com.aspose.slides/returnaction/
+---
+**Inheritance:**
+java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
+```
+public final class ReturnAction extends System.Enum
+```
+
+Represents warning callback decision options.
+## Constructors
+
+| Constructor | Description |
+| --- | --- |
+| [ReturnAction()](#ReturnAction--) |  |
+## Fields
+
+| Field | Description |
+| --- | --- |
+| [Continue](#Continue) | Operation should be continued. |
+| [Abort](#Abort) | Operation should be aborted. |
+### ReturnAction() {#ReturnAction--}
+```
+private ReturnAction()
+```
+
+
+### Continue {#Continue}
+```
+public static final int Continue
+```
+
+
+Operation should be continued.
+
+### Abort {#Abort}
+```
+public static final int Abort
+```
+
+
+Operation should be aborted.
+

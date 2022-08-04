@@ -1,0 +1,66 @@
+---
+title: MorphTransition
+second_title: Aspose.Sildes for Java API Reference
+description: p
+ Ripple slide transition effect.
+type: docs
+weight: 362
+url: /java/com.aspose.slides/morphtransition/
+---
+**Inheritance:**
+java.lang.Object, [com.aspose.slides.TransitionValueBase](../../com.aspose.slides/transitionvaluebase)
+
+**All Implemented Interfaces:**
+[com.aspose.slides.IMorphTransition](../../com.aspose.slides/imorphtransition)
+```
+public class MorphTransition extends TransitionValueBase implements IMorphTransition
+```
+
+Ripple slide transition effect.
+## Constructors
+
+| Constructor | Description |
+| --- | --- |
+| [MorphTransition(int type)](#MorphTransition-int-) | Constructor for ripple slide transition effect. |
+## Methods
+
+| Method | Description |
+| --- | --- |
+| [getMorphType()](#getMorphType--) | Type of morph transition. |
+| [setMorphType(int value)](#setMorphType-int-) | Type of morph transition. |
+### MorphTransition(int type) {#MorphTransition-int-}
+```
+ MorphTransition(int type)
+```
+
+
+Constructor for ripple slide transition effect.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| type | int | Type of a transition effect. |
+
+### getMorphType() {#getMorphType--}
+```
+public final int getMorphType()
+```
+
+
+Type of morph transition. Read/write [TransitionMorphType](../../com.aspose.slides/transitionmorphtype).
+
+**Returns:**
+int
+### setMorphType(int value) {#setMorphType-int-}
+```
+public final void setMorphType(int value)
+```
+
+
+Type of morph transition. Read/write [TransitionMorphType](../../com.aspose.slides/transitionmorphtype).
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+

@@ -1,0 +1,58 @@
+---
+title: MathLimitLocations
+second_title: Aspose.Sildes for Java API Reference
+description: p
+ Location of limits subscript/superscript in n-ary operators.
+type: docs
+weight: 336
+url: /java/com.aspose.slides/mathlimitlocations/
+---
+**Inheritance:**
+java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
+```
+public final class MathLimitLocations extends System.Enum
+```
+
+Location of limits (subscript/superscript) in n-ary operators.
+## Constructors
+
+| Constructor | Description |
+| --- | --- |
+| [MathLimitLocations()](#MathLimitLocations--) |  |
+## Fields
+
+| Field | Description |
+| --- | --- |
+| [NotDefined](#NotDefined) | Not defined |
+| [UnderOver](#UnderOver) | Limits draw at top and bottom of the operator symbol |
+| [SubscriptSuperscript](#SubscriptSuperscript) | Limits draw as subscript and superscript |
+### MathLimitLocations() {#MathLimitLocations--}
+```
+private MathLimitLocations()
+```
+
+
+### NotDefined {#NotDefined}
+```
+public static final int NotDefined
+```
+
+
+Not defined
+
+### UnderOver {#UnderOver}
+```
+public static final int UnderOver
+```
+
+
+Limits draw at top and bottom of the operator symbol
+
+### SubscriptSuperscript {#SubscriptSuperscript}
+```
+public static final int SubscriptSuperscript
+```
+
+
+Limits draw as subscript and superscript
+

@@ -1,0 +1,49 @@
+---
+title: FontSubstCondition
+second_title: Aspose.Sildes for Java API Reference
+description: p
+ Represents a rule fot font substitution
+type: docs
+weight: 207
+url: /java/com.aspose.slides/fontsubstcondition/
+---
+**Inheritance:**
+java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
+```
+public final class FontSubstCondition extends System.Enum
+```
+
+Represents a rule fot font substitution
+## Constructors
+
+| Constructor | Description |
+| --- | --- |
+| [FontSubstCondition()](#FontSubstCondition--) |  |
+## Fields
+
+| Field | Description |
+| --- | --- |
+| [WhenInaccessible](#WhenInaccessible) | Substitute when font is not found |
+| [Always](#Always) | Substitute always |
+### FontSubstCondition() {#FontSubstCondition--}
+```
+private FontSubstCondition()
+```
+
+
+### WhenInaccessible {#WhenInaccessible}
+```
+public static final int WhenInaccessible
+```
+
+
+Substitute when font is not found
+
+### Always {#Always}
+```
+public static final int Always
+```
+
+
+Substitute always
+

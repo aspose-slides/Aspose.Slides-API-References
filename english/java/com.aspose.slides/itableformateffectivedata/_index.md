@@ -1,0 +1,20 @@
+---
+title: ITableFormatEffectiveData
+second_title: Aspose.Sildes for Java API Reference
+description: p
+ Immutable object which contains effective table formatting properties.
+type: docs
+weight: 1059
+url: /java/com.aspose.slides/itableformateffectivedata/
+---
+**All Implemented Interfaces:**
+[com.aspose.slides.IBaseTableFormatEffectiveData](../../com.aspose.slides/ibasetableformateffectivedata)
+```
+public interface ITableFormatEffectiveData extends IBaseTableFormatEffectiveData
+```
+
+Immutable object which contains effective table formatting properties.
+
+--------------------
+
+This interface is used together with the [ITableFormat](../../com.aspose.slides/itableformat) interface to return effective formatting values with inheritance and table styles applied.

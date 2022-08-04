@@ -1,0 +1,58 @@
+---
+title: MathTopBotPositions
+second_title: Aspose.Sildes for Java API Reference
+description: p
+ Top/bottom positions enumeration
+type: docs
+weight: 355
+url: /java/com.aspose.slides/mathtopbotpositions/
+---
+**Inheritance:**
+java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
+```
+public final class MathTopBotPositions extends System.Enum
+```
+
+Top/bottom positions enumeration
+## Constructors
+
+| Constructor | Description |
+| --- | --- |
+| [MathTopBotPositions()](#MathTopBotPositions--) |  |
+## Fields
+
+| Field | Description |
+| --- | --- |
+| [NotDefined](#NotDefined) | Not defined |
+| [Top](#Top) | Top |
+| [Bottom](#Bottom) | Bottom |
+### MathTopBotPositions() {#MathTopBotPositions--}
+```
+private MathTopBotPositions()
+```
+
+
+### NotDefined {#NotDefined}
+```
+public static final int NotDefined
+```
+
+
+Not defined
+
+### Top {#Top}
+```
+public static final int Top
+```
+
+
+Top
+
+### Bottom {#Bottom}
+```
+public static final int Bottom
+```
+
+
+Bottom
+

@@ -1,0 +1,67 @@
+---
+title: FilterEffectRevealType
+second_title: Aspose.Sildes for Java API Reference
+description: p
+ Represents filter reveal type.
+type: docs
+weight: 195
+url: /java/com.aspose.slides/filtereffectrevealtype/
+---
+**Inheritance:**
+java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
+```
+public final class FilterEffectRevealType extends System.Enum
+```
+
+Represents filter reveal type.
+## Constructors
+
+| Constructor | Description |
+| --- | --- |
+| [FilterEffectRevealType()](#FilterEffectRevealType--) |  |
+## Fields
+
+| Field | Description |
+| --- | --- |
+| [NotDefined](#NotDefined) |  |
+| [None](#None) |  |
+| [In](#In) |  |
+| [Out](#Out) |  |
+### FilterEffectRevealType() {#FilterEffectRevealType--}
+```
+private FilterEffectRevealType()
+```
+
+
+### NotDefined {#NotDefined}
+```
+public static final int NotDefined
+```
+
+
+
+
+### None {#None}
+```
+public static final int None
+```
+
+
+
+
+### In {#In}
+```
+public static final int In
+```
+
+
+
+
+### Out {#Out}
+```
+public static final int Out
+```
+
+
+
+

@@ -1,0 +1,31 @@
+---
+title: IFormattedTextContainer
+second_title: Aspose.Sildes for Java API Reference
+description: p
+ Represents chart text format.
+type: docs
+weight: 794
+url: /java/com.aspose.slides/iformattedtextcontainer/
+---
+**All Implemented Interfaces:**
+[com.aspose.slides.IChartComponent](../../com.aspose.slides/ichartcomponent)
+```
+public interface IFormattedTextContainer extends IChartComponent
+```
+
+Represents chart text format.
+## Methods
+
+| Method | Description |
+| --- | --- |
+| [getTextFormat()](#getTextFormat--) | Returns chart text format. |
+### getTextFormat() {#getTextFormat--}
+```
+public abstract IChartTextFormat getTextFormat()
+```
+
+
+Returns chart text format. Read-only [IChartTextFormat](../../com.aspose.slides/icharttextformat).
+
+**Returns:**
+[IChartTextFormat](../../com.aspose.slides/icharttextformat)

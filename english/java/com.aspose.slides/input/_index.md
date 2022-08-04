@@ -1,0 +1,51 @@
+---
+title: Input
+second_title: Aspose.Sildes for Java API Reference
+description: p
+ Represents a collection of input elements templates for IWebDocument.
+type: docs
+weight: 255
+url: /java/com.aspose.slides/input/
+---
+**Inheritance:**
+java.lang.Object
+```
+public final class Input
+```
+
+Represents a collection of input elements (templates) for IWebDocument.
+## Constructors
+
+| Constructor | Description |
+| --- | --- |
+| [Input(ITemplateEngine templateEngine)](#Input-com.aspose.slides.ITemplateEngine-) |  |
+## Methods
+
+| Method | Description |
+| --- | --- |
+| [<TContextObject>addTemplate(String key, String path)](#-TContextObject-addTemplate-java.lang.String-java.lang.String-) | Adds a template to the collection. |
+### Input(ITemplateEngine templateEngine) {#Input-com.aspose.slides.ITemplateEngine-}
+```
+ Input(ITemplateEngine templateEngine)
+```
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| templateEngine | [ITemplateEngine](../../com.aspose.slides/itemplateengine) |  |
+
+### <TContextObject>addTemplate(String key, String path) {#-TContextObject-addTemplate-java.lang.String-java.lang.String-}
+```
+public final void <TContextObject>addTemplate(String key, String path)
+```
+
+
+Adds a template to the collection.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| key | java.lang.String | Key for the template in the collection. |
+| path | java.lang.String | Path to the template file. |
+

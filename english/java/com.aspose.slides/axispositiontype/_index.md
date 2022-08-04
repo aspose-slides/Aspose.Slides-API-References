@@ -1,0 +1,67 @@
+---
+title: AxisPositionType
+second_title: Aspose.Sildes for Java API Reference
+description: p
+ Determines a position of axis.
+type: docs
+weight: 33
+url: /java/com.aspose.slides/axispositiontype/
+---
+**Inheritance:**
+java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
+```
+public final class AxisPositionType extends System.Enum
+```
+
+Determines a position of axis.
+## Constructors
+
+| Constructor | Description |
+| --- | --- |
+| [AxisPositionType()](#AxisPositionType--) |  |
+## Fields
+
+| Field | Description |
+| --- | --- |
+| [Bottom](#Bottom) | Specifies that the axis shall be displayed at the bottom of the plot area. |
+| [Left](#Left) | Specifies that the axis shall be displayed at the left of the plot area. |
+| [Right](#Right) | Specifies that the axis shall be displayed at the right of the plot area. |
+| [Top](#Top) | Specifies that the axis shall be displayed at the top of the plot area. |
+### AxisPositionType() {#AxisPositionType--}
+```
+private AxisPositionType()
+```
+
+
+### Bottom {#Bottom}
+```
+public static final int Bottom
+```
+
+
+Specifies that the axis shall be displayed at the bottom of the plot area.
+
+### Left {#Left}
+```
+public static final int Left
+```
+
+
+Specifies that the axis shall be displayed at the left of the plot area.
+
+### Right {#Right}
+```
+public static final int Right
+```
+
+
+Specifies that the axis shall be displayed at the right of the plot area.
+
+### Top {#Top}
+```
+public static final int Top
+```
+
+
+Specifies that the axis shall be displayed at the top of the plot area.
+
