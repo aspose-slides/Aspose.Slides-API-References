@@ -17,12 +17,6 @@ public class PictureFrame extends GeometryShape implements IPictureFrame
 ```
 
 Represents a frame with a picture inside.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [PictureFrame(IDOMObject parentImmediate, PictureFramePPTXUnsupportedProps pptxUnsupportedProps)](#PictureFrame-com.aspose.slides.IDOMObject-com.aspose.slides.PictureFramePPTXUnsupportedProps-) | Base constructor |
-| [PictureFrame(IDOMObject parentImmediate)](#PictureFrame-com.aspose.slides.IDOMObject-) |  |
 ## Methods
 
 | Method | Description |
@@ -35,31 +29,6 @@ Represents a frame with a picture inside.
 | [setRelativeScaleHeight(float value)](#setRelativeScaleHeight-float-) | Returns or sets the scale of height(relative to original picture size) of the picture frame. |
 | [getRelativeScaleWidth()](#getRelativeScaleWidth--) | Returns or sets the scale of width (relative to original picture size) of the picture frame. |
 | [setRelativeScaleWidth(float value)](#setRelativeScaleWidth-float-) | Returns or sets the scale of width (relative to original picture size) of the picture frame. |
-### PictureFrame(IDOMObject parentImmediate, PictureFramePPTXUnsupportedProps pptxUnsupportedProps) {#PictureFrame-com.aspose.slides.IDOMObject-com.aspose.slides.PictureFramePPTXUnsupportedProps-}
-```
- PictureFrame(IDOMObject parentImmediate, PictureFramePPTXUnsupportedProps pptxUnsupportedProps)
-```
-
-
-Base constructor
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | com.aspose.slides.IDOMObject |  |
-| pptxUnsupportedProps | com.aspose.slides.PictureFramePPTXUnsupportedProps |  |
-
-### PictureFrame(IDOMObject parentImmediate) {#PictureFrame-com.aspose.slides.IDOMObject-}
-```
- PictureFrame(IDOMObject parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | com.aspose.slides.IDOMObject |  |
-
 ### getPictureFrameLock() {#getPictureFrameLock--}
 ```
 public final IPictureFrameLock getPictureFrameLock()

@@ -17,11 +17,6 @@ public class BehaviorPropertyCollection implements IBehaviorPropertyCollection
 ```
 
 Represents timing properties for the effect behavior.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [BehaviorPropertyCollection()](#BehaviorPropertyCollection--) |  |
 ## Methods
 
 | Method | Description |
@@ -51,12 +46,6 @@ Represents timing properties for the effect behavior.
 | [copyToTArray(IBehaviorProperty[] array, int arrayIndex)](#copyToTArray-com.aspose.slides.IBehaviorProperty---int-) |  |
 | [removeItem(IBehaviorProperty item)](#removeItem-com.aspose.slides.IBehaviorProperty-) |  |
 | [iteratorJava()](#iteratorJava--) | Returns a java iterator for the entire collection. |
-### BehaviorPropertyCollection() {#BehaviorPropertyCollection--}
-```
- BehaviorPropertyCollection()
-```
-
-
 ### size() {#size--}
 ```
 public final int size()

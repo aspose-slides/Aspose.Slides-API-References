@@ -17,14 +17,6 @@ public class ColorFormat extends PVIObject implements IColorFormat
 ```
 
 Represents a color used in a presentation.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [ColorFormat(IDOMObject parentImmediate)](#ColorFormat-com.aspose.slides.IDOMObject-) |  |
-| [ColorFormat(IDOMObject parentImmediate, int preset)](#ColorFormat-com.aspose.slides.IDOMObject-int-) |  |
-| [ColorFormat(IDOMObject parentImmediate, int schemeColor, boolean colorFormatFix)](#ColorFormat-com.aspose.slides.IDOMObject-int-boolean-) |  |
-| [ColorFormat(IDOMObject parentImmediate, System.Drawing.Color color)](#ColorFormat-com.aspose.slides.IDOMObject-com.aspose.ms.System.Drawing.Color-) |  |
 ## Methods
 
 | Method | Description |
@@ -64,54 +56,6 @@ Represents a color used in a presentation.
 | [hashCode()](#hashCode--) | Returns hash code. |
 | [getParent_ISlideComponent()](#getParent-ISlideComponent--) |  |
 | [getParent_IPresentationComponent()](#getParent-IPresentationComponent--) |  |
-### ColorFormat(IDOMObject parentImmediate) {#ColorFormat-com.aspose.slides.IDOMObject-}
-```
- ColorFormat(IDOMObject parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | com.aspose.slides.IDOMObject |  |
-
-### ColorFormat(IDOMObject parentImmediate, int preset) {#ColorFormat-com.aspose.slides.IDOMObject-int-}
-```
- ColorFormat(IDOMObject parentImmediate, int preset)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | com.aspose.slides.IDOMObject |  |
-| preset | int |  |
-
-### ColorFormat(IDOMObject parentImmediate, int schemeColor, boolean colorFormatFix) {#ColorFormat-com.aspose.slides.IDOMObject-int-boolean-}
-```
- ColorFormat(IDOMObject parentImmediate, int schemeColor, boolean colorFormatFix)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | com.aspose.slides.IDOMObject |  |
-| schemeColor | int |  |
-| colorFormatFix | boolean |  |
-
-### ColorFormat(IDOMObject parentImmediate, System.Drawing.Color color) {#ColorFormat-com.aspose.slides.IDOMObject-com.aspose.ms.System.Drawing.Color-}
-```
- ColorFormat(IDOMObject parentImmediate, System.Drawing.Color color)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | com.aspose.slides.IDOMObject |  |
-| color | com.aspose.ms.System.Drawing.Color |  |
-
 ### getColorType() {#getColorType--}
 ```
 public final int getColorType()

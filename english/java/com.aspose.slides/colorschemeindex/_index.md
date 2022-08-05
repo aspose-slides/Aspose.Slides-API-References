@@ -14,11 +14,6 @@ public final class ColorSchemeIndex extends System.Enum
 ```
 
 Represents an index in a colorscheme.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [ColorSchemeIndex()](#ColorSchemeIndex--) |  |
 ## Fields
 
 | Field | Description |
@@ -35,12 +30,6 @@ Represents an index in a colorscheme.
 | [Accent6](#Accent6) | Accent 6. |
 | [Hyperlink](#Hyperlink) | Hyperlink. |
 | [FollowedHyperlink](#FollowedHyperlink) | Followed Hyperlink. |
-### ColorSchemeIndex() {#ColorSchemeIndex--}
-```
-private ColorSchemeIndex()
-```
-
-
 ### Dark1 {#Dark1}
 ```
 public static final byte Dark1

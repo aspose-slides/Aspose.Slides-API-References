@@ -14,23 +14,12 @@ public final class SlideOrientation extends System.Enum
 ```
 
 Represents the slide orientation.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [SlideOrientation()](#SlideOrientation--) |  |
 ## Fields
 
 | Field | Description |
 | --- | --- |
 | [Landscape](#Landscape) | Landscape orientation. |
 | [Portrait](#Portrait) | Portrait orientation. |
-### SlideOrientation() {#SlideOrientation--}
-```
-private SlideOrientation()
-```
-
-
 ### Landscape {#Landscape}
 ```
 public static final int Landscape

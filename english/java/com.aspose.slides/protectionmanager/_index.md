@@ -17,11 +17,6 @@ public final class ProtectionManager implements IProtectionManager
 ```
 
 Presentation password protection management.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [ProtectionManager(Presentation parentPresentation)](#ProtectionManager-com.aspose.slides.Presentation-) |  |
 ## Methods
 
 | Method | Description |
@@ -39,17 +34,6 @@ Presentation password protection management.
 | [getEncryptionPassword()](#getEncryptionPassword--) | Gets the password which is used for presentation encryption. |
 | [getReadOnlyRecommended()](#getReadOnlyRecommended--) | Gets or sets read-only recommendation. |
 | [setReadOnlyRecommended(boolean value)](#setReadOnlyRecommended-boolean-) | Gets or sets read-only recommendation. |
-### ProtectionManager(Presentation parentPresentation) {#ProtectionManager-com.aspose.slides.Presentation-}
-```
- ProtectionManager(Presentation parentPresentation)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentPresentation | [Presentation](../../com.aspose.slides/presentation) |  |
-
 ### getEncryptDocumentProperties() {#getEncryptDocumentProperties--}
 ```
 public final boolean getEncryptDocumentProperties()

@@ -17,11 +17,6 @@ public class LegendEntryProperties implements ILegendEntryProperties, IDOMObject
 ```
 
 Represents legend properties of a chart.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [LegendEntryProperties(IDOMObject parentImmediate)](#LegendEntryProperties-com.aspose.slides.IDOMObject-) |  |
 ## Methods
 
 | Method | Description |
@@ -33,17 +28,6 @@ Represents legend properties of a chart.
 | [getChart()](#getChart--) | Returns the parent chart. |
 | [getSlide()](#getSlide--) | Returns the parent slide of a FillFormat. |
 | [getPresentation()](#getPresentation--) | Returns the parent presentation of a FillFormat. |
-### LegendEntryProperties(IDOMObject parentImmediate) {#LegendEntryProperties-com.aspose.slides.IDOMObject-}
-```
- LegendEntryProperties(IDOMObject parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | com.aspose.slides.IDOMObject |  |
-
 ### getTextFormat() {#getTextFormat--}
 ```
 public final IChartTextFormat getTextFormat()

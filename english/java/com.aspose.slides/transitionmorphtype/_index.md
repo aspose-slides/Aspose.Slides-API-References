@@ -14,11 +14,6 @@ public final class TransitionMorphType extends System.Enum
 ```
 
 Represent a type of morph transition.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [TransitionMorphType()](#TransitionMorphType--) |  |
 ## Fields
 
 | Field | Description |
@@ -26,12 +21,6 @@ Represent a type of morph transition.
 | [ByObject](#ByObject) | Morph transition will be performed considering shapes as indivisible objects. |
 | [ByWord](#ByWord) | Morph transition will be performed with transferring text by words where possible. |
 | [ByChar](#ByChar) | Morph transition will be performed with transferring text by characters where possible. |
-### TransitionMorphType() {#TransitionMorphType--}
-```
-private TransitionMorphType()
-```
-
-
 ### ByObject {#ByObject}
 ```
 public static final int ByObject

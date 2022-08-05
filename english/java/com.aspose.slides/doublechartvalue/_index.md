@@ -19,11 +19,6 @@ public class DoubleChartValue extends BaseChartValue implements IDoubleChartValu
 ```
 
 Represent double value which can be stored in pptx presentation document in two ways: 1) in cell/cells of workbook related to chart; 2) as literal value.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [DoubleChartValue(IDOMObject parentImmediate, DataSourceTypeHolder dataSourceTypeHolder, boolean centralizedTypeChangingRestriction)](#DoubleChartValue-com.aspose.slides.IDOMObject-com.aspose.slides.DataSourceTypeHolder-boolean-) |  |
 ## Methods
 
 | Method | Description |
@@ -35,19 +30,6 @@ Represent double value which can be stored in pptx presentation document in two 
 | [getData()](#getData--) | Returns or sets Data object. |
 | [setData(Object value)](#setData-java.lang.Object-) | Returns or sets Data object. |
 | [toDouble()](#toDouble--) | Converts to double. |
-### DoubleChartValue(IDOMObject parentImmediate, DataSourceTypeHolder dataSourceTypeHolder, boolean centralizedTypeChangingRestriction) {#DoubleChartValue-com.aspose.slides.IDOMObject-com.aspose.slides.DataSourceTypeHolder-boolean-}
-```
- DoubleChartValue(IDOMObject parentImmediate, DataSourceTypeHolder dataSourceTypeHolder, boolean centralizedTypeChangingRestriction)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | com.aspose.slides.IDOMObject |  |
-| dataSourceTypeHolder | com.aspose.slides.DataSourceTypeHolder |  |
-| centralizedTypeChangingRestriction | boolean |  |
-
 ### getAsCell() {#getAsCell--}
 ```
 public final IChartDataCell getAsCell()

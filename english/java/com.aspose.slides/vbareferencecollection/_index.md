@@ -17,11 +17,6 @@ public class VbaReferenceCollection implements IVbaReferenceCollection
 ```
 
 Represents a collection of a VBA Project references.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [VbaReferenceCollection(VbaProject vbaProject)](#VbaReferenceCollection-com.aspose.slides.VbaProject-) |  |
 ## Methods
 
 | Method | Description |
@@ -34,17 +29,6 @@ Represents a collection of a VBA Project references.
 | [copyTo(System.Array array, int index)](#copyTo-com.aspose.ms.System.Array-int-) | Copies all elements from the collection to the specified array. |
 | [isSynchronized()](#isSynchronized--) | Returns a value indicating whether access to the collection is synchronized (thread-safe). |
 | [getSyncRoot()](#getSyncRoot--) | Returns a synchronization root. |
-### VbaReferenceCollection(VbaProject vbaProject) {#VbaReferenceCollection-com.aspose.slides.VbaProject-}
-```
- VbaReferenceCollection(VbaProject vbaProject)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| vbaProject | [VbaProject](../../com.aspose.slides/vbaproject) |  |
-
 ### size() {#size--}
 ```
 public final int size()

@@ -14,11 +14,6 @@ public final class MotionPathEditMode extends System.Enum
 ```
 
 Specifies how the motion path moves when the target shape is moved
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [MotionPathEditMode()](#MotionPathEditMode--) |  |
 ## Fields
 
 | Field | Description |
@@ -26,12 +21,6 @@ Specifies how the motion path moves when the target shape is moved
 | [NotDefined](#NotDefined) |  |
 | [Relative](#Relative) |  |
 | [Fixed](#Fixed) |  |
-### MotionPathEditMode() {#MotionPathEditMode--}
-```
-private MotionPathEditMode()
-```
-
-
 ### NotDefined {#NotDefined}
 ```
 public static final int NotDefined

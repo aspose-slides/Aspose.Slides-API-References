@@ -17,11 +17,6 @@ public abstract class Theme implements ITheme, IStyleColorOwner, IPVIObject
 ```
 
 Represents a theme.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [Theme(IDOMObject parentImmediate)](#Theme-com.aspose.slides.IDOMObject-) |  |
 ## Methods
 
 | Method | Description |
@@ -34,17 +29,6 @@ Represents a theme.
 | [getParent_Immediate()](#getParent-Immediate--) |  |
 | [getParent_IPresentationComponent()](#getParent-IPresentationComponent--) |  |
 | [getVersion()](#getVersion--) |  |
-### Theme(IDOMObject parentImmediate) {#Theme-com.aspose.slides.IDOMObject-}
-```
- Theme(IDOMObject parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | com.aspose.slides.IDOMObject |  |
-
 ### getColorScheme() {#getColorScheme--}
 ```
 public abstract IColorScheme getColorScheme()

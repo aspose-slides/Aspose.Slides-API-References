@@ -21,7 +21,6 @@ Contains the TextFrame's formatTextFrameFormatting properties.
 
 | Constructor | Description |
 | --- | --- |
-| [TextFrameFormat(IDOMObject parentImmediate)](#TextFrameFormat-com.aspose.slides.IDOMObject-) |  |
 | [TextFrameFormat()](#TextFrameFormat--) | Initializes a new instance of [TextFrameFormat](../../com.aspose.slides/textframeformat) class. |
 ## Methods
 
@@ -58,17 +57,6 @@ Contains the TextFrame's formatTextFrameFormatting properties.
 | [getKeepTextFlat()](#getKeepTextFlat--) | Gets or sets keeping text flat even if a 3-D Rotation effect was applied. |
 | [setKeepTextFlat(boolean value)](#setKeepTextFlat-boolean-) | Gets or sets keeping text flat even if a 3-D Rotation effect was applied. |
 | [getEffective()](#getEffective--) | Gets effective text frame formatting data with the inheritance applied. |
-### TextFrameFormat(IDOMObject parentImmediate) {#TextFrameFormat-com.aspose.slides.IDOMObject-}
-```
- TextFrameFormat(IDOMObject parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | com.aspose.slides.IDOMObject |  |
-
 ### TextFrameFormat() {#TextFrameFormat--}
 ```
 public TextFrameFormat()

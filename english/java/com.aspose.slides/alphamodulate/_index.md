@@ -17,11 +17,6 @@ public class AlphaModulate extends ImageTransformOperation implements IAlphaModu
 ```
 
 Represents an Alpha Modulate effect. Effect alpha (opacity) values are multiplied by a fixed percentage. The effect container specifies an effect containing alpha values to modulate.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [AlphaModulate(IDOMObject parentImmediate)](#AlphaModulate-com.aspose.slides.IDOMObject-) | Alpha Modulate effect constructor. |
 ## Methods
 
 | Method | Description |
@@ -29,19 +24,6 @@ Represents an Alpha Modulate effect. Effect alpha (opacity) values are multiplie
 | [getEffective()](#getEffective--) | Gets effective Alpha Modulate effect data with the inheritance applied. |
 | [equals(Object obj)](#equals-java.lang.Object-) | Determines whether the specified [AlphaModulate](../../com.aspose.slides/alphamodulate) is equal to the current [AlphaModulate](../../com.aspose.slides/alphamodulate). |
 | [hashCode()](#hashCode--) | Serves as a hash function for a particular type. |
-### AlphaModulate(IDOMObject parentImmediate) {#AlphaModulate-com.aspose.slides.IDOMObject-}
-```
- AlphaModulate(IDOMObject parentImmediate)
-```
-
-
-Alpha Modulate effect constructor.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | com.aspose.slides.IDOMObject |  |
-
 ### getEffective() {#getEffective--}
 ```
 public final IAlphaModulateEffectiveData getEffective()

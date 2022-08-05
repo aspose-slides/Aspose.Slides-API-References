@@ -17,11 +17,6 @@ public class Fonts implements IFonts
 ```
 
 Fonts collection.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [Fonts(FontsList fontsList)](#Fonts-com.aspose.slides.FontsList-) |  |
 ## Methods
 
 | Method | Description |
@@ -32,17 +27,6 @@ Fonts collection.
 | [setEastAsianFont(IFontData value)](#setEastAsianFont-com.aspose.slides.IFontData-) | Returns or sets the East Asian font. |
 | [getComplexScriptFont()](#getComplexScriptFont--) | Returns or sets the complex script font. |
 | [setComplexScriptFont(IFontData value)](#setComplexScriptFont-com.aspose.slides.IFontData-) | Returns or sets the complex script font. |
-### Fonts(FontsList fontsList) {#Fonts-com.aspose.slides.FontsList-}
-```
- Fonts(FontsList fontsList)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| fontsList | com.aspose.slides.FontsList |  |
-
 ### getLatinFont() {#getLatinFont--}
 ```
 public final IFontData getLatinFont()

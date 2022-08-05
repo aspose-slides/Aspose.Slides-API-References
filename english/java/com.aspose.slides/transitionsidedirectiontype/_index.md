@@ -14,11 +14,6 @@ public final class TransitionSideDirectionType extends System.Enum
 ```
 
 Represent side direction transition types.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [TransitionSideDirectionType()](#TransitionSideDirectionType--) |  |
 ## Fields
 
 | Field | Description |
@@ -27,12 +22,6 @@ Represent side direction transition types.
 | [Up](#Up) |  |
 | [Down](#Down) |  |
 | [Right](#Right) |  |
-### TransitionSideDirectionType() {#TransitionSideDirectionType--}
-```
-private TransitionSideDirectionType()
-```
-
-
 ### Left {#Left}
 ```
 public static final int Left

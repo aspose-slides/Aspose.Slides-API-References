@@ -22,7 +22,6 @@ Represents properties of a presentation.
 | Constructor | Description |
 | --- | --- |
 | [DocumentProperties()](#DocumentProperties--) | Initializes new instance of class [DocumentProperties](../../com.aspose.slides/documentproperties). |
-| [DocumentProperties(Presentation parent)](#DocumentProperties-com.aspose.slides.Presentation-) |  |
 ## Methods
 
 | Method | Description |
@@ -100,17 +99,6 @@ public DocumentProperties()
 
 
 Initializes new instance of class [DocumentProperties](../../com.aspose.slides/documentproperties).
-
-### DocumentProperties(Presentation parent) {#DocumentProperties-com.aspose.slides.Presentation-}
-```
- DocumentProperties(Presentation parent)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parent | [Presentation](../../com.aspose.slides/presentation) |  |
 
 ### getAppVersion() {#getAppVersion--}
 ```
@@ -450,7 +438,7 @@ public final Date getLastSavedTime()
 ```
 
 
-Returns the date when a presentation was modified last time. Read-only in case of Presentation.DocumentProperties (because it will be updated internally while IPresentation object saving process). Can be changed via DocumentProperties instance returning by method [IPresentationInfo\#readDocumentProperties](../../com.aspose.slides/ipresentationinfo\#readDocumentProperties) Please see the example in [IPresentationInfo\#updateDocumentProperties(IDocumentProperties)](../../com.aspose.slides/ipresentationinfo\#updateDocumentProperties(IDocumentProperties)) method summary.
+Returns the date when a presentation was modified last time. Read-only in case of Presentation.DocumentProperties (because it will be updated internally while IPresentation object saving process). Can be changed via DocumentProperties instance returning by method [IPresentationInfo\#readDocumentProperties](../../com.aspose.slides/ipresentationinfo\#readDocumentProperties) Please see the example in [IPresentationInfo\#updateDocumentProperties(IDocumentProperties)](../../com.aspose.slides/ipresentationinfo\#updateDocumentProperties-IDocumentProperties-) method summary.
 
 **Returns:**
 java.util.Date
@@ -460,7 +448,7 @@ public final void setLastSavedTime(Date value)
 ```
 
 
-Returns the date when a presentation was modified last time. Read-only in case of Presentation.DocumentProperties (because it will be updated internally while IPresentation object saving process). Can be changed via DocumentProperties instance returning by method [IPresentationInfo\#readDocumentProperties](../../com.aspose.slides/ipresentationinfo\#readDocumentProperties) Please see the example in [IPresentationInfo\#updateDocumentProperties(IDocumentProperties)](../../com.aspose.slides/ipresentationinfo\#updateDocumentProperties(IDocumentProperties)) method summary.
+Returns the date when a presentation was modified last time. Read-only in case of Presentation.DocumentProperties (because it will be updated internally while IPresentation object saving process). Can be changed via DocumentProperties instance returning by method [IPresentationInfo\#readDocumentProperties](../../com.aspose.slides/ipresentationinfo\#readDocumentProperties) Please see the example in [IPresentationInfo\#updateDocumentProperties(IDocumentProperties)](../../com.aspose.slides/ipresentationinfo\#updateDocumentProperties-IDocumentProperties-) method summary.
 
 **Parameters:**
 | Parameter | Type | Description |

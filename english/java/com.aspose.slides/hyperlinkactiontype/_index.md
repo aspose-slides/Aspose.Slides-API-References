@@ -14,11 +14,6 @@ public final class HyperlinkActionType extends System.Enum
 ```
 
 Represents a type of hyperlink action.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [HyperlinkActionType()](#HyperlinkActionType--) |  |
 ## Fields
 
 | Field | Description |
@@ -39,12 +34,6 @@ Represents a type of hyperlink action.
 | [StartStopMedia](#StartStopMedia) | Start/stop playing mediafile. |
 | [StartMacro](#StartMacro) | Start executing macro script. |
 | [StartProgram](#StartProgram) | Start program. |
-### HyperlinkActionType() {#HyperlinkActionType--}
-```
-private HyperlinkActionType()
-```
-
-
 ### Unknown {#Unknown}
 ```
 public static final int Unknown

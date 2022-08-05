@@ -17,11 +17,6 @@ public final class TextFrame implements ITextFrame, IDOMObject
 ```
 
 Represents a TextFrame.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [TextFrame(IDOMObject parentImmediate)](#TextFrame-com.aspose.slides.IDOMObject-) |  |
 ## Methods
 
 | Method | Description |
@@ -38,17 +33,6 @@ Represents a TextFrame.
 | [highlightRegex(String regex, Color highlightColor, ITextHighlightingOptions options)](#highlightRegex-java.lang.String-java.awt.Color-com.aspose.slides.ITextHighlightingOptions-) | Highlight all matches of regular expression in text frame text using specified color. |
 | [getSlide()](#getSlide--) | Returns the parent slide of a TextFrame. |
 | [getPresentation()](#getPresentation--) | Returns the parent presentation of a TextFrame. |
-### TextFrame(IDOMObject parentImmediate) {#TextFrame-com.aspose.slides.IDOMObject-}
-```
- TextFrame(IDOMObject parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | com.aspose.slides.IDOMObject |  |
-
 ### getParent_Immediate() {#getParent-Immediate--}
 ```
 public final IDOMObject getParent_Immediate()

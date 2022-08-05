@@ -17,11 +17,6 @@ public class OleObjectFrame extends GraphicalObject implements IOleObjectFrame
 ```
 
 Represents an OLE object on a slide.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [OleObjectFrame(IDOMObject parentImmediate)](#OleObjectFrame-com.aspose.slides.IDOMObject-) |  |
 ## Methods
 
 | Method | Description |
@@ -45,17 +40,6 @@ Represents an OLE object on a slide.
 | [isObjectLink()](#isObjectLink--) | Determines whether an object is linked to external file. |
 | [getUpdateAutomatic()](#getUpdateAutomatic--) | Determines if the linked embedded object is automatically updated when the presentation is opened or printed. |
 | [setUpdateAutomatic(boolean value)](#setUpdateAutomatic-boolean-) | Determines if the linked embedded object is automatically updated when the presentation is opened or printed. |
-### OleObjectFrame(IDOMObject parentImmediate) {#OleObjectFrame-com.aspose.slides.IDOMObject-}
-```
- OleObjectFrame(IDOMObject parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | com.aspose.slides.IDOMObject |  |
-
 ### getSubstitutePictureFormat() {#getSubstitutePictureFormat--}
 ```
 public final IPictureFillFormat getSubstitutePictureFormat()

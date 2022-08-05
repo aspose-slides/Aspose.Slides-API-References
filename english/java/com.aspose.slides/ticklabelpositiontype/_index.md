@@ -14,11 +14,6 @@ public final class TickLabelPositionType extends System.Enum
 ```
 
 Represents the position type of tick-mark labels on the specified axis.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [TickLabelPositionType()](#TickLabelPositionType--) |  |
 ## Fields
 
 | Field | Description |
@@ -27,12 +22,6 @@ Represents the position type of tick-mark labels on the specified axis.
 | [Low](#Low) | Specifies the axis labels shall be at the low end of the perpendicular axis. |
 | [NextTo](#NextTo) | Specifies the axis labels shall be next to the axis. |
 | [None](#None) | Specifies the axis labels are not drawn. |
-### TickLabelPositionType() {#TickLabelPositionType--}
-```
-private TickLabelPositionType()
-```
-
-
 ### High {#High}
 ```
 public static final int High

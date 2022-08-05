@@ -17,11 +17,6 @@ public class AlphaFloor extends ImageTransformOperation implements IAlphaFloor, 
 ```
 
 Represents an Alpha Floor effect. Alpha (opacity) values less than 100% are changed to zero. In other words, anything partially transparent becomes fully transparent.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [AlphaFloor(IDOMObject parentImmediate)](#AlphaFloor-com.aspose.slides.IDOMObject-) |  |
 ## Methods
 
 | Method | Description |
@@ -29,17 +24,6 @@ Represents an Alpha Floor effect. Alpha (opacity) values less than 100% are chan
 | [getEffective()](#getEffective--) | Gets effective Alpha Floor effect data with the inheritance applied. |
 | [equals(Object obj)](#equals-java.lang.Object-) | Determines whether the specified [AlphaFloor](../../com.aspose.slides/alphafloor) is equal to the current [AlphaFloor](../../com.aspose.slides/alphafloor). |
 | [hashCode()](#hashCode--) | Serves as a hash function for a particular type. |
-### AlphaFloor(IDOMObject parentImmediate) {#AlphaFloor-com.aspose.slides.IDOMObject-}
-```
- AlphaFloor(IDOMObject parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | com.aspose.slides.IDOMObject |  |
-
 ### getEffective() {#getEffective--}
 ```
 public final IAlphaFloorEffectiveData getEffective()

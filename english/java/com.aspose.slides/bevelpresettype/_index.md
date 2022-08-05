@@ -14,11 +14,6 @@ public final class BevelPresetType extends System.Enum
 ```
 
 Constants which define 3D bevel of shape.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [BevelPresetType()](#BevelPresetType--) |  |
 ## Fields
 
 | Field | Description |
@@ -36,12 +31,6 @@ Constants which define 3D bevel of shape.
 | [Riblet](#Riblet) |  |
 | [Slope](#Slope) |  |
 | [SoftRound](#SoftRound) |  |
-### BevelPresetType() {#BevelPresetType--}
-```
-private BevelPresetType()
-```
-
-
 ### NotDefined {#NotDefined}
 ```
 public static final int NotDefined

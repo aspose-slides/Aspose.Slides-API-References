@@ -17,11 +17,6 @@ public class LineFormat extends PVIObject implements ILineFormat
 ```
 
 Represents format of a line.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [LineFormat(IDOMObject parentImmediate)](#LineFormat-com.aspose.slides.IDOMObject-) |  |
 ## Methods
 
 | Method | Description |
@@ -59,17 +54,6 @@ Represents format of a line.
 | [setEndArrowheadLength(byte value)](#setEndArrowheadLength-byte-) | Returns or sets the arrowhead length at the end of a line. |
 | [equals(ILineFormat lineFormat)](#equals-com.aspose.slides.ILineFormat-) | Determines whether the two LineFormat instances are equal. |
 | [getEffective()](#getEffective--) | Gets effective line formatting data with the inheritance applied. |
-### LineFormat(IDOMObject parentImmediate) {#LineFormat-com.aspose.slides.IDOMObject-}
-```
- LineFormat(IDOMObject parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | com.aspose.slides.IDOMObject |  |
-
 ### isFormatNotDefined() {#isFormatNotDefined--}
 ```
 public final boolean isFormatNotDefined()

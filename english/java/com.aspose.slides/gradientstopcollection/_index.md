@@ -17,11 +17,6 @@ public final class GradientStopCollection extends PVIObject implements IGradient
 ```
 
 Represnts a collection of gradient stops.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [GradientStopCollection(IDOMObject parentImmediate)](#GradientStopCollection-com.aspose.slides.IDOMObject-) |  |
 ## Methods
 
 | Method | Description |
@@ -41,17 +36,6 @@ Represnts a collection of gradient stops.
 | [copyTo(System.Array array, int index)](#copyTo-com.aspose.ms.System.Array-int-) | Copies all elements from the collection to the specified array. |
 | [isSynchronized()](#isSynchronized--) | Returns a value indicating whether access to the collection is synchronized (thread-safe). |
 | [getSyncRoot()](#getSyncRoot--) | Returns a synchronization root. |
-### GradientStopCollection(IDOMObject parentImmediate) {#GradientStopCollection-com.aspose.slides.IDOMObject-}
-```
- GradientStopCollection(IDOMObject parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | com.aspose.slides.IDOMObject |  |
-
 ### size() {#size--}
 ```
 public final int size()

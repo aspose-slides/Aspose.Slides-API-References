@@ -14,11 +14,6 @@ public final class FilterEffectType extends System.Enum
 ```
 
 Represents filter effect types.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [FilterEffectType()](#FilterEffectType--) |  |
 ## Fields
 
 | Field | Description |
@@ -42,12 +37,6 @@ Represents filter effect types.
 | [Wedge](#Wedge) |  |
 | [Wheel](#Wheel) |  |
 | [Wipe](#Wipe) |  |
-### FilterEffectType() {#FilterEffectType--}
-```
-private FilterEffectType()
-```
-
-
 ### None {#None}
 ```
 public static final int None

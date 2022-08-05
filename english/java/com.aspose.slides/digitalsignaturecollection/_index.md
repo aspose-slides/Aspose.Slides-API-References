@@ -17,11 +17,6 @@ public class DigitalSignatureCollection extends DomObject<Presentation> implemen
 ```
 
 Represents a collection of digital signatures attached to a document.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [DigitalSignatureCollection(Presentation parentImmediate)](#DigitalSignatureCollection-com.aspose.slides.Presentation-) |  |
 ## Methods
 
 | Method | Description |
@@ -36,17 +31,6 @@ Represents a collection of digital signatures attached to a document.
 | [isSynchronized()](#isSynchronized--) | Returns a value indicating whether access to the collection is synchronized (thread-safe). |
 | [getSyncRoot()](#getSyncRoot--) | Returns a synchronization root. |
 | [copyTo(System.Array array, int index)](#copyTo-com.aspose.ms.System.Array-int-) | Copies all elements from the collection to the specified array. |
-### DigitalSignatureCollection(Presentation parentImmediate) {#DigitalSignatureCollection-com.aspose.slides.Presentation-}
-```
- DigitalSignatureCollection(Presentation parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | [Presentation](../../com.aspose.slides/presentation) |  |
-
 ### get_Item(int index) {#get-Item-int-}
 ```
 public final IDigitalSignature get_Item(int index)

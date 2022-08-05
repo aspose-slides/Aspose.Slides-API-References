@@ -14,11 +14,6 @@ public final class ParentLabelLayoutType extends System.Enum
 ```
 
 Represents layout of category data labels. Used with Treemap series only.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [ParentLabelLayoutType()](#ParentLabelLayoutType--) |  |
 ## Fields
 
 | Field | Description |
@@ -26,12 +21,6 @@ Represents layout of category data labels. Used with Treemap series only.
 | [Banner](#Banner) | Specifies that parent category labels are shown as banner |
 | [None](#None) | Specifies that parent category labels are not drawn |
 | [Overlapping](#Overlapping) | Specifies that parent category labels are shown as overlapping |
-### ParentLabelLayoutType() {#ParentLabelLayoutType--}
-```
-private ParentLabelLayoutType()
-```
-
-
 ### Banner {#Banner}
 ```
 public static final int Banner

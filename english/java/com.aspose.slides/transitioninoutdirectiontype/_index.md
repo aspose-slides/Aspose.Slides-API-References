@@ -14,23 +14,12 @@ public final class TransitionInOutDirectionType extends System.Enum
 ```
 
 Represent in or out direction transition types.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [TransitionInOutDirectionType()](#TransitionInOutDirectionType--) |  |
 ## Fields
 
 | Field | Description |
 | --- | --- |
 | [In](#In) |  |
 | [Out](#Out) |  |
-### TransitionInOutDirectionType() {#TransitionInOutDirectionType--}
-```
-private TransitionInOutDirectionType()
-```
-
-
 ### In {#In}
 ```
 public static final int In

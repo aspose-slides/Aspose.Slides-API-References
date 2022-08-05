@@ -17,11 +17,6 @@ public class Section extends DomObject<SectionCollection> implements ISection
 ```
 
 Represents section of slides.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [Section(String name, SectionCollection parentIntermediate, ISlide startedFromSlide)](#Section-java.lang.String-com.aspose.slides.SectionCollection-com.aspose.slides.ISlide-) |  |
 ## Methods
 
 | Method | Description |
@@ -31,19 +26,6 @@ Represents section of slides.
 | [getSectionId()](#getSectionId--) | Section Id. |
 | [getStartedFromSlide()](#getStartedFromSlide--) | Returns first slide of the section. |
 | [getSlidesListOfSection()](#getSlidesListOfSection--) | Returns list of slides in the section. |
-### Section(String name, SectionCollection parentIntermediate, ISlide startedFromSlide) {#Section-java.lang.String-com.aspose.slides.SectionCollection-com.aspose.slides.ISlide-}
-```
- Section(String name, SectionCollection parentIntermediate, ISlide startedFromSlide)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| name | java.lang.String |  |
-| parentIntermediate | [SectionCollection](../../com.aspose.slides/sectioncollection) |  |
-| startedFromSlide | [ISlide](../../com.aspose.slides/islide) |  |
-
 ### getName() {#getName--}
 ```
 public final String getName()

@@ -14,11 +14,6 @@ public final class BulletType extends System.Enum
 ```
 
 Represents the type of the extended bullets.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [BulletType()](#BulletType--) |  |
 ## Fields
 
 | Field | Description |
@@ -28,12 +23,6 @@ Represents the type of the extended bullets.
 | [Symbol](#Symbol) | Sysmbol bullets. |
 | [Numbered](#Numbered) | Numbered bullets. |
 | [Picture](#Picture) | Picture bullets. |
-### BulletType() {#BulletType--}
-```
-private BulletType()
-```
-
-
 ### NotDefined {#NotDefined}
 ```
 public static final byte NotDefined

@@ -14,11 +14,6 @@ public final class FilterEffectSubtype extends System.Enum
 ```
 
 Represents filter effect subtypes.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [FilterEffectSubtype()](#FilterEffectSubtype--) |  |
 ## Fields
 
 | Field | Description |
@@ -50,12 +45,6 @@ Represents filter effect subtypes.
 | [UpLeft](#UpLeft) |  |
 | [UpRight](#UpRight) |  |
 | [Vertical](#Vertical) |  |
-### FilterEffectSubtype() {#FilterEffectSubtype--}
-```
-private FilterEffectSubtype()
-```
-
-
 ### None {#None}
 ```
 public static final int None

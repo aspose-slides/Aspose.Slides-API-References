@@ -14,11 +14,6 @@ public final class PropertyCalcModeType extends System.Enum
 ```
 
 Represent calc mode for animation property.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [PropertyCalcModeType()](#PropertyCalcModeType--) |  |
 ## Fields
 
 | Field | Description |
@@ -27,12 +22,6 @@ Represent calc mode for animation property.
 | [Discrete](#Discrete) |  |
 | [Linear](#Linear) |  |
 | [Formula](#Formula) |  |
-### PropertyCalcModeType() {#PropertyCalcModeType--}
-```
-private PropertyCalcModeType()
-```
-
-
 ### NotDefined {#NotDefined}
 ```
 public static final int NotDefined

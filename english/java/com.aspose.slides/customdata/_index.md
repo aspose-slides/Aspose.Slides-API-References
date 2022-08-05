@@ -17,11 +17,6 @@ public class CustomData implements ICustomData, IDOMObject
 ```
 
 Represents container for custom data.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [CustomData(IDOMObject parentImmediate)](#CustomData-com.aspose.slides.IDOMObject-) |  |
 ## Methods
 
 | Method | Description |
@@ -29,17 +24,6 @@ Represents container for custom data.
 | [getTags()](#getTags--) | Returns the Customer Data Tags collection. |
 | [getCustomXmlParts()](#getCustomXmlParts--) | Returns the custom xml parts collection. |
 | [getParent_Immediate()](#getParent-Immediate--) |  |
-### CustomData(IDOMObject parentImmediate) {#CustomData-com.aspose.slides.IDOMObject-}
-```
- CustomData(IDOMObject parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | com.aspose.slides.IDOMObject |  |
-
 ### getTags() {#getTags--}
 ```
 public final ITagCollection getTags()

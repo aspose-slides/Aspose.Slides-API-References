@@ -17,11 +17,6 @@ public class Picture implements IPVIObject, ISlidesPicture
 ```
 
 Represents a picture in a presentation.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [Picture(IDOMObject parentImmediate)](#Picture-com.aspose.slides.IDOMObject-) |  |
 ## Methods
 
 | Method | Description |
@@ -38,17 +33,6 @@ Represents a picture in a presentation.
 | [equals(Object obj)](#equals-java.lang.Object-) | Compares with specified object. |
 | [hashCode()](#hashCode--) | Returns hash. |
 | [getSlide()](#getSlide--) | Returns the parent slide of a picture. |
-### Picture(IDOMObject parentImmediate) {#Picture-com.aspose.slides.IDOMObject-}
-```
- Picture(IDOMObject parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | com.aspose.slides.IDOMObject |  |
-
 ### getParent_Immediate() {#getParent-Immediate--}
 ```
 public final IDOMObject getParent_Immediate()

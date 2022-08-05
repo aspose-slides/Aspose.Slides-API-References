@@ -16,9 +16,9 @@ Interface for external resource loading arguments.
 | Method | Description |
 | --- | --- |
 | [getOriginalUri()](#getOriginalUri--) | Original URI of the resource as specified in imported presentation. |
-| [getUri()](#getUri--) | URI of the resource which is used for downloading if [IResourceLoadingCallback\#resourceLoading(IResourceLoadingArgs)](../../com.aspose.slides/iresourceloadingcallback\#resourceLoading(IResourceLoadingArgs)) returns [ResourceLoadingAction\#Default](../../com.aspose.slides/resourceloadingaction\#Default). |
-| [setUri(String value)](#setUri-java.lang.String-) | URI of the resource which is used for downloading if [IResourceLoadingCallback\#resourceLoading(IResourceLoadingArgs)](../../com.aspose.slides/iresourceloadingcallback\#resourceLoading(IResourceLoadingArgs)) returns [ResourceLoadingAction\#Default](../../com.aspose.slides/resourceloadingaction\#Default). |
-| [setData(byte[] data)](#setData-byte---) | Sets user provided data of the resource which used if [IResourceLoadingCallback\#resourceLoading(IResourceLoadingArgs)](../../com.aspose.slides/iresourceloadingcallback\#resourceLoading(IResourceLoadingArgs)) returns [ResourceLoadingAction\#UserProvided](../../com.aspose.slides/resourceloadingaction\#UserProvided). |
+| [getUri()](#getUri--) | URI of the resource which is used for downloading if [IResourceLoadingCallback\#resourceLoading(IResourceLoadingArgs)](../../com.aspose.slides/iresourceloadingcallback\#resourceLoading-IResourceLoadingArgs-) returns [ResourceLoadingAction\#Default](../../com.aspose.slides/resourceloadingaction\#Default). |
+| [setUri(String value)](#setUri-java.lang.String-) | URI of the resource which is used for downloading if [IResourceLoadingCallback\#resourceLoading(IResourceLoadingArgs)](../../com.aspose.slides/iresourceloadingcallback\#resourceLoading-IResourceLoadingArgs-) returns [ResourceLoadingAction\#Default](../../com.aspose.slides/resourceloadingaction\#Default). |
+| [setData(byte[] data)](#setData-byte---) | Sets user provided data of the resource which used if [IResourceLoadingCallback\#resourceLoading(IResourceLoadingArgs)](../../com.aspose.slides/iresourceloadingcallback\#resourceLoading-IResourceLoadingArgs-) returns [ResourceLoadingAction\#UserProvided](../../com.aspose.slides/resourceloadingaction\#UserProvided). |
 ### getOriginalUri() {#getOriginalUri--}
 ```
 public abstract String getOriginalUri()
@@ -35,7 +35,7 @@ public abstract String getUri()
 ```
 
 
-URI of the resource which is used for downloading if [IResourceLoadingCallback\#resourceLoading(IResourceLoadingArgs)](../../com.aspose.slides/iresourceloadingcallback\#resourceLoading(IResourceLoadingArgs)) returns [ResourceLoadingAction\#Default](../../com.aspose.slides/resourceloadingaction\#Default). Initially it's set to original URI of the resource, but can be redefined to any value.
+URI of the resource which is used for downloading if [IResourceLoadingCallback\#resourceLoading(IResourceLoadingArgs)](../../com.aspose.slides/iresourceloadingcallback\#resourceLoading-IResourceLoadingArgs-) returns [ResourceLoadingAction\#Default](../../com.aspose.slides/resourceloadingaction\#Default). Initially it's set to original URI of the resource, but can be redefined to any value.
 
 **Returns:**
 java.lang.String
@@ -45,7 +45,7 @@ public abstract void setUri(String value)
 ```
 
 
-URI of the resource which is used for downloading if [IResourceLoadingCallback\#resourceLoading(IResourceLoadingArgs)](../../com.aspose.slides/iresourceloadingcallback\#resourceLoading(IResourceLoadingArgs)) returns [ResourceLoadingAction\#Default](../../com.aspose.slides/resourceloadingaction\#Default). Initially it's set to original URI of the resource, but can be redefined to any value.
+URI of the resource which is used for downloading if [IResourceLoadingCallback\#resourceLoading(IResourceLoadingArgs)](../../com.aspose.slides/iresourceloadingcallback\#resourceLoading-IResourceLoadingArgs-) returns [ResourceLoadingAction\#Default](../../com.aspose.slides/resourceloadingaction\#Default). Initially it's set to original URI of the resource, but can be redefined to any value.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -58,7 +58,7 @@ public abstract void setData(byte[] data)
 ```
 
 
-Sets user provided data of the resource which used if [IResourceLoadingCallback\#resourceLoading(IResourceLoadingArgs)](../../com.aspose.slides/iresourceloadingcallback\#resourceLoading(IResourceLoadingArgs)) returns [ResourceLoadingAction\#UserProvided](../../com.aspose.slides/resourceloadingaction\#UserProvided).
+Sets user provided data of the resource which used if [IResourceLoadingCallback\#resourceLoading(IResourceLoadingArgs)](../../com.aspose.slides/iresourceloadingcallback\#resourceLoading-IResourceLoadingArgs-) returns [ResourceLoadingAction\#UserProvided](../../com.aspose.slides/resourceloadingaction\#UserProvided).
 
 **Parameters:**
 | Parameter | Type | Description |

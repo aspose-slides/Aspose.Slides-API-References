@@ -17,11 +17,6 @@ public final class LayoutSlide extends BaseSlide implements ILayoutSlide
 ```
 
 Represents a layout slide.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [LayoutSlide(IMasterSlide masterSlide, byte layoutType)](#LayoutSlide-com.aspose.slides.IMasterSlide-byte-) |  |
 ## Methods
 
 | Method | Description |
@@ -36,18 +31,6 @@ Represents a layout slide.
 | [hasDependingSlides()](#hasDependingSlides--) | Returns true if there exists at least one slide that depends on this layout slide. |
 | [getShowMasterShapes()](#getShowMasterShapes--) | Specifies if shapes on the master slide should be shown on slides or not. |
 | [setShowMasterShapes(boolean value)](#setShowMasterShapes-boolean-) | Specifies if shapes on the master slide should be shown on slides or not. |
-### LayoutSlide(IMasterSlide masterSlide, byte layoutType) {#LayoutSlide-com.aspose.slides.IMasterSlide-byte-}
-```
- LayoutSlide(IMasterSlide masterSlide, byte layoutType)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| masterSlide | [IMasterSlide](../../com.aspose.slides/imasterslide) |  |
-| layoutType | byte |  |
-
 ### getHeaderFooterManager() {#getHeaderFooterManager--}
 ```
 public final ILayoutSlideHeaderFooterManager getHeaderFooterManager()

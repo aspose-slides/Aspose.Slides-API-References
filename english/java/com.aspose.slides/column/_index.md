@@ -17,11 +17,6 @@ public final class Column extends CellCollection implements IColumn
 ```
 
 Represents a column in a table.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [Column(ColumnCollection parentImmediate, double width)](#Column-com.aspose.slides.ColumnCollection-double-) |  |
 ## Methods
 
 | Method | Description |
@@ -32,18 +27,6 @@ Represents a column in a table.
 | [setTextFormat(IParagraphFormat source)](#setTextFormat-com.aspose.slides.IParagraphFormat-) | Sets defined paragraph format properties to all column cells' paragraphs. |
 | [setTextFormat(ITextFrameFormat source)](#setTextFormat-com.aspose.slides.ITextFrameFormat-) | Sets defined text frame format properties to all column cells' text frames. |
 | [getColumnFormat()](#getColumnFormat--) | Returns the ColumnFormat object that contains formatting properties for this column. |
-### Column(ColumnCollection parentImmediate, double width) {#Column-com.aspose.slides.ColumnCollection-double-}
-```
- Column(ColumnCollection parentImmediate, double width)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | [ColumnCollection](../../com.aspose.slides/columncollection) |  |
-| width | double |  |
-
 ### getWidth() {#getWidth--}
 ```
 public final double getWidth()

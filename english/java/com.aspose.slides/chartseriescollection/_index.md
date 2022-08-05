@@ -18,11 +18,6 @@ public class ChartSeriesCollection extends DomObject<ChartData> implements IChar
 ```
 
 Represents collection of [ChartSeries](../../com.aspose.slides/chartseries)
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [ChartSeriesCollection(ChartData parentImmediate)](#ChartSeriesCollection-com.aspose.slides.ChartData-) |  |
 ## Methods
 
 | Method | Description |
@@ -43,17 +38,6 @@ Represents collection of [ChartSeries](../../com.aspose.slides/chartseries)
 | [copyTo(System.Array array, int index)](#copyTo-com.aspose.ms.System.Array-int-) | Copies the entire collection to the specified array. |
 | [isSynchronized()](#isSynchronized--) | Returns a value indicating whether access to the collection is synchronized (thread-safe). |
 | [getSyncRoot()](#getSyncRoot--) | Returns a synchronization root. |
-### ChartSeriesCollection(ChartData parentImmediate) {#ChartSeriesCollection-com.aspose.slides.ChartData-}
-```
- ChartSeriesCollection(ChartData parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | [ChartData](../../com.aspose.slides/chartdata) |  |
-
 ### get_Item(int index) {#get-Item-int-}
 ```
 public final IChartSeries get_Item(int index)

@@ -17,11 +17,6 @@ public class SummaryZoomSection extends SectionZoomFrame implements ISummaryZoom
 ```
 
 Represents a Summary Zoom Section object in a Summary Zoom frame.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [SummaryZoomSection(IDOMObject parentImmediate)](#SummaryZoomSection-com.aspose.slides.IDOMObject-) | Creates new SummaryZoomSection object and initializes properties by default values. |
 ## Methods
 
 | Method | Description |
@@ -30,19 +25,6 @@ Represents a Summary Zoom Section object in a Summary Zoom frame.
 | [setTitle(String value)](#setTitle-java.lang.String-) | Returns the text title of the Summary Zoom Section object. |
 | [getDescription()](#getDescription--) | Returns the text description of the Summary Zoom Section object. |
 | [setDescription(String value)](#setDescription-java.lang.String-) | Returns the text description of the Summary Zoom Section object. |
-### SummaryZoomSection(IDOMObject parentImmediate) {#SummaryZoomSection-com.aspose.slides.IDOMObject-}
-```
- SummaryZoomSection(IDOMObject parentImmediate)
-```
-
-
-Creates new SummaryZoomSection object and initializes properties by default values.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | com.aspose.slides.IDOMObject | Parent object IDOMObject |
-
 ### getTitle() {#getTitle--}
 ```
 public final String getTitle()

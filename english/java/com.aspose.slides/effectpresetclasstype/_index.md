@@ -14,11 +14,6 @@ public final class EffectPresetClassType extends System.Enum
 ```
 
 Represent effect class types.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [EffectPresetClassType()](#EffectPresetClassType--) |  |
 ## Fields
 
 | Field | Description |
@@ -29,12 +24,6 @@ Represent effect class types.
 | [Path](#Path) |  |
 | [MediaCall](#MediaCall) |  |
 | [OLEActionVerbs](#OLEActionVerbs) |  |
-### EffectPresetClassType() {#EffectPresetClassType--}
-```
-private EffectPresetClassType()
-```
-
-
 ### Entrance {#Entrance}
 ```
 public static final int Entrance

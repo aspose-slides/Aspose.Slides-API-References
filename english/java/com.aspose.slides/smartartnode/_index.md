@@ -17,11 +17,6 @@ public class SmartArtNode implements ISmartArtNode
 ```
 
 Represents node of a SmartArt object
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [SmartArtNode(SmartArtNode parent, SmartArt target)](#SmartArtNode-com.aspose.slides.SmartArtNode-com.aspose.slides.SmartArt-) |  |
 ## Methods
 
 | Method | Description |
@@ -39,18 +34,6 @@ Represents node of a SmartArt object
 | [getOrganizationChartLayout()](#getOrganizationChartLayout--) | Returns or sets organization chart layout type associated with current node. |
 | [setOrganizationChartLayout(int value)](#setOrganizationChartLayout-int-) | Returns or sets organization chart layout type associated with current node. |
 | [remove()](#remove--) | Remove current node. |
-### SmartArtNode(SmartArtNode parent, SmartArt target) {#SmartArtNode-com.aspose.slides.SmartArtNode-com.aspose.slides.SmartArt-}
-```
- SmartArtNode(SmartArtNode parent, SmartArt target)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parent | [SmartArtNode](../../com.aspose.slides/smartartnode) |  |
-| target | [SmartArt](../../com.aspose.slides/smartart) |  |
-
 ### getChildNodes() {#getChildNodes--}
 ```
 public final ISmartArtNodeCollection getChildNodes()

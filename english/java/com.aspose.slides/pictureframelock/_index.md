@@ -17,11 +17,6 @@ public class PictureFrameLock extends BaseShapeLock implements IPictureFrameLock
 ```
 
 Determines which operations are disabled on the parent PictureFrame.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [PictureFrameLock()](#PictureFrameLock--) |  |
 ## Methods
 
 | Method | Description |
@@ -48,12 +43,6 @@ Determines which operations are disabled on the parent PictureFrame.
 | [setShapeTypeLocked(boolean value)](#setShapeTypeLocked-boolean-) | Determines whether a changing of a shape type is forbidden. |
 | [getCropLocked()](#getCropLocked--) | Determines whether an image cropping is forbidden. |
 | [setCropLocked(boolean value)](#setCropLocked-boolean-) | Determines whether an image cropping is forbidden. |
-### PictureFrameLock() {#PictureFrameLock--}
-```
- PictureFrameLock()
-```
-
-
 ### getGroupingLocked() {#getGroupingLocked--}
 ```
 public boolean getGroupingLocked()

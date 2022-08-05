@@ -14,11 +14,6 @@ public final class ShapeElementFillSource extends System.Enum
 ```
 
 Represents how shape element should be filled.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [ShapeElementFillSource()](#ShapeElementFillSource--) |  |
 ## Fields
 
 | Field | Description |
@@ -29,12 +24,6 @@ Represents how shape element should be filled.
 | [LightenLess](#LightenLess) | Use less lighten shape's fill. |
 | [Darken](#Darken) | Use darken shape's fill. |
 | [DarkenLess](#DarkenLess) | Use less darken shape's fill. |
-### ShapeElementFillSource() {#ShapeElementFillSource--}
-```
-private ShapeElementFillSource()
-```
-
-
 ### NoFill {#NoFill}
 ```
 public static final byte NoFill

@@ -17,11 +17,6 @@ public class PieSplitCustomPointCollection implements IPieSplitCustomPointCollec
 ```
 
 Represents a collection of points for splitting point in a bar-of-pie or pie-of-pie chart with a custom split.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [PieSplitCustomPointCollection(IChartSeriesGroup parentSeriesGroup)](#PieSplitCustomPointCollection-com.aspose.slides.IChartSeriesGroup-) |  |
 ## Methods
 
 | Method | Description |
@@ -40,17 +35,6 @@ Represents a collection of points for splitting point in a bar-of-pie or pie-of-
 | [getSyncRoot()](#getSyncRoot--) | Returns a synchronization root. |
 | [iterator()](#iterator--) | Returns an enumerator that iterates through the collection. |
 | [iteratorJava()](#iteratorJava--) | Returns a java iterator for the entire collection. |
-### PieSplitCustomPointCollection(IChartSeriesGroup parentSeriesGroup) {#PieSplitCustomPointCollection-com.aspose.slides.IChartSeriesGroup-}
-```
- PieSplitCustomPointCollection(IChartSeriesGroup parentSeriesGroup)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentSeriesGroup | [IChartSeriesGroup](../../com.aspose.slides/ichartseriesgroup) |  |
-
 ### get_Item(int index) {#get-Item-int-}
 ```
 public final IChartDataPoint get_Item(int index)

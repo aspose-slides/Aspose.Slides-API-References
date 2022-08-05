@@ -14,11 +14,6 @@ public final class PatternStyle extends System.Enum
 ```
 
 Represents the pattern style.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [PatternStyle()](#PatternStyle--) |  |
 ## Fields
 
 | Field | Description |
@@ -79,12 +74,6 @@ Represents the pattern style.
 | [DownwardDiagonal](#DownwardDiagonal) |  |
 | [UpwardDiagonal](#UpwardDiagonal) |  |
 | [DiagonalCross](#DiagonalCross) |  |
-### PatternStyle() {#PatternStyle--}
-```
-private PatternStyle()
-```
-
-
 ### NotDefined {#NotDefined}
 ```
 public static final byte NotDefined

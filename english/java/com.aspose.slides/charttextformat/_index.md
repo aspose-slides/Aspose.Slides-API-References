@@ -17,11 +17,6 @@ public class ChartTextFormat implements IChartTextFormat, IDOMObject
 ```
 
 Specifies default text formatting for chart text elements.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [ChartTextFormat(IDOMObject parentImmediate)](#ChartTextFormat-com.aspose.slides.IDOMObject-) |  |
 ## Methods
 
 | Method | Description |
@@ -32,17 +27,6 @@ Specifies default text formatting for chart text elements.
 | [copyTo(ITextFrame destTextFrame)](#copyTo-com.aspose.slides.ITextFrame-) | Copies text format to specified text frame. |
 | [copyFrom(ITextFrame sourceTextFrame)](#copyFrom-com.aspose.slides.ITextFrame-) | Copies text format from specified text frame. |
 | [getParent_Immediate()](#getParent-Immediate--) |  |
-### ChartTextFormat(IDOMObject parentImmediate) {#ChartTextFormat-com.aspose.slides.IDOMObject-}
-```
- ChartTextFormat(IDOMObject parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | com.aspose.slides.IDOMObject |  |
-
 ### getTextBlockFormat() {#getTextBlockFormat--}
 ```
 public final IChartTextBlockFormat getTextBlockFormat()

@@ -14,11 +14,6 @@ public final class EffectFillType extends System.Enum
 ```
 
 Represent fill types.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [EffectFillType()](#EffectFillType--) |  |
 ## Fields
 
 | Field | Description |
@@ -28,12 +23,6 @@ Represent fill types.
 | [Freeze](#Freeze) |  |
 | [Hold](#Hold) |  |
 | [Transition](#Transition) |  |
-### EffectFillType() {#EffectFillType--}
-```
-private EffectFillType()
-```
-
-
 ### NotDefined {#NotDefined}
 ```
 public static final int NotDefined

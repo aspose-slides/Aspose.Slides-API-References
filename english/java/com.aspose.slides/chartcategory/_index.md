@@ -17,11 +17,6 @@ public class ChartCategory implements IChartCategory, IDOMObject
 ```
 
 Represents chart categories.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [ChartCategory(ChartCategoryCollection parentImmediate)](#ChartCategory-com.aspose.slides.ChartCategoryCollection-) |  |
 ## Methods
 
 | Method | Description |
@@ -36,17 +31,6 @@ Represents chart categories.
 | [getGroupingLevels()](#getGroupingLevels--) | Managed container of the values of the chart category grouping levels. |
 | [remove()](#remove--) | Removes category from chart. |
 | [getParent_Immediate()](#getParent-Immediate--) |  |
-### ChartCategory(ChartCategoryCollection parentImmediate) {#ChartCategory-com.aspose.slides.ChartCategoryCollection-}
-```
- ChartCategory(ChartCategoryCollection parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | [ChartCategoryCollection](../../com.aspose.slides/chartcategorycollection) |  |
-
 ### getUseCell() {#getUseCell--}
 ```
 public final boolean getUseCell()

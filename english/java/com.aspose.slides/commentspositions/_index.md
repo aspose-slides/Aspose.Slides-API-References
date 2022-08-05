@@ -14,11 +14,6 @@ public final class CommentsPositions extends System.Enum
 ```
 
 Represents the rule to render comments into exported document
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [CommentsPositions()](#CommentsPositions--) |  |
 ## Fields
 
 | Field | Description |
@@ -26,12 +21,6 @@ Represents the rule to render comments into exported document
 | [None](#None) | Specifies that comments should not be displayed at all. |
 | [Bottom](#Bottom) | Specifies that comments should be displayed at the bottom of the page. |
 | [Right](#Right) | Specifies that comments should be displayed to the right of the page. |
-### CommentsPositions() {#CommentsPositions--}
-```
-private CommentsPositions()
-```
-
-
 ### None {#None}
 ```
 public static final int None

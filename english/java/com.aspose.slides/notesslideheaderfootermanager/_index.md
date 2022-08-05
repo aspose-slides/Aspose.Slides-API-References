@@ -17,19 +17,3 @@ public final class NotesSlideHeaderFooterManager extends BaseHandoutNotesSlideHe
 ```
 
 Represents manager which holds behavior of the notes slide placeholders, including header placeholder.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [NotesSlideHeaderFooterManager(NotesSlide notesSlide)](#NotesSlideHeaderFooterManager-com.aspose.slides.NotesSlide-) |  |
-### NotesSlideHeaderFooterManager(NotesSlide notesSlide) {#NotesSlideHeaderFooterManager-com.aspose.slides.NotesSlide-}
-```
- NotesSlideHeaderFooterManager(NotesSlide notesSlide)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| notesSlide | [NotesSlide](../../com.aspose.slides/notesslide) |  |
-

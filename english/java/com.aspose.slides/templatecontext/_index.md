@@ -14,11 +14,6 @@ public final class TemplateContext<TObject>
 ```
 
 Represents a model object interface for a template engine.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [TemplateContext(TObject obj, Output output, Storage global)](#TemplateContext-TObject-com.aspose.slides.Output-com.aspose.slides.Storage-) |  |
 ## Methods
 
 | Method | Description |
@@ -28,19 +23,6 @@ Represents a model object interface for a template engine.
 | [getOutput()](#getOutput--) | Returns collection of output elements of the host document. |
 | [getLocal()](#getLocal--) | Returns local storage of the current template context. |
 | [getGlobal()](#getGlobal--) | Returns global storage of the host document. |
-### TemplateContext(TObject obj, Output output, Storage global) {#TemplateContext-TObject-com.aspose.slides.Output-com.aspose.slides.Storage-}
-```
- TemplateContext(TObject obj, Output output, Storage global)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| obj | TObject |  |
-| output | [Output](../../com.aspose.slides/output) |  |
-| global | [Storage](../../com.aspose.slides/storage) |  |
-
 ### <TSubModel>subModel(TSubModel subModel) {#-TSubModel-subModel-TSubModel-}
 ```
 public final TemplateContext<TSubModel> <TSubModel>subModel(TSubModel subModel)

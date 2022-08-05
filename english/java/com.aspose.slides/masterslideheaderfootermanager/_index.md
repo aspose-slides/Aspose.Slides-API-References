@@ -17,11 +17,6 @@ public final class MasterSlideHeaderFooterManager extends BaseSlideHeaderFooterM
 ```
 
 Represents manager which holds behavior of the master slide footer, date-time, page number placeholders and all child placeholders. Child placeholders mean placeholders are contained on depending layout slides and depending slides. Depending layout slides and slides use and depend on master slide.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [MasterSlideHeaderFooterManager(MasterSlide masterSlide)](#MasterSlideHeaderFooterManager-com.aspose.slides.MasterSlide-) |  |
 ## Methods
 
 | Method | Description |
@@ -31,17 +26,6 @@ Represents manager which holds behavior of the master slide footer, date-time, p
 | [setDateTimeAndChildDateTimesVisibility(boolean isVisible)](#setDateTimeAndChildDateTimesVisibility-boolean-) | Changes master slide date-time placeholder and all child date-time placeholders visibility. |
 | [setFooterAndChildFootersText(String text)](#setFooterAndChildFootersText-java.lang.String-) | Sets text to master slide footer placeholder and all child footer placeholders. |
 | [setDateTimeAndChildDateTimesText(String text)](#setDateTimeAndChildDateTimesText-java.lang.String-) | Sets text to master slide date-time placeholder and all child date-time placeholders. |
-### MasterSlideHeaderFooterManager(MasterSlide masterSlide) {#MasterSlideHeaderFooterManager-com.aspose.slides.MasterSlide-}
-```
- MasterSlideHeaderFooterManager(MasterSlide masterSlide)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| masterSlide | [MasterSlide](../../com.aspose.slides/masterslide) |  |
-
 ### setFooterAndChildFootersVisibility(boolean isVisible) {#setFooterAndChildFootersVisibility-boolean-}
 ```
 public final void setFooterAndChildFootersVisibility(boolean isVisible)

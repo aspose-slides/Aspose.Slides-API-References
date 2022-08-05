@@ -14,11 +14,6 @@ public final class FillType extends System.Enum
 ```
 
 Specifies the interior fill type of various visual objects.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [FillType()](#FillType--) |  |
 ## Fields
 
 | Field | Description |
@@ -30,12 +25,6 @@ Specifies the interior fill type of various visual objects.
 | [Pattern](#Pattern) | Repeating pattern is used to fill the object. |
 | [Picture](#Picture) | A single picture is used to fill the object. |
 | [Group](#Group) | The visual object inherits the fill properties from the group. |
-### FillType() {#FillType--}
-```
-private FillType()
-```
-
-
 ### NotDefined {#NotDefined}
 ```
 public static final byte NotDefined

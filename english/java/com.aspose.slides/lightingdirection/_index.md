@@ -14,11 +14,6 @@ public final class LightingDirection extends System.Enum
 ```
 
 Constants which define light directions.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [LightingDirection()](#LightingDirection--) |  |
 ## Fields
 
 | Field | Description |
@@ -32,12 +27,6 @@ Constants which define light directions.
 | [Bottom](#Bottom) |  |
 | [BottomLeft](#BottomLeft) |  |
 | [Left](#Left) |  |
-### LightingDirection() {#LightingDirection--}
-```
-private LightingDirection()
-```
-
-
 ### NotDefined {#NotDefined}
 ```
 public static final int NotDefined

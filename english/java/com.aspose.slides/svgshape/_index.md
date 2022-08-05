@@ -17,11 +17,6 @@ public final class SvgShape implements ISvgShape
 ```
 
 Represents options for SVG shape.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [SvgShape()](#SvgShape--) |  |
 ## Methods
 
 | Method | Description |
@@ -29,12 +24,6 @@ Represents options for SVG shape.
 | [setEventHandler(int eventType, String handler)](#setEventHandler-int-java.lang.String-) | Sets event handler for the shape |
 | [getId()](#getId--) | Gets shape id |
 | [setId(String value)](#setId-java.lang.String-) | Gets shape id |
-### SvgShape() {#SvgShape--}
-```
- SvgShape()
-```
-
-
 ### setEventHandler(int eventType, String handler) {#setEventHandler-int-java.lang.String-}
 ```
 public final void setEventHandler(int eventType, String handler)

@@ -17,12 +17,6 @@ public class Effect implements IEffect, IDOMObject
 ```
 
 Represents animation effect.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [Effect()](#Effect--) |  |
-| [Effect(Sequence parent)](#Effect-com.aspose.slides.Sequence-) |  |
 ## Methods
 
 | Method | Description |
@@ -43,23 +37,6 @@ Represents animation effect.
 | [getSound()](#getSound--) | Defined embedded sound for effect. |
 | [setSound(IAudio value)](#setSound-com.aspose.slides.IAudio-) | Defined embedded sound for effect. |
 | [getParent_Immediate()](#getParent-Immediate--) |  |
-### Effect() {#Effect--}
-```
- Effect()
-```
-
-
-### Effect(Sequence parent) {#Effect-com.aspose.slides.Sequence-}
-```
- Effect(Sequence parent)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parent | [Sequence](../../com.aspose.slides/sequence) |  |
-
 ### getSequence() {#getSequence--}
 ```
 public final ISequence getSequence()

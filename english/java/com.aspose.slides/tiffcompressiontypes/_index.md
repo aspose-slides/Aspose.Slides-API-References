@@ -14,11 +14,6 @@ public final class TiffCompressionTypes extends System.Enum
 ```
 
 Provides options that control how a presentation is compressed in TIFF format.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [TiffCompressionTypes()](#TiffCompressionTypes--) |  |
 ## Fields
 
 | Field | Description |
@@ -29,12 +24,6 @@ Provides options that control how a presentation is compressed in TIFF format.
 | [CCITT4](#CCITT4) | Specifies the CCITT4 compression scheme. |
 | [LZW](#LZW) | Specifies the LZW compression scheme (Default). |
 | [RLE](#RLE) | Specifies the RLE compression scheme. |
-### TiffCompressionTypes() {#TiffCompressionTypes--}
-```
-private TiffCompressionTypes()
-```
-
-
 ### Default {#Default}
 ```
 public static final int Default

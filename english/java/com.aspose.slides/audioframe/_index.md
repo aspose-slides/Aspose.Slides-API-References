@@ -17,11 +17,6 @@ public class AudioFrame extends PictureFrame implements IAudioFrame
 ```
 
 Represents an audio clip on a slide.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [AudioFrame(IDOMObject parentImmediate)](#AudioFrame-com.aspose.slides.IDOMObject-) |  |
 ## Methods
 
 | Method | Description |
@@ -51,17 +46,6 @@ Represents an audio clip on a slide.
 | [setLinkPathLong(String value)](#setLinkPathLong-java.lang.String-) | Returns or sets the name of an audio file which is linked to an AudioFrame. |
 | [getEmbeddedAudio()](#getEmbeddedAudio--) | Returns or sets embedded audio object. |
 | [setEmbeddedAudio(IAudio value)](#setEmbeddedAudio-com.aspose.slides.IAudio-) | Returns or sets embedded audio object. |
-### AudioFrame(IDOMObject parentImmediate) {#AudioFrame-com.aspose.slides.IDOMObject-}
-```
- AudioFrame(IDOMObject parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | com.aspose.slides.IDOMObject |  |
-
 ### getAudioCdStartTrack() {#getAudioCdStartTrack--}
 ```
 public final int getAudioCdStartTrack()

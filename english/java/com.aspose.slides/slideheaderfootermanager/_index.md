@@ -17,19 +17,3 @@ public final class SlideHeaderFooterManager extends BaseSlideHeaderFooterManager
 ```
 
 Represents manager which holds behavior of the slide footer, date-time, page number placeholders.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [SlideHeaderFooterManager(Slide slide)](#SlideHeaderFooterManager-com.aspose.slides.Slide-) |  |
-### SlideHeaderFooterManager(Slide slide) {#SlideHeaderFooterManager-com.aspose.slides.Slide-}
-```
- SlideHeaderFooterManager(Slide slide)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| slide | [Slide](../../com.aspose.slides/slide) |  |
-

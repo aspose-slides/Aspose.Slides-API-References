@@ -14,11 +14,6 @@ public final class ErrorBarValueType extends System.Enum
 ```
 
 Represents type of error bar value
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [ErrorBarValueType()](#ErrorBarValueType--) |  |
 ## Fields
 
 | Field | Description |
@@ -28,12 +23,6 @@ Represents type of error bar value
 | [Percentage](#Percentage) | Specifies that the length of the error bars shall be Error Bar Value percent of the data. |
 | [StandardDeviation](#StandardDeviation) | Specifies that the length of the error bars shall be Error Bar Value standard deviations of the data. |
 | [StandardError](#StandardError) | Specifies that the length of the error bars shall be Error Bar Value standard errors of the data. |
-### ErrorBarValueType() {#ErrorBarValueType--}
-```
-private ErrorBarValueType()
-```
-
-
 ### Custom {#Custom}
 ```
 public static final int Custom

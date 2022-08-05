@@ -14,11 +14,6 @@ public final class EffectRestartType extends System.Enum
 ```
 
 Represent restart types for timing.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [EffectRestartType()](#EffectRestartType--) |  |
 ## Fields
 
 | Field | Description |
@@ -27,12 +22,6 @@ Represent restart types for timing.
 | [Always](#Always) |  |
 | [WhenNotActive](#WhenNotActive) |  |
 | [Never](#Never) |  |
-### EffectRestartType() {#EffectRestartType--}
-```
-private EffectRestartType()
-```
-
-
 ### NotDefined {#NotDefined}
 ```
 public static final int NotDefined

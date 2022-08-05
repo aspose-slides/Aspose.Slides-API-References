@@ -17,11 +17,6 @@ public class Luminance extends ImageTransformOperation implements ILuminance, IV
 ```
 
 Represents a Luminance effect. Brightness linearly shifts all colors closer to white or black. Contrast scales all colors to be either closer or further apart.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [Luminance(float brightness, float contrast, IDOMObject parentImmediate)](#Luminance-float-float-com.aspose.slides.IDOMObject-) | Luminance effect constructor. |
 ## Methods
 
 | Method | Description |
@@ -29,21 +24,6 @@ Represents a Luminance effect. Brightness linearly shifts all colors closer to w
 | [getEffective()](#getEffective--) | Gets effective Luminance effect data with the inheritance applied. |
 | [equals(Object obj)](#equals-java.lang.Object-) | Determines whether the specified [Luminance](../../com.aspose.slides/luminance) is equal to the current [Luminance](../../com.aspose.slides/luminance). |
 | [hashCode()](#hashCode--) | Serves as a hash function for a particular type. |
-### Luminance(float brightness, float contrast, IDOMObject parentImmediate) {#Luminance-float-float-com.aspose.slides.IDOMObject-}
-```
- Luminance(float brightness, float contrast, IDOMObject parentImmediate)
-```
-
-
-Luminance effect constructor.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| brightness | float | The percent to change the brightness. |
-| contrast | float | The percent to change the contrast. |
-| parentImmediate | com.aspose.slides.IDOMObject | The parent collection for Luminance. |
-
 ### getEffective() {#getEffective--}
 ```
 public final ILuminanceEffectiveData getEffective()

@@ -17,11 +17,6 @@ public class ControlPropertiesCollection implements IControlPropertiesCollection
 ```
 
 A collection of AcitveX properties.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [ControlPropertiesCollection()](#ControlPropertiesCollection--) |  |
 ## Methods
 
 | Method | Description |
@@ -35,12 +30,6 @@ A collection of AcitveX properties.
 | [getCount()](#getCount--) | Returns a number of properties in the collection. |
 | [iterator()](#iterator--) | Returns an enumerator that iterates through the collection. |
 | [iteratorJava()](#iteratorJava--) | Returns a java iterator for the entire collection. |
-### ControlPropertiesCollection() {#ControlPropertiesCollection--}
-```
- ControlPropertiesCollection()
-```
-
-
 ### add(String name, String value) {#add-java.lang.String-java.lang.String-}
 ```
 public final void add(String name, String value)

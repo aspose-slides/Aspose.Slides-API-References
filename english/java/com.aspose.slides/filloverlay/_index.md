@@ -17,11 +17,6 @@ public class FillOverlay extends ImageTransformOperation implements IFillOverlay
 ```
 
 Represents a Fill Overlay effect. A fill overlay may be used to specify an additional fill for an object and blend the two fills together.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [FillOverlay(IDOMObject parentImmediate)](#FillOverlay-com.aspose.slides.IDOMObject-) | Fill Overlay effect constructor. |
 ## Methods
 
 | Method | Description |
@@ -33,19 +28,6 @@ Represents a Fill Overlay effect. A fill overlay may be used to specify an addit
 | [getVersion()](#getVersion--) |  |
 | [equals(Object obj)](#equals-java.lang.Object-) | Determines whether the specified [FillOverlay](../../com.aspose.slides/filloverlay) is equal to the current [FillOverlay](../../com.aspose.slides/filloverlay). |
 | [hashCode()](#hashCode--) | Serves as a hash function for a particular type. |
-### FillOverlay(IDOMObject parentImmediate) {#FillOverlay-com.aspose.slides.IDOMObject-}
-```
- FillOverlay(IDOMObject parentImmediate)
-```
-
-
-Fill Overlay effect constructor.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | com.aspose.slides.IDOMObject |  |
-
 ### getFillFormat() {#getFillFormat--}
 ```
 public final IFillFormat getFillFormat()

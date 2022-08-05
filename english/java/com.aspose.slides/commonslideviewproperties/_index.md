@@ -17,11 +17,6 @@ public class CommonSlideViewProperties implements ICommonSlideViewProperties
 ```
 
 Represents common slide view properties.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [CommonSlideViewProperties()](#CommonSlideViewProperties--) |  |
 ## Methods
 
 | Method | Description |
@@ -30,12 +25,6 @@ Represents common slide view properties.
 | [setScale(int value)](#setScale-int-) | Specifies the view scaling ratio in percentages. |
 | [getVariableScale()](#getVariableScale--) | Specifies that the view content should automatically scale to best fit the current window size. |
 | [setVariableScale(boolean value)](#setVariableScale-boolean-) | Specifies that the view content should automatically scale to best fit the current window size. |
-### CommonSlideViewProperties() {#CommonSlideViewProperties--}
-```
- CommonSlideViewProperties()
-```
-
-
 ### getScale() {#getScale--}
 ```
 public final int getScale()

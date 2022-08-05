@@ -14,23 +14,12 @@ public final class ReturnAction extends System.Enum
 ```
 
 Represents warning callback decision options.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [ReturnAction()](#ReturnAction--) |  |
 ## Fields
 
 | Field | Description |
 | --- | --- |
 | [Continue](#Continue) | Operation should be continued. |
 | [Abort](#Abort) | Operation should be aborted. |
-### ReturnAction() {#ReturnAction--}
-```
-private ReturnAction()
-```
-
-
 ### Continue {#Continue}
 ```
 public static final int Continue

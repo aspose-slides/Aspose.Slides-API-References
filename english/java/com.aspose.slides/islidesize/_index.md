@@ -31,7 +31,7 @@ Returns or sets the size in points. Read/write java.awt.geom.Dimension2D.
 
 --------------------
 
-Assigning any value will reset (\#getType) property to [SlideSizeType\#Custom](../../com.aspose.slides/slidesizetype\#Custom) and set ([ISlideSize\#getOrientation](../../com.aspose.slides/islidesize\#getOrientation)/[ISlideSize\#setOrientation(int)](../../com.aspose.slides/islidesize\#setOrientation(int))).
+Assigning any value will reset (\#getType) property to [SlideSizeType\#Custom](../../com.aspose.slides/slidesizetype\#Custom) and set ([ISlideSize\#getOrientation](../../com.aspose.slides/islidesize\#getOrientation)/[ISlideSize\#setOrientation(int)](../../com.aspose.slides/islidesize\#setOrientation-int-)).
 
 **Returns:**
 java.awt.geom.Dimension2D
@@ -45,7 +45,7 @@ Returns or sets the type of slide size. Read/write [SlideSizeType](../../com.asp
 
 --------------------
 
-Assigning any value except [SlideSizeType\#Custom](../../com.aspose.slides/slidesizetype\#Custom) will change ([ISlideSize\#getSize](../../com.aspose.slides/islidesize\#getSize)) accordingly, but will keep ([ISlideSize\#getOrientation](../../com.aspose.slides/islidesize\#getOrientation)/[ISlideSize\#setOrientation(int)](../../com.aspose.slides/islidesize\#setOrientation(int))) intact.
+Assigning any value except [SlideSizeType\#Custom](../../com.aspose.slides/slidesizetype\#Custom) will change ([ISlideSize\#getSize](../../com.aspose.slides/islidesize\#getSize)) accordingly, but will keep ([ISlideSize\#getOrientation](../../com.aspose.slides/islidesize\#getOrientation)/[ISlideSize\#setOrientation(int)](../../com.aspose.slides/islidesize\#setOrientation-int-)) intact.
 
 **Returns:**
 int
@@ -96,7 +96,7 @@ Sets the type of slide size and scales content using scale type.
 
 --------------------
 
-Assigning any value except [SlideSizeType\#Custom](../com.aspose.slides/slidesizetype\#Custom) will change ([ISlideSize\#getSize](../com.aspose.slides/islidesize\#getSize)) accordingly, but will keep ([ISlideSize\#getOrientation](../com.aspose.slides/islidesize\#getOrientation)/[ISlideSize\#setOrientation(int)](../com.aspose.slides/islidesize\#setOrientation(int))) intact. |
+Assigning any value except [SlideSizeType\#Custom](../com.aspose.slides/slidesizetype\#Custom) will change ([ISlideSize\#getSize](../com.aspose.slides/islidesize\#getSize)) accordingly, but will keep ([ISlideSize\#getOrientation](../com.aspose.slides/islidesize\#getOrientation)/[ISlideSize\#setOrientation(int)](../com.aspose.slides/islidesize\#setOrientation-int-)) intact. |
 
 ### setSize(float width, float height, int scaleType) {#setSize-float-float-int-}
 ```
@@ -115,5 +115,5 @@ Sets the size in points and scales content using scale type.
 
 --------------------
 
-Assigning any value will reset (\#getType) property to [SlideSizeType\#Custom](../com.aspose.slides/slidesizetype\#Custom) and set ([ISlideSize\#getOrientation](../com.aspose.slides/islidesize\#getOrientation)/[ISlideSize\#setOrientation(int)](../com.aspose.slides/islidesize\#setOrientation(int))). |
+Assigning any value will reset (\#getType) property to [SlideSizeType\#Custom](../com.aspose.slides/slidesizetype\#Custom) and set ([ISlideSize\#getOrientation](../com.aspose.slides/islidesize\#getOrientation)/[ISlideSize\#setOrientation(int)](../com.aspose.slides/islidesize\#setOrientation-int-)). |
 

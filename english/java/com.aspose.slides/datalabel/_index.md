@@ -22,9 +22,6 @@ Represents a series labels.
 | Constructor | Description |
 | --- | --- |
 | [DataLabel(IChartDataPoint parentImmediate)](#DataLabel-com.aspose.slides.IChartDataPoint-) | Creates a new instance of DataLabel class. |
-| [DataLabel(IChartCategory parentImmediate, ChartSeries parentSeries)](#DataLabel-com.aspose.slides.IChartCategory-com.aspose.slides.ChartSeries-) | Creates a new instance of DataLabel class. |
-| [DataLabel(AggregatedDataPoint parentImmediate)](#DataLabel-com.aspose.slides.AggregatedDataPoint-) | Creates a new instance of DataLabel class. |
-| [DataLabel(ChartDataPointLevel parentImmediate)](#DataLabel-com.aspose.slides.ChartDataPointLevel-) | Creates a new instance of DataLabel class. |
 ## Methods
 
 | Method | Description |
@@ -68,46 +65,6 @@ Creates a new instance of DataLabel class.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | parentImmediate | [IChartDataPoint](../../com.aspose.slides/ichartdatapoint) | Parent ChartDataPoint. |
-
-### DataLabel(IChartCategory parentImmediate, ChartSeries parentSeries) {#DataLabel-com.aspose.slides.IChartCategory-com.aspose.slides.ChartSeries-}
-```
- DataLabel(IChartCategory parentImmediate, ChartSeries parentSeries)
-```
-
-
-Creates a new instance of DataLabel class.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | [IChartCategory](../../com.aspose.slides/ichartcategory) | Parent ChartCategory. |
-| parentSeries | [ChartSeries](../../com.aspose.slides/chartseries) | Related series for loading default data label format. |
-
-### DataLabel(AggregatedDataPoint parentImmediate) {#DataLabel-com.aspose.slides.AggregatedDataPoint-}
-```
- DataLabel(AggregatedDataPoint parentImmediate)
-```
-
-
-Creates a new instance of DataLabel class.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | com.aspose.slides.AggregatedDataPoint | Parent ChartDataPoint. |
-
-### DataLabel(ChartDataPointLevel parentImmediate) {#DataLabel-com.aspose.slides.ChartDataPointLevel-}
-```
- DataLabel(ChartDataPointLevel parentImmediate)
-```
-
-
-Creates a new instance of DataLabel class.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | [ChartDataPointLevel](../../com.aspose.slides/chartdatapointlevel) | Parent ChartDataPointLevel. |
 
 ### getParent_Immediate() {#getParent-Immediate--}
 ```

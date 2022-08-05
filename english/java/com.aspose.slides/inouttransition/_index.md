@@ -17,30 +17,12 @@ public class InOutTransition extends TransitionValueBase implements IInOutTransi
 ```
 
 In-Out slide transition effect.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [InOutTransition(int type)](#InOutTransition-int-) | Constructor for in/out slide transition effects. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [getDirection()](#getDirection--) | Direction of a transition effect. |
 | [setDirection(int value)](#setDirection-int-) | Direction of a transition effect. |
-### InOutTransition(int type) {#InOutTransition-int-}
-```
- InOutTransition(int type)
-```
-
-
-Constructor for in/out slide transition effects.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| type | int | Type of an in/out transition effect. |
-
 ### getDirection() {#getDirection--}
 ```
 public final int getDirection()

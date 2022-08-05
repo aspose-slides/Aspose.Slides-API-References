@@ -17,11 +17,6 @@ public class BehaviorCollection implements IBehaviorCollection
 ```
 
 Represents collection of behavior effects.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [BehaviorCollection()](#BehaviorCollection--) |  |
 ## Methods
 
 | Method | Description |
@@ -40,12 +35,6 @@ Represents collection of behavior effects.
 | [set_Item(int index, IBehavior value)](#set-Item-int-com.aspose.slides.IBehavior-) | Sets a behavior at the specified index. |
 | [iterator()](#iterator--) | Returns an enumerator that iterates through the collection. |
 | [iteratorJava()](#iteratorJava--) | Returns a java iterator for the entire collection. |
-### BehaviorCollection() {#BehaviorCollection--}
-```
- BehaviorCollection()
-```
-
-
 ### getCount() {#getCount--}
 ```
 public final int getCount()

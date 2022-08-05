@@ -17,11 +17,6 @@ public class MasterTheme extends Theme implements IMasterTheme
 ```
 
 Represents a master theme.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [MasterTheme(IDOMObject parentImmediate)](#MasterTheme-com.aspose.slides.IDOMObject-) |  |
 ## Methods
 
 | Method | Description |
@@ -33,17 +28,6 @@ Represents a master theme.
 | [getName()](#getName--) | Returns the name of a theme. |
 | [setName(String value)](#setName-java.lang.String-) | Returns the name of a theme. |
 | [getVersion()](#getVersion--) |  |
-### MasterTheme(IDOMObject parentImmediate) {#MasterTheme-com.aspose.slides.IDOMObject-}
-```
- MasterTheme(IDOMObject parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | com.aspose.slides.IDOMObject |  |
-
 ### getColorScheme() {#getColorScheme--}
 ```
 public IColorScheme getColorScheme()

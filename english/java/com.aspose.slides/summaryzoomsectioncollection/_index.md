@@ -17,11 +17,6 @@ public final class SummaryZoomSectionCollection extends DomObject<SummaryZoomFra
 ```
 
 Represents a collection of Summary Zoom Section objects.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [SummaryZoomSectionCollection(SummaryZoomFrame parentImmediate)](#SummaryZoomSectionCollection-com.aspose.slides.SummaryZoomFrame-) | Creates new SummaryZoomSectionCollection for a Summary Zoom Frame object. |
 ## Methods
 
 | Method | Description |
@@ -38,19 +33,6 @@ Represents a collection of Summary Zoom Section objects.
 | [getSyncRoot()](#getSyncRoot--) | Returns a synchronization root. |
 | [iterator()](#iterator--) | Returns an enumerator that iterates through the collection. |
 | [iteratorJava()](#iteratorJava--) | Returns a java iterator for the entire collection. |
-### SummaryZoomSectionCollection(SummaryZoomFrame parentImmediate) {#SummaryZoomSectionCollection-com.aspose.slides.SummaryZoomFrame-}
-```
- SummaryZoomSectionCollection(SummaryZoomFrame parentImmediate)
-```
-
-
-Creates new SummaryZoomSectionCollection for a Summary Zoom Frame object.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | [SummaryZoomFrame](../../com.aspose.slides/summaryzoomframe) | Parest [SummaryZoomFrame](../com.aspose.slides/summaryzoomframe) |
-
 ### get_Item(int index) {#get-Item-int-}
 ```
 public final ISummaryZoomSection get_Item(int index)

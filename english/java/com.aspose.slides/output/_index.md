@@ -14,11 +14,6 @@ public final class Output
 ```
 
 Represents a collection of output elements for IWebDocument.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [Output(ITemplateEngine templateEngine, Storage global)](#Output-com.aspose.slides.ITemplateEngine-com.aspose.slides.Storage-) |  |
 ## Methods
 
 | Method | Description |
@@ -31,18 +26,6 @@ Represents a collection of output elements for IWebDocument.
 | [add(String path, String textContent)](#add-java.lang.String-java.lang.String-) | Adds an output element for the text content. |
 | [bindResource(IOutputFile outputFile, Object obj)](#bindResource-com.aspose.slides.IOutputFile-java.lang.Object-) | Binds resource to output file. |
 | [getResourcePath(Object obj)](#getResourcePath-java.lang.Object-) | Returns the path for a given resource. |
-### Output(ITemplateEngine templateEngine, Storage global) {#Output-com.aspose.slides.ITemplateEngine-com.aspose.slides.Storage-}
-```
- Output(ITemplateEngine templateEngine, Storage global)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| templateEngine | [ITemplateEngine](../../com.aspose.slides/itemplateengine) |  |
-| global | [Storage](../../com.aspose.slides/storage) |  |
-
 ### <TContextObject>add(String path, String templateKey, TContextObject contextObject) {#-TContextObject-add-java.lang.String-java.lang.String-TContextObject-}
 ```
 public final IOutputFile <TContextObject>add(String path, String templateKey, TContextObject contextObject)

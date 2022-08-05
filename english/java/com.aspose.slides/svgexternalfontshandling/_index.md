@@ -14,11 +14,6 @@ public final class SvgExternalFontsHandling extends System.Enum
 ```
 
 Represents a way to handle external fonts used for text drawing.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [SvgExternalFontsHandling()](#SvgExternalFontsHandling--) |  |
 ## Fields
 
 | Field | Description |
@@ -26,12 +21,6 @@ Represents a way to handle external fonts used for text drawing.
 | [AddLinksToFontFiles](#AddLinksToFontFiles) | Add links to separate font files to style section of SVG file. |
 | [Embed](#Embed) | Save fonts data directly to SVG file. |
 | [Vectorize](#Vectorize) | Save all text using external fonts as graphics. |
-### SvgExternalFontsHandling() {#SvgExternalFontsHandling--}
-```
-private SvgExternalFontsHandling()
-```
-
-
 ### AddLinksToFontFiles {#AddLinksToFontFiles}
 ```
 public static final int AddLinksToFontFiles

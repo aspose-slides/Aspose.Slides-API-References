@@ -14,11 +14,6 @@ public final class MathVerticalAlignment extends System.Enum
 ```
 
 Vertical Alignment
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [MathVerticalAlignment()](#MathVerticalAlignment--) |  |
 ## Fields
 
 | Field | Description |
@@ -27,12 +22,6 @@ Vertical Alignment
 | [Top](#Top) | Top |
 | [Center](#Center) | Center |
 | [Bottom](#Bottom) | Bottom |
-### MathVerticalAlignment() {#MathVerticalAlignment--}
-```
-private MathVerticalAlignment()
-```
-
-
 ### NotDefined {#NotDefined}
 ```
 public static final int NotDefined

@@ -17,11 +17,6 @@ public class ChartTitle implements IChartTitle, IDOMObject
 ```
 
 Represents chart title properties.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [ChartTitle(IDOMObject parentImmediate)](#ChartTitle-com.aspose.slides.IDOMObject-) |  |
 ## Methods
 
 | Method | Description |
@@ -46,17 +41,6 @@ Represents chart title properties.
 | [getChart()](#getChart--) | Returns the parent chart. |
 | [getSlide()](#getSlide--) | Returns the parent slide of a FillFormat. |
 | [getPresentation()](#getPresentation--) | Returns the parent presentation of a FillFormat. |
-### ChartTitle(IDOMObject parentImmediate) {#ChartTitle-com.aspose.slides.IDOMObject-}
-```
- ChartTitle(IDOMObject parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | com.aspose.slides.IDOMObject |  |
-
 ### getX() {#getX--}
 ```
 public final float getX()

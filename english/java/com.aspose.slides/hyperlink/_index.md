@@ -24,8 +24,6 @@ Represents a hyperlink.
 | [Hyperlink(String url)](#Hyperlink-java.lang.String-) | Creates an instance of a hyperlink. |
 | [Hyperlink(ISlide slide)](#Hyperlink-com.aspose.slides.ISlide-) | Creates an instance of a hyperlink which points to specific slide. |
 | [Hyperlink(Hyperlink source, String targetFrame, String tooltip, boolean history, boolean stopSoundsOnClick, boolean highlightClick)](#Hyperlink-com.aspose.slides.Hyperlink-java.lang.String-java.lang.String-boolean-boolean-boolean-) | Creates an instance of a hyperlink using another hyperlink as source, overriding secondary properties. |
-| [Hyperlink(boolean external, String uri, int actionType)](#Hyperlink-boolean-java.lang.String-int-) |  |
-| [Hyperlink(int actionType)](#Hyperlink-int-) |  |
 ## Methods
 
 | Method | Description |
@@ -102,30 +100,6 @@ Creates an instance of a hyperlink using another hyperlink as source, overriding
 | history | boolean | Determines whether the target of the parent hyperlink shall be added to a list of viewed hyperlinks when it is invoked. |
 | stopSoundsOnClick | boolean | Determines whether the sound should be stopped on hyperlink click. |
 | highlightClick | boolean | Determines whether the hyperlink should be highlighted on click. |
-
-### Hyperlink(boolean external, String uri, int actionType) {#Hyperlink-boolean-java.lang.String-int-}
-```
- Hyperlink(boolean external, String uri, int actionType)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| external | boolean |  |
-| uri | java.lang.String |  |
-| actionType | int |  |
-
-### Hyperlink(int actionType) {#Hyperlink-int-}
-```
-private Hyperlink(int actionType)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| actionType | int |  |
 
 ### getNoAction() {#getNoAction--}
 ```

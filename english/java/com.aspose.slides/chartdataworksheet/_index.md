@@ -18,42 +18,12 @@ public class ChartDataWorksheet extends DomObject<ChartDataWorksheetCollection> 
 ```
 
 Represents worksheet associated with [IChartDataCell](../../com.aspose.slides/ichartdatacell)
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [ChartDataWorksheet(ChartDataWorksheetCollection parentImmediate)](#ChartDataWorksheet-com.aspose.slides.ChartDataWorksheetCollection-) |  |
-| [ChartDataWorksheet(ChartDataWorksheetCollection parentImmediate, WorkSheetElement elem, SharedStringCollection sst)](#ChartDataWorksheet-com.aspose.slides.ChartDataWorksheetCollection-com.aspose.slides.WorkSheetElement-com.aspose.slides.SharedStringCollection-) |  |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [getName()](#getName--) | Returns the name of the worksheet. |
 | [getIndex()](#getIndex--) | Gets the index of the worksheet. |
-### ChartDataWorksheet(ChartDataWorksheetCollection parentImmediate) {#ChartDataWorksheet-com.aspose.slides.ChartDataWorksheetCollection-}
-```
- ChartDataWorksheet(ChartDataWorksheetCollection parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | [ChartDataWorksheetCollection](../../com.aspose.slides/chartdataworksheetcollection) |  |
-
-### ChartDataWorksheet(ChartDataWorksheetCollection parentImmediate, WorkSheetElement elem, SharedStringCollection sst) {#ChartDataWorksheet-com.aspose.slides.ChartDataWorksheetCollection-com.aspose.slides.WorkSheetElement-com.aspose.slides.SharedStringCollection-}
-```
- ChartDataWorksheet(ChartDataWorksheetCollection parentImmediate, WorkSheetElement elem, SharedStringCollection sst)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | [ChartDataWorksheetCollection](../../com.aspose.slides/chartdataworksheetcollection) |  |
-| elem | com.aspose.slides.WorkSheetElement |  |
-| sst | com.aspose.slides.SharedStringCollection |  |
-
 ### getName() {#getName--}
 ```
 public final String getName()

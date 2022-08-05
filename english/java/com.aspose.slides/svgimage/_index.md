@@ -24,11 +24,9 @@ Represents an SVG image.
 | [SvgImage(byte[] data)](#SvgImage-byte---) | Creates new SvgImage object. |
 | [SvgImage(String svgContent)](#SvgImage-java.lang.String-) | Creates new SvgImage object. |
 | [SvgImage(InputStream stream)](#SvgImage-java.io.InputStream-) | Creates new SvgImage object. |
-| [SvgImage(System.IO.Stream stream)](#SvgImage-com.aspose.ms.System.IO.Stream-) |  |
 | [SvgImage(byte[] data, IExternalResourceResolver externalResResolver, String baseUri)](#SvgImage-byte---com.aspose.slides.IExternalResourceResolver-java.lang.String-) | Creates new SvgImage object. |
 | [SvgImage(String svgContent, IExternalResourceResolver externalResResolver, String baseUri)](#SvgImage-java.lang.String-com.aspose.slides.IExternalResourceResolver-java.lang.String-) | Creates new SvgImage object. |
 | [SvgImage(InputStream stream, IExternalResourceResolver externalResResolver, String baseUri)](#SvgImage-java.io.InputStream-com.aspose.slides.IExternalResourceResolver-java.lang.String-) | Creates new SvgImage object. |
-| [SvgImage(System.IO.Stream stream, IExternalResourceResolver externalResResolver, String baseUri)](#SvgImage-com.aspose.ms.System.IO.Stream-com.aspose.slides.IExternalResourceResolver-java.lang.String-) |  |
 ## Methods
 
 | Method | Description |
@@ -76,17 +74,6 @@ Creates new SvgImage object.
 | --- | --- | --- |
 | stream | java.io.InputStream | Svg stream. |
 
-### SvgImage(System.IO.Stream stream) {#SvgImage-com.aspose.ms.System.IO.Stream-}
-```
- SvgImage(System.IO.Stream stream)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| stream | com.aspose.ms.System.IO.Stream |  |
-
 ### SvgImage(byte[] data, IExternalResourceResolver externalResResolver, String baseUri) {#SvgImage-byte---com.aspose.slides.IExternalResourceResolver-java.lang.String-}
 ```
 public SvgImage(byte[] data, IExternalResourceResolver externalResResolver, String baseUri)
@@ -131,19 +118,6 @@ Creates new SvgImage object.
 | stream | java.io.InputStream | Svg stream. |
 | externalResResolver | [IExternalResourceResolver](../../com.aspose.slides/iexternalresourceresolver) | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
 | baseUri | java.lang.String | Base URI of the specified Svg. Used to resolve relative links. |
-
-### SvgImage(System.IO.Stream stream, IExternalResourceResolver externalResResolver, String baseUri) {#SvgImage-com.aspose.ms.System.IO.Stream-com.aspose.slides.IExternalResourceResolver-java.lang.String-}
-```
- SvgImage(System.IO.Stream stream, IExternalResourceResolver externalResResolver, String baseUri)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| stream | com.aspose.ms.System.IO.Stream |  |
-| externalResResolver | [IExternalResourceResolver](../../com.aspose.slides/iexternalresourceresolver) |  |
-| baseUri | java.lang.String |  |
 
 ### getSvgData() {#getSvgData--}
 ```

@@ -17,11 +17,6 @@ public class TrendlineCollection extends DomObject<ChartSeries> implements ITren
 ```
 
 Represents a collection of Trendline
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [TrendlineCollection(ChartSeries parentImmediate)](#TrendlineCollection-com.aspose.slides.ChartSeries-) | Creates a new instance of Trendline class. |
 ## Methods
 
 | Method | Description |
@@ -32,19 +27,6 @@ Represents a collection of Trendline
 | [iterator()](#iterator--) | Returns an enumerator that iterates through the collection. |
 | [iteratorJava()](#iteratorJava--) | Returns a java iterator for the entire collection. |
 | [getCount()](#getCount--) | Gets the number of elements actually contained in the collection. |
-### TrendlineCollection(ChartSeries parentImmediate) {#TrendlineCollection-com.aspose.slides.ChartSeries-}
-```
- TrendlineCollection(ChartSeries parentImmediate)
-```
-
-
-Creates a new instance of Trendline class.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | [ChartSeries](../../com.aspose.slides/chartseries) |  |
-
 ### get_Item(int index) {#get-Item-int-}
 ```
 public final ITrendline get_Item(int index)

@@ -17,12 +17,6 @@ public class Audio extends DomObject<AudioCollection> implements IAudio
 ```
 
 Represents an embedded audio file.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [Audio(IBlobHandler blobHandler, String contentType, String extension, AudioCollection parentImmediate)](#Audio-com.aspose.foundation.blob.IBlobHandler-java.lang.String-java.lang.String-com.aspose.slides.AudioCollection-) |  |
-| [Audio(IBlobHandler blobHandler, AudioCollection parentImmediate)](#Audio-com.aspose.foundation.blob.IBlobHandler-com.aspose.slides.AudioCollection-) |  |
 ## Methods
 
 | Method | Description |
@@ -31,32 +25,6 @@ Represents an embedded audio file.
 | [setContentType(String value)](#setContentType-java.lang.String-) | Returns a MIME type of an audio, encoded in (\#getBinaryData). |
 | [getBinaryData()](#getBinaryData--) | Returns the copy of an audio's data. |
 | [getStream()](#getStream--) | Returns Stream stream for reading. |
-### Audio(IBlobHandler blobHandler, String contentType, String extension, AudioCollection parentImmediate) {#Audio-com.aspose.foundation.blob.IBlobHandler-java.lang.String-java.lang.String-com.aspose.slides.AudioCollection-}
-```
- Audio(IBlobHandler blobHandler, String contentType, String extension, AudioCollection parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| blobHandler | com.aspose.foundation.blob.IBlobHandler |  |
-| contentType | java.lang.String |  |
-| extension | java.lang.String |  |
-| parentImmediate | [AudioCollection](../../com.aspose.slides/audiocollection) |  |
-
-### Audio(IBlobHandler blobHandler, AudioCollection parentImmediate) {#Audio-com.aspose.foundation.blob.IBlobHandler-com.aspose.slides.AudioCollection-}
-```
- Audio(IBlobHandler blobHandler, AudioCollection parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| blobHandler | com.aspose.foundation.blob.IBlobHandler |  |
-| parentImmediate | [AudioCollection](../../com.aspose.slides/audiocollection) |  |
-
 ### getContentType() {#getContentType--}
 ```
 public final String getContentType()

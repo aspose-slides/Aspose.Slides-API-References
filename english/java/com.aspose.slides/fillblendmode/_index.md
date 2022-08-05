@@ -14,11 +14,6 @@ public final class FillBlendMode extends System.Enum
 ```
 
 Determines blend mode.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [FillBlendMode()](#FillBlendMode--) |  |
 ## Fields
 
 | Field | Description |
@@ -28,12 +23,6 @@ Determines blend mode.
 | [Multiply](#Multiply) | Multiply blend mode. |
 | [Overlay](#Overlay) | Overlay blend mode. |
 | [Screen](#Screen) | Screen blend mode. |
-### FillBlendMode() {#FillBlendMode--}
-```
-private FillBlendMode()
-```
-
-
 ### Darken {#Darken}
 ```
 public static final int Darken

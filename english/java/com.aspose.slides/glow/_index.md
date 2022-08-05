@@ -18,11 +18,6 @@ public class Glow implements IGlow, IVisualEffect, IDOMObject, IPVIObject, Clone
 ```
 
 Represents a Glow effect, in which a color blurred outline is added outside the edges of the object.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [Glow(IDOMObject parentImmediate)](#Glow-com.aspose.slides.IDOMObject-) | Creates a new instance of the Glow class. |
 ## Methods
 
 | Method | Description |
@@ -37,19 +32,6 @@ Represents a Glow effect, in which a color blurred outline is added outside the 
 | [equals(Object obj)](#equals-java.lang.Object-) | Determines whether the specified [Glow](../../com.aspose.slides/glow) is equal to the current [Glow](../../com.aspose.slides/glow). |
 | [hashCode()](#hashCode--) | Serves as a hash function for a particular type. |
 | [memberwiseClone()](#memberwiseClone--) |  |
-### Glow(IDOMObject parentImmediate) {#Glow-com.aspose.slides.IDOMObject-}
-```
- Glow(IDOMObject parentImmediate)
-```
-
-
-Creates a new instance of the Glow class.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | com.aspose.slides.IDOMObject |  |
-
 ### getRadius() {#getRadius--}
 ```
 public final double getRadius()

@@ -17,11 +17,6 @@ public class Connector extends GeometryShape implements IConnector
 ```
 
 Represents a connector.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [Connector(IDOMObject parentImmediate)](#Connector-com.aspose.slides.IDOMObject-) | Initializes new instance of class [Connector](../../com.aspose.slides/connector) |
 ## Methods
 
 | Method | Description |
@@ -39,19 +34,6 @@ Represents a connector.
 | [getEndShapeConnectionSiteIndex()](#getEndShapeConnectionSiteIndex--) | Returns or sets the index of connection site for end shape. |
 | [setEndShapeConnectionSiteIndex(long value)](#setEndShapeConnectionSiteIndex-long-) | Returns or sets the index of connection site for end shape. |
 | [reroute()](#reroute--) | Reroutes connector so that it take the shortest possible path between the shapes it connect. |
-### Connector(IDOMObject parentImmediate) {#Connector-com.aspose.slides.IDOMObject-}
-```
- Connector(IDOMObject parentImmediate)
-```
-
-
-Initializes new instance of class [Connector](../../com.aspose.slides/connector)
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | com.aspose.slides.IDOMObject |  |
-
 ### getShapeLock() {#getShapeLock--}
 ```
 public final IConnectorLock getShapeLock()

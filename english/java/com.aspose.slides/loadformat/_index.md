@@ -14,11 +14,6 @@ public final class LoadFormat extends System.Enum
 ```
 
 Indicates the format of the document that is to be loaded.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [LoadFormat()](#LoadFormat--) |  |
 ## Fields
 
 | Field | Description |
@@ -38,12 +33,6 @@ Indicates the format of the document that is to be loaded.
 | [Pot](#Pot) | Microsoft PowerPoint 97-2003 Presentation Template. |
 | [Fodp](#Fodp) | Flat XML ODF Presentation. |
 | [Unknown](#Unknown) | Unknown file format |
-### LoadFormat() {#LoadFormat--}
-```
-private LoadFormat()
-```
-
-
 ### Auto {#Auto}
 ```
 public static final int Auto

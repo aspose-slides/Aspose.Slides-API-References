@@ -17,11 +17,6 @@ public final class SlideCollection extends DomObject<Presentation> implements IS
 ```
 
 Represents a collection of a slides.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [SlideCollection(Presentation parentImmediate)](#SlideCollection-com.aspose.slides.Presentation-) |  |
 ## Methods
 
 | Method | Description |
@@ -59,17 +54,6 @@ Represents a collection of a slides.
 | [copyTo(System.Array array, int index)](#copyTo-com.aspose.ms.System.Array-int-) | Copies all elements from the collection to the specified array. |
 | [isSynchronized()](#isSynchronized--) | Returns a value indicating whether access to the collection is synchronized (thread-safe). |
 | [getSyncRoot()](#getSyncRoot--) | Returns a synchronization root. |
-### SlideCollection(Presentation parentImmediate) {#SlideCollection-com.aspose.slides.Presentation-}
-```
- SlideCollection(Presentation parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | [Presentation](../../com.aspose.slides/presentation) |  |
-
 ### size() {#size--}
 ```
 public final int size()
@@ -110,7 +94,7 @@ Adds a copy of a specified slide to the end of the collection.
 
 --------------------
 
-When cloning a slide between different presentations slide's master can be cloned too. Internal registry is used to track automatically cloned masters to prevent creation of multiple clones of the same master slide. Manual cloning of master slides will be neither prevented nor registered. If you need more control over cloning process use \#addClone(ISlide,ILayoutSlide) or \#addClone(ISlide,IMasterSlide,boolean) for cloning slides, [IGlobalLayoutSlideCollection\#addClone(ILayoutSlide)](../com.aspose.slides/igloballayoutslidecollection\#addClone(ILayoutSlide)) or [IGlobalLayoutSlideCollection\#addClone(ILayoutSlide,IMasterSlide)](../com.aspose.slides/igloballayoutslidecollection\#addClone(ILayoutSlide,IMasterSlide)) for cloning layouts and [IMasterSlideCollection\#addClone(IMasterSlide)](../com.aspose.slides/imasterslidecollection\#addClone(IMasterSlide)) for cloning masters. |
+When cloning a slide between different presentations slide's master can be cloned too. Internal registry is used to track automatically cloned masters to prevent creation of multiple clones of the same master slide. Manual cloning of master slides will be neither prevented nor registered. If you need more control over cloning process use \#addClone(ISlide,ILayoutSlide) or \#addClone(ISlide,IMasterSlide,boolean) for cloning slides, [IGlobalLayoutSlideCollection\#addClone(ILayoutSlide)](../com.aspose.slides/igloballayoutslidecollection\#addClone-ILayoutSlide-) or [IGlobalLayoutSlideCollection\#addClone(ILayoutSlide,IMasterSlide)](../com.aspose.slides/igloballayoutslidecollection\#addClone-ILayoutSlide-IMasterSlide-) for cloning layouts and [IMasterSlideCollection\#addClone(IMasterSlide)](../com.aspose.slides/imasterslidecollection\#addClone-IMasterSlide-) for cloning masters. |
 
 **Returns:**
 [ISlide](../../com.aspose.slides/islide) - New slide.
@@ -164,7 +148,7 @@ Inserts a copy of a specified slide to specified position of the collection.
 
 --------------------
 
-When cloning a slide between different presentations slide's master can be cloned too. Internal registry is used to track automatically cloned masters to prevent creation of multiple clones of the same master slide. Manual cloning of master slides will be neither prevented nor registered. If you need more control over cloning process use \#insertClone(int,ISlide,ILayoutSlide) or \#insertClone(int,ISlide,IMasterSlide,boolean) for cloning slides and [IMasterSlideCollection\#addClone(IMasterSlide)](../com.aspose.slides/imasterslidecollection\#addClone(IMasterSlide)) for cloning masters. |
+When cloning a slide between different presentations slide's master can be cloned too. Internal registry is used to track automatically cloned masters to prevent creation of multiple clones of the same master slide. Manual cloning of master slides will be neither prevented nor registered. If you need more control over cloning process use \#insertClone(int,ISlide,ILayoutSlide) or \#insertClone(int,ISlide,IMasterSlide,boolean) for cloning slides and [IMasterSlideCollection\#addClone(IMasterSlide)](../com.aspose.slides/imasterslidecollection\#addClone-IMasterSlide-) for cloning masters. |
 
 **Returns:**
 [ISlide](../../com.aspose.slides/islide) - Inserted slide.

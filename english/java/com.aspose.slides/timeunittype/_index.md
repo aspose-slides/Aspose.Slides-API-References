@@ -14,11 +14,6 @@ public final class TimeUnitType extends System.Enum
 ```
 
 Represents the base unit for the category axis
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [TimeUnitType()](#TimeUnitType--) |  |
 ## Fields
 
 | Field | Description |
@@ -27,12 +22,6 @@ Represents the base unit for the category axis
 | [Days](#Days) | Specifies the chart data shall be shown in days. |
 | [Months](#Months) | Specifies the chart data shall be shown in months. |
 | [Years](#Years) | Specifies the chart data shall be shown in years. |
-### TimeUnitType() {#TimeUnitType--}
-```
-private TimeUnitType()
-```
-
-
 ### None {#None}
 ```
 public static final int None

@@ -14,11 +14,6 @@ public final class TransitionCornerDirectionType extends System.Enum
 ```
 
 Represent corner direction transition types.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [TransitionCornerDirectionType()](#TransitionCornerDirectionType--) |  |
 ## Fields
 
 | Field | Description |
@@ -27,12 +22,6 @@ Represent corner direction transition types.
 | [LeftUp](#LeftUp) |  |
 | [RightDown](#RightDown) |  |
 | [RightUp](#RightUp) |  |
-### TransitionCornerDirectionType() {#TransitionCornerDirectionType--}
-```
-private TransitionCornerDirectionType()
-```
-
-
 ### LeftDown {#LeftDown}
 ```
 public static final int LeftDown

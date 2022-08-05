@@ -14,11 +14,6 @@ public final class ShapesAlignmentType extends System.Enum
 ```
 
 Defines a way to change the placement of selected shapes on the slide.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [ShapesAlignmentType()](#ShapesAlignmentType--) |  |
 ## Fields
 
 | Field | Description |
@@ -31,12 +26,6 @@ Defines a way to change the placement of selected shapes on the slide.
 | [AlignBottom](#AlignBottom) | Align bottom |
 | [DistributeHorizontally](#DistributeHorizontally) | Distribute horizontally |
 | [DistributeVertically](#DistributeVertically) | Distribute vertically |
-### ShapesAlignmentType() {#ShapesAlignmentType--}
-```
-private ShapesAlignmentType()
-```
-
-
 ### AlignLeft {#AlignLeft}
 ```
 public static final int AlignLeft

@@ -17,16 +17,6 @@ public class PPImage implements IPPImage, System.IDisposable
 ```
 
 Represents an image in a presentation.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [PPImage(IPresentation presentation, byte[] data)](#PPImage-com.aspose.slides.IPresentation-byte---) |  |
-| [PPImage(IPresentation presentation, IBlobHandler blobHandler)](#PPImage-com.aspose.slides.IPresentation-com.aspose.foundation.blob.IBlobHandler-) |  |
-| [PPImage(IPresentation presentation, IBlobHandler blobHandler, System.Drawing.Rectangle imageFrame, System.Drawing.PointF dpi)](#PPImage-com.aspose.slides.IPresentation-com.aspose.foundation.blob.IBlobHandler-com.aspose.ms.System.Drawing.Rectangle-com.aspose.ms.System.Drawing.PointF-) |  |
-| [PPImage(IPresentation presentation, IBlobHandler blobHandler, System.Drawing.Rectangle imageFrame, long crc)](#PPImage-com.aspose.slides.IPresentation-com.aspose.foundation.blob.IBlobHandler-com.aspose.ms.System.Drawing.Rectangle-long-) |  |
-| [PPImage(IPresentation presentation, IBlobHandler blobHandler, long crc, System.Drawing.Rectangle imageFrame)](#PPImage-com.aspose.slides.IPresentation-com.aspose.foundation.blob.IBlobHandler-long-com.aspose.ms.System.Drawing.Rectangle-) | Creates PPImage without adding to images collection. |
-| [PPImage(IPresentation presentation)](#PPImage-com.aspose.slides.IPresentation-) |  |
 ## Methods
 
 | Method | Description |
@@ -44,85 +34,6 @@ Represents an image in a presentation.
 | [getY()](#getY--) | Returns a Y-offset of an image. |
 | [hashCode()](#hashCode--) | Returns the hash code of an image. |
 | [dispose()](#dispose--) | Disposes object. |
-### PPImage(IPresentation presentation, byte[] data) {#PPImage-com.aspose.slides.IPresentation-byte---}
-```
- PPImage(IPresentation presentation, byte[] data)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| presentation | [IPresentation](../../com.aspose.slides/ipresentation) |  |
-| data | byte[] |  |
-
-### PPImage(IPresentation presentation, IBlobHandler blobHandler) {#PPImage-com.aspose.slides.IPresentation-com.aspose.foundation.blob.IBlobHandler-}
-```
- PPImage(IPresentation presentation, IBlobHandler blobHandler)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| presentation | [IPresentation](../../com.aspose.slides/ipresentation) |  |
-| blobHandler | com.aspose.foundation.blob.IBlobHandler |  |
-
-### PPImage(IPresentation presentation, IBlobHandler blobHandler, System.Drawing.Rectangle imageFrame, System.Drawing.PointF dpi) {#PPImage-com.aspose.slides.IPresentation-com.aspose.foundation.blob.IBlobHandler-com.aspose.ms.System.Drawing.Rectangle-com.aspose.ms.System.Drawing.PointF-}
-```
- PPImage(IPresentation presentation, IBlobHandler blobHandler, System.Drawing.Rectangle imageFrame, System.Drawing.PointF dpi)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| presentation | [IPresentation](../../com.aspose.slides/ipresentation) |  |
-| blobHandler | com.aspose.foundation.blob.IBlobHandler |  |
-| imageFrame | com.aspose.ms.System.Drawing.Rectangle |  |
-| dpi | com.aspose.ms.System.Drawing.PointF |  |
-
-### PPImage(IPresentation presentation, IBlobHandler blobHandler, System.Drawing.Rectangle imageFrame, long crc) {#PPImage-com.aspose.slides.IPresentation-com.aspose.foundation.blob.IBlobHandler-com.aspose.ms.System.Drawing.Rectangle-long-}
-```
- PPImage(IPresentation presentation, IBlobHandler blobHandler, System.Drawing.Rectangle imageFrame, long crc)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| presentation | [IPresentation](../../com.aspose.slides/ipresentation) |  |
-| blobHandler | com.aspose.foundation.blob.IBlobHandler |  |
-| imageFrame | com.aspose.ms.System.Drawing.Rectangle |  |
-| crc | long |  |
-
-### PPImage(IPresentation presentation, IBlobHandler blobHandler, long crc, System.Drawing.Rectangle imageFrame) {#PPImage-com.aspose.slides.IPresentation-com.aspose.foundation.blob.IBlobHandler-long-com.aspose.ms.System.Drawing.Rectangle-}
-```
- PPImage(IPresentation presentation, IBlobHandler blobHandler, long crc, System.Drawing.Rectangle imageFrame)
-```
-
-
-Creates PPImage without adding to images collection.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| presentation | [IPresentation](../../com.aspose.slides/ipresentation) |  |
-| blobHandler | com.aspose.foundation.blob.IBlobHandler |  |
-| crc | long |  |
-| imageFrame | com.aspose.ms.System.Drawing.Rectangle |  |
-
-### PPImage(IPresentation presentation) {#PPImage-com.aspose.slides.IPresentation-}
-```
-private PPImage(IPresentation presentation)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| presentation | [IPresentation](../../com.aspose.slides/ipresentation) |  |
-
 ### getBinaryData() {#getBinaryData--}
 ```
 public final byte[] getBinaryData()

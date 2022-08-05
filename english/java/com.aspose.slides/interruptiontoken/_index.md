@@ -17,11 +17,6 @@ public class InterruptionToken implements IInterruptionToken
 ```
 
 This class represents the token to use for signaling long running tasks whether the interruption was requested.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [InterruptionToken(InterruptionTokenSource source)](#InterruptionToken-com.aspose.slides.InterruptionTokenSource-) |  |
 ## Methods
 
 | Method | Description |
@@ -29,17 +24,6 @@ This class represents the token to use for signaling long running tasks whether 
 | [getNone()](#getNone--) | Represents an empty interruption token. |
 | [isInterruptionRequested()](#isInterruptionRequested--) | Returns true if interruption was requested. |
 | [throwIfInterruptionRequested()](#throwIfInterruptionRequested--) | Throws an if interruption was requested. |
-### InterruptionToken(InterruptionTokenSource source) {#InterruptionToken-com.aspose.slides.InterruptionTokenSource-}
-```
- InterruptionToken(InterruptionTokenSource source)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| source | [InterruptionTokenSource](../../com.aspose.slides/interruptiontokensource) |  |
-
 ### getNone() {#getNone--}
 ```
 public static InterruptionToken getNone()

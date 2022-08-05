@@ -14,23 +14,12 @@ public final class EffectChartMajorGroupingType extends System.Enum
 ```
 
 Represents the type of an animation effect for chart's element.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [EffectChartMajorGroupingType()](#EffectChartMajorGroupingType--) |  |
 ## Fields
 
 | Field | Description |
 | --- | --- |
 | [BySeries](#BySeries) | Animate chart by series |
 | [ByCategory](#ByCategory) | Animate chart by category |
-### EffectChartMajorGroupingType() {#EffectChartMajorGroupingType--}
-```
-private EffectChartMajorGroupingType()
-```
-
-
 ### BySeries {#BySeries}
 ```
 public static final int BySeries

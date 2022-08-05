@@ -17,11 +17,6 @@ public class TableFormat extends DomObject<Table> implements ITableFormat, IPVIO
 ```
 
 Represents format of a table.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [TableFormat(Table table)](#TableFormat-com.aspose.slides.Table-) |  |
 ## Methods
 
 | Method | Description |
@@ -30,17 +25,6 @@ Represents format of a table.
 | [getEffective()](#getEffective--) | Gets effective table formatting properties with inheritance and table styles applied. |
 | [getVersion()](#getVersion--) |  |
 | [getParent_IPresentationComponent()](#getParent-IPresentationComponent--) |  |
-### TableFormat(Table table) {#TableFormat-com.aspose.slides.Table-}
-```
- TableFormat(Table table)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| table | [Table](../../com.aspose.slides/table) |  |
-
 ### getFillFormat() {#getFillFormat--}
 ```
 public final IFillFormat getFillFormat()

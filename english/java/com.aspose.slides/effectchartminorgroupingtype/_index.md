@@ -14,23 +14,12 @@ public final class EffectChartMinorGroupingType extends System.Enum
 ```
 
 Represents the type of an animation effect for chart's element in series or category.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [EffectChartMinorGroupingType()](#EffectChartMinorGroupingType--) |  |
 ## Fields
 
 | Field | Description |
 | --- | --- |
 | [ByElementInSeries](#ByElementInSeries) | Animate chart by element in series |
 | [ByElementInCategory](#ByElementInCategory) | Animate chart by element in category |
-### EffectChartMinorGroupingType() {#EffectChartMinorGroupingType--}
-```
-private EffectChartMinorGroupingType()
-```
-
-
 ### ByElementInSeries {#ByElementInSeries}
 ```
 public static final int ByElementInSeries

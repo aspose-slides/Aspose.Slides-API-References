@@ -14,11 +14,6 @@ public final class AxisAggregationType extends System.Enum
 ```
 
 Represents aggregation type of category axis. Used with Histogram or HistogramPareto series only.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [AxisAggregationType()](#AxisAggregationType--) |  |
 ## Fields
 
 | Field | Description |
@@ -27,12 +22,6 @@ Represents aggregation type of category axis. Used with Histogram or HistogramPa
 | [Automatic](#Automatic) | Aggregate categories automatically. |
 | [ByBinWidth](#ByBinWidth) | Aggregate categories by bin width. |
 | [ByNumberOfBins](#ByNumberOfBins) | Aggregate categories by number of bins. |
-### AxisAggregationType() {#AxisAggregationType--}
-```
-private AxisAggregationType()
-```
-
-
 ### ByCategory {#ByCategory}
 ```
 public static final int ByCategory

@@ -14,11 +14,6 @@ public final class MathFractionTypes extends System.Enum
 ```
 
 Fraction Types
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [MathFractionTypes()](#MathFractionTypes--) |  |
 ## Fields
 
 | Field | Description |
@@ -27,12 +22,6 @@ Fraction Types
 | [Skewed](#Skewed) | Skewed |
 | [Linear](#Linear) | Linear Fraction |
 | [NoBar](#NoBar) | No-Bar Fraction (Stack) |
-### MathFractionTypes() {#MathFractionTypes--}
-```
-private MathFractionTypes()
-```
-
-
 ### Bar {#Bar}
 ```
 public static final int Bar

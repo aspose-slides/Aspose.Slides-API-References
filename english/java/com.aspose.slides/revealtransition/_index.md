@@ -17,11 +17,6 @@ public class RevealTransition extends TransitionValueBase implements IRevealTran
 ```
 
 Reveal slide transition effect.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [RevealTransition(int type)](#RevealTransition-int-) | Constructor for reveal slide transition effect. |
 ## Methods
 
 | Method | Description |
@@ -30,19 +25,6 @@ Reveal slide transition effect.
 | [setDirection(int value)](#setDirection-int-) | Direction of transition. |
 | [getThroughBlack()](#getThroughBlack--) | Specifies whether the transition fades through black. |
 | [setThroughBlack(boolean value)](#setThroughBlack-boolean-) | Specifies whether the transition fades through black. |
-### RevealTransition(int type) {#RevealTransition-int-}
-```
- RevealTransition(int type)
-```
-
-
-Constructor for reveal slide transition effect.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| type | int | Type of a transition effect. |
-
 ### getDirection() {#getDirection--}
 ```
 public final int getDirection()

@@ -14,11 +14,6 @@ public final class LegendPositionType extends System.Enum
 ```
 
 Determines a position of legend on a chart.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [LegendPositionType()](#LegendPositionType--) |  |
 ## Fields
 
 | Field | Description |
@@ -28,12 +23,6 @@ Determines a position of legend on a chart.
 | [Right](#Right) | Specifies that the legend shall be drawn at the right of the chart. |
 | [Top](#Top) | Specifies that the legend shall be drawn at the top of the chart. |
 | [TopRight](#TopRight) | Specifies that the legend shall be drawn at the top right of the chart. |
-### LegendPositionType() {#LegendPositionType--}
-```
-private LegendPositionType()
-```
-
-
 ### Bottom {#Bottom}
 ```
 public static final int Bottom

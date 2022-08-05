@@ -22,7 +22,6 @@ Represents geometry path of GeometryShape
 | Constructor | Description |
 | --- | --- |
 | [GeometryPath()](#GeometryPath--) | Creates instance of GeometryPath |
-| [GeometryPath(byte fillMode, boolean stroke)](#GeometryPath-byte-boolean-) |  |
 ## Methods
 
 | Method | Description |
@@ -56,18 +55,6 @@ public GeometryPath()
 
 
 Creates instance of GeometryPath
-
-### GeometryPath(byte fillMode, boolean stroke) {#GeometryPath-byte-boolean-}
-```
- GeometryPath(byte fillMode, boolean stroke)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| fillMode | byte |  |
-| stroke | boolean |  |
 
 ### getPathData() {#getPathData--}
 ```

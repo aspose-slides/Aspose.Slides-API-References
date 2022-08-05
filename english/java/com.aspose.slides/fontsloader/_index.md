@@ -17,11 +17,6 @@ public final class FontsLoader implements IFontsLoader
 ```
 
 Class for loading custom fonts defined by user. Should be used before creating any presentation objects.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [FontsLoader()](#FontsLoader--) |  |
 ## Methods
 
 | Method | Description |
@@ -30,12 +25,6 @@ Class for loading custom fonts defined by user. Should be used before creating a
 | [loadExternalFont(byte[] data)](#loadExternalFont-byte---) | Adds font from the binary data |
 | [getFontFolders()](#getFontFolders--) | Gets font folders. |
 | [clearCache()](#clearCache--) | Releases all custom fonts defined by user |
-### FontsLoader() {#FontsLoader--}
-```
-private FontsLoader()
-```
-
-
 ### loadExternalFonts(String[] directories) {#loadExternalFonts-java.lang.String---}
 ```
 public static void loadExternalFonts(String[] directories)

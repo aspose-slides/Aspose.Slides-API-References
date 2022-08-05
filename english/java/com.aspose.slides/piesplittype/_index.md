@@ -15,11 +15,6 @@ public final class PieSplitType extends System.Enum
 ```
 
 Represents a type of splitting points in the second pie or bar on a pie-of-pie or bar-of-pie chart.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [PieSplitType()](#PieSplitType--) |  |
 ## Fields
 
 | Field | Description |
@@ -29,12 +24,6 @@ Represents a type of splitting points in the second pie or bar on a pie-of-pie o
 | [ByPercentage](#ByPercentage) | Specifies the data points shall be split between the pie and the second chart by putting the points with percentage less than Split Position percent in the second chart. |
 | [ByPos](#ByPos) | Specifies the data points shall be split between the pie and the second chart by putting the last Split Position of the data points in the second chart. |
 | [ByValue](#ByValue) | Specifies the data points shall be split between the pie and the second chart by putting the data points with value less than Split Position in the second chart. |
-### PieSplitType() {#PieSplitType--}
-```
-private PieSplitType()
-```
-
-
 ### Default {#Default}
 ```
 public static final int Default

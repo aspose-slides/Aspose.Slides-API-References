@@ -17,11 +17,6 @@ public final class Slide extends BaseSlide implements ISlide
 ```
 
 Represents a slide in a presentation.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [Slide(SlideCollection parentImmediate)](#Slide-com.aspose.slides.SlideCollection-) |  |
 ## Methods
 
 | Method | Description |
@@ -59,17 +54,6 @@ Represents a slide in a presentation.
 | [getNotesSlideManager()](#getNotesSlideManager--) | Allow to access notes slide, add and remove it. |
 | [getSlideComments(ICommentAuthor author)](#getSlideComments-com.aspose.slides.ICommentAuthor-) | Returns all slide comments added by specific author. |
 | [joinPortionsWithSameFormatting()](#joinPortionsWithSameFormatting--) | Joins runs with same formatting in all paragraphs in all acceptable shapes. |
-### Slide(SlideCollection parentImmediate) {#Slide-com.aspose.slides.SlideCollection-}
-```
- Slide(SlideCollection parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | [SlideCollection](../../com.aspose.slides/slidecollection) |  |
-
 ### getHeaderFooterManager() {#getHeaderFooterManager--}
 ```
 public final ISlideHeaderFooterManager getHeaderFooterManager()

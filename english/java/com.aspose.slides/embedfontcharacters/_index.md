@@ -15,23 +15,12 @@ public final class EmbedFontCharacters extends System.Enum
 ```
 
 Represents the rule to use for adding new embedding font into [IPresentation](../../com.aspose.slides/ipresentation)
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [EmbedFontCharacters()](#EmbedFontCharacters--) |  |
 ## Fields
 
 | Field | Description |
 | --- | --- |
 | [OnlyUsed](#OnlyUsed) | Embed only the characters used in the presentation (best for reducing file size). |
 | [All](#All) | Embed all characters (best for editing by other people). |
-### EmbedFontCharacters() {#EmbedFontCharacters--}
-```
-private EmbedFontCharacters()
-```
-
-
 ### OnlyUsed {#OnlyUsed}
 ```
 public static final int OnlyUsed

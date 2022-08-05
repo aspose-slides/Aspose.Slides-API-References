@@ -17,11 +17,6 @@ public class Axis extends DomObject<AxesManager> implements IAxis
 ```
 
 Encapsulates the object that represents a chart's axis.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [Axis(AxesManager parentImmediate)](#Axis-com.aspose.slides.AxesManager-) |  |
 ## Methods
 
 | Method | Description |
@@ -127,17 +122,6 @@ Encapsulates the object that represents a chart's axis.
 | [setUnderflowBin(double value)](#setUnderflowBin-double-) | Specifies underflow bin custom value. |
 | [getSlide()](#getSlide--) | Returns the parent slide of a FillFormat. |
 | [getPresentation()](#getPresentation--) | Returns the parent presentation of a FillFormat. |
-### Axis(AxesManager parentImmediate) {#Axis-com.aspose.slides.AxesManager-}
-```
- Axis(AxesManager parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | [AxesManager](../../com.aspose.slides/axesmanager) |  |
-
 ### getChart() {#getChart--}
 ```
 public final IChart getChart()

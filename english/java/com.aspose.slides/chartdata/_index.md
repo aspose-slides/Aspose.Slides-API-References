@@ -17,11 +17,6 @@ public class ChartData extends DomObject<Chart> implements IChartData
 ```
 
 Represents data used for a chart plotting.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [ChartData(Chart parentImmediate)](#ChartData-com.aspose.slides.Chart-) |  |
 ## Methods
 
 | Method | Description |
@@ -42,17 +37,6 @@ Represents data used for a chart plotting.
 | [setExternalWorkbook(String workbookPath)](#setExternalWorkbook-java.lang.String-) | Sets external workbook as a data source for the chart. |
 | [setExternalWorkbook(String workbookPath, boolean updateChartData)](#setExternalWorkbook-java.lang.String-boolean-) | Sets external workbook as a data source for the chart. |
 | [switchRowColumn()](#switchRowColumn--) | Swap the data over the axis. |
-### ChartData(Chart parentImmediate) {#ChartData-com.aspose.slides.Chart-}
-```
- ChartData(Chart parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | [Chart](../../com.aspose.slides/chart) |  |
-
 ### getChartDataWorkbook() {#getChartDataWorkbook--}
 ```
 public final IChartDataWorkbook getChartDataWorkbook()

@@ -14,11 +14,6 @@ public final class PersistenceType extends System.Enum
 ```
 
 Specifies the method used to store properties of the ActiveX control.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [PersistenceType()](#PersistenceType--) |  |
 ## Fields
 
 | Field | Description |
@@ -28,12 +23,6 @@ Specifies the method used to store properties of the ActiveX control.
 | [PersistStream](#PersistStream) | Specifies that the ActiveX control is persisted using a stream-based persistence that does not support initialization of the ActiveX control to a default state. |
 | [PersistStreamInit](#PersistStreamInit) | Specifies that the ActiveX control is persisted using a stream-based persistence that supports initialization of the ActiveX control to a default state. |
 | [PersistStorage](#PersistStorage) | Specifies that the ActiveX control is persisted using storage-based persistence. |
-### PersistenceType() {#PersistenceType--}
-```
-private PersistenceType()
-```
-
-
 ### NotDefined {#NotDefined}
 ```
 public static final int NotDefined

@@ -17,11 +17,6 @@ public class NormalViewProperties implements INormalViewProperties
 ```
 
 Represents normal view properties. The normal view consists of three content regions: the slide itself, a side content region, and a bottom content region.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [NormalViewProperties()](#NormalViewProperties--) |  |
 ## Methods
 
 | Method | Description |
@@ -38,12 +33,6 @@ Represents normal view properties. The normal view consists of three content reg
 | [setPreferSingleView(boolean value)](#setPreferSingleView-boolean-) | Specifies whether the user prefers to see a full-window single-content region over the standard normal view with three content regions. |
 | [getRestoredLeft()](#getRestoredLeft--) | This element specifies the sizing of the side content region of the normal view, when the region is of a variable restored size(neither minimized nor maximized). |
 | [getRestoredTop()](#getRestoredTop--) | This element specifies the sizing of the top slide region of the normal view, when the region is of a variable restored size(neither minimized nor maximized). |
-### NormalViewProperties() {#NormalViewProperties--}
-```
- NormalViewProperties()
-```
-
-
 ### getShowOutlineIcons() {#getShowOutlineIcons--}
 ```
 public final boolean getShowOutlineIcons()

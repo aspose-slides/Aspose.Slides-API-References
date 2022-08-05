@@ -14,11 +14,6 @@ public final class LineCapStyle extends System.Enum
 ```
 
 Represents the line cap style.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [LineCapStyle()](#LineCapStyle--) |  |
 ## Fields
 
 | Field | Description |
@@ -27,12 +22,6 @@ Represents the line cap style.
 | [Round](#Round) |  |
 | [Square](#Square) |  |
 | [Flat](#Flat) |  |
-### LineCapStyle() {#LineCapStyle--}
-```
-private LineCapStyle()
-```
-
-
 ### NotDefined {#NotDefined}
 ```
 public static final byte NotDefined

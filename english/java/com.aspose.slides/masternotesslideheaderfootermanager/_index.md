@@ -17,11 +17,6 @@ public final class MasterNotesSlideHeaderFooterManager extends BaseHandoutNotesS
 ```
 
 Represents manager which holds behavior of the master notes slide footer, date-time, page number placeholders and all child placeholders. Child placeholders mean placeholders are contained on depending notes slides. Depending notes slides use and depend on master notes slide.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [MasterNotesSlideHeaderFooterManager(MasterNotesSlide masterNotesSlide)](#MasterNotesSlideHeaderFooterManager-com.aspose.slides.MasterNotesSlide-) |  |
 ## Methods
 
 | Method | Description |
@@ -33,17 +28,6 @@ Represents manager which holds behavior of the master notes slide footer, date-t
 | [setDateTimeAndChildDateTimesVisibility(boolean isVisible)](#setDateTimeAndChildDateTimesVisibility-boolean-) | Changes master slide date-time placeholder and all child date-time placeholders visibility. |
 | [setFooterAndChildFootersText(String text)](#setFooterAndChildFootersText-java.lang.String-) | Sets text to master slide footer placeholder and all child footer placeholders. |
 | [setDateTimeAndChildDateTimesText(String text)](#setDateTimeAndChildDateTimesText-java.lang.String-) | Sets text to master slide date-time placeholder and all child date-time placeholders. |
-### MasterNotesSlideHeaderFooterManager(MasterNotesSlide masterNotesSlide) {#MasterNotesSlideHeaderFooterManager-com.aspose.slides.MasterNotesSlide-}
-```
- MasterNotesSlideHeaderFooterManager(MasterNotesSlide masterNotesSlide)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| masterNotesSlide | [MasterNotesSlide](../../com.aspose.slides/masternotesslide) |  |
-
 ### setHeaderAndChildHeadersVisibility(boolean isVisible) {#setHeaderAndChildHeadersVisibility-boolean-}
 ```
 public final void setHeaderAndChildHeadersVisibility(boolean isVisible)

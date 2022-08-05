@@ -17,30 +17,12 @@ public class MorphTransition extends TransitionValueBase implements IMorphTransi
 ```
 
 Ripple slide transition effect.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [MorphTransition(int type)](#MorphTransition-int-) | Constructor for ripple slide transition effect. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [getMorphType()](#getMorphType--) | Type of morph transition. |
 | [setMorphType(int value)](#setMorphType-int-) | Type of morph transition. |
-### MorphTransition(int type) {#MorphTransition-int-}
-```
- MorphTransition(int type)
-```
-
-
-Constructor for ripple slide transition effect.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| type | int | Type of a transition effect. |
-
 ### getMorphType() {#getMorphType--}
 ```
 public final int getMorphType()

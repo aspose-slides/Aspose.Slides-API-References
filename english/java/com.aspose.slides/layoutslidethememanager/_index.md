@@ -14,19 +14,3 @@ public class LayoutSlideThemeManager extends BaseOverrideThemeManager
 ```
 
 Provides access to layout slide theme overriden.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [LayoutSlideThemeManager(LayoutSlide parentImmediate)](#LayoutSlideThemeManager-com.aspose.slides.LayoutSlide-) |  |
-### LayoutSlideThemeManager(LayoutSlide parentImmediate) {#LayoutSlideThemeManager-com.aspose.slides.LayoutSlide-}
-```
- LayoutSlideThemeManager(LayoutSlide parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | [LayoutSlide](../../com.aspose.slides/layoutslide) |  |
-

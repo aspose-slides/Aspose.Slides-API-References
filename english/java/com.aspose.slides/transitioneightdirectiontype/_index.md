@@ -14,11 +14,6 @@ public final class TransitionEightDirectionType extends System.Enum
 ```
 
 Represent eight direction transition types.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [TransitionEightDirectionType()](#TransitionEightDirectionType--) |  |
 ## Fields
 
 | Field | Description |
@@ -31,12 +26,6 @@ Represent eight direction transition types.
 | [Up](#Up) |  |
 | [Down](#Down) |  |
 | [Right](#Right) |  |
-### TransitionEightDirectionType() {#TransitionEightDirectionType--}
-```
-private TransitionEightDirectionType()
-```
-
-
 ### LeftDown {#LeftDown}
 ```
 public static final int LeftDown

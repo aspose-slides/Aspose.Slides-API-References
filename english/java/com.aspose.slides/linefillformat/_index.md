@@ -17,11 +17,6 @@ public class LineFillFormat extends PVIObject implements ILineFillFormat
 ```
 
 Represents properties for lines filling.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [LineFillFormat(IDOMObject parentImmediate)](#LineFillFormat-com.aspose.slides.IDOMObject-) |  |
 ## Methods
 
 | Method | Description |
@@ -33,17 +28,6 @@ Represents properties for lines filling.
 | [getSolidFillColor()](#getSolidFillColor--) | Returns the color of a solid fill. |
 | [getGradientFormat()](#getGradientFormat--) | Returns the gradient fill format. |
 | [getPatternFormat()](#getPatternFormat--) | Returns the pattern fill format. |
-### LineFillFormat(IDOMObject parentImmediate) {#LineFillFormat-com.aspose.slides.IDOMObject-}
-```
- LineFillFormat(IDOMObject parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | com.aspose.slides.IDOMObject |  |
-
 ### getFillType() {#getFillType--}
 ```
 public final byte getFillType()

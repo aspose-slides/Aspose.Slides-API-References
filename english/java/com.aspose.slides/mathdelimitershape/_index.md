@@ -14,23 +14,12 @@ public final class MathDelimiterShape extends System.Enum
 ```
 
 The location and size of the delimiters relative to the content of the operands
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [MathDelimiterShape()](#MathDelimiterShape--) |  |
 ## Fields
 
 | Field | Description |
 | --- | --- |
 | [Centered](#Centered) | Centered to math axis |
 | [Match](#Match) | Match to content |
-### MathDelimiterShape() {#MathDelimiterShape--}
-```
-private MathDelimiterShape()
-```
-
-
 ### Centered {#Centered}
 ```
 public static final int Centered

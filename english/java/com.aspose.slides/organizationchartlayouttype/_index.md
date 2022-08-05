@@ -14,11 +14,6 @@ public final class OrganizationChartLayoutType extends System.Enum
 ```
 
 Represents formatting type the child nodes in an organization chart
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [OrganizationChartLayoutType()](#OrganizationChartLayoutType--) |  |
 ## Fields
 
 | Field | Description |
@@ -28,12 +23,6 @@ Represents formatting type the child nodes in an organization chart
 | [BothHanging](#BothHanging) | Places child nodes vertically below the parent node on both the left and the right side. |
 | [LeftHanging](#LeftHanging) | Places child nodes vertically below the parent node on the left side. |
 | [RightHanging](#RightHanging) | Places child nodes vertically below the parent node on the right side. |
-### OrganizationChartLayoutType() {#OrganizationChartLayoutType--}
-```
-private OrganizationChartLayoutType()
-```
-
-
 ### Initial {#Initial}
 ```
 public static final int Initial

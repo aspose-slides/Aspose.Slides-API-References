@@ -14,11 +14,6 @@ public final class DataSourceType extends System.Enum
 ```
 
 Data source types.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [DataSourceType()](#DataSourceType--) |  |
 ## Fields
 
 | Field | Description |
@@ -26,12 +21,6 @@ Data source types.
 | [Worksheet](#Worksheet) | Use CellXls objects for storing XValue, YValue, Value or BubbleSize of data point in worksheet. |
 | [StringLiterals](#StringLiterals) | Use fast-access string variable for storing XValue, YValue, Value or BubbleSize of data point. |
 | [DoubleLiterals](#DoubleLiterals) | Use fast-access double variable for storing XValue, YValue, Value or BubbleSize of data point. |
-### DataSourceType() {#DataSourceType--}
-```
-private DataSourceType()
-```
-
-
 ### Worksheet {#Worksheet}
 ```
 public static final int Worksheet

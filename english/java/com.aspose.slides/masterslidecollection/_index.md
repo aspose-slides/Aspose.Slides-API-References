@@ -17,11 +17,6 @@ public final class MasterSlideCollection extends DomObject<Presentation> impleme
 ```
 
 Represents a collection of master slides.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [MasterSlideCollection(Presentation parentImmediate)](#MasterSlideCollection-com.aspose.slides.Presentation-) |  |
 ## Methods
 
 | Method | Description |
@@ -38,17 +33,6 @@ Represents a collection of master slides.
 | [getSyncRoot()](#getSyncRoot--) | Returns a synchronization root. |
 | [iterator()](#iterator--) | Returns an enumerator that iterates through the collection. |
 | [iteratorJava()](#iteratorJava--) | Returns a java iterator for the entire collection. |
-### MasterSlideCollection(Presentation parentImmediate) {#MasterSlideCollection-com.aspose.slides.Presentation-}
-```
- MasterSlideCollection(Presentation parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | [Presentation](../../com.aspose.slides/presentation) |  |
-
 ### size() {#size--}
 ```
 public final int size()
@@ -115,7 +99,7 @@ Removes unused master slides.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| ignorePreserveField | boolean | Determines, whether this method should remove unused master even if its ([MasterSlide\#getPreserve](../com.aspose.slides/masterslide\#getPreserve)/[MasterSlide\#setPreserve(boolean)](../com.aspose.slides/masterslide\#setPreserve(boolean))) property is set to true. |
+| ignorePreserveField | boolean | Determines, whether this method should remove unused master even if its ([MasterSlide\#getPreserve](../com.aspose.slides/masterslide\#getPreserve)/[MasterSlide\#setPreserve(boolean)](../com.aspose.slides/masterslide\#setPreserve-boolean-)) property is set to true. |
 
 ### addClone(IMasterSlide sourceMaster) {#addClone-com.aspose.slides.IMasterSlide-}
 ```

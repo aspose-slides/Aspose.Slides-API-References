@@ -17,11 +17,6 @@ public class DataTable extends DomObject<Chart> implements IDataTable
 ```
 
 Represents data table properties.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [DataTable(Chart parentImmediate)](#DataTable-com.aspose.slides.Chart-) |  |
 ## Methods
 
 | Method | Description |
@@ -39,17 +34,6 @@ Represents data table properties.
 | [getTextFormat()](#getTextFormat--) | Returns text format. |
 | [getSlide()](#getSlide--) | Returns the parent slide of a FillFormat. |
 | [getPresentation()](#getPresentation--) | Returns the parent presentation of a FillFormat. |
-### DataTable(Chart parentImmediate) {#DataTable-com.aspose.slides.Chart-}
-```
- DataTable(Chart parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | [Chart](../../com.aspose.slides/chart) |  |
-
 ### getFormat() {#getFormat--}
 ```
 public final IFormat getFormat()

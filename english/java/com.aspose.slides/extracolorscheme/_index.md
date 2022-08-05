@@ -17,12 +17,6 @@ public class ExtraColorScheme implements IExtraColorScheme, IDOMObject
 ```
 
 Represents an additional color scheme which can be assigned to a slide.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [ExtraColorScheme(ExtraColorSchemeCollection parentImmediate)](#ExtraColorScheme-com.aspose.slides.ExtraColorSchemeCollection-) |  |
-| [ExtraColorScheme(ExtraColorSchemeCollection parentImmediate, boolean colorMappingOn)](#ExtraColorScheme-com.aspose.slides.ExtraColorSchemeCollection-boolean-) |  |
 ## Methods
 
 | Method | Description |
@@ -30,29 +24,6 @@ Represents an additional color scheme which can be assigned to a slide.
 | [getName()](#getName--) | Returns a name of this scheme. |
 | [getColorScheme()](#getColorScheme--) | Returns a color scheme. |
 | [getParent_Immediate()](#getParent-Immediate--) |  |
-### ExtraColorScheme(ExtraColorSchemeCollection parentImmediate) {#ExtraColorScheme-com.aspose.slides.ExtraColorSchemeCollection-}
-```
- ExtraColorScheme(ExtraColorSchemeCollection parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | [ExtraColorSchemeCollection](../../com.aspose.slides/extracolorschemecollection) |  |
-
-### ExtraColorScheme(ExtraColorSchemeCollection parentImmediate, boolean colorMappingOn) {#ExtraColorScheme-com.aspose.slides.ExtraColorSchemeCollection-boolean-}
-```
- ExtraColorScheme(ExtraColorSchemeCollection parentImmediate, boolean colorMappingOn)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | [ExtraColorSchemeCollection](../../com.aspose.slides/extracolorschemecollection) |  |
-| colorMappingOn | boolean |  |
-
 ### getName() {#getName--}
 ```
 public final String getName()

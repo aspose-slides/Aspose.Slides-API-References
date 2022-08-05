@@ -14,11 +14,6 @@ public final class GradientShape extends System.Enum
 ```
 
 Represents the shape of gradient fill.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [GradientShape()](#GradientShape--) |  |
 ## Fields
 
 | Field | Description |
@@ -28,12 +23,6 @@ Represents the shape of gradient fill.
 | [Rectangle](#Rectangle) |  |
 | [Radial](#Radial) |  |
 | [Path](#Path) |  |
-### GradientShape() {#GradientShape--}
-```
-private GradientShape()
-```
-
-
 ### NotDefined {#NotDefined}
 ```
 public static final byte NotDefined

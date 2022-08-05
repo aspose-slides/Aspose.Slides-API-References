@@ -14,11 +14,6 @@ public final class TrendlineType extends System.Enum
 ```
 
 Represents type of trend line
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [TrendlineType()](#TrendlineType--) |  |
 ## Fields
 
 | Field | Description |
@@ -29,12 +24,6 @@ Represents type of trend line
 | [MovingAverage](#MovingAverage) | Specifies the trendline shall be a moving average of period Period. |
 | [Polynomial](#Polynomial) | Specifies the trendline shall be a polynomial curve of order Order in the form. |
 | [Power](#Power) | Specifies the trendline shall be a power curve in the form. |
-### TrendlineType() {#TrendlineType--}
-```
-private TrendlineType()
-```
-
-
 ### Exponential {#Exponential}
 ```
 public static final int Exponential

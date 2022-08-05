@@ -14,27 +14,11 @@ public final class Input
 ```
 
 Represents a collection of input elements (templates) for IWebDocument.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [Input(ITemplateEngine templateEngine)](#Input-com.aspose.slides.ITemplateEngine-) |  |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [<TContextObject>addTemplate(String key, String path)](#-TContextObject-addTemplate-java.lang.String-java.lang.String-) | Adds a template to the collection. |
-### Input(ITemplateEngine templateEngine) {#Input-com.aspose.slides.ITemplateEngine-}
-```
- Input(ITemplateEngine templateEngine)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| templateEngine | [ITemplateEngine](../../com.aspose.slides/itemplateengine) |  |
-
 ### <TContextObject>addTemplate(String key, String path) {#-TContextObject-addTemplate-java.lang.String-java.lang.String-}
 ```
 public final void <TContextObject>addTemplate(String key, String path)

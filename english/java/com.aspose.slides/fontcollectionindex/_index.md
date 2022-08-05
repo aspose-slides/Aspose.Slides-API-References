@@ -14,11 +14,6 @@ public final class FontCollectionIndex extends System.Enum
 ```
 
 Represents font's index in a collection.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [FontCollectionIndex()](#FontCollectionIndex--) |  |
 ## Fields
 
 | Field | Description |
@@ -26,12 +21,6 @@ Represents font's index in a collection.
 | [None](#None) |  |
 | [Minor](#Minor) |  |
 | [Major](#Major) |  |
-### FontCollectionIndex() {#FontCollectionIndex--}
-```
-private FontCollectionIndex()
-```
-
-
 ### None {#None}
 ```
 public static final byte None

@@ -14,11 +14,6 @@ public final class MathIntegralTypes extends System.Enum
 ```
 
 Mathematical integral types
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [MathIntegralTypes()](#MathIntegralTypes--) |  |
 ## Fields
 
 | Field | Description |
@@ -29,12 +24,6 @@ Mathematical integral types
 | [Contour](#Contour) | Contour Integral: '\\u222e' |
 | [Surface](#Surface) | Surface Integral: '\\u222f' |
 | [Volume](#Volume) | VolumeIntegral: '\\u2230' |
-### MathIntegralTypes() {#MathIntegralTypes--}
-```
-private MathIntegralTypes()
-```
-
-
 ### Simple {#Simple}
 ```
 public static final int Simple

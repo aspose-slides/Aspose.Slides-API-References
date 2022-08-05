@@ -17,11 +17,6 @@ public final class Backdrop3DScene extends PVIObject implements IBackdrop3DScene
 ```
 
 Defines a plane in which effects, such as glow and shadow, are applied in relation to the shape they are being applied to.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [Backdrop3DScene(IDOMObject parentImmediate)](#Backdrop3DScene-com.aspose.slides.IDOMObject-) |  |
 ## Methods
 
 | Method | Description |
@@ -32,17 +27,6 @@ Defines a plane in which effects, such as glow and shadow, are applied in relati
 | [setAnchorPoint(float[] value)](#setAnchorPoint-float---) | Returns or sets a point in 3D space. |
 | [getUpVector()](#getUpVector--) | Returns or sets a vector representing up. |
 | [setUpVector(float[] value)](#setUpVector-float---) | Returns or sets a vector representing up. |
-### Backdrop3DScene(IDOMObject parentImmediate) {#Backdrop3DScene-com.aspose.slides.IDOMObject-}
-```
- Backdrop3DScene(IDOMObject parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | com.aspose.slides.IDOMObject |  |
-
 ### getNormalVector() {#getNormalVector--}
 ```
 public final float[] getNormalVector()

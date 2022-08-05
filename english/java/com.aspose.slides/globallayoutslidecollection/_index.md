@@ -17,11 +17,6 @@ public final class GlobalLayoutSlideCollection extends LayoutSlideCollection imp
 ```
 
 Represents a collection of all layout slides in presentation. Extends LayoutSlideCollection class with methods for adding/cloning layout slides in context of uniting of the individual collections of master's layout slides.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [GlobalLayoutSlideCollection(Presentation parent)](#GlobalLayoutSlideCollection-com.aspose.slides.Presentation-) |  |
 ## Methods
 
 | Method | Description |
@@ -29,17 +24,6 @@ Represents a collection of all layout slides in presentation. Extends LayoutSlid
 | [addClone(ILayoutSlide sourceLayout)](#addClone-com.aspose.slides.ILayoutSlide-) | Adds a copy of a specified layout slide to the presentation. |
 | [addClone(ILayoutSlide sourceLayout, IMasterSlide destMaster)](#addClone-com.aspose.slides.ILayoutSlide-com.aspose.slides.IMasterSlide-) | Adds a copy of a specified layout slide to the presentation. |
 | [add(IMasterSlide master, byte layoutType, String layoutName)](#add-com.aspose.slides.IMasterSlide-byte-java.lang.String-) | Adds a new layout slide to the presentation. |
-### GlobalLayoutSlideCollection(Presentation parent) {#GlobalLayoutSlideCollection-com.aspose.slides.Presentation-}
-```
- GlobalLayoutSlideCollection(Presentation parent)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parent | [Presentation](../../com.aspose.slides/presentation) |  |
-
 ### addClone(ILayoutSlide sourceLayout) {#addClone-com.aspose.slides.ILayoutSlide-}
 ```
 public final ILayoutSlide addClone(ILayoutSlide sourceLayout)
@@ -75,7 +59,7 @@ Adds a copy of a specified layout slide to the presentation.
 
 --------------------
 
-1) New layout will be linked with defined master in destination presentation. So this is analogue of copy/paste with "Use Destination Theme" option in PowerPoint. 2) Analogue of this method is method [IMasterLayoutSlideCollection\#addClone(ILayoutSlide)](../com.aspose.slides/imasterlayoutslidecollection\#addClone(ILayoutSlide)) accessed with ([IMasterSlide\#getLayoutSlides](../com.aspose.slides/imasterslide\#getLayoutSlides)) property. |
+1) New layout will be linked with defined master in destination presentation. So this is analogue of copy/paste with "Use Destination Theme" option in PowerPoint. 2) Analogue of this method is method [IMasterLayoutSlideCollection\#addClone(ILayoutSlide)](../com.aspose.slides/imasterlayoutslidecollection\#addClone-ILayoutSlide-) accessed with ([IMasterSlide\#getLayoutSlides](../com.aspose.slides/imasterslide\#getLayoutSlides)) property. |
 
 **Returns:**
 [ILayoutSlide](../../com.aspose.slides/ilayoutslide) - Added slide.
@@ -96,7 +80,7 @@ Adds a new layout slide to the presentation.
 
 --------------------
 
-1) Added layout for value SlideLayoutType.Custom of layoutType contains no placeholders and no shapes. 2) Analogue of this method is method [IMasterLayoutSlideCollection\#add(byte,String)](../com.aspose.slides/imasterlayoutslidecollection\#add(byte,String)) accessed with ([IMasterSlide\#getLayoutSlides](../com.aspose.slides/imasterslide\#getLayoutSlides)) property. |
+1) Added layout for value SlideLayoutType.Custom of layoutType contains no placeholders and no shapes. 2) Analogue of this method is method [IMasterLayoutSlideCollection\#add(byte,String)](../com.aspose.slides/imasterlayoutslidecollection\#add-byte-String-) accessed with ([IMasterSlide\#getLayoutSlides](../com.aspose.slides/imasterslide\#getLayoutSlides)) property. |
 
 **Returns:**
 [ILayoutSlide](../../com.aspose.slides/ilayoutslide) - Added slide.

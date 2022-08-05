@@ -14,11 +14,6 @@ public final class Conformance extends System.Enum
 ```
 
 Specifies the conformance class to which the PresentationML document conforms.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [Conformance()](#Conformance--) |  |
 ## Fields
 
 | Field | Description |
@@ -26,12 +21,6 @@ Specifies the conformance class to which the PresentationML document conforms.
 | [Ecma376_2006](#Ecma376-2006) | Specifies that the document conforms to the ECMA376:2006. |
 | [Iso29500_2008_Transitional](#Iso29500-2008-Transitional) | Specifies that the document conforms to the ISO/IEC 29500:2008 Transitional conformance class. |
 | [Iso29500_2008_Strict](#Iso29500-2008-Strict) | Specifies that the document conforms to the ISO/IEC 29500:2008 Strict conformance class. |
-### Conformance() {#Conformance--}
-```
-private Conformance()
-```
-
-
 ### Ecma376_2006 {#Ecma376-2006}
 ```
 public static final int Ecma376_2006

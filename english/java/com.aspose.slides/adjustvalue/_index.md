@@ -17,11 +17,6 @@ public class AdjustValue implements IAdjustValue
 ```
 
 Represents a geometry shape's adjustment value. These values affect shape's form.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [AdjustValue(AdjustValueUnsupportedProps adjustValueData)](#AdjustValue-com.aspose.slides.AdjustValueUnsupportedProps-) |  |
 ## Methods
 
 | Method | Description |
@@ -31,17 +26,6 @@ Represents a geometry shape's adjustment value. These values affect shape's form
 | [getAngleValue()](#getAngleValue--) | Returns or sets value, interpreting it as angle in degrees. |
 | [setAngleValue(float value)](#setAngleValue-float-) | Returns or sets value, interpreting it as angle in degrees. |
 | [getName()](#getName--) | Returns a name of this adjustment value. |
-### AdjustValue(AdjustValueUnsupportedProps adjustValueData) {#AdjustValue-com.aspose.slides.AdjustValueUnsupportedProps-}
-```
- AdjustValue(AdjustValueUnsupportedProps adjustValueData)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| adjustValueData | com.aspose.slides.AdjustValueUnsupportedProps |  |
-
 ### getRawValue() {#getRawValue--}
 ```
 public final long getRawValue()

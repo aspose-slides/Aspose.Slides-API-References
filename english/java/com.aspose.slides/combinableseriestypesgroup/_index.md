@@ -14,11 +14,6 @@ public final class CombinableSeriesTypesGroup extends System.Enum
 ```
 
 Enumeration of groups of combinable series types. Each element relates to group of types of chart series that can persist simultaneously in one ChartSeriesGroup. For example: ChartType.PercentsStackedArea series cannot be simultaneously with ChartType.StackedArea series in one ChartSeriesGroup. But two or more ChartType.PercentsStackedArea can be in one ChartSeriesGroup simultaneously (CombinableSeriesTypesGroup.AreaChart\_PercentsStackedArea). And ChartType.Line series can be with ChartType.LineWithMarkers series simultaneously in one CombinableSeriesTypesGroup.LineChart\_Line ChartSeriesGroup.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [CombinableSeriesTypesGroup()](#CombinableSeriesTypesGroup--) |  |
 ## Fields
 
 | Field | Description |
@@ -84,12 +79,6 @@ Enumeration of groups of combinable series types. Each element relates to group 
 | [TreemapChart](#TreemapChart) | Groups this set of series types: \{ ChartType.Treemap \} |
 | [MapChart](#MapChart) | Groups this set of series types: \{ ChartType.Map \} |
 | [SunburstChart](#SunburstChart) | Groups this set of series types: \{ ChartType.Sunburst \} |
-### CombinableSeriesTypesGroup() {#CombinableSeriesTypesGroup--}
-```
-private CombinableSeriesTypesGroup()
-```
-
-
 ### AreaChart_Area {#AreaChart-Area}
 ```
 public static final int AreaChart_Area

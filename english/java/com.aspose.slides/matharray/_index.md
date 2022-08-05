@@ -31,7 +31,6 @@ Specifies a vertical array of equations or any mathematical objects
 | --- | --- |
 | [MathArray(IMathElement element)](#MathArray-com.aspose.slides.IMathElement-) | Creates a mathematical array and places the specified element in it |
 | [MathArray(System.Collections.Generic.IGenericEnumerable<IMathElement> elements)](#MathArray-com.aspose.ms.System.Collections.Generic.IGenericEnumerable-com.aspose.slides.IMathElement--) | Creates a mathematical array and places specified elements in it |
-| [MathArray(System.Collections.Generic.IGenericEnumerable<IMathElement> elements, IMathArrayProperties properties)](#MathArray-com.aspose.ms.System.Collections.Generic.IGenericEnumerable-com.aspose.slides.IMathElement--com.aspose.slides.IMathArrayProperties-) |  |
 ## Methods
 
 | Method | Description |
@@ -81,18 +80,6 @@ Creates a mathematical array and places specified elements in it
 | Parameter | Type | Description |
 | --- | --- | --- |
 | elements | com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.slides.IMathElement> | Elements to place in the array |
-
-### MathArray(System.Collections.Generic.IGenericEnumerable<IMathElement> elements, IMathArrayProperties properties) {#MathArray-com.aspose.ms.System.Collections.Generic.IGenericEnumerable-com.aspose.slides.IMathElement--com.aspose.slides.IMathArrayProperties-}
-```
- MathArray(System.Collections.Generic.IGenericEnumerable<IMathElement> elements, IMathArrayProperties properties)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| elements | com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.slides.IMathElement> |  |
-| properties | com.aspose.slides.IMathArrayProperties |  |
 
 ### getArguments() {#getArguments--}
 ```

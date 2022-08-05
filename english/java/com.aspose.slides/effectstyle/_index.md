@@ -17,28 +17,12 @@ public class EffectStyle extends DomObject<EffectStyleCollection> implements IEf
 ```
 
 Represents an effect style.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [EffectStyle(EffectStyleCollection parentImmediate)](#EffectStyle-com.aspose.slides.EffectStyleCollection-) |  |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [getEffectFormat()](#getEffectFormat--) | Returns an effect format. |
 | [getThreeDFormat()](#getThreeDFormat--) | Returns an 3d format. |
-### EffectStyle(EffectStyleCollection parentImmediate) {#EffectStyle-com.aspose.slides.EffectStyleCollection-}
-```
- EffectStyle(EffectStyleCollection parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | [EffectStyleCollection](../../com.aspose.slides/effectstylecollection) |  |
-
 ### getEffectFormat() {#getEffectFormat--}
 ```
 public final IEffectFormat getEffectFormat()

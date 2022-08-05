@@ -14,11 +14,6 @@ public final class LineAlignment extends System.Enum
 ```
 
 Represents the lines alignment type.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [LineAlignment()](#LineAlignment--) |  |
 ## Fields
 
 | Field | Description |
@@ -26,12 +21,6 @@ Represents the lines alignment type.
 | [NotDefined](#NotDefined) |  |
 | [Center](#Center) |  |
 | [Inset](#Inset) |  |
-### LineAlignment() {#LineAlignment--}
-```
-private LineAlignment()
-```
-
-
 ### NotDefined {#NotDefined}
 ```
 public static final byte NotDefined

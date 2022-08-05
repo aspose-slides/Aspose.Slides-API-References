@@ -17,19 +17,3 @@ public class Ink extends GraphicalObject implements IInk
 ```
 
 Represents an ink object on a slide.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [Ink(ShapeCollection parentImmediate)](#Ink-com.aspose.slides.ShapeCollection-) |  |
-### Ink(ShapeCollection parentImmediate) {#Ink-com.aspose.slides.ShapeCollection-}
-```
- Ink(ShapeCollection parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | [ShapeCollection](../../com.aspose.slides/shapecollection) |  |
-

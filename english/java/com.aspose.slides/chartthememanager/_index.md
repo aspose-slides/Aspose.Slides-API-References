@@ -14,19 +14,3 @@ public class ChartThemeManager extends BaseOverrideThemeManager
 ```
 
 Provides access to chart theme overriden.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [ChartThemeManager(Chart parentImmediate)](#ChartThemeManager-com.aspose.slides.Chart-) |  |
-### ChartThemeManager(Chart parentImmediate) {#ChartThemeManager-com.aspose.slides.Chart-}
-```
- ChartThemeManager(Chart parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | [Chart](../../com.aspose.slides/chart) |  |
-

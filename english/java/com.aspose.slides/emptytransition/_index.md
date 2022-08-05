@@ -17,21 +17,3 @@ public class EmptyTransition extends TransitionValueBase implements IEmptyTransi
 ```
 
 Empty slide transition effect.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [EmptyTransition(int type)](#EmptyTransition-int-) | Constructor for empty slide transition effects. |
-### EmptyTransition(int type) {#EmptyTransition-int-}
-```
- EmptyTransition(int type)
-```
-
-
-Constructor for empty slide transition effects.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| type | int | Type of an empty transition effects. |
-

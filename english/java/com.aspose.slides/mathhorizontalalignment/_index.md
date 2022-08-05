@@ -14,11 +14,6 @@ public final class MathHorizontalAlignment extends System.Enum
 ```
 
 Horizontal Alignment
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [MathHorizontalAlignment()](#MathHorizontalAlignment--) |  |
 ## Fields
 
 | Field | Description |
@@ -27,12 +22,6 @@ Horizontal Alignment
 | [Left](#Left) | Left Justification |
 | [Center](#Center) | Center |
 | [Right](#Right) | Right |
-### MathHorizontalAlignment() {#MathHorizontalAlignment--}
-```
-private MathHorizontalAlignment()
-```
-
-
 ### NotDefined {#NotDefined}
 ```
 public static final int NotDefined

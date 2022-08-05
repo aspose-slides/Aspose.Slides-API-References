@@ -14,11 +14,6 @@ public final class LineJoinStyle extends System.Enum
 ```
 
 Represents the lines join style.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [LineJoinStyle()](#LineJoinStyle--) |  |
 ## Fields
 
 | Field | Description |
@@ -27,12 +22,6 @@ Represents the lines join style.
 | [Round](#Round) |  |
 | [Bevel](#Bevel) |  |
 | [Miter](#Miter) |  |
-### LineJoinStyle() {#LineJoinStyle--}
-```
-private LineJoinStyle()
-```
-
-
 ### NotDefined {#NotDefined}
 ```
 public static final byte NotDefined

@@ -14,11 +14,6 @@ public final class SmartArtQuickStyleType extends System.Enum
 ```
 
 Represents style scheme of a SmartArt diagram.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [SmartArtQuickStyleType()](#SmartArtQuickStyleType--) |  |
 ## Fields
 
 | Field | Description |
@@ -37,12 +32,6 @@ Represents style scheme of a SmartArt diagram.
 | [MetallicScene](#MetallicScene) | MetallicScene |
 | [SunsetScene](#SunsetScene) | SunsetScene |
 | [BirdsEyeScene](#BirdsEyeScene) | BirdsEyeScene |
-### SmartArtQuickStyleType() {#SmartArtQuickStyleType--}
-```
-private SmartArtQuickStyleType()
-```
-
-
 ### SimpleFill {#SimpleFill}
 ```
 public static final int SimpleFill

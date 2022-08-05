@@ -23,27 +23,11 @@ This class contains the chart portion formatting properties used in charts. Unli
 This class is used to return and manipulate text portion formatting properties defined for the particular portion. This means that no inheritance is applied when getting values so for the majority of cases you will get values meaning "undefined".
 
 In order to get the effective formatting parameter values including inherited you need to use [PortionFormat\#getEffective](../../com.aspose.slides/portionformat\#getEffective) method which returns a [IPortionFormatEffectiveData](../../com.aspose.slides/iportionformateffectivedata) instance.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [ChartPortionFormat(IDOMObject parent)](#ChartPortionFormat-com.aspose.slides.IDOMObject-) |  |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [getVersion()](#getVersion--) |  |
-### ChartPortionFormat(IDOMObject parent) {#ChartPortionFormat-com.aspose.slides.IDOMObject-}
-```
- ChartPortionFormat(IDOMObject parent)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parent | com.aspose.slides.IDOMObject |  |
-
 ### getVersion() {#getVersion--}
 ```
 public long getVersion()

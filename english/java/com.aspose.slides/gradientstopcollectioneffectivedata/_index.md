@@ -17,11 +17,6 @@ public class GradientStopCollectionEffectiveData implements IEffectiveData, IGra
 ```
 
 Represents a collection of GradientStopData objects.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [GradientStopCollectionEffectiveData()](#GradientStopCollectionEffectiveData--) |  |
 ## Methods
 
 | Method | Description |
@@ -33,12 +28,6 @@ Represents a collection of GradientStopData objects.
 | [copyTo(System.Array array, int index)](#copyTo-com.aspose.ms.System.Array-int-) | Copies all elements from the collection to the specified array. |
 | [isSynchronized()](#isSynchronized--) | Returns a value indicating whether access to the collection is synchronized (thread-safe). |
 | [getSyncRoot()](#getSyncRoot--) | Returns a synchronization root. |
-### GradientStopCollectionEffectiveData() {#GradientStopCollectionEffectiveData--}
-```
- GradientStopCollectionEffectiveData()
-```
-
-
 ### size() {#size--}
 ```
 public final int size()

@@ -14,11 +14,6 @@ public final class AudioVolumeMode extends System.Enum
 ```
 
 Constants which define audio volume.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [AudioVolumeMode()](#AudioVolumeMode--) |  |
 ## Fields
 
 | Field | Description |
@@ -28,12 +23,6 @@ Constants which define audio volume.
 | [Low](#Low) | Low sound volume. |
 | [Medium](#Medium) | Medium sound volume. |
 | [Loud](#Loud) | Loud sound volume. |
-### AudioVolumeMode() {#AudioVolumeMode--}
-```
-private AudioVolumeMode()
-```
-
-
 ### Mixed {#Mixed}
 ```
 public static final int Mixed

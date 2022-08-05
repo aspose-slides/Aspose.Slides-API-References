@@ -14,11 +14,6 @@ public final class MathSpacingRules extends System.Enum
 ```
 
 Types of gap (horizontal spacing) between columns of a matrix
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [MathSpacingRules()](#MathSpacingRules--) |  |
 ## Fields
 
 | Field | Description |
@@ -28,12 +23,6 @@ Types of gap (horizontal spacing) between columns of a matrix
 | [DoubleSpacingGap](#DoubleSpacingGap) | Double spacing (2 ems for columns or 2 lines for rows) |
 | [Exactly](#Exactly) | Exactly value For columns, rely on value of ColumnGap, measured in twips For rows, rely on value of RowGap, measured in twips |
 | [Multiple](#Multiple) | Multiple For columns, rely on value of ColumnGap, measured in 0.5 em increments For rows, rely on value of RowGap, measured in lines |
-### MathSpacingRules() {#MathSpacingRules--}
-```
-private MathSpacingRules()
-```
-
-
 ### SingleSpacingGap {#SingleSpacingGap}
 ```
 public static final int SingleSpacingGap

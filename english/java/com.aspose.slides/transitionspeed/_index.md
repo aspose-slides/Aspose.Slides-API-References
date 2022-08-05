@@ -14,11 +14,6 @@ public final class TransitionSpeed extends System.Enum
 ```
 
 Represent transition speed types.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [TransitionSpeed()](#TransitionSpeed--) |  |
 ## Fields
 
 | Field | Description |
@@ -26,12 +21,6 @@ Represent transition speed types.
 | [Fast](#Fast) |  |
 | [Medium](#Medium) |  |
 | [Slow](#Slow) |  |
-### TransitionSpeed() {#TransitionSpeed--}
-```
-private TransitionSpeed()
-```
-
-
 ### Fast {#Fast}
 ```
 public static final int Fast

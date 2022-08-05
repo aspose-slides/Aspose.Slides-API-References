@@ -17,11 +17,6 @@ public class SlideSize extends DomObject<Presentation> implements ISlideSize
 ```
 
 Represents a size of slide.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [SlideSize(Presentation parentImmediate)](#SlideSize-com.aspose.slides.Presentation-) |  |
 ## Methods
 
 | Method | Description |
@@ -32,17 +27,6 @@ Represents a size of slide.
 | [setOrientation(int value)](#setOrientation-int-) | Returns or sets the slide orientation. |
 | [setSize(int type, int scaleType)](#setSize-int-int-) | Sets the type of slide size and scales content using scale type. |
 | [setSize(float width, float height, int scaleType)](#setSize-float-float-int-) | Sets the size in points and scales content using scale type. |
-### SlideSize(Presentation parentImmediate) {#SlideSize-com.aspose.slides.Presentation-}
-```
- SlideSize(Presentation parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | [Presentation](../../com.aspose.slides/presentation) |  |
-
 ### getSize() {#getSize--}
 ```
 public final Dimension2D getSize()

@@ -14,11 +14,6 @@ public final class SmartArtLayoutType extends System.Enum
 ```
 
 Represents layout type of a SmartArt diagram.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [SmartArtLayoutType()](#SmartArtLayoutType--) |  |
 ## Fields
 
 | Field | Description |
@@ -159,12 +154,6 @@ Represents layout type of a SmartArt diagram.
 | [VerticalProcess](#VerticalProcess) | Use to show a progression or sequential steps in a task, process, or workflow from top to bottom. |
 | [Custom](#Custom) | Represents a SmartArt diagram with custom layout template |
 | [PictureOrganizationChart](#PictureOrganizationChart) | Use to show hierarchical information or reporting relationships in an organization, with corresponding pictures. |
-### SmartArtLayoutType() {#SmartArtLayoutType--}
-```
-private SmartArtLayoutType()
-```
-
-
 ### AccentProcess {#AccentProcess}
 ```
 public static final int AccentProcess

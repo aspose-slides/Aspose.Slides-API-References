@@ -17,11 +17,6 @@ public class MasterHandoutSlide extends BaseSlide implements IMasterHandoutSlide
 ```
 
 Represents master slide for handouts.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [MasterHandoutSlide(MasterHandoutSlideManager parentImmediate)](#MasterHandoutSlide-com.aspose.slides.MasterHandoutSlideManager-) |  |
 ## Methods
 
 | Method | Description |
@@ -30,17 +25,6 @@ Represents master slide for handouts.
 | [setShowMasterShapes(boolean value)](#setShowMasterShapes-boolean-) | Specifies if shapes on the master slide should be shown on slides or not. |
 | [getHeaderFooterManager()](#getHeaderFooterManager--) | Returns HeaderFooter manager of the master handout slide. |
 | [getThemeManager()](#getThemeManager--) | Returns the theme manager. |
-### MasterHandoutSlide(MasterHandoutSlideManager parentImmediate) {#MasterHandoutSlide-com.aspose.slides.MasterHandoutSlideManager-}
-```
- MasterHandoutSlide(MasterHandoutSlideManager parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | com.aspose.slides.MasterHandoutSlideManager |  |
-
 ### getShowMasterShapes() {#getShowMasterShapes--}
 ```
 public boolean getShowMasterShapes()

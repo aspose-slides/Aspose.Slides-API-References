@@ -32,8 +32,6 @@ Specifies the delimiter object, consisting of opening and closing characters (su
 | Constructor | Description |
 | --- | --- |
 | [MathDelimiter(IMathElement element)](#MathDelimiter-com.aspose.slides.IMathElement-) | Initializes MathDelimiter with the specified element as single base argument |
-| [MathDelimiter(System.Collections.Generic.IGenericEnumerable<IMathElement> mathElements, Object dummy)](#MathDelimiter-com.aspose.ms.System.Collections.Generic.IGenericEnumerable-com.aspose.slides.IMathElement--java.lang.Object-) | Initializes MathDelimiter with the specified elements as base arguments |
-| [MathDelimiter()](#MathDelimiter--) |  |
 ## Methods
 
 | Method | Description |
@@ -74,26 +72,6 @@ Initializes MathDelimiter with the specified element as single base argument
 | Parameter | Type | Description |
 | --- | --- | --- |
 | element | [IMathElement](../../com.aspose.slides/imathelement) | The base element to which the delimiter is applied. Can be null. |
-
-### MathDelimiter(System.Collections.Generic.IGenericEnumerable<IMathElement> mathElements, Object dummy) {#MathDelimiter-com.aspose.ms.System.Collections.Generic.IGenericEnumerable-com.aspose.slides.IMathElement--java.lang.Object-}
-```
- MathDelimiter(System.Collections.Generic.IGenericEnumerable<IMathElement> mathElements, Object dummy)
-```
-
-
-Initializes MathDelimiter with the specified elements as base arguments
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| mathElements | com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.slides.IMathElement> | The base elements to which the delimiter is applied. Can't be null. |
-| dummy | java.lang.Object |  |
-
-### MathDelimiter() {#MathDelimiter--}
-```
-private MathDelimiter()
-```
-
 
 ### getArguments() {#getArguments--}
 ```

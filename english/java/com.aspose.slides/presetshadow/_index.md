@@ -17,11 +17,6 @@ public class PresetShadow implements IPresetShadow, IVisualEffect, IDOMObject, I
 ```
 
 Represents a Preset Shadow effect.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [PresetShadow(IDOMObject parentImmediate)](#PresetShadow-com.aspose.slides.IDOMObject-) | Creates a new instance of the PresetShadow class. |
 ## Methods
 
 | Method | Description |
@@ -40,19 +35,6 @@ Represents a Preset Shadow effect.
 | [equals(Object obj)](#equals-java.lang.Object-) | Determines whether the specified [PresetShadow](../../com.aspose.slides/presetshadow) is equal to the current [PresetShadow](../../com.aspose.slides/presetshadow). |
 | [hashCode()](#hashCode--) | Serves as a hash function for a particular type. |
 | [memberwiseClone()](#memberwiseClone--) |  |
-### PresetShadow(IDOMObject parentImmediate) {#PresetShadow-com.aspose.slides.IDOMObject-}
-```
- PresetShadow(IDOMObject parentImmediate)
-```
-
-
-Creates a new instance of the PresetShadow class.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | com.aspose.slides.IDOMObject |  |
-
 ### getDirection() {#getDirection--}
 ```
 public final float getDirection()

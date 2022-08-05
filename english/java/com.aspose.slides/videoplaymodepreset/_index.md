@@ -14,11 +14,6 @@ public final class VideoPlayModePreset extends System.Enum
 ```
 
 Constants which define how a video is played.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [VideoPlayModePreset()](#VideoPlayModePreset--) |  |
 ## Fields
 
 | Field | Description |
@@ -28,12 +23,6 @@ Constants which define how a video is played.
 | [OnClick](#OnClick) | Play only when the video frame is clicked on. |
 | [AllSlides](#AllSlides) | Play on all slides. |
 | [InClickSequence](#InClickSequence) | Play automatically with a click. |
-### VideoPlayModePreset() {#VideoPlayModePreset--}
-```
-private VideoPlayModePreset()
-```
-
-
 ### Mixed {#Mixed}
 ```
 public static final int Mixed

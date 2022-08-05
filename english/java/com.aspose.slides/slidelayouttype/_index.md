@@ -14,11 +14,6 @@ public final class SlideLayoutType extends System.Enum
 ```
 
 Represents the slide layout type.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [SlideLayoutType()](#SlideLayoutType--) |  |
 ## Fields
 
 | Field | Description |
@@ -59,12 +54,6 @@ Represents the slide layout type.
 | [TwoTextAndTwoObjects](#TwoTextAndTwoObjects) | Two Text and Two Objects |
 | [TitleObjectAndCaption](#TitleObjectAndCaption) | Title, Object, and Caption |
 | [PictureAndCaption](#PictureAndCaption) | Picture and Caption |
-### SlideLayoutType() {#SlideLayoutType--}
-```
-private SlideLayoutType()
-```
-
-
 ### Custom {#Custom}
 ```
 public static final byte Custom

@@ -17,11 +17,6 @@ public class AutoShapeLock extends BaseShapeLock implements IAutoShapeLock
 ```
 
 Determines which operations are disabled on the parent AutoshapeEx.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [AutoShapeLock()](#AutoShapeLock--) |  |
 ## Methods
 
 | Method | Description |
@@ -48,12 +43,6 @@ Determines which operations are disabled on the parent AutoshapeEx.
 | [setShapeTypeLocked(boolean value)](#setShapeTypeLocked-boolean-) | Determines whether a changing of a shape type is forbidden. |
 | [getTextLocked()](#getTextLocked--) | Determines whether an editing of text is forbidden. |
 | [setTextLocked(boolean value)](#setTextLocked-boolean-) | Determines whether an editing of text is forbidden. |
-### AutoShapeLock() {#AutoShapeLock--}
-```
- AutoShapeLock()
-```
-
-
 ### getGroupingLocked() {#getGroupingLocked--}
 ```
 public boolean getGroupingLocked()

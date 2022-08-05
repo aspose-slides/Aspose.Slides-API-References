@@ -14,11 +14,6 @@ public final class PresetColor extends System.Enum
 ```
 
 Represents predefined color presets.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [PresetColor()](#PresetColor--) |  |
 ## Fields
 
 | Field | Description |
@@ -164,12 +159,6 @@ Represents predefined color presets.
 | [WhiteSmoke](#WhiteSmoke) |  |
 | [Yellow](#Yellow) |  |
 | [YellowGreen](#YellowGreen) |  |
-### PresetColor() {#PresetColor--}
-```
-private PresetColor()
-```
-
-
 ### NotDefined {#NotDefined}
 ```
 public static final int NotDefined

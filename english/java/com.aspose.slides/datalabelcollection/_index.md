@@ -17,11 +17,6 @@ public class DataLabelCollection extends DomObject<ChartSeries> implements IData
 ```
 
 Represents a series labels.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [DataLabelCollection(ChartSeries parentImmediate)](#DataLabelCollection-com.aspose.slides.ChartSeries-) | Creates a new instance of DataLabelCollection class. |
 ## Methods
 
 | Method | Description |
@@ -39,19 +34,6 @@ Represents a series labels.
 | [get_Item(int index)](#get-Item-int-) | Gets the data label for the data point with the specified index. |
 | [getSlide()](#getSlide--) | Returns the parent slide of a FillFormat. |
 | [getPresentation()](#getPresentation--) | Returns the parent presentation of a FillFormat. |
-### DataLabelCollection(ChartSeries parentImmediate) {#DataLabelCollection-com.aspose.slides.ChartSeries-}
-```
- DataLabelCollection(ChartSeries parentImmediate)
-```
-
-
-Creates a new instance of DataLabelCollection class.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | [ChartSeries](../../com.aspose.slides/chartseries) | Parent series. |
-
 ### getChart() {#getChart--}
 ```
 public final IChart getChart()

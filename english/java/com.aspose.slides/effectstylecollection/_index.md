@@ -17,11 +17,6 @@ public final class EffectStyleCollection extends DomObject<FormatScheme> impleme
 ```
 
 Represents a collection of effect styles.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [EffectStyleCollection(FormatScheme parentImmediate)](#EffectStyleCollection-com.aspose.slides.FormatScheme-) |  |
 ## Methods
 
 | Method | Description |
@@ -33,17 +28,6 @@ Represents a collection of effect styles.
 | [copyTo(System.Array array, int index)](#copyTo-com.aspose.ms.System.Array-int-) | Copies all elements from the collection to the specified array. |
 | [isSynchronized()](#isSynchronized--) | Returns a value indicating whether access to the collection is synchronized (thread-safe). |
 | [getSyncRoot()](#getSyncRoot--) | Returns a synchronization root. |
-### EffectStyleCollection(FormatScheme parentImmediate) {#EffectStyleCollection-com.aspose.slides.FormatScheme-}
-```
- EffectStyleCollection(FormatScheme parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | [FormatScheme](../../com.aspose.slides/formatscheme) |  |
-
 ### get_Item(int index) {#get-Item-int-}
 ```
 public final IEffectStyle get_Item(int index)

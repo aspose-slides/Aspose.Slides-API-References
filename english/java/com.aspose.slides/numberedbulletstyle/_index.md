@@ -14,11 +14,6 @@ public final class NumberedBulletStyle extends System.Enum
 ```
 
 Represents the style of the numbered bullets.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [NumberedBulletStyle()](#NumberedBulletStyle--) |  |
 ## Fields
 
 | Field | Description |
@@ -65,12 +60,6 @@ Represents the style of the numbered bullets.
 | [BulletKanjiSimpChinDBPeriod](#BulletKanjiSimpChinDBPeriod) | Kanji Simple Chinese DBPeriod. |
 | [BulletHindiNumParenRight](#BulletHindiNumParenRight) | Hindi numerical parentheses - right. |
 | [BulletHindiAlpha1Period](#BulletHindiAlpha1Period) | Hindi alphabet period - consonants. |
-### NumberedBulletStyle() {#NumberedBulletStyle--}
-```
-private NumberedBulletStyle()
-```
-
-
 ### NotDefined {#NotDefined}
 ```
 public static final byte NotDefined

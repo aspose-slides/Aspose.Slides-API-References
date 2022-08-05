@@ -14,11 +14,6 @@ public final class GradientDirection extends System.Enum
 ```
 
 Represents the gradient style.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [GradientDirection()](#GradientDirection--) |  |
 ## Fields
 
 | Field | Description |
@@ -29,12 +24,6 @@ Represents the gradient style.
 | [FromCorner3](#FromCorner3) | From Bottom Left Corner |
 | [FromCorner4](#FromCorner4) | From Bottom Right Corner |
 | [FromCenter](#FromCenter) | From Center |
-### GradientDirection() {#GradientDirection--}
-```
-private GradientDirection()
-```
-
-
 ### NotDefined {#NotDefined}
 ```
 public static final int NotDefined

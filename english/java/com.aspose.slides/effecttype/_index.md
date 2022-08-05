@@ -14,11 +14,6 @@ public final class EffectType extends System.Enum
 ```
 
 Represents the type of an animation effect.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [EffectType()](#EffectType--) |  |
 ## Fields
 
 | Field | Description |
@@ -178,12 +173,6 @@ Represents the type of an animation effect.
 | [OLEObjectShow](#OLEObjectShow) |  |
 | [OLEObjectEdit](#OLEObjectEdit) |  |
 | [OLEObjectOpen](#OLEObjectOpen) |  |
-### EffectType() {#EffectType--}
-```
-private EffectType()
-```
-
-
 ### Appear {#Appear}
 ```
 public static final int Appear

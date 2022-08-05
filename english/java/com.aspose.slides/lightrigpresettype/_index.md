@@ -14,11 +14,6 @@ public final class LightRigPresetType extends System.Enum
 ```
 
 Constants which define light preset types.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [LightRigPresetType()](#LightRigPresetType--) |  |
 ## Fields
 
 | Field | Description |
@@ -51,12 +46,6 @@ Constants which define light preset types.
 | [Sunset](#Sunset) |  |
 | [ThreePt](#ThreePt) |  |
 | [TwoPt](#TwoPt) |  |
-### LightRigPresetType() {#LightRigPresetType--}
-```
-private LightRigPresetType()
-```
-
-
 ### NotDefined {#NotDefined}
 ```
 public static final int NotDefined

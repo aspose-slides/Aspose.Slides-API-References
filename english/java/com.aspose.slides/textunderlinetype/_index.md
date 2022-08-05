@@ -14,11 +14,6 @@ public final class TextUnderlineType extends System.Enum
 ```
 
 Represents the type of text underline.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [TextUnderlineType()](#TextUnderlineType--) |  |
 ## Fields
 
 | Field | Description |
@@ -42,12 +37,6 @@ Represents the type of text underline.
 | [Wavy](#Wavy) |  |
 | [HeavyWavy](#HeavyWavy) |  |
 | [DoubleWavy](#DoubleWavy) |  |
-### TextUnderlineType() {#TextUnderlineType--}
-```
-private TextUnderlineType()
-```
-
-
 ### NotDefined {#NotDefined}
 ```
 public static final byte NotDefined

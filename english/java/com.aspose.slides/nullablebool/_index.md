@@ -14,11 +14,6 @@ public final class NullableBool extends System.Enum
 ```
 
 Represents triple boolean values.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [NullableBool()](#NullableBool--) |  |
 ## Fields
 
 | Field | Description |
@@ -26,12 +21,6 @@ Represents triple boolean values.
 | [NotDefined](#NotDefined) | Boolean value is undefined. |
 | [False](#False) | False value. |
 | [True](#True) | True value. |
-### NullableBool() {#NullableBool--}
-```
-private NullableBool()
-```
-
-
 ### NotDefined {#NotDefined}
 ```
 public static final byte NotDefined

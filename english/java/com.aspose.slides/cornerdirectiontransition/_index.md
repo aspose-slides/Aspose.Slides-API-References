@@ -17,30 +17,12 @@ public class CornerDirectionTransition extends TransitionValueBase implements IC
 ```
 
 Corner direction slide transition effect.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [CornerDirectionTransition(int type)](#CornerDirectionTransition-int-) | Constructor for corner direction transition effects. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [getDirection()](#getDirection--) | Direction of transition. |
 | [setDirection(int value)](#setDirection-int-) | Direction of transition. |
-### CornerDirectionTransition(int type) {#CornerDirectionTransition-int-}
-```
- CornerDirectionTransition(int type)
-```
-
-
-Constructor for corner direction transition effects.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| type | int | Type of a transition effect. |
-
 ### getDirection() {#getDirection--}
 ```
 public final int getDirection()

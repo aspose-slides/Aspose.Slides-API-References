@@ -17,11 +17,6 @@ public class SlideShowTransition extends DomObject<BaseSlide> implements ISlideS
 ```
 
 Represents slide show transition.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [SlideShowTransition(BaseSlide parentImmediate)](#SlideShowTransition-com.aspose.slides.BaseSlide-) |  |
 ## Methods
 
 | Method | Description |
@@ -49,17 +44,6 @@ Represents slide show transition.
 | [setSoundName(String value)](#setSoundName-java.lang.String-) | Specifies a human readable name for the sound of the transition. |
 | [equals(Object obj)](#equals-java.lang.Object-) | Determines whether the two SlideShowTransition instances are equal. |
 | [hashCode()](#hashCode--) | Serves as a hash function for a particular type, suitable for use in hashing algorithms and data structures like a hash table. |
-### SlideShowTransition(BaseSlide parentImmediate) {#SlideShowTransition-com.aspose.slides.BaseSlide-}
-```
- SlideShowTransition(BaseSlide parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | [BaseSlide](../../com.aspose.slides/baseslide) |  |
-
 ### getSound() {#getSound--}
 ```
 public final IAudio getSound()

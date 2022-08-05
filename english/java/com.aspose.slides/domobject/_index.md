@@ -19,27 +19,11 @@ public abstract class DomObject<TParent> implements IDOMObject
 Base DOM object
 
 TParent: Type of parent DOM object
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [DomObject(TParent parent)](#DomObject-TParent-) |  |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [getParent_Immediate()](#getParent-Immediate--) |  |
-### DomObject(TParent parent) {#DomObject-TParent-}
-```
- DomObject(TParent parent)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parent | TParent |  |
-
 ### getParent_Immediate() {#getParent-Immediate--}
 ```
 public IDOMObject getParent_Immediate()

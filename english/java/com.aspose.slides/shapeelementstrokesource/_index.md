@@ -14,11 +14,6 @@ public final class ShapeElementStrokeSource extends System.Enum
 ```
 
 Represents how shape element should be drawn.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [ShapeElementStrokeSource()](#ShapeElementStrokeSource--) |  |
 ## Fields
 
 | Field | Description |
@@ -26,12 +21,6 @@ Represents how shape element should be drawn.
 | [NoStroke](#NoStroke) | Don't stroke primitive. |
 | [Shape](#Shape) | Use shape's LineFormat. |
 | [OwnStroke](#OwnStroke) | Use own stroke. |
-### ShapeElementStrokeSource() {#ShapeElementStrokeSource--}
-```
-private ShapeElementStrokeSource()
-```
-
-
 ### NoStroke {#NoStroke}
 ```
 public static final byte NoStroke

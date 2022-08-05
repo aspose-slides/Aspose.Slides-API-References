@@ -17,11 +17,6 @@ public class AutoShape extends GeometryShape implements IAutoShape
 ```
 
 Represents an AutoShape.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [AutoShape(IDOMObject parentImmediate)](#AutoShape-com.aspose.slides.IDOMObject-) |  |
 ## Methods
 
 | Method | Description |
@@ -33,17 +28,6 @@ Represents an AutoShape.
 | [setUseBackgroundFill(boolean value)](#setUseBackgroundFill-boolean-) | Determines whether this autoshape should be filled with slide's background fill instead of specified by style or fill format. |
 | [addTextFrame(String text)](#addTextFrame-java.lang.String-) | Adds a new TextFrame to a shape. |
 | [isTextBox()](#isTextBox--) | Specifies if the shape is a text box. |
-### AutoShape(IDOMObject parentImmediate) {#AutoShape-com.aspose.slides.IDOMObject-}
-```
- AutoShape(IDOMObject parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | com.aspose.slides.IDOMObject |  |
-
 ### getShapeLock() {#getShapeLock--}
 ```
 public final IAutoShapeLock getShapeLock()

@@ -14,11 +14,6 @@ public final class EffectTriggerType extends System.Enum
 ```
 
 Represent trigger type of effect.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [EffectTriggerType()](#EffectTriggerType--) |  |
 ## Fields
 
 | Field | Description |
@@ -26,12 +21,6 @@ Represent trigger type of effect.
 | [AfterPrevious](#AfterPrevious) |  |
 | [OnClick](#OnClick) |  |
 | [WithPrevious](#WithPrevious) |  |
-### EffectTriggerType() {#EffectTriggerType--}
-```
-private EffectTriggerType()
-```
-
-
 ### AfterPrevious {#AfterPrevious}
 ```
 public static final int AfterPrevious

@@ -17,11 +17,6 @@ public class MasterSlide extends BaseSlide implements IMasterSlide
 ```
 
 Represents a master slide in a presentation.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [MasterSlide(MasterSlideCollection parentImmediate)](#MasterSlide-com.aspose.slides.MasterSlideCollection-) |  |
 ## Methods
 
 | Method | Description |
@@ -41,17 +36,6 @@ Represents a master slide in a presentation.
 | [setName(String value)](#setName-java.lang.String-) | Returns or sets the name of a master slide. |
 | [getShowMasterShapes()](#getShowMasterShapes--) | Specifies if shapes on the master slide should be shown on slides or not. |
 | [setShowMasterShapes(boolean value)](#setShowMasterShapes-boolean-) | Specifies if shapes on the master slide should be shown on slides or not. |
-### MasterSlide(MasterSlideCollection parentImmediate) {#MasterSlide-com.aspose.slides.MasterSlideCollection-}
-```
- MasterSlide(MasterSlideCollection parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | [MasterSlideCollection](../../com.aspose.slides/masterslidecollection) |  |
-
 ### getHeaderFooterManager() {#getHeaderFooterManager--}
 ```
 public final IMasterSlideHeaderFooterManager getHeaderFooterManager()
@@ -127,7 +111,7 @@ public final boolean getPreserve()
 ```
 
 
-Determines whether the corresponding master is deleted when all the slides that follow that master are deleted. Note: Aspose.Slides will never remove any unused master by itself, to actually remove unused masters call [MasterSlideCollection\#removeUnused(boolean)](../../com.aspose.slides/masterslidecollection\#removeUnused(boolean)) Read/write \`\`\` boolean \`\`\`.
+Determines whether the corresponding master is deleted when all the slides that follow that master are deleted. Note: Aspose.Slides will never remove any unused master by itself, to actually remove unused masters call [MasterSlideCollection\#removeUnused(boolean)](../../com.aspose.slides/masterslidecollection\#removeUnused-boolean-) Read/write \`\`\` boolean \`\`\`.
 
 **Returns:**
 boolean
@@ -137,7 +121,7 @@ public final void setPreserve(boolean value)
 ```
 
 
-Determines whether the corresponding master is deleted when all the slides that follow that master are deleted. Note: Aspose.Slides will never remove any unused master by itself, to actually remove unused masters call [MasterSlideCollection\#removeUnused(boolean)](../../com.aspose.slides/masterslidecollection\#removeUnused(boolean)) Read/write \`\`\` boolean \`\`\`.
+Determines whether the corresponding master is deleted when all the slides that follow that master are deleted. Note: Aspose.Slides will never remove any unused master by itself, to actually remove unused masters call [MasterSlideCollection\#removeUnused(boolean)](../../com.aspose.slides/masterslidecollection\#removeUnused-boolean-) Read/write \`\`\` boolean \`\`\`.
 
 **Parameters:**
 | Parameter | Type | Description |

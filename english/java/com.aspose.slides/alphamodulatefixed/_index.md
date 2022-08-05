@@ -17,11 +17,6 @@ public class AlphaModulateFixed extends ImageTransformOperation implements IAlph
 ```
 
 Represents an Alpha Modulate Fixed effect. Effect alpha (opacity) values are multiplied by a fixed percentage.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [AlphaModulateFixed(float amount, IDOMObject parentImmediate)](#AlphaModulateFixed-float-com.aspose.slides.IDOMObject-) | Alpha Modulate Fixed effect constructor. |
 ## Methods
 
 | Method | Description |
@@ -31,20 +26,6 @@ Represents an Alpha Modulate Fixed effect. Effect alpha (opacity) values are mul
 | [getEffective()](#getEffective--) | Gets effective Alpha Modulate Fixed effect data with the inheritance applied. |
 | [equals(Object obj)](#equals-java.lang.Object-) | Determines whether the specified [AlphaModulateFixed](../../com.aspose.slides/alphamodulatefixed) is equal to the current [AlphaModulateFixed](../../com.aspose.slides/alphamodulatefixed). |
 | [hashCode()](#hashCode--) | Serves as a hash function for a particular type. |
-### AlphaModulateFixed(float amount, IDOMObject parentImmediate) {#AlphaModulateFixed-float-com.aspose.slides.IDOMObject-}
-```
- AlphaModulateFixed(float amount, IDOMObject parentImmediate)
-```
-
-
-Alpha Modulate Fixed effect constructor.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| amount | float |  |
-| parentImmediate | com.aspose.slides.IDOMObject |  |
-
 ### getAmount() {#getAmount--}
 ```
 public final float getAmount()

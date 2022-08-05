@@ -17,11 +17,6 @@ public class ErrorBarsCustomValues extends DomObject<ChartDataPoint> implements 
 ```
 
 Specifies the errors bar values. It shall be used only when the Error bars value type is Custom.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [ErrorBarsCustomValues(ChartDataPoint parentImmediate)](#ErrorBarsCustomValues-com.aspose.slides.ChartDataPoint-) |  |
 ## Methods
 
 | Method | Description |
@@ -30,17 +25,6 @@ Specifies the errors bar values. It shall be used only when the Error bars value
 | [getYMinus()](#getYMinus--) | Specifies the error bar value in the negative direction. |
 | [getXPlus()](#getXPlus--) | Specifies the error bar value in the positive direction. |
 | [getYPlus()](#getYPlus--) | Specifies the error bar value in the positive direction. |
-### ErrorBarsCustomValues(ChartDataPoint parentImmediate) {#ErrorBarsCustomValues-com.aspose.slides.ChartDataPoint-}
-```
- ErrorBarsCustomValues(ChartDataPoint parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | [ChartDataPoint](../../com.aspose.slides/chartdatapoint) |  |
-
 ### getXMinus() {#getXMinus--}
 ```
 public final IDoubleChartValue getXMinus()

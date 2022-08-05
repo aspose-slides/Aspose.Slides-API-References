@@ -14,11 +14,6 @@ public final class MarkerStyleType extends System.Enum
 ```
 
 Determines form of marker on chart's data point.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [MarkerStyleType()](#MarkerStyleType--) |  |
 ## Fields
 
 | Field | Description |
@@ -35,12 +30,6 @@ Determines form of marker on chart's data point.
 | [Star](#Star) | Specifies a star shall be drawn at each data point. |
 | [Triangle](#Triangle) | Specifies a triangle shall be drawn at each data point. |
 | [X](#X) | Specifies an X shall be drawn at each data point. |
-### MarkerStyleType() {#MarkerStyleType--}
-```
-private MarkerStyleType()
-```
-
-
 ### NotDefined {#NotDefined}
 ```
 public static final int NotDefined

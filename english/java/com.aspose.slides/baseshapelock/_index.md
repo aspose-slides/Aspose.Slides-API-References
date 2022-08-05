@@ -17,34 +17,11 @@ public class BaseShapeLock implements IBaseShapeLock
 ```
 
 Represents a base class for locks (disabled operation).
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [BaseShapeLock()](#BaseShapeLock--) |  |
-| [BaseShapeLock(int sign)](#BaseShapeLock-int-) |  |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [getNoLocks()](#getNoLocks--) | Return true if all lock-flags are disabled. |
-### BaseShapeLock() {#BaseShapeLock--}
-```
- BaseShapeLock()
-```
-
-
-### BaseShapeLock(int sign) {#BaseShapeLock-int-}
-```
- BaseShapeLock(int sign)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| sign | int |  |
-
 ### getNoLocks() {#getNoLocks--}
 ```
 public boolean getNoLocks()

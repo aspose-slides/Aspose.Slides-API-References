@@ -17,11 +17,6 @@ public abstract class PVIObject implements IPVIObject, ISlideComponent
 ```
 
 Encapsulates basic service infrastructure for objects can be a subject of property value inheritance.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [PVIObject(IDOMObject parentImmediate)](#PVIObject-com.aspose.slides.IDOMObject-) |  |
 ## Methods
 
 | Method | Description |
@@ -34,17 +29,6 @@ Encapsulates basic service infrastructure for objects can be a subject of proper
 | [getPresentation()](#getPresentation--) |  |
 | [equals(Object obj)](#equals-java.lang.Object-) | Compares with specified object. |
 | [hashCode()](#hashCode--) | Returns hash code. |
-### PVIObject(IDOMObject parentImmediate) {#PVIObject-com.aspose.slides.IDOMObject-}
-```
- PVIObject(IDOMObject parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | com.aspose.slides.IDOMObject |  |
-
 ### getParent_Immediate() {#getParent-Immediate--}
 ```
 public IDOMObject getParent_Immediate()

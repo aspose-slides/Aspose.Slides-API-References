@@ -17,13 +17,6 @@ public class ChartDataCell implements IChartDataCell
 ```
 
 Represents cell for chart data.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [ChartDataCell(ChartDataCellCollection parent)](#ChartDataCell-com.aspose.slides.ChartDataCellCollection-) |  |
-| [ChartDataCell(ChartDataCellCollection parent, String name)](#ChartDataCell-com.aspose.slides.ChartDataCellCollection-java.lang.String-) |  |
-| [ChartDataCell(ChartDataCellCollection parent, CellElement elemCell)](#ChartDataCell-com.aspose.slides.ChartDataCellCollection-com.aspose.slides.CellElement-) |  |
 ## Methods
 
 | Method | Description |
@@ -43,41 +36,6 @@ Represents cell for chart data.
 | [getPresetNumberFormat()](#getPresetNumberFormat--) | Gets or sets the built-in display format of numbers and dates. |
 | [setPresetNumberFormat(byte value)](#setPresetNumberFormat-byte-) | Gets or sets the built-in display format of numbers and dates. |
 | [calculate(boolean updateValues)](#calculate-boolean-) | If the cell contains a formula, the value will be updated base on that formula. |
-### ChartDataCell(ChartDataCellCollection parent) {#ChartDataCell-com.aspose.slides.ChartDataCellCollection-}
-```
- ChartDataCell(ChartDataCellCollection parent)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parent | com.aspose.slides.ChartDataCellCollection |  |
-
-### ChartDataCell(ChartDataCellCollection parent, String name) {#ChartDataCell-com.aspose.slides.ChartDataCellCollection-java.lang.String-}
-```
- ChartDataCell(ChartDataCellCollection parent, String name)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parent | com.aspose.slides.ChartDataCellCollection |  |
-| name | java.lang.String |  |
-
-### ChartDataCell(ChartDataCellCollection parent, CellElement elemCell) {#ChartDataCell-com.aspose.slides.ChartDataCellCollection-com.aspose.slides.CellElement-}
-```
- ChartDataCell(ChartDataCellCollection parent, CellElement elemCell)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parent | com.aspose.slides.ChartDataCellCollection |  |
-| elemCell | com.aspose.slides.CellElement |  |
-
 ### getRow() {#getRow--}
 ```
 public final int getRow()

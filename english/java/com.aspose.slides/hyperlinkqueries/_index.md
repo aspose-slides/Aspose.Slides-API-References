@@ -17,11 +17,6 @@ public final class HyperlinkQueries implements IHyperlinkQueries, IDOMObject
 ```
 
 Provide easy access to contained hyperlinks.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [HyperlinkQueries(IDOMObject parentImmediate)](#HyperlinkQueries-com.aspose.slides.IDOMObject-) |  |
 ## Methods
 
 | Method | Description |
@@ -31,17 +26,6 @@ Provide easy access to contained hyperlinks.
 | [getAnyHyperlinks()](#getAnyHyperlinks--) | Get all IHyperlinkContainer subobjects that contain not null HyperlinkMouseOver. |
 | [removeAllHyperlinks()](#removeAllHyperlinks--) | Removes all contained HyperlinkClick and HyperlinkMouseOver hyperlinks (in all IHyperlinkContainer subobjects). |
 | [getParent_Immediate()](#getParent-Immediate--) |  |
-### HyperlinkQueries(IDOMObject parentImmediate) {#HyperlinkQueries-com.aspose.slides.IDOMObject-}
-```
- HyperlinkQueries(IDOMObject parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | com.aspose.slides.IDOMObject |  |
-
 ### getHyperlinkClicks() {#getHyperlinkClicks--}
 ```
 public final System.Collections.Generic.IGenericList<IHyperlinkContainer> getHyperlinkClicks()

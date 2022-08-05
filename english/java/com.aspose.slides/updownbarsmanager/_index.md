@@ -17,11 +17,6 @@ public class UpDownBarsManager extends DomObject<ChartSeriesGroup> implements IU
 ```
 
 Provide access to up/down bars of Line- or Stock-chart.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [UpDownBarsManager(ChartSeriesGroup parentImmediate)](#UpDownBarsManager-com.aspose.slides.ChartSeriesGroup-) |  |
 ## Methods
 
 | Method | Description |
@@ -32,17 +27,6 @@ Provide access to up/down bars of Line- or Stock-chart.
 | [setUpDownBars(boolean value)](#setUpDownBars-boolean-) | HasUpDownBars. |
 | [getGapWidth()](#getGapWidth--) | GapWidth. |
 | [setGapWidth(int value)](#setGapWidth-int-) | GapWidth. |
-### UpDownBarsManager(ChartSeriesGroup parentImmediate) {#UpDownBarsManager-com.aspose.slides.ChartSeriesGroup-}
-```
- UpDownBarsManager(ChartSeriesGroup parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | [ChartSeriesGroup](../../com.aspose.slides/chartseriesgroup) |  |
-
 ### getUpBarsFormat() {#getUpBarsFormat--}
 ```
 public final IFormat getUpBarsFormat()

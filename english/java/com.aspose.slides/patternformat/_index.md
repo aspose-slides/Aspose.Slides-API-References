@@ -17,11 +17,6 @@ public class PatternFormat extends PVIObject implements IPatternFormat
 ```
 
 Represents a pattern to fill a shape.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [PatternFormat(IDOMObject parentImmediate)](#PatternFormat-com.aspose.slides.IDOMObject-) |  |
 ## Methods
 
 | Method | Description |
@@ -32,17 +27,6 @@ Represents a pattern to fill a shape.
 | [getBackColor()](#getBackColor--) | Returns the background pattern color. |
 | [getTileImage(Color background, Color foreground)](#getTileImage-java.awt.Color-java.awt.Color-) | Creates a tile image for the pattern fill with a specified colors. |
 | [getTileImage(Color styleColor)](#getTileImage-java.awt.Color-) | Creates a tile image for the pattern fill. |
-### PatternFormat(IDOMObject parentImmediate) {#PatternFormat-com.aspose.slides.IDOMObject-}
-```
- PatternFormat(IDOMObject parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | com.aspose.slides.IDOMObject |  |
-
 ### getPatternStyle() {#getPatternStyle--}
 ```
 public final byte getPatternStyle()

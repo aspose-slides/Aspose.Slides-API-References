@@ -17,11 +17,6 @@ public abstract class BasePortionFormat extends PVIObject implements IBasePortio
 ```
 
 Common text portion formatting properties.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [BasePortionFormat(IDOMObject parent)](#BasePortionFormat-com.aspose.slides.IDOMObject-) |  |
 ## Methods
 
 | Method | Description |
@@ -72,17 +67,6 @@ Common text portion formatting properties.
 | [setAlternativeLanguageId(String value)](#setAlternativeLanguageId-java.lang.String-) | Returns or sets the Id of an alternative language. |
 | [getSpacing()](#getSpacing--) | Returns or sets the intercharacter spacing increment. |
 | [setSpacing(float value)](#setSpacing-float-) | Returns or sets the intercharacter spacing increment. |
-### BasePortionFormat(IDOMObject parent) {#BasePortionFormat-com.aspose.slides.IDOMObject-}
-```
- BasePortionFormat(IDOMObject parent)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parent | com.aspose.slides.IDOMObject |  |
-
 ### getLineFormat() {#getLineFormat--}
 ```
 public final ILineFormat getLineFormat()

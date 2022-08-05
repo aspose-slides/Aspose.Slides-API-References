@@ -17,11 +17,6 @@ public class ColumnFormat extends DomObject<Column> implements IColumnFormat, IP
 ```
 
 Represents format of a table column.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [ColumnFormat(Column column)](#ColumnFormat-com.aspose.slides.Column-) |  |
 ## Methods
 
 | Method | Description |
@@ -29,17 +24,6 @@ Represents format of a table column.
 | [getEffective()](#getEffective--) | Gets effective table column formatting properties with inheritance and table styles applied. |
 | [getVersion()](#getVersion--) |  |
 | [getParent_IPresentationComponent()](#getParent-IPresentationComponent--) |  |
-### ColumnFormat(Column column) {#ColumnFormat-com.aspose.slides.Column-}
-```
- ColumnFormat(Column column)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| column | [Column](../../com.aspose.slides/column) |  |
-
 ### getEffective() {#getEffective--}
 ```
 public final IColumnFormatEffectiveData getEffective()

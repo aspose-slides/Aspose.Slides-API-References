@@ -14,11 +14,6 @@ public final class ViewType extends System.Enum
 ```
 
 Presentation view types
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [ViewType()](#ViewType--) |  |
 ## Fields
 
 | Field | Description |
@@ -32,12 +27,6 @@ Presentation view types
 | [OutlineView](#OutlineView) | Outline View |
 | [SlideSorterView](#SlideSorterView) | Slide Sorter View |
 | [SlideThumbnailView](#SlideThumbnailView) | Slide Thumbnail View |
-### ViewType() {#ViewType--}
-```
-private ViewType()
-```
-
-
 ### NotDefined {#NotDefined}
 ```
 public static final int NotDefined

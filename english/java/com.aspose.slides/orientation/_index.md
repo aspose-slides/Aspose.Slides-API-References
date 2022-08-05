@@ -14,23 +14,12 @@ public final class Orientation extends System.Enum
 ```
 
 Represents the orientation of a shape.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [Orientation()](#Orientation--) |  |
 ## Fields
 
 | Field | Description |
 | --- | --- |
 | [Horizontal](#Horizontal) | Horizontal. |
 | [Vertical](#Vertical) | Vertical. |
-### Orientation() {#Orientation--}
-```
-private Orientation()
-```
-
-
 ### Horizontal {#Horizontal}
 ```
 public static final byte Horizontal

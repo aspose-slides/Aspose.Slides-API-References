@@ -17,11 +17,6 @@ public final class CommentCollection extends DomObject<CommentAuthor> implements
 ```
 
 Represents a collection of comments of one author.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [CommentCollection(CommentAuthor parentImmediate)](#CommentCollection-com.aspose.slides.CommentAuthor-) |  |
 ## Methods
 
 | Method | Description |
@@ -43,17 +38,6 @@ Represents a collection of comments of one author.
 | [copyTo(System.Array array, int index)](#copyTo-com.aspose.ms.System.Array-int-) | Copies all elements from the collection to the specified array. |
 | [isSynchronized()](#isSynchronized--) | Returns a value indicating whether access to the collection is synchronized (thread-safe). |
 | [getSyncRoot()](#getSyncRoot--) | Returns a synchronization root. |
-### CommentCollection(CommentAuthor parentImmediate) {#CommentCollection-com.aspose.slides.CommentAuthor-}
-```
- CommentCollection(CommentAuthor parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | [CommentAuthor](../../com.aspose.slides/commentauthor) |  |
-
 ### size() {#size--}
 ```
 public final int size()

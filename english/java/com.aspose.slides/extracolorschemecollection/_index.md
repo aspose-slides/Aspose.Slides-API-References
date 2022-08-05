@@ -17,11 +17,6 @@ public class ExtraColorSchemeCollection implements IExtraColorSchemeCollection, 
 ```
 
 Represents a collection of additional color schemes.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [ExtraColorSchemeCollection(MasterTheme parentImmediate)](#ExtraColorSchemeCollection-com.aspose.slides.MasterTheme-) |  |
 ## Methods
 
 | Method | Description |
@@ -34,17 +29,6 @@ Represents a collection of additional color schemes.
 | [copyTo(System.Array array, int index)](#copyTo-com.aspose.ms.System.Array-int-) | Copies all elements of the collection to the specified array. |
 | [isSynchronized()](#isSynchronized--) | Returns a value indicating whether access to the ArrayList is synchronized (thread safe). |
 | [getSyncRoot()](#getSyncRoot--) | Returns an object that can be used to synchronize access to the collection. |
-### ExtraColorSchemeCollection(MasterTheme parentImmediate) {#ExtraColorSchemeCollection-com.aspose.slides.MasterTheme-}
-```
- ExtraColorSchemeCollection(MasterTheme parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | [MasterTheme](../../com.aspose.slides/mastertheme) |  |
-
 ### size() {#size--}
 ```
 public final int size()

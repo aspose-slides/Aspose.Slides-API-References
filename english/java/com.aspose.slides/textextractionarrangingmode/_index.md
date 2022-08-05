@@ -14,23 +14,12 @@ public final class TextExtractionArrangingMode extends System.Enum
 ```
 
 Represents the mode to use during text extraction
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [TextExtractionArrangingMode()](#TextExtractionArrangingMode--) |  |
 ## Fields
 
 | Field | Description |
 | --- | --- |
 | [Unarranged](#Unarranged) | The raw text with no respect to position on the slide |
 | [Arranged](#Arranged) | The text is positioned in the same order as on the slide |
-### TextExtractionArrangingMode() {#TextExtractionArrangingMode--}
-```
-private TextExtractionArrangingMode()
-```
-
-
 ### Unarranged {#Unarranged}
 ```
 public static final int Unarranged

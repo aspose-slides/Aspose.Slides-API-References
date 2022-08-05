@@ -17,11 +17,6 @@ public class VideoFrame extends PictureFrame implements IVideoFrame
 ```
 
 Represents a video clip on a slide.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [VideoFrame(IDOMObject parentImmediate)](#VideoFrame-com.aspose.slides.IDOMObject-) |  |
 ## Methods
 
 | Method | Description |
@@ -42,17 +37,6 @@ Represents a video clip on a slide.
 | [setLinkPathLong(String value)](#setLinkPathLong-java.lang.String-) | Returns or sets the name of an video file which is linked to a VideoFrame. |
 | [getEmbeddedVideo()](#getEmbeddedVideo--) | Returns or sets embedded video object. |
 | [setEmbeddedVideo(IVideo value)](#setEmbeddedVideo-com.aspose.slides.IVideo-) | Returns or sets embedded video object. |
-### VideoFrame(IDOMObject parentImmediate) {#VideoFrame-com.aspose.slides.IDOMObject-}
-```
- VideoFrame(IDOMObject parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | com.aspose.slides.IDOMObject |  |
-
 ### getRewindVideo() {#getRewindVideo--}
 ```
 public final boolean getRewindVideo()

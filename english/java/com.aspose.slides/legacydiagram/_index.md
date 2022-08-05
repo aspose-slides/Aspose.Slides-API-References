@@ -17,28 +17,12 @@ public class LegacyDiagram extends GraphicalObject implements ILegacyDiagram
 ```
 
 Represents a legacy diagram object.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [LegacyDiagram(IDOMObject parentImmediate)](#LegacyDiagram-com.aspose.slides.IDOMObject-) |  |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [convertToSmartArt()](#convertToSmartArt--) | Converts legacy digram to editable SmartArt object. |
 | [convertToGroupShape()](#convertToGroupShape--) | Converts legacy digram to editable group shape. |
-### LegacyDiagram(IDOMObject parentImmediate) {#LegacyDiagram-com.aspose.slides.IDOMObject-}
-```
- LegacyDiagram(IDOMObject parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | com.aspose.slides.IDOMObject |  |
-
 ### convertToSmartArt() {#convertToSmartArt--}
 ```
 public final ISmartArt convertToSmartArt()

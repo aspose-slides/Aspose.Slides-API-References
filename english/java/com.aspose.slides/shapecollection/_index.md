@@ -17,11 +17,6 @@ public final class ShapeCollection extends DomObject<GroupShape> implements ISha
 ```
 
 Represents a collection of a shapes.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [ShapeCollection(GroupShape parentImmediate)](#ShapeCollection-com.aspose.slides.GroupShape-) |  |
 ## Methods
 
 | Method | Description |
@@ -94,17 +89,6 @@ Represents a collection of a shapes.
 | [copyTo(System.Array array, int index)](#copyTo-com.aspose.ms.System.Array-int-) | Copies all elements from the collection to the specified array. |
 | [isSynchronized()](#isSynchronized--) | Returns a value indicating whether access to the collection is synchronized (thread-safe). |
 | [getSyncRoot()](#getSyncRoot--) | Returns a synchronization root. |
-### ShapeCollection(GroupShape parentImmediate) {#ShapeCollection-com.aspose.slides.GroupShape-}
-```
- ShapeCollection(GroupShape parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | [GroupShape](../../com.aspose.slides/groupshape) |  |
-
 ### size() {#size--}
 ```
 public final int size()

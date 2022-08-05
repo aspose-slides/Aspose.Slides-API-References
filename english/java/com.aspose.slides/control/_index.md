@@ -17,11 +17,6 @@ public class Control extends DomObject<ControlCollection> implements IControl
 ```
 
 Represents an ActiveX control.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [Control(ControlCollection parentImmediate)](#Control-com.aspose.slides.ControlCollection-) |  |
 ## Methods
 
 | Method | Description |
@@ -38,17 +33,6 @@ Represents an ActiveX control.
 | [getActiveXControlBinary()](#getActiveXControlBinary--) | Specifies the persistence of an ActiveX control when the method used to persist is either PersistStream, PersistStreamInit or PersistStorage. |
 | [getSlide()](#getSlide--) |  |
 | [getPresentation()](#getPresentation--) |  |
-### Control(ControlCollection parentImmediate) {#Control-com.aspose.slides.ControlCollection-}
-```
- Control(ControlCollection parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | [ControlCollection](../../com.aspose.slides/controlcollection) |  |
-
 ### getPersistence() {#getPersistence--}
 ```
 public final int getPersistence()

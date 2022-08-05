@@ -14,11 +14,6 @@ public final class LineArrowheadStyle extends System.Enum
 ```
 
 Represents the style of an arrowhead.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [LineArrowheadStyle()](#LineArrowheadStyle--) |  |
 ## Fields
 
 | Field | Description |
@@ -30,12 +25,6 @@ Represents the style of an arrowhead.
 | [Diamond](#Diamond) |  |
 | [Oval](#Oval) |  |
 | [Open](#Open) |  |
-### LineArrowheadStyle() {#LineArrowheadStyle--}
-```
-private LineArrowheadStyle()
-```
-
-
 ### NotDefined {#NotDefined}
 ```
 public static final byte NotDefined

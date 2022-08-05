@@ -17,11 +17,6 @@ public class PresentationHeaderFooterManager extends BaseHeaderFooterManager imp
 ```
 
 Represents manager which holds behavior of all footer, date-time and page number placeholders of presentation.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [PresentationHeaderFooterManager(Presentation parentImmediate)](#PresentationHeaderFooterManager-com.aspose.slides.Presentation-) |  |
 ## Methods
 
 | Method | Description |
@@ -34,17 +29,6 @@ Represents manager which holds behavior of all footer, date-time and page number
 | [setAllFootersText(String text)](#setAllFootersText-java.lang.String-) | Sets text to all footer placeholders, including master slides, layout slides, slides, notes master, notes slides and handout master. |
 | [setAllDateTimesText(String text)](#setAllDateTimesText-java.lang.String-) | Sets text to all date-time placeholders, including master slides, layout slides, slides, notes master, notes slides and handout master. |
 | [setVisibilityOnAllTitleSlides(boolean isVisible)](#setVisibilityOnAllTitleSlides-boolean-) | Changes the footer, date-time and page number placeholders visibility for all title slides and for first layout slide. |
-### PresentationHeaderFooterManager(Presentation parentImmediate) {#PresentationHeaderFooterManager-com.aspose.slides.Presentation-}
-```
- PresentationHeaderFooterManager(Presentation parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | [Presentation](../../com.aspose.slides/presentation) |  |
-
 ### setAllHeadersVisibility(boolean isVisible) {#setAllHeadersVisibility-boolean-}
 ```
 public final void setAllHeadersVisibility(boolean isVisible)

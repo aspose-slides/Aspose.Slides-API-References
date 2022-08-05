@@ -15,11 +15,6 @@ public final class PdfAccessPermissions extends System.Enum
 ```
 
 Contains a set of flags specifying which access permissions should be granted when the document is opened with user access.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [PdfAccessPermissions()](#PdfAccessPermissions--) |  |
 ## Fields
 
 | Field | Description |
@@ -33,12 +28,6 @@ Contains a set of flags specifying which access permissions should be granted wh
 | [ExtractTextAndGraphics](#ExtractTextAndGraphics) | Specifies whether a user may extract text and graphics in support of accessibility to users with disabilities or for other purposes. |
 | [AssembleDocument](#AssembleDocument) | Specifies whether a user may assemble the document (insert, rotate, or delete pages and create bookmarks or thumbnail images), even if bit [PdfAccessPermissions\#ModifyContent](../../com.aspose.slides/pdfaccesspermissions\#ModifyContent) is clear. |
 | [HighQualityPrint](#HighQualityPrint) | Specifies whether a user may print the document to a representation from which a faithful digital copy of the PDF content could be generated. |
-### PdfAccessPermissions() {#PdfAccessPermissions--}
-```
-private PdfAccessPermissions()
-```
-
-
 ### None {#None}
 ```
 public static final int None

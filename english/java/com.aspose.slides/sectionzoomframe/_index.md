@@ -17,30 +17,12 @@ public class SectionZoomFrame extends ZoomObject implements ISectionZoomFrame
 ```
 
 Represents a Section Zoom object in a slide.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [SectionZoomFrame(IDOMObject parentImmediate)](#SectionZoomFrame-com.aspose.slides.IDOMObject-) | Creates new SectionZoomFrame object and initializes properties by default values |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [getTargetSection()](#getTargetSection--) | Gets or sets the section object that the Section Zoom object links to. |
 | [setTargetSection(ISection value)](#setTargetSection-com.aspose.slides.ISection-) | Gets or sets the section object that the Section Zoom object links to. |
-### SectionZoomFrame(IDOMObject parentImmediate) {#SectionZoomFrame-com.aspose.slides.IDOMObject-}
-```
- SectionZoomFrame(IDOMObject parentImmediate)
-```
-
-
-Creates new SectionZoomFrame object and initializes properties by default values
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | com.aspose.slides.IDOMObject | Parent object [ShapeCollection](../com.aspose.slides/shapecollection) |
-
 ### getTargetSection() {#getTargetSection--}
 ```
 public final ISection getTargetSection()

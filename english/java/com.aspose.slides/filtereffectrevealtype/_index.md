@@ -14,11 +14,6 @@ public final class FilterEffectRevealType extends System.Enum
 ```
 
 Represents filter reveal type.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [FilterEffectRevealType()](#FilterEffectRevealType--) |  |
 ## Fields
 
 | Field | Description |
@@ -27,12 +22,6 @@ Represents filter reveal type.
 | [None](#None) |  |
 | [In](#In) |  |
 | [Out](#Out) |  |
-### FilterEffectRevealType() {#FilterEffectRevealType--}
-```
-private FilterEffectRevealType()
-```
-
-
 ### NotDefined {#NotDefined}
 ```
 public static final int NotDefined

@@ -17,11 +17,6 @@ public class Chart extends GraphicalObject implements IChart
 ```
 
 Represents an graphic chart on a slide.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [Chart(ShapeCollection parentImmediate, int type)](#Chart-com.aspose.slides.ShapeCollection-int-) |  |
 ## Methods
 
 | Method | Description |
@@ -60,18 +55,6 @@ Represents an graphic chart on a slide.
 | [hasRoundedCorners()](#hasRoundedCorners--) | Specifies the chart area shall have rounded corners. |
 | [setRoundedCorners(boolean value)](#setRoundedCorners-boolean-) | Specifies the chart area shall have rounded corners. |
 | [getChart()](#getChart--) |  |
-### Chart(ShapeCollection parentImmediate, int type) {#Chart-com.aspose.slides.ShapeCollection-int-}
-```
- Chart(ShapeCollection parentImmediate, int type)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | [ShapeCollection](../../com.aspose.slides/shapecollection) |  |
-| type | int |  |
-
 ### validateChartLayout() {#validateChartLayout--}
 ```
 public final void validateChartLayout()

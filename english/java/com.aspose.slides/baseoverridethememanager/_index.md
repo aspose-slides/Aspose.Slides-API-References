@@ -17,11 +17,6 @@ public abstract class BaseOverrideThemeManager extends BaseThemeManager implemen
 ```
 
 Base class for classes that provide access to different types of overriden themes.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [BaseOverrideThemeManager(IDOMObject parentImmediate)](#BaseOverrideThemeManager-com.aspose.slides.IDOMObject-) |  |
 ## Methods
 
 | Method | Description |
@@ -31,17 +26,6 @@ Base class for classes that provide access to different types of overriden theme
 | [createThemeEffective()](#createThemeEffective--) | Returns the theme object. |
 | [isOverrideThemeEnabled()](#isOverrideThemeEnabled--) | Determines whether OverrideTheme overrides inherited effective theme or not. |
 | [applyColorScheme(IExtraColorScheme scheme)](#applyColorScheme-com.aspose.slides.IExtraColorScheme-) | Applies extra color scheme to a slide. |
-### BaseOverrideThemeManager(IDOMObject parentImmediate) {#BaseOverrideThemeManager-com.aspose.slides.IDOMObject-}
-```
- BaseOverrideThemeManager(IDOMObject parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | com.aspose.slides.IDOMObject |  |
-
 ### getOverrideTheme() {#getOverrideTheme--}
 ```
 public final IOverrideTheme getOverrideTheme()

@@ -17,11 +17,6 @@ public class ChartDataPointCollection extends DomObject<ChartSeries> implements 
 ```
 
 Represents collection of a series data point.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [ChartDataPointCollection(ChartSeries parentImmediate)](#ChartDataPointCollection-com.aspose.slides.ChartSeries-) |  |
 ## Methods
 
 | Method | Description |
@@ -88,17 +83,6 @@ Represents collection of a series data point.
 | [clear()](#clear--) | Removes all elements from the collection. |
 | [remove(IChartDataPoint value)](#remove-com.aspose.slides.IChartDataPoint-) | Removes the specified value. |
 | [removeAt(int index)](#removeAt-int-) | Removes the element at the given index. |
-### ChartDataPointCollection(ChartSeries parentImmediate) {#ChartDataPointCollection-com.aspose.slides.ChartSeries-}
-```
- ChartDataPointCollection(ChartSeries parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | [ChartSeries](../../com.aspose.slides/chartseries) |  |
-
 ### get_Item(int index) {#get-Item-int-}
 ```
 public final IChartDataPoint get_Item(int index)
@@ -316,7 +300,7 @@ public final IChartDataPoint addDataPointForStockSeries(IChartDataCell value)
 ```
 
 
-Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Stock subtypes (see also [ChartTypeCharacterizer\#isChartTypeStock(int)](../../com.aspose.slides/charttypecharacterizer\#isChartTypeStock(int)) method).
+Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Stock subtypes (see also [ChartTypeCharacterizer\#isChartTypeStock(int)](../../com.aspose.slides/charttypecharacterizer\#isChartTypeStock-int-) method).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -331,7 +315,7 @@ public final IChartDataPoint addDataPointForStockSeries(double value)
 ```
 
 
-Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Stock subtypes (see also [ChartTypeCharacterizer\#isChartTypeStock(int)](../../com.aspose.slides/charttypecharacterizer\#isChartTypeStock(int)) method).
+Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Stock subtypes (see also [ChartTypeCharacterizer\#isChartTypeStock(int)](../../com.aspose.slides/charttypecharacterizer\#isChartTypeStock-int-) method).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -346,7 +330,7 @@ public final IChartDataPoint addDataPointForLineSeries(IChartDataCell value)
 ```
 
 
-Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Line subtypes (see also [ChartTypeCharacterizer\#isChartTypeLine(int)](../../com.aspose.slides/charttypecharacterizer\#isChartTypeLine(int)) method).
+Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Line subtypes (see also [ChartTypeCharacterizer\#isChartTypeLine(int)](../../com.aspose.slides/charttypecharacterizer\#isChartTypeLine-int-) method).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -361,7 +345,7 @@ public final IChartDataPoint addDataPointForLineSeries(double value)
 ```
 
 
-Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Line subtypes (see also [ChartTypeCharacterizer\#isChartTypeLine(int)](../../com.aspose.slides/charttypecharacterizer\#isChartTypeLine(int)) method).
+Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Line subtypes (see also [ChartTypeCharacterizer\#isChartTypeLine(int)](../../com.aspose.slides/charttypecharacterizer\#isChartTypeLine-int-) method).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -376,7 +360,7 @@ public final IChartDataPoint addDataPointForScatterSeries(IChartDataCell xValue,
 ```
 
 
-Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Scatter subtypes (see also [ChartTypeCharacterizer\#isChartTypeScatter(int)](../../com.aspose.slides/charttypecharacterizer\#isChartTypeScatter(int)) method).
+Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Scatter subtypes (see also [ChartTypeCharacterizer\#isChartTypeScatter(int)](../../com.aspose.slides/charttypecharacterizer\#isChartTypeScatter-int-) method).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -392,7 +376,7 @@ public final IChartDataPoint addDataPointForScatterSeries(double xValue, IChartD
 ```
 
 
-Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Scatter subtypes (see also [ChartTypeCharacterizer\#isChartTypeScatter(int)](../../com.aspose.slides/charttypecharacterizer\#isChartTypeScatter(int)) method).
+Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Scatter subtypes (see also [ChartTypeCharacterizer\#isChartTypeScatter(int)](../../com.aspose.slides/charttypecharacterizer\#isChartTypeScatter-int-) method).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -408,7 +392,7 @@ public final IChartDataPoint addDataPointForScatterSeries(String xValue, IChartD
 ```
 
 
-Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Scatter subtypes (see also [ChartTypeCharacterizer\#isChartTypeScatter(int)](../../com.aspose.slides/charttypecharacterizer\#isChartTypeScatter(int)) method).
+Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Scatter subtypes (see also [ChartTypeCharacterizer\#isChartTypeScatter(int)](../../com.aspose.slides/charttypecharacterizer\#isChartTypeScatter-int-) method).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -424,7 +408,7 @@ public final IChartDataPoint addDataPointForScatterSeries(IChartDataCell xValue,
 ```
 
 
-Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Scatter subtypes (see also [ChartTypeCharacterizer\#isChartTypeScatter(int)](../../com.aspose.slides/charttypecharacterizer\#isChartTypeScatter(int)) method).
+Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Scatter subtypes (see also [ChartTypeCharacterizer\#isChartTypeScatter(int)](../../com.aspose.slides/charttypecharacterizer\#isChartTypeScatter-int-) method).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -440,7 +424,7 @@ public final IChartDataPoint addDataPointForScatterSeries(double xValue, double 
 ```
 
 
-Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Scatter subtypes (see also [ChartTypeCharacterizer\#isChartTypeScatter(int)](../../com.aspose.slides/charttypecharacterizer\#isChartTypeScatter(int)) method).
+Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Scatter subtypes (see also [ChartTypeCharacterizer\#isChartTypeScatter(int)](../../com.aspose.slides/charttypecharacterizer\#isChartTypeScatter-int-) method).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -456,7 +440,7 @@ public final IChartDataPoint addDataPointForScatterSeries(String xValue, double 
 ```
 
 
-Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Scatter subtypes (see also [ChartTypeCharacterizer\#isChartTypeScatter(int)](../../com.aspose.slides/charttypecharacterizer\#isChartTypeScatter(int)) method).
+Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Scatter subtypes (see also [ChartTypeCharacterizer\#isChartTypeScatter(int)](../../com.aspose.slides/charttypecharacterizer\#isChartTypeScatter-int-) method).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -472,7 +456,7 @@ public final IChartDataPoint addDataPointForRadarSeries(IChartDataCell value)
 ```
 
 
-Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Radar subtypes (see also [ChartTypeCharacterizer\#isChartTypeRadar(int)](../../com.aspose.slides/charttypecharacterizer\#isChartTypeRadar(int)) method).
+Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Radar subtypes (see also [ChartTypeCharacterizer\#isChartTypeRadar(int)](../../com.aspose.slides/charttypecharacterizer\#isChartTypeRadar-int-) method).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -487,7 +471,7 @@ public final IChartDataPoint addDataPointForRadarSeries(double value)
 ```
 
 
-Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Radar subtypes (see also [ChartTypeCharacterizer\#isChartTypeRadar(int)](../../com.aspose.slides/charttypecharacterizer\#isChartTypeRadar(int)) method).
+Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Radar subtypes (see also [ChartTypeCharacterizer\#isChartTypeRadar(int)](../../com.aspose.slides/charttypecharacterizer\#isChartTypeRadar-int-) method).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -502,7 +486,7 @@ public final IChartDataPoint addDataPointForBarSeries(IChartDataCell value)
 ```
 
 
-Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Column or Bar subtypes (see also [ChartTypeCharacterizer\#isChartTypeColumn(int)](../../com.aspose.slides/charttypecharacterizer\#isChartTypeColumn(int)) and [ChartTypeCharacterizer\#isChartTypeBar(int)](../../com.aspose.slides/charttypecharacterizer\#isChartTypeBar(int)) method).
+Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Column or Bar subtypes (see also [ChartTypeCharacterizer\#isChartTypeColumn(int)](../../com.aspose.slides/charttypecharacterizer\#isChartTypeColumn-int-) and [ChartTypeCharacterizer\#isChartTypeBar(int)](../../com.aspose.slides/charttypecharacterizer\#isChartTypeBar-int-) method).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -517,7 +501,7 @@ public final IChartDataPoint addDataPointForBarSeries(double value)
 ```
 
 
-Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Column or Bar subtypes (see also [ChartTypeCharacterizer\#isChartTypeColumn(int)](../../com.aspose.slides/charttypecharacterizer\#isChartTypeColumn(int)) and [ChartTypeCharacterizer\#isChartTypeBar(int)](../../com.aspose.slides/charttypecharacterizer\#isChartTypeBar(int)) method).
+Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Column or Bar subtypes (see also [ChartTypeCharacterizer\#isChartTypeColumn(int)](../../com.aspose.slides/charttypecharacterizer\#isChartTypeColumn-int-) and [ChartTypeCharacterizer\#isChartTypeBar(int)](../../com.aspose.slides/charttypecharacterizer\#isChartTypeBar-int-) method).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -532,7 +516,7 @@ public final IChartDataPoint addDataPointForAreaSeries(IChartDataCell value)
 ```
 
 
-Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Area subtypes (see also [ChartTypeCharacterizer\#isChartTypeArea(int)](../../com.aspose.slides/charttypecharacterizer\#isChartTypeArea(int)) method).
+Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Area subtypes (see also [ChartTypeCharacterizer\#isChartTypeArea(int)](../../com.aspose.slides/charttypecharacterizer\#isChartTypeArea-int-) method).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -547,7 +531,7 @@ public final IChartDataPoint addDataPointForAreaSeries(double value)
 ```
 
 
-Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Area subtypes (see also [ChartTypeCharacterizer\#isChartTypeArea(int)](../../com.aspose.slides/charttypecharacterizer\#isChartTypeArea(int)) method).
+Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Area subtypes (see also [ChartTypeCharacterizer\#isChartTypeArea(int)](../../com.aspose.slides/charttypecharacterizer\#isChartTypeArea-int-) method).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -562,7 +546,7 @@ public final IChartDataPoint addDataPointForPieSeries(IChartDataCell value)
 ```
 
 
-Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Pie subtypes (see also [ChartTypeCharacterizer\#isChartTypePie(int)](../../com.aspose.slides/charttypecharacterizer\#isChartTypePie(int)) method).
+Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Pie subtypes (see also [ChartTypeCharacterizer\#isChartTypePie(int)](../../com.aspose.slides/charttypecharacterizer\#isChartTypePie-int-) method).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -577,7 +561,7 @@ public final IChartDataPoint addDataPointForPieSeries(double value)
 ```
 
 
-Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Pie subtypes (see also [ChartTypeCharacterizer\#isChartTypePie(int)](../../com.aspose.slides/charttypecharacterizer\#isChartTypePie(int)) method).
+Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Pie subtypes (see also [ChartTypeCharacterizer\#isChartTypePie(int)](../../com.aspose.slides/charttypecharacterizer\#isChartTypePie-int-) method).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -592,7 +576,7 @@ public final IChartDataPoint addDataPointForDoughnutSeries(IChartDataCell value)
 ```
 
 
-Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Doughnut subtypes (see also [ChartTypeCharacterizer\#isChartTypeDoughnut(int)](../../com.aspose.slides/charttypecharacterizer\#isChartTypeDoughnut(int)) method).
+Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Doughnut subtypes (see also [ChartTypeCharacterizer\#isChartTypeDoughnut(int)](../../com.aspose.slides/charttypecharacterizer\#isChartTypeDoughnut-int-) method).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -607,7 +591,7 @@ public final IChartDataPoint addDataPointForDoughnutSeries(double value)
 ```
 
 
-Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Doughnut subtypes (see also [ChartTypeCharacterizer\#isChartTypeDoughnut(int)](../../com.aspose.slides/charttypecharacterizer\#isChartTypeDoughnut(int)) method).
+Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Doughnut subtypes (see also [ChartTypeCharacterizer\#isChartTypeDoughnut(int)](../../com.aspose.slides/charttypecharacterizer\#isChartTypeDoughnut-int-) method).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -622,7 +606,7 @@ public final IChartDataPoint addDataPointForBubbleSeries(IChartDataCell xValue, 
 ```
 
 
-Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Bubble subtypes (see also [ChartTypeCharacterizer\#isChartTypeBubble(int)](../../com.aspose.slides/charttypecharacterizer\#isChartTypeBubble(int)) method).
+Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Bubble subtypes (see also [ChartTypeCharacterizer\#isChartTypeBubble(int)](../../com.aspose.slides/charttypecharacterizer\#isChartTypeBubble-int-) method).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -639,7 +623,7 @@ public final IChartDataPoint addDataPointForBubbleSeries(double xValue, IChartDa
 ```
 
 
-Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Bubble subtypes (see also [ChartTypeCharacterizer\#isChartTypeBubble(int)](../../com.aspose.slides/charttypecharacterizer\#isChartTypeBubble(int)) method).
+Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Bubble subtypes (see also [ChartTypeCharacterizer\#isChartTypeBubble(int)](../../com.aspose.slides/charttypecharacterizer\#isChartTypeBubble-int-) method).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -656,7 +640,7 @@ public final IChartDataPoint addDataPointForBubbleSeries(String xValue, IChartDa
 ```
 
 
-Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Bubble subtypes (see also [ChartTypeCharacterizer\#isChartTypeBubble(int)](../../com.aspose.slides/charttypecharacterizer\#isChartTypeBubble(int)) method).
+Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Bubble subtypes (see also [ChartTypeCharacterizer\#isChartTypeBubble(int)](../../com.aspose.slides/charttypecharacterizer\#isChartTypeBubble-int-) method).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -673,7 +657,7 @@ public final IChartDataPoint addDataPointForBubbleSeries(IChartDataCell xValue, 
 ```
 
 
-Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Bubble subtypes (see also [ChartTypeCharacterizer\#isChartTypeBubble(int)](../../com.aspose.slides/charttypecharacterizer\#isChartTypeBubble(int)) method).
+Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Bubble subtypes (see also [ChartTypeCharacterizer\#isChartTypeBubble(int)](../../com.aspose.slides/charttypecharacterizer\#isChartTypeBubble-int-) method).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -690,7 +674,7 @@ public final IChartDataPoint addDataPointForBubbleSeries(double xValue, double y
 ```
 
 
-Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Bubble subtypes (see also [ChartTypeCharacterizer\#isChartTypeBubble(int)](../../com.aspose.slides/charttypecharacterizer\#isChartTypeBubble(int)) method).
+Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Bubble subtypes (see also [ChartTypeCharacterizer\#isChartTypeBubble(int)](../../com.aspose.slides/charttypecharacterizer\#isChartTypeBubble-int-) method).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -707,7 +691,7 @@ public final IChartDataPoint addDataPointForBubbleSeries(String xValue, double y
 ```
 
 
-Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Bubble subtypes (see also [ChartTypeCharacterizer\#isChartTypeBubble(int)](../../com.aspose.slides/charttypecharacterizer\#isChartTypeBubble(int)) method).
+Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Bubble subtypes (see also [ChartTypeCharacterizer\#isChartTypeBubble(int)](../../com.aspose.slides/charttypecharacterizer\#isChartTypeBubble-int-) method).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -724,7 +708,7 @@ public final IChartDataPoint addDataPointForBubbleSeries(IChartDataCell xValue, 
 ```
 
 
-Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Bubble subtypes (see also [ChartTypeCharacterizer\#isChartTypeBubble(int)](../../com.aspose.slides/charttypecharacterizer\#isChartTypeBubble(int)) method).
+Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Bubble subtypes (see also [ChartTypeCharacterizer\#isChartTypeBubble(int)](../../com.aspose.slides/charttypecharacterizer\#isChartTypeBubble-int-) method).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -741,7 +725,7 @@ public final IChartDataPoint addDataPointForBubbleSeries(double xValue, IChartDa
 ```
 
 
-Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Bubble subtypes (see also [ChartTypeCharacterizer\#isChartTypeBubble(int)](../../com.aspose.slides/charttypecharacterizer\#isChartTypeBubble(int)) method).
+Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Bubble subtypes (see also [ChartTypeCharacterizer\#isChartTypeBubble(int)](../../com.aspose.slides/charttypecharacterizer\#isChartTypeBubble-int-) method).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -758,7 +742,7 @@ public final IChartDataPoint addDataPointForBubbleSeries(String xValue, IChartDa
 ```
 
 
-Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Bubble subtypes (see also [ChartTypeCharacterizer\#isChartTypeBubble(int)](../../com.aspose.slides/charttypecharacterizer\#isChartTypeBubble(int)) method).
+Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Bubble subtypes (see also [ChartTypeCharacterizer\#isChartTypeBubble(int)](../../com.aspose.slides/charttypecharacterizer\#isChartTypeBubble-int-) method).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -775,7 +759,7 @@ public final IChartDataPoint addDataPointForBubbleSeries(IChartDataCell xValue, 
 ```
 
 
-Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Bubble subtypes (see also [ChartTypeCharacterizer\#isChartTypeBubble(int)](../../com.aspose.slides/charttypecharacterizer\#isChartTypeBubble(int)) method).
+Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Bubble subtypes (see also [ChartTypeCharacterizer\#isChartTypeBubble(int)](../../com.aspose.slides/charttypecharacterizer\#isChartTypeBubble-int-) method).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -792,7 +776,7 @@ public final IChartDataPoint addDataPointForBubbleSeries(double xValue, double y
 ```
 
 
-Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Bubble subtypes (see also [ChartTypeCharacterizer\#isChartTypeBubble(int)](../../com.aspose.slides/charttypecharacterizer\#isChartTypeBubble(int)) method).
+Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Bubble subtypes (see also [ChartTypeCharacterizer\#isChartTypeBubble(int)](../../com.aspose.slides/charttypecharacterizer\#isChartTypeBubble-int-) method).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -809,7 +793,7 @@ public final IChartDataPoint addDataPointForBubbleSeries(String xValue, double y
 ```
 
 
-Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Bubble subtypes (see also [ChartTypeCharacterizer\#isChartTypeBubble(int)](../../com.aspose.slides/charttypecharacterizer\#isChartTypeBubble(int)) method).
+Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Bubble subtypes (see also [ChartTypeCharacterizer\#isChartTypeBubble(int)](../../com.aspose.slides/charttypecharacterizer\#isChartTypeBubble-int-) method).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -826,7 +810,7 @@ public final IChartDataPoint addDataPointForSurfaceSeries(IChartDataCell value)
 ```
 
 
-Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Surface subtypes (see also [ChartTypeCharacterizer\#isChartTypeSurface(int)](../../com.aspose.slides/charttypecharacterizer\#isChartTypeSurface(int)) method).
+Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Surface subtypes (see also [ChartTypeCharacterizer\#isChartTypeSurface(int)](../../com.aspose.slides/charttypecharacterizer\#isChartTypeSurface-int-) method).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -841,7 +825,7 @@ public final IChartDataPoint addDataPointForSurfaceSeries(double value)
 ```
 
 
-Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Surface subtypes (see also [ChartTypeCharacterizer\#isChartTypeSurface(int)](../../com.aspose.slides/charttypecharacterizer\#isChartTypeSurface(int)) method).
+Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Surface subtypes (see also [ChartTypeCharacterizer\#isChartTypeSurface(int)](../../com.aspose.slides/charttypecharacterizer\#isChartTypeSurface-int-) method).
 
 **Parameters:**
 | Parameter | Type | Description |

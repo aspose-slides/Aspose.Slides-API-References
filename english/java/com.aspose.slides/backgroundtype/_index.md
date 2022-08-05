@@ -14,11 +14,6 @@ public final class BackgroundType extends System.Enum
 ```
 
 Defines the slide background fill source.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [BackgroundType()](#BackgroundType--) |  |
 ## Fields
 
 | Field | Description |
@@ -26,12 +21,6 @@ Defines the slide background fill source.
 | [NotDefined](#NotDefined) |  |
 | [Themed](#Themed) |  |
 | [OwnBackground](#OwnBackground) |  |
-### BackgroundType() {#BackgroundType--}
-```
-private BackgroundType()
-```
-
-
 ### NotDefined {#NotDefined}
 ```
 public static final byte NotDefined

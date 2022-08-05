@@ -14,11 +14,6 @@ public final class TransitionSoundMode extends System.Enum
 ```
 
 Represent sound mode of transition.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [TransitionSoundMode()](#TransitionSoundMode--) |  |
 ## Fields
 
 | Field | Description |
@@ -26,12 +21,6 @@ Represent sound mode of transition.
 | [NotDefined](#NotDefined) |  |
 | [StartSound](#StartSound) |  |
 | [StopPrevoiusSound](#StopPrevoiusSound) |  |
-### TransitionSoundMode() {#TransitionSoundMode--}
-```
-private TransitionSoundMode()
-```
-
-
 ### NotDefined {#NotDefined}
 ```
 public static final int NotDefined

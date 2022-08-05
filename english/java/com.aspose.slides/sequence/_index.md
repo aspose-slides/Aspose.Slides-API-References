@@ -17,11 +17,6 @@ public final class Sequence implements ISequence
 ```
 
 Represents sequence (collection of effects).
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [Sequence(AnimationTimeLine parent)](#Sequence-com.aspose.slides.AnimationTimeLine-) |  |
 ## Methods
 
 | Method | Description |
@@ -43,17 +38,6 @@ Represents sequence (collection of effects).
 | [addEffect(IParagraph paragraph, int effectType, int subtype, int triggerType)](#addEffect-com.aspose.slides.IParagraph-int-int-int-) | Add new animation effect for paragraph to the end of sequence. |
 | [addEffect(IChart chart, int type, int index, int effectType, int subtype, int triggerType)](#addEffect-com.aspose.slides.IChart-int-int-int-int-int-) | Adds the new chart animation effect for category or series to the end of sequence. |
 | [addEffect(IChart chart, int type, int seriesIndex, int categoriesIndex, int effectType, int subtype, int triggerType)](#addEffect-com.aspose.slides.IChart-int-int-int-int-int-int-) | Adds the new chart animation effect for elements in category or series to the end of sequence. |
-### Sequence(AnimationTimeLine parent) {#Sequence-com.aspose.slides.AnimationTimeLine-}
-```
- Sequence(AnimationTimeLine parent)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parent | [AnimationTimeLine](../../com.aspose.slides/animationtimeline) |  |
-
 ### getCount() {#getCount--}
 ```
 public final int getCount()

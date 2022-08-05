@@ -17,11 +17,6 @@ public class Rotation3D implements IRotation3D, IDOMObject
 ```
 
 Represents 3D rotation of a chart.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [Rotation3D(Chart parentImmediate)](#Rotation3D-com.aspose.slides.Chart-) |  |
 ## Methods
 
 | Method | Description |
@@ -39,17 +34,6 @@ Represents 3D rotation of a chart.
 | [getHeightPercents()](#getHeightPercents--) | Specifies the height of a 3-D chart as a percentage of the chart width (between 5 and 500 percent). |
 | [setHeightPercents(int value)](#setHeightPercents-int-) | Specifies the height of a 3-D chart as a percentage of the chart width (between 5 and 500 percent). |
 | [getParent_Immediate()](#getParent-Immediate--) |  |
-### Rotation3D(Chart parentImmediate) {#Rotation3D-com.aspose.slides.Chart-}
-```
- Rotation3D(Chart parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | [Chart](../../com.aspose.slides/chart) |  |
-
 ### getRotationX() {#getRotationX--}
 ```
 public final byte getRotationX()

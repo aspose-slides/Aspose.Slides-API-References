@@ -17,11 +17,6 @@ public class LayoutSlideCollection implements ILayoutSlideCollection, IDOMObject
 ```
 
 Represents a base class for collection of a layout slides.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [LayoutSlideCollection(IDOMObject parentImmediate)](#LayoutSlideCollection-com.aspose.slides.IDOMObject-) |  |
 ## Methods
 
 | Method | Description |
@@ -37,17 +32,6 @@ Represents a base class for collection of a layout slides.
 | [isSynchronized()](#isSynchronized--) | Returns a value indicating whether access to the collection is synchronized (thread-safe). |
 | [getSyncRoot()](#getSyncRoot--) | Returns a synchronization root. |
 | [getParent_Immediate()](#getParent-Immediate--) |  |
-### LayoutSlideCollection(IDOMObject parentImmediate) {#LayoutSlideCollection-com.aspose.slides.IDOMObject-}
-```
- LayoutSlideCollection(IDOMObject parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | com.aspose.slides.IDOMObject |  |
-
 ### size() {#size--}
 ```
 public final int size()

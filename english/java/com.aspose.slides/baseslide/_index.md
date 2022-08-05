@@ -17,11 +17,6 @@ public abstract class BaseSlide implements IBaseSlide, IDOMObject, IStyleColorOw
 ```
 
 Represents common data for all slide types.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [BaseSlide(IDOMObject parentImmediate)](#BaseSlide-com.aspose.slides.IDOMObject-) | Creates new Slide - called by Presentation to create a slide from scratch. |
 ## Methods
 
 | Method | Description |
@@ -46,19 +41,6 @@ Represents common data for all slide types.
 | [getParent_Immediate()](#getParent-Immediate--) |  |
 | [getPresentation()](#getPresentation--) | Returns IPresentation interface. |
 | [getSlide()](#getSlide--) |  |
-### BaseSlide(IDOMObject parentImmediate) {#BaseSlide-com.aspose.slides.IDOMObject-}
-```
- BaseSlide(IDOMObject parentImmediate)
-```
-
-
-Creates new Slide - called by Presentation to create a slide from scratch. You should not be calling this from application code (its protected anyhow).
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | com.aspose.slides.IDOMObject |  |
-
 ### getShapes() {#getShapes--}
 ```
 public final IShapeCollection getShapes()

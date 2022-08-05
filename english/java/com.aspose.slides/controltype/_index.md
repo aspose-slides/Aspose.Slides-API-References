@@ -13,23 +13,12 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class ControlType extends System.Enum
 ```
 
-Defines a control type which should be embedded by [IControlCollection\#addControl(int,float,float,float,float)](../../com.aspose.slides/icontrolcollection\#addControl(int,float,float,float,float)).
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [ControlType()](#ControlType--) |  |
+Defines a control type which should be embedded by [IControlCollection\#addControl(int,float,float,float,float)](../../com.aspose.slides/icontrolcollection\#addControl-int-float-float-float-float-).
 ## Fields
 
 | Field | Description |
 | --- | --- |
 | [WindowsMediaPlayer](#WindowsMediaPlayer) | Windows Media Player control. |
-### ControlType() {#ControlType--}
-```
-private ControlType()
-```
-
-
 ### WindowsMediaPlayer {#WindowsMediaPlayer}
 ```
 public static final int WindowsMediaPlayer

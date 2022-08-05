@@ -17,11 +17,6 @@ public final class Background extends PVIObject implements IBackground, IDOMObje
 ```
 
 Represents background of a slide.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [Background(IDOMObject parentImmediate)](#Background-com.aspose.slides.IDOMObject-) |  |
 ## Methods
 
 | Method | Description |
@@ -37,17 +32,6 @@ Represents background of a slide.
 | [getParent_Immediate()](#getParent-Immediate--) |  |
 | [getSlide()](#getSlide--) | Returns the parent slide of a shape. |
 | [getPresentation()](#getPresentation--) | Returns the parent presentation of a slide. |
-### Background(IDOMObject parentImmediate) {#Background-com.aspose.slides.IDOMObject-}
-```
- Background(IDOMObject parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | com.aspose.slides.IDOMObject |  |
-
 ### getType() {#getType--}
 ```
 public final byte getType()

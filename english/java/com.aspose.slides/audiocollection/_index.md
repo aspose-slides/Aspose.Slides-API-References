@@ -17,11 +17,6 @@ public class AudioCollection extends DomObject<Presentation> implements IAudioCo
 ```
 
 Represents a collection of embedded audio files.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [AudioCollection(Presentation parentImmediate)](#AudioCollection-com.aspose.slides.Presentation-) |  |
 ## Methods
 
 | Method | Description |
@@ -37,17 +32,6 @@ Represents a collection of embedded audio files.
 | [getSyncRoot()](#getSyncRoot--) | Returns a synchronization root. |
 | [iterator()](#iterator--) | Returns an enumerator that iterates through the collection. |
 | [iteratorJava()](#iteratorJava--) | Returns a java iterator for the entire collection. |
-### AudioCollection(Presentation parentImmediate) {#AudioCollection-com.aspose.slides.Presentation-}
-```
- AudioCollection(Presentation parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | [Presentation](../../com.aspose.slides/presentation) |  |
-
 ### size() {#size--}
 ```
 public final int size()

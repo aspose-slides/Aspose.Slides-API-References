@@ -17,11 +17,6 @@ public class SmartArtNodeCollection implements ISmartArtNodeCollection
 ```
 
 Represents a collection of SmartArt nodes.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [SmartArtNodeCollection(SmartArtNode parent)](#SmartArtNodeCollection-com.aspose.slides.SmartArtNode-) | Initializes new instance of class [SmartArtNodeCollection](../../com.aspose.slides/smartartnodecollection) |
 ## Methods
 
 | Method | Description |
@@ -37,19 +32,6 @@ Represents a collection of SmartArt nodes.
 | [copyTo(System.Array array, int index)](#copyTo-com.aspose.ms.System.Array-int-) | Copies all elements from the collection to the specified array. |
 | [isSynchronized()](#isSynchronized--) | Returns a value indicating whether access to the collection is synchronized (thread-safe). |
 | [getSyncRoot()](#getSyncRoot--) | Returns a synchronization root. |
-### SmartArtNodeCollection(SmartArtNode parent) {#SmartArtNodeCollection-com.aspose.slides.SmartArtNode-}
-```
- SmartArtNodeCollection(SmartArtNode parent)
-```
-
-
-Initializes new instance of class [SmartArtNodeCollection](../../com.aspose.slides/smartartnodecollection)
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parent | [SmartArtNode](../../com.aspose.slides/smartartnode) |  |
-
 ### get_Item(int index) {#get-Item-int-}
 ```
 public final ISmartArtNode get_Item(int index)

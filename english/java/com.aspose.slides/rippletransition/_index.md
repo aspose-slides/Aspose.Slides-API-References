@@ -17,30 +17,12 @@ public class RippleTransition extends TransitionValueBase implements IRippleTran
 ```
 
 Ripple slide transition effect.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [RippleTransition(int type)](#RippleTransition-int-) | Constructor for ripple slide transition effect. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [getDirection()](#getDirection--) | Direction of transition. |
 | [setDirection(int value)](#setDirection-int-) | Direction of transition. |
-### RippleTransition(int type) {#RippleTransition-int-}
-```
- RippleTransition(int type)
-```
-
-
-Constructor for ripple slide transition effect.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| type | int | Type of a transition effect. |
-
 ### getDirection() {#getDirection--}
 ```
 public final int getDirection()

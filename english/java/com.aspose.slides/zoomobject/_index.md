@@ -17,11 +17,6 @@ public class ZoomObject extends GraphicalObject implements IZoomObject
 ```
 
 Represents an Zoom object in a slide.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [ZoomObject(IDOMObject parentImmediate)](#ZoomObject-com.aspose.slides.IDOMObject-) | Creates new ZoomFrame object and initializes properties by default values |
 ## Methods
 
 | Method | Description |
@@ -36,19 +31,6 @@ Represents an Zoom object in a slide.
 | [setImage(IPPImage value)](#setImage-com.aspose.slides.IPPImage-) | Gets or sets image for zoom object. |
 | [getTransitionDuration()](#getTransitionDuration--) | Gets or sets the duration of the transition between Zoom and slide. |
 | [setTransitionDuration(float value)](#setTransitionDuration-float-) | Gets or sets the duration of the transition between Zoom and slide. |
-### ZoomObject(IDOMObject parentImmediate) {#ZoomObject-com.aspose.slides.IDOMObject-}
-```
- ZoomObject(IDOMObject parentImmediate)
-```
-
-
-Creates new ZoomFrame object and initializes properties by default values
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | com.aspose.slides.IDOMObject | Parent object [ShapeCollection](../com.aspose.slides/shapecollection) |
-
 ### getImageType() {#getImageType--}
 ```
 public final int getImageType()

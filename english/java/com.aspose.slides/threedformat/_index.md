@@ -17,11 +17,6 @@ public class ThreeDFormat extends PVIObject implements IThreeDFormat, IThreeDPar
 ```
 
 Represents 3-D properties.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [ThreeDFormat(IDOMObject parentImmediate)](#ThreeDFormat-com.aspose.slides.IDOMObject-) |  |
 ## Methods
 
 | Method | Description |
@@ -41,17 +36,6 @@ Represents 3-D properties.
 | [getMaterial()](#getMaterial--) | Returns or sets the type of a material. |
 | [setMaterial(int value)](#setMaterial-int-) | Returns or sets the type of a material. |
 | [getEffective()](#getEffective--) | Gets effective 3-D formatting data with the inheritance applied. |
-### ThreeDFormat(IDOMObject parentImmediate) {#ThreeDFormat-com.aspose.slides.IDOMObject-}
-```
- ThreeDFormat(IDOMObject parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | com.aspose.slides.IDOMObject |  |
-
 ### getContourWidth() {#getContourWidth--}
 ```
 public final double getContourWidth()

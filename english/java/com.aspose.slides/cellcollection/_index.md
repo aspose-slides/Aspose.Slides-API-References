@@ -17,11 +17,6 @@ public abstract class CellCollection implements ICellCollection, IDOMObject
 ```
 
 Represents a collection of cells.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [CellCollection(IDOMObject parentImmediate)](#CellCollection-com.aspose.slides.IDOMObject-) |  |
 ## Methods
 
 | Method | Description |
@@ -36,17 +31,6 @@ Represents a collection of cells.
 | [copyTo(System.Array array, int index)](#copyTo-com.aspose.ms.System.Array-int-) | Copies all elements from the collection to the specified array. |
 | [isSynchronized()](#isSynchronized--) | Returns a value indicating whether access to the collection is synchronized (thread-safe). |
 | [getSyncRoot()](#getSyncRoot--) | Returns a synchronization root. |
-### CellCollection(IDOMObject parentImmediate) {#CellCollection-com.aspose.slides.IDOMObject-}
-```
- CellCollection(IDOMObject parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | com.aspose.slides.IDOMObject |  |
-
 ### getParent_Immediate() {#getParent-Immediate--}
 ```
 public final IDOMObject getParent_Immediate()

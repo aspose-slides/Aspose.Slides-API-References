@@ -17,11 +17,6 @@ public final class RowCollection extends DomObject<Table> implements IRowCollect
 ```
 
 Represents table row collection.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [RowCollection(Table parentImmediate)](#RowCollection-com.aspose.slides.Table-) |  |
 ## Methods
 
 | Method | Description |
@@ -36,17 +31,6 @@ Represents table row collection.
 | [copyTo(System.Array array, int index)](#copyTo-com.aspose.ms.System.Array-int-) | Copies all elements from the collection to the specified array. |
 | [isSynchronized()](#isSynchronized--) | Returns a value indicating whether access to the collection is synchronized (thread-safe). |
 | [getSyncRoot()](#getSyncRoot--) | Returns a synchronization root. |
-### RowCollection(Table parentImmediate) {#RowCollection-com.aspose.slides.Table-}
-```
- RowCollection(Table parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | [Table](../../com.aspose.slides/table) |  |
-
 ### size() {#size--}
 ```
 public final int size()

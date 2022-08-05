@@ -14,11 +14,6 @@ public final class SplitterBarStateType extends System.Enum
 ```
 
 Specifies the state that the splitter bar should be shown in. The splitter bar separates a primary and secondary region within a viewing area.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [SplitterBarStateType()](#SplitterBarStateType--) |  |
 ## Fields
 
 | Field | Description |
@@ -26,12 +21,6 @@ Specifies the state that the splitter bar should be shown in. The splitter bar s
 | [Minimized](#Minimized) | The primary region occupies the least amount of the viewing area allowed by the application. |
 | [Restored](#Restored) | The primary region has a specific intermediate size. |
 | [Maximized](#Maximized) | The primary region occupies the greatest amount of the viewing area allowed by the application. |
-### SplitterBarStateType() {#SplitterBarStateType--}
-```
-private SplitterBarStateType()
-```
-
-
 ### Minimized {#Minimized}
 ```
 public static final int Minimized

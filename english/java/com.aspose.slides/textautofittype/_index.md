@@ -14,11 +14,6 @@ public final class TextAutofitType extends System.Enum
 ```
 
 Represents text autofit mode.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [TextAutofitType()](#TextAutofitType--) |  |
 ## Fields
 
 | Field | Description |
@@ -27,12 +22,6 @@ Represents text autofit mode.
 | [None](#None) | No autofit. |
 | [Normal](#Normal) | Normal autofit. |
 | [Shape](#Shape) | Shape autofit. |
-### TextAutofitType() {#TextAutofitType--}
-```
-private TextAutofitType()
-```
-
-
 ### NotDefined {#NotDefined}
 ```
 public static final byte NotDefined

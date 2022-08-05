@@ -14,11 +14,6 @@ public final class MathRowSpacingRule extends System.Enum
 ```
 
 The type of vertical spacing between columns in a matrix or array
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [MathRowSpacingRule()](#MathRowSpacingRule--) |  |
 ## Fields
 
 | Field | Description |
@@ -28,12 +23,6 @@ The type of vertical spacing between columns in a matrix or array
 | [TwoLineGap](#TwoLineGap) | Two lines gap |
 | [Exactly](#Exactly) | Exactly (rely on value of the RowSpacing property, measured in points) |
 | [Multiple](#Multiple) | Multiple (rely on value of the RowSpacing property, measured in lines) |
-### MathRowSpacingRule() {#MathRowSpacingRule--}
-```
-private MathRowSpacingRule()
-```
-
-
 ### SingleLineGap {#SingleLineGap}
 ```
 public static final int SingleLineGap

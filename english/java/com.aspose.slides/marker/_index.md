@@ -17,11 +17,6 @@ public class Marker implements IMarker, IDOMObject
 ```
 
 Represents marker of a chert.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [Marker(IDOMObject parentImmediate, ChartSeries parentSeries)](#Marker-com.aspose.slides.IDOMObject-com.aspose.slides.ChartSeries-) |  |
 ## Methods
 
 | Method | Description |
@@ -32,18 +27,6 @@ Represents marker of a chert.
 | [getSize()](#getSize--) | Represents the marker size in a line chart, scatter chart, or radar chart. |
 | [setSize(int value)](#setSize-int-) | Represents the marker size in a line chart, scatter chart, or radar chart. |
 | [getParent_Immediate()](#getParent-Immediate--) |  |
-### Marker(IDOMObject parentImmediate, ChartSeries parentSeries) {#Marker-com.aspose.slides.IDOMObject-com.aspose.slides.ChartSeries-}
-```
- Marker(IDOMObject parentImmediate, ChartSeries parentSeries)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | com.aspose.slides.IDOMObject |  |
-| parentSeries | [ChartSeries](../../com.aspose.slides/chartseries) |  |
-
 ### getSymbol() {#getSymbol--}
 ```
 public final int getSymbol()

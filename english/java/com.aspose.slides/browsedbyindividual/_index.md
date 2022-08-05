@@ -31,7 +31,6 @@ Browsed by individual (window)
 | Constructor | Description |
 | --- | --- |
 | [BrowsedByIndividual()](#BrowsedByIndividual--) | Initializes a new instance of the BrowsedByIndividual class. |
-| [BrowsedByIndividual(p_CT_ShowInfoBrowseElementData data)](#BrowsedByIndividual-com.aspose.slides.pptxxmlparser.p-CT-ShowInfoBrowseElementData-) |  |
 ## Methods
 
 | Method | Description |
@@ -57,17 +56,6 @@ Initializes a new instance of the BrowsedByIndividual class.
 >      if (pres != null) pres.dispose();
 >  }
 > ```
-
-### BrowsedByIndividual(p_CT_ShowInfoBrowseElementData data) {#BrowsedByIndividual-com.aspose.slides.pptxxmlparser.p-CT-ShowInfoBrowseElementData-}
-```
- BrowsedByIndividual(p_CT_ShowInfoBrowseElementData data)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| data | com.aspose.slides.pptxxmlparser.p_CT_ShowInfoBrowseElementData |  |
 
 ### getShowScrollbar() {#getShowScrollbar--}
 ```

@@ -17,30 +17,12 @@ public class ZoomFrame extends ZoomObject implements IZoomFrame
 ```
 
 Represents a Slide Zoom object in a slide.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [ZoomFrame(IDOMObject parentImmediate)](#ZoomFrame-com.aspose.slides.IDOMObject-) | Creates new ZoomFrame object and initializes properties by default values |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [getTargetSlide()](#getTargetSlide--) | Gets or sets the slide object that the Slide Zoom object links to. |
 | [setTargetSlide(ISlide value)](#setTargetSlide-com.aspose.slides.ISlide-) | Gets or sets the slide object that the Slide Zoom object links to. |
-### ZoomFrame(IDOMObject parentImmediate) {#ZoomFrame-com.aspose.slides.IDOMObject-}
-```
- ZoomFrame(IDOMObject parentImmediate)
-```
-
-
-Creates new ZoomFrame object and initializes properties by default values
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | com.aspose.slides.IDOMObject | Parent object [ShapeCollection](../com.aspose.slides/shapecollection) |
-
 ### getTargetSlide() {#getTargetSlide--}
 ```
 public final ISlide getTargetSlide()

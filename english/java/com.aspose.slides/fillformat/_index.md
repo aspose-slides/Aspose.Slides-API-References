@@ -17,11 +17,6 @@ public class FillFormat extends PVIObject implements IFillFormat
 ```
 
 Represents a fill formatting options.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [FillFormat(IDOMObject parentImmediate)](#FillFormat-com.aspose.slides.IDOMObject-) |  |
 ## Methods
 
 | Method | Description |
@@ -35,17 +30,6 @@ Represents a fill formatting options.
 | [getRotateWithShape()](#getRotateWithShape--) | Determines whether the fill should be rotated with shape. |
 | [setRotateWithShape(byte value)](#setRotateWithShape-byte-) | Determines whether the fill should be rotated with shape. |
 | [getEffective()](#getEffective--) | Gets effective fill formatting data with the inheritance applied. |
-### FillFormat(IDOMObject parentImmediate) {#FillFormat-com.aspose.slides.IDOMObject-}
-```
- FillFormat(IDOMObject parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | com.aspose.slides.IDOMObject |  |
-
 ### getFillType() {#getFillType--}
 ```
 public final byte getFillType()

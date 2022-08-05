@@ -17,11 +17,6 @@ public class Trendline extends DomObject<TrendlineCollection> implements ITrendl
 ```
 
 Class represents trend line of chart series
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [Trendline(TrendlineCollection parentImmediate)](#Trendline-com.aspose.slides.TrendlineCollection-) | Creates a new instance of Trendline class. |
 ## Methods
 
 | Method | Description |
@@ -53,19 +48,6 @@ Class represents trend line of chart series
 | [getChart()](#getChart--) | Returns the parent chart. |
 | [getSlide()](#getSlide--) | Returns the parent slide of a FillFormat. |
 | [getPresentation()](#getPresentation--) | Returns the parent presentation of a FillFormat. |
-### Trendline(TrendlineCollection parentImmediate) {#Trendline-com.aspose.slides.TrendlineCollection-}
-```
- Trendline(TrendlineCollection parentImmediate)
-```
-
-
-Creates a new instance of Trendline class.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | [TrendlineCollection](../../com.aspose.slides/trendlinecollection) |  |
-
 ### getTrendlineName() {#getTrendlineName--}
 ```
 public final String getTrendlineName()

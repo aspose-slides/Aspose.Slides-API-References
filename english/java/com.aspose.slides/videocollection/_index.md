@@ -17,11 +17,6 @@ public class VideoCollection extends DomObject<Presentation> implements IVideoCo
 ```
 
 Represents a collection of Video objects.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [VideoCollection(Presentation parentImmediate)](#VideoCollection-com.aspose.slides.Presentation-) |  |
 ## Methods
 
 | Method | Description |
@@ -37,17 +32,6 @@ Represents a collection of Video objects.
 | [getSyncRoot()](#getSyncRoot--) | Returns a synchronization root. |
 | [iterator()](#iterator--) | Returns an enumerator that iterates through the collection. |
 | [iteratorJava()](#iteratorJava--) | Returns a java iterator for the entire collection. |
-### VideoCollection(Presentation parentImmediate) {#VideoCollection-com.aspose.slides.Presentation-}
-```
- VideoCollection(Presentation parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | [Presentation](../../com.aspose.slides/presentation) |  |
-
 ### size() {#size--}
 ```
 public final int size()

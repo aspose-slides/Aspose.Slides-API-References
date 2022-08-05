@@ -31,7 +31,6 @@ Browsed at a kiosk (full screen).
 | Constructor | Description |
 | --- | --- |
 | [BrowsedAtKiosk()](#BrowsedAtKiosk--) | Initializes a new instance of the BrowsedAtKiosk class. |
-| [BrowsedAtKiosk(p_CT_ShowInfoKioskElementData data)](#BrowsedAtKiosk-com.aspose.slides.pptxxmlparser.p-CT-ShowInfoKioskElementData-) |  |
 ### BrowsedAtKiosk() {#BrowsedAtKiosk--}
 ```
 public BrowsedAtKiosk()
@@ -51,15 +50,4 @@ Initializes a new instance of the BrowsedAtKiosk class.
 >      if (pres != null) pres.dispose();
 >  }
 > ```
-
-### BrowsedAtKiosk(p_CT_ShowInfoKioskElementData data) {#BrowsedAtKiosk-com.aspose.slides.pptxxmlparser.p-CT-ShowInfoKioskElementData-}
-```
- BrowsedAtKiosk(p_CT_ShowInfoKioskElementData data)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| data | com.aspose.slides.pptxxmlparser.p_CT_ShowInfoKioskElementData |  |
 

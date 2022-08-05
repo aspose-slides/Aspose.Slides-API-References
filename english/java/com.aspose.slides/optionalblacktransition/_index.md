@@ -17,30 +17,12 @@ public class OptionalBlackTransition extends TransitionValueBase implements IOpt
 ```
 
 Optional black slide transition effect.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [OptionalBlackTransition(int type)](#OptionalBlackTransition-int-) | Constructor for optional black slide transition effects. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [getFromBlack()](#getFromBlack--) | This attribute specifies if the transition will start from a black screen (and then transition the new slide over black). |
 | [setFromBlack(boolean value)](#setFromBlack-boolean-) | This attribute specifies if the transition will start from a black screen (and then transition the new slide over black). |
-### OptionalBlackTransition(int type) {#OptionalBlackTransition-int-}
-```
- OptionalBlackTransition(int type)
-```
-
-
-Constructor for optional black slide transition effects.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| type | int | Type of an optional black transition effect. |
-
 ### getFromBlack() {#getFromBlack--}
 ```
 public final boolean getFromBlack()

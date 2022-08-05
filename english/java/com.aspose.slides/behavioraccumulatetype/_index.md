@@ -14,11 +14,6 @@ public final class BehaviorAccumulateType extends System.Enum
 ```
 
 Represents types of accumulation of effect behaviors.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [BehaviorAccumulateType()](#BehaviorAccumulateType--) |  |
 ## Fields
 
 | Field | Description |
@@ -26,12 +21,6 @@ Represents types of accumulation of effect behaviors.
 | [NotDefined](#NotDefined) |  |
 | [Always](#Always) |  |
 | [None](#None) |  |
-### BehaviorAccumulateType() {#BehaviorAccumulateType--}
-```
-private BehaviorAccumulateType()
-```
-
-
 ### NotDefined {#NotDefined}
 ```
 public static final int NotDefined

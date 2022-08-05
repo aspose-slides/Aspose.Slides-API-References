@@ -14,23 +14,12 @@ public final class TransitionShredPattern extends System.Enum
 ```
 
 Specifies a geometric shape that tiles together to fill a larger area.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [TransitionShredPattern()](#TransitionShredPattern--) |  |
 ## Fields
 
 | Field | Description |
 | --- | --- |
 | [Strip](#Strip) | Vertical strips |
 | [Rectangle](#Rectangle) | Small rectangles |
-### TransitionShredPattern() {#TransitionShredPattern--}
-```
-private TransitionShredPattern()
-```
-
-
 ### Strip {#Strip}
 ```
 public static final int Strip

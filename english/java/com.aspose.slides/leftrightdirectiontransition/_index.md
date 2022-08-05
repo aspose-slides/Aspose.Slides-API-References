@@ -17,30 +17,12 @@ public class LeftRightDirectionTransition extends TransitionValueBase implements
 ```
 
 Left-right direction slide transition effect.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [LeftRightDirectionTransition(int type)](#LeftRightDirectionTransition-int-) | Constructor for left-right direction slide transition effect. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [getDirection()](#getDirection--) | Direction of transition. |
 | [setDirection(int value)](#setDirection-int-) | Direction of transition. |
-### LeftRightDirectionTransition(int type) {#LeftRightDirectionTransition-int-}
-```
- LeftRightDirectionTransition(int type)
-```
-
-
-Constructor for left-right direction slide transition effect.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| type | int | Type of a transition effect. |
-
 ### getDirection() {#getDirection--}
 ```
 public final int getDirection()

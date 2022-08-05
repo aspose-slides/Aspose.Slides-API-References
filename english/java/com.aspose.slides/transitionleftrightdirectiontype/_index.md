@@ -14,23 +14,12 @@ public final class TransitionLeftRightDirectionType extends System.Enum
 ```
 
 Specifies a direction restricted to the values of left and right.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [TransitionLeftRightDirectionType()](#TransitionLeftRightDirectionType--) |  |
 ## Fields
 
 | Field | Description |
 | --- | --- |
 | [Left](#Left) |  |
 | [Right](#Right) |  |
-### TransitionLeftRightDirectionType() {#TransitionLeftRightDirectionType--}
-```
-private TransitionLeftRightDirectionType()
-```
-
-
 ### Left {#Left}
 ```
 public static final int Left

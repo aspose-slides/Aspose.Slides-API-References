@@ -14,23 +14,12 @@ public final class ZoomImageType extends System.Enum
 ```
 
 Defines whether the Zoom object is using the slide preview or a cover image.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [ZoomImageType()](#ZoomImageType--) |  |
 ## Fields
 
 | Field | Description |
 | --- | --- |
 | [Preview](#Preview) | Use the image of the slide or section. |
 | [Cover](#Cover) | Use a custom image. |
-### ZoomImageType() {#ZoomImageType--}
-```
-private ZoomImageType()
-```
-
-
 ### Preview {#Preview}
 ```
 public static final int Preview

@@ -17,11 +17,6 @@ public abstract class BaseChartValue implements IBaseChartValue, IDOMObject
 ```
 
 Represents a value of a chart.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [BaseChartValue(IDOMObject parentImmediate, DataSourceTypeHolder dataSourceTypeHolder, boolean centralizedTypeChangingRestriction)](#BaseChartValue-com.aspose.slides.IDOMObject-com.aspose.slides.DataSourceTypeHolder-boolean-) |  |
 ## Methods
 
 | Method | Description |
@@ -31,21 +26,6 @@ Represents a value of a chart.
 | [getData()](#getData--) | Data. |
 | [setData(Object value)](#setData-java.lang.Object-) | Data. |
 | [getParent_Immediate()](#getParent-Immediate--) |  |
-### BaseChartValue(IDOMObject parentImmediate, DataSourceTypeHolder dataSourceTypeHolder, boolean centralizedTypeChangingRestriction) {#BaseChartValue-com.aspose.slides.IDOMObject-com.aspose.slides.DataSourceTypeHolder-boolean-}
-```
- BaseChartValue(IDOMObject parentImmediate, DataSourceTypeHolder dataSourceTypeHolder, boolean centralizedTypeChangingRestriction)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | com.aspose.slides.IDOMObject |  |
-| dataSourceTypeHolder | com.aspose.slides.DataSourceTypeHolder |  |
-| centralizedTypeChangingRestriction | boolean | 1) If true then DataSourceType depends on dataSourceTypeHolder whitch is passed as parameter into constructor. And there is no other way to change DataSourceType but to change DataSourceTypeHolder.DataSourceType value. And if one dataSourceTypeHolder is passed to multiple BaseChartValue instances then it is the way to centralized managing of type of multiple BaseChartValue-values. 2) If false then it is possible to change DataSourceType. |
-
 ### getDataSourceType() {#getDataSourceType--}
 ```
 public final int getDataSourceType()

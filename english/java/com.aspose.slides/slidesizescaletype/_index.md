@@ -14,11 +14,6 @@ public final class SlideSizeScaleType extends System.Enum
 ```
 
 Represents the scale type of slide content.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [SlideSizeScaleType()](#SlideSizeScaleType--) |  |
 ## Fields
 
 | Field | Description |
@@ -26,12 +21,6 @@ Represents the scale type of slide content.
 | [DoNotScale](#DoNotScale) | Do not scale. |
 | [EnsureFit](#EnsureFit) | Scale to ensure fit. |
 | [Maximize](#Maximize) | Maximize size of content. |
-### SlideSizeScaleType() {#SlideSizeScaleType--}
-```
-private SlideSizeScaleType()
-```
-
-
 ### DoNotScale {#DoNotScale}
 ```
 public static final int DoNotScale

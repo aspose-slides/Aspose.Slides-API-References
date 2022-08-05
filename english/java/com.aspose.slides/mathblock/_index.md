@@ -30,7 +30,6 @@ Specifies an instance of mathematical text that contained within a MathParagraph
 | Constructor | Description |
 | --- | --- |
 | [MathBlock()](#MathBlock--) | Initializes a new instance of the MathBlock class. |
-| [MathBlock(int capacity)](#MathBlock-int-) |  |
 | [MathBlock(IMathElement mathElement)](#MathBlock-com.aspose.slides.IMathElement-) | Creates a new mathematical block and puts specified element in it |
 | [MathBlock(System.Collections.Generic.IGenericEnumerable<IMathElement> mathElements)](#MathBlock-com.aspose.ms.System.Collections.Generic.IGenericEnumerable-com.aspose.slides.IMathElement--) | Creates a new mathematical block and puts specified elements in it |
 ## Methods
@@ -76,17 +75,6 @@ Initializes a new instance of the MathBlock class.
 >  
 >  MathBlock mathBlock = new MathBlock();
 > ```
-
-### MathBlock(int capacity) {#MathBlock-int-}
-```
- MathBlock(int capacity)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| capacity | int |  |
 
 ### MathBlock(IMathElement mathElement) {#MathBlock-com.aspose.slides.IMathElement-}
 ```

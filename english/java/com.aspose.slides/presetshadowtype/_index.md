@@ -14,11 +14,6 @@ public final class PresetShadowType extends System.Enum
 ```
 
 Represents a preset for a shadow effect.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [PresetShadowType()](#PresetShadowType--) |  |
 ## Fields
 
 | Field | Description |
@@ -43,12 +38,6 @@ Represents a preset for a shadow effect.
 | [FrontLeftPerspectiveShadow](#FrontLeftPerspectiveShadow) | Represents Front Left Perspective Shadow. |
 | [FrontRightPerspectiveShadow](#FrontRightPerspectiveShadow) | Represents Front Right Perspective Shadow. |
 | [TopLeftSmallDropShadow](#TopLeftSmallDropShadow) | Represents Top Left Small Drop Shadow. |
-### PresetShadowType() {#PresetShadowType--}
-```
-private PresetShadowType()
-```
-
-
 ### TopLeftDropShadow {#TopLeftDropShadow}
 ```
 public static final int TopLeftDropShadow

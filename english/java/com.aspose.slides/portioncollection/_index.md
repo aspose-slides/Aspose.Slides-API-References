@@ -17,11 +17,6 @@ public final class PortionCollection extends DomObject<Paragraph> implements IPo
 ```
 
 Represents a collection of portions.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [PortionCollection(Paragraph parentImmediate)](#PortionCollection-com.aspose.slides.Paragraph-) |  |
 ## Methods
 
 | Method | Description |
@@ -40,17 +35,6 @@ Represents a collection of portions.
 | [removeAt(int index)](#removeAt-int-) | Removes the element at the specified index of the collection. |
 | [iterator()](#iterator--) | Returns an enumerator that iterates through the collection. |
 | [iteratorJava()](#iteratorJava--) | Returns a java iterator for the entire collection. |
-### PortionCollection(Paragraph parentImmediate) {#PortionCollection-com.aspose.slides.Paragraph-}
-```
- PortionCollection(Paragraph parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | [Paragraph](../../com.aspose.slides/paragraph) |  |
-
 ### getCount() {#getCount--}
 ```
 public final int getCount()

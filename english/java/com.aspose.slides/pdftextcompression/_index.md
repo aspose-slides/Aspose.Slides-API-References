@@ -14,23 +14,12 @@ public final class PdfTextCompression extends System.Enum
 ```
 
 Constants which define the type of a compression applied to all content in the PDF file except images.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [PdfTextCompression()](#PdfTextCompression--) |  |
 ## Fields
 
 | Field | Description |
 | --- | --- |
 | [None](#None) | No compression. |
 | [Flate](#Flate) | Flate (ZIP) compression. |
-### PdfTextCompression() {#PdfTextCompression--}
-```
-private PdfTextCompression()
-```
-
-
 ### None {#None}
 ```
 public static final int None

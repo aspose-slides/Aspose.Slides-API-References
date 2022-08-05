@@ -14,11 +14,6 @@ public final class PdfCompliance extends System.Enum
 ```
 
 Constants which define the PDF standards compliance level.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [PdfCompliance()](#PdfCompliance--) |  |
 ## Fields
 
 | Field | Description |
@@ -27,12 +22,6 @@ Constants which define the PDF standards compliance level.
 | [PdfA1b](#PdfA1b) | The output file will comply with the PDF/A-1b standard. |
 | [PdfA1a](#PdfA1a) | The output file will comply with the PDF/A-1a standard. |
 | [PdfUa](#PdfUa) | The output file will comply with the PDF/UA standard. |
-### PdfCompliance() {#PdfCompliance--}
-```
-private PdfCompliance()
-```
-
-
 ### Pdf15 {#Pdf15}
 ```
 public static final int Pdf15

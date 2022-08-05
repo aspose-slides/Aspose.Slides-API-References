@@ -17,12 +17,6 @@ public final class HtmlGenerator implements IHtmlGenerator
 ```
 
 Html generator.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [HtmlGenerator(System.IO.TextWriter tw, System.Drawing.SizeF slideSize, int sizeUnit, int[] slides)](#HtmlGenerator-com.aspose.ms.System.IO.TextWriter-com.aspose.ms.System.Drawing.SizeF-int-int---) |  |
-| [HtmlGenerator()](#HtmlGenerator--) |  |
 ## Methods
 
 | Method | Description |
@@ -42,26 +36,6 @@ Html generator.
 | [getPreviousSlideIndex()](#getPreviousSlideIndex--) | Returns index of previously rendered slide or -1 if first slide is rendering. |
 | [getSlideIndex()](#getSlideIndex--) | Returns index of currently rendering slide. |
 | [getNextSlideIndex()](#getNextSlideIndex--) | Returns index of a slide, which will be rendered after the current slide or -1 if currently rendering last slide. |
-### HtmlGenerator(System.IO.TextWriter tw, System.Drawing.SizeF slideSize, int sizeUnit, int[] slides) {#HtmlGenerator-com.aspose.ms.System.IO.TextWriter-com.aspose.ms.System.Drawing.SizeF-int-int---}
-```
- HtmlGenerator(System.IO.TextWriter tw, System.Drawing.SizeF slideSize, int sizeUnit, int[] slides)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| tw | com.aspose.ms.System.IO.TextWriter |  |
-| slideSize | com.aspose.ms.System.Drawing.SizeF |  |
-| sizeUnit | int |  |
-| slides | int[] |  |
-
-### HtmlGenerator() {#HtmlGenerator--}
-```
-private HtmlGenerator()
-```
-
-
 ### addHtml(String html) {#addHtml-java.lang.String-}
 ```
 public final void addHtml(String html)

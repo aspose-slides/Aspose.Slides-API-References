@@ -14,11 +14,6 @@ public final class SaveFormat extends System.Enum
 ```
 
 Constants which define the format of a saved presentation.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [SaveFormat()](#SaveFormat--) |  |
 ## Fields
 
 | Field | Description |
@@ -42,12 +37,6 @@ Constants which define the format of a saved presentation.
 | [Fodp](#Fodp) | Save presentation in FODP format. |
 | [Gif](#Gif) | Save presentation in GIF format. |
 | [Html5](#Html5) | Save presentation in HTML format using new HTML5 templating system. |
-### SaveFormat() {#SaveFormat--}
-```
-private SaveFormat()
-```
-
-
 ### Ppt {#Ppt}
 ```
 public static final int Ppt

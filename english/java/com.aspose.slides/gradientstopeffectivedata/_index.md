@@ -17,12 +17,6 @@ public class GradientStopEffectiveData implements IEffectiveData, IGradientStopE
 ```
 
 Immutable object which represents a gradient stop.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [GradientStopEffectiveData(float position, ColorFormat color)](#GradientStopEffectiveData-float-com.aspose.slides.ColorFormat-) |  |
-| [GradientStopEffectiveData(GradientStopEffectiveData source)](#GradientStopEffectiveData-com.aspose.slides.GradientStopEffectiveData-) |  |
 ## Methods
 
 | Method | Description |
@@ -31,29 +25,6 @@ Immutable object which represents a gradient stop.
 | [getColor()](#getColor--) | Returns the color of a gradient stop. |
 | [equals(Object obj)](#equals-java.lang.Object-) | Determines whether the specified [GradientStopEffectiveData](../../com.aspose.slides/gradientstopeffectivedata) is equal to the current [GradientStopEffectiveData](../../com.aspose.slides/gradientstopeffectivedata). |
 | [hashCode()](#hashCode--) |  |
-### GradientStopEffectiveData(float position, ColorFormat color) {#GradientStopEffectiveData-float-com.aspose.slides.ColorFormat-}
-```
- GradientStopEffectiveData(float position, ColorFormat color)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| position | float |  |
-| color | [ColorFormat](../../com.aspose.slides/colorformat) |  |
-
-### GradientStopEffectiveData(GradientStopEffectiveData source) {#GradientStopEffectiveData-com.aspose.slides.GradientStopEffectiveData-}
-```
- GradientStopEffectiveData(GradientStopEffectiveData source)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| source | [GradientStopEffectiveData](../../com.aspose.slides/gradientstopeffectivedata) |  |
-
 ### getPosition() {#getPosition--}
 ```
 public final float getPosition()

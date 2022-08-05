@@ -14,11 +14,6 @@ public final class CrossesType extends System.Enum
 ```
 
 Determines where axis will cross.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [CrossesType()](#CrossesType--) |  |
 ## Fields
 
 | Field | Description |
@@ -26,12 +21,6 @@ Determines where axis will cross.
 | [AxisCrossesAtZero](#AxisCrossesAtZero) | The category axis crosses at the zero point of the value axis (if possible), or the minimum value (if the minimum is greater than zero) or the maximum (if the maximum is less than zero). |
 | [Maximum](#Maximum) | The axis crosses at the maximum value. |
 | [Custom](#Custom) | Custom value from property CrossAt |
-### CrossesType() {#CrossesType--}
-```
-private CrossesType()
-```
-
-
 ### AxisCrossesAtZero {#AxisCrossesAtZero}
 ```
 public static final int AxisCrossesAtZero

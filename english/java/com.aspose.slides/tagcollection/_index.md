@@ -17,11 +17,6 @@ public final class TagCollection implements ITagCollection
 ```
 
 Represents the collection of tags (user defined pairs of strings)
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [TagCollection()](#TagCollection--) |  |
 ## Methods
 
 | Method | Description |
@@ -43,12 +38,6 @@ Represents the collection of tags (user defined pairs of strings)
 | [getSyncRoot()](#getSyncRoot--) | Returns a synchronization root. |
 | [iterator()](#iterator--) | Returns an enumerator that iterates through the collection. |
 | [iteratorJava()](#iteratorJava--) | Returns a java iterator for the entire collection. |
-### TagCollection() {#TagCollection--}
-```
- TagCollection()
-```
-
-
 ### size() {#size--}
 ```
 public final int size()

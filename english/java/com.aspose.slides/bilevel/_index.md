@@ -17,11 +17,6 @@ public class BiLevel extends ImageTransformOperation implements IBiLevel, IVisua
 ```
 
 Represents a Bi-Level (black/white) effect. Input colors whose luminance is less than the specified threshold value are changed to black. Input colors whose luminance are greater than or equal the specified value are set to white. The alpha effect values are unaffected by this effect.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [BiLevel(float threshold, IDOMObject parentImmediate)](#BiLevel-float-com.aspose.slides.IDOMObject-) | Bi-Level effect constructor. |
 ## Methods
 
 | Method | Description |
@@ -29,20 +24,6 @@ Represents a Bi-Level (black/white) effect. Input colors whose luminance is less
 | [getEffective()](#getEffective--) | Gets effective Bi-Level effect data with the inheritance applied. |
 | [equals(Object obj)](#equals-java.lang.Object-) | Determines whether the specified [BiLevel](../../com.aspose.slides/bilevel) is equal to the current [BiLevel](../../com.aspose.slides/bilevel). |
 | [hashCode()](#hashCode--) | Serves as a hash function for a particular type. |
-### BiLevel(float threshold, IDOMObject parentImmediate) {#BiLevel-float-com.aspose.slides.IDOMObject-}
-```
- BiLevel(float threshold, IDOMObject parentImmediate)
-```
-
-
-Bi-Level effect constructor.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| threshold | float |  |
-| parentImmediate | com.aspose.slides.IDOMObject |  |
-
 ### getEffective() {#getEffective--}
 ```
 public final IBiLevelEffectiveData getEffective()

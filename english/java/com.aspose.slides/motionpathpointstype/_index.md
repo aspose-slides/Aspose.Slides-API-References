@@ -14,11 +14,6 @@ public final class MotionPathPointsType extends System.Enum
 ```
 
 Represent types of points in animation motion path.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [MotionPathPointsType()](#MotionPathPointsType--) |  |
 ## Fields
 
 | Field | Description |
@@ -32,12 +27,6 @@ Represent types of points in animation motion path.
 | [CurveCorner](#CurveCorner) |  |
 | [CurveStraight](#CurveStraight) |  |
 | [CurveSmooth](#CurveSmooth) |  |
-### MotionPathPointsType() {#MotionPathPointsType--}
-```
-private MotionPathPointsType()
-```
-
-
 ### None {#None}
 ```
 public static final int None

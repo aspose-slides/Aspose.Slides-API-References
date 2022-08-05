@@ -17,30 +17,12 @@ public class TransitionValueBase implements ITransitionValueBase
 ```
 
 Base class for slide transition effects.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [TransitionValueBase(int type)](#TransitionValueBase-int-) | Slide transition effect constructor. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [equals(Object obj)](#equals-java.lang.Object-) | Determines whether the two TransitionValueBase instances are equal. |
 | [hashCode()](#hashCode--) | Serves as a hash function for a particular type, suitable for use in hashing algorithms and data structures like a hash table. |
-### TransitionValueBase(int type) {#TransitionValueBase-int-}
-```
- TransitionValueBase(int type)
-```
-
-
-Slide transition effect constructor.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| type | int | Type of a transition effect. |
-
 ### equals(Object obj) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object obj)

@@ -35,11 +35,6 @@ Represents the collection of worksheets of chart data workbook.
 >      if (pres != null) pres.dispose();
 >  }
 > ```
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [ChartDataWorksheetCollection(ChartDataWorkbook parentImmediate)](#ChartDataWorksheetCollection-com.aspose.slides.ChartDataWorkbook-) |  |
 ## Methods
 
 | Method | Description |
@@ -52,17 +47,6 @@ Represents the collection of worksheets of chart data workbook.
 | [copyTo(System.Array array, int arrayIndex)](#copyTo-com.aspose.ms.System.Array-int-) | Copy to specified array. |
 | [isSynchronized()](#isSynchronized--) | Returns a value indicating whether access to the collection is synchronized (thread-safe). |
 | [getSyncRoot()](#getSyncRoot--) | Returns a synchronization root. |
-### ChartDataWorksheetCollection(ChartDataWorkbook parentImmediate) {#ChartDataWorksheetCollection-com.aspose.slides.ChartDataWorkbook-}
-```
- ChartDataWorksheetCollection(ChartDataWorkbook parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | [ChartDataWorkbook](../../com.aspose.slides/chartdataworkbook) |  |
-
 ### get_Item(int index) {#get-Item-int-}
 ```
 public final IChartDataWorksheet get_Item(int index)

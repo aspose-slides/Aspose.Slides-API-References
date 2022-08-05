@@ -14,23 +14,12 @@ public final class QuartileMethodType extends System.Enum
 ```
 
 Returns type of quartile method
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [QuartileMethodType()](#QuartileMethodType--) |  |
 ## Fields
 
 | Field | Description |
 | --- | --- |
 | [Exclusive](#Exclusive) | Represents exclusive quartile method. |
 | [Inclusive](#Inclusive) | Represents inclusive quartile method. |
-### QuartileMethodType() {#QuartileMethodType--}
-```
-private QuartileMethodType()
-```
-
-
 ### Exclusive {#Exclusive}
 ```
 public static final int Exclusive

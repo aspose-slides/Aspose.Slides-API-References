@@ -17,11 +17,6 @@ public abstract class BaseHandoutNotesSlideHeaderFooterManager extends BaseSlide
 ```
 
 Represents manager which holds behavior of the placeholders, including header placeholder for all types handout and notes slides.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [BaseHandoutNotesSlideHeaderFooterManager(BaseSlide baseSlide)](#BaseHandoutNotesSlideHeaderFooterManager-com.aspose.slides.BaseSlide-) |  |
 ## Methods
 
 | Method | Description |
@@ -29,17 +24,6 @@ Represents manager which holds behavior of the placeholders, including header pl
 | [isHeaderVisible()](#isHeaderVisible--) | Gets value indicating that a header placeholder is present. |
 | [setHeaderVisibility(boolean isVisible)](#setHeaderVisibility-boolean-) | Changes slide header placeholder visibility. |
 | [setHeaderText(String text)](#setHeaderText-java.lang.String-) | Sets text to slide header placeholder. |
-### BaseHandoutNotesSlideHeaderFooterManager(BaseSlide baseSlide) {#BaseHandoutNotesSlideHeaderFooterManager-com.aspose.slides.BaseSlide-}
-```
- BaseHandoutNotesSlideHeaderFooterManager(BaseSlide baseSlide)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| baseSlide | [BaseSlide](../../com.aspose.slides/baseslide) |  |
-
 ### isHeaderVisible() {#isHeaderVisible--}
 ```
 public final boolean isHeaderVisible()

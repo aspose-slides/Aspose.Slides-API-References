@@ -14,11 +14,6 @@ public final class TextStrikethroughType extends System.Enum
 ```
 
 Represents the type of text strikethrough.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [TextStrikethroughType()](#TextStrikethroughType--) |  |
 ## Fields
 
 | Field | Description |
@@ -27,12 +22,6 @@ Represents the type of text strikethrough.
 | [None](#None) |  |
 | [Single](#Single) |  |
 | [Double](#Double) |  |
-### TextStrikethroughType() {#TextStrikethroughType--}
-```
-private TextStrikethroughType()
-```
-
-
 ### NotDefined {#NotDefined}
 ```
 public static final byte NotDefined

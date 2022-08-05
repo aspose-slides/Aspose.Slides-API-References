@@ -23,8 +23,6 @@ Represents a paragraph of text.
 | --- | --- |
 | [Paragraph()](#Paragraph--) | Initializes a new instance of the Paragraph class with default properties. |
 | [Paragraph(Paragraph para)](#Paragraph-com.aspose.slides.Paragraph-) | Copy constructor that initializes a new instance of a Paragraph class. |
-| [Paragraph(ParagraphFormat paraFormat)](#Paragraph-com.aspose.slides.ParagraphFormat-) |  |
-| [Paragraph(ParagraphFormatEffectiveData paraFormat)](#Paragraph-com.aspose.slides.ParagraphFormatEffectiveData-) |  |
 ## Methods
 
 | Method | Description |
@@ -62,28 +60,6 @@ Copy constructor that initializes a new instance of a Paragraph class.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | para | [Paragraph](../../com.aspose.slides/paragraph) |  |
-
-### Paragraph(ParagraphFormat paraFormat) {#Paragraph-com.aspose.slides.ParagraphFormat-}
-```
- Paragraph(ParagraphFormat paraFormat)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| paraFormat | [ParagraphFormat](../../com.aspose.slides/paragraphformat) |  |
-
-### Paragraph(ParagraphFormatEffectiveData paraFormat) {#Paragraph-com.aspose.slides.ParagraphFormatEffectiveData-}
-```
- Paragraph(ParagraphFormatEffectiveData paraFormat)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| paraFormat | com.aspose.slides.ParagraphFormatEffectiveData |  |
 
 ### getPortions() {#getPortions--}
 ```

@@ -14,11 +14,6 @@ public final class WarningType extends System.Enum
 ```
 
 Represents a type of warning.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [WarningType()](#WarningType--) |  |
 ## Fields
 
 | Field | Description |
@@ -29,12 +24,6 @@ Represents a type of warning.
 | [MinorFormattingLoss](#MinorFormattingLoss) | Minor formatting loss. |
 | [CompatibilityIssue](#CompatibilityIssue) | This is known issue that will prevent the document being opened by certain user agents, or previous versions of user agents. |
 | [UnexpectedContent](#UnexpectedContent) | Some content in the source document could not be recognised (i.e. is unsupported), this may or may not cause issues or result in data/formatting loss. |
-### WarningType() {#WarningType--}
-```
-private WarningType()
-```
-
-
 ### SourceFileCorruption {#SourceFileCorruption}
 ```
 public static final int SourceFileCorruption

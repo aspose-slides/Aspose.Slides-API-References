@@ -14,11 +14,6 @@ public final class ColorTransformOperation extends System.Enum
 ```
 
 Defines color transform operation.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [ColorTransformOperation()](#ColorTransformOperation--) |  |
 ## Fields
 
 | Field | Description |
@@ -51,12 +46,6 @@ Defines color transform operation.
 | [MultiplyBlue](#MultiplyBlue) | Multiplies a blue component of the color to a parameter's value. |
 | [Gamma](#Gamma) | Gamma correction. |
 | [InverseGamma](#InverseGamma) | Inverse gamma correction. |
-### ColorTransformOperation() {#ColorTransformOperation--}
-```
-private ColorTransformOperation()
-```
-
-
 ### Tint {#Tint}
 ```
 public static final int Tint

@@ -17,11 +17,6 @@ public class Legend extends DomObject<Chart> implements ILegend
 ```
 
 Represents chart's legend properties.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [Legend(Chart parentImmediate)](#Legend-com.aspose.slides.Chart-) |  |
 ## Methods
 
 | Method | Description |
@@ -46,17 +41,6 @@ Represents chart's legend properties.
 | [getEntries()](#getEntries--) | Gets legend entries. |
 | [getSlide()](#getSlide--) | Returns the parent slide of a FillFormat. |
 | [getPresentation()](#getPresentation--) | Returns the parent presentation of a FillFormat. |
-### Legend(Chart parentImmediate) {#Legend-com.aspose.slides.Chart-}
-```
- Legend(Chart parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | [Chart](../../com.aspose.slides/chart) |  |
-
 ### getX() {#getX--}
 ```
 public final float getX()

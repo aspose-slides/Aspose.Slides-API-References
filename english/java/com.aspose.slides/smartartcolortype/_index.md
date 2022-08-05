@@ -14,11 +14,6 @@ public final class SmartArtColorType extends System.Enum
 ```
 
 Represents color scheme of a SmartArt diagram.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [SmartArtColorType()](#SmartArtColorType--) |  |
 ## Fields
 
 | Field | Description |
@@ -61,12 +56,6 @@ Represents color scheme of a SmartArt diagram.
 | [GradientRangeAccent6](#GradientRangeAccent6) | GradientRangeAccent6 |
 | [GradientLoopAccent6](#GradientLoopAccent6) | GradientLoopAccent6 |
 | [TransparentGradientRangeAccent6](#TransparentGradientRangeAccent6) | TransparentGradientRangeAccent6 |
-### SmartArtColorType() {#SmartArtColorType--}
-```
-private SmartArtColorType()
-```
-
-
 ### Dark1Outline {#Dark1Outline}
 ```
 public static final int Dark1Outline

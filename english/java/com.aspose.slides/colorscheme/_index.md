@@ -17,11 +17,6 @@ public class ColorScheme implements IColorScheme, IDOMObject
 ```
 
 Stores theme-defined colors.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [ColorScheme(IDOMObject parentImmediate)](#ColorScheme-com.aspose.slides.IDOMObject-) |  |
 ## Methods
 
 | Method | Description |
@@ -42,17 +37,6 @@ Stores theme-defined colors.
 | [getSlide()](#getSlide--) | Returns the parent slide. |
 | [getPresentation()](#getPresentation--) | Returns the parent presentation. |
 | [getParent_Immediate()](#getParent-Immediate--) |  |
-### ColorScheme(IDOMObject parentImmediate) {#ColorScheme-com.aspose.slides.IDOMObject-}
-```
- ColorScheme(IDOMObject parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | com.aspose.slides.IDOMObject |  |
-
 ### getByColorSchemeIndex(byte index) {#getByColorSchemeIndex-byte-}
 ```
 public final IColorFormat getByColorSchemeIndex(byte index)

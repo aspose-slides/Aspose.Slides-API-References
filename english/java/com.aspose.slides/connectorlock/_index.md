@@ -17,11 +17,6 @@ public class ConnectorLock extends BaseShapeLock implements IConnectorLock
 ```
 
 Determines which operations are disabled on the parent Connector.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [ConnectorLock()](#ConnectorLock--) |  |
 ## Methods
 
 | Method | Description |
@@ -46,12 +41,6 @@ Determines which operations are disabled on the parent Connector.
 | [setArrowheadsLocked(boolean value)](#setArrowheadsLocked-boolean-) | Determines whether a changing arrowheads is forbidden. |
 | [getShapeTypeLocked()](#getShapeTypeLocked--) | Determines whether a changing of a shape type is forbidden. |
 | [setShapeTypeLocked(boolean value)](#setShapeTypeLocked-boolean-) | Determines whether a changing of a shape type is forbidden. |
-### ConnectorLock() {#ConnectorLock--}
-```
- ConnectorLock()
-```
-
-
 ### getGroupingLocked() {#getGroupingLocked--}
 ```
 public boolean getGroupingLocked()

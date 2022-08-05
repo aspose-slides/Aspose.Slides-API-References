@@ -14,11 +14,6 @@ public final class ColorDirection extends System.Enum
 ```
 
 Represents color direction for color effect behavior.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [ColorDirection()](#ColorDirection--) |  |
 ## Fields
 
 | Field | Description |
@@ -26,12 +21,6 @@ Represents color direction for color effect behavior.
 | [NotDefined](#NotDefined) |  |
 | [Clockwise](#Clockwise) |  |
 | [CounterClockwise](#CounterClockwise) |  |
-### ColorDirection() {#ColorDirection--}
-```
-private ColorDirection()
-```
-
-
 ### NotDefined {#NotDefined}
 ```
 public static final int NotDefined

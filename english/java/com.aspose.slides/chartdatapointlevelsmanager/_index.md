@@ -17,28 +17,12 @@ public class ChartDataPointLevelsManager extends DomObject<ChartDataPoint> imple
 ```
 
 Container of data point levels. Applied for Treeamp and Sunburst series. Data point levels indexing is zero-based.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [ChartDataPointLevelsManager(ChartDataPoint parent)](#ChartDataPointLevelsManager-com.aspose.slides.ChartDataPoint-) |  |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [get_Item(int level)](#get-Item-int-) | Returns IChartDataPointLevel object for defined level. |
 | [getCount()](#getCount--) | Returns data point levels count. |
-### ChartDataPointLevelsManager(ChartDataPoint parent) {#ChartDataPointLevelsManager-com.aspose.slides.ChartDataPoint-}
-```
- ChartDataPointLevelsManager(ChartDataPoint parent)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parent | [ChartDataPoint](../../com.aspose.slides/chartdatapoint) |  |
-
 ### get_Item(int level) {#get-Item-int-}
 ```
 public final IChartDataPointLevel get_Item(int level)

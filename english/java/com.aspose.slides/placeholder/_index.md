@@ -17,12 +17,6 @@ public class Placeholder implements IPlaceholder
 ```
 
 Represents a placeholder on a slide.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [Placeholder(byte orientation, byte size, byte type, long index, boolean hasCustomPrompt)](#Placeholder-byte-byte-byte-long-boolean-) |  |
-| [Placeholder()](#Placeholder--) |  |
 ## Methods
 
 | Method | Description |
@@ -31,27 +25,6 @@ Represents a placeholder on a slide.
 | [getSize()](#getSize--) | Gets or sets the size of a placeholder. |
 | [getType()](#getType--) | Gets or sets the type of a placeholder. |
 | [getIndex()](#getIndex--) | Gets or sets the index of a placeholder. |
-### Placeholder(byte orientation, byte size, byte type, long index, boolean hasCustomPrompt) {#Placeholder-byte-byte-byte-long-boolean-}
-```
- Placeholder(byte orientation, byte size, byte type, long index, boolean hasCustomPrompt)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| orientation | byte |  |
-| size | byte |  |
-| type | byte |  |
-| index | long |  |
-| hasCustomPrompt | boolean |  |
-
-### Placeholder() {#Placeholder--}
-```
- Placeholder()
-```
-
-
 ### getOrientation() {#getOrientation--}
 ```
 public byte getOrientation()

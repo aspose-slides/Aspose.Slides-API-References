@@ -14,11 +14,6 @@ public final class EffectSubtype extends System.Enum
 ```
 
 Represents subtypes of animation effect.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [EffectSubtype()](#EffectSubtype--) |  |
 ## Fields
 
 | Field | Description |
@@ -73,12 +68,6 @@ Represents subtypes of animation effect.
 | [Wheel3](#Wheel3) |  |
 | [Wheel4](#Wheel4) |  |
 | [Wheel8](#Wheel8) |  |
-### EffectSubtype() {#EffectSubtype--}
-```
-private EffectSubtype()
-```
-
-
 ### None {#None}
 ```
 public static final int None

@@ -17,11 +17,6 @@ public abstract class GeometryShape extends Shape implements IGeometryShape
 ```
 
 Represents the parent class for all geometric shapes.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [GeometryShape(IDOMObject parentImmediate, GeometryShapePPTXUnsupportedProps pptxUnsupportedProps, IBaseShapeLock shapeLock)](#GeometryShape-com.aspose.slides.IDOMObject-com.aspose.slides.GeometryShapePPTXUnsupportedProps-com.aspose.slides.IBaseShapeLock-) |  |
 ## Methods
 
 | Method | Description |
@@ -34,19 +29,6 @@ Represents the parent class for all geometric shapes.
 | [setShapeType(int value)](#setShapeType-int-) | Returns or sets the geometry preset type. |
 | [getAdjustments()](#getAdjustments--) | Returns a collection of shape's adjustment values. |
 | [createShapeElements()](#createShapeElements--) | Creates and returns array of shape's elements. |
-### GeometryShape(IDOMObject parentImmediate, GeometryShapePPTXUnsupportedProps pptxUnsupportedProps, IBaseShapeLock shapeLock) {#GeometryShape-com.aspose.slides.IDOMObject-com.aspose.slides.GeometryShapePPTXUnsupportedProps-com.aspose.slides.IBaseShapeLock-}
-```
- GeometryShape(IDOMObject parentImmediate, GeometryShapePPTXUnsupportedProps pptxUnsupportedProps, IBaseShapeLock shapeLock)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | com.aspose.slides.IDOMObject |  |
-| pptxUnsupportedProps | com.aspose.slides.GeometryShapePPTXUnsupportedProps |  |
-| shapeLock | [IBaseShapeLock](../../com.aspose.slides/ibaseshapelock) |  |
-
 ### getGeometryPaths() {#getGeometryPaths--}
 ```
 public final IGeometryPath[] getGeometryPaths()

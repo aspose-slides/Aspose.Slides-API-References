@@ -17,11 +17,6 @@ public class Comment implements IComment, IDOMObject
 ```
 
 Represents a comment on a slide.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [Comment(CommentCollection parentImmediate, CommentAuthor author, String text, Slide slide, System.Drawing.PointF position, System.DateTime dateTime)](#Comment-com.aspose.slides.CommentCollection-com.aspose.slides.CommentAuthor-java.lang.String-com.aspose.slides.Slide-com.aspose.ms.System.Drawing.PointF-com.aspose.ms.System.DateTime-) |  |
 ## Methods
 
 | Method | Description |
@@ -38,22 +33,6 @@ Represents a comment on a slide.
 | [getParentComment()](#getParentComment--) | Gets or sets parent comment. |
 | [setParentComment(IComment value)](#setParentComment-com.aspose.slides.IComment-) | Gets or sets parent comment. |
 | [getParent_Immediate()](#getParent-Immediate--) |  |
-### Comment(CommentCollection parentImmediate, CommentAuthor author, String text, Slide slide, System.Drawing.PointF position, System.DateTime dateTime) {#Comment-com.aspose.slides.CommentCollection-com.aspose.slides.CommentAuthor-java.lang.String-com.aspose.slides.Slide-com.aspose.ms.System.Drawing.PointF-com.aspose.ms.System.DateTime-}
-```
- Comment(CommentCollection parentImmediate, CommentAuthor author, String text, Slide slide, System.Drawing.PointF position, System.DateTime dateTime)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | [CommentCollection](../../com.aspose.slides/commentcollection) |  |
-| author | [CommentAuthor](../../com.aspose.slides/commentauthor) |  |
-| text | java.lang.String |  |
-| slide | [Slide](../../com.aspose.slides/slide) |  |
-| position | com.aspose.ms.System.Drawing.PointF |  |
-| dateTime | com.aspose.ms.System.DateTime |  |
-
 ### getText() {#getText--}
 ```
 public final String getText()

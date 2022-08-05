@@ -14,11 +14,6 @@ public final class MathLimitLocations extends System.Enum
 ```
 
 Location of limits (subscript/superscript) in n-ary operators.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [MathLimitLocations()](#MathLimitLocations--) |  |
 ## Fields
 
 | Field | Description |
@@ -26,12 +21,6 @@ Location of limits (subscript/superscript) in n-ary operators.
 | [NotDefined](#NotDefined) | Not defined |
 | [UnderOver](#UnderOver) | Limits draw at top and bottom of the operator symbol |
 | [SubscriptSuperscript](#SubscriptSuperscript) | Limits draw as subscript and superscript |
-### MathLimitLocations() {#MathLimitLocations--}
-```
-private MathLimitLocations()
-```
-
-
 ### NotDefined {#NotDefined}
 ```
 public static final int NotDefined

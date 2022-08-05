@@ -29,23 +29,12 @@ Represents the behavior regarding treating the [IPresentation](../../com.aspose.
 --------------------
 
 The source is the parameter passed to the [IPresentation](../../com.aspose.slides/ipresentation) constructor. In the example below, the source is the "pres.pptx" file: For this example, the source ("pres.pptx" file) will be locked for a [IPresentation](../../com.aspose.slides/ipresentation) instance lifetime, i.e. can't be changed or deleted by the other process.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [PresentationLockingBehavior()](#PresentationLockingBehavior--) |  |
 ## Fields
 
 | Field | Description |
 | --- | --- |
 | [LoadAndRelease](#LoadAndRelease) | The source will be locked only for a time of [IPresentation](../../com.aspose.slides/ipresentation) constructor execution. |
 | [KeepLocked](#KeepLocked) | The source will be locked for a whole lifetime of [IPresentation](../../com.aspose.slides/ipresentation) instance, until it will be disposed. |
-### PresentationLockingBehavior() {#PresentationLockingBehavior--}
-```
-private PresentationLockingBehavior()
-```
-
-
 ### LoadAndRelease {#LoadAndRelease}
 ```
 public static final int LoadAndRelease
@@ -56,7 +45,7 @@ The source will be locked only for a time of [IPresentation](../../com.aspose.sl
 
 --------------------
 
-If ([IBlobManagementOptions\#isTemporaryFilesAllowed](../../com.aspose.slides/iblobmanagementoptions\#isTemporaryFilesAllowed)/[IBlobManagementOptions\#setTemporaryFilesAllowed(boolean)](../../com.aspose.slides/iblobmanagementoptions\#setTemporaryFilesAllowed(boolean))) is set to false, all BLOBs will be loaded into memory. Otherwise, other means such a temporary files might be used.
+If ([IBlobManagementOptions\#isTemporaryFilesAllowed](../../com.aspose.slides/iblobmanagementoptions\#isTemporaryFilesAllowed)/[IBlobManagementOptions\#setTemporaryFilesAllowed(boolean)](../../com.aspose.slides/iblobmanagementoptions\#setTemporaryFilesAllowed-boolean-)) is set to false, all BLOBs will be loaded into memory. Otherwise, other means such a temporary files might be used.
 
 --------------------
 
@@ -72,7 +61,7 @@ The source will be locked for a whole lifetime of [IPresentation](../../com.aspo
 
 --------------------
 
-\`\`\` IBlobManagementOptions.IsTemporaryFilesAllowed \`\`\`([IBlobManagementOptions\#isTemporaryFilesAllowed](../../com.aspose.slides/iblobmanagementoptions\#isTemporaryFilesAllowed)/[IBlobManagementOptions\#setTemporaryFilesAllowed(boolean)](../../com.aspose.slides/iblobmanagementoptions\#setTemporaryFilesAllowed(boolean))) is must be set to true for using this behavior, otherwise exception will be thrown.
+\`\`\` IBlobManagementOptions.IsTemporaryFilesAllowed \`\`\`([IBlobManagementOptions\#isTemporaryFilesAllowed](../../com.aspose.slides/iblobmanagementoptions\#isTemporaryFilesAllowed)/[IBlobManagementOptions\#setTemporaryFilesAllowed(boolean)](../../com.aspose.slides/iblobmanagementoptions\#setTemporaryFilesAllowed-boolean-)) is must be set to true for using this behavior, otherwise exception will be thrown.
 
 --------------------
 

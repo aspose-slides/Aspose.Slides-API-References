@@ -17,11 +17,6 @@ public class AnimationTimeLine extends DomObject<BaseSlide> implements IAnimatio
 ```
 
 Represents timeline of animation.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [AnimationTimeLine(BaseSlide parentImmediate)](#AnimationTimeLine-com.aspose.slides.BaseSlide-) |  |
 ## Methods
 
 | Method | Description |
@@ -29,17 +24,6 @@ Represents timeline of animation.
 | [getInteractiveSequences()](#getInteractiveSequences--) | Returns collection of interactive sequences. |
 | [getMainSequence()](#getMainSequence--) | Returns main sequence which may contain only main effects collection. |
 | [getTextAnimationCollection()](#getTextAnimationCollection--) | Returns collection of text animations. |
-### AnimationTimeLine(BaseSlide parentImmediate) {#AnimationTimeLine-com.aspose.slides.BaseSlide-}
-```
- AnimationTimeLine(BaseSlide parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | [BaseSlide](../../com.aspose.slides/baseslide) |  |
-
 ### getInteractiveSequences() {#getInteractiveSequences--}
 ```
 public final ISequenceCollection getInteractiveSequences()

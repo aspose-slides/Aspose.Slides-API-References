@@ -17,27 +17,11 @@ public abstract class BaseThemeManager implements IDOMObject
 ```
 
 Base class for classes that provide access to different types of themes.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [BaseThemeManager(IDOMObject parentImmediate)](#BaseThemeManager-com.aspose.slides.IDOMObject-) |  |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [getParent_Immediate()](#getParent-Immediate--) |  |
-### BaseThemeManager(IDOMObject parentImmediate) {#BaseThemeManager-com.aspose.slides.IDOMObject-}
-```
- BaseThemeManager(IDOMObject parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | com.aspose.slides.IDOMObject |  |
-
 ### getParent_Immediate() {#getParent-Immediate--}
 ```
 public final IDOMObject getParent_Immediate()

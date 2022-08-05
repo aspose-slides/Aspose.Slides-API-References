@@ -17,11 +17,6 @@ public class FontScheme implements IFontScheme, IDOMObject
 ```
 
 Stores theme-defined fonts.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [FontScheme(IDOMObject parentImmediate)](#FontScheme-com.aspose.slides.IDOMObject-) |  |
 ## Methods
 
 | Method | Description |
@@ -31,17 +26,6 @@ Stores theme-defined fonts.
 | [getName()](#getName--) | Returns the font scheme name. |
 | [setName(String value)](#setName-java.lang.String-) | Returns the font scheme name. |
 | [getParent_Immediate()](#getParent-Immediate--) |  |
-### FontScheme(IDOMObject parentImmediate) {#FontScheme-com.aspose.slides.IDOMObject-}
-```
- FontScheme(IDOMObject parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | com.aspose.slides.IDOMObject |  |
-
 ### getMinor() {#getMinor--}
 ```
 public final IFonts getMinor()

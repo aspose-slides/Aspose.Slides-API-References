@@ -14,11 +14,6 @@ public final class BlackWhiteMode extends System.Enum
 ```
 
 Determines how colored shape should be transformed into black and white.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [BlackWhiteMode()](#BlackWhiteMode--) |  |
 ## Fields
 
 | Field | Description |
@@ -35,12 +30,6 @@ Determines how colored shape should be transformed into black and white.
 | [Black](#Black) | The object is rendered only with black coloring |
 | [White](#White) | The object is rendered with white coloring |
 | [Hidden](#Hidden) | The object is not rendered |
-### BlackWhiteMode() {#BlackWhiteMode--}
-```
-private BlackWhiteMode()
-```
-
-
 ### NotDefined {#NotDefined}
 ```
 public static final byte NotDefined

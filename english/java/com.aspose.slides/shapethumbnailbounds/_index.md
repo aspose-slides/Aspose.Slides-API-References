@@ -14,11 +14,6 @@ public final class ShapeThumbnailBounds extends System.Enum
 ```
 
 Enumeration of types of shape thumbnail bounds.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [ShapeThumbnailBounds()](#ShapeThumbnailBounds--) |  |
 ## Fields
 
 | Field | Description |
@@ -26,12 +21,6 @@ Enumeration of types of shape thumbnail bounds.
 | [Slide](#Slide) | Shape thumbnail will have the size equal to slide size. |
 | [Shape](#Shape) | Shape thumbnail will have size equal to the shape bounds rectangle with taking into account shape outline settings. |
 | [Appearance](#Appearance) | Shape thumbnail will have size equal to the shape appearance (in bounds of a slide). |
-### ShapeThumbnailBounds() {#ShapeThumbnailBounds--}
-```
-private ShapeThumbnailBounds()
-```
-
-
 ### Slide {#Slide}
 ```
 public static final int Slide

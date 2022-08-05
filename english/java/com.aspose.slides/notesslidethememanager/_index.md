@@ -14,19 +14,3 @@ public class NotesSlideThemeManager extends BaseOverrideThemeManager
 ```
 
 Provides access to notes slide theme overriden.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [NotesSlideThemeManager(NotesSlide parentImmediate)](#NotesSlideThemeManager-com.aspose.slides.NotesSlide-) |  |
-### NotesSlideThemeManager(NotesSlide parentImmediate) {#NotesSlideThemeManager-com.aspose.slides.NotesSlide-}
-```
- NotesSlideThemeManager(NotesSlide parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | [NotesSlide](../../com.aspose.slides/notesslide) |  |
-

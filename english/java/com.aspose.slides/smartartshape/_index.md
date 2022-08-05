@@ -17,11 +17,6 @@ public class SmartArtShape extends GeometryShape implements ISmartArtShape
 ```
 
 Represents SmartArt shape
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [SmartArtShape(IDOMObject parentImmediate, SmartArtShapeContainer container)](#SmartArtShape-com.aspose.slides.IDOMObject-com.aspose.slides.SmartArtShapeContainer-) | Initializes new instance of class [SmartArtShape](../../com.aspose.slides/smartartshape) |
 ## Methods
 
 | Method | Description |
@@ -29,20 +24,6 @@ Represents SmartArt shape
 | [getShapeType()](#getShapeType--) | Returns or sets the geometry preset type. |
 | [setShapeType(int value)](#setShapeType-int-) | Returns or sets the geometry preset type. |
 | [getTextFrame()](#getTextFrame--) | Returns text of the SmartArt shape. |
-### SmartArtShape(IDOMObject parentImmediate, SmartArtShapeContainer container) {#SmartArtShape-com.aspose.slides.IDOMObject-com.aspose.slides.SmartArtShapeContainer-}
-```
- SmartArtShape(IDOMObject parentImmediate, SmartArtShapeContainer container)
-```
-
-
-Initializes new instance of class [SmartArtShape](../../com.aspose.slides/smartartshape)
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | com.aspose.slides.IDOMObject |  |
-| container | com.aspose.slides.SmartArtShapeContainer | The SmartArtShapeContainer |
-
 ### getShapeType() {#getShapeType--}
 ```
 public int getShapeType()

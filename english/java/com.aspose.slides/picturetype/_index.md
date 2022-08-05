@@ -14,11 +14,6 @@ public final class PictureType extends System.Enum
 ```
 
 Determines mode of bar picture filling.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [PictureType()](#PictureType--) |  |
 ## Fields
 
 | Field | Description |
@@ -27,12 +22,6 @@ Determines mode of bar picture filling.
 | [Stack](#Stack) | The picture is sized to repeat a maximum of 15 times in the longest stacked bar. |
 | [StackScale](#StackScale) | The picture is sized to a specified number of units and repeated the length of the bar. |
 | [Stretch](#Stretch) | The picture is stretched the full length of the stacked bar. |
-### PictureType() {#PictureType--}
-```
-private PictureType()
-```
-
-
 ### NotDefined {#NotDefined}
 ```
 public static final int NotDefined

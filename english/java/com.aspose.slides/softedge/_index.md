@@ -17,11 +17,6 @@ public class SoftEdge implements ISoftEdge, IVisualEffect, IDOMObject, IPVIObjec
 ```
 
 Represents a soft edge effect. The edges of the shape are blurred, while the fill is not affected.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [SoftEdge(IDOMObject parentImmediate)](#SoftEdge-com.aspose.slides.IDOMObject-) | Creates new instance of SoftEdge class. |
 ## Methods
 
 | Method | Description |
@@ -35,19 +30,6 @@ Represents a soft edge effect. The edges of the shape are blurred, while the fil
 | [equals(Object obj)](#equals-java.lang.Object-) | Determines whether the specified [SoftEdge](../../com.aspose.slides/softedge) is equal to the current [SoftEdge](../../com.aspose.slides/softedge). |
 | [hashCode()](#hashCode--) | Serves as a hash function for a particular type. |
 | [memberwiseClone()](#memberwiseClone--) |  |
-### SoftEdge(IDOMObject parentImmediate) {#SoftEdge-com.aspose.slides.IDOMObject-}
-```
- SoftEdge(IDOMObject parentImmediate)
-```
-
-
-Creates new instance of SoftEdge class.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | com.aspose.slides.IDOMObject |  |
-
 ### getRadius() {#getRadius--}
 ```
 public final double getRadius()

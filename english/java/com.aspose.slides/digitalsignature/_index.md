@@ -23,7 +23,6 @@ Digital signature in signed file.
 | --- | --- |
 | [DigitalSignature(byte[] certData, String password)](#DigitalSignature-byte---java.lang.String-) | Creates a new DigitalSignature object with the specified certificate. |
 | [DigitalSignature(String filePath, String password)](#DigitalSignature-java.lang.String-java.lang.String-) | Creates a new DigitalSignature object with the specified certificate file path and password. |
-| [DigitalSignature()](#DigitalSignature--) | Creates a new DigitalSignature object with empty certificate. |
 ## Methods
 
 | Method | Description |
@@ -60,14 +59,6 @@ Creates a new DigitalSignature object with the specified certificate file path a
 | --- | --- | --- |
 | filePath | java.lang.String | Path to the file with certificate. |
 | password | java.lang.String | Password required to access certificate. |
-
-### DigitalSignature() {#DigitalSignature--}
-```
- DigitalSignature()
-```
-
-
-Creates a new DigitalSignature object with empty certificate.
 
 ### getCertificate() {#getCertificate--}
 ```

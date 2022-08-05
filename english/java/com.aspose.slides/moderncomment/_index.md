@@ -30,11 +30,6 @@ Represents a comment on a slide.
 >      if (pres != null) pres.dispose();
 >  }
 > ```
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [ModernComment(CommentCollection parentImmediate, CommentAuthor author, String text, Slide slide, Shape shape, System.Drawing.PointF position, System.DateTime dateTime)](#ModernComment-com.aspose.slides.CommentCollection-com.aspose.slides.CommentAuthor-java.lang.String-com.aspose.slides.Slide-com.aspose.slides.Shape-com.aspose.ms.System.Drawing.PointF-com.aspose.ms.System.DateTime-) |  |
 ## Methods
 
 | Method | Description |
@@ -47,23 +42,6 @@ Represents a comment on a slide.
 | [getStatus()](#getStatus--) | Gets or sets the status of the comment. |
 | [setStatus(byte value)](#setStatus-byte-) | Gets or sets the status of the comment. |
 | [getParent_Immediate()](#getParent-Immediate--) |  |
-### ModernComment(CommentCollection parentImmediate, CommentAuthor author, String text, Slide slide, Shape shape, System.Drawing.PointF position, System.DateTime dateTime) {#ModernComment-com.aspose.slides.CommentCollection-com.aspose.slides.CommentAuthor-java.lang.String-com.aspose.slides.Slide-com.aspose.slides.Shape-com.aspose.ms.System.Drawing.PointF-com.aspose.ms.System.DateTime-}
-```
- ModernComment(CommentCollection parentImmediate, CommentAuthor author, String text, Slide slide, Shape shape, System.Drawing.PointF position, System.DateTime dateTime)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | [CommentCollection](../../com.aspose.slides/commentcollection) |  |
-| author | [CommentAuthor](../../com.aspose.slides/commentauthor) |  |
-| text | java.lang.String |  |
-| slide | [Slide](../../com.aspose.slides/slide) |  |
-| shape | [Shape](../../com.aspose.slides/shape) |  |
-| position | com.aspose.ms.System.Drawing.PointF |  |
-| dateTime | com.aspose.ms.System.DateTime |  |
-
 ### getShape() {#getShape--}
 ```
 public final IShape getShape()

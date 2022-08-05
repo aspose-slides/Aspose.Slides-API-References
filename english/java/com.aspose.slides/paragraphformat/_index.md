@@ -27,9 +27,7 @@ In order to get the effective formatting parameter values including inherited yo
 
 | Constructor | Description |
 | --- | --- |
-| [ParagraphFormat(IDOMObject parentImmediate)](#ParagraphFormat-com.aspose.slides.IDOMObject-) |  |
 | [ParagraphFormat()](#ParagraphFormat--) | Initializes a new instance of [ParagraphFormat](../../com.aspose.slides/paragraphformat) class. |
-| [ParagraphFormat(IParagraphFormat paraprop, IDOMObject parentImmediate)](#ParagraphFormat-com.aspose.slides.IParagraphFormat-com.aspose.slides.IDOMObject-) |  |
 ## Methods
 
 | Method | Description |
@@ -67,17 +65,6 @@ In order to get the effective formatting parameter values including inherited yo
 | [getDefaultPortionFormat()](#getDefaultPortionFormat--) | Returns default portion format of a paragraph. |
 | [getEffective()](#getEffective--) | Gets effective paragraph formatting data with the inheritance applied. |
 | [getVersion()](#getVersion--) |  |
-### ParagraphFormat(IDOMObject parentImmediate) {#ParagraphFormat-com.aspose.slides.IDOMObject-}
-```
- ParagraphFormat(IDOMObject parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | com.aspose.slides.IDOMObject |  |
-
 ### ParagraphFormat() {#ParagraphFormat--}
 ```
 public ParagraphFormat()
@@ -85,18 +72,6 @@ public ParagraphFormat()
 
 
 Initializes a new instance of [ParagraphFormat](../../com.aspose.slides/paragraphformat) class.
-
-### ParagraphFormat(IParagraphFormat paraprop, IDOMObject parentImmediate) {#ParagraphFormat-com.aspose.slides.IParagraphFormat-com.aspose.slides.IDOMObject-}
-```
- ParagraphFormat(IParagraphFormat paraprop, IDOMObject parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| paraprop | [IParagraphFormat](../../com.aspose.slides/iparagraphformat) |  |
-| parentImmediate | com.aspose.slides.IDOMObject |  |
 
 ### getBullet() {#getBullet--}
 ```

@@ -23,15 +23,10 @@ Represents a Microsoft PowerPoint presentation.
 | --- | --- |
 | [Presentation()](#Presentation--) | This constructor creates new presentation from scratch. |
 | [Presentation(LoadOptions loadOptions)](#Presentation-com.aspose.slides.LoadOptions-) | This constructor creates new presentation from scratch. |
-| [Presentation(LoadOptions loadOptions, int dummy)](#Presentation-com.aspose.slides.LoadOptions-int-) |  |
-| [Presentation(LoadOptions loadOptions, ExternalTheme themeContainer)](#Presentation-com.aspose.slides.LoadOptions-com.aspose.slides.ExternalTheme-) | This constructor is used for loading only single Open XML Theme |
 | [Presentation(InputStream stream)](#Presentation-java.io.InputStream-) | This constructor is the primary mechanism for reading an existing Presentation. |
-| [Presentation(System.IO.Stream stream)](#Presentation-com.aspose.ms.System.IO.Stream-) |  |
 | [Presentation(InputStream stream, LoadOptions loadOptions)](#Presentation-java.io.InputStream-com.aspose.slides.LoadOptions-) | This constructor is the primary mechanism for reading an existing Presentation. |
-| [Presentation(System.IO.Stream stream, LoadOptions loadOptions)](#Presentation-com.aspose.ms.System.IO.Stream-com.aspose.slides.LoadOptions-) |  |
 | [Presentation(String file)](#Presentation-java.lang.String-) | This constructor gets a source file path from which the contents of the Presentation are read. |
 | [Presentation(String file, LoadOptions loadOptions)](#Presentation-java.lang.String-com.aspose.slides.LoadOptions-) | This constructor gets a source file path from which the contents of the Presentation are read. |
-| [Presentation(String file, LoadOptions loadOptions, ExternalTheme themeContainer)](#Presentation-java.lang.String-com.aspose.slides.LoadOptions-com.aspose.slides.ExternalTheme-) | This constructor is used for loading only Open XML Themes (Thmx) |
 ## Methods
 
 | Method | Description |
@@ -114,32 +109,6 @@ This constructor creates new presentation from scratch. Created presentation has
 | --- | --- | --- |
 | loadOptions | [LoadOptions](../../com.aspose.slides/loadoptions) | Additional load options. |
 
-### Presentation(LoadOptions loadOptions, int dummy) {#Presentation-com.aspose.slides.LoadOptions-int-}
-```
-private Presentation(LoadOptions loadOptions, int dummy)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| loadOptions | [LoadOptions](../../com.aspose.slides/loadoptions) |  |
-| dummy | int |  |
-
-### Presentation(LoadOptions loadOptions, ExternalTheme themeContainer) {#Presentation-com.aspose.slides.LoadOptions-com.aspose.slides.ExternalTheme-}
-```
- Presentation(LoadOptions loadOptions, ExternalTheme themeContainer)
-```
-
-
-This constructor is used for loading only single Open XML Theme
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| loadOptions | [LoadOptions](../../com.aspose.slides/loadoptions) |  |
-| themeContainer | com.aspose.slides.ExternalTheme |  |
-
 ### Presentation(InputStream stream) {#Presentation-java.io.InputStream-}
 ```
 public Presentation(InputStream stream)
@@ -161,17 +130,6 @@ This constructor is the primary mechanism for reading an existing Presentation.
 | --- | --- | --- |
 | stream | java.io.InputStream | Input stream. |
 
-### Presentation(System.IO.Stream stream) {#Presentation-com.aspose.ms.System.IO.Stream-}
-```
- Presentation(System.IO.Stream stream)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| stream | com.aspose.ms.System.IO.Stream |  |
-
 ### Presentation(InputStream stream, LoadOptions loadOptions) {#Presentation-java.io.InputStream-com.aspose.slides.LoadOptions-}
 ```
 public Presentation(InputStream stream, LoadOptions loadOptions)
@@ -185,18 +143,6 @@ This constructor is the primary mechanism for reading an existing Presentation.
 | --- | --- | --- |
 | stream | java.io.InputStream | Input stream. |
 | loadOptions | [LoadOptions](../../com.aspose.slides/loadoptions) | Additional load options. |
-
-### Presentation(System.IO.Stream stream, LoadOptions loadOptions) {#Presentation-com.aspose.ms.System.IO.Stream-com.aspose.slides.LoadOptions-}
-```
- Presentation(System.IO.Stream stream, LoadOptions loadOptions)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| stream | com.aspose.ms.System.IO.Stream |  |
-| loadOptions | [LoadOptions](../../com.aspose.slides/loadoptions) |  |
 
 ### Presentation(String file) {#Presentation-java.lang.String-}
 ```
@@ -230,21 +176,6 @@ This constructor gets a source file path from which the contents of the Presenta
 | --- | --- | --- |
 | file | java.lang.String | Input file. |
 | loadOptions | [LoadOptions](../../com.aspose.slides/loadoptions) | Additional load options. |
-
-### Presentation(String file, LoadOptions loadOptions, ExternalTheme themeContainer) {#Presentation-java.lang.String-com.aspose.slides.LoadOptions-com.aspose.slides.ExternalTheme-}
-```
- Presentation(String file, LoadOptions loadOptions, ExternalTheme themeContainer)
-```
-
-
-This constructor is used for loading only Open XML Themes (Thmx)
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| file | java.lang.String |  |
-| loadOptions | [LoadOptions](../../com.aspose.slides/loadoptions) |  |
-| themeContainer | com.aspose.slides.ExternalTheme |  |
 
 ### getCurrentDateTime() {#getCurrentDateTime--}
 ```

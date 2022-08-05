@@ -17,12 +17,6 @@ public class Camera extends PVIObject implements ICamera
 ```
 
 Represents Camera.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [Camera(IDOMObject parentImmediate)](#Camera-com.aspose.slides.IDOMObject-) |  |
-| [Camera()](#Camera--) |  |
 ## Methods
 
 | Method | Description |
@@ -35,23 +29,6 @@ Represents Camera.
 | [setZoom(float value)](#setZoom-float-) | Camera zoom (positive value in percentage). |
 | [setRotation(float latitude, float longitude, float revolution)](#setRotation-float-float-float-) | A rotation is defined through the use of a latitude coordinate, a longitude coordinate, and a revolution about the axis as the latitude and longitude coordinates. |
 | [getRotation()](#getRotation--) | A rotation is defined through the use of a latitude coordinate, a longitude coordinate, and a revolution about the axis as the latitude and longitude coordinates. |
-### Camera(IDOMObject parentImmediate) {#Camera-com.aspose.slides.IDOMObject-}
-```
- Camera(IDOMObject parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | com.aspose.slides.IDOMObject |  |
-
-### Camera() {#Camera--}
-```
- Camera()
-```
-
-
 ### getCameraType() {#getCameraType--}
 ```
 public final int getCameraType()

@@ -17,11 +17,6 @@ public final class Table extends GraphicalObject implements ITable
 ```
 
 Represents a table on a slide.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [Table(IDOMObject parentImmediate)](#Table-com.aspose.slides.IDOMObject-) |  |
 ## Methods
 
 | Method | Description |
@@ -51,17 +46,6 @@ Represents a table on a slide.
 | [setTextFormat(IParagraphFormat source)](#setTextFormat-com.aspose.slides.IParagraphFormat-) | Sets defined paragraph format properties to all table cells' paragraphs. |
 | [setTextFormat(ITextFrameFormat source)](#setTextFormat-com.aspose.slides.ITextFrameFormat-) | Sets defined text frame format properties to all table cells' text frames. |
 | [getFillFormat()](#getFillFormat--) | Returns the FillFormat object that contains fill formatting properties for a shape. |
-### Table(IDOMObject parentImmediate) {#Table-com.aspose.slides.IDOMObject-}
-```
- Table(IDOMObject parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | com.aspose.slides.IDOMObject |  |
-
 ### get_Item(int columnIndex, int rowIndex) {#get-Item-int-int-}
 ```
 public final ICell get_Item(int columnIndex, int rowIndex)

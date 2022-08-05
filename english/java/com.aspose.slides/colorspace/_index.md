@@ -14,11 +14,6 @@ public final class ColorSpace extends System.Enum
 ```
 
 Represents color space for color effect behavior.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [ColorSpace()](#ColorSpace--) |  |
 ## Fields
 
 | Field | Description |
@@ -26,12 +21,6 @@ Represents color space for color effect behavior.
 | [NotDefined](#NotDefined) |  |
 | [RGB](#RGB) |  |
 | [HSL](#HSL) |  |
-### ColorSpace() {#ColorSpace--}
-```
-private ColorSpace()
-```
-
-
 ### NotDefined {#NotDefined}
 ```
 public static final int NotDefined

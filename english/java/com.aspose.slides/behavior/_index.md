@@ -22,7 +22,6 @@ Represent base class behavior of effect.
 | Constructor | Description |
 | --- | --- |
 | [Behavior()](#Behavior--) | Creates new instance. |
-| [Behavior(BehaviorPPTXUnsupportedProps pptxUnsupportedProps)](#Behavior-com.aspose.slides.BehaviorPPTXUnsupportedProps-) |  |
 ## Methods
 
 | Method | Description |
@@ -42,17 +41,6 @@ protected Behavior()
 
 
 Creates new instance.
-
-### Behavior(BehaviorPPTXUnsupportedProps pptxUnsupportedProps) {#Behavior-com.aspose.slides.BehaviorPPTXUnsupportedProps-}
-```
- Behavior(BehaviorPPTXUnsupportedProps pptxUnsupportedProps)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| pptxUnsupportedProps | com.aspose.slides.BehaviorPPTXUnsupportedProps |  |
 
 ### getParent_Immediate() {#getParent-Immediate--}
 ```

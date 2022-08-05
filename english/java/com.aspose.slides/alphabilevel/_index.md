@@ -17,11 +17,6 @@ public class AlphaBiLevel extends ImageTransformOperation implements IAlphaBiLev
 ```
 
 Represents an Alpha Bi-Level effect. Alpha (Opacity) values less than the threshold are changed to 0 (fully transparent) and alpha values greater than or equal to the threshold are changed to 100% (fully opaque).
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [AlphaBiLevel(float threshold, IDOMObject parentImmediate)](#AlphaBiLevel-float-com.aspose.slides.IDOMObject-) | Alpha Bi-Level effect constructor. |
 ## Methods
 
 | Method | Description |
@@ -31,20 +26,6 @@ Represents an Alpha Bi-Level effect. Alpha (Opacity) values less than the thresh
 | [getEffective()](#getEffective--) | Gets effective Alpha Bi-Level effect data with the inheritance applied. |
 | [equals(Object obj)](#equals-java.lang.Object-) | Determines whether the specified [AlphaBiLevel](../../com.aspose.slides/alphabilevel) is equal to the current [AlphaBiLevel](../../com.aspose.slides/alphabilevel). |
 | [hashCode()](#hashCode--) | Serves as a hash function for a particular type. |
-### AlphaBiLevel(float threshold, IDOMObject parentImmediate) {#AlphaBiLevel-float-com.aspose.slides.IDOMObject-}
-```
- AlphaBiLevel(float threshold, IDOMObject parentImmediate)
-```
-
-
-Alpha Bi-Level effect constructor.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| threshold | float | The threshold value for the alpha bi-level effect. |
-| parentImmediate | com.aspose.slides.IDOMObject | The parent of Alpha Bi-Level. |
-
 ### getThreshold() {#getThreshold--}
 ```
 public final float getThreshold()

@@ -21,9 +21,7 @@ Contains the properties of shape's main face relief.
 
 | Constructor | Description |
 | --- | --- |
-| [ShapeBevel(IDOMObject parentImmediate)](#ShapeBevel-com.aspose.slides.IDOMObject-) |  |
 | [ShapeBevel(boolean bIsTopBevel)](#ShapeBevel-boolean-) | Creates new instance. |
-| [ShapeBevel(IDOMObject parentImmediate, boolean bIsTopBevel)](#ShapeBevel-com.aspose.slides.IDOMObject-boolean-) |  |
 ## Methods
 
 | Method | Description |
@@ -34,17 +32,6 @@ Contains the properties of shape's main face relief.
 | [setHeight(double value)](#setHeight-double-) | Bevel height. |
 | [getBevelType()](#getBevelType--) | Bevel type. |
 | [setBevelType(int value)](#setBevelType-int-) | Bevel type. |
-### ShapeBevel(IDOMObject parentImmediate) {#ShapeBevel-com.aspose.slides.IDOMObject-}
-```
- ShapeBevel(IDOMObject parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | com.aspose.slides.IDOMObject |  |
-
 ### ShapeBevel(boolean bIsTopBevel) {#ShapeBevel-boolean-}
 ```
 public ShapeBevel(boolean bIsTopBevel)
@@ -57,18 +44,6 @@ Creates new instance.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | bIsTopBevel | boolean | Is top bevel. |
-
-### ShapeBevel(IDOMObject parentImmediate, boolean bIsTopBevel) {#ShapeBevel-com.aspose.slides.IDOMObject-boolean-}
-```
- ShapeBevel(IDOMObject parentImmediate, boolean bIsTopBevel)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | com.aspose.slides.IDOMObject |  |
-| bIsTopBevel | boolean |  |
 
 ### getWidth() {#getWidth--}
 ```

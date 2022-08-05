@@ -17,11 +17,6 @@ public class CellFormat extends PVIObject implements ICellFormat
 ```
 
 Represents format of a table cell.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [CellFormat(IDOMObject parentImmediate)](#CellFormat-com.aspose.slides.IDOMObject-) |  |
 ## Methods
 
 | Method | Description |
@@ -34,17 +29,6 @@ Represents format of a table cell.
 | [getBorderDiagonalDown()](#getBorderDiagonalDown--) | Returns a top-left to bottom-right diagonal line properties object. |
 | [getBorderDiagonalUp()](#getBorderDiagonalUp--) | Returns a bottom-left to top-right diagonal line properties object. |
 | [getEffective()](#getEffective--) | Gets effective table cell formatting properties with inheritance and table styles applied. |
-### CellFormat(IDOMObject parentImmediate) {#CellFormat-com.aspose.slides.IDOMObject-}
-```
- CellFormat(IDOMObject parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | com.aspose.slides.IDOMObject |  |
-
 ### getFillFormat() {#getFillFormat--}
 ```
 public final IFillFormat getFillFormat()

@@ -14,11 +14,6 @@ public final class StyleType extends System.Enum
 ```
 
 Represents chart style.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [StyleType()](#StyleType--) |  |
 ## Fields
 
 | Field | Description |
@@ -71,12 +66,6 @@ Represents chart style.
 | [Style46](#Style46) | Style 46 |
 | [Style47](#Style47) | Style 47 |
 | [Style48](#Style48) | Style 48 |
-### StyleType() {#StyleType--}
-```
-private StyleType()
-```
-
-
 ### Style1 {#Style1}
 ```
 public static final int Style1

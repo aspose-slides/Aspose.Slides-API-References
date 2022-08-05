@@ -17,14 +17,6 @@ public class ColorChange extends ImageTransformOperation implements IColorChange
 ```
 
 Represents a Color Change effect. Instances of FromColor are replaced with instances of ToColor.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [ColorChange(IDOMObject parentImmediate)](#ColorChange-com.aspose.slides.IDOMObject-) | Color Change effect constructor. |
-| [ColorChange(ColorFormat colorFrom, ColorFormat colorTo, boolean useAlpha, IDOMObject parentImmediate)](#ColorChange-com.aspose.slides.ColorFormat-com.aspose.slides.ColorFormat-boolean-com.aspose.slides.IDOMObject-) |  |
-| [ColorChange(System.Drawing.Color colorFrom, System.Drawing.Color colorTo, boolean useAlpha, IDOMObject parentImmediate)](#ColorChange-com.aspose.ms.System.Drawing.Color-com.aspose.ms.System.Drawing.Color-boolean-com.aspose.slides.IDOMObject-) |  |
-| [ColorChange(System.Drawing.Color colorFrom, int colorTo, boolean useAlpha, IDOMObject parentImmediate)](#ColorChange-com.aspose.ms.System.Drawing.Color-int-boolean-com.aspose.slides.IDOMObject-) |  |
 ## Methods
 
 | Method | Description |
@@ -35,61 +27,6 @@ Represents a Color Change effect. Instances of FromColor are replaced with insta
 | [getVersion()](#getVersion--) |  |
 | [equals(Object obj)](#equals-java.lang.Object-) | Determines whether the specified [ColorChange](../../com.aspose.slides/colorchange) is equal to the current [ColorChange](../../com.aspose.slides/colorchange). |
 | [hashCode()](#hashCode--) | Serves as a hash function for a particular type. |
-### ColorChange(IDOMObject parentImmediate) {#ColorChange-com.aspose.slides.IDOMObject-}
-```
- ColorChange(IDOMObject parentImmediate)
-```
-
-
-Color Change effect constructor.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | com.aspose.slides.IDOMObject |  |
-
-### ColorChange(ColorFormat colorFrom, ColorFormat colorTo, boolean useAlpha, IDOMObject parentImmediate) {#ColorChange-com.aspose.slides.ColorFormat-com.aspose.slides.ColorFormat-boolean-com.aspose.slides.IDOMObject-}
-```
- ColorChange(ColorFormat colorFrom, ColorFormat colorTo, boolean useAlpha, IDOMObject parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| colorFrom | [ColorFormat](../../com.aspose.slides/colorformat) |  |
-| colorTo | [ColorFormat](../../com.aspose.slides/colorformat) |  |
-| useAlpha | boolean |  |
-| parentImmediate | com.aspose.slides.IDOMObject |  |
-
-### ColorChange(System.Drawing.Color colorFrom, System.Drawing.Color colorTo, boolean useAlpha, IDOMObject parentImmediate) {#ColorChange-com.aspose.ms.System.Drawing.Color-com.aspose.ms.System.Drawing.Color-boolean-com.aspose.slides.IDOMObject-}
-```
- ColorChange(System.Drawing.Color colorFrom, System.Drawing.Color colorTo, boolean useAlpha, IDOMObject parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| colorFrom | com.aspose.ms.System.Drawing.Color |  |
-| colorTo | com.aspose.ms.System.Drawing.Color |  |
-| useAlpha | boolean |  |
-| parentImmediate | com.aspose.slides.IDOMObject |  |
-
-### ColorChange(System.Drawing.Color colorFrom, int colorTo, boolean useAlpha, IDOMObject parentImmediate) {#ColorChange-com.aspose.ms.System.Drawing.Color-int-boolean-com.aspose.slides.IDOMObject-}
-```
- ColorChange(System.Drawing.Color colorFrom, int colorTo, boolean useAlpha, IDOMObject parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| colorFrom | com.aspose.ms.System.Drawing.Color |  |
-| colorTo | int |  |
-| useAlpha | boolean |  |
-| parentImmediate | com.aspose.slides.IDOMObject |  |
-
 ### getFromColor() {#getFromColor--}
 ```
 public final IColorFormat getFromColor()

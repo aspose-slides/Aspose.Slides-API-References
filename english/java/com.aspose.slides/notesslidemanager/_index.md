@@ -17,11 +17,6 @@ public final class NotesSlideManager extends DomObject<Slide> implements INotesS
 ```
 
 Notes slide manager.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [NotesSlideManager(Slide parentImmediate)](#NotesSlideManager-com.aspose.slides.Slide-) |  |
 ## Methods
 
 | Method | Description |
@@ -29,17 +24,6 @@ Notes slide manager.
 | [getNotesSlide()](#getNotesSlide--) | Returns the notes slide for the current slide. |
 | [addNotesSlide()](#addNotesSlide--) | Returns the notes slide for the current slide, creating one if there isn't. |
 | [removeNotesSlide()](#removeNotesSlide--) | Removes notes slide of the current slide. |
-### NotesSlideManager(Slide parentImmediate) {#NotesSlideManager-com.aspose.slides.Slide-}
-```
- NotesSlideManager(Slide parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | [Slide](../../com.aspose.slides/slide) |  |
-
 ### getNotesSlide() {#getNotesSlide--}
 ```
 public final INotesSlide getNotesSlide()

@@ -14,11 +14,6 @@ public final class PicturesCompression extends System.Enum
 ```
 
 Represents the pictures compression level
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [PicturesCompression()](#PicturesCompression--) |  |
 ## Fields
 
 | Field | Description |
@@ -29,12 +24,6 @@ Represents the pictures compression level
 | [Dpi96](#Dpi96) | Minimize document size for sharing |
 | [Dpi72](#Dpi72) | Default compression level |
 | [DocumentResolution](#DocumentResolution) | Use document resolution - the picture will not be compressed and used in document as-is |
-### PicturesCompression() {#PicturesCompression--}
-```
-private PicturesCompression()
-```
-
-
 ### Dpi330 {#Dpi330}
 ```
 public static final int Dpi330

@@ -14,11 +14,6 @@ public class SlideShowSettings
 ```
 
 Represents the slide show settings for the presentation.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [SlideShowSettings(Presentation presentation, p_CT_ShowPropertiesElementData data)](#SlideShowSettings-com.aspose.slides.Presentation-com.aspose.slides.pptxxmlparser.p-CT-ShowPropertiesElementData-) |  |
 ## Methods
 
 | Method | Description |
@@ -36,18 +31,6 @@ Represents the slide show settings for the presentation.
 | [setSlides(SlidesRange value)](#setSlides-com.aspose.slides.SlidesRange-) | Slides range |
 | [getUseTimings()](#getUseTimings--) | Use Timings in Slide Show |
 | [setUseTimings(boolean value)](#setUseTimings-boolean-) | Use Timings in Slide Show |
-### SlideShowSettings(Presentation presentation, p_CT_ShowPropertiesElementData data) {#SlideShowSettings-com.aspose.slides.Presentation-com.aspose.slides.pptxxmlparser.p-CT-ShowPropertiesElementData-}
-```
- SlideShowSettings(Presentation presentation, p_CT_ShowPropertiesElementData data)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| presentation | [Presentation](../../com.aspose.slides/presentation) |  |
-| data | com.aspose.slides.pptxxmlparser.p_CT_ShowPropertiesElementData |  |
-
 ### getSlideShowType() {#getSlideShowType--}
 ```
 public final SlideShowType getSlideShowType()

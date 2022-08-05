@@ -17,11 +17,6 @@ public class TextStyle extends PVIObject implements ITextStyle, IStyleColorOwner
 ```
 
 This class contains the text style formatting properties.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [TextStyle(IDOMObject parentImmediate)](#TextStyle-com.aspose.slides.IDOMObject-) |  |
 ## Fields
 
 | Field | Description |
@@ -34,17 +29,6 @@ This class contains the text style formatting properties.
 | [getLevel(int index)](#getLevel-int-) | If level of style exist returns it, otherwise returns null. |
 | [getDefaultParagraphFormat()](#getDefaultParagraphFormat--) | Default paragraph propertiies. |
 | [getEffective()](#getEffective--) | Gets effective text style formatting data with the inheritance applied. |
-### TextStyle(IDOMObject parentImmediate) {#TextStyle-com.aspose.slides.IDOMObject-}
-```
- TextStyle(IDOMObject parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | com.aspose.slides.IDOMObject |  |
-
 ### MaxLevelCount {#MaxLevelCount}
 ```
 public static final byte MaxLevelCount

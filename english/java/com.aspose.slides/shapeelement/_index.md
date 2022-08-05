@@ -17,11 +17,6 @@ public class ShapeElement implements IShapeElement
 ```
 
 Represents a part of shape with same outline and fill properties.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [ShapeElement(Shape shape, System.Drawing.Drawing2D.GraphicsPath path, int type, boolean invisibleForDecoration, byte fillSource, byte strokeSource, ShapeElementStroke stroke)](#ShapeElement-com.aspose.slides.Shape-com.aspose.ms.System.Drawing.Drawing2D.GraphicsPath-int-boolean-byte-byte-com.aspose.slides.ShapeElementStroke-) |  |
 ## Methods
 
 | Method | Description |
@@ -30,23 +25,6 @@ Represents a part of shape with same outline and fill properties.
 | [getGraphicsPath()](#getGraphicsPath--) | Returns an element's path. |
 | [getFillSource()](#getFillSource--) | Returns information about how to fill an element. |
 | [getStrokeSource()](#getStrokeSource--) | Returns information about how to stroke an element. |
-### ShapeElement(Shape shape, System.Drawing.Drawing2D.GraphicsPath path, int type, boolean invisibleForDecoration, byte fillSource, byte strokeSource, ShapeElementStroke stroke) {#ShapeElement-com.aspose.slides.Shape-com.aspose.ms.System.Drawing.Drawing2D.GraphicsPath-int-boolean-byte-byte-com.aspose.slides.ShapeElementStroke-}
-```
- ShapeElement(Shape shape, System.Drawing.Drawing2D.GraphicsPath path, int type, boolean invisibleForDecoration, byte fillSource, byte strokeSource, ShapeElementStroke stroke)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| shape | [Shape](../../com.aspose.slides/shape) |  |
-| path | com.aspose.ms.System.Drawing.Drawing2D.GraphicsPath |  |
-| type | int |  |
-| invisibleForDecoration | boolean |  |
-| fillSource | byte |  |
-| strokeSource | byte |  |
-| stroke | com.aspose.slides.ShapeElementStroke |  |
-
 ### getParentShape() {#getParentShape--}
 ```
 public final Shape getParentShape()

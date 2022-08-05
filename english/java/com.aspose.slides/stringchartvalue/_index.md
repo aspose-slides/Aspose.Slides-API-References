@@ -19,11 +19,6 @@ public class StringChartValue extends BaseChartValue implements IStringChartValu
 ```
 
 Represent string value which can be stored in pptx presentation document in two ways: 1) in cell/cells of workbook related to chart; 2) as literal value.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [StringChartValue(IDOMObject parentImmediate, DataSourceTypeHolder dataSourceTypeHolder, boolean centralizedTypeChangingRestriction)](#StringChartValue-com.aspose.slides.IDOMObject-com.aspose.slides.DataSourceTypeHolder-boolean-) |  |
 ## Methods
 
 | Method | Description |
@@ -37,19 +32,6 @@ Represent string value which can be stored in pptx presentation document in two 
 | [toString()](#toString--) | Returns string value data. |
 | [setFromOneCell(IChartDataCell cell)](#setFromOneCell-com.aspose.slides.IChartDataCell-) | Sets value from specified cell. |
 | [getCellsAddressInWorkbook()](#getCellsAddressInWorkbook--) | If DataSourceType property is DataSourceType.Worksheet then this method returns address of the cells in workbook which represent the string data. |
-### StringChartValue(IDOMObject parentImmediate, DataSourceTypeHolder dataSourceTypeHolder, boolean centralizedTypeChangingRestriction) {#StringChartValue-com.aspose.slides.IDOMObject-com.aspose.slides.DataSourceTypeHolder-boolean-}
-```
- StringChartValue(IDOMObject parentImmediate, DataSourceTypeHolder dataSourceTypeHolder, boolean centralizedTypeChangingRestriction)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | com.aspose.slides.IDOMObject |  |
-| dataSourceTypeHolder | com.aspose.slides.DataSourceTypeHolder |  |
-| centralizedTypeChangingRestriction | boolean |  |
-
 ### getAsCells() {#getAsCells--}
 ```
 public final IChartCellCollection getAsCells()

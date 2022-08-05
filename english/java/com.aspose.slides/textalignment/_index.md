@@ -14,11 +14,6 @@ public final class TextAlignment extends System.Enum
 ```
 
 Represents different text alignment styles.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [TextAlignment()](#TextAlignment--) |  |
 ## Fields
 
 | Field | Description |
@@ -30,12 +25,6 @@ Represents different text alignment styles.
 | [Justify](#Justify) | Justify alignment. |
 | [JustifyLow](#JustifyLow) | Kashida justify low. |
 | [Distributed](#Distributed) | Distributed alignment. |
-### TextAlignment() {#TextAlignment--}
-```
-private TextAlignment()
-```
-
-
 ### NotDefined {#NotDefined}
 ```
 public static final int NotDefined

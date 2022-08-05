@@ -17,19 +17,3 @@ public class MasterHandoutSlideHeaderFooterManager extends BaseHandoutNotesSlide
 ```
 
 Represents manager which holds behavior of the master handout slide placeholders, including header placeholder.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [MasterHandoutSlideHeaderFooterManager(MasterHandoutSlide masterHandoutSlide)](#MasterHandoutSlideHeaderFooterManager-com.aspose.slides.MasterHandoutSlide-) |  |
-### MasterHandoutSlideHeaderFooterManager(MasterHandoutSlide masterHandoutSlide) {#MasterHandoutSlideHeaderFooterManager-com.aspose.slides.MasterHandoutSlide-}
-```
- MasterHandoutSlideHeaderFooterManager(MasterHandoutSlide masterHandoutSlide)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| masterHandoutSlide | [MasterHandoutSlide](../../com.aspose.slides/masterhandoutslide) |  |
-

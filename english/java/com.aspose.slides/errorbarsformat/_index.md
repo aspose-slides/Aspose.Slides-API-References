@@ -17,11 +17,6 @@ public class ErrorBarsFormat extends DomObject<ChartSeries> implements IErrorBar
 ```
 
 Represents error bars of chart series. ErrorBars custom values are in IChartDataPointCollection (in ([IChartDataPoint\#getErrorBarsCustomValues](../../com.aspose.slides/ichartdatapoint\#getErrorBarsCustomValues)) property).
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [ErrorBarsFormat(ChartSeries parentImmediate)](#ErrorBarsFormat-com.aspose.slides.ChartSeries-) |  |
 ## Methods
 
 | Method | Description |
@@ -41,17 +36,6 @@ Represents error bars of chart series. ErrorBars custom values are in IChartData
 | [setVisible(boolean value)](#setVisible-boolean-) | Gets or sets Error Bars visibility . |
 | [getSlide()](#getSlide--) | Returns the parent slide of a FillFormat. |
 | [getPresentation()](#getPresentation--) | Returns the parent presentation of a FillFormat. |
-### ErrorBarsFormat(ChartSeries parentImmediate) {#ErrorBarsFormat-com.aspose.slides.ChartSeries-}
-```
- ErrorBarsFormat(ChartSeries parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | [ChartSeries](../../com.aspose.slides/chartseries) |  |
-
 ### getType() {#getType--}
 ```
 public final int getType()

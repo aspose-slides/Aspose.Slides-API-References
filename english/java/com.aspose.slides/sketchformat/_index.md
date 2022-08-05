@@ -17,28 +17,12 @@ public class SketchFormat extends PVIObject implements ISketchFormat
 ```
 
 Represents properties for lines sketch format.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [SketchFormat(IDOMObject parentImmediate)](#SketchFormat-com.aspose.slides.IDOMObject-) |  |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [getSketchType()](#getSketchType--) | Returns or sets the sketch type. |
 | [setSketchType(int value)](#setSketchType-int-) | Returns or sets the sketch type. |
-### SketchFormat(IDOMObject parentImmediate) {#SketchFormat-com.aspose.slides.IDOMObject-}
-```
- SketchFormat(IDOMObject parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | com.aspose.slides.IDOMObject |  |
-
 ### getSketchType() {#getSketchType--}
 ```
 public final int getSketchType()

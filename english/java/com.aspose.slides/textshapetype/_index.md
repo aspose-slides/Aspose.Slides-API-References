@@ -14,11 +14,6 @@ public final class TextShapeType extends System.Enum
 ```
 
 Represents text wrapping shape.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [TextShapeType()](#TextShapeType--) |  |
 ## Fields
 
 | Field | Description |
@@ -66,12 +61,6 @@ Represents text wrapping shape.
 | [CascadeUp](#CascadeUp) | Upward Cascade |
 | [CascadeDown](#CascadeDown) | Downward Cascade |
 | [Custom](#Custom) | Custom |
-### TextShapeType() {#TextShapeType--}
-```
-private TextShapeType()
-```
-
-
 ### NotDefined {#NotDefined}
 ```
 public static final byte NotDefined

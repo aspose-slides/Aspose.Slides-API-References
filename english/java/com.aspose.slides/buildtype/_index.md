@@ -14,11 +14,6 @@ public final class BuildType extends System.Enum
 ```
 
 Determines how text will appear on a shape during animation.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [BuildType()](#BuildType--) |  |
 ## Fields
 
 | Field | Description |
@@ -30,12 +25,6 @@ Determines how text will appear on a shape during animation.
 | [ByLevelParagraphs3](#ByLevelParagraphs3) | By groups of paragraphs of depth 3. |
 | [ByLevelParagraphs4](#ByLevelParagraphs4) | By groups of paragraphs of depth 4. |
 | [ByLevelParagraphs5](#ByLevelParagraphs5) | By groups of paragraphs of depth 5. |
-### BuildType() {#BuildType--}
-```
-private BuildType()
-```
-
-
 ### AsOneObject {#AsOneObject}
 ```
 public static final int AsOneObject

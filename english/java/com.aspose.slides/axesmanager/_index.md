@@ -17,11 +17,6 @@ public class AxesManager extends DomObject<Chart> implements IAxesManager
 ```
 
 Provides access to chart axes.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [AxesManager(Chart parentImmediate)](#AxesManager-com.aspose.slides.Chart-) |  |
 ## Methods
 
 | Method | Description |
@@ -31,17 +26,6 @@ Provides access to chart axes.
 | [getVerticalAxis()](#getVerticalAxis--) | Gets the chart's vertical axis. |
 | [getSecondaryVerticalAxis()](#getSecondaryVerticalAxis--) | Gets the chart's secondary vertical axis. |
 | [getSeriesAxis()](#getSeriesAxis--) | Gets the chart's series axis. |
-### AxesManager(Chart parentImmediate) {#AxesManager-com.aspose.slides.Chart-}
-```
- AxesManager(Chart parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | [Chart](../../com.aspose.slides/chart) |  |
-
 ### getHorizontalAxis() {#getHorizontalAxis--}
 ```
 public final IAxis getHorizontalAxis()

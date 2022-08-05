@@ -21,10 +21,8 @@ Represents font fallback rule
 
 | Constructor | Description |
 | --- | --- |
-| [FontFallBackRule(long startIndex, long endIndex)](#FontFallBackRule-long-long-) | Creates new instance. |
 | [FontFallBackRule(long startIndex, long endIndex, String fontNames)](#FontFallBackRule-long-long-java.lang.String-) | Creates new instance. |
 | [FontFallBackRule(long startIndex, long endIndex, String[] fontNames)](#FontFallBackRule-long-long-java.lang.String---) | Creates new instance. |
-| [FontFallBackRule(long startIndex, long endIndex, FontFallBackRule sourceFallBackRule)](#FontFallBackRule-long-long-com.aspose.slides.FontFallBackRule-) |  |
 ## Methods
 
 | Method | Description |
@@ -43,20 +41,6 @@ Represents font fallback rule
 | [toArray()](#toArray--) | Creates and returns an array with all FallBack fonts for this rule. |
 | [toArray(int startIndex, int count)](#toArray-int-int-) | Creates and returns an array with all FallBack fonts from the specified range in list. |
 | [indexOf(String fontName)](#indexOf-java.lang.String-) | Returns an index of the specified rule in the collection. |
-### FontFallBackRule(long startIndex, long endIndex) {#FontFallBackRule-long-long-}
-```
- FontFallBackRule(long startIndex, long endIndex)
-```
-
-
-Creates new instance.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| startIndex | long | Start index of unicode range |
-| endIndex | long | End index of unicode range |
-
 ### FontFallBackRule(long startIndex, long endIndex, String fontNames) {#FontFallBackRule-long-long-java.lang.String-}
 ```
 public FontFallBackRule(long startIndex, long endIndex, String fontNames)
@@ -104,19 +88,6 @@ Creates new instance.
 | startIndex | long | Start index of unicode range |
 | endIndex | long | End index of unicode range |
 | fontNames | java.lang.String[] | Font's name or names (delimited by comma) for FallBack |
-
-### FontFallBackRule(long startIndex, long endIndex, FontFallBackRule sourceFallBackRule) {#FontFallBackRule-long-long-com.aspose.slides.FontFallBackRule-}
-```
- FontFallBackRule(long startIndex, long endIndex, FontFallBackRule sourceFallBackRule)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| startIndex | long |  |
-| endIndex | long |  |
-| sourceFallBackRule | [FontFallBackRule](../../com.aspose.slides/fontfallbackrule) |  |
 
 ### addFallBackFonts(String fontName) {#addFallBackFonts-java.lang.String-}
 ```

@@ -17,28 +17,12 @@ public abstract class ImageTransformOperation extends PVIObject implements IImag
 ```
 
 Represents abstract image transformation effect.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [ImageTransformOperation(IDOMObject parentImmediate)](#ImageTransformOperation-com.aspose.slides.IDOMObject-) |  |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [getVersion()](#getVersion--) |  |
 | [memberwiseClone()](#memberwiseClone--) |  |
-### ImageTransformOperation(IDOMObject parentImmediate) {#ImageTransformOperation-com.aspose.slides.IDOMObject-}
-```
- ImageTransformOperation(IDOMObject parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | com.aspose.slides.IDOMObject |  |
-
 ### getVersion() {#getVersion--}
 ```
 public long getVersion()

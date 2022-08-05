@@ -14,11 +14,6 @@ public final class AudioPlayModePreset extends System.Enum
 ```
 
 Constants which define how a sound is played.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [AudioPlayModePreset()](#AudioPlayModePreset--) |  |
 ## Fields
 
 | Field | Description |
@@ -28,12 +23,6 @@ Constants which define how a sound is played.
 | [OnClick](#OnClick) | Play only when the icon is clicked on. |
 | [AllSlides](#AllSlides) | Play on all slides. |
 | [InClickSequence](#InClickSequence) | Play automatically with a click. |
-### AudioPlayModePreset() {#AudioPlayModePreset--}
-```
-private AudioPlayModePreset()
-```
-
-
 ### Mixed {#Mixed}
 ```
 public static final int Mixed
@@ -64,7 +53,7 @@ public static final int AllSlides
 ```
 
 
-Play on all slides. Please use ([IAudioFrame\#getPlayAcrossSlides](../../com.aspose.slides/iaudioframe\#getPlayAcrossSlides)/[IAudioFrame\#setPlayAcrossSlides(boolean)](../../com.aspose.slides/iaudioframe\#setPlayAcrossSlides(boolean))) property instead.
+Play on all slides. Please use ([IAudioFrame\#getPlayAcrossSlides](../../com.aspose.slides/iaudioframe\#getPlayAcrossSlides)/[IAudioFrame\#setPlayAcrossSlides(boolean)](../../com.aspose.slides/iaudioframe\#setPlayAcrossSlides-boolean-)) property instead.
 
 --------------------
 

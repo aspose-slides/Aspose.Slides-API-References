@@ -17,12 +17,6 @@ public class Blur extends ImageTransformOperation implements IBlur, IVisualEffec
 ```
 
 Represents a Blur effect that is applied to the entire shape, including its fill. All color channels, including alpha, are affected.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [Blur(IDOMObject parentImmediate)](#Blur-com.aspose.slides.IDOMObject-) | Blur effect constructor. |
-| [Blur(double radius, boolean grow, IDOMObject parentImmediate)](#Blur-double-boolean-com.aspose.slides.IDOMObject-) | Blur effect constructor. |
 ## Methods
 
 | Method | Description |
@@ -34,34 +28,6 @@ Represents a Blur effect that is applied to the entire shape, including its fill
 | [getEffective()](#getEffective--) | Gets effective Blur effect data with the inheritance applied. |
 | [equals(Object obj)](#equals-java.lang.Object-) | Determines whether the specified [Blur](../../com.aspose.slides/blur) is equal to the current [Blur](../../com.aspose.slides/blur). |
 | [hashCode()](#hashCode--) | Serves as a hash function for a particular type. |
-### Blur(IDOMObject parentImmediate) {#Blur-com.aspose.slides.IDOMObject-}
-```
- Blur(IDOMObject parentImmediate)
-```
-
-
-Blur effect constructor.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | com.aspose.slides.IDOMObject | The parent of blur. |
-
-### Blur(double radius, boolean grow, IDOMObject parentImmediate) {#Blur-double-boolean-com.aspose.slides.IDOMObject-}
-```
- Blur(double radius, boolean grow, IDOMObject parentImmediate)
-```
-
-
-Blur effect constructor.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| radius | double | The radius of blur. |
-| grow | boolean | Specifies whether the bounds of the object should be grown as a result of the blurring. True indicates the bounds are grown while false indicates that they are not. |
-| parentImmediate | com.aspose.slides.IDOMObject | The parent of blur. |
-
 ### getRadius() {#getRadius--}
 ```
 public final double getRadius()

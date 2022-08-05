@@ -17,11 +17,6 @@ public class ShredTransition extends TransitionValueBase implements IShredTransi
 ```
 
 Shred slide transition effect.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [ShredTransition(int type)](#ShredTransition-int-) | Constructor for shred slide transition effect. |
 ## Methods
 
 | Method | Description |
@@ -30,19 +25,6 @@ Shred slide transition effect.
 | [setDirection(int value)](#setDirection-int-) | Direction of transition. |
 | [getPattern()](#getPattern--) | Specifies the shape of the visuals used during the transition. |
 | [setPattern(int value)](#setPattern-int-) | Specifies the shape of the visuals used during the transition. |
-### ShredTransition(int type) {#ShredTransition-int-}
-```
- ShredTransition(int type)
-```
-
-
-Constructor for shred slide transition effect.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| type | int | Type of a transition effect. |
-
 ### getDirection() {#getDirection--}
 ```
 public final int getDirection()

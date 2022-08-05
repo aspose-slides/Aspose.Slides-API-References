@@ -14,14 +14,3 @@ public abstract class SlideShowType
 ```
 
 Base slide show settings
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [SlideShowType()](#SlideShowType--) |  |
-### SlideShowType() {#SlideShowType--}
-```
- SlideShowType()
-```
-
-

@@ -17,12 +17,6 @@ public class CustomXmlPart implements ICustomXmlPart
 ```
 
 Represents custom xml part.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [CustomXmlPart(Presentation parentImmediate, byte[] data)](#CustomXmlPart-com.aspose.slides.Presentation-byte---) |  |
-| [CustomXmlPart(Presentation parentImmediate, byte[] data, System.Guid itemId, String[] schemas)](#CustomXmlPart-com.aspose.slides.Presentation-byte---com.aspose.ms.System.Guid-java.lang.String---) |  |
 ## Methods
 
 | Method | Description |
@@ -35,32 +29,6 @@ Represents custom xml part.
 | [setItemId(UUID value)](#setItemId-java.util.UUID-) | Specifies a globally unique identifier (GUID) that uniquely identifies a single custom XML part within an Office Open XML document. |
 | [getNamespaceSchemas()](#getNamespaceSchemas--) | Returns the collection XML schemas that are associated with the custom XML part. |
 | [remove()](#remove--) | Removes the custom xml part from the presentation. |
-### CustomXmlPart(Presentation parentImmediate, byte[] data) {#CustomXmlPart-com.aspose.slides.Presentation-byte---}
-```
- CustomXmlPart(Presentation parentImmediate, byte[] data)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | [Presentation](../../com.aspose.slides/presentation) |  |
-| data | byte[] |  |
-
-### CustomXmlPart(Presentation parentImmediate, byte[] data, System.Guid itemId, String[] schemas) {#CustomXmlPart-com.aspose.slides.Presentation-byte---com.aspose.ms.System.Guid-java.lang.String---}
-```
- CustomXmlPart(Presentation parentImmediate, byte[] data, System.Guid itemId, String[] schemas)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | [Presentation](../../com.aspose.slides/presentation) |  |
-| data | byte[] |  |
-| itemId | com.aspose.ms.System.Guid |  |
-| schemas | java.lang.String[] |  |
-
 ### getXmlData() {#getXmlData--}
 ```
 public final byte[] getXmlData()

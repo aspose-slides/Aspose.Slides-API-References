@@ -17,30 +17,12 @@ public class WheelTransition extends TransitionValueBase implements IWheelTransi
 ```
 
 Wheel slide transition effect.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [WheelTransition(int type)](#WheelTransition-int-) | Creates wheel |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [getSpokes()](#getSpokes--) | Number spokes of wheel transition. |
 | [setSpokes(long value)](#setSpokes-long-) | Number spokes of wheel transition. |
-### WheelTransition(int type) {#WheelTransition-int-}
-```
- WheelTransition(int type)
-```
-
-
-Creates wheel
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| type | int |  |
-
 ### getSpokes() {#getSpokes--}
 ```
 public final long getSpokes()

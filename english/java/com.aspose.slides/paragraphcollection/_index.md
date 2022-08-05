@@ -17,11 +17,6 @@ public final class ParagraphCollection extends DomObject<TextFrame> implements I
 ```
 
 Represents a collection of a paragraphs.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [ParagraphCollection(TextFrame parentImmediate)](#ParagraphCollection-com.aspose.slides.TextFrame-) |  |
 ## Methods
 
 | Method | Description |
@@ -47,17 +42,6 @@ Represents a collection of a paragraphs.
 | [addFromHtml(String text)](#addFromHtml-java.lang.String-) | Adds text from specified html string to the collection. |
 | [addFromHtml(String text, IExternalResourceResolver resolver, String uri)](#addFromHtml-java.lang.String-com.aspose.slides.IExternalResourceResolver-java.lang.String-) | Adds text from specified html string to the collection. |
 | [exportToHtml(int firstParagraphIndex, int paragraphsCount, ITextToHtmlConversionOptions options)](#exportToHtml-int-int-com.aspose.slides.ITextToHtmlConversionOptions-) | Converts specifying paragraphs to the HTML and returns it as String object. |
-### ParagraphCollection(TextFrame parentImmediate) {#ParagraphCollection-com.aspose.slides.TextFrame-}
-```
- ParagraphCollection(TextFrame parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | [TextFrame](../../com.aspose.slides/textframe) |  |
-
 ### getCount() {#getCount--}
 ```
 public final int getCount()

@@ -14,11 +14,6 @@ public final class CommandEffectType extends System.Enum
 ```
 
 Represents command effect type for command effect behavior.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [CommandEffectType()](#CommandEffectType--) |  |
 ## Fields
 
 | Field | Description |
@@ -27,12 +22,6 @@ Represents command effect type for command effect behavior.
 | [Event](#Event) |  |
 | [Call](#Call) |  |
 | [Verb](#Verb) |  |
-### CommandEffectType() {#CommandEffectType--}
-```
-private CommandEffectType()
-```
-
-
 ### NotDefined {#NotDefined}
 ```
 public static final byte NotDefined

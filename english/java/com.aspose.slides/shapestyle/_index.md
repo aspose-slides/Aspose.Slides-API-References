@@ -17,11 +17,6 @@ public class ShapeStyle extends DomObject<Shape> implements IShapeStyle
 ```
 
 Represent shape's style reference.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [ShapeStyle(Shape parentImmediate)](#ShapeStyle-com.aspose.slides.Shape-) |  |
 ## Methods
 
 | Method | Description |
@@ -38,17 +33,6 @@ Represent shape's style reference.
 | [getFontColor()](#getFontColor--) | Returns a shape's font color. |
 | [getFontCollectionIndex()](#getFontCollectionIndex--) | Returns or sets shape's font index in a font collection. |
 | [setFontCollectionIndex(byte value)](#setFontCollectionIndex-byte-) | Returns or sets shape's font index in a font collection. |
-### ShapeStyle(Shape parentImmediate) {#ShapeStyle-com.aspose.slides.Shape-}
-```
- ShapeStyle(Shape parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | [Shape](../../com.aspose.slides/shape) |  |
-
 ### getLineColor() {#getLineColor--}
 ```
 public final IColorFormat getLineColor()

@@ -17,11 +17,6 @@ public class CustomXmlPartCollection implements ICustomXmlPartCollection, IDOMOb
 ```
 
 Represents collection of custom xml parts.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [CustomXmlPartCollection(IDOMObject parentImmediate)](#CustomXmlPartCollection-com.aspose.slides.IDOMObject-) |  |
 ## Methods
 
 | Method | Description |
@@ -40,17 +35,6 @@ Represents collection of custom xml parts.
 | [iterator()](#iterator--) | Returns an enumerator that iterates through the collection. |
 | [iteratorJava()](#iteratorJava--) | Returns a java iterator for the entire collection. |
 | [getParent_Immediate()](#getParent-Immediate--) |  |
-### CustomXmlPartCollection(IDOMObject parentImmediate) {#CustomXmlPartCollection-com.aspose.slides.IDOMObject-}
-```
- CustomXmlPartCollection(IDOMObject parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | com.aspose.slides.IDOMObject |  |
-
 ### get_Item(int index) {#get-Item-int-}
 ```
 public final ICustomXmlPart get_Item(int index)

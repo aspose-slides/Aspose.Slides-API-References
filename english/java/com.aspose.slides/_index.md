@@ -142,7 +142,7 @@ Contains classes for work with Microsoft PowerPoint presentations without utiliz
 | [Control](../com.aspose.slides/control) | Represents an ActiveX control. |
 | [ControlCollection](../com.aspose.slides/controlcollection) | A collection of ActiveX controls. |
 | [ControlPropertiesCollection](../com.aspose.slides/controlpropertiescollection) | A collection of AcitveX properties. |
-| [ControlType](../com.aspose.slides/controltype) | Defines a control type which should be embedded by [IControlCollection\#addControl(int,float,float,float,float)](../com.aspose.slides/icontrolcollection\#addControl(int,float,float,float,float)). |
+| [ControlType](../com.aspose.slides/controltype) | Defines a control type which should be embedded by [IControlCollection\#addControl(int,float,float,float,float)](../com.aspose.slides/icontrolcollection\#addControl-int-float-float-float-float-). |
 | [Convert](../com.aspose.slides/convert) | Represents a group of methods intended to convert [Presentation](../com.aspose.slides/presentation). |
 | [CornerDirectionTransition](../com.aspose.slides/cornerdirectiontransition) | Corner direction slide transition effect. |
 | [CrossesType](../com.aspose.slides/crossestype) | Determines where axis will cross. |

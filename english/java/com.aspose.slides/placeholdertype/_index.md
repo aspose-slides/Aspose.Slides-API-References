@@ -14,11 +14,6 @@ public final class PlaceholderType extends System.Enum
 ```
 
 Represents the type of a placeholder.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [PlaceholderType()](#PlaceholderType--) |  |
 ## Fields
 
 | Field | Description |
@@ -39,12 +34,6 @@ Represents the type of a placeholder.
 | [Media](#Media) | Media. |
 | [SlideImage](#SlideImage) | Slide Image. |
 | [Picture](#Picture) | Picture. |
-### PlaceholderType() {#PlaceholderType--}
-```
-private PlaceholderType()
-```
-
-
 ### Title {#Title}
 ```
 public static final byte Title

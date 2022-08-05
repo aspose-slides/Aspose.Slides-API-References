@@ -17,13 +17,6 @@ public class Shape implements IShape, IDOMObject
 ```
 
 Represents a shape on a slide.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [Shape(IDOMObject parentImmediate)](#Shape-com.aspose.slides.IDOMObject-) |  |
-| [Shape(IDOMObject parentImmediate, ShapePPTXUnsupportedProps pptxUnsupportedProps, IBaseShapeLock shapeLock)](#Shape-com.aspose.slides.IDOMObject-com.aspose.slides.ShapePPTXUnsupportedProps-com.aspose.slides.IBaseShapeLock-) |  |
-| [Shape(IDOMObject parentImmediate, ShapePPTXUnsupportedProps pptxUnsupportedProps, ShapePPTUnsupportedProps pptUnsupportedProps, IBaseShapeLock shapeLock)](#Shape-com.aspose.slides.IDOMObject-com.aspose.slides.ShapePPTXUnsupportedProps-com.aspose.slides.ShapePPTUnsupportedProps-com.aspose.slides.IBaseShapeLock-) |  |
 ## Methods
 
 | Method | Description |
@@ -80,44 +73,6 @@ Represents a shape on a slide.
 | [getParent_Immediate()](#getParent-Immediate--) |  |
 | [getSlide()](#getSlide--) | Returns the parent slide of a shape. |
 | [getPresentation()](#getPresentation--) | Returns the parent presentation of a slide. |
-### Shape(IDOMObject parentImmediate) {#Shape-com.aspose.slides.IDOMObject-}
-```
- Shape(IDOMObject parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | com.aspose.slides.IDOMObject |  |
-
-### Shape(IDOMObject parentImmediate, ShapePPTXUnsupportedProps pptxUnsupportedProps, IBaseShapeLock shapeLock) {#Shape-com.aspose.slides.IDOMObject-com.aspose.slides.ShapePPTXUnsupportedProps-com.aspose.slides.IBaseShapeLock-}
-```
- Shape(IDOMObject parentImmediate, ShapePPTXUnsupportedProps pptxUnsupportedProps, IBaseShapeLock shapeLock)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | com.aspose.slides.IDOMObject |  |
-| pptxUnsupportedProps | com.aspose.slides.ShapePPTXUnsupportedProps |  |
-| shapeLock | [IBaseShapeLock](../../com.aspose.slides/ibaseshapelock) |  |
-
-### Shape(IDOMObject parentImmediate, ShapePPTXUnsupportedProps pptxUnsupportedProps, ShapePPTUnsupportedProps pptUnsupportedProps, IBaseShapeLock shapeLock) {#Shape-com.aspose.slides.IDOMObject-com.aspose.slides.ShapePPTXUnsupportedProps-com.aspose.slides.ShapePPTUnsupportedProps-com.aspose.slides.IBaseShapeLock-}
-```
- Shape(IDOMObject parentImmediate, ShapePPTXUnsupportedProps pptxUnsupportedProps, ShapePPTUnsupportedProps pptUnsupportedProps, IBaseShapeLock shapeLock)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | com.aspose.slides.IDOMObject |  |
-| pptxUnsupportedProps | com.aspose.slides.ShapePPTXUnsupportedProps |  |
-| pptUnsupportedProps | com.aspose.slides.ShapePPTUnsupportedProps |  |
-| shapeLock | [IBaseShapeLock](../../com.aspose.slides/ibaseshapelock) |  |
-
 ### isTextHolder() {#isTextHolder--}
 ```
 public final boolean isTextHolder()

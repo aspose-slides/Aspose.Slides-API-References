@@ -21,7 +21,6 @@ Represents a tabulation for a text.
 
 | Constructor | Description |
 | --- | --- |
-| [Tab(IDOMObject parentImmediate)](#Tab-com.aspose.slides.IDOMObject-) |  |
 | [Tab(double position, int align)](#Tab-double-int-) | Creates new Tab |
 ## Methods
 
@@ -32,17 +31,6 @@ Represents a tabulation for a text.
 | [getAlignment()](#getAlignment--) | Returns or sets align style of a tab. |
 | [setAlignment(int value)](#setAlignment-int-) | Returns or sets align style of a tab. |
 | [compareTo(Object obj)](#compareTo-java.lang.Object-) | Compares the current instance with another object of the same type. |
-### Tab(IDOMObject parentImmediate) {#Tab-com.aspose.slides.IDOMObject-}
-```
- Tab(IDOMObject parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | com.aspose.slides.IDOMObject |  |
-
 ### Tab(double position, int align) {#Tab-double-int-}
 ```
 public Tab(double position, int align)

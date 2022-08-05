@@ -14,11 +14,6 @@ public final class LineSketchType extends System.Enum
 ```
 
 Represents which sketch type or effect a shape has been assigned.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [LineSketchType()](#LineSketchType--) |  |
 ## Fields
 
 | Field | Description |
@@ -28,12 +23,6 @@ Represents which sketch type or effect a shape has been assigned.
 | [Curved](#Curved) | Specifies that a shape has the Curved effect, which turns each edge of the shape into one big gentle curve. |
 | [Freehand](#Freehand) | Specifies that a shape has the Freehand effect, which most closely resembles an imperfectly drawn line. |
 | [Scribble](#Scribble) | Specifies that a shape has the Scribble effect, which has exaggerated oscillation as if drawn purposely messy. |
-### LineSketchType() {#LineSketchType--}
-```
-private LineSketchType()
-```
-
-
 ### NotDefined {#NotDefined}
 ```
 public static final int NotDefined

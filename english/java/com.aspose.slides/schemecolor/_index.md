@@ -14,11 +14,6 @@ public final class SchemeColor extends System.Enum
 ```
 
 Represents colors in a color scheme.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [SchemeColor()](#SchemeColor--) |  |
 ## Fields
 
 | Field | Description |
@@ -41,12 +36,6 @@ Represents colors in a color scheme.
 | [Light1](#Light1) |  |
 | [Dark2](#Dark2) |  |
 | [Light2](#Light2) |  |
-### SchemeColor() {#SchemeColor--}
-```
-private SchemeColor()
-```
-
-
 ### NotDefined {#NotDefined}
 ```
 public static final int NotDefined

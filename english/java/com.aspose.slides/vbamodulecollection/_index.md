@@ -17,11 +17,6 @@ public final class VbaModuleCollection implements IVbaModuleCollection
 ```
 
 Represents a collection of a VBA Project modules.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [VbaModuleCollection(VbaProject vbaProject)](#VbaModuleCollection-com.aspose.slides.VbaProject-) |  |
 ## Methods
 
 | Method | Description |
@@ -35,17 +30,6 @@ Represents a collection of a VBA Project modules.
 | [copyTo(System.Array array, int index)](#copyTo-com.aspose.ms.System.Array-int-) | Copies all elements from the collection to the specified array. |
 | [isSynchronized()](#isSynchronized--) | Returns a value indicating whether access to the collection is synchronized (thread-safe). |
 | [getSyncRoot()](#getSyncRoot--) | Returns a synchronization root. |
-### VbaModuleCollection(VbaProject vbaProject) {#VbaModuleCollection-com.aspose.slides.VbaProject-}
-```
- VbaModuleCollection(VbaProject vbaProject)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| vbaProject | [VbaProject](../../com.aspose.slides/vbaproject) |  |
-
 ### size() {#size--}
 ```
 public final int size()

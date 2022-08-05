@@ -14,11 +14,6 @@ public final class FontAlignment extends System.Enum
 ```
 
 Represents vertical font alignment.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [FontAlignment()](#FontAlignment--) |  |
 ## Fields
 
 | Field | Description |
@@ -29,12 +24,6 @@ Represents vertical font alignment.
 | [Center](#Center) |  |
 | [Bottom](#Bottom) |  |
 | [Baseline](#Baseline) |  |
-### FontAlignment() {#FontAlignment--}
-```
-private FontAlignment()
-```
-
-
 ### Default {#Default}
 ```
 public static final int Default

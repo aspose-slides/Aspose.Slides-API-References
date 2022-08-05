@@ -17,11 +17,6 @@ public class FormatScheme implements IFormatScheme, IDOMObject
 ```
 
 Stores theme-defined formats for the shapes.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [FormatScheme(IDOMObject parentImmediate)](#FormatScheme-com.aspose.slides.IDOMObject-) |  |
 ## Methods
 
 | Method | Description |
@@ -33,17 +28,6 @@ Stores theme-defined formats for the shapes.
 | [getSlide()](#getSlide--) | Returns the parent slide. |
 | [getPresentation()](#getPresentation--) | Returns the parent presentation. |
 | [getParent_Immediate()](#getParent-Immediate--) |  |
-### FormatScheme(IDOMObject parentImmediate) {#FormatScheme-com.aspose.slides.IDOMObject-}
-```
- FormatScheme(IDOMObject parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | com.aspose.slides.IDOMObject |  |
-
 ### getFillStyles() {#getFillStyles--}
 ```
 public final IFillFormatCollection getFillStyles()

@@ -17,29 +17,12 @@ public class ChartDataPointLevel extends DomObject<ChartDataPointLevelsManager> 
 ```
 
 Represents data point level. Applies for Treemap and Sunburst chart.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [ChartDataPointLevel(ChartDataPointLevelsManager parent, int lvlIndex)](#ChartDataPointLevel-com.aspose.slides.ChartDataPointLevelsManager-int-) |  |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [getFormat()](#getFormat--) | Represents formatting properties of data point level. |
 | [getLabel()](#getLabel--) | Represents data label of data point level. |
-### ChartDataPointLevel(ChartDataPointLevelsManager parent, int lvlIndex) {#ChartDataPointLevel-com.aspose.slides.ChartDataPointLevelsManager-int-}
-```
- ChartDataPointLevel(ChartDataPointLevelsManager parent, int lvlIndex)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parent | [ChartDataPointLevelsManager](../../com.aspose.slides/chartdatapointlevelsmanager) |  |
-| lvlIndex | int |  |
-
 ### getFormat() {#getFormat--}
 ```
 public final IFormat getFormat()

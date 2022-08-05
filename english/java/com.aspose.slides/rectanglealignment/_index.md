@@ -14,11 +14,6 @@ public final class RectangleAlignment extends System.Enum
 ```
 
 Defines 2-dimension allignment.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [RectangleAlignment()](#RectangleAlignment--) |  |
 ## Fields
 
 | Field | Description |
@@ -33,12 +28,6 @@ Defines 2-dimension allignment.
 | [BottomLeft](#BottomLeft) |  |
 | [Bottom](#Bottom) |  |
 | [BottomRight](#BottomRight) |  |
-### RectangleAlignment() {#RectangleAlignment--}
-```
-private RectangleAlignment()
-```
-
-
 ### NotDefined {#NotDefined}
 ```
 public static final byte NotDefined

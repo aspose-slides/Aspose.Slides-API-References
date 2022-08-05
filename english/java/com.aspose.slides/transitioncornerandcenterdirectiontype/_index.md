@@ -14,11 +14,6 @@ public final class TransitionCornerAndCenterDirectionType extends System.Enum
 ```
 
 Specifies a direction restricted to the corners and center.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [TransitionCornerAndCenterDirectionType()](#TransitionCornerAndCenterDirectionType--) |  |
 ## Fields
 
 | Field | Description |
@@ -28,12 +23,6 @@ Specifies a direction restricted to the corners and center.
 | [RightDown](#RightDown) |  |
 | [RightUp](#RightUp) |  |
 | [Center](#Center) |  |
-### TransitionCornerAndCenterDirectionType() {#TransitionCornerAndCenterDirectionType--}
-```
-private TransitionCornerAndCenterDirectionType()
-```
-
-
 ### LeftDown {#LeftDown}
 ```
 public static final int LeftDown

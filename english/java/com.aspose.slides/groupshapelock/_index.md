@@ -17,11 +17,6 @@ public class GroupShapeLock extends BaseShapeLock implements IGroupShapeLock
 ```
 
 Determines which operations are disabled on the parent GroupShape.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [GroupShapeLock()](#GroupShapeLock--) |  |
 ## Methods
 
 | Method | Description |
@@ -40,12 +35,6 @@ Determines which operations are disabled on the parent GroupShape.
 | [setPositionLocked(boolean value)](#setPositionLocked-boolean-) | Determines whether moving this shape is forbidden. |
 | [getSizeLocked()](#getSizeLocked--) | Determines whether resizing this shape is forbidden. |
 | [setSizeLocked(boolean value)](#setSizeLocked-boolean-) | Determines whether resizing this shape is forbidden. |
-### GroupShapeLock() {#GroupShapeLock--}
-```
- GroupShapeLock()
-```
-
-
 ### getGroupingLocked() {#getGroupingLocked--}
 ```
 public boolean getGroupingLocked()

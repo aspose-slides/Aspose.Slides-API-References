@@ -17,11 +17,6 @@ public class MasterThemeManager extends BaseThemeManager implements IMasterTheme
 ```
 
 Provides access to presentation master theme.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [MasterThemeManager(BaseSlide parentImmediate)](#MasterThemeManager-com.aspose.slides.BaseSlide-) |  |
 ## Methods
 
 | Method | Description |
@@ -32,17 +27,6 @@ Provides access to presentation master theme.
 | [isOverrideThemeEnabled()](#isOverrideThemeEnabled--) | Determines whether OverrideTheme overrides inherited effective theme (Presentation.MasterTheme) or not. |
 | [setOverrideThemeEnabled(boolean value)](#setOverrideThemeEnabled-boolean-) | Determines whether OverrideTheme overrides inherited effective theme (Presentation.MasterTheme) or not. |
 | [applyColorScheme(IExtraColorScheme scheme)](#applyColorScheme-com.aspose.slides.IExtraColorScheme-) | Applies extra color scheme to a slide. |
-### MasterThemeManager(BaseSlide parentImmediate) {#MasterThemeManager-com.aspose.slides.BaseSlide-}
-```
- MasterThemeManager(BaseSlide parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | [BaseSlide](../../com.aspose.slides/baseslide) |  |
-
 ### getOverrideTheme() {#getOverrideTheme--}
 ```
 public final IMasterTheme getOverrideTheme()

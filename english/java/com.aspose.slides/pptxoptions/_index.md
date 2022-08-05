@@ -43,7 +43,7 @@ public final int getConformance()
 ```
 
 
-Specifies the conformance class to which the Presentation document conforms. Default value is [Conformance\#Ecma376\_2006](../../com.aspose.slides/conformance\#Ecma376\_2006)
+Specifies the conformance class to which the Presentation document conforms. Default value is [Conformance\#Ecma376\_2006](../../com.aspose.slides/conformance\#Ecma376-2006)
 
 **Returns:**
 int
@@ -53,7 +53,7 @@ public final void setConformance(int value)
 ```
 
 
-Specifies the conformance class to which the Presentation document conforms. Default value is [Conformance\#Ecma376\_2006](../../com.aspose.slides/conformance\#Ecma376\_2006)
+Specifies the conformance class to which the Presentation document conforms. Default value is [Conformance\#Ecma376\_2006](../../com.aspose.slides/conformance\#Ecma376-2006)
 
 **Parameters:**
 | Parameter | Type | Description |

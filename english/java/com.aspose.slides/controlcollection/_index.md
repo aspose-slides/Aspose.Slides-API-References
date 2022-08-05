@@ -17,11 +17,6 @@ public class ControlCollection implements IControlCollection, IDOMObject
 ```
 
 A collection of ActiveX controls.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [ControlCollection(BaseSlide parentImmediate)](#ControlCollection-com.aspose.slides.BaseSlide-) |  |
 ## Methods
 
 | Method | Description |
@@ -38,17 +33,6 @@ A collection of ActiveX controls.
 | [isSynchronized()](#isSynchronized--) | Returns a value indicating whether access to the collection is synchronized (thread-safe). |
 | [getSyncRoot()](#getSyncRoot--) | Returns a synchronization root. |
 | [getParent_Immediate()](#getParent-Immediate--) |  |
-### ControlCollection(BaseSlide parentImmediate) {#ControlCollection-com.aspose.slides.BaseSlide-}
-```
- ControlCollection(BaseSlide parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | [BaseSlide](../../com.aspose.slides/baseslide) |  |
-
 ### size() {#size--}
 ```
 public final int size()

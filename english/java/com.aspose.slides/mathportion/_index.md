@@ -38,7 +38,6 @@ Represents a portion with mathematical context inside.
 | Constructor | Description |
 | --- | --- |
 | [MathPortion()](#MathPortion--) | Initializes a new instance of the MathPortion class. |
-| [MathPortion(MathParagraph paragraph)](#MathPortion-com.aspose.slides.MathParagraph-) | Initializes a new instance of the MathPortion class. |
 ## Methods
 
 | Method | Description |
@@ -67,19 +66,6 @@ Initializes a new instance of the MathPortion class.
 >  	if (pres != null) pres.dispose();
 >  }
 > ```
-
-### MathPortion(MathParagraph paragraph) {#MathPortion-com.aspose.slides.MathParagraph-}
-```
- MathPortion(MathParagraph paragraph)
-```
-
-
-Initializes a new instance of the MathPortion class.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| paragraph | [MathParagraph](../../com.aspose.slides/mathparagraph) | Math paragraph |
 
 ### getMathParagraph() {#getMathParagraph--}
 ```

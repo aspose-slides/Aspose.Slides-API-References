@@ -17,11 +17,6 @@ public class MotionCmdPath implements IMotionCmdPath
 ```
 
 Represent one command of a path.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [MotionCmdPath(int type, System.Drawing.PointF[] pts, int typePts, boolean bRelCoord)](#MotionCmdPath-int-com.aspose.ms.System.Drawing.PointF---int-boolean-) |  |
 ## Methods
 
 | Method | Description |
@@ -34,20 +29,6 @@ Represent one command of a path.
 | [setRelative(boolean value)](#setRelative-boolean-) | Determine command coordinates relative or not. |
 | [getPointsType()](#getPointsType--) | Specifies command points type Read/write [MotionPathPointsType](../../com.aspose.slides/motionpathpointstype). |
 | [setPointsType(int value)](#setPointsType-int-) | Specifies command points type Read/write [MotionPathPointsType](../../com.aspose.slides/motionpathpointstype). |
-### MotionCmdPath(int type, System.Drawing.PointF[] pts, int typePts, boolean bRelCoord) {#MotionCmdPath-int-com.aspose.ms.System.Drawing.PointF---int-boolean-}
-```
- MotionCmdPath(int type, System.Drawing.PointF[] pts, int typePts, boolean bRelCoord)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| type | int |  |
-| pts | com.aspose.ms.System.Drawing.PointF[] |  |
-| typePts | int |  |
-| bRelCoord | boolean |  |
-
 ### getPoints() {#getPoints--}
 ```
 public final Point2D.Float[] getPoints()

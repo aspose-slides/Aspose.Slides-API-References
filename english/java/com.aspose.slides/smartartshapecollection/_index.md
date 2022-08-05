@@ -17,11 +17,6 @@ public class SmartArtShapeCollection implements ISmartArtShapeCollection
 ```
 
 Represents a collection of a SmartArt shapes
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [SmartArtShapeCollection()](#SmartArtShapeCollection--) |  |
 ## Methods
 
 | Method | Description |
@@ -33,12 +28,6 @@ Represents a collection of a SmartArt shapes
 | [copyTo(System.Array array, int index)](#copyTo-com.aspose.ms.System.Array-int-) | Copies all elements from the collection to the specified array. |
 | [iterator()](#iterator--) | Returns an enumerator that iterates through the collection. |
 | [iteratorJava()](#iteratorJava--) | Returns a java iterator for the entire collection. |
-### SmartArtShapeCollection() {#SmartArtShapeCollection--}
-```
- SmartArtShapeCollection()
-```
-
-
 ### size() {#size--}
 ```
 public final int size()

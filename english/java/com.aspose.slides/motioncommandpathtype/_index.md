@@ -14,11 +14,6 @@ public final class MotionCommandPathType extends System.Enum
 ```
 
 Represent types of command for animation motion effect behavior.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [MotionCommandPathType()](#MotionCommandPathType--) |  |
 ## Fields
 
 | Field | Description |
@@ -28,12 +23,6 @@ Represent types of command for animation motion effect behavior.
 | [CurveTo](#CurveTo) |  |
 | [CloseLoop](#CloseLoop) |  |
 | [End](#End) |  |
-### MotionCommandPathType() {#MotionCommandPathType--}
-```
-private MotionCommandPathType()
-```
-
-
 ### MoveTo {#MoveTo}
 ```
 public static final int MoveTo

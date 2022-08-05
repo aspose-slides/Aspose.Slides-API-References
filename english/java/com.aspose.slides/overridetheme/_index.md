@@ -17,11 +17,6 @@ public class OverrideTheme extends Theme implements IOverrideTheme
 ```
 
 Represents a overriding theme.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [OverrideTheme(BaseOverrideThemeManager parentImmediate)](#OverrideTheme-com.aspose.slides.BaseOverrideThemeManager-) |  |
 ## Methods
 
 | Method | Description |
@@ -41,17 +36,6 @@ Represents a overriding theme.
 | [isEmpty()](#isEmpty--) | True value means that ColorScheme, FontScheme, FormatScheme is null and any overriding with this theme object are disabled. |
 | [clear()](#clear--) | Set ColorScheme, FontScheme, FormatScheme to null to disable any overriding with this theme object. |
 | [getVersion()](#getVersion--) |  |
-### OverrideTheme(BaseOverrideThemeManager parentImmediate) {#OverrideTheme-com.aspose.slides.BaseOverrideThemeManager-}
-```
- OverrideTheme(BaseOverrideThemeManager parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | [BaseOverrideThemeManager](../../com.aspose.slides/baseoverridethememanager) |  |
-
 ### initColorScheme() {#initColorScheme--}
 ```
 public final void initColorScheme()

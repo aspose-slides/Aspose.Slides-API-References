@@ -17,30 +17,12 @@ public class SummaryZoomFrame extends GraphicalObject implements ISummaryZoomFra
 ```
 
 Represents a Summary Zoom object in a slide.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [SummaryZoomFrame(ShapeCollection parentImmediate)](#SummaryZoomFrame-com.aspose.slides.ShapeCollection-) | Creates new SummaryZoomFrame object and initializes properties by default values. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [getLayout()](#getLayout--) | Gets layout of Summary Zoom Sections in the frame. |
 | [getSummaryZoomCollection()](#getSummaryZoomCollection--) | Gets [ISummaryZoomSectionCollection](../../com.aspose.slides/isummaryzoomsectioncollection) for the Summary Zoom Frame object. |
-### SummaryZoomFrame(ShapeCollection parentImmediate) {#SummaryZoomFrame-com.aspose.slides.ShapeCollection-}
-```
- SummaryZoomFrame(ShapeCollection parentImmediate)
-```
-
-
-Creates new SummaryZoomFrame object and initializes properties by default values.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | [ShapeCollection](../../com.aspose.slides/shapecollection) | Parent object [ShapeCollection](../com.aspose.slides/shapecollection) |
-
 ### getLayout() {#getLayout--}
 ```
 public final int getLayout()

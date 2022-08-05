@@ -17,11 +17,6 @@ public final class CommentAuthorCollection extends DomObject<Presentation> imple
 ```
 
 Represents a collection of comment authors.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [CommentAuthorCollection(Presentation parentImmediate)](#CommentAuthorCollection-com.aspose.slides.Presentation-) |  |
 ## Methods
 
 | Method | Description |
@@ -40,17 +35,6 @@ Represents a collection of comment authors.
 | [copyTo(System.Array array, int index)](#copyTo-com.aspose.ms.System.Array-int-) | Copies all elements from the collection to the specified array. |
 | [isSynchronized()](#isSynchronized--) | Returns a value indicating whether access to the collection is synchronized (thread-safe). |
 | [getSyncRoot()](#getSyncRoot--) | Returns a synchronization root. |
-### CommentAuthorCollection(Presentation parentImmediate) {#CommentAuthorCollection-com.aspose.slides.Presentation-}
-```
- CommentAuthorCollection(Presentation parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | [Presentation](../../com.aspose.slides/presentation) |  |
-
 ### size() {#size--}
 ```
 public final int size()

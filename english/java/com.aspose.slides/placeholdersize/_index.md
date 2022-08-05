@@ -14,11 +14,6 @@ public final class PlaceholderSize extends System.Enum
 ```
 
 Represents the size of a placeholder.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [PlaceholderSize()](#PlaceholderSize--) |  |
 ## Fields
 
 | Field | Description |
@@ -26,12 +21,6 @@ Represents the size of a placeholder.
 | [Full](#Full) | Full. |
 | [Half](#Half) | Half. |
 | [Quarter](#Quarter) | Quarter. |
-### PlaceholderSize() {#PlaceholderSize--}
-```
-private PlaceholderSize()
-```
-
-
 ### Full {#Full}
 ```
 public static final byte Full

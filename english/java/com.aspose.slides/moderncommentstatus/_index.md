@@ -14,11 +14,6 @@ public final class ModernCommentStatus extends System.Enum
 ```
 
 Represents the status of a modern comment.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [ModernCommentStatus()](#ModernCommentStatus--) |  |
 ## Fields
 
 | Field | Description |
@@ -27,12 +22,6 @@ Represents the status of a modern comment.
 | [Active](#Active) | Active. |
 | [Resolved](#Resolved) | Resolved. |
 | [Closed](#Closed) | Closed. |
-### ModernCommentStatus() {#ModernCommentStatus--}
-```
-private ModernCommentStatus()
-```
-
-
 ### NotDefined {#NotDefined}
 ```
 public static final byte NotDefined

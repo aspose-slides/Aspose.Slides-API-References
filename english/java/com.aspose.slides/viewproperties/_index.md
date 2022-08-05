@@ -17,11 +17,6 @@ public class ViewProperties implements IViewProperties, IDOMObject
 ```
 
 Presentation wide view properties.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [ViewProperties(Presentation parentImmediate)](#ViewProperties-com.aspose.slides.Presentation-) |  |
 ## Methods
 
 | Method | Description |
@@ -34,17 +29,6 @@ Presentation wide view properties.
 | [getSlideViewProperties()](#getSlideViewProperties--) | Specifies common view properties associated with the slide view mode. |
 | [getNotesViewProperties()](#getNotesViewProperties--) | Specifies common view properties associated with the notes view mode. |
 | [getParent_Immediate()](#getParent-Immediate--) |  |
-### ViewProperties(Presentation parentImmediate) {#ViewProperties-com.aspose.slides.Presentation-}
-```
- ViewProperties(Presentation parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | [Presentation](../../com.aspose.slides/presentation) |  |
-
 ### getLastView() {#getLastView--}
 ```
 public final int getLastView()

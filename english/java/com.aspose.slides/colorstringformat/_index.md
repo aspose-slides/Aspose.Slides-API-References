@@ -14,22 +14,11 @@ public final class ColorStringFormat extends System.Enum
 ```
 
 Represents a type of hyperlink action.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [ColorStringFormat()](#ColorStringFormat--) |  |
 ## Fields
 
 | Field | Description |
 | --- | --- |
 | [Vml](#Vml) | VML color string format. |
-### ColorStringFormat() {#ColorStringFormat--}
-```
-private ColorStringFormat()
-```
-
-
 ### Vml {#Vml}
 ```
 public static final int Vml

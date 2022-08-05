@@ -14,11 +14,6 @@ public final class AxisPositionType extends System.Enum
 ```
 
 Determines a position of axis.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [AxisPositionType()](#AxisPositionType--) |  |
 ## Fields
 
 | Field | Description |
@@ -27,12 +22,6 @@ Determines a position of axis.
 | [Left](#Left) | Specifies that the axis shall be displayed at the left of the plot area. |
 | [Right](#Right) | Specifies that the axis shall be displayed at the right of the plot area. |
 | [Top](#Top) | Specifies that the axis shall be displayed at the top of the plot area. |
-### AxisPositionType() {#AxisPositionType--}
-```
-private AxisPositionType()
-```
-
-
 ### Bottom {#Bottom}
 ```
 public static final int Bottom

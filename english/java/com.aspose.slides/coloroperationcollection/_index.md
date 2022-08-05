@@ -17,11 +17,6 @@ public final class ColorOperationCollection implements IColorOperationCollection
 ```
 
 Represents a collection of color transform operations.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [ColorOperationCollection()](#ColorOperationCollection--) |  |
 ## Methods
 
 | Method | Description |
@@ -42,12 +37,6 @@ Represents a collection of color transform operations.
 | [getSyncRoot()](#getSyncRoot--) | Returns a synchronization root. |
 | [deepClone()](#deepClone--) | Creates a copy of a ColorOperationCollection collection. |
 | [cloneT()](#cloneT--) | Clones current object |
-### ColorOperationCollection() {#ColorOperationCollection--}
-```
- ColorOperationCollection()
-```
-
-
 ### size() {#size--}
 ```
 public final int size()

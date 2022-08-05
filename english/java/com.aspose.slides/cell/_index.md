@@ -17,11 +17,6 @@ public class Cell implements IDOMObject, ICell
 ```
 
 Represents a cell of a table.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [Cell(Row parentRow, Column parentColumn)](#Cell-com.aspose.slides.Row-com.aspose.slides.Column-) |  |
 ## Methods
 
 | Method | Description |
@@ -62,18 +57,6 @@ Represents a cell of a table.
 | [getSlide()](#getSlide--) | Returns the parent slide of a cell. |
 | [getPresentation()](#getPresentation--) | Returns the parent presentation of a cell. |
 | [getParent_Immediate()](#getParent-Immediate--) |  |
-### Cell(Row parentRow, Column parentColumn) {#Cell-com.aspose.slides.Row-com.aspose.slides.Column-}
-```
- Cell(Row parentRow, Column parentColumn)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentRow | [Row](../../com.aspose.slides/row) |  |
-| parentColumn | [Column](../../com.aspose.slides/column) |  |
-
 ### getOffsetX() {#getOffsetX--}
 ```
 public final double getOffsetX()

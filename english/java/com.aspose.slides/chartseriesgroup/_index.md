@@ -21,11 +21,6 @@ Represents group of series.
 --------------------
 
 1) See summary and remarks for ChartSeriesGroupCollection class and CombinableSeriesTypesGroup enum. 2) Group of series contains some series properies whitch is common for each series in group ("series group properties"). "Series group properties" in ChartSeriesGroup class is read/write. Each of "series group properties" can have a read-only projection in ChartSeries class.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [ChartSeriesGroup(ChartSeriesGroupCollection parentImmediate, ChartSeries firstSeries)](#ChartSeriesGroup-com.aspose.slides.ChartSeriesGroupCollection-com.aspose.slides.ChartSeries-) |  |
 ## Methods
 
 | Method | Description |
@@ -65,18 +60,6 @@ Represents group of series.
 | [getChart()](#getChart--) | Returns the parent chart. |
 | [getSlide()](#getSlide--) | Returns the parent slide of a FillFormat. |
 | [getPresentation()](#getPresentation--) | Returns the parent presentation of a FillFormat. |
-### ChartSeriesGroup(ChartSeriesGroupCollection parentImmediate, ChartSeries firstSeries) {#ChartSeriesGroup-com.aspose.slides.ChartSeriesGroupCollection-com.aspose.slides.ChartSeries-}
-```
- ChartSeriesGroup(ChartSeriesGroupCollection parentImmediate, ChartSeries firstSeries)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | com.aspose.slides.ChartSeriesGroupCollection |  |
-| firstSeries | [ChartSeries](../../com.aspose.slides/chartseries) |  |
-
 ### getType() {#getType--}
 ```
 public final int getType()

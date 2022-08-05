@@ -14,11 +14,6 @@ public final class MathFunctionsOfTwoArguments extends System.Enum
 ```
 
 Common mathematical functions of two arguments
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [MathFunctionsOfTwoArguments()](#MathFunctionsOfTwoArguments--) |  |
 ## Fields
 
 | Field | Description |
@@ -27,12 +22,6 @@ Common mathematical functions of two arguments
 | [Lim](#Lim) | Limit |
 | [Min](#Min) | Minimum |
 | [Max](#Max) | Maximum |
-### MathFunctionsOfTwoArguments() {#MathFunctionsOfTwoArguments--}
-```
-private MathFunctionsOfTwoArguments()
-```
-
-
 ### Log {#Log}
 ```
 public static final int Log

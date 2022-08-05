@@ -17,30 +17,12 @@ public class OrientationTransition extends TransitionValueBase implements IOrien
 ```
 
 Orientation slide transition effect.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [OrientationTransition(int type)](#OrientationTransition-int-) | Constructor for orientation slide transition effects. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [getDirection()](#getDirection--) | Direction of transition. |
 | [setDirection(byte value)](#setDirection-byte-) | Direction of transition. |
-### OrientationTransition(int type) {#OrientationTransition-int-}
-```
- OrientationTransition(int type)
-```
-
-
-Constructor for orientation slide transition effects.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| type | int | Type of a transition effect. |
-
 ### getDirection() {#getDirection--}
 ```
 public final byte getDirection()

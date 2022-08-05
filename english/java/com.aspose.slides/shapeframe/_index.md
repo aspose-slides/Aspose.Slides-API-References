@@ -22,8 +22,6 @@ Represents shape frame's properties.
 | Constructor | Description |
 | --- | --- |
 | [ShapeFrame(float x, float y, float width, float height, byte flipH, byte flipV, float rotationAngle)](#ShapeFrame-float-float-float-float-byte-byte-float-) | Creates new shape frame's properties. |
-| [ShapeFrame(double x, double y, double width, double height, byte flipH, byte flipV, float rotationAngle)](#ShapeFrame-double-double-double-double-byte-byte-float-) |  |
-| [ShapeFrame()](#ShapeFrame--) |  |
 ## Methods
 
 | Method | Description |
@@ -60,29 +58,6 @@ Creates new shape frame's properties.
 | flipH | byte | True if a frame flipped horizontally. |
 | flipV | byte | True if a frame flipped vertivally. |
 | rotationAngle | float | Number of degrees a frame is rotated. |
-
-### ShapeFrame(double x, double y, double width, double height, byte flipH, byte flipV, float rotationAngle) {#ShapeFrame-double-double-double-double-byte-byte-float-}
-```
- ShapeFrame(double x, double y, double width, double height, byte flipH, byte flipV, float rotationAngle)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| x | double |  |
-| y | double |  |
-| width | double |  |
-| height | double |  |
-| flipH | byte |  |
-| flipV | byte |  |
-| rotationAngle | float |  |
-
-### ShapeFrame() {#ShapeFrame--}
-```
- ShapeFrame()
-```
-
 
 ### getX() {#getX--}
 ```

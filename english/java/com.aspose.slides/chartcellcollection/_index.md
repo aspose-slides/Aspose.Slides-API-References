@@ -17,11 +17,6 @@ public class ChartCellCollection implements IChartCellCollection, IDOMObject
 ```
 
 Represents collection of a cells with data.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [ChartCellCollection(IDOMObject parentImmediate)](#ChartCellCollection-com.aspose.slides.IDOMObject-) |  |
 ## Methods
 
 | Method | Description |
@@ -36,17 +31,6 @@ Represents collection of a cells with data.
 | [iterator()](#iterator--) | Returns an enumerator that iterates through the collection. |
 | [iteratorJava()](#iteratorJava--) | Returns a java iterator for the entire collection. |
 | [getParent_Immediate()](#getParent-Immediate--) |  |
-### ChartCellCollection(IDOMObject parentImmediate) {#ChartCellCollection-com.aspose.slides.IDOMObject-}
-```
- ChartCellCollection(IDOMObject parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | com.aspose.slides.IDOMObject |  |
-
 ### getCellsAddress() {#getCellsAddress--}
 ```
 public final String getCellsAddress()

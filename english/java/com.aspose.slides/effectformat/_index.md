@@ -17,11 +17,6 @@ public class EffectFormat extends PVIObject implements IEffectFormat
 ```
 
 Represents effect properties of shape.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [EffectFormat(IDOMObject parentImmediate)](#EffectFormat-com.aspose.slides.IDOMObject-) |  |
 ## Methods
 
 | Method | Description |
@@ -60,17 +55,6 @@ Represents effect properties of shape.
 | [disableReflectionEffect()](#disableReflectionEffect--) | Disables reflection effect. |
 | [disableSoftEdgeEffect()](#disableSoftEdgeEffect--) | Disables soft edge effect. |
 | [getEffective()](#getEffective--) | Gets effective effect formatting data with the inheritance applied. |
-### EffectFormat(IDOMObject parentImmediate) {#EffectFormat-com.aspose.slides.IDOMObject-}
-```
- EffectFormat(IDOMObject parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | com.aspose.slides.IDOMObject |  |
-
 ### isNoEffects() {#isNoEffects--}
 ```
 public final boolean isNoEffects()

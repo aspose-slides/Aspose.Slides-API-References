@@ -14,11 +14,6 @@ public final class ShapeType extends System.Enum
 ```
 
 Represents preset geometry of geometry shapes.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [ShapeType()](#ShapeType--) |  |
 ## Fields
 
 | Field | Description |
@@ -212,12 +207,6 @@ Represents preset geometry of geometry shapes.
 | [ChartX](#ChartX) | Chart X Shape. |
 | [ChartStar](#ChartStar) | Chart Star Shape. |
 | [ChartPlus](#ChartPlus) | Chart Plus Shape. |
-### ShapeType() {#ShapeType--}
-```
-private ShapeType()
-```
-
-
 ### NotDefined {#NotDefined}
 ```
 public static final int NotDefined

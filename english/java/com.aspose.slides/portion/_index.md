@@ -24,7 +24,6 @@ Represents a portion of text inside a text paragraph.
 | [Portion()](#Portion--) | Initializes a new instance of the Portion class. |
 | [Portion(String str)](#Portion-java.lang.String-) | Initializes a new instance of the Portion class. |
 | [Portion(Portion portion)](#Portion-com.aspose.slides.Portion-) | Initializes a new instance of the Portion class. |
-| [Portion(PortionFormat portionProps)](#Portion-com.aspose.slides.PortionFormat-) |  |
 ## Methods
 
 | Method | Description |
@@ -74,17 +73,6 @@ Initializes a new instance of the Portion class.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | portion | [Portion](../../com.aspose.slides/portion) |  |
-
-### Portion(PortionFormat portionProps) {#Portion-com.aspose.slides.PortionFormat-}
-```
- Portion(PortionFormat portionProps)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| portionProps | [PortionFormat](../../com.aspose.slides/portionformat) |  |
 
 ### getPortionFormat() {#getPortionFormat--}
 ```

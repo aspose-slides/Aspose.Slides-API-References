@@ -14,11 +14,6 @@ public final class LineStyle extends System.Enum
 ```
 
 Represents the style of a line.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [LineStyle()](#LineStyle--) |  |
 ## Fields
 
 | Field | Description |
@@ -29,12 +24,6 @@ Represents the style of a line.
 | [ThickThin](#ThickThin) |  |
 | [ThinThick](#ThinThick) |  |
 | [ThickBetweenThin](#ThickBetweenThin) |  |
-### LineStyle() {#LineStyle--}
-```
-private LineStyle()
-```
-
-
 ### NotDefined {#NotDefined}
 ```
 public static final byte NotDefined

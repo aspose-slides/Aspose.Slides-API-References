@@ -17,11 +17,6 @@ public final class Row extends CellCollection implements IRow
 ```
 
 Represents a row in a table.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [Row(RowCollection parentImmediate, double height)](#Row-com.aspose.slides.RowCollection-double-) |  |
 ## Methods
 
 | Method | Description |
@@ -33,18 +28,6 @@ Represents a row in a table.
 | [setTextFormat(IParagraphFormat source)](#setTextFormat-com.aspose.slides.IParagraphFormat-) | Sets defined paragraph format properties to all row cells' paragraphs. |
 | [setTextFormat(ITextFrameFormat source)](#setTextFormat-com.aspose.slides.ITextFrameFormat-) | Sets defined text frame format properties to all row cells' text frames. |
 | [getRowFormat()](#getRowFormat--) | Returns the RowFormat object that contains formatting properties for this row. |
-### Row(RowCollection parentImmediate, double height) {#Row-com.aspose.slides.RowCollection-double-}
-```
- Row(RowCollection parentImmediate, double height)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | [RowCollection](../../com.aspose.slides/rowcollection) |  |
-| height | double |  |
-
 ### getHeight() {#getHeight--}
 ```
 public final double getHeight()

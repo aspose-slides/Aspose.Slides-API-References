@@ -18,11 +18,6 @@ public class ChartCategoryCollection extends DomObject<ChartData> implements ICh
 ```
 
 Represents collection of [ChartCategory](../../com.aspose.slides/chartcategory)
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [ChartCategoryCollection(ChartData parentImmediate)](#ChartCategoryCollection-com.aspose.slides.ChartData-) |  |
 ## Methods
 
 | Method | Description |
@@ -43,17 +38,6 @@ Represents collection of [ChartCategory](../../com.aspose.slides/chartcategory)
 | [copyTo(System.Array array, int index)](#copyTo-com.aspose.ms.System.Array-int-) | Copies all elements of the collection to the specified array. |
 | [isSynchronized()](#isSynchronized--) | Returns a value indicating whether access to the List is synchronized (thread safe). |
 | [getSyncRoot()](#getSyncRoot--) | Returns an object that can be used to synchronize access to the collection. |
-### ChartCategoryCollection(ChartData parentImmediate) {#ChartCategoryCollection-com.aspose.slides.ChartData-}
-```
- ChartCategoryCollection(ChartData parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | [ChartData](../../com.aspose.slides/chartdata) |  |
-
 ### get_Item(int index) {#get-Item-int-}
 ```
 public final IChartCategory get_Item(int index)

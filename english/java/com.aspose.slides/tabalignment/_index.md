@@ -14,11 +14,6 @@ public final class TabAlignment extends System.Enum
 ```
 
 Represents the tab alignment.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [TabAlignment()](#TabAlignment--) |  |
 ## Fields
 
 | Field | Description |
@@ -27,12 +22,6 @@ Represents the tab alignment.
 | [Center](#Center) | Center alignment |
 | [Right](#Right) | Right alignment |
 | [Decimal](#Decimal) | Decimal alignment |
-### TabAlignment() {#TabAlignment--}
-```
-private TabAlignment()
-```
-
-
 ### Left {#Left}
 ```
 public static final int Left

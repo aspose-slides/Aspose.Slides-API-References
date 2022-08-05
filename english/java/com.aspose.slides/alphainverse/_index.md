@@ -17,11 +17,6 @@ public final class AlphaInverse extends ImageTransformOperation implements IAlph
 ```
 
 Represents an Alpha Inverse effect. Alpha (opacity) values are inverted by subtracting from 100%.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [AlphaInverse(IDOMObject parentImmediate)](#AlphaInverse-com.aspose.slides.IDOMObject-) | Alpha Inverse effect constructor. |
 ## Methods
 
 | Method | Description |
@@ -30,19 +25,6 @@ Represents an Alpha Inverse effect. Alpha (opacity) values are inverted by subtr
 | [getVersion()](#getVersion--) |  |
 | [equals(Object obj)](#equals-java.lang.Object-) | Determines whether the specified [AlphaInverse](../../com.aspose.slides/alphainverse) is equal to the current [AlphaInverse](../../com.aspose.slides/alphainverse). |
 | [hashCode()](#hashCode--) | Serves as a hash function for a particular type. |
-### AlphaInverse(IDOMObject parentImmediate) {#AlphaInverse-com.aspose.slides.IDOMObject-}
-```
- AlphaInverse(IDOMObject parentImmediate)
-```
-
-
-Alpha Inverse effect constructor.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | com.aspose.slides.IDOMObject |  |
-
 ### getEffective() {#getEffective--}
 ```
 public final IAlphaInverseEffectiveData getEffective()

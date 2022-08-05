@@ -17,11 +17,6 @@ public class GroupShape extends Shape implements IGroupShape
 ```
 
 Represents a group of shapes on a slide.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [GroupShape(IDOMObject parentImmediate)](#GroupShape-com.aspose.slides.IDOMObject-) |  |
 ## Methods
 
 | Method | Description |
@@ -29,17 +24,6 @@ Represents a group of shapes on a slide.
 | [getLineFormat()](#getLineFormat--) | Returns the LineFormat object that contains line formatting properties for a shape. |
 | [getGroupShapeLock()](#getGroupShapeLock--) | Returns shape's locks. |
 | [getShapes()](#getShapes--) | Returns the collection of shapes inside the group. |
-### GroupShape(IDOMObject parentImmediate) {#GroupShape-com.aspose.slides.IDOMObject-}
-```
- GroupShape(IDOMObject parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | com.aspose.slides.IDOMObject |  |
-
 ### getLineFormat() {#getLineFormat--}
 ```
 public ILineFormat getLineFormat()

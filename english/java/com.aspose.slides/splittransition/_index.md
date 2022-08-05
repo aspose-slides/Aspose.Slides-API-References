@@ -17,11 +17,6 @@ public class SplitTransition extends TransitionValueBase implements ISplitTransi
 ```
 
 Split slide transition effect.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [SplitTransition(int type)](#SplitTransition-int-) | Constructor for split slide transition effects. |
 ## Methods
 
 | Method | Description |
@@ -30,19 +25,6 @@ Split slide transition effect.
 | [setDirection(int value)](#setDirection-int-) | Direction of transition split. |
 | [getOrientation()](#getOrientation--) | Orientation of transition split. |
 | [setOrientation(byte value)](#setOrientation-byte-) | Orientation of transition split. |
-### SplitTransition(int type) {#SplitTransition-int-}
-```
- SplitTransition(int type)
-```
-
-
-Constructor for split slide transition effects.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| type | int | Type of a split transition effect. |
-
 ### getDirection() {#getDirection--}
 ```
 public final int getDirection()

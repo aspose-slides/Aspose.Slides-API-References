@@ -17,11 +17,6 @@ public final class LineFormatCollection extends DomObject<FormatScheme> implemen
 ```
 
 Represents the collection of line styles.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [LineFormatCollection(FormatScheme parentImmediate)](#LineFormatCollection-com.aspose.slides.FormatScheme-) |  |
 ## Methods
 
 | Method | Description |
@@ -33,17 +28,6 @@ Represents the collection of line styles.
 | [copyTo(System.Array array, int index)](#copyTo-com.aspose.ms.System.Array-int-) | Copies all elements from the collection to the specified array. |
 | [isSynchronized()](#isSynchronized--) | Returns a value indicating whether access to the collection is synchronized (thread-safe). |
 | [getSyncRoot()](#getSyncRoot--) | Returns a synchronization root. |
-### LineFormatCollection(FormatScheme parentImmediate) {#LineFormatCollection-com.aspose.slides.FormatScheme-}
-```
- LineFormatCollection(FormatScheme parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | [FormatScheme](../../com.aspose.slides/formatscheme) |  |
-
 ### get_Item(int index) {#get-Item-int-}
 ```
 public final ILineFormat get_Item(int index)

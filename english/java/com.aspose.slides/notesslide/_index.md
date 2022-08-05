@@ -17,11 +17,6 @@ public class NotesSlide extends BaseSlide implements INotesSlide
 ```
 
 Represents a notes slide in a presentation.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [NotesSlide(NotesSlideManager parentImmediate)](#NotesSlide-com.aspose.slides.NotesSlideManager-) |  |
 ## Methods
 
 | Method | Description |
@@ -32,17 +27,6 @@ Represents a notes slide in a presentation.
 | [getParentSlide()](#getParentSlide--) | Returns the parent slide. |
 | [getShowMasterShapes()](#getShowMasterShapes--) | Specifies if shapes on the master slide should be shown on slides or not. |
 | [setShowMasterShapes(boolean value)](#setShowMasterShapes-boolean-) | Specifies if shapes on the master slide should be shown on slides or not. |
-### NotesSlide(NotesSlideManager parentImmediate) {#NotesSlide-com.aspose.slides.NotesSlideManager-}
-```
- NotesSlide(NotesSlideManager parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | [NotesSlideManager](../../com.aspose.slides/notesslidemanager) |  |
-
 ### getHeaderFooterManager() {#getHeaderFooterManager--}
 ```
 public final INotesSlideHeaderFooterManager getHeaderFooterManager()

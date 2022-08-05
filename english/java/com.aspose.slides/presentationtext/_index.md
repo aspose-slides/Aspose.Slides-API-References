@@ -17,27 +17,11 @@ public class PresentationText implements IPresentationText
 ```
 
 Represents the text extracted from the presentation
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [PresentationText(ISlideText[] slidesText)](#PresentationText-com.aspose.slides.ISlideText---) |  |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [getSlidesText()](#getSlidesText--) | An array of [ISlideText](../../com.aspose.slides/islidetext) contains a presentation's text. |
-### PresentationText(ISlideText[] slidesText) {#PresentationText-com.aspose.slides.ISlideText---}
-```
- PresentationText(ISlideText[] slidesText)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| slidesText | com.aspose.slides.ISlideText[] |  |
-
 ### getSlidesText() {#getSlidesText--}
 ```
 public final ISlideText[] getSlidesText()

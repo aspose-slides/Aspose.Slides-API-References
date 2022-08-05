@@ -34,7 +34,7 @@ If true then AsCell property is actual. In other words, worksheet is used for st
 
 --------------------
 
-For change value of this property (for all categories in collection) set new value to [ChartCategoryCollection\#getUseCells()](../../com.aspose.slides/chartcategorycollection\#getUseCells()) property.
+For change value of this property (for all categories in collection) set new value to [ChartCategoryCollection\#getUseCells()](../../com.aspose.slides/chartcategorycollection\#getUseCells--) property.
 
 **Returns:**
 boolean

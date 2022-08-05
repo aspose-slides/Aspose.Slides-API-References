@@ -14,11 +14,6 @@ public final class TextInheritanceLimit extends System.Enum
 ```
 
 Controls the depth of the text properties inheritance.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [TextInheritanceLimit()](#TextInheritanceLimit--) |  |
 ## Fields
 
 | Field | Description |
@@ -26,12 +21,6 @@ Controls the depth of the text properties inheritance.
 | [All](#All) | Inherit all text properties. |
 | [TextBox](#TextBox) | Inherit only from TextFrameEx's style. |
 | [ParagraphOnly](#ParagraphOnly) | Use only properties defined for paragraph. |
-### TextInheritanceLimit() {#TextInheritanceLimit--}
-```
-private TextInheritanceLimit()
-```
-
-
 ### All {#All}
 ```
 public static final int All

@@ -17,11 +17,6 @@ public final class PresentationInfo implements IPresentationInfo
 ```
 
 Information about presentation file
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [PresentationInfo(System.IO.Stream stream, System.IO.FileInfo fileInfo)](#PresentationInfo-com.aspose.ms.System.IO.Stream-com.aspose.ms.System.IO.FileInfo-) | Initializes new PresentationInfo object. |
 ## Methods
 
 | Method | Description |
@@ -36,20 +31,6 @@ Information about presentation file
 | [updateDocumentProperties(IDocumentProperties documentProperties)](#updateDocumentProperties-com.aspose.slides.IDocumentProperties-) | Updates properties of binded presentation. |
 | [writeBindedPresentation(OutputStream stream)](#writeBindedPresentation-java.io.OutputStream-) | Writes binded presentation to stream. |
 | [writeBindedPresentation(String file)](#writeBindedPresentation-java.lang.String-) | Writes binded presentation to file. |
-### PresentationInfo(System.IO.Stream stream, System.IO.FileInfo fileInfo) {#PresentationInfo-com.aspose.ms.System.IO.Stream-com.aspose.ms.System.IO.FileInfo-}
-```
- PresentationInfo(System.IO.Stream stream, System.IO.FileInfo fileInfo)
-```
-
-
-Initializes new PresentationInfo object.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| stream | com.aspose.ms.System.IO.Stream | Stream with presentation. |
-| fileInfo | com.aspose.ms.System.IO.FileInfo | File info, if stream created from file, null otherwise. |
-
 ### isEncrypted() {#isEncrypted--}
 ```
 public final boolean isEncrypted()

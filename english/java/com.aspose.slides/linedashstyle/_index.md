@@ -14,11 +14,6 @@ public final class LineDashStyle extends System.Enum
 ```
 
 Represents the line dash style.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [LineDashStyle()](#LineDashStyle--) |  |
 ## Fields
 
 | Field | Description |
@@ -36,12 +31,6 @@ Represents the line dash style.
 | [SystemDashDot](#SystemDashDot) |  |
 | [SystemDashDotDot](#SystemDashDotDot) |  |
 | [Custom](#Custom) |  |
-### LineDashStyle() {#LineDashStyle--}
-```
-private LineDashStyle()
-```
-
-
 ### NotDefined {#NotDefined}
 ```
 public static final byte NotDefined

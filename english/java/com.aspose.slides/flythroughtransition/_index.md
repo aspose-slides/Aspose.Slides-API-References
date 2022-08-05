@@ -17,11 +17,6 @@ public class FlyThroughTransition extends TransitionValueBase implements IFlyThr
 ```
 
 Fly-through slide transition effect.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [FlyThroughTransition(int type)](#FlyThroughTransition-int-) | Constructor for fly-through slide transition effect. |
 ## Methods
 
 | Method | Description |
@@ -30,19 +25,6 @@ Fly-through slide transition effect.
 | [setDirection(int value)](#setDirection-int-) | Direction of transition. |
 | [hasBounce()](#hasBounce--) | Specifies that the movement of the presentation slides during the transition includes a bounce. |
 | [setBounce(boolean value)](#setBounce-boolean-) | Specifies that the movement of the presentation slides during the transition includes a bounce. |
-### FlyThroughTransition(int type) {#FlyThroughTransition-int-}
-```
- FlyThroughTransition(int type)
-```
-
-
-Constructor for fly-through slide transition effect.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| type | int | Type of a transition effect. |
-
 ### getDirection() {#getDirection--}
 ```
 public final int getDirection()

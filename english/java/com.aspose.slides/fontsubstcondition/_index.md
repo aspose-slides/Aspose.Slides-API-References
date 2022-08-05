@@ -14,23 +14,12 @@ public final class FontSubstCondition extends System.Enum
 ```
 
 Represents a rule fot font substitution
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [FontSubstCondition()](#FontSubstCondition--) |  |
 ## Fields
 
 | Field | Description |
 | --- | --- |
 | [WhenInaccessible](#WhenInaccessible) | Substitute when font is not found |
 | [Always](#Always) | Substitute always |
-### FontSubstCondition() {#FontSubstCondition--}
-```
-private FontSubstCondition()
-```
-
-
 ### WhenInaccessible {#WhenInaccessible}
 ```
 public static final int WhenInaccessible

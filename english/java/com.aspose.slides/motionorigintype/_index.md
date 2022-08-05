@@ -14,11 +14,6 @@ public final class MotionOriginType extends System.Enum
 ```
 
 Specifies what the origin of the motion path is relative to. Such as the layout of the slide, or the parent.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [MotionOriginType()](#MotionOriginType--) |  |
 ## Fields
 
 | Field | Description |
@@ -26,12 +21,6 @@ Specifies what the origin of the motion path is relative to. Such as the layout 
 | [NotDefined](#NotDefined) |  |
 | [Parent](#Parent) |  |
 | [Layout](#Layout) |  |
-### MotionOriginType() {#MotionOriginType--}
-```
-private MotionOriginType()
-```
-
-
 ### NotDefined {#NotDefined}
 ```
 public static final int NotDefined

@@ -17,12 +17,6 @@ public class SmartArt extends GraphicalObject implements ISmartArt
 ```
 
 Represents a SmartArt diagram
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [SmartArt(IDOMObject parentImmediate)](#SmartArt-com.aspose.slides.IDOMObject-) |  |
-| [SmartArt(IDOMObject parentImmediate, IPresentation presentation, int layoutType)](#SmartArt-com.aspose.slides.IDOMObject-com.aspose.slides.IPresentation-int-) |  |
 ## Methods
 
 | Method | Description |
@@ -37,30 +31,6 @@ Represents a SmartArt diagram
 | [setColorStyle(int value)](#setColorStyle-int-) | Returns or sets color style of SmartArt object. |
 | [isReversed()](#isReversed--) | Return or set the state of the SmartArt diagram with regard to (left-to-right) LTR or (right-to-left) RTL, if the diagram supports reversal. |
 | [setReversed(boolean value)](#setReversed-boolean-) | Return or set the state of the SmartArt diagram with regard to (left-to-right) LTR or (right-to-left) RTL, if the diagram supports reversal. |
-### SmartArt(IDOMObject parentImmediate) {#SmartArt-com.aspose.slides.IDOMObject-}
-```
- SmartArt(IDOMObject parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | com.aspose.slides.IDOMObject |  |
-
-### SmartArt(IDOMObject parentImmediate, IPresentation presentation, int layoutType) {#SmartArt-com.aspose.slides.IDOMObject-com.aspose.slides.IPresentation-int-}
-```
- SmartArt(IDOMObject parentImmediate, IPresentation presentation, int layoutType)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | com.aspose.slides.IDOMObject |  |
-| presentation | [IPresentation](../../com.aspose.slides/ipresentation) |  |
-| layoutType | int |  |
-
 ### getAllNodes() {#getAllNodes--}
 ```
 public final ISmartArtNodeCollection getAllNodes()

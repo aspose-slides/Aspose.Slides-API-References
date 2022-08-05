@@ -32,9 +32,7 @@ Mathematical paragraph that is a container for mathematical blocks (IMathBlock)
 | Constructor | Description |
 | --- | --- |
 | [MathParagraph()](#MathParagraph--) | Initializes a new instance of the MathParagraph class. |
-| [MathParagraph(MathPortion parent)](#MathParagraph-com.aspose.slides.MathPortion-) |  |
 | [MathParagraph(IMathBlock mathBlock)](#MathParagraph-com.aspose.slides.IMathBlock-) | Initializes a new instance of the MathParagraph class. |
-| [MathParagraph(System.Collections.Generic.IGenericEnumerable<IMathBlock> mathBlocks)](#MathParagraph-com.aspose.ms.System.Collections.Generic.IGenericEnumerable-com.aspose.slides.IMathBlock--) |  |
 ## Methods
 
 | Method | Description |
@@ -71,17 +69,6 @@ Initializes a new instance of the MathParagraph class.
 >  MathParagraph mathParagraph = new MathParagraph();
 > ```
 
-### MathParagraph(MathPortion parent) {#MathParagraph-com.aspose.slides.MathPortion-}
-```
- MathParagraph(MathPortion parent)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parent | [MathPortion](../../com.aspose.slides/mathportion) |  |
-
 ### MathParagraph(IMathBlock mathBlock) {#MathParagraph-com.aspose.slides.IMathBlock-}
 ```
 public MathParagraph(IMathBlock mathBlock)
@@ -102,17 +89,6 @@ Initializes a new instance of the MathParagraph class.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | mathBlock | [IMathBlock](../../com.aspose.slides/imathblock) |  |
-
-### MathParagraph(System.Collections.Generic.IGenericEnumerable<IMathBlock> mathBlocks) {#MathParagraph-com.aspose.ms.System.Collections.Generic.IGenericEnumerable-com.aspose.slides.IMathBlock--}
-```
- MathParagraph(System.Collections.Generic.IGenericEnumerable<IMathBlock> mathBlocks)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| mathBlocks | com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.slides.IMathBlock> |  |
 
 ### getJustification() {#getJustification--}
 ```

@@ -17,11 +17,6 @@ public final class VbaModule implements IVbaModule
 ```
 
 Represents module that is contained in VBA project.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [VbaModule(String name, ModuleStream moduleStream)](#VbaModule-java.lang.String-com.aspose.slides.vbabinaryfile.ModuleStream-) |  |
 ## Methods
 
 | Method | Description |
@@ -29,18 +24,6 @@ Represents module that is contained in VBA project.
 | [getName()](#getName--) | Gets the name of the module. |
 | [getSourceCode()](#getSourceCode--) | Returns or sets the source code of the module. |
 | [setSourceCode(String value)](#setSourceCode-java.lang.String-) | Returns or sets the source code of the module. |
-### VbaModule(String name, ModuleStream moduleStream) {#VbaModule-java.lang.String-com.aspose.slides.vbabinaryfile.ModuleStream-}
-```
- VbaModule(String name, ModuleStream moduleStream)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| name | java.lang.String |  |
-| moduleStream | com.aspose.slides.vbabinaryfile.ModuleStream |  |
-
 ### getName() {#getName--}
 ```
 public final String getName()

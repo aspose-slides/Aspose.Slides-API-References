@@ -17,23 +17,12 @@ public final class SvgTSpan implements ISvgTSpan
 ```
 
 Represents options for SVG text portion ("tspan").
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [SvgTSpan()](#SvgTSpan--) |  |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [getId()](#getId--) | Gets "tspan" element id |
 | [setId(String value)](#setId-java.lang.String-) | Gets "tspan" element id |
-### SvgTSpan() {#SvgTSpan--}
-```
- SvgTSpan()
-```
-
-
 ### getId() {#getId--}
 ```
 public final String getId()

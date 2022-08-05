@@ -17,11 +17,6 @@ public class Format extends PVIObject implements IFormat
 ```
 
 Represents chart format properties.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [Format(IDOMObject parentImmediate)](#Format-com.aspose.slides.IDOMObject-) |  |
 ## Methods
 
 | Method | Description |
@@ -30,17 +25,6 @@ Represents chart format properties.
 | [getLine()](#getLine--) | Returns line style properties of a chart. |
 | [getEffect()](#getEffect--) | Returns effects used for a chart. |
 | [getEffect3D()](#getEffect3D--) | Returns 3D format of a chart. |
-### Format(IDOMObject parentImmediate) {#Format-com.aspose.slides.IDOMObject-}
-```
- Format(IDOMObject parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | com.aspose.slides.IDOMObject |  |
-
 ### getFill() {#getFill--}
 ```
 public final IFillFormat getFill()

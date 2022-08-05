@@ -14,23 +14,12 @@ public final class CategoryAxisType extends System.Enum
 ```
 
 Represents a type of a category axis.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [CategoryAxisType()](#CategoryAxisType--) |  |
 ## Fields
 
 | Field | Description |
 | --- | --- |
 | [Text](#Text) | Specifies category axis is a text axis. |
 | [Date](#Date) | Specifies category axis is a date axis. |
-### CategoryAxisType() {#CategoryAxisType--}
-```
-private CategoryAxisType()
-```
-
-
 ### Text {#Text}
 ```
 public static final int Text

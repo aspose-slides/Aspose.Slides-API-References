@@ -14,23 +14,12 @@ public final class HyperlinkColorSource extends System.Enum
 ```
 
 Represents source of hyperlink color.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [HyperlinkColorSource()](#HyperlinkColorSource--) |  |
 ## Fields
 
 | Field | Description |
 | --- | --- |
 | [Styles](#Styles) | Styles. |
 | [PortionFormat](#PortionFormat) | Portion format. |
-### HyperlinkColorSource() {#HyperlinkColorSource--}
-```
-private HyperlinkColorSource()
-```
-
-
 ### Styles {#Styles}
 ```
 public static final int Styles

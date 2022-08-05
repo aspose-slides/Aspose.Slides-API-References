@@ -17,11 +17,6 @@ public class ChartDataPoint implements IChartDataPoint, IDOMObject
 ```
 
 Represents series data point.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [ChartDataPoint(ChartDataPointCollection parentImmediate)](#ChartDataPoint-com.aspose.slides.ChartDataPointCollection-) | Initializes a new instance of ChartDataPoint class. |
 ## Methods
 
 | Method | Description |
@@ -54,19 +49,6 @@ Represents series data point.
 | [getActualY()](#getActualY--) | Specifies actual top of the chart element relative to the left top corner of the chart. |
 | [getActualWidth()](#getActualWidth--) | Specifies actual width of the chart element. |
 | [getActualHeight()](#getActualHeight--) | Specifies actual height of the chart element. |
-### ChartDataPoint(ChartDataPointCollection parentImmediate) {#ChartDataPoint-com.aspose.slides.ChartDataPointCollection-}
-```
- ChartDataPoint(ChartDataPointCollection parentImmediate)
-```
-
-
-Initializes a new instance of ChartDataPoint class.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | [ChartDataPointCollection](../../com.aspose.slides/chartdatapointcollection) |  |
-
 ### getXValue() {#getXValue--}
 ```
 public final IStringOrDoubleChartValue getXValue()

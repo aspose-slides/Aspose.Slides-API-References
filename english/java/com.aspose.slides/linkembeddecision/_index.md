@@ -14,11 +14,6 @@ public final class LinkEmbedDecision extends System.Enum
 ```
 
 Determines how object will be processed during saving.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [LinkEmbedDecision()](#LinkEmbedDecision--) |  |
 ## Fields
 
 | Field | Description |
@@ -26,12 +21,6 @@ Determines how object will be processed during saving.
 | [Link](#Link) | Object will be stored externally, referrenced by URL |
 | [Embed](#Embed) | Object should be embedded to a generated file if possible. |
 | [Ignore](#Ignore) | Object will be ignored. |
-### LinkEmbedDecision() {#LinkEmbedDecision--}
-```
-private LinkEmbedDecision()
-```
-
-
 ### Link {#Link}
 ```
 public static final int Link

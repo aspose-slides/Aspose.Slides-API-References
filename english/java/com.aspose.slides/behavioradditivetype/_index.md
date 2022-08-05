@@ -14,11 +14,6 @@ public final class BehaviorAdditiveType extends System.Enum
 ```
 
 Represents additive type for effect behavior.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [BehaviorAdditiveType()](#BehaviorAdditiveType--) |  |
 ## Fields
 
 | Field | Description |
@@ -29,12 +24,6 @@ Represents additive type for effect behavior.
 | [Sum](#Sum) |  |
 | [Replace](#Replace) |  |
 | [Multiply](#Multiply) |  |
-### BehaviorAdditiveType() {#BehaviorAdditiveType--}
-```
-private BehaviorAdditiveType()
-```
-
-
 ### NotDefined {#NotDefined}
 ```
 public static final int NotDefined

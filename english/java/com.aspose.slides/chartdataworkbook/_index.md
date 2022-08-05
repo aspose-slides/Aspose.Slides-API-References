@@ -17,12 +17,6 @@ public class ChartDataWorkbook extends DomObject<ChartData> implements IChartDat
 ```
 
 Provides access to embedded Excel workbook
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [ChartDataWorkbook(IChartData parentImmediate, System.IO.Stream stream, BlobManager blobManager, InterruptionToken interruptionToken)](#ChartDataWorkbook-com.aspose.slides.IChartData-com.aspose.ms.System.IO.Stream-com.aspose.foundation.blob.BlobManager-com.aspose.slides.InterruptionToken-) | Initializes new instance of class ChartDataWorkbook from passed stream |
-| [ChartDataWorkbook(IChartData parentImmediate)](#ChartDataWorkbook-com.aspose.slides.IChartData-) | Initializes new instance of class ChartDataWorkbook from embedded template |
 ## Methods
 
 | Method | Description |
@@ -36,35 +30,6 @@ Provides access to embedded Excel workbook
 | [getCell(int worksheetIndex, int row, int column, Object value)](#getCell-int-int-int-java.lang.Object-) | Gets the cell that can be used for chart series or categories |
 | [clear(int sheetIndex)](#clear-int-) | Clear all cells values on sheet |
 | [calculateFormulas()](#calculateFormulas--) | Calculates all formulas in the workbook and updates corresponding cells values. |
-### ChartDataWorkbook(IChartData parentImmediate, System.IO.Stream stream, BlobManager blobManager, InterruptionToken interruptionToken) {#ChartDataWorkbook-com.aspose.slides.IChartData-com.aspose.ms.System.IO.Stream-com.aspose.foundation.blob.BlobManager-com.aspose.slides.InterruptionToken-}
-```
- ChartDataWorkbook(IChartData parentImmediate, System.IO.Stream stream, BlobManager blobManager, InterruptionToken interruptionToken)
-```
-
-
-Initializes new instance of class ChartDataWorkbook from passed stream
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | [IChartData](../../com.aspose.slides/ichartdata) | The parent chart object |
-| stream | com.aspose.ms.System.IO.Stream | The data stream |
-| blobManager | com.aspose.foundation.blob.BlobManager | The blob manager for workbook-related resources |
-| interruptionToken | [InterruptionToken](../../com.aspose.slides/interruptiontoken) | The token to monitor for interruption requests. |
-
-### ChartDataWorkbook(IChartData parentImmediate) {#ChartDataWorkbook-com.aspose.slides.IChartData-}
-```
- ChartDataWorkbook(IChartData parentImmediate)
-```
-
-
-Initializes new instance of class ChartDataWorkbook from embedded template
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | [IChartData](../../com.aspose.slides/ichartdata) | The parent chart object |
-
 ### getWorksheets() {#getWorksheets--}
 ```
 public final IChartDataWorksheetCollection getWorksheets()

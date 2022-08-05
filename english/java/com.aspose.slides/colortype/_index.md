@@ -14,11 +14,6 @@ public final class ColorType extends System.Enum
 ```
 
 Represents different color modes.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [ColorType()](#ColorType--) |  |
 ## Fields
 
 | Field | Description |
@@ -30,12 +25,6 @@ Represents different color modes.
 | [Scheme](#Scheme) | Scheme color. |
 | [System](#System) | System color. |
 | [Preset](#Preset) | Preset Color. |
-### ColorType() {#ColorType--}
-```
-private ColorType()
-```
-
-
 ### NotDefined {#NotDefined}
 ```
 public static final int NotDefined

@@ -17,11 +17,6 @@ public final class ColumnCollection extends DomObject<RowCollection> implements 
 ```
 
 Represents collection of columns in a table.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [ColumnCollection(RowCollection parentImmediate)](#ColumnCollection-com.aspose.slides.RowCollection-) |  |
 ## Methods
 
 | Method | Description |
@@ -36,17 +31,6 @@ Represents collection of columns in a table.
 | [copyTo(System.Array array, int index)](#copyTo-com.aspose.ms.System.Array-int-) | Copies all elements from the collection to the specified array. |
 | [isSynchronized()](#isSynchronized--) | Returns a value indicating whether access to the collection is synchronized (thread-safe). |
 | [getSyncRoot()](#getSyncRoot--) | Returns a synchronization root. |
-### ColumnCollection(RowCollection parentImmediate) {#ColumnCollection-com.aspose.slides.RowCollection-}
-```
- ColumnCollection(RowCollection parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | [RowCollection](../../com.aspose.slides/rowcollection) |  |
-
 ### size() {#size--}
 ```
 public final int size()

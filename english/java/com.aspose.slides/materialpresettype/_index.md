@@ -14,11 +14,6 @@ public final class MaterialPresetType extends System.Enum
 ```
 
 Constants which define material of shape.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [MaterialPresetType()](#MaterialPresetType--) |  |
 ## Fields
 
 | Field | Description |
@@ -39,12 +34,6 @@ Constants which define material of shape.
 | [Softmetal](#Softmetal) |  |
 | [TranslucentPowder](#TranslucentPowder) |  |
 | [WarmMatte](#WarmMatte) |  |
-### MaterialPresetType() {#MaterialPresetType--}
-```
-private MaterialPresetType()
-```
-
-
 ### NotDefined {#NotDefined}
 ```
 public static final int NotDefined

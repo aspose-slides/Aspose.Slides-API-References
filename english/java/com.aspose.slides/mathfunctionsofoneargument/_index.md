@@ -14,11 +14,6 @@ public final class MathFunctionsOfOneArgument extends System.Enum
 ```
 
 Common mathematical functions of one argument
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [MathFunctionsOfOneArgument()](#MathFunctionsOfOneArgument--) |  |
 ## Fields
 
 | Field | Description |
@@ -49,12 +44,6 @@ Common mathematical functions of one argument
 | [HyperbolicArcCsc](#HyperbolicArcCsc) | Hyperbolic arccosecant |
 | [HyperbolicArcSec](#HyperbolicArcSec) | Hyperbolic arcsecant |
 | [HyperbolicArcCot](#HyperbolicArcCot) | Hyperbolic arccotangent |
-### MathFunctionsOfOneArgument() {#MathFunctionsOfOneArgument--}
-```
-private MathFunctionsOfOneArgument()
-```
-
-
 ### Sin {#Sin}
 ```
 public static final int Sin

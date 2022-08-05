@@ -17,12 +17,6 @@ public class Duotone extends ImageTransformOperation implements IDuotone, IVisua
 ```
 
 Represents a Duotone effect. For each pixel, combines Color1 and Color2 through a linear interpolation to determine the new color for that pixel.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [Duotone(IDOMObject parentImmediate)](#Duotone-com.aspose.slides.IDOMObject-) | Duotone effect constructor. |
-| [Duotone(ColorFormat color1, ColorFormat color2, IDOMObject parentImmediate)](#Duotone-com.aspose.slides.ColorFormat-com.aspose.slides.ColorFormat-com.aspose.slides.IDOMObject-) | Duotone effect constructor. |
 ## Methods
 
 | Method | Description |
@@ -33,34 +27,6 @@ Represents a Duotone effect. For each pixel, combines Color1 and Color2 through 
 | [getVersion()](#getVersion--) |  |
 | [equals(Object obj)](#equals-java.lang.Object-) | Determines whether the specified [Duotone](../../com.aspose.slides/duotone) is equal to the current [Duotone](../../com.aspose.slides/duotone). |
 | [hashCode()](#hashCode--) | Serves as a hash function for a particular type. |
-### Duotone(IDOMObject parentImmediate) {#Duotone-com.aspose.slides.IDOMObject-}
-```
- Duotone(IDOMObject parentImmediate)
-```
-
-
-Duotone effect constructor.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | com.aspose.slides.IDOMObject |  |
-
-### Duotone(ColorFormat color1, ColorFormat color2, IDOMObject parentImmediate) {#Duotone-com.aspose.slides.ColorFormat-com.aspose.slides.ColorFormat-com.aspose.slides.IDOMObject-}
-```
- Duotone(ColorFormat color1, ColorFormat color2, IDOMObject parentImmediate)
-```
-
-
-Duotone effect constructor.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| color1 | [ColorFormat](../../com.aspose.slides/colorformat) | Color 1. |
-| color2 | [ColorFormat](../../com.aspose.slides/colorformat) | Color 2. |
-| parentImmediate | com.aspose.slides.IDOMObject | The parent collection for Duotone. |
-
 ### getColor1() {#getColor1--}
 ```
 public final IColorFormat getColor1()

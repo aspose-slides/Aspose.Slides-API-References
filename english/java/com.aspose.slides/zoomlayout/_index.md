@@ -14,23 +14,12 @@ public final class ZoomLayout extends System.Enum
 ```
 
 Specifies the summary zoom layout.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [ZoomLayout()](#ZoomLayout--) |  |
 ## Fields
 
 | Field | Description |
 | --- | --- |
 | [GridLayout](#GridLayout) | Specifies the layout as a grid layout for a list of objects. |
 | [FixedLayout](#FixedLayout) | Specifies the layout with user-defined Zoom positioning. |
-### ZoomLayout() {#ZoomLayout--}
-```
-private ZoomLayout()
-```
-
-
 ### GridLayout {#GridLayout}
 ```
 public static final int GridLayout

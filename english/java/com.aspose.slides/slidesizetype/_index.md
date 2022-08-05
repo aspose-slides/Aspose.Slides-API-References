@@ -14,11 +14,6 @@ public final class SlideSizeType extends System.Enum
 ```
 
 Represents the slide size preset.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [SlideSizeType()](#SlideSizeType--) |  |
 ## Fields
 
 | Field | Description |
@@ -40,12 +35,6 @@ Represents the slide size preset.
 | [OnScreen16x9](#OnScreen16x9) | On screen 16x9 |
 | [OnScreen16x10](#OnScreen16x10) | On Screen 16x10 |
 | [Widescreen](#Widescreen) | Widescreen |
-### SlideSizeType() {#SlideSizeType--}
-```
-private SlideSizeType()
-```
-
-
 ### OnScreen {#OnScreen}
 ```
 public static final int OnScreen

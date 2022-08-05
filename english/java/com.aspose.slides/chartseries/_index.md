@@ -17,11 +17,6 @@ public class ChartSeries implements IChartSeries, IDOMObject
 ```
 
 Represents a chart series.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [ChartSeries(ChartSeriesCollection parentImmediate, int type, boolean isDeserializtion)](#ChartSeries-com.aspose.slides.ChartSeriesCollection-int-boolean-) |  |
 ## Methods
 
 | Method | Description |
@@ -92,21 +87,6 @@ Represents a chart series.
 | [getBubbleSizeScale()](#getBubbleSizeScale--) | Specifies the scale factor for the bubble chart (can be between 0 and 300 percents of the default size). |
 | [getSlide()](#getSlide--) | Returns the parent slide of a FillFormat. |
 | [getPresentation()](#getPresentation--) | Returns the parent presentation of a FillFormat. |
-### ChartSeries(ChartSeriesCollection parentImmediate, int type, boolean isDeserializtion) {#ChartSeries-com.aspose.slides.ChartSeriesCollection-int-boolean-}
-```
- ChartSeries(ChartSeriesCollection parentImmediate, int type, boolean isDeserializtion)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | [ChartSeriesCollection](../../com.aspose.slides/chartseriescollection) |  |
-| type | int |  |
-| isDeserializtion | boolean | If value is true means don't need to calculate series index |
-
 ### getParent_Immediate() {#getParent-Immediate--}
 ```
 public final IDOMObject getParent_Immediate()

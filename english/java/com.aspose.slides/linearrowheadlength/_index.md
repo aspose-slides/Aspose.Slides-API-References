@@ -14,11 +14,6 @@ public final class LineArrowheadLength extends System.Enum
 ```
 
 Represents the length of an arrowhead.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [LineArrowheadLength()](#LineArrowheadLength--) |  |
 ## Fields
 
 | Field | Description |
@@ -27,12 +22,6 @@ Represents the length of an arrowhead.
 | [Short](#Short) |  |
 | [Medium](#Medium) |  |
 | [Long](#Long) |  |
-### LineArrowheadLength() {#LineArrowheadLength--}
-```
-private LineArrowheadLength()
-```
-
-
 ### NotDefined {#NotDefined}
 ```
 public static final byte NotDefined

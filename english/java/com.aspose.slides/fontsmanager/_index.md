@@ -17,11 +17,6 @@ public class FontsManager implements IFontsManager
 ```
 
 Manages fonts across the presentation.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [FontsManager(FontsManagerInternal fontsManagerInternal, FontsList fontsList, IPresentation owner)](#FontsManager-com.aspose.slides.FontsManagerInternal-com.aspose.slides.FontsList-com.aspose.slides.IPresentation-) |  |
 ## Methods
 
 | Method | Description |
@@ -38,19 +33,6 @@ Manages fonts across the presentation.
 | [replaceFont(IFontData sourceFont, IFontData destFont)](#replaceFont-com.aspose.slides.IFontData-com.aspose.slides.IFontData-) | Replace font in presentation |
 | [replaceFont(IFontSubstRule substRule)](#replaceFont-com.aspose.slides.IFontSubstRule-) | Replace font in presentation using information provided in [FontSubstRule](../../com.aspose.slides/fontsubstrule) |
 | [replaceFont(IFontSubstRuleCollection substRules)](#replaceFont-com.aspose.slides.IFontSubstRuleCollection-) | Replace font in presentation using information provided in collection of [FontSubstRule](../../com.aspose.slides/fontsubstrule) |
-### FontsManager(FontsManagerInternal fontsManagerInternal, FontsList fontsList, IPresentation owner) {#FontsManager-com.aspose.slides.FontsManagerInternal-com.aspose.slides.FontsList-com.aspose.slides.IPresentation-}
-```
- FontsManager(FontsManagerInternal fontsManagerInternal, FontsList fontsList, IPresentation owner)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| fontsManagerInternal | com.aspose.slides.FontsManagerInternal |  |
-| fontsList | com.aspose.slides.FontsList |  |
-| owner | [IPresentation](../../com.aspose.slides/ipresentation) |  |
-
 ### getFontSubstRuleList() {#getFontSubstRuleList--}
 ```
 public final IFontSubstRuleCollection getFontSubstRuleList()

@@ -29,7 +29,6 @@ Specifies an N-ary mathematical object, such as Summation and Integral. It consi
 
 | Constructor | Description |
 | --- | --- |
-| [MathNaryOperator(IMathElement baseArgument, IMathElement lowerLimit, IMathElement upperLimit, IMathNaryOperatorProperties properties)](#MathNaryOperator-com.aspose.slides.IMathElement-com.aspose.slides.IMathElement-com.aspose.slides.IMathElement-com.aspose.slides.IMathNaryOperatorProperties-) | Initializes a new instance of the MathNaryOperator class. |
 | [MathNaryOperator(char operatorSymbol, IMathElement baseArgument, IMathElement lowerLimit, IMathElement upperLimit)](#MathNaryOperator-char-com.aspose.slides.IMathElement-com.aspose.slides.IMathElement-com.aspose.slides.IMathElement-) | Initializes a new instance of the MathNaryOperator class. |
 | [MathNaryOperator(char operatorSymbol, IMathElement baseArgument, IMathElement lowerLimit)](#MathNaryOperator-char-com.aspose.slides.IMathElement-com.aspose.slides.IMathElement-) | Initializes a new instance of the MathNaryOperator class. |
 | [MathNaryOperator(char operatorSymbol, IMathElement baseArgument)](#MathNaryOperator-char-com.aspose.slides.IMathElement-) | Initializes a new instance of the MathNaryOperator class. |
@@ -52,22 +51,6 @@ Specifies an N-ary mathematical object, such as Summation and Integral. It consi
 | [setHideSuperscript(boolean value)](#setHideSuperscript-boolean-) | Hide Superscript |
 | [getChildren()](#getChildren--) | Get children elements |
 | [getControlCharacterProperties()](#getControlCharacterProperties--) | Control Character Properties |
-### MathNaryOperator(IMathElement baseArgument, IMathElement lowerLimit, IMathElement upperLimit, IMathNaryOperatorProperties properties) {#MathNaryOperator-com.aspose.slides.IMathElement-com.aspose.slides.IMathElement-com.aspose.slides.IMathElement-com.aspose.slides.IMathNaryOperatorProperties-}
-```
- MathNaryOperator(IMathElement baseArgument, IMathElement lowerLimit, IMathElement upperLimit, IMathNaryOperatorProperties properties)
-```
-
-
-Initializes a new instance of the MathNaryOperator class.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| baseArgument | [IMathElement](../../com.aspose.slides/imathelement) |  |
-| lowerLimit | [IMathElement](../../com.aspose.slides/imathelement) |  |
-| upperLimit | [IMathElement](../../com.aspose.slides/imathelement) |  |
-| properties | [IMathNaryOperatorProperties](../../com.aspose.slides/imathnaryoperatorproperties) |  |
-
 ### MathNaryOperator(char operatorSymbol, IMathElement baseArgument, IMathElement lowerLimit, IMathElement upperLimit) {#MathNaryOperator-char-com.aspose.slides.IMathElement-com.aspose.slides.IMathElement-com.aspose.slides.IMathElement-}
 ```
 public MathNaryOperator(char operatorSymbol, IMathElement baseArgument, IMathElement lowerLimit, IMathElement upperLimit)

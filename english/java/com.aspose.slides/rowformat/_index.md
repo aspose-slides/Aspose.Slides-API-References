@@ -17,11 +17,6 @@ public class RowFormat extends DomObject<Row> implements IRowFormat, IPVIObject
 ```
 
 Represents format of a table row.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [RowFormat(Row row)](#RowFormat-com.aspose.slides.Row-) |  |
 ## Methods
 
 | Method | Description |
@@ -29,17 +24,6 @@ Represents format of a table row.
 | [getEffective()](#getEffective--) | Gets effective table row formatting properties with inheritance and table styles applied. |
 | [getVersion()](#getVersion--) |  |
 | [getParent_IPresentationComponent()](#getParent-IPresentationComponent--) |  |
-### RowFormat(Row row) {#RowFormat-com.aspose.slides.Row-}
-```
- RowFormat(Row row)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| row | [Row](../../com.aspose.slides/row) |  |
-
 ### getEffective() {#getEffective--}
 ```
 public final IRowFormatEffectiveData getEffective()

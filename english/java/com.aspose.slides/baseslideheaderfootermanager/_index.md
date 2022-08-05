@@ -14,11 +14,6 @@ public abstract class BaseSlideHeaderFooterManager extends BaseHeaderFooterManag
 ```
 
 Represents manager which holds behavior of the footer, date-time, page number placeholders for all slide types.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [BaseSlideHeaderFooterManager(BaseSlide baseSlide)](#BaseSlideHeaderFooterManager-com.aspose.slides.BaseSlide-) |  |
 ## Methods
 
 | Method | Description |
@@ -31,17 +26,6 @@ Represents manager which holds behavior of the footer, date-time, page number pl
 | [setDateTimeVisibility(boolean isVisible)](#setDateTimeVisibility-boolean-) | Changes slide date-time placeholder visibility. |
 | [setFooterText(String text)](#setFooterText-java.lang.String-) | Sets text to slide footer placeholder. |
 | [setDateTimeText(String text)](#setDateTimeText-java.lang.String-) | Sets text to slide date-time placeholder. |
-### BaseSlideHeaderFooterManager(BaseSlide baseSlide) {#BaseSlideHeaderFooterManager-com.aspose.slides.BaseSlide-}
-```
- BaseSlideHeaderFooterManager(BaseSlide baseSlide)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| baseSlide | [BaseSlide](../../com.aspose.slides/baseslide) |  |
-
 ### isFooterVisible() {#isFooterVisible--}
 ```
 public final boolean isFooterVisible()

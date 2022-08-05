@@ -17,11 +17,6 @@ public final class TabCollection implements ITabCollection, IDOMObject
 ```
 
 Represents a collection of tabs.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [TabCollection(IDOMObject parentImmediate)](#TabCollection-com.aspose.slides.IDOMObject-) |  |
 ## Methods
 
 | Method | Description |
@@ -39,17 +34,6 @@ Represents a collection of tabs.
 | [copyTo(System.Array array, int index)](#copyTo-com.aspose.ms.System.Array-int-) | Copies all elements from the collection to the specified array. |
 | [isSynchronized()](#isSynchronized--) | Returns a value indicating whether access to the collection is synchronized (thread-safe). |
 | [getSyncRoot()](#getSyncRoot--) | Returns a synchronization root. |
-### TabCollection(IDOMObject parentImmediate) {#TabCollection-com.aspose.slides.IDOMObject-}
-```
- TabCollection(IDOMObject parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | com.aspose.slides.IDOMObject |  |
-
 ### size() {#size--}
 ```
 public final int size()

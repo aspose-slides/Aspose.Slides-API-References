@@ -17,11 +17,6 @@ public final class AdjustValueCollection extends DomObject<GeometryShape> implem
 ```
 
 Reprasents a collection of shape's adjustments.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [AdjustValueCollection(GeometryShape parentImmediate)](#AdjustValueCollection-com.aspose.slides.GeometryShape-) |  |
 ## Methods
 
 | Method | Description |
@@ -32,17 +27,6 @@ Reprasents a collection of shape's adjustments.
 | [isSynchronized()](#isSynchronized--) | Returns a value indicating whether access to the collection is synchronized (thread-safe). |
 | [getSyncRoot()](#getSyncRoot--) | Returns a synchronization root. |
 | [iterator()](#iterator--) | Returns an enumerator for the entire collection. |
-### AdjustValueCollection(GeometryShape parentImmediate) {#AdjustValueCollection-com.aspose.slides.GeometryShape-}
-```
- AdjustValueCollection(GeometryShape parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | [GeometryShape](../../com.aspose.slides/geometryshape) |  |
-
 ### size() {#size--}
 ```
 public final int size()

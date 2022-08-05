@@ -14,11 +14,6 @@ public final class ChartType extends System.Enum
 ```
 
 Represents a type of chart.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [ChartType()](#ChartType--) |  |
 ## Fields
 
 | Field | Description |
@@ -105,12 +100,6 @@ Represents a type of chart.
 | [Waterfall](#Waterfall) | Represents Waterfall chart. |
 | [Funnel](#Funnel) | Represents Funnel chart. |
 | [Map](#Map) | Represents Map chart. |
-### ChartType() {#ChartType--}
-```
-private ChartType()
-```
-
-
 ### ClusteredColumn {#ClusteredColumn}
 ```
 public static final int ClusteredColumn

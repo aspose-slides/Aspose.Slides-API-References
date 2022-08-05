@@ -17,11 +17,6 @@ public final class ImageTransformOperationCollection extends PVIObject implement
 ```
 
 Represents a collection of effects apllied to an image.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [ImageTransformOperationCollection(IDOMObject parentImmediate)](#ImageTransformOperationCollection-com.aspose.slides.IDOMObject-) |  |
 ## Methods
 
 | Method | Description |
@@ -54,17 +49,6 @@ Represents a collection of effects apllied to an image.
 | [removeItem(IImageTransformOperation item)](#removeItem-com.aspose.slides.IImageTransformOperation-) | Removes the first occurrence of a specific object from the [IGenericCollection](../../com.aspose.slides/igenericcollection). |
 | [iterator()](#iterator--) | Returns an enumerator that iterates through the collection. |
 | [iteratorJava()](#iteratorJava--) | Returns a java iterator for the entire collection. |
-### ImageTransformOperationCollection(IDOMObject parentImmediate) {#ImageTransformOperationCollection-com.aspose.slides.IDOMObject-}
-```
- ImageTransformOperationCollection(IDOMObject parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | com.aspose.slides.IDOMObject |  |
-
 ### get_Item(int index) {#get-Item-int-}
 ```
 public final IImageTransformOperation get_Item(int index)

@@ -17,11 +17,6 @@ public final class GradientFormat extends PVIObject implements IGradientFormat
 ```
 
 Represent a gradient format.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [GradientFormat(IDOMObject parentImmediate)](#GradientFormat-com.aspose.slides.IDOMObject-) |  |
 ## Methods
 
 | Method | Description |
@@ -37,17 +32,6 @@ Represent a gradient format.
 | [getGradientShape()](#getGradientShape--) | Returns or sets the shape of a gradient. |
 | [setGradientShape(byte value)](#setGradientShape-byte-) | Returns or sets the shape of a gradient. |
 | [getGradientStops()](#getGradientStops--) | Returns the collection of gradient stops. |
-### GradientFormat(IDOMObject parentImmediate) {#GradientFormat-com.aspose.slides.IDOMObject-}
-```
- GradientFormat(IDOMObject parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | com.aspose.slides.IDOMObject |  |
-
 ### getTileFlip() {#getTileFlip--}
 ```
 public final int getTileFlip()

@@ -17,14 +17,6 @@ public final class GradientStop extends PVIObject implements IGradientStop
 ```
 
 Represents a gradient format.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [GradientStop(IDOMObject parentImmediate)](#GradientStop-com.aspose.slides.IDOMObject-) |  |
-| [GradientStop(IDOMObject parentImmediate, float position, System.Drawing.Color color)](#GradientStop-com.aspose.slides.IDOMObject-float-com.aspose.ms.System.Drawing.Color-) |  |
-| [GradientStop(IDOMObject parentImmediate, float position, int presetColor)](#GradientStop-com.aspose.slides.IDOMObject-float-int-) |  |
-| [GradientStop(IDOMObject parentImmediate, float position, int schemeColor, boolean cFix)](#GradientStop-com.aspose.slides.IDOMObject-float-int-boolean-) |  |
 ## Methods
 
 | Method | Description |
@@ -32,57 +24,6 @@ Represents a gradient format.
 | [getPosition()](#getPosition--) | Returns or sets the position (0..1) of a gradient stop. |
 | [setPosition(float value)](#setPosition-float-) | Returns or sets the position (0..1) of a gradient stop. |
 | [getColor()](#getColor--) | Returns the color of a gradient stop. |
-### GradientStop(IDOMObject parentImmediate) {#GradientStop-com.aspose.slides.IDOMObject-}
-```
- GradientStop(IDOMObject parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | com.aspose.slides.IDOMObject |  |
-
-### GradientStop(IDOMObject parentImmediate, float position, System.Drawing.Color color) {#GradientStop-com.aspose.slides.IDOMObject-float-com.aspose.ms.System.Drawing.Color-}
-```
- GradientStop(IDOMObject parentImmediate, float position, System.Drawing.Color color)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | com.aspose.slides.IDOMObject |  |
-| position | float |  |
-| color | com.aspose.ms.System.Drawing.Color |  |
-
-### GradientStop(IDOMObject parentImmediate, float position, int presetColor) {#GradientStop-com.aspose.slides.IDOMObject-float-int-}
-```
- GradientStop(IDOMObject parentImmediate, float position, int presetColor)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | com.aspose.slides.IDOMObject |  |
-| position | float |  |
-| presetColor | int |  |
-
-### GradientStop(IDOMObject parentImmediate, float position, int schemeColor, boolean cFix) {#GradientStop-com.aspose.slides.IDOMObject-float-int-boolean-}
-```
- GradientStop(IDOMObject parentImmediate, float position, int schemeColor, boolean cFix)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | com.aspose.slides.IDOMObject |  |
-| position | float |  |
-| schemeColor | int |  |
-| cFix | boolean |  |
-
 ### getPosition() {#getPosition--}
 ```
 public final float getPosition()

@@ -14,11 +14,6 @@ public final class TileFlip extends System.Enum
 ```
 
 Defines tile flipping mode.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [TileFlip()](#TileFlip--) |  |
 ## Fields
 
 | Field | Description |
@@ -28,12 +23,6 @@ Defines tile flipping mode.
 | [FlipX](#FlipX) |  |
 | [FlipY](#FlipY) |  |
 | [FlipBoth](#FlipBoth) |  |
-### TileFlip() {#TileFlip--}
-```
-private TileFlip()
-```
-
-
 ### NotDefined {#NotDefined}
 ```
 public static final int NotDefined

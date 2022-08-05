@@ -177,7 +177,7 @@ public final int getDefaultDelay()
 ```
 
 
-Gets or sets default delay time [ms]. This value will be used if ([ISlideShowTransition\#getAdvanceAfterTime](../../com.aspose.slides/islideshowtransition\#getAdvanceAfterTime)/[ISlideShowTransition\#setAdvanceAfterTime(long)](../../com.aspose.slides/islideshowtransition\#setAdvanceAfterTime(long))) is not set. The default value is 1000.
+Gets or sets default delay time [ms]. This value will be used if ([ISlideShowTransition\#getAdvanceAfterTime](../../com.aspose.slides/islideshowtransition\#getAdvanceAfterTime)/[ISlideShowTransition\#setAdvanceAfterTime(long)](../../com.aspose.slides/islideshowtransition\#setAdvanceAfterTime-long-)) is not set. The default value is 1000.
 
 --------------------
 
@@ -200,7 +200,7 @@ public final void setDefaultDelay(int value)
 ```
 
 
-Gets or sets default delay time [ms]. This value will be used if ([ISlideShowTransition\#getAdvanceAfterTime](../../com.aspose.slides/islideshowtransition\#getAdvanceAfterTime)/[ISlideShowTransition\#setAdvanceAfterTime(long)](../../com.aspose.slides/islideshowtransition\#setAdvanceAfterTime(long))) is not set. The default value is 1000.
+Gets or sets default delay time [ms]. This value will be used if ([ISlideShowTransition\#getAdvanceAfterTime](../../com.aspose.slides/islideshowtransition\#getAdvanceAfterTime)/[ISlideShowTransition\#setAdvanceAfterTime(long)](../../com.aspose.slides/islideshowtransition\#setAdvanceAfterTime-long-)) is not set. The default value is 1000.
 
 --------------------
 

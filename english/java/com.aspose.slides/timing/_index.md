@@ -17,11 +17,6 @@ public class Timing implements ITiming, IDOMObject
 ```
 
 Represents animation timing.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [Timing(IDOMObject parentImmediate)](#Timing-com.aspose.slides.IDOMObject-) |  |
 ## Methods
 
 | Method | Description |
@@ -47,17 +42,6 @@ Represents animation timing.
 | [getTriggerType()](#getTriggerType--) | Describes trigger type. |
 | [setTriggerType(int value)](#setTriggerType-int-) | Describes trigger type. |
 | [getParent_Immediate()](#getParent-Immediate--) |  |
-### Timing(IDOMObject parentImmediate) {#Timing-com.aspose.slides.IDOMObject-}
-```
- Timing(IDOMObject parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | com.aspose.slides.IDOMObject |  |
-
 ### getAccelerate() {#getAccelerate--}
 ```
 public final float getAccelerate()

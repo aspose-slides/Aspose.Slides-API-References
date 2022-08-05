@@ -23,7 +23,6 @@ Represents VBA project with presentation macros.
 | --- | --- |
 | [VbaProject()](#VbaProject--) | This constructor creates new VBA project from scratch. |
 | [VbaProject(byte[] data)](#VbaProject-byte---) | This constructor loads VBA project from binary representation of OLE container. |
-| [VbaProject(VbaProjectRootStorage vbaContainer)](#VbaProject-com.aspose.slides.vbabinaryfile.VbaProjectRootStorage-) |  |
 ## Methods
 
 | Method | Description |
@@ -52,17 +51,6 @@ This constructor loads VBA project from binary representation of OLE container.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | data | byte[] |  |
-
-### VbaProject(VbaProjectRootStorage vbaContainer) {#VbaProject-com.aspose.slides.vbabinaryfile.VbaProjectRootStorage-}
-```
- VbaProject(VbaProjectRootStorage vbaContainer)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| vbaContainer | com.aspose.slides.vbabinaryfile.VbaProjectRootStorage |  |
 
 ### getName() {#getName--}
 ```

@@ -14,11 +14,6 @@ public final class MathTopBotPositions extends System.Enum
 ```
 
 Top/bottom positions enumeration
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [MathTopBotPositions()](#MathTopBotPositions--) |  |
 ## Fields
 
 | Field | Description |
@@ -26,12 +21,6 @@ Top/bottom positions enumeration
 | [NotDefined](#NotDefined) | Not defined |
 | [Top](#Top) | Top |
 | [Bottom](#Bottom) | Bottom |
-### MathTopBotPositions() {#MathTopBotPositions--}
-```
-private MathTopBotPositions()
-```
-
-
 ### NotDefined {#NotDefined}
 ```
 public static final int NotDefined

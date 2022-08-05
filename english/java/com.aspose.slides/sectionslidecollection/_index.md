@@ -17,11 +17,6 @@ public final class SectionSlideCollection extends DomObject<Section> implements 
 ```
 
 Represents a collection of slides in the section.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [SectionSlideCollection(Section parentImmediate)](#SectionSlideCollection-com.aspose.slides.Section-) |  |
 ## Methods
 
 | Method | Description |
@@ -33,17 +28,6 @@ Represents a collection of slides in the section.
 | [getSyncRoot()](#getSyncRoot--) | Returns a synchronization root. |
 | [iterator()](#iterator--) | Returns an enumerator that iterates through the collection. |
 | [iteratorJava()](#iteratorJava--) | Returns a java iterator for the entire collection. |
-### SectionSlideCollection(Section parentImmediate) {#SectionSlideCollection-com.aspose.slides.Section-}
-```
- SectionSlideCollection(Section parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | [Section](../../com.aspose.slides/section) |  |
-
 ### get_Item(int index) {#get-Item-int-}
 ```
 public final ISlide get_Item(int index)

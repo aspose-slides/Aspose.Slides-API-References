@@ -17,11 +17,6 @@ public final class FillFormatCollection extends DomObject<FormatScheme> implemen
 ```
 
 Represents the collection of fill styles.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [FillFormatCollection(FormatScheme parentImmediate)](#FillFormatCollection-com.aspose.slides.FormatScheme-) |  |
 ## Methods
 
 | Method | Description |
@@ -33,17 +28,6 @@ Represents the collection of fill styles.
 | [copyTo(System.Array array, int index)](#copyTo-com.aspose.ms.System.Array-int-) | Copies all elements from the collection to the specified array. |
 | [isSynchronized()](#isSynchronized--) | Returns a value indicating whether access to the collection is synchronized (thread-safe). |
 | [getSyncRoot()](#getSyncRoot--) | Returns a synchronization root. |
-### FillFormatCollection(FormatScheme parentImmediate) {#FillFormatCollection-com.aspose.slides.FormatScheme-}
-```
- FillFormatCollection(FormatScheme parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | [FormatScheme](../../com.aspose.slides/formatscheme) |  |
-
 ### get_Item(int index) {#get-Item-int-}
 ```
 public final IFillFormat get_Item(int index)

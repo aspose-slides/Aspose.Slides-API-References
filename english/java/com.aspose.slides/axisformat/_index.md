@@ -17,11 +17,6 @@ public class AxisFormat extends DomObject<Axis> implements IAxisFormat, IPVIObje
 ```
 
 Represents chart format properties.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [AxisFormat(Axis parentImmediate)](#AxisFormat-com.aspose.slides.Axis-) |  |
 ## Methods
 
 | Method | Description |
@@ -32,17 +27,6 @@ Represents chart format properties.
 | [getParent_Immediate()](#getParent-Immediate--) |  |
 | [getParent_IPresentationComponent()](#getParent-IPresentationComponent--) |  |
 | [getVersion()](#getVersion--) |  |
-### AxisFormat(Axis parentImmediate) {#AxisFormat-com.aspose.slides.Axis-}
-```
- AxisFormat(Axis parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | [Axis](../../com.aspose.slides/axis) |  |
-
 ### getFill() {#getFill--}
 ```
 public final IFillFormat getFill()

@@ -14,11 +14,6 @@ public final class TextVerticalType extends System.Enum
 ```
 
 Determines vertical writing mode for a text.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [TextVerticalType()](#TextVerticalType--) |  |
 ## Fields
 
 | Field | Description |
@@ -31,12 +26,6 @@ Determines vertical writing mode for a text.
 | [EastAsianVertical](#EastAsianVertical) | East asian vertical text. |
 | [MongolianVertical](#MongolianVertical) | Mongolian vertical text. |
 | [WordArtVerticalRightToLeft](#WordArtVerticalRightToLeft) | WordArt vertical right to left text. |
-### TextVerticalType() {#TextVerticalType--}
-```
-private TextVerticalType()
-```
-
-
 ### NotDefined {#NotDefined}
 ```
 public static final byte NotDefined

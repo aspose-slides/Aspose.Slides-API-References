@@ -14,11 +14,6 @@ public final class TextVerticalOverflowType extends System.Enum
 ```
 
 Represents text vertical overflow type.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [TextVerticalOverflowType()](#TextVerticalOverflowType--) |  |
 ## Fields
 
 | Field | Description |
@@ -27,12 +22,6 @@ Represents text vertical overflow type.
 | [Overflow](#Overflow) |  |
 | [Ellipsis](#Ellipsis) |  |
 | [Clip](#Clip) |  |
-### TextVerticalOverflowType() {#TextVerticalOverflowType--}
-```
-private TextVerticalOverflowType()
-```
-
-
 ### NotDefined {#NotDefined}
 ```
 public static final byte NotDefined

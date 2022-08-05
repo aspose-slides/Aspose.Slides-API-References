@@ -17,11 +17,6 @@ public final class HtmlFormatter implements IHtmlFormatter
 ```
 
 Represents HTML file template.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [HtmlFormatter(IHtmlFormattingController callback)](#HtmlFormatter-com.aspose.slides.IHtmlFormattingController-) |  |
 ## Methods
 
 | Method | Description |
@@ -29,17 +24,6 @@ Represents HTML file template.
 | [createDocumentFormatter(String css, boolean showSlideTitle)](#createDocumentFormatter-java.lang.String-boolean-) | Creates and returns HTML formatter for a simple document view which consists of sequences of slides one below another. |
 | [createSlideShowFormatter(String css, boolean showSlideTitle)](#createSlideShowFormatter-java.lang.String-boolean-) | Creates and returns HTML formatter for a simple slide show html which shows slides one after another. |
 | [createCustomFormatter(IHtmlFormattingController formattingController)](#createCustomFormatter-com.aspose.slides.IHtmlFormattingController-) | Creates and returns HTML formatter for custom callback-driven html generation. |
-### HtmlFormatter(IHtmlFormattingController callback) {#HtmlFormatter-com.aspose.slides.IHtmlFormattingController-}
-```
-private HtmlFormatter(IHtmlFormattingController callback)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| callback | [IHtmlFormattingController](../../com.aspose.slides/ihtmlformattingcontroller) |  |
-
 ### createDocumentFormatter(String css, boolean showSlideTitle) {#createDocumentFormatter-java.lang.String-boolean-}
 ```
 public static HtmlFormatter createDocumentFormatter(String css, boolean showSlideTitle)

@@ -17,12 +17,6 @@ public class Video implements IVideo, IDOMObject
 ```
 
 Represents an image embedded into a presentation.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [Video(VideoCollection parentImmediate, IBlobHandler blobHandler, String contentType, String extension)](#Video-com.aspose.slides.VideoCollection-com.aspose.foundation.blob.IBlobHandler-java.lang.String-java.lang.String-) |  |
-| [Video(VideoCollection parentImmediate, IBlobHandler blobHandler)](#Video-com.aspose.slides.VideoCollection-com.aspose.foundation.blob.IBlobHandler-) | Creates video with unitialized content type and extension, these properties will be lazy initialized |
 ## Methods
 
 | Method | Description |
@@ -31,34 +25,6 @@ Represents an image embedded into a presentation.
 | [getBinaryData()](#getBinaryData--) | Returns the copy of an audio's data. |
 | [getStream()](#getStream--) | Returns Stream stream for reading. |
 | [getParent_Immediate()](#getParent-Immediate--) |  |
-### Video(VideoCollection parentImmediate, IBlobHandler blobHandler, String contentType, String extension) {#Video-com.aspose.slides.VideoCollection-com.aspose.foundation.blob.IBlobHandler-java.lang.String-java.lang.String-}
-```
- Video(VideoCollection parentImmediate, IBlobHandler blobHandler, String contentType, String extension)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | [VideoCollection](../../com.aspose.slides/videocollection) |  |
-| blobHandler | com.aspose.foundation.blob.IBlobHandler |  |
-| contentType | java.lang.String |  |
-| extension | java.lang.String |  |
-
-### Video(VideoCollection parentImmediate, IBlobHandler blobHandler) {#Video-com.aspose.slides.VideoCollection-com.aspose.foundation.blob.IBlobHandler-}
-```
- Video(VideoCollection parentImmediate, IBlobHandler blobHandler)
-```
-
-
-Creates video with unitialized content type and extension, these properties will be lazy initialized
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | [VideoCollection](../../com.aspose.slides/videocollection) |  |
-| blobHandler | com.aspose.foundation.blob.IBlobHandler |  |
-
 ### getContentType() {#getContentType--}
 ```
 public final String getContentType()

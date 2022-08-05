@@ -14,23 +14,12 @@ public final class PictureFillMode extends System.Enum
 ```
 
 Determines how picture will fill area.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [PictureFillMode()](#PictureFillMode--) |  |
 ## Fields
 
 | Field | Description |
 | --- | --- |
 | [Tile](#Tile) |  |
 | [Stretch](#Stretch) |  |
-### PictureFillMode() {#PictureFillMode--}
-```
-private PictureFillMode()
-```
-
-
 ### Tile {#Tile}
 ```
 public static final int Tile

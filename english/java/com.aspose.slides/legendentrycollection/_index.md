@@ -17,28 +17,12 @@ public class LegendEntryCollection implements ILegendEntryCollection
 ```
 
 Represents legends collection.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [LegendEntryCollection(Chart parent)](#LegendEntryCollection-com.aspose.slides.Chart-) |  |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [get_Item(int index)](#get-Item-int-) | Gets properties of the legend entry corresponding to Chart.ChartData.Series[0].DataPoints[index] in case of chart type from this list: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie; or corresponding to Chart.ChartData.Series[index] for other chart types. |
 | [getCount()](#getCount--) | Gets the number of legend entries. |
-### LegendEntryCollection(Chart parent) {#LegendEntryCollection-com.aspose.slides.Chart-}
-```
- LegendEntryCollection(Chart parent)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parent | [Chart](../../com.aspose.slides/chart) |  |
-
 ### get_Item(int index) {#get-Item-int-}
 ```
 public final ILegendEntryProperties get_Item(int index)

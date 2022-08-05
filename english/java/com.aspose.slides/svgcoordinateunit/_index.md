@@ -14,11 +14,6 @@ public final class SvgCoordinateUnit extends System.Enum
 ```
 
 Represents CSS2 coordinate units used to define SVG coordinates.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [SvgCoordinateUnit()](#SvgCoordinateUnit--) |  |
 ## Fields
 
 | Field | Description |
@@ -32,12 +27,6 @@ Represents CSS2 coordinate units used to define SVG coordinates.
 | [Ex](#Ex) | Ex size (size of lowercase letter, usualy "x") of font of containing element. |
 | [Pixel](#Pixel) | Pixel size. |
 | [Percent](#Percent) | Percent. |
-### SvgCoordinateUnit() {#SvgCoordinateUnit--}
-```
-private SvgCoordinateUnit()
-```
-
-
 ### Inch {#Inch}
 ```
 public static final int Inch

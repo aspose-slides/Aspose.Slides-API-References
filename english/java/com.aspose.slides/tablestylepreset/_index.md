@@ -14,11 +14,6 @@ public final class TableStylePreset extends System.Enum
 ```
 
 Represents builtin table styles.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [TableStylePreset()](#TableStylePreset--) |  |
 ## Fields
 
 | Field | Description |
@@ -99,12 +94,6 @@ Represents builtin table styles.
 | [DarkStyle2Accent3Accent4](#DarkStyle2Accent3Accent4) | Dark Style 2 - Accent 3/Accent 4. |
 | [DarkStyle2Accent5Accent6](#DarkStyle2Accent5Accent6) | Dark Style 2 - Accent 5/Accent 6. |
 | [LightStyle1Accent5](#LightStyle1Accent5) | Light Style 1 - Accent 5. |
-### TableStylePreset() {#TableStylePreset--}
-```
-private TableStylePreset()
-```
-
-
 ### Custom {#Custom}
 ```
 public static final int Custom

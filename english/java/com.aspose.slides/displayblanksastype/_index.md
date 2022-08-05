@@ -14,11 +14,6 @@ public final class DisplayBlanksAsType extends System.Enum
 ```
 
 Determines how missing data will be displayed.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [DisplayBlanksAsType()](#DisplayBlanksAsType--) |  |
 ## Fields
 
 | Field | Description |
@@ -26,12 +21,6 @@ Determines how missing data will be displayed.
 | [Gap](#Gap) | Specifies that blank values shall be left as a gap. |
 | [Span](#Span) | Specifies that blank values shall be spanned with a line. |
 | [Zero](#Zero) | Specifies that blank values shall be treated as zero. |
-### DisplayBlanksAsType() {#DisplayBlanksAsType--}
-```
-private DisplayBlanksAsType()
-```
-
-
 ### Gap {#Gap}
 ```
 public static final int Gap

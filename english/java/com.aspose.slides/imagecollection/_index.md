@@ -17,11 +17,6 @@ public final class ImageCollection extends DomObject<Presentation> implements II
 ```
 
 Represents collection of PPImage.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [ImageCollection(Presentation parentImmediate)](#ImageCollection-com.aspose.slides.Presentation-) |  |
 ## Methods
 
 | Method | Description |
@@ -39,17 +34,6 @@ Represents collection of PPImage.
 | [copyTo(System.Array array, int index)](#copyTo-com.aspose.ms.System.Array-int-) | Copies all elements from the collection to the specified array. |
 | [isSynchronized()](#isSynchronized--) | Returns a value indicating whether access to the collection is synchronized (thread-safe). |
 | [getSyncRoot()](#getSyncRoot--) | Returns a synchronization root. |
-### ImageCollection(Presentation parentImmediate) {#ImageCollection-com.aspose.slides.Presentation-}
-```
- ImageCollection(Presentation parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | [Presentation](../../com.aspose.slides/presentation) |  |
-
 ### size() {#size--}
 ```
 public final int size()

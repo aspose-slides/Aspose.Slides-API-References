@@ -17,30 +17,12 @@ public class SideDirectionTransition extends TransitionValueBase implements ISid
 ```
 
 Side direction slide transition effect.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [SideDirectionTransition(int type)](#SideDirectionTransition-int-) | Constructor for side direction slide transition effects. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [getDirection()](#getDirection--) | Direction of transition. |
 | [setDirection(int value)](#setDirection-int-) | Direction of transition. |
-### SideDirectionTransition(int type) {#SideDirectionTransition-int-}
-```
- SideDirectionTransition(int type)
-```
-
-
-Constructor for side direction slide transition effects.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| type | int | Type of a transition effect. |
-
 ### getDirection() {#getDirection--}
 ```
 public final int getDirection()

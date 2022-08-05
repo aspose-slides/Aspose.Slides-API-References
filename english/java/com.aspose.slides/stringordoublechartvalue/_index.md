@@ -19,11 +19,6 @@ public class StringOrDoubleChartValue extends BaseChartValue implements IStringO
 ```
 
 Represent string or double value which can be stored in pptx presentation document in two ways: 1) in cell/cells of workbook related to chart; 2) as literal value.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [StringOrDoubleChartValue(IDOMObject parentImmediate, DataSourceTypeHolder dataSourceTypeHolder, boolean centralizedTypeChangingRestriction)](#StringOrDoubleChartValue-com.aspose.slides.IDOMObject-com.aspose.slides.DataSourceTypeHolder-boolean-) |  |
 ## Methods
 
 | Method | Description |
@@ -37,19 +32,6 @@ Represent string or double value which can be stored in pptx presentation docume
 | [getData()](#getData--) | Returns or sets Data object. |
 | [setData(Object value)](#setData-java.lang.Object-) | Returns or sets Data object. |
 | [toDouble()](#toDouble--) | Converts to double. |
-### StringOrDoubleChartValue(IDOMObject parentImmediate, DataSourceTypeHolder dataSourceTypeHolder, boolean centralizedTypeChangingRestriction) {#StringOrDoubleChartValue-com.aspose.slides.IDOMObject-com.aspose.slides.DataSourceTypeHolder-boolean-}
-```
- StringOrDoubleChartValue(IDOMObject parentImmediate, DataSourceTypeHolder dataSourceTypeHolder, boolean centralizedTypeChangingRestriction)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | com.aspose.slides.IDOMObject |  |
-| dataSourceTypeHolder | com.aspose.slides.DataSourceTypeHolder |  |
-| centralizedTypeChangingRestriction | boolean |  |
-
 ### getAsCell() {#getAsCell--}
 ```
 public final IChartDataCell getAsCell()

@@ -17,11 +17,6 @@ public class DataLabelFormat extends PVIObject implements IDataLabelFormat
 ```
 
 Represents formatting options for DataLabel.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [DataLabelFormat(IDOMObject parentImmediate)](#DataLabelFormat-com.aspose.slides.IDOMObject-) |  |
 ## Methods
 
 | Method | Description |
@@ -55,17 +50,6 @@ Represents formatting options for DataLabel.
 | [setSeparator(String value)](#setSeparator-java.lang.String-) | Sets or returns a Variant representing the separator used for the data labels on a chart. |
 | [getTextFormat()](#getTextFormat--) | Returns chart text format. |
 | [getChart()](#getChart--) | Returns the chart. |
-### DataLabelFormat(IDOMObject parentImmediate) {#DataLabelFormat-com.aspose.slides.IDOMObject-}
-```
- DataLabelFormat(IDOMObject parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | com.aspose.slides.IDOMObject |  |
-
 ### isNumberFormatLinkedToSource() {#isNumberFormatLinkedToSource--}
 ```
 public final boolean isNumberFormatLinkedToSource()

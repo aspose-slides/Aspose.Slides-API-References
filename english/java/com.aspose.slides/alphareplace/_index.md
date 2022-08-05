@@ -17,11 +17,6 @@ public class AlphaReplace extends ImageTransformOperation implements IAlphaRepla
 ```
 
 Represents and Alpha Replace effect. Effect alpha (opacity) values are replaced by a fixed alpha.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [AlphaReplace(float alpha, IDOMObject parentImmediate)](#AlphaReplace-float-com.aspose.slides.IDOMObject-) | Alpha Replace effect constructor. |
 ## Methods
 
 | Method | Description |
@@ -29,20 +24,6 @@ Represents and Alpha Replace effect. Effect alpha (opacity) values are replaced 
 | [getEffective()](#getEffective--) | Gets effective Alpha Replace effect data with the inheritance applied. |
 | [equals(Object obj)](#equals-java.lang.Object-) | Determines whether the specified [AlphaReplace](../../com.aspose.slides/alphareplace) is equal to the current [AlphaReplace](../../com.aspose.slides/alphareplace). |
 | [hashCode()](#hashCode--) | Serves as a hash function for a particular type. |
-### AlphaReplace(float alpha, IDOMObject parentImmediate) {#AlphaReplace-float-com.aspose.slides.IDOMObject-}
-```
- AlphaReplace(float alpha, IDOMObject parentImmediate)
-```
-
-
-Alpha Replace effect constructor.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| alpha | float |  |
-| parentImmediate | com.aspose.slides.IDOMObject |  |
-
 ### getEffective() {#getEffective--}
 ```
 public final IAlphaReplaceEffectiveData getEffective()

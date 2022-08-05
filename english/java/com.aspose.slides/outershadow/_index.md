@@ -17,11 +17,6 @@ public class OuterShadow implements IOuterShadow, IVisualEffect, IDOMObject, IPV
 ```
 
 Represents an Outer Shadow effect.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [OuterShadow(IDOMObject parentImmediate)](#OuterShadow-com.aspose.slides.IDOMObject-) | Default constructor. |
 ## Methods
 
 | Method | Description |
@@ -52,19 +47,6 @@ Represents an Outer Shadow effect.
 | [equals(Object obj)](#equals-java.lang.Object-) | Determines whether the specified [OuterShadow](../../com.aspose.slides/outershadow) is equal to the current [OuterShadow](../../com.aspose.slides/outershadow). |
 | [hashCode()](#hashCode--) | Serves as a hash function for a particular type. |
 | [memberwiseClone()](#memberwiseClone--) |  |
-### OuterShadow(IDOMObject parentImmediate) {#OuterShadow-com.aspose.slides.IDOMObject-}
-```
- OuterShadow(IDOMObject parentImmediate)
-```
-
-
-Default constructor.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | com.aspose.slides.IDOMObject |  |
-
 ### getBlurRadius() {#getBlurRadius--}
 ```
 public final double getBlurRadius()

@@ -15,23 +15,12 @@ public final class LoadingStreamBehavior extends System.Enum
 ```
 
 The java.io.InputStream passed to a method is considered as a Binary Large Object (BLOB) (see [IBlobManagementOptions](../../com.aspose.slides/iblobmanagementoptions) description). Values of this enumeration identify how the java.io.InputStream should be treated when it passed to the method. Depending on the requirements, different decisions could be made to provide the most efficient behavior.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [LoadingStreamBehavior()](#LoadingStreamBehavior--) |  |
 ## Fields
 
 | Field | Description |
 | --- | --- |
 | [ReadStreamAndRelease](#ReadStreamAndRelease) | The stream will be read to the end and then released - i.e. it will be guaranteed that this stream will not be used by [IPresentation](../../com.aspose.slides/ipresentation) instance in the future. |
 | [KeepLocked](#KeepLocked) | The stream will be locked inside the [IPresentation](../../com.aspose.slides/ipresentation) object, i.e. the ownership of the stream will be transferred. |
-### LoadingStreamBehavior() {#LoadingStreamBehavior--}
-```
-private LoadingStreamBehavior()
-```
-
-
 ### ReadStreamAndRelease {#ReadStreamAndRelease}
 ```
 public static final int ReadStreamAndRelease

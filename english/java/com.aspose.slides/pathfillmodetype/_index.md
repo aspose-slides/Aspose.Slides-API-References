@@ -14,11 +14,6 @@ public final class PathFillModeType extends System.Enum
 ```
 
 Specifies the manner in which a path should be filled
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [PathFillModeType()](#PathFillModeType--) |  |
 ## Fields
 
 | Field | Description |
@@ -29,12 +24,6 @@ Specifies the manner in which a path should be filled
 | [LightenLess](#LightenLess) | Lighten Path Fill Less This specifies that the corresponding path should have a slightly lighter shaded color applied to it\\u2019s fill. |
 | [Darken](#Darken) | Darken Path Fill This specifies that the corresponding path should have a darker shaded color applied to it\\u2019s fill. |
 | [DarkenLess](#DarkenLess) | Darken Path Fill Less This specifies that the corresponding path should have a slightly darker shaded color applied to it\\u2019s fill. |
-### PathFillModeType() {#PathFillModeType--}
-```
-private PathFillModeType()
-```
-
-
 ### None {#None}
 ```
 public static final byte None

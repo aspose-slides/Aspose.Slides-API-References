@@ -16,11 +16,6 @@ public final class MathNaryOperatorTypes extends System.Enum
 ```
 
 Nary operator IMathNaryOperator types (excluding integrals) For integrals [MathIntegralTypes](../../com.aspose.slides/mathintegraltypes)
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [MathNaryOperatorTypes()](#MathNaryOperatorTypes--) |  |
 ## Fields
 
 | Field | Description |
@@ -32,12 +27,6 @@ Nary operator IMathNaryOperator types (excluding integrals) For integrals [MathI
 | [Union](#Union) | Union: '\\u222a' |
 | [LogicalAnd](#LogicalAnd) | Logical And: '\\u2227' |
 | [LogicalOr](#LogicalOr) | Logical Or: '\\u2228' |
-### MathNaryOperatorTypes() {#MathNaryOperatorTypes--}
-```
-private MathNaryOperatorTypes()
-```
-
-
 ### Summation {#Summation}
 ```
 public static final int Summation

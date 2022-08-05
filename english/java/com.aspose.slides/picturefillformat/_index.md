@@ -17,11 +17,6 @@ public class PictureFillFormat extends PVIObject implements IPictureFillFormat
 ```
 
 Represents a picture fill style.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [PictureFillFormat(IDOMObject parentImmediate)](#PictureFillFormat-com.aspose.slides.IDOMObject-) |  |
 ## Methods
 
 | Method | Description |
@@ -47,17 +42,6 @@ Represents a picture fill style.
 | [setStretchOffsetRight(float value)](#setStretchOffsetRight-float-) | Returns or sets right edge of the fill rectangle that is defined by a percentage offset from the right edge of the shape's bounding box. |
 | [getStretchOffsetBottom()](#getStretchOffsetBottom--) | Returns or sets bottom edge of the fill rectangle that is defined by a percentage offset from the bottom edge of the shape's bounding box. |
 | [setStretchOffsetBottom(float value)](#setStretchOffsetBottom-float-) | Returns or sets bottom edge of the fill rectangle that is defined by a percentage offset from the bottom edge of the shape's bounding box. |
-### PictureFillFormat(IDOMObject parentImmediate) {#PictureFillFormat-com.aspose.slides.IDOMObject-}
-```
- PictureFillFormat(IDOMObject parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | com.aspose.slides.IDOMObject |  |
-
 ### getDpi() {#getDpi--}
 ```
 public final int getDpi()

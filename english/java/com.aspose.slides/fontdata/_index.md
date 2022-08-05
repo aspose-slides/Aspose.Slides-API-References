@@ -22,15 +22,6 @@ Represents a font definition. Immutable.
 | Constructor | Description |
 | --- | --- |
 | [FontData(String fontName)](#FontData-java.lang.String-) | Creates a new FontData object with the specified font name. |
-| [FontData(String fontName, byte charSet)](#FontData-java.lang.String-byte-) |  |
-| [FontData(String fontName, byte charSet, byte pitchFamily)](#FontData-java.lang.String-byte-byte-) |  |
-| [FontData(String fontName, byte charSet, byte pitchFamily, int fontStyle, byte[] panose)](#FontData-java.lang.String-byte-byte-int-byte---) |  |
-| [FontData(FontData fontData)](#FontData-com.aspose.slides.FontData-) |  |
-| [FontData(FontData fontData, String fontName)](#FontData-com.aspose.slides.FontData-java.lang.String-) |  |
-| [FontData(FontData fontData, String fontName, byte charSet)](#FontData-com.aspose.slides.FontData-java.lang.String-byte-) |  |
-| [FontData(FontData fontData, int fontStyle)](#FontData-com.aspose.slides.FontData-int-) |  |
-| [FontData(FontData fontData, String fontName, byte charSet, byte pitchFamily)](#FontData-com.aspose.slides.FontData-java.lang.String-byte-byte-) |  |
-| [FontData(String fontName, FontEntityAtom fatom)](#FontData-java.lang.String-com.aspose.slides.pptbinaryfile.FontEntityAtom-) |  |
 ## Methods
 
 | Method | Description |
@@ -52,120 +43,6 @@ Creates a new FontData object with the specified font name.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fontName | java.lang.String | Font name. |
-
-### FontData(String fontName, byte charSet) {#FontData-java.lang.String-byte-}
-```
- FontData(String fontName, byte charSet)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| fontName | java.lang.String |  |
-| charSet | byte |  |
-
-### FontData(String fontName, byte charSet, byte pitchFamily) {#FontData-java.lang.String-byte-byte-}
-```
- FontData(String fontName, byte charSet, byte pitchFamily)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| fontName | java.lang.String |  |
-| charSet | byte |  |
-| pitchFamily | byte |  |
-
-### FontData(String fontName, byte charSet, byte pitchFamily, int fontStyle, byte[] panose) {#FontData-java.lang.String-byte-byte-int-byte---}
-```
- FontData(String fontName, byte charSet, byte pitchFamily, int fontStyle, byte[] panose)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| fontName | java.lang.String |  |
-| charSet | byte |  |
-| pitchFamily | byte |  |
-| fontStyle | int |  |
-| panose | byte[] |  |
-
-### FontData(FontData fontData) {#FontData-com.aspose.slides.FontData-}
-```
- FontData(FontData fontData)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| fontData | [FontData](../../com.aspose.slides/fontdata) |  |
-
-### FontData(FontData fontData, String fontName) {#FontData-com.aspose.slides.FontData-java.lang.String-}
-```
- FontData(FontData fontData, String fontName)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| fontData | [FontData](../../com.aspose.slides/fontdata) |  |
-| fontName | java.lang.String |  |
-
-### FontData(FontData fontData, String fontName, byte charSet) {#FontData-com.aspose.slides.FontData-java.lang.String-byte-}
-```
- FontData(FontData fontData, String fontName, byte charSet)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| fontData | [FontData](../../com.aspose.slides/fontdata) |  |
-| fontName | java.lang.String |  |
-| charSet | byte |  |
-
-### FontData(FontData fontData, int fontStyle) {#FontData-com.aspose.slides.FontData-int-}
-```
- FontData(FontData fontData, int fontStyle)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| fontData | [FontData](../../com.aspose.slides/fontdata) |  |
-| fontStyle | int |  |
-
-### FontData(FontData fontData, String fontName, byte charSet, byte pitchFamily) {#FontData-com.aspose.slides.FontData-java.lang.String-byte-byte-}
-```
- FontData(FontData fontData, String fontName, byte charSet, byte pitchFamily)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| fontData | [FontData](../../com.aspose.slides/fontdata) |  |
-| fontName | java.lang.String |  |
-| charSet | byte |  |
-| pitchFamily | byte |  |
-
-### FontData(String fontName, FontEntityAtom fatom) {#FontData-java.lang.String-com.aspose.slides.pptbinaryfile.FontEntityAtom-}
-```
- FontData(String fontName, FontEntityAtom fatom)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| fontName | java.lang.String |  |
-| fatom | com.aspose.slides.pptbinaryfile.FontEntityAtom |  |
 
 ### getFontName() {#getFontName--}
 ```

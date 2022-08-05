@@ -14,11 +14,6 @@ public final class CameraPresetType extends System.Enum
 ```
 
 Constants which define camera preset type.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [CameraPresetType()](#CameraPresetType--) |  |
 ## Fields
 
 | Field | Description |
@@ -86,12 +81,6 @@ Constants which define camera preset type.
 | [PerspectiveRelaxed](#PerspectiveRelaxed) |  |
 | [PerspectiveRelaxedModerately](#PerspectiveRelaxedModerately) |  |
 | [PerspectiveRight](#PerspectiveRight) |  |
-### CameraPresetType() {#CameraPresetType--}
-```
-private CameraPresetType()
-```
-
-
 ### NotDefined {#NotDefined}
 ```
 public static final int NotDefined

@@ -17,12 +17,6 @@ public class LightRig extends PVIObject implements ILightRig
 ```
 
 Represents LightRig.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [LightRig(IDOMObject parentImmediate)](#LightRig-com.aspose.slides.IDOMObject-) |  |
-| [LightRig()](#LightRig--) |  |
 ## Methods
 
 | Method | Description |
@@ -33,23 +27,6 @@ Represents LightRig.
 | [setLightType(int value)](#setLightType-int-) | Represents a preset light right that can be applied to a shape. |
 | [setRotation(float latitude, float longitude, float revolution)](#setRotation-float-float-float-) | A rotation is defined through the use of a latitude coordinate, a longitude coordinate, and a revolution about the axis as the latitude and longitude coordinates. |
 | [getRotation()](#getRotation--) | A rotation is defined through the use of a latitude coordinate, a longitude coordinate, and a revolution about the axis as the latitude and longitude coordinates. |
-### LightRig(IDOMObject parentImmediate) {#LightRig-com.aspose.slides.IDOMObject-}
-```
- LightRig(IDOMObject parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | com.aspose.slides.IDOMObject |  |
-
-### LightRig() {#LightRig--}
-```
- LightRig()
-```
-
-
 ### getDirection() {#getDirection--}
 ```
 public final int getDirection()

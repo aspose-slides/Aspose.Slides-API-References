@@ -17,30 +17,12 @@ public class EightDirectionTransition extends TransitionValueBase implements IEi
 ```
 
 Eight direction slide transition effect.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [EightDirectionTransition(int type)](#EightDirectionTransition-int-) | Constructor for eight direction slide transition effects. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [getDirection()](#getDirection--) | Direction of transition. |
 | [setDirection(int value)](#setDirection-int-) | Direction of transition. |
-### EightDirectionTransition(int type) {#EightDirectionTransition-int-}
-```
- EightDirectionTransition(int type)
-```
-
-
-Constructor for eight direction slide transition effects.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| type | int | Type of a transition effect. |
-
 ### getDirection() {#getDirection--}
 ```
 public final int getDirection()

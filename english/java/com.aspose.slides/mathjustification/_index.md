@@ -14,11 +14,6 @@ public final class MathJustification extends System.Enum
 ```
 
 Specifies justification of the math paragraph (a series of adjacent instances of mathematical text within the same paragraph)
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [MathJustification()](#MathJustification--) |  |
 ## Fields
 
 | Field | Description |
@@ -27,12 +22,6 @@ Specifies justification of the math paragraph (a series of adjacent instances of
 | [RightJustified](#RightJustified) | Align mathematical text to the right |
 | [Centered](#Centered) | Align mathematical text to the center |
 | [CenteredAsGroup](#CenteredAsGroup) | Center on the page the entire group of math blocks as a single unit. |
-### MathJustification() {#MathJustification--}
-```
-private MathJustification()
-```
-
-
 ### LeftJustified {#LeftJustified}
 ```
 public static final int LeftJustified

@@ -27,7 +27,6 @@ In order to get the effective formatting parameter values including inherited yo
 
 | Constructor | Description |
 | --- | --- |
-| [PortionFormat(IDOMObject parentImmediate)](#PortionFormat-com.aspose.slides.IDOMObject-) |  |
 | [PortionFormat()](#PortionFormat--) | Initializes a new instance of [PortionFormat](../../com.aspose.slides/portionformat) class. |
 ## Methods
 
@@ -43,17 +42,6 @@ In order to get the effective formatting parameter values including inherited yo
 | [setHyperlinkMouseOver(IHyperlink value)](#setHyperlinkMouseOver-com.aspose.slides.IHyperlink-) | Returns or sets the hyperlink defined for mouse over. |
 | [getHyperlinkManager()](#getHyperlinkManager--) | Hyperlinks manager. |
 | [getEffective()](#getEffective--) | Gets effective portion formatting data with the inheritance applied. |
-### PortionFormat(IDOMObject parentImmediate) {#PortionFormat-com.aspose.slides.IDOMObject-}
-```
- PortionFormat(IDOMObject parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | com.aspose.slides.IDOMObject |  |
-
 ### PortionFormat() {#PortionFormat--}
 ```
 public PortionFormat()

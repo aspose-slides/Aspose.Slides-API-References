@@ -17,11 +17,6 @@ public class GlitterTransition extends TransitionValueBase implements IGlitterTr
 ```
 
 Glitter slide transition effect.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [GlitterTransition(int type)](#GlitterTransition-int-) | Constructor for glitter slide transition effect. |
 ## Methods
 
 | Method | Description |
@@ -30,19 +25,6 @@ Glitter slide transition effect.
 | [setDirection(int value)](#setDirection-int-) | Direction of transition. |
 | [getPattern()](#getPattern--) | Specifies the shape of the visuals used during the transition. |
 | [setPattern(int value)](#setPattern-int-) | Specifies the shape of the visuals used during the transition. |
-### GlitterTransition(int type) {#GlitterTransition-int-}
-```
- GlitterTransition(int type)
-```
-
-
-Constructor for glitter slide transition effect.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| type | int | Type of a transition effect. |
-
 ### getDirection() {#getDirection--}
 ```
 public final int getDirection()

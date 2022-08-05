@@ -14,11 +14,6 @@ public final class SourceFormat extends System.Enum
 ```
 
 Represents source file format.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [SourceFormat()](#SourceFormat--) |  |
 ## Fields
 
 | Field | Description |
@@ -26,12 +21,6 @@ Represents source file format.
 | [Ppt](#Ppt) | PPT format. |
 | [Pptx](#Pptx) | Pptx format. |
 | [Odp](#Odp) | Odp format. |
-### SourceFormat() {#SourceFormat--}
-```
-private SourceFormat()
-```
-
-
 ### Ppt {#Ppt}
 ```
 public static final int Ppt

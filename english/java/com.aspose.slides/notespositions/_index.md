@@ -14,11 +14,6 @@ public final class NotesPositions extends System.Enum
 ```
 
 Represents the rule to render notes into exported document
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [NotesPositions()](#NotesPositions--) |  |
 ## Fields
 
 | Field | Description |
@@ -26,12 +21,6 @@ Represents the rule to render notes into exported document
 | [None](#None) | Specifies that notes should not be displayed at all. |
 | [BottomFull](#BottomFull) | Specifies that notes should be full displayed using additional pages as it is needed. |
 | [BottomTruncated](#BottomTruncated) | Specifies that notes should be displayed in only one page. |
-### NotesPositions() {#NotesPositions--}
-```
-private NotesPositions()
-```
-
-
 ### None {#None}
 ```
 public static final int None

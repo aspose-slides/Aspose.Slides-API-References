@@ -17,11 +17,6 @@ public class ChartPlotArea extends DomObject<Chart> implements IChartPlotArea
 ```
 
 Represents rectangle where chart should be plotted.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [ChartPlotArea(Chart parentImmediate)](#ChartPlotArea-com.aspose.slides.Chart-) |  |
 ## Methods
 
 | Method | Description |
@@ -47,17 +42,6 @@ Represents rectangle where chart should be plotted.
 | [getActualHeight()](#getActualHeight--) | Specifies actual height of the chart element. |
 | [getSlide()](#getSlide--) | Returns the parent slide of a FillFormat. |
 | [getPresentation()](#getPresentation--) | Returns the parent presentation of a FillFormat. |
-### ChartPlotArea(Chart parentImmediate) {#ChartPlotArea-com.aspose.slides.Chart-}
-```
- ChartPlotArea(Chart parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | [Chart](../../com.aspose.slides/chart) |  |
-
 ### getFormat() {#getFormat--}
 ```
 public final IFormat getFormat()

@@ -17,27 +17,11 @@ public abstract class BaseHeaderFooterManager implements IBaseHeaderFooterManage
 ```
 
 Represents manager which holds behavior of the footer, date-time, page number placeholders for all slide types.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [BaseHeaderFooterManager(IDOMObject parentImmediate)](#BaseHeaderFooterManager-com.aspose.slides.IDOMObject-) |  |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [getParent_Immediate()](#getParent-Immediate--) |  |
-### BaseHeaderFooterManager(IDOMObject parentImmediate) {#BaseHeaderFooterManager-com.aspose.slides.IDOMObject-}
-```
- BaseHeaderFooterManager(IDOMObject parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | com.aspose.slides.IDOMObject |  |
-
 ### getParent_Immediate() {#getParent-Immediate--}
 ```
 public final IDOMObject getParent_Immediate()

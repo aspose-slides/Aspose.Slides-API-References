@@ -17,11 +17,6 @@ public final class HyperlinkManager implements IHyperlinkManager, IDOMObject
 ```
 
 Provide hyperlinks management (adding, removing).
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [HyperlinkManager(IHyperlinkContainer parentImmediate)](#HyperlinkManager-com.aspose.slides.IHyperlinkContainer-) |  |
 ## Methods
 
 | Method | Description |
@@ -34,17 +29,6 @@ Provide hyperlinks management (adding, removing).
 | [removeHyperlinkMouseOver()](#removeHyperlinkMouseOver--) | Removes hyperlink mouse over. |
 | [setMacroHyperlinkClick(String macroName)](#setMacroHyperlinkClick-java.lang.String-) | Set Macro hyperlink on a click. |
 | [getParent_Immediate()](#getParent-Immediate--) |  |
-### HyperlinkManager(IHyperlinkContainer parentImmediate) {#HyperlinkManager-com.aspose.slides.IHyperlinkContainer-}
-```
- HyperlinkManager(IHyperlinkContainer parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | [IHyperlinkContainer](../../com.aspose.slides/ihyperlinkcontainer) |  |
-
 ### setExternalHyperlinkClick(String url) {#setExternalHyperlinkClick-java.lang.String-}
 ```
 public final IHyperlink setExternalHyperlinkClick(String url)

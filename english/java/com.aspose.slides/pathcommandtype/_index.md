@@ -14,11 +14,6 @@ public final class PathCommandType extends System.Enum
 ```
 
 Represents graphics path commands
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [PathCommandType()](#PathCommandType--) |  |
 ## Fields
 
 | Field | Description |
@@ -29,12 +24,6 @@ Represents graphics path commands
 | [ArcTo](#ArcTo) | Appends the specified arc to the geometry path. |
 | [QuadBezierTo](#QuadBezierTo) | Appends quadratic Bezier curve to the geometry path |
 | [CubicBezierTo](#CubicBezierTo) | Appends cubic Bezier curve to the geometry path |
-### PathCommandType() {#PathCommandType--}
-```
-private PathCommandType()
-```
-
-
 ### Close {#Close}
 ```
 public static final byte Close

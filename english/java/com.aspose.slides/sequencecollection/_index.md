@@ -17,11 +17,6 @@ public class SequenceCollection implements ISequenceCollection
 ```
 
 Represents collection of interactive sequences.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [SequenceCollection(AnimationTimeLine tl)](#SequenceCollection-com.aspose.slides.AnimationTimeLine-) |  |
 ## Methods
 
 | Method | Description |
@@ -34,17 +29,6 @@ Represents collection of interactive sequences.
 | [get_Item(int index)](#get-Item-int-) | Returns a sequense at the specified index. |
 | [iterator()](#iterator--) | Returns an enumerator that iterates through the collection. |
 | [iteratorJava()](#iteratorJava--) | Returns a java iterator for the entire collection. |
-### SequenceCollection(AnimationTimeLine tl) {#SequenceCollection-com.aspose.slides.AnimationTimeLine-}
-```
- SequenceCollection(AnimationTimeLine tl)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| tl | [AnimationTimeLine](../../com.aspose.slides/animationtimeline) |  |
-
 ### getCount() {#getCount--}
 ```
 public final int getCount()

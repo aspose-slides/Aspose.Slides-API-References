@@ -17,11 +17,6 @@ public class MasterNotesSlide extends BaseSlide implements IMasterNotesSlide
 ```
 
 Represents master slide for notes.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [MasterNotesSlide(MasterNotesSlideManager parentImmediate)](#MasterNotesSlide-com.aspose.slides.MasterNotesSlideManager-) |  |
 ## Methods
 
 | Method | Description |
@@ -31,17 +26,6 @@ Represents master slide for notes.
 | [getHeaderFooterManager()](#getHeaderFooterManager--) | Returns HeaderFooter manager of the master notes slide. |
 | [getThemeManager()](#getThemeManager--) | Returns the theme manager. |
 | [getNotesStyle()](#getNotesStyle--) | Returns the style of a notes text. |
-### MasterNotesSlide(MasterNotesSlideManager parentImmediate) {#MasterNotesSlide-com.aspose.slides.MasterNotesSlideManager-}
-```
- MasterNotesSlide(MasterNotesSlideManager parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | com.aspose.slides.MasterNotesSlideManager |  |
-
 ### getShowMasterShapes() {#getShowMasterShapes--}
 ```
 public boolean getShowMasterShapes()

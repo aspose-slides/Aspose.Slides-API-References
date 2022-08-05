@@ -14,11 +14,6 @@ public final class DisplayUnitType extends System.Enum
 ```
 
 Determines multiplicity of the displayed data.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [DisplayUnitType()](#DisplayUnitType--) |  |
 ## Fields
 
 | Field | Description |
@@ -34,12 +29,6 @@ Determines multiplicity of the displayed data.
 | [Billions](#Billions) | Specifies the values on the chart shall be divided by 1,000,000,000. |
 | [Trillions](#Trillions) | Specifies the values on the chart shall be divided by 1,000,000,000. |
 | [CustomValue](#CustomValue) | Specifies the values on the chart shall be divided by a custom value. |
-### DisplayUnitType() {#DisplayUnitType--}
-```
-private DisplayUnitType()
-```
-
-
 ### None {#None}
 ```
 public static final int None

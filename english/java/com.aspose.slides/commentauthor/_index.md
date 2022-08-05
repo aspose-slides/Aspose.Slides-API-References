@@ -17,11 +17,6 @@ public final class CommentAuthor implements ICommentAuthor, IDOMObject
 ```
 
 Represents an author of comments.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [CommentAuthor(CommentAuthorCollection parentImmediate, long id, String name, String initials)](#CommentAuthor-com.aspose.slides.CommentAuthorCollection-long-java.lang.String-java.lang.String-) |  |
 ## Methods
 
 | Method | Description |
@@ -33,20 +28,6 @@ Represents an author of comments.
 | [getComments()](#getComments--) | Returns the collection of comments made by this author. |
 | [remove()](#remove--) | Removes the author from the parent collection. |
 | [getParent_Immediate()](#getParent-Immediate--) |  |
-### CommentAuthor(CommentAuthorCollection parentImmediate, long id, String name, String initials) {#CommentAuthor-com.aspose.slides.CommentAuthorCollection-long-java.lang.String-java.lang.String-}
-```
- CommentAuthor(CommentAuthorCollection parentImmediate, long id, String name, String initials)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | [CommentAuthorCollection](../../com.aspose.slides/commentauthorcollection) |  |
-| id | long |  |
-| name | java.lang.String |  |
-| initials | java.lang.String |  |
-
 ### getName() {#getName--}
 ```
 public final String getName()

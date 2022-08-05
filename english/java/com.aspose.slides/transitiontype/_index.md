@@ -14,11 +14,6 @@ public final class TransitionType extends System.Enum
 ```
 
 Represent slide show transition type.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [TransitionType()](#TransitionType--) |  |
 ## Fields
 
 | Field | Description |
@@ -80,12 +75,6 @@ Represent slide show transition type.
 | [Airplane](#Airplane) | Available in PowerPoint 2013. |
 | [Origami](#Origami) | Available in PowerPoint 2013. |
 | [Morph](#Morph) | Relates to transition Morph (with option Type) in PowerPoint 2019. |
-### TransitionType() {#TransitionType--}
-```
-private TransitionType()
-```
-
-
 ### None {#None}
 ```
 public static final int None

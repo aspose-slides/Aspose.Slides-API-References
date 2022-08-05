@@ -17,11 +17,6 @@ public class Reflection implements IReflection, IVisualEffect, IDOMObject, IPVIO
 ```
 
 Represents a Reflection effect.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [Reflection(IDOMObject parentImmediate)](#Reflection-com.aspose.slides.IDOMObject-) | Creates a new instance of Reflection effect class. |
 ## Methods
 
 | Method | Description |
@@ -61,19 +56,6 @@ Represents a Reflection effect.
 | [equals(Object obj)](#equals-java.lang.Object-) | Determines whether the specified [Reflection](../../com.aspose.slides/reflection) is equal to the current [Reflection](../../com.aspose.slides/reflection). |
 | [hashCode()](#hashCode--) | Serves as a hash function for a particular type. |
 | [memberwiseClone()](#memberwiseClone--) |  |
-### Reflection(IDOMObject parentImmediate) {#Reflection-com.aspose.slides.IDOMObject-}
-```
- Reflection(IDOMObject parentImmediate)
-```
-
-
-Creates a new instance of Reflection effect class.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | com.aspose.slides.IDOMObject |  |
-
 ### getStartPosAlpha() {#getStartPosAlpha--}
 ```
 public final float getStartPosAlpha()

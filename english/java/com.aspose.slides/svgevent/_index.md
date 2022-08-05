@@ -14,11 +14,6 @@ public final class SvgEvent extends System.Enum
 ```
 
 Represents options for SVG shape.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [SvgEvent()](#SvgEvent--) |  |
 ## Fields
 
 | Field | Description |
@@ -42,12 +37,6 @@ Represents options for SVG shape.
 | [OnBegin](#OnBegin) | Occurs when an animation element begins. |
 | [OnEnd](#OnEnd) | Occurs when an animation element ends. |
 | [OnRepeat](#OnRepeat) | Occurs when an animation element repeats. |
-### SvgEvent() {#SvgEvent--}
-```
-private SvgEvent()
-```
-
-
 ### OnFocusIn {#OnFocusIn}
 ```
 public static final int OnFocusIn

@@ -14,11 +14,6 @@ public final class SystemColor extends System.Enum
 ```
 
 Represents predefined system colors.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [SystemColor()](#SystemColor--) |  |
 ## Fields
 
 | Field | Description |
@@ -54,12 +49,6 @@ Represents predefined system colors.
 | [GradientInactiveCaption](#GradientInactiveCaption) |  |
 | [MenuHighlight](#MenuHighlight) |  |
 | [MenuBar](#MenuBar) |  |
-### SystemColor() {#SystemColor--}
-```
-private SystemColor()
-```
-
-
 ### NotDefined {#NotDefined}
 ```
 public static final int NotDefined

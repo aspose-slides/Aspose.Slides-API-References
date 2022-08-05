@@ -17,11 +17,6 @@ public class GraphicalObjectLock extends BaseShapeLock implements IGraphicalObje
 ```
 
 Determines which operations are disabled on the parent GraphicalObject.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [GraphicalObjectLock()](#GraphicalObjectLock--) |  |
 ## Methods
 
 | Method | Description |
@@ -38,12 +33,6 @@ Determines which operations are disabled on the parent GraphicalObject.
 | [setPositionLocked(boolean value)](#setPositionLocked-boolean-) | Determines whether moving this shape is forbidden. |
 | [getSizeLocked()](#getSizeLocked--) | Determines whether resizing this shape is forbidden. |
 | [setSizeLocked(boolean value)](#setSizeLocked-boolean-) | Determines whether resizing this shape is forbidden. |
-### GraphicalObjectLock() {#GraphicalObjectLock--}
-```
- GraphicalObjectLock()
-```
-
-
 ### getGroupingLocked() {#getGroupingLocked--}
 ```
 public boolean getGroupingLocked()

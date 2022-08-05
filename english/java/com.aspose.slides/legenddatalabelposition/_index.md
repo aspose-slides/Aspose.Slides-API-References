@@ -14,11 +14,6 @@ public final class LegendDataLabelPosition extends System.Enum
 ```
 
 Determines position of data labels.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [LegendDataLabelPosition()](#LegendDataLabelPosition--) |  |
 ## Fields
 
 | Field | Description |
@@ -33,12 +28,6 @@ Determines position of data labels.
 | [OutsideEnd](#OutsideEnd) | Specifies that data labels shall be displayed outside the end of the data marker. |
 | [Right](#Right) | Specifies that data labels shall be displayed to the right of the data marker. |
 | [Top](#Top) | Specifies that data labels shall be displayed above the data marker. |
-### LegendDataLabelPosition() {#LegendDataLabelPosition--}
-```
-private LegendDataLabelPosition()
-```
-
-
 ### NotDefined {#NotDefined}
 ```
 public static final int NotDefined

@@ -17,12 +17,6 @@ public class ColorReplace extends ImageTransformOperation implements IColorRepla
 ```
 
 Represents a Color Replacement effect. All effect colors are changed to a fixed color. Alpha values are unaffected.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [ColorReplace(IDOMObject parentImmediate)](#ColorReplace-com.aspose.slides.IDOMObject-) | Color Replace effect constructor. |
-| [ColorReplace(ColorFormat color, IDOMObject parentImmediate)](#ColorReplace-com.aspose.slides.ColorFormat-com.aspose.slides.IDOMObject-) |  |
 ## Methods
 
 | Method | Description |
@@ -33,31 +27,6 @@ Represents a Color Replacement effect. All effect colors are changed to a fixed 
 | [equals(Object obj)](#equals-java.lang.Object-) | Determines whether the specified [ColorReplace](../../com.aspose.slides/colorreplace) is equal to the current [ColorReplace](../../com.aspose.slides/colorreplace). |
 | [hashCode()](#hashCode--) | Serves as a hash function for a particular type. |
 | [memberwiseClone()](#memberwiseClone--) |  |
-### ColorReplace(IDOMObject parentImmediate) {#ColorReplace-com.aspose.slides.IDOMObject-}
-```
- ColorReplace(IDOMObject parentImmediate)
-```
-
-
-Color Replace effect constructor.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | com.aspose.slides.IDOMObject |  |
-
-### ColorReplace(ColorFormat color, IDOMObject parentImmediate) {#ColorReplace-com.aspose.slides.ColorFormat-com.aspose.slides.IDOMObject-}
-```
- ColorReplace(ColorFormat color, IDOMObject parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| color | [ColorFormat](../../com.aspose.slides/colorformat) |  |
-| parentImmediate | com.aspose.slides.IDOMObject |  |
-
 ### getColor() {#getColor--}
 ```
 public final IColorFormat getColor()

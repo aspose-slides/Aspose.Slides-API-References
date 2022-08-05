@@ -17,11 +17,6 @@ public class ChartCategoryLevelsManager implements IChartCategoryLevelsManager
 ```
 
 Managed container of the values of the chart category levels.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [ChartCategoryLevelsManager(IDOMObject parent)](#ChartCategoryLevelsManager-com.aspose.slides.IDOMObject-) |  |
 ## Methods
 
 | Method | Description |
@@ -29,17 +24,6 @@ Managed container of the values of the chart category levels.
 | [get_Item(int level)](#get-Item-int-) | Returns IChartDataCell object for defined level. |
 | [setGroupingItem(int level, Object value)](#setGroupingItem-int-java.lang.Object-) | Sets grouping item for defined level. |
 | [deleteGroupingItem(int level)](#deleteGroupingItem-int-) | Delete grouping item for defined level. |
-### ChartCategoryLevelsManager(IDOMObject parent) {#ChartCategoryLevelsManager-com.aspose.slides.IDOMObject-}
-```
- ChartCategoryLevelsManager(IDOMObject parent)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parent | com.aspose.slides.IDOMObject |  |
-
 ### get_Item(int level) {#get-Item-int-}
 ```
 public final IChartDataCell get_Item(int level)

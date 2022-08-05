@@ -17,11 +17,6 @@ public class AlphaCeiling extends ImageTransformOperation implements IAlphaCeili
 ```
 
 Represents an Alpha Ceiling effect. Alpha (opacity) values greater than zero are changed to 100%. In other words, anything partially opaque becomes fully opaque.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [AlphaCeiling(IDOMObject parentImmediate)](#AlphaCeiling-com.aspose.slides.IDOMObject-) | Alpha Ceiling effect constructor. |
 ## Methods
 
 | Method | Description |
@@ -29,19 +24,6 @@ Represents an Alpha Ceiling effect. Alpha (opacity) values greater than zero are
 | [getEffective()](#getEffective--) | Gets effective Alpha Ceiling effect data with the inheritance applied. |
 | [equals(Object obj)](#equals-java.lang.Object-) | Determines whether the specified [AlphaCeiling](../../com.aspose.slides/alphaceiling) is equal to the current [AlphaCeiling](../../com.aspose.slides/alphaceiling). |
 | [hashCode()](#hashCode--) | Serves as a hash function for a particular type. |
-### AlphaCeiling(IDOMObject parentImmediate) {#AlphaCeiling-com.aspose.slides.IDOMObject-}
-```
- AlphaCeiling(IDOMObject parentImmediate)
-```
-
-
-Alpha Ceiling effect constructor.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | com.aspose.slides.IDOMObject |  |
-
 ### getEffective() {#getEffective--}
 ```
 public final IAlphaCeilingEffectiveData getEffective()

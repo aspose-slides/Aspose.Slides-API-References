@@ -14,11 +14,6 @@ public final class TextAnchorType extends System.Enum
 ```
 
 text box alignment within a text area.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [TextAnchorType()](#TextAnchorType--) |  |
 ## Fields
 
 | Field | Description |
@@ -29,12 +24,6 @@ text box alignment within a text area.
 | [Bottom](#Bottom) |  |
 | [Justified](#Justified) |  |
 | [Distributed](#Distributed) |  |
-### TextAnchorType() {#TextAnchorType--}
-```
-private TextAnchorType()
-```
-
-
 ### NotDefined {#NotDefined}
 ```
 public static final byte NotDefined

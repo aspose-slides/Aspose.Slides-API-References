@@ -14,11 +14,6 @@ public final class LineArrowheadWidth extends System.Enum
 ```
 
 Represents the width of an arrowhead.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [LineArrowheadWidth()](#LineArrowheadWidth--) |  |
 ## Fields
 
 | Field | Description |
@@ -27,12 +22,6 @@ Represents the width of an arrowhead.
 | [Narrow](#Narrow) |  |
 | [Medium](#Medium) |  |
 | [Wide](#Wide) |  |
-### LineArrowheadWidth() {#LineArrowheadWidth--}
-```
-private LineArrowheadWidth()
-```
-
-
 ### NotDefined {#NotDefined}
 ```
 public static final byte NotDefined

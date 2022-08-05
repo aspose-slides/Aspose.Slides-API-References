@@ -14,11 +14,6 @@ public final class TextCapType extends System.Enum
 ```
 
 Represents the type of text capitalisation.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [TextCapType()](#TextCapType--) |  |
 ## Fields
 
 | Field | Description |
@@ -27,12 +22,6 @@ Represents the type of text capitalisation.
 | [None](#None) |  |
 | [Small](#Small) |  |
 | [All](#All) |  |
-### TextCapType() {#TextCapType--}
-```
-private TextCapType()
-```
-
-
 ### NotDefined {#NotDefined}
 ```
 public static final byte NotDefined

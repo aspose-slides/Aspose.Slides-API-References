@@ -17,11 +17,6 @@ public class GrayScale extends ImageTransformOperation implements IGrayScale, IV
 ```
 
 Represents a Gray Scale effect. Converts all effect color values to a shade of gray, corresponding to their luminance. Effect alpha (opacity) values are unaffected.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [GrayScale(IDOMObject parentImmediate)](#GrayScale-com.aspose.slides.IDOMObject-) | Gray Scale effect constructor. |
 ## Methods
 
 | Method | Description |
@@ -29,19 +24,6 @@ Represents a Gray Scale effect. Converts all effect color values to a shade of g
 | [getEffective()](#getEffective--) | Gets effective Gray Scale effect data with the inheritance applied. |
 | [equals(Object obj)](#equals-java.lang.Object-) | Determines whether the specified [GrayScale](../../com.aspose.slides/grayscale) is equal to the current [GrayScale](../../com.aspose.slides/grayscale). |
 | [hashCode()](#hashCode--) | Serves as a hash function for a particular type. |
-### GrayScale(IDOMObject parentImmediate) {#GrayScale-com.aspose.slides.IDOMObject-}
-```
- GrayScale(IDOMObject parentImmediate)
-```
-
-
-Gray Scale effect constructor.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | com.aspose.slides.IDOMObject |  |
-
 ### getEffective() {#getEffective--}
 ```
 public final IGrayScaleEffectiveData getEffective()

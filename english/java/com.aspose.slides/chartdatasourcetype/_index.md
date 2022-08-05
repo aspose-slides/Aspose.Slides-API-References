@@ -14,23 +14,12 @@ public final class ChartDataSourceType extends System.Enum
 ```
 
 Represents a type of data source of the chart
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [ChartDataSourceType()](#ChartDataSourceType--) |  |
 ## Fields
 
 | Field | Description |
 | --- | --- |
 | [InternalWorkbook](#InternalWorkbook) | Internal data source. |
 | [ExternalWorkbook](#ExternalWorkbook) | External data source. |
-### ChartDataSourceType() {#ChartDataSourceType--}
-```
-private ChartDataSourceType()
-```
-
-
 ### InternalWorkbook {#InternalWorkbook}
 ```
 public static final int InternalWorkbook

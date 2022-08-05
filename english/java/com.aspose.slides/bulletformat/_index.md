@@ -17,11 +17,6 @@ public class BulletFormat extends PVIObject implements IBulletFormat
 ```
 
 Represents paragraph bullet formatting properties.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [BulletFormat(IDOMObject parentImmediate)](#BulletFormat-com.aspose.slides.IDOMObject-) |  |
 ## Methods
 
 | Method | Description |
@@ -47,17 +42,6 @@ Represents paragraph bullet formatting properties.
 | [applyDefaultParagraphIndentsShifts()](#applyDefaultParagraphIndentsShifts--) | Sets default non-zero shifts for effective paragraph Indent and MarginLeft when bullets is enabled (like PowerPoint do if enable paragraph bullets/numbering in it). |
 | [getEffective()](#getEffective--) | Gets effective bullet formatting data with the inheritance applied. |
 | [getVersion()](#getVersion--) |  |
-### BulletFormat(IDOMObject parentImmediate) {#BulletFormat-com.aspose.slides.IDOMObject-}
-```
- BulletFormat(IDOMObject parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | com.aspose.slides.IDOMObject |  |
-
 ### getType() {#getType--}
 ```
 public final byte getType()

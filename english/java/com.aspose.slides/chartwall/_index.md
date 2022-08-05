@@ -17,11 +17,6 @@ public class ChartWall extends DomObject<Chart> implements IChartWall
 ```
 
 Represents walls on 3d charts.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [ChartWall(Chart parentImmediate)](#ChartWall-com.aspose.slides.Chart-) |  |
 ## Methods
 
 | Method | Description |
@@ -31,17 +26,6 @@ Represents walls on 3d charts.
 | [getFormat()](#getFormat--) | Returns the wall fill, line, effect, 3d styles. |
 | [getPictureType()](#getPictureType--) | Return or sets the picture type. |
 | [setPictureType(int value)](#setPictureType-int-) | Return or sets the picture type. |
-### ChartWall(Chart parentImmediate) {#ChartWall-com.aspose.slides.Chart-}
-```
- ChartWall(Chart parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | [Chart](../../com.aspose.slides/chart) |  |
-
 ### getThickness() {#getThickness--}
 ```
 public final int getThickness()

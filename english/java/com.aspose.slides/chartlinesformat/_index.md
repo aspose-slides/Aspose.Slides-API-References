@@ -17,11 +17,6 @@ public class ChartLinesFormat implements IChartLinesFormat, IDOMObject
 ```
 
 Represents gridlines format properties.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [ChartLinesFormat(IDOMObject parentImmediate)](#ChartLinesFormat-com.aspose.slides.IDOMObject-) |  |
 ## Methods
 
 | Method | Description |
@@ -29,17 +24,6 @@ Represents gridlines format properties.
 | [getLine()](#getLine--) | Returns line style properties of a chart line. |
 | [getEffect()](#getEffect--) | Returns effects used for a chart line. |
 | [getParent_Immediate()](#getParent-Immediate--) |  |
-### ChartLinesFormat(IDOMObject parentImmediate) {#ChartLinesFormat-com.aspose.slides.IDOMObject-}
-```
- ChartLinesFormat(IDOMObject parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | com.aspose.slides.IDOMObject |  |
-
 ### getLine() {#getLine--}
 ```
 public final ILineFormat getLine()

@@ -14,11 +14,6 @@ public final class ImagePixelFormat extends System.Enum
 ```
 
 Specifies the pixel format for the generated images.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [ImagePixelFormat()](#ImagePixelFormat--) |  |
 ## Fields
 
 | Field | Description |
@@ -28,12 +23,6 @@ Specifies the pixel format for the generated images.
 | [Format8bppIndexed](#Format8bppIndexed) | 8 bits per pixel, indexed. |
 | [Format24bppRgb](#Format24bppRgb) | 24 bits per pixel, RGB. |
 | [Format32bppArgb](#Format32bppArgb) | 32 bits per pixel, ARGB. |
-### ImagePixelFormat() {#ImagePixelFormat--}
-```
-private ImagePixelFormat()
-```
-
-
 ### Format1bppIndexed {#Format1bppIndexed}
 ```
 public static final int Format1bppIndexed

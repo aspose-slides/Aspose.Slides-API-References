@@ -17,12 +17,6 @@ public class BehaviorProperty implements IBehaviorProperty
 ```
 
 Represent property types for animation behavior. Follows the list of properties from https://msdn.microsoft.com/en-us/library/dd949052(v=office.15).aspx and https://msdn.microsoft.com/en-us/library/documentformat.openxml.presentation.attributename(v=office.15).aspx
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [BehaviorProperty(String value)](#BehaviorProperty-java.lang.String-) |  |
-| [BehaviorProperty(String value, boolean isCustom)](#BehaviorProperty-java.lang.String-boolean-) |  |
 ## Methods
 
 | Method | Description |
@@ -154,29 +148,6 @@ Represent property types for animation behavior. Follows the list of properties 
 | [equals(Object obj)](#equals-java.lang.Object-) | Checks if this object is equal to another. |
 | [hashCode()](#hashCode--) | Calculates and returns hach code based on the (\#getValue) property |
 | [getOrCreateByValue(String propertyValue)](#getOrCreateByValue-java.lang.String-) | Looks for existing behavior property by value or creates new custom one with the specified value |
-### BehaviorProperty(String value) {#BehaviorProperty-java.lang.String-}
-```
-private BehaviorProperty(String value)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | java.lang.String |  |
-
-### BehaviorProperty(String value, boolean isCustom) {#BehaviorProperty-java.lang.String-boolean-}
-```
-private BehaviorProperty(String value, boolean isCustom)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | java.lang.String |  |
-| isCustom | boolean |  |
-
 ### getValue() {#getValue--}
 ```
 public final String getValue()

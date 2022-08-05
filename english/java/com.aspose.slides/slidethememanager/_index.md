@@ -14,19 +14,3 @@ public class SlideThemeManager extends BaseOverrideThemeManager
 ```
 
 Provides access to slide theme overriden.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [SlideThemeManager(Slide parentImmediate)](#SlideThemeManager-com.aspose.slides.Slide-) |  |
-### SlideThemeManager(Slide parentImmediate) {#SlideThemeManager-com.aspose.slides.Slide-}
-```
- SlideThemeManager(Slide parentImmediate)
-```
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | [Slide](../../com.aspose.slides/slide) |  |
-

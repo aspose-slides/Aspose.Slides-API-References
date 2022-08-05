@@ -14,11 +14,6 @@ public final class PropertyValueType extends System.Enum
 ```
 
 Represent property value types.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [PropertyValueType()](#PropertyValueType--) |  |
 ## Fields
 
 | Field | Description |
@@ -27,12 +22,6 @@ Represent property value types.
 | [String](#String) |  |
 | [Number](#Number) |  |
 | [Color](#Color) |  |
-### PropertyValueType() {#PropertyValueType--}
-```
-private PropertyValueType()
-```
-
-
 ### NotDefined {#NotDefined}
 ```
 public static final int NotDefined

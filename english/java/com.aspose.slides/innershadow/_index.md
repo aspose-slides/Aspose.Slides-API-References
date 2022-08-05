@@ -17,11 +17,6 @@ public class InnerShadow implements IInnerShadow, IVisualEffect, IDOMObject, IPV
 ```
 
 Represents a Inner Shadow effect.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [InnerShadow(IDOMObject parentImmediate)](#InnerShadow-com.aspose.slides.IDOMObject-) | Creates new instance of InnerShadow class. |
 ## Methods
 
 | Method | Description |
@@ -40,19 +35,6 @@ Represents a Inner Shadow effect.
 | [equals(Object obj)](#equals-java.lang.Object-) | Determines whether the specified [InnerShadow](../../com.aspose.slides/innershadow) is equal to the current [InnerShadow](../../com.aspose.slides/innershadow). |
 | [hashCode()](#hashCode--) | Serves as a hash function for a particular type. |
 | [memberwiseClone()](#memberwiseClone--) |  |
-### InnerShadow(IDOMObject parentImmediate) {#InnerShadow-com.aspose.slides.IDOMObject-}
-```
- InnerShadow(IDOMObject parentImmediate)
-```
-
-
-Creates new instance of InnerShadow class.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parentImmediate | com.aspose.slides.IDOMObject |  |
-
 ### getBlurRadius() {#getBlurRadius--}
 ```
 public final double getBlurRadius()
