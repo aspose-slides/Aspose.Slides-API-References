@@ -1,8 +1,7 @@
 ---
 title: IBehaviorFactory
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Allows to create animation effects
+second_title: Aspose.Slides for Java API Reference
+description:  Allows to create animation effects
 type: docs
 weight: 661
 url: /java/com.aspose.slides/ibehaviorfactory/

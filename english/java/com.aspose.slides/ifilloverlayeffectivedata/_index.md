@@ -1,8 +1,7 @@
 ---
 title: IFillOverlayEffectiveData
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Immutable object which represents a Fill Overlay effect.
+second_title: Aspose.Slides for Java API Reference
+description:  Immutable object which represents a Fill Overlay effect.
 type: docs
 weight: 773
 url: /java/com.aspose.slides/ifilloverlayeffectivedata/

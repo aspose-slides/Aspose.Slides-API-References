@@ -1,8 +1,7 @@
 ---
 title: ChartCategoryCollection
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents collection of 
+second_title: Aspose.Slides for Java API Reference
+description:  Represents collection of 
  
 type: docs
 weight: 79

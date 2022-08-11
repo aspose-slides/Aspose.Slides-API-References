@@ -1,8 +1,7 @@
 ---
 title: LineFormat
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents format of a line.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents format of a line.
 type: docs
 weight: 282
 url: /java/com.aspose.slides/lineformat/

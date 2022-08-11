@@ -1,8 +1,7 @@
 ---
 title: IGifOptions
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents GIF exporting options.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents GIF exporting options.
 type: docs
 weight: 799
 url: /java/com.aspose.slides/igifoptions/

@@ -1,8 +1,7 @@
 ---
 title: IInk
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents an ink object on a slide.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents an ink object on a slide.
 type: docs
 weight: 834
 url: /java/com.aspose.slides/iink/

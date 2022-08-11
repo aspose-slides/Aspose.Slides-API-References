@@ -1,8 +1,7 @@
 ---
 title: IMathDelimiter
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Specifies the delimiter object consisting of opening and closing characters such as parentheses 
+second_title: Aspose.Slides for Java API Reference
+description:  Specifies the delimiter object consisting of opening and closing characters such as parentheses 
  braces brackets and vertical bars and one or more mathematical elements inside separated by a specified character.
 type: docs
 weight: 890

@@ -1,8 +1,7 @@
 ---
 title: IShapeBevel
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents properties of shapes main face relief.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents properties of shapes main face relief.
 type: docs
 weight: 1013
 url: /java/com.aspose.slides/ishapebevel/

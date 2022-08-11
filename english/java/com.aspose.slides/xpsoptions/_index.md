@@ -1,8 +1,7 @@
 ---
 title: XpsOptions
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Provides options that control how a presentation is saved in XPS format.
+second_title: Aspose.Slides for Java API Reference
+description:  Provides options that control how a presentation is saved in XPS format.
 type: docs
 weight: 615
 url: /java/com.aspose.slides/xpsoptions/

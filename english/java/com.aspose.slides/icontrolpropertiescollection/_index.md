@@ -1,8 +1,7 @@
 ---
 title: IControlPropertiesCollection
-second_title: Aspose.Sildes for Java API Reference
-description: p
- A collection of ActiveX controls.
+second_title: Aspose.Slides for Java API Reference
+description:  A collection of ActiveX controls.
 type: docs
 weight: 731
 url: /java/com.aspose.slides/icontrolpropertiescollection/

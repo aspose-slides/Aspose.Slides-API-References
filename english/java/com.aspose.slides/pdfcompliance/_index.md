@@ -1,8 +1,7 @@
 ---
 title: PdfCompliance
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Constants which define the PDF standards compliance level.
+second_title: Aspose.Slides for Java API Reference
+description:  Constants which define the PDF standards compliance level.
 type: docs
 weight: 408
 url: /java/com.aspose.slides/pdfcompliance/

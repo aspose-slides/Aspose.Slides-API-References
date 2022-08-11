@@ -1,8 +1,7 @@
 ---
 title: TransitionValueBase
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Base class for slide transition effects.
+second_title: Aspose.Slides for Java API Reference
+description:  Base class for slide transition effects.
 type: docs
 weight: 590
 url: /java/com.aspose.slides/transitionvaluebase/

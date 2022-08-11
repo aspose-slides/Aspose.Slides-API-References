@@ -1,8 +1,7 @@
 ---
 title: IConnectorLock
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Determines which operations are disabled on the parent Connector.
+second_title: Aspose.Slides for Java API Reference
+description:  Determines which operations are disabled on the parent Connector.
 type: docs
 weight: 728
 url: /java/com.aspose.slides/iconnectorlock/

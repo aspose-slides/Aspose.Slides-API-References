@@ -1,8 +1,7 @@
 ---
 title: Audio
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents an embedded audio file.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents an embedded audio file.
 type: docs
 weight: 21
 url: /java/com.aspose.slides/audio/

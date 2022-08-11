@@ -1,8 +1,7 @@
 ---
 title: IColorFormat
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents a color used in a presentation.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents a color used in a presentation.
 type: docs
 weight: 709
 url: /java/com.aspose.slides/icolorformat/

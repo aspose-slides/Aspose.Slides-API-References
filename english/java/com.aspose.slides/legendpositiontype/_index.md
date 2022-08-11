@@ -1,8 +1,7 @@
 ---
 title: LegendPositionType
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Determines a position of legend on a chart.
+second_title: Aspose.Slides for Java API Reference
+description:  Determines a position of legend on a chart.
 type: docs
 weight: 270
 url: /java/com.aspose.slides/legendpositiontype/

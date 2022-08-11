@@ -1,8 +1,7 @@
 ---
 title: FontsManager
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Manages fonts across the presentation.
+second_title: Aspose.Slides for Java API Reference
+description:  Manages fonts across the presentation.
 type: docs
 weight: 212
 url: /java/com.aspose.slides/fontsmanager/

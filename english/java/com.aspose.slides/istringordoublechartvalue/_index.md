@@ -1,8 +1,7 @@
 ---
 title: IStringOrDoubleChartValue
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represent string or double value which can be stored in pptx presentation document in two ways
+second_title: Aspose.Slides for Java API Reference
+description:  Represent string or double value which can be stored in pptx presentation document in two ways
  1 in cell/cells of workbook related to chart
  2 as literal value.
 type: docs

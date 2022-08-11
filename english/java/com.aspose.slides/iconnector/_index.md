@@ -1,8 +1,7 @@
 ---
 title: IConnector
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents a connector.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents a connector.
 type: docs
 weight: 727
 url: /java/com.aspose.slides/iconnector/

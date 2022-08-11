@@ -1,8 +1,7 @@
 ---
 title: IBulkTextFormattable
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents an object with possibility of bulk setting child text elements formats.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents an object with possibility of bulk setting child text elements formats.
 type: docs
 weight: 669
 url: /java/com.aspose.slides/ibulktextformattable/

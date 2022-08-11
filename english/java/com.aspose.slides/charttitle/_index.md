@@ -1,8 +1,7 @@
 ---
 title: ChartTitle
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents chart title properties.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents chart title properties.
 type: docs
 weight: 101
 url: /java/com.aspose.slides/charttitle/

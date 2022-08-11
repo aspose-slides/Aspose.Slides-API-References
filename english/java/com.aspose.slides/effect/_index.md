@@ -1,8 +1,7 @@
 ---
 title: Effect
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents animation effect.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents animation effect.
 type: docs
 weight: 161
 url: /java/com.aspose.slides/effect/

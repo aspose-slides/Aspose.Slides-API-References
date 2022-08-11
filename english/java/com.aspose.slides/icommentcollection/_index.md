@@ -1,8 +1,7 @@
 ---
 title: ICommentCollection
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents a collection of comments of one author.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents a collection of comments of one author.
 type: docs
 weight: 725
 url: /java/com.aspose.slides/icommentcollection/

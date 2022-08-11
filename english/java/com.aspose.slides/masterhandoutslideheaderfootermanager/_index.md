@@ -1,8 +1,7 @@
 ---
 title: MasterHandoutSlideHeaderFooterManager
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents manager which holds behavior of the master handout slide placeholders including header placeholder.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents manager which holds behavior of the master handout slide placeholders including header placeholder.
 type: docs
 weight: 295
 url: /java/com.aspose.slides/masterhandoutslideheaderfootermanager/

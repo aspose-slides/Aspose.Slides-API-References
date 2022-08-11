@@ -1,8 +1,7 @@
 ---
 title: ColorDirection
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents color direction for color effect behavior.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents color direction for color effect behavior.
 type: docs
 weight: 107
 url: /java/com.aspose.slides/colordirection/

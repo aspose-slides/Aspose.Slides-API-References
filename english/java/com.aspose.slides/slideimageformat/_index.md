@@ -1,8 +1,7 @@
 ---
 title: SlideImageFormat
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Determines format in which slide image will be saved for presentation to HTML export.
+second_title: Aspose.Slides for Java API Reference
+description:  Determines format in which slide image will be saved for presentation to HTML export.
 type: docs
 weight: 501
 url: /java/com.aspose.slides/slideimageformat/

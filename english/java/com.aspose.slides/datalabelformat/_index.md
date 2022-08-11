@@ -1,8 +1,7 @@
 ---
 title: DataLabelFormat
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents formatting options for DataLabel.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents formatting options for DataLabel.
 type: docs
 weight: 149
 url: /java/com.aspose.slides/datalabelformat/

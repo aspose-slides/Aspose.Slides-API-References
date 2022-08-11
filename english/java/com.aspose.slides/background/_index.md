@@ -1,8 +1,7 @@
 ---
 title: Background
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents background of a slide.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents background of a slide.
 type: docs
 weight: 35
 url: /java/com.aspose.slides/background/

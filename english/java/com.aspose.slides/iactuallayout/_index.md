@@ -1,8 +1,7 @@
 ---
 title: IActualLayout
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Specifies actual position of a chart element.
+second_title: Aspose.Slides for Java API Reference
+description:  Specifies actual position of a chart element.
 type: docs
 weight: 621
 url: /java/com.aspose.slides/iactuallayout/

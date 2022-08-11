@@ -1,8 +1,7 @@
 ---
 title: ColorScheme
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Stores theme-defined colors.
+second_title: Aspose.Slides for Java API Reference
+description:  Stores theme-defined colors.
 type: docs
 weight: 114
 url: /java/com.aspose.slides/colorscheme/

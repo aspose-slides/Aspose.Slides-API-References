@@ -1,8 +1,7 @@
 ---
 title: CustomData
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents container for custom data.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents container for custom data.
 type: docs
 weight: 144
 url: /java/com.aspose.slides/customdata/

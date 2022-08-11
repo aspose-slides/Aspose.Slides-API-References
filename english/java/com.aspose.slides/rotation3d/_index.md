@@ -1,8 +1,7 @@
 ---
 title: Rotation3D
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents 3D rotation of a chart.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents 3D rotation of a chart.
 type: docs
 weight: 465
 url: /java/com.aspose.slides/rotation3d/

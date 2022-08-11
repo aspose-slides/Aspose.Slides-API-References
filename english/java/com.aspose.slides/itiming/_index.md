@@ -1,8 +1,7 @@
 ---
 title: ITiming
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents animation timing.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents animation timing.
 type: docs
 weight: 1079
 url: /java/com.aspose.slides/itiming/

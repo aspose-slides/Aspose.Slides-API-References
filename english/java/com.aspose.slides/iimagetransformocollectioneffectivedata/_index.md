@@ -1,8 +1,7 @@
 ---
 title: IImageTransformOCollectionEffectiveData
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Immutable object that represents a readonly collection of effective image transform effects.
+second_title: Aspose.Slides for Java API Reference
+description:  Immutable object that represents a readonly collection of effective image transform effects.
 type: docs
 weight: 829
 url: /java/com.aspose.slides/iimagetransformocollectioneffectivedata/

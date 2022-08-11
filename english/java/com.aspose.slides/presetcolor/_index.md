@@ -1,8 +1,7 @@
 ---
 title: PresetColor
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents predefined color presets.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents predefined color presets.
 type: docs
 weight: 449
 url: /java/com.aspose.slides/presetcolor/

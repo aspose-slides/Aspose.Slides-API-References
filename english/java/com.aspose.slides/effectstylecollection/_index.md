@@ -1,8 +1,7 @@
 ---
 title: EffectStyleCollection
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents a collection of effect styles.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents a collection of effect styles.
 type: docs
 weight: 170
 url: /java/com.aspose.slides/effectstylecollection/

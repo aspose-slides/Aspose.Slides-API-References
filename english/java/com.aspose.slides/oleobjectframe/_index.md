@@ -1,8 +1,7 @@
 ---
 title: OleObjectFrame
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents an OLE object on a slide.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents an OLE object on a slide.
 type: docs
 weight: 386
 url: /java/com.aspose.slides/oleobjectframe/

@@ -1,8 +1,7 @@
 ---
 title: FilterEffectSubtype
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents filter effect subtypes.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents filter effect subtypes.
 type: docs
 weight: 196
 url: /java/com.aspose.slides/filtereffectsubtype/

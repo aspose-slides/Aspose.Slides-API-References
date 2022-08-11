@@ -1,8 +1,7 @@
 ---
 title: IPathSegment
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents segment of graphics path of GeometryShape
+second_title: Aspose.Slides for Java API Reference
+description:  Represents segment of graphics path of GeometryShape
 type: docs
 weight: 955
 url: /java/com.aspose.slides/ipathsegment/

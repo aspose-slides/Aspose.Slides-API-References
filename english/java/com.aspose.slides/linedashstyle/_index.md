@@ -1,8 +1,7 @@
 ---
 title: LineDashStyle
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents the line dash style.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents the line dash style.
 type: docs
 weight: 280
 url: /java/com.aspose.slides/linedashstyle/

@@ -1,8 +1,7 @@
 ---
 title: IMasterNotesSlide
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents master slide for notes.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents master slide for notes.
 type: docs
 weight: 868
 url: /java/com.aspose.slides/imasternotesslide/

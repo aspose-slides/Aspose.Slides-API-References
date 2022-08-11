@@ -1,8 +1,7 @@
 ---
 title: MathDelimiterShape
-second_title: Aspose.Sildes for Java API Reference
-description: p
- The location and size of the delimiters relative to the content of the operands
+second_title: Aspose.Slides for Java API Reference
+description:  The location and size of the delimiters relative to the content of the operands
 type: docs
 weight: 319
 url: /java/com.aspose.slides/mathdelimitershape/

@@ -1,8 +1,7 @@
 ---
 title: MasterSlide
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents a master slide in a presentation.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents a master slide in a presentation.
 type: docs
 weight: 299
 url: /java/com.aspose.slides/masterslide/

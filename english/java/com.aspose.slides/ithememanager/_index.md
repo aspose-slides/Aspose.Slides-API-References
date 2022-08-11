@@ -1,8 +1,7 @@
 ---
 title: IThemeManager
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represent theme properties.
+second_title: Aspose.Slides for Java API Reference
+description:  Represent theme properties.
 type: docs
 weight: 1073
 url: /java/com.aspose.slides/ithememanager/

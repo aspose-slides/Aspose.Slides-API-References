@@ -1,8 +1,7 @@
 ---
 title: ColorTransformOperation
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Defines color transform operation.
+second_title: Aspose.Slides for Java API Reference
+description:  Defines color transform operation.
 type: docs
 weight: 118
 url: /java/com.aspose.slides/colortransformoperation/

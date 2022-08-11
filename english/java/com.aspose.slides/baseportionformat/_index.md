@@ -1,8 +1,7 @@
 ---
 title: BasePortionFormat
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Common text portion formatting properties.
+second_title: Aspose.Slides for Java API Reference
+description:  Common text portion formatting properties.
 type: docs
 weight: 41
 url: /java/com.aspose.slides/baseportionformat/

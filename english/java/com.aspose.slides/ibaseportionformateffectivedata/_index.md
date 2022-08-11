@@ -1,8 +1,7 @@
 ---
 title: IBasePortionFormatEffectiveData
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Base interface for immutable objects which contain effective text portion formatting properties.
+second_title: Aspose.Slides for Java API Reference
+description:  Base interface for immutable objects which contain effective text portion formatting properties.
 type: docs
 weight: 654
 url: /java/com.aspose.slides/ibaseportionformateffectivedata/

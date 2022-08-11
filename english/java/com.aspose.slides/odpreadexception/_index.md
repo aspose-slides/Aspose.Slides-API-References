@@ -1,8 +1,7 @@
 ---
 title: OdpReadException
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents an exception which thrown on presentation reading errors.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents an exception which thrown on presentation reading errors.
 type: docs
 weight: 384
 url: /java/com.aspose.slides/odpreadexception/

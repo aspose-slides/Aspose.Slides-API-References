@@ -1,7 +1,7 @@
 ---
 title: com.aspose.slides
-second_title: Aspose.Sildes for Java API Reference
-description: 
+second_title: Aspose.Slides for Java API Reference
+description: Contains classes for work with Microsoft PowerPoint presentations without utilizing Microsoft PowerPoint.
 type: docs
 weight: 10
 url: /java/com.aspose.slides/

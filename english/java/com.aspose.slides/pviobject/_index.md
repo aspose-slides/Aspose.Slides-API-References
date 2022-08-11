@@ -1,8 +1,7 @@
 ---
 title: PVIObject
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Encapsulates basic service infrastructure for objects can be a subject of property value inheritance.
+second_title: Aspose.Slides for Java API Reference
+description:  Encapsulates basic service infrastructure for objects can be a subject of property value inheritance.
 type: docs
 weight: 396
 url: /java/com.aspose.slides/pviobject/

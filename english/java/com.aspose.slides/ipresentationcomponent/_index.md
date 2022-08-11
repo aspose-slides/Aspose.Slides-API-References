@@ -1,8 +1,7 @@
 ---
 title: IPresentationComponent
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents a component of a presentation.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents a component of a presentation.
 type: docs
 weight: 976
 url: /java/com.aspose.slides/ipresentationcomponent/

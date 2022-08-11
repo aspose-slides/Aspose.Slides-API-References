@@ -1,8 +1,7 @@
 ---
 title: EffectPresetClassType
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represent effect class types.
+second_title: Aspose.Slides for Java API Reference
+description:  Represent effect class types.
 type: docs
 weight: 167
 url: /java/com.aspose.slides/effectpresetclasstype/

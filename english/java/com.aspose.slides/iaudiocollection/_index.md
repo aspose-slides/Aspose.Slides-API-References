@@ -1,8 +1,7 @@
 ---
 title: IAudioCollection
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents a collection of embedded audio files.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents a collection of embedded audio files.
 type: docs
 weight: 640
 url: /java/com.aspose.slides/iaudiocollection/

@@ -1,8 +1,7 @@
 ---
 title: TransitionLeftRightDirectionType
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Specifies a direction restricted to the values of left and right.
+second_title: Aspose.Slides for Java API Reference
+description:  Specifies a direction restricted to the values of left and right.
 type: docs
 weight: 582
 url: /java/com.aspose.slides/transitionleftrightdirectiontype/

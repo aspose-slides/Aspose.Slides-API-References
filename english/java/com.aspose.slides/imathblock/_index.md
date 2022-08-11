@@ -1,8 +1,7 @@
 ---
 title: IMathBlock
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Specifies an instance of mathematical text that contained within a MathParagraph and starts on its own line.
+second_title: Aspose.Slides for Java API Reference
+description:  Specifies an instance of mathematical text that contained within a MathParagraph and starts on its own line.
 type: docs
 weight: 883
 url: /java/com.aspose.slides/imathblock/

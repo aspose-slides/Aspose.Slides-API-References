@@ -1,8 +1,7 @@
 ---
 title: IOverrideThemeManager
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Provides access to different types of overriden themes.
+second_title: Aspose.Slides for Java API Reference
+description:  Provides access to different types of overriden themes.
 type: docs
 weight: 947
 url: /java/com.aspose.slides/ioverridethememanager/

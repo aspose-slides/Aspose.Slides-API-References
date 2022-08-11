@@ -1,8 +1,7 @@
 ---
 title: ILightRigEffectiveData
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Immutable object which contains effective light rig properties.
+second_title: Aspose.Slides for Java API Reference
+description:  Immutable object which contains effective light rig properties.
 type: docs
 weight: 851
 url: /java/com.aspose.slides/ilightrigeffectivedata/

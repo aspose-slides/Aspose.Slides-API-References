@@ -1,8 +1,7 @@
 ---
 title: IMasterSlideCollection
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents a collection of master slides.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents a collection of master slides.
 type: docs
 weight: 872
 url: /java/com.aspose.slides/imasterslidecollection/

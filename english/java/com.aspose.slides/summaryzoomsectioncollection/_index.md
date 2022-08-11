@@ -1,8 +1,7 @@
 ---
 title: SummaryZoomSectionCollection
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents a collection of Summary Zoom Section objects.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents a collection of Summary Zoom Section objects.
 type: docs
 weight: 532
 url: /java/com.aspose.slides/summaryzoomsectioncollection/

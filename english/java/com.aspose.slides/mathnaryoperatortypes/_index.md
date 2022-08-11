@@ -1,8 +1,7 @@
 ---
 title: MathNaryOperatorTypes
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Nary operator IMathNaryOperator types excluding integrals
+second_title: Aspose.Slides for Java API Reference
+description:  Nary operator IMathNaryOperator types excluding integrals
  For integrals 
  
 type: docs

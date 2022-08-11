@@ -1,8 +1,7 @@
 ---
 title: NotesSlide
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents a notes slide in a presentation.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents a notes slide in a presentation.
 type: docs
 weight: 375
 url: /java/com.aspose.slides/notesslide/

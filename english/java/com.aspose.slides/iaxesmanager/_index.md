@@ -1,8 +1,7 @@
 ---
 title: IAxesManager
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Provides access to chart axes.
+second_title: Aspose.Slides for Java API Reference
+description:  Provides access to chart axes.
 type: docs
 weight: 644
 url: /java/com.aspose.slides/iaxesmanager/

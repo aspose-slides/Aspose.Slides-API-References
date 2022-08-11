@@ -1,8 +1,7 @@
 ---
 title: ImageCollection
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents collection of PPImage.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents collection of PPImage.
 type: docs
 weight: 246
 url: /java/com.aspose.slides/imagecollection/

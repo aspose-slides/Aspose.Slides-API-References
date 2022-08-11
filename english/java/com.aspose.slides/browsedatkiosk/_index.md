@@ -1,8 +1,7 @@
 ---
 title: BrowsedAtKiosk
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Browsed at a kiosk full screen.
+second_title: Aspose.Slides for Java API Reference
+description:  Browsed at a kiosk full screen.
 type: docs
 weight: 59
 url: /java/com.aspose.slides/browsedatkiosk/

@@ -1,8 +1,7 @@
 ---
 title: EmbeddedWoffFontsHtmlController
-second_title: Aspose.Sildes for Java API Reference
-description: p
- The formatting controller class to use for fonts embedding in WOFF format
+second_title: Aspose.Slides for Java API Reference
+description:  The formatting controller class to use for fonts embedding in WOFF format
 type: docs
 weight: 178
 url: /java/com.aspose.slides/embeddedwofffontshtmlcontroller/

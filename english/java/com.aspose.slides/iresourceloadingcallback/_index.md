@@ -1,8 +1,7 @@
 ---
 title: IResourceLoadingCallback
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Callback interface used to manage external resources loading.
+second_title: Aspose.Slides for Java API Reference
+description:  Callback interface used to manage external resources loading.
 type: docs
 weight: 991
 url: /java/com.aspose.slides/iresourceloadingcallback/

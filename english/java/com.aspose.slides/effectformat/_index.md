@@ -1,8 +1,7 @@
 ---
 title: EffectFormat
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents effect properties of shape.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents effect properties of shape.
 type: docs
 weight: 166
 url: /java/com.aspose.slides/effectformat/

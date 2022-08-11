@@ -1,8 +1,7 @@
 ---
 title: IMathElementCollection
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents a collection of mathematical elements MathElement.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents a collection of mathematical elements MathElement.
 type: docs
 weight: 893
 url: /java/com.aspose.slides/imathelementcollection/

@@ -1,8 +1,7 @@
 ---
 title: TextInheritanceLimit
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Controls the depth of the text properties inheritance.
+second_title: Aspose.Slides for Java API Reference
+description:  Controls the depth of the text properties inheritance.
 type: docs
 weight: 560
 url: /java/com.aspose.slides/textinheritancelimit/

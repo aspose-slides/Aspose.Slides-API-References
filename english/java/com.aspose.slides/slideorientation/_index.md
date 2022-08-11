@@ -1,8 +1,7 @@
 ---
 title: SlideOrientation
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents the slide orientation.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents the slide orientation.
 type: docs
 weight: 503
 url: /java/com.aspose.slides/slideorientation/

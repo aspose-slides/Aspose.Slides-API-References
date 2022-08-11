@@ -1,8 +1,7 @@
 ---
 title: MathJustification
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Specifies justification of the math paragraph a series of adjacent instances of mathematical text within the same paragraph
+second_title: Aspose.Slides for Java API Reference
+description:  Specifies justification of the math paragraph a series of adjacent instances of mathematical text within the same paragraph
 type: docs
 weight: 332
 url: /java/com.aspose.slides/mathjustification/

@@ -1,8 +1,7 @@
 ---
 title: BackgroundType
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Defines the slide background fill source.
+second_title: Aspose.Slides for Java API Reference
+description:  Defines the slide background fill source.
 type: docs
 weight: 36
 url: /java/com.aspose.slides/backgroundtype/

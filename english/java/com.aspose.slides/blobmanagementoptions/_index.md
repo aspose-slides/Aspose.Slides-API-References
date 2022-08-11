@@ -1,8 +1,7 @@
 ---
 title: BlobManagementOptions
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents options which can be used to manage BLOB handling rules and other BLOB settings.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents options which can be used to manage BLOB handling rules and other BLOB settings.
 type: docs
 weight: 57
 url: /java/com.aspose.slides/blobmanagementoptions/

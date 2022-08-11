@@ -1,8 +1,7 @@
 ---
 title: LineJoinStyle
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents the lines join style.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents the lines join style.
 type: docs
 weight: 284
 url: /java/com.aspose.slides/linejoinstyle/

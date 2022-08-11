@@ -1,8 +1,7 @@
 ---
 title: EmbedFontCharacters
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents the rule to use for adding new embedding font into 
+second_title: Aspose.Slides for Java API Reference
+description:  Represents the rule to use for adding new embedding font into 
  
 type: docs
 weight: 176

@@ -1,8 +1,7 @@
 ---
 title: ResourceLoadingAction
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Specifies the mode of external resource loading.
+second_title: Aspose.Slides for Java API Reference
+description:  Specifies the mode of external resource loading.
 type: docs
 weight: 460
 url: /java/com.aspose.slides/resourceloadingaction/

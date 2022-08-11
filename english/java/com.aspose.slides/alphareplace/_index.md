@@ -1,8 +1,7 @@
 ---
 title: AlphaReplace
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents and Alpha Replace effect.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents and Alpha Replace effect.
 type: docs
 weight: 18
 url: /java/com.aspose.slides/alphareplace/

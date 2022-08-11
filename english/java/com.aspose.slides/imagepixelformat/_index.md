@@ -1,8 +1,7 @@
 ---
 title: ImagePixelFormat
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Specifies the pixel format for the generated images.
+second_title: Aspose.Slides for Java API Reference
+description:  Specifies the pixel format for the generated images.
 type: docs
 weight: 247
 url: /java/com.aspose.slides/imagepixelformat/

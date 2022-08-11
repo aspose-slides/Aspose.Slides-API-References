@@ -1,8 +1,7 @@
 ---
 title: IOleEmbeddedDataInfo
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents embedded data info for OLE object.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents embedded data info for OLE object.
 type: docs
 weight: 937
 url: /java/com.aspose.slides/ioleembeddeddatainfo/

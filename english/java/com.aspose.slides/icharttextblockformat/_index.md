@@ -1,8 +1,7 @@
 ---
 title: IChartTextBlockFormat
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents formatting properties for chart text elements.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents formatting properties for chart text elements.
 type: docs
 weight: 702
 url: /java/com.aspose.slides/icharttextblockformat/

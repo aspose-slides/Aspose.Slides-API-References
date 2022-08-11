@@ -1,8 +1,7 @@
 ---
 title: LightRigPresetType
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Constants which define light preset types.
+second_title: Aspose.Slides for Java API Reference
+description:  Constants which define light preset types.
 type: docs
 weight: 273
 url: /java/com.aspose.slides/lightrigpresettype/

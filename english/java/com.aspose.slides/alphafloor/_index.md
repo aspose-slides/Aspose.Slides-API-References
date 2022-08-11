@@ -1,8 +1,7 @@
 ---
 title: AlphaFloor
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents an Alpha Floor effect.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents an Alpha Floor effect.
 type: docs
 weight: 14
 url: /java/com.aspose.slides/alphafloor/

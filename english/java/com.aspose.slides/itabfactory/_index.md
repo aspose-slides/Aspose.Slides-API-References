@@ -1,8 +1,7 @@
 ---
 title: ITabFactory
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Allow to create ITab instances
+second_title: Aspose.Slides for Java API Reference
+description:  Allow to create ITab instances
 type: docs
 weight: 1056
 url: /java/com.aspose.slides/itabfactory/

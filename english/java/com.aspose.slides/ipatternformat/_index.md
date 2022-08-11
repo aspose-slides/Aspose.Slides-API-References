@@ -1,8 +1,7 @@
 ---
 title: IPatternFormat
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents a pattern to fill a shape.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents a pattern to fill a shape.
 type: docs
 weight: 956
 url: /java/com.aspose.slides/ipatternformat/

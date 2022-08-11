@@ -1,8 +1,7 @@
 ---
 title: ColumnFormat
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents format of a table column.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents format of a table column.
 type: docs
 weight: 122
 url: /java/com.aspose.slides/columnformat/

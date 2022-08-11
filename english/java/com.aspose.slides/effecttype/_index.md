@@ -1,8 +1,7 @@
 ---
 title: EffectType
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents the type of an animation effect.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents the type of an animation effect.
 type: docs
 weight: 173
 url: /java/com.aspose.slides/effecttype/

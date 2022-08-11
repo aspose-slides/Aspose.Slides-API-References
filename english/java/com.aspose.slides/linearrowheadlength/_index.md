@@ -1,8 +1,7 @@
 ---
 title: LineArrowheadLength
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents the length of an arrowhead.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents the length of an arrowhead.
 type: docs
 weight: 276
 url: /java/com.aspose.slides/linearrowheadlength/

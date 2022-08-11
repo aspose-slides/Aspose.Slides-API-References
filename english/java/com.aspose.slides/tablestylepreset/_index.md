@@ -1,8 +1,7 @@
 ---
 title: TableStylePreset
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents builtin table styles.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents builtin table styles.
 type: docs
 weight: 547
 url: /java/com.aspose.slides/tablestylepreset/

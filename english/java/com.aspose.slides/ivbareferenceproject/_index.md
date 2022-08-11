@@ -1,8 +1,7 @@
 ---
 title: IVbaReferenceProject
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents reference to an external VBA project.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents reference to an external VBA project.
 type: docs
 weight: 1095
 url: /java/com.aspose.slides/ivbareferenceproject/

@@ -1,8 +1,7 @@
 ---
 title: IPlaceholder
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents a placeholder on a slide.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents a placeholder on a slide.
 type: docs
 weight: 965
 url: /java/com.aspose.slides/iplaceholder/

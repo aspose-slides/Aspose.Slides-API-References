@@ -1,8 +1,7 @@
 ---
 title: ISmartArtShape
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents a shape inside SmartArt diagram
+second_title: Aspose.Slides for Java API Reference
+description:  Represents a shape inside SmartArt diagram
 type: docs
 weight: 1036
 url: /java/com.aspose.slides/ismartartshape/

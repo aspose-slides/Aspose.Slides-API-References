@@ -1,8 +1,7 @@
 ---
 title: ChartDataWorksheet
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents worksheet associated with 
+second_title: Aspose.Slides for Java API Reference
+description:  Represents worksheet associated with 
  
 type: docs
 weight: 90

@@ -1,8 +1,7 @@
 ---
 title: IColumnCollection
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents collection of columns in a table.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents collection of columns in a table.
 type: docs
 weight: 718
 url: /java/com.aspose.slides/icolumncollection/

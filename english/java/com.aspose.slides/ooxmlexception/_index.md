@@ -1,8 +1,7 @@
 ---
 title: OOXMLException
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents a standard internal exception type related to Office Open XML file format.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents a standard internal exception type related to Office Open XML file format.
 type: docs
 weight: 382
 url: /java/com.aspose.slides/ooxmlexception/

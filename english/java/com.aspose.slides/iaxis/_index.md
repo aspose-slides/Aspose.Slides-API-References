@@ -1,8 +1,7 @@
 ---
 title: IAxis
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Encapsulates the object that represents a charts axis.
+second_title: Aspose.Slides for Java API Reference
+description:  Encapsulates the object that represents a charts axis.
 type: docs
 weight: 645
 url: /java/com.aspose.slides/iaxis/

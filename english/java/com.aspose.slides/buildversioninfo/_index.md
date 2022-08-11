@@ -1,8 +1,7 @@
 ---
 title: BuildVersionInfo
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Contains information about version of Aspose.Slides.
+second_title: Aspose.Slides for Java API Reference
+description:  Contains information about version of Aspose.Slides.
 type: docs
 weight: 63
 url: /java/com.aspose.slides/buildversioninfo/

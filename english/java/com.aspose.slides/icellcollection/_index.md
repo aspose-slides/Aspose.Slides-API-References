@@ -1,8 +1,7 @@
 ---
 title: ICellCollection
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents a collection of cells.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents a collection of cells.
 type: docs
 weight: 675
 url: /java/com.aspose.slides/icellcollection/

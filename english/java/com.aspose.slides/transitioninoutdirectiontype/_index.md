@@ -1,8 +1,7 @@
 ---
 title: TransitionInOutDirectionType
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represent in or out direction transition types.
+second_title: Aspose.Slides for Java API Reference
+description:  Represent in or out direction transition types.
 type: docs
 weight: 581
 url: /java/com.aspose.slides/transitioninoutdirectiontype/

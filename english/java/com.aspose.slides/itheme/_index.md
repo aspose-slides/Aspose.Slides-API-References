@@ -1,8 +1,7 @@
 ---
 title: ITheme
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents a theme.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents a theme.
 type: docs
 weight: 1071
 url: /java/com.aspose.slides/itheme/

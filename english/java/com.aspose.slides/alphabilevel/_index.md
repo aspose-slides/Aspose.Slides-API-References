@@ -1,8 +1,7 @@
 ---
 title: AlphaBiLevel
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents an Alpha Bi-Level effect.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents an Alpha Bi-Level effect.
 type: docs
 weight: 12
 url: /java/com.aspose.slides/alphabilevel/

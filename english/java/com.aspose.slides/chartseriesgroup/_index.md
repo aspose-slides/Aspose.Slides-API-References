@@ -1,8 +1,7 @@
 ---
 title: ChartSeriesGroup
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents group of series.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents group of series.
 type: docs
 weight: 97
 url: /java/com.aspose.slides/chartseriesgroup/

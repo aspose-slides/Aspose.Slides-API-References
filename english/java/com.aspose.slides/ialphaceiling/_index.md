@@ -1,8 +1,7 @@
 ---
 title: IAlphaCeiling
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents an Alpha Ceiling effect.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents an Alpha Ceiling effect.
 type: docs
 weight: 626
 url: /java/com.aspose.slides/ialphaceiling/

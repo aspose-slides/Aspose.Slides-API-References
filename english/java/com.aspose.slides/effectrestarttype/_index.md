@@ -1,8 +1,7 @@
 ---
 title: EffectRestartType
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represent restart types for timing.
+second_title: Aspose.Slides for Java API Reference
+description:  Represent restart types for timing.
 type: docs
 weight: 168
 url: /java/com.aspose.slides/effectrestarttype/

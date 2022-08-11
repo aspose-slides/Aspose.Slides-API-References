@@ -1,8 +1,7 @@
 ---
 title: UpDownBarsManager
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Provide access to up/down bars of Line- or Stock-chart.
+second_title: Aspose.Slides for Java API Reference
+description:  Provide access to up/down bars of Line- or Stock-chart.
 type: docs
 weight: 594
 url: /java/com.aspose.slides/updownbarsmanager/

@@ -1,8 +1,7 @@
 ---
 title: FillFormatCollection
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents the collection of fill styles.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents the collection of fill styles.
 type: docs
 weight: 191
 url: /java/com.aspose.slides/fillformatcollection/

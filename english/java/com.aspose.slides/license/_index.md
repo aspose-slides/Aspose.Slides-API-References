@@ -1,6 +1,6 @@
 ---
 title: License
-second_title: Aspose.Sildes for Java API Reference
+second_title: Aspose.Slides for Java API Reference
 description: pProvides methods to license the component.
 type: docs
 weight: 271

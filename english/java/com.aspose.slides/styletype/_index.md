@@ -1,8 +1,7 @@
 ---
 title: StyleType
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents chart style.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents chart style.
 type: docs
 weight: 529
 url: /java/com.aspose.slides/styletype/

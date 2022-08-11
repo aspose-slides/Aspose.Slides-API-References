@@ -1,8 +1,7 @@
 ---
 title: IMasterHandoutSlideManager
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Master handout slide manager.
+second_title: Aspose.Slides for Java API Reference
+description:  Master handout slide manager.
 type: docs
 weight: 866
 url: /java/com.aspose.slides/imasterhandoutslidemanager/

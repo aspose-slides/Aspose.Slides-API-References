@@ -1,8 +1,7 @@
 ---
 title: IVideoFrame
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents a video clip on a slide.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents a video clip on a slide.
 type: docs
 weight: 1098
 url: /java/com.aspose.slides/ivideoframe/

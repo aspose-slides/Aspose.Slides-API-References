@@ -1,8 +1,7 @@
 ---
 title: FontSubstRule
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents font subtituition information
+second_title: Aspose.Slides for Java API Reference
+description:  Represents font subtituition information
 type: docs
 weight: 208
 url: /java/com.aspose.slides/fontsubstrule/

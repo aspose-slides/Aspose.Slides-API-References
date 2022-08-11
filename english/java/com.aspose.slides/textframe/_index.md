@@ -1,8 +1,7 @@
 ---
 title: TextFrame
-second_title: Aspose.Sildes for Java API Reference
-description: p
-  Represents a TextFrame.
+second_title: Aspose.Slides for Java API Reference
+description:   Represents a TextFrame.
 type: docs
 weight: 557
 url: /java/com.aspose.slides/textframe/

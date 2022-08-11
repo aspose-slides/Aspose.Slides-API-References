@@ -1,8 +1,7 @@
 ---
 title: PictureFrameLock
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Determines which operations are disabled on the parent PictureFrame.
+second_title: Aspose.Slides for Java API Reference
+description:  Determines which operations are disabled on the parent PictureFrame.
 type: docs
 weight: 416
 url: /java/com.aspose.slides/pictureframelock/

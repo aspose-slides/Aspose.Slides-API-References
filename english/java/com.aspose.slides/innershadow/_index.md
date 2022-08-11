@@ -1,8 +1,7 @@
 ---
 title: InnerShadow
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents a Inner Shadow effect.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents a Inner Shadow effect.
 type: docs
 weight: 254
 url: /java/com.aspose.slides/innershadow/

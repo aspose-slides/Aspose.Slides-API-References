@@ -1,8 +1,7 @@
 ---
 title: ILayoutSlideCollection
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents a base class for collection of a layout slides.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents a base class for collection of a layout slides.
 type: docs
 weight: 841
 url: /java/com.aspose.slides/ilayoutslidecollection/

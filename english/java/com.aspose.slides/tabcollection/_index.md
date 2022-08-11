@@ -1,8 +1,7 @@
 ---
 title: TabCollection
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents a collection of tabs.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents a collection of tabs.
 type: docs
 weight: 543
 url: /java/com.aspose.slides/tabcollection/

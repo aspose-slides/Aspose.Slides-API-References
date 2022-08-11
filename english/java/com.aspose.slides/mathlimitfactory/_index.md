@@ -1,8 +1,7 @@
 ---
 title: MathLimitFactory
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Allows to create IMathLimit
+second_title: Aspose.Slides for Java API Reference
+description:  Allows to create IMathLimit
 type: docs
 weight: 335
 url: /java/com.aspose.slides/mathlimitfactory/

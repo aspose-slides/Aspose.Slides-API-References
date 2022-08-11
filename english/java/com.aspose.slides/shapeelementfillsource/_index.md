@@ -1,8 +1,7 @@
 ---
 title: ShapeElementFillSource
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents how shape element should be filled.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents how shape element should be filled.
 type: docs
 weight: 487
 url: /java/com.aspose.slides/shapeelementfillsource/

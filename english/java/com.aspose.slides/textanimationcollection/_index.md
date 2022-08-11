@@ -1,8 +1,7 @@
 ---
 title: TextAnimationCollection
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents collection of text animations.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents collection of text animations.
 type: docs
 weight: 553
 url: /java/com.aspose.slides/textanimationcollection/

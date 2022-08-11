@@ -1,8 +1,7 @@
 ---
 title: HyperlinkActionType
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents a type of hyperlink action.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents a type of hyperlink action.
 type: docs
 weight: 242
 url: /java/com.aspose.slides/hyperlinkactiontype/

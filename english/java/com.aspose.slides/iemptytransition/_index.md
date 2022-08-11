@@ -1,8 +1,7 @@
 ---
 title: IEmptyTransition
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Empty slide transition effect.
+second_title: Aspose.Slides for Java API Reference
+description:  Empty slide transition effect.
 type: docs
 weight: 760
 url: /java/com.aspose.slides/iemptytransition/

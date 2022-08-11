@@ -1,8 +1,7 @@
 ---
 title: ISvgShapeAndTextFormattingController
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Controls SVG shape and text generation.
+second_title: Aspose.Slides for Java API Reference
+description:  Controls SVG shape and text generation.
 type: docs
 weight: 1049
 url: /java/com.aspose.slides/isvgshapeandtextformattingcontroller/

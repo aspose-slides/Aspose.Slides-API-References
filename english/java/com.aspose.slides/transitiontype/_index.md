@@ -1,8 +1,7 @@
 ---
 title: TransitionType
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represent slide show transition type.
+second_title: Aspose.Slides for Java API Reference
+description:  Represent slide show transition type.
 type: docs
 weight: 589
 url: /java/com.aspose.slides/transitiontype/

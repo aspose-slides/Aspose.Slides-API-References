@@ -1,8 +1,7 @@
 ---
 title: IChartDataCell
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents cell for chart data.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents cell for chart data.
 type: docs
 weight: 685
 url: /java/com.aspose.slides/ichartdatacell/

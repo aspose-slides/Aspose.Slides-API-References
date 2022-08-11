@@ -1,8 +1,7 @@
 ---
 title: ChartDataWorkbook
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Provides access to embedded Excel workbook
+second_title: Aspose.Slides for Java API Reference
+description:  Provides access to embedded Excel workbook
 type: docs
 weight: 89
 url: /java/com.aspose.slides/chartdataworkbook/

@@ -1,8 +1,7 @@
 ---
 title: ISvgTSpan
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents options for SVG text portion tspan.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents options for SVG text portion tspan.
 type: docs
 weight: 1051
 url: /java/com.aspose.slides/isvgtspan/

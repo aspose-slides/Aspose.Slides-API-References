@@ -1,8 +1,7 @@
 ---
 title: INotesSize
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents a size of notes slide.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents a size of notes slide.
 type: docs
 weight: 932
 url: /java/com.aspose.slides/inotessize/

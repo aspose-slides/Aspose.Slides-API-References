@@ -1,8 +1,7 @@
 ---
 title: IChartLinesFormat
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents gridlines format properties.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents gridlines format properties.
 type: docs
 weight: 693
 url: /java/com.aspose.slides/ichartlinesformat/

@@ -1,8 +1,7 @@
 ---
 title: IPictureFrame
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents a frame with a picture inside.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents a frame with a picture inside.
 type: docs
 weight: 962
 url: /java/com.aspose.slides/ipictureframe/

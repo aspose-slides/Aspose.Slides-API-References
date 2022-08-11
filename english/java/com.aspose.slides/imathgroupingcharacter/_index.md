@@ -1,8 +1,7 @@
 ---
 title: IMathGroupingCharacter
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Specifies a grouping symbol above or below an expression usually to highlight the relationship between elements
+second_title: Aspose.Slides for Java API Reference
+description:  Specifies a grouping symbol above or below an expression usually to highlight the relationship between elements
 type: docs
 weight: 898
 url: /java/com.aspose.slides/imathgroupingcharacter/

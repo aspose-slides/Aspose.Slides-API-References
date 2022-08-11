@@ -1,8 +1,7 @@
 ---
 title: IPictureFillFormatEffectiveData
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Immutable object which contains the properties of picture fill.
+second_title: Aspose.Slides for Java API Reference
+description:  Immutable object which contains the properties of picture fill.
 type: docs
 weight: 961
 url: /java/com.aspose.slides/ipicturefillformateffectivedata/

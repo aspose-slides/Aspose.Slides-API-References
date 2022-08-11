@@ -1,8 +1,7 @@
 ---
 title: LineAlignment
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents the lines alignment type.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents the lines alignment type.
 type: docs
 weight: 275
 url: /java/com.aspose.slides/linealignment/

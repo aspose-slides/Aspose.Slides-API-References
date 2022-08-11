@@ -1,8 +1,7 @@
 ---
 title: ChartThemeManager
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Provides access to chart theme overriden.
+second_title: Aspose.Slides for Java API Reference
+description:  Provides access to chart theme overriden.
 type: docs
 weight: 100
 url: /java/com.aspose.slides/chartthememanager/

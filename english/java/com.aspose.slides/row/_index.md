@@ -1,8 +1,7 @@
 ---
 title: Row
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents a row in a table.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents a row in a table.
 type: docs
 weight: 467
 url: /java/com.aspose.slides/row/

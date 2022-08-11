@@ -1,8 +1,7 @@
 ---
 title: TransitionCornerAndCenterDirectionType
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Specifies a direction restricted to the corners and center.
+second_title: Aspose.Slides for Java API Reference
+description:  Specifies a direction restricted to the corners and center.
 type: docs
 weight: 578
 url: /java/com.aspose.slides/transitioncornerandcenterdirectiontype/

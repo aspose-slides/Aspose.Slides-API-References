@@ -1,8 +1,7 @@
 ---
 title: Orientation
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents the orientation of a shape.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents the orientation of a shape.
 type: docs
 weight: 389
 url: /java/com.aspose.slides/orientation/

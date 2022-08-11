@@ -1,8 +1,7 @@
 ---
 title: BaseScript
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Math script
+second_title: Aspose.Slides for Java API Reference
+description:  Math script
 type: docs
 weight: 42
 url: /java/com.aspose.slides/basescript/

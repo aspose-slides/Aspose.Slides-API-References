@@ -1,8 +1,7 @@
 ---
 title: IMathNaryOperatorProperties
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Specifies properties of IMathNaryOperator
+second_title: Aspose.Slides for Java API Reference
+description:  Specifies properties of IMathNaryOperator
 type: docs
 weight: 907
 url: /java/com.aspose.slides/imathnaryoperatorproperties/

@@ -1,8 +1,7 @@
 ---
 title: Compress
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents a group of methods intended to compress .
+second_title: Aspose.Slides for Java API Reference
+description:  Represents a group of methods intended to compress .
 type: docs
 weight: 132
 url: /java/com.aspose.slides/compress/

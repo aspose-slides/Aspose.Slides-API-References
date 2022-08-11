@@ -1,8 +1,7 @@
 ---
 title: Fonts
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Fonts collection.
+second_title: Aspose.Slides for Java API Reference
+description:  Fonts collection.
 type: docs
 weight: 210
 url: /java/com.aspose.slides/fonts/

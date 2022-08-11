@@ -1,8 +1,7 @@
 ---
 title: IVbaModuleCollection
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents a collection of a VBA Project modules.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents a collection of a VBA Project modules.
 type: docs
 weight: 1087
 url: /java/com.aspose.slides/ivbamodulecollection/

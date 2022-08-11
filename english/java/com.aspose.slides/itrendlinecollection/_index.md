@@ -1,8 +1,7 @@
 ---
 title: ITrendlineCollection
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents a collection of TrendlineEx
+second_title: Aspose.Slides for Java API Reference
+description:  Represents a collection of TrendlineEx
 type: docs
 weight: 1084
 url: /java/com.aspose.slides/itrendlinecollection/

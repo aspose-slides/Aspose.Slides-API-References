@@ -1,8 +1,7 @@
 ---
 title: IDataTable
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents data table properties.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents data table properties.
 type: docs
 weight: 740
 url: /java/com.aspose.slides/idatatable/

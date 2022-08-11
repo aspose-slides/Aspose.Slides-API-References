@@ -1,8 +1,7 @@
 ---
 title: LightRig
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents LightRig.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents LightRig.
 type: docs
 weight: 272
 url: /java/com.aspose.slides/lightrig/

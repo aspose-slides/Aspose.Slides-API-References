@@ -1,8 +1,7 @@
 ---
 title: PdfTextCompression
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Constants which define the type of a compression applied to all content in the PDF file except images.
+second_title: Aspose.Slides for Java API Reference
+description:  Constants which define the type of a compression applied to all content in the PDF file except images.
 type: docs
 weight: 410
 url: /java/com.aspose.slides/pdftextcompression/

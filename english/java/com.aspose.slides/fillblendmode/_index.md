@@ -1,8 +1,7 @@
 ---
 title: FillBlendMode
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Determines blend mode.
+second_title: Aspose.Slides for Java API Reference
+description:  Determines blend mode.
 type: docs
 weight: 189
 url: /java/com.aspose.slides/fillblendmode/

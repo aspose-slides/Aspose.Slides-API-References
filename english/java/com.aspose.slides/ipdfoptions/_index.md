@@ -1,8 +1,7 @@
 ---
 title: IPdfOptions
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Provides options that control how a presentation is saved in Pdf format.
+second_title: Aspose.Slides for Java API Reference
+description:  Provides options that control how a presentation is saved in Pdf format.
 type: docs
 weight: 958
 url: /java/com.aspose.slides/ipdfoptions/

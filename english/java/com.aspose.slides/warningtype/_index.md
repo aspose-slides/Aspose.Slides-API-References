@@ -1,8 +1,7 @@
 ---
 title: WarningType
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents a type of warning.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents a type of warning.
 type: docs
 weight: 610
 url: /java/com.aspose.slides/warningtype/

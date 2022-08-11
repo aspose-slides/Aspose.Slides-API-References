@@ -1,8 +1,7 @@
 ---
 title: IFontFallBackRulesCollection
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents a collection of FontFallBack rules defined by user
+second_title: Aspose.Slides for Java API Reference
+description:  Represents a collection of FontFallBack rules defined by user
 type: docs
 weight: 780
 url: /java/com.aspose.slides/ifontfallbackrulescollection/

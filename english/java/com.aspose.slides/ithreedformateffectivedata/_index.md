@@ -1,8 +1,7 @@
 ---
 title: IThreeDFormatEffectiveData
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Immutable object which represents effective 3-D formatting properties.
+second_title: Aspose.Slides for Java API Reference
+description:  Immutable object which represents effective 3-D formatting properties.
 type: docs
 weight: 1076
 url: /java/com.aspose.slides/ithreedformateffectivedata/

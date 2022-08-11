@@ -1,8 +1,7 @@
 ---
 title: IReflection
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents a reflection effect.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents a reflection effect.
 type: docs
 weight: 987
 url: /java/com.aspose.slides/ireflection/

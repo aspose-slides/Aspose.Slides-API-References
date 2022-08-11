@@ -1,8 +1,7 @@
 ---
 title: TextStrikethroughType
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents the type of text strikethrough.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents the type of text strikethrough.
 type: docs
 weight: 562
 url: /java/com.aspose.slides/textstrikethroughtype/

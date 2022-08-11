@@ -1,8 +1,7 @@
 ---
 title: MotionPath
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represent motion path.
+second_title: Aspose.Slides for Java API Reference
+description:  Represent motion path.
 type: docs
 weight: 367
 url: /java/com.aspose.slides/motionpath/

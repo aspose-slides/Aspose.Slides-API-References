@@ -1,8 +1,7 @@
 ---
 title: IFillParamSource
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Auxiliary fill parameters interface.
+second_title: Aspose.Slides for Java API Reference
+description:  Auxiliary fill parameters interface.
 type: docs
 weight: 774
 url: /java/com.aspose.slides/ifillparamsource/

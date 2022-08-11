@@ -1,8 +1,7 @@
 ---
 title: DigitalSignature
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Digital signature in signed file.
+second_title: Aspose.Slides for Java API Reference
+description:  Digital signature in signed file.
 type: docs
 weight: 153
 url: /java/com.aspose.slides/digitalsignature/

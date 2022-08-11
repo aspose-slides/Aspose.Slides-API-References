@@ -1,8 +1,7 @@
 ---
 title: SvgExternalFontsHandling
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents a way to handle external fonts used for text drawing.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents a way to handle external fonts used for text drawing.
 type: docs
 weight: 535
 url: /java/com.aspose.slides/svgexternalfontshandling/

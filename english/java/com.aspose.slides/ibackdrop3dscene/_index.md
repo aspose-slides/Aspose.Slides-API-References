@@ -1,8 +1,7 @@
 ---
 title: IBackdrop3DScene
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Defines a plane in which effects such as glow and shadow are applied in relation to the shape they are being applied to.
+second_title: Aspose.Slides for Java API Reference
+description:  Defines a plane in which effects such as glow and shadow are applied in relation to the shape they are being applied to.
 type: docs
 weight: 647
 url: /java/com.aspose.slides/ibackdrop3dscene/

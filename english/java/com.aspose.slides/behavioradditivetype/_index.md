@@ -1,8 +1,7 @@
 ---
 title: BehaviorAdditiveType
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents additive type for effect behavior.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents additive type for effect behavior.
 type: docs
 weight: 49
 url: /java/com.aspose.slides/behavioradditivetype/

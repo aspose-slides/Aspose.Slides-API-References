@@ -1,8 +1,7 @@
 ---
 title: FieldType
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents a type of field.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents a type of field.
 type: docs
 weight: 188
 url: /java/com.aspose.slides/fieldtype/

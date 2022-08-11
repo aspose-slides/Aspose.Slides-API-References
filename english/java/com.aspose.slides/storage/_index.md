@@ -1,8 +1,7 @@
 ---
 title: Storage
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents a temporary data storage for .
+second_title: Aspose.Slides for Java API Reference
+description:  Represents a temporary data storage for .
 type: docs
 weight: 526
 url: /java/com.aspose.slides/storage/

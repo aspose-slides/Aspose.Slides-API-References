@@ -1,8 +1,7 @@
 ---
 title: IMathArrayFactory
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Allows to create a math array
+second_title: Aspose.Slides for Java API Reference
+description:  Allows to create a math array
 type: docs
 weight: 880
 url: /java/com.aspose.slides/imatharrayfactory/

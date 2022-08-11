@@ -1,8 +1,7 @@
 ---
 title: TransitionShredPattern
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Specifies a geometric shape that tiles together to fill a larger area.
+second_title: Aspose.Slides for Java API Reference
+description:  Specifies a geometric shape that tiles together to fill a larger area.
 type: docs
 weight: 585
 url: /java/com.aspose.slides/transitionshredpattern/

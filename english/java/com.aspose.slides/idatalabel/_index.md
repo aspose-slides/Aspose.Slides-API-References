@@ -1,8 +1,7 @@
 ---
 title: IDataLabel
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents a series labels.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents a series labels.
 type: docs
 weight: 736
 url: /java/com.aspose.slides/idatalabel/

@@ -1,8 +1,7 @@
 ---
 title: ISlide
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents a slide in a presentation.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents a slide in a presentation.
 type: docs
 weight: 1024
 url: /java/com.aspose.slides/islide/

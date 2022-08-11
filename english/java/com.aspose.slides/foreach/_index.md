@@ -1,8 +1,7 @@
 ---
 title: ForEach
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents a group of methods intended to iterate over different  model objects.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents a group of methods intended to iterate over different  model objects.
 type: docs
 weight: 213
 url: /java/com.aspose.slides/foreach/

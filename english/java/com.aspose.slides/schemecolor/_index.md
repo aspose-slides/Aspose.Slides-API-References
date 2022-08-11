@@ -1,8 +1,7 @@
 ---
 title: SchemeColor
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents colors in a color scheme.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents colors in a color scheme.
 type: docs
 weight: 475
 url: /java/com.aspose.slides/schemecolor/

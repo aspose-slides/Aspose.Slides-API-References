@@ -1,8 +1,7 @@
 ---
 title: PdfAccessPermissions
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Contains a set of flags specifying which access permissions should be granted when the document is opened with 
+second_title: Aspose.Slides for Java API Reference
+description:  Contains a set of flags specifying which access permissions should be granted when the document is opened with 
  user access.
 type: docs
 weight: 407

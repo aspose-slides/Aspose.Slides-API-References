@@ -1,6 +1,6 @@
 ---
 title: Convert.GetOutPathCallback
-second_title: Aspose.Sildes for Java API Reference
+second_title: Aspose.Slides for Java API Reference
 description: 
 type: docs
 weight: 10

@@ -1,8 +1,7 @@
 ---
 title: IAlphaInverseEffectiveData
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Immutable object which represents an Alpha Inverse effect.
+second_title: Aspose.Slides for Java API Reference
+description:  Immutable object which represents an Alpha Inverse effect.
 type: docs
 weight: 631
 url: /java/com.aspose.slides/ialphainverseeffectivedata/

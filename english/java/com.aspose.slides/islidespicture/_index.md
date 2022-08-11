@@ -1,8 +1,7 @@
 ---
 title: ISlidesPicture
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents a picture in a presentation.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents a picture in a presentation.
 type: docs
 weight: 1032
 url: /java/com.aspose.slides/islidespicture/

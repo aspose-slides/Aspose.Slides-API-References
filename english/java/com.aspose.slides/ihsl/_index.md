@@ -1,8 +1,7 @@
 ---
 title: IHSL
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents a Hue/Saturation/Luminance effect.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents a Hue/Saturation/Luminance effect.
 type: docs
 weight: 816
 url: /java/com.aspose.slides/ihsl/

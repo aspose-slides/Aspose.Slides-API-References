@@ -1,8 +1,7 @@
 ---
 title: ChartSeries
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents a chart series.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents a chart series.
 type: docs
 weight: 95
 url: /java/com.aspose.slides/chartseries/

@@ -1,8 +1,7 @@
 ---
 title: IAdjustValueCollection
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Reprasents a collection of shapes adjustments.
+second_title: Aspose.Slides for Java API Reference
+description:  Reprasents a collection of shapes adjustments.
 type: docs
 weight: 623
 url: /java/com.aspose.slides/iadjustvaluecollection/

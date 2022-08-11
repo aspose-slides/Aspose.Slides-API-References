@@ -1,8 +1,7 @@
 ---
 title: ParagraphFactory
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Allows to create paragraphs
+second_title: Aspose.Slides for Java API Reference
+description:  Allows to create paragraphs
 type: docs
 weight: 399
 url: /java/com.aspose.slides/paragraphfactory/

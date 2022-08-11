@@ -1,8 +1,7 @@
 ---
 title: PlaceholderType
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents the type of a placeholder.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents the type of a placeholder.
 type: docs
 weight: 423
 url: /java/com.aspose.slides/placeholdertype/

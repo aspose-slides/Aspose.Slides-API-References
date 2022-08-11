@@ -1,6 +1,6 @@
 ---
 title: Metered
-second_title: Aspose.Sildes for Java API Reference
+second_title: Aspose.Slides for Java API Reference
 description: Provides methods to set metered key.
 type: docs
 weight: 359

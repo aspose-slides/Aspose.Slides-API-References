@@ -1,8 +1,7 @@
 ---
 title: ICellFormatEffectiveData
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Immutable object which contains effective table cell formatting properties.
+second_title: Aspose.Slides for Java API Reference
+description:  Immutable object which contains effective table cell formatting properties.
 type: docs
 weight: 677
 url: /java/com.aspose.slides/icellformateffectivedata/

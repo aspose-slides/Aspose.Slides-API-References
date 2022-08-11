@@ -1,8 +1,7 @@
 ---
 title: SlidesRange
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Slides range
+second_title: Aspose.Slides for Java API Reference
+description:  Slides range
 type: docs
 weight: 512
 url: /java/com.aspose.slides/slidesrange/

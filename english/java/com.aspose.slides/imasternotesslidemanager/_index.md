@@ -1,8 +1,7 @@
 ---
 title: IMasterNotesSlideManager
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Master notes slide manager.
+second_title: Aspose.Slides for Java API Reference
+description:  Master notes slide manager.
 type: docs
 weight: 870
 url: /java/com.aspose.slides/imasternotesslidemanager/

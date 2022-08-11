@@ -1,8 +1,7 @@
 ---
 title: ThreeDFormat
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents 3-D properties.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents 3-D properties.
 type: docs
 weight: 569
 url: /java/com.aspose.slides/threedformat/

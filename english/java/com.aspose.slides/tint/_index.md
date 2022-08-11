@@ -1,8 +1,7 @@
 ---
 title: Tint
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents a Tint effect.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents a Tint effect.
 type: docs
 weight: 577
 url: /java/com.aspose.slides/tint/

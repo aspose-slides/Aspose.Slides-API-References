@@ -1,8 +1,7 @@
 ---
 title: IAlphaCeilingEffectiveData
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Immutable object which represents an Alpha Ceiling effect.
+second_title: Aspose.Slides for Java API Reference
+description:  Immutable object which represents an Alpha Ceiling effect.
 type: docs
 weight: 627
 url: /java/com.aspose.slides/ialphaceilingeffectivedata/

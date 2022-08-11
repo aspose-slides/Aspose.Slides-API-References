@@ -1,8 +1,7 @@
 ---
 title: IChartSeriesReadonlyCollection
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents a readonly collection of  
+second_title: Aspose.Slides for Java API Reference
+description:  Represents a readonly collection of  
  
 type: docs
 weight: 701

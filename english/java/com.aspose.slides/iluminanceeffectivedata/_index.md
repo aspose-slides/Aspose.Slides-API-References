@@ -1,8 +1,7 @@
 ---
 title: ILuminanceEffectiveData
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents a Luminance effect.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents a Luminance effect.
 type: docs
 weight: 862
 url: /java/com.aspose.slides/iluminanceeffectivedata/

@@ -1,8 +1,7 @@
 ---
 title: OrganizationChartLayoutType
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents formatting type the child nodes in an organization chart
+second_title: Aspose.Slides for Java API Reference
+description:  Represents formatting type the child nodes in an organization chart
 type: docs
 weight: 388
 url: /java/com.aspose.slides/organizationchartlayouttype/

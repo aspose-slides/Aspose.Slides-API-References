@@ -1,8 +1,7 @@
 ---
 title: IChartData
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents data used for a chart plotting.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents data used for a chart plotting.
 type: docs
 weight: 684
 url: /java/com.aspose.slides/ichartdata/

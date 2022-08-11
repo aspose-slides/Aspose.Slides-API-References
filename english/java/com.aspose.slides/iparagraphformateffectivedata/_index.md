@@ -1,8 +1,7 @@
 ---
 title: IParagraphFormatEffectiveData
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Immutable object which contains effective paragraph formatting properties.
+second_title: Aspose.Slides for Java API Reference
+description:  Immutable object which contains effective paragraph formatting properties.
 type: docs
 weight: 954
 url: /java/com.aspose.slides/iparagraphformateffectivedata/

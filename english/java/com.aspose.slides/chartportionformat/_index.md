@@ -1,8 +1,7 @@
 ---
 title: ChartPortionFormat
-second_title: Aspose.Sildes for Java API Reference
-description: p
- This class contains the chart portion formatting properties used in charts.
+second_title: Aspose.Slides for Java API Reference
+description:  This class contains the chart portion formatting properties used in charts.
 type: docs
 weight: 94
 url: /java/com.aspose.slides/chartportionformat/

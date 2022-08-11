@@ -1,8 +1,7 @@
 ---
 title: IMathematicalTextFactory
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Allows to create a MathematicalText element
+second_title: Aspose.Slides for Java API Reference
+description:  Allows to create a MathematicalText element
 type: docs
 weight: 920
 url: /java/com.aspose.slides/imathematicaltextfactory/

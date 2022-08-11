@@ -1,8 +1,7 @@
 ---
 title: PicturesCompression
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents the pictures compression level
+second_title: Aspose.Slides for Java API Reference
+description:  Represents the pictures compression level
 type: docs
 weight: 418
 url: /java/com.aspose.slides/picturescompression/

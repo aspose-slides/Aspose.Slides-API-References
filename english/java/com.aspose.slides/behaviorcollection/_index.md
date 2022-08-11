@@ -1,8 +1,7 @@
 ---
 title: BehaviorCollection
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents collection of behavior effects.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents collection of behavior effects.
 type: docs
 weight: 50
 url: /java/com.aspose.slides/behaviorcollection/

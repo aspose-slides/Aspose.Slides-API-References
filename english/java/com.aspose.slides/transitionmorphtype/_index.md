@@ -1,8 +1,7 @@
 ---
 title: TransitionMorphType
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represent a type of morph transition.
+second_title: Aspose.Slides for Java API Reference
+description:  Represent a type of morph transition.
 type: docs
 weight: 583
 url: /java/com.aspose.slides/transitionmorphtype/

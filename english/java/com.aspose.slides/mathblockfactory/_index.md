@@ -1,8 +1,7 @@
 ---
 title: MathBlockFactory
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Allows to create a math block
+second_title: Aspose.Slides for Java API Reference
+description:  Allows to create a math block
 type: docs
 weight: 312
 url: /java/com.aspose.slides/mathblockfactory/

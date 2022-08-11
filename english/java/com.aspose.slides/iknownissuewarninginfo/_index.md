@@ -1,8 +1,7 @@
 ---
 title: IKnownIssueWarningInfo
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents a warning about known issue which wont be fixed in the near future.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents a warning about known issue which wont be fixed in the near future.
 type: docs
 weight: 839
 url: /java/com.aspose.slides/iknownissuewarninginfo/

@@ -1,8 +1,7 @@
 ---
 title: AxisPositionType
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Determines a position of axis.
+second_title: Aspose.Slides for Java API Reference
+description:  Determines a position of axis.
 type: docs
 weight: 33
 url: /java/com.aspose.slides/axispositiontype/

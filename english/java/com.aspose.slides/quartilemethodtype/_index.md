@@ -1,8 +1,7 @@
 ---
 title: QuartileMethodType
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Returns type of quartile method
+second_title: Aspose.Slides for Java API Reference
+description:  Returns type of quartile method
 type: docs
 weight: 456
 url: /java/com.aspose.slides/quartilemethodtype/

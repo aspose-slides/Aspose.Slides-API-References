@@ -1,8 +1,7 @@
 ---
 title: ImageTransformOperationCollection
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents a collection of effects apllied to an image.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents a collection of effects apllied to an image.
 type: docs
 weight: 250
 url: /java/com.aspose.slides/imagetransformoperationcollection/

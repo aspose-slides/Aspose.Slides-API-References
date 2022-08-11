@@ -1,8 +1,7 @@
 ---
 title: TextStyle
-second_title: Aspose.Sildes for Java API Reference
-description: p
- This class contains the text style formatting properties.
+second_title: Aspose.Slides for Java API Reference
+description:  This class contains the text style formatting properties.
 type: docs
 weight: 563
 url: /java/com.aspose.slides/textstyle/

@@ -1,8 +1,7 @@
 ---
 title: ErrorBarType
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents type of error bar
+second_title: Aspose.Slides for Java API Reference
+description:  Represents type of error bar
 type: docs
 weight: 180
 url: /java/com.aspose.slides/errorbartype/

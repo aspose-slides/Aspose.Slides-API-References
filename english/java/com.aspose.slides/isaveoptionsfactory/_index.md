@@ -1,8 +1,7 @@
 ---
 title: ISaveOptionsFactory
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Allows to create save options instances
+second_title: Aspose.Slides for Java API Reference
+description:  Allows to create save options instances
 type: docs
 weight: 1003
 url: /java/com.aspose.slides/isaveoptionsfactory/

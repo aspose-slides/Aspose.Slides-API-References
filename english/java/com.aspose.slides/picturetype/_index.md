@@ -1,8 +1,7 @@
 ---
 title: PictureType
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Determines mode of bar picture filling.
+second_title: Aspose.Slides for Java API Reference
+description:  Determines mode of bar picture filling.
 type: docs
 weight: 417
 url: /java/com.aspose.slides/picturetype/

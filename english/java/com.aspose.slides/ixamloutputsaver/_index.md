@@ -1,8 +1,7 @@
 ---
 title: IXamlOutputSaver
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents an output saver implementation for transfer data to the external storage.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents an output saver implementation for transfer data to the external storage.
 type: docs
 weight: 1106
 url: /java/com.aspose.slides/ixamloutputsaver/

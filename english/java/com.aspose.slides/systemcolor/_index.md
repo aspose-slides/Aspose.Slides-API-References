@@ -1,8 +1,7 @@
 ---
 title: SystemColor
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents predefined system colors.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents predefined system colors.
 type: docs
 weight: 540
 url: /java/com.aspose.slides/systemcolor/

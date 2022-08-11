@@ -1,8 +1,7 @@
 ---
 title: BulletFormat
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents paragraph bullet formatting properties.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents paragraph bullet formatting properties.
 type: docs
 weight: 64
 url: /java/com.aspose.slides/bulletformat/
@@ -196,7 +195,7 @@ public final byte isBulletHardColor()
 ```
 
 
-Determines whether the bullet has own color or inherits it from the first portion in the paragraph. \`\`\` **NullableBool.True** \`\`\` if bullet has own color and \`\`\` **NullableBool.False** \`\`\` if bullet inherits color from the first portion in the paragraph. Read/write [NullableBool](../../com.aspose.slides/nullablebool).
+Determines whether the bullet has own color or inherits it from the first portion in the paragraph. **NullableBool.True** if bullet has own color and **NullableBool.False** if bullet inherits color from the first portion in the paragraph. Read/write [NullableBool](../../com.aspose.slides/nullablebool).
 
 **Returns:**
 byte
@@ -206,7 +205,7 @@ public final void setBulletHardColor(byte value)
 ```
 
 
-Determines whether the bullet has own color or inherits it from the first portion in the paragraph. \`\`\` **NullableBool.True** \`\`\` if bullet has own color and \`\`\` **NullableBool.False** \`\`\` if bullet inherits color from the first portion in the paragraph. Read/write [NullableBool](../../com.aspose.slides/nullablebool).
+Determines whether the bullet has own color or inherits it from the first portion in the paragraph. **NullableBool.True** if bullet has own color and **NullableBool.False** if bullet inherits color from the first portion in the paragraph. Read/write [NullableBool](../../com.aspose.slides/nullablebool).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -219,7 +218,7 @@ public final byte isBulletHardFont()
 ```
 
 
-Determines whether the bullet has own font or inherits it from the first portion in the paragraph. \`\`\` **NullableBool.True** \`\`\` if bullet has own font and \`\`\` **NullableBool.False** \`\`\` if bullet inherits font from the first portion in the paragraph. Read/write [NullableBool](../../com.aspose.slides/nullablebool).
+Determines whether the bullet has own font or inherits it from the first portion in the paragraph. **NullableBool.True** if bullet has own font and **NullableBool.False** if bullet inherits font from the first portion in the paragraph. Read/write [NullableBool](../../com.aspose.slides/nullablebool).
 
 **Returns:**
 byte
@@ -229,7 +228,7 @@ public final void setBulletHardFont(byte value)
 ```
 
 
-Determines whether the bullet has own font or inherits it from the first portion in the paragraph. \`\`\` **NullableBool.True** \`\`\` if bullet has own font and \`\`\` **NullableBool.False** \`\`\` if bullet inherits font from the first portion in the paragraph. Read/write [NullableBool](../../com.aspose.slides/nullablebool).
+Determines whether the bullet has own font or inherits it from the first portion in the paragraph. **NullableBool.True** if bullet has own font and **NullableBool.False** if bullet inherits font from the first portion in the paragraph. Read/write [NullableBool](../../com.aspose.slides/nullablebool).
 
 **Parameters:**
 | Parameter | Type | Description |

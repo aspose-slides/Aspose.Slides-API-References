@@ -1,8 +1,7 @@
 ---
 title: IMathFunctionFactory
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Allows to create a math function
+second_title: Aspose.Slides for Java API Reference
+description:  Allows to create a math function
 type: docs
 weight: 897
 url: /java/com.aspose.slides/imathfunctionfactory/

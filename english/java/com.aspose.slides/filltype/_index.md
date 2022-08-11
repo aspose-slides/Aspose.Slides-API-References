@@ -1,8 +1,7 @@
 ---
 title: FillType
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Specifies the interior fill type of various visual objects.
+second_title: Aspose.Slides for Java API Reference
+description:  Specifies the interior fill type of various visual objects.
 type: docs
 weight: 193
 url: /java/com.aspose.slides/filltype/

@@ -1,8 +1,7 @@
 ---
 title: WebDocumentOptions
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents an options set for  saving.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents an options set for  saving.
 type: docs
 weight: 612
 url: /java/com.aspose.slides/webdocumentoptions/

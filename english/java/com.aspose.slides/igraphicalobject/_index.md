@@ -1,8 +1,7 @@
 ---
 title: IGraphicalObject
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents abstract graphical object.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents abstract graphical object.
 type: docs
 weight: 810
 url: /java/com.aspose.slides/igraphicalobject/

@@ -1,8 +1,7 @@
 ---
 title: DataLabelCollection
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents a series labels.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents a series labels.
 type: docs
 weight: 148
 url: /java/com.aspose.slides/datalabelcollection/

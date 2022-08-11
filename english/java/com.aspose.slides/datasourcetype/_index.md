@@ -1,8 +1,7 @@
 ---
 title: DataSourceType
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Data source types.
+second_title: Aspose.Slides for Java API Reference
+description:  Data source types.
 type: docs
 weight: 150
 url: /java/com.aspose.slides/datasourcetype/

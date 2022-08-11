@@ -1,8 +1,7 @@
 ---
 title: PointCollection
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represent collection of animation points.
+second_title: Aspose.Slides for Java API Reference
+description:  Represent collection of animation points.
 type: docs
 weight: 425
 url: /java/com.aspose.slides/pointcollection/

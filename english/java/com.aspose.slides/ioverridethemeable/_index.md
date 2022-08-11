@@ -1,8 +1,7 @@
 ---
 title: IOverrideThemeable
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents override theme manager.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents override theme manager.
 type: docs
 weight: 948
 url: /java/com.aspose.slides/ioverridethemeable/

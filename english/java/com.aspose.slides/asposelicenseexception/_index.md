@@ -1,6 +1,6 @@
 ---
 title: AsposeLicenseException
-second_title: Aspose.Sildes for Java API Reference
+second_title: Aspose.Slides for Java API Reference
 description: This exception is thrown if any errors with license are detected.
 type: docs
 weight: 20

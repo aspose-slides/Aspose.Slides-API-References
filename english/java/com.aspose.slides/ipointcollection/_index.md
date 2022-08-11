@@ -1,8 +1,7 @@
 ---
 title: IPointCollection
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents a collection of portions.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents a collection of portions.
 type: docs
 weight: 967
 url: /java/com.aspose.slides/ipointcollection/

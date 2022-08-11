@@ -1,8 +1,7 @@
 ---
 title: IBaseSlide
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents common data for all slide types.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents common data for all slide types.
 type: docs
 weight: 656
 url: /java/com.aspose.slides/ibaseslide/

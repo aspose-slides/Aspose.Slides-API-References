@@ -1,8 +1,7 @@
 ---
 title: ChartPlotArea
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents rectangle where chart should be plotted.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents rectangle where chart should be plotted.
 type: docs
 weight: 93
 url: /java/com.aspose.slides/chartplotarea/

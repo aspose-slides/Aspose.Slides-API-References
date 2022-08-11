@@ -1,8 +1,7 @@
 ---
 title: FontFallBackRule
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents font fallback rule
+second_title: Aspose.Slides for Java API Reference
+description:  Represents font fallback rule
 type: docs
 weight: 203
 url: /java/com.aspose.slides/fontfallbackrule/

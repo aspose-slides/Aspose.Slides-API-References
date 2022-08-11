@@ -1,8 +1,7 @@
 ---
 title: IVideo
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents a video embedded into a presentation.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents a video embedded into a presentation.
 type: docs
 weight: 1096
 url: /java/com.aspose.slides/ivideo/

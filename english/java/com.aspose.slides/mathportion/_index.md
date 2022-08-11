@@ -1,8 +1,7 @@
 ---
 title: MathPortion
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents a portion with mathematical context inside.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents a portion with mathematical context inside.
 type: docs
 weight: 344
 url: /java/com.aspose.slides/mathportion/

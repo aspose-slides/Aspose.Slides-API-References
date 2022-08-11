@@ -1,8 +1,7 @@
 ---
 title: Presentation
-second_title: Aspose.Sildes for Java API Reference
-description: p
-  Represents a Microsoft PowerPoint presentation.
+second_title: Aspose.Slides for Java API Reference
+description:   Represents a Microsoft PowerPoint presentation.
 type: docs
 weight: 442
 url: /java/com.aspose.slides/presentation/

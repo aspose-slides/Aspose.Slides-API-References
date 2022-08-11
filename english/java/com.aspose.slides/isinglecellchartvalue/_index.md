@@ -1,8 +1,7 @@
 ---
 title: ISingleCellChartValue
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents a chart data cell.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents a chart data cell.
 type: docs
 weight: 1021
 url: /java/com.aspose.slides/isinglecellchartvalue/

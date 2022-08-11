@@ -1,8 +1,7 @@
 ---
 title: IShapeFrame
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents shape frames properties.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents shape frames properties.
 type: docs
 weight: 1017
 url: /java/com.aspose.slides/ishapeframe/

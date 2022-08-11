@@ -1,8 +1,7 @@
 ---
 title: PlaceholderSize
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents the size of a placeholder.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents the size of a placeholder.
 type: docs
 weight: 422
 url: /java/com.aspose.slides/placeholdersize/

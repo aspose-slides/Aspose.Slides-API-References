@@ -1,8 +1,7 @@
 ---
 title: SlideShowSettings
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents the slide show settings for the presentation.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents the slide show settings for the presentation.
 type: docs
 weight: 504
 url: /java/com.aspose.slides/slideshowsettings/

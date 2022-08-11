@@ -1,8 +1,7 @@
 ---
 title: LoadingStreamBehavior
-second_title: Aspose.Sildes for Java API Reference
-description: p
- The java.io.InputStream passed to a method is considered as a Binary Large Object BLOB see
+second_title: Aspose.Slides for Java API Reference
+description:  The java.io.InputStream passed to a method is considered as a Binary Large Object BLOB see
   description.
 type: docs
 weight: 290

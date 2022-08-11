@@ -1,8 +1,7 @@
 ---
 title: NumberedBulletStyle
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents the style of the numbered bullets.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents the style of the numbered bullets.
 type: docs
 weight: 380
 url: /java/com.aspose.slides/numberedbulletstyle/

@@ -1,8 +1,7 @@
 ---
 title: IColorOffset
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represent color offset.
+second_title: Aspose.Slides for Java API Reference
+description:  Represent color offset.
 type: docs
 weight: 710
 url: /java/com.aspose.slides/icoloroffset/

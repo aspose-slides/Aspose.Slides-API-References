@@ -1,8 +1,7 @@
 ---
 title: CellCircularReferenceException
-second_title: Aspose.Sildes for Java API Reference
-description: p
- The exception that is thrown when one or more circular references are detected where a formula refers to its
+second_title: Aspose.Slides for Java API Reference
+description:  The exception that is thrown when one or more circular references are detected where a formula refers to its
  own cell either directly or indirectly.
 type: docs
 weight: 71

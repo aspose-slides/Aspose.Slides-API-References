@@ -1,8 +1,7 @@
 ---
 title: ITextFrameFormat
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Contains the TextFrames formatting properties.
+second_title: Aspose.Slides for Java API Reference
+description:  Contains the TextFrames formatting properties.
 type: docs
 weight: 1065
 url: /java/com.aspose.slides/itextframeformat/

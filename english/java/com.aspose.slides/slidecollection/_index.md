@@ -1,8 +1,7 @@
 ---
 title: SlideCollection
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents a collection of a slides.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents a collection of a slides.
 type: docs
 weight: 499
 url: /java/com.aspose.slides/slidecollection/

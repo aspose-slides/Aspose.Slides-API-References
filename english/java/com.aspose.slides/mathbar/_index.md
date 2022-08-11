@@ -1,8 +1,7 @@
 ---
 title: MathBar
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Specifies the bar function consisting of a base argument and an overbar or underbar
+second_title: Aspose.Slides for Java API Reference
+description:  Specifies the bar function consisting of a base argument and an overbar or underbar
 type: docs
 weight: 309
 url: /java/com.aspose.slides/mathbar/

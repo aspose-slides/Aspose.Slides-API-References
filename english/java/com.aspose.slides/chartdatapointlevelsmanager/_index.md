@@ -1,8 +1,7 @@
 ---
 title: ChartDataPointLevelsManager
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Container of data point levels.
+second_title: Aspose.Slides for Java API Reference
+description:  Container of data point levels.
 type: docs
 weight: 87
 url: /java/com.aspose.slides/chartdatapointlevelsmanager/

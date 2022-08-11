@@ -1,8 +1,7 @@
 ---
 title: IFillFormatCollectionEffectiveData
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Immutable object that represents a readonly collection of effective fill formats.
+second_title: Aspose.Slides for Java API Reference
+description:  Immutable object that represents a readonly collection of effective fill formats.
 type: docs
 weight: 770
 url: /java/com.aspose.slides/ifillformatcollectioneffectivedata/

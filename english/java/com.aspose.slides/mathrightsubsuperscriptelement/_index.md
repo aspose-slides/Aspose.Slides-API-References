@@ -1,8 +1,7 @@
 ---
 title: MathRightSubSuperscriptElement
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Specifies the Sub-Superscript object which consists of a base 
+second_title: Aspose.Slides for Java API Reference
+description:  Specifies the Sub-Superscript object which consists of a base 
  and a subscript and superscript placed to the right of the base.
 type: docs
 weight: 347

@@ -1,8 +1,7 @@
 ---
 title: IViewProperties
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Presentation wide view properties.
+second_title: Aspose.Slides for Java API Reference
+description:  Presentation wide view properties.
 type: docs
 weight: 1101
 url: /java/com.aspose.slides/iviewproperties/

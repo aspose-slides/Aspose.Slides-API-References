@@ -1,8 +1,7 @@
 ---
 title: SmartArtNodeCollection
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents a collection of SmartArt nodes.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents a collection of SmartArt nodes.
 type: docs
 weight: 517
 url: /java/com.aspose.slides/smartartnodecollection/

@@ -1,8 +1,7 @@
 ---
 title: Legend
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents charts legend properties.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents charts legend properties.
 type: docs
 weight: 266
 url: /java/com.aspose.slides/legend/

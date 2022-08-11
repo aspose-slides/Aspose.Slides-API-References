@@ -1,8 +1,7 @@
 ---
 title: MotionOriginType
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Specifies what the origin of the motion path is relative to.
+second_title: Aspose.Slides for Java API Reference
+description:  Specifies what the origin of the motion path is relative to.
 type: docs
 weight: 366
 url: /java/com.aspose.slides/motionorigintype/

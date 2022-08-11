@@ -1,8 +1,7 @@
 ---
 title: IPresentation
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Presentation document
+second_title: Aspose.Slides for Java API Reference
+description:  Presentation document
 type: docs
 weight: 975
 url: /java/com.aspose.slides/ipresentation/

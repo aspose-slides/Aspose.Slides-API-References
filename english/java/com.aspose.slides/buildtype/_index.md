@@ -1,8 +1,7 @@
 ---
 title: BuildType
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Determines how text will appear on a shape during animation.
+second_title: Aspose.Slides for Java API Reference
+description:  Determines how text will appear on a shape during animation.
 type: docs
 weight: 62
 url: /java/com.aspose.slides/buildtype/

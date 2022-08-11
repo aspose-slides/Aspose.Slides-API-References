@@ -1,8 +1,7 @@
 ---
 title: IDigitalSignatureCollection
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents a collection of digital signatures attached to a document.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents a collection of digital signatures attached to a document.
 type: docs
 weight: 742
 url: /java/com.aspose.slides/idigitalsignaturecollection/

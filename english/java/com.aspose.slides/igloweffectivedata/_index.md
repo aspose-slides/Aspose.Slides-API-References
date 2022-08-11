@@ -1,8 +1,7 @@
 ---
 title: IGlowEffectiveData
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Immutable object which represents a Glow effect in which a color blurred outline 
+second_title: Aspose.Slides for Java API Reference
+description:  Immutable object which represents a Glow effect in which a color blurred outline 
  is added outside the edges of the object.
 type: docs
 weight: 803

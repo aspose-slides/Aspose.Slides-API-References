@@ -1,8 +1,7 @@
 ---
 title: ITabEffectiveData
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Immutable object which contains effective texts tabulation stop properties.
+second_title: Aspose.Slides for Java API Reference
+description:  Immutable object which contains effective texts tabulation stop properties.
 type: docs
 weight: 1055
 url: /java/com.aspose.slides/itabeffectivedata/

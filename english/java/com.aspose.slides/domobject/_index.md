@@ -1,8 +1,7 @@
 ---
 title: DomObject
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Base DOM object
+second_title: Aspose.Slides for Java API Reference
+description:  Base DOM object
 type: docs
 weight: 158
 url: /java/com.aspose.slides/domobject/

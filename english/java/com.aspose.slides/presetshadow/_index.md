@@ -1,8 +1,7 @@
 ---
 title: PresetShadow
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents a Preset Shadow effect.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents a Preset Shadow effect.
 type: docs
 weight: 450
 url: /java/com.aspose.slides/presetshadow/

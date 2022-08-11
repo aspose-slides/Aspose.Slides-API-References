@@ -1,8 +1,7 @@
 ---
 title: TextAutofitType
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents text autofit mode.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents text autofit mode.
 type: docs
 weight: 554
 url: /java/com.aspose.slides/textautofittype/

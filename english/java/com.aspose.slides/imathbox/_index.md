@@ -1,8 +1,7 @@
 ---
 title: IMathBox
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Specifies the logical boxing packaging of mathematical element.
+second_title: Aspose.Slides for Java API Reference
+description:  Specifies the logical boxing packaging of mathematical element.
 type: docs
 weight: 888
 url: /java/com.aspose.slides/imathbox/

@@ -1,8 +1,7 @@
 ---
 title: Portion
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents a portion of text inside a text paragraph.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents a portion of text inside a text paragraph.
 type: docs
 weight: 426
 url: /java/com.aspose.slides/portion/

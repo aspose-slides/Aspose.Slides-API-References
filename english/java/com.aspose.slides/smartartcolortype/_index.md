@@ -1,8 +1,7 @@
 ---
 title: SmartArtColorType
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents color scheme of a SmartArt diagram.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents color scheme of a SmartArt diagram.
 type: docs
 weight: 514
 url: /java/com.aspose.slides/smartartcolortype/

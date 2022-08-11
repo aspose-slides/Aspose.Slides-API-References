@@ -1,8 +1,7 @@
 ---
 title: ILineFormatCollection
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents the collection of line styles.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents the collection of line styles.
 type: docs
 weight: 855
 url: /java/com.aspose.slides/ilineformatcollection/

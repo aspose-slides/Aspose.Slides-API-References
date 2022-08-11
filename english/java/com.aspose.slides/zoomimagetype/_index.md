@@ -1,8 +1,7 @@
 ---
 title: ZoomImageType
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Defines whether the Zoom object is using the slide preview or a cover image.
+second_title: Aspose.Slides for Java API Reference
+description:  Defines whether the Zoom object is using the slide preview or a cover image.
 type: docs
 weight: 617
 url: /java/com.aspose.slides/zoomimagetype/

@@ -1,8 +1,7 @@
 ---
 title: BiLevel
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents a Bi-Level black/white effect.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents a Bi-Level black/white effect.
 type: docs
 weight: 55
 url: /java/com.aspose.slides/bilevel/

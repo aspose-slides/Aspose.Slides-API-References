@@ -1,8 +1,7 @@
 ---
 title: MathRadical
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Specifies the radical function consisting of a base and an optional degree.
+second_title: Aspose.Slides for Java API Reference
+description:  Specifies the radical function consisting of a base and an optional degree.
 type: docs
 weight: 345
 url: /java/com.aspose.slides/mathradical/

@@ -1,8 +1,7 @@
 ---
 title: ITableFormatEffectiveData
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Immutable object which contains effective table formatting properties.
+second_title: Aspose.Slides for Java API Reference
+description:  Immutable object which contains effective table formatting properties.
 type: docs
 weight: 1059
 url: /java/com.aspose.slides/itableformateffectivedata/

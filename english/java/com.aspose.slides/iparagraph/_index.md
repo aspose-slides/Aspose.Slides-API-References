@@ -1,8 +1,7 @@
 ---
 title: IParagraph
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents a paragraph of a text.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents a paragraph of a text.
 type: docs
 weight: 950
 url: /java/com.aspose.slides/iparagraph/

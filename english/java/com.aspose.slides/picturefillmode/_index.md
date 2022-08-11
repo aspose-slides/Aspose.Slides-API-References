@@ -1,8 +1,7 @@
 ---
 title: PictureFillMode
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Determines how picture will fill area.
+second_title: Aspose.Slides for Java API Reference
+description:  Determines how picture will fill area.
 type: docs
 weight: 414
 url: /java/com.aspose.slides/picturefillmode/

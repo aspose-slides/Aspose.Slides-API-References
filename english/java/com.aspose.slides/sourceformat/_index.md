@@ -1,8 +1,7 @@
 ---
 title: SourceFormat
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents source file format.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents source file format.
 type: docs
 weight: 522
 url: /java/com.aspose.slides/sourceformat/

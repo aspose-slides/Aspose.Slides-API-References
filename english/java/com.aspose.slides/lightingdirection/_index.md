@@ -1,8 +1,7 @@
 ---
 title: LightingDirection
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Constants which define light directions.
+second_title: Aspose.Slides for Java API Reference
+description:  Constants which define light directions.
 type: docs
 weight: 274
 url: /java/com.aspose.slides/lightingdirection/

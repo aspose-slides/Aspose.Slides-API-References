@@ -1,8 +1,7 @@
 ---
 title: IBlur
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents a Blur effect that is applied to the entire shape including its fill.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents a Blur effect that is applied to the entire shape including its fill.
 type: docs
 weight: 667
 url: /java/com.aspose.slides/iblur/

@@ -1,8 +1,7 @@
 ---
 title: LayoutSlideThemeManager
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Provides access to layout slide theme overriden.
+second_title: Aspose.Slides for Java API Reference
+description:  Provides access to layout slide theme overriden.
 type: docs
 weight: 262
 url: /java/com.aspose.slides/layoutslidethememanager/

@@ -1,8 +1,7 @@
 ---
 title: IOverridableText
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents overridable text for a chart.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents overridable text for a chart.
 type: docs
 weight: 945
 url: /java/com.aspose.slides/ioverridabletext/

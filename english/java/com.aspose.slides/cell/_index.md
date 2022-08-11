@@ -1,8 +1,7 @@
 ---
 title: Cell
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents a cell of a table.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents a cell of a table.
 type: docs
 weight: 70
 url: /java/com.aspose.slides/cell/

@@ -1,8 +1,7 @@
 ---
 title: Format
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents chart format properties.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents chart format properties.
 type: docs
 weight: 214
 url: /java/com.aspose.slides/format/

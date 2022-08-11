@@ -1,8 +1,7 @@
 ---
 title: IMathSubscriptElement
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Specifies the subscript object which consists of a base 
+second_title: Aspose.Slides for Java API Reference
+description:  Specifies the subscript object which consists of a base 
  and a reduced-size subscript placed below and to the right.
 type: docs
 weight: 915

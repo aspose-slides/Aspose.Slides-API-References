@@ -1,8 +1,7 @@
 ---
 title: IAlphaInverse
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents an Alpha Inverse effect.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents an Alpha Inverse effect.
 type: docs
 weight: 630
 url: /java/com.aspose.slides/ialphainverse/

@@ -1,8 +1,7 @@
 ---
 title: Html5Options
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents a HTML5 exporting options.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents a HTML5 exporting options.
 type: docs
 weight: 236
 url: /java/com.aspose.slides/html5options/

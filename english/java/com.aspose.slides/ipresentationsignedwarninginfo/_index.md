@@ -1,8 +1,7 @@
 ---
 title: IPresentationSignedWarningInfo
-second_title: Aspose.Sildes for Java API Reference
-description: p
- This warning indicates that the presentation being read has the signature 
+second_title: Aspose.Slides for Java API Reference
+description:  This warning indicates that the presentation being read has the signature 
  and this signature will be removed during processing.
 type: docs
 weight: 980

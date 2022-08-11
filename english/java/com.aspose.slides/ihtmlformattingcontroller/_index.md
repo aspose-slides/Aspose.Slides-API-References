@@ -1,8 +1,7 @@
 ---
 title: IHtmlFormattingController
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Controls a html file generation.
+second_title: Aspose.Slides for Java API Reference
+description:  Controls a html file generation.
 type: docs
 weight: 821
 url: /java/com.aspose.slides/ihtmlformattingcontroller/

@@ -1,8 +1,7 @@
 ---
 title: WebDocument
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents a transition form of the presentation for saving into a web format.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents a transition form of the presentation for saving into a web format.
 type: docs
 weight: 611
 url: /java/com.aspose.slides/webdocument/

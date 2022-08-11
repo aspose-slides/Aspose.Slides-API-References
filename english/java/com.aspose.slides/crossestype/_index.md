@@ -1,8 +1,7 @@
 ---
 title: CrossesType
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Determines where axis will cross.
+second_title: Aspose.Slides for Java API Reference
+description:  Determines where axis will cross.
 type: docs
 weight: 142
 url: /java/com.aspose.slides/crossestype/

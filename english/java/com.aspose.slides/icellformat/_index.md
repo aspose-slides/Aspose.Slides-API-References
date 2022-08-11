@@ -1,8 +1,7 @@
 ---
 title: ICellFormat
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents format of a table cell.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents format of a table cell.
 type: docs
 weight: 676
 url: /java/com.aspose.slides/icellformat/

@@ -1,8 +1,7 @@
 ---
 title: IGrayScale
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents IImageTransformOperation interface.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents IImageTransformOperation interface.
 type: docs
 weight: 812
 url: /java/com.aspose.slides/igrayscale/

@@ -1,8 +1,7 @@
 ---
 title: IBlobManagementOptions
-second_title: Aspose.Sildes for Java API Reference
-description: p
- A Binary Large Object BLOB is a binary data stored as a single entity - i.e.
+second_title: Aspose.Slides for Java API Reference
+description:  A Binary Large Object BLOB is a binary data stored as a single entity - i.e.
 type: docs
 weight: 666
 url: /java/com.aspose.slides/iblobmanagementoptions/

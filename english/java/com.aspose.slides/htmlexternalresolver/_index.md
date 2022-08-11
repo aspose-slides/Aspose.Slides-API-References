@@ -1,8 +1,7 @@
 ---
 title: HtmlExternalResolver
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Callback object used by HTML import routine to obtain referrenced objects such as images.
+second_title: Aspose.Slides for Java API Reference
+description:  Callback object used by HTML import routine to obtain referrenced objects such as images.
 type: docs
 weight: 237
 url: /java/com.aspose.slides/htmlexternalresolver/

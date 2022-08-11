@@ -1,8 +1,7 @@
 ---
 title: ShapeElementStrokeSource
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents how shape element should be drawn.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents how shape element should be drawn.
 type: docs
 weight: 488
 url: /java/com.aspose.slides/shapeelementstrokesource/

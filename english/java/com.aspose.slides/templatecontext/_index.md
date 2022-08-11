@@ -1,8 +1,7 @@
 ---
 title: TemplateContext
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents a model object interface for a template engine.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents a model object interface for a template engine.
 type: docs
 weight: 549
 url: /java/com.aspose.slides/templatecontext/

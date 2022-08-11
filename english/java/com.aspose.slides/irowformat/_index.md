@@ -1,8 +1,7 @@
 ---
 title: IRowFormat
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents format of a table row.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents format of a table row.
 type: docs
 weight: 999
 url: /java/com.aspose.slides/irowformat/

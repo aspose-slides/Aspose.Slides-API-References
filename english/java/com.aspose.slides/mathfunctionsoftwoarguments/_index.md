@@ -1,8 +1,7 @@
 ---
 title: MathFunctionsOfTwoArguments
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Common mathematical functions of two arguments
+second_title: Aspose.Slides for Java API Reference
+description:  Common mathematical functions of two arguments
 type: docs
 weight: 327
 url: /java/com.aspose.slides/mathfunctionsoftwoarguments/

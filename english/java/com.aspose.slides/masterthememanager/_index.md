@@ -1,8 +1,7 @@
 ---
 title: MasterThemeManager
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Provides access to presentation master theme.
+second_title: Aspose.Slides for Java API Reference
+description:  Provides access to presentation master theme.
 type: docs
 weight: 303
 url: /java/com.aspose.slides/masterthememanager/

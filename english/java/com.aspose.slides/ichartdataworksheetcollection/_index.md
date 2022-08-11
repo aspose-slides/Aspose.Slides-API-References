@@ -1,8 +1,7 @@
 ---
 title: IChartDataWorksheetCollection
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents the collection of worksheets of chart data workbook.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents the collection of worksheets of chart data workbook.
 type: docs
 weight: 692
 url: /java/com.aspose.slides/ichartdataworksheetcollection/

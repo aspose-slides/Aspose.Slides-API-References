@@ -1,8 +1,7 @@
 ---
 title: FontScheme
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Stores theme-defined fonts.
+second_title: Aspose.Slides for Java API Reference
+description:  Stores theme-defined fonts.
 type: docs
 weight: 205
 url: /java/com.aspose.slides/fontscheme/

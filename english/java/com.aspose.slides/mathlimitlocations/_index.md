@@ -1,8 +1,7 @@
 ---
 title: MathLimitLocations
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Location of limits subscript/superscript in n-ary operators.
+second_title: Aspose.Slides for Java API Reference
+description:  Location of limits subscript/superscript in n-ary operators.
 type: docs
 weight: 336
 url: /java/com.aspose.slides/mathlimitlocations/

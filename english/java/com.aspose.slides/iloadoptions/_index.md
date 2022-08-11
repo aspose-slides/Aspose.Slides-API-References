@@ -1,8 +1,7 @@
 ---
 title: ILoadOptions
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Allows to specify additional options such as format or default font when loading a presentation.
+second_title: Aspose.Slides for Java API Reference
+description:  Allows to specify additional options such as format or default font when loading a presentation.
 type: docs
 weight: 860
 url: /java/com.aspose.slides/iloadoptions/

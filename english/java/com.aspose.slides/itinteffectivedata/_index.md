@@ -1,8 +1,7 @@
 ---
 title: ITintEffectiveData
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Immutable object which represents a Tint effect.
+second_title: Aspose.Slides for Java API Reference
+description:  Immutable object which represents a Tint effect.
 type: docs
 weight: 1081
 url: /java/com.aspose.slides/itinteffectivedata/

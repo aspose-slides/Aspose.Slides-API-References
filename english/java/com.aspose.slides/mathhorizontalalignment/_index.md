@@ -1,8 +1,7 @@
 ---
 title: MathHorizontalAlignment
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Horizontal Alignment
+second_title: Aspose.Slides for Java API Reference
+description:  Horizontal Alignment
 type: docs
 weight: 330
 url: /java/com.aspose.slides/mathhorizontalalignment/

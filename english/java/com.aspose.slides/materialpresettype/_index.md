@@ -1,8 +1,7 @@
 ---
 title: MaterialPresetType
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Constants which define material of shape.
+second_title: Aspose.Slides for Java API Reference
+description:  Constants which define material of shape.
 type: docs
 weight: 304
 url: /java/com.aspose.slides/materialpresettype/

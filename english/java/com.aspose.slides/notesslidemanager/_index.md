@@ -1,8 +1,7 @@
 ---
 title: NotesSlideManager
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Notes slide manager.
+second_title: Aspose.Slides for Java API Reference
+description:  Notes slide manager.
 type: docs
 weight: 377
 url: /java/com.aspose.slides/notesslidemanager/

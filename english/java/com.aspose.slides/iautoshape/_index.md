@@ -1,8 +1,7 @@
 ---
 title: IAutoShape
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents an AutoShape.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents an AutoShape.
 type: docs
 weight: 642
 url: /java/com.aspose.slides/iautoshape/

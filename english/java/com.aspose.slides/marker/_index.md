@@ -1,8 +1,7 @@
 ---
 title: Marker
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents marker of a chert.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents marker of a chert.
 type: docs
 weight: 292
 url: /java/com.aspose.slides/marker/

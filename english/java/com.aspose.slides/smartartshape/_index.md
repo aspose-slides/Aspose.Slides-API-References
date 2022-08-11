@@ -1,8 +1,7 @@
 ---
 title: SmartArtShape
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents SmartArt shape
+second_title: Aspose.Slides for Java API Reference
+description:  Represents SmartArt shape
 type: docs
 weight: 519
 url: /java/com.aspose.slides/smartartshape/

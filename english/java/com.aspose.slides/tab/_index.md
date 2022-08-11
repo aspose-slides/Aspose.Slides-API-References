@@ -1,8 +1,7 @@
 ---
 title: Tab
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents a tabulation for a text.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents a tabulation for a text.
 type: docs
 weight: 541
 url: /java/com.aspose.slides/tab/

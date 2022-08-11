@@ -1,8 +1,7 @@
 ---
 title: ShapeStyle
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represent shapes style reference.
+second_title: Aspose.Slides for Java API Reference
+description:  Represent shapes style reference.
 type: docs
 weight: 490
 url: /java/com.aspose.slides/shapestyle/

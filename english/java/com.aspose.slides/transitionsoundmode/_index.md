@@ -1,8 +1,7 @@
 ---
 title: TransitionSoundMode
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represent sound mode of transition.
+second_title: Aspose.Slides for Java API Reference
+description:  Represent sound mode of transition.
 type: docs
 weight: 587
 url: /java/com.aspose.slides/transitionsoundmode/

@@ -1,8 +1,7 @@
 ---
 title: ISummaryZoomFrame
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents a Summary Zoom frame in a slide.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents a Summary Zoom frame in a slide.
 type: docs
 weight: 1044
 url: /java/com.aspose.slides/isummaryzoomframe/

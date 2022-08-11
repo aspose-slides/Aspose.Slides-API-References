@@ -1,8 +1,7 @@
 ---
 title: ColorSchemeIndex
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents an index in a colorscheme.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents an index in a colorscheme.
 type: docs
 weight: 115
 url: /java/com.aspose.slides/colorschemeindex/

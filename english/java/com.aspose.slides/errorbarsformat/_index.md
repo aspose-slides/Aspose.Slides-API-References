@@ -1,8 +1,7 @@
 ---
 title: ErrorBarsFormat
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents error bars of chart series.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents error bars of chart series.
 type: docs
 weight: 183
 url: /java/com.aspose.slides/errorbarsformat/

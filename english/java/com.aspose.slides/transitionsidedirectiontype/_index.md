@@ -1,8 +1,7 @@
 ---
 title: TransitionSideDirectionType
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represent side direction transition types.
+second_title: Aspose.Slides for Java API Reference
+description:  Represent side direction transition types.
 type: docs
 weight: 586
 url: /java/com.aspose.slides/transitionsidedirectiontype/

@@ -1,8 +1,7 @@
 ---
 title: MathBarFactory
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Allows to create a math bar
+second_title: Aspose.Slides for Java API Reference
+description:  Allows to create a math bar
 type: docs
 weight: 310
 url: /java/com.aspose.slides/mathbarfactory/

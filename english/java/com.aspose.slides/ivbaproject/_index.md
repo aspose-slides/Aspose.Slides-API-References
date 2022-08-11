@@ -1,8 +1,7 @@
 ---
 title: IVbaProject
-second_title: Aspose.Sildes for Java API Reference
-description: p
- Represents VBA project with presentation macros.
+second_title: Aspose.Slides for Java API Reference
+description:  Represents VBA project with presentation macros.
 type: docs
 weight: 1088
 url: /java/com.aspose.slides/ivbaproject/

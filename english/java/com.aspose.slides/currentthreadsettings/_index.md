@@ -1,6 +1,6 @@
 ---
 title: CurrentThreadSettings
-second_title: Aspose.Sildes for Java API Reference
+second_title: Aspose.Slides for Java API Reference
 description: Auxiliary class that allows to define default Locale for current thread
 type: docs
 weight: 143

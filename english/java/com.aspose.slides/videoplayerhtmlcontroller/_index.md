@@ -1,8 +1,7 @@
 ---
 title: VideoPlayerHtmlController
-second_title: Aspose.Sildes for Java API Reference
-description: p
- This class allows export of video and audio files into a HTML
+second_title: Aspose.Slides for Java API Reference
+description:  This class allows export of video and audio files into a HTML
 type: docs
 weight: 606
 url: /java/com.aspose.slides/videoplayerhtmlcontroller/
