@@ -32,4 +32,4 @@ Returns adjustment by index.
 | index | int | adjustment's index. |
 
 **Returns:**
-[IAdjustValue](../../com.aspose.slides/iadjustvalue) - [IAdjustValue](../com.aspose.slides/iadjustvalue).
+[IAdjustValue](../../com.aspose.slides/iadjustvalue) - [IAdjustValue](../../com.aspose.slides/iadjustvalue).

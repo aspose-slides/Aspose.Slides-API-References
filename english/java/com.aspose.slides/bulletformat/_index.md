@@ -282,7 +282,7 @@ Gets effective bullet formatting data with the inheritance applied.
 > ```
 
 **Returns:**
-[IBulletFormatEffectiveData](../../com.aspose.slides/ibulletformateffectivedata) - A [IBulletFormatEffectiveData](../com.aspose.slides/ibulletformateffectivedata).
+[IBulletFormatEffectiveData](../../com.aspose.slides/ibulletformateffectivedata) - A [IBulletFormatEffectiveData](../../com.aspose.slides/ibulletformateffectivedata).
 ### getVersion() {#getVersion--}
 ```
 public long getVersion()

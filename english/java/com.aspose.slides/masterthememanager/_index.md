@@ -93,5 +93,5 @@ Applies extra color scheme to a slide.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| scheme | [IExtraColorScheme](../../com.aspose.slides/iextracolorscheme) | [IExtraColorScheme](../com.aspose.slides/iextracolorscheme) object. |
+| scheme | [IExtraColorScheme](../../com.aspose.slides/iextracolorscheme) | [IExtraColorScheme](../../com.aspose.slides/iextracolorscheme) object. |
 

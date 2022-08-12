@@ -52,7 +52,7 @@ Gets effective table row formatting properties with inheritance and table styles
 > ```
 
 **Returns:**
-[IRowFormatEffectiveData](../../com.aspose.slides/irowformateffectivedata) - A [IRowFormatEffectiveData](../com.aspose.slides/irowformateffectivedata).
+[IRowFormatEffectiveData](../../com.aspose.slides/irowformateffectivedata) - A [IRowFormatEffectiveData](../../com.aspose.slides/irowformateffectivedata).
 ### getVersion() {#getVersion--}
 ```
 public final long getVersion()

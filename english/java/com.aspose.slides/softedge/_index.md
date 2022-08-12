@@ -28,7 +28,6 @@ Represents a soft edge effect. The edges of the shape are blurred, while the fil
 | [getParent_IPresentationComponent()](#getParent-IPresentationComponent--) |  |
 | [equals(Object obj)](#equals-java.lang.Object-) | Determines whether the specified [SoftEdge](../../com.aspose.slides/softedge) is equal to the current [SoftEdge](../../com.aspose.slides/softedge). |
 | [hashCode()](#hashCode--) | Serves as a hash function for a particular type. |
-| [memberwiseClone()](#memberwiseClone--) |  |
 ### getRadius() {#getRadius--}
 ```
 public final double getRadius()
@@ -61,7 +60,7 @@ public final ISoftEdgeEffectiveData getEffective()
 Gets effective Soft Edge effect data with the inheritance applied.
 
 **Returns:**
-[ISoftEdgeEffectiveData](../../com.aspose.slides/isoftedgeeffectivedata) - A [ISoftEdgeEffectiveData](../com.aspose.slides/isoftedgeeffectivedata).
+[ISoftEdgeEffectiveData](../../com.aspose.slides/isoftedgeeffectivedata) - A [ISoftEdgeEffectiveData](../../com.aspose.slides/isoftedgeeffectivedata).
 ### getParent_Immediate() {#getParent-Immediate--}
 ```
 public final IDOMObject getParent_Immediate()
@@ -103,7 +102,7 @@ Determines whether the specified [SoftEdge](../../com.aspose.slides/softedge) is
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | java.lang.Object | The [SoftEdge](../com.aspose.slides/softedge) to compare. |
+| obj | java.lang.Object | The [SoftEdge](../../com.aspose.slides/softedge) to compare. |
 
 **Returns:**
 boolean - true if objects are equal; otherwise, false.
@@ -117,13 +116,3 @@ Serves as a hash function for a particular type.
 
 **Returns:**
 int - A hash code for the current object.
-### memberwiseClone() {#memberwiseClone--}
-```
-protected Object memberwiseClone()
-```
-
-
-
-
-**Returns:**
-java.lang.Object

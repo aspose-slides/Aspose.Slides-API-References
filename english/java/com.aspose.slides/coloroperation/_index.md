@@ -91,8 +91,7 @@ Determines whether the two ColorOperation instances are equal.
 | obj | java.lang.Object | The ColorOperation to compare with the current ColorOperation. |
 
 **Returns:**
-boolean - <b>true</b> if the specified ColorOperation is equal to the current ColorOperation;
- otherwise, <b>false</b>.
+boolean - **true** if the specified ColorOperation is equal to the current ColorOperation; otherwise, **false**.
 ### hashCode() {#hashCode--}
 ```
 public int hashCode()

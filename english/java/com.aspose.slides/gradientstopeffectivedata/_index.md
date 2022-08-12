@@ -55,7 +55,7 @@ Determines whether the specified [GradientStopEffectiveData](../../com.aspose.sl
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | java.lang.Object | The [GradientStopEffectiveData](../com.aspose.slides/gradientstopeffectivedata) to compare. |
+| obj | java.lang.Object | The [GradientStopEffectiveData](../../com.aspose.slides/gradientstopeffectivedata) to compare. |
 
 **Returns:**
 boolean - true if objects are equal; otherwise, false.

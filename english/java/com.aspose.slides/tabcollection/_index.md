@@ -134,7 +134,7 @@ Determines whether two TabsEx instances are equal.
 | obj | java.lang.Object | The TabsEx to compare with the current TabsEx. |
 
 **Returns:**
-boolean - <b>true</b> if the specified TabsEx is equal to the current TabsEx; otherwise, <b>false</b>.
+boolean - **true** if the specified TabsEx is equal to the current TabsEx; otherwise, **false**.
 ### iterator() {#iterator--}
 ```
 public final System.Collections.Generic.IGenericEnumerator<ITab> iterator()

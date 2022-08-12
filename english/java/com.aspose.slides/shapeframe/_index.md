@@ -192,7 +192,7 @@ Returns a value indicating whether this instance is equal to a specified object.
 | obj | java.lang.Object | The object to compare with this instance. |
 
 **Returns:**
-boolean - <b>true</b> if obj is a ShapeFrame that has the same value as this instance; otherwise, <b>false</b>.
+boolean - **true** if obj is a ShapeFrame that has the same value as this instance; otherwise, **false**.
 ### equals(ShapeFrame value) {#equals-com.aspose.slides.ShapeFrame-}
 ```
 public final boolean equals(ShapeFrame value)
@@ -207,4 +207,4 @@ Returns a value indicating whether this instance is equal to a specified object.
 | value | [ShapeFrame](../../com.aspose.slides/shapeframe) | The ShapeFRameEx to compare with this instance. |
 
 **Returns:**
-boolean - <b>true</b> if value is a ShapeFrame that has the same value as this instance; otherwise, <b>false</b>.
+boolean - **true** if value is a ShapeFrame that has the same value as this instance; otherwise, **false**.

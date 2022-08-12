@@ -30,4 +30,4 @@ Creates new OLE Automation type library reference.
 | libid | java.lang.String | Identifier of an Automation type library String |
 
 **Returns:**
-[IVbaReferenceOleTypeLib](../../com.aspose.slides/ivbareferenceoletypelib) - New OLE Automation type library reference [IVbaReferenceOleTypeLib](../com.aspose.slides/ivbareferenceoletypelib)
+[IVbaReferenceOleTypeLib](../../com.aspose.slides/ivbareferenceoletypelib) - New OLE Automation type library reference [IVbaReferenceOleTypeLib](../../com.aspose.slides/ivbareferenceoletypelib)

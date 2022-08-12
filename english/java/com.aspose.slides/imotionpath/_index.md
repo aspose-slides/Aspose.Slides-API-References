@@ -35,13 +35,13 @@ Add new command to path
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | int | Type of command for animation motion effect behavior [MotionCommandPathType](../com.aspose.slides/motioncommandpathtype) |
+| type | int | Type of command for animation motion effect behavior [MotionCommandPathType](../../com.aspose.slides/motioncommandpathtype) |
 | pts | java.awt.geom.Point2D.Float[] | Points array java.awt.geom.Point2D.Float[] |
-| ptsType | int | Type of points in animation motion path [MotionPathPointsType](../com.aspose.slides/motionpathpointstype) |
+| ptsType | int | Type of points in animation motion path [MotionPathPointsType](../../com.aspose.slides/motionpathpointstype) |
 | bRelativeCoord | boolean | Indicates whether to use relative coordinates or not boolean |
 
 **Returns:**
-[IMotionCmdPath](../../com.aspose.slides/imotioncmdpath) - Command of a path [IMotionCmdPath](../com.aspose.slides/imotioncmdpath)
+[IMotionCmdPath](../../com.aspose.slides/imotioncmdpath) - Command of a path [IMotionCmdPath](../../com.aspose.slides/imotioncmdpath)
 ### getCount() {#getCount--}
 ```
 public abstract int getCount()
@@ -64,9 +64,9 @@ Insert new command to path
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | int | Index for command insertion int |
-| type | int | Type of command for animation motion effect behavior [MotionCommandPathType](../com.aspose.slides/motioncommandpathtype) |
+| type | int | Type of command for animation motion effect behavior [MotionCommandPathType](../../com.aspose.slides/motioncommandpathtype) |
 | pts | java.awt.geom.Point2D.Float[] | Points array java.awt.geom.Point2D.Float[] |
-| ptsType | int | Type of points in animation motion path [MotionPathPointsType](../com.aspose.slides/motionpathpointstype) |
+| ptsType | int | Type of points in animation motion path [MotionPathPointsType](../../com.aspose.slides/motionpathpointstype) |
 | bRelativeCoord | boolean | Indicates whether to use relative coordinates or not boolean |
 
 ### clear() {#clear--}
@@ -88,7 +88,7 @@ Removes specified commans from the collection.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| item | [IMotionCmdPath](../../com.aspose.slides/imotioncmdpath) | Motion path to remove [IMotionCmdPath](../com.aspose.slides/imotioncmdpath) |
+| item | [IMotionCmdPath](../../com.aspose.slides/imotioncmdpath) | Motion path to remove [IMotionCmdPath](../../com.aspose.slides/imotioncmdpath) |
 
 ### removeAt(int index) {#removeAt-int-}
 ```
@@ -117,4 +117,4 @@ Returns a command at the specified index.
 | index | int | Index of element. |
 
 **Returns:**
-[IMotionCmdPath](../../com.aspose.slides/imotioncmdpath) - Command at specified index [IMotionCmdPath](../com.aspose.slides/imotioncmdpath)
+[IMotionCmdPath](../../com.aspose.slides/imotioncmdpath) - Command at specified index [IMotionCmdPath](../../com.aspose.slides/imotioncmdpath)

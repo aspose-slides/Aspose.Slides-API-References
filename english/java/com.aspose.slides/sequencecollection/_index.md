@@ -101,7 +101,7 @@ Returns a sequense at the specified index.
 | index | int | Index of element. |
 
 **Returns:**
-[ISequence](../../com.aspose.slides/isequence) - The [ISequence](../com.aspose.slides/isequence) object.
+[ISequence](../../com.aspose.slides/isequence) - The [ISequence](../../com.aspose.slides/isequence) object.
 ### iterator() {#iterator--}
 ```
 public final System.Collections.Generic.IGenericEnumerator<ISequence> iterator()

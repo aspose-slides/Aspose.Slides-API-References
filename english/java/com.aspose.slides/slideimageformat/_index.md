@@ -47,7 +47,7 @@ Slides should converted to a SVG format.
 | options | [SVGOptions](../../com.aspose.slides/svgoptions) | Options for SVG export. |
 
 **Returns:**
-[SlideImageFormat](../../com.aspose.slides/slideimageformat) - The [SlideImageFormat](../com.aspose.slides/slideimageformat) object.
+[SlideImageFormat](../../com.aspose.slides/slideimageformat) - The [SlideImageFormat](../../com.aspose.slides/slideimageformat) object.
 ### bitmap(float scale, String imgFormat) {#bitmap-float-java.lang.String-}
 ```
 public static SlideImageFormat bitmap(float scale, String imgFormat)
@@ -63,4 +63,4 @@ Slides should be converted to a raster image.
 | imgFormat | java.lang.String | Image format. |
 
 **Returns:**
-[SlideImageFormat](../../com.aspose.slides/slideimageformat) - The [SlideImageFormat](../com.aspose.slides/slideimageformat) object.
+[SlideImageFormat](../../com.aspose.slides/slideimageformat) - The [SlideImageFormat](../../com.aspose.slides/slideimageformat) object.

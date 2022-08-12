@@ -32,7 +32,7 @@ public final IAlphaReplaceEffectiveData getEffective()
 Gets effective Alpha Replace effect data with the inheritance applied.
 
 **Returns:**
-[IAlphaReplaceEffectiveData](../../com.aspose.slides/ialphareplaceeffectivedata) - A [IAlphaReplaceEffectiveData](../com.aspose.slides/ialphareplaceeffectivedata).
+[IAlphaReplaceEffectiveData](../../com.aspose.slides/ialphareplaceeffectivedata) - A [IAlphaReplaceEffectiveData](../../com.aspose.slides/ialphareplaceeffectivedata).
 ### equals(Object obj) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object obj)
@@ -44,7 +44,7 @@ Determines whether the specified [AlphaReplace](../../com.aspose.slides/alpharep
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | java.lang.Object | The [AlphaReplace](../com.aspose.slides/alphareplace) to compare. |
+| obj | java.lang.Object | The [AlphaReplace](../../com.aspose.slides/alphareplace) to compare. |
 
 **Returns:**
 boolean - true if objects are equal; otherwise, false.

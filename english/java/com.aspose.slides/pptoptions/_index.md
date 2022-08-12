@@ -27,7 +27,6 @@ Provides options that control how a presentation is saved in PPT format.
 | --- | --- |
 | [getRootDirectoryClsid()](#getRootDirectoryClsid--) | Represents the object class GUID (CLSID) that is stored in the root directory entry. |
 | [setRootDirectoryClsid(UUID value)](#setRootDirectoryClsid-java.util.UUID-) | Represents the object class GUID (CLSID) that is stored in the root directory entry. |
-| [memberwiseClone()](#memberwiseClone--) |  |
 ### PptOptions() {#PptOptions--}
 ```
 public PptOptions()
@@ -89,13 +88,3 @@ Represents the object class GUID (CLSID) that is stored in the root directory en
 | --- | --- | --- |
 | value | java.util.UUID |  |
 
-### memberwiseClone() {#memberwiseClone--}
-```
-protected Object memberwiseClone()
-```
-
-
-
-
-**Returns:**
-java.lang.Object

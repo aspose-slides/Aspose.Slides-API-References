@@ -17,11 +17,6 @@ public abstract class MathElementBase implements IMathElement, IDOMObject
 ```
 
 Base class for IMathElement with the implementation of some methods that are common to all inherited classes For internal use only. Inherited class must be IMathElement.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [MathElementBase()](#MathElementBase--) | Default constructor |
 ## Methods
 
 | Method | Description |
@@ -73,17 +68,6 @@ Base class for IMathElement with the implementation of some methods that are com
 | [toBorderBox(boolean hideTop, boolean hideBottom, boolean hideLeft, boolean hideRight, boolean strikethroughHorizontal, boolean strikethroughVertical, boolean strikethroughBottomLeftToTopRight, boolean strikethroughTopLeftToBottomRight)](#toBorderBox-boolean-boolean-boolean-boolean-boolean-boolean-boolean-boolean-) | Places this element in a border-box |
 | [toBox()](#toBox--) | Places this element in a non-visual box (logical grouping) which is used to group components of an equation or other instance of mathematical text. |
 | [getChildren()](#getChildren--) | Get children elements |
-| [getChildren(IMathElement child1, IMathElement child2, IMathElement child3)](#getChildren-com.aspose.slides.IMathElement-com.aspose.slides.IMathElement-com.aspose.slides.IMathElement-) | Get children elements |
-| [getChildren(IMathElement child1, IMathElement child2)](#getChildren-com.aspose.slides.IMathElement-com.aspose.slides.IMathElement-) |  |
-| [getChildren(IMathElement child)](#getChildren-com.aspose.slides.IMathElement-) |  |
-### MathElementBase() {#MathElementBase--}
-```
-protected MathElementBase()
-```
-
-
-Default constructor
-
 ### getParent_Immediate() {#getParent-Immediate--}
 ```
 public IDOMObject getParent_Immediate()
@@ -261,7 +245,7 @@ Encloses a math element in parenthesis
 > ```
 
 **Returns:**
-[IMathDelimiter](../../com.aspose.slides/imathdelimiter) - The math element of type [IMathDelimiter](../com.aspose.slides/imathdelimiter) which includes the parenthesis
+[IMathDelimiter](../../com.aspose.slides/imathdelimiter) - The math element of type [IMathDelimiter](../../com.aspose.slides/imathdelimiter) which includes the parenthesis
 ### enclose(char beginningCharacter, char endingCharacter) {#enclose-char-char-}
 ```
 public IMathDelimiter enclose(char beginningCharacter, char endingCharacter)
@@ -286,7 +270,7 @@ Encloses a math element in specified characters such as parenthesis or another c
 | endingCharacter | char | Ending character (usually right bracket) |
 
 **Returns:**
-[IMathDelimiter](../../com.aspose.slides/imathdelimiter) - The math element of type [IMathDelimiter](../com.aspose.slides/imathdelimiter) which includes specified characters as framing
+[IMathDelimiter](../../com.aspose.slides/imathdelimiter) - The math element of type [IMathDelimiter](../../com.aspose.slides/imathdelimiter) which includes specified characters as framing
 ### function(IMathElement functionArgument) {#function-com.aspose.slides.IMathElement-}
 ```
 public final IMathFunction function(IMathElement functionArgument)
@@ -311,7 +295,7 @@ Takes a function of an argument using this instance as the function name
 | functionArgument | [IMathElement](../../com.aspose.slides/imathelement) | An argument of the function |
 
 **Returns:**
-[IMathFunction](../../com.aspose.slides/imathfunction) - New math element of type [IMathFunction](../com.aspose.slides/imathfunction)
+[IMathFunction](../../com.aspose.slides/imathfunction) - New math element of type [IMathFunction](../../com.aspose.slides/imathfunction)
 ### function(String functionArgument) {#function-java.lang.String-}
 ```
 public final IMathFunction function(String functionArgument)
@@ -335,7 +319,7 @@ Takes a function of an argument using this instance as the function name
 | functionArgument | java.lang.String | An argument of the function |
 
 **Returns:**
-[IMathFunction](../../com.aspose.slides/imathfunction) - New math element of type [IMathFunction](../com.aspose.slides/imathfunction)
+[IMathFunction](../../com.aspose.slides/imathfunction) - New math element of type [IMathFunction](../../com.aspose.slides/imathfunction)
 ### asArgumentOfFunction(IMathElement functionName) {#asArgumentOfFunction-com.aspose.slides.IMathElement-}
 ```
 public final IMathFunction asArgumentOfFunction(IMathElement functionName)
@@ -360,7 +344,7 @@ Takes specified function using this instance as the argument
 | functionName | [IMathElement](../../com.aspose.slides/imathelement) | Function name |
 
 **Returns:**
-[IMathFunction](../../com.aspose.slides/imathfunction) - New math element of type [IMathFunction](../com.aspose.slides/imathfunction)
+[IMathFunction](../../com.aspose.slides/imathfunction) - New math element of type [IMathFunction](../../com.aspose.slides/imathfunction)
 ### asArgumentOfFunction(String functionName) {#asArgumentOfFunction-java.lang.String-}
 ```
 public final IMathFunction asArgumentOfFunction(String functionName)
@@ -384,7 +368,7 @@ Takes specified function using this instance as the argument
 | functionName | java.lang.String | Function name |
 
 **Returns:**
-[IMathFunction](../../com.aspose.slides/imathfunction) - New math element of type [IMathFunction](../com.aspose.slides/imathfunction)
+[IMathFunction](../../com.aspose.slides/imathfunction) - New math element of type [IMathFunction](../../com.aspose.slides/imathfunction)
 ### asArgumentOfFunction(int functionType) {#asArgumentOfFunction-int-}
 ```
 public final IMathFunction asArgumentOfFunction(int functionType)
@@ -409,7 +393,7 @@ Takes specified function using this instance as the argument
 | functionType | int | One of the common function type of one argument |
 
 **Returns:**
-[IMathFunction](../../com.aspose.slides/imathfunction) - New math element of type [IMathFunction](../com.aspose.slides/imathfunction)
+[IMathFunction](../../com.aspose.slides/imathfunction) - New math element of type [IMathFunction](../../com.aspose.slides/imathfunction)
 ### asArgumentOfFunction(int functionType, IMathElement additionalArgument) {#asArgumentOfFunction-int-com.aspose.slides.IMathElement-}
 ```
 public final IMathFunction asArgumentOfFunction(int functionType, IMathElement additionalArgument)
@@ -435,7 +419,7 @@ Takes specified function using this instance as the argument and specified addit
 | additionalArgument | [IMathElement](../../com.aspose.slides/imathelement) | Additional argument depending on the type of function |
 
 **Returns:**
-[IMathFunction](../../com.aspose.slides/imathfunction) - New math element of type [IMathFunction](../com.aspose.slides/imathfunction)
+[IMathFunction](../../com.aspose.slides/imathfunction) - New math element of type [IMathFunction](../../com.aspose.slides/imathfunction)
 ### asArgumentOfFunction(int functionType, String additionalArgument) {#asArgumentOfFunction-int-java.lang.String-}
 ```
 public final IMathFunction asArgumentOfFunction(int functionType, String additionalArgument)
@@ -460,7 +444,7 @@ Takes specified function using this instance as the argument and specified addit
 | additionalArgument | java.lang.String | Additional argument depending on the type of function |
 
 **Returns:**
-[IMathFunction](../../com.aspose.slides/imathfunction) - New math element of type [IMathFunction](../com.aspose.slides/imathfunction)
+[IMathFunction](../../com.aspose.slides/imathfunction) - New math element of type [IMathFunction](../../com.aspose.slides/imathfunction)
 ### setSubscript(IMathElement subscript) {#setSubscript-com.aspose.slides.IMathElement-}
 ```
 public final IMathSubscriptElement setSubscript(IMathElement subscript)
@@ -485,7 +469,7 @@ Creates subscript
 | subscript | [IMathElement](../../com.aspose.slides/imathelement) | Subscript (lower index on the right) |
 
 **Returns:**
-[IMathSubscriptElement](../../com.aspose.slides/imathsubscriptelement) - New math element of type [IMathSubscriptElement](../com.aspose.slides/imathsubscriptelement)
+[IMathSubscriptElement](../../com.aspose.slides/imathsubscriptelement) - New math element of type [IMathSubscriptElement](../../com.aspose.slides/imathsubscriptelement)
 ### setSubscript(String subscript) {#setSubscript-java.lang.String-}
 ```
 public final IMathSubscriptElement setSubscript(String subscript)
@@ -509,7 +493,7 @@ Creates subscript
 | subscript | java.lang.String | Subscript (lower index on the right) |
 
 **Returns:**
-[IMathSubscriptElement](../../com.aspose.slides/imathsubscriptelement) - New math element of type [IMathSubscriptElement](../com.aspose.slides/imathsubscriptelement)
+[IMathSubscriptElement](../../com.aspose.slides/imathsubscriptelement) - New math element of type [IMathSubscriptElement](../../com.aspose.slides/imathsubscriptelement)
 ### setSuperscript(IMathElement superscript) {#setSuperscript-com.aspose.slides.IMathElement-}
 ```
 public final IMathSuperscriptElement setSuperscript(IMathElement superscript)
@@ -534,7 +518,7 @@ Creates superscript
 | superscript | [IMathElement](../../com.aspose.slides/imathelement) | Superscript (upper index on the right) |
 
 **Returns:**
-[IMathSuperscriptElement](../../com.aspose.slides/imathsuperscriptelement) - New math element of type [IMathSuperscriptElement](../com.aspose.slides/imathsuperscriptelement)
+[IMathSuperscriptElement](../../com.aspose.slides/imathsuperscriptelement) - New math element of type [IMathSuperscriptElement](../../com.aspose.slides/imathsuperscriptelement)
 ### setSuperscript(String superscript) {#setSuperscript-java.lang.String-}
 ```
 public final IMathSuperscriptElement setSuperscript(String superscript)
@@ -558,7 +542,7 @@ Creates superscript
 | superscript | java.lang.String | Superscript (upper index on the right) |
 
 **Returns:**
-[IMathSuperscriptElement](../../com.aspose.slides/imathsuperscriptelement) - New math element of type [IMathSuperscriptElement](../com.aspose.slides/imathsuperscriptelement)
+[IMathSuperscriptElement](../../com.aspose.slides/imathsuperscriptelement) - New math element of type [IMathSuperscriptElement](../../com.aspose.slides/imathsuperscriptelement)
 ### setSubSuperscriptOnTheRight(IMathElement subscript, IMathElement superscript) {#setSubSuperscriptOnTheRight-com.aspose.slides.IMathElement-com.aspose.slides.IMathElement-}
 ```
 public final IMathRightSubSuperscriptElement setSubSuperscriptOnTheRight(IMathElement subscript, IMathElement superscript)
@@ -585,7 +569,7 @@ Creates subscript and superscript on the right
 | superscript | [IMathElement](../../com.aspose.slides/imathelement) | Superscript (upper index on the right) |
 
 **Returns:**
-[IMathRightSubSuperscriptElement](../../com.aspose.slides/imathrightsubsuperscriptelement) - New math element of type [IMathRightSubSuperscriptElement](../com.aspose.slides/imathrightsubsuperscriptelement)
+[IMathRightSubSuperscriptElement](../../com.aspose.slides/imathrightsubsuperscriptelement) - New math element of type [IMathRightSubSuperscriptElement](../../com.aspose.slides/imathrightsubsuperscriptelement)
 ### setSubSuperscriptOnTheRight(String subscript, String superscript) {#setSubSuperscriptOnTheRight-java.lang.String-java.lang.String-}
 ```
 public final IMathRightSubSuperscriptElement setSubSuperscriptOnTheRight(String subscript, String superscript)
@@ -610,7 +594,7 @@ Creates subscript and superscript on the right
 | superscript | java.lang.String | Superscript (upper index on the right) |
 
 **Returns:**
-[IMathRightSubSuperscriptElement](../../com.aspose.slides/imathrightsubsuperscriptelement) - New math element of type [IMathRightSubSuperscriptElement](../com.aspose.slides/imathrightsubsuperscriptelement)
+[IMathRightSubSuperscriptElement](../../com.aspose.slides/imathrightsubsuperscriptelement) - New math element of type [IMathRightSubSuperscriptElement](../../com.aspose.slides/imathrightsubsuperscriptelement)
 ### setSubSuperscriptOnTheLeft(IMathElement subscript, IMathElement superscript) {#setSubSuperscriptOnTheLeft-com.aspose.slides.IMathElement-com.aspose.slides.IMathElement-}
 ```
 public final IMathLeftSubSuperscriptElement setSubSuperscriptOnTheLeft(IMathElement subscript, IMathElement superscript)
@@ -637,7 +621,7 @@ Creates subscript and superscript on the left
 | superscript | [IMathElement](../../com.aspose.slides/imathelement) | Superscript (upper index on the left) |
 
 **Returns:**
-[IMathLeftSubSuperscriptElement](../../com.aspose.slides/imathleftsubsuperscriptelement) - New math element of type [IMathLeftSubSuperscriptElement](../com.aspose.slides/imathleftsubsuperscriptelement)
+[IMathLeftSubSuperscriptElement](../../com.aspose.slides/imathleftsubsuperscriptelement) - New math element of type [IMathLeftSubSuperscriptElement](../../com.aspose.slides/imathleftsubsuperscriptelement)
 ### setSubSuperscriptOnTheLeft(String subscript, String superscript) {#setSubSuperscriptOnTheLeft-java.lang.String-java.lang.String-}
 ```
 public final IMathLeftSubSuperscriptElement setSubSuperscriptOnTheLeft(String subscript, String superscript)
@@ -662,7 +646,7 @@ Creates subscript and superscript on the left
 | superscript | java.lang.String | Superscript (upper index on the left) |
 
 **Returns:**
-[IMathLeftSubSuperscriptElement](../../com.aspose.slides/imathleftsubsuperscriptelement) - New math element of type [IMathLeftSubSuperscriptElement](../com.aspose.slides/imathleftsubsuperscriptelement)
+[IMathLeftSubSuperscriptElement](../../com.aspose.slides/imathleftsubsuperscriptelement) - New math element of type [IMathLeftSubSuperscriptElement](../../com.aspose.slides/imathleftsubsuperscriptelement)
 ### radical(IMathElement degree) {#radical-com.aspose.slides.IMathElement-}
 ```
 public final IMathRadical radical(IMathElement degree)
@@ -687,7 +671,7 @@ Specifies the mathematical root of the given degree from the specified argument.
 | degree | [IMathElement](../../com.aspose.slides/imathelement) | Argument of Radical |
 
 **Returns:**
-[IMathRadical](../../com.aspose.slides/imathradical) - New instance of type [IMathRadical](../com.aspose.slides/imathradical)
+[IMathRadical](../../com.aspose.slides/imathradical) - New instance of type [IMathRadical](../../com.aspose.slides/imathradical)
 ### radical(String degree) {#radical-java.lang.String-}
 ```
 public final IMathRadical radical(String degree)
@@ -711,7 +695,7 @@ Specifies the mathematical root of the given degree from the specified argument.
 | degree | java.lang.String | Argument of Radical |
 
 **Returns:**
-[IMathRadical](../../com.aspose.slides/imathradical) - New instance of type [IMathRadical](../com.aspose.slides/imathradical)
+[IMathRadical](../../com.aspose.slides/imathradical) - New instance of type [IMathRadical](../../com.aspose.slides/imathradical)
 ### setUpperLimit(IMathElement limit) {#setUpperLimit-com.aspose.slides.IMathElement-}
 ```
 public final IMathLimit setUpperLimit(IMathElement limit)
@@ -736,7 +720,7 @@ Takes upper limit
 | limit | [IMathElement](../../com.aspose.slides/imathelement) | limit |
 
 **Returns:**
-[IMathLimit](../../com.aspose.slides/imathlimit) - New instance of type [IMathLimit](../com.aspose.slides/imathlimit)
+[IMathLimit](../../com.aspose.slides/imathlimit) - New instance of type [IMathLimit](../../com.aspose.slides/imathlimit)
 ### setUpperLimit(String limit) {#setUpperLimit-java.lang.String-}
 ```
 public final IMathLimit setUpperLimit(String limit)
@@ -760,7 +744,7 @@ Takes upper limit
 | limit | java.lang.String | limit |
 
 **Returns:**
-[IMathLimit](../../com.aspose.slides/imathlimit) - New instance of type [IMathLimit](../com.aspose.slides/imathlimit)
+[IMathLimit](../../com.aspose.slides/imathlimit) - New instance of type [IMathLimit](../../com.aspose.slides/imathlimit)
 ### setLowerLimit(IMathElement limit) {#setLowerLimit-com.aspose.slides.IMathElement-}
 ```
 public final IMathLimit setLowerLimit(IMathElement limit)
@@ -785,7 +769,7 @@ Takes lower limit
 | limit | [IMathElement](../../com.aspose.slides/imathelement) | limit |
 
 **Returns:**
-[IMathLimit](../../com.aspose.slides/imathlimit) - New instance of type [IMathLimit](../com.aspose.slides/imathlimit)
+[IMathLimit](../../com.aspose.slides/imathlimit) - New instance of type [IMathLimit](../../com.aspose.slides/imathlimit)
 ### setLowerLimit(String limit) {#setLowerLimit-java.lang.String-}
 ```
 public final IMathLimit setLowerLimit(String limit)
@@ -809,7 +793,7 @@ Takes lower limit
 | limit | java.lang.String | limit |
 
 **Returns:**
-[IMathLimit](../../com.aspose.slides/imathlimit) - New instance of type [IMathLimit](../com.aspose.slides/imathlimit)
+[IMathLimit](../../com.aspose.slides/imathlimit) - New instance of type [IMathLimit](../../com.aspose.slides/imathlimit)
 ### nary(int type, IMathElement lowerLimit, IMathElement upperLimit) {#nary-int-com.aspose.slides.IMathElement-com.aspose.slides.IMathElement-}
 ```
 public final IMathNaryOperator nary(int type, IMathElement lowerLimit, IMathElement upperLimit)
@@ -837,7 +821,7 @@ Creates a N-ary operator
 | upperLimit | [IMathElement](../../com.aspose.slides/imathelement) | The upper limit |
 
 **Returns:**
-[IMathNaryOperator](../../com.aspose.slides/imathnaryoperator) - New instance of type [IMathNaryOperator](../com.aspose.slides/imathnaryoperator)
+[IMathNaryOperator](../../com.aspose.slides/imathnaryoperator) - New instance of type [IMathNaryOperator](../../com.aspose.slides/imathnaryoperator)
 ### nary(int type, String lowerLimit, String upperLimit) {#nary-int-java.lang.String-java.lang.String-}
 ```
 public final IMathNaryOperator nary(int type, String lowerLimit, String upperLimit)
@@ -862,7 +846,7 @@ Creates a N-ary operator
 | upperLimit | java.lang.String | The upper limit |
 
 **Returns:**
-[IMathNaryOperator](../../com.aspose.slides/imathnaryoperator) - New instance of type [IMathNaryOperator](../com.aspose.slides/imathnaryoperator)
+[IMathNaryOperator](../../com.aspose.slides/imathnaryoperator) - New instance of type [IMathNaryOperator](../../com.aspose.slides/imathnaryoperator)
 ### toMathArray() {#toMathArray--}
 ```
 public IMathArray toMathArray()
@@ -880,7 +864,7 @@ Puts in a vertical array
 > ```
 
 **Returns:**
-[IMathArray](../../com.aspose.slides/imatharray) - New instance of type [IMathArray](../com.aspose.slides/imatharray)
+[IMathArray](../../com.aspose.slides/imatharray) - New instance of type [IMathArray](../../com.aspose.slides/imatharray)
 ### integral(int integralType, IMathElement lowerLimit, IMathElement upperLimit, int limitLocations) {#integral-int-com.aspose.slides.IMathElement-com.aspose.slides.IMathElement-int-}
 ```
 public final IMathNaryOperator integral(int integralType, IMathElement lowerLimit, IMathElement upperLimit, int limitLocations)
@@ -909,7 +893,7 @@ Takes the integral
 | limitLocations | int | location of limits |
 
 **Returns:**
-[IMathNaryOperator](../../com.aspose.slides/imathnaryoperator) - New instance of type [IMathNaryOperator](../com.aspose.slides/imathnaryoperator)
+[IMathNaryOperator](../../com.aspose.slides/imathnaryoperator) - New instance of type [IMathNaryOperator](../../com.aspose.slides/imathnaryoperator)
 ### integral(int integralType, IMathElement lowerLimit, IMathElement upperLimit) {#integral-int-com.aspose.slides.IMathElement-com.aspose.slides.IMathElement-}
 ```
 public final IMathNaryOperator integral(int integralType, IMathElement lowerLimit, IMathElement upperLimit)
@@ -937,7 +921,7 @@ Takes the integral
 | upperLimit | [IMathElement](../../com.aspose.slides/imathelement) | Upper limit of integral |
 
 **Returns:**
-[IMathNaryOperator](../../com.aspose.slides/imathnaryoperator) - New instance of type [IMathNaryOperator](../com.aspose.slides/imathnaryoperator)
+[IMathNaryOperator](../../com.aspose.slides/imathnaryoperator) - New instance of type [IMathNaryOperator](../../com.aspose.slides/imathnaryoperator)
 ### integral(int integralType) {#integral-int-}
 ```
 public final IMathNaryOperator integral(int integralType)
@@ -961,7 +945,7 @@ Takes the integral without limits
 | integralType | int | Integral type |
 
 **Returns:**
-[IMathNaryOperator](../../com.aspose.slides/imathnaryoperator) - New instance of type [IMathNaryOperator](../com.aspose.slides/imathnaryoperator)
+[IMathNaryOperator](../../com.aspose.slides/imathnaryoperator) - New instance of type [IMathNaryOperator](../../com.aspose.slides/imathnaryoperator)
 ### integral(int integralType, String lowerLimit, String upperLimit, int limitLocations) {#integral-int-java.lang.String-java.lang.String-int-}
 ```
 public final IMathNaryOperator integral(int integralType, String lowerLimit, String upperLimit, int limitLocations)
@@ -988,7 +972,7 @@ Takes the integral
 | limitLocations | int | location of limits |
 
 **Returns:**
-[IMathNaryOperator](../../com.aspose.slides/imathnaryoperator) - New instance of type [IMathNaryOperator](../com.aspose.slides/imathnaryoperator)
+[IMathNaryOperator](../../com.aspose.slides/imathnaryoperator) - New instance of type [IMathNaryOperator](../../com.aspose.slides/imathnaryoperator)
 ### integral(int integralType, String lowerLimit, String upperLimit) {#integral-int-java.lang.String-java.lang.String-}
 ```
 public final IMathNaryOperator integral(int integralType, String lowerLimit, String upperLimit)
@@ -1014,7 +998,7 @@ Takes the integral
 | upperLimit | java.lang.String | Upper limit of integral |
 
 **Returns:**
-[IMathNaryOperator](../../com.aspose.slides/imathnaryoperator) - New instance of type [IMathNaryOperator](../com.aspose.slides/imathnaryoperator)
+[IMathNaryOperator](../../com.aspose.slides/imathnaryoperator) - New instance of type [IMathNaryOperator](../../com.aspose.slides/imathnaryoperator)
 ### accent(char accentCharacter) {#accent-char-}
 ```
 public final IMathAccent accent(char accentCharacter)
@@ -1037,7 +1021,7 @@ Sets an accent mark (a character on the top of this element)
 | accentCharacter | char | Accent character. The value should be within the range of (U+0300\\u2013U+036F) or (U+20D0\\u2013U+20EF) |
 
 **Returns:**
-[IMathAccent](../../com.aspose.slides/imathaccent) - New instance of type [IMathAccent](../com.aspose.slides/imathaccent)
+[IMathAccent](../../com.aspose.slides/imathaccent) - New instance of type [IMathAccent](../../com.aspose.slides/imathaccent)
 ### overbar() {#overbar--}
 ```
 public final IMathBar overbar()
@@ -1055,7 +1039,7 @@ Sets a bar on the top of this element
 > ```
 
 **Returns:**
-[IMathBar](../../com.aspose.slides/imathbar) - New instance of type [IMathBar](../com.aspose.slides/imathbar)
+[IMathBar](../../com.aspose.slides/imathbar) - New instance of type [IMathBar](../../com.aspose.slides/imathbar)
 ### underbar() {#underbar--}
 ```
 public final IMathBar underbar()
@@ -1073,7 +1057,7 @@ Sets a bar on the bottom of this element
 > ```
 
 **Returns:**
-[IMathBar](../../com.aspose.slides/imathbar) - New instance of type [IMathBar](../com.aspose.slides/imathbar)
+[IMathBar](../../com.aspose.slides/imathbar) - New instance of type [IMathBar](../../com.aspose.slides/imathbar)
 ### group() {#group--}
 ```
 public final IMathGroupingCharacter group()
@@ -1091,7 +1075,7 @@ Places this element in a group using a bottom curly bracket
 > ```
 
 **Returns:**
-[IMathGroupingCharacter](../../com.aspose.slides/imathgroupingcharacter) - New instance of type [IMathGroupingCharacter](../com.aspose.slides/imathgroupingcharacter)
+[IMathGroupingCharacter](../../com.aspose.slides/imathgroupingcharacter) - New instance of type [IMathGroupingCharacter](../../com.aspose.slides/imathgroupingcharacter)
 ### group(char character, int position, int verticalJustification) {#group-char-int-int-}
 ```
 public final IMathGroupingCharacter group(char character, int position, int verticalJustification)
@@ -1116,7 +1100,7 @@ Places this element in a group using a grouping character such as bottom curly b
 | verticalJustification | int | Vertical justification of group character. Specifies the alignment of the object with respect to the baseline. For example, when the group character is above the object, VerticalJustification of Top signifies that the top of the object falls on the baseline; when VerticalJustification is set to Bottom, the bottom of the object is on the baseline |
 
 **Returns:**
-[IMathGroupingCharacter](../../com.aspose.slides/imathgroupingcharacter) - New instance of type [IMathGroupingCharacter](../com.aspose.slides/imathgroupingcharacter)
+[IMathGroupingCharacter](../../com.aspose.slides/imathgroupingcharacter) - New instance of type [IMathGroupingCharacter](../../com.aspose.slides/imathgroupingcharacter)
 ### toBorderBox() {#toBorderBox--}
 ```
 public final IMathBorderBox toBorderBox()
@@ -1192,52 +1176,4 @@ public IMathElement[] getChildren()
 Get children elements
 
 **Returns:**
-com.aspose.slides.IMathElement[] - Array of [IMathElement](../com.aspose.slides/imathelement)
-### getChildren(IMathElement child1, IMathElement child2, IMathElement child3) {#getChildren-com.aspose.slides.IMathElement-com.aspose.slides.IMathElement-com.aspose.slides.IMathElement-}
-```
-protected final IMathElement[] getChildren(IMathElement child1, IMathElement child2, IMathElement child3)
-```
-
-
-Get children elements
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| child1 | [IMathElement](../../com.aspose.slides/imathelement) |  |
-| child2 | [IMathElement](../../com.aspose.slides/imathelement) |  |
-| child3 | [IMathElement](../../com.aspose.slides/imathelement) |  |
-
-**Returns:**
-com.aspose.slides.IMathElement[]
-### getChildren(IMathElement child1, IMathElement child2) {#getChildren-com.aspose.slides.IMathElement-com.aspose.slides.IMathElement-}
-```
-protected final IMathElement[] getChildren(IMathElement child1, IMathElement child2)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| child1 | [IMathElement](../../com.aspose.slides/imathelement) |  |
-| child2 | [IMathElement](../../com.aspose.slides/imathelement) |  |
-
-**Returns:**
-com.aspose.slides.IMathElement[]
-### getChildren(IMathElement child) {#getChildren-com.aspose.slides.IMathElement-}
-```
-protected final IMathElement[] getChildren(IMathElement child)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| child | [IMathElement](../../com.aspose.slides/imathelement) |  |
-
-**Returns:**
-com.aspose.slides.IMathElement[]
+com.aspose.slides.IMathElement[] - Array of [IMathElement](../../com.aspose.slides/imathelement)

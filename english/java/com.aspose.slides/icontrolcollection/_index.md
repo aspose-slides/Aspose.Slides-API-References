@@ -89,4 +89,4 @@ Creates and adds a new control to the collection.
 | height | float | The height of shape's frame. |
 
 **Returns:**
-[IControl](../../com.aspose.slides/icontrol) - Created control [IControl](../com.aspose.slides/icontrol).
+[IControl](../../com.aspose.slides/icontrol) - Created control [IControl](../../com.aspose.slides/icontrol).

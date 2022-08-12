@@ -34,7 +34,7 @@ Returns level of effective style.
 | index | int | Zero-based index of level. Must lay in 0..8 interval. |
 
 **Returns:**
-[IParagraphFormatEffectiveData](../../com.aspose.slides/iparagraphformateffectivedata) - Effective formatting of level [IParagraphFormatEffectiveData](../com.aspose.slides/iparagraphformateffectivedata).
+[IParagraphFormatEffectiveData](../../com.aspose.slides/iparagraphformateffectivedata) - Effective formatting of level [IParagraphFormatEffectiveData](../../com.aspose.slides/iparagraphformateffectivedata).
 ### getDefaultParagraphFormat() {#getDefaultParagraphFormat--}
 ```
 public abstract IParagraphFormatEffectiveData getDefaultParagraphFormat()

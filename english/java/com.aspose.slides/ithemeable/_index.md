@@ -27,4 +27,4 @@ public abstract IThemeEffectiveData createThemeEffective()
 Returns an effective theme for this themeable object.
 
 **Returns:**
-[IThemeEffectiveData](../../com.aspose.slides/ithemeeffectivedata) - Effective theme [IThemeEffectiveData](../com.aspose.slides/ithemeeffectivedata)
+[IThemeEffectiveData](../../com.aspose.slides/ithemeeffectivedata) - Effective theme [IThemeEffectiveData](../../com.aspose.slides/ithemeeffectivedata)

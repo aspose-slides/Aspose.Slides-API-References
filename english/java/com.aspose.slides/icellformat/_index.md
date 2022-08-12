@@ -101,4 +101,4 @@ public abstract ICellFormatEffectiveData getEffective()
 Gets effective table cell formatting properties with inheritance and table styles applied.
 
 **Returns:**
-[ICellFormatEffectiveData](../../com.aspose.slides/icellformateffectivedata) - A [ICellFormatEffectiveData](../com.aspose.slides/icellformateffectivedata).
+[ICellFormatEffectiveData](../../com.aspose.slides/icellformateffectivedata) - A [ICellFormatEffectiveData](../../com.aspose.slides/icellformateffectivedata).

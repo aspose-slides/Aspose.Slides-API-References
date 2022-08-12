@@ -35,7 +35,7 @@ Returns the color scheme.
 | styleColor | java.awt.Color | Color java.awt.Color |
 
 **Returns:**
-[IColorSchemeEffectiveData](../../com.aspose.slides/icolorschemeeffectivedata) - Color scheme [IColorSchemeEffectiveData](../com.aspose.slides/icolorschemeeffectivedata)
+[IColorSchemeEffectiveData](../../com.aspose.slides/icolorschemeeffectivedata) - Color scheme [IColorSchemeEffectiveData](../../com.aspose.slides/icolorschemeeffectivedata)
 ### getFontScheme() {#getFontScheme--}
 ```
 public abstract IFontSchemeEffectiveData getFontScheme()

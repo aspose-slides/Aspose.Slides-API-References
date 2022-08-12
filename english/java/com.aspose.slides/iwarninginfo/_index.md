@@ -28,7 +28,7 @@ If receiver is not null ends warning to a specified receiver and throws the Abor
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| receiver | [IWarningCallback](../../com.aspose.slides/iwarningcallback) | Receiver object [IWarningCallback](../com.aspose.slides/iwarningcallback) |
+| receiver | [IWarningCallback](../../com.aspose.slides/iwarningcallback) | Receiver object [IWarningCallback](../../com.aspose.slides/iwarningcallback) |
 
 ### getWarningType() {#getWarningType--}
 ```

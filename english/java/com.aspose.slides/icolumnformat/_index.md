@@ -24,4 +24,4 @@ public abstract IColumnFormatEffectiveData getEffective()
 Gets effective table column formatting properties with inheritance and table styles applied.
 
 **Returns:**
-[IColumnFormatEffectiveData](../../com.aspose.slides/icolumnformateffectivedata) - A [IColumnFormatEffectiveData](../com.aspose.slides/icolumnformateffectivedata).
+[IColumnFormatEffectiveData](../../com.aspose.slides/icolumnformateffectivedata) - A [IColumnFormatEffectiveData](../../com.aspose.slides/icolumnformateffectivedata).

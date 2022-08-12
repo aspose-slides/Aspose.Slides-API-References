@@ -27,7 +27,6 @@ Represents options for saving OpenXml presentations (PPTX, PPSX, POTX, PPTM, PPS
 | --- | --- |
 | [getConformance()](#getConformance--) | Specifies the conformance class to which the Presentation document conforms. |
 | [setConformance(int value)](#setConformance-int-) | Specifies the conformance class to which the Presentation document conforms. |
-| [memberwiseClone()](#memberwiseClone--) |  |
 ### PptxOptions() {#PptxOptions--}
 ```
 public PptxOptions()
@@ -59,13 +58,3 @@ Specifies the conformance class to which the Presentation document conforms. Def
 | --- | --- | --- |
 | value | int |  |
 
-### memberwiseClone() {#memberwiseClone--}
-```
-protected Object memberwiseClone()
-```
-
-
-
-
-**Returns:**
-java.lang.Object

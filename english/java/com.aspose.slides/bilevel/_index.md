@@ -32,7 +32,7 @@ public final IBiLevelEffectiveData getEffective()
 Gets effective Bi-Level effect data with the inheritance applied.
 
 **Returns:**
-[IBiLevelEffectiveData](../../com.aspose.slides/ibileveleffectivedata) - A [IBiLevelEffectiveData](../com.aspose.slides/ibileveleffectivedata).
+[IBiLevelEffectiveData](../../com.aspose.slides/ibileveleffectivedata) - A [IBiLevelEffectiveData](../../com.aspose.slides/ibileveleffectivedata).
 ### equals(Object obj) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object obj)
@@ -44,7 +44,7 @@ Determines whether the specified [BiLevel](../../com.aspose.slides/bilevel) is e
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | java.lang.Object | The [BiLevel](../com.aspose.slides/bilevel) to compare. |
+| obj | java.lang.Object | The [BiLevel](../../com.aspose.slides/bilevel) to compare. |
 
 **Returns:**
 boolean - true if objects are equal; otherwise, false.

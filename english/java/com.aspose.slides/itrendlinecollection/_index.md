@@ -57,10 +57,10 @@ Adds the new Trendline at the end of a collection and return it.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| trendlineType | int | Trendline type [TrendlineType](../com.aspose.slides/trendlinetype) |
+| trendlineType | int | Trendline type [TrendlineType](../../com.aspose.slides/trendlinetype) |
 
 **Returns:**
-[ITrendline](../../com.aspose.slides/itrendline) - New Trendline [ITrendline](../com.aspose.slides/itrendline)
+[ITrendline](../../com.aspose.slides/itrendline) - New Trendline [ITrendline](../../com.aspose.slides/itrendline)
 ### remove(ITrendline value) {#remove-com.aspose.slides.ITrendline-}
 ```
 public abstract void remove(ITrendline value)
@@ -72,5 +72,5 @@ Removes the specified value.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [ITrendline](../../com.aspose.slides/itrendline) | Trendline to remove [ITrendline](../com.aspose.slides/itrendline) |
+| value | [ITrendline](../../com.aspose.slides/itrendline) | Trendline to remove [ITrendline](../../com.aspose.slides/itrendline) |
 

@@ -143,7 +143,6 @@ Represent property types for animation behavior. Follows the list of properties 
 | [getExtrusionRotationCenterY()](#getExtrusionRotationCenterY--) | Represents 'extrusion.rotationcenter.y' property |
 | [getExtrusionRotationCenterZ()](#getExtrusionRotationCenterZ--) | Represents 'extrusion.rotationcenter.z' property |
 | [getExtrusionColorMode()](#getExtrusionColorMode--) | Represents 'extrusion.colormode' property |
-| [equals(BehaviorProperty other)](#equals-com.aspose.slides.BehaviorProperty-) | Checks if this Property is equal to another. |
 | [equals(Object obj)](#equals-java.lang.Object-) | Checks if this object is equal to another. |
 | [hashCode()](#hashCode--) | Calculates and returns hach code based on the (\#getValue) property |
 | [getOrCreateByValue(String propertyValue)](#getOrCreateByValue-java.lang.String-) | Looks for existing behavior property by value or creates new custom one with the specified value |
@@ -1377,21 +1376,6 @@ Represents 'extrusion.colormode' property
 
 **Returns:**
 [BehaviorProperty](../../com.aspose.slides/behaviorproperty)
-### equals(BehaviorProperty other) {#equals-com.aspose.slides.BehaviorProperty-}
-```
-protected final boolean equals(BehaviorProperty other)
-```
-
-
-Checks if this Property is equal to another.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| other | [BehaviorProperty](../../com.aspose.slides/behaviorproperty) | Property to compare. |
-
-**Returns:**
-boolean - True if properties are equal.
 ### equals(Object obj) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object obj)

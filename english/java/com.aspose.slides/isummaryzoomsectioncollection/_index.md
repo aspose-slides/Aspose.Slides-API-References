@@ -79,14 +79,14 @@ Creates new Summary Zoom Section object and add it to the collection
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| section | [ISection](../../com.aspose.slides/isection) | Section for a new Summary Zoom Section element [ISection](../com.aspose.slides/isection)
+| section | [ISection](../../com.aspose.slides/isection) | Section for a new Summary Zoom Section element [ISection](../../com.aspose.slides/isection)
 
 --------------------
 
 If an element for this section already exists in the collection, the existing element is returned. |
 
 **Returns:**
-[ISummaryZoomSection](../../com.aspose.slides/isummaryzoomsection) - Added [ISummaryZoomFrame](../com.aspose.slides/isummaryzoomframe) element
+[ISummaryZoomSection](../../com.aspose.slides/isummaryzoomsection) - Added [ISummaryZoomFrame](../../com.aspose.slides/isummaryzoomframe) element
 ### getSummarySection(ISection section) {#getSummarySection-com.aspose.slides.ISection-}
 ```
 public abstract ISummaryZoomSection getSummarySection(ISection section)
@@ -113,10 +113,10 @@ Returns Summary Zoom Section element for the given section.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| section | [ISection](../../com.aspose.slides/isection) | Section to find [ISection](../com.aspose.slides/isection) |
+| section | [ISection](../../com.aspose.slides/isection) | Section to find [ISection](../../com.aspose.slides/isection) |
 
 **Returns:**
-[ISummaryZoomSection](../../com.aspose.slides/isummaryzoomsection) - [ISummaryZoomSection](../com.aspose.slides/isummaryzoomsection) or null if collection does not contains element for the section.
+[ISummaryZoomSection](../../com.aspose.slides/isummaryzoomsection) - [ISummaryZoomSection](../../com.aspose.slides/isummaryzoomsection) or null if collection does not contains element for the section.
 ### removeSummaryZoomSection(ISection section) {#removeSummaryZoomSection-com.aspose.slides.ISection-}
 ```
 public abstract void removeSummaryZoomSection(ISection section)
@@ -143,7 +143,7 @@ Remove Summary Zoom Section object from the collection.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| section | [ISection](../../com.aspose.slides/isection) | Section for which the Summary Zoom Section element is to be removed [ISection](../com.aspose.slides/isection). |
+| section | [ISection](../../com.aspose.slides/isection) | Section for which the Summary Zoom Section element is to be removed [ISection](../../com.aspose.slides/isection). |
 
 ### indexOf(ISummaryZoomSection summaryZoomSection) {#indexOf-com.aspose.slides.ISummaryZoomSection-}
 ```
@@ -172,7 +172,7 @@ Returns an index of the specified SummaryZoomSection object.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| summaryZoomSection | [ISummaryZoomSection](../../com.aspose.slides/isummaryzoomsection) | SummaryZoomSection object to find [ISummaryZoomSection](../com.aspose.slides/isummaryzoomsection). |
+| summaryZoomSection | [ISummaryZoomSection](../../com.aspose.slides/isummaryzoomsection) | SummaryZoomSection object to find [ISummaryZoomSection](../../com.aspose.slides/isummaryzoomsection). |
 
 **Returns:**
 int - Index of a SummaryZoomSection object or -1 if SummaryZoomSection object not from this collection.

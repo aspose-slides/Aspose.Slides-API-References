@@ -106,8 +106,7 @@ Removes the first occurrence of a specific object from the collection.
 | item | [IMathBlock](../../com.aspose.slides/imathblock) | The object to remove from the collection. |
 
 **Returns:**
-boolean - true if item was successfully removed from the collection; otherwise, false.
- This method also returns false if item is not found in the original collection.
+boolean - true if item was successfully removed from the collection; otherwise, false. This method also returns false if item is not found in the original collection.
 ### removeAt(int index) {#removeAt-int-}
 ```
 public abstract void removeAt(int index)

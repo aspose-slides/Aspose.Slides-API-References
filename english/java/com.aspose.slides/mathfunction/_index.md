@@ -129,7 +129,7 @@ public final IMathElement[] getChildren()
 Get children elements
 
 **Returns:**
-com.aspose.slides.IMathElement[] - Array of [IMathElement](../com.aspose.slides/imathelement)
+com.aspose.slides.IMathElement[] - Array of [IMathElement](../../com.aspose.slides/imathelement)
 ### getControlCharacterProperties() {#getControlCharacterProperties--}
 ```
 public final OmmlControlCharacterPPTXUnsupportedProps getControlCharacterProperties()

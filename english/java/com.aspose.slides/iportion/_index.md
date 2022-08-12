@@ -90,7 +90,7 @@ Converts this portion to the automaticaly updated field.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fieldType | [IFieldType](../../com.aspose.slides/ifieldtype) | Type of field [IFieldType](../com.aspose.slides/ifieldtype) |
+| fieldType | [IFieldType](../../com.aspose.slides/ifieldtype) | Type of field [IFieldType](../../com.aspose.slides/ifieldtype) |
 
 ### addField(String internalString) {#addField-java.lang.String-}
 ```

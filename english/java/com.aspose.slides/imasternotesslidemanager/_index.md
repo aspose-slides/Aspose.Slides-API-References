@@ -36,7 +36,7 @@ public abstract IMasterNotesSlide setDefaultMasterNotesSlide()
 Sets defalut master notes slide for related notes slide.
 
 **Returns:**
-[IMasterNotesSlide](../../com.aspose.slides/imasternotesslide) - Defalut master notes slide [IMasterNotesSlide](../com.aspose.slides/imasternotesslide)
+[IMasterNotesSlide](../../com.aspose.slides/imasternotesslide) - Defalut master notes slide [IMasterNotesSlide](../../com.aspose.slides/imasternotesslide)
 ### removeMasterNotesSlide() {#removeMasterNotesSlide--}
 ```
 public abstract void removeMasterNotesSlide()

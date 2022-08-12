@@ -191,7 +191,7 @@ Converts specifying paragraphs to the HTML and returns it as String object.
 | --- | --- | --- |
 | firstParagraphIndex | int | First paragraph index int |
 | paragraphsCount | int | Paragraph count int |
-| options | [ITextToHtmlConversionOptions](../../com.aspose.slides/itexttohtmlconversionoptions) | Convert options [ITextToHtmlConversionOptions](../com.aspose.slides/itexttohtmlconversionoptions) |
+| options | [ITextToHtmlConversionOptions](../../com.aspose.slides/itexttohtmlconversionoptions) | Convert options [ITextToHtmlConversionOptions](../../com.aspose.slides/itexttohtmlconversionoptions) |
 
 **Returns:**
 java.lang.String - Generated HTML.

@@ -64,7 +64,7 @@ Returns the font name, replacing theme referrence with an actual font used.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| theme | [IThemeEffectiveData](../../com.aspose.slides/ithemeeffectivedata) | Theme from which themed font name should be taken. Its up to caller to provide a correct value. See [IThemeable\#createThemeEffective](../com.aspose.slides/ithemeable\#createThemeEffective) |
+| theme | [IThemeEffectiveData](../../com.aspose.slides/ithemeeffectivedata) | Theme from which themed font name should be taken. Its up to caller to provide a correct value. See [IThemeable\#createThemeEffective](../../com.aspose.slides/ithemeable\#createThemeEffective) |
 
 **Returns:**
 java.lang.String - Font name.
@@ -82,7 +82,7 @@ Determines whether two FontData instances are equal.
 | obj | java.lang.Object | The FontData to compare with the current FontData. |
 
 **Returns:**
-boolean - <b>true</b> if the specified FontData is equal to the current FontData; otherwise, <b>false</b>.
+boolean - **true** if the specified FontData is equal to the current FontData; otherwise, **false**.
 ### hashCode() {#hashCode--}
 ```
 public int hashCode()

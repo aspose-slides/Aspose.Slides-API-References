@@ -155,7 +155,7 @@ Determines whether the [IGenericCollection](../../com.aspose.slides/igenericcoll
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| item | [IBehavior](../../com.aspose.slides/ibehavior) | The object to locate in the [IGenericCollection](../com.aspose.slides/igenericcollection). |
+| item | [IBehavior](../../com.aspose.slides/ibehavior) | The object to locate in the [IGenericCollection](../../com.aspose.slides/igenericcollection). |
 
 **Returns:**
-boolean - true if item is found in the [IGenericCollection](../com.aspose.slides/igenericcollection); otherwise, false.
+boolean - true if item is found in the [IGenericCollection](../../com.aspose.slides/igenericcollection); otherwise, false.

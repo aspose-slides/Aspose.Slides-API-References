@@ -158,4 +158,4 @@ Gets effective fill formatting data with the inheritance applied.
 > ```
 
 **Returns:**
-[IFillFormatEffectiveData](../../com.aspose.slides/ifillformateffectivedata) - A [IFillFormatEffectiveData](../com.aspose.slides/ifillformateffectivedata).
+[IFillFormatEffectiveData](../../com.aspose.slides/ifillformateffectivedata) - A [IFillFormatEffectiveData](../../com.aspose.slides/ifillformateffectivedata).

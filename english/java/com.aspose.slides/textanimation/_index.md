@@ -47,12 +47,12 @@ Add new effect to the end of current sequence to end of group text animations. O
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| effectType | int | Type of an animation effect [EffectType](../com.aspose.slides/effecttype) |
-| subtype | int | Subtypes of animation effect [EffectSubtype](../com.aspose.slides/effectsubtype) |
-| triggerType | int | Trigger type of effect [EffectTriggerType](../com.aspose.slides/effecttriggertype) |
+| effectType | int | Type of an animation effect [EffectType](../../com.aspose.slides/effecttype) |
+| subtype | int | Subtypes of animation effect [EffectSubtype](../../com.aspose.slides/effectsubtype) |
+| triggerType | int | Trigger type of effect [EffectTriggerType](../../com.aspose.slides/effecttriggertype) |
 
 **Returns:**
-[IEffect](../../com.aspose.slides/ieffect) - New effect object [IEffect](../com.aspose.slides/ieffect)
+[IEffect](../../com.aspose.slides/ieffect) - New effect object [IEffect](../../com.aspose.slides/ieffect)
 ### getBuildType() {#getBuildType--}
 ```
 public final int getBuildType()

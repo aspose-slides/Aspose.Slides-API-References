@@ -53,7 +53,7 @@ Returns the copy of path of the geometry shape. Coordinates are relative to the 
 > ```
 
 **Returns:**
-com.aspose.slides.IGeometryPath[] - Array of [IGeometryPath](../com.aspose.slides/igeometrypath)
+com.aspose.slides.IGeometryPath[] - Array of [IGeometryPath](../../com.aspose.slides/igeometrypath)
 ### setGeometryPath(IGeometryPath geometryPath) {#setGeometryPath-com.aspose.slides.IGeometryPath-}
 ```
 public final void setGeometryPath(IGeometryPath geometryPath)
@@ -173,4 +173,4 @@ public final IShapeElement[] createShapeElements()
 Creates and returns array of shape's elements.
 
 **Returns:**
-com.aspose.slides.IShapeElement[] - Array of [ShapeElement](../com.aspose.slides/shapeelement)
+com.aspose.slides.IShapeElement[] - Array of [ShapeElement](../../com.aspose.slides/shapeelement)

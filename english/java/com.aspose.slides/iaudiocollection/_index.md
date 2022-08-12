@@ -79,7 +79,7 @@ Creates and adds a audio to a presentation from stream.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | stream | java.io.InputStream | Stream to add video audio from. |
-| loadingStreamBehavior | int | The [LoadingStreamBehavior](../com.aspose.slides/loadingstreambehavior) which will be applied to the stream. |
+| loadingStreamBehavior | int | The [LoadingStreamBehavior](../../com.aspose.slides/loadingstreambehavior) which will be applied to the stream. |
 
 **Returns:**
 [IAudio](../../com.aspose.slides/iaudio) - Added audio.

@@ -83,4 +83,4 @@ public abstract IPortionFormatEffectiveData getEffective()
 Gets effective portion formatting data with the inheritance applied.
 
 **Returns:**
-[IPortionFormatEffectiveData](../../com.aspose.slides/iportionformateffectivedata) - A [IPortionFormatEffectiveData](../com.aspose.slides/iportionformateffectivedata).
+[IPortionFormatEffectiveData](../../com.aspose.slides/iportionformateffectivedata) - A [IPortionFormatEffectiveData](../../com.aspose.slides/iportionformateffectivedata).

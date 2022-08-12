@@ -36,7 +36,7 @@ public abstract IMasterHandoutSlide setDefaultMasterHandoutSlide()
 Sets default master handout slide to related handout slide.
 
 **Returns:**
-[IMasterHandoutSlide](../../com.aspose.slides/imasterhandoutslide) - Master handout slide [IMasterHandoutSlide](../com.aspose.slides/imasterhandoutslide)
+[IMasterHandoutSlide](../../com.aspose.slides/imasterhandoutslide) - Master handout slide [IMasterHandoutSlide](../../com.aspose.slides/imasterhandoutslide)
 ### removeMasterHandoutSlide() {#removeMasterHandoutSlide--}
 ```
 public abstract void removeMasterHandoutSlide()

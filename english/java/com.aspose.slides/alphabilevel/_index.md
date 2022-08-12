@@ -57,7 +57,7 @@ public final IAlphaBiLevelEffectiveData getEffective()
 Gets effective Alpha Bi-Level effect data with the inheritance applied.
 
 **Returns:**
-[IAlphaBiLevelEffectiveData](../../com.aspose.slides/ialphabileveleffectivedata) - A [IAlphaBiLevelEffectiveData](../com.aspose.slides/ialphabileveleffectivedata).
+[IAlphaBiLevelEffectiveData](../../com.aspose.slides/ialphabileveleffectivedata) - A [IAlphaBiLevelEffectiveData](../../com.aspose.slides/ialphabileveleffectivedata).
 ### equals(Object obj) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object obj)
@@ -69,7 +69,7 @@ Determines whether the specified [AlphaBiLevel](../../com.aspose.slides/alphabil
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | java.lang.Object | The [AlphaBiLevel](../com.aspose.slides/alphabilevel) to compare. |
+| obj | java.lang.Object | The [AlphaBiLevel](../../com.aspose.slides/alphabilevel) to compare. |
 
 **Returns:**
 boolean - true if objects are equal; otherwise, false.

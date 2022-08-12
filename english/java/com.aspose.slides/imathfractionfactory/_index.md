@@ -36,7 +36,7 @@ Creates a math fraction
 | fractionType | int | Fraction type |
 
 **Returns:**
-[IMathFraction](../../com.aspose.slides/imathfraction) - New math fraction [IMathFraction](../com.aspose.slides/imathfraction)
+[IMathFraction](../../com.aspose.slides/imathfraction) - New math fraction [IMathFraction](../../com.aspose.slides/imathfraction)
 ### createMathFraction(IMathElement numerator, IMathElement denominator) {#createMathFraction-com.aspose.slides.IMathElement-com.aspose.slides.IMathElement-}
 ```
 public abstract IMathFraction createMathFraction(IMathElement numerator, IMathElement denominator)
@@ -52,4 +52,4 @@ Creates a math fraction
 | denominator | [IMathElement](../../com.aspose.slides/imathelement) | Denominator |
 
 **Returns:**
-[IMathFraction](../../com.aspose.slides/imathfraction) - New math fraction [IMathFraction](../com.aspose.slides/imathfraction)
+[IMathFraction](../../com.aspose.slides/imathfraction) - New math fraction [IMathFraction](../../com.aspose.slides/imathfraction)

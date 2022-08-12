@@ -94,7 +94,7 @@ Gets effective theme data with the inheritance applied.
 > ```
 
 **Returns:**
-[IThemeEffectiveData](../../com.aspose.slides/ithemeeffectivedata) - A [IThemeEffectiveData](../com.aspose.slides/ithemeeffectivedata).
+[IThemeEffectiveData](../../com.aspose.slides/ithemeeffectivedata) - A [IThemeEffectiveData](../../com.aspose.slides/ithemeeffectivedata).
 ### getParent_Immediate() {#getParent-Immediate--}
 ```
 public final IDOMObject getParent_Immediate()

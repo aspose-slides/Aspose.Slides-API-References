@@ -36,7 +36,7 @@ Returns a collection of theme defined fill styles.
 | styleColor | java.awt.Color | Color java.awt.Color |
 
 **Returns:**
-[IFillFormatCollectionEffectiveData](../../com.aspose.slides/ifillformatcollectioneffectivedata) - Collection of effective fill formats [IFillFormatCollectionEffectiveData](../com.aspose.slides/ifillformatcollectioneffectivedata)
+[IFillFormatCollectionEffectiveData](../../com.aspose.slides/ifillformatcollectioneffectivedata) - Collection of effective fill formats [IFillFormatCollectionEffectiveData](../../com.aspose.slides/ifillformatcollectioneffectivedata)
 ### getLineStyles(Color styleColor) {#getLineStyles-java.awt.Color-}
 ```
 public abstract ILineFormatCollectionEffectiveData getLineStyles(Color styleColor)
@@ -51,7 +51,7 @@ Returns a collection of theme defined line styles.
 | styleColor | java.awt.Color | Color java.awt.Color |
 
 **Returns:**
-[ILineFormatCollectionEffectiveData](../../com.aspose.slides/ilineformatcollectioneffectivedata) - Collection of effective line formats [ILineFormatCollectionEffectiveData](../com.aspose.slides/ilineformatcollectioneffectivedata)
+[ILineFormatCollectionEffectiveData](../../com.aspose.slides/ilineformatcollectioneffectivedata) - Collection of effective line formats [ILineFormatCollectionEffectiveData](../../com.aspose.slides/ilineformatcollectioneffectivedata)
 ### getEffectStyles(Color styleColor) {#getEffectStyles-java.awt.Color-}
 ```
 public abstract IEffectStyleCollectionEffectiveData getEffectStyles(Color styleColor)
@@ -66,7 +66,7 @@ Returns a collection of theme defined effect styles.
 | styleColor | java.awt.Color | Color java.awt.Color |
 
 **Returns:**
-[IEffectStyleCollectionEffectiveData](../../com.aspose.slides/ieffectstylecollectioneffectivedata) - Collection of effective effect styles [IEffectStyleCollectionEffectiveData](../com.aspose.slides/ieffectstylecollectioneffectivedata)
+[IEffectStyleCollectionEffectiveData](../../com.aspose.slides/ieffectstylecollectioneffectivedata) - Collection of effective effect styles [IEffectStyleCollectionEffectiveData](../../com.aspose.slides/ieffectstylecollectioneffectivedata)
 ### getBackgroundFillStyles(Color styleColor) {#getBackgroundFillStyles-java.awt.Color-}
 ```
 public abstract IFillFormatCollectionEffectiveData getBackgroundFillStyles(Color styleColor)
@@ -81,4 +81,4 @@ Returns a collection of theme defined background fill styles.
 | styleColor | java.awt.Color | Color java.awt.Color |
 
 **Returns:**
-[IFillFormatCollectionEffectiveData](../../com.aspose.slides/ifillformatcollectioneffectivedata) - Collection of effective background fill formats [IFillFormatCollectionEffectiveData](../com.aspose.slides/ifillformatcollectioneffectivedata)
+[IFillFormatCollectionEffectiveData](../../com.aspose.slides/ifillformatcollectioneffectivedata) - Collection of effective background fill formats [IFillFormatCollectionEffectiveData](../../com.aspose.slides/ifillformatcollectioneffectivedata)

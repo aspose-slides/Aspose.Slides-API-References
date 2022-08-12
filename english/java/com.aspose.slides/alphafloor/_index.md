@@ -32,7 +32,7 @@ public final IAlphaFloorEffectiveData getEffective()
 Gets effective Alpha Floor effect data with the inheritance applied.
 
 **Returns:**
-[IAlphaFloorEffectiveData](../../com.aspose.slides/ialphaflooreffectivedata) - A [IAlphaFloorEffectiveData](../com.aspose.slides/ialphaflooreffectivedata).
+[IAlphaFloorEffectiveData](../../com.aspose.slides/ialphaflooreffectivedata) - A [IAlphaFloorEffectiveData](../../com.aspose.slides/ialphaflooreffectivedata).
 ### equals(Object obj) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object obj)
@@ -44,7 +44,7 @@ Determines whether the specified [AlphaFloor](../../com.aspose.slides/alphafloor
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | java.lang.Object | The [AlphaFloor](../com.aspose.slides/alphafloor) to compare. |
+| obj | java.lang.Object | The [AlphaFloor](../../com.aspose.slides/alphafloor) to compare. |
 
 **Returns:**
 boolean - true if objects are equal; otherwise, false.

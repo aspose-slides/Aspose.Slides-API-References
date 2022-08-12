@@ -70,10 +70,10 @@ Creates new chart series and inserts it into the collection.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | int | Index for insertion int |
-| type | int | Chart type [ChartType](../com.aspose.slides/charttype) |
+| type | int | Chart type [ChartType](../../com.aspose.slides/charttype) |
 
 **Returns:**
-[IChartSeries](../../com.aspose.slides/ichartseries) - New chart series [IChartSeries](../com.aspose.slides/ichartseries)
+[IChartSeries](../../com.aspose.slides/ichartseries) - New chart series [IChartSeries](../../com.aspose.slides/ichartseries)
 ### add(IChartDataCell cellWithSeriesName, int type) {#add-com.aspose.slides.IChartDataCell-int-}
 ```
 public abstract IChartSeries add(IChartDataCell cellWithSeriesName, int type)

@@ -52,7 +52,7 @@ Gets effective table column formatting properties with inheritance and table sty
 > ```
 
 **Returns:**
-[IColumnFormatEffectiveData](../../com.aspose.slides/icolumnformateffectivedata) - A [IColumnFormatEffectiveData](../com.aspose.slides/icolumnformateffectivedata).
+[IColumnFormatEffectiveData](../../com.aspose.slides/icolumnformateffectivedata) - A [IColumnFormatEffectiveData](../../com.aspose.slides/icolumnformateffectivedata).
 ### getVersion() {#getVersion--}
 ```
 public final long getVersion()

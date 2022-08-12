@@ -335,11 +335,7 @@ Determines whether the two SlideShowTransition instances are equal. Read/write \
 | obj | java.lang.Object | The SlideShowTransition to compare with the current SlideShowTransition. |
 
 **Returns:**
-boolean - ```
-<b>true</b>
-``` if the specified SlideShowTransition is equal to the current SlideShowTransition; otherwise, ```
-<b>false</b>
-```.
+boolean - \`\`\` **true** \`\`\` if the specified SlideShowTransition is equal to the current SlideShowTransition; otherwise, \`\`\` **false** \`\`\`.
 ### hashCode() {#hashCode--}
 ```
 public int hashCode()
@@ -350,6 +346,7 @@ Serves as a hash function for a particular type, suitable for use in hashing alg
 
 **Returns:**
 int - 23454
- <p><hr>
- Overriden to make compiler happy. Always returns constant because object is mutable.
- </hr></p>
+
+--------------------
+
+Overriden to make compiler happy. Always returns constant because object is mutable.

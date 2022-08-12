@@ -33,7 +33,6 @@ Represents a Inner Shadow effect.
 | [getParent_IPresentationComponent()](#getParent-IPresentationComponent--) |  |
 | [equals(Object obj)](#equals-java.lang.Object-) | Determines whether the specified [InnerShadow](../../com.aspose.slides/innershadow) is equal to the current [InnerShadow](../../com.aspose.slides/innershadow). |
 | [hashCode()](#hashCode--) | Serves as a hash function for a particular type. |
-| [memberwiseClone()](#memberwiseClone--) |  |
 ### getBlurRadius() {#getBlurRadius--}
 ```
 public final double getBlurRadius()
@@ -122,7 +121,7 @@ public final IInnerShadowEffectiveData getEffective()
 Gets effective Inner Shadow effect data with the inheritance applied.
 
 **Returns:**
-[IInnerShadowEffectiveData](../../com.aspose.slides/iinnershadoweffectivedata) - A [IInnerShadowEffectiveData](../com.aspose.slides/iinnershadoweffectivedata).
+[IInnerShadowEffectiveData](../../com.aspose.slides/iinnershadoweffectivedata) - A [IInnerShadowEffectiveData](../../com.aspose.slides/iinnershadoweffectivedata).
 ### getParent_Immediate() {#getParent-Immediate--}
 ```
 public final IDOMObject getParent_Immediate()
@@ -164,7 +163,7 @@ Determines whether the specified [InnerShadow](../../com.aspose.slides/innershad
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | java.lang.Object | The [InnerShadow](../com.aspose.slides/innershadow) to compare. |
+| obj | java.lang.Object | The [InnerShadow](../../com.aspose.slides/innershadow) to compare. |
 
 **Returns:**
 boolean - true if objects are equal; otherwise, false.
@@ -178,13 +177,3 @@ Serves as a hash function for a particular type.
 
 **Returns:**
 int - A hash code for the current object.
-### memberwiseClone() {#memberwiseClone--}
-```
-protected Object memberwiseClone()
-```
-
-
-
-
-**Returns:**
-java.lang.Object

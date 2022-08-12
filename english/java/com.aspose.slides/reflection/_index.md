@@ -54,7 +54,6 @@ Represents a Reflection effect.
 | [getParent_IPresentationComponent()](#getParent-IPresentationComponent--) |  |
 | [equals(Object obj)](#equals-java.lang.Object-) | Determines whether the specified [Reflection](../../com.aspose.slides/reflection) is equal to the current [Reflection](../../com.aspose.slides/reflection). |
 | [hashCode()](#hashCode--) | Serves as a hash function for a particular type. |
-| [memberwiseClone()](#memberwiseClone--) |  |
 ### getStartPosAlpha() {#getStartPosAlpha--}
 ```
 public final float getStartPosAlpha()
@@ -386,7 +385,7 @@ public final IReflectionEffectiveData getEffective()
 Gets effective Reflection effect data with the inheritance applied.
 
 **Returns:**
-[IReflectionEffectiveData](../../com.aspose.slides/ireflectioneffectivedata) - A [IReflectionEffectiveData](../com.aspose.slides/ireflectioneffectivedata).
+[IReflectionEffectiveData](../../com.aspose.slides/ireflectioneffectivedata) - A [IReflectionEffectiveData](../../com.aspose.slides/ireflectioneffectivedata).
 ### getParent_Immediate() {#getParent-Immediate--}
 ```
 public final IDOMObject getParent_Immediate()
@@ -428,7 +427,7 @@ Determines whether the specified [Reflection](../../com.aspose.slides/reflection
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | java.lang.Object | The [Reflection](../com.aspose.slides/reflection) to compare. |
+| obj | java.lang.Object | The [Reflection](../../com.aspose.slides/reflection) to compare. |
 
 **Returns:**
 boolean - true if objects are equal; otherwise, false.
@@ -442,13 +441,3 @@ Serves as a hash function for a particular type.
 
 **Returns:**
 int - A hash code for the current object.
-### memberwiseClone() {#memberwiseClone--}
-```
-protected Object memberwiseClone()
-```
-
-
-
-
-**Returns:**
-java.lang.Object

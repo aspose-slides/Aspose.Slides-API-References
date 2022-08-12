@@ -530,7 +530,7 @@ Delimits child elements with separator character (without the brackets)
 | separatorCharacter | char | Separator character |
 
 **Returns:**
-[IMathDelimiter](../../com.aspose.slides/imathdelimiter) - The math element of type [IMathDelimiter](../com.aspose.slides/imathdelimiter)
+[IMathDelimiter](../../com.aspose.slides/imathdelimiter) - The math element of type [IMathDelimiter](../../com.aspose.slides/imathdelimiter)
 ### enclose(char beginningCharacter, char endingCharacter) {#enclose-char-char-}
 ```
 public IMathDelimiter enclose(char beginningCharacter, char endingCharacter)
@@ -555,7 +555,7 @@ Encloses child elements of this block in specified characters such as parenthesi
 | endingCharacter | char | Ending character (usually right bracket) |
 
 **Returns:**
-[IMathDelimiter](../../com.aspose.slides/imathdelimiter) - The math element of type [IMathDelimiter](../com.aspose.slides/imathdelimiter) which includes specified characters as framing
+[IMathDelimiter](../../com.aspose.slides/imathdelimiter) - The math element of type [IMathDelimiter](../../com.aspose.slides/imathdelimiter) which includes specified characters as framing
 ### enclose(char beginningCharacter, char endingCharacter, char separatorCharacter) {#enclose-char-char-char-}
 ```
 public final IMathDelimiter enclose(char beginningCharacter, char endingCharacter, char separatorCharacter)
@@ -581,7 +581,7 @@ Encloses child elements of this block in specified characters such as parenthesi
 | separatorCharacter | char | Separator character |
 
 **Returns:**
-[IMathDelimiter](../../com.aspose.slides/imathdelimiter) - The math element of type [IMathDelimiter](../com.aspose.slides/imathdelimiter) which includes specified characters as framing and delimiter
+[IMathDelimiter](../../com.aspose.slides/imathdelimiter) - The math element of type [IMathDelimiter](../../com.aspose.slides/imathdelimiter) which includes specified characters as framing and delimiter
 ### toMathArray() {#toMathArray--}
 ```
 public IMathArray toMathArray()
@@ -599,7 +599,7 @@ Puts child elements in a vertical array
 > ```
 
 **Returns:**
-[IMathArray](../../com.aspose.slides/imatharray) - New instance of type [IMathArray](../com.aspose.slides/imatharray)
+[IMathArray](../../com.aspose.slides/imatharray) - New instance of type [IMathArray](../../com.aspose.slides/imatharray)
 ### writeAsMathMl(OutputStream stream) {#writeAsMathMl-java.io.OutputStream-}
 ```
 public final void writeAsMathMl(OutputStream stream)

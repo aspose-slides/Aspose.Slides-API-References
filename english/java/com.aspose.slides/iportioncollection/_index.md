@@ -112,10 +112,10 @@ Determines whether the [IGenericCollection](../../com.aspose.slides/igenericcoll
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| item | [IPortion](../../com.aspose.slides/iportion) | The object to locate in the [IGenericCollection](../com.aspose.slides/igenericcollection). |
+| item | [IPortion](../../com.aspose.slides/iportion) | The object to locate in the [IGenericCollection](../../com.aspose.slides/igenericcollection). |
 
 **Returns:**
-boolean - true if item is found in the [IGenericCollection](../com.aspose.slides/igenericcollection); otherwise, false.
+boolean - true if item is found in the [IGenericCollection](../../com.aspose.slides/igenericcollection); otherwise, false.
 ### remove(IPortion item) {#remove-com.aspose.slides.IPortion-}
 ```
 public abstract boolean remove(IPortion item)
@@ -127,10 +127,10 @@ Removes the first occurrence of a specific object from the [IGenericCollection](
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| item | [IPortion](../../com.aspose.slides/iportion) | The object to remove from the [IGenericCollection](../com.aspose.slides/igenericcollection). |
+| item | [IPortion](../../com.aspose.slides/iportion) | The object to remove from the [IGenericCollection](../../com.aspose.slides/igenericcollection). |
 
 **Returns:**
-boolean - true if item was successfully removed from the [IGenericCollection](../com.aspose.slides/igenericcollection); otherwise, false. This method also returns false if item is not found in the original [IGenericCollection](../com.aspose.slides/igenericcollection).
+boolean - true if item was successfully removed from the [IGenericCollection](../../com.aspose.slides/igenericcollection); otherwise, false. This method also returns false if item is not found in the original [IGenericCollection](../../com.aspose.slides/igenericcollection).
 ### removeAt(int index) {#removeAt-int-}
 ```
 public abstract void removeAt(int index)

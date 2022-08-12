@@ -41,7 +41,7 @@ Adds an output element for the context object.
 | contextObject | TContextObject | Context object. |
 
 **Returns:**
-[IOutputFile](../../com.aspose.slides/ioutputfile) - [IOutputFile](../com.aspose.slides/ioutputfile) object for the context object.
+[IOutputFile](../../com.aspose.slides/ioutputfile) - [IOutputFile](../../com.aspose.slides/ioutputfile) object for the context object.
 ### add(String path, IPPImage image) {#add-java.lang.String-com.aspose.slides.IPPImage-}
 ```
 public final IOutputFile add(String path, IPPImage image)
@@ -57,7 +57,7 @@ Adds an output element for the image.
 | image | [IPPImage](../../com.aspose.slides/ippimage) | Image to output. |
 
 **Returns:**
-[IOutputFile](../../com.aspose.slides/ioutputfile) - [IOutputFile](../com.aspose.slides/ioutputfile) object for the image.
+[IOutputFile](../../com.aspose.slides/ioutputfile) - [IOutputFile](../../com.aspose.slides/ioutputfile) object for the image.
 ### add(String path, BufferedImage image) {#add-java.lang.String-java.awt.image.BufferedImage-}
 ```
 public final IOutputFile add(String path, BufferedImage image)
@@ -73,7 +73,7 @@ Adds an output element for the image.
 | image | java.awt.image.BufferedImage | Image to output. |
 
 **Returns:**
-[IOutputFile](../../com.aspose.slides/ioutputfile) - [IOutputFile](../com.aspose.slides/ioutputfile) object for the image.
+[IOutputFile](../../com.aspose.slides/ioutputfile) - [IOutputFile](../../com.aspose.slides/ioutputfile) object for the image.
 ### add(String path, IVideo video) {#add-java.lang.String-com.aspose.slides.IVideo-}
 ```
 public final IOutputFile add(String path, IVideo video)
@@ -89,7 +89,7 @@ Adds an output element for the video.
 | video | [IVideo](../../com.aspose.slides/ivideo) | Video to output. |
 
 **Returns:**
-[IOutputFile](../../com.aspose.slides/ioutputfile) - [IOutputFile](../com.aspose.slides/ioutputfile) object for the video.
+[IOutputFile](../../com.aspose.slides/ioutputfile) - [IOutputFile](../../com.aspose.slides/ioutputfile) object for the video.
 ### add(String path, IFontData fontData, int fontStyle) {#add-java.lang.String-com.aspose.slides.IFontData-int-}
 ```
 public final IOutputFile add(String path, IFontData fontData, int fontStyle)
@@ -106,7 +106,7 @@ Adds an output element for the font.
 | fontStyle | int | Font style. |
 
 **Returns:**
-[IOutputFile](../../com.aspose.slides/ioutputfile) - [IOutputFile](../com.aspose.slides/ioutputfile) object for the font.
+[IOutputFile](../../com.aspose.slides/ioutputfile) - [IOutputFile](../../com.aspose.slides/ioutputfile) object for the font.
 ### add(String path, String textContent) {#add-java.lang.String-java.lang.String-}
 ```
 public final IOutputFile add(String path, String textContent)
@@ -122,7 +122,7 @@ Adds an output element for the text content.
 | textContent | java.lang.String | Content to output. |
 
 **Returns:**
-[IOutputFile](../../com.aspose.slides/ioutputfile) - [IOutputFile](../com.aspose.slides/ioutputfile) object for the text content.
+[IOutputFile](../../com.aspose.slides/ioutputfile) - [IOutputFile](../../com.aspose.slides/ioutputfile) object for the text content.
 ### bindResource(IOutputFile outputFile, Object obj) {#bindResource-com.aspose.slides.IOutputFile-java.lang.Object-}
 ```
 public final void bindResource(IOutputFile outputFile, Object obj)

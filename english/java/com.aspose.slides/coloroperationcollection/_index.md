@@ -223,7 +223,7 @@ public final Object deepClone()
 Creates a copy of a ColorOperationCollection collection.
 
 **Returns:**
-java.lang.Object - New [ColorOperationCollection](../com.aspose.slides/coloroperationcollection) collection.
+java.lang.Object - New [ColorOperationCollection](../../com.aspose.slides/coloroperationcollection) collection.
 ### cloneT() {#cloneT--}
 ```
 public final IColorOperationCollection cloneT()

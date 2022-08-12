@@ -335,10 +335,7 @@ Encloses a math element in specified characters such as parenthesis or another c
 | endingCharacter | char | Ending character (usually right bracket) |
 
 **Returns:**
-[IMathDelimiter](../../com.aspose.slides/imathdelimiter) - If beginningCharacter and endingCharacter are null,
- corresponding properties are assigned values only and no new object is created (returns this instance).
- Otherwise, returns new math element of type Delimiter which includes specified characters as framing 
- and this instance of [MathDelimiter](../com.aspose.slides/mathdelimiter) framed inside.
+[IMathDelimiter](../../com.aspose.slides/imathdelimiter) - If beginningCharacter and endingCharacter are null, corresponding properties are assigned values only and no new object is created (returns this instance). Otherwise, returns new math element of type Delimiter which includes specified characters as framing and this instance of [MathDelimiter](../../com.aspose.slides/mathdelimiter) framed inside.
 ### getChildren() {#getChildren--}
 ```
 public final IMathElement[] getChildren()

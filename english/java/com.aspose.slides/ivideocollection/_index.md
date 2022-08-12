@@ -66,7 +66,7 @@ Creates and adds a video to a presentation from stream.
 | stream | java.io.InputStream | Stream to add video file from. |
 
 **Returns:**
-[IVideo](../../com.aspose.slides/ivideo) - Added [IVideo](../com.aspose.slides/ivideo).
+[IVideo](../../com.aspose.slides/ivideo) - Added [IVideo](../../com.aspose.slides/ivideo).
 ### addVideo(InputStream stream, int loadingStreamBehavior) {#addVideo-java.io.InputStream-int-}
 ```
 public abstract IVideo addVideo(InputStream stream, int loadingStreamBehavior)
@@ -82,7 +82,7 @@ Creates and adds a video to a presentation from stream.
 | loadingStreamBehavior | int | The behavior which will be applied to the stream. |
 
 **Returns:**
-[IVideo](../../com.aspose.slides/ivideo) - Added [IVideo](../com.aspose.slides/ivideo).
+[IVideo](../../com.aspose.slides/ivideo) - Added [IVideo](../../com.aspose.slides/ivideo).
 ### addVideo(byte[] videoData) {#addVideo-byte---}
 ```
 public abstract IVideo addVideo(byte[] videoData)

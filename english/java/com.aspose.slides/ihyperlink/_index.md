@@ -212,4 +212,4 @@ Determines whether the two Hyperlink instances are equal.
 | hlink | [IHyperlink](../../com.aspose.slides/ihyperlink) | The Hyperlink to compare with the current Hyperlink. |
 
 **Returns:**
-boolean - <b>true</b> if the specified Hyperlink is equal to the current Hyperlink; otherwise, <b>false</b>.
+boolean - **true** if the specified Hyperlink is equal to the current Hyperlink; otherwise, **false**.

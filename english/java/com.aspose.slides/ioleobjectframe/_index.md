@@ -110,7 +110,7 @@ Sets information about OLE embedded data.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| embeddedData | [IOleEmbeddedDataInfo](../../com.aspose.slides/ioleembeddeddatainfo) | Embedded data [IOleEmbeddedDataInfo](../com.aspose.slides/ioleembeddeddatainfo)
+| embeddedData | [IOleEmbeddedDataInfo](../../com.aspose.slides/ioleembeddeddatainfo) | Embedded data [IOleEmbeddedDataInfo](../../com.aspose.slides/ioleembeddeddatainfo)
 
 --------------------
 

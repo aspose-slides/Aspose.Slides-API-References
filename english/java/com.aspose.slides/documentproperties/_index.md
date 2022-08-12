@@ -90,7 +90,6 @@ Represents properties of a presentation.
 | [clearBuiltInProperties()](#clearBuiltInProperties--) | Clears and sets default values for all builtIn properties. |
 | [deepClone()](#deepClone--) | Clones current object |
 | [cloneT()](#cloneT--) | Clones current object |
-| [memberwiseClone()](#memberwiseClone--) |  |
 ### DocumentProperties() {#DocumentProperties--}
 ```
 public DocumentProperties()
@@ -888,13 +887,3 @@ Clones current object
 
 **Returns:**
 [IDocumentProperties](../../com.aspose.slides/idocumentproperties) - Clone
-### memberwiseClone() {#memberwiseClone--}
-```
-protected Object memberwiseClone()
-```
-
-
-
-
-**Returns:**
-java.lang.Object

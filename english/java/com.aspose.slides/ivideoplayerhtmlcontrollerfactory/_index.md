@@ -35,4 +35,4 @@ Create video player HTML controller.
 | baseUri | java.lang.String | Base URI. |
 
 **Returns:**
-[IVideoPlayerHtmlController](../../com.aspose.slides/ivideoplayerhtmlcontroller) - Video player HTML controller [IVideoPlayerHtmlController](../com.aspose.slides/ivideoplayerhtmlcontroller)
+[IVideoPlayerHtmlController](../../com.aspose.slides/ivideoplayerhtmlcontroller) - Video player HTML controller [IVideoPlayerHtmlController](../../com.aspose.slides/ivideoplayerhtmlcontroller)

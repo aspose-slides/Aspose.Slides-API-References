@@ -32,7 +32,7 @@ public final ITintEffectiveData getEffective()
 Gets effective Tint effect data with the inheritance applied.
 
 **Returns:**
-[ITintEffectiveData](../../com.aspose.slides/itinteffectivedata) - A [ITintEffectiveData](../com.aspose.slides/itinteffectivedata).
+[ITintEffectiveData](../../com.aspose.slides/itinteffectivedata) - A [ITintEffectiveData](../../com.aspose.slides/itinteffectivedata).
 ### equals(Object obj) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object obj)
@@ -44,7 +44,7 @@ Determines whether the specified [Tint](../../com.aspose.slides/tint) is equal t
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | java.lang.Object | The [Tint](../com.aspose.slides/tint) to compare. |
+| obj | java.lang.Object | The [Tint](../../com.aspose.slides/tint) to compare. |
 
 **Returns:**
 boolean - true if objects are equal; otherwise, false.

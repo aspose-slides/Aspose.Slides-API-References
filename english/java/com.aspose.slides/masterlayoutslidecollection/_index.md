@@ -41,7 +41,7 @@ Adds a copy of a specified layout slide to the end of the collection.
 
 --------------------
 
-1) New layout will be linked with parent master slide for this layout slides collection. So this is analogue of copy/paste with "Use Destination Theme" option in PowerPoint. 2) Analogue of this method is method [IGlobalLayoutSlideCollection\#addClone(ILayoutSlide,IMasterSlide)](../com.aspose.slides/igloballayoutslidecollection\#addClone-ILayoutSlide-IMasterSlide-) accessed with ([IPresentation\#getLayoutSlides](../com.aspose.slides/ipresentation\#getLayoutSlides)) property. |
+1) New layout will be linked with parent master slide for this layout slides collection. So this is analogue of copy/paste with "Use Destination Theme" option in PowerPoint. 2) Analogue of this method is method [IGlobalLayoutSlideCollection\#addClone(ILayoutSlide,IMasterSlide)](../../com.aspose.slides/igloballayoutslidecollection\#addClone-ILayoutSlide-IMasterSlide-) accessed with ([IPresentation\#getLayoutSlides](../../com.aspose.slides/ipresentation\#getLayoutSlides)) property. |
 
 **Returns:**
 [ILayoutSlide](../../com.aspose.slides/ilayoutslide) - Added slide.
@@ -81,7 +81,7 @@ Adds a new layout slide to the end of the collection.
 
 --------------------
 
-1) Added layout for value SlideLayoutType.Custom of layoutType contains no placeholders and no shapes. 2) Analogue of this method is method [IGlobalLayoutSlideCollection\#add(IMasterSlide,byte,String)](../com.aspose.slides/igloballayoutslidecollection\#add-IMasterSlide-byte-String-) accessed with ([IPresentation\#getLayoutSlides](../com.aspose.slides/ipresentation\#getLayoutSlides)) property. |
+1) Added layout for value SlideLayoutType.Custom of layoutType contains no placeholders and no shapes. 2) Analogue of this method is method [IGlobalLayoutSlideCollection\#add(IMasterSlide,byte,String)](../../com.aspose.slides/igloballayoutslidecollection\#add-IMasterSlide-byte-String-) accessed with ([IPresentation\#getLayoutSlides](../../com.aspose.slides/ipresentation\#getLayoutSlides)) property. |
 
 **Returns:**
 [ILayoutSlide](../../com.aspose.slides/ilayoutslide) - Added slide.
@@ -121,7 +121,7 @@ Removes the element at the specified index of the collection.
 
 --------------------
 
-1) To avoid throwing of the PptxEditException check layout's HasDependingSlides property before. 2) You can use also [ILayoutSlide\#remove](../com.aspose.slides/ilayoutslide\#remove) method to simplify code. |
+1) To avoid throwing of the PptxEditException check layout's HasDependingSlides property before. 2) You can use also [ILayoutSlide\#remove](../../com.aspose.slides/ilayoutslide\#remove) method to simplify code. |
 
 ### reorder(int index, ILayoutSlide layoutSlide) {#reorder-int-com.aspose.slides.ILayoutSlide-}
 ```

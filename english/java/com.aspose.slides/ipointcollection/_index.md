@@ -43,4 +43,4 @@ Returns a point at the specified index.
 | index | int | Index of element. |
 
 **Returns:**
-[IPoint](../../com.aspose.slides/ipoint) - The [IPoint](../com.aspose.slides/ipoint) object.
+[IPoint](../../com.aspose.slides/ipoint) - The [IPoint](../../com.aspose.slides/ipoint) object.

@@ -89,8 +89,7 @@ Removes item from collection.
 | dataPoint | [IChartDataPoint](../../com.aspose.slides/ichartdatapoint) | Data point remove to. |
 
 **Returns:**
-boolean - true if item is successfully removed; otherwise, false. This method also
-  returns false if item was not found in the System.Collections.Generic.List{T}.
+boolean - true if item is successfully removed; otherwise, false. This method also returns false if item was not found in the System.Collections.Generic.List\{T\}.
 ### remove(int dataPointIndex) {#remove-int-}
 ```
 public final void remove(int dataPointIndex)
@@ -123,10 +122,10 @@ Determines whether the [IGenericCollection](../../com.aspose.slides/igenericcoll
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| item | [IChartDataPoint](../../com.aspose.slides/ichartdatapoint) | The object to locate in the [IGenericCollection](../com.aspose.slides/igenericcollection). |
+| item | [IChartDataPoint](../../com.aspose.slides/ichartdatapoint) | The object to locate in the [IGenericCollection](../../com.aspose.slides/igenericcollection). |
 
 **Returns:**
-boolean - true if item is found in the [IGenericCollection](../com.aspose.slides/igenericcollection); otherwise, false.
+boolean - true if item is found in the [IGenericCollection](../../com.aspose.slides/igenericcollection); otherwise, false.
 ### copyToTArray(IChartDataPoint[] array, int arrayIndex) {#copyToTArray-com.aspose.slides.IChartDataPoint---int-}
 ```
 public void copyToTArray(IChartDataPoint[] array, int arrayIndex)
@@ -138,7 +137,7 @@ Copies the elements of the [IGenericCollection](../../com.aspose.slides/igeneric
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| array | com.aspose.slides.IChartDataPoint[] | The one-dimensional Array that is the destination of the elements copied from [IGenericCollection](../com.aspose.slides/igenericcollection). The Array must have zero-based indexing. |
+| array | com.aspose.slides.IChartDataPoint[] | The one-dimensional Array that is the destination of the elements copied from [IGenericCollection](../../com.aspose.slides/igenericcollection). The Array must have zero-based indexing. |
 | arrayIndex | int | The zero-based index in array at which copying begins. |
 
 ### size() {#size--}
@@ -160,7 +159,7 @@ public final boolean isReadOnly()
 Gets a value indicating whether the [IGenericCollection](../../com.aspose.slides/igenericcollection) is read-only. Read-only boolean.
 
 **Returns:**
-boolean - true if the [IGenericCollection](../com.aspose.slides/igenericcollection) is read-only; otherwise, false.
+boolean - true if the [IGenericCollection](../../com.aspose.slides/igenericcollection) is read-only; otherwise, false.
 ### isSynchronized() {#isSynchronized--}
 ```
 public final boolean isSynchronized()

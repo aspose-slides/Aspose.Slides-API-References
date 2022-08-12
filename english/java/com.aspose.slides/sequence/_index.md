@@ -95,7 +95,7 @@ Returns an effect at the specified index.
 | index | int | Index of element. |
 
 **Returns:**
-[IEffect](../../com.aspose.slides/ieffect) - The [IEffect](../com.aspose.slides/ieffect) object.
+[IEffect](../../com.aspose.slides/ieffect) - The [IEffect](../../com.aspose.slides/ieffect) object.
 ### iterator() {#iterator--}
 ```
 public final System.Collections.Generic.IGenericEnumerator<IEffect> iterator()
@@ -208,13 +208,13 @@ Add new effect to the end of sequence.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| shape | [IShape](../../com.aspose.slides/ishape) | Shape object [IShape](../com.aspose.slides/ishape) for adding an effect |
-| effectType | int | Type of an animation effect [EffectType](../com.aspose.slides/effecttype) |
-| subtype | int | Subtypes of animation effect [EffectSubtype](../com.aspose.slides/effectsubtype) |
-| triggerType | int | Trigger type of effect [EffectTriggerType](../com.aspose.slides/effecttriggertype) |
+| shape | [IShape](../../com.aspose.slides/ishape) | Shape object [IShape](../../com.aspose.slides/ishape) for adding an effect |
+| effectType | int | Type of an animation effect [EffectType](../../com.aspose.slides/effecttype) |
+| subtype | int | Subtypes of animation effect [EffectSubtype](../../com.aspose.slides/effectsubtype) |
+| triggerType | int | Trigger type of effect [EffectTriggerType](../../com.aspose.slides/effecttriggertype) |
 
 **Returns:**
-[IEffect](../../com.aspose.slides/ieffect) - New effect object [IEffect](../com.aspose.slides/ieffect)
+[IEffect](../../com.aspose.slides/ieffect) - New effect object [IEffect](../../com.aspose.slides/ieffect)
 ### addEffect(IParagraph paragraph, int effectType, int subtype, int triggerType) {#addEffect-com.aspose.slides.IParagraph-int-int-int-}
 ```
 public final IEffect addEffect(IParagraph paragraph, int effectType, int subtype, int triggerType)
@@ -243,13 +243,13 @@ Add new animation effect for paragraph to the end of sequence.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| paragraph | [IParagraph](../../com.aspose.slides/iparagraph) | Paragraph object [IParagraph](../com.aspose.slides/iparagraph) |
-| effectType | int | Type of an animation effect [EffectType](../com.aspose.slides/effecttype) |
-| subtype | int | Subtypes of animation effect [EffectSubtype](../com.aspose.slides/effectsubtype) |
-| triggerType | int | Trigger type of effect [EffectTriggerType](../com.aspose.slides/effecttriggertype) |
+| paragraph | [IParagraph](../../com.aspose.slides/iparagraph) | Paragraph object [IParagraph](../../com.aspose.slides/iparagraph) |
+| effectType | int | Type of an animation effect [EffectType](../../com.aspose.slides/effecttype) |
+| subtype | int | Subtypes of animation effect [EffectSubtype](../../com.aspose.slides/effectsubtype) |
+| triggerType | int | Trigger type of effect [EffectTriggerType](../../com.aspose.slides/effecttriggertype) |
 
 **Returns:**
-[IEffect](../../com.aspose.slides/ieffect) - New effect object [IEffect](../com.aspose.slides/ieffect)
+[IEffect](../../com.aspose.slides/ieffect) - New effect object [IEffect](../../com.aspose.slides/ieffect)
 ### addEffect(IChart chart, int type, int index, int effectType, int subtype, int triggerType) {#addEffect-com.aspose.slides.IChart-int-int-int-int-int-}
 ```
 public final IEffect addEffect(IChart chart, int type, int index, int effectType, int subtype, int triggerType)
@@ -261,15 +261,15 @@ Adds the new chart animation effect for category or series to the end of sequenc
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| chart | [IChart](../../com.aspose.slides/ichart) | Chart object [IChart](../com.aspose.slides/ichart) |
-| type | int | Type of an animation effect [EffectChartMinorGroupingType](../com.aspose.slides/effectchartminorgroupingtype) |
+| chart | [IChart](../../com.aspose.slides/ichart) | Chart object [IChart](../../com.aspose.slides/ichart) |
+| type | int | Type of an animation effect [EffectChartMinorGroupingType](../../com.aspose.slides/effectchartminorgroupingtype) |
 | index | int | Index int |
-| effectType | int | Type of an animation effect [EffectType](../com.aspose.slides/effecttype) |
-| subtype | int | Subtypes of animation effect [EffectSubtype](../com.aspose.slides/effectsubtype) |
-| triggerType | int | Trigger type of effect [EffectTriggerType](../com.aspose.slides/effecttriggertype) |
+| effectType | int | Type of an animation effect [EffectType](../../com.aspose.slides/effecttype) |
+| subtype | int | Subtypes of animation effect [EffectSubtype](../../com.aspose.slides/effectsubtype) |
+| triggerType | int | Trigger type of effect [EffectTriggerType](../../com.aspose.slides/effecttriggertype) |
 
 **Returns:**
-[IEffect](../../com.aspose.slides/ieffect) - New effect object [IEffect](../com.aspose.slides/ieffect)
+[IEffect](../../com.aspose.slides/ieffect) - New effect object [IEffect](../../com.aspose.slides/ieffect)
 ### addEffect(IChart chart, int type, int seriesIndex, int categoriesIndex, int effectType, int subtype, int triggerType) {#addEffect-com.aspose.slides.IChart-int-int-int-int-int-int-}
 ```
 public final IEffect addEffect(IChart chart, int type, int seriesIndex, int categoriesIndex, int effectType, int subtype, int triggerType)
@@ -281,13 +281,13 @@ Adds the new chart animation effect for elements in category or series to the en
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| chart | [IChart](../../com.aspose.slides/ichart) | Chart object [IChart](../com.aspose.slides/ichart) |
-| type | int | Type of an animation effect [EffectChartMinorGroupingType](../com.aspose.slides/effectchartminorgroupingtype) |
+| chart | [IChart](../../com.aspose.slides/ichart) | Chart object [IChart](../../com.aspose.slides/ichart) |
+| type | int | Type of an animation effect [EffectChartMinorGroupingType](../../com.aspose.slides/effectchartminorgroupingtype) |
 | seriesIndex | int | Index of chart series int |
 | categoriesIndex | int | Index of category int |
-| effectType | int | Type of an animation effect [EffectType](../com.aspose.slides/effecttype) |
-| subtype | int | Subtypes of animation effect [EffectSubtype](../com.aspose.slides/effectsubtype) |
-| triggerType | int | Trigger type of effect [EffectTriggerType](../com.aspose.slides/effecttriggertype) |
+| effectType | int | Type of an animation effect [EffectType](../../com.aspose.slides/effecttype) |
+| subtype | int | Subtypes of animation effect [EffectSubtype](../../com.aspose.slides/effectsubtype) |
+| triggerType | int | Trigger type of effect [EffectTriggerType](../../com.aspose.slides/effecttriggertype) |
 
 **Returns:**
-[IEffect](../../com.aspose.slides/ieffect) - New effect object [IEffect](../com.aspose.slides/ieffect)
+[IEffect](../../com.aspose.slides/ieffect) - New effect object [IEffect](../../com.aspose.slides/ieffect)

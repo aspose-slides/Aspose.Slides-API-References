@@ -221,4 +221,4 @@ Gets effective 3-D formatting data with the inheritance applied.
 > ```
 
 **Returns:**
-[IThreeDFormatEffectiveData](../../com.aspose.slides/ithreedformateffectivedata) - A [IThreeDFormatEffectiveData](../com.aspose.slides/ithreedformateffectivedata).
+[IThreeDFormatEffectiveData](../../com.aspose.slides/ithreedformateffectivedata) - A [IThreeDFormatEffectiveData](../../com.aspose.slides/ithreedformateffectivedata).

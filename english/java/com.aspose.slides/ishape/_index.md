@@ -95,7 +95,7 @@ Adds a new placeholder if there is no and sets placeholder properties to a speci
 | placeholderToCopyFrom | [IPlaceholder](../../com.aspose.slides/iplaceholder) | Placeholder to copy content from. |
 
 **Returns:**
-[IPlaceholder](../../com.aspose.slides/iplaceholder) - New [IPlaceholder](../com.aspose.slides/iplaceholder).
+[IPlaceholder](../../com.aspose.slides/iplaceholder) - New [IPlaceholder](../../com.aspose.slides/iplaceholder).
 ### removePlaceholder() {#removePlaceholder--}
 ```
 public abstract void removePlaceholder()

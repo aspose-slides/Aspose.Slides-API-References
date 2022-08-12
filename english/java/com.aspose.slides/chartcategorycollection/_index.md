@@ -115,10 +115,10 @@ Creates new [ChartCategory](../../com.aspose.slides/chartcategory) from value an
 
 --------------------
 
-This method adds worksheet with name AUTO\_DATA and adds all values there. If you use [ChartDataWorkbook](../com.aspose.slides/chartdataworkbook) to add or edit cell values, be sure that you do not use this worksheet Maximum number of values added using this method must not exceed 16711680 |
+This method adds worksheet with name AUTO\_DATA and adds all values there. If you use [ChartDataWorkbook](../../com.aspose.slides/chartdataworkbook) to add or edit cell values, be sure that you do not use this worksheet Maximum number of values added using this method must not exceed 16711680 |
 
 **Returns:**
-[IChartCategory](../../com.aspose.slides/ichartcategory) - Added [IChartCategory](../com.aspose.slides/ichartcategory).
+[IChartCategory](../../com.aspose.slides/ichartcategory) - Added [IChartCategory](../../com.aspose.slides/ichartcategory).
 ### indexOf(IChartCategory value) {#indexOf-com.aspose.slides.IChartCategory-}
 ```
 public final int indexOf(IChartCategory value)

@@ -78,7 +78,7 @@ Encloses child elements of this block in specified characters such as parenthesi
 | separatorCharacter | char | Separator character |
 
 **Returns:**
-[IMathDelimiter](../../com.aspose.slides/imathdelimiter) - The math element of type [IMathDelimiter](../com.aspose.slides/imathdelimiter) which includes specified characters as framing and delimiter
+[IMathDelimiter](../../com.aspose.slides/imathdelimiter) - The math element of type [IMathDelimiter](../../com.aspose.slides/imathdelimiter) which includes specified characters as framing and delimiter
 ### joinBlock(IMathBlock other) {#joinBlock-com.aspose.slides.IMathBlock-}
 ```
 public abstract IMathBlock joinBlock(IMathBlock other)

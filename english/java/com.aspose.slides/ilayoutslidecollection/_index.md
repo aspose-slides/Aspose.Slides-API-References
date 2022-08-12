@@ -50,7 +50,7 @@ Returns the first layout slide of specified type.
 | type | byte | A type of layout slide to find. |
 
 **Returns:**
-[ILayoutSlide](../../com.aspose.slides/ilayoutslide) - [ILayoutSlide](../com.aspose.slides/ilayoutslide) with specified type or null if no layouts found.
+[ILayoutSlide](../../com.aspose.slides/ilayoutslide) - [ILayoutSlide](../../com.aspose.slides/ilayoutslide) with specified type or null if no layouts found.
 ### remove(ILayoutSlide value) {#remove-com.aspose.slides.ILayoutSlide-}
 ```
 public abstract void remove(ILayoutSlide value)
@@ -66,7 +66,7 @@ Removes a layout from the collection.
 
 --------------------
 
-1) To avoid throwing of the PptxEditException check layout's HasDependingSlides property before. 2) You can use also [ILayoutSlide\#remove](../com.aspose.slides/ilayoutslide\#remove) method to simplify code. |
+1) To avoid throwing of the PptxEditException check layout's HasDependingSlides property before. 2) You can use also [ILayoutSlide\#remove](../../com.aspose.slides/ilayoutslide\#remove) method to simplify code. |
 
 ### removeUnused() {#removeUnused--}
 ```

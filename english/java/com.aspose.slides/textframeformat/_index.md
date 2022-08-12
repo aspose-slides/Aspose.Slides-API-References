@@ -488,4 +488,4 @@ Gets effective text frame formatting data with the inheritance applied.
 > ```
 
 **Returns:**
-[ITextFrameFormatEffectiveData](../../com.aspose.slides/itextframeformateffectivedata) - A [ITextFrameFormatEffectiveData](../com.aspose.slides/itextframeformateffectivedata).
+[ITextFrameFormatEffectiveData](../../com.aspose.slides/itextframeformateffectivedata) - A [ITextFrameFormatEffectiveData](../../com.aspose.slides/itextframeformateffectivedata).

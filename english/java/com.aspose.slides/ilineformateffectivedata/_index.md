@@ -212,4 +212,4 @@ Determines whether the two ILineFormatEffectiveData instances are equal.
 | lf | [ILineFormatEffectiveData](../../com.aspose.slides/ilineformateffectivedata) | The ILineFormatEffectiveData to compare with the current ILineFormatEffectiveData. |
 
 **Returns:**
-boolean - <b>true</b> if the specified ILineFormatEffectiveData is equal to the current ILineFormatEffectiveData; otherwise, <b>false</b>.
+boolean - **true** if the specified ILineFormatEffectiveData is equal to the current ILineFormatEffectiveData; otherwise, **false**.

@@ -65,7 +65,7 @@ Gets the set of cells.
 | skipHiddenCells | boolean | If true then method returns collection without hidden cells. |
 
 **Returns:**
-[IChartCellCollection](../../com.aspose.slides/ichartcellcollection) - Set of cells [IChartCellCollection](../com.aspose.slides/ichartcellcollection)
+[IChartCellCollection](../../com.aspose.slides/ichartcellcollection) - Set of cells [IChartCellCollection](../../com.aspose.slides/ichartcellcollection)
 ### getCell(String worksheetName, int row, int column) {#getCell-java.lang.String-int-int-}
 ```
 public abstract IChartDataCell getCell(String worksheetName, int row, int column)

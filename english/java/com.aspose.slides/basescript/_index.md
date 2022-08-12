@@ -16,30 +16,12 @@ public abstract class BaseScript extends MathElementBase implements IHasControlC
 ```
 
 Math script
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [BaseScript(IMathElement scriptBase)](#BaseScript-com.aspose.slides.IMathElement-) | Hide constructor |
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [getBase()](#getBase--) | Base argument |
 | [getControlCharacterProperties()](#getControlCharacterProperties--) | Control Character Properties |
-### BaseScript(IMathElement scriptBase) {#BaseScript-com.aspose.slides.IMathElement-}
-```
-protected BaseScript(IMathElement scriptBase)
-```
-
-
-Hide constructor
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| scriptBase | [IMathElement](../../com.aspose.slides/imathelement) |  |
-
 ### getBase() {#getBase--}
 ```
 public final IMathElement getBase()

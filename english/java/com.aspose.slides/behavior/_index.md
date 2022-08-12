@@ -16,11 +16,6 @@ public abstract class Behavior implements IBehavior, IDOMObject
 ```
 
 Represent base class behavior of effect.
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [Behavior()](#Behavior--) | Creates new instance. |
 ## Methods
 
 | Method | Description |
@@ -33,14 +28,6 @@ Represent base class behavior of effect.
 | [getProperties()](#getProperties--) | Represents properties of behavior. |
 | [getTiming()](#getTiming--) | Represents timing properties for the effect behavior. |
 | [setTiming(ITiming value)](#setTiming-com.aspose.slides.ITiming-) | Represents timing properties for the effect behavior. |
-### Behavior() {#Behavior--}
-```
-protected Behavior()
-```
-
-
-Creates new instance.
-
 ### getParent_Immediate() {#getParent-Immediate--}
 ```
 public final IDOMObject getParent_Immediate()

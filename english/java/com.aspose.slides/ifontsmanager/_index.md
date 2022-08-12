@@ -149,7 +149,7 @@ Removes the embedded font
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fontData | [IFontData](../../com.aspose.slides/ifontdata) | Font data object [IFontData](../com.aspose.slides/ifontdata) |
+| fontData | [IFontData](../../com.aspose.slides/ifontdata) | Font data object [IFontData](../../com.aspose.slides/ifontdata) |
 
 ### addEmbeddedFont(IFontData fontData, int embedFontRule) {#addEmbeddedFont-com.aspose.slides.IFontData-int-}
 ```
@@ -162,8 +162,8 @@ Adds the embedded font.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fontData | [IFontData](../../com.aspose.slides/ifontdata) | Font data object [IFontData](../com.aspose.slides/ifontdata) |
-| embedFontRule | int | Embedded font rule [EmbedFontCharacters](../com.aspose.slides/embedfontcharacters)
+| fontData | [IFontData](../../com.aspose.slides/ifontdata) | Font data object [IFontData](../../com.aspose.slides/ifontdata) |
+| embedFontRule | int | Embedded font rule [EmbedFontCharacters](../../com.aspose.slides/embedfontcharacters)
 
 --------------------
 
@@ -181,7 +181,7 @@ Adds the embedded font
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fontData | byte[] | Font data byte[] |
-| embedFontRule | int | Embedded font rule [EmbedFontCharacters](../com.aspose.slides/embedfontcharacters)
+| embedFontRule | int | Embedded font rule [EmbedFontCharacters](../../com.aspose.slides/embedfontcharacters)
 
 --------------------
 

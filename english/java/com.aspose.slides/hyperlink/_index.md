@@ -362,7 +362,7 @@ Determines whether the two Hyperlink instances are equal.
 | obj | java.lang.Object | The Hyperlink to compare with the current Hyperlink. |
 
 **Returns:**
-boolean - <b>true</b> if the specified Hyperlink is equal to the current Hyperlink; otherwise, <b>false</b>.
+boolean - **true** if the specified Hyperlink is equal to the current Hyperlink; otherwise, **false**.
 ### equals(IHyperlink hlink) {#equals-com.aspose.slides.IHyperlink-}
 ```
 public final boolean equals(IHyperlink hlink)
@@ -377,7 +377,7 @@ Determines whether the two Hyperlink instances are equal.
 | hlink | [IHyperlink](../../com.aspose.slides/ihyperlink) | The Hyperlink to compare with the current Hyperlink. |
 
 **Returns:**
-boolean - <b>true</b> if the specified Hyperlink is equal to the current Hyperlink; otherwise, <b>false</b>.
+boolean - **true** if the specified Hyperlink is equal to the current Hyperlink; otherwise, **false**.
 ### op_Equality(Hyperlink hlink1, Hyperlink hlink2) {#op-Equality-com.aspose.slides.Hyperlink-com.aspose.slides.Hyperlink-}
 ```
 public static boolean op_Equality(Hyperlink hlink1, Hyperlink hlink2)
@@ -393,7 +393,7 @@ Tests two hyperlinks for equality.
 | hlink2 | [Hyperlink](../../com.aspose.slides/hyperlink) | Second hyperlink to be tested. |
 
 **Returns:**
-boolean - <b>true</b> if hyperlinks are equal.
+boolean - **true** if hyperlinks are equal.
 ### op_Inequality(Hyperlink hlink1, Hyperlink hlink2) {#op-Inequality-com.aspose.slides.Hyperlink-com.aspose.slides.Hyperlink-}
 ```
 public static boolean op_Inequality(Hyperlink hlink1, Hyperlink hlink2)
@@ -409,7 +409,7 @@ Tests two hyperlinks for inequality.
 | hlink2 | [Hyperlink](../../com.aspose.slides/hyperlink) | Second hyperlink to be tested. |
 
 **Returns:**
-boolean - <b>false</b> if hyperlinks are equal.
+boolean - **false** if hyperlinks are equal.
 ### hashCode() {#hashCode--}
 ```
 public int hashCode()

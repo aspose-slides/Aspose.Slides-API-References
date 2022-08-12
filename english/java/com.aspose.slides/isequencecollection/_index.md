@@ -44,10 +44,10 @@ Add new interactive sequence.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| shapeTrigger | [IShape](../../com.aspose.slides/ishape) | Shape object [IShape](../com.aspose.slides/ishape) |
+| shapeTrigger | [IShape](../../com.aspose.slides/ishape) | Shape object [IShape](../../com.aspose.slides/ishape) |
 
 **Returns:**
-[ISequence](../../com.aspose.slides/isequence) - New sequence [ISequence](../com.aspose.slides/isequence)
+[ISequence](../../com.aspose.slides/isequence) - New sequence [ISequence](../../com.aspose.slides/isequence)
 ### remove(ISequence item) {#remove-com.aspose.slides.ISequence-}
 ```
 public abstract void remove(ISequence item)
@@ -96,4 +96,4 @@ Returns a sequense at the specified index.
 | index | int | Index of element. |
 
 **Returns:**
-[ISequence](../../com.aspose.slides/isequence) - The [ISequence](../com.aspose.slides/isequence) object.
+[ISequence](../../com.aspose.slides/isequence) - The [ISequence](../../com.aspose.slides/isequence) object.

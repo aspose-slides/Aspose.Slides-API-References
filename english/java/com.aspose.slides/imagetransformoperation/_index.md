@@ -21,7 +21,6 @@ Represents abstract image transformation effect.
 | Method | Description |
 | --- | --- |
 | [getVersion()](#getVersion--) |  |
-| [memberwiseClone()](#memberwiseClone--) |  |
 ### getVersion() {#getVersion--}
 ```
 public long getVersion()
@@ -32,13 +31,3 @@ Version. Read-only long.
 
 **Returns:**
 long
-### memberwiseClone() {#memberwiseClone--}
-```
-protected Object memberwiseClone()
-```
-
-
-
-
-**Returns:**
-java.lang.Object

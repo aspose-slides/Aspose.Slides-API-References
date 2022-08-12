@@ -32,7 +32,7 @@ public final IAlphaModulateEffectiveData getEffective()
 Gets effective Alpha Modulate effect data with the inheritance applied.
 
 **Returns:**
-[IAlphaModulateEffectiveData](../../com.aspose.slides/ialphamodulateeffectivedata) - A [IAlphaModulateEffectiveData](../com.aspose.slides/ialphamodulateeffectivedata).
+[IAlphaModulateEffectiveData](../../com.aspose.slides/ialphamodulateeffectivedata) - A [IAlphaModulateEffectiveData](../../com.aspose.slides/ialphamodulateeffectivedata).
 ### equals(Object obj) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object obj)
@@ -44,7 +44,7 @@ Determines whether the specified [AlphaModulate](../../com.aspose.slides/alphamo
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | java.lang.Object | The [AlphaModulate](../com.aspose.slides/alphamodulate) to compare. |
+| obj | java.lang.Object | The [AlphaModulate](../../com.aspose.slides/alphamodulate) to compare. |
 
 **Returns:**
 boolean - true if objects are equal; otherwise, false.

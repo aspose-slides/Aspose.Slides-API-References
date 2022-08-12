@@ -30,7 +30,6 @@ Represents a Glow effect, in which a color blurred outline is added outside the 
 | [getParent_IPresentationComponent()](#getParent-IPresentationComponent--) |  |
 | [equals(Object obj)](#equals-java.lang.Object-) | Determines whether the specified [Glow](../../com.aspose.slides/glow) is equal to the current [Glow](../../com.aspose.slides/glow). |
 | [hashCode()](#hashCode--) | Serves as a hash function for a particular type. |
-| [memberwiseClone()](#memberwiseClone--) |  |
 ### getRadius() {#getRadius--}
 ```
 public final double getRadius()
@@ -73,7 +72,7 @@ public final IGlowEffectiveData getEffective()
 Gets effective Glow effect data with the inheritance applied.
 
 **Returns:**
-[IGlowEffectiveData](../../com.aspose.slides/igloweffectivedata) - A [IGlowEffectiveData](../com.aspose.slides/igloweffectivedata).
+[IGlowEffectiveData](../../com.aspose.slides/igloweffectivedata) - A [IGlowEffectiveData](../../com.aspose.slides/igloweffectivedata).
 ### getParent_Immediate() {#getParent-Immediate--}
 ```
 public final IDOMObject getParent_Immediate()
@@ -115,7 +114,7 @@ Determines whether the specified [Glow](../../com.aspose.slides/glow) is equal t
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | java.lang.Object | The [Glow](../com.aspose.slides/glow) to compare. |
+| obj | java.lang.Object | The [Glow](../../com.aspose.slides/glow) to compare. |
 
 **Returns:**
 boolean - true if objects are equal; otherwise, false.
@@ -129,13 +128,3 @@ Serves as a hash function for a particular type.
 
 **Returns:**
 int - A hash code for the current object.
-### memberwiseClone() {#memberwiseClone--}
-```
-protected Object memberwiseClone()
-```
-
-
-
-
-**Returns:**
-java.lang.Object

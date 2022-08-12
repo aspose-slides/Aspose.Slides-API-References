@@ -32,7 +32,7 @@ public final IGrayScaleEffectiveData getEffective()
 Gets effective Gray Scale effect data with the inheritance applied.
 
 **Returns:**
-[IGrayScaleEffectiveData](../../com.aspose.slides/igrayscaleeffectivedata) - A [IGrayScaleEffectiveData](../com.aspose.slides/igrayscaleeffectivedata).
+[IGrayScaleEffectiveData](../../com.aspose.slides/igrayscaleeffectivedata) - A [IGrayScaleEffectiveData](../../com.aspose.slides/igrayscaleeffectivedata).
 ### equals(Object obj) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object obj)
@@ -44,7 +44,7 @@ Determines whether the specified [GrayScale](../../com.aspose.slides/grayscale) 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | java.lang.Object | The [GrayScale](../com.aspose.slides/grayscale) to compare. |
+| obj | java.lang.Object | The [GrayScale](../../com.aspose.slides/grayscale) to compare. |
 
 **Returns:**
 boolean - true if objects are equal; otherwise, false.

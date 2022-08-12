@@ -406,5 +406,5 @@ Copy color format from "color".
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| color | [IColorFormat](../../com.aspose.slides/icolorformat) | Color [IColorFormat](../com.aspose.slides/icolorformat) |
+| color | [IColorFormat](../../com.aspose.slides/icolorformat) | Color [IColorFormat](../../com.aspose.slides/icolorformat) |
 

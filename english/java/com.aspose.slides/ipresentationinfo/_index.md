@@ -152,7 +152,7 @@ public abstract IDocumentProperties readDocumentProperties()
 Gets document properties of binded presentation.
 
 **Returns:**
-[IDocumentProperties](../../com.aspose.slides/idocumentproperties) - Document properties [IDocumentProperties](../com.aspose.slides/idocumentproperties)
+[IDocumentProperties](../../com.aspose.slides/idocumentproperties) - Document properties [IDocumentProperties](../../com.aspose.slides/idocumentproperties)
 ### updateDocumentProperties(IDocumentProperties documentProperties) {#updateDocumentProperties-com.aspose.slides.IDocumentProperties-}
 ```
 public abstract void updateDocumentProperties(IDocumentProperties documentProperties)
@@ -178,7 +178,7 @@ Updates properties of binded presentation.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| documentProperties | [IDocumentProperties](../../com.aspose.slides/idocumentproperties) | Document properties [IDocumentProperties](../com.aspose.slides/idocumentproperties) |
+| documentProperties | [IDocumentProperties](../../com.aspose.slides/idocumentproperties) | Document properties [IDocumentProperties](../../com.aspose.slides/idocumentproperties) |
 
 ### writeBindedPresentation(OutputStream stream) {#writeBindedPresentation-java.io.OutputStream-}
 ```

@@ -50,7 +50,7 @@ Returns an [IImageTransformOperation](../../com.aspose.slides/iimagetransformope
 | index | int | Index of item. |
 
 **Returns:**
-[IImageTransformOperation](../../com.aspose.slides/iimagetransformoperation) - The [IImageTransformOperation](../com.aspose.slides/iimagetransformoperation) object.
+[IImageTransformOperation](../../com.aspose.slides/iimagetransformoperation) - The [IImageTransformOperation](../../com.aspose.slides/iimagetransformoperation) object.
 ### removeAt(int index) {#removeAt-int-}
 ```
 public abstract void removeAt(int index)

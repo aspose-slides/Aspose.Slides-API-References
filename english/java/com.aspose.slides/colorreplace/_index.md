@@ -25,7 +25,6 @@ Represents a Color Replacement effect. All effect colors are changed to a fixed 
 | [getVersion()](#getVersion--) |  |
 | [equals(Object obj)](#equals-java.lang.Object-) | Determines whether the specified [ColorReplace](../../com.aspose.slides/colorreplace) is equal to the current [ColorReplace](../../com.aspose.slides/colorreplace). |
 | [hashCode()](#hashCode--) | Serves as a hash function for a particular type. |
-| [memberwiseClone()](#memberwiseClone--) |  |
 ### getColor() {#getColor--}
 ```
 public final IColorFormat getColor()
@@ -45,7 +44,7 @@ public final IColorReplaceEffectiveData getEffective()
 Gets effective Color Replacement effect data with the inheritance applied.
 
 **Returns:**
-[IColorReplaceEffectiveData](../../com.aspose.slides/icolorreplaceeffectivedata) - A [IColorReplaceEffectiveData](../com.aspose.slides/icolorreplaceeffectivedata).
+[IColorReplaceEffectiveData](../../com.aspose.slides/icolorreplaceeffectivedata) - A [IColorReplaceEffectiveData](../../com.aspose.slides/icolorreplaceeffectivedata).
 ### getVersion() {#getVersion--}
 ```
 public long getVersion()
@@ -67,7 +66,7 @@ Determines whether the specified [ColorReplace](../../com.aspose.slides/colorrep
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | java.lang.Object | The [ColorReplace](../com.aspose.slides/colorreplace) to compare. |
+| obj | java.lang.Object | The [ColorReplace](../../com.aspose.slides/colorreplace) to compare. |
 
 **Returns:**
 boolean - true if objects are equal; otherwise, false.
@@ -81,13 +80,3 @@ Serves as a hash function for a particular type.
 
 **Returns:**
 int - A hash code for the current object.
-### memberwiseClone() {#memberwiseClone--}
-```
-protected Object memberwiseClone()
-```
-
-
-
-
-**Returns:**
-java.lang.Object

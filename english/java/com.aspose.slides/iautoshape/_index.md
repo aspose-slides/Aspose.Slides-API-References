@@ -80,7 +80,7 @@ Adds a new TextFrameEx to a shape. If shape already has TextFrameEx then simply 
 | text | java.lang.String | Default text for a new TextFrame. |
 
 **Returns:**
-[ITextFrame](../../com.aspose.slides/itextframe) - New [ITextFrame](../com.aspose.slides/itextframe) object.
+[ITextFrame](../../com.aspose.slides/itextframe) - New [ITextFrame](../../com.aspose.slides/itextframe) object.
 ### isTextBox() {#isTextBox--}
 ```
 public abstract boolean isTextBox()

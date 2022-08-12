@@ -55,7 +55,7 @@ public final IColorChangeEffectiveData getEffective()
 Gets effective Color Change effect data with the inheritance applied.
 
 **Returns:**
-[IColorChangeEffectiveData](../../com.aspose.slides/icolorchangeeffectivedata) - A [IColorChangeEffectiveData](../com.aspose.slides/icolorchangeeffectivedata).
+[IColorChangeEffectiveData](../../com.aspose.slides/icolorchangeeffectivedata) - A [IColorChangeEffectiveData](../../com.aspose.slides/icolorchangeeffectivedata).
 ### getVersion() {#getVersion--}
 ```
 public long getVersion()
@@ -77,7 +77,7 @@ Determines whether the specified [ColorChange](../../com.aspose.slides/colorchan
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | java.lang.Object | The [ColorChange](../com.aspose.slides/colorchange) to compare. |
+| obj | java.lang.Object | The [ColorChange](../../com.aspose.slides/colorchange) to compare. |
 
 **Returns:**
 boolean - true if objects are equal; otherwise, false.

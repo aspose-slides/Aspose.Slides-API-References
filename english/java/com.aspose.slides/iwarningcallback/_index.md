@@ -29,4 +29,4 @@ Callback method which receives warning and decides whether operation should be a
 | warning | [IWarningInfo](../../com.aspose.slides/iwarninginfo) | Warning to process. |
 
 **Returns:**
-int - Abortion decision [ReturnAction](../com.aspose.slides/returnaction).
+int - Abortion decision [ReturnAction](../../com.aspose.slides/returnaction).

@@ -130,7 +130,7 @@ Set Macro hyperlink on a click.
 | macroName | java.lang.String | Name of the macro |
 
 **Returns:**
-[IHyperlink](../../com.aspose.slides/ihyperlink) - Hyperlink object [IHyperlink](../com.aspose.slides/ihyperlink)
+[IHyperlink](../../com.aspose.slides/ihyperlink) - Hyperlink object [IHyperlink](../../com.aspose.slides/ihyperlink)
 ### getParent_Immediate() {#getParent-Immediate--}
 ```
 public final IDOMObject getParent_Immediate()

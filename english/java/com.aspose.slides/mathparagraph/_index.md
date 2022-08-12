@@ -284,8 +284,7 @@ Removes the first occurrence of a specific object from the collection.
 | mathBlock | [IMathBlock](../../com.aspose.slides/imathblock) | The object to remove from the collection. |
 
 **Returns:**
-boolean - true if mathBlock was successfully removed from the collection; otherwise, false.
- This method also returns false if mathBlock is not found in the original collection.
+boolean - true if mathBlock was successfully removed from the collection; otherwise, false. This method also returns false if mathBlock is not found in the original collection.
 ### contains(IMathBlock mathBlock) {#contains-com.aspose.slides.IMathBlock-}
 ```
 public final boolean contains(IMathBlock mathBlock)

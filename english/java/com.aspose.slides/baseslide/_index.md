@@ -107,8 +107,7 @@ Determines whether the two IBaseSlide instances are equal. Returning value is ca
 | slide | [IBaseSlide](../../com.aspose.slides/ibaseslide) | The IBaseSlide to compare with the current IBaseSlide. |
 
 **Returns:**
-boolean - <b>true</b> if the specified IBaseSlide is equal to the current IBaseSlide;
- otherwise, <b>false</b>.
+boolean - **true** if the specified IBaseSlide is equal to the current IBaseSlide; otherwise, **false**.
 ### joinPortionsWithSameFormatting() {#joinPortionsWithSameFormatting--}
 ```
 public void joinPortionsWithSameFormatting()

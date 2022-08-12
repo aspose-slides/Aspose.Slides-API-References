@@ -46,7 +46,7 @@ Adds the new font substitution rule to the collection
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [IFontSubstRule](../../com.aspose.slides/ifontsubstrule) | Font substitution rule [IFontSubstRule](../com.aspose.slides/ifontsubstrule) |
+| value | [IFontSubstRule](../../com.aspose.slides/ifontsubstrule) | Font substitution rule [IFontSubstRule](../../com.aspose.slides/ifontsubstrule) |
 
 ### remove(IFontSubstRule value) {#remove-com.aspose.slides.IFontSubstRule-}
 ```

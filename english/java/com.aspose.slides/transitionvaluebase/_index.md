@@ -36,7 +36,7 @@ Determines whether the two TransitionValueBase instances are equal.
 | obj | java.lang.Object | The TransitionValueBase to compare with the current TransitionValueBase. |
 
 **Returns:**
-boolean - <b>true</b> if the specified TransitionValueBase is equal to the current TransitionValueBase; otherwise, <b>false</b>.
+boolean - **true** if the specified TransitionValueBase is equal to the current TransitionValueBase; otherwise, **false**.
 ### hashCode() {#hashCode--}
 ```
 public int hashCode()
@@ -47,6 +47,7 @@ Serves as a hash function for a particular type, suitable for use in hashing alg
 
 **Returns:**
 int - 23454
- <p><hr>
- Overriden to make compiler happy. Always returns constant because object is mutable.
- </hr></p>
+
+--------------------
+
+Overriden to make compiler happy. Always returns constant because object is mutable.

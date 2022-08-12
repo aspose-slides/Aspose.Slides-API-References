@@ -45,5 +45,5 @@ Adds the new reference to references collection
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [IVbaReference](../../com.aspose.slides/ivbareference) | VBA project reference [IVbaReference](../com.aspose.slides/ivbareference) |
+| value | [IVbaReference](../../com.aspose.slides/ivbareference) | VBA project reference [IVbaReference](../../com.aspose.slides/ivbareference) |
 

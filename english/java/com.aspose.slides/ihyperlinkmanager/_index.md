@@ -35,7 +35,7 @@ Set external hyperlink on click.
 | url | java.lang.String | Hyperlink URL. |
 
 **Returns:**
-[IHyperlink](../../com.aspose.slides/ihyperlink) - Hyperlink object [IHyperlink](../com.aspose.slides/ihyperlink)
+[IHyperlink](../../com.aspose.slides/ihyperlink) - Hyperlink object [IHyperlink](../../com.aspose.slides/ihyperlink)
 ### setInternalHyperlinkClick(ISlide targetSlide) {#setInternalHyperlinkClick-com.aspose.slides.ISlide-}
 ```
 public abstract IHyperlink setInternalHyperlinkClick(ISlide targetSlide)
@@ -123,4 +123,4 @@ Set Macro hyperlink on a click.
 | macroName | java.lang.String | Name of the macro |
 
 **Returns:**
-[IHyperlink](../../com.aspose.slides/ihyperlink) - Hyperlink object [IHyperlink](../com.aspose.slides/ihyperlink)
+[IHyperlink](../../com.aspose.slides/ihyperlink) - Hyperlink object [IHyperlink](../../com.aspose.slides/ihyperlink)

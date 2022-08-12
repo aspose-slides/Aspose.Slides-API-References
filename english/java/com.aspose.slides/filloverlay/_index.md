@@ -69,7 +69,7 @@ public final IFillOverlayEffectiveData getEffective()
 Gets effective Fill Overlay effect data with the inheritance applied.
 
 **Returns:**
-[IFillOverlayEffectiveData](../../com.aspose.slides/ifilloverlayeffectivedata) - A [IFillOverlayEffectiveData](../com.aspose.slides/ifilloverlayeffectivedata).
+[IFillOverlayEffectiveData](../../com.aspose.slides/ifilloverlayeffectivedata) - A [IFillOverlayEffectiveData](../../com.aspose.slides/ifilloverlayeffectivedata).
 ### getVersion() {#getVersion--}
 ```
 public long getVersion()
@@ -91,7 +91,7 @@ Determines whether the specified [FillOverlay](../../com.aspose.slides/filloverl
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | java.lang.Object | The [FillOverlay](../com.aspose.slides/filloverlay) to compare. |
+| obj | java.lang.Object | The [FillOverlay](../../com.aspose.slides/filloverlay) to compare. |
 
 **Returns:**
 boolean - true if objects are equal; otherwise, false.

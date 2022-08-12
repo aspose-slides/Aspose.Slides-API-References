@@ -74,7 +74,7 @@ Adds a copy of a specified slide to the end of the collection.
 
 --------------------
 
-When cloning a slide between different presentations slide's master can be cloned too. Internal registry is used to track automatically cloned masters to prevent creation of multiple clones of the same master slide. Manual cloning of master slides will be neither prevented nor registered. If you need more control over cloning process use \#addClone(ISlide,ILayoutSlide) or \#addClone(ISlide,IMasterSlide,boolean) for cloning slides, [IGlobalLayoutSlideCollection\#addClone(ILayoutSlide)](../com.aspose.slides/igloballayoutslidecollection\#addClone-ILayoutSlide-) or [IGlobalLayoutSlideCollection\#addClone(ILayoutSlide,IMasterSlide)](../com.aspose.slides/igloballayoutslidecollection\#addClone-ILayoutSlide-IMasterSlide-) for cloning layouts and [IMasterSlideCollection\#addClone(IMasterSlide)](../com.aspose.slides/imasterslidecollection\#addClone-IMasterSlide-) for cloning masters. |
+When cloning a slide between different presentations slide's master can be cloned too. Internal registry is used to track automatically cloned masters to prevent creation of multiple clones of the same master slide. Manual cloning of master slides will be neither prevented nor registered. If you need more control over cloning process use \#addClone(ISlide,ILayoutSlide) or \#addClone(ISlide,IMasterSlide,boolean) for cloning slides, [IGlobalLayoutSlideCollection\#addClone(ILayoutSlide)](../../com.aspose.slides/igloballayoutslidecollection\#addClone-ILayoutSlide-) or [IGlobalLayoutSlideCollection\#addClone(ILayoutSlide,IMasterSlide)](../../com.aspose.slides/igloballayoutslidecollection\#addClone-ILayoutSlide-IMasterSlide-) for cloning layouts and [IMasterSlideCollection\#addClone(IMasterSlide)](../../com.aspose.slides/imasterslidecollection\#addClone-IMasterSlide-) for cloning masters. |
 
 **Returns:**
 [ISlide](../../com.aspose.slides/islide) - New slide.
@@ -128,7 +128,7 @@ Inserts a copy of a specified slide to specified position of the collection.
 
 --------------------
 
-When cloning a slide between different presentations slide's master can be cloned too. Internal registry is used to track automatically cloned masters to prevent creation of multiple clones of the same master slide. Manual cloning of master slides will be neither prevented nor registered. If you need more control over cloning process use \#insertClone(int,ISlide,ILayoutSlide) or \#insertClone(int,ISlide,IMasterSlide,boolean) for cloning slides and [IMasterSlideCollection\#addClone(IMasterSlide)](../com.aspose.slides/imasterslidecollection\#addClone-IMasterSlide-) for cloning masters. |
+When cloning a slide between different presentations slide's master can be cloned too. Internal registry is used to track automatically cloned masters to prevent creation of multiple clones of the same master slide. Manual cloning of master slides will be neither prevented nor registered. If you need more control over cloning process use \#insertClone(int,ISlide,ILayoutSlide) or \#insertClone(int,ISlide,IMasterSlide,boolean) for cloning slides and [IMasterSlideCollection\#addClone(IMasterSlide)](../../com.aspose.slides/imasterslidecollection\#addClone-IMasterSlide-) for cloning masters. |
 
 **Returns:**
 [ISlide](../../com.aspose.slides/islide) - Inserted slide.
@@ -266,7 +266,7 @@ public abstract ISlide[] toArray()
 Creates and returns an array with all slides in it.
 
 **Returns:**
-com.aspose.slides.ISlide[] - Array of [ISlide](../com.aspose.slides/islide)
+com.aspose.slides.ISlide[] - Array of [ISlide](../../com.aspose.slides/islide)
 ### toArray(int startIndex, int count) {#toArray-int-int-}
 ```
 public abstract ISlide[] toArray(int startIndex, int count)
@@ -282,7 +282,7 @@ Creates and returns an array with all slides from the specified range in it.
 | count | int | A number of slides to add. |
 
 **Returns:**
-com.aspose.slides.ISlide[] - Array of [ISlide](../com.aspose.slides/islide)
+com.aspose.slides.ISlide[] - Array of [ISlide](../../com.aspose.slides/islide)
 ### reorder(int index, ISlide slide) {#reorder-int-com.aspose.slides.ISlide-}
 ```
 public abstract void reorder(int index, ISlide slide)

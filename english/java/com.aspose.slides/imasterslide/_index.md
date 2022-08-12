@@ -138,4 +138,4 @@ public abstract ISlide[] getDependingSlides()
 Returns an array with all slides, which depend on this master slide.
 
 **Returns:**
-com.aspose.slides.ISlide[] - Array of [ISlide](../com.aspose.slides/islide), which depend on this master slide
+com.aspose.slides.ISlide[] - Array of [ISlide](../../com.aspose.slides/islide), which depend on this master slide

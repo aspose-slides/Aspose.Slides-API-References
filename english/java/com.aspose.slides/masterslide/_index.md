@@ -136,7 +136,7 @@ public final ISlide[] getDependingSlides()
 Returns an array with all slides, which depend on this master slide.
 
 **Returns:**
-com.aspose.slides.ISlide[] - Array of [ISlide](../com.aspose.slides/islide)
+com.aspose.slides.ISlide[] - Array of [ISlide](../../com.aspose.slides/islide)
 ### hasDependingSlides() {#hasDependingSlides--}
 ```
 public final boolean hasDependingSlides()

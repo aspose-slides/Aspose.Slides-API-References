@@ -33,7 +33,6 @@ Represents a Preset Shadow effect.
 | [getParent_IPresentationComponent()](#getParent-IPresentationComponent--) |  |
 | [equals(Object obj)](#equals-java.lang.Object-) | Determines whether the specified [PresetShadow](../../com.aspose.slides/presetshadow) is equal to the current [PresetShadow](../../com.aspose.slides/presetshadow). |
 | [hashCode()](#hashCode--) | Serves as a hash function for a particular type. |
-| [memberwiseClone()](#memberwiseClone--) |  |
 ### getDirection() {#getDirection--}
 ```
 public final float getDirection()
@@ -122,7 +121,7 @@ public final IPresetShadowEffectiveData getEffective()
 Gets effective Preset Shadow effect data with the inheritance applied.
 
 **Returns:**
-[IPresetShadowEffectiveData](../../com.aspose.slides/ipresetshadoweffectivedata) - A [IPresetShadowEffectiveData](../com.aspose.slides/ipresetshadoweffectivedata).
+[IPresetShadowEffectiveData](../../com.aspose.slides/ipresetshadoweffectivedata) - A [IPresetShadowEffectiveData](../../com.aspose.slides/ipresetshadoweffectivedata).
 ### getParent_Immediate() {#getParent-Immediate--}
 ```
 public final IDOMObject getParent_Immediate()
@@ -164,7 +163,7 @@ Determines whether the specified [PresetShadow](../../com.aspose.slides/presetsh
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | java.lang.Object | The [PresetShadow](../com.aspose.slides/presetshadow) to compare. |
+| obj | java.lang.Object | The [PresetShadow](../../com.aspose.slides/presetshadow) to compare. |
 
 **Returns:**
 boolean - true if objects are equal; otherwise, false.
@@ -178,13 +177,3 @@ Serves as a hash function for a particular type.
 
 **Returns:**
 int - A hash code for the current object.
-### memberwiseClone() {#memberwiseClone--}
-```
-protected Object memberwiseClone()
-```
-
-
-
-
-**Returns:**
-java.lang.Object

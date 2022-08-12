@@ -52,4 +52,4 @@ Creates new [VideoPlayerHtmlController](../../com.aspose.slides/videoplayerhtmlc
 | baseUri | java.lang.String | Base URI. |
 
 **Returns:**
-[IVideoPlayerHtmlController](../../com.aspose.slides/ivideoplayerhtmlcontroller) - The [IVideoPlayerHtmlController](../com.aspose.slides/ivideoplayerhtmlcontroller) object.
+[IVideoPlayerHtmlController](../../com.aspose.slides/ivideoplayerhtmlcontroller) - The [IVideoPlayerHtmlController](../../com.aspose.slides/ivideoplayerhtmlcontroller) object.

@@ -140,7 +140,7 @@ public abstract IComment[] toArray()
 Creates and returns an array with all comments.
 
 **Returns:**
-com.aspose.slides.IComment[] - Array of [IComment](../com.aspose.slides/icomment).
+com.aspose.slides.IComment[] - Array of [IComment](../../com.aspose.slides/icomment).
 ### toArray(int startIndex, int count) {#toArray-int-int-}
 ```
 public abstract IComment[] toArray(int startIndex, int count)
@@ -156,7 +156,7 @@ Creates and returns an array with all comments from the specified range.
 | count | int | A number of comments to return. |
 
 **Returns:**
-com.aspose.slides.IComment[] - Array of [IComment](../com.aspose.slides/icomment).
+com.aspose.slides.IComment[] - Array of [IComment](../../com.aspose.slides/icomment).
 ### removeAt(int index) {#removeAt-int-}
 ```
 public abstract void removeAt(int index)

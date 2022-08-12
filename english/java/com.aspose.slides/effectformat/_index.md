@@ -428,4 +428,4 @@ Gets effective effect formatting data with the inheritance applied.
 > ```
 
 **Returns:**
-[IEffectFormatEffectiveData](../../com.aspose.slides/ieffectformateffectivedata) - A [IEffectFormatEffectiveData](../com.aspose.slides/ieffectformateffectivedata).
+[IEffectFormatEffectiveData](../../com.aspose.slides/ieffectformateffectivedata) - A [IEffectFormatEffectiveData](../../com.aspose.slides/ieffectformateffectivedata).

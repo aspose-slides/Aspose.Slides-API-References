@@ -63,7 +63,7 @@ Gets effective table formatting properties with inheritance and table styles app
 > ```
 
 **Returns:**
-[ITableFormatEffectiveData](../../com.aspose.slides/itableformateffectivedata) - A [ITableFormatEffectiveData](../com.aspose.slides/itableformateffectivedata).
+[ITableFormatEffectiveData](../../com.aspose.slides/itableformateffectivedata) - A [ITableFormatEffectiveData](../../com.aspose.slides/itableformateffectivedata).
 ### getVersion() {#getVersion--}
 ```
 public final long getVersion()

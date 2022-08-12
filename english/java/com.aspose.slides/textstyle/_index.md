@@ -60,7 +60,7 @@ If level of style exist returns it, otherwise returns null.
 | index | int | Zero-based index of level. Must lay in 0..8 interval. |
 
 **Returns:**
-[IParagraphFormat](../../com.aspose.slides/iparagraphformat) - Formatting of level [IParagraphFormat](../com.aspose.slides/iparagraphformat).
+[IParagraphFormat](../../com.aspose.slides/iparagraphformat) - Formatting of level [IParagraphFormat](../../com.aspose.slides/iparagraphformat).
 ### getDefaultParagraphFormat() {#getDefaultParagraphFormat--}
 ```
 public final IParagraphFormat getDefaultParagraphFormat()
@@ -104,4 +104,4 @@ Gets effective text style formatting data with the inheritance applied.
 > ```
 
 **Returns:**
-[ITextStyleEffectiveData](../../com.aspose.slides/itextstyleeffectivedata) - A [ITextStyleEffectiveData](../com.aspose.slides/itextstyleeffectivedata).
+[ITextStyleEffectiveData](../../com.aspose.slides/itextstyleeffectivedata) - A [ITextStyleEffectiveData](../../com.aspose.slides/itextstyleeffectivedata).

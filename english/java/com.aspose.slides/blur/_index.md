@@ -82,7 +82,7 @@ public final IBlurEffectiveData getEffective()
 Gets effective Blur effect data with the inheritance applied.
 
 **Returns:**
-[IBlurEffectiveData](../../com.aspose.slides/iblureffectivedata) - A [IBlurEffectiveData](../com.aspose.slides/iblureffectivedata).
+[IBlurEffectiveData](../../com.aspose.slides/iblureffectivedata) - A [IBlurEffectiveData](../../com.aspose.slides/iblureffectivedata).
 ### equals(Object obj) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object obj)
@@ -94,7 +94,7 @@ Determines whether the specified [Blur](../../com.aspose.slides/blur) is equal t
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | java.lang.Object | The [Blur](../com.aspose.slides/blur) to compare. |
+| obj | java.lang.Object | The [Blur](../../com.aspose.slides/blur) to compare. |
 
 **Returns:**
 boolean - true if objects are equal; otherwise, false.

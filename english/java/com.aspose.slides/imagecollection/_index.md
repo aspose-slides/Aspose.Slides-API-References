@@ -126,7 +126,7 @@ Creates and adds an image to a presentation from stream.
 | loadingStreamBehavior | int | The behavior which will be applied to the stream. |
 
 **Returns:**
-[IPPImage](../../com.aspose.slides/ippimage) - Added [IPPImage](../com.aspose.slides/ippimage).
+[IPPImage](../../com.aspose.slides/ippimage) - Added [IPPImage](../../com.aspose.slides/ippimage).
 ### addImage(byte[] buffer) {#addImage-byte---}
 ```
 public final IPPImage addImage(byte[] buffer)
@@ -153,7 +153,7 @@ Add an image to a presentation from Svg object.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| svgImage | [ISvgImage](../../com.aspose.slides/isvgimage) | Svg image object [ISvgImage](../com.aspose.slides/isvgimage) |
+| svgImage | [ISvgImage](../../com.aspose.slides/isvgimage) | Svg image object [ISvgImage](../../com.aspose.slides/isvgimage) |
 
 **Returns:**
 [IPPImage](../../com.aspose.slides/ippimage) - Added image.

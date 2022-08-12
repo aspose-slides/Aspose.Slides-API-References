@@ -71,4 +71,4 @@ public abstract ISectionSlideCollection getSlidesListOfSection()
 Returns list of slides in the section.
 
 **Returns:**
-[ISectionSlideCollection](../../com.aspose.slides/isectionslidecollection) - List of slides [ISectionSlideCollection](../com.aspose.slides/isectionslidecollection)
+[ISectionSlideCollection](../../com.aspose.slides/isectionslidecollection) - List of slides [ISectionSlideCollection](../../com.aspose.slides/isectionslidecollection)

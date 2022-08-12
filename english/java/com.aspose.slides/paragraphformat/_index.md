@@ -451,7 +451,7 @@ Gets effective paragraph formatting data with the inheritance applied.
 > ```
 
 **Returns:**
-[IParagraphFormatEffectiveData](../../com.aspose.slides/iparagraphformateffectivedata) - A [IParagraphFormatEffectiveData](../com.aspose.slides/iparagraphformateffectivedata).
+[IParagraphFormatEffectiveData](../../com.aspose.slides/iparagraphformateffectivedata) - A [IParagraphFormatEffectiveData](../../com.aspose.slides/iparagraphformateffectivedata).
 ### getVersion() {#getVersion--}
 ```
 public long getVersion()

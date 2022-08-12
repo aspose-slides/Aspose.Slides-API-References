@@ -90,7 +90,7 @@ Determines whether the [IGenericCollection](../../com.aspose.slides/igenericcoll
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| propertyValue | java.lang.String | Value of the property to locate in the [IGenericCollection](../com.aspose.slides/igenericcollection). |
+| propertyValue | java.lang.String | Value of the property to locate in the [IGenericCollection](../../com.aspose.slides/igenericcollection). |
 
 **Returns:**
-boolean - true if propertyValue is found in the [IGenericCollection](../com.aspose.slides/igenericcollection); otherwise, false.
+boolean - true if propertyValue is found in the [IGenericCollection](../../com.aspose.slides/igenericcollection); otherwise, false.

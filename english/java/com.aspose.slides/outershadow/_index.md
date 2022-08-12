@@ -45,7 +45,6 @@ Represents an Outer Shadow effect.
 | [getParent_IPresentationComponent()](#getParent-IPresentationComponent--) |  |
 | [equals(Object obj)](#equals-java.lang.Object-) | Determines whether the specified [OuterShadow](../../com.aspose.slides/outershadow) is equal to the current [OuterShadow](../../com.aspose.slides/outershadow). |
 | [hashCode()](#hashCode--) | Serves as a hash function for a particular type. |
-| [memberwiseClone()](#memberwiseClone--) |  |
 ### getBlurRadius() {#getBlurRadius--}
 ```
 public final double getBlurRadius()
@@ -272,7 +271,7 @@ public final IOuterShadowEffectiveData getEffective()
 Gets effective Outer Shadow effect data with the inheritance applied.
 
 **Returns:**
-[IOuterShadowEffectiveData](../../com.aspose.slides/ioutershadoweffectivedata) - A [IOuterShadowEffectiveData](../com.aspose.slides/ioutershadoweffectivedata).
+[IOuterShadowEffectiveData](../../com.aspose.slides/ioutershadoweffectivedata) - A [IOuterShadowEffectiveData](../../com.aspose.slides/ioutershadoweffectivedata).
 ### getParent_Immediate() {#getParent-Immediate--}
 ```
 public final IDOMObject getParent_Immediate()
@@ -314,7 +313,7 @@ Determines whether the specified [OuterShadow](../../com.aspose.slides/outershad
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | java.lang.Object | The [OuterShadow](../com.aspose.slides/outershadow) to compare. |
+| obj | java.lang.Object | The [OuterShadow](../../com.aspose.slides/outershadow) to compare. |
 
 **Returns:**
 boolean - true if objects are equal; otherwise, false.
@@ -328,13 +327,3 @@ Serves as a hash function for a particular type.
 
 **Returns:**
 int - A hash code for the current object.
-### memberwiseClone() {#memberwiseClone--}
-```
-protected Object memberwiseClone()
-```
-
-
-
-
-**Returns:**
-java.lang.Object

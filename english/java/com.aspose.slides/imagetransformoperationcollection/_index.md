@@ -62,7 +62,7 @@ Returns an [ImageTransformOperation](../../com.aspose.slides/imagetransformopera
 | index | int | Index of element. |
 
 **Returns:**
-[IImageTransformOperation](../../com.aspose.slides/iimagetransformoperation) - The [IImageTransformOperation](../com.aspose.slides/iimagetransformoperation) object.
+[IImageTransformOperation](../../com.aspose.slides/iimagetransformoperation) - The [IImageTransformOperation](../../com.aspose.slides/iimagetransformoperation) object.
 ### removeAt(int index) {#removeAt-int-}
 ```
 public final void removeAt(int index)
@@ -310,7 +310,7 @@ public final boolean isReadOnly()
 Gets a value indicating whether the [IGenericCollection](../../com.aspose.slides/igenericcollection) is read-only. Read-only boolean.
 
 **Returns:**
-boolean - true if the [IGenericCollection](../com.aspose.slides/igenericcollection) is read-only; otherwise, false.
+boolean - true if the [IGenericCollection](../../com.aspose.slides/igenericcollection) is read-only; otherwise, false.
 ### addItem(IImageTransformOperation operation) {#addItem-com.aspose.slides.IImageTransformOperation-}
 ```
 public final void addItem(IImageTransformOperation operation)
@@ -343,10 +343,10 @@ Determines whether the [IGenericCollection](../../com.aspose.slides/igenericcoll
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| item | [IImageTransformOperation](../../com.aspose.slides/iimagetransformoperation) | The object to locate in the [IGenericCollection](../com.aspose.slides/igenericcollection). |
+| item | [IImageTransformOperation](../../com.aspose.slides/iimagetransformoperation) | The object to locate in the [IGenericCollection](../../com.aspose.slides/igenericcollection). |
 
 **Returns:**
-boolean - true if item is found in the [IGenericCollection](../com.aspose.slides/igenericcollection); otherwise, false.
+boolean - true if item is found in the [IGenericCollection](../../com.aspose.slides/igenericcollection); otherwise, false.
 ### copyToTArray(IImageTransformOperation[] array, int arrayIndex) {#copyToTArray-com.aspose.slides.IImageTransformOperation---int-}
 ```
 public final void copyToTArray(IImageTransformOperation[] array, int arrayIndex)
@@ -358,7 +358,7 @@ Copies the elements of the [IGenericCollection](../../com.aspose.slides/igeneric
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| array | com.aspose.slides.IImageTransformOperation[] | The one-dimensional Array that is the destination of the elements copied from [IGenericCollection](../com.aspose.slides/igenericcollection). The Array must have zero-based indexing. |
+| array | com.aspose.slides.IImageTransformOperation[] | The one-dimensional Array that is the destination of the elements copied from [IGenericCollection](../../com.aspose.slides/igenericcollection). The Array must have zero-based indexing. |
 | arrayIndex | int | The zero-based index in array at which copying begins. |
 
 ### removeItem(IImageTransformOperation item) {#removeItem-com.aspose.slides.IImageTransformOperation-}
@@ -372,12 +372,10 @@ Removes the first occurrence of a specific object from the [IGenericCollection](
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| item | [IImageTransformOperation](../../com.aspose.slides/iimagetransformoperation) | The object to remove from the [IGenericCollection](../com.aspose.slides/igenericcollection). |
+| item | [IImageTransformOperation](../../com.aspose.slides/iimagetransformoperation) | The object to remove from the [IGenericCollection](../../com.aspose.slides/igenericcollection). |
 
 **Returns:**
-boolean - true if ```
-item
-``` was successfully removed from the [IGenericCollection](../com.aspose.slides/igenericcollection); otherwise, false. This method also returns false if item is not found in the original [IGenericCollection](../com.aspose.slides/igenericcollection).
+boolean - true if \`\`\` item \`\`\` was successfully removed from the [IGenericCollection](../../com.aspose.slides/igenericcollection); otherwise, false. This method also returns false if item is not found in the original [IGenericCollection](../../com.aspose.slides/igenericcollection).
 ### iterator() {#iterator--}
 ```
 public final System.Collections.Generic.IGenericEnumerator<IImageTransformOperation> iterator()

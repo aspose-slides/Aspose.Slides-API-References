@@ -55,7 +55,7 @@ public final IDuotoneEffectiveData getEffective()
 Gets effective Duotone effect data with the inheritance applied.
 
 **Returns:**
-[IDuotoneEffectiveData](../../com.aspose.slides/iduotoneeffectivedata) - A [IDuotoneEffectiveData](../com.aspose.slides/iduotoneeffectivedata).
+[IDuotoneEffectiveData](../../com.aspose.slides/iduotoneeffectivedata) - A [IDuotoneEffectiveData](../../com.aspose.slides/iduotoneeffectivedata).
 ### getVersion() {#getVersion--}
 ```
 public long getVersion()
@@ -77,7 +77,7 @@ Determines whether the specified [Duotone](../../com.aspose.slides/duotone) is e
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | java.lang.Object | The [Duotone](../com.aspose.slides/duotone) to compare. |
+| obj | java.lang.Object | The [Duotone](../../com.aspose.slides/duotone) to compare. |
 
 **Returns:**
 boolean - true if objects are equal; otherwise, false.

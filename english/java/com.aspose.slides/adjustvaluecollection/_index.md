@@ -50,7 +50,7 @@ Returns adjustment by index.
 | index | int | adjustment's index. |
 
 **Returns:**
-[IAdjustValue](../../com.aspose.slides/iadjustvalue) - [AdjustValue](../com.aspose.slides/adjustvalue).
+[IAdjustValue](../../com.aspose.slides/iadjustvalue) - [AdjustValue](../../com.aspose.slides/adjustvalue).
 ### copyTo(System.Array array, int index) {#copyTo-com.aspose.ms.System.Array-int-}
 ```
 public final void copyTo(System.Array array, int index)

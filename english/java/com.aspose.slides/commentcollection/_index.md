@@ -160,7 +160,7 @@ public final IComment[] toArray()
 Creates and returns an array with all comments.
 
 **Returns:**
-com.aspose.slides.IComment[] - Array of [Comment](../com.aspose.slides/comment).
+com.aspose.slides.IComment[] - Array of [Comment](../../com.aspose.slides/comment).
 ### toArray(int startIndex, int count) {#toArray-int-int-}
 ```
 public final IComment[] toArray(int startIndex, int count)
@@ -176,7 +176,7 @@ Creates and returns an array with all comments from the specified range.
 | count | int | A number of comments to return. |
 
 **Returns:**
-com.aspose.slides.IComment[] - Array of [Comment](../com.aspose.slides/comment).
+com.aspose.slides.IComment[] - Array of [Comment](../../com.aspose.slides/comment).
 ### removeAt(int index) {#removeAt-int-}
 ```
 public final void removeAt(int index)
@@ -245,7 +245,7 @@ Finds a comment in the collection by index.
 | idx | int | Unique index of a comment to find \`\`\` int \`\`\`. |
 
 **Returns:**
-[IComment](../../com.aspose.slides/icomment) - Found comment or null [IComment](../com.aspose.slides/icomment).
+[IComment](../../com.aspose.slides/icomment) - Found comment or null [IComment](../../com.aspose.slides/icomment).
 ### copyTo(System.Array array, int index) {#copyTo-com.aspose.ms.System.Array-int-}
 ```
 public final void copyTo(System.Array array, int index)

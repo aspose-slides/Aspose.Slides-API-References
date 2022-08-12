@@ -53,7 +53,7 @@ public final boolean isReadOnly()
 Gets a value indicating whether the [IGenericCollection](../../com.aspose.slides/igenericcollection) is read-only. Read-only boolean.
 
 **Returns:**
-boolean - true if the [IGenericCollection](../com.aspose.slides/igenericcollection) is read-only; otherwise, false.
+boolean - true if the [IGenericCollection](../../com.aspose.slides/igenericcollection) is read-only; otherwise, false.
 ### add(IBehavior item) {#add-com.aspose.slides.IBehavior-}
 ```
 public final void add(IBehavior item)
@@ -107,7 +107,7 @@ Copies the elements of the [IGenericCollection](../../com.aspose.slides/igeneric
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| array | com.aspose.slides.IBehavior[] | The one-dimensional Array that is the destination of the elements copied from [IGenericCollection](../com.aspose.slides/igenericcollection). The Array must have zero-based indexing. |
+| array | com.aspose.slides.IBehavior[] | The one-dimensional Array that is the destination of the elements copied from [IGenericCollection](../../com.aspose.slides/igenericcollection). The Array must have zero-based indexing. |
 | arrayIndex | int | The zero-based index in array at which copying begins. |
 
 ### remove(IBehavior item) {#remove-com.aspose.slides.IBehavior-}
@@ -157,10 +157,10 @@ Determines whether the [IGenericCollection](../../com.aspose.slides/igenericcoll
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| item | [IBehavior](../../com.aspose.slides/ibehavior) | The object to locate in the [IGenericCollection](../com.aspose.slides/igenericcollection). |
+| item | [IBehavior](../../com.aspose.slides/ibehavior) | The object to locate in the [IGenericCollection](../../com.aspose.slides/igenericcollection). |
 
 **Returns:**
-boolean - true if item is found in the [IGenericCollection](../com.aspose.slides/igenericcollection); otherwise, false.
+boolean - true if item is found in the [IGenericCollection](../../com.aspose.slides/igenericcollection); otherwise, false.
 ### get_Item(int index) {#get-Item-int-}
 ```
 public final IBehavior get_Item(int index)

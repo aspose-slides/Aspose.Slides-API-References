@@ -104,12 +104,10 @@ Compares the current instance with another object of the same type.
 | obj | java.lang.Object | An object to compare with this instance. |
 
 **Returns:**
-int - A 32-bit integer that indicates the relative order of the comparands.
- The return value has these meanings:
- ```
-<UL>
- <LI> &lt; 0 - This instance is less than obj.</LI>
- <LI> = 0 - This instance is equal to obj.</LI>
- <LI> &gt; 0 - This instance is greater than obj.</LI>
- </UL>
-```
+int - A 32-bit integer that indicates the relative order of the comparands. The return value has these meanings: \`\`\`
+
+ *  < 0 - This instance is less than obj.
+ *  = 0 - This instance is equal to obj.
+ *  > 0 - This instance is greater than obj.
+
+\`\`\`

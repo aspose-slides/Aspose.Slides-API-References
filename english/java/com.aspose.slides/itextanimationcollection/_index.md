@@ -45,7 +45,7 @@ Returns all elements
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| shape | [IShape](../../com.aspose.slides/ishape) | [IShape](../com.aspose.slides/ishape) element. |
+| shape | [IShape](../../com.aspose.slides/ishape) | [IShape](../../com.aspose.slides/ishape) element. |
 
 **Returns:**
-com.aspose.slides.ITextAnimation[] - Array of [ITextAnimation](../com.aspose.slides/itextanimation)
+com.aspose.slides.ITextAnimation[] - Array of [ITextAnimation](../../com.aspose.slides/itextanimation)

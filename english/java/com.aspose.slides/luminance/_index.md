@@ -32,7 +32,7 @@ public final ILuminanceEffectiveData getEffective()
 Gets effective Luminance effect data with the inheritance applied.
 
 **Returns:**
-[ILuminanceEffectiveData](../../com.aspose.slides/iluminanceeffectivedata) - A [ILuminanceEffectiveData](../com.aspose.slides/iluminanceeffectivedata).
+[ILuminanceEffectiveData](../../com.aspose.slides/iluminanceeffectivedata) - A [ILuminanceEffectiveData](../../com.aspose.slides/iluminanceeffectivedata).
 ### equals(Object obj) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object obj)
@@ -44,7 +44,7 @@ Determines whether the specified [Luminance](../../com.aspose.slides/luminance) 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | java.lang.Object | The [Luminance](../com.aspose.slides/luminance) to compare. |
+| obj | java.lang.Object | The [Luminance](../../com.aspose.slides/luminance) to compare. |
 
 **Returns:**
 boolean - true if objects are equal; otherwise, false.

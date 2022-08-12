@@ -234,7 +234,7 @@ Returns all text frames on a slide in a PPTX presentation.
 | slide | [IBaseSlide](../../com.aspose.slides/ibaseslide) | Scanned slide. |
 
 **Returns:**
-com.aspose.slides.ITextFrame[] - Array of [TextFrame](../com.aspose.slides/textframe) objects.
+com.aspose.slides.ITextFrame[] - Array of [TextFrame](../../com.aspose.slides/textframe) objects.
 ### getAllTextFrames(IPresentation pres, boolean withMasters) {#getAllTextFrames-com.aspose.slides.IPresentation-boolean-}
 ```
 public static ITextFrame[] getAllTextFrames(IPresentation pres, boolean withMasters)
@@ -250,4 +250,4 @@ Returns all text frames in a PPTX presentation.
 | withMasters | boolean | Determines whether master slides should be scanned. |
 
 **Returns:**
-com.aspose.slides.ITextFrame[] - Array of [TextFrame](../com.aspose.slides/textframe) objects.
+com.aspose.slides.ITextFrame[] - Array of [TextFrame](../../com.aspose.slides/textframe) objects.

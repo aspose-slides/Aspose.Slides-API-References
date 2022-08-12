@@ -110,4 +110,4 @@ public abstract IBackgroundEffectiveData getEffective()
 Gets effective background data with the inheritance applied.
 
 **Returns:**
-[IBackgroundEffectiveData](../../com.aspose.slides/ibackgroundeffectivedata) - A [IBackgroundEffectiveData](../com.aspose.slides/ibackgroundeffectivedata).
+[IBackgroundEffectiveData](../../com.aspose.slides/ibackgroundeffectivedata) - A [IBackgroundEffectiveData](../../com.aspose.slides/ibackgroundeffectivedata).

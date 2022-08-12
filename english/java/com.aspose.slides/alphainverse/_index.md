@@ -33,7 +33,7 @@ public final IAlphaInverseEffectiveData getEffective()
 Gets effective Alpha Inverse effect data with the inheritance applied.
 
 **Returns:**
-[IAlphaInverseEffectiveData](../../com.aspose.slides/ialphainverseeffectivedata) - A [IAlphaInverseEffectiveData](../com.aspose.slides/ialphainverseeffectivedata).
+[IAlphaInverseEffectiveData](../../com.aspose.slides/ialphainverseeffectivedata) - A [IAlphaInverseEffectiveData](../../com.aspose.slides/ialphainverseeffectivedata).
 ### getVersion() {#getVersion--}
 ```
 public long getVersion()
@@ -55,7 +55,7 @@ Determines whether the specified [AlphaInverse](../../com.aspose.slides/alphainv
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | java.lang.Object | The [AlphaInverse](../com.aspose.slides/alphainverse) to compare. |
+| obj | java.lang.Object | The [AlphaInverse](../../com.aspose.slides/alphainverse) to compare. |
 
 **Returns:**
 boolean - true if objects are equal; otherwise, false.

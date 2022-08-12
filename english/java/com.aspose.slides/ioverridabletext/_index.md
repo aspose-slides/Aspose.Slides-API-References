@@ -43,4 +43,4 @@ Initialize TextFrameForOverriding with the text in paramener "text". If TextFram
 | text | java.lang.String | Text for a new TextFrameForOverriding. |
 
 **Returns:**
-[ITextFrame](../../com.aspose.slides/itextframe) - Text frame [ITextFrame](../com.aspose.slides/itextframe)
+[ITextFrame](../../com.aspose.slides/itextframe) - Text frame [ITextFrame](../../com.aspose.slides/itextframe)

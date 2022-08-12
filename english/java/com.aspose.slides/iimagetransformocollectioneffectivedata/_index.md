@@ -36,4 +36,4 @@ Returns element by index.
 | index | int | Index of item. |
 
 **Returns:**
-[IEffectEffectiveData](../../com.aspose.slides/ieffecteffectivedata) - The [IEffectEffectiveData](../com.aspose.slides/ieffecteffectivedata) object.
+[IEffectEffectiveData](../../com.aspose.slides/ieffecteffectivedata) - The [IEffectEffectiveData](../../com.aspose.slides/ieffecteffectivedata) object.

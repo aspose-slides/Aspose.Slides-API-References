@@ -26,7 +26,7 @@ Callback method which regulates external resources loading.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| args | [IResourceLoadingArgs](../../com.aspose.slides/iresourceloadingargs) | The loading resource data [IResourceLoadingArgs](../com.aspose.slides/iresourceloadingargs). |
+| args | [IResourceLoadingArgs](../../com.aspose.slides/iresourceloadingargs) | The loading resource data [IResourceLoadingArgs](../../com.aspose.slides/iresourceloadingargs). |
 
 **Returns:**
-int - The resource loading decision [ResourceLoadingAction](../com.aspose.slides/resourceloadingaction).
+int - The resource loading decision [ResourceLoadingAction](../../com.aspose.slides/resourceloadingaction).

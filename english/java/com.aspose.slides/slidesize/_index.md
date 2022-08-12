@@ -101,7 +101,7 @@ Sets the type of slide size and scales content using scale type.
 
 --------------------
 
-Assigning any value except [SlideSizeType\#Custom](../com.aspose.slides/slidesizetype\#Custom) will change (\#getSize) accordingly, but will keep (\#getOrientation/\#setOrientation(int)) intact. |
+Assigning any value except [SlideSizeType\#Custom](../../com.aspose.slides/slidesizetype\#Custom) will change (\#getSize) accordingly, but will keep (\#getOrientation/\#setOrientation(int)) intact. |
 
 ### setSize(float width, float height, int scaleType) {#setSize-float-float-int-}
 ```
@@ -120,5 +120,5 @@ Sets the size in points and scales content using scale type.
 
 --------------------
 
-Assigning any value will reset (\#getType) property to [SlideSizeType\#Custom](../com.aspose.slides/slidesizetype\#Custom) and set (\#getOrientation/\#setOrientation(int)). |
+Assigning any value will reset (\#getType) property to [SlideSizeType\#Custom](../../com.aspose.slides/slidesizetype\#Custom) and set (\#getOrientation/\#setOrientation(int)). |
 

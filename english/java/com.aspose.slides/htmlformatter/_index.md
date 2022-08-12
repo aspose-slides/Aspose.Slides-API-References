@@ -38,7 +38,7 @@ Creates and returns HTML formatter for a simple document view which consists of 
 | showSlideTitle | boolean | Add slide title if there is one above slide image. |
 
 **Returns:**
-[HtmlFormatter](../../com.aspose.slides/htmlformatter) - The [HtmlFormatter](../com.aspose.slides/htmlformatter) object.
+[HtmlFormatter](../../com.aspose.slides/htmlformatter) - The [HtmlFormatter](../../com.aspose.slides/htmlformatter) object.
 ### createSlideShowFormatter(String css, boolean showSlideTitle) {#createSlideShowFormatter-java.lang.String-boolean-}
 ```
 public static HtmlFormatter createSlideShowFormatter(String css, boolean showSlideTitle)
@@ -54,7 +54,7 @@ Creates and returns HTML formatter for a simple slide show html which shows slid
 | showSlideTitle | boolean | Add slide title if there is one above slide image. |
 
 **Returns:**
-[HtmlFormatter](../../com.aspose.slides/htmlformatter) - The [HtmlFormatter](../com.aspose.slides/htmlformatter) object.
+[HtmlFormatter](../../com.aspose.slides/htmlformatter) - The [HtmlFormatter](../../com.aspose.slides/htmlformatter) object.
 ### createCustomFormatter(IHtmlFormattingController formattingController) {#createCustomFormatter-com.aspose.slides.IHtmlFormattingController-}
 ```
 public static HtmlFormatter createCustomFormatter(IHtmlFormattingController formattingController)
@@ -69,4 +69,4 @@ Creates and returns HTML formatter for custom callback-driven html generation.
 | formattingController | [IHtmlFormattingController](../../com.aspose.slides/ihtmlformattingcontroller) | Callback interface which controls html file generation. |
 
 **Returns:**
-[HtmlFormatter](../../com.aspose.slides/htmlformatter) - The [HtmlFormatter](../com.aspose.slides/htmlformatter) object.
+[HtmlFormatter](../../com.aspose.slides/htmlformatter) - The [HtmlFormatter](../../com.aspose.slides/htmlformatter) object.

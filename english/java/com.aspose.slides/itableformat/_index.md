@@ -35,4 +35,4 @@ public abstract ITableFormatEffectiveData getEffective()
 Gets effective table formatting properties with inheritance and table styles applied.
 
 **Returns:**
-[ITableFormatEffectiveData](../../com.aspose.slides/itableformateffectivedata) - A [ITableFormatEffectiveData](../com.aspose.slides/itableformateffectivedata).
+[ITableFormatEffectiveData](../../com.aspose.slides/itableformateffectivedata) - A [ITableFormatEffectiveData](../../com.aspose.slides/itableformateffectivedata).

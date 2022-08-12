@@ -186,7 +186,7 @@ Iterate each [Shape](../../com.aspose.slides/shape) in the [BaseSlide](../../com
 
 --------------------
 
-[BaseSlide](../com.aspose.slides/baseslide) is the base type for \#slide(Presentation,ForEachSlideCallback), \#masterSlide(Presentation,ForEachMasterSlideCallback) and \#layoutSlide(Presentation,ForEachLayoutSlideCallback) |
+[BaseSlide](../../com.aspose.slides/baseslide) is the base type for \#slide(Presentation,ForEachSlideCallback), \#masterSlide(Presentation,ForEachMasterSlideCallback) and \#layoutSlide(Presentation,ForEachLayoutSlideCallback) |
 
 ### paragraph(Presentation pres, ForEach.ForEachParagraphCallback forEachParagraph) {#paragraph-com.aspose.slides.Presentation-com.aspose.slides.ForEach.ForEachParagraphCallback-}
 ```

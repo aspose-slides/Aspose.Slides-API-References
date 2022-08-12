@@ -49,7 +49,6 @@ Represents an SVG options.
 | [setDeletePicturesCroppedAreas(boolean value)](#setDeletePicturesCroppedAreas-boolean-) | A boolean flag indicates if the cropped parts remain as part of the document. |
 | [getExternalFontsHandling()](#getExternalFontsHandling--) | Determines a way of handling externally loaded fonts. |
 | [setExternalFontsHandling(int value)](#setExternalFontsHandling-int-) | Determines a way of handling externally loaded fonts. |
-| [memberwiseClone()](#memberwiseClone--) |  |
 ### SVGOptions() {#SVGOptions--}
 ```
 public SVGOptions()
@@ -335,13 +334,3 @@ Determines a way of handling externally loaded fonts. Read/write [SvgExternalFon
 | --- | --- | --- |
 | value | int |  |
 
-### memberwiseClone() {#memberwiseClone--}
-```
-protected Object memberwiseClone()
-```
-
-
-
-
-**Returns:**
-java.lang.Object

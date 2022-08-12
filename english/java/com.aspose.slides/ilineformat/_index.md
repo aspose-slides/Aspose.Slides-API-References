@@ -416,8 +416,7 @@ Determines whether the two LineFormat instances are equal.
 | lineFormat | [ILineFormat](../../com.aspose.slides/ilineformat) | The LineFormat to compare with the current LineFormat. |
 
 **Returns:**
-boolean - <b>true</b> if the specified LineFormat is equal to the current LineFormat;
- otherwise, <b>false</b>.
+boolean - **true** if the specified LineFormat is equal to the current LineFormat; otherwise, **false**.
 ### getEffective() {#getEffective--}
 ```
 public abstract ILineFormatEffectiveData getEffective()
@@ -427,4 +426,4 @@ public abstract ILineFormatEffectiveData getEffective()
 Gets effective line formatting data with the inheritance applied.
 
 **Returns:**
-[ILineFormatEffectiveData](../../com.aspose.slides/ilineformateffectivedata) - A [ILineFormatEffectiveData](../com.aspose.slides/ilineformateffectivedata).
+[ILineFormatEffectiveData](../../com.aspose.slides/ilineformateffectivedata) - A [ILineFormatEffectiveData](../../com.aspose.slides/ilineformateffectivedata).

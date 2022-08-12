@@ -107,5 +107,4 @@ public final double toDouble()
 Converts to double.
 
 **Returns:**
-double - Returns LiteralDouble if DataSourceType equals DoubleLiterals.
- If DataSourceType equals Worksheet returns successfully converted to double cell value, otherwise returns NaN.
+double - Returns LiteralDouble if DataSourceType equals DoubleLiterals. If DataSourceType equals Worksheet returns successfully converted to double cell value, otherwise returns NaN.

@@ -60,7 +60,7 @@ public final boolean isReadOnly()
 Gets a value indicating whether the [IGenericCollection](../../com.aspose.slides/igenericcollection) is read-only. Read-only boolean.
 
 **Returns:**
-boolean - true if the [IGenericCollection](../com.aspose.slides/igenericcollection) is read-only; otherwise, false.
+boolean - true if the [IGenericCollection](../../com.aspose.slides/igenericcollection) is read-only; otherwise, false.
 ### get_Item(int index) {#get-Item-int-}
 ```
 public final IParagraph get_Item(int index)
@@ -166,10 +166,10 @@ Determines whether the [IGenericCollection](../../com.aspose.slides/igenericcoll
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| item | [IParagraph](../../com.aspose.slides/iparagraph) | The object to locate in the [IGenericCollection](../com.aspose.slides/igenericcollection). |
+| item | [IParagraph](../../com.aspose.slides/iparagraph) | The object to locate in the [IGenericCollection](../../com.aspose.slides/igenericcollection). |
 
 **Returns:**
-boolean - true if item is found in the [IGenericCollection](../com.aspose.slides/igenericcollection); otherwise, false.
+boolean - true if item is found in the [IGenericCollection](../../com.aspose.slides/igenericcollection); otherwise, false.
 ### copyTo(IParagraph[] array, int arrayIndex) {#copyTo-com.aspose.slides.IParagraph---int-}
 ```
 public final void copyTo(IParagraph[] array, int arrayIndex)
@@ -181,7 +181,7 @@ Copies the elements of the [IGenericCollection](../../com.aspose.slides/igeneric
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| array | com.aspose.slides.IParagraph[] | The one-dimensional Array that is the destination of the elements copied from [IGenericCollection](../com.aspose.slides/igenericcollection). The Array must have zero-based indexing. |
+| array | com.aspose.slides.IParagraph[] | The one-dimensional Array that is the destination of the elements copied from [IGenericCollection](../../com.aspose.slides/igenericcollection). The Array must have zero-based indexing. |
 | arrayIndex | int | The zero-based index in array at which copying begins. |
 
 ### removeAt(int index) {#removeAt-int-}
@@ -208,10 +208,10 @@ Removes the first occurrence of a specific object from the [IGenericCollection](
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| item | [IParagraph](../../com.aspose.slides/iparagraph) | The object to remove from the [IGenericCollection](../com.aspose.slides/igenericcollection). |
+| item | [IParagraph](../../com.aspose.slides/iparagraph) | The object to remove from the [IGenericCollection](../../com.aspose.slides/igenericcollection). |
 
 **Returns:**
-boolean - true if item was successfully removed from the [IGenericCollection](../com.aspose.slides/igenericcollection); otherwise, false. This method also returns false if item is not found in the original [IGenericCollection](../com.aspose.slides/igenericcollection).
+boolean - true if item was successfully removed from the [IGenericCollection](../../com.aspose.slides/igenericcollection); otherwise, false. This method also returns false if item is not found in the original [IGenericCollection](../../com.aspose.slides/igenericcollection).
 ### iterator() {#iterator--}
 ```
 public final System.Collections.Generic.IGenericEnumerator<IParagraph> iterator()
@@ -310,7 +310,7 @@ Converts specifying paragraphs to the HTML and returns it as String object.
 | --- | --- | --- |
 | firstParagraphIndex | int | First paragraph index int |
 | paragraphsCount | int | Paragraph count int |
-| options | [ITextToHtmlConversionOptions](../../com.aspose.slides/itexttohtmlconversionoptions) | Convert options [ITextToHtmlConversionOptions](../com.aspose.slides/itexttohtmlconversionoptions) |
+| options | [ITextToHtmlConversionOptions](../../com.aspose.slides/itexttohtmlconversionoptions) | Convert options [ITextToHtmlConversionOptions](../../com.aspose.slides/itexttohtmlconversionoptions) |
 
 **Returns:**
 java.lang.String - Generated HTML.

@@ -68,7 +68,7 @@ Returns element by index.
 | index | int | Index of element. |
 
 **Returns:**
-[IEffectEffectiveData](../../com.aspose.slides/ieffecteffectivedata) - The [IEffectEffectiveData](../com.aspose.slides/ieffecteffectivedata) object.
+[IEffectEffectiveData](../../com.aspose.slides/ieffecteffectivedata) - The [IEffectEffectiveData](../../com.aspose.slides/ieffecteffectivedata) object.
 ### equals(Object obj) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object obj)

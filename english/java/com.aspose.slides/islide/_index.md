@@ -391,7 +391,7 @@ Returns all slide comments added by specific author.
 | author | [ICommentAuthor](../../com.aspose.slides/icommentauthor) | Author of comments to find or null to return all comments. |
 
 **Returns:**
-com.aspose.slides.IComment[] - Array of [IComment](../com.aspose.slides/icomment).
+com.aspose.slides.IComment[] - Array of [IComment](../../com.aspose.slides/icomment).
 ### writeAsSvg(OutputStream stream) {#writeAsSvg-java.io.OutputStream-}
 ```
 public abstract void writeAsSvg(OutputStream stream)

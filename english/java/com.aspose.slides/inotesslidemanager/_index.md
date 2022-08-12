@@ -36,7 +36,7 @@ public abstract INotesSlide addNotesSlide()
 Returns the notes slide for the current slide, creating one if there isn't.
 
 **Returns:**
-[INotesSlide](../../com.aspose.slides/inotesslide) - [INotesSlide](../com.aspose.slides/inotesslide) for this slide.
+[INotesSlide](../../com.aspose.slides/inotesslide) - [INotesSlide](../../com.aspose.slides/inotesslide) for this slide.
 ### removeNotesSlide() {#removeNotesSlide--}
 ```
 public abstract void removeNotesSlide()

@@ -32,7 +32,7 @@ public final IHSLEffectiveData getEffective()
 Gets effective Hue/Saturation/Luminance effect data with the inheritance applied.
 
 **Returns:**
-[IHSLEffectiveData](../../com.aspose.slides/ihsleffectivedata) - A [IHSLEffectiveData](../com.aspose.slides/ihsleffectivedata).
+[IHSLEffectiveData](../../com.aspose.slides/ihsleffectivedata) - A [IHSLEffectiveData](../../com.aspose.slides/ihsleffectivedata).
 ### equals(Object obj) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object obj)
@@ -44,7 +44,7 @@ Determines whether the specified [HSL](../../com.aspose.slides/hsl) is equal to 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | java.lang.Object | The [HSL](../com.aspose.slides/hsl) to compare. |
+| obj | java.lang.Object | The [HSL](../../com.aspose.slides/hsl) to compare. |
 
 **Returns:**
 boolean - true if objects are equal; otherwise, false.

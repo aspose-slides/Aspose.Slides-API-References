@@ -53,7 +53,7 @@ public final boolean isReadOnly()
 Gets a value indicating whether the [IGenericCollection](../../com.aspose.slides/igenericcollection) is read-only. Read-only boolean.
 
 **Returns:**
-boolean - true if the [IGenericCollection](../com.aspose.slides/igenericcollection) is read-only; otherwise, false.
+boolean - true if the [IGenericCollection](../../com.aspose.slides/igenericcollection) is read-only; otherwise, false.
 ### get_Item(int index) {#get-Item-int-}
 ```
 public final IPortion get_Item(int index)
@@ -144,10 +144,10 @@ Determines whether the [IGenericCollection](../../com.aspose.slides/igenericcoll
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| item | [IPortion](../../com.aspose.slides/iportion) | The object to locate in the [IGenericCollection](../com.aspose.slides/igenericcollection). |
+| item | [IPortion](../../com.aspose.slides/iportion) | The object to locate in the [IGenericCollection](../../com.aspose.slides/igenericcollection). |
 
 **Returns:**
-boolean - true if item is found in the [IGenericCollection](../com.aspose.slides/igenericcollection); otherwise, false.
+boolean - true if item is found in the [IGenericCollection](../../com.aspose.slides/igenericcollection); otherwise, false.
 ### copyTo(IPortion[] array, int arrayIndex) {#copyTo-com.aspose.slides.IPortion---int-}
 ```
 public final void copyTo(IPortion[] array, int arrayIndex)
@@ -159,7 +159,7 @@ Copies the elements of the [IGenericCollection](../../com.aspose.slides/igeneric
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| array | com.aspose.slides.IPortion[] | The one-dimensional Array that is the destination of the elements copied from [IGenericCollection](../com.aspose.slides/igenericcollection). The Array must have zero-based indexing. |
+| array | com.aspose.slides.IPortion[] | The one-dimensional Array that is the destination of the elements copied from [IGenericCollection](../../com.aspose.slides/igenericcollection). The Array must have zero-based indexing. |
 | arrayIndex | int | The zero-based index in array at which copying begins. |
 
 ### remove(IPortion item) {#remove-com.aspose.slides.IPortion-}
@@ -173,10 +173,10 @@ Removes the first occurrence of a specific object from the [IGenericCollection](
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| item | [IPortion](../../com.aspose.slides/iportion) | The object to remove from the [IGenericCollection](../com.aspose.slides/igenericcollection). |
+| item | [IPortion](../../com.aspose.slides/iportion) | The object to remove from the [IGenericCollection](../../com.aspose.slides/igenericcollection). |
 
 **Returns:**
-boolean - true if item was successfully removed from the [IGenericCollection](../com.aspose.slides/igenericcollection); otherwise, false. This method also returns false if item is not found in the original [IGenericCollection](../com.aspose.slides/igenericcollection).
+boolean - true if item was successfully removed from the [IGenericCollection](../../com.aspose.slides/igenericcollection); otherwise, false. This method also returns false if item is not found in the original [IGenericCollection](../../com.aspose.slides/igenericcollection).
 ### removeAt(int index) {#removeAt-int-}
 ```
 public final void removeAt(int index)

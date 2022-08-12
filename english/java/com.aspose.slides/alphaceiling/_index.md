@@ -32,7 +32,7 @@ public final IAlphaCeilingEffectiveData getEffective()
 Gets effective Alpha Ceiling effect data with the inheritance applied.
 
 **Returns:**
-[IAlphaCeilingEffectiveData](../../com.aspose.slides/ialphaceilingeffectivedata) - A [IAlphaCeilingEffectiveData](../com.aspose.slides/ialphaceilingeffectivedata).
+[IAlphaCeilingEffectiveData](../../com.aspose.slides/ialphaceilingeffectivedata) - A [IAlphaCeilingEffectiveData](../../com.aspose.slides/ialphaceilingeffectivedata).
 ### equals(Object obj) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object obj)
@@ -44,7 +44,7 @@ Determines whether the specified [AlphaCeiling](../../com.aspose.slides/alphacei
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | java.lang.Object | The [AlphaCeiling](../com.aspose.slides/alphaceiling) to compare. |
+| obj | java.lang.Object | The [AlphaCeiling](../../com.aspose.slides/alphaceiling) to compare. |
 
 **Returns:**
 boolean - true if objects are equal; otherwise, false.

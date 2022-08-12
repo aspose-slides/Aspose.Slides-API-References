@@ -51,9 +51,9 @@ Add new command to path
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| type | int | [MotionCommandPathType](../com.aspose.slides/motioncommandpathtype) |
+| type | int | [MotionCommandPathType](../../com.aspose.slides/motioncommandpathtype) |
 | pts | java.awt.geom.Point2D.Float[] | Array of points |
-| ptsType | int | [MotionPathPointsType](../com.aspose.slides/motionpathpointstype) |
+| ptsType | int | [MotionPathPointsType](../../com.aspose.slides/motionpathpointstype) |
 | bRelativeCoord | boolean | Relative coordinates boolean |
 
 **Returns:**
@@ -80,9 +80,9 @@ Insert new command to path
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | int | The zero-based index at which item should be inserted. |
-| type | int | [MotionCommandPathType](../com.aspose.slides/motioncommandpathtype) |
+| type | int | [MotionCommandPathType](../../com.aspose.slides/motioncommandpathtype) |
 | pts | java.awt.geom.Point2D.Float[] | Array of points |
-| ptsType | int | [MotionPathPointsType](../com.aspose.slides/motionpathpointstype) |
+| ptsType | int | [MotionPathPointsType](../../com.aspose.slides/motionpathpointstype) |
 | bRelativeCoord | boolean | Relative coordinates boolean |
 
 ### clear() {#clear--}
@@ -133,7 +133,7 @@ Returns a command at the specified index.
 | index | int | Index of element. |
 
 **Returns:**
-[IMotionCmdPath](../../com.aspose.slides/imotioncmdpath) - The [IMotionCmdPath](../com.aspose.slides/imotioncmdpath) object.
+[IMotionCmdPath](../../com.aspose.slides/imotioncmdpath) - The [IMotionCmdPath](../../com.aspose.slides/imotioncmdpath) object.
 ### iterator() {#iterator--}
 ```
 public final System.Collections.Generic.IGenericEnumerator<IMotionCmdPath> iterator()

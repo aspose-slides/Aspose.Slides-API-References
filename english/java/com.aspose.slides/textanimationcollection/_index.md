@@ -59,7 +59,7 @@ public final TextAnimation add()
 Adds new text animation to the collection.
 
 **Returns:**
-[TextAnimation](../../com.aspose.slides/textanimation) - Added [TextAnimation](../com.aspose.slides/textanimation)
+[TextAnimation](../../com.aspose.slides/textanimation) - Added [TextAnimation](../../com.aspose.slides/textanimation)
 ### get_Item(int index) {#get-Item-int-}
 ```
 public final ITextAnimation get_Item(int index)
@@ -86,10 +86,10 @@ Returns all elements
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| shape | [IShape](../../com.aspose.slides/ishape) | [IShape](../com.aspose.slides/ishape) to remove. |
+| shape | [IShape](../../com.aspose.slides/ishape) | [IShape](../../com.aspose.slides/ishape) to remove. |
 
 **Returns:**
-com.aspose.slides.ITextAnimation[] - Array of [ITextAnimation](../com.aspose.slides/itextanimation)
+com.aspose.slides.ITextAnimation[] - Array of [ITextAnimation](../../com.aspose.slides/itextanimation)
 ### iterator() {#iterator--}
 ```
 public final System.Collections.Generic.IGenericEnumerator<ITextAnimation> iterator()

@@ -25,7 +25,7 @@ public abstract IThemeEffectiveData createThemeEffective()
 Returns the theme object.
 
 **Returns:**
-[IThemeEffectiveData](../../com.aspose.slides/ithemeeffectivedata) - Theme object [IThemeEffectiveData](../com.aspose.slides/ithemeeffectivedata)
+[IThemeEffectiveData](../../com.aspose.slides/ithemeeffectivedata) - Theme object [IThemeEffectiveData](../../com.aspose.slides/ithemeeffectivedata)
 ### applyColorScheme(IExtraColorScheme scheme) {#applyColorScheme-com.aspose.slides.IExtraColorScheme-}
 ```
 public abstract void applyColorScheme(IExtraColorScheme scheme)
@@ -37,5 +37,5 @@ Applies extra color scheme to a slide.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| scheme | [IExtraColorScheme](../../com.aspose.slides/iextracolorscheme) | Extra color scheme [IExtraColorScheme](../com.aspose.slides/iextracolorscheme) |
+| scheme | [IExtraColorScheme](../../com.aspose.slides/iextracolorscheme) | Extra color scheme [IExtraColorScheme](../../com.aspose.slides/iextracolorscheme) |
 

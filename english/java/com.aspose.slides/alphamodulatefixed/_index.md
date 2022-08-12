@@ -57,7 +57,7 @@ public final IAlphaModulateFixedEffectiveData getEffective()
 Gets effective Alpha Modulate Fixed effect data with the inheritance applied.
 
 **Returns:**
-[IAlphaModulateFixedEffectiveData](../../com.aspose.slides/ialphamodulatefixedeffectivedata) - A [IAlphaModulateFixedEffectiveData](../com.aspose.slides/ialphamodulatefixedeffectivedata).
+[IAlphaModulateFixedEffectiveData](../../com.aspose.slides/ialphamodulatefixedeffectivedata) - A [IAlphaModulateFixedEffectiveData](../../com.aspose.slides/ialphamodulatefixedeffectivedata).
 ### equals(Object obj) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object obj)
@@ -69,7 +69,7 @@ Determines whether the specified [AlphaModulateFixed](../../com.aspose.slides/al
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| obj | java.lang.Object | The [AlphaModulateFixed](../com.aspose.slides/alphamodulatefixed) to compare. |
+| obj | java.lang.Object | The [AlphaModulateFixed](../../com.aspose.slides/alphamodulatefixed) to compare. |
 
 **Returns:**
 boolean - true if objects are equal; otherwise, false.
