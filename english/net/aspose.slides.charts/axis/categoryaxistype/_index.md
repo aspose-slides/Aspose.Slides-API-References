@@ -1,7 +1,7 @@
 ---
 title: CategoryAxisType
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Specifies the type of the category axis. Read/write CategoryAxisTypeaspose.slides.charts/categoryaxistype.
 type: docs
 weight: 110
 url: /net/aspose.slides.charts/axis/categoryaxistype/

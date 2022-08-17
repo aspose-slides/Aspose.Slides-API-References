@@ -1,7 +1,7 @@
 ---
 title: GetCustomPropertyName
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Return a custom property name at the specified index.
 type: docs
 weight: 310
 url: /net/aspose.slides/documentproperties/getcustompropertyname/

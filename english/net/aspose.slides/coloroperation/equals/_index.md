@@ -1,7 +1,7 @@
 ---
 title: Equals
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Determines whether the two ColorOperation instances are equal.
 type: docs
 weight: 40
 url: /net/aspose.slides/coloroperation/equals/

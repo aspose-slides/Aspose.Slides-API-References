@@ -1,7 +1,7 @@
 ---
 title: ThroughBlack
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Specifies whether the transition fades through black. Read/write Boolean.
 type: docs
 weight: 30
 url: /net/aspose.slides.slideshow/irevealtransition/throughblack/

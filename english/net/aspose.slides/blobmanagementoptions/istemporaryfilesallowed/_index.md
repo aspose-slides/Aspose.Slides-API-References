@@ -1,7 +1,7 @@
 ---
 title: IsTemporaryFilesAllowed
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Set that using of temporary files is not allowed to optimize memory consumption while working with large amounts of data during presentations lifetime. If false OutOfMemoryException can be thrown.
 type: docs
 weight: 20
 url: /net/aspose.slides/blobmanagementoptions/istemporaryfilesallowed/

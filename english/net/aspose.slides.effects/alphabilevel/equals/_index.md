@@ -1,7 +1,7 @@
 ---
 title: Equals
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Determines whether the specified AlphaBiLevelaspose.slides.effects/alphabilevel is equal to the current AlphaBiLevelaspose.slides.effects/alphabilevel.
 type: docs
 weight: 20
 url: /net/aspose.slides.effects/alphabilevel/equals/

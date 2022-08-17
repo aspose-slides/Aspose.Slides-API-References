@@ -1,9 +1,9 @@
 ---
 title: ZoomObject
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents an Zoom object in a slide.
 type: docs
-weight: 11060
+weight: 11110
 url: /net/aspose.slides/zoomobject/
 ---
 ## ZoomObject class

@@ -1,7 +1,7 @@
 ---
 title: RemoveAt
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Removes a command at the specified index.
 type: docs
 weight: 80
 url: /net/aspose.slides.animation/imotionpath/removeat/

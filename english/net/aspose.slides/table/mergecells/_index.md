@@ -1,7 +1,7 @@
 ---
 title: MergeCells
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Merges neighbour cells.
 type: docs
 weight: 130
 url: /net/aspose.slides/table/mergecells/

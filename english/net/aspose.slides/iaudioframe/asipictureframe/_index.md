@@ -1,7 +1,7 @@
 ---
 title: AsIPictureFrame
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Allows to get base IPictureFrame interface. Read-only IPictureFrameaspose.slides/ipictureframe.
 type: docs
 weight: 10
 url: /net/aspose.slides/iaudioframe/asipictureframe/

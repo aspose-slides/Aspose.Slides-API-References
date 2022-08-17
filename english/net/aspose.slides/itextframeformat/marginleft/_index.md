@@ -1,7 +1,7 @@
 ---
 title: MarginLeft
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets the left margin points in a TextFrame. Read/write Double.
 type: docs
 weight: 80
 url: /net/aspose.slides/itextframeformat/marginleft/

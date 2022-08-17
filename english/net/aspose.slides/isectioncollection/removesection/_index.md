@@ -1,7 +1,7 @@
 ---
 title: RemoveSection
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Remove section. Slides contained in the section will be merged into previous section.
 type: docs
 weight: 70
 url: /net/aspose.slides/isectioncollection/removesection/

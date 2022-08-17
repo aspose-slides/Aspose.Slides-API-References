@@ -1,12 +1,12 @@
 ---
 title: CreateMathBorderBox
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Create a math border box by applying to the element
 type: docs
 weight: 20
 url: /net/aspose.slides.mathtext/mathborderboxfactory/createmathborderbox/
 ---
-## MathBorderBoxFactory.CreateMathBorderBox method (1 of 2)
+## CreateMathBorderBox(IMathElement) {#createmathborderbox}
 
 Create a math border box by applying to the element
 
@@ -32,7 +32,7 @@ new border box element
 
 ---
 
-## MathBorderBoxFactory.CreateMathBorderBox method (2 of 2)
+## CreateMathBorderBox(IMathElement, bool, bool, bool, bool, bool, bool, bool, bool) {#createmathborderbox_1}
 
 Create a math border box by applying to the element
 

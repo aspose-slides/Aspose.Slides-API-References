@@ -1,7 +1,7 @@
 ---
 title: Equals
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Determines whether the specified Glowaspose.slides.effects/glow is equal to the current Glowaspose.slides.effects/glow.
 type: docs
 weight: 30
 url: /net/aspose.slides.effects/glow/equals/

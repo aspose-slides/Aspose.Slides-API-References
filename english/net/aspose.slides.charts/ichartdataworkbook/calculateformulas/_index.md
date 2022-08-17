@@ -1,7 +1,7 @@
 ---
 title: CalculateFormulas
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Calculates all formulas in the workbook and updates corresponding cells values.
 type: docs
 weight: 20
 url: /net/aspose.slides.charts/ichartdataworkbook/calculateformulas/

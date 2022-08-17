@@ -1,7 +1,7 @@
 ---
 title: Audio
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents an embedded audio file.
 type: docs
 weight: 750
 url: /net/aspose.slides/audio/

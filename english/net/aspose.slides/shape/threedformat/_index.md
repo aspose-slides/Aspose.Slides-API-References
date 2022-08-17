@@ -1,7 +1,7 @@
 ---
 title: ThreeDFormat
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the ThreeDFormat object that 3d effect properties for a shape. Note can return null for certain types of shapes which dont have 3d properties. Read-only IThreeDFormataspose.slides/ithreedformat.
 type: docs
 weight: 260
 url: /net/aspose.slides/shape/threedformat/

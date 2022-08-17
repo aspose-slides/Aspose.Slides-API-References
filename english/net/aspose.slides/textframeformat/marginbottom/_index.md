@@ -1,7 +1,7 @@
 ---
 title: MarginBottom
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets the bottom margin points in a TextFrame. Read/write Double.
 type: docs
 weight: 80
 url: /net/aspose.slides/textframeformat/marginbottom/

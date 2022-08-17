@@ -1,7 +1,7 @@
 ---
 title: FillFormat
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns a table fill properties object. Read-only IFillFormataspose.slides/ifillformat.
 type: docs
 weight: 10
 url: /net/aspose.slides/itableformat/fillformat/

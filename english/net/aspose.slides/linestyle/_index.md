@@ -1,9 +1,9 @@
 ---
 title: LineStyle
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents the style of a line.
 type: docs
-weight: 7120
+weight: 7140
 url: /net/aspose.slides/linestyle/
 ---
 ## LineStyle enumeration

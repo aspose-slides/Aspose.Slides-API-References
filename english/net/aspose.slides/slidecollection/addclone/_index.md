@@ -1,12 +1,12 @@
 ---
 title: AddClone
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Adds a copy of a specified slide to the end of the collection.
 type: docs
 weight: 50
 url: /net/aspose.slides/slidecollection/addclone/
 ---
-## SlideCollection.AddClone method (1 of 4)
+## AddClone(ISlide) {#addclone}
 
 Adds a copy of a specified slide to the end of the collection.
 
@@ -35,7 +35,7 @@ When cloning a slide between different presentations slide's master can be clone
 
 ---
 
-## SlideCollection.AddClone method (2 of 4)
+## AddClone(ISlide, ISection) {#addclone_3}
 
 Adds a copy of a specified slide to the end of the specified section.
 
@@ -85,7 +85,7 @@ using (IPresentation presentation = new Presentation())
 
 ---
 
-## SlideCollection.AddClone method (3 of 4)
+## AddClone(ISlide, ILayoutSlide) {#addclone_1}
 
 Adds a copy of a specified slide to the end of the collection.
 
@@ -112,7 +112,7 @@ New slide.
 
 ---
 
-## SlideCollection.AddClone method (4 of 4)
+## AddClone(ISlide, IMasterSlide, bool) {#addclone_2}
 
 Adds a copy of a specified source slide to the end of the collection. Appropriate layout will be selected automatically from the specified master (appropriate layout is the layout with the same Type or Name as of layout of the source slide). If there is no appropriate layout then layout of the source slide will be cloned (if allowCloneMissingLayout is true) or PptxEditException will be thrown (if allowCloneMissingLayout is false).
 

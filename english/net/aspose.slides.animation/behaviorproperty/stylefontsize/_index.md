@@ -1,7 +1,7 @@
 ---
 title: StyleFontSize
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents style.fontSize property
 type: docs
 weight: 1070
 url: /net/aspose.slides.animation/behaviorproperty/stylefontsize/

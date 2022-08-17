@@ -1,7 +1,7 @@
 ---
 title: Right
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Right. Read-only Single.
 type: docs
 weight: 60
 url: /net/aspose.slides.charts/charttitle/right/

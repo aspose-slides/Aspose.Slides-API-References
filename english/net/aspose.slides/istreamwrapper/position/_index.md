@@ -1,7 +1,7 @@
 ---
 title: Position
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Gets the position within the current stream. Read-only Int64.
 type: docs
 weight: 60
 url: /net/aspose.slides/istreamwrapper/position/

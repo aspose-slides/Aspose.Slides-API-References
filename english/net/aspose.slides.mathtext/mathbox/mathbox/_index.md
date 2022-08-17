@@ -1,7 +1,7 @@
 ---
 title: MathBox
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Initializes MathBox with the specified element as an argument
 type: docs
 weight: 10
 url: /net/aspose.slides.mathtext/mathbox/mathbox/

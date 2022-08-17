@@ -1,9 +1,9 @@
 ---
 title: EffectFactory
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Allows to create effects
 type: docs
-weight: 2790
+weight: 2810
 url: /net/aspose.slides.effects/effectfactory/
 ---
 ## EffectFactory class

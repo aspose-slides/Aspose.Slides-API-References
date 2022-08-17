@@ -1,9 +1,9 @@
 ---
 title: MathAccent
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Specifies the accent function consisting of a base and a combining diacritical mark Example ́
 type: docs
-weight: 7810
+weight: 7830
 url: /net/aspose.slides.mathtext/mathaccent/
 ---
 ## MathAccent class
@@ -18,8 +18,8 @@ public sealed class MathAccent : MathElementBase, IMathAccent
 
 | Name | Description |
 | --- | --- |
-| [MathAccent](mathaccent)(IMathElement) | Creates a math accent applying to a specified math element with the default accent character value |
-| [MathAccent](mathaccent)(IMathElement, char) | Creates a math accent applying to a specified math element |
+| [MathAccent](mathaccent#constructor)(IMathElement) | Creates a math accent applying to a specified math element with the default accent character value |
+| [MathAccent](mathaccent#constructor_1)(IMathElement, char) | Creates a math accent applying to a specified math element |
 
 ## Properties
 

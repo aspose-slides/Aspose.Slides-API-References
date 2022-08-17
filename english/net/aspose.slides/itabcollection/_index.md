@@ -1,9 +1,9 @@
 ---
 title: ITabCollection
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents a collection of tabs.
 type: docs
-weight: 6620
+weight: 6640
 url: /net/aspose.slides/itabcollection/
 ---
 ## ITabCollection interface
@@ -24,8 +24,8 @@ public interface ITabCollection : IGenericCollection<ITab>
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.slides/itabcollection/add)(ITab) | Adds a Tab to the collection. |
-| [Add](../../aspose.slides/itabcollection/add)(double, TabAlignment) | Adds a Tab to the collection. |
+| [Add](../../aspose.slides/itabcollection/add#add_1)(ITab) | Adds a Tab to the collection. |
+| [Add](../../aspose.slides/itabcollection/add#add)(double, TabAlignment) | Adds a Tab to the collection. |
 | [Clear](../../aspose.slides/itabcollection/clear)() | Removes all elements from the collection. |
 | [RemoveAt](../../aspose.slides/itabcollection/removeat)(int) | Removes the element at the specified index of the collection. |
 

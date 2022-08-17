@@ -1,9 +1,9 @@
 ---
 title: ILicense
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Provides methods to license the component.
 type: docs
-weight: 5700
+weight: 5720
 url: /net/aspose.slides/ilicense/
 ---
 ## ILicense interface
@@ -19,8 +19,8 @@ public interface ILicense
 | Name | Description |
 | --- | --- |
 | [ResetLicense](../../aspose.slides/ilicense/resetlicense)() | Reset the license |
-| [SetLicense](../../aspose.slides/ilicense/setlicense)(Stream) | Licenses the component. |
-| [SetLicense](../../aspose.slides/ilicense/setlicense)(string) | Licenses the component. |
+| [SetLicense](../../aspose.slides/ilicense/setlicense#setlicense)(Stream) | Licenses the component. |
+| [SetLicense](../../aspose.slides/ilicense/setlicense#setlicense_1)(string) | Licenses the component. |
 
 ### Examples
 

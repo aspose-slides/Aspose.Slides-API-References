@@ -1,7 +1,7 @@
 ---
 title: Item
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns an element at specified position. Read-only EffectStyleaspose.slides.theme/effectstyle.
 type: docs
 weight: 30
 url: /net/aspose.slides.theme/effectstylecollection/item/

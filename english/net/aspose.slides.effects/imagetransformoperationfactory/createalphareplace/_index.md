@@ -1,7 +1,7 @@
 ---
 title: CreateAlphaReplace
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates Alpha replace effect.
 type: docs
 weight: 70
 url: /net/aspose.slides.effects/imagetransformoperationfactory/createalphareplace/

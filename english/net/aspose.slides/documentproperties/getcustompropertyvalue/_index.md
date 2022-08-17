@@ -1,12 +1,12 @@
 ---
 title: GetCustomPropertyValue
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Gets a named boolean value from the custom properties.
 type: docs
 weight: 320
 url: /net/aspose.slides/documentproperties/getcustompropertyvalue/
 ---
-## DocumentProperties.GetCustomPropertyValue method (1 of 6)
+## GetCustomPropertyValue(string, out bool) {#getcustompropertyvalue}
 
 Gets a named boolean value from the custom properties.
 
@@ -27,7 +27,7 @@ public void GetCustomPropertyValue(string name, out bool value)
 
 ---
 
-## DocumentProperties.GetCustomPropertyValue method (2 of 6)
+## GetCustomPropertyValue(string, out int) {#getcustompropertyvalue_2}
 
 Gets a named integer value from the custom properties.
 
@@ -48,7 +48,7 @@ public void GetCustomPropertyValue(string name, out int value)
 
 ---
 
-## DocumentProperties.GetCustomPropertyValue method (3 of 6)
+## GetCustomPropertyValue(string, out DateTime) {#getcustompropertyvalue_4}
 
 Gets a named DateTime value from the custom properties.
 
@@ -69,7 +69,7 @@ public void GetCustomPropertyValue(string name, out DateTime value)
 
 ---
 
-## DocumentProperties.GetCustomPropertyValue method (4 of 6)
+## GetCustomPropertyValue(string, out string) {#getcustompropertyvalue_5}
 
 Gets a named string value from the custom properties.
 
@@ -90,7 +90,7 @@ public void GetCustomPropertyValue(string name, out string value)
 
 ---
 
-## DocumentProperties.GetCustomPropertyValue method (5 of 6)
+## GetCustomPropertyValue(string, out float) {#getcustompropertyvalue_3}
 
 Gets a named float value from the custom properties.
 
@@ -111,7 +111,7 @@ public void GetCustomPropertyValue(string name, out float value)
 
 ---
 
-## DocumentProperties.GetCustomPropertyValue method (6 of 6)
+## GetCustomPropertyValue(string, out double) {#getcustompropertyvalue_1}
 
 Gets a named double value from the custom properties.
 

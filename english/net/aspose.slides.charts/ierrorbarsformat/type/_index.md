@@ -1,7 +1,7 @@
 ---
 title: Type
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Gets or sets type of error bars. Read/write ErrorBarTypeaspose.slides.charts/errorbartype.
 type: docs
 weight: 50
 url: /net/aspose.slides.charts/ierrorbarsformat/type/

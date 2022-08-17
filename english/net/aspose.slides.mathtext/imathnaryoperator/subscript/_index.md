@@ -1,7 +1,7 @@
 ---
 title: Subscript
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Specifies a subscript argument that for example in the case of an integral sets the lower limit
 type: docs
 weight: 40
 url: /net/aspose.slides.mathtext/imathnaryoperator/subscript/

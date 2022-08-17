@@ -1,7 +1,7 @@
 ---
 title: Encrypt
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Encrypts Presentation with specified password.
 type: docs
 weight: 80
 url: /net/aspose.slides/protectionmanager/encrypt/

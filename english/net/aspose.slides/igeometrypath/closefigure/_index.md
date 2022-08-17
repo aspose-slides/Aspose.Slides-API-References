@@ -1,7 +1,7 @@
 ---
 title: CloseFigure
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Closes the current figure of this path
 type: docs
 weight: 50
 url: /net/aspose.slides/igeometrypath/closefigure/

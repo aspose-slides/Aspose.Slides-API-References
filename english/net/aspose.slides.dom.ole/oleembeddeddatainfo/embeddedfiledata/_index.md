@@ -1,7 +1,7 @@
 ---
 title: EmbeddedFileData
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the file data of an embedded OLE object Read only Byte.
 type: docs
 weight: 20
 url: /net/aspose.slides.dom.ole/oleembeddeddatainfo/embeddedfiledata/

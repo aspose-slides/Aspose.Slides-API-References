@@ -1,7 +1,7 @@
 ---
 title: NumberFormatOfValues
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets the number format for series values. Read/write String.
 type: docs
 weight: 230
 url: /net/aspose.slides.charts/ichartseries/numberformatofvalues/

@@ -1,9 +1,9 @@
 ---
 title: Legend
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents charts legend properties.
 type: docs
-weight: 2140
+weight: 2160
 url: /net/aspose.slides.charts/legend/
 ---
 ## Legend class

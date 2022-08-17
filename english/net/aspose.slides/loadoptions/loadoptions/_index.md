@@ -1,12 +1,12 @@
 ---
 title: LoadOptions
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates new default load options.
 type: docs
 weight: 10
 url: /net/aspose.slides/loadoptions/loadoptions/
 ---
-## LoadOptions constructor (1 of 2)
+## LoadOptions() {#constructor}
 
 Creates new default load options.
 
@@ -22,7 +22,7 @@ public LoadOptions()
 
 ---
 
-## LoadOptions constructor (2 of 2)
+## LoadOptions(LoadFormat) {#constructor_1}
 
 Creates new load options.
 

@@ -1,7 +1,7 @@
 ---
 title: FillFormat
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns fill format effective value. Read-only IFillFormatEffectiveDataaspose.slides/ifillformateffectivedata.
 type: docs
 weight: 70
 url: /net/aspose.slides/ibasetableformateffectivedata/fillformat/

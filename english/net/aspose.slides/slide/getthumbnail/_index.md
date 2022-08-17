@@ -1,12 +1,12 @@
 ---
 title: GetThumbnail
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns a Thumbnail Bitmap object with custom scaling.
 type: docs
 weight: 90
 url: /net/aspose.slides/slide/getthumbnail/
 ---
-## Slide.GetThumbnail method (1 of 7)
+## GetThumbnail(float, float) {#getthumbnail_8}
 
 Returns a Thumbnail Bitmap object with custom scaling.
 
@@ -31,7 +31,7 @@ Bitmap object.
 
 ---
 
-## Slide.GetThumbnail method (2 of 7)
+## GetThumbnail() {#getthumbnail}
 
 Returns a Thumbnail Image object (20% of real size).
 
@@ -47,7 +47,7 @@ public Bitmap GetThumbnail()
 
 ---
 
-## Slide.GetThumbnail method (3 of 7)
+## GetThumbnail(Size) {#getthumbnail_9}
 
 Returns a Thumbnail Bitmap object with specified size.
 
@@ -71,7 +71,7 @@ Bitmap object.
 
 ---
 
-## Slide.GetThumbnail method (4 of 7)
+## GetThumbnail(ITiffOptions) {#getthumbnail_7}
 
 Returns a Thumbnail tiff bitmap object with specified parameters.
 
@@ -102,7 +102,7 @@ Bitmap object.
 
 ---
 
-## Slide.GetThumbnail method (5 of 7)
+## GetThumbnail(IRenderingOptions) {#getthumbnail_4}
 
 Returns a Thumbnail Bitmap object.
 
@@ -133,7 +133,7 @@ Bitmap objects.
 
 ---
 
-## Slide.GetThumbnail method (6 of 7)
+## GetThumbnail(IRenderingOptions, float, float) {#getthumbnail_5}
 
 Returns a Thumbnail Bitmap object with custom scaling.
 
@@ -166,7 +166,7 @@ Bitmap objects.
 
 ---
 
-## Slide.GetThumbnail method (7 of 7)
+## GetThumbnail(IRenderingOptions, Size) {#getthumbnail_6}
 
 Returns a Thumbnail Bitmap object with specified size.
 

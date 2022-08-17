@@ -1,7 +1,7 @@
 ---
 title: From
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Specifies the starting value of the animation. Read/write String.
 type: docs
 weight: 40
 url: /net/aspose.slides.animation/propertyeffect/from/

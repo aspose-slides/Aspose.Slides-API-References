@@ -1,7 +1,7 @@
 ---
 title: AnimateShapes
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets shapes animation option. Read/write Boolean.
 type: docs
 weight: 20
 url: /net/aspose.slides.export/html5options/animateshapes/

@@ -1,9 +1,9 @@
 ---
 title: SlideSizeScaleType
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents the scale type of slide content.
 type: docs
-weight: 9710
+weight: 9750
 url: /net/aspose.slides/slidesizescaletype/
 ---
 ## SlideSizeScaleType enumeration

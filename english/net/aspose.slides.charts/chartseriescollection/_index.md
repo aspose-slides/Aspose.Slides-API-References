@@ -1,9 +1,9 @@
 ---
 title: ChartSeriesCollection
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents collection of ChartSeries./chartseries
 type: docs
-weight: 1310
+weight: 1330
 url: /net/aspose.slides.charts/chartseriescollection/
 ---
 ## ChartSeriesCollection class
@@ -27,10 +27,10 @@ public class ChartSeriesCollection : DomObject<ChartData>, IChartSeriesCollectio
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.slides.charts/chartseriescollection/add)(ChartType) | Creates new chart series and adds it to the collection. |
-| [Add](../../aspose.slides.charts/chartseriescollection/add)(IChartCellCollection, ChartType) | Creates new chart series from [`ChartCellCollection`](../chartcellcollection) and adds it to the collection. |
-| [Add](../../aspose.slides.charts/chartseriescollection/add)(IChartDataCell, ChartType) | Creates new chart series from [`ChartDataCell`](../chartdatacell) and adds it to the collection. |
-| [Add](../../aspose.slides.charts/chartseriescollection/add)(string, ChartType) | Creates new chart series from value and adds it to the collection. |
+| [Add](../../aspose.slides.charts/chartseriescollection/add#add)(ChartType) | Creates new chart series and adds it to the collection. |
+| [Add](../../aspose.slides.charts/chartseriescollection/add#add_1)(IChartCellCollection, ChartType) | Creates new chart series from [`ChartCellCollection`](../chartcellcollection) and adds it to the collection. |
+| [Add](../../aspose.slides.charts/chartseriescollection/add#add_2)(IChartDataCell, ChartType) | Creates new chart series from [`ChartDataCell`](../chartdatacell) and adds it to the collection. |
+| [Add](../../aspose.slides.charts/chartseriescollection/add#add_3)(string, ChartType) | Creates new chart series from value and adds it to the collection. |
 | [Clear](../../aspose.slides.charts/chartseriescollection/clear)() | Removes all controls from the collection. |
 | [CopyTo](../../aspose.slides.charts/chartseriescollection/copyto)(Array, int) | Copies the entire collection to the specified array. |
 | [GetEnumerator](../../aspose.slides.charts/chartseriescollection/getenumerator)() | Returns an enumerator that iterates through the collection. |

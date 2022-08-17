@@ -1,7 +1,7 @@
 ---
 title: DefaultDelay
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Gets or sets default delay time ms. This value will be used if AdvanceAfterTimeaspose.slides/islideshowtransition/advanceaftertime is not set. The default value is 1000.
 type: docs
 weight: 20
 url: /net/aspose.slides.export/gifoptions/defaultdelay/

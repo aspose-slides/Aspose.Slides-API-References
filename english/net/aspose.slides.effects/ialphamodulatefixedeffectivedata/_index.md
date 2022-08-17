@@ -1,9 +1,9 @@
 ---
 title: IAlphaModulateFixedEffectiveData
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Immutable object which represents an Alpha Modulate Fixed effect. Effect alpha opacity values are multiplied by a fixed percentage.
 type: docs
-weight: 2950
+weight: 2970
 url: /net/aspose.slides.effects/ialphamodulatefixedeffectivedata/
 ---
 ## IAlphaModulateFixedEffectiveData interface

@@ -1,12 +1,12 @@
 ---
 title: AddOleObjectFrame
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Adds a new OLE object to the end of a collection.
 type: docs
 weight: 120
 url: /net/aspose.slides/ishapecollection/addoleobjectframe/
 ---
-## IShapeCollection.AddOleObjectFrame method (1 of 2)
+## AddOleObjectFrame(float, float, float, float, IOleEmbeddedDataInfo) {#addoleobjectframe}
 
 Adds a new OLE object to the end of a collection.
 
@@ -37,7 +37,7 @@ Created OLE object.
 
 ---
 
-## IShapeCollection.AddOleObjectFrame method (2 of 2)
+## AddOleObjectFrame(float, float, float, float, string, string) {#addoleobjectframe_1}
 
 Adds a new OLE object to the end of a collection.
 

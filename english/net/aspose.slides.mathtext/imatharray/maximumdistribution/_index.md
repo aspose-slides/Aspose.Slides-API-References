@@ -1,7 +1,7 @@
 ---
 title: MaximumDistribution
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Maximum Distribution When true the array is spaced to the maximum width of the containing elementpage column cell etc..
 type: docs
 weight: 40
 url: /net/aspose.slides.mathtext/imatharray/maximumdistribution/

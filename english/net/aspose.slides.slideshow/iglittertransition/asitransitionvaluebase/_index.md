@@ -1,7 +1,7 @@
 ---
 title: AsITransitionValueBase
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Allows to get base ITransitionValueBase interface. Read-only ITransitionValueBaseaspose.slides.slideshow/itransitionvaluebase.
 type: docs
 weight: 10
 url: /net/aspose.slides.slideshow/iglittertransition/asitransitionvaluebase/

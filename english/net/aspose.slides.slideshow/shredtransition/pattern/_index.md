@@ -1,7 +1,7 @@
 ---
 title: Pattern
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Specifies the shape of the visuals used during the transition. Read/write TransitionShredPatternaspose.slides.slideshow/transitionshredpattern.
 type: docs
 weight: 20
 url: /net/aspose.slides.slideshow/shredtransition/pattern/

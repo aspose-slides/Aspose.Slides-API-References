@@ -1,7 +1,7 @@
 ---
 title: Light1
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: First light color in the scheme. Read-only IColorFormataspose.slides/icolorformat.
 type: docs
 weight: 120
 url: /net/aspose.slides.theme/colorscheme/light1/

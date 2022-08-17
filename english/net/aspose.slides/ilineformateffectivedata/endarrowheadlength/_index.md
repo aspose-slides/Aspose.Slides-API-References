@@ -1,7 +1,7 @@
 ---
 title: EndArrowheadLength
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the arrowhead length at the end of a line. Read-only LineArrowheadLengthaspose.slides/linearrowheadlength.
 type: docs
 weight: 90
 url: /net/aspose.slides/ilineformateffectivedata/endarrowheadlength/

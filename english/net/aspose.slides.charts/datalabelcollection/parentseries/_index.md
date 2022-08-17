@@ -1,7 +1,7 @@
 ---
 title: ParentSeries
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Gets the parent series. Read-only IChartSeriesaspose.slides.charts/ichartseries.
 type: docs
 weight: 70
 url: /net/aspose.slides.charts/datalabelcollection/parentseries/

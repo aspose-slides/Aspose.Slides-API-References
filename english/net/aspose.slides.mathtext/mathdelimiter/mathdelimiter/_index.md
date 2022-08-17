@@ -1,7 +1,7 @@
 ---
 title: MathDelimiter
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Initializes MathDelimiter with the specified element as single base argument
 type: docs
 weight: 10
 url: /net/aspose.slides.mathtext/mathdelimiter/mathdelimiter/

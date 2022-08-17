@@ -1,7 +1,7 @@
 ---
 title: SetFooterVisibility
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Changes slide footer placeholder visibility.
 type: docs
 weight: 80
 url: /net/aspose.slides/ibaseslideheaderfootermanager/setfootervisibility/

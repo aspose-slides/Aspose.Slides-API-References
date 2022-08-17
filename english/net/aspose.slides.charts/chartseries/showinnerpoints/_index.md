@@ -1,7 +1,7 @@
 ---
 title: ShowInnerPoints
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents inner points. True if inner points are shown on the BoxAndWhisker chart. Applies only to BoxAndWhisker charts. Read/write Boolean.
 type: docs
 weight: 380
 url: /net/aspose.slides.charts/chartseries/showinnerpoints/

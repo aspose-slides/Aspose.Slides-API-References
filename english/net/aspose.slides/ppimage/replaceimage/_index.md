@@ -1,12 +1,12 @@
 ---
 title: ReplaceImage
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Replaces image data. The new images data.When newImageData parameter is null.
 type: docs
 weight: 110
 url: /net/aspose.slides/ppimage/replaceimage/
 ---
-## PPImage.ReplaceImage method (1 of 3)
+## ReplaceImage(byte[]) {#replaceimage_1}
 
 Replaces image data. The new image's data.When newImageData parameter is null.
 
@@ -22,7 +22,7 @@ public void ReplaceImage(byte[] newImageData)
 
 ---
 
-## PPImage.ReplaceImage method (2 of 3)
+## ReplaceImage(Image) {#replaceimage_2}
 
 Replaces image data. Attention: when Image is metafile - it will be rasterized due to restrictions of GDI+. Use ReplaceImage(byte[]) instead The new image.When newImage parameter is null.
 
@@ -38,7 +38,7 @@ public void ReplaceImage(Image newImage)
 
 ---
 
-## PPImage.ReplaceImage method (3 of 3)
+## ReplaceImage(IPPImage) {#replaceimage}
 
 Replaces image data. The new IPPImage.When newImage parameter is null.
 

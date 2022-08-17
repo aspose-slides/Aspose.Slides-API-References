@@ -1,7 +1,7 @@
 ---
 title: Password
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Gets or sets the password. Read/write String.
 type: docs
 weight: 100
 url: /net/aspose.slides/loadoptions/password/

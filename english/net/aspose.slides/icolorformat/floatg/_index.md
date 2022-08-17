@@ -1,7 +1,7 @@
 ---
 title: FloatG
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets the green component of a color. All color transformations are ignored. Read/write Single.
 type: docs
 weight: 70
 url: /net/aspose.slides/icolorformat/floatg/

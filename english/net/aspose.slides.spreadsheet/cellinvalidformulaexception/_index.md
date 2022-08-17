@@ -1,9 +1,9 @@
 ---
 title: CellInvalidFormulaException
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: The exception that is thrown when a calculated formula is not correct or was not parsed.
 type: docs
-weight: 9900
+weight: 9950
 url: /net/aspose.slides.spreadsheet/cellinvalidformulaexception/
 ---
 ## CellInvalidFormulaException class
@@ -18,10 +18,10 @@ public class CellInvalidFormulaException : PptxEditException
 
 | Name | Description |
 | --- | --- |
-| [CellInvalidFormulaException](cellinvalidformulaexception)() | Initializes a new instance of the [`CellInvalidFormulaException`](../cellinvalidformulaexception) class. |
-| [CellInvalidFormulaException](cellinvalidformulaexception)(string) | Initializes a new instance of the [`CellInvalidFormulaException`](../cellinvalidformulaexception) class with a specified error message. |
-| [CellInvalidFormulaException](cellinvalidformulaexception)(string, Exception) | Initializes a new instance of the [`CellInvalidFormulaException`](../cellinvalidformulaexception) class with a specified error message and a reference to the inner exception that is the cause of this exception. |
-| [CellInvalidFormulaException](cellinvalidformulaexception)(string, string) | Initializes a new instance of the [`CellInvalidFormulaException`](../cellinvalidformulaexception) class with a specified error message and a cell reference that contains the invalid formula. |
+| [CellInvalidFormulaException](cellinvalidformulaexception#constructor)() | Initializes a new instance of the [`CellInvalidFormulaException`](../cellinvalidformulaexception) class. |
+| [CellInvalidFormulaException](cellinvalidformulaexception#constructor_1)(string) | Initializes a new instance of the [`CellInvalidFormulaException`](../cellinvalidformulaexception) class with a specified error message. |
+| [CellInvalidFormulaException](cellinvalidformulaexception#constructor_2)(string, Exception) | Initializes a new instance of the [`CellInvalidFormulaException`](../cellinvalidformulaexception) class with a specified error message and a reference to the inner exception that is the cause of this exception. |
+| [CellInvalidFormulaException](cellinvalidformulaexception#constructor_3)(string, string) | Initializes a new instance of the [`CellInvalidFormulaException`](../cellinvalidformulaexception) class with a specified error message and a cell reference that contains the invalid formula. |
 
 ## Properties
 

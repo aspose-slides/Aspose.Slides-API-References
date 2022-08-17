@@ -1,9 +1,9 @@
 ---
 title: SvgImage
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents an SVG image.
 type: docs
-weight: 9990
+weight: 10040
 url: /net/aspose.slides/svgimage/
 ---
 ## SvgImage class
@@ -18,12 +18,12 @@ public class SvgImage : ISvgImage
 
 | Name | Description |
 | --- | --- |
-| [SvgImage](svgimage)(byte[]) | Creates new SvgImage object. |
-| [SvgImage](svgimage)(Stream) | Creates new SvgImage object. |
-| [SvgImage](svgimage)(string) | Creates new SvgImage object. |
-| [SvgImage](svgimage)(byte[], IExternalResourceResolver, string) | Creates new SvgImage object. |
-| [SvgImage](svgimage)(Stream, IExternalResourceResolver, string) | Creates new SvgImage object. |
-| [SvgImage](svgimage)(string, IExternalResourceResolver, string) | Creates new SvgImage object. |
+| [SvgImage](svgimage#constructor)(byte[]) | Creates new SvgImage object. |
+| [SvgImage](svgimage#constructor_2)(Stream) | Creates new SvgImage object. |
+| [SvgImage](svgimage#constructor_4)(string) | Creates new SvgImage object. |
+| [SvgImage](svgimage#constructor_1)(byte[], IExternalResourceResolver, string) | Creates new SvgImage object. |
+| [SvgImage](svgimage#constructor_3)(Stream, IExternalResourceResolver, string) | Creates new SvgImage object. |
+| [SvgImage](svgimage#constructor_5)(string, IExternalResourceResolver, string) | Creates new SvgImage object. |
 
 ## Properties
 

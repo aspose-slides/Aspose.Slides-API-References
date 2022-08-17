@@ -1,9 +1,9 @@
 ---
 title: IAudioCollection
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents a collection of embedded audio files.
 type: docs
-weight: 4740
+weight: 4760
 url: /net/aspose.slides/iaudiocollection/
 ---
 ## IAudioCollection interface
@@ -24,9 +24,9 @@ public interface IAudioCollection : IGenericCollection<IAudio>
 
 | Name | Description |
 | --- | --- |
-| [AddAudio](../../aspose.slides/iaudiocollection/addaudio)(byte[]) | Creates and adds a audio to a presentation from byte array. |
-| [AddAudio](../../aspose.slides/iaudiocollection/addaudio)(IAudio) | Adds a copy of an audio file from an another presentation. |
-| [AddAudio](../../aspose.slides/iaudiocollection/addaudio)(Stream, LoadingStreamBehavior) | Creates and adds a audio to a presentation from stream. |
+| [AddAudio](../../aspose.slides/iaudiocollection/addaudio#addaudio_1)(byte[]) | Creates and adds a audio to a presentation from byte array. |
+| [AddAudio](../../aspose.slides/iaudiocollection/addaudio#addaudio)(IAudio) | Adds a copy of an audio file from an another presentation. |
+| [AddAudio](../../aspose.slides/iaudiocollection/addaudio#addaudio_3)(Stream, LoadingStreamBehavior) | Creates and adds a audio to a presentation from stream. |
 
 ### See Also
 

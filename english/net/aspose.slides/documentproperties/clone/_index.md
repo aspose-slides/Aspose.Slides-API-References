@@ -1,7 +1,7 @@
 ---
 title: Clone
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Clones current object
 type: docs
 weight: 280
 url: /net/aspose.slides/documentproperties/clone/

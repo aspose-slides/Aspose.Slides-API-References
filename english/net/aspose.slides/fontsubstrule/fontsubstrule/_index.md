@@ -1,12 +1,12 @@
 ---
 title: FontSubstRule
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates new instance.
 type: docs
 weight: 10
 url: /net/aspose.slides/fontsubstrule/fontsubstrule/
 ---
-## FontSubstRule constructor (1 of 2)
+## FontSubstRule(IFontData, IFontData) {#constructor}
 
 Creates new instance.
 
@@ -28,7 +28,7 @@ public FontSubstRule(IFontData sourceFont, IFontData destFont)
 
 ---
 
-## FontSubstRule constructor (2 of 2)
+## FontSubstRule(IFontData, IFontData, FontSubstCondition) {#constructor_1}
 
 Creates new instance.
 

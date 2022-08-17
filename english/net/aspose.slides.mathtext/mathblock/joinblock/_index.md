@@ -1,7 +1,7 @@
 ---
 title: JoinBlock
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Joins another mathematical block with this one
 type: docs
 weight: 150
 url: /net/aspose.slides.mathtext/mathblock/joinblock/

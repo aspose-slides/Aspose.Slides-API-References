@@ -1,7 +1,7 @@
 ---
 title: BinaryData
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the copy of an audios data. In case of large amount of data consider using of GetStreamaspose.slides/video/getstream method to prevent unnecessary loading of videos data into memory or even OutOfMemoryException. Read-only Byte.
 type: docs
 weight: 10
 url: /net/aspose.slides/video/binarydata/

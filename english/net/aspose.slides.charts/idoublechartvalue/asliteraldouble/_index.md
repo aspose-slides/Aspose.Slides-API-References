@@ -1,7 +1,7 @@
 ---
 title: AsLiteralDouble
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets literal double value if DataSourceType  Charts.DataSourceType.DoubleLiterals. Read/write Double.
 type: docs
 weight: 20
 url: /net/aspose.slides.charts/idoublechartvalue/asliteraldouble/

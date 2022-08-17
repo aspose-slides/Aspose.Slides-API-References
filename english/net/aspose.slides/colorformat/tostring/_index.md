@@ -1,7 +1,7 @@
 ---
 title: ToString
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns a String that represents the current color format.
 type: docs
 weight: 190
 url: /net/aspose.slides/colorformat/tostring/

@@ -1,7 +1,7 @@
 ---
 title: Item
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns a point at the specified index.
 type: docs
 weight: 30
 url: /net/aspose.slides.animation/pointcollection/item/

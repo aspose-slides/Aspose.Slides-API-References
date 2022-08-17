@@ -1,7 +1,7 @@
 ---
 title: Add
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Adds a new layout slide to the presentation.
 type: docs
 weight: 10
 url: /net/aspose.slides/globallayoutslidecollection/add/

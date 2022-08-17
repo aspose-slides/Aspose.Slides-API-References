@@ -1,12 +1,12 @@
 ---
 title: AddAttributeValue
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Quotes attribute value and adds it to the html file.
 type: docs
 weight: 70
 url: /net/aspose.slides.export/htmlgenerator/addattributevalue/
 ---
-## HtmlGenerator.AddAttributeValue method (1 of 3)
+## AddAttributeValue(string) {#addattributevalue_2}
 
 Quotes attribute value and adds it to the html file.
 
@@ -26,7 +26,7 @@ public void AddAttributeValue(string value)
 
 ---
 
-## HtmlGenerator.AddAttributeValue method (2 of 3)
+## AddAttributeValue(char[]) {#addattributevalue}
 
 Quotes attribute value and adds it to the html file.
 
@@ -46,7 +46,7 @@ public void AddAttributeValue(char[] value)
 
 ---
 
-## HtmlGenerator.AddAttributeValue method (3 of 3)
+## AddAttributeValue(char[], int, int) {#addattributevalue_1}
 
 Quotes attribute value and adds it to the html file.
 

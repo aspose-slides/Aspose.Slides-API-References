@@ -1,7 +1,7 @@
 ---
 title: GapWidth
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: GapWidth. Read/write Int32.
 type: docs
 weight: 20
 url: /net/aspose.slides.charts/updownbarsmanager/gapwidth/

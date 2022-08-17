@@ -1,7 +1,7 @@
 ---
 title: ClassId
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Gets class id of this control. Read-only Guid.
 type: docs
 weight: 20
 url: /net/aspose.slides/control/classid/

@@ -1,7 +1,7 @@
 ---
 title: GifOptions
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Initializes a new instance of the GifOptions class.
 type: docs
 weight: 10
 url: /net/aspose.slides.export/gifoptions/gifoptions/

@@ -1,7 +1,7 @@
 ---
 title: RowGapRule
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: The type of vertical spacing between rows of a matrix Vertical spacing units can be lines or points stored as twips. Default SingleSpacingGap 0
 type: docs
 weight: 110
 url: /net/aspose.slides.mathtext/imathmatrix/rowgaprule/

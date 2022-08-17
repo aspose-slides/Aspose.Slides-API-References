@@ -1,7 +1,7 @@
 ---
 title: LoadFormat
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Gets format of the binded presentation. Read-only LoadFormataspose.slides/loadformat.
 type: docs
 weight: 40
 url: /net/aspose.slides/presentationinfo/loadformat/

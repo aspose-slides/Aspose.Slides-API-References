@@ -1,7 +1,7 @@
 ---
 title: CountOfCustomProperties
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the number of custom properties actually contained in a collection. Read-only Int32.
 type: docs
 weight: 90
 url: /net/aspose.slides/idocumentproperties/countofcustomproperties/

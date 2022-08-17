@@ -1,7 +1,7 @@
 ---
 title: GetOrCreateDataPointByIdx
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: If collection already contains data point with index index then returns this data point. If collection doesnt contains data point with index indexN when number of data points in this collection is less or equal then N then adds deficient data points and returns last which has requested index. For example collection indexes are 0 1 2 and requested index is 5. Then method adds deficient data points 0 1 2 3 4 5. And returns data point with index 5.
 type: docs
 weight: 250
 url: /net/aspose.slides.charts/ichartdatapointcollection/getorcreatedatapointbyidx/

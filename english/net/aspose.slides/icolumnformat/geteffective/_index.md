@@ -1,7 +1,7 @@
 ---
 title: GetEffective
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Gets effective table column formatting properties with inheritance and table styles applied.
 type: docs
 weight: 10
 url: /net/aspose.slides/icolumnformat/geteffective/

@@ -1,7 +1,7 @@
 ---
 title: AddSection
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Add slides section started form specific slide.
 type: docs
 weight: 60
 url: /net/aspose.slides/sectioncollection/addsection/

@@ -1,9 +1,9 @@
 ---
 title: IAlphaCeiling
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents an Alpha Ceiling effect. Alpha opacity values greater than zero are changed to 100. In other words anything partially opaque becomes fully opaque.
 type: docs
-weight: 2860
+weight: 2880
 url: /net/aspose.slides.effects/ialphaceiling/
 ---
 ## IAlphaCeiling interface

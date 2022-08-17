@@ -1,7 +1,7 @@
 ---
 title: Duration
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Describes the duration of animation effect. Read/write Single.
 type: docs
 weight: 40
 url: /net/aspose.slides.animation/timing/duration/

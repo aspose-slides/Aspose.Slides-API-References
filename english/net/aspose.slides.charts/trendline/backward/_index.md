@@ -1,7 +1,7 @@
 ---
 title: Backward
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Specifies the number of categories or units on a scatter chart that the trend line extends before the data for the series that is being trended. On scatter and non-scatter charts the value shall be any nonnegative value. Read/write Double.
 type: docs
 weight: 10
 url: /net/aspose.slides.charts/trendline/backward/

@@ -1,7 +1,7 @@
 ---
 title: ColorValue
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the color value of chart data point. Used with Map charts. Read-only IDoubleChartValueaspose.slides.charts/idoublechartvalue.
 type: docs
 weight: 60
 url: /net/aspose.slides.charts/chartdatapoint/colorvalue/

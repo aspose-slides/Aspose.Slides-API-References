@@ -1,7 +1,7 @@
 ---
 title: Accent1
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: First accent color in the scheme. Read-only Color.
 type: docs
 weight: 10
 url: /net/aspose.slides.theme/icolorschemeeffectivedata/accent1/

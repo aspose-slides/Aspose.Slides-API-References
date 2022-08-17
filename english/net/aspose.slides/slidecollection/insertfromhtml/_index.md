@@ -1,12 +1,12 @@
 ---
 title: InsertFromHtml
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates slides from HTML text and inserts them to the collection at the specified position.
 type: docs
 weight: 140
 url: /net/aspose.slides/slidecollection/insertfromhtml/
 ---
-## SlideCollection.InsertFromHtml method (1 of 6)
+## InsertFromHtml(int, string, IExternalResourceResolver, string) {#insertfromhtml_5}
 
 Creates slides from HTML text and inserts them to the collection at the specified position.
 
@@ -36,7 +36,7 @@ Added slides.
 
 ---
 
-## SlideCollection.InsertFromHtml method (2 of 6)
+## InsertFromHtml(int, string) {#insertfromhtml_4}
 
 Creates slides from HTML text and inserts them to the collection at the specified position.
 
@@ -62,7 +62,7 @@ Added slides
 
 ---
 
-## SlideCollection.InsertFromHtml method (3 of 6)
+## InsertFromHtml(int, TextReader, IExternalResourceResolver, string) {#insertfromhtml_3}
 
 Creates slides from HTML text and inserts them to the collection at the specified position.
 
@@ -92,7 +92,7 @@ Added slides.
 
 ---
 
-## SlideCollection.InsertFromHtml method (4 of 6)
+## InsertFromHtml(int, TextReader) {#insertfromhtml_2}
 
 Creates slides from HTML text and inserts them to the collection at the specified position.
 
@@ -118,7 +118,7 @@ Added slides
 
 ---
 
-## SlideCollection.InsertFromHtml method (5 of 6)
+## InsertFromHtml(int, Stream, IExternalResourceResolver, string) {#insertfromhtml_1}
 
 Creates slides from HTML text and inserts them to the collection at the specified position.
 
@@ -148,7 +148,7 @@ Added slides.
 
 ---
 
-## SlideCollection.InsertFromHtml method (6 of 6)
+## InsertFromHtml(int, Stream) {#insertfromhtml}
 
 Creates slides from HTML text and inserts them to the collection at the specified position.
 

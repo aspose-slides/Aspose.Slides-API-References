@@ -1,7 +1,7 @@
 ---
 title: InsertAudioFrameCD
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Insert an AudioFrame with CD.
 type: docs
 weight: 270
 url: /net/aspose.slides/shapecollection/insertaudioframecd/

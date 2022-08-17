@@ -1,7 +1,7 @@
 ---
 title: GetHashCode
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Serves as a hash function for a particular type suitable for use in hashing algorithms and data structures like a hash table.
 type: docs
 weight: 90
 url: /net/aspose.slides.effects/imagetransformocollectioneffectivedata/gethashcode/

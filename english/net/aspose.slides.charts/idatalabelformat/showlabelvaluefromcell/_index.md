@@ -1,7 +1,7 @@
 ---
 title: ShowLabelValueFromCell
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents a specified charts data label cell value display behavior. True displays cell value. False to hide. Read/write Boolean.
 type: docs
 weight: 100
 url: /net/aspose.slides.charts/idatalabelformat/showlabelvaluefromcell/

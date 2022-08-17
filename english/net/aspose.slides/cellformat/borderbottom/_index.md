@@ -1,7 +1,7 @@
 ---
 title: BorderBottom
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns a bottom border line properties object. Read-only ILineFormataspose.slides/ilineformat.
 type: docs
 weight: 10
 url: /net/aspose.slides/cellformat/borderbottom/

@@ -1,12 +1,12 @@
 ---
 title: MathematicalText
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Default constructor create String.Empty Value
 type: docs
 weight: 10
 url: /net/aspose.slides.mathtext/mathematicaltext/mathematicaltext/
 ---
-## MathematicalText constructor (1 of 4)
+## MathematicalText() {#constructor}
 
 Default constructor (create String.Empty Value)
 
@@ -31,7 +31,7 @@ MathematicalText mathText = new MathematicalText();
 
 ---
 
-## MathematicalText constructor (2 of 4)
+## MathematicalText(char) {#constructor_1}
 
 Create MathText with single symbol
 
@@ -60,7 +60,7 @@ MathematicalText mathText = new MathematicalText('$');
 
 ---
 
-## MathematicalText constructor (3 of 4)
+## MathematicalText(string) {#constructor_2}
 
 Create MathematicalText from text
 
@@ -89,7 +89,7 @@ MathematicalText mathText = new MathematicalText("x+y");
 
 ---
 
-## MathematicalText constructor (4 of 4)
+## MathematicalText(string, IPortionFormat) {#constructor_3}
 
 Create MathematicalText from text and format settings
 

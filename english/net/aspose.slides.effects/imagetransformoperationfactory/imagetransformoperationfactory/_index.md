@@ -1,7 +1,7 @@
 ---
 title: ImageTransformOperationFactory
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: The default constructor.
 type: docs
 weight: 10
 url: /net/aspose.slides.effects/imagetransformoperationfactory/imagetransformoperationfactory/

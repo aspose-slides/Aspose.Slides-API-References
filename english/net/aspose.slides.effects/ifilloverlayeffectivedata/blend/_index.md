@@ -1,7 +1,7 @@
 ---
 title: Blend
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: FillBlendMode. Read-only FillBlendModeaspose.slides/fillblendmode.
 type: docs
 weight: 20
 url: /net/aspose.slides.effects/ifilloverlayeffectivedata/blend/

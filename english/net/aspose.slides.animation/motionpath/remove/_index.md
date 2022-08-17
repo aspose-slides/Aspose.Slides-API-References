@@ -1,7 +1,7 @@
 ---
 title: Remove
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Removes specified commans from the collection.
 type: docs
 weight: 80
 url: /net/aspose.slides.animation/motionpath/remove/

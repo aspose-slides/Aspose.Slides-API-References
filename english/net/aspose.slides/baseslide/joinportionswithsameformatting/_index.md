@@ -1,12 +1,12 @@
 ---
 title: JoinPortionsWithSameFormatting
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Joins runs with same formatting in all paragraphs all acceptable shapes.
 type: docs
 weight: 150
 url: /net/aspose.slides/baseslide/joinportionswithsameformatting/
 ---
-## BaseSlide.JoinPortionsWithSameFormatting method (1 of 2)
+## JoinPortionsWithSameFormatting() {#joinportionswithsameformatting}
 
 Joins runs with same formatting in all paragraphs all acceptable shapes.
 
@@ -22,7 +22,7 @@ public virtual void JoinPortionsWithSameFormatting()
 
 ---
 
-## BaseSlide.JoinPortionsWithSameFormatting method (2 of 2)
+## JoinPortionsWithSameFormatting(IShapeCollection) {#joinportionswithsameformatting_1}
 
 Joins runs with same formatting in all paragraphs in all acceptable shapes.
 

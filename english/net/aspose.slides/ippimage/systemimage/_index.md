@@ -1,7 +1,7 @@
 ---
 title: SystemImage
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the copy of an image of the System.Drawing.Image type. Read-only Image.
 type: docs
 weight: 50
 url: /net/aspose.slides/ippimage/systemimage/

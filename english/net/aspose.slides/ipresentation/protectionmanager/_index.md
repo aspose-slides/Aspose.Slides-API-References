@@ -1,7 +1,7 @@
 ---
 title: ProtectionManager
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Gets manager of the permissions for this presentation. Read-only IProtectionManageraspose.slides/iprotectionmanager.
 type: docs
 weight: 220
 url: /net/aspose.slides/ipresentation/protectionmanager/

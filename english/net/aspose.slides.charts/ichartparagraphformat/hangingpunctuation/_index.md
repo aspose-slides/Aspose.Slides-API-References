@@ -1,7 +1,7 @@
 ---
 title: HangingPunctuation
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Determines whether the hanging punctuation is used in a paragraph. Read/write NullableBoolaspose.slides/nullablebool.
 type: docs
 weight: 50
 url: /net/aspose.slides.charts/ichartparagraphformat/hangingpunctuation/

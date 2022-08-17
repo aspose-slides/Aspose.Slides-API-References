@@ -1,7 +1,7 @@
 ---
 title: Insert
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Inserts a new layout slide to specified position of the collection.
 type: docs
 weight: 30
 url: /net/aspose.slides/masterlayoutslidecollection/insert/

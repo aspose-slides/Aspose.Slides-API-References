@@ -1,7 +1,7 @@
 ---
 title: HasTitle
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Determines whether a axis has a visible title. Read/write Boolean.
 type: docs
 weight: 170
 url: /net/aspose.slides.charts/axis/hastitle/

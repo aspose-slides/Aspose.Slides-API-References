@@ -1,7 +1,7 @@
 ---
 title: Shapes
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the shapes of a slide. Read-only IShapeCollectionaspose.slides/ishapecollection.
 type: docs
 weight: 70
 url: /net/aspose.slides/baseslide/shapes/

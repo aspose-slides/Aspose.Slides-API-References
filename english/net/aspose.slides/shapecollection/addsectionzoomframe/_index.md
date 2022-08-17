@@ -1,12 +1,12 @@
 ---
 title: AddSectionZoomFrame
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Adds a new Section Zoom object to the end of a collection.
 type: docs
 weight: 170
 url: /net/aspose.slides/shapecollection/addsectionzoomframe/
 ---
-## ShapeCollection.AddSectionZoomFrame method (1 of 2)
+## AddSectionZoomFrame(float, float, float, float, ISection) {#addsectionzoomframe}
 
 Adds a new Section Zoom object to the end of a collection.
 
@@ -55,7 +55,7 @@ using (Presentation pres = new Presentation("Presentation.pptx"))
 
 ---
 
-## ShapeCollection.AddSectionZoomFrame method (2 of 2)
+## AddSectionZoomFrame(float, float, float, float, ISection, IPPImage) {#addsectionzoomframe_1}
 
 Adds a new Section Zoom object to the end of a collection with a predefined image.
 

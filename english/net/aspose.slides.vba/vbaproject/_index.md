@@ -1,9 +1,9 @@
 ---
 title: VbaProject
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents VBA project with presentation macros.
 type: docs
-weight: 10840
+weight: 10890
 url: /net/aspose.slides.vba/vbaproject/
 ---
 ## VbaProject class
@@ -18,8 +18,8 @@ public sealed class VbaProject : IVbaProject
 
 | Name | Description |
 | --- | --- |
-| [VbaProject](vbaproject)() | This constructor creates new VBA project from scratch. Project will be created in 1252 Windows Latin 1 (ANSI) codepage |
-| [VbaProject](vbaproject)(byte[]) | This constructor loads VBA project from binary representation of OLE container. |
+| [VbaProject](vbaproject#constructor)() | This constructor creates new VBA project from scratch. Project will be created in 1252 Windows Latin 1 (ANSI) codepage |
+| [VbaProject](vbaproject#constructor_1)(byte[]) | This constructor loads VBA project from binary representation of OLE container. |
 
 ## Properties
 

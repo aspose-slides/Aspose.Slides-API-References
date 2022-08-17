@@ -1,7 +1,7 @@
 ---
 title: CreatePropertyEffect
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates property effect.
 type: docs
 weight: 50
 url: /net/aspose.slides.animation/ibehaviorfactory/createpropertyeffect/

@@ -1,7 +1,7 @@
 ---
 title: GetEffective
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Gets effective paragraph formatting data with the inheritance applied.
 type: docs
 weight: 160
 url: /net/aspose.slides/paragraphformat/geteffective/

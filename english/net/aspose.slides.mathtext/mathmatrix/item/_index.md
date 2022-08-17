@@ -1,7 +1,7 @@
 ---
 title: Item
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Element of matrix
 type: docs
 weight: 70
 url: /net/aspose.slides.mathtext/mathmatrix/item/

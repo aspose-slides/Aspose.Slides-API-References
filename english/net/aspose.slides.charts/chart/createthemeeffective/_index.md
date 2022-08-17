@@ -1,7 +1,7 @@
 ---
 title: CreateThemeEffective
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns an effective theme for this chart.
 type: docs
 weight: 250
 url: /net/aspose.slides.charts/chart/createthemeeffective/

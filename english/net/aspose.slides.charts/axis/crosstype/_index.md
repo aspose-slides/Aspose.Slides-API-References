@@ -1,7 +1,7 @@
 ---
 title: CrossType
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents the CrossType on the specified axis where the other axis crosses. Read/write CrossesTypeaspose.slides.charts/crossestype.
 type: docs
 weight: 140
 url: /net/aspose.slides.charts/axis/crosstype/

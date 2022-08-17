@@ -1,7 +1,7 @@
 ---
 title: GetEffectsByShape
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns array of effects for the specified shape.
 type: docs
 weight: 90
 url: /net/aspose.slides.animation/isequence/geteffectsbyshape/

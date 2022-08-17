@@ -1,7 +1,7 @@
 ---
 title: InsertSummaryZoomFrame
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates a new Summary Zoom object and inserts it to a collection at the specified index.
 type: docs
 weight: 330
 url: /net/aspose.slides/ishapecollection/insertsummaryzoomframe/

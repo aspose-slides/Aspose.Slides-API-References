@@ -1,7 +1,7 @@
 ---
 title: GrowToMatchOperandHeight
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Specifies the growth of BeginningCharacter SeparatorCharacter EndingCharacter When true the delimiters grows vertically to match its operand height. The default value is true
 type: docs
 weight: 60
 url: /net/aspose.slides.mathtext/imathdelimiter/growtomatchoperandheight/

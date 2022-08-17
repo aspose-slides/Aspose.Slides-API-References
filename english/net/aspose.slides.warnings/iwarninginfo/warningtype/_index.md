@@ -1,7 +1,7 @@
 ---
 title: WarningType
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns a type of warning. Read-only WarningTypeaspose.slides.warnings/iwarninginfo/warningtype.
 type: docs
 weight: 20
 url: /net/aspose.slides.warnings/iwarninginfo/warningtype/

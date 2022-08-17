@@ -1,7 +1,7 @@
 ---
 title: RepeatCount
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Describes the number of times the effect should repeat. Read/write Single.
 type: docs
 weight: 50
 url: /net/aspose.slides.animation/itiming/repeatcount/

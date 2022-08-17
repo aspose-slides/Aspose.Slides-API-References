@@ -1,9 +1,9 @@
 ---
 title: IAudioFrame
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents an audio clip on a slide.
 type: docs
-weight: 4750
+weight: 4770
 url: /net/aspose.slides/iaudioframe/
 ---
 ## IAudioFrame interface

@@ -1,7 +1,7 @@
 ---
 title: RightAngleAxes
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Determines whether the chart axes are at right angles rather than drawn in perspective. In other words it determines whether the chart angles of axes are independent from chart rotation or elevation. Read/write Boolean.
 type: docs
 weight: 40
 url: /net/aspose.slides.charts/irotation3d/rightangleaxes/

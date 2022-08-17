@@ -1,9 +1,9 @@
 ---
 title: ColorFormat
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents a color used in a presentation.
 type: docs
-weight: 2370
+weight: 2390
 url: /net/aspose.slides/colorformat/
 ---
 ## ColorFormat class
@@ -42,7 +42,7 @@ public class ColorFormat : PVIObject, IColorFormat
 | [CopyFrom](../../aspose.slides/colorformat/copyfrom)(IColorFormat) | Copy color format from "color". |
 | override [Equals](../../aspose.slides/colorformat/equals)(object) | Checks for equality with specified object. |
 | override [GetHashCode](../../aspose.slides/colorformat/gethashcode)() | Returns hash code. |
-| [ToString](../../aspose.slides/colorformat/tostring)(ColorStringFormat) | Returns a String that represents the current color format. |
+| [ToString](../../aspose.slides/colorformat/tostring#tostring_1)(ColorStringFormat) | Returns a String that represents the current color format. |
 
 ### See Also
 

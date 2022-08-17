@@ -1,7 +1,7 @@
 ---
 title: GetHashCode
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the hash code of an image.
 type: docs
 weight: 100
 url: /net/aspose.slides/ppimage/gethashcode/

@@ -1,7 +1,7 @@
 ---
 title: ObjectDistribution
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Object Distribution When true the contents of the array are spaced to the maximum width of the array object.
 type: docs
 weight: 50
 url: /net/aspose.slides.mathtext/matharray/objectdistribution/

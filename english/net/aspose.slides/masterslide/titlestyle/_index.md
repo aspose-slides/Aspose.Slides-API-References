@@ -1,7 +1,7 @@
 ---
 title: TitleStyle
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the style of a title text. Read-only ITextStyleaspose.slides/itextstyle.
 type: docs
 weight: 100
 url: /net/aspose.slides/masterslide/titlestyle/

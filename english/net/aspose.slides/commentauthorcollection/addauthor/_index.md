@@ -1,7 +1,7 @@
 ---
 title: AddAuthor
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Add new author at the end of a collection.
 type: docs
 weight: 50
 url: /net/aspose.slides/commentauthorcollection/addauthor/

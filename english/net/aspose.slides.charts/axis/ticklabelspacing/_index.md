@@ -1,7 +1,7 @@
 ---
 title: TickLabelSpacing
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Specifies how many tick labels to skip between label that is drawn. Applied to category or series axis. Read/write UInt32.
 type: docs
 weight: 530
 url: /net/aspose.slides.charts/axis/ticklabelspacing/

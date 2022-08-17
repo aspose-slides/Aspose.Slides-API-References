@@ -1,7 +1,7 @@
 ---
 title: StyleTextDecorationLineThrough
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents style.textDecorationLineThrough property
 type: docs
 weight: 1130
 url: /net/aspose.slides.animation/behaviorproperty/styletextdecorationlinethrough/

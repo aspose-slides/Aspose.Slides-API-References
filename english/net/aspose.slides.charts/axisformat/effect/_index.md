@@ -1,7 +1,7 @@
 ---
 title: Effect
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns effects used for an axis. Read-only IEffectFormataspose.slides/ieffectformat.
 type: docs
 weight: 10
 url: /net/aspose.slides.charts/axisformat/effect/

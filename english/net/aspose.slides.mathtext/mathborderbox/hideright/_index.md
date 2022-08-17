@@ -1,7 +1,7 @@
 ---
 title: HideRight
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Hide Right Edge default is false - specifies the hidden or shown state of the right edge of border box.
 type: docs
 weight: 50
 url: /net/aspose.slides.mathtext/mathborderbox/hideright/

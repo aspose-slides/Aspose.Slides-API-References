@@ -1,9 +1,9 @@
 ---
 title: IVbaModuleCollection
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents a collection of a VBA Project modules.
 type: docs
-weight: 10730
+weight: 10780
 url: /net/aspose.slides.vba/ivbamodulecollection/
 ---
 ## IVbaModuleCollection interface

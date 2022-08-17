@@ -1,7 +1,7 @@
 ---
 title: NumberFormat
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents the format string for the DataLabels object. Read/write String.
 type: docs
 weight: 40
 url: /net/aspose.slides.charts/idatalabelformat/numberformat/

@@ -1,7 +1,7 @@
 ---
 title: LayoutSlide
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Iterate each LayoutSlideaspose.slides.lowcode/foreach/layoutslide in the Presentationaspose.slides/presentation.
 type: docs
 weight: 10
 url: /net/aspose.slides.lowcode/foreach/layoutslide/

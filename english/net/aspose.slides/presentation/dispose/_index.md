@@ -1,9 +1,9 @@
 ---
 title: Dispose
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Releases all resources used by this Presentation object.
 type: docs
-weight: 290
+weight: 300
 url: /net/aspose.slides/presentation/dispose/
 ---
 ## Presentation.Dispose method

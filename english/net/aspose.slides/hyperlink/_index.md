@@ -1,9 +1,9 @@
 ---
 title: Hyperlink
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents a hyperlink.
 type: docs
-weight: 4640
+weight: 4660
 url: /net/aspose.slides/hyperlink/
 ---
 ## Hyperlink class
@@ -18,9 +18,9 @@ public class Hyperlink : PVIObject, IHyperlink
 
 | Name | Description |
 | --- | --- |
-| [Hyperlink](hyperlink)(ISlide) | Creates an instance of a hyperlink which points to specific slide. Note: created hyperlink should be assigned to some object from the same presentation, otherwise link will be saved as NoAction. |
-| [Hyperlink](hyperlink)(string) | Creates an instance of a hyperlink. |
-| [Hyperlink](hyperlink)(Hyperlink, string, string, bool, bool, bool) | Creates an instance of a hyperlink using another hyperlink as source, overriding secondary properties. |
+| [Hyperlink](hyperlink#constructor_1)(ISlide) | Creates an instance of a hyperlink which points to specific slide. Note: created hyperlink should be assigned to some object from the same presentation, otherwise link will be saved as NoAction. |
+| [Hyperlink](hyperlink#constructor_2)(string) | Creates an instance of a hyperlink. |
+| [Hyperlink](hyperlink#constructor)(Hyperlink, string, string, bool, bool, bool) | Creates an instance of a hyperlink using another hyperlink as source, overriding secondary properties. |
 
 ## Properties
 
@@ -49,8 +49,8 @@ public class Hyperlink : PVIObject, IHyperlink
 
 | Name | Description |
 | --- | --- |
-| [Equals](../../aspose.slides/hyperlink/equals)(IHyperlink) | Determines whether the two Hyperlink instances are equal. |
-| override [Equals](../../aspose.slides/hyperlink/equals)(object) | Determines whether the two Hyperlink instances are equal. |
+| [Equals](../../aspose.slides/hyperlink/equals#equals)(IHyperlink) | Determines whether the two Hyperlink instances are equal. |
+| override [Equals](../../aspose.slides/hyperlink/equals#equals_1)(object) | Determines whether the two Hyperlink instances are equal. |
 | override [GetHashCode](../../aspose.slides/hyperlink/gethashcode)() | Serves as a hash function for a particular type, suitable for use in hashing algorithms and data structures like a hash table. |
 | [operator ==](../../aspose.slides/hyperlink/op_equality) | Tests two hyperlinks for equality. |
 | [operator !=](../../aspose.slides/hyperlink/op_inequality) | Tests two hyperlinks for inequality. |

@@ -1,7 +1,7 @@
 ---
 title: UseCell
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: If true then AsCell property is actual. In other words worksheet is used for storing category this case supports a multi-level category. If false then AsLiteral property is actual. In other words worksheet is NOT used for storing category and this case doesnt support a multi-level categories. Read-only Boolean.
 type: docs
 weight: 40
 url: /net/aspose.slides.charts/chartcategory/usecell/

@@ -1,7 +1,7 @@
 ---
 title: HasRoundedCorners
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Specifies the chart area shall have rounded corners. Read/write Boolean.
 type: docs
 weight: 130
 url: /net/aspose.slides.charts/ichart/hasroundedcorners/

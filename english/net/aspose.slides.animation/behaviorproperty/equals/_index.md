@@ -1,7 +1,7 @@
 ---
 title: Equals
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Checks if this object is equal to another.
 type: docs
 weight: 1250
 url: /net/aspose.slides.animation/behaviorproperty/equals/

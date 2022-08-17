@@ -1,7 +1,7 @@
 ---
 title: FromBlack
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: This attribute specifies if the transition will start from a black screen and then transition the new slide over black. Read/write Boolean.
 type: docs
 weight: 10
 url: /net/aspose.slides.slideshow/optionalblacktransition/fromblack/

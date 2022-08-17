@@ -1,7 +1,7 @@
 ---
 title: OperationType
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets the type of an operation. Read-only ColorTransformOperationaspose.slides/colortransformoperation.
 type: docs
 weight: 20
 url: /net/aspose.slides/coloroperation/operationtype/

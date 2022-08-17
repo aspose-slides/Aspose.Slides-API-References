@@ -1,7 +1,7 @@
 ---
 title: BorderDiagonalUp
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns up diagonal line format effective value. Read-only ILineFormatEffectiveDataaspose.slides/ilineformateffectivedata.
 type: docs
 weight: 30
 url: /net/aspose.slides/ibasetableformateffectivedata/borderdiagonalup/

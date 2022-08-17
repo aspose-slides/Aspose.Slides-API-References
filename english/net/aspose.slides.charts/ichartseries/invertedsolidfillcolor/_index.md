@@ -1,7 +1,7 @@
 ---
 title: InvertedSolidFillColor
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Specifies invert solid color for series. To apply color setting set series format FillType to FillType.Solid. Read/write IColorFormataspose.slides/icolorformat.
 type: docs
 weight: 160
 url: /net/aspose.slides.charts/ichartseries/invertedsolidfillcolor/

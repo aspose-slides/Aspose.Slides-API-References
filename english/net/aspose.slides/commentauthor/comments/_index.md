@@ -1,7 +1,7 @@
 ---
 title: Comments
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the collection of comments made by this author. Read-only ICommentCollectionaspose.slides/icommentcollection.
 type: docs
 weight: 10
 url: /net/aspose.slides/commentauthor/comments/

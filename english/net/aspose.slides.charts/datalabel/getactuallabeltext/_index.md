@@ -1,7 +1,7 @@
 ---
 title: GetActualLabelText
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns actual label text based on DataLabelFormat settings or TextFrameForOverriding.Text value.
 type: docs
 weight: 190
 url: /net/aspose.slides.charts/datalabel/getactuallabeltext/

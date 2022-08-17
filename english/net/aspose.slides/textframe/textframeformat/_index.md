@@ -1,7 +1,7 @@
 ---
 title: TextFrameFormat
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the formatting object for this TextFrame object. Read-only ITextFrameFormataspose.slides/itextframeformat.
 type: docs
 weight: 60
 url: /net/aspose.slides/textframe/textframeformat/

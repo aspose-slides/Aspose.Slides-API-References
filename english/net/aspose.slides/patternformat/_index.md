@@ -1,9 +1,9 @@
 ---
 title: PatternFormat
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents a pattern to fill a shape.
 type: docs
-weight: 8620
+weight: 8640
 url: /net/aspose.slides/patternformat/
 ---
 ## PatternFormat class
@@ -29,8 +29,8 @@ public class PatternFormat : PVIObject, IPatternFormat
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Compares with specified object. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Returns hash code. |
-| [GetTileImage](../../aspose.slides/patternformat/gettileimage)(Color) | Creates a tile image for the pattern fill. |
-| [GetTileImage](../../aspose.slides/patternformat/gettileimage)(Color, Color) | Creates a tile image for the pattern fill with a specified colors. |
+| [GetTileImage](../../aspose.slides/patternformat/gettileimage#gettileimage)(Color) | Creates a tile image for the pattern fill. |
+| [GetTileImage](../../aspose.slides/patternformat/gettileimage#gettileimage_1)(Color, Color) | Creates a tile image for the pattern fill with a specified colors. |
 
 ### See Also
 

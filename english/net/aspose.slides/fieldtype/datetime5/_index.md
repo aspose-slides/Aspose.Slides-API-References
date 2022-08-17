@@ -1,7 +1,7 @@
 ---
 title: DateTime5
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Current date and time in a fifth predefined format DD-Mon-YY for english. Read-only FieldTypeaspose.slides/fieldtype.
 type: docs
 weight: 110
 url: /net/aspose.slides/fieldtype/datetime5/

@@ -1,7 +1,7 @@
 ---
 title: ShapeStyle
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns shapes style object. Read-only IShapeStyleaspose.slides/ishapestyle.
 type: docs
 weight: 20
 url: /net/aspose.slides/geometryshape/shapestyle/

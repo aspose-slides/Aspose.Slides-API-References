@@ -1,7 +1,7 @@
 ---
 title: AsISingleCellChartValue
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Allows to get base ISingleCellChartValue interface. Read-only ISingleCellChartValueaspose.slides.charts/isinglecellchartvalue.
 type: docs
 weight: 10
 url: /net/aspose.slides.charts/idoublechartvalue/asisinglecellchartvalue/

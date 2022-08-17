@@ -1,9 +1,9 @@
 ---
 title: PresentationInfo
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Information about presentation file
 type: docs
-weight: 8900
+weight: 8910
 url: /net/aspose.slides/presentationinfo/
 ---
 ## PresentationInfo class
@@ -31,8 +31,8 @@ public sealed class PresentationInfo : IPresentationInfo
 | [CheckWriteProtection](../../aspose.slides/presentationinfo/checkwriteprotection)(string) | Checks whether a password to modify is correct for a write protected presentation. |
 | [ReadDocumentProperties](../../aspose.slides/presentationinfo/readdocumentproperties)() | Gets document properties of binded presentation. |
 | [UpdateDocumentProperties](../../aspose.slides/presentationinfo/updatedocumentproperties)(IDocumentProperties) | Updates properties of binded presentation. |
-| [WriteBindedPresentation](../../aspose.slides/presentationinfo/writebindedpresentation)(Stream) | Writes binded presentation to stream. |
-| [WriteBindedPresentation](../../aspose.slides/presentationinfo/writebindedpresentation)(string) | Writes binded presentation to file. |
+| [WriteBindedPresentation](../../aspose.slides/presentationinfo/writebindedpresentation#writebindedpresentation)(Stream) | Writes binded presentation to stream. |
+| [WriteBindedPresentation](../../aspose.slides/presentationinfo/writebindedpresentation#writebindedpresentation_1)(string) | Writes binded presentation to file. |
 
 ### See Also
 

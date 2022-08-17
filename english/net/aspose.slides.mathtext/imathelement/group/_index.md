@@ -1,12 +1,12 @@
 ---
 title: Group
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Places this element in a group using a bottom curly bracket
 type: docs
 weight: 70
 url: /net/aspose.slides.mathtext/imathelement/group/
 ---
-## IMathElement.Group method (1 of 2)
+## Group() {#group}
 
 Places this element in a group using a bottom curly bracket
 
@@ -36,7 +36,7 @@ IMathGroupingCharacter groupingElement = new MathematicalText("x;y;z").Group();
 
 ---
 
-## IMathElement.Group method (2 of 2)
+## Group(char, MathTopBotPositions, MathTopBotPositions) {#group_1}
 
 Places this element in a group using a grouping character such as bottom curly bracket or another
 

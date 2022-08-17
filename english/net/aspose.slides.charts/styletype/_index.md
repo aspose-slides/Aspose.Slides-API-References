@@ -1,9 +1,9 @@
 ---
 title: StyleType
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents chart style.
 type: docs
-weight: 2290
+weight: 2310
 url: /net/aspose.slides.charts/styletype/
 ---
 ## StyleType enumeration

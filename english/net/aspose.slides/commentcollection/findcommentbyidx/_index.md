@@ -1,7 +1,7 @@
 ---
 title: FindCommentByIdx
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Finds a comment in the collection by index.
 type: docs
 weight: 90
 url: /net/aspose.slides/commentcollection/findcommentbyidx/

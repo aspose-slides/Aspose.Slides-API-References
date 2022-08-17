@@ -1,7 +1,7 @@
 ---
 title: CreateAlphaFloor
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates Alpha floor effect.
 type: docs
 weight: 30
 url: /net/aspose.slides.effects/imagetransformoperationfactory/createalphafloor/

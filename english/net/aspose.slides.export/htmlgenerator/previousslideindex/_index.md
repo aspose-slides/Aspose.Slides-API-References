@@ -1,7 +1,7 @@
 ---
 title: PreviousSlideIndex
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns index of previously rendered slide or -1 if first slide is rendering. Read-only Int32.
 type: docs
 weight: 20
 url: /net/aspose.slides.export/htmlgenerator/previousslideindex/

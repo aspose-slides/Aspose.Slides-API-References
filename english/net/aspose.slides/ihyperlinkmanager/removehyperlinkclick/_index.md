@@ -1,7 +1,7 @@
 ---
 title: RemoveHyperlinkClick
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Removes hyperlink on click.
 type: docs
 weight: 10
 url: /net/aspose.slides/ihyperlinkmanager/removehyperlinkclick/

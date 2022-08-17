@@ -1,9 +1,9 @@
 ---
 title: Field
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents a field.
 type: docs
-weight: 4310
+weight: 4330
 url: /net/aspose.slides/field/
 ---
 ## Field class

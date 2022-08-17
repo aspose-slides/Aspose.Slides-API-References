@@ -1,7 +1,7 @@
 ---
 title: HasUpDownBars
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Determines whether the chart has up/down bars. Read/write Boolean.
 type: docs
 weight: 30
 url: /net/aspose.slides.charts/iupdownbarsmanager/hasupdownbars/

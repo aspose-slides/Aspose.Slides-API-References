@@ -1,7 +1,7 @@
 ---
 title: Product
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Product name of Aspose.Slides
 type: docs
 weight: 30
 url: /net/aspose.slides/buildversioninfo/product/

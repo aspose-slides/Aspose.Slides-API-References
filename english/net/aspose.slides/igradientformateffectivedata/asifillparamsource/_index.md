@@ -1,7 +1,7 @@
 ---
 title: AsIFillParamSource
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Allows to get base IFillParamSource interface. Read-only IFillParamSourceaspose.slides/ifillparamsource.
 type: docs
 weight: 10
 url: /net/aspose.slides/igradientformateffectivedata/asifillparamsource/

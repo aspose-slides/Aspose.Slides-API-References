@@ -1,7 +1,7 @@
 ---
 title: OuterShadowEffect
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Outer shadow. Read/write IOuterShadowaspose.slides.effects/ioutershadow.
 type: docs
 weight: 60
 url: /net/aspose.slides/effectformat/outershadoweffect/

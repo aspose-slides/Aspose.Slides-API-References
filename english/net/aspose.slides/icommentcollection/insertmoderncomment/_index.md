@@ -1,7 +1,7 @@
 ---
 title: InsertModernComment
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Insert new modern comment to a collection at the specified index.
 type: docs
 weight: 60
 url: /net/aspose.slides/icommentcollection/insertmoderncomment/

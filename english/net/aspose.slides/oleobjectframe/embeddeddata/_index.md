@@ -1,7 +1,7 @@
 ---
 title: EmbeddedData
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Gets or sets information about OLE embedded data. Read/write IOleEmbeddedDataInfoaspose.slides/ioleembeddeddatainfo.
 type: docs
 weight: 20
 url: /net/aspose.slides/oleobjectframe/embeddeddata/

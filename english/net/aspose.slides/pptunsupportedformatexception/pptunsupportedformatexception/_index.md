@@ -1,12 +1,12 @@
 ---
 title: PptUnsupportedFormatException
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Default constructor.
 type: docs
 weight: 10
 url: /net/aspose.slides/pptunsupportedformatexception/pptunsupportedformatexception/
 ---
-## PptUnsupportedFormatException constructor (1 of 3)
+## PptUnsupportedFormatException() {#constructor}
 
 Default constructor.
 
@@ -22,7 +22,7 @@ public PptUnsupportedFormatException()
 
 ---
 
-## PptUnsupportedFormatException constructor (2 of 3)
+## PptUnsupportedFormatException(string) {#constructor_1}
 
 Constructor allowing a message to be added to this exception.
 
@@ -42,7 +42,7 @@ public PptUnsupportedFormatException(string message)
 
 ---
 
-## PptUnsupportedFormatException constructor (3 of 3)
+## PptUnsupportedFormatException(string, Exception) {#constructor_2}
 
 Constructor for an exception containing a message and an embedded exception.
 

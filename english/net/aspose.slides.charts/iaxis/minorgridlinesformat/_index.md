@@ -1,7 +1,7 @@
 ---
 title: MinorGridLinesFormat
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents minor gridlines format on a chart axis. Read-only IChartLinesFormataspose.slides.charts/ichartlinesformat.
 type: docs
 weight: 390
 url: /net/aspose.slides.charts/iaxis/minorgridlinesformat/

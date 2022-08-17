@@ -1,7 +1,7 @@
 ---
 title: Add
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Adds the new Trendline at the end of a collection and return it.
 type: docs
 weight: 40
 url: /net/aspose.slides.charts/itrendlinecollection/add/

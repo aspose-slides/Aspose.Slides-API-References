@@ -1,7 +1,7 @@
 ---
 title: CreateDocumentFormatter
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates and returns HTML formatter for a simple document view which consists of sequences of slides one below another.
 type: docs
 weight: 20
 url: /net/aspose.slides.export/htmlformatter/createdocumentformatter/

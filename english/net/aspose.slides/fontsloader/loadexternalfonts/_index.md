@@ -1,7 +1,7 @@
 ---
 title: LoadExternalFonts
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Adds additional folders to seek fonts.
 type: docs
 weight: 40
 url: /net/aspose.slides/fontsloader/loadexternalfonts/

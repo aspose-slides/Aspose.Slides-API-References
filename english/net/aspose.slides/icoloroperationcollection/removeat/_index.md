@@ -1,7 +1,7 @@
 ---
 title: RemoveAt
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Removes the color operation from a collection.
 type: docs
 weight: 50
 url: /net/aspose.slides/icoloroperationcollection/removeat/

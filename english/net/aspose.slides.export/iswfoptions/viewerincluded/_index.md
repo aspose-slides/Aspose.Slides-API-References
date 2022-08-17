@@ -1,7 +1,7 @@
 ---
 title: ViewerIncluded
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Specifies whether the generated SWF document should include the integrated document viewer or not. Default is true.
 type: docs
 weight: 170
 url: /net/aspose.slides.export/iswfoptions/viewerincluded/

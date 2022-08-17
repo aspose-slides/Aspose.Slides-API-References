@@ -1,7 +1,7 @@
 ---
 title: Remove
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Removes the author from the parent collection.
 type: docs
 weight: 40
 url: /net/aspose.slides/commentauthor/remove/

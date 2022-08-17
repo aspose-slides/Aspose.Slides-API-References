@@ -1,7 +1,7 @@
 ---
 title: EmbedFullFonts
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Determines if all characters of font should be embedded or only used subset. Read/write Boolean.
 type: docs
 weight: 80
 url: /net/aspose.slides.export/ipdfoptions/embedfullfonts/

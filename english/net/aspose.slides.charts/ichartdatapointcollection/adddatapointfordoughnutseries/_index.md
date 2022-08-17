@@ -1,12 +1,12 @@
 ---
 title: AddDataPointForDoughnutSeries
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Doughnut subtypes see also ChartTypeCharacterizer.IsChartTypeDoughnutChartType method.
 type: docs
 weight: 110
 url: /net/aspose.slides.charts/ichartdatapointcollection/adddatapointfordoughnutseries/
 ---
-## IChartDataPointCollection.AddDataPointForDoughnutSeries method (1 of 2)
+## AddDataPointForDoughnutSeries(IChartDataCell) {#adddatapointfordoughnutseries}
 
 Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Doughnut subtypes (see also ChartTypeCharacterizer.IsChartTypeDoughnut(ChartType) method).
 
@@ -32,7 +32,7 @@ New data point.
 
 ---
 
-## IChartDataPointCollection.AddDataPointForDoughnutSeries method (2 of 2)
+## AddDataPointForDoughnutSeries(double) {#adddatapointfordoughnutseries_1}
 
 Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Doughnut subtypes (see also ChartTypeCharacterizer.IsChartTypeDoughnut(ChartType) method).
 

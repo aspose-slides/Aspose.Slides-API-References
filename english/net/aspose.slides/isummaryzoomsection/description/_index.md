@@ -1,9 +1,9 @@
 ---
 title: Description
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the text description of the Summary Zoom Section object.
 type: docs
-weight: 10
+weight: 20
 url: /net/aspose.slides/isummaryzoomsection/description/
 ---
 ## ISummaryZoomSection.Description property

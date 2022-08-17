@@ -1,9 +1,9 @@
 ---
 title: ILightRigEffectiveData
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Immutable object which contains effective light rig properties.
 type: docs
-weight: 5720
+weight: 5740
 url: /net/aspose.slides/ilightrigeffectivedata/
 ---
 ## ILightRigEffectiveData interface

@@ -1,7 +1,7 @@
 ---
 title: GetLineStyles
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns a collection of theme defined line styles.
 type: docs
 weight: 40
 url: /net/aspose.slides.theme/iformatschemeeffectivedata/getlinestyles/

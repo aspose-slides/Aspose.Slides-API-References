@@ -1,7 +1,7 @@
 ---
 title: InsertPictureFrame
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates a new PictureFrame and inserts it to the collection at the specified index.
 type: docs
 weight: 360
 url: /net/aspose.slides/shapecollection/insertpictureframe/

@@ -1,7 +1,7 @@
 ---
 title: DimensionSize
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Specifies the size of the slide region width when a child of RestoredTop height when a child of RestoredLeft. Read/write Single. Throws when value less than 0 ar greater than 100.
 type: docs
 weight: 20
 url: /net/aspose.slides/inormalviewrestoredproperties/dimensionsize/

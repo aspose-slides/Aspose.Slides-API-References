@@ -1,7 +1,7 @@
 ---
 title: FirstRowIndex
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns an index of first row covered by the cell. Read-only Int32.
 type: docs
 weight: 80
 url: /net/aspose.slides/icell/firstrowindex/

@@ -1,7 +1,7 @@
 ---
 title: AsIHtmlFormattingController
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Allows to get base IHtmlFormattingController interface. Read-only IHtmlFormattingControlleraspose.slides.export/ihtmlformattingcontroller.
 type: docs
 weight: 10
 url: /net/aspose.slides.export/ivideoplayerhtmlcontroller/asihtmlformattingcontroller/

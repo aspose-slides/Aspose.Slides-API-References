@@ -1,7 +1,7 @@
 ---
 title: EnableSoftEdgeEffect
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Enables soft edge effect.
 type: docs
 weight: 250
 url: /net/aspose.slides/ieffectformat/enablesoftedgeeffect/

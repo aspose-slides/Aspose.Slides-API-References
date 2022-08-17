@@ -1,7 +1,7 @@
 ---
 title: BeginningCharacter
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Delimiter Beginning Character specifies the beginning or opening delimiter character. Mathematical delimiters are enclosing characters such as parentheses brackets and braces. The default .
 type: docs
 weight: 30
 url: /net/aspose.slides.mathtext/mathdelimiter/beginningcharacter/

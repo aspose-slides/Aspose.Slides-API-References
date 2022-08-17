@@ -1,7 +1,7 @@
 ---
 title: Position
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets the position of a comment on a slide. Read/write PointF.
 type: docs
 weight: 40
 url: /net/aspose.slides/icomment/position/

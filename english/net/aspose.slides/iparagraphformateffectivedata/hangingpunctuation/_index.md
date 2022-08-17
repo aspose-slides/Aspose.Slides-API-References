@@ -1,7 +1,7 @@
 ---
 title: HangingPunctuation
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Determines whether the hanging punctuation is used in a paragraph. Read-only Boolean.
 type: docs
 weight: 80
 url: /net/aspose.slides/iparagraphformateffectivedata/hangingpunctuation/

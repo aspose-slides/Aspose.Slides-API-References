@@ -1,7 +1,7 @@
 ---
 title: RemoveAt
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Removes behavior from a collection at the specified index.
 type: docs
 weight: 120
 url: /net/aspose.slides.animation/behaviorcollection/removeat/

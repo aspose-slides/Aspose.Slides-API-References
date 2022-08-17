@@ -1,7 +1,7 @@
 ---
 title: HasDataTable
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Determines whether a chart has a data table. Read/write Boolean.
 type: docs
 weight: 100
 url: /net/aspose.slides.charts/chart/hasdatatable/

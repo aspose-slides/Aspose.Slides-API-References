@@ -1,7 +1,7 @@
 ---
 title: Slide
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Iterate each Slideaspose.slides.lowcode/foreach/slide in the Presentationaspose.slides/presentation.
 type: docs
 weight: 60
 url: /net/aspose.slides.lowcode/foreach/slide/

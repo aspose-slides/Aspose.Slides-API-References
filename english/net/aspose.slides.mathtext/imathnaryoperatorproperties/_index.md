@@ -1,9 +1,9 @@
 ---
 title: IMathNaryOperatorProperties
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Specifies properties of IMathNaryOperator
 type: docs
-weight: 7670
+weight: 7690
 url: /net/aspose.slides.mathtext/imathnaryoperatorproperties/
 ---
 ## IMathNaryOperatorProperties interface

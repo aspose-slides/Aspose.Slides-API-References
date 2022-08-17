@@ -1,7 +1,7 @@
 ---
 title: ActualHeight
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Specifies actual height of the chart element. Call method IChart.ValidateChartLayout before to get actual values. Read Single.
 type: docs
 weight: 10
 url: /net/aspose.slides.charts/chartdatapoint/actualheight/

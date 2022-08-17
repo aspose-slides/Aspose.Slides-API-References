@@ -1,7 +1,7 @@
 ---
 title: Direction
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Direction of shadow. Read-only Single.
 type: docs
 weight: 30
 url: /net/aspose.slides.effects/iinnershadoweffectivedata/direction/

@@ -1,7 +1,7 @@
 ---
 title: AddNotesSlide
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the notes slide for the current slide creating one if there isnt.
 type: docs
 weight: 20
 url: /net/aspose.slides/notesslidemanager/addnotesslide/

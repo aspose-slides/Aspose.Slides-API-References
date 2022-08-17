@@ -1,7 +1,7 @@
 ---
 title: Overbar
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Sets a bar on the top of this element
 type: docs
 weight: 100
 url: /net/aspose.slides.mathtext/mathelementbase/overbar/

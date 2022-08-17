@@ -1,7 +1,7 @@
 ---
 title: DigitalSignatures
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the collection of signatures used to sign the presentation. Read-only IDigitalSignatureCollectionaspose.slides/idigitalsignaturecollection.
 type: docs
 weight: 90
 url: /net/aspose.slides/ipresentation/digitalsignatures/

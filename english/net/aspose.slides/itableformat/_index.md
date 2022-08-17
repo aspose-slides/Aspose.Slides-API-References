@@ -1,9 +1,9 @@
 ---
 title: ITableFormat
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents format of a table.
 type: docs
-weight: 6660
+weight: 6680
 url: /net/aspose.slides/itableformat/
 ---
 ## ITableFormat interface

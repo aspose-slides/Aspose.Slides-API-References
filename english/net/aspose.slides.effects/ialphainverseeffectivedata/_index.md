@@ -1,9 +1,9 @@
 ---
 title: IAlphaInverseEffectiveData
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Immutable object which represents an Alpha Inverse effect. Alpha opacity values are inverted by subtracting from 100.
 type: docs
-weight: 2910
+weight: 2930
 url: /net/aspose.slides.effects/ialphainverseeffectivedata/
 ---
 ## IAlphaInverseEffectiveData interface

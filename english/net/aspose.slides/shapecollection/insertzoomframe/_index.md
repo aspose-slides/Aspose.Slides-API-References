@@ -1,12 +1,12 @@
 ---
 title: InsertZoomFrame
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates a new Zoom object and inserts it to a collection at the specified index.
 type: docs
 weight: 410
 url: /net/aspose.slides/shapecollection/insertzoomframe/
 ---
-## ShapeCollection.InsertZoomFrame method (1 of 2)
+## InsertZoomFrame(int, float, float, float, float, ISlide) {#insertzoomframe}
 
 Creates a new Zoom object and inserts it to a collection at the specified index.
 
@@ -56,7 +56,7 @@ using (Presentation pres = new Presentation("Presentation.pptx"))
 
 ---
 
-## ShapeCollection.InsertZoomFrame method (2 of 2)
+## InsertZoomFrame(int, float, float, float, float, ISlide, IPPImage) {#insertzoomframe_1}
 
 Creates a new Zoom object and inserts it to a collection at the specified index.
 

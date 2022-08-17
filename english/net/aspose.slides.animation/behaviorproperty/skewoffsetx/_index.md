@@ -1,7 +1,7 @@
 ---
 title: SkewOffsetX
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents skew.offset.x property
 type: docs
 weight: 830
 url: /net/aspose.slides.animation/behaviorproperty/skewoffsetx/

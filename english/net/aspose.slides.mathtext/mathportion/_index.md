@@ -1,9 +1,9 @@
 ---
 title: MathPortion
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents a portion with mathematical context inside.
 type: docs
-weight: 8200
+weight: 8220
 url: /net/aspose.slides.mathtext/mathportion/
 ---
 ## MathPortion class

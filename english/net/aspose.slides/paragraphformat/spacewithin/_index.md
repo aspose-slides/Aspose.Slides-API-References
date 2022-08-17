@@ -1,7 +1,7 @@
 ---
 title: SpaceWithin
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets the amount of space between base lines in a paragraph. Positive value means percentage negative - size in points. No inheritance applied. Read/write Single.
 type: docs
 weight: 140
 url: /net/aspose.slides/paragraphformat/spacewithin/

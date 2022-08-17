@@ -1,7 +1,7 @@
 ---
 title: GetStream
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns Stream stream for reading. Use using or close stream after using.
 type: docs
 weight: 30
 url: /net/aspose.slides/video/getstream/

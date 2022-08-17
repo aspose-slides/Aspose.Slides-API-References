@@ -1,7 +1,7 @@
 ---
 title: FirstColumn
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Gets first column of cell. Read-only IColumnaspose.slides/icolumn.
 type: docs
 weight: 50
 url: /net/aspose.slides/icell/firstcolumn/

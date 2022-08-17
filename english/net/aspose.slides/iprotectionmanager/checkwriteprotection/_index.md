@@ -1,7 +1,7 @@
 ---
 title: CheckWriteProtection
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Determines whether a presentation is a password protected to modify.
 type: docs
 weight: 70
 url: /net/aspose.slides/iprotectionmanager/checkwriteprotection/

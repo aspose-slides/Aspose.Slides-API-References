@@ -1,7 +1,7 @@
 ---
 title: CreateColorEffect
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates color effect.
 type: docs
 weight: 20
 url: /net/aspose.slides.animation/behaviorfactory/createcoloreffect/

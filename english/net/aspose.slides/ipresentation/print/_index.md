@@ -1,12 +1,12 @@
 ---
 title: Print
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Prints the whole presentation to the default printer.
 type: docs
 weight: 330
 url: /net/aspose.slides/ipresentation/print/
 ---
-## IPresentation.Print method (1 of 4)
+## Print() {#print}
 
 Prints the whole presentation to the default printer.
 
@@ -22,7 +22,7 @@ public void Print()
 
 ---
 
-## IPresentation.Print method (2 of 4)
+## Print(PrinterSettings) {#print_1}
 
 Prints the presentation according to the specified printer settings, using the standard (no User Interface) print controller.
 
@@ -42,7 +42,7 @@ public void Print(PrinterSettings printerSettings)
 
 ---
 
-## IPresentation.Print method (3 of 4)
+## Print(string) {#print_3}
 
 Print the whole presentation to the specified printer, using the standard (no User Interface) print controller.
 
@@ -62,7 +62,7 @@ public void Print(string printerName)
 
 ---
 
-## IPresentation.Print method (4 of 4)
+## Print(PrinterSettings, string) {#print_2}
 
 Prints the document according to the specified printer settings, using the standard (no User Interface) print controller and a presentation name.
 

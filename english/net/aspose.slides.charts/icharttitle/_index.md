@@ -1,9 +1,9 @@
 ---
 title: IChartTitle
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents chart title properties.
 type: docs
-weight: 1860
+weight: 1880
 url: /net/aspose.slides.charts/icharttitle/
 ---
 ## IChartTitle interface

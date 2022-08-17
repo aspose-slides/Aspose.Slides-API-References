@@ -1,7 +1,7 @@
 ---
 title: ForeColor
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the foreground pattern color. Read-only IColorFormataspose.slides/icolorformat.
 type: docs
 weight: 20
 url: /net/aspose.slides/ipatternformat/forecolor/

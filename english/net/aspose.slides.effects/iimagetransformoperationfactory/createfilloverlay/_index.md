@@ -1,7 +1,7 @@
 ---
 title: CreateFillOverlay
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates Fill overlay effect.
 type: docs
 weight: 130
 url: /net/aspose.slides.effects/iimagetransformoperationfactory/createfilloverlay/

@@ -1,12 +1,12 @@
 ---
 title: VbaProject
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: This constructor creates new VBA project from scratch. Project will be created in 1252 Windows Latin 1 ANSI codepage
 type: docs
 weight: 10
 url: /net/aspose.slides.vba/vbaproject/vbaproject/
 ---
-## VbaProject constructor (1 of 2)
+## VbaProject() {#constructor}
 
 This constructor creates new VBA project from scratch. Project will be created in 1252 Windows Latin 1 (ANSI) codepage
 
@@ -22,7 +22,7 @@ public VbaProject()
 
 ---
 
-## VbaProject constructor (2 of 2)
+## VbaProject(byte[]) {#constructor_1}
 
 This constructor loads VBA project from binary representation of OLE container.
 

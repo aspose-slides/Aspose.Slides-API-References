@@ -1,7 +1,7 @@
 ---
 title: GetSlidesListOfSection
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns list of slides in the section.
 type: docs
 weight: 40
 url: /net/aspose.slides/isection/getslideslistofsection/

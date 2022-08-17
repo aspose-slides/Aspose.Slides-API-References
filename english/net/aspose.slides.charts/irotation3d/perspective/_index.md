@@ -1,7 +1,7 @@
 ---
 title: Perspective
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets the perspective value field of view angle for 3D charts between 0 and 100. Ignored if RightAngleAxes property value is true. Read/write Byte.
 type: docs
 weight: 30
 url: /net/aspose.slides.charts/irotation3d/perspective/

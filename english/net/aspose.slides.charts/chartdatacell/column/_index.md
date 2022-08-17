@@ -1,7 +1,7 @@
 ---
 title: Column
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the index of the column of worksheet in which the cell is located. Read-only Int32.
 type: docs
 weight: 20
 url: /net/aspose.slides.charts/chartdatacell/column/

@@ -1,7 +1,7 @@
 ---
 title: InitFormatScheme
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Init FormatScheme with new object for overriding FormatScheme of InheritedTheme.
 type: docs
 weight: 120
 url: /net/aspose.slides.theme/overridetheme/initformatscheme/

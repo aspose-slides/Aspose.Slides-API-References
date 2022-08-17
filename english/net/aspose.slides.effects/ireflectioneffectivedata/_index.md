@@ -1,9 +1,9 @@
 ---
 title: IReflectionEffectiveData
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Immutable object which represents a Reflection effect.
 type: docs
-weight: 3310
+weight: 3330
 url: /net/aspose.slides.effects/ireflectioneffectivedata/
 ---
 ## IReflectionEffectiveData interface

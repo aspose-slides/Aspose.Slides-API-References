@@ -1,7 +1,7 @@
 ---
 title: Clear
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Removes all elements from the collection.
 type: docs
 weight: 240
 url: /net/aspose.slides.charts/ichartdatapointcollection/clear/

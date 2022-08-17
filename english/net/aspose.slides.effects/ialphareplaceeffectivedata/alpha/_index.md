@@ -1,7 +1,7 @@
 ---
 title: Alpha
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns new alpha value in the interval 0..1 Read-only Single.
 type: docs
 weight: 10
 url: /net/aspose.slides.effects/ialphareplaceeffectivedata/alpha/

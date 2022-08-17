@@ -1,9 +1,9 @@
 ---
 title: IParagraphCollection
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents a collection of a paragraphs.
 type: docs
-weight: 6010
+weight: 6030
 url: /net/aspose.slides/iparagraphcollection/
 ---
 ## IParagraphCollection interface
@@ -27,14 +27,14 @@ public interface IParagraphCollection : IEnumerable<IParagraph>, ISlideComponent
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.slides/iparagraphcollection/add)(IParagraph) | Adds a Paragraph to the end of collection. |
-| [Add](../../aspose.slides/iparagraphcollection/add)(IParagraphCollection) | Adds a content of ParagraphCollection to the end of collection. |
-| [AddFromHtml](../../aspose.slides/iparagraphcollection/addfromhtml)(string) | Adds text from specified html string to the collection. |
-| [AddFromHtml](../../aspose.slides/iparagraphcollection/addfromhtml)(string, IExternalResourceResolver, string) | Adds text from specified html string to the collection. |
+| [Add](../../aspose.slides/iparagraphcollection/add#add_1)(IParagraph) | Adds a Paragraph to the end of collection. |
+| [Add](../../aspose.slides/iparagraphcollection/add#add)(IParagraphCollection) | Adds a content of ParagraphCollection to the end of collection. |
+| [AddFromHtml](../../aspose.slides/iparagraphcollection/addfromhtml#addfromhtml)(string) | Adds text from specified html string to the collection. |
+| [AddFromHtml](../../aspose.slides/iparagraphcollection/addfromhtml#addfromhtml_1)(string, IExternalResourceResolver, string) | Adds text from specified html string to the collection. |
 | [Clear](../../aspose.slides/iparagraphcollection/clear)() | Removes all elements from the collection. |
 | [ExportToHtml](../../aspose.slides/iparagraphcollection/exporttohtml)(int, int, ITextToHtmlConversionOptions) | Converts specifying paragraphs to the HTML and returns it as String object. |
-| [Insert](../../aspose.slides/iparagraphcollection/insert)(int, IParagraph) | Inserts a Paragraph into the collection at the specified index. |
-| [Insert](../../aspose.slides/iparagraphcollection/insert)(int, IParagraphCollection) | Inserts a content of ParagraphCollection into the collection at the specified index. |
+| [Insert](../../aspose.slides/iparagraphcollection/insert#insert)(int, IParagraph) | Inserts a Paragraph into the collection at the specified index. |
+| [Insert](../../aspose.slides/iparagraphcollection/insert#insert_1)(int, IParagraphCollection) | Inserts a content of ParagraphCollection into the collection at the specified index. |
 | [Remove](../../aspose.slides/iparagraphcollection/remove)(IParagraph) | Removes the first occurrence of a specific paragraph. |
 | [RemoveAt](../../aspose.slides/iparagraphcollection/removeat)(int) | Removes the element at the specified index of the collection. |
 

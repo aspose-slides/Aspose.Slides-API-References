@@ -1,7 +1,7 @@
 ---
 title: AutofitType
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets texts autofit mode. Changing of this property can produce a certain influence only for these chart parts DataLabel and DataLabelFormat full suport in PowerPoint 2013 in PowerPoint 2007 there is no effect for rendering. Read/write TextAutofitTypeaspose.slides/textautofittype.
 type: docs
 weight: 20
 url: /net/aspose.slides.charts/icharttextblockformat/autofittype/

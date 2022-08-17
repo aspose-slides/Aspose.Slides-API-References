@@ -1,7 +1,7 @@
 ---
 title: TickMarksSpacing
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Specifies how many tick marks shall be skipped before the next one shall be drawn. Applied to category or series axis. Read/write UInt16.
 type: docs
 weight: 530
 url: /net/aspose.slides.charts/iaxis/tickmarksspacing/

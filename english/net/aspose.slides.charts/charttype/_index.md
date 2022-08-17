@@ -1,9 +1,9 @@
 ---
 title: ChartType
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents a type of chart.
 type: docs
-weight: 1360
+weight: 1380
 url: /net/aspose.slides.charts/charttype/
 ---
 ## ChartType enumeration

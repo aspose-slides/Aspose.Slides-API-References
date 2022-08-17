@@ -1,7 +1,7 @@
 ---
 title: Format
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the format of a plot area. Read-only IFormataspose.slides.charts/iformat.
 type: docs
 weight: 70
 url: /net/aspose.slides.charts/chartplotarea/format/

@@ -1,9 +1,9 @@
 ---
 title: SoundLoop
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: This attribute specifies if the sound will loop until the next sound event occurs in slideshow. Read/write Boolean.
 type: docs
-weight: 50
+weight: 60
 url: /net/aspose.slides.slideshow/slideshowtransition/soundloop/
 ---
 ## SlideShowTransition.SoundLoop property

@@ -1,7 +1,7 @@
 ---
 title: FontAlignment
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets a font alignment in a paragraph. Read/write FontAlignmentaspose.slides/fontalignment.
 type: docs
 weight: 40
 url: /net/aspose.slides.charts/ichartparagraphformat/fontalignment/

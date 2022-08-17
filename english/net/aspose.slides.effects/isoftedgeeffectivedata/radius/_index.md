@@ -1,7 +1,7 @@
 ---
 title: Radius
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Specifies the radius of blur to apply to the edges. Read-only Double.
 type: docs
 weight: 20
 url: /net/aspose.slides.effects/isoftedgeeffectivedata/radius/

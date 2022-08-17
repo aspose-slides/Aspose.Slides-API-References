@@ -1,12 +1,12 @@
 ---
 title: AddText
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Adds plain text to the html files replacing special characters with html entities. Linebreaks and whitespaces arent replaced.
 type: docs
 weight: 90
 url: /net/aspose.slides.export/htmlgenerator/addtext/
 ---
-## HtmlGenerator.AddText method (1 of 3)
+## AddText(string) {#addtext_2}
 
 Adds plain text to the html files, replacing special characters with html entities. Linebreaks and whitespaces aren't replaced.
 
@@ -26,7 +26,7 @@ public void AddText(string text)
 
 ---
 
-## HtmlGenerator.AddText method (2 of 3)
+## AddText(char[]) {#addtext}
 
 Adds plain text to the html files, replacing special characters with html entities. Linebreaks and whitespaces aren't replaced.
 
@@ -46,7 +46,7 @@ public void AddText(char[] text)
 
 ---
 
-## HtmlGenerator.AddText method (3 of 3)
+## AddText(char[], int, int) {#addtext_1}
 
 Adds plain text to the html files, replacing special characters with html entities. Linebreaks and whitespaces aren't replaced.
 

@@ -1,7 +1,7 @@
 ---
 title: AddComment
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Add new comment at the end of a collection.
 type: docs
 weight: 20
 url: /net/aspose.slides/icommentcollection/addcomment/

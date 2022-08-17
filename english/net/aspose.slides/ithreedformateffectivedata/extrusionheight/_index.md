@@ -1,7 +1,7 @@
 ---
 title: ExtrusionHeight
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the height of an extrusion effect. Read-only Double.
 type: docs
 weight: 90
 url: /net/aspose.slides/ithreedformateffectivedata/extrusionheight/

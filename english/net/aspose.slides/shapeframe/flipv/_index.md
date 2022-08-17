@@ -1,7 +1,7 @@
 ---
 title: FlipV
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Determines whether a frame is flipped vertically. Read-only NullableBoolaspose.slides/nullablebool.
 type: docs
 weight: 50
 url: /net/aspose.slides/shapeframe/flipv/

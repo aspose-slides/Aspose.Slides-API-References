@@ -1,7 +1,7 @@
 ---
 title: GradientFormat
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the gradient fill format. Read-only IGradientFormataspose.slides/igradientformat.
 type: docs
 weight: 20
 url: /net/aspose.slides/fillformat/gradientformat/

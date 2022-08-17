@@ -1,7 +1,7 @@
 ---
 title: MinValue
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents the minimum value on the value axis. Read/write Double.
 type: docs
 weight: 430
 url: /net/aspose.slides.charts/iaxis/minvalue/

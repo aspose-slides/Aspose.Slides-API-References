@@ -1,7 +1,7 @@
 ---
 title: PptH
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents ppt_h property
 type: docs
 weight: 520
 url: /net/aspose.slides.animation/behaviorproperty/ppth/

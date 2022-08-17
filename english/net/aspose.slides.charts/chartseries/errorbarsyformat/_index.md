@@ -1,7 +1,7 @@
 ---
 title: ErrorBarsYFormat
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents ErrorBars of series with derection Y.  ErrorBars with Y direction are avalible for series of type area bar line scatter and bubble. For any other types of chart this property returns null including 3D charts. In case of custom values use DataPoints collection to specify value with ErrorBarsCustomValuesaspose.slides.charts/ichartdatapoint/errorbarscustomvalues property.  Read-only IErrorBarsFormataspose.slides.charts/ierrorbarsformat.
 type: docs
 weight: 80
 url: /net/aspose.slides.charts/chartseries/errorbarsyformat/

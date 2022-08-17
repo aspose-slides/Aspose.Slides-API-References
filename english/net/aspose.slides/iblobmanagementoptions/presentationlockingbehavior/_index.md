@@ -1,7 +1,7 @@
 ---
 title: PresentationLockingBehavior
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: This property defines if an instance of the Presentation class can be an owner of the source - file or stream during the instance lifetime. If the instance is an owner it locks the source. This helps to improve memory consumption and performance while working with BLOBs but the source stream or file cant be changed during Presentations instance lifetime. This is an example
 type: docs
 weight: 30
 url: /net/aspose.slides/iblobmanagementoptions/presentationlockingbehavior/

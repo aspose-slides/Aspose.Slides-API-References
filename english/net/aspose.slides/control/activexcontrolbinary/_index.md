@@ -1,7 +1,7 @@
 ---
 title: ActiveXControlBinary
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Specifies the persistence of an ActiveX control when the method used to persist is either PersistStream PersistStreamInit or PersistStorage.
 type: docs
 weight: 10
 url: /net/aspose.slides/control/activexcontrolbinary/

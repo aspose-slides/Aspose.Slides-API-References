@@ -1,12 +1,12 @@
 ---
 title: CreateMathFraction
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates a math fraction
 type: docs
 weight: 20
 url: /net/aspose.slides.mathtext/mathfractionfactory/createmathfraction/
 ---
-## MathFractionFactory.CreateMathFraction method (1 of 2)
+## CreateMathFraction(IMathElement, IMathElement, MathFractionTypes) {#createmathfraction_1}
 
 Creates a math fraction
 
@@ -32,7 +32,7 @@ public IMathFraction CreateMathFraction(IMathElement numerator, IMathElement den
 
 ---
 
-## MathFractionFactory.CreateMathFraction method (2 of 2)
+## CreateMathFraction(IMathElement, IMathElement) {#createmathfraction}
 
 Creates a math fraction
 

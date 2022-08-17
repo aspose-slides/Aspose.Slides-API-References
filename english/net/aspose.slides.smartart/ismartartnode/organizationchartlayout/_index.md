@@ -1,7 +1,7 @@
 ---
 title: OrganizationChartLayout
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets organization chart layout type associated with current node. Read/write OrganizationChartLayoutTypeaspose.slides.smartart/organizationchartlayouttype.
 type: docs
 weight: 60
 url: /net/aspose.slides.smartart/ismartartnode/organizationchartlayout/

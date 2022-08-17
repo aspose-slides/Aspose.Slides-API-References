@@ -1,7 +1,7 @@
 ---
 title: BackColor
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the background pattern color. Read-only Color.
 type: docs
 weight: 10
 url: /net/aspose.slides/ipatternformateffectivedata/backcolor/

@@ -1,7 +1,7 @@
 ---
 title: DisableBlurEffect
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Disables blur effect.
 type: docs
 weight: 100
 url: /net/aspose.slides/effectformat/disableblureffect/

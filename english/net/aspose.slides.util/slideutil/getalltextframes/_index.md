@@ -1,7 +1,7 @@
 ---
 title: GetAllTextFrames
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns all text frames in a PPTX presentation.
 type: docs
 weight: 40
 url: /net/aspose.slides.util/slideutil/getalltextframes/

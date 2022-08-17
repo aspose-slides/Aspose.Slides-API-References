@@ -1,7 +1,7 @@
 ---
 title: DateTime6
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Current date and time in a sixth predefined format Month YY for english. Read-only FieldTypeaspose.slides/fieldtype.
 type: docs
 weight: 120
 url: /net/aspose.slides/fieldtype/datetime6/

@@ -1,7 +1,7 @@
 ---
 title: CreatePresetShadow
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates Preset shadow effect.
 type: docs
 weight: 50
 url: /net/aspose.slides.effects/ieffectfactory/createpresetshadow/

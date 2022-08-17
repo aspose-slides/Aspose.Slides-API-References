@@ -1,7 +1,7 @@
 ---
 title: Index
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Gets the index of a placeholder. Read-only UInt32.
 type: docs
 weight: 10
 url: /net/aspose.slides/iplaceholder/index/

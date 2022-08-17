@@ -1,7 +1,7 @@
 ---
 title: AsITheme
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Allows to get base ITheme interface. Read-only IThemeaspose.slides.theme/itheme.
 type: docs
 weight: 10
 url: /net/aspose.slides.theme/ioverridetheme/asitheme/

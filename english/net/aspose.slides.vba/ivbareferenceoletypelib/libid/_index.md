@@ -1,7 +1,7 @@
 ---
 title: Libid
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents the identifier of an Automation type library. Read/write String.
 type: docs
 weight: 20
 url: /net/aspose.slides.vba/ivbareferenceoletypelib/libid/

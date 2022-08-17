@@ -1,9 +1,9 @@
 ---
 title: IPresentationInfo
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Information about presentation file
 type: docs
-weight: 6230
+weight: 6250
 url: /net/aspose.slides/ipresentationinfo/
 ---
 ## IPresentationInfo interface
@@ -31,8 +31,8 @@ public interface IPresentationInfo
 | [CheckWriteProtection](../../aspose.slides/ipresentationinfo/checkwriteprotection)(string) | Checks whether a password to modify is correct for a write protected presentation. |
 | [ReadDocumentProperties](../../aspose.slides/ipresentationinfo/readdocumentproperties)() | Gets document properties of binded presentation. |
 | [UpdateDocumentProperties](../../aspose.slides/ipresentationinfo/updatedocumentproperties)(IDocumentProperties) | Updates properties of binded presentation. |
-| [WriteBindedPresentation](../../aspose.slides/ipresentationinfo/writebindedpresentation)(Stream) | Writes binded presentation to stream. |
-| [WriteBindedPresentation](../../aspose.slides/ipresentationinfo/writebindedpresentation)(string) | Writes binded presentation to file. |
+| [WriteBindedPresentation](../../aspose.slides/ipresentationinfo/writebindedpresentation#writebindedpresentation)(Stream) | Writes binded presentation to stream. |
+| [WriteBindedPresentation](../../aspose.slides/ipresentationinfo/writebindedpresentation#writebindedpresentation_1)(string) | Writes binded presentation to file. |
 
 ### See Also
 

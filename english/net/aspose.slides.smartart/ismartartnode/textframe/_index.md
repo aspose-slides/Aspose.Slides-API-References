@@ -1,7 +1,7 @@
 ---
 title: TextFrame
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets text of the node. Read-only ITextFrameaspose.slides/itextframe.
 type: docs
 weight: 90
 url: /net/aspose.slides.smartart/ismartartnode/textframe/

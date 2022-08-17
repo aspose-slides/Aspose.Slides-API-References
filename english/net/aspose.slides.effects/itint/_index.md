@@ -1,9 +1,9 @@
 ---
 title: ITint
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents a Tint effect. Shifts effect color values towards/away from hue by the specified amount.
 type: docs
-weight: 3340
+weight: 3360
 url: /net/aspose.slides.effects/itint/
 ---
 ## ITint interface

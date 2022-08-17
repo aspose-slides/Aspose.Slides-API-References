@@ -1,7 +1,7 @@
 ---
 title: Width
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets the width of a line. Read/write Double.
 type: docs
 weight: 170
 url: /net/aspose.slides/lineformat/width/

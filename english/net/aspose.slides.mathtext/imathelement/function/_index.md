@@ -1,12 +1,12 @@
 ---
 title: Function
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Takes a function of an argument using this instance as the function name
 type: docs
 weight: 50
 url: /net/aspose.slides.mathtext/imathelement/function/
 ---
-## IMathElement.Function method (1 of 2)
+## Function(IMathElement) {#function}
 
 Takes a function of an argument using this instance as the function name
 
@@ -42,7 +42,7 @@ IMathFunction func = functionName.Function(functionArg);
 
 ---
 
-## IMathElement.Function method (2 of 2)
+## Function(string) {#function_1}
 
 Takes a function of an argument using this instance as the function name
 

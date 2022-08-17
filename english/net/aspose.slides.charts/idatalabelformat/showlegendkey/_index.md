@@ -1,7 +1,7 @@
 ---
 title: ShowLegendKey
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents a specified charts data label legend key display behavior. True if the data label legend key is visible. Read/write Boolean.
 type: docs
 weight: 120
 url: /net/aspose.slides.charts/idatalabelformat/showlegendkey/

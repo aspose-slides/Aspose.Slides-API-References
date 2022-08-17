@@ -1,7 +1,7 @@
 ---
 title: Value0
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Defines first value of offset. Read/write Single.
 type: docs
 weight: 20
 url: /net/aspose.slides.animation/coloroffset/value0/

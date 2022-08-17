@@ -1,12 +1,12 @@
 ---
 title: ReadPresentation
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Reads an existing presentation from array
 type: docs
 weight: 40
 url: /net/aspose.slides/ipresentationfactory/readpresentation/
 ---
-## IPresentationFactory.ReadPresentation method (1 of 6)
+## ReadPresentation(byte[]) {#readpresentation}
 
 Reads an existing presentation from array
 
@@ -31,7 +31,7 @@ Read presentation
 
 ---
 
-## IPresentationFactory.ReadPresentation method (2 of 6)
+## ReadPresentation(byte[], ILoadOptions) {#readpresentation_1}
 
 Reads an existing presentation from array with additional load options
 
@@ -58,7 +58,7 @@ Read presentation
 
 ---
 
-## IPresentationFactory.ReadPresentation method (3 of 6)
+## ReadPresentation(Stream) {#readpresentation_2}
 
 Reads an existing presentation from stream
 
@@ -83,7 +83,7 @@ Read presentation
 
 ---
 
-## IPresentationFactory.ReadPresentation method (4 of 6)
+## ReadPresentation(Stream, ILoadOptions) {#readpresentation_3}
 
 Reads an existing presentation from stream with additional load options
 
@@ -110,7 +110,7 @@ Read presentation
 
 ---
 
-## IPresentationFactory.ReadPresentation method (5 of 6)
+## ReadPresentation(string) {#readpresentation_4}
 
 Reads an existing presentation from file
 
@@ -135,7 +135,7 @@ Read presentation
 
 ---
 
-## IPresentationFactory.ReadPresentation method (6 of 6)
+## ReadPresentation(string, ILoadOptions) {#readpresentation_5}
 
 Reads an existing presentation from stream with additional load options
 

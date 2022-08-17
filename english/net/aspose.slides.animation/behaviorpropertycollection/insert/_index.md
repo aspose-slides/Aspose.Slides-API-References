@@ -1,12 +1,12 @@
 ---
 title: Insert
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Inserts a new property to the collection at the specified index.
 type: docs
 weight: 100
 url: /net/aspose.slides.animation/behaviorpropertycollection/insert/
 ---
-## BehaviorPropertyCollection.Insert method (1 of 2)
+## Insert(int, IBehaviorProperty) {#insert}
 
 Inserts a new property to the collection at the specified index.
 
@@ -28,7 +28,7 @@ public void Insert(int index, IBehaviorProperty item)
 
 ---
 
-## BehaviorPropertyCollection.Insert method (2 of 2)
+## Insert(int, string) {#insert_1}
 
 Inserts a new property (with the specified property value) to the collection at the specified index.
 

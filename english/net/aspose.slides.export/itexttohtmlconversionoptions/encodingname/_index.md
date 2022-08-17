@@ -1,7 +1,7 @@
 ---
 title: EncodingName
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets html encoding name. This value will be saved to the generated HTML file but its up to caller to ensure that file will be saved in this encoding. Read/write String.
 type: docs
 weight: 20
 url: /net/aspose.slides.export/itexttohtmlconversionoptions/encodingname/

@@ -1,7 +1,7 @@
 ---
 title: XmlAsString
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets xml data as UTF-8 string. Read/write String. value is null.value is empty or xml-data is invalid.
 type: docs
 weight: 30
 url: /net/aspose.slides/icustomxmlpart/xmlasstring/

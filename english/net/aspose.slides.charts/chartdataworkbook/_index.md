@@ -1,9 +1,9 @@
 ---
 title: ChartDataWorkbook
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Provides access to embedded Excel workbook
 type: docs
-weight: 1240
+weight: 1260
 url: /net/aspose.slides.charts/chartdataworkbook/
 ---
 ## ChartDataWorkbook class
@@ -26,11 +26,11 @@ public class ChartDataWorkbook : DomObject<ChartData>, IChartDataWorkbook
 | --- | --- |
 | [CalculateFormulas](../../aspose.slides.charts/chartdataworkbook/calculateformulas)() | Calculates all formulas in the workbook and updates corresponding cells values. |
 | [Clear](../../aspose.slides.charts/chartdataworkbook/clear)(int) | Clear all cells values on sheet |
-| [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell)(int, string) | Gets the cell that can be used for chart series or categories |
-| [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell)(int, int, int) | Gets the cell that can be used for chart series or categories |
-| [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell)(int, string, object) | Gets the cell that can be used for chart series or categories |
-| [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell)(string, int, int) | Gets the cell that can be used for chart series or categories |
-| [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell)(int, int, int, object) | Gets the cell that can be used for chart series or categories |
+| [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell#getcell_2)(int, string) | Gets the cell that can be used for chart series or categories |
+| [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell#getcell)(int, int, int) | Gets the cell that can be used for chart series or categories |
+| [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell#getcell_3)(int, string, object) | Gets the cell that can be used for chart series or categories |
+| [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell#getcell_4)(string, int, int) | Gets the cell that can be used for chart series or categories |
+| [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell#getcell_1)(int, int, int, object) | Gets the cell that can be used for chart series or categories |
 | [GetCellCollection](../../aspose.slides.charts/chartdataworkbook/getcellcollection)(string, bool) | Gets the set of cells. |
 
 ### See Also

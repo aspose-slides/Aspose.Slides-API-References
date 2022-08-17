@@ -1,7 +1,7 @@
 ---
 title: SetFooterAndChildFootersVisibility
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Changes layout slide footer placeholder and all child footer placeholders visibility. Child placeholders mean placeholders are contained on depending slides. Depending slides use and depend on master slide.
 type: docs
 weight: 50
 url: /net/aspose.slides/ilayoutslideheaderfootermanager/setfooterandchildfootersvisibility/

@@ -1,7 +1,7 @@
 ---
 title: FirstSlideNumber
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents the first slide number in the presentation. Read/write Int32.
 type: docs
 weight: 110
 url: /net/aspose.slides/ipresentation/firstslidenumber/

@@ -1,7 +1,7 @@
 ---
 title: CreateThemeEffective
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns an effective theme for this themeable object.
 type: docs
 weight: 20
 url: /net/aspose.slides.theme/ithemeable/createthemeeffective/

@@ -1,7 +1,7 @@
 ---
 title: Hide
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Make data label hidden by setting all Show-flags ShowValue ... to false state. IsVisible will be false after this.
 type: docs
 weight: 80
 url: /net/aspose.slides.charts/idatalabel/hide/

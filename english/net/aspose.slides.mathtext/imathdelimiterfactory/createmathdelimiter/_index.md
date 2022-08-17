@@ -1,12 +1,12 @@
 ---
 title: CreateMathDelimiter
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Create a math delimiter by applying to the element
 type: docs
 weight: 10
 url: /net/aspose.slides.mathtext/imathdelimiterfactory/createmathdelimiter/
 ---
-## IMathDelimiterFactory.CreateMathDelimiter method (1 of 2)
+## CreateMathDelimiter(IMathElement) {#createmathdelimiter}
 
 Create a math delimiter by applying to the element
 
@@ -32,7 +32,7 @@ new math delimiter
 
 ---
 
-## IMathDelimiterFactory.CreateMathDelimiter method (2 of 2)
+## CreateMathDelimiter(IMathElementCollection) {#createmathdelimiter_1}
 
 Create a math delimiter by applying to the element
 

@@ -1,7 +1,7 @@
 ---
 title: Height
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets the height of a plot area bounding box as a fraction of the height of the chart from 0 to 1. Read/write Single.
 type: docs
 weight: 80
 url: /net/aspose.slides.charts/chartplotarea/height/

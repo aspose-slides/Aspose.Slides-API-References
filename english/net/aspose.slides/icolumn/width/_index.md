@@ -1,7 +1,7 @@
 ---
 title: Width
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets the width of a column. Read/write Double.
 type: docs
 weight: 40
 url: /net/aspose.slides/icolumn/width/

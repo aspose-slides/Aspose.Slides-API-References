@@ -1,7 +1,7 @@
 ---
 title: ImageDataCropBottom
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents imageData.cropBottom property
 type: docs
 weight: 440
 url: /net/aspose.slides.animation/behaviorproperty/imagedatacropbottom/

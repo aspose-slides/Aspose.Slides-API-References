@@ -1,7 +1,7 @@
 ---
 title: IsAssistant
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets the node as assistant. Read/write Boolean.
 type: docs
 weight: 30
 url: /net/aspose.slides.smartart/smartartnode/isassistant/

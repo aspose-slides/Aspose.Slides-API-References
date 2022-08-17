@@ -1,7 +1,7 @@
 ---
 title: R
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets the red component of a color. All color transformations are ignored. Read/write Byte.
 type: docs
 weight: 130
 url: /net/aspose.slides/icolorformat/r/

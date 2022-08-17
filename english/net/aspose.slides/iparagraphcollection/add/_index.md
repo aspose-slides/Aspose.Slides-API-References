@@ -1,12 +1,12 @@
 ---
 title: Add
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Adds a Paragraph to the end of collection.
 type: docs
 weight: 50
 url: /net/aspose.slides/iparagraphcollection/add/
 ---
-## IParagraphCollection.Add method (1 of 2)
+## Add(IParagraph) {#add_1}
 
 Adds a Paragraph to the end of collection.
 
@@ -27,7 +27,7 @@ public void Add(IParagraph value)
 
 ---
 
-## IParagraphCollection.Add method (2 of 2)
+## Add(IParagraphCollection) {#add}
 
 Adds a content of ParagraphCollection to the end of collection.
 

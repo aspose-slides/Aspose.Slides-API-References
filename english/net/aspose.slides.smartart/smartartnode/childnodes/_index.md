@@ -1,7 +1,7 @@
 ---
 title: ChildNodes
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns collections of all child nodes of the current node. Read-only ISmartArtNodeCollectionaspose.slides.smartart/ismartartnodecollection.
 type: docs
 weight: 20
 url: /net/aspose.slides.smartart/smartartnode/childnodes/

@@ -1,7 +1,7 @@
 ---
 title: InitColorSchemeFromInherited
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Init ColorScheme with new object for overriding ColorScheme of InheritedTheme. And initialize data of this new object with data of the ColorScheme of InheritedTheme.
 type: docs
 weight: 60
 url: /net/aspose.slides.theme/ioverridetheme/initcolorschemefrominherited/

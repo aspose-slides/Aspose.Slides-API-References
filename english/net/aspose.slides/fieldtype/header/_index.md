@@ -1,7 +1,7 @@
 ---
 title: Header
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Slides header. Read-only FieldTypeaspose.slides/fieldtype.
 type: docs
 weight: 170
 url: /net/aspose.slides/fieldtype/header/

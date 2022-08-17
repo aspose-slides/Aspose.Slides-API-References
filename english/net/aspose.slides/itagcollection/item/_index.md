@@ -1,7 +1,7 @@
 ---
 title: Item
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets a key and a value pair of a tag.
 type: docs
 weight: 10
 url: /net/aspose.slides/itagcollection/item/

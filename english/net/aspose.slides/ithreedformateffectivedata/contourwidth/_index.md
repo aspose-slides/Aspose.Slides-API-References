@@ -1,7 +1,7 @@
 ---
 title: ContourWidth
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the width of a 3D contour. Read-only Double.
 type: docs
 weight: 60
 url: /net/aspose.slides/ithreedformateffectivedata/contourwidth/

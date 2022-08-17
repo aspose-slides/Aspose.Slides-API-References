@@ -1,7 +1,7 @@
 ---
 title: SetColumnAlignment
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Set the horizontal alignment of the specified column
 type: docs
 weight: 190
 url: /net/aspose.slides.mathtext/imathmatrix/setcolumnalignment/

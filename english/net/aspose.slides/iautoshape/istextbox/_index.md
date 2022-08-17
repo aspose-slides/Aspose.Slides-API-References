@@ -1,7 +1,7 @@
 ---
 title: IsTextBox
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Specifies if the shape is a text box.
 type: docs
 weight: 30
 url: /net/aspose.slides/iautoshape/istextbox/

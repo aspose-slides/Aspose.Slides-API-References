@@ -1,9 +1,9 @@
 ---
 title: IMathAccent
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Specifies the accent function consisting of a base and a combining diacritical mark Example ́
 type: docs
-weight: 7370
+weight: 7390
 url: /net/aspose.slides.mathtext/imathaccent/
 ---
 ## IMathAccent interface

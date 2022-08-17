@@ -1,7 +1,7 @@
 ---
 title: PresentationLockingBehavior
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents the locking behavior for the presentations source stream or file.
 type: docs
 weight: 40
 url: /net/aspose.slides/blobmanagementoptions/presentationlockingbehavior/

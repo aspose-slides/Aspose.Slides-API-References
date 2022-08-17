@@ -1,7 +1,7 @@
 ---
 title: PatternStyle
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the pattern style. Read-only PatternStyleaspose.slides/patternstyle.
 type: docs
 weight: 30
 url: /net/aspose.slides/ipatternformateffectivedata/patternstyle/

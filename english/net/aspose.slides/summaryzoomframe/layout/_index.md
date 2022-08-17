@@ -1,7 +1,7 @@
 ---
 title: Layout
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Gets layout of Summary Zoom Sections in the frame. Default value is GridLayout.
 type: docs
 weight: 10
 url: /net/aspose.slides/summaryzoomframe/layout/

@@ -1,12 +1,12 @@
 ---
 title: CreateMathLimit
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates IMathLimit
 type: docs
 weight: 20
 url: /net/aspose.slides.mathtext/mathlimitfactory/createmathlimit/
 ---
-## MathLimitFactory.CreateMathLimit method (1 of 2)
+## CreateMathLimit(IMathElement, IMathElement, bool) {#createmathlimit_1}
 
 Creates IMathLimit
 
@@ -34,7 +34,7 @@ new math limit
 
 ---
 
-## MathLimitFactory.CreateMathLimit method (2 of 2)
+## CreateMathLimit(IMathElement, IMathElement) {#createmathlimit}
 
 Creates IMathLimit with limit at the bottom
 

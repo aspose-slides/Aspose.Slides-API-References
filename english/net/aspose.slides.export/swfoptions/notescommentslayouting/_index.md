@@ -1,7 +1,7 @@
 ---
 title: NotesCommentsLayouting
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Provides options that control how notes and comments is placed in exported document.
 type: docs
 weight: 70
 url: /net/aspose.slides.export/swfoptions/notescommentslayouting/

@@ -1,7 +1,7 @@
 ---
 title: History
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Determines whether the target of the parent hyperlink shall be added to a list of viewed hyperlinks when it is invoked. Read/write Boolean.
 type: docs
 weight: 50
 url: /net/aspose.slides/ihyperlink/history/

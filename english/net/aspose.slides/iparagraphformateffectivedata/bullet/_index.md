@@ -1,7 +1,7 @@
 ---
 title: Bullet
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns a bullet format of a paragraph. Read-only IBulletFormatEffectiveDataaspose.slides/ibulletformateffectivedata.
 type: docs
 weight: 20
 url: /net/aspose.slides/iparagraphformateffectivedata/bullet/

@@ -1,7 +1,7 @@
 ---
 title: Dark1
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: First dark color in the scheme. Read-only Color.
 type: docs
 weight: 70
 url: /net/aspose.slides.theme/icolorschemeeffectivedata/dark1/

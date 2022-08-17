@@ -1,9 +1,9 @@
 ---
 title: IMathSuperscriptElement
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Specifies the superscript object which consists of a base and a reduced-size superscript placed above and to the right
 type: docs
-weight: 7770
+weight: 7790
 url: /net/aspose.slides.mathtext/imathsuperscriptelement/
 ---
 ## IMathSuperscriptElement interface

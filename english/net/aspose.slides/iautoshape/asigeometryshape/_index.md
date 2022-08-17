@@ -1,7 +1,7 @@
 ---
 title: AsIGeometryShape
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Allows to get base IGeometryShape interface. Read-only IGeometryShapeaspose.slides/igeometryshape.
 type: docs
 weight: 10
 url: /net/aspose.slides/iautoshape/asigeometryshape/

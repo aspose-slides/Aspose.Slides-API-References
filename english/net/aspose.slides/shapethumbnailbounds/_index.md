@@ -1,9 +1,9 @@
 ---
 title: ShapeThumbnailBounds
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Enumeration of types of shape thumbnail bounds.
 type: docs
-weight: 9140
+weight: 9160
 url: /net/aspose.slides/shapethumbnailbounds/
 ---
 ## ShapeThumbnailBounds enumeration

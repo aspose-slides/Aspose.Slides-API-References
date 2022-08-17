@@ -1,12 +1,12 @@
 ---
 title: Contains
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Determines whether the ICollection contains a specific value.
 type: docs
 weight: 60
 url: /net/aspose.slides.animation/behaviorpropertycollection/contains/
 ---
-## BehaviorPropertyCollection.Contains method (1 of 2)
+## Contains(IBehaviorProperty) {#contains}
 
 Determines whether the ICollection contains a specific value.
 
@@ -31,7 +31,7 @@ true if *item* is found in the ICollection; otherwise, false.
 
 ---
 
-## BehaviorPropertyCollection.Contains method (2 of 2)
+## Contains(string) {#contains_1}
 
 Determines whether the ICollection contains a specific value.
 

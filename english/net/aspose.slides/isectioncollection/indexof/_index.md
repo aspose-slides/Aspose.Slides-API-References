@@ -1,7 +1,7 @@
 ---
 title: IndexOf
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns an index of the specified section in the collection.
 type: docs
 weight: 60
 url: /net/aspose.slides/isectioncollection/indexof/

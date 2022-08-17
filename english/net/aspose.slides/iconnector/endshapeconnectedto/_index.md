@@ -1,7 +1,7 @@
 ---
 title: EndShapeConnectedTo
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets the shape to attach the end of the connector to. Read/write IShapeaspose.slides/ishape.
 type: docs
 weight: 30
 url: /net/aspose.slides/iconnector/endshapeconnectedto/

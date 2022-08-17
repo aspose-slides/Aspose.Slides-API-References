@@ -1,12 +1,12 @@
 ---
 title: Enclose
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Encloses child elements of this block in specified characters such as parenthesis or another characters as framing
 type: docs
 weight: 100
 url: /net/aspose.slides.mathtext/mathblock/enclose/
 ---
-## MathBlock.Enclose method (1 of 2)
+## Enclose(char, char) {#enclose_1}
 
 Encloses child elements of this block in specified characters such as parenthesis or another characters as framing
 
@@ -42,7 +42,7 @@ IMathDelimiter delimiter = block.Enclose('[', ']');
 
 ---
 
-## MathBlock.Enclose method (2 of 2)
+## Enclose(char, char, char) {#enclose_2}
 
 Encloses child elements of this block in specified characters such as parenthesis or another as framing and delimit with a separator character
 

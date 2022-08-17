@@ -1,7 +1,7 @@
 ---
 title: GapDepth
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets the distance as a percentage of the marker width between the data series in a 3D chart. Read/write UInt16.
 type: docs
 weight: 60
 url: /net/aspose.slides.charts/chartseriesgroup/gapdepth/

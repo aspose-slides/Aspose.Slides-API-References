@@ -1,7 +1,7 @@
 ---
 title: PictureFillFormat
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the picture fill format. Read-only IPictureFillFormatEffectiveDataaspose.slides/ipicturefillformateffectivedata.
 type: docs
 weight: 50
 url: /net/aspose.slides/ifillformateffectivedata/picturefillformat/

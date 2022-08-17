@@ -1,12 +1,12 @@
 ---
 title: InsertChart
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates a new Chart initialize it with sample series data and settings and inserts it to the specified position in the collection.
 type: docs
 weight: 310
 url: /net/aspose.slides/shapecollection/insertchart/
 ---
-## ShapeCollection.InsertChart method (1 of 2)
+## InsertChart(ChartType, float, float, float, float, int) {#insertchart}
 
 Creates a new Chart, initialize it with sample series data and settings and inserts it to the specified position in the collection.
 
@@ -37,7 +37,7 @@ Created chart.
 
 ---
 
-## ShapeCollection.InsertChart method (2 of 2)
+## InsertChart(ChartType, float, float, float, float, int, bool) {#insertchart_1}
 
 Creates a new Chart and inserts it to the specified position in the collection.
 

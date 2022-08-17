@@ -1,7 +1,7 @@
 ---
 title: ReorderSectionWithSlides
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Moves section and its slides from the collection to the specified position.
 type: docs
 weight: 90
 url: /net/aspose.slides/isectioncollection/reordersectionwithslides/

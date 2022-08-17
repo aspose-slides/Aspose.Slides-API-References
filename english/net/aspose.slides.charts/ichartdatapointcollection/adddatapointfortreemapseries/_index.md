@@ -1,7 +1,7 @@
 ---
 title: AddDataPointForTreemapSeries
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates the new data point and adds it to the end of collection. Applicable for series which chart type is Treemap.
 type: docs
 weight: 220
 url: /net/aspose.slides.charts/ichartdatapointcollection/adddatapointfortreemapseries/

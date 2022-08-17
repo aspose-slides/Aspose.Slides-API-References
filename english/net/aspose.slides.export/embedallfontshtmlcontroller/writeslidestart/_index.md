@@ -1,7 +1,7 @@
 ---
 title: WriteSlideStart
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Called to write html slide header. Called once per each of slides.
 type: docs
 weight: 90
 url: /net/aspose.slides.export/embedallfontshtmlcontroller/writeslidestart/

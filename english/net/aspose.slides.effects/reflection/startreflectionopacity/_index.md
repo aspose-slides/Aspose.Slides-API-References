@@ -1,7 +1,7 @@
 ---
 title: StartReflectionOpacity
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Starting reflection opacity. percents. Read/write Single.
 type: docs
 weight: 140
 url: /net/aspose.slides.effects/reflection/startreflectionopacity/

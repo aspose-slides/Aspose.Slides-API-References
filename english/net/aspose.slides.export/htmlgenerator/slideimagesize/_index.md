@@ -1,7 +1,7 @@
 ---
 title: SlideImageSize
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns slide image size. Read-only SizeF.
 type: docs
 weight: 30
 url: /net/aspose.slides.export/htmlgenerator/slideimagesize/

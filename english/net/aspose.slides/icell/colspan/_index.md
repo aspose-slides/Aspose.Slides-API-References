@@ -1,7 +1,7 @@
 ---
 title: ColSpan
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the number of grid columns in the parent tables table grid which shall be spanned by the current cell. This property allows cells to have the appearance of being merged as they span vertical boundaries of other cells in the table. Read-only Int32.
 type: docs
 weight: 40
 url: /net/aspose.slides/icell/colspan/

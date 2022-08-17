@@ -1,7 +1,7 @@
 ---
 title: BorderTop
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns top border line format effective value. Read-only ILineFormatEffectiveDataaspose.slides/ilineformateffectivedata.
 type: docs
 weight: 60
 url: /net/aspose.slides/ibasetableformateffectivedata/bordertop/

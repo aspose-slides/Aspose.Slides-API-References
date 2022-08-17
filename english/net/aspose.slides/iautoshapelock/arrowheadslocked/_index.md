@@ -1,7 +1,7 @@
 ---
 title: ArrowheadsLocked
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Determines whether a changing arrowheads is forbidden. Read-write Boolean.
 type: docs
 weight: 20
 url: /net/aspose.slides/iautoshapelock/arrowheadslocked/

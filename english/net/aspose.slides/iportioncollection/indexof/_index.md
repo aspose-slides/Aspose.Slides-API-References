@@ -1,7 +1,7 @@
 ---
 title: IndexOf
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Determines the index of a specific portion in collection.
 type: docs
 weight: 70
 url: /net/aspose.slides/iportioncollection/indexof/

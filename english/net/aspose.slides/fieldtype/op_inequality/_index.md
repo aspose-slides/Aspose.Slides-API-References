@@ -1,7 +1,7 @@
 ---
 title: op_Inequality
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Checks if two FieldType objects is inequal.
 type: docs
 weight: 230
 url: /net/aspose.slides/fieldtype/op_inequality/

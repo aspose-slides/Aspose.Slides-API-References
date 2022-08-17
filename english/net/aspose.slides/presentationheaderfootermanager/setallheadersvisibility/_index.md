@@ -1,7 +1,7 @@
 ---
 title: SetAllHeadersVisibility
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Changes all header placeholders visibility including notes master notes slides and handout master.
 type: docs
 weight: 60
 url: /net/aspose.slides/presentationheaderfootermanager/setallheadersvisibility/

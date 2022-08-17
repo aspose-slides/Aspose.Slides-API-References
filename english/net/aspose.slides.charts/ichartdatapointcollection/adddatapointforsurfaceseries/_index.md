@@ -1,12 +1,12 @@
 ---
 title: AddDataPointForSurfaceSeries
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Surface subtypes see also ChartTypeCharacterizer.IsChartTypeSurfaceChartType method.
 type: docs
 weight: 210
 url: /net/aspose.slides.charts/ichartdatapointcollection/adddatapointforsurfaceseries/
 ---
-## IChartDataPointCollection.AddDataPointForSurfaceSeries method (1 of 2)
+## AddDataPointForSurfaceSeries(IChartDataCell) {#adddatapointforsurfaceseries}
 
 Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Surface subtypes (see also ChartTypeCharacterizer.IsChartTypeSurface(ChartType) method).
 
@@ -32,7 +32,7 @@ New data point.
 
 ---
 
-## IChartDataPointCollection.AddDataPointForSurfaceSeries method (2 of 2)
+## AddDataPointForSurfaceSeries(double) {#adddatapointforsurfaceseries_1}
 
 Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Surface subtypes (see also ChartTypeCharacterizer.IsChartTypeSurface(ChartType) method).
 

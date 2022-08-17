@@ -1,7 +1,7 @@
 ---
 title: ExtrusionViewPointY
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents extrusion.viewpoint.y property
 type: docs
 weight: 250
 url: /net/aspose.slides.animation/behaviorproperty/extrusionviewpointy/

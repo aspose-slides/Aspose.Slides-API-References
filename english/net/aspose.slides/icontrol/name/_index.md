@@ -1,7 +1,7 @@
 ---
 title: Name
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the name of this control. Read/write String.
 type: docs
 weight: 50
 url: /net/aspose.slides/icontrol/name/

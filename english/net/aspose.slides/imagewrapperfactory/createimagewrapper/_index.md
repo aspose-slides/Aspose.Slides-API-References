@@ -1,12 +1,12 @@
 ---
 title: CreateImageWrapper
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Initializes a new instance of the BitmapWrapper class from the specified existing image.
 type: docs
 weight: 20
 url: /net/aspose.slides/imagewrapperfactory/createimagewrapper/
 ---
-## ImageWrapperFactory.CreateImageWrapper method (1 of 3)
+## CreateImageWrapper(Image) {#createimagewrapper}
 
 Initializes a new instance of the BitmapWrapper class from the specified existing image.
 
@@ -23,7 +23,7 @@ public IImageWrapper CreateImageWrapper(Image image)
 
 ---
 
-## ImageWrapperFactory.CreateImageWrapper method (2 of 3)
+## CreateImageWrapper(Stream) {#createimagewrapper_1}
 
 Initializes a new instance of the BitmapWrapper class from the specified data stream.
 
@@ -40,7 +40,7 @@ public IImageWrapper CreateImageWrapper(Stream stream)
 
 ---
 
-## ImageWrapperFactory.CreateImageWrapper method (3 of 3)
+## CreateImageWrapper(string) {#createimagewrapper_2}
 
 Initializes a new instance of the BitmapWrapper class from the specified file.
 

@@ -1,7 +1,7 @@
 ---
 title: None
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents an empty interruption token. Long-running operations will never be interrupted via Interruptaspose.slides/interruptiontokensource/interrupt when using this token.
 type: docs
 weight: 10
 url: /net/aspose.slides/interruptiontoken/none/

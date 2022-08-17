@@ -1,7 +1,7 @@
 ---
 title: AspectRatioLocked
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Determines whether a shape have to preserve aspect ratio on resizing. Read/write Boolean.
 type: docs
 weight: 40
 url: /net/aspose.slides/ipictureframelock/aspectratiolocked/

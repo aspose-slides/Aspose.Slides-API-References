@@ -1,7 +1,7 @@
 ---
 title: ExtrusionViewPointZ
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents extrusion.viewpoint.z property
 type: docs
 weight: 260
 url: /net/aspose.slides.animation/behaviorproperty/extrusionviewpointz/

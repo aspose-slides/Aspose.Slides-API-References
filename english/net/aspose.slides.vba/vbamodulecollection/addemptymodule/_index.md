@@ -1,7 +1,7 @@
 ---
 title: AddEmptyModule
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Adds a new empty module to the VBA Project.
 type: docs
 weight: 50
 url: /net/aspose.slides.vba/vbamodulecollection/addemptymodule/

@@ -1,7 +1,7 @@
 ---
 title: Interrupt
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Intialize request for interruption.
 type: docs
 weight: 40
 url: /net/aspose.slides/interruptiontokensource/interrupt/

@@ -1,7 +1,7 @@
 ---
 title: By
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: describes the relative offset value for the animation in percents. Read/write PointF.
 type: docs
 weight: 20
 url: /net/aspose.slides.animation/iscaleeffect/by/

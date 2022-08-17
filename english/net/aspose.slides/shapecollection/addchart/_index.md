@@ -1,12 +1,12 @@
 ---
 title: AddChart
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates a new Chart initialize it with sample series data and settings and adds it to the end of the collection.
 type: docs
 weight: 100
 url: /net/aspose.slides/shapecollection/addchart/
 ---
-## ShapeCollection.AddChart method (1 of 2)
+## AddChart(ChartType, float, float, float, float) {#addchart}
 
 Creates a new Chart, initialize it with sample series data and settings and adds it to the end of the collection.
 
@@ -36,7 +36,7 @@ Created chart.
 
 ---
 
-## ShapeCollection.AddChart method (2 of 2)
+## AddChart(ChartType, float, float, float, float, bool) {#addchart_1}
 
 Creates a new Chart and adds it to the end of the collection.
 

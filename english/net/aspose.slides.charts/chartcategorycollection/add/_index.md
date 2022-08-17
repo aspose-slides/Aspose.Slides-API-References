@@ -1,12 +1,12 @@
 ---
 title: Add
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: If category exists in collection return it. Else creates new chart category from IChartDataCellaspose.slides.charts/ichartdatacell and adds it to the collection.
 type: docs
 weight: 70
 url: /net/aspose.slides.charts/chartcategorycollection/add/
 ---
-## ChartCategoryCollection.Add method (1 of 2)
+## Add(IChartDataCell) {#add}
 
 If category exists in collection, return it. Else creates new chart category from [`IChartDataCell`](../../ichartdatacell) and adds it to the collection.
 
@@ -32,7 +32,7 @@ Added or existing category.
 
 ---
 
-## ChartCategoryCollection.Add method (2 of 2)
+## Add(object) {#add_1}
 
 Creates new [`ChartCategory`](../../chartcategory) from value and adds it to the collection.
 

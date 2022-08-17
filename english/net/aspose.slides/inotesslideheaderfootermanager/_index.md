@@ -1,9 +1,9 @@
 ---
 title: INotesSlideHeaderFooterManager
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents manager which holds behavior of the notes slide placeholders including header placeholder.
 type: docs
-weight: 5950
+weight: 5970
 url: /net/aspose.slides/inotesslideheaderfootermanager/
 ---
 ## INotesSlideHeaderFooterManager interface

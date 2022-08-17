@@ -1,7 +1,7 @@
 ---
 title: GetEmbeddedFonts
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the fonts embedded in the presentation
 type: docs
 weight: 40
 url: /net/aspose.slides/ifontsmanager/getembeddedfonts/

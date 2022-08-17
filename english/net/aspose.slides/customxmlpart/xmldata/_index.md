@@ -1,7 +1,7 @@
 ---
 title: XmlData
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets xml data. Read/write Byte. value is null.value is empty or xml-data is invalid.
 type: docs
 weight: 40
 url: /net/aspose.slides/customxmlpart/xmldata/

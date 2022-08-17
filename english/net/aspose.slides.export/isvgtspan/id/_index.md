@@ -1,7 +1,7 @@
 ---
 title: Id
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Gets or sets id for the tspan element
 type: docs
 weight: 10
 url: /net/aspose.slides.export/isvgtspan/id/

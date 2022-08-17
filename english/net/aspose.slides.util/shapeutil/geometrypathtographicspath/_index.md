@@ -1,7 +1,7 @@
 ---
 title: GeometryPathToGraphicsPath
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Converts IGeometryPathaspose.slides/igeometrypath to GraphicsPath.  GraphicsPath can be transformed in a different ways using its convenient methods and then transformed back into the IGeometryPathaspose.slides/igeometrypath to use in GeometryShapeaspose.slides/geometryshape via GraphicsPathToGeometryPathaspose.slides.util/shapeutil/graphicspathtogeometrypath method.
 type: docs
 weight: 10
 url: /net/aspose.slides.util/shapeutil/geometrypathtographicspath/

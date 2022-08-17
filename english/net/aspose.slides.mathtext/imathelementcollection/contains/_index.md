@@ -1,7 +1,7 @@
 ---
 title: Contains
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Determines whether the collection contains a specific value.
 type: docs
 weight: 60
 url: /net/aspose.slides.mathtext/imathelementcollection/contains/

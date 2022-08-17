@@ -1,7 +1,7 @@
 ---
 title: IsHardUnderlineLine
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Determines whether the underline style has own LineFormat properties or inherits it from the LineFormat properties of the text. Read-only Boolean.
 type: docs
 weight: 130
 url: /net/aspose.slides/ibaseportionformateffectivedata/ishardunderlineline/

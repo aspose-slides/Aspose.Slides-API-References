@@ -1,7 +1,7 @@
 ---
 title: DisplayEquation
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Specifies that the equation for the trendline is displayed on the chart in the same label as the Rsquaredvalue. Read/write Boolean.
 type: docs
 weight: 30
 url: /net/aspose.slides.charts/trendline/displayequation/

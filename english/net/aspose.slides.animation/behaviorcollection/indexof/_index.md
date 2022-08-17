@@ -1,7 +1,7 @@
 ---
 title: IndexOf
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Determines the index of a specific item in the IList.
 type: docs
 weight: 90
 url: /net/aspose.slides.animation/behaviorcollection/indexof/

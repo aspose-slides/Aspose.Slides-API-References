@@ -1,9 +1,9 @@
 ---
 title: VideoPlayerHtmlControllerFactory
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Allows to create VideoPlayerHtmlController.
 type: docs
-weight: 4160
+weight: 4180
 url: /net/aspose.slides.export/videoplayerhtmlcontrollerfactory/
 ---
 ## VideoPlayerHtmlControllerFactory class

@@ -1,7 +1,7 @@
 ---
 title: OuterShadowEffect
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Outer shadow. Read-only IOuterShadowEffectiveDataaspose.slides.effects/ioutershadoweffectivedata.
 type: docs
 weight: 70
 url: /net/aspose.slides/ieffectformateffectivedata/outershadoweffect/

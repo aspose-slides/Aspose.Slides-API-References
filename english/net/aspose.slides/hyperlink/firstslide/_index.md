@@ -1,7 +1,7 @@
 ---
 title: FirstSlide
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns a hyperlink to the first slide of the presentation. Read-only Hyperlinkaspose.slides/hyperlink.
 type: docs
 weight: 30
 url: /net/aspose.slides/hyperlink/firstslide/

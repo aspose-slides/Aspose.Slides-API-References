@@ -1,7 +1,7 @@
 ---
 title: DateTime8
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Current date and time in a eighth predefined format MM/DD/YYYY hhmm AM/PM for english. Read-only FieldTypeaspose.slides/fieldtype.
 type: docs
 weight: 140
 url: /net/aspose.slides/fieldtype/datetime8/

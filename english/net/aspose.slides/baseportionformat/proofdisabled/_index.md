@@ -1,7 +1,7 @@
 ---
 title: ProofDisabled
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Determines whether the text shouldnt be proofed. No inheritance applied. Read/write NullableBoolaspose.slides/nullablebool.
 type: docs
 weight: 200
 url: /net/aspose.slides/baseportionformat/proofdisabled/

@@ -1,9 +1,9 @@
 ---
 title: IGroupShapeLock
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Determines which operations are disabled on the parent GroupShape.
 type: docs
-weight: 5560
+weight: 5580
 url: /net/aspose.slides/igroupshapelock/
 ---
 ## IGroupShapeLock interface

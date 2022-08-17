@@ -1,7 +1,7 @@
 ---
 title: HeightPercents
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Specifies the height of a 3-D chart as a percentage of the chart width between 5 and 500 percent. Read/write UInt16.
 type: docs
 weight: 20
 url: /net/aspose.slides.charts/irotation3d/heightpercents/

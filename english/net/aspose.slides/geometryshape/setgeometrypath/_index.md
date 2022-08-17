@@ -1,7 +1,7 @@
 ---
 title: SetGeometryPath
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Updates shape geometry from IGeometryPathaspose.slides/igeometrypath object. Coordinates must be relative to the left top corner of the shape. Changes the type of the shape ShapeTypeaspose.slides/geometryshape/shapetype to Custom.
 type: docs
 weight: 60
 url: /net/aspose.slides/geometryshape/setgeometrypath/

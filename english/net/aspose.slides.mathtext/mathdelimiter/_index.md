@@ -1,9 +1,9 @@
 ---
 title: MathDelimiter
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Specifies the delimiter object consisting of opening and closing characters such as parentheses braces brackets and vertical bars and one or more mathematical elements inside separated by a specified character. Examples 2 2x7C2
 type: docs
-weight: 7930
+weight: 7950
 url: /net/aspose.slides.mathtext/mathdelimiter/
 ---
 ## MathDelimiter class
@@ -47,7 +47,7 @@ public sealed class MathDelimiter : MathElementBase, IMathDelimiter
 | [Divide](../../aspose.slides.mathtext/mathelementbase/divide)(IMathElement, MathFractionTypes) | Creates a fraction of the specified type with this numerator and specified denominator |
 | [Divide](../../aspose.slides.mathtext/mathelementbase/divide)(string, MathFractionTypes) | Creates a fraction of the specified type with this numerator and specified denominator |
 | [Enclose](../../aspose.slides.mathtext/mathelementbase/enclose)() | Encloses a math element in parenthesis |
-| override [Enclose](../../aspose.slides.mathtext/mathdelimiter/enclose)(char, char) | Encloses a math element in specified characters such as parenthesis or another characters as framing |
+| override [Enclose](../../aspose.slides.mathtext/mathdelimiter/enclose#enclose_1)(char, char) | Encloses a math element in specified characters such as parenthesis or another characters as framing |
 | [Function](../../aspose.slides.mathtext/mathelementbase/function)(IMathElement) | Takes a function of an argument using this instance as the function name |
 | [Function](../../aspose.slides.mathtext/mathelementbase/function)(string) | Takes a function of an argument using this instance as the function name |
 | [GetChildren](../../aspose.slides.mathtext/mathdelimiter/getchildren)() | Get children elements |

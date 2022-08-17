@@ -1,7 +1,7 @@
 ---
 title: Remove
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Removes the first occurrence of a specific object from the ICollection.
 type: docs
 weight: 130
 url: /net/aspose.slides/paragraphcollection/remove/

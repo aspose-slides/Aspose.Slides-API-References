@@ -1,7 +1,7 @@
 ---
 title: CreateSetEffect
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates set effect.
 type: docs
 weight: 80
 url: /net/aspose.slides.animation/ibehaviorfactory/createseteffect/

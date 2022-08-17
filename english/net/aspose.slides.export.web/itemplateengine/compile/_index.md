@@ -1,7 +1,7 @@
 ---
 title: Compile
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Transforms the template with the given key and model object to output.
 type: docs
 weight: 20
 url: /net/aspose.slides.export.web/itemplateengine/compile/

@@ -1,7 +1,7 @@
 ---
 title: HyperlinkMouseOver
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the hyperlink defined for mouse over. Read-only IHyperlinkaspose.slides/ihyperlink.
 type: docs
 weight: 40
 url: /net/aspose.slides/iportionformateffectivedata/hyperlinkmouseover/

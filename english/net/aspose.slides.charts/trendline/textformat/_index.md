@@ -1,7 +1,7 @@
 ---
 title: TextFormat
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns text format. Read-only IChartTextFormataspose.slides.charts/icharttextformat.
 type: docs
 weight: 110
 url: /net/aspose.slides.charts/trendline/textformat/

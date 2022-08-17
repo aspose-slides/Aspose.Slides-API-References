@@ -1,7 +1,7 @@
 ---
 title: IsBar3DChart
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Return true if chartType is one of bar3DChart subtypes 3D columns or bars.
 type: docs
 weight: 40
 url: /net/aspose.slides.charts/charttypecharacterizer/isbar3dchart/

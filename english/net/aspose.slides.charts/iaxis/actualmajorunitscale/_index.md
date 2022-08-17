@@ -1,7 +1,7 @@
 ---
 title: ActualMajorUnitScale
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Specifies actual major unit scale of the axis. Call method IChart.ValidateChartLayout previously to get actual value.
 type: docs
 weight: 20
 url: /net/aspose.slides.charts/iaxis/actualmajorunitscale/

@@ -1,9 +1,9 @@
 ---
 title: IDataLabelFormat
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents formatting options for DataLabel.
 type: docs
-weight: 1900
+weight: 1920
 url: /net/aspose.slides.charts/idatalabelformat/
 ---
 ## IDataLabelFormat interface

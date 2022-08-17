@@ -1,7 +1,7 @@
 ---
 title: ActionType
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns type of Hyperlinks action. Read-only HyperlinkActionTypeaspose.slides/hyperlinkactiontype.
 type: docs
 weight: 100
 url: /net/aspose.slides/hyperlink/actiontype/

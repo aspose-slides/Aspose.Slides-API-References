@@ -1,9 +1,9 @@
 ---
 title: IWarningInfo
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents a base interface for all warnings.
 type: docs
-weight: 11000
+weight: 11050
 url: /net/aspose.slides.warnings/iwarninginfo/
 ---
 ## IWarningInfo interface

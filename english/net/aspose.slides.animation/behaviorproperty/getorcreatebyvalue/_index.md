@@ -1,7 +1,7 @@
 ---
 title: GetOrCreateByValue
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Looks for existing behavior property by value or creates new custom one with the specified value
 type: docs
 weight: 1220
 url: /net/aspose.slides.animation/behaviorproperty/getorcreatebyvalue/

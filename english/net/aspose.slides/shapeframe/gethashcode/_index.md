@@ -1,7 +1,7 @@
 ---
 title: GetHashCode
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns a hash code for this object.
 type: docs
 weight: 150
 url: /net/aspose.slides/shapeframe/gethashcode/

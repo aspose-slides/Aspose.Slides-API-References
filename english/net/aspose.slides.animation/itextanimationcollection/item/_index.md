@@ -1,7 +1,7 @@
 ---
 title: Item
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns element by index.
 type: docs
 weight: 10
 url: /net/aspose.slides.animation/itextanimationcollection/item/

@@ -1,7 +1,7 @@
 ---
 title: CommandEffect
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates new instance.
 type: docs
 weight: 10
 url: /net/aspose.slides.animation/commandeffect/commandeffect/

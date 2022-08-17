@@ -1,7 +1,7 @@
 ---
 title: HideBottom
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Hide Bottom Edge default is false - specifies the hidden or shown state of the bottom edge of border box.
 type: docs
 weight: 30
 url: /net/aspose.slides.mathtext/mathborderbox/hidebottom/

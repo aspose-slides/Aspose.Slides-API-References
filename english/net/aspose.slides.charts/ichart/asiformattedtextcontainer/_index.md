@@ -1,7 +1,7 @@
 ---
 title: AsIFormattedTextContainer
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Allows to get base IFormattedTextContainer interface. Read-only IFormattedTextContaineraspose.slides.charts/iformattedtextcontainer.
 type: docs
 weight: 10
 url: /net/aspose.slides.charts/ichart/asiformattedtextcontainer/

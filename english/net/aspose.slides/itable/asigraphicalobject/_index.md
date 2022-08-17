@@ -1,7 +1,7 @@
 ---
 title: AsIGraphicalObject
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Allows to get base IGraphicalObject interface. Read-only IGraphicalObjectaspose.slides/igraphicalobject.
 type: docs
 weight: 20
 url: /net/aspose.slides/itable/asigraphicalobject/

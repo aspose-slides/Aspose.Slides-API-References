@@ -1,7 +1,7 @@
 ---
 title: InsertVideoFrame
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates a new video frame and inserts it to a collection at the specified index.
 type: docs
 weight: 400
 url: /net/aspose.slides/shapecollection/insertvideoframe/

@@ -1,12 +1,12 @@
 ---
 title: Join
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Joins a mathematical element with this mathematical block
 type: docs
 weight: 140
 url: /net/aspose.slides.mathtext/mathblock/join/
 ---
-## MathBlock.Join method (1 of 2)
+## Join(IMathElement) {#join}
 
 Joins a mathematical element with this mathematical block
 
@@ -43,7 +43,7 @@ IMathBlock block = element1.Join(element2);
 
 ---
 
-## MathBlock.Join method (2 of 2)
+## Join(string) {#join_1}
 
 Joins a mathematical text with this mathematical block
 

@@ -1,7 +1,7 @@
 ---
 title: HyperlinkManager
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the hyperlink manager. Read-only IHyperlinkManageraspose.slides/ihyperlinkmanager.
 type: docs
 weight: 120
 url: /net/aspose.slides/shape/hyperlinkmanager/

@@ -1,7 +1,7 @@
 ---
 title: FirstRow
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Gets first row of cell. Read-only IRowaspose.slides/irow.
 type: docs
 weight: 60
 url: /net/aspose.slides/cell/firstrow/

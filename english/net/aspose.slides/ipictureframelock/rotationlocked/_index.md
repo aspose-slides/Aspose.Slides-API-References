@@ -1,7 +1,7 @@
 ---
 title: RotationLocked
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Determines whether a changing rotation angle of this shape is forbidden. Read/write Boolean.
 type: docs
 weight: 90
 url: /net/aspose.slides/ipictureframelock/rotationlocked/

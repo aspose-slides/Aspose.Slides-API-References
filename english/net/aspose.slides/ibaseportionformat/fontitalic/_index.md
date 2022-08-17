@@ -1,7 +1,7 @@
 ---
 title: FontItalic
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Determines whether the font is itallic. No inheritance applied. Read/write NullableBoolaspose.slides/nullablebool.
 type: docs
 weight: 90
 url: /net/aspose.slides/ibaseportionformat/fontitalic/

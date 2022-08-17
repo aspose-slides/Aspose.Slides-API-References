@@ -1,7 +1,7 @@
 ---
 title: IsObjectIcon
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Determines whether an object is visible as icon. Read/write Boolean.
 type: docs
 weight: 50
 url: /net/aspose.slides/ioleobjectframe/isobjecticon/

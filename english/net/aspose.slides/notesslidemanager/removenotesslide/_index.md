@@ -1,7 +1,7 @@
 ---
 title: RemoveNotesSlide
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Removes notes slide of the current slide.
 type: docs
 weight: 30
 url: /net/aspose.slides/notesslidemanager/removenotesslide/

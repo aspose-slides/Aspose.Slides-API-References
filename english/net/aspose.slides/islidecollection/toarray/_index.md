@@ -1,12 +1,12 @@
 ---
 title: ToArray
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates and returns an array with all slides in it.
 type: docs
 weight: 130
 url: /net/aspose.slides/islidecollection/toarray/
 ---
-## ISlideCollection.ToArray method (1 of 2)
+## ToArray() {#toarray}
 
 Creates and returns an array with all slides in it.
 
@@ -27,7 +27,7 @@ Array of [`ISlide`](../../islide)
 
 ---
 
-## ISlideCollection.ToArray method (2 of 2)
+## ToArray(int, int) {#toarray_1}
 
 Creates and returns an array with all slides from the specified range in it.
 

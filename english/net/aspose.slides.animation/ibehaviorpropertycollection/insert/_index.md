@@ -1,7 +1,7 @@
 ---
 title: Insert
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Inserts a new property with the specified property value to the collection at the specified index.
 type: docs
 weight: 50
 url: /net/aspose.slides.animation/ibehaviorpropertycollection/insert/

@@ -28,6 +28,8 @@ Contains classes for work with Microsoft PowerPoint presentations without utiliz
 | [BaseSlide](./baseslide) | Represents common data for all slide types. |
 | [BaseSlideHeaderFooterManager](./baseslideheaderfootermanager) | Represents manager which holds behavior of the footer, date-time, page number placeholders for all slide types. |
 | [BlobManagementOptions](./blobmanagementoptions) | Represents options which can be used to manage BLOB handling rules and other BLOB settings. |
+| [BrowsedAtKiosk](./browsedatkiosk) | Browsed at a kiosk (full screen) |
+| [BrowsedByIndividual](./browsedbyindividual) | Browsed by individual (window) |
 | [BuildVersionInfo](./buildversioninfo) | Contains information about version of Aspose.Slides. |
 | [BulletFormat](./bulletformat) | Represents paragraph bullet formatting properties. |
 | [Camera](./camera) | Represents Camera. |
@@ -144,7 +146,6 @@ Contains classes for work with Microsoft PowerPoint presentations without utiliz
 | [PptException](./pptexception) | Represents a standard internal exception type. |
 | [PptReadException](./pptreadexception) | Represents an exception which thrown on presentation reading errors. |
 | [PptUnsupportedFormatException](./pptunsupportedformatexception) | Exception which thrown when presentation file format is unsupported. |
-| [PptxCorruptFileException](./pptxcorruptfileexception) |  |
 | [PptxEditException](./pptxeditexception) | Represents an exception thrown when edit presentation error is detected. |
 | [PptxException](./pptxexception) | Represents a standard internal exception type. |
 | [PptxReadException](./pptxreadexception) | Represents an exception which thrown on presentation reading errors. |
@@ -154,6 +155,7 @@ Contains classes for work with Microsoft PowerPoint presentations without utiliz
 | [PresentationHeaderFooterManager](./presentationheaderfootermanager) | Represents manager which holds behavior of all footer, date-time and page number placeholders of presentation. |
 | [PresentationInfo](./presentationinfo) | Information about presentation file |
 | [PresentationText](./presentationtext) | Represents the text extracted from the presentation |
+| [PresentedBySpeaker](./presentedbyspeaker) | Presented by a speaker (full screen) |
 | [ProtectionManager](./protectionmanager) | Presentation password protection management. |
 | [PVIObject](./pviobject) | Encapsulates basic service infrastructure for objects can be a subject of property value inheritance. |
 | [Row](./row) | Represents a row in a table. |
@@ -173,7 +175,10 @@ Contains classes for work with Microsoft PowerPoint presentations without utiliz
 | [Slide](./slide) | Represents a slide in a presentation. |
 | [SlideCollection](./slidecollection) | Represents a collection of a slides. |
 | [SlideHeaderFooterManager](./slideheaderfootermanager) | Represents manager which holds behavior of the slide footer, date-time, page number placeholders. |
+| [SlideShowSettings](./slideshowsettings) | Represents the slide show settings for the presentation. |
+| [SlideShowType](./slideshowtype) | Base slide show settings. Ancestors represent types of the slide show: [`PresentedBySpeaker`](../aspose.slides/presentedbyspeaker) Presented by a speaker (full screen) [`BrowsedByIndividual`](../aspose.slides/browsedbyindividual) Browsed by individual (window) [`BrowsedAtKiosk`](../aspose.slides/browsedatkiosk) Browsed at a kiosk (full screen) |
 | [SlideSize](./slidesize) | Represents a size of slide. |
+| [SlidesRange](./slidesrange) | Slides range |
 | [SpreadsheetOptions](./spreadsheetoptions) | Represents options which can be used to specify additional spreadsheets behavior. |
 | [StreamWrapper](./streamwrapper) | Aspose.IO.Stream wrapper for COM interface. |
 | [StreamWrapperFactory](./streamwrapperfactory) | Factory of StreamWrappers. For COM interface. |

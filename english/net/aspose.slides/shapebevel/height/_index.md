@@ -1,7 +1,7 @@
 ---
 title: Height
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Bevel height. Read/write Double.
 type: docs
 weight: 30
 url: /net/aspose.slides/shapebevel/height/

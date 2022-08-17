@@ -1,7 +1,7 @@
 ---
 title: Brightness
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Brightness. Read-only Single.
 type: docs
 weight: 20
 url: /net/aspose.slides.effects/iluminanceeffectivedata/brightness/

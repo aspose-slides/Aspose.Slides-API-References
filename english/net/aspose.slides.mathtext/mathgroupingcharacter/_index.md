@@ -1,9 +1,9 @@
 ---
 title: MathGroupingCharacter
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Specifies a grouping symbol above or below an expression usually to highlight the relationship between elements
 type: docs
-weight: 8040
+weight: 8060
 url: /net/aspose.slides.mathtext/mathgroupingcharacter/
 ---
 ## MathGroupingCharacter class
@@ -18,8 +18,8 @@ public sealed class MathGroupingCharacter : MathElementBase, IMathGroupingCharac
 
 | Name | Description |
 | --- | --- |
-| [MathGroupingCharacter](mathgroupingcharacter)(IMathElement) | Initializes a new instance of the MathGroupingCharacter class with the default grouping character U+23DF (BOTTOM CURLY BRACKET) |
-| [MathGroupingCharacter](mathgroupingcharacter)(IMathElement, char, MathTopBotPositions, MathTopBotPositions) | Initializes a new instance of the MathGroupingCharacter class. |
+| [MathGroupingCharacter](mathgroupingcharacter#constructor)(IMathElement) | Initializes a new instance of the MathGroupingCharacter class with the default grouping character U+23DF (BOTTOM CURLY BRACKET) |
+| [MathGroupingCharacter](mathgroupingcharacter#constructor_1)(IMathElement, char, MathTopBotPositions, MathTopBotPositions) | Initializes a new instance of the MathGroupingCharacter class. |
 
 ## Properties
 

@@ -1,9 +1,9 @@
 ---
 title: Picture
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents a picture in a presentation.
 type: docs
-weight: 8650
+weight: 8670
 url: /net/aspose.slides/picture/
 ---
 ## Picture class
@@ -11,14 +11,14 @@ url: /net/aspose.slides/picture/
 Represents a picture in a presentation.
 
 ```csharp
-public class Picture : PVIObject, ISlidesPicture
+public class Picture : ISlidesPicture
 ```
 
 ## Properties
 
 | Name | Description |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Allows to get base IPresentationComponent interface. Read-only [`IPresentationComponent`](../ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/picture/asipresentationcomponent) { get; } | Allows to get base IPresentationComponent interface. Read-only [`IPresentationComponent`](../ipresentationcomponent). |
 | [Image](../../aspose.slides/picture/image) { get; set; } | Returns or sets the embedded image. Read/write [`IPPImage`](../ippimage). |
 | [ImageTransform](../../aspose.slides/picture/imagetransform) { get; } | Returns the collection of image transform effects. Read-only [`IImageTransformOperationCollection`](../../aspose.slides.effects/iimagetransformoperationcollection). |
 | [LinkPathLong](../../aspose.slides/picture/linkpathlong) { get; set; } | Returns of sets linked image's URL. Read/write String. |
@@ -34,7 +34,6 @@ public class Picture : PVIObject, ISlidesPicture
 
 ### See Also
 
-* class [PVIObject](../pviobject)
 * interface [ISlidesPicture](../islidespicture)
 * namespace [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

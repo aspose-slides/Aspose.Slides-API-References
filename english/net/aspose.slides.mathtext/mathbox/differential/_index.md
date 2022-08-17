@@ -1,7 +1,7 @@
 ---
 title: Differential
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Differential When true the box acts as a differential e.g.  in an integrand and receives the appropriate horizontal spacing for the mathematical differential. Default false
 type: docs
 weight: 40
 url: /net/aspose.slides.mathtext/mathbox/differential/

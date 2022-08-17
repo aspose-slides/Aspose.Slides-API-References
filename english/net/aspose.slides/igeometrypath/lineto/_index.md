@@ -1,12 +1,12 @@
 ---
 title: LineTo
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Adds line to the end of the path
 type: docs
 weight: 70
 url: /net/aspose.slides/igeometrypath/lineto/
 ---
-## IGeometryPath.LineTo method (1 of 4)
+## LineTo(PointF) {#lineto_2}
 
 Adds line to the end of the path
 
@@ -26,7 +26,7 @@ public void LineTo(PointF point)
 
 ---
 
-## IGeometryPath.LineTo method (2 of 4)
+## LineTo(float, float) {#lineto}
 
 Adds line to the end of the path
 
@@ -47,7 +47,7 @@ public void LineTo(float x, float y)
 
 ---
 
-## IGeometryPath.LineTo method (3 of 4)
+## LineTo(PointF, uint) {#lineto_3}
 
 Adds line to the specified place of the path
 
@@ -74,7 +74,7 @@ public void LineTo(PointF point, uint index)
 
 ---
 
-## IGeometryPath.LineTo method (4 of 4)
+## LineTo(float, float, uint) {#lineto_1}
 
 Adds line to the specified place of the path
 

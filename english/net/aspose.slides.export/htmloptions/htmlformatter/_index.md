@@ -1,7 +1,7 @@
 ---
 title: HtmlFormatter
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets HTML template. Read/write IHtmlFormatteraspose.slides.export/ihtmlformatter.
 type: docs
 weight: 30
 url: /net/aspose.slides.export/htmloptions/htmlformatter/

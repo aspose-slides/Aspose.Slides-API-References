@@ -1,7 +1,7 @@
 ---
 title: SourceFormat
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns information about from which format presentation was loaded. Read-only SourceFormataspose.slides/ipresentation/sourceformat.
 type: docs
 weight: 260
 url: /net/aspose.slides/ipresentation/sourceformat/

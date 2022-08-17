@@ -1,7 +1,7 @@
 ---
 title: Remove
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Remove current node.
 type: docs
 weight: 100
 url: /net/aspose.slides.smartart/ismartartnode/remove/

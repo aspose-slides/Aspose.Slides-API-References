@@ -1,7 +1,7 @@
 ---
 title: HighlightClick
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Determines whether the hyperlink should be highlighted on click. Read/write Boolean.
 type: docs
 weight: 40
 url: /net/aspose.slides/ihyperlink/highlightclick/

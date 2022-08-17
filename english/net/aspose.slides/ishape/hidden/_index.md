@@ -1,7 +1,7 @@
 ---
 title: Hidden
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Determines whether the shape is hidden. Read/write Boolean.
 type: docs
 weight: 120
 url: /net/aspose.slides/ishape/hidden/

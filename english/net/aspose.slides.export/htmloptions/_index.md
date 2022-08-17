@@ -1,9 +1,9 @@
 ---
 title: HtmlOptions
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents a HTML exporting options.
 type: docs
-weight: 3570
+weight: 3590
 url: /net/aspose.slides.export/htmloptions/
 ---
 ## HtmlOptions class
@@ -18,8 +18,8 @@ public class HtmlOptions : SaveOptions, IHtmlOptions
 
 | Name | Description |
 | --- | --- |
-| [HtmlOptions](htmloptions)() | Creates a new HtmlOptions object for saving into single HTML file. |
-| [HtmlOptions](htmloptions)(ILinkEmbedController) | Creates a new HtmlOptions object specifiing callback. |
+| [HtmlOptions](htmloptions#constructor)() | Creates a new HtmlOptions object for saving into single HTML file. |
+| [HtmlOptions](htmloptions#constructor_1)(ILinkEmbedController) | Creates a new HtmlOptions object specifiing callback. |
 
 ## Properties
 

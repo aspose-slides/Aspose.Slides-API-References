@@ -1,7 +1,7 @@
 ---
 title: SetFooterAndChildFootersText
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Sets text to master slide footer placeholder and all child footer placeholders. Child placeholders mean placeholders are contained on depending notes slides. Depending notes slides use and depend on master notes slide.
 type: docs
 weight: 30
 url: /net/aspose.slides/masternotesslideheaderfootermanager/setfooterandchildfooterstext/

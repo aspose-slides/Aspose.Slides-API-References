@@ -1,7 +1,7 @@
 ---
 title: Rectangle
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the coordinates of a frame. Read-only RectangleF.
 type: docs
 weight: 70
 url: /net/aspose.slides/shapeframe/rectangle/

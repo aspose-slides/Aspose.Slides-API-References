@@ -1,7 +1,7 @@
 ---
 title: Timing
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents timing properties for the effect behavior. Read/write ITimingaspose.slides.animation/itiming.
 type: docs
 weight: 40
 url: /net/aspose.slides.animation/behavior/timing/

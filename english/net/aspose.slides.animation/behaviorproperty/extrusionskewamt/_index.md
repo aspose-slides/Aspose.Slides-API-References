@@ -1,7 +1,7 @@
 ---
 title: ExtrusionSkewAmt
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents extrusion.skewamt property
 type: docs
 weight: 190
 url: /net/aspose.slides.animation/behaviorproperty/extrusionskewamt/

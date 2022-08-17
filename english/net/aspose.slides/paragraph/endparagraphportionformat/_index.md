@@ -1,7 +1,7 @@
 ---
 title: EndParagraphPortionFormat
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Specifies the portion properties that are to be used if another portion is inserted after the last one.
 type: docs
 weight: 20
 url: /net/aspose.slides/paragraph/endparagraphportionformat/

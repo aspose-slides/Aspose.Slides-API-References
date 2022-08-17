@@ -1,7 +1,7 @@
 ---
 title: TextLocked
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Determines whether an editing of text is forbidden. Read-write Boolean.
 type: docs
 weight: 120
 url: /net/aspose.slides/iautoshapelock/textlocked/

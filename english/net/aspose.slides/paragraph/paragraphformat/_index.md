@@ -1,7 +1,7 @@
 ---
 title: ParagraphFormat
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the formatting object for this paragraph. Read-only IParagraphFormataspose.slides/iparagraphformat.
 type: docs
 weight: 30
 url: /net/aspose.slides/paragraph/paragraphformat/

@@ -1,7 +1,7 @@
 ---
 title: Read
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Reads a sequence of bytes from the current stream and advances the position within the stream by the number of bytes read.
 type: docs
 weight: 100
 url: /net/aspose.slides/istreamwrapper/read/

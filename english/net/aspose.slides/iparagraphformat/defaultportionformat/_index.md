@@ -1,7 +1,7 @@
 ---
 title: DefaultPortionFormat
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns default portion format of a paragraph. No inheritance applied. Read-only IPortionFormataspose.slides/iportionformat.
 type: docs
 weight: 30
 url: /net/aspose.slides/iparagraphformat/defaultportionformat/

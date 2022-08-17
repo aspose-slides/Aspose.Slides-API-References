@@ -1,12 +1,12 @@
 ---
 title: Shape
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Iterate each Shapeaspose.slides.lowcode/foreach/shape in the Presentationaspose.slides/presentation. Shapes will be iterated in all type of slides - Slideaspose.slides.lowcode/foreach/slide MasterSlideaspose.slides.lowcode/foreach/masterslide and LayoutSlideaspose.slides.lowcode/foreach/layoutslide
 type: docs
 weight: 50
 url: /net/aspose.slides.lowcode/foreach/shape/
 ---
-## ForEach.Shape method (1 of 2)
+## Shape(Presentation, ForEachShapeCallback) {#shape_1}
 
 Iterate each `Shape` in the [`Presentation`](../../../aspose.slides/presentation). Shapes will be iterated in all type of slides - [`Slide`](../slide), [`MasterSlide`](../masterslide) and [`LayoutSlide`](../layoutslide)
 
@@ -41,7 +41,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 
 ---
 
-## ForEach.Shape method (2 of 2)
+## Shape(BaseSlide, ForEachShapeCallback) {#shape}
 
 Iterate each [`Shape`](../shape) in the [`BaseSlide`](../../../aspose.slides/baseslide). [`BaseSlide`](../../../aspose.slides/baseslide) is the base type for [`Slide`](../slide), [`MasterSlide`](../masterslide) and [`LayoutSlide`](../layoutslide)
 

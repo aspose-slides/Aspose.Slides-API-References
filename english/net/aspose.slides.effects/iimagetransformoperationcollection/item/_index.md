@@ -1,7 +1,7 @@
 ---
 title: Item
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns an IImageTransformOperationaspose.slides.effects/iimagetransformoperation from the collection by its index.
 type: docs
 weight: 20
 url: /net/aspose.slides.effects/iimagetransformoperationcollection/item/

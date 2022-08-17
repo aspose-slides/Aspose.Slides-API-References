@@ -1,7 +1,7 @@
 ---
 title: ChartTitle
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets a chart title. Read-only IChartTitleaspose.slides.charts/icharttitle.
 type: docs
 weight: 70
 url: /net/aspose.slides.charts/chart/charttitle/

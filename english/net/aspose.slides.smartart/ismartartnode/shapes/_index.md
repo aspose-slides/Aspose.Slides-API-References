@@ -1,7 +1,7 @@
 ---
 title: Shapes
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns collections of all shapes associated with the node. Read-only ISmartArtShapeCollectionaspose.slides.smartart/ismartartshapecollection.
 type: docs
 weight: 80
 url: /net/aspose.slides.smartart/ismartartnode/shapes/

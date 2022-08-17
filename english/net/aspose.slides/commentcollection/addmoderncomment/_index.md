@@ -1,7 +1,7 @@
 ---
 title: AddModernComment
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Add new modern comment at the end of a collection.
 type: docs
 weight: 60
 url: /net/aspose.slides/commentcollection/addmoderncomment/

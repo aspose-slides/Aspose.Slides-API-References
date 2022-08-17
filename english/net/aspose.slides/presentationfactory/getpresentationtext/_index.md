@@ -1,12 +1,12 @@
 ---
 title: GetPresentationText
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Retrieves the raw text from the slides
 type: docs
 weight: 50
 url: /net/aspose.slides/presentationfactory/getpresentationtext/
 ---
-## PresentationFactory.GetPresentationText method (1 of 3)
+## GetPresentationText(string, TextExtractionArrangingMode) {#getpresentationtext_2}
 
 Retrieves the raw text from the slides
 
@@ -33,7 +33,7 @@ The instance of PresentationText containing the SlideText array representing the
 
 ---
 
-## PresentationFactory.GetPresentationText method (2 of 3)
+## GetPresentationText(Stream, TextExtractionArrangingMode) {#getpresentationtext}
 
 Retrieves the raw text from the slides
 
@@ -60,7 +60,7 @@ The instance of PresentationText containing the SlideText array representing the
 
 ---
 
-## PresentationFactory.GetPresentationText method (3 of 3)
+## GetPresentationText(Stream, TextExtractionArrangingMode, ILoadOptions) {#getpresentationtext_1}
 
 Retrieves the raw text from the slides
 

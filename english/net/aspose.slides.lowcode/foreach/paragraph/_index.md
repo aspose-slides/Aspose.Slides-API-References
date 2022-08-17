@@ -1,7 +1,7 @@
 ---
 title: Paragraph
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Iterate each Paragraphaspose.slides.lowcode/foreach/paragraph in the Presentationaspose.slides/presentation. Shapes will be iterated in all type of slides - Slideaspose.slides.lowcode/foreach/slide MasterSlideaspose.slides.lowcode/foreach/masterslide and LayoutSlideaspose.slides.lowcode/foreach/layoutslide
 type: docs
 weight: 30
 url: /net/aspose.slides.lowcode/foreach/paragraph/

@@ -1,7 +1,7 @@
 ---
 title: Item
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Gets properties of the legend entry corresponding to Chart.ChartData.Series0.DataPointsindex in case of chart type from this list ChartType.BarOfPie ChartType.ExplodedPie ChartType.ExplodedPie3D ChartType.Pie ChartType.Pie3D ChartType.PieOfPie or corresponding to Chart.ChartData.Seriesindex for other chart types.
 type: docs
 weight: 20
 url: /net/aspose.slides.charts/ilegendentrycollection/item/

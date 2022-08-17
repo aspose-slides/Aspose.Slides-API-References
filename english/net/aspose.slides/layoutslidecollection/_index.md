@@ -1,9 +1,9 @@
 ---
 title: LayoutSlideCollection
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents a base class for collection of a layout slides.
 type: docs
-weight: 6950
+weight: 6970
 url: /net/aspose.slides/layoutslidecollection/
 ---
 ## LayoutSlideCollection class

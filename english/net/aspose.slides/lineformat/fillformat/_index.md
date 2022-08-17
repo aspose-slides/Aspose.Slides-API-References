@@ -1,7 +1,7 @@
 ---
 title: FillFormat
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the fill format of a line. Read-only ILineFillFormataspose.slides/ilinefillformat.
 type: docs
 weight: 110
 url: /net/aspose.slides/lineformat/fillformat/

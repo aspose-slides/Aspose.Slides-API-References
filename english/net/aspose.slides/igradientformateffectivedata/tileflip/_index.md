@@ -1,7 +1,7 @@
 ---
 title: TileFlip
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the flipping mode for a gradient. Read-only TileFlipaspose.slides/tileflip.
 type: docs
 weight: 70
 url: /net/aspose.slides/igradientformateffectivedata/tileflip/

@@ -1,12 +1,12 @@
 ---
 title: AddHtml
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Adds formatted HTML text.
 type: docs
 weight: 80
 url: /net/aspose.slides.export/htmlgenerator/addhtml/
 ---
-## HtmlGenerator.AddHtml method (1 of 3)
+## AddHtml(string) {#addhtml_2}
 
 Adds formatted HTML text.
 
@@ -26,7 +26,7 @@ public void AddHtml(string html)
 
 ---
 
-## HtmlGenerator.AddHtml method (2 of 3)
+## AddHtml(char[]) {#addhtml}
 
 Adds formatted HTML text.
 
@@ -46,7 +46,7 @@ public void AddHtml(char[] html)
 
 ---
 
-## HtmlGenerator.AddHtml method (3 of 3)
+## AddHtml(char[], int, int) {#addhtml_1}
 
 Adds formatted HTML text.
 

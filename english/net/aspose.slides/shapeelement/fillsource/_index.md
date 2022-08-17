@@ -1,7 +1,7 @@
 ---
 title: FillSource
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns information about how to fill an element. Read-only ShapeElementFillSourceaspose.slides/shapeelementfillsource.
 type: docs
 weight: 10
 url: /net/aspose.slides/shapeelement/fillsource/

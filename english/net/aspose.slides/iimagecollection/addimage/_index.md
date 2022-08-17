@@ -1,12 +1,12 @@
 ---
 title: AddImage
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Add an image to a presentation.
 type: docs
 weight: 20
 url: /net/aspose.slides/iimagecollection/addimage/
 ---
-## IImageCollection.AddImage method (1 of 7)
+## AddImage(Image) {#addimage_3}
 
 Add an image to a presentation.
 
@@ -35,7 +35,7 @@ This method converts WMF/EMF metafiles to raster PNG image before inserting to a
 
 ---
 
-## IImageCollection.AddImage method (2 of 7)
+## AddImage(MemoryStream) {#addimage_4}
 
 Adds image from a memory stream.
 
@@ -60,7 +60,7 @@ Added image.
 
 ---
 
-## IImageCollection.AddImage method (3 of 7)
+## AddImage(Stream) {#addimage_5}
 
 Add an image to a presentation from stream.
 
@@ -89,7 +89,7 @@ This method can add WMF/EMF metafiles to a presentation without converting them 
 
 ---
 
-## IImageCollection.AddImage method (4 of 7)
+## AddImage(Stream, LoadingStreamBehavior) {#addimage_6}
 
 Creates and adds an image to a presentation from stream.
 
@@ -116,7 +116,7 @@ Added [`IPPImage`](../../ippimage).
 
 ---
 
-## IImageCollection.AddImage method (5 of 7)
+## AddImage(byte[]) {#addimage_2}
 
 Adds an image to a presentation from specified buffer.
 
@@ -141,7 +141,7 @@ Added image.
 
 ---
 
-## IImageCollection.AddImage method (6 of 7)
+## AddImage(IPPImage) {#addimage}
 
 Adds a copy of an image from an another presentation.
 
@@ -166,7 +166,7 @@ Added image.
 
 ---
 
-## IImageCollection.AddImage method (7 of 7)
+## AddImage(ISvgImage) {#addimage_1}
 
 Add an image to a presentation from SVG object.
 

@@ -1,7 +1,7 @@
 ---
 title: CreateCustomFormatter
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates and returns HTML formatter for custom callback-driven html generation.
 type: docs
 weight: 10
 url: /net/aspose.slides.export/htmlformatter/createcustomformatter/

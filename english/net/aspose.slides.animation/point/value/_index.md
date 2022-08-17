@@ -1,7 +1,7 @@
 ---
 title: Value
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents point value. Only bool ColorFormat float int string. Read/write Object.
 type: docs
 weight: 40
 url: /net/aspose.slides.animation/point/value/

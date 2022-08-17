@@ -1,7 +1,7 @@
 ---
 title: FillMethod
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents fill.method property
 type: docs
 weight: 350
 url: /net/aspose.slides.animation/behaviorproperty/fillmethod/

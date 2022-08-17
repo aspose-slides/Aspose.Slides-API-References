@@ -1,7 +1,7 @@
 ---
 title: GetColorScheme
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the color scheme.
 type: docs
 weight: 30
 url: /net/aspose.slides.theme/ithemeeffectivedata/getcolorscheme/

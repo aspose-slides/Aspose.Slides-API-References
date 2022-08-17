@@ -1,7 +1,7 @@
 ---
 title: Instance
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: VBA project references factory static instance. Read-only VbaReferenceFactoryaspose.slides.vba/vbareferencefactory.
 type: docs
 weight: 20
 url: /net/aspose.slides.vba/vbareferencefactory/instance/

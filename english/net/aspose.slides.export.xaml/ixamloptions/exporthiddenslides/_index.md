@@ -1,7 +1,7 @@
 ---
 title: ExportHiddenSlides
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Determines whether hidden slides will be exported.
 type: docs
 weight: 20
 url: /net/aspose.slides.export.xaml/ixamloptions/exporthiddenslides/

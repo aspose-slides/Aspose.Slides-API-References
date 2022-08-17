@@ -1,7 +1,7 @@
 ---
 title: Equals
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Determines whether the specified AlphaInverseaspose.slides.effects/alphainverse is equal to the current AlphaInverseaspose.slides.effects/alphainverse.
 type: docs
 weight: 10
 url: /net/aspose.slides.effects/alphainverse/equals/

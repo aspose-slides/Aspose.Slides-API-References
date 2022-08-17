@@ -1,9 +1,9 @@
 ---
 title: ConnectorLock
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Determines which operations are disabled on the parent Connector.
 type: docs
-weight: 2530
+weight: 2550
 url: /net/aspose.slides/connectorlock/
 ---
 ## ConnectorLock class

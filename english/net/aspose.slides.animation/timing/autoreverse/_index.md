@@ -1,7 +1,7 @@
 ---
 title: AutoReverse
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Describes whether to automatically play the animation in reverse after playing it in the forward direction. Read/write Boolean.
 type: docs
 weight: 20
 url: /net/aspose.slides.animation/timing/autoreverse/

@@ -1,7 +1,7 @@
 ---
 title: CreateOuterShadow
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates Outer shadow effect.
 type: docs
 weight: 40
 url: /net/aspose.slides.effects/ieffectfactory/createoutershadow/

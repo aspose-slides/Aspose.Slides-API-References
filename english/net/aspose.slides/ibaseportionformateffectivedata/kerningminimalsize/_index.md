@@ -1,7 +1,7 @@
 ---
 title: KerningMinimalSize
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the minimal font size for which kerning should be switched on. Read-only Single.
 type: docs
 weight: 140
 url: /net/aspose.slides/ibaseportionformateffectivedata/kerningminimalsize/

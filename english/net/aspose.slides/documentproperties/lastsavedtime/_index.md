@@ -1,7 +1,7 @@
 ---
 title: LastSavedTime
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the date when a presentation was modified last time. Read-only in case of Presentation.DocumentProperties because it will be updated internally while IPresentation object saving process. Can be changed via DocumentProperties instance returning by method ReadDocumentPropertiesaspose.slides/ipresentationinfo/readdocumentproperties Please see the example in UpdateDocumentPropertiesaspose.slides/ipresentationinfo/updatedocumentproperties method summary.
 type: docs
 weight: 170
 url: /net/aspose.slides/documentproperties/lastsavedtime/

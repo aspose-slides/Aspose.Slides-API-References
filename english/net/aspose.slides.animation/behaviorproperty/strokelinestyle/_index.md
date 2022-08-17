@@ -1,7 +1,7 @@
 ---
 title: StrokeLineStyle
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents stroke.linestyle property
 type: docs
 weight: 970
 url: /net/aspose.slides.animation/behaviorproperty/strokelinestyle/

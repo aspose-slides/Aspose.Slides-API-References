@@ -1,7 +1,7 @@
 ---
 title: SyncRoot
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns a synchronization root. Read-only Object.
 type: docs
 weight: 90
 url: /net/aspose.slides.charts/chartdatapointcollection/syncroot/

@@ -1,7 +1,7 @@
 ---
 title: DateTime9
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Current date and time in a ninth predefined format MM/DD/YYYY hhmmss AM/PM for english. Read-only FieldTypeaspose.slides/fieldtype.
 type: docs
 weight: 150
 url: /net/aspose.slides/fieldtype/datetime9/

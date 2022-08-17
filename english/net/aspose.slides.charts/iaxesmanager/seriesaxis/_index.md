@@ -1,7 +1,7 @@
 ---
 title: SeriesAxis
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Gets the charts series axis. Read-only IAxisaspose.slides.charts/iaxis.
 type: docs
 weight: 40
 url: /net/aspose.slides.charts/iaxesmanager/seriesaxis/

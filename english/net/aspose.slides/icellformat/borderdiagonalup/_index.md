@@ -1,7 +1,7 @@
 ---
 title: BorderDiagonalUp
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns a bottom-left to top-right diagonal line properties object. Read-only ILineFormataspose.slides/ilineformat.
 type: docs
 weight: 30
 url: /net/aspose.slides/icellformat/borderdiagonalup/

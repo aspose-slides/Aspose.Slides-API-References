@@ -1,7 +1,7 @@
 ---
 title: FillFormat
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns a FillFormat for BackgroundType.OwnBackground fill. Read-only IFillFormataspose.slides/ifillformat.
 type: docs
 weight: 40
 url: /net/aspose.slides/ibackground/fillformat/

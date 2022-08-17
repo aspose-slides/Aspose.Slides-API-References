@@ -1,7 +1,7 @@
 ---
 title: Saturation
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets the saturation component of a color in HSL representation. All color transformations are ignored. Read/write Single.
 type: docs
 weight: 140
 url: /net/aspose.slides/icolorformat/saturation/

@@ -1,7 +1,7 @@
 ---
 title: IMotionPath
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represent motion path.
 type: docs
 weight: 430
 url: /net/aspose.slides.animation/imotionpath/

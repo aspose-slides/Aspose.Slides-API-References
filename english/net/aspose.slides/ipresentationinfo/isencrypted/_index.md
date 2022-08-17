@@ -1,7 +1,7 @@
 ---
 title: IsEncrypted
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Gets True if binded presentation is encrypted otherwise False. Read-only Boolean.
 type: docs
 weight: 10
 url: /net/aspose.slides/ipresentationinfo/isencrypted/

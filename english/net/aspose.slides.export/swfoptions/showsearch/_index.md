@@ -1,7 +1,7 @@
 ---
 title: ShowSearch
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Show/hide search section. Can be overridden in flashvars. Default is true.
 type: docs
 weight: 140
 url: /net/aspose.slides.export/swfoptions/showsearch/

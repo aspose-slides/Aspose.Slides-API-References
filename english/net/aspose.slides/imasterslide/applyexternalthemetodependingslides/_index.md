@@ -1,7 +1,7 @@
 ---
 title: ApplyExternalThemeToDependingSlides
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates a new master slide based on the current one applying an external theme to it and applies the created master slide to all dependent slides.
 type: docs
 weight: 100
 url: /net/aspose.slides/imasterslide/applyexternalthemetodependingslides/

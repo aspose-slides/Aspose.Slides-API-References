@@ -1,9 +1,9 @@
 ---
 title: MathNaryOperator
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Specifies an N-ary mathematical object such as Summation and Integral. It consists of an operator a base or operand and optional upper and lower limits. Examples of N-ary operators are Summation Union Intersection Integral
 type: docs
-weight: 8150
+weight: 8170
 url: /net/aspose.slides.mathtext/mathnaryoperator/
 ---
 ## MathNaryOperator class
@@ -18,9 +18,9 @@ public sealed class MathNaryOperator : MathElementBase, IMathNaryOperator
 
 | Name | Description |
 | --- | --- |
-| [MathNaryOperator](mathnaryoperator)(char, IMathElement) | Initializes a new instance of the MathNaryOperator class. |
-| [MathNaryOperator](mathnaryoperator)(char, IMathElement, IMathElement) | Initializes a new instance of the MathNaryOperator class. |
-| [MathNaryOperator](mathnaryoperator)(char, IMathElement, IMathElement, IMathElement) | Initializes a new instance of the MathNaryOperator class. |
+| [MathNaryOperator](mathnaryoperator#constructor)(char, IMathElement) | Initializes a new instance of the MathNaryOperator class. |
+| [MathNaryOperator](mathnaryoperator#constructor_1)(char, IMathElement, IMathElement) | Initializes a new instance of the MathNaryOperator class. |
+| [MathNaryOperator](mathnaryoperator#constructor_2)(char, IMathElement, IMathElement, IMathElement) | Initializes a new instance of the MathNaryOperator class. |
 
 ## Properties
 

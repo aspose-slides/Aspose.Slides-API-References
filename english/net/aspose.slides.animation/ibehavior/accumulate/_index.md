@@ -1,7 +1,7 @@
 ---
 title: Accumulate
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents whether animation behaviors are accumulated. Read/write NullableBoolaspose.slides/nullablebool.
 type: docs
 weight: 10
 url: /net/aspose.slides.animation/ibehavior/accumulate/

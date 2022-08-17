@@ -1,12 +1,12 @@
 ---
 title: AddAutoShape
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates a new AutoShape tunes it from default template and adds it to the end of the collection.
 type: docs
 weight: 60
 url: /net/aspose.slides/ishapecollection/addautoshape/
 ---
-## IShapeCollection.AddAutoShape method (1 of 2)
+## AddAutoShape(ShapeType, float, float, float, float) {#addautoshape}
 
 Creates a new AutoShape, tunes it from default template and adds it to the end of the collection.
 
@@ -36,7 +36,7 @@ Created AutoShape object.
 
 ---
 
-## IShapeCollection.AddAutoShape method (2 of 2)
+## AddAutoShape(ShapeType, float, float, float, float, bool) {#addautoshape_1}
 
 Creates a new AutoShape and adds it to the end of the collection.
 

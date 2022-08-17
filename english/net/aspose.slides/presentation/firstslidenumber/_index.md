@@ -1,7 +1,7 @@
 ---
 title: FirstSlideNumber
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents the first slide number in the presentation
 type: docs
 weight: 100
 url: /net/aspose.slides/presentation/firstslidenumber/

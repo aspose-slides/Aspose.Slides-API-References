@@ -1,7 +1,7 @@
 ---
 title: Angle
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Describes the relative angle of the motion path. Read/write Single.
 type: docs
 weight: 10
 url: /net/aspose.slides.animation/imotioneffect/angle/

@@ -1,7 +1,7 @@
 ---
 title: SecondPieSize
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Specifies the size of the second pie or bar of a pie-of-pie chart or a bar-of-pie chart as a percentage of the size of the first pie can be between 5 and 200 percents. Read/write UInt16.
 type: docs
 weight: 170
 url: /net/aspose.slides.charts/chartseriesgroup/secondpiesize/

@@ -1,7 +1,7 @@
 ---
 title: ShadowOffsetX
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents shadow.offset.x property
 type: docs
 weight: 700
 url: /net/aspose.slides.animation/behaviorproperty/shadowoffsetx/

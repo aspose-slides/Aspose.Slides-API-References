@@ -1,9 +1,9 @@
 ---
 title: TextFrame
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents a TextFrame.
 type: docs
-weight: 10140
+weight: 10190
 url: /net/aspose.slides/textframe/
 ---
 ## TextFrame class
@@ -30,8 +30,8 @@ public sealed class TextFrame : ITextFrame
 | Name | Description |
 | --- | --- |
 | [HighlightRegex](../../aspose.slides/textframe/highlightregex)(string, Color, ITextHighlightingOptions) | Highlight all matches of regular expression in text frame text using specified color. |
-| [HighlightText](../../aspose.slides/textframe/highlighttext)(string, Color) | Highlight all matches of sample in text frame text using specified color. |
-| [HighlightText](../../aspose.slides/textframe/highlighttext)(string, Color, ITextHighlightingOptions) | Highlight all matches of sample in text frame text using specified color. |
+| [HighlightText](../../aspose.slides/textframe/highlighttext#highlighttext)(string, Color) | Highlight all matches of sample in text frame text using specified color. |
+| [HighlightText](../../aspose.slides/textframe/highlighttext#highlighttext_1)(string, Color, ITextHighlightingOptions) | Highlight all matches of sample in text frame text using specified color. |
 | [JoinPortionsWithSameFormatting](../../aspose.slides/textframe/joinportionswithsameformatting)() | Joins runs with same formatting in all paragraphs. |
 
 ### See Also

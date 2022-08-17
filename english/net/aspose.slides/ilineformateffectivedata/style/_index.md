@@ -1,7 +1,7 @@
 ---
 title: Style
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the line style. Read-only LineStyleaspose.slides/linestyle.
 type: docs
 weight: 160
 url: /net/aspose.slides/ilineformateffectivedata/style/

@@ -1,7 +1,7 @@
 ---
 title: DateTime10
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Current date and time in a tenth predefined format hhmm for english. Read-only FieldTypeaspose.slides/fieldtype.
 type: docs
 weight: 40
 url: /net/aspose.slides/fieldtype/datetime10/

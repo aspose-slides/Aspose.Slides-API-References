@@ -1,7 +1,7 @@
 ---
 title: PictureFrameLock
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns PictureFrames locks. Read-only IPictureFrameLockaspose.slides/ipictureframelock.
 type: docs
 weight: 30
 url: /net/aspose.slides/ipictureframe/pictureframelock/

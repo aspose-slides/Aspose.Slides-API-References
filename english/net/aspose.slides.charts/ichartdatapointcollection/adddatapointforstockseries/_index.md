@@ -1,12 +1,12 @@
 ---
 title: AddDataPointForStockSeries
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Stock subtypes see also ChartTypeCharacterizer.IsChartTypeStockChartType method.
 type: docs
 weight: 190
 url: /net/aspose.slides.charts/ichartdatapointcollection/adddatapointforstockseries/
 ---
-## IChartDataPointCollection.AddDataPointForStockSeries method (1 of 2)
+## AddDataPointForStockSeries(IChartDataCell) {#adddatapointforstockseries}
 
 Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Stock subtypes (see also ChartTypeCharacterizer.IsChartTypeStock(ChartType) method).
 
@@ -32,7 +32,7 @@ New data point.
 
 ---
 
-## IChartDataPointCollection.AddDataPointForStockSeries method (2 of 2)
+## AddDataPointForStockSeries(double) {#adddatapointforstockseries_1}
 
 Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Stock subtypes (see also ChartTypeCharacterizer.IsChartTypeStock(ChartType) method).
 

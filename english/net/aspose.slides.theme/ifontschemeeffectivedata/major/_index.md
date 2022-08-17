@@ -1,7 +1,7 @@
 ---
 title: Major
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the fonts collection for a heading part of the slide. Read-only IFontsEffectiveDataaspose.slides/ifontseffectivedata.
 type: docs
 weight: 10
 url: /net/aspose.slides.theme/ifontschemeeffectivedata/major/

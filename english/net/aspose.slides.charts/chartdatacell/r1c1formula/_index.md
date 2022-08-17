@@ -1,7 +1,7 @@
 ---
 title: R1C1Formula
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Gets or sets the formula in R1C1-style.
 type: docs
 weight: 70
 url: /net/aspose.slides.charts/chartdatacell/r1c1formula/

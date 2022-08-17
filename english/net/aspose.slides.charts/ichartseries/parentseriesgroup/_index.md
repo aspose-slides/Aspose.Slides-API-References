@@ -1,7 +1,7 @@
 ---
 title: ParentSeriesGroup
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns parent series group. Read-only IChartSeriesGroupaspose.slides.charts/ichartseriesgroup.
 type: docs
 weight: 290
 url: /net/aspose.slides.charts/ichartseries/parentseriesgroup/

@@ -1,7 +1,7 @@
 ---
 title: Format
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Text formatting properties
 type: docs
 weight: 20
 url: /net/aspose.slides.mathtext/imathematicaltext/format/

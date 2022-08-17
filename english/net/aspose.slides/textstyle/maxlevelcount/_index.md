@@ -1,7 +1,7 @@
 ---
 title: MaxLevelCount
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Maximum count of style levels that can be defined. Use it with GetLevelint index
 type: docs
 weight: 40
 url: /net/aspose.slides/textstyle/maxlevelcount/

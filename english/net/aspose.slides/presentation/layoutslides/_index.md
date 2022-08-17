@@ -1,7 +1,7 @@
 ---
 title: LayoutSlides
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns a list of all layout slides that are defined in the presentation. Read-only IGlobalLayoutSlideCollectionaspose.slides/igloballayoutslidecollection.
 type: docs
 weight: 150
 url: /net/aspose.slides/presentation/layoutslides/

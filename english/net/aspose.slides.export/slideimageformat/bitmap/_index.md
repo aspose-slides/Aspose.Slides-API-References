@@ -1,7 +1,7 @@
 ---
 title: Bitmap
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Slides should be converted to a raster image.
 type: docs
 weight: 20
 url: /net/aspose.slides.export/slideimageformat/bitmap/

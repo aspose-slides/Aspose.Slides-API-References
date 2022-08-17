@@ -1,7 +1,7 @@
 ---
 title: IsReadOnly
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Gets a value indicating whether the ICollection is read-only. Read-only Boolean.
 type: docs
 weight: 20
 url: /net/aspose.slides.animation/behaviorpropertycollection/isreadonly/

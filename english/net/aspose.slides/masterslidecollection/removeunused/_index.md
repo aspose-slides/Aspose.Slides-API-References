@@ -1,7 +1,7 @@
 ---
 title: RemoveUnused
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Removes unused master slides.
 type: docs
 weight: 110
 url: /net/aspose.slides/masterslidecollection/removeunused/

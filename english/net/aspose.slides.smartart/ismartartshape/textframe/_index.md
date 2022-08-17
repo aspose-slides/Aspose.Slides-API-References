@@ -1,7 +1,7 @@
 ---
 title: TextFrame
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns text of the SmartArt shape. Read-only ITextFrameaspose.slides/itextframe.
 type: docs
 weight: 20
 url: /net/aspose.slides.smartart/ismartartshape/textframe/

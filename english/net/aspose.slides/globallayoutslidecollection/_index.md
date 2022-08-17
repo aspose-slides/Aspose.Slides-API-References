@@ -1,9 +1,9 @@
 ---
 title: GlobalLayoutSlideCollection
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents a collection of all layout slides in presentation. Extends LayoutSlideCollection class with methods for adding/cloning layout slides in context of uniting of the individual collections of masters layout slides.
 type: docs
-weight: 4520
+weight: 4540
 url: /net/aspose.slides/globallayoutslidecollection/
 ---
 ## GlobalLayoutSlideCollection class
@@ -29,8 +29,8 @@ public sealed class GlobalLayoutSlideCollection : LayoutSlideCollection,
 | Name | Description |
 | --- | --- |
 | [Add](../../aspose.slides/globallayoutslidecollection/add)(IMasterSlide, SlideLayoutType, string) | Adds a new layout slide to the presentation. |
-| [AddClone](../../aspose.slides/globallayoutslidecollection/addclone)(ILayoutSlide) | Adds a copy of a specified layout slide to the presentation. |
-| [AddClone](../../aspose.slides/globallayoutslidecollection/addclone)(ILayoutSlide, IMasterSlide) | Adds a copy of a specified layout slide to the presentation. |
+| [AddClone](../../aspose.slides/globallayoutslidecollection/addclone#addclone)(ILayoutSlide) | Adds a copy of a specified layout slide to the presentation. |
+| [AddClone](../../aspose.slides/globallayoutslidecollection/addclone#addclone_1)(ILayoutSlide, IMasterSlide) | Adds a copy of a specified layout slide to the presentation. |
 | [CopyTo](../../aspose.slides/layoutslidecollection/copyto)(Array, int) | Copies all elements from the collection to the specified array. |
 | [GetByType](../../aspose.slides/layoutslidecollection/getbytype)(SlideLayoutType) | Returns the first layout slide of specified type. A type of layout slide to find.[`LayoutSlide`](../layoutslide) with specified type or null if no layouts found. |
 | [GetEnumerator](../../aspose.slides/layoutslidecollection/getenumerator)() | Returns an enumerator that iterates through the collection. |

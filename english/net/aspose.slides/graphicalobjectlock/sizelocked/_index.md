@@ -1,7 +1,7 @@
 ---
 title: SizeLocked
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Determines whether resizing this shape is forbidden. Read/write Boolean.
 type: docs
 weight: 60
 url: /net/aspose.slides/graphicalobjectlock/sizelocked/

@@ -1,7 +1,7 @@
 ---
 title: RotateWithShape
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Determines whether the fill should be rotated with shape. Read-only Boolean.
 type: docs
 weight: 60
 url: /net/aspose.slides/ifillformateffectivedata/rotatewithshape/

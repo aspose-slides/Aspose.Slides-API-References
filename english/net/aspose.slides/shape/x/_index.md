@@ -1,7 +1,7 @@
 ---
 title: X
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets the x-coordinate of the upper-left corner of the shape. Read/write Single.
 type: docs
 weight: 290
 url: /net/aspose.slides/shape/x/

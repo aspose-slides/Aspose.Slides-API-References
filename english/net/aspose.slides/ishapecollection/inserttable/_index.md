@@ -1,7 +1,7 @@
 ---
 title: InsertTable
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates a new Table and inserts it to the collection at the specified index.
 type: docs
 weight: 340
 url: /net/aspose.slides/ishapecollection/inserttable/

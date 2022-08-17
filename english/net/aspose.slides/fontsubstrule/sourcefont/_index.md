@@ -1,7 +1,7 @@
 ---
 title: SourceFont
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Font to substitute. Read-only IFontDataaspose.slides/ifontdata.
 type: docs
 weight: 40
 url: /net/aspose.slides/fontsubstrule/sourcefont/

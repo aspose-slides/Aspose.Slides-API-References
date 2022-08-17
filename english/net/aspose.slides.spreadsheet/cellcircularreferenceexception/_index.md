@@ -1,9 +1,9 @@
 ---
 title: CellCircularReferenceException
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: The exception that is thrown when one or more circular references are detected where a formula refers to its own cell either directly or indirectly.
 type: docs
-weight: 9890
+weight: 9940
 url: /net/aspose.slides.spreadsheet/cellcircularreferenceexception/
 ---
 ## CellCircularReferenceException class
@@ -18,10 +18,10 @@ public class CellCircularReferenceException : PptxEditException
 
 | Name | Description |
 | --- | --- |
-| [CellCircularReferenceException](cellcircularreferenceexception)() | Initializes a new instance of the [`CellCircularReferenceException`](../cellcircularreferenceexception) class. |
-| [CellCircularReferenceException](cellcircularreferenceexception)(string) | Initializes a new instance of the [`CellCircularReferenceException`](../cellcircularreferenceexception) class with a specified error message. |
-| [CellCircularReferenceException](cellcircularreferenceexception)(string, Exception) | Initializes a new instance of the [`CellCircularReferenceException`](../cellcircularreferenceexception) class with a specified error message and a reference to the inner exception that is the cause of this exception. |
-| [CellCircularReferenceException](cellcircularreferenceexception)(string, string) | Initializes a new instance of the [`CellCircularReferenceException`](../cellcircularreferenceexception) class with a specified error message and circular cell reference. |
+| [CellCircularReferenceException](cellcircularreferenceexception#constructor)() | Initializes a new instance of the [`CellCircularReferenceException`](../cellcircularreferenceexception) class. |
+| [CellCircularReferenceException](cellcircularreferenceexception#constructor_1)(string) | Initializes a new instance of the [`CellCircularReferenceException`](../cellcircularreferenceexception) class with a specified error message. |
+| [CellCircularReferenceException](cellcircularreferenceexception#constructor_2)(string, Exception) | Initializes a new instance of the [`CellCircularReferenceException`](../cellcircularreferenceexception) class with a specified error message and a reference to the inner exception that is the cause of this exception. |
+| [CellCircularReferenceException](cellcircularreferenceexception#constructor_3)(string, string) | Initializes a new instance of the [`CellCircularReferenceException`](../cellcircularreferenceexception) class with a specified error message and circular cell reference. |
 
 ## Properties
 

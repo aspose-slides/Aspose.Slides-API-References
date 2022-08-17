@@ -1,9 +1,9 @@
 ---
 title: IImageTransformOCollectionEffectiveData
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Immutable object that represents a readonly collection of effective image transform effects.
 type: docs
-weight: 3180
+weight: 3200
 url: /net/aspose.slides.effects/iimagetransformocollectioneffectivedata/
 ---
 ## IImageTransformOCollectionEffectiveData interface

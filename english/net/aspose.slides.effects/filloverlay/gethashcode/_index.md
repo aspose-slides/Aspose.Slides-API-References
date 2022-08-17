@@ -1,7 +1,7 @@
 ---
 title: GetHashCode
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Serves as a hash function for a particular type.
 type: docs
 weight: 50
 url: /net/aspose.slides.effects/filloverlay/gethashcode/

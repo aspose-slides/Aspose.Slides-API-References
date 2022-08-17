@@ -1,9 +1,9 @@
 ---
 title: ISummaryZoomSection
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents a Summary Zoom Section object in a Summary Zoom frame.
 type: docs
-weight: 6580
+weight: 6600
 url: /net/aspose.slides/isummaryzoomsection/
 ---
 ## ISummaryZoomSection interface
@@ -18,6 +18,7 @@ public interface ISummaryZoomSection : ISectionZoomFrame
 
 | Name | Description |
 | --- | --- |
+| [AsISectionZoomFrame](../../aspose.slides/isummaryzoomsection/asisectionzoomframe) { get; } | Returns ISectionZoomFrame interface. |
 | [Description](../../aspose.slides/isummaryzoomsection/description) { get; set; } | Returns the text description of the Summary Zoom Section object. |
 | [Title](../../aspose.slides/isummaryzoomsection/title) { get; set; } | Returns the text title of the Summary Zoom Section object. |
 

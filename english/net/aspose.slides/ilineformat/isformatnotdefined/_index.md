@@ -1,7 +1,7 @@
 ---
 title: IsFormatNotDefined
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns true if line format is not defined as just created default. Read-only Boolean.
 type: docs
 weight: 130
 url: /net/aspose.slides/ilineformat/isformatnotdefined/

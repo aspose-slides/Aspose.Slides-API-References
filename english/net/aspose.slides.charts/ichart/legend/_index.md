@@ -1,7 +1,7 @@
 ---
 title: Legend
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets a legend for a chart. Read-only ILegendaspose.slides.charts/ilegend.
 type: docs
 weight: 150
 url: /net/aspose.slides.charts/ichart/legend/

@@ -1,9 +1,9 @@
 ---
 title: ChartDataPoint
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents series data point.
 type: docs
-weight: 1190
+weight: 1210
 url: /net/aspose.slides.charts/chartdatapoint/
 ---
 ## ChartDataPoint class

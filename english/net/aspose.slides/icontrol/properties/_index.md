@@ -1,7 +1,7 @@
 ---
 title: Properties
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns a collection of ActiveX properties. Read-only IControlPropertiesCollectionaspose.slides/icontrolpropertiescollection.
 type: docs
 weight: 70
 url: /net/aspose.slides/icontrol/properties/

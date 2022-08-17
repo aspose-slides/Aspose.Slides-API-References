@@ -1,9 +1,9 @@
 ---
 title: Luminance
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents a Luminance effect. Brightness linearly shifts all colors closer to white or black. Contrast scales all colors to be either closer or further apart.
 type: docs
-weight: 3410
+weight: 3430
 url: /net/aspose.slides.effects/luminance/
 ---
 ## Luminance class

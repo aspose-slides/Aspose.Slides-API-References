@@ -1,12 +1,12 @@
 ---
 title: Add
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Adds data point by its index in parent series points collection.
 type: docs
 weight: 60
 url: /net/aspose.slides.charts/piesplitcustompointcollection/add/
 ---
-## PieSplitCustomPointCollection.Add method (1 of 2)
+## Add(int) {#add_1}
 
 Adds data point by its index in parent series points collection.
 
@@ -26,7 +26,7 @@ public void Add(int dataPointIndex)
 
 ---
 
-## PieSplitCustomPointCollection.Add method (2 of 2)
+## Add(IChartDataPoint) {#add}
 
 Adds data point to collection.
 

@@ -1,7 +1,7 @@
 ---
 title: Distance
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Distance of shadow. Read/write Double.
 type: docs
 weight: 50
 url: /net/aspose.slides.effects/ioutershadow/distance/

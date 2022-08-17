@@ -1,7 +1,7 @@
 ---
 title: Instance
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Presentation factory static instance. Read-only PresentationFactoryaspose.slides/presentationfactory.
 type: docs
 weight: 20
 url: /net/aspose.slides/presentationfactory/instance/

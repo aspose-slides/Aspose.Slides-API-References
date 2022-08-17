@@ -1,9 +1,9 @@
 ---
 title: IMathFraction
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Specifies the fraction object consisting of a numerator and denominator separated by a fraction bar. The fraction bar can be horizontal or diagonal depending on the fraction properties. The fraction object is also used to represent the stack function which places one element above another with no fraction bar.
 type: docs
-weight: 7540
+weight: 7560
 url: /net/aspose.slides.mathtext/imathfraction/
 ---
 ## IMathFraction interface

@@ -1,12 +1,12 @@
 ---
 title: GetThumbnails
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns a Thumbnail Bitmap objects for all slides of a presentation.
 type: docs
-weight: 310
+weight: 320
 url: /net/aspose.slides/presentation/getthumbnails/
 ---
-## Presentation.GetThumbnails method (1 of 6)
+## GetThumbnails(IRenderingOptions) {#getthumbnails_6}
 
 Returns a Thumbnail Bitmap objects for all slides of a presentation.
 
@@ -31,7 +31,7 @@ Bitmap objects.
 
 ---
 
-## Presentation.GetThumbnails method (2 of 6)
+## GetThumbnails(IRenderingOptions, int[]) {#getthumbnails_7}
 
 Returns a Thumbnail Bitmap objects for specified slides of a presentation.
 
@@ -57,7 +57,7 @@ Bitmap objects.
 
 ---
 
-## Presentation.GetThumbnails method (3 of 6)
+## GetThumbnails(IRenderingOptions, float, float) {#getthumbnails_10}
 
 Returns a Thumbnail Bitmap objects for all slides of a presentation with custom scaling.
 
@@ -84,7 +84,7 @@ Bitmap objects.
 
 ---
 
-## Presentation.GetThumbnails method (4 of 6)
+## GetThumbnails(IRenderingOptions, int[], float, float) {#getthumbnails_8}
 
 Returns a Thumbnail Bitmap objects for specified slides of a presentation with custom scaling.
 
@@ -112,7 +112,7 @@ Bitmap objects.
 
 ---
 
-## Presentation.GetThumbnails method (5 of 6)
+## GetThumbnails(IRenderingOptions, Size) {#getthumbnails_11}
 
 Returns a Thumbnail Bitmap objects for all slides of a presentation with specified size.
 
@@ -138,7 +138,7 @@ Bitmap objects.
 
 ---
 
-## Presentation.GetThumbnails method (6 of 6)
+## GetThumbnails(IRenderingOptions, int[], Size) {#getthumbnails_9}
 
 Returns a Thumbnail Bitmap objects for specified slides of a presentation with specified size.
 

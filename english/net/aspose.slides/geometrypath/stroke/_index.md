@@ -1,7 +1,7 @@
 ---
 title: Stroke
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Sets stroke appearance
 type: docs
 weight: 40
 url: /net/aspose.slides/geometrypath/stroke/

@@ -1,7 +1,7 @@
 ---
 title: GrowToMatchOperandHeight
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Operator Character grows vertically to match its operand height
 type: docs
 weight: 30
 url: /net/aspose.slides.mathtext/mathnaryoperator/growtomatchoperandheight/

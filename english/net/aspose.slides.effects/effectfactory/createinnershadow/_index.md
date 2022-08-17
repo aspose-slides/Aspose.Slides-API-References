@@ -1,7 +1,7 @@
 ---
 title: CreateInnerShadow
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates Inner shafow effect.
 type: docs
 weight: 40
 url: /net/aspose.slides.effects/effectfactory/createinnershadow/

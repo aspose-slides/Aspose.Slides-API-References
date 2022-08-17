@@ -1,7 +1,7 @@
 ---
 title: Hue
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns hue. Read-only Single.
 type: docs
 weight: 30
 url: /net/aspose.slides.effects/itinteffectivedata/hue/

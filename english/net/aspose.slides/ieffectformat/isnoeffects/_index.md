@@ -1,7 +1,7 @@
 ---
 title: IsNoEffects
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns true if all effects are disabled as just created default EffectFormat object. Read-only Boolean.
 type: docs
 weight: 60
 url: /net/aspose.slides/ieffectformat/isnoeffects/

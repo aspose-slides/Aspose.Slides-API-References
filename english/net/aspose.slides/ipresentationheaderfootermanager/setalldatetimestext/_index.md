@@ -1,7 +1,7 @@
 ---
 title: SetAllDateTimesText
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Sets text to all date-time placeholders including master slides layout slides and slides.
 type: docs
 weight: 20
 url: /net/aspose.slides/ipresentationheaderfootermanager/setalldatetimestext/

@@ -1,7 +1,7 @@
 ---
 title: LabelOffset
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Specifies the distance of labels from the axis. Applied to category or date axis. Value must be between 0 and 1000. Read/write UInt16.
 type: docs
 weight: 320
 url: /net/aspose.slides.charts/axis/labeloffset/

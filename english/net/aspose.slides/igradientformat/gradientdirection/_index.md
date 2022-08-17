@@ -1,7 +1,7 @@
 ---
 title: GradientDirection
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets the style of a gradient. Read/write GradientDirectionaspose.slides/gradientdirection.
 type: docs
 weight: 20
 url: /net/aspose.slides/igradientformat/gradientdirection/

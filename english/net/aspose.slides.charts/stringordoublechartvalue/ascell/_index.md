@@ -1,7 +1,7 @@
 ---
 title: AsCell
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets chart data cell. Read/write IChartDataCellaspose.slides.charts/ichartdatacell.
 type: docs
 weight: 10
 url: /net/aspose.slides.charts/stringordoublechartvalue/ascell/

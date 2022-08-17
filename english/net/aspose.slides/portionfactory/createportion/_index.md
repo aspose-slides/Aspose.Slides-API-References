@@ -1,12 +1,12 @@
 ---
 title: CreatePortion
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates an empty text portion.
 type: docs
 weight: 20
 url: /net/aspose.slides/portionfactory/createportion/
 ---
-## PortionFactory.CreatePortion method (1 of 3)
+## CreatePortion() {#createportion}
 
 Creates an empty text portion.
 
@@ -27,7 +27,7 @@ Portion.
 
 ---
 
-## PortionFactory.CreatePortion method (2 of 3)
+## CreatePortion(string) {#createportion_2}
 
 Creates a text portion from specified string.
 
@@ -52,7 +52,7 @@ Portion.
 
 ---
 
-## PortionFactory.CreatePortion method (3 of 3)
+## CreatePortion(IPortion) {#createportion_1}
 
 Creates a portion with the using of a specified portion data.
 

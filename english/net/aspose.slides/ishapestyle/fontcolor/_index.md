@@ -1,7 +1,7 @@
 ---
 title: FontColor
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns a shapes font color. Read-only IColorFormataspose.slides/icolorformat.
 type: docs
 weight: 60
 url: /net/aspose.slides/ishapestyle/fontcolor/

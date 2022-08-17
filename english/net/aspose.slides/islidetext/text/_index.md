@@ -1,7 +1,7 @@
 ---
 title: Text
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: The text on the slides shapes
 type: docs
 weight: 40
 url: /net/aspose.slides/islidetext/text/

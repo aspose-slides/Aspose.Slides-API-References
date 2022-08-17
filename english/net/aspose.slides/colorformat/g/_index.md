@@ -1,7 +1,7 @@
 ---
 title: G
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets the green component of a color. All color transformations are ignored.
 type: docs
 weight: 80
 url: /net/aspose.slides/colorformat/g/

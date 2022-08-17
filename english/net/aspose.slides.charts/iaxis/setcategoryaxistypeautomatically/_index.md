@@ -1,7 +1,7 @@
 ---
 title: SetCategoryAxisTypeAutomatically
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Sets IAxis.CategoryAxisType property with a value that is automatically determined based on axis data.
 type: docs
 weight: 560
 url: /net/aspose.slides.charts/iaxis/setcategoryaxistypeautomatically/

@@ -1,7 +1,7 @@
 ---
 title: Name
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Gets the name. Read-only String.
 type: docs
 weight: 20
 url: /net/aspose.slides.charts/ichartdataworksheet/name/

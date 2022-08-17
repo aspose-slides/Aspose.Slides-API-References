@@ -1,7 +1,7 @@
 ---
 title: Clear
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Removes all SummaryZoomSection objects from the collection.
 type: docs
 weight: 30
 url: /net/aspose.slides/isummaryzoomsectioncollection/clear/

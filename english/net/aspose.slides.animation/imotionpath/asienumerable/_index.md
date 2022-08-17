@@ -1,7 +1,7 @@
 ---
 title: AsIEnumerable
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Allows to get base IBehavior interface. Read-only IEnumerable.
 type: docs
 weight: 10
 url: /net/aspose.slides.animation/imotionpath/asienumerable/

@@ -1,7 +1,7 @@
 ---
 title: EmbeddedFileLabel
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the file name of embedded OLE object
 type: docs
 weight: 30
 url: /net/aspose.slides/oleobjectframe/embeddedfilelabel/

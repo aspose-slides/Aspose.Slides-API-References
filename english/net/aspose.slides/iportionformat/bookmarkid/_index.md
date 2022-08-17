@@ -1,7 +1,7 @@
 ---
 title: BookmarkId
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets bookmark identifier. Read/write String.
 type: docs
 weight: 30
 url: /net/aspose.slides/iportionformat/bookmarkid/

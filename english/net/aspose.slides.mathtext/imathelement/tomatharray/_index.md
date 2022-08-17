@@ -1,7 +1,7 @@
 ---
 title: ToMathArray
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Puts in a vertical array
 type: docs
 weight: 210
 url: /net/aspose.slides.mathtext/imathelement/tomatharray/

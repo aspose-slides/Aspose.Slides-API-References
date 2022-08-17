@@ -1,7 +1,7 @@
 ---
 title: AsIThreeDParamSource
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Allows to get base IThreeDParamSource interface. Read-only IThreeDParamSourceaspose.slides/ithreedparamsource.
 type: docs
 weight: 10
 url: /net/aspose.slides/ithreedformateffectivedata/asithreedparamsource/

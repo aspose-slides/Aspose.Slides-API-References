@@ -1,7 +1,7 @@
 ---
 title: UpperLimit
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Specifies upper or lower limit
 type: docs
 weight: 40
 url: /net/aspose.slides.mathtext/imathlimit/upperlimit/

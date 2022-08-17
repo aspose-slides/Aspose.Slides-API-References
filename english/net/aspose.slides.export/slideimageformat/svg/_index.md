@@ -1,7 +1,7 @@
 ---
 title: Svg
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Slides should converted to a SVG format.
 type: docs
 weight: 30
 url: /net/aspose.slides.export/slideimageformat/svg/

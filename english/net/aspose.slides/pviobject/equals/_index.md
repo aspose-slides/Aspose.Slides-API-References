@@ -1,7 +1,7 @@
 ---
 title: Equals
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Compares with specified object.
 type: docs
 weight: 20
 url: /net/aspose.slides/pviobject/equals/

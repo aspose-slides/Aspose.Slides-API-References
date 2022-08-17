@@ -1,7 +1,7 @@
 ---
 title: Object
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the model object. Read-only TObject.
 type: docs
 weight: 30
 url: /net/aspose.slides.export.web/templatecontext-1/object/

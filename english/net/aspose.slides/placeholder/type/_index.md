@@ -1,7 +1,7 @@
 ---
 title: Type
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Gets or sets the type of a placeholder. Read-only PlaceholderTypeaspose.slides/placeholdertype.
 type: docs
 weight: 40
 url: /net/aspose.slides/placeholder/type/

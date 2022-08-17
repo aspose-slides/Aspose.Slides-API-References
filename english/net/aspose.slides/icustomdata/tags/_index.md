@@ -1,7 +1,7 @@
 ---
 title: Tags
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the Customer Data Tags collection. Read-only ITagCollectionaspose.slides/itagcollection.
 type: docs
 weight: 20
 url: /net/aspose.slides/icustomdata/tags/

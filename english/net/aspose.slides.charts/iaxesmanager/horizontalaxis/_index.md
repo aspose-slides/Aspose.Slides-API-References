@@ -1,7 +1,7 @@
 ---
 title: HorizontalAxis
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Gets the charts horizontal axis. Read-only IAxisaspose.slides.charts/iaxis.
 type: docs
 weight: 10
 url: /net/aspose.slides.charts/iaxesmanager/horizontalaxis/

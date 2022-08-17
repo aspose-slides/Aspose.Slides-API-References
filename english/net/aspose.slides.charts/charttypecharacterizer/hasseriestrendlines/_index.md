@@ -1,7 +1,7 @@
 ---
 title: HasSeriesTrendLines
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns if there are series trend lines for specified series type.
 type: docs
 weight: 10
 url: /net/aspose.slides.charts/charttypecharacterizer/hasseriestrendlines/

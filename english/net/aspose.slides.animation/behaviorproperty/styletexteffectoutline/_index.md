@@ -1,7 +1,7 @@
 ---
 title: StyleTextEffectOutline
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents style.textEffectOutline property
 type: docs
 weight: 1160
 url: /net/aspose.slides.animation/behaviorproperty/styletexteffectoutline/

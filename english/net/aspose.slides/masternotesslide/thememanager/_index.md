@@ -1,7 +1,7 @@
 ---
 title: ThemeManager
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the theme manager. Read-only IMasterThemeManageraspose.slides.theme/imasterthememanager.
 type: docs
 weight: 40
 url: /net/aspose.slides/masternotesslide/thememanager/

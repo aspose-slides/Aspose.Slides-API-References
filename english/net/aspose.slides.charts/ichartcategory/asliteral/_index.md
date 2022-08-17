@@ -1,7 +1,7 @@
 ---
 title: AsLiteral
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets AsLiteral if UseCell is false. Read/write Object.
 type: docs
 weight: 20
 url: /net/aspose.slides.charts/ichartcategory/asliteral/

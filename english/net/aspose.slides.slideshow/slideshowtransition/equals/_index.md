@@ -1,9 +1,9 @@
 ---
 title: Equals
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Determines whether the two SlideShowTransition instances are equal. Read/write Boolean.
 type: docs
-weight: 110
+weight: 120
 url: /net/aspose.slides.slideshow/slideshowtransition/equals/
 ---
 ## SlideShowTransition.Equals method

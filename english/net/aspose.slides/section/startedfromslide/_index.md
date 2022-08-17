@@ -1,7 +1,7 @@
 ---
 title: StartedFromSlide
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns first slide of the section.
 type: docs
 weight: 30
 url: /net/aspose.slides/section/startedfromslide/

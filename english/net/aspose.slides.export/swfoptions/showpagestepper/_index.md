@@ -1,7 +1,7 @@
 ---
 title: ShowPageStepper
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Show/hide page stepper. Can be overridden in flashvars. Default is true.
 type: docs
 weight: 130
 url: /net/aspose.slides.export/swfoptions/showpagestepper/

@@ -1,9 +1,9 @@
 ---
 title: ResourceLoadingAction
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Specifies the mode of external resource loading.
 type: docs
-weight: 8970
+weight: 8990
 url: /net/aspose.slides/resourceloadingaction/
 ---
 ## ResourceLoadingAction enumeration

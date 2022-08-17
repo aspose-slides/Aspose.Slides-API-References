@@ -1,7 +1,7 @@
 ---
 title: Is3DChart
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Return true if chartType is one of 3D chart types.
 type: docs
 weight: 30
 url: /net/aspose.slides.charts/charttypecharacterizer/is3dchart/

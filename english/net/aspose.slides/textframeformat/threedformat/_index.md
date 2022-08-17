@@ -1,7 +1,7 @@
 ---
 title: ThreeDFormat
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the ThreeDFormat object that represents 3d effect properties for a text. Read-only IThreeDFormataspose.slides/ithreedformat.
 type: docs
 weight: 140
 url: /net/aspose.slides/textframeformat/threedformat/

@@ -1,12 +1,12 @@
 ---
 title: CreateFileStreamWrapper
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates FileStream with the specified path and creation mode.
 type: docs
 weight: 20
 url: /net/aspose.slides/streamwrapperfactory/createfilestreamwrapper/
 ---
-## StreamWrapperFactory.CreateFileStreamWrapper method (1 of 2)
+## CreateFileStreamWrapper(string, FileMode) {#createfilestreamwrapper}
 
 Creates FileStream with the specified path and creation mode.
 
@@ -23,7 +23,7 @@ public IStreamWrapper CreateFileStreamWrapper(string fileName, FileMode fileMode
 
 ---
 
-## StreamWrapperFactory.CreateFileStreamWrapper method (2 of 2)
+## CreateFileStreamWrapper(string, FileMode, FileAccess) {#createfilestreamwrapper_1}
 
 Creates FileStream with the specified path, creation mode, and read/write permission.
 

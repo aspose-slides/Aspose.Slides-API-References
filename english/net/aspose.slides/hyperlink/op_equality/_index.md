@@ -1,7 +1,7 @@
 ---
 title: op_Equality
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Tests two hyperlinks for equality.
 type: docs
 weight: 210
 url: /net/aspose.slides/hyperlink/op_equality/

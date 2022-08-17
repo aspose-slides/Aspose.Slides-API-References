@@ -1,9 +1,9 @@
 ---
 title: MathAccentFactory
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Allows to create a math accent
 type: docs
-weight: 7820
+weight: 7840
 url: /net/aspose.slides.mathtext/mathaccentfactory/
 ---
 ## MathAccentFactory class
@@ -24,8 +24,8 @@ public class MathAccentFactory : IMathAccentFactory
 
 | Name | Description |
 | --- | --- |
-| [CreateMathAccent](../../aspose.slides.mathtext/mathaccentfactory/createmathaccent)(IMathElement) | Creates a math accent applying to a specified math element with the default accent character value |
-| [CreateMathAccent](../../aspose.slides.mathtext/mathaccentfactory/createmathaccent)(IMathElement, char) | Creates a math accent applying to a specified math element |
+| [CreateMathAccent](../../aspose.slides.mathtext/mathaccentfactory/createmathaccent#createmathaccent)(IMathElement) | Creates a math accent applying to a specified math element with the default accent character value |
+| [CreateMathAccent](../../aspose.slides.mathtext/mathaccentfactory/createmathaccent#createmathaccent_1)(IMathElement, char) | Creates a math accent applying to a specified math element |
 
 ### Remarks
 

@@ -1,7 +1,7 @@
 ---
 title: FilterEffect
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represent filter effect of behavior.
 type: docs
 weight: 270
 url: /net/aspose.slides.animation/filtereffect/

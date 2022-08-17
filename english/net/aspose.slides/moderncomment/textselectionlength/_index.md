@@ -1,7 +1,7 @@
 ---
 title: TextSelectionLength
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Gets or sets text selection length in text frame if the comment associated with AutoShape. Read/write Int32.
 type: docs
 weight: 30
 url: /net/aspose.slides/moderncomment/textselectionlength/

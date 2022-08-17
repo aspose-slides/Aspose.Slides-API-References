@@ -1,7 +1,7 @@
 ---
 title: Limit
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Limit argument
 type: docs
 weight: 30
 url: /net/aspose.slides.mathtext/mathlimit/limit/

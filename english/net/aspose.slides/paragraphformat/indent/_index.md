@@ -1,7 +1,7 @@
 ---
 title: Indent
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets paragraph First Line Indent/Hanging Indent with no inheritance. Hanging Indent can be defined with negative values. Read/write Single.
 type: docs
 weight: 70
 url: /net/aspose.slides/paragraphformat/indent/

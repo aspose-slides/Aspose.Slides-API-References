@@ -1,7 +1,7 @@
 ---
 title: GetNameByIndex
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns key of a tag at the specified index.
 type: docs
 weight: 50
 url: /net/aspose.slides/itagcollection/getnamebyindex/

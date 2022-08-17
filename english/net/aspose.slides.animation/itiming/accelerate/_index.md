@@ -1,7 +1,7 @@
 ---
 title: Accelerate
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Describes the percentage of duration accelerate behavior effect. Read/write Single.
 type: docs
 weight: 10
 url: /net/aspose.slides.animation/itiming/accelerate/

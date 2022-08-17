@@ -1,7 +1,7 @@
 ---
 title: Position
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Specifies the position of the legend on a chart. Non-NaN values of X Y Width Heigt properties override effect of this property. Read/write LegendPositionTypeaspose.slides.charts/legendpositiontype.
 type: docs
 weight: 70
 url: /net/aspose.slides.charts/legend/position/

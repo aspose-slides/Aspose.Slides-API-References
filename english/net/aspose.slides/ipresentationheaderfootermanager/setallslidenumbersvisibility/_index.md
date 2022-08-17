@@ -1,7 +1,7 @@
 ---
 title: SetAllSlideNumbersVisibility
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Changes all page number placeholders visibility including master slides layout slides and slides.
 type: docs
 weight: 80
 url: /net/aspose.slides/ipresentationheaderfootermanager/setallslidenumbersvisibility/

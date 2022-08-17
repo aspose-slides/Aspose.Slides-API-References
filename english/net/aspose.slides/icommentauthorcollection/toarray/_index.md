@@ -1,7 +1,7 @@
 ---
 title: ToArray
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates and returns an array with all authors.
 type: docs
 weight: 80
 url: /net/aspose.slides/icommentauthorcollection/toarray/

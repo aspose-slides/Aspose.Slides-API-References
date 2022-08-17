@@ -1,7 +1,7 @@
 ---
 title: CreateGrayScale
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates Gray scale effect.
 type: docs
 weight: 140
 url: /net/aspose.slides.effects/iimagetransformoperationfactory/creategrayscale/

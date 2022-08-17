@@ -1,12 +1,12 @@
 ---
 title: Insert
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates the new gradient stop and inserts it at the specified index to the collection.
 type: docs
 weight: 40
 url: /net/aspose.slides/igradientstopcollection/insert/
 ---
-## IGradientStopCollection.Insert method (1 of 3)
+## Insert(int, float, Color) {#insert_2}
 
 Creates the new gradient stop and inserts it at the specified index to the collection.
 
@@ -28,7 +28,7 @@ public void Insert(int index, float position, Color color)
 
 ---
 
-## IGradientStopCollection.Insert method (2 of 3)
+## Insert(int, float, PresetColor) {#insert}
 
 Creates the new gradient stop and inserts it at the specified index to the collection.
 
@@ -51,7 +51,7 @@ public void Insert(int index, float position, PresetColor presetColor)
 
 ---
 
-## IGradientStopCollection.Insert method (3 of 3)
+## Insert(int, float, SchemeColor) {#insert_1}
 
 Creates the new gradient stop and inserts it at the specified index to the collection.
 

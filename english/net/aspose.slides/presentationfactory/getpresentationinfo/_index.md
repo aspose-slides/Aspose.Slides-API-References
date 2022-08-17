@@ -1,12 +1,12 @@
 ---
 title: GetPresentationInfo
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates new PresentationInfo object from file and binds presentation to it.
 type: docs
 weight: 40
 url: /net/aspose.slides/presentationfactory/getpresentationinfo/
 ---
-## PresentationFactory.GetPresentationInfo method (1 of 2)
+## GetPresentationInfo(string) {#getpresentationinfo_1}
 
 Creates new PresentationInfo object from file and binds presentation to it.
 
@@ -31,7 +31,7 @@ Presentation info binded to presentation.
 
 ---
 
-## PresentationFactory.GetPresentationInfo method (2 of 2)
+## GetPresentationInfo(Stream) {#getpresentationinfo}
 
 Creates new PresentationInfo object from stream and binds presentation to it. Gets info about presentation in specified stream.
 

@@ -1,7 +1,7 @@
 ---
 title: StylePreset
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Gets or sets builtin table style. Read/write TableStylePresetaspose.slides/tablestylepreset.
 type: docs
 weight: 100
 url: /net/aspose.slides/table/stylepreset/

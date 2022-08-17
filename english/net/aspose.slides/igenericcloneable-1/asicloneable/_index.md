@@ -1,7 +1,7 @@
 ---
 title: AsICloneable
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns ICloneable interface.
 type: docs
 weight: 10
 url: /net/aspose.slides/igenericcloneable-1/asicloneable/

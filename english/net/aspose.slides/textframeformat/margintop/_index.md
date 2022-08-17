@@ -1,7 +1,7 @@
 ---
 title: MarginTop
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets the top margin points in a TextFrame. Read/write Double.
 type: docs
 weight: 110
 url: /net/aspose.slides/textframeformat/margintop/

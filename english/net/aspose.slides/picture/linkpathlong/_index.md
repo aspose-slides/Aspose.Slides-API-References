@@ -1,9 +1,9 @@
 ---
 title: LinkPathLong
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns of sets linked images URL. Read/write String.
 type: docs
-weight: 30
+weight: 40
 url: /net/aspose.slides/picture/linkpathlong/
 ---
 ## Picture.LinkPathLong property

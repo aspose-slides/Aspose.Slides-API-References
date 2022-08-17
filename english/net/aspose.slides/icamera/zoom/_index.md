@@ -1,7 +1,7 @@
 ---
 title: Zoom
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Camera zoom positive value in percentage Read/write Single.
 type: docs
 weight: 30
 url: /net/aspose.slides/icamera/zoom/

@@ -1,7 +1,7 @@
 ---
 title: TickLabelPosition
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents the position of tick-mark labels on the specified axis. Read/write TickLabelPositionTypeaspose.slides.charts/ticklabelpositiontype.
 type: docs
 weight: 500
 url: /net/aspose.slides.charts/iaxis/ticklabelposition/

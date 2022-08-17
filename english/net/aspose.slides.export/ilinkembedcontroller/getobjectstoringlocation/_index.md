@@ -1,7 +1,7 @@
 ---
 title: GetObjectStoringLocation
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Determines where object should be stored. This method is called once for each object id. It is not guaranteed that there wont be two objects with same data semanticName and contentType but with different id.
 type: docs
 weight: 10
 url: /net/aspose.slides.export/ilinkembedcontroller/getobjectstoringlocation/

@@ -1,7 +1,7 @@
 ---
 title: ContentType
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets the content type of a presentation. Read/write String.
 type: docs
 weight: 90
 url: /net/aspose.slides/documentproperties/contenttype/

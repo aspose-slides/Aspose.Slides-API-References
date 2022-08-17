@@ -1,7 +1,7 @@
 ---
 title: JpegQuality
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Specifies the quality of JPEG images. Default is 95.
 type: docs
 weight: 40
 url: /net/aspose.slides.export/iswfoptions/jpegquality/

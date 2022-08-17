@@ -1,7 +1,7 @@
 ---
 title: StyleFontFamily
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents style.fontFamily property
 type: docs
 weight: 1060
 url: /net/aspose.slides.animation/behaviorproperty/stylefontfamily/

@@ -1,7 +1,7 @@
 ---
 title: QuickStyle
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Return or set quick style of the SmartArt object. Read/write SmartArtQuickStyleTypeaspose.slides.smartart/smartartquickstyletype.
 type: docs
 weight: 70
 url: /net/aspose.slides.smartart/ismartart/quickstyle/

@@ -1,9 +1,9 @@
 ---
 title: ColorChange
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents a Color Change effect. Instances of FromColor are replaced with instances of ToColor.
 type: docs
-weight: 2760
+weight: 2780
 url: /net/aspose.slides.effects/colorchange/
 ---
 ## ColorChange class

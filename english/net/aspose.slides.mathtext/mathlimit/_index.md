@@ -1,9 +1,9 @@
 ---
 title: MathLimit
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Specifies the Limit object consisting of text on the baseline and reduced-size text immediately above or below it.
 type: docs
-weight: 8100
+weight: 8120
 url: /net/aspose.slides.mathtext/mathlimit/
 ---
 ## MathLimit class
@@ -18,8 +18,8 @@ public sealed class MathLimit : MathElementBase, IMathLimit
 
 | Name | Description |
 | --- | --- |
-| [MathLimit](mathlimit)(IMathElement, IMathElement) | Initializes a new instance of the MathLimit class with lower limit |
-| [MathLimit](mathlimit)(IMathElement, IMathElement, bool) | Initializes a new instance of the MathLimit class. |
+| [MathLimit](mathlimit#constructor)(IMathElement, IMathElement) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit](mathlimit#constructor_1)(IMathElement, IMathElement, bool) | Initializes a new instance of the MathLimit class. |
 
 ## Properties
 

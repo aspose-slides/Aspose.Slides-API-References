@@ -1,7 +1,7 @@
 ---
 title: IsReversed
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Return or set the state of the SmartArt diagram with regard to left-to-right LTR or right-to-left RTL if the diagram supports reversal. Read/write Boolean.
 type: docs
 weight: 40
 url: /net/aspose.slides.smartart/ismartart/isreversed/

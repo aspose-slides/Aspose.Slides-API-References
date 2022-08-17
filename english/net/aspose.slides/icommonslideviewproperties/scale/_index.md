@@ -1,7 +1,7 @@
 ---
 title: Scale
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Specifies the view scaling ratio in percentages. Read/write Int32.
 type: docs
 weight: 10
 url: /net/aspose.slides/icommonslideviewproperties/scale/

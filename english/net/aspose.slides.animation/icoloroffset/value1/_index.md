@@ -1,7 +1,7 @@
 ---
 title: Value1
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Defines second value of offset. Read/write Single.
 type: docs
 weight: 20
 url: /net/aspose.slides.animation/icoloroffset/value1/

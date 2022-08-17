@@ -1,7 +1,7 @@
 ---
 title: Y
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets the y coordinate of a legend as a fraction of the height of the chart. Read/write Single.
 type: docs
 weight: 120
 url: /net/aspose.slides.charts/legend/y/

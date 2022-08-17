@@ -1,7 +1,7 @@
 ---
 title: OverrideTheme
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the overriding theme object. Read/write IOverrideThemeaspose.slides.theme/ioverridetheme.
 type: docs
 weight: 20
 url: /net/aspose.slides.theme/baseoverridethememanager/overridetheme/

@@ -1,9 +1,9 @@
 ---
 title: IChartCellCollection
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents collection of a cells with data.
 type: docs
-weight: 1640
+weight: 1660
 url: /net/aspose.slides.charts/ichartcellcollection/
 ---
 ## IChartCellCollection interface
@@ -26,8 +26,8 @@ public interface IChartCellCollection : IEnumerable<IChartDataCell>
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.slides.charts/ichartcellcollection/add)(IChartDataCell) | Add new cell to the collection. |
-| [Add](../../aspose.slides.charts/ichartcellcollection/add)(object) | Creates [`IChartDataCell`](../ichartdatacell) from specified value and adds it to the collection. |
+| [Add](../../aspose.slides.charts/ichartcellcollection/add#add)(IChartDataCell) | Add new cell to the collection. |
+| [Add](../../aspose.slides.charts/ichartcellcollection/add#add_1)(object) | Creates [`IChartDataCell`](../ichartdatacell) from specified value and adds it to the collection. |
 | [GetCellsAddress](../../aspose.slides.charts/ichartcellcollection/getcellsaddress)() | Returns address of the set of cells in workbook. |
 | [GetConcatenatedValuesFromCells](../../aspose.slides.charts/ichartcellcollection/getconcatenatedvaluesfromcells)() | Concatenation string from all cells string values. |
 | [RemoveAt](../../aspose.slides.charts/ichartcellcollection/removeat)(int) | Removes a cell from the collection by index. |

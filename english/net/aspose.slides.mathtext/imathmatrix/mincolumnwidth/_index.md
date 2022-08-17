@@ -1,7 +1,7 @@
 ---
 title: MinColumnWidth
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Minimum column width in twips 1/20th of a point The gap spacing also referred to as Column Gap or Gap Width is added to the MinColumnWidth to determine the total Matrix Column Spacing distance between the same edges of different columns. Default 0.
 type: docs
 weight: 80
 url: /net/aspose.slides.mathtext/imathmatrix/mincolumnwidth/

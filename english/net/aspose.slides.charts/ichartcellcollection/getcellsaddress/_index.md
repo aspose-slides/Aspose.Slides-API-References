@@ -1,7 +1,7 @@
 ---
 title: GetCellsAddress
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns address of the set of cells in workbook.
 type: docs
 weight: 50
 url: /net/aspose.slides.charts/ichartcellcollection/getcellsaddress/

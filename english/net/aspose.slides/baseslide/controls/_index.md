@@ -1,7 +1,7 @@
 ---
 title: Controls
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the collection of ActiveX controls on a slide. Read-only IControlCollectionaspose.slides/icontrolcollection.
 type: docs
 weight: 20
 url: /net/aspose.slides/baseslide/controls/

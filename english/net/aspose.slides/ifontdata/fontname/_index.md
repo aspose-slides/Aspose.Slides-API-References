@@ -1,7 +1,7 @@
 ---
 title: FontName
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the font name. Read-only String.
 type: docs
 weight: 10
 url: /net/aspose.slides/ifontdata/fontname/

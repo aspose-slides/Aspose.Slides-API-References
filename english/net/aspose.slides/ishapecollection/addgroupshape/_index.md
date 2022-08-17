@@ -1,12 +1,12 @@
 ---
 title: AddGroupShape
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates a new GroupShape and adds it to the end of the collection. GroupShape frame size and position will be fitted to content when new shape will be added into the GroupShape.
 type: docs
 weight: 100
 url: /net/aspose.slides/ishapecollection/addgroupshape/
 ---
-## IShapeCollection.AddGroupShape method (1 of 2)
+## AddGroupShape() {#addgroupshape}
 
 Creates a new GroupShape and adds it to the end of the collection. GroupShape frame size and position will be fitted to content when new shape will be added into the GroupShape.
 
@@ -27,7 +27,7 @@ Created GroupShape object.
 
 ---
 
-## IShapeCollection.AddGroupShape method (2 of 2)
+## AddGroupShape(ISvgImage, float, float, float, float) {#addgroupshape_1}
 
 Creates a new GroupShape, fills it with converted shapes from SVG and adds it to the end of the collection.
 

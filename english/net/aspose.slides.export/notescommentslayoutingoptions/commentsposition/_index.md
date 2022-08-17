@@ -1,7 +1,7 @@
 ---
 title: CommentsPosition
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Gets or sets the position of the comments on the page.
 type: docs
 weight: 40
 url: /net/aspose.slides.export/notescommentslayoutingoptions/commentsposition/

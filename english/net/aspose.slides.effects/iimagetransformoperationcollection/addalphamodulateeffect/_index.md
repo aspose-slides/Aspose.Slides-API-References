@@ -1,7 +1,7 @@
 ---
 title: AddAlphaModulateEffect
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Adds the new Alpha Modulate effect to the end of a collection.
 type: docs
 weight: 70
 url: /net/aspose.slides.effects/iimagetransformoperationcollection/addalphamodulateeffect/

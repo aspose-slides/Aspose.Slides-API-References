@@ -1,9 +1,9 @@
 ---
 title: ISlideImageFormat
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Determines format in which slide image will be saved for presentation to HTML export.
 type: docs
-weight: 3760
+weight: 3780
 url: /net/aspose.slides.export/islideimageformat/
 ---
 ## ISlideImageFormat interface

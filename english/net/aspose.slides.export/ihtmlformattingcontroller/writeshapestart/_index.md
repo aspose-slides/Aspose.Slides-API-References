@@ -1,7 +1,7 @@
 ---
 title: WriteShapeStart
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Called before shapes rendering. Called once per each of shape. If this function writes anything to generator current slide image generation will be finished added html fragment inserted and new image will be started atop of the previous.
 type: docs
 weight: 40
 url: /net/aspose.slides.export/ihtmlformattingcontroller/writeshapestart/

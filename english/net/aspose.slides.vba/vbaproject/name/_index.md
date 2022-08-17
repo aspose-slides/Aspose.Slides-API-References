@@ -1,7 +1,7 @@
 ---
 title: Name
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the name of the VBA project. Read-only String.
 type: docs
 weight: 30
 url: /net/aspose.slides.vba/vbaproject/name/

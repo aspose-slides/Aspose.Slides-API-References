@@ -1,7 +1,7 @@
 ---
 title: FillFormat
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the text FillFormat properties. No inheritance applied. Read-only IFillFormataspose.slides/ifillformat.
 type: docs
 weight: 60
 url: /net/aspose.slides/baseportionformat/fillformat/

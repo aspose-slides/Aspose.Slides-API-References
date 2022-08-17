@@ -1,12 +1,12 @@
 ---
 title: AddFromHtml
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates slides from HTML text and adds them to the end of the collection.
 type: docs
 weight: 70
 url: /net/aspose.slides/slidecollection/addfromhtml/
 ---
-## SlideCollection.AddFromHtml method (1 of 6)
+## AddFromHtml(string, IExternalResourceResolver, string) {#addfromhtml_5}
 
 Creates slides from HTML text and adds them to the end of the collection.
 
@@ -34,7 +34,7 @@ Added slides.
 
 ---
 
-## SlideCollection.AddFromHtml method (2 of 6)
+## AddFromHtml(string) {#addfromhtml_4}
 
 Creates slides from HTML text and adds them to the end of the collection.
 
@@ -59,7 +59,7 @@ Added slides
 
 ---
 
-## SlideCollection.AddFromHtml method (3 of 6)
+## AddFromHtml(TextReader, IExternalResourceResolver, string) {#addfromhtml_3}
 
 Creates slides from HTML text and adds them to the end of the collection.
 
@@ -87,7 +87,7 @@ Added slides.
 
 ---
 
-## SlideCollection.AddFromHtml method (4 of 6)
+## AddFromHtml(TextReader) {#addfromhtml_2}
 
 Creates slides from HTML text and adds them to the end of the collection.
 
@@ -112,7 +112,7 @@ Added slides
 
 ---
 
-## SlideCollection.AddFromHtml method (5 of 6)
+## AddFromHtml(Stream, IExternalResourceResolver, string) {#addfromhtml_1}
 
 Creates slides from HTML text and adds them to the end of the collection.
 
@@ -140,7 +140,7 @@ Added slides.
 
 ---
 
-## SlideCollection.AddFromHtml method (6 of 6)
+## AddFromHtml(Stream) {#addfromhtml}
 
 Creates slides from HTML text and adds them to the end of the collection.
 

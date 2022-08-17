@@ -1,7 +1,7 @@
 ---
 title: Label
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents data label of data point level. Applied for Treemap and Sunburst sereis types. Read-only IDataLabelaspose.slides.charts/idatalabel.
 type: docs
 weight: 20
 url: /net/aspose.slides.charts/ichartdatapointlevel/label/

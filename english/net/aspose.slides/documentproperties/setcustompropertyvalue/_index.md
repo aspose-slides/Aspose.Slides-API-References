@@ -1,12 +1,12 @@
 ---
 title: SetCustomPropertyValue
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Sets a named boolean custom property.
 type: docs
 weight: 340
 url: /net/aspose.slides/documentproperties/setcustompropertyvalue/
 ---
-## DocumentProperties.SetCustomPropertyValue method (1 of 6)
+## SetCustomPropertyValue(string, bool) {#setcustompropertyvalue}
 
 Sets a named boolean custom property.
 
@@ -27,7 +27,7 @@ public void SetCustomPropertyValue(string name, bool value)
 
 ---
 
-## DocumentProperties.SetCustomPropertyValue method (2 of 6)
+## SetCustomPropertyValue(string, int) {#setcustompropertyvalue_2}
 
 Sets a named integer custom property.
 
@@ -48,7 +48,7 @@ public void SetCustomPropertyValue(string name, int value)
 
 ---
 
-## DocumentProperties.SetCustomPropertyValue method (3 of 6)
+## SetCustomPropertyValue(string, DateTime) {#setcustompropertyvalue_4}
 
 Sets a named DateTime custom property.
 
@@ -69,7 +69,7 @@ public void SetCustomPropertyValue(string name, DateTime value)
 
 ---
 
-## DocumentProperties.SetCustomPropertyValue method (4 of 6)
+## SetCustomPropertyValue(string, string) {#setcustompropertyvalue_5}
 
 Sets a named string custom property.
 
@@ -90,7 +90,7 @@ public void SetCustomPropertyValue(string name, string value)
 
 ---
 
-## DocumentProperties.SetCustomPropertyValue method (5 of 6)
+## SetCustomPropertyValue(string, float) {#setcustompropertyvalue_3}
 
 Sets a named float custom property.
 
@@ -111,7 +111,7 @@ public void SetCustomPropertyValue(string name, float value)
 
 ---
 
-## DocumentProperties.SetCustomPropertyValue method (6 of 6)
+## SetCustomPropertyValue(string, double) {#setcustompropertyvalue_1}
 
 Sets a named double custom property.
 

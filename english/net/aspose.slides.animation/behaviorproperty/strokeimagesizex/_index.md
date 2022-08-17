@@ -1,7 +1,7 @@
 ---
 title: StrokeImageSizeX
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents stroke.imagesize.x property
 type: docs
 weight: 950
 url: /net/aspose.slides.animation/behaviorproperty/strokeimagesizex/

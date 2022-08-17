@@ -1,7 +1,7 @@
 ---
 title: AddSummaryZoomFrame
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Adds a new Summary Zoom object to the end of a collection.
 type: docs
 weight: 190
 url: /net/aspose.slides/shapecollection/addsummaryzoomframe/

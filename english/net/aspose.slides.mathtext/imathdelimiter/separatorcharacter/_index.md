@@ -1,7 +1,7 @@
 ---
 title: SeparatorCharacter
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Delimiter Separator Character specifies the character that separates arguments in the delimiter object. The default x7C.
 type: docs
 weight: 70
 url: /net/aspose.slides.mathtext/imathdelimiter/separatorcharacter/

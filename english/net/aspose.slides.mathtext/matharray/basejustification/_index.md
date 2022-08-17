@@ -1,7 +1,7 @@
 ---
 title: BaseJustification
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Specifies alignment of the array relative to surrounding text Text outside of the array can be aligned with the bottom top or center of a array object. Default value Center
 type: docs
 weight: 30
 url: /net/aspose.slides.mathtext/matharray/basejustification/

@@ -1,12 +1,12 @@
 ---
 title: AddZoomFrame
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Adds a new Zoom object to the end of a collection.
 type: docs
 weight: 190
 url: /net/aspose.slides/ishapecollection/addzoomframe/
 ---
-## IShapeCollection.AddZoomFrame method (1 of 2)
+## AddZoomFrame(float, float, float, float, ISlide) {#addzoomframe}
 
 Adds a new Zoom object to the end of a collection.
 
@@ -54,7 +54,7 @@ using (Presentation pres = new Presentation("Presentation.pptx"))
 
 ---
 
-## IShapeCollection.AddZoomFrame method (2 of 2)
+## AddZoomFrame(float, float, float, float, ISlide, IPPImage) {#addzoomframe_1}
 
 Adds a new Zoom object to the end of a collection.
 

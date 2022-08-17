@@ -1,7 +1,7 @@
 ---
 title: InsertClone
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Inserts a copy of a specified master slide to specified position of the collection. Linked layout slides will be copied too.
 type: docs
 weight: 30
 url: /net/aspose.slides/imasterslidecollection/insertclone/

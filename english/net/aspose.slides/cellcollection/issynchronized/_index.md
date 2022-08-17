@@ -1,7 +1,7 @@
 ---
 title: IsSynchronized
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns a value indicating whether access to the collection is synchronized thread-safe. Read-only Boolean.
 type: docs
 weight: 20
 url: /net/aspose.slides/cellcollection/issynchronized/

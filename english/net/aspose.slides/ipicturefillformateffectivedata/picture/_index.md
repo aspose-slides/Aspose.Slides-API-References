@@ -1,7 +1,7 @@
 ---
 title: Picture
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the picture. Read-only IPictureEffectiveDataaspose.slides/ipictureeffectivedata.
 type: docs
 weight: 70
 url: /net/aspose.slides/ipicturefillformateffectivedata/picture/

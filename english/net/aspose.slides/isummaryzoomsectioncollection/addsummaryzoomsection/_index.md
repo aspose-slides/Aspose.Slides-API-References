@@ -1,7 +1,7 @@
 ---
 title: AddSummaryZoomSection
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates new Summary Zoom Section object and add it to the collection
 type: docs
 weight: 20
 url: /net/aspose.slides/isummaryzoomsectioncollection/addsummaryzoomsection/

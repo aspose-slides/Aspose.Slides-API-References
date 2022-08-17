@@ -1,7 +1,7 @@
 ---
 title: AddNode
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Add new smart art node or sub node.
 type: docs
 weight: 50
 url: /net/aspose.slides.smartart/smartartnodecollection/addnode/

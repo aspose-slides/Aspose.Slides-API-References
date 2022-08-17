@@ -1,7 +1,7 @@
 ---
 title: AsIOverridableText
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns IOverridableText interface. Read-only IOverridableTextaspose.slides.charts/ioverridabletext.
 type: docs
 weight: 10
 url: /net/aspose.slides.charts/itrendline/asioverridabletext/

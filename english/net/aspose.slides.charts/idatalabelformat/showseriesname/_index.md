@@ -1,7 +1,7 @@
 ---
 title: ShowSeriesName
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets a Boolean to indicate the series name display behavior for the data labels on a chart. True to show the series name. False to hide. Read/write Boolean.
 type: docs
 weight: 140
 url: /net/aspose.slides.charts/idatalabelformat/showseriesname/

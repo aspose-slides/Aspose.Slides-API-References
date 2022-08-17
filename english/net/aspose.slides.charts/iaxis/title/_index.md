@@ -1,7 +1,7 @@
 ---
 title: Title
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Gets the axis title. Read-only IChartTitleaspose.slides.charts/icharttitle.
 type: docs
 weight: 540
 url: /net/aspose.slides.charts/iaxis/title/

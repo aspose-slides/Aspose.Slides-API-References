@@ -1,7 +1,7 @@
 ---
 title: RotateShadowWithShape
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Specifies whether the shadow should rotate with the shape if the shape is rotated. Read/write Boolean.
 type: docs
 weight: 70
 url: /net/aspose.slides.effects/ioutershadow/rotateshadowwithshape/

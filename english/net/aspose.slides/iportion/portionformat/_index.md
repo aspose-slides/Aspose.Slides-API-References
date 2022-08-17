@@ -1,7 +1,7 @@
 ---
 title: PortionFormat
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns formatting object which contains explicitly set formatting properties of the text portion with no inheritance applied. Read-only IPortionFormataspose.slides/iportionformat.
 type: docs
 weight: 30
 url: /net/aspose.slides/iportion/portionformat/

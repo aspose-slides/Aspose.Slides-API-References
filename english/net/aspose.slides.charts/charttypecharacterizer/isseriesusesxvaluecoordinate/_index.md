@@ -1,7 +1,7 @@
 ---
 title: IsSeriesUsesXValueCoordinate
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns if specified series type uses X value coordinates.
 type: docs
 weight: 200
 url: /net/aspose.slides.charts/charttypecharacterizer/isseriesusesxvaluecoordinate/

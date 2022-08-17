@@ -1,7 +1,7 @@
 ---
 title: Alignment
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns align style of a tab. Read-only TabAlignmentaspose.slides/tabalignment.
 type: docs
 weight: 10
 url: /net/aspose.slides/itabeffectivedata/alignment/

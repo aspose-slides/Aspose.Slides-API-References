@@ -1,7 +1,7 @@
 ---
 title: MorphType
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Type of morph transition. Read/write TransitionMorphTypeaspose.slides.slideshow/transitionmorphtype.
 type: docs
 weight: 10
 url: /net/aspose.slides.slideshow/morphtransition/morphtype/

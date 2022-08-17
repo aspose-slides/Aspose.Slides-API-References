@@ -1,7 +1,7 @@
 ---
 title: IsHeaderVisible
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Gets value indicating that a header placeholder is present. Read Boolean.
 type: docs
 weight: 10
 url: /net/aspose.slides/basehandoutnotesslideheaderfootermanager/isheadervisible/

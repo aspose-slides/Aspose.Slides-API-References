@@ -1,7 +1,7 @@
 ---
 title: ThreeDFormat
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns an 3d format. Read-only IThreeDFormataspose.slides/ithreedformat.
 type: docs
 weight: 20
 url: /net/aspose.slides.theme/ieffectstyle/threedformat/

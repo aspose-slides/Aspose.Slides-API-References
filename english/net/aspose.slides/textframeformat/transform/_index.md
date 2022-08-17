@@ -1,7 +1,7 @@
 ---
 title: Transform
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Gets or sets text wrapping shape. Read/write TextShapeTypeaspose.slides/textshapetype.
 type: docs
 weight: 150
 url: /net/aspose.slides/textframeformat/transform/

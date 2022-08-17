@@ -1,7 +1,7 @@
 ---
 title: Accent
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Sets an accent mark a character on the top of this element
 type: docs
 weight: 10
 url: /net/aspose.slides.mathtext/imathelement/accent/

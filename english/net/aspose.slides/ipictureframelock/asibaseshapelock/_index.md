@@ -1,7 +1,7 @@
 ---
 title: AsIBaseShapeLock
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Allows to get base IBaseShapeLock interface. Read-only IBaseShapeLockaspose.slides/ibaseshapelock.
 type: docs
 weight: 30
 url: /net/aspose.slides/ipictureframelock/asibaseshapelock/

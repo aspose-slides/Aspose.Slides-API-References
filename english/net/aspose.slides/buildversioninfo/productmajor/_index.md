@@ -1,7 +1,7 @@
 ---
 title: ProductMajor
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Major version number.
 type: docs
 weight: 40
 url: /net/aspose.slides/buildversioninfo/productmajor/

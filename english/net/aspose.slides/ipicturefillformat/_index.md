@@ -1,9 +1,9 @@
 ---
 title: IPictureFillFormat
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents a picture fill style.
 type: docs
-weight: 6090
+weight: 6110
 url: /net/aspose.slides/ipicturefillformat/
 ---
 ## IPictureFillFormat interface

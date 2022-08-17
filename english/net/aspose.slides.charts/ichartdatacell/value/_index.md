@@ -1,7 +1,7 @@
 ---
 title: Value
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Gets or sets the value. Read/write Object.
 type: docs
 weight: 90
 url: /net/aspose.slides.charts/ichartdatacell/value/

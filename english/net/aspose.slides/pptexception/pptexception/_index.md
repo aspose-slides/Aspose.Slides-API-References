@@ -1,12 +1,12 @@
 ---
 title: PptException
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Default constructor.
 type: docs
 weight: 10
 url: /net/aspose.slides/pptexception/pptexception/
 ---
-## PptException constructor (1 of 3)
+## PptException() {#constructor}
 
 Default constructor.
 
@@ -22,7 +22,7 @@ public PptException()
 
 ---
 
-## PptException constructor (2 of 3)
+## PptException(string) {#constructor_1}
 
 Constructor allowing a message to be added to this exception.
 
@@ -42,7 +42,7 @@ public PptException(string message)
 
 ---
 
-## PptException constructor (3 of 3)
+## PptException(string, Exception) {#constructor_2}
 
 Constructor for an exception containing a message and an embedded exception.
 

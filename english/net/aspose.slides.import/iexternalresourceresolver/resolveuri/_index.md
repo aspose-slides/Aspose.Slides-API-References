@@ -1,7 +1,7 @@
 ---
 title: ResolveUri
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Resolves the absolute URI from the base and relative URIs.
 type: docs
 weight: 20
 url: /net/aspose.slides.import/iexternalresourceresolver/resolveuri/

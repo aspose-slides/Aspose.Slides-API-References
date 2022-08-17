@@ -1,7 +1,7 @@
 ---
 title: Height
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets the height of the shape. Read/write Single.
 type: docs
 weight: 90
 url: /net/aspose.slides/shape/height/

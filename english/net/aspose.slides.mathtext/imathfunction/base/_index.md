@@ -1,7 +1,7 @@
 ---
 title: Base
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Function Argument
 type: docs
 weight: 20
 url: /net/aspose.slides.mathtext/imathfunction/base/

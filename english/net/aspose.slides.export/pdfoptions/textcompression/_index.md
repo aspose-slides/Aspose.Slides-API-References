@@ -1,7 +1,7 @@
 ---
 title: TextCompression
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Specifies compression type to be used for all textual content in the document. Read/write PdfTextCompressionaspose.slides.export/pdftextcompression.
 type: docs
 weight: 170
 url: /net/aspose.slides.export/pdfoptions/textcompression/

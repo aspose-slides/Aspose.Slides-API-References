@@ -1,7 +1,7 @@
 ---
 title: DashStyle
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets the line dash style. Read/write LineDashStyleaspose.slides/linedashstyle.
 type: docs
 weight: 70
 url: /net/aspose.slides/lineformat/dashstyle/

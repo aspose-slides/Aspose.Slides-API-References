@@ -1,12 +1,12 @@
 ---
 title: InsertOleObjectFrame
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates a new OLE object and inserts it to a collection at the specified index.
 type: docs
 weight: 300
 url: /net/aspose.slides/ishapecollection/insertoleobjectframe/
 ---
-## IShapeCollection.InsertOleObjectFrame method (1 of 2)
+## InsertOleObjectFrame(int, float, float, float, float, IOleEmbeddedDataInfo) {#insertoleobjectframe}
 
 Creates a new OLE object and inserts it to a collection at the specified index.
 
@@ -38,7 +38,7 @@ Created OLE object.
 
 ---
 
-## IShapeCollection.InsertOleObjectFrame method (2 of 2)
+## InsertOleObjectFrame(int, float, float, float, float, string, string) {#insertoleobjectframe_1}
 
 Creates a new OLE object and inserts it to a collection at the specified index.
 

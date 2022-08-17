@@ -1,7 +1,7 @@
 ---
 title: Y
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Specifies the top of the chart element as a fraction of the height of the chart. Read/write Single.
 type: docs
 weight: 70
 url: /net/aspose.slides.charts/ilayoutable/y/

@@ -1,7 +1,7 @@
 ---
 title: Type
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets the chart type. Read/write ChartTypeaspose.slides.charts/charttype.
 type: docs
 weight: 220
 url: /net/aspose.slides.charts/ichart/type/

@@ -1,7 +1,7 @@
 ---
 title: ArcTo
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Appends the specified arc to the path.
 type: docs
 weight: 50
 url: /net/aspose.slides/geometrypath/arcto/

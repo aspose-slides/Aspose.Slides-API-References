@@ -1,7 +1,7 @@
 ---
 title: Status
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Gets or sets the status of the comment. Read/write ModernCommentStatusaspose.slides/moderncommentstatus.
 type: docs
 weight: 20
 url: /net/aspose.slides/moderncomment/status/

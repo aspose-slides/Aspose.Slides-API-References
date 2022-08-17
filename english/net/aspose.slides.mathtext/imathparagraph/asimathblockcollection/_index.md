@@ -1,7 +1,7 @@
 ---
 title: AsIMathBlockCollection
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Allows to get base IMathBlockCollection interface IMathBlockCollectionaspose.slides.mathtext/imathblockcollection
 type: docs
 weight: 10
 url: /net/aspose.slides.mathtext/imathparagraph/asimathblockcollection/

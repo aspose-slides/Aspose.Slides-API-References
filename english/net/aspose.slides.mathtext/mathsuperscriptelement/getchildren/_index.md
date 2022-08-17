@@ -1,7 +1,7 @@
 ---
 title: GetChildren
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Get children elements
 type: docs
 weight: 30
 url: /net/aspose.slides.mathtext/mathsuperscriptelement/getchildren/

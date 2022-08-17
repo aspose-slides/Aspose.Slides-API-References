@@ -1,7 +1,7 @@
 ---
 title: FontData
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates a new FontData object with the specified font name.
 type: docs
 weight: 10
 url: /net/aspose.slides/fontdata/fontdata/

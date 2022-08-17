@@ -1,7 +1,7 @@
 ---
 title: Text
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets the plain text of a slide comment. Read/write String.
 type: docs
 weight: 60
 url: /net/aspose.slides/icomment/text/

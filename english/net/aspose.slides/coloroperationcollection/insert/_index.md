@@ -1,12 +1,12 @@
 ---
 title: Insert
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Inserts the new operation to a collection.
 type: docs
 weight: 110
 url: /net/aspose.slides/coloroperationcollection/insert/
 ---
-## ColorOperationCollection.Insert method (1 of 2)
+## Insert(int, ColorTransformOperation, float) {#insert_1}
 
 Inserts the new operation to a collection.
 
@@ -34,7 +34,7 @@ Inserted operation.
 
 ---
 
-## ColorOperationCollection.Insert method (2 of 2)
+## Insert(int, ColorTransformOperation) {#insert}
 
 Inserts the new operation to a collection.
 

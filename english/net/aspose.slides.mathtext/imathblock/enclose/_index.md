@@ -1,7 +1,7 @@
 ---
 title: Enclose
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Encloses child elements of this block in specified characters such as parenthesis or another as framing and delimit with a separator character
 type: docs
 weight: 40
 url: /net/aspose.slides.mathtext/imathblock/enclose/

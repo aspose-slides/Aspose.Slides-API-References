@@ -1,7 +1,7 @@
 ---
 title: BehaviorPropertyCollection
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents timing properties for the effect behavior.
 type: docs
 weight: 100
 url: /net/aspose.slides.animation/behaviorpropertycollection/
@@ -26,19 +26,19 @@ public class BehaviorPropertyCollection : IBehaviorPropertyCollection
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.slides.animation/behaviorpropertycollection/add)(IBehaviorProperty) | Adds a new property to the collection. |
-| [Add](../../aspose.slides.animation/behaviorpropertycollection/add)(string) | Adds a new property to the collection. |
+| [Add](../../aspose.slides.animation/behaviorpropertycollection/add#add)(IBehaviorProperty) | Adds a new property to the collection. |
+| [Add](../../aspose.slides.animation/behaviorpropertycollection/add#add_1)(string) | Adds a new property to the collection. |
 | [Clear](../../aspose.slides.animation/behaviorpropertycollection/clear)() | Removes all properties from the collection. |
-| [Contains](../../aspose.slides.animation/behaviorpropertycollection/contains)(IBehaviorProperty) | Determines whether the ICollection contains a specific value. |
-| [Contains](../../aspose.slides.animation/behaviorpropertycollection/contains)(string) | Determines whether the ICollection contains a specific value. |
+| [Contains](../../aspose.slides.animation/behaviorpropertycollection/contains#contains)(IBehaviorProperty) | Determines whether the ICollection contains a specific value. |
+| [Contains](../../aspose.slides.animation/behaviorpropertycollection/contains#contains_1)(string) | Determines whether the ICollection contains a specific value. |
 | [CopyTo](../../aspose.slides.animation/behaviorpropertycollection/copyto)(IBehaviorProperty[], int) | Copies the elements of the ICollection to an Array, starting at a particular Array index. |
 | [GetEnumerator](../../aspose.slides.animation/behaviorpropertycollection/getenumerator)() | Returns an enumerator that iterates through the collection. |
-| [IndexOf](../../aspose.slides.animation/behaviorpropertycollection/indexof)(IBehaviorProperty) | Determines the index of a specific item in the IList. |
-| [IndexOf](../../aspose.slides.animation/behaviorpropertycollection/indexof)(string) | Determines the index of a specific item by property value in the IList. |
-| [Insert](../../aspose.slides.animation/behaviorpropertycollection/insert)(int, IBehaviorProperty) | Inserts a new property to the collection at the specified index. |
-| [Insert](../../aspose.slides.animation/behaviorpropertycollection/insert)(int, string) | Inserts a new property (with the specified property value) to the collection at the specified index. |
-| [Remove](../../aspose.slides.animation/behaviorpropertycollection/remove)(IBehaviorProperty) | Removes specified property from the collection. |
-| [Remove](../../aspose.slides.animation/behaviorpropertycollection/remove)(string) | Removes specified property from the collection. |
+| [IndexOf](../../aspose.slides.animation/behaviorpropertycollection/indexof#indexof)(IBehaviorProperty) | Determines the index of a specific item in the IList. |
+| [IndexOf](../../aspose.slides.animation/behaviorpropertycollection/indexof#indexof_1)(string) | Determines the index of a specific item by property value in the IList. |
+| [Insert](../../aspose.slides.animation/behaviorpropertycollection/insert#insert)(int, IBehaviorProperty) | Inserts a new property to the collection at the specified index. |
+| [Insert](../../aspose.slides.animation/behaviorpropertycollection/insert#insert_1)(int, string) | Inserts a new property (with the specified property value) to the collection at the specified index. |
+| [Remove](../../aspose.slides.animation/behaviorpropertycollection/remove#remove)(IBehaviorProperty) | Removes specified property from the collection. |
+| [Remove](../../aspose.slides.animation/behaviorpropertycollection/remove#remove_1)(string) | Removes specified property from the collection. |
 | [RemoveAt](../../aspose.slides.animation/behaviorpropertycollection/removeat)(int) | Removes property at the specified index. |
 
 ### See Also

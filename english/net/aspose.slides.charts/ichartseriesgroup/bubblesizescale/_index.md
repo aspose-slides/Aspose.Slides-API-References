@@ -1,7 +1,7 @@
 ---
 title: BubbleSizeScale
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Specifies the scale factor for the bubble chart can be between 0 and 300 percents of the default size. Read/write Int32.
 type: docs
 weight: 30
 url: /net/aspose.slides.charts/ichartseriesgroup/bubblesizescale/

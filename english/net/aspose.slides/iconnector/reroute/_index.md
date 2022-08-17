@@ -1,7 +1,7 @@
 ---
 title: Reroute
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Reroutes connector so that it take the shortest possible path between the shapes it connect.
 type: docs
 weight: 80
 url: /net/aspose.slides/iconnector/reroute/

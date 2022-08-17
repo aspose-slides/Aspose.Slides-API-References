@@ -1,7 +1,7 @@
 ---
 title: CreateShapeElements
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates and returns array of shapes elements.
 type: docs
 weight: 50
 url: /net/aspose.slides/igeometryshape/createshapeelements/

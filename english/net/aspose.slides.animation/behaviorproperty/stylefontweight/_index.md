@@ -1,7 +1,7 @@
 ---
 title: StyleFontWeight
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents style.fontWeight property
 type: docs
 weight: 1090
 url: /net/aspose.slides.animation/behaviorproperty/stylefontweight/

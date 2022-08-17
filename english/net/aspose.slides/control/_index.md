@@ -1,9 +1,9 @@
 ---
 title: Control
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents an ActiveX control.
 type: docs
-weight: 2540
+weight: 2560
 url: /net/aspose.slides/control/
 ---
 ## Control class

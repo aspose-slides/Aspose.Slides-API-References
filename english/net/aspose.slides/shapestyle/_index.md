@@ -1,9 +1,9 @@
 ---
 title: ShapeStyle
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represent shapes style reference.
 type: docs
-weight: 9130
+weight: 9150
 url: /net/aspose.slides/shapestyle/
 ---
 ## ShapeStyle class

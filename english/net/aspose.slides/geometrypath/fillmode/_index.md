@@ -1,7 +1,7 @@
 ---
 title: FillMode
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Sets fill mode
 type: docs
 weight: 20
 url: /net/aspose.slides/geometrypath/fillmode/

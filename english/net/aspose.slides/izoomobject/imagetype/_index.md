@@ -1,7 +1,7 @@
 ---
 title: ImageType
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Gets or sets the image type of a zoom object. Read/write ZoomImageTypeaspose.slides/zoomimagetype. Default value Preview
 type: docs
 weight: 30
 url: /net/aspose.slides/izoomobject/imagetype/

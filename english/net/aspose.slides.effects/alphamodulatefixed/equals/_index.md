@@ -1,7 +1,7 @@
 ---
 title: Equals
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Determines whether the specified AlphaModulateFixedaspose.slides.effects/alphamodulatefixed is equal to the current AlphaModulateFixedaspose.slides.effects/alphamodulatefixed.
 type: docs
 weight: 20
 url: /net/aspose.slides.effects/alphamodulatefixed/equals/

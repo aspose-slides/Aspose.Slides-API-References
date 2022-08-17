@@ -1,9 +1,9 @@
 ---
 title: Equals
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Compares with specified object.
 type: docs
-weight: 60
+weight: 70
 url: /net/aspose.slides/picture/equals/
 ---
 ## Picture.Equals method

@@ -1,7 +1,7 @@
 ---
 title: ChartDataWorkbook
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Gets the cells factory to create cells used for chart series or categories. Read-only IChartDataWorkbookaspose.slides.charts/ichartdataworkbook.
 type: docs
 weight: 20
 url: /net/aspose.slides.charts/ichartdata/chartdataworkbook/

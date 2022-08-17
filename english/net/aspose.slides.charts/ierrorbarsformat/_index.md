@@ -1,9 +1,9 @@
 ---
 title: IErrorBarsFormat
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents error bars of chart series. ErrorBars custom values are in IChartDataPointCollection in ErrorBarsCustomValues./ichartdatapoint/errorbarscustomvalues property.
 type: docs
-weight: 1950
+weight: 1970
 url: /net/aspose.slides.charts/ierrorbarsformat/
 ---
 ## IErrorBarsFormat interface

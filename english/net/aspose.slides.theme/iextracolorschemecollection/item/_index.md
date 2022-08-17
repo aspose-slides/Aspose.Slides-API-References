@@ -1,7 +1,7 @@
 ---
 title: Item
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns an color scheme by index. Read-only IExtraColorSchemeaspose.slides.theme/iextracolorscheme.
 type: docs
 weight: 10
 url: /net/aspose.slides.theme/iextracolorschemecollection/item/

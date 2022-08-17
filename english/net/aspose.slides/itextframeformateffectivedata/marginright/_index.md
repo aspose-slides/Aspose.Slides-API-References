@@ -1,7 +1,7 @@
 ---
 title: MarginRight
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the right margin points in a TextFrame. Read-only Double.
 type: docs
 weight: 80
 url: /net/aspose.slides/itextframeformateffectivedata/marginright/

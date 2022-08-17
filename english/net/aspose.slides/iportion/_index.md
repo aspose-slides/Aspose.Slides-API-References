@@ -1,9 +1,9 @@
 ---
 title: IPortion
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents a portion of text inside a text paragraph.
 type: docs
-weight: 6140
+weight: 6160
 url: /net/aspose.slides/iportion/
 ---
 ## IPortion interface
@@ -27,8 +27,8 @@ public interface IPortion : ISlideComponent
 
 | Name | Description |
 | --- | --- |
-| [AddField](../../aspose.slides/iportion/addfield)(IFieldType) | Converts this portion to the automaticaly updated field. |
-| [AddField](../../aspose.slides/iportion/addfield)(string) | Converts this portion to the automaticaly updated field. |
+| [AddField](../../aspose.slides/iportion/addfield#addfield)(IFieldType) | Converts this portion to the automaticaly updated field. |
+| [AddField](../../aspose.slides/iportion/addfield#addfield_1)(string) | Converts this portion to the automaticaly updated field. |
 | [GetCoordinates](../../aspose.slides/iportion/getcoordinates)() | Get coordinates of the beginning of the portion. The X coordinate of point represents the portion beginning from the first character including left side bearing. The Y coordinate includes top side bearing. |
 | [GetRect](../../aspose.slides/iportion/getrect)() | Get coordinates of rect that bounds portion. The rect includes all the lines of text in portion, including empty ones. |
 | [RemoveField](../../aspose.slides/iportion/removefield)() | Converts this field portion to the simple portion. |

@@ -1,7 +1,7 @@
 ---
 title: DataPoints
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns collection of data points of this series. Read-only IChartDataPointCollectionaspose.slides.charts/ichartdatapointcollection.
 type: docs
 weight: 50
 url: /net/aspose.slides.charts/chartseries/datapoints/

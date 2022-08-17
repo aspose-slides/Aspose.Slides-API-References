@@ -1,7 +1,7 @@
 ---
 title: EastAsianLineBreak
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Determines whether the East Asian line break is used in a paragraph. Read-only Boolean.
 type: docs
 weight: 60
 url: /net/aspose.slides/iparagraphformateffectivedata/eastasianlinebreak/

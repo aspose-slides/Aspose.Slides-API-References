@@ -1,12 +1,12 @@
 ---
 title: ReplaceFont
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Replace font in presentation
 type: docs
 weight: 70
 url: /net/aspose.slides/ifontsmanager/replacefont/
 ---
-## IFontsManager.ReplaceFont method (1 of 3)
+## ReplaceFont(IFontData, IFontData) {#replacefont}
 
 Replace font in presentation
 
@@ -28,7 +28,7 @@ public void ReplaceFont(IFontData sourceFont, IFontData destFont)
 
 ---
 
-## IFontsManager.ReplaceFont method (2 of 3)
+## ReplaceFont(IFontSubstRule) {#replacefont_1}
 
 Replace font in presentation using information provided in [`IFontSubstRule`](../../ifontsubstrule)
 
@@ -49,7 +49,7 @@ public void ReplaceFont(IFontSubstRule substRule)
 
 ---
 
-## IFontsManager.ReplaceFont method (3 of 3)
+## ReplaceFont(IFontSubstRuleCollection) {#replacefont_2}
 
 Replace font in presentation using information provided in collection of [`IFontSubstRule`](../../ifontsubstrule)
 

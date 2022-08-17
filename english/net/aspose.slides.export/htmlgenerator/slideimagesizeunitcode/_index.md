@@ -1,7 +1,7 @@
 ---
 title: SlideImageSizeUnitCode
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns a css code of unit in which slide image size is specified. Read-only String.
 type: docs
 weight: 50
 url: /net/aspose.slides.export/htmlgenerator/slideimagesizeunitcode/

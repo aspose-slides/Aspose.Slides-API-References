@@ -1,7 +1,7 @@
 ---
 title: InsertClone
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates a copy of the specified template column and insert it at the specified position in a table.
 type: docs
 weight: 80
 url: /net/aspose.slides/columncollection/insertclone/

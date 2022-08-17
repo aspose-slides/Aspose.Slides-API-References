@@ -1,12 +1,12 @@
 ---
 title: CellInvalidReferenceException
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Initializes a new instance of the CellInvalidReferenceExceptionaspose.slides.spreadsheet/cellinvalidreferenceexception class.
 type: docs
 weight: 10
 url: /net/aspose.slides.spreadsheet/cellinvalidreferenceexception/cellinvalidreferenceexception/
 ---
-## CellInvalidReferenceException constructor (1 of 4)
+## CellInvalidReferenceException() {#constructor}
 
 Initializes a new instance of the [`CellInvalidReferenceException`](../../cellinvalidreferenceexception) class.
 
@@ -22,7 +22,7 @@ public CellInvalidReferenceException()
 
 ---
 
-## CellInvalidReferenceException constructor (2 of 4)
+## CellInvalidReferenceException(string) {#constructor_1}
 
 Initializes a new instance of the [`CellInvalidReferenceException`](../../cellinvalidreferenceexception) class with a specified error message.
 
@@ -42,7 +42,7 @@ public CellInvalidReferenceException(string message)
 
 ---
 
-## CellInvalidReferenceException constructor (3 of 4)
+## CellInvalidReferenceException(string, Exception) {#constructor_2}
 
 Initializes a new instance of the [`CellInvalidReferenceException`](../../cellinvalidreferenceexception) class with a specified error message and a reference to the inner exception that is the cause of this exception.
 
@@ -63,7 +63,7 @@ public CellInvalidReferenceException(string message, Exception innerException)
 
 ---
 
-## CellInvalidReferenceException constructor (4 of 4)
+## CellInvalidReferenceException(string, string) {#constructor_3}
 
 Initializes a new instance of the [`CellCircularReferenceException`](../../cellcircularreferenceexception) class with a specified error message and an invalid cell reference.
 

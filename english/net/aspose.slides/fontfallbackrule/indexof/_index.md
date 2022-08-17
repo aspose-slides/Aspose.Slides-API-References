@@ -1,7 +1,7 @@
 ---
 title: IndexOf
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns an index of the specified rule in the collection.
 type: docs
 weight: 80
 url: /net/aspose.slides/fontfallbackrule/indexof/

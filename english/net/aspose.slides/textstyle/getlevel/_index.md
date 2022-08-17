@@ -1,7 +1,7 @@
 ---
 title: GetLevel
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: If level of style exist returns it otherwise returns null.
 type: docs
 weight: 30
 url: /net/aspose.slides/textstyle/getlevel/

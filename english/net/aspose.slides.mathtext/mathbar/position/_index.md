@@ -1,7 +1,7 @@
 ---
 title: Position
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Position of the bar line. Default Top
 type: docs
 weight: 30
 url: /net/aspose.slides.mathtext/mathbar/position/

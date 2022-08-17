@@ -1,7 +1,7 @@
 ---
 title: PathData
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns geometry path of GeometryShape as an array of path segments.
 type: docs
 weight: 30
 url: /net/aspose.slides/geometrypath/pathdata/

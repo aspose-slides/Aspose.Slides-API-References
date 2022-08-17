@@ -1,7 +1,7 @@
 ---
 title: NameOfApplication
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets the name of the application. Read/write String.
 type: docs
 weight: 190
 url: /net/aspose.slides/documentproperties/nameofapplication/

@@ -1,7 +1,7 @@
 ---
 title: RowSpacing
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Spacing between rows of an array It is used only when RowSpacingRule is set to 3 Exactly in which case the unit of measure is points or Multiple in which case the unit of measure is half-lines. Default 0
 type: docs
 weight: 60
 url: /net/aspose.slides.mathtext/imatharray/rowspacing/

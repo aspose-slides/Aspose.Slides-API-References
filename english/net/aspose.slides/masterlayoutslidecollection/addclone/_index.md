@@ -1,7 +1,7 @@
 ---
 title: AddClone
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Adds a copy of a specified layout slide to the end of the collection.
 type: docs
 weight: 20
 url: /net/aspose.slides/masterlayoutslidecollection/addclone/

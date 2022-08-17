@@ -1,7 +1,7 @@
 ---
 title: LatinFont
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets the Latin font info. Null means font is undefined and should be inherited from the Master. Read/write IFontDataaspose.slides/ifontdata.
 type: docs
 weight: 170
 url: /net/aspose.slides/ibaseportionformat/latinfont/

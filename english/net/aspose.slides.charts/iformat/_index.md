@@ -1,9 +1,9 @@
 ---
 title: IFormat
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents chart format properties.
 type: docs
-weight: 1960
+weight: 1980
 url: /net/aspose.slides.charts/iformat/
 ---
 ## IFormat interface

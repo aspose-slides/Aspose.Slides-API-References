@@ -1,7 +1,7 @@
 ---
 title: WriteFont
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Writes data as base64 into HTML document itself
 type: docs
 weight: 50
 url: /net/aspose.slides.export/embedallfontshtmlcontroller/writefont/

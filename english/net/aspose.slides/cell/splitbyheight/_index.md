@@ -1,7 +1,7 @@
 ---
 title: SplitByHeight
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Splits the cell by height.
 type: docs
 weight: 260
 url: /net/aspose.slides/cell/splitbyheight/

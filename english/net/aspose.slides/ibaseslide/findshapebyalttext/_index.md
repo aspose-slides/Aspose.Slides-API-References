@@ -1,7 +1,7 @@
 ---
 title: FindShapeByAltText
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Finds first occurrence of a shape with the specified alternative text.
 type: docs
 weight: 130
 url: /net/aspose.slides/ibaseslide/findshapebyalttext/

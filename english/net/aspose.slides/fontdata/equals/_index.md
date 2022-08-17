@@ -1,7 +1,7 @@
 ---
 title: Equals
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Determines whether two FontData instances are equal.
 type: docs
 weight: 30
 url: /net/aspose.slides/fontdata/equals/

@@ -1,12 +1,12 @@
 ---
 title: AddEffect
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Add new effect to the end of sequence.
 type: docs
 weight: 50
 url: /net/aspose.slides.animation/isequence/addeffect/
 ---
-## ISequence.AddEffect method (1 of 4)
+## AddEffect(IShape, EffectType, EffectSubtype, EffectTriggerType) {#addeffect_3}
 
 Add new effect to the end of sequence.
 
@@ -39,7 +39,7 @@ New effect object [`IEffect`](../../ieffect)
 
 ---
 
-## ISequence.AddEffect method (2 of 4)
+## AddEffect(IParagraph, EffectType, EffectSubtype, EffectTriggerType) {#addeffect_2}
 
 Add new animation effect for paragraph to the end of sequence.
 
@@ -88,7 +88,7 @@ using(Presentation presentation = new Presentation(path + "input.pptx"))
 
 ---
 
-## ISequence.AddEffect method (3 of 4)
+## AddEffect(IChart, EffectChartMajorGroupingType, int, EffectType, EffectSubtype, EffectTriggerType) {#addeffect}
 
 Adds the new chart animation effect for category or series to the end of sequence.
 
@@ -124,7 +124,7 @@ New effect object [`IEffect`](../../ieffect)
 
 ---
 
-## ISequence.AddEffect method (4 of 4)
+## AddEffect(IChart, EffectChartMinorGroupingType, int, int, EffectType, EffectSubtype, EffectTriggerType) {#addeffect_1}
 
 Adds the new chart animation effect for elements in category or series to the end of sequence.
 

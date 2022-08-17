@@ -1,7 +1,7 @@
 ---
 title: Image
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents image property
 type: docs
 weight: 410
 url: /net/aspose.slides.animation/behaviorproperty/image/

@@ -1,7 +1,7 @@
 ---
 title: FullScreenMode
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Determines whether a video is shown in full screen mode. Read/write Boolean.
 type: docs
 weight: 20
 url: /net/aspose.slides/videoframe/fullscreenmode/

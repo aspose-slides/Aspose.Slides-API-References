@@ -1,7 +1,7 @@
 ---
 title: RemoveAllHyperlinks
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Removes all contained HyperlinkClick and HyperlinkMouseOver hyperlinks in all IHyperlinkContainer subobjects.
 type: docs
 weight: 40
 url: /net/aspose.slides/hyperlinkqueries/removeallhyperlinks/

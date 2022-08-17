@@ -1,9 +1,9 @@
 ---
 title: ISmartArtNodeCollection
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents a collection of SmartArt nodes.
 type: docs
-weight: 9750
+weight: 9800
 url: /net/aspose.slides.smartart/ismartartnodecollection/
 ---
 ## ISmartArtNodeCollection interface
@@ -26,8 +26,8 @@ public interface ISmartArtNodeCollection : IGenericCollection<ISmartArtNode>
 | --- | --- |
 | [AddNode](../../aspose.slides.smartart/ismartartnodecollection/addnode)() | Add new node or sub node. |
 | [AddNodeByPosition](../../aspose.slides.smartart/ismartartnodecollection/addnodebyposition)(int) | Add new node in the selected position of nodes collection. |
-| [RemoveNode](../../aspose.slides.smartart/ismartartnodecollection/removenode)(int) | Remove node or sub node by index. |
-| [RemoveNode](../../aspose.slides.smartart/ismartartnodecollection/removenode)(ISmartArtNode) | Remove node or sub node. |
+| [RemoveNode](../../aspose.slides.smartart/ismartartnodecollection/removenode#removenode_1)(int) | Remove node or sub node by index. |
+| [RemoveNode](../../aspose.slides.smartart/ismartartnodecollection/removenode#removenode)(ISmartArtNode) | Remove node or sub node. |
 
 ### See Also
 

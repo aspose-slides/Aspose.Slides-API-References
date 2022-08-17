@@ -1,7 +1,7 @@
 ---
 title: VerticalBarState
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Specifies the state that the vertical splitter bar should be shown in. A vertical splitter bar separates the slide from the side content region.
 type: docs
 weight: 70
 url: /net/aspose.slides/normalviewproperties/verticalbarstate/

@@ -1,9 +1,9 @@
 ---
 title: IBulletFormat
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents paragraph bullet formatting properties.
 type: docs
-weight: 4910
+weight: 4930
 url: /net/aspose.slides/ibulletformat/
 ---
 ## IBulletFormat interface

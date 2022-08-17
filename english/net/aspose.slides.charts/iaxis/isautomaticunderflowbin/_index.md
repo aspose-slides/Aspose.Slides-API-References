@@ -1,7 +1,7 @@
 ---
 title: IsAutomaticUnderflowBin
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Specifies automatic underflow bin value. If false use UnderflowBin property.
 type: docs
 weight: 250
 url: /net/aspose.slides.charts/iaxis/isautomaticunderflowbin/

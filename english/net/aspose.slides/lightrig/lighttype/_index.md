@@ -1,7 +1,7 @@
 ---
 title: LightType
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents a preset light right that can be applied to a shape. The light rig represents a group of lights oriented in a specific way relative to a 3D scene. Read/write LightRigPresetTypeaspose.slides/lightrigpresettype.
 type: docs
 weight: 20
 url: /net/aspose.slides/lightrig/lighttype/

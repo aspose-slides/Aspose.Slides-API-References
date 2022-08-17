@@ -1,7 +1,7 @@
 ---
 title: CreateAlphaInverse
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates Alpha inverse effect.
 type: docs
 weight: 40
 url: /net/aspose.slides.effects/imagetransformoperationfactory/createalphainverse/

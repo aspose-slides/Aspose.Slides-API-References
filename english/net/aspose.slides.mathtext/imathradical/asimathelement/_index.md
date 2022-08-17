@@ -1,7 +1,7 @@
 ---
 title: AsIMathElement
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Allows to get base IMathElement interface IMathElementaspose.slides.mathtext/imathelement
 type: docs
 weight: 10
 url: /net/aspose.slides.mathtext/imathradical/asimathelement/

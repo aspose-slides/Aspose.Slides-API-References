@@ -1,12 +1,12 @@
 ---
 title: AddVideoFrame
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Adds a new video frame to the end of a collection.
 type: docs
 weight: 180
 url: /net/aspose.slides/ishapecollection/addvideoframe/
 ---
-## IShapeCollection.AddVideoFrame method (1 of 2)
+## AddVideoFrame(float, float, float, float, string) {#addvideoframe_1}
 
 Adds a new video frame to the end of a collection.
 
@@ -35,7 +35,7 @@ Created VideoFrame object.
 
 ---
 
-## IShapeCollection.AddVideoFrame method (2 of 2)
+## AddVideoFrame(float, float, float, float, IVideo) {#addvideoframe}
 
 Adds a new video frame to the end of a collection.
 

@@ -1,9 +1,9 @@
 ---
 title: IColorChangeEffectiveData
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Immutable object which represents a Color Change effect. Instances of FromColor are replaced with instances of ToColor.
 type: docs
-weight: 3030
+weight: 3050
 url: /net/aspose.slides.effects/icolorchangeeffectivedata/
 ---
 ## IColorChangeEffectiveData interface

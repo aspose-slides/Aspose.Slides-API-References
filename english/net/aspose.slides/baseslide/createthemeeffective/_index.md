@@ -1,7 +1,7 @@
 ---
 title: CreateThemeEffective
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns an effective theme for this slide.
 type: docs
 weight: 120
 url: /net/aspose.slides/baseslide/createthemeeffective/

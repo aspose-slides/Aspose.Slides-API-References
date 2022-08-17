@@ -1,7 +1,7 @@
 ---
 title: GetCellCollection
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Gets the set of cells.
 type: docs
 weight: 50
 url: /net/aspose.slides.charts/chartdataworkbook/getcellcollection/

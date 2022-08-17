@@ -1,7 +1,7 @@
 ---
 title: SolidFillColor
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the fill color. Read-only IColorFormataspose.slides/icolorformat.
 type: docs
 weight: 70
 url: /net/aspose.slides/ifillformat/solidfillcolor/

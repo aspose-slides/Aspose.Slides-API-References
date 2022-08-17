@@ -1,7 +1,7 @@
 ---
 title: Size
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents the marker size in a line chart scatter chart or radar chart. Read/write Int32.
 type: docs
 weight: 20
 url: /net/aspose.slides.charts/marker/size/

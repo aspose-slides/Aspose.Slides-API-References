@@ -1,7 +1,7 @@
 ---
 title: Type
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents type of filter effect. Read/write FilterEffectTypeaspose.slides.animation/filtereffecttype.
 type: docs
 weight: 40
 url: /net/aspose.slides.animation/ifiltereffect/type/

@@ -1,7 +1,7 @@
 ---
 title: OriginalUri
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Original URI of the resource as specified in imported presentation.
 type: docs
 weight: 10
 url: /net/aspose.slides/iresourceloadingargs/originaluri/

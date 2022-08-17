@@ -1,9 +1,9 @@
 ---
 title: MathBorderBox
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Draws a rectangular or some other border around the IMathElement.
 type: docs
-weight: 7890
+weight: 7910
 url: /net/aspose.slides.mathtext/mathborderbox/
 ---
 ## MathBorderBox class
@@ -18,8 +18,8 @@ public sealed class MathBorderBox : MathElementBase, IMathBorderBox
 
 | Name | Description |
 | --- | --- |
-| [MathBorderBox](mathborderbox)(IMathElement) | Creates MathBorderBox element with rectangular border |
-| [MathBorderBox](mathborderbox)(IMathElement, bool, bool, bool, bool, bool, bool, bool, bool) | Creates MathBorderBox element |
+| [MathBorderBox](mathborderbox#constructor)(IMathElement) | Creates MathBorderBox element with rectangular border |
+| [MathBorderBox](mathborderbox#constructor_1)(IMathElement, bool, bool, bool, bool, bool, bool, bool, bool) | Creates MathBorderBox element |
 
 ## Properties
 

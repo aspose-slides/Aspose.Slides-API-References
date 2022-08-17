@@ -1,7 +1,7 @@
 ---
 title: SkewVertical
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Specifies the vertical skew angle in degrees. Read/write Double.
 type: docs
 weight: 120
 url: /net/aspose.slides.effects/ioutershadow/skewvertical/

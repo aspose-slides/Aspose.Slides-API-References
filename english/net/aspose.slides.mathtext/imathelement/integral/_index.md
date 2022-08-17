@@ -1,12 +1,12 @@
 ---
 title: Integral
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Takes the integral
 type: docs
 weight: 80
 url: /net/aspose.slides.mathtext/imathelement/integral/
 ---
-## IMathElement.Integral method (1 of 5)
+## Integral(MathIntegralTypes, IMathElement, IMathElement, MathLimitLocations) {#integral_2}
 
 Takes the integral
 
@@ -49,7 +49,7 @@ IMathNaryOperator integral = baseElement.Integral(MathIntegralTypes.Simple, lowe
 
 ---
 
-## IMathElement.Integral method (2 of 5)
+## Integral(MathIntegralTypes, IMathElement, IMathElement) {#integral_1}
 
 Takes the integral
 
@@ -90,7 +90,7 @@ IMathNaryOperator integral = baseElement.Integral(MathIntegralTypes.Simple, lowe
 
 ---
 
-## IMathElement.Integral method (3 of 5)
+## Integral(MathIntegralTypes) {#integral}
 
 Takes the integral without limits
 
@@ -126,7 +126,7 @@ IMathNaryOperator integral = baseElement.Integral(MathIntegralTypes.Contour);
 
 ---
 
-## IMathElement.Integral method (4 of 5)
+## Integral(MathIntegralTypes, string, string, MathLimitLocations) {#integral_4}
 
 Takes the integral
 
@@ -167,7 +167,7 @@ IMathNaryOperator integral = baseElement.Integral(MathIntegralTypes.Simple, "1",
 
 ---
 
-## IMathElement.Integral method (5 of 5)
+## Integral(MathIntegralTypes, string, string) {#integral_3}
 
 Takes the integral
 

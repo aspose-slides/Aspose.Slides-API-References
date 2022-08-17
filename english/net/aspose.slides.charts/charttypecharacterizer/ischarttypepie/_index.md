@@ -1,7 +1,7 @@
 ---
 title: IsChartTypePie
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Return true if chartType is one of Pie subtypes. Subtypes set corresponds to the appropriate set in PowerPoint see Change Chart Type dialog in PowerPoint BarOfPie ExplodedPie ExplodedPie3D Pie Pie3D PieOfPie.
 type: docs
 weight: 110
 url: /net/aspose.slides.charts/charttypecharacterizer/ischarttypepie/

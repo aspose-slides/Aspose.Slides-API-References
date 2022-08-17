@@ -1,7 +1,7 @@
 ---
 title: GetByType
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the first layout slide of specified type.
 type: docs
 weight: 20
 url: /net/aspose.slides/ilayoutslidecollection/getbytype/

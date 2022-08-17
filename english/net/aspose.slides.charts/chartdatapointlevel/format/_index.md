@@ -1,7 +1,7 @@
 ---
 title: Format
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents formatting properties of data point level. Read/write IFormataspose.slides.charts/iformat.
 type: docs
 weight: 10
 url: /net/aspose.slides.charts/chartdatapointlevel/format/

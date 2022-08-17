@@ -1,12 +1,12 @@
 ---
 title: CreateMathNaryOperator
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates IMathNaryOperator
 type: docs
 weight: 10
 url: /net/aspose.slides.mathtext/imathnaryoperatorfactory/createmathnaryoperator/
 ---
-## IMathNaryOperatorFactory.CreateMathNaryOperator method (1 of 3)
+## CreateMathNaryOperator(char, IMathElement, IMathElement, IMathElement) {#createmathnaryoperator_2}
 
 Creates IMathNaryOperator
 
@@ -36,7 +36,7 @@ new IMathNaryOperator
 
 ---
 
-## IMathNaryOperatorFactory.CreateMathNaryOperator method (2 of 3)
+## CreateMathNaryOperator(char, IMathElement, IMathElement) {#createmathnaryoperator_1}
 
 Creates IMathNaryOperator
 
@@ -65,7 +65,7 @@ new IMathNaryOperator
 
 ---
 
-## IMathNaryOperatorFactory.CreateMathNaryOperator method (3 of 3)
+## CreateMathNaryOperator(char, IMathElement) {#createmathnaryoperator}
 
 Creates IMathNaryOperator
 

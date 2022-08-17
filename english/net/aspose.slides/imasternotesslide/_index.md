@@ -1,9 +1,9 @@
 ---
 title: IMasterNotesSlide
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents master slide for notes.
 type: docs
-weight: 5830
+weight: 5850
 url: /net/aspose.slides/imasternotesslide/
 ---
 ## IMasterNotesSlide interface

@@ -1,12 +1,12 @@
 ---
 title: CreatePresentation
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates new presentation.
 type: docs
 weight: 30
 url: /net/aspose.slides/presentationfactory/createpresentation/
 ---
-## PresentationFactory.CreatePresentation method (1 of 2)
+## CreatePresentation() {#createpresentation}
 
 Creates new presentation.
 
@@ -27,7 +27,7 @@ New presentation
 
 ---
 
-## PresentationFactory.CreatePresentation method (2 of 2)
+## CreatePresentation(ILoadOptions) {#createpresentation_1}
 
 Creates new presentation with additional load options
 

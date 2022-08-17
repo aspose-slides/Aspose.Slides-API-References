@@ -1,7 +1,7 @@
 ---
 title: XShear
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents xshear property
 type: docs
 weight: 1200
 url: /net/aspose.slides.animation/behaviorproperty/xshear/

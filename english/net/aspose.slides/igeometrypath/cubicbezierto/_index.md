@@ -1,12 +1,12 @@
 ---
 title: CubicBezierTo
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Adds cubic Bezier curve at the end the path
 type: docs
 weight: 60
 url: /net/aspose.slides/igeometrypath/cubicbezierto/
 ---
-## IGeometryPath.CubicBezierTo method (1 of 4)
+## CubicBezierTo(PointF, PointF, PointF) {#cubicbezierto_2}
 
 Adds cubic Bezier curve at the end the path
 
@@ -28,7 +28,7 @@ public void CubicBezierTo(PointF point1, PointF point2, PointF point3)
 
 ---
 
-## IGeometryPath.CubicBezierTo method (2 of 4)
+## CubicBezierTo(float, float, float, float, float, float) {#cubicbezierto}
 
 Adds cubic Bezier curve at the end the path
 
@@ -53,7 +53,7 @@ public void CubicBezierTo(float x1, float y1, float x2, float y2, float x3, floa
 
 ---
 
-## IGeometryPath.CubicBezierTo method (3 of 4)
+## CubicBezierTo(PointF, PointF, PointF, uint) {#cubicbezierto_3}
 
 Adds cubic Bezier curve to the specified place of the path
 
@@ -82,7 +82,7 @@ public void CubicBezierTo(PointF point1, PointF point2, PointF point3, uint inde
 
 ---
 
-## IGeometryPath.CubicBezierTo method (4 of 4)
+## CubicBezierTo(float, float, float, float, float, float, uint) {#cubicbezierto_1}
 
 Adds cubic Bezier curve to the specified place of the path
 

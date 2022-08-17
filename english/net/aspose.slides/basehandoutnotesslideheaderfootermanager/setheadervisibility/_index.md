@@ -1,7 +1,7 @@
 ---
 title: SetHeaderVisibility
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Changes slide header placeholder visibility.
 type: docs
 weight: 30
 url: /net/aspose.slides/basehandoutnotesslideheaderfootermanager/setheadervisibility/

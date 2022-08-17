@@ -1,7 +1,7 @@
 ---
 title: MajorTickMark
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents the type of major tick mark for the specified axis. Read/write TickMarkTypeaspose.slides.charts/tickmarktype.
 type: docs
 weight: 350
 url: /net/aspose.slides.charts/axis/majortickmark/

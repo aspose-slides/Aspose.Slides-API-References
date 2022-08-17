@@ -1,7 +1,7 @@
 ---
 title: Type
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets the type of slide size. Assigning any value except Custom will change Sizeaspose.slides/slidesize/size accordingly but will keep Orientationaspose.slides/slidesize/orientation intact. Read/write SlideSizeTypeaspose.slides/slidesizetype.
 type: docs
 weight: 30
 url: /net/aspose.slides/slidesize/type/

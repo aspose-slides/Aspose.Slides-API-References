@@ -1,7 +1,7 @@
 ---
 title: Add
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Adds new text animation to the collection.
 type: docs
 weight: 60
 url: /net/aspose.slides.animation/textanimationcollection/add/

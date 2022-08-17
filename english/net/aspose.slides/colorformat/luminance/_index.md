@@ -1,7 +1,7 @@
 ---
 title: Luminance
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets the luminance component of a color in HSL representation. All color transformations are ignored. Read/write Single.
 type: docs
 weight: 100
 url: /net/aspose.slides/colorformat/luminance/

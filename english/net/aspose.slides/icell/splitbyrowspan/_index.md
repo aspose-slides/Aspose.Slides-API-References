@@ -1,7 +1,7 @@
 ---
 title: SplitByRowSpan
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Splits the cell to two cells by index of row.
 type: docs
 weight: 260
 url: /net/aspose.slides/icell/splitbyrowspan/

@@ -1,7 +1,7 @@
 ---
 title: IndexOf
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the zero-based index of the first occurrence of a shape in the collection.
 type: docs
 weight: 210
 url: /net/aspose.slides/ishapecollection/indexof/

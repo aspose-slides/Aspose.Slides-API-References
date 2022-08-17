@@ -1,7 +1,7 @@
 ---
 title: Table
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the parent Table object for a cell. Read-only ITableaspose.slides/itable.
 type: docs
 weight: 200
 url: /net/aspose.slides/cell/table/

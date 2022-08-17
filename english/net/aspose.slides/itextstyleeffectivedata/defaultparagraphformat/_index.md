@@ -1,7 +1,7 @@
 ---
 title: DefaultParagraphFormat
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns effective default paragraph properties. Read-only IParagraphFormatEffectiveDataaspose.slides/iparagraphformateffectivedata.
 type: docs
 weight: 10
 url: /net/aspose.slides/itextstyleeffectivedata/defaultparagraphformat/

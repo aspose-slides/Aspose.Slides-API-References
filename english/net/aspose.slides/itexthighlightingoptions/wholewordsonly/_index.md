@@ -1,7 +1,7 @@
 ---
 title: WholeWordsOnly
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Set true to match only whole words false - otherwise. Read/write Boolean.
 type: docs
 weight: 20
 url: /net/aspose.slides/itexthighlightingoptions/wholewordsonly/

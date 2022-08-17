@@ -1,7 +1,7 @@
 ---
 title: Field
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns a field of this portion. Read-only IFieldaspose.slides/ifield.
 type: docs
 weight: 20
 url: /net/aspose.slides/portion/field/

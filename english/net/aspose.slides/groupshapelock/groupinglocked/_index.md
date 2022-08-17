@@ -1,7 +1,7 @@
 ---
 title: GroupingLocked
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Determines whether adding this shape to a group is forbidden. Read/write Boolean.
 type: docs
 weight: 20
 url: /net/aspose.slides/groupshapelock/groupinglocked/

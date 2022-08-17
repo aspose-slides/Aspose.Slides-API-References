@@ -1,7 +1,7 @@
 ---
 title: AsIEffectEffectiveData
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Allows to get base IEffectEffectiveData interface. Read-only IEffectEffectiveDataaspose.slides.effects/ieffecteffectivedata.
 type: docs
 weight: 10
 url: /net/aspose.slides.effects/iduotoneeffectivedata/asieffecteffectivedata/

@@ -1,7 +1,7 @@
 ---
 title: GetFontName
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the font name replacing theme referrence with an actual font used.
 type: docs
 weight: 20
 url: /net/aspose.slides/ifontdata/getfontname/

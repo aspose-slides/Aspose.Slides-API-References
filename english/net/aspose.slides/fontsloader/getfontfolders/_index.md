@@ -1,7 +1,7 @@
 ---
 title: GetFontFolders
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Gets font folders. Returns folders that have been added with LoadExternalFonts method as well as system font folders
 type: docs
 weight: 20
 url: /net/aspose.slides/fontsloader/getfontfolders/

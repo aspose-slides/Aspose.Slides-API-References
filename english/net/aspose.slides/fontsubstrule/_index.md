@@ -1,9 +1,9 @@
 ---
 title: FontSubstRule
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents font subtituition information
 type: docs
-weight: 4440
+weight: 4460
 url: /net/aspose.slides/fontsubstrule/
 ---
 ## FontSubstRule class
@@ -18,8 +18,8 @@ public class FontSubstRule : IFontSubstRule
 
 | Name | Description |
 | --- | --- |
-| [FontSubstRule](fontsubstrule)(IFontData, IFontData) | Creates new instance. |
-| [FontSubstRule](fontsubstrule)(IFontData, IFontData, FontSubstCondition) | Creates new instance. |
+| [FontSubstRule](fontsubstrule#constructor)(IFontData, IFontData) | Creates new instance. |
+| [FontSubstRule](fontsubstrule#constructor_1)(IFontData, IFontData, FontSubstCondition) | Creates new instance. |
 
 ## Properties
 

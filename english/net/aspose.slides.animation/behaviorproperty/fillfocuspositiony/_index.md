@@ -1,7 +1,7 @@
 ---
 title: FillFocusPositionY
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents fill.focusposition.y property
 type: docs
 weight: 320
 url: /net/aspose.slides.animation/behaviorproperty/fillfocuspositiony/

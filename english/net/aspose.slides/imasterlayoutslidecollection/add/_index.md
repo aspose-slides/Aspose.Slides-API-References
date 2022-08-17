@@ -1,7 +1,7 @@
 ---
 title: Add
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Adds a new layout slide to the end of the collection.
 type: docs
 weight: 20
 url: /net/aspose.slides/imasterlayoutslidecollection/add/

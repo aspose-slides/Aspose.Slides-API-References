@@ -1,7 +1,7 @@
 ---
 title: Placeholder
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the placeholder for a shape. Returns null if the shape has no placeholder. Read-only IPlaceholderaspose.slides/iplaceholder.
 type: docs
 weight: 200
 url: /net/aspose.slides/shape/placeholder/

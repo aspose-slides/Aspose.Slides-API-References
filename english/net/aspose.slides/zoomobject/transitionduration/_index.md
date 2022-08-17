@@ -1,7 +1,7 @@
 ---
 title: TransitionDuration
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Gets or sets the duration of the transition between Zoom and slide. Read/write Single. Default value 1.0f
 type: docs
 weight: 50
 url: /net/aspose.slides/zoomobject/transitionduration/

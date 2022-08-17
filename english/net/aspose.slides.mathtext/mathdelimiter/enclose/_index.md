@@ -1,7 +1,7 @@
 ---
 title: Enclose
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Encloses a math element in specified characters such as parenthesis or another characters as framing
 type: docs
 weight: 90
 url: /net/aspose.slides.mathtext/mathdelimiter/enclose/

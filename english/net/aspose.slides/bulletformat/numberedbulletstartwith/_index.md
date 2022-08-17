@@ -1,7 +1,7 @@
 ---
 title: NumberedBulletStartWith
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets the first number which is used for group of numbered bullets with no inheritance. Read/write Int16.
 type: docs
 weight: 70
 url: /net/aspose.slides/bulletformat/numberedbulletstartwith/

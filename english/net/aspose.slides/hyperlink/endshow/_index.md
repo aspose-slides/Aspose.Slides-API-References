@@ -1,7 +1,7 @@
 ---
 title: EndShow
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns a hyperlink which ends the show. Read-only Hyperlinkaspose.slides/hyperlink.
 type: docs
 weight: 20
 url: /net/aspose.slides/hyperlink/endshow/

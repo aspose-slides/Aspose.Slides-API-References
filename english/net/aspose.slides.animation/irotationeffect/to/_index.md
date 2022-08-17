@@ -1,7 +1,7 @@
 ---
 title: To
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Describes the ending value for the animation. Read/write Single.
 type: docs
 weight: 40
 url: /net/aspose.slides.animation/irotationeffect/to/

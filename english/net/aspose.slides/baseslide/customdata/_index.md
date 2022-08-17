@@ -1,7 +1,7 @@
 ---
 title: CustomData
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the slides custom data. Read-only ICustomDataaspose.slides/icustomdata.
 type: docs
 weight: 30
 url: /net/aspose.slides/baseslide/customdata/

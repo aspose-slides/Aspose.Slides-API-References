@@ -1,7 +1,7 @@
 ---
 title: RemoveSummaryZoomSection
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Remove Summary Zoom Section object from the collection.
 type: docs
 weight: 60
 url: /net/aspose.slides/isummaryzoomsectioncollection/removesummaryzoomsection/

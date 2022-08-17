@@ -1,7 +1,7 @@
 ---
 title: Add
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Add new command to path
 type: docs
 weight: 40
 url: /net/aspose.slides.animation/imotionpath/add/

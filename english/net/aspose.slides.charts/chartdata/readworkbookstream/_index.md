@@ -1,7 +1,7 @@
 ---
 title: ReadWorkbookStream
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Writes the internally contained Excel workbook it into an in-memory stream.
 type: docs
 weight: 100
 url: /net/aspose.slides.charts/chartdata/readworkbookstream/

@@ -1,7 +1,7 @@
 ---
 title: AlternativeLanguageId
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets the Id of an alternative language. Read/write String.
 type: docs
 weight: 10
 url: /net/aspose.slides/baseportionformat/alternativelanguageid/

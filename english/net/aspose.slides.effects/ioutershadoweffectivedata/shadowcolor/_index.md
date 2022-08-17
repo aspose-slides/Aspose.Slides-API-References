@@ -1,7 +1,7 @@
 ---
 title: ShadowColor
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Color of shadow. Read-only Color.
 type: docs
 weight: 90
 url: /net/aspose.slides.effects/ioutershadoweffectivedata/shadowcolor/

@@ -1,7 +1,7 @@
 ---
 title: DateTime4
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Current date and time in a fourth predefined format Month DD YYYY for english. Read-only FieldTypeaspose.slides/fieldtype.
 type: docs
 weight: 100
 url: /net/aspose.slides/fieldtype/datetime4/

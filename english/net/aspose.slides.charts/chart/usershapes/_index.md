@@ -1,7 +1,7 @@
 ---
 title: UserShapes
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Specify the shapes drawn on top of the chart. Read-only IGroupShapeaspose.slides/igroupshape.
 type: docs
 weight: 240
 url: /net/aspose.slides.charts/chart/usershapes/

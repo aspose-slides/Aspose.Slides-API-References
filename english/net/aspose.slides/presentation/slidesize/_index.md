@@ -1,9 +1,9 @@
 ---
 title: SlideSize
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns slide size object. Read-only ISlideSizeaspose.slides/islidesize.
 type: docs
-weight: 240
+weight: 250
 url: /net/aspose.slides/presentation/slidesize/
 ---
 ## Presentation.SlideSize property

@@ -1,7 +1,7 @@
 ---
 title: Local
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns local storage of the current template context. Read-only Storageaspose.slides.export.web/storage.
 type: docs
 weight: 20
 url: /net/aspose.slides.export.web/templatecontext-1/local/

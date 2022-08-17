@@ -1,7 +1,7 @@
 ---
 title: GetSlideComments
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns all slide comments added by specific author.
 type: docs
 weight: 80
 url: /net/aspose.slides/islide/getslidecomments/

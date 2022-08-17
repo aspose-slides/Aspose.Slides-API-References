@@ -1,7 +1,7 @@
 ---
 title: FontFallBackRulesCollection
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents a users collection of FontFallBack rules for managing of collections of fonts for proper substitutions by fallback functionality Read/write IFontFallBackRulesCollectionaspose.slides/ifontfallbackrulescollection.
 type: docs
 weight: 10
 url: /net/aspose.slides/fontsmanager/fontfallbackrulescollection/

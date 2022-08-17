@@ -1,7 +1,7 @@
 ---
 title: Labels
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the Labels of a series. Read-only IDataLabelCollectionaspose.slides.charts/idatalabelcollection.
 type: docs
 weight: 190
 url: /net/aspose.slides.charts/chartseries/labels/

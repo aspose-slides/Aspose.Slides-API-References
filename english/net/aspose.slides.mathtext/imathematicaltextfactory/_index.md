@@ -1,9 +1,9 @@
 ---
 title: IMathematicalTextFactory
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Allows to create a MathematicalText element
 type: docs
-weight: 7800
+weight: 7820
 url: /net/aspose.slides.mathtext/imathematicaltextfactory/
 ---
 ## IMathematicalTextFactory interface
@@ -18,10 +18,10 @@ public interface IMathematicalTextFactory
 
 | Name | Description |
 | --- | --- |
-| [CreateMathematicalText](../../aspose.slides.mathtext/imathematicaltextfactory/createmathematicaltext)() | Create empty mathematical text element |
-| [CreateMathematicalText](../../aspose.slides.mathtext/imathematicaltextfactory/createmathematicaltext)(char) | Create mathematical text element with the specified value |
-| [CreateMathematicalText](../../aspose.slides.mathtext/imathematicaltextfactory/createmathematicaltext)(string) | Create empty mathematical text element with the specified value |
-| [CreateMathematicalText](../../aspose.slides.mathtext/imathematicaltextfactory/createmathematicaltext)(string, IPortionFormat) | Create empty mathematical text element with the specified value and formatting properties |
+| [CreateMathematicalText](../../aspose.slides.mathtext/imathematicaltextfactory/createmathematicaltext#createmathematicaltext)() | Create empty mathematical text element |
+| [CreateMathematicalText](../../aspose.slides.mathtext/imathematicaltextfactory/createmathematicaltext#createmathematicaltext_1)(char) | Create mathematical text element with the specified value |
+| [CreateMathematicalText](../../aspose.slides.mathtext/imathematicaltextfactory/createmathematicaltext#createmathematicaltext_2)(string) | Create empty mathematical text element with the specified value |
+| [CreateMathematicalText](../../aspose.slides.mathtext/imathematicaltextfactory/createmathematicaltext#createmathematicaltext_3)(string, IPortionFormat) | Create empty mathematical text element with the specified value and formatting properties |
 
 ### Remarks
 

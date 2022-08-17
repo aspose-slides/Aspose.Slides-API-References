@@ -1,7 +1,7 @@
 ---
 title: Effect
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns effects used for a chart line. Read-only IEffectFormataspose.slides/ieffectformat.
 type: docs
 weight: 10
 url: /net/aspose.slides.charts/chartlinesformat/effect/

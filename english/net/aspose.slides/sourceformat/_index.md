@@ -1,9 +1,9 @@
 ---
 title: SourceFormat
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents source file format.
 type: docs
-weight: 9870
+weight: 9920
 url: /net/aspose.slides/sourceformat/
 ---
 ## SourceFormat enumeration

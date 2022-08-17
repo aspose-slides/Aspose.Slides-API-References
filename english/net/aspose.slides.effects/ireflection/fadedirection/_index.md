@@ -1,7 +1,7 @@
 ---
 title: FadeDirection
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Specifies the direction to offset the reflection. angle. Read/write Single.
 type: docs
 weight: 80
 url: /net/aspose.slides.effects/ireflection/fadedirection/

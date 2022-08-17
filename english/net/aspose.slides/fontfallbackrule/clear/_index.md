@@ -1,7 +1,7 @@
 ---
 title: Clear
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Removes all fonts from the list.
 type: docs
 weight: 70
 url: /net/aspose.slides/fontfallbackrule/clear/

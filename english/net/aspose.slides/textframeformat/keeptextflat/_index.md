@@ -1,7 +1,7 @@
 ---
 title: KeepTextFlat
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Gets or sets keeping text flat even if a 3-D Rotation effect was applied. Read/write Boolean.
 type: docs
 weight: 70
 url: /net/aspose.slides/textframeformat/keeptextflat/

@@ -1,7 +1,7 @@
 ---
 title: ImageDataCropLeft
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents imageData.cropLeft property
 type: docs
 weight: 450
 url: /net/aspose.slides.animation/behaviorproperty/imagedatacropleft/

@@ -1,12 +1,12 @@
 ---
 title: ToArray
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates and returns an array with all FallBack fonts for this rule.
 type: docs
 weight: 100
 url: /net/aspose.slides/ifontfallbackrule/toarray/
 ---
-## IFontFallBackRule.ToArray method (1 of 2)
+## ToArray() {#toarray}
 
 Creates and returns an array with all FallBack fonts for this rule.
 
@@ -37,7 +37,7 @@ string[] fontNames = newRule.ToArray();
 
 ---
 
-## IFontFallBackRule.ToArray method (2 of 2)
+## ToArray(int, int) {#toarray_1}
 
 Creates and returns an array with all FallBack fonts from the specified range in list.
 

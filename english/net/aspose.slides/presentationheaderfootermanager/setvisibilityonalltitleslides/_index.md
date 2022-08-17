@@ -1,7 +1,7 @@
 ---
 title: SetVisibilityOnAllTitleSlides
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Changes the footer date-time and page number placeholders visibility for all title slides and for first layout slide. Title slides  slides based on first layout slide regardless of type of this first layout.
 type: docs
 weight: 80
 url: /net/aspose.slides/presentationheaderfootermanager/setvisibilityonalltitleslides/

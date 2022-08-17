@@ -1,7 +1,7 @@
 ---
 title: ExtrusionSkewAngle
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents extrusion.skewangle property
 type: docs
 weight: 200
 url: /net/aspose.slides.animation/behaviorproperty/extrusionskewangle/

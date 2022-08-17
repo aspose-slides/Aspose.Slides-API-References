@@ -1,9 +1,9 @@
 ---
 title: ColorOperation
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents different color operations used for color transformations. Immutable object.
 type: docs
-weight: 2380
+weight: 2400
 url: /net/aspose.slides/coloroperation/
 ---
 ## ColorOperation class
@@ -18,8 +18,8 @@ public class ColorOperation : IColorOperation
 
 | Name | Description |
 | --- | --- |
-| [ColorOperation](coloroperation)(ColorTransformOperation) | Creates new color transform operation. |
-| [ColorOperation](coloroperation)(ColorTransformOperation, float) | Creates new color transform operation. |
+| [ColorOperation](coloroperation#constructor)(ColorTransformOperation) | Creates new color transform operation. |
+| [ColorOperation](coloroperation#constructor_1)(ColorTransformOperation, float) | Creates new color transform operation. |
 
 ## Properties
 

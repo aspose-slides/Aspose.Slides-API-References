@@ -1,7 +1,7 @@
 ---
 title: Hue
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets the hue component of a color in HSL representation. All color transformations are ignored. Read/write Single.
 type: docs
 weight: 90
 url: /net/aspose.slides/colorformat/hue/

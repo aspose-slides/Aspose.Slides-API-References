@@ -1,12 +1,12 @@
 ---
 title: WriteBindedPresentation
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Writes binded presentation to stream.
 type: docs
 weight: 90
 url: /net/aspose.slides/presentationinfo/writebindedpresentation/
 ---
-## PresentationInfo.WriteBindedPresentation method (1 of 2)
+## WriteBindedPresentation(Stream) {#writebindedpresentation}
 
 Writes binded presentation to stream.
 
@@ -26,7 +26,7 @@ public void WriteBindedPresentation(Stream stream)
 
 ---
 
-## PresentationInfo.WriteBindedPresentation method (2 of 2)
+## WriteBindedPresentation(string) {#writebindedpresentation_1}
 
 Writes binded presentation to file.
 

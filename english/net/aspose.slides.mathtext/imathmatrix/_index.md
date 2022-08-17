@@ -1,9 +1,9 @@
 ---
 title: IMathMatrix
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Specifies the Matrix object consisting of child elements laid out in one or more rows and columns. It is important to note that matrices do not have built in delimiters. To place the matrix in the brackets you should use the delimiter object IMathDelimiter. Null arguments can be used to create gaps in matrices.
 type: docs
-weight: 7630
+weight: 7650
 url: /net/aspose.slides.mathtext/imathmatrix/
 ---
 ## IMathMatrix interface

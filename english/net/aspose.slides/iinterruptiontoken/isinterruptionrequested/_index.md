@@ -1,7 +1,7 @@
 ---
 title: IsInterruptionRequested
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns Boolean.true if interruption was requested.
 type: docs
 weight: 10
 url: /net/aspose.slides/iinterruptiontoken/isinterruptionrequested/

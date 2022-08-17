@@ -1,7 +1,7 @@
 ---
 title: ConnectionSiteCount
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the number of connection sites on the shape. Read-only Int32.
 type: docs
 weight: 60
 url: /net/aspose.slides/ishape/connectionsitecount/

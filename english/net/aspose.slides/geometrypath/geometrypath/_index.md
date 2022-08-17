@@ -1,7 +1,7 @@
 ---
 title: GeometryPath
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates instance of GeometryPath
 type: docs
 weight: 10
 url: /net/aspose.slides/geometrypath/geometrypath/

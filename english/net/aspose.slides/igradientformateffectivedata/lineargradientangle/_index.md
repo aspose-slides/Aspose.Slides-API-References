@@ -1,7 +1,7 @@
 ---
 title: LinearGradientAngle
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the angle of a gradient. Read-only Single.
 type: docs
 weight: 50
 url: /net/aspose.slides/igradientformateffectivedata/lineargradientangle/

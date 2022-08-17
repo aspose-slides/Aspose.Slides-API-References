@@ -1,7 +1,7 @@
 ---
 title: TickLabelRotationAngle
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents the rotation angle of tick labels. Read/write Single.
 type: docs
 weight: 520
 url: /net/aspose.slides.charts/axis/ticklabelrotationangle/

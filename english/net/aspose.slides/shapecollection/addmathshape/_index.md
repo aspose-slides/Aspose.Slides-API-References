@@ -1,7 +1,7 @@
 ---
 title: AddMathShape
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates a new Autoshape tuned from default template to math content and adds it to the end of the collection.
 type: docs
 weight: 140
 url: /net/aspose.slides/shapecollection/addmathshape/

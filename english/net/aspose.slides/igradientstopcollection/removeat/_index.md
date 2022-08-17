@@ -1,7 +1,7 @@
 ---
 title: RemoveAt
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Removes a gradient stop at the specified index.
 type: docs
 weight: 50
 url: /net/aspose.slides/igradientstopcollection/removeat/

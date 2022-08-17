@@ -1,7 +1,7 @@
 ---
 title: RemoveSectionWithSlides
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Remove section and slides contained in the section.
 type: docs
 weight: 80
 url: /net/aspose.slides/isectioncollection/removesectionwithslides/

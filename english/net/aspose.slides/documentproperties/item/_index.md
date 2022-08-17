@@ -1,7 +1,7 @@
 ---
 title: Item
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets the custom property associated with a specified name. Read/write Object.
 type: docs
 weight: 130
 url: /net/aspose.slides/documentproperties/item/

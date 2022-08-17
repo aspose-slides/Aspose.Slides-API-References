@@ -1,7 +1,7 @@
 ---
 title: TextAnimationCollection
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns collection of text animations. Read-only ITextAnimationCollectionaspose.slides.animation/itextanimationcollection.
 type: docs
 weight: 30
 url: /net/aspose.slides/ianimationtimeline/textanimationcollection/

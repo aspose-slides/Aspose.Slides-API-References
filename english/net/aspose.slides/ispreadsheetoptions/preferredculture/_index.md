@@ -1,7 +1,7 @@
 ---
 title: PreferredCulture
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Gets or sets preferred culture information for calculating some functions intended for use with languages that use the double-byte character set DBCS.
 type: docs
 weight: 10
 url: /net/aspose.slides/ispreadsheetoptions/preferredculture/

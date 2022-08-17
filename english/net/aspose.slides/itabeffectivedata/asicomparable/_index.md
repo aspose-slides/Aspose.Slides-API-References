@@ -1,7 +1,7 @@
 ---
 title: AsIComparable
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns IComparable interface. Read-only IComparable.
 type: docs
 weight: 20
 url: /net/aspose.slides/itabeffectivedata/asicomparable/

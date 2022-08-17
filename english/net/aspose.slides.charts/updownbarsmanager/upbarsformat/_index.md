@@ -1,7 +1,7 @@
 ---
 title: UpBarsFormat
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the UpBars format. Read-only IFormataspose.slides.charts/iformat.
 type: docs
 weight: 40
 url: /net/aspose.slides.charts/updownbarsmanager/upbarsformat/

@@ -1,7 +1,7 @@
 ---
 title: Compliance
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Desired conformance level for generated PDF document. Read/write PdfComplianceaspose.slides.export/pdfcompliance.
 type: docs
 weight: 60
 url: /net/aspose.slides.export/pdfoptions/compliance/

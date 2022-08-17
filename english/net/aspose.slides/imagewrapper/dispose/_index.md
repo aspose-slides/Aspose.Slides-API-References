@@ -1,7 +1,7 @@
 ---
 title: Dispose
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Dispose ImageWrapper
 type: docs
 weight: 30
 url: /net/aspose.slides/imagewrapper/dispose/

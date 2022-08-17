@@ -1,7 +1,7 @@
 ---
 title: Y
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns a Y-offset of an image. Read-only Int32.
 type: docs
 weight: 80
 url: /net/aspose.slides/ppimage/y/

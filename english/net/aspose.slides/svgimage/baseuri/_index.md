@@ -1,7 +1,7 @@
 ---
 title: BaseUri
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns base URI of the specified Svg. Used to resolve relative links. Read-only String.
 type: docs
 weight: 20
 url: /net/aspose.slides/svgimage/baseuri/

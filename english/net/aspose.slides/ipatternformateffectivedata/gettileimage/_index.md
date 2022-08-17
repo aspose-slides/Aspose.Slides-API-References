@@ -1,7 +1,7 @@
 ---
 title: GetTileImage
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates a tile image for the pattern fill with a specified colors.
 type: docs
 weight: 40
 url: /net/aspose.slides/ipatternformateffectivedata/gettileimage/

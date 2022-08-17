@@ -1,7 +1,7 @@
 ---
 title: AsILineParamSource
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Allows to get base ILineParamSource interface. Read-only ILineParamSourceaspose.slides/ilineparamsource.
 type: docs
 weight: 20
 url: /net/aspose.slides/ilineformateffectivedata/asilineparamsource/

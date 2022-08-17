@@ -1,7 +1,7 @@
 ---
 title: ImageDataGrayscale
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents imageData.grayscale property
 type: docs
 weight: 500
 url: /net/aspose.slides.animation/behaviorproperty/imagedatagrayscale/

@@ -1,9 +1,9 @@
 ---
 title: MathParagraph
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Mathematical paragraph that is a container for mathematical blocks IMathBlock
 type: docs
-weight: 8180
+weight: 8200
 url: /net/aspose.slides.mathtext/mathparagraph/
 ---
 ## MathParagraph class
@@ -18,8 +18,8 @@ public class MathParagraph : IMathParagraph
 
 | Name | Description |
 | --- | --- |
-| [MathParagraph](mathparagraph)() | Initializes a new instance of the MathParagraph class. |
-| [MathParagraph](mathparagraph)(IMathBlock) | Initializes a new instance of the MathParagraph class. |
+| [MathParagraph](mathparagraph#constructor)() | Initializes a new instance of the MathParagraph class. |
+| [MathParagraph](mathparagraph#constructor_1)(IMathBlock) | Initializes a new instance of the MathParagraph class. |
 
 ## Properties
 

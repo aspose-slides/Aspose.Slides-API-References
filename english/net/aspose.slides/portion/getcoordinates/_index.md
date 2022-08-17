@@ -1,7 +1,7 @@
 ---
 title: GetCoordinates
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Get coordinates of the beginning of the portion. The X coordinate of point represents the portion beginning from the first character including left side bearing. The Y coordinate includes top side bearing.
 type: docs
 weight: 60
 url: /net/aspose.slides/portion/getcoordinates/

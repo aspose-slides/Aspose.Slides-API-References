@@ -1,7 +1,7 @@
 ---
 title: HidePlaceholders
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Hide the placeholders for empty matrix elements Default false
 type: docs
 weight: 60
 url: /net/aspose.slides.mathtext/imathmatrix/hideplaceholders/

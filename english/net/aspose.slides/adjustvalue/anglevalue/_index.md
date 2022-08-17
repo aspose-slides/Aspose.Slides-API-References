@@ -1,7 +1,7 @@
 ---
 title: AngleValue
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets value interpreting it as angle in degrees. Read/write Single.
 type: docs
 weight: 10
 url: /net/aspose.slides/adjustvalue/anglevalue/

@@ -1,7 +1,7 @@
 ---
 title: ShowMinorGridLines
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: To hide minor gridline set MinorGridLinesFormat.Line.FillFormat.FillType to FillType.NoFill. Read-only Boolean.
 type: docs
 weight: 490
 url: /net/aspose.slides.charts/axis/showminorgridlines/

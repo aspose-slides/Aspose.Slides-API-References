@@ -1,9 +1,9 @@
 ---
 title: SlideLayoutType
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents the slide layout type.
 type: docs
-weight: 9210
+weight: 9230
 url: /net/aspose.slides/slidelayouttype/
 ---
 ## SlideLayoutType enumeration

@@ -1,7 +1,7 @@
 ---
 title: StyleIndex
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns an index of BackgroundType.Themed fill in background theme collection. 0 means no fill. 1..999 - index. Read/write UInt16.
 type: docs
 weight: 60
 url: /net/aspose.slides/background/styleindex/

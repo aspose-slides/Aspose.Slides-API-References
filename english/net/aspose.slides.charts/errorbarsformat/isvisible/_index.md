@@ -1,7 +1,7 @@
 ---
 title: IsVisible
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Gets or sets Error Bars visibility . Read/write Boolean.
 type: docs
 weight: 40
 url: /net/aspose.slides.charts/errorbarsformat/isvisible/

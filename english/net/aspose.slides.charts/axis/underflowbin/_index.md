@@ -1,7 +1,7 @@
 ---
 title: UnderflowBin
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Specifies underflow bin custom value. Applied when IsAutomaticUnderflowBin property setted to false and IsUnderflowBin property equals true.
 type: docs
 weight: 560
 url: /net/aspose.slides.charts/axis/underflowbin/

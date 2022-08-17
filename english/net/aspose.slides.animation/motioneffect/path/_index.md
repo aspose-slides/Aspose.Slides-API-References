@@ -1,7 +1,7 @@
 ---
 title: Path
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Specifies the path primitive followed by coordinates for the animation motion. Read/write IMotionPathaspose.slides.animation/imotionpath.
 type: docs
 weight: 60
 url: /net/aspose.slides.animation/motioneffect/path/

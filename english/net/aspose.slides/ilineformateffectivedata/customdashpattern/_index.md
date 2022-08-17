@@ -1,7 +1,7 @@
 ---
 title: CustomDashPattern
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the custom dash pattern. Read-only Single.
 type: docs
 weight: 70
 url: /net/aspose.slides/ilineformateffectivedata/customdashpattern/

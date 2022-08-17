@@ -1,7 +1,7 @@
 ---
 title: GetAutomaticSeriesColor
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns an automatic color of series based on series index and chart style. This color is used by default if FillType equals NotDefined.
 type: docs
 weight: 450
 url: /net/aspose.slides.charts/ichartseries/getautomaticseriescolor/

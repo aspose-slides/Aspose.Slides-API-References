@@ -1,7 +1,7 @@
 ---
 title: HyperlinkBase
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets the HyperlinkBase document property. Read/write String.
 type: docs
 weight: 120
 url: /net/aspose.slides/documentproperties/hyperlinkbase/

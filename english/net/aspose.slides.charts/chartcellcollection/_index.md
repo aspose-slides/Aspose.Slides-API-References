@@ -1,9 +1,9 @@
 ---
 title: ChartCellCollection
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents collection of a cells with data.
 type: docs
-weight: 1160
+weight: 1180
 url: /net/aspose.slides.charts/chartcellcollection/
 ---
 ## ChartCellCollection class
@@ -25,8 +25,8 @@ public class ChartCellCollection : IChartCellCollection
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.slides.charts/chartcellcollection/add)(IChartDataCell) | Add new cell to the collection. |
-| [Add](../../aspose.slides.charts/chartcellcollection/add)(object) | Creates [`ChartDataCell`](../chartdatacell) from specified value and adds it to the collection. |
+| [Add](../../aspose.slides.charts/chartcellcollection/add#add)(IChartDataCell) | Add new cell to the collection. |
+| [Add](../../aspose.slides.charts/chartcellcollection/add#add_1)(object) | Creates [`ChartDataCell`](../chartdatacell) from specified value and adds it to the collection. |
 | [GetCellsAddress](../../aspose.slides.charts/chartcellcollection/getcellsaddress)() | Returns address of the set of cells in workbook. |
 | [GetConcatenatedValuesFromCells](../../aspose.slides.charts/chartcellcollection/getconcatenatedvaluesfromcells)() | Concatenation string from all cells string values. |
 | [GetEnumerator](../../aspose.slides.charts/chartcellcollection/getenumerator)() | Returns an enumerator that iterates through the collection. |

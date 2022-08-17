@@ -1,7 +1,7 @@
 ---
 title: ColumnCount
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Number of columns in the matrix
 type: docs
 weight: 30
 url: /net/aspose.slides.mathtext/imathmatrix/columncount/

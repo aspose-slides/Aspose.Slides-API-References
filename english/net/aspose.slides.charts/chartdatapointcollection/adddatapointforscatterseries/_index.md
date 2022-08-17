@@ -1,12 +1,12 @@
 ---
 title: AddDataPointForScatterSeries
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Scatter subtypes see also IsChartTypeScatteraspose.slides.charts/charttypecharacterizer/ischarttypescatter method.
 type: docs
 weight: 210
 url: /net/aspose.slides.charts/chartdatapointcollection/adddatapointforscatterseries/
 ---
-## ChartDataPointCollection.AddDataPointForScatterSeries method (1 of 6)
+## AddDataPointForScatterSeries(IChartDataCell, IChartDataCell) {#adddatapointforscatterseries}
 
 Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Scatter subtypes (see also [`IsChartTypeScatter`](../../charttypecharacterizer/ischarttypescatter) method).
 
@@ -33,7 +33,7 @@ New data point.
 
 ---
 
-## ChartDataPointCollection.AddDataPointForScatterSeries method (2 of 6)
+## AddDataPointForScatterSeries(double, IChartDataCell) {#adddatapointforscatterseries_2}
 
 Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Scatter subtypes (see also [`IsChartTypeScatter`](../../charttypecharacterizer/ischarttypescatter) method).
 
@@ -60,7 +60,7 @@ New data point.
 
 ---
 
-## ChartDataPointCollection.AddDataPointForScatterSeries method (3 of 6)
+## AddDataPointForScatterSeries(string, IChartDataCell) {#adddatapointforscatterseries_4}
 
 Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Scatter subtypes (see also [`IsChartTypeScatter`](../../charttypecharacterizer/ischarttypescatter) method).
 
@@ -87,7 +87,7 @@ New data point.
 
 ---
 
-## ChartDataPointCollection.AddDataPointForScatterSeries method (4 of 6)
+## AddDataPointForScatterSeries(IChartDataCell, double) {#adddatapointforscatterseries_1}
 
 Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Scatter subtypes (see also [`IsChartTypeScatter`](../../charttypecharacterizer/ischarttypescatter) method).
 
@@ -114,7 +114,7 @@ New data point.
 
 ---
 
-## ChartDataPointCollection.AddDataPointForScatterSeries method (5 of 6)
+## AddDataPointForScatterSeries(double, double) {#adddatapointforscatterseries_3}
 
 Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Scatter subtypes (see also [`IsChartTypeScatter`](../../charttypecharacterizer/ischarttypescatter) method).
 
@@ -140,7 +140,7 @@ New data point.
 
 ---
 
-## ChartDataPointCollection.AddDataPointForScatterSeries method (6 of 6)
+## AddDataPointForScatterSeries(string, double) {#adddatapointforscatterseries_5}
 
 Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Scatter subtypes (see also [`IsChartTypeScatter`](../../charttypecharacterizer/ischarttypescatter) method).
 

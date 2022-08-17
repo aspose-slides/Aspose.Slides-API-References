@@ -1,7 +1,7 @@
 ---
 title: NotesSlide
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the notes slide for the current slide. Returns null if slide doesnt have notes slide. Read-only INotesSlideaspose.slides/inotesslide.
 type: docs
 weight: 10
 url: /net/aspose.slides/notesslidemanager/notesslide/

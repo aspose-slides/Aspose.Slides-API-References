@@ -1,7 +1,7 @@
 ---
 title: ShowPercentage
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents a specified charts data label percentage value display behavior. True displays the percentage value. False to hide. Read/write Boolean.
 type: docs
 weight: 130
 url: /net/aspose.slides.charts/datalabelformat/showpercentage/

@@ -1,7 +1,7 @@
 ---
 title: HasEndCap
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Specifies an end cap is not drawn on the error bars. Read/write Boolean.
 type: docs
 weight: 30
 url: /net/aspose.slides.charts/ierrorbarsformat/hasendcap/

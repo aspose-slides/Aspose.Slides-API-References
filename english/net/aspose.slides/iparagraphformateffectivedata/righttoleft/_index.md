@@ -1,7 +1,7 @@
 ---
 title: RightToLeft
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Determines whether the Right to Left writing is used in a paragraph. Read-only Boolean.
 type: docs
 weight: 130
 url: /net/aspose.slides/iparagraphformateffectivedata/righttoleft/

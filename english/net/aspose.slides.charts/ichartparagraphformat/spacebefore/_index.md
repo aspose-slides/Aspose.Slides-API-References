@@ -1,7 +1,7 @@
 ---
 title: SpaceBefore
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets the amount of space before the first line in a paragraph. Read/write Single.
 type: docs
 weight: 120
 url: /net/aspose.slides.charts/ichartparagraphformat/spacebefore/

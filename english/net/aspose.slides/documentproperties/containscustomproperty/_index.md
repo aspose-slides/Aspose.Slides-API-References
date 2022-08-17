@@ -1,7 +1,7 @@
 ---
 title: ContainsCustomProperty
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Check presents of a custom property with a specified name.
 type: docs
 weight: 300
 url: /net/aspose.slides/documentproperties/containscustomproperty/

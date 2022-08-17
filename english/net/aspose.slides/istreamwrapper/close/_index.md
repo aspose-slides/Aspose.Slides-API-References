@@ -1,7 +1,7 @@
 ---
 title: Close
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Closes the current stream and releases any resources.
 type: docs
 weight: 80
 url: /net/aspose.slides/istreamwrapper/close/

@@ -1,7 +1,7 @@
 ---
 title: ReadVbaProject
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Reads VBA project from OLE container.
 type: docs
 weight: 40
 url: /net/aspose.slides.vba/vbaprojectfactory/readvbaproject/

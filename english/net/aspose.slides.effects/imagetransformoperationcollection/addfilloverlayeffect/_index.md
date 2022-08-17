@@ -1,7 +1,7 @@
 ---
 title: AddFillOverlayEffect
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Adds the new Fill Overlay effect to the end of a collection.
 type: docs
 weight: 170
 url: /net/aspose.slides.effects/imagetransformoperationcollection/addfilloverlayeffect/

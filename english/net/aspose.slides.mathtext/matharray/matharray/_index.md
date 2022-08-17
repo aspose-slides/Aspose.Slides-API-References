@@ -1,12 +1,12 @@
 ---
 title: MathArray
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates a mathematical array and places the specified element in it
 type: docs
 weight: 10
 url: /net/aspose.slides.mathtext/matharray/matharray/
 ---
-## MathArray constructor (1 of 2)
+## MathArray(IMathElement) {#constructor}
 
 Creates a mathematical array and places the specified element in it
 
@@ -36,7 +36,7 @@ MathArray mathArray = new MathArray(new MathematicalText("item1"));
 
 ---
 
-## MathArray constructor (2 of 2)
+## MathArray(IEnumerable&lt;IMathElement&gt;) {#constructor_1}
 
 Creates a mathematical array and places specified elements in it
 

@@ -1,7 +1,7 @@
 ---
 title: WrapText
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: True if text is wrapped at TextFrames margins. Changing of this property can produce a certain influence only for these chart parts DataLabel and DataLabelFormat full suport in PowerPoint 2007/2013. Read/write NullableBoolaspose.slides/nullablebool.
 type: docs
 weight: 100
 url: /net/aspose.slides.charts/icharttextblockformat/wraptext/

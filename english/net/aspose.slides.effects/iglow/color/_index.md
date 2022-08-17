@@ -1,7 +1,7 @@
 ---
 title: Color
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Color format. Read-only IColorFormataspose.slides/icolorformat.
 type: docs
 weight: 30
 url: /net/aspose.slides.effects/iglow/color/

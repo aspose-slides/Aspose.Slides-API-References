@@ -1,7 +1,7 @@
 ---
 title: Item
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the element at the specified index.
 type: docs
 weight: 30
 url: /net/aspose.slides/customxmlpartcollection/item/

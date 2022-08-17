@@ -1,7 +1,7 @@
 ---
 title: AsIChartComponent
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Allows to get base IChartComponent interface. Read-only IChartComponentaspose.slides.charts/ichartcomponent.
 type: docs
 weight: 10
 url: /net/aspose.slides.charts/ilayoutable/asichartcomponent/

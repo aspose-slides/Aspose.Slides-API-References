@@ -1,7 +1,7 @@
 ---
 title: ContentType
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns a MIME type of an audio encoded in BinaryDataaspose.slides/audio/binarydata. Read-only String.
 type: docs
 weight: 20
 url: /net/aspose.slides/audio/contenttype/

@@ -1,7 +1,7 @@
 ---
 title: GetCellsAddressInWorkbook
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: If DataSourceType property is DataSourceType.Worksheet then this method returns address of the cells in workbook which represent the string data. Otherwise return empty string.
 type: docs
 weight: 30
 url: /net/aspose.slides.charts/istringchartvalue/getcellsaddressinworkbook/

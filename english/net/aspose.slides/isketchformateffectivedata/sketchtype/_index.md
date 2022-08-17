@@ -1,7 +1,7 @@
 ---
 title: SketchType
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the sketch type. Read only LineSketchTypeaspose.slides/linesketchtype.
 type: docs
 weight: 10
 url: /net/aspose.slides/isketchformateffectivedata/sketchtype/

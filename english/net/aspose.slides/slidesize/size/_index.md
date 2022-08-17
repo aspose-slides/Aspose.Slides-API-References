@@ -1,7 +1,7 @@
 ---
 title: Size
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets the size in points. Assigning any value will reset Typeaspose.slides/slidesize/type property to Custom and set Orientationaspose.slides/slidesize/orientation. Read/write SizeF.
 type: docs
 weight: 20
 url: /net/aspose.slides/slidesize/size/

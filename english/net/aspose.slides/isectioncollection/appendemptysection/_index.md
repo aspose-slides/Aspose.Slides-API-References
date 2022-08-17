@@ -1,7 +1,7 @@
 ---
 title: AppendEmptySection
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Add empty section to the end of the collection.
 type: docs
 weight: 40
 url: /net/aspose.slides/isectioncollection/appendemptysection/

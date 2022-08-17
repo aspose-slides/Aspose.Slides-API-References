@@ -1,7 +1,7 @@
 ---
 title: Calculate
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: If the cell contains a formula the value will be updated base on that formula.
 type: docs
 weight: 100
 url: /net/aspose.slides.charts/chartdatacell/calculate/

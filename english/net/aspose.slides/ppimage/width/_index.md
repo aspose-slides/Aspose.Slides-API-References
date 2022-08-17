@@ -1,7 +1,7 @@
 ---
 title: Width
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns a width of an image. Read-only Int32.
 type: docs
 weight: 60
 url: /net/aspose.slides/ppimage/width/

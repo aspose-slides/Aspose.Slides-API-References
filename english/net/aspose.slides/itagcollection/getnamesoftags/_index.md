@@ -1,7 +1,7 @@
 ---
 title: GetNamesOfTags
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns names of tags.
 type: docs
 weight: 60
 url: /net/aspose.slides/itagcollection/getnamesoftags/

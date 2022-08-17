@@ -1,7 +1,7 @@
 ---
 title: Item
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns chart data point by index.
 type: docs
 weight: 20
 url: /net/aspose.slides.charts/ipiesplitcustompointcollection/item/

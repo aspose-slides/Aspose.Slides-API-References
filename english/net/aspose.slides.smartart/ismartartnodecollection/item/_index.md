@@ -1,7 +1,7 @@
 ---
 title: Item
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns node by index. Read-only ISmartArtNodeaspose.slides.smartart/ismartartnode
 type: docs
 weight: 10
 url: /net/aspose.slides.smartart/ismartartnodecollection/item/

@@ -1,7 +1,7 @@
 ---
 title: WriteDocumentStart
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Called to write html document header. Called once per presentation conversion.
 type: docs
 weight: 20
 url: /net/aspose.slides.export/ihtmlformattingcontroller/writedocumentstart/

@@ -1,9 +1,9 @@
 ---
 title: LineFormat
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents format of a line.
 type: docs
-weight: 7090
+weight: 7110
 url: /net/aspose.slides/lineformat/
 ---
 ## LineFormat class
@@ -41,7 +41,7 @@ public class LineFormat : PVIObject, ILineFormat
 
 | Name | Description |
 | --- | --- |
-| [Equals](../../aspose.slides/lineformat/equals)(ILineFormat) | Determines whether the two LineFormat instances are equal. |
+| [Equals](../../aspose.slides/lineformat/equals#equals)(ILineFormat) | Determines whether the two LineFormat instances are equal. |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Compares with specified object. |
 | [GetEffective](../../aspose.slides/lineformat/geteffective)() | Gets effective line formatting data with the inheritance applied. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Returns hash code. |

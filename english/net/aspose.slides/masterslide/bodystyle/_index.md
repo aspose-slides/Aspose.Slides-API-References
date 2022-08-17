@@ -1,7 +1,7 @@
 ---
 title: BodyStyle
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the style of a body text. Read-only ITextStyleaspose.slides/itextstyle.
 type: docs
 weight: 10
 url: /net/aspose.slides/masterslide/bodystyle/

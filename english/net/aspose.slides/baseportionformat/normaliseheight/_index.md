@@ -1,7 +1,7 @@
 ---
 title: NormaliseHeight
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Determines whether the height of a text should be normalized. No inheritance applied. Read/write NullableBoolaspose.slides/nullablebool.
 type: docs
 weight: 190
 url: /net/aspose.slides/baseportionformat/normaliseheight/

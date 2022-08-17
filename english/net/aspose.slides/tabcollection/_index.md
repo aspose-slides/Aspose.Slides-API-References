@@ -1,9 +1,9 @@
 ---
 title: TabCollection
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents a collection of tabs.
 type: docs
-weight: 10030
+weight: 10080
 url: /net/aspose.slides/tabcollection/
 ---
 ## TabCollection class
@@ -27,8 +27,8 @@ public sealed class TabCollection : ITabCollection
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.slides/tabcollection/add)(ITab) | Adds a Tab to the collection. |
-| [Add](../../aspose.slides/tabcollection/add)(double, TabAlignment) | Adds a Tab to the collection. |
+| [Add](../../aspose.slides/tabcollection/add#add_1)(ITab) | Adds a Tab to the collection. |
+| [Add](../../aspose.slides/tabcollection/add#add)(double, TabAlignment) | Adds a Tab to the collection. |
 | [Clear](../../aspose.slides/tabcollection/clear)() | Removes all elements from the collection. |
 | [CopyTo](../../aspose.slides/tabcollection/copyto)(Array, int) | Copies all elements from the collection to the specified array. |
 | override [Equals](../../aspose.slides/tabcollection/equals)(object) | Determines whether two TabsEx instances are equal. |

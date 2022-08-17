@@ -1,7 +1,7 @@
 ---
 title: AddAlphaCeilingEffect
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Adds the new Alpha Ceiling effect to the end of a collection.
 type: docs
 weight: 60
 url: /net/aspose.slides.effects/imagetransformoperationcollection/addalphaceilingeffect/

@@ -1,7 +1,7 @@
 ---
 title: BulletFillFormat
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the FillFormat object that contains fill formatting properties for a node bullet. Note can return null for certain types of SmartArt layout which does not provide bullets for nodes. Read-only IFillFormataspose.slides/ifillformat.
 type: docs
 weight: 10
 url: /net/aspose.slides.smartart/ismartartnode/bulletfillformat/

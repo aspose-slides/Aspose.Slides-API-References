@@ -1,9 +1,9 @@
 ---
 title: ILoadOptions
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Allows to specify additional options such as format or default font when loading a presentation.
 type: docs
-weight: 5780
+weight: 5800
 url: /net/aspose.slides/iloadoptions/
 ---
 ## ILoadOptions interface

@@ -1,7 +1,7 @@
 ---
 title: Axes
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Provide access to chart axes. Read-only IAxesManageraspose.slides.charts/iaxesmanager.
 type: docs
 weight: 30
 url: /net/aspose.slides.charts/chart/axes/

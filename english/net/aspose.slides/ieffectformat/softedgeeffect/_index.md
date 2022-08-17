@@ -1,7 +1,7 @@
 ---
 title: SoftEdgeEffect
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Soft edge. Read/write ISoftEdgeaspose.slides.effects/isoftedge.
 type: docs
 weight: 100
 url: /net/aspose.slides/ieffectformat/softedgeeffect/

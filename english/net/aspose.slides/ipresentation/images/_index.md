@@ -1,7 +1,7 @@
 ---
 title: Images
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the collection of all images in the presentation. Read-only IImageCollectionaspose.slides/iimagecollection.
 type: docs
 weight: 150
 url: /net/aspose.slides/ipresentation/images/

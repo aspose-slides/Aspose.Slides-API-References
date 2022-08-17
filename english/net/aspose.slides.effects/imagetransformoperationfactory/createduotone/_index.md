@@ -1,7 +1,7 @@
 ---
 title: CreateDuotone
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates Duotone effect.
 type: docs
 weight: 130
 url: /net/aspose.slides.effects/imagetransformoperationfactory/createduotone/

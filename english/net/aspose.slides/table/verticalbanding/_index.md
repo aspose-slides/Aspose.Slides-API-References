@@ -1,7 +1,7 @@
 ---
 title: VerticalBanding
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Determines whether the even columns has to be drawn with a different formatting. Read/write Boolean.
 type: docs
 weight: 120
 url: /net/aspose.slides/table/verticalbanding/

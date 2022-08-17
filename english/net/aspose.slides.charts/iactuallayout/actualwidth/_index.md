@@ -1,7 +1,7 @@
 ---
 title: ActualWidth
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Specifies actual width of the chart element. Call method IChart.ValidateChartLayout before to get actual values. Read Single.
 type: docs
 weight: 20
 url: /net/aspose.slides.charts/iactuallayout/actualwidth/

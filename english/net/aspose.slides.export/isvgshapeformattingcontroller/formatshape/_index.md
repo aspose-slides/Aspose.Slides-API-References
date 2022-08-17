@@ -1,7 +1,7 @@
 ---
 title: FormatShape
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: This function is called before rendering of shape to SVG to allow user to control resulting SVG.
 type: docs
 weight: 10
 url: /net/aspose.slides.export/isvgshapeformattingcontroller/formatshape/

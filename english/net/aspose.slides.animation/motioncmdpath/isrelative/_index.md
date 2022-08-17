@@ -1,7 +1,7 @@
 ---
 title: IsRelative
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Determine command coordinates relative or not. Read/write Boolean.
 type: docs
 weight: 20
 url: /net/aspose.slides.animation/motioncmdpath/isrelative/

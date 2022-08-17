@@ -1,7 +1,7 @@
 ---
 title: RemoveAt
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Removes an item at the specified index of the collection.
 type: docs
 weight: 110
 url: /net/aspose.slides.mathtext/mathparagraph/removeat/

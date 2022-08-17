@@ -1,12 +1,12 @@
 ---
 title: ReplaceImage
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Replaces image data.
 type: docs
 weight: 90
 url: /net/aspose.slides/ippimage/replaceimage/
 ---
-## IPPImage.ReplaceImage method (1 of 3)
+## ReplaceImage(byte[]) {#replaceimage_1}
 
 Replaces image data.
 
@@ -26,7 +26,7 @@ public void ReplaceImage(byte[] newImageData)
 
 ---
 
-## IPPImage.ReplaceImage method (2 of 3)
+## ReplaceImage(Image) {#replaceimage_2}
 
 Replaces image.
 
@@ -46,7 +46,7 @@ public void ReplaceImage(Image newImage)
 
 ---
 
-## IPPImage.ReplaceImage method (3 of 3)
+## ReplaceImage(IPPImage) {#replaceimage}
 
 Replaces image.
 

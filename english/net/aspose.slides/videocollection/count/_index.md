@@ -1,7 +1,7 @@
 ---
 title: Count
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns a number of video files in the collection. Read-only Int32.
 type: docs
 weight: 10
 url: /net/aspose.slides/videocollection/count/

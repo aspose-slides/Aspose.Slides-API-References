@@ -1,7 +1,7 @@
 ---
 title: GetEntity
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Maps a URI to an object containing the actual resource.
 type: docs
 weight: 10
 url: /net/aspose.slides.import/iexternalresourceresolver/getentity/

@@ -1,7 +1,7 @@
 ---
 title: Insert
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates new chart series and inserts it into the collection.
 type: docs
 weight: 100
 url: /net/aspose.slides.charts/chartseriescollection/insert/

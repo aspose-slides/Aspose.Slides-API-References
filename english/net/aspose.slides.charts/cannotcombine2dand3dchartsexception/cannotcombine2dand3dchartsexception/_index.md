@@ -1,12 +1,12 @@
 ---
 title: CannotCombine2DAnd3DChartsException
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Default constructor.
 type: docs
 weight: 10
 url: /net/aspose.slides.charts/cannotcombine2dand3dchartsexception/cannotcombine2dand3dchartsexception/
 ---
-## CannotCombine2DAnd3DChartsException constructor (1 of 3)
+## CannotCombine2DAnd3DChartsException() {#constructor}
 
 Default constructor.
 
@@ -22,7 +22,7 @@ public CannotCombine2DAnd3DChartsException()
 
 ---
 
-## CannotCombine2DAnd3DChartsException constructor (2 of 3)
+## CannotCombine2DAnd3DChartsException(string) {#constructor_1}
 
 Constructor allowing a message to be added to this exception.
 
@@ -42,7 +42,7 @@ public CannotCombine2DAnd3DChartsException(string message)
 
 ---
 
-## CannotCombine2DAnd3DChartsException constructor (3 of 3)
+## CannotCombine2DAnd3DChartsException(string, Exception) {#constructor_2}
 
 Constructor for an exception containing a message and an embedded exception.
 

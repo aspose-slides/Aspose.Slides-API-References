@@ -1,12 +1,12 @@
 ---
 title: InsertConnector
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates a new Connector tunes it from default template and inserts it to the collection at the specified index.
 type: docs
 weight: 330
 url: /net/aspose.slides/shapecollection/insertconnector/
 ---
-## ShapeCollection.InsertConnector method (1 of 2)
+## InsertConnector(int, ShapeType, float, float, float, float) {#insertconnector}
 
 Creates a new Connector, tunes it from default template and inserts it to the collection at the specified index.
 
@@ -38,7 +38,7 @@ Created Connector object.
 
 ---
 
-## ShapeCollection.InsertConnector method (2 of 2)
+## InsertConnector(int, ShapeType, float, float, float, float, bool) {#insertconnector_1}
 
 Creates a new Connector and inserts it to the collection at the specified index.
 

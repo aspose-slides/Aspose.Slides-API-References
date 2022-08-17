@@ -1,7 +1,7 @@
 ---
 title: ShowLeaderLines
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents a specified charts data label leader lines display behavior. True displays the leader lines. False to hide. Read/write Boolean.
 type: docs
 weight: 110
 url: /net/aspose.slides.charts/datalabelformat/showleaderlines/

@@ -1,7 +1,7 @@
 ---
 title: NumberFormatOfYValues
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets the number format for series y values. Read/write String.
 type: docs
 weight: 250
 url: /net/aspose.slides.charts/ichartseries/numberformatofyvalues/

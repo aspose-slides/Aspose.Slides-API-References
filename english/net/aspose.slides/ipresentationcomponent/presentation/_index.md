@@ -1,7 +1,7 @@
 ---
 title: Presentation
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the presentation. Read-only IPresentationaspose.slides/ipresentation.
 type: docs
 weight: 10
 url: /net/aspose.slides/ipresentationcomponent/presentation/

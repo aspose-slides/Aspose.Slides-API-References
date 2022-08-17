@@ -1,7 +1,7 @@
 ---
 title: IsOverrideThemeEnabled
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Determines whether OverrideTheme overrides inherited effective theme or not. To enable OverrideTheme for overriding use OverrideTheme.Init methods. To disable OverrideTheme from overriding use OverrideTheme.Clear method. Read-only Boolean.
 type: docs
 weight: 10
 url: /net/aspose.slides.theme/baseoverridethememanager/isoverridethemeenabled/

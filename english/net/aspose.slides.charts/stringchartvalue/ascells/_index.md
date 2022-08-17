@@ -1,7 +1,7 @@
 ---
 title: AsCells
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Null value assigning is not allowed. Returning value always is not null. Read/write IChartCellCollectionaspose.slides.charts/ichartcellcollection.
 type: docs
 weight: 10
 url: /net/aspose.slides.charts/stringchartvalue/ascells/

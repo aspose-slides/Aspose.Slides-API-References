@@ -1,7 +1,7 @@
 ---
 title: GetValueByIndex
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns value of a tag at the specified index.
 type: docs
 weight: 70
 url: /net/aspose.slides/itagcollection/getvaluebyindex/

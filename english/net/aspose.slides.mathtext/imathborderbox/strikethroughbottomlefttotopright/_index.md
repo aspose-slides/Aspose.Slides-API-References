@@ -1,7 +1,7 @@
 ---
 title: StrikethroughBottomLeftToTopRight
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Strikethrough Bottom-Left to Top-Right default is false. Specifies the hidden or shown state of a strikethrough diagonal line from the bottom-left corner to the top-right corner of border box.
 type: docs
 weight: 70
 url: /net/aspose.slides.mathtext/imathborderbox/strikethroughbottomlefttotopright/

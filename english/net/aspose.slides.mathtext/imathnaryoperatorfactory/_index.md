@@ -1,9 +1,9 @@
 ---
 title: IMathNaryOperatorFactory
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Allows to create IMathNaryOperator
 type: docs
-weight: 7660
+weight: 7680
 url: /net/aspose.slides.mathtext/imathnaryoperatorfactory/
 ---
 ## IMathNaryOperatorFactory interface
@@ -18,9 +18,9 @@ public interface IMathNaryOperatorFactory
 
 | Name | Description |
 | --- | --- |
-| [CreateMathNaryOperator](../../aspose.slides.mathtext/imathnaryoperatorfactory/createmathnaryoperator)(char, IMathElement) | Creates IMathNaryOperator |
-| [CreateMathNaryOperator](../../aspose.slides.mathtext/imathnaryoperatorfactory/createmathnaryoperator)(char, IMathElement, IMathElement) | Creates IMathNaryOperator |
-| [CreateMathNaryOperator](../../aspose.slides.mathtext/imathnaryoperatorfactory/createmathnaryoperator)(char, IMathElement, IMathElement, IMathElement) | Creates IMathNaryOperator |
+| [CreateMathNaryOperator](../../aspose.slides.mathtext/imathnaryoperatorfactory/createmathnaryoperator#createmathnaryoperator)(char, IMathElement) | Creates IMathNaryOperator |
+| [CreateMathNaryOperator](../../aspose.slides.mathtext/imathnaryoperatorfactory/createmathnaryoperator#createmathnaryoperator_1)(char, IMathElement, IMathElement) | Creates IMathNaryOperator |
+| [CreateMathNaryOperator](../../aspose.slides.mathtext/imathnaryoperatorfactory/createmathnaryoperator#createmathnaryoperator_2)(char, IMathElement, IMathElement, IMathElement) | Creates IMathNaryOperator |
 
 ### Remarks
 

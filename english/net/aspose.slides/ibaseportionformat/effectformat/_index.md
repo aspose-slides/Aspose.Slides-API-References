@@ -1,7 +1,7 @@
 ---
 title: EffectFormat
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the text EffectFormat properties. No inheritance applied. Read-only IEffectFormataspose.slides/ieffectformat.
 type: docs
 weight: 40
 url: /net/aspose.slides/ibaseportionformat/effectformat/

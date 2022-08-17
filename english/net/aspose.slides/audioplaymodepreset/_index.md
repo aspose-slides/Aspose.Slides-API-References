@@ -1,7 +1,7 @@
 ---
 title: AudioPlayModePreset
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Constants which define how a sound is played.
 type: docs
 weight: 780
 url: /net/aspose.slides/audioplaymodepreset/

@@ -1,7 +1,7 @@
 ---
 title: DefaultTabSize
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns default tabulation size. Read-only Single.
 type: docs
 weight: 40
 url: /net/aspose.slides/iparagraphformateffectivedata/defaulttabsize/

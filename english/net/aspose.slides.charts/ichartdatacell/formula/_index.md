@@ -1,7 +1,7 @@
 ---
 title: Formula
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Gets or sets the formula in A1-style.
 type: docs
 weight: 40
 url: /net/aspose.slides.charts/ichartdatacell/formula/

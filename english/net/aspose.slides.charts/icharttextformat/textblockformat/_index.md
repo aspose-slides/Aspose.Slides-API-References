@@ -1,7 +1,7 @@
 ---
 title: TextBlockFormat
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns format for the chart text elements. Read-only IChartTextBlockFormataspose.slides.charts/icharttextblockformat.
 type: docs
 weight: 30
 url: /net/aspose.slides.charts/icharttextformat/textblockformat/

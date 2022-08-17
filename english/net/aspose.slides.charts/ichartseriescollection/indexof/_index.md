@@ -1,7 +1,7 @@
 ---
 title: IndexOf
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Searches for the specified IChartSeriesaspose.slides.charts/ichartseries and returns the zero-based index of the first occurrence within the entire Collection
 type: docs
 weight: 40
 url: /net/aspose.slides.charts/ichartseriescollection/indexof/

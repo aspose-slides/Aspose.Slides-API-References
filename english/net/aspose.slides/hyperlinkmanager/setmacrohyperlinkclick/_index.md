@@ -1,7 +1,7 @@
 ---
 title: SetMacroHyperlinkClick
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Set Macro hyperlink on a click.
 type: docs
 weight: 70
 url: /net/aspose.slides/hyperlinkmanager/setmacrohyperlinkclick/

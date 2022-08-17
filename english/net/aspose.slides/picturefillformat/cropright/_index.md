@@ -1,7 +1,7 @@
 ---
 title: CropRight
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets the number of percents of real image width that are cropped off the right of the picture. Read/write Single.
 type: docs
 weight: 30
 url: /net/aspose.slides/picturefillformat/cropright/

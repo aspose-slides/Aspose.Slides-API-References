@@ -1,7 +1,7 @@
 ---
 title: SetHeaderAndChildHeadersText
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Sets text to master notes slide header placeholder and all child header placeholders. Child placeholders mean placeholders are contained on depending notes slides. Depending notes slides use and depend on master notes slide.
 type: docs
 weight: 60
 url: /net/aspose.slides/imasternotesslideheaderfootermanager/setheaderandchildheaderstext/

@@ -1,7 +1,7 @@
 ---
 title: CalcMode
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Specifies the interpolation mode for the animation Read/write PropertyCalcModeTypeaspose.slides.animation/propertycalcmodetype.
 type: docs
 weight: 30
 url: /net/aspose.slides.animation/ipropertyeffect/calcmode/

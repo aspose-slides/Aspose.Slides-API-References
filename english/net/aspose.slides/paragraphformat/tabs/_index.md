@@ -1,7 +1,7 @@
 ---
 title: Tabs
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns tabulations of a paragraph. No inheritance applied. Read-only ITabCollectionaspose.slides/itabcollection.
 type: docs
 weight: 150
 url: /net/aspose.slides/paragraphformat/tabs/

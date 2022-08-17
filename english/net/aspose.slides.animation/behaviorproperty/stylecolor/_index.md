@@ -1,7 +1,7 @@
 ---
 title: StyleColor
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents style.color property
 type: docs
 weight: 1050
 url: /net/aspose.slides.animation/behaviorproperty/stylecolor/

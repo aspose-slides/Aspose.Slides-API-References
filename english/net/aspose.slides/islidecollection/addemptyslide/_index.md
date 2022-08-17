@@ -1,7 +1,7 @@
 ---
 title: AddEmptySlide
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Adds a new empty slide to the end of the collection.
 type: docs
 weight: 30
 url: /net/aspose.slides/islidecollection/addemptyslide/

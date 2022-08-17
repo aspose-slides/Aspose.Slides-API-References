@@ -1,7 +1,7 @@
 ---
 title: DeleteRow
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Deletes the specified row
 type: docs
 weight: 130
 url: /net/aspose.slides.mathtext/imathmatrix/deleterow/

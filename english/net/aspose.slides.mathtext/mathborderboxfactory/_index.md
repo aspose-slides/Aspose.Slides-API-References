@@ -1,9 +1,9 @@
 ---
 title: MathBorderBoxFactory
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Allows to create a math border box
 type: docs
-weight: 7900
+weight: 7920
 url: /net/aspose.slides.mathtext/mathborderboxfactory/
 ---
 ## MathBorderBoxFactory class
@@ -24,8 +24,8 @@ public class MathBorderBoxFactory : IMathBorderBoxFactory
 
 | Name | Description |
 | --- | --- |
-| [CreateMathBorderBox](../../aspose.slides.mathtext/mathborderboxfactory/createmathborderbox)(IMathElement) | Create a math border box by applying to the element |
-| [CreateMathBorderBox](../../aspose.slides.mathtext/mathborderboxfactory/createmathborderbox)(IMathElement, bool, bool, bool, bool, bool, bool, bool, bool) | Create a math border box by applying to the element |
+| [CreateMathBorderBox](../../aspose.slides.mathtext/mathborderboxfactory/createmathborderbox#createmathborderbox)(IMathElement) | Create a math border box by applying to the element |
+| [CreateMathBorderBox](../../aspose.slides.mathtext/mathborderboxfactory/createmathborderbox#createmathborderbox_1)(IMathElement, bool, bool, bool, bool, bool, bool, bool, bool) | Create a math border box by applying to the element |
 
 ### Remarks
 

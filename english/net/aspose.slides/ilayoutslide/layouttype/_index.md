@@ -1,7 +1,7 @@
 ---
 title: LayoutType
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns layout type of this layout slide. Read-only SlideLayoutTypeaspose.slides/slidelayouttype.
 type: docs
 weight: 50
 url: /net/aspose.slides/ilayoutslide/layouttype/

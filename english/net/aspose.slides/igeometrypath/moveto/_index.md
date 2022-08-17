@@ -1,12 +1,12 @@
 ---
 title: MoveTo
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Sets next point position.
 type: docs
 weight: 80
 url: /net/aspose.slides/igeometrypath/moveto/
 ---
-## IGeometryPath.MoveTo method (1 of 2)
+## MoveTo(PointF) {#moveto_1}
 
 Sets next point position.
 
@@ -26,7 +26,7 @@ public void MoveTo(PointF point)
 
 ---
 
-## IGeometryPath.MoveTo method (2 of 2)
+## MoveTo(float, float) {#moveto}
 
 Sets next point position.
 

@@ -1,7 +1,7 @@
 ---
 title: Depth
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets the depth of a 3D shape. Read/write Double.
 type: docs
 weight: 60
 url: /net/aspose.slides/threedformat/depth/

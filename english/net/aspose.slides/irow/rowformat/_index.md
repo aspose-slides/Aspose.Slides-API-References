@@ -1,7 +1,7 @@
 ---
 title: RowFormat
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the RowFormat object that contains formatting properties for this row. Read-only IRowFormataspose.slides/irowformat.
 type: docs
 weight: 50
 url: /net/aspose.slides/irow/rowformat/

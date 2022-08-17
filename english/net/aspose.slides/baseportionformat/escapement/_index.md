@@ -1,7 +1,7 @@
 ---
 title: Escapement
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets the superscript or subscript text. Value from -100 subscript to 100 superscript. float.NaN means value is undefined and should be inherited from the Master. Read/write Single.
 type: docs
 weight: 50
 url: /net/aspose.slides/baseportionformat/escapement/

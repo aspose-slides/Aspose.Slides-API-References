@@ -1,7 +1,7 @@
 ---
 title: CrossAt
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents the point on the axis where the perpendicular axis crosses it. Read/write Single.
 type: docs
 weight: 130
 url: /net/aspose.slides.charts/iaxis/crossat/

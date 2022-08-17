@@ -1,7 +1,7 @@
 ---
 title: IsLicensed
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Check if licence is applied to component
 type: docs
 weight: 20
 url: /net/aspose.slides/license/islicensed/

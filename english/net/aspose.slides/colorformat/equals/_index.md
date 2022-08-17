@@ -1,7 +1,7 @@
 ---
 title: Equals
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Checks for equality with specified object.
 type: docs
 weight: 170
 url: /net/aspose.slides/colorformat/equals/

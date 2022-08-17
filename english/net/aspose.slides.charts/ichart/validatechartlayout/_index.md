@@ -1,7 +1,7 @@
 ---
 title: ValidateChartLayout
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Calculates actual values of chart elements. Actual values inlude position of elements that implement IActualLayout interface IActualLayout.ActualX IActualLayout.ActualY IActualLayout.ActualWidth IActualLayout.ActualHeight and actual axes values IAxis.ActualMaxValue IAxis.ActualMinValue IAxis.ActualMajorUnit IAxis.ActualMinorUnit IAxis.ActualMajorUnitScale IAxis.ActualMinorUnitScale
 type: docs
 weight: 240
 url: /net/aspose.slides.charts/ichart/validatechartlayout/

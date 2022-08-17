@@ -1,12 +1,12 @@
 ---
 title: InsertClone
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Inserts a copy of a specified shape to specified position of the collection.
 type: docs
 weight: 270
 url: /net/aspose.slides/ishapecollection/insertclone/
 ---
-## IShapeCollection.InsertClone method (1 of 3)
+## InsertClone(int, IShape, float, float, float, float) {#insertclone_2}
 
 Inserts a copy of a specified shape to specified position of the collection.
 
@@ -37,7 +37,7 @@ Inserted shape.
 
 ---
 
-## IShapeCollection.InsertClone method (2 of 3)
+## InsertClone(int, IShape, float, float) {#insertclone_1}
 
 Inserts a copy of a specified shape to specified position of the collection. Width and Height of the new shape are equal to Width and Height of the *sourceShape*.
 
@@ -65,7 +65,7 @@ Inserted shape.
 
 ---
 
-## IShapeCollection.InsertClone method (3 of 3)
+## InsertClone(int, IShape) {#insertclone}
 
 Inserts a copy of a specified shape to specified position of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the *sourceShape*.
 

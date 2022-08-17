@@ -1,7 +1,7 @@
 ---
 title: Fill_Color
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents fill.color property
 type: docs
 weight: 400
 url: /net/aspose.slides.animation/behaviorproperty/fill_color/

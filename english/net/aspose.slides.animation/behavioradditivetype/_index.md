@@ -1,7 +1,7 @@
 ---
 title: BehaviorAdditiveType
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents additive type for effect behavior.
 type: docs
 weight: 60
 url: /net/aspose.slides.animation/behavioradditivetype/

@@ -1,7 +1,7 @@
 ---
 title: EndPosAlpha
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Specifies the end position along the alpha gradient ramp of the end alpha value percents. Read-only Single.
 type: docs
 weight: 50
 url: /net/aspose.slides.effects/ireflectioneffectivedata/endposalpha/

@@ -1,9 +1,9 @@
 ---
 title: LoadOptions
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Allows to specify additional options such as format or default font when loading a presentation.
 type: docs
-weight: 7140
+weight: 7160
 url: /net/aspose.slides/loadoptions/
 ---
 ## LoadOptions class
@@ -18,8 +18,8 @@ public class LoadOptions : ILoadOptions
 
 | Name | Description |
 | --- | --- |
-| [LoadOptions](loadoptions)() | Creates new default load options. |
-| [LoadOptions](loadoptions)(LoadFormat) | Creates new load options. |
+| [LoadOptions](loadoptions#constructor)() | Creates new default load options. |
+| [LoadOptions](loadoptions#constructor_1)(LoadFormat) | Creates new load options. |
 
 ## Properties
 

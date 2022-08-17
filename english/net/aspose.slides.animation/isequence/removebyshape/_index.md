@@ -1,7 +1,7 @@
 ---
 title: RemoveByShape
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Remove effect for the specified shape.
 type: docs
 weight: 120
 url: /net/aspose.slides.animation/isequence/removebyshape/

@@ -1,12 +1,12 @@
 ---
 title: InsertAudioFrameEmbedded
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Insert an AudioFrame with embedded audio file. Embedded audio file sound can be a WAV only. It adds new audio into Presentation.Audios list.
 type: docs
 weight: 230
 url: /net/aspose.slides/ishapecollection/insertaudioframeembedded/
 ---
-## IShapeCollection.InsertAudioFrameEmbedded method (1 of 2)
+## InsertAudioFrameEmbedded(int, float, float, float, float, Stream) {#insertaudioframeembedded_1}
 
 Insert an AudioFrame with embedded audio file. Embedded audio file sound can be a WAV only. It adds new audio into Presentation.Audios list.
 
@@ -37,7 +37,7 @@ Created AudioFrame object.
 
 ---
 
-## IShapeCollection.InsertAudioFrameEmbedded method (2 of 2)
+## InsertAudioFrameEmbedded(int, float, float, float, float, IAudio) {#insertaudioframeembedded}
 
 Insert an AudioFrame with embedded audio file. It uses audio file from Presentation.Audios list.
 

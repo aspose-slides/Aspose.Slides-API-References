@@ -1,7 +1,7 @@
 ---
 title: ColorScheme
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the color scheme. Read-only IColorSchemeaspose.slides.theme/icolorscheme.
 type: docs
 weight: 10
 url: /net/aspose.slides.theme/mastertheme/colorscheme/

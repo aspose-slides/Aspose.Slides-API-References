@@ -1,7 +1,7 @@
 ---
 title: CreateSlideShowFormatter
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates and returns HTML formatter for a simple slide show html which shows slides one after another.
 type: docs
 weight: 30
 url: /net/aspose.slides.export/htmlformatter/createslideshowformatter/

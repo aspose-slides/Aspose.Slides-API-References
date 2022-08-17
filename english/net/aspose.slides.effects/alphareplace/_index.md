@@ -1,9 +1,9 @@
 ---
 title: AlphaReplace
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents and Alpha Replace effect. Effect alpha opacity values are replaced by a fixed alpha.
 type: docs
-weight: 2730
+weight: 2750
 url: /net/aspose.slides.effects/alphareplace/
 ---
 ## AlphaReplace class

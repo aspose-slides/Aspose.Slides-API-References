@@ -1,7 +1,7 @@
 ---
 title: Token
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns new token binded to this IInterruptionTokenSourceaspose.slides/iinterruptiontokensource.
 type: docs
 weight: 20
 url: /net/aspose.slides/iinterruptiontokensource/token/

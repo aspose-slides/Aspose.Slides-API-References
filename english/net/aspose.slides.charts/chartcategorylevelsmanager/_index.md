@@ -1,9 +1,9 @@
 ---
 title: ChartCategoryLevelsManager
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Managed container of the values of the chart category levels.
 type: docs
-weight: 1150
+weight: 1170
 url: /net/aspose.slides.charts/chartcategorylevelsmanager/
 ---
 ## ChartCategoryLevelsManager class

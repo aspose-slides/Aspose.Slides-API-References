@@ -1,7 +1,7 @@
 ---
 title: CreatePptxOptions
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates PPTX save options.
 type: docs
 weight: 20
 url: /net/aspose.slides.export/saveoptionsfactory/createpptxoptions/

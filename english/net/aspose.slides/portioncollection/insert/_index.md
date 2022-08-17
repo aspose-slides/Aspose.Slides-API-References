@@ -1,7 +1,7 @@
 ---
 title: Insert
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Inserts a Portion into the collection at the specified index.
 type: docs
 weight: 100
 url: /net/aspose.slides/portioncollection/insert/

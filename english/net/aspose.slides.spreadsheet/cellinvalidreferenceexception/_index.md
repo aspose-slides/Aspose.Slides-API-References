@@ -1,9 +1,9 @@
 ---
 title: CellInvalidReferenceException
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: The exception that is thrown when an invalid cell reference is encountered.
 type: docs
-weight: 9910
+weight: 9960
 url: /net/aspose.slides.spreadsheet/cellinvalidreferenceexception/
 ---
 ## CellInvalidReferenceException class
@@ -18,10 +18,10 @@ public class CellInvalidReferenceException : PptxEditException
 
 | Name | Description |
 | --- | --- |
-| [CellInvalidReferenceException](cellinvalidreferenceexception)() | Initializes a new instance of the [`CellInvalidReferenceException`](../cellinvalidreferenceexception) class. |
-| [CellInvalidReferenceException](cellinvalidreferenceexception)(string) | Initializes a new instance of the [`CellInvalidReferenceException`](../cellinvalidreferenceexception) class with a specified error message. |
-| [CellInvalidReferenceException](cellinvalidreferenceexception)(string, Exception) | Initializes a new instance of the [`CellInvalidReferenceException`](../cellinvalidreferenceexception) class with a specified error message and a reference to the inner exception that is the cause of this exception. |
-| [CellInvalidReferenceException](cellinvalidreferenceexception)(string, string) | Initializes a new instance of the [`CellCircularReferenceException`](../cellcircularreferenceexception) class with a specified error message and an invalid cell reference. |
+| [CellInvalidReferenceException](cellinvalidreferenceexception#constructor)() | Initializes a new instance of the [`CellInvalidReferenceException`](../cellinvalidreferenceexception) class. |
+| [CellInvalidReferenceException](cellinvalidreferenceexception#constructor_1)(string) | Initializes a new instance of the [`CellInvalidReferenceException`](../cellinvalidreferenceexception) class with a specified error message. |
+| [CellInvalidReferenceException](cellinvalidreferenceexception#constructor_2)(string, Exception) | Initializes a new instance of the [`CellInvalidReferenceException`](../cellinvalidreferenceexception) class with a specified error message and a reference to the inner exception that is the cause of this exception. |
+| [CellInvalidReferenceException](cellinvalidreferenceexception#constructor_3)(string, string) | Initializes a new instance of the [`CellCircularReferenceException`](../cellcircularreferenceexception) class with a specified error message and an invalid cell reference. |
 
 ## Properties
 

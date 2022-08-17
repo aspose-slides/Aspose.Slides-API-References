@@ -1,7 +1,7 @@
 ---
 title: GetEffective
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Gets effective Soft Edge effect data with the inheritance applied.
 type: docs
 weight: 30
 url: /net/aspose.slides.effects/softedge/geteffective/

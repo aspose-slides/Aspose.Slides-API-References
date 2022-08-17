@@ -1,7 +1,7 @@
 ---
 title: By
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Specifies a relative offset value for the animation with respect to its position before the start of the animation. Read/write String.
 type: docs
 weight: 20
 url: /net/aspose.slides.animation/ipropertyeffect/by/

@@ -1,7 +1,7 @@
 ---
 title: Count
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Gets the number of fonts actually defined for range. Read-only Int32.
 type: docs
 weight: 20
 url: /net/aspose.slides/fontfallbackrule/count/

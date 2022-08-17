@@ -1,9 +1,9 @@
 ---
 title: IMathGroupingCharacter
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Specifies a grouping symbol above or below an expression usually to highlight the relationship between elements
 type: docs
-weight: 7580
+weight: 7600
 url: /net/aspose.slides.mathtext/imathgroupingcharacter/
 ---
 ## IMathGroupingCharacter interface

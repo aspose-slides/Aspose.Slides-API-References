@@ -1,7 +1,7 @@
 ---
 title: HideTop
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Hide Top Edge default is false - specifies the hidden or shown state of the top edge of border box.
 type: docs
 weight: 60
 url: /net/aspose.slides.mathtext/mathborderbox/hidetop/

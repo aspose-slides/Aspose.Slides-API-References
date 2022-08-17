@@ -1,7 +1,7 @@
 ---
 title: Text
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Gets or sets the plain text for a TextFrame. Read/write String.
 type: docs
 weight: 50
 url: /net/aspose.slides/textframe/text/

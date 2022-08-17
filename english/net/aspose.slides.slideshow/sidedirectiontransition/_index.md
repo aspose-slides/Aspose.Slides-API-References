@@ -1,9 +1,9 @@
 ---
 title: SideDirectionTransition
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Side direction slide transition effect.
 type: docs
-weight: 9530
+weight: 9550
 url: /net/aspose.slides.slideshow/sidedirectiontransition/
 ---
 ## SideDirectionTransition class

@@ -1,7 +1,7 @@
 ---
 title: CreatedTime
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the date when a presentation was created. Read/write DateTime.
 type: docs
 weight: 100
 url: /net/aspose.slides/idocumentproperties/createdtime/

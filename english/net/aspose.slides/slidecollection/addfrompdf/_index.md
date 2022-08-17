@@ -1,12 +1,12 @@
 ---
 title: AddFromPdf
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates slides from the PDF document and adds them to the end of the collection.
 type: docs
 weight: 80
 url: /net/aspose.slides/slidecollection/addfrompdf/
 ---
-## SlideCollection.AddFromPdf method (1 of 2)
+## AddFromPdf(string) {#addfrompdf_1}
 
 Creates slides from the PDF document and adds them to the end of the collection.
 
@@ -44,7 +44,7 @@ using (Presentation pres = new Presentation())
 
 ---
 
-## SlideCollection.AddFromPdf method (2 of 2)
+## AddFromPdf(Stream) {#addfrompdf}
 
 Creates slides from the PDF document and adds them to the end of the collection.
 

@@ -1,7 +1,7 @@
 ---
 title: Color1
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns target color format for dark pixels. Read-only IColorFormataspose.slides/icolorformat.
 type: docs
 weight: 30
 url: /net/aspose.slides.effects/iduotone/color1/

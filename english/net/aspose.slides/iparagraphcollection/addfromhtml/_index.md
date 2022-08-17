@@ -1,12 +1,12 @@
 ---
 title: AddFromHtml
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Adds text from specified html string to the collection.
 type: docs
 weight: 60
 url: /net/aspose.slides/iparagraphcollection/addfromhtml/
 ---
-## IParagraphCollection.AddFromHtml method (1 of 2)
+## AddFromHtml(string) {#addfromhtml}
 
 Adds text from specified html string to the collection.
 
@@ -26,7 +26,7 @@ public void AddFromHtml(string text)
 
 ---
 
-## IParagraphCollection.AddFromHtml method (2 of 2)
+## AddFromHtml(string, IExternalResourceResolver, string) {#addfromhtml_1}
 
 Adds text from specified html string to the collection.
 

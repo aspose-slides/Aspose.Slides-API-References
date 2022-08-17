@@ -1,12 +1,12 @@
 ---
 title: IndexOf
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Determines the index of a specific item in the IList.
 type: docs
 weight: 90
 url: /net/aspose.slides.animation/behaviorpropertycollection/indexof/
 ---
-## BehaviorPropertyCollection.IndexOf method (1 of 2)
+## IndexOf(IBehaviorProperty) {#indexof}
 
 Determines the index of a specific item in the IList.
 
@@ -31,7 +31,7 @@ The index of *item* if found in the list; otherwise, -1.
 
 ---
 
-## BehaviorPropertyCollection.IndexOf method (2 of 2)
+## IndexOf(string) {#indexof_1}
 
 Determines the index of a specific item by property value in the IList.
 

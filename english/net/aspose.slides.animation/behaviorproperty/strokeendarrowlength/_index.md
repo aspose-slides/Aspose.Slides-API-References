@@ -1,7 +1,7 @@
 ---
 title: StrokeEndArrowLength
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents stroke.endArrowLength property
 type: docs
 weight: 920
 url: /net/aspose.slides.animation/behaviorproperty/strokeendarrowlength/

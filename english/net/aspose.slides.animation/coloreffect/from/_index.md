@@ -1,7 +1,7 @@
 ---
 title: From
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: This value is used to specify the starting color of behavior. Read/write IColorFormataspose.slides/icolorformat.
 type: docs
 weight: 50
 url: /net/aspose.slides.animation/coloreffect/from/

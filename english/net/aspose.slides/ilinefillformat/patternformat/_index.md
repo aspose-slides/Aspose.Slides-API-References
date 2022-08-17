@@ -1,7 +1,7 @@
 ---
 title: PatternFormat
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the pattern fill format. Read-only IPatternFormataspose.slides/ipatternformat.
 type: docs
 weight: 40
 url: /net/aspose.slides/ilinefillformat/patternformat/

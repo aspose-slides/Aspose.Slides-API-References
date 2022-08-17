@@ -1,7 +1,7 @@
 ---
 title: GetLevel
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns level of effective style.
 type: docs
 weight: 20
 url: /net/aspose.slides/itextstyleeffectivedata/getlevel/

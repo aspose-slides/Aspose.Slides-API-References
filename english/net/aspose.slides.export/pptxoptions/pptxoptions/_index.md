@@ -1,7 +1,7 @@
 ---
 title: PptxOptions
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates new instance of PptxOptions
 type: docs
 weight: 10
 url: /net/aspose.slides.export/pptxoptions/pptxoptions/

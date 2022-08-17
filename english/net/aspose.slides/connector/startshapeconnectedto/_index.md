@@ -1,7 +1,7 @@
 ---
 title: StartShapeConnectedTo
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets the shape to attach the beginning of the connector to. Read/write IShapeaspose.slides/ishape.
 type: docs
 weight: 60
 url: /net/aspose.slides/connector/startshapeconnectedto/

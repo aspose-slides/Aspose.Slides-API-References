@@ -1,12 +1,12 @@
 ---
 title: Add
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates the new gradient stop and adds it to the end of collection.
 type: docs
 weight: 20
 url: /net/aspose.slides/igradientstopcollection/add/
 ---
-## IGradientStopCollection.Add method (1 of 3)
+## Add(float, Color) {#add_2}
 
 Creates the new gradient stop and adds it to the end of collection.
 
@@ -32,7 +32,7 @@ Index of the new gradient stop in the collection.
 
 ---
 
-## IGradientStopCollection.Add method (2 of 3)
+## Add(float, PresetColor) {#add}
 
 Creates the new gradient stop and adds it to the end of collection.
 
@@ -59,7 +59,7 @@ Index of the new gradient stop in the collection.
 
 ---
 
-## IGradientStopCollection.Add method (3 of 3)
+## Add(float, SchemeColor) {#add_1}
 
 Creates the new gradient stop and adds it to the end of collection.
 

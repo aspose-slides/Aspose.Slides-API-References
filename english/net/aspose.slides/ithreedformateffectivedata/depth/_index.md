@@ -1,7 +1,7 @@
 ---
 title: Depth
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the depth of a 3D shape. Read-only Double.
 type: docs
 weight: 70
 url: /net/aspose.slides/ithreedformateffectivedata/depth/

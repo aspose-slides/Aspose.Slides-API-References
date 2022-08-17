@@ -1,7 +1,7 @@
 ---
 title: TrendlineType
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Gets or sets type of trend line. Read/write TrendlineTypeaspose.slides.charts/trendlinetype.
 type: docs
 weight: 140
 url: /net/aspose.slides.charts/trendline/trendlinetype/

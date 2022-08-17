@@ -1,7 +1,7 @@
 ---
 title: Reporting
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Reports a progress update.
 type: docs
 weight: 10
 url: /net/aspose.slides/iprogresscallback/reporting/

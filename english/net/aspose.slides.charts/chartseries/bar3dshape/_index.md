@@ -1,7 +1,7 @@
 ---
 title: Bar3DShape
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Specifies the shape of a series of a 3-D bar chart. Changing of value of this property can cause to automatically changing Type of series. Read/write ChartShapeTypeaspose.slides.charts/chartshapetype.
 type: docs
 weight: 10
 url: /net/aspose.slides.charts/chartseries/bar3dshape/

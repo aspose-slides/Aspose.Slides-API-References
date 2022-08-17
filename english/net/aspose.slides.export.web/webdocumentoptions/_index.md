@@ -1,9 +1,9 @@
 ---
 title: WebDocumentOptions
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents an options set for WebDocument./webdocument saving.
 type: docs
-weight: 4260
+weight: 4280
 url: /net/aspose.slides.export.web/webdocumentoptions/
 ---
 ## WebDocumentOptions class

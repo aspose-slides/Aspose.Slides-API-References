@@ -1,7 +1,7 @@
 ---
 title: Format
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents the format of the data label. Read-only IFormataspose.slides.charts/iformat.
 type: docs
 weight: 20
 url: /net/aspose.slides.charts/datalabelformat/format/

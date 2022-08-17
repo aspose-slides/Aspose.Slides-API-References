@@ -1,7 +1,7 @@
 ---
 title: RemoveAt
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Removes the author at the specified index of the collection.
 type: docs
 weight: 120
 url: /net/aspose.slides/commentauthorcollection/removeat/

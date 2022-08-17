@@ -1,12 +1,12 @@
 ---
 title: QuadraticBezierTo
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Adds quadratic Bezier curve at the end the path
 type: docs
 weight: 100
 url: /net/aspose.slides/geometrypath/quadraticbezierto/
 ---
-## GeometryPath.QuadraticBezierTo method (1 of 4)
+## QuadraticBezierTo(PointF, PointF) {#quadraticbezierto_2}
 
 Adds quadratic Bezier curve at the end the path
 
@@ -27,7 +27,7 @@ public void QuadraticBezierTo(PointF point1, PointF point2)
 
 ---
 
-## GeometryPath.QuadraticBezierTo method (2 of 4)
+## QuadraticBezierTo(float, float, float, float) {#quadraticbezierto}
 
 Adds quadratic Bezier curve at the end the path
 
@@ -50,7 +50,7 @@ public void QuadraticBezierTo(float x1, float y1, float x2, float y2)
 
 ---
 
-## GeometryPath.QuadraticBezierTo method (3 of 4)
+## QuadraticBezierTo(PointF, PointF, uint) {#quadraticbezierto_3}
 
 Adds quadratic Bezier curve to the specified place of the path
 
@@ -78,7 +78,7 @@ public void QuadraticBezierTo(PointF point1, PointF point2, uint index)
 
 ---
 
-## GeometryPath.QuadraticBezierTo method (4 of 4)
+## QuadraticBezierTo(float, float, float, float, uint) {#quadraticbezierto_1}
 
 Adds quadratic Bezier curve to the specified place of the path
 

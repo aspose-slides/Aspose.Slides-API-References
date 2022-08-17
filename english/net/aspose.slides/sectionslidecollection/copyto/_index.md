@@ -1,7 +1,7 @@
 ---
 title: CopyTo
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Copies the entire collection to the specified array.
 type: docs
 weight: 50
 url: /net/aspose.slides/sectionslidecollection/copyto/

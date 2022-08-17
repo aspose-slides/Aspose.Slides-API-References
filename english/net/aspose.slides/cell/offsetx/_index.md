@@ -1,7 +1,7 @@
 ---
 title: OffsetX
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns a distance from left side of a table to left side of a cell. Read-only Double.
 type: docs
 weight: 150
 url: /net/aspose.slides/cell/offsetx/

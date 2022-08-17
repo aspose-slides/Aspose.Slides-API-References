@@ -1,7 +1,7 @@
 ---
 title: SketchFormat
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the sketch format of a line. Read-only ILineFillFormataspose.slides/ilinefillformat.
 type: docs
 weight: 150
 url: /net/aspose.slides/lineformat/sketchformat/

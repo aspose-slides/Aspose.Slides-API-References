@@ -1,7 +1,7 @@
 ---
 title: AnchorCenter
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Determines whether or not text box centered inside a cell. Read/write Boolean.
 type: docs
 weight: 10
 url: /net/aspose.slides/icell/anchorcenter/

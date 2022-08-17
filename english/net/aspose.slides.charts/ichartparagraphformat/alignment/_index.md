@@ -1,7 +1,7 @@
 ---
 title: Alignment
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets the text alignment in a paragraph. Read/write TextAlignmentaspose.slides/textalignment.
 type: docs
 weight: 10
 url: /net/aspose.slides.charts/ichartparagraphformat/alignment/

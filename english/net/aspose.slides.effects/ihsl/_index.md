@@ -1,9 +1,9 @@
 ---
 title: IHSL
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents a Hue/Saturation/Luminance effect. The hue saturation and luminance may each be adjusted relative to its current value.
 type: docs
-weight: 3160
+weight: 3180
 url: /net/aspose.slides.effects/ihsl/
 ---
 ## IHSL interface

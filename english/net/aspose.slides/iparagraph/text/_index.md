@@ -1,7 +1,7 @@
 ---
 title: Text
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Gets or sets the the plain text of a paragraph. Read/write String.
 type: docs
 weight: 50
 url: /net/aspose.slides/iparagraph/text/

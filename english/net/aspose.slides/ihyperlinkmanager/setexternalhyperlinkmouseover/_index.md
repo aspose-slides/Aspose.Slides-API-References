@@ -1,7 +1,7 @@
 ---
 title: SetExternalHyperlinkMouseOver
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Sets external hyperlink mouse over.
 type: docs
 weight: 40
 url: /net/aspose.slides/ihyperlinkmanager/setexternalhyperlinkmouseover/

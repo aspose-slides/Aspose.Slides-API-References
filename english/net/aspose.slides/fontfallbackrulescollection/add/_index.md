@@ -1,7 +1,7 @@
 ---
 title: Add
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Add a specified FallBack rule to the end of the collection.
 type: docs
 weight: 60
 url: /net/aspose.slides/fontfallbackrulescollection/add/

@@ -1,7 +1,7 @@
 ---
 title: Height
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Bevel height. Read-only Double.
 type: docs
 weight: 20
 url: /net/aspose.slides/ishapebeveleffectivedata/height/

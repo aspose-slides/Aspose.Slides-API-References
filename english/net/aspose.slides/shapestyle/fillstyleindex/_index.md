@@ -1,7 +1,7 @@
 ---
 title: FillStyleIndex
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets shapes fill column index in style matrices. 0 means no fill positive value - index in themes fill styles negative value - index in themes background styles. Read/write Int16.
 type: docs
 weight: 40
 url: /net/aspose.slides/shapestyle/fillstyleindex/

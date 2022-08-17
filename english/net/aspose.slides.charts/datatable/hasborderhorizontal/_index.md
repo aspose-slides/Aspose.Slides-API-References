@@ -1,7 +1,7 @@
 ---
 title: HasBorderHorizontal
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: True if the chart data table has horizontal cell borders. Read/write Boolean.
 type: docs
 weight: 30
 url: /net/aspose.slides.charts/datatable/hasborderhorizontal/

@@ -1,7 +1,7 @@
 ---
 title: Type
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns a type of this series group. Read-only CombinableSeriesTypesGroupaspose.slides.charts/combinableseriestypesgroup.
 type: docs
 weight: 190
 url: /net/aspose.slides.charts/ichartseriesgroup/type/

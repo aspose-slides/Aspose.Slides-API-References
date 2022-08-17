@@ -1,7 +1,7 @@
 ---
 title: SplitByWidth
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Splits the cell by width.
 type: docs
 weight: 280
 url: /net/aspose.slides/cell/splitbywidth/

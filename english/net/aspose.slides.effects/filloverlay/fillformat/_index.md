@@ -1,7 +1,7 @@
 ---
 title: FillFormat
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Fill format. Read-only IFillFormataspose.slides/ifillformat.
 type: docs
 weight: 20
 url: /net/aspose.slides.effects/filloverlay/fillformat/

@@ -1,7 +1,7 @@
 ---
 title: Additive
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents whether the current animation behavior is combined with other running animations. Read/write BehaviorAdditiveTypeaspose.slides.animation/behavioradditivetype.
 type: docs
 weight: 20
 url: /net/aspose.slides.animation/ibehavior/additive/

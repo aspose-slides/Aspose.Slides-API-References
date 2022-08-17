@@ -1,9 +1,9 @@
 ---
 title: IShapeBevelEffectiveData
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Immutable object which contains effective shapes face relief properties.
 type: docs
-weight: 6390
+weight: 6410
 url: /net/aspose.slides/ishapebeveleffectivedata/
 ---
 ## IShapeBevelEffectiveData interface

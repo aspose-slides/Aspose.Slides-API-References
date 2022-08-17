@@ -1,12 +1,12 @@
 ---
 title: Add
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Adds a new operation to the end of collection.
 type: docs
 weight: 50
 url: /net/aspose.slides/coloroperationcollection/add/
 ---
-## ColorOperationCollection.Add method (1 of 2)
+## Add(ColorTransformOperation, float) {#add_1}
 
 Adds a new operation to the end of collection.
 
@@ -33,7 +33,7 @@ Added operation.
 
 ---
 
-## ColorOperationCollection.Add method (2 of 2)
+## Add(ColorTransformOperation) {#add}
 
 Adds a new operation to the end of collection.
 

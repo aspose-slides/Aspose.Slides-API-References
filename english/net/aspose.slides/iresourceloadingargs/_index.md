@@ -1,9 +1,9 @@
 ---
 title: IResourceLoadingArgs
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Interface for external resource loading arguments.
 type: docs
-weight: 6270
+weight: 6290
 url: /net/aspose.slides/iresourceloadingargs/
 ---
 ## IResourceLoadingArgs interface

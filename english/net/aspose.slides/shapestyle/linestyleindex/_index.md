@@ -1,7 +1,7 @@
 ---
 title: LineStyleIndex
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets lines column index in a style matrix. Read/write UInt16.
 type: docs
 weight: 80
 url: /net/aspose.slides/shapestyle/linestyleindex/

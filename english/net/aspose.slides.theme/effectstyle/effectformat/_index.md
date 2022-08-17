@@ -1,7 +1,7 @@
 ---
 title: EffectFormat
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns an effect format. Read-only IEffectFormataspose.slides/ieffectformat.
 type: docs
 weight: 10
 url: /net/aspose.slides.theme/effectstyle/effectformat/

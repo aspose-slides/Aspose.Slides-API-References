@@ -1,7 +1,7 @@
 ---
 title: To
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Specifies the certain attribute of a effect after an animation effect. Represents point value. Only bool ColorFormat float int string. Read/write Object.
 type: docs
 weight: 20
 url: /net/aspose.slides.animation/iseteffect/to/

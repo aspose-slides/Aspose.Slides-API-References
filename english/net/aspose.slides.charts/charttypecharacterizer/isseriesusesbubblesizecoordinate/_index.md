@@ -1,7 +1,7 @@
 ---
 title: IsSeriesUsesBubbleSizeCoordinate
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns if bubble size coordinates can be used for specified series type.
 type: docs
 weight: 180
 url: /net/aspose.slides.charts/charttypecharacterizer/isseriesusesbubblesizecoordinate/

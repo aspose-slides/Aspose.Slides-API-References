@@ -1,9 +1,9 @@
 ---
 title: Rotation3D
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents 3D rotation of a chart.
 type: docs
-weight: 2260
+weight: 2280
 url: /net/aspose.slides.charts/rotation3d/
 ---
 ## Rotation3D class

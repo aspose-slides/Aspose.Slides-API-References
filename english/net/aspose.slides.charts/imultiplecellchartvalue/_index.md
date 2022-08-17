@@ -1,9 +1,9 @@
 ---
 title: IMultipleCellChartValue
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents a collection of a chart cells.
 type: docs
-weight: 2030
+weight: 2050
 url: /net/aspose.slides.charts/imultiplecellchartvalue/
 ---
 ## IMultipleCellChartValue interface

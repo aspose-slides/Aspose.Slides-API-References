@@ -1,7 +1,7 @@
 ---
 title: Spokes
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Number spokes of wheel transition. Read/write UInt32.
 type: docs
 weight: 10
 url: /net/aspose.slides.slideshow/wheeltransition/spokes/

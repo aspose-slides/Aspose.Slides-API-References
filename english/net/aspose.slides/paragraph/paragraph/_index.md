@@ -1,12 +1,12 @@
 ---
 title: Paragraph
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Initializes a new instance of the Paragraph class with default properties.
 type: docs
 weight: 10
 url: /net/aspose.slides/paragraph/paragraph/
 ---
-## Paragraph constructor (1 of 2)
+## Paragraph() {#constructor}
 
 Initializes a new instance of the Paragraph class with default properties.
 
@@ -22,7 +22,7 @@ public Paragraph()
 
 ---
 
-## Paragraph constructor (2 of 2)
+## Paragraph(Paragraph) {#constructor_1}
 
 Copy constructor that initializes a new instance of a Paragraph class.
 

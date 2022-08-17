@@ -1,12 +1,12 @@
 ---
 title: InsertClone
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Inserts a copy of a specified slide to specified position of the collection.
 type: docs
 weight: 120
 url: /net/aspose.slides/slidecollection/insertclone/
 ---
-## SlideCollection.InsertClone method (1 of 3)
+## InsertClone(int, ISlide) {#insertclone}
 
 Inserts a copy of a specified slide to specified position of the collection.
 
@@ -36,7 +36,7 @@ When cloning a slide between different presentations slide's master can be clone
 
 ---
 
-## SlideCollection.InsertClone method (2 of 3)
+## InsertClone(int, ISlide, ILayoutSlide) {#insertclone_1}
 
 Inserts a copy of a specified slide to specified position of the collection.
 
@@ -64,7 +64,7 @@ Inserted slide.
 
 ---
 
-## SlideCollection.InsertClone method (3 of 3)
+## InsertClone(int, ISlide, IMasterSlide, bool) {#insertclone_2}
 
 Inserts a copy of a specified source slide to specified position of the collection. Appropriate layout will be selected automatically from the specified master (appropriate layout is the layout with the same Type or Name as of layout of the source slide). If there is no appropriate layout then layout of the source slide will be cloned (if allowCloneMissingLayout is true) or PptxEditException will be thrown (if allowCloneMissingLayout is false).
 

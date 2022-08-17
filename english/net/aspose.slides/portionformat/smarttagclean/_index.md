@@ -1,7 +1,7 @@
 ---
 title: SmartTagClean
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Determines whether the smart tag should be cleaned. No inheritance applied. Read/write Boolean.
 type: docs
 weight: 60
 url: /net/aspose.slides/portionformat/smarttagclean/

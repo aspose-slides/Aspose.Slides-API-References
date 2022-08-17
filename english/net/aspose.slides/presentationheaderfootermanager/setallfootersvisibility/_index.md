@@ -1,7 +1,7 @@
 ---
 title: SetAllFootersVisibility
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Changes all footer placeholders visibility including master slides layout slides slides notes master notes slides and handout master.
 type: docs
 weight: 40
 url: /net/aspose.slides/presentationheaderfootermanager/setallfootersvisibility/

@@ -1,7 +1,7 @@
 ---
 title: Superscript
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Superscript
 type: docs
 weight: 30
 url: /net/aspose.slides.mathtext/mathleftsubsuperscriptelement/superscript/

@@ -1,7 +1,7 @@
 ---
 title: Data
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Read/write Object.
 type: docs
 weight: 10
 url: /net/aspose.slides.charts/ibasechartvalue/data/

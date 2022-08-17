@@ -1,12 +1,12 @@
 ---
 title: OleEmbeddedDataInfo
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates new embedded data info for OLE object.
 type: docs
 weight: 10
 url: /net/aspose.slides.dom.ole/oleembeddeddatainfo/oleembeddeddatainfo/
 ---
-## OleEmbeddedDataInfo constructor (1 of 2)
+## OleEmbeddedDataInfo() {#constructor}
 
 Creates new embedded data info for OLE object.
 
@@ -22,7 +22,7 @@ public OleEmbeddedDataInfo()
 
 ---
 
-## OleEmbeddedDataInfo constructor (2 of 2)
+## OleEmbeddedDataInfo(byte[], string) {#constructor_1}
 
 Creates a new instance of an embedded data info for OLE object. File data of an embedded OLE object Byte[].File extension for the current embedded OLE object String.
 

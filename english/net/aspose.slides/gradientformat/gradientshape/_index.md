@@ -1,7 +1,7 @@
 ---
 title: GradientShape
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets the shape of a gradient. Read/write GradientShapeaspose.slides/gradientshape.
 type: docs
 weight: 20
 url: /net/aspose.slides/gradientformat/gradientshape/

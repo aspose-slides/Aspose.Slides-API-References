@@ -1,9 +1,9 @@
 ---
 title: ChartPortionFormat
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: This class contains the chart portion formatting properties used in charts. Unlike IPortionFormatEffectiveData../aspose.slides/iportionformateffectivedata all properties of this class are writeable.
 type: docs
-weight: 1290
+weight: 1310
 url: /net/aspose.slides.charts/chartportionformat/
 ---
 ## ChartPortionFormat class

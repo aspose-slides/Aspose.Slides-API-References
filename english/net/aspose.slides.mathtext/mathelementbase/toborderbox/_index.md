@@ -1,12 +1,12 @@
 ---
 title: ToBorderBox
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Places this element in a border-box
 type: docs
 weight: 180
 url: /net/aspose.slides.mathtext/mathelementbase/toborderbox/
 ---
-## MathElementBase.ToBorderBox method (1 of 2)
+## ToBorderBox() {#toborderbox}
 
 Places this element in a border-box
 
@@ -36,7 +36,7 @@ IMathBorderBox borderBox = new MathematicalText("x+y+z").ToBorderBox();
 
 ---
 
-## MathElementBase.ToBorderBox method (2 of 2)
+## ToBorderBox(bool, bool, bool, bool, bool, bool, bool, bool) {#toborderbox_1}
 
 Places this element in a border-box
 

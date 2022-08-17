@@ -1,7 +1,7 @@
 ---
 title: SetSlideNumberVisibility
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Changes slide page number placeholder visibility.
 type: docs
 weight: 90
 url: /net/aspose.slides/ibaseslideheaderfootermanager/setslidenumbervisibility/

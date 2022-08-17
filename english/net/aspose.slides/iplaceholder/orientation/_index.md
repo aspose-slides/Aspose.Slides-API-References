@@ -1,7 +1,7 @@
 ---
 title: Orientation
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Gets the orientation of a placeholder. Read-only Orientationaspose.slides/orientation.
 type: docs
 weight: 20
 url: /net/aspose.slides/iplaceholder/orientation/

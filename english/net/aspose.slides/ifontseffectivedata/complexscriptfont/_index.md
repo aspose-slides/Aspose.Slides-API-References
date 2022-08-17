@@ -1,7 +1,7 @@
 ---
 title: ComplexScriptFont
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the complex script font. Read-only IFontDataaspose.slides/ifontdata.
 type: docs
 weight: 10
 url: /net/aspose.slides/ifontseffectivedata/complexscriptfont/

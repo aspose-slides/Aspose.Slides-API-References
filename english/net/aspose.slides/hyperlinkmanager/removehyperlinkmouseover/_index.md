@@ -1,7 +1,7 @@
 ---
 title: RemoveHyperlinkMouseOver
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Removes hyperlink mouse over.
 type: docs
 weight: 20
 url: /net/aspose.slides/hyperlinkmanager/removehyperlinkmouseover/

@@ -1,7 +1,7 @@
 ---
 title: ChartData
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns information about the linked or embedded data associated with a chart. Read-only IChartDataaspose.slides.charts/ichartdata.
 type: docs
 weight: 50
 url: /net/aspose.slides.charts/chart/chartdata/

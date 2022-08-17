@@ -1,7 +1,7 @@
 ---
 title: IndexOf
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns an index of the specified SummaryZoomSection object.
 type: docs
 weight: 100
 url: /net/aspose.slides/summaryzoomsectioncollection/indexof/

@@ -1,12 +1,12 @@
 ---
 title: AddAudio
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Adds a copy of an audio file from an another presentation.
 type: docs
 weight: 50
 url: /net/aspose.slides/audiocollection/addaudio/
 ---
-## AudioCollection.AddAudio method (1 of 4)
+## AddAudio(IAudio) {#addaudio}
 
 Adds a copy of an audio file from an another presentation.
 
@@ -31,7 +31,7 @@ Added audio.
 
 ---
 
-## AudioCollection.AddAudio method (2 of 4)
+## AddAudio(Stream) {#addaudio_2}
 
 Creates and adds a audio to a presentation from stream.
 
@@ -56,7 +56,7 @@ Added audio.
 
 ---
 
-## AudioCollection.AddAudio method (3 of 4)
+## AddAudio(Stream, LoadingStreamBehavior) {#addaudio_3}
 
 Creates and adds a audio to a presentation from stream.
 
@@ -83,7 +83,7 @@ Added audio.
 
 ---
 
-## AudioCollection.AddAudio method (4 of 4)
+## AddAudio(byte[]) {#addaudio_1}
 
 Creates and adds a audio to a presentation from byte array.
 

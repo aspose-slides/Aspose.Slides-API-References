@@ -1,7 +1,7 @@
 ---
 title: ExtrusionOrientationAngle
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents extrusion.orientationangle property
 type: docs
 weight: 80
 url: /net/aspose.slides.animation/behaviorproperty/extrusionorientationangle/

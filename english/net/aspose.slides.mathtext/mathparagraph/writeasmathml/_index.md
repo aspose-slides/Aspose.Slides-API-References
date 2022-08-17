@@ -1,7 +1,7 @@
 ---
 title: WriteAsMathMl
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Saves content of this MathParagraphaspose.slides.mathtext/mathparagraph as MathML
 type: docs
 weight: 120
 url: /net/aspose.slides.mathtext/mathparagraph/writeasmathml/

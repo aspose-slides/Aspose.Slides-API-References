@@ -1,7 +1,7 @@
 ---
 title: CompareTo
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Compares the current instance with another object of the same type.
 type: docs
 weight: 40
 url: /net/aspose.slides/tab/compareto/

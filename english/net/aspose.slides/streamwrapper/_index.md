@@ -1,9 +1,9 @@
 ---
 title: StreamWrapper
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Aspose.IO.Stream wrapper for COM interface.
 type: docs
-weight: 9940
+weight: 9990
 url: /net/aspose.slides/streamwrapper/
 ---
 ## StreamWrapper class

@@ -1,7 +1,7 @@
 ---
 title: Rows
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the collectoin of rows. Read-only IRowCollectionaspose.slides/irowcollection.
 type: docs
 weight: 90
 url: /net/aspose.slides/table/rows/

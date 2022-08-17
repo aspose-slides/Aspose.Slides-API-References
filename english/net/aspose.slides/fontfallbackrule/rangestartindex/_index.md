@@ -1,7 +1,7 @@
 ---
 title: RangeStartIndex
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Get first index of continuous unicode range.
 type: docs
 weight: 50
 url: /net/aspose.slides/fontfallbackrule/rangestartindex/

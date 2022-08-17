@@ -1,7 +1,7 @@
 ---
 title: Media
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns a special play mediafile hyperlink. Used in AudioFrame and VideoFrame. Read-only Hyperlinkaspose.slides/hyperlink.
 type: docs
 weight: 60
 url: /net/aspose.slides/hyperlink/media/

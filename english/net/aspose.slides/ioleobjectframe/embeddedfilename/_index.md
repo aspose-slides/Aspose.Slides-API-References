@@ -1,7 +1,7 @@
 ---
 title: EmbeddedFileName
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the path of embedded OLE object
 type: docs
 weight: 40
 url: /net/aspose.slides/ioleobjectframe/embeddedfilename/

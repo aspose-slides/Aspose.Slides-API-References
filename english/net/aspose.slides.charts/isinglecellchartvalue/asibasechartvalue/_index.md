@@ -1,7 +1,7 @@
 ---
 title: AsIBaseChartValue
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Allows to get base IBaseChartValue interface. Read-only IBaseChartValueaspose.slides.charts/ibasechartvalue.
 type: docs
 weight: 20
 url: /net/aspose.slides.charts/isinglecellchartvalue/asibasechartvalue/

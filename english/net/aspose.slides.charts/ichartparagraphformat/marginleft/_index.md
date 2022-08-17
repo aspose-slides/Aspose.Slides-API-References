@@ -1,7 +1,7 @@
 ---
 title: MarginLeft
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets the left margin in a paragraph. Read/write Single.
 type: docs
 weight: 80
 url: /net/aspose.slides.charts/ichartparagraphformat/marginleft/

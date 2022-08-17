@@ -1,9 +1,9 @@
 ---
 title: FontFallBackRule
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents font fallback rule
 type: docs
-weight: 4400
+weight: 4420
 url: /net/aspose.slides/fontfallbackrule/
 ---
 ## FontFallBackRule class
@@ -18,8 +18,8 @@ public class FontFallBackRule : IFontFallBackRule
 
 | Name | Description |
 | --- | --- |
-| [FontFallBackRule](fontfallbackrule)(uint, uint, string) | Creates new instance. |
-| [FontFallBackRule](fontfallbackrule)(uint, uint, string[]) | Creates new instance. |
+| [FontFallBackRule](fontfallbackrule#constructor)(uint, uint, string) | Creates new instance. |
+| [FontFallBackRule](fontfallbackrule#constructor_1)(uint, uint, string[]) | Creates new instance. |
 
 ## Properties
 
@@ -34,14 +34,14 @@ public class FontFallBackRule : IFontFallBackRule
 
 | Name | Description |
 | --- | --- |
-| [AddFallBackFonts](../../aspose.slides/fontfallbackrule/addfallbackfonts)(string) | Adds a new font(s) to the list of FallBack fonts. |
-| [AddFallBackFonts](../../aspose.slides/fontfallbackrule/addfallbackfonts)(string[]) | Adds a new fonts to the list of FallBack fonts. |
+| [AddFallBackFonts](../../aspose.slides/fontfallbackrule/addfallbackfonts#addfallbackfonts)(string) | Adds a new font(s) to the list of FallBack fonts. |
+| [AddFallBackFonts](../../aspose.slides/fontfallbackrule/addfallbackfonts#addfallbackfonts_1)(string[]) | Adds a new fonts to the list of FallBack fonts. |
 | [Clear](../../aspose.slides/fontfallbackrule/clear)() | Removes all fonts from the list. |
 | [IndexOf](../../aspose.slides/fontfallbackrule/indexof)(string) | Returns an index of the specified rule in the collection. |
 | [Remove](../../aspose.slides/fontfallbackrule/remove)(string) | Removes the first occurrence of a specific FallBack font from the list. |
 | [RemoveAt](../../aspose.slides/fontfallbackrule/removeat)(int) | Removes the FallBack font at the specified index of the list. |
-| [ToArray](../../aspose.slides/fontfallbackrule/toarray)() | Creates and returns an array with all FallBack fonts for this rule. |
-| [ToArray](../../aspose.slides/fontfallbackrule/toarray)(int, int) | Creates and returns an array with all FallBack fonts from the specified range in list. |
+| [ToArray](../../aspose.slides/fontfallbackrule/toarray#toarray)() | Creates and returns an array with all FallBack fonts for this rule. |
+| [ToArray](../../aspose.slides/fontfallbackrule/toarray#toarray_1)(int, int) | Creates and returns an array with all FallBack fonts from the specified range in list. |
 
 ### See Also
 

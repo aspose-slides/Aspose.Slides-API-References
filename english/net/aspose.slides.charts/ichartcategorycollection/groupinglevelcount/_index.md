@@ -1,7 +1,7 @@
 ---
 title: GroupingLevelCount
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns count of category grouping levels used. Is more then one for multilevel categories. Read-only Int32.
 type: docs
 weight: 10
 url: /net/aspose.slides.charts/ichartcategorycollection/groupinglevelcount/

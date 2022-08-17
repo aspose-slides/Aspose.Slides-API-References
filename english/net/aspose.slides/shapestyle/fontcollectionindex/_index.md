@@ -1,7 +1,7 @@
 ---
 title: FontCollectionIndex
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets shapes font index in a font collection. Read/write FontCollectionIndexaspose.slides/fontcollectionindex.
 type: docs
 weight: 50
 url: /net/aspose.slides/shapestyle/fontcollectionindex/

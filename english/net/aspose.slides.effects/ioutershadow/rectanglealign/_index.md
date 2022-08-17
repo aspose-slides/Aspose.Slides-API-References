@@ -1,7 +1,7 @@
 ---
 title: RectangleAlign
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Rectangle alignment. Read/write RectangleAlignmentaspose.slides/rectanglealignment.
 type: docs
 weight: 60
 url: /net/aspose.slides.effects/ioutershadow/rectanglealign/

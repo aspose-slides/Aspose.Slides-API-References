@@ -1,7 +1,7 @@
 ---
 title: RootDirectoryClsid
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents the object class GUID CLSID that is stored in the root directory entry. Can be used for COM activation of the documents application. The default value is 64818D11-4F9B-11CF-86EA-00AA00B929E8 that corresponds to Microsoft Powerpoint.Slide.8.
 type: docs
 weight: 20
 url: /net/aspose.slides.export/pptoptions/rootdirectoryclsid/

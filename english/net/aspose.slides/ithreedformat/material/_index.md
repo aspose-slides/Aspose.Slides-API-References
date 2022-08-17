@@ -1,7 +1,7 @@
 ---
 title: Material
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets the type of a material. Read/write MaterialPresetTypeaspose.slides/materialpresettype.
 type: docs
 weight: 110
 url: /net/aspose.slides/ithreedformat/material/

@@ -1,7 +1,7 @@
 ---
 title: Add
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Add new interactive sequence.
 type: docs
 weight: 40
 url: /net/aspose.slides.animation/isequencecollection/add/

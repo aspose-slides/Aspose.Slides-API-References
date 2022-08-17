@@ -1,7 +1,7 @@
 ---
 title: Character
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Grouping Character Default value U23DF BOTTOM CURLY BRACKET
 type: docs
 weight: 30
 url: /net/aspose.slides.mathtext/mathgroupingcharacter/character/

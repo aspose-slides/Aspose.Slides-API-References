@@ -1,7 +1,7 @@
 ---
 title: CheckPassword
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Checks whether a password is correct for a presentation protected with open password.
 type: docs
 weight: 50
 url: /net/aspose.slides/presentationinfo/checkpassword/

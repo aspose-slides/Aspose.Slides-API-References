@@ -1,7 +1,7 @@
 ---
 title: Item
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Gets the element at the specified index. Read-only Trendlineaspose.slides.charts/trendline.
 type: docs
 weight: 20
 url: /net/aspose.slides.charts/trendlinecollection/item/

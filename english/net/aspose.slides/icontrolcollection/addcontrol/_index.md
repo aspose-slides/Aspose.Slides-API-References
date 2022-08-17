@@ -1,7 +1,7 @@
 ---
 title: AddControl
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates and adds a new control to the collection.
 type: docs
 weight: 20
 url: /net/aspose.slides/icontrolcollection/addcontrol/

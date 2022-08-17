@@ -1,9 +1,9 @@
 ---
 title: Trendline
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Class represents trend line of chart series
 type: docs
-weight: 2330
+weight: 2350
 url: /net/aspose.slides.charts/trendline/
 ---
 ## Trendline class

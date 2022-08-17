@@ -1,7 +1,7 @@
 ---
 title: Write
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Writes the file content to the stream.
 type: docs
 weight: 10
 url: /net/aspose.slides.export.web/outputfile/write/

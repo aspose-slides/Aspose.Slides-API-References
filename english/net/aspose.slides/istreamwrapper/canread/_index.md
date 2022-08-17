@@ -1,7 +1,7 @@
 ---
 title: CanRead
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Gets a value indicating whether the current stream supports reading. Read-only Boolean.
 type: docs
 weight: 20
 url: /net/aspose.slides/istreamwrapper/canread/

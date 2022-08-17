@@ -1,7 +1,7 @@
 ---
 title: DisplayBlanksAs
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets the way to plot blank cells on a chart. Read/write DisplayBlanksAsTypeaspose.slides.charts/displayblanksastype.
 type: docs
 weight: 90
 url: /net/aspose.slides.charts/ichart/displayblanksas/

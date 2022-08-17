@@ -1,7 +1,7 @@
 ---
 title: Equals
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Checks if this field is equal to another.
 type: docs
 weight: 200
 url: /net/aspose.slides/fieldtype/equals/

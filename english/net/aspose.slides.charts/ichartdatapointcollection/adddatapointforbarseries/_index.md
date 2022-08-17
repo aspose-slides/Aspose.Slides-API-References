@@ -1,12 +1,12 @@
 ---
 title: AddDataPointForBarSeries
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Column or Bar subtypes see also ChartTypeCharacterizer.IsChartTypeColumnChartType and ChartTypeCharacterizer.IsChartTypeBarChartType method.
 type: docs
 weight: 80
 url: /net/aspose.slides.charts/ichartdatapointcollection/adddatapointforbarseries/
 ---
-## IChartDataPointCollection.AddDataPointForBarSeries method (1 of 2)
+## AddDataPointForBarSeries(IChartDataCell) {#adddatapointforbarseries}
 
 Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Column or Bar subtypes (see also ChartTypeCharacterizer.IsChartTypeColumn(ChartType) and ChartTypeCharacterizer.IsChartTypeBar(ChartType) method).
 
@@ -32,7 +32,7 @@ New data point.
 
 ---
 
-## IChartDataPointCollection.AddDataPointForBarSeries method (2 of 2)
+## AddDataPointForBarSeries(double) {#adddatapointforbarseries_1}
 
 Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Column or Bar subtypes (see also ChartTypeCharacterizer.IsChartTypeColumn(ChartType) and ChartTypeCharacterizer.IsChartTypeBar(ChartType) method).
 

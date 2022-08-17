@@ -1,7 +1,7 @@
 ---
 title: Type
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets the bullet type of a paragraph with no inheritance. Read/write BulletTypeaspose.slides/bullettype.
 type: docs
 weight: 100
 url: /net/aspose.slides/bulletformat/type/

@@ -1,12 +1,12 @@
 ---
 title: MathFraction
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Initializes MathFraction with the specified numerator denominator and type
 type: docs
 weight: 10
 url: /net/aspose.slides.mathtext/mathfraction/mathfraction/
 ---
-## MathFraction constructor (1 of 2)
+## MathFraction(IMathElement, IMathElement, MathFractionTypes) {#constructor_1}
 
 Initializes MathFraction with the specified numerator, denominator and type
 
@@ -40,7 +40,7 @@ MathFraction mathFraction = new MathFraction(new MathematicalText("x"), new Math
 
 ---
 
-## MathFraction constructor (2 of 2)
+## MathFraction(IMathElement, IMathElement) {#constructor}
 
 Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
 

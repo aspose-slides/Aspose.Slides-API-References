@@ -1,7 +1,7 @@
 ---
 title: Dpi
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the dpi which is used to fill a picture. Read-only Int32.
 type: docs
 weight: 60
 url: /net/aspose.slides/ipicturefillformateffectivedata/dpi/

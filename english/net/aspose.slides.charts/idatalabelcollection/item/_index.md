@@ -1,7 +1,7 @@
 ---
 title: Item
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Gets the data label for the data point with the specified index.
 type: docs
 weight: 70
 url: /net/aspose.slides.charts/idatalabelcollection/item/

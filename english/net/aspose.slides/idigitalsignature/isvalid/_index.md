@@ -1,7 +1,7 @@
 ---
 title: IsValid
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: If this digital signature is valid and the document has not been tampered with this value will be true. Read-only Boolean.
 type: docs
 weight: 30
 url: /net/aspose.slides/idigitalsignature/isvalid/

@@ -1,7 +1,7 @@
 ---
 title: SkewOn
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents skew.on property
 type: docs
 weight: 850
 url: /net/aspose.slides.animation/behaviorproperty/skewon/

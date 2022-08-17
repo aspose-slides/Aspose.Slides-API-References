@@ -1,7 +1,7 @@
 ---
 title: FontSubstRuleList
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Font substitutions to use when rendering Read/write IFontSubstRuleCollectionaspose.slides/ifontsubstrulecollection.
 type: docs
 weight: 20
 url: /net/aspose.slides/ifontsmanager/fontsubstrulelist/

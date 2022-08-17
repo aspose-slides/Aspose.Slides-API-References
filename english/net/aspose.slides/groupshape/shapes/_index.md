@@ -1,7 +1,7 @@
 ---
 title: Shapes
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the collection of shapes inside the group. Read-only IShapeCollectionaspose.slides/ishapecollection.
 type: docs
 weight: 50
 url: /net/aspose.slides/groupshape/shapes/

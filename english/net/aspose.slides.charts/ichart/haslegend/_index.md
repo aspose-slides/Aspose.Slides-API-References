@@ -1,7 +1,7 @@
 ---
 title: HasLegend
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Determines whether a chart has a legend. Read/write Boolean.
 type: docs
 weight: 120
 url: /net/aspose.slides.charts/ichart/haslegend/

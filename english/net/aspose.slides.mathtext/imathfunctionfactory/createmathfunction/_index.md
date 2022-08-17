@@ -1,12 +1,12 @@
 ---
 title: CreateMathFunction
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates math function
 type: docs
 weight: 10
 url: /net/aspose.slides.mathtext/imathfunctionfactory/createmathfunction/
 ---
-## IMathFunctionFactory.CreateMathFunction method (1 of 2)
+## CreateMathFunction(IMathElement, IMathElement) {#createmathfunction}
 
 Creates math function
 
@@ -33,7 +33,7 @@ new math function
 
 ---
 
-## IMathFunctionFactory.CreateMathFunction method (2 of 2)
+## CreateMathFunction(string, IMathElement) {#createmathfunction_1}
 
 Creates math function
 

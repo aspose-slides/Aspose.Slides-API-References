@@ -1,7 +1,7 @@
 ---
 title: Reference
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Gets a circular cell reference.
 type: docs
 weight: 20
 url: /net/aspose.slides.spreadsheet/cellcircularreferenceexception/reference/

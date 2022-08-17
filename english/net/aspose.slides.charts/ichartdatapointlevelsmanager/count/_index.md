@@ -1,7 +1,7 @@
 ---
 title: Count
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns data point levels count.
 type: docs
 weight: 10
 url: /net/aspose.slides.charts/ichartdatapointlevelsmanager/count/

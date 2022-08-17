@@ -1,12 +1,12 @@
 ---
 title: SetSize
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Sets the type of slide size and scales content using scale type. Assigning any value except Custom will change Sizeaspose.slides/slidesize/size accordingly but will keep Orientationaspose.slides/slidesize/orientation intact.
 type: docs
 weight: 40
 url: /net/aspose.slides/slidesize/setsize/
 ---
-## SlideSize.SetSize method (1 of 2)
+## SetSize(SlideSizeType, SlideSizeScaleType) {#setsize}
 
 Sets the type of slide size and scales content using scale type. Assigning any value except Custom will change [`Size`](../size) accordingly, but will keep [`Orientation`](../orientation) intact.
 
@@ -29,7 +29,7 @@ public void SetSize(SlideSizeType type, SlideSizeScaleType scaleType)
 
 ---
 
-## SlideSize.SetSize method (2 of 2)
+## SetSize(float, float, SlideSizeScaleType) {#setsize_1}
 
 Sets the size in points and scales content using scale type. Assigning any value will reset [`Type`](../type) property to Custom and set [`Orientation`](../orientation).
 

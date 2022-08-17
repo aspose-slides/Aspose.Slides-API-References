@@ -1,7 +1,7 @@
 ---
 title: Delimit
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Delimits child elements with separator character without the brackets
 type: docs
 weight: 90
 url: /net/aspose.slides.mathtext/mathblock/delimit/

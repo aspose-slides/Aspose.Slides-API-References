@@ -1,9 +1,9 @@
 ---
 title: MathDelimiterFactory
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Allows to create a math delimiter
 type: docs
-weight: 7940
+weight: 7960
 url: /net/aspose.slides.mathtext/mathdelimiterfactory/
 ---
 ## MathDelimiterFactory class
@@ -24,8 +24,8 @@ public class MathDelimiterFactory : IMathDelimiterFactory
 
 | Name | Description |
 | --- | --- |
-| [CreateMathDelimiter](../../aspose.slides.mathtext/mathdelimiterfactory/createmathdelimiter)(IMathElement) | Create a math delimiter by applying to the element |
-| [CreateMathDelimiter](../../aspose.slides.mathtext/mathdelimiterfactory/createmathdelimiter)(IMathElementCollection) | Create a math delimiter by applying to the element |
+| [CreateMathDelimiter](../../aspose.slides.mathtext/mathdelimiterfactory/createmathdelimiter#createmathdelimiter)(IMathElement) | Create a math delimiter by applying to the element |
+| [CreateMathDelimiter](../../aspose.slides.mathtext/mathdelimiterfactory/createmathdelimiter#createmathdelimiter_1)(IMathElementCollection) | Create a math delimiter by applying to the element |
 
 ### Remarks
 

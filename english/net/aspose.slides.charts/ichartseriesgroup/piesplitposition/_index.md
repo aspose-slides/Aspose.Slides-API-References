@@ -1,7 +1,7 @@
 ---
 title: PieSplitPosition
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Specifies a value that shall be used to determine which data points are in the second pie or bar on a pie-of-pie or bar-of-pie chart. Is used together with PieSplitBy property. Read/write Double.
 type: docs
 weight: 150
 url: /net/aspose.slides.charts/ichartseriesgroup/piesplitposition/

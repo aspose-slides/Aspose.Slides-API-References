@@ -1,7 +1,7 @@
 ---
 title: Series
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Gets the series. Read-only IChartSeriesCollectionaspose.slides.charts/ichartseriescollection.
 type: docs
 weight: 60
 url: /net/aspose.slides.charts/ichartdata/series/

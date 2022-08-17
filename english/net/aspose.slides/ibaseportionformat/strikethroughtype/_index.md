@@ -1,7 +1,7 @@
 ---
 title: StrikethroughType
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets the strikethrough type of a text. No inheritance applied. Read/write TextStrikethroughTypeaspose.slides/textstrikethroughtype.
 type: docs
 weight: 220
 url: /net/aspose.slides/ibaseportionformat/strikethroughtype/

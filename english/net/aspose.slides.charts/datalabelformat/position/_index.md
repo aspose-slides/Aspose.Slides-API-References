@@ -1,7 +1,7 @@
 ---
 title: Position
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents the position of the data label. Read/write LegendDataLabelPositionaspose.slides.charts/legenddatalabelposition.
 type: docs
 weight: 50
 url: /net/aspose.slides.charts/datalabelformat/position/

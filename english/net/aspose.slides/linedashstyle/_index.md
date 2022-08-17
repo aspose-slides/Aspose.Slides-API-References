@@ -1,9 +1,9 @@
 ---
 title: LineDashStyle
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents the line dash style.
 type: docs
-weight: 7070
+weight: 7090
 url: /net/aspose.slides/linedashstyle/
 ---
 ## LineDashStyle enumeration

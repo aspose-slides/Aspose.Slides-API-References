@@ -1,7 +1,7 @@
 ---
 title: WriteAllFonts
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Write all fonts contained in Presentationaspose.slides/presentation.
 type: docs
 weight: 20
 url: /net/aspose.slides.export/embedallfontshtmlcontroller/writeallfonts/

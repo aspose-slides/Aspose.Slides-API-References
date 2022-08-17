@@ -1,7 +1,7 @@
 ---
 title: ActualBulletValue
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns actual bullet value for parent paragraph. Read-only String.
 type: docs
 weight: 10
 url: /net/aspose.slides/ibulletformateffectivedata/actualbulletvalue/
