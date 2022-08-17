@@ -1,7 +1,7 @@
 ---
 title: UpDownBars
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Provede access to up/down bars of Line- or Stock-chart. Read-only IUpDownBarsManageraspose.slides.charts/iupdownbarsmanager.
 type: docs
 weight: 200
 url: /net/aspose.slides.charts/ichartseriesgroup/updownbars/

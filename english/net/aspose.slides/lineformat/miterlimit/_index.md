@@ -1,7 +1,7 @@
 ---
 title: MiterLimit
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets the miter limit of a line. Read/write Single.
 type: docs
 weight: 140
 url: /net/aspose.slides/lineformat/miterlimit/

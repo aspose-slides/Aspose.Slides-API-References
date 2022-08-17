@@ -1,7 +1,7 @@
 ---
 title: IsLogarithmic
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents if the value axis scale type is logarithmic or not. Read/write Boolean.
 type: docs
 weight: 260
 url: /net/aspose.slides.charts/iaxis/islogarithmic/

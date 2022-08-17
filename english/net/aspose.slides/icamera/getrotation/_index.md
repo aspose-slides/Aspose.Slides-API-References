@@ -1,7 +1,7 @@
 ---
 title: GetRotation
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: A rotation is defined through the use of a latitude coordinate a longitude coordinate and a revolution about the axis as the latitude and longitude coordinates. first element in return array - latitude second - longitude third - revolution. Returns null if no rotation defined.
 type: docs
 weight: 40
 url: /net/aspose.slides/icamera/getrotation/
@@ -14,7 +14,7 @@ A rotation is defined through the use of a latitude coordinate, a longitude coor
 public float[] GetRotation()
 ```
 
-## Return Value
+### Return Value
 
 Array of rotation values as Single[].
 

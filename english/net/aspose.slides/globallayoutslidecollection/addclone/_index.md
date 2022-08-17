@@ -1,12 +1,12 @@
 ---
 title: AddClone
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Adds a copy of a specified layout slide to the presentation.
 type: docs
 weight: 20
 url: /net/aspose.slides/globallayoutslidecollection/addclone/
 ---
-## GlobalLayoutSlideCollection.AddClone method (1 of 2)
+## AddClone(ILayoutSlide) {#addclone}
 
 Adds a copy of a specified layout slide to the presentation.
 
@@ -18,7 +18,7 @@ public ILayoutSlide AddClone(ILayoutSlide sourceLayout)
 | --- | --- | --- |
 | sourceLayout | ILayoutSlide | Slide to clone. |
 
-## Return Value
+### Return Value
 
 Added slide.
 
@@ -35,7 +35,7 @@ When cloning a layout between different presentations layout's master can be clo
 
 ---
 
-## GlobalLayoutSlideCollection.AddClone method (2 of 2)
+## AddClone(ILayoutSlide, IMasterSlide) {#addclone_1}
 
 Adds a copy of a specified layout slide to the presentation.
 
@@ -48,7 +48,7 @@ public ILayoutSlide AddClone(ILayoutSlide sourceLayout, IMasterSlide destMaster)
 | sourceLayout | ILayoutSlide | Slide to clone. |
 | destMaster | IMasterSlide | Master slide for a new layout. |
 
-## Return Value
+### Return Value
 
 Added slide.
 

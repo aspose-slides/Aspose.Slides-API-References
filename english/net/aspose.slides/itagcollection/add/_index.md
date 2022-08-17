@@ -1,7 +1,7 @@
 ---
 title: Add
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Adds a new tag to collection.
 type: docs
 weight: 20
 url: /net/aspose.slides/itagcollection/add/
@@ -19,7 +19,7 @@ public int Add(string name, string value)
 | name | String | The name of the tag. |
 | value | String | The value of the tag. |
 
-## Return Value
+### Return Value
 
 The index of the added tag.
 

@@ -1,7 +1,7 @@
 ---
 title: Threshold
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns effect threshold. Read/write Single.
 type: docs
 weight: 30
 url: /net/aspose.slides.effects/ialphabilevel/threshold/

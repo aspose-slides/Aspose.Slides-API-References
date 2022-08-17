@@ -1,7 +1,7 @@
 ---
 title: X
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Specifies the x location left of the chart element as a fraction of the width of the chart. Read/write Single.
 type: docs
 weight: 60
 url: /net/aspose.slides.charts/ilayoutable/x/

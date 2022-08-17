@@ -1,7 +1,7 @@
 ---
 title: DisablePresetShadowEffect
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Disables preset shadow effect.
 type: docs
 weight: 150
 url: /net/aspose.slides/effectformat/disablepresetshadoweffect/

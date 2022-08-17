@@ -1,7 +1,7 @@
 ---
 title: GetEffective
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Gets effective 3-D formatting data with the inheritance applied.
 type: docs
 weight: 120
 url: /net/aspose.slides/ithreedformat/geteffective/
@@ -14,7 +14,7 @@ Gets effective 3-D formatting data with the inheritance applied.
 public IThreeDFormatEffectiveData GetEffective()
 ```
 
-## Return Value
+### Return Value
 
 A [`IThreeDFormatEffectiveData`](../../ithreedformateffectivedata).
 

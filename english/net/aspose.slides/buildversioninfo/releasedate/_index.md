@@ -1,7 +1,7 @@
 ---
 title: ReleaseDate
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Release date of the assembly.
 type: docs
 weight: 60
 url: /net/aspose.slides/buildversioninfo/releasedate/

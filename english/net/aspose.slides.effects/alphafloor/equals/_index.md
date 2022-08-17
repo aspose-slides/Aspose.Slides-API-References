@@ -1,7 +1,7 @@
 ---
 title: Equals
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Determines whether the specified AlphaFlooraspose.slides.effects/alphafloor is equal to the current AlphaFlooraspose.slides.effects/alphafloor.
 type: docs
 weight: 10
 url: /net/aspose.slides.effects/alphafloor/equals/
@@ -18,7 +18,7 @@ public override bool Equals(object obj)
 | --- | --- | --- |
 | obj | Object | The [`AlphaFloor`](../../alphafloor) to compare. |
 
-## Return Value
+### Return Value
 
 true if objects are equal; otherwise, false.
 

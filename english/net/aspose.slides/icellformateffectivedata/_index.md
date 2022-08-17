@@ -1,9 +1,9 @@
 ---
 title: ICellFormatEffectiveData
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Immutable object which contains effective table cell formatting properties.
 type: docs
-weight: 4980
+weight: 5000
 url: /net/aspose.slides/icellformateffectivedata/
 ---
 ## ICellFormatEffectiveData interface

@@ -1,9 +1,9 @@
 ---
 title: ICellFormat
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents format of a table cell.
 type: docs
-weight: 4970
+weight: 4990
 url: /net/aspose.slides/icellformat/
 ---
 ## ICellFormat interface

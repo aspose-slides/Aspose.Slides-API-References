@@ -1,7 +1,7 @@
 ---
 title: EastAsianFont
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets the East Asian font info. Null means font is undefined and should be inherited from the Master. Read/write IFontDataaspose.slides/ifontdata.
 type: docs
 weight: 30
 url: /net/aspose.slides/baseportionformat/eastasianfont/

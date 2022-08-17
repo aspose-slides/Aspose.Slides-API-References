@@ -1,7 +1,7 @@
 ---
 title: IsAutomaticMinValue
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Indicates whether the min value is automatically assigned. Read/write Boolean.
 type: docs
 weight: 210
 url: /net/aspose.slides.charts/iaxis/isautomaticminvalue/

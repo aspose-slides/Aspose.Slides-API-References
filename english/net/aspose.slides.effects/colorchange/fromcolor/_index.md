@@ -1,7 +1,7 @@
 ---
 title: FromColor
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Color which will be replaced. Read-only IColorFormataspose.slides/icolorformat.
 type: docs
 weight: 10
 url: /net/aspose.slides.effects/colorchange/fromcolor/

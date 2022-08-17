@@ -1,7 +1,7 @@
 ---
 title: SetRotation
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: A rotation is defined through the use of a latitude coordinate a longitude coordinate and a revolution about the axis as the latitude and longitude coordinates.
 type: docs
 weight: 40
 url: /net/aspose.slides/ilightrig/setrotation/

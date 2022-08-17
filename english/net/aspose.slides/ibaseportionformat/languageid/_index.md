@@ -1,7 +1,7 @@
 ---
 title: LanguageId
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets the Id of a proofing language. Used for checking spelling and grammar. Read/write String.
 type: docs
 weight: 160
 url: /net/aspose.slides/ibaseportionformat/languageid/

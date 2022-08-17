@@ -1,7 +1,7 @@
 ---
 title: AlignmentPoint
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: When true this operator emulator serves as an alignment point that is designated alignment points in other equations can be aligned with it. Default false
 type: docs
 weight: 20
 url: /net/aspose.slides.mathtext/mathbox/alignmentpoint/

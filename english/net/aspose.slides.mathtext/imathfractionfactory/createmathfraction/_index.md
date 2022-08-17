@@ -1,12 +1,12 @@
 ---
 title: CreateMathFraction
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates a math fraction
 type: docs
 weight: 10
 url: /net/aspose.slides.mathtext/imathfractionfactory/createmathfraction/
 ---
-## IMathFractionFactory.CreateMathFraction method (1 of 2)
+## CreateMathFraction(IMathElement, IMathElement, MathFractionTypes) {#createmathfraction_1}
 
 Creates a math fraction
 
@@ -21,7 +21,7 @@ public IMathFraction CreateMathFraction(IMathElement numerator, IMathElement den
 | denominator | IMathElement | Denominator |
 | fractionType | MathFractionTypes | Fraction type |
 
-## Return Value
+### Return Value
 
 New math fraction [`IMathFraction`](../../imathfraction)
 
@@ -36,7 +36,7 @@ New math fraction [`IMathFraction`](../../imathfraction)
 
 ---
 
-## IMathFractionFactory.CreateMathFraction method (2 of 2)
+## CreateMathFraction(IMathElement, IMathElement) {#createmathfraction}
 
 Creates a math fraction
 
@@ -49,7 +49,7 @@ public IMathFraction CreateMathFraction(IMathElement numerator, IMathElement den
 | numerator | IMathElement | Numerator |
 | denominator | IMathElement | Denominator |
 
-## Return Value
+### Return Value
 
 New math fraction [`IMathFraction`](../../imathfraction)
 

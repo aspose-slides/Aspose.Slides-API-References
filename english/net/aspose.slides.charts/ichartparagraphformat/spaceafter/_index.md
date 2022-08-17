@@ -1,7 +1,7 @@
 ---
 title: SpaceAfter
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets the amount of space after the last line in a paragraph. Read/write Single.
 type: docs
 weight: 110
 url: /net/aspose.slides.charts/ichartparagraphformat/spaceafter/

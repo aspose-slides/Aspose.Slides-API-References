@@ -1,7 +1,7 @@
 ---
 title: IsHidden
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns true if this node is a hidden node in the data model. Read-only Boolean.
 type: docs
 weight: 40
 url: /net/aspose.slides.smartart/smartartnode/ishidden/

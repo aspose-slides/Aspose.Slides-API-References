@@ -1,7 +1,7 @@
 ---
 title: B
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets the blue component of a color. All color transformations are ignored. Read/write Byte.
 type: docs
 weight: 20
 url: /net/aspose.slides/icolorformat/b/

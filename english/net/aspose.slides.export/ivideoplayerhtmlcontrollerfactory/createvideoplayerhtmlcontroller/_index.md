@@ -1,7 +1,7 @@
 ---
 title: CreateVideoPlayerHtmlController
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Create video player HTML controller.
 type: docs
 weight: 10
 url: /net/aspose.slides.export/ivideoplayerhtmlcontrollerfactory/createvideoplayerhtmlcontroller/
@@ -21,7 +21,7 @@ public IVideoPlayerHtmlController CreateVideoPlayerHtmlController(string path, s
 | fileName | String | File Name. |
 | baseUri | String | Base URI. |
 
-## Return Value
+### Return Value
 
 Video player HTML controller [`IVideoPlayerHtmlController`](../../ivideoplayerhtmlcontroller)
 

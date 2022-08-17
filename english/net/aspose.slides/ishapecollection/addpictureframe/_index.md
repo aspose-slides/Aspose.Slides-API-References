@@ -1,7 +1,7 @@
 ---
 title: AddPictureFrame
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates a new PictureFrame and adds it to the end of the collection.
 type: docs
 weight: 130
 url: /net/aspose.slides/ishapecollection/addpictureframe/
@@ -24,7 +24,7 @@ public IPictureFrame AddPictureFrame(ShapeType shapeType, float x, float y, floa
 | height | Single | The height of shape's frame. |
 | image | IPPImage | The image of picture frame. |
 
-## Return Value
+### Return Value
 
 Created PictureFrame object.
 

@@ -1,12 +1,12 @@
 ---
 title: InsertAutoShape
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates a new AutoShape tunes it from default template and inserts it to the collection at the specified index. Note the type of the shape will be determined by the shapeType parameter.
 type: docs
 weight: 300
 url: /net/aspose.slides/shapecollection/insertautoshape/
 ---
-## ShapeCollection.InsertAutoShape method (1 of 2)
+## InsertAutoShape(int, ShapeType, float, float, float, float) {#insertautoshape}
 
 Creates a new AutoShape, tunes it from default template and inserts it to the collection at the specified index. Note: the type of the shape will be determined by the shapeType parameter.
 
@@ -24,7 +24,7 @@ public IAutoShape InsertAutoShape(int index, ShapeType shapeType, float x, float
 | width | Single | The width of shape's frame. |
 | height | Single | The height of shape's frame. |
 
-## Return Value
+### Return Value
 
 Created AutoShape object.
 
@@ -38,7 +38,7 @@ Created AutoShape object.
 
 ---
 
-## ShapeCollection.InsertAutoShape method (2 of 2)
+## InsertAutoShape(int, ShapeType, float, float, float, float, bool) {#insertautoshape_1}
 
 Creates a new AutoShape and inserts it to the collection at the specified index. Note: the type of the shape will be determined by the shapeType parameter.
 
@@ -57,7 +57,7 @@ public IAutoShape InsertAutoShape(int index, ShapeType shapeType, float x, float
 | height | Single | The height of shape's frame. |
 | createFromTemplate | Boolean | If true then new shape will be tuned from default template. Not empty name, simple style, text centered will be assined to the new shape. If false then all values of the properties of the new shape will have default values. |
 
-## Return Value
+### Return Value
 
 Created AutoShape object.
 

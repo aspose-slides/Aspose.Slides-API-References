@@ -1,12 +1,12 @@
 ---
 title: AddChart
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates a new Chart initialize it with sample series data and settings and adds it to the end of the collection.
 type: docs
 weight: 70
 url: /net/aspose.slides/ishapecollection/addchart/
 ---
-## IShapeCollection.AddChart method (1 of 2)
+## AddChart(ChartType, float, float, float, float) {#addchart}
 
 Creates a new Chart, initialize it with sample series data and settings and adds it to the end of the collection.
 
@@ -22,7 +22,7 @@ public IChart AddChart(ChartType type, float x, float y, float width, float heig
 | width | Single | Chart's width. |
 | height | Single | Chart's height. |
 
-## Return Value
+### Return Value
 
 Created chart.
 
@@ -36,7 +36,7 @@ Created chart.
 
 ---
 
-## IShapeCollection.AddChart method (2 of 2)
+## AddChart(ChartType, float, float, float, float, bool) {#addchart_1}
 
 Creates a new Chart and adds it to the end of the collection.
 
@@ -54,7 +54,7 @@ public IChart AddChart(ChartType type, float x, float y, float width, float heig
 | height | Single | Chart's height. |
 | initWithSample | Boolean | If true then new chart will be initialized with sample series data and settings. If false then new chart will have no series and minimum settings. In this case chart creation will be more fast. |
 
-## Return Value
+### Return Value
 
 Created chart.
 

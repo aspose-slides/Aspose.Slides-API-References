@@ -1,7 +1,7 @@
 ---
 title: ToDouble
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Converts to Double.
 type: docs
 weight: 40
 url: /net/aspose.slides.charts/doublechartvalue/todouble/
@@ -14,7 +14,7 @@ Converts to Double.
 public double ToDouble()
 ```
 
-## Return Value
+### Return Value
 
 Returns LiteralDouble if DataSourceType equals DoubleLiterals. If DataSourceType equals Worksheet returns successfully converted to double cell value, otherwise returns NaN.
 

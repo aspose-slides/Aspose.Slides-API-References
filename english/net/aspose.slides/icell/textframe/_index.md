@@ -1,7 +1,7 @@
 ---
 title: TextFrame
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the text frame of a cell. Read-only ITextFrameaspose.slides/itextframe.
 type: docs
 weight: 210
 url: /net/aspose.slides/icell/textframe/

@@ -1,7 +1,7 @@
 ---
 title: Position
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets zero-based position of the node among sibling nodes. Read/write Int32.
 type: docs
 weight: 70
 url: /net/aspose.slides.smartart/ismartartnode/position/

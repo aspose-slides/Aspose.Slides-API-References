@@ -1,9 +1,9 @@
 ---
 title: IImageWrapper
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: System.Drawing.Image wrapper for COM interface.
 type: docs
-weight: 5620
+weight: 5640
 url: /net/aspose.slides/iimagewrapper/
 ---
 ## IImageWrapper interface
@@ -26,9 +26,9 @@ public interface IImageWrapper : IDisposable
 
 | Name | Description |
 | --- | --- |
-| [Save](../../aspose.slides/iimagewrapper/save)(string) | Saves Image to the specified file |
-| [Save](../../aspose.slides/iimagewrapper/save)(Stream, PPImageFormat) | Saves the Image to the specified stream in the specified format. |
-| [Save](../../aspose.slides/iimagewrapper/save)(string, PPImageFormat) | Saves the Image to the specified file in the specified format. |
+| [Save](../../aspose.slides/iimagewrapper/save#save_1)(string) | Saves Image to the specified file |
+| [Save](../../aspose.slides/iimagewrapper/save#save)(Stream, PPImageFormat) | Saves the Image to the specified stream in the specified format. |
+| [Save](../../aspose.slides/iimagewrapper/save#save_2)(string, PPImageFormat) | Saves the Image to the specified file in the specified format. |
 
 ### See Also
 

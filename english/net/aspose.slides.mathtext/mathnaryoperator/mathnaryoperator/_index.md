@@ -1,12 +1,12 @@
 ---
 title: MathNaryOperator
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Initializes a new instance of the MathNaryOperator class.
 type: docs
 weight: 10
 url: /net/aspose.slides.mathtext/mathnaryoperator/mathnaryoperator/
 ---
-## MathNaryOperator constructor (1 of 3)
+## MathNaryOperator(char, IMathElement, IMathElement, IMathElement) {#constructor_2}
 
 Initializes a new instance of the MathNaryOperator class.
 
@@ -40,7 +40,7 @@ IMathNaryOperator naryOperator = new MathNaryOperator('∑', new MathematicalTex
 
 ---
 
-## MathNaryOperator constructor (2 of 3)
+## MathNaryOperator(char, IMathElement, IMathElement) {#constructor_1}
 
 Initializes a new instance of the MathNaryOperator class.
 
@@ -72,7 +72,7 @@ IMathNaryOperator naryOperator = new MathNaryOperator('∑', new MathematicalTex
 
 ---
 
-## MathNaryOperator constructor (3 of 3)
+## MathNaryOperator(char, IMathElement) {#constructor}
 
 Initializes a new instance of the MathNaryOperator class.
 

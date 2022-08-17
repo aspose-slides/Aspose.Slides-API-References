@@ -1,7 +1,7 @@
 ---
 title: Name
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets the authors name. Read/write String.
 type: docs
 weight: 30
 url: /net/aspose.slides/commentauthor/name/

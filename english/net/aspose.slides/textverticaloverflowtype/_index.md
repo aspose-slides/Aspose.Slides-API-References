@@ -1,9 +1,9 @@
 ---
 title: TextVerticalOverflowType
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents text vertical overflow type.
 type: docs
-weight: 10210
+weight: 10260
 url: /net/aspose.slides/textverticaloverflowtype/
 ---
 ## TextVerticalOverflowType enumeration
@@ -14,7 +14,7 @@ Represents text vertical overflow type.
 public enum TextVerticalOverflowType : sbyte
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

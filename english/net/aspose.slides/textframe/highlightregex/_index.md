@@ -1,7 +1,7 @@
 ---
 title: HighlightRegex
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Highlight all matches of regular expression in text frame text using specified color.
 type: docs
 weight: 70
 url: /net/aspose.slides/textframe/highlightregex/

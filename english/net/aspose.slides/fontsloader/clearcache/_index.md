@@ -1,7 +1,7 @@
 ---
 title: ClearCache
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Releases all custom fonts defined by user
 type: docs
 weight: 10
 url: /net/aspose.slides/fontsloader/clearcache/

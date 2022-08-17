@@ -1,7 +1,7 @@
 ---
 title: SystemColor
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets the color identified by the system color table. Read/write SystemColoraspose.slides/systemcolor.
 type: docs
 weight: 160
 url: /net/aspose.slides/icolorformat/systemcolor/

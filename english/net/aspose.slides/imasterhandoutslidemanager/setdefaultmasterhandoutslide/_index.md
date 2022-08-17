@@ -1,7 +1,7 @@
 ---
 title: SetDefaultMasterHandoutSlide
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Sets default master handout slide to related handout slide.
 type: docs
 weight: 30
 url: /net/aspose.slides/imasterhandoutslidemanager/setdefaultmasterhandoutslide/
@@ -14,7 +14,7 @@ Sets default master handout slide to related handout slide.
 public IMasterHandoutSlide SetDefaultMasterHandoutSlide()
 ```
 
-## Return Value
+### Return Value
 
 Master handout slide [`IMasterHandoutSlide`](../../imasterhandoutslide)
 

@@ -1,7 +1,7 @@
 ---
 title: FontsManager
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns fonts manager. Read-only IFontsManageraspose.slides/ifontsmanager.
 type: docs
 weight: 120
 url: /net/aspose.slides/ipresentation/fontsmanager/

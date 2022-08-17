@@ -1,7 +1,7 @@
 ---
 title: ScaleVertical
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Specifies the vertical scaling factor negative scaling causes a flip. percents Read/write Double.
 type: docs
 weight: 100
 url: /net/aspose.slides.effects/reflection/scalevertical/

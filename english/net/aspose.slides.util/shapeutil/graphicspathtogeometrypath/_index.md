@@ -1,7 +1,7 @@
 ---
 title: GraphicsPathToGeometryPath
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Converts a GraphicsPath to the IGeometryPathaspose.slides/igeometrypath Return value of the method call can be used to change the geometry of a IGeometryShape object with IGeometryShape.SetGeometryPaths method.
 type: docs
 weight: 20
 url: /net/aspose.slides.util/shapeutil/graphicspathtogeometrypath/
@@ -18,7 +18,7 @@ public static IGeometryPath GraphicsPathToGeometryPath(GraphicsPath graphicsPath
 | --- | --- | --- |
 | graphicsPath | GraphicsPath | Graphics path |
 
-## Return Value
+### Return Value
 
 Geometry path
 

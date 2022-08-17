@@ -1,7 +1,7 @@
 ---
 title: Accent6
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Sixth accent color in the scheme. Read-only IColorFormataspose.slides/icolorformat.
 type: docs
 weight: 60
 url: /net/aspose.slides.theme/colorscheme/accent6/

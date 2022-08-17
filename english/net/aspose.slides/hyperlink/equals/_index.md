@@ -1,12 +1,12 @@
 ---
 title: Equals
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Determines whether the two Hyperlink instances are equal.
 type: docs
 weight: 190
 url: /net/aspose.slides/hyperlink/equals/
 ---
-## Hyperlink.Equals method (1 of 2)
+## Equals(object) {#equals_1}
 
 Determines whether the two Hyperlink instances are equal.
 
@@ -18,7 +18,7 @@ public override bool Equals(object obj)
 | --- | --- | --- |
 | obj | Object | The Hyperlink to compare with the current Hyperlink. |
 
-## Return Value
+### Return Value
 
 **true** if the specified Hyperlink is equal to the current Hyperlink; otherwise, **false**.
 
@@ -30,7 +30,7 @@ public override bool Equals(object obj)
 
 ---
 
-## Hyperlink.Equals method (2 of 2)
+## Equals(IHyperlink) {#equals}
 
 Determines whether the two Hyperlink instances are equal.
 
@@ -42,7 +42,7 @@ public bool Equals(IHyperlink hlink)
 | --- | --- | --- |
 | hlink | IHyperlink | The Hyperlink to compare with the current Hyperlink. |
 
-## Return Value
+### Return Value
 
 **true** if the specified Hyperlink is equal to the current Hyperlink; otherwise, **false**.
 

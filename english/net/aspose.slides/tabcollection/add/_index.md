@@ -1,12 +1,12 @@
 ---
 title: Add
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Adds a Tab to the collection.
 type: docs
 weight: 50
 url: /net/aspose.slides/tabcollection/add/
 ---
-## TabCollection.Add method (1 of 2)
+## Add(double, TabAlignment) {#add}
 
 Adds a Tab to the collection.
 
@@ -14,7 +14,7 @@ Adds a Tab to the collection.
 public ITab Add(double position, TabAlignment align)
 ```
 
-## Return Value
+### Return Value
 
 Added tab.
 
@@ -28,7 +28,7 @@ Added tab.
 
 ---
 
-## TabCollection.Add method (2 of 2)
+## Add(ITab) {#add_1}
 
 Adds a Tab to the collection.
 
@@ -40,7 +40,7 @@ public int Add(ITab value)
 | --- | --- | --- |
 | value | ITab | The Tab object to be added at the end of the collection. |
 
-## Return Value
+### Return Value
 
 The index at which the tab was added.
 

@@ -1,7 +1,7 @@
 ---
 title: Remove
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Removes a property with the specified name.
 type: docs
 weight: 70
 url: /net/aspose.slides/icontrolpropertiescollection/remove/

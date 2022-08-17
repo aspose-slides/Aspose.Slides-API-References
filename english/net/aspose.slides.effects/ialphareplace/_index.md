@@ -1,9 +1,9 @@
 ---
 title: IAlphaReplace
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents base IImageTransformOperation interface.
 type: docs
-weight: 2960
+weight: 2980
 url: /net/aspose.slides.effects/ialphareplace/
 ---
 ## IAlphaReplace interface

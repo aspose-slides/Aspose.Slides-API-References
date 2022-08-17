@@ -1,7 +1,7 @@
 ---
 title: LogoLink
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Gets or sets the full hyperlink address for a logo. Has an effect only if a LogoImageBytesaspose.slides.export/iswfoptions/logoimagebytes is specified.
 type: docs
 weight: 60
 url: /net/aspose.slides.export/iswfoptions/logolink/

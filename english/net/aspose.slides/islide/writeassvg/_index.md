@@ -1,12 +1,12 @@
 ---
 title: WriteAsSvg
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Saves content of slide as SVG file.
 type: docs
 weight: 130
 url: /net/aspose.slides/islide/writeassvg/
 ---
-## ISlide.WriteAsSvg method (1 of 2)
+## WriteAsSvg(Stream) {#writeassvg}
 
 Saves content of slide as SVG file.
 
@@ -26,7 +26,7 @@ public void WriteAsSvg(Stream stream)
 
 ---
 
-## ISlide.WriteAsSvg method (2 of 2)
+## WriteAsSvg(Stream, ISVGOptions) {#writeassvg_1}
 
 Saves content of slide as SVG file.
 

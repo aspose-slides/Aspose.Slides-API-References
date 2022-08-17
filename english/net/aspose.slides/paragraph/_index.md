@@ -1,9 +1,9 @@
 ---
 title: Paragraph
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents a paragraph of text.
 type: docs
-weight: 8550
+weight: 8570
 url: /net/aspose.slides/paragraph/
 ---
 ## Paragraph class
@@ -18,8 +18,8 @@ public sealed class Paragraph : IParagraph
 
 | Name | Description |
 | --- | --- |
-| [Paragraph](paragraph)() | Initializes a new instance of the Paragraph class with default properties. |
-| [Paragraph](paragraph)(Paragraph) | Copy constructor that initializes a new instance of a Paragraph class. |
+| [Paragraph](paragraph#constructor)() | Initializes a new instance of the Paragraph class with default properties. |
+| [Paragraph](paragraph#constructor_1)(Paragraph) | Copy constructor that initializes a new instance of a Paragraph class. |
 
 ## Properties
 

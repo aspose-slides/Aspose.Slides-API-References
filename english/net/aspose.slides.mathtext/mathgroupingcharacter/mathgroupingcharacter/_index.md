@@ -1,12 +1,12 @@
 ---
 title: MathGroupingCharacter
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Initializes a new instance of the MathGroupingCharacter class with the default grouping character U23DF BOTTOM CURLY BRACKET
 type: docs
 weight: 10
 url: /net/aspose.slides.mathtext/mathgroupingcharacter/mathgroupingcharacter/
 ---
-## MathGroupingCharacter constructor (1 of 2)
+## MathGroupingCharacter(IMathElement) {#constructor}
 
 Initializes a new instance of the MathGroupingCharacter class with the default grouping character U+23DF (BOTTOM CURLY BRACKET)
 
@@ -36,7 +36,7 @@ MathGroupingCharacter groupingCharacter = new MathGroupingCharacter(new Mathemat
 
 ---
 
-## MathGroupingCharacter constructor (2 of 2)
+## MathGroupingCharacter(IMathElement, char, MathTopBotPositions, MathTopBotPositions) {#constructor_1}
 
 Initializes a new instance of the MathGroupingCharacter class.
 

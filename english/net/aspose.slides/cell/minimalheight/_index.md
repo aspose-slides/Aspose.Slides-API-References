@@ -1,7 +1,7 @@
 ---
 title: MinimalHeight
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the minimum height of a cell. This is a sum of minimal heights of all rows cowered by the cell. Read-only Double.
 type: docs
 weight: 140
 url: /net/aspose.slides/cell/minimalheight/

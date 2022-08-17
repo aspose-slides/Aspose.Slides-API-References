@@ -1,7 +1,7 @@
 ---
 title: To
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Describes resulting color for the animation color change. Read/write IColorFormataspose.slides/icolorformat.
 type: docs
 weight: 60
 url: /net/aspose.slides.animation/coloreffect/to/

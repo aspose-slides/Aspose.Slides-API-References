@@ -1,7 +1,7 @@
 ---
 title: CenterText
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: If NullableBool.True then text should be centered in box horizontally. Read/write NullableBoolaspose.slides/nullablebool.
 type: docs
 weight: 40
 url: /net/aspose.slides/textframeformat/centertext/

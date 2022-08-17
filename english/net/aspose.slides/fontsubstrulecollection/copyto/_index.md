@@ -1,7 +1,7 @@
 ---
 title: CopyTo
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Copies all elements from the collection to the specified array.
 type: docs
 weight: 70
 url: /net/aspose.slides/fontsubstrulecollection/copyto/

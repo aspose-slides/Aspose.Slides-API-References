@@ -1,9 +1,9 @@
 ---
 title: ControlType
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Defines a control type which should be embedded by AddControl./icontrolcollection/addcontrol.
 type: docs
-weight: 2570
+weight: 2590
 url: /net/aspose.slides/controltype/
 ---
 ## ControlType enumeration
@@ -14,7 +14,7 @@ Defines a control type which should be embedded by [`AddControl`](../icontrolcol
 public enum ControlType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

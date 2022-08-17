@@ -1,7 +1,7 @@
 ---
 title: EnableOuterShadowEffect
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Enables outer shadow effect.
 type: docs
 weight: 210
 url: /net/aspose.slides/effectformat/enableoutershadoweffect/

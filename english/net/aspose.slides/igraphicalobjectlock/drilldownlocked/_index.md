@@ -1,7 +1,7 @@
 ---
 title: DrilldownLocked
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Determines whether selecting subshapes of this object is forbidden. Read/write Boolean.
 type: docs
 weight: 30
 url: /net/aspose.slides/igraphicalobjectlock/drilldownlocked/

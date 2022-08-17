@@ -1,9 +1,9 @@
 ---
 title: Type
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Type of transition. Read-write TransitionTypeaspose.slides.slideshow/transitiontype.
 type: docs
-weight: 90
+weight: 100
 url: /net/aspose.slides/islideshowtransition/type/
 ---
 ## ISlideShowTransition.Type property

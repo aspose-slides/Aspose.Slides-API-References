@@ -1,7 +1,7 @@
 ---
 title: AudioCdEndTrackTime
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets a last track time. Read/write Int32.
 type: docs
 weight: 20
 url: /net/aspose.slides/audioframe/audiocdendtracktime/

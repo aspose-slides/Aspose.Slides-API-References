@@ -1,7 +1,7 @@
 ---
 title: Insert
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Inserts a new layout slide to specified position of the collection.
 type: docs
 weight: 40
 url: /net/aspose.slides/imasterlayoutslidecollection/insert/
@@ -20,7 +20,7 @@ public ILayoutSlide Insert(int index, SlideLayoutType layoutType, string layoutN
 | layoutType | SlideLayoutType | Layout type for a new layout. Supported layout types: Title, TitleOnly, Blank, TitleAndObject, VerticalText, VerticalTitleAndText, TwoObjects, SectionHeader, TwoTextAndTwoObjects, TitleObjectAndCaption, PictureAndCaption, Custom. Other layout types are not supported now: Text, TwoColumnText, Table, TextAndChart, ChartAndText, Diagram, Chart, TextAndClipArt, ClipArtAndText, TextAndObject, ObjectAndText, Object, TextAndMedia, MediaAndText, ObjectOverText, TextOverObject, TextAndTwoObjects, TwoObjectsAndText, TwoObjectsOverText, FourObjects, ClipArtAndVerticalText, VerticalTitleAndTextOverChart, ObjectAndTwoObject, TwoObjectsAndObject. |
 | layoutName | String | Name for a new layout. If passed name is already in use the ArgumentException will be thrown. If null parameter is passed then name genarated atomatically in regards to passed layout type (for example "Title Slide" or "1_Title Slide", "2_..", etc.). |
 
-## Return Value
+### Return Value
 
 Inserted slide.
 

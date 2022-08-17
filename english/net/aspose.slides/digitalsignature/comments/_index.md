@@ -1,7 +1,7 @@
 ---
 title: Comments
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: The purpose of signature. Read/write String.
 type: docs
 weight: 30
 url: /net/aspose.slides/digitalsignature/comments/

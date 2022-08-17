@@ -1,7 +1,7 @@
 ---
 title: MasterSlide
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Iterate each MasterSlideaspose.slides.lowcode/foreach/masterslide in the Presentationaspose.slides/presentation.
 type: docs
 weight: 20
 url: /net/aspose.slides.lowcode/foreach/masterslide/

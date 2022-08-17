@@ -1,7 +1,7 @@
 ---
 title: RelativeScaleHeight
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets the scale of heightrelative to original picture size of the picture frame. Value 1.0 corresponds to 100. Read/write Single.
 type: docs
 weight: 30
 url: /net/aspose.slides/pictureframe/relativescaleheight/

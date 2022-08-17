@@ -1,7 +1,7 @@
 ---
 title: EmbedTrueTypeFontsForASCII
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: True to embed true type fonts for ASCII characters 32-127. Fonts for character codes greater than 127 are always embedded. Read/write Boolean.
 type: docs
 weight: 90
 url: /net/aspose.slides.export/ipdfoptions/embedtruetypefontsforascii/

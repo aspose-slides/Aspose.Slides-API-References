@@ -1,7 +1,7 @@
 ---
 title: Seek
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Sets the position within the current stream
 type: docs
 weight: 130
 url: /net/aspose.slides/streamwrapper/seek/

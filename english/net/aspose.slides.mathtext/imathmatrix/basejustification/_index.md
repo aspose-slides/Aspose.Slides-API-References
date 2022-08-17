@@ -1,7 +1,7 @@
 ---
 title: BaseJustification
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Specifies the vertical justification respect to surrounding text. Possible values are top bottom and center. Default Center
 type: docs
 weight: 20
 url: /net/aspose.slides.mathtext/imathmatrix/basejustification/

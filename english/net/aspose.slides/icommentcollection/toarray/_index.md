@@ -1,12 +1,12 @@
 ---
 title: ToArray
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates and returns an array with all comments.
 type: docs
 weight: 90
 url: /net/aspose.slides/icommentcollection/toarray/
 ---
-## ICommentCollection.ToArray method (1 of 2)
+## ToArray() {#toarray}
 
 Creates and returns an array with all comments.
 
@@ -14,7 +14,7 @@ Creates and returns an array with all comments.
 public IComment[] ToArray()
 ```
 
-## Return Value
+### Return Value
 
 Array of [`IComment`](../../icomment).
 
@@ -27,7 +27,7 @@ Array of [`IComment`](../../icomment).
 
 ---
 
-## ICommentCollection.ToArray method (2 of 2)
+## ToArray(int, int) {#toarray_1}
 
 Creates and returns an array with all comments from the specified range.
 
@@ -40,7 +40,7 @@ public IComment[] ToArray(int startIndex, int count)
 | startIndex | Int32 | An index of a first comment to return. |
 | count | Int32 | A number of comments to return. |
 
-## Return Value
+### Return Value
 
 Array of [`IComment`](../../icomment).
 

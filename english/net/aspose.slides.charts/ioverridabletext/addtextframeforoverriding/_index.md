@@ -1,7 +1,7 @@
 ---
 title: AddTextFrameForOverriding
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Initialize TextFrameForOverriding with the text in paramener text. If TextFrameForOverriding is already initialized then simply changes its text.
 type: docs
 weight: 30
 url: /net/aspose.slides.charts/ioverridabletext/addtextframeforoverriding/
@@ -18,7 +18,7 @@ public ITextFrame AddTextFrameForOverriding(string text)
 | --- | --- | --- |
 | text | String | Text for a new TextFrameForOverriding. |
 
-## Return Value
+### Return Value
 
 Text frame [`ITextFrame`](../../../aspose.slides/itextframe)
 

@@ -1,7 +1,7 @@
 ---
 title: HyperlinkQueries
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Provides easy access to all hyperlinks contained in all presentation slides not in master layout notes slides. Read-only IHyperlinkQueriesaspose.slides/ihyperlinkqueries.
 type: docs
 weight: 130
 url: /net/aspose.slides/presentation/hyperlinkqueries/

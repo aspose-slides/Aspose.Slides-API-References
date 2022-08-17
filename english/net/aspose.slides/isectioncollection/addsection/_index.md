@@ -1,7 +1,7 @@
 ---
 title: AddSection
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Add new section started form specific slide.
 type: docs
 weight: 30
 url: /net/aspose.slides/isectioncollection/addsection/
@@ -19,7 +19,7 @@ public ISection AddSection(string name, ISlide startedFromSlide)
 | name | String | Name of the section |
 | startedFromSlide | ISlide | First slide of section |
 
-## Return Value
+### Return Value
 
 Added section.
 

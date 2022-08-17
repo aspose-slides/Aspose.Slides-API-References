@@ -1,7 +1,7 @@
 ---
 title: AsIHtmlFormattingController
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns IHtmlFormattingController interface.
 type: docs
 weight: 10
 url: /net/aspose.slides.export/iresponsivehtmlcontroller/asihtmlformattingcontroller/

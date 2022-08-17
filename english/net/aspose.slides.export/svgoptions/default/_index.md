@@ -1,7 +1,7 @@
 ---
 title: Default
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns default settings. Read-only SVGOptionsaspose.slides.export/svgoptions.
 type: docs
 weight: 20
 url: /net/aspose.slides.export/svgoptions/default/

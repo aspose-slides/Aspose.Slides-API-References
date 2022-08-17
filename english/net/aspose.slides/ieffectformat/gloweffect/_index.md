@@ -1,7 +1,7 @@
 ---
 title: GlowEffect
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Glow effect. Read/write IGlowaspose.slides.effects/iglow.
 type: docs
 weight: 40
 url: /net/aspose.slides/ieffectformat/gloweffect/

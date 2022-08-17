@@ -1,7 +1,7 @@
 ---
 title: ActualMajorUnit
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Specifies actual major unit of the axis. Call method IChart.ValidateChartLayout previously to get actual value.
 type: docs
 weight: 10
 url: /net/aspose.slides.charts/axis/actualmajorunit/

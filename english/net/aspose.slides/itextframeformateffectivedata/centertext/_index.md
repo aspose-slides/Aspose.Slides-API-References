@@ -1,7 +1,7 @@
 ---
 title: CenterText
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns if text should be centered in box horizontally. Read-only Boolean.
 type: docs
 weight: 30
 url: /net/aspose.slides/itextframeformateffectivedata/centertext/

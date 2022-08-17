@@ -1,7 +1,7 @@
 ---
 title: NamesOfProperties
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns a number of properties in the collection. Read-only ICollection.
 type: docs
 weight: 40
 url: /net/aspose.slides/icontrolpropertiescollection/namesofproperties/

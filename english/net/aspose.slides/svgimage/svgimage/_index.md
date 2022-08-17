@@ -1,12 +1,12 @@
 ---
 title: SvgImage
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates new SvgImage object.
 type: docs
 weight: 10
 url: /net/aspose.slides/svgimage/svgimage/
 ---
-## SvgImage constructor (1 of 6)
+## SvgImage(byte[]) {#constructor}
 
 Creates new SvgImage object.
 
@@ -26,7 +26,7 @@ public SvgImage(byte[] data)
 
 ---
 
-## SvgImage constructor (2 of 6)
+## SvgImage(string) {#constructor_4}
 
 Creates new SvgImage object.
 
@@ -46,7 +46,7 @@ public SvgImage(string svgContent)
 
 ---
 
-## SvgImage constructor (3 of 6)
+## SvgImage(Stream) {#constructor_2}
 
 Creates new SvgImage object.
 
@@ -66,7 +66,7 @@ public SvgImage(Stream stream)
 
 ---
 
-## SvgImage constructor (4 of 6)
+## SvgImage(byte[], IExternalResourceResolver, string) {#constructor_1}
 
 Creates new SvgImage object.
 
@@ -89,7 +89,7 @@ public SvgImage(byte[] data, IExternalResourceResolver externalResResolver, stri
 
 ---
 
-## SvgImage constructor (5 of 6)
+## SvgImage(string, IExternalResourceResolver, string) {#constructor_5}
 
 Creates new SvgImage object.
 
@@ -112,7 +112,7 @@ public SvgImage(string svgContent, IExternalResourceResolver externalResResolver
 
 ---
 
-## SvgImage constructor (6 of 6)
+## SvgImage(Stream, IExternalResourceResolver, string) {#constructor_3}
 
 Creates new SvgImage object.
 

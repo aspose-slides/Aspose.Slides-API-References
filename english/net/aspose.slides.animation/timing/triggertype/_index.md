@@ -1,7 +1,7 @@
 ---
 title: TriggerType
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Describes trigger type. Read/write EffectTriggerTypeaspose.slides.animation/effecttriggertype.
 type: docs
 weight: 100
 url: /net/aspose.slides.animation/timing/triggertype/

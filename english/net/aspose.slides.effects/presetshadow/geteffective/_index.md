@@ -1,7 +1,7 @@
 ---
 title: GetEffective
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Gets effective Preset Shadow effect data with the inheritance applied.
 type: docs
 weight: 60
 url: /net/aspose.slides.effects/presetshadow/geteffective/
@@ -14,7 +14,7 @@ Gets effective Preset Shadow effect data with the inheritance applied.
 public IPresetShadowEffectiveData GetEffective()
 ```
 
-## Return Value
+### Return Value
 
 A [`IPresetShadowEffectiveData`](../../ipresetshadoweffectivedata).
 

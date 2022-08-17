@@ -1,9 +1,9 @@
 ---
 title: IChartDataPointLevel
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents data point level. Applies for Treemap and Sunburst chart.
 type: docs
-weight: 1700
+weight: 1720
 url: /net/aspose.slides.charts/ichartdatapointlevel/
 ---
 ## IChartDataPointLevel interface

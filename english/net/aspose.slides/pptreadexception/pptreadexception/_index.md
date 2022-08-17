@@ -1,12 +1,12 @@
 ---
 title: PptReadException
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Default constructor.
 type: docs
 weight: 10
 url: /net/aspose.slides/pptreadexception/pptreadexception/
 ---
-## PptReadException constructor (1 of 3)
+## PptReadException() {#constructor}
 
 Default constructor.
 
@@ -22,7 +22,7 @@ public PptReadException()
 
 ---
 
-## PptReadException constructor (2 of 3)
+## PptReadException(string) {#constructor_1}
 
 Constructor allowing a message to be added to this exception.
 
@@ -42,7 +42,7 @@ public PptReadException(string message)
 
 ---
 
-## PptReadException constructor (3 of 3)
+## PptReadException(string, Exception) {#constructor_2}
 
 Constructor for an exception containing a message and an embedded exception.
 

@@ -1,7 +1,7 @@
 ---
 title: MajorUnitScale
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents the major unit scale for the date axis. Read/write TimeUnitTypeaspose.slides.charts/timeunittype.
 type: docs
 weight: 370
 url: /net/aspose.slides.charts/axis/majorunitscale/

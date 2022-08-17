@@ -1,7 +1,7 @@
 ---
 title: IndexOf
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Determines the index of a specific IMathBlock in collection.
 type: docs
 weight: 80
 url: /net/aspose.slides.mathtext/mathparagraph/indexof/
@@ -18,7 +18,7 @@ public int IndexOf(IMathBlock mathBlock)
 | --- | --- | --- |
 | mathBlock | IMathBlock | The item to locate in the collection. |
 
-## Return Value
+### Return Value
 
 The index of *mathBlock* if found in the collection; otherwise, -1.
 

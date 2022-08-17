@@ -1,12 +1,12 @@
 ---
 title: AddAudioFrameEmbedded
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Adds a new audio frame with embedded audio file to the end of a collection. Embedded audio file can be a WAV only. It adds new audio into Presentation.Audios list.
 type: docs
 weight: 40
 url: /net/aspose.slides/ishapecollection/addaudioframeembedded/
 ---
-## IShapeCollection.AddAudioFrameEmbedded method (1 of 2)
+## AddAudioFrameEmbedded(float, float, float, float, Stream) {#addaudioframeembedded_1}
 
 Adds a new audio frame with embedded audio file to the end of a collection. Embedded audio file can be a WAV only. It adds new audio into Presentation.Audios list.
 
@@ -23,7 +23,7 @@ public IAudioFrame AddAudioFrameEmbedded(float x, float y, float width, float he
 | height | Single | Height of a new audio frame. |
 | audio_stream | Stream | Inout stream with audio data. |
 
-## Return Value
+### Return Value
 
 Created AudioFrame object.
 
@@ -36,7 +36,7 @@ Created AudioFrame object.
 
 ---
 
-## IShapeCollection.AddAudioFrameEmbedded method (2 of 2)
+## AddAudioFrameEmbedded(float, float, float, float, IAudio) {#addaudioframeembedded}
 
 Adds a new audio frame with embedded audio file to the end of a collection. It uses audio file from Presentation.Audios list.
 
@@ -52,7 +52,7 @@ public IAudioFrame AddAudioFrameEmbedded(float x, float y, float width, float he
 | height | Single | Height of a new audio frame. |
 | audio | IAudio | Audio from Presentation.Audios list. |
 
-## Return Value
+### Return Value
 
 Created AudioFrame object.
 

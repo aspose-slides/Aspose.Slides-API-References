@@ -1,7 +1,7 @@
 ---
 title: EndingCharacter
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Delimiter Ending Character specifies the ending or closing delimiter character. Mathematical delimiters are enclosing characters such as parentheses brackets and braces. The default .
 type: docs
 weight: 50
 url: /net/aspose.slides.mathtext/mathdelimiter/endingcharacter/

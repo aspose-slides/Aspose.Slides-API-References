@@ -1,9 +1,9 @@
 ---
 title: TextVerticalType
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Determines vertical writing mode for a text.
 type: docs
-weight: 10220
+weight: 10270
 url: /net/aspose.slides/textverticaltype/
 ---
 ## TextVerticalType enumeration
@@ -14,7 +14,7 @@ Determines vertical writing mode for a text.
 public enum TextVerticalType : sbyte
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

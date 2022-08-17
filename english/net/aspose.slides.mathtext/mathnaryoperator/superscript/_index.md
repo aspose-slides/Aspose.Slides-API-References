@@ -1,7 +1,7 @@
 ---
 title: Superscript
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Specifies a supersript argument that for example in the case of an integral sets the upper limit
 type: docs
 weight: 90
 url: /net/aspose.slides.mathtext/mathnaryoperator/superscript/

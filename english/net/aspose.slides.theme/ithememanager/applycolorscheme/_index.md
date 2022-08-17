@@ -1,7 +1,7 @@
 ---
 title: ApplyColorScheme
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Applies extra color scheme to a slide.
 type: docs
 weight: 10
 url: /net/aspose.slides.theme/ithememanager/applycolorscheme/

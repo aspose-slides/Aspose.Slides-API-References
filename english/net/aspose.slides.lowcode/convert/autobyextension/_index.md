@@ -1,7 +1,7 @@
 ---
 title: AutoByExtension
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Converts Presentationaspose.slides/presentation using the passed output path extension to determine the required export format.
 type: docs
 weight: 10
 url: /net/aspose.slides.lowcode/convert/autobyextension/

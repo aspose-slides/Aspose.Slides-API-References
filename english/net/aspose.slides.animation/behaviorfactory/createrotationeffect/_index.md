@@ -1,7 +1,7 @@
 ---
 title: CreateRotationEffect
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates rotation effect.
 type: docs
 weight: 70
 url: /net/aspose.slides.animation/behaviorfactory/createrotationeffect/
@@ -14,7 +14,7 @@ Creates rotation effect.
 public IRotationEffect CreateRotationEffect()
 ```
 
-## Return Value
+### Return Value
 
 Rotation effect.
 

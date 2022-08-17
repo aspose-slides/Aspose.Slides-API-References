@@ -1,7 +1,7 @@
 ---
 title: ExtrusionOn
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents extrusion.on property
 type: docs
 weight: 70
 url: /net/aspose.slides.animation/behaviorproperty/extrusionon/

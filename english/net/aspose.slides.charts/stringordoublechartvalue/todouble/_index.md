@@ -1,7 +1,7 @@
 ---
 title: ToDouble
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Converts to double.
 type: docs
 weight: 50
 url: /net/aspose.slides.charts/stringordoublechartvalue/todouble/
@@ -14,7 +14,7 @@ Converts to double.
 public double ToDouble()
 ```
 
-## Return Value
+### Return Value
 
 Double value.
 

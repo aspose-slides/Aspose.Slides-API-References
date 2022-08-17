@@ -1,12 +1,12 @@
 ---
 title: AddSectionZoomFrame
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Adds a new Section Zoom object to the end of a collection.
 type: docs
 weight: 140
 url: /net/aspose.slides/ishapecollection/addsectionzoomframe/
 ---
-## IShapeCollection.AddSectionZoomFrame method (1 of 2)
+## AddSectionZoomFrame(float, float, float, float, ISection) {#addsectionzoomframe}
 
 Adds a new Section Zoom object to the end of a collection.
 
@@ -23,7 +23,7 @@ public ISectionZoomFrame AddSectionZoomFrame(float x, float y, float width, floa
 | height | Single | Height of a new Section Zoom frame Single. |
 | section | ISection | The section object referenced by the Section Zoom frame [`ISection`](../../isection). |
 
-## Return Value
+### Return Value
 
 Created Section Zoom object [`ISectionZoomFrame`](../../isectionzoomframe).
 
@@ -55,7 +55,7 @@ using (Presentation pres = new Presentation("Presentation.pptx"))
 
 ---
 
-## IShapeCollection.AddSectionZoomFrame method (2 of 2)
+## AddSectionZoomFrame(float, float, float, float, ISection, IPPImage) {#addsectionzoomframe_1}
 
 Adds a new Section Zoom object to the end of a collection with a predefined image.
 
@@ -73,7 +73,7 @@ public ISectionZoomFrame AddSectionZoomFrame(float x, float y, float width, floa
 | section | ISection | The section object referenced by the Section Zoom frame [`ISection`](../../isection). |
 | image | IPPImage | The image for the referenced slide [`IPPImage`](../../ippimage) |
 
-## Return Value
+### Return Value
 
 Created Section Zoom object [`ISectionZoomFrame`](../../isectionzoomframe).
 

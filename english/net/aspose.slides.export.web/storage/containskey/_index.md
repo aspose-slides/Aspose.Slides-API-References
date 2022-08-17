@@ -1,7 +1,7 @@
 ---
 title: ContainsKey
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Determines whether the storage contains an element with the specified key.
 type: docs
 weight: 20
 url: /net/aspose.slides.export.web/storage/containskey/
@@ -18,7 +18,7 @@ public bool ContainsKey(string key)
 | --- | --- | --- |
 | key | String | Key of the value. |
 
-## Return Value
+### Return Value
 
 True if the storage contains an element with the specified key, false otherwise.
 

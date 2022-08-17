@@ -1,7 +1,7 @@
 ---
 title: DefaultTextStyle
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns default text style for shapes. Read-only ITextStyleaspose.slides/itextstyle.
 type: docs
 weight: 80
 url: /net/aspose.slides/ipresentation/defaulttextstyle/

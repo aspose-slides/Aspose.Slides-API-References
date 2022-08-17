@@ -1,7 +1,7 @@
 ---
 title: StretchOffsetTop
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets top edge of the fill rectangle that is defined by a percentage offset from the top edge of the shapes bounding box. A positive percentage specifies an inset while a negative percentage specifies an outset. Read/write Single.
 type: docs
 weight: 120
 url: /net/aspose.slides/ipicturefillformat/stretchoffsettop/

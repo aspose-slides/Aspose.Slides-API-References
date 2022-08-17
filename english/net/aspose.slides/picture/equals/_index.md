@@ -1,9 +1,9 @@
 ---
 title: Equals
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Compares with specified object.
 type: docs
-weight: 60
+weight: 70
 url: /net/aspose.slides/picture/equals/
 ---
 ## Picture.Equals method
@@ -18,7 +18,7 @@ public override bool Equals(object obj)
 | --- | --- | --- |
 | obj | Object | Object to compare. |
 
-## Return Value
+### Return Value
 
 True if objects are equal, otherwise false.
 

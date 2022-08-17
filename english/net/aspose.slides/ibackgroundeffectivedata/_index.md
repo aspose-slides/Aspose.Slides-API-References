@@ -1,9 +1,9 @@
 ---
 title: IBackgroundEffectiveData
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Immutable object which contains effective background properties.
 type: docs
-weight: 4800
+weight: 4820
 url: /net/aspose.slides/ibackgroundeffectivedata/
 ---
 ## IBackgroundEffectiveData interface

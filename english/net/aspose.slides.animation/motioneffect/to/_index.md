@@ -1,7 +1,7 @@
 ---
 title: To
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Specifies the target location for an animation motion effect in percents. Read/write PointF.
 type: docs
 weight: 90
 url: /net/aspose.slides.animation/motioneffect/to/

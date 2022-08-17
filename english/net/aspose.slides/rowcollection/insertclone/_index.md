@@ -1,7 +1,7 @@
 ---
 title: InsertClone
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates a copy of the specified template row and insert it at the specified position in a table.
 type: docs
 weight: 80
 url: /net/aspose.slides/rowcollection/insertclone/
@@ -20,7 +20,7 @@ public IRow[] InsertClone(int index, IRow templ, bool withAttachedRows)
 | templ | IRow | Row which is used as a template. |
 | withAttachedRows | Boolean | True to copy also all rows attached to the template row. |
 
-## Return Value
+### Return Value
 
 Inserted rows.
 

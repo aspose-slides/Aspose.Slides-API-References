@@ -1,7 +1,7 @@
 ---
 title: CopyTo
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Copies audios to specified array starting from specified index.
 type: docs
 weight: 60
 url: /net/aspose.slides/audiocollection/copyto/

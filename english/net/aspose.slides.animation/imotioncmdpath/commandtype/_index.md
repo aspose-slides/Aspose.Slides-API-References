@@ -1,7 +1,7 @@
 ---
 title: CommandType
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Specifies command type. Read/write MotionCommandPathTypeaspose.slides.animation/motioncommandpathtype.
 type: docs
 weight: 10
 url: /net/aspose.slides.animation/imotioncmdpath/commandtype/

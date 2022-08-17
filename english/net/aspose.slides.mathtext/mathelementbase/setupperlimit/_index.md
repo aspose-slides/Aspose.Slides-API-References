@@ -1,12 +1,12 @@
 ---
 title: SetUpperLimit
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Takes upper limit
 type: docs
 weight: 170
 url: /net/aspose.slides.mathtext/mathelementbase/setupperlimit/
 ---
-## MathElementBase.SetUpperLimit method (1 of 2)
+## SetUpperLimit(IMathElement) {#setupperlimit}
 
 Takes upper limit
 
@@ -18,7 +18,7 @@ public IMathLimit SetUpperLimit(IMathElement limit)
 | --- | --- | --- |
 | limit | IMathElement | limit |
 
-## Return Value
+### Return Value
 
 New instance of type [`IMathLimit`](../../imathlimit)
 
@@ -43,7 +43,7 @@ var limitElement = baseElement.SetUpperLimit(limitValue);
 
 ---
 
-## MathElementBase.SetUpperLimit method (2 of 2)
+## SetUpperLimit(string) {#setupperlimit_1}
 
 Takes upper limit
 
@@ -55,7 +55,7 @@ public IMathLimit SetUpperLimit(string limit)
 | --- | --- | --- |
 | limit | String | limit |
 
-## Return Value
+### Return Value
 
 New instance of type [`IMathLimit`](../../imathlimit)
 

@@ -1,7 +1,7 @@
 ---
 title: SetDateTimeVisibility
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Changes slide date-time placeholder visibility.
 type: docs
 weight: 60
 url: /net/aspose.slides/ibaseslideheaderfootermanager/setdatetimevisibility/

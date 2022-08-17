@@ -1,7 +1,7 @@
 ---
 title: Image
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the embedded image. Read-only IPPImageaspose.slides/ippimage.
 type: docs
 weight: 10
 url: /net/aspose.slides/ipictureeffectivedata/image/

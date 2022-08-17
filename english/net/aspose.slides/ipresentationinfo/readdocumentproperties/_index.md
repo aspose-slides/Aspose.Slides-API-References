@@ -1,7 +1,7 @@
 ---
 title: ReadDocumentProperties
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Gets document properties of binded presentation.
 type: docs
 weight: 70
 url: /net/aspose.slides/ipresentationinfo/readdocumentproperties/
@@ -14,7 +14,7 @@ Gets document properties of binded presentation.
 public IDocumentProperties ReadDocumentProperties()
 ```
 
-## Return Value
+### Return Value
 
 Document properties [`IDocumentProperties`](../../idocumentproperties)
 

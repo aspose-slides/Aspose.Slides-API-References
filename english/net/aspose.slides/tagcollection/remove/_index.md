@@ -1,7 +1,7 @@
 ---
 title: Remove
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Removes the tag with a specified name from the collection.
 type: docs
 weight: 140
 url: /net/aspose.slides/tagcollection/remove/

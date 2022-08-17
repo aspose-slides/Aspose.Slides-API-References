@@ -1,7 +1,7 @@
 ---
 title: Equals
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Determines whether the specified HSLaspose.slides.effects/hsl is equal to the current HSLaspose.slides.effects/hsl.
 type: docs
 weight: 10
 url: /net/aspose.slides.effects/hsl/equals/
@@ -18,7 +18,7 @@ public override bool Equals(object obj)
 | --- | --- | --- |
 | obj | Object | The [`HSL`](../../hsl) to compare. |
 
-## Return Value
+### Return Value
 
 true if objects are equal; otherwise, false.
 

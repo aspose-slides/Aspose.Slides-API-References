@@ -1,7 +1,7 @@
 ---
 title: InvertIfNegative
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Specifies the bar column or bubble series shall invert its colors if the value is negative. Read/write Boolean.
 type: docs
 weight: 170
 url: /net/aspose.slides.charts/ichartseries/invertifnegative/

@@ -1,7 +1,7 @@
 ---
 title: Count
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the number of elements in a collection Read-only Int32.
 type: docs
 weight: 20
 url: /net/aspose.slides.animation/isequencecollection/count/

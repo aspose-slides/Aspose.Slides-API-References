@@ -1,7 +1,7 @@
 ---
 title: IndexOf
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns an index of the specified slide in the collection.
 type: docs
 weight: 110
 url: /net/aspose.slides/slidecollection/indexof/
@@ -18,7 +18,7 @@ public int IndexOf(ISlide slide)
 | --- | --- | --- |
 | slide | ISlide | Slide to find. |
 
-## Return Value
+### Return Value
 
 Index of a slide or -1 if slide not from this collection.
 

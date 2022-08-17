@@ -1,9 +1,9 @@
 ---
 title: ViewType
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Presentation view types
 type: docs
-weight: 10940
+weight: 10990
 url: /net/aspose.slides/viewtype/
 ---
 ## ViewType enumeration
@@ -14,7 +14,7 @@ Presentation view types
 public enum ViewType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

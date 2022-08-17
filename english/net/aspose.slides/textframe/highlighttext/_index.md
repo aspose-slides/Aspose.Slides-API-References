@@ -1,12 +1,12 @@
 ---
 title: HighlightText
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Highlight all matches of sample in text frame text using specified color.
 type: docs
 weight: 80
 url: /net/aspose.slides/textframe/highlighttext/
 ---
-## TextFrame.HighlightText method (1 of 2)
+## HighlightText(string, Color) {#highlighttext}
 
 Highlight all matches of sample in text frame text using specified color.
 
@@ -27,7 +27,7 @@ public void HighlightText(string text, Color highlightColor)
 
 ---
 
-## TextFrame.HighlightText method (2 of 2)
+## HighlightText(string, Color, ITextHighlightingOptions) {#highlighttext_1}
 
 Highlight all matches of sample in text frame text using specified color.
 

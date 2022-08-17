@@ -1,7 +1,7 @@
 ---
 title: SetFromOneCell
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Sets value from specified cell.
 type: docs
 weight: 40
 url: /net/aspose.slides.charts/istringchartvalue/setfromonecell/

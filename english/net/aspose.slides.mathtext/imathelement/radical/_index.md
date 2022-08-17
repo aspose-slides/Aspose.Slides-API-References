@@ -1,12 +1,12 @@
 ---
 title: Radical
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Specifies the mathematical root of the given degree from the specified argument.
 type: docs
 weight: 120
 url: /net/aspose.slides.mathtext/imathelement/radical/
 ---
-## IMathElement.Radical method (1 of 2)
+## Radical(IMathElement) {#radical}
 
 Specifies the mathematical root of the given degree from the specified argument.
 
@@ -18,7 +18,7 @@ public IMathRadical Radical(IMathElement degree)
 | --- | --- | --- |
 | degree | IMathElement | Argument of Radical |
 
-## Return Value
+### Return Value
 
 New instance of type [`IMathRadical`](../../imathradical)
 
@@ -42,7 +42,7 @@ var radical = baseElement.Radical(degree);
 
 ---
 
-## IMathElement.Radical method (2 of 2)
+## Radical(string) {#radical_1}
 
 Specifies the mathematical root of the given degree from the specified argument.
 
@@ -54,7 +54,7 @@ public IMathRadical Radical(string degree)
 | --- | --- | --- |
 | degree | String | Argument of Radical |
 
-## Return Value
+### Return Value
 
 New instance of type [`IMathRadical`](../../imathradical)
 

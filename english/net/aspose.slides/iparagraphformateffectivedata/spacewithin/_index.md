@@ -1,7 +1,7 @@
 ---
 title: SpaceWithin
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the amount of space between base lines in a paragraph. Read-only Single.
 type: docs
 weight: 160
 url: /net/aspose.slides/iparagraphformateffectivedata/spacewithin/

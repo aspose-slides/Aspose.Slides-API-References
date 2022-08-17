@@ -1,7 +1,7 @@
 ---
 title: VerticalAxis
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Gets the charts vertical axis. Read-only IAxisaspose.slides.charts/iaxis.
 type: docs
 weight: 50
 url: /net/aspose.slides.charts/axesmanager/verticalaxis/

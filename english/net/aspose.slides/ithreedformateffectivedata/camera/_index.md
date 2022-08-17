@@ -1,7 +1,7 @@
 ---
 title: Camera
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the settings of a camera. Read-only ICameraEffectiveDataaspose.slides/icameraeffectivedata.
 type: docs
 weight: 40
 url: /net/aspose.slides/ithreedformateffectivedata/camera/

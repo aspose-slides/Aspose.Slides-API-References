@@ -1,7 +1,7 @@
 ---
 title: Item
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the element at the specified index.
 type: docs
 weight: 10
 url: /net/aspose.slides/icustomxmlpartcollection/item/
@@ -18,7 +18,7 @@ public ICustomXmlPart this[int index] { get; }
 | --- | --- |
 | index | The zero-based index of the element to get. |
 
-## Return Value
+### Return Value
 
 The element at the specified index.
 

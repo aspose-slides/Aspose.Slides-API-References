@@ -1,7 +1,7 @@
 ---
 title: HasBounce
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Specifies that the movement of the presentation slides during the transition includes a bounce. Read/write Boolean.
 type: docs
 weight: 30
 url: /net/aspose.slides.slideshow/iflythroughtransition/hasbounce/

@@ -1,9 +1,9 @@
 ---
 title: AxisAggregationType
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents aggregation type of category axis. Used with Histogram or HistogramPareto series only.
 type: docs
-weight: 1050
+weight: 1070
 url: /net/aspose.slides.charts/axisaggregationtype/
 ---
 ## AxisAggregationType enumeration
@@ -14,7 +14,7 @@ Represents aggregation type of category axis. Used with Histogram or HistogramPa
 public enum AxisAggregationType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

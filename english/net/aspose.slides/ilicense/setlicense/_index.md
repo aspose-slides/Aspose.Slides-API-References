@@ -1,12 +1,12 @@
 ---
 title: SetLicense
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Licenses the component.
 type: docs
 weight: 20
 url: /net/aspose.slides/ilicense/setlicense/
 ---
-## ILicense.SetLicense method (1 of 2)
+## SetLicense(string) {#setlicense_1}
 
 Licenses the component.
 
@@ -63,7 +63,7 @@ license.SetLicense("MyLicense.lic")
 
 ---
 
-## ILicense.SetLicense method (2 of 2)
+## SetLicense(Stream) {#setlicense}
 
 Licenses the component.
 

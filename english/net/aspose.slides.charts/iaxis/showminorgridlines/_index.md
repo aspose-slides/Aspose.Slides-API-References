@@ -1,7 +1,7 @@
 ---
 title: ShowMinorGridLines
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents if the minor gridlines showed. Read-only Boolean.
 type: docs
 weight: 490
 url: /net/aspose.slides.charts/iaxis/showminorgridlines/

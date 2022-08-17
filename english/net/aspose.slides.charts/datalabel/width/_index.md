@@ -1,7 +1,7 @@
 ---
 title: Width
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets the width of a title as a fraction of the width of the chart. Read/write Single.
 type: docs
 weight: 150
 url: /net/aspose.slides.charts/datalabel/width/

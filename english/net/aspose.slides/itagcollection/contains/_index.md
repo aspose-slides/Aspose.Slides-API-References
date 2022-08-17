@@ -1,7 +1,7 @@
 ---
 title: Contains
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Determines whether the collection contains a specific name.
 type: docs
 weight: 40
 url: /net/aspose.slides/itagcollection/contains/
@@ -18,7 +18,7 @@ public bool Contains(string name)
 | --- | --- | --- |
 | name | String | The key to locate. |
 
-## Return Value
+### Return Value
 
 True if the collection contains an tag with the specified key; otherwise, false.
 

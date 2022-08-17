@@ -1,7 +1,7 @@
 ---
 title: Clear
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Set ColorScheme FontScheme FormatScheme to null to disable any overriding with this theme object.
 type: docs
 weight: 30
 url: /net/aspose.slides.theme/ioverridetheme/clear/

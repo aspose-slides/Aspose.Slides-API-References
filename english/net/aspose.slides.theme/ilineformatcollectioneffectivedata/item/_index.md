@@ -1,7 +1,7 @@
 ---
 title: Item
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Gets the element at the specified index. Read-only ILineFormatEffectiveDataaspose.slides/ilineformateffectivedata.
 type: docs
 weight: 10
 url: /net/aspose.slides.theme/ilineformatcollectioneffectivedata/item/

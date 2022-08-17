@@ -1,7 +1,7 @@
 ---
 title: DataSourceType
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents external workbook path if external data source null otherwise
 type: docs
 weight: 30
 url: /net/aspose.slides.charts/chartdata/datasourcetype/

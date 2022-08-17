@@ -1,7 +1,7 @@
 ---
 title: ShowOutlierPoints
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents outlier points. True if outlier points are shown on the BoxAndWhisker chart. Applies only to BoxAndWhisker charts. Read/write Boolean.
 type: docs
 weight: 410
 url: /net/aspose.slides.charts/ichartseries/showoutlierpoints/

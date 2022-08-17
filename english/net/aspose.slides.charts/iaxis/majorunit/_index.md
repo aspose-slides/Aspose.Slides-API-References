@@ -1,7 +1,7 @@
 ---
 title: MajorUnit
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents the major units for the date or value axis. Read/write Double.
 type: docs
 weight: 360
 url: /net/aspose.slides.charts/iaxis/majorunit/

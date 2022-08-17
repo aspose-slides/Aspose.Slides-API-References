@@ -1,7 +1,7 @@
 ---
 title: TriggerShape
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets shape target for INTERACTIVE sequence. If sequence is not interactive then returns null. Read/write IShapeaspose.slides/ishape.
 type: docs
 weight: 30
 url: /net/aspose.slides.animation/sequence/triggershape/

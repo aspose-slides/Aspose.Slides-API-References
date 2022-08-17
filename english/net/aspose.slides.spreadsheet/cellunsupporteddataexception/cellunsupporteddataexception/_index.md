@@ -1,12 +1,12 @@
 ---
 title: CellUnsupportedDataException
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Initializes a new instance of the CellUnsupportedDataExceptionaspose.slides.spreadsheet/cellunsupporteddataexception class.
 type: docs
 weight: 10
 url: /net/aspose.slides.spreadsheet/cellunsupporteddataexception/cellunsupporteddataexception/
 ---
-## CellUnsupportedDataException constructor (1 of 3)
+## CellUnsupportedDataException() {#constructor}
 
 Initializes a new instance of the [`CellUnsupportedDataException`](../../cellunsupporteddataexception) class.
 
@@ -22,7 +22,7 @@ public CellUnsupportedDataException()
 
 ---
 
-## CellUnsupportedDataException constructor (2 of 3)
+## CellUnsupportedDataException(string) {#constructor_1}
 
 Initializes a new instance of the [`CellUnsupportedDataException`](../../cellunsupporteddataexception) class with a specified error message.
 
@@ -42,7 +42,7 @@ public CellUnsupportedDataException(string message)
 
 ---
 
-## CellUnsupportedDataException constructor (3 of 3)
+## CellUnsupportedDataException(string, Exception) {#constructor_2}
 
 Initializes a new instance of the [`CellUnsupportedDataException`](../../cellunsupporteddataexception) class with a specified error message and a reference to the inner exception that is the cause of this exception.
 

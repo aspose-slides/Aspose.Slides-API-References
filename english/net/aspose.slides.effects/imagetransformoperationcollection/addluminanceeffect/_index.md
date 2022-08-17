@@ -1,7 +1,7 @@
 ---
 title: AddLuminanceEffect
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Adds the new Luminance effect to the end of a collection.
 type: docs
 weight: 200
 url: /net/aspose.slides.effects/imagetransformoperationcollection/addluminanceeffect/
@@ -19,7 +19,7 @@ public ILuminance AddLuminanceEffect(float brightness, float contrast)
 | brightness | Single | The percent to change the brightness. |
 | contrast | Single | The percent to change the contrast. |
 
-## Return Value
+### Return Value
 
 Index of the new image effect in a collection.
 

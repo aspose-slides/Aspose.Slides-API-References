@@ -1,7 +1,7 @@
 ---
 title: Character
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Accent Character The value should be within the range of U0300U036F orU20D0U20EF Default value Combining Circumflex Accent U0302
 type: docs
 weight: 30
 url: /net/aspose.slides.mathtext/mathaccent/character/

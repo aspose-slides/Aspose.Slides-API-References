@@ -1,7 +1,7 @@
 ---
 title: GetGeometryPaths
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the copy of path of the geometry shape. Coordinates are relative to the left top corner of the shape.
 type: docs
 weight: 60
 url: /net/aspose.slides/igeometryshape/getgeometrypaths/
@@ -14,7 +14,7 @@ Returns the copy of path of the geometry shape. Coordinates are relative to the 
 public IGeometryPath[] GetGeometryPaths()
 ```
 
-## Return Value
+### Return Value
 
 Array of [`IGeometryPath`](../../igeometrypath)
 

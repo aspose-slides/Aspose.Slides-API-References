@@ -1,7 +1,7 @@
 ---
 title: Equals
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Determines whether the specified ColorReplaceaspose.slides.effects/colorreplace is equal to the current ColorReplaceaspose.slides.effects/colorreplace.
 type: docs
 weight: 20
 url: /net/aspose.slides.effects/colorreplace/equals/
@@ -18,7 +18,7 @@ public override bool Equals(object obj)
 | --- | --- | --- |
 | obj | Object | The [`ColorReplace`](../../colorreplace) to compare. |
 
-## Return Value
+### Return Value
 
 true if objects are equal; otherwise, false.
 

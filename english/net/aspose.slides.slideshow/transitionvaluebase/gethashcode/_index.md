@@ -1,7 +1,7 @@
 ---
 title: GetHashCode
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Serves as a hash function for a particular type suitable for use in hashing algorithms and data structures like a hash table.
 type: docs
 weight: 20
 url: /net/aspose.slides.slideshow/transitionvaluebase/gethashcode/
@@ -14,7 +14,7 @@ Serves as a hash function for a particular type, suitable for use in hashing alg
 public override int GetHashCode()
 ```
 
-## Return Value
+### Return Value
 
 23454
 

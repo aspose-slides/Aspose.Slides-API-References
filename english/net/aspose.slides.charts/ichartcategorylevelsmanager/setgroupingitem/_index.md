@@ -1,7 +1,7 @@
 ---
 title: SetGroupingItem
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Sets grouping item for defined level.
 type: docs
 weight: 30
 url: /net/aspose.slides.charts/ichartcategorylevelsmanager/setgroupingitem/

@@ -1,9 +1,9 @@
 ---
 title: CannotCombine2DAnd3DChartsException
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Exception which thrown when trying to combine 2D and 3D chart types.
 type: docs
-weight: 1100
+weight: 1120
 url: /net/aspose.slides.charts/cannotcombine2dand3dchartsexception/
 ---
 ## CannotCombine2DAnd3DChartsException class
@@ -18,9 +18,9 @@ public class CannotCombine2DAnd3DChartsException : InvalidOperationException
 
 | Name | Description |
 | --- | --- |
-| [CannotCombine2DAnd3DChartsException](cannotcombine2dand3dchartsexception)() | Default constructor. |
-| [CannotCombine2DAnd3DChartsException](cannotcombine2dand3dchartsexception)(string) | Constructor allowing a message to be added to this exception. |
-| [CannotCombine2DAnd3DChartsException](cannotcombine2dand3dchartsexception)(string, Exception) | Constructor for an exception containing a message and an embedded exception. |
+| [CannotCombine2DAnd3DChartsException](cannotcombine2dand3dchartsexception#constructor)() | Default constructor. |
+| [CannotCombine2DAnd3DChartsException](cannotcombine2dand3dchartsexception#constructor_1)(string) | Constructor allowing a message to be added to this exception. |
+| [CannotCombine2DAnd3DChartsException](cannotcombine2dand3dchartsexception#constructor_2)(string, Exception) | Constructor for an exception containing a message and an embedded exception. |
 
 ### See Also
 

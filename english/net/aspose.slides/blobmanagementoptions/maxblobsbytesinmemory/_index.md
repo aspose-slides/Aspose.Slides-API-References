@@ -1,7 +1,7 @@
 ---
 title: MaxBlobsBytesInMemory
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: A threshold that indicates the maximum amount of bytes which BLOBs can occupied in memory. After this threshold was reached all new BLOBs will be placed in temporary files and will not affect the total memory consumption of the process. IsTemporaryFilesAllowedaspose.slides/blobmanagementoptions/istemporaryfilesallowed should be set to true to use this property.
 type: docs
 weight: 30
 url: /net/aspose.slides/blobmanagementoptions/maxblobsbytesinmemory/

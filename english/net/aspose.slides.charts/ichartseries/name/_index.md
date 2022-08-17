@@ -1,7 +1,7 @@
 ---
 title: Name
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Return series name. Read-only IStringChartValueaspose.slides.charts/istringchartvalue.
 type: docs
 weight: 210
 url: /net/aspose.slides.charts/ichartseries/name/

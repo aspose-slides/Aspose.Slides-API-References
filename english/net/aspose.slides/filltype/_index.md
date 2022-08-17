@@ -1,9 +1,9 @@
 ---
 title: FillType
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Specifies the interior fill type of various visual objects.
 type: docs
-weight: 4350
+weight: 4370
 url: /net/aspose.slides/filltype/
 ---
 ## FillType enumeration
@@ -14,7 +14,7 @@ Specifies the interior fill type of various visual objects.
 public enum FillType : sbyte
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

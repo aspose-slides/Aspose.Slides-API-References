@@ -1,7 +1,7 @@
 ---
 title: ShowCommentsByNoAuthor
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Gets or sets the visibility of comments that do not have an author. If true then comments will be displayed. Applies only if comments are displayed.
 type: docs
 weight: 60
 url: /net/aspose.slides.export/notescommentslayoutingoptions/showcommentsbynoauthor/

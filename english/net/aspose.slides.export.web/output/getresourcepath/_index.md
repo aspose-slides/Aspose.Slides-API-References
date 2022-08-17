@@ -1,7 +1,7 @@
 ---
 title: GetResourcePath
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the path for a given resource.
 type: docs
 weight: 30
 url: /net/aspose.slides.export.web/output/getresourcepath/
@@ -18,7 +18,7 @@ public string GetResourcePath(object obj)
 | --- | --- | --- |
 | obj | Object | Resource object. |
 
-## Return Value
+### Return Value
 
 Resource path.
 

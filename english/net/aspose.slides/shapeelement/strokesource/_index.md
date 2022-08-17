@@ -1,7 +1,7 @@
 ---
 title: StrokeSource
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns information about how to stroke an element. Read-only ShapeElementStrokeSourceaspose.slides/shapeelementstrokesource.
 type: docs
 weight: 40
 url: /net/aspose.slides/shapeelement/strokesource/

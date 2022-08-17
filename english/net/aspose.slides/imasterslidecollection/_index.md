@@ -1,9 +1,9 @@
 ---
 title: IMasterSlideCollection
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents a collection of master slides.
 type: docs
-weight: 5870
+weight: 5890
 url: /net/aspose.slides/imasterslidecollection/
 ---
 ## IMasterSlideCollection interface

@@ -1,7 +1,7 @@
 ---
 title: AutoShapeLock
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns autoshapes locks. Read-only IAutoShapeLockaspose.slides/iautoshapelock.
 type: docs
 weight: 10
 url: /net/aspose.slides/autoshape/autoshapelock/

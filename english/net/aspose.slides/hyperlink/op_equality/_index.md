@@ -1,7 +1,7 @@
 ---
 title: op_Equality
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Tests two hyperlinks for equality.
 type: docs
 weight: 210
 url: /net/aspose.slides/hyperlink/op_equality/
@@ -19,7 +19,7 @@ public static bool operator ==(Hyperlink hlink1, Hyperlink hlink2)
 | hlink1 | Hyperlink | First hyperlink to be tested. |
 | hlink2 | Hyperlink | Second hyperlink to be tested. |
 
-## Return Value
+### Return Value
 
 **True** if hyperlinks are equal.
 

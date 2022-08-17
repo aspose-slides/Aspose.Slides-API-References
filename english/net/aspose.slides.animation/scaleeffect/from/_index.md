@@ -1,7 +1,7 @@
 ---
 title: From
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Specifies an x/y co-ordinate to start the animation from in percents. Read/write PointF.
 type: docs
 weight: 30
 url: /net/aspose.slides.animation/scaleeffect/from/

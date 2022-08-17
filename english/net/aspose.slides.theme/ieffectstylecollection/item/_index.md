@@ -1,7 +1,7 @@
 ---
 title: Item
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns an element at specified position. Read-only IEffectStyleaspose.slides.theme/ieffectstyle.
 type: docs
 weight: 10
 url: /net/aspose.slides.theme/ieffectstylecollection/item/
@@ -18,7 +18,7 @@ public IEffectStyle this[int index] { get; }
 | --- | --- |
 | index | Position of element. |
 
-## Return Value
+### Return Value
 
 Element at specified position.
 

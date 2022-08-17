@@ -1,7 +1,7 @@
 ---
 title: IndexOf
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns an index of the specified DataLabel in the collection.
 type: docs
 weight: 100
 url: /net/aspose.slides.charts/datalabelcollection/indexof/
@@ -18,7 +18,7 @@ public int IndexOf(IDataLabel value)
 | --- | --- | --- |
 | value | IDataLabel | DataLabel to find. |
 
-## Return Value
+### Return Value
 
 Index of a DataLabel or -1 if DataLabel not from this collection.
 

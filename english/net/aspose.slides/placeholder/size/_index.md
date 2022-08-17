@@ -1,7 +1,7 @@
 ---
 title: Size
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Gets or sets the size of a placeholder. Read-only PlaceholderSizeaspose.slides/placeholdersize.
 type: docs
 weight: 30
 url: /net/aspose.slides/placeholder/size/

@@ -1,7 +1,7 @@
 ---
 title: ExtrusionAutoRotationCenter
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents extrusion.autorotationcenter property
 type: docs
 weight: 10
 url: /net/aspose.slides.animation/behaviorproperty/extrusionautorotationcenter/

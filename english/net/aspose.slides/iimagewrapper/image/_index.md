@@ -1,7 +1,7 @@
 ---
 title: Image
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Gets the Syste.Drawing.Image Read-only Imageaspose.slides/iimagewrapper/image.
 type: docs
 weight: 20
 url: /net/aspose.slides/iimagewrapper/image/

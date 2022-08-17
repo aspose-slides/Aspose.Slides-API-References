@@ -1,7 +1,7 @@
 ---
 title: NormalVector
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets a normal vector. To be more precise this attribute defines a vector normal to the face of the backdrop plane. Vector represented by array of 3 float values which define X Y and Z coordinates. Read/write Single.
 type: docs
 weight: 20
 url: /net/aspose.slides/ibackdrop3dscene/normalvector/

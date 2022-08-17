@@ -1,7 +1,7 @@
 ---
 title: GraphicsPath
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns an elements path. Read-only GraphicsPath.
 type: docs
 weight: 20
 url: /net/aspose.slides/shapeelement/graphicspath/

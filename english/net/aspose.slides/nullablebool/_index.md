@@ -1,9 +1,9 @@
 ---
 title: NullableBool
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents triple boolean values.
 type: docs
-weight: 8440
+weight: 8460
 url: /net/aspose.slides/nullablebool/
 ---
 ## NullableBool enumeration
@@ -14,7 +14,7 @@ Represents triple boolean values.
 public enum NullableBool : sbyte
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

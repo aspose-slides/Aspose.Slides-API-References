@@ -1,7 +1,7 @@
 ---
 title: ExportHiddenSlides
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Determines whether hidden slides will be exported. The default value is false.
 type: docs
 weight: 30
 url: /net/aspose.slides.export/gifoptions/exporthiddenslides/

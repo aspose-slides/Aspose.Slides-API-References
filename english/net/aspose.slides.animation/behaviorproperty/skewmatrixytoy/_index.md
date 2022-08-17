@@ -1,7 +1,7 @@
 ---
 title: SkewMatrixYtoY
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents skew.matrix.ytoy property
 type: docs
 weight: 820
 url: /net/aspose.slides.animation/behaviorproperty/skewmatrixytoy/

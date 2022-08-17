@@ -1,7 +1,7 @@
 ---
 title: Item
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns an effect at the specified index.
 type: docs
 weight: 20
 url: /net/aspose.slides.animation/sequence/item/

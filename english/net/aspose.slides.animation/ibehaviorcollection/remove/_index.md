@@ -1,7 +1,7 @@
 ---
 title: Remove
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Removes specified behavior from a collection.
 type: docs
 weight: 90
 url: /net/aspose.slides.animation/ibehaviorcollection/remove/
@@ -18,7 +18,7 @@ public bool Remove(IBehavior item)
 | --- | --- | --- |
 | item | IBehavior | Behavior to remove. |
 
-## Return Value
+### Return Value
 
 True if a behavior removed successfully Boolean
 

@@ -1,7 +1,7 @@
 ---
 title: PicturesCompression
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents the pictures compression level Read/write PicturesCompressionaspose.slides.export/ihtmloptions/picturescompression.
 type: docs
 weight: 60
 url: /net/aspose.slides.export/ihtmloptions/picturescompression/

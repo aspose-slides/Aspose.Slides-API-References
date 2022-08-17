@@ -1,7 +1,7 @@
 ---
 title: StrokeSrc
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents stroke.src property
 type: docs
 weight: 1000
 url: /net/aspose.slides.animation/behaviorproperty/strokesrc/

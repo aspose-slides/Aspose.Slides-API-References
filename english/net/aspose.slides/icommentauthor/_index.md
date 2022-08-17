@@ -1,9 +1,9 @@
 ---
 title: ICommentAuthor
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents an author of comments.
 type: docs
-weight: 5070
+weight: 5090
 url: /net/aspose.slides/icommentauthor/
 ---
 ## ICommentAuthor interface

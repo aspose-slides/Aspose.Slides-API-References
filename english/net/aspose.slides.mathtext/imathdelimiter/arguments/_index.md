@@ -1,7 +1,7 @@
 ---
 title: Arguments
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: One or more mathematical elements separated by delimiter characters
 type: docs
 weight: 10
 url: /net/aspose.slides.mathtext/imathdelimiter/arguments/

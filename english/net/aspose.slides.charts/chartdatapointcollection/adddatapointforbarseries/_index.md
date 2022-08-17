@@ -1,12 +1,12 @@
 ---
 title: AddDataPointForBarSeries
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Column or Bar subtypes see also IsChartTypeColumnaspose.slides.charts/charttypecharacterizer/ischarttypecolumn and IsChartTypeBaraspose.slides.charts/charttypecharacterizer/ischarttypebar method.
 type: docs
 weight: 110
 url: /net/aspose.slides.charts/chartdatapointcollection/adddatapointforbarseries/
 ---
-## ChartDataPointCollection.AddDataPointForBarSeries method (1 of 2)
+## AddDataPointForBarSeries(IChartDataCell) {#adddatapointforbarseries}
 
 Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Column or Bar subtypes (see also [`IsChartTypeColumn`](../../charttypecharacterizer/ischarttypecolumn) and [`IsChartTypeBar`](../../charttypecharacterizer/ischarttypebar) method).
 
@@ -18,7 +18,7 @@ public IChartDataPoint AddDataPointForBarSeries(IChartDataCell value)
 | --- | --- | --- |
 | value | IChartDataCell | Data point Value |
 
-## Return Value
+### Return Value
 
 New data point.
 
@@ -32,7 +32,7 @@ New data point.
 
 ---
 
-## ChartDataPointCollection.AddDataPointForBarSeries method (2 of 2)
+## AddDataPointForBarSeries(double) {#adddatapointforbarseries_1}
 
 Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Column or Bar subtypes (see also [`IsChartTypeColumn`](../../charttypecharacterizer/ischarttypecolumn) and [`IsChartTypeBar`](../../charttypecharacterizer/ischarttypebar) method).
 
@@ -44,7 +44,7 @@ public IChartDataPoint AddDataPointForBarSeries(double value)
 | --- | --- | --- |
 | value | Double | Data point Value |
 
-## Return Value
+### Return Value
 
 New data point.
 

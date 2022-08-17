@@ -1,7 +1,7 @@
 ---
 title: SourceCode
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets the source code of the module. Read/write String.
 type: docs
 weight: 20
 url: /net/aspose.slides.vba/vbamodule/sourcecode/

@@ -1,7 +1,7 @@
 ---
 title: Kumimoji
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Determines whether the numbers should ignore text eastern language-specific vertical text layout. Read-only Boolean.
 type: docs
 weight: 150
 url: /net/aspose.slides/ibaseportionformateffectivedata/kumimoji/

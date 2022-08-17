@@ -1,12 +1,12 @@
 ---
 title: Save
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Saves Image to the specified file
 type: docs
 weight: 40
 url: /net/aspose.slides/imagewrapper/save/
 ---
-## ImageWrapper.Save method (1 of 3)
+## Save(string) {#save_1}
 
 Saves Image to the specified file
 
@@ -22,7 +22,7 @@ public void Save(string fileName)
 
 ---
 
-## ImageWrapper.Save method (2 of 3)
+## Save(Stream, PPImageFormat) {#save}
 
 Saves the Image to the specified stream in the specified format.
 
@@ -39,7 +39,7 @@ public void Save(Stream stream, PPImageFormat imageFormat)
 
 ---
 
-## ImageWrapper.Save method (3 of 3)
+## Save(string, PPImageFormat) {#save_2}
 
 Saves the Image to the specified file in the specified format.
 

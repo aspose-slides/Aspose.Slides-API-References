@@ -1,7 +1,7 @@
 ---
 title: AddAuthor
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Add new author at the end of a collection.
 type: docs
 weight: 20
 url: /net/aspose.slides/icommentauthorcollection/addauthor/
@@ -19,7 +19,7 @@ public ICommentAuthor AddAuthor(string name, string initials)
 | name | String | Name of a new author. |
 | initials | String | Initials of a new author. |
 
-## Return Value
+### Return Value
 
 New [`ICommentAuthor`](../../icommentauthor) object.
 

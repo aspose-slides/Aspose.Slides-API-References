@@ -1,12 +1,12 @@
 ---
 title: Add
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Add new cell to the collection.
 type: docs
 weight: 40
 url: /net/aspose.slides.charts/ichartcellcollection/add/
 ---
-## IChartCellCollection.Add method (1 of 2)
+## Add(IChartDataCell) {#add}
 
 Add new cell to the collection.
 
@@ -27,7 +27,7 @@ public void Add(IChartDataCell chartDataCell)
 
 ---
 
-## IChartCellCollection.Add method (2 of 2)
+## Add(object) {#add_1}
 
 Creates [`IChartDataCell`](../../ichartdatacell) from specified value and adds it to the collection.
 

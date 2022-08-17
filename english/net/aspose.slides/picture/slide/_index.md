@@ -1,9 +1,9 @@
 ---
 title: Slide
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the parent slide of a picture. Read-only IBaseSlideaspose.slides/ibaseslide.
 type: docs
-weight: 50
+weight: 60
 url: /net/aspose.slides/picture/slide/
 ---
 ## Picture.Slide property

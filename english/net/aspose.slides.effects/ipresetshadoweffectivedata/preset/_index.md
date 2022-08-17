@@ -1,7 +1,7 @@
 ---
 title: Preset
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Preset. Read-only PresetShadowTypeaspose.slides/presetshadowtype.
 type: docs
 weight: 40
 url: /net/aspose.slides.effects/ipresetshadoweffectivedata/preset/

@@ -1,7 +1,7 @@
 ---
 title: GetEffective
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Gets effective text style formatting data with the inheritance applied.
 type: docs
 weight: 20
 url: /net/aspose.slides/itextstyle/geteffective/
@@ -14,7 +14,7 @@ Gets effective text style formatting data with the inheritance applied.
 public ITextStyleEffectiveData GetEffective()
 ```
 
-## Return Value
+### Return Value
 
 A [`ITextStyleEffectiveData`](../../itextstyleeffectivedata).
 

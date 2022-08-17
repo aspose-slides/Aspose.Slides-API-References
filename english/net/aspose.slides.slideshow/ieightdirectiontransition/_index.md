@@ -1,9 +1,9 @@
 ---
 title: IEightDirectionTransition
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Eight direction slide transition effect.
 type: docs
-weight: 9290
+weight: 9310
 url: /net/aspose.slides.slideshow/ieightdirectiontransition/
 ---
 ## IEightDirectionTransition interface

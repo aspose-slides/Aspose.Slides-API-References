@@ -1,7 +1,7 @@
 ---
 title: KerningMinimalSize
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets the minimal font size for which kerning should be switched on. float.NaN means value is undefined and should be inherited from the Master. Read/write Single.
 type: docs
 weight: 140
 url: /net/aspose.slides/baseportionformat/kerningminimalsize/

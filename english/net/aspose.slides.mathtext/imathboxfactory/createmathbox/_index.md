@@ -1,7 +1,7 @@
 ---
 title: CreateMathBox
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Create a math box by applying to the element
 type: docs
 weight: 10
 url: /net/aspose.slides.mathtext/imathboxfactory/createmathbox/
@@ -18,7 +18,7 @@ public IMathBox CreateMathBox(IMathElement element)
 | --- | --- | --- |
 | element | IMathElement | math element to apply box |
 
-## Return Value
+### Return Value
 
 new box element
 

@@ -1,7 +1,7 @@
 ---
 title: IsAutomaticTickMarksSpacing
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Specifies automatic tick marks spacing value. If false use TickMarksSpacing property. Read/write Boolean.
 type: docs
 weight: 240
 url: /net/aspose.slides.charts/iaxis/isautomatictickmarksspacing/

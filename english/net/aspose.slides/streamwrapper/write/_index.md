@@ -1,7 +1,7 @@
 ---
 title: Write
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: writes a sequence of bytes to the current stream and advances the current position within this stream by the number of bytes written.
 type: docs
 weight: 140
 url: /net/aspose.slides/streamwrapper/write/

@@ -1,7 +1,7 @@
 ---
 title: Title
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets the title of a presentation. Read/write String.
 type: docs
 weight: 240
 url: /net/aspose.slides/documentproperties/title/

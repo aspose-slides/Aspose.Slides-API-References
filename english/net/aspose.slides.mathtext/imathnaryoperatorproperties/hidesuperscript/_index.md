@@ -1,7 +1,7 @@
 ---
 title: HideSuperscript
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Hide Superscript
 type: docs
 weight: 30
 url: /net/aspose.slides.mathtext/imathnaryoperatorproperties/hidesuperscript/

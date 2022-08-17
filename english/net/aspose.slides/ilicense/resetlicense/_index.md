@@ -1,7 +1,7 @@
 ---
 title: ResetLicense
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Reset the license
 type: docs
 weight: 10
 url: /net/aspose.slides/ilicense/resetlicense/

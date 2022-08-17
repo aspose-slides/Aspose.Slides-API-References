@@ -1,7 +1,7 @@
 ---
 title: Bottom
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Gets the top of the chart element as a fraction of the height of the chart. Read-only Single.
 type: docs
 weight: 20
 url: /net/aspose.slides.charts/ilayoutable/bottom/

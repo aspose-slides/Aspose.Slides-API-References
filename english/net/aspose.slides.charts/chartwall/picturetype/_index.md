@@ -1,7 +1,7 @@
 ---
 title: PictureType
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Return or sets the picture type. Read/write PictureTypeaspose.slides.charts/picturetype.
 type: docs
 weight: 20
 url: /net/aspose.slides.charts/chartwall/picturetype/

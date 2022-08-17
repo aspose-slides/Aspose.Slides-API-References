@@ -1,7 +1,7 @@
 ---
 title: LimitLocation
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: The location of limits subscript and superscript
 type: docs
 weight: 40
 url: /net/aspose.slides.mathtext/imathnaryoperatorproperties/limitlocation/

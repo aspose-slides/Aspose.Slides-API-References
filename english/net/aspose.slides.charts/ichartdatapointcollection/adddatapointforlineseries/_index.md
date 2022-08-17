@@ -1,12 +1,12 @@
 ---
 title: AddDataPointForLineSeries
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Line subtypes see also ChartTypeCharacterizer.IsChartTypeLineChartType method.
 type: docs
 weight: 140
 url: /net/aspose.slides.charts/ichartdatapointcollection/adddatapointforlineseries/
 ---
-## IChartDataPointCollection.AddDataPointForLineSeries method (1 of 2)
+## AddDataPointForLineSeries(IChartDataCell) {#adddatapointforlineseries}
 
 Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Line subtypes (see also ChartTypeCharacterizer.IsChartTypeLine(ChartType) method).
 
@@ -18,7 +18,7 @@ public IChartDataPoint AddDataPointForLineSeries(IChartDataCell value)
 | --- | --- | --- |
 | value | IChartDataCell | Data point Value. |
 
-## Return Value
+### Return Value
 
 New data point.
 
@@ -32,7 +32,7 @@ New data point.
 
 ---
 
-## IChartDataPointCollection.AddDataPointForLineSeries method (2 of 2)
+## AddDataPointForLineSeries(double) {#adddatapointforlineseries_1}
 
 Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Line subtypes (see also ChartTypeCharacterizer.IsChartTypeLine(ChartType) method).
 
@@ -44,7 +44,7 @@ public IChartDataPoint AddDataPointForLineSeries(double value)
 | --- | --- | --- |
 | value | Double | Data point Value. |
 
-## Return Value
+### Return Value
 
 New data point.
 

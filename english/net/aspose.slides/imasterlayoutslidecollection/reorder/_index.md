@@ -1,7 +1,7 @@
 ---
 title: Reorder
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Moves layout slide from the collection to the specified position.
 type: docs
 weight: 70
 url: /net/aspose.slides/imasterlayoutslidecollection/reorder/

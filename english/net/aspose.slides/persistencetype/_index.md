@@ -1,9 +1,9 @@
 ---
 title: PersistenceType
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Specifies the method used to store properties of the ActiveX control.
 type: docs
-weight: 8640
+weight: 8660
 url: /net/aspose.slides/persistencetype/
 ---
 ## PersistenceType enumeration
@@ -14,7 +14,7 @@ Specifies the method used to store properties of the ActiveX control.
 public enum PersistenceType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

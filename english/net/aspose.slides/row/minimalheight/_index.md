@@ -1,7 +1,7 @@
 ---
 title: MinimalHeight
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets the minimal possible height of a row. Read/write Double.
 type: docs
 weight: 20
 url: /net/aspose.slides/row/minimalheight/

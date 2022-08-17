@@ -1,7 +1,7 @@
 ---
 title: MaxValue
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents the maximum value on the value axis. Read/write Double.
 type: docs
 weight: 380
 url: /net/aspose.slides.charts/iaxis/maxvalue/

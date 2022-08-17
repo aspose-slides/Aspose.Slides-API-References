@@ -1,9 +1,9 @@
 ---
 title: TransitionCornerDirectionType
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represent corner direction transition types.
 type: docs
-weight: 9570
+weight: 9590
 url: /net/aspose.slides.slideshow/transitioncornerdirectiontype/
 ---
 ## TransitionCornerDirectionType enumeration
@@ -14,7 +14,7 @@ Represent corner direction transition types.
 public enum TransitionCornerDirectionType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

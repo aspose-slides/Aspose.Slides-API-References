@@ -1,7 +1,7 @@
 ---
 title: DepthPercents
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets the depth of a 3D chart as a percentage of a chart width between 20 and 2000 percent. Read/write UInt16.
 type: docs
 weight: 10
 url: /net/aspose.slides.charts/rotation3d/depthpercents/

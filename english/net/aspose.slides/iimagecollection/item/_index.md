@@ -1,7 +1,7 @@
 ---
 title: Item
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns image by its index.
 type: docs
 weight: 10
 url: /net/aspose.slides/iimagecollection/item/
@@ -18,7 +18,7 @@ public IPPImage this[int index] { get; }
 | --- | --- |
 | index | Index. |
 
-## Return Value
+### Return Value
 
 Image.
 

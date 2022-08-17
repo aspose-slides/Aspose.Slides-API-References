@@ -1,12 +1,12 @@
 ---
 title: Add
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Adds a new property to the collection.
 type: docs
 weight: 40
 url: /net/aspose.slides.animation/behaviorpropertycollection/add/
 ---
-## BehaviorPropertyCollection.Add method (1 of 2)
+## Add(IBehaviorProperty) {#add}
 
 Adds a new property to the collection.
 
@@ -27,7 +27,7 @@ public void Add(IBehaviorProperty item)
 
 ---
 
-## BehaviorPropertyCollection.Add method (2 of 2)
+## Add(string) {#add_1}
 
 Adds a new property to the collection.
 

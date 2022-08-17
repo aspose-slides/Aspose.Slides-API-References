@@ -1,7 +1,7 @@
 ---
 title: Hidden
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Determines whether the specified slide is hidden during a slide show. Read/write Boolean.
 type: docs
 weight: 20
 url: /net/aspose.slides/slide/hidden/

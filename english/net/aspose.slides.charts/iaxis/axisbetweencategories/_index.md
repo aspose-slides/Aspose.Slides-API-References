@@ -1,7 +1,7 @@
 ---
 title: AxisBetweenCategories
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents if the value axis crosses the category axis between categories. This property applies only to category axes and it doesnt apply to 3-D charts. Read/write Boolean.
 type: docs
 weight: 90
 url: /net/aspose.slides.charts/iaxis/axisbetweencategories/

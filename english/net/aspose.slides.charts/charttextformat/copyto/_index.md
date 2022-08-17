@@ -1,7 +1,7 @@
 ---
 title: CopyTo
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Copies text format to specified text frame.
 type: docs
 weight: 50
 url: /net/aspose.slides.charts/charttextformat/copyto/

@@ -1,7 +1,7 @@
 ---
 title: GetAllTextBoxes
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns all text frames on a slide in a PPTX presentation.
 type: docs
 weight: 30
 url: /net/aspose.slides.util/slideutil/getalltextboxes/
@@ -18,7 +18,7 @@ public static ITextFrame[] GetAllTextBoxes(IBaseSlide slide)
 | --- | --- | --- |
 | slide | IBaseSlide | Scanned slide. |
 
-## Return Value
+### Return Value
 
 Array of [`TextFrame`](../../../aspose.slides/textframe) objects.
 

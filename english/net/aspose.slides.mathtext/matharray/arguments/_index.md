@@ -1,7 +1,7 @@
 ---
 title: Arguments
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: The set of items of the array
 type: docs
 weight: 20
 url: /net/aspose.slides.mathtext/matharray/arguments/

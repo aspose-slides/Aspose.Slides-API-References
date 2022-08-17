@@ -1,7 +1,7 @@
 ---
 title: SegmentData
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Path data of the segment
 type: docs
 weight: 20
 url: /net/aspose.slides/ipathsegment/segmentdata/

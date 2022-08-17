@@ -1,7 +1,7 @@
 ---
 title: FirstColumnIndex
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns an index of first column covered by the cell. Read-only Int32.
 type: docs
 weight: 50
 url: /net/aspose.slides/cell/firstcolumnindex/

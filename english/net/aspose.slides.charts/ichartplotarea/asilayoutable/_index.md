@@ -1,7 +1,7 @@
 ---
 title: AsILayoutable
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Allows to get base ILayoutable interface. Read-only ILayoutableaspose.slides.charts/ilayoutable.
 type: docs
 weight: 20
 url: /net/aspose.slides.charts/ichartplotarea/asilayoutable/

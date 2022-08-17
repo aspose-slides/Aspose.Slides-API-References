@@ -1,7 +1,7 @@
 ---
 title: HeaderFooterManager
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns HeaderFooter manager of the notes slide. Read-only INotesSlideHeaderFooterManageraspose.slides/inotesslideheaderfootermanager.
 type: docs
 weight: 30
 url: /net/aspose.slides/inotesslide/headerfootermanager/

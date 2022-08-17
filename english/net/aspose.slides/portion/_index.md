@@ -1,9 +1,9 @@
 ---
 title: Portion
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents a portion of text inside a text paragraph.
 type: docs
-weight: 8730
+weight: 8750
 url: /net/aspose.slides/portion/
 ---
 ## Portion class
@@ -18,9 +18,9 @@ public class Portion : IPortion
 
 | Name | Description |
 | --- | --- |
-| [Portion](portion)() | Initializes a new instance of the Portion class. |
-| [Portion](portion)(Portion) | Initializes a new instance of the Portion class. |
-| [Portion](portion)(string) | Initializes a new instance of the Portion class. |
+| [Portion](portion#constructor)() | Initializes a new instance of the Portion class. |
+| [Portion](portion#constructor_1)(Portion) | Initializes a new instance of the Portion class. |
+| [Portion](portion#constructor_2)(string) | Initializes a new instance of the Portion class. |
 
 ## Properties
 
@@ -34,8 +34,8 @@ public class Portion : IPortion
 
 | Name | Description |
 | --- | --- |
-| [AddField](../../aspose.slides/portion/addfield)(IFieldType) | Converts this portion to the automaticaly updated field. |
-| [AddField](../../aspose.slides/portion/addfield)(string) | Converts this portion to the automaticaly updated field. |
+| [AddField](../../aspose.slides/portion/addfield#addfield)(IFieldType) | Converts this portion to the automaticaly updated field. |
+| [AddField](../../aspose.slides/portion/addfield#addfield_1)(string) | Converts this portion to the automaticaly updated field. |
 | [GetCoordinates](../../aspose.slides/portion/getcoordinates)() | Get coordinates of the beginning of the portion. The X coordinate of point represents the portion beginning from the first character including left side bearing. The Y coordinate includes top side bearing. |
 | [GetRect](../../aspose.slides/portion/getrect)() | Get coordinates of rect that bounds portion. The rect includes all the lines of text in portion, including empty ones. |
 | [RemoveField](../../aspose.slides/portion/removefield)() | Converts this field portion to the simple portion. |

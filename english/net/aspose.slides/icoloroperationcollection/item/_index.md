@@ -1,7 +1,7 @@
 ---
 title: Item
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets the operation at the specified index. Read/write IColorOperationaspose.slides/icoloroperation.
 type: docs
 weight: 10
 url: /net/aspose.slides/icoloroperationcollection/item/

@@ -1,7 +1,7 @@
 ---
 title: Tabs
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns tabulations of a paragraph. Read-only ITabEffectiveDataaspose.slides/itabeffectivedata.
 type: docs
 weight: 170
 url: /net/aspose.slides/iparagraphformateffectivedata/tabs/

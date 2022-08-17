@@ -1,7 +1,7 @@
 ---
 title: Clear
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Removes all commands from the collection.
 type: docs
 weight: 50
 url: /net/aspose.slides.animation/imotionpath/clear/

@@ -1,7 +1,7 @@
 ---
 title: SideWall
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns an object which allows to change format of the side wall of a 3D chart. Read-only IChartWallaspose.slides.charts/ichartwall.
 type: docs
 weight: 190
 url: /net/aspose.slides.charts/chart/sidewall/

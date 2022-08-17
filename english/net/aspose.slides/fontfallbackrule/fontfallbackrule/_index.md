@@ -1,12 +1,12 @@
 ---
 title: FontFallBackRule
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates new instance.
 type: docs
 weight: 10
 url: /net/aspose.slides/fontfallbackrule/fontfallbackrule/
 ---
-## FontFallBackRule constructor (1 of 2)
+## FontFallBackRule(uint, uint, string) {#constructor}
 
 Creates new instance.
 
@@ -39,7 +39,7 @@ IFontFallBackRule newRule = new FontFallBackRule(0x3040, 0x309F, "MS Mincho, MS 
 
 ---
 
-## FontFallBackRule constructor (2 of 2)
+## FontFallBackRule(uint, uint, string[]) {#constructor_1}
 
 Creates new instance.
 

@@ -1,7 +1,7 @@
 ---
 title: LatinLineBreak
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Determines whether the Latin line break is used in a paragraph. No inheritance applied. Read/write NullableBoolaspose.slides/nullablebool.
 type: docs
 weight: 100
 url: /net/aspose.slides/iparagraphformat/latinlinebreak/

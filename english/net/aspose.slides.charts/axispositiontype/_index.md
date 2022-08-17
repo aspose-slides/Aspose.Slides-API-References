@@ -1,9 +1,9 @@
 ---
 title: AxisPositionType
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Determines a position of axis.
 type: docs
-weight: 1070
+weight: 1090
 url: /net/aspose.slides.charts/axispositiontype/
 ---
 ## AxisPositionType enumeration
@@ -14,7 +14,7 @@ Determines a position of axis.
 public enum AxisPositionType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -1,9 +1,9 @@
 ---
 title: ChartDataSourceType
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents a type of data source of the chart
 type: docs
-weight: 1230
+weight: 1250
 url: /net/aspose.slides.charts/chartdatasourcetype/
 ---
 ## ChartDataSourceType enumeration
@@ -14,7 +14,7 @@ Represents a type of data source of the chart
 public enum ChartDataSourceType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -1,7 +1,7 @@
 ---
 title: Value
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Text value
 type: docs
 weight: 30
 url: /net/aspose.slides.mathtext/mathematicaltext/value/

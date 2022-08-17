@@ -1,9 +1,9 @@
 ---
 title: IControlPropertiesCollection
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: A collection of ActiveX controls.
 type: docs
-weight: 5150
+weight: 5170
 url: /net/aspose.slides/icontrolpropertiescollection/
 ---
 ## IControlPropertiesCollection interface

@@ -1,9 +1,9 @@
 ---
 title: IAlphaFloor
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents an Alpha Floor effect. Alpha opacity values less than 100 are changed to zero. In other words anything partially transparent becomes fully transparent.
 type: docs
-weight: 2880
+weight: 2900
 url: /net/aspose.slides.effects/ialphafloor/
 ---
 ## IAlphaFloor interface

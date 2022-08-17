@@ -1,7 +1,7 @@
 ---
 title: GetEffective
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Gets effective Luminance effect data with the inheritance applied.
 type: docs
 weight: 20
 url: /net/aspose.slides.effects/luminance/geteffective/
@@ -14,7 +14,7 @@ Gets effective Luminance effect data with the inheritance applied.
 public ILuminanceEffectiveData GetEffective()
 ```
 
-## Return Value
+### Return Value
 
 A [`ILuminanceEffectiveData`](../../iluminanceeffectivedata).
 

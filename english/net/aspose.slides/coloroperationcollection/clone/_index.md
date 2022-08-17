@@ -1,7 +1,7 @@
 ---
 title: Clone
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates a copy of a ColorOperationCollection collection.
 type: docs
 weight: 70
 url: /net/aspose.slides/coloroperationcollection/clone/
@@ -14,7 +14,7 @@ Creates a copy of a ColorOperationCollection collection.
 public object Clone()
 ```
 
-## Return Value
+### Return Value
 
 New [`ColorOperationCollection`](../../coloroperationcollection) collection.
 

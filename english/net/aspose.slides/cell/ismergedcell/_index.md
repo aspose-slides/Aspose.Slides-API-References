@@ -1,7 +1,7 @@
 ---
 title: IsMergedCell
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns true if the cell is merged with any adjusted cell false otherwise. Read-only Boolean.
 type: docs
 weight: 90
 url: /net/aspose.slides/cell/ismergedcell/

@@ -1,7 +1,7 @@
 ---
 title: PresetNumberFormat
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Gets or sets the built-in display format of numbers and dates. Preset number must be in 0..22 or 37..49. Read/write Byte.
 type: docs
 weight: 60
 url: /net/aspose.slides.charts/chartdatacell/presetnumberformat/

@@ -1,7 +1,7 @@
 ---
 title: ExtrusionOrientationX
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents extrusion.orientation.x property
 type: docs
 weight: 90
 url: /net/aspose.slides.animation/behaviorproperty/extrusionorientationx/

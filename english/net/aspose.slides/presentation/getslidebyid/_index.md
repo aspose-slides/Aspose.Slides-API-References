@@ -1,9 +1,9 @@
 ---
 title: GetSlideById
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns a Slide MasterSlide or LayoutSlide by Id.
 type: docs
-weight: 300
+weight: 310
 url: /net/aspose.slides/presentation/getslidebyid/
 ---
 ## Presentation.GetSlideById method
@@ -18,7 +18,7 @@ public IBaseSlide GetSlideById(uint id)
 | --- | --- | --- |
 | id | UInt32 | Id of a slide. |
 
-## Return Value
+### Return Value
 
 IBaseSlide object.
 

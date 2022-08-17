@@ -1,7 +1,7 @@
 ---
 title: ScaleEffect
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents animation scale effect.
 type: docs
 weight: 680
 url: /net/aspose.slides.animation/scaleeffect/

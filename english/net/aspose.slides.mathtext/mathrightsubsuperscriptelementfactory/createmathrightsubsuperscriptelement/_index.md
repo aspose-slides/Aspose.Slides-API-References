@@ -1,7 +1,7 @@
 ---
 title: CreateMathRightSubSuperscriptElement
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates an instance of IMathRightSubSuperscriptElementFactory
 type: docs
 weight: 20
 url: /net/aspose.slides.mathtext/mathrightsubsuperscriptelementfactory/createmathrightsubsuperscriptelement/
@@ -21,7 +21,7 @@ public IMathRightSubSuperscriptElement CreateMathRightSubSuperscriptElement(IMat
 | subScript | IMathElement | lower right index |
 | superScript | IMathElement | upper right index |
 
-## Return Value
+### Return Value
 
 new IMathLeftSubSuperscriptElement
 

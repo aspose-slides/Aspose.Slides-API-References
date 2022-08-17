@@ -1,7 +1,7 @@
 ---
 title: IsVisible
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: False means that data label is not visible and so all Show-flags ShowValue ... are false. Read-only Boolean.
 type: docs
 weight: 50
 url: /net/aspose.slides.charts/idatalabel/isvisible/

@@ -1,7 +1,7 @@
 ---
 title: CanSeek
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Gets a value indicating whether the current stream supports seeking. Read-only Boolean.
 type: docs
 weight: 30
 url: /net/aspose.slides/streamwrapper/canseek/

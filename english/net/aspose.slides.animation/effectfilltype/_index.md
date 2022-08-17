@@ -1,7 +1,7 @@
 ---
 title: EffectFillType
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represent fill types.
 type: docs
 weight: 210
 url: /net/aspose.slides.animation/effectfilltype/
@@ -14,7 +14,7 @@ Represent fill types.
 public enum EffectFillType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

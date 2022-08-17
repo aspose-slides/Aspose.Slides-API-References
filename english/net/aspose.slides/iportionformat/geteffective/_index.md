@@ -1,7 +1,7 @@
 ---
 title: GetEffective
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Gets effective portion formatting data with the inheritance applied.
 type: docs
 weight: 50
 url: /net/aspose.slides/iportionformat/geteffective/
@@ -14,7 +14,7 @@ Gets effective portion formatting data with the inheritance applied.
 public IPortionFormatEffectiveData GetEffective()
 ```
 
-## Return Value
+### Return Value
 
 A [`IPortionFormatEffectiveData`](../../iportionformateffectivedata).
 

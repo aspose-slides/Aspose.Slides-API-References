@@ -1,7 +1,7 @@
 ---
 title: Equals
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Determines whether the specified Bluraspose.slides.effects/blur is equal to the current Bluraspose.slides.effects/blur.
 type: docs
 weight: 30
 url: /net/aspose.slides.effects/blur/equals/
@@ -18,7 +18,7 @@ public override bool Equals(object obj)
 | --- | --- | --- |
 | obj | Object | The [`Blur`](../../blur) to compare. |
 
-## Return Value
+### Return Value
 
 true if objects are equal; otherwise, false.
 

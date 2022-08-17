@@ -1,7 +1,7 @@
 ---
 title: EndReflectionOpacity
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: End reflection opacity. percents. Read/write Single.
 type: docs
 weight: 50
 url: /net/aspose.slides.effects/reflection/endreflectionopacity/

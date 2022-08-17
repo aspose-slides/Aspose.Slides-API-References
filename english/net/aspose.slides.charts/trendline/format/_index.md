@@ -1,7 +1,7 @@
 ---
 title: Format
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents the format of the trend line. Read/write IFormataspose.slides.charts/iformat.
 type: docs
 weight: 50
 url: /net/aspose.slides.charts/trendline/format/

@@ -1,7 +1,7 @@
 ---
 title: Color
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns resulting color with all color transformations applied. Sets RGB colors and clears all color transformations. Read/write Color.
 type: docs
 weight: 30
 url: /net/aspose.slides/icolorformat/color/

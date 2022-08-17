@@ -1,7 +1,7 @@
 ---
 title: CreateAlphaModulate
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates Alpha modulate effect.
 type: docs
 weight: 40
 url: /net/aspose.slides.effects/iimagetransformoperationfactory/createalphamodulate/
@@ -14,7 +14,7 @@ Creates Alpha modulate effect.
 public IAlphaModulate CreateAlphaModulate()
 ```
 
-## Return Value
+### Return Value
 
 Alpha modulate effect.
 

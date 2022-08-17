@@ -1,7 +1,7 @@
 ---
 title: JoinStyle
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the lines join style. Read-only LineJoinStyleaspose.slides/linejoinstyle.
 type: docs
 weight: 130
 url: /net/aspose.slides/ilineformateffectivedata/joinstyle/

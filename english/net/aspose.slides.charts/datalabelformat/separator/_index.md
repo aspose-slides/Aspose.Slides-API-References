@@ -1,7 +1,7 @@
 ---
 title: Separator
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Sets or returns a Variant representing the separator used for the data labels on a chart. Read/write String.
 type: docs
 weight: 60
 url: /net/aspose.slides.charts/datalabelformat/separator/

@@ -1,7 +1,7 @@
 ---
 title: AggregationType
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents aggregation type of category axis binning. Applied to category. Used with Histogram or HistogramPareto series only.
 type: docs
 weight: 70
 url: /net/aspose.slides.charts/iaxis/aggregationtype/

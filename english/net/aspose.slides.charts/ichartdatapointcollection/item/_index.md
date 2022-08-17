@@ -1,7 +1,7 @@
 ---
 title: Item
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the series data point by index.
 type: docs
 weight: 60
 url: /net/aspose.slides.charts/ichartdatapointcollection/item/

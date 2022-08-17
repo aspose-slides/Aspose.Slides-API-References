@@ -1,7 +1,7 @@
 ---
 title: ToBox
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Places this element in a non-visual box logical grouping which is used to group components of an equation or other instance of mathematical text. A boxed object can for example serve as an operator emulator with or without an alignment point serve as a line break point or be grouped such as not to allow line breaks within.
 type: docs
 weight: 190
 url: /net/aspose.slides.mathtext/mathelementbase/tobox/
@@ -14,7 +14,7 @@ Places this element in a non-visual box (logical grouping) which is used to grou
 public IMathBox ToBox()
 ```
 
-## Return Value
+### Return Value
 
 Logical box with this element placed inside
 

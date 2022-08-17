@@ -1,7 +1,7 @@
 ---
 title: NextSlide
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns a hyperlink to the next slide. Read-only Hyperlinkaspose.slides/hyperlink.
 type: docs
 weight: 70
 url: /net/aspose.slides/hyperlink/nextslide/

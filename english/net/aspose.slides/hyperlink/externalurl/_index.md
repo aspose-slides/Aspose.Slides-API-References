@@ -1,7 +1,7 @@
 ---
 title: ExternalUrl
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Specifies the external URL. Read-only String.
 type: docs
 weight: 120
 url: /net/aspose.slides/hyperlink/externalurl/

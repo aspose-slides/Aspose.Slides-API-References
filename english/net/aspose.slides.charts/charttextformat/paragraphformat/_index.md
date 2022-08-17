@@ -1,7 +1,7 @@
 ---
 title: ParagraphFormat
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: ParagraphFormat. Read-only IChartParagraphFormataspose.slides.charts/ichartparagraphformat.
 type: docs
 weight: 10
 url: /net/aspose.slides.charts/charttextformat/paragraphformat/

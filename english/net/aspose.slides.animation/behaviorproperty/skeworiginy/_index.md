@@ -1,7 +1,7 @@
 ---
 title: SkewOriginY
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents skew.origin.y property
 type: docs
 weight: 870
 url: /net/aspose.slides.animation/behaviorproperty/skeworiginy/

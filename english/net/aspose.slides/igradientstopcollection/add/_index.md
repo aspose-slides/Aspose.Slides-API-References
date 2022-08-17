@@ -1,12 +1,12 @@
 ---
 title: Add
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates the new gradient stop and adds it to the end of collection.
 type: docs
 weight: 20
 url: /net/aspose.slides/igradientstopcollection/add/
 ---
-## IGradientStopCollection.Add method (1 of 3)
+## Add(float, Color) {#add_2}
 
 Creates the new gradient stop and adds it to the end of collection.
 
@@ -19,7 +19,7 @@ public IGradientStop Add(float position, Color color)
 | position | Single | Position of the new gradient stop. |
 | color | Color | Color of the new radient stop. |
 
-## Return Value
+### Return Value
 
 Index of the new gradient stop in the collection.
 
@@ -32,7 +32,7 @@ Index of the new gradient stop in the collection.
 
 ---
 
-## IGradientStopCollection.Add method (2 of 3)
+## Add(float, PresetColor) {#add}
 
 Creates the new gradient stop and adds it to the end of collection.
 
@@ -45,7 +45,7 @@ public IGradientStop Add(float position, PresetColor presetColor)
 | position | Single | Position of the new gradient stop. |
 | presetColor | PresetColor | Color of the new radient stop. |
 
-## Return Value
+### Return Value
 
 Index of the new gradient stop in the collection.
 
@@ -59,7 +59,7 @@ Index of the new gradient stop in the collection.
 
 ---
 
-## IGradientStopCollection.Add method (3 of 3)
+## Add(float, SchemeColor) {#add_1}
 
 Creates the new gradient stop and adds it to the end of collection.
 
@@ -72,7 +72,7 @@ public IGradientStop Add(float position, SchemeColor schemeColor)
 | position | Single | Position of the new gradient stop. |
 | schemeColor | SchemeColor | Color of the new radient stop. |
 
-## Return Value
+### Return Value
 
 Index of the new gradient stop in the collection.
 

@@ -1,7 +1,7 @@
 ---
 title: NotesSize
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns notes slide size object. Read-only INotesSizeaspose.slides/inotessize.
 type: docs
 weight: 210
 url: /net/aspose.slides/ipresentation/notessize/

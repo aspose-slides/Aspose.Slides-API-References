@@ -1,12 +1,12 @@
 ---
 title: InsertSectionZoomFrame
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates a new Section Zoom object and inserts into to a collection at the specified index.
 type: docs
 weight: 370
 url: /net/aspose.slides/shapecollection/insertsectionzoomframe/
 ---
-## ShapeCollection.InsertSectionZoomFrame method (1 of 2)
+## InsertSectionZoomFrame(int, float, float, float, float, ISection) {#insertsectionzoomframe}
 
 Creates a new Section Zoom object and inserts into to a collection at the specified index.
 
@@ -24,7 +24,7 @@ public ISectionZoomFrame InsertSectionZoomFrame(int index, float x, float y, flo
 | height | Single | Height of a new Section Zoom frame Single. |
 | section | ISection | The slide object referenced by the Section Zoom frame [`ISection`](../../isection). |
 
-## Return Value
+### Return Value
 
 Created Section Zoom object [`ISectionZoomFrame`](../../isectionzoomframe).
 
@@ -56,7 +56,7 @@ using (Presentation pres = new Presentation("Presentation.pptx"))
 
 ---
 
-## ShapeCollection.InsertSectionZoomFrame method (2 of 2)
+## InsertSectionZoomFrame(int, float, float, float, float, ISection, IPPImage) {#insertsectionzoomframe_1}
 
 Creates a new Section Zoom object and inserts it to a collection at the specified index.
 
@@ -75,7 +75,7 @@ public ISectionZoomFrame InsertSectionZoomFrame(int index, float x, float y, flo
 | section | ISection | The slide object referenced by the Section Zoom frame [`ISection`](../../isection). |
 | image | IPPImage | The image for the referenced slide [`IPPImage`](../../ippimage) |
 
-## Return Value
+### Return Value
 
 Created Section Zoom object [`ISectionZoomFrame`](../../isectionzoomframe).
 

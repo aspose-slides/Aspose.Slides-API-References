@@ -1,7 +1,7 @@
 ---
 title: DataSourceType
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Specifies whether AsCell AsCells AsLiteralString or AsLiteralDouble property is actual in descendants. In other words it specifies the type of value of the Data property. Read/write DataSourceTypeaspose.slides.charts/datasourcetype.
 type: docs
 weight: 20
 url: /net/aspose.slides.charts/basechartvalue/datasourcetype/

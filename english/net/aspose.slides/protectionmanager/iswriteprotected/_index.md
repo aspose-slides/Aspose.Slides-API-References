@@ -1,7 +1,7 @@
 ---
 title: IsWriteProtected
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Gets a value indicating whether this presentation is write protected. Read-only Boolean.
 type: docs
 weight: 50
 url: /net/aspose.slides/protectionmanager/iswriteprotected/

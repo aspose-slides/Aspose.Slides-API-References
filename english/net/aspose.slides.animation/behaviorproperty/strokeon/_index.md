@@ -1,7 +1,7 @@
 ---
 title: StrokeOn
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents stroke.on property
 type: docs
 weight: 980
 url: /net/aspose.slides.animation/behaviorproperty/strokeon/

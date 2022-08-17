@@ -1,7 +1,7 @@
 ---
 title: ContentStatus
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets the content status of a presentation. Read/write String.
 type: docs
 weight: 70
 url: /net/aspose.slides/idocumentproperties/contentstatus/

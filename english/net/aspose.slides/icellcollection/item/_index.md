@@ -1,7 +1,7 @@
 ---
 title: Item
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns a cell by its position. Read-only ICellaspose.slides/icell.
 type: docs
 weight: 20
 url: /net/aspose.slides/icellcollection/item/

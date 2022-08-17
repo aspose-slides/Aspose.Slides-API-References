@@ -1,7 +1,7 @@
 ---
 title: Remove
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Removes the first occurrence of a specific object from the ICollection.
 type: docs
 weight: 260
 url: /net/aspose.slides.effects/imagetransformoperationcollection/remove/
@@ -18,7 +18,7 @@ public bool Remove(IImageTransformOperation item)
 | --- | --- | --- |
 | item | IImageTransformOperation | The object to remove from the ICollection. |
 
-## Return Value
+### Return Value
 
 true if *item* was successfully removed from the ICollection; otherwise, false. This method also returns false if *item* is not found in the original ICollection.
 

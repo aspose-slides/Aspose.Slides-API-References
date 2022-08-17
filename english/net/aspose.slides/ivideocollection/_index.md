@@ -1,9 +1,9 @@
 ---
 title: IVideoCollection
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents a collection of Video objects.
 type: docs
-weight: 6790
+weight: 6810
 url: /net/aspose.slides/ivideocollection/
 ---
 ## IVideoCollection interface
@@ -24,9 +24,9 @@ public interface IVideoCollection : IGenericCollection<IVideo>
 
 | Name | Description |
 | --- | --- |
-| [AddVideo](../../aspose.slides/ivideocollection/addvideo)(byte[]) | Creates and adds a video to a presentation from byte array. |
-| [AddVideo](../../aspose.slides/ivideocollection/addvideo)(IVideo) | Adds a copy of an video file from an another presentation. |
-| [AddVideo](../../aspose.slides/ivideocollection/addvideo)(Stream, LoadingStreamBehavior) | Creates and adds a video to a presentation from stream. |
+| [AddVideo](../../aspose.slides/ivideocollection/addvideo#addvideo_1)(byte[]) | Creates and adds a video to a presentation from byte array. |
+| [AddVideo](../../aspose.slides/ivideocollection/addvideo#addvideo)(IVideo) | Adds a copy of an video file from an another presentation. |
+| [AddVideo](../../aspose.slides/ivideocollection/addvideo#addvideo_3)(Stream, LoadingStreamBehavior) | Creates and adds a video to a presentation from stream. |
 
 ### See Also
 

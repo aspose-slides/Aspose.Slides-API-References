@@ -1,7 +1,7 @@
 ---
 title: Position
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the position 0..1 of a gradient stop. Read-only Single.
 type: docs
 weight: 20
 url: /net/aspose.slides/igradientstopeffectivedata/position/

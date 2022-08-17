@@ -1,7 +1,7 @@
 ---
 title: FontUnderline
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets the text underline type. No inheritance applied. Read/write TextUnderlineTypeaspose.slides/textunderlinetype.
 type: docs
 weight: 100
 url: /net/aspose.slides/ibaseportionformat/fontunderline/

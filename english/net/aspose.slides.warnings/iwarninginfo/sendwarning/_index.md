@@ -1,7 +1,7 @@
 ---
 title: SendWarning
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: If receiver is not null ends warning to a specified receiver and throws the AbortRequestedException if receiver decided to abort a operation.
 type: docs
 weight: 30
 url: /net/aspose.slides.warnings/iwarninginfo/sendwarning/

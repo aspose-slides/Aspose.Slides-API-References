@@ -1,7 +1,7 @@
 ---
 title: InnerShadowEffect
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Inner shadow. Read-only IInnerShadowEffectiveDataaspose.slides.effects/iinnershadoweffectivedata.
 type: docs
 weight: 50
 url: /net/aspose.slides/ieffectformateffectivedata/innershadoweffect/

@@ -1,7 +1,7 @@
 ---
 title: Id
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Sets or gets id for the shape
 type: docs
 weight: 10
 url: /net/aspose.slides.export/isvgshape/id/

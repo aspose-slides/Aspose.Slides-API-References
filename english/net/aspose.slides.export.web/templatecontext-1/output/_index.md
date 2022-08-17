@@ -1,7 +1,7 @@
 ---
 title: Output
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns collection of output elements of the host document. Read-only Outputaspose.slides.export.web/templatecontext-1/output.
 type: docs
 weight: 40
 url: /net/aspose.slides.export.web/templatecontext-1/output/

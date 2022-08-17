@@ -1,7 +1,7 @@
 ---
 title: DeleteColumn
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Deletes the specified column
 type: docs
 weight: 120
 url: /net/aspose.slides.mathtext/mathmatrix/deletecolumn/

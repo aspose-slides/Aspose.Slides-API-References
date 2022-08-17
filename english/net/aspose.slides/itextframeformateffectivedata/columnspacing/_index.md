@@ -1,7 +1,7 @@
 ---
 title: ColumnSpacing
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Specifies the space between text columns in the text area in points. Read-only Single.
 type: docs
 weight: 50
 url: /net/aspose.slides/itextframeformateffectivedata/columnspacing/

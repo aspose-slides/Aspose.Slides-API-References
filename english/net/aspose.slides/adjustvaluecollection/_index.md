@@ -1,7 +1,7 @@
 ---
 title: AdjustValueCollection
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Reprasents a collection of shapes adjustments.
 type: docs
 weight: 20
 url: /net/aspose.slides/adjustvaluecollection/

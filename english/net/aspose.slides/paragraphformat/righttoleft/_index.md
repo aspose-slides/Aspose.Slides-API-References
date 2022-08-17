@@ -1,7 +1,7 @@
 ---
 title: RightToLeft
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Determines whether the Right to Left writing is used in a paragraph. No inheritance applied. Read/write NullableBoolaspose.slides/nullablebool.
 type: docs
 weight: 110
 url: /net/aspose.slides/paragraphformat/righttoleft/

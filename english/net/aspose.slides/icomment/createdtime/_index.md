@@ -1,7 +1,7 @@
 ---
 title: CreatedTime
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets the time of a comment creation. Setting this property to MinValue means no comment time is set. Read/write DateTime.
 type: docs
 weight: 20
 url: /net/aspose.slides/icomment/createdtime/

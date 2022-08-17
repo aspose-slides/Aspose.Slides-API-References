@@ -1,7 +1,7 @@
 ---
 title: RestoredLeft
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: This element specifies the sizing of the side content region of the normal view when the region is of a variable restored sizeneither minimized nor maximized. Read opnly INormalViewRestoredPropertiesaspose.slides/inormalviewrestoredproperties.
 type: docs
 weight: 30
 url: /net/aspose.slides/inormalviewproperties/restoredleft/

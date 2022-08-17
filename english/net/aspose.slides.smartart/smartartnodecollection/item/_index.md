@@ -1,7 +1,7 @@
 ---
 title: Item
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns node by index
 type: docs
 weight: 30
 url: /net/aspose.slides.smartart/smartartnodecollection/item/
@@ -18,7 +18,7 @@ public ISmartArtNode this[int index] { get; }
 | --- | --- |
 | index | The zero-based index of the element |
 
-## Return Value
+### Return Value
 
 The SmartArt node
 

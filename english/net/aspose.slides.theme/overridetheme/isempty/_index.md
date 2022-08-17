@@ -1,7 +1,7 @@
 ---
 title: IsEmpty
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: True value means that ColorScheme FontScheme FormatScheme is null and any overriding with this theme object are disabled. Read-only Boolean.
 type: docs
 weight: 40
 url: /net/aspose.slides.theme/overridetheme/isempty/

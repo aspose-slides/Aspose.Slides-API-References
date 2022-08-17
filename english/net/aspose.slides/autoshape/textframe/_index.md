@@ -1,7 +1,7 @@
 ---
 title: TextFrame
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns TextFrame object for the AutoShape. Read-only ITextFrameaspose.slides/itextframe.
 type: docs
 weight: 40
 url: /net/aspose.slides/autoshape/textframe/

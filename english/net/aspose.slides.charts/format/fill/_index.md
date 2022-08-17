@@ -1,7 +1,7 @@
 ---
 title: Fill
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns fill style properties of a chart. Read-only IFillFormataspose.slides/ifillformat.
 type: docs
 weight: 30
 url: /net/aspose.slides.charts/format/fill/

@@ -1,7 +1,7 @@
 ---
 title: Direction
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Direction of transition. Read/write TransitionCornerDirectionTypeaspose.slides.slideshow/transitioncornerdirectiontype.
 type: docs
 weight: 10
 url: /net/aspose.slides.slideshow/cornerdirectiontransition/direction/

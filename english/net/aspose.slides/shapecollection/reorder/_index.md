@@ -1,12 +1,12 @@
 ---
 title: Reorder
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Moves a shape from the collection to the specified position.
 type: docs
 weight: 440
 url: /net/aspose.slides/shapecollection/reorder/
 ---
-## ShapeCollection.Reorder method (1 of 2)
+## Reorder(int, IShape) {#reorder}
 
 Moves a shape from the collection to the specified position.
 
@@ -28,7 +28,7 @@ public void Reorder(int index, IShape shape)
 
 ---
 
-## ShapeCollection.Reorder method (2 of 2)
+## Reorder(int, params IShape[]) {#reorder_1}
 
 Moves shapes from the collection to the specified position. Shapes will be placed starting from index in order they appear in list.
 

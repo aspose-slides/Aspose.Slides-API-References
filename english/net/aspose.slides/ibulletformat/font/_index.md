@@ -1,7 +1,7 @@
 ---
 title: Font
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets the bullet font of a paragraph with no inheritance. Read/write IFontDataaspose.slides/ifontdata.
 type: docs
 weight: 30
 url: /net/aspose.slides/ibulletformat/font/

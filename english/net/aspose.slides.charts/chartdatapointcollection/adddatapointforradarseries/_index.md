@@ -1,12 +1,12 @@
 ---
 title: AddDataPointForRadarSeries
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Radar subtypes see also IsChartTypeRadaraspose.slides.charts/charttypecharacterizer/ischarttyperadar method.
 type: docs
 weight: 200
 url: /net/aspose.slides.charts/chartdatapointcollection/adddatapointforradarseries/
 ---
-## ChartDataPointCollection.AddDataPointForRadarSeries method (1 of 2)
+## AddDataPointForRadarSeries(IChartDataCell) {#adddatapointforradarseries}
 
 Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Radar subtypes (see also [`IsChartTypeRadar`](../../charttypecharacterizer/ischarttyperadar) method).
 
@@ -18,7 +18,7 @@ public IChartDataPoint AddDataPointForRadarSeries(IChartDataCell value)
 | --- | --- | --- |
 | value | IChartDataCell | Data point Value |
 
-## Return Value
+### Return Value
 
 New data point.
 
@@ -32,7 +32,7 @@ New data point.
 
 ---
 
-## ChartDataPointCollection.AddDataPointForRadarSeries method (2 of 2)
+## AddDataPointForRadarSeries(double) {#adddatapointforradarseries_1}
 
 Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Radar subtypes (see also [`IsChartTypeRadar`](../../charttypecharacterizer/ischarttyperadar) method).
 
@@ -44,7 +44,7 @@ public IChartDataPoint AddDataPointForRadarSeries(double value)
 | --- | --- | --- |
 | value | Double | Data point Value |
 
-## Return Value
+### Return Value
 
 New data point.
 

@@ -1,7 +1,7 @@
 ---
 title: CopyFrom
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Copy color format from color.
 type: docs
 weight: 170
 url: /net/aspose.slides/icolorformat/copyfrom/

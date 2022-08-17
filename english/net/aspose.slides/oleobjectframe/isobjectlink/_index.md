@@ -1,7 +1,7 @@
 ---
 title: IsObjectLink
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Determines whether an object is linked to external file. Read-only Boolean.
 type: docs
 weight: 60
 url: /net/aspose.slides/oleobjectframe/isobjectlink/

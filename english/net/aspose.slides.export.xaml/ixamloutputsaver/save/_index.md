@@ -1,7 +1,7 @@
 ---
 title: Save
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Saves a bytes array to a destination location.
 type: docs
 weight: 10
 url: /net/aspose.slides.export.xaml/ixamloutputsaver/save/

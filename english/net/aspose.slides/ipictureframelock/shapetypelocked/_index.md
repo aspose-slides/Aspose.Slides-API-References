@@ -1,7 +1,7 @@
 ---
 title: ShapeTypeLocked
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Determines whether a changing of a shape type is forbidden. Read/write Boolean.
 type: docs
 weight: 110
 url: /net/aspose.slides/ipictureframelock/shapetypelocked/

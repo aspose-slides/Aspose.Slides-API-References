@@ -1,12 +1,12 @@
 ---
 title: AddClone
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Adds a copy of a specified shape to the end of the collection.
 type: docs
 weight: 110
 url: /net/aspose.slides/shapecollection/addclone/
 ---
-## ShapeCollection.AddClone method (1 of 3)
+## AddClone(IShape, float, float, float, float) {#addclone_2}
 
 Adds a copy of a specified shape to the end of the collection.
 
@@ -22,7 +22,7 @@ public IShape AddClone(IShape sourceShape, float x, float y, float width, float 
 | width | Single | Width of a new shape. |
 | height | Single | Height of a new shape. |
 
-## Return Value
+### Return Value
 
 New shape.
 
@@ -35,7 +35,7 @@ New shape.
 
 ---
 
-## ShapeCollection.AddClone method (2 of 3)
+## AddClone(IShape, float, float) {#addclone_1}
 
 Adds a copy of a specified shape to the end of the collection. Width and Height of the new shape are equal to Width and Height of the *sourceShape*.
 
@@ -49,7 +49,7 @@ public IShape AddClone(IShape sourceShape, float x, float y)
 | x | Single | X coordinate of a new shape. |
 | y | Single | Y coordinate of a new shape. |
 
-## Return Value
+### Return Value
 
 New shape.
 
@@ -62,7 +62,7 @@ New shape.
 
 ---
 
-## ShapeCollection.AddClone method (3 of 3)
+## AddClone(IShape) {#addclone}
 
 Adds a copy of a specified shape to the end of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the *sourceShape*.
 
@@ -74,7 +74,7 @@ public IShape AddClone(IShape sourceShape)
 | --- | --- | --- |
 | sourceShape | IShape | Shape to clone. |
 
-## Return Value
+### Return Value
 
 New shape.
 

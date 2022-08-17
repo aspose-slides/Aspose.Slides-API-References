@@ -1,9 +1,9 @@
 ---
 title: EffectFormat
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents effect properties of shape.
 type: docs
-weight: 2660
+weight: 2680
 url: /net/aspose.slides/effectformat/
 ---
 ## EffectFormat class

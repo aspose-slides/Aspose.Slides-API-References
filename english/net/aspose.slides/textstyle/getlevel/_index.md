@@ -1,7 +1,7 @@
 ---
 title: GetLevel
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: If level of style exist returns it otherwise returns null.
 type: docs
 weight: 30
 url: /net/aspose.slides/textstyle/getlevel/
@@ -18,7 +18,7 @@ public IParagraphFormat GetLevel(int index)
 | --- | --- | --- |
 | index | Int32 | Zero-based index of level. Must lay in 0..8 interval. |
 
-## Return Value
+### Return Value
 
 Formatting of level [`IParagraphFormat`](../../iparagraphformat).
 

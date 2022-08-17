@@ -1,7 +1,7 @@
 ---
 title: AsIDisposable
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns IDisposable interface. Read-only IDisposable.
 type: docs
 weight: 20
 url: /net/aspose.slides/ipresentation/asidisposable/

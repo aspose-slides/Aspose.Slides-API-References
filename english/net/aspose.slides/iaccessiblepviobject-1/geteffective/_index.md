@@ -1,7 +1,7 @@
 ---
 title: GetEffective
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Gets effective data with the inheritance applied.
 type: docs
 weight: 10
 url: /net/aspose.slides/iaccessiblepviobject-1/geteffective/
@@ -14,7 +14,7 @@ Gets effective data with the inheritance applied.
 public T GetEffective()
 ```
 
-## Return Value
+### Return Value
 
 An effective data object.
 

@@ -1,7 +1,7 @@
 ---
 title: Name
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Function name For example function names are sin and cos
 type: docs
 weight: 30
 url: /net/aspose.slides.mathtext/imathfunction/name/

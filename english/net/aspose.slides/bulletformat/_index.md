@@ -1,9 +1,9 @@
 ---
 title: BulletFormat
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents paragraph bullet formatting properties.
 type: docs
-weight: 950
+weight: 970
 url: /net/aspose.slides/bulletformat/
 ---
 ## BulletFormat class

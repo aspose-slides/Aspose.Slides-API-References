@@ -1,9 +1,9 @@
 ---
 title: ColorStringFormat
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents a type of hyperlink action.
 type: docs
-weight: 2410
+weight: 2430
 url: /net/aspose.slides/colorstringformat/
 ---
 ## ColorStringFormat enumeration
@@ -14,7 +14,7 @@ Represents a type of hyperlink action.
 public enum ColorStringFormat
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

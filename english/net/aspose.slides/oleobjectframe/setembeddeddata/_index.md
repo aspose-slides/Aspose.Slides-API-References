@@ -1,7 +1,7 @@
 ---
 title: SetEmbeddedData
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Sets information about OLE embedded data.  This method changes the properties of the object to reflect the new data and sets the IsObjectLink flag to false indicating that the OLE object is embedded.
 type: docs
 weight: 140
 url: /net/aspose.slides/oleobjectframe/setembeddeddata/

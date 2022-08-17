@@ -1,9 +1,9 @@
 ---
 title: StreamWrapperFactory
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Factory of StreamWrappers. For COM interface.
 type: docs
-weight: 9950
+weight: 10000
 url: /net/aspose.slides/streamwrapperfactory/
 ---
 ## StreamWrapperFactory class
@@ -24,10 +24,10 @@ public class StreamWrapperFactory : IStreamWrapperFactory
 
 | Name | Description |
 | --- | --- |
-| [CreateFileStreamWrapper](../../aspose.slides/streamwrapperfactory/createfilestreamwrapper)(string, FileMode) | Creates FileStream with the specified path and creation mode. |
-| [CreateFileStreamWrapper](../../aspose.slides/streamwrapperfactory/createfilestreamwrapper)(string, FileMode, FileAccess) | Creates FileStream with the specified path, creation mode, and read/write permission. |
-| [CreateMemoryStreamWrapper](../../aspose.slides/streamwrapperfactory/creatememorystreamwrapper)() | Creates MemoryStream wrapper. |
-| [CreateMemoryStreamWrapper](../../aspose.slides/streamwrapperfactory/creatememorystreamwrapper)(byte[]) | Creates MemoryStream wrapper based on the specified byte array. |
+| [CreateFileStreamWrapper](../../aspose.slides/streamwrapperfactory/createfilestreamwrapper#createfilestreamwrapper)(string, FileMode) | Creates FileStream with the specified path and creation mode. |
+| [CreateFileStreamWrapper](../../aspose.slides/streamwrapperfactory/createfilestreamwrapper#createfilestreamwrapper_1)(string, FileMode, FileAccess) | Creates FileStream with the specified path, creation mode, and read/write permission. |
+| [CreateMemoryStreamWrapper](../../aspose.slides/streamwrapperfactory/creatememorystreamwrapper#creatememorystreamwrapper)() | Creates MemoryStream wrapper. |
+| [CreateMemoryStreamWrapper](../../aspose.slides/streamwrapperfactory/creatememorystreamwrapper#creatememorystreamwrapper_1)(byte[]) | Creates MemoryStream wrapper based on the specified byte array. |
 
 ### See Also
 

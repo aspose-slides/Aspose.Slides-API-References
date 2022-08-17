@@ -1,7 +1,7 @@
 ---
 title: NumberFormatOfXValues
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: NumberFormatOfXValues. Read/write String.
 type: docs
 weight: 240
 url: /net/aspose.slides.charts/chartseries/numberformatofxvalues/

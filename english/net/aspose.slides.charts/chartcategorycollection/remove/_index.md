@@ -1,7 +1,7 @@
 ---
 title: Remove
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Removes the specified value.
 type: docs
 weight: 120
 url: /net/aspose.slides.charts/chartcategorycollection/remove/

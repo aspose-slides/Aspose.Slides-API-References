@@ -1,7 +1,7 @@
 ---
 title: ValueFromCell
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Gets or sets workbook data cell. Applied if IDataLabelFormat.ShowLabelValueFromCell property equals true.
 type: docs
 weight: 60
 url: /net/aspose.slides.charts/idatalabel/valuefromcell/

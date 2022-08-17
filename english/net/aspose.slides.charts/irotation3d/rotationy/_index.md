@@ -1,7 +1,7 @@
 ---
 title: RotationY
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets the rotation degree around the Y-axis i.e. in the X direction for 3D charts between 0 and 360 degrees. The property matches with the 21.2.2.158 rotY Y Rotation item in ECMA-376 and with the X Rotation option in PowerPoint 2007. Read/write UInt16.
 type: docs
 weight: 60
 url: /net/aspose.slides.charts/irotation3d/rotationy/

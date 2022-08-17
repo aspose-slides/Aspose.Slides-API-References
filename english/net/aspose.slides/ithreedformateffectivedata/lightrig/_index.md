@@ -1,7 +1,7 @@
 ---
 title: LightRig
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the type of a light. Read-only ILightRigEffectiveDataaspose.slides/ilightrigeffectivedata.
 type: docs
 weight: 100
 url: /net/aspose.slides/ithreedformateffectivedata/lightrig/

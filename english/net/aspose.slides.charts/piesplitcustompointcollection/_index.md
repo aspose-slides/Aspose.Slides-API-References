@@ -1,9 +1,9 @@
 ---
 title: PieSplitCustomPointCollection
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents a collection of points for splitting point in a bar-of-pie or pie-of-pie chart with a custom split.
 type: docs
-weight: 2230
+weight: 2250
 url: /net/aspose.slides.charts/piesplitcustompointcollection/
 ---
 ## PieSplitCustomPointCollection class
@@ -28,14 +28,14 @@ public class PieSplitCustomPointCollection : IPieSplitCustomPointCollection
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.slides.charts/piesplitcustompointcollection/add)(IChartDataPoint) | Adds data point to collection. |
-| [Add](../../aspose.slides.charts/piesplitcustompointcollection/add)(int) | Adds data point by its index in parent series points collection. |
+| [Add](../../aspose.slides.charts/piesplitcustompointcollection/add#add)(IChartDataPoint) | Adds data point to collection. |
+| [Add](../../aspose.slides.charts/piesplitcustompointcollection/add#add_1)(int) | Adds data point by its index in parent series points collection. |
 | [Clear](../../aspose.slides.charts/piesplitcustompointcollection/clear)() | Removes all items from the ICollection. |
 | [Contains](../../aspose.slides.charts/piesplitcustompointcollection/contains)(IChartDataPoint) | Determines whether the ICollection contains a specific value. |
 | [CopyTo](../../aspose.slides.charts/piesplitcustompointcollection/copyto)(IChartDataPoint[], int) | Copies the elements of the ICollection to an Array, starting at a particular Array index. |
 | [GetEnumerator](../../aspose.slides.charts/piesplitcustompointcollection/getenumerator)() | Returns an enumerator that iterates through the collection. |
-| [Remove](../../aspose.slides.charts/piesplitcustompointcollection/remove)(IChartDataPoint) | Removes item from collection. |
-| [Remove](../../aspose.slides.charts/piesplitcustompointcollection/remove)(int) | Removes item from collection by it index in parent series points collection. |
+| [Remove](../../aspose.slides.charts/piesplitcustompointcollection/remove#remove)(IChartDataPoint) | Removes item from collection. |
+| [Remove](../../aspose.slides.charts/piesplitcustompointcollection/remove#remove_1)(int) | Removes item from collection by it index in parent series points collection. |
 
 ### See Also
 

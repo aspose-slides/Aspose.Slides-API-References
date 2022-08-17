@@ -1,12 +1,12 @@
 ---
 title: AddVideo
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Adds a copy of an video file from an another presentation.
 type: docs
 weight: 20
 url: /net/aspose.slides/ivideocollection/addvideo/
 ---
-## IVideoCollection.AddVideo method (1 of 3)
+## AddVideo(IVideo) {#addvideo}
 
 Adds a copy of an video file from an another presentation.
 
@@ -18,7 +18,7 @@ public IVideo AddVideo(IVideo video)
 | --- | --- | --- |
 | video | IVideo | Source video. |
 
-## Return Value
+### Return Value
 
 Added video.
 
@@ -31,7 +31,7 @@ Added video.
 
 ---
 
-## IVideoCollection.AddVideo method (2 of 3)
+## AddVideo(Stream, LoadingStreamBehavior) {#addvideo_3}
 
 Creates and adds a video to a presentation from stream.
 
@@ -44,7 +44,7 @@ public IVideo AddVideo(Stream stream, LoadingStreamBehavior loadingStreamBehavio
 | stream | Stream | Stream to add video file from. |
 | loadingStreamBehavior | LoadingStreamBehavior | The behavior which will be applied to the stream. |
 
-## Return Value
+### Return Value
 
 Added [`IVideo`](../../ivideo).
 
@@ -58,7 +58,7 @@ Added [`IVideo`](../../ivideo).
 
 ---
 
-## IVideoCollection.AddVideo method (3 of 3)
+## AddVideo(byte[]) {#addvideo_1}
 
 Creates and adds a video to a presentation from byte array.
 
@@ -70,7 +70,7 @@ public IVideo AddVideo(byte[] videoData)
 | --- | --- | --- |
 | videoData | Byte[] | Video bytes. |
 
-## Return Value
+### Return Value
 
 Added video.
 

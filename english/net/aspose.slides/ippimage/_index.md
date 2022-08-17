@@ -1,9 +1,9 @@
 ---
 title: IPPImage
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents an image in a presentation.
 type: docs
-weight: 5990
+weight: 6010
 url: /net/aspose.slides/ippimage/
 ---
 ## IPPImage interface
@@ -31,9 +31,9 @@ public interface IPPImage
 
 | Name | Description |
 | --- | --- |
-| [ReplaceImage](../../aspose.slides/ippimage/replaceimage)(byte[]) | Replaces image data. |
-| [ReplaceImage](../../aspose.slides/ippimage/replaceimage)(Image) | Replaces image. |
-| [ReplaceImage](../../aspose.slides/ippimage/replaceimage)(IPPImage) | Replaces image. |
+| [ReplaceImage](../../aspose.slides/ippimage/replaceimage#replaceimage_1)(byte[]) | Replaces image data. |
+| [ReplaceImage](../../aspose.slides/ippimage/replaceimage#replaceimage_2)(Image) | Replaces image. |
+| [ReplaceImage](../../aspose.slides/ippimage/replaceimage#replaceimage)(IPPImage) | Replaces image. |
 
 ### See Also
 

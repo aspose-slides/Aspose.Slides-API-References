@@ -1,7 +1,7 @@
 ---
 title: InsertEmptySlide
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Inserts a copy of a specified slide to specified position of the collection.
 type: docs
 weight: 80
 url: /net/aspose.slides/islidecollection/insertemptyslide/
@@ -19,7 +19,7 @@ public ISlide InsertEmptySlide(int index, ILayoutSlide layout)
 | index | Int32 | Index of a new slide. |
 | layout | ILayoutSlide | Layout for a slide. |
 
-## Return Value
+### Return Value
 
 Inserted slide.
 

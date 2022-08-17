@@ -1,7 +1,7 @@
 ---
 title: PptC
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents ppt_c property
 type: docs
 weight: 510
 url: /net/aspose.slides.animation/behaviorproperty/pptc/

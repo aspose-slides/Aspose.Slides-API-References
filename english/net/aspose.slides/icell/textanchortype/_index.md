@@ -1,7 +1,7 @@
 ---
 title: TextAnchorType
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets the text anchor type. Read/write TextAnchorTypeaspose.slides/textanchortype.
 type: docs
 weight: 200
 url: /net/aspose.slides/icell/textanchortype/

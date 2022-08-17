@@ -1,7 +1,7 @@
 ---
 title: IsCustom
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Shows if this property does not belong to the predefined properties list in the specification https//msdn.microsoft.com/en-us/library/dd949052voffice.15.aspx
 type: docs
 weight: 1230
 url: /net/aspose.slides.animation/behaviorproperty/iscustom/

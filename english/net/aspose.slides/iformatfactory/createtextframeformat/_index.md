@@ -1,7 +1,7 @@
 ---
 title: CreateTextFrameFormat
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates new ITextFrameFormataspose.slides/itextframeformat.
 type: docs
 weight: 30
 url: /net/aspose.slides/iformatfactory/createtextframeformat/
@@ -14,7 +14,7 @@ Creates new [`ITextFrameFormat`](../../itextframeformat).
 public ITextFrameFormat CreateTextFrameFormat()
 ```
 
-## Return Value
+### Return Value
 
 New text frame format.
 

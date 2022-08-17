@@ -1,7 +1,7 @@
 ---
 title: OverflowBin
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Specifies overflow bin custom value. Applied when IsAutomaticOverflowBin property setted to false and IsOverflowBin property equals true.
 type: docs
 weight: 460
 url: /net/aspose.slides.charts/axis/overflowbin/

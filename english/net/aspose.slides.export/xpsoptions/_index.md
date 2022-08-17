@@ -1,9 +1,9 @@
 ---
 title: XpsOptions
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Provides options that control how a presentation is saved in XPS format.
 type: docs
-weight: 4300
+weight: 4320
 url: /net/aspose.slides.export/xpsoptions/
 ---
 ## XpsOptions class

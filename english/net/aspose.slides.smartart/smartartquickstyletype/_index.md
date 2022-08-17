@@ -1,9 +1,9 @@
 ---
 title: SmartArtQuickStyleType
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents style scheme of a SmartArt diagram.
 type: docs
-weight: 9840
+weight: 9890
 url: /net/aspose.slides.smartart/smartartquickstyletype/
 ---
 ## SmartArtQuickStyleType enumeration
@@ -14,7 +14,7 @@ Represents style scheme of a SmartArt diagram.
 public enum SmartArtQuickStyleType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

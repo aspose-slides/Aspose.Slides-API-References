@@ -1,7 +1,7 @@
 ---
 title: SetBlurEffect
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Sets blur effect.
 type: docs
 weight: 260
 url: /net/aspose.slides/effectformat/setblureffect/

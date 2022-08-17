@@ -1,7 +1,7 @@
 ---
 title: Item
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the column at the specified index. Read-only Columnaspose.slides/column.
 type: docs
 weight: 30
 url: /net/aspose.slides/columncollection/item/

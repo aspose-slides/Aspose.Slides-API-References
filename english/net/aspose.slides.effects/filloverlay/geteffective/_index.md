@@ -1,7 +1,7 @@
 ---
 title: GetEffective
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Gets effective Fill Overlay effect data with the inheritance applied.
 type: docs
 weight: 40
 url: /net/aspose.slides.effects/filloverlay/geteffective/
@@ -14,7 +14,7 @@ Gets effective Fill Overlay effect data with the inheritance applied.
 public IFillOverlayEffectiveData GetEffective()
 ```
 
-## Return Value
+### Return Value
 
 A [`IFillOverlayEffectiveData`](../../ifilloverlayeffectivedata).
 

@@ -1,12 +1,12 @@
 ---
 title: CreateParagraph
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates a new empty paragraph.
 type: docs
 weight: 10
 url: /net/aspose.slides/iparagraphfactory/createparagraph/
 ---
-## IParagraphFactory.CreateParagraph method (1 of 2)
+## CreateParagraph() {#createparagraph}
 
 Creates a new empty paragraph.
 
@@ -14,7 +14,7 @@ Creates a new empty paragraph.
 public IParagraph CreateParagraph()
 ```
 
-## Return Value
+### Return Value
 
 Paragraph.
 
@@ -27,7 +27,7 @@ Paragraph.
 
 ---
 
-## IParagraphFactory.CreateParagraph method (2 of 2)
+## CreateParagraph(IParagraph) {#createparagraph_1}
 
 Creates a new paragraph with specified paragraph data using.
 
@@ -39,7 +39,7 @@ public IParagraph CreateParagraph(IParagraph paragraph)
 | --- | --- | --- |
 | paragraph | IParagraph | A paragraph to use data. |
 
-## Return Value
+### Return Value
 
 Paragraph.
 

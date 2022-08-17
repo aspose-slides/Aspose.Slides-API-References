@@ -1,7 +1,7 @@
 ---
 title: HideLeft
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Hide Left Edge default is false - specifies the hidden or shown state of the left edge of border box.
 type: docs
 weight: 40
 url: /net/aspose.slides.mathtext/mathborderbox/hideleft/

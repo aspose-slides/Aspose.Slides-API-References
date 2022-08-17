@@ -1,7 +1,7 @@
 ---
 title: Item
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the cell at the specified column and row indexes. Read-only ICellaspose.slides/icell.
 type: docs
 weight: 70
 url: /net/aspose.slides/itable/item/

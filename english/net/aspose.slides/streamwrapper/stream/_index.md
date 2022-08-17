@@ -1,7 +1,7 @@
 ---
 title: Stream
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Gets a stream. Read-only Stream.
 type: docs
 weight: 70
 url: /net/aspose.slides/streamwrapper/stream/

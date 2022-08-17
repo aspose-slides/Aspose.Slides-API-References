@@ -1,7 +1,7 @@
 ---
 title: Text
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Gets or sets the plain text of a portion. Read/write String.
 type: docs
 weight: 40
 url: /net/aspose.slides/iportion/text/
@@ -14,7 +14,7 @@ Gets or sets the plain text of a portion. Read/write String.
 public string Text { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The text.
 

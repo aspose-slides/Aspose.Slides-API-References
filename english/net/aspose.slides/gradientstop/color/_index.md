@@ -1,7 +1,7 @@
 ---
 title: Color
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the color of a gradient stop. Read-only IColorFormataspose.slides/icolorformat.
 type: docs
 weight: 10
 url: /net/aspose.slides/gradientstop/color/

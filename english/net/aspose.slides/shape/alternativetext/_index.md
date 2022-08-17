@@ -1,7 +1,7 @@
 ---
 title: AlternativeText
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets the alternative text associated with a shape. Read/write String.
 type: docs
 weight: 10
 url: /net/aspose.slides/shape/alternativetext/

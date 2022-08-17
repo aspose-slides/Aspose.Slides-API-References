@@ -1,7 +1,7 @@
 ---
 title: GetEffective
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Gets effective fill formatting data with the inheritance applied.
 type: docs
 weight: 70
 url: /net/aspose.slides/fillformat/geteffective/
@@ -14,7 +14,7 @@ Gets effective fill formatting data with the inheritance applied.
 public IFillFormatEffectiveData GetEffective()
 ```
 
-## Return Value
+### Return Value
 
 A [`IFillFormatEffectiveData`](../../ifillformateffectivedata).
 

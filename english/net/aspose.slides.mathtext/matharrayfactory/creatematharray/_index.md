@@ -1,12 +1,12 @@
 ---
 title: CreateMathArray
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates a math array and places the specified element in it
 type: docs
 weight: 20
 url: /net/aspose.slides.mathtext/matharrayfactory/creatematharray/
 ---
-## MathArrayFactory.CreateMathArray method (1 of 2)
+## CreateMathArray(IMathElement) {#creatematharray}
 
 Creates a math array and places the specified element in it
 
@@ -18,7 +18,7 @@ public IMathArray CreateMathArray(IMathElement element)
 | --- | --- | --- |
 | element | IMathElement | math element to place in array |
 
-## Return Value
+### Return Value
 
 new math array
 
@@ -32,7 +32,7 @@ new math array
 
 ---
 
-## MathArrayFactory.CreateMathArray method (2 of 2)
+## CreateMathArray(IMathElementCollection) {#creatematharray_1}
 
 Creates a math array and places specified elements in it
 
@@ -44,7 +44,7 @@ public IMathArray CreateMathArray(IMathElementCollection elements)
 | --- | --- | --- |
 | elements | IMathElementCollection | math elements to place in array |
 
-## Return Value
+### Return Value
 
 new math array
 

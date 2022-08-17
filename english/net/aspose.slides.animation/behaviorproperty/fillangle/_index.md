@@ -1,7 +1,7 @@
 ---
 title: FillAngle
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents fill.angle property
 type: docs
 weight: 270
 url: /net/aspose.slides.animation/behaviorproperty/fillangle/

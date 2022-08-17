@@ -1,7 +1,7 @@
 ---
 title: IsSeriesUsesValueCoordinate
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns if specified series type uses value coordinates.
 type: docs
 weight: 190
 url: /net/aspose.slides.charts/charttypecharacterizer/isseriesusesvaluecoordinate/
@@ -18,7 +18,7 @@ public static bool IsSeriesUsesValueCoordinate(ChartType seriesType)
 | --- | --- | --- |
 | seriesType | ChartType | Series type. |
 
-## Return Value
+### Return Value
 
 True if uses otherwise false.
 

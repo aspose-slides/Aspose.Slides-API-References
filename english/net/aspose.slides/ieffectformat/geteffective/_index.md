@@ -1,7 +1,7 @@
 ---
 title: GetEffective
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Gets effective effect formatting data with the inheritance applied.
 type: docs
 weight: 260
 url: /net/aspose.slides/ieffectformat/geteffective/
@@ -14,7 +14,7 @@ Gets effective effect formatting data with the inheritance applied.
 public IEffectFormatEffectiveData GetEffective()
 ```
 
-## Return Value
+### Return Value
 
 A [`IEffectFormatEffectiveData`](../../ieffectformateffectivedata).
 

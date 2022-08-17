@@ -1,7 +1,7 @@
 ---
 title: DisableGlowEffect
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Disable glow effect.
 type: docs
 weight: 130
 url: /net/aspose.slides/ieffectformat/disablegloweffect/

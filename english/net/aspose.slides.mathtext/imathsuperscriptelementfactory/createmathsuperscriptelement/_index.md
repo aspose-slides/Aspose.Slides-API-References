@@ -1,7 +1,7 @@
 ---
 title: CreateMathSuperscriptElement
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates IMathSuperscriptElement
 type: docs
 weight: 10
 url: /net/aspose.slides.mathtext/imathsuperscriptelementfactory/createmathsuperscriptelement/
@@ -20,7 +20,7 @@ public IMathSuperscriptElement CreateMathSuperscriptElement(IMathElement baseArg
 | baseArg | IMathElement | Base argument to apply superscript |
 | superScript | IMathElement | upper right index |
 
-## Return Value
+### Return Value
 
 new IMathSuperscriptElement
 

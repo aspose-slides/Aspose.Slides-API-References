@@ -1,12 +1,12 @@
 ---
 title: AddZoomFrame
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Adds a new Zoom object to the end of a collection.
 type: docs
 weight: 220
 url: /net/aspose.slides/shapecollection/addzoomframe/
 ---
-## ShapeCollection.AddZoomFrame method (1 of 2)
+## AddZoomFrame(float, float, float, float, ISlide) {#addzoomframe}
 
 Adds a new Zoom object to the end of a collection.
 
@@ -22,7 +22,7 @@ public IZoomFrame AddZoomFrame(float x, float y, float width, float height, ISli
 | height | Single | Height of a new Zoom frame Single. |
 | slide | ISlide | The slide object referenced by the Zoom frame [`ISlide`](../../islide). |
 
-## Return Value
+### Return Value
 
 Created Zoom object [`IZoomFrame`](../../izoomframe).
 
@@ -54,7 +54,7 @@ using (Presentation pres = new Presentation("Presentation.pptx"))
 
 ---
 
-## ShapeCollection.AddZoomFrame method (2 of 2)
+## AddZoomFrame(float, float, float, float, ISlide, IPPImage) {#addzoomframe_1}
 
 Adds a new Zoom object to the end of a collection.
 
@@ -72,7 +72,7 @@ public IZoomFrame AddZoomFrame(float x, float y, float width, float height, ISli
 | slide | ISlide | The slide object referenced by the Zoom frame [`ISlide`](../../islide). |
 | image | IPPImage | The image for the referenced slide [`IPPImage`](../../ippimage) |
 
-## Return Value
+### Return Value
 
 Created Zoom object [`IZoomFrame`](../../izoomframe).
 

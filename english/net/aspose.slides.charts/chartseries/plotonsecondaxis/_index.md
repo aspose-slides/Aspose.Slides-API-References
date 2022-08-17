@@ -1,7 +1,7 @@
 ---
 title: PlotOnSecondAxis
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Indicates if this series is plotted on secondary axis. Read/write Boolean.
 type: docs
 weight: 330
 url: /net/aspose.slides.charts/chartseries/plotonsecondaxis/

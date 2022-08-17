@@ -1,9 +1,9 @@
 ---
 title: IGraphicalObjectLock
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Determines which operations are disabled on the parent GraphicalObjectEx.
 type: docs
-weight: 5540
+weight: 5560
 url: /net/aspose.slides/igraphicalobjectlock/
 ---
 ## IGraphicalObjectLock interface

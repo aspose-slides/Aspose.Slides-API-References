@@ -1,7 +1,7 @@
 ---
 title: SlideId
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the ID of a slide. Read-only UInt32.
 type: docs
 weight: 90
 url: /net/aspose.slides/ibaseslide/slideid/

@@ -1,7 +1,7 @@
 ---
 title: RestoredTop
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: This element specifies the sizing of the top slide region of the normal view when the region is of a variable restored sizeneither minimized nor maximized. Read only INormalViewRestoredPropertiesaspose.slides/inormalviewrestoredproperties.
 type: docs
 weight: 40
 url: /net/aspose.slides/inormalviewproperties/restoredtop/

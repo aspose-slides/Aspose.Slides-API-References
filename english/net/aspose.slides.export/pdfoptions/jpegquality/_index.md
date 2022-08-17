@@ -1,7 +1,7 @@
 ---
 title: JpegQuality
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets a value determining the quality of the JPEG images inside PDF document. Read/write Byte.
 type: docs
 weight: 110
 url: /net/aspose.slides.export/pdfoptions/jpegquality/

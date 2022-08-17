@@ -1,7 +1,7 @@
 ---
 title: StrikethroughHorizontal
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Strikethrough Horizontal default is false - specifies the hidden or shown state of a strikethrough horizontal line.
 type: docs
 weight: 80
 url: /net/aspose.slides.mathtext/imathborderbox/strikethroughhorizontal/

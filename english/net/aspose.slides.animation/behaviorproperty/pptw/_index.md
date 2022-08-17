@@ -1,7 +1,7 @@
 ---
 title: PptW
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents ppt_w property
 type: docs
 weight: 540
 url: /net/aspose.slides.animation/behaviorproperty/pptw/

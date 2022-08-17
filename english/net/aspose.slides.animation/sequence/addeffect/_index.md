@@ -1,12 +1,12 @@
 ---
 title: AddEffect
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Add new effect to the end of sequence.
 type: docs
 weight: 40
 url: /net/aspose.slides.animation/sequence/addeffect/
 ---
-## Sequence.AddEffect method (1 of 4)
+## AddEffect(IShape, EffectType, EffectSubtype, EffectTriggerType) {#addeffect_3}
 
 Add new effect to the end of sequence.
 
@@ -22,7 +22,7 @@ public IEffect AddEffect(IShape shape, EffectType effectType, EffectSubtype subt
 | subtype | EffectSubtype | Subtypes of animation effect [`EffectSubtype`](../../effectsubtype) |
 | triggerType | EffectTriggerType | Trigger type of effect [`EffectTriggerType`](../../effecttriggertype) |
 
-## Return Value
+### Return Value
 
 New effect object [`IEffect`](../../ieffect)
 
@@ -39,7 +39,7 @@ New effect object [`IEffect`](../../ieffect)
 
 ---
 
-## Sequence.AddEffect method (2 of 4)
+## AddEffect(IParagraph, EffectType, EffectSubtype, EffectTriggerType) {#addeffect_2}
 
 Add new animation effect for paragraph to the end of sequence.
 
@@ -55,7 +55,7 @@ public IEffect AddEffect(IParagraph paragraph, EffectType effectType, EffectSubt
 | subtype | EffectSubtype | Subtypes of animation effect [`EffectSubtype`](../../effectsubtype) |
 | triggerType | EffectTriggerType | Trigger type of effect [`EffectTriggerType`](../../effecttriggertype) |
 
-## Return Value
+### Return Value
 
 New effect object [`IEffect`](../../ieffect)
 
@@ -88,7 +88,7 @@ using(Presentation presentation = new Presentation(path + "input.pptx"))
 
 ---
 
-## Sequence.AddEffect method (3 of 4)
+## AddEffect(IChart, EffectChartMajorGroupingType, int, EffectType, EffectSubtype, EffectTriggerType) {#addeffect}
 
 Adds the new chart animation effect for category or series to the end of sequence.
 
@@ -106,7 +106,7 @@ public IEffect AddEffect(IChart chart, EffectChartMajorGroupingType type, int in
 | subtype | EffectSubtype | Subtypes of animation effect [`EffectSubtype`](../../effectsubtype) |
 | triggerType | EffectTriggerType | Trigger type of effect [`EffectTriggerType`](../../effecttriggertype) |
 
-## Return Value
+### Return Value
 
 New effect object [`IEffect`](../../ieffect)
 
@@ -124,7 +124,7 @@ New effect object [`IEffect`](../../ieffect)
 
 ---
 
-## Sequence.AddEffect method (4 of 4)
+## AddEffect(IChart, EffectChartMinorGroupingType, int, int, EffectType, EffectSubtype, EffectTriggerType) {#addeffect_1}
 
 Adds the new chart animation effect for elements in category or series to the end of sequence.
 
@@ -144,7 +144,7 @@ public IEffect AddEffect(IChart chart, EffectChartMinorGroupingType type, int se
 | subtype | EffectSubtype | Subtypes of animation effect [`EffectSubtype`](../../effectsubtype) |
 | triggerType | EffectTriggerType | Trigger type of effect [`EffectTriggerType`](../../effecttriggertype) |
 
-## Return Value
+### Return Value
 
 New effect object [`IEffect`](../../ieffect)
 

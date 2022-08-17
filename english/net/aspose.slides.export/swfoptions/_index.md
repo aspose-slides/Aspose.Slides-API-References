@@ -1,9 +1,9 @@
 ---
 title: SwfOptions
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Provides options that control how a presentation is saved in Swf format.
 type: docs
-weight: 4100
+weight: 4120
 url: /net/aspose.slides.export/swfoptions/
 ---
 ## SwfOptions class

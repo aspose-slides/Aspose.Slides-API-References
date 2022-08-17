@@ -1,7 +1,7 @@
 ---
 title: BlackWhiteMode
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Determines how colored shape should be transformed into black and white.
 type: docs
 weight: 920
 url: /net/aspose.slides/blackwhitemode/
@@ -14,7 +14,7 @@ Determines how colored shape should be transformed into black and white.
 public enum BlackWhiteMode : sbyte
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -1,7 +1,7 @@
 ---
 title: Radius
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Radius. Read/write Double.
 type: docs
 weight: 40
 url: /net/aspose.slides.effects/iglow/radius/

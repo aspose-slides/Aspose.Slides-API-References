@@ -1,7 +1,7 @@
 ---
 title: BubbleSizeRepresentation
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Specifies how the bubble size values are represented on the bubble chart. Read/write BubbleSizeRepresentationTypeaspose.slides.charts/bubblesizerepresentationtype.
 type: docs
 weight: 20
 url: /net/aspose.slides.charts/ichartseriesgroup/bubblesizerepresentation/

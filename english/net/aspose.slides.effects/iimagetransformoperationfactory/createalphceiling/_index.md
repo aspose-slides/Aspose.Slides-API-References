@@ -1,7 +1,7 @@
 ---
 title: CreateAlphCeiling
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates Alpha Ceiling effect.
 type: docs
 weight: 70
 url: /net/aspose.slides.effects/iimagetransformoperationfactory/createalphceiling/
@@ -14,7 +14,7 @@ Creates Alpha Ceiling effect.
 public IAlphaCeiling CreateAlphCeiling()
 ```
 
-## Return Value
+### Return Value
 
 Alpha Ceiling effect.
 

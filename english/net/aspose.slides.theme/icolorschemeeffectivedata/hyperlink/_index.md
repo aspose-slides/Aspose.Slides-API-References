@@ -1,7 +1,7 @@
 ---
 title: Hyperlink
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Color for the hyperlinks. Read-only Color.
 type: docs
 weight: 100
 url: /net/aspose.slides.theme/icolorschemeeffectivedata/hyperlink/

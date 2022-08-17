@@ -1,7 +1,7 @@
 ---
 title: Item
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the gradient stop by index.
 type: docs
 weight: 10
 url: /net/aspose.slides/igradientstopcollection/item/

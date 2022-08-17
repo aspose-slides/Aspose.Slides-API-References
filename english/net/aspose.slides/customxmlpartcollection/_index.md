@@ -1,9 +1,9 @@
 ---
 title: CustomXmlPartCollection
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents collection of custom xml parts.
 type: docs
-weight: 2600
+weight: 2620
 url: /net/aspose.slides/customxmlpartcollection/
 ---
 ## CustomXmlPartCollection class
@@ -27,9 +27,9 @@ public class CustomXmlPartCollection : ICustomXmlPartCollection
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.slides/customxmlpartcollection/add)(byte[]) | Adds new custom xml part. |
-| [Add](../../aspose.slides/customxmlpartcollection/add)(Stream) | Adds new custom xml part. |
-| [Add](../../aspose.slides/customxmlpartcollection/add)(string) | Adds new custom xml part. |
+| [Add](../../aspose.slides/customxmlpartcollection/add#add)(byte[]) | Adds new custom xml part. |
+| [Add](../../aspose.slides/customxmlpartcollection/add#add_1)(Stream) | Adds new custom xml part. |
+| [Add](../../aspose.slides/customxmlpartcollection/add#add_2)(string) | Adds new custom xml part. |
 | [Clear](../../aspose.slides/customxmlpartcollection/clear)() | Removes all items from the collection. |
 | [CopyTo](../../aspose.slides/customxmlpartcollection/copyto)(Array, int) | Copy to specified array. |
 | [GetEnumerator](../../aspose.slides/customxmlpartcollection/getenumerator)() | Returns an enumerator that iterates through the collection. |

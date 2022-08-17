@@ -1,7 +1,7 @@
 ---
 title: Paragraphs
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the list of all paragraphs in a frame. Read-only IParagraphCollectionaspose.slides/iparagraphcollection.
 type: docs
 weight: 30
 url: /net/aspose.slides/itextframe/paragraphs/

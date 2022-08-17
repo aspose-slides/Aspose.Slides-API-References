@@ -1,7 +1,7 @@
 ---
 title: AsIEffectParamSource
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Allows to get base IEffectParamSource interface. Read-only IEffectParamSourceaspose.slides/ieffectparamsource.
 type: docs
 weight: 10
 url: /net/aspose.slides/ieffectformat/asieffectparamsource/

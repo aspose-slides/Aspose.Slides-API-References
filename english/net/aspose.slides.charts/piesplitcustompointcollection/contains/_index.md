@@ -1,7 +1,7 @@
 ---
 title: Contains
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Determines whether the ICollection contains a specific value.
 type: docs
 weight: 80
 url: /net/aspose.slides.charts/piesplitcustompointcollection/contains/
@@ -18,7 +18,7 @@ public bool Contains(IChartDataPoint item)
 | --- | --- | --- |
 | item | IChartDataPoint | The object to locate in the ICollection. |
 
-## Return Value
+### Return Value
 
 true if *item* is found in the ICollection; otherwise, false.
 

@@ -1,7 +1,7 @@
 ---
 title: Sequence
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents sequence collection of effects.
 type: docs
 weight: 690
 url: /net/aspose.slides.animation/sequence/
@@ -26,10 +26,10 @@ public sealed class Sequence : ISequence
 
 | Name | Description |
 | --- | --- |
-| [AddEffect](../../aspose.slides.animation/sequence/addeffect)(IParagraph, EffectType, EffectSubtype, EffectTriggerType) | Add new animation effect for paragraph to the end of sequence. |
-| [AddEffect](../../aspose.slides.animation/sequence/addeffect)(IShape, EffectType, EffectSubtype, EffectTriggerType) | Add new effect to the end of sequence. |
-| [AddEffect](../../aspose.slides.animation/sequence/addeffect)(IChart, EffectChartMajorGroupingType, int, EffectType, EffectSubtype, EffectTriggerType) | Adds the new chart animation effect for category or series to the end of sequence. |
-| [AddEffect](../../aspose.slides.animation/sequence/addeffect)(IChart, EffectChartMinorGroupingType, int, int, EffectType, EffectSubtype, EffectTriggerType) | Adds the new chart animation effect for elements in category or series to the end of sequence. |
+| [AddEffect](../../aspose.slides.animation/sequence/addeffect#addeffect_2)(IParagraph, EffectType, EffectSubtype, EffectTriggerType) | Add new animation effect for paragraph to the end of sequence. |
+| [AddEffect](../../aspose.slides.animation/sequence/addeffect#addeffect_3)(IShape, EffectType, EffectSubtype, EffectTriggerType) | Add new effect to the end of sequence. |
+| [AddEffect](../../aspose.slides.animation/sequence/addeffect#addeffect)(IChart, EffectChartMajorGroupingType, int, EffectType, EffectSubtype, EffectTriggerType) | Adds the new chart animation effect for category or series to the end of sequence. |
+| [AddEffect](../../aspose.slides.animation/sequence/addeffect#addeffect_1)(IChart, EffectChartMinorGroupingType, int, int, EffectType, EffectSubtype, EffectTriggerType) | Adds the new chart animation effect for elements in category or series to the end of sequence. |
 | [Clear](../../aspose.slides.animation/sequence/clear)() | Removes all effects from a collection. |
 | [GetCount](../../aspose.slides.animation/sequence/getcount)(IShape) | Returns count of effects for the specified shape. |
 | [GetEffectsByParagraph](../../aspose.slides.animation/sequence/geteffectsbyparagraph)(IParagraph) | Returns array of effects for the specified paragraph. |

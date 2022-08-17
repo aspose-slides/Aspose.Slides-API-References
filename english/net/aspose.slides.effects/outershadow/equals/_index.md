@@ -1,7 +1,7 @@
 ---
 title: Equals
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Determines whether the specified OuterShadowaspose.slides.effects/outershadow is equal to the current OuterShadowaspose.slides.effects/outershadow.
 type: docs
 weight: 110
 url: /net/aspose.slides.effects/outershadow/equals/
@@ -18,7 +18,7 @@ public override bool Equals(object obj)
 | --- | --- | --- |
 | obj | Object | The [`OuterShadow`](../../outershadow) to compare. |
 
-## Return Value
+### Return Value
 
 true if objects are equal; otherwise, false.
 

@@ -1,12 +1,12 @@
 ---
 title: CreateMathGroupingCharacter
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates a math grouping character
 type: docs
 weight: 20
 url: /net/aspose.slides.mathtext/mathgroupingcharacterfactory/createmathgroupingcharacter/
 ---
-## MathGroupingCharacterFactory.CreateMathGroupingCharacter method (1 of 2)
+## CreateMathGroupingCharacter(IMathElement, char, MathTopBotPositions, MathTopBotPositions) {#createmathgroupingcharacter_1}
 
 Creates a math grouping character
 
@@ -22,7 +22,7 @@ public IMathGroupingCharacter CreateMathGroupingCharacter(IMathElement element, 
 | position | MathTopBotPositions | position of grouping character |
 | verticalJustification | MathTopBotPositions | vertical justification |
 
-## Return Value
+### Return Value
 
 new grouping character element
 
@@ -37,7 +37,7 @@ new grouping character element
 
 ---
 
-## MathGroupingCharacterFactory.CreateMathGroupingCharacter method (2 of 2)
+## CreateMathGroupingCharacter(IMathElement) {#createmathgroupingcharacter}
 
 Creates a math grouping character
 
@@ -49,7 +49,7 @@ public IMathGroupingCharacter CreateMathGroupingCharacter(IMathElement element)
 | --- | --- | --- |
 | element | IMathElement | math element to apply grouping character |
 
-## Return Value
+### Return Value
 
 new grouping character element
 

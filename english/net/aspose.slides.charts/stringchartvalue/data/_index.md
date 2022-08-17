@@ -1,7 +1,7 @@
 ---
 title: Data
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets Data object. Read/write Object.
 type: docs
 weight: 30
 url: /net/aspose.slides.charts/stringchartvalue/data/

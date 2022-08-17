@@ -1,7 +1,7 @@
 ---
 title: ExtrusionColor
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the color of an extrusion. Read-only Color.
 type: docs
 weight: 80
 url: /net/aspose.slides/ithreedformateffectivedata/extrusioncolor/

@@ -1,7 +1,7 @@
 ---
 title: Y
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the Y coordinate of the upper-left corner of a frame. Read-only Single.
 type: docs
 weight: 110
 url: /net/aspose.slides/shapeframe/y/

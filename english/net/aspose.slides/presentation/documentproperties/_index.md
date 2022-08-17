@@ -1,7 +1,7 @@
 ---
 title: DocumentProperties
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns DocumentProperties object which contains standard and custom document properties. Read-only IDocumentPropertiesaspose.slides/idocumentproperties.
 type: docs
 weight: 90
 url: /net/aspose.slides/presentation/documentproperties/

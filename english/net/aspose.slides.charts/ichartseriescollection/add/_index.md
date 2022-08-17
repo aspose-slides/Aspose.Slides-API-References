@@ -1,12 +1,12 @@
 ---
 title: Add
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates new chart series and adds it to the collection.
 type: docs
 weight: 20
 url: /net/aspose.slides.charts/ichartseriescollection/add/
 ---
-## IChartSeriesCollection.Add method (1 of 4)
+## Add(ChartType) {#add}
 
 Creates new chart series and adds it to the collection.
 
@@ -18,7 +18,7 @@ public IChartSeries Add(ChartType type)
 | --- | --- | --- |
 | type | ChartType | Type of series |
 
-## Return Value
+### Return Value
 
 New chart series.
 
@@ -32,7 +32,7 @@ New chart series.
 
 ---
 
-## IChartSeriesCollection.Add method (2 of 4)
+## Add(IChartDataCell, ChartType) {#add_2}
 
 Creates new chart series from [`IChartDataCell`](../../ichartdatacell) and adds it to the collection.
 
@@ -45,7 +45,7 @@ public IChartSeries Add(IChartDataCell cellWithSeriesName, ChartType type)
 | cellWithSeriesName | IChartDataCell | Cell which contain series name. |
 | type | ChartType | Type set type of series |
 
-## Return Value
+### Return Value
 
 Added chart series or series that already is in collection.
 
@@ -64,7 +64,7 @@ If chart series careted from same cell already in collection then method adds no
 
 ---
 
-## IChartSeriesCollection.Add method (3 of 4)
+## Add(IChartCellCollection, ChartType) {#add_1}
 
 Creates new chart series from [`IChartCellCollection`](../../ichartcellcollection) and adds it to the collection.
 
@@ -77,7 +77,7 @@ public IChartSeries Add(IChartCellCollection cellsWithSeriesName, ChartType type
 | cellsWithSeriesName | IChartCellCollection | Cells which contain series name. |
 | type | ChartType | Type set type of series |
 
-## Return Value
+### Return Value
 
 Added chart series or series that already is in collection.
 
@@ -96,7 +96,7 @@ If chart series careted from same cell already in collection then method adds no
 
 ---
 
-## IChartSeriesCollection.Add method (4 of 4)
+## Add(string, ChartType) {#add_3}
 
 Creates new chart series from value and adds it to the collection.
 
@@ -109,7 +109,7 @@ public IChartSeries Add(string name, ChartType type)
 | name | String | Series name. |
 | type | ChartType | Type set type of series |
 
-## Return Value
+### Return Value
 
 Added chart series.
 

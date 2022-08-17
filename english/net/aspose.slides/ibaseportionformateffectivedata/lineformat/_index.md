@@ -1,7 +1,7 @@
 ---
 title: LineFormat
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the LineFormat properties for text outlining. Read-only ILineFormatEffectiveDataaspose.slides/ilineformateffectivedata.
 type: docs
 weight: 180
 url: /net/aspose.slides/ibaseportionformateffectivedata/lineformat/

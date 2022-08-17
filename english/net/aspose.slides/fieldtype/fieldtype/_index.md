@@ -1,7 +1,7 @@
 ---
 title: FieldType
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Initializes a new instance of FieldType class.
 type: docs
 weight: 10
 url: /net/aspose.slides/fieldtype/fieldtype/

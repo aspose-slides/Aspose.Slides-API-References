@@ -1,7 +1,7 @@
 ---
 title: ExternalUrl
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Specifies the external URL If this property become not null then property TargetSlide become null. Read-only String.
 type: docs
 weight: 30
 url: /net/aspose.slides/ihyperlink/externalurl/

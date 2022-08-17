@@ -1,9 +1,9 @@
 ---
 title: ShapeFrame
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents shape frames properties.
 type: docs
-weight: 9120
+weight: 9140
 url: /net/aspose.slides/shapeframe/
 ---
 ## ShapeFrame class
@@ -41,8 +41,8 @@ public class ShapeFrame : IShapeFrame
 | --- | --- |
 | [Clone](../../aspose.slides/shapeframe/clone)() | Clones |
 | [CloneT](../../aspose.slides/shapeframe/clonet)() | Clones. |
-| override [Equals](../../aspose.slides/shapeframe/equals)(object) | Returns a value indicating whether this instance is equal to a specified object. |
-| [Equals](../../aspose.slides/shapeframe/equals)(ShapeFrame) | Returns a value indicating whether this instance is equal to a specified object. |
+| override [Equals](../../aspose.slides/shapeframe/equals#equals_1)(object) | Returns a value indicating whether this instance is equal to a specified object. |
+| [Equals](../../aspose.slides/shapeframe/equals#equals)(ShapeFrame) | Returns a value indicating whether this instance is equal to a specified object. |
 | override [GetHashCode](../../aspose.slides/shapeframe/gethashcode)() | Returns a hash code for this object. |
 
 ### See Also

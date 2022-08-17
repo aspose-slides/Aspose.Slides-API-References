@@ -1,7 +1,7 @@
 ---
 title: AnchoringType
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets vertical anchor text in a TextFrameEx. Read/write TextAnchorTypeaspose.slides/textanchortype.
 type: docs
 weight: 20
 url: /net/aspose.slides/textframeformat/anchoringtype/

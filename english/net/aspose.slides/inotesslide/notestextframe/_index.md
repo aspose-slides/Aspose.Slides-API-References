@@ -1,7 +1,7 @@
 ---
 title: NotesTextFrame
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns a TextFrame with notes text if there is one. Read-only ITextFrameaspose.slides/itextframe.
 type: docs
 weight: 40
 url: /net/aspose.slides/inotesslide/notestextframe/

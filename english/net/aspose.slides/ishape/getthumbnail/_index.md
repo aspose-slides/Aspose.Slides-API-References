@@ -1,12 +1,12 @@
 ---
 title: GetThumbnail
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns shape thumbnail. ShapeThumbnailBounds.Shape shape thumbnail bounds type is used by default.
 type: docs
 weight: 300
 url: /net/aspose.slides/ishape/getthumbnail/
 ---
-## IShape.GetThumbnail method (1 of 2)
+## GetThumbnail() {#getthumbnail}
 
 Returns shape thumbnail. ShapeThumbnailBounds.Shape shape thumbnail bounds type is used by default.
 
@@ -14,7 +14,7 @@ Returns shape thumbnail. ShapeThumbnailBounds.Shape shape thumbnail bounds type 
 public Bitmap GetThumbnail()
 ```
 
-## Return Value
+### Return Value
 
 Shape thumbnail.
 
@@ -26,7 +26,7 @@ Shape thumbnail.
 
 ---
 
-## IShape.GetThumbnail method (2 of 2)
+## GetThumbnail(ShapeThumbnailBounds, float, float) {#getthumbnail_1}
 
 Returns shape thumbnail.
 
@@ -40,7 +40,7 @@ public Bitmap GetThumbnail(ShapeThumbnailBounds bounds, float scaleX, float scal
 | scaleX | Single | X scale |
 | scaleY | Single | Y scale |
 
-## Return Value
+### Return Value
 
 Shape thumbnail or null in case when ShapeThumbnailBounds.Appearance is used and a shape doesn't have visible elements.
 

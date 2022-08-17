@@ -1,7 +1,7 @@
 ---
 title: StyleVisibility
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents style.visibility property
 type: docs
 weight: 1190
 url: /net/aspose.slides.animation/behaviorproperty/stylevisibility/

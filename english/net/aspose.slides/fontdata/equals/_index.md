@@ -1,7 +1,7 @@
 ---
 title: Equals
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Determines whether two FontData instances are equal.
 type: docs
 weight: 30
 url: /net/aspose.slides/fontdata/equals/
@@ -18,7 +18,7 @@ public override bool Equals(object obj)
 | --- | --- | --- |
 | obj | Object | The FontData to compare with the current FontData. |
 
-## Return Value
+### Return Value
 
 **true** if the specified FontData is equal to the current FontData; otherwise, **false**.
 

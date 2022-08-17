@@ -1,7 +1,7 @@
 ---
 title: GetEnumerator
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns an enumerator that iterates through the collection.
 type: docs
 weight: 80
 url: /net/aspose.slides/digitalsignaturecollection/getenumerator/
@@ -14,7 +14,7 @@ Returns an enumerator that iterates through the collection.
 public IEnumerator<IDigitalSignature> GetEnumerator()
 ```
 
-## Return Value
+### Return Value
 
 A IEnumerator that can be used to iterate through the collection.
 

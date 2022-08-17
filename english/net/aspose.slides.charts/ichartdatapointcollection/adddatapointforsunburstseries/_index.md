@@ -1,7 +1,7 @@
 ---
 title: AddDataPointForSunburstSeries
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates the new data point and adds it to the end of collection. Applicable for series which chart type is Sunburst.
 type: docs
 weight: 200
 url: /net/aspose.slides.charts/ichartdatapointcollection/adddatapointforsunburstseries/
@@ -18,7 +18,7 @@ public IChartDataPoint AddDataPointForSunburstSeries(IChartDataCell sizeValue)
 | --- | --- | --- |
 | sizeValue | IChartDataCell | Data point SizeValue |
 
-## Return Value
+### Return Value
 
 New data point.
 

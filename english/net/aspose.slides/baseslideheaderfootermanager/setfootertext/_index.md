@@ -1,7 +1,7 @@
 ---
 title: SetFooterText
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Sets text to slide footer placeholder.
 type: docs
 weight: 60
 url: /net/aspose.slides/baseslideheaderfootermanager/setfootertext/

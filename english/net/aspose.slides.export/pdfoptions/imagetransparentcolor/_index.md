@@ -1,7 +1,7 @@
 ---
 title: ImageTransparentColor
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Gets or sets the image transparent color.
 type: docs
 weight: 100
 url: /net/aspose.slides.export/pdfoptions/imagetransparentcolor/
@@ -14,7 +14,7 @@ Gets or sets the image transparent color.
 public Color ImageTransparentColor { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The color of the image transparent.
 

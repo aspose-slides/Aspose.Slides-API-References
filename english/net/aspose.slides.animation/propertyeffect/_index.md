@@ -1,7 +1,7 @@
 ---
 title: PropertyEffect
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represent property effect behavior.
 type: docs
 weight: 650
 url: /net/aspose.slides.animation/propertyeffect/

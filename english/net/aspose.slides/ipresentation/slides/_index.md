@@ -1,7 +1,7 @@
 ---
 title: Slides
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns a list of all slides that are defined in the presentation. Read-only ISlideCollectionaspose.slides/islidecollection.
 type: docs
 weight: 240
 url: /net/aspose.slides/ipresentation/slides/

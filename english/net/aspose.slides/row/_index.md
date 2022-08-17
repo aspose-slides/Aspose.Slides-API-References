@@ -1,9 +1,9 @@
 ---
 title: Row
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents a row in a table.
 type: docs
-weight: 8980
+weight: 9000
 url: /net/aspose.slides/row/
 ---
 ## Row class
@@ -34,9 +34,9 @@ public sealed class Row : CellCollection, IRow
 | --- | --- |
 | [CopyTo](../../aspose.slides/cellcollection/copyto)(Array, int) | Copies all elements from the collection to the specified array. |
 | [GetEnumerator](../../aspose.slides/cellcollection/getenumerator)() | Returns an enumerator that iterates through the collection. |
-| [SetTextFormat](../../aspose.slides/row/settextformat)(IParagraphFormat) | Sets defined paragraph format properties to all row cells' paragraphs. |
-| [SetTextFormat](../../aspose.slides/row/settextformat)(IPortionFormat) | Sets defined portion format properties to all row cells' portions. |
-| [SetTextFormat](../../aspose.slides/row/settextformat)(ITextFrameFormat) | Sets defined text frame format properties to all row cells' text frames. |
+| [SetTextFormat](../../aspose.slides/row/settextformat#settextformat)(IParagraphFormat) | Sets defined paragraph format properties to all row cells' paragraphs. |
+| [SetTextFormat](../../aspose.slides/row/settextformat#settextformat_1)(IPortionFormat) | Sets defined portion format properties to all row cells' portions. |
+| [SetTextFormat](../../aspose.slides/row/settextformat#settextformat_2)(ITextFrameFormat) | Sets defined text frame format properties to all row cells' text frames. |
 
 ### See Also
 

@@ -1,7 +1,7 @@
 ---
 title: ScaleY
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents ScaleY property
 type: docs
 weight: 590
 url: /net/aspose.slides.animation/behaviorproperty/scaley/

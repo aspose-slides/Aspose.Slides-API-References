@@ -1,7 +1,7 @@
 ---
 title: From
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Describes the starting value for the animation. Read/write Single.
 type: docs
 weight: 30
 url: /net/aspose.slides.animation/rotationeffect/from/

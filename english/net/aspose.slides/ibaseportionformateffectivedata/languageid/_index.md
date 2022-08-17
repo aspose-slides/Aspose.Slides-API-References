@@ -1,7 +1,7 @@
 ---
 title: LanguageId
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the Id of a language. Read-only String.
 type: docs
 weight: 160
 url: /net/aspose.slides/ibaseportionformateffectivedata/languageid/

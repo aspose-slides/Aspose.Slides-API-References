@@ -1,7 +1,7 @@
 ---
 title: InsertModernComment
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Insert new modern comment to a collection at the specified index.
 type: docs
 weight: 120
 url: /net/aspose.slides/commentcollection/insertmoderncomment/
@@ -24,7 +24,7 @@ public IModernComment InsertModernComment(int index, string text, ISlide slide, 
 | position | PointF | Position on a slide where to add a new modern comment. |
 | creationTime | DateTime | Time of a modern comment creation. |
 
-## Return Value
+### Return Value
 
 Inserted modern comment.
 

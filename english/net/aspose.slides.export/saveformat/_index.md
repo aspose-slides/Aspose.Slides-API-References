@@ -1,9 +1,9 @@
 ---
 title: SaveFormat
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Constants which define the format of a saved presentation.
 type: docs
-weight: 4010
+weight: 4030
 url: /net/aspose.slides.export/saveformat/
 ---
 ## SaveFormat enumeration
@@ -14,7 +14,7 @@ Constants which define the format of a saved presentation.
 public enum SaveFormat
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

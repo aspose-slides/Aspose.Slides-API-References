@@ -1,7 +1,7 @@
 ---
 title: RemoveAt
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Removes a column at the specified position from a table.
 type: docs
 weight: 40
 url: /net/aspose.slides/icolumncollection/removeat/

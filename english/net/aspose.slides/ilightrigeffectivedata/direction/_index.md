@@ -1,7 +1,7 @@
 ---
 title: Direction
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Light direction. Read-only LightingDirectionaspose.slides/lightingdirection.
 type: docs
 weight: 10
 url: /net/aspose.slides/ilightrigeffectivedata/direction/

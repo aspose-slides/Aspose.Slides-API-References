@@ -1,7 +1,7 @@
 ---
 title: TargetSection
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Gets or sets the section object that the Section Zoom object links to. Read/write ISectionaspose.slides/isection.
 type: docs
 weight: 10
 url: /net/aspose.slides/sectionzoomframe/targetsection/

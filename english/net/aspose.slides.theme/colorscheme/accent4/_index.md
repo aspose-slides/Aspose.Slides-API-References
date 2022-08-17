@@ -1,7 +1,7 @@
 ---
 title: Accent4
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Fourth accent color in the scheme. Read-only IColorFormataspose.slides/icolorformat.
 type: docs
 weight: 40
 url: /net/aspose.slides.theme/colorscheme/accent4/

@@ -1,7 +1,7 @@
 ---
 title: CreateReflection
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates Reflection effect.
 type: docs
 weight: 60
 url: /net/aspose.slides.effects/ieffectfactory/createreflection/
@@ -14,7 +14,7 @@ Creates Reflection effect.
 public IReflection CreateReflection()
 ```
 
-## Return Value
+### Return Value
 
 Reflection effect.
 

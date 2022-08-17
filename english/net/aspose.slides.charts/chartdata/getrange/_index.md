@@ -1,7 +1,7 @@
 ---
 title: GetRange
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Gets chart data range.
 type: docs
 weight: 90
 url: /net/aspose.slides.charts/chartdata/getrange/
@@ -14,7 +14,7 @@ Gets chart data range.
 public string GetRange()
 ```
 
-## Return Value
+### Return Value
 
 Cells data range formula. E.g: "Sheet1!$A$1:$C$4"
 

@@ -1,9 +1,9 @@
 ---
 title: ISlideShowTransition
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents slide show transition.
 type: docs
-weight: 6500
+weight: 6520
 url: /net/aspose.slides/islideshowtransition/
 ---
 ## ISlideShowTransition interface
@@ -18,6 +18,7 @@ public interface ISlideShowTransition
 
 | Name | Description |
 | --- | --- |
+| [AdvanceAfter](../../aspose.slides/islideshowtransition/advanceafter) { get; set; } | This attribute specifies if the slideshow will move to the next slide after a certain time. Read/write Boolean. |
 | [AdvanceAfterTime](../../aspose.slides/islideshowtransition/advanceaftertime) { get; set; } | Specifies the time, in milliseconds, after which the transition should start. This setting may be used in conjunction with the advClick attribute. If this attribute is not specified then it is assumed that no auto-advance will occur. Read-write UInt32. |
 | [AdvanceOnClick](../../aspose.slides/islideshowtransition/advanceonclick) { get; set; } | Specifies whether a mouse click will advance the slide or not. If this attribute is not specified then a value of true is assumed. Read-write Boolean. |
 | [Sound](../../aspose.slides/islideshowtransition/sound) { get; set; } | Returns or sets the embedded audio data. Read-write [`IAudio`](../iaudio). |

@@ -1,7 +1,7 @@
 ---
 title: ExtrusionRotationAngleX
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents extrusion.rotationangle.x property
 type: docs
 weight: 140
 url: /net/aspose.slides.animation/behaviorproperty/extrusionrotationanglex/

@@ -1,7 +1,7 @@
 ---
 title: SetDateTimeAndChildDateTimesVisibility
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Changes layout slide date-time placeholder and all child date-time placeholders visibility. Child placeholders mean placeholders are contained on depending slides. Depending slides use and depend on layout slide.
 type: docs
 weight: 30
 url: /net/aspose.slides/ilayoutslideheaderfootermanager/setdatetimeandchilddatetimesvisibility/

@@ -1,7 +1,7 @@
 ---
 title: FormatScheme
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the shape format scheme. Read-only IFormatSchemeaspose.slides.theme/iformatscheme.
 type: docs
 weight: 30
 url: /net/aspose.slides.theme/theme/formatscheme/

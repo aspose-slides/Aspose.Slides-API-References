@@ -1,7 +1,7 @@
 ---
 title: AsIMultipleCellChartValue
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Allows to get base IMultipleCellChartValue interface. Read-only IMultipleCellChartValueaspose.slides.charts/imultiplecellchartvalue.
 type: docs
 weight: 10
 url: /net/aspose.slides.charts/istringchartvalue/asimultiplecellchartvalue/

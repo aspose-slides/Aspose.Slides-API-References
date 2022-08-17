@@ -1,7 +1,7 @@
 ---
 title: IsEncrypted
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Gets a value indicating whether this instance is encrypted. Read-only Boolean.
 type: docs
 weight: 30
 url: /net/aspose.slides/iprotectionmanager/isencrypted/
@@ -14,7 +14,7 @@ Gets a value indicating whether this instance is encrypted. Read-only Boolean.
 public bool IsEncrypted { get; }
 ```
 
-## Property Value
+### Property Value
 
 `true` if presentation was loaded from encrypted file or [`Encrypt`](../encrypt) method was called ; otherwise, `false`.
 

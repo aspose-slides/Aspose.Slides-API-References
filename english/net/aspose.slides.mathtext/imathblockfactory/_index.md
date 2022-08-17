@@ -1,9 +1,9 @@
 ---
 title: IMathBlockFactory
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Allows to create a math block
 type: docs
-weight: 7450
+weight: 7470
 url: /net/aspose.slides.mathtext/imathblockfactory/
 ---
 ## IMathBlockFactory interface
@@ -18,9 +18,9 @@ public interface IMathBlockFactory
 
 | Name | Description |
 | --- | --- |
-| [CreateMathBlock](../../aspose.slides.mathtext/imathblockfactory/createmathblock)() | Create a math block |
-| [CreateMathBlock](../../aspose.slides.mathtext/imathblockfactory/createmathblock)(IMathElement) | Create a math block and place the element in it |
-| [CreateMathBlock](../../aspose.slides.mathtext/imathblockfactory/createmathblock)(IMathElementCollection) | Create a math block and place elements in it |
+| [CreateMathBlock](../../aspose.slides.mathtext/imathblockfactory/createmathblock#createmathblock)() | Create a math block |
+| [CreateMathBlock](../../aspose.slides.mathtext/imathblockfactory/createmathblock#createmathblock_1)(IMathElement) | Create a math block and place the element in it |
+| [CreateMathBlock](../../aspose.slides.mathtext/imathblockfactory/createmathblock#createmathblock_2)(IMathElementCollection) | Create a math block and place elements in it |
 
 ### Remarks
 

@@ -1,7 +1,7 @@
 ---
 title: SlideIndex
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns index of currently rendering slide. Read-only Int32.
 type: docs
 weight: 60
 url: /net/aspose.slides.export/htmlgenerator/slideindex/

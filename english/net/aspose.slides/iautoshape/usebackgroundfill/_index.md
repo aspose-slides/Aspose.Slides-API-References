@@ -1,7 +1,7 @@
 ---
 title: UseBackgroundFill
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Determines whether this autoshape should be filled with slides background fill instead of specified by style or fill format. Read/write Boolean.
 type: docs
 weight: 60
 url: /net/aspose.slides/iautoshape/usebackgroundfill/

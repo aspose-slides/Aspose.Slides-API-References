@@ -1,12 +1,12 @@
 ---
 title: ReadPresentation
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Reads an existing presentation from array
 type: docs
 weight: 60
 url: /net/aspose.slides/presentationfactory/readpresentation/
 ---
-## PresentationFactory.ReadPresentation method (1 of 6)
+## ReadPresentation(byte[]) {#readpresentation}
 
 Reads an existing presentation from array
 
@@ -18,7 +18,7 @@ public IPresentation ReadPresentation(byte[] data)
 | --- | --- | --- |
 | data | Byte[] | Array to read |
 
-## Return Value
+### Return Value
 
 Read presentation
 
@@ -31,7 +31,7 @@ Read presentation
 
 ---
 
-## PresentationFactory.ReadPresentation method (2 of 6)
+## ReadPresentation(byte[], ILoadOptions) {#readpresentation_1}
 
 Reads an existing presentation from array with additional load options
 
@@ -44,7 +44,7 @@ public IPresentation ReadPresentation(byte[] data, ILoadOptions options)
 | data | Byte[] | Array to read |
 | options | ILoadOptions | Load options |
 
-## Return Value
+### Return Value
 
 Read presentation
 
@@ -58,7 +58,7 @@ Read presentation
 
 ---
 
-## PresentationFactory.ReadPresentation method (3 of 6)
+## ReadPresentation(Stream) {#readpresentation_2}
 
 Reads an existing presentation from stream
 
@@ -70,7 +70,7 @@ public IPresentation ReadPresentation(Stream stream)
 | --- | --- | --- |
 | stream | Stream | Input stream to read |
 
-## Return Value
+### Return Value
 
 Read presentation
 
@@ -83,7 +83,7 @@ Read presentation
 
 ---
 
-## PresentationFactory.ReadPresentation method (4 of 6)
+## ReadPresentation(Stream, ILoadOptions) {#readpresentation_3}
 
 Reads an existing presentation from stream with additional load options
 
@@ -96,7 +96,7 @@ public IPresentation ReadPresentation(Stream stream, ILoadOptions options)
 | stream | Stream | Input stream to read |
 | options | ILoadOptions | Load options |
 
-## Return Value
+### Return Value
 
 Read presentation
 
@@ -110,7 +110,7 @@ Read presentation
 
 ---
 
-## PresentationFactory.ReadPresentation method (5 of 6)
+## ReadPresentation(string) {#readpresentation_4}
 
 Reads an existing presentation from file
 
@@ -122,7 +122,7 @@ public IPresentation ReadPresentation(string file)
 | --- | --- | --- |
 | file | String | File name |
 
-## Return Value
+### Return Value
 
 Read presentation
 
@@ -135,7 +135,7 @@ Read presentation
 
 ---
 
-## PresentationFactory.ReadPresentation method (6 of 6)
+## ReadPresentation(string, ILoadOptions) {#readpresentation_5}
 
 Reads an existing presentation from stream with additional load options
 
@@ -148,7 +148,7 @@ public IPresentation ReadPresentation(string file, ILoadOptions options)
 | file | String | File name |
 | options | ILoadOptions | Load options |
 
-## Return Value
+### Return Value
 
 Read presentation
 

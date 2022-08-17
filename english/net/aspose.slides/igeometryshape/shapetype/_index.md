@@ -1,7 +1,7 @@
 ---
 title: ShapeType
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets the geometry preset type. Note on value changing all adjustment values will reset to their default values. Read/write ShapeTypeaspose.slides/shapetype.
 type: docs
 weight: 40
 url: /net/aspose.slides/igeometryshape/shapetype/

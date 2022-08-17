@@ -1,7 +1,7 @@
 ---
 title: Width
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the width of a frame. Read-only Single.
 type: docs
 weight: 80
 url: /net/aspose.slides/ishapeframe/width/

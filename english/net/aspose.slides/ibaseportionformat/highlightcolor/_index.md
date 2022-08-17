@@ -1,7 +1,7 @@
 ---
 title: HighlightColor
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the color used to highlight a text. No inheritance applied. Read-only IColorFormataspose.slides/icolorformat.
 type: docs
 weight: 110
 url: /net/aspose.slides/ibaseportionformat/highlightcolor/

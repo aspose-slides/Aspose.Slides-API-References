@@ -1,7 +1,7 @@
 ---
 title: CreateAlphaModulateFixed
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates Alpha modulate fixed effect.
 type: docs
 weight: 50
 url: /net/aspose.slides.effects/iimagetransformoperationfactory/createalphamodulatefixed/
@@ -18,7 +18,7 @@ public IAlphaModulateFixed CreateAlphaModulateFixed(float amount)
 | --- | --- | --- |
 | amount | Single | Amount. |
 
-## Return Value
+### Return Value
 
 Alpha modulate fixed effect.
 

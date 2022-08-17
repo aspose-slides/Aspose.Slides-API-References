@@ -1,7 +1,7 @@
 ---
 title: Item
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the worksheet by index.
 type: docs
 weight: 10
 url: /net/aspose.slides.charts/ichartdataworksheetcollection/item/
@@ -18,7 +18,7 @@ public IChartDataWorksheet this[int index] { get; }
 | --- | --- |
 | index | Index of the worksheet in the collection. |
 
-## Return Value
+### Return Value
 
 Instance of the IChartDataWorksheet.
 

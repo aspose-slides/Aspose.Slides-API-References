@@ -1,7 +1,7 @@
 ---
 title: ZOrderPosition
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the position of a shape in the z-order. Shapes0 returns the shape at the back of the z-order and ShapesShapes.Count - 1 returns the shape at the front of the z-order. Read-only Int32.
 type: docs
 weight: 280
 url: /net/aspose.slides/ishape/zorderposition/

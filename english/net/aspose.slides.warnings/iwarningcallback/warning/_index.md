@@ -1,7 +1,7 @@
 ---
 title: Warning
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Callback method which receives warning and decides whether operation should be aborted.
 type: docs
 weight: 10
 url: /net/aspose.slides.warnings/iwarningcallback/warning/
@@ -18,7 +18,7 @@ public ReturnAction Warning(IWarningInfo warning)
 | --- | --- | --- |
 | warning | IWarningInfo | Warning to process. |
 
-## Return Value
+### Return Value
 
 Abortion decision [`ReturnAction`](../../returnaction).
 

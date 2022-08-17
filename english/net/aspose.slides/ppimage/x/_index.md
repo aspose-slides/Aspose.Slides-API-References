@@ -1,7 +1,7 @@
 ---
 title: X
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns a X-offset of an image. Read-only Int32.
 type: docs
 weight: 70
 url: /net/aspose.slides/ppimage/x/

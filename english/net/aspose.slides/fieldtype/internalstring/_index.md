@@ -1,7 +1,7 @@
 ---
 title: InternalString
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the internal name of this FieldType object. Read/write String.
 type: docs
 weight: 190
 url: /net/aspose.slides/fieldtype/internalstring/

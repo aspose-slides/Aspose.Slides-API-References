@@ -1,12 +1,12 @@
 ---
 title: Remove
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Removes item from collection.
 type: docs
 weight: 110
 url: /net/aspose.slides.charts/piesplitcustompointcollection/remove/
 ---
-## PieSplitCustomPointCollection.Remove method (1 of 2)
+## Remove(IChartDataPoint) {#remove}
 
 Removes item from collection.
 
@@ -18,7 +18,7 @@ public bool Remove(IChartDataPoint dataPoint)
 | --- | --- | --- |
 | dataPoint | IChartDataPoint | Data point remove to. |
 
-## Return Value
+### Return Value
 
 true if item is successfully removed; otherwise, false. This method also returns false if item was not found in the System.Collections.Generic.List{T}.
 
@@ -31,7 +31,7 @@ true if item is successfully removed; otherwise, false. This method also returns
 
 ---
 
-## PieSplitCustomPointCollection.Remove method (2 of 2)
+## Remove(int) {#remove_1}
 
 Removes item from collection by it index in parent series points collection.
 

@@ -1,7 +1,7 @@
 ---
 title: LinearGradientScaled
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Determines whether a gradient is scaled. Read-only Boolean.
 type: docs
 weight: 60
 url: /net/aspose.slides/igradientformateffectivedata/lineargradientscaled/

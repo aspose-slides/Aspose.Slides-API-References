@@ -1,7 +1,7 @@
 ---
 title: AsILayoutSlideCollection
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns ILayoutSlideCollection interface. Read-only ILayoutSlideCollectionaspose.slides/ilayoutslidecollection.
 type: docs
 weight: 10
 url: /net/aspose.slides/igloballayoutslidecollection/asilayoutslidecollection/

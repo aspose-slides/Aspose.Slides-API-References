@@ -1,7 +1,7 @@
 ---
 title: Item
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns a property at the specified index.
 type: docs
 weight: 30
 url: /net/aspose.slides.animation/behaviorpropertycollection/item/
@@ -18,7 +18,7 @@ public IBehaviorProperty this[int index] { get; set; }
 | --- | --- |
 | index | Index of a property to return. |
 
-## Return Value
+### Return Value
 
 Animation behavior property.
 

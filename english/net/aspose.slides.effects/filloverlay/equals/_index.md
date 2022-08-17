@@ -1,7 +1,7 @@
 ---
 title: Equals
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Determines whether the specified FillOverlayaspose.slides.effects/filloverlay is equal to the current FillOverlayaspose.slides.effects/filloverlay.
 type: docs
 weight: 30
 url: /net/aspose.slides.effects/filloverlay/equals/
@@ -18,7 +18,7 @@ public override bool Equals(object obj)
 | --- | --- | --- |
 | obj | Object | The [`FillOverlay`](../../filloverlay) to compare. |
 
-## Return Value
+### Return Value
 
 true if objects are equal; otherwise, false.
 

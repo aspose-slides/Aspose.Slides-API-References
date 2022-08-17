@@ -1,7 +1,7 @@
 ---
 title: KeepTextFlat
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or set keeping text out of 3D scene entirely. Read/write Boolean.
 type: docs
 weight: 60
 url: /net/aspose.slides/itextframeformat/keeptextflat/

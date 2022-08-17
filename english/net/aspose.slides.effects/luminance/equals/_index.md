@@ -1,7 +1,7 @@
 ---
 title: Equals
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Determines whether the specified Luminanceaspose.slides.effects/luminance is equal to the current Luminanceaspose.slides.effects/luminance.
 type: docs
 weight: 10
 url: /net/aspose.slides.effects/luminance/equals/
@@ -18,7 +18,7 @@ public override bool Equals(object obj)
 | --- | --- | --- |
 | obj | Object | The [`Luminance`](../../luminance) to compare. |
 
-## Return Value
+### Return Value
 
 true if objects are equal; otherwise, false.
 

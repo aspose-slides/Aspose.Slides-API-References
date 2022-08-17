@@ -1,7 +1,7 @@
 ---
 title: SetEventHandler
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Sets event handler for the shape
 type: docs
 weight: 20
 url: /net/aspose.slides.export/isvgshape/seteventhandler/

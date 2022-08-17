@@ -1,7 +1,7 @@
 ---
 title: Delimit
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Delimits arguments using the specified delimiter character
 type: docs
 weight: 80
 url: /net/aspose.slides.mathtext/mathdelimiter/delimit/
@@ -18,7 +18,7 @@ public IMathDelimiter Delimit(char separatorCharacter)
 | --- | --- | --- |
 | separatorCharacter | Char | delimiter character |
 
-## Return Value
+### Return Value
 
 This object after applying the delimiter character
 

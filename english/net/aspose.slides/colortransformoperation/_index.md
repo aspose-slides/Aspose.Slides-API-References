@@ -1,9 +1,9 @@
 ---
 title: ColorTransformOperation
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Defines color transform operation.
 type: docs
-weight: 2420
+weight: 2440
 url: /net/aspose.slides/colortransformoperation/
 ---
 ## ColorTransformOperation enumeration
@@ -14,7 +14,7 @@ Defines color transform operation.
 public enum ColorTransformOperation
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

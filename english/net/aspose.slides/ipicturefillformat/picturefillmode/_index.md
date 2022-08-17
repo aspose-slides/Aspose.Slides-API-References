@@ -1,7 +1,7 @@
 ---
 title: PictureFillMode
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets the picture fill mode. Read/write PictureFillModeaspose.slides/picturefillmode.
 type: docs
 weight: 80
 url: /net/aspose.slides/ipicturefillformat/picturefillmode/

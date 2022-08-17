@@ -1,12 +1,12 @@
 ---
 title: DigitalSignature
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates a new DigitalSignature object with the specified certificate.
 type: docs
 weight: 10
 url: /net/aspose.slides/digitalsignature/digitalsignature/
 ---
-## DigitalSignature constructor (1 of 2)
+## DigitalSignature(X509Certificate2) {#constructor}
 
 Creates a new DigitalSignature object with the specified certificate.
 
@@ -26,7 +26,7 @@ public DigitalSignature(X509Certificate2 certificate)
 
 ---
 
-## DigitalSignature constructor (2 of 2)
+## DigitalSignature(string, string) {#constructor_1}
 
 Creates a new DigitalSignature object with the specified certificate file path and password.
 

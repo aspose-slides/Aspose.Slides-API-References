@@ -1,7 +1,7 @@
 ---
 title: Y
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets the y coordinate of a title as a fraction of the height of the chart. Read/write Single.
 type: docs
 weight: 110
 url: /net/aspose.slides.charts/charttitle/y/

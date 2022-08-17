@@ -1,7 +1,7 @@
 ---
 title: Portion
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Iterate each Portionaspose.slides.lowcode/foreach/portion in the Presentationaspose.slides/presentation. Portions will be iterated in all type of slides - Slideaspose.slides.lowcode/foreach/slide MasterSlideaspose.slides.lowcode/foreach/masterslide and LayoutSlideaspose.slides.lowcode/foreach/layoutslide
 type: docs
 weight: 40
 url: /net/aspose.slides.lowcode/foreach/portion/

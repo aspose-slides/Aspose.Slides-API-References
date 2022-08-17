@@ -1,9 +1,9 @@
 ---
 title: IEffectParamSource
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Auxiliary effect parameters interface.
 type: docs
-weight: 5240
+weight: 5260
 url: /net/aspose.slides/ieffectparamsource/
 ---
 ## IEffectParamSource interface

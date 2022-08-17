@@ -1,7 +1,7 @@
 ---
 title: Remove
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Removes specified property from the collection.
 type: docs
 weight: 60
 url: /net/aspose.slides.animation/ibehaviorpropertycollection/remove/
@@ -18,7 +18,7 @@ public bool Remove(string propertyValue)
 | --- | --- | --- |
 | propertyValue | String | Value of the property to remove. |
 
-## Return Value
+### Return Value
 
 True if a property removed successfully Boolean
 

@@ -1,7 +1,7 @@
 ---
 title: BevelBottom
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets the type of a bottom 3D bevel. Read-only IShapeBevelaspose.slides/ishapebevel.
 type: docs
 weight: 20
 url: /net/aspose.slides/ithreedformat/bevelbottom/

@@ -1,7 +1,7 @@
 ---
 title: FieldOfViewAngle
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Camera FOV 0-180 deg field of View. Read/write Single.
 type: docs
 weight: 20
 url: /net/aspose.slides/camera/fieldofviewangle/

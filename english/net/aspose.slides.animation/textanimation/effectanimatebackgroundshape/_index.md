@@ -1,7 +1,7 @@
 ---
 title: EffectAnimateBackgroundShape
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Linked shape effect with group or not null. Read/write IEffectaspose.slides.animation/ieffect.
 type: docs
 weight: 30
 url: /net/aspose.slides.animation/textanimation/effectanimatebackgroundshape/

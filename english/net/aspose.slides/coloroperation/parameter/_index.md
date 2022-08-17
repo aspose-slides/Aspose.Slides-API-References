@@ -1,7 +1,7 @@
 ---
 title: Parameter
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns a parameter of an operation. Read-only Single.
 type: docs
 weight: 30
 url: /net/aspose.slides/coloroperation/parameter/

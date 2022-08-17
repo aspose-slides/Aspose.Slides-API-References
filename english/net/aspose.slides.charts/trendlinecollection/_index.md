@@ -1,9 +1,9 @@
 ---
 title: TrendlineCollection
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents a collection of Trendline
 type: docs
-weight: 2340
+weight: 2360
 url: /net/aspose.slides.charts/trendlinecollection/
 ---
 ## TrendlineCollection class

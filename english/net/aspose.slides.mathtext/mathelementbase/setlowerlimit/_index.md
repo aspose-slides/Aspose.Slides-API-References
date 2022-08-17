@@ -1,12 +1,12 @@
 ---
 title: SetLowerLimit
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Takes lower limit
 type: docs
 weight: 120
 url: /net/aspose.slides.mathtext/mathelementbase/setlowerlimit/
 ---
-## MathElementBase.SetLowerLimit method (1 of 2)
+## SetLowerLimit(IMathElement) {#setlowerlimit}
 
 Takes lower limit
 
@@ -18,7 +18,7 @@ public IMathLimit SetLowerLimit(IMathElement limit)
 | --- | --- | --- |
 | limit | IMathElement | limit |
 
-## Return Value
+### Return Value
 
 New instance of type [`IMathLimit`](../../imathlimit)
 
@@ -43,7 +43,7 @@ var limitElement = baseElement.SetLowerLimit(limitValue);
 
 ---
 
-## MathElementBase.SetLowerLimit method (2 of 2)
+## SetLowerLimit(string) {#setlowerlimit_1}
 
 Takes lower limit
 
@@ -55,7 +55,7 @@ public IMathLimit SetLowerLimit(string limit)
 | --- | --- | --- |
 | limit | String | limit |
 
-## Return Value
+### Return Value
 
 New instance of type [`IMathLimit`](../../imathlimit)
 

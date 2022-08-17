@@ -1,7 +1,7 @@
 ---
 title: Equals
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Determines whether the specified GrayScaleaspose.slides.effects/grayscale is equal to the current GrayScaleaspose.slides.effects/grayscale.
 type: docs
 weight: 10
 url: /net/aspose.slides.effects/grayscale/equals/
@@ -18,7 +18,7 @@ public override bool Equals(object obj)
 | --- | --- | --- |
 | obj | Object | The [`GrayScale`](../../grayscale) to compare. |
 
-## Return Value
+### Return Value
 
 true if objects are equal; otherwise, false.
 

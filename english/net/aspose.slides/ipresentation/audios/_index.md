@@ -1,7 +1,7 @@
 ---
 title: Audios
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the collection of all embedded audio files in the presentation. Read-only IAudioCollectionaspose.slides/iaudiocollection.
 type: docs
 weight: 40
 url: /net/aspose.slides/ipresentation/audios/

@@ -1,12 +1,12 @@
 ---
 title: SetTextFormat
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Sets defined portion format properties to all elements portions.
 type: docs
 weight: 10
 url: /net/aspose.slides/ibulktextformattable/settextformat/
 ---
-## IBulkTextFormattable.SetTextFormat method (1 of 3)
+## SetTextFormat(IPortionFormat) {#settextformat_1}
 
 Sets defined portion format properties to all element's portions.
 
@@ -27,7 +27,7 @@ public void SetTextFormat(IPortionFormat source)
 
 ---
 
-## IBulkTextFormattable.SetTextFormat method (2 of 3)
+## SetTextFormat(IParagraphFormat) {#settextformat}
 
 Sets defined paragraph format properties to all element's paragraphs.
 
@@ -48,7 +48,7 @@ public void SetTextFormat(IParagraphFormat source)
 
 ---
 
-## IBulkTextFormattable.SetTextFormat method (3 of 3)
+## SetTextFormat(ITextFrameFormat) {#settextformat_2}
 
 Sets defined text frame format properties to all element's text frames.
 

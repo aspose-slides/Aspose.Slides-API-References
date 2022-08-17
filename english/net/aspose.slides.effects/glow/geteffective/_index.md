@@ -1,7 +1,7 @@
 ---
 title: GetEffective
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Gets effective Glow effect data with the inheritance applied.
 type: docs
 weight: 40
 url: /net/aspose.slides.effects/glow/geteffective/
@@ -14,7 +14,7 @@ Gets effective Glow effect data with the inheritance applied.
 public IGlowEffectiveData GetEffective()
 ```
 
-## Return Value
+### Return Value
 
 A [`IGlowEffectiveData`](../../igloweffectivedata).
 

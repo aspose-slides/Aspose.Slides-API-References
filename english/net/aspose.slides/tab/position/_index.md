@@ -1,7 +1,7 @@
 ---
 title: Position
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets position of a tab. Assigning this property can change tabs index in collection and invalidate Enumerator. Read/write Double.
 type: docs
 weight: 30
 url: /net/aspose.slides/tab/position/

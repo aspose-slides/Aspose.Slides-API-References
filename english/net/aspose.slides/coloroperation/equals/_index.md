@@ -1,7 +1,7 @@
 ---
 title: Equals
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Determines whether the two ColorOperation instances are equal.
 type: docs
 weight: 40
 url: /net/aspose.slides/coloroperation/equals/
@@ -18,7 +18,7 @@ public override bool Equals(object obj)
 | --- | --- | --- |
 | obj | Object | The ColorOperation to compare with the current ColorOperation. |
 
-## Return Value
+### Return Value
 
 **true** if the specified ColorOperation is equal to the current ColorOperation; otherwise, **false**.
 

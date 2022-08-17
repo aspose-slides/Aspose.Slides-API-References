@@ -1,7 +1,7 @@
 ---
 title: Worksheets
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Gets a collection of worksheets.
 type: docs
 weight: 10
 url: /net/aspose.slides.charts/chartdataworkbook/worksheets/

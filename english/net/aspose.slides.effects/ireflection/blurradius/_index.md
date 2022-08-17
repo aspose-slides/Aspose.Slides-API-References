@@ -1,7 +1,7 @@
 ---
 title: BlurRadius
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Blur radius. Read/write Double.
 type: docs
 weight: 30
 url: /net/aspose.slides.effects/ireflection/blurradius/

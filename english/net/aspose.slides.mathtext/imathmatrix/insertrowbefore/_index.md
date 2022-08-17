@@ -1,7 +1,7 @@
 ---
 title: InsertRowBefore
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Insert a new row before the specified one Initially all elements in the new row are null.
 type: docs
 weight: 180
 url: /net/aspose.slides.mathtext/imathmatrix/insertrowbefore/

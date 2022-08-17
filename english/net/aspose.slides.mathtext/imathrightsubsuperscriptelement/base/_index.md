@@ -1,7 +1,7 @@
 ---
 title: Base
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Base argument
 type: docs
 weight: 30
 url: /net/aspose.slides.mathtext/imathrightsubsuperscriptelement/base/

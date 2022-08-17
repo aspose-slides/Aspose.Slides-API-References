@@ -1,7 +1,7 @@
 ---
 title: Count
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Gets the count of cells in collection. Read-only Int32.
 type: docs
 weight: 10
 url: /net/aspose.slides.charts/chartcellcollection/count/

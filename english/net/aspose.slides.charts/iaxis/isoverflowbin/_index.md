@@ -1,7 +1,7 @@
 ---
 title: IsOverflowBin
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Specifies if overflow bin applied. Use IsAutomaticOverflowBin and OverflowBin to adjust overflow bin value.
 type: docs
 weight: 280
 url: /net/aspose.slides.charts/iaxis/isoverflowbin/

@@ -1,9 +1,9 @@
 ---
 title: IGrayScaleEffectiveData
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Immutable object which representsepresents a Gray Scale effect. Converts all effect color values to a shade of gray corresponding to their luminance. Effect alpha opacity values are unaffected.
 type: docs
-weight: 3150
+weight: 3170
 url: /net/aspose.slides.effects/igrayscaleeffectivedata/
 ---
 ## IGrayScaleEffectiveData interface

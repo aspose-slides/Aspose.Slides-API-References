@@ -1,7 +1,7 @@
 ---
 title: Reference
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Gets a cell reference that contains the invalid formula.
 type: docs
 weight: 20
 url: /net/aspose.slides.spreadsheet/cellinvalidformulaexception/reference/

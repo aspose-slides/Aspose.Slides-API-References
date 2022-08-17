@@ -1,7 +1,7 @@
 ---
 title: Equals
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Determines whether the specified BiLevelaspose.slides.effects/bilevel is equal to the current BiLevelaspose.slides.effects/bilevel.
 type: docs
 weight: 10
 url: /net/aspose.slides.effects/bilevel/equals/
@@ -18,7 +18,7 @@ public override bool Equals(object obj)
 | --- | --- | --- |
 | obj | Object | The [`BiLevel`](../../bilevel) to compare. |
 
-## Return Value
+### Return Value
 
 true if objects are equal; otherwise, false.
 

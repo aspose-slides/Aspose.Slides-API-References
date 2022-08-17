@@ -1,7 +1,7 @@
 ---
 title: op_Inequality
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Tests two hyperlinks for inequality.
 type: docs
 weight: 220
 url: /net/aspose.slides/hyperlink/op_inequality/
@@ -19,7 +19,7 @@ public static bool operator !=(Hyperlink hlink1, Hyperlink hlink2)
 | hlink1 | Hyperlink | First hyperlink to be tested. |
 | hlink2 | Hyperlink | Second hyperlink to be tested. |
 
-## Return Value
+### Return Value
 
 **False** if hyperlinks are equal.
 

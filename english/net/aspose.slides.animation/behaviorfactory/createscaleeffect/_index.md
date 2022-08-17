@@ -1,7 +1,7 @@
 ---
 title: CreateScaleEffect
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates scale effect.
 type: docs
 weight: 80
 url: /net/aspose.slides.animation/behaviorfactory/createscaleeffect/
@@ -14,7 +14,7 @@ Creates scale effect.
 public IScaleEffect CreateScaleEffect()
 ```
 
-## Return Value
+### Return Value
 
 Scale effect.
 

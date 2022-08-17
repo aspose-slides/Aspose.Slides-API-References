@@ -1,7 +1,7 @@
 ---
 title: LinkPathLong
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets the name of an video file which is linked to a VideoFrame. Read/write String.
 type: docs
 weight: 40
 url: /net/aspose.slides/videoframe/linkpathlong/

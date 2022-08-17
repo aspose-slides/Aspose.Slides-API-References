@@ -1,7 +1,7 @@
 ---
 title: LayoutText
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: The text on the layout pages shapes for this slide
 type: docs
 weight: 10
 url: /net/aspose.slides/islidetext/layouttext/

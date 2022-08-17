@@ -1,7 +1,7 @@
 ---
 title: GapDepth
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets the distance as a percentage of the marker width between the data series in a 3D chart. This is the property not only of this series but of all series of parent series group - this is projection of appropriate group property. And so this property is read-only. Use ParentSeriesGroup property for access to parent series group. Use ParentSeriesGroup.GapDepth read/write property for change value. Read-only Int32.
 type: docs
 weight: 120
 url: /net/aspose.slides.charts/chartseries/gapdepth/

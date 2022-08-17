@@ -1,7 +1,7 @@
 ---
 title: SetWriteProtection
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Set write protection for this presentation with specified password.
 type: docs
 weight: 110
 url: /net/aspose.slides/iprotectionmanager/setwriteprotection/

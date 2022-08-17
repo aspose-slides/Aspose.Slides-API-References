@@ -1,12 +1,12 @@
 ---
 title: AlignShapes
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Changes the placement of all shapes on the slide. Aligns shapes to the margins or the edge of the slide or align them relative to each other.
 type: docs
 weight: 10
 url: /net/aspose.slides.util/slideutil/alignshapes/
 ---
-## SlideUtil.AlignShapes method (1 of 4)
+## AlignShapes(ShapesAlignmentType, bool, IBaseSlide) {#alignshapes}
 
 Changes the placement of all shapes on the slide. Aligns shapes to the margins or the edge of the slide or align them relative to each other.
 
@@ -43,7 +43,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 
 ---
 
-## SlideUtil.AlignShapes method (2 of 4)
+## AlignShapes(ShapesAlignmentType, bool, IBaseSlide, int[]) {#alignshapes_1}
 
 Changes the placement of selected shapes on the slide. Aligns shapes to the margins or the edge of the slide or align them relative to each other.
 
@@ -89,7 +89,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 
 ---
 
-## SlideUtil.AlignShapes method (3 of 4)
+## AlignShapes(ShapesAlignmentType, bool, IGroupShape) {#alignshapes_2}
 
 Changes the placement of all shapes within group shape. Aligns shapes to the margins or the edge of the slide or align them relative to each other.
 
@@ -126,7 +126,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 
 ---
 
-## SlideUtil.AlignShapes method (4 of 4)
+## AlignShapes(ShapesAlignmentType, bool, IGroupShape, int[]) {#alignshapes_3}
 
 Changes the placement of selected shapes within group shape. Aligns shapes to the margins or the edge of the slide or align them relative to each other.
 

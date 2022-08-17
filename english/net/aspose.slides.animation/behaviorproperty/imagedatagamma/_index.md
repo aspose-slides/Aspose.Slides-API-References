@@ -1,7 +1,7 @@
 ---
 title: ImageDataGamma
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents imageData.gamma property
 type: docs
 weight: 490
 url: /net/aspose.slides.animation/behaviorproperty/imagedatagamma/

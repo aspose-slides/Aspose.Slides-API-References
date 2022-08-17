@@ -1,7 +1,7 @@
 ---
 title: Preserve
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Determines whether the corresponding master is deleted when all the slides that follow that master are deleted. Note Aspose.Slides will never remove any unused master by itself to actually remove unused masters call RemoveUnusedaspose.slides/imasterslidecollection/removeunused Read/write Boolean.
 type: docs
 weight: 80
 url: /net/aspose.slides/imasterslide/preserve/

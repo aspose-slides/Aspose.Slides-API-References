@@ -1,7 +1,7 @@
 ---
 title: Decelerate
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Describes the percentage of duration decelerate behavior effect. Read/write Single.
 type: docs
 weight: 30
 url: /net/aspose.slides.animation/itiming/decelerate/

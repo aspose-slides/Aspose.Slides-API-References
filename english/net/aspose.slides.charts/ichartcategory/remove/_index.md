@@ -1,7 +1,7 @@
 ---
 title: Remove
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Removes category from chart.
 type: docs
 weight: 60
 url: /net/aspose.slides.charts/ichartcategory/remove/

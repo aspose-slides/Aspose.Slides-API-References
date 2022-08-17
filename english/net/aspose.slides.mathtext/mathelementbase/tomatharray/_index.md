@@ -1,7 +1,7 @@
 ---
 title: ToMathArray
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Puts in a vertical array
 type: docs
 weight: 200
 url: /net/aspose.slides.mathtext/mathelementbase/tomatharray/
@@ -14,7 +14,7 @@ Puts in a vertical array
 public virtual IMathArray ToMathArray()
 ```
 
-## Return Value
+### Return Value
 
 New instance of type [`IMathArray`](../../imatharray)
 

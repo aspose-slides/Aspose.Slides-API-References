@@ -1,7 +1,7 @@
 ---
 title: FillStyles
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns a collection of theme defined fill styles. Read-only IFillFormatCollectionaspose.slides.theme/ifillformatcollection.
 type: docs
 weight: 40
 url: /net/aspose.slides.theme/iformatscheme/fillstyles/

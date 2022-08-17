@@ -1,7 +1,7 @@
 ---
 title: Length
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Gets the length in bytes of the stream. Read-only Int64.
 type: docs
 weight: 50
 url: /net/aspose.slides/streamwrapper/length/

@@ -6,7 +6,7 @@ type: docs
 weight: 10
 url: /net/aspose.slides.export.web/output/add/
 ---
-## Output.Add&lt;TContextObject&gt; method (1 of 6)
+## Add&lt;TContextObject&gt;(string, string, TContextObject) {#add_5}
 
 ```csharp
 public IOutputFile Add<TContextObject>(string path, string templateKey, 
@@ -22,7 +22,7 @@ public IOutputFile Add<TContextObject>(string path, string templateKey,
 
 ---
 
-## Output.Add method (2 of 6)
+## Add(string, IPPImage) {#add_1}
 
 Adds an output element for the image.
 
@@ -35,7 +35,7 @@ public IOutputFile Add(string path, IPPImage image)
 | path | String | Output path. |
 | image | IPPImage | Image to output. |
 
-## Return Value
+### Return Value
 
 [`IOutputFile`](../../ioutputfile) object for the image.
 
@@ -49,7 +49,7 @@ public IOutputFile Add(string path, IPPImage image)
 
 ---
 
-## Output.Add method (3 of 6)
+## Add(string, Image) {#add_3}
 
 Adds an output element for the image.
 
@@ -62,7 +62,7 @@ public IOutputFile Add(string path, Image image)
 | path | String | Output path. |
 | image | Image | Image to output. |
 
-## Return Value
+### Return Value
 
 [`IOutputFile`](../../ioutputfile) object for the image.
 
@@ -75,7 +75,7 @@ public IOutputFile Add(string path, Image image)
 
 ---
 
-## Output.Add method (4 of 6)
+## Add(string, IVideo) {#add_2}
 
 Adds an output element for the video.
 
@@ -88,7 +88,7 @@ public IOutputFile Add(string path, IVideo video)
 | path | String | Output path. |
 | video | IVideo | Video to output. |
 
-## Return Value
+### Return Value
 
 [`IOutputFile`](../../ioutputfile) object for the video.
 
@@ -102,7 +102,7 @@ public IOutputFile Add(string path, IVideo video)
 
 ---
 
-## Output.Add method (5 of 6)
+## Add(string, IFontData, FontStyle) {#add}
 
 Adds an output element for the font.
 
@@ -116,7 +116,7 @@ public IOutputFile Add(string path, IFontData fontData, FontStyle fontStyle)
 | fontData | IFontData | Font to output. |
 | fontStyle | FontStyle | Font style. |
 
-## Return Value
+### Return Value
 
 [`IOutputFile`](../../ioutputfile) object for the font.
 
@@ -130,7 +130,7 @@ public IOutputFile Add(string path, IFontData fontData, FontStyle fontStyle)
 
 ---
 
-## Output.Add method (6 of 6)
+## Add(string, string) {#add_4}
 
 Adds an output element for the text content.
 
@@ -143,7 +143,7 @@ public IOutputFile Add(string path, string textContent)
 | path | String | Output path. |
 | textContent | String | Content to output. |
 
-## Return Value
+### Return Value
 
 [`IOutputFile`](../../ioutputfile) object for the text content.
 

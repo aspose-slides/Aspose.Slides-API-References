@@ -1,7 +1,7 @@
 ---
 title: TextVerticalType
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets the type of vertical text. Read/write TextVerticalTypeaspose.slides/textverticaltype.
 type: docs
 weight: 220
 url: /net/aspose.slides/icell/textverticaltype/

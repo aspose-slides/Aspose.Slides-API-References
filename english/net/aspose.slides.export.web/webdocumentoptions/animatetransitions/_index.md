@@ -1,7 +1,7 @@
 ---
 title: AnimateTransitions
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets transitions animation option. Read/write Boolean.
 type: docs
 weight: 30
 url: /net/aspose.slides.export.web/webdocumentoptions/animatetransitions/

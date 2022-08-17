@@ -1,12 +1,12 @@
 ---
 title: SetSubscript
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates subscript
 type: docs
 weight: 130
 url: /net/aspose.slides.mathtext/mathelementbase/setsubscript/
 ---
-## MathElementBase.SetSubscript method (1 of 2)
+## SetSubscript(IMathElement) {#setsubscript}
 
 Creates subscript
 
@@ -18,7 +18,7 @@ public IMathSubscriptElement SetSubscript(IMathElement subscript)
 | --- | --- | --- |
 | subscript | IMathElement | Subscript (lower index on the right) |
 
-## Return Value
+### Return Value
 
 New math element of type [`IMathSubscriptElement`](../../imathsubscriptelement)
 
@@ -43,7 +43,7 @@ IMathSubscriptElement subscript = element.SetSubscript(index);
 
 ---
 
-## MathElementBase.SetSubscript method (2 of 2)
+## SetSubscript(string) {#setsubscript_1}
 
 Creates subscript
 
@@ -55,7 +55,7 @@ public IMathSubscriptElement SetSubscript(string subscript)
 | --- | --- | --- |
 | subscript | String | Subscript (lower index on the right) |
 
-## Return Value
+### Return Value
 
 New math element of type [`IMathSubscriptElement`](../../imathsubscriptelement)
 

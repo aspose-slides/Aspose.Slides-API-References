@@ -1,7 +1,7 @@
 ---
 title: AddComment
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Add new comment at the end of a collection.
 type: docs
 weight: 50
 url: /net/aspose.slides/commentcollection/addcomment/
@@ -21,7 +21,7 @@ public IComment AddComment(string text, ISlide slide, PointF position, DateTime 
 | position | PointF | Position on a slide where to add a new comment. |
 | creationTime | DateTime | Time of a comment creation. |
 
-## Return Value
+### Return Value
 
 Added comment.
 

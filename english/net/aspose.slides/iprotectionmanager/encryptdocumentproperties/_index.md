@@ -1,7 +1,7 @@
 ---
 title: EncryptDocumentProperties
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: This property makes sense if presentation is password protected. If true then document properties is encrypted in presentation file. If false then document properties is public while presentation is encrypted. Read/write Boolean.
 type: docs
 weight: 10
 url: /net/aspose.slides/iprotectionmanager/encryptdocumentproperties/

@@ -1,7 +1,7 @@
 ---
 title: AsIOverrideThemeable
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns IOverrideThemeable interface. Read-only IOverrideThemeableaspose.slides.theme/ioverridethemeable.
 type: docs
 weight: 30
 url: /net/aspose.slides.charts/ichart/asioverridethemeable/

@@ -1,12 +1,12 @@
 ---
 title: MathBorderBox
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates MathBorderBox element with rectangular border
 type: docs
 weight: 10
 url: /net/aspose.slides.mathtext/mathborderbox/mathborderbox/
 ---
-## MathBorderBox constructor (1 of 2)
+## MathBorderBox(IMathElement) {#constructor}
 
 Creates MathBorderBox element with rectangular border
 
@@ -36,7 +36,7 @@ MathBorderBox borderBox = new MathBorderBox(new MathematicalText("x"));
 
 ---
 
-## MathBorderBox constructor (2 of 2)
+## MathBorderBox(IMathElement, bool, bool, bool, bool, bool, bool, bool, bool) {#constructor_1}
 
 Creates MathBorderBox element
 

@@ -1,12 +1,12 @@
 ---
 title: SetExternalWorkbook
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Sets external workbook as a data source for the chart. Chart data will be updated from the target workbook.
 type: docs
 weight: 110
 url: /net/aspose.slides.charts/ichartdata/setexternalworkbook/
 ---
-## IChartData.SetExternalWorkbook method (1 of 2)
+## SetExternalWorkbook(string) {#setexternalworkbook}
 
 Sets external workbook as a data source for the chart. Chart data will be updated from the target workbook.
 
@@ -44,7 +44,7 @@ using (Presentation pres = new Presentation())
 
 ---
 
-## IChartData.SetExternalWorkbook method (2 of 2)
+## SetExternalWorkbook(string, bool) {#setexternalworkbook_1}
 
 Sets external workbook as a data source for the chart.
 

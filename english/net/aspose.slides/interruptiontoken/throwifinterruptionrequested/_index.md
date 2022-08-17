@@ -1,7 +1,7 @@
 ---
 title: ThrowIfInterruptionRequested
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Throws an OperationCanceledException if interruption was requested.
 type: docs
 weight: 30
 url: /net/aspose.slides/interruptiontoken/throwifinterruptionrequested/

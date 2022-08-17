@@ -1,7 +1,7 @@
 ---
 title: BackgroundType
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Defines the slide background fill source.
 type: docs
 weight: 840
 url: /net/aspose.slides/backgroundtype/
@@ -14,7 +14,7 @@ Defines the slide background fill source.
 public enum BackgroundType : sbyte
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

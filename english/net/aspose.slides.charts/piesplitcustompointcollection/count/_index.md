@@ -1,7 +1,7 @@
 ---
 title: Count
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets the count of chart data points. Read-only Int32.
 type: docs
 weight: 10
 url: /net/aspose.slides.charts/piesplitcustompointcollection/count/

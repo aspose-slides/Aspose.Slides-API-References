@@ -1,12 +1,12 @@
 ---
 title: RemoveNode
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Remove node or sub node by index
 type: docs
 weight: 90
 url: /net/aspose.slides.smartart/smartartnodecollection/removenode/
 ---
-## SmartArtNodeCollection.RemoveNode method (1 of 2)
+## RemoveNode(int) {#removenode_1}
 
 Remove node or sub node by index
 
@@ -32,7 +32,7 @@ public void RemoveNode(int index)
 
 ---
 
-## SmartArtNodeCollection.RemoveNode method (2 of 2)
+## RemoveNode(ISmartArtNode) {#removenode}
 
 Remove node or sub node
 

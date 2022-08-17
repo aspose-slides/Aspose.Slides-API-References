@@ -1,7 +1,7 @@
 ---
 title: ChartDataTable
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns a data table of a chart. Read-only IDataTableaspose.slides.charts/idatatable.
 type: docs
 weight: 60
 url: /net/aspose.slides.charts/chart/chartdatatable/

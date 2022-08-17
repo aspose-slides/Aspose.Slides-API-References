@@ -1,7 +1,7 @@
 ---
 title: Background
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns slides background. Read-only IBackgroundaspose.slides/ibackground.
 type: docs
 weight: 10
 url: /net/aspose.slides/baseslide/background/

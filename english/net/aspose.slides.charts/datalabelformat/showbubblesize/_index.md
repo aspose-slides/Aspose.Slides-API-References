@@ -1,7 +1,7 @@
 ---
 title: ShowBubbleSize
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents a specified charts data label bubble size value display behavior. True displays the bubble size value. False to hide. Read/write Boolean.
 type: docs
 weight: 70
 url: /net/aspose.slides.charts/datalabelformat/showbubblesize/

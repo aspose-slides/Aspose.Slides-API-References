@@ -1,7 +1,7 @@
 ---
 title: CropTop
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the number of percents of real image height that are cropped off the top of the picture. Read-only Single.
 type: docs
 weight: 50
 url: /net/aspose.slides/ipicturefillformateffectivedata/croptop/

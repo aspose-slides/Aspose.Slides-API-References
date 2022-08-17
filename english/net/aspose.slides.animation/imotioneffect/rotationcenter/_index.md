@@ -1,7 +1,7 @@
 ---
 title: RotationCenter
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Describes the center of the rotation used to rotate a motion path by X angle. Read/write PointF.
 type: docs
 weight: 80
 url: /net/aspose.slides.animation/imotioneffect/rotationcenter/

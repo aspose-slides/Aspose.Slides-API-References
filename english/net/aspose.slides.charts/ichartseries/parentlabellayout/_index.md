@@ -1,7 +1,7 @@
 ---
 title: ParentLabelLayout
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents layout of parent category labels. Applies only to Treemap charts.
 type: docs
 weight: 280
 url: /net/aspose.slides.charts/ichartseries/parentlabellayout/

@@ -1,7 +1,7 @@
 ---
 title: Escapement
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the superscript or subscript text. Value from -100 subscript to 100 superscript. Read-only Single.
 type: docs
 weight: 50
 url: /net/aspose.slides/ibaseportionformateffectivedata/escapement/

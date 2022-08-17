@@ -1,7 +1,7 @@
 ---
 title: Thickness
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets the walls thickness as a percentage of the largest dimension of the plot volume. Read/write Int32.
 type: docs
 weight: 30
 url: /net/aspose.slides.charts/ichartwall/thickness/

@@ -1,7 +1,7 @@
 ---
 title: BlobManagementOptions
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates new default blob management options.
 type: docs
 weight: 10
 url: /net/aspose.slides/blobmanagementoptions/blobmanagementoptions/

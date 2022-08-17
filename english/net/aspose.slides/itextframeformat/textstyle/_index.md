@@ -1,7 +1,7 @@
 ---
 title: TextStyle
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns texts style. Read-only ITextStyleaspose.slides/itextstyle.
 type: docs
 weight: 120
 url: /net/aspose.slides/itextframeformat/textstyle/

@@ -1,9 +1,9 @@
 ---
 title: LineAlignment
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents the lines alignment type.
 type: docs
-weight: 7020
+weight: 7040
 url: /net/aspose.slides/linealignment/
 ---
 ## LineAlignment enumeration
@@ -14,7 +14,7 @@ Represents the lines alignment type.
 public enum LineAlignment : sbyte
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

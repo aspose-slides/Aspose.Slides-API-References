@@ -1,7 +1,7 @@
 ---
 title: Item
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Gets the item at the specified index. Read-only IMathBlockaspose.slides.mathtext/imathblock.
 type: docs
 weight: 30
 url: /net/aspose.slides.mathtext/mathparagraph/item/
@@ -18,7 +18,7 @@ public IMathBlock this[int index] { get; set; }
 | --- | --- |
 | index | The zero-based index of the item to get |
 
-## Return Value
+### Return Value
 
 The block of a mathematical text.
 

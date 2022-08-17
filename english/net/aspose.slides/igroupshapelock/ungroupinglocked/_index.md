@@ -1,7 +1,7 @@
 ---
 title: UngroupingLocked
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Determines whether splitting this groupshape is forbidden. Read/write Boolean.
 type: docs
 weight: 80
 url: /net/aspose.slides/igroupshapelock/ungroupinglocked/

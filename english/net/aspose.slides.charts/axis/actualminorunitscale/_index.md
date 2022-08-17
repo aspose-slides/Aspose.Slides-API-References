@@ -1,7 +1,7 @@
 ---
 title: ActualMinorUnitScale
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Specifies actual minor unit scale of the axis. Call method IChart.ValidateChartLayout previously to get actual value.
 type: docs
 weight: 50
 url: /net/aspose.slides.charts/axis/actualminorunitscale/

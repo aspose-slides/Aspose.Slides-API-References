@@ -1,7 +1,7 @@
 ---
 title: YShear
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents yshear property
 type: docs
 weight: 1210
 url: /net/aspose.slides.animation/behaviorproperty/yshear/

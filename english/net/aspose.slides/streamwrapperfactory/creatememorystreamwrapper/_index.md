@@ -1,12 +1,12 @@
 ---
 title: CreateMemoryStreamWrapper
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates MemoryStream wrapper.
 type: docs
 weight: 30
 url: /net/aspose.slides/streamwrapperfactory/creatememorystreamwrapper/
 ---
-## StreamWrapperFactory.CreateMemoryStreamWrapper method (1 of 2)
+## CreateMemoryStreamWrapper() {#creatememorystreamwrapper}
 
 Creates MemoryStream wrapper.
 
@@ -23,7 +23,7 @@ public IStreamWrapper CreateMemoryStreamWrapper()
 
 ---
 
-## StreamWrapperFactory.CreateMemoryStreamWrapper method (2 of 2)
+## CreateMemoryStreamWrapper(byte[]) {#creatememorystreamwrapper_1}
 
 Creates MemoryStream wrapper based on the specified byte array.
 

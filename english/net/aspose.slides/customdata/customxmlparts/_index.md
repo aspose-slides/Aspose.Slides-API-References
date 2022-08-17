@@ -1,7 +1,7 @@
 ---
 title: CustomXmlParts
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the custom xml parts collection. Read-only ICustomXmlPartCollectionaspose.slides/icustomxmlpartcollection.
 type: docs
 weight: 10
 url: /net/aspose.slides/customdata/customxmlparts/

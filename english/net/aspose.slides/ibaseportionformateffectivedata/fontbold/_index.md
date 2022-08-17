@@ -1,7 +1,7 @@
 ---
 title: FontBold
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Determines whether the font is bold. Read-only Boolean.
 type: docs
 weight: 70
 url: /net/aspose.slides/ibaseportionformateffectivedata/fontbold/

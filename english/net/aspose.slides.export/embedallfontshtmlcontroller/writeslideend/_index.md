@@ -1,7 +1,7 @@
 ---
 title: WriteSlideEnd
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Called to write html slide footer. Called once per each of slides.
 type: docs
 weight: 80
 url: /net/aspose.slides.export/embedallfontshtmlcontroller/writeslideend/

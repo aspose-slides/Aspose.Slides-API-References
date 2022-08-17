@@ -1,12 +1,12 @@
 ---
 title: Presentation
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: This constructor creates new presentation from scratch. Created presentation has one empty slide.
 type: docs
 weight: 10
 url: /net/aspose.slides/presentation/presentation/
 ---
-## Presentation constructor (1 of 6)
+## Presentation() {#constructor}
 
 This constructor creates new presentation from scratch. Created presentation has one empty slide.
 
@@ -22,7 +22,7 @@ public Presentation()
 
 ---
 
-## Presentation constructor (2 of 6)
+## Presentation(LoadOptions) {#constructor_1}
 
 This constructor creates new presentation from scratch. Created presentation has one empty slide.
 
@@ -43,7 +43,7 @@ public Presentation(LoadOptions loadOptions)
 
 ---
 
-## Presentation constructor (3 of 6)
+## Presentation(Stream) {#constructor_2}
 
 This constructor is the primary mechanism for reading an existing Presentation.
 
@@ -79,7 +79,7 @@ fis.Close()
 
 ---
 
-## Presentation constructor (4 of 6)
+## Presentation(Stream, LoadOptions) {#constructor_3}
 
 This constructor is the primary mechanism for reading an existing Presentation.
 
@@ -101,7 +101,7 @@ public Presentation(Stream stream, LoadOptions loadOptions)
 
 ---
 
-## Presentation constructor (5 of 6)
+## Presentation(string) {#constructor_4}
 
 This constructor gets a source file path from which the contents of the Presentation are read.
 
@@ -139,7 +139,7 @@ Dim pres As Presentation = New Presentation("demo.pptx")
 
 ---
 
-## Presentation constructor (6 of 6)
+## Presentation(string, LoadOptions) {#constructor_5}
 
 This constructor gets a source file path from which the contents of the Presentation are read.
 

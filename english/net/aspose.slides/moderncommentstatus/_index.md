@@ -1,9 +1,9 @@
 ---
 title: ModernCommentStatus
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents the status of a modern comment.
 type: docs
-weight: 8370
+weight: 8390
 url: /net/aspose.slides/moderncommentstatus/
 ---
 ## ModernCommentStatus enumeration
@@ -14,7 +14,7 @@ Represents the status of a modern comment.
 public enum ModernCommentStatus : sbyte
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

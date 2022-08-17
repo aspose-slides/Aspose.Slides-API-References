@@ -1,7 +1,7 @@
 ---
 title: IndexOf
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Determines the index of a specific item by property value in the IList.
 type: docs
 weight: 40
 url: /net/aspose.slides.animation/ibehaviorpropertycollection/indexof/
@@ -18,7 +18,7 @@ public int IndexOf(string propertyValue)
 | --- | --- | --- |
 | propertyValue | String | value of the property |
 
-## Return Value
+### Return Value
 
 The index of the property with the specified value
 

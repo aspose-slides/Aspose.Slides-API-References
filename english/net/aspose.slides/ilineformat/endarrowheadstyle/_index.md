@@ -1,7 +1,7 @@
 ---
 title: EndArrowheadStyle
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets the arrowhead style at the end of a line. Read/write LineArrowheadStyleaspose.slides/linearrowheadstyle.
 type: docs
 weight: 100
 url: /net/aspose.slides/ilineformat/endarrowheadstyle/

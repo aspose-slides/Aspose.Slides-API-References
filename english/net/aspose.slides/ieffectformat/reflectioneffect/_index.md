@@ -1,7 +1,7 @@
 ---
 title: ReflectionEffect
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Reflection. Read/write IReflectionaspose.slides.effects/ireflection.
 type: docs
 weight: 90
 url: /net/aspose.slides/ieffectformat/reflectioneffect/

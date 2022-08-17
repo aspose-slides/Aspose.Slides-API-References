@@ -1,7 +1,7 @@
 ---
 title: WriteByte
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Writes a byte to the current position in the stream and advances the position within the stream by one byte.
 type: docs
 weight: 140
 url: /net/aspose.slides/istreamwrapper/writebyte/

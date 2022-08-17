@@ -1,7 +1,7 @@
 ---
 title: AsIEnumerable
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns IEnumerable interfaces. Read-only IEnumerable.
 type: docs
 weight: 10
 url: /net/aspose.slides.animation/ibehaviorpropertycollection/asienumerable/

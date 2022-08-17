@@ -1,7 +1,7 @@
 ---
 title: BuildType
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: List of build type for exp. Paragraph 123 All at Once of text animation. Read/write BuildTypeaspose.slides.animation/itextanimation/buildtype.
 type: docs
 weight: 10
 url: /net/aspose.slides.animation/itextanimation/buildtype/

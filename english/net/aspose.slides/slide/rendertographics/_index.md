@@ -1,12 +1,12 @@
 ---
 title: RenderToGraphics
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Renders certain slide to a Graphics object.
 type: docs
 weight: 120
 url: /net/aspose.slides/slide/rendertographics/
 ---
-## Slide.RenderToGraphics method (1 of 3)
+## RenderToGraphics(IRenderingOptions, Graphics) {#rendertographics_3}
 
 Renders certain slide to a Graphics object.
 
@@ -34,7 +34,7 @@ public void RenderToGraphics(IRenderingOptions options, Graphics graphics)
 
 ---
 
-## Slide.RenderToGraphics method (2 of 3)
+## RenderToGraphics(IRenderingOptions, Graphics, float, float) {#rendertographics_4}
 
 Renders certain slide to a Graphics object with custom scaling.
 
@@ -65,7 +65,7 @@ public void RenderToGraphics(IRenderingOptions options, Graphics graphics, float
 
 ---
 
-## Slide.RenderToGraphics method (3 of 3)
+## RenderToGraphics(IRenderingOptions, Graphics, Size) {#rendertographics_5}
 
 Renders certain slide to a Graphics object using specified size.
 

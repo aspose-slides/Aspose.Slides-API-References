@@ -1,7 +1,7 @@
 ---
 title: AsIMasterThemeable
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns IMasterThemeable interface. Read-only IMasterThemeableaspose.slides.theme/imasterthemeable.
 type: docs
 weight: 20
 url: /net/aspose.slides/imasterslide/asimasterthemeable/

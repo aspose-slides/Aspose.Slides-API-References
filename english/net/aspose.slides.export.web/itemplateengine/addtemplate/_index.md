@@ -1,7 +1,7 @@
 ---
 title: AddTemplate
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Adds the template to the template collection.
 type: docs
 weight: 10
 url: /net/aspose.slides.export.web/itemplateengine/addtemplate/

@@ -1,7 +1,7 @@
 ---
 title: HideDegree
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Hide degree When is true the degree is not shown as in 
 type: docs
 weight: 40
 url: /net/aspose.slides.mathtext/mathradical/hidedegree/

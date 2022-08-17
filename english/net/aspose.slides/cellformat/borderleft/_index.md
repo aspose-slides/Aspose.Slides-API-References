@@ -1,7 +1,7 @@
 ---
 title: BorderLeft
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns a left border line properties object. Read-only ILineFormataspose.slides/ilineformat.
 type: docs
 weight: 40
 url: /net/aspose.slides/cellformat/borderleft/

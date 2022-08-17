@@ -1,7 +1,7 @@
 ---
 title: LatinFont
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the Latin font info. Read-only IFontDataaspose.slides/ifontdata.
 type: docs
 weight: 170
 url: /net/aspose.slides/ibaseportionformateffectivedata/latinfont/

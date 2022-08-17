@@ -1,7 +1,7 @@
 ---
 title: Slide
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the parent slide. Read-only IBaseSlideaspose.slides/ibaseslide.
 type: docs
 weight: 150
 url: /net/aspose.slides.theme/colorscheme/slide/

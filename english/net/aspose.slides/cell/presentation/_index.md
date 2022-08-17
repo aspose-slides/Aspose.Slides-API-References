@@ -1,7 +1,7 @@
 ---
 title: Presentation
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the parent presentation of a cell. Read-only IPresentationaspose.slides/ipresentation.
 type: docs
 weight: 170
 url: /net/aspose.slides/cell/presentation/

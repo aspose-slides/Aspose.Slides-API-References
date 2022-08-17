@@ -1,7 +1,7 @@
 ---
 title: Sections
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns a list of all slides sections that are defined in the presentation. Read-only ISectionCollectionaspose.slides/isectioncollection.
 type: docs
 weight: 230
 url: /net/aspose.slides/ipresentation/sections/

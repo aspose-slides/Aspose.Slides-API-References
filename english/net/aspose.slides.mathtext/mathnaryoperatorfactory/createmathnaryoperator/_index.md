@@ -1,12 +1,12 @@
 ---
 title: CreateMathNaryOperator
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates IMathNaryOperator
 type: docs
 weight: 20
 url: /net/aspose.slides.mathtext/mathnaryoperatorfactory/createmathnaryoperator/
 ---
-## MathNaryOperatorFactory.CreateMathNaryOperator method (1 of 3)
+## CreateMathNaryOperator(char, IMathElement, IMathElement, IMathElement) {#createmathnaryoperator_2}
 
 Creates IMathNaryOperator
 
@@ -22,7 +22,7 @@ public IMathNaryOperator CreateMathNaryOperator(char operatorSymbol, IMathElemen
 | lowerLimit | IMathElement | Lower limit |
 | upperLimit | IMathElement | Upper limit |
 
-## Return Value
+### Return Value
 
 new IMathNaryOperator
 
@@ -36,7 +36,7 @@ new IMathNaryOperator
 
 ---
 
-## MathNaryOperatorFactory.CreateMathNaryOperator method (2 of 3)
+## CreateMathNaryOperator(char, IMathElement, IMathElement) {#createmathnaryoperator_1}
 
 Creates IMathNaryOperator
 
@@ -51,7 +51,7 @@ public IMathNaryOperator CreateMathNaryOperator(char operatorSymbol, IMathElemen
 | baseArgument | IMathElement | Base argument to apply operator |
 | lowerLimit | IMathElement | Lower limit |
 
-## Return Value
+### Return Value
 
 new IMathNaryOperator
 
@@ -65,7 +65,7 @@ new IMathNaryOperator
 
 ---
 
-## MathNaryOperatorFactory.CreateMathNaryOperator method (3 of 3)
+## CreateMathNaryOperator(char, IMathElement) {#createmathnaryoperator}
 
 Creates IMathNaryOperator
 
@@ -78,7 +78,7 @@ public IMathNaryOperator CreateMathNaryOperator(char operatorSymbol, IMathElemen
 | operatorSymbol | Char | The operator sign |
 | baseArgument | IMathElement | Base argument to apply operator |
 
-## Return Value
+### Return Value
 
 new IMathNaryOperator
 

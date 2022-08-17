@@ -1,12 +1,12 @@
 ---
 title: Reorder
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Moves slide from the collection to the specified position.
 type: docs
 weight: 170
 url: /net/aspose.slides/slidecollection/reorder/
 ---
-## SlideCollection.Reorder method (1 of 2)
+## Reorder(int, ISlide) {#reorder}
 
 Moves slide from the collection to the specified position.
 
@@ -28,7 +28,7 @@ public void Reorder(int index, ISlide slide)
 
 ---
 
-## SlideCollection.Reorder method (2 of 2)
+## Reorder(int, params ISlide[]) {#reorder_1}
 
 Moves slides from the collection to the specified position. Slides will be placed starting from index in order they appear in list.
 

@@ -1,7 +1,7 @@
 ---
 title: AsISlideComponent
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Allows to get base ISlideComponent interface. Read-only ISlideComponentaspose.slides/islidecomponent.
 type: docs
 weight: 20
 url: /net/aspose.slides/icell/asislidecomponent/

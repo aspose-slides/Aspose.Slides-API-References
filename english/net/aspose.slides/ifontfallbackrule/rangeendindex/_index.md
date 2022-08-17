@@ -1,7 +1,7 @@
 ---
 title: RangeEndIndex
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Get last index of continuous unicode range.
 type: docs
 weight: 30
 url: /net/aspose.slides/ifontfallbackrule/rangeendindex/

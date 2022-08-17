@@ -1,7 +1,7 @@
 ---
 title: RightToLeft
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Determines whether the table has right to left reading order. Read-write Boolean.
 type: docs
 weight: 100
 url: /net/aspose.slides/itable/righttoleft/

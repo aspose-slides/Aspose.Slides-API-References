@@ -1,7 +1,7 @@
 ---
 title: InsertComment
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Insert new comment to a collection at the specified index.
 type: docs
 weight: 110
 url: /net/aspose.slides/commentcollection/insertcomment/
@@ -23,7 +23,7 @@ public IComment InsertComment(int index, string text, ISlide slide, PointF posit
 | position | PointF | Position on a slide where to add a new comment. |
 | creationTime | DateTime | Time of a comment creation. |
 
-## Return Value
+### Return Value
 
 Inserted comment.
 

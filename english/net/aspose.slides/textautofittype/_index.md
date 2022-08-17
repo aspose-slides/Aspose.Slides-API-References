@@ -1,9 +1,9 @@
 ---
 title: TextAutofitType
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents text autofit mode.
 type: docs
-weight: 10110
+weight: 10160
 url: /net/aspose.slides/textautofittype/
 ---
 ## TextAutofitType enumeration
@@ -14,7 +14,7 @@ Represents text autofit mode.
 public enum TextAutofitType : sbyte
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

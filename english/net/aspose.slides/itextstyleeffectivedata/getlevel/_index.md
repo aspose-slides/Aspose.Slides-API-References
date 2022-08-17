@@ -1,7 +1,7 @@
 ---
 title: GetLevel
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns level of effective style.
 type: docs
 weight: 20
 url: /net/aspose.slides/itextstyleeffectivedata/getlevel/
@@ -18,7 +18,7 @@ public IParagraphFormatEffectiveData GetLevel(int index)
 | --- | --- | --- |
 | index | Int32 | Zero-based index of level. Must lay in 0..8 interval. |
 
-## Return Value
+### Return Value
 
 Effective formatting of level [`IParagraphFormatEffectiveData`](../../iparagraphformateffectivedata).
 

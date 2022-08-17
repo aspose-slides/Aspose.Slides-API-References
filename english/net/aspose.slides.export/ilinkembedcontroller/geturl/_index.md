@@ -1,7 +1,7 @@
 ---
 title: GetUrl
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns an URL to an external object. This method always called if GetObjectStoringLocationaspose.slides.export/ilinkembedcontroller/getobjectstoringlocation returned Link and may be called if GetObjectStoringLocationaspose.slides.export/ilinkembedcontroller/getobjectstoringlocation returned Embed but embedding is impossible. Can be called multiple time for same object id.
 type: docs
 weight: 20
 url: /net/aspose.slides.export/ilinkembedcontroller/geturl/
@@ -19,7 +19,7 @@ public string GetUrl(int id, int referrer)
 | id | Int32 | Object id. This id is saving operation-wide unique. |
 | referrer | Int32 | id of referrencing object or 0, if object is referrenced by the root document. May be used to generate relative link. |
 
-## Return Value
+### Return Value
 
 Url of external object or null if this object should be ignored.
 

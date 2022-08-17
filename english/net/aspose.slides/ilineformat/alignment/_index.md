@@ -1,7 +1,7 @@
 ---
 title: Alignment
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets the line alignment. Read/write LineAlignmentaspose.slides/linealignment.
 type: docs
 weight: 10
 url: /net/aspose.slides/ilineformat/alignment/

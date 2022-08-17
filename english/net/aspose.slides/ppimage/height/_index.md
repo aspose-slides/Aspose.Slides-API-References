@@ -1,7 +1,7 @@
 ---
 title: Height
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns a height of an image. Read-only Int32.
 type: docs
 weight: 30
 url: /net/aspose.slides/ppimage/height/

@@ -1,7 +1,7 @@
 ---
 title: GetEffective
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Gets effective line formatting data with the inheritance applied.
 type: docs
 weight: 200
 url: /net/aspose.slides/ilineformat/geteffective/
@@ -14,7 +14,7 @@ Gets effective line formatting data with the inheritance applied.
 public ILineFormatEffectiveData GetEffective()
 ```
 
-## Return Value
+### Return Value
 
 A [`ILineFormatEffectiveData`](../../ilineformateffectivedata).
 

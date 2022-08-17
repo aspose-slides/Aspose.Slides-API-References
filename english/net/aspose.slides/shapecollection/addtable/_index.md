@@ -1,7 +1,7 @@
 ---
 title: AddTable
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates a new Table and adds it to the end of the collection.
 type: docs
 weight: 200
 url: /net/aspose.slides/shapecollection/addtable/
@@ -21,7 +21,7 @@ public ITable AddTable(float x, float y, double[] columnWidths, double[] rowHeig
 | columnWidths | Double[] | Array of doubles which represents widths of columns in the table. |
 | rowHeights | Double[] | Array of doubles which represents heights of rows in the table. |
 
-## Return Value
+### Return Value
 
 Created Table object.
 

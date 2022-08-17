@@ -1,9 +1,9 @@
 ---
 title: MathBar
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Specifies the bar function consisting of a base argument and an overbar or underbar
 type: docs
-weight: 7850
+weight: 7870
 url: /net/aspose.slides.mathtext/mathbar/
 ---
 ## MathBar class
@@ -18,8 +18,8 @@ public sealed class MathBar : MathElementBase, IMathBar
 
 | Name | Description |
 | --- | --- |
-| [MathBar](mathbar)(IMathElement) | Initializes MathBar with overbar (Top position) |
-| [MathBar](mathbar)(IMathElement, MathTopBotPositions) | Initializes MathBar with specified position |
+| [MathBar](mathbar#constructor)(IMathElement) | Initializes MathBar with overbar (Top position) |
+| [MathBar](mathbar#constructor_1)(IMathElement, MathTopBotPositions) | Initializes MathBar with specified position |
 
 ## Properties
 

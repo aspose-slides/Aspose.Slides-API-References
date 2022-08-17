@@ -1,7 +1,7 @@
 ---
 title: Name
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Gets the name of the module. Read-only String.
 type: docs
 weight: 10
 url: /net/aspose.slides.vba/vbamodule/name/

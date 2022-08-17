@@ -1,7 +1,7 @@
 ---
 title: Simple
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns settings for simpliest and smallest SVG file generation. Read-only SVGOptionsaspose.slides.export/svgoptions.
 type: docs
 weight: 30
 url: /net/aspose.slides.export/svgoptions/simple/

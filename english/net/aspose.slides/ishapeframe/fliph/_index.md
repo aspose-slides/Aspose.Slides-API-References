@@ -1,7 +1,7 @@
 ---
 title: FlipH
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Determines whether a frame is flipped horizontally. Read-only NullableBoolaspose.slides/nullablebool.
 type: docs
 weight: 30
 url: /net/aspose.slides/ishapeframe/fliph/

@@ -1,7 +1,7 @@
 ---
 title: Footer
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Slides footer. Read-only FieldTypeaspose.slides/fieldtype.
 type: docs
 weight: 160
 url: /net/aspose.slides/fieldtype/footer/

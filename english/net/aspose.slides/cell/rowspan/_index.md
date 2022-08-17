@@ -1,7 +1,7 @@
 ---
 title: RowSpan
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the number of rows that a merged cell spans. This is used in combination with the vMerge attribute on other cells in order to specify the beginning cell of a horizontal merge. Read-only Int32.
 type: docs
 weight: 180
 url: /net/aspose.slides/cell/rowspan/

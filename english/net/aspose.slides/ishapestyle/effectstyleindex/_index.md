@@ -1,7 +1,7 @@
 ---
 title: EffectStyleIndex
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets shapes effect column index in a style matrix. Read/write UInt32.
 type: docs
 weight: 20
 url: /net/aspose.slides/ishapestyle/effectstyleindex/

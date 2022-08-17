@@ -1,9 +1,9 @@
 ---
 title: PptxReadException
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents an exception which thrown on presentation reading errors.
 type: docs
-weight: 8850
+weight: 8860
 url: /net/aspose.slides/pptxreadexception/
 ---
 ## PptxReadException class
@@ -18,9 +18,9 @@ public class PptxReadException : PptxException
 
 | Name | Description |
 | --- | --- |
-| [PptxReadException](pptxreadexception)() | Default constructor. |
-| [PptxReadException](pptxreadexception)(string) | Constructor allowing a message to be added to this exception. |
-| [PptxReadException](pptxreadexception)(string, Exception) | Constructor for an exception containing a message and an embedded exception. |
+| [PptxReadException](pptxreadexception#constructor)() | Default constructor. |
+| [PptxReadException](pptxreadexception#constructor_1)(string) | Constructor allowing a message to be added to this exception. |
+| [PptxReadException](pptxreadexception#constructor_2)(string, Exception) | Constructor for an exception containing a message and an embedded exception. |
 
 ### See Also
 

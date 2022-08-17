@@ -1,7 +1,7 @@
 ---
 title: Slide
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the parent slide of a CellCollection. Read-only IBaseSlideaspose.slides/ibaseslide.
 type: docs
 weight: 50
 url: /net/aspose.slides/cellcollection/slide/

@@ -1,7 +1,7 @@
 ---
 title: DataSourceType
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Specifies whether AsCell or AsLiteralString or AsLiteralDouble property is actual. In other words it specifies the type of value of the Data property. This property is read-only. For changing value of this property you can use one of the ChartDataPointCollection.DataSourceTypeForlt...gt properties. Read/write DataSourceTypeaspose.slides.charts/ibasechartvalue/datasourcetype.
 type: docs
 weight: 20
 url: /net/aspose.slides.charts/ibasechartvalue/datasourcetype/

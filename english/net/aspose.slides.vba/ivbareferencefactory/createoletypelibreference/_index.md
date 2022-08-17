@@ -1,7 +1,7 @@
 ---
 title: CreateOleTypeLibReference
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates new OLE Automation type library reference.
 type: docs
 weight: 10
 url: /net/aspose.slides.vba/ivbareferencefactory/createoletypelibreference/
@@ -19,7 +19,7 @@ public IVbaReferenceOleTypeLib CreateOleTypeLibReference(string name, string lib
 | name | String | Name of the VBA project reference String |
 | libid | String | Identifier of an Automation type library String |
 
-## Return Value
+### Return Value
 
 New OLE Automation type library reference [`IVbaReferenceOleTypeLib`](../../ivbareferenceoletypelib)
 

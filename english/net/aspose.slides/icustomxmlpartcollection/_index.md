@@ -1,9 +1,9 @@
 ---
 title: ICustomXmlPartCollection
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents collection of custom xml parts.
 type: docs
-weight: 5180
+weight: 5200
 url: /net/aspose.slides/icustomxmlpartcollection/
 ---
 ## ICustomXmlPartCollection interface
@@ -24,9 +24,9 @@ public interface ICustomXmlPartCollection : IGenericCollection<ICustomXmlPart>
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.slides/icustomxmlpartcollection/add)(byte[]) | Adds new custom xml part. |
-| [Add](../../aspose.slides/icustomxmlpartcollection/add)(Stream) | Adds new custom xml part. |
-| [Add](../../aspose.slides/icustomxmlpartcollection/add)(string) | Adds new custom xml part. |
+| [Add](../../aspose.slides/icustomxmlpartcollection/add#add)(byte[]) | Adds new custom xml part. |
+| [Add](../../aspose.slides/icustomxmlpartcollection/add#add_1)(Stream) | Adds new custom xml part. |
+| [Add](../../aspose.slides/icustomxmlpartcollection/add#add_2)(string) | Adds new custom xml part. |
 | [Clear](../../aspose.slides/icustomxmlpartcollection/clear)() | Removes all items from the collection. |
 | [Remove](../../aspose.slides/icustomxmlpartcollection/remove)(ICustomXmlPart) | Removes the first occurrence of a specific object from the collection. |
 | [RemoveAt](../../aspose.slides/icustomxmlpartcollection/removeat)(int) | Removes custom xml part at the specified index. |

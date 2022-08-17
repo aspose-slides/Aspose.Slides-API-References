@@ -1,7 +1,7 @@
 ---
 title: SecondaryVerticalAxis
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Gets the charts secondary vertical axis. Read-only IAxisaspose.slides.charts/iaxis.
 type: docs
 weight: 30
 url: /net/aspose.slides.charts/iaxesmanager/secondaryverticalaxis/

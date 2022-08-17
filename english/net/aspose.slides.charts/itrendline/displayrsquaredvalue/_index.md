@@ -1,7 +1,7 @@
 ---
 title: DisplayRSquaredValue
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Specifies that the R-squared value of the trendline is displayed on the chart in the same label as the equation. Read/write Boolean.
 type: docs
 weight: 40
 url: /net/aspose.slides.charts/itrendline/displayrsquaredvalue/

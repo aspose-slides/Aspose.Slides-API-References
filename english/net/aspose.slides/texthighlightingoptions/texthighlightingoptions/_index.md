@@ -1,7 +1,7 @@
 ---
 title: TextHighlightingOptions
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates new default text highlighting options.
 type: docs
 weight: 10
 url: /net/aspose.slides/texthighlightingoptions/texthighlightingoptions/

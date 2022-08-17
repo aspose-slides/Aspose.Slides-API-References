@@ -1,7 +1,7 @@
 ---
 title: QuartileMethod
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents quartile method. Applies only to BoxAndWhisker charts.
 type: docs
 weight: 340
 url: /net/aspose.slides.charts/chartseries/quartilemethod/

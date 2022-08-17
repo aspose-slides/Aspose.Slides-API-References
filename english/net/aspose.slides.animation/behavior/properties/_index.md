@@ -1,7 +1,7 @@
 ---
 title: Properties
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents properties of behavior. Read-only IBehaviorPropertyCollectionaspose.slides.animation/ibehaviorpropertycollection.
 type: docs
 weight: 30
 url: /net/aspose.slides.animation/behavior/properties/

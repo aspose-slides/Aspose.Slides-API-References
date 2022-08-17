@@ -1,7 +1,7 @@
 ---
 title: BlackWhiteMode
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Property specifies how a shape will render in black-and-white display mode.. Read/write BlackWhiteModeaspose.slides/blackwhitemode.
 type: docs
 weight: 30
 url: /net/aspose.slides/shape/blackwhitemode/

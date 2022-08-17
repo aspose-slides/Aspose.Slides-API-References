@@ -1,7 +1,7 @@
 ---
 title: TrendlineName
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Gets or sets name of the trendline. Read/write String.
 type: docs
 weight: 130
 url: /net/aspose.slides.charts/trendline/trendlinename/

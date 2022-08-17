@@ -1,7 +1,7 @@
 ---
 title: FontScheme
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the font scheme. Read-only IFontSchemeEffectiveDataaspose.slides.theme/ifontschemeeffectivedata.
 type: docs
 weight: 10
 url: /net/aspose.slides.theme/ithemeeffectivedata/fontscheme/

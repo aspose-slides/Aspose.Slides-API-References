@@ -1,7 +1,7 @@
 ---
 title: CustomNumberFormat
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Gets or sets the custom display format of numbers and dates. If value is empty will be used PresetNumberFormat value. Read/write String.
 type: docs
 weight: 30
 url: /net/aspose.slides.charts/ichartdatacell/customnumberformat/

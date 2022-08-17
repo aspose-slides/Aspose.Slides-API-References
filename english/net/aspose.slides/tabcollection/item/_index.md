@@ -1,7 +1,7 @@
 ---
 title: Item
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Gets the element at the specified index. Read-only Tabaspose.slides/tab.
 type: docs
 weight: 30
 url: /net/aspose.slides/tabcollection/item/

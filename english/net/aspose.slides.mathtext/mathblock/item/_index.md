@@ -1,7 +1,7 @@
 ---
 title: Item
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Gets or sets IMathElement at the specified index.
 type: docs
 weight: 40
 url: /net/aspose.slides.mathtext/mathblock/item/
@@ -18,7 +18,7 @@ public IMathElement this[int index] { get; set; }
 | --- | --- |
 | index | The zero-based index of the item |
 
-## Return Value
+### Return Value
 
 The mathematical element.
 

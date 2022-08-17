@@ -1,7 +1,7 @@
 ---
 title: AsIImageTransformOperation
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Allows to get base IImageTransformOperation interface. Read-only IImageTransformOperationaspose.slides.effects/iimagetransformoperation.
 type: docs
 weight: 20
 url: /net/aspose.slides.effects/ireflection/asiimagetransformoperation/

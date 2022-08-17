@@ -1,7 +1,7 @@
 ---
 title: TextFormat
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns chart text format. The property is not applicable for the following types Treemap Sunburst Waterfall Histogram FunnelBoxAndWhisker. Read-only IChartTextFormataspose.slides.charts/icharttextformat.
 type: docs
 weight: 210
 url: /net/aspose.slides.charts/chart/textformat/

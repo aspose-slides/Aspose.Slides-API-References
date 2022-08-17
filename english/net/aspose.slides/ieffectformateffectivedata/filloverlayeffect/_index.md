@@ -1,7 +1,7 @@
 ---
 title: FillOverlayEffect
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Fill overlay effect. Read-only IFillOverlayEffectiveDataaspose.slides.effects/ifilloverlayeffectivedata.
 type: docs
 weight: 30
 url: /net/aspose.slides/ieffectformateffectivedata/filloverlayeffect/

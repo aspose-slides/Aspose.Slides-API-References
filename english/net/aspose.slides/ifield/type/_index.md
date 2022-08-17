@@ -1,7 +1,7 @@
 ---
 title: Type
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets fields type. Read/write IFieldTypeaspose.slides/ifieldtype.
 type: docs
 weight: 20
 url: /net/aspose.slides/ifield/type/

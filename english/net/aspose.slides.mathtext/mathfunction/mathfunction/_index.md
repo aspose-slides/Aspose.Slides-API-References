@@ -1,12 +1,12 @@
 ---
 title: MathFunction
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Initializes a new instance of the MathFunction class.
 type: docs
 weight: 10
 url: /net/aspose.slides.mathtext/mathfunction/mathfunction/
 ---
-## MathFunction constructor (1 of 2)
+## MathFunction(IMathElement, IMathElement) {#constructor}
 
 Initializes a new instance of the MathFunction class.
 
@@ -32,7 +32,7 @@ MathFunction func = new MathFunction(new MathematicalText("sin"), new Mathematic
 
 ---
 
-## MathFunction constructor (2 of 2)
+## MathFunction(string, IMathElement) {#constructor_1}
 
 Initializes a new instance of the MathFunction class.
 

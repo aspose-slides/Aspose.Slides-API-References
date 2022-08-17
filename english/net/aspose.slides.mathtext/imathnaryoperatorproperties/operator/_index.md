@@ -1,7 +1,7 @@
 ---
 title: Operator
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Nary Operator Character For example  
 type: docs
 weight: 50
 url: /net/aspose.slides.mathtext/imathnaryoperatorproperties/operator/

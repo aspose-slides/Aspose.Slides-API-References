@@ -1,12 +1,12 @@
 ---
 title: FindShape
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Find shape by alternative text in a PPTX presentation.
 type: docs
 weight: 20
 url: /net/aspose.slides.util/slideutil/findshape/
 ---
-## SlideUtil.FindShape method (1 of 2)
+## FindShape(IPresentation, string) {#findshape_1}
 
 Find shape by alternative text in a PPTX presentation.
 
@@ -19,7 +19,7 @@ public static IShape FindShape(IPresentation pres, string altText)
 | pres | IPresentation | Scanned presentation. |
 | altText | String | Alternative text of a shape. |
 
-## Return Value
+### Return Value
 
 Shape or null.
 
@@ -33,7 +33,7 @@ Shape or null.
 
 ---
 
-## SlideUtil.FindShape method (2 of 2)
+## FindShape(IBaseSlide, string) {#findshape}
 
 Find shape by alternative text on a slide in a PPTX presentation.
 
@@ -46,7 +46,7 @@ public static IShape FindShape(IBaseSlide slide, string altText)
 | slide | IBaseSlide | Scanned slide. |
 | altText | String | Alternative text of a shape. |
 
-## Return Value
+### Return Value
 
 Shape or null.
 

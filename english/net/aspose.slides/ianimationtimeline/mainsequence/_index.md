@@ -1,7 +1,7 @@
 ---
 title: MainSequence
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns main sequence which may contain only main effects collection. Read-only ISequenceaspose.slides.animation/isequence.
 type: docs
 weight: 20
 url: /net/aspose.slides/ianimationtimeline/mainsequence/

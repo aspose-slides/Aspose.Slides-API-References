@@ -1,7 +1,7 @@
 ---
 title: CanWrite
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Gets a value indicating whether the current stream supports writing. Read-only Boolean.
 type: docs
 weight: 40
 url: /net/aspose.slides/streamwrapper/canwrite/

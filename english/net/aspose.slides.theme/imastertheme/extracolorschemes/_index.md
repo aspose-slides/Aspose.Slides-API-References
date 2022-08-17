@@ -1,7 +1,7 @@
 ---
 title: ExtraColorSchemes
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the collection of additional color schemes. These schemes dont affect presentations look they can be selected as main color scheme for a slide. Read-only IExtraColorSchemeCollectionaspose.slides.theme/iextracolorschemecollection.
 type: docs
 weight: 20
 url: /net/aspose.slides.theme/imastertheme/extracolorschemes/

@@ -1,7 +1,7 @@
 ---
 title: SkewHorizontal
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Specifies the horizontal skew angle in degrees. Read-only Double.
 type: docs
 weight: 100
 url: /net/aspose.slides.effects/ioutershadoweffectivedata/skewhorizontal/

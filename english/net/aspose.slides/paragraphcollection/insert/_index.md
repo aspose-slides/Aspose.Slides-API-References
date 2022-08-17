@@ -1,12 +1,12 @@
 ---
 title: Insert
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Inserts a Paragraph into the collection at the specified index.
 type: docs
 weight: 120
 url: /net/aspose.slides/paragraphcollection/insert/
 ---
-## ParagraphCollection.Insert method (1 of 2)
+## Insert(int, IParagraph) {#insert}
 
 Inserts a Paragraph into the collection at the specified index.
 
@@ -28,7 +28,7 @@ public void Insert(int index, IParagraph value)
 
 ---
 
-## ParagraphCollection.Insert method (2 of 2)
+## Insert(int, IParagraphCollection) {#insert_1}
 
 Inserts a content of ParagraphCollection into the collection at the specified index.
 

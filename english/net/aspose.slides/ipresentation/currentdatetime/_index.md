@@ -1,7 +1,7 @@
 ---
 title: CurrentDateTime
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets date and time which will substitute content of datetime fields. Time of this Presentation object creation by default. Read/write DateTime.
 type: docs
 weight: 60
 url: /net/aspose.slides/ipresentation/currentdatetime/

@@ -1,7 +1,7 @@
 ---
 title: Height
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets the bullet height of a paragraph with no inheritance. Value float.NaN determines that bullet inherits height from the first portion in the paragraph. Read/write Single.
 type: docs
 weight: 40
 url: /net/aspose.slides/bulletformat/height/

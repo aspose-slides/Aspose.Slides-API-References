@@ -1,12 +1,12 @@
 ---
 title: CreateMathBlock
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Create a math block
 type: docs
 weight: 10
 url: /net/aspose.slides.mathtext/imathblockfactory/createmathblock/
 ---
-## IMathBlockFactory.CreateMathBlock method (1 of 3)
+## CreateMathBlock() {#createmathblock}
 
 Create a math block
 
@@ -14,7 +14,7 @@ Create a math block
 public IMathBlock CreateMathBlock()
 ```
 
-## Return Value
+### Return Value
 
 new math block
 
@@ -27,7 +27,7 @@ new math block
 
 ---
 
-## IMathBlockFactory.CreateMathBlock method (2 of 3)
+## CreateMathBlock(IMathElement) {#createmathblock_1}
 
 Create a math block and place the element in it
 
@@ -39,7 +39,7 @@ public IMathBlock CreateMathBlock(IMathElement mathElement)
 | --- | --- | --- |
 | mathElement | IMathElement | A math element |
 
-## Return Value
+### Return Value
 
 new math block
 
@@ -53,7 +53,7 @@ new math block
 
 ---
 
-## IMathBlockFactory.CreateMathBlock method (3 of 3)
+## CreateMathBlock(IMathElementCollection) {#createmathblock_2}
 
 Create a math block and place elements in it
 
@@ -65,7 +65,7 @@ public IMathBlock CreateMathBlock(IMathElementCollection mathElements)
 | --- | --- | --- |
 | mathElements | IMathElementCollection | math elements |
 
-## Return Value
+### Return Value
 
 new math block
 

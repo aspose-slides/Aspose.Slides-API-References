@@ -1,9 +1,9 @@
 ---
 title: MathTopBotPositions
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Top/bottom positions enumeration
 type: docs
-weight: 8310
+weight: 8330
 url: /net/aspose.slides.mathtext/mathtopbotpositions/
 ---
 ## MathTopBotPositions enumeration
@@ -14,7 +14,7 @@ Top/bottom positions enumeration
 public enum MathTopBotPositions
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

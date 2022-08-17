@@ -1,7 +1,7 @@
 ---
 title: Floor
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns an object which allows to change format of the floor of a 3D chart. Read-only IChartWallaspose.slides.charts/ichartwall.
 type: docs
 weight: 100
 url: /net/aspose.slides.charts/ichart/floor/

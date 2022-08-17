@@ -1,7 +1,7 @@
 ---
 title: HideAtShowing
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Determines whether a VideoFrame is hidden. Read/write Boolean.
 type: docs
 weight: 40
 url: /net/aspose.slides/ivideoframe/hideatshowing/

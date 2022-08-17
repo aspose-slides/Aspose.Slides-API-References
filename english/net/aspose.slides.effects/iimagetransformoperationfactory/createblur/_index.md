@@ -1,7 +1,7 @@
 ---
 title: CreateBlur
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates Blur effect.
 type: docs
 weight: 90
 url: /net/aspose.slides.effects/iimagetransformoperationfactory/createblur/
@@ -19,7 +19,7 @@ public IBlur CreateBlur(double radius, bool grow)
 | radius | Double | Radius. |
 | grow | Boolean | Grow. |
 
-## Return Value
+### Return Value
 
 Blur effect.
 

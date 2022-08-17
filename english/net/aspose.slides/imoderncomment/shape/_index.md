@@ -1,7 +1,7 @@
 ---
 title: Shape
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns a shape associated with the comment. Read-only IShapeaspose.slides/ishape.
 type: docs
 weight: 20
 url: /net/aspose.slides/imoderncomment/shape/

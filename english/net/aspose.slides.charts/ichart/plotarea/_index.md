@@ -1,7 +1,7 @@
 ---
 title: PlotArea
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents the plot area of a chart. Read-only IChartPlotAreaaspose.slides.charts/ichartplotarea.
 type: docs
 weight: 160
 url: /net/aspose.slides.charts/ichart/plotarea/

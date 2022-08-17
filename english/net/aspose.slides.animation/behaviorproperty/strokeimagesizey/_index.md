@@ -1,7 +1,7 @@
 ---
 title: StrokeImageSizeY
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents stroke.imagesize.y property
 type: docs
 weight: 960
 url: /net/aspose.slides.animation/behaviorproperty/strokeimagesizey/

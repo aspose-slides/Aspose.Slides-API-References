@@ -1,7 +1,7 @@
 ---
 title: AudioCdStartTrackTime
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets a start track time. Read/write Int32.
 type: docs
 weight: 50
 url: /net/aspose.slides/iaudioframe/audiocdstarttracktime/

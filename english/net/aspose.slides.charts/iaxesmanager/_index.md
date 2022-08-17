@@ -1,9 +1,9 @@
 ---
 title: IAxesManager
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Provides access to chart axes.
 type: docs
-weight: 1560
+weight: 1580
 url: /net/aspose.slides.charts/iaxesmanager/
 ---
 ## IAxesManager interface

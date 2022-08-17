@@ -1,12 +1,12 @@
 ---
 title: MathAccent
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates a math accent applying to a specified math element with the default accent character value
 type: docs
 weight: 10
 url: /net/aspose.slides.mathtext/mathaccent/mathaccent/
 ---
-## MathAccent constructor (1 of 2)
+## MathAccent(IMathElement) {#constructor}
 
 Creates a math accent applying to a specified math element with the default accent character value
 
@@ -37,7 +37,7 @@ MathAccent accent = new MathAccent(baseElement);
 
 ---
 
-## MathAccent constructor (2 of 2)
+## MathAccent(IMathElement, char) {#constructor_1}
 
 Creates a math accent applying to a specified math element
 

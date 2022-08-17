@@ -1,7 +1,7 @@
 ---
 title: AsIBaseHeaderFooterManager
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns IBaseHeaderFooterManager interface.
 type: docs
 weight: 10
 url: /net/aspose.slides/ibaseslideheaderfootermanager/asibaseheaderfootermanager/

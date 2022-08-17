@@ -1,7 +1,7 @@
 ---
 title: BorderRight
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns right border line format effective value. Read-only ILineFormatEffectiveDataaspose.slides/ilineformateffectivedata.
 type: docs
 weight: 50
 url: /net/aspose.slides/ibasetableformateffectivedata/borderright/

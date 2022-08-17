@@ -1,9 +1,9 @@
 ---
 title: MathArray
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Specifies a vertical array of equations or any mathematical objects
 type: docs
-weight: 7830
+weight: 7850
 url: /net/aspose.slides.mathtext/matharray/
 ---
 ## MathArray class
@@ -18,8 +18,8 @@ public sealed class MathArray : MathElementBase, IMathArray
 
 | Name | Description |
 | --- | --- |
-| [MathArray](matharray)(IEnumerable&lt;IMathElement&gt;) | Creates a mathematical array and places specified elements in it |
-| [MathArray](matharray)(IMathElement) | Creates a mathematical array and places the specified element in it |
+| [MathArray](matharray#constructor_1)(IEnumerable&lt;IMathElement&gt;) | Creates a mathematical array and places specified elements in it |
+| [MathArray](matharray#constructor)(IMathElement) | Creates a mathematical array and places the specified element in it |
 
 ## Properties
 

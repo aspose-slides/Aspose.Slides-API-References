@@ -1,7 +1,7 @@
 ---
 title: ShowMajorGridLines
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents if the major gridlines showed. Read-only Boolean.
 type: docs
 weight: 480
 url: /net/aspose.slides.charts/iaxis/showmajorgridlines/

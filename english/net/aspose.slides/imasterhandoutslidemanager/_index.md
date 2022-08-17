@@ -1,9 +1,9 @@
 ---
 title: IMasterHandoutSlideManager
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Master handout slide manager.
 type: docs
-weight: 5810
+weight: 5830
 url: /net/aspose.slides/imasterhandoutslidemanager/
 ---
 ## IMasterHandoutSlideManager interface

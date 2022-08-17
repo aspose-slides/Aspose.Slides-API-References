@@ -1,7 +1,7 @@
 ---
 title: IsVisible
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents if the axis is visible. Read/write Boolean.
 type: docs
 weight: 310
 url: /net/aspose.slides.charts/axis/isvisible/

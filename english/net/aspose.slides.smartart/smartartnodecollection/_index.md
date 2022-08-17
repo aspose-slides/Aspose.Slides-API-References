@@ -1,9 +1,9 @@
 ---
 title: SmartArtNodeCollection
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents a collection of SmartArt nodes.
 type: docs
-weight: 9830
+weight: 9880
 url: /net/aspose.slides.smartart/smartartnodecollection/
 ---
 ## SmartArtNodeCollection class
@@ -31,8 +31,8 @@ public class SmartArtNodeCollection : ISmartArtNodeCollection
 | [AddNodeByPosition](../../aspose.slides.smartart/smartartnodecollection/addnodebyposition)(int) | Add new node in the selected position of nodes collection |
 | [CopyTo](../../aspose.slides.smartart/smartartnodecollection/copyto)(Array, int) | Copies all elements from the collection to the specified array. |
 | [GetEnumerator](../../aspose.slides.smartart/smartartnodecollection/getenumerator)() | Returns an enumerator that iterates through the collection. |
-| [RemoveNode](../../aspose.slides.smartart/smartartnodecollection/removenode)(int) | Remove node or sub node by index |
-| [RemoveNode](../../aspose.slides.smartart/smartartnodecollection/removenode)(ISmartArtNode) | Remove node or sub node |
+| [RemoveNode](../../aspose.slides.smartart/smartartnodecollection/removenode#removenode_1)(int) | Remove node or sub node by index |
+| [RemoveNode](../../aspose.slides.smartart/smartartnodecollection/removenode#removenode)(ISmartArtNode) | Remove node or sub node |
 
 ### See Also
 

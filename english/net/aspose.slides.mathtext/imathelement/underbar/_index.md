@@ -1,7 +1,7 @@
 ---
 title: Underbar
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Sets a bar on the bottom of this element
 type: docs
 weight: 220
 url: /net/aspose.slides.mathtext/imathelement/underbar/
@@ -14,7 +14,7 @@ Sets a bar on the bottom of this element
 public IMathBar Underbar()
 ```
 
-## Return Value
+### Return Value
 
 New instance of type [`IMathBar`](../../imathbar)
 

@@ -1,7 +1,7 @@
 ---
 title: Hide
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Determines whether the legend entry is hide. Read/write Boolean.
 type: docs
 weight: 20
 url: /net/aspose.slides.charts/legendentryproperties/hide/

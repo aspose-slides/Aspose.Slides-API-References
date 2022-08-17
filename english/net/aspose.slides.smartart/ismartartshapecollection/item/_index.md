@@ -1,7 +1,7 @@
 ---
 title: Item
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Gets the element at the specified index. Read-only ISmartArtShapeaspose.slides.smartart/ismartartshape. Zero-based index of the element
 type: docs
 weight: 10
 url: /net/aspose.slides.smartart/ismartartshapecollection/item/

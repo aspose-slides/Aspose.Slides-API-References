@@ -1,7 +1,7 @@
 ---
 title: MasterTheme
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns master theme of the presentation. Read-only IMasterThemeaspose.slides.theme/imastertheme.
 type: docs
 weight: 200
 url: /net/aspose.slides/ipresentation/mastertheme/

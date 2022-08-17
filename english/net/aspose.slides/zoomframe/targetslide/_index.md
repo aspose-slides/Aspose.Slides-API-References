@@ -1,7 +1,7 @@
 ---
 title: TargetSlide
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Gets or sets the slide object that the Slide Zoom object links to. Read/write ISlideaspose.slides/islide.
 type: docs
 weight: 10
 url: /net/aspose.slides/zoomframe/targetslide/

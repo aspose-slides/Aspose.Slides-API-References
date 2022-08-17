@@ -1,9 +1,9 @@
 ---
 title: ChartCategoryCollection
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents collection of ChartCategory./chartcategory
 type: docs
-weight: 1140
+weight: 1160
 url: /net/aspose.slides.charts/chartcategorycollection/
 ---
 ## ChartCategoryCollection class
@@ -29,8 +29,8 @@ public class ChartCategoryCollection : DomObject<ChartData>, IChartCategoryColle
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.slides.charts/chartcategorycollection/add)(IChartDataCell) | If category exists in collection, return it. Else creates new chart category from [`IChartDataCell`](../ichartdatacell) and adds it to the collection. |
-| [Add](../../aspose.slides.charts/chartcategorycollection/add)(object) | Creates new [`ChartCategory`](../chartcategory) from value and adds it to the collection. |
+| [Add](../../aspose.slides.charts/chartcategorycollection/add#add)(IChartDataCell) | If category exists in collection, return it. Else creates new chart category from [`IChartDataCell`](../ichartdatacell) and adds it to the collection. |
+| [Add](../../aspose.slides.charts/chartcategorycollection/add#add_1)(object) | Creates new [`ChartCategory`](../chartcategory) from value and adds it to the collection. |
 | [Clear](../../aspose.slides.charts/chartcategorycollection/clear)() | Removes all elements from the collection. |
 | [CopyTo](../../aspose.slides.charts/chartcategorycollection/copyto)(Array, int) | Copies all elements of the collection to the specified array. |
 | [GetEnumerator](../../aspose.slides.charts/chartcategorycollection/getenumerator)() | Returns an enumerator that iterates through the collection. |

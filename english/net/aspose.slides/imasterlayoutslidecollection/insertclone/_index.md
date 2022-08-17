@@ -1,7 +1,7 @@
 ---
 title: InsertClone
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Inserts a copy of a specified layout slide to specified position of the collection.
 type: docs
 weight: 50
 url: /net/aspose.slides/imasterlayoutslidecollection/insertclone/
@@ -19,7 +19,7 @@ public ILayoutSlide InsertClone(int index, ILayoutSlide sourceLayout)
 | index | Int32 | Index of new slide. |
 | sourceLayout | ILayoutSlide | Slide to clone. |
 
-## Return Value
+### Return Value
 
 Inserted slide.
 

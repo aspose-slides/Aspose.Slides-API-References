@@ -1,7 +1,7 @@
 ---
 title: PptR
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents ppt_r property
 type: docs
 weight: 530
 url: /net/aspose.slides.animation/behaviorproperty/pptr/

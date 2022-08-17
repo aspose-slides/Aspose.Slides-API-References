@@ -1,7 +1,7 @@
 ---
 title: SvgContent
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns SVG content. Read-only String.
 type: docs
 weight: 40
 url: /net/aspose.slides/svgimage/svgcontent/

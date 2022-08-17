@@ -1,7 +1,7 @@
 ---
 title: EmbedTrueTypeFontsForASCII
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Determines if Aspose.Slides will embed common fonts for ASCII 33..127 code range text. Fonts for character codes greater than 127 are always embedded. Common fonts list includes PDFs base 14 fonts and additional user specified fonts. Read/write Boolean.
 type: docs
 weight: 90
 url: /net/aspose.slides.export/pdfoptions/embedtruetypefontsforascii/

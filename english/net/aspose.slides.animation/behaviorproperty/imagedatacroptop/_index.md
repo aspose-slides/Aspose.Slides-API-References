@@ -1,7 +1,7 @@
 ---
 title: ImageDataCropTop
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents imageData.cropTop property
 type: docs
 weight: 470
 url: /net/aspose.slides.animation/behaviorproperty/imagedatacroptop/

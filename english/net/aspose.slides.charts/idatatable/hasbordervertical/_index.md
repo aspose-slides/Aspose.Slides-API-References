@@ -1,7 +1,7 @@
 ---
 title: HasBorderVertical
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: True if the chart data table has vertical cell borders. Read/write Boolean.
 type: docs
 weight: 50
 url: /net/aspose.slides.charts/idatatable/hasbordervertical/

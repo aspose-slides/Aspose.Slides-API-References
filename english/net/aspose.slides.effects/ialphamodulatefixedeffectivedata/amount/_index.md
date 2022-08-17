@@ -1,7 +1,7 @@
 ---
 title: Amount
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns an amount of effect in percents. Read-only Single.
 type: docs
 weight: 10
 url: /net/aspose.slides.effects/ialphamodulatefixedeffectivedata/amount/

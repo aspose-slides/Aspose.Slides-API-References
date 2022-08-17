@@ -1,7 +1,7 @@
 ---
 title: AudioVolumeMode
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Constants which define audio volume.
 type: docs
 weight: 790
 url: /net/aspose.slides/audiovolumemode/
@@ -14,7 +14,7 @@ Constants which define audio volume.
 public enum AudioVolumeMode
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

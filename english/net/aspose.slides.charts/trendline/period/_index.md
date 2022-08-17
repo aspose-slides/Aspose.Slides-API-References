@@ -1,7 +1,7 @@
 ---
 title: Period
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Specifies the period of the trend line for a moving average trend line. It is ignored for other trend line variants. Value must be between 2 and 255. Read/write Byte.
 type: docs
 weight: 90
 url: /net/aspose.slides.charts/trendline/period/

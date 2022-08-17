@@ -1,7 +1,7 @@
 ---
 title: Chart
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Chart. Read-only IChartaspose.slides.charts/ichart.
 type: docs
 weight: 60
 url: /net/aspose.slides.charts/chartplotarea/chart/

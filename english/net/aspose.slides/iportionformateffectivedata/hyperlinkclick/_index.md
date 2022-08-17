@@ -1,7 +1,7 @@
 ---
 title: HyperlinkClick
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the hyperlink defined for mouse click. Read-only IHyperlinkaspose.slides/ihyperlink.
 type: docs
 weight: 30
 url: /net/aspose.slides/iportionformateffectivedata/hyperlinkclick/

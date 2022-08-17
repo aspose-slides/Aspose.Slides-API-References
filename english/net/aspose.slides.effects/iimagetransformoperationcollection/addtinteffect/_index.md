@@ -1,7 +1,7 @@
 ---
 title: AddTintEffect
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Adds the new Tint effect to the end of a collection.
 type: docs
 weight: 190
 url: /net/aspose.slides.effects/iimagetransformoperationcollection/addtinteffect/
@@ -19,7 +19,7 @@ public ITint AddTintEffect(float hue, float amount)
 | hue | Single | The hue towards which to tint. |
 | amount | Single | Specifies by how much the color value is shifted. |
 
-## Return Value
+### Return Value
 
 Index of the new image effect in a collection.
 

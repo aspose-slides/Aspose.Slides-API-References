@@ -1,7 +1,7 @@
 ---
 title: op_Equality
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Checks if two FieldType objects is equal.
 type: docs
 weight: 220
 url: /net/aspose.slides/fieldtype/op_equality/
@@ -19,7 +19,7 @@ public static bool operator ==(FieldType a, FieldType b)
 | a | FieldType | First FieldType to compare. |
 | b | FieldType | Second FieldType to compare. |
 
-## Return Value
+### Return Value
 
 True if FieldType objects are equal.
 

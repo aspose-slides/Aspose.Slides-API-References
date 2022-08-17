@@ -1,7 +1,7 @@
 ---
 title: ShapeFrame
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates new shape frames properties.
 type: docs
 weight: 10
 url: /net/aspose.slides/shapeframe/shapeframe/

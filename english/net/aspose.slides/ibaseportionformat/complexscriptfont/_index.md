@@ -1,7 +1,7 @@
 ---
 title: ComplexScriptFont
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets the complex script font info. Null means font is undefined and should be inherited from the Master. Read/write IFontDataaspose.slides/ifontdata.
 type: docs
 weight: 20
 url: /net/aspose.slides/ibaseportionformat/complexscriptfont/

@@ -1,9 +1,9 @@
 ---
 title: TextStyle
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: This class contains the text style formatting properties.
 type: docs
-weight: 10190
+weight: 10240
 url: /net/aspose.slides/textstyle/
 ---
 ## TextStyle class
@@ -30,11 +30,11 @@ public class TextStyle : PVIObject, ITextStyle
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Returns hash code. |
 | [GetLevel](../../aspose.slides/textstyle/getlevel)(int) | If level of style exist returns it, otherwise returns null. |
 
-## Other Members
+## Fields
 
 | Name | Description |
 | --- | --- |
-| static readonly [MaxLevelCount](maxlevelcount) | Maximum count of style levels that can be defined. Use it with GetLevel(int index) |
+| static readonly [MaxLevelCount](../../aspose.slides/textstyle/maxlevelcount) | Maximum count of style levels that can be defined. Use it with GetLevel(int index) |
 
 ### See Also
 

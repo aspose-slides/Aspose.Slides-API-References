@@ -1,9 +1,9 @@
 ---
 title: IMetered
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Provides methods to set metered key.
 type: docs
-weight: 5890
+weight: 5910
 url: /net/aspose.slides/imetered/
 ---
 ## IMetered interface

@@ -1,7 +1,7 @@
 ---
 title: Light2
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Second light color in the scheme. Read-only IColorFormataspose.slides/icolorformat.
 type: docs
 weight: 140
 url: /net/aspose.slides.theme/icolorscheme/light2/

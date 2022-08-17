@@ -1,7 +1,7 @@
 ---
 title: Format
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Gets or sets the marker fill. Read-only IFormataspose.slides.charts/iformat.
 type: docs
 weight: 10
 url: /net/aspose.slides.charts/marker/format/

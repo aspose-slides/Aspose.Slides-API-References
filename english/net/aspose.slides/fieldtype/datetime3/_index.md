@@ -1,7 +1,7 @@
 ---
 title: DateTime3
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Current date and time in a third predefined format DD Month YYYY for english. Read-only FieldTypeaspose.slides/fieldtype.
 type: docs
 weight: 90
 url: /net/aspose.slides/fieldtype/datetime3/

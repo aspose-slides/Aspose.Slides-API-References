@@ -1,7 +1,7 @@
 ---
 title: GetConsumptionQuantity
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Gets consumption file size
 type: docs
 weight: 40
 url: /net/aspose.slides/metered/getconsumptionquantity/
@@ -14,7 +14,7 @@ Gets consumption file size
 public static decimal GetConsumptionQuantity()
 ```
 
-## Return Value
+### Return Value
 
 consumption quantity
 

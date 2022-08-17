@@ -1,7 +1,7 @@
 ---
 title: XamlOptions
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates the XamlOptions instance.
 type: docs
 weight: 10
 url: /net/aspose.slides.export.xaml/xamloptions/xamloptions/

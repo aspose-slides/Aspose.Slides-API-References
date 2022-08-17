@@ -1,7 +1,7 @@
 ---
 title: Columns
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the collectoin of columns. Read-only IColumnCollectionaspose.slides/icolumncollection.
 type: docs
 weight: 30
 url: /net/aspose.slides/itable/columns/

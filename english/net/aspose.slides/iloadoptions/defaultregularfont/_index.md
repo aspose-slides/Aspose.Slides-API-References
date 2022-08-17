@@ -1,7 +1,7 @@
 ---
 title: DefaultRegularFont
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets Regular font used in case source font is not found. Read-write String.
 type: docs
 weight: 30
 url: /net/aspose.slides/iloadoptions/defaultregularfont/

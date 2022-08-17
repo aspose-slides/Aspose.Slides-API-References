@@ -1,7 +1,7 @@
 ---
 title: TextVerticalType
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns text orientation. Read-only TextVerticalTypeaspose.slides/textverticaltype.
 type: docs
 weight: 110
 url: /net/aspose.slides/itextframeformateffectivedata/textverticaltype/

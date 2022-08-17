@@ -1,7 +1,7 @@
 ---
 title: Position
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents position of axis. Read/write AxisPositionTypeaspose.slides.charts/axispositiontype.
 type: docs
 weight: 470
 url: /net/aspose.slides.charts/axis/position/

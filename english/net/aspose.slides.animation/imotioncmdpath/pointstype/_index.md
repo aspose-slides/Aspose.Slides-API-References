@@ -1,7 +1,7 @@
 ---
 title: PointsType
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Specifies command points type Read/write MotionPathPointsTypeaspose.slides.animation/motionpathpointstype.
 type: docs
 weight: 40
 url: /net/aspose.slides.animation/imotioncmdpath/pointstype/

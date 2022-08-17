@@ -1,9 +1,9 @@
 ---
 title: Cell
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents a cell of a table.
 type: docs
-weight: 990
+weight: 1010
 url: /net/aspose.slides/cell/
 ---
 ## Cell class

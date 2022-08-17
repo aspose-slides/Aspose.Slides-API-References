@@ -1,7 +1,7 @@
 ---
 title: NoBreak
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: No break. This property specifies the unbreakable property on the object box. When true no line breaks can occur within the box. This can be important for operator emulators that consist of more than one binary operator. When this element is not specified breaks can occur inside box. Default true
 type: docs
 weight: 60
 url: /net/aspose.slides.mathtext/imathbox/nobreak/

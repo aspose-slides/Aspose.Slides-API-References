@@ -1,7 +1,7 @@
 ---
 title: EndShapeConnectionSiteIndex
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets the index of connection site for end shape. Read/write UInt32.
 type: docs
 weight: 30
 url: /net/aspose.slides/connector/endshapeconnectionsiteindex/

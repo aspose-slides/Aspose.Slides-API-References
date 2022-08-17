@@ -1,7 +1,7 @@
 ---
 title: Add
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Adds a math element to the end of the collection.
 type: docs
 weight: 40
 url: /net/aspose.slides.mathtext/imathelementcollection/add/

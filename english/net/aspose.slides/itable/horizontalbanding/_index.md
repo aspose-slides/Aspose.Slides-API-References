@@ -1,7 +1,7 @@
 ---
 title: HorizontalBanding
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Determines whether the even rows has to be drawn with a different formatting. Read/write Boolean.
 type: docs
 weight: 60
 url: /net/aspose.slides/itable/horizontalbanding/

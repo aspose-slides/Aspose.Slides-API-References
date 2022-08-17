@@ -1,12 +1,12 @@
 ---
 title: InsertZoomFrame
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates a new Zoom object and inserts it to a collection at the specified index.
 type: docs
 weight: 360
 url: /net/aspose.slides/ishapecollection/insertzoomframe/
 ---
-## IShapeCollection.InsertZoomFrame method (1 of 2)
+## InsertZoomFrame(int, float, float, float, float, ISlide) {#insertzoomframe}
 
 Creates a new Zoom object and inserts it to a collection at the specified index.
 
@@ -24,7 +24,7 @@ public IZoomFrame InsertZoomFrame(int index, float x, float y, float width, floa
 | height | Single | Height of a new Zoom frame Single. |
 | slide | ISlide | The slide object referenced by the Zoom frame [`ISlide`](../../islide). |
 
-## Return Value
+### Return Value
 
 Created Zoom object [`IZoomFrame`](../../izoomframe).
 
@@ -56,7 +56,7 @@ using (Presentation pres = new Presentation("Presentation.pptx"))
 
 ---
 
-## IShapeCollection.InsertZoomFrame method (2 of 2)
+## InsertZoomFrame(int, float, float, float, float, ISlide, IPPImage) {#insertzoomframe_1}
 
 Creates a new Zoom object and inserts it to a collection at the specified index.
 
@@ -75,7 +75,7 @@ public IZoomFrame InsertZoomFrame(int index, float x, float y, float width, floa
 | slide | ISlide | The slide object referenced by the Zoom frame [`ISlide`](../../islide). |
 | image | IPPImage | The image for the referenced slide [`IPPImage`](../../ippimage) |
 
-## Return Value
+### Return Value
 
 Created Zoom object [`IZoomFrame`](../../izoomframe).
 

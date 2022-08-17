@@ -1,7 +1,7 @@
 ---
 title: StrokeEndArrowWidth
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents stroke.endArrowWidth property
 type: docs
 weight: 930
 url: /net/aspose.slides.animation/behaviorproperty/strokeendarrowwidth/

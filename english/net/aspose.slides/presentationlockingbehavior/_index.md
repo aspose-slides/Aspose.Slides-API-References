@@ -1,9 +1,9 @@
 ---
 title: PresentationLockingBehavior
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents the behavior regarding treating the IPresentation./ipresentation source file or Stream while loading and working with an instance of IPresentation./ipresentation. The source is the parameter passed to the IPresentation./ipresentation constructor. In the example below the source is the pres.pptx file
 type: docs
-weight: 8910
+weight: 8920
 url: /net/aspose.slides/presentationlockingbehavior/
 ---
 ## PresentationLockingBehavior enumeration
@@ -22,7 +22,7 @@ For this example, the source ("pres.pptx" file) will be locked for a [`IPresenta
 public enum PresentationLockingBehavior
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -1,7 +1,7 @@
 ---
 title: LinkPathLong
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the full path to a linked file. Long file name will be used. Read/write String.
 type: docs
 weight: 80
 url: /net/aspose.slides/oleobjectframe/linkpathlong/

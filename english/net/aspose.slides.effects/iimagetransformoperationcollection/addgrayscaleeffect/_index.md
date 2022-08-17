@@ -1,7 +1,7 @@
 ---
 title: AddGrayScaleEffect
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Adds the new Gray Scale effect to the end of a collection.
 type: docs
 weight: 160
 url: /net/aspose.slides.effects/iimagetransformoperationcollection/addgrayscaleeffect/
@@ -14,7 +14,7 @@ Adds the new Gray Scale effect to the end of a collection.
 public IGrayScale AddGrayScaleEffect()
 ```
 
-## Return Value
+### Return Value
 
 Index of the new image effect in a collection.
 

@@ -1,7 +1,7 @@
 ---
 title: DataLabel
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates a new instance of DataLabel class.
 type: docs
 weight: 10
 url: /net/aspose.slides.charts/datalabel/datalabel/

@@ -1,7 +1,7 @@
 ---
 title: CellFormat
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the CellFormat object that contains formatting properties for this cell. Read-only ICellFormataspose.slides/icellformat.
 type: docs
 weight: 30
 url: /net/aspose.slides/icell/cellformat/

@@ -1,7 +1,7 @@
 ---
 title: StrokeDashStyle
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents stroke.dashstyle property
 type: docs
 weight: 900
 url: /net/aspose.slides.animation/behaviorproperty/strokedashstyle/

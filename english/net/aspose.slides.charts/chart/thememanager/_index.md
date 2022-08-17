@@ -1,7 +1,7 @@
 ---
 title: ThemeManager
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns theme manager. Read-only IOverrideThemeManageraspose.slides.theme/ioverridethememanager.
 type: docs
 weight: 220
 url: /net/aspose.slides.charts/chart/thememanager/

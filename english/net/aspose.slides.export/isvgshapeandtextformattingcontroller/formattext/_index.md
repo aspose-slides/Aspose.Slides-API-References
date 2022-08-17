@@ -1,7 +1,7 @@
 ---
 title: FormatText
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: This function is called before rendering of text portion to SVG to allow user to control resulting SVG.
 type: docs
 weight: 20
 url: /net/aspose.slides.export/isvgshapeandtextformattingcontroller/formattext/

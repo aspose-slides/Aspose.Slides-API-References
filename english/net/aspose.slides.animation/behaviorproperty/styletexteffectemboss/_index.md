@@ -1,7 +1,7 @@
 ---
 title: StyleTextEffectEmboss
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents style.textEffectEmboss property
 type: docs
 weight: 1150
 url: /net/aspose.slides.animation/behaviorproperty/styletexteffectemboss/

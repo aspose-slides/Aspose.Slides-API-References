@@ -1,9 +1,9 @@
 ---
 title: IColorSchemeEffectiveData
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Immutable object which contains effective color scheme properties.
 type: docs
-weight: 10350
+weight: 10400
 url: /net/aspose.slides.theme/icolorschemeeffectivedata/
 ---
 ## IColorSchemeEffectiveData interface

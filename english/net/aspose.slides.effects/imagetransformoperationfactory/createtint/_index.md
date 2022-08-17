@@ -1,7 +1,7 @@
 ---
 title: CreateTint
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates Tint effect.
 type: docs
 weight: 180
 url: /net/aspose.slides.effects/imagetransformoperationfactory/createtint/
@@ -19,7 +19,7 @@ public ITint CreateTint(float hue, float amount)
 | hue | Single | Hue. |
 | amount | Single | Amount. |
 
-## Return Value
+### Return Value
 
 Tint effect.
 

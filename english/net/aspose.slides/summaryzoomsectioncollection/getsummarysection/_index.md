@@ -1,7 +1,7 @@
 ---
 title: GetSummarySection
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns Summary Zoom Section element for the given section.
 type: docs
 weight: 90
 url: /net/aspose.slides/summaryzoomsectioncollection/getsummarysection/
@@ -18,7 +18,7 @@ public ISummaryZoomSection GetSummarySection(ISection section)
 | --- | --- | --- |
 | section | ISection | Section to find [`ISection`](../../isection) |
 
-## Return Value
+### Return Value
 
 [`ISummaryZoomSection`](../../isummaryzoomsection) or null if collection does not contains element for the section.
 

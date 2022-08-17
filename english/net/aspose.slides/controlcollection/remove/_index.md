@@ -1,7 +1,7 @@
 ---
 title: Remove
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Removes an ActiveX control from the collection.
 type: docs
 weight: 90
 url: /net/aspose.slides/controlcollection/remove/

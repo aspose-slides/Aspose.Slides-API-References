@@ -1,12 +1,12 @@
 ---
 title: InsertClone
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Inserts a copy of a specified slide to specified position of the collection.
 type: docs
 weight: 70
 url: /net/aspose.slides/islidecollection/insertclone/
 ---
-## ISlideCollection.InsertClone method (1 of 3)
+## InsertClone(int, ISlide) {#insertclone}
 
 Inserts a copy of a specified slide to specified position of the collection.
 
@@ -19,7 +19,7 @@ public ISlide InsertClone(int index, ISlide sourceSlide)
 | index | Int32 | Index of new slide. |
 | sourceSlide | ISlide | Slide to clone. |
 
-## Return Value
+### Return Value
 
 Inserted slide.
 
@@ -36,7 +36,7 @@ When cloning a slide between different presentations slide's master can be clone
 
 ---
 
-## ISlideCollection.InsertClone method (2 of 3)
+## InsertClone(int, ISlide, ILayoutSlide) {#insertclone_1}
 
 Inserts a copy of a specified slide to specified position of the collection.
 
@@ -50,7 +50,7 @@ public ISlide InsertClone(int index, ISlide sourceSlide, ILayoutSlide destLayout
 | sourceSlide | ISlide | Slide to clone. |
 | destLayout | ILayoutSlide | Layout slide for a new slide. |
 
-## Return Value
+### Return Value
 
 Inserted slide.
 
@@ -64,7 +64,7 @@ Inserted slide.
 
 ---
 
-## ISlideCollection.InsertClone method (3 of 3)
+## InsertClone(int, ISlide, IMasterSlide, bool) {#insertclone_2}
 
 Inserts a copy of a specified source slide to specified position of the collection. Appropriate layout will be selected automatically from the specified master (appropriate layout is the layout with the same Type or Name as of layout of the source slide). If there is no appropriate layout then layout of the source slide will be cloned (if allowCloneMissingLayout is true) or PptxEditException will be thrown (if allowCloneMissingLayout is false).
 
@@ -80,7 +80,7 @@ public ISlide InsertClone(int index, ISlide sourceSlide, IMasterSlide destMaster
 | destMaster | IMasterSlide | Master slide for a new slide. |
 | allowCloneMissingLayout | Boolean | If there is no appropriate layout in specified master then layout of the source slide will be cloned (if allowCloneMissingLayout is true) or PptxEditException will be thrown (if allowCloneMissingLayout is false). |
 
-## Return Value
+### Return Value
 
 Inserted slide.
 

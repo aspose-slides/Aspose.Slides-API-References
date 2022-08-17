@@ -1,7 +1,7 @@
 ---
 title: Equals
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Determines whether the two Hyperlink instances are equal.
 type: docs
 weight: 100
 url: /net/aspose.slides/ihyperlink/equals/
@@ -18,7 +18,7 @@ public bool Equals(IHyperlink hlink)
 | --- | --- | --- |
 | hlink | IHyperlink | The Hyperlink to compare with the current Hyperlink. |
 
-## Return Value
+### Return Value
 
 **true** if the specified Hyperlink is equal to the current Hyperlink; otherwise, **false**.
 

@@ -1,7 +1,7 @@
 ---
 title: PortionFormat
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Initializes a new instance of PortionFormataspose.slides/portionformat class.
 type: docs
 weight: 10
 url: /net/aspose.slides/portionformat/portionformat/

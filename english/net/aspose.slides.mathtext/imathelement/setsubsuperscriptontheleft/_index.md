@@ -1,12 +1,12 @@
 ---
 title: SetSubSuperscriptOnTheLeft
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates subscript and superscript on the left
 type: docs
 weight: 150
 url: /net/aspose.slides.mathtext/imathelement/setsubsuperscriptontheleft/
 ---
-## IMathElement.SetSubSuperscriptOnTheLeft method (1 of 2)
+## SetSubSuperscriptOnTheLeft(IMathElement, IMathElement) {#setsubsuperscriptontheleft}
 
 Creates subscript and superscript on the left
 
@@ -20,7 +20,7 @@ public IMathLeftSubSuperscriptElement SetSubSuperscriptOnTheLeft(IMathElement su
 | subscript | IMathElement | Subscript (lower index on the left) |
 | superscript | IMathElement | Superscript (upper index on the left) |
 
-## Return Value
+### Return Value
 
 New math element of type [`IMathLeftSubSuperscriptElement`](../../imathleftsubsuperscriptelement)
 
@@ -45,7 +45,7 @@ IMathLeftSubSuperscriptElement leftSubsuperscript = baseElement.SetSubSuperscrip
 
 ---
 
-## IMathElement.SetSubSuperscriptOnTheLeft method (2 of 2)
+## SetSubSuperscriptOnTheLeft(string, string) {#setsubsuperscriptontheleft_1}
 
 Creates subscript and superscript on the left
 
@@ -59,7 +59,7 @@ public IMathLeftSubSuperscriptElement SetSubSuperscriptOnTheLeft(string subscrip
 | subscript | String | Subscript (lower index on the left) |
 | superscript | String | Superscript (upper index on the left) |
 
-## Return Value
+### Return Value
 
 New math element of type [`IMathLeftSubSuperscriptElement`](../../imathleftsubsuperscriptelement)
 

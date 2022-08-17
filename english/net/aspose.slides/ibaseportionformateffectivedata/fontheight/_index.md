@@ -1,7 +1,7 @@
 ---
 title: FontHeight
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the font height of a portion. Read-only Single.
 type: docs
 weight: 80
 url: /net/aspose.slides/ibaseportionformateffectivedata/fontheight/

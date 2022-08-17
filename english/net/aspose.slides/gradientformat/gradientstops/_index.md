@@ -1,7 +1,7 @@
 ---
 title: GradientStops
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the collection of gradient stops. Read-only IGradientStopCollectionaspose.slides/igradientstopcollection.
 type: docs
 weight: 30
 url: /net/aspose.slides/gradientformat/gradientstops/

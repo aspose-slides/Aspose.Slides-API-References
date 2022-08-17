@@ -1,7 +1,7 @@
 ---
 title: IndexOfName
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the zero-based index of the specified key in the collection.
 type: docs
 weight: 130
 url: /net/aspose.slides/tagcollection/indexofname/
@@ -18,7 +18,7 @@ public int IndexOfName(string name)
 | --- | --- | --- |
 | name | String | The name to locate in the collection. |
 
-## Return Value
+### Return Value
 
 The zero-based index of key, if key is found in the collection; otherwise, -1.
 

@@ -1,7 +1,7 @@
 ---
 title: GapWidth
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Specifies the space between bar or column clusters as a percentage of the bar or column width. Read/write UInt16.
 type: docs
 weight: 70
 url: /net/aspose.slides.charts/chartseriesgroup/gapwidth/

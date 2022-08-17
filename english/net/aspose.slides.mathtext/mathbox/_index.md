@@ -1,9 +1,9 @@
 ---
 title: MathBox
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Specifies the logical boxing packaging of mathematical element. For example a boxed object can serve as an operator emulator with or without an alignment point serve as a line break point or be grouped such as not to allow line breaks within. For example the  operator should be boxed to prevent line breaks.
 type: docs
-weight: 7910
+weight: 7930
 url: /net/aspose.slides.mathtext/mathbox/
 ---
 ## MathBox class

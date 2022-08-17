@@ -1,7 +1,7 @@
 ---
 title: SetAsTotal
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Sets data point as total. Applied for Waterfall series type only.
 type: docs
 weight: 160
 url: /net/aspose.slides.charts/chartdatapoint/setastotal/

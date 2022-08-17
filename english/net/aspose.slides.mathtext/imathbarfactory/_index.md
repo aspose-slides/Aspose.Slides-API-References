@@ -1,9 +1,9 @@
 ---
 title: IMathBarFactory
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Allows to create a math bar
 type: docs
-weight: 7420
+weight: 7440
 url: /net/aspose.slides.mathtext/imathbarfactory/
 ---
 ## IMathBarFactory interface
@@ -18,8 +18,8 @@ public interface IMathBarFactory
 
 | Name | Description |
 | --- | --- |
-| [CreateMathBar](../../aspose.slides.mathtext/imathbarfactory/createmathbar)(IMathElement) | Create a math bar by applying to the element |
-| [CreateMathBar](../../aspose.slides.mathtext/imathbarfactory/createmathbar)(IMathElement, MathTopBotPositions) | Create a math bar by applying to the element |
+| [CreateMathBar](../../aspose.slides.mathtext/imathbarfactory/createmathbar#createmathbar)(IMathElement) | Create a math bar by applying to the element |
+| [CreateMathBar](../../aspose.slides.mathtext/imathbarfactory/createmathbar#createmathbar_1)(IMathElement, MathTopBotPositions) | Create a math bar by applying to the element |
 
 ### Remarks
 

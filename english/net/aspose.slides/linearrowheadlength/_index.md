@@ -1,9 +1,9 @@
 ---
 title: LineArrowheadLength
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents the length of an arrowhead.
 type: docs
-weight: 7030
+weight: 7050
 url: /net/aspose.slides/linearrowheadlength/
 ---
 ## LineArrowheadLength enumeration
@@ -14,7 +14,7 @@ Represents the length of an arrowhead.
 public enum LineArrowheadLength : sbyte
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

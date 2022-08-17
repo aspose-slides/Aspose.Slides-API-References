@@ -1,7 +1,7 @@
 ---
 title: Equals
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Determines whether the specified SoftEdgeaspose.slides.effects/softedge is equal to the current SoftEdgeaspose.slides.effects/softedge.
 type: docs
 weight: 20
 url: /net/aspose.slides.effects/softedge/equals/
@@ -18,7 +18,7 @@ public override bool Equals(object obj)
 | --- | --- | --- |
 | obj | Object | The [`SoftEdge`](../../softedge) to compare. |
 
-## Return Value
+### Return Value
 
 true if objects are equal; otherwise, false.
 

@@ -1,7 +1,7 @@
 ---
 title: Position
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Position of grouping character. Default Bottom
 type: docs
 weight: 40
 url: /net/aspose.slides.mathtext/imathgroupingcharacter/position/

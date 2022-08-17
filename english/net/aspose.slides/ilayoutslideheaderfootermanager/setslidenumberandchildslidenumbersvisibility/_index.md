@@ -1,7 +1,7 @@
 ---
 title: SetSlideNumberAndChildSlideNumbersVisibility
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Changes layout slide page number placeholder and all child page number placeholders visibility. Child placeholders mean placeholders are contained on depending slides. Depending slides use and depend on layout slide.
 type: docs
 weight: 60
 url: /net/aspose.slides/ilayoutslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility/

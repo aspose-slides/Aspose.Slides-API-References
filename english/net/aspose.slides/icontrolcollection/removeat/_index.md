@@ -1,7 +1,7 @@
 ---
 title: RemoveAt
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Removes an ActiveX control stored at specified position from the collection.
 type: docs
 weight: 50
 url: /net/aspose.slides/icontrolcollection/removeat/

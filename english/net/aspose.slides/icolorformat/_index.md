@@ -1,9 +1,9 @@
 ---
 title: IColorFormat
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents a color used in a presentation.
 type: docs
-weight: 4990
+weight: 5010
 url: /net/aspose.slides/icolorformat/
 ---
 ## IColorFormat interface

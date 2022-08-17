@@ -1,12 +1,12 @@
 ---
 title: MathBar
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Initializes MathBar with overbar Top position
 type: docs
 weight: 10
 url: /net/aspose.slides.mathtext/mathbar/mathbar/
 ---
-## MathBar constructor (1 of 2)
+## MathBar(IMathElement) {#constructor}
 
 Initializes MathBar with overbar (Top position)
 
@@ -36,7 +36,7 @@ MathBar mathBar = new MathBar(new MathematicalText("x"));
 
 ---
 
-## MathBar constructor (2 of 2)
+## MathBar(IMathElement, MathTopBotPositions) {#constructor_1}
 
 Initializes MathBar with specified position
 

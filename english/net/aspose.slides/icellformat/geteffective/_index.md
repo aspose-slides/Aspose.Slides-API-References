@@ -1,7 +1,7 @@
 ---
 title: GetEffective
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Gets effective table cell formatting properties with inheritance and table styles applied.
 type: docs
 weight: 80
 url: /net/aspose.slides/icellformat/geteffective/
@@ -14,7 +14,7 @@ Gets effective table cell formatting properties with inheritance and table style
 public ICellFormatEffectiveData GetEffective()
 ```
 
-## Return Value
+### Return Value
 
 A [`ICellFormatEffectiveData`](../../icellformateffectivedata).
 

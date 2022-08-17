@@ -1,7 +1,7 @@
 ---
 title: OutputSaver
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets output saver. Read/write IOutputSaveraspose.slides.export.web/ioutputsaver.
 type: docs
 weight: 50
 url: /net/aspose.slides.export.web/webdocumentoptions/outputsaver/

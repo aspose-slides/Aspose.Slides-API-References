@@ -1,7 +1,7 @@
 ---
 title: ExportToHtml
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Converts specifying paragraphs to the HTML and returns it as String object.
 type: docs
 weight: 90
 url: /net/aspose.slides/paragraphcollection/exporttohtml/
@@ -21,7 +21,7 @@ public string ExportToHtml(int firstParagraphIndex, int paragraphsCount,
 | paragraphsCount | Int32 | Paragraph count Int32 |
 | options | ITextToHtmlConversionOptions | Convert options [`ITextToHtmlConversionOptions`](../../../aspose.slides.export/itexttohtmlconversionoptions) |
 
-## Return Value
+### Return Value
 
 Generated HTML.
 

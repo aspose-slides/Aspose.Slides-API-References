@@ -1,7 +1,7 @@
 ---
 title: Label
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents the lable of chart data point. Read-only IDataLabelaspose.slides.charts/idatalabel.
 type: docs
 weight: 100
 url: /net/aspose.slides.charts/ichartdatapoint/label/

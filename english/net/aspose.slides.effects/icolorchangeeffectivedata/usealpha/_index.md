@@ -1,7 +1,7 @@
 ---
 title: UseAlpha
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns a boolean value which determines if alpha component should be used. Read-only Boolean.
 type: docs
 weight: 40
 url: /net/aspose.slides.effects/icolorchangeeffectivedata/usealpha/

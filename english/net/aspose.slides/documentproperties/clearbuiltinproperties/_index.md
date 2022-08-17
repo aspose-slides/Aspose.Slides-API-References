@@ -1,7 +1,7 @@
 ---
 title: ClearBuiltInProperties
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Clears and sets default values for all builtIn properties.
 type: docs
 weight: 260
 url: /net/aspose.slides/documentproperties/clearbuiltinproperties/

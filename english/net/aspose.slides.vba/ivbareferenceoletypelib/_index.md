@@ -1,9 +1,9 @@
 ---
 title: IVbaReferenceOleTypeLib
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents OLE Automation type library reference.
 type: docs
-weight: 10800
+weight: 10850
 url: /net/aspose.slides.vba/ivbareferenceoletypelib/
 ---
 ## IVbaReferenceOleTypeLib interface

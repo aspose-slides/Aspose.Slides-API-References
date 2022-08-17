@@ -1,7 +1,7 @@
 ---
 title: IsAutomaticMinorUnit
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Indicates whether the minor unit of the axis is automatically assigned. Read/write Boolean.
 type: docs
 weight: 200
 url: /net/aspose.slides.charts/axis/isautomaticminorunit/

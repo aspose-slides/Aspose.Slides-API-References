@@ -1,7 +1,7 @@
 ---
 title: Orientation
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Orientation of transition split. Read/write Orientationaspose.slides/orientation.
 type: docs
 weight: 20
 url: /net/aspose.slides.slideshow/splittransition/orientation/

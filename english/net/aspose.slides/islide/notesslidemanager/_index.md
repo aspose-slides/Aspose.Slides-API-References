@@ -1,7 +1,7 @@
 ---
 title: NotesSlideManager
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Allow to access notes slide add and remove it. Read-only INotesSlideManageraspose.slides/inotesslidemanager.
 type: docs
 weight: 60
 url: /net/aspose.slides/islide/notesslidemanager/

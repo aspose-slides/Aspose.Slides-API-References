@@ -1,9 +1,9 @@
 ---
 title: IThemeable
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents objects that can be themed with ITheme./itheme.
 type: docs
-weight: 10590
+weight: 10640
 url: /net/aspose.slides.theme/ithemeable/
 ---
 ## IThemeable interface

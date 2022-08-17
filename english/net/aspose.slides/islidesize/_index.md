@@ -1,9 +1,9 @@
 ---
 title: ISlideSize
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents a size of slide.
 type: docs
-weight: 6510
+weight: 6530
 url: /net/aspose.slides/islidesize/
 ---
 ## ISlideSize interface
@@ -26,8 +26,8 @@ public interface ISlideSize
 
 | Name | Description |
 | --- | --- |
-| [SetSize](../../aspose.slides/islidesize/setsize)(SlideSizeType, SlideSizeScaleType) | Sets the type of slide size and scales content using scale type. Assigning any value except Custom will change [`Size`](./size) accordingly, but will keep [`Orientation`](./orientation) intact. |
-| [SetSize](../../aspose.slides/islidesize/setsize)(float, float, SlideSizeScaleType) | Sets the size in points and scales content using scale type. Assigning any value will reset [`Type`](./type) property to Custom and set [`Orientation`](./orientation). |
+| [SetSize](../../aspose.slides/islidesize/setsize#setsize)(SlideSizeType, SlideSizeScaleType) | Sets the type of slide size and scales content using scale type. Assigning any value except Custom will change [`Size`](./size) accordingly, but will keep [`Orientation`](./orientation) intact. |
+| [SetSize](../../aspose.slides/islidesize/setsize#setsize_1)(float, float, SlideSizeScaleType) | Sets the size in points and scales content using scale type. Assigning any value will reset [`Type`](./type) property to Custom and set [`Orientation`](./orientation). |
 
 ### See Also
 

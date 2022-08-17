@@ -1,7 +1,7 @@
 ---
 title: Name
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Name of the section.
 type: docs
 weight: 10
 url: /net/aspose.slides/isection/name/

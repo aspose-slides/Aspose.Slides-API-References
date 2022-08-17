@@ -1,7 +1,7 @@
 ---
 title: AddDataPointForWaterfallSeries
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates the new data point and adds it to the end of collection. Applicable for series which chart type is Waterfall.
 type: docs
 weight: 260
 url: /net/aspose.slides.charts/chartdatapointcollection/adddatapointforwaterfallseries/
@@ -18,7 +18,7 @@ public IChartDataPoint AddDataPointForWaterfallSeries(IChartDataCell value)
 | --- | --- | --- |
 | value | IChartDataCell | Data point Value |
 
-## Return Value
+### Return Value
 
 New data point.
 

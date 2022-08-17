@@ -1,7 +1,7 @@
 ---
 title: AddClipboardFragmentHeader
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets value indicating if Clipboard headers should be added. Read/write Boolean.
 type: docs
 weight: 10
 url: /net/aspose.slides.export/itexttohtmlconversionoptions/addclipboardfragmentheader/

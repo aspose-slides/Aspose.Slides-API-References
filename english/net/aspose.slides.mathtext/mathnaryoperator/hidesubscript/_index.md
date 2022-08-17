@@ -1,7 +1,7 @@
 ---
 title: HideSubscript
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Hide Subscript
 type: docs
 weight: 40
 url: /net/aspose.slides.mathtext/mathnaryoperator/hidesubscript/

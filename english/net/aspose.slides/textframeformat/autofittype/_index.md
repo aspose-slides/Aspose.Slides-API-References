@@ -1,7 +1,7 @@
 ---
 title: AutofitType
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets texts autofit mode. Read/write TextAutofitTypeaspose.slides/textautofittype.
 type: docs
 weight: 30
 url: /net/aspose.slides/textframeformat/autofittype/

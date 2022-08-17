@@ -1,7 +1,7 @@
 ---
 title: MarginRight
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets the right margin in a paragraph with no inheritance. Read/write Single.
 type: docs
 weight: 100
 url: /net/aspose.slides/paragraphformat/marginright/

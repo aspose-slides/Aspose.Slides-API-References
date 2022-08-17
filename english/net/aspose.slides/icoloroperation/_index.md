@@ -1,9 +1,9 @@
 ---
 title: IColorOperation
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents different color operations used for color transformations.
 type: docs
-weight: 5000
+weight: 5020
 url: /net/aspose.slides/icoloroperation/
 ---
 ## IColorOperation interface

@@ -1,7 +1,7 @@
 ---
 title: StartOpenLeftPane
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Start with opened left pane. Can be overridden in flashvars. Default is false.
 type: docs
 weight: 160
 url: /net/aspose.slides.export/swfoptions/startopenleftpane/

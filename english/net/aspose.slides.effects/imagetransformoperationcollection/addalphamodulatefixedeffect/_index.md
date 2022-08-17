@@ -1,7 +1,7 @@
 ---
 title: AddAlphaModulateFixedEffect
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Adds the new Alpha Modulate Fixed effect to the end of a collection.
 type: docs
 weight: 100
 url: /net/aspose.slides.effects/imagetransformoperationcollection/addalphamodulatefixedeffect/
@@ -18,7 +18,7 @@ public IAlphaModulateFixed AddAlphaModulateFixedEffect(float amount)
 | --- | --- | --- |
 | amount | Single | The percentage amount to scale the alpha. |
 
-## Return Value
+### Return Value
 
 Index of the new image effect in a collection.
 

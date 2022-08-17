@@ -1,7 +1,7 @@
 ---
 title: Equals
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Determines whether the specified Tintaspose.slides.effects/tint is equal to the current Tintaspose.slides.effects/tint.
 type: docs
 weight: 10
 url: /net/aspose.slides.effects/tint/equals/
@@ -18,7 +18,7 @@ public override bool Equals(object obj)
 | --- | --- | --- |
 | obj | Object | The [`Tint`](../../tint) to compare. |
 
-## Return Value
+### Return Value
 
 true if objects are equal; otherwise, false.
 

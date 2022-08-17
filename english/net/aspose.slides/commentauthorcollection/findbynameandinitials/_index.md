@@ -1,7 +1,7 @@
 ---
 title: FindByNameAndInitials
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Find author in a collection by name and initials.
 type: docs
 weight: 90
 url: /net/aspose.slides/commentauthorcollection/findbynameandinitials/
@@ -19,7 +19,7 @@ public ICommentAuthor[] FindByNameAndInitials(string name, string initials)
 | name | String | Name of an author to find. |
 | initials | String | Initials of an author to find. |
 
-## Return Value
+### Return Value
 
 Author or null.
 

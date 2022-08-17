@@ -1,7 +1,7 @@
 ---
 title: AssemblyVersion
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Version of Aspose.Slides assembly.
 type: docs
 weight: 10
 url: /net/aspose.slides/buildversioninfo/assemblyversion/

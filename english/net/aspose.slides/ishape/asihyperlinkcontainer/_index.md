@@ -1,7 +1,7 @@
 ---
 title: AsIHyperlinkContainer
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Allows to get base IHyperlinkContainer interface. Read-only IHyperlinkContaineraspose.slides/ihyperlinkcontainer.
 type: docs
 weight: 30
 url: /net/aspose.slides/ishape/asihyperlinkcontainer/

@@ -1,7 +1,7 @@
 ---
 title: Masters
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns a list of all master slides that are defined in the presentation. Read-only IMasterSlideCollectionaspose.slides/imasterslidecollection.
 type: docs
 weight: 190
 url: /net/aspose.slides/ipresentation/masters/

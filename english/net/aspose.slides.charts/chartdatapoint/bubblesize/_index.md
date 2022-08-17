@@ -1,7 +1,7 @@
 ---
 title: BubbleSize
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: BubbleSize. Read-only IDoubleChartValueaspose.slides.charts/idoublechartvalue.
 type: docs
 weight: 50
 url: /net/aspose.slides.charts/chartdatapoint/bubblesize/

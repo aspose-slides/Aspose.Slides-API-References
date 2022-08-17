@@ -1,7 +1,7 @@
 ---
 title: LayoutSlide
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets the layout slide for the current slide. Read/write ILayoutSlideaspose.slides/ilayoutslide.
 type: docs
 weight: 30
 url: /net/aspose.slides/slide/layoutslide/

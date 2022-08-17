@@ -1,7 +1,7 @@
 ---
 title: Formula
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Formulas within values from to by attributes can be made up of these Standard arithmetic operators  -  /   mod Constants pi e Conditional operators abs min max  if Comparison operators  gt    Trigonometric operators sin cos tan asin acos atan Natural logarithm ln Property references host supported properties for example ppt_xcos-2pi1--ppt_x-sin-2pi1-1-ppt_y1- Read/write String.
 type: docs
 weight: 20
 url: /net/aspose.slides.animation/point/formula/

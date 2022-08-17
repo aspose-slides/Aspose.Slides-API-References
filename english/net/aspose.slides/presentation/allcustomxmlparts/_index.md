@@ -1,7 +1,7 @@
 ---
 title: AllCustomXmlParts
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns all custom data parts in the presentaion. Read-only ICustomXmlPartaspose.slides/icustomxmlpart.
 type: docs
 weight: 20
 url: /net/aspose.slides/presentation/allcustomxmlparts/

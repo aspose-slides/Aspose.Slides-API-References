@@ -1,7 +1,7 @@
 ---
 title: MinorTickMark
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents the type of minor tick mark for the specified axis. Read/write TickMarkTypeaspose.slides.charts/tickmarktype.
 type: docs
 weight: 400
 url: /net/aspose.slides.charts/axis/minortickmark/

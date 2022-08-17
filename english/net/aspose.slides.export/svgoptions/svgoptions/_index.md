@@ -1,12 +1,12 @@
 ---
 title: SVGOptions
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Initializes a new instance of the SVGOptions class.
 type: docs
 weight: 10
 url: /net/aspose.slides.export/svgoptions/svgoptions/
 ---
-## SVGOptions constructor (1 of 2)
+## SVGOptions() {#constructor}
 
 Initializes a new instance of the SVGOptions class.
 
@@ -22,7 +22,7 @@ public SVGOptions()
 
 ---
 
-## SVGOptions constructor (2 of 2)
+## SVGOptions(ILinkEmbedController) {#constructor_1}
 
 Initializes a new instance of the SVGOptions class specifying the link embedding controller object.
 

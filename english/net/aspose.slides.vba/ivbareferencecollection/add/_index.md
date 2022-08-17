@@ -1,7 +1,7 @@
 ---
 title: Add
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Adds the new reference to references collection
 type: docs
 weight: 20
 url: /net/aspose.slides.vba/ivbareferencecollection/add/

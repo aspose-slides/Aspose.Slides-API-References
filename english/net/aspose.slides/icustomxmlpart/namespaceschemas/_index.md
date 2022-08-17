@@ -1,7 +1,7 @@
 ---
 title: NamespaceSchemas
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the collection XML schemas that are associated with the custom XML part. Read-only String.
 type: docs
 weight: 20
 url: /net/aspose.slides/icustomxmlpart/namespaceschemas/

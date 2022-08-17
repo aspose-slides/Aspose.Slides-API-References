@@ -1,7 +1,7 @@
 ---
 title: Restart
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Specifies if a effect is to restart after complete. Read/write EffectRestartTypeaspose.slides.animation/effectrestarttype.
 type: docs
 weight: 70
 url: /net/aspose.slides.animation/itiming/restart/

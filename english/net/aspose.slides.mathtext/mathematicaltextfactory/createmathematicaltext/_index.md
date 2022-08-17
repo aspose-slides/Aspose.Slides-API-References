@@ -1,12 +1,12 @@
 ---
 title: CreateMathematicalText
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Create empty mathematical text element
 type: docs
 weight: 20
 url: /net/aspose.slides.mathtext/mathematicaltextfactory/createmathematicaltext/
 ---
-## MathematicalTextFactory.CreateMathematicalText method (1 of 4)
+## CreateMathematicalText() {#createmathematicaltext}
 
 Create empty mathematical text element
 
@@ -14,7 +14,7 @@ Create empty mathematical text element
 public IMathematicalText CreateMathematicalText()
 ```
 
-## Return Value
+### Return Value
 
 new Mathematical Text
 
@@ -27,7 +27,7 @@ new Mathematical Text
 
 ---
 
-## MathematicalTextFactory.CreateMathematicalText method (2 of 4)
+## CreateMathematicalText(char) {#createmathematicaltext_1}
 
 Create mathematical text element with the specified value
 
@@ -39,7 +39,7 @@ public IMathematicalText CreateMathematicalText(char mathSymbol)
 | --- | --- | --- |
 | mathSymbol | Char | single symbol to use as text value |
 
-## Return Value
+### Return Value
 
 new Mathematical Text
 
@@ -52,7 +52,7 @@ new Mathematical Text
 
 ---
 
-## MathematicalTextFactory.CreateMathematicalText method (3 of 4)
+## CreateMathematicalText(string) {#createmathematicaltext_2}
 
 Create empty mathematical text element with the specified value
 
@@ -64,7 +64,7 @@ public IMathematicalText CreateMathematicalText(string mathText)
 | --- | --- | --- |
 | mathText | String | text value |
 
-## Return Value
+### Return Value
 
 new Mathematical Text
 
@@ -77,7 +77,7 @@ new Mathematical Text
 
 ---
 
-## MathematicalTextFactory.CreateMathematicalText method (4 of 4)
+## CreateMathematicalText(string, IPortionFormat) {#createmathematicaltext_3}
 
 Create empty mathematical text element with the specified value and formatting properties
 
@@ -90,7 +90,7 @@ public IMathematicalText CreateMathematicalText(string mathText, IPortionFormat 
 | mathText | String | text value |
 | portionFormat | IPortionFormat | text format settings |
 
-## Return Value
+### Return Value
 
 new Mathematical Text
 

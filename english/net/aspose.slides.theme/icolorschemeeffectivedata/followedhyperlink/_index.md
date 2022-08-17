@@ -1,7 +1,7 @@
 ---
 title: FollowedHyperlink
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Color for the visited hyperlinks. Read-only Color.
 type: docs
 weight: 90
 url: /net/aspose.slides.theme/icolorschemeeffectivedata/followedhyperlink/

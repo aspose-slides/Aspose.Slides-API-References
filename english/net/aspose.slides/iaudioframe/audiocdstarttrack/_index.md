@@ -1,7 +1,7 @@
 ---
 title: AudioCdStartTrack
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets a start track index. Read/write Int32.
 type: docs
 weight: 40
 url: /net/aspose.slides/iaudioframe/audiocdstarttrack/

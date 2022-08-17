@@ -1,7 +1,7 @@
 ---
 title: CreateMotionEffect
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates motion effect.
 type: docs
 weight: 40
 url: /net/aspose.slides.animation/ibehaviorfactory/createmotioneffect/
@@ -14,7 +14,7 @@ Creates motion effect.
 public IMotionEffect CreateMotionEffect()
 ```
 
-## Return Value
+### Return Value
 
 Motion effect.
 

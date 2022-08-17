@@ -1,7 +1,7 @@
 ---
 title: ColumnGapRule
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: The type of horizontal spacing between columns of a matrix Horizontal spacing units can be ems or points stored as twips. Default SingleSpacingGap 0
 type: docs
 weight: 50
 url: /net/aspose.slides.mathtext/imathmatrix/columngaprule/

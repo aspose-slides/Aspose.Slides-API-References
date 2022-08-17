@@ -1,7 +1,7 @@
 ---
 title: CommentsAreaWidth
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Gets or sets the width of the comment output area in pixels Applies only if comments are displayed on the right.
 type: docs
 weight: 20
 url: /net/aspose.slides.export/inotescommentslayoutingoptions/commentsareawidth/

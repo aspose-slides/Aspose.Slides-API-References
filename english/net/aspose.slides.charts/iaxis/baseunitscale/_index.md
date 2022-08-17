@@ -1,7 +1,7 @@
 ---
 title: BaseUnitScale
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Specifies the smallest time unit that is represented on the date axis. Read/write TimeUnitTypeaspose.slides.charts/timeunittype.
 type: docs
 weight: 100
 url: /net/aspose.slides.charts/iaxis/baseunitscale/

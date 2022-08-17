@@ -1,7 +1,7 @@
 ---
 title: Right
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Gets the right of the chart element as a fraction of the width of the chart. Read-only Single.
 type: docs
 weight: 40
 url: /net/aspose.slides.charts/ilayoutable/right/

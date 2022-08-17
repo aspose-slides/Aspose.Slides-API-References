@@ -1,7 +1,7 @@
 ---
 title: IsSlideNumberVisible
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Gets value indicating that a page number placeholder is present. ReadBoolean.
 type: docs
 weight: 30
 url: /net/aspose.slides/baseslideheaderfootermanager/isslidenumbervisible/

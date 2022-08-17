@@ -1,7 +1,7 @@
 ---
 title: AsILinkEmbedController
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Allows to get base ILinkEmbedController interface. Read-only ILinkEmbedControlleraspose.slides.export/ilinkembedcontroller.
 type: docs
 weight: 20
 url: /net/aspose.slides.export/ivideoplayerhtmlcontroller/asilinkembedcontroller/

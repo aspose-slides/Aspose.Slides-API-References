@@ -1,7 +1,7 @@
 ---
 title: Series
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns a readonly collection of chart series. Read-only IChartSeriesReadonlyCollectionaspose.slides.charts/ichartseriesreadonlycollection.
 type: docs
 weight: 180
 url: /net/aspose.slides.charts/ichartseriesgroup/series/

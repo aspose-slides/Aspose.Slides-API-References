@@ -1,7 +1,7 @@
 ---
 title: Style
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets the chart style. Read/write StyleTypeaspose.slides.charts/styletype.
 type: docs
 weight: 210
 url: /net/aspose.slides.charts/ichart/style/

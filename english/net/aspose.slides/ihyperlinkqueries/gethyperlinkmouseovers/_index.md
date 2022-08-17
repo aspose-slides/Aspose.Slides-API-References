@@ -1,7 +1,7 @@
 ---
 title: GetHyperlinkMouseOvers
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Get all IHyperlinkContainer subobjects that contain not null HyperlinkMouseOver. With given IHyperlinkContainer object you can manage its hyperlink read update or remove. See IHyperlinkContainer interface.
 type: docs
 weight: 30
 url: /net/aspose.slides/ihyperlinkqueries/gethyperlinkmouseovers/
@@ -14,7 +14,7 @@ Get all IHyperlinkContainer subobjects that contain not null HyperlinkMouseOver.
 public IList<IHyperlinkContainer> GetHyperlinkMouseOvers()
 ```
 
-## Return Value
+### Return Value
 
 All IHyperlinkContainer subobjects that contain not null HyperlinkMouseOver
 

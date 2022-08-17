@@ -1,9 +1,9 @@
 ---
 title: MathSuperscriptElement
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Specifies the superscript object which consists of a base and a reduced-size superscript placed above and to the right
 type: docs
-weight: 8290
+weight: 8310
 url: /net/aspose.slides.mathtext/mathsuperscriptelement/
 ---
 ## MathSuperscriptElement class

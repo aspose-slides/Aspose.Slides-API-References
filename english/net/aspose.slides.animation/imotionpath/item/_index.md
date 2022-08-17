@@ -1,7 +1,7 @@
 ---
 title: Item
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns a command at the specified index.
 type: docs
 weight: 30
 url: /net/aspose.slides.animation/imotionpath/item/
@@ -18,7 +18,7 @@ public IMotionCmdPath this[int index] { get; }
 | --- | --- |
 | index |  |
 
-## Return Value
+### Return Value
 
 Command at specified index [`IMotionCmdPath`](../../imotioncmdpath)
 

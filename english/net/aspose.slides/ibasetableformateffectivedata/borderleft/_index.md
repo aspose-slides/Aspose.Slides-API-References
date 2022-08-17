@@ -1,7 +1,7 @@
 ---
 title: BorderLeft
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns left border line format effective value. Read-only ILineFormatEffectiveDataaspose.slides/ilineformateffectivedata.
 type: docs
 weight: 40
 url: /net/aspose.slides/ibasetableformateffectivedata/borderleft/

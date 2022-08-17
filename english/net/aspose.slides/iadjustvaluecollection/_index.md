@@ -1,9 +1,9 @@
 ---
 title: IAdjustValueCollection
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Reprasents a collection of shapes adjustments.
 type: docs
-weight: 4710
+weight: 4730
 url: /net/aspose.slides/iadjustvaluecollection/
 ---
 ## IAdjustValueCollection interface

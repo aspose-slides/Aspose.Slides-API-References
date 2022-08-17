@@ -1,7 +1,7 @@
 ---
 title: FillFormat
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the FillFormat object that contains fill formatting properties for a shape. Note can return null for certain types of shapes which dont have fill properties. Read-only IFillFormataspose.slides/ifillformat.
 type: docs
 weight: 70
 url: /net/aspose.slides/shape/fillformat/

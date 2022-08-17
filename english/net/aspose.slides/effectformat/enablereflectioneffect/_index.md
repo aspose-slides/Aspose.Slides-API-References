@@ -1,7 +1,7 @@
 ---
 title: EnableReflectionEffect
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Enables reflection effect.
 type: docs
 weight: 230
 url: /net/aspose.slides/effectformat/enablereflectioneffect/

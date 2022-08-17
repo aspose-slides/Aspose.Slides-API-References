@@ -1,7 +1,7 @@
 ---
 title: PieSplitCustomPoints
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: The custom split information for a pie-of-pie or bar-of-pie chart with a custom split. Contains data points that shall be drawn in the second pie or bar in a pie-of-pie or bar-of-pie chart. Read-only IPieSplitCustomPointCollectionaspose.slides.charts/ipiesplitcustompointcollection.
 type: docs
 weight: 140
 url: /net/aspose.slides.charts/ichartseriesgroup/piesplitcustompoints/

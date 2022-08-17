@@ -1,7 +1,7 @@
 ---
 title: SlideViewProperties
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Specifies common view properties associated with the slide view mode. Read-only ICommonSlideViewPropertiesaspose.slides/icommonslideviewproperties.
 type: docs
 weight: 50
 url: /net/aspose.slides/iviewproperties/slideviewproperties/

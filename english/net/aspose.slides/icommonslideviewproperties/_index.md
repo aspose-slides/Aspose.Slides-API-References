@@ -1,9 +1,9 @@
 ---
 title: ICommonSlideViewProperties
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents common slide view properties.
 type: docs
-weight: 5100
+weight: 5120
 url: /net/aspose.slides/icommonslideviewproperties/
 ---
 ## ICommonSlideViewProperties interface

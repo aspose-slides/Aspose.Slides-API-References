@@ -1,7 +1,7 @@
 ---
 title: Time
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents time value. Read/write Single.
 type: docs
 weight: 20
 url: /net/aspose.slides.animation/ipoint/time/

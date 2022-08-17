@@ -1,7 +1,7 @@
 ---
 title: DateTime12
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Current date and time in a twelfth predefined format hhmm AM/PM for english. Read-only FieldTypeaspose.slides/fieldtype.
 type: docs
 weight: 60
 url: /net/aspose.slides/fieldtype/datetime12/

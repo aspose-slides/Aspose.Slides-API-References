@@ -1,7 +1,7 @@
 ---
 title: GetCellCollection
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Gets the set of cells.
 type: docs
 weight: 50
 url: /net/aspose.slides.charts/ichartdataworkbook/getcellcollection/
@@ -19,7 +19,7 @@ public IChartCellCollection GetCellCollection(string formula, bool skipHiddenCel
 | formula | String | Excel formula like "Sheet1!$A$2:$A$5". |
 | skipHiddenCells | Boolean | If true then method returns collection without hidden cells. |
 
-## Return Value
+### Return Value
 
 Set of cells [`IChartCellCollection`](../../ichartcellcollection)
 

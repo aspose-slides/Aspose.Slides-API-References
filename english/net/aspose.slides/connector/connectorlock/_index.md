@@ -1,7 +1,7 @@
 ---
 title: ConnectorLock
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns connectors locks. Read-only IConnectorLockaspose.slides/iconnectorlock.
 type: docs
 weight: 10
 url: /net/aspose.slides/connector/connectorlock/

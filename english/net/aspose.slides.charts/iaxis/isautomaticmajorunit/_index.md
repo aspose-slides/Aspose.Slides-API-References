@@ -1,7 +1,7 @@
 ---
 title: IsAutomaticMajorUnit
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Indicates whether the major unit of the axis is automatically assigned. Read/write Boolean.
 type: docs
 weight: 180
 url: /net/aspose.slides.charts/iaxis/isautomaticmajorunit/

@@ -1,7 +1,7 @@
 ---
 title: Disable3DText
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Determines whether the 3D text is disabled in SVG. Read/write Boolean.
 type: docs
 weight: 60
 url: /net/aspose.slides.export/svgoptions/disable3dtext/

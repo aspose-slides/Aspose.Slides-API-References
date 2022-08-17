@@ -1,7 +1,7 @@
 ---
 title: CapStyle
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets the line cap style. Read/write LineCapStyleaspose.slides/linecapstyle.
 type: docs
 weight: 60
 url: /net/aspose.slides/ilineformat/capstyle/

@@ -1,7 +1,7 @@
 ---
 title: Global
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns global storage of the host document. Read-only Storageaspose.slides.export.web/storage.
 type: docs
 weight: 10
 url: /net/aspose.slides.export.web/templatecontext-1/global/

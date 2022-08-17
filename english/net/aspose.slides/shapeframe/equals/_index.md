@@ -1,12 +1,12 @@
 ---
 title: Equals
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns a value indicating whether this instance is equal to a specified object.
 type: docs
 weight: 140
 url: /net/aspose.slides/shapeframe/equals/
 ---
-## ShapeFrame.Equals method (1 of 2)
+## Equals(object) {#equals_1}
 
 Returns a value indicating whether this instance is equal to a specified object.
 
@@ -18,7 +18,7 @@ public override bool Equals(object obj)
 | --- | --- | --- |
 | obj | Object | The object to compare with this instance. |
 
-## Return Value
+### Return Value
 
 **True** if obj is a ShapeFrame that has the same value as this instance; otherwise, **false**.
 
@@ -30,7 +30,7 @@ public override bool Equals(object obj)
 
 ---
 
-## ShapeFrame.Equals method (2 of 2)
+## Equals(ShapeFrame) {#equals}
 
 Returns a value indicating whether this instance is equal to a specified object.
 
@@ -42,7 +42,7 @@ public bool Equals(ShapeFrame value)
 | --- | --- | --- |
 | value | ShapeFrame | The ShapeFRameEx to compare with this instance. |
 
-## Return Value
+### Return Value
 
 **True** if value is a ShapeFrame that has the same value as this instance; otherwise, **false**.
 

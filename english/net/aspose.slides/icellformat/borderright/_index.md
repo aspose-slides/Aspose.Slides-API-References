@@ -1,7 +1,7 @@
 ---
 title: BorderRight
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns a right border line properties object. Read-only ILineFormataspose.slides/ilineformat.
 type: docs
 weight: 50
 url: /net/aspose.slides/icellformat/borderright/

@@ -1,7 +1,7 @@
 ---
 title: GetEffective
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Gets effective background data with the inheritance applied.
 type: docs
 weight: 80
 url: /net/aspose.slides/ibackground/geteffective/
@@ -14,7 +14,7 @@ Gets effective background data with the inheritance applied.
 public IBackgroundEffectiveData GetEffective()
 ```
 
-## Return Value
+### Return Value
 
 A [`IBackgroundEffectiveData`](../../ibackgroundeffectivedata).
 

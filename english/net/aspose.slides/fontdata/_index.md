@@ -1,9 +1,9 @@
 ---
 title: FontData
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents a font definition. Immutable.
 type: docs
-weight: 4380
+weight: 4400
 url: /net/aspose.slides/fontdata/
 ---
 ## FontData class

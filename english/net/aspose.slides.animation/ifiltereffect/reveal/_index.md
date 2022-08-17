@@ -1,7 +1,7 @@
 ---
 title: Reveal
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents that effect with behavior must reveal in/out Read/write FilterEffectRevealTypeaspose.slides.animation/filtereffectrevealtype.
 type: docs
 weight: 20
 url: /net/aspose.slides.animation/ifiltereffect/reveal/

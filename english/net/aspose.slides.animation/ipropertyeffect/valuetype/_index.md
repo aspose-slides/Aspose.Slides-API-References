@@ -1,7 +1,7 @@
 ---
 title: ValueType
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Specifies the type of a property value. Read/write PropertyValueTypeaspose.slides.animation/propertyvaluetype.
 type: docs
 weight: 70
 url: /net/aspose.slides.animation/ipropertyeffect/valuetype/

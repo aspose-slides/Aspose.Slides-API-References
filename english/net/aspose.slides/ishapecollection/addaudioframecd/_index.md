@@ -1,7 +1,7 @@
 ---
 title: AddAudioFrameCD
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Adds an AudioFrame with CD to the end of collection.
 type: docs
 weight: 30
 url: /net/aspose.slides/ishapecollection/addaudioframecd/
@@ -21,7 +21,7 @@ public IAudioFrame AddAudioFrameCD(float x, float y, float width, float height)
 | width | Single | Width of a new audio frame. |
 | height | Single | Height of a new audio frame. |
 
-## Return Value
+### Return Value
 
 Created AudioFrame object.
 

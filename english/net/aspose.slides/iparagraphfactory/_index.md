@@ -1,9 +1,9 @@
 ---
 title: IParagraphFactory
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Allows to create paragraphs
 type: docs
-weight: 6020
+weight: 6040
 url: /net/aspose.slides/iparagraphfactory/
 ---
 ## IParagraphFactory interface
@@ -18,8 +18,8 @@ public interface IParagraphFactory
 
 | Name | Description |
 | --- | --- |
-| [CreateParagraph](../../aspose.slides/iparagraphfactory/createparagraph)() | Creates a new empty paragraph. |
-| [CreateParagraph](../../aspose.slides/iparagraphfactory/createparagraph)(IParagraph) | Creates a new paragraph with specified paragraph data using. |
+| [CreateParagraph](../../aspose.slides/iparagraphfactory/createparagraph#createparagraph)() | Creates a new empty paragraph. |
+| [CreateParagraph](../../aspose.slides/iparagraphfactory/createparagraph#createparagraph_1)(IParagraph) | Creates a new paragraph with specified paragraph data using. |
 
 ### Remarks
 

@@ -1,7 +1,7 @@
 ---
 title: AsCell
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets IChartDataCell object. If category is multi-level then used IChartDataCell object for level 0. Read/write IChartDataCellaspose.slides.charts/ichartdatacell.
 type: docs
 weight: 10
 url: /net/aspose.slides.charts/chartcategory/ascell/

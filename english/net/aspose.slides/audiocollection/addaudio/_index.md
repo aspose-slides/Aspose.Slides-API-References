@@ -1,12 +1,12 @@
 ---
 title: AddAudio
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Adds a copy of an audio file from an another presentation.
 type: docs
 weight: 50
 url: /net/aspose.slides/audiocollection/addaudio/
 ---
-## AudioCollection.AddAudio method (1 of 4)
+## AddAudio(IAudio) {#addaudio}
 
 Adds a copy of an audio file from an another presentation.
 
@@ -18,7 +18,7 @@ public IAudio AddAudio(IAudio audio)
 | --- | --- | --- |
 | audio | IAudio | Source audio. |
 
-## Return Value
+### Return Value
 
 Added audio.
 
@@ -31,7 +31,7 @@ Added audio.
 
 ---
 
-## AudioCollection.AddAudio method (2 of 4)
+## AddAudio(Stream) {#addaudio_2}
 
 Creates and adds a audio to a presentation from stream.
 
@@ -43,7 +43,7 @@ public IAudio AddAudio(Stream stream)
 | --- | --- | --- |
 | stream | Stream | Stream to add audio from. |
 
-## Return Value
+### Return Value
 
 Added audio.
 
@@ -56,7 +56,7 @@ Added audio.
 
 ---
 
-## AudioCollection.AddAudio method (3 of 4)
+## AddAudio(Stream, LoadingStreamBehavior) {#addaudio_3}
 
 Creates and adds a audio to a presentation from stream.
 
@@ -69,7 +69,7 @@ public IAudio AddAudio(Stream stream, LoadingStreamBehavior loadingStreamBehavio
 | stream | Stream | Stream to add video audio from. |
 | loadingStreamBehavior | LoadingStreamBehavior | The behavior which will be applied to the stream. |
 
-## Return Value
+### Return Value
 
 Added audio.
 
@@ -83,7 +83,7 @@ Added audio.
 
 ---
 
-## AudioCollection.AddAudio method (4 of 4)
+## AddAudio(byte[]) {#addaudio_1}
 
 Creates and adds a audio to a presentation from byte array.
 
@@ -95,7 +95,7 @@ public IAudio AddAudio(byte[] audioData)
 | --- | --- | --- |
 | audioData | Byte[] | Audio bytes. |
 
-## Return Value
+### Return Value
 
 Added audio.
 

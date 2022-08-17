@@ -1,7 +1,7 @@
 ---
 title: WrapText
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: True if text is wrapped at TextFrames margins. Read/write NullableBoolaspose.slides/nullablebool.
 type: docs
 weight: 160
 url: /net/aspose.slides/itextframeformat/wraptext/

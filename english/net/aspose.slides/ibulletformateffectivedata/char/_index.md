@@ -1,7 +1,7 @@
 ---
 title: Char
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the bullet char of a paragraph. Read-only Char.
 type: docs
 weight: 20
 url: /net/aspose.slides/ibulletformateffectivedata/char/

@@ -1,7 +1,7 @@
 ---
 title: Line
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns line style properties of an axis. Read-only ILineFormataspose.slides/ilineformat.
 type: docs
 weight: 30
 url: /net/aspose.slides.charts/iaxisformat/line/

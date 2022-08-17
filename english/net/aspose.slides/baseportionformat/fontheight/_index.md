@@ -1,7 +1,7 @@
 ---
 title: FontHeight
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets the font height of a portion. float.NaN means height is undefined and should be inherited from the Master. Read/write Single.
 type: docs
 weight: 80
 url: /net/aspose.slides/baseportionformat/fontheight/

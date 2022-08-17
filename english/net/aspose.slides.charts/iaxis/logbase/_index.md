@@ -1,7 +1,7 @@
 ---
 title: LogBase
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents the logarithmic base. Default value is 10. Read/write Double.
 type: docs
 weight: 330
 url: /net/aspose.slides.charts/iaxis/logbase/

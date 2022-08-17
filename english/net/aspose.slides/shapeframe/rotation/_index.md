@@ -1,7 +1,7 @@
 ---
 title: Rotation
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the number of degrees a frame is rotated around the z-axis. A positive value indicates clockwise rotation a negative value indicates counterclockwise rotation. Read-only Single.
 type: docs
 weight: 80
 url: /net/aspose.slides/shapeframe/rotation/

@@ -1,7 +1,7 @@
 ---
 title: TempFilesRootPath
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents the root path on the filesystem where the temporary files will be stored. System temorary directory will be used by default.
 type: docs
 weight: 50
 url: /net/aspose.slides/blobmanagementoptions/tempfilesrootpath/

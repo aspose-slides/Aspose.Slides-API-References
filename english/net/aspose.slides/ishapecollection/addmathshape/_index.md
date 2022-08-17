@@ -1,7 +1,7 @@
 ---
 title: AddMathShape
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates a new AutoShape of the type Rectangle to host mathematical content inside and adds it to the end of the collection.
 type: docs
 weight: 110
 url: /net/aspose.slides/ishapecollection/addmathshape/
@@ -21,7 +21,7 @@ public IAutoShape AddMathShape(float x, float y, float width, float height)
 | width | Single | The width of shape's frame. |
 | height | Single | The height of shape's frame. |
 
-## Return Value
+### Return Value
 
 Created AutoShape object.
 

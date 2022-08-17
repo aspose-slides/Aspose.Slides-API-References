@@ -1,7 +1,7 @@
 ---
 title: Direction
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Specifies which direction to cycle the hue around the color wheel. Read/write ColorDirectionaspose.slides.animation/colordirection.
 type: docs
 weight: 40
 url: /net/aspose.slides.animation/icoloreffect/direction/

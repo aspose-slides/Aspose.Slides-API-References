@@ -1,7 +1,7 @@
 ---
 title: RemoveUnused
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Removes unused layout slides layout slides whose HasDependingSlides is false.
 type: docs
 weight: 40
 url: /net/aspose.slides/ilayoutslidecollection/removeunused/

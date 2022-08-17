@@ -1,7 +1,7 @@
 ---
 title: DestFont
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Font to use for substitution. Read-only IFontDataaspose.slides/ifontdata.
 type: docs
 weight: 20
 url: /net/aspose.slides/fontsubstrule/destfont/

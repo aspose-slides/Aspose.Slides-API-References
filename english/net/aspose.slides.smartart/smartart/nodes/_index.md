@@ -1,7 +1,7 @@
 ---
 title: Nodes
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns collections of root nodes in SmartArt object. Read-only ISmartArtNodeCollectionaspose.slides.smartart/ismartartnodecollection.
 type: docs
 weight: 50
 url: /net/aspose.slides.smartart/smartart/nodes/

@@ -1,7 +1,7 @@
 ---
 title: BeginArrowheadWidth
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the arrowhead width at the beginning of a line. Read-only LineArrowheadWidthaspose.slides/linearrowheadwidth.
 type: docs
 weight: 50
 url: /net/aspose.slides/ilineformateffectivedata/beginarrowheadwidth/

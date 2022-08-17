@@ -1,12 +1,12 @@
 ---
 title: ResponsiveHtmlController
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates new instance
 type: docs
 weight: 10
 url: /net/aspose.slides.export/responsivehtmlcontroller/responsivehtmlcontroller/
 ---
-## ResponsiveHtmlController constructor (1 of 2)
+## ResponsiveHtmlController() {#constructor}
 
 Creates new instance
 
@@ -22,7 +22,7 @@ public ResponsiveHtmlController()
 
 ---
 
-## ResponsiveHtmlController constructor (2 of 2)
+## ResponsiveHtmlController(IHtmlFormattingController) {#constructor_1}
 
 Creates new instance
 

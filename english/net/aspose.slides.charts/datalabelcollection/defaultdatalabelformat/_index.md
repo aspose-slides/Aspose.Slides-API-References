@@ -1,7 +1,7 @@
 ---
 title: DefaultDataLabelFormat
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Gets the default data label format. Read-only IDataLabelFormataspose.slides.charts/idatalabelformat.
 type: docs
 weight: 40
 url: /net/aspose.slides.charts/datalabelcollection/defaultdatalabelformat/

@@ -1,9 +1,9 @@
 ---
 title: ChartPlotArea
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents rectangle where chart should be plotted.
 type: docs
-weight: 1280
+weight: 1300
 url: /net/aspose.slides.charts/chartplotarea/
 ---
 ## ChartPlotArea class

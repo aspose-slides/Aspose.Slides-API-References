@@ -1,7 +1,7 @@
 ---
 title: Equals
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Determines whether the specified Reflectionaspose.slides.effects/reflection is equal to the current Reflectionaspose.slides.effects/reflection.
 type: docs
 weight: 150
 url: /net/aspose.slides.effects/reflection/equals/
@@ -18,7 +18,7 @@ public override bool Equals(object obj)
 | --- | --- | --- |
 | obj | Object | The [`Reflection`](../../reflection) to compare. |
 
-## Return Value
+### Return Value
 
 true if objects are equal; otherwise, false.
 

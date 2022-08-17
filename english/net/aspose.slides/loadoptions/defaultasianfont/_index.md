@@ -1,7 +1,7 @@
 ---
 title: DefaultAsianFont
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets Asian font used in case source font is not found. Read/write String.
 type: docs
 weight: 30
 url: /net/aspose.slides/loadoptions/defaultasianfont/

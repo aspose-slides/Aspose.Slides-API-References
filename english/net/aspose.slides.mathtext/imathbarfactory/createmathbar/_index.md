@@ -1,12 +1,12 @@
 ---
 title: CreateMathBar
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Create a math bar by applying to the element
 type: docs
 weight: 10
 url: /net/aspose.slides.mathtext/imathbarfactory/createmathbar/
 ---
-## IMathBarFactory.CreateMathBar method (1 of 2)
+## CreateMathBar(IMathElement) {#createmathbar}
 
 Create a math bar by applying to the element
 
@@ -18,7 +18,7 @@ public IMathBar CreateMathBar(IMathElement element)
 | --- | --- | --- |
 | element | IMathElement | math element to apply bar |
 
-## Return Value
+### Return Value
 
 new math bar element
 
@@ -32,7 +32,7 @@ new math bar element
 
 ---
 
-## IMathBarFactory.CreateMathBar method (2 of 2)
+## CreateMathBar(IMathElement, MathTopBotPositions) {#createmathbar_1}
 
 Create a math bar by applying to the element
 
@@ -45,7 +45,7 @@ public IMathBar CreateMathBar(IMathElement element, MathTopBotPositions position
 | element | IMathElement | Math element to apply bar |
 | position | MathTopBotPositions | Position of the bar |
 
-## Return Value
+### Return Value
 
 new math bar element
 

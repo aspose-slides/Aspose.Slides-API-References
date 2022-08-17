@@ -1,7 +1,7 @@
 ---
 title: SecondaryCategories
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Gets the secondary categories if UseSecondaryCategoriesaspose.slides.charts/ichartdata/usesecondarycategories property is true. Read-only IChartCategoryCollectionaspose.slides.charts/ichartcategorycollection.
 type: docs
 weight: 50
 url: /net/aspose.slides.charts/ichartdata/secondarycategories/

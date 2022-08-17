@@ -1,7 +1,7 @@
 ---
 title: CreateVbaProject
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates new VBA project.
 type: docs
 weight: 30
 url: /net/aspose.slides.vba/vbaprojectfactory/createvbaproject/
@@ -14,7 +14,7 @@ Creates new VBA project.
 public IVbaProject CreateVbaProject()
 ```
 
-## Return Value
+### Return Value
 
 New VBA project
 

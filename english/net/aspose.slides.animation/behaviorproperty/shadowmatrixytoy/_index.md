@@ -1,7 +1,7 @@
 ---
 title: ShadowMatrixYtoY
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents shadow.matrix.ytoy property
 type: docs
 weight: 670
 url: /net/aspose.slides.animation/behaviorproperty/shadowmatrixytoy/

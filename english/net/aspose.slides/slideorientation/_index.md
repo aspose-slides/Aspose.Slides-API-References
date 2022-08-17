@@ -1,9 +1,9 @@
 ---
 title: SlideOrientation
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents the slide orientation.
 type: docs
-weight: 9220
+weight: 9240
 url: /net/aspose.slides/slideorientation/
 ---
 ## SlideOrientation enumeration
@@ -14,7 +14,7 @@ Represents the slide orientation.
 public enum SlideOrientation
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -1,7 +1,7 @@
 ---
 title: CopyTo
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Copies videos to specified array starting from specified index.
 type: docs
 weight: 60
 url: /net/aspose.slides/videocollection/copyto/

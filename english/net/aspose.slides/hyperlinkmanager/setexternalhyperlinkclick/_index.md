@@ -1,7 +1,7 @@
 ---
 title: SetExternalHyperlinkClick
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Set external hyperlink on click.
 type: docs
 weight: 30
 url: /net/aspose.slides/hyperlinkmanager/setexternalhyperlinkclick/

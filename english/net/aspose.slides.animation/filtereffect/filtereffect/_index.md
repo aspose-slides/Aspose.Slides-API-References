@@ -1,7 +1,7 @@
 ---
 title: FilterEffect
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Default constructor.
 type: docs
 weight: 10
 url: /net/aspose.slides.animation/filtereffect/filtereffect/

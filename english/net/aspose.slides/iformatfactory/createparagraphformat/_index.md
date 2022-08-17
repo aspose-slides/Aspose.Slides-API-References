@@ -1,7 +1,7 @@
 ---
 title: CreateParagraphFormat
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates new IParagraphFormataspose.slides/iparagraphformat.
 type: docs
 weight: 10
 url: /net/aspose.slides/iformatfactory/createparagraphformat/
@@ -14,7 +14,7 @@ Creates new [`IParagraphFormat`](../../iparagraphformat).
 public IParagraphFormat CreateParagraphFormat()
 ```
 
-## Return Value
+### Return Value
 
 New paragraph format.
 

@@ -1,7 +1,7 @@
 ---
 title: DateTime
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Current date and time in default date time format for the rendering application. Read-only FieldTypeaspose.slides/fieldtype.
 type: docs
 weight: 20
 url: /net/aspose.slides/fieldtype/datetime/

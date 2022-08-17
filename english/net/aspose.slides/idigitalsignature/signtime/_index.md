@@ -1,7 +1,7 @@
 ---
 title: SignTime
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: The time when the document was signed. Read-only DateTime.
 type: docs
 weight: 40
 url: /net/aspose.slides/idigitalsignature/signtime/

@@ -1,7 +1,7 @@
 ---
 title: Initials
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets the authors initials. Read/write String.
 type: docs
 weight: 20
 url: /net/aspose.slides/commentauthor/initials/

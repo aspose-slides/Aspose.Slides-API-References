@@ -1,7 +1,7 @@
 ---
 title: Effect3D
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns 3D format of a chart. Read-only IThreeDFormataspose.slides/ithreedformat.
 type: docs
 weight: 20
 url: /net/aspose.slides.charts/iformat/effect3d/

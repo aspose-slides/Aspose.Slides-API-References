@@ -1,7 +1,7 @@
 ---
 title: BorderBottom
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns bottom border line format effective value. Read-only ILineFormatEffectiveDataaspose.slides/ilineformateffectivedata.
 type: docs
 weight: 10
 url: /net/aspose.slides/ibasetableformateffectivedata/borderbottom/

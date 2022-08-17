@@ -1,9 +1,9 @@
 ---
 title: LineArrowheadStyle
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents the style of an arrowhead.
 type: docs
-weight: 7040
+weight: 7060
 url: /net/aspose.slides/linearrowheadstyle/
 ---
 ## LineArrowheadStyle enumeration
@@ -14,7 +14,7 @@ Represents the style of an arrowhead.
 public enum LineArrowheadStyle : sbyte
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

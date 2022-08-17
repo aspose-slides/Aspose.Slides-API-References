@@ -1,7 +1,7 @@
 ---
 title: Remove
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Removes the first occurrence of a specific FallBack font from the list.
 type: docs
 weight: 80
 url: /net/aspose.slides/ifontfallbackrule/remove/

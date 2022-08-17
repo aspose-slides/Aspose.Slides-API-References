@@ -1,7 +1,7 @@
 ---
 title: Dispose
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Disposes object.
 type: docs
 weight: 90
 url: /net/aspose.slides/ppimage/dispose/

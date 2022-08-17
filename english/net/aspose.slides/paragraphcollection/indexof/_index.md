@@ -1,7 +1,7 @@
 ---
 title: IndexOf
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Determines the index of a specific item in the IList.
 type: docs
 weight: 110
 url: /net/aspose.slides/paragraphcollection/indexof/
@@ -18,7 +18,7 @@ public int IndexOf(IParagraph item)
 | --- | --- | --- |
 | item | IParagraph | The object to locate in the IList. |
 
-## Return Value
+### Return Value
 
 The index of *item* if found in the list; otherwise, -1.
 

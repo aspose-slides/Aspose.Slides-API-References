@@ -1,7 +1,7 @@
 ---
 title: RawValue
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets ajustment value as is. Read/write Int64.
 type: docs
 weight: 30
 url: /net/aspose.slides/adjustvalue/rawvalue/

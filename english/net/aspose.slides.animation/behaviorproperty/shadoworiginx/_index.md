@@ -1,7 +1,7 @@
 ---
 title: ShadowOriginX
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents shadow.origin.x property
 type: docs
 weight: 740
 url: /net/aspose.slides.animation/behaviorproperty/shadoworiginx/

@@ -1,7 +1,7 @@
 ---
 title: ShowMeanMarkers
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents mean markers. True if mean markers are shown on the BoxAndWhisker chart. Applies only to BoxAndWhisker charts. Read/write Boolean.
 type: docs
 weight: 400
 url: /net/aspose.slides.charts/chartseries/showmeanmarkers/

@@ -1,7 +1,7 @@
 ---
 title: ParentSlide
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns a ParentSlide Read-only ISlideaspose.slides/islide.
 type: docs
 weight: 50
 url: /net/aspose.slides/inotesslide/parentslide/

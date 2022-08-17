@@ -1,12 +1,12 @@
 ---
 title: ToSvg
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Converts Presentationaspose.slides/presentation to SVG.
 type: docs
 weight: 30
 url: /net/aspose.slides.lowcode/convert/tosvg/
 ---
-## Convert.ToSvg method (1 of 5)
+## ToSvg(string) {#tosvg_3}
 
 Converts [`Presentation`](../../../aspose.slides/presentation) to SVG.
 
@@ -32,7 +32,7 @@ Convert.ToSvg("pres.pptx");
 
 ---
 
-## Convert.ToSvg method (2 of 5)
+## ToSvg(string, GetOutPathCallback) {#tosvg_4}
 
 Converts [`Presentation`](../../../aspose.slides/presentation) to SVG.
 
@@ -60,7 +60,7 @@ Convert.ToSvg("pres.pptx", (slide, index) => $"pres_{index}-out.svg");
 
 ---
 
-## Convert.ToSvg method (3 of 5)
+## ToSvg(Presentation, GetOutPathCallback) {#tosvg_1}
 
 Converts [`Presentation`](../../../aspose.slides/presentation) to SVG.
 
@@ -92,7 +92,7 @@ using (Presentation pres = new Presentation("input.pptx"))
 
 ---
 
-## Convert.ToSvg method (4 of 5)
+## ToSvg(Presentation, ISVGOptions) {#tosvg}
 
 Converts [`Presentation`](../../../aspose.slides/presentation) to SVG.
 
@@ -124,7 +124,7 @@ using (Presentation pres = new Presentation("input.pptx"))
 
 ---
 
-## Convert.ToSvg method (5 of 5)
+## ToSvg(Presentation, GetOutPathCallback, ISVGOptions) {#tosvg_2}
 
 Converts [`Presentation`](../../../aspose.slides/presentation) to SVG.
 

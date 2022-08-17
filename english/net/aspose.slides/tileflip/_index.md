@@ -1,9 +1,9 @@
 ---
 title: TileFlip
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Defines tile flipping mode.
 type: docs
-weight: 10690
+weight: 10740
 url: /net/aspose.slides/tileflip/
 ---
 ## TileFlip enumeration
@@ -14,7 +14,7 @@ Defines tile flipping mode.
 public enum TileFlip
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

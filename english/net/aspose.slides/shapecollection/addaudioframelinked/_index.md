@@ -1,7 +1,7 @@
 ---
 title: AddAudioFrameLinked
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Adds a new audio frame with linked audio file to the end of a collection.
 type: docs
 weight: 80
 url: /net/aspose.slides/shapecollection/addaudioframelinked/
@@ -22,7 +22,7 @@ public IAudioFrame AddAudioFrameLinked(float x, float y, float width, float heig
 | height | Single | Height of a new audio frame. |
 | fname | String | Audio file name. |
 
-## Return Value
+### Return Value
 
 Created AudioFrame object.
 

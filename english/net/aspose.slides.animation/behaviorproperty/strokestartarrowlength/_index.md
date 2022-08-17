@@ -1,7 +1,7 @@
 ---
 title: StrokeStartArrowLength
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents stroke.startArrowLength property
 type: docs
 weight: 1020
 url: /net/aspose.slides.animation/behaviorproperty/strokestartarrowlength/

@@ -1,12 +1,12 @@
 ---
 title: AxesCompositionNotCombinableException
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Default constructor.
 type: docs
 weight: 10
 url: /net/aspose.slides.charts/axescompositionnotcombinableexception/axescompositionnotcombinableexception/
 ---
-## AxesCompositionNotCombinableException constructor (1 of 3)
+## AxesCompositionNotCombinableException() {#constructor}
 
 Default constructor.
 
@@ -22,7 +22,7 @@ public AxesCompositionNotCombinableException()
 
 ---
 
-## AxesCompositionNotCombinableException constructor (2 of 3)
+## AxesCompositionNotCombinableException(string) {#constructor_1}
 
 Constructor allowing a message to be added to this exception.
 
@@ -42,7 +42,7 @@ public AxesCompositionNotCombinableException(string message)
 
 ---
 
-## AxesCompositionNotCombinableException constructor (3 of 3)
+## AxesCompositionNotCombinableException(string, Exception) {#constructor_2}
 
 Constructor for an exception containing a message and an embedded exception.
 

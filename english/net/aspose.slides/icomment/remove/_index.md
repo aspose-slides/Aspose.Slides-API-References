@@ -1,7 +1,7 @@
 ---
 title: Remove
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Removes comment and all its replies from the parent collection.
 type: docs
 weight: 70
 url: /net/aspose.slides/icomment/remove/

@@ -1,7 +1,7 @@
 ---
 title: Order
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the order of a series. Read/write Int32.
 type: docs
 weight: 260
 url: /net/aspose.slides.charts/ichartseries/order/

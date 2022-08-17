@@ -1,7 +1,7 @@
 ---
 title: AsLiteralString
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets the literal string if DataSourceType property is DataSourceType.StringLiterals. Read/write String.
 type: docs
 weight: 30
 url: /net/aspose.slides.charts/istringordoublechartvalue/asliteralstring/

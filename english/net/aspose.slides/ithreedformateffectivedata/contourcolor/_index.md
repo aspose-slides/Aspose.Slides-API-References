@@ -1,7 +1,7 @@
 ---
 title: ContourColor
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the color of a contour. Read-only Color.
 type: docs
 weight: 50
 url: /net/aspose.slides/ithreedformateffectivedata/contourcolor/

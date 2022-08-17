@@ -1,7 +1,7 @@
 ---
 title: IsFooterVisible
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Gets value indicating that a footer placeholder is present. Read Boolean.
 type: docs
 weight: 20
 url: /net/aspose.slides/baseslideheaderfootermanager/isfootervisible/

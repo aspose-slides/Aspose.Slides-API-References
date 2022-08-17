@@ -1,7 +1,7 @@
 ---
 title: BinaryData
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the copy of an images data. Read-only Byte.
 type: docs
 weight: 10
 url: /net/aspose.slides/ippimage/binarydata/

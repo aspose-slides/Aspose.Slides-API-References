@@ -1,7 +1,7 @@
 ---
 title: Enclose
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Encloses a math element in specified characters such as parenthesis or another characters as framing
 type: docs
 weight: 90
 url: /net/aspose.slides.mathtext/mathdelimiter/enclose/
@@ -19,7 +19,7 @@ public override IMathDelimiter Enclose(char beginningCharacter, char endingChara
 | beginningCharacter | Char | Beginning character (usually left bracket) |
 | endingCharacter | Char | Ending character (usually right bracket) |
 
-## Return Value
+### Return Value
 
 If *beginningCharacter* and *endingCharacter* are null, corresponding properties are assigned values only and no new object is created (returns this instance). Otherwise, returns new math element of type Delimiter which includes specified characters as framing and this instance of [`MathDelimiter`](../../mathdelimiter) framed inside.
 

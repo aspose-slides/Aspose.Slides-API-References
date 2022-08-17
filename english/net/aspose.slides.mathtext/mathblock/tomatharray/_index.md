@@ -1,7 +1,7 @@
 ---
 title: ToMathArray
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Puts child elements in a vertical array
 type: docs
 weight: 180
 url: /net/aspose.slides.mathtext/mathblock/tomatharray/
@@ -14,7 +14,7 @@ Puts child elements in a vertical array
 public override IMathArray ToMathArray()
 ```
 
-## Return Value
+### Return Value
 
 New instance of type [`IMathArray`](../../imatharray)
 

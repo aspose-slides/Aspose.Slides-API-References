@@ -1,7 +1,7 @@
 ---
 title: WebDocument
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: WebDocumentaspose.slides.export.web/webdocument constructor.
 type: docs
 weight: 10
 url: /net/aspose.slides.export.web/webdocument/webdocument/
@@ -18,7 +18,7 @@ public WebDocument(WebDocumentOptions options)
 | --- | --- | --- |
 | options | WebDocumentOptions | Options set for the document. |
 
-## Return Value
+### Return Value
 
 A new instance of [`WebDocument`](../../webdocument).
 

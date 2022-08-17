@@ -1,7 +1,7 @@
 ---
 title: Luminance
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns luminance percentage. Read-only Single.
 type: docs
 weight: 30
 url: /net/aspose.slides.effects/ihsleffectivedata/luminance/

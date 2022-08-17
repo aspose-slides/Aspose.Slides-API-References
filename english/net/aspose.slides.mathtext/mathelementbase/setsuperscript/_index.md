@@ -1,12 +1,12 @@
 ---
 title: SetSuperscript
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates superscript
 type: docs
 weight: 160
 url: /net/aspose.slides.mathtext/mathelementbase/setsuperscript/
 ---
-## MathElementBase.SetSuperscript method (1 of 2)
+## SetSuperscript(IMathElement) {#setsuperscript}
 
 Creates superscript
 
@@ -18,7 +18,7 @@ public IMathSuperscriptElement SetSuperscript(IMathElement superscript)
 | --- | --- | --- |
 | superscript | IMathElement | Superscript (upper index on the right) |
 
-## Return Value
+### Return Value
 
 New math element of type [`IMathSuperscriptElement`](../../imathsuperscriptelement)
 
@@ -43,7 +43,7 @@ IMathSuperscriptElement superscript = element.SetSuperscript(index);
 
 ---
 
-## MathElementBase.SetSuperscript method (2 of 2)
+## SetSuperscript(string) {#setsuperscript_1}
 
 Creates superscript
 
@@ -55,7 +55,7 @@ public IMathSuperscriptElement SetSuperscript(string superscript)
 | --- | --- | --- |
 | superscript | String | Superscript (upper index on the right) |
 
-## Return Value
+### Return Value
 
 New math element of type [`IMathSuperscriptElement`](../../imathsuperscriptelement)
 

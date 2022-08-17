@@ -1,7 +1,7 @@
 ---
 title: Slide
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the base slide. Read-only IBaseSlideaspose.slides/ibaseslide.
 type: docs
 weight: 20
 url: /net/aspose.slides/islidecomponent/slide/

@@ -1,7 +1,7 @@
 ---
 title: ResolveUri
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Resolves the absolute URI from the base and relative URIs.
 type: docs
 weight: 20
 url: /net/aspose.slides.import/iexternalresourceresolver/resolveuri/
@@ -19,7 +19,7 @@ public string ResolveUri(string baseUri, string relativeUri)
 | baseUri | String | Base URI of linking objects |
 | relativeUri | String | Relative URI to the linked object. |
 
-## Return Value
+### Return Value
 
 Absolute URI or null if the relative URI cannot be resolved.
 

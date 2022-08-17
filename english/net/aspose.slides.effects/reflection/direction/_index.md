@@ -1,7 +1,7 @@
 ---
 title: Direction
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Direction of reflection. Read/write Single.
 type: docs
 weight: 20
 url: /net/aspose.slides.effects/reflection/direction/

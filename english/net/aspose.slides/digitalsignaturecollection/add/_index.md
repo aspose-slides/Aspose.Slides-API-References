@@ -1,7 +1,7 @@
 ---
 title: Add
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Adds the signature at the end of collection.
 type: docs
 weight: 50
 url: /net/aspose.slides/digitalsignaturecollection/add/

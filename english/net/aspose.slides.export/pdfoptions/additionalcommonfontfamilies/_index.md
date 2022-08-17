@@ -1,7 +1,7 @@
 ---
 title: AdditionalCommonFontFamilies
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets an array of user-defined names of font families which Aspose.Slides should consider common. Read/write String.
 type: docs
 weight: 30
 url: /net/aspose.slides.export/pdfoptions/additionalcommonfontfamilies/

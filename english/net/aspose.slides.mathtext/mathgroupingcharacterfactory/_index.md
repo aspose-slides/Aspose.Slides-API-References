@@ -1,9 +1,9 @@
 ---
 title: MathGroupingCharacterFactory
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Allows to create a math grouping character
 type: docs
-weight: 8050
+weight: 8070
 url: /net/aspose.slides.mathtext/mathgroupingcharacterfactory/
 ---
 ## MathGroupingCharacterFactory class
@@ -24,8 +24,8 @@ public class MathGroupingCharacterFactory : IMathGroupingCharacterFactory
 
 | Name | Description |
 | --- | --- |
-| [CreateMathGroupingCharacter](../../aspose.slides.mathtext/mathgroupingcharacterfactory/createmathgroupingcharacter)(IMathElement) | Creates a math grouping character |
-| [CreateMathGroupingCharacter](../../aspose.slides.mathtext/mathgroupingcharacterfactory/createmathgroupingcharacter)(IMathElement, char, MathTopBotPositions, MathTopBotPositions) | Creates a math grouping character |
+| [CreateMathGroupingCharacter](../../aspose.slides.mathtext/mathgroupingcharacterfactory/createmathgroupingcharacter#createmathgroupingcharacter)(IMathElement) | Creates a math grouping character |
+| [CreateMathGroupingCharacter](../../aspose.slides.mathtext/mathgroupingcharacterfactory/createmathgroupingcharacter#createmathgroupingcharacter_1)(IMathElement, char, MathTopBotPositions, MathTopBotPositions) | Creates a math grouping character |
 
 ### Remarks
 

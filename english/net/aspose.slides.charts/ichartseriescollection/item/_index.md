@@ -1,7 +1,7 @@
 ---
 title: Item
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Gets the element at the specified index.
 type: docs
 weight: 10
 url: /net/aspose.slides.charts/ichartseriescollection/item/
@@ -14,7 +14,7 @@ Gets the element at the specified index.
 public IChartSeries this[int index] { get; }
 ```
 
-## Return Value
+### Return Value
 
 The element at the specified index.
 

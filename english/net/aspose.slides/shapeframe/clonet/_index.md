@@ -1,7 +1,7 @@
 ---
 title: CloneT
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Clones.
 type: docs
 weight: 130
 url: /net/aspose.slides/shapeframe/clonet/
@@ -14,7 +14,7 @@ Clones.
 public IShapeFrame CloneT()
 ```
 
-## Return Value
+### Return Value
 
 Cloned shape frame.
 

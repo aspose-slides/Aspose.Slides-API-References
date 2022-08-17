@@ -1,7 +1,7 @@
 ---
 title: Format
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents format of axis. Read-only IAxisFormataspose.slides.charts/iaxisformat.
 type: docs
 weight: 160
 url: /net/aspose.slides.charts/iaxis/format/

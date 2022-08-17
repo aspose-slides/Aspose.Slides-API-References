@@ -1,7 +1,7 @@
 ---
 title: AddTextFrame
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Adds a new TextFrame to a shape. If shape already has TextFrame then simply changes its text.
 type: docs
 weight: 60
 url: /net/aspose.slides/autoshape/addtextframe/

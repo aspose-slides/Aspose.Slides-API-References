@@ -1,7 +1,7 @@
 ---
 title: DocumentProperties
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Initializes new instance of class DocumentPropertiesaspose.slides/documentproperties.
 type: docs
 weight: 10
 url: /net/aspose.slides/documentproperties/documentproperties/

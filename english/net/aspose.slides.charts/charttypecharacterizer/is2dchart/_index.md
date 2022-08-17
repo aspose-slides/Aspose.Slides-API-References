@@ -1,7 +1,7 @@
 ---
 title: Is2DChart
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Return true if chartType is one of 2D chart types.
 type: docs
 weight: 20
 url: /net/aspose.slides.charts/charttypecharacterizer/is2dchart/

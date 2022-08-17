@@ -1,7 +1,7 @@
 ---
 title: BlurEffect
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Blur effect. Read/write IBluraspose.slides.effects/iblur.
 type: docs
 weight: 20
 url: /net/aspose.slides/ieffectformat/blureffect/

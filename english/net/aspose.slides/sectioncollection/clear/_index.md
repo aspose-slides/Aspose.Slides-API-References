@@ -1,7 +1,7 @@
 ---
 title: Clear
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Removes all sections from the collection.
 type: docs
 weight: 80
 url: /net/aspose.slides/sectioncollection/clear/

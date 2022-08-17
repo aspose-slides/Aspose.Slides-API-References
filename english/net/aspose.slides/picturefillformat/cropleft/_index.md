@@ -1,7 +1,7 @@
 ---
 title: CropLeft
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets the number of percents of real image width that are cropped off the left of the picture. Read/write Single.
 type: docs
 weight: 20
 url: /net/aspose.slides/picturefillformat/cropleft/

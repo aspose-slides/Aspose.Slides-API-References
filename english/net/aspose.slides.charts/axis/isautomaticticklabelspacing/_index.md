@@ -1,7 +1,7 @@
 ---
 title: IsAutomaticTickLabelSpacing
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Specifies automatic tick label spacing value. If false use TickLabelSpacing property. Read/write Boolean.
 type: docs
 weight: 230
 url: /net/aspose.slides.charts/axis/isautomaticticklabelspacing/

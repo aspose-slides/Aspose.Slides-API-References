@@ -1,7 +1,7 @@
 ---
 title: HyperlinkQueries
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Provides easy access to contained hyperlinks. Read-only IHyperlinkQueriesaspose.slides/ihyperlinkqueries.
 type: docs
 weight: 10
 url: /net/aspose.slides/textframe/hyperlinkqueries/

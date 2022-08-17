@@ -1,7 +1,7 @@
 ---
 title: FileVersion
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Version of assembly file.
 type: docs
 weight: 20
 url: /net/aspose.slides/buildversioninfo/fileversion/

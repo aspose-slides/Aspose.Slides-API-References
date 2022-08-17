@@ -1,12 +1,12 @@
 ---
 title: SetTextFormat
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Sets defined portion format properties to all row cells portions.
 type: docs
 weight: 40
 url: /net/aspose.slides/row/settextformat/
 ---
-## Row.SetTextFormat method (1 of 3)
+## SetTextFormat(IPortionFormat) {#settextformat_1}
 
 Sets defined portion format properties to all row cells' portions.
 
@@ -27,7 +27,7 @@ public void SetTextFormat(IPortionFormat source)
 
 ---
 
-## Row.SetTextFormat method (2 of 3)
+## SetTextFormat(IParagraphFormat) {#settextformat}
 
 Sets defined paragraph format properties to all row cells' paragraphs.
 
@@ -48,7 +48,7 @@ public void SetTextFormat(IParagraphFormat source)
 
 ---
 
-## Row.SetTextFormat method (3 of 3)
+## SetTextFormat(ITextFrameFormat) {#settextformat_2}
 
 Sets defined text frame format properties to all row cells' text frames.
 

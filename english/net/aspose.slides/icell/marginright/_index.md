@@ -1,7 +1,7 @@
 ---
 title: MarginRight
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets the right margin in a TextFrame. Read/write Double.
 type: docs
 weight: 130
 url: /net/aspose.slides/icell/marginright/

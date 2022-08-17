@@ -1,7 +1,7 @@
 ---
 title: DateTime11
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Current date and time in a eleventh predefined format hhmmss for english. Read-only FieldTypeaspose.slides/fieldtype.
 type: docs
 weight: 50
 url: /net/aspose.slides/fieldtype/datetime11/

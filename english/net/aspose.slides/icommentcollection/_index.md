@@ -1,9 +1,9 @@
 ---
 title: ICommentCollection
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents a collection of comments of one author.
 type: docs
-weight: 5090
+weight: 5110
 url: /net/aspose.slides/icommentcollection/
 ---
 ## ICommentCollection interface
@@ -31,8 +31,8 @@ public interface ICommentCollection : IGenericCollection<IComment>
 | [InsertModernComment](../../aspose.slides/icommentcollection/insertmoderncomment)(int, string, ISlide, IShape, PointF, DateTime) | Insert new modern comment to a collection at the specified index. |
 | [Remove](../../aspose.slides/icommentcollection/remove)(IComment) | Removes the first occurrence of the specified comment in a collection. |
 | [RemoveAt](../../aspose.slides/icommentcollection/removeat)(int) | Removes the element at the specified index in a collection. |
-| [ToArray](../../aspose.slides/icommentcollection/toarray)() | Creates and returns an array with all comments. |
-| [ToArray](../../aspose.slides/icommentcollection/toarray)(int, int) | Creates and returns an array with all comments from the specified range. |
+| [ToArray](../../aspose.slides/icommentcollection/toarray#toarray)() | Creates and returns an array with all comments. |
+| [ToArray](../../aspose.slides/icommentcollection/toarray#toarray_1)(int, int) | Creates and returns an array with all comments from the specified range. |
 
 ### See Also
 

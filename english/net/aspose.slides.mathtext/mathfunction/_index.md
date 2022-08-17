@@ -1,9 +1,9 @@
 ---
 title: MathFunction
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Specifies a function of an argument.
 type: docs
-weight: 8000
+weight: 8020
 url: /net/aspose.slides.mathtext/mathfunction/
 ---
 ## MathFunction class
@@ -18,8 +18,8 @@ public sealed class MathFunction : MathElementBase, IMathFunction
 
 | Name | Description |
 | --- | --- |
-| [MathFunction](mathfunction)(IMathElement, IMathElement) | Initializes a new instance of the MathFunction class. |
-| [MathFunction](mathfunction)(string, IMathElement) | Initializes a new instance of the MathFunction class. |
+| [MathFunction](mathfunction#constructor)(IMathElement, IMathElement) | Initializes a new instance of the MathFunction class. |
+| [MathFunction](mathfunction#constructor_1)(string, IMathElement) | Initializes a new instance of the MathFunction class. |
 
 ## Properties
 

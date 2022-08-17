@@ -1,7 +1,7 @@
 ---
 title: SlideShowTransition
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the TransitionEx object which contains information about how the specified slide advances during a slide show. Read-only ISlideShowTransitionaspose.slides/islideshowtransition.
 type: docs
 weight: 100
 url: /net/aspose.slides/ibaseslide/slideshowtransition/

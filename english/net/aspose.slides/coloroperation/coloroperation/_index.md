@@ -1,12 +1,12 @@
 ---
 title: ColorOperation
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates new color transform operation.
 type: docs
 weight: 10
 url: /net/aspose.slides/coloroperation/coloroperation/
 ---
-## ColorOperation constructor (1 of 2)
+## ColorOperation(ColorTransformOperation) {#constructor}
 
 Creates new color transform operation.
 
@@ -27,7 +27,7 @@ public ColorOperation(ColorTransformOperation op)
 
 ---
 
-## ColorOperation constructor (2 of 2)
+## ColorOperation(ColorTransformOperation, float) {#constructor_1}
 
 Creates new color transform operation.
 

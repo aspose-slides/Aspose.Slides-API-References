@@ -1,7 +1,7 @@
 ---
 title: Portions
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the collection of a text portions. Read-only IPortionCollectionaspose.slides/iportioncollection.
 type: docs
 weight: 40
 url: /net/aspose.slides/paragraph/portions/

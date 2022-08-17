@@ -1,7 +1,7 @@
 ---
 title: BeginArrowheadLength
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the arrowhead length at the beginning of a line. Read-only LineArrowheadLengthaspose.slides/linearrowheadlength.
 type: docs
 weight: 30
 url: /net/aspose.slides/ilineformateffectivedata/beginarrowheadlength/

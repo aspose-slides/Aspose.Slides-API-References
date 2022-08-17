@@ -1,9 +1,9 @@
 ---
 title: IMathDelimiter
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Specifies the delimiter object consisting of opening and closing characters such as parentheses braces brackets and vertical bars and one or more mathematical elements inside separated by a specified character. Examples 2 2x7C2
 type: docs
-weight: 7500
+weight: 7520
 url: /net/aspose.slides.mathtext/imathdelimiter/
 ---
 ## IMathDelimiter interface

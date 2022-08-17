@@ -1,7 +1,7 @@
 ---
 title: Equals
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Determines whether the specified GradientStopEffectiveDataaspose.slides/gradientstopeffectivedata is equal to the current GradientStopEffectiveDataaspose.slides/gradientstopeffectivedata.
 type: docs
 weight: 30
 url: /net/aspose.slides/gradientstopeffectivedata/equals/
@@ -18,7 +18,7 @@ public override bool Equals(object obj)
 | --- | --- | --- |
 | obj | Object | The [`GradientStopEffectiveData`](../../gradientstopeffectivedata) to compare. |
 
-## Return Value
+### Return Value
 
 true if objects are equal; otherwise, false.
 

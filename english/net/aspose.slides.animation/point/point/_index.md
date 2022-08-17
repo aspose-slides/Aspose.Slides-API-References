@@ -1,12 +1,12 @@
 ---
 title: Point
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Default constructor.
 type: docs
 weight: 10
 url: /net/aspose.slides.animation/point/point/
 ---
-## Point constructor (1 of 2)
+## Point() {#constructor}
 
 Default constructor.
 
@@ -22,7 +22,7 @@ public Point()
 
 ---
 
-## Point constructor (2 of 2)
+## Point(float, object, string) {#constructor_1}
 
 Create animation point with time, value and formula.
 

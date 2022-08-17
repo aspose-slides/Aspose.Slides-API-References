@@ -1,9 +1,9 @@
 ---
 title: MathRightSubSuperscriptElement
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Specifies the Sub-Superscript object which consists of a base and a subscript and superscript placed to the right of the base.
 type: docs
-weight: 8230
+weight: 8250
 url: /net/aspose.slides.mathtext/mathrightsubsuperscriptelement/
 ---
 ## MathRightSubSuperscriptElement class

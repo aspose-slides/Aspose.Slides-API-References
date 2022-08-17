@@ -1,7 +1,7 @@
 ---
 title: Level
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns nesting level of the node. Read-only Int32.
 type: docs
 weight: 50
 url: /net/aspose.slides.smartart/ismartartnode/level/

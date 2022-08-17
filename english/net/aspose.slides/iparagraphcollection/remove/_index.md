@@ -1,7 +1,7 @@
 ---
 title: Remove
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Removes the first occurrence of a specific paragraph.
 type: docs
 weight: 100
 url: /net/aspose.slides/iparagraphcollection/remove/
@@ -18,7 +18,7 @@ public bool Remove(IParagraph item)
 | --- | --- | --- |
 | item | IParagraph | The paragraph to remove from collection. |
 
-## Return Value
+### Return Value
 
 true if *item* was successfully removed; otherwise, false.
 

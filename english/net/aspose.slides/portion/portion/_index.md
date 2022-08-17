@@ -1,12 +1,12 @@
 ---
 title: Portion
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Initializes a new instance of the Portion class.
 type: docs
 weight: 10
 url: /net/aspose.slides/portion/portion/
 ---
-## Portion constructor (1 of 3)
+## Portion() {#constructor}
 
 Initializes a new instance of the Portion class.
 
@@ -22,7 +22,7 @@ public Portion()
 
 ---
 
-## Portion constructor (2 of 3)
+## Portion(string) {#constructor_2}
 
 Initializes a new instance of the Portion class.
 
@@ -38,7 +38,7 @@ public Portion(string str)
 
 ---
 
-## Portion constructor (3 of 3)
+## Portion(Portion) {#constructor_1}
 
 Initializes a new instance of the Portion class.
 

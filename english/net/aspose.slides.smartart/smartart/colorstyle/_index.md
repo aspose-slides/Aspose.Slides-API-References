@@ -1,7 +1,7 @@
 ---
 title: ColorStyle
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets color style of SmartArt object. Read/write SmartArtColorTypeaspose.slides.smartart/smartartcolortype.
 type: docs
 weight: 20
 url: /net/aspose.slides.smartart/smartart/colorstyle/

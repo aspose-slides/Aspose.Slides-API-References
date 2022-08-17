@@ -1,7 +1,7 @@
 ---
 title: CreateGlow
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates Glow effect.
 type: docs
 weight: 20
 url: /net/aspose.slides.effects/ieffectfactory/createglow/
@@ -14,7 +14,7 @@ Creates Glow effect.
 public IGlow CreateGlow()
 ```
 
-## Return Value
+### Return Value
 
 Glow effect.
 

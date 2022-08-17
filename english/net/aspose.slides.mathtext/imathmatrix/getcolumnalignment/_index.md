@@ -1,7 +1,7 @@
 ---
 title: GetColumnAlignment
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Get the horizontal alignment of the specified column
 type: docs
 weight: 140
 url: /net/aspose.slides.mathtext/imathmatrix/getcolumnalignment/
@@ -18,7 +18,7 @@ public MathHorizontalAlignment GetColumnAlignment(int columnIndex)
 | --- | --- | --- |
 | columnIndex | Int32 | Zero-based column index |
 
-## Return Value
+### Return Value
 
 Horizontal Alignment of specified column
 

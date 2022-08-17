@@ -1,7 +1,7 @@
 ---
 title: AsCells
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets the collection of chart cells. Read/write IChartCellCollectionaspose.slides.charts/ichartcellcollection.
 type: docs
 weight: 10
 url: /net/aspose.slides.charts/imultiplecellchartvalue/ascells/

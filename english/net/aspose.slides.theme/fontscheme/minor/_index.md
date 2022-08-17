@@ -1,7 +1,7 @@
 ---
 title: Minor
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the fonts collection for a body part of the slide. Read-only IFontsaspose.slides/ifonts.
 type: docs
 weight: 20
 url: /net/aspose.slides.theme/fontscheme/minor/

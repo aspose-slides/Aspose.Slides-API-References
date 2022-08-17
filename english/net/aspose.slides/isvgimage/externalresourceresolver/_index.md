@@ -1,7 +1,7 @@
 ---
 title: ExternalResourceResolver
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Return callback interface used to resolve external resources during SVG documents import. Read-only IExternalResourceResolveraspose.slides.import/iexternalresourceresolver.
 type: docs
 weight: 20
 url: /net/aspose.slides/isvgimage/externalresourceresolver/

@@ -1,12 +1,12 @@
 ---
 title: MathBlock
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Initializes a new instance of the MathBlock class.
 type: docs
 weight: 10
 url: /net/aspose.slides.mathtext/mathblock/mathblock/
 ---
-## MathBlock constructor (1 of 3)
+## MathBlock() {#constructor}
 
 Initializes a new instance of the MathBlock class.
 
@@ -31,7 +31,7 @@ MathBlock mathBlock = new MathBlock();
 
 ---
 
-## MathBlock constructor (2 of 3)
+## MathBlock(IMathElement) {#constructor_1}
 
 Creates a new mathematical block and puts specified element in it
 
@@ -61,7 +61,7 @@ MathBlock mathBlock = new MathBlock(new MathematicalText("x"));
 
 ---
 
-## MathBlock constructor (3 of 3)
+## MathBlock(IEnumerable&lt;IMathElement&gt;) {#constructor_2}
 
 Creates a new mathematical block and puts specified elements in it
 

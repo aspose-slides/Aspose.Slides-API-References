@@ -1,7 +1,7 @@
 ---
 title: IndexOf
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Determines the index of a specific item in the IList.
 type: docs
 weight: 90
 url: /net/aspose.slides/portioncollection/indexof/
@@ -18,7 +18,7 @@ public int IndexOf(IPortion item)
 | --- | --- | --- |
 | item | IPortion | The object to locate in the IList. |
 
-## Return Value
+### Return Value
 
 The index of *item* if found in the list; otherwise, -1.
 

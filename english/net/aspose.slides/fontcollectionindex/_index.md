@@ -1,9 +1,9 @@
 ---
 title: FontCollectionIndex
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents fonts index in a collection.
 type: docs
-weight: 4370
+weight: 4390
 url: /net/aspose.slides/fontcollectionindex/
 ---
 ## FontCollectionIndex enumeration
@@ -14,7 +14,7 @@ Represents font's index in a collection.
 public enum FontCollectionIndex : byte
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -1,9 +1,9 @@
 ---
 title: IChartCategoryCollection
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents collection of IChartCategory./ichartcategory
 type: docs
-weight: 1620
+weight: 1640
 url: /net/aspose.slides.charts/ichartcategorycollection/
 ---
 ## IChartCategoryCollection interface
@@ -26,8 +26,8 @@ public interface IChartCategoryCollection : IGenericCollection<IChartCategory>
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.slides.charts/ichartcategorycollection/add)(IChartDataCell) | If category exists in collection, return it. Else creates new chart category from [`IChartDataCell`](../ichartdatacell) and adds it to the collection. |
-| [Add](../../aspose.slides.charts/ichartcategorycollection/add)(object) | Creates new [`IChartCategory`](../ichartcategory) from value and adds it to the collection. |
+| [Add](../../aspose.slides.charts/ichartcategorycollection/add#add)(IChartDataCell) | If category exists in collection, return it. Else creates new chart category from [`IChartDataCell`](../ichartdatacell) and adds it to the collection. |
+| [Add](../../aspose.slides.charts/ichartcategorycollection/add#add_1)(object) | Creates new [`IChartCategory`](../ichartcategory) from value and adds it to the collection. |
 | [Clear](../../aspose.slides.charts/ichartcategorycollection/clear)() | Removes all elements from the collection. |
 | [IndexOf](../../aspose.slides.charts/ichartcategorycollection/indexof)(IChartCategory) | Searches for the specified [`IChartCategory`](../ichartcategory) and returns the zero-based index of the first occurrence within the entire Collection |
 | [Remove](../../aspose.slides.charts/ichartcategorycollection/remove)(IChartCategory) | Removes the specified value. |

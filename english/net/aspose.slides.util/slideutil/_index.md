@@ -1,9 +1,9 @@
 ---
 title: SlideUtil
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Offer methods which help to search shapes and text in a presentation.
 type: docs
-weight: 10710
+weight: 10760
 url: /net/aspose.slides.util/slideutil/
 ---
 ## SlideUtil class
@@ -18,12 +18,12 @@ public static class SlideUtil
 
 | Name | Description |
 | --- | --- |
-| static [AlignShapes](../../aspose.slides.util/slideutil/alignshapes)(ShapesAlignmentType, bool, IBaseSlide) | Changes the placement of all shapes on the slide. Aligns shapes to the margins or the edge of the slide or align them relative to each other. |
-| static [AlignShapes](../../aspose.slides.util/slideutil/alignshapes)(ShapesAlignmentType, bool, IGroupShape) | Changes the placement of all shapes within group shape. Aligns shapes to the margins or the edge of the slide or align them relative to each other. |
-| static [AlignShapes](../../aspose.slides.util/slideutil/alignshapes)(ShapesAlignmentType, bool, IBaseSlide, int[]) | Changes the placement of selected shapes on the slide. Aligns shapes to the margins or the edge of the slide or align them relative to each other. |
-| static [AlignShapes](../../aspose.slides.util/slideutil/alignshapes)(ShapesAlignmentType, bool, IGroupShape, int[]) | Changes the placement of selected shapes within group shape. Aligns shapes to the margins or the edge of the slide or align them relative to each other. |
-| static [FindShape](../../aspose.slides.util/slideutil/findshape)(IBaseSlide, string) | Find shape by alternative text on a slide in a PPTX presentation. |
-| static [FindShape](../../aspose.slides.util/slideutil/findshape)(IPresentation, string) | Find shape by alternative text in a PPTX presentation. |
+| static [AlignShapes](../../aspose.slides.util/slideutil/alignshapes#alignshapes)(ShapesAlignmentType, bool, IBaseSlide) | Changes the placement of all shapes on the slide. Aligns shapes to the margins or the edge of the slide or align them relative to each other. |
+| static [AlignShapes](../../aspose.slides.util/slideutil/alignshapes#alignshapes_2)(ShapesAlignmentType, bool, IGroupShape) | Changes the placement of all shapes within group shape. Aligns shapes to the margins or the edge of the slide or align them relative to each other. |
+| static [AlignShapes](../../aspose.slides.util/slideutil/alignshapes#alignshapes_1)(ShapesAlignmentType, bool, IBaseSlide, int[]) | Changes the placement of selected shapes on the slide. Aligns shapes to the margins or the edge of the slide or align them relative to each other. |
+| static [AlignShapes](../../aspose.slides.util/slideutil/alignshapes#alignshapes_3)(ShapesAlignmentType, bool, IGroupShape, int[]) | Changes the placement of selected shapes within group shape. Aligns shapes to the margins or the edge of the slide or align them relative to each other. |
+| static [FindShape](../../aspose.slides.util/slideutil/findshape#findshape)(IBaseSlide, string) | Find shape by alternative text on a slide in a PPTX presentation. |
+| static [FindShape](../../aspose.slides.util/slideutil/findshape#findshape_1)(IPresentation, string) | Find shape by alternative text in a PPTX presentation. |
 | static [GetAllTextBoxes](../../aspose.slides.util/slideutil/getalltextboxes)(IBaseSlide) | Returns all text frames on a slide in a PPTX presentation. |
 | static [GetAllTextFrames](../../aspose.slides.util/slideutil/getalltextframes)(IPresentation, bool) | Returns all text frames in a PPTX presentation. |
 

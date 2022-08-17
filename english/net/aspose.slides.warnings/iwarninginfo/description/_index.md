@@ -1,7 +1,7 @@
 ---
 title: Description
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns a human readable description of this warning. Read-only String.
 type: docs
 weight: 10
 url: /net/aspose.slides.warnings/iwarninginfo/description/

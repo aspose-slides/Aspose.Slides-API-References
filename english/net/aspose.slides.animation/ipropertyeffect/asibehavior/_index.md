@@ -1,7 +1,7 @@
 ---
 title: AsIBehavior
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Allows to get base IBehavior interface. Read-only IBehavioraspose.slides.animation/ibehavior.
 type: docs
 weight: 10
 url: /net/aspose.slides.animation/ipropertyeffect/asibehavior/

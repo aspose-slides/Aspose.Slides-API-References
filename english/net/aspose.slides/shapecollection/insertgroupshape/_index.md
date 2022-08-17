@@ -1,7 +1,7 @@
 ---
 title: InsertGroupShape
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates a new GroupShape and inserts it to the collection at the specified index. GroupShape frame size and position will be fitted to content when new shape will be added into the GroupShape.
 type: docs
 weight: 340
 url: /net/aspose.slides/shapecollection/insertgroupshape/
@@ -18,7 +18,7 @@ public IGroupShape InsertGroupShape(int index)
 | --- | --- | --- |
 | index | Int32 | The zero-based index at which value should be inserted. |
 
-## Return Value
+### Return Value
 
 Created GroupShape object.
 

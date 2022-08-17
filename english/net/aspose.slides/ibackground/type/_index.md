@@ -1,7 +1,7 @@
 ---
 title: Type
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns a type of background fill. Read/write BackgroundTypeaspose.slides/backgroundtype.
 type: docs
 weight: 70
 url: /net/aspose.slides/ibackground/type/

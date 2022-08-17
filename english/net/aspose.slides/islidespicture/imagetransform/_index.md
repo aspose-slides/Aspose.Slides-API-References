@@ -1,7 +1,7 @@
 ---
 title: ImageTransform
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the collection of image transform effects. Read-only IImageTransformOperationCollectionaspose.slides.effects/iimagetransformoperationcollection.
 type: docs
 weight: 30
 url: /net/aspose.slides/islidespicture/imagetransform/

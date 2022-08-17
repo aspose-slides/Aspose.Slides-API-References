@@ -1,7 +1,7 @@
 ---
 title: Line
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns line style properties of a chart. Read-only ILineFormataspose.slides/ilineformat.
 type: docs
 weight: 40
 url: /net/aspose.slides.charts/iformat/line/

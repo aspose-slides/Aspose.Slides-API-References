@@ -1,12 +1,12 @@
 ---
 title: Divide
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates a fraction with this numerator and specified denominator
 type: docs
 weight: 30
 url: /net/aspose.slides.mathtext/imathelement/divide/
 ---
-## IMathElement.Divide method (1 of 4)
+## Divide(IMathElement) {#divide}
 
 Creates a fraction with this numerator and specified denominator
 
@@ -18,7 +18,7 @@ public IMathFraction Divide(IMathElement denominator)
 | --- | --- | --- |
 | denominator | IMathElement | Denominator |
 
-## Return Value
+### Return Value
 
 new fraction
 
@@ -42,7 +42,7 @@ IMathFraction fraction = numerator.Divide(denumerator);
 
 ---
 
-## IMathElement.Divide method (2 of 4)
+## Divide(string) {#divide_2}
 
 Creates a fraction with this numerator and specified denominator
 
@@ -54,7 +54,7 @@ public IMathFraction Divide(string denominator)
 | --- | --- | --- |
 | denominator | String | Denominator |
 
-## Return Value
+### Return Value
 
 new fraction
 
@@ -77,7 +77,7 @@ IMathFraction fraction = numerator.Divide("y");
 
 ---
 
-## IMathElement.Divide method (3 of 4)
+## Divide(IMathElement, MathFractionTypes) {#divide_1}
 
 Creates a fraction of the specified type with this numerator and specified denominator
 
@@ -90,7 +90,7 @@ public IMathFraction Divide(IMathElement denominator, MathFractionTypes fraction
 | denominator | IMathElement | Denominator |
 | fractionType | MathFractionTypes | Fraction type: Bar, NoBar, Skewed, Linear |
 
-## Return Value
+### Return Value
 
 new fraction
 
@@ -115,7 +115,7 @@ IMathFraction fraction = numerator.Divide(denumerator, MathFractionTypes.Linear)
 
 ---
 
-## IMathElement.Divide method (4 of 4)
+## Divide(string, MathFractionTypes) {#divide_3}
 
 Creates a fraction of the specified type with this numerator and specified denominator
 
@@ -128,7 +128,7 @@ public IMathFraction Divide(string denominator, MathFractionTypes fractionType)
 | denominator | String | Denominator |
 | fractionType | MathFractionTypes | Fraction type: Bar, NoBar, Skewed, Linear |
 
-## Return Value
+### Return Value
 
 new fraction
 

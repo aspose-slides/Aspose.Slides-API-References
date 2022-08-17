@@ -1,9 +1,9 @@
 ---
 title: PPImage
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents an image in a presentation.
 type: docs
-weight: 8520
+weight: 8540
 url: /net/aspose.slides/ppimage/
 ---
 ## PPImage class
@@ -33,9 +33,9 @@ public class PPImage : IDisposable, IPPImage
 | --- | --- |
 | [Dispose](../../aspose.slides/ppimage/dispose)() | Disposes object. |
 | override [GetHashCode](../../aspose.slides/ppimage/gethashcode)() | Returns the hash code of an image. |
-| [ReplaceImage](../../aspose.slides/ppimage/replaceimage)(byte[]) | Replaces image data. The new image's data.When newImageData parameter is null. |
-| [ReplaceImage](../../aspose.slides/ppimage/replaceimage)(Image) | Replaces image data. Attention: when Image is metafile - it will be rasterized due to restrictions of GDI+. Use ReplaceImage(byte[]) instead The new image.When newImage parameter is null. |
-| [ReplaceImage](../../aspose.slides/ppimage/replaceimage)(IPPImage) | Replaces image data. The new IPPImage.When newImage parameter is null. |
+| [ReplaceImage](../../aspose.slides/ppimage/replaceimage#replaceimage_1)(byte[]) | Replaces image data. The new image's data.When newImageData parameter is null. |
+| [ReplaceImage](../../aspose.slides/ppimage/replaceimage#replaceimage_2)(Image) | Replaces image data. Attention: when Image is metafile - it will be rasterized due to restrictions of GDI+. Use ReplaceImage(byte[]) instead The new image.When newImage parameter is null. |
+| [ReplaceImage](../../aspose.slides/ppimage/replaceimage#replaceimage)(IPPImage) | Replaces image data. The new IPPImage.When newImage parameter is null. |
 
 ### See Also
 

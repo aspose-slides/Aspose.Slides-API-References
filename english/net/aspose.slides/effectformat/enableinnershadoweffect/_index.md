@@ -1,7 +1,7 @@
 ---
 title: EnableInnerShadowEffect
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Enables inner shadow effect.
 type: docs
 weight: 200
 url: /net/aspose.slides/effectformat/enableinnershadoweffect/

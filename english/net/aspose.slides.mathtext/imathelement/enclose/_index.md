@@ -1,12 +1,12 @@
 ---
 title: Enclose
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Encloses a math element in parenthesis
 type: docs
 weight: 40
 url: /net/aspose.slides.mathtext/imathelement/enclose/
 ---
-## IMathElement.Enclose method (1 of 2)
+## Enclose() {#enclose}
 
 Encloses a math element in parenthesis
 
@@ -14,7 +14,7 @@ Encloses a math element in parenthesis
 public IMathDelimiter Enclose()
 ```
 
-## Return Value
+### Return Value
 
 The math element of type [`IMathDelimiter`](../../imathdelimiter) which includes the parenthesis
 
@@ -37,7 +37,7 @@ IMathDelimiter delimiter = element.Enclose();
 
 ---
 
-## IMathElement.Enclose method (2 of 2)
+## Enclose(char, char) {#enclose_1}
 
 Encloses this element in specified characters such as parenthesis or another characters as framing
 
@@ -50,7 +50,7 @@ public IMathDelimiter Enclose(char beginningCharacter, char endingCharacter)
 | beginningCharacter | Char | Beginning character (usually left bracket) |
 | endingCharacter | Char | Ending character (usually right bracket) |
 
-## Return Value
+### Return Value
 
 The math element of type [`IMathDelimiter`](../../imathdelimiter) which includes specified characters as framing
 

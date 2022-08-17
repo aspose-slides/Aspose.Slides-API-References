@@ -1,7 +1,7 @@
 ---
 title: EnableFillOverlayEffect
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Enables fill overlay effect.
 type: docs
 weight: 180
 url: /net/aspose.slides/effectformat/enablefilloverlayeffect/

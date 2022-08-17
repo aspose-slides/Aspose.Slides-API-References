@@ -1,7 +1,7 @@
 ---
 title: Color2
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns target color format for light pixels. Read-only IColorFormataspose.slides/icolorformat.
 type: docs
 weight: 20
 url: /net/aspose.slides.effects/duotone/color2/

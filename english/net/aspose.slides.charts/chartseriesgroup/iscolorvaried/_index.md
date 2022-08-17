@@ -1,7 +1,7 @@
 ---
 title: IsColorVaried
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Specifies that each data marker in the series has a different color. Read/write Boolean.
 type: docs
 weight: 100
 url: /net/aspose.slides.charts/chartseriesgroup/iscolorvaried/

@@ -1,9 +1,9 @@
 ---
 title: INormalViewProperties
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents normal view properties. The normal view consists of three content regions the slide itself a side content region and a bottom content region.
 type: docs
-weight: 5910
+weight: 5930
 url: /net/aspose.slides/inormalviewproperties/
 ---
 ## INormalViewProperties interface

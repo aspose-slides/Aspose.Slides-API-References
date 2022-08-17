@@ -1,7 +1,7 @@
 ---
 title: CenterY
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the Y coordinate of a frames center. Read-only Single.
 type: docs
 weight: 20
 url: /net/aspose.slides/ishapeframe/centery/

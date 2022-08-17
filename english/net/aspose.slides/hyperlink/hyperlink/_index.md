@@ -1,12 +1,12 @@
 ---
 title: Hyperlink
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates an instance of a hyperlink.
 type: docs
 weight: 10
 url: /net/aspose.slides/hyperlink/hyperlink/
 ---
-## Hyperlink constructor (1 of 3)
+## Hyperlink(string) {#constructor_2}
 
 Creates an instance of a hyperlink.
 
@@ -26,7 +26,7 @@ public Hyperlink(string url)
 
 ---
 
-## Hyperlink constructor (2 of 3)
+## Hyperlink(ISlide) {#constructor_1}
 
 Creates an instance of a hyperlink which points to specific slide. Note: created hyperlink should be assigned to some object from the same presentation, otherwise link will be saved as NoAction.
 
@@ -47,7 +47,7 @@ public Hyperlink(ISlide slide)
 
 ---
 
-## Hyperlink constructor (3 of 3)
+## Hyperlink(Hyperlink, string, string, bool, bool, bool) {#constructor}
 
 Creates an instance of a hyperlink using another hyperlink as source, overriding secondary properties.
 

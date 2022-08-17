@@ -1,7 +1,7 @@
 ---
 title: CreatePortionFormat
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates new IPortionFormataspose.slides/iportionformat.
 type: docs
 weight: 40
 url: /net/aspose.slides/formatfactory/createportionformat/
@@ -14,7 +14,7 @@ Creates new [`IPortionFormat`](../../iportionformat).
 public IPortionFormat CreatePortionFormat()
 ```
 
-## Return Value
+### Return Value
 
 New portion format.
 

@@ -1,7 +1,7 @@
 ---
 title: Depth
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets depth of the paragraph. Value 0 means undefined value. Read/write Int16.
 type: docs
 weight: 50
 url: /net/aspose.slides/iparagraphformat/depth/

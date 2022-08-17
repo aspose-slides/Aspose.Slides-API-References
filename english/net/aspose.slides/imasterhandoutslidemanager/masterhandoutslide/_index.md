@@ -1,7 +1,7 @@
 ---
 title: MasterHandoutSlide
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns a master for all notes slides of this presentation if there is one otherwise returns null. Read-only IMasterHandoutSlideaspose.slides/imasterhandoutslide.
 type: docs
 weight: 10
 url: /net/aspose.slides/imasterhandoutslidemanager/masterhandoutslide/

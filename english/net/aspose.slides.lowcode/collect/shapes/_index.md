@@ -1,7 +1,7 @@
 ---
 title: Shapes
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Collects all instances of Shapeaspose.slides/shape in the Presentationaspose.slides/presentation.
 type: docs
 weight: 10
 url: /net/aspose.slides.lowcode/collect/shapes/
@@ -18,7 +18,7 @@ public static IEnumerable<Shape> Shapes(Presentation pres)
 | --- | --- | --- |
 | pres | Presentation | Presentation to collect shapes |
 
-## Return Value
+### Return Value
 
 Collection of all shapes that contain in the presentation
 

@@ -1,7 +1,7 @@
 ---
 title: Symbol
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents the marker style in a line chart scatter chart or radar chart. Read/write MarkerStyleTypeaspose.slides.charts/markerstyletype.
 type: docs
 weight: 30
 url: /net/aspose.slides.charts/imarker/symbol/

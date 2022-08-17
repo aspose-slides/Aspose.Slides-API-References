@@ -1,9 +1,9 @@
 ---
 title: ReturnAction
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents warning callback decision options.
 type: docs
-weight: 11010
+weight: 11060
 url: /net/aspose.slides.warnings/returnaction/
 ---
 ## ReturnAction enumeration
@@ -14,7 +14,7 @@ Represents warning callback decision options.
 public enum ReturnAction
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

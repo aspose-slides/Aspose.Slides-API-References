@@ -1,7 +1,7 @@
 ---
 title: InsertColumnBefore
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Insert a new column before the specified one Initially all elements in the new column are null.
 type: docs
 weight: 160
 url: /net/aspose.slides.mathtext/imathmatrix/insertcolumnbefore/

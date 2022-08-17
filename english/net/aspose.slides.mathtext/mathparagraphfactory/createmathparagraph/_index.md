@@ -1,12 +1,12 @@
 ---
 title: CreateMathParagraph
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Create empty math paragraph
 type: docs
 weight: 20
 url: /net/aspose.slides.mathtext/mathparagraphfactory/createmathparagraph/
 ---
-## MathParagraphFactory.CreateMathParagraph method (1 of 2)
+## CreateMathParagraph() {#createmathparagraph}
 
 Create empty math paragraph
 
@@ -14,7 +14,7 @@ Create empty math paragraph
 public IMathParagraph CreateMathParagraph()
 ```
 
-## Return Value
+### Return Value
 
 new math paragraph
 
@@ -27,7 +27,7 @@ new math paragraph
 
 ---
 
-## MathParagraphFactory.CreateMathParagraph method (2 of 2)
+## CreateMathParagraph(IMathBlock) {#createmathparagraph_1}
 
 Creates a math paragraph and places the specified math block in it
 
@@ -39,7 +39,7 @@ public IMathParagraph CreateMathParagraph(IMathBlock mathBlock)
 | --- | --- | --- |
 | mathBlock | IMathBlock | math block to place in the paragraph |
 
-## Return Value
+### Return Value
 
 new math paragraph
 

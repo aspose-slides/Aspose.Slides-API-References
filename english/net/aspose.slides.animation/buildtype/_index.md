@@ -1,7 +1,7 @@
 ---
 title: BuildType
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Determines how text will appear on a shape during animation.
 type: docs
 weight: 110
 url: /net/aspose.slides.animation/buildtype/
@@ -14,7 +14,7 @@ Determines how text will appear on a shape during animation.
 public enum BuildType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

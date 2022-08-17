@@ -1,7 +1,7 @@
 ---
 title: ScaleHorizontal
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Specifies the horizontal scaling factor negative scaling causes a flip. Read/write Double.
 type: docs
 weight: 80
 url: /net/aspose.slides.effects/ioutershadow/scalehorizontal/

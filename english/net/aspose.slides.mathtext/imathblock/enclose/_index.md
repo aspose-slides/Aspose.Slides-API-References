@@ -1,7 +1,7 @@
 ---
 title: Enclose
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Encloses child elements of this block in specified characters such as parenthesis or another as framing and delimit with a separator character
 type: docs
 weight: 40
 url: /net/aspose.slides.mathtext/imathblock/enclose/
@@ -21,7 +21,7 @@ public IMathDelimiter Enclose(char beginningCharacter, char endingCharacter,
 | endingCharacter | Char | Ending character (usually right bracket) |
 | separatorCharacter | Char | Separator character |
 
-## Return Value
+### Return Value
 
 The math element of type [`IMathDelimiter`](../../imathdelimiter) which includes specified characters as framing and delimiter
 

@@ -1,9 +1,9 @@
 ---
 title: BaseThemeManager
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Base class for classes that provide access to different types of themes.
 type: docs
-weight: 10240
+weight: 10290
 url: /net/aspose.slides.theme/basethememanager/
 ---
 ## BaseThemeManager class

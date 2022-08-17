@@ -1,7 +1,7 @@
 ---
 title: BeginArrowheadStyle
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the arrowhead style at the beginning of a line. Read-only LineArrowheadStyleaspose.slides/linearrowheadstyle.
 type: docs
 weight: 40
 url: /net/aspose.slides/ilineformateffectivedata/beginarrowheadstyle/

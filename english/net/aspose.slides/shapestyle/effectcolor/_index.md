@@ -1,7 +1,7 @@
 ---
 title: EffectColor
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns a shapes effect color. Read-only IColorFormataspose.slides/icolorformat.
 type: docs
 weight: 10
 url: /net/aspose.slides/shapestyle/effectcolor/

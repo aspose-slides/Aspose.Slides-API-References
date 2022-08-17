@@ -1,7 +1,7 @@
 ---
 title: AsISaveOptions
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns ISaveOptions interface. Read-only ISaveOptionsaspose.slides.export/isaveoptions.
 type: docs
 weight: 10
 url: /net/aspose.slides.export/iswfoptions/asisaveoptions/

@@ -1,7 +1,7 @@
 ---
 title: CreateMathSubscriptElement
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates IMathSubscriptElement
 type: docs
 weight: 10
 url: /net/aspose.slides.mathtext/imathsubscriptelementfactory/createmathsubscriptelement/
@@ -20,7 +20,7 @@ public IMathSubscriptElement CreateMathSubscriptElement(IMathElement baseArg,
 | baseArg | IMathElement | Base argument to apply indexe |
 | subScript | IMathElement | lower right index |
 
-## Return Value
+### Return Value
 
 new IMathSubscriptElement
 

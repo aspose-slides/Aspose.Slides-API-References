@@ -1,7 +1,7 @@
 ---
 title: AddColorReplaceEffect
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Adds the new Color Replacement effect to the end of a collection.
 type: docs
 weight: 150
 url: /net/aspose.slides.effects/imagetransformoperationcollection/addcolorreplaceeffect/
@@ -14,7 +14,7 @@ Adds the new Color Replacement effect to the end of a collection.
 public IColorReplace AddColorReplaceEffect()
 ```
 
-## Return Value
+### Return Value
 
 Index of the new image effect in a collection.
 

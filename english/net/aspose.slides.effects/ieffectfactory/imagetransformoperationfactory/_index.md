@@ -1,7 +1,7 @@
 ---
 title: ImageTransformOperationFactory
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns ImageTransformOperationFactory. Read-only IImageTransformOperationFactoryaspose.slides.effects/iimagetransformoperationfactory.
 type: docs
 weight: 10
 url: /net/aspose.slides.effects/ieffectfactory/imagetransformoperationfactory/

@@ -1,9 +1,9 @@
 ---
 title: TextUnderlineType
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents the type of text underline.
 type: docs
-weight: 10200
+weight: 10250
 url: /net/aspose.slides/textunderlinetype/
 ---
 ## TextUnderlineType enumeration
@@ -14,7 +14,7 @@ Represents the type of text underline.
 public enum TextUnderlineType : sbyte
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

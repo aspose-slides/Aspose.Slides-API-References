@@ -1,7 +1,7 @@
 ---
 title: RemoveField
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Converts this field portion to the simple portion.
 type: docs
 weight: 80
 url: /net/aspose.slides/portion/removefield/

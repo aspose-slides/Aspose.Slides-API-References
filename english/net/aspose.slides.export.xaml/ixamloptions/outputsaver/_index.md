@@ -1,7 +1,7 @@
 ---
 title: OutputSaver
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents an implementation of IOutputSaver interface.
 type: docs
 weight: 30
 url: /net/aspose.slides.export.xaml/ixamloptions/outputsaver/

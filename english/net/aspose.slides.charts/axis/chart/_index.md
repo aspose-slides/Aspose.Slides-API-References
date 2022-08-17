@@ -1,7 +1,7 @@
 ---
 title: Chart
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the parent chart. Read-only IChartaspose.slides.charts/ichart.
 type: docs
 weight: 120
 url: /net/aspose.slides.charts/axis/chart/

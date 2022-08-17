@@ -1,7 +1,7 @@
 ---
 title: MinorUnit
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents the minor units for the date or value axis. Read/write Double.
 type: docs
 weight: 410
 url: /net/aspose.slides.charts/iaxis/minorunit/

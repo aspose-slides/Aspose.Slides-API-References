@@ -1,7 +1,7 @@
 ---
 title: GetEffective
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Gets effective Alpha Floor effect data with the inheritance applied.
 type: docs
 weight: 20
 url: /net/aspose.slides.effects/alphafloor/geteffective/
@@ -14,7 +14,7 @@ Gets effective Alpha Floor effect data with the inheritance applied.
 public IAlphaFloorEffectiveData GetEffective()
 ```
 
-## Return Value
+### Return Value
 
 A [`IAlphaFloorEffectiveData`](../../ialphaflooreffectivedata).
 

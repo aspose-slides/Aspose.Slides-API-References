@@ -1,7 +1,7 @@
 ---
 title: BorderTop
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns a top border line properties object. Read-only ILineFormataspose.slides/ilineformat.
 type: docs
 weight: 60
 url: /net/aspose.slides/cellformat/bordertop/

@@ -1,7 +1,7 @@
 ---
 title: GetRect
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Get coordinates of rect that bounds portion. The rect includes all the lines of text in portion including empty ones.
 type: docs
 weight: 70
 url: /net/aspose.slides/portion/getrect/

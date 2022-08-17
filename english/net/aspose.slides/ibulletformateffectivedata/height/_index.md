@@ -1,7 +1,7 @@
 ---
 title: Height
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the bullet height of a paragraph. Read-only Single.
 type: docs
 weight: 50
 url: /net/aspose.slides/ibulletformateffectivedata/height/

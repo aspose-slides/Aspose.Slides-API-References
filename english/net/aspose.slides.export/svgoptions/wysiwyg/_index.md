@@ -1,7 +1,7 @@
 ---
 title: WYSIWYG
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns settings for most accurate SVG file generation. Read-only SVGOptionsaspose.slides.export/svgoptions.
 type: docs
 weight: 40
 url: /net/aspose.slides.export/svgoptions/wysiwyg/

@@ -1,7 +1,7 @@
 ---
 title: SetAllFootersText
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Sets text to all footer placeholders including master slides layout slides and slides.
 type: docs
 weight: 40
 url: /net/aspose.slides/ipresentationheaderfootermanager/setallfooterstext/

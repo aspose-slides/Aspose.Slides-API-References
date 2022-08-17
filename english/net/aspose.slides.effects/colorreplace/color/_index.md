@@ -1,7 +1,7 @@
 ---
 title: Color
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns color format which will replace color of every pixel. Read-only IColorFormataspose.slides/icolorformat.
 type: docs
 weight: 10
 url: /net/aspose.slides.effects/colorreplace/color/

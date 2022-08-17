@@ -1,9 +1,9 @@
 ---
 title: ICommentAuthorCollection
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents a collection of comment authors.
 type: docs
-weight: 5080
+weight: 5100
 url: /net/aspose.slides/icommentauthorcollection/
 ---
 ## ICommentAuthorCollection interface

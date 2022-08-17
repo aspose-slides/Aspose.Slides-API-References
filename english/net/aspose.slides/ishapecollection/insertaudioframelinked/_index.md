@@ -1,7 +1,7 @@
 ---
 title: InsertAudioFrameLinked
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates a new audio frame with linked audio file and inserts it to a collection at the specified index.
 type: docs
 weight: 240
 url: /net/aspose.slides/ishapecollection/insertaudioframelinked/
@@ -24,7 +24,7 @@ public IAudioFrame InsertAudioFrameLinked(int index, float x, float y, float wid
 | height | Single | Height of a new audio frame. |
 | fname | String | Audio file name. |
 
-## Return Value
+### Return Value
 
 Created AudioFrame object.
 

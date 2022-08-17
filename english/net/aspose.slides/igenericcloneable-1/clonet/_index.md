@@ -1,7 +1,7 @@
 ---
 title: CloneT
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates a new object that is a copy of the current instance.
 type: docs
 weight: 20
 url: /net/aspose.slides/igenericcloneable-1/clonet/
@@ -14,7 +14,7 @@ Creates a new object that is a copy of the current instance.
 public T CloneT()
 ```
 
-## Return Value
+### Return Value
 
 A new object that is a copy of this instance.
 

@@ -1,7 +1,7 @@
 ---
 title: AsIBasePortionFormat
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns IBasePortionFormat interface.
 type: docs
 weight: 10
 url: /net/aspose.slides.charts/ichartportionformat/asibaseportionformat/

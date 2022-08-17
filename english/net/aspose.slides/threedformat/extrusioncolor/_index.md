@@ -1,7 +1,7 @@
 ---
 title: ExtrusionColor
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets the color of an extrusion. Read-only IColorFormataspose.slides/icolorformat.
 type: docs
 weight: 70
 url: /net/aspose.slides/threedformat/extrusioncolor/

@@ -1,7 +1,7 @@
 ---
 title: DisableFillOverlayEffect
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Disables fill overlay effect.
 type: docs
 weight: 110
 url: /net/aspose.slides/effectformat/disablefilloverlayeffect/

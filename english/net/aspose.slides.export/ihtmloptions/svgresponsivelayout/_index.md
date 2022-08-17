@@ -1,7 +1,7 @@
 ---
 title: SvgResponsiveLayout
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: True to exclude width and height attributes from SVG container - that will make layout responsive. False - otherwise. Read/write Boolean.
 type: docs
 weight: 90
 url: /net/aspose.slides.export/ihtmloptions/svgresponsivelayout/

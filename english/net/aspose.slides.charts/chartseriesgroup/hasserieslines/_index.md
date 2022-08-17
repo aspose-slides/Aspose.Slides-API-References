@@ -1,7 +1,7 @@
 ---
 title: HasSeriesLines
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: True if chart has series lines. Applied to stacked bar and OfPie charts. Read/write Boolean.
 type: docs
 weight: 80
 url: /net/aspose.slides.charts/chartseriesgroup/hasserieslines/

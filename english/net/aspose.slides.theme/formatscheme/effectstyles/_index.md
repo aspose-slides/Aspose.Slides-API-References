@@ -1,7 +1,7 @@
 ---
 title: EffectStyles
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns a collection of theme defined effect styles. Read-only IEffectStyleCollectionaspose.slides.theme/ieffectstylecollection.
 type: docs
 weight: 20
 url: /net/aspose.slides.theme/formatscheme/effectstyles/

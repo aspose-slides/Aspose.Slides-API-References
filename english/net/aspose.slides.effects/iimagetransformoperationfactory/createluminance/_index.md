@@ -1,7 +1,7 @@
 ---
 title: CreateLuminance
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Createtes Luminance effect.
 type: docs
 weight: 160
 url: /net/aspose.slides.effects/iimagetransformoperationfactory/createluminance/
@@ -19,7 +19,7 @@ public ILuminance CreateLuminance(float brightness, float contrast)
 | brightness | Single | Brightness. |
 | contrast | Single | Contrast. |
 
-## Return Value
+### Return Value
 
 Luminance effect.
 

@@ -1,7 +1,7 @@
 ---
 title: UseCells
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: If true then worksheet is used for storing categories this case supports a multi-level categories. If false then worksheet is NOT used for storing values and this case doesnt support a multi-level categories. Read/write Boolean.
 type: docs
 weight: 60
 url: /net/aspose.slides.charts/chartcategorycollection/usecells/

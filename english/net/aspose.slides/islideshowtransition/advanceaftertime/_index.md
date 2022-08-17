@@ -1,9 +1,9 @@
 ---
 title: AdvanceAfterTime
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Specifies the time in milliseconds after which the transition should start. This setting may be used in conjunction with the advClick attribute. If this attribute is not specified then it is assumed that no auto-advance will occur. Read-write UInt32.
 type: docs
-weight: 10
+weight: 20
 url: /net/aspose.slides/islideshowtransition/advanceaftertime/
 ---
 ## ISlideShowTransition.AdvanceAfterTime property

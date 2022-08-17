@@ -1,7 +1,7 @@
 ---
 title: RemoveUnusedMasterSlides
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Makes compression of the Presentationaspose.slides/presentation by removing unused master slides.
 type: docs
 weight: 20
 url: /net/aspose.slides.lowcode/compress/removeunusedmasterslides/

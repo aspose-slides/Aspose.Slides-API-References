@@ -1,7 +1,7 @@
 ---
 title: FloatB
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets the blue component of a color. All color transformations are ignored. Read/write Single.
 type: docs
 weight: 60
 url: /net/aspose.slides/icolorformat/floatb/

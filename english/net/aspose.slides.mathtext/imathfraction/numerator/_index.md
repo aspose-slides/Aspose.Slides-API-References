@@ -1,7 +1,7 @@
 ---
 title: Numerator
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Numerator
 type: docs
 weight: 40
 url: /net/aspose.slides.mathtext/imathfraction/numerator/

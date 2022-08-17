@@ -1,7 +1,7 @@
 ---
 title: ShowCategoryName
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents a specified charts data label category name display behavior. True to display the category name for the data labels on a chart. False to hide. Read/write Boolean.
 type: docs
 weight: 80
 url: /net/aspose.slides.charts/idatalabelformat/showcategoryname/

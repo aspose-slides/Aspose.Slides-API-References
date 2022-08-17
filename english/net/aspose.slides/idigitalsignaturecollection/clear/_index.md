@@ -1,7 +1,7 @@
 ---
 title: Clear
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Removes all signatures from collection.
 type: docs
 weight: 30
 url: /net/aspose.slides/idigitalsignaturecollection/clear/

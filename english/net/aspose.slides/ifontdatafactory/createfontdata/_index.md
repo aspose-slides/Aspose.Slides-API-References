@@ -1,7 +1,7 @@
 ---
 title: CreateFontData
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates FontData with specified font name.
 type: docs
 weight: 10
 url: /net/aspose.slides/ifontdatafactory/createfontdata/
@@ -18,7 +18,7 @@ public IFontData CreateFontData(string fontName)
 | --- | --- | --- |
 | fontName | String | Font name |
 
-## Return Value
+### Return Value
 
 FontData
 

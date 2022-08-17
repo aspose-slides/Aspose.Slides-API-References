@@ -1,12 +1,12 @@
 ---
 title: GetPresentationInfo
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Gets info about presentation in specified file.
 type: docs
 weight: 20
 url: /net/aspose.slides/ipresentationfactory/getpresentationinfo/
 ---
-## IPresentationFactory.GetPresentationInfo method (1 of 2)
+## GetPresentationInfo(string) {#getpresentationinfo_1}
 
 Gets info about presentation in specified file.
 
@@ -18,7 +18,7 @@ public IPresentationInfo GetPresentationInfo(string file)
 | --- | --- | --- |
 | file | String | Presentation file. |
 
-## Return Value
+### Return Value
 
 Presentation info
 
@@ -31,7 +31,7 @@ Presentation info
 
 ---
 
-## IPresentationFactory.GetPresentationInfo method (2 of 2)
+## GetPresentationInfo(Stream) {#getpresentationinfo}
 
 Gets info about presentation in specified stream.
 
@@ -43,7 +43,7 @@ public IPresentationInfo GetPresentationInfo(Stream stream)
 | --- | --- | --- |
 | stream | Stream | Presentation stream. |
 
-## Return Value
+### Return Value
 
 Presentation info.
 

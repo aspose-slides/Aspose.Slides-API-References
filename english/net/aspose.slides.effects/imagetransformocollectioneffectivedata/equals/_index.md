@@ -1,7 +1,7 @@
 ---
 title: Equals
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Determines whether the specified object is equal to the current object.
 type: docs
 weight: 70
 url: /net/aspose.slides.effects/imagetransformocollectioneffectivedata/equals/
@@ -18,7 +18,7 @@ public override bool Equals(object obj)
 | --- | --- | --- |
 | obj | Object | The object to compare with the current object. |
 
-## Return Value
+### Return Value
 
 true if the specified object is equal to the current object; otherwise, false.
 

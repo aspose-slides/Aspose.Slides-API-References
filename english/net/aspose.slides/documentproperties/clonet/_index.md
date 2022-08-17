@@ -1,7 +1,7 @@
 ---
 title: CloneT
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Clones current object
 type: docs
 weight: 290
 url: /net/aspose.slides/documentproperties/clonet/
@@ -14,7 +14,7 @@ Clones current object
 public IDocumentProperties CloneT()
 ```
 
-## Return Value
+### Return Value
 
 Clone
 

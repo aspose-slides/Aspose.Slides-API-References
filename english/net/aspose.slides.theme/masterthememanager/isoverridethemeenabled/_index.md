@@ -1,7 +1,7 @@
 ---
 title: IsOverrideThemeEnabled
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Determines whether OverrideTheme overrides inherited effective theme Presentation.MasterTheme or not. Read/write Boolean.
 type: docs
 weight: 10
 url: /net/aspose.slides.theme/masterthememanager/isoverridethemeenabled/

@@ -1,7 +1,7 @@
 ---
 title: RemoveWriteProtection
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Removes write protection for this presentation.
 type: docs
 weight: 100
 url: /net/aspose.slides/iprotectionmanager/removewriteprotection/

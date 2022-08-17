@@ -1,7 +1,7 @@
 ---
 title: PlotVisibleCellsOnly
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Determines whether the only visible cells are plotted. False to plot both visible and hidden cells. Read/write Boolean.
 type: docs
 weight: 160
 url: /net/aspose.slides.charts/chart/plotvisiblecellsonly/

@@ -1,7 +1,7 @@
 ---
 title: SetInternalHyperlinkClick
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Sets internal hyperlink on click.
 type: docs
 weight: 50
 url: /net/aspose.slides/ihyperlinkmanager/setinternalhyperlinkclick/
@@ -18,7 +18,7 @@ public IHyperlink SetInternalHyperlinkClick(ISlide targetSlide)
 | --- | --- | --- |
 | targetSlide | ISlide | Target slide. |
 
-## Return Value
+### Return Value
 
 Hyperlink.
 

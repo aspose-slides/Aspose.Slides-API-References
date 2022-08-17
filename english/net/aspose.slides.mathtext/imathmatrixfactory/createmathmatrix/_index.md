@@ -1,7 +1,7 @@
 ---
 title: CreateMathMatrix
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates a math matrix
 type: docs
 weight: 10
 url: /net/aspose.slides.mathtext/imathmatrixfactory/createmathmatrix/
@@ -19,7 +19,7 @@ public IMathMatrix CreateMathMatrix(int rowCount, int columnCount)
 | rowCount | Int32 | row count |
 | columnCount | Int32 | column count |
 
-## Return Value
+### Return Value
 
 new math matrix
 

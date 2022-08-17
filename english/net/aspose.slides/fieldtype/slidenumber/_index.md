@@ -1,7 +1,7 @@
 ---
 title: SlideNumber
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Current slides number. Read-only FieldTypeaspose.slides/fieldtype.
 type: docs
 weight: 180
 url: /net/aspose.slides/fieldtype/slidenumber/

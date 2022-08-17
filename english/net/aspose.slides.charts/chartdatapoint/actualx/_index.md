@@ -1,7 +1,7 @@
 ---
 title: ActualX
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Specifies actual x location left of the chart element relative to the left top corner of the chart. Call method IChart.ValidateChartLayout before to get actual values. Read Single.
 type: docs
 weight: 30
 url: /net/aspose.slides.charts/chartdatapoint/actualx/

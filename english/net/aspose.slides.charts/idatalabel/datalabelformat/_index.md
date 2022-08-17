@@ -1,7 +1,7 @@
 ---
 title: DataLabelFormat
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns format of the data label. Read-only IDataLabelFormataspose.slides.charts/idatalabelformat.
 type: docs
 weight: 40
 url: /net/aspose.slides.charts/idatalabel/datalabelformat/

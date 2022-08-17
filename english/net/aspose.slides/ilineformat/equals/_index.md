@@ -1,7 +1,7 @@
 ---
 title: Equals
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Determines whether the two LineFormat instances are equal.
 type: docs
 weight: 190
 url: /net/aspose.slides/ilineformat/equals/
@@ -18,7 +18,7 @@ public bool Equals(ILineFormat lineFormat)
 | --- | --- | --- |
 | lineFormat | ILineFormat | The LineFormat to compare with the current LineFormat. |
 
-## Return Value
+### Return Value
 
 **true** if the specified LineFormat is equal to the current LineFormat; otherwise, **false**.
 

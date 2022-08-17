@@ -1,7 +1,7 @@
 ---
 title: TrendLines
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Collection of series trend lines. Read-only ITrendlineCollectionaspose.slides.charts/itrendlinecollection.
 type: docs
 weight: 430
 url: /net/aspose.slides.charts/chartseries/trendlines/

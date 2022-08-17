@@ -1,7 +1,7 @@
 ---
 title: IsAutomaticOverflowBin
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Specifies automatic overflow bin value. If false use OverflowBin property.
 type: docs
 weight: 220
 url: /net/aspose.slides.charts/axis/isautomaticoverflowbin/

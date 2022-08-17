@@ -1,12 +1,12 @@
 ---
 title: GetCell
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Gets the cell that can be used for chart series or categories
 type: docs
 weight: 40
 url: /net/aspose.slides.charts/chartdataworkbook/getcell/
 ---
-## ChartDataWorkbook.GetCell method (1 of 5)
+## GetCell(string, int, int) {#getcell_4}
 
 Gets the cell that can be used for chart series or categories
 
@@ -20,7 +20,7 @@ public IChartDataCell GetCell(string worksheetName, int row, int column)
 | row | Int32 | The row. |
 | column | Int32 | The column. |
 
-## Return Value
+### Return Value
 
 Cell object
 
@@ -33,7 +33,7 @@ Cell object
 
 ---
 
-## ChartDataWorkbook.GetCell method (2 of 5)
+## GetCell(int, int, int) {#getcell}
 
 Gets the cell that can be used for chart series or categories
 
@@ -47,7 +47,7 @@ public IChartDataCell GetCell(int worksheetIndex, int row, int column)
 | row | Int32 | The row. |
 | column | Int32 | The column. |
 
-## Return Value
+### Return Value
 
 Cell object
 
@@ -60,7 +60,7 @@ Cell object
 
 ---
 
-## ChartDataWorkbook.GetCell method (3 of 5)
+## GetCell(int, string) {#getcell_2}
 
 Gets the cell that can be used for chart series or categories
 
@@ -73,7 +73,7 @@ public IChartDataCell GetCell(int worksheetIndex, string cellName)
 | worksheetIndex | Int32 | Index of the worksheet. |
 | cellName | String | Name of the cell. |
 
-## Return Value
+### Return Value
 
 Cell object
 
@@ -86,7 +86,7 @@ Cell object
 
 ---
 
-## ChartDataWorkbook.GetCell method (4 of 5)
+## GetCell(int, string, object) {#getcell_3}
 
 Gets the cell that can be used for chart series or categories
 
@@ -100,7 +100,7 @@ public IChartDataCell GetCell(int worksheetIndex, string cellName, object value)
 | cellName | String | Name of the cell. |
 | value | Object | The value. |
 
-## Return Value
+### Return Value
 
 Cell object
 
@@ -113,7 +113,7 @@ Cell object
 
 ---
 
-## ChartDataWorkbook.GetCell method (5 of 5)
+## GetCell(int, int, int, object) {#getcell_1}
 
 Gets the cell that can be used for chart series or categories
 
@@ -128,7 +128,7 @@ public IChartDataCell GetCell(int worksheetIndex, int row, int column, object va
 | column | Int32 | The column. |
 | value | Object | The value. |
 
-## Return Value
+### Return Value
 
 Cell object
 

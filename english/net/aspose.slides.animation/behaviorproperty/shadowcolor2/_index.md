@@ -1,7 +1,7 @@
 ---
 title: ShadowColor2
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents shadow.color2 property
 type: docs
 weight: 610
 url: /net/aspose.slides.animation/behaviorproperty/shadowcolor2/

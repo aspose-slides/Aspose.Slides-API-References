@@ -1,9 +1,9 @@
 ---
 title: PresetShadowType
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents a preset for a shadow effect.
 type: docs
-weight: 8940
+weight: 8960
 url: /net/aspose.slides/presetshadowtype/
 ---
 ## PresetShadowType enumeration
@@ -14,7 +14,7 @@ Represents a preset for a shadow effect.
 public enum PresetShadowType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

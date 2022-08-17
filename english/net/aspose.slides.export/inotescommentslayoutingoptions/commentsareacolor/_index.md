@@ -1,7 +1,7 @@
 ---
 title: CommentsAreaColor
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Gets or sets the color of comments area Applies only if comments are displayed on the right.
 type: docs
 weight: 10
 url: /net/aspose.slides.export/inotescommentslayoutingoptions/commentsareacolor/

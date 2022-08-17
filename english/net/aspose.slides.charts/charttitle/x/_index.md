@@ -1,7 +1,7 @@
 ---
 title: X
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets the x coordinate of a title as a fraction of the width of the chart. Read/write Single.
 type: docs
 weight: 100
 url: /net/aspose.slides.charts/charttitle/x/

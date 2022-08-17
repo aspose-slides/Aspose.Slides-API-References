@@ -1,7 +1,7 @@
 ---
 title: ShowOutlineIcons
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Specifies whether the application should show icons if displaying outline content in any of the content regions of normal view mode. Read/write Boolean.
 type: docs
 weight: 50
 url: /net/aspose.slides/normalviewproperties/showoutlineicons/

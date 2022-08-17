@@ -1,7 +1,7 @@
 ---
 title: CenterX
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the X coordinate of a frames center. Read-only Single.
 type: docs
 weight: 20
 url: /net/aspose.slides/shapeframe/centerx/

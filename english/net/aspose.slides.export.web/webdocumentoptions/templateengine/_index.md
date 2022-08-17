@@ -1,7 +1,7 @@
 ---
 title: TemplateEngine
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets templates engine. Read/write ITemplateEngineaspose.slides.export.web/itemplateengine.
 type: docs
 weight: 60
 url: /net/aspose.slides.export.web/webdocumentoptions/templateengine/

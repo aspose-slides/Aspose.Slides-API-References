@@ -1,12 +1,12 @@
 ---
 title: AddField
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Converts this portion to the automaticaly updated field.
 type: docs
 weight: 50
 url: /net/aspose.slides/iportion/addfield/
 ---
-## IPortion.AddField method (1 of 2)
+## AddField(IFieldType) {#addfield}
 
 Converts this portion to the automaticaly updated field.
 
@@ -27,7 +27,7 @@ public void AddField(IFieldType fieldType)
 
 ---
 
-## IPortion.AddField method (2 of 2)
+## AddField(string) {#addfield_1}
 
 Converts this portion to the automaticaly updated field.
 

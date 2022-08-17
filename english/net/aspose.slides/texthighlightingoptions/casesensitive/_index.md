@@ -1,7 +1,7 @@
 ---
 title: CaseSensitive
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Set true to use case-sensitive search false - otherwise. Read/write Boolean.
 type: docs
 weight: 20
 url: /net/aspose.slides/texthighlightingoptions/casesensitive/

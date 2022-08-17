@@ -1,7 +1,7 @@
 ---
 title: Add
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Add new interactive sequence.
 type: docs
 weight: 40
 url: /net/aspose.slides.animation/isequencecollection/add/
@@ -18,7 +18,7 @@ public ISequence Add(IShape shapeTrigger)
 | --- | --- | --- |
 | shapeTrigger | IShape | Shape object [`IShape`](../../../aspose.slides/ishape) |
 
-## Return Value
+### Return Value
 
 New sequence [`ISequence`](../../isequence)
 

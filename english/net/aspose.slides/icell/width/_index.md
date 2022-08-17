@@ -1,7 +1,7 @@
 ---
 title: Width
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the width of the cell. Read-only Double.
 type: docs
 weight: 230
 url: /net/aspose.slides/icell/width/

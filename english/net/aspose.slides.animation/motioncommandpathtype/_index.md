@@ -1,7 +1,7 @@
 ---
 title: MotionCommandPathType
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represent types of command for animation motion effect behavior.
 type: docs
 weight: 560
 url: /net/aspose.slides.animation/motioncommandpathtype/
@@ -14,7 +14,7 @@ Represent types of command for animation motion effect behavior.
 public enum MotionCommandPathType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

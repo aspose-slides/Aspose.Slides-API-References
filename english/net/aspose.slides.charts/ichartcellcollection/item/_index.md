@@ -1,7 +1,7 @@
 ---
 title: Item
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns a cell IChartDataCell by index.
 type: docs
 weight: 30
 url: /net/aspose.slides.charts/ichartcellcollection/item/
@@ -18,7 +18,7 @@ public IChartDataCell this[int index] { get; }
 | --- | --- |
 | index | Index of a cell. |
 
-## Return Value
+### Return Value
 
 Cell with data.
 

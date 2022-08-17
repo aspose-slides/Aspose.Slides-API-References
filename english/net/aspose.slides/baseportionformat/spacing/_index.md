@@ -1,7 +1,7 @@
 ---
 title: Spacing
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets the intercharacter spacing increment. float.NaN means value is undefined and should be inherited from the Master. Read/write Single.
 type: docs
 weight: 210
 url: /net/aspose.slides/baseportionformat/spacing/

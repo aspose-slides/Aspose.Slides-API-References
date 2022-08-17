@@ -1,12 +1,12 @@
 ---
 title: ToPdf
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Converts Presentationaspose.slides/presentation to PDF.
 type: docs
 weight: 20
 url: /net/aspose.slides.lowcode/convert/topdf/
 ---
-## Convert.ToPdf method (1 of 4)
+## ToPdf(string, string) {#topdf_2}
 
 Converts [`Presentation`](../../../aspose.slides/presentation) to PDF.
 
@@ -33,7 +33,7 @@ Convert.ToPdf("pres.pptx", "pres.pdf");
 
 ---
 
-## Convert.ToPdf method (2 of 4)
+## ToPdf(string, string, IPdfOptions) {#topdf_3}
 
 Converts [`Presentation`](../../../aspose.slides/presentation) to PDF.
 
@@ -62,7 +62,7 @@ Convert.ToPdf("pres.pptx", "pres.pdf", new PdfOptions{ Compliance = PdfComplianc
 
 ---
 
-## Convert.ToPdf method (3 of 4)
+## ToPdf(Presentation, string) {#topdf}
 
 Converts [`Presentation`](../../../aspose.slides/presentation) to PDF.
 
@@ -93,7 +93,7 @@ using (Presentation pres = new Presentation("input.pptx"))
 
 ---
 
-## Convert.ToPdf method (4 of 4)
+## ToPdf(Presentation, string, IPdfOptions) {#topdf_1}
 
 Converts [`Presentation`](../../../aspose.slides/presentation) to PDF.
 

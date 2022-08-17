@@ -1,7 +1,7 @@
 ---
 title: Slide
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets the parent slide of a comment. Read-only ISlideaspose.slides/islide.
 type: docs
 weight: 50
 url: /net/aspose.slides/comment/slide/

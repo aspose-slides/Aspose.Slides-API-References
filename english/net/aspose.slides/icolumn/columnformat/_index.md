@@ -1,7 +1,7 @@
 ---
 title: ColumnFormat
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the ColumnFormat object that contains formatting properties for this column. Read-only IColumnFormataspose.slides/icolumnformat.
 type: docs
 weight: 30
 url: /net/aspose.slides/icolumn/columnformat/

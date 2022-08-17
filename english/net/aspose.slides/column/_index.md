@@ -1,9 +1,9 @@
 ---
 title: Column
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents a column in a table.
 type: docs
-weight: 2440
+weight: 2460
 url: /net/aspose.slides/column/
 ---
 ## Column class
@@ -33,9 +33,9 @@ public sealed class Column : CellCollection, IColumn
 | --- | --- |
 | [CopyTo](../../aspose.slides/cellcollection/copyto)(Array, int) | Copies all elements from the collection to the specified array. |
 | [GetEnumerator](../../aspose.slides/cellcollection/getenumerator)() | Returns an enumerator that iterates through the collection. |
-| [SetTextFormat](../../aspose.slides/column/settextformat)(IParagraphFormat) | Sets defined paragraph format properties to all column cells' paragraphs. |
-| [SetTextFormat](../../aspose.slides/column/settextformat)(IPortionFormat) | Sets defined portion format properties to all column cells' portions. |
-| [SetTextFormat](../../aspose.slides/column/settextformat)(ITextFrameFormat) | Sets defined text frame format properties to all column cells' text frames. |
+| [SetTextFormat](../../aspose.slides/column/settextformat#settextformat)(IParagraphFormat) | Sets defined paragraph format properties to all column cells' paragraphs. |
+| [SetTextFormat](../../aspose.slides/column/settextformat#settextformat_1)(IPortionFormat) | Sets defined portion format properties to all column cells' portions. |
+| [SetTextFormat](../../aspose.slides/column/settextformat#settextformat_2)(ITextFrameFormat) | Sets defined text frame format properties to all column cells' text frames. |
 
 ### See Also
 

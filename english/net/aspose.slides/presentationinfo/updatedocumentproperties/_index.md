@@ -1,7 +1,7 @@
 ---
 title: UpdateDocumentProperties
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Updates properties of binded presentation.
 type: docs
 weight: 80
 url: /net/aspose.slides/presentationinfo/updatedocumentproperties/

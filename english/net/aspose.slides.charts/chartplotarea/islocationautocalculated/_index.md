@@ -1,7 +1,7 @@
 ---
 title: IsLocationAutocalculated
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Defines how location should be calculated true  calculated automatically defined by the X Y Width Height properties. Read-only Boolean.
 type: docs
 weight: 90
 url: /net/aspose.slides.charts/chartplotarea/islocationautocalculated/

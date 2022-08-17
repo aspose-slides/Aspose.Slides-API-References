@@ -1,7 +1,7 @@
 ---
 title: MotionOriginType
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Specifies what the origin of the motion path is relative to. Such as the layout of the slide or the parent.
 type: docs
 weight: 580
 url: /net/aspose.slides.animation/motionorigintype/
@@ -14,7 +14,7 @@ Specifies what the origin of the motion path is relative to. Such as the layout 
 public enum MotionOriginType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

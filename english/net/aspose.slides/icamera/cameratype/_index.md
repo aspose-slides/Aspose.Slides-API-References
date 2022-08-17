@@ -1,7 +1,7 @@
 ---
 title: CameraType
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Camera type Read/write CameraPresetTypeaspose.slides/camerapresettype.
 type: docs
 weight: 10
 url: /net/aspose.slides/icamera/cameratype/

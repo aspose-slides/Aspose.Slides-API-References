@@ -1,7 +1,7 @@
 ---
 title: Points
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Specifies points of command. Read/write PointF.
 type: docs
 weight: 30
 url: /net/aspose.slides.animation/motioncmdpath/points/

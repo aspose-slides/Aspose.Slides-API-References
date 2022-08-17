@@ -1,7 +1,7 @@
 ---
 title: StrokeColor2
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents stroke.color2 property
 type: docs
 weight: 890
 url: /net/aspose.slides.animation/behaviorproperty/strokecolor2/

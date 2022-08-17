@@ -1,9 +1,9 @@
 ---
 title: SoundName
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Specifies a human readable name for the sound of the transition. The Soundaspose.slides/islideshowtransition/sound property must be assigned to get or set the sound name. Read-write String.
 type: docs
-weight: 70
+weight: 80
 url: /net/aspose.slides/islideshowtransition/soundname/
 ---
 ## ISlideShowTransition.SoundName property

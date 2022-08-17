@@ -1,7 +1,7 @@
 ---
 title: RowSpacingRule
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: The type of vertical spacing between array elements Default SingleLineGap
 type: docs
 weight: 70
 url: /net/aspose.slides.mathtext/matharray/rowspacingrule/

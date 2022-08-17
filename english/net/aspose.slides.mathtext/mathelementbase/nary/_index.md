@@ -1,12 +1,12 @@
 ---
 title: Nary
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates a N-ary operator
 type: docs
 weight: 90
 url: /net/aspose.slides.mathtext/mathelementbase/nary/
 ---
-## MathElementBase.Nary method (1 of 2)
+## Nary(MathNaryOperatorTypes, IMathElement, IMathElement) {#nary}
 
 Creates a N-ary operator
 
@@ -21,7 +21,7 @@ public IMathNaryOperator Nary(MathNaryOperatorTypes type, IMathElement lowerLimi
 | lowerLimit | IMathElement | The lower limit |
 | upperLimit | IMathElement | The upper limit |
 
-## Return Value
+### Return Value
 
 New instance of type [`IMathNaryOperator`](../../imathnaryoperator)
 
@@ -48,7 +48,7 @@ IMathNaryOperator naryOperator = baseElement.Nary(MathNaryOperatorTypes.Summatio
 
 ---
 
-## MathElementBase.Nary method (2 of 2)
+## Nary(MathNaryOperatorTypes, string, string) {#nary_1}
 
 Creates a N-ary operator
 
@@ -62,7 +62,7 @@ public IMathNaryOperator Nary(MathNaryOperatorTypes type, string lowerLimit, str
 | lowerLimit | String | The lower limit |
 | upperLimit | String | The upper limit |
 
-## Return Value
+### Return Value
 
 New instance of type [`IMathNaryOperator`](../../imathnaryoperator)
 

@@ -1,7 +1,7 @@
 ---
 title: To
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Specifies the ending value for the animation. Read/write String.
 type: docs
 weight: 60
 url: /net/aspose.slides.animation/propertyeffect/to/

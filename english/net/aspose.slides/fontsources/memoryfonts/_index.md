@@ -1,7 +1,7 @@
 ---
 title: MemoryFonts
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: A collection of fonts represented as byte arrays.
 type: docs
 weight: 30
 url: /net/aspose.slides/fontsources/memoryfonts/

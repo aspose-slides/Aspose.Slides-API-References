@@ -1,7 +1,7 @@
 ---
 title: Subscript
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Subscript argument
 type: docs
 weight: 40
 url: /net/aspose.slides.mathtext/imathrightsubsuperscriptelement/subscript/

@@ -1,7 +1,7 @@
 ---
 title: EffectFormat
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the EffectFormat object which contains pixel effects applied to a shape. Read-only IEffectFormataspose.slides/ieffectformat.
 type: docs
 weight: 80
 url: /net/aspose.slides/ishape/effectformat/

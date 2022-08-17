@@ -1,7 +1,7 @@
 ---
 title: NoLocks
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Return true if all lock-flags are disabled. Read-only Boolean.
 type: docs
 weight: 10
 url: /net/aspose.slides/baseshapelock/nolocks/

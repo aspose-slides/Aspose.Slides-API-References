@@ -1,9 +1,9 @@
 ---
 title: GradientStopCollection
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represnts a collection of gradient stops.
 type: docs
-weight: 4570
+weight: 4590
 url: /net/aspose.slides/gradientstopcollection/
 ---
 ## GradientStopCollection class
@@ -28,17 +28,17 @@ public sealed class GradientStopCollection : PVIObject, IGradientStopCollection
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.slides/gradientstopcollection/add)(float, Color) | Creates the new gradient stop and adds it to the end of collection. |
-| [Add](../../aspose.slides/gradientstopcollection/add)(float, PresetColor) | Creates the new gradient stop and adds it to the end of collection. |
-| [Add](../../aspose.slides/gradientstopcollection/add)(float, SchemeColor) | Creates the new gradient stop and adds it to the end of collection. |
+| [Add](../../aspose.slides/gradientstopcollection/add#add_2)(float, Color) | Creates the new gradient stop and adds it to the end of collection. |
+| [Add](../../aspose.slides/gradientstopcollection/add#add)(float, PresetColor) | Creates the new gradient stop and adds it to the end of collection. |
+| [Add](../../aspose.slides/gradientstopcollection/add#add_1)(float, SchemeColor) | Creates the new gradient stop and adds it to the end of collection. |
 | [Clear](../../aspose.slides/gradientstopcollection/clear)() | Removes all gradient stops from a collection. |
 | [CopyTo](../../aspose.slides/gradientstopcollection/copyto)(Array, int) | Copies all elements from the collection to the specified array. |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Compares with specified object. |
 | [GetEnumerator](../../aspose.slides/gradientstopcollection/getenumerator)() | Returns an enumerator that iterates through the collection. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Returns hash code. |
-| [Insert](../../aspose.slides/gradientstopcollection/insert)(int, float, Color) | Creates the new gradient stop and inserts it at the specified index to the collection. |
-| [Insert](../../aspose.slides/gradientstopcollection/insert)(int, float, PresetColor) | Creates the new gradient stop and inserts it at the specified index to the collection. |
-| [Insert](../../aspose.slides/gradientstopcollection/insert)(int, float, SchemeColor) | Creates the new gradient stop and inserts it at the specified index to the collection. |
+| [Insert](../../aspose.slides/gradientstopcollection/insert#insert_2)(int, float, Color) | Creates the new gradient stop and inserts it at the specified index to the collection. |
+| [Insert](../../aspose.slides/gradientstopcollection/insert#insert)(int, float, PresetColor) | Creates the new gradient stop and inserts it at the specified index to the collection. |
+| [Insert](../../aspose.slides/gradientstopcollection/insert#insert_1)(int, float, SchemeColor) | Creates the new gradient stop and inserts it at the specified index to the collection. |
 | [RemoveAt](../../aspose.slides/gradientstopcollection/removeat)(int) | Removes a gradient stop at the specified index. |
 
 ### See Also

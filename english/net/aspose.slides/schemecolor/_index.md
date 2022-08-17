@@ -1,9 +1,9 @@
 ---
 title: SchemeColor
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents colors in a color scheme.
 type: docs
-weight: 9010
+weight: 9030
 url: /net/aspose.slides/schemecolor/
 ---
 ## SchemeColor enumeration
@@ -14,7 +14,7 @@ Represents colors in a color scheme.
 public enum SchemeColor
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

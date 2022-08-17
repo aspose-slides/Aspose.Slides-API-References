@@ -1,7 +1,7 @@
 ---
 title: Height
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the height of the cell. Read-only Double.
 type: docs
 weight: 80
 url: /net/aspose.slides/cell/height/

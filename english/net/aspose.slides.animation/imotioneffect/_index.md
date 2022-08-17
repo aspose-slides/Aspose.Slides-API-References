@@ -1,7 +1,7 @@
 ---
 title: IMotionEffect
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represent motion effect behavior of effect.
 type: docs
 weight: 420
 url: /net/aspose.slides.animation/imotioneffect/

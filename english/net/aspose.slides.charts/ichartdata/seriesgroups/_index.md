@@ -1,7 +1,7 @@
 ---
 title: SeriesGroups
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Gets the groups of series. Read-only IChartSeriesGroupCollectionaspose.slides.charts/ichartseriesgroupcollection.
 type: docs
 weight: 70
 url: /net/aspose.slides.charts/ichartdata/seriesgroups/

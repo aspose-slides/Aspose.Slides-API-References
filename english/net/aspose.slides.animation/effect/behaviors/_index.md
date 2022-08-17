@@ -1,7 +1,7 @@
 ---
 title: Behaviors
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns collection of behavior for effect. Read/write IBehaviorCollectionaspose.slides.animation/ibehaviorcollection.
 type: docs
 weight: 10
 url: /net/aspose.slides.animation/effect/behaviors/

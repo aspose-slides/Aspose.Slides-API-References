@@ -1,7 +1,7 @@
 ---
 title: StyleColor
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns a ColorFormat for a BackgroundType.Themed fill. Read-only IColorFormataspose.slides/icolorformat.
 type: docs
 weight: 50
 url: /net/aspose.slides/ibackground/stylecolor/

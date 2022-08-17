@@ -1,7 +1,7 @@
 ---
 title: Item
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the row at the specified index. Read-only Rowaspose.slides/row.
 type: docs
 weight: 30
 url: /net/aspose.slides/rowcollection/item/

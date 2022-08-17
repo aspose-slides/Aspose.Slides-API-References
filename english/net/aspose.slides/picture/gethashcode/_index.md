@@ -1,9 +1,9 @@
 ---
 title: GetHashCode
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns hash.
 type: docs
-weight: 70
+weight: 80
 url: /net/aspose.slides/picture/gethashcode/
 ---
 ## Picture.GetHashCode method
@@ -14,7 +14,7 @@ Returns hash.
 public override int GetHashCode()
 ```
 
-## Return Value
+### Return Value
 
 Hash.
 

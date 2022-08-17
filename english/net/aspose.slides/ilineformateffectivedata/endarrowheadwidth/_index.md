@@ -1,7 +1,7 @@
 ---
 title: EndArrowheadWidth
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the arrowhead width at the end of a line. Read-only LineArrowheadWidthaspose.slides/linearrowheadwidth.
 type: docs
 weight: 110
 url: /net/aspose.slides/ilineformateffectivedata/endarrowheadwidth/

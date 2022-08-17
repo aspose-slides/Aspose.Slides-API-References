@@ -1,9 +1,9 @@
 ---
 title: Conformance
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Specifies the conformance class to which the PresentationML document conforms.
 type: docs
-weight: 3480
+weight: 3500
 url: /net/aspose.slides.export/conformance/
 ---
 ## Conformance enumeration
@@ -14,7 +14,7 @@ Specifies the conformance class to which the PresentationML document conforms.
 public enum Conformance
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

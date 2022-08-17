@@ -1,7 +1,7 @@
 ---
 title: SetData
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Sets user provided data of the resource which used if ResourceLoadingaspose.slides/iresourceloadingcallback/resourceloading returns UserProvided.
 type: docs
 weight: 30
 url: /net/aspose.slides/iresourceloadingargs/setdata/

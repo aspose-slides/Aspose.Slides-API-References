@@ -1,7 +1,7 @@
 ---
 title: MergeCells
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Merges neighbour cells.
 type: docs
 weight: 150
 url: /net/aspose.slides/itable/mergecells/
@@ -20,7 +20,7 @@ public ICell MergeCells(ICell cell1, ICell cell2, bool allowSplitting)
 | cell2 | ICell | Cell to merge. |
 | allowSplitting | Boolean | True to allow cells splitting. |
 
-## Return Value
+### Return Value
 
 Merged cell.
 

@@ -1,7 +1,7 @@
 ---
 title: IsBubble3D
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Specifies that the bubbles have a 3-D effect applied to them. Read/write Boolean.
 type: docs
 weight: 90
 url: /net/aspose.slides.charts/ichartdatapoint/isbubble3d/

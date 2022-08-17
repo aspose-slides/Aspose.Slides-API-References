@@ -1,7 +1,7 @@
 ---
 title: DataSourceTypeForXValues
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Specifies whether AsCell or AsLiteralString or AsLiteralDouble property is actual in data points XValue property object. In other words it specifies the type of value of ChartDataPoint.XValue.Data property. Read/write DataSourceTypeaspose.slides.charts/datasourcetype.
 type: docs
 weight: 50
 url: /net/aspose.slides.charts/chartdatapointcollection/datasourcetypeforxvalues/

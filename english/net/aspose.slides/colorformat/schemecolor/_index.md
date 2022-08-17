@@ -1,7 +1,7 @@
 ---
 title: SchemeColor
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets the color identified by a color scheme. Read/write SchemeColoraspose.slides/schemecolor.
 type: docs
 weight: 140
 url: /net/aspose.slides/colorformat/schemecolor/

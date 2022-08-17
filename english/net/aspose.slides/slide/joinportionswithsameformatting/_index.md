@@ -1,7 +1,7 @@
 ---
 title: JoinPortionsWithSameFormatting
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Joins runs with same formatting in all paragraphs in all acceptable shapes.
 type: docs
 weight: 100
 url: /net/aspose.slides/slide/joinportionswithsameformatting/

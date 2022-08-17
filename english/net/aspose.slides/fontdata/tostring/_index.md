@@ -1,7 +1,7 @@
 ---
 title: ToString
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns string representation.
 type: docs
 weight: 60
 url: /net/aspose.slides/fontdata/tostring/
@@ -14,7 +14,7 @@ Returns string representation.
 public override string ToString()
 ```
 
-## Return Value
+### Return Value
 
 String representatoin.
 

@@ -1,7 +1,7 @@
 ---
 title: Clear
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Removes all shapes from the collection.
 type: docs
 weight: 200
 url: /net/aspose.slides/ishapecollection/clear/

@@ -1,7 +1,7 @@
 ---
 title: AddNode
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Add new node or sub node.
 type: docs
 weight: 20
 url: /net/aspose.slides.smartart/ismartartnodecollection/addnode/
@@ -14,7 +14,7 @@ Add new node or sub node.
 public ISmartArtNode AddNode()
 ```
 
-## Return Value
+### Return Value
 
 Added node
 

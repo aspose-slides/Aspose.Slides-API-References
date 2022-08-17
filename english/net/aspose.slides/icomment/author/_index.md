@@ -1,7 +1,7 @@
 ---
 title: Author
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the author of a comment. Read-only ICommentAuthoraspose.slides/icommentauthor.
 type: docs
 weight: 10
 url: /net/aspose.slides/icomment/author/

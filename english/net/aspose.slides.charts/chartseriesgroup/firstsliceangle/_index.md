@@ -1,7 +1,7 @@
 ---
 title: FirstSliceAngle
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Gets or sets the angle of the first pie or doughnut chart slice in degrees clockwise from up from 0 to 360 degrees. Read/write UInt16.
 type: docs
 weight: 50
 url: /net/aspose.slides.charts/chartseriesgroup/firstsliceangle/

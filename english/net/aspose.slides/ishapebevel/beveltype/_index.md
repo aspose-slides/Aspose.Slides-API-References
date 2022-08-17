@@ -1,7 +1,7 @@
 ---
 title: BevelType
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Bevel type. Read/write BevelPresetTypeaspose.slides/bevelpresettype.
 type: docs
 weight: 10
 url: /net/aspose.slides/ishapebevel/beveltype/

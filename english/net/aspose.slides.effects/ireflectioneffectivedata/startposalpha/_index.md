@@ -1,7 +1,7 @@
 ---
 title: StartPosAlpha
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Specifies the start position along the alpha gradient ramp of the start alpha value percents. Read-only Single.
 type: docs
 weight: 140
 url: /net/aspose.slides.effects/ireflectioneffectivedata/startposalpha/

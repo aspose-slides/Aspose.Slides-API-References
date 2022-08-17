@@ -1,7 +1,7 @@
 ---
 title: DateTime1
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Current date and time in a first predefined format MM/DD/YYYY for english. Read-only FieldTypeaspose.slides/fieldtype.
 type: docs
 weight: 30
 url: /net/aspose.slides/fieldtype/datetime1/

@@ -1,7 +1,7 @@
 ---
 title: MajorGridLinesFormat
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents major gridlines format on a chart axis. Read-only IChartLinesFormataspose.slides.charts/ichartlinesformat.
 type: docs
 weight: 340
 url: /net/aspose.slides.charts/axis/majorgridlinesformat/

@@ -1,9 +1,9 @@
 ---
 title: IBulkTextFormattable
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents an object with possibility of bulk setting child text elements formats.
 type: docs
-weight: 4900
+weight: 4920
 url: /net/aspose.slides/ibulktextformattable/
 ---
 ## IBulkTextFormattable interface
@@ -18,9 +18,9 @@ public interface IBulkTextFormattable
 
 | Name | Description |
 | --- | --- |
-| [SetTextFormat](../../aspose.slides/ibulktextformattable/settextformat)(IParagraphFormat) | Sets defined paragraph format properties to all element's paragraphs. |
-| [SetTextFormat](../../aspose.slides/ibulktextformattable/settextformat)(IPortionFormat) | Sets defined portion format properties to all element's portions. |
-| [SetTextFormat](../../aspose.slides/ibulktextformattable/settextformat)(ITextFrameFormat) | Sets defined text frame format properties to all element's text frames. |
+| [SetTextFormat](../../aspose.slides/ibulktextformattable/settextformat#settextformat)(IParagraphFormat) | Sets defined paragraph format properties to all element's paragraphs. |
+| [SetTextFormat](../../aspose.slides/ibulktextformattable/settextformat#settextformat_1)(IPortionFormat) | Sets defined portion format properties to all element's portions. |
+| [SetTextFormat](../../aspose.slides/ibulktextformattable/settextformat#settextformat_2)(ITextFrameFormat) | Sets defined text frame format properties to all element's text frames. |
 
 ### See Also
 

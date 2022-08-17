@@ -1,7 +1,7 @@
 ---
 title: AddDataPointForFunnelSeries
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates the new data point and adds it to the end of collection. Applicable for series which chart type is Funnel.
 type: docs
 weight: 120
 url: /net/aspose.slides.charts/ichartdatapointcollection/adddatapointforfunnelseries/
@@ -18,7 +18,7 @@ public IChartDataPoint AddDataPointForFunnelSeries(IChartDataCell value)
 | --- | --- | --- |
 | value | IChartDataCell | Data point value |
 
-## Return Value
+### Return Value
 
 New data point.
 

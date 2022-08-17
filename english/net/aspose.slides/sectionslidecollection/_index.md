@@ -1,9 +1,9 @@
 ---
 title: SectionSlideCollection
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents a collection of slides in the section.
 type: docs
-weight: 9040
+weight: 9060
 url: /net/aspose.slides/sectionslidecollection/
 ---
 ## SectionSlideCollection class

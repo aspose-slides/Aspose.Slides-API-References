@@ -1,7 +1,7 @@
 ---
 title: Value
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Gets or sets value which is used with Fixed Percentage and StandardDeviation value types to determine the length of the error bars. Read/write Single.
 type: docs
 weight: 60
 url: /net/aspose.slides.charts/ierrorbarsformat/value/

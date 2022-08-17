@@ -1,7 +1,7 @@
 ---
 title: Image
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Gets or sets image for zoom object. Read/write IPPImageaspose.slides/ippimage.
 type: docs
 weight: 20
 url: /net/aspose.slides/izoomobject/image/

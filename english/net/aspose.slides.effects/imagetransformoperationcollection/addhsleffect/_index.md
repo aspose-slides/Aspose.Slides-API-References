@@ -1,7 +1,7 @@
 ---
 title: AddHSLEffect
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Adds the new Hue/Saturation/Luminance effect to the end of a collection.
 type: docs
 weight: 190
 url: /net/aspose.slides.effects/imagetransformoperationcollection/addhsleffect/
@@ -20,7 +20,7 @@ public IHSL AddHSLEffect(float hue, float saturation, float luminance)
 | saturation | Single | The percentage by which the saturation is adjusted. |
 | luminance | Single | The percentage by which the luminance is adjusted. |
 
-## Return Value
+### Return Value
 
 Index of the new image effect in a collection.
 

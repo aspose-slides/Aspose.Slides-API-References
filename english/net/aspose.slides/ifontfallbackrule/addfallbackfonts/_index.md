@@ -1,12 +1,12 @@
 ---
 title: AddFallBackFonts
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Adds a new fonts to the list of FallBack fonts.
 type: docs
 weight: 50
 url: /net/aspose.slides/ifontfallbackrule/addfallbackfonts/
 ---
-## IFontFallBackRule.AddFallBackFonts method (1 of 2)
+## AddFallBackFonts(string) {#addfallbackfonts}
 
 Adds a new font(s) to the list of FallBack fonts.
 
@@ -39,7 +39,7 @@ newRule.AddFallBackFonts("Tahoma, Times New Roman");
 
 ---
 
-## IFontFallBackRule.AddFallBackFonts method (2 of 2)
+## AddFallBackFonts(string[]) {#addfallbackfonts_1}
 
 Adds a new fonts to the list of FallBack fonts.
 

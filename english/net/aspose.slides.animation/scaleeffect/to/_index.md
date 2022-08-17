@@ -1,7 +1,7 @@
 ---
 title: To
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Specifies the target location for an animation scale effect in percents. Read/write PointF.
 type: docs
 weight: 40
 url: /net/aspose.slides.animation/scaleeffect/to/

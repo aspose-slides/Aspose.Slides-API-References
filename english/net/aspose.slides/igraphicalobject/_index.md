@@ -1,9 +1,9 @@
 ---
 title: IGraphicalObject
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents abstract graphical object.
 type: docs
-weight: 5530
+weight: 5550
 url: /net/aspose.slides/igraphicalobject/
 ---
 ## IGraphicalObject interface

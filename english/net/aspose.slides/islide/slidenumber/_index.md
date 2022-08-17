@@ -1,7 +1,7 @@
 ---
 title: SlideNumber
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns a number of slide. Index of slide in Slidesaspose.slides/ipresentation/slides collection is always equal to SlideNumber - 1. Read/write Int32.
 type: docs
 weight: 70
 url: /net/aspose.slides/islide/slidenumber/

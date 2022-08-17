@@ -1,7 +1,7 @@
 ---
 title: OffsetY
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns a distance from top side of a table to top side of a cell. Read-only Double.
 type: docs
 weight: 160
 url: /net/aspose.slides/cell/offsety/

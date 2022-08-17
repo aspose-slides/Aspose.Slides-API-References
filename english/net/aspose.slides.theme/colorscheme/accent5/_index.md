@@ -1,7 +1,7 @@
 ---
 title: Accent5
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Fifth accent color in the scheme. Read-only IColorFormataspose.slides/icolorformat.
 type: docs
 weight: 50
 url: /net/aspose.slides.theme/colorscheme/accent5/

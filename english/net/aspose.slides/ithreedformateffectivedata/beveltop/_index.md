@@ -1,7 +1,7 @@
 ---
 title: BevelTop
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the type of a top 3D bevel. Read-only IShapeBevelEffectiveDataaspose.slides/ishapebeveleffectivedata.
 type: docs
 weight: 30
 url: /net/aspose.slides/ithreedformateffectivedata/beveltop/

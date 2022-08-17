@@ -1,9 +1,9 @@
 ---
 title: ColorType
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents different color modes.
 type: docs
-weight: 2430
+weight: 2450
 url: /net/aspose.slides/colortype/
 ---
 ## ColorType enumeration
@@ -14,7 +14,7 @@ Represents different color modes.
 public enum ColorType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

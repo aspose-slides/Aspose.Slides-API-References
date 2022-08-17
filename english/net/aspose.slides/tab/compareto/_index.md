@@ -1,7 +1,7 @@
 ---
 title: CompareTo
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Compares the current instance with another object of the same type.
 type: docs
 weight: 40
 url: /net/aspose.slides/tab/compareto/
@@ -18,7 +18,7 @@ public int CompareTo(object obj)
 | --- | --- | --- |
 | obj | Object | An object to compare with this instance. |
 
-## Return Value
+### Return Value
 
 A 32-bit integer that indicates the relative order of the comparands. The return value has these meanings:  &lt; 0 - This instance is less than obj. = 0 - This instance is equal to obj. &gt; 0 - This instance is greater than obj.
 

@@ -1,7 +1,7 @@
 ---
 title: SetFooterAndChildFootersText
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Sets text to layout slide footer placeholder and all child footer placeholders. Child placeholders mean placeholders are contained on depending slides. Depending slides use and depend on layout slide.
 type: docs
 weight: 40
 url: /net/aspose.slides/ilayoutslideheaderfootermanager/setfooterandchildfooterstext/

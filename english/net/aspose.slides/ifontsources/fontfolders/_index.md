@@ -1,7 +1,7 @@
 ---
 title: FontFolders
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Folders containing font files. All font files located in these folders are included in the collection. Folders that are recursively searched.
 type: docs
 weight: 10
 url: /net/aspose.slides/ifontsources/fontfolders/

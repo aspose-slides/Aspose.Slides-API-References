@@ -1,7 +1,7 @@
 ---
 title: YMinus
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Specifies the error bar value in the negative direction. Avalible if error bars value type is Custom and ErrorBarsYFormat is allowed. In any other case this property returns null. Read-only IDoubleChartValueaspose.slides.charts/idoublechartvalue.
 type: docs
 weight: 30
 url: /net/aspose.slides.charts/ierrorbarscustomvalues/yminus/

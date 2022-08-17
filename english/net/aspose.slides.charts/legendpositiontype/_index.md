@@ -1,9 +1,9 @@
 ---
 title: LegendPositionType
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Determines a position of legend on a chart.
 type: docs
-weight: 2180
+weight: 2200
 url: /net/aspose.slides.charts/legendpositiontype/
 ---
 ## LegendPositionType enumeration
@@ -14,7 +14,7 @@ Determines a position of legend on a chart.
 public enum LegendPositionType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

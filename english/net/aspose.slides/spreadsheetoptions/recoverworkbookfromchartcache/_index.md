@@ -1,7 +1,7 @@
 ---
 title: RecoverWorkbookFromChartCache
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: If data source for the chart is an external workbook and its not available it will be recovered from the chart cache.
 type: docs
 weight: 30
 url: /net/aspose.slides/spreadsheetoptions/recoverworkbookfromchartcache/

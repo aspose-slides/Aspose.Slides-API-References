@@ -1,7 +1,7 @@
 ---
 title: Item
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the layout slide by index. Read-only ILayoutSlideaspose.slides/ilayoutslide.
 type: docs
 weight: 10
 url: /net/aspose.slides/ilayoutslidecollection/item/

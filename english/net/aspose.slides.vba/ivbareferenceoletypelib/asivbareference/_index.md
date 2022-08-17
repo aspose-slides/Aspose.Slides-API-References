@@ -1,7 +1,7 @@
 ---
 title: AsIVbaReference
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns IVbaReference interface. Read-only IVbaReferenceaspose.slides.vba/ivbareference.
 type: docs
 weight: 10
 url: /net/aspose.slides.vba/ivbareferenceoletypelib/asivbareference/

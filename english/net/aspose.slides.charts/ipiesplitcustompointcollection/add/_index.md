@@ -1,7 +1,7 @@
 ---
 title: Add
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Adds data point by its index in parent series points collection.
 type: docs
 weight: 30
 url: /net/aspose.slides.charts/ipiesplitcustompointcollection/add/

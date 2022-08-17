@@ -1,9 +1,9 @@
 ---
 title: HtmlGenerator
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Html generator.
 type: docs
-weight: 3560
+weight: 3580
 url: /net/aspose.slides.export/htmlgenerator/
 ---
 ## HtmlGenerator class
@@ -29,15 +29,15 @@ public sealed class HtmlGenerator : IHtmlGenerator
 
 | Name | Description |
 | --- | --- |
-| [AddAttributeValue](../../aspose.slides.export/htmlgenerator/addattributevalue)(char[]) | Quotes attribute value and adds it to the html file. |
-| [AddAttributeValue](../../aspose.slides.export/htmlgenerator/addattributevalue)(string) | Quotes attribute value and adds it to the html file. |
-| [AddAttributeValue](../../aspose.slides.export/htmlgenerator/addattributevalue)(char[], int, int) | Quotes attribute value and adds it to the html file. |
-| [AddHtml](../../aspose.slides.export/htmlgenerator/addhtml)(char[]) | Adds formatted HTML text. |
-| [AddHtml](../../aspose.slides.export/htmlgenerator/addhtml)(string) | Adds formatted HTML text. |
-| [AddHtml](../../aspose.slides.export/htmlgenerator/addhtml)(char[], int, int) | Adds formatted HTML text. |
-| [AddText](../../aspose.slides.export/htmlgenerator/addtext)(char[]) | Adds plain text to the html files, replacing special characters with html entities. Linebreaks and whitespaces aren't replaced. |
-| [AddText](../../aspose.slides.export/htmlgenerator/addtext)(string) | Adds plain text to the html files, replacing special characters with html entities. Linebreaks and whitespaces aren't replaced. |
-| [AddText](../../aspose.slides.export/htmlgenerator/addtext)(char[], int, int) | Adds plain text to the html files, replacing special characters with html entities. Linebreaks and whitespaces aren't replaced. |
+| [AddAttributeValue](../../aspose.slides.export/htmlgenerator/addattributevalue#addattributevalue)(char[]) | Quotes attribute value and adds it to the html file. |
+| [AddAttributeValue](../../aspose.slides.export/htmlgenerator/addattributevalue#addattributevalue_2)(string) | Quotes attribute value and adds it to the html file. |
+| [AddAttributeValue](../../aspose.slides.export/htmlgenerator/addattributevalue#addattributevalue_1)(char[], int, int) | Quotes attribute value and adds it to the html file. |
+| [AddHtml](../../aspose.slides.export/htmlgenerator/addhtml#addhtml)(char[]) | Adds formatted HTML text. |
+| [AddHtml](../../aspose.slides.export/htmlgenerator/addhtml#addhtml_2)(string) | Adds formatted HTML text. |
+| [AddHtml](../../aspose.slides.export/htmlgenerator/addhtml#addhtml_1)(char[], int, int) | Adds formatted HTML text. |
+| [AddText](../../aspose.slides.export/htmlgenerator/addtext#addtext)(char[]) | Adds plain text to the html files, replacing special characters with html entities. Linebreaks and whitespaces aren't replaced. |
+| [AddText](../../aspose.slides.export/htmlgenerator/addtext#addtext_2)(string) | Adds plain text to the html files, replacing special characters with html entities. Linebreaks and whitespaces aren't replaced. |
+| [AddText](../../aspose.slides.export/htmlgenerator/addtext#addtext_1)(char[], int, int) | Adds plain text to the html files, replacing special characters with html entities. Linebreaks and whitespaces aren't replaced. |
 
 ### See Also
 

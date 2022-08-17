@@ -1,7 +1,7 @@
 ---
 title: SetDateTimeAndChildDateTimesText
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Sets text to master notes slide date-time placeholder and all child date-time placeholders. Child placeholders mean placeholders are contained on depending notes slides. Depending notes slides use and depend on master notes slide.
 type: docs
 weight: 20
 url: /net/aspose.slides/imasternotesslideheaderfootermanager/setdatetimeandchilddatetimestext/

@@ -1,7 +1,7 @@
 ---
 title: SecondaryHorizontalAxis
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Gets the charts secondary horizontal axis. Read-only IAxisaspose.slides.charts/iaxis.
 type: docs
 weight: 20
 url: /net/aspose.slides.charts/iaxesmanager/secondaryhorizontalaxis/

@@ -1,7 +1,7 @@
 ---
 title: DisplayUnit
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Specifies the scaling value of the display units for the value axis. Read/write DisplayUnitTypeaspose.slides.charts/displayunittype.
 type: docs
 weight: 150
 url: /net/aspose.slides.charts/axis/displayunit/

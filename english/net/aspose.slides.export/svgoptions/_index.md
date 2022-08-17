@@ -1,9 +1,9 @@
 ---
 title: SVGOptions
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents an SVG options.
 type: docs
-weight: 4000
+weight: 4020
 url: /net/aspose.slides.export/svgoptions/
 ---
 ## SVGOptions class
@@ -18,8 +18,8 @@ public sealed class SVGOptions : SaveOptions, ISVGOptions
 
 | Name | Description |
 | --- | --- |
-| [SVGOptions](svgoptions)() | Initializes a new instance of the SVGOptions class. |
-| [SVGOptions](svgoptions)(ILinkEmbedController) | Initializes a new instance of the SVGOptions class specifying the link embedding controller object. |
+| [SVGOptions](svgoptions#constructor)() | Initializes a new instance of the SVGOptions class. |
+| [SVGOptions](svgoptions#constructor_1)(ILinkEmbedController) | Initializes a new instance of the SVGOptions class specifying the link embedding controller object. |
 
 ## Properties
 

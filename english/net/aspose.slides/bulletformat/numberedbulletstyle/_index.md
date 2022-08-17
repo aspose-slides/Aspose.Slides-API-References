@@ -1,7 +1,7 @@
 ---
 title: NumberedBulletStyle
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets the style of a numbered bullet with no inheritance. Read/write NumberedBulletStyleaspose.slides/numberedbulletstyle.
 type: docs
 weight: 80
 url: /net/aspose.slides/bulletformat/numberedbulletstyle/

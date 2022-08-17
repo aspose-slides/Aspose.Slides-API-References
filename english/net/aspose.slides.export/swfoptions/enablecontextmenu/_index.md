@@ -1,7 +1,7 @@
 ---
 title: EnableContextMenu
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Enable/disable context menu. Default is true.
 type: docs
 weight: 30
 url: /net/aspose.slides.export/swfoptions/enablecontextmenu/

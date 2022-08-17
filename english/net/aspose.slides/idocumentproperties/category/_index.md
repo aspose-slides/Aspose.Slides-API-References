@@ -1,7 +1,7 @@
 ---
 title: Category
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets the category of a presentation. Read/write String.
 type: docs
 weight: 40
 url: /net/aspose.slides/idocumentproperties/category/

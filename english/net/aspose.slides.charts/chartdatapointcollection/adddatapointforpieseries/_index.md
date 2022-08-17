@@ -1,12 +1,12 @@
 ---
 title: AddDataPointForPieSeries
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Pie subtypes see also IsChartTypePieaspose.slides.charts/charttypecharacterizer/ischarttypepie method.
 type: docs
 weight: 190
 url: /net/aspose.slides.charts/chartdatapointcollection/adddatapointforpieseries/
 ---
-## ChartDataPointCollection.AddDataPointForPieSeries method (1 of 2)
+## AddDataPointForPieSeries(IChartDataCell) {#adddatapointforpieseries}
 
 Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Pie subtypes (see also [`IsChartTypePie`](../../charttypecharacterizer/ischarttypepie) method).
 
@@ -18,7 +18,7 @@ public IChartDataPoint AddDataPointForPieSeries(IChartDataCell value)
 | --- | --- | --- |
 | value | IChartDataCell | Data point Value |
 
-## Return Value
+### Return Value
 
 New data point.
 
@@ -32,7 +32,7 @@ New data point.
 
 ---
 
-## ChartDataPointCollection.AddDataPointForPieSeries method (2 of 2)
+## AddDataPointForPieSeries(double) {#adddatapointforpieseries_1}
 
 Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Pie subtypes (see also [`IsChartTypePie`](../../charttypecharacterizer/ischarttypepie) method).
 
@@ -44,7 +44,7 @@ public IChartDataPoint AddDataPointForPieSeries(double value)
 | --- | --- | --- |
 | value | Double | Data point Value |
 
-## Return Value
+### Return Value
 
 New data point.
 

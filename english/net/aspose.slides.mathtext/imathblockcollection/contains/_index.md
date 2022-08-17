@@ -1,7 +1,7 @@
 ---
 title: Contains
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Determines whether the collection contains a specific value.
 type: docs
 weight: 60
 url: /net/aspose.slides.mathtext/imathblockcollection/contains/
@@ -18,7 +18,7 @@ public bool Contains(IMathBlock item)
 | --- | --- | --- |
 | item | IMathBlock | The object to locate in the collection. |
 
-## Return Value
+### Return Value
 
 true if *item* is found in the collection; otherwise, false.
 

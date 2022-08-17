@@ -1,7 +1,7 @@
 ---
 title: Flush
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Clears all buffers for this stream and causes any buffered data to be written to the underlying device.
 type: docs
 weight: 100
 url: /net/aspose.slides/streamwrapper/flush/

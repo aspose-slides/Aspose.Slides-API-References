@@ -1,7 +1,7 @@
 ---
 title: InterruptionTokenSource
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates a new InterruptionTokenSourceaspose.slides/interruptiontokensource.
 type: docs
 weight: 10
 url: /net/aspose.slides/interruptiontokensource/interruptiontokensource/

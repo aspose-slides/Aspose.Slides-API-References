@@ -1,12 +1,12 @@
 ---
 title: EmbeddedWoffFontsHtmlController
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates new instance.
 type: docs
 weight: 10
 url: /net/aspose.slides.export/embeddedwofffontshtmlcontroller/embeddedwofffontshtmlcontroller/
 ---
-## EmbeddedWoffFontsHtmlController constructor (1 of 2)
+## EmbeddedWoffFontsHtmlController() {#constructor}
 
 Creates new instance.
 
@@ -22,7 +22,7 @@ public EmbeddedWoffFontsHtmlController()
 
 ---
 
-## EmbeddedWoffFontsHtmlController constructor (2 of 2)
+## EmbeddedWoffFontsHtmlController(IHtmlFormattingController) {#constructor_1}
 
 Creates new instance.
 

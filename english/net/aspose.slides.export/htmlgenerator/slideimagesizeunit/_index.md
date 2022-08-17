@@ -1,7 +1,7 @@
 ---
 title: SlideImageSizeUnit
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns a unit in which slide image size is specified. Read-only SvgCoordinateUnitaspose.slides.export/svgcoordinateunit.
 type: docs
 weight: 40
 url: /net/aspose.slides.export/htmlgenerator/slideimagesizeunit/

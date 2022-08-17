@@ -1,7 +1,7 @@
 ---
 title: ShadowMatrixPerspectiveX
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents shadow.matrix.perspectiveX property
 type: docs
 weight: 620
 url: /net/aspose.slides.animation/behaviorproperty/shadowmatrixperspectivex/

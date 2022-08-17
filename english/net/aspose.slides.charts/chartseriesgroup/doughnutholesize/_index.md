@@ -1,7 +1,7 @@
 ---
 title: DoughnutHoleSize
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Specifies the size of the hole in a doughnut chart can be between 0 and 90 percents of the size of the plot area.. Read/write Byte.
 type: docs
 weight: 40
 url: /net/aspose.slides.charts/chartseriesgroup/doughnutholesize/

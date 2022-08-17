@@ -1,7 +1,7 @@
 ---
 title: Item
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets property.
 type: docs
 weight: 30
 url: /net/aspose.slides/icontrolpropertiescollection/item/

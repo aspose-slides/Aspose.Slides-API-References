@@ -1,7 +1,7 @@
 ---
 title: RemoveAt
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Removes the element at the given index.
 type: docs
 weight: 130
 url: /net/aspose.slides.charts/chartcategorycollection/removeat/

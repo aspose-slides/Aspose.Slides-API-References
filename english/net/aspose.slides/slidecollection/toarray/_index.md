@@ -1,12 +1,12 @@
 ---
 title: ToArray
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates and returns an array with all slides in it.
 type: docs
 weight: 180
 url: /net/aspose.slides/slidecollection/toarray/
 ---
-## SlideCollection.ToArray method (1 of 2)
+## ToArray() {#toarray}
 
 Creates and returns an array with all slides in it.
 
@@ -14,7 +14,7 @@ Creates and returns an array with all slides in it.
 public ISlide[] ToArray()
 ```
 
-## Return Value
+### Return Value
 
 Array of [`Slide`](../../slide)
 
@@ -27,7 +27,7 @@ Array of [`Slide`](../../slide)
 
 ---
 
-## SlideCollection.ToArray method (2 of 2)
+## ToArray(int, int) {#toarray_1}
 
 Creates and returns an array with all slides from the specified range in it. An index of a first slide to add.A number of slides to add.
 
@@ -35,7 +35,7 @@ Creates and returns an array with all slides from the specified range in it. An 
 public ISlide[] ToArray(int startIndex, int count)
 ```
 
-## Return Value
+### Return Value
 
 Array of [`Slide`](../../slide)
 

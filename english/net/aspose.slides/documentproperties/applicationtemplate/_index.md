@@ -1,7 +1,7 @@
 ---
 title: ApplicationTemplate
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets the template of a application. Read/write String.
 type: docs
 weight: 20
 url: /net/aspose.slides/documentproperties/applicationtemplate/

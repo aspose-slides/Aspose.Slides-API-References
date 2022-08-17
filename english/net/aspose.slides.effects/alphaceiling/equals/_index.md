@@ -1,7 +1,7 @@
 ---
 title: Equals
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Determines whether the specified AlphaCeilingaspose.slides.effects/alphaceiling is equal to the current AlphaCeilingaspose.slides.effects/alphaceiling.
 type: docs
 weight: 10
 url: /net/aspose.slides.effects/alphaceiling/equals/
@@ -18,7 +18,7 @@ public override bool Equals(object obj)
 | --- | --- | --- |
 | obj | Object | The [`AlphaCeiling`](../../alphaceiling) to compare. |
 
-## Return Value
+### Return Value
 
 true if objects are equal; otherwise, false.
 

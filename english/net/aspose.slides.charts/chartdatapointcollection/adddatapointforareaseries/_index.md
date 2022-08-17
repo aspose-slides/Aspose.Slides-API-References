@@ -1,12 +1,12 @@
 ---
 title: AddDataPointForAreaSeries
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Area subtypes see also IsChartTypeAreaaspose.slides.charts/charttypecharacterizer/ischarttypearea method.
 type: docs
 weight: 100
 url: /net/aspose.slides.charts/chartdatapointcollection/adddatapointforareaseries/
 ---
-## ChartDataPointCollection.AddDataPointForAreaSeries method (1 of 2)
+## AddDataPointForAreaSeries(IChartDataCell) {#adddatapointforareaseries}
 
 Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Area subtypes (see also [`IsChartTypeArea`](../../charttypecharacterizer/ischarttypearea) method).
 
@@ -18,7 +18,7 @@ public IChartDataPoint AddDataPointForAreaSeries(IChartDataCell value)
 | --- | --- | --- |
 | value | IChartDataCell | Data point Value |
 
-## Return Value
+### Return Value
 
 New data point.
 
@@ -32,7 +32,7 @@ New data point.
 
 ---
 
-## ChartDataPointCollection.AddDataPointForAreaSeries method (2 of 2)
+## AddDataPointForAreaSeries(double) {#adddatapointforareaseries_1}
 
 Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Area subtypes (see also [`IsChartTypeArea`](../../charttypecharacterizer/ischarttypearea) method).
 
@@ -44,7 +44,7 @@ public IChartDataPoint AddDataPointForAreaSeries(double value)
 | --- | --- | --- |
 | value | Double | Data point Value |
 
-## Return Value
+### Return Value
 
 New data point.
 

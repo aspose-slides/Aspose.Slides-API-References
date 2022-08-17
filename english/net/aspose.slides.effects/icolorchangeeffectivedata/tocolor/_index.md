@@ -1,7 +1,7 @@
 ---
 title: ToColor
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Color which will replace. Read-only Color.
 type: docs
 weight: 30
 url: /net/aspose.slides.effects/icolorchangeeffectivedata/tocolor/

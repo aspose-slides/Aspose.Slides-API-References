@@ -1,12 +1,12 @@
 ---
 title: Add
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Adds new custom xml part.
 type: docs
 weight: 20
 url: /net/aspose.slides/icustomxmlpartcollection/add/
 ---
-## ICustomXmlPartCollection.Add method (1 of 3)
+## Add(byte[]) {#add}
 
 Adds new custom xml part.
 
@@ -18,7 +18,7 @@ public ICustomXmlPart Add(byte[] xmlData)
 | --- | --- | --- |
 | xmlData | Byte[] | The xml data of new part to be added. |
 
-## Return Value
+### Return Value
 
 Created custom xml part.
 
@@ -38,7 +38,7 @@ Created custom xml part.
 
 ---
 
-## ICustomXmlPartCollection.Add method (2 of 3)
+## Add(string) {#add_2}
 
 Adds new custom xml part.
 
@@ -50,7 +50,7 @@ public ICustomXmlPart Add(string xmlString)
 | --- | --- | --- |
 | xmlString | String | The xml string of new part to be added. |
 
-## Return Value
+### Return Value
 
 Created custom xml part.
 
@@ -70,7 +70,7 @@ Created custom xml part.
 
 ---
 
-## ICustomXmlPartCollection.Add method (3 of 3)
+## Add(Stream) {#add_1}
 
 Adds new custom xml part.
 
@@ -82,7 +82,7 @@ public ICustomXmlPart Add(Stream inputStream)
 | --- | --- | --- |
 | inputStream | Stream | The inputStream with xml data of new part to be added. |
 
-## Return Value
+### Return Value
 
 Created custom xml part.
 

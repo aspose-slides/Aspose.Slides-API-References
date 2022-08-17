@@ -1,7 +1,7 @@
 ---
 title: Point
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represent animation point.
 type: docs
 weight: 620
 url: /net/aspose.slides.animation/point/
@@ -18,8 +18,8 @@ public class Point : IPoint
 
 | Name | Description |
 | --- | --- |
-| [Point](point)() | Default constructor. |
-| [Point](point)(float, object, string) | Create animation point with time, value and formula. |
+| [Point](point#constructor)() | Default constructor. |
+| [Point](point#constructor_1)(float, object, string) | Create animation point with time, value and formula. |
 
 ## Properties
 

@@ -1,7 +1,7 @@
 ---
 title: GetEffective
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Gets effective Alpha Bi-Level effect data with the inheritance applied.
 type: docs
 weight: 30
 url: /net/aspose.slides.effects/alphabilevel/geteffective/
@@ -14,7 +14,7 @@ Gets effective Alpha Bi-Level effect data with the inheritance applied.
 public IAlphaBiLevelEffectiveData GetEffective()
 ```
 
-## Return Value
+### Return Value
 
 A [`IAlphaBiLevelEffectiveData`](../../ialphabileveleffectivedata).
 

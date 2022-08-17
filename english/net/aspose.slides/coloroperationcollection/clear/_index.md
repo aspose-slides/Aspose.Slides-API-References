@@ -1,7 +1,7 @@
 ---
 title: Clear
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Removes all color operations.
 type: docs
 weight: 60
 url: /net/aspose.slides/coloroperationcollection/clear/

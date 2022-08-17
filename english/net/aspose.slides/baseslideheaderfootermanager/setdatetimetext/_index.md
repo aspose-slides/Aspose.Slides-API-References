@@ -1,7 +1,7 @@
 ---
 title: SetDateTimeText
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Sets text to slide date-time placeholder.
 type: docs
 weight: 40
 url: /net/aspose.slides/baseslideheaderfootermanager/setdatetimetext/

@@ -1,7 +1,7 @@
 ---
 title: LinkFileName
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the full path to a linked file. Short file name will be used. Read-only String.
 type: docs
 weight: 70
 url: /net/aspose.slides/oleobjectframe/linkfilename/

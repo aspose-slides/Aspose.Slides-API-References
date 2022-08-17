@@ -1,7 +1,7 @@
 ---
 title: ParentComment
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Gets or sets parent comment. Read/write ICommentaspose.slides/icomment.
 type: docs
 weight: 30
 url: /net/aspose.slides/comment/parentcomment/

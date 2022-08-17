@@ -1,7 +1,7 @@
 ---
 title: UpdateAutomatic
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Determines if the linked embedded object is automatically updated when the presentation is opened or printed. Read/write Boolean.
 type: docs
 weight: 130
 url: /net/aspose.slides/ioleobjectframe/updateautomatic/

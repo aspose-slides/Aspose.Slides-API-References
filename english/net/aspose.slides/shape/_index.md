@@ -1,9 +1,9 @@
 ---
 title: Shape
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents a shape on a slide.
 type: docs
-weight: 9060
+weight: 9080
 url: /net/aspose.slides/shape/
 ---
 ## Shape class
@@ -55,11 +55,11 @@ public class Shape : IShape
 | Name | Description |
 | --- | --- |
 | [AddPlaceholder](../../aspose.slides/shape/addplaceholder)(IPlaceholder) | Adds a new placeholder if there is no and sets placeholder properties to a specified one. |
-| [GetThumbnail](../../aspose.slides/shape/getthumbnail)() | Returns shape thumbnail. ShapeThumbnailBounds.Shape shape thumbnail bounds type is used by default. |
-| [GetThumbnail](../../aspose.slides/shape/getthumbnail)(ShapeThumbnailBounds, float, float) | Returns shape thumbnail. |
+| [GetThumbnail](../../aspose.slides/shape/getthumbnail#getthumbnail)() | Returns shape thumbnail. ShapeThumbnailBounds.Shape shape thumbnail bounds type is used by default. |
+| [GetThumbnail](../../aspose.slides/shape/getthumbnail#getthumbnail_1)(ShapeThumbnailBounds, float, float) | Returns shape thumbnail. |
 | [RemovePlaceholder](../../aspose.slides/shape/removeplaceholder)() | Defines that this shape isn't a placeholder. |
-| [WriteAsSvg](../../aspose.slides/shape/writeassvg)(Stream) | Saves content of Shape as SVG file. |
-| [WriteAsSvg](../../aspose.slides/shape/writeassvg)(Stream, ISVGOptions) | Saves content of Shape as SVG file. |
+| [WriteAsSvg](../../aspose.slides/shape/writeassvg#writeassvg)(Stream) | Saves content of Shape as SVG file. |
+| [WriteAsSvg](../../aspose.slides/shape/writeassvg#writeassvg_1)(Stream, ISVGOptions) | Saves content of Shape as SVG file. |
 
 ### See Also
 

@@ -1,7 +1,7 @@
 ---
 title: ReadOnlyRecommended
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Gets or sets read-only recommendation. Read/write Boolean.
 type: docs
 weight: 60
 url: /net/aspose.slides/protectionmanager/readonlyrecommended/

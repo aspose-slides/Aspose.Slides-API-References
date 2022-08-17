@@ -1,9 +1,9 @@
 ---
 title: PathFillModeType
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Specifies the manner in which a path should be filled
 type: docs
-weight: 8600
+weight: 8620
 url: /net/aspose.slides/pathfillmodetype/
 ---
 ## PathFillModeType enumeration
@@ -14,7 +14,7 @@ Specifies the manner in which a path should be filled
 public enum PathFillModeType : byte
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

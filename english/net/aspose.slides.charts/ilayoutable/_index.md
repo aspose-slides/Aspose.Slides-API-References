@@ -1,9 +1,9 @@
 ---
 title: ILayoutable
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Specifies the exact position of a chart element.
 type: docs
-weight: 1980
+weight: 2000
 url: /net/aspose.slides.charts/ilayoutable/
 ---
 ## ILayoutable interface

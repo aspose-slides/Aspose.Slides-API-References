@@ -1,7 +1,7 @@
 ---
 title: GetBackgroundFillStyles
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns a collection of theme defined background fill styles.
 type: docs
 weight: 10
 url: /net/aspose.slides.theme/iformatschemeeffectivedata/getbackgroundfillstyles/
@@ -18,7 +18,7 @@ public IFillFormatCollectionEffectiveData GetBackgroundFillStyles(Color styleCol
 | --- | --- | --- |
 | styleColor | Color | Color Color |
 
-## Return Value
+### Return Value
 
 Collection of effective background fill formats [`IFillFormatCollectionEffectiveData`](../../ifillformatcollectioneffectivedata)
 

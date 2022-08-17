@@ -1,7 +1,7 @@
 ---
 title: Remove
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Removes the first occurrence of a specific object from the collection.
 type: docs
 weight: 90
 url: /net/aspose.slides/customxmlpartcollection/remove/
@@ -18,7 +18,7 @@ public bool Remove(ICustomXmlPart item)
 | --- | --- | --- |
 | item | ICustomXmlPart | The custom xml part to remove. |
 
-## Return Value
+### Return Value
 
 `true` if item is successfully removed; otherwise, `false`.
 

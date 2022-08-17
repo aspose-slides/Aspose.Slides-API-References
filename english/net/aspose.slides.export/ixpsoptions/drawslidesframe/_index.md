@@ -1,7 +1,7 @@
 ---
 title: DrawSlidesFrame
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: True to draw black frame around each slide. Read/write Boolean.
 type: docs
 weight: 20
 url: /net/aspose.slides.export/ixpsoptions/drawslidesframe/

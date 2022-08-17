@@ -1,7 +1,7 @@
 ---
 title: Frame
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets the shape frames properties. Read/write IShapeFrameaspose.slides/ishapeframe.
 type: docs
 weight: 80
 url: /net/aspose.slides/shape/frame/

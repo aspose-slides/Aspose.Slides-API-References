@@ -1,7 +1,7 @@
 ---
 title: Count
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns count of nodes in collection Read-only Int32 Read-only Int32.
 type: docs
 weight: 10
 url: /net/aspose.slides.smartart/smartartnodecollection/count/

@@ -1,7 +1,7 @@
 ---
 title: Spacing
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the intercharacter spacing increment. Read-only Single.
 type: docs
 weight: 220
 url: /net/aspose.slides/ibaseportionformateffectivedata/spacing/

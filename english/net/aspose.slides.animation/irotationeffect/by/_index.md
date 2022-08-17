@@ -1,7 +1,7 @@
 ---
 title: By
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Describes the relative offset value for the animation. Read/write Single.
 type: docs
 weight: 20
 url: /net/aspose.slides.animation/irotationeffect/by/

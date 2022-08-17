@@ -1,7 +1,7 @@
 ---
 title: FillType
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the fill type. Read-only FillTypeaspose.slides/filltype.
 type: docs
 weight: 20
 url: /net/aspose.slides/ilinefillformateffectivedata/filltype/

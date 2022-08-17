@@ -1,7 +1,7 @@
 ---
 title: ResourceLoading
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Callback method which regulates external resources loading.
 type: docs
 weight: 10
 url: /net/aspose.slides/iresourceloadingcallback/resourceloading/
@@ -18,7 +18,7 @@ public ResourceLoadingAction ResourceLoading(IResourceLoadingArgs args)
 | --- | --- | --- |
 | args | IResourceLoadingArgs | The loading resource data [`IResourceLoadingArgs`](../../iresourceloadingargs). |
 
-## Return Value
+### Return Value
 
 The resource loading decision [`ResourceLoadingAction`](../../resourceloadingaction).
 

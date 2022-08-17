@@ -1,7 +1,7 @@
 ---
 title: IsErrorBarsYAllowed
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns if error bars Y allowed for specified series type.
 type: docs
 weight: 170
 url: /net/aspose.slides.charts/charttypecharacterizer/iserrorbarsyallowed/
@@ -18,7 +18,7 @@ public static bool IsErrorBarsYAllowed(ChartType seriesType)
 | --- | --- | --- |
 | seriesType | ChartType | Series type. |
 
-## Return Value
+### Return Value
 
 True if allowed, otherwise false.
 

@@ -1,7 +1,7 @@
 ---
 title: EffectFormat
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns effective effect format. Read-only IEffectFormatEffectiveDataaspose.slides/ieffectformateffectivedata.
 type: docs
 weight: 20
 url: /net/aspose.slides/ibackgroundeffectivedata/effectformat/

@@ -1,7 +1,7 @@
 ---
 title: PathCommand
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Path type of the segment
 type: docs
 weight: 10
 url: /net/aspose.slides/ipathsegment/pathcommand/

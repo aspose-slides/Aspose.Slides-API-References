@@ -1,9 +1,9 @@
 ---
 title: AlphaBiLevel
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents an Alpha Bi-Level effect. Alpha Opacity values less than the threshold are changed to 0 fully transparent and alpha values greater than or equal to the threshold are changed to 100 fully opaque.
 type: docs
-weight: 2670
+weight: 2690
 url: /net/aspose.slides.effects/alphabilevel/
 ---
 ## AlphaBiLevel class

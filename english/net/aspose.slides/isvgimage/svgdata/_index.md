@@ -1,7 +1,7 @@
 ---
 title: SvgData
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns SVG data. Read-only Byte.
 type: docs
 weight: 40
 url: /net/aspose.slides/isvgimage/svgdata/

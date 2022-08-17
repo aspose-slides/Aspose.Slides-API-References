@@ -1,12 +1,12 @@
 ---
 title: ToArray
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates and returns an array with all shapse in it.
 type: docs
 weight: 400
 url: /net/aspose.slides/ishapecollection/toarray/
 ---
-## IShapeCollection.ToArray method (1 of 2)
+## ToArray() {#toarray}
 
 Creates and returns an array with all shapse in it.
 
@@ -14,7 +14,7 @@ Creates and returns an array with all shapse in it.
 public IShape[] ToArray()
 ```
 
-## Return Value
+### Return Value
 
 Array of [`IShape`](../../ishape)
 
@@ -27,7 +27,7 @@ Array of [`IShape`](../../ishape)
 
 ---
 
-## IShapeCollection.ToArray method (2 of 2)
+## ToArray(int, int) {#toarray_1}
 
 Creates and returns an array with all shapes from the specified range in it.
 
@@ -40,7 +40,7 @@ public IShape[] ToArray(int startIndex, int count)
 | startIndex | Int32 | An index of a first shape to return. |
 | count | Int32 | A number of shapes to return. |
 
-## Return Value
+### Return Value
 
 Array of [`IShape`](../../ishape)
 

@@ -1,7 +1,7 @@
 ---
 title: TextCapType
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the type of text capitalization. Read-only TextCapTypeaspose.slides/textcaptype.
 type: docs
 weight: 250
 url: /net/aspose.slides/ibaseportionformateffectivedata/textcaptype/

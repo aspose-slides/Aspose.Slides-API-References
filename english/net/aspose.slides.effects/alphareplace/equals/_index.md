@@ -1,7 +1,7 @@
 ---
 title: Equals
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Determines whether the specified AlphaReplaceaspose.slides.effects/alphareplace is equal to the current AlphaReplaceaspose.slides.effects/alphareplace.
 type: docs
 weight: 10
 url: /net/aspose.slides.effects/alphareplace/equals/
@@ -18,7 +18,7 @@ public override bool Equals(object obj)
 | --- | --- | --- |
 | obj | Object | The [`AlphaReplace`](../../alphareplace) to compare. |
 
-## Return Value
+### Return Value
 
 true if objects are equal; otherwise, false.
 

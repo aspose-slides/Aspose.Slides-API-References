@@ -1,7 +1,7 @@
 ---
 title: ActualY
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Specifies actual top of the chart element relative to the left top corner of the chart. Call method IChart.ValidateChartLayout before to get actual values. Read Single.
 type: docs
 weight: 40
 url: /net/aspose.slides.charts/chartdatapoint/actualy/

@@ -1,7 +1,7 @@
 ---
 title: SlidesText
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: An array of SlideTextaspose.slides/islidetext contains a presentations text.
 type: docs
 weight: 10
 url: /net/aspose.slides/ipresentationtext/slidestext/

@@ -1,7 +1,7 @@
 ---
 title: Add
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Adds the new image effect to the end of a collection.
 type: docs
 weight: 40
 url: /net/aspose.slides.effects/imagetransformoperationcollection/add/

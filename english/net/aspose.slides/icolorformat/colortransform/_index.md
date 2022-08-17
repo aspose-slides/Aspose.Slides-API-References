@@ -1,7 +1,7 @@
 ---
 title: ColorTransform
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the collection of color transformations applied to a color. Read-only IColorOperationCollectionaspose.slides/icoloroperationcollection.
 type: docs
 weight: 40
 url: /net/aspose.slides/icolorformat/colortransform/

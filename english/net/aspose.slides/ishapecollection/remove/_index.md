@@ -1,7 +1,7 @@
 ---
 title: Remove
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Removes the first occurrence of a specific shape from the collection.
 type: docs
 weight: 370
 url: /net/aspose.slides/ishapecollection/remove/

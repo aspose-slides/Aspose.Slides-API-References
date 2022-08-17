@@ -1,9 +1,9 @@
 ---
 title: IRowFormat
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents format of a table row.
 type: docs
-weight: 6310
+weight: 6330
 url: /net/aspose.slides/irowformat/
 ---
 ## IRowFormat interface

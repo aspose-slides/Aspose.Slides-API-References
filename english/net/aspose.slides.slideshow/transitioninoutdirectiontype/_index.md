@@ -1,9 +1,9 @@
 ---
 title: TransitionInOutDirectionType
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represent in or out direction transition types.
 type: docs
-weight: 9590
+weight: 9610
 url: /net/aspose.slides.slideshow/transitioninoutdirectiontype/
 ---
 ## TransitionInOutDirectionType enumeration
@@ -14,7 +14,7 @@ Represent in or out direction transition types.
 public enum TransitionInOutDirectionType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

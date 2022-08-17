@@ -1,7 +1,7 @@
 ---
 title: CreateAlphaBiLevel
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates Alpha BiLevel effect.
 type: docs
 weight: 10
 url: /net/aspose.slides.effects/iimagetransformoperationfactory/createalphabilevel/
@@ -18,7 +18,7 @@ public IAlphaBiLevel CreateAlphaBiLevel(float threshold)
 | --- | --- | --- |
 | threshold | Single | Threshold. |
 
-## Return Value
+### Return Value
 
 Alpha BiLevel effect.
 

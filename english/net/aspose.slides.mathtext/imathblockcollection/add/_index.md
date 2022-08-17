@@ -1,7 +1,7 @@
 ---
 title: Add
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Adds IMathBlock to the end of collection.
 type: docs
 weight: 40
 url: /net/aspose.slides.mathtext/imathblockcollection/add/

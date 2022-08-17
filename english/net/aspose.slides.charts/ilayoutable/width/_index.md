@@ -1,7 +1,7 @@
 ---
 title: Width
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Specifies the width of the chart element as a fraction of the width of the chart. Read/write Single.
 type: docs
 weight: 50
 url: /net/aspose.slides.charts/ilayoutable/width/

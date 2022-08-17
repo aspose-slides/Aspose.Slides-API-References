@@ -1,7 +1,7 @@
 ---
 title: IndexOf
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns an index of the specified rule in the collection.
 type: docs
 weight: 70
 url: /net/aspose.slides/ifontfallbackrule/indexof/
@@ -18,7 +18,7 @@ public int IndexOf(string fontName)
 | --- | --- | --- |
 | fontName | String | Font's name to find. |
 
-## Return Value
+### Return Value
 
 Index of a font or -1 if font not found in list.
 

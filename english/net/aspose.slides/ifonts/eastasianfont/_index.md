@@ -1,7 +1,7 @@
 ---
 title: EastAsianFont
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets the East Asian font. Read/write IFontDataaspose.slides/ifontdata.
 type: docs
 weight: 20
 url: /net/aspose.slides/ifonts/eastasianfont/

@@ -1,7 +1,7 @@
 ---
 title: CreateSoftEdge
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Creates Soft Edge effect.
 type: docs
 weight: 70
 url: /net/aspose.slides.effects/ieffectfactory/createsoftedge/
@@ -14,7 +14,7 @@ Creates Soft Edge effect.
 public ISoftEdge CreateSoftEdge()
 ```
 
-## Return Value
+### Return Value
 
 Soft Edge effect.
 

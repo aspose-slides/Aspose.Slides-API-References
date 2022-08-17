@@ -1,7 +1,7 @@
 ---
 title: GetEffectsByParagraph
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns array of effects for the specified paragraph.
 type: docs
 weight: 80
 url: /net/aspose.slides.animation/isequence/geteffectsbyparagraph/
@@ -18,7 +18,7 @@ public IEffect[] GetEffectsByParagraph(IParagraph paragraph)
 | --- | --- | --- |
 | paragraph | IParagraph | Paragraph object [`IParagraph`](../../../aspose.slides/iparagraph) |
 
-## Return Value
+### Return Value
 
 Array of effects [`IEffect`](../../ieffect)
 

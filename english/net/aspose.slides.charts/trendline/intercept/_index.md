@@ -1,7 +1,7 @@
 ---
 title: Intercept
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Specifies the value where the trendline shall cross the y axis. This property shall be supported only when the trendline type is exp linear or poly. Read/write Double.
 type: docs
 weight: 70
 url: /net/aspose.slides.charts/trendline/intercept/

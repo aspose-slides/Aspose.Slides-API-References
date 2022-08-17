@@ -1,7 +1,7 @@
 ---
 title: GetConcatenatedValuesFromCells
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Concatenation string from all cells string values.
 type: docs
 weight: 60
 url: /net/aspose.slides.charts/ichartcellcollection/getconcatenatedvaluesfromcells/
@@ -14,7 +14,7 @@ Concatenation string from all cells string values.
 public string GetConcatenatedValuesFromCells()
 ```
 
-## Return Value
+### Return Value
 
 Resulting string String
 

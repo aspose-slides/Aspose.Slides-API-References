@@ -1,7 +1,7 @@
 ---
 title: Layout
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns or sets layout of the SmartArt object. Read/write SmartArtLayoutTypeaspose.slides.smartart/smartartlayouttype.
 type: docs
 weight: 40
 url: /net/aspose.slides.smartart/smartart/layout/

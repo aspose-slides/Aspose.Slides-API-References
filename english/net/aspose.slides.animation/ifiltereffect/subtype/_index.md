@@ -1,7 +1,7 @@
 ---
 title: Subtype
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents subtype of filter effect. Read/write FilterEffectSubtypeaspose.slides.animation/filtereffectsubtype.
 type: docs
 weight: 30
 url: /net/aspose.slides.animation/ifiltereffect/subtype/

@@ -1,7 +1,7 @@
 ---
 title: DataSourceTypeForErrorBarsCustomValues
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Specifies the type of values in ChartDataPoint.ErrorBarsCustomValues properties listþ Read-only IDataSourceTypeForErrorBarsCustomValuesaspose.slides.charts/idatasourcetypeforerrorbarscustomvalues.
 type: docs
 weight: 20
 url: /net/aspose.slides.charts/ichartdatapointcollection/datasourcetypeforerrorbarscustomvalues/

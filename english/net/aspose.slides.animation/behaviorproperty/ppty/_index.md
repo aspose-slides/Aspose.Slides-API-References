@@ -1,7 +1,7 @@
 ---
 title: PptY
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents ppt_y property
 type: docs
 weight: 560
 url: /net/aspose.slides.animation/behaviorproperty/ppty/

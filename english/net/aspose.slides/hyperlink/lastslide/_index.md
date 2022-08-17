@@ -1,7 +1,7 @@
 ---
 title: LastSlide
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns a hyperlink to the last slide of the presentation. Read-only Hyperlinkaspose.slides/hyperlink.
 type: docs
 weight: 40
 url: /net/aspose.slides/hyperlink/lastslide/

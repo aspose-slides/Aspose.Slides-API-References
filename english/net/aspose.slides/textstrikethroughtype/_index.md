@@ -1,9 +1,9 @@
 ---
 title: TextStrikethroughType
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents the type of text strikethrough.
 type: docs
-weight: 10180
+weight: 10230
 url: /net/aspose.slides/textstrikethroughtype/
 ---
 ## TextStrikethroughType enumeration
@@ -14,7 +14,7 @@ Represents the type of text strikethrough.
 public enum TextStrikethroughType : sbyte
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

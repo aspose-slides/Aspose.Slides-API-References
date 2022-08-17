@@ -1,7 +1,7 @@
 ---
 title: NumberedBulletStyle
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns the style of a numbered bullet. Read-only NumberedBulletStyleaspose.slides/numberedbulletstyle.
 type: docs
 weight: 90
 url: /net/aspose.slides/ibulletformateffectivedata/numberedbulletstyle/

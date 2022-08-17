@@ -1,7 +1,7 @@
 ---
 title: SetDefaultMasterNotesSlide
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Sets defalut master notes slide for related notes slide.
 type: docs
 weight: 30
 url: /net/aspose.slides/imasternotesslidemanager/setdefaultmasternotesslide/
@@ -14,7 +14,7 @@ Sets defalut master notes slide for related notes slide.
 public IMasterNotesSlide SetDefaultMasterNotesSlide()
 ```
 
-## Return Value
+### Return Value
 
 Defalut master notes slide [`IMasterNotesSlide`](../../imasternotesslide)
 

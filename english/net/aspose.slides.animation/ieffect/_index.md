@@ -1,7 +1,7 @@
 ---
 title: IEffect
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents animation effect.
 type: docs
 weight: 390
 url: /net/aspose.slides.animation/ieffect/
@@ -21,6 +21,7 @@ public interface IEffect
 | [Behaviors](../../aspose.slides.animation/ieffect/behaviors) { get; set; } | Returns collection of behavior for effect. Read/write [`IBehaviorCollection`](../ibehaviorcollection). |
 | [PresetClassType](../../aspose.slides.animation/ieffect/presetclasstype) { get; set; } | Defines class of effect. Read/write [`EffectPresetClassType`](../effectpresetclasstype). |
 | [Sequence](../../aspose.slides.animation/ieffect/sequence) { get; } | Returns a sequence for an effect. Read-only [`ISequence`](../isequence). |
+| [Sound](../../aspose.slides.animation/ieffect/sound) { get; set; } | Defined embedded sound for effect. Read/write [`IAudio`](../../aspose.slides/iaudio). |
 | [Subtype](../../aspose.slides.animation/ieffect/subtype) { get; set; } | Defines subtype of effect. Read/write [`EffectSubtype`](../effectsubtype). |
 | [TargetShape](../../aspose.slides.animation/ieffect/targetshape) { get; } | Returns target shape for effect. Read-only [`IShape`](../../aspose.slides/ishape). |
 | [TextAnimation](../../aspose.slides.animation/ieffect/textanimation) { get; } | Returns text animation. Read-only [`ITextAnimation`](../itextanimation). |

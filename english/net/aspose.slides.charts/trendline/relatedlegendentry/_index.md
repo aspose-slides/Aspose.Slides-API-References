@@ -1,7 +1,7 @@
 ---
 title: RelatedLegendEntry
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents legend entry related with this trendline Read-only ILegendEntryPropertiesaspose.slides.charts/ilegendentryproperties.
 type: docs
 weight: 100
 url: /net/aspose.slides.charts/trendline/relatedlegendentry/

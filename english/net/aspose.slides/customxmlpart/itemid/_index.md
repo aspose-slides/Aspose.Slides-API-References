@@ -1,7 +1,7 @@
 ---
 title: ItemId
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Specifies a globally unique identifier GUID that uniquely identifies a single custom XML part within an Office Open XML document. Read-only Guid.
 type: docs
 weight: 10
 url: /net/aspose.slides/customxmlpart/itemid/

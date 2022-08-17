@@ -1,7 +1,7 @@
 ---
 title: Adjustments
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Returns a collection of shapes adjustment values. Read-only IAdjustValueCollectionaspose.slides/iadjustvaluecollection.
 type: docs
 weight: 10
 url: /net/aspose.slides/igeometryshape/adjustments/

@@ -1,7 +1,7 @@
 ---
 title: Equals
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Determines whether the two TransitionValueBase instances are equal.
 type: docs
 weight: 10
 url: /net/aspose.slides.slideshow/transitionvaluebase/equals/
@@ -18,7 +18,7 @@ public override bool Equals(object obj)
 | --- | --- | --- |
 | obj | Object | The TransitionValueBase to compare with the current TransitionValueBase. |
 
-## Return Value
+### Return Value
 
 **true** if the specified TransitionValueBase is equal to the current TransitionValueBase; otherwise, **false**.
 

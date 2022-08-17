@@ -1,9 +1,9 @@
 ---
 title: RectangleAlignment
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Defines 2-dimension allignment.
 type: docs
-weight: 8960
+weight: 8980
 url: /net/aspose.slides/rectanglealignment/
 ---
 ## RectangleAlignment enumeration
@@ -14,7 +14,7 @@ Defines 2-dimension allignment.
 public enum RectangleAlignment : sbyte
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

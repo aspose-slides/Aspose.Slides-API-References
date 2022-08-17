@@ -1,9 +1,9 @@
 ---
 title: Subtype
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Defines subtype of effect. Read/write EffectSubtypeaspose.slides.animation/effectsubtype.
 type: docs
-weight: 40
+weight: 50
 url: /net/aspose.slides.animation/ieffect/subtype/
 ---
 ## IEffect.Subtype property

@@ -1,7 +1,7 @@
 ---
 title: SelectLocked
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Determines whether selecting this shape is forbidden. Read/write Boolean.
 type: docs
 weight: 50
 url: /net/aspose.slides/graphicalobjectlock/selectlocked/
