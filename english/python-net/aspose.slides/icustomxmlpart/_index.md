@@ -3,7 +3,7 @@ title: ICustomXmlPart
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 1220
+weight: 1240
 url: /python-net/aspose.slides/icustomxmlpart/
 ---
 

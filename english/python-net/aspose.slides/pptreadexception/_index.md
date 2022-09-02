@@ -3,7 +3,7 @@ title: PptReadException
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 3430
+weight: 3450
 url: /python-net/aspose.slides/pptreadexception/
 ---
 

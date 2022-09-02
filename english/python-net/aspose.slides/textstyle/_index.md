@@ -3,7 +3,7 @@ title: TextStyle
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 3900
+weight: 3960
 url: /python-net/aspose.slides/textstyle/
 ---
 

@@ -3,7 +3,7 @@ title: FontSubstRuleCollection
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 550
+weight: 570
 url: /python-net/aspose.slides/fontsubstrulecollection/
 ---
 

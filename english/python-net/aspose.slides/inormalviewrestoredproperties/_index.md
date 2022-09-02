@@ -3,7 +3,7 @@ title: INormalViewRestoredProperties
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 1950
+weight: 1970
 url: /python-net/aspose.slides/inormalviewrestoredproperties/
 ---
 

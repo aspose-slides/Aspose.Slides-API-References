@@ -3,7 +3,7 @@ title: ICellFormat
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 1020
+weight: 1040
 url: /python-net/aspose.slides/icellformat/
 ---
 

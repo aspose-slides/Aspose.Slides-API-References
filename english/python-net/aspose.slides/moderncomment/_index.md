@@ -3,7 +3,7 @@ title: ModernComment
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 3110
+weight: 3130
 url: /python-net/aspose.slides/moderncomment/
 ---
 

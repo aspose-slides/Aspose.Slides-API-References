@@ -3,7 +3,7 @@ title: Presentation
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 3500
+weight: 3520
 url: /python-net/aspose.slides/presentation/
 ---
 
@@ -42,6 +42,7 @@ The Presentation type exposes the following members:
 |images|Returns the collection of all images in the presentation.<br/>            Read-only [IImageCollection](/slides/python-net/aspose.slides/iimagecollection/).|
 |audios|Returns the collection of all embedded audio files in the presentation.<br/>            Read-only [IAudioCollection](/slides/python-net/aspose.slides/iaudiocollection/).|
 |videos|Returns the collection of all embedded video files in the presentation.<br/>            Read-only [IVideoCollection](/slides/python-net/aspose.slides/ivideocollection/).|
+|slide_show_settings|Returns the slide show settings for the presentation.|
 |digital_signatures|Returns the collection of signatures used to sign the presentation.<br/>            Read-only [IDigitalSignatureCollection](/slides/python-net/aspose.slides/idigitalsignaturecollection/).|
 |custom_data|Returns the presentation's custom data.<br/>            Read-only [ICustomData](/slides/python-net/aspose.slides/icustomdata/).|
 |all_custom_xml_parts|Returns all custom data parts in the presentaion.<br/>            Read-only [ICustomXmlPart](/slides/python-net/aspose.slides/icustomxmlpart/)[].|

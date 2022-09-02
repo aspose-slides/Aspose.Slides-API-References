@@ -3,7 +3,7 @@ title: ImageWrapperFactory
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 2890
+weight: 2910
 url: /python-net/aspose.slides/imagewrapperfactory/
 ---
 

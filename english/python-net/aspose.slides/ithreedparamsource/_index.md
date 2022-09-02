@@ -3,7 +3,7 @@ title: IThreeDParamSource
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 2800
+weight: 2820
 url: /python-net/aspose.slides/ithreedparamsource/
 ---
 

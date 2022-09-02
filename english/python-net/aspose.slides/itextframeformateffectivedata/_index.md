@@ -3,7 +3,7 @@ title: ITextFrameFormatEffectiveData
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 2740
+weight: 2760
 url: /python-net/aspose.slides/itextframeformateffectivedata/
 ---
 

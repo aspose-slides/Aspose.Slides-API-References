@@ -3,7 +3,7 @@ title: ShapesAlignmentType
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 9750
+weight: 9810
 url: /python-net/aspose.slides/shapesalignmenttype/
 ---
 

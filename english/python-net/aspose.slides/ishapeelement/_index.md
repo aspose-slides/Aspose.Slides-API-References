@@ -3,7 +3,7 @@ title: IShapeElement
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 2440
+weight: 2460
 url: /python-net/aspose.slides/ishapeelement/
 ---
 

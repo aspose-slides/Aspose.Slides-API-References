@@ -3,7 +3,7 @@ title: ISlideCollection
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 2500
+weight: 2520
 url: /python-net/aspose.slides/islidecollection/
 ---
 

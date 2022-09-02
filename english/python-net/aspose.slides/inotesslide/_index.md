@@ -3,7 +3,7 @@ title: INotesSlide
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 1970
+weight: 1990
 url: /python-net/aspose.slides/inotesslide/
 ---
 

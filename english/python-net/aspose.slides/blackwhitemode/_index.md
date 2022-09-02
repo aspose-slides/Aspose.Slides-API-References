@@ -3,7 +3,7 @@ title: BlackWhiteMode
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 9220
+weight: 9280
 url: /python-net/aspose.slides/blackwhitemode/
 ---
 

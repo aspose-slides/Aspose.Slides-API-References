@@ -3,7 +3,7 @@ title: ITextStyleEffectiveData
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 2770
+weight: 2790
 url: /python-net/aspose.slides/itextstyleeffectivedata/
 ---
 

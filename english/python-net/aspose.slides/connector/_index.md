@@ -3,7 +3,7 @@ title: Connector
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 340
+weight: 360
 url: /python-net/aspose.slides/connector/
 ---
 

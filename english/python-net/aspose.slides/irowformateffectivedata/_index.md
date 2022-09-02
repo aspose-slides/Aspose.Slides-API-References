@@ -3,7 +3,7 @@ title: IRowFormatEffectiveData
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 2350
+weight: 2370
 url: /python-net/aspose.slides/irowformateffectivedata/
 ---
 

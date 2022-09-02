@@ -3,7 +3,7 @@ title: Camera
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 190
+weight: 210
 url: /python-net/aspose.slides/camera/
 ---
 

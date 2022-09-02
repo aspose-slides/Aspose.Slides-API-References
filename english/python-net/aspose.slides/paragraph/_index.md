@@ -3,7 +3,7 @@ title: Paragraph
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 3250
+weight: 3270
 url: /python-net/aspose.slides/paragraph/
 ---
 
