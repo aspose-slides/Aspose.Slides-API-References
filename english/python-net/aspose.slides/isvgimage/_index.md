@@ -3,7 +3,7 @@ title: ISvgImage
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 2630
+weight: 2650
 url: /python-net/aspose.slides/isvgimage/
 ---
 

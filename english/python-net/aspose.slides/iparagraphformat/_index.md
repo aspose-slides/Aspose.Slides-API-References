@@ -3,7 +3,7 @@ title: IParagraphFormat
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 2060
+weight: 2080
 url: /python-net/aspose.slides/iparagraphformat/
 ---
 

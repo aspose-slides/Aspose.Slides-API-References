@@ -3,7 +3,7 @@ title: CommentAuthorCollection
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 310
+weight: 330
 url: /python-net/aspose.slides/commentauthorcollection/
 ---
 

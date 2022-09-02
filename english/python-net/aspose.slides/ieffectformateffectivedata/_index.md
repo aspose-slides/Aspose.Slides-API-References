@@ -3,7 +3,7 @@ title: IEffectFormatEffectiveData
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 1280
+weight: 1300
 url: /python-net/aspose.slides/ieffectformateffectivedata/
 ---
 

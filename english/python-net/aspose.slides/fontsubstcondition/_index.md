@@ -3,7 +3,7 @@ title: FontSubstCondition
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 9340
+weight: 9400
 url: /python-net/aspose.slides/fontsubstcondition/
 ---
 

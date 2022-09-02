@@ -3,7 +3,7 @@ title: IAutoShapeLock
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 820
+weight: 840
 url: /python-net/aspose.slides/iautoshapelock/
 ---
 

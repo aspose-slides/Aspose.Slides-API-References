@@ -3,7 +3,7 @@ title: LineStyle
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 9490
+weight: 9550
 url: /python-net/aspose.slides/linestyle/
 ---
 

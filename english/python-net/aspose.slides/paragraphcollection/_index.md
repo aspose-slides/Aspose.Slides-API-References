@@ -3,7 +3,7 @@ title: ParagraphCollection
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 3260
+weight: 3280
 url: /python-net/aspose.slides/paragraphcollection/
 ---
 

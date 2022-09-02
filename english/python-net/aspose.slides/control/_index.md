@@ -3,7 +3,7 @@ title: Control
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 360
+weight: 380
 url: /python-net/aspose.slides/control/
 ---
 

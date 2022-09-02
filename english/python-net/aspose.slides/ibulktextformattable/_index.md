@@ -3,7 +3,7 @@ title: IBulkTextFormattable
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 950
+weight: 970
 url: /python-net/aspose.slides/ibulktextformattable/
 ---
 

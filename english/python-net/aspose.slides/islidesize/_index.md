@@ -3,7 +3,7 @@ title: ISlideSize
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 2540
+weight: 2560
 url: /python-net/aspose.slides/islidesize/
 ---
 

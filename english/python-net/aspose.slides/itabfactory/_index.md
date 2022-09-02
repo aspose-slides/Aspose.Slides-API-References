@@ -3,7 +3,7 @@ title: ITabFactory
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 2670
+weight: 2690
 url: /python-net/aspose.slides/itabfactory/
 ---
 

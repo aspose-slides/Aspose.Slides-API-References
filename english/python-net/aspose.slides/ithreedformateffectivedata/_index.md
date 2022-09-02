@@ -3,7 +3,7 @@ title: IThreeDFormatEffectiveData
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 2790
+weight: 2810
 url: /python-net/aspose.slides/ithreedformateffectivedata/
 ---
 

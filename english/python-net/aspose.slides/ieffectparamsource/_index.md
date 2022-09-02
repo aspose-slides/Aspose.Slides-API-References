@@ -3,7 +3,7 @@ title: IEffectParamSource
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 1290
+weight: 1310
 url: /python-net/aspose.slides/ieffectparamsource/
 ---
 

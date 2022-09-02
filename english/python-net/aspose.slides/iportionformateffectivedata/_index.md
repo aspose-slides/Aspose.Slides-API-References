@@ -3,7 +3,7 @@ title: IPortionFormatEffectiveData
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 2210
+weight: 2230
 url: /python-net/aspose.slides/iportionformateffectivedata/
 ---
 

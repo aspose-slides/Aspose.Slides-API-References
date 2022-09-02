@@ -3,7 +3,7 @@ title: INotesSize
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 1960
+weight: 1980
 url: /python-net/aspose.slides/inotessize/
 ---
 

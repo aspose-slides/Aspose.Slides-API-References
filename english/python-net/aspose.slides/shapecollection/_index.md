@@ -3,7 +3,7 @@ title: ShapeCollection
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 3650
+weight: 3680
 url: /python-net/aspose.slides/shapecollection/
 ---
 

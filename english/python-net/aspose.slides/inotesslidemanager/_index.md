@@ -3,7 +3,7 @@ title: INotesSlideManager
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 1990
+weight: 2010
 url: /python-net/aspose.slides/inotesslidemanager/
 ---
 

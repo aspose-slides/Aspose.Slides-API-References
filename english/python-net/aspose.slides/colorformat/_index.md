@@ -3,7 +3,7 @@ title: ColorFormat
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 230
+weight: 250
 url: /python-net/aspose.slides/colorformat/
 ---
 

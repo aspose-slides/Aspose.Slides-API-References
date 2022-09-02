@@ -3,7 +3,7 @@ title: IGraphicalObjectLock
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 1570
+weight: 1590
 url: /python-net/aspose.slides/igraphicalobjectlock/
 ---
 
