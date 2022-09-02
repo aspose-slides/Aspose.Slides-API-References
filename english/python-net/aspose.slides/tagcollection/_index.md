@@ -3,7 +3,7 @@ title: TagCollection
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 3860
+weight: 3920
 url: /python-net/aspose.slides/tagcollection/
 ---
 

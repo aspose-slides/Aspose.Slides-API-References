@@ -3,7 +3,7 @@ title: BevelPresetType
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 9210
+weight: 9270
 url: /python-net/aspose.slides/bevelpresettype/
 ---
 

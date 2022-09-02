@@ -3,7 +3,7 @@ title: LineFillFormat
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 2990
+weight: 3010
 url: /python-net/aspose.slides/linefillformat/
 ---
 

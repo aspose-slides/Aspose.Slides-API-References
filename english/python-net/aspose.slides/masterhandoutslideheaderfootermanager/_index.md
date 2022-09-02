@@ -3,7 +3,7 @@ title: MasterHandoutSlideHeaderFooterManager
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 3030
+weight: 3050
 url: /python-net/aspose.slides/masterhandoutslideheaderfootermanager/
 ---
 

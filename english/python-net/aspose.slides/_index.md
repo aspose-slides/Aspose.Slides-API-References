@@ -29,6 +29,8 @@ Contains classes for work with Microsoft PowerPoint presentations without utiliz
 |[BaseSlide](/slides/python-net/aspose.slides/baseslide/)|Represents common data for all slide types.|
 |[BaseSlideHeaderFooterManager](/slides/python-net/aspose.slides/baseslideheaderfootermanager/)|Represents manager which holds behavior of the footer, date-time, page number placeholders for all slide types.|
 |[BlobManagementOptions](/slides/python-net/aspose.slides/blobmanagementoptions/)|Represents options which can be used to manage BLOB handling rules and other BLOB settings.|
+|[BrowsedAtKiosk](/slides/python-net/aspose.slides/browsedatkiosk/)|Browsed at a kiosk (full screen)|
+|[BrowsedByIndividual](/slides/python-net/aspose.slides/browsedbyindividual/)|Browsed by individual (window)|
 |[BuildVersionInfo](/slides/python-net/aspose.slides/buildversioninfo/)|Contains information about version of Aspose.Slides.|
 |[BulletFormat](/slides/python-net/aspose.slides/bulletformat/)|Represents paragraph bullet formatting properties.|
 |[Camera](/slides/python-net/aspose.slides/camera/)|Represents Camera.|
@@ -367,6 +369,7 @@ Contains classes for work with Microsoft PowerPoint presentations without utiliz
 |[PresentationHeaderFooterManager](/slides/python-net/aspose.slides/presentationheaderfootermanager/)|Represents manager which holds behavior of all footer, date-time and page number placeholders of presentation.|
 |[PresentationInfo](/slides/python-net/aspose.slides/presentationinfo/)|Information about presentation file|
 |[PresentationText](/slides/python-net/aspose.slides/presentationtext/)|Represents the text extracted from the presentation|
+|[PresentedBySpeaker](/slides/python-net/aspose.slides/presentedbyspeaker/)|Presented by a speaker (full screen)|
 |[ProtectionManager](/slides/python-net/aspose.slides/protectionmanager/)|Presentation password protection management.|
 |[Row](/slides/python-net/aspose.slides/row/)|Represents a row in a table.|
 |[RowCollection](/slides/python-net/aspose.slides/rowcollection/)|Represents table row collection.|
@@ -385,7 +388,10 @@ Contains classes for work with Microsoft PowerPoint presentations without utiliz
 |[Slide](/slides/python-net/aspose.slides/slide/)|Represents a slide in a presentation.|
 |[SlideCollection](/slides/python-net/aspose.slides/slidecollection/)|Represents a collection of a slides.|
 |[SlideHeaderFooterManager](/slides/python-net/aspose.slides/slideheaderfootermanager/)|Represents manager which holds behavior of the slide footer, date-time, page number placeholders.|
+|[SlideShowSettings](/slides/python-net/aspose.slides/slideshowsettings/)|Represents the slide show settings for the presentation.|
+|[SlideShowType](/slides/python-net/aspose.slides/slideshowtype/)|Base slide show settings. Ancestors represent types of the slide show:<br/>             [PresentedBySpeaker](/slides/python-net/aspose.slides/presentedbyspeaker/) Presented by a speaker (full screen)<br/>             [BrowsedByIndividual](/slides/python-net/aspose.slides/browsedbyindividual/) Browsed by individual (window)<br/>             [BrowsedAtKiosk](/slides/python-net/aspose.slides/browsedatkiosk/) Browsed at a kiosk (full screen)|
 |[SlideSize](/slides/python-net/aspose.slides/slidesize/)|Represents a size of slide.|
+|[SlidesRange](/slides/python-net/aspose.slides/slidesrange/)|Slides range|
 |[SpreadsheetOptions](/slides/python-net/aspose.slides/spreadsheetoptions/)|Represents options which can be used to specify additional spreadsheets behavior.|
 |[StreamWrapper](/slides/python-net/aspose.slides/streamwrapper/)|Aspose.IO.Stream wrapper for COM interface.|
 |[StreamWrapperFactory](/slides/python-net/aspose.slides/streamwrapperfactory/)|Factory of StreamWrappers. For COM interface.|

@@ -3,7 +3,7 @@ title: GeometryShape
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 610
+weight: 630
 url: /python-net/aspose.slides/geometryshape/
 ---
 

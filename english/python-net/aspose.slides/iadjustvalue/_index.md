@@ -3,7 +3,7 @@ title: IAdjustValue
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 750
+weight: 770
 url: /python-net/aspose.slides/iadjustvalue/
 ---
 

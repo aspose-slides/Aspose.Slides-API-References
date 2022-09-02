@@ -3,7 +3,7 @@ title: ISlideShowTransition
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 2530
+weight: 2550
 url: /python-net/aspose.slides/islideshowtransition/
 ---
 
@@ -19,6 +19,7 @@ The ISlideShowTransition type exposes the following members:
 |sound_mode|Set or returns sound mode for slide transition.<br/>            Read-write [TransitionSoundMode](/slides/python-net/aspose.slides.slideshow/transitionsoundmode/).|
 |sound_loop|This attribute specifies if the sound will loop until the next sound event occurs in<br/>            slideshow.<br/>            Read-write bool.|
 |advance_on_click|Specifies whether a mouse click will advance the slide or not. If this attribute is not<br/>            specified then a value of true is assumed.<br/>            Read-write bool.|
+|advance_after|This attribute specifies if the slideshow will move to the next slide after a certain time.<br/>            Read/write bool.|
 |advance_after_time|Specifies the time, in milliseconds, after which the transition should start. This setting<br/>            may be used in conjunction with the advClick attribute. If this attribute is not specified<br/>            then it is assumed that no auto-advance will occur.<br/>            Read-write int.|
 |speed|Specifies the transition speed that is to be used when transitioning from the current slide<br/>            to the next.<br/>            Read-write [TransitionSpeed](/slides/python-net/aspose.slides.slideshow/transitionspeed/).|
 |value|Slide show transition value.<br/>            Read-only [ITransitionValueBase](/slides/python-net/aspose.slides.slideshow/itransitionvaluebase/).|

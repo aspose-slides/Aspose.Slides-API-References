@@ -3,7 +3,7 @@ title: GradientShape
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 9360
+weight: 9420
 url: /python-net/aspose.slides/gradientshape/
 ---
 

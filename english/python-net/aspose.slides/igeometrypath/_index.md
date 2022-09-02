@@ -3,7 +3,7 @@ title: IGeometryPath
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 1470
+weight: 1490
 url: /python-net/aspose.slides/igeometrypath/
 ---
 

@@ -3,7 +3,7 @@ title: IAdjustValueCollection
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 760
+weight: 780
 url: /python-net/aspose.slides/iadjustvaluecollection/
 ---
 

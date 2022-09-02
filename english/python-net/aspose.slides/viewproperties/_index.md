@@ -3,7 +3,7 @@ title: ViewProperties
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 3950
+weight: 4010
 url: /python-net/aspose.slides/viewproperties/
 ---
 

@@ -3,7 +3,7 @@ title: GraphicalObjectLock
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 690
+weight: 710
 url: /python-net/aspose.slides/graphicalobjectlock/
 ---
 

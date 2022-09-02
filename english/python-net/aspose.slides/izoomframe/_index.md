@@ -3,7 +3,7 @@ title: IZoomFrame
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 2850
+weight: 2870
 url: /python-net/aspose.slides/izoomframe/
 ---
 

@@ -3,7 +3,7 @@ title: GlobalLayoutSlideCollection
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 620
+weight: 640
 url: /python-net/aspose.slides/globallayoutslidecollection/
 ---
 

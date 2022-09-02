@@ -3,7 +3,7 @@ title: BuildVersionInfo
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 170
+weight: 190
 url: /python-net/aspose.slides/buildversioninfo/
 ---
 

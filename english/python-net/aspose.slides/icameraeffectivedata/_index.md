@@ -3,7 +3,7 @@ title: ICameraEffectiveData
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 990
+weight: 1010
 url: /python-net/aspose.slides/icameraeffectivedata/
 ---
 

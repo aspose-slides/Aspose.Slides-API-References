@@ -3,7 +3,7 @@ title: LegacyDiagram
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 2960
+weight: 2980
 url: /python-net/aspose.slides/legacydiagram/
 ---
 

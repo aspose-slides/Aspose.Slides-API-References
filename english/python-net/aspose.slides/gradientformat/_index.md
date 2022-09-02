@@ -3,7 +3,7 @@ title: GradientFormat
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 630
+weight: 650
 url: /python-net/aspose.slides/gradientformat/
 ---
 

@@ -3,7 +3,7 @@ title: ShapeElementFillSource
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 9710
+weight: 9770
 url: /python-net/aspose.slides/shapeelementfillsource/
 ---
 

@@ -3,7 +3,7 @@ title: CommentCollection
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 320
+weight: 340
 url: /python-net/aspose.slides/commentcollection/
 ---
 

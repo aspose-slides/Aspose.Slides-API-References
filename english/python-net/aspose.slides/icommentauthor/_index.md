@@ -3,7 +3,7 @@ title: ICommentAuthor
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 1120
+weight: 1140
 url: /python-net/aspose.slides/icommentauthor/
 ---
 

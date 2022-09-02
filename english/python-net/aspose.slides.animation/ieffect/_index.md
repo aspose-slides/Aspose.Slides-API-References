@@ -23,6 +23,7 @@ The IEffect type exposes the following members:
 |behaviors|Returns collection of behavior for effect.<br/>            Read/write [IBehaviorCollection](/slides/python-net/aspose.slides.animation/ibehaviorcollection/).|
 |timing|Defines timing value for effect.<br/>            Read/write [ITiming](/slides/python-net/aspose.slides.animation/itiming/).|
 |target_shape|Returns target shape for effect.<br/>            Read-only [IShape](/slides/python-net/aspose.slides/ishape/).|
+|sound|Defined embedded sound for effect.<br/>            Read/write [IAudio](/slides/python-net/aspose.slides/iaudio/).|
 
 ### See Also
 

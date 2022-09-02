@@ -3,7 +3,7 @@ title: ColumnCollection
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 270
+weight: 290
 url: /python-net/aspose.slides/columncollection/
 ---
 

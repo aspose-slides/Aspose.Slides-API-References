@@ -3,7 +3,7 @@ title: IDocumentProperties
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 1260
+weight: 1280
 url: /python-net/aspose.slides/idocumentproperties/
 ---
 
