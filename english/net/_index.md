@@ -14,18 +14,18 @@ is_root: true
 | [Aspose.Slides](./aspose.slides) | Contains classes for work with Microsoft PowerPoint presentations without utilizing Microsoft PowerPoint. |
 | [Aspose.Slides.Animation](./aspose.slides.animation) | Contains classes for work with animation in Microsoft PowerPoint presentations. |
 | [Aspose.Slides.Charts](./aspose.slides.charts) | Contains classes for work with charts in Microsoft PowerPoint presentations. |
-| [Aspose.Slides.DOM.Ole](./aspose.slides.dom.ole) |  |
+| [Aspose.Slides.DOM.Ole](./aspose.slides.dom.ole) | Contains classes for work with OLE objects in Microsoft PowerPoint presentations. |
 | [Aspose.Slides.Effects](./aspose.slides.effects) | Contains classes for work with various effects in Microsoft PowerPoint presentations. |
 | [Aspose.Slides.Export](./aspose.slides.export) | Contains classes for exporting Microsoft PowerPoint presentations to different formats like Html, Pdf, Svg, Xps and others. |
-| [Aspose.Slides.Export.Web](./aspose.slides.export.web) |  |
-| [Aspose.Slides.Export.Xaml](./aspose.slides.export.xaml) |  |
+| [Aspose.Slides.Export.Web](./aspose.slides.export.web) | Contains classes for exporting Microsoft PowerPoint presentations to Html with extension projects. |
+| [Aspose.Slides.Export.Xaml](./aspose.slides.export.xaml) | Contains classes for exporting Microsoft PowerPoint presentations to XAML. |
 | [Aspose.Slides.Import](./aspose.slides.import) | Contains classes importing data into Microsoft PowerPoint presentations. |
-| [Aspose.Slides.Ink](./aspose.slides.ink) |  |
-| [Aspose.Slides.LowCode](./aspose.slides.lowcode) |  |
-| [Aspose.Slides.MathText](./aspose.slides.mathtext) |  |
+| [Aspose.Slides.Ink](./aspose.slides.ink) | Contains classes for work with Ink. |
+| [Aspose.Slides.LowCode](./aspose.slides.lowcode) | Contains classes and methods to handle complex general operations in a low code way. |
+| [Aspose.Slides.MathText](./aspose.slides.mathtext) | Contains classes for work with mathematical text in Microsoft PowerPoint presentations. |
 | [Aspose.Slides.SlideShow](./aspose.slides.slideshow) | Contains classes for managing slideshows and slide transitions |
 | [Aspose.Slides.SmartArt](./aspose.slides.smartart) | Contains classes for work with SmartArt objects |
-| [Aspose.Slides.Spreadsheet](./aspose.slides.spreadsheet) |  |
+| [Aspose.Slides.Spreadsheet](./aspose.slides.spreadsheet) | Contains classes for work with spreadsheet objects in Microsoft PowerPoint presentations. |
 | [Aspose.Slides.Theme](./aspose.slides.theme) | Contains classes for work with different types of themes. |
 | [Aspose.Slides.Util](./aspose.slides.util) | Contains util classes that helps to work with presentations. |
 | [Aspose.Slides.Vba](./aspose.slides.vba) | Contains classes for work with VBA macros |
