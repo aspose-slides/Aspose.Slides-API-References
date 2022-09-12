@@ -3,7 +3,7 @@ title: IMasterSlide
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a master slide in a presentation.
 type: docs
-weight: 5880
+weight: 5890
 url: /net/aspose.slides/imasterslide/
 ---
 ## IMasterSlide interface

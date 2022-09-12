@@ -3,7 +3,7 @@ title: IMathGroupingCharacterFactory
 second_title: Aspose.Sildes for .NET API Reference
 description: Allows to create a math grouping character
 type: docs
-weight: 7610
+weight: 7620
 url: /net/aspose.slides.mathtext/imathgroupingcharacterfactory/
 ---
 ## IMathGroupingCharacterFactory interface

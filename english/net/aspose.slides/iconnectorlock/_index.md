@@ -3,7 +3,7 @@ title: IConnectorLock
 second_title: Aspose.Sildes for .NET API Reference
 description: Determines which operations are disabled on the parent Connector.
 type: docs
-weight: 5140
+weight: 5150
 url: /net/aspose.slides/iconnectorlock/
 ---
 ## IConnectorLock interface

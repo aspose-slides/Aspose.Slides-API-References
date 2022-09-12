@@ -3,7 +3,7 @@ title: ITextFrameFormat
 second_title: Aspose.Sildes for .NET API Reference
 description: Contains the TextFrames formatting properties.
 type: docs
-weight: 6720
+weight: 6730
 url: /net/aspose.slides/itextframeformat/
 ---
 ## ITextFrameFormat interface

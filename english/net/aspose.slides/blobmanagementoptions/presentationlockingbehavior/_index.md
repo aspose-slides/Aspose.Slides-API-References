@@ -1,14 +1,14 @@
 ---
 title: PresentationLockingBehavior
 second_title: Aspose.Sildes for .NET API Reference
-description: Represents the locking behavior for the presentations source stream or file.
+description: This property defines if an instance of the Presentation class can be an owner of the source - file or stream during the instance lifetime. If the instance is an owner it locks the source. This helps to improve memory consumption and performance while working with BLOBs but the source stream or file cant be changed during Presentations instance lifetime.
 type: docs
 weight: 40
 url: /net/aspose.slides/blobmanagementoptions/presentationlockingbehavior/
 ---
 ## BlobManagementOptions.PresentationLockingBehavior property
 
-Represents the locking behavior for the presentation's source (stream or file).
+This property defines if an instance of the Presentation class can be an owner of the source - file or stream during the instance lifetime. If the instance is an owner, it locks the source. This helps to improve memory consumption and performance while working with BLOBs, but the source (stream or file) can't be changed during Presentation's instance lifetime.
 
 ```csharp
 public PresentationLockingBehavior PresentationLockingBehavior { get; set; }

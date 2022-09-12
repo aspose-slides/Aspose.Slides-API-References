@@ -3,7 +3,7 @@ title: ColorScheme
 second_title: Aspose.Sildes for .NET API Reference
 description: Stores theme-defined colors.
 type: docs
-weight: 10310
+weight: 10320
 url: /net/aspose.slides.theme/colorscheme/
 ---
 ## ColorScheme class

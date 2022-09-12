@@ -3,7 +3,7 @@ title: Shape
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a shape on a slide.
 type: docs
-weight: 9080
+weight: 9090
 url: /net/aspose.slides/shape/
 ---
 ## Shape class

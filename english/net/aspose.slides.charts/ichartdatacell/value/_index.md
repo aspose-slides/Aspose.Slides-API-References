@@ -1,17 +1,25 @@
 ---
 title: Value
 second_title: Aspose.Sildes for .NET API Reference
-description: Gets or sets the value. Read/write Object.
+description: Gets or sets the value of a cell. Read/write Object.
 type: docs
 weight: 90
 url: /net/aspose.slides.charts/ichartdatacell/value/
 ---
 ## IChartDataCell.Value property
 
-Gets or sets the value. Read/write Object.
+Gets or sets the value of a cell. Read/write Object.
 
 ```csharp
 public object Value { get; set; }
+```
+
+### Examples
+
+```csharp
+[C#]
+workbook.GetCell(0, "F2").Value = -2.5;
+workbook.GetCell(0, "G3").Value = 6.3;
 ```
 
 ### See Also

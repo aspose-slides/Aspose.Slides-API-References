@@ -1,14 +1,14 @@
 ---
 title: IsTemporaryFilesAllowed
 second_title: Aspose.Sildes for .NET API Reference
-description: Set that using of temporary files is not allowed to optimize memory consumption while working with large amounts of data during presentations lifetime. If false OutOfMemoryException can be thrown.
+description: This property defines if temporary files can be created while working with BLOBs what greatly decreases the memory consumption but requires permissions to create files. All files will be deleted after work with the presentation will be finished.
 type: docs
 weight: 20
 url: /net/aspose.slides/blobmanagementoptions/istemporaryfilesallowed/
 ---
 ## BlobManagementOptions.IsTemporaryFilesAllowed property
 
-Set that using of temporary files is not allowed to optimize memory consumption while working with large amounts of data during presentation's lifetime. If false, OutOfMemoryException can be thrown.
+This property defines if temporary files can be created while working with BLOBs, what greatly decreases the memory consumption but requires permissions to create files. All files will be deleted after work with the presentation will be finished.
 
 ```csharp
 public bool IsTemporaryFilesAllowed { get; set; }

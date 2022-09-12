@@ -26,7 +26,7 @@ public class ChartDataCell : IChartDataCell
 | [PresetNumberFormat](../../aspose.slides.charts/chartdatacell/presetnumberformat) { get; set; } | Gets or sets the built-in display format of numbers and dates. Preset number must be in [0..22] or [37..49]". Read/write Byte. |
 | [R1C1Formula](../../aspose.slides.charts/chartdatacell/r1c1formula) { get; set; } | Gets or sets the formula in R1C1-style. |
 | [Row](../../aspose.slides.charts/chartdatacell/row) { get; } | Returns the index of the row of worksheet in which the cell is located. Read-only Int32. |
-| [Value](../../aspose.slides.charts/chartdatacell/value) { get; set; } | Gets or sets the value. Read/write Object. |
+| [Value](../../aspose.slides.charts/chartdatacell/value) { get; set; } | Gets or sets the value of a cell. Read/write Object. |
 
 ## Methods
 

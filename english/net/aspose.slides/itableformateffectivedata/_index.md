@@ -3,7 +3,7 @@ title: ITableFormatEffectiveData
 second_title: Aspose.Sildes for .NET API Reference
 description: Immutable object which contains effective table formatting properties.
 type: docs
-weight: 6690
+weight: 6700
 url: /net/aspose.slides/itableformateffectivedata/
 ---
 ## ITableFormatEffectiveData interface

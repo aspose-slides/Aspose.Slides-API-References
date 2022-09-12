@@ -3,7 +3,7 @@ title: IMathBar
 second_title: Aspose.Sildes for .NET API Reference
 description: Specifies the bar function consisting of a base argument and an overbar or underbar
 type: docs
-weight: 7430
+weight: 7440
 url: /net/aspose.slides.mathtext/imathbar/
 ---
 ## IMathBar interface

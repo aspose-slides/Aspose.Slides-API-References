@@ -3,7 +3,7 @@ title: IVideo
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a video embedded into a presentation.
 type: docs
-weight: 6800
+weight: 6810
 url: /net/aspose.slides/ivideo/
 ---
 ## IVideo interface

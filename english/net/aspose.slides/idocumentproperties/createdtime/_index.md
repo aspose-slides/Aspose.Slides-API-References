@@ -1,14 +1,14 @@
 ---
 title: CreatedTime
 second_title: Aspose.Sildes for .NET API Reference
-description: Returns the date when a presentation was created. Read/write DateTime.
+description: Returns the date a presentation was created. Values are in UTC. Read/write DateTime.
 type: docs
 weight: 100
 url: /net/aspose.slides/idocumentproperties/createdtime/
 ---
 ## IDocumentProperties.CreatedTime property
 
-Returns the date when a presentation was created. Read/write DateTime.
+Returns the date a presentation was created. Values are in UTC. Read/write DateTime.
 
 ```csharp
 public DateTime CreatedTime { get; set; }

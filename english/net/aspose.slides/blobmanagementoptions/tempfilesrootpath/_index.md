@@ -1,14 +1,14 @@
 ---
 title: TempFilesRootPath
 second_title: Aspose.Sildes for .NET API Reference
-description: Represents the root path on the filesystem where the temporary files will be stored. System temorary directory will be used by default.
+description: The root path where temporary files will be created. System temorary directory will be used by default. Hosting process should have permissions to create files and folders there.
 type: docs
 weight: 50
 url: /net/aspose.slides/blobmanagementoptions/tempfilesrootpath/
 ---
 ## BlobManagementOptions.TempFilesRootPath property
 
-Represents the root path on the filesystem, where the temporary files will be stored. System temorary directory will be used by default.
+The root path where temporary files will be created. System temorary directory will be used by default. Hosting process should have permissions to create files and folders there.
 
 ```csharp
 public string TempFilesRootPath { get; set; }

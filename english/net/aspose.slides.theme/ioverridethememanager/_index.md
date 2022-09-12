@@ -3,7 +3,7 @@ title: IOverrideThemeManager
 second_title: Aspose.Sildes for .NET API Reference
 description: Provides access to different types of overriden themes.
 type: docs
-weight: 10590
+weight: 10600
 url: /net/aspose.slides.theme/ioverridethememanager/
 ---
 ## IOverrideThemeManager interface

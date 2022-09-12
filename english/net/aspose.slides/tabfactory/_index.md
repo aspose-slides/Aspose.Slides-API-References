@@ -3,7 +3,7 @@ title: TabFactory
 second_title: Aspose.Sildes for .NET API Reference
 description: Allows to create ITab instances
 type: docs
-weight: 10090
+weight: 10100
 url: /net/aspose.slides/tabfactory/
 ---
 ## TabFactory class

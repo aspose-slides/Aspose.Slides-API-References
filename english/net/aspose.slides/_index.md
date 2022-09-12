@@ -71,6 +71,7 @@ Contains classes for work with Microsoft PowerPoint presentations without utiliz
 | [FontsLoader](./fontsloader) | Class for loading custom fonts defined by user. Should be used before creating any presentation objects. |
 | [FontsManager](./fontsmanager) | Manages fonts across the presentation. |
 | [FontSources](./fontsources) | Provides file and memory sources for external fonts. |
+| [FontSubstitutionInfo](./fontsubstitutioninfo) | This structure represents the information about the font replacement when it will be rendered. |
 | [FontSubstRule](./fontsubstrule) | Represents font subtituition information |
 | [FontSubstRuleCollection](./fontsubstrulecollection) | Represents collection of fonts substitution. |
 | [FormatFactory](./formatfactory) | Allows to create formats via COM interface. |
@@ -473,7 +474,7 @@ Contains classes for work with Microsoft PowerPoint presentations without utiliz
 | [PlaceholderSize](./placeholdersize) | Represents the size of a placeholder. |
 | [PlaceholderType](./placeholdertype) | Represents the type of a placeholder. |
 | [PPImageFormat](./ppimageformat) | Image formats. This enum is replacement for `System.Drawing.Imaging.ImageFormat` class. It's needed for COM compatibility. |
-| [PresentationLockingBehavior](./presentationlockingbehavior) | Represents the behavior regarding treating the [`IPresentation`](../aspose.slides/ipresentation) source (file or Stream) while loading and working with an instance of [`IPresentation`](../aspose.slides/ipresentation). The source is the parameter passed to the [`IPresentation`](../aspose.slides/ipresentation) constructor. In the example below, the source is the "pres.pptx" file: |
+| [PresentationLockingBehavior](./presentationlockingbehavior) | Represents the behavior regarding treating the [`IPresentation`](../aspose.slides/ipresentation) source (file or Stream) while loading and working with an instance of [`IPresentation`](../aspose.slides/ipresentation). |
 | [PresetColor](./presetcolor) | Represents predefined color presets. |
 | [PresetShadowType](./presetshadowtype) | Represents a preset for a shadow effect. |
 | [RectangleAlignment](./rectanglealignment) | Defines 2-dimension allignment. |

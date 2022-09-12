@@ -3,7 +3,7 @@ title: Speed
 second_title: Aspose.Sildes for .NET API Reference
 description: Specifies the percentage by which to speed up or slow down the timing. Read/write Single.
 type: docs
-weight: 80
+weight: 100
 url: /net/aspose.slides.animation/itiming/speed/
 ---
 ## ITiming.Speed property

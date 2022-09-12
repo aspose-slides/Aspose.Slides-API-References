@@ -16,7 +16,16 @@ public string NumberFormat { get; set; }
 
 ### Remarks
 
-If parent of this DataLabelFormat object is a DataLabelCollection collection of data labels then this property gets or sets the default value of the NumberFormat property for the new data labels in the DataLabelCollection collection. Represents the format string for the DataLabel objects. Set this property with value also sets this value to the NumberFormat property for all data labels in the DataLabelCollection collection (i.e. "DataLabels.DefaultDataLabelFormat.NumberFormat = val;" cause to all DataLabels[i].NumberFormat is equal to val).
+If parent of this DataLabelFormat object is a DataLabelCollection collection of data labels, then this property gets or sets the default value of the NumberFormat property for the new data labels in the DataLabelCollection collection. When this property is set with a value, that value is also set for the NumberFormat property for all data labels in the DataLabelCollection collection (i.e. "DataLabels.DefaultDataLabelFormat.NumberFormat = val;" causes all DataLabels[i].NumberFormat to equal to val).
+
+### Examples
+
+```csharp
+[C#]
+series.Labels.DefaultDataLabelFormat.ShowValue = true;
+series.Labels.DefaultDataLabelFormat.IsNumberFormatLinkedToSource = false;
+series.Labels.DefaultDataLabelFormat.NumberFormat = "0.0%";
+```
 
 ### See Also
 

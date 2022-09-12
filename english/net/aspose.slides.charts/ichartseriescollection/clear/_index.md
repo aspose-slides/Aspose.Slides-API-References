@@ -1,14 +1,14 @@
 ---
 title: Clear
 second_title: Aspose.Sildes for .NET API Reference
-description: Removes all elements from the collection.
+description: Removes all elements including the chart style from the collection.
 type: docs
 weight: 30
 url: /net/aspose.slides.charts/ichartseriescollection/clear/
 ---
 ## IChartSeriesCollection.Clear method
 
-Removes all elements from the collection.
+Removes all elements (including the chart style) from the collection.
 
 ```csharp
 public void Clear()

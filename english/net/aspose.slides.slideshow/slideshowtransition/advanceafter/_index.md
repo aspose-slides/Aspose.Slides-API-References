@@ -11,6 +11,12 @@ url: /net/aspose.slides.slideshow/slideshowtransition/advanceafter/
 This attribute specifies if the slideshow will move to the next slide after a certain time. Read/write Boolean.
 
 ```csharp
+public bool AdvanceAfter { get; set; }
+```
+
+### Examples
+
+```csharp
 [C#]
 using (Presentation pres = new Presentation("demo.pptx"))
 {
@@ -24,10 +30,6 @@ using (Presentation pres = new Presentation("demo.pptx"))
         uint advanceAfterTime = slideTransition.AdvanceAfterTime;
     }
 }
-```
-
-```csharp
-public bool AdvanceAfter { get; set; }
 ```
 
 ### See Also

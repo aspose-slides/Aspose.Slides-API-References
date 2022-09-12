@@ -3,7 +3,7 @@ title: ReplaceFont
 second_title: Aspose.Sildes for .NET API Reference
 description: Replace font in presentation
 type: docs
-weight: 70
+weight: 80
 url: /net/aspose.slides/fontsmanager/replacefont/
 ---
 ## ReplaceFont(IFontData, IFontData) {#replacefont}

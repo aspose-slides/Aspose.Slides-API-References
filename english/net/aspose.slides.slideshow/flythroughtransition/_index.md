@@ -3,7 +3,7 @@ title: FlyThroughTransition
 second_title: Aspose.Sildes for .NET API Reference
 description: Fly-through slide transition effect.
 type: docs
-weight: 9280
+weight: 9290
 url: /net/aspose.slides.slideshow/flythroughtransition/
 ---
 ## FlyThroughTransition class

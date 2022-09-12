@@ -28,7 +28,7 @@ public interface IChartSeriesCollection : IGenericCollection<IChartSeries>
 | [Add](../../aspose.slides.charts/ichartseriescollection/add#add_1)(IChartCellCollection, ChartType) | Creates new chart series from [`IChartCellCollection`](../ichartcellcollection) and adds it to the collection. |
 | [Add](../../aspose.slides.charts/ichartseriescollection/add#add_2)(IChartDataCell, ChartType) | Creates new chart series from [`IChartDataCell`](../ichartdatacell) and adds it to the collection. |
 | [Add](../../aspose.slides.charts/ichartseriescollection/add#add_3)(string, ChartType) | Creates new chart series from value and adds it to the collection. |
-| [Clear](../../aspose.slides.charts/ichartseriescollection/clear)() | Removes all elements from the collection. |
+| [Clear](../../aspose.slides.charts/ichartseriescollection/clear)() | Removes all elements (including the chart style) from the collection. |
 | [IndexOf](../../aspose.slides.charts/ichartseriescollection/indexof)(IChartSeries) | Searches for the specified [`IChartSeries`](../ichartseries) and returns the zero-based index of the first occurrence within the entire Collection |
 | [Insert](../../aspose.slides.charts/ichartseriescollection/insert)(int, ChartType) | Creates new chart series and inserts it into the collection. |
 | [Remove](../../aspose.slides.charts/ichartseriescollection/remove)(IChartSeries) | Removes the specified value. |

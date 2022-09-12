@@ -3,7 +3,7 @@ title: IDocumentProperties
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents properties of a presentation.
 type: docs
-weight: 5230
+weight: 5240
 url: /net/aspose.slides/idocumentproperties/
 ---
 ## IDocumentProperties interface
@@ -27,13 +27,13 @@ public interface IDocumentProperties
 | [ContentStatus](../../aspose.slides/idocumentproperties/contentstatus) { get; set; } | Returns or sets the content status of a presentation. Read/write String. |
 | [ContentType](../../aspose.slides/idocumentproperties/contenttype) { get; set; } | Returns or sets the content type of a presentation. Read/write String. |
 | [CountOfCustomProperties](../../aspose.slides/idocumentproperties/countofcustomproperties) { get; } | Returns the number of custom properties actually contained in a collection. Read-only Int32. |
-| [CreatedTime](../../aspose.slides/idocumentproperties/createdtime) { get; set; } | Returns the date when a presentation was created. Read/write DateTime. |
+| [CreatedTime](../../aspose.slides/idocumentproperties/createdtime) { get; set; } | Returns the date a presentation was created. Values are in UTC. Read/write DateTime. |
 | [HyperlinkBase](../../aspose.slides/idocumentproperties/hyperlinkbase) { get; set; } | Returns or sets the HyperlinkBase document property. Read/write String. |
 | [Item](../../aspose.slides/idocumentproperties/item) { get; set; } | Returns or sets the custom property associated with a specified name. Read/write Object. |
 | [Keywords](../../aspose.slides/idocumentproperties/keywords) { get; set; } | Returns or sets the keywords of a presentation. Read/write String. |
 | [LastPrinted](../../aspose.slides/idocumentproperties/lastprinted) { get; set; } | Returns the date when a presentation was printed last time. Read/write DateTime. |
 | [LastSavedBy](../../aspose.slides/idocumentproperties/lastsavedby) { get; set; } | Returns or sets the name of a last person who modified a presentation. Read/write String. |
-| [LastSavedTime](../../aspose.slides/idocumentproperties/lastsavedtime) { get; set; } | Returns the date when a presentation was modified last time. Read-only in case of Presentation.DocumentProperties (because it will be updated internally while IPresentation object saving process). Can be changed via DocumentProperties instance returning by method [`ReadDocumentProperties`](../ipresentationinfo/readdocumentproperties) Please see the example in [`UpdateDocumentProperties`](../ipresentationinfo/updatedocumentproperties) method summary. |
+| [LastSavedTime](../../aspose.slides/idocumentproperties/lastsavedtime) { get; set; } | Returns the date a presentation was last modified. Values are in UTC.P Read-only in case of Presentation.DocumentProperties (because it will be updated internally while IPresentation object saving process). Can be changed via DocumentProperties instance returning by method [`ReadDocumentProperties`](../ipresentationinfo/readdocumentproperties) Please see the example in [`UpdateDocumentProperties`](../ipresentationinfo/updatedocumentproperties) method summary. |
 | [Manager](../../aspose.slides/idocumentproperties/manager) { get; set; } | Returns or sets the manager property. Read/write String. |
 | [NameOfApplication](../../aspose.slides/idocumentproperties/nameofapplication) { get; set; } | Returns or sets the name of the application. Read/write String. |
 | [PresentationFormat](../../aspose.slides/idocumentproperties/presentationformat) { get; set; } | Returns or sets the intended format of a presentation. Read/write String. |

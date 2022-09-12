@@ -3,7 +3,7 @@ title: ICell
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a cell in a table.
 type: docs
-weight: 4970
+weight: 4980
 url: /net/aspose.slides/icell/
 ---
 ## ICell interface

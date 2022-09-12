@@ -3,7 +3,7 @@ title: ILayoutSlideCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a base class for collection of a layout slides.
 type: docs
-weight: 5690
+weight: 5700
 url: /net/aspose.slides/ilayoutslidecollection/
 ---
 ## ILayoutSlideCollection interface

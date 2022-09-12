@@ -3,7 +3,7 @@ title: FontsManager
 second_title: Aspose.Sildes for .NET API Reference
 description: Manages fonts across the presentation.
 type: docs
-weight: 4500
+weight: 4510
 url: /net/aspose.slides/fontsmanager/
 ---
 ## FontsManager class
@@ -29,6 +29,7 @@ public class FontsManager : IFontsManager
 | [AddEmbeddedFont](../../aspose.slides/fontsmanager/addembeddedfont#addembeddedfont)(IFontData, EmbedFontCharacters) | Adds the embedded font Keep in mind when copying any fonts that most fonts are copyrighted. First locate the license of a font before hand and verify they can be freely transferred to another machine.An ArgumentException can be thrown if font data is null or this font is already embedded |
 | [GetEmbeddedFonts](../../aspose.slides/fontsmanager/getembeddedfonts)() | Returns the fonts embedded in the presentation |
 | [GetFonts](../../aspose.slides/fontsmanager/getfonts)() | Returns the fonts used in the presentation |
+| [GetSubstitutions](../../aspose.slides/fontsmanager/getsubstitutions)() | Gets the information about fonts that will be replaced on the presentation's rendering. |
 | [RemoveEmbeddedFont](../../aspose.slides/fontsmanager/removeembeddedfont)(IFontData) | Removes the embedded font |
 | [ReplaceFont](../../aspose.slides/fontsmanager/replacefont#replacefont_1)(IFontSubstRule) | Replace font in presentation using information provided in [`FontSubstRule`](../fontsubstrule) |
 | [ReplaceFont](../../aspose.slides/fontsmanager/replacefont#replacefont_2)(IFontSubstRuleCollection) | Replace font in presentation using information provided in collection of [`FontSubstRule`](../fontsubstrule) |

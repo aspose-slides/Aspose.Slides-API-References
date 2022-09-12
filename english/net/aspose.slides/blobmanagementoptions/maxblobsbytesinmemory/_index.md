@@ -1,14 +1,14 @@
 ---
 title: MaxBlobsBytesInMemory
 second_title: Aspose.Sildes for .NET API Reference
-description: A threshold that indicates the maximum amount of bytes which BLOBs can occupied in memory. After this threshold was reached all new BLOBs will be placed in temporary files and will not affect the total memory consumption of the process. IsTemporaryFilesAllowedaspose.slides/blobmanagementoptions/istemporaryfilesallowed should be set to true to use this property.
+description: Defines the maximum amount in bytes that all BLOBs in total may occupy in memory. First all BLOBs loading into memory as default behavior and only when it reaches the limit defined by this property other mechanisms such as temporary files can be involved. In terms of performance the most efficient way is storing BLOBs in memory but from the other side it leads to a high memory consumption what may be undesirable. Using this property you may set the optimal behavior for your environment or other requirements.  This property will be ignored if IsTemporaryFilesAllowedaspose.slides/blobmanagementoptions/istemporaryfilesallowed is set to false. It makes no sense to limit the maximum BLOBs in memory because if IsTemporaryFilesAllowedaspose.slides/blobmanagementoptions/istemporaryfilesallowed is set to false the memory is the only place where BLOBs can be stored. Default value is 629145600 bytes 600Mb.
 type: docs
 weight: 30
 url: /net/aspose.slides/blobmanagementoptions/maxblobsbytesinmemory/
 ---
 ## BlobManagementOptions.MaxBlobsBytesInMemory property
 
-A threshold that indicates the maximum amount of bytes which BLOBs can occupied in memory. After this threshold was reached, all new BLOBs will be placed in temporary files and will not affect the total memory consumption of the process. [`IsTemporaryFilesAllowed`](../istemporaryfilesallowed) should be set to true to use this property.
+Defines the maximum amount (in bytes) that all BLOBs in total may occupy in memory. First, all BLOBs loading into memory as default behavior and only when it reaches the limit defined by this property, other mechanisms (such as temporary files) can be involved. In terms of performance, the most efficient way is storing BLOBs in memory, but from the other side, it leads to a high memory consumption what may be undesirable. Using this property, you may set the optimal behavior for your environment or other requirements.  This property will be ignored if [`IsTemporaryFilesAllowed`](../istemporaryfilesallowed) is set to false. It makes no sense to limit the maximum BLOBs in memory, because if [`IsTemporaryFilesAllowed`](../istemporaryfilesallowed) is set to false, the memory is the only place where BLOBs can be stored. Default value is 629,145,600 bytes (600Mb).
 
 ```csharp
 public ulong MaxBlobsBytesInMemory { get; set; }

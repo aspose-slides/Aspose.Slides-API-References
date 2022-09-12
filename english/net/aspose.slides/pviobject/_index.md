@@ -3,7 +3,7 @@ title: PVIObject
 second_title: Aspose.Sildes for .NET API Reference
 description: Encapsulates basic service infrastructure for objects can be a subject of property value inheritance.
 type: docs
-weight: 8560
+weight: 8570
 url: /net/aspose.slides/pviobject/
 ---
 ## PVIObject class

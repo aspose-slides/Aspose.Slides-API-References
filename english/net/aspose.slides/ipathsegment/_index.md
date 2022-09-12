@@ -3,7 +3,7 @@ title: IPathSegment
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents segment of graphics path of GeometryShape
 type: docs
-weight: 6070
+weight: 6080
 url: /net/aspose.slides/ipathsegment/
 ---
 ## IPathSegment interface

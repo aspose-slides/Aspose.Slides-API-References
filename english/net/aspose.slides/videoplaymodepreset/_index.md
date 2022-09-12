@@ -3,7 +3,7 @@ title: VideoPlayModePreset
 second_title: Aspose.Sildes for .NET API Reference
 description: Constants which define how a video is played.
 type: docs
-weight: 10970
+weight: 10980
 url: /net/aspose.slides/videoplaymodepreset/
 ---
 ## VideoPlayModePreset enumeration

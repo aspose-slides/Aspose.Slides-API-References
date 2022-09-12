@@ -3,7 +3,7 @@ title: ITextHighlightingOptions
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents options which can be used to highlight text in text frame.
 type: docs
-weight: 6740
+weight: 6750
 url: /net/aspose.slides/itexthighlightingoptions/
 ---
 ## ITextHighlightingOptions interface

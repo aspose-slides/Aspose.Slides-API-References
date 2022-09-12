@@ -3,7 +3,7 @@ title: Ink
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents an ink object on a slide.
 type: docs
-weight: 6920
+weight: 6930
 url: /net/aspose.slides.ink/ink/
 ---
 ## Ink class

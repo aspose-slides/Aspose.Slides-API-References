@@ -3,7 +3,7 @@ title: IVbaProjectFactory
 second_title: Aspose.Sildes for .NET API Reference
 description: Allows to create VBA project via COM interface
 type: docs
-weight: 10800
+weight: 10810
 url: /net/aspose.slides.vba/ivbaprojectfactory/
 ---
 ## IVbaProjectFactory interface

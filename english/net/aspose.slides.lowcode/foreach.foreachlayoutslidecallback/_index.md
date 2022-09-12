@@ -3,7 +3,7 @@ title: ForEach.ForEachLayoutSlideCallback
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 7230
+weight: 7240
 url: /net/aspose.slides.lowcode/foreach.foreachlayoutslidecallback/
 ---
 ## ForEach.ForEachLayoutSlideCallback delegate
