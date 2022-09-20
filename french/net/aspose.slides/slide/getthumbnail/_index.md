@@ -1,0 +1,199 @@
+---
+title: GetThumbnail
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Renvoie un objet Thumbnail Bitmap avec une mise à léchelle personnalisée.
+type: docs
+weight: 90
+url: /fr/net/aspose.slides/slide/getthumbnail/
+---
+## GetThumbnail(float, float) {#getthumbnail_8}
+
+Renvoie un objet Thumbnail Bitmap avec une mise à l'échelle personnalisée.
+
+```csharp
+public Bitmap GetThumbnail(float scaleX, float scaleY)
+```
+
+| Paramètre | Taper | La description |
+| --- | --- | --- |
+| scaleX | Single | Valeur de mise à l'échelle de cette miniature dans la direction de l'axe des x. |
+| scaleY | Single | Valeur de mise à l'échelle de cette miniature dans la direction de l'axe y. |
+
+### Return_Value
+
+Objet bitmap.
+
+### Voir également
+
+* class [Slide](../../slide)
+* espace de noms [Aspose.Slides](../../slide)
+* Assemblée [Aspose.Slides](../../../)
+
+---
+
+## GetThumbnail() {#getthumbnail}
+
+Renvoie un objet Thumbnail Image (20 % de la taille réelle).
+
+```csharp
+public Bitmap GetThumbnail()
+```
+
+### Voir également
+
+* class [Slide](../../slide)
+* espace de noms [Aspose.Slides](../../slide)
+* Assemblée [Aspose.Slides](../../../)
+
+---
+
+## GetThumbnail(Size) {#getthumbnail_9}
+
+Renvoie un objet Thumbnail Bitmap avec la taille spécifiée.
+
+```csharp
+public Bitmap GetThumbnail(Size imageSize)
+```
+
+| Paramètre | Taper | La description |
+| --- | --- | --- |
+| imageSize | Size | Taille de l'image à créer. |
+
+### Return_Value
+
+Objet bitmap.
+
+### Voir également
+
+* class [Slide](../../slide)
+* espace de noms [Aspose.Slides](../../slide)
+* Assemblée [Aspose.Slides](../../../)
+
+---
+
+## GetThumbnail(ITiffOptions) {#getthumbnail_7}
+
+Renvoie un objet bitmap Thumbnail tiff avec les paramètres spécifiés.
+
+```csharp
+public Bitmap GetThumbnail(ITiffOptions options)
+```
+
+| Paramètre | Taper | La description |
+| --- | --- | --- |
+| options | ITiffOptions | Options TIFF. |
+
+### Return_Value
+
+Objet bitmap.
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| InvalidOperationException | Levé lorsque options.NotesCommentsLayouting.NotesPosition prend la valeur NotesPositions.BottomFull. |
+
+### Voir également
+
+* interface [ITiffOptions](../../../aspose.slides.export/itiffoptions)
+* class [Slide](../../slide)
+* espace de noms [Aspose.Slides](../../slide)
+* Assemblée [Aspose.Slides](../../../)
+
+---
+
+## GetThumbnail(IRenderingOptions) {#getthumbnail_4}
+
+Renvoie un objet Thumbnail Bitmap.
+
+```csharp
+public Bitmap GetThumbnail(IRenderingOptions options)
+```
+
+| Paramètre | Taper | La description |
+| --- | --- | --- |
+| options | IRenderingOptions | Options de rendu. |
+
+### Return_Value
+
+Objets bitmap.
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| InvalidOperationException | Levé lorsque notesCommentsLaouting.NotesPosition prend la valeur NotesPositions.BottomFull |
+
+### Voir également
+
+* interface [IRenderingOptions](../../../aspose.slides.export/irenderingoptions)
+* class [Slide](../../slide)
+* espace de noms [Aspose.Slides](../../slide)
+* Assemblée [Aspose.Slides](../../../)
+
+---
+
+## GetThumbnail(IRenderingOptions, float, float) {#getthumbnail_5}
+
+Renvoie un objet Thumbnail Bitmap avec une mise à l'échelle personnalisée.
+
+```csharp
+public Bitmap GetThumbnail(IRenderingOptions options, float scaleX, float scaleY)
+```
+
+| Paramètre | Taper | La description |
+| --- | --- | --- |
+| options | IRenderingOptions | Options de rendu. |
+| scaleX | Single | Valeur de mise à l'échelle de cette miniature dans la direction de l'axe des x. |
+| scaleY | Single | Valeur de mise à l'échelle de cette miniature dans la direction de l'axe y. |
+
+### Return_Value
+
+Objets bitmap.
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| InvalidOperationException | Levé lorsque notesCommentsLaouting.NotesPosition prend la valeur NotesPositions.BottomFull |
+
+### Voir également
+
+* interface [IRenderingOptions](../../../aspose.slides.export/irenderingoptions)
+* class [Slide](../../slide)
+* espace de noms [Aspose.Slides](../../slide)
+* Assemblée [Aspose.Slides](../../../)
+
+---
+
+## GetThumbnail(IRenderingOptions, Size) {#getthumbnail_6}
+
+Renvoie un objet Thumbnail Bitmap avec la taille spécifiée.
+
+```csharp
+public Bitmap GetThumbnail(IRenderingOptions options, Size imageSize)
+```
+
+| Paramètre | Taper | La description |
+| --- | --- | --- |
+| options | IRenderingOptions | Options de rendu. |
+| imageSize | Size | Taille de l'image à créer. |
+
+### Return_Value
+
+Objets bitmap.
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| InvalidOperationException | Levé lorsque options.NotesCommentsLaouting.NotesPosition prend la valeur NotesPositions.BottomFull |
+
+### Voir également
+
+* interface [IRenderingOptions](../../../aspose.slides.export/irenderingoptions)
+* class [Slide](../../slide)
+* espace de noms [Aspose.Slides](../../slide)
+* Assemblée [Aspose.Slides](../../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

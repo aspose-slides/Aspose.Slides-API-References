@@ -1,0 +1,166 @@
+---
+title: GetThumbnails
+second_title: Référence de l'API Aspose.Slides pour .NET
+description: Renvoie un objet Thumbnail Bitmap pour toutes les diapositives dune présentation.
+type: docs
+weight: 320
+url: /fr/net/aspose.slides/presentation/getthumbnails/
+---
+## GetThumbnails(IRenderingOptions) {#getthumbnails_6}
+
+Renvoie un objet Thumbnail Bitmap pour toutes les diapositives d'une présentation.
+
+```csharp
+public Bitmap[] GetThumbnails(IRenderingOptions options)
+```
+
+| Paramètre | Taper | La description |
+| --- | --- | --- |
+| options | IRenderingOptions | Options TIFF. |
+
+### Return_Value
+
+Objets bitmap.
+
+### Voir également
+
+* interface [IRenderingOptions](../../../aspose.slides.export/irenderingoptions)
+* class [Presentation](../../presentation)
+* espace de noms [Aspose.Slides](../../presentation)
+* Assemblée [Aspose.Slides](../../../)
+
+---
+
+## GetThumbnails(IRenderingOptions, int[]) {#getthumbnails_7}
+
+Renvoie un objet Thumbnail Bitmap pour les diapositives spécifiées d'une présentation.
+
+```csharp
+public Bitmap[] GetThumbnails(IRenderingOptions options, int[] slides)
+```
+
+| Paramètre | Taper | La description |
+| --- | --- | --- |
+| options | IRenderingOptions | Options TIFF. |
+| slides | Int32[] | Tableau avec positions de diapositives, à partir de 1. |
+
+### Return_Value
+
+Objets bitmap.
+
+### Voir également
+
+* interface [IRenderingOptions](../../../aspose.slides.export/irenderingoptions)
+* class [Presentation](../../presentation)
+* espace de noms [Aspose.Slides](../../presentation)
+* Assemblée [Aspose.Slides](../../../)
+
+---
+
+## GetThumbnails(IRenderingOptions, float, float) {#getthumbnails_10}
+
+Renvoie un objet Thumbnail Bitmap pour toutes les diapositives d'une présentation avec une mise à l'échelle personnalisée.
+
+```csharp
+public Bitmap[] GetThumbnails(IRenderingOptions options, float scaleX, float scaleY)
+```
+
+| Paramètre | Taper | La description |
+| --- | --- | --- |
+| options | IRenderingOptions | Options TIFF. |
+| scaleX | Single | Valeur de mise à l'échelle de cette miniature dans la direction de l'axe des x. |
+| scaleY | Single | Valeur de mise à l'échelle de cette miniature dans la direction de l'axe y. |
+
+### Return_Value
+
+Objets bitmap.
+
+### Voir également
+
+* interface [IRenderingOptions](../../../aspose.slides.export/irenderingoptions)
+* class [Presentation](../../presentation)
+* espace de noms [Aspose.Slides](../../presentation)
+* Assemblée [Aspose.Slides](../../../)
+
+---
+
+## GetThumbnails(IRenderingOptions, int[], float, float) {#getthumbnails_8}
+
+Renvoie des objets Thumbnail Bitmap pour les diapositives spécifiées d'une présentation avec une mise à l'échelle personnalisée.
+
+```csharp
+public Bitmap[] GetThumbnails(IRenderingOptions options, int[] slides, float scaleX, float scaleY)
+```
+
+| Paramètre | Taper | La description |
+| --- | --- | --- |
+| options | IRenderingOptions | Options TIFF. |
+| slides | Int32[] | Tableau avec positions de diapositives, à partir de 1. |
+| scaleX | Single | Valeur de mise à l'échelle de cette miniature dans la direction de l'axe des x. |
+| scaleY | Single | Valeur de mise à l'échelle de cette miniature dans la direction de l'axe y. |
+
+### Return_Value
+
+Objets bitmap.
+
+### Voir également
+
+* interface [IRenderingOptions](../../../aspose.slides.export/irenderingoptions)
+* class [Presentation](../../presentation)
+* espace de noms [Aspose.Slides](../../presentation)
+* Assemblée [Aspose.Slides](../../../)
+
+---
+
+## GetThumbnails(IRenderingOptions, Size) {#getthumbnails_11}
+
+Renvoie un objet Thumbnail Bitmap pour toutes les diapositives d'une présentation avec la taille spécifiée.
+
+```csharp
+public Bitmap[] GetThumbnails(IRenderingOptions options, Size imageSize)
+```
+
+| Paramètre | Taper | La description |
+| --- | --- | --- |
+| options | IRenderingOptions | Options TIFF. |
+| imageSize | Size | Taille de l'image à créer. |
+
+### Return_Value
+
+Objets bitmap.
+
+### Voir également
+
+* interface [IRenderingOptions](../../../aspose.slides.export/irenderingoptions)
+* class [Presentation](../../presentation)
+* espace de noms [Aspose.Slides](../../presentation)
+* Assemblée [Aspose.Slides](../../../)
+
+---
+
+## GetThumbnails(IRenderingOptions, int[], Size) {#getthumbnails_9}
+
+Renvoie un objet Thumbnail Bitmap pour les diapositives spécifiées d'une présentation avec la taille spécifiée.
+
+```csharp
+public Bitmap[] GetThumbnails(IRenderingOptions options, int[] slides, Size imageSize)
+```
+
+| Paramètre | Taper | La description |
+| --- | --- | --- |
+| options | IRenderingOptions | Options TIFF. |
+| slides | Int32[] | Tableau avec positions de diapositives, à partir de 1. |
+| imageSize | Size | Taille de l'image à créer. |
+
+### Return_Value
+
+Objets bitmap.
+
+### Voir également
+
+* interface [IRenderingOptions](../../../aspose.slides.export/irenderingoptions)
+* class [Presentation](../../presentation)
+* espace de noms [Aspose.Slides](../../presentation)
+* Assemblée [Aspose.Slides](../../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

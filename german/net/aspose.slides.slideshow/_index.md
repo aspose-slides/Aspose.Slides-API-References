@@ -1,0 +1,71 @@
+---
+title: Aspose.Slides.SlideShow
+second_title: Aspose.Slides für .NET-API-Referenz
+description: Enthält Klassen zum Verwalten von Diashows und Folienübergängen
+type: docs
+weight: 130
+url: /de/net/aspose.slides.slideshow/
+---
+Enthält Klassen zum Verwalten von Diashows und Folienübergängen
+
+## Klassen
+
+| Klasse | Beschreibung |
+| --- | --- |
+| [CornerDirectionTransition](./cornerdirectiontransition) | Gleitübergangseffekt in Eckenrichtung. |
+| [EightDirectionTransition](./eightdirectiontransition) | Gleitübergangseffekt in acht Richtungen. |
+| [EmptyTransition](./emptytransition) | Leerer Folienübergangseffekt. |
+| [FlyThroughTransition](./flythroughtransition) | Fly-Through-Dia-Übergangseffekt. |
+| [GlitterTransition](./glittertransition) | Glitzerfolien-Übergangseffekt. |
+| [InOutTransition](./inouttransition) | In-Out-Folienübergangseffekt. |
+| [LeftRightDirectionTransition](./leftrightdirectiontransition) | Gleitübergangseffekt von links nach rechts. |
+| [MorphTransition](./morphtransition) | Ripple-Slide-Übergangseffekt. |
+| [OptionalBlackTransition](./optionalblacktransition) | Optionaler schwarzer Folienübergangseffekt. |
+| [OrientationTransition](./orientationtransition) | Orientierungsfolien-Übergangseffekt. |
+| [RevealTransition](./revealtransition) | Folienübergangseffekt anzeigen. |
+| [RippleTransition](./rippletransition) | Ripple-Slide-Übergangseffekt. |
+| [ShredTransition](./shredtransition) | Shred-Dia-Übergangseffekt. |
+| [SideDirectionTransition](./sidedirectiontransition) | Gleitübergangseffekt in Seitenrichtung. |
+| [SlideShowTransition](./slideshowtransition) | Stellt Diashow-Übergänge dar. |
+| [SplitTransition](./splittransition) | Diaübergangseffekt geteilt. |
+| [TransitionValueBase](./transitionvaluebase) | Basisklasse für Folienübergangseffekte. |
+| [WheelTransition](./wheeltransition) | Wheel-Slide-Übergangseffekt. |
+## Schnittstellen
+
+| Schnittstelle | Beschreibung |
+| --- | --- |
+| [ICornerDirectionTransition](./icornerdirectiontransition) | Gleitübergangseffekt in Eckenrichtung. |
+| [IEightDirectionTransition](./ieightdirectiontransition) | Gleitübergangseffekt in acht Richtungen. |
+| [IEmptyTransition](./iemptytransition) | Leerer Folienübergangseffekt. |
+| [IFlyThroughTransition](./iflythroughtransition) | Fly-Through-Dia-Übergangseffekt. |
+| [IGlitterTransition](./iglittertransition) | Glitzerfolien-Übergangseffekt. |
+| [IInOutTransition](./iinouttransition) | In-Out-Folienübergangseffekt. |
+| [ILeftRightDirectionTransition](./ileftrightdirectiontransition) | Gleitübergangseffekt von links nach rechts. |
+| [IMorphTransition](./imorphtransition) | Ripple-Slide-Übergangseffekt. |
+| [IOptionalBlackTransition](./ioptionalblacktransition) | Optionaler schwarzer Folienübergangseffekt. |
+| [IOrientationTransition](./iorientationtransition) | Orientierungsfolien-Übergangseffekt. |
+| [IRevealTransition](./irevealtransition) | Folienübergangseffekt anzeigen. |
+| [IRippleTransition](./irippletransition) | Ripple-Slide-Übergangseffekt. |
+| [IShredTransition](./ishredtransition) | Shred-Dia-Übergangseffekt. |
+| [ISideDirectionTransition](./isidedirectiontransition) | Gleitübergangseffekt in Seitenrichtung. |
+| [ISplitTransition](./isplittransition) | Diaübergangseffekt geteilt. |
+| [ITransitionValueBase](./itransitionvaluebase) | Stellt die Basisklasse für Folienübergangseffekte dar. |
+| [IWheelTransition](./iwheeltransition) | Wheel-Slide-Übergangseffekt. |
+## Aufzählung
+
+| Aufzählung | Beschreibung |
+| --- | --- |
+| [TransitionCornerAndCenterDirectionType](./transitioncornerandcenterdirectiontype) | Gibt eine Richtung an, die auf die Ecken und die Mitte beschränkt ist. |
+| [TransitionCornerDirectionType](./transitioncornerdirectiontype) | Stellen Eckrichtungsübergangstypen dar. |
+| [TransitionEightDirectionType](./transitioneightdirectiontype) | Stellt acht Richtungsübergangstypen dar. |
+| [TransitionInOutDirectionType](./transitioninoutdirectiontype) | Stellen Übergangstypen in oder aus Richtung dar. |
+| [TransitionLeftRightDirectionType](./transitionleftrightdirectiontype) | Gibt eine Richtung an, die auf die Werte von left und right beschränkt ist. |
+| [TransitionMorphType](./transitionmorphtype) | Stellt eine Art Morph-Übergang dar. |
+| [TransitionPattern](./transitionpattern) | Gibt ein geometrisches Muster an, das zusammengefügt wird, um einen größeren Bereich zu füllen. |
+| [TransitionShredPattern](./transitionshredpattern) | Gibt eine geometrische Form an, die zusammengefügt wird, um einen größeren Bereich auszufüllen. |
+| [TransitionSideDirectionType](./transitionsidedirectiontype) | Stellen Übergangstypen in Seitenrichtung dar. |
+| [TransitionSoundMode](./transitionsoundmode) | Stellt den Klangmodus des Übergangs dar. |
+| [TransitionSpeed](./transitionspeed) | Stellt Übergangsgeschwindigkeitstypen dar. |
+| [TransitionType](./transitiontype) | Stellt den Diashow-Übergangstyp dar. |
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->
