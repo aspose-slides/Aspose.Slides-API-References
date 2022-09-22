@@ -48,6 +48,20 @@ Aspose.Slides for C++ — это API управления Microsoft PowerPoint®
 
 - [Справочник по API Aspose.Slides для C++](/slides/cpp/)
 
+## Aspose.Slides для Python через .NET
+
+{{% alert color="primary" %}} 
+
+![Aspose.Slides для Python через логотип продукта .NET](../aspose_slides-for-python.png)
+
+Aspose.Slides for Python через .NET — это библиотека классов, которая позволяет вашим приложениям читать и писать документы PowerPoint® без использования Microsoft PowerPoint®. Aspose.Slides for Python через .NET — это первый и единственный компонент, предоставляющий функциональные возможности для управления документами PowerPoint®. Aspose.Slides для Python через .NET предоставляет множество ключевых функций, таких как управление текстом, фигурами, таблицами и анимацией, добавление аудио и видео к слайдам, предварительный просмотр слайдов, экспорт слайдов в формат SVG, PDF, HTML и многое другое.
+
+{{% /alert %}} 
+
+Это ссылки на некоторые полезные ресурсы:
+
+- [Aspose.Slides для Python через справочник по .NET API](/slides/python-net/)
+
 ## Aspose.Slides для Android через Java
 
 {{% alert color="primary" %}} 
