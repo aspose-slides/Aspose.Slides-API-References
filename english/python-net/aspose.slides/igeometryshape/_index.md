@@ -3,7 +3,7 @@ title: IGeometryShape
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 1500
+weight: 1510
 url: /python-net/aspose.slides/igeometryshape/
 ---
 

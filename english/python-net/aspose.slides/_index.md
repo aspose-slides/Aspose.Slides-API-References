@@ -70,6 +70,7 @@ Contains classes for work with Microsoft PowerPoint presentations without utiliz
 |[FontSources](/slides/python-net/aspose.slides/fontsources/)|Provides file and memory sources for external fonts.|
 |[FontSubstRule](/slides/python-net/aspose.slides/fontsubstrule/)|Represents font subtituition information|
 |[FontSubstRuleCollection](/slides/python-net/aspose.slides/fontsubstrulecollection/)|Represents collection of fonts substitution.|
+|[FontSubstitutionInfo](/slides/python-net/aspose.slides/fontsubstitutioninfo/)|This structure represents the information about the font replacement when it will be rendered.|
 |[Fonts](/slides/python-net/aspose.slides/fonts/)|Fonts collection.|
 |[FontsLoader](/slides/python-net/aspose.slides/fontsloader/)|Class for loading custom fonts defined by user.<br/>            Should be used before creating any presentation objects.|
 |[FontsManager](/slides/python-net/aspose.slides/fontsmanager/)|Manages fonts across the presentation.|

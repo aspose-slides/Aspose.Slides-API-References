@@ -3,7 +3,7 @@ title: IResourceLoadingArgs
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 2320
+weight: 2330
 url: /python-net/aspose.slides/iresourceloadingargs/
 ---
 

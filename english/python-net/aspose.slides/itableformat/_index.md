@@ -3,7 +3,7 @@ title: ITableFormat
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 2710
+weight: 2720
 url: /python-net/aspose.slides/itableformat/
 ---
 

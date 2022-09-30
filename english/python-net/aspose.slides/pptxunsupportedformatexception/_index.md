@@ -3,7 +3,7 @@ title: PptxUnsupportedFormatException
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 3510
+weight: 3520
 url: /python-net/aspose.slides/pptxunsupportedformatexception/
 ---
 

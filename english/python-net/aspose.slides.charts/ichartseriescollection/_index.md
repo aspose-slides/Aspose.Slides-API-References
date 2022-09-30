@@ -32,7 +32,7 @@ The IChartSeriesCollection type exposes the following members:
 |index_of(value)|Searches for the specified [IChartSeries](/slides/python-net/aspose.slides.charts/ichartseries/) and returns the zero-based index of the first occurrence within the entire Collection|
 |remove(value)|Removes the specified value.|
 |remove_at(index)|Removes the element at the specified index|
-|clear()|Removes all elements from the collection.|
+|clear()|Removes all elements (including the chart style) from the collection.|
 
 ### See Also
 

@@ -3,7 +3,7 @@ title: OdpException
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 3220
+weight: 3230
 url: /python-net/aspose.slides/odpexception/
 ---
 

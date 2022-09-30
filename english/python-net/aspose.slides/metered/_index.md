@@ -3,7 +3,7 @@ title: Metered
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 3120
+weight: 3130
 url: /python-net/aspose.slides/metered/
 ---
 

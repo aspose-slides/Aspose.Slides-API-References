@@ -3,7 +3,7 @@ title: TabFactory
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 3890
+weight: 3900
 url: /python-net/aspose.slides/tabfactory/
 ---
 

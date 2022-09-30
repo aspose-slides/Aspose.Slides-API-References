@@ -3,7 +3,7 @@ title: TabCollection
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 3880
+weight: 3890
 url: /python-net/aspose.slides/tabcollection/
 ---
 

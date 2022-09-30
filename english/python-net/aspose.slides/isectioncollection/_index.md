@@ -3,7 +3,7 @@ title: ISectionCollection
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 2390
+weight: 2400
 url: /python-net/aspose.slides/isectioncollection/
 ---
 

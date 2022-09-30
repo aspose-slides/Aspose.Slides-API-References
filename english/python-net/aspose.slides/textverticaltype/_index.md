@@ -3,7 +3,7 @@ title: TextVerticalType
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 10000
+weight: 10010
 url: /python-net/aspose.slides/textverticaltype/
 ---
 

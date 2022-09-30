@@ -3,7 +3,7 @@ title: PictureFrameLock
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 3360
+weight: 3370
 url: /python-net/aspose.slides/pictureframelock/
 ---
 

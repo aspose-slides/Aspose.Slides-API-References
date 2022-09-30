@@ -3,7 +3,7 @@ title: ILayoutSlideHeaderFooterManager
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 1730
+weight: 1740
 url: /python-net/aspose.slides/ilayoutslideheaderfootermanager/
 ---
 

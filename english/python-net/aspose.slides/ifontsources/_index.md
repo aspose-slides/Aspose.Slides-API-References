@@ -3,7 +3,7 @@ title: IFontSources
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 1410
+weight: 1420
 url: /python-net/aspose.slides/ifontsources/
 ---
 

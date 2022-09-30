@@ -3,7 +3,7 @@ title: IMasterSlide
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 1910
+weight: 1920
 url: /python-net/aspose.slides/imasterslide/
 ---
 

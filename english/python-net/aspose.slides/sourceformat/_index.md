@@ -3,7 +3,7 @@ title: SourceFormat
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 9860
+weight: 9870
 url: /python-net/aspose.slides/sourceformat/
 ---
 

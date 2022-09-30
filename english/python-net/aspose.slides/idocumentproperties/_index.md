@@ -3,7 +3,7 @@ title: IDocumentProperties
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 1280
+weight: 1290
 url: /python-net/aspose.slides/idocumentproperties/
 ---
 
@@ -29,8 +29,8 @@ The IDocumentProperties type exposes the following members:
 |keywords|Returns or sets the keywords of a presentation.<br/>            Read/write string.|
 |comments|Returns or sets the comments of a presentation.<br/>            Read/write string.|
 |category|Returns or sets the category of a presentation.<br/>            Read/write string.|
-|created_time|Returns the date when a presentation was created.<br/>            Read/write datetime.|
-|last_saved_time|Returns the date when a presentation was modified last time.<br/>            Read-only in case of Presentation.DocumentProperties (because it will be updated internally while IPresentation object saving process). <br/>            Can be changed via DocumentProperties instance returning by method [None](/slides/python-net/aspose.slides/ipresentationinfo/)<br/>            Please see the example in|
+|created_time|Returns the date a presentation was created. <br/>            Values are in UTC.<br/>            Read/write datetime.|
+|last_saved_time|Returns the date a presentation was last modified.<br/>            Values are in UTC.P<br/>            Read-only in case of Presentation.DocumentProperties (because it will be updated internally while IPresentation object saving process). <br/>            Can be changed via DocumentProperties instance returning by method [None](/slides/python-net/aspose.slides/ipresentationinfo/)<br/>            Please see the example in|
 |last_printed|Returns the date when a presentation was printed last time.<br/>            Read/write datetime.|
 |last_saved_by|Returns or sets the name of a last person who modified a presentation.<br/>            Read/write string.|
 |revision_number|Returns or sets the presentation revision number.<br/>            Read/write|

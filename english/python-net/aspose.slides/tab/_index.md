@@ -3,7 +3,7 @@ title: Tab
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 3870
+weight: 3880
 url: /python-net/aspose.slides/tab/
 ---
 

@@ -3,7 +3,7 @@ title: InvalidPasswordException
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 2940
+weight: 2950
 url: /python-net/aspose.slides/invalidpasswordexception/
 ---
 

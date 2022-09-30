@@ -3,7 +3,7 @@ title: IZoomObject
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 2880
+weight: 2890
 url: /python-net/aspose.slides/izoomobject/
 ---
 

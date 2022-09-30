@@ -3,7 +3,7 @@ title: IShapeBevel
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 2430
+weight: 2440
 url: /python-net/aspose.slides/ishapebevel/
 ---
 

@@ -3,7 +3,7 @@ title: IMasterHandoutSlideHeaderFooterManager
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 1850
+weight: 1860
 url: /python-net/aspose.slides/imasterhandoutslideheaderfootermanager/
 ---
 

@@ -3,7 +3,7 @@ title: SummaryZoomFrame
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 3830
+weight: 3840
 url: /python-net/aspose.slides/summaryzoomframe/
 ---
 

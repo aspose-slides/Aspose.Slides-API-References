@@ -19,10 +19,10 @@ The BlobManagementOptions type exposes the following members:
 ## Properties
 | Name | Description |
 | :- | :- |
-|presentation_locking_behavior|Represents the locking behavior for the presentation's source (stream or file).|
-|is_temporary_files_allowed|Set that using of temporary files is not allowed to optimize memory consumption while working with<br/>            large amounts of data during presentation's lifetime. If false, OutOfMemoryException can be thrown.|
-|temp_files_root_path|Represents the root path on the filesystem, where the temporary files will be stored. System<br/>            temorary directory will be used by default.|
-|max_blobs_bytes_in_memory|A threshold that indicates the maximum amount of bytes which BLOBs can occupied in memory. After <br/>            this threshold was reached, all new BLOBs will be placed in temporary files and will not affect the <br/>            total memory consumption of the process. <br/>            [is_temporary_files_allowed](/slides/python-net/aspose.slides/blobmanagementoptions/) should be set to true to use this property.|
+|presentation_locking_behavior|This property defines if an instance of the Presentation class can be an owner of the source - file <br/>            or stream during the instance lifetime. If the instance is an owner, it locks the source. This helps <br/>            to improve memory consumption and performance while working with BLOBs, but the source (stream or file) <br/>            can't be changed during Presentation's instance lifetime.|
+|is_temporary_files_allowed|This property defines if temporary files can be created while working with BLOBs, what greatly <br/>            decreases  the memory consumption but requires permissions to create files.|
+|temp_files_root_path|The root path where temporary files will be created. System temorary directory will be used by default. <br/>            Hosting process should have permissions to <br/>            create files and folders there.|
+|max_blobs_bytes_in_memory|Defines the maximum amount (in bytes) that all BLOBs in total may occupy in memory. First, all BLOBs <br/>            loading into memory as default behavior and only when it reaches the limit defined by this property, <br/>            other mechanisms (such as temporary files) can be involved. In terms of performance, the most efficient <br/>            way is storing BLOBs in memory, but from the other side, it leads to a high memory consumption what <br/>            may be undesirable. Using this property, you may set the optimal behavior for your environment or <br/>            other requirements.|
 
 ### See Also
 

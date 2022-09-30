@@ -3,7 +3,7 @@ title: ILineFillFormat
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 1780
+weight: 1790
 url: /python-net/aspose.slides/ilinefillformat/
 ---
 

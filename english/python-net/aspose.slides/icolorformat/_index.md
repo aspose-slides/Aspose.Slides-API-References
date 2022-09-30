@@ -3,7 +3,7 @@ title: IColorFormat
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 1060
+weight: 1070
 url: /python-net/aspose.slides/icolorformat/
 ---
 

@@ -3,7 +3,7 @@ title: IGradientStopCollectionEffectiveData
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 1560
+weight: 1570
 url: /python-net/aspose.slides/igradientstopcollectioneffectivedata/
 ---
 

@@ -3,7 +3,7 @@ title: LineJoinStyle
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 9530
+weight: 9540
 url: /python-net/aspose.slides/linejoinstyle/
 ---
 

@@ -3,7 +3,7 @@ title: Placeholder
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 3370
+weight: 3380
 url: /python-net/aspose.slides/placeholder/
 ---
 

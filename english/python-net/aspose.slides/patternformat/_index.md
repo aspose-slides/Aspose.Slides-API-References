@@ -3,7 +3,7 @@ title: PatternFormat
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 3320
+weight: 3330
 url: /python-net/aspose.slides/patternformat/
 ---
 

@@ -3,7 +3,7 @@ title: SectionZoomFrame
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 3650
+weight: 3660
 url: /python-net/aspose.slides/sectionzoomframe/
 ---
 

@@ -3,7 +3,7 @@ title: PptEditException
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 3430
+weight: 3440
 url: /python-net/aspose.slides/ppteditexception/
 ---
 

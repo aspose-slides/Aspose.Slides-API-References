@@ -3,7 +3,7 @@ title: IOleEmbeddedDataInfo
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 2020
+weight: 2030
 url: /python-net/aspose.slides/ioleembeddeddatainfo/
 ---
 
