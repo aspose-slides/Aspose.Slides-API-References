@@ -3,7 +3,7 @@ title: ISlideShowTransition
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 2550
+weight: 2560
 url: /python-net/aspose.slides/islideshowtransition/
 ---
 

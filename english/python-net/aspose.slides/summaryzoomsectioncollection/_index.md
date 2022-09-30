@@ -3,7 +3,7 @@ title: SummaryZoomSectionCollection
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 3850
+weight: 3860
 url: /python-net/aspose.slides/summaryzoomsectioncollection/
 ---
 

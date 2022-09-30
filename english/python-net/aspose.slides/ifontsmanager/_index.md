@@ -3,7 +3,7 @@ title: IFontsManager
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 1470
+weight: 1480
 url: /python-net/aspose.slides/ifontsmanager/
 ---
 
@@ -26,6 +26,7 @@ The IFontsManager type exposes the following members:
 |replace_font(subst_rule)|Replace font in presentation using information provided in|
 |replace_font(subst_rules)|Replace font in presentation using information provided in collection of|
 |get_fonts()|Returns the fonts used in the presentation|
+|get_substitutions()|Gets the information about fonts that will be replaced on the presentation's rendering.|
 |get_embedded_fonts()|Returns the fonts embedded in the presentation|
 |remove_embedded_font(font_data)|Removes the embedded font|
 

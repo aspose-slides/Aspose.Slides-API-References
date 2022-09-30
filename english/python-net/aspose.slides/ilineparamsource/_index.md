@@ -3,7 +3,7 @@ title: ILineParamSource
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 1820
+weight: 1830
 url: /python-net/aspose.slides/ilineparamsource/
 ---
 

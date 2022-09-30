@@ -3,7 +3,7 @@ title: MasterLayoutSlideCollection
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 3060
+weight: 3070
 url: /python-net/aspose.slides/masterlayoutslidecollection/
 ---
 

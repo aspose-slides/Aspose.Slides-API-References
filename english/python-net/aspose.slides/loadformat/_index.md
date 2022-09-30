@@ -3,7 +3,7 @@ title: LoadFormat
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 9560
+weight: 9570
 url: /python-net/aspose.slides/loadformat/
 ---
 

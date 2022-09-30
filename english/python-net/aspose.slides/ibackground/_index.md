@@ -3,7 +3,7 @@ title: IBackground
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 860
+weight: 870
 url: /python-net/aspose.slides/ibackground/
 ---
 

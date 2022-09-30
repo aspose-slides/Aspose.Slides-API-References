@@ -3,7 +3,7 @@ title: ZoomObject
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 4030
+weight: 4040
 url: /python-net/aspose.slides/zoomobject/
 ---
 

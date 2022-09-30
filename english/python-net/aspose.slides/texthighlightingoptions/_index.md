@@ -3,7 +3,7 @@ title: TextHighlightingOptions
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 3950
+weight: 3960
 url: /python-net/aspose.slides/texthighlightingoptions/
 ---
 

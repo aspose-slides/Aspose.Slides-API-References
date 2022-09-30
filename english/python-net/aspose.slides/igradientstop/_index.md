@@ -3,7 +3,7 @@ title: IGradientStop
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 1540
+weight: 1550
 url: /python-net/aspose.slides/igradientstop/
 ---
 

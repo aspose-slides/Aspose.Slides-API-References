@@ -3,7 +3,7 @@ title: ITagCollection
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 2730
+weight: 2740
 url: /python-net/aspose.slides/itagcollection/
 ---
 

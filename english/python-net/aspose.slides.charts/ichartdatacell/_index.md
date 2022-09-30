@@ -17,7 +17,7 @@ The IChartDataCell type exposes the following members:
 | :- | :- |
 |row|Returns the index of the row of worksheet in which the cell is located.<br/>            Read-only|
 |column|Returns the index of the column of worksheet in which the cell is located.<br/>            Read-only|
-|value|Gets or sets the value.<br/>            Read/write object.|
+|value|Gets or sets the value of a cell.<br/>            Read/write object.|
 |formula|Gets or sets the formula in A1-style.|
 |r1c1_formula|Gets or sets the formula in R1C1-style.|
 |chart_data_worksheet|Gets the worksheet.<br/>            Read-only [IChartDataWorksheet](/slides/python-net/aspose.slides.charts/ichartdataworksheet/).|

@@ -3,7 +3,7 @@ title: IPictureFillFormatEffectiveData
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 2150
+weight: 2160
 url: /python-net/aspose.slides/ipicturefillformateffectivedata/
 ---
 

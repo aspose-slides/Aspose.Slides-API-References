@@ -3,7 +3,7 @@ title: TextAnchorType
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 9920
+weight: 9930
 url: /python-net/aspose.slides/textanchortype/
 ---
 

@@ -3,7 +3,7 @@ title: IImageCollection
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 1660
+weight: 1670
 url: /python-net/aspose.slides/iimagecollection/
 ---
 

@@ -3,7 +3,7 @@ title: PortionCollection
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 3390
+weight: 3400
 url: /python-net/aspose.slides/portioncollection/
 ---
 

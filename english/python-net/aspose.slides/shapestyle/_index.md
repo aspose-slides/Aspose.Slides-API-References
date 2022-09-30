@@ -3,7 +3,7 @@ title: ShapeStyle
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 3710
+weight: 3720
 url: /python-net/aspose.slides/shapestyle/
 ---
 

@@ -3,7 +3,7 @@ title: ISpreadsheetOptions
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 2590
+weight: 2600
 url: /python-net/aspose.slides/ispreadsheetoptions/
 ---
 

@@ -3,7 +3,7 @@ title: IPathSegment
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 2100
+weight: 2110
 url: /python-net/aspose.slides/ipathsegment/
 ---
 

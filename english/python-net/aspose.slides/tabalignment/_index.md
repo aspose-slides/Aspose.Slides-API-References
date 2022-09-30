@@ -3,7 +3,7 @@ title: TabAlignment
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 9890
+weight: 9900
 url: /python-net/aspose.slides/tabalignment/
 ---
 

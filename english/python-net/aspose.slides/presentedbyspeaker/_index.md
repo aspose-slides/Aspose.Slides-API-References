@@ -3,7 +3,7 @@ title: PresentedBySpeaker
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 3570
+weight: 3580
 url: /python-net/aspose.slides/presentedbyspeaker/
 ---
 

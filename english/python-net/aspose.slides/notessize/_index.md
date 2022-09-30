@@ -3,7 +3,7 @@ title: NotesSize
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 3160
+weight: 3170
 url: /python-net/aspose.slides/notessize/
 ---
 

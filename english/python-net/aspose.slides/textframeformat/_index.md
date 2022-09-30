@@ -3,7 +3,7 @@ title: TextFrameFormat
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 3940
+weight: 3950
 url: /python-net/aspose.slides/textframeformat/
 ---
 

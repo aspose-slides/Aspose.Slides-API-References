@@ -3,7 +3,7 @@ title: NormalViewProperties
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 3140
+weight: 3150
 url: /python-net/aspose.slides/normalviewproperties/
 ---
 

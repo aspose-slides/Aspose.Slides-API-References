@@ -3,7 +3,7 @@ title: INotesSlideHeaderFooterManager
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 2000
+weight: 2010
 url: /python-net/aspose.slides/inotesslideheaderfootermanager/
 ---
 

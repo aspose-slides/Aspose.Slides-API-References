@@ -3,7 +3,7 @@ title: IBackdrop3DScene
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 850
+weight: 860
 url: /python-net/aspose.slides/ibackdrop3dscene/
 ---
 

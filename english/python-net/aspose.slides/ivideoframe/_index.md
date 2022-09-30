@@ -3,7 +3,7 @@ title: IVideoFrame
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 2850
+weight: 2860
 url: /python-net/aspose.slides/ivideoframe/
 ---
 

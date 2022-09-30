@@ -3,7 +3,7 @@ title: IOleObjectFrame
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 2030
+weight: 2040
 url: /python-net/aspose.slides/ioleobjectframe/
 ---
 

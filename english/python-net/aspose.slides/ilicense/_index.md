@@ -3,7 +3,7 @@ title: ILicense
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 1750
+weight: 1760
 url: /python-net/aspose.slides/ilicense/
 ---
 

@@ -3,7 +3,7 @@ title: VideoFrame
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 4000
+weight: 4010
 url: /python-net/aspose.slides/videoframe/
 ---
 

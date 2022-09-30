@@ -20,6 +20,8 @@ The ITiming type exposes the following members:
 |auto_reverse|Describes whether to automatically play the animation in reverse after<br/>            playing it in the forward direction.<br/>            Read/write bool.|
 |duration|Describes the duration of animation effect.<br/>            Read/write|
 |repeat_count|Describes the number of times the effect should repeat.<br/>            Read/write|
+|repeat_until_end_slide|This attribute specifies if the effect will repeat until the end of the slide.<br/>             Read/write bool.|
+|repeat_until_next_click|This attribute specifies if the effect will repeat until the next click.<br/>             Read/write bool.|
 |repeat_duration|Describes the number of times the effect should repeat.<br/>            Read/write|
 |restart|Specifies if a effect is to restart after complete.<br/>            Read/write [EffectRestartType](/slides/python-net/aspose.slides.animation/effectrestarttype/).|
 |speed|Specifies the percentage by which to speed up (or slow down) the timing.<br/>            Read/write|

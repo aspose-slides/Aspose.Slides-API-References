@@ -3,7 +3,7 @@ title: IBasePortionFormat
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 900
+weight: 910
 url: /python-net/aspose.slides/ibaseportionformat/
 ---
 
