@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /fr/net/aspose.slides.dom.ole/
 ---
-
+Contient des classes pour travailler avec des objets OLE dans des présentations Microsoft PowerPoint.
 
 ## Des classes
 

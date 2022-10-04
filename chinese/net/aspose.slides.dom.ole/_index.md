@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /zh/net/aspose.slides.dom.ole/
 ---
-
+包含用于在 Microsoft PowerPoint 演示文稿中使用 OLE 对象的类。
 
 ## 课程
 

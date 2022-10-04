@@ -6,7 +6,7 @@ type: docs
 weight: 100
 url: /de/net/aspose.slides.ink/
 ---
-
+Enthält Klassen für die Arbeit mit Ink.
 
 ## Klassen
 

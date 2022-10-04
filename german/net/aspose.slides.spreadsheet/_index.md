@@ -6,7 +6,7 @@ type: docs
 weight: 150
 url: /de/net/aspose.slides.spreadsheet/
 ---
-
+Enthält Klassen für die Arbeit mit Tabellenkalkulationsobjekten in Microsoft PowerPoint-Präsentationen.
 
 ## Klassen
 
