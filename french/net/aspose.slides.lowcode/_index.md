@@ -6,7 +6,7 @@ type: docs
 weight: 110
 url: /fr/net/aspose.slides.lowcode/
 ---
-
+Contient des classes et des méthodes pour gérer des opérations générales complexes avec peu de code.
 
 ## Des classes
 

@@ -6,7 +6,7 @@ type: docs
 weight: 70
 url: /es/net/aspose.slides.export.web/
 ---
-
+Contiene clases para exportar presentaciones de Microsoft PowerPoint a Html con proyectos de extensión.
 
 ## Clases
 

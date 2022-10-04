@@ -6,7 +6,7 @@ type: docs
 weight: 120
 url: /zh/net/aspose.slides.mathtext/
 ---
-
+包含用于在 Microsoft PowerPoint 演示文稿中处理数学文本的类。
 
 ## 课程
 

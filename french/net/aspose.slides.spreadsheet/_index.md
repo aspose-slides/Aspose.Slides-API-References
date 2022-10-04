@@ -6,7 +6,7 @@ type: docs
 weight: 150
 url: /fr/net/aspose.slides.spreadsheet/
 ---
-
+Contient des classes pour travailler avec des objets de feuille de calcul dans des présentations Microsoft PowerPoint.
 
 ## Des classes
 
