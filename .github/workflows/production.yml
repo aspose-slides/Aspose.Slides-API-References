@@ -31,6 +31,6 @@ jobs:
         dst_owner: Aspose
         dst_repo_name: apireference.aspose.com
         dst_branch: production
-        src_branch: production
+        src_branch: main
         clean: true
 
