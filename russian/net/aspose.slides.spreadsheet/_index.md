@@ -6,7 +6,7 @@ type: docs
 weight: 150
 url: /ru/net/aspose.slides.spreadsheet/
 ---
-
+Содержит классы для работы с табличными объектами в презентациях Microsoft PowerPoint.
 
 ## Классы
 

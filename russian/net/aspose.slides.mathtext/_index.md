@@ -6,7 +6,7 @@ type: docs
 weight: 120
 url: /ru/net/aspose.slides.mathtext/
 ---
-
+Содержит классы по работе с математическим текстом в презентациях Microsoft PowerPoint.
 
 ## Классы
 

@@ -6,7 +6,7 @@ type: docs
 weight: 80
 url: /de/net/aspose.slides.export.xaml/
 ---
-
+Enthält Klassen zum Exportieren von Microsoft PowerPoint-Präsentationen in XAML.
 
 ## Klassen
 

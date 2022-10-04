@@ -6,7 +6,7 @@ type: docs
 weight: 70
 url: /ru/net/aspose.slides.export.web/
 ---
-
+Содержит классы для экспорта презентаций Microsoft PowerPoint в HTML с проектами расширения.
 
 ## Классы
 

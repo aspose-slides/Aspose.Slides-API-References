@@ -6,7 +6,7 @@ type: docs
 weight: 70
 url: /zh/net/aspose.slides.export.web/
 ---
-
+包含用于将 Microsoft PowerPoint 演示文稿导出到带有扩展项目的 Html 的类。
 
 ## 课程
 

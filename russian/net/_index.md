@@ -14,20 +14,20 @@ is_root: true
 | [Aspose.Slides](./aspose.slides) | Содержит классы для работы с презентациями Microsoft PowerPoint без использования Microsoft PowerPoint. |
 | [Aspose.Slides.Animation](./aspose.slides.animation) | Содержит классы для работы с анимацией в презентациях Microsoft PowerPoint. |
 | [Aspose.Slides.Charts](./aspose.slides.charts) | Содержит классы для работы с диаграммами в презентациях Microsoft PowerPoint. |
-| [Aspose.Slides.DOM.Ole](./aspose.slides.dom.ole) |  |
+| [Aspose.Slides.DOM.Ole](./aspose.slides.dom.ole) | Содержит классы для работы с OLE-объектами в презентациях Microsoft PowerPoint. |
 | [Aspose.Slides.Effects](./aspose.slides.effects) | Содержит классы для работы с различными эффектами в презентациях Microsoft PowerPoint. |
 | [Aspose.Slides.Export](./aspose.slides.export) | Содержит классы для экспорта презентаций Microsoft PowerPoint в различные форматы, такие как Html, Pdf, Svg, XPs и другие. |
-| [Aspose.Slides.Export.Web](./aspose.slides.export.web) |  |
-| [Aspose.Slides.Export.Xaml](./aspose.slides.export.xaml) |  |
+| [Aspose.Slides.Export.Web](./aspose.slides.export.web) | Содержит классы для экспорта презентаций Microsoft PowerPoint в HTML с проектами расширения. |
+| [Aspose.Slides.Export.Xaml](./aspose.slides.export.xaml) | Содержит классы для экспорта презентаций Microsoft PowerPoint в XAML. |
 | [Aspose.Slides.Import](./aspose.slides.import) | Содержит классы, импортирующие данные в презентации Microsoft PowerPoint. |
-| [Aspose.Slides.Ink](./aspose.slides.ink) |  |
-| [Aspose.Slides.LowCode](./aspose.slides.lowcode) |  |
-| [Aspose.Slides.MathText](./aspose.slides.mathtext) |  |
+| [Aspose.Slides.Ink](./aspose.slides.ink) | Содержит классы для работы с Ink. |
+| [Aspose.Slides.LowCode](./aspose.slides.lowcode) | Содержит классы и методы для обработки сложных общих операций с минимальным кодом. |
+| [Aspose.Slides.MathText](./aspose.slides.mathtext) | Содержит классы по работе с математическим текстом в презентациях Microsoft PowerPoint. |
 | [Aspose.Slides.SlideShow](./aspose.slides.slideshow) | Содержит классы для управления слайд-шоу и переходами между слайдами |
 | [Aspose.Slides.SmartArt](./aspose.slides.smartart) | Содержит классы для работы с объектами SmartArt |
-| [Aspose.Slides.Spreadsheet](./aspose.slides.spreadsheet) |  |
+| [Aspose.Slides.Spreadsheet](./aspose.slides.spreadsheet) | Содержит классы для работы с табличными объектами в презентациях Microsoft PowerPoint. |
 | [Aspose.Slides.Theme](./aspose.slides.theme) | Содержит классы для работы с разными типами тем. |
-| [Aspose.Slides.Util](./aspose.slides.util) | Содержит служебные классы, помогающие работать с презентациями. |
+| [Aspose.Slides.Util](./aspose.slides.util) | Содержит классы утилит, помогающие работать с презентациями. |
 | [Aspose.Slides.Vba](./aspose.slides.vba) | Содержит классы для работы с макросами VBA |
 | [Aspose.Slides.Warnings](./aspose.slides.warnings) | Содержит классы, представляющие различные виды предупреждений |
 

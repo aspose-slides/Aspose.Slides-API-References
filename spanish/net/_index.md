@@ -15,18 +15,18 @@ is_root: true
 | [Aspose.Slides](./aspose.slides) | Contiene clases para trabajar con presentaciones de Microsoft PowerPoint sin utilizar Microsoft PowerPoint. |
 | [Aspose.Slides.Animation](./aspose.slides.animation) | Contiene clases para trabajar con animación en presentaciones de Microsoft PowerPoint. |
 | [Aspose.Slides.Charts](./aspose.slides.charts) | Contiene clases para trabajar con gráficos en presentaciones de Microsoft PowerPoint. |
-| [Aspose.Slides.DOM.Ole](./aspose.slides.dom.ole) |  |
+| [Aspose.Slides.DOM.Ole](./aspose.slides.dom.ole) | Contiene clases para trabajar con objetos OLE en presentaciones de Microsoft PowerPoint. |
 | [Aspose.Slides.Effects](./aspose.slides.effects) | Contiene clases para trabajar con varios efectos en presentaciones de Microsoft PowerPoint. |
 | [Aspose.Slides.Export](./aspose.slides.export) | Contiene clases para exportar presentaciones de Microsoft PowerPoint a diferentes formatos como Html, Pdf, Svg, Xps y otros. |
-| [Aspose.Slides.Export.Web](./aspose.slides.export.web) |  |
-| [Aspose.Slides.Export.Xaml](./aspose.slides.export.xaml) |  |
+| [Aspose.Slides.Export.Web](./aspose.slides.export.web) | Contiene clases para exportar presentaciones de Microsoft PowerPoint a Html con proyectos de extensión. |
+| [Aspose.Slides.Export.Xaml](./aspose.slides.export.xaml) | Contiene clases para exportar presentaciones de Microsoft PowerPoint a XAML. |
 | [Aspose.Slides.Import](./aspose.slides.import) | Contiene clases que importan datos a presentaciones de Microsoft PowerPoint. |
-| [Aspose.Slides.Ink](./aspose.slides.ink) |  |
-| [Aspose.Slides.LowCode](./aspose.slides.lowcode) |  |
-| [Aspose.Slides.MathText](./aspose.slides.mathtext) |  |
+| [Aspose.Slides.Ink](./aspose.slides.ink) | Contiene clases para trabajar con Ink. |
+| [Aspose.Slides.LowCode](./aspose.slides.lowcode) | Contiene clases y métodos para manejar operaciones generales complejas en código bajo. |
+| [Aspose.Slides.MathText](./aspose.slides.mathtext) |  Contiene clases para trabajar con texto matemático en presentaciones de Microsoft PowerPoint.|
 | [Aspose.Slides.SlideShow](./aspose.slides.slideshow) | Contiene clases para administrar presentaciones de diapositivas y transiciones de diapositivas |
 | [Aspose.Slides.SmartArt](./aspose.slides.smartart) | Contiene clases para trabajar con objetos SmartArt |
-| [Aspose.Slides.Spreadsheet](./aspose.slides.spreadsheet) |  |
+| [Aspose.Slides.Spreadsheet](./aspose.slides.spreadsheet) | Contiene clases para trabajar con objetos de hoja de cálculo en presentaciones de Microsoft PowerPoint. |
 | [Aspose.Slides.Theme](./aspose.slides.theme) | Contiene clases para trabajar con diferentes tipos de temas. |
 | [Aspose.Slides.Util](./aspose.slides.util) | Contiene clases útiles que ayudan a trabajar con presentaciones. |
 | [Aspose.Slides.Vba](./aspose.slides.vba) | Contiene clases para trabajar con macros VBA |

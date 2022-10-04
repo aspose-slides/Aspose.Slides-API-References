@@ -6,7 +6,7 @@ type: docs
 weight: 100
 url: /zh/net/aspose.slides.ink/
 ---
-
+包含使用 Ink 的类。
 
 ## 课程
 

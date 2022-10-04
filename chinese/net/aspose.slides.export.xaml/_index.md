@@ -6,7 +6,7 @@ type: docs
 weight: 80
 url: /zh/net/aspose.slides.export.xaml/
 ---
-
+包含用于将 Microsoft PowerPoint 演示文稿导出到 XAML 的类。
 
 ## 课程
 

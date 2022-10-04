@@ -6,7 +6,7 @@ type: docs
 weight: 150
 url: /zh/net/aspose.slides.spreadsheet/
 ---
-
+包含用于在 Microsoft PowerPoint 演示文稿中处理电子表格对象的类。
 
 ## 课程
 
