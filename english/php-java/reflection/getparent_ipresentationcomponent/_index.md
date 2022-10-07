@@ -1,0 +1,19 @@
+---
+title: getParent_IPresentationComponent
+second_title: Aspose.Sildes for PHP via Java API Reference
+description: 
+type: docs
+weight: 90
+url: /php-java/reflection/getparent_ipresentationcomponent/
+---
+
+## getParent_IPresentationComponent()  method
+
+
+### Returns
+[ImageTransformOperation](../../imagetransformoperation), [DataTable](../../datatable), [Backdrop3DScene](../../backdrop3dscene), [CellFormat](../../cellformat), [Trendline](../../trendline), [LineFormat](../../lineformat), [OverrideTheme](../../overridetheme), [Picture](../../picture), [GroupShape](../../groupshape), [TextFrame](../../textframe), [Portion](../../portion), [GradientFormat](../../gradientformat), [SmartArtShape](../../smartartshape), [LayoutSlide](../../layoutslide), [Background](../../background), [ColorChange](../../colorchange), [GrayScale](../../grayscale), [PVIObject](../../pviobject), [TextFrameFormat](../../textframeformat), [DataLabelCollection](../../datalabelcollection), [Tint](../../tint), [SectionZoomFrame](../../sectionzoomframe), [LegacyDiagram](../../legacydiagram), [GraphicalObject](../../graphicalobject), [Legend](../../legend), [Shape](../../shape), [ParagraphCollection](../../paragraphcollection), [SummaryZoomFrame](../../summaryzoomframe), [DataLabelFormat](../../datalabelformat), [ChartSeries](../../chartseries), [AlphaFloor](../../alphafloor), [MasterNotesSlide](../../masternotesslide), [Slide](../../slide), [PictureFillFormat](../../picturefillformat), [Chart](../../chart), [ParagraphFormat](../../paragraphformat), [Table](../../table), [ColorFormat](../../colorformat), [EffectFormat](../../effectformat), [GradientStop](../../gradientstop), [MathPortion](../../mathportion), [Presentation](../../presentation), [SketchFormat](../../sketchformat), [SummaryZoomSection](../../summaryzoomsection), [Duotone](../../duotone), [FillFormat](../../fillformat), [Luminance](../../luminance), [Tab](../../tab), [Theme](../../theme), [NotesSlide](../../notesslide), [Hyperlink](../../hyperlink), [ChartPortionFormat](../../chartportionformat), [GeometryShape](../../geometryshape), [AlphaModulateFixed](../../alphamodulatefixed), [MasterHandoutSlide](../../masterhandoutslide), [TextStyle](../../textstyle), [Blur](../../blur), [ChartTitle](../../charttitle), [Camera](../../camera), [Cell](../../cell), [AudioFrame](../../audioframe), [FillOverlay](../../filloverlay), [ZoomObject](../../zoomobject), [LegendEntryProperties](../../legendentryproperties), [HSL](../../hsl), [ImageTransformOperationCollection](../../imagetransformoperationcollection), [BulletFormat](../../bulletformat), [PatternFormat](../../patternformat), [ShapeBevel](../../shapebevel), [ErrorBarsFormat](../../errorbarsformat), [ZoomFrame](../../zoomframe), [ThreeDFormat](../../threedformat), [Row](../../row), [BiLevel](../../bilevel), [PictureFrame](../../pictureframe), [LineFillFormat](../../linefillformat), [LightRig](../../lightrig), [Connector](../../connector), [BaseSlide](../../baseslide), [Ink](../../ink), [ColorScheme](../../colorscheme), [MasterSlide](../../masterslide), [VideoFrame](../../videoframe), [Field](../../field), [BasePortionFormat](../../baseportionformat), [Control](../../control), [ChartPlotArea](../../chartplotarea), [Format](../../format), [Column](../../column), [AlphaReplace](../../alphareplace), [AutoShape](../../autoshape), [GradientStopCollection](../../gradientstopcollection), [Axis](../../axis), [AlphaBiLevel](../../alphabilevel), [FormatScheme](../../formatscheme), [PortionFormat](../../portionformat), [AlphaModulate](../../alphamodulate), [Paragraph](../../paragraph), [OleObjectFrame](../../oleobjectframe), [SmartArt](../../smartart), [CellCollection](../../cellcollection), [AlphaCeiling](../../alphaceiling), [AlphaInverse](../../alphainverse), [MasterTheme](../../mastertheme), [ColorReplace](../../colorreplace), [ChartSeriesGroup](../../chartseriesgroup), [DataLabel](../../datalabel)
+
+
+---
+
+
