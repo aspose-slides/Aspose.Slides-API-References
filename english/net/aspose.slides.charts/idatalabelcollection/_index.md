@@ -25,6 +25,7 @@ public interface IDataLabelCollection : IChartComponent, IEnumerable<IDataLabel>
 | [DefaultDataLabelFormat](../../aspose.slides.charts/idatalabelcollection/defaultdatalabelformat) { get; } | Returns default format of all data labels in the collection. Read-only [`IDataLabelFormat`](../idatalabelformat). |
 | [IsVisible](../../aspose.slides.charts/idatalabelcollection/isvisible) { get; } | False means that data label is not visible by default (and so all Show*-flags (ShowValue, ...) of the DefaultDataLabelFormat property are false). Read-only Boolean. |
 | [Item](../../aspose.slides.charts/idatalabelcollection/item) { get; } | Gets the data label for the data point with the specified index. |
+| [LeaderLinesColor](../../aspose.slides.charts/idatalabelcollection/leaderlinescolor) { get; set; } | Gets or sets the color of all leader lines in the collection. Read/write Color. |
 | [ParentSeries](../../aspose.slides.charts/idatalabelcollection/parentseries) { get; } | Returns parent chart series. Read-only [`IChartSeries`](../ichartseries). |
 
 ## Methods

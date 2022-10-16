@@ -28,6 +28,8 @@ public interface ISVGOptions : ISaveOptions
 | [MetafileRasterizationDpi](../../aspose.slides.export/isvgoptions/metafilerasterizationdpi) { get; set; } | Returns or sets the lower resolution limit for metafile rasterization. Read/write Int32. |
 | [PicturesCompression](../../aspose.slides.export/isvgoptions/picturescompression) { get; set; } | Represents the pictures compression level Read/write [`PicturesCompression`](./picturescompression). |
 | [ShapeFormattingController](../../aspose.slides.export/isvgoptions/shapeformattingcontroller) { get; set; } | Returns and sets a callback interface which allows user to control shape conversion. Read/write [`ISvgShapeFormattingController`](../isvgshapeformattingcontroller). |
+| [UseFrameRotation](../../aspose.slides.export/isvgoptions/useframerotation) { get; set; } | Determines whether to perform the specified rotation of the shape when rendering or not. Read/write Boolean. Default value is true. |
+| [UseFrameSize](../../aspose.slides.export/isvgoptions/useframesize) { get; set; } | Determines whether the text frame will be included in a rendering area or not. Read/write Boolean. Default value is false. |
 | [VectorizeText](../../aspose.slides.export/isvgoptions/vectorizetext) { get; set; } | Determines whether the text on a slide will be saved as graphics. Read/write Boolean. |
 
 ### See Also

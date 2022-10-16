@@ -3,7 +3,7 @@ title: Hide
 second_title: Aspose.Sildes for .NET API Reference
 description: Make data label hidden by default by setting all Show-flags ShowValue ... of the DefaultDataLabelFormat property to false state. IsVisible will be false after this.
 type: docs
-weight: 90
+weight: 100
 url: /net/aspose.slides.charts/idatalabelcollection/hide/
 ---
 ## IDataLabelCollection.Hide method

@@ -1,17 +1,17 @@
 ---
-title: RemoveUnusedLayoutSlides
+title: CompressEmbeddedFonts
 second_title: Aspose.Sildes for .NET API Reference
-description: Makes compression of the Presentationaspose.slides/presentation by removing unused layout slides.
+description: Makes compression of the Presentationaspose.slides/presentation by removing unused characters from embedded fonts.
 type: docs
-weight: 20
-url: /net/aspose.slides.lowcode/compress/removeunusedlayoutslides/
+weight: 10
+url: /net/aspose.slides.lowcode/compress/compressembeddedfonts/
 ---
-## Compress.RemoveUnusedLayoutSlides method
+## Compress.CompressEmbeddedFonts method
 
-Makes compression of the [`Presentation`](../../../aspose.slides/presentation) by removing unused layout slides.
+Makes compression of the [`Presentation`](../../../aspose.slides/presentation) by removing unused characters from embedded fonts.
 
 ```csharp
-public static void RemoveUnusedLayoutSlides(Presentation pres)
+public static void CompressEmbeddedFonts(Presentation pres)
 ```
 
 | Parameter | Type | Description |
@@ -23,7 +23,7 @@ public static void RemoveUnusedLayoutSlides(Presentation pres)
 ```csharp
 using (Presentation pres = new Presentation("pres.pptx"))
 {
-    Aspose.Slides.LowCode.Compress.RemoveUnusedLayoutSlides(pres);
+    Aspose.Slides.LowCode.Compress.CompressEmbeddedFonts(pres);
     
     pres.Save("pres-out.pptx", SaveFormat.Pptx);
 }

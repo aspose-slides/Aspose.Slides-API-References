@@ -18,6 +18,7 @@ public static class Compress
 
 | Name | Description |
 | --- | --- |
+| static [CompressEmbeddedFonts](../../aspose.slides.lowcode/compress/compressembeddedfonts)(Presentation) | Makes compression of the [`Presentation`](../../aspose.slides/presentation) by removing unused characters from embedded fonts. |
 | static [RemoveUnusedLayoutSlides](../../aspose.slides.lowcode/compress/removeunusedlayoutslides)(Presentation) | Makes compression of the [`Presentation`](../../aspose.slides/presentation) by removing unused layout slides. |
 | static [RemoveUnusedMasterSlides](../../aspose.slides.lowcode/compress/removeunusedmasterslides)(Presentation) | Makes compression of the [`Presentation`](../../aspose.slides/presentation) by removing unused master slides. |
 
