@@ -1,10 +1,10 @@
 ---
 title: ISketchFormat
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents properties for lines sketch format.
+second_title: Aspose.Slides for Java API Reference
+description: Represents properties for lines sketch format.
 type: docs
-weight: 1022
-url: /androidjava/com.aspose.slides/isketchformat/
+weight: 1023
+url: /java/com.aspose.slides/isketchformat/
 ---```
 public interface ISketchFormat
 ```

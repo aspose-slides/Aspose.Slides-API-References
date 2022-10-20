@@ -1,9 +1,9 @@
 ---
 title: SmartArt
 second_title: Aspose.Slides for Java API Reference
-description:  Represents a SmartArt diagram
+description: Represents a SmartArt diagram
 type: docs
-weight: 513
+weight: 514
 url: /java/com.aspose.slides/smartart/
 ---
 **Inheritance:**
@@ -125,7 +125,7 @@ public final boolean isReversed()
 ```
 
 
-Return or set the state of the SmartArt diagram with regard to (left-to-right) LTR or (right-to-left) RTL, if the diagram supports reversal. Read/write \`\`\` boolean \`\`\`.
+Return or set the state of the SmartArt diagram with regard to (left-to-right) LTR or (right-to-left) RTL, if the diagram supports reversal. Read/write  boolean .
 
 **Returns:**
 boolean
@@ -135,7 +135,7 @@ public final void setReversed(boolean value)
 ```
 
 
-Return or set the state of the SmartArt diagram with regard to (left-to-right) LTR or (right-to-left) RTL, if the diagram supports reversal. Read/write \`\`\` boolean \`\`\`.
+Return or set the state of the SmartArt diagram with regard to (left-to-right) LTR or (right-to-left) RTL, if the diagram supports reversal. Read/write  boolean .
 
 **Parameters:**
 | Parameter | Type | Description |

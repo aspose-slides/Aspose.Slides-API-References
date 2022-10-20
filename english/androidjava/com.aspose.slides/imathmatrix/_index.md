@@ -1,10 +1,10 @@
 ---
 title: IMathMatrix
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Specifies the Matrix object consisting of child elements laid out in one or more rows and columns.
+second_title: Aspose.Slides for Java API Reference
+description: Specifies the Matrix object consisting of child elements laid out in one or more rows and columns.
 type: docs
-weight: 903
-url: /androidjava/com.aspose.slides/imathmatrix/
+weight: 904
+url: /java/com.aspose.slides/imathmatrix/
 ---
 **All Implemented Interfaces:**
 [com.aspose.slides.IMathElement](../../com.aspose.slides/imathelement)

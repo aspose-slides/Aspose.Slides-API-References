@@ -1,10 +1,10 @@
 ---
 title: IPatternFormatEffectiveData
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Immutable object which contains effective pattern filling properties.
+second_title: Aspose.Slides for Java API Reference
+description: Immutable object which contains effective pattern filling properties.
 type: docs
-weight: 957
-url: /androidjava/com.aspose.slides/ipatternformateffectivedata/
+weight: 958
+url: /java/com.aspose.slides/ipatternformateffectivedata/
 ---```
 public interface IPatternFormatEffectiveData
 ```

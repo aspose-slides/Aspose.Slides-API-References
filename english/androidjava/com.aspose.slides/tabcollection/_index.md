@@ -1,10 +1,10 @@
 ---
 title: TabCollection
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents a collection of tabs.
+second_title: Aspose.Slides for Java API Reference
+description: Represents a collection of tabs.
 type: docs
-weight: 543
-url: /androidjava/com.aspose.slides/tabcollection/
+weight: 544
+url: /java/com.aspose.slides/tabcollection/
 ---
 **Inheritance:**
 java.lang.Object

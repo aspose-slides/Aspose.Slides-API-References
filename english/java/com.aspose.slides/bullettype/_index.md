@@ -1,7 +1,7 @@
 ---
 title: BulletType
 second_title: Aspose.Slides for Java API Reference
-description:  Represents the type of the extended bullets.
+description: Represents the type of the extended bullets.
 type: docs
 weight: 65
 url: /java/com.aspose.slides/bullettype/

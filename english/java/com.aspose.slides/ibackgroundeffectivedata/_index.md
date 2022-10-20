@@ -1,9 +1,9 @@
 ---
 title: IBackgroundEffectiveData
 second_title: Aspose.Slides for Java API Reference
-description:  Immutable object which contains effective background properties.
+description: Immutable object which contains effective background properties.
 type: docs
-weight: 649
+weight: 650
 url: /java/com.aspose.slides/ibackgroundeffectivedata/
 ---
 **All Implemented Interfaces:**

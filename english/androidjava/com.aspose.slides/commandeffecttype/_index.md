@@ -1,10 +1,10 @@
 ---
 title: CommandEffectType
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents command effect type for command effect behavior.
+second_title: Aspose.Slides for Java API Reference
+description: Represents command effect type for command effect behavior.
 type: docs
 weight: 125
-url: /androidjava/com.aspose.slides/commandeffecttype/
+url: /java/com.aspose.slides/commandeffecttype/
 ---
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum

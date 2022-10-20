@@ -1,10 +1,10 @@
 ---
 title: IWarningInfo
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents a base interface for all warnings.
+second_title: Aspose.Slides for Java API Reference
+description: Represents a base interface for all warnings.
 type: docs
-weight: 1103
-url: /androidjava/com.aspose.slides/iwarninginfo/
+weight: 1104
+url: /java/com.aspose.slides/iwarninginfo/
 ---```
 public interface IWarningInfo
 ```
@@ -36,7 +36,7 @@ public abstract int getWarningType()
 ```
 
 
-Returns a type of warning. Read-only [WarningType](../../com.aspose.slides/warningtype)(\#getWarningType).
+Returns a type of warning. Read-only [WarningType](../../com.aspose.slides/warningtype)(\#getWarningType.getWarningType).
 
 **Returns:**
 int

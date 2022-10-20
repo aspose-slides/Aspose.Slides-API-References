@@ -1,7 +1,7 @@
 ---
 title: Control
 second_title: Aspose.Slides for Java API Reference
-description:  Represents an ActiveX control.
+description: Represents an ActiveX control.
 type: docs
 weight: 136
 url: /java/com.aspose.slides/control/

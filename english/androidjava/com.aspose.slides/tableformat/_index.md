@@ -1,10 +1,10 @@
 ---
 title: TableFormat
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents format of a table.
+second_title: Aspose.Slides for Java API Reference
+description: Represents format of a table.
 type: docs
-weight: 546
-url: /androidjava/com.aspose.slides/tableformat/
+weight: 547
+url: /java/com.aspose.slides/tableformat/
 ---
 **Inheritance:**
 java.lang.Object, com.aspose.slides.DomObject

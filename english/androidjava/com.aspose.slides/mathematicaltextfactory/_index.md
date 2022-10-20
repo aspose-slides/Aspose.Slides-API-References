@@ -1,10 +1,10 @@
 ---
 title: MathematicalTextFactory
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Allows to create a MathematicalText element
+second_title: Aspose.Slides for Java API Reference
+description: Allows to create a MathematicalText element
 type: docs
-weight: 358
-url: /androidjava/com.aspose.slides/mathematicaltextfactory/
+weight: 359
+url: /java/com.aspose.slides/mathematicaltextfactory/
 ---
 **Inheritance:**
 java.lang.Object

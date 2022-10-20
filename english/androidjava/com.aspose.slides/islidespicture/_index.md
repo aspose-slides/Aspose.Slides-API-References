@@ -1,10 +1,10 @@
 ---
 title: ISlidesPicture
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents a picture in a presentation.
+second_title: Aspose.Slides for Java API Reference
+description: Represents a picture in a presentation.
 type: docs
-weight: 1032
-url: /androidjava/com.aspose.slides/islidespicture/
+weight: 1033
+url: /java/com.aspose.slides/islidespicture/
 ---
 **All Implemented Interfaces:**
 [com.aspose.slides.ISlideComponent](../../com.aspose.slides/islidecomponent)

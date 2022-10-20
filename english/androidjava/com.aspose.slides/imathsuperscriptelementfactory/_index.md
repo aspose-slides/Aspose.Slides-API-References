@@ -1,10 +1,10 @@
 ---
 title: IMathSuperscriptElementFactory
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Allows to create IMathSuperscriptElement
+second_title: Aspose.Slides for Java API Reference
+description: Allows to create IMathSuperscriptElement
 type: docs
-weight: 918
-url: /androidjava/com.aspose.slides/imathsuperscriptelementfactory/
+weight: 919
+url: /java/com.aspose.slides/imathsuperscriptelementfactory/
 ---```
 public interface IMathSuperscriptElementFactory
 ```

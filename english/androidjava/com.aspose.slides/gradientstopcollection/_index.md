@@ -1,10 +1,10 @@
 ---
 title: GradientStopCollection
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Represnts a collection of gradient stops.
+second_title: Aspose.Slides for Java API Reference
+description: Represnts a collection of gradient stops.
 type: docs
-weight: 227
-url: /androidjava/com.aspose.slides/gradientstopcollection/
+weight: 228
+url: /java/com.aspose.slides/gradientstopcollection/
 ---
 **Inheritance:**
 java.lang.Object, [com.aspose.slides.PVIObject](../../com.aspose.slides/pviobject)
@@ -41,7 +41,7 @@ public final int size()
 ```
 
 
-Returns the number of gradient stops in a collection. Read-only \`\`\` int \`\`\`.
+Returns the number of gradient stops in a collection. Read-only  int .
 
 **Returns:**
 int
@@ -214,7 +214,7 @@ public final boolean isSynchronized()
 ```
 
 
-Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only \`\`\` boolean \`\`\`.
+Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only  boolean .
 
 **Returns:**
 boolean

@@ -1,9 +1,9 @@
 ---
 title: IMathFractionFactory
 second_title: Aspose.Slides for Java API Reference
-description:  Allows to create a math fraction
+description: Allows to create a math fraction
 type: docs
-weight: 895
+weight: 896
 url: /java/com.aspose.slides/imathfractionfactory/
 ---```
 public interface IMathFractionFactory

@@ -1,9 +1,9 @@
 ---
 title: LoadFormat
 second_title: Aspose.Slides for Java API Reference
-description:  Indicates the format of the document that is to be loaded.
+description: Indicates the format of the document that is to be loaded.
 type: docs
-weight: 288
+weight: 289
 url: /java/com.aspose.slides/loadformat/
 ---
 **Inheritance:**

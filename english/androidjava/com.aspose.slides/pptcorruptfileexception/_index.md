@@ -1,10 +1,10 @@
 ---
 title: PptCorruptFileException
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Exception which thrown when presentation file is probably corrupt.
+second_title: Aspose.Slides for Java API Reference
+description: Exception which thrown when presentation file is probably corrupt.
 type: docs
-weight: 430
-url: /androidjava/com.aspose.slides/pptcorruptfileexception/
+weight: 431
+url: /java/com.aspose.slides/pptcorruptfileexception/
 ---
 **Inheritance:**
 java.lang.Object, java.lang.Throwable, java.lang.Exception, java.lang.RuntimeException, com.aspose.ms.System.Exception, [com.aspose.slides.PptException](../../com.aspose.slides/pptexception), [com.aspose.slides.PptReadException](../../com.aspose.slides/pptreadexception)

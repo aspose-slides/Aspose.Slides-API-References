@@ -1,10 +1,10 @@
 ---
 title: Collect
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents a group of methods intended to collect model objects of different types from .
+second_title: Aspose.Slides for Java API Reference
+description: Represents a group of methods intended to collect model objects of different types from .
 type: docs
 weight: 105
-url: /androidjava/com.aspose.slides/collect/
+url: /java/com.aspose.slides/collect/
 ---
 **Inheritance:**
 java.lang.Object

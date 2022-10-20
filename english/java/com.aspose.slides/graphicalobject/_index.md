@@ -1,9 +1,9 @@
 ---
 title: GraphicalObject
 second_title: Aspose.Slides for Java API Reference
-description:  Represents abstract graphical object.
+description: Represents abstract graphical object.
 type: docs
-weight: 230
+weight: 231
 url: /java/com.aspose.slides/graphicalobject/
 ---
 **Inheritance:**

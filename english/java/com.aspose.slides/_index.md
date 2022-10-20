@@ -1,13 +1,11 @@
 ---
 title: com.aspose.slides
 second_title: Aspose.Slides for Java API Reference
-description: Contains classes for work with Microsoft PowerPoint presentations without utilizing Microsoft PowerPoint.
+description: 
 type: docs
 weight: 10
 url: /java/com.aspose.slides/
 ---
-
-Contains classes for work with Microsoft PowerPoint presentations without utilizing Microsoft PowerPoint.
 
 ## Classes
 
@@ -62,7 +60,7 @@ Contains classes for work with Microsoft PowerPoint presentations without utiliz
 | [BlackWhiteMode](../com.aspose.slides/blackwhitemode) | Determines how colored shape should be transformed into black and white. |
 | [BlobManagementOptions](../com.aspose.slides/blobmanagementoptions) | Represents options which can be used to manage BLOB handling rules and other BLOB settings. |
 | [Blur](../com.aspose.slides/blur) | Represents a Blur effect that is applied to the entire shape, including its fill. |
-| [BrowsedAtKiosk](../com.aspose.slides/browsedatkiosk) | Browsed at a kiosk (full screen). |
+| [BrowsedAtKiosk](../com.aspose.slides/browsedatkiosk) | Browsed at a kiosk (full screen) |
 | [BrowsedByIndividual](../com.aspose.slides/browsedbyindividual) | Browsed by individual (window) |
 | [BubbleSizeRepresentationType](../com.aspose.slides/bubblesizerepresentationtype) | Specifies the possible ways to represent data as bubble chart sizes. |
 | [BuildType](../com.aspose.slides/buildtype) | Determines how text will appear on a shape during animation. |
@@ -142,7 +140,7 @@ Contains classes for work with Microsoft PowerPoint presentations without utiliz
 | [Control](../com.aspose.slides/control) | Represents an ActiveX control. |
 | [ControlCollection](../com.aspose.slides/controlcollection) | A collection of ActiveX controls. |
 | [ControlPropertiesCollection](../com.aspose.slides/controlpropertiescollection) | A collection of AcitveX properties. |
-| [ControlType](../com.aspose.slides/controltype) | Defines a control type which should be embedded by [IControlCollection\#addControl(int,float,float,float,float)](../com.aspose.slides/icontrolcollection\#addControl-int-float-float-float-float-). |
+| [ControlType](../com.aspose.slides/controltype) | Defines a control type which should be embedded by [IControlCollection.\#addControl(int,float,float,float,float)](../com.aspose.slides/icontrolcollection\#addControl-int-float-float-float-float-). |
 | [Convert](../com.aspose.slides/convert) | Represents a group of methods intended to convert [Presentation](../com.aspose.slides/presentation). |
 | [CornerDirectionTransition](../com.aspose.slides/cornerdirectiontransition) | Corner direction slide transition effect. |
 | [CrossesType](../com.aspose.slides/crossestype) | Determines where axis will cross. |
@@ -213,6 +211,7 @@ Contains classes for work with Microsoft PowerPoint presentations without utiliz
 | [FontSubstCondition](../com.aspose.slides/fontsubstcondition) | Represents a rule fot font substitution |
 | [FontSubstRule](../com.aspose.slides/fontsubstrule) | Represents font subtituition information |
 | [FontSubstRuleCollection](../com.aspose.slides/fontsubstrulecollection) | Represents collection of fonts substitution. |
+| [FontSubstitutionInfo](../com.aspose.slides/fontsubstitutioninfo) | This structure represents the information about the font replacement when it will be rendered. |
 | [Fonts](../com.aspose.slides/fonts) | Fonts collection. |
 | [FontsLoader](../com.aspose.slides/fontsloader) | Class for loading custom fonts defined by user. |
 | [FontsManager](../com.aspose.slides/fontsmanager) | Manages fonts across the presentation. |
@@ -509,7 +508,7 @@ Contains classes for work with Microsoft PowerPoint presentations without utiliz
 | [SlideOrientation](../com.aspose.slides/slideorientation) | Represents the slide orientation. |
 | [SlideShowSettings](../com.aspose.slides/slideshowsettings) | Represents the slide show settings for the presentation. |
 | [SlideShowTransition](../com.aspose.slides/slideshowtransition) | Represents slide show transition. |
-| [SlideShowType](../com.aspose.slides/slideshowtype) | Base slide show settings |
+| [SlideShowType](../com.aspose.slides/slideshowtype) | Base slide show settings. |
 | [SlideSize](../com.aspose.slides/slidesize) | Represents a size of slide. |
 | [SlideSizeScaleType](../com.aspose.slides/slidesizescaletype) | Represents the scale type of slide content. |
 | [SlideSizeType](../com.aspose.slides/slidesizetype) | Represents the slide size preset. |

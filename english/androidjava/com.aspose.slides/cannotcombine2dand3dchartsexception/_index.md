@@ -1,10 +1,10 @@
 ---
 title: CannotCombine2DAnd3DChartsException
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Exception which thrown when trying to combine 2D and 3D chart types.
+second_title: Aspose.Slides for Java API Reference
+description: Exception which thrown when trying to combine 2D and 3D chart types.
 type: docs
 weight: 68
-url: /androidjava/com.aspose.slides/cannotcombine2dand3dchartsexception/
+url: /java/com.aspose.slides/cannotcombine2dand3dchartsexception/
 ---
 **Inheritance:**
 java.lang.Object, java.lang.Throwable, java.lang.Exception, java.lang.RuntimeException, com.aspose.ms.System.Exception, com.aspose.ms.System.SystemException, com.aspose.ms.System.InvalidOperationException

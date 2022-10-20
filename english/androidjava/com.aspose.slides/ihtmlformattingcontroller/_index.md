@@ -1,10 +1,10 @@
 ---
 title: IHtmlFormattingController
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Controls a html file generation.
+second_title: Aspose.Slides for Java API Reference
+description: Controls a html file generation.
 type: docs
-weight: 821
-url: /androidjava/com.aspose.slides/ihtmlformattingcontroller/
+weight: 822
+url: /java/com.aspose.slides/ihtmlformattingcontroller/
 ---```
 public interface IHtmlFormattingController
 ```

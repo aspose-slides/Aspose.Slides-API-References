@@ -1,10 +1,10 @@
 ---
 title: IPresentationInfo
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Information about presentation file
+second_title: Aspose.Slides for Java API Reference
+description: Information about presentation file
 type: docs
-weight: 979
-url: /androidjava/com.aspose.slides/ipresentationinfo/
+weight: 980
+url: /java/com.aspose.slides/ipresentationinfo/
 ---```
 public interface IPresentationInfo
 ```
@@ -139,7 +139,7 @@ Checks whether a password to modify is correct for a write protected presentatio
 
 --------------------
 
-1. You should check the (\#isWriteProtected) property before calling this method. 2. When password is null or empty, this method returns false. |
+1. You should check the (\#isWriteProtected.isWriteProtected) property before calling this method. 2. When password is null or empty, this method returns false. |
 
 **Returns:**
 boolean - True if the presentation is write protected and the password is correct. False otherwise.
@@ -164,8 +164,8 @@ Updates properties of binded presentation.
 --------------------
 
 > ```
-> This sample shows how to call the #updateDocumentProperties(IDocumentProperties) method to
->  update the document properties returned by call of the #readDocumentProperties method.
+> This sample shows how to call the #updateDocumentProperties(IDocumentProperties).updateDocumentProperties(IDocumentProperties) method to
+>  update the document properties returned by call of the #readDocumentProperties.readDocumentProperties method.
 >  
 >  IPresentationInfo info = PresentationFactory.getInstance().getPresentationInfo("pres.pptx");
 >  IDocumentProperties props = info.readDocumentProperties();

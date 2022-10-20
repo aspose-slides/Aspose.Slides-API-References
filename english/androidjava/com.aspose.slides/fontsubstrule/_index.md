@@ -1,10 +1,10 @@
 ---
 title: FontSubstRule
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents font subtituition information
+second_title: Aspose.Slides for Java API Reference
+description: Represents font subtituition information
 type: docs
 weight: 208
-url: /androidjava/com.aspose.slides/fontsubstrule/
+url: /java/com.aspose.slides/fontsubstrule/
 ---
 **Inheritance:**
 java.lang.Object

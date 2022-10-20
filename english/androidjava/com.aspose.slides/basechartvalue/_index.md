@@ -1,10 +1,10 @@
 ---
 title: BaseChartValue
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents a value of a chart.
+second_title: Aspose.Slides for Java API Reference
+description: Represents a value of a chart.
 type: docs
 weight: 37
-url: /androidjava/com.aspose.slides/basechartvalue/
+url: /java/com.aspose.slides/basechartvalue/
 ---
 **Inheritance:**
 java.lang.Object

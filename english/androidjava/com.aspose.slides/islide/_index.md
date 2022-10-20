@@ -1,10 +1,10 @@
 ---
 title: ISlide
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents a slide in a presentation.
+second_title: Aspose.Slides for Java API Reference
+description: Represents a slide in a presentation.
 type: docs
-weight: 1024
-url: /androidjava/com.aspose.slides/islide/
+weight: 1025
+url: /java/com.aspose.slides/islide/
 ---
 **All Implemented Interfaces:**
 [com.aspose.slides.IBaseSlide](../../com.aspose.slides/ibaseslide), [com.aspose.slides.IOverrideThemeable](../../com.aspose.slides/ioverridethemeable)
@@ -62,7 +62,7 @@ public abstract int getSlideNumber()
 ```
 
 
-Returns a number of slide. Index of slide in ([IPresentation\#getSlides](../../com.aspose.slides/ipresentation\#getSlides)) collection is always equal to SlideNumber - 1. Read/write int.
+Returns a number of slide. Index of slide in ([IPresentation.getSlides](../../com.aspose.slides/ipresentation\#getSlides)) collection is always equal to SlideNumber - 1. Read/write int.
 
 **Returns:**
 int
@@ -72,7 +72,7 @@ public abstract void setSlideNumber(int value)
 ```
 
 
-Returns a number of slide. Index of slide in ([IPresentation\#getSlides](../../com.aspose.slides/ipresentation\#getSlides)) collection is always equal to SlideNumber - 1. Read/write int.
+Returns a number of slide. Index of slide in ([IPresentation.getSlides](../../com.aspose.slides/ipresentation\#getSlides)) collection is always equal to SlideNumber - 1. Read/write int.
 
 **Parameters:**
 | Parameter | Type | Description |

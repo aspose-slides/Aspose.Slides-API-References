@@ -1,9 +1,9 @@
 ---
 title: IBulletFormat
 second_title: Aspose.Slides for Java API Reference
-description:  Represents paragraph bullet formatting properties.
+description: Represents paragraph bullet formatting properties.
 type: docs
-weight: 670
+weight: 671
 url: /java/com.aspose.slides/ibulletformat/
 ---```
 public interface IBulletFormat
@@ -175,7 +175,7 @@ public abstract byte getNumberedBulletStyle()
 ```
 
 
-Returns or sets the style of a numbered bullet with no inheritance. Read/write [NumberedBulletStyle](../../com.aspose.slides/numberedbulletstyle)(\#getNumberedBulletStyle/\#setNumberedBulletStyle(byte)).
+Returns or sets the style of a numbered bullet with no inheritance. Read/write [NumberedBulletStyle](../../com.aspose.slides/numberedbulletstyle)(\#getNumberedBulletStyle.getNumberedBulletStyle/\#setNumberedBulletStyle(byte).setNumberedBulletStyle(byte)).
 
 **Returns:**
 byte
@@ -185,7 +185,7 @@ public abstract void setNumberedBulletStyle(byte value)
 ```
 
 
-Returns or sets the style of a numbered bullet with no inheritance. Read/write [NumberedBulletStyle](../../com.aspose.slides/numberedbulletstyle)(\#getNumberedBulletStyle/\#setNumberedBulletStyle(byte)).
+Returns or sets the style of a numbered bullet with no inheritance. Read/write [NumberedBulletStyle](../../com.aspose.slides/numberedbulletstyle)(\#getNumberedBulletStyle.getNumberedBulletStyle/\#setNumberedBulletStyle(byte).setNumberedBulletStyle(byte)).
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -1,10 +1,10 @@
 ---
 title: WarningType
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents a type of warning.
+second_title: Aspose.Slides for Java API Reference
+description: Represents a type of warning.
 type: docs
-weight: 610
-url: /androidjava/com.aspose.slides/warningtype/
+weight: 611
+url: /java/com.aspose.slides/warningtype/
 ---
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum

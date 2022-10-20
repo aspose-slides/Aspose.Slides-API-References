@@ -1,10 +1,10 @@
 ---
 title: IActualLayout
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Specifies actual position of a chart element.
+second_title: Aspose.Slides for Java API Reference
+description: Specifies actual position of a chart element.
 type: docs
-weight: 621
-url: /androidjava/com.aspose.slides/iactuallayout/
+weight: 622
+url: /java/com.aspose.slides/iactuallayout/
 ---```
 public interface IActualLayout
 ```

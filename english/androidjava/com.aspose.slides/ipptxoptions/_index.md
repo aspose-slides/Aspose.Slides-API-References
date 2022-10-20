@@ -1,10 +1,10 @@
 ---
 title: IPptxOptions
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents options for saving OpenXml presentations PPTX PPSX POTX PPTM PPSM POTM.
+second_title: Aspose.Slides for Java API Reference
+description: Represents options for saving OpenXml presentations PPTX PPSX POTX PPTM PPSM POTM.
 type: docs
-weight: 974
-url: /androidjava/com.aspose.slides/ipptxoptions/
+weight: 975
+url: /java/com.aspose.slides/ipptxoptions/
 ---
 **All Implemented Interfaces:**
 [com.aspose.slides.ISaveOptions](../../com.aspose.slides/isaveoptions)
@@ -25,7 +25,7 @@ public abstract int getConformance()
 ```
 
 
-Specifies the conformance class to which the Presentation document conforms. Default value is [Conformance\#Ecma376\_2006](../../com.aspose.slides/conformance\#Ecma376-2006)
+Specifies the conformance class to which the Presentation document conforms. Default value is [Conformance.Ecma376\_2006](../../com.aspose.slides/conformance\#Ecma376-2006)
 
 **Returns:**
 int
@@ -35,7 +35,7 @@ public abstract void setConformance(int value)
 ```
 
 
-Specifies the conformance class to which the Presentation document conforms. Default value is [Conformance\#Ecma376\_2006](../../com.aspose.slides/conformance\#Ecma376-2006)
+Specifies the conformance class to which the Presentation document conforms. Default value is [Conformance.Ecma376\_2006](../../com.aspose.slides/conformance\#Ecma376-2006)
 
 **Parameters:**
 | Parameter | Type | Description |

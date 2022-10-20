@@ -1,10 +1,10 @@
 ---
 title: MasterThemeManager
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Provides access to presentation master theme.
+second_title: Aspose.Slides for Java API Reference
+description: Provides access to presentation master theme.
 type: docs
-weight: 303
-url: /androidjava/com.aspose.slides/masterthememanager/
+weight: 304
+url: /java/com.aspose.slides/masterthememanager/
 ---
 **Inheritance:**
 java.lang.Object, [com.aspose.slides.BaseThemeManager](../../com.aspose.slides/basethememanager)

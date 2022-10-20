@@ -1,10 +1,10 @@
 ---
 title: DataLabelFormat
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents formatting options for DataLabel.
+second_title: Aspose.Slides for Java API Reference
+description: Represents formatting options for DataLabel.
 type: docs
 weight: 149
-url: /androidjava/com.aspose.slides/datalabelformat/
+url: /java/com.aspose.slides/datalabelformat/
 ---
 **Inheritance:**
 java.lang.Object, [com.aspose.slides.PVIObject](../../com.aspose.slides/pviobject)
@@ -90,7 +90,15 @@ Represents the format string for the DataLabels object. Read/write String.
 
 --------------------
 
-If parent of this DataLabelFormat object is a DataLabelCollection collection of data labels then this property gets or sets the default value of the NumberFormat property for the new data labels in the DataLabelCollection collection. Represents the format string for the DataLabel objects. Set this property with value also sets this value to the NumberFormat property for all data labels in the DataLabelCollection collection (i.e. "DataLabels.getDefaultDataLabelFormat().setNumberFormat(val);" cause to all DataLabels.get\_Item(i).getNumberFormat() is equal to val).
+> ```
+> series.getLabels().getDefaultDataLabelFormat().setShowValue(true);
+>  series.getLabels().getDefaultDataLabelFormat().setNumberFormatLinkedToSource(false);
+>  series.getLabels().getDefaultDataLabelFormat().setNumberFormat("0.0%");
+> ```
+
+--------------------
+
+If parent of this DataLabelFormat object is a DataLabelCollection collection of data labels, then this property gets or sets the default value of the NumberFormat property for the new data labels in the DataLabelCollection collection. When this property is set with a value, that value is also set for the NumberFormat property for all data labels in the DataLabelCollection collection (i.e. "DataLabels.getDefaultDataLabelFormat().setNumberFormat(val);" causes all DataLabels.get\_Item(i).getNumberFormat() to equal to val).
 
 **Returns:**
 java.lang.String
@@ -104,7 +112,15 @@ Represents the format string for the DataLabels object. Read/write String.
 
 --------------------
 
-If parent of this DataLabelFormat object is a DataLabelCollection collection of data labels then this property gets or sets the default value of the NumberFormat property for the new data labels in the DataLabelCollection collection. Represents the format string for the DataLabel objects. Set this property with value also sets this value to the NumberFormat property for all data labels in the DataLabelCollection collection (i.e. "DataLabels.getDefaultDataLabelFormat().setNumberFormat(val);" cause to all DataLabels.get\_Item(i).getNumberFormat() is equal to val).
+> ```
+> series.getLabels().getDefaultDataLabelFormat().setShowValue(true);
+>  series.getLabels().getDefaultDataLabelFormat().setNumberFormatLinkedToSource(false);
+>  series.getLabels().getDefaultDataLabelFormat().setNumberFormat("0.0%");
+> ```
+
+--------------------
+
+If parent of this DataLabelFormat object is a DataLabelCollection collection of data labels, then this property gets or sets the default value of the NumberFormat property for the new data labels in the DataLabelCollection collection. When this property is set with a value, that value is also set for the NumberFormat property for all data labels in the DataLabelCollection collection (i.e. "DataLabels.getDefaultDataLabelFormat().setNumberFormat(val);" causes all DataLabels.get\_Item(i).getNumberFormat() to equal to val).
 
 **Parameters:**
 | Parameter | Type | Description |

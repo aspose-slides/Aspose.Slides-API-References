@@ -1,10 +1,10 @@
 ---
 title: CrossesType
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Determines where axis will cross.
+second_title: Aspose.Slides for Java API Reference
+description: Determines where axis will cross.
 type: docs
 weight: 142
-url: /androidjava/com.aspose.slides/crossestype/
+url: /java/com.aspose.slides/crossestype/
 ---
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum

@@ -1,10 +1,10 @@
 ---
 title: IMathFraction
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Specifies the fraction object consisting of a numerator and denominator separated by a fraction bar.
+second_title: Aspose.Slides for Java API Reference
+description: Specifies the fraction object consisting of a numerator and denominator separated by a fraction bar.
 type: docs
-weight: 894
-url: /androidjava/com.aspose.slides/imathfraction/
+weight: 895
+url: /java/com.aspose.slides/imathfraction/
 ---
 **All Implemented Interfaces:**
 [com.aspose.slides.IMathElement](../../com.aspose.slides/imathelement)

@@ -1,9 +1,9 @@
 ---
 title: RenderingOptions
 second_title: Aspose.Slides for Java API Reference
-description:  Provides options that control how a presentation/slide is rendered.
+description: Provides options that control how a presentation/slide is rendered.
 type: docs
-weight: 459
+weight: 460
 url: /java/com.aspose.slides/renderingoptions/
 ---
 **Inheritance:**

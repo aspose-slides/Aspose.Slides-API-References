@@ -1,9 +1,9 @@
 ---
 title: SmartArtLayoutType
 second_title: Aspose.Slides for Java API Reference
-description:  Represents layout type of a SmartArt diagram.
+description: Represents layout type of a SmartArt diagram.
 type: docs
-weight: 515
+weight: 516
 url: /java/com.aspose.slides/smartartlayouttype/
 ---
 **Inheritance:**

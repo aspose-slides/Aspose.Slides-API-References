@@ -1,10 +1,10 @@
 ---
 title: ShapeStyle
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Represent shapes style reference.
+second_title: Aspose.Slides for Java API Reference
+description: Represent shapes style reference.
 type: docs
-weight: 490
-url: /androidjava/com.aspose.slides/shapestyle/
+weight: 491
+url: /java/com.aspose.slides/shapestyle/
 ---
 **Inheritance:**
 java.lang.Object, com.aspose.slides.DomObject

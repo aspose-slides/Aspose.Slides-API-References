@@ -1,10 +1,10 @@
 ---
 title: AlphaBiLevel
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents an Alpha Bi-Level effect.
+second_title: Aspose.Slides for Java API Reference
+description: Represents an Alpha Bi-Level effect.
 type: docs
 weight: 12
-url: /androidjava/com.aspose.slides/alphabilevel/
+url: /java/com.aspose.slides/alphabilevel/
 ---
 **Inheritance:**
 java.lang.Object, [com.aspose.slides.PVIObject](../../com.aspose.slides/pviobject), [com.aspose.slides.ImageTransformOperation](../../com.aspose.slides/imagetransformoperation)

@@ -1,10 +1,10 @@
 ---
 title: IFontScheme
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Stores theme-defined fonts.
+second_title: Aspose.Slides for Java API Reference
+description: Stores theme-defined fonts.
 type: docs
-weight: 781
-url: /androidjava/com.aspose.slides/ifontscheme/
+weight: 782
+url: /java/com.aspose.slides/ifontscheme/
 ---```
 public interface IFontScheme
 ```

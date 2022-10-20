@@ -1,10 +1,10 @@
 ---
 title: SummaryZoomFrame
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents a Summary Zoom object in a slide.
+second_title: Aspose.Slides for Java API Reference
+description: Represents a Summary Zoom object in a slide.
 type: docs
-weight: 530
-url: /androidjava/com.aspose.slides/summaryzoomframe/
+weight: 531
+url: /java/com.aspose.slides/summaryzoomframe/
 ---
 **Inheritance:**
 java.lang.Object, [com.aspose.slides.Shape](../../com.aspose.slides/shape), [com.aspose.slides.GraphicalObject](../../com.aspose.slides/graphicalobject)

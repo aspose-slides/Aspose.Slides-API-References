@@ -1,10 +1,10 @@
 ---
 title: TransitionMorphType
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Represent a type of morph transition.
+second_title: Aspose.Slides for Java API Reference
+description: Represent a type of morph transition.
 type: docs
-weight: 583
-url: /androidjava/com.aspose.slides/transitionmorphtype/
+weight: 584
+url: /java/com.aspose.slides/transitionmorphtype/
 ---
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum

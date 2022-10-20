@@ -1,11 +1,10 @@
 ---
 title: ChartSeriesCollection
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents collection of  
- 
+second_title: Aspose.Slides for Java API Reference
+description: Represents collection of
 type: docs
 weight: 96
-url: /androidjava/com.aspose.slides/chartseriescollection/
+url: /java/com.aspose.slides/chartseriescollection/
 ---
 **Inheritance:**
 java.lang.Object, com.aspose.slides.DomObject

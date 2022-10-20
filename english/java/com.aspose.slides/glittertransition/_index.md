@@ -1,9 +1,9 @@
 ---
 title: GlitterTransition
 second_title: Aspose.Slides for Java API Reference
-description:  Glitter slide transition effect.
+description: Glitter slide transition effect.
 type: docs
-weight: 220
+weight: 221
 url: /java/com.aspose.slides/glittertransition/
 ---
 **Inheritance:**

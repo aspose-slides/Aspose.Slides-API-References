@@ -1,9 +1,9 @@
 ---
 title: MathFunctionFactory
 second_title: Aspose.Slides for Java API Reference
-description:  Allows to create a math function
+description: Allows to create a math function
 type: docs
-weight: 325
+weight: 326
 url: /java/com.aspose.slides/mathfunctionfactory/
 ---
 **Inheritance:**

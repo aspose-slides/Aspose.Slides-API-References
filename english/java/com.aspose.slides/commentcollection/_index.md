@@ -1,7 +1,7 @@
 ---
 title: CommentCollection
 second_title: Aspose.Slides for Java API Reference
-description:  Represents a collection of comments of one author.
+description: Represents a collection of comments of one author.
 type: docs
 weight: 129
 url: /java/com.aspose.slides/commentcollection/
@@ -43,7 +43,7 @@ public final int size()
 ```
 
 
-Gets the number of elements actually contained in the collection. Read-only \`\`\` int \`\`\`.
+Gets the number of elements actually contained in the collection. Read-only  int .
 
 **Returns:**
 int
@@ -242,7 +242,7 @@ Finds a comment in the collection by index.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| idx | int | Unique index of a comment to find \`\`\` int \`\`\`. |
+| idx | int | Unique index of a comment to find  int . |
 
 **Returns:**
 [IComment](../../com.aspose.slides/icomment) - Found comment or null [IComment](../../com.aspose.slides/icomment).
@@ -266,7 +266,7 @@ public final boolean isSynchronized()
 ```
 
 
-Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only \`\`\` boolean \`\`\`.
+Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only  boolean .
 
 **Returns:**
 boolean
@@ -276,7 +276,7 @@ public final Object getSyncRoot()
 ```
 
 
-Returns a synchronization root. Read-only \`\`\` Object \`\`\`.
+Returns a synchronization root. Read-only  Object .
 
 **Returns:**
 java.lang.Object

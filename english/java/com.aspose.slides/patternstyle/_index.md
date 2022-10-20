@@ -1,9 +1,9 @@
 ---
 title: PatternStyle
 second_title: Aspose.Slides for Java API Reference
-description:  Represents the pattern style.
+description: Represents the pattern style.
 type: docs
-weight: 406
+weight: 407
 url: /java/com.aspose.slides/patternstyle/
 ---
 **Inheritance:**

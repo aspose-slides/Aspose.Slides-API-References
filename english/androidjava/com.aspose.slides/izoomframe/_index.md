@@ -1,10 +1,10 @@
 ---
 title: IZoomFrame
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents a Slide Zoom object in a slide.
+second_title: Aspose.Slides for Java API Reference
+description: Represents a Slide Zoom object in a slide.
 type: docs
-weight: 1108
-url: /androidjava/com.aspose.slides/izoomframe/
+weight: 1109
+url: /java/com.aspose.slides/izoomframe/
 ---
 **All Implemented Interfaces:**
 [com.aspose.slides.IZoomObject](../../com.aspose.slides/izoomobject)

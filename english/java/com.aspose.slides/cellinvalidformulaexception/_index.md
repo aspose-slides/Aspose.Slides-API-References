@@ -1,7 +1,7 @@
 ---
 title: CellInvalidFormulaException
 second_title: Aspose.Slides for Java API Reference
-description:  The exception that is thrown when a calculated formula is not correct or was not parsed.
+description: The exception that is thrown when a calculated formula is not correct or was not parsed.
 type: docs
 weight: 74
 url: /java/com.aspose.slides/cellinvalidformulaexception/

@@ -1,10 +1,10 @@
 ---
 title: IPPImage
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents an image in a presentation.
+second_title: Aspose.Slides for Java API Reference
+description: Represents an image in a presentation.
 type: docs
-weight: 949
-url: /androidjava/com.aspose.slides/ippimage/
+weight: 950
+url: /java/com.aspose.slides/ippimage/
 ---```
 public interface IPPImage
 ```
@@ -20,7 +20,7 @@ Represents an image in a presentation.
 | [setSvgImage(ISvgImage value)](#setSvgImage-com.aspose.slides.ISvgImage-) | Returns or sets ISvgImage object [ISvgImage](../../com.aspose.slides/isvgimage) |
 | [replaceImage(byte[] newImageData)](#replaceImage-byte---) | Replaces image data. |
 | [replaceImage(IPPImage newImage)](#replaceImage-com.aspose.slides.IPPImage-) | Replaces image. |
-| [getContentType()](#getContentType--) | Returns a MIME type of an image, encoded in (\#getBinaryData). |
+| [getContentType()](#getContentType--) | Returns a MIME type of an image, encoded in (\#getBinaryData.getBinaryData). |
 | [getWidth()](#getWidth--) | Returns a width of an image. |
 | [getHeight()](#getHeight--) | Returns a height of an image. |
 | [getX()](#getX--) | Returns a X-offset of an image. |
@@ -108,7 +108,7 @@ public abstract String getContentType()
 ```
 
 
-Returns a MIME type of an image, encoded in (\#getBinaryData). Read-only String.
+Returns a MIME type of an image, encoded in (\#getBinaryData.getBinaryData). Read-only String.
 
 **Returns:**
 java.lang.String

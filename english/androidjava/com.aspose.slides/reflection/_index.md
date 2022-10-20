@@ -1,10 +1,10 @@
 ---
 title: Reflection
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents a Reflection effect.
+second_title: Aspose.Slides for Java API Reference
+description: Represents a Reflection effect.
 type: docs
-weight: 458
-url: /androidjava/com.aspose.slides/reflection/
+weight: 459
+url: /java/com.aspose.slides/reflection/
 ---
 **Inheritance:**
 java.lang.Object

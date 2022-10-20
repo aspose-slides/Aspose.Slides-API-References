@@ -1,10 +1,10 @@
 ---
 title: ColumnFormat
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents format of a table column.
+second_title: Aspose.Slides for Java API Reference
+description: Represents format of a table column.
 type: docs
 weight: 122
-url: /androidjava/com.aspose.slides/columnformat/
+url: /java/com.aspose.slides/columnformat/
 ---
 **Inheritance:**
 java.lang.Object, com.aspose.slides.DomObject

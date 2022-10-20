@@ -1,9 +1,9 @@
 ---
 title: VbaReferenceCollection
 second_title: Aspose.Slides for Java API Reference
-description:  Represents a collection of a VBA Project references.
+description: Represents a collection of a VBA Project references.
 type: docs
-weight: 599
+weight: 600
 url: /java/com.aspose.slides/vbareferencecollection/
 ---
 **Inheritance:**

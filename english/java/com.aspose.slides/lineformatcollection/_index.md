@@ -1,9 +1,9 @@
 ---
 title: LineFormatCollection
 second_title: Aspose.Slides for Java API Reference
-description:  Represents the collection of line styles.
+description: Represents the collection of line styles.
 type: docs
-weight: 283
+weight: 284
 url: /java/com.aspose.slides/lineformatcollection/
 ---
 **Inheritance:**

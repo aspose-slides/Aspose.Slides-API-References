@@ -1,7 +1,7 @@
 ---
 title: ControlPropertiesCollection
 second_title: Aspose.Slides for Java API Reference
-description:  A collection of AcitveX properties.
+description: A collection of AcitveX properties.
 type: docs
 weight: 138
 url: /java/com.aspose.slides/controlpropertiescollection/

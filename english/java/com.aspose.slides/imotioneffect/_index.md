@@ -1,9 +1,9 @@
 ---
 title: IMotionEffect
 second_title: Aspose.Slides for Java API Reference
-description:  Represent motion effect behavior of effect.
+description: Represent motion effect behavior of effect.
 type: docs
-weight: 925
+weight: 926
 url: /java/com.aspose.slides/imotioneffect/
 ---
 **All Implemented Interfaces:**

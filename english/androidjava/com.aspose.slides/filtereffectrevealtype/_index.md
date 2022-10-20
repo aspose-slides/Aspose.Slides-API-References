@@ -1,10 +1,10 @@
 ---
 title: FilterEffectRevealType
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents filter reveal type.
+second_title: Aspose.Slides for Java API Reference
+description: Represents filter reveal type.
 type: docs
 weight: 195
-url: /androidjava/com.aspose.slides/filtereffectrevealtype/
+url: /java/com.aspose.slides/filtereffectrevealtype/
 ---
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum

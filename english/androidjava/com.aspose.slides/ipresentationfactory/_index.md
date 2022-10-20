@@ -1,10 +1,10 @@
 ---
 title: IPresentationFactory
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Allows to create presentation via COM interface
+second_title: Aspose.Slides for Java API Reference
+description: Allows to create presentation via COM interface
 type: docs
-weight: 977
-url: /androidjava/com.aspose.slides/ipresentationfactory/
+weight: 978
+url: /java/com.aspose.slides/ipresentationfactory/
 ---```
 public interface IPresentationFactory
 ```

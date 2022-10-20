@@ -1,10 +1,10 @@
 ---
 title: IFontsEffectiveData
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Immutable object which contains effective fonts set.
+second_title: Aspose.Slides for Java API Reference
+description: Immutable object which contains effective fonts set.
 type: docs
-weight: 787
-url: /androidjava/com.aspose.slides/ifontseffectivedata/
+weight: 788
+url: /java/com.aspose.slides/ifontseffectivedata/
 ---```
 public interface IFontsEffectiveData
 ```

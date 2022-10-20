@@ -1,10 +1,10 @@
 ---
 title: BlackWhiteMode
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Determines how colored shape should be transformed into black and white.
+second_title: Aspose.Slides for Java API Reference
+description: Determines how colored shape should be transformed into black and white.
 type: docs
 weight: 56
-url: /androidjava/com.aspose.slides/blackwhitemode/
+url: /java/com.aspose.slides/blackwhitemode/
 ---
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum

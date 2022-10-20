@@ -1,10 +1,10 @@
 ---
 title: com.aspose.slides.android
-second_title: Aspose.Slides for Android via Java API Reference
+second_title: Aspose.Slides for Java API Reference
 description: 
 type: docs
-weight: 10
-url: /androidjava/com.aspose.slides.android/
+weight: 11
+url: /java/com.aspose.slides.android/
 ---
 
 ## Classes

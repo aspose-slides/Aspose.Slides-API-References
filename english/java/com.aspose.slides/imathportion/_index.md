@@ -1,9 +1,9 @@
 ---
 title: IMathPortion
 second_title: Aspose.Slides for Java API Reference
-description:  Represents a portion with mathematical context inside.
+description: Represents a portion with mathematical context inside.
 type: docs
-weight: 910
+weight: 911
 url: /java/com.aspose.slides/imathportion/
 ---```
 public interface IMathPortion

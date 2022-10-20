@@ -1,10 +1,10 @@
 ---
 title: ILeftRightDirectionTransition
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Left-right direction slide transition effect.
+second_title: Aspose.Slides for Java API Reference
+description: Left-right direction slide transition effect.
 type: docs
-weight: 844
-url: /androidjava/com.aspose.slides/ileftrightdirectiontransition/
+weight: 845
+url: /java/com.aspose.slides/ileftrightdirectiontransition/
 ---
 **All Implemented Interfaces:**
 [com.aspose.slides.ITransitionValueBase](../../com.aspose.slides/itransitionvaluebase)

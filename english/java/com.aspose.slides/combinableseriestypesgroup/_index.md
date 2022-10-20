@@ -1,7 +1,7 @@
 ---
 title: CombinableSeriesTypesGroup
 second_title: Aspose.Slides for Java API Reference
-description:  Enumeration of groups of combinable series types.
+description: Enumeration of groups of combinable series types.
 type: docs
 weight: 123
 url: /java/com.aspose.slides/combinableseriestypesgroup/

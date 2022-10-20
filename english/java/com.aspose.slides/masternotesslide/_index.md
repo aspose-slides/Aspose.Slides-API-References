@@ -1,9 +1,9 @@
 ---
 title: MasterNotesSlide
 second_title: Aspose.Slides for Java API Reference
-description:  Represents master slide for notes.
+description: Represents master slide for notes.
 type: docs
-weight: 297
+weight: 298
 url: /java/com.aspose.slides/masternotesslide/
 ---
 **Inheritance:**

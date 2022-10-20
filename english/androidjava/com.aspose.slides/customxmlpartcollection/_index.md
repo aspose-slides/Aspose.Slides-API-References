@@ -1,10 +1,10 @@
 ---
 title: CustomXmlPartCollection
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents collection of custom xml parts.
+second_title: Aspose.Slides for Java API Reference
+description: Represents collection of custom xml parts.
 type: docs
 weight: 146
-url: /androidjava/com.aspose.slides/customxmlpartcollection/
+url: /java/com.aspose.slides/customxmlpartcollection/
 ---
 **Inheritance:**
 java.lang.Object

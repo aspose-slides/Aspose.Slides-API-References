@@ -1,9 +1,9 @@
 ---
 title: TrendlineType
 second_title: Aspose.Slides for Java API Reference
-description:  Represents type of trend line
+description: Represents type of trend line
 type: docs
-weight: 593
+weight: 594
 url: /java/com.aspose.slides/trendlinetype/
 ---
 **Inheritance:**

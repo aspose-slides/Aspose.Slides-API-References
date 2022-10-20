@@ -1,8 +1,7 @@
 ---
 title: ChartCategoryCollection
 second_title: Aspose.Slides for Java API Reference
-description:  Represents collection of 
- 
+description: Represents collection of
 type: docs
 weight: 79
 url: /java/com.aspose.slides/chartcategorycollection/

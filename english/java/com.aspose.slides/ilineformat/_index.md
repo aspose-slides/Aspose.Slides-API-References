@@ -1,9 +1,9 @@
 ---
 title: ILineFormat
 second_title: Aspose.Slides for Java API Reference
-description:  Represents format of a line.
+description: Represents format of a line.
 type: docs
-weight: 854
+weight: 855
 url: /java/com.aspose.slides/ilineformat/
 ---
 **All Implemented Interfaces:**

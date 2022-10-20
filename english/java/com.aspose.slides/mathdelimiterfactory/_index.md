@@ -1,9 +1,9 @@
 ---
 title: MathDelimiterFactory
 second_title: Aspose.Slides for Java API Reference
-description:  Allows to create a math delimiter
+description: Allows to create a math delimiter
 type: docs
-weight: 318
+weight: 319
 url: /java/com.aspose.slides/mathdelimiterfactory/
 ---
 **Inheritance:**

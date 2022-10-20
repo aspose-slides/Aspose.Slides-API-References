@@ -1,10 +1,10 @@
 ---
 title: IMathGroupingCharacter
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Specifies a grouping symbol above or below an expression usually to highlight the relationship between elements
+second_title: Aspose.Slides for Java API Reference
+description: Specifies a grouping symbol above or below an expression usually to highlight the relationship between elements
 type: docs
-weight: 898
-url: /androidjava/com.aspose.slides/imathgroupingcharacter/
+weight: 899
+url: /java/com.aspose.slides/imathgroupingcharacter/
 ---
 **All Implemented Interfaces:**
 [com.aspose.slides.IMathElement](../../com.aspose.slides/imathelement)

@@ -1,12 +1,10 @@
 ---
 title: DoubleChartValue
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Represent double value which can be stored in pptx presentation document in two ways
- 1 in cell/cells of workbook related to chart
- 2 as literal value.
+second_title: Aspose.Slides for Java API Reference
+description: Represent double value which can be stored in pptx presentation document in two ways 1 in cell/cells of workbook related to chart 2 as literal value.
 type: docs
 weight: 159
-url: /androidjava/com.aspose.slides/doublechartvalue/
+url: /java/com.aspose.slides/doublechartvalue/
 ---
 **Inheritance:**
 java.lang.Object, [com.aspose.slides.BaseChartValue](../../com.aspose.slides/basechartvalue)

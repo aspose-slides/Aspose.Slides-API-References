@@ -1,7 +1,7 @@
 ---
 title: ColorChange
 second_title: Aspose.Slides for Java API Reference
-description:  Represents a Color Change effect.
+description: Represents a Color Change effect.
 type: docs
 weight: 106
 url: /java/com.aspose.slides/colorchange/

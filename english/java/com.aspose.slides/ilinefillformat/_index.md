@@ -1,9 +1,9 @@
 ---
 title: ILineFillFormat
 second_title: Aspose.Slides for Java API Reference
-description:  Represents properties for lines filling.
+description: Represents properties for lines filling.
 type: docs
-weight: 852
+weight: 853
 url: /java/com.aspose.slides/ilinefillformat/
 ---
 **All Implemented Interfaces:**

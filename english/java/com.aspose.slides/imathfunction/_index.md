@@ -1,9 +1,9 @@
 ---
 title: IMathFunction
 second_title: Aspose.Slides for Java API Reference
-description:  Specifies a function of an argument.
+description: Specifies a function of an argument.
 type: docs
-weight: 896
+weight: 897
 url: /java/com.aspose.slides/imathfunction/
 ---
 **All Implemented Interfaces:**

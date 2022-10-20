@@ -1,10 +1,10 @@
 ---
 title: IAnimationTimeLine
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents timeline of animation.
+second_title: Aspose.Slides for Java API Reference
+description: Represents timeline of animation.
 type: docs
-weight: 638
-url: /androidjava/com.aspose.slides/ianimationtimeline/
+weight: 639
+url: /java/com.aspose.slides/ianimationtimeline/
 ---```
 public interface IAnimationTimeLine
 ```

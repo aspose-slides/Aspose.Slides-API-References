@@ -1,10 +1,10 @@
 ---
 title: UpDownBarsManager
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Provide access to up/down bars of Line- or Stock-chart.
+second_title: Aspose.Slides for Java API Reference
+description: Provide access to up/down bars of Line- or Stock-chart.
 type: docs
-weight: 594
-url: /androidjava/com.aspose.slides/updownbarsmanager/
+weight: 595
+url: /java/com.aspose.slides/updownbarsmanager/
 ---
 **Inheritance:**
 java.lang.Object, com.aspose.slides.DomObject

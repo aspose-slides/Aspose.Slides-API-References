@@ -1,9 +1,9 @@
 ---
 title: IMathNaryOperatorFactory
 second_title: Aspose.Slides for Java API Reference
-description:  Allows to create IMathNaryOperator
+description: Allows to create IMathNaryOperator
 type: docs
-weight: 906
+weight: 907
 url: /java/com.aspose.slides/imathnaryoperatorfactory/
 ---```
 public interface IMathNaryOperatorFactory

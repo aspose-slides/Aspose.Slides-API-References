@@ -1,9 +1,9 @@
 ---
 title: PptOptions
 second_title: Aspose.Slides for Java API Reference
-description:  Provides options that control how a presentation is saved in PPT format.
+description: Provides options that control how a presentation is saved in PPT format.
 type: docs
-weight: 433
+weight: 434
 url: /java/com.aspose.slides/pptoptions/
 ---
 **Inheritance:**

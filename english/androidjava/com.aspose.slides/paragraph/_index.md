@@ -1,10 +1,10 @@
 ---
 title: Paragraph
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents a paragraph of text.
+second_title: Aspose.Slides for Java API Reference
+description: Represents a paragraph of text.
 type: docs
-weight: 397
-url: /androidjava/com.aspose.slides/paragraph/
+weight: 398
+url: /java/com.aspose.slides/paragraph/
 ---
 **Inheritance:**
 java.lang.Object
@@ -82,7 +82,7 @@ Returns the formatting object for this paragraph. Read-only [IParagraphFormat](.
 
 The formatting object contains the formatting parameters defined for the current paragraph only, inherited data is not applied.
 
-In order to get the effective values including inherited ones use the [ParagraphFormat\#getEffective](../../com.aspose.slides/paragraphformat\#getEffective) method.
+In order to get the effective values including inherited ones use the [ParagraphFormat.getEffective](../../com.aspose.slides/paragraphformat\#getEffective) method.
 
 **Returns:**
 [IParagraphFormat](../../com.aspose.slides/iparagraphformat)

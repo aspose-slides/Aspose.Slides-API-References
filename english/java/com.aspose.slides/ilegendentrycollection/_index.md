@@ -1,9 +1,9 @@
 ---
 title: ILegendEntryCollection
 second_title: Aspose.Slides for Java API Reference
-description:  Represents legends collection.
+description: Represents legends collection.
 type: docs
-weight: 847
+weight: 848
 url: /java/com.aspose.slides/ilegendentrycollection/
 ---```
 public interface ILegendEntryCollection

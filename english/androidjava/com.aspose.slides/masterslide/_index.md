@@ -1,10 +1,10 @@
 ---
 title: MasterSlide
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents a master slide in a presentation.
+second_title: Aspose.Slides for Java API Reference
+description: Represents a master slide in a presentation.
 type: docs
-weight: 299
-url: /androidjava/com.aspose.slides/masterslide/
+weight: 300
+url: /java/com.aspose.slides/masterslide/
 ---
 **Inheritance:**
 java.lang.Object, [com.aspose.slides.BaseSlide](../../com.aspose.slides/baseslide)
@@ -100,7 +100,7 @@ Returns the collection of child layout slides for this master slide. Read-only [
 
 --------------------
 
-You can access to alternative API for adding/inserting/removing/cloning layout slides by using ([IPresentation\#getLayoutSlides](../../com.aspose.slides/ipresentation\#getLayoutSlides)) property.
+You can access to alternative API for adding/inserting/removing/cloning layout slides by using ([IPresentation.getLayoutSlides](../../com.aspose.slides/ipresentation\#getLayoutSlides)) property.
 
 **Returns:**
 [IMasterLayoutSlideCollection](../../com.aspose.slides/imasterlayoutslidecollection)
@@ -110,7 +110,7 @@ public final boolean getPreserve()
 ```
 
 
-Determines whether the corresponding master is deleted when all the slides that follow that master are deleted. Note: Aspose.Slides will never remove any unused master by itself, to actually remove unused masters call [MasterSlideCollection\#removeUnused(boolean)](../../com.aspose.slides/masterslidecollection\#removeUnused-boolean-) Read/write \`\`\` boolean \`\`\`.
+Determines whether the corresponding master is deleted when all the slides that follow that master are deleted. Note: Aspose.Slides will never remove any unused master by itself, to actually remove unused masters call [MasterSlideCollection.removeUnused(boolean)](../../com.aspose.slides/masterslidecollection\#removeUnused-boolean-) Read/write  boolean .
 
 **Returns:**
 boolean
@@ -120,7 +120,7 @@ public final void setPreserve(boolean value)
 ```
 
 
-Determines whether the corresponding master is deleted when all the slides that follow that master are deleted. Note: Aspose.Slides will never remove any unused master by itself, to actually remove unused masters call [MasterSlideCollection\#removeUnused(boolean)](../../com.aspose.slides/masterslidecollection\#removeUnused-boolean-) Read/write \`\`\` boolean \`\`\`.
+Determines whether the corresponding master is deleted when all the slides that follow that master are deleted. Note: Aspose.Slides will never remove any unused master by itself, to actually remove unused masters call [MasterSlideCollection.removeUnused(boolean)](../../com.aspose.slides/masterslidecollection\#removeUnused-boolean-) Read/write  boolean .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -143,7 +143,7 @@ public final boolean hasDependingSlides()
 ```
 
 
-Returns true if there exists at least one slide that depends on this master slide. Read-only \`\`\` boolean \`\`\`.
+Returns true if there exists at least one slide that depends on this master slide. Read-only  boolean .
 
 **Returns:**
 boolean
@@ -186,7 +186,7 @@ public boolean getShowMasterShapes()
 ```
 
 
-Specifies if shapes on the master slide should be shown on slides or not. For master slide itself this property always returns \`\`\` false \`\`\`. Read/write \`\`\` boolean \`\`\`.
+Specifies if shapes on the master slide should be shown on slides or not. For master slide itself this property always returns  false . Read/write  boolean .
 
 **Returns:**
 boolean
@@ -196,7 +196,7 @@ public void setShowMasterShapes(boolean value)
 ```
 
 
-Specifies if shapes on the master slide should be shown on slides or not. For master slide itself this property always returns \`\`\` false \`\`\`. Read/write \`\`\` boolean \`\`\`.
+Specifies if shapes on the master slide should be shown on slides or not. For master slide itself this property always returns  false . Read/write  boolean .
 
 **Parameters:**
 | Parameter | Type | Description |

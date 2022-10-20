@@ -12,14 +12,14 @@ public static interface ForEach.ForEachPortionCallback
 
 | Method | Description |
 | --- | --- |
-| [invoke(Portion portion, Paragraph para, BaseSlide slide, int index)](#invoke-com.aspose.slides.Portion-com.aspose.slides.Paragraph-com.aspose.slides.BaseSlide-int-) | Callback that will be invoked for each \#paragraph(Presentation,ForEachParagraphCallback) on the [BaseSlide](../../com.aspose.slides/baseslide). |
+| [invoke(Portion portion, Paragraph para, BaseSlide slide, int index)](#invoke-com.aspose.slides.Portion-com.aspose.slides.Paragraph-com.aspose.slides.BaseSlide-int-) | Callback that will be invoked for each \#paragraph(Presentation,ForEachParagraphCallback).paragraph(Presentation,ForEachParagraphCallback) on the [BaseSlide](../../com.aspose.slides/baseslide). |
 ### invoke(Portion portion, Paragraph para, BaseSlide slide, int index) {#invoke-com.aspose.slides.Portion-com.aspose.slides.Paragraph-com.aspose.slides.BaseSlide-int-}
 ```
 public abstract void invoke(Portion portion, Paragraph para, BaseSlide slide, int index)
 ```
 
 
-Callback that will be invoked for each \#paragraph(Presentation,ForEachParagraphCallback) on the [BaseSlide](../../com.aspose.slides/baseslide).
+Callback that will be invoked for each \#paragraph(Presentation,ForEachParagraphCallback).paragraph(Presentation,ForEachParagraphCallback) on the [BaseSlide](../../com.aspose.slides/baseslide).
 
 **Parameters:**
 | Parameter | Type | Description |

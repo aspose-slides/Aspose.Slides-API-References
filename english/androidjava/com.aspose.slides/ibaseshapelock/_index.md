@@ -1,10 +1,10 @@
 ---
 title: IBaseShapeLock
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents Shape lock disabled operation.
+second_title: Aspose.Slides for Java API Reference
+description: Represents Shape lock disabled operation.
 type: docs
-weight: 655
-url: /androidjava/com.aspose.slides/ibaseshapelock/
+weight: 656
+url: /java/com.aspose.slides/ibaseshapelock/
 ---```
 public interface IBaseShapeLock
 ```

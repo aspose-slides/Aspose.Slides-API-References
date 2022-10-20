@@ -1,10 +1,10 @@
 ---
 title: AdjustValueCollection
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Reprasents a collection of shapes adjustments.
+second_title: Aspose.Slides for Java API Reference
+description: Reprasents a collection of shapes adjustments.
 type: docs
 weight: 11
-url: /androidjava/com.aspose.slides/adjustvaluecollection/
+url: /java/com.aspose.slides/adjustvaluecollection/
 ---
 **Inheritance:**
 java.lang.Object, com.aspose.slides.DomObject

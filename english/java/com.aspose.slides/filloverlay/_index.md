@@ -1,7 +1,7 @@
 ---
 title: FillOverlay
 second_title: Aspose.Slides for Java API Reference
-description:  Represents a Fill Overlay effect.
+description: Represents a Fill Overlay effect.
 type: docs
 weight: 192
 url: /java/com.aspose.slides/filloverlay/

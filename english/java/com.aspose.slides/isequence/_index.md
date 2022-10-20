@@ -1,9 +1,9 @@
 ---
 title: ISequence
 second_title: Aspose.Slides for Java API Reference
-description:  Represents sequence collection of effects.
+description: Represents sequence collection of effects.
 type: docs
-weight: 1009
+weight: 1010
 url: /java/com.aspose.slides/isequence/
 ---
 **All Implemented Interfaces:**

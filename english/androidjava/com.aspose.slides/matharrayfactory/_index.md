@@ -1,10 +1,10 @@
 ---
 title: MathArrayFactory
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Allows to create a math array
+second_title: Aspose.Slides for Java API Reference
+description: Allows to create a math array
 type: docs
-weight: 308
-url: /androidjava/com.aspose.slides/matharrayfactory/
+weight: 309
+url: /java/com.aspose.slides/matharrayfactory/
 ---
 **Inheritance:**
 java.lang.Object

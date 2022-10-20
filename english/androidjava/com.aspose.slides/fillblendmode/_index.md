@@ -1,10 +1,10 @@
 ---
 title: FillBlendMode
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Determines blend mode.
+second_title: Aspose.Slides for Java API Reference
+description: Determines blend mode.
 type: docs
 weight: 189
-url: /androidjava/com.aspose.slides/fillblendmode/
+url: /java/com.aspose.slides/fillblendmode/
 ---
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum

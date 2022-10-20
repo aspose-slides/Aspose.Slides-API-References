@@ -1,10 +1,10 @@
 ---
 title: IAlphaBiLevelEffectiveData
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Immutable object which represents an Alpha Bi-Level effect.
+second_title: Aspose.Slides for Java API Reference
+description: Immutable object which represents an Alpha Bi-Level effect.
 type: docs
-weight: 625
-url: /androidjava/com.aspose.slides/ialphabileveleffectivedata/
+weight: 626
+url: /java/com.aspose.slides/ialphabileveleffectivedata/
 ---
 **All Implemented Interfaces:**
 [com.aspose.slides.IEffectEffectiveData](../../com.aspose.slides/ieffecteffectivedata)

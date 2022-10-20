@@ -1,11 +1,10 @@
 ---
 title: Glow
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents a Glow effect in which a color blurred outline 
- is added outside the edges of the object.
+second_title: Aspose.Slides for Java API Reference
+description: Represents a Glow effect in which a color blurred outline  is added outside the edges of the object.
 type: docs
-weight: 222
-url: /androidjava/com.aspose.slides/glow/
+weight: 223
+url: /java/com.aspose.slides/glow/
 ---
 **Inheritance:**
 java.lang.Object
@@ -36,7 +35,7 @@ public final double getRadius()
 ```
 
 
-Radius. Read/write \`\`\` double \`\`\`.
+Radius. Read/write  double .
 
 **Returns:**
 double
@@ -46,7 +45,7 @@ public final void setRadius(double value)
 ```
 
 
-Radius. Read/write \`\`\` double \`\`\`.
+Radius. Read/write  double .
 
 **Parameters:**
 | Parameter | Type | Description |

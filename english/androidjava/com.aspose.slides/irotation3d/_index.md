@@ -1,10 +1,10 @@
 ---
 title: IRotation3D
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents 3D rotation of a chart.
+second_title: Aspose.Slides for Java API Reference
+description: Represents 3D rotation of a chart.
 type: docs
-weight: 995
-url: /androidjava/com.aspose.slides/irotation3d/
+weight: 996
+url: /java/com.aspose.slides/irotation3d/
 ---```
 public interface IRotation3D
 ```

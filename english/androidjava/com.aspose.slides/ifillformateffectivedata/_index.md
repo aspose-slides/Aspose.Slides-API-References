@@ -1,10 +1,10 @@
 ---
 title: IFillFormatEffectiveData
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Immutable object which contains effective fill formatting properties.
+second_title: Aspose.Slides for Java API Reference
+description: Immutable object which contains effective fill formatting properties.
 type: docs
-weight: 771
-url: /androidjava/com.aspose.slides/ifillformateffectivedata/
+weight: 772
+url: /java/com.aspose.slides/ifillformateffectivedata/
 ---
 **All Implemented Interfaces:**
 [com.aspose.slides.IFillParamSource](../../com.aspose.slides/ifillparamsource)

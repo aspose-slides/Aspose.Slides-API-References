@@ -1,9 +1,9 @@
 ---
 title: TickMarkType
 second_title: Aspose.Slides for Java API Reference
-description:  Represents the tick mark type for the specified axis.
+description: Represents the tick mark type for the specified axis.
 type: docs
-weight: 571
+weight: 572
 url: /java/com.aspose.slides/tickmarktype/
 ---
 **Inheritance:**

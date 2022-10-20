@@ -1,9 +1,9 @@
 ---
 title: ShapesAlignmentType
 second_title: Aspose.Slides for Java API Reference
-description:  Defines a way to change the placement of selected shapes on the slide.
+description: Defines a way to change the placement of selected shapes on the slide.
 type: docs
-weight: 494
+weight: 495
 url: /java/com.aspose.slides/shapesalignmenttype/
 ---
 **Inheritance:**

@@ -1,10 +1,10 @@
 ---
 title: AudioVolumeMode
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Constants which define audio volume.
+second_title: Aspose.Slides for Java API Reference
+description: Constants which define audio volume.
 type: docs
 weight: 25
-url: /androidjava/com.aspose.slides/audiovolumemode/
+url: /java/com.aspose.slides/audiovolumemode/
 ---
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum

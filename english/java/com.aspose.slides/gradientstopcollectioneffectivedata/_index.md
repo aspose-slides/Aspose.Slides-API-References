@@ -1,9 +1,9 @@
 ---
 title: GradientStopCollectionEffectiveData
 second_title: Aspose.Slides for Java API Reference
-description:  Represents a collection of GradientStopData objects.
+description: Represents a collection of GradientStopData objects.
 type: docs
-weight: 228
+weight: 229
 url: /java/com.aspose.slides/gradientstopcollectioneffectivedata/
 ---
 **Inheritance:**

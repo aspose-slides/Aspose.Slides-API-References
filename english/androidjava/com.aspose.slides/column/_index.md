@@ -1,10 +1,10 @@
 ---
 title: Column
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents a column in a table.
+second_title: Aspose.Slides for Java API Reference
+description: Represents a column in a table.
 type: docs
 weight: 120
-url: /androidjava/com.aspose.slides/column/
+url: /java/com.aspose.slides/column/
 ---
 **Inheritance:**
 java.lang.Object, [com.aspose.slides.CellCollection](../../com.aspose.slides/cellcollection)

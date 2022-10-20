@@ -1,10 +1,10 @@
 ---
 title: SmartArtShape
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents SmartArt shape
+second_title: Aspose.Slides for Java API Reference
+description: Represents SmartArt shape
 type: docs
-weight: 519
-url: /androidjava/com.aspose.slides/smartartshape/
+weight: 520
+url: /java/com.aspose.slides/smartartshape/
 ---
 **Inheritance:**
 java.lang.Object, [com.aspose.slides.Shape](../../com.aspose.slides/shape), [com.aspose.slides.GeometryShape](../../com.aspose.slides/geometryshape)

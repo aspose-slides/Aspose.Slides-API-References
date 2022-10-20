@@ -1,10 +1,10 @@
 ---
 title: IMorphTransition
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Ripple slide transition effect.
+second_title: Aspose.Slides for Java API Reference
+description: Ripple slide transition effect.
 type: docs
-weight: 923
-url: /androidjava/com.aspose.slides/imorphtransition/
+weight: 924
+url: /java/com.aspose.slides/imorphtransition/
 ---
 **All Implemented Interfaces:**
 [com.aspose.slides.ITransitionValueBase](../../com.aspose.slides/itransitionvaluebase)

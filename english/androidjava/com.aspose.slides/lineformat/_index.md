@@ -1,10 +1,10 @@
 ---
 title: LineFormat
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents format of a line.
+second_title: Aspose.Slides for Java API Reference
+description: Represents format of a line.
 type: docs
-weight: 282
-url: /androidjava/com.aspose.slides/lineformat/
+weight: 283
+url: /java/com.aspose.slides/lineformat/
 ---
 **Inheritance:**
 java.lang.Object, [com.aspose.slides.PVIObject](../../com.aspose.slides/pviobject)
@@ -59,7 +59,7 @@ public final boolean isFormatNotDefined()
 ```
 
 
-Returns true if line format is not defined (as just created, default). Read-only \`\`\` boolean \`\`\`.
+Returns true if line format is not defined (as just created, default). Read-only  boolean .
 
 **Returns:**
 boolean
@@ -89,7 +89,7 @@ public final double getWidth()
 ```
 
 
-Returns or sets the width of a line. Read/write \`\`\` double \`\`\`.
+Returns or sets the width of a line. Read/write  double .
 
 **Returns:**
 double
@@ -99,7 +99,7 @@ public final void setWidth(double value)
 ```
 
 
-Returns or sets the width of a line. Read/write \`\`\` double \`\`\`.
+Returns or sets the width of a line. Read/write  double .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -135,7 +135,7 @@ public final float[] getCustomDashPattern()
 ```
 
 
-Returns or sets the custom dash pattern. Read/write \`\`\` float[] \`\`\`.
+Returns or sets the custom dash pattern. Read/write  float[] .
 
 **Returns:**
 float[]
@@ -145,7 +145,7 @@ public final void setCustomDashPattern(float[] value)
 ```
 
 
-Returns or sets the custom dash pattern. Read/write \`\`\` float[] \`\`\`.
+Returns or sets the custom dash pattern. Read/write  float[] .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -250,7 +250,7 @@ public final float getMiterLimit()
 ```
 
 
-Returns or sets the miter limit of a line. Read/write \`\`\` float \`\`\`.
+Returns or sets the miter limit of a line. Read/write  float .
 
 **Returns:**
 float
@@ -260,7 +260,7 @@ public final void setMiterLimit(float value)
 ```
 
 
-Returns or sets the miter limit of a line. Read/write \`\`\` float \`\`\`.
+Returns or sets the miter limit of a line. Read/write  float .
 
 **Parameters:**
 | Parameter | Type | Description |

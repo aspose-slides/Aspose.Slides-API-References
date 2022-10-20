@@ -1,9 +1,9 @@
 ---
 title: PersistenceType
 second_title: Aspose.Slides for Java API Reference
-description:  Specifies the method used to store properties of the ActiveX control.
+description: Specifies the method used to store properties of the ActiveX control.
 type: docs
-weight: 411
+weight: 412
 url: /java/com.aspose.slides/persistencetype/
 ---
 **Inheritance:**

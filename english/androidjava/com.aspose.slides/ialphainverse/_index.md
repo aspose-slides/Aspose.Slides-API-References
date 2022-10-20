@@ -1,10 +1,10 @@
 ---
 title: IAlphaInverse
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents an Alpha Inverse effect.
+second_title: Aspose.Slides for Java API Reference
+description: Represents an Alpha Inverse effect.
 type: docs
-weight: 630
-url: /androidjava/com.aspose.slides/ialphainverse/
+weight: 631
+url: /java/com.aspose.slides/ialphainverse/
 ---
 **All Implemented Interfaces:**
 [com.aspose.slides.IImageTransformOperation](../../com.aspose.slides/iimagetransformoperation), com.aspose.slides.IAccessiblePVIObject

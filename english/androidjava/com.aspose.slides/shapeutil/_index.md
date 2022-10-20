@@ -1,10 +1,10 @@
 ---
 title: ShapeUtil
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Offer methods which helps to process shapes objects.
+second_title: Aspose.Slides for Java API Reference
+description: Offer methods which helps to process shapes objects.
 type: docs
-weight: 493
-url: /androidjava/com.aspose.slides/shapeutil/
+weight: 494
+url: /java/com.aspose.slides/shapeutil/
 ---
 **Inheritance:**
 java.lang.Object
@@ -55,7 +55,7 @@ public static Path geometryPathToGraphicsPath(IGeometryPath geometryPath)
 ```
 
 
-Converts [IGeometryPath](../../com.aspose.slides/igeometrypath) to android.graphics.Path. GraphicsPath can be transformed in a different ways using its convenient methods and then transformed back into the [IGeometryPath](../../com.aspose.slides/igeometrypath) to use in [GeometryShape](../../com.aspose.slides/geometryshape) via \#graphicsPathToGeometryPath(android.graphics.Path graphicsPath) method.
+Converts [IGeometryPath](../../com.aspose.slides/igeometrypath) to android.graphics.Path. GraphicsPath can be transformed in a different ways using its convenient methods and then transformed back into the [IGeometryPath](../../com.aspose.slides/igeometrypath) to use in [GeometryShape](../../com.aspose.slides/geometryshape) via \#graphicsPathToGeometryPath(android.graphics.Path graphicsPath).graphicsPathToGeometryPath(android.graphics.Path graphicsPath) method.
 
 **Parameters:**
 | Parameter | Type | Description |

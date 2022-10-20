@@ -1,10 +1,10 @@
 ---
 title: EffectChartMinorGroupingType
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents the type of an animation effect for charts element in series or category.
+second_title: Aspose.Slides for Java API Reference
+description: Represents the type of an animation effect for charts element in series or category.
 type: docs
 weight: 163
-url: /androidjava/com.aspose.slides/effectchartminorgroupingtype/
+url: /java/com.aspose.slides/effectchartminorgroupingtype/
 ---
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum

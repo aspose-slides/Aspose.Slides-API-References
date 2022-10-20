@@ -1,9 +1,9 @@
 ---
 title: WebDocument
 second_title: Aspose.Slides for Java API Reference
-description:  Represents a transition form of the presentation for saving into a web format.
+description: Represents a transition form of the presentation for saving into a web format.
 type: docs
-weight: 611
+weight: 612
 url: /java/com.aspose.slides/webdocument/
 ---
 **Inheritance:**
@@ -53,7 +53,7 @@ public final Input getInput()
 ```
 
 
-Returns collection of input elements (templates) of the document. Read-only [Input](../../com.aspose.slides/input)(\#getInput).
+Returns collection of input elements (templates) of the document. Read-only [Input](../../com.aspose.slides/input)(\#getInput.getInput).
 
 **Returns:**
 [Input](../../com.aspose.slides/input)
@@ -63,7 +63,7 @@ public final Output getOutput()
 ```
 
 
-Returns collection of output elements of the document. Read-only [Output](../../com.aspose.slides/output)(\#getOutput).
+Returns collection of output elements of the document. Read-only [Output](../../com.aspose.slides/output)(\#getOutput.getOutput).
 
 --------------------
 
@@ -92,7 +92,7 @@ Returns global storage of the document. Read-only [Storage](../../com.aspose.sli
 --------------------
 
 > ```
-> Using this (#getGlobal) property (implementation of [Storage](../../com.aspose.slides/storage) interface) a
+> Using this (#getGlobal.getGlobal) property (implementation of [Storage](../../com.aspose.slides/storage) interface) a
 >   property can be put to use it later in the template:
 >   
 >   WebDocumentOptions options = new WebDocumentOptions();

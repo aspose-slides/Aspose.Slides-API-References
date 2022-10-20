@@ -1,10 +1,10 @@
 ---
 title: IConnectorLock
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Determines which operations are disabled on the parent Connector.
+second_title: Aspose.Slides for Java API Reference
+description: Determines which operations are disabled on the parent Connector.
 type: docs
-weight: 728
-url: /androidjava/com.aspose.slides/iconnectorlock/
+weight: 729
+url: /java/com.aspose.slides/iconnectorlock/
 ---
 **All Implemented Interfaces:**
 [com.aspose.slides.IBaseShapeLock](../../com.aspose.slides/ibaseshapelock)

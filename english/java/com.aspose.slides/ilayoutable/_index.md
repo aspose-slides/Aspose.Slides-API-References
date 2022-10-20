@@ -1,9 +1,9 @@
 ---
 title: ILayoutable
 second_title: Aspose.Slides for Java API Reference
-description:  Specifies the exact position of a chart element.
+description: Specifies the exact position of a chart element.
 type: docs
-weight: 843
+weight: 844
 url: /java/com.aspose.slides/ilayoutable/
 ---
 **All Implemented Interfaces:**

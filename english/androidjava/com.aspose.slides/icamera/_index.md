@@ -1,10 +1,10 @@
 ---
 title: ICamera
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents Camera.
+second_title: Aspose.Slides for Java API Reference
+description: Represents Camera.
 type: docs
-weight: 672
-url: /androidjava/com.aspose.slides/icamera/
+weight: 673
+url: /java/com.aspose.slides/icamera/
 ---```
 public interface ICamera
 ```

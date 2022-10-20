@@ -1,10 +1,10 @@
 ---
 title: TransitionLeftRightDirectionType
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Specifies a direction restricted to the values of left and right.
+second_title: Aspose.Slides for Java API Reference
+description: Specifies a direction restricted to the values of left and right.
 type: docs
-weight: 582
-url: /androidjava/com.aspose.slides/transitionleftrightdirectiontype/
+weight: 583
+url: /java/com.aspose.slides/transitionleftrightdirectiontype/
 ---
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum

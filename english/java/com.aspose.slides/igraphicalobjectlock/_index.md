@@ -1,9 +1,9 @@
 ---
 title: IGraphicalObjectLock
 second_title: Aspose.Slides for Java API Reference
-description:  Determines which operations are disabled on the parent GraphicalObject.
+description: Determines which operations are disabled on the parent GraphicalObject.
 type: docs
-weight: 811
+weight: 812
 url: /java/com.aspose.slides/igraphicalobjectlock/
 ---
 **All Implemented Interfaces:**

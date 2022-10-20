@@ -1,10 +1,10 @@
 ---
 title: DataSourceType
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Data source types.
+second_title: Aspose.Slides for Java API Reference
+description: Data source types.
 type: docs
 weight: 150
-url: /androidjava/com.aspose.slides/datasourcetype/
+url: /java/com.aspose.slides/datasourcetype/
 ---
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum

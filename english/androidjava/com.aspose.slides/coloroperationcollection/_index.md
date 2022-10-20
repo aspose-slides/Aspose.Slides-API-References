@@ -1,10 +1,10 @@
 ---
 title: ColorOperationCollection
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents a collection of color transform operations.
+second_title: Aspose.Slides for Java API Reference
+description: Represents a collection of color transform operations.
 type: docs
 weight: 112
-url: /androidjava/com.aspose.slides/coloroperationcollection/
+url: /java/com.aspose.slides/coloroperationcollection/
 ---
 **Inheritance:**
 java.lang.Object

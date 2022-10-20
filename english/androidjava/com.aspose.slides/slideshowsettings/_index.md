@@ -1,10 +1,10 @@
 ---
 title: SlideShowSettings
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents the slide show settings for the presentation.
+second_title: Aspose.Slides for Java API Reference
+description: Represents the slide show settings for the presentation.
 type: docs
-weight: 504
-url: /androidjava/com.aspose.slides/slideshowsettings/
+weight: 505
+url: /java/com.aspose.slides/slideshowsettings/
 ---
 **Inheritance:**
 java.lang.Object
@@ -36,7 +36,7 @@ public final SlideShowType getSlideShowType()
 ```
 
 
-Gets or sets the slide show type. Represented by the following \`\`\` SlideShowType \`\`\`(\#getSlideShowType/\#setSlideShowType(SlideShowType)) ancestors: [BrowsedAtKiosk](../../com.aspose.slides/browsedatkiosk), [PresentedBySpeaker](../../com.aspose.slides/presentedbyspeaker) and [BrowsedByIndividual](../../com.aspose.slides/browsedbyindividual)
+Gets or sets the slide show type. Represented by the following  SlideShowType (\#getSlideShowType.getSlideShowType/\#setSlideShowType(SlideShowType).setSlideShowType(SlideShowType)) ancestors: [BrowsedAtKiosk](../../com.aspose.slides/browsedatkiosk), [PresentedBySpeaker](../../com.aspose.slides/presentedbyspeaker) and [BrowsedByIndividual](../../com.aspose.slides/browsedbyindividual)
 
 --------------------
 
@@ -64,7 +64,7 @@ public final void setSlideShowType(SlideShowType value)
 ```
 
 
-Gets or sets the slide show type. Represented by the following \`\`\` SlideShowType \`\`\`(\#getSlideShowType/\#setSlideShowType(SlideShowType)) ancestors: [BrowsedAtKiosk](../../com.aspose.slides/browsedatkiosk), [PresentedBySpeaker](../../com.aspose.slides/presentedbyspeaker) and [BrowsedByIndividual](../../com.aspose.slides/browsedbyindividual)
+Gets or sets the slide show type. Represented by the following  SlideShowType (\#getSlideShowType.getSlideShowType/\#setSlideShowType(SlideShowType).setSlideShowType(SlideShowType)) ancestors: [BrowsedAtKiosk](../../com.aspose.slides/browsedatkiosk), [PresentedBySpeaker](../../com.aspose.slides/presentedbyspeaker) and [BrowsedByIndividual](../../com.aspose.slides/browsedbyindividual)
 
 --------------------
 

@@ -1,10 +1,10 @@
 ---
 title: ColorTransformOperation
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Defines color transform operation.
+second_title: Aspose.Slides for Java API Reference
+description: Defines color transform operation.
 type: docs
 weight: 118
-url: /androidjava/com.aspose.slides/colortransformoperation/
+url: /java/com.aspose.slides/colortransformoperation/
 ---
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum

@@ -1,9 +1,9 @@
 ---
 title: ITiffOptions
 second_title: Aspose.Slides for Java API Reference
-description:  Provides options that control how a presentation is saved in TIFF format.
+description: Provides options that control how a presentation is saved in TIFF format.
 type: docs
-weight: 1078
+weight: 1079
 url: /java/com.aspose.slides/itiffoptions/
 ---
 **All Implemented Interfaces:**

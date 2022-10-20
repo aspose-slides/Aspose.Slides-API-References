@@ -1,7 +1,7 @@
 ---
 title: ChartShapeType
 second_title: Aspose.Slides for Java API Reference
-description:  Represents a shape of chart.
+description: Represents a shape of chart.
 type: docs
 weight: 98
 url: /java/com.aspose.slides/chartshapetype/

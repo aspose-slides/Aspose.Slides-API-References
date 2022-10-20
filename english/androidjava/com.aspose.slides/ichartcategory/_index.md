@@ -1,10 +1,10 @@
 ---
 title: IChartCategory
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents chart categories.
+second_title: Aspose.Slides for Java API Reference
+description: Represents chart categories.
 type: docs
-weight: 679
-url: /androidjava/com.aspose.slides/ichartcategory/
+weight: 680
+url: /java/com.aspose.slides/ichartcategory/
 ---```
 public interface IChartCategory
 ```
@@ -33,7 +33,7 @@ If true then AsCell property is actual. In other words, worksheet is used for st
 
 --------------------
 
-For change value of this property (for all categories in collection) set new value to [ChartCategoryCollection\#getUseCells()](../../com.aspose.slides/chartcategorycollection\#getUseCells--) property.
+For change value of this property (for all categories in collection) set new value to [ChartCategoryCollection.getUseCells()](../../com.aspose.slides/chartcategorycollection\#getUseCells--) property.
 
 **Returns:**
 boolean

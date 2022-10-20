@@ -1,10 +1,10 @@
 ---
 title: ISketchFormatEffectiveData
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Immutable object which contains effective line sketch properties.
+second_title: Aspose.Slides for Java API Reference
+description: Immutable object which contains effective line sketch properties.
 type: docs
-weight: 1023
-url: /androidjava/com.aspose.slides/isketchformateffectivedata/
+weight: 1024
+url: /java/com.aspose.slides/isketchformateffectivedata/
 ---```
 public interface ISketchFormatEffectiveData
 ```

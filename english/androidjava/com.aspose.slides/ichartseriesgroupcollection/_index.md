@@ -1,10 +1,10 @@
 ---
 title: IChartSeriesGroupCollection
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents the collection of groups of combinable series.
+second_title: Aspose.Slides for Java API Reference
+description: Represents the collection of groups of combinable series.
 type: docs
-weight: 700
-url: /androidjava/com.aspose.slides/ichartseriesgroupcollection/
+weight: 701
+url: /java/com.aspose.slides/ichartseriesgroupcollection/
 ---
 **All Implemented Interfaces:**
 com.aspose.slides.IGenericCollection

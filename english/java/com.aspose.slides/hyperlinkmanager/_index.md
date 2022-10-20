@@ -1,9 +1,9 @@
 ---
 title: HyperlinkManager
 second_title: Aspose.Slides for Java API Reference
-description:  Provide hyperlinks management adding removing.
+description: Provide hyperlinks management adding removing.
 type: docs
-weight: 244
+weight: 245
 url: /java/com.aspose.slides/hyperlinkmanager/
 ---
 **Inheritance:**

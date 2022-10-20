@@ -1,10 +1,10 @@
 ---
 title: Cell
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents a cell of a table.
+second_title: Aspose.Slides for Java API Reference
+description: Represents a cell of a table.
 type: docs
 weight: 70
-url: /androidjava/com.aspose.slides/cell/
+url: /java/com.aspose.slides/cell/
 ---
 **Inheritance:**
 java.lang.Object

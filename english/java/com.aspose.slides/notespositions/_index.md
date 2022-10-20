@@ -1,9 +1,9 @@
 ---
 title: NotesPositions
 second_title: Aspose.Slides for Java API Reference
-description:  Represents the rule to render notes into exported document
+description: Represents the rule to render notes into exported document
 type: docs
-weight: 373
+weight: 374
 url: /java/com.aspose.slides/notespositions/
 ---
 **Inheritance:**

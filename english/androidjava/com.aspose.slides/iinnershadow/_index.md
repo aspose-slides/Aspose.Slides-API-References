@@ -1,10 +1,10 @@
 ---
 title: IInnerShadow
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents a inner shadow effect.
+second_title: Aspose.Slides for Java API Reference
+description: Represents a inner shadow effect.
 type: docs
-weight: 835
-url: /androidjava/com.aspose.slides/iinnershadow/
+weight: 836
+url: /java/com.aspose.slides/iinnershadow/
 ---
 **All Implemented Interfaces:**
 [com.aspose.slides.IImageTransformOperation](../../com.aspose.slides/iimagetransformoperation), com.aspose.slides.IAccessiblePVIObject

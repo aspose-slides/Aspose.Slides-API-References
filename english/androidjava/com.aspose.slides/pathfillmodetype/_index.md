@@ -1,10 +1,10 @@
 ---
 title: PathFillModeType
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Specifies the manner in which a path should be filled
+second_title: Aspose.Slides for Java API Reference
+description: Specifies the manner in which a path should be filled
 type: docs
-weight: 403
-url: /androidjava/com.aspose.slides/pathfillmodetype/
+weight: 404
+url: /java/com.aspose.slides/pathfillmodetype/
 ---
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum

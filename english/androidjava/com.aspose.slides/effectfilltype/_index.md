@@ -1,10 +1,10 @@
 ---
 title: EffectFillType
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Represent fill types.
+second_title: Aspose.Slides for Java API Reference
+description: Represent fill types.
 type: docs
 weight: 165
-url: /androidjava/com.aspose.slides/effectfilltype/
+url: /java/com.aspose.slides/effectfilltype/
 ---
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum

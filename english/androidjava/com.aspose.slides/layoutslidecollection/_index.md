@@ -1,10 +1,10 @@
 ---
 title: LayoutSlideCollection
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents a base class for collection of a layout slides.
+second_title: Aspose.Slides for Java API Reference
+description: Represents a base class for collection of a layout slides.
 type: docs
-weight: 260
-url: /androidjava/com.aspose.slides/layoutslidecollection/
+weight: 261
+url: /java/com.aspose.slides/layoutslidecollection/
 ---
 **Inheritance:**
 java.lang.Object
@@ -86,7 +86,7 @@ Removes a layout from the collection.
 
 --------------------
 
-1) To avoid throwing of the PptxEditException check layout's HasDependingSlides property before. 2) You can use also [ILayoutSlide\#remove](../../com.aspose.slides/ilayoutslide\#remove) method to simplify code. |
+1) To avoid throwing of the PptxEditException check layout's HasDependingSlides property before. 2) You can use also [ILayoutSlide.remove](../../com.aspose.slides/ilayoutslide\#remove) method to simplify code. |
 
 ### removeUnused() {#removeUnused--}
 ```

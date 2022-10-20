@@ -1,10 +1,10 @@
 ---
 title: TextInheritanceLimit
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Controls the depth of the text properties inheritance.
+second_title: Aspose.Slides for Java API Reference
+description: Controls the depth of the text properties inheritance.
 type: docs
-weight: 560
-url: /androidjava/com.aspose.slides/textinheritancelimit/
+weight: 561
+url: /java/com.aspose.slides/textinheritancelimit/
 ---
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum

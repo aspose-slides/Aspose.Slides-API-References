@@ -1,10 +1,10 @@
 ---
 title: MotionPath
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Represent motion path.
+second_title: Aspose.Slides for Java API Reference
+description: Represent motion path.
 type: docs
-weight: 367
-url: /androidjava/com.aspose.slides/motionpath/
+weight: 368
+url: /java/com.aspose.slides/motionpath/
 ---
 **Inheritance:**
 java.lang.Object

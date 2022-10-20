@@ -1,10 +1,10 @@
 ---
 title: IImageTransformOperationCollection
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents a collection of effects apllied to an image.
+second_title: Aspose.Slides for Java API Reference
+description: Represents a collection of effects apllied to an image.
 type: docs
-weight: 831
-url: /androidjava/com.aspose.slides/iimagetransformoperationcollection/
+weight: 832
+url: /java/com.aspose.slides/iimagetransformoperationcollection/
 ---
 **All Implemented Interfaces:**
 com.aspose.ms.System.Collections.Generic.IGenericCollection

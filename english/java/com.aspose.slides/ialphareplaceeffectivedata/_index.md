@@ -1,9 +1,9 @@
 ---
 title: IAlphaReplaceEffectiveData
 second_title: Aspose.Slides for Java API Reference
-description:  Immutable object which represents and Alpha Replace effect.
+description: Immutable object which represents and Alpha Replace effect.
 type: docs
-weight: 637
+weight: 638
 url: /java/com.aspose.slides/ialphareplaceeffectivedata/
 ---
 **All Implemented Interfaces:**

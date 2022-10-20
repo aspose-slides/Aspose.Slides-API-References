@@ -1,7 +1,7 @@
 ---
 title: ColorOperation
 second_title: Aspose.Slides for Java API Reference
-description:  Represents different color operations used for color transformations.
+description: Represents different color operations used for color transformations.
 type: docs
 weight: 111
 url: /java/com.aspose.slides/coloroperation/

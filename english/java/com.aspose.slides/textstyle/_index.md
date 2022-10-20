@@ -1,9 +1,9 @@
 ---
 title: TextStyle
 second_title: Aspose.Slides for Java API Reference
-description:  This class contains the text style formatting properties.
+description: This class contains the text style formatting properties.
 type: docs
-weight: 563
+weight: 564
 url: /java/com.aspose.slides/textstyle/
 ---
 **Inheritance:**
@@ -34,7 +34,7 @@ public static final byte MaxLevelCount
 ```
 
 
-Maximum count of style levels that can be defined. Use it with \#getLevel(int)
+Maximum count of style levels that can be defined. Use it with \#getLevel(int).getLevel(int)
 
 --------------------
 

@@ -1,10 +1,10 @@
 ---
 title: IFontSubstRuleCollection
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents collection of fonts substitution.
+second_title: Aspose.Slides for Java API Reference
+description: Represents collection of fonts substitution.
 type: docs
-weight: 785
-url: /androidjava/com.aspose.slides/ifontsubstrulecollection/
+weight: 786
+url: /java/com.aspose.slides/ifontsubstrulecollection/
 ---
 **All Implemented Interfaces:**
 com.aspose.slides.IGenericCollection

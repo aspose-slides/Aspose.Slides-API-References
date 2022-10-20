@@ -1,9 +1,9 @@
 ---
 title: PieSplitCustomPointCollection
 second_title: Aspose.Slides for Java API Reference
-description:  Represents a collection of points for splitting point in a bar-of-pie or pie-of-pie chart with a custom split.
+description: Represents a collection of points for splitting point in a bar-of-pie or pie-of-pie chart with a custom split.
 type: docs
-weight: 419
+weight: 420
 url: /java/com.aspose.slides/piesplitcustompointcollection/
 ---
 **Inheritance:**
@@ -137,7 +137,7 @@ Copies the elements of the [IGenericCollection](../../com.aspose.slides/igeneric
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| array | com.aspose.slides.IChartDataPoint[] | The one-dimensional Array that is the destination of the elements copied from [IGenericCollection](../../com.aspose.slides/igenericcollection). The Array must have zero-based indexing. |
+| array | [IChartDataPoint\[\]](../../com.aspose.slides/ichartdatapoint) | The one-dimensional Array that is the destination of the elements copied from [IGenericCollection](../../com.aspose.slides/igenericcollection). The Array must have zero-based indexing. |
 | arrayIndex | int | The zero-based index in array at which copying begins. |
 
 ### size() {#size--}

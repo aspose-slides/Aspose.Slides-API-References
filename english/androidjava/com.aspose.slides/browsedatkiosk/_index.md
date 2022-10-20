@@ -1,10 +1,10 @@
 ---
 title: BrowsedAtKiosk
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Browsed at a kiosk full screen
+second_title: Aspose.Slides for Java API Reference
+description: Browsed at a kiosk full screen
 type: docs
 weight: 59
-url: /androidjava/com.aspose.slides/browsedatkiosk/
+url: /java/com.aspose.slides/browsedatkiosk/
 ---
 **Inheritance:**
 java.lang.Object, [com.aspose.slides.SlideShowType](../../com.aspose.slides/slideshowtype)

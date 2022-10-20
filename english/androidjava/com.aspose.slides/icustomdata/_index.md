@@ -1,10 +1,10 @@
 ---
 title: ICustomData
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents container for custom data.
+second_title: Aspose.Slides for Java API Reference
+description: Represents container for custom data.
 type: docs
-weight: 733
-url: /androidjava/com.aspose.slides/icustomdata/
+weight: 734
+url: /java/com.aspose.slides/icustomdata/
 ---```
 public interface ICustomData
 ```

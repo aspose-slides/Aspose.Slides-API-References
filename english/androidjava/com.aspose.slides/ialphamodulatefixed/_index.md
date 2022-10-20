@@ -1,10 +1,10 @@
 ---
 title: IAlphaModulateFixed
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents an Alpha Modulate Fixed effect.
+second_title: Aspose.Slides for Java API Reference
+description: Represents an Alpha Modulate Fixed effect.
 type: docs
-weight: 634
-url: /androidjava/com.aspose.slides/ialphamodulatefixed/
+weight: 635
+url: /java/com.aspose.slides/ialphamodulatefixed/
 ---
 **All Implemented Interfaces:**
 [com.aspose.slides.IImageTransformOperation](../../com.aspose.slides/iimagetransformoperation), com.aspose.slides.IAccessiblePVIObject

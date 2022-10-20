@@ -1,9 +1,9 @@
 ---
 title: ILineFormatEffectiveData
 second_title: Aspose.Slides for Java API Reference
-description:  Immutable object which contains effective line formatting properties.
+description: Immutable object which contains effective line formatting properties.
 type: docs
-weight: 857
+weight: 858
 url: /java/com.aspose.slides/ilineformateffectivedata/
 ---
 **All Implemented Interfaces:**

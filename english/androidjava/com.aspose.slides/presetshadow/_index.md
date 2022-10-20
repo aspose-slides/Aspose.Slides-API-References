@@ -1,10 +1,10 @@
 ---
 title: PresetShadow
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents a Preset Shadow effect.
+second_title: Aspose.Slides for Java API Reference
+description: Represents a Preset Shadow effect.
 type: docs
-weight: 450
-url: /androidjava/com.aspose.slides/presetshadow/
+weight: 451
+url: /java/com.aspose.slides/presetshadow/
 ---
 **Inheritance:**
 java.lang.Object
@@ -39,7 +39,7 @@ public final float getDirection()
 ```
 
 
-Direction of shadow. Read/write \`\`\` float \`\`\`.
+Direction of shadow. Read/write  float .
 
 **Returns:**
 float
@@ -49,7 +49,7 @@ public final void setDirection(float value)
 ```
 
 
-Direction of shadow. Read/write \`\`\` float \`\`\`.
+Direction of shadow. Read/write  float .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -62,7 +62,7 @@ public final double getDistance()
 ```
 
 
-Distance of shadow. Read/write \`\`\` double \`\`\`.
+Distance of shadow. Read/write  double .
 
 **Returns:**
 double
@@ -72,7 +72,7 @@ public final void setDistance(double value)
 ```
 
 
-Distance of shadow. Read/write \`\`\` double \`\`\`.
+Distance of shadow. Read/write  double .
 
 **Parameters:**
 | Parameter | Type | Description |

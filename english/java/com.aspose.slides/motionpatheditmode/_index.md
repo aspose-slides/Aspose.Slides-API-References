@@ -1,9 +1,9 @@
 ---
 title: MotionPathEditMode
 second_title: Aspose.Slides for Java API Reference
-description:  Specifies how the motion path moves when the target shape is moved
+description: Specifies how the motion path moves when the target shape is moved
 type: docs
-weight: 368
+weight: 369
 url: /java/com.aspose.slides/motionpatheditmode/
 ---
 **Inheritance:**

@@ -1,10 +1,10 @@
 ---
 title: Output
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents a collection of output elements for IWebDocument.
+second_title: Aspose.Slides for Java API Reference
+description: Represents a collection of output elements for IWebDocument.
 type: docs
-weight: 392
-url: /androidjava/com.aspose.slides/output/
+weight: 393
+url: /java/com.aspose.slides/output/
 ---
 **Inheritance:**
 java.lang.Object

@@ -1,10 +1,10 @@
 ---
 title: IMathRadicalFactory
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Allows to create math radical
+second_title: Aspose.Slides for Java API Reference
+description: Allows to create math radical
 type: docs
-weight: 912
-url: /androidjava/com.aspose.slides/imathradicalfactory/
+weight: 913
+url: /java/com.aspose.slides/imathradicalfactory/
 ---```
 public interface IMathRadicalFactory
 ```

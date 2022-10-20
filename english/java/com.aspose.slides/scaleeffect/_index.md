@@ -1,9 +1,9 @@
 ---
 title: ScaleEffect
 second_title: Aspose.Slides for Java API Reference
-description:  Represents animation scale effect.
+description: Represents animation scale effect.
 type: docs
-weight: 474
+weight: 475
 url: /java/com.aspose.slides/scaleeffect/
 ---
 **Inheritance:**

@@ -1,9 +1,9 @@
 ---
 title: RotationEffect
 second_title: Aspose.Slides for Java API Reference
-description:  Represent rotation behavior of effect.
+description: Represent rotation behavior of effect.
 type: docs
-weight: 466
+weight: 467
 url: /java/com.aspose.slides/rotationeffect/
 ---
 **Inheritance:**

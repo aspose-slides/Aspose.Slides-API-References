@@ -1,10 +1,10 @@
 ---
 title: IMathLimit
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Specifies the Limit object consisting of text on the baseline and reduced-size text immediately above or below it.
+second_title: Aspose.Slides for Java API Reference
+description: Specifies the Limit object consisting of text on the baseline and reduced-size text immediately above or below it.
 type: docs
-weight: 901
-url: /androidjava/com.aspose.slides/imathlimit/
+weight: 902
+url: /java/com.aspose.slides/imathlimit/
 ---
 **All Implemented Interfaces:**
 [com.aspose.slides.IMathElement](../../com.aspose.slides/imathelement)

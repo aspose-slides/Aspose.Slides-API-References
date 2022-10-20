@@ -1,10 +1,10 @@
 ---
 title: SlideSizeScaleType
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents the scale type of slide content.
+second_title: Aspose.Slides for Java API Reference
+description: Represents the scale type of slide content.
 type: docs
-weight: 508
-url: /androidjava/com.aspose.slides/slidesizescaletype/
+weight: 509
+url: /java/com.aspose.slides/slidesizescaletype/
 ---
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum

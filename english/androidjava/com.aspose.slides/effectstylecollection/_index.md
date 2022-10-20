@@ -1,10 +1,10 @@
 ---
 title: EffectStyleCollection
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents a collection of effect styles.
+second_title: Aspose.Slides for Java API Reference
+description: Represents a collection of effect styles.
 type: docs
 weight: 170
-url: /androidjava/com.aspose.slides/effectstylecollection/
+url: /java/com.aspose.slides/effectstylecollection/
 ---
 **Inheritance:**
 java.lang.Object, com.aspose.slides.DomObject

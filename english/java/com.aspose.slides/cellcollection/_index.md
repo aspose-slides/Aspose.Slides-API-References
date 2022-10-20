@@ -1,7 +1,7 @@
 ---
 title: CellCollection
 second_title: Aspose.Slides for Java API Reference
-description:  Represents a collection of cells.
+description: Represents a collection of cells.
 type: docs
 weight: 72
 url: /java/com.aspose.slides/cellcollection/

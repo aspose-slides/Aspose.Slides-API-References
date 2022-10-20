@@ -1,10 +1,10 @@
 ---
 title: ITextToHtmlConversionOptions
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Options for extracting HTML from the Pptx text.
+second_title: Aspose.Slides for Java API Reference
+description: Options for extracting HTML from the Pptx text.
 type: docs
-weight: 1070
-url: /androidjava/com.aspose.slides/itexttohtmlconversionoptions/
+weight: 1071
+url: /java/com.aspose.slides/itexttohtmlconversionoptions/
 ---```
 public interface ITextToHtmlConversionOptions
 ```
@@ -51,7 +51,7 @@ public abstract int getTextInheritanceLimit()
 ```
 
 
-Returns or sets inhering depth for text properties. Read/write [TextInheritanceLimit](../../com.aspose.slides/textinheritancelimit)(\#getTextInheritanceLimit/\#setTextInheritanceLimit(int)).
+Returns or sets inhering depth for text properties. Read/write [TextInheritanceLimit](../../com.aspose.slides/textinheritancelimit)(\#getTextInheritanceLimit.getTextInheritanceLimit/\#setTextInheritanceLimit(int).setTextInheritanceLimit(int)).
 
 **Returns:**
 int
@@ -61,7 +61,7 @@ public abstract void setTextInheritanceLimit(int value)
 ```
 
 
-Returns or sets inhering depth for text properties. Read/write [TextInheritanceLimit](../../com.aspose.slides/textinheritancelimit)(\#getTextInheritanceLimit/\#setTextInheritanceLimit(int)).
+Returns or sets inhering depth for text properties. Read/write [TextInheritanceLimit](../../com.aspose.slides/textinheritancelimit)(\#getTextInheritanceLimit.getTextInheritanceLimit/\#setTextInheritanceLimit(int).setTextInheritanceLimit(int)).
 
 **Parameters:**
 | Parameter | Type | Description |

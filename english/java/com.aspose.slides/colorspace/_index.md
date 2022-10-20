@@ -1,7 +1,7 @@
 ---
 title: ColorSpace
 second_title: Aspose.Slides for Java API Reference
-description:  Represents color space for color effect behavior.
+description: Represents color space for color effect behavior.
 type: docs
 weight: 116
 url: /java/com.aspose.slides/colorspace/

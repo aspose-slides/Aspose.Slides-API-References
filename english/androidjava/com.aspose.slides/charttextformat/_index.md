@@ -1,10 +1,10 @@
 ---
 title: ChartTextFormat
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Specifies default text formatting for chart text elements.
+second_title: Aspose.Slides for Java API Reference
+description: Specifies default text formatting for chart text elements.
 type: docs
 weight: 99
-url: /androidjava/com.aspose.slides/charttextformat/
+url: /java/com.aspose.slides/charttextformat/
 ---
 **Inheritance:**
 java.lang.Object

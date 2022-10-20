@@ -1,9 +1,9 @@
 ---
 title: FontsLoader
 second_title: Aspose.Slides for Java API Reference
-description:  Class for loading custom fonts defined by user.
+description: Class for loading custom fonts defined by user.
 type: docs
-weight: 211
+weight: 212
 url: /java/com.aspose.slides/fontsloader/
 ---
 **Inheritance:**

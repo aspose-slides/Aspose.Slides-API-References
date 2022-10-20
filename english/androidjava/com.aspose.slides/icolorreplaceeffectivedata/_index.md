@@ -1,10 +1,10 @@
 ---
 title: IColorReplaceEffectiveData
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Immutable object which represents a Color Replacement effect.
+second_title: Aspose.Slides for Java API Reference
+description: Immutable object which represents a Color Replacement effect.
 type: docs
-weight: 714
-url: /androidjava/com.aspose.slides/icolorreplaceeffectivedata/
+weight: 715
+url: /java/com.aspose.slides/icolorreplaceeffectivedata/
 ---
 **All Implemented Interfaces:**
 [com.aspose.slides.IEffectEffectiveData](../../com.aspose.slides/ieffecteffectivedata)

@@ -1,10 +1,10 @@
 ---
 title: IMathSubscriptElementFactory
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Allows to create IMathSubscriptElement
+second_title: Aspose.Slides for Java API Reference
+description: Allows to create IMathSubscriptElement
 type: docs
-weight: 916
-url: /androidjava/com.aspose.slides/imathsubscriptelementfactory/
+weight: 917
+url: /java/com.aspose.slides/imathsubscriptelementfactory/
 ---```
 public interface IMathSubscriptElementFactory
 ```

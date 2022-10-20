@@ -1,10 +1,10 @@
 ---
 title: IPortionFormat
-second_title: Aspose.Slides for Android via Java API Reference
-description:  This class contains the text portion formatting properties.
+second_title: Aspose.Slides for Java API Reference
+description: This class contains the text portion formatting properties.
 type: docs
-weight: 971
-url: /androidjava/com.aspose.slides/iportionformat/
+weight: 972
+url: /java/com.aspose.slides/iportionformat/
 ---
 **All Implemented Interfaces:**
 [com.aspose.slides.IBasePortionFormat](../../com.aspose.slides/ibaseportionformat), [com.aspose.slides.IHyperlinkContainer](../../com.aspose.slides/ihyperlinkcontainer)
@@ -18,7 +18,7 @@ This class contains the text portion formatting properties. Unlike [IPortionForm
 
 This class is used to return and manipulate text portion formatting properties defined for the particular portion. This means that no inheritance is applied when getting values so for the majority of cases you will get values meaning "undefined".
 
-In order to get the effective formatting parameter values including inherited you need to use [IPortionFormat\#getEffective](../../com.aspose.slides/iportionformat\#getEffective) method which returns a [IPortionFormatEffectiveData](../../com.aspose.slides/iportionformateffectivedata) instance.
+In order to get the effective formatting parameter values including inherited you need to use [getEffective](../../com.aspose.slides/iportionformat\#getEffective) method which returns a [IPortionFormatEffectiveData](../../com.aspose.slides/iportionformateffectivedata) instance.
 ## Methods
 
 | Method | Description |

@@ -1,7 +1,7 @@
 ---
 title: BaseChartValue
 second_title: Aspose.Slides for Java API Reference
-description:  Represents a value of a chart.
+description: Represents a value of a chart.
 type: docs
 weight: 37
 url: /java/com.aspose.slides/basechartvalue/

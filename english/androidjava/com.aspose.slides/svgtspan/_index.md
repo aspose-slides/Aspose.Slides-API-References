@@ -1,10 +1,10 @@
 ---
 title: SvgTSpan
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents options for SVG text portion tspan.
+second_title: Aspose.Slides for Java API Reference
+description: Represents options for SVG text portion tspan.
 type: docs
-weight: 538
-url: /androidjava/com.aspose.slides/svgtspan/
+weight: 539
+url: /java/com.aspose.slides/svgtspan/
 ---
 **Inheritance:**
 java.lang.Object

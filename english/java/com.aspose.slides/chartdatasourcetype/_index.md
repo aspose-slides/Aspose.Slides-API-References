@@ -1,7 +1,7 @@
 ---
 title: ChartDataSourceType
 second_title: Aspose.Slides for Java API Reference
-description:  Represents a type of data source of the chart
+description: Represents a type of data source of the chart
 type: docs
 weight: 88
 url: /java/com.aspose.slides/chartdatasourcetype/

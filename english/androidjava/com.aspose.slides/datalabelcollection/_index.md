@@ -1,10 +1,10 @@
 ---
 title: DataLabelCollection
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents a series labels.
+second_title: Aspose.Slides for Java API Reference
+description: Represents a series labels.
 type: docs
 weight: 148
-url: /androidjava/com.aspose.slides/datalabelcollection/
+url: /java/com.aspose.slides/datalabelcollection/
 ---
 **Inheritance:**
 java.lang.Object, com.aspose.slides.DomObject
@@ -28,6 +28,8 @@ Represents a series labels.
 | [getCountOfVisibleDataLabels()](#getCountOfVisibleDataLabels--) | Gets the number of visible data labels in the collection. |
 | [getCount()](#getCount--) | Gets the number of all data labels in the collection. |
 | [getDefaultDataLabelFormat()](#getDefaultDataLabelFormat--) | Gets the default data label format. |
+| [getLeaderLinesColor()](#getLeaderLinesColor--) | Gets or sets the color of all leader lines in the collection. |
+| [setLeaderLinesColor(Integer value)](#setLeaderLinesColor-java.lang.Integer-) | Gets or sets the color of all leader lines in the collection. |
 | [getParentSeries()](#getParentSeries--) | Gets the parent series. |
 | [indexOf(IDataLabel value)](#indexOf-com.aspose.slides.IDataLabel-) | Returns an index of the specified DataLabel in the collection. |
 | [get_Item(int index)](#get-Item-int-) | Gets the data label for the data point with the specified index. |
@@ -119,6 +121,63 @@ Gets the default data label format. Read-only [IDataLabelFormat](../../com.aspos
 
 **Returns:**
 [IDataLabelFormat](../../com.aspose.slides/idatalabelformat)
+### getLeaderLinesColor() {#getLeaderLinesColor--}
+```
+public final Integer getLeaderLinesColor()
+```
+
+
+Gets or sets the color of all leader lines in the collection. Read/write java.lang.Integer.
+
+--------------------
+
+> ```
+> Example:
+>  
+>  Presentation pres = new Presentation("pres.pptx");
+>  try {
+>      IChart chart = (IChart) pres.getSlides().get_Item(0).getShapes().get_Item(0);
+>      IChartSeriesCollection series = chart.getChartData().getSeries();
+>      IDataLabelCollection labels = series.get_Item(0).getLabels();
+> 
+>      labels.setLeaderLinesColor(Color.RED);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Returns:**
+java.lang.Integer
+### setLeaderLinesColor(Integer value) {#setLeaderLinesColor-java.lang.Integer-}
+```
+public final void setLeaderLinesColor(Integer value)
+```
+
+
+Gets or sets the color of all leader lines in the collection. Read/write java.lang.Integer.
+
+--------------------
+
+> ```
+> Example:
+>  
+>  Presentation pres = new Presentation("pres.pptx");
+>  try {
+>      IChart chart = (IChart) pres.getSlides().get_Item(0).getShapes().get_Item(0);
+>      IChartSeriesCollection series = chart.getChartData().getSeries();
+>      IDataLabelCollection labels = series.get_Item(0).getLabels();
+> 
+>      labels.setLeaderLinesColor(Color.RED);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.Integer |  |
+
 ### getParentSeries() {#getParentSeries--}
 ```
 public final IChartSeries getParentSeries()

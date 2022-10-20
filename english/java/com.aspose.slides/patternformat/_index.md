@@ -1,9 +1,9 @@
 ---
 title: PatternFormat
 second_title: Aspose.Slides for Java API Reference
-description:  Represents a pattern to fill a shape.
+description: Represents a pattern to fill a shape.
 type: docs
-weight: 405
+weight: 406
 url: /java/com.aspose.slides/patternformat/
 ---
 **Inheritance:**

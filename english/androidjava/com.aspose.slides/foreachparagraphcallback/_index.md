@@ -1,10 +1,10 @@
 ---
 title: ForEach.ForEachParagraphCallback
-second_title: Aspose.Slides for Android via Java API Reference
+second_title: Aspose.Slides for Java API Reference
 description: 
 type: docs
 weight: 12
-url: /androidjava/com.aspose.slides/foreach.foreachparagraphcallback/
+url: /java/com.aspose.slides/foreach.foreachparagraphcallback/
 ---```
 public static interface ForEach.ForEachParagraphCallback
 ```
@@ -12,14 +12,14 @@ public static interface ForEach.ForEachParagraphCallback
 
 | Method | Description |
 | --- | --- |
-| [invoke(Paragraph para, BaseSlide slide, int index)](#invoke-com.aspose.slides.Paragraph-com.aspose.slides.BaseSlide-int-) | Callback that will be invoked for each \#paragraph(Presentation,ForEachParagraphCallback) on the [BaseSlide](../../com.aspose.slides/baseslide). |
+| [invoke(Paragraph para, BaseSlide slide, int index)](#invoke-com.aspose.slides.Paragraph-com.aspose.slides.BaseSlide-int-) | Callback that will be invoked for each \#paragraph(Presentation,ForEachParagraphCallback).paragraph(Presentation,ForEachParagraphCallback) on the [BaseSlide](../../com.aspose.slides/baseslide). |
 ### invoke(Paragraph para, BaseSlide slide, int index) {#invoke-com.aspose.slides.Paragraph-com.aspose.slides.BaseSlide-int-}
 ```
 public abstract void invoke(Paragraph para, BaseSlide slide, int index)
 ```
 
 
-Callback that will be invoked for each \#paragraph(Presentation,ForEachParagraphCallback) on the [BaseSlide](../../com.aspose.slides/baseslide).
+Callback that will be invoked for each \#paragraph(Presentation,ForEachParagraphCallback).paragraph(Presentation,ForEachParagraphCallback) on the [BaseSlide](../../com.aspose.slides/baseslide).
 
 **Parameters:**
 | Parameter | Type | Description |

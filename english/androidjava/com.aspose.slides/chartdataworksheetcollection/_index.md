@@ -1,10 +1,10 @@
 ---
 title: ChartDataWorksheetCollection
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents the collection of worksheets of chart data workbook.
+second_title: Aspose.Slides for Java API Reference
+description: Represents the collection of worksheets of chart data workbook.
 type: docs
 weight: 91
-url: /androidjava/com.aspose.slides/chartdataworksheetcollection/
+url: /java/com.aspose.slides/chartdataworksheetcollection/
 ---
 **Inheritance:**
 java.lang.Object

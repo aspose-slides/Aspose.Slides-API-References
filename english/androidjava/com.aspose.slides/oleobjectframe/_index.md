@@ -1,10 +1,10 @@
 ---
 title: OleObjectFrame
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents an OLE object on a slide.
+second_title: Aspose.Slides for Java API Reference
+description: Represents an OLE object on a slide.
 type: docs
-weight: 386
-url: /androidjava/com.aspose.slides/oleobjectframe/
+weight: 387
+url: /java/com.aspose.slides/oleobjectframe/
 ---
 **Inheritance:**
 java.lang.Object, [com.aspose.slides.Shape](../../com.aspose.slides/shape), [com.aspose.slides.GraphicalObject](../../com.aspose.slides/graphicalobject)
@@ -229,7 +229,7 @@ public final boolean isObjectIcon()
 ```
 
 
-Determines whether an object is visible as icon. Read/write \`\`\` boolean \`\`\`.
+Determines whether an object is visible as icon. Read/write  boolean .
 
 **Returns:**
 boolean
@@ -239,7 +239,7 @@ public final void setObjectIcon(boolean value)
 ```
 
 
-Determines whether an object is visible as icon. Read/write \`\`\` boolean \`\`\`.
+Determines whether an object is visible as icon. Read/write  boolean .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -252,7 +252,7 @@ public final boolean isObjectLink()
 ```
 
 
-Determines whether an object is linked to external file. Read-only \`\`\` boolean \`\`\`.
+Determines whether an object is linked to external file. Read-only  boolean .
 
 **Returns:**
 boolean
@@ -262,7 +262,7 @@ public final boolean getUpdateAutomatic()
 ```
 
 
-Determines if the linked embedded object is automatically updated when the presentation is opened or printed. Read/write \`\`\` boolean \`\`\`.
+Determines if the linked embedded object is automatically updated when the presentation is opened or printed. Read/write  boolean .
 
 **Returns:**
 boolean
@@ -272,7 +272,7 @@ public final void setUpdateAutomatic(boolean value)
 ```
 
 
-Determines if the linked embedded object is automatically updated when the presentation is opened or printed. Read/write \`\`\` boolean \`\`\`.
+Determines if the linked embedded object is automatically updated when the presentation is opened or printed. Read/write  boolean .
 
 **Parameters:**
 | Parameter | Type | Description |

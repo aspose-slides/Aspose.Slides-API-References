@@ -1,10 +1,10 @@
 ---
 title: IConnector
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents a connector.
+second_title: Aspose.Slides for Java API Reference
+description: Represents a connector.
 type: docs
-weight: 727
-url: /androidjava/com.aspose.slides/iconnector/
+weight: 728
+url: /java/com.aspose.slides/iconnector/
 ---
 **All Implemented Interfaces:**
 [com.aspose.slides.IGeometryShape](../../com.aspose.slides/igeometryshape)

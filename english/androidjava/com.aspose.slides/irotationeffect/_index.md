@@ -1,10 +1,10 @@
 ---
 title: IRotationEffect
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Represent rotation behavior of effect.
+second_title: Aspose.Slides for Java API Reference
+description: Represent rotation behavior of effect.
 type: docs
-weight: 996
-url: /androidjava/com.aspose.slides/irotationeffect/
+weight: 997
+url: /java/com.aspose.slides/irotationeffect/
 ---
 **All Implemented Interfaces:**
 [com.aspose.slides.IBehavior](../../com.aspose.slides/ibehavior)

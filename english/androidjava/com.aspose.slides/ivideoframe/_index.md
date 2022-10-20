@@ -1,10 +1,10 @@
 ---
 title: IVideoFrame
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents a video clip on a slide.
+second_title: Aspose.Slides for Java API Reference
+description: Represents a video clip on a slide.
 type: docs
-weight: 1098
-url: /androidjava/com.aspose.slides/ivideoframe/
+weight: 1099
+url: /java/com.aspose.slides/ivideoframe/
 ---
 **All Implemented Interfaces:**
 [com.aspose.slides.IPictureFrame](../../com.aspose.slides/ipictureframe)

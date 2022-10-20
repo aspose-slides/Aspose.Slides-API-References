@@ -1,9 +1,9 @@
 ---
 title: IChartPlotArea
 second_title: Aspose.Slides for Java API Reference
-description:  Represents chart title properties.
+description: Represents chart title properties.
 type: docs
-weight: 695
+weight: 696
 url: /java/com.aspose.slides/ichartplotarea/
 ---
 **All Implemented Interfaces:**
@@ -36,9 +36,9 @@ public abstract int getLayoutTargetType()
 ```
 
 
-If layout of the plot area defined manually this property specifies whether to layout the plot area by its inside (not including axis and axis labels) or outside (including axis and axis labels). Read/write [LayoutTargetType](../../com.aspose.slides/layouttargettype)(\#getLayoutTargetType/\#setLayoutTargetType(int)).
+If layout of the plot area defined manually this property specifies whether to layout the plot area by its inside (not including axis and axis labels) or outside (including axis and axis labels). Read/write [LayoutTargetType](../../com.aspose.slides/layouttargettype)(\#getLayoutTargetType.getLayoutTargetType/\#setLayoutTargetType(int).setLayoutTargetType(int)).
 
-```java
+```
 Presentation presentation = new Presentation();
   try
   {
@@ -63,9 +63,9 @@ public abstract void setLayoutTargetType(int value)
 ```
 
 
-If layout of the plot area defined manually this property specifies whether to layout the plot area by its inside (not including axis and axis labels) or outside (including axis and axis labels). Read/write [LayoutTargetType](../../com.aspose.slides/layouttargettype)(\#getLayoutTargetType/\#setLayoutTargetType(int)).
+If layout of the plot area defined manually this property specifies whether to layout the plot area by its inside (not including axis and axis labels) or outside (including axis and axis labels). Read/write [LayoutTargetType](../../com.aspose.slides/layouttargettype)(\#getLayoutTargetType.getLayoutTargetType/\#setLayoutTargetType(int).setLayoutTargetType(int)).
 
-```java
+```
 Presentation presentation = new Presentation();
   try
   {

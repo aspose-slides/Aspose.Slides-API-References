@@ -1,10 +1,10 @@
 ---
 title: TiffCompressionTypes
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Provides options that control how a presentation is compressed in TIFF format.
+second_title: Aspose.Slides for Java API Reference
+description: Provides options that control how a presentation is compressed in TIFF format.
 type: docs
-weight: 572
-url: /androidjava/com.aspose.slides/tiffcompressiontypes/
+weight: 573
+url: /java/com.aspose.slides/tiffcompressiontypes/
 ---
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum

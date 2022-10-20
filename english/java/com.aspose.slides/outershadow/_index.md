@@ -1,9 +1,9 @@
 ---
 title: OuterShadow
 second_title: Aspose.Slides for Java API Reference
-description:  Represents an Outer Shadow effect.
+description: Represents an Outer Shadow effect.
 type: docs
-weight: 391
+weight: 392
 url: /java/com.aspose.slides/outershadow/
 ---
 **Inheritance:**
@@ -51,7 +51,7 @@ public final double getBlurRadius()
 ```
 
 
-Blur radius. Read/write \`\`\` double \`\`\`.
+Blur radius. Read/write  double .
 
 **Returns:**
 double
@@ -61,7 +61,7 @@ public final void setBlurRadius(double value)
 ```
 
 
-Blur radius. Read/write \`\`\` double \`\`\`.
+Blur radius. Read/write  double .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -74,7 +74,7 @@ public final float getDirection()
 ```
 
 
-Direction of shadow. Read/write \`\`\` float \`\`\`.
+Direction of shadow. Read/write  float .
 
 **Returns:**
 float
@@ -84,7 +84,7 @@ public final void setDirection(float value)
 ```
 
 
-Direction of shadow. Read/write \`\`\` float \`\`\`.
+Direction of shadow. Read/write  float .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -97,7 +97,7 @@ public final double getDistance()
 ```
 
 
-Distance of shadow. Read/write \`\`\` double \`\`\`.
+Distance of shadow. Read/write  double .
 
 **Returns:**
 double
@@ -107,7 +107,7 @@ public final void setDistance(double value)
 ```
 
 
-Distance of shadow. Read/write \`\`\` double \`\`\`.
+Distance of shadow. Read/write  double .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -153,7 +153,7 @@ public final double getSkewHorizontal()
 ```
 
 
-Specifies the horizontal skew angle (in degrees). Read/write \`\`\` double \`\`\`.
+Specifies the horizontal skew angle (in degrees). Read/write  double .
 
 **Returns:**
 double
@@ -163,7 +163,7 @@ public final void setSkewHorizontal(double value)
 ```
 
 
-Specifies the horizontal skew angle (in degrees). Read/write \`\`\` double \`\`\`.
+Specifies the horizontal skew angle (in degrees). Read/write  double .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -176,7 +176,7 @@ public final double getSkewVertical()
 ```
 
 
-Specifies the vertical skew angle (in degrees). Read/write \`\`\` double \`\`\`.
+Specifies the vertical skew angle (in degrees). Read/write  double .
 
 **Returns:**
 double
@@ -186,7 +186,7 @@ public final void setSkewVertical(double value)
 ```
 
 
-Specifies the vertical skew angle (in degrees). Read/write \`\`\` double \`\`\`.
+Specifies the vertical skew angle (in degrees). Read/write  double .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -199,7 +199,7 @@ public final boolean getRotateShadowWithShape()
 ```
 
 
-Specifies whether the shadow should rotate with the shape if the shape is rotated. Read/write \`\`\` boolean \`\`\`.
+Specifies whether the shadow should rotate with the shape if the shape is rotated. Read/write  boolean .
 
 **Returns:**
 boolean
@@ -209,7 +209,7 @@ public final void setRotateShadowWithShape(boolean value)
 ```
 
 
-Specifies whether the shadow should rotate with the shape if the shape is rotated. Read/write \`\`\` boolean \`\`\`.
+Specifies whether the shadow should rotate with the shape if the shape is rotated. Read/write  boolean .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -222,7 +222,7 @@ public final double getScaleHorizontal()
 ```
 
 
-Specifies the horizontal scaling factor, negative scaling causes a flip. Read/write \`\`\` double \`\`\`.
+Specifies the horizontal scaling factor, negative scaling causes a flip. Read/write  double .
 
 **Returns:**
 double
@@ -232,7 +232,7 @@ public final void setScaleHorizontal(double value)
 ```
 
 
-Specifies the horizontal scaling factor, negative scaling causes a flip. Read/write \`\`\` double \`\`\`.
+Specifies the horizontal scaling factor, negative scaling causes a flip. Read/write  double .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -245,7 +245,7 @@ public final double getScaleVertical()
 ```
 
 
-Specifies the vertical scaling factor, negative scaling causes a flip. Read/write \`\`\` double \`\`\`.
+Specifies the vertical scaling factor, negative scaling causes a flip. Read/write  double .
 
 **Returns:**
 double
@@ -255,7 +255,7 @@ public final void setScaleVertical(double value)
 ```
 
 
-Specifies the vertical scaling factor, negative scaling causes a flip. Read/write \`\`\` double \`\`\`.
+Specifies the vertical scaling factor, negative scaling causes a flip. Read/write  double .
 
 **Parameters:**
 | Parameter | Type | Description |

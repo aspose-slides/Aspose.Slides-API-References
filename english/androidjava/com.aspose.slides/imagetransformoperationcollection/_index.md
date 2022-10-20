@@ -1,10 +1,10 @@
 ---
 title: ImageTransformOperationCollection
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents a collection of effects apllied to an image.
+second_title: Aspose.Slides for Java API Reference
+description: Represents a collection of effects apllied to an image.
 type: docs
-weight: 250
-url: /androidjava/com.aspose.slides/imagetransformoperationcollection/
+weight: 251
+url: /java/com.aspose.slides/imagetransformoperationcollection/
 ---
 **Inheritance:**
 java.lang.Object, [com.aspose.slides.PVIObject](../../com.aspose.slides/pviobject)
@@ -297,7 +297,7 @@ public final int size()
 ```
 
 
-Returns the number of image effects in a collection. Read-only \`\`\` int \`\`\`.
+Returns the number of image effects in a collection. Read-only  int .
 
 **Returns:**
 int
@@ -358,7 +358,7 @@ Copies the elements of the [IGenericCollection](../../com.aspose.slides/igeneric
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| array | com.aspose.slides.IImageTransformOperation[] | The one-dimensional Array that is the destination of the elements copied from [IGenericCollection](../../com.aspose.slides/igenericcollection). The Array must have zero-based indexing. |
+| array | [IImageTransformOperation\[\]](../../com.aspose.slides/iimagetransformoperation) | The one-dimensional Array that is the destination of the elements copied from [IGenericCollection](../../com.aspose.slides/igenericcollection). The Array must have zero-based indexing. |
 | arrayIndex | int | The zero-based index in array at which copying begins. |
 
 ### removeItem(IImageTransformOperation item) {#removeItem-com.aspose.slides.IImageTransformOperation-}
@@ -375,7 +375,7 @@ Removes the first occurrence of a specific object from the [IGenericCollection](
 | item | [IImageTransformOperation](../../com.aspose.slides/iimagetransformoperation) | The object to remove from the [IGenericCollection](../../com.aspose.slides/igenericcollection). |
 
 **Returns:**
-boolean - true if \`\`\` item \`\`\` was successfully removed from the [IGenericCollection](../../com.aspose.slides/igenericcollection); otherwise, false. This method also returns false if item is not found in the original [IGenericCollection](../../com.aspose.slides/igenericcollection).
+boolean - true if  item  was successfully removed from the [IGenericCollection](../../com.aspose.slides/igenericcollection); otherwise, false. This method also returns false if item is not found in the original [IGenericCollection](../../com.aspose.slides/igenericcollection).
 ### iterator() {#iterator--}
 ```
 public final System.Collections.Generic.IGenericEnumerator<IImageTransformOperation> iterator()

@@ -1,9 +1,9 @@
 ---
 title: IFontDataFactory
 second_title: Aspose.Slides for Java API Reference
-description:  FontData factory interface
+description: FontData factory interface
 type: docs
-weight: 778
+weight: 779
 url: /java/com.aspose.slides/ifontdatafactory/
 ---```
 public interface IFontDataFactory

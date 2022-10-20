@@ -1,7 +1,7 @@
 ---
 title: Field
 second_title: Aspose.Slides for Java API Reference
-description:  Represents a field.
+description: Represents a field.
 type: docs
 weight: 187
 url: /java/com.aspose.slides/field/

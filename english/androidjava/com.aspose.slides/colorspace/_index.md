@@ -1,10 +1,10 @@
 ---
 title: ColorSpace
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents color space for color effect behavior.
+second_title: Aspose.Slides for Java API Reference
+description: Represents color space for color effect behavior.
 type: docs
 weight: 116
-url: /androidjava/com.aspose.slides/colorspace/
+url: /java/com.aspose.slides/colorspace/
 ---
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum

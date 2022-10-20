@@ -1,10 +1,10 @@
 ---
 title: Field
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents a field.
+second_title: Aspose.Slides for Java API Reference
+description: Represents a field.
 type: docs
 weight: 187
-url: /androidjava/com.aspose.slides/field/
+url: /java/com.aspose.slides/field/
 ---
 **Inheritance:**
 java.lang.Object, com.aspose.slides.DomObject

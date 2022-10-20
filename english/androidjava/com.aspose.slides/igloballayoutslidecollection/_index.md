@@ -1,10 +1,10 @@
 ---
 title: IGlobalLayoutSlideCollection
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents a collection of all layout slides in presentation.
+second_title: Aspose.Slides for Java API Reference
+description: Represents a collection of all layout slides in presentation.
 type: docs
-weight: 801
-url: /androidjava/com.aspose.slides/igloballayoutslidecollection/
+weight: 802
+url: /java/com.aspose.slides/igloballayoutslidecollection/
 ---
 **All Implemented Interfaces:**
 [com.aspose.slides.ILayoutSlideCollection](../../com.aspose.slides/ilayoutslidecollection)
@@ -76,7 +76,7 @@ Adds a new layout slide to the presentation.
 
 --------------------
 
-1) Added layout for value SlideLayoutType.Custom of layoutType contains no placeholders and no shapes. 2) Analogue of this method is method [IMasterLayoutSlideCollection\#add(byte,String)](../../com.aspose.slides/imasterlayoutslidecollection\#add-byte-String-) accessed with ([IMasterSlide\#getLayoutSlides](../../com.aspose.slides/imasterslide\#getLayoutSlides)) property. |
+1) Added layout for value SlideLayoutType.Custom of layoutType contains no placeholders and no shapes. 2) Analogue of this method is method [IMasterLayoutSlideCollection.add(byte,String)](../../com.aspose.slides/imasterlayoutslidecollection\#add-byte-String-) accessed with ([IMasterSlide.getLayoutSlides](../../com.aspose.slides/imasterslide\#getLayoutSlides)) property. |
 
 **Returns:**
 [ILayoutSlide](../../com.aspose.slides/ilayoutslide) - Added slide.

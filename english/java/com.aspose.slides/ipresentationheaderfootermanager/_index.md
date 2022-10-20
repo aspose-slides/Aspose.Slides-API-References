@@ -1,9 +1,9 @@
 ---
 title: IPresentationHeaderFooterManager
 second_title: Aspose.Slides for Java API Reference
-description:  Represents manager which holds behavior of all footer date-time and page number placeholders of presentation.
+description: Represents manager which holds behavior of all footer date-time and page number placeholders of presentation.
 type: docs
-weight: 978
+weight: 979
 url: /java/com.aspose.slides/ipresentationheaderfootermanager/
 ---
 **All Implemented Interfaces:**

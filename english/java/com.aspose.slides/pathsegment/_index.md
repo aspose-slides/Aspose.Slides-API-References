@@ -1,9 +1,9 @@
 ---
 title: PathSegment
 second_title: Aspose.Slides for Java API Reference
-description:  Represents segment of graphics path of GeometryShape
+description: Represents segment of graphics path of GeometryShape
 type: docs
-weight: 404
+weight: 405
 url: /java/com.aspose.slides/pathsegment/
 ---
 **Inheritance:**

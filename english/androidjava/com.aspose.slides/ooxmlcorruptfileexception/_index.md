@@ -1,10 +1,10 @@
 ---
 title: OOXMLCorruptFileException
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Exception which thrown when Office Open XML file format is corrupted.
+second_title: Aspose.Slides for Java API Reference
+description: Exception which thrown when Office Open XML file format is corrupted.
 type: docs
-weight: 381
-url: /androidjava/com.aspose.slides/ooxmlcorruptfileexception/
+weight: 382
+url: /java/com.aspose.slides/ooxmlcorruptfileexception/
 ---
 **Inheritance:**
 java.lang.Object, java.lang.Throwable, java.lang.Exception, java.lang.RuntimeException, com.aspose.ms.System.Exception, [com.aspose.slides.OOXMLException](../../com.aspose.slides/ooxmlexception)

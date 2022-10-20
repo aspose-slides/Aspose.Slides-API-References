@@ -1,7 +1,7 @@
 ---
 title: ColorOffset
 second_title: Aspose.Slides for Java API Reference
-description:  Represent color offset.
+description: Represent color offset.
 type: docs
 weight: 110
 url: /java/com.aspose.slides/coloroffset/

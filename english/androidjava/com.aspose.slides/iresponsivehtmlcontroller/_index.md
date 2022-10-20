@@ -1,10 +1,10 @@
 ---
 title: IResponsiveHtmlController
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Responsive HTML Controller
+second_title: Aspose.Slides for Java API Reference
+description: Responsive HTML Controller
 type: docs
-weight: 992
-url: /androidjava/com.aspose.slides/iresponsivehtmlcontroller/
+weight: 993
+url: /java/com.aspose.slides/iresponsivehtmlcontroller/
 ---
 **All Implemented Interfaces:**
 [com.aspose.slides.IHtmlFormattingController](../../com.aspose.slides/ihtmlformattingcontroller)

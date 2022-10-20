@@ -1,10 +1,10 @@
 ---
 title: NumberedBulletStyle
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents the style of the numbered bullets.
+second_title: Aspose.Slides for Java API Reference
+description: Represents the style of the numbered bullets.
 type: docs
-weight: 380
-url: /androidjava/com.aspose.slides/numberedbulletstyle/
+weight: 381
+url: /java/com.aspose.slides/numberedbulletstyle/
 ---
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum

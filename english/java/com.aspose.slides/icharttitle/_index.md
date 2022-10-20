@@ -1,9 +1,9 @@
 ---
 title: IChartTitle
 second_title: Aspose.Slides for Java API Reference
-description:  Represents chart title properties.
+description: Represents chart title properties.
 type: docs
-weight: 704
+weight: 705
 url: /java/com.aspose.slides/icharttitle/
 ---
 **All Implemented Interfaces:**

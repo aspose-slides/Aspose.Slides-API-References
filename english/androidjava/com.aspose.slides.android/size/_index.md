@@ -1,10 +1,10 @@
 ---
 title: Size
-second_title: Aspose.Slides for Android via Java API Reference
+second_title: Aspose.Slides for Java API Reference
 description: Class for describing width and height dimensions in some arbitrary unit.
 type: docs
 weight: 10
-url: /androidjava/com.aspose.slides.android/size/
+url: /java/com.aspose.slides.android/size/
 ---
 **Inheritance:**
 java.lang.Object
@@ -26,7 +26,7 @@ Class for describing width and height dimensions in some arbitrary unit.
 | [getHeight()](#getHeight--) | Get the height of the size. |
 | [equals(Object obj)](#equals-java.lang.Object-) | Check if this size is equal to another size. |
 | [hashCode()](#hashCode--) | \{@inheritDoc\} |
-| [toString()](#toString--) | Return the size represented as a string with the format \`\`\` "WxH" \`\`\` |
+| [toString()](#toString--) | Return the size represented as a string with the format  "WxH"  |
 ### Size(int width, int height) {#Size-int-int-}
 ```
 public Size(int width, int height)
@@ -79,7 +79,7 @@ A size object is never equal to any other type of object.
 | obj | java.lang.Object |  |
 
 **Returns:**
-boolean - \`\`\` true \`\`\` if the objects were equal, \`\`\` false \`\`\` otherwise
+boolean -  true  if the objects were equal,  false  otherwise
 ### hashCode() {#hashCode--}
 ```
 public int hashCode()
@@ -96,7 +96,7 @@ public String toString()
 ```
 
 
-Return the size represented as a string with the format \`\`\` "WxH" \`\`\`
+Return the size represented as a string with the format  "WxH" 
 
 **Returns:**
 java.lang.String - string representation of the size

@@ -1,9 +1,9 @@
 ---
 title: IColorEffect
 second_title: Aspose.Slides for Java API Reference
-description:  Represents a color effect for an animation behavior.
+description: Represents a color effect for an animation behavior.
 type: docs
-weight: 708
+weight: 709
 url: /java/com.aspose.slides/icoloreffect/
 ---
 **All Implemented Interfaces:**
@@ -102,7 +102,7 @@ public abstract int getColorSpace()
 ```
 
 
-Represent color space of behavior. Read/write [ColorSpace](../../com.aspose.slides/colorspace)(\#getColorSpace/\#setColorSpace(int)).
+Represent color space of behavior. Read/write [ColorSpace](../../com.aspose.slides/colorspace)(\#getColorSpace.getColorSpace/\#setColorSpace(int).setColorSpace(int)).
 
 **Returns:**
 int
@@ -112,7 +112,7 @@ public abstract void setColorSpace(int value)
 ```
 
 
-Represent color space of behavior. Read/write [ColorSpace](../../com.aspose.slides/colorspace)(\#getColorSpace/\#setColorSpace(int)).
+Represent color space of behavior. Read/write [ColorSpace](../../com.aspose.slides/colorspace)(\#getColorSpace.getColorSpace/\#setColorSpace(int).setColorSpace(int)).
 
 **Parameters:**
 | Parameter | Type | Description |

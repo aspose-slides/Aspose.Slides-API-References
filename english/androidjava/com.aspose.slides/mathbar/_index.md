@@ -1,10 +1,10 @@
 ---
 title: MathBar
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Specifies the bar function consisting of a base argument and an overbar or underbar
+second_title: Aspose.Slides for Java API Reference
+description: Specifies the bar function consisting of a base argument and an overbar or underbar
 type: docs
-weight: 309
-url: /androidjava/com.aspose.slides/mathbar/
+weight: 310
+url: /java/com.aspose.slides/mathbar/
 ---
 **Inheritance:**
 java.lang.Object, [com.aspose.slides.MathElementBase](../../com.aspose.slides/mathelementbase)

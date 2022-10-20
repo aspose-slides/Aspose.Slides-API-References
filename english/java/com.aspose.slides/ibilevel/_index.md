@@ -1,9 +1,9 @@
 ---
 title: IBiLevel
 second_title: Aspose.Slides for Java API Reference
-description:  Represents base IImageTransformOperation interface.
+description: Represents base IImageTransformOperation interface.
 type: docs
-weight: 664
+weight: 665
 url: /java/com.aspose.slides/ibilevel/
 ---
 **All Implemented Interfaces:**

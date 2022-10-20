@@ -1,10 +1,10 @@
 ---
 title: IMathLimitFactory
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Allows to create IMathLimit
+second_title: Aspose.Slides for Java API Reference
+description: Allows to create IMathLimit
 type: docs
-weight: 902
-url: /androidjava/com.aspose.slides/imathlimitfactory/
+weight: 903
+url: /java/com.aspose.slides/imathlimitfactory/
 ---```
 public interface IMathLimitFactory
 ```

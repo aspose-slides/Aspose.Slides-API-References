@@ -1,9 +1,9 @@
 ---
 title: MathFunctionsOfOneArgument
 second_title: Aspose.Slides for Java API Reference
-description:  Common mathematical functions of one argument
+description: Common mathematical functions of one argument
 type: docs
-weight: 326
+weight: 327
 url: /java/com.aspose.slides/mathfunctionsofoneargument/
 ---
 **Inheritance:**

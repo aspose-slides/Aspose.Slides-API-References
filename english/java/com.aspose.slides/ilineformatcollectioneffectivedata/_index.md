@@ -1,9 +1,9 @@
 ---
 title: ILineFormatCollectionEffectiveData
 second_title: Aspose.Slides for Java API Reference
-description:  Immutable object that represents a readonly collection of effective line formats.
+description: Immutable object that represents a readonly collection of effective line formats.
 type: docs
-weight: 856
+weight: 857
 url: /java/com.aspose.slides/ilineformatcollectioneffectivedata/
 ---
 **All Implemented Interfaces:**

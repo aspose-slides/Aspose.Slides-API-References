@@ -1,9 +1,9 @@
 ---
 title: ITable
 second_title: Aspose.Slides for Java API Reference
-description:  Represents a table on a slide.
+description: Represents a table on a slide.
 type: docs
-weight: 1057
+weight: 1058
 url: /java/com.aspose.slides/itable/
 ---
 **All Implemented Interfaces:**

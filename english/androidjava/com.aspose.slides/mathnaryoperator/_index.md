@@ -1,10 +1,10 @@
 ---
 title: MathNaryOperator
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Specifies an N-ary mathematical object such as Summation and Integral.
+second_title: Aspose.Slides for Java API Reference
+description: Specifies an N-ary mathematical object such as Summation and Integral.
 type: docs
-weight: 339
-url: /androidjava/com.aspose.slides/mathnaryoperator/
+weight: 340
+url: /java/com.aspose.slides/mathnaryoperator/
 ---
 **Inheritance:**
 java.lang.Object, [com.aspose.slides.MathElementBase](../../com.aspose.slides/mathelementbase)

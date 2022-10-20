@@ -1,9 +1,9 @@
 ---
 title: VbaReferenceOleTypeLib
 second_title: Aspose.Slides for Java API Reference
-description:  Represents OLE Automation type library reference.
+description: Represents OLE Automation type library reference.
 type: docs
-weight: 601
+weight: 602
 url: /java/com.aspose.slides/vbareferenceoletypelib/
 ---
 **Inheritance:**

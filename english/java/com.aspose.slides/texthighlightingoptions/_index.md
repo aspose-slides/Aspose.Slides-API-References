@@ -1,9 +1,9 @@
 ---
 title: TextHighlightingOptions
 second_title: Aspose.Slides for Java API Reference
-description:  Represents options which can be used to highlight text in text frame.
+description: Represents options which can be used to highlight text in text frame.
 type: docs
-weight: 559
+weight: 560
 url: /java/com.aspose.slides/texthighlightingoptions/
 ---
 **Inheritance:**

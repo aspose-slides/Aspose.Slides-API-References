@@ -1,9 +1,9 @@
 ---
 title: IMathBar
 second_title: Aspose.Slides for Java API Reference
-description:  Specifies the bar function consisting of a base argument and an overbar or underbar
+description: Specifies the bar function consisting of a base argument and an overbar or underbar
 type: docs
-weight: 881
+weight: 882
 url: /java/com.aspose.slides/imathbar/
 ---
 **All Implemented Interfaces:**

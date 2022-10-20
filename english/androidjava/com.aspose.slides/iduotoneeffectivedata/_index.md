@@ -1,10 +1,10 @@
 ---
 title: IDuotoneEffectiveData
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Immutable object which represents a Duotone effect.
+second_title: Aspose.Slides for Java API Reference
+description: Immutable object which represents a Duotone effect.
 type: docs
-weight: 746
-url: /androidjava/com.aspose.slides/iduotoneeffectivedata/
+weight: 747
+url: /java/com.aspose.slides/iduotoneeffectivedata/
 ---
 **All Implemented Interfaces:**
 [com.aspose.slides.IEffectEffectiveData](../../com.aspose.slides/ieffecteffectivedata)

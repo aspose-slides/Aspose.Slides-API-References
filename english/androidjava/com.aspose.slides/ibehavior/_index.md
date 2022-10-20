@@ -1,10 +1,10 @@
 ---
 title: IBehavior
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Represent base class behavior of effect.
+second_title: Aspose.Slides for Java API Reference
+description: Represent base class behavior of effect.
 type: docs
-weight: 659
-url: /androidjava/com.aspose.slides/ibehavior/
+weight: 660
+url: /java/com.aspose.slides/ibehavior/
 ---```
 public interface IBehavior
 ```

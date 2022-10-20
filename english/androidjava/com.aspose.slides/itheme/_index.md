@@ -1,10 +1,10 @@
 ---
 title: ITheme
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents a theme.
+second_title: Aspose.Slides for Java API Reference
+description: Represents a theme.
 type: docs
-weight: 1071
-url: /androidjava/com.aspose.slides/itheme/
+weight: 1072
+url: /java/com.aspose.slides/itheme/
 ---
 **All Implemented Interfaces:**
 [com.aspose.slides.IPresentationComponent](../../com.aspose.slides/ipresentationcomponent)

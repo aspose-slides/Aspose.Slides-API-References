@@ -1,9 +1,9 @@
 ---
 title: IAxisFormat
 second_title: Aspose.Slides for Java API Reference
-description:  Represents chart format properties.
+description: Represents chart format properties.
 type: docs
-weight: 646
+weight: 647
 url: /java/com.aspose.slides/iaxisformat/
 ---```
 public interface IAxisFormat

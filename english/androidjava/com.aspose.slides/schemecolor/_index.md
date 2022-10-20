@@ -1,10 +1,10 @@
 ---
 title: SchemeColor
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents colors in a color scheme.
+second_title: Aspose.Slides for Java API Reference
+description: Represents colors in a color scheme.
 type: docs
-weight: 475
-url: /androidjava/com.aspose.slides/schemecolor/
+weight: 476
+url: /java/com.aspose.slides/schemecolor/
 ---
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum

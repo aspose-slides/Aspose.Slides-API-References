@@ -1,10 +1,10 @@
 ---
 title: IEmbeddedEotFontsHtmlController
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Embedded Eot fonts HTML controller.
+second_title: Aspose.Slides for Java API Reference
+description: Embedded Eot fonts HTML controller.
 type: docs
-weight: 758
-url: /androidjava/com.aspose.slides/iembeddedeotfontshtmlcontroller/
+weight: 759
+url: /java/com.aspose.slides/iembeddedeotfontshtmlcontroller/
 ---
 **All Implemented Interfaces:**
 [com.aspose.slides.IHtmlFormattingController](../../com.aspose.slides/ihtmlformattingcontroller)

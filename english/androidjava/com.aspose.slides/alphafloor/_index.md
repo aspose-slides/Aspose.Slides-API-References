@@ -1,10 +1,10 @@
 ---
 title: AlphaFloor
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents an Alpha Floor effect.
+second_title: Aspose.Slides for Java API Reference
+description: Represents an Alpha Floor effect.
 type: docs
 weight: 14
-url: /androidjava/com.aspose.slides/alphafloor/
+url: /java/com.aspose.slides/alphafloor/
 ---
 **Inheritance:**
 java.lang.Object, [com.aspose.slides.PVIObject](../../com.aspose.slides/pviobject), [com.aspose.slides.ImageTransformOperation](../../com.aspose.slides/imagetransformoperation)

@@ -1,9 +1,9 @@
 ---
 title: Legend
 second_title: Aspose.Slides for Java API Reference
-description:  Represents charts legend properties.
+description: Represents charts legend properties.
 type: docs
-weight: 266
+weight: 267
 url: /java/com.aspose.slides/legend/
 ---
 **Inheritance:**

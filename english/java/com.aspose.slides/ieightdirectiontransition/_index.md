@@ -1,9 +1,9 @@
 ---
 title: IEightDirectionTransition
 second_title: Aspose.Slides for Java API Reference
-description:  Eight direction slide transition effect.
+description: Eight direction slide transition effect.
 type: docs
-weight: 757
+weight: 758
 url: /java/com.aspose.slides/ieightdirectiontransition/
 ---
 **All Implemented Interfaces:**

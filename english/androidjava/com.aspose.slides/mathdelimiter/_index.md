@@ -1,11 +1,10 @@
 ---
 title: MathDelimiter
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Specifies the delimiter object consisting of opening and closing characters such as parentheses 
- braces brackets and vertical bars and one or more mathematical elements inside separated by a specified character.
+second_title: Aspose.Slides for Java API Reference
+description: Specifies the delimiter object consisting of opening and closing characters such as parentheses  braces brackets and vertical bars and one or more mathematical elements inside separated by a specified character.
 type: docs
-weight: 317
-url: /androidjava/com.aspose.slides/mathdelimiter/
+weight: 318
+url: /java/com.aspose.slides/mathdelimiter/
 ---
 **Inheritance:**
 java.lang.Object, [com.aspose.slides.MathElementBase](../../com.aspose.slides/mathelementbase)

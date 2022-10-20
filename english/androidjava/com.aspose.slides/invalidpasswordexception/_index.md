@@ -1,10 +1,10 @@
 ---
 title: InvalidPasswordException
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Exception which thrown when presentation file format is unsupported.
+second_title: Aspose.Slides for Java API Reference
+description: Exception which thrown when presentation file format is unsupported.
 type: docs
-weight: 258
-url: /androidjava/com.aspose.slides/invalidpasswordexception/
+weight: 259
+url: /java/com.aspose.slides/invalidpasswordexception/
 ---
 **Inheritance:**
 java.lang.Object, java.lang.Throwable, java.lang.Exception, java.lang.RuntimeException, com.aspose.ms.System.Exception

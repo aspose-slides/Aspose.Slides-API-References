@@ -1,10 +1,10 @@
 ---
 title: TextStyle
-second_title: Aspose.Slides for Android via Java API Reference
-description:  This class contains the text style formatting properties.
+second_title: Aspose.Slides for Java API Reference
+description: This class contains the text style formatting properties.
 type: docs
-weight: 563
-url: /androidjava/com.aspose.slides/textstyle/
+weight: 564
+url: /java/com.aspose.slides/textstyle/
 ---
 **Inheritance:**
 java.lang.Object, [com.aspose.slides.PVIObject](../../com.aspose.slides/pviobject)
@@ -34,7 +34,7 @@ public static final byte MaxLevelCount
 ```
 
 
-Maximum count of style levels that can be defined. Use it with \#getLevel(int)
+Maximum count of style levels that can be defined. Use it with \#getLevel(int).getLevel(int)
 
 --------------------
 

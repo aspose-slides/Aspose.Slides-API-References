@@ -1,10 +1,10 @@
 ---
 title: MathBlock
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Specifies an instance of mathematical text that contained within a MathParagraph and starts on its own line.
+second_title: Aspose.Slides for Java API Reference
+description: Specifies an instance of mathematical text that contained within a MathParagraph and starts on its own line.
 type: docs
-weight: 311
-url: /androidjava/com.aspose.slides/mathblock/
+weight: 312
+url: /java/com.aspose.slides/mathblock/
 ---
 **Inheritance:**
 java.lang.Object, [com.aspose.slides.MathElementBase](../../com.aspose.slides/mathelementbase)
@@ -305,7 +305,7 @@ Copy to specified array.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| array | com.aspose.slides.IMathElement[] | Array to copy to. |
+| array | [IMathElement\[\]](../../com.aspose.slides/imathelement) | Array to copy to. |
 | arrayIndex | int | Index to begin copying. |
 
 ### remove(IMathElement item) {#remove-com.aspose.slides.IMathElement-}

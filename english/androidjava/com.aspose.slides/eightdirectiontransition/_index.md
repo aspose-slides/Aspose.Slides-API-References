@@ -1,10 +1,10 @@
 ---
 title: EightDirectionTransition
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Eight direction slide transition effect.
+second_title: Aspose.Slides for Java API Reference
+description: Eight direction slide transition effect.
 type: docs
 weight: 174
-url: /androidjava/com.aspose.slides/eightdirectiontransition/
+url: /java/com.aspose.slides/eightdirectiontransition/
 ---
 **Inheritance:**
 java.lang.Object, [com.aspose.slides.TransitionValueBase](../../com.aspose.slides/transitionvaluebase)

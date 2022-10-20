@@ -1,10 +1,10 @@
 ---
 title: IDataSourceTypeForErrorBarsCustomValues
-second_title: Aspose.Slides for Android via Java API Reference
-description:   Specifies types of values in ChartDataPoint.ErrorBarsCustomValues properties list
+second_title: Aspose.Slides for Java API Reference
+description: Specifies types of values in ChartDataPoint.ErrorBarsCustomValues properties list
 type: docs
-weight: 739
-url: /androidjava/com.aspose.slides/idatasourcetypeforerrorbarscustomvalues/
+weight: 740
+url: /java/com.aspose.slides/idatasourcetypeforerrorbarscustomvalues/
 ---```
 public interface IDataSourceTypeForErrorBarsCustomValues
 ```

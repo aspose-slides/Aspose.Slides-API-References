@@ -1,9 +1,9 @@
 ---
 title: PropertyValueType
 second_title: Aspose.Slides for Java API Reference
-description:  Represent property value types.
+description: Represent property value types.
 type: docs
-weight: 454
+weight: 455
 url: /java/com.aspose.slides/propertyvaluetype/
 ---
 **Inheritance:**

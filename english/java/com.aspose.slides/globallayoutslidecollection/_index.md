@@ -1,9 +1,9 @@
 ---
 title: GlobalLayoutSlideCollection
 second_title: Aspose.Slides for Java API Reference
-description:  Represents a collection of all layout slides in presentation.
+description: Represents a collection of all layout slides in presentation.
 type: docs
-weight: 221
+weight: 222
 url: /java/com.aspose.slides/globallayoutslidecollection/
 ---
 **Inheritance:**
@@ -58,7 +58,7 @@ Adds a copy of a specified layout slide to the presentation.
 
 --------------------
 
-1) New layout will be linked with defined master in destination presentation. So this is analogue of copy/paste with "Use Destination Theme" option in PowerPoint. 2) Analogue of this method is method [IMasterLayoutSlideCollection\#addClone(ILayoutSlide)](../../com.aspose.slides/imasterlayoutslidecollection\#addClone-ILayoutSlide-) accessed with ([IMasterSlide\#getLayoutSlides](../../com.aspose.slides/imasterslide\#getLayoutSlides)) property. |
+1) New layout will be linked with defined master in destination presentation. So this is analogue of copy/paste with "Use Destination Theme" option in PowerPoint. 2) Analogue of this method is method [IMasterLayoutSlideCollection.addClone(ILayoutSlide)](../../com.aspose.slides/imasterlayoutslidecollection\#addClone-ILayoutSlide-) accessed with ([IMasterSlide.getLayoutSlides](../../com.aspose.slides/imasterslide\#getLayoutSlides)) property. |
 
 **Returns:**
 [ILayoutSlide](../../com.aspose.slides/ilayoutslide) - Added slide.
@@ -79,7 +79,7 @@ Adds a new layout slide to the presentation.
 
 --------------------
 
-1) Added layout for value SlideLayoutType.Custom of layoutType contains no placeholders and no shapes. 2) Analogue of this method is method [IMasterLayoutSlideCollection\#add(byte,String)](../../com.aspose.slides/imasterlayoutslidecollection\#add-byte-String-) accessed with ([IMasterSlide\#getLayoutSlides](../../com.aspose.slides/imasterslide\#getLayoutSlides)) property. |
+1) Added layout for value SlideLayoutType.Custom of layoutType contains no placeholders and no shapes. 2) Analogue of this method is method [IMasterLayoutSlideCollection.add(byte,String)](../../com.aspose.slides/imasterlayoutslidecollection\#add-byte-String-) accessed with ([IMasterSlide.getLayoutSlides](../../com.aspose.slides/imasterslide\#getLayoutSlides)) property. |
 
 **Returns:**
 [ILayoutSlide](../../com.aspose.slides/ilayoutslide) - Added slide.

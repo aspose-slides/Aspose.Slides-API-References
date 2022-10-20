@@ -1,9 +1,9 @@
 ---
 title: ISmartArtNode
 second_title: Aspose.Slides for Java API Reference
-description:  Represents node of a SmartArt diagram.
+description: Represents node of a SmartArt diagram.
 type: docs
-weight: 1034
+weight: 1035
 url: /java/com.aspose.slides/ismartartnode/
 ---```
 public interface ISmartArtNode

@@ -1,10 +1,10 @@
 ---
 title: IMathBlockCollection
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Collection of math blocks IMathBlock
+second_title: Aspose.Slides for Java API Reference
+description: Collection of math blocks IMathBlock
 type: docs
-weight: 884
-url: /androidjava/com.aspose.slides/imathblockcollection/
+weight: 885
+url: /java/com.aspose.slides/imathblockcollection/
 ---
 **All Implemented Interfaces:**
 com.aspose.ms.System.Collections.Generic.IGenericEnumerable

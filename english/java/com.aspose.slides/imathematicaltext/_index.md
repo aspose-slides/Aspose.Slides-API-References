@@ -1,9 +1,9 @@
 ---
 title: IMathematicalText
 second_title: Aspose.Slides for Java API Reference
-description:  Mathematical text
+description: Mathematical text
 type: docs
-weight: 919
+weight: 920
 url: /java/com.aspose.slides/imathematicaltext/
 ---
 **All Implemented Interfaces:**

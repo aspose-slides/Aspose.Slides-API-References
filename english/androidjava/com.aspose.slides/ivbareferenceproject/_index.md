@@ -1,10 +1,10 @@
 ---
 title: IVbaReferenceProject
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents reference to an external VBA project.
+second_title: Aspose.Slides for Java API Reference
+description: Represents reference to an external VBA project.
 type: docs
-weight: 1095
-url: /androidjava/com.aspose.slides/ivbareferenceproject/
+weight: 1096
+url: /java/com.aspose.slides/ivbareferenceproject/
 ---
 **All Implemented Interfaces:**
 [com.aspose.slides.IVbaReference](../../com.aspose.slides/ivbareference)

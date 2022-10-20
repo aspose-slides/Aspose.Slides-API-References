@@ -1,10 +1,10 @@
 ---
 title: MathFractionFactory
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Allows to create a math fraction
+second_title: Aspose.Slides for Java API Reference
+description: Allows to create a math fraction
 type: docs
-weight: 322
-url: /androidjava/com.aspose.slides/mathfractionfactory/
+weight: 323
+url: /java/com.aspose.slides/mathfractionfactory/
 ---
 **Inheritance:**
 java.lang.Object

@@ -1,10 +1,10 @@
 ---
 title: VideoPlayerHtmlController
-second_title: Aspose.Slides for Android via Java API Reference
-description:  This class allows export of video and audio files into a HTML
+second_title: Aspose.Slides for Java API Reference
+description: This class allows export of video and audio files into a HTML
 type: docs
-weight: 606
-url: /androidjava/com.aspose.slides/videoplayerhtmlcontroller/
+weight: 607
+url: /java/com.aspose.slides/videoplayerhtmlcontroller/
 ---
 **Inheritance:**
 java.lang.Object
@@ -173,7 +173,7 @@ public final String getUrl(int id, int referrer)
 ```
 
 
-Returns an URL to an external object. This method always called if \#getObjectStoringLocation(int,byte[],String,String,String) returned [LinkEmbedDecision\#Link](../../com.aspose.slides/linkembeddecision\#Link) and may be called if \#getObjectStoringLocation(int,byte[],String,String,String) returned [LinkEmbedDecision\#Embed](../../com.aspose.slides/linkembeddecision\#Embed) but embedding is impossible. Can be called multiple time for same object id.
+Returns an URL to an external object. This method always called if \#getObjectStoringLocation(int,byte[],String,String,String).getObjectStoringLocation(int,byte[],String,String,String) returned [LinkEmbedDecision.Link](../../com.aspose.slides/linkembeddecision\#Link) and may be called if \#getObjectStoringLocation(int,byte[],String,String,String).getObjectStoringLocation(int,byte[],String,String,String) returned [LinkEmbedDecision.Embed](../../com.aspose.slides/linkembeddecision\#Embed) but embedding is impossible. Can be called multiple time for same object id.
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -1,9 +1,9 @@
 ---
 title: IThreeDFormat
 second_title: Aspose.Slides for Java API Reference
-description:  Represents 3-D properties.
+description: Represents 3-D properties.
 type: docs
-weight: 1075
+weight: 1076
 url: /java/com.aspose.slides/ithreedformat/
 ---
 **All Implemented Interfaces:**

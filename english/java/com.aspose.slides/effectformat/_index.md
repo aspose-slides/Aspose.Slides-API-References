@@ -1,7 +1,7 @@
 ---
 title: EffectFormat
 second_title: Aspose.Slides for Java API Reference
-description:  Represents effect properties of shape.
+description: Represents effect properties of shape.
 type: docs
 weight: 166
 url: /java/com.aspose.slides/effectformat/
@@ -60,7 +60,7 @@ public final boolean isNoEffects()
 ```
 
 
-Returns true if all effects are disabled (as just created, default EffectFormat object). Read-only \`\`\` boolean \`\`\`.
+Returns true if all effects are disabled (as just created, default EffectFormat object). Read-only  boolean .
 
 **Returns:**
 boolean

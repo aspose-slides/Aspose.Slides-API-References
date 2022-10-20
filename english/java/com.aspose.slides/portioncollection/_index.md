@@ -1,9 +1,9 @@
 ---
 title: PortionCollection
 second_title: Aspose.Slides for Java API Reference
-description:  Represents a collection of portions.
+description: Represents a collection of portions.
 type: docs
-weight: 427
+weight: 428
 url: /java/com.aspose.slides/portioncollection/
 ---
 **Inheritance:**
@@ -159,7 +159,7 @@ Copies the elements of the [IGenericCollection](../../com.aspose.slides/igeneric
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| array | com.aspose.slides.IPortion[] | The one-dimensional Array that is the destination of the elements copied from [IGenericCollection](../../com.aspose.slides/igenericcollection). The Array must have zero-based indexing. |
+| array | [IPortion\[\]](../../com.aspose.slides/iportion) | The one-dimensional Array that is the destination of the elements copied from [IGenericCollection](../../com.aspose.slides/igenericcollection). The Array must have zero-based indexing. |
 | arrayIndex | int | The zero-based index in array at which copying begins. |
 
 ### remove(IPortion item) {#remove-com.aspose.slides.IPortion-}

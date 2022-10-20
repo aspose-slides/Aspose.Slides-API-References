@@ -1,9 +1,9 @@
 ---
 title: IAudioFrame
 second_title: Aspose.Slides for Java API Reference
-description:  Represents an audio clip on a slide.
+description: Represents an audio clip on a slide.
 type: docs
-weight: 641
+weight: 642
 url: /java/com.aspose.slides/iaudioframe/
 ---
 **All Implemented Interfaces:**

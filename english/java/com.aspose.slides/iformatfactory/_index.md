@@ -1,9 +1,9 @@
 ---
 title: IFormatFactory
 second_title: Aspose.Slides for Java API Reference
-description:  Allows to create formats via COM interface.
+description: Allows to create formats via COM interface.
 type: docs
-weight: 791
+weight: 792
 url: /java/com.aspose.slides/iformatfactory/
 ---```
 public interface IFormatFactory

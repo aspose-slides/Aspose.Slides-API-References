@@ -1,10 +1,10 @@
 ---
 title: OrganizationChartLayoutType
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents formatting type the child nodes in an organization chart
+second_title: Aspose.Slides for Java API Reference
+description: Represents formatting type the child nodes in an organization chart
 type: docs
-weight: 388
-url: /androidjava/com.aspose.slides/organizationchartlayouttype/
+weight: 389
+url: /java/com.aspose.slides/organizationchartlayouttype/
 ---
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum

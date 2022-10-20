@@ -1,7 +1,7 @@
 ---
 title: Compress
 second_title: Aspose.Slides for Java API Reference
-description:  Represents a group of methods intended to compress .
+description: Represents a group of methods intended to compress .
 type: docs
 weight: 132
 url: /java/com.aspose.slides/compress/
@@ -37,6 +37,7 @@ Represents a group of methods intended to compress [Presentation](../../com.aspo
 | --- | --- |
 | [removeUnusedMasterSlides(Presentation pres)](#removeUnusedMasterSlides-com.aspose.slides.Presentation-) | Makes compression of the [Presentation](../../com.aspose.slides/presentation) by removing unused master slides. |
 | [removeUnusedLayoutSlides(Presentation pres)](#removeUnusedLayoutSlides-com.aspose.slides.Presentation-) | Makes compression of the [Presentation](../../com.aspose.slides/presentation) by removing unused layout slides. |
+| [compressEmbeddedFonts(Presentation pres)](#compressEmbeddedFonts-com.aspose.slides.Presentation-) | Makes compression of the [Presentation](../../com.aspose.slides/presentation) by removing unused characters from embedded fonts. |
 ### Compress() {#Compress--}
 ```
 public Compress()
@@ -83,6 +84,32 @@ Makes compression of the [Presentation](../../com.aspose.slides/presentation) by
 > Presentation pres = new Presentation("pres.pptx");
 >  try {
 >      Compress.removeUnusedLayoutSlides(pres);
+> 
+>      pres.save("pres-out.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| pres | [Presentation](../../com.aspose.slides/presentation) | The presentation instance |
+
+### compressEmbeddedFonts(Presentation pres) {#compressEmbeddedFonts-com.aspose.slides.Presentation-}
+```
+public static void compressEmbeddedFonts(Presentation pres)
+```
+
+
+Makes compression of the [Presentation](../../com.aspose.slides/presentation) by removing unused characters from embedded fonts.
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("pres.pptx");
+>  try {
+>      Compress.compressEmbeddedFonts(pres);
 > 
 >      pres.save("pres-out.pptx", SaveFormat.Pptx);
 >  } finally {

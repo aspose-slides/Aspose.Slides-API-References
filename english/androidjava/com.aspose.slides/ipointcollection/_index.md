@@ -1,10 +1,10 @@
 ---
 title: IPointCollection
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents a collection of portions.
+second_title: Aspose.Slides for Java API Reference
+description: Represents a collection of portions.
 type: docs
-weight: 967
-url: /androidjava/com.aspose.slides/ipointcollection/
+weight: 968
+url: /java/com.aspose.slides/ipointcollection/
 ---
 **All Implemented Interfaces:**
 com.aspose.ms.System.Collections.Generic.IGenericEnumerable

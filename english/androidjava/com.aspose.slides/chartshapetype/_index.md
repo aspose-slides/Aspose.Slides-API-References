@@ -1,10 +1,10 @@
 ---
 title: ChartShapeType
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents a shape of chart.
+second_title: Aspose.Slides for Java API Reference
+description: Represents a shape of chart.
 type: docs
 weight: 98
-url: /androidjava/com.aspose.slides/chartshapetype/
+url: /java/com.aspose.slides/chartshapetype/
 ---
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum

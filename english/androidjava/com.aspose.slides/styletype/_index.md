@@ -1,10 +1,10 @@
 ---
 title: StyleType
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents chart style.
+second_title: Aspose.Slides for Java API Reference
+description: Represents chart style.
 type: docs
-weight: 529
-url: /androidjava/com.aspose.slides/styletype/
+weight: 530
+url: /java/com.aspose.slides/styletype/
 ---
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum

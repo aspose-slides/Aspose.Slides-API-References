@@ -1,10 +1,10 @@
 ---
 title: FillFormat
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents a fill formatting options.
+second_title: Aspose.Slides for Java API Reference
+description: Represents a fill formatting options.
 type: docs
 weight: 190
-url: /androidjava/com.aspose.slides/fillformat/
+url: /java/com.aspose.slides/fillformat/
 ---
 **Inheritance:**
 java.lang.Object, [com.aspose.slides.PVIObject](../../com.aspose.slides/pviobject)

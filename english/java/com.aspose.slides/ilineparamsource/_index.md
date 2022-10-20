@@ -1,9 +1,9 @@
 ---
 title: ILineParamSource
 second_title: Aspose.Slides for Java API Reference
-description:  Auxiliary line parameters interface.
+description: Auxiliary line parameters interface.
 type: docs
-weight: 858
+weight: 859
 url: /java/com.aspose.slides/ilineparamsource/
 ---```
 public interface ILineParamSource

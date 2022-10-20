@@ -1,10 +1,10 @@
 ---
 title: TransitionInOutDirectionType
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Represent in or out direction transition types.
+second_title: Aspose.Slides for Java API Reference
+description: Represent in or out direction transition types.
 type: docs
-weight: 581
-url: /androidjava/com.aspose.slides/transitioninoutdirectiontype/
+weight: 582
+url: /java/com.aspose.slides/transitioninoutdirectiontype/
 ---
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum

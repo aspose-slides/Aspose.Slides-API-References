@@ -1,10 +1,10 @@
 ---
 title: INotesSlideManager
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Notes slide manager.
+second_title: Aspose.Slides for Java API Reference
+description: Notes slide manager.
 type: docs
-weight: 935
-url: /androidjava/com.aspose.slides/inotesslidemanager/
+weight: 936
+url: /java/com.aspose.slides/inotesslidemanager/
 ---```
 public interface INotesSlideManager
 ```

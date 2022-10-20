@@ -1,10 +1,10 @@
 ---
 title: MasterTheme
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents a master theme.
+second_title: Aspose.Slides for Java API Reference
+description: Represents a master theme.
 type: docs
-weight: 302
-url: /androidjava/com.aspose.slides/mastertheme/
+weight: 303
+url: /java/com.aspose.slides/mastertheme/
 ---
 **Inheritance:**
 java.lang.Object, [com.aspose.slides.Theme](../../com.aspose.slides/theme)

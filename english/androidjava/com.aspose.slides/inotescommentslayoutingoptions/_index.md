@@ -1,10 +1,10 @@
 ---
 title: INotesCommentsLayoutingOptions
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Provides options that control the look of layouting of notes and comments in exported document.
+second_title: Aspose.Slides for Java API Reference
+description: Provides options that control the look of layouting of notes and comments in exported document.
 type: docs
-weight: 931
-url: /androidjava/com.aspose.slides/inotescommentslayoutingoptions/
+weight: 932
+url: /java/com.aspose.slides/inotescommentslayoutingoptions/
 ---```
 public interface INotesCommentsLayoutingOptions
 ```
@@ -34,7 +34,7 @@ Gets or sets the position of the notes on the page.
 
 --------------------
 
-Default is [NotesPositions\#None](../../com.aspose.slides/notespositions\#None).
+Default is [NotesPositions.None](../../com.aspose.slides/notespositions\#None).
 
 **Returns:**
 int
@@ -48,7 +48,7 @@ Gets or sets the position of the notes on the page.
 
 --------------------
 
-Default is [NotesPositions\#None](../../com.aspose.slides/notespositions\#None).
+Default is [NotesPositions.None](../../com.aspose.slides/notespositions\#None).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -96,7 +96,7 @@ Gets or sets the color of comments area (Applies only if comments are displayed 
 
 --------------------
 
-Default is java.lang.Integer\#BLUE.
+Default is java.lang.Integer\#BLUE.BLUE.
 
 **Returns:**
 java.lang.Integer
@@ -110,7 +110,7 @@ Gets or sets the color of comments area (Applies only if comments are displayed 
 
 --------------------
 
-Default is java.lang.Integer\#BLUE.
+Default is java.lang.Integer\#BLUE.BLUE.
 
 **Parameters:**
 | Parameter | Type | Description |

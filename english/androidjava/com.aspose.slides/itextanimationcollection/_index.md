@@ -1,10 +1,10 @@
 ---
 title: ITextAnimationCollection
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents collection of text animations.
+second_title: Aspose.Slides for Java API Reference
+description: Represents collection of text animations.
 type: docs
-weight: 1063
-url: /androidjava/com.aspose.slides/itextanimationcollection/
+weight: 1064
+url: /java/com.aspose.slides/itextanimationcollection/
 ---
 **All Implemented Interfaces:**
 com.aspose.slides.IGenericCollection

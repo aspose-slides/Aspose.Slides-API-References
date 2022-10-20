@@ -1,9 +1,9 @@
 ---
 title: NotesSlideManager
 second_title: Aspose.Slides for Java API Reference
-description:  Notes slide manager.
+description: Notes slide manager.
 type: docs
-weight: 377
+weight: 378
 url: /java/com.aspose.slides/notesslidemanager/
 ---
 **Inheritance:**
@@ -42,7 +42,7 @@ public final INotesSlide addNotesSlide()
 Returns the notes slide for the current slide, creating one if there isn't.
 
 **Returns:**
-[INotesSlide](../../com.aspose.slides/inotesslide) - [NotesSlide](../../com.aspose.slides/notesslide)(\#getNotesSlide) for this slide.
+[INotesSlide](../../com.aspose.slides/inotesslide) - [NotesSlide](../../com.aspose.slides/notesslide)(\#getNotesSlide.getNotesSlide) for this slide.
 ### removeNotesSlide() {#removeNotesSlide--}
 ```
 public final void removeNotesSlide()

@@ -1,10 +1,10 @@
 ---
 title: SwfOptions
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Provides options that control how a presentation is saved in Swf format.
+second_title: Aspose.Slides for Java API Reference
+description: Provides options that control how a presentation is saved in Swf format.
 type: docs
-weight: 539
-url: /androidjava/com.aspose.slides/swfoptions/
+weight: 540
+url: /java/com.aspose.slides/swfoptions/
 ---
 **Inheritance:**
 java.lang.Object, [com.aspose.slides.SaveOptions](../../com.aspose.slides/saveoptions)
@@ -369,7 +369,7 @@ public final String getLogoLink()
 ```
 
 
-Gets or sets the full hyperlink address for a logo. Has an effect only if a (\#getLogoImageBytes/\#setLogoImageBytes(byte[])) is specified.
+Gets or sets the full hyperlink address for a logo. Has an effect only if a (\#getLogoImageBytes.getLogoImageBytes/\#setLogoImageBytes(byte[]).setLogoImageBytes(byte[])) is specified.
 
 **Returns:**
 java.lang.String
@@ -379,7 +379,7 @@ public final void setLogoLink(String value)
 ```
 
 
-Gets or sets the full hyperlink address for a logo. Has an effect only if a (\#getLogoImageBytes/\#setLogoImageBytes(byte[])) is specified.
+Gets or sets the full hyperlink address for a logo. Has an effect only if a (\#getLogoImageBytes.getLogoImageBytes/\#setLogoImageBytes(byte[]).setLogoImageBytes(byte[])) is specified.
 
 **Parameters:**
 | Parameter | Type | Description |

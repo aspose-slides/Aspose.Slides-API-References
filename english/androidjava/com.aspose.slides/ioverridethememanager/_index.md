@@ -1,10 +1,10 @@
 ---
 title: IOverrideThemeManager
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Provides access to different types of overriden themes.
+second_title: Aspose.Slides for Java API Reference
+description: Provides access to different types of overriden themes.
 type: docs
-weight: 947
-url: /androidjava/com.aspose.slides/ioverridethememanager/
+weight: 948
+url: /java/com.aspose.slides/ioverridethememanager/
 ---
 **All Implemented Interfaces:**
 [com.aspose.slides.IThemeManager](../../com.aspose.slides/ithememanager)

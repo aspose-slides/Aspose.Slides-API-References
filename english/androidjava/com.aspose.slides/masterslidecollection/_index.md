@@ -1,10 +1,10 @@
 ---
 title: MasterSlideCollection
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents a collection of master slides.
+second_title: Aspose.Slides for Java API Reference
+description: Represents a collection of master slides.
 type: docs
-weight: 300
-url: /androidjava/com.aspose.slides/masterslidecollection/
+weight: 301
+url: /java/com.aspose.slides/masterslidecollection/
 ---
 **Inheritance:**
 java.lang.Object, com.aspose.slides.DomObject
@@ -98,7 +98,7 @@ Removes unused master slides.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| ignorePreserveField | boolean | Determines, whether this method should remove unused master even if its ([MasterSlide\#getPreserve](../../com.aspose.slides/masterslide\#getPreserve)/[MasterSlide\#setPreserve(boolean)](../../com.aspose.slides/masterslide\#setPreserve-boolean-)) property is set to true. |
+| ignorePreserveField | boolean | Determines, whether this method should remove unused master even if its ([MasterSlide.getPreserve](../../com.aspose.slides/masterslide\#getPreserve)/[MasterSlide.setPreserve(boolean)](../../com.aspose.slides/masterslide\#setPreserve-boolean-)) property is set to true. |
 
 ### addClone(IMasterSlide sourceMaster) {#addClone-com.aspose.slides.IMasterSlide-}
 ```

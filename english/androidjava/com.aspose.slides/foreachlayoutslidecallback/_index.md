@@ -1,10 +1,10 @@
 ---
 title: ForEach.ForEachLayoutSlideCallback
-second_title: Aspose.Slides for Android via Java API Reference
+second_title: Aspose.Slides for Java API Reference
 description: 
 type: docs
 weight: 10
-url: /androidjava/com.aspose.slides/foreach.foreachlayoutslidecallback/
+url: /java/com.aspose.slides/foreach.foreachlayoutslidecallback/
 ---```
 public static interface ForEach.ForEachLayoutSlideCallback
 ```
@@ -12,14 +12,14 @@ public static interface ForEach.ForEachLayoutSlideCallback
 
 | Method | Description |
 | --- | --- |
-| [invoke(LayoutSlide layoutSlide, int index)](#invoke-com.aspose.slides.LayoutSlide-int-) | Callback that will be invoked for each \#layoutSlide(Presentation,ForEachLayoutSlideCallback) in the [Presentation](../../com.aspose.slides/presentation). |
+| [invoke(LayoutSlide layoutSlide, int index)](#invoke-com.aspose.slides.LayoutSlide-int-) | Callback that will be invoked for each \#layoutSlide(Presentation,ForEachLayoutSlideCallback).layoutSlide(Presentation,ForEachLayoutSlideCallback) in the [Presentation](../../com.aspose.slides/presentation). |
 ### invoke(LayoutSlide layoutSlide, int index) {#invoke-com.aspose.slides.LayoutSlide-int-}
 ```
 public abstract void invoke(LayoutSlide layoutSlide, int index)
 ```
 
 
-Callback that will be invoked for each \#layoutSlide(Presentation,ForEachLayoutSlideCallback) in the [Presentation](../../com.aspose.slides/presentation).
+Callback that will be invoked for each \#layoutSlide(Presentation,ForEachLayoutSlideCallback).layoutSlide(Presentation,ForEachLayoutSlideCallback) in the [Presentation](../../com.aspose.slides/presentation).
 
 **Parameters:**
 | Parameter | Type | Description |

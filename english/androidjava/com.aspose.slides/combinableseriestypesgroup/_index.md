@@ -1,10 +1,10 @@
 ---
 title: CombinableSeriesTypesGroup
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Enumeration of groups of combinable series types.
+second_title: Aspose.Slides for Java API Reference
+description: Enumeration of groups of combinable series types.
 type: docs
 weight: 123
-url: /androidjava/com.aspose.slides/combinableseriestypesgroup/
+url: /java/com.aspose.slides/combinableseriestypesgroup/
 ---
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum

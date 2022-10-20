@@ -1,10 +1,10 @@
 ---
 title: IAxesManager
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Provides access to chart axes.
+second_title: Aspose.Slides for Java API Reference
+description: Provides access to chart axes.
 type: docs
-weight: 644
-url: /androidjava/com.aspose.slides/iaxesmanager/
+weight: 645
+url: /java/com.aspose.slides/iaxesmanager/
 ---```
 public interface IAxesManager
 ```

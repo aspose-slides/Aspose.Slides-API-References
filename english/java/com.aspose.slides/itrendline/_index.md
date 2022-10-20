@@ -1,9 +1,9 @@
 ---
 title: ITrendline
 second_title: Aspose.Slides for Java API Reference
-description:  Class represents trend line of chart series
+description: Class represents trend line of chart series
 type: docs
-weight: 1083
+weight: 1084
 url: /java/com.aspose.slides/itrendline/
 ---
 **All Implemented Interfaces:**
@@ -67,7 +67,7 @@ public abstract int getTrendlineType()
 ```
 
 
-Gets or sets type of trend line. Read/write [TrendlineType](../../com.aspose.slides/trendlinetype)(\#getTrendlineType/\#setTrendlineType(int)).
+Gets or sets type of trend line. Read/write [TrendlineType](../../com.aspose.slides/trendlinetype)(\#getTrendlineType.getTrendlineType/\#setTrendlineType(int).setTrendlineType(int)).
 
 **Returns:**
 int
@@ -77,7 +77,7 @@ public abstract void setTrendlineType(int value)
 ```
 
 
-Gets or sets type of trend line. Read/write [TrendlineType](../../com.aspose.slides/trendlinetype)(\#getTrendlineType/\#setTrendlineType(int)).
+Gets or sets type of trend line. Read/write [TrendlineType](../../com.aspose.slides/trendlinetype)(\#getTrendlineType.getTrendlineType/\#setTrendlineType(int).setTrendlineType(int)).
 
 **Parameters:**
 | Parameter | Type | Description |

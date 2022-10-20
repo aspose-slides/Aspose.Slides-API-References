@@ -1,10 +1,10 @@
 ---
 title: IMasterSlide
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents a master slide in a presentation.
+second_title: Aspose.Slides for Java API Reference
+description: Represents a master slide in a presentation.
 type: docs
-weight: 871
-url: /androidjava/com.aspose.slides/imasterslide/
+weight: 872
+url: /java/com.aspose.slides/imasterslide/
 ---
 **All Implemented Interfaces:**
 [com.aspose.slides.IBaseSlide](../../com.aspose.slides/ibaseslide), [com.aspose.slides.IMasterThemeable](../../com.aspose.slides/imasterthemeable)
@@ -92,7 +92,7 @@ Returns the collection of child layout slides for this master slide. Read-only [
 
 --------------------
 
-You can access to alternative API for adding/inserting/removing/cloning layout slides by using ([IPresentation\#getLayoutSlides](../../com.aspose.slides/ipresentation\#getLayoutSlides)) property.
+You can access to alternative API for adding/inserting/removing/cloning layout slides by using ([IPresentation.getLayoutSlides](../../com.aspose.slides/ipresentation\#getLayoutSlides)) property.
 
 **Returns:**
 [IMasterLayoutSlideCollection](../../com.aspose.slides/imasterlayoutslidecollection)
@@ -102,7 +102,7 @@ public abstract boolean getPreserve()
 ```
 
 
-Determines whether the corresponding master is deleted when all the slides that follow that master are deleted. Note: Aspose.Slides will never remove any unused master by itself, to actually remove unused masters call [IMasterSlideCollection\#removeUnused(boolean)](../../com.aspose.slides/imasterslidecollection\#removeUnused-boolean-) Read/write boolean.
+Determines whether the corresponding master is deleted when all the slides that follow that master are deleted. Note: Aspose.Slides will never remove any unused master by itself, to actually remove unused masters call [IMasterSlideCollection.removeUnused(boolean)](../../com.aspose.slides/imasterslidecollection\#removeUnused-boolean-) Read/write boolean.
 
 **Returns:**
 boolean
@@ -112,7 +112,7 @@ public abstract void setPreserve(boolean value)
 ```
 
 
-Determines whether the corresponding master is deleted when all the slides that follow that master are deleted. Note: Aspose.Slides will never remove any unused master by itself, to actually remove unused masters call [IMasterSlideCollection\#removeUnused(boolean)](../../com.aspose.slides/imasterslidecollection\#removeUnused-boolean-) Read/write boolean.
+Determines whether the corresponding master is deleted when all the slides that follow that master are deleted. Note: Aspose.Slides will never remove any unused master by itself, to actually remove unused masters call [IMasterSlideCollection.removeUnused(boolean)](../../com.aspose.slides/imasterslidecollection\#removeUnused-boolean-) Read/write boolean.
 
 **Parameters:**
 | Parameter | Type | Description |

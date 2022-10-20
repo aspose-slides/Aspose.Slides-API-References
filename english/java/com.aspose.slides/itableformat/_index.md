@@ -1,9 +1,9 @@
 ---
 title: ITableFormat
 second_title: Aspose.Slides for Java API Reference
-description:  Represents format of a table.
+description: Represents format of a table.
 type: docs
-weight: 1058
+weight: 1059
 url: /java/com.aspose.slides/itableformat/
 ---```
 public interface ITableFormat

@@ -1,10 +1,10 @@
 ---
 title: AutoShape
-second_title: Aspose.Slides for Android via Java API Reference
-description:   Represents an AutoShape.
+second_title: Aspose.Slides for Java API Reference
+description: Represents an AutoShape.
 type: docs
 weight: 26
-url: /androidjava/com.aspose.slides/autoshape/
+url: /java/com.aspose.slides/autoshape/
 ---
 **Inheritance:**
 java.lang.Object, [com.aspose.slides.Shape](../../com.aspose.slides/shape), [com.aspose.slides.GeometryShape](../../com.aspose.slides/geometryshape)

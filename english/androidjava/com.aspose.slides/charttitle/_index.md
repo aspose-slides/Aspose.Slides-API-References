@@ -1,10 +1,10 @@
 ---
 title: ChartTitle
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents chart title properties.
+second_title: Aspose.Slides for Java API Reference
+description: Represents chart title properties.
 type: docs
 weight: 101
-url: /androidjava/com.aspose.slides/charttitle/
+url: /java/com.aspose.slides/charttitle/
 ---
 **Inheritance:**
 java.lang.Object

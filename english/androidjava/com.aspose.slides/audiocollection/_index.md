@@ -1,10 +1,10 @@
 ---
 title: AudioCollection
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents a collection of embedded audio files.
+second_title: Aspose.Slides for Java API Reference
+description: Represents a collection of embedded audio files.
 type: docs
 weight: 22
-url: /androidjava/com.aspose.slides/audiocollection/
+url: /java/com.aspose.slides/audiocollection/
 ---
 **Inheritance:**
 java.lang.Object, com.aspose.slides.DomObject

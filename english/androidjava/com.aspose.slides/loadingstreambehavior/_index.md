@@ -1,11 +1,10 @@
 ---
 title: LoadingStreamBehavior
-second_title: Aspose.Slides for Android via Java API Reference
-description:  The java.io.InputStream passed to a method is considered as a Binary Large Object BLOB see
-  description.
+second_title: Aspose.Slides for Java API Reference
+description: The java.io.InputStream passed to a method is considered as a Binary Large Object BLOB see  description.
 type: docs
-weight: 290
-url: /androidjava/com.aspose.slides/loadingstreambehavior/
+weight: 291
+url: /java/com.aspose.slides/loadingstreambehavior/
 ---
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
@@ -47,7 +46,7 @@ public static final int KeepLocked
 ```
 
 
-The stream will be locked inside the [IPresentation](../../com.aspose.slides/ipresentation) object, i.e. the ownership of the stream will be transferred. The [IPresentation](../../com.aspose.slides/ipresentation) object will be responsible to correctly dispose the stream when this object will be disposed itself. This behavior is extremely useful when you need to serialize a large BLOB file (such as a large video or audio -see [IBlobManagementOptions](../../com.aspose.slides/iblobmanagementoptions) description) and want to prevent loading this file into memory or other performance issues. You may just open the java.io.FileInputStream for this file and pass to a method, choosing [LoadingStreamBehavior\#KeepLocked](../../com.aspose.slides/loadingstreambehavior\#KeepLocked) LoadingStreamBehavior.
+The stream will be locked inside the [IPresentation](../../com.aspose.slides/ipresentation) object, i.e. the ownership of the stream will be transferred. The [IPresentation](../../com.aspose.slides/ipresentation) object will be responsible to correctly dispose the stream when this object will be disposed itself. This behavior is extremely useful when you need to serialize a large BLOB file (such as a large video or audio -see [IBlobManagementOptions](../../com.aspose.slides/iblobmanagementoptions) description) and want to prevent loading this file into memory or other performance issues. You may just open the java.io.FileInputStream for this file and pass to a method, choosing [KeepLocked](../../com.aspose.slides/loadingstreambehavior\#KeepLocked) LoadingStreamBehavior.
 
 --------------------
 

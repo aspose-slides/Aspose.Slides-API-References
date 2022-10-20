@@ -1,10 +1,10 @@
 ---
 title: HyperlinkActionType
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents a type of hyperlink action.
+second_title: Aspose.Slides for Java API Reference
+description: Represents a type of hyperlink action.
 type: docs
-weight: 242
-url: /androidjava/com.aspose.slides/hyperlinkactiontype/
+weight: 243
+url: /java/com.aspose.slides/hyperlinkactiontype/
 ---
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
@@ -26,7 +26,7 @@ Represents a type of hyperlink action.
 | [JumpLastSlide](#JumpLastSlide) | Jump to the last slide of the presentation. |
 | [JumpEndShow](#JumpEndShow) | Jump to the end of slideshow. |
 | [JumpLastViewedSlide](#JumpLastViewedSlide) | Jump to the last viewed slide. |
-| [JumpSpecificSlide](#JumpSpecificSlide) | Jump to the specific slide, referred by ([IHyperlink\#getTargetSlide](../../com.aspose.slides/ihyperlink\#getTargetSlide)) property. |
+| [JumpSpecificSlide](#JumpSpecificSlide) | Jump to the specific slide, referred by ([IHyperlink.getTargetSlide](../../com.aspose.slides/ihyperlink\#getTargetSlide)) property. |
 | [StartCustomSlideShow](#StartCustomSlideShow) | Start custom slideshow. |
 | [OpenFile](#OpenFile) | Open referenced file. |
 | [OpenPresentation](#OpenPresentation) | Open referenced presentation. |
@@ -111,7 +111,7 @@ public static final int JumpSpecificSlide
 ```
 
 
-Jump to the specific slide, referred by ([IHyperlink\#getTargetSlide](../../com.aspose.slides/ihyperlink\#getTargetSlide)) property.
+Jump to the specific slide, referred by ([IHyperlink.getTargetSlide](../../com.aspose.slides/ihyperlink\#getTargetSlide)) property.
 
 ### StartCustomSlideShow {#StartCustomSlideShow}
 ```

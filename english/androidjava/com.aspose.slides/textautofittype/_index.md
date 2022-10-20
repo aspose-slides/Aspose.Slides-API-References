@@ -1,10 +1,10 @@
 ---
 title: TextAutofitType
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents text autofit mode.
+second_title: Aspose.Slides for Java API Reference
+description: Represents text autofit mode.
 type: docs
-weight: 554
-url: /androidjava/com.aspose.slides/textautofittype/
+weight: 555
+url: /java/com.aspose.slides/textautofittype/
 ---
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum

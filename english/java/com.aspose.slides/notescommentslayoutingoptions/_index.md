@@ -1,9 +1,9 @@
 ---
 title: NotesCommentsLayoutingOptions
 second_title: Aspose.Slides for Java API Reference
-description:  Provides options that control the look of layouting of notes and comments in exported document.
+description: Provides options that control the look of layouting of notes and comments in exported document.
 type: docs
-weight: 372
+weight: 373
 url: /java/com.aspose.slides/notescommentslayoutingoptions/
 ---
 **Inheritance:**
@@ -84,7 +84,7 @@ Gets or sets the position of the notes on the page.
 
 --------------------
 
-Default is [NotesPositions\#None](../../com.aspose.slides/notespositions\#None).
+Default is [NotesPositions.None](../../com.aspose.slides/notespositions\#None).
 
 **Returns:**
 int
@@ -98,7 +98,7 @@ Gets or sets the position of the notes on the page.
 
 --------------------
 
-Default is [NotesPositions\#None](../../com.aspose.slides/notespositions\#None).
+Default is [NotesPositions.None](../../com.aspose.slides/notespositions\#None).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -146,7 +146,7 @@ Gets or sets the color of comments area (Applies only if comments are displayed 
 
 --------------------
 
-Default is java.awt.Color\#BLUE.
+Default is java.awt.Color\#BLUE.BLUE.
 
 **Returns:**
 java.awt.Color
@@ -160,7 +160,7 @@ Gets or sets the color of comments area (Applies only if comments are displayed 
 
 --------------------
 
-Default is java.awt.Color\#BLUE.
+Default is java.awt.Color\#BLUE.BLUE.
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -1,10 +1,10 @@
 ---
 title: IMathRadical
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Specifies the radical function consisting of a base and an optional degree.
+second_title: Aspose.Slides for Java API Reference
+description: Specifies the radical function consisting of a base and an optional degree.
 type: docs
-weight: 911
-url: /androidjava/com.aspose.slides/imathradical/
+weight: 912
+url: /java/com.aspose.slides/imathradical/
 ---
 **All Implemented Interfaces:**
 [com.aspose.slides.IMathElement](../../com.aspose.slides/imathelement)

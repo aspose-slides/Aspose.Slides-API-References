@@ -1,10 +1,10 @@
 ---
 title: ISlideText
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents the text extracted from the slide
+second_title: Aspose.Slides for Java API Reference
+description: Represents the text extracted from the slide
 type: docs
-weight: 1031
-url: /androidjava/com.aspose.slides/islidetext/
+weight: 1032
+url: /java/com.aspose.slides/islidetext/
 ---```
 public interface ISlideText
 ```

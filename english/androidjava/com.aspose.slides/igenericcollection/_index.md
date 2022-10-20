@@ -1,10 +1,10 @@
 ---
 title: IGenericCollection
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Auxiliary generic collection interface.
+second_title: Aspose.Slides for Java API Reference
+description: Auxiliary generic collection interface.
 type: docs
-weight: 796
-url: /androidjava/com.aspose.slides/igenericcollection/
+weight: 797
+url: /java/com.aspose.slides/igenericcollection/
 ---
 **All Implemented Interfaces:**
 com.aspose.ms.System.Collections.Generic.IGenericEnumerable, com.aspose.ms.System.Collections.ICollection

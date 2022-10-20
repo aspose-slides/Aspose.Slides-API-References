@@ -1,10 +1,10 @@
 ---
 title: PptxException
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents a standard internal exception type.
+second_title: Aspose.Slides for Java API Reference
+description: Represents a standard internal exception type.
 type: docs
-weight: 438
-url: /androidjava/com.aspose.slides/pptxexception/
+weight: 439
+url: /java/com.aspose.slides/pptxexception/
 ---
 **Inheritance:**
 java.lang.Object, java.lang.Throwable, java.lang.Exception, java.lang.RuntimeException, com.aspose.ms.System.Exception, [com.aspose.slides.OOXMLException](../../com.aspose.slides/ooxmlexception)

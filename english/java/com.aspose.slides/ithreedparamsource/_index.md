@@ -1,9 +1,9 @@
 ---
 title: IThreeDParamSource
 second_title: Aspose.Slides for Java API Reference
-description:  3D properties source auxiliary interface
+description: 3D properties source auxiliary interface
 type: docs
-weight: 1077
+weight: 1078
 url: /java/com.aspose.slides/ithreedparamsource/
 ---```
 public interface IThreeDParamSource

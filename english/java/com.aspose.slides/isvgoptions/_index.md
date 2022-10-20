@@ -1,9 +1,9 @@
 ---
 title: ISVGOptions
 second_title: Aspose.Slides for Java API Reference
-description:  Represents an SVG options.
+description: Represents an SVG options.
 type: docs
-weight: 1001
+weight: 1002
 url: /java/com.aspose.slides/isvgoptions/
 ---
 **All Implemented Interfaces:**
@@ -31,10 +31,14 @@ Represents an SVG options.
 | [setJpegQuality(int value)](#setJpegQuality-int-) | Determines JPEG encoding quality. |
 | [getShapeFormattingController()](#getShapeFormattingController--) | Returns and sets a callback interface which allows user to control shape conversion. |
 | [setShapeFormattingController(ISvgShapeFormattingController value)](#setShapeFormattingController-com.aspose.slides.ISvgShapeFormattingController-) | Returns and sets a callback interface which allows user to control shape conversion. |
-| [getPicturesCompression()](#getPicturesCompression--) | Represents the pictures compression level Read/write \#getPicturesCompression/\#setPicturesCompression(int). |
-| [setPicturesCompression(int value)](#setPicturesCompression-int-) | Represents the pictures compression level Read/write \#getPicturesCompression/\#setPicturesCompression(int). |
+| [getPicturesCompression()](#getPicturesCompression--) | Represents the pictures compression level Read/write \#getPicturesCompression.getPicturesCompression/\#setPicturesCompression(int).setPicturesCompression(int). |
+| [setPicturesCompression(int value)](#setPicturesCompression-int-) | Represents the pictures compression level Read/write \#getPicturesCompression.getPicturesCompression/\#setPicturesCompression(int).setPicturesCompression(int). |
 | [getDeletePicturesCroppedAreas()](#getDeletePicturesCroppedAreas--) | A boolean flag indicates if the cropped parts remain as part of the document. |
 | [setDeletePicturesCroppedAreas(boolean value)](#setDeletePicturesCroppedAreas-boolean-) | A boolean flag indicates if the cropped parts remain as part of the document. |
+| [getUseFrameSize()](#getUseFrameSize--) | Determines whether the text frame will be included in a rendering area or not. |
+| [setUseFrameSize(boolean value)](#setUseFrameSize-boolean-) | Determines whether the text frame will be included in a rendering area or not. |
+| [getUseFrameRotation()](#getUseFrameRotation--) | Determines whether to perform the specified rotation of the shape when rendering or not. |
+| [setUseFrameRotation(boolean value)](#setUseFrameRotation-boolean-) | Determines whether to perform the specified rotation of the shape when rendering or not. |
 | [getExternalFontsHandling()](#getExternalFontsHandling--) | Determines a way of handling externally loaded fonts. |
 | [setExternalFontsHandling(int value)](#setExternalFontsHandling-int-) | Determines a way of handling externally loaded fonts. |
 ### getVectorizeText() {#getVectorizeText--}
@@ -204,7 +208,7 @@ public abstract int getPicturesCompression()
 ```
 
 
-Represents the pictures compression level Read/write \#getPicturesCompression/\#setPicturesCompression(int).
+Represents the pictures compression level Read/write \#getPicturesCompression.getPicturesCompression/\#setPicturesCompression(int).setPicturesCompression(int).
 
 **Returns:**
 int
@@ -214,7 +218,7 @@ public abstract void setPicturesCompression(int value)
 ```
 
 
-Represents the pictures compression level Read/write \#getPicturesCompression/\#setPicturesCompression(int).
+Represents the pictures compression level Read/write \#getPicturesCompression.getPicturesCompression/\#setPicturesCompression(int).setPicturesCompression(int).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -238,6 +242,52 @@ public abstract void setDeletePicturesCroppedAreas(boolean value)
 
 
 A boolean flag indicates if the cropped parts remain as part of the document. If true the cropped parts will removed, if false they will be serialized in the document (which can possible lead to a larger file) Read/write boolean.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
+### getUseFrameSize() {#getUseFrameSize--}
+```
+public abstract boolean getUseFrameSize()
+```
+
+
+Determines whether the text frame will be included in a rendering area or not. Read/write  boolean . Default value is false.
+
+**Returns:**
+boolean
+### setUseFrameSize(boolean value) {#setUseFrameSize-boolean-}
+```
+public abstract void setUseFrameSize(boolean value)
+```
+
+
+Determines whether the text frame will be included in a rendering area or not. Read/write  boolean . Default value is false.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
+### getUseFrameRotation() {#getUseFrameRotation--}
+```
+public abstract boolean getUseFrameRotation()
+```
+
+
+Determines whether to perform the specified rotation of the shape when rendering or not. Read/write  boolean . Default value is true.
+
+**Returns:**
+boolean
+### setUseFrameRotation(boolean value) {#setUseFrameRotation-boolean-}
+```
+public abstract void setUseFrameRotation(boolean value)
+```
+
+
+Determines whether to perform the specified rotation of the shape when rendering or not. Read/write  boolean . Default value is true.
 
 **Parameters:**
 | Parameter | Type | Description |

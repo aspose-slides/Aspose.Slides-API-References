@@ -1,10 +1,10 @@
 ---
 title: ITintEffectiveData
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Immutable object which represents a Tint effect.
+second_title: Aspose.Slides for Java API Reference
+description: Immutable object which represents a Tint effect.
 type: docs
-weight: 1081
-url: /androidjava/com.aspose.slides/itinteffectivedata/
+weight: 1082
+url: /java/com.aspose.slides/itinteffectivedata/
 ---
 **All Implemented Interfaces:**
 [com.aspose.slides.IEffectEffectiveData](../../com.aspose.slides/ieffecteffectivedata)

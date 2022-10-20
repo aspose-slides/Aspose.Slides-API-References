@@ -1,10 +1,10 @@
 ---
 title: IMathMatrixFactory
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Allows to create a math matrix
+second_title: Aspose.Slides for Java API Reference
+description: Allows to create a math matrix
 type: docs
-weight: 904
-url: /androidjava/com.aspose.slides/imathmatrixfactory/
+weight: 905
+url: /java/com.aspose.slides/imathmatrixfactory/
 ---```
 public interface IMathMatrixFactory
 ```

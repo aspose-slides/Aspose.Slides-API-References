@@ -1,10 +1,10 @@
 ---
 title: IRevealTransition
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Reveal slide transition effect.
+second_title: Aspose.Slides for Java API Reference
+description: Reveal slide transition effect.
 type: docs
-weight: 993
-url: /androidjava/com.aspose.slides/irevealtransition/
+weight: 994
+url: /java/com.aspose.slides/irevealtransition/
 ---
 **All Implemented Interfaces:**
 [com.aspose.slides.ITransitionValueBase](../../com.aspose.slides/itransitionvaluebase)

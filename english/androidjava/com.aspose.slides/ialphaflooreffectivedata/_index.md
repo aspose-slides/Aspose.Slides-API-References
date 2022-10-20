@@ -1,10 +1,10 @@
 ---
 title: IAlphaFloorEffectiveData
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Immutable object which represents an Alpha Floor effect.
+second_title: Aspose.Slides for Java API Reference
+description: Immutable object which represents an Alpha Floor effect.
 type: docs
-weight: 629
-url: /androidjava/com.aspose.slides/ialphaflooreffectivedata/
+weight: 630
+url: /java/com.aspose.slides/ialphaflooreffectivedata/
 ---
 **All Implemented Interfaces:**
 [com.aspose.slides.IEffectEffectiveData](../../com.aspose.slides/ieffecteffectivedata)

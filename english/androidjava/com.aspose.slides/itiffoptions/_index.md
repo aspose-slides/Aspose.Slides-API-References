@@ -1,10 +1,10 @@
 ---
 title: ITiffOptions
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Provides options that control how a presentation is saved in TIFF format.
+second_title: Aspose.Slides for Java API Reference
+description: Provides options that control how a presentation is saved in TIFF format.
 type: docs
-weight: 1078
-url: /androidjava/com.aspose.slides/itiffoptions/
+weight: 1079
+url: /java/com.aspose.slides/itiffoptions/
 ---
 **All Implemented Interfaces:**
 [com.aspose.slides.ISaveOptions](../../com.aspose.slides/isaveoptions)
@@ -36,7 +36,7 @@ public abstract Size getImageSize()
 ```
 
 
-Specifies size of a generated TIFF image. Default value is 0x0, what means that generated image sizes will be calculated based on presentation slide size value. Read/write com.aspose.slides.android.Size.
+Specifies size of a generated TIFF image. Default value is 0x0, what means that generated image sizes will be calculated based on presentation slide size value. Read/write [Size](../../com.aspose.slides.android/size).
 
 **Returns:**
 [Size](../../com.aspose.slides.android/size)
@@ -46,7 +46,7 @@ public abstract void setImageSize(Size value)
 ```
 
 
-Specifies size of a generated TIFF image. Default value is 0x0, what means that generated image sizes will be calculated based on presentation slide size value. Read/write com.aspose.slides.android.Size.
+Specifies size of a generated TIFF image. Default value is 0x0, what means that generated image sizes will be calculated based on presentation slide size value. Read/write [Size](../../com.aspose.slides.android/size).
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -1,10 +1,10 @@
 ---
 title: IHyperlinkContainer
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents hyperlink object.
+second_title: Aspose.Slides for Java API Reference
+description: Represents hyperlink object.
 type: docs
-weight: 825
-url: /androidjava/com.aspose.slides/ihyperlinkcontainer/
+weight: 826
+url: /java/com.aspose.slides/ihyperlinkcontainer/
 ---```
 public interface IHyperlinkContainer
 ```

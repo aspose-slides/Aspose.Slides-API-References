@@ -1,10 +1,10 @@
 ---
 title: LightRig
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents LightRig.
+second_title: Aspose.Slides for Java API Reference
+description: Represents LightRig.
 type: docs
-weight: 272
-url: /androidjava/com.aspose.slides/lightrig/
+weight: 273
+url: /java/com.aspose.slides/lightrig/
 ---
 **Inheritance:**
 java.lang.Object, [com.aspose.slides.PVIObject](../../com.aspose.slides/pviobject)

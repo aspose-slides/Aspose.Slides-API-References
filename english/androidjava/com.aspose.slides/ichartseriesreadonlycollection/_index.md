@@ -1,11 +1,10 @@
 ---
 title: IChartSeriesReadonlyCollection
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents a readonly collection of  
- 
+second_title: Aspose.Slides for Java API Reference
+description: Represents a readonly collection of
 type: docs
-weight: 701
-url: /androidjava/com.aspose.slides/ichartseriesreadonlycollection/
+weight: 702
+url: /java/com.aspose.slides/ichartseriesreadonlycollection/
 ---
 **All Implemented Interfaces:**
 com.aspose.slides.IGenericCollection

@@ -1,10 +1,10 @@
 ---
 title: Tab
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents a tabulation for a text.
+second_title: Aspose.Slides for Java API Reference
+description: Represents a tabulation for a text.
 type: docs
-weight: 541
-url: /androidjava/com.aspose.slides/tab/
+weight: 542
+url: /java/com.aspose.slides/tab/
 ---
 **Inheritance:**
 java.lang.Object, [com.aspose.slides.PVIObject](../../com.aspose.slides/pviobject)
@@ -104,10 +104,10 @@ Compares the current instance with another object of the same type.
 | obj | java.lang.Object | An object to compare with this instance. |
 
 **Returns:**
-int - A 32-bit integer that indicates the relative order of the comparands. The return value has these meanings: \`\`\`
+int - A 32-bit integer that indicates the relative order of the comparands. The return value has these meanings: 
 
  *  < 0 - This instance is less than obj.
  *  = 0 - This instance is equal to obj.
  *  > 0 - This instance is greater than obj.
 
-\`\`\`
+

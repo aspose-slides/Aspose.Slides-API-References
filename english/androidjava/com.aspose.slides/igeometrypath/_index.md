@@ -1,10 +1,10 @@
 ---
 title: IGeometryPath
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents geometry path of GeometryShape
+second_title: Aspose.Slides for Java API Reference
+description: Represents geometry path of GeometryShape
 type: docs
-weight: 797
-url: /androidjava/com.aspose.slides/igeometrypath/
+weight: 798
+url: /java/com.aspose.slides/igeometrypath/
 ---```
 public interface IGeometryPath
 ```

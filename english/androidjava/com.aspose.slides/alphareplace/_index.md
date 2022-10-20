@@ -1,10 +1,10 @@
 ---
 title: AlphaReplace
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents and Alpha Replace effect.
+second_title: Aspose.Slides for Java API Reference
+description: Represents and Alpha Replace effect.
 type: docs
 weight: 18
-url: /androidjava/com.aspose.slides/alphareplace/
+url: /java/com.aspose.slides/alphareplace/
 ---
 **Inheritance:**
 java.lang.Object, [com.aspose.slides.PVIObject](../../com.aspose.slides/pviobject), [com.aspose.slides.ImageTransformOperation](../../com.aspose.slides/imagetransformoperation)

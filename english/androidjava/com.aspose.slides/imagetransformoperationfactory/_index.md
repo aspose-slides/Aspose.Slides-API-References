@@ -1,10 +1,10 @@
 ---
 title: ImageTransformOperationFactory
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Allows to create image transform operations
+second_title: Aspose.Slides for Java API Reference
+description: Allows to create image transform operations
 type: docs
-weight: 251
-url: /androidjava/com.aspose.slides/imagetransformoperationfactory/
+weight: 252
+url: /java/com.aspose.slides/imagetransformoperationfactory/
 ---
 **Inheritance:**
 java.lang.Object

@@ -1,11 +1,9 @@
 ---
 title: MathNaryOperatorTypes
 second_title: Aspose.Slides for Java API Reference
-description:  Nary operator IMathNaryOperator types excluding integrals
- For integrals 
- 
+description: Nary operator IMathNaryOperator types excluding integrals For integrals
 type: docs
-weight: 341
+weight: 342
 url: /java/com.aspose.slides/mathnaryoperatortypes/
 ---
 **Inheritance:**

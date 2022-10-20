@@ -1,7 +1,7 @@
 ---
 title: ColorStringFormat
 second_title: Aspose.Slides for Java API Reference
-description:  Represents a type of hyperlink action.
+description: Represents a type of hyperlink action.
 type: docs
 weight: 117
 url: /java/com.aspose.slides/colorstringformat/

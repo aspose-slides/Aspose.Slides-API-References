@@ -1,10 +1,10 @@
 ---
 title: MathPortion
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents a portion with mathematical context inside.
+second_title: Aspose.Slides for Java API Reference
+description: Represents a portion with mathematical context inside.
 type: docs
-weight: 344
-url: /androidjava/com.aspose.slides/mathportion/
+weight: 345
+url: /java/com.aspose.slides/mathportion/
 ---
 **Inheritance:**
 java.lang.Object, [com.aspose.slides.Portion](../../com.aspose.slides/portion)

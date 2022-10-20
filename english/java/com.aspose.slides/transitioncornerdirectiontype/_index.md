@@ -1,9 +1,9 @@
 ---
 title: TransitionCornerDirectionType
 second_title: Aspose.Slides for Java API Reference
-description:  Represent corner direction transition types.
+description: Represent corner direction transition types.
 type: docs
-weight: 579
+weight: 580
 url: /java/com.aspose.slides/transitioncornerdirectiontype/
 ---
 **Inheritance:**

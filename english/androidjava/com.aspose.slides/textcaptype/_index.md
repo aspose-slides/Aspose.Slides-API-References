@@ -1,10 +1,10 @@
 ---
 title: TextCapType
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents the type of text capitalisation.
+second_title: Aspose.Slides for Java API Reference
+description: Represents the type of text capitalisation.
 type: docs
-weight: 555
-url: /androidjava/com.aspose.slides/textcaptype/
+weight: 556
+url: /java/com.aspose.slides/textcaptype/
 ---
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum

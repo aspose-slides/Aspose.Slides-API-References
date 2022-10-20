@@ -1,10 +1,10 @@
 ---
 title: License
-second_title: Aspose.Slides for Android via Java API Reference
-description: pProvides methods to license the component.
+second_title: Aspose.Slides for Java API Reference
+description: Provides methods to license the component.
 type: docs
-weight: 271
-url: /androidjava/com.aspose.slides/license/
+weight: 272
+url: /java/com.aspose.slides/license/
 ---
 **Inheritance:**
 java.lang.Object
@@ -17,7 +17,7 @@ public final class License implements ILicense
 
 Provides methods to license the component.
 
-```java
+```
 In this example, an attempt will be made to find a license file named MyLicense.lic
  in the folder that contains the component, in the folder that contains the calling assembly,
  in the folder of the entry assembly and then in the embedded resources of the calling assembly.
@@ -51,7 +51,7 @@ public License()
 
 Initializes a new instance of this class.
 
-```java
+```
 In this example, an attempt will be made to find a license file named MyLicense.lic
  in the folder that contains the component, in the folder that contains the calling assembly,
  in the folder of the entry assembly and then in the embedded resources of the calling assembly.
@@ -72,7 +72,7 @@ public final void setLicense(InputStream stream)
 
 Licenses the component.
 
-```java
+```
 In this example, an attempt will be made to find a license file named MyLicense.lic
  in the folder that contains the component, in the folder that contains the calling assembly,
  in the folder of the entry assembly and then in the embedded resources of the calling assembly.
@@ -98,7 +98,7 @@ public final void setLicense(String namePath)
 
 Licenses the component.
 
-```java
+```
 In this example, an attempt will be made to find a license file named MyLicense.lic
  in the folder that contains the component, in the folder that contains the calling assembly,
  in the folder of the entry assembly and then in the embedded resources of the calling assembly.
@@ -134,7 +134,7 @@ public final void resetLicense()
 
 Reset the license Use this method to reset license in component
 
-```java
+```
 License license = new License();
  license.resetLicense();
 ```

@@ -1,9 +1,9 @@
 ---
 title: PptEditException
 second_title: Aspose.Slides for Java API Reference
-description:  Represents an exception thrown when edit presentation error is detected.
+description: Represents an exception thrown when edit presentation error is detected.
 type: docs
-weight: 431
+weight: 432
 url: /java/com.aspose.slides/ppteditexception/
 ---
 **Inheritance:**

@@ -1,10 +1,10 @@
 ---
 title: ChartDataPointLevel
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents data point level.
+second_title: Aspose.Slides for Java API Reference
+description: Represents data point level.
 type: docs
 weight: 86
-url: /androidjava/com.aspose.slides/chartdatapointlevel/
+url: /java/com.aspose.slides/chartdatapointlevel/
 ---
 **Inheritance:**
 java.lang.Object, com.aspose.slides.DomObject

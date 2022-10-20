@@ -1,10 +1,10 @@
 ---
 title: PropertyValueType
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Represent property value types.
+second_title: Aspose.Slides for Java API Reference
+description: Represent property value types.
 type: docs
-weight: 454
-url: /androidjava/com.aspose.slides/propertyvaluetype/
+weight: 455
+url: /java/com.aspose.slides/propertyvaluetype/
 ---
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum

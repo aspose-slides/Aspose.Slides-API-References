@@ -1,10 +1,10 @@
 ---
 title: ControlPropertiesCollection
-second_title: Aspose.Slides for Android via Java API Reference
-description:  A collection of AcitveX properties.
+second_title: Aspose.Slides for Java API Reference
+description: A collection of AcitveX properties.
 type: docs
 weight: 138
-url: /androidjava/com.aspose.slides/controlpropertiescollection/
+url: /java/com.aspose.slides/controlpropertiescollection/
 ---
 **Inheritance:**
 java.lang.Object

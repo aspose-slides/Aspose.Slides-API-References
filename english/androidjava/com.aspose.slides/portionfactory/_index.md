@@ -1,10 +1,10 @@
 ---
 title: PortionFactory
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Allows to create test portions
+second_title: Aspose.Slides for Java API Reference
+description: Allows to create test portions
 type: docs
-weight: 428
-url: /androidjava/com.aspose.slides/portionfactory/
+weight: 429
+url: /java/com.aspose.slides/portionfactory/
 ---
 **Inheritance:**
 java.lang.Object

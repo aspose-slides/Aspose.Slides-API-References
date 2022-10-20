@@ -1,10 +1,10 @@
 ---
 title: BehaviorPropertyCollection
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents timing properties for the effect behavior.
+second_title: Aspose.Slides for Java API Reference
+description: Represents timing properties for the effect behavior.
 type: docs
 weight: 53
-url: /androidjava/com.aspose.slides/behaviorpropertycollection/
+url: /java/com.aspose.slides/behaviorpropertycollection/
 ---
 **Inheritance:**
 java.lang.Object
@@ -160,7 +160,7 @@ Copies the elements of the [IGenericCollection](../../com.aspose.slides/igeneric
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| array | com.aspose.slides.IBehaviorProperty[] | The one-dimensional Array that is the destination of the elements copied from [IGenericCollection](../../com.aspose.slides/igenericcollection). The Array must have zero-based indexing. |
+| array | [IBehaviorProperty\[\]](../../com.aspose.slides/ibehaviorproperty) | The one-dimensional Array that is the destination of the elements copied from [IGenericCollection](../../com.aspose.slides/igenericcollection). The Array must have zero-based indexing. |
 | arrayIndex | int | The zero-based index in array at which copying begins. |
 
 ### remove(IBehaviorProperty item) {#remove-com.aspose.slides.IBehaviorProperty-}
@@ -351,7 +351,7 @@ public void copyToTArray(IBehaviorProperty[] array, int arrayIndex)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| array | com.aspose.slides.IBehaviorProperty[] |  |
+| array | [IBehaviorProperty\[\]](../../com.aspose.slides/ibehaviorproperty) |  |
 | arrayIndex | int |  |
 
 ### removeItem(IBehaviorProperty item) {#removeItem-com.aspose.slides.IBehaviorProperty-}

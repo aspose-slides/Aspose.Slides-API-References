@@ -1,10 +1,10 @@
 ---
 title: GlitterTransition
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Glitter slide transition effect.
+second_title: Aspose.Slides for Java API Reference
+description: Glitter slide transition effect.
 type: docs
-weight: 220
-url: /androidjava/com.aspose.slides/glittertransition/
+weight: 221
+url: /java/com.aspose.slides/glittertransition/
 ---
 **Inheritance:**
 java.lang.Object, [com.aspose.slides.TransitionValueBase](../../com.aspose.slides/transitionvaluebase)

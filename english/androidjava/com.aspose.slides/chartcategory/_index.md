@@ -1,10 +1,10 @@
 ---
 title: ChartCategory
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents chart categories.
+second_title: Aspose.Slides for Java API Reference
+description: Represents chart categories.
 type: docs
 weight: 78
-url: /androidjava/com.aspose.slides/chartcategory/
+url: /java/com.aspose.slides/chartcategory/
 ---
 **Inheritance:**
 java.lang.Object

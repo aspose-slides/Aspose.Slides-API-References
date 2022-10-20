@@ -1,10 +1,10 @@
 ---
 title: IEmptyTransition
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Empty slide transition effect.
+second_title: Aspose.Slides for Java API Reference
+description: Empty slide transition effect.
 type: docs
-weight: 760
-url: /androidjava/com.aspose.slides/iemptytransition/
+weight: 761
+url: /java/com.aspose.slides/iemptytransition/
 ---
 **All Implemented Interfaces:**
 [com.aspose.slides.ITransitionValueBase](../../com.aspose.slides/itransitionvaluebase)

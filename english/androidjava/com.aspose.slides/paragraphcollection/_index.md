@@ -1,10 +1,10 @@
 ---
 title: ParagraphCollection
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents a collection of a paragraphs.
+second_title: Aspose.Slides for Java API Reference
+description: Represents a collection of a paragraphs.
 type: docs
-weight: 398
-url: /androidjava/com.aspose.slides/paragraphcollection/
+weight: 399
+url: /java/com.aspose.slides/paragraphcollection/
 ---
 **Inheritance:**
 java.lang.Object, com.aspose.slides.DomObject
@@ -181,7 +181,7 @@ Copies the elements of the [IGenericCollection](../../com.aspose.slides/igeneric
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| array | com.aspose.slides.IParagraph[] | The one-dimensional Array that is the destination of the elements copied from [IGenericCollection](../../com.aspose.slides/igenericcollection). The Array must have zero-based indexing. |
+| array | [IParagraph\[\]](../../com.aspose.slides/iparagraph) | The one-dimensional Array that is the destination of the elements copied from [IGenericCollection](../../com.aspose.slides/igenericcollection). The Array must have zero-based indexing. |
 | arrayIndex | int | The zero-based index in array at which copying begins. |
 
 ### removeAt(int index) {#removeAt-int-}

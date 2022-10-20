@@ -1,10 +1,10 @@
 ---
 title: IPictureFrame
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents a frame with a picture inside.
+second_title: Aspose.Slides for Java API Reference
+description: Represents a frame with a picture inside.
 type: docs
-weight: 962
-url: /androidjava/com.aspose.slides/ipictureframe/
+weight: 963
+url: /java/com.aspose.slides/ipictureframe/
 ---
 **All Implemented Interfaces:**
 [com.aspose.slides.IGeometryShape](../../com.aspose.slides/igeometryshape)

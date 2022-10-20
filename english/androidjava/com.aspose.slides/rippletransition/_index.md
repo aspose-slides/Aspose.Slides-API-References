@@ -1,10 +1,10 @@
 ---
 title: RippleTransition
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Ripple slide transition effect.
+second_title: Aspose.Slides for Java API Reference
+description: Ripple slide transition effect.
 type: docs
-weight: 464
-url: /androidjava/com.aspose.slides/rippletransition/
+weight: 465
+url: /java/com.aspose.slides/rippletransition/
 ---
 **Inheritance:**
 java.lang.Object, [com.aspose.slides.TransitionValueBase](../../com.aspose.slides/transitionvaluebase)

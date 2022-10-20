@@ -1,10 +1,10 @@
 ---
 title: FontFallBackRule
-second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents font fallback rule
+second_title: Aspose.Slides for Java API Reference
+description: Represents font fallback rule
 type: docs
 weight: 203
-url: /androidjava/com.aspose.slides/fontfallbackrule/
+url: /java/com.aspose.slides/fontfallbackrule/
 ---
 **Inheritance:**
 java.lang.Object
@@ -284,7 +284,7 @@ public final String[] toArray(int startIndex, int count)
 
 Creates and returns an array with all FallBack fonts from the specified range in list.
 
-```java
+```
 // Create a rule contains a list of fonts.
  IFontFallBackRule newRule = new FontFallBackRule(0x3040, 0x309F, "MS Mincho, MS Gothic, Tahoma, Times New Roman");
  // Get a last two font names as array.

@@ -1,9 +1,9 @@
 ---
 title: IHSLEffectiveData
 second_title: Aspose.Slides for Java API Reference
-description:  Represents a Hue/Saturation/Luminance effect.
+description: Represents a Hue/Saturation/Luminance effect.
 type: docs
-weight: 817
+weight: 818
 url: /java/com.aspose.slides/ihsleffectivedata/
 ---
 **All Implemented Interfaces:**
