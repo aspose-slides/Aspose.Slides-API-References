@@ -1,10 +1,10 @@
 ---
 title: Effect
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Represents animation effect.
 type: docs
 weight: 161
-url: /java/com.aspose.slides/effect/
+url: /androidjava/com.aspose.slides/effect/
 ---
 **Inheritance:**
 java.lang.Object

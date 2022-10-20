@@ -1,10 +1,10 @@
 ---
 title: IPresentation
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Presentation document
 type: docs
 weight: 976
-url: /java/com.aspose.slides/ipresentation/
+url: /androidjava/com.aspose.slides/ipresentation/
 ---
 **All Implemented Interfaces:**
 [com.aspose.slides.IPresentationComponent](../../com.aspose.slides/ipresentationcomponent), com.aspose.ms.System.IDisposable

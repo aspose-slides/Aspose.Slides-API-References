@@ -1,10 +1,10 @@
 ---
 title: IOuterShadow
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Represents an Outer Shadow effect.
 type: docs
 weight: 942
-url: /java/com.aspose.slides/ioutershadow/
+url: /androidjava/com.aspose.slides/ioutershadow/
 ---
 **All Implemented Interfaces:**
 [com.aspose.slides.IImageTransformOperation](../../com.aspose.slides/iimagetransformoperation), com.aspose.slides.IAccessiblePVIObject

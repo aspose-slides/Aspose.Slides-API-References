@@ -1,10 +1,10 @@
 ---
 title: Row
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a row in a table.
 type: docs
 weight: 468
-url: /java/com.aspose.slides/row/
+url: /androidjava/com.aspose.slides/row/
 ---
 **Inheritance:**
 java.lang.Object, [com.aspose.slides.CellCollection](../../com.aspose.slides/cellcollection)

@@ -1,10 +1,10 @@
 ---
 title: IColumnFormat
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Represents format of a table column.
 type: docs
 weight: 720
-url: /java/com.aspose.slides/icolumnformat/
+url: /androidjava/com.aspose.slides/icolumnformat/
 ---```
 public interface IColumnFormat
 ```

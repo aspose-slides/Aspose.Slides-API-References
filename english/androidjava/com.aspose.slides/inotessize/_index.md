@@ -1,10 +1,10 @@
 ---
 title: INotesSize
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a size of notes slide.
 type: docs
 weight: 933
-url: /java/com.aspose.slides/inotessize/
+url: /androidjava/com.aspose.slides/inotessize/
 ---```
 public interface INotesSize
 ```

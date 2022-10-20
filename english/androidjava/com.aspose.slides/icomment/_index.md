@@ -1,10 +1,10 @@
 ---
 title: IComment
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a comment on a slide.
 type: docs
 weight: 723
-url: /java/com.aspose.slides/icomment/
+url: /androidjava/com.aspose.slides/icomment/
 ---```
 public interface IComment
 ```

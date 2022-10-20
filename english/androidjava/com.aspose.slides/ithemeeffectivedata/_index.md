@@ -1,10 +1,10 @@
 ---
 title: IThemeEffectiveData
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Immutable object which contains effective theme properties.
 type: docs
 weight: 1073
-url: /java/com.aspose.slides/ithemeeffectivedata/
+url: /androidjava/com.aspose.slides/ithemeeffectivedata/
 ---```
 public interface IThemeEffectiveData
 ```

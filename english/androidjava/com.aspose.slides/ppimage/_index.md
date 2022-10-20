@@ -1,10 +1,10 @@
 ---
 title: PPImage
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Represents an image in a presentation.
 type: docs
 weight: 396
-url: /java/com.aspose.slides/ppimage/
+url: /androidjava/com.aspose.slides/ppimage/
 ---
 **Inheritance:**
 java.lang.Object

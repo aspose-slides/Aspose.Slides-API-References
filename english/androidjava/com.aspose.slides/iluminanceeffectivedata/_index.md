@@ -1,10 +1,10 @@
 ---
 title: ILuminanceEffectiveData
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a Luminance effect.
 type: docs
 weight: 863
-url: /java/com.aspose.slides/iluminanceeffectivedata/
+url: /androidjava/com.aspose.slides/iluminanceeffectivedata/
 ---
 **All Implemented Interfaces:**
 [com.aspose.slides.IEffectEffectiveData](../../com.aspose.slides/ieffecteffectivedata)

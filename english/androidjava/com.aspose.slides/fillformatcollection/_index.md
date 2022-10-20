@@ -1,10 +1,10 @@
 ---
 title: FillFormatCollection
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Represents the collection of fill styles.
 type: docs
 weight: 191
-url: /java/com.aspose.slides/fillformatcollection/
+url: /androidjava/com.aspose.slides/fillformatcollection/
 ---
 **Inheritance:**
 java.lang.Object, com.aspose.slides.DomObject

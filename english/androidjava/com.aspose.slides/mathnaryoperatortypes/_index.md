@@ -1,10 +1,10 @@
 ---
 title: MathNaryOperatorTypes
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Nary operator IMathNaryOperator types excluding integrals For integrals
 type: docs
 weight: 342
-url: /java/com.aspose.slides/mathnaryoperatortypes/
+url: /androidjava/com.aspose.slides/mathnaryoperatortypes/
 ---
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum

@@ -1,10 +1,10 @@
 ---
 title: SlideShowTransition
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Represents slide show transition.
 type: docs
 weight: 506
-url: /java/com.aspose.slides/slideshowtransition/
+url: /androidjava/com.aspose.slides/slideshowtransition/
 ---
 **Inheritance:**
 java.lang.Object, com.aspose.slides.DomObject

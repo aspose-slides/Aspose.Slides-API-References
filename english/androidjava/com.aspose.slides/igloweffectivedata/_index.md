@@ -1,10 +1,10 @@
 ---
 title: IGlowEffectiveData
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Immutable object which represents a Glow effect in which a color blurred outline  is added outside the edges of the object.
 type: docs
 weight: 804
-url: /java/com.aspose.slides/igloweffectivedata/
+url: /androidjava/com.aspose.slides/igloweffectivedata/
 ---
 **All Implemented Interfaces:**
 [com.aspose.slides.IEffectEffectiveData](../../com.aspose.slides/ieffecteffectivedata)

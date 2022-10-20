@@ -1,10 +1,10 @@
 ---
 title: IAlphaInverseEffectiveData
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Immutable object which represents an Alpha Inverse effect.
 type: docs
 weight: 632
-url: /java/com.aspose.slides/ialphainverseeffectivedata/
+url: /androidjava/com.aspose.slides/ialphainverseeffectivedata/
 ---
 **All Implemented Interfaces:**
 [com.aspose.slides.IEffectEffectiveData](../../com.aspose.slides/ieffecteffectivedata)

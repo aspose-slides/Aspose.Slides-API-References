@@ -1,10 +1,10 @@
 ---
 title: IOverridableText
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Represents overridable text for a chart.
 type: docs
 weight: 946
-url: /java/com.aspose.slides/ioverridabletext/
+url: /androidjava/com.aspose.slides/ioverridabletext/
 ---
 **All Implemented Interfaces:**
 [com.aspose.slides.IFormattedTextContainer](../../com.aspose.slides/iformattedtextcontainer)

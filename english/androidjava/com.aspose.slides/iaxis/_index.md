@@ -1,10 +1,10 @@
 ---
 title: IAxis
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Encapsulates the object that represents a charts axis.
 type: docs
 weight: 646
-url: /java/com.aspose.slides/iaxis/
+url: /androidjava/com.aspose.slides/iaxis/
 ---
 **All Implemented Interfaces:**
 [com.aspose.slides.IFormattedTextContainer](../../com.aspose.slides/iformattedtextcontainer)

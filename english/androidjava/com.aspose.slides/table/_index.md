@@ -1,10 +1,10 @@
 ---
 title: Table
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a table on a slide.
 type: docs
 weight: 546
-url: /java/com.aspose.slides/table/
+url: /androidjava/com.aspose.slides/table/
 ---
 **Inheritance:**
 java.lang.Object, [com.aspose.slides.Shape](../../com.aspose.slides/shape), [com.aspose.slides.GraphicalObject](../../com.aspose.slides/graphicalobject)

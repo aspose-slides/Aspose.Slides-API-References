@@ -1,10 +1,10 @@
 ---
 title: ISoftEdge
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a Soft Edge effect.
 type: docs
 weight: 1039
-url: /java/com.aspose.slides/isoftedge/
+url: /androidjava/com.aspose.slides/isoftedge/
 ---
 **All Implemented Interfaces:**
 [com.aspose.slides.IImageTransformOperation](../../com.aspose.slides/iimagetransformoperation), com.aspose.slides.IAccessiblePVIObject

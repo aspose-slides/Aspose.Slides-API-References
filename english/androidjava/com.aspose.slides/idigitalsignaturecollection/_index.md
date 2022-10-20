@@ -1,10 +1,10 @@
 ---
 title: IDigitalSignatureCollection
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a collection of digital signatures attached to a document.
 type: docs
 weight: 743
-url: /java/com.aspose.slides/idigitalsignaturecollection/
+url: /androidjava/com.aspose.slides/idigitalsignaturecollection/
 ---
 **All Implemented Interfaces:**
 com.aspose.slides.IGenericCollection

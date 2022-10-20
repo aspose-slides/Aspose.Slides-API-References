@@ -1,10 +1,10 @@
 ---
 title: SlideUtil
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Offer methods which help to search shapes and text in a presentation.
 type: docs
 weight: 512
-url: /java/com.aspose.slides/slideutil/
+url: /androidjava/com.aspose.slides/slideutil/
 ---
 **Inheritance:**
 java.lang.Object

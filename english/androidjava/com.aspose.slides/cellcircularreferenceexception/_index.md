@@ -1,10 +1,10 @@
 ---
 title: CellCircularReferenceException
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: The exception that is thrown when one or more circular references are detected where a formula refers to its own cell either directly or indirectly.
 type: docs
 weight: 71
-url: /java/com.aspose.slides/cellcircularreferenceexception/
+url: /androidjava/com.aspose.slides/cellcircularreferenceexception/
 ---
 **Inheritance:**
 java.lang.Object, java.lang.Throwable, java.lang.Exception, java.lang.RuntimeException, com.aspose.ms.System.Exception, [com.aspose.slides.OOXMLException](../../com.aspose.slides/ooxmlexception), [com.aspose.slides.PptxException](../../com.aspose.slides/pptxexception), [com.aspose.slides.PptxEditException](../../com.aspose.slides/pptxeditexception)

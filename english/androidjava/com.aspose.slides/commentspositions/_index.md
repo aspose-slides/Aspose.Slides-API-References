@@ -1,10 +1,10 @@
 ---
 title: CommentsPositions
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Represents the rule to render comments into exported document
 type: docs
 weight: 130
-url: /java/com.aspose.slides/commentspositions/
+url: /androidjava/com.aspose.slides/commentspositions/
 ---
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum

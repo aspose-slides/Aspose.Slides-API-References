@@ -1,10 +1,10 @@
 ---
 title: SvgCoordinateUnit
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Represents CSS2 coordinate units used to define SVG coordinates.
 type: docs
 weight: 534
-url: /java/com.aspose.slides/svgcoordinateunit/
+url: /androidjava/com.aspose.slides/svgcoordinateunit/
 ---
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum

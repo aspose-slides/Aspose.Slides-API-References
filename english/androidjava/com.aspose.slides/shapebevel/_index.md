@@ -1,10 +1,10 @@
 ---
 title: ShapeBevel
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Contains the properties of shapes main face relief.
 type: docs
 weight: 485
-url: /java/com.aspose.slides/shapebevel/
+url: /androidjava/com.aspose.slides/shapebevel/
 ---
 **Inheritance:**
 java.lang.Object, [com.aspose.slides.PVIObject](../../com.aspose.slides/pviobject)

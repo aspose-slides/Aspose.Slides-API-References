@@ -1,10 +1,10 @@
 ---
 title: BehaviorFactory
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Allows to create animation effects
 type: docs
 weight: 51
-url: /java/com.aspose.slides/behaviorfactory/
+url: /androidjava/com.aspose.slides/behaviorfactory/
 ---
 **Inheritance:**
 java.lang.Object

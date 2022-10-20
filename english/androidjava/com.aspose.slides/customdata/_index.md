@@ -1,10 +1,10 @@
 ---
 title: CustomData
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Represents container for custom data.
 type: docs
 weight: 144
-url: /java/com.aspose.slides/customdata/
+url: /androidjava/com.aspose.slides/customdata/
 ---
 **Inheritance:**
 java.lang.Object

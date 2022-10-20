@@ -1,10 +1,10 @@
 ---
 title: IMathElement
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Base interface of any mathematical element  fraction mathmatical text function expression with multiple elements etc
 type: docs
 weight: 893
-url: /java/com.aspose.slides/imathelement/
+url: /androidjava/com.aspose.slides/imathelement/
 ---```
 public interface IMathElement
 ```

@@ -1,10 +1,10 @@
 ---
 title: LoadFormat
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Indicates the format of the document that is to be loaded.
 type: docs
 weight: 289
-url: /java/com.aspose.slides/loadformat/
+url: /androidjava/com.aspose.slides/loadformat/
 ---
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum

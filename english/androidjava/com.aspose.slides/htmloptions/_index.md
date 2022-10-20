@@ -1,10 +1,10 @@
 ---
 title: HtmlOptions
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a HTML exporting options.
 type: docs
 weight: 241
-url: /java/com.aspose.slides/htmloptions/
+url: /androidjava/com.aspose.slides/htmloptions/
 ---
 **Inheritance:**
 java.lang.Object, [com.aspose.slides.SaveOptions](../../com.aspose.slides/saveoptions)

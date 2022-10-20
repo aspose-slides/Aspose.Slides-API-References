@@ -1,10 +1,10 @@
 ---
 title: BrowsedByIndividual
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Browsed by individual window
 type: docs
 weight: 60
-url: /java/com.aspose.slides/browsedbyindividual/
+url: /androidjava/com.aspose.slides/browsedbyindividual/
 ---
 **Inheritance:**
 java.lang.Object, [com.aspose.slides.SlideShowType](../../com.aspose.slides/slideshowtype)

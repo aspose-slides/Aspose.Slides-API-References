@@ -1,10 +1,10 @@
 ---
 title: MathElementBase
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Base class for IMathElement with the implementation of some methods that are common to all inherited classes For internal use only.
 type: docs
 weight: 321
-url: /java/com.aspose.slides/mathelementbase/
+url: /androidjava/com.aspose.slides/mathelementbase/
 ---
 **Inheritance:**
 java.lang.Object

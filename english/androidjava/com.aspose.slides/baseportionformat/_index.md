@@ -1,10 +1,10 @@
 ---
 title: BasePortionFormat
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Common text portion formatting properties.
 type: docs
 weight: 41
-url: /java/com.aspose.slides/baseportionformat/
+url: /androidjava/com.aspose.slides/baseportionformat/
 ---
 **Inheritance:**
 java.lang.Object, [com.aspose.slides.PVIObject](../../com.aspose.slides/pviobject)

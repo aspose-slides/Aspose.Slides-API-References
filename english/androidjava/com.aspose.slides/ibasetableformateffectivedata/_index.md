@@ -1,10 +1,10 @@
 ---
 title: IBaseTableFormatEffectiveData
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Base interface for immutable objects which contain effective table formatting properties.
 type: docs
 weight: 659
-url: /java/com.aspose.slides/ibasetableformateffectivedata/
+url: /androidjava/com.aspose.slides/ibasetableformateffectivedata/
 ---```
 public interface IBaseTableFormatEffectiveData
 ```

@@ -1,10 +1,10 @@
 ---
 title: IGenericCloneable
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Represents generic version of ICloneable
 type: docs
 weight: 796
-url: /java/com.aspose.slides/igenericcloneable/
+url: /androidjava/com.aspose.slides/igenericcloneable/
 ---```
 public interface IGenericCloneable<T>
 ```

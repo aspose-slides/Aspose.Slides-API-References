@@ -1,10 +1,10 @@
 ---
 title: Presentation
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a Microsoft PowerPoint presentation.
 type: docs
 weight: 443
-url: /java/com.aspose.slides/presentation/
+url: /androidjava/com.aspose.slides/presentation/
 ---
 **Inheritance:**
 java.lang.Object

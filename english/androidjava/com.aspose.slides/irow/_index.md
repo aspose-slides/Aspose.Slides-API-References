@@ -1,10 +1,10 @@
 ---
 title: IRow
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a row in a table.
 type: docs
 weight: 998
-url: /java/com.aspose.slides/irow/
+url: /androidjava/com.aspose.slides/irow/
 ---
 **All Implemented Interfaces:**
 [com.aspose.slides.ICellCollection](../../com.aspose.slides/icellcollection), [com.aspose.slides.IBulkTextFormattable](../../com.aspose.slides/ibulktextformattable)

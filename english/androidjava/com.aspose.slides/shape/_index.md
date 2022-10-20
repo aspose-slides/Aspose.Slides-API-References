@@ -1,10 +1,10 @@
 ---
 title: Shape
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a shape on a slide.
 type: docs
 weight: 484
-url: /java/com.aspose.slides/shape/
+url: /androidjava/com.aspose.slides/shape/
 ---
 **Inheritance:**
 java.lang.Object

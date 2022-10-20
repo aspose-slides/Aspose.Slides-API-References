@@ -1,10 +1,10 @@
 ---
 title: IShapeBevel
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Represents properties of shapes main face relief.
 type: docs
 weight: 1014
-url: /java/com.aspose.slides/ishapebevel/
+url: /androidjava/com.aspose.slides/ishapebevel/
 ---```
 public interface IShapeBevel
 ```

@@ -1,10 +1,10 @@
 ---
 title: ChartSeriesGroup
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Represents group of series.
 type: docs
 weight: 97
-url: /java/com.aspose.slides/chartseriesgroup/
+url: /androidjava/com.aspose.slides/chartseriesgroup/
 ---
 **Inheritance:**
 java.lang.Object

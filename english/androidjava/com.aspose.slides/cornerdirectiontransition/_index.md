@@ -1,10 +1,10 @@
 ---
 title: CornerDirectionTransition
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Corner direction slide transition effect.
 type: docs
 weight: 141
-url: /java/com.aspose.slides/cornerdirectiontransition/
+url: /androidjava/com.aspose.slides/cornerdirectiontransition/
 ---
 **Inheritance:**
 java.lang.Object, [com.aspose.slides.TransitionValueBase](../../com.aspose.slides/transitionvaluebase)

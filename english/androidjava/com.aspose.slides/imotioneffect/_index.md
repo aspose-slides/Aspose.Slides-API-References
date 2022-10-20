@@ -1,10 +1,10 @@
 ---
 title: IMotionEffect
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Represent motion effect behavior of effect.
 type: docs
 weight: 926
-url: /java/com.aspose.slides/imotioneffect/
+url: /androidjava/com.aspose.slides/imotioneffect/
 ---
 **All Implemented Interfaces:**
 [com.aspose.slides.IBehavior](../../com.aspose.slides/ibehavior)

@@ -1,10 +1,10 @@
 ---
 title: IDataLabel
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a series labels.
 type: docs
 weight: 737
-url: /java/com.aspose.slides/idatalabel/
+url: /androidjava/com.aspose.slides/idatalabel/
 ---
 **All Implemented Interfaces:**
 [com.aspose.slides.ILayoutable](../../com.aspose.slides/ilayoutable), [com.aspose.slides.IOverridableText](../../com.aspose.slides/ioverridabletext), [com.aspose.slides.IActualLayout](../../com.aspose.slides/iactuallayout)

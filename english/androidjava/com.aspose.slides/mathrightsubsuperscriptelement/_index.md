@@ -1,10 +1,10 @@
 ---
 title: MathRightSubSuperscriptElement
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Specifies the Sub-Superscript object which consists of a base  and a subscript and superscript placed to the right of the base.
 type: docs
 weight: 348
-url: /java/com.aspose.slides/mathrightsubsuperscriptelement/
+url: /androidjava/com.aspose.slides/mathrightsubsuperscriptelement/
 ---
 **Inheritance:**
 java.lang.Object, [com.aspose.slides.MathElementBase](../../com.aspose.slides/mathelementbase), [com.aspose.slides.BaseScript](../../com.aspose.slides/basescript)

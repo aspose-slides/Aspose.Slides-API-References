@@ -1,10 +1,10 @@
 ---
 title: ModernCommentStatus
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Represents the status of a modern comment.
 type: docs
 weight: 362
-url: /java/com.aspose.slides/moderncommentstatus/
+url: /androidjava/com.aspose.slides/moderncommentstatus/
 ---
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum

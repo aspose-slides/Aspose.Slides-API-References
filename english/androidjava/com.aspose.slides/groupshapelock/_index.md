@@ -1,10 +1,10 @@
 ---
 title: GroupShapeLock
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Determines which operations are disabled on the parent GroupShape.
 type: docs
 weight: 235
-url: /java/com.aspose.slides/groupshapelock/
+url: /androidjava/com.aspose.slides/groupshapelock/
 ---
 **Inheritance:**
 java.lang.Object, [com.aspose.slides.BaseShapeLock](../../com.aspose.slides/baseshapelock)

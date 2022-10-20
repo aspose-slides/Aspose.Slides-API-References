@@ -1,10 +1,10 @@
 ---
 title: MathBorderBox
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Draws a rectangular or some other border around the IMathElement.
 type: docs
 weight: 314
-url: /java/com.aspose.slides/mathborderbox/
+url: /androidjava/com.aspose.slides/mathborderbox/
 ---
 **Inheritance:**
 java.lang.Object, [com.aspose.slides.MathElementBase](../../com.aspose.slides/mathelementbase)

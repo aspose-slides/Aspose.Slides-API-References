@@ -1,10 +1,10 @@
 ---
 title: IPieSplitCustomPointCollection
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a collection of points that shall be drawn in the second pie or bar on a bar-of-pie or pie-of-pie chart with a custom split.
 type: docs
 weight: 965
-url: /java/com.aspose.slides/ipiesplitcustompointcollection/
+url: /androidjava/com.aspose.slides/ipiesplitcustompointcollection/
 ---
 **All Implemented Interfaces:**
 com.aspose.ms.System.Collections.Generic.IGenericCollection

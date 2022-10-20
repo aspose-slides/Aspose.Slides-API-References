@@ -1,10 +1,10 @@
 ---
 title: ILayoutSlide
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a layout slide.
 type: docs
 weight: 841
-url: /java/com.aspose.slides/ilayoutslide/
+url: /androidjava/com.aspose.slides/ilayoutslide/
 ---
 **All Implemented Interfaces:**
 [com.aspose.slides.IBaseSlide](../../com.aspose.slides/ibaseslide), [com.aspose.slides.IOverrideThemeable](../../com.aspose.slides/ioverridethemeable)

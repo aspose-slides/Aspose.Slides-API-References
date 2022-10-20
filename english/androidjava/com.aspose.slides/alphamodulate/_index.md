@@ -1,10 +1,10 @@
 ---
 title: AlphaModulate
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Represents an Alpha Modulate effect.
 type: docs
 weight: 16
-url: /java/com.aspose.slides/alphamodulate/
+url: /androidjava/com.aspose.slides/alphamodulate/
 ---
 **Inheritance:**
 java.lang.Object, [com.aspose.slides.PVIObject](../../com.aspose.slides/pviobject), [com.aspose.slides.ImageTransformOperation](../../com.aspose.slides/imagetransformoperation)

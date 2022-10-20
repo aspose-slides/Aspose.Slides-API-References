@@ -1,10 +1,10 @@
 ---
 title: Connector
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a connector.
 type: docs
 weight: 134
-url: /java/com.aspose.slides/connector/
+url: /androidjava/com.aspose.slides/connector/
 ---
 **Inheritance:**
 java.lang.Object, [com.aspose.slides.Shape](../../com.aspose.slides/shape), [com.aspose.slides.GeometryShape](../../com.aspose.slides/geometryshape)

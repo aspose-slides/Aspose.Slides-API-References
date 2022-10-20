@@ -1,10 +1,10 @@
 ---
 title: MathematicalText
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Mathematical text
 type: docs
 weight: 358
-url: /java/com.aspose.slides/mathematicaltext/
+url: /androidjava/com.aspose.slides/mathematicaltext/
 ---
 **Inheritance:**
 java.lang.Object, [com.aspose.slides.MathElementBase](../../com.aspose.slides/mathelementbase)

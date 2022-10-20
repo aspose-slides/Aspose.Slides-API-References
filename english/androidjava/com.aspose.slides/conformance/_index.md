@@ -1,10 +1,10 @@
 ---
 title: Conformance
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Specifies the conformance class to which the PresentationML document conforms.
 type: docs
 weight: 133
-url: /java/com.aspose.slides/conformance/
+url: /androidjava/com.aspose.slides/conformance/
 ---
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum

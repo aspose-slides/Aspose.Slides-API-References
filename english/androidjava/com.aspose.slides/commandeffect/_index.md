@@ -1,10 +1,10 @@
 ---
 title: CommandEffect
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a command effect for an animation behavior.
 type: docs
 weight: 124
-url: /java/com.aspose.slides/commandeffect/
+url: /androidjava/com.aspose.slides/commandeffect/
 ---
 **Inheritance:**
 java.lang.Object, [com.aspose.slides.Behavior](../../com.aspose.slides/behavior)

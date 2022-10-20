@@ -1,10 +1,10 @@
 ---
 title: TickMarkType
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Represents the tick mark type for the specified axis.
 type: docs
 weight: 572
-url: /java/com.aspose.slides/tickmarktype/
+url: /androidjava/com.aspose.slides/tickmarktype/
 ---
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum

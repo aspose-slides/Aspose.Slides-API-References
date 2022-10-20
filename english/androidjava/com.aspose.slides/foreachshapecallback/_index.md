@@ -1,10 +1,10 @@
 ---
 title: ForEach.ForEachShapeCallback
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: 
 type: docs
 weight: 14
-url: /java/com.aspose.slides/foreach.foreachshapecallback/
+url: /androidjava/com.aspose.slides/foreach.foreachshapecallback/
 ---```
 public static interface ForEach.ForEachShapeCallback
 ```

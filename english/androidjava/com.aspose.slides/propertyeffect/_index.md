@@ -1,10 +1,10 @@
 ---
 title: PropertyEffect
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Represent property effect behavior.
 type: docs
 weight: 454
-url: /java/com.aspose.slides/propertyeffect/
+url: /androidjava/com.aspose.slides/propertyeffect/
 ---
 **Inheritance:**
 java.lang.Object, [com.aspose.slides.Behavior](../../com.aspose.slides/behavior)

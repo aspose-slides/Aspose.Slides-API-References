@@ -1,10 +1,10 @@
 ---
 title: StringChartValue
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Represent string value which can be stored in pptx presentation document in two ways 1 in cell/cells of workbook related to chart 2 as literal value.
 type: docs
 weight: 528
-url: /java/com.aspose.slides/stringchartvalue/
+url: /androidjava/com.aspose.slides/stringchartvalue/
 ---
 **Inheritance:**
 java.lang.Object, [com.aspose.slides.BaseChartValue](../../com.aspose.slides/basechartvalue)

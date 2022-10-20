@@ -1,10 +1,10 @@
 ---
 title: IFillOverlay
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a Fill Overlay effect.
 type: docs
 weight: 773
-url: /java/com.aspose.slides/ifilloverlay/
+url: /androidjava/com.aspose.slides/ifilloverlay/
 ---
 **All Implemented Interfaces:**
 [com.aspose.slides.IImageTransformOperation](../../com.aspose.slides/iimagetransformoperation), com.aspose.slides.IAccessiblePVIObject

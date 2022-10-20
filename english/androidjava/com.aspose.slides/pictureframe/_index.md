@@ -1,10 +1,10 @@
 ---
 title: PictureFrame
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a frame with a picture inside.
 type: docs
 weight: 416
-url: /java/com.aspose.slides/pictureframe/
+url: /androidjava/com.aspose.slides/pictureframe/
 ---
 **Inheritance:**
 java.lang.Object, [com.aspose.slides.Shape](../../com.aspose.slides/shape), [com.aspose.slides.GeometryShape](../../com.aspose.slides/geometryshape)

@@ -1,10 +1,10 @@
 ---
 title: IMetered
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Provides methods to set metered key.
 type: docs
 weight: 922
-url: /java/com.aspose.slides/imetered/
+url: /androidjava/com.aspose.slides/imetered/
 ---```
 public interface IMetered
 ```

@@ -1,10 +1,10 @@
 ---
 title: MathFunctionFactory
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Allows to create a math function
 type: docs
 weight: 326
-url: /java/com.aspose.slides/mathfunctionfactory/
+url: /androidjava/com.aspose.slides/mathfunctionfactory/
 ---
 **Inheritance:**
 java.lang.Object

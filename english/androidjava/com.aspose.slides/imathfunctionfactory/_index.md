@@ -1,10 +1,10 @@
 ---
 title: IMathFunctionFactory
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Allows to create a math function
 type: docs
 weight: 898
-url: /java/com.aspose.slides/imathfunctionfactory/
+url: /androidjava/com.aspose.slides/imathfunctionfactory/
 ---```
 public interface IMathFunctionFactory
 ```

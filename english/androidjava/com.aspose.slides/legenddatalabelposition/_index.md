@@ -1,10 +1,10 @@
 ---
 title: LegendDataLabelPosition
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Determines position of data labels.
 type: docs
 weight: 268
-url: /java/com.aspose.slides/legenddatalabelposition/
+url: /androidjava/com.aspose.slides/legenddatalabelposition/
 ---
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum

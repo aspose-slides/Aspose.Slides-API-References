@@ -1,10 +1,10 @@
 ---
 title: MathFraction
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Specifies the fraction object consisting of a numerator and denominator separated by a fraction bar.
 type: docs
 weight: 322
-url: /java/com.aspose.slides/mathfraction/
+url: /androidjava/com.aspose.slides/mathfraction/
 ---
 **Inheritance:**
 java.lang.Object, [com.aspose.slides.MathElementBase](../../com.aspose.slides/mathelementbase)

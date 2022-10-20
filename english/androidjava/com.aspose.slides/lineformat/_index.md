@@ -1,10 +1,10 @@
 ---
 title: LineFormat
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Represents format of a line.
 type: docs
 weight: 283
-url: /java/com.aspose.slides/lineformat/
+url: /androidjava/com.aspose.slides/lineformat/
 ---
 **Inheritance:**
 java.lang.Object, [com.aspose.slides.PVIObject](../../com.aspose.slides/pviobject)

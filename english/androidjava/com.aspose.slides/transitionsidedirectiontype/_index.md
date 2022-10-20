@@ -1,10 +1,10 @@
 ---
 title: TransitionSideDirectionType
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Represent side direction transition types.
 type: docs
 weight: 587
-url: /java/com.aspose.slides/transitionsidedirectiontype/
+url: /androidjava/com.aspose.slides/transitionsidedirectiontype/
 ---
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum

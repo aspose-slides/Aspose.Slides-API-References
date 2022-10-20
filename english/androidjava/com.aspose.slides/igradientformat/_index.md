@@ -1,10 +1,10 @@
 ---
 title: IGradientFormat
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Represent a gradient format.
 type: docs
 weight: 805
-url: /java/com.aspose.slides/igradientformat/
+url: /androidjava/com.aspose.slides/igradientformat/
 ---
 **All Implemented Interfaces:**
 [com.aspose.slides.IFillParamSource](../../com.aspose.slides/ifillparamsource)

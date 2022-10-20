@@ -1,10 +1,10 @@
 ---
 title: IAlphaModulateFixedEffectiveData
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Immutable object which represents an Alpha Modulate Fixed effect.
 type: docs
 weight: 636
-url: /java/com.aspose.slides/ialphamodulatefixedeffectivedata/
+url: /androidjava/com.aspose.slides/ialphamodulatefixedeffectivedata/
 ---
 **All Implemented Interfaces:**
 [com.aspose.slides.IEffectEffectiveData](../../com.aspose.slides/ieffecteffectivedata)

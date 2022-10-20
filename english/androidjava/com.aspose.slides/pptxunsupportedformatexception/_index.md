@@ -1,10 +1,10 @@
 ---
 title: PptxUnsupportedFormatException
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Exception which thrown when presentation file format is unsupported.
 type: docs
 weight: 442
-url: /java/com.aspose.slides/pptxunsupportedformatexception/
+url: /androidjava/com.aspose.slides/pptxunsupportedformatexception/
 ---
 **Inheritance:**
 java.lang.Object, java.lang.Throwable, java.lang.Exception, java.lang.RuntimeException, com.aspose.ms.System.Exception, [com.aspose.slides.OOXMLException](../../com.aspose.slides/ooxmlexception), [com.aspose.slides.PptxException](../../com.aspose.slides/pptxexception), [com.aspose.slides.PptxReadException](../../com.aspose.slides/pptxreadexception)

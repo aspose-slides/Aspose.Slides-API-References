@@ -1,10 +1,10 @@
 ---
 title: IAutoShape
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Represents an AutoShape.
 type: docs
 weight: 643
-url: /java/com.aspose.slides/iautoshape/
+url: /androidjava/com.aspose.slides/iautoshape/
 ---
 **All Implemented Interfaces:**
 [com.aspose.slides.IGeometryShape](../../com.aspose.slides/igeometryshape)

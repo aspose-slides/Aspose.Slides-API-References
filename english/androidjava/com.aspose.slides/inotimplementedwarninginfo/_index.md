@@ -1,10 +1,10 @@
 ---
 title: INotImplementedWarningInfo
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a warning about known not implemented feature which wont be implemented in the near future.
 type: docs
 weight: 931
-url: /java/com.aspose.slides/inotimplementedwarninginfo/
+url: /androidjava/com.aspose.slides/inotimplementedwarninginfo/
 ---
 **All Implemented Interfaces:**
 [com.aspose.slides.IWarningInfo](../../com.aspose.slides/iwarninginfo)

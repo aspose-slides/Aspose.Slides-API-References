@@ -1,10 +1,10 @@
 ---
 title: Control
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Represents an ActiveX control.
 type: docs
 weight: 136
-url: /java/com.aspose.slides/control/
+url: /androidjava/com.aspose.slides/control/
 ---
 **Inheritance:**
 java.lang.Object, com.aspose.slides.DomObject

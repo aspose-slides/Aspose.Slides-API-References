@@ -1,10 +1,10 @@
 ---
 title: SystemColor
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Represents predefined system colors.
 type: docs
 weight: 541
-url: /java/com.aspose.slides/systemcolor/
+url: /androidjava/com.aspose.slides/systemcolor/
 ---
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum

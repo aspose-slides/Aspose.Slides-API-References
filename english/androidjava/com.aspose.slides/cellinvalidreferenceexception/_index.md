@@ -1,10 +1,10 @@
 ---
 title: CellInvalidReferenceException
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: The exception that is thrown when an invalid cell reference is encountered.
 type: docs
 weight: 75
-url: /java/com.aspose.slides/cellinvalidreferenceexception/
+url: /androidjava/com.aspose.slides/cellinvalidreferenceexception/
 ---
 **Inheritance:**
 java.lang.Object, java.lang.Throwable, java.lang.Exception, java.lang.RuntimeException, com.aspose.ms.System.Exception, [com.aspose.slides.OOXMLException](../../com.aspose.slides/ooxmlexception), [com.aspose.slides.PptxException](../../com.aspose.slides/pptxexception), [com.aspose.slides.PptxEditException](../../com.aspose.slides/pptxeditexception)

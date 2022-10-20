@@ -1,10 +1,10 @@
 ---
 title: IMasterNotesSlideHeaderFooterManager
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Represents manager which holds behavior of the master notes slide footer date-time page number placeholders and all child placeholders.
 type: docs
 weight: 870
-url: /java/com.aspose.slides/imasternotesslideheaderfootermanager/
+url: /androidjava/com.aspose.slides/imasternotesslideheaderfootermanager/
 ---
 **All Implemented Interfaces:**
 [com.aspose.slides.IBaseHandoutNotesSlideHeaderFooterManag](../../com.aspose.slides/ibasehandoutnotesslideheaderfootermanag)

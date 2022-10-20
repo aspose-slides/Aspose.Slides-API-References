@@ -1,10 +1,10 @@
 ---
 title: CommentAuthor
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Represents an author of comments.
 type: docs
 weight: 127
-url: /java/com.aspose.slides/commentauthor/
+url: /androidjava/com.aspose.slides/commentauthor/
 ---
 **Inheritance:**
 java.lang.Object

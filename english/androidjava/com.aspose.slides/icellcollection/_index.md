@@ -1,10 +1,10 @@
 ---
 title: ICellCollection
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a collection of cells.
 type: docs
 weight: 676
-url: /java/com.aspose.slides/icellcollection/
+url: /androidjava/com.aspose.slides/icellcollection/
 ---
 **All Implemented Interfaces:**
 [com.aspose.slides.ISlideComponent](../../com.aspose.slides/islidecomponent), com.aspose.slides.IGenericCollection

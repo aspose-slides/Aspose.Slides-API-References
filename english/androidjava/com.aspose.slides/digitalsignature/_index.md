@@ -1,10 +1,10 @@
 ---
 title: DigitalSignature
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Digital signature in signed file.
 type: docs
 weight: 153
-url: /java/com.aspose.slides/digitalsignature/
+url: /androidjava/com.aspose.slides/digitalsignature/
 ---
 **Inheritance:**
 java.lang.Object

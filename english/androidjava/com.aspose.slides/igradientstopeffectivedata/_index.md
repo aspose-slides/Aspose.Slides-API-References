@@ -1,10 +1,10 @@
 ---
 title: IGradientStopEffectiveData
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: immutable object which represents a gradient stop.
 type: docs
 weight: 810
-url: /java/com.aspose.slides/igradientstopeffectivedata/
+url: /androidjava/com.aspose.slides/igradientstopeffectivedata/
 ---```
 public interface IGradientStopEffectiveData
 ```

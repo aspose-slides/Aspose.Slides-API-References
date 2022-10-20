@@ -1,10 +1,10 @@
 ---
 title: BulletFormat
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Represents paragraph bullet formatting properties.
 type: docs
 weight: 64
-url: /java/com.aspose.slides/bulletformat/
+url: /androidjava/com.aspose.slides/bulletformat/
 ---
 **Inheritance:**
 java.lang.Object, [com.aspose.slides.PVIObject](../../com.aspose.slides/pviobject)

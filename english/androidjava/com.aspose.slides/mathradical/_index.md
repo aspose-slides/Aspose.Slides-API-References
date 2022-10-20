@@ -1,10 +1,10 @@
 ---
 title: MathRadical
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Specifies the radical function consisting of a base and an optional degree.
 type: docs
 weight: 346
-url: /java/com.aspose.slides/mathradical/
+url: /androidjava/com.aspose.slides/mathradical/
 ---
 **Inheritance:**
 java.lang.Object, [com.aspose.slides.MathElementBase](../../com.aspose.slides/mathelementbase)

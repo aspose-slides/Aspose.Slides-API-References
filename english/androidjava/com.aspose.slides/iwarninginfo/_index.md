@@ -1,10 +1,10 @@
 ---
 title: IWarningInfo
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a base interface for all warnings.
 type: docs
 weight: 1104
-url: /java/com.aspose.slides/iwarninginfo/
+url: /androidjava/com.aspose.slides/iwarninginfo/
 ---```
 public interface IWarningInfo
 ```

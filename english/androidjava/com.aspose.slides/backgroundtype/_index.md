@@ -1,10 +1,10 @@
 ---
 title: BackgroundType
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Defines the slide background fill source.
 type: docs
 weight: 36
-url: /java/com.aspose.slides/backgroundtype/
+url: /androidjava/com.aspose.slides/backgroundtype/
 ---
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum

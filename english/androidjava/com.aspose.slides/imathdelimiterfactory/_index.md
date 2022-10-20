@@ -1,10 +1,10 @@
 ---
 title: IMathDelimiterFactory
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Allows to create a math delimiter
 type: docs
 weight: 892
-url: /java/com.aspose.slides/imathdelimiterfactory/
+url: /androidjava/com.aspose.slides/imathdelimiterfactory/
 ---```
 public interface IMathDelimiterFactory
 ```

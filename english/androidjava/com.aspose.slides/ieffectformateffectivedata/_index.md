@@ -1,10 +1,10 @@
 ---
 title: IEffectFormatEffectiveData
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Imutable object which contains effective effect formatting properties.
 type: docs
 weight: 752
-url: /java/com.aspose.slides/ieffectformateffectivedata/
+url: /androidjava/com.aspose.slides/ieffectformateffectivedata/
 ---
 **All Implemented Interfaces:**
 [com.aspose.slides.IEffectParamSource](../../com.aspose.slides/ieffectparamsource)

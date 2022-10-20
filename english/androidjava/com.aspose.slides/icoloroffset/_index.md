@@ -1,10 +1,10 @@
 ---
 title: IColorOffset
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Represent color offset.
 type: docs
 weight: 711
-url: /java/com.aspose.slides/icoloroffset/
+url: /androidjava/com.aspose.slides/icoloroffset/
 ---```
 public interface IColorOffset
 ```

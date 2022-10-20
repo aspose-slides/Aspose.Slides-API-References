@@ -1,10 +1,10 @@
 ---
 title: Background
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Represents background of a slide.
 type: docs
 weight: 35
-url: /java/com.aspose.slides/background/
+url: /androidjava/com.aspose.slides/background/
 ---
 **Inheritance:**
 java.lang.Object, [com.aspose.slides.PVIObject](../../com.aspose.slides/pviobject)

@@ -1,10 +1,10 @@
 ---
 title: NormalViewProperties
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Represents normal view properties.
 type: docs
 weight: 371
-url: /java/com.aspose.slides/normalviewproperties/
+url: /androidjava/com.aspose.slides/normalviewproperties/
 ---
 **Inheritance:**
 java.lang.Object

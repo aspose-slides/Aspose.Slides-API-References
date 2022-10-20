@@ -1,10 +1,10 @@
 ---
 title: SmartArt
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a SmartArt diagram
 type: docs
 weight: 514
-url: /java/com.aspose.slides/smartart/
+url: /androidjava/com.aspose.slides/smartart/
 ---
 **Inheritance:**
 java.lang.Object, [com.aspose.slides.Shape](../../com.aspose.slides/shape), [com.aspose.slides.GraphicalObject](../../com.aspose.slides/graphicalobject)

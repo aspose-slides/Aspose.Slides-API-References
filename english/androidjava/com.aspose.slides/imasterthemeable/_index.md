@@ -1,10 +1,10 @@
 ---
 title: IMasterThemeable
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Represent master theme manager.
 type: docs
 weight: 877
-url: /java/com.aspose.slides/imasterthemeable/
+url: /androidjava/com.aspose.slides/imasterthemeable/
 ---
 **All Implemented Interfaces:**
 [com.aspose.slides.IThemeable](../../com.aspose.slides/ithemeable)

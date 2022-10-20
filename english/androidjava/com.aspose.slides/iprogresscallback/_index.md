@@ -1,10 +1,10 @@
 ---
 title: IProgressCallback
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a callback object for saving progress updates in percentage.
 type: docs
 weight: 985
-url: /java/com.aspose.slides/iprogresscallback/
+url: /androidjava/com.aspose.slides/iprogresscallback/
 ---```
 public interface IProgressCallback
 ```

@@ -1,10 +1,10 @@
 ---
 title: ParentLabelLayoutType
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Represents layout of category data labels.
 type: docs
 weight: 402
-url: /java/com.aspose.slides/parentlabellayouttype/
+url: /androidjava/com.aspose.slides/parentlabellayouttype/
 ---
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum

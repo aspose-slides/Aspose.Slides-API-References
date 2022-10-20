@@ -1,10 +1,10 @@
 ---
 title: ForEach.ForEachPortionCallback
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: 
 type: docs
 weight: 13
-url: /java/com.aspose.slides/foreach.foreachportioncallback/
+url: /androidjava/com.aspose.slides/foreach.foreachportioncallback/
 ---```
 public static interface ForEach.ForEachPortionCallback
 ```

@@ -1,10 +1,10 @@
 ---
 title: EffectStyle
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Represents an effect style.
 type: docs
 weight: 169
-url: /java/com.aspose.slides/effectstyle/
+url: /androidjava/com.aspose.slides/effectstyle/
 ---
 **Inheritance:**
 java.lang.Object, com.aspose.slides.DomObject

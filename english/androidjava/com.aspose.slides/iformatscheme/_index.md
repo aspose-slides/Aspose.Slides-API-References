@@ -1,10 +1,10 @@
 ---
 title: IFormatScheme
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Stores theme-defined formats for the shapes.
 type: docs
 weight: 793
-url: /java/com.aspose.slides/iformatscheme/
+url: /androidjava/com.aspose.slides/iformatscheme/
 ---
 **All Implemented Interfaces:**
 [com.aspose.slides.ISlideComponent](../../com.aspose.slides/islidecomponent)

@@ -1,10 +1,10 @@
 ---
 title: IChartTitle
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Represents chart title properties.
 type: docs
 weight: 705
-url: /java/com.aspose.slides/icharttitle/
+url: /androidjava/com.aspose.slides/icharttitle/
 ---
 **All Implemented Interfaces:**
 [com.aspose.slides.ILayoutable](../../com.aspose.slides/ilayoutable), [com.aspose.slides.IOverridableText](../../com.aspose.slides/ioverridabletext)

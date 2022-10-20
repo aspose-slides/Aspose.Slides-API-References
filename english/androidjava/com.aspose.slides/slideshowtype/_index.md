@@ -1,10 +1,10 @@
 ---
 title: SlideShowType
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Base slide show settings.
 type: docs
 weight: 507
-url: /java/com.aspose.slides/slideshowtype/
+url: /androidjava/com.aspose.slides/slideshowtype/
 ---
 **Inheritance:**
 java.lang.Object

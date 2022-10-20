@@ -1,10 +1,10 @@
 ---
 title: ISVGOptions
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Represents an SVG options.
 type: docs
 weight: 1002
-url: /java/com.aspose.slides/isvgoptions/
+url: /androidjava/com.aspose.slides/isvgoptions/
 ---
 **All Implemented Interfaces:**
 [com.aspose.slides.ISaveOptions](../../com.aspose.slides/isaveoptions)

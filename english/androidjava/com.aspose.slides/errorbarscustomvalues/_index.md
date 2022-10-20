@@ -1,10 +1,10 @@
 ---
 title: ErrorBarsCustomValues
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Specifies the errors bar values.
 type: docs
 weight: 182
-url: /java/com.aspose.slides/errorbarscustomvalues/
+url: /androidjava/com.aspose.slides/errorbarscustomvalues/
 ---
 **Inheritance:**
 java.lang.Object, com.aspose.slides.DomObject

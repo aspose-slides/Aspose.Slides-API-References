@@ -1,10 +1,10 @@
 ---
 title: AxisPositionType
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Determines a position of axis.
 type: docs
 weight: 33
-url: /java/com.aspose.slides/axispositiontype/
+url: /androidjava/com.aspose.slides/axispositiontype/
 ---
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum

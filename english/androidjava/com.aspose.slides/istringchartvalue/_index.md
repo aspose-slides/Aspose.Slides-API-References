@@ -1,10 +1,10 @@
 ---
 title: IStringChartValue
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Represent string value which can be stored in pptx presentation document in two ways 1 in cell/cells of workbook related to chart 2 as literal value.
 type: docs
 weight: 1043
-url: /java/com.aspose.slides/istringchartvalue/
+url: /androidjava/com.aspose.slides/istringchartvalue/
 ---
 **All Implemented Interfaces:**
 [com.aspose.slides.IMultipleCellChartValue](../../com.aspose.slides/imultiplecellchartvalue)

@@ -1,10 +1,10 @@
 ---
 title: IGeometryShape
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Represents the parent class for all geometric shapes.
 type: docs
 weight: 799
-url: /java/com.aspose.slides/igeometryshape/
+url: /androidjava/com.aspose.slides/igeometryshape/
 ---
 **All Implemented Interfaces:**
 [com.aspose.slides.IShape](../../com.aspose.slides/ishape)

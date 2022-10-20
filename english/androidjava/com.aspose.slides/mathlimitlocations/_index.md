@@ -1,10 +1,10 @@
 ---
 title: MathLimitLocations
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Location of limits subscript/superscript in n-ary operators.
 type: docs
 weight: 337
-url: /java/com.aspose.slides/mathlimitlocations/
+url: /androidjava/com.aspose.slides/mathlimitlocations/
 ---
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum

@@ -1,10 +1,10 @@
 ---
 title: IEffect
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Represents animation effect.
 type: docs
 weight: 748
-url: /java/com.aspose.slides/ieffect/
+url: /androidjava/com.aspose.slides/ieffect/
 ---```
 public interface IEffect
 ```

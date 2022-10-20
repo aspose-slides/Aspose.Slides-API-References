@@ -1,10 +1,10 @@
 ---
 title: ColorFormat
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a color used in a presentation.
 type: docs
 weight: 109
-url: /java/com.aspose.slides/colorformat/
+url: /androidjava/com.aspose.slides/colorformat/
 ---
 **Inheritance:**
 java.lang.Object, [com.aspose.slides.PVIObject](../../com.aspose.slides/pviobject)

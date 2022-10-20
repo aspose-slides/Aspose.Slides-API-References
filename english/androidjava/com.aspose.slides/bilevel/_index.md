@@ -1,10 +1,10 @@
 ---
 title: BiLevel
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a Bi-Level black/white effect.
 type: docs
 weight: 55
-url: /java/com.aspose.slides/bilevel/
+url: /androidjava/com.aspose.slides/bilevel/
 ---
 **Inheritance:**
 java.lang.Object, [com.aspose.slides.PVIObject](../../com.aspose.slides/pviobject), [com.aspose.slides.ImageTransformOperation](../../com.aspose.slides/imagetransformoperation)

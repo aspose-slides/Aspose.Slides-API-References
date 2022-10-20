@@ -1,10 +1,10 @@
 ---
 title: IMathGroupingCharacterFactory
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Allows to create a math grouping character
 type: docs
 weight: 900
-url: /java/com.aspose.slides/imathgroupingcharacterfactory/
+url: /androidjava/com.aspose.slides/imathgroupingcharacterfactory/
 ---```
 public interface IMathGroupingCharacterFactory
 ```

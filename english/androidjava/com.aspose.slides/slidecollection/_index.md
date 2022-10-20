@@ -1,10 +1,10 @@
 ---
 title: SlideCollection
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a collection of a slides.
 type: docs
 weight: 500
-url: /java/com.aspose.slides/slidecollection/
+url: /androidjava/com.aspose.slides/slidecollection/
 ---
 **Inheritance:**
 java.lang.Object, com.aspose.slides.DomObject

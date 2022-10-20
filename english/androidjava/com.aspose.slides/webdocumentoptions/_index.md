@@ -1,10 +1,10 @@
 ---
 title: WebDocumentOptions
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Represents an options set for  saving.
 type: docs
 weight: 613
-url: /java/com.aspose.slides/webdocumentoptions/
+url: /androidjava/com.aspose.slides/webdocumentoptions/
 ---
 **Inheritance:**
 java.lang.Object

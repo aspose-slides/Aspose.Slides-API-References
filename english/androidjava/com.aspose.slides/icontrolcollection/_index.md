@@ -1,10 +1,10 @@
 ---
 title: IControlCollection
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: A collection of ActiveX controls.
 type: docs
 weight: 731
-url: /java/com.aspose.slides/icontrolcollection/
+url: /androidjava/com.aspose.slides/icontrolcollection/
 ---
 **All Implemented Interfaces:**
 com.aspose.slides.IGenericCollection

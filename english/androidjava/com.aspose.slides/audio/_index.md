@@ -1,10 +1,10 @@
 ---
 title: Audio
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Represents an embedded audio file.
 type: docs
 weight: 21
-url: /java/com.aspose.slides/audio/
+url: /androidjava/com.aspose.slides/audio/
 ---
 **Inheritance:**
 java.lang.Object, com.aspose.slides.DomObject

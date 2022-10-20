@@ -1,10 +1,10 @@
 ---
 title: LayoutSlideCollection
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a base class for collection of a layout slides.
 type: docs
 weight: 261
-url: /java/com.aspose.slides/layoutslidecollection/
+url: /androidjava/com.aspose.slides/layoutslidecollection/
 ---
 **Inheritance:**
 java.lang.Object

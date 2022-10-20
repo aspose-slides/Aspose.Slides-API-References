@@ -1,10 +1,10 @@
 ---
 title: IEffectStyleCollection
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a collection of effect styles.
 type: docs
 weight: 755
-url: /java/com.aspose.slides/ieffectstylecollection/
+url: /androidjava/com.aspose.slides/ieffectstylecollection/
 ---
 **All Implemented Interfaces:**
 com.aspose.slides.IGenericCollection

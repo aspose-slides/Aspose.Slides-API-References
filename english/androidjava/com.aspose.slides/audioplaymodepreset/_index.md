@@ -1,10 +1,10 @@
 ---
 title: AudioPlayModePreset
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Constants which define how a sound is played.
 type: docs
 weight: 24
-url: /java/com.aspose.slides/audioplaymodepreset/
+url: /androidjava/com.aspose.slides/audioplaymodepreset/
 ---
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum

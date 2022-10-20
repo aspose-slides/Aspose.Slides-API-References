@@ -1,10 +1,10 @@
 ---
 title: QuartileMethodType
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Returns type of quartile method
 type: docs
 weight: 457
-url: /java/com.aspose.slides/quartilemethodtype/
+url: /androidjava/com.aspose.slides/quartilemethodtype/
 ---
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum

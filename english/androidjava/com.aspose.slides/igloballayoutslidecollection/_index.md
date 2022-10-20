@@ -1,10 +1,10 @@
 ---
 title: IGlobalLayoutSlideCollection
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a collection of all layout slides in presentation.
 type: docs
 weight: 802
-url: /java/com.aspose.slides/igloballayoutslidecollection/
+url: /androidjava/com.aspose.slides/igloballayoutslidecollection/
 ---
 **All Implemented Interfaces:**
 [com.aspose.slides.ILayoutSlideCollection](../../com.aspose.slides/ilayoutslidecollection)

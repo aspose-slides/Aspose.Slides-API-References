@@ -1,10 +1,10 @@
 ---
 title: IColorChange
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a Color Change effect.
 type: docs
 weight: 707
-url: /java/com.aspose.slides/icolorchange/
+url: /androidjava/com.aspose.slides/icolorchange/
 ---
 **All Implemented Interfaces:**
 [com.aspose.slides.IImageTransformOperation](../../com.aspose.slides/iimagetransformoperation), com.aspose.slides.IAccessiblePVIObject

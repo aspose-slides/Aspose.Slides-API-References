@@ -1,10 +1,10 @@
 ---
 title: IRowCollection
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Represents table row collection.
 type: docs
 weight: 999
-url: /java/com.aspose.slides/irowcollection/
+url: /androidjava/com.aspose.slides/irowcollection/
 ---
 **All Implemented Interfaces:**
 com.aspose.slides.IGenericCollection

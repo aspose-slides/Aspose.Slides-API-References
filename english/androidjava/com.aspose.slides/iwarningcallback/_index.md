@@ -1,10 +1,10 @@
 ---
 title: IWarningCallback
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Interface for classes which receive warning
 type: docs
 weight: 1103
-url: /java/com.aspose.slides/iwarningcallback/
+url: /androidjava/com.aspose.slides/iwarningcallback/
 ---```
 public interface IWarningCallback
 ```

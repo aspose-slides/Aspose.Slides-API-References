@@ -1,10 +1,10 @@
 ---
 title: OptionalBlackTransition
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Optional black slide transition effect.
 type: docs
 weight: 388
-url: /java/com.aspose.slides/optionalblacktransition/
+url: /androidjava/com.aspose.slides/optionalblacktransition/
 ---
 **Inheritance:**
 java.lang.Object, [com.aspose.slides.TransitionValueBase](../../com.aspose.slides/transitionvaluebase)

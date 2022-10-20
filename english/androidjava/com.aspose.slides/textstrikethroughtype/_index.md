@@ -1,10 +1,10 @@
 ---
 title: TextStrikethroughType
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Represents the type of text strikethrough.
 type: docs
 weight: 563
-url: /java/com.aspose.slides/textstrikethroughtype/
+url: /androidjava/com.aspose.slides/textstrikethroughtype/
 ---
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum

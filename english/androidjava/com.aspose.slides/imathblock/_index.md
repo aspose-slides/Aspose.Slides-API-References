@@ -1,10 +1,10 @@
 ---
 title: IMathBlock
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Specifies an instance of mathematical text that contained within a MathParagraph and starts on its own line.
 type: docs
 weight: 884
-url: /java/com.aspose.slides/imathblock/
+url: /androidjava/com.aspose.slides/imathblock/
 ---
 **All Implemented Interfaces:**
 [com.aspose.slides.IMathElementCollection](../../com.aspose.slides/imathelementcollection), [com.aspose.slides.IMathElement](../../com.aspose.slides/imathelement)

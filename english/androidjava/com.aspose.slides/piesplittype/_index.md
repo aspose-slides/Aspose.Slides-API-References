@@ -1,10 +1,10 @@
 ---
 title: PieSplitType
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a type of splitting points in the second pie or bar  on a pie-of-pie or bar-of-pie chart.
 type: docs
 weight: 421
-url: /java/com.aspose.slides/piesplittype/
+url: /androidjava/com.aspose.slides/piesplittype/
 ---
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum

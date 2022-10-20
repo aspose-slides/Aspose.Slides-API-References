@@ -1,10 +1,10 @@
 ---
 title: MathSuperscriptElement
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Specifies the superscript object which consists of a base  and a reduced-size superscript placed above and to the right
 type: docs
 weight: 354
-url: /java/com.aspose.slides/mathsuperscriptelement/
+url: /androidjava/com.aspose.slides/mathsuperscriptelement/
 ---
 **Inheritance:**
 java.lang.Object, [com.aspose.slides.MathElementBase](../../com.aspose.slides/mathelementbase), [com.aspose.slides.BaseScript](../../com.aspose.slides/basescript)

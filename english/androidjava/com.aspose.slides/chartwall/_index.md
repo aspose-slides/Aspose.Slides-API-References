@@ -1,10 +1,10 @@
 ---
 title: ChartWall
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Represents walls on 3d charts.
 type: docs
 weight: 104
-url: /java/com.aspose.slides/chartwall/
+url: /androidjava/com.aspose.slides/chartwall/
 ---
 **Inheritance:**
 java.lang.Object, com.aspose.slides.DomObject

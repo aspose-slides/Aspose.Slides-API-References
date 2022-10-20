@@ -1,10 +1,10 @@
 ---
 title: ChartLinesFormat
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Represents gridlines format properties.
 type: docs
 weight: 92
-url: /java/com.aspose.slides/chartlinesformat/
+url: /androidjava/com.aspose.slides/chartlinesformat/
 ---
 **Inheritance:**
 java.lang.Object

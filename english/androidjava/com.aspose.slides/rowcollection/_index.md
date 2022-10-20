@@ -1,10 +1,10 @@
 ---
 title: RowCollection
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Represents table row collection.
 type: docs
 weight: 469
-url: /java/com.aspose.slides/rowcollection/
+url: /androidjava/com.aspose.slides/rowcollection/
 ---
 **Inheritance:**
 java.lang.Object, com.aspose.slides.DomObject

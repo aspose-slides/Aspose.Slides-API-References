@@ -1,10 +1,10 @@
 ---
 title: PresentationInfo
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Information about presentation file
 type: docs
 weight: 446
-url: /java/com.aspose.slides/presentationinfo/
+url: /androidjava/com.aspose.slides/presentationinfo/
 ---
 **Inheritance:**
 java.lang.Object

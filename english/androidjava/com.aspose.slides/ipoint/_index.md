@@ -1,10 +1,10 @@
 ---
 title: IPoint
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Represent animation point.
 type: docs
 weight: 967
-url: /java/com.aspose.slides/ipoint/
+url: /androidjava/com.aspose.slides/ipoint/
 ---```
 public interface IPoint
 ```

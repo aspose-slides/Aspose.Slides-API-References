@@ -1,10 +1,10 @@
 ---
 title: IMathElementCollection
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a collection of mathematical elements MathElement.
 type: docs
 weight: 894
-url: /java/com.aspose.slides/imathelementcollection/
+url: /androidjava/com.aspose.slides/imathelementcollection/
 ---
 **All Implemented Interfaces:**
 com.aspose.ms.System.Collections.Generic.IGenericEnumerable

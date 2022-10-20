@@ -1,10 +1,10 @@
 ---
 title: DataLabelFormat
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Represents formatting options for DataLabel.
 type: docs
 weight: 149
-url: /java/com.aspose.slides/datalabelformat/
+url: /androidjava/com.aspose.slides/datalabelformat/
 ---
 **Inheritance:**
 java.lang.Object, [com.aspose.slides.PVIObject](../../com.aspose.slides/pviobject)

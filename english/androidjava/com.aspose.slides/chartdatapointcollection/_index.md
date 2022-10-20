@@ -1,10 +1,10 @@
 ---
 title: ChartDataPointCollection
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Represents collection of a series data point.
 type: docs
 weight: 85
-url: /java/com.aspose.slides/chartdatapointcollection/
+url: /androidjava/com.aspose.slides/chartdatapointcollection/
 ---
 **Inheritance:**
 java.lang.Object, com.aspose.slides.DomObject

@@ -1,10 +1,10 @@
 ---
 title: NormalViewRestoredProperties
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Specifies the sizing of the slide region width when a child of restoredTop height when a child of restoredLeft of the normal view when the region is of a variable restored sizeneither minimized nor maximized.
 type: docs
 weight: 372
-url: /java/com.aspose.slides/normalviewrestoredproperties/
+url: /androidjava/com.aspose.slides/normalviewrestoredproperties/
 ---
 **Inheritance:**
 java.lang.Object

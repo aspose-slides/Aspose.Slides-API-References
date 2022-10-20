@@ -1,10 +1,10 @@
 ---
 title: IBiLevelEffectiveData
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Immutable object which represents a Bi-Level black/white effect.
 type: docs
 weight: 666
-url: /java/com.aspose.slides/ibileveleffectivedata/
+url: /androidjava/com.aspose.slides/ibileveleffectivedata/
 ---
 **All Implemented Interfaces:**
 [com.aspose.slides.IEffectEffectiveData](../../com.aspose.slides/ieffecteffectivedata)

@@ -1,10 +1,10 @@
 ---
 title: IFontFallBackRulesCollection
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a collection of FontFallBack rules defined by user
 type: docs
 weight: 781
-url: /java/com.aspose.slides/ifontfallbackrulescollection/
+url: /androidjava/com.aspose.slides/ifontfallbackrulescollection/
 ---
 **All Implemented Interfaces:**
 com.aspose.slides.IGenericCollection

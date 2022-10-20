@@ -1,10 +1,10 @@
 ---
 title: MathJustification
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Specifies justification of the math paragraph a series of adjacent instances of mathematical text within the same paragraph
 type: docs
 weight: 333
-url: /java/com.aspose.slides/mathjustification/
+url: /androidjava/com.aspose.slides/mathjustification/
 ---
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum

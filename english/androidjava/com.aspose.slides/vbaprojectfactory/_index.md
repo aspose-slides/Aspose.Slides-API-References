@@ -1,10 +1,10 @@
 ---
 title: VbaProjectFactory
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Allows to create VBA project via COM interface
 type: docs
 weight: 599
-url: /java/com.aspose.slides/vbaprojectfactory/
+url: /androidjava/com.aspose.slides/vbaprojectfactory/
 ---
 **Inheritance:**
 java.lang.Object

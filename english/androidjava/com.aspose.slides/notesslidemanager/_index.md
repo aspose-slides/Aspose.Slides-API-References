@@ -1,10 +1,10 @@
 ---
 title: NotesSlideManager
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Notes slide manager.
 type: docs
 weight: 378
-url: /java/com.aspose.slides/notesslidemanager/
+url: /androidjava/com.aspose.slides/notesslidemanager/
 ---
 **Inheritance:**
 java.lang.Object, com.aspose.slides.DomObject

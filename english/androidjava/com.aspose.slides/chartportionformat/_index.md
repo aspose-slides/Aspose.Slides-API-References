@@ -1,10 +1,10 @@
 ---
 title: ChartPortionFormat
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: This class contains the chart portion formatting properties used in charts.
 type: docs
 weight: 94
-url: /java/com.aspose.slides/chartportionformat/
+url: /androidjava/com.aspose.slides/chartportionformat/
 ---
 **Inheritance:**
 java.lang.Object, [com.aspose.slides.PVIObject](../../com.aspose.slides/pviobject), [com.aspose.slides.BasePortionFormat](../../com.aspose.slides/baseportionformat)

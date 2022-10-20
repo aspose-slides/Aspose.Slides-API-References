@@ -1,10 +1,10 @@
 ---
 title: Size
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Class for describing width and height dimensions in some arbitrary unit.
 type: docs
 weight: 10
-url: /java/com.aspose.slides.android/size/
+url: /androidjava/com.aspose.slides.android/size/
 ---
 **Inheritance:**
 java.lang.Object

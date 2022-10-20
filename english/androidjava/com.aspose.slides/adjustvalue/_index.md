@@ -1,10 +1,10 @@
 ---
 title: AdjustValue
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a geometry shapes adjustment value.
 type: docs
 weight: 10
-url: /java/com.aspose.slides/adjustvalue/
+url: /androidjava/com.aspose.slides/adjustvalue/
 ---
 **Inheritance:**
 java.lang.Object

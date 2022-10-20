@@ -1,10 +1,10 @@
 ---
 title: BaseSlide
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Represents common data for all slide types.
 type: docs
 weight: 44
-url: /java/com.aspose.slides/baseslide/
+url: /androidjava/com.aspose.slides/baseslide/
 ---
 **Inheritance:**
 java.lang.Object

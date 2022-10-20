@@ -1,10 +1,10 @@
 ---
 title: LineFillFormat
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Represents properties for lines filling.
 type: docs
 weight: 282
-url: /java/com.aspose.slides/linefillformat/
+url: /androidjava/com.aspose.slides/linefillformat/
 ---
 **Inheritance:**
 java.lang.Object, [com.aspose.slides.PVIObject](../../com.aspose.slides/pviobject)

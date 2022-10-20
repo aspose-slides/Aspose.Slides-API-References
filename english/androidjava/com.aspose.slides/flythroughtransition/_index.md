@@ -1,10 +1,10 @@
 ---
 title: FlyThroughTransition
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Fly-through slide transition effect.
 type: docs
 weight: 198
-url: /java/com.aspose.slides/flythroughtransition/
+url: /androidjava/com.aspose.slides/flythroughtransition/
 ---
 **Inheritance:**
 java.lang.Object, [com.aspose.slides.TransitionValueBase](../../com.aspose.slides/transitionvaluebase)

@@ -1,10 +1,10 @@
 ---
 title: IRippleTransition
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Ripple slide transition effect.
 type: docs
 weight: 995
-url: /java/com.aspose.slides/irippletransition/
+url: /androidjava/com.aspose.slides/irippletransition/
 ---
 **All Implemented Interfaces:**
 [com.aspose.slides.ITransitionValueBase](../../com.aspose.slides/itransitionvaluebase)

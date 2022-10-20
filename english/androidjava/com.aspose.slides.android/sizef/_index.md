@@ -1,10 +1,10 @@
 ---
 title: SizeF
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Class for describing width and height dimensions in some arbitrary unit with floating-point values.
 type: docs
 weight: 11
-url: /java/com.aspose.slides.android/sizef/
+url: /androidjava/com.aspose.slides.android/sizef/
 ---
 **Inheritance:**
 java.lang.Object

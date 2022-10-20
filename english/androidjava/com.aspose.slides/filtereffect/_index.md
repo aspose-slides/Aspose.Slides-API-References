@@ -1,10 +1,10 @@
 ---
 title: FilterEffect
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Represent filter effect of behavior.
 type: docs
 weight: 194
-url: /java/com.aspose.slides/filtereffect/
+url: /androidjava/com.aspose.slides/filtereffect/
 ---
 **Inheritance:**
 java.lang.Object, [com.aspose.slides.Behavior](../../com.aspose.slides/behavior)

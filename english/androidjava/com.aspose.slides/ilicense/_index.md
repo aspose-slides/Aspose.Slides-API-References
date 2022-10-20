@@ -1,10 +1,10 @@
 ---
 title: ILicense
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Provides methods to license the component.
 type: docs
 weight: 850
-url: /java/com.aspose.slides/ilicense/
+url: /androidjava/com.aspose.slides/ilicense/
 ---```
 public interface ILicense
 ```

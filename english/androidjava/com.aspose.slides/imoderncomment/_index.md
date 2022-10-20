@@ -1,10 +1,10 @@
 ---
 title: IModernComment
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a comment on a slide.
 type: docs
 weight: 923
-url: /java/com.aspose.slides/imoderncomment/
+url: /androidjava/com.aspose.slides/imoderncomment/
 ---
 **All Implemented Interfaces:**
 [com.aspose.slides.IComment](../../com.aspose.slides/icomment)

@@ -1,10 +1,10 @@
 ---
 title: ForEach.ForEachParagraphCallback
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: 
 type: docs
 weight: 12
-url: /java/com.aspose.slides/foreach.foreachparagraphcallback/
+url: /androidjava/com.aspose.slides/foreach.foreachparagraphcallback/
 ---```
 public static interface ForEach.ForEachParagraphCallback
 ```

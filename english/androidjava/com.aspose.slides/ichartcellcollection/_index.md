@@ -1,10 +1,10 @@
 ---
 title: IChartCellCollection
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Represents collection of a cells with data.
 type: docs
 weight: 683
-url: /java/com.aspose.slides/ichartcellcollection/
+url: /androidjava/com.aspose.slides/ichartcellcollection/
 ---
 **All Implemented Interfaces:**
 com.aspose.ms.System.Collections.Generic.IGenericEnumerable

@@ -1,10 +1,10 @@
 ---
 title: ColorReplace
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a Color Replacement effect.
 type: docs
 weight: 113
-url: /java/com.aspose.slides/colorreplace/
+url: /androidjava/com.aspose.slides/colorreplace/
 ---
 **Inheritance:**
 java.lang.Object, [com.aspose.slides.PVIObject](../../com.aspose.slides/pviobject), [com.aspose.slides.ImageTransformOperation](../../com.aspose.slides/imagetransformoperation)

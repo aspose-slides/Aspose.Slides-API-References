@@ -1,10 +1,10 @@
 ---
 title: ShapeElement
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a part of shape with same outline and fill properties.
 type: docs
 weight: 487
-url: /java/com.aspose.slides/shapeelement/
+url: /androidjava/com.aspose.slides/shapeelement/
 ---
 **Inheritance:**
 java.lang.Object

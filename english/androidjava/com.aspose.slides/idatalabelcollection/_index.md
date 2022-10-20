@@ -1,10 +1,10 @@
 ---
 title: IDataLabelCollection
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a series labels.
 type: docs
 weight: 738
-url: /java/com.aspose.slides/idatalabelcollection/
+url: /androidjava/com.aspose.slides/idatalabelcollection/
 ---
 **All Implemented Interfaces:**
 com.aspose.ms.System.Collections.Generic.IGenericEnumerable, [com.aspose.slides.IChartComponent](../../com.aspose.slides/ichartcomponent)

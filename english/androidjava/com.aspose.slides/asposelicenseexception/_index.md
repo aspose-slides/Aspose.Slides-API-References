@@ -1,10 +1,10 @@
 ---
 title: AsposeLicenseException
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: This exception is thrown if any errors with license are detected.
 type: docs
 weight: 20
-url: /java/com.aspose.slides/asposelicenseexception/
+url: /androidjava/com.aspose.slides/asposelicenseexception/
 ---
 **Inheritance:**
 java.lang.Object, java.lang.Throwable, java.lang.Exception, java.lang.RuntimeException, com.aspose.ms.System.Exception

@@ -1,10 +1,10 @@
 ---
 title: VbaModule
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Represents module that is contained in VBA project.
 type: docs
 weight: 596
-url: /java/com.aspose.slides/vbamodule/
+url: /androidjava/com.aspose.slides/vbamodule/
 ---
 **Inheritance:**
 java.lang.Object

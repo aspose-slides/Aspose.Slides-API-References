@@ -1,10 +1,10 @@
 ---
 title: IMotionPath
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Represent motion path.
 type: docs
 weight: 927
-url: /java/com.aspose.slides/imotionpath/
+url: /androidjava/com.aspose.slides/imotionpath/
 ---
 **All Implemented Interfaces:**
 com.aspose.ms.System.Collections.Generic.IGenericEnumerable

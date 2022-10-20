@@ -1,10 +1,10 @@
 ---
 title: IBlur
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a Blur effect that is applied to the entire shape including its fill.
 type: docs
 weight: 668
-url: /java/com.aspose.slides/iblur/
+url: /androidjava/com.aspose.slides/iblur/
 ---
 **All Implemented Interfaces:**
 [com.aspose.slides.IImageTransformOperation](../../com.aspose.slides/iimagetransformoperation), com.aspose.slides.IAccessiblePVIObject

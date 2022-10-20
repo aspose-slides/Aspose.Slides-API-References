@@ -1,10 +1,10 @@
 ---
 title: IDataLabelFormat
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Represents formatting options for DataLabel.
 type: docs
 weight: 739
-url: /java/com.aspose.slides/idatalabelformat/
+url: /androidjava/com.aspose.slides/idatalabelformat/
 ---
 **All Implemented Interfaces:**
 [com.aspose.slides.IFormattedTextContainer](../../com.aspose.slides/iformattedtextcontainer)

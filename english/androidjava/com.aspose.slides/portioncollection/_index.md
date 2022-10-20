@@ -1,10 +1,10 @@
 ---
 title: PortionCollection
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a collection of portions.
 type: docs
 weight: 428
-url: /java/com.aspose.slides/portioncollection/
+url: /androidjava/com.aspose.slides/portioncollection/
 ---
 **Inheritance:**
 java.lang.Object, com.aspose.slides.DomObject

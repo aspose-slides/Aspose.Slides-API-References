@@ -1,10 +1,10 @@
 ---
 title: GradientStopCollection
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Represnts a collection of gradient stops.
 type: docs
 weight: 228
-url: /java/com.aspose.slides/gradientstopcollection/
+url: /androidjava/com.aspose.slides/gradientstopcollection/
 ---
 **Inheritance:**
 java.lang.Object, [com.aspose.slides.PVIObject](../../com.aspose.slides/pviobject)

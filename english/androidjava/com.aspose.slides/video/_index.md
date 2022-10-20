@@ -1,10 +1,10 @@
 ---
 title: Video
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Represents an image embedded into a presentation.
 type: docs
 weight: 603
-url: /java/com.aspose.slides/video/
+url: /androidjava/com.aspose.slides/video/
 ---
 **Inheritance:**
 java.lang.Object

@@ -1,10 +1,10 @@
 ---
 title: ViewType
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Presentation view types
 type: docs
 weight: 610
-url: /java/com.aspose.slides/viewtype/
+url: /androidjava/com.aspose.slides/viewtype/
 ---
 **Inheritance:**
 java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum

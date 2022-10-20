@@ -1,10 +1,10 @@
 ---
 title: ParagraphFactory
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Allows to create paragraphs
 type: docs
 weight: 400
-url: /java/com.aspose.slides/paragraphfactory/
+url: /androidjava/com.aspose.slides/paragraphfactory/
 ---
 **Inheritance:**
 java.lang.Object

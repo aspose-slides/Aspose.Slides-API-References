@@ -1,10 +1,10 @@
 ---
 title: ICommentAuthorCollection
-second_title: Aspose.Slides for Java API Reference
+second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a collection of comment authors.
 type: docs
 weight: 725
-url: /java/com.aspose.slides/icommentauthorcollection/
+url: /androidjava/com.aspose.slides/icommentauthorcollection/
 ---
 **All Implemented Interfaces:**
 com.aspose.slides.IGenericCollection
