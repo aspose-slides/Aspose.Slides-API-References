@@ -76,3 +76,16 @@ Estos son enlaces a algunos recursos útiles:
 
 - [Aspose.Slides para Android a través de la referencia de la API de Java](/slides/androidjava/)
 
+## Aspose.Slides para PHP a través de Java
+
+{{% alert color="primary" %}} 
+
+![Aspose.Slides para PHP a través de Java Logotipo del producto](../home_8.png)
+
+Aspose.Slides para PHP a través de Java es una biblioteca de clases que permite que sus aplicaciones lean y escriban documentos de PowerPoint® sin usar Microsoft PowerPoint®. Aspose.Slides para PHP a través de Java es el primer y único componente que brinda la funcionalidad para administrar documentos de PowerPoint®. Aspose.Slides para PHP a través de Java proporciona una gran cantidad de funciones clave, como la gestión de texto, formas, tablas y animaciones, la adición de audio y video a las diapositivas, la vista previa de diapositivas, la exportación de diapositivas a formato SVG, PDF y más.
+
+{{% /alert %}} 
+
+Estos son enlaces a algunos recursos útiles:
+
+- [Aspose.Slides para PHP a través de la referencia de la API de Java](/slides/phpjava/)
