@@ -1,7 +1,7 @@
 ---
 title: DisplayBlanksAsType
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Determines how missing data will be displayed.
+description: Determines how missing data will be displayed.
 type: docs
 weight: 155
 url: /androidjava/com.aspose.slides/displayblanksastype/

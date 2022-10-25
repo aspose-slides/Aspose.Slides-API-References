@@ -1,9 +1,9 @@
 ---
 title: IAxis
 second_title: Aspose.Slides for Java API Reference
-description:  Encapsulates the object that represents a charts axis.
+description: Encapsulates the object that represents a charts axis.
 type: docs
-weight: 645
+weight: 646
 url: /java/com.aspose.slides/iaxis/
 ---
 **All Implemented Interfaces:**
@@ -976,7 +976,7 @@ public abstract int getCategoryAxisType()
 ```
 
 
-Specifies the type of the category axis. Read/write [CategoryAxisType](../../com.aspose.slides/categoryaxistype)(\#getCategoryAxisType/\#setCategoryAxisType(int)).
+Specifies the type of the category axis. Read/write [CategoryAxisType](../../com.aspose.slides/categoryaxistype)(\#getCategoryAxisType.getCategoryAxisType/\#setCategoryAxisType(int).setCategoryAxisType(int)).
 
 **Returns:**
 int
@@ -986,7 +986,7 @@ public abstract void setCategoryAxisType(int value)
 ```
 
 
-Specifies the type of the category axis. Read/write [CategoryAxisType](../../com.aspose.slides/categoryaxistype)(\#getCategoryAxisType/\#setCategoryAxisType(int)).
+Specifies the type of the category axis. Read/write [CategoryAxisType](../../com.aspose.slides/categoryaxistype)(\#getCategoryAxisType.getCategoryAxisType/\#setCategoryAxisType(int).setCategoryAxisType(int)).
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -1,9 +1,9 @@
 ---
 title: IChartParagraphFormat
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents a paragraph formatting properties of a chart.
+description: Represents a paragraph formatting properties of a chart.
 type: docs
-weight: 694
+weight: 695
 url: /androidjava/com.aspose.slides/ichartparagraphformat/
 ---```
 public interface IChartParagraphFormat

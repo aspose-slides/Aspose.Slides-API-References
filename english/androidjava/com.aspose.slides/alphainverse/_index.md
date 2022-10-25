@@ -1,7 +1,7 @@
 ---
 title: AlphaInverse
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents an Alpha Inverse effect.
+description: Represents an Alpha Inverse effect.
 type: docs
 weight: 15
 url: /androidjava/com.aspose.slides/alphainverse/

@@ -1,9 +1,9 @@
 ---
 title: ISvgShapeAndTextFormattingController
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Controls SVG shape and text generation.
+description: Controls SVG shape and text generation.
 type: docs
-weight: 1049
+weight: 1050
 url: /androidjava/com.aspose.slides/isvgshapeandtextformattingcontroller/
 ---
 **All Implemented Interfaces:**

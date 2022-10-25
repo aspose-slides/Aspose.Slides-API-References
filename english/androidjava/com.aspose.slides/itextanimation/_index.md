@@ -1,9 +1,9 @@
 ---
 title: ITextAnimation
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Represent text animation.
+description: Represent text animation.
 type: docs
-weight: 1062
+weight: 1063
 url: /androidjava/com.aspose.slides/itextanimation/
 ---```
 public interface ITextAnimation
@@ -42,7 +42,7 @@ public abstract int getBuildType()
 ```
 
 
-List of build type (for exp. Paragraph 1,2,3, All at Once) of text animation. Read/write \#getBuildType/\#setBuildType(int).
+List of build type (for exp. Paragraph 1,2,3, All at Once) of text animation. Read/write \#getBuildType.getBuildType/\#setBuildType(int).setBuildType(int).
 
 **Returns:**
 int
@@ -52,7 +52,7 @@ public abstract void setBuildType(int value)
 ```
 
 
-List of build type (for exp. Paragraph 1,2,3, All at Once) of text animation. Read/write \#getBuildType/\#setBuildType(int).
+List of build type (for exp. Paragraph 1,2,3, All at Once) of text animation. Read/write \#getBuildType.getBuildType/\#setBuildType(int).setBuildType(int).
 
 **Parameters:**
 | Parameter | Type | Description |

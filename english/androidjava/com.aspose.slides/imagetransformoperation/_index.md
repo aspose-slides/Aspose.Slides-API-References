@@ -1,9 +1,9 @@
 ---
 title: ImageTransformOperation
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents abstract image transformation effect.
+description: Represents abstract image transformation effect.
 type: docs
-weight: 249
+weight: 250
 url: /androidjava/com.aspose.slides/imagetransformoperation/
 ---
 **Inheritance:**

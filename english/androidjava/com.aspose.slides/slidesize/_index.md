@@ -1,9 +1,9 @@
 ---
 title: SlideSize
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents a size of slide.
+description: Represents a size of slide.
 type: docs
-weight: 507
+weight: 508
 url: /androidjava/com.aspose.slides/slidesize/
 ---
 **Inheritance:**
@@ -32,11 +32,11 @@ public final SizeF getSize()
 ```
 
 
-Returns or sets the size in points. Read/write com.aspose.slides.android.SizeF.
+Returns or sets the size in points. Read/write [SizeF](../../com.aspose.slides.android/sizef).
 
 --------------------
 
-Assigning any value will reset (\#getType) property to [SlideSizeType\#Custom](../../com.aspose.slides/slidesizetype\#Custom) and set (\#getOrientation/\#setOrientation(int)).
+Assigning any value will reset (\#getType.getType) property to [SlideSizeType.Custom](../../com.aspose.slides/slidesizetype\#Custom) and set (\#getOrientation.getOrientation/\#setOrientation(int).setOrientation(int)).
 
 **Returns:**
 [SizeF](../../com.aspose.slides.android/sizef)
@@ -50,7 +50,7 @@ Returns or sets the type of slide size. Read/write [SlideSizeType](../../com.asp
 
 --------------------
 
-Assigning any value except [SlideSizeType\#Custom](../../com.aspose.slides/slidesizetype\#Custom) will change (\#getSize) accordingly, but will keep (\#getOrientation/\#setOrientation(int)) intact.
+Assigning any value except [SlideSizeType.Custom](../../com.aspose.slides/slidesizetype\#Custom) will change (\#getSize.getSize) accordingly, but will keep (\#getOrientation.getOrientation/\#setOrientation(int).setOrientation(int)) intact.
 
 **Returns:**
 int
@@ -101,7 +101,7 @@ Sets the type of slide size and scales content using scale type.
 
 --------------------
 
-Assigning any value except [SlideSizeType\#Custom](../../com.aspose.slides/slidesizetype\#Custom) will change (\#getSize) accordingly, but will keep (\#getOrientation/\#setOrientation(int)) intact. |
+Assigning any value except [SlideSizeType.Custom](../../com.aspose.slides/slidesizetype\#Custom) will change (\#getSize.getSize) accordingly, but will keep (\#getOrientation.getOrientation/\#setOrientation(int).setOrientation(int)) intact. |
 
 ### setSize(float width, float height, int scaleType) {#setSize-float-float-int-}
 ```
@@ -120,5 +120,5 @@ Sets the size in points and scales content using scale type.
 
 --------------------
 
-Assigning any value will reset (\#getType) property to [SlideSizeType\#Custom](../../com.aspose.slides/slidesizetype\#Custom) and set (\#getOrientation/\#setOrientation(int)). |
+Assigning any value will reset (\#getType.getType) property to [SlideSizeType.Custom](../../com.aspose.slides/slidesizetype\#Custom) and set (\#getOrientation.getOrientation/\#setOrientation(int).setOrientation(int)). |
 

@@ -1,9 +1,9 @@
 ---
 title: IFormattedTextContainer
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents chart text format.
+description: Represents chart text format.
 type: docs
-weight: 794
+weight: 795
 url: /androidjava/com.aspose.slides/iformattedtextcontainer/
 ---
 **All Implemented Interfaces:**

@@ -1,7 +1,7 @@
 ---
 title: AlphaModulate
 second_title: Aspose.Slides for Java API Reference
-description:  Represents an Alpha Modulate effect.
+description: Represents an Alpha Modulate effect.
 type: docs
 weight: 16
 url: /java/com.aspose.slides/alphamodulate/

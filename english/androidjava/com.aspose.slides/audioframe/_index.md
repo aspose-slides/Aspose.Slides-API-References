@@ -1,7 +1,7 @@
 ---
 title: AudioFrame
 second_title: Aspose.Slides for Android via Java API Reference
-description:   Represents an audio clip on a slide.
+description: Represents an audio clip on a slide.
 type: docs
 weight: 23
 url: /androidjava/com.aspose.slides/audioframe/
@@ -24,8 +24,8 @@ Represents an audio clip on a slide.
 | [setAudioCdStartTrack(int value)](#setAudioCdStartTrack-int-) | Returns or sets a start track index. |
 | [getAudioCdStartTrackTime()](#getAudioCdStartTrackTime--) | Returns or sets a start track time. |
 | [setAudioCdStartTrackTime(int value)](#setAudioCdStartTrackTime-int-) | Returns or sets a start track time. |
-| [getAudioCdEndTrack()](#getAudioCdEndTrack--) | Returns or sets a last track index Read/write int. |
-| [setAudioCdEndTrack(int value)](#setAudioCdEndTrack-int-) | Returns or sets a last track index Read/write int. |
+| [getAudioCdEndTrack()](#getAudioCdEndTrack--) | Returns or sets a last track index Read/write  int . |
+| [setAudioCdEndTrack(int value)](#setAudioCdEndTrack-int-) | Returns or sets a last track index Read/write  int . |
 | [getAudioCdEndTrackTime()](#getAudioCdEndTrackTime--) | Returns or sets a last track time. |
 | [setAudioCdEndTrackTime(int value)](#setAudioCdEndTrackTime-int-) | Returns or sets a last track time. |
 | [getVolume()](#getVolume--) | Returns or sets the audio volume. |
@@ -51,7 +51,7 @@ public final int getAudioCdStartTrack()
 ```
 
 
-Returns or sets a start track index. Read/write int.
+Returns or sets a start track index. Read/write  int .
 
 **Returns:**
 int
@@ -61,7 +61,7 @@ public final void setAudioCdStartTrack(int value)
 ```
 
 
-Returns or sets a start track index. Read/write int.
+Returns or sets a start track index. Read/write  int .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -74,7 +74,7 @@ public final int getAudioCdStartTrackTime()
 ```
 
 
-Returns or sets a start track time. Read/write int.
+Returns or sets a start track time. Read/write  int .
 
 **Returns:**
 int
@@ -84,7 +84,7 @@ public final void setAudioCdStartTrackTime(int value)
 ```
 
 
-Returns or sets a start track time. Read/write int.
+Returns or sets a start track time. Read/write  int .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -97,7 +97,7 @@ public final int getAudioCdEndTrack()
 ```
 
 
-Returns or sets a last track index Read/write int.
+Returns or sets a last track index Read/write  int .
 
 **Returns:**
 int
@@ -107,7 +107,7 @@ public final void setAudioCdEndTrack(int value)
 ```
 
 
-Returns or sets a last track index Read/write int.
+Returns or sets a last track index Read/write  int .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -120,7 +120,7 @@ public final int getAudioCdEndTrackTime()
 ```
 
 
-Returns or sets a last track time. Read/write int.
+Returns or sets a last track time. Read/write  int .
 
 **Returns:**
 int
@@ -130,7 +130,7 @@ public final void setAudioCdEndTrackTime(int value)
 ```
 
 
-Returns or sets a last track time. Read/write int.
+Returns or sets a last track time. Read/write  int .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -189,7 +189,7 @@ public final boolean getHideAtShowing()
 ```
 
 
-Determines whether an AudioFrame is hidden. Read/write boolean.
+Determines whether an AudioFrame is hidden. Read/write  boolean .
 
 **Returns:**
 boolean
@@ -199,7 +199,7 @@ public final void setHideAtShowing(boolean value)
 ```
 
 
-Determines whether an AudioFrame is hidden. Read/write boolean.
+Determines whether an AudioFrame is hidden. Read/write  boolean .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -212,7 +212,7 @@ public final boolean getPlayLoopMode()
 ```
 
 
-Determines whether an audio is looped. Read/write boolean.
+Determines whether an audio is looped. Read/write  boolean .
 
 **Returns:**
 boolean
@@ -222,7 +222,7 @@ public final void setPlayLoopMode(boolean value)
 ```
 
 
-Determines whether an audio is looped. Read/write boolean.
+Determines whether an audio is looped. Read/write  boolean .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -235,7 +235,7 @@ public final boolean getPlayAcrossSlides()
 ```
 
 
-Determines whether audio is playing across the slides. Read/write boolean.
+Determines whether audio is playing across the slides. Read/write  boolean .
 
 --------------------
 
@@ -263,7 +263,7 @@ public final void setPlayAcrossSlides(boolean value)
 ```
 
 
-Determines whether audio is playing across the slides. Read/write boolean.
+Determines whether audio is playing across the slides. Read/write  boolean .
 
 --------------------
 
@@ -294,7 +294,7 @@ public final boolean getRewindAudio()
 ```
 
 
-Determines whether audio is automatically rewinded to start after playing. Read/write boolean.
+Determines whether audio is automatically rewinded to start after playing. Read/write  boolean .
 
 --------------------
 
@@ -322,7 +322,7 @@ public final void setRewindAudio(boolean value)
 ```
 
 
-Determines whether audio is automatically rewinded to start after playing. Read/write boolean.
+Determines whether audio is automatically rewinded to start after playing. Read/write  boolean .
 
 --------------------
 
@@ -353,7 +353,7 @@ public final boolean getEmbedded()
 ```
 
 
-Determines whether a sound is embedded to a presentation. Read-only boolean.
+Determines whether a sound is embedded to a presentation. Read-only  boolean .
 
 **Returns:**
 boolean

@@ -1,7 +1,7 @@
 ---
 title: Comment
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents a comment on a slide.
+description: Represents a comment on a slide.
 type: docs
 weight: 126
 url: /androidjava/com.aspose.slides/comment/

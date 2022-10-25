@@ -1,9 +1,9 @@
 ---
 title: SlideShowTransition
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents slide show transition.
+description: Represents slide show transition.
 type: docs
-weight: 505
+weight: 506
 url: /androidjava/com.aspose.slides/slideshowtransition/
 ---
 **Inheritance:**
@@ -95,7 +95,7 @@ public final boolean getSoundLoop()
 ```
 
 
-This attribute specifies if the sound will loop until the next sound event occurs in slideshow. Read/write \`\`\` boolean \`\`\`.
+This attribute specifies if the sound will loop until the next sound event occurs in slideshow. Read/write  boolean .
 
 **Returns:**
 boolean
@@ -105,7 +105,7 @@ public final void setSoundLoop(boolean value)
 ```
 
 
-This attribute specifies if the sound will loop until the next sound event occurs in slideshow. Read/write \`\`\` boolean \`\`\`.
+This attribute specifies if the sound will loop until the next sound event occurs in slideshow. Read/write  boolean .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -118,7 +118,7 @@ public final boolean getAdvanceOnClick()
 ```
 
 
-Specifies whether a mouse click will advance the slide or not. If this attribute is not specified then a value of true is assumed. Read/write \`\`\` boolean \`\`\`.
+Specifies whether a mouse click will advance the slide or not. If this attribute is not specified then a value of true is assumed. Read/write  boolean .
 
 **Returns:**
 boolean
@@ -128,7 +128,7 @@ public final void setAdvanceOnClick(boolean value)
 ```
 
 
-Specifies whether a mouse click will advance the slide or not. If this attribute is not specified then a value of true is assumed. Read/write \`\`\` boolean \`\`\`.
+Specifies whether a mouse click will advance the slide or not. If this attribute is not specified then a value of true is assumed. Read/write  boolean .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -141,7 +141,7 @@ public final boolean getAdvanceAfter()
 ```
 
 
-This attribute specifies if the slideshow will move to the next slide after a certain time. Read/write \`\`\` boolean \`\`\`.
+This attribute specifies if the slideshow will move to the next slide after a certain time. Read/write  boolean .
 
 --------------------
 
@@ -170,7 +170,7 @@ public final void setAdvanceAfter(boolean value)
 ```
 
 
-This attribute specifies if the slideshow will move to the next slide after a certain time. Read/write \`\`\` boolean \`\`\`.
+This attribute specifies if the slideshow will move to the next slide after a certain time. Read/write  boolean .
 
 --------------------
 
@@ -202,7 +202,7 @@ public final long getAdvanceAfterTime()
 ```
 
 
-Specifies the time, in milliseconds, after which the transition should start. This setting may be used in conjunction with the advClick attribute. If this attribute is not specified then it is assumed that no auto-advance will occur. Read/write \`\`\` long \`\`\`.
+Specifies the time, in milliseconds, after which the transition should start. This setting may be used in conjunction with the advClick attribute. If this attribute is not specified then it is assumed that no auto-advance will occur. Read/write  long .
 
 **Returns:**
 long
@@ -212,7 +212,7 @@ public final void setAdvanceAfterTime(long value)
 ```
 
 
-Specifies the time, in milliseconds, after which the transition should start. This setting may be used in conjunction with the advClick attribute. If this attribute is not specified then it is assumed that no auto-advance will occur. Read/write \`\`\` long \`\`\`.
+Specifies the time, in milliseconds, after which the transition should start. This setting may be used in conjunction with the advClick attribute. If this attribute is not specified then it is assumed that no auto-advance will occur. Read/write  long .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -281,7 +281,7 @@ public final boolean getSoundIsBuiltIn()
 ```
 
 
-Specifies whether or not this sound is a built-in sound. If this attribute is set to true then the generating application is alerted to check the name attribute specified for this sound in it's list of built-in sounds and can then surface a custom name or UI as needed. Read-write \`\`\` boolean \`\`\`.
+Specifies whether or not this sound is a built-in sound. If this attribute is set to true then the generating application is alerted to check the name attribute specified for this sound in it's list of built-in sounds and can then surface a custom name or UI as needed. Read-write  boolean .
 
 **Returns:**
 boolean
@@ -291,7 +291,7 @@ public final void setSoundIsBuiltIn(boolean value)
 ```
 
 
-Specifies whether or not this sound is a built-in sound. If this attribute is set to true then the generating application is alerted to check the name attribute specified for this sound in it's list of built-in sounds and can then surface a custom name or UI as needed. Read-write \`\`\` boolean \`\`\`.
+Specifies whether or not this sound is a built-in sound. If this attribute is set to true then the generating application is alerted to check the name attribute specified for this sound in it's list of built-in sounds and can then surface a custom name or UI as needed. Read-write  boolean .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -304,7 +304,7 @@ public final String getSoundName()
 ```
 
 
-Specifies a human readable name for the sound of the transition. The \`\`\` Sound \`\`\`(\#getSound/\#setSound(IAudio)) property must be assigned to get or set the sound name. Read-write String.
+Specifies a human readable name for the sound of the transition. The  Sound (\#getSound.getSound/\#setSound(IAudio).setSound(IAudio)) property must be assigned to get or set the sound name. Read-write String.
 
 **Returns:**
 java.lang.String
@@ -314,7 +314,7 @@ public final void setSoundName(String value)
 ```
 
 
-Specifies a human readable name for the sound of the transition. The \`\`\` Sound \`\`\`(\#getSound/\#setSound(IAudio)) property must be assigned to get or set the sound name. Read-write String.
+Specifies a human readable name for the sound of the transition. The  Sound (\#getSound.getSound/\#setSound(IAudio).setSound(IAudio)) property must be assigned to get or set the sound name. Read-write String.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -327,7 +327,7 @@ public boolean equals(Object obj)
 ```
 
 
-Determines whether the two SlideShowTransition instances are equal. Read/write \`\`\` boolean \`\`\`.
+Determines whether the two SlideShowTransition instances are equal. Read/write  boolean .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -335,7 +335,7 @@ Determines whether the two SlideShowTransition instances are equal. Read/write \
 | obj | java.lang.Object | The SlideShowTransition to compare with the current SlideShowTransition. |
 
 **Returns:**
-boolean - \`\`\` **true** \`\`\` if the specified SlideShowTransition is equal to the current SlideShowTransition; otherwise, \`\`\` **false** \`\`\`.
+boolean -  **true**  if the specified SlideShowTransition is equal to the current SlideShowTransition; otherwise,  **false** .
 ### hashCode() {#hashCode--}
 ```
 public int hashCode()

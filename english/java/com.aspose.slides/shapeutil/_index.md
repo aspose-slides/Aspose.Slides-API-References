@@ -1,9 +1,9 @@
 ---
 title: ShapeUtil
 second_title: Aspose.Slides for Java API Reference
-description:  Offer methods which helps to process shapes objects.
+description: Offer methods which helps to process shapes objects.
 type: docs
-weight: 493
+weight: 494
 url: /java/com.aspose.slides/shapeutil/
 ---
 **Inheritance:**
@@ -55,7 +55,7 @@ public static Shape geometryPathToGraphicsPath(IGeometryPath geometryPath)
 ```
 
 
-Converts [IGeometryPath](../../com.aspose.slides/igeometrypath) to java.awt.Shape. GraphicsPath can be transformed in a different ways using its convenient methods and then transformed back into the [IGeometryPath](../../com.aspose.slides/igeometrypath) to use in [GeometryShape](../../com.aspose.slides/geometryshape) via \#graphicsPathToGeometryPath(java.awt.Shape graphicsPath) method.
+Converts [IGeometryPath](../../com.aspose.slides/igeometrypath) to java.awt.Shape. GraphicsPath can be transformed in a different ways using its convenient methods and then transformed back into the [IGeometryPath](../../com.aspose.slides/igeometrypath) to use in [GeometryShape](../../com.aspose.slides/geometryshape) via \#graphicsPathToGeometryPath(java.awt.Shape graphicsPath).graphicsPathToGeometryPath(java.awt.Shape graphicsPath) method.
 
 **Parameters:**
 | Parameter | Type | Description |

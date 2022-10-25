@@ -1,9 +1,9 @@
 ---
 title: Placeholder
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents a placeholder on a slide.
+description: Represents a placeholder on a slide.
 type: docs
-weight: 421
+weight: 422
 url: /androidjava/com.aspose.slides/placeholder/
 ---
 **Inheritance:**

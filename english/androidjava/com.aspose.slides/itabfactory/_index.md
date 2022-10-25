@@ -1,9 +1,9 @@
 ---
 title: ITabFactory
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Allow to create ITab instances
+description: Allow to create ITab instances
 type: docs
-weight: 1056
+weight: 1057
 url: /androidjava/com.aspose.slides/itabfactory/
 ---```
 public interface ITabFactory

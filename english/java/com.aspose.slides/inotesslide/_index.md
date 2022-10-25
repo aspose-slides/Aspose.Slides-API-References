@@ -1,9 +1,9 @@
 ---
 title: INotesSlide
 second_title: Aspose.Slides for Java API Reference
-description:  Represents a notes slide in a presentation.
+description: Represents a notes slide in a presentation.
 type: docs
-weight: 933
+weight: 934
 url: /java/com.aspose.slides/inotesslide/
 ---
 **All Implemented Interfaces:**

@@ -1,7 +1,7 @@
 ---
 title: Chart
 second_title: Aspose.Slides for Java API Reference
-description:  Represents an graphic chart on a slide.
+description: Represents an graphic chart on a slide.
 type: docs
 weight: 77
 url: /java/com.aspose.slides/chart/
@@ -319,7 +319,7 @@ public final IChartTextFormat getTextFormat()
 ```
 
 
-Returns chart text format. The property is not applicable for the following types: [ChartType\#Treemap](../../com.aspose.slides/charttype\#Treemap), [ChartType\#Sunburst](../../com.aspose.slides/charttype\#Sunburst), [ChartType\#Waterfall](../../com.aspose.slides/charttype\#Waterfall), [ChartType\#Histogram](../../com.aspose.slides/charttype\#Histogram), [ChartType\#Funnel](../../com.aspose.slides/charttype\#Funnel),[ChartType\#BoxAndWhisker](../../com.aspose.slides/charttype\#BoxAndWhisker). Read-only [IChartTextFormat](../../com.aspose.slides/icharttextformat).
+Returns chart text format. The property is not applicable for the following types: [ChartType.Treemap](../../com.aspose.slides/charttype\#Treemap), [ChartType.Sunburst](../../com.aspose.slides/charttype\#Sunburst), [ChartType.Waterfall](../../com.aspose.slides/charttype\#Waterfall), [ChartType.Histogram](../../com.aspose.slides/charttype\#Histogram), [ChartType.Funnel](../../com.aspose.slides/charttype\#Funnel),[ChartType.BoxAndWhisker](../../com.aspose.slides/charttype\#BoxAndWhisker). Read-only [IChartTextFormat](../../com.aspose.slides/icharttextformat).
 
 **Returns:**
 [IChartTextFormat](../../com.aspose.slides/icharttextformat)

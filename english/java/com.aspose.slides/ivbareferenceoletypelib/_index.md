@@ -1,9 +1,9 @@
 ---
 title: IVbaReferenceOleTypeLib
 second_title: Aspose.Slides for Java API Reference
-description:  Represents OLE Automation type library reference.
+description: Represents OLE Automation type library reference.
 type: docs
-weight: 1094
+weight: 1095
 url: /java/com.aspose.slides/ivbareferenceoletypelib/
 ---
 **All Implemented Interfaces:**

@@ -1,9 +1,9 @@
 ---
 title: SvgShape
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents options for SVG shape.
+description: Represents options for SVG shape.
 type: docs
-weight: 537
+weight: 538
 url: /androidjava/com.aspose.slides/svgshape/
 ---
 **Inheritance:**

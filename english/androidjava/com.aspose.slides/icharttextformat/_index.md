@@ -1,9 +1,9 @@
 ---
 title: IChartTextFormat
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Chart operate with restricted set of text format properties.
+description: Chart operate with restricted set of text format properties.
 type: docs
-weight: 703
+weight: 704
 url: /androidjava/com.aspose.slides/icharttextformat/
 ---```
 public interface IChartTextFormat

@@ -1,7 +1,7 @@
 ---
 title: ChartDataPoint
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents series data point.
+description: Represents series data point.
 type: docs
 weight: 84
 url: /androidjava/com.aspose.slides/chartdatapoint/

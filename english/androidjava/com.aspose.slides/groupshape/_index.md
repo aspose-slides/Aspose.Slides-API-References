@@ -1,9 +1,9 @@
 ---
 title: GroupShape
 second_title: Aspose.Slides for Android via Java API Reference
-description:   Represents a group of shapes on a slide.
+description: Represents a group of shapes on a slide.
 type: docs
-weight: 233
+weight: 234
 url: /androidjava/com.aspose.slides/groupshape/
 ---
 **Inheritance:**

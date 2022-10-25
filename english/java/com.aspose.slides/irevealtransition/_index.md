@@ -1,9 +1,9 @@
 ---
 title: IRevealTransition
 second_title: Aspose.Slides for Java API Reference
-description:  Reveal slide transition effect.
+description: Reveal slide transition effect.
 type: docs
-weight: 993
+weight: 994
 url: /java/com.aspose.slides/irevealtransition/
 ---
 **All Implemented Interfaces:**

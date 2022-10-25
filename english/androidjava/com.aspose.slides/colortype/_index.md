@@ -1,7 +1,7 @@
 ---
 title: ColorType
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents different color modes.
+description: Represents different color modes.
 type: docs
 weight: 119
 url: /androidjava/com.aspose.slides/colortype/

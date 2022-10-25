@@ -1,9 +1,9 @@
 ---
 title: HyperlinkQueries
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Provide easy access to contained hyperlinks.
+description: Provide easy access to contained hyperlinks.
 type: docs
-weight: 245
+weight: 246
 url: /androidjava/com.aspose.slides/hyperlinkqueries/
 ---
 **Inheritance:**

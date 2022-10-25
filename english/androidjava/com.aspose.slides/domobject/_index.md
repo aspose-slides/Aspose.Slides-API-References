@@ -1,7 +1,7 @@
 ---
 title: DomObject
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Base DOM object
+description: Base DOM object
 type: docs
 weight: 158
 url: /androidjava/com.aspose.slides/domobject/

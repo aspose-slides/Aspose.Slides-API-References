@@ -1,7 +1,7 @@
 ---
 title: ColorSchemeIndex
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents an index in a colorscheme.
+description: Represents an index in a colorscheme.
 type: docs
 weight: 115
 url: /androidjava/com.aspose.slides/colorschemeindex/

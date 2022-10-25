@@ -1,9 +1,9 @@
 ---
 title: ImageCollection
 second_title: Aspose.Slides for Java API Reference
-description:  Represents collection of PPImage.
+description: Represents collection of PPImage.
 type: docs
-weight: 246
+weight: 247
 url: /java/com.aspose.slides/imagecollection/
 ---
 **Inheritance:**
@@ -39,7 +39,7 @@ public final int size()
 ```
 
 
-Returns a number of images in the collection. Read-only \`\`\` int \`\`\`.
+Returns a number of images in the collection. Read-only  int .
 
 **Returns:**
 int
@@ -197,7 +197,7 @@ public final boolean isSynchronized()
 ```
 
 
-Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only \`\`\` boolean \`\`\`.
+Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only  boolean .
 
 **Returns:**
 boolean
@@ -207,7 +207,7 @@ public final Object getSyncRoot()
 ```
 
 
-Returns a synchronization root. Read-only \`\`\` Object \`\`\`.
+Returns a synchronization root. Read-only  Object .
 
 **Returns:**
 java.lang.Object

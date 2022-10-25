@@ -1,9 +1,9 @@
 ---
 title: MathBoxFactory
 second_title: Aspose.Slides for Java API Reference
-description:  Allows to create a math box
+description: Allows to create a math box
 type: docs
-weight: 316
+weight: 317
 url: /java/com.aspose.slides/mathboxfactory/
 ---
 **Inheritance:**

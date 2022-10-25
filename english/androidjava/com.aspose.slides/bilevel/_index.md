@@ -1,7 +1,7 @@
 ---
 title: BiLevel
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents a Bi-Level black/white effect.
+description: Represents a Bi-Level black/white effect.
 type: docs
 weight: 55
 url: /androidjava/com.aspose.slides/bilevel/

@@ -1,9 +1,9 @@
 ---
 title: MathAccentFactory
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Allows to create a math accent
+description: Allows to create a math accent
 type: docs
-weight: 306
+weight: 307
 url: /androidjava/com.aspose.slides/mathaccentfactory/
 ---
 **Inheritance:**

@@ -1,9 +1,9 @@
 ---
 title: IGradientFormatEffectiveData
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Imutable object which contains effective gradient filling properties.
+description: Imutable object which contains effective gradient filling properties.
 type: docs
-weight: 805
+weight: 806
 url: /androidjava/com.aspose.slides/igradientformateffectivedata/
 ---
 **All Implemented Interfaces:**

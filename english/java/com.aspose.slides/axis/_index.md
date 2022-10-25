@@ -1,7 +1,7 @@
 ---
 title: Axis
 second_title: Aspose.Slides for Java API Reference
-description:  Encapsulates the object that represents a charts axis.
+description: Encapsulates the object that represents a charts axis.
 type: docs
 weight: 30
 url: /java/com.aspose.slides/axis/

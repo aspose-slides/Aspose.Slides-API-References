@@ -1,9 +1,9 @@
 ---
 title: HyperlinkActionType
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents a type of hyperlink action.
+description: Represents a type of hyperlink action.
 type: docs
-weight: 242
+weight: 243
 url: /androidjava/com.aspose.slides/hyperlinkactiontype/
 ---
 **Inheritance:**
@@ -26,7 +26,7 @@ Represents a type of hyperlink action.
 | [JumpLastSlide](#JumpLastSlide) | Jump to the last slide of the presentation. |
 | [JumpEndShow](#JumpEndShow) | Jump to the end of slideshow. |
 | [JumpLastViewedSlide](#JumpLastViewedSlide) | Jump to the last viewed slide. |
-| [JumpSpecificSlide](#JumpSpecificSlide) | Jump to the specific slide, referred by ([IHyperlink\#getTargetSlide](../../com.aspose.slides/ihyperlink\#getTargetSlide)) property. |
+| [JumpSpecificSlide](#JumpSpecificSlide) | Jump to the specific slide, referred by ([IHyperlink.getTargetSlide](../../com.aspose.slides/ihyperlink\#getTargetSlide)) property. |
 | [StartCustomSlideShow](#StartCustomSlideShow) | Start custom slideshow. |
 | [OpenFile](#OpenFile) | Open referenced file. |
 | [OpenPresentation](#OpenPresentation) | Open referenced presentation. |
@@ -111,7 +111,7 @@ public static final int JumpSpecificSlide
 ```
 
 
-Jump to the specific slide, referred by ([IHyperlink\#getTargetSlide](../../com.aspose.slides/ihyperlink\#getTargetSlide)) property.
+Jump to the specific slide, referred by ([IHyperlink.getTargetSlide](../../com.aspose.slides/ihyperlink\#getTargetSlide)) property.
 
 ### StartCustomSlideShow {#StartCustomSlideShow}
 ```

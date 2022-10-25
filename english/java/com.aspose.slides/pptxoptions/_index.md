@@ -1,9 +1,9 @@
 ---
 title: PptxOptions
 second_title: Aspose.Slides for Java API Reference
-description:  Represents options for saving OpenXml presentations PPTX PPSX POTX PPTM PPSM POTM.
+description: Represents options for saving OpenXml presentations PPTX PPSX POTX PPTM PPSM POTM.
 type: docs
-weight: 439
+weight: 440
 url: /java/com.aspose.slides/pptxoptions/
 ---
 **Inheritance:**
@@ -41,7 +41,7 @@ public final int getConformance()
 ```
 
 
-Specifies the conformance class to which the Presentation document conforms. Default value is [Conformance\#Ecma376\_2006](../../com.aspose.slides/conformance\#Ecma376-2006)
+Specifies the conformance class to which the Presentation document conforms. Default value is [Conformance.Ecma376\_2006](../../com.aspose.slides/conformance\#Ecma376-2006)
 
 **Returns:**
 int
@@ -51,7 +51,7 @@ public final void setConformance(int value)
 ```
 
 
-Specifies the conformance class to which the Presentation document conforms. Default value is [Conformance\#Ecma376\_2006](../../com.aspose.slides/conformance\#Ecma376-2006)
+Specifies the conformance class to which the Presentation document conforms. Default value is [Conformance.Ecma376\_2006](../../com.aspose.slides/conformance\#Ecma376-2006)
 
 **Parameters:**
 | Parameter | Type | Description |

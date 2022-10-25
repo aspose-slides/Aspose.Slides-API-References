@@ -1,7 +1,7 @@
 ---
 title: BulletFormat
 second_title: Aspose.Slides for Java API Reference
-description:  Represents paragraph bullet formatting properties.
+description: Represents paragraph bullet formatting properties.
 type: docs
 weight: 64
 url: /java/com.aspose.slides/bulletformat/
@@ -70,7 +70,7 @@ public final char getChar()
 ```
 
 
-Returns or sets the bullet char of a paragraph with no inheritance. Read/write \`\`\` char \`\`\`.
+Returns or sets the bullet char of a paragraph with no inheritance. Read/write  char .
 
 **Returns:**
 char
@@ -80,7 +80,7 @@ public final void setChar(char value)
 ```
 
 
-Returns or sets the bullet char of a paragraph with no inheritance. Read/write \`\`\` char \`\`\`.
+Returns or sets the bullet char of a paragraph with no inheritance. Read/write  char .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -116,7 +116,7 @@ public final float getHeight()
 ```
 
 
-Returns or sets the bullet height of a paragraph with no inheritance. Value Float.NaN determines that bullet inherits height from the first portion in the paragraph. Read/write \`\`\` float \`\`\`.
+Returns or sets the bullet height of a paragraph with no inheritance. Value Float.NaN determines that bullet inherits height from the first portion in the paragraph. Read/write  float .
 
 **Returns:**
 float
@@ -126,7 +126,7 @@ public final void setHeight(float value)
 ```
 
 
-Returns or sets the bullet height of a paragraph with no inheritance. Value Float.NaN determines that bullet inherits height from the first portion in the paragraph. Read/write \`\`\` float \`\`\`.
+Returns or sets the bullet height of a paragraph with no inheritance. Value Float.NaN determines that bullet inherits height from the first portion in the paragraph. Read/write  float .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -149,7 +149,7 @@ public final short getNumberedBulletStartWith()
 ```
 
 
-Returns or sets the first number which is used for group of numbered bullets with no inheritance. Read/write \`\`\` short \`\`\`.
+Returns or sets the first number which is used for group of numbered bullets with no inheritance. Read/write  short .
 
 **Returns:**
 short
@@ -159,7 +159,7 @@ public final void setNumberedBulletStartWith(short value)
 ```
 
 
-Returns or sets the first number which is used for group of numbered bullets with no inheritance. Read/write \`\`\` short \`\`\`.
+Returns or sets the first number which is used for group of numbered bullets with no inheritance. Read/write  short .
 
 **Parameters:**
 | Parameter | Type | Description |

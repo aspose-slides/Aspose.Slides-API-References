@@ -1,9 +1,9 @@
 ---
 title: Luminance
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents a Luminance effect.
+description: Represents a Luminance effect.
 type: docs
-weight: 291
+weight: 292
 url: /androidjava/com.aspose.slides/luminance/
 ---
 **Inheritance:**

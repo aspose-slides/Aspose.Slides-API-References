@@ -1,9 +1,9 @@
 ---
 title: IPropertyEffect
 second_title: Aspose.Slides for Java API Reference
-description:  Represent property effect behavior.
+description: Represent property effect behavior.
 type: docs
-weight: 985
+weight: 986
 url: /java/com.aspose.slides/ipropertyeffect/
 ---
 **All Implemented Interfaces:**

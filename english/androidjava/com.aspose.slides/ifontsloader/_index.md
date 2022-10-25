@@ -1,9 +1,9 @@
 ---
 title: IFontsLoader
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Class for loading custom fonts defined by user.
+description: Class for loading custom fonts defined by user.
 type: docs
-weight: 788
+weight: 789
 url: /androidjava/com.aspose.slides/ifontsloader/
 ---```
 public interface IFontsLoader

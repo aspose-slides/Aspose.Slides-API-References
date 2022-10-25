@@ -1,7 +1,7 @@
 ---
 title: ChartType
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents a type of chart.
+description: Represents a type of chart.
 type: docs
 weight: 102
 url: /androidjava/com.aspose.slides/charttype/

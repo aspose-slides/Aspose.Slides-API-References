@@ -1,9 +1,9 @@
 ---
 title: TextUnderlineType
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents the type of text underline.
+description: Represents the type of text underline.
 type: docs
-weight: 565
+weight: 566
 url: /androidjava/com.aspose.slides/textunderlinetype/
 ---
 **Inheritance:**

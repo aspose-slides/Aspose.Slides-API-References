@@ -1,7 +1,7 @@
 ---
 title: Duotone
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents a Duotone effect.
+description: Represents a Duotone effect.
 type: docs
 weight: 160
 url: /androidjava/com.aspose.slides/duotone/

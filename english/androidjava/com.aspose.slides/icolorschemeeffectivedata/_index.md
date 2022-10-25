@@ -1,9 +1,9 @@
 ---
 title: IColorSchemeEffectiveData
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Immutable object which contains effective color scheme properties.
+description: Immutable object which contains effective color scheme properties.
 type: docs
-weight: 716
+weight: 717
 url: /androidjava/com.aspose.slides/icolorschemeeffectivedata/
 ---```
 public interface IColorSchemeEffectiveData

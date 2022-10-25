@@ -1,9 +1,9 @@
 ---
 title: MotionCommandPathType
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Represent types of command for animation motion effect behavior.
+description: Represent types of command for animation motion effect behavior.
 type: docs
-weight: 364
+weight: 365
 url: /androidjava/com.aspose.slides/motioncommandpathtype/
 ---
 **Inheritance:**

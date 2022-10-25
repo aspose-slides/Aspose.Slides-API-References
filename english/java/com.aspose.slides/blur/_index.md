@@ -1,7 +1,7 @@
 ---
 title: Blur
 second_title: Aspose.Slides for Java API Reference
-description:  Represents a Blur effect that is applied to the entire shape including its fill.
+description: Represents a Blur effect that is applied to the entire shape including its fill.
 type: docs
 weight: 58
 url: /java/com.aspose.slides/blur/

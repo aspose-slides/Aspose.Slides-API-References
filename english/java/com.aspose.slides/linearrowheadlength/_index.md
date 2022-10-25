@@ -1,9 +1,9 @@
 ---
 title: LineArrowheadLength
 second_title: Aspose.Slides for Java API Reference
-description:  Represents the length of an arrowhead.
+description: Represents the length of an arrowhead.
 type: docs
-weight: 276
+weight: 277
 url: /java/com.aspose.slides/linearrowheadlength/
 ---
 **Inheritance:**

@@ -1,9 +1,9 @@
 ---
 title: PlaceholderType
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents the type of a placeholder.
+description: Represents the type of a placeholder.
 type: docs
-weight: 423
+weight: 424
 url: /androidjava/com.aspose.slides/placeholdertype/
 ---
 **Inheritance:**

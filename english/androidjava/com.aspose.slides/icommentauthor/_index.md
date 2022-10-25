@@ -1,9 +1,9 @@
 ---
 title: ICommentAuthor
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents an author of comments.
+description: Represents an author of comments.
 type: docs
-weight: 723
+weight: 724
 url: /androidjava/com.aspose.slides/icommentauthor/
 ---```
 public interface ICommentAuthor

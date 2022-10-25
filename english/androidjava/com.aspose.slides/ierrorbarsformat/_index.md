@@ -1,9 +1,9 @@
 ---
 title: IErrorBarsFormat
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents error bars of chart series.
+description: Represents error bars of chart series.
 type: docs
-weight: 762
+weight: 763
 url: /androidjava/com.aspose.slides/ierrorbarsformat/
 ---
 **All Implemented Interfaces:**
@@ -12,7 +12,7 @@ url: /androidjava/com.aspose.slides/ierrorbarsformat/
 public interface IErrorBarsFormat extends IChartComponent
 ```
 
-Represents error bars of chart series. ErrorBars custom values are in IChartDataPointCollection (in [IChartDataPoint\#getErrorBarsCustomValues](../../com.aspose.slides/ichartdatapoint\#getErrorBarsCustomValues) property).
+Represents error bars of chart series. ErrorBars custom values are in IChartDataPointCollection (in [IChartDataPoint.getErrorBarsCustomValues](../../com.aspose.slides/ichartdatapoint\#getErrorBarsCustomValues) property).
 ## Methods
 
 | Method | Description |
@@ -58,7 +58,7 @@ public abstract int getValueType()
 ```
 
 
-Represents possible ways to determine the length of the error bars. In case of custom value type to specify value use [IChartDataPoint\#getErrorBarsCustomValues](../../com.aspose.slides/ichartdatapoint\#getErrorBarsCustomValues) property of specific data point in DataPoints collection of series. Read/write [ErrorBarValueType](../../com.aspose.slides/errorbarvaluetype).
+Represents possible ways to determine the length of the error bars. In case of custom value type to specify value use [IChartDataPoint.getErrorBarsCustomValues](../../com.aspose.slides/ichartdatapoint\#getErrorBarsCustomValues) property of specific data point in DataPoints collection of series. Read/write [ErrorBarValueType](../../com.aspose.slides/errorbarvaluetype).
 
 **Returns:**
 int
@@ -68,7 +68,7 @@ public abstract void setValueType(int value)
 ```
 
 
-Represents possible ways to determine the length of the error bars. In case of custom value type to specify value use [IChartDataPoint\#getErrorBarsCustomValues](../../com.aspose.slides/ichartdatapoint\#getErrorBarsCustomValues) property of specific data point in DataPoints collection of series. Read/write [ErrorBarValueType](../../com.aspose.slides/errorbarvaluetype).
+Represents possible ways to determine the length of the error bars. In case of custom value type to specify value use [IChartDataPoint.getErrorBarsCustomValues](../../com.aspose.slides/ichartdatapoint\#getErrorBarsCustomValues) property of specific data point in DataPoints collection of series. Read/write [ErrorBarValueType](../../com.aspose.slides/errorbarvaluetype).
 
 **Parameters:**
 | Parameter | Type | Description |

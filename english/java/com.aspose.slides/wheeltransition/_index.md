@@ -1,9 +1,9 @@
 ---
 title: WheelTransition
 second_title: Aspose.Slides for Java API Reference
-description:  Wheel slide transition effect.
+description: Wheel slide transition effect.
 type: docs
-weight: 613
+weight: 614
 url: /java/com.aspose.slides/wheeltransition/
 ---
 **Inheritance:**

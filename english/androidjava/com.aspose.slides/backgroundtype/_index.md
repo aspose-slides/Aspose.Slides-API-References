@@ -1,7 +1,7 @@
 ---
 title: BackgroundType
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Defines the slide background fill source.
+description: Defines the slide background fill source.
 type: docs
 weight: 36
 url: /androidjava/com.aspose.slides/backgroundtype/

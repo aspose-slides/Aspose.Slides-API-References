@@ -1,9 +1,9 @@
 ---
 title: IParagraphCollection
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents a collection of a paragraphs.
+description: Represents a collection of a paragraphs.
 type: docs
-weight: 951
+weight: 952
 url: /androidjava/com.aspose.slides/iparagraphcollection/
 ---
 **All Implemented Interfaces:**

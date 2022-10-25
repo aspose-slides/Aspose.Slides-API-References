@@ -1,9 +1,9 @@
 ---
 title: IImageTransformOperation
 second_title: Aspose.Slides for Java API Reference
-description:  Represents abstract image transformation effect.
+description: Represents abstract image transformation effect.
 type: docs
-weight: 830
+weight: 831
 url: /java/com.aspose.slides/iimagetransformoperation/
 ---```
 public interface IImageTransformOperation

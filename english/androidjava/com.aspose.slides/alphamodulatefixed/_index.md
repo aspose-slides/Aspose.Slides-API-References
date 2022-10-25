@@ -1,7 +1,7 @@
 ---
 title: AlphaModulateFixed
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents an Alpha Modulate Fixed effect.
+description: Represents an Alpha Modulate Fixed effect.
 type: docs
 weight: 17
 url: /androidjava/com.aspose.slides/alphamodulatefixed/

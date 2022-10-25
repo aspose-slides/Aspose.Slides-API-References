@@ -1,9 +1,9 @@
 ---
 title: IGradientStopCollection
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Represnts a collection of gradient stops.
+description: Represnts a collection of gradient stops.
 type: docs
-weight: 807
+weight: 808
 url: /androidjava/com.aspose.slides/igradientstopcollection/
 ---
 **All Implemented Interfaces:**

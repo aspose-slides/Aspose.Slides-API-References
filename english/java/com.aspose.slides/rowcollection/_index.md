@@ -1,9 +1,9 @@
 ---
 title: RowCollection
 second_title: Aspose.Slides for Java API Reference
-description:  Represents table row collection.
+description: Represents table row collection.
 type: docs
-weight: 468
+weight: 469
 url: /java/com.aspose.slides/rowcollection/
 ---
 **Inheritance:**

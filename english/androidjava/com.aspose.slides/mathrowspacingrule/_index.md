@@ -1,9 +1,9 @@
 ---
 title: MathRowSpacingRule
 second_title: Aspose.Slides for Android via Java API Reference
-description:  The type of vertical spacing between columns in a matrix or array
+description: The type of vertical spacing between columns in a matrix or array
 type: docs
-weight: 349
+weight: 350
 url: /androidjava/com.aspose.slides/mathrowspacingrule/
 ---
 **Inheritance:**

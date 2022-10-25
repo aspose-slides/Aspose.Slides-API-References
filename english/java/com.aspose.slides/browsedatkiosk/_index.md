@@ -1,7 +1,7 @@
 ---
 title: BrowsedAtKiosk
 second_title: Aspose.Slides for Java API Reference
-description:  Browsed at a kiosk full screen.
+description: Browsed at a kiosk full screen
 type: docs
 weight: 59
 url: /java/com.aspose.slides/browsedatkiosk/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.slides.SlideShowType](../../com.aspose.slides/slid
 public class BrowsedAtKiosk extends SlideShowType
 ```
 
-Browsed at a kiosk (full screen).
+Browsed at a kiosk (full screen)
 
 --------------------
 

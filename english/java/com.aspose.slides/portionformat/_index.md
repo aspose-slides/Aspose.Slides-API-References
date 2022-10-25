@@ -1,9 +1,9 @@
 ---
 title: PortionFormat
 second_title: Aspose.Slides for Java API Reference
-description:  This class contains the text portion formatting properties.
+description: This class contains the text portion formatting properties.
 type: docs
-weight: 429
+weight: 430
 url: /java/com.aspose.slides/portionformat/
 ---
 **Inheritance:**
@@ -21,7 +21,7 @@ This class contains the text portion formatting properties. Unlike [IPortionForm
 
 This class is used to return and manipulate text portion formatting properties defined for the particular portion. This means that no inheritance is applied when getting values so for the majority of cases you will get values meaning "undefined".
 
-In order to get the effective formatting parameter values including inherited you need to use [PortionFormat\#getEffective](../../com.aspose.slides/portionformat\#getEffective) method which returns a [IPortionFormatEffectiveData](../../com.aspose.slides/iportionformateffectivedata) instance.
+In order to get the effective formatting parameter values including inherited you need to use [getEffective](../../com.aspose.slides/portionformat\#getEffective) method which returns a [IPortionFormatEffectiveData](../../com.aspose.slides/iportionformateffectivedata) instance.
 ## Constructors
 
 | Constructor | Description |
@@ -78,7 +78,7 @@ public final boolean getSmartTagClean()
 ```
 
 
-Determines whether the smart tag should be cleaned. No inheritance applied. Read/write \`\`\` boolean \`\`\`.
+Determines whether the smart tag should be cleaned. No inheritance applied. Read/write  boolean .
 
 **Returns:**
 boolean
@@ -88,7 +88,7 @@ public final void setSmartTagClean(boolean value)
 ```
 
 
-Determines whether the smart tag should be cleaned. No inheritance applied. Read/write \`\`\` boolean \`\`\`.
+Determines whether the smart tag should be cleaned. No inheritance applied. Read/write  boolean .
 
 **Parameters:**
 | Parameter | Type | Description |

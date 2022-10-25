@@ -1,9 +1,9 @@
 ---
 title: IAutoShapeLock
 second_title: Aspose.Slides for Java API Reference
-description:  Determines which operations are disabled on the parent AutoshapeEx.
+description: Determines which operations are disabled on the parent AutoshapeEx.
 type: docs
-weight: 643
+weight: 644
 url: /java/com.aspose.slides/iautoshapelock/
 ---
 **All Implemented Interfaces:**

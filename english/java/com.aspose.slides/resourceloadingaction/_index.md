@@ -1,9 +1,9 @@
 ---
 title: ResourceLoadingAction
 second_title: Aspose.Slides for Java API Reference
-description:  Specifies the mode of external resource loading.
+description: Specifies the mode of external resource loading.
 type: docs
-weight: 460
+weight: 461
 url: /java/com.aspose.slides/resourceloadingaction/
 ---
 **Inheritance:**
@@ -19,7 +19,7 @@ Specifies the mode of external resource loading.
 | --- | --- |
 | [Default](#Default) | Aspose.Slides will load external resource as usual. |
 | [Skip](#Skip) | Aspose.Slides will skip loading of external resource. |
-| [UserProvided](#UserProvided) | Aspose.Slides will use byte array provided by user in [IResourceLoadingArgs\#setData(byte[])](../../com.aspose.slides/iresourceloadingargs\#setData-byte---) as image data. |
+| [UserProvided](#UserProvided) | Aspose.Slides will use byte array provided by user in [IResourceLoadingArgs.setData(byte[])](../../com.aspose.slides/iresourceloadingargs\#setData-byte---) as image data. |
 ### Default {#Default}
 ```
 public static final int Default
@@ -42,5 +42,5 @@ public static final int UserProvided
 ```
 
 
-Aspose.Slides will use byte array provided by user in [IResourceLoadingArgs\#setData(byte[])](../../com.aspose.slides/iresourceloadingargs\#setData-byte---) as image data.
+Aspose.Slides will use byte array provided by user in [IResourceLoadingArgs.setData(byte[])](../../com.aspose.slides/iresourceloadingargs\#setData-byte---) as image data.
 

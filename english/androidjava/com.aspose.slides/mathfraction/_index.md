@@ -1,9 +1,9 @@
 ---
 title: MathFraction
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Specifies the fraction object consisting of a numerator and denominator separated by a fraction bar.
+description: Specifies the fraction object consisting of a numerator and denominator separated by a fraction bar.
 type: docs
-weight: 321
+weight: 322
 url: /androidjava/com.aspose.slides/mathfraction/
 ---
 **Inheritance:**

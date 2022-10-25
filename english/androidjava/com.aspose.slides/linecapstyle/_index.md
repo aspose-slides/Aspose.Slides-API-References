@@ -1,9 +1,9 @@
 ---
 title: LineCapStyle
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents the line cap style.
+description: Represents the line cap style.
 type: docs
-weight: 279
+weight: 280
 url: /androidjava/com.aspose.slides/linecapstyle/
 ---
 **Inheritance:**

@@ -1,9 +1,9 @@
 ---
 title: ISmartArtShapeCollection
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents a collection of SmartArt shapes
+description: Represents a collection of SmartArt shapes
 type: docs
-weight: 1037
+weight: 1038
 url: /androidjava/com.aspose.slides/ismartartshapecollection/
 ---
 **All Implemented Interfaces:**

@@ -1,7 +1,7 @@
 ---
 title: ErrorBarsFormat
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents error bars of chart series.
+description: Represents error bars of chart series.
 type: docs
 weight: 183
 url: /androidjava/com.aspose.slides/errorbarsformat/
@@ -15,7 +15,7 @@ java.lang.Object, com.aspose.slides.DomObject
 public class ErrorBarsFormat extends DomObject<ChartSeries> implements IErrorBarsFormat
 ```
 
-Represents error bars of chart series. ErrorBars custom values are in IChartDataPointCollection (in ([IChartDataPoint\#getErrorBarsCustomValues](../../com.aspose.slides/ichartdatapoint\#getErrorBarsCustomValues)) property).
+Represents error bars of chart series. ErrorBars custom values are in IChartDataPointCollection (in ([IChartDataPoint.getErrorBarsCustomValues](../../com.aspose.slides/ichartdatapoint\#getErrorBarsCustomValues)) property).
 ## Methods
 
 | Method | Description |
@@ -64,7 +64,7 @@ public final int getValueType()
 ```
 
 
-Represents possible ways to determine the length of the error bars. In case of custom value type to specify value use ([IChartDataPoint\#getErrorBarsCustomValues](../../com.aspose.slides/ichartdatapoint\#getErrorBarsCustomValues)) property of specific data point in DataPoints collection of series. In case of Fixed, Percentage or StandardDeviation value type use Value property to specify value. Read/write [ErrorBarValueType](../../com.aspose.slides/errorbarvaluetype).
+Represents possible ways to determine the length of the error bars. In case of custom value type to specify value use ([IChartDataPoint.getErrorBarsCustomValues](../../com.aspose.slides/ichartdatapoint\#getErrorBarsCustomValues)) property of specific data point in DataPoints collection of series. In case of Fixed, Percentage or StandardDeviation value type use Value property to specify value. Read/write [ErrorBarValueType](../../com.aspose.slides/errorbarvaluetype).
 
 **Returns:**
 int
@@ -74,7 +74,7 @@ public final void setValueType(int value)
 ```
 
 
-Represents possible ways to determine the length of the error bars. In case of custom value type to specify value use ([IChartDataPoint\#getErrorBarsCustomValues](../../com.aspose.slides/ichartdatapoint\#getErrorBarsCustomValues)) property of specific data point in DataPoints collection of series. In case of Fixed, Percentage or StandardDeviation value type use Value property to specify value. Read/write [ErrorBarValueType](../../com.aspose.slides/errorbarvaluetype).
+Represents possible ways to determine the length of the error bars. In case of custom value type to specify value use ([IChartDataPoint.getErrorBarsCustomValues](../../com.aspose.slides/ichartdatapoint\#getErrorBarsCustomValues)) property of specific data point in DataPoints collection of series. In case of Fixed, Percentage or StandardDeviation value type use Value property to specify value. Read/write [ErrorBarValueType](../../com.aspose.slides/errorbarvaluetype).
 
 **Parameters:**
 | Parameter | Type | Description |

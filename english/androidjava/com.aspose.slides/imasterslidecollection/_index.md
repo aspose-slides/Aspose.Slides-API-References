@@ -1,9 +1,9 @@
 ---
 title: IMasterSlideCollection
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents a collection of master slides.
+description: Represents a collection of master slides.
 type: docs
-weight: 872
+weight: 873
 url: /androidjava/com.aspose.slides/imasterslidecollection/
 ---
 **All Implemented Interfaces:**
@@ -75,7 +75,7 @@ Removes unused master slides.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| ignorePreserveField | boolean | Determines, whether this method should remove unused master even if its [IMasterSlide\#getPreserve](../../com.aspose.slides/imasterslide\#getPreserve)/[IMasterSlide\#setPreserve(boolean)](../../com.aspose.slides/imasterslide\#setPreserve-boolean-) property is set to true. |
+| ignorePreserveField | boolean | Determines, whether this method should remove unused master even if its [IMasterSlide.getPreserve](../../com.aspose.slides/imasterslide\#getPreserve)/[IMasterSlide.setPreserve(boolean)](../../com.aspose.slides/imasterslide\#setPreserve-boolean-) property is set to true. |
 
 ### addClone(IMasterSlide sourceMaster) {#addClone-com.aspose.slides.IMasterSlide-}
 ```

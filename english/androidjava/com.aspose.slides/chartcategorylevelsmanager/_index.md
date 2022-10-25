@@ -1,7 +1,7 @@
 ---
 title: ChartCategoryLevelsManager
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Managed container of the values of the chart category levels.
+description: Managed container of the values of the chart category levels.
 type: docs
 weight: 80
 url: /androidjava/com.aspose.slides/chartcategorylevelsmanager/

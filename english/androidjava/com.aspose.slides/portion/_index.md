@@ -1,9 +1,9 @@
 ---
 title: Portion
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents a portion of text inside a text paragraph.
+description: Represents a portion of text inside a text paragraph.
 type: docs
-weight: 426
+weight: 427
 url: /androidjava/com.aspose.slides/portion/
 ---
 **Inheritance:**
@@ -85,7 +85,7 @@ Returns oformatting bject which contains explicitly set formatting properties of
 
 The formatting object contains the formatting parameters defined for the current portion only, inherited data is not applied.
 
-In order to get the effective values including inherited ones use the [PortionFormat\#getEffective](../../com.aspose.slides/portionformat\#getEffective) method.
+In order to get the effective values including inherited ones use the [PortionFormat.getEffective](../../com.aspose.slides/portionformat\#getEffective) method.
 
 **Returns:**
 [IPortionFormat](../../com.aspose.slides/iportionformat)

@@ -1,9 +1,9 @@
 ---
 title: IControl
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents an ActiveX control.
+description: Represents an ActiveX control.
 type: docs
-weight: 729
+weight: 730
 url: /androidjava/com.aspose.slides/icontrol/
 ---
 **All Implemented Interfaces:**

@@ -1,9 +1,9 @@
 ---
 title: PresentationFactory
 second_title: Aspose.Slides for Java API Reference
-description:  Allows to create presentation via COM interface
+description: Allows to create presentation via COM interface
 type: docs
-weight: 443
+weight: 444
 url: /java/com.aspose.slides/presentationfactory/
 ---
 **Inheritance:**

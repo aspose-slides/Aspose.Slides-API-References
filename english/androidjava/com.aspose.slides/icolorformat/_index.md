@@ -1,9 +1,9 @@
 ---
 title: IColorFormat
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents a color used in a presentation.
+description: Represents a color used in a presentation.
 type: docs
-weight: 709
+weight: 710
 url: /androidjava/com.aspose.slides/icolorformat/
 ---
 **All Implemented Interfaces:**

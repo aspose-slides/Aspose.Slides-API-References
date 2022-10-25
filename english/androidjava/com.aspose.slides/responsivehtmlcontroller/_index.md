@@ -1,9 +1,9 @@
 ---
 title: ResponsiveHtmlController
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Responsive HTML Controller
+description: Responsive HTML Controller
 type: docs
-weight: 461
+weight: 462
 url: /androidjava/com.aspose.slides/responsivehtmlcontroller/
 ---
 **Inheritance:**

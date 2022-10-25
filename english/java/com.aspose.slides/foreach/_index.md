@@ -1,9 +1,9 @@
 ---
 title: ForEach
 second_title: Aspose.Slides for Java API Reference
-description:  Represents a group of methods intended to iterate over different  model objects.
+description: Represents a group of methods intended to iterate over different  model objects.
 type: docs
-weight: 213
+weight: 214
 url: /java/com.aspose.slides/foreach/
 ---
 **Inheritance:**
@@ -36,13 +36,13 @@ Represents a group of methods intended to iterate over different [Presentation](
 
 | Method | Description |
 | --- | --- |
-| [slide(Presentation pres, ForEach.ForEachSlideCallback forEachSlide)](#slide-com.aspose.slides.Presentation-com.aspose.slides.ForEach.ForEachSlideCallback-) | Iterate each \#slide(Presentation,ForEachSlideCallback) in the [Presentation](../../com.aspose.slides/presentation). |
-| [masterSlide(Presentation pres, ForEach.ForEachMasterSlideCallback forEachMasterSlide)](#masterSlide-com.aspose.slides.Presentation-com.aspose.slides.ForEach.ForEachMasterSlideCallback-) | Iterate each \#masterSlide(Presentation,ForEachMasterSlideCallback) in the [Presentation](../../com.aspose.slides/presentation). |
-| [layoutSlide(Presentation pres, ForEach.ForEachLayoutSlideCallback forEachLayoutSlide)](#layoutSlide-com.aspose.slides.Presentation-com.aspose.slides.ForEach.ForEachLayoutSlideCallback-) | Iterate each \#layoutSlide(Presentation,ForEachLayoutSlideCallback) in the [Presentation](../../com.aspose.slides/presentation). |
+| [slide(Presentation pres, ForEach.ForEachSlideCallback forEachSlide)](#slide-com.aspose.slides.Presentation-com.aspose.slides.ForEach.ForEachSlideCallback-) | Iterate each \#slide(Presentation,ForEachSlideCallback).slide(Presentation,ForEachSlideCallback) in the [Presentation](../../com.aspose.slides/presentation). |
+| [masterSlide(Presentation pres, ForEach.ForEachMasterSlideCallback forEachMasterSlide)](#masterSlide-com.aspose.slides.Presentation-com.aspose.slides.ForEach.ForEachMasterSlideCallback-) | Iterate each \#masterSlide(Presentation,ForEachMasterSlideCallback).masterSlide(Presentation,ForEachMasterSlideCallback) in the [Presentation](../../com.aspose.slides/presentation). |
+| [layoutSlide(Presentation pres, ForEach.ForEachLayoutSlideCallback forEachLayoutSlide)](#layoutSlide-com.aspose.slides.Presentation-com.aspose.slides.ForEach.ForEachLayoutSlideCallback-) | Iterate each \#layoutSlide(Presentation,ForEachLayoutSlideCallback).layoutSlide(Presentation,ForEachLayoutSlideCallback) in the [Presentation](../../com.aspose.slides/presentation). |
 | [shape(Presentation pres, ForEach.ForEachShapeCallback forEachShape)](#shape-com.aspose.slides.Presentation-com.aspose.slides.ForEach.ForEachShapeCallback-) | Iterate each [Shape](../../com.aspose.slides/shape) in the [Presentation](../../com.aspose.slides/presentation). |
 | [shape(BaseSlide baseSlide, ForEach.ForEachShapeCallback forEachShape)](#shape-com.aspose.slides.BaseSlide-com.aspose.slides.ForEach.ForEachShapeCallback-) | Iterate each [Shape](../../com.aspose.slides/shape) in the [BaseSlide](../../com.aspose.slides/baseslide). |
-| [paragraph(Presentation pres, ForEach.ForEachParagraphCallback forEachParagraph)](#paragraph-com.aspose.slides.Presentation-com.aspose.slides.ForEach.ForEachParagraphCallback-) | Iterate each \#paragraph(Presentation,ForEachParagraphCallback) in the [Presentation](../../com.aspose.slides/presentation). |
-| [portion(Presentation pres, ForEach.ForEachPortionCallback forEachPortion)](#portion-com.aspose.slides.Presentation-com.aspose.slides.ForEach.ForEachPortionCallback-) | Iterate each \#portion(Presentation,ForEachPortionCallback) in the [Presentation](../../com.aspose.slides/presentation). |
+| [paragraph(Presentation pres, ForEach.ForEachParagraphCallback forEachParagraph)](#paragraph-com.aspose.slides.Presentation-com.aspose.slides.ForEach.ForEachParagraphCallback-) | Iterate each \#paragraph(Presentation,ForEachParagraphCallback).paragraph(Presentation,ForEachParagraphCallback) in the [Presentation](../../com.aspose.slides/presentation). |
+| [portion(Presentation pres, ForEach.ForEachPortionCallback forEachPortion)](#portion-com.aspose.slides.Presentation-com.aspose.slides.ForEach.ForEachPortionCallback-) | Iterate each \#portion(Presentation,ForEachPortionCallback).portion(Presentation,ForEachPortionCallback) in the [Presentation](../../com.aspose.slides/presentation). |
 ### ForEach() {#ForEach--}
 ```
 public ForEach()
@@ -55,7 +55,7 @@ public static void slide(Presentation pres, ForEach.ForEachSlideCallback forEach
 ```
 
 
-Iterate each \#slide(Presentation,ForEachSlideCallback) in the [Presentation](../../com.aspose.slides/presentation).
+Iterate each \#slide(Presentation,ForEachSlideCallback).slide(Presentation,ForEachSlideCallback) in the [Presentation](../../com.aspose.slides/presentation).
 
 --------------------
 
@@ -81,7 +81,7 @@ public static void masterSlide(Presentation pres, ForEach.ForEachMasterSlideCall
 ```
 
 
-Iterate each \#masterSlide(Presentation,ForEachMasterSlideCallback) in the [Presentation](../../com.aspose.slides/presentation).
+Iterate each \#masterSlide(Presentation,ForEachMasterSlideCallback).masterSlide(Presentation,ForEachMasterSlideCallback) in the [Presentation](../../com.aspose.slides/presentation).
 
 --------------------
 
@@ -107,7 +107,7 @@ public static void layoutSlide(Presentation pres, ForEach.ForEachLayoutSlideCall
 ```
 
 
-Iterate each \#layoutSlide(Presentation,ForEachLayoutSlideCallback) in the [Presentation](../../com.aspose.slides/presentation).
+Iterate each \#layoutSlide(Presentation,ForEachLayoutSlideCallback).layoutSlide(Presentation,ForEachLayoutSlideCallback) in the [Presentation](../../com.aspose.slides/presentation).
 
 --------------------
 
@@ -155,7 +155,7 @@ Iterate each [Shape](../../com.aspose.slides/shape) in the [Presentation](../../
 
 --------------------
 
-Shapes will be iterated in all type of slides - \#slide(Presentation,ForEachSlideCallback), \#masterSlide(Presentation,ForEachMasterSlideCallback) and \#layoutSlide(Presentation,ForEachLayoutSlideCallback) |
+Shapes will be iterated in all type of slides - \#slide(Presentation,ForEachSlideCallback).slide(Presentation,ForEachSlideCallback), \#masterSlide(Presentation,ForEachMasterSlideCallback).masterSlide(Presentation,ForEachMasterSlideCallback) and \#layoutSlide(Presentation,ForEachLayoutSlideCallback).layoutSlide(Presentation,ForEachLayoutSlideCallback) |
 
 ### shape(BaseSlide baseSlide, ForEach.ForEachShapeCallback forEachShape) {#shape-com.aspose.slides.BaseSlide-com.aspose.slides.ForEach.ForEachShapeCallback-}
 ```
@@ -186,7 +186,7 @@ Iterate each [Shape](../../com.aspose.slides/shape) in the [BaseSlide](../../com
 
 --------------------
 
-[BaseSlide](../../com.aspose.slides/baseslide) is the base type for \#slide(Presentation,ForEachSlideCallback), \#masterSlide(Presentation,ForEachMasterSlideCallback) and \#layoutSlide(Presentation,ForEachLayoutSlideCallback) |
+[BaseSlide](../../com.aspose.slides/baseslide) is the base type for \#slide(Presentation,ForEachSlideCallback).slide(Presentation,ForEachSlideCallback), \#masterSlide(Presentation,ForEachMasterSlideCallback).masterSlide(Presentation,ForEachMasterSlideCallback) and \#layoutSlide(Presentation,ForEachLayoutSlideCallback).layoutSlide(Presentation,ForEachLayoutSlideCallback) |
 
 ### paragraph(Presentation pres, ForEach.ForEachParagraphCallback forEachParagraph) {#paragraph-com.aspose.slides.Presentation-com.aspose.slides.ForEach.ForEachParagraphCallback-}
 ```
@@ -194,7 +194,7 @@ public static void paragraph(Presentation pres, ForEach.ForEachParagraphCallback
 ```
 
 
-Iterate each \#paragraph(Presentation,ForEachParagraphCallback) in the [Presentation](../../com.aspose.slides/presentation).
+Iterate each \#paragraph(Presentation,ForEachParagraphCallback).paragraph(Presentation,ForEachParagraphCallback) in the [Presentation](../../com.aspose.slides/presentation).
 
 --------------------
 
@@ -216,7 +216,7 @@ Iterate each \#paragraph(Presentation,ForEachParagraphCallback) in the [Presenta
 
 --------------------
 
-Shapes will be iterated in all type of slides - \#slide(Presentation,ForEachSlideCallback), \#masterSlide(Presentation,ForEachMasterSlideCallback) and \#layoutSlide(Presentation,ForEachLayoutSlideCallback) |
+Shapes will be iterated in all type of slides - \#slide(Presentation,ForEachSlideCallback).slide(Presentation,ForEachSlideCallback), \#masterSlide(Presentation,ForEachMasterSlideCallback).masterSlide(Presentation,ForEachMasterSlideCallback) and \#layoutSlide(Presentation,ForEachLayoutSlideCallback).layoutSlide(Presentation,ForEachLayoutSlideCallback) |
 
 ### portion(Presentation pres, ForEach.ForEachPortionCallback forEachPortion) {#portion-com.aspose.slides.Presentation-com.aspose.slides.ForEach.ForEachPortionCallback-}
 ```
@@ -224,7 +224,7 @@ public static void portion(Presentation pres, ForEach.ForEachPortionCallback for
 ```
 
 
-Iterate each \#portion(Presentation,ForEachPortionCallback) in the [Presentation](../../com.aspose.slides/presentation).
+Iterate each \#portion(Presentation,ForEachPortionCallback).portion(Presentation,ForEachPortionCallback) in the [Presentation](../../com.aspose.slides/presentation).
 
 --------------------
 
@@ -246,5 +246,5 @@ Iterate each \#portion(Presentation,ForEachPortionCallback) in the [Presentation
 
 --------------------
 
-Portions will be iterated in all type of slides - \#slide(Presentation,ForEachSlideCallback), \#masterSlide(Presentation,ForEachMasterSlideCallback) and \#layoutSlide(Presentation,ForEachLayoutSlideCallback) |
+Portions will be iterated in all type of slides - \#slide(Presentation,ForEachSlideCallback).slide(Presentation,ForEachSlideCallback), \#masterSlide(Presentation,ForEachMasterSlideCallback).masterSlide(Presentation,ForEachMasterSlideCallback) and \#layoutSlide(Presentation,ForEachLayoutSlideCallback).layoutSlide(Presentation,ForEachLayoutSlideCallback) |
 

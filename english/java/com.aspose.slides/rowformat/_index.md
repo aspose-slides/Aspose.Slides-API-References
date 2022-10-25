@@ -1,9 +1,9 @@
 ---
 title: RowFormat
 second_title: Aspose.Slides for Java API Reference
-description:  Represents format of a table row.
+description: Represents format of a table row.
 type: docs
-weight: 469
+weight: 470
 url: /java/com.aspose.slides/rowformat/
 ---
 **Inheritance:**

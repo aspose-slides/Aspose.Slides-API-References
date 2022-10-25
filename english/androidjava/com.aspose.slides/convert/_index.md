@@ -1,7 +1,7 @@
 ---
 title: Convert
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents a group of methods intended to convert .
+description: Represents a group of methods intended to convert .
 type: docs
 weight: 140
 url: /androidjava/com.aspose.slides/convert/

@@ -1,7 +1,7 @@
 ---
 title: EffectSubtype
 second_title: Aspose.Slides for Java API Reference
-description:  Represents subtypes of animation effect.
+description: Represents subtypes of animation effect.
 type: docs
 weight: 171
 url: /java/com.aspose.slides/effectsubtype/

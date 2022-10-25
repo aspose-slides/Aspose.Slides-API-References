@@ -1,9 +1,9 @@
 ---
 title: LoadOptions
 second_title: Aspose.Slides for Java API Reference
-description:  Allows to specify additional options such as format or default font when loading a presentation.
+description: Allows to specify additional options such as format or default font when loading a presentation.
 type: docs
-weight: 289
+weight: 290
 url: /java/com.aspose.slides/loadoptions/
 ---
 **Inheritance:**
@@ -300,7 +300,7 @@ The token to monitor for interruption requests.
 
 --------------------
 
-This token manages the whole [IPresentation](../../com.aspose.slides/ipresentation) instance lifetime. Any long-running operation, such as loading or saving of presentation, will be interrupted via calling of the [InterruptionTokenSource\#interrupt](../../com.aspose.slides/interruptiontokensource\#interrupt) method of the [InterruptionTokenSource](../../com.aspose.slides/interruptiontokensource).
+This token manages the whole [IPresentation](../../com.aspose.slides/ipresentation) instance lifetime. Any long-running operation, such as loading or saving of presentation, will be interrupted via calling of the [InterruptionTokenSource.interrupt](../../com.aspose.slides/interruptiontokensource\#interrupt) method of the [InterruptionTokenSource](../../com.aspose.slides/interruptiontokensource).
 
 **Returns:**
 [IInterruptionToken](../../com.aspose.slides/iinterruptiontoken)
@@ -314,7 +314,7 @@ The token to monitor for interruption requests.
 
 --------------------
 
-This token manages the whole [IPresentation](../../com.aspose.slides/ipresentation) instance lifetime. Any long-running operation, such as loading or saving of presentation, will be interrupted via calling of the [InterruptionTokenSource\#interrupt](../../com.aspose.slides/interruptiontokensource\#interrupt) method of the [InterruptionTokenSource](../../com.aspose.slides/interruptiontokensource).
+This token manages the whole [IPresentation](../../com.aspose.slides/ipresentation) instance lifetime. Any long-running operation, such as loading or saving of presentation, will be interrupted via calling of the [InterruptionTokenSource.interrupt](../../com.aspose.slides/interruptiontokensource\#interrupt) method of the [InterruptionTokenSource](../../com.aspose.slides/interruptiontokensource).
 
 **Parameters:**
 | Parameter | Type | Description |

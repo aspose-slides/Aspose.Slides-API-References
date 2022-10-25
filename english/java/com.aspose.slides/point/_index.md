@@ -1,9 +1,9 @@
 ---
 title: Point
 second_title: Aspose.Slides for Java API Reference
-description:  Represent animation point.
+description: Represent animation point.
 type: docs
-weight: 424
+weight: 425
 url: /java/com.aspose.slides/point/
 ---
 **Inheritance:**

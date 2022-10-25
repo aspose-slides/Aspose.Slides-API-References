@@ -1,9 +1,9 @@
 ---
 title: IHtmlGenerator
 second_title: Aspose.Slides for Java API Reference
-description:  Html generator.
+description: Html generator.
 type: docs
-weight: 822
+weight: 823
 url: /java/com.aspose.slides/ihtmlgenerator/
 ---```
 public interface IHtmlGenerator

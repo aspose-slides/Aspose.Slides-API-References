@@ -1,9 +1,9 @@
 ---
 title: IBackground
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents background of a slide.
+description: Represents background of a slide.
 type: docs
-weight: 648
+weight: 649
 url: /androidjava/com.aspose.slides/ibackground/
 ---
 **All Implemented Interfaces:**

@@ -1,9 +1,9 @@
 ---
 title: IPortionCollection
 second_title: Aspose.Slides for Java API Reference
-description:  Represents a collection of a portions.
+description: Represents a collection of a portions.
 type: docs
-weight: 969
+weight: 970
 url: /java/com.aspose.slides/iportioncollection/
 ---
 **All Implemented Interfaces:**

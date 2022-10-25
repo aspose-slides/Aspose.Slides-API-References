@@ -1,9 +1,9 @@
 ---
 title: ModernComment
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents a comment on a slide.
+description: Represents a comment on a slide.
 type: docs
-weight: 360
+weight: 361
 url: /androidjava/com.aspose.slides/moderncomment/
 ---
 **Inheritance:**

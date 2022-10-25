@@ -12,14 +12,14 @@ public static interface ForEach.ForEachLayoutSlideCallback
 
 | Method | Description |
 | --- | --- |
-| [invoke(LayoutSlide layoutSlide, int index)](#invoke-com.aspose.slides.LayoutSlide-int-) | Callback that will be invoked for each \#layoutSlide(Presentation,ForEachLayoutSlideCallback) in the [Presentation](../../com.aspose.slides/presentation). |
+| [invoke(LayoutSlide layoutSlide, int index)](#invoke-com.aspose.slides.LayoutSlide-int-) | Callback that will be invoked for each \#layoutSlide(Presentation,ForEachLayoutSlideCallback).layoutSlide(Presentation,ForEachLayoutSlideCallback) in the [Presentation](../../com.aspose.slides/presentation). |
 ### invoke(LayoutSlide layoutSlide, int index) {#invoke-com.aspose.slides.LayoutSlide-int-}
 ```
 public abstract void invoke(LayoutSlide layoutSlide, int index)
 ```
 
 
-Callback that will be invoked for each \#layoutSlide(Presentation,ForEachLayoutSlideCallback) in the [Presentation](../../com.aspose.slides/presentation).
+Callback that will be invoked for each \#layoutSlide(Presentation,ForEachLayoutSlideCallback).layoutSlide(Presentation,ForEachLayoutSlideCallback) in the [Presentation](../../com.aspose.slides/presentation).
 
 **Parameters:**
 | Parameter | Type | Description |

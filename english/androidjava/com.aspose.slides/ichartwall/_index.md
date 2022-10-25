@@ -1,9 +1,9 @@
 ---
 title: IChartWall
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents walls on 3d charts.
+description: Represents walls on 3d charts.
 type: docs
-weight: 705
+weight: 706
 url: /androidjava/com.aspose.slides/ichartwall/
 ---```
 public interface IChartWall
@@ -58,7 +58,7 @@ public abstract int getPictureType()
 ```
 
 
-Return or sets the picture type. Read/write [PictureType](../../com.aspose.slides/picturetype)(\#getPictureType/\#setPictureType(int)).
+Return or sets the picture type. Read/write [PictureType](../../com.aspose.slides/picturetype)(\#getPictureType.getPictureType/\#setPictureType(int).setPictureType(int)).
 
 **Returns:**
 int
@@ -68,7 +68,7 @@ public abstract void setPictureType(int value)
 ```
 
 
-Return or sets the picture type. Read/write [PictureType](../../com.aspose.slides/picturetype)(\#getPictureType/\#setPictureType(int)).
+Return or sets the picture type. Read/write [PictureType](../../com.aspose.slides/picturetype)(\#getPictureType.getPictureType/\#setPictureType(int).setPictureType(int)).
 
 **Parameters:**
 | Parameter | Type | Description |

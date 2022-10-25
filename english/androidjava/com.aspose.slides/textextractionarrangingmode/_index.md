@@ -1,9 +1,9 @@
 ---
 title: TextExtractionArrangingMode
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents the mode to use during text extraction
+description: Represents the mode to use during text extraction
 type: docs
-weight: 556
+weight: 557
 url: /androidjava/com.aspose.slides/textextractionarrangingmode/
 ---
 **Inheritance:**

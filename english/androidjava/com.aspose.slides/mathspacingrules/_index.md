@@ -1,9 +1,9 @@
 ---
 title: MathSpacingRules
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Types of gap horizontal spacing between columns of a matrix
+description: Types of gap horizontal spacing between columns of a matrix
 type: docs
-weight: 350
+weight: 351
 url: /androidjava/com.aspose.slides/mathspacingrules/
 ---
 **Inheritance:**

@@ -1,9 +1,9 @@
 ---
 title: ZoomFrame
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents a Slide Zoom object in a slide.
+description: Represents a Slide Zoom object in a slide.
 type: docs
-weight: 616
+weight: 617
 url: /androidjava/com.aspose.slides/zoomframe/
 ---
 **Inheritance:**

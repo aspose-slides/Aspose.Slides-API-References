@@ -1,9 +1,9 @@
 ---
 title: ISequenceCollection
 second_title: Aspose.Slides for Java API Reference
-description:  Represents collection of interactive sequences.
+description: Represents collection of interactive sequences.
 type: docs
-weight: 1010
+weight: 1011
 url: /java/com.aspose.slides/isequencecollection/
 ---
 **All Implemented Interfaces:**

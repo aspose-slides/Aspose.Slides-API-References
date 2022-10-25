@@ -1,9 +1,9 @@
 ---
 title: IFillFormat
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents a fill formatting options.
+description: Represents a fill formatting options.
 type: docs
-weight: 768
+weight: 769
 url: /androidjava/com.aspose.slides/ifillformat/
 ---
 **All Implemented Interfaces:**

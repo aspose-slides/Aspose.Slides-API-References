@@ -1,9 +1,9 @@
 ---
 title: IMathArrayFactory
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Allows to create a math array
+description: Allows to create a math array
 type: docs
-weight: 880
+weight: 881
 url: /androidjava/com.aspose.slides/imatharrayfactory/
 ---```
 public interface IMathArrayFactory

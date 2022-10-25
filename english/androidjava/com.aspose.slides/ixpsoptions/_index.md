@@ -1,9 +1,9 @@
 ---
 title: IXpsOptions
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Provides options that control how a presentation is saved in XPS format.
+description: Provides options that control how a presentation is saved in XPS format.
 type: docs
-weight: 1107
+weight: 1108
 url: /androidjava/com.aspose.slides/ixpsoptions/
 ---
 **All Implemented Interfaces:**

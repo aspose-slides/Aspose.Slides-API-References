@@ -1,9 +1,9 @@
 ---
 title: SmartArtNodeCollection
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents a collection of SmartArt nodes.
+description: Represents a collection of SmartArt nodes.
 type: docs
-weight: 517
+weight: 518
 url: /androidjava/com.aspose.slides/smartartnodecollection/
 ---
 **Inheritance:**
@@ -21,7 +21,7 @@ Represents a collection of SmartArt nodes.
 | Method | Description |
 | --- | --- |
 | [get_Item(int index)](#get-Item-int-) | Returns node by index |
-| [size()](#size--) | Returns count of nodes in collection Read-only \`\`\` int \`\`\` Read-only \`\`\` int \`\`\`. |
+| [size()](#size--) | Returns count of nodes in collection Read-only  int  Read-only  int . |
 | [addNode()](#addNode--) | Add new smart art node or sub node. |
 | [removeNode(int index)](#removeNode-int-) | Remove node or sub node by index |
 | [removeNode(ISmartArtNode node)](#removeNode-com.aspose.slides.ISmartArtNode-) | Remove node or sub node |
@@ -52,7 +52,7 @@ public final int size()
 ```
 
 
-Returns count of nodes in collection Read-only \`\`\` int \`\`\` Read-only \`\`\` int \`\`\`.
+Returns count of nodes in collection Read-only  int  Read-only  int .
 
 **Returns:**
 int
@@ -147,7 +147,7 @@ public final boolean isSynchronized()
 ```
 
 
-Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only \`\`\` boolean \`\`\`.
+Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only  boolean .
 
 **Returns:**
 boolean

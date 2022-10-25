@@ -1,9 +1,9 @@
 ---
 title: IMotionCmdPath
 second_title: Aspose.Slides for Java API Reference
-description:  Represent one command of a path.
+description: Represent one command of a path.
 type: docs
-weight: 924
+weight: 925
 url: /java/com.aspose.slides/imotioncmdpath/
 ---```
 public interface IMotionCmdPath

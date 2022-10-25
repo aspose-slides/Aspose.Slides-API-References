@@ -1,9 +1,9 @@
 ---
 title: FormatScheme
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Stores theme-defined formats for the shapes.
+description: Stores theme-defined formats for the shapes.
 type: docs
-weight: 216
+weight: 217
 url: /androidjava/com.aspose.slides/formatscheme/
 ---
 **Inheritance:**

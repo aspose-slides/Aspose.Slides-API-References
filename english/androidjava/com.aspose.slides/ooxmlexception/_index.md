@@ -1,9 +1,9 @@
 ---
 title: OOXMLException
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents a standard internal exception type related to Office Open XML file format.
+description: Represents a standard internal exception type related to Office Open XML file format.
 type: docs
-weight: 382
+weight: 383
 url: /androidjava/com.aspose.slides/ooxmlexception/
 ---
 **Inheritance:**

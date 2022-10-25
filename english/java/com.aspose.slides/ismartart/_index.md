@@ -1,9 +1,9 @@
 ---
 title: ISmartArt
 second_title: Aspose.Slides for Java API Reference
-description:  Represents a SmartArt diagram.
+description: Represents a SmartArt diagram.
 type: docs
-weight: 1033
+weight: 1034
 url: /java/com.aspose.slides/ismartart/
 ---
 **All Implemented Interfaces:**

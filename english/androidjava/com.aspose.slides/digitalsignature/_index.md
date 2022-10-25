@@ -1,7 +1,7 @@
 ---
 title: DigitalSignature
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Digital signature in signed file.
+description: Digital signature in signed file.
 type: docs
 weight: 153
 url: /androidjava/com.aspose.slides/digitalsignature/

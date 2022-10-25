@@ -1,9 +1,9 @@
 ---
 title: IChartDataCell
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents cell for chart data.
+description: Represents cell for chart data.
 type: docs
-weight: 685
+weight: 686
 url: /androidjava/com.aspose.slides/ichartdatacell/
 ---```
 public interface IChartDataCell
@@ -16,8 +16,8 @@ Represents cell for chart data.
 | --- | --- |
 | [getRow()](#getRow--) | Returns the index of the row of worksheet in which the cell is located. |
 | [getColumn()](#getColumn--) | Returns the index of the column of worksheet in which the cell is located. |
-| [getValue()](#getValue--) | Gets or sets the value. |
-| [setValue(Object value)](#setValue-java.lang.Object-) | Gets or sets the value. |
+| [getValue()](#getValue--) | Gets or sets the value of a cell. |
+| [setValue(Object value)](#setValue-java.lang.Object-) | Gets or sets the value of a cell. |
 | [getFormula()](#getFormula--) | Gets or sets the formula in A1-style. |
 | [setFormula(String value)](#setFormula-java.lang.String-) | Gets or sets the formula in A1-style. |
 | [getR1C1Formula()](#getR1C1Formula--) | Gets or sets the formula in R1C1-style. |
@@ -55,7 +55,14 @@ public abstract Object getValue()
 ```
 
 
-Gets or sets the value. Read/write Object.
+Gets or sets the value of a cell. Read/write Object.
+
+--------------------
+
+> ```
+> workbook.getCell(0, "F2").setValue(-2.5f);
+>  workbook.getCell(0, "G3").setValue(6.3f);
+> ```
 
 **Returns:**
 java.lang.Object
@@ -65,7 +72,14 @@ public abstract void setValue(Object value)
 ```
 
 
-Gets or sets the value. Read/write Object.
+Gets or sets the value of a cell. Read/write Object.
+
+--------------------
+
+> ```
+> workbook.getCell(0, "F2").setValue(-2.5f);
+>  workbook.getCell(0, "G3").setValue(6.3f);
+> ```
 
 **Parameters:**
 | Parameter | Type | Description |

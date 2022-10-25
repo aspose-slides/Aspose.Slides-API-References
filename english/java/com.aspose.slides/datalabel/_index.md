@@ -1,7 +1,7 @@
 ---
 title: DataLabel
 second_title: Aspose.Slides for Java API Reference
-description:  Represents a series labels.
+description: Represents a series labels.
 type: docs
 weight: 147
 url: /java/com.aspose.slides/datalabel/
@@ -91,7 +91,7 @@ public final boolean isVisible()
 ```
 
 
-False means that data label is not visible (and so all Show\*-flags (ShowValue, ...) are false). Read-only \`\`\` boolean \`\`\`.
+False means that data label is not visible (and so all Show\*-flags (ShowValue, ...) are false). Read-only  boolean .
 
 --------------------
 
@@ -162,7 +162,7 @@ public final float getX()
 ```
 
 
-Returns or sets the x coordinate of a title as a fraction of the width of the chart. Read/write \`\`\` float \`\`\`.
+Returns or sets the x coordinate of a title as a fraction of the width of the chart. Read/write  float .
 
 **Returns:**
 float
@@ -172,7 +172,7 @@ public final void setX(float value)
 ```
 
 
-Returns or sets the x coordinate of a title as a fraction of the width of the chart. Read/write \`\`\` float \`\`\`.
+Returns or sets the x coordinate of a title as a fraction of the width of the chart. Read/write  float .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -185,7 +185,7 @@ public final float getY()
 ```
 
 
-Returns or sets the y coordinate of a title as a fraction of the height of the chart. Read/write \`\`\` float \`\`\`.
+Returns or sets the y coordinate of a title as a fraction of the height of the chart. Read/write  float .
 
 **Returns:**
 float
@@ -195,7 +195,7 @@ public final void setY(float value)
 ```
 
 
-Returns or sets the y coordinate of a title as a fraction of the height of the chart. Read/write \`\`\` float \`\`\`.
+Returns or sets the y coordinate of a title as a fraction of the height of the chart. Read/write  float .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -208,7 +208,7 @@ public final float getWidth()
 ```
 
 
-Returns or sets the width of a title as a fraction of the width of the chart. Read/write \`\`\` float \`\`\`.
+Returns or sets the width of a title as a fraction of the width of the chart. Read/write  float .
 
 **Returns:**
 float
@@ -218,7 +218,7 @@ public final void setWidth(float value)
 ```
 
 
-Returns or sets the width of a title as a fraction of the width of the chart. Read/write \`\`\` float \`\`\`.
+Returns or sets the width of a title as a fraction of the width of the chart. Read/write  float .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -231,7 +231,7 @@ public final float getHeight()
 ```
 
 
-Returns or sets the height of a title as a fraction of the height of the chart. Read/write \`\`\` float \`\`\`.
+Returns or sets the height of a title as a fraction of the height of the chart. Read/write  float .
 
 **Returns:**
 float
@@ -241,7 +241,7 @@ public final void setHeight(float value)
 ```
 
 
-Returns or sets the height of a title as a fraction of the height of the chart. Read/write \`\`\` float \`\`\`.
+Returns or sets the height of a title as a fraction of the height of the chart. Read/write  float .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -254,7 +254,7 @@ public final float getRight()
 ```
 
 
-Right. Read-only \`\`\` float \`\`\`.
+Right. Read-only  float .
 
 **Returns:**
 float
@@ -264,7 +264,7 @@ public final float getBottom()
 ```
 
 
-Bottom. Read-only \`\`\` float \`\`\`.
+Bottom. Read-only  float .
 
 **Returns:**
 float
@@ -307,7 +307,7 @@ public final float getActualX()
 ```
 
 
-Specifies actual x location (left) of the chart element relative to the left top corner of the chart. Call method IChart.ValidateChartLayout() before to get actual values. Read \`\`\` float \`\`\`.
+Specifies actual x location (left) of the chart element relative to the left top corner of the chart. Call method IChart.ValidateChartLayout() before to get actual values. Read  float .
 
 **Returns:**
 float
@@ -317,7 +317,7 @@ public final float getActualY()
 ```
 
 
-Specifies actual top of the chart element relative to the left top corner of the chart. Call method IChart.ValidateChartLayout() before to get actual values. Read \`\`\` float \`\`\`.
+Specifies actual top of the chart element relative to the left top corner of the chart. Call method IChart.ValidateChartLayout() before to get actual values. Read  float .
 
 **Returns:**
 float
@@ -327,7 +327,7 @@ public final float getActualWidth()
 ```
 
 
-Specifies actual width of the chart element. Call method IChart.ValidateChartLayout() before to get actual values. Read \`\`\` float \`\`\`.
+Specifies actual width of the chart element. Call method IChart.ValidateChartLayout() before to get actual values. Read  float .
 
 **Returns:**
 float
@@ -337,7 +337,7 @@ public final float getActualHeight()
 ```
 
 
-Specifies actual height of the chart element. Call method IChart.ValidateChartLayout() before to get actual values. Read \`\`\` float \`\`\`.
+Specifies actual height of the chart element. Call method IChart.ValidateChartLayout() before to get actual values. Read  float .
 
 **Returns:**
 float

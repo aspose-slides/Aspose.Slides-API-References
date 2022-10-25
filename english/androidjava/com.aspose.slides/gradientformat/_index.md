@@ -1,9 +1,9 @@
 ---
 title: GradientFormat
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Represent a gradient format.
+description: Represent a gradient format.
 type: docs
-weight: 224
+weight: 225
 url: /androidjava/com.aspose.slides/gradientformat/
 ---
 **Inheritance:**

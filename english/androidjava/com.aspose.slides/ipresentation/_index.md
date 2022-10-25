@@ -1,9 +1,9 @@
 ---
 title: IPresentation
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Presentation document
+description: Presentation document
 type: docs
-weight: 975
+weight: 976
 url: /androidjava/com.aspose.slides/ipresentation/
 ---
 **All Implemented Interfaces:**
@@ -306,7 +306,7 @@ public abstract int getSourceFormat()
 ```
 
 
-Returns information about from which format presentation was loaded. Read-only [SourceFormat](../../com.aspose.slides/sourceformat)(\#getSourceFormat).
+Returns information about from which format presentation was loaded. Read-only [SourceFormat](../../com.aspose.slides/sourceformat)(\#getSourceFormat.getSourceFormat).
 
 **Returns:**
 int

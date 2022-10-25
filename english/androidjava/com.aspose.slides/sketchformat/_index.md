@@ -1,9 +1,9 @@
 ---
 title: SketchFormat
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents properties for lines sketch format.
+description: Represents properties for lines sketch format.
 type: docs
-weight: 497
+weight: 498
 url: /androidjava/com.aspose.slides/sketchformat/
 ---
 **Inheritance:**

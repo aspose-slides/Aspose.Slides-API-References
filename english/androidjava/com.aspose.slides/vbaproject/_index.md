@@ -1,9 +1,9 @@
 ---
 title: VbaProject
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents VBA project with presentation macros.
+description: Represents VBA project with presentation macros.
 type: docs
-weight: 597
+weight: 598
 url: /androidjava/com.aspose.slides/vbaproject/
 ---
 **Inheritance:**

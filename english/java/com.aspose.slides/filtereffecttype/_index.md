@@ -1,7 +1,7 @@
 ---
 title: FilterEffectType
 second_title: Aspose.Slides for Java API Reference
-description:  Represents filter effect types.
+description: Represents filter effect types.
 type: docs
 weight: 197
 url: /java/com.aspose.slides/filtereffecttype/

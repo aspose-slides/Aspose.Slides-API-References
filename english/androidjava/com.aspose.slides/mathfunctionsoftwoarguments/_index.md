@@ -1,9 +1,9 @@
 ---
 title: MathFunctionsOfTwoArguments
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Common mathematical functions of two arguments
+description: Common mathematical functions of two arguments
 type: docs
-weight: 327
+weight: 328
 url: /androidjava/com.aspose.slides/mathfunctionsoftwoarguments/
 ---
 **Inheritance:**

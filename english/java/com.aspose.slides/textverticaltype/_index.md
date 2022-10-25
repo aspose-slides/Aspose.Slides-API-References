@@ -1,9 +1,9 @@
 ---
 title: TextVerticalType
 second_title: Aspose.Slides for Java API Reference
-description:  Determines vertical writing mode for a text.
+description: Determines vertical writing mode for a text.
 type: docs
-weight: 567
+weight: 568
 url: /java/com.aspose.slides/textverticaltype/
 ---
 **Inheritance:**

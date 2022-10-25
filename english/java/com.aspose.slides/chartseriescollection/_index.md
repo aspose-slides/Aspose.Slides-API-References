@@ -1,8 +1,7 @@
 ---
 title: ChartSeriesCollection
 second_title: Aspose.Slides for Java API Reference
-description:  Represents collection of  
- 
+description: Represents collection of
 type: docs
 weight: 96
 url: /java/com.aspose.slides/chartseriescollection/

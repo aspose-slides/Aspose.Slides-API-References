@@ -1,9 +1,9 @@
 ---
 title: IColorScheme
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Stores theme-defined colors.
+description: Stores theme-defined colors.
 type: docs
-weight: 715
+weight: 716
 url: /androidjava/com.aspose.slides/icolorscheme/
 ---
 **All Implemented Interfaces:**

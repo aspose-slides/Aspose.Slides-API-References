@@ -1,9 +1,9 @@
 ---
 title: VbaReferenceFactory
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Allows to create VBA project references via COM interface
+description: Allows to create VBA project references via COM interface
 type: docs
-weight: 600
+weight: 601
 url: /androidjava/com.aspose.slides/vbareferencefactory/
 ---
 **Inheritance:**

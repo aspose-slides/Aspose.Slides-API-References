@@ -1,9 +1,9 @@
 ---
 title: LineDashStyle
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents the line dash style.
+description: Represents the line dash style.
 type: docs
-weight: 280
+weight: 281
 url: /androidjava/com.aspose.slides/linedashstyle/
 ---
 **Inheritance:**

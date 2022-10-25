@@ -1,9 +1,9 @@
 ---
 title: IFontsManager
 second_title: Aspose.Slides for Java API Reference
-description:  Manages fonts across the presentation.
+description: Manages fonts across the presentation.
 type: docs
-weight: 789
+weight: 790
 url: /java/com.aspose.slides/ifontsmanager/
 ---```
 public interface IFontsManager
@@ -19,6 +19,7 @@ Manages fonts across the presentation.
 | [getFontFallBackRulesCollection()](#getFontFallBackRulesCollection--) | Represents a user's collection of FontFallBack rules for managing of collections of fonts for proper substitutions by fallback functionality Read/write [IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection). |
 | [setFontFallBackRulesCollection(IFontFallBackRulesCollection value)](#setFontFallBackRulesCollection-com.aspose.slides.IFontFallBackRulesCollection-) | Represents a user's collection of FontFallBack rules for managing of collections of fonts for proper substitutions by fallback functionality Read/write [IFontFallBackRulesCollection](../../com.aspose.slides/ifontfallbackrulescollection). |
 | [getFonts()](#getFonts--) | Returns the fonts used in the presentation |
+| [getSubstitutions()](#getSubstitutions--) | Gets the information about fonts that will be replaced on the presentation's rendering. |
 | [getEmbeddedFonts()](#getEmbeddedFonts--) | Returns the fonts embedded in the presentation |
 | [removeEmbeddedFont(IFontData fontData)](#removeEmbeddedFont-com.aspose.slides.IFontData-) | Removes the embedded font |
 | [addEmbeddedFont(IFontData fontData, int embedFontRule)](#addEmbeddedFont-com.aspose.slides.IFontData-int-) | Adds the embedded font. |
@@ -128,6 +129,30 @@ Returns the fonts used in the presentation
 
 **Returns:**
 com.aspose.slides.IFontData[] - An array of fonts
+### getSubstitutions() {#getSubstitutions--}
+```
+public abstract System.Collections.Generic.IGenericEnumerable<FontSubstitutionInfo> getSubstitutions()
+```
+
+
+Gets the information about fonts that will be replaced on the presentation's rendering.
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("pres.pptx");
+>  try {
+>      for (FontSubstitutionInfo fontSubstitution : pres.getFontsManager().getSubstitutions())
+>      {
+>          System.out.println(fontSubstitution.getOriginalFontName() + " -> " + fontSubstitution.getSubstitutedFontName());
+>      }
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Returns:**
+com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.slides.FontSubstitutionInfo> - Collection of all fonts substitution [FontSubstitutionInfo](../../com.aspose.slides/fontsubstitutioninfo).
 ### getEmbeddedFonts() {#getEmbeddedFonts--}
 ```
 public abstract IFontData[] getEmbeddedFonts()
@@ -180,7 +205,7 @@ Adds the embedded font
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fontData | byte[] | Font data byte[] |
+| fontData | byte[] | Font data  byte[]  |
 | embedFontRule | int | Embedded font rule [EmbedFontCharacters](../../com.aspose.slides/embedfontcharacters)
 
 --------------------

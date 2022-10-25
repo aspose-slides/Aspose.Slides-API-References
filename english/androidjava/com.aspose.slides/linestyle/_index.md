@@ -1,9 +1,9 @@
 ---
 title: LineStyle
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents the style of a line.
+description: Represents the style of a line.
 type: docs
-weight: 286
+weight: 287
 url: /androidjava/com.aspose.slides/linestyle/
 ---
 **Inheritance:**

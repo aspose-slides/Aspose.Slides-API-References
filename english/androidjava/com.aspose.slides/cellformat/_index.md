@@ -1,7 +1,7 @@
 ---
 title: CellFormat
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents format of a table cell.
+description: Represents format of a table cell.
 type: docs
 weight: 73
 url: /androidjava/com.aspose.slides/cellformat/

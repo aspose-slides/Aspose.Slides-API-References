@@ -1,9 +1,9 @@
 ---
 title: GifOptions
 second_title: Aspose.Slides for Java API Reference
-description:  Represents GIF exporting options.
+description: Represents GIF exporting options.
 type: docs
-weight: 219
+weight: 220
 url: /java/com.aspose.slides/gifoptions/
 ---
 **Inheritance:**
@@ -51,7 +51,7 @@ Gets or sets frame size.
 
 --------------------
 
-If the size is empty then the value will be taken from ([IPresentation\#getSlideSize](../../com.aspose.slides/ipresentation\#getSlideSize))
+If the size is empty then the value will be taken from ([IPresentation.getSlideSize](../../com.aspose.slides/ipresentation\#getSlideSize))
 
 **Returns:**
 java.awt.Dimension
@@ -65,7 +65,7 @@ Gets or sets frame size.
 
 --------------------
 
-If the size is empty then the value will be taken from ([IPresentation\#getSlideSize](../../com.aspose.slides/ipresentation\#getSlideSize))
+If the size is empty then the value will be taken from ([IPresentation.getSlideSize](../../com.aspose.slides/ipresentation\#getSlideSize))
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -176,7 +176,7 @@ public final int getDefaultDelay()
 ```
 
 
-Gets or sets default delay time [ms]. This value will be used if ([ISlideShowTransition\#getAdvanceAfterTime](../../com.aspose.slides/islideshowtransition\#getAdvanceAfterTime)/[ISlideShowTransition\#setAdvanceAfterTime(long)](../../com.aspose.slides/islideshowtransition\#setAdvanceAfterTime-long-)) is not set. The default value is 1000.
+Gets or sets default delay time [ms]. This value will be used if ([ISlideShowTransition.getAdvanceAfterTime](../../com.aspose.slides/islideshowtransition\#getAdvanceAfterTime)/[ISlideShowTransition.setAdvanceAfterTime(long)](../../com.aspose.slides/islideshowtransition\#setAdvanceAfterTime-long-)) is not set. The default value is 1000.
 
 --------------------
 
@@ -199,7 +199,7 @@ public final void setDefaultDelay(int value)
 ```
 
 
-Gets or sets default delay time [ms]. This value will be used if ([ISlideShowTransition\#getAdvanceAfterTime](../../com.aspose.slides/islideshowtransition\#getAdvanceAfterTime)/[ISlideShowTransition\#setAdvanceAfterTime(long)](../../com.aspose.slides/islideshowtransition\#setAdvanceAfterTime-long-)) is not set. The default value is 1000.
+Gets or sets default delay time [ms]. This value will be used if ([ISlideShowTransition.getAdvanceAfterTime](../../com.aspose.slides/islideshowtransition\#getAdvanceAfterTime)/[ISlideShowTransition.setAdvanceAfterTime(long)](../../com.aspose.slides/islideshowtransition\#setAdvanceAfterTime-long-)) is not set. The default value is 1000.
 
 --------------------
 

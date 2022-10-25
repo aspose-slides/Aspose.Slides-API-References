@@ -1,7 +1,7 @@
 ---
 title: BaseOverrideThemeManager
 second_title: Aspose.Slides for Java API Reference
-description:  Base class for classes that provide access to different types of overriden themes.
+description: Base class for classes that provide access to different types of overriden themes.
 type: docs
 weight: 40
 url: /java/com.aspose.slides/baseoverridethememanager/

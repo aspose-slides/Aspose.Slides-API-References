@@ -1,10 +1,9 @@
 ---
 title: MathSubscriptElement
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Specifies the subscript object which consists of a base 
- and a reduced-size subscript placed below and to the right.
+description: Specifies the subscript object which consists of a base  and a reduced-size subscript placed below and to the right.
 type: docs
-weight: 351
+weight: 352
 url: /androidjava/com.aspose.slides/mathsubscriptelement/
 ---
 **Inheritance:**

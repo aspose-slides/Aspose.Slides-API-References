@@ -1,7 +1,7 @@
 ---
 title: BrowsedByIndividual
 second_title: Aspose.Slides for Java API Reference
-description:  Browsed by individual window
+description: Browsed by individual window
 type: docs
 weight: 60
 url: /java/com.aspose.slides/browsedbyindividual/

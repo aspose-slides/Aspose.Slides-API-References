@@ -1,9 +1,9 @@
 ---
 title: IPresetShadow
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents a Preset Shadow effect.
+description: Represents a Preset Shadow effect.
 type: docs
-weight: 982
+weight: 983
 url: /androidjava/com.aspose.slides/ipresetshadow/
 ---
 **All Implemented Interfaces:**

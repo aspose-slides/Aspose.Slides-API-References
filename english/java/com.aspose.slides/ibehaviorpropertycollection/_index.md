@@ -1,9 +1,9 @@
 ---
 title: IBehaviorPropertyCollection
 second_title: Aspose.Slides for Java API Reference
-description:  Represents timing properties for the effect behavior.
+description: Represents timing properties for the effect behavior.
 type: docs
-weight: 663
+weight: 664
 url: /java/com.aspose.slides/ibehaviorpropertycollection/
 ---
 **All Implemented Interfaces:**

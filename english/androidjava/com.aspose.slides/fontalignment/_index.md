@@ -1,7 +1,7 @@
 ---
 title: FontAlignment
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents vertical font alignment.
+description: Represents vertical font alignment.
 type: docs
 weight: 199
 url: /androidjava/com.aspose.slides/fontalignment/

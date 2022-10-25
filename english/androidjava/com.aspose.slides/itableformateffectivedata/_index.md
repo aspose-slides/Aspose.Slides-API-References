@@ -1,9 +1,9 @@
 ---
 title: ITableFormatEffectiveData
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Immutable object which contains effective table formatting properties.
+description: Immutable object which contains effective table formatting properties.
 type: docs
-weight: 1059
+weight: 1060
 url: /androidjava/com.aspose.slides/itableformateffectivedata/
 ---
 **All Implemented Interfaces:**

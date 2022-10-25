@@ -1,9 +1,9 @@
 ---
 title: ICellFormat
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents format of a table cell.
+description: Represents format of a table cell.
 type: docs
-weight: 676
+weight: 677
 url: /androidjava/com.aspose.slides/icellformat/
 ---```
 public interface ICellFormat

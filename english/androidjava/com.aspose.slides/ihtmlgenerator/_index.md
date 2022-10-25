@@ -1,9 +1,9 @@
 ---
 title: IHtmlGenerator
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Html generator.
+description: Html generator.
 type: docs
-weight: 822
+weight: 823
 url: /androidjava/com.aspose.slides/ihtmlgenerator/
 ---```
 public interface IHtmlGenerator
@@ -158,7 +158,7 @@ public abstract SizeF getSlideImageSize()
 ```
 
 
-Returns slide image size. Read-only com.aspose.slides.android.SizeF.
+Returns slide image size. Read-only [SizeF](../../com.aspose.slides.android/sizef).
 
 **Returns:**
 [SizeF](../../com.aspose.slides.android/sizef)

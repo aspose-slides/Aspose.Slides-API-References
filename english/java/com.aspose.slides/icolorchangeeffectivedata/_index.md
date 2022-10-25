@@ -1,9 +1,9 @@
 ---
 title: IColorChangeEffectiveData
 second_title: Aspose.Slides for Java API Reference
-description:  Immutable object which represents a Color Change effect.
+description: Immutable object which represents a Color Change effect.
 type: docs
-weight: 707
+weight: 708
 url: /java/com.aspose.slides/icolorchangeeffectivedata/
 ---
 **All Implemented Interfaces:**

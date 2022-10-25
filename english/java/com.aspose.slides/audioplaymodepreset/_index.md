@@ -1,7 +1,7 @@
 ---
 title: AudioPlayModePreset
 second_title: Aspose.Slides for Java API Reference
-description:  Constants which define how a sound is played.
+description: Constants which define how a sound is played.
 type: docs
 weight: 24
 url: /java/com.aspose.slides/audioplaymodepreset/
@@ -52,7 +52,7 @@ public static final int AllSlides
 ```
 
 
-Play on all slides. Please use ([IAudioFrame\#getPlayAcrossSlides](../../com.aspose.slides/iaudioframe\#getPlayAcrossSlides)/[IAudioFrame\#setPlayAcrossSlides(boolean)](../../com.aspose.slides/iaudioframe\#setPlayAcrossSlides-boolean-)) property instead.
+Play on all slides. Please use ([IAudioFrame.getPlayAcrossSlides](../../com.aspose.slides/iaudioframe\#getPlayAcrossSlides)/[IAudioFrame.setPlayAcrossSlides(boolean)](../../com.aspose.slides/iaudioframe\#setPlayAcrossSlides-boolean-)) property instead.
 
 --------------------
 

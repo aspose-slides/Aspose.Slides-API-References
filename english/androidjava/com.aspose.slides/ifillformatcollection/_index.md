@@ -1,9 +1,9 @@
 ---
 title: IFillFormatCollection
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents the collection of fill styles.
+description: Represents the collection of fill styles.
 type: docs
-weight: 769
+weight: 770
 url: /androidjava/com.aspose.slides/ifillformatcollection/
 ---
 **All Implemented Interfaces:**

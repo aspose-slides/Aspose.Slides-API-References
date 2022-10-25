@@ -1,9 +1,9 @@
 ---
 title: IImageTransformOperationFactory
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Allows to create image effects instances
+description: Allows to create image effects instances
 type: docs
-weight: 832
+weight: 833
 url: /androidjava/com.aspose.slides/iimagetransformoperationfactory/
 ---```
 public interface IImageTransformOperationFactory

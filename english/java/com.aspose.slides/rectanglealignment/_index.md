@@ -1,9 +1,9 @@
 ---
 title: RectangleAlignment
 second_title: Aspose.Slides for Java API Reference
-description:  Defines 2-dimension allignment.
+description: Defines 2-dimension allignment.
 type: docs
-weight: 457
+weight: 458
 url: /java/com.aspose.slides/rectanglealignment/
 ---
 **Inheritance:**

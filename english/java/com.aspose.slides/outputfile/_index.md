@@ -1,9 +1,9 @@
 ---
 title: OutputFile
 second_title: Aspose.Slides for Java API Reference
-description:  Represents an output file.
+description: Represents an output file.
 type: docs
-weight: 393
+weight: 394
 url: /java/com.aspose.slides/outputfile/
 ---
 **Inheritance:**

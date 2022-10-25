@@ -1,10 +1,9 @@
 ---
 title: MathSuperscriptElement
 second_title: Aspose.Slides for Java API Reference
-description:  Specifies the superscript object which consists of a base 
- and a reduced-size superscript placed above and to the right
+description: Specifies the superscript object which consists of a base  and a reduced-size superscript placed above and to the right
 type: docs
-weight: 353
+weight: 354
 url: /java/com.aspose.slides/mathsuperscriptelement/
 ---
 **Inheritance:**

@@ -1,10 +1,9 @@
 ---
 title: MathLeftSubSuperscriptElement
 second_title: Aspose.Slides for Java API Reference
-description:  Specifies the Sub-Superscript object which consists of a base 
- and a subscript and superscript placed to the left of the base.
+description: Specifies the Sub-Superscript object which consists of a base  and a subscript and superscript placed to the left of the base.
 type: docs
-weight: 333
+weight: 334
 url: /java/com.aspose.slides/mathleftsubsuperscriptelement/
 ---
 **Inheritance:**

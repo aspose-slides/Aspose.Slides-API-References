@@ -1,9 +1,9 @@
 ---
 title: PathFillModeType
 second_title: Aspose.Slides for Java API Reference
-description:  Specifies the manner in which a path should be filled
+description: Specifies the manner in which a path should be filled
 type: docs
-weight: 403
+weight: 404
 url: /java/com.aspose.slides/pathfillmodetype/
 ---
 **Inheritance:**

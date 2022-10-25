@@ -1,9 +1,9 @@
 ---
 title: SideDirectionTransition
 second_title: Aspose.Slides for Java API Reference
-description:  Side direction slide transition effect.
+description: Side direction slide transition effect.
 type: docs
-weight: 496
+weight: 497
 url: /java/com.aspose.slides/sidedirectiontransition/
 ---
 **Inheritance:**

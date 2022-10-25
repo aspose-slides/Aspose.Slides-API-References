@@ -1,9 +1,9 @@
 ---
 title: InterruptionToken
 second_title: Aspose.Slides for Android via Java API Reference
-description:  This class represents the token to use for signaling long running tasks whether the interruption was requested.
+description: This class represents the token to use for signaling long running tasks whether the interruption was requested.
 type: docs
-weight: 256
+weight: 257
 url: /androidjava/com.aspose.slides/interruptiontoken/
 ---
 **Inheritance:**
@@ -33,7 +33,7 @@ Represents an empty interruption token.
 
 --------------------
 
-Long-running operations will never be interrupted via [InterruptionTokenSource\#interrupt](../../com.aspose.slides/interruptiontokensource\#interrupt) when using this token.
+Long-running operations will never be interrupted via [InterruptionTokenSource.interrupt](../../com.aspose.slides/interruptiontokensource\#interrupt) when using this token.
 
 **Returns:**
 [InterruptionToken](../../com.aspose.slides/interruptiontoken)

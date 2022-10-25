@@ -1,9 +1,9 @@
 ---
 title: IOutputFile
 second_title: Aspose.Slides for Java API Reference
-description:  Represents an output file.
+description: Represents an output file.
 type: docs
-weight: 943
+weight: 944
 url: /java/com.aspose.slides/ioutputfile/
 ---```
 public interface IOutputFile

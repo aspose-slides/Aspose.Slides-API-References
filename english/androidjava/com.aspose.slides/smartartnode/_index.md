@@ -1,9 +1,9 @@
 ---
 title: SmartArtNode
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents node of a SmartArt object
+description: Represents node of a SmartArt object
 type: docs
-weight: 516
+weight: 517
 url: /androidjava/com.aspose.slides/smartartnode/
 ---
 **Inheritance:**
@@ -112,7 +112,7 @@ public final int getPosition()
 ```
 
 
-Returns or sets zero-based position of node among sibling nodes. Read/write \`\`\` int \`\`\`.
+Returns or sets zero-based position of node among sibling nodes. Read/write  int .
 
 **Returns:**
 int
@@ -122,7 +122,7 @@ public final void setPosition(int value)
 ```
 
 
-Returns or sets zero-based position of node among sibling nodes. Read/write \`\`\` int \`\`\`.
+Returns or sets zero-based position of node among sibling nodes. Read/write  int .
 
 **Parameters:**
 | Parameter | Type | Description |

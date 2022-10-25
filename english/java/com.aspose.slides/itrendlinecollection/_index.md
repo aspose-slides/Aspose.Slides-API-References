@@ -1,9 +1,9 @@
 ---
 title: ITrendlineCollection
 second_title: Aspose.Slides for Java API Reference
-description:  Represents a collection of TrendlineEx
+description: Represents a collection of TrendlineEx
 type: docs
-weight: 1084
+weight: 1085
 url: /java/com.aspose.slides/itrendlinecollection/
 ---
 **All Implemented Interfaces:**

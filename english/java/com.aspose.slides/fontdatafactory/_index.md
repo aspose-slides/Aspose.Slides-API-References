@@ -1,7 +1,7 @@
 ---
 title: FontDataFactory
 second_title: Aspose.Slides for Java API Reference
-description:  FontData factory
+description: FontData factory
 type: docs
 weight: 202
 url: /java/com.aspose.slides/fontdatafactory/

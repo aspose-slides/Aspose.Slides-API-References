@@ -1,9 +1,9 @@
 ---
 title: IInnerShadowEffectiveData
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Immutable object which represents a inner shadow effect.
+description: Immutable object which represents a inner shadow effect.
 type: docs
-weight: 836
+weight: 837
 url: /androidjava/com.aspose.slides/iinnershadoweffectivedata/
 ---
 **All Implemented Interfaces:**

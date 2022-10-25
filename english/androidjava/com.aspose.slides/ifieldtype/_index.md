@@ -1,9 +1,9 @@
 ---
 title: IFieldType
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents a type of field.
+description: Represents a type of field.
 type: docs
-weight: 767
+weight: 768
 url: /androidjava/com.aspose.slides/ifieldtype/
 ---```
 public interface IFieldType

@@ -1,9 +1,9 @@
 ---
 title: MarkerStyleType
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Determines form of marker on charts data point.
+description: Determines form of marker on charts data point.
 type: docs
-weight: 293
+weight: 294
 url: /androidjava/com.aspose.slides/markerstyletype/
 ---
 **Inheritance:**

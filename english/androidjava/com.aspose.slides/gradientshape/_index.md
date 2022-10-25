@@ -1,9 +1,9 @@
 ---
 title: GradientShape
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents the shape of gradient fill.
+description: Represents the shape of gradient fill.
 type: docs
-weight: 225
+weight: 226
 url: /androidjava/com.aspose.slides/gradientshape/
 ---
 **Inheritance:**

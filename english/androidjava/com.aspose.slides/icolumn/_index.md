@@ -1,9 +1,9 @@
 ---
 title: IColumn
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents a column in a table.
+description: Represents a column in a table.
 type: docs
-weight: 717
+weight: 718
 url: /androidjava/com.aspose.slides/icolumn/
 ---
 **All Implemented Interfaces:**

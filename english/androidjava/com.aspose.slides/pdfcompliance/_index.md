@@ -1,9 +1,9 @@
 ---
 title: PdfCompliance
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Constants which define the PDF standards compliance level.
+description: Constants which define the PDF standards compliance level.
 type: docs
-weight: 408
+weight: 409
 url: /androidjava/com.aspose.slides/pdfcompliance/
 ---
 **Inheritance:**

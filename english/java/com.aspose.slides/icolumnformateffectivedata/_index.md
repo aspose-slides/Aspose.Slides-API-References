@@ -1,9 +1,9 @@
 ---
 title: IColumnFormatEffectiveData
 second_title: Aspose.Slides for Java API Reference
-description:  Immutable object which contains effective table column formatting properties.
+description: Immutable object which contains effective table column formatting properties.
 type: docs
-weight: 720
+weight: 721
 url: /java/com.aspose.slides/icolumnformateffectivedata/
 ---
 **All Implemented Interfaces:**

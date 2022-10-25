@@ -1,9 +1,9 @@
 ---
 title: IGraphicalObject
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents abstract graphical object.
+description: Represents abstract graphical object.
 type: docs
-weight: 810
+weight: 811
 url: /androidjava/com.aspose.slides/igraphicalobject/
 ---
 **All Implemented Interfaces:**

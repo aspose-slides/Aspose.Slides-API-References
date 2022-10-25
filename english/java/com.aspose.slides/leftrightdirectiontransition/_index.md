@@ -1,9 +1,9 @@
 ---
 title: LeftRightDirectionTransition
 second_title: Aspose.Slides for Java API Reference
-description:  Left-right direction slide transition effect.
+description: Left-right direction slide transition effect.
 type: docs
-weight: 264
+weight: 265
 url: /java/com.aspose.slides/leftrightdirectiontransition/
 ---
 **Inheritance:**

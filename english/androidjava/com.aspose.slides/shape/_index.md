@@ -1,9 +1,9 @@
 ---
 title: Shape
 second_title: Aspose.Slides for Android via Java API Reference
-description:   Represents a shape on a slide.
+description: Represents a shape on a slide.
 type: docs
-weight: 483
+weight: 484
 url: /androidjava/com.aspose.slides/shape/
 ---
 **Inheritance:**
@@ -78,7 +78,7 @@ public final boolean isTextHolder()
 ```
 
 
-Determines whether the shape is TextHolder\_PPT. Read-only \`\`\` boolean \`\`\`.
+Determines whether the shape is TextHolder\_PPT. Read-only  boolean .
 
 **Returns:**
 boolean
@@ -114,7 +114,7 @@ Adds a new placeholder if there is no and sets placeholder properties to a speci
 | placeholderToCopyFrom | [IPlaceholder](../../com.aspose.slides/iplaceholder) | Placeholder to copy content from. |
 
 **Returns:**
-[IPlaceholder](../../com.aspose.slides/iplaceholder) - New [Placeholder](../../com.aspose.slides/placeholder)(\#getPlaceholder).
+[IPlaceholder](../../com.aspose.slides/iplaceholder) - New [Placeholder](../../com.aspose.slides/placeholder)(\#getPlaceholder.getPlaceholder).
 ### getCustomData() {#getCustomData--}
 ```
 public final ICustomData getCustomData()
@@ -419,7 +419,7 @@ public final boolean getHidden()
 ```
 
 
-Determines whether the shape is hidden. Read/write \`\`\` boolean \`\`\`.
+Determines whether the shape is hidden. Read/write  boolean .
 
 **Returns:**
 boolean
@@ -429,7 +429,7 @@ public final void setHidden(boolean value)
 ```
 
 
-Determines whether the shape is hidden. Read/write \`\`\` boolean \`\`\`.
+Determines whether the shape is hidden. Read/write  boolean .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -442,7 +442,7 @@ public int getZOrderPosition()
 ```
 
 
-Returns the position of a shape in the z-order. Shapes[0] returns the shape at the back of the z-order, and Shapes[Shapes.Count - 1] returns the shape at the front of the z-order. Read-only \`\`\` int \`\`\`.
+Returns the position of a shape in the z-order. Shapes[0] returns the shape at the back of the z-order, and Shapes[Shapes.Count - 1] returns the shape at the front of the z-order. Read-only  int .
 
 **Returns:**
 int
@@ -452,7 +452,7 @@ public final int getConnectionSiteCount()
 ```
 
 
-Returns the number of connection sites on the shape. Read-only \`\`\` int \`\`\`.
+Returns the number of connection sites on the shape. Read-only  int .
 
 **Returns:**
 int
@@ -462,7 +462,7 @@ public final float getRotation()
 ```
 
 
-Returns or sets the number of degrees the specified shape is rotated around the z-axis. A positive value indicates clockwise rotation; a negative value indicates counterclockwise rotation. Read/write \`\`\` float \`\`\`.
+Returns or sets the number of degrees the specified shape is rotated around the z-axis. A positive value indicates clockwise rotation; a negative value indicates counterclockwise rotation. Read/write  float .
 
 --------------------
 
@@ -476,7 +476,7 @@ public final void setRotation(float value)
 ```
 
 
-Returns or sets the number of degrees the specified shape is rotated around the z-axis. A positive value indicates clockwise rotation; a negative value indicates counterclockwise rotation. Read/write \`\`\` float \`\`\`.
+Returns or sets the number of degrees the specified shape is rotated around the z-axis. A positive value indicates clockwise rotation; a negative value indicates counterclockwise rotation. Read/write  float .
 
 --------------------
 
@@ -493,7 +493,7 @@ public final float getX()
 ```
 
 
-Returns or sets the x-coordinate of the upper-left corner of the shape. Read/write \`\`\` float \`\`\`.
+Returns or sets the x-coordinate of the upper-left corner of the shape. Read/write  float .
 
 --------------------
 
@@ -507,7 +507,7 @@ public final void setX(float value)
 ```
 
 
-Returns or sets the x-coordinate of the upper-left corner of the shape. Read/write \`\`\` float \`\`\`.
+Returns or sets the x-coordinate of the upper-left corner of the shape. Read/write  float .
 
 --------------------
 
@@ -524,7 +524,7 @@ public final float getY()
 ```
 
 
-Returns or sets the y-coordinate of the upper-left corner of the shape. Read/write \`\`\` float \`\`\`.
+Returns or sets the y-coordinate of the upper-left corner of the shape. Read/write  float .
 
 --------------------
 
@@ -538,7 +538,7 @@ public final void setY(float value)
 ```
 
 
-Returns or sets the y-coordinate of the upper-left corner of the shape. Read/write \`\`\` float \`\`\`.
+Returns or sets the y-coordinate of the upper-left corner of the shape. Read/write  float .
 
 --------------------
 
@@ -555,7 +555,7 @@ public final float getWidth()
 ```
 
 
-Returns or sets the width of the shape. Read/write \`\`\` float \`\`\`.
+Returns or sets the width of the shape. Read/write  float .
 
 --------------------
 
@@ -569,7 +569,7 @@ public final void setWidth(float value)
 ```
 
 
-Returns or sets the width of the shape. Read/write \`\`\` float \`\`\`.
+Returns or sets the width of the shape. Read/write  float .
 
 --------------------
 
@@ -586,7 +586,7 @@ public final float getHeight()
 ```
 
 
-Returns or sets the height of the shape. Read/write \`\`\` float \`\`\`.
+Returns or sets the height of the shape. Read/write  float .
 
 --------------------
 
@@ -600,7 +600,7 @@ public final void setHeight(float value)
 ```
 
 
-Returns or sets the height of the shape. Read/write \`\`\` float \`\`\`.
+Returns or sets the height of the shape. Read/write  float .
 
 --------------------
 
@@ -640,7 +640,7 @@ public final long getUniqueId()
 ```
 
 
-Gets unique shape identifier in presentation scope. Read-only long. See also (\#getOfficeInteropShapeId) for getting unique shape identifier in slide scope.
+Gets unique shape identifier in presentation scope. Read-only long. See also (\#getOfficeInteropShapeId.getOfficeInteropShapeId) for getting unique shape identifier in slide scope.
 
 **Returns:**
 long
@@ -650,7 +650,7 @@ public final long getOfficeInteropShapeId()
 ```
 
 
-Gets unique shape identifier in slide scope. Read-only long. See also (\#getUniqueId) for getting unique shape identifier in presentation scope.
+Gets unique shape identifier in slide scope. Read-only long. See also (\#getUniqueId.getUniqueId) for getting unique shape identifier in presentation scope.
 
 **Returns:**
 long
@@ -739,11 +739,11 @@ public final boolean isGrouped()
 ```
 
 
-Determines whether the shape is grouped. Read-only \`\`\` boolean \`\`\`.
+Determines whether the shape is grouped. Read-only  boolean .
 
 --------------------
 
-Property (\#getParentGroup) returns parent GroupShape object if shape is grouped.
+Property (\#getParentGroup.getParentGroup) returns parent GroupShape object if shape is grouped.
 
 **Returns:**
 boolean
@@ -757,7 +757,7 @@ Returns parent GroupShape object if shape is grouped. Otherwise returns null. Re
 
 --------------------
 
-Property (\#isGrouped) determines whether the shape is grouped.
+Property (\#isGrouped.isGrouped) determines whether the shape is grouped.
 
 **Returns:**
 [IGroupShape](../../com.aspose.slides/igroupshape)

@@ -1,9 +1,9 @@
 ---
 title: SlideCollection
 second_title: Aspose.Slides for Java API Reference
-description:  Represents a collection of a slides.
+description: Represents a collection of a slides.
 type: docs
-weight: 499
+weight: 500
 url: /java/com.aspose.slides/slidecollection/
 ---
 **Inheritance:**
@@ -93,7 +93,7 @@ Adds a copy of a specified slide to the end of the collection.
 
 --------------------
 
-When cloning a slide between different presentations slide's master can be cloned too. Internal registry is used to track automatically cloned masters to prevent creation of multiple clones of the same master slide. Manual cloning of master slides will be neither prevented nor registered. If you need more control over cloning process use \#addClone(ISlide,ILayoutSlide) or \#addClone(ISlide,IMasterSlide,boolean) for cloning slides, [IGlobalLayoutSlideCollection\#addClone(ILayoutSlide)](../../com.aspose.slides/igloballayoutslidecollection\#addClone-ILayoutSlide-) or [IGlobalLayoutSlideCollection\#addClone(ILayoutSlide,IMasterSlide)](../../com.aspose.slides/igloballayoutslidecollection\#addClone-ILayoutSlide-IMasterSlide-) for cloning layouts and [IMasterSlideCollection\#addClone(IMasterSlide)](../../com.aspose.slides/imasterslidecollection\#addClone-IMasterSlide-) for cloning masters. |
+When cloning a slide between different presentations slide's master can be cloned too. Internal registry is used to track automatically cloned masters to prevent creation of multiple clones of the same master slide. Manual cloning of master slides will be neither prevented nor registered. If you need more control over cloning process use \#addClone(ISlide,ILayoutSlide).addClone(ISlide,ILayoutSlide) or \#addClone(ISlide,IMasterSlide,boolean).addClone(ISlide,IMasterSlide,boolean) for cloning slides, [IGlobalLayoutSlideCollection.addClone(ILayoutSlide)](../../com.aspose.slides/igloballayoutslidecollection\#addClone-ILayoutSlide-) or [IGlobalLayoutSlideCollection.addClone(ILayoutSlide,IMasterSlide)](../../com.aspose.slides/igloballayoutslidecollection\#addClone-ILayoutSlide-IMasterSlide-) for cloning layouts and [IMasterSlideCollection.addClone(IMasterSlide)](../../com.aspose.slides/imasterslidecollection\#addClone-IMasterSlide-) for cloning masters. |
 
 **Returns:**
 [ISlide](../../com.aspose.slides/islide) - New slide.
@@ -147,7 +147,7 @@ Inserts a copy of a specified slide to specified position of the collection.
 
 --------------------
 
-When cloning a slide between different presentations slide's master can be cloned too. Internal registry is used to track automatically cloned masters to prevent creation of multiple clones of the same master slide. Manual cloning of master slides will be neither prevented nor registered. If you need more control over cloning process use \#insertClone(int,ISlide,ILayoutSlide) or \#insertClone(int,ISlide,IMasterSlide,boolean) for cloning slides and [IMasterSlideCollection\#addClone(IMasterSlide)](../../com.aspose.slides/imasterslidecollection\#addClone-IMasterSlide-) for cloning masters. |
+When cloning a slide between different presentations slide's master can be cloned too. Internal registry is used to track automatically cloned masters to prevent creation of multiple clones of the same master slide. Manual cloning of master slides will be neither prevented nor registered. If you need more control over cloning process use \#insertClone(int,ISlide,ILayoutSlide).insertClone(int,ISlide,ILayoutSlide) or \#insertClone(int,ISlide,IMasterSlide,boolean).insertClone(int,ISlide,IMasterSlide,boolean) for cloning slides and [IMasterSlideCollection.addClone(IMasterSlide)](../../com.aspose.slides/imasterslidecollection\#addClone-IMasterSlide-) for cloning masters. |
 
 **Returns:**
 [ISlide](../../com.aspose.slides/islide) - Inserted slide.
@@ -348,7 +348,7 @@ Moves slides from the collection to the specified position. Slides will be place
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | int | Target index. |
-| slides | com.aspose.slides.ISlide[] | Slides to move. |
+| slides | [ISlide\[\]](../../com.aspose.slides/islide) | Slides to move. |
 
 ### indexOf(ISlide slide) {#indexOf-com.aspose.slides.ISlide-}
 ```

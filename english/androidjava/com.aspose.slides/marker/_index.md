@@ -1,9 +1,9 @@
 ---
 title: Marker
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents marker of a chert.
+description: Represents marker of a chert.
 type: docs
-weight: 292
+weight: 293
 url: /androidjava/com.aspose.slides/marker/
 ---
 **Inheritance:**

@@ -1,9 +1,9 @@
 ---
 title: PictureFillFormat
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents a picture fill style.
+description: Represents a picture fill style.
 type: docs
-weight: 413
+weight: 414
 url: /androidjava/com.aspose.slides/picturefillformat/
 ---
 **Inheritance:**
@@ -47,7 +47,7 @@ public final int getDpi()
 ```
 
 
-Returns or sets the dpi which is used to fill a picture. Read/write \`\`\` int \`\`\`.
+Returns or sets the dpi which is used to fill a picture. Read/write  int .
 
 **Returns:**
 int
@@ -57,7 +57,7 @@ public final void setDpi(int value)
 ```
 
 
-Returns or sets the dpi which is used to fill a picture. Read/write \`\`\` int \`\`\`.
+Returns or sets the dpi which is used to fill a picture. Read/write  int .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -103,7 +103,7 @@ public final float getCropLeft()
 ```
 
 
-Returns or sets the number of percents of real image width that are cropped off the left of the picture. Read/write \`\`\` float \`\`\`.
+Returns or sets the number of percents of real image width that are cropped off the left of the picture. Read/write  float .
 
 **Returns:**
 float
@@ -113,7 +113,7 @@ public final void setCropLeft(float value)
 ```
 
 
-Returns or sets the number of percents of real image width that are cropped off the left of the picture. Read/write \`\`\` float \`\`\`.
+Returns or sets the number of percents of real image width that are cropped off the left of the picture. Read/write  float .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -126,7 +126,7 @@ public final float getCropTop()
 ```
 
 
-Returns or sets the number of percents of real image height that are cropped off the top of the picture. Read/write \`\`\` float \`\`\`.
+Returns or sets the number of percents of real image height that are cropped off the top of the picture. Read/write  float .
 
 **Returns:**
 float
@@ -136,7 +136,7 @@ public final void setCropTop(float value)
 ```
 
 
-Returns or sets the number of percents of real image height that are cropped off the top of the picture. Read/write \`\`\` float \`\`\`.
+Returns or sets the number of percents of real image height that are cropped off the top of the picture. Read/write  float .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -149,7 +149,7 @@ public final float getCropRight()
 ```
 
 
-Returns or sets the number of percents of real image width that are cropped off the right of the picture. Read/write \`\`\` float \`\`\`.
+Returns or sets the number of percents of real image width that are cropped off the right of the picture. Read/write  float .
 
 **Returns:**
 float
@@ -159,7 +159,7 @@ public final void setCropRight(float value)
 ```
 
 
-Returns or sets the number of percents of real image width that are cropped off the right of the picture. Read/write \`\`\` float \`\`\`.
+Returns or sets the number of percents of real image width that are cropped off the right of the picture. Read/write  float .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -172,7 +172,7 @@ public final float getCropBottom()
 ```
 
 
-Returns or sets the number of percents of real image height that are cropped off the bottom of the picture. Read/write \`\`\` float \`\`\`.
+Returns or sets the number of percents of real image height that are cropped off the bottom of the picture. Read/write  float .
 
 **Returns:**
 float
@@ -182,7 +182,7 @@ public final void setCropBottom(float value)
 ```
 
 
-Returns or sets the number of percents of real image height that are cropped off the bottom of the picture. Read/write \`\`\` float \`\`\`.
+Returns or sets the number of percents of real image height that are cropped off the bottom of the picture. Read/write  float .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -195,7 +195,7 @@ public final float getStretchOffsetLeft()
 ```
 
 
-Returns or sets left edge of the fill rectangle that is defined by a percentage offset from the left edge of the shape's bounding box. A positive percentage specifies an inset, while a negative percentage specifies an outset. Read/write \`\`\` float \`\`\`.
+Returns or sets left edge of the fill rectangle that is defined by a percentage offset from the left edge of the shape's bounding box. A positive percentage specifies an inset, while a negative percentage specifies an outset. Read/write  float .
 
 **Returns:**
 float
@@ -205,7 +205,7 @@ public final void setStretchOffsetLeft(float value)
 ```
 
 
-Returns or sets left edge of the fill rectangle that is defined by a percentage offset from the left edge of the shape's bounding box. A positive percentage specifies an inset, while a negative percentage specifies an outset. Read/write \`\`\` float \`\`\`.
+Returns or sets left edge of the fill rectangle that is defined by a percentage offset from the left edge of the shape's bounding box. A positive percentage specifies an inset, while a negative percentage specifies an outset. Read/write  float .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -218,7 +218,7 @@ public final float getStretchOffsetTop()
 ```
 
 
-Returns or sets top edge of the fill rectangle that is defined by a percentage offset from the top edge of the shape's bounding box. A positive percentage specifies an inset, while a negative percentage specifies an outset. Read/write \`\`\` float \`\`\`.
+Returns or sets top edge of the fill rectangle that is defined by a percentage offset from the top edge of the shape's bounding box. A positive percentage specifies an inset, while a negative percentage specifies an outset. Read/write  float .
 
 **Returns:**
 float
@@ -228,7 +228,7 @@ public final void setStretchOffsetTop(float value)
 ```
 
 
-Returns or sets top edge of the fill rectangle that is defined by a percentage offset from the top edge of the shape's bounding box. A positive percentage specifies an inset, while a negative percentage specifies an outset. Read/write \`\`\` float \`\`\`.
+Returns or sets top edge of the fill rectangle that is defined by a percentage offset from the top edge of the shape's bounding box. A positive percentage specifies an inset, while a negative percentage specifies an outset. Read/write  float .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -241,7 +241,7 @@ public final float getStretchOffsetRight()
 ```
 
 
-Returns or sets right edge of the fill rectangle that is defined by a percentage offset from the right edge of the shape's bounding box. A positive percentage specifies an inset, while a negative percentage specifies an outset. Read/write \`\`\` float \`\`\`.
+Returns or sets right edge of the fill rectangle that is defined by a percentage offset from the right edge of the shape's bounding box. A positive percentage specifies an inset, while a negative percentage specifies an outset. Read/write  float .
 
 **Returns:**
 float
@@ -251,7 +251,7 @@ public final void setStretchOffsetRight(float value)
 ```
 
 
-Returns or sets right edge of the fill rectangle that is defined by a percentage offset from the right edge of the shape's bounding box. A positive percentage specifies an inset, while a negative percentage specifies an outset. Read/write \`\`\` float \`\`\`.
+Returns or sets right edge of the fill rectangle that is defined by a percentage offset from the right edge of the shape's bounding box. A positive percentage specifies an inset, while a negative percentage specifies an outset. Read/write  float .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -264,7 +264,7 @@ public final float getStretchOffsetBottom()
 ```
 
 
-Returns or sets bottom edge of the fill rectangle that is defined by a percentage offset from the bottom edge of the shape's bounding box. A positive percentage specifies an inset, while a negative percentage specifies an outset. Read/write \`\`\` float \`\`\`.
+Returns or sets bottom edge of the fill rectangle that is defined by a percentage offset from the bottom edge of the shape's bounding box. A positive percentage specifies an inset, while a negative percentage specifies an outset. Read/write  float .
 
 **Returns:**
 float
@@ -274,7 +274,7 @@ public final void setStretchOffsetBottom(float value)
 ```
 
 
-Returns or sets bottom edge of the fill rectangle that is defined by a percentage offset from the bottom edge of the shape's bounding box. A positive percentage specifies an inset, while a negative percentage specifies an outset. Read/write \`\`\` float \`\`\`.
+Returns or sets bottom edge of the fill rectangle that is defined by a percentage offset from the bottom edge of the shape's bounding box. A positive percentage specifies an inset, while a negative percentage specifies an outset. Read/write  float .
 
 **Parameters:**
 | Parameter | Type | Description |

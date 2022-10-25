@@ -1,9 +1,9 @@
 ---
 title: ITextFrameFormat
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Contains the TextFrames formatting properties.
+description: Contains the TextFrames formatting properties.
 type: docs
-weight: 1065
+weight: 1066
 url: /androidjava/com.aspose.slides/itextframeformat/
 ---```
 public interface ITextFrameFormat

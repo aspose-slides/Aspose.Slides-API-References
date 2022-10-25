@@ -1,7 +1,7 @@
 ---
 title: BasePortionFormat
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Common text portion formatting properties.
+description: Common text portion formatting properties.
 type: docs
 weight: 41
 url: /androidjava/com.aspose.slides/baseportionformat/
@@ -362,7 +362,7 @@ public final float getFontHeight()
 ```
 
 
-Returns or sets the font height of a portion. **Float.NaN** means height is undefined and should be inherited from the Master. Read/write \`\`\` float \`\`\`.
+Returns or sets the font height of a portion. **Float.NaN** means height is undefined and should be inherited from the Master. Read/write  float .
 
 **Returns:**
 float
@@ -372,7 +372,7 @@ public final void setFontHeight(float value)
 ```
 
 
-Returns or sets the font height of a portion. **Float.NaN** means height is undefined and should be inherited from the Master. Read/write \`\`\` float \`\`\`.
+Returns or sets the font height of a portion. **Float.NaN** means height is undefined and should be inherited from the Master. Read/write  float .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -477,7 +477,7 @@ public final float getEscapement()
 ```
 
 
-Returns or sets the superscript or subscript text. Value from -100% (subscript) to 100% (superscript). **Float.NaN** means value is undefined and should be inherited from the Master. Read/write \`\`\` float \`\`\`.
+Returns or sets the superscript or subscript text. Value from -100% (subscript) to 100% (superscript). **Float.NaN** means value is undefined and should be inherited from the Master. Read/write  float .
 
 **Returns:**
 float
@@ -487,7 +487,7 @@ public final void setEscapement(float value)
 ```
 
 
-Returns or sets the superscript or subscript text. Value from -100% (subscript) to 100% (superscript). **Float.NaN** means value is undefined and should be inherited from the Master. Read/write \`\`\` float \`\`\`.
+Returns or sets the superscript or subscript text. Value from -100% (subscript) to 100% (superscript). **Float.NaN** means value is undefined and should be inherited from the Master. Read/write  float .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -500,7 +500,7 @@ public final float getKerningMinimalSize()
 ```
 
 
-Returns or sets the minimal font size, for which kerning should be switched on. **Float.NaN** means value is undefined and should be inherited from the Master. Read/write \`\`\` float \`\`\`.
+Returns or sets the minimal font size, for which kerning should be switched on. **Float.NaN** means value is undefined and should be inherited from the Master. Read/write  float .
 
 **Returns:**
 float
@@ -510,7 +510,7 @@ public final void setKerningMinimalSize(float value)
 ```
 
 
-Returns or sets the minimal font size, for which kerning should be switched on. **Float.NaN** means value is undefined and should be inherited from the Master. Read/write \`\`\` float \`\`\`.
+Returns or sets the minimal font size, for which kerning should be switched on. **Float.NaN** means value is undefined and should be inherited from the Master. Read/write  float .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -569,7 +569,7 @@ public final float getSpacing()
 ```
 
 
-Returns or sets the intercharacter spacing increment. **Float.NaN** means value is undefined and should be inherited from the Master. Read/write \`\`\` float \`\`\`.
+Returns or sets the intercharacter spacing increment. **Float.NaN** means value is undefined and should be inherited from the Master. Read/write  float .
 
 **Returns:**
 float
@@ -579,7 +579,7 @@ public final void setSpacing(float value)
 ```
 
 
-Returns or sets the intercharacter spacing increment. **Float.NaN** means value is undefined and should be inherited from the Master. Read/write \`\`\` float \`\`\`.
+Returns or sets the intercharacter spacing increment. **Float.NaN** means value is undefined and should be inherited from the Master. Read/write  float .
 
 **Parameters:**
 | Parameter | Type | Description |

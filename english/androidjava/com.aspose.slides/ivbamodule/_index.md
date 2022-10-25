@@ -1,9 +1,9 @@
 ---
 title: IVbaModule
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents module that is contained in VBA project.
+description: Represents module that is contained in VBA project.
 type: docs
-weight: 1086
+weight: 1087
 url: /androidjava/com.aspose.slides/ivbamodule/
 ---```
 public interface IVbaModule

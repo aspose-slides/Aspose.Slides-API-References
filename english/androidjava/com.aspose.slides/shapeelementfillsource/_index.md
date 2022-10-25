@@ -1,9 +1,9 @@
 ---
 title: ShapeElementFillSource
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents how shape element should be filled.
+description: Represents how shape element should be filled.
 type: docs
-weight: 487
+weight: 488
 url: /androidjava/com.aspose.slides/shapeelementfillsource/
 ---
 **Inheritance:**

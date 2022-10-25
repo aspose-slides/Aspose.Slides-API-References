@@ -1,9 +1,9 @@
 ---
 title: MathTopBotPositions
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Top/bottom positions enumeration
+description: Top/bottom positions enumeration
 type: docs
-weight: 355
+weight: 356
 url: /androidjava/com.aspose.slides/mathtopbotpositions/
 ---
 **Inheritance:**

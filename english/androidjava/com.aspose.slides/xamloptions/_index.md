@@ -1,9 +1,9 @@
 ---
 title: XamlOptions
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Options that control how a XAML document is saved.
+description: Options that control how a XAML document is saved.
 type: docs
-weight: 614
+weight: 615
 url: /androidjava/com.aspose.slides/xamloptions/
 ---
 **Inheritance:**

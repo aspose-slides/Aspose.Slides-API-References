@@ -1,9 +1,9 @@
 ---
 title: IVideoCollection
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents a collection of Video objects.
+description: Represents a collection of Video objects.
 type: docs
-weight: 1097
+weight: 1098
 url: /androidjava/com.aspose.slides/ivideocollection/
 ---
 **All Implemented Interfaces:**

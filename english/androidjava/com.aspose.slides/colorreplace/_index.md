@@ -1,7 +1,7 @@
 ---
 title: ColorReplace
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents a Color Replacement effect.
+description: Represents a Color Replacement effect.
 type: docs
 weight: 113
 url: /androidjava/com.aspose.slides/colorreplace/

@@ -1,9 +1,9 @@
 ---
 title: ShapeCollection
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents a collection of a shapes.
+description: Represents a collection of a shapes.
 type: docs
-weight: 485
+weight: 486
 url: /androidjava/com.aspose.slides/shapecollection/
 ---
 **Inheritance:**
@@ -94,7 +94,7 @@ public final int size()
 ```
 
 
-Gets the number of elements actually contained in the collection. Read-only \`\`\` int \`\`\`.
+Gets the number of elements actually contained in the collection. Read-only  int .
 
 **Returns:**
 int
@@ -247,10 +247,10 @@ Adds a new Zoom object to the end of a collection.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| x | float | X coordinate of a new Zoom frame \`\`\` float \`\`\`. |
-| y | float | Y coordinate of a new Zoom frame \`\`\` float \`\`\`. |
-| width | float | Width of a new Zoom frame \`\`\` float \`\`\`. |
-| height | float | Height of a new Zoom frame \`\`\` float \`\`\`. |
+| x | float | X coordinate of a new Zoom frame  float . |
+| y | float | Y coordinate of a new Zoom frame  float . |
+| width | float | Width of a new Zoom frame  float . |
+| height | float | Height of a new Zoom frame  float . |
 | slide | [ISlide](../../com.aspose.slides/islide) | The slide object referenced by the Zoom frame [ISlide](../../com.aspose.slides/islide). |
 
 **Returns:**
@@ -281,10 +281,10 @@ Adds a new Zoom object to the end of a collection.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| x | float | X coordinate of a new Zoom frame \`\`\` float \`\`\`. |
-| y | float | Y coordinate of a new Zoom frame \`\`\` float \`\`\`. |
-| width | float | Width of a new Zoom frame \`\`\` float \`\`\`. |
-| height | float | Height of a new Zoom frame \`\`\` float \`\`\`. |
+| x | float | X coordinate of a new Zoom frame  float . |
+| y | float | Y coordinate of a new Zoom frame  float . |
+| width | float | Width of a new Zoom frame  float . |
+| height | float | Height of a new Zoom frame  float . |
 | slide | [ISlide](../../com.aspose.slides/islide) | The slide object referenced by the Zoom frame [ISlide](../../com.aspose.slides/islide). |
 | image | [IPPImage](../../com.aspose.slides/ippimage) | The image for the referenced slide [IPPImage](../../com.aspose.slides/ippimage) |
 
@@ -316,10 +316,10 @@ Creates a new Zoom object and inserts it to a collection at the specified index.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | int | The zero-based index at which Zoom frame should be inserted. |
-| x | float | X coordinate of a new Zoom frame \`\`\` float \`\`\`. |
-| y | float | Y coordinate of a new Zoom frame \`\`\` float \`\`\`. |
-| width | float | Width of a new Zoom frame \`\`\` float \`\`\`. |
-| height | float | Height of a new Zoom frame \`\`\` float \`\`\`. |
+| x | float | X coordinate of a new Zoom frame  float . |
+| y | float | Y coordinate of a new Zoom frame  float . |
+| width | float | Width of a new Zoom frame  float . |
+| height | float | Height of a new Zoom frame  float . |
 | slide | [ISlide](../../com.aspose.slides/islide) | The slide object referenced by the Zoom frame [ISlide](../../com.aspose.slides/islide). |
 
 **Returns:**
@@ -351,10 +351,10 @@ Creates a new Zoom object and inserts it to a collection at the specified index.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | int | The zero-based index at which Zoom frame should be inserted. |
-| x | float | X coordinate of a new Zoom frame \`\`\` float \`\`\`. |
-| y | float | Y coordinate of a new Zoom frame \`\`\` float \`\`\`. |
-| width | float | Width of a new Zoom frame \`\`\` float \`\`\`. |
-| height | float | Height of a new Zoom frame \`\`\` float \`\`\`. |
+| x | float | X coordinate of a new Zoom frame  float . |
+| y | float | Y coordinate of a new Zoom frame  float . |
+| width | float | Width of a new Zoom frame  float . |
+| height | float | Height of a new Zoom frame  float . |
 | slide | [ISlide](../../com.aspose.slides/islide) | The slide object referenced by the Zoom frame [ISlide](../../com.aspose.slides/islide). |
 | image | [IPPImage](../../com.aspose.slides/ippimage) | The image for the referenced slide [IPPImage](../../com.aspose.slides/ippimage) |
 
@@ -385,10 +385,10 @@ Adds a new Section Zoom object to the end of a collection.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| x | float | X coordinate of a new Section Zoom frame \`\`\` float \`\`\`. |
-| y | float | Y coordinate of a new Section Zoom frame \`\`\` float \`\`\`. |
-| width | float | Width of a new Section Zoom frame \`\`\` float \`\`\`. |
-| height | float | Height of a new Section Zoom frame \`\`\` float \`\`\`. |
+| x | float | X coordinate of a new Section Zoom frame  float . |
+| y | float | Y coordinate of a new Section Zoom frame  float . |
+| width | float | Width of a new Section Zoom frame  float . |
+| height | float | Height of a new Section Zoom frame  float . |
 | section | [ISection](../../com.aspose.slides/isection) | The section object referenced by the Section Zoom frame [ISection](../../com.aspose.slides/isection). |
 
 **Returns:**
@@ -420,10 +420,10 @@ Adds a new Section Zoom object to the end of a collection with a predefined imag
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| x | float | X coordinate of a new Section Zoom frame \`\`\` float \`\`\`. |
-| y | float | Y coordinate of a new Section Zoom frame \`\`\` float \`\`\`. |
-| width | float | Width of a new Section Zoom frame \`\`\` float \`\`\`. |
-| height | float | Height of a new Section Zoom frame \`\`\` float \`\`\`. |
+| x | float | X coordinate of a new Section Zoom frame  float . |
+| y | float | Y coordinate of a new Section Zoom frame  float . |
+| width | float | Width of a new Section Zoom frame  float . |
+| height | float | Height of a new Section Zoom frame  float . |
 | section | [ISection](../../com.aspose.slides/isection) | The section object referenced by the Section Zoom frame [ISection](../../com.aspose.slides/isection). |
 | image | [IPPImage](../../com.aspose.slides/ippimage) | The image for the referenced slide [IPPImage](../../com.aspose.slides/ippimage) |
 
@@ -455,10 +455,10 @@ Creates a new Section Zoom object and inserts into to a collection at the specif
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | int | The zero-based index at which Section Zoom frame should be inserted. |
-| x | float | X coordinate of a new Section Zoom frame \`\`\` float \`\`\`. |
-| y | float | Y coordinate of a new Section Zoom frame \`\`\` float \`\`\`. |
-| width | float | Width of a new Section Zoom frame \`\`\` float \`\`\`. |
-| height | float | Height of a new Section Zoom frame \`\`\` float \`\`\`. |
+| x | float | X coordinate of a new Section Zoom frame  float . |
+| y | float | Y coordinate of a new Section Zoom frame  float . |
+| width | float | Width of a new Section Zoom frame  float . |
+| height | float | Height of a new Section Zoom frame  float . |
 | section | [ISection](../../com.aspose.slides/isection) | The slide object referenced by the Section Zoom frame [ISection](../../com.aspose.slides/isection). |
 
 **Returns:**
@@ -490,10 +490,10 @@ Creates a new Section Zoom object and inserts it to a collection at the specifie
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | int | The zero-based index at which Section Zoom frame should be inserted. |
-| x | float | X coordinate of a new Section Zoom frame \`\`\` float \`\`\`. |
-| y | float | Y coordinate of a new Section Zoom frame \`\`\` float \`\`\`. |
-| width | float | Width of a new Section Zoom frame \`\`\` float \`\`\`. |
-| height | float | Height of a new Section Zoom frame \`\`\` float \`\`\`. |
+| x | float | X coordinate of a new Section Zoom frame  float . |
+| y | float | Y coordinate of a new Section Zoom frame  float . |
+| width | float | Width of a new Section Zoom frame  float . |
+| height | float | Height of a new Section Zoom frame  float . |
 | section | [ISection](../../com.aspose.slides/isection) | The slide object referenced by the Section Zoom frame [ISection](../../com.aspose.slides/isection). |
 | image | [IPPImage](../../com.aspose.slides/ippimage) | The image for the referenced slide [IPPImage](../../com.aspose.slides/ippimage) |
 
@@ -524,10 +524,10 @@ Adds a new Summary Zoom object to the end of a collection.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| x | float | X coordinate of a new Section Zoom frame \`\`\` float \`\`\`. |
-| y | float | Y coordinate of a new Section Zoom frame \`\`\` float \`\`\`. |
-| width | float | Width of a new Section Zoom frame \`\`\` float \`\`\`. |
-| height | float | Height of a new Section Zoom frame \`\`\` float \`\`\`.
+| x | float | X coordinate of a new Section Zoom frame  float . |
+| y | float | Y coordinate of a new Section Zoom frame  float . |
+| width | float | Width of a new Section Zoom frame  float . |
+| height | float | Height of a new Section Zoom frame  float .
 
 --------------------
 
@@ -561,10 +561,10 @@ Creates a new Summary Zoom object and inserts it to a collection at the specifie
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | int | The zero-based index at which Section Zoom frame should be inserted. |
-| x | float | X coordinate of a new Section Zoom frame \`\`\` float \`\`\`. |
-| y | float | Y coordinate of a new Section Zoom frame \`\`\` float \`\`\`. |
-| width | float | Width of a new Section Zoom frame \`\`\` float \`\`\`. |
-| height | float | Height of a new Section Zoom frame \`\`\` float \`\`\`.
+| x | float | X coordinate of a new Section Zoom frame  float . |
+| y | float | Y coordinate of a new Section Zoom frame  float . |
+| width | float | Width of a new Section Zoom frame  float . |
+| height | float | Height of a new Section Zoom frame  float .
 
 --------------------
 
@@ -953,7 +953,7 @@ Moves shapes from the collection to the specified position. Shapes will be place
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | int | Target index. |
-| shapes | com.aspose.slides.IShape[] | Shapes to move. |
+| shapes | [IShape\[\]](../../com.aspose.slides/ishape) | Shapes to move. |
 
 ### addAutoShape(int shapeType, float x, float y, float width, float height) {#addAutoShape-int-float-float-float-float-}
 ```
@@ -1484,7 +1484,7 @@ public final boolean isSynchronized()
 ```
 
 
-Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only \`\`\` boolean \`\`\`.
+Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only  boolean .
 
 **Returns:**
 boolean
@@ -1494,7 +1494,7 @@ public final Object getSyncRoot()
 ```
 
 
-Returns a synchronization root. Read-only \`\`\` Object \`\`\`.
+Returns a synchronization root. Read-only  Object .
 
 **Returns:**
 java.lang.Object

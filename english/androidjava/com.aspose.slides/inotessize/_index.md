@@ -1,9 +1,9 @@
 ---
 title: INotesSize
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents a size of notes slide.
+description: Represents a size of notes slide.
 type: docs
-weight: 932
+weight: 933
 url: /androidjava/com.aspose.slides/inotessize/
 ---```
 public interface INotesSize
@@ -22,7 +22,7 @@ public abstract SizeF getSize()
 ```
 
 
-Returns or sets the size in points. Read/write com.aspose.slides.android.SizeF.
+Returns or sets the size in points. Read/write [SizeF](../../com.aspose.slides.android/sizef).
 
 **Returns:**
 [SizeF](../../com.aspose.slides.android/sizef)
@@ -32,7 +32,7 @@ public abstract void setSize(SizeF value)
 ```
 
 
-Returns or sets the size in points. Read/write com.aspose.slides.android.SizeF.
+Returns or sets the size in points. Read/write [SizeF](../../com.aspose.slides.android/sizef).
 
 **Parameters:**
 | Parameter | Type | Description |

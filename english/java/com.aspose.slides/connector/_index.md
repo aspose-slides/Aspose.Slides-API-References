@@ -1,7 +1,7 @@
 ---
 title: Connector
 second_title: Aspose.Slides for Java API Reference
-description:   Represents a connector.
+description: Represents a connector.
 type: docs
 weight: 134
 url: /java/com.aspose.slides/connector/

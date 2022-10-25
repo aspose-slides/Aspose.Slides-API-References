@@ -1,7 +1,7 @@
 ---
 title: BlobManagementOptions
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents options which can be used to manage BLOB handling rules and other BLOB settings.
+description: Represents options which can be used to manage BLOB handling rules and other BLOB settings.
 type: docs
 weight: 57
 url: /androidjava/com.aspose.slides/blobmanagementoptions/
@@ -25,14 +25,14 @@ Represents options which can be used to manage BLOB handling rules and other BLO
 
 | Method | Description |
 | --- | --- |
-| [getPresentationLockingBehavior()](#getPresentationLockingBehavior--) | Represents the locking behavior for the presentation's source (stream or file). |
-| [setPresentationLockingBehavior(int value)](#setPresentationLockingBehavior-int-) | Represents the locking behavior for the presentation's source (stream or file). |
-| [isTemporaryFilesAllowed()](#isTemporaryFilesAllowed--) | Set that using of temporary files is not allowed to optimize memory consumption while working with large amounts of data during presentation's lifetime. |
-| [setTemporaryFilesAllowed(boolean value)](#setTemporaryFilesAllowed-boolean-) | Set that using of temporary files is not allowed to optimize memory consumption while working with large amounts of data during presentation's lifetime. |
-| [getTempFilesRootPath()](#getTempFilesRootPath--) | Represents the root path on the filesystem, where the temporary files will be stored. |
-| [setTempFilesRootPath(String value)](#setTempFilesRootPath-java.lang.String-) | Represents the root path on the filesystem, where the temporary files will be stored. |
-| [getMaxBlobsBytesInMemory()](#getMaxBlobsBytesInMemory--) | A threshold that indicates the maximum amount of bytes which BLOBs can occupied in memory. |
-| [setMaxBlobsBytesInMemory(long value)](#setMaxBlobsBytesInMemory-long-) | A threshold that indicates the maximum amount of bytes which BLOBs can occupied in memory. |
+| [getPresentationLockingBehavior()](#getPresentationLockingBehavior--) | This property defines if an instance of the Presentation class can be an owner of the source - file or stream during the instance lifetime. |
+| [setPresentationLockingBehavior(int value)](#setPresentationLockingBehavior-int-) | This property defines if an instance of the Presentation class can be an owner of the source - file or stream during the instance lifetime. |
+| [isTemporaryFilesAllowed()](#isTemporaryFilesAllowed--) | This property defines if temporary files can be created while working with BLOBs, what greatly decreases the memory consumption but requires permissions to create files. |
+| [setTemporaryFilesAllowed(boolean value)](#setTemporaryFilesAllowed-boolean-) | This property defines if temporary files can be created while working with BLOBs, what greatly decreases the memory consumption but requires permissions to create files. |
+| [getTempFilesRootPath()](#getTempFilesRootPath--) | The root path where temporary files will be created. |
+| [setTempFilesRootPath(String value)](#setTempFilesRootPath-java.lang.String-) | The root path where temporary files will be created. |
+| [getMaxBlobsBytesInMemory()](#getMaxBlobsBytesInMemory--) | Defines the maximum amount (in bytes) that all BLOBs in total may occupy in memory. |
+| [setMaxBlobsBytesInMemory(long value)](#setMaxBlobsBytesInMemory-long-) | Defines the maximum amount (in bytes) that all BLOBs in total may occupy in memory. |
 ### BlobManagementOptions() {#BlobManagementOptions--}
 ```
 public BlobManagementOptions()
@@ -47,7 +47,7 @@ public final int getPresentationLockingBehavior()
 ```
 
 
-Represents the locking behavior for the presentation's source (stream or file).
+This property defines if an instance of the Presentation class can be an owner of the source - file or stream during the instance lifetime. If the instance is an owner, it locks the source. This helps to improve memory consumption and performance while working with BLOBs, but the source (stream or file) can't be changed during Presentation's instance lifetime.
 
 **Returns:**
 int
@@ -57,7 +57,7 @@ public final void setPresentationLockingBehavior(int value)
 ```
 
 
-Represents the locking behavior for the presentation's source (stream or file).
+This property defines if an instance of the Presentation class can be an owner of the source - file or stream during the instance lifetime. If the instance is an owner, it locks the source. This helps to improve memory consumption and performance while working with BLOBs, but the source (stream or file) can't be changed during Presentation's instance lifetime.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -70,7 +70,11 @@ public final boolean isTemporaryFilesAllowed()
 ```
 
 
-Set that using of temporary files is not allowed to optimize memory consumption while working with large amounts of data during presentation's lifetime. If false, OutOfMemoryException can be thrown.
+This property defines if temporary files can be created while working with BLOBs, what greatly decreases the memory consumption but requires permissions to create files.
+
+--------------------
+
+All files will be deleted after work with the presentation will be finished.
 
 **Returns:**
 boolean
@@ -80,7 +84,11 @@ public final void setTemporaryFilesAllowed(boolean value)
 ```
 
 
-Set that using of temporary files is not allowed to optimize memory consumption while working with large amounts of data during presentation's lifetime. If false, OutOfMemoryException can be thrown.
+This property defines if temporary files can be created while working with BLOBs, what greatly decreases the memory consumption but requires permissions to create files.
+
+--------------------
+
+All files will be deleted after work with the presentation will be finished.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -93,7 +101,7 @@ public final String getTempFilesRootPath()
 ```
 
 
-Represents the root path on the filesystem, where the temporary files will be stored. System temorary directory will be used by default.
+The root path where temporary files will be created. System temorary directory will be used by default. Hosting process should have permissions to create files and folders there.
 
 **Returns:**
 java.lang.String
@@ -103,7 +111,7 @@ public final void setTempFilesRootPath(String value)
 ```
 
 
-Represents the root path on the filesystem, where the temporary files will be stored. System temorary directory will be used by default.
+The root path where temporary files will be created. System temorary directory will be used by default. Hosting process should have permissions to create files and folders there.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -116,7 +124,15 @@ public final long getMaxBlobsBytesInMemory()
 ```
 
 
-A threshold that indicates the maximum amount of bytes which BLOBs can occupied in memory. After this threshold was reached, all new BLOBs will be placed in temporary files and will not affect the total memory consumption of the process. IsTemporaryFilesAllowed(\#isTemporaryFilesAllowed/\#setTemporaryFilesAllowed(boolean)) should be set to true to use this property.
+Defines the maximum amount (in bytes) that all BLOBs in total may occupy in memory. First, all BLOBs loading into memory as default behavior and only when it reaches the limit defined by this property, other mechanisms (such as temporary files) can be involved. In terms of performance, the most efficient way is storing BLOBs in memory, but from the other side, it leads to a high memory consumption what may be undesirable. Using this property, you may set the optimal behavior for your environment or other requirements.
+
+--------------------
+
+This property will be ignored if  IsTemporaryFilesAllowed (\#isTemporaryFilesAllowed.isTemporaryFilesAllowed/\#setTemporaryFilesAllowed(boolean).setTemporaryFilesAllowed(boolean)) is set to false. It makes no sense to limit the maximum BLOBs in memory, because if  IsTemporaryFilesAllowed (\#isTemporaryFilesAllowed.isTemporaryFilesAllowed/\#setTemporaryFilesAllowed(boolean).setTemporaryFilesAllowed(boolean)) is set to false, the memory is the only place where BLOBs can be stored.
+
+--------------------
+
+Default value is 629,145,600 bytes (600Mb).
 
 **Returns:**
 long
@@ -126,7 +142,15 @@ public final void setMaxBlobsBytesInMemory(long value)
 ```
 
 
-A threshold that indicates the maximum amount of bytes which BLOBs can occupied in memory. After this threshold was reached, all new BLOBs will be placed in temporary files and will not affect the total memory consumption of the process. IsTemporaryFilesAllowed(\#isTemporaryFilesAllowed/\#setTemporaryFilesAllowed(boolean)) should be set to true to use this property.
+Defines the maximum amount (in bytes) that all BLOBs in total may occupy in memory. First, all BLOBs loading into memory as default behavior and only when it reaches the limit defined by this property, other mechanisms (such as temporary files) can be involved. In terms of performance, the most efficient way is storing BLOBs in memory, but from the other side, it leads to a high memory consumption what may be undesirable. Using this property, you may set the optimal behavior for your environment or other requirements.
+
+--------------------
+
+This property will be ignored if  IsTemporaryFilesAllowed (\#isTemporaryFilesAllowed.isTemporaryFilesAllowed/\#setTemporaryFilesAllowed(boolean).setTemporaryFilesAllowed(boolean)) is set to false. It makes no sense to limit the maximum BLOBs in memory, because if  IsTemporaryFilesAllowed (\#isTemporaryFilesAllowed.isTemporaryFilesAllowed/\#setTemporaryFilesAllowed(boolean).setTemporaryFilesAllowed(boolean)) is set to false, the memory is the only place where BLOBs can be stored.
+
+--------------------
+
+Default value is 629,145,600 bytes (600Mb).
 
 **Parameters:**
 | Parameter | Type | Description |

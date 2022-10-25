@@ -1,9 +1,9 @@
 ---
 title: IShapeCollection
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents a collection of a shapes.
+description: Represents a collection of a shapes.
 type: docs
-weight: 1015
+weight: 1016
 url: /androidjava/com.aspose.slides/ishapecollection/
 ---
 **All Implemented Interfaces:**
@@ -929,7 +929,7 @@ Moves shapes from the collection to the specified position. Shapes will be place
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | int | Target index. |
-| shapes | com.aspose.slides.IShape[] | Shapes to move. |
+| shapes | [IShape\[\]](../../com.aspose.slides/ishape) | Shapes to move. |
 
 ### addAutoShape(int shapeType, float x, float y, float width, float height) {#addAutoShape-int-float-float-float-float-}
 ```

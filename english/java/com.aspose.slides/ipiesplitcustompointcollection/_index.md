@@ -1,9 +1,9 @@
 ---
 title: IPieSplitCustomPointCollection
 second_title: Aspose.Slides for Java API Reference
-description:  Represents a collection of points that shall be drawn in the second pie or bar on a bar-of-pie or pie-of-pie chart with a custom split.
+description: Represents a collection of points that shall be drawn in the second pie or bar on a bar-of-pie or pie-of-pie chart with a custom split.
 type: docs
-weight: 964
+weight: 965
 url: /java/com.aspose.slides/ipiesplitcustompointcollection/
 ---
 **All Implemented Interfaces:**

@@ -1,9 +1,9 @@
 ---
 title: ITabEffectiveData
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Immutable object which contains effective texts tabulation stop properties.
+description: Immutable object which contains effective texts tabulation stop properties.
 type: docs
-weight: 1055
+weight: 1056
 url: /androidjava/com.aspose.slides/itabeffectivedata/
 ---
 **All Implemented Interfaces:**

@@ -1,10 +1,9 @@
 ---
 title: IMathAccent
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Specifies the accent function consisting of a base and a combining diacritical mark
- Example ud835udc4eu0301
+description: Specifies the accent function consisting of a base and a combining diacritical mark Example ud835udc4eu0301
 type: docs
-weight: 877
+weight: 878
 url: /androidjava/com.aspose.slides/imathaccent/
 ---
 **All Implemented Interfaces:**

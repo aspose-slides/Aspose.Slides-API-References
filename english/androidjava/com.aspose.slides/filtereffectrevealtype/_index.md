@@ -1,7 +1,7 @@
 ---
 title: FilterEffectRevealType
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents filter reveal type.
+description: Represents filter reveal type.
 type: docs
 weight: 195
 url: /androidjava/com.aspose.slides/filtereffectrevealtype/

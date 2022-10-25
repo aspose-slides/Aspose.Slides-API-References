@@ -1,9 +1,9 @@
 ---
 title: GradientStop
 second_title: Aspose.Slides for Java API Reference
-description:  Represents a gradient format.
+description: Represents a gradient format.
 type: docs
-weight: 226
+weight: 227
 url: /java/com.aspose.slides/gradientstop/
 ---
 **Inheritance:**
@@ -29,7 +29,7 @@ public final float getPosition()
 ```
 
 
-Returns or sets the position (0..1) of a gradient stop. Read/write \`\`\` float \`\`\`.
+Returns or sets the position (0..1) of a gradient stop. Read/write  float .
 
 **Returns:**
 float
@@ -39,7 +39,7 @@ public final void setPosition(float value)
 ```
 
 
-Returns or sets the position (0..1) of a gradient stop. Read/write \`\`\` float \`\`\`.
+Returns or sets the position (0..1) of a gradient stop. Read/write  float .
 
 **Parameters:**
 | Parameter | Type | Description |

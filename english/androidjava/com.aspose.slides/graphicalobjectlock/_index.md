@@ -1,9 +1,9 @@
 ---
 title: GraphicalObjectLock
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Determines which operations are disabled on the parent GraphicalObject.
+description: Determines which operations are disabled on the parent GraphicalObject.
 type: docs
-weight: 231
+weight: 232
 url: /androidjava/com.aspose.slides/graphicalobjectlock/
 ---
 **Inheritance:**

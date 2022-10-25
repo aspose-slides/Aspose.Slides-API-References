@@ -1,9 +1,9 @@
 ---
 title: ICommandEffect
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents a command effect for an animation behavior.
+description: Represents a command effect for an animation behavior.
 type: docs
-weight: 721
+weight: 722
 url: /androidjava/com.aspose.slides/icommandeffect/
 ---
 **All Implemented Interfaces:**

@@ -1,7 +1,7 @@
 ---
 title: CommentAuthorCollection
 second_title: Aspose.Slides for Java API Reference
-description:  Represents a collection of comment authors.
+description: Represents a collection of comment authors.
 type: docs
 weight: 128
 url: /java/com.aspose.slides/commentauthorcollection/

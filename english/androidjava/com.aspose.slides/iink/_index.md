@@ -1,9 +1,9 @@
 ---
 title: IInk
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents an ink object on a slide.
+description: Represents an ink object on a slide.
 type: docs
-weight: 834
+weight: 835
 url: /androidjava/com.aspose.slides/iink/
 ---
 **All Implemented Interfaces:**

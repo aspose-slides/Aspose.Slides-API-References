@@ -1,7 +1,7 @@
 ---
 title: EffectStyle
 second_title: Aspose.Slides for Java API Reference
-description:  Represents an effect style.
+description: Represents an effect style.
 type: docs
 weight: 169
 url: /java/com.aspose.slides/effectstyle/

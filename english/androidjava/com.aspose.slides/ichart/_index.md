@@ -1,9 +1,9 @@
 ---
 title: IChart
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents an graphic chart on a slide.
+description: Represents an graphic chart on a slide.
 type: docs
-weight: 678
+weight: 679
 url: /androidjava/com.aspose.slides/ichart/
 ---
 **All Implemented Interfaces:**

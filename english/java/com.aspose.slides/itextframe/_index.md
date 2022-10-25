@@ -1,9 +1,9 @@
 ---
 title: ITextFrame
 second_title: Aspose.Slides for Java API Reference
-description:  Represents a TextFrame.
+description: Represents a TextFrame.
 type: docs
-weight: 1064
+weight: 1065
 url: /java/com.aspose.slides/itextframe/
 ---
 **All Implemented Interfaces:**

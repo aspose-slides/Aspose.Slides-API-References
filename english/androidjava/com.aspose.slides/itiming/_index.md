@@ -1,9 +1,9 @@
 ---
 title: ITiming
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents animation timing.
+description: Represents animation timing.
 type: docs
-weight: 1079
+weight: 1080
 url: /androidjava/com.aspose.slides/itiming/
 ---```
 public interface ITiming
@@ -24,6 +24,10 @@ Represents animation timing.
 | [setDuration(float value)](#setDuration-float-) | Describes the duration of animation effect. |
 | [getRepeatCount()](#getRepeatCount--) | Describes the number of times the effect should repeat. |
 | [setRepeatCount(float value)](#setRepeatCount-float-) | Describes the number of times the effect should repeat. |
+| [getRepeatUntilEndSlide()](#getRepeatUntilEndSlide--) | This attribute specifies if the effect will repeat until the end of the slide. |
+| [setRepeatUntilEndSlide(boolean value)](#setRepeatUntilEndSlide-boolean-) | This attribute specifies if the effect will repeat until the end of the slide. |
+| [getRepeatUntilNextClick()](#getRepeatUntilNextClick--) | This attribute specifies if the effect will repeat until the next click. |
+| [setRepeatUntilNextClick(boolean value)](#setRepeatUntilNextClick-boolean-) | This attribute specifies if the effect will repeat until the next click. |
 | [getRepeatDuration()](#getRepeatDuration--) | Describes the number of times the effect should repeat. |
 | [setRepeatDuration(float value)](#setRepeatDuration-float-) | Describes the number of times the effect should repeat. |
 | [getRestart()](#getRestart--) | Specifies if a effect is to restart after complete. |
@@ -148,6 +152,116 @@ Describes the number of times the effect should repeat. Read/write float.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | float |  |
+
+### getRepeatUntilEndSlide() {#getRepeatUntilEndSlide--}
+```
+public abstract boolean getRepeatUntilEndSlide()
+```
+
+
+This attribute specifies if the effect will repeat until the end of the slide. Read/write  boolean .
+
+--------------------
+
+> ```
+> Presentation presentation = new Presentation("demo.pptx");
+>  try {
+>      // Get the effects sequence for the first slide
+>      ISequence effectsSequence = presentation.getSlides().get_Item(0).getTimeline().getMainSequence();
+>      // Get the first effect of main sequence.
+>      IEffect effect = effectsSequence.get_Item(0);
+>      // Change the effect Timing/Repeat to "Until End of Slide"
+>      effect.getTiming().setRepeatUntilEndSlide(true);
+>  } finally {
+>      if (presentation != null) presentation.dispose();
+>  }
+> ```
+
+**Returns:**
+boolean
+### setRepeatUntilEndSlide(boolean value) {#setRepeatUntilEndSlide-boolean-}
+```
+public abstract void setRepeatUntilEndSlide(boolean value)
+```
+
+
+This attribute specifies if the effect will repeat until the end of the slide. Read/write  boolean .
+
+--------------------
+
+> ```
+> Presentation presentation = new Presentation("demo.pptx");
+>  try {
+>      // Get the effects sequence for the first slide
+>      ISequence effectsSequence = presentation.getSlides().get_Item(0).getTimeline().getMainSequence();
+>      // Get the first effect of main sequence.
+>      IEffect effect = effectsSequence.get_Item(0);
+>      // Change the effect Timing/Repeat to "Until End of Slide"
+>      effect.getTiming().setRepeatUntilEndSlide(true);
+>  } finally {
+>      if (presentation != null) presentation.dispose();
+>  }
+> ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
+### getRepeatUntilNextClick() {#getRepeatUntilNextClick--}
+```
+public abstract boolean getRepeatUntilNextClick()
+```
+
+
+This attribute specifies if the effect will repeat until the next click. Read/write  boolean .
+
+--------------------
+
+> ```
+> Presentation presentation = new Presentation("demo.pptx");
+>  try {
+>      // Get the effects sequence for the first slide
+>      ISequence effectsSequence = presentation.getSlides().get_Item(0).getTimeline().getMainSequence();
+>      // Get the first effect of main sequence.
+>      IEffect effect = effectsSequence.get_Item(0);
+>      // Change the effect Timing/Repeat to "Until Next Click"
+>      effect.getTiming().setRepeatUntilNextClick(true);
+>  } finally {
+>      if (presentation != null) presentation.dispose();
+>  }
+> ```
+
+**Returns:**
+boolean
+### setRepeatUntilNextClick(boolean value) {#setRepeatUntilNextClick-boolean-}
+```
+public abstract void setRepeatUntilNextClick(boolean value)
+```
+
+
+This attribute specifies if the effect will repeat until the next click. Read/write  boolean .
+
+--------------------
+
+> ```
+> Presentation presentation = new Presentation("demo.pptx");
+>  try {
+>      // Get the effects sequence for the first slide
+>      ISequence effectsSequence = presentation.getSlides().get_Item(0).getTimeline().getMainSequence();
+>      // Get the first effect of main sequence.
+>      IEffect effect = effectsSequence.get_Item(0);
+>      // Change the effect Timing/Repeat to "Until Next Click"
+>      effect.getTiming().setRepeatUntilNextClick(true);
+>  } finally {
+>      if (presentation != null) presentation.dispose();
+>  }
+> ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
 
 ### getRepeatDuration() {#getRepeatDuration--}
 ```

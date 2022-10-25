@@ -1,7 +1,7 @@
 ---
 title: Camera
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents Camera.
+description: Represents Camera.
 type: docs
 weight: 66
 url: /androidjava/com.aspose.slides/camera/

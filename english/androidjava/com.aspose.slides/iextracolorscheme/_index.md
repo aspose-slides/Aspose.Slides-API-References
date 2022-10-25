@@ -1,9 +1,9 @@
 ---
 title: IExtraColorScheme
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents an additional color scheme which can be assigned to a slide.
+description: Represents an additional color scheme which can be assigned to a slide.
 type: docs
-weight: 764
+weight: 765
 url: /androidjava/com.aspose.slides/iextracolorscheme/
 ---```
 public interface IExtraColorScheme

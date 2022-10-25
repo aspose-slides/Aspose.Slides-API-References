@@ -1,9 +1,9 @@
 ---
 title: MathIntegralTypes
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Mathematical integral types
+description: Mathematical integral types
 type: docs
-weight: 331
+weight: 332
 url: /androidjava/com.aspose.slides/mathintegraltypes/
 ---
 **Inheritance:**

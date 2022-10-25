@@ -1,9 +1,9 @@
 ---
 title: IDataLabelCollection
 second_title: Aspose.Slides for Java API Reference
-description:  Represents a series labels.
+description: Represents a series labels.
 type: docs
-weight: 737
+weight: 738
 url: /java/com.aspose.slides/idatalabelcollection/
 ---
 **All Implemented Interfaces:**
@@ -19,6 +19,8 @@ Represents a series labels.
 | --- | --- |
 | [get_Item(int index)](#get-Item-int-) | Gets the data label for the data point with the specified index. |
 | [getDefaultDataLabelFormat()](#getDefaultDataLabelFormat--) | Returns default format of all data labels in the collection. |
+| [getLeaderLinesColor()](#getLeaderLinesColor--) | Gets or sets the color of all leader lines in the collection. |
+| [setLeaderLinesColor(Color value)](#setLeaderLinesColor-java.awt.Color-) | Gets or sets the color of all leader lines in the collection. |
 | [isVisible()](#isVisible--) | False means that data label is not visible by default (and so all Show\*-flags (ShowValue, ...) of the DefaultDataLabelFormat property are false). |
 | [hide()](#hide--) | Make data label hidden by default by setting all Show\*-flags (ShowValue, ...) of the DefaultDataLabelFormat property to false state. |
 | [getCountOfVisibleDataLabels()](#getCountOfVisibleDataLabels--) | Gets the number of visible data labels in the collection. |
@@ -54,13 +56,70 @@ Returns default format of all data labels in the collection. Read-only [IDataLab
 
 **Returns:**
 [IDataLabelFormat](../../com.aspose.slides/idatalabelformat)
+### getLeaderLinesColor() {#getLeaderLinesColor--}
+```
+public abstract Color getLeaderLinesColor()
+```
+
+
+Gets or sets the color of all leader lines in the collection. Read/write java.awt.Color.
+
+--------------------
+
+> ```
+> Example:
+>  
+>  Presentation pres = new Presentation("pres.pptx");
+>  try {
+>      IChart chart = (IChart) pres.getSlides().get_Item(0).getShapes().get_Item(0);
+>      IChartSeriesCollection series = chart.getChartData().getSeries();
+>      IDataLabelCollection labels = series.get_Item(0).getLabels();
+> 
+>      labels.setLeaderLinesColor(Color.RED);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Returns:**
+java.awt.Color
+### setLeaderLinesColor(Color value) {#setLeaderLinesColor-java.awt.Color-}
+```
+public abstract void setLeaderLinesColor(Color value)
+```
+
+
+Gets or sets the color of all leader lines in the collection. Read/write java.awt.Color.
+
+--------------------
+
+> ```
+> Example:
+>  
+>  Presentation pres = new Presentation("pres.pptx");
+>  try {
+>      IChart chart = (IChart) pres.getSlides().get_Item(0).getShapes().get_Item(0);
+>      IChartSeriesCollection series = chart.getChartData().getSeries();
+>      IDataLabelCollection labels = series.get_Item(0).getLabels();
+> 
+>      labels.setLeaderLinesColor(Color.RED);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.awt.Color |  |
+
 ### isVisible() {#isVisible--}
 ```
 public abstract boolean isVisible()
 ```
 
 
-False means that data label is not visible by default (and so all Show\*-flags (ShowValue, ...) of the DefaultDataLabelFormat property are false). Read-only boolean.
+False means that data label is not visible by default (and so all Show\*-flags (ShowValue, ...) of the DefaultDataLabelFormat property are false). Read-only  boolean .
 
 --------------------
 
@@ -86,7 +145,7 @@ public abstract int getCountOfVisibleDataLabels()
 ```
 
 
-Gets the number of visible data labels in the collection. Read-only int.
+Gets the number of visible data labels in the collection. Read-only  int .
 
 **Returns:**
 int
@@ -96,7 +155,7 @@ public abstract int getCount()
 ```
 
 
-Gets the number of all data labels in the collection. Read-only int.
+Gets the number of all data labels in the collection. Read-only  int .
 
 **Returns:**
 int

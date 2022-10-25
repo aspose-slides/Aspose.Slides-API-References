@@ -1,9 +1,9 @@
 ---
 title: IParagraphFormat
 second_title: Aspose.Slides for Android via Java API Reference
-description:  This class contains the paragraph formatting properties.
+description: This class contains the paragraph formatting properties.
 type: docs
-weight: 953
+weight: 954
 url: /androidjava/com.aspose.slides/iparagraphformat/
 ---```
 public interface IParagraphFormat
@@ -15,7 +15,7 @@ This class contains the paragraph formatting properties. Unlike [IParagraphForma
 
 This class is used to return and manipulate paragraph formatting properties defined for the particular paragraph. This means that no inheritance is applied when getting values so for the majority of cases you will get values meaning "undefined".
 
-In order to get the effective formatting parameter values including inherited you need to use [IParagraphFormat\#getEffective](../../com.aspose.slides/iparagraphformat\#getEffective) method which returns a [IParagraphFormatEffectiveData](../../com.aspose.slides/iparagraphformateffectivedata) instance.
+In order to get the effective formatting parameter values including inherited you need to use [getEffective](../../com.aspose.slides/iparagraphformat\#getEffective) method which returns a [IParagraphFormatEffectiveData](../../com.aspose.slides/iparagraphformateffectivedata) instance.
 ## Methods
 
 | Method | Description |

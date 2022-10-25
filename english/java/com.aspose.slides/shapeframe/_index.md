@@ -1,9 +1,9 @@
 ---
 title: ShapeFrame
 second_title: Aspose.Slides for Java API Reference
-description:  Represents shape frames properties.
+description: Represents shape frames properties.
 type: docs
-weight: 489
+weight: 490
 url: /java/com.aspose.slides/shapeframe/
 ---
 **Inheritance:**
@@ -37,6 +37,7 @@ Represents shape frame's properties.
 | [getRectangle()](#getRectangle--) | Returns the coordinates of a frame. |
 | [deepClone()](#deepClone--) | Clones |
 | [cloneT()](#cloneT--) | Clones. |
+| [hashCode()](#hashCode--) |  |
 | [equals(Object obj)](#equals-java.lang.Object-) | Returns a value indicating whether this instance is equal to a specified object. |
 | [equals(ShapeFrame value)](#equals-com.aspose.slides.ShapeFrame-) | Returns a value indicating whether this instance is equal to a specified object. |
 ### ShapeFrame(float x, float y, float width, float height, byte flipH, byte flipV, float rotationAngle) {#ShapeFrame-float-float-float-float-byte-byte-float-}
@@ -178,6 +179,16 @@ Clones.
 
 **Returns:**
 [IShapeFrame](../../com.aspose.slides/ishapeframe) - Cloned shape frame.
+### hashCode() {#hashCode--}
+```
+public int hashCode()
+```
+
+
+
+
+**Returns:**
+int
 ### equals(Object obj) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object obj)

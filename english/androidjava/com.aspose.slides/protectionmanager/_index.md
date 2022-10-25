@@ -1,9 +1,9 @@
 ---
 title: ProtectionManager
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Presentation password protection management.
+description: Presentation password protection management.
 type: docs
-weight: 455
+weight: 456
 url: /androidjava/com.aspose.slides/protectionmanager/
 ---
 **Inheritance:**
@@ -64,7 +64,7 @@ public final boolean isEncrypted()
 
 Gets a value indicating whether this instance is encrypted. Read-only boolean.
 
-Value: true if presentation was loaded from encrypted file or \#encrypt(String) method was called ; otherwise, false.
+Value: true if presentation was loaded from encrypted file or \#encrypt(String).encrypt(String) method was called ; otherwise, false.
 
 **Returns:**
 boolean
@@ -156,7 +156,7 @@ Determines whether a presentation is a password protected to modify.
 
 --------------------
 
-1. You should check the (\#isWriteProtected) property before calling this method. 2. When the password is null or empty, this method returns false. |
+1. You should check the (\#isWriteProtected.isWriteProtected) property before calling this method. 2. When the password is null or empty, this method returns false. |
 
 **Returns:**
 boolean - True if the password is valid; otherwise, false.

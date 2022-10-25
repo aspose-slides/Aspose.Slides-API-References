@@ -1,9 +1,9 @@
 ---
 title: ILegend
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents charts legend properties.
+description: Represents charts legend properties.
 type: docs
-weight: 846
+weight: 847
 url: /androidjava/com.aspose.slides/ilegend/
 ---
 **All Implemented Interfaces:**

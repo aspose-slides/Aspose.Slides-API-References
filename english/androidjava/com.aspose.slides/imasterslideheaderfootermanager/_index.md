@@ -1,9 +1,9 @@
 ---
 title: IMasterSlideHeaderFooterManager
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents manager which holds behavior of the master slide footer date-time page number placeholders and all child placeholders.
+description: Represents manager which holds behavior of the master slide footer date-time page number placeholders and all child placeholders.
 type: docs
-weight: 873
+weight: 874
 url: /androidjava/com.aspose.slides/imasterslideheaderfootermanager/
 ---
 **All Implemented Interfaces:**

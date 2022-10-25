@@ -1,9 +1,9 @@
 ---
 title: IPictureFrameLock
 second_title: Aspose.Slides for Java API Reference
-description:  Determines which operations are disabled on the parent PictureFrameEx.
+description: Determines which operations are disabled on the parent PictureFrameEx.
 type: docs
-weight: 963
+weight: 964
 url: /java/com.aspose.slides/ipictureframelock/
 ---
 **All Implemented Interfaces:**

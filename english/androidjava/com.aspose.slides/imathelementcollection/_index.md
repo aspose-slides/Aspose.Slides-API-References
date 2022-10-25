@@ -1,9 +1,9 @@
 ---
 title: IMathElementCollection
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents a collection of mathematical elements MathElement.
+description: Represents a collection of mathematical elements MathElement.
 type: docs
-weight: 893
+weight: 894
 url: /androidjava/com.aspose.slides/imathelementcollection/
 ---
 **All Implemented Interfaces:**
@@ -273,6 +273,6 @@ Copy to specified array.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| array | com.aspose.slides.IMathElement[] | Array to copy to. |
+| array | [IMathElement\[\]](../../com.aspose.slides/imathelement) | Array to copy to. |
 | arrayIndex | int | Index to begin copying. |
 

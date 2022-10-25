@@ -3,7 +3,7 @@ title: com.aspose.slides
 second_title: Aspose.Slides for Android via Java API Reference
 description: 
 type: docs
-weight: 11
+weight: 10
 url: /androidjava/com.aspose.slides/
 ---
 
@@ -140,7 +140,7 @@ url: /androidjava/com.aspose.slides/
 | [Control](../com.aspose.slides/control) | Represents an ActiveX control. |
 | [ControlCollection](../com.aspose.slides/controlcollection) | A collection of ActiveX controls. |
 | [ControlPropertiesCollection](../com.aspose.slides/controlpropertiescollection) | A collection of AcitveX properties. |
-| [ControlType](../com.aspose.slides/controltype) | Defines a control type which should be embedded by [IControlCollection\#addControl(int,float,float,float,float)](../com.aspose.slides/icontrolcollection\#addControl-int-float-float-float-float-). |
+| [ControlType](../com.aspose.slides/controltype) | Defines a control type which should be embedded by [IControlCollection.\#addControl(int,float,float,float,float)](../com.aspose.slides/icontrolcollection\#addControl-int-float-float-float-float-). |
 | [Convert](../com.aspose.slides/convert) | Represents a group of methods intended to convert [Presentation](../com.aspose.slides/presentation). |
 | [CornerDirectionTransition](../com.aspose.slides/cornerdirectiontransition) | Corner direction slide transition effect. |
 | [CrossesType](../com.aspose.slides/crossestype) | Determines where axis will cross. |
@@ -211,6 +211,7 @@ url: /androidjava/com.aspose.slides/
 | [FontSubstCondition](../com.aspose.slides/fontsubstcondition) | Represents a rule fot font substitution |
 | [FontSubstRule](../com.aspose.slides/fontsubstrule) | Represents font subtituition information |
 | [FontSubstRuleCollection](../com.aspose.slides/fontsubstrulecollection) | Represents collection of fonts substitution. |
+| [FontSubstitutionInfo](../com.aspose.slides/fontsubstitutioninfo) | This structure represents the information about the font replacement when it will be rendered. |
 | [Fonts](../com.aspose.slides/fonts) | Fonts collection. |
 | [FontsLoader](../com.aspose.slides/fontsloader) | Class for loading custom fonts defined by user. |
 | [FontsManager](../com.aspose.slides/fontsmanager) | Manages fonts across the presentation. |

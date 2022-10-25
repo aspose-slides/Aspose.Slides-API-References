@@ -1,9 +1,9 @@
 ---
 title: TemplateContext
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents a model object interface for a template engine.
+description: Represents a model object interface for a template engine.
 type: docs
-weight: 549
+weight: 550
 url: /androidjava/com.aspose.slides/templatecontext/
 ---
 **Inheritance:**
@@ -53,7 +53,7 @@ public final Output getOutput()
 ```
 
 
-Returns collection of output elements of the host document. Read-only [Output](../../com.aspose.slides/output)(\#getOutput).
+Returns collection of output elements of the host document. Read-only [Output](../../com.aspose.slides/output)(\#getOutput.getOutput).
 
 **Returns:**
 [Output](../../com.aspose.slides/output)

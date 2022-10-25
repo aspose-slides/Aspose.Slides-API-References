@@ -1,9 +1,9 @@
 ---
 title: ParagraphFormat
 second_title: Aspose.Slides for Android via Java API Reference
-description:  This class contains the paragraph formatting properties.
+description: This class contains the paragraph formatting properties.
 type: docs
-weight: 400
+weight: 401
 url: /androidjava/com.aspose.slides/paragraphformat/
 ---
 **Inheritance:**
@@ -21,7 +21,7 @@ This class contains the paragraph formatting properties. Unlike [IParagraphForma
 
 This class is used to return and manipulate paragraph formatting properties defined for the particular paragraph. This means that no inheritance is applied when getting values so for the majority of cases you will get values meaning "undefined".
 
-In order to get the effective formatting parameter values including inherited you need to use [ParagraphFormat\#getEffective](../../com.aspose.slides/paragraphformat\#getEffective) method which returns a [IParagraphFormatEffectiveData](../../com.aspose.slides/iparagraphformateffectivedata) instance.
+In order to get the effective formatting parameter values including inherited you need to use [getEffective](../../com.aspose.slides/paragraphformat\#getEffective) method which returns a [IParagraphFormatEffectiveData](../../com.aspose.slides/iparagraphformateffectivedata) instance.
 ## Constructors
 
 | Constructor | Description |
@@ -88,7 +88,7 @@ public final short getDepth()
 ```
 
 
-Returns or sets depth of the paragraph. Value 0 means undefined value. Read/write \`\`\` short \`\`\`.
+Returns or sets depth of the paragraph. Value 0 means undefined value. Read/write  short .
 
 **Returns:**
 short
@@ -98,7 +98,7 @@ public final void setDepth(short value)
 ```
 
 
-Returns or sets depth of the paragraph. Value 0 means undefined value. Read/write \`\`\` short \`\`\`.
+Returns or sets depth of the paragraph. Value 0 means undefined value. Read/write  short .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -134,7 +134,7 @@ public final float getSpaceWithin()
 ```
 
 
-Returns or sets the amount of space between base lines in a paragraph. Positive value means percentage, negative - size in points. No inheritance applied. Read/write \`\`\` float \`\`\`.
+Returns or sets the amount of space between base lines in a paragraph. Positive value means percentage, negative - size in points. No inheritance applied. Read/write  float .
 
 **Returns:**
 float
@@ -144,7 +144,7 @@ public final void setSpaceWithin(float value)
 ```
 
 
-Returns or sets the amount of space between base lines in a paragraph. Positive value means percentage, negative - size in points. No inheritance applied. Read/write \`\`\` float \`\`\`.
+Returns or sets the amount of space between base lines in a paragraph. Positive value means percentage, negative - size in points. No inheritance applied. Read/write  float .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -157,7 +157,7 @@ public final float getSpaceBefore()
 ```
 
 
-Returns or sets the amount of space before the first line in a paragraph with no inheritance. A positive value specifies the percentage of the font size that the white space should be. A negative value specifies the size of the white space in point size. Read/write \`\`\` float \`\`\`.
+Returns or sets the amount of space before the first line in a paragraph with no inheritance. A positive value specifies the percentage of the font size that the white space should be. A negative value specifies the size of the white space in point size. Read/write  float .
 
 **Returns:**
 float
@@ -167,7 +167,7 @@ public final void setSpaceBefore(float value)
 ```
 
 
-Returns or sets the amount of space before the first line in a paragraph with no inheritance. A positive value specifies the percentage of the font size that the white space should be. A negative value specifies the size of the white space in point size. Read/write \`\`\` float \`\`\`.
+Returns or sets the amount of space before the first line in a paragraph with no inheritance. A positive value specifies the percentage of the font size that the white space should be. A negative value specifies the size of the white space in point size. Read/write  float .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -180,7 +180,7 @@ public final float getSpaceAfter()
 ```
 
 
-Returns or sets the amount of space after the last line in a paragraph with no inheritance. A positive value specifies the percentage of the font size that the white space should be. A negative value specifies the size of the white space in point size. Read/write \`\`\` float \`\`\`.
+Returns or sets the amount of space after the last line in a paragraph with no inheritance. A positive value specifies the percentage of the font size that the white space should be. A negative value specifies the size of the white space in point size. Read/write  float .
 
 **Returns:**
 float
@@ -190,7 +190,7 @@ public final void setSpaceAfter(float value)
 ```
 
 
-Returns or sets the amount of space after the last line in a paragraph with no inheritance. A positive value specifies the percentage of the font size that the white space should be. A negative value specifies the size of the white space in point size. Read/write \`\`\` float \`\`\`.
+Returns or sets the amount of space after the last line in a paragraph with no inheritance. A positive value specifies the percentage of the font size that the white space should be. A negative value specifies the size of the white space in point size. Read/write  float .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -295,7 +295,7 @@ public final float getMarginLeft()
 ```
 
 
-Returns or sets the left margin in a paragraph with no inheritance. Read/write \`\`\` float \`\`\`.
+Returns or sets the left margin in a paragraph with no inheritance. Read/write  float .
 
 **Returns:**
 float
@@ -305,7 +305,7 @@ public final void setMarginLeft(float value)
 ```
 
 
-Returns or sets the left margin in a paragraph with no inheritance. Read/write \`\`\` float \`\`\`.
+Returns or sets the left margin in a paragraph with no inheritance. Read/write  float .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -318,7 +318,7 @@ public final float getMarginRight()
 ```
 
 
-Returns or sets the right margin in a paragraph with no inheritance. Read/write \`\`\` float \`\`\`.
+Returns or sets the right margin in a paragraph with no inheritance. Read/write  float .
 
 **Returns:**
 float
@@ -328,7 +328,7 @@ public final void setMarginRight(float value)
 ```
 
 
-Returns or sets the right margin in a paragraph with no inheritance. Read/write \`\`\` float \`\`\`.
+Returns or sets the right margin in a paragraph with no inheritance. Read/write  float .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -341,7 +341,7 @@ public final float getIndent()
 ```
 
 
-Returns or sets paragraph First Line Indent/Hanging Indent with no inheritance. Hanging Indent can be defined with negative values. Read/write \`\`\` float \`\`\`.
+Returns or sets paragraph First Line Indent/Hanging Indent with no inheritance. Hanging Indent can be defined with negative values. Read/write  float .
 
 **Returns:**
 float
@@ -351,7 +351,7 @@ public final void setIndent(float value)
 ```
 
 
-Returns or sets paragraph First Line Indent/Hanging Indent with no inheritance. Hanging Indent can be defined with negative values. Read/write \`\`\` float \`\`\`.
+Returns or sets paragraph First Line Indent/Hanging Indent with no inheritance. Hanging Indent can be defined with negative values. Read/write  float .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -364,7 +364,7 @@ public final float getDefaultTabSize()
 ```
 
 
-Returns or sets default tabulation size with no inheritance. Read/write \`\`\` float \`\`\`.
+Returns or sets default tabulation size with no inheritance. Read/write  float .
 
 **Returns:**
 float
@@ -374,7 +374,7 @@ public final void setDefaultTabSize(float value)
 ```
 
 
-Returns or sets default tabulation size with no inheritance. Read/write \`\`\` float \`\`\`.
+Returns or sets default tabulation size with no inheritance. Read/write  float .
 
 **Parameters:**
 | Parameter | Type | Description |

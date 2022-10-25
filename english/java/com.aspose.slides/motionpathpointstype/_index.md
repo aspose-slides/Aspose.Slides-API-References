@@ -1,9 +1,9 @@
 ---
 title: MotionPathPointsType
 second_title: Aspose.Slides for Java API Reference
-description:  Represent types of points in animation motion path.
+description: Represent types of points in animation motion path.
 type: docs
-weight: 369
+weight: 370
 url: /java/com.aspose.slides/motionpathpointstype/
 ---
 **Inheritance:**

@@ -1,9 +1,9 @@
 ---
 title: IBlobManagementOptions
 second_title: Aspose.Slides for Android via Java API Reference
-description:  A Binary Large Object BLOB is a binary data stored as a single entity - i.e.
+description: A Binary Large Object BLOB is a binary data stored as a single entity - i.e.
 type: docs
-weight: 666
+weight: 667
 url: /androidjava/com.aspose.slides/iblobmanagementoptions/
 ---```
 public interface IBlobManagementOptions
@@ -110,7 +110,7 @@ public abstract String getTempFilesRootPath()
 ```
 
 
-The root path where temporary files will be created. Hosting process should have permissions to create files and folders there.
+The root path where temporary files will be created. System temorary directory will be used by default. Hosting process should have permissions to create files and folders there.
 
 **Returns:**
 java.lang.String
@@ -120,7 +120,7 @@ public abstract void setTempFilesRootPath(String value)
 ```
 
 
-The root path where temporary files will be created. Hosting process should have permissions to create files and folders there.
+The root path where temporary files will be created. System temorary directory will be used by default. Hosting process should have permissions to create files and folders there.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -137,7 +137,7 @@ Defines the maximum amount (in bytes) that all BLOBs in total may occupy in memo
 
 --------------------
 
-This property will be ignored if (\#isTemporaryFilesAllowed/\#setTemporaryFilesAllowed(boolean)) is set to false. It makes no sense to limit the maximum BLOBs in memory, because if IsTemporaryFilesAllowed(\#isTemporaryFilesAllowed/\#setTemporaryFilesAllowed(boolean)) is set to false, the memory is the only place where BLOBs can be stored.
+This property will be ignored if (\#isTemporaryFilesAllowed.isTemporaryFilesAllowed/\#setTemporaryFilesAllowed(boolean).setTemporaryFilesAllowed(boolean)) is set to false. It makes no sense to limit the maximum BLOBs in memory, because if IsTemporaryFilesAllowed(\#isTemporaryFilesAllowed.isTemporaryFilesAllowed/\#setTemporaryFilesAllowed(boolean).setTemporaryFilesAllowed(boolean)) is set to false, the memory is the only place where BLOBs can be stored.
 
 --------------------
 
@@ -155,7 +155,7 @@ Defines the maximum amount (in bytes) that all BLOBs in total may occupy in memo
 
 --------------------
 
-This property will be ignored if (\#isTemporaryFilesAllowed/\#setTemporaryFilesAllowed(boolean)) is set to false. It makes no sense to limit the maximum BLOBs in memory, because if IsTemporaryFilesAllowed(\#isTemporaryFilesAllowed/\#setTemporaryFilesAllowed(boolean)) is set to false, the memory is the only place where BLOBs can be stored.
+This property will be ignored if (\#isTemporaryFilesAllowed.isTemporaryFilesAllowed/\#setTemporaryFilesAllowed(boolean).setTemporaryFilesAllowed(boolean)) is set to false. It makes no sense to limit the maximum BLOBs in memory, because if IsTemporaryFilesAllowed(\#isTemporaryFilesAllowed.isTemporaryFilesAllowed/\#setTemporaryFilesAllowed(boolean).setTemporaryFilesAllowed(boolean)) is set to false, the memory is the only place where BLOBs can be stored.
 
 --------------------
 

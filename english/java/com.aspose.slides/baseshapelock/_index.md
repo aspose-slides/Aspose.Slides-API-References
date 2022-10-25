@@ -1,7 +1,7 @@
 ---
 title: BaseShapeLock
 second_title: Aspose.Slides for Java API Reference
-description:  Represents a base class for locks disabled operation.
+description: Represents a base class for locks disabled operation.
 type: docs
 weight: 43
 url: /java/com.aspose.slides/baseshapelock/

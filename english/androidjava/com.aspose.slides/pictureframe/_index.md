@@ -1,9 +1,9 @@
 ---
 title: PictureFrame
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents a frame with a picture inside.
+description: Represents a frame with a picture inside.
 type: docs
-weight: 415
+weight: 416
 url: /androidjava/com.aspose.slides/pictureframe/
 ---
 **Inheritance:**
@@ -121,7 +121,7 @@ public final float getRelativeScaleHeight()
 ```
 
 
-Returns or sets the scale of height(relative to original picture size) of the picture frame. Value 1.0 corresponds to 100%. Read/write \`\`\` float \`\`\`.
+Returns or sets the scale of height(relative to original picture size) of the picture frame. Value 1.0 corresponds to 100%. Read/write  float .
 
 **Returns:**
 float
@@ -131,7 +131,7 @@ public final void setRelativeScaleHeight(float value)
 ```
 
 
-Returns or sets the scale of height(relative to original picture size) of the picture frame. Value 1.0 corresponds to 100%. Read/write \`\`\` float \`\`\`.
+Returns or sets the scale of height(relative to original picture size) of the picture frame. Value 1.0 corresponds to 100%. Read/write  float .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -144,7 +144,7 @@ public final float getRelativeScaleWidth()
 ```
 
 
-Returns or sets the scale of width (relative to original picture size) of the picture frame. Value 1.0 corresponds to 100%. Read/write \`\`\` float \`\`\`.
+Returns or sets the scale of width (relative to original picture size) of the picture frame. Value 1.0 corresponds to 100%. Read/write  float .
 
 **Returns:**
 float
@@ -154,7 +154,7 @@ public final void setRelativeScaleWidth(float value)
 ```
 
 
-Returns or sets the scale of width (relative to original picture size) of the picture frame. Value 1.0 corresponds to 100%. Read/write \`\`\` float \`\`\`.
+Returns or sets the scale of width (relative to original picture size) of the picture frame. Value 1.0 corresponds to 100%. Read/write  float .
 
 **Parameters:**
 | Parameter | Type | Description |

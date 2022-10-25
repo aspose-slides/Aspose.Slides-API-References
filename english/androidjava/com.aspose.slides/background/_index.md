@@ -1,7 +1,7 @@
 ---
 title: Background
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents background of a slide.
+description: Represents background of a slide.
 type: docs
 weight: 35
 url: /androidjava/com.aspose.slides/background/

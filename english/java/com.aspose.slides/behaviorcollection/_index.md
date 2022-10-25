@@ -1,7 +1,7 @@
 ---
 title: BehaviorCollection
 second_title: Aspose.Slides for Java API Reference
-description:  Represents collection of behavior effects.
+description: Represents collection of behavior effects.
 type: docs
 weight: 50
 url: /java/com.aspose.slides/behaviorcollection/
@@ -107,7 +107,7 @@ Copies the elements of the [IGenericCollection](../../com.aspose.slides/igeneric
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| array | com.aspose.slides.IBehavior[] | The one-dimensional Array that is the destination of the elements copied from [IGenericCollection](../../com.aspose.slides/igenericcollection). The Array must have zero-based indexing. |
+| array | [IBehavior\[\]](../../com.aspose.slides/ibehavior) | The one-dimensional Array that is the destination of the elements copied from [IGenericCollection](../../com.aspose.slides/igenericcollection). The Array must have zero-based indexing. |
 | arrayIndex | int | The zero-based index in array at which copying begins. |
 
 ### remove(IBehavior item) {#remove-com.aspose.slides.IBehavior-}

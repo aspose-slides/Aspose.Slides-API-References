@@ -1,9 +1,9 @@
 ---
 title: TransitionCornerAndCenterDirectionType
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Specifies a direction restricted to the corners and center.
+description: Specifies a direction restricted to the corners and center.
 type: docs
-weight: 578
+weight: 579
 url: /androidjava/com.aspose.slides/transitioncornerandcenterdirectiontype/
 ---
 **Inheritance:**

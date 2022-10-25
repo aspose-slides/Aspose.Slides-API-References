@@ -1,7 +1,7 @@
 ---
 title: ColorFormat
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents a color used in a presentation.
+description: Represents a color used in a presentation.
 type: docs
 weight: 109
 url: /androidjava/com.aspose.slides/colorformat/
@@ -176,7 +176,7 @@ public final byte getR()
 ```
 
 
-Returns or sets the red component of a color. All color transformations are ignored. Read/write \`\`\` byte \`\`\`.
+Returns or sets the red component of a color. All color transformations are ignored. Read/write  byte .
 
 **Returns:**
 byte
@@ -186,7 +186,7 @@ public final void setR(byte value)
 ```
 
 
-Returns or sets the red component of a color. All color transformations are ignored. Read/write \`\`\` byte \`\`\`.
+Returns or sets the red component of a color. All color transformations are ignored. Read/write  byte .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -222,7 +222,7 @@ public final byte getB()
 ```
 
 
-Returns or sets the blue component of a color. All color transformations are ignored. Read/write \`\`\` byte \`\`\`.
+Returns or sets the blue component of a color. All color transformations are ignored. Read/write  byte .
 
 **Returns:**
 byte
@@ -232,7 +232,7 @@ public final void setB(byte value)
 ```
 
 
-Returns or sets the blue component of a color. All color transformations are ignored. Read/write \`\`\` byte \`\`\`.
+Returns or sets the blue component of a color. All color transformations are ignored. Read/write  byte .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -245,7 +245,7 @@ public final float getFloatR()
 ```
 
 
-Returns or sets the red component of a color. All color transformations are ignored. Read/write \`\`\` float \`\`\`.
+Returns or sets the red component of a color. All color transformations are ignored. Read/write  float .
 
 **Returns:**
 float
@@ -255,7 +255,7 @@ public final void setFloatR(float value)
 ```
 
 
-Returns or sets the red component of a color. All color transformations are ignored. Read/write \`\`\` float \`\`\`.
+Returns or sets the red component of a color. All color transformations are ignored. Read/write  float .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -268,7 +268,7 @@ public final float getFloatG()
 ```
 
 
-Returns or sets the green component of a color. All color transformations are ignored. Read/write \`\`\` float \`\`\`.
+Returns or sets the green component of a color. All color transformations are ignored. Read/write  float .
 
 **Returns:**
 float
@@ -278,7 +278,7 @@ public final void setFloatG(float value)
 ```
 
 
-Returns or sets the green component of a color. All color transformations are ignored. Read/write \`\`\` float \`\`\`.
+Returns or sets the green component of a color. All color transformations are ignored. Read/write  float .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -291,7 +291,7 @@ public final float getFloatB()
 ```
 
 
-Returns or sets the blue component of a color. All color transformations are ignored. Read/write \`\`\` float \`\`\`.
+Returns or sets the blue component of a color. All color transformations are ignored. Read/write  float .
 
 **Returns:**
 float
@@ -301,7 +301,7 @@ public final void setFloatB(float value)
 ```
 
 
-Returns or sets the blue component of a color. All color transformations are ignored. Read/write \`\`\` float \`\`\`.
+Returns or sets the blue component of a color. All color transformations are ignored. Read/write  float .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -314,7 +314,7 @@ public final float getHue()
 ```
 
 
-Returns or sets the hue component of a color in HSL representation. All color transformations are ignored. Read/write \`\`\` float \`\`\`.
+Returns or sets the hue component of a color in HSL representation. All color transformations are ignored. Read/write  float .
 
 **Returns:**
 float
@@ -324,7 +324,7 @@ public final void setHue(float value)
 ```
 
 
-Returns or sets the hue component of a color in HSL representation. All color transformations are ignored. Read/write \`\`\` float \`\`\`.
+Returns or sets the hue component of a color in HSL representation. All color transformations are ignored. Read/write  float .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -337,7 +337,7 @@ public final float getSaturation()
 ```
 
 
-Returns or sets the saturation component of a color in HSL representation. All color transformations are ignored. Read/write \`\`\` float \`\`\`.
+Returns or sets the saturation component of a color in HSL representation. All color transformations are ignored. Read/write  float .
 
 **Returns:**
 float
@@ -347,7 +347,7 @@ public final void setSaturation(float value)
 ```
 
 
-Returns or sets the saturation component of a color in HSL representation. All color transformations are ignored. Read/write \`\`\` float \`\`\`.
+Returns or sets the saturation component of a color in HSL representation. All color transformations are ignored. Read/write  float .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -360,7 +360,7 @@ public final float getLuminance()
 ```
 
 
-Returns or sets the luminance component of a color in HSL representation. All color transformations are ignored. Read/write \`\`\` float \`\`\`.
+Returns or sets the luminance component of a color in HSL representation. All color transformations are ignored. Read/write  float .
 
 **Returns:**
 float
@@ -370,7 +370,7 @@ public final void setLuminance(float value)
 ```
 
 
-Returns or sets the luminance component of a color in HSL representation. All color transformations are ignored. Read/write \`\`\` float \`\`\`.
+Returns or sets the luminance component of a color in HSL representation. All color transformations are ignored. Read/write  float .
 
 **Parameters:**
 | Parameter | Type | Description |

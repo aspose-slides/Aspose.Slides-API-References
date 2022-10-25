@@ -1,10 +1,9 @@
 ---
 title: IMathSubscriptElement
 second_title: Aspose.Slides for Java API Reference
-description:  Specifies the subscript object which consists of a base 
- and a reduced-size subscript placed below and to the right.
+description: Specifies the subscript object which consists of a base  and a reduced-size subscript placed below and to the right.
 type: docs
-weight: 915
+weight: 916
 url: /java/com.aspose.slides/imathsubscriptelement/
 ---
 **All Implemented Interfaces:**

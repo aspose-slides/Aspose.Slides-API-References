@@ -1,9 +1,9 @@
 ---
 title: IDataTable
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents data table properties.
+description: Represents data table properties.
 type: docs
-weight: 740
+weight: 741
 url: /androidjava/com.aspose.slides/idatatable/
 ---
 **All Implemented Interfaces:**

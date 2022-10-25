@@ -76,3 +76,17 @@ Aspose.Slides for Android via Java 是一个 Microsoft PowerPoint® 管理 API�
 这些是一些有用资源的链接：
 
 - [Aspose.Slides for Android 通过 Java API 参考](/slides/androidjava/)
+
+## Aspose.Slides for PHP via Java
+
+{{% alert color="primary" %}} 
+
+![Aspose.Slides for PHP via Java Product Logo](../home_8.png)
+
+Aspose.Slides for PHP via Java 是一个类库，使您的应用程序无需使用 Microsoft PowerPoint® 即可读取和写入 PowerPoint® 文档。 Aspose.Slides for PHP via Java 是第一个也是唯一一个提供管理 PowerPoint® 文档功能的组件。 Aspose.Slides for PHP via Java 提供了许多关键功能，例如管理文本、形状、表格和动画、向幻灯片添加音频和视频、预览幻灯片、将幻灯片导出为 SVG、PDF 格式等等。
+
+{{% /alert %}} 
+
+这些是一些有用资源的链接：
+
+- [Aspose.Slides for PHP via Java API Reference](/slides/phpjava/)

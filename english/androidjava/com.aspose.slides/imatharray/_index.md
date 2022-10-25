@@ -1,9 +1,9 @@
 ---
 title: IMathArray
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Specifies a vertical array of equations or any mathematical objects
+description: Specifies a vertical array of equations or any mathematical objects
 type: docs
-weight: 879
+weight: 880
 url: /androidjava/com.aspose.slides/imatharray/
 ---
 **All Implemented Interfaces:**

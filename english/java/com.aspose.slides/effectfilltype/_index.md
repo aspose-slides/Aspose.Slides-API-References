@@ -1,7 +1,7 @@
 ---
 title: EffectFillType
 second_title: Aspose.Slides for Java API Reference
-description:  Represent fill types.
+description: Represent fill types.
 type: docs
 weight: 165
 url: /java/com.aspose.slides/effectfilltype/

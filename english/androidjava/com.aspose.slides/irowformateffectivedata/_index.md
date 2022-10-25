@@ -1,9 +1,9 @@
 ---
 title: IRowFormatEffectiveData
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Immutable object which contains effective table row formatting properties.
+description: Immutable object which contains effective table row formatting properties.
 type: docs
-weight: 1000
+weight: 1001
 url: /androidjava/com.aspose.slides/irowformateffectivedata/
 ---
 **All Implemented Interfaces:**

@@ -1,10 +1,9 @@
 ---
 title: MathAccent
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Specifies the accent function consisting of a base and a combining diacritical mark
- Example ud835udc4eu0301
+description: Specifies the accent function consisting of a base and a combining diacritical mark Example ud835udc4eu0301
 type: docs
-weight: 305
+weight: 306
 url: /androidjava/com.aspose.slides/mathaccent/
 ---
 **Inheritance:**

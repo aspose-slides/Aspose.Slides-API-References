@@ -1,10 +1,9 @@
 ---
 title: PresentationLockingBehavior
 second_title: Aspose.Slides for Java API Reference
-description:  Represents the behavior regarding treating the  source file or 
- java.io.InputStream while loading and working with an instance of .
+description: Represents the behavior regarding treating the  source file or  java.io.InputStream while loading and working with an instance of .
 type: docs
-weight: 446
+weight: 447
 url: /java/com.aspose.slides/presentationlockingbehavior/
 ---
 **Inheritance:**
@@ -44,11 +43,11 @@ The source will be locked only for a time of [IPresentation](../../com.aspose.sl
 
 --------------------
 
-If ([IBlobManagementOptions\#isTemporaryFilesAllowed](../../com.aspose.slides/iblobmanagementoptions\#isTemporaryFilesAllowed)/[IBlobManagementOptions\#setTemporaryFilesAllowed(boolean)](../../com.aspose.slides/iblobmanagementoptions\#setTemporaryFilesAllowed-boolean-)) is set to false, all BLOBs will be loaded into memory. Otherwise, other means such a temporary files might be used.
+If ([IBlobManagementOptions.isTemporaryFilesAllowed](../../com.aspose.slides/iblobmanagementoptions\#isTemporaryFilesAllowed)/[IBlobManagementOptions.setTemporaryFilesAllowed(boolean)](../../com.aspose.slides/iblobmanagementoptions\#setTemporaryFilesAllowed-boolean-)) is set to false, all BLOBs will be loaded into memory. Otherwise, other means such a temporary files might be used.
 
 --------------------
 
-This behavior is slower than [PresentationLockingBehavior\#KeepLocked](../../com.aspose.slides/presentationlockingbehavior\#KeepLocked), and if it is possible to pass the ownership of the source to [IPresentation](../../com.aspose.slides/ipresentation), it is recommended to use [PresentationLockingBehavior\#KeepLocked](../../com.aspose.slides/presentationlockingbehavior\#KeepLocked).
+This behavior is slower than [KeepLocked](../../com.aspose.slides/presentationlockingbehavior\#KeepLocked), and if it is possible to pass the ownership of the source to [IPresentation](../../com.aspose.slides/ipresentation), it is recommended to use [KeepLocked](../../com.aspose.slides/presentationlockingbehavior\#KeepLocked).
 
 ### KeepLocked {#KeepLocked}
 ```
@@ -60,9 +59,9 @@ The source will be locked for a whole lifetime of [IPresentation](../../com.aspo
 
 --------------------
 
-\`\`\` IBlobManagementOptions.IsTemporaryFilesAllowed \`\`\`([IBlobManagementOptions\#isTemporaryFilesAllowed](../../com.aspose.slides/iblobmanagementoptions\#isTemporaryFilesAllowed)/[IBlobManagementOptions\#setTemporaryFilesAllowed(boolean)](../../com.aspose.slides/iblobmanagementoptions\#setTemporaryFilesAllowed-boolean-)) is must be set to true for using this behavior, otherwise exception will be thrown.
+[IBlobManagementOptions.isTemporaryFilesAllowed](../../com.aspose.slides/iblobmanagementoptions\#isTemporaryFilesAllowed)([IBlobManagementOptions.isTemporaryFilesAllowed](../../com.aspose.slides/iblobmanagementoptions\#isTemporaryFilesAllowed)/[IBlobManagementOptions.setTemporaryFilesAllowed(boolean)](../../com.aspose.slides/iblobmanagementoptions\#setTemporaryFilesAllowed-boolean-)) is must be set to true for using this behavior, otherwise exception will be thrown.
 
 --------------------
 
-This behavior is recommended, it is faster and consumes less memory than [PresentationLockingBehavior\#LoadAndRelease](../../com.aspose.slides/presentationlockingbehavior\#LoadAndRelease).
+This behavior is recommended, it is faster and consumes less memory than [LoadAndRelease](../../com.aspose.slides/presentationlockingbehavior\#LoadAndRelease).
 

@@ -1,9 +1,9 @@
 ---
 title: IGroupShapeLock
 second_title: Aspose.Slides for Java API Reference
-description:  Determines which operations are disabled on the parent GroupShape.
+description: Determines which operations are disabled on the parent GroupShape.
 type: docs
-weight: 815
+weight: 816
 url: /java/com.aspose.slides/igroupshapelock/
 ---
 **All Implemented Interfaces:**

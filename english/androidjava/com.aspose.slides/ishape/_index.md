@@ -1,9 +1,9 @@
 ---
 title: IShape
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents a shape on a slide.
+description: Represents a shape on a slide.
 type: docs
-weight: 1012
+weight: 1013
 url: /androidjava/com.aspose.slides/ishape/
 ---
 **All Implemented Interfaces:**
@@ -602,7 +602,7 @@ public abstract long getUniqueId()
 ```
 
 
-Gets unique shape identifier in presentation scope. Read-only long. See also (\#getOfficeInteropShapeId) for getting unique shape identifier in slide scope.
+Gets unique shape identifier in presentation scope. Read-only long. See also (\#getOfficeInteropShapeId.getOfficeInteropShapeId) for getting unique shape identifier in slide scope.
 
 **Returns:**
 long
@@ -612,7 +612,7 @@ public abstract long getOfficeInteropShapeId()
 ```
 
 
-Gets unique shape identifier in slide scope. Read-only long. See also (\#getUniqueId) for getting unique shape identifier in presentation scope.
+Gets unique shape identifier in slide scope. Read-only long. See also (\#getUniqueId.getUniqueId) for getting unique shape identifier in presentation scope.
 
 **Returns:**
 long
@@ -626,7 +626,7 @@ Determines whether the shape is grouped. Read-only boolean.
 
 --------------------
 
-Property (\#getParentGroup) returns parent GroupShape object if shape is grouped.
+Property (\#getParentGroup.getParentGroup) returns parent GroupShape object if shape is grouped.
 
 **Returns:**
 boolean
@@ -663,7 +663,7 @@ Returns parent GroupShape object if shape is grouped. Otherwise returns null. Re
 
 --------------------
 
-Property (\#isGrouped) determines whether the shape is grouped.
+Property (\#isGrouped.isGrouped) determines whether the shape is grouped.
 
 **Returns:**
 [IGroupShape](../../com.aspose.slides/igroupshape)

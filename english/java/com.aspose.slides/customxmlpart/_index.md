@@ -1,7 +1,7 @@
 ---
 title: CustomXmlPart
 second_title: Aspose.Slides for Java API Reference
-description:  Represents custom xml part.
+description: Represents custom xml part.
 type: docs
 weight: 145
 url: /java/com.aspose.slides/customxmlpart/

@@ -1,9 +1,9 @@
 ---
 title: HtmlFormatter
 second_title: Aspose.Slides for Java API Reference
-description:  Represents HTML file template.
+description: Represents HTML file template.
 type: docs
-weight: 238
+weight: 239
 url: /java/com.aspose.slides/htmlformatter/
 ---
 **Inheritance:**

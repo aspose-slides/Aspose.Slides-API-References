@@ -1,9 +1,9 @@
 ---
 title: IReflection
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents a reflection effect.
+description: Represents a reflection effect.
 type: docs
-weight: 987
+weight: 988
 url: /androidjava/com.aspose.slides/ireflection/
 ---
 **All Implemented Interfaces:**

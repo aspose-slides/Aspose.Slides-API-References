@@ -1,9 +1,9 @@
 ---
 title: SaveOptionsFactory
 second_title: Aspose.Slides for Java API Reference
-description:  Allows to create save options instances
+description: Allows to create save options instances
 type: docs
-weight: 473
+weight: 474
 url: /java/com.aspose.slides/saveoptionsfactory/
 ---
 **Inheritance:**

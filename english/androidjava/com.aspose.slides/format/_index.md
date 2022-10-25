@@ -1,9 +1,9 @@
 ---
 title: Format
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents chart format properties.
+description: Represents chart format properties.
 type: docs
-weight: 214
+weight: 215
 url: /androidjava/com.aspose.slides/format/
 ---
 **Inheritance:**

@@ -1,9 +1,9 @@
 ---
 title: IVideo
 second_title: Aspose.Slides for Java API Reference
-description:  Represents a video embedded into a presentation.
+description: Represents a video embedded into a presentation.
 type: docs
-weight: 1096
+weight: 1097
 url: /java/com.aspose.slides/ivideo/
 ---```
 public interface IVideo
@@ -14,7 +14,7 @@ Represents a video embedded into a presentation.
 
 | Method | Description |
 | --- | --- |
-| [getContentType()](#getContentType--) | Returns a MIME type of an video, encoded in (\#getBinaryData). |
+| [getContentType()](#getContentType--) | Returns a MIME type of an video, encoded in (\#getBinaryData.getBinaryData). |
 | [getBinaryData()](#getBinaryData--) | Returns the copy of an audio's data. |
 | [getStream()](#getStream--) | Returns Stream stream for reading. |
 ### getContentType() {#getContentType--}
@@ -23,7 +23,7 @@ public abstract String getContentType()
 ```
 
 
-Returns a MIME type of an video, encoded in (\#getBinaryData). Read-only String.
+Returns a MIME type of an video, encoded in (\#getBinaryData.getBinaryData). Read-only String.
 
 **Returns:**
 java.lang.String
@@ -33,7 +33,7 @@ public abstract byte[] getBinaryData()
 ```
 
 
-Returns the copy of an audio's data. In case of large amount of data consider using of \#getStream method to prevent unnecessary loading of video's data into memory or even OutOfMemoryException. Read-only byte[].
+Returns the copy of an audio's data. In case of large amount of data consider using of \#getStream.getStream method to prevent unnecessary loading of video's data into memory or even OutOfMemoryException. Read-only byte[].
 
 **Returns:**
 byte[]

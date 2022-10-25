@@ -1,9 +1,9 @@
 ---
 title: Tint
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents a Tint effect.
+description: Represents a Tint effect.
 type: docs
-weight: 577
+weight: 578
 url: /androidjava/com.aspose.slides/tint/
 ---
 **Inheritance:**

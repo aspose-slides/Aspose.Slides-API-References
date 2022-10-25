@@ -1,7 +1,7 @@
 ---
 title: AlphaCeiling
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents an Alpha Ceiling effect.
+description: Represents an Alpha Ceiling effect.
 type: docs
 weight: 13
 url: /androidjava/com.aspose.slides/alphaceiling/

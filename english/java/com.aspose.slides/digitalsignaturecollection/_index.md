@@ -1,7 +1,7 @@
 ---
 title: DigitalSignatureCollection
 second_title: Aspose.Slides for Java API Reference
-description:  Represents a collection of digital signatures attached to a document.
+description: Represents a collection of digital signatures attached to a document.
 type: docs
 weight: 154
 url: /java/com.aspose.slides/digitalsignaturecollection/

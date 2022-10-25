@@ -1,7 +1,7 @@
 ---
 title: AxisFormat
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents chart format properties.
+description: Represents chart format properties.
 type: docs
 weight: 32
 url: /androidjava/com.aspose.slides/axisformat/

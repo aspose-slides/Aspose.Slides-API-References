@@ -1,9 +1,9 @@
 ---
 title: IParagraph
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents a paragraph of a text.
+description: Represents a paragraph of a text.
 type: docs
-weight: 950
+weight: 951
 url: /androidjava/com.aspose.slides/iparagraph/
 ---
 **All Implemented Interfaces:**

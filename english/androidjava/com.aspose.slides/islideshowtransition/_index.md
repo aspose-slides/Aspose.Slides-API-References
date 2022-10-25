@@ -1,9 +1,9 @@
 ---
 title: ISlideShowTransition
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents slide show transition.
+description: Represents slide show transition.
 type: docs
-weight: 1029
+weight: 1030
 url: /androidjava/com.aspose.slides/islideshowtransition/
 ---```
 public interface ISlideShowTransition
@@ -133,7 +133,7 @@ public abstract boolean getAdvanceAfter()
 ```
 
 
-This attribute specifies if the slideshow will move to the next slide after a certain time. Read/write \`\`\` boolean \`\`\`.
+This attribute specifies if the slideshow will move to the next slide after a certain time. Read/write  boolean .
 
 --------------------
 
@@ -162,7 +162,7 @@ public abstract void setAdvanceAfter(boolean value)
 ```
 
 
-This attribute specifies if the slideshow will move to the next slide after a certain time. Read/write \`\`\` boolean \`\`\`.
+This attribute specifies if the slideshow will move to the next slide after a certain time. Read/write  boolean .
 
 --------------------
 
@@ -296,7 +296,7 @@ public abstract String getSoundName()
 ```
 
 
-Specifies a human readable name for the sound of the transition. The (\#getSound/\#setSound(IAudio)) property must be assigned to get or set the sound name. Read-write String.
+Specifies a human readable name for the sound of the transition. The (\#getSound.getSound/\#setSound(IAudio).setSound(IAudio)) property must be assigned to get or set the sound name. Read-write String.
 
 **Returns:**
 java.lang.String
@@ -306,7 +306,7 @@ public abstract void setSoundName(String value)
 ```
 
 
-Specifies a human readable name for the sound of the transition. The (\#getSound/\#setSound(IAudio)) property must be assigned to get or set the sound name. Read-write String.
+Specifies a human readable name for the sound of the transition. The (\#getSound.getSound/\#setSound(IAudio).setSound(IAudio)) property must be assigned to get or set the sound name. Read-write String.
 
 **Parameters:**
 | Parameter | Type | Description |

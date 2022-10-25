@@ -1,7 +1,7 @@
 ---
 title: EmbedAllFontsHtmlController
 second_title: Aspose.Slides for Android via Java API Reference
-description:  The formatting controller class to use for embedding all presentation fonts in WOFF format.
+description: The formatting controller class to use for embedding all presentation fonts in WOFF format.
 type: docs
 weight: 175
 url: /androidjava/com.aspose.slides/embedallfontshtmlcontroller/

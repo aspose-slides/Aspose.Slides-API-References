@@ -1,9 +1,9 @@
 ---
 title: IBlurEffectiveData
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Immutable object which represents a Blur effect that is applied to the entire shape including its fill.
+description: Immutable object which represents a Blur effect that is applied to the entire shape including its fill.
 type: docs
-weight: 668
+weight: 669
 url: /androidjava/com.aspose.slides/iblureffectivedata/
 ---
 **All Implemented Interfaces:**

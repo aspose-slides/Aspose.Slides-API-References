@@ -1,9 +1,9 @@
 ---
 title: IMathParagraphFactory
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Allows to create a math paragraph
+description: Allows to create a math paragraph
 type: docs
-weight: 909
+weight: 910
 url: /androidjava/com.aspose.slides/imathparagraphfactory/
 ---```
 public interface IMathParagraphFactory

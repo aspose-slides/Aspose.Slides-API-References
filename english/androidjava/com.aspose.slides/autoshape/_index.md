@@ -1,7 +1,7 @@
 ---
 title: AutoShape
 second_title: Aspose.Slides for Android via Java API Reference
-description:   Represents an AutoShape.
+description: Represents an AutoShape.
 type: docs
 weight: 26
 url: /androidjava/com.aspose.slides/autoshape/

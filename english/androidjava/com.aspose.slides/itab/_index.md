@@ -1,9 +1,9 @@
 ---
 title: ITab
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents a tabulation for a text.
+description: Represents a tabulation for a text.
 type: docs
-weight: 1053
+weight: 1054
 url: /androidjava/com.aspose.slides/itab/
 ---
 **All Implemented Interfaces:**

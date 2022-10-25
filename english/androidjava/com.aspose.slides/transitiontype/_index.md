@@ -1,9 +1,9 @@
 ---
 title: TransitionType
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Represent slide show transition type.
+description: Represent slide show transition type.
 type: docs
-weight: 589
+weight: 590
 url: /androidjava/com.aspose.slides/transitiontype/
 ---
 **Inheritance:**
@@ -248,7 +248,7 @@ public static final int Zoom
 ```
 
 
-Relates to transition Shape (with options In/Out) in PowerPoint 2010. See also [TransitionType\#Warp](../../com.aspose.slides/transitiontype\#Warp) that relates to transition Zoom in PowerPoint 2010.
+Relates to transition Shape (with options In/Out) in PowerPoint 2010. See also [Warp](../../com.aspose.slides/transitiontype\#Warp) that relates to transition Zoom in PowerPoint 2010.
 
 ### Vortex {#Vortex}
 ```

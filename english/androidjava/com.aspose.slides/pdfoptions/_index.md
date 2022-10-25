@@ -1,9 +1,9 @@
 ---
 title: PdfOptions
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Provides options that control how a presentation is saved in Pdf format.
+description: Provides options that control how a presentation is saved in Pdf format.
 type: docs
-weight: 409
+weight: 410
 url: /androidjava/com.aspose.slides/pdfoptions/
 ---
 **Inheritance:**
@@ -107,7 +107,7 @@ Specifies compression type to be used for all textual content in the document. R
 
 --------------------
 
-Default is [PdfTextCompression\#Flate](../../com.aspose.slides/pdftextcompression\#Flate).
+Default is [PdfTextCompression.Flate](../../com.aspose.slides/pdftextcompression\#Flate).
 
 **Returns:**
 int
@@ -121,7 +121,7 @@ Specifies compression type to be used for all textual content in the document. R
 
 --------------------
 
-Default is [PdfTextCompression\#Flate](../../com.aspose.slides/pdftextcompression\#Flate).
+Default is [PdfTextCompression.Flate](../../com.aspose.slides/pdftextcompression\#Flate).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -301,7 +301,7 @@ Desired conformance level for generated PDF document. Read/write [PdfCompliance]
 
 --------------------
 
-Default is [PdfCompliance\#Pdf15](../../com.aspose.slides/pdfcompliance\#Pdf15).
+Default is [PdfCompliance.Pdf15](../../com.aspose.slides/pdfcompliance\#Pdf15).
 
 **Returns:**
 int
@@ -315,7 +315,7 @@ Desired conformance level for generated PDF document. Read/write [PdfCompliance]
 
 --------------------
 
-Default is [PdfCompliance\#Pdf15](../../com.aspose.slides/pdfcompliance\#Pdf15).
+Default is [PdfCompliance.Pdf15](../../com.aspose.slides/pdfcompliance\#Pdf15).
 
 **Parameters:**
 | Parameter | Type | Description |

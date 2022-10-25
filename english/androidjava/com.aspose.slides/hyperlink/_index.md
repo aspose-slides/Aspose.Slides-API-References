@@ -1,9 +1,9 @@
 ---
 title: Hyperlink
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents a hyperlink.
+description: Represents a hyperlink.
 type: docs
-weight: 241
+weight: 242
 url: /androidjava/com.aspose.slides/hyperlink/
 ---
 **Inheritance:**

@@ -1,9 +1,9 @@
 ---
 title: IShapeStyle
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Represent shapes style reference.
+description: Represent shapes style reference.
 type: docs
-weight: 1018
+weight: 1019
 url: /androidjava/com.aspose.slides/ishapestyle/
 ---```
 public interface IShapeStyle

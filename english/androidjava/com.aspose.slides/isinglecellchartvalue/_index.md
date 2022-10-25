@@ -1,9 +1,9 @@
 ---
 title: ISingleCellChartValue
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents a chart data cell.
+description: Represents a chart data cell.
 type: docs
-weight: 1021
+weight: 1022
 url: /androidjava/com.aspose.slides/isinglecellchartvalue/
 ---
 **All Implemented Interfaces:**

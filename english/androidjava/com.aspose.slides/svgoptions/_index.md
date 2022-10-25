@@ -1,9 +1,9 @@
 ---
 title: SVGOptions
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents an SVG options.
+description: Represents an SVG options.
 type: docs
-weight: 470
+weight: 471
 url: /androidjava/com.aspose.slides/svgoptions/
 ---
 **Inheritance:**
@@ -26,6 +26,10 @@ Represents an SVG options.
 
 | Method | Description |
 | --- | --- |
+| [getUseFrameSize()](#getUseFrameSize--) | Determines whether the text frame will be included in a rendering area or not. |
+| [setUseFrameSize(boolean value)](#setUseFrameSize-boolean-) | Determines whether the text frame will be included in a rendering area or not. |
+| [getUseFrameRotation()](#getUseFrameRotation--) | Determines whether to perform the specified rotation of the shape when rendering or not. |
+| [setUseFrameRotation(boolean value)](#setUseFrameRotation-boolean-) | Determines whether to perform the specified rotation of the shape when rendering or not. |
 | [getVectorizeText()](#getVectorizeText--) | Determines whether the text on a slide will be saved as graphics. |
 | [setVectorizeText(boolean value)](#setVectorizeText-boolean-) | Determines whether the text on a slide will be saved as graphics. |
 | [getMetafileRasterizationDpi()](#getMetafileRasterizationDpi--) | Returns or sets the lower resolution limit for metafile rasterization. |
@@ -73,6 +77,52 @@ Initializes a new instance of the SVGOptions class specifying the link embedding
 --------------------
 
 Link embedding controller is a delegate object that is responsible for making decisions if resources (such as images) need to be embedded or referenced as external resources. |
+
+### getUseFrameSize() {#getUseFrameSize--}
+```
+public final boolean getUseFrameSize()
+```
+
+
+Determines whether the text frame will be included in a rendering area or not. Read/write  boolean . Default value is false.
+
+**Returns:**
+boolean
+### setUseFrameSize(boolean value) {#setUseFrameSize-boolean-}
+```
+public final void setUseFrameSize(boolean value)
+```
+
+
+Determines whether the text frame will be included in a rendering area or not. Read/write  boolean . Default value is false.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
+### getUseFrameRotation() {#getUseFrameRotation--}
+```
+public final boolean getUseFrameRotation()
+```
+
+
+Determines whether to perform the specified rotation of the shape when rendering or not. Read/write  boolean . Default value is true.
+
+**Returns:**
+boolean
+### setUseFrameRotation(boolean value) {#setUseFrameRotation-boolean-}
+```
+public final void setUseFrameRotation(boolean value)
+```
+
+
+Determines whether to perform the specified rotation of the shape when rendering or not. Read/write  boolean . Default value is true.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
 
 ### getVectorizeText() {#getVectorizeText--}
 ```

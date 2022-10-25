@@ -1,9 +1,9 @@
 ---
 title: MathMatrix
 second_title: Aspose.Slides for Java API Reference
-description:  Specifies the Matrix object consisting of child elements laid out in one or more rows and columns.
+description: Specifies the Matrix object consisting of child elements laid out in one or more rows and columns.
 type: docs
-weight: 337
+weight: 338
 url: /java/com.aspose.slides/mathmatrix/
 ---
 **Inheritance:**

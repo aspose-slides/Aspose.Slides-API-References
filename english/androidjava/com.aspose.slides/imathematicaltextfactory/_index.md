@@ -1,9 +1,9 @@
 ---
 title: IMathematicalTextFactory
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Allows to create a MathematicalText element
+description: Allows to create a MathematicalText element
 type: docs
-weight: 920
+weight: 921
 url: /androidjava/com.aspose.slides/imathematicaltextfactory/
 ---```
 public interface IMathematicalTextFactory

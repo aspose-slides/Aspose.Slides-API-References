@@ -1,10 +1,9 @@
 ---
 title: IChartSeriesCollection
 second_title: Aspose.Slides for Java API Reference
-description:  Represents collection of  
- 
+description: Represents collection of
 type: docs
-weight: 698
+weight: 699
 url: /java/com.aspose.slides/ichartseriescollection/
 ---
 **All Implemented Interfaces:**
@@ -27,7 +26,7 @@ Represents collection of [IChartSeries](../../com.aspose.slides/ichartseries)
 | [indexOf(IChartSeries value)](#indexOf-com.aspose.slides.IChartSeries-) | Searches for the specified [IChartSeries](../../com.aspose.slides/ichartseries) and returns the zero-based index of the first occurrence within the entire Collection |
 | [remove(IChartSeries value)](#remove-com.aspose.slides.IChartSeries-) | Removes the specified value. |
 | [removeAt(int index)](#removeAt-int-) | Removes the element at the specified index |
-| [clear()](#clear--) | Removes all elements from the collection. |
+| [clear()](#clear--) | Removes all elements (including the chart style) from the collection. |
 ### get_Item(int index) {#get-Item-int-}
 ```
 public abstract IChartSeries get_Item(int index)
@@ -177,5 +176,5 @@ public abstract void clear()
 ```
 
 
-Removes all elements from the collection.
+Removes all elements (including the chart style) from the collection.
 

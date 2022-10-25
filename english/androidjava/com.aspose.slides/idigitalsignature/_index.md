@@ -1,9 +1,9 @@
 ---
 title: IDigitalSignature
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Digital signature in signed file.
+description: Digital signature in signed file.
 type: docs
-weight: 741
+weight: 742
 url: /androidjava/com.aspose.slides/idigitalsignature/
 ---```
 public interface IDigitalSignature

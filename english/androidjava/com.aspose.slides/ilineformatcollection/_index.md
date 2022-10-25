@@ -1,9 +1,9 @@
 ---
 title: ILineFormatCollection
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents the collection of line styles.
+description: Represents the collection of line styles.
 type: docs
-weight: 855
+weight: 856
 url: /androidjava/com.aspose.slides/ilineformatcollection/
 ---
 **All Implemented Interfaces:**

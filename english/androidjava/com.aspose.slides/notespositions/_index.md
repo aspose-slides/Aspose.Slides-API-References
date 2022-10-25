@@ -1,9 +1,9 @@
 ---
 title: NotesPositions
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents the rule to render notes into exported document
+description: Represents the rule to render notes into exported document
 type: docs
-weight: 373
+weight: 374
 url: /androidjava/com.aspose.slides/notespositions/
 ---
 **Inheritance:**

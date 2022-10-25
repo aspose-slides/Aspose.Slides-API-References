@@ -1,9 +1,9 @@
 ---
 title: TagCollection
 second_title: Aspose.Slides for Android via Java API Reference
-description:  Represents the collection of tags user defined pairs of strings
+description: Represents the collection of tags user defined pairs of strings
 type: docs
-weight: 548
+weight: 549
 url: /androidjava/com.aspose.slides/tagcollection/
 ---
 **Inheritance:**
