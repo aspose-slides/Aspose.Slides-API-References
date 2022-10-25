@@ -7,6 +7,8 @@ weight: 10
 url: /java/com.aspose.slides/
 ---
 
+Contains classes for work with Microsoft PowerPoint presentations without utilizing Microsoft PowerPoint.
+
 ## Classes
 
 | Class | Description |
