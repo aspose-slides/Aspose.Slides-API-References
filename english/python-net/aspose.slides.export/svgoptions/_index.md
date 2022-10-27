@@ -23,6 +23,8 @@ The SVGOptions type exposes the following members:
 |warning_callback|Returns of sets an object which receives warnings and decides whether loading process will continue or will be aborted.<br/>            Read/write [IWarningCallback](/slides/python-net/aspose.slides.warnings/iwarningcallback/).|
 |progress_callback|Represents a callback object for saving progress updates in percentage.<br/>            See [IProgressCallback](/slides/python-net/aspose.slides/iprogresscallback/).|
 |default_regular_font|Returns or sets font used in case source font is not found.<br/>            Read-write string.|
+|use_frame_size|Determines whether the text frame will be included in a rendering area or not.<br/>            Read/write bool.<br/>            Default value is false.|
+|use_frame_rotation|Determines whether to perform the specified rotation of the shape when rendering or not.<br/>            Read/write bool.<br/>            Default value is true.|
 |vectorize_text|Determines whether the text on a slide will be saved as graphics.<br/>            Read/write bool.|
 |metafile_rasterization_dpi|Returns or sets the lower resolution limit for metafile rasterization.<br/>            Read/write|
 |disable_3d_text|Determines whether the 3D text is disabled in SVG.<br/>            Read/write bool.|

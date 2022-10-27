@@ -17,6 +17,7 @@ The Compress type exposes the following members:
 | :- | :- |
 |remove_unused_master_slides(pres)|Makes compression of the [Presentation](/slides/python-net/aspose.slides/presentation/) by removing unused master slides.|
 |remove_unused_layout_slides(pres)|Makes compression of the [Presentation](/slides/python-net/aspose.slides/presentation/) by removing unused layout slides.|
+|compress_embedded_fonts(pres)|Makes compression of the [Presentation](/slides/python-net/aspose.slides/presentation/) by removing unused characters from embedded fonts.|
 
 ### See Also
 
