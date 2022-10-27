@@ -24,6 +24,8 @@ The ISVGOptions type exposes the following members:
 |shape_formatting_controller|Returns and sets a callback interface which allows user to control shape conversion.<br/>            Read/write [ISvgShapeFormattingController](/slides/python-net/aspose.slides.export/isvgshapeformattingcontroller/).|
 |pictures_compression|Represents the pictures compression level<br/>            Read/write [pictures_compression](/slides/python-net/aspose.slides.export/isvgoptions/).|
 |delete_pictures_cropped_areas|A boolean flag indicates if the cropped parts remain as part of the document. If true the cropped <br/>            parts will removed, if false they will be serialized in the document (which can possible lead to a <br/>            larger file)<br/>            Read/write bool.|
+|use_frame_size|Determines whether the text frame will be included in a rendering area or not.<br/>            Read/write bool.<br/>            Default value is false.|
+|use_frame_rotation|Determines whether to perform the specified rotation of the shape when rendering or not.<br/>            Read/write bool.<br/>            Default value is true.|
 |external_fonts_handling|Determines a way of handling externally loaded fonts.<br/>            Read/write [SvgExternalFontsHandling](/slides/python-net/aspose.slides.export/svgexternalfontshandling/).|
 |as_i_save_options|Returns ISaveOptions interface.<br/>            Read-only [ISaveOptions](/slides/python-net/aspose.slides.export/isaveoptions/).|
 |warning_callback|Returns or sets an object which receives warnings and decides whether loading process will continue or will be aborted.<br/>            Read/write [IWarningCallback](/slides/python-net/aspose.slides.warnings/iwarningcallback/).|
