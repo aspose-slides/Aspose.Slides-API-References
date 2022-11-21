@@ -3,7 +3,7 @@ title: MathAccentFactory
 second_title: Aspose.Sildes for .NET API Reference
 description: Allows to create a math accent
 type: docs
-weight: 7850
+weight: 7900
 url: /net/aspose.slides.mathtext/mathaccentfactory/
 ---
 ## MathAccentFactory class

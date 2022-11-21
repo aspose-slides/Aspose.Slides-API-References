@@ -3,7 +3,7 @@ title: ILinkEmbedController
 second_title: Aspose.Sildes for .NET API Reference
 description: Callback interface used to determine how object should be processed during saving.
 type: docs
-weight: 3680
+weight: 3690
 url: /net/aspose.slides.export/ilinkembedcontroller/
 ---
 ## ILinkEmbedController interface

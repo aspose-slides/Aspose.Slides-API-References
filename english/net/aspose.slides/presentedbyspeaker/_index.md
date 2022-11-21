@@ -3,7 +3,7 @@ title: PresentedBySpeaker
 second_title: Aspose.Sildes for .NET API Reference
 description: Presented by a speaker full screen
 type: docs
-weight: 8950
+weight: 9000
 url: /net/aspose.slides/presentedbyspeaker/
 ---
 ## PresentedBySpeaker class

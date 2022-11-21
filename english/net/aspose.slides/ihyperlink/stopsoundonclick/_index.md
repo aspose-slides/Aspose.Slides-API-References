@@ -3,7 +3,7 @@ title: StopSoundOnClick
 second_title: Aspose.Sildes for .NET API Reference
 description: Determines whether the sound should be stopped on hyperlink click. Read/write Boolean.
 type: docs
-weight: 60
+weight: 70
 url: /net/aspose.slides/ihyperlink/stopsoundonclick/
 ---
 ## IHyperlink.StopSoundOnClick property

@@ -3,7 +3,7 @@ title: ObjectProgId
 second_title: Aspose.Sildes for .NET API Reference
 description: Returns the ProgID of an object. Read only String.
 type: docs
-weight: 100
+weight: 110
 url: /net/aspose.slides/oleobjectframe/objectprogid/
 ---
 ## OleObjectFrame.ObjectProgId property

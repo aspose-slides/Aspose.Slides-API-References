@@ -3,7 +3,7 @@ title: CellCircularReferenceException
 second_title: Aspose.Sildes for .NET API Reference
 description: The exception that is thrown when one or more circular references are detected where a formula refers to its own cell either directly or indirectly.
 type: docs
-weight: 9950
+weight: 10000
 url: /net/aspose.slides.spreadsheet/cellcircularreferenceexception/
 ---
 ## CellCircularReferenceException class

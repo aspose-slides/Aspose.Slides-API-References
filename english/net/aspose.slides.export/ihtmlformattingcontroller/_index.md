@@ -3,7 +3,7 @@ title: IHtmlFormattingController
 second_title: Aspose.Sildes for .NET API Reference
 description: Controls a html file generation.
 type: docs
-weight: 3650
+weight: 3660
 url: /net/aspose.slides.export/ihtmlformattingcontroller/
 ---
 ## IHtmlFormattingController interface
