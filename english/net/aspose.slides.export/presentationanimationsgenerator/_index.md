@@ -8,6 +8,8 @@ url: /net/aspose.slides.export/presentationanimationsgenerator/
 ---
 ## PresentationAnimationsGenerator class
 
+Represents a generator of the animations in the [`Presentation`](../../aspose.slides/presentation).
+
 ```csharp
 public class PresentationAnimationsGenerator : IDisposable
 ```
