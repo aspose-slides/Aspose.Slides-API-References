@@ -3,7 +3,7 @@ title: IHyperlink
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a hyperlink.
 type: docs
-weight: 5600
+weight: 5650
 url: /net/aspose.slides/ihyperlink/
 ---
 ## IHyperlink interface
@@ -23,6 +23,7 @@ public interface IHyperlink
 | [ExternalUrl](../../aspose.slides/ihyperlink/externalurl) { get; } | Specifies the external URL If this property become not null then property TargetSlide become null. Read-only String. |
 | [HighlightClick](../../aspose.slides/ihyperlink/highlightclick) { get; set; } | Determines whether the hyperlink should be highlighted on click. Read/write Boolean. |
 | [History](../../aspose.slides/ihyperlink/history) { get; set; } | Determines whether the target of the parent hyperlink shall be added to a list of viewed hyperlinks when it is invoked. Read/write Boolean. |
+| [Sound](../../aspose.slides/ihyperlink/sound) { get; set; } | Represents the playing sound of the hyperlink. Read/write [`IAudio`](../iaudio). |
 | [StopSoundOnClick](../../aspose.slides/ihyperlink/stopsoundonclick) { get; set; } | Determines whether the sound should be stopped on hyperlink click. Read/write Boolean. |
 | [TargetFrame](../../aspose.slides/ihyperlink/targetframe) { get; set; } | Returns the frame within the parent HTML frameset for the target of the parent hyperlink when one exists. Read/write String. |
 | [TargetSlide](../../aspose.slides/ihyperlink/targetslide) { get; } | If the HyperlinkEx targets specific slide returns this slide. If the property become not null then property ExternalUrl become null. Read-only [`ISlide`](../islide). |

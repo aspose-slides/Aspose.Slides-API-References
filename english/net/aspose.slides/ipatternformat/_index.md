@@ -3,7 +3,7 @@ title: IPatternFormat
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a pattern to fill a shape.
 type: docs
-weight: 6090
+weight: 6140
 url: /net/aspose.slides/ipatternformat/
 ---
 ## IPatternFormat interface

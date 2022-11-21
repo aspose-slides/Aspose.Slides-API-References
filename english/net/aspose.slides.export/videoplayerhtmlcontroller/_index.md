@@ -3,7 +3,7 @@ title: VideoPlayerHtmlController
 second_title: Aspose.Sildes for .NET API Reference
 description: This class allows export of video and audio files into a HTML
 type: docs
-weight: 4170
+weight: 4220
 url: /net/aspose.slides.export/videoplayerhtmlcontroller/
 ---
 ## VideoPlayerHtmlController class

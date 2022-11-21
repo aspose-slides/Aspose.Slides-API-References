@@ -3,7 +3,7 @@ title: ITheme
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a theme.
 type: docs
-weight: 10620
+weight: 10670
 url: /net/aspose.slides.theme/itheme/
 ---
 ## ITheme interface

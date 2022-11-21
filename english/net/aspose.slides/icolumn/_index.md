@@ -3,7 +3,7 @@ title: IColumn
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a column in a table.
 type: docs
-weight: 5050
+weight: 5100
 url: /net/aspose.slides/icolumn/
 ---
 ## IColumn interface

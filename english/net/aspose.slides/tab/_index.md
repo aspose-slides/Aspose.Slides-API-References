@@ -3,7 +3,7 @@ title: Tab
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a tabulation for a text.
 type: docs
-weight: 10070
+weight: 10120
 url: /net/aspose.slides/tab/
 ---
 ## Tab class

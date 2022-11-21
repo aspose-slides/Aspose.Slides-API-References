@@ -3,7 +3,7 @@ title: VbaModule
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents module that is contained in VBA project.
 type: docs
-weight: 10880
+weight: 10930
 url: /net/aspose.slides.vba/vbamodule/
 ---
 ## VbaModule class

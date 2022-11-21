@@ -3,7 +3,7 @@ title: ObjectName
 second_title: Aspose.Sildes for .NET API Reference
 description: Returns or sets the name of an object. Read/write String.
 type: docs
-weight: 90
+weight: 100
 url: /net/aspose.slides/oleobjectframe/objectname/
 ---
 ## OleObjectFrame.ObjectName property

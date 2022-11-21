@@ -3,7 +3,7 @@ title: WriteAsSvg
 second_title: Aspose.Sildes for .NET API Reference
 description: Saves content of Shape as SVG file.
 type: docs
-weight: 320
+weight: 330
 url: /net/aspose.slides/ishape/writeassvg/
 ---
 ## WriteAsSvg(Stream) {#writeassvg}

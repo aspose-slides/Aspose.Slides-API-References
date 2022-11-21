@@ -3,7 +3,7 @@ title: Hyperlink
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a hyperlink.
 type: docs
-weight: 4670
+weight: 4720
 url: /net/aspose.slides/hyperlink/
 ---
 ## Hyperlink class
@@ -40,6 +40,7 @@ public class Hyperlink : PVIObject, IHyperlink
 | [ExternalUrl](../../aspose.slides/hyperlink/externalurl) { get; } | Specifies the external URL. Read-only String. |
 | [HighlightClick](../../aspose.slides/hyperlink/highlightclick) { get; set; } | Determines whether the hyperlink should be highlighted on click. Read/write Boolean. |
 | [History](../../aspose.slides/hyperlink/history) { get; set; } | Determines whether the target of the parent hyperlink shall be added to a list of viewed hyperlinks when it is invoked. Read/write Boolean. |
+| [Sound](../../aspose.slides/hyperlink/sound) { get; set; } | Represents the playing sound of the hyperlink. Read/write [`IAudio`](../iaudio). |
 | [StopSoundOnClick](../../aspose.slides/hyperlink/stopsoundonclick) { get; set; } | Determines whether the sound should be stopped on hyperlink click. Read/write Boolean. |
 | [TargetFrame](../../aspose.slides/hyperlink/targetframe) { get; set; } | Returns the frame within the parent HTML frameset for the target of the parent hyperlink when one exists. Read/wite String. |
 | [TargetSlide](../../aspose.slides/hyperlink/targetslide) { get; } | If the Hyperlink targets specific slide returns this slide. Read-only [`ISlide`](../islide). |

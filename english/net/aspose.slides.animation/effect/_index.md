@@ -22,6 +22,7 @@ public class Effect : IEffect
 | [PresetClassType](../../aspose.slides.animation/effect/presetclasstype) { get; set; } | Defines class of effect. Read/write [`EffectPresetClassType`](../effectpresetclasstype). |
 | [Sequence](../../aspose.slides.animation/effect/sequence) { get; } | Returns a sequence for an effect. Read-only [`ISequence`](../isequence). |
 | [Sound](../../aspose.slides.animation/effect/sound) { get; set; } | Defined embedded sound for effect. Read/write [`IAudio`](../../aspose.slides/iaudio). |
+| [StopPreviousSound](../../aspose.slides.animation/effect/stopprevioussound) { get; set; } | This attribute specifies if the animation effect stops the previous sound. Read/write Boolean. |
 | [Subtype](../../aspose.slides.animation/effect/subtype) { get; set; } | Defines subtype of effect. Read/write [`EffectSubtype`](../effectsubtype). |
 | [TargetShape](../../aspose.slides.animation/effect/targetshape) { get; } | Returns target shape for effect. Read-only [`IShape`](../../aspose.slides/ishape). |
 | [TextAnimation](../../aspose.slides.animation/effect/textanimation) { get; } | TextAnimation Read-only [`ITextAnimation`](../itextanimation). |

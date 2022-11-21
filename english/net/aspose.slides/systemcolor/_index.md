@@ -3,7 +3,7 @@ title: SystemColor
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents predefined system colors.
 type: docs
-weight: 10060
+weight: 10110
 url: /net/aspose.slides/systemcolor/
 ---
 ## SystemColor enumeration

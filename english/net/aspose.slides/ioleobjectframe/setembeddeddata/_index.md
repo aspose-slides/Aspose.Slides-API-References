@@ -3,7 +3,7 @@ title: SetEmbeddedData
 second_title: Aspose.Sildes for .NET API Reference
 description: Sets information about OLE embedded data.
 type: docs
-weight: 140
+weight: 150
 url: /net/aspose.slides/ioleobjectframe/setembeddeddata/
 ---
 ## IOleObjectFrame.SetEmbeddedData method

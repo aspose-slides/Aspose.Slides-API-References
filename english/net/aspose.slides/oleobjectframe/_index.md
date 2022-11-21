@@ -3,7 +3,7 @@ title: OleObjectFrame
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents an OLE object on a slide.
 type: docs
-weight: 8530
+weight: 8580
 url: /net/aspose.slides/oleobjectframe/
 ---
 ## OleObjectFrame class
@@ -43,6 +43,7 @@ public class OleObjectFrame : GraphicalObject, IOleObjectFrame
 | virtual [LineFormat](../../aspose.slides/shape/lineformat) { get; } | Returns the LineFormat object that contains line formatting properties for a shape. Note: can return null for certain types of shapes which don't have line properties. Read-only [`ILineFormat`](../ilineformat). |
 | [LinkFileName](../../aspose.slides/oleobjectframe/linkfilename) { get; } | Returns the full path to a linked file. Short file name will be used. Read-only String. |
 | [LinkPathLong](../../aspose.slides/oleobjectframe/linkpathlong) { get; set; } | Returns the full path to a linked file. Long file name will be used. Read/write String. |
+| [LinkPathRelative](../../aspose.slides/oleobjectframe/linkpathrelative) { get; } | Returns the relative path to a linked file if present, otherwise returns an empty string. Readonly String. |
 | [Name](../../aspose.slides/shape/name) { get; set; } | Returns or sets the name of a shape. Must be not null. Use empty string value if needed. Read/write String. |
 | [ObjectName](../../aspose.slides/oleobjectframe/objectname) { get; set; } | Returns or sets the name of an object. Read/write String. |
 | [ObjectProgId](../../aspose.slides/oleobjectframe/objectprogid) { get; set; } | Returns the ProgID of an object. Read only String. |
@@ -69,6 +70,7 @@ public class OleObjectFrame : GraphicalObject, IOleObjectFrame
 | Name | Description |
 | --- | --- |
 | [AddPlaceholder](../../aspose.slides/shape/addplaceholder)(IPlaceholder) | Adds a new placeholder if there is no and sets placeholder properties to a specified one. |
+| [GetBasePlaceholder](../../aspose.slides/shape/getbaseplaceholder)() | Returns a basic placeholder shape (shape from the layout and/or master slide that the current shape is inherited from). A null is returned if the current shape is not inherited. |
 | [GetThumbnail](../../aspose.slides/shape/getthumbnail)() | Returns shape thumbnail. ShapeThumbnailBounds.Shape shape thumbnail bounds type is used by default. |
 | [GetThumbnail](../../aspose.slides/shape/getthumbnail)(ShapeThumbnailBounds, float, float) | Returns shape thumbnail. |
 | [RemovePlaceholder](../../aspose.slides/shape/removeplaceholder)() | Defines that this shape isn't a placeholder. |

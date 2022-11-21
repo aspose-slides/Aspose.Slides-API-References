@@ -18,7 +18,7 @@ public IAudio Sound { get; set; }
 
 ```csharp
 [C#]
-using (Presentation presentation = new Presentation(path + "demo.pptx"))
+using (Presentation presentation = new Presentation("demo.pptx"))
 {
     ISlide slide = presentation.Slides[0];
     

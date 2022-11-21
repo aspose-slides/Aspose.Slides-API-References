@@ -3,7 +3,7 @@ title: IPresentationInfo
 second_title: Aspose.Sildes for .NET API Reference
 description: Information about presentation file
 type: docs
-weight: 6260
+weight: 6310
 url: /net/aspose.slides/ipresentationinfo/
 ---
 ## IPresentationInfo interface

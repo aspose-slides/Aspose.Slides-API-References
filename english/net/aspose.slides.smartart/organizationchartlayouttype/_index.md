@@ -3,7 +3,7 @@ title: OrganizationChartLayoutType
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents formatting type the child nodes in an organization chart
 type: docs
-weight: 9840
+weight: 9890
 url: /net/aspose.slides.smartart/organizationchartlayouttype/
 ---
 ## OrganizationChartLayoutType enumeration

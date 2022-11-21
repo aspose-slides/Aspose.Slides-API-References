@@ -22,6 +22,7 @@ public interface IEffect
 | [PresetClassType](../../aspose.slides.animation/ieffect/presetclasstype) { get; set; } | Defines class of effect. Read/write [`EffectPresetClassType`](../effectpresetclasstype). |
 | [Sequence](../../aspose.slides.animation/ieffect/sequence) { get; } | Returns a sequence for an effect. Read-only [`ISequence`](../isequence). |
 | [Sound](../../aspose.slides.animation/ieffect/sound) { get; set; } | Defined embedded sound for effect. Read/write [`IAudio`](../../aspose.slides/iaudio). |
+| [StopPreviousSound](../../aspose.slides.animation/ieffect/stopprevioussound) { get; set; } | This attribute specifies if the animation effect stops the previous sound. Read/write Boolean. |
 | [Subtype](../../aspose.slides.animation/ieffect/subtype) { get; set; } | Defines subtype of effect. Read/write [`EffectSubtype`](../effectsubtype). |
 | [TargetShape](../../aspose.slides.animation/ieffect/targetshape) { get; } | Returns target shape for effect. Read-only [`IShape`](../../aspose.slides/ishape). |
 | [TextAnimation](../../aspose.slides.animation/ieffect/textanimation) { get; } | Returns text animation. Read-only [`ITextAnimation`](../itextanimation). |
