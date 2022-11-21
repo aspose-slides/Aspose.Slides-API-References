@@ -3,7 +3,7 @@ title: op_Inequality
 second_title: Aspose.Sildes for .NET API Reference
 description: Tests two hyperlinks for inequality.
 type: docs
-weight: 220
+weight: 230
 url: /net/aspose.slides/hyperlink/op_inequality/
 ---
 ## Hyperlink Inequality operator

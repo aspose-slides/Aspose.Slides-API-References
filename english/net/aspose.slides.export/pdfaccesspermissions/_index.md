@@ -3,7 +3,7 @@ title: PdfAccessPermissions
 second_title: Aspose.Sildes for .NET API Reference
 description: Contains a set of flags specifying which access permissions should be granted when the document is opened with user access.
 type: docs
-weight: 3930
+weight: 3950
 url: /net/aspose.slides.export/pdfaccesspermissions/
 ---
 ## PdfAccessPermissions enumeration

@@ -3,7 +3,7 @@ title: IMathLimit
 second_title: Aspose.Sildes for .NET API Reference
 description: Specifies the Limit object consisting of text on the baseline and reduced-size text immediately above or below it.
 type: docs
-weight: 7640
+weight: 7690
 url: /net/aspose.slides.mathtext/imathlimit/
 ---
 ## IMathLimit interface

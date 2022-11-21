@@ -3,7 +3,7 @@ title: GetThumbnail
 second_title: Aspose.Sildes for .NET API Reference
 description: Returns shape thumbnail. ShapeThumbnailBounds.Shape shape thumbnail bounds type is used by default.
 type: docs
-weight: 330
+weight: 340
 url: /net/aspose.slides/shape/getthumbnail/
 ---
 ## GetThumbnail() {#getthumbnail}

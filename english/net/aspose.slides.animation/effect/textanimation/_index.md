@@ -3,7 +3,7 @@ title: TextAnimation
 second_title: Aspose.Sildes for .NET API Reference
 description: TextAnimation Read-only ITextAnimationaspose.slides.animation/itextanimation.
 type: docs
-weight: 70
+weight: 80
 url: /net/aspose.slides.animation/effect/textanimation/
 ---
 ## Effect.TextAnimation property

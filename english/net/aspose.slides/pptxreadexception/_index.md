@@ -3,7 +3,7 @@ title: PptxReadException
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents an exception which thrown on presentation reading errors.
 type: docs
-weight: 8870
+weight: 8920
 url: /net/aspose.slides/pptxreadexception/
 ---
 ## PptxReadException class

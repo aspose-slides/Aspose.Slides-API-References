@@ -3,7 +3,7 @@ title: ILineFillFormat
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents properties for lines filling.
 type: docs
-weight: 5760
+weight: 5810
 url: /net/aspose.slides/ilinefillformat/
 ---
 ## ILineFillFormat interface

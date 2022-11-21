@@ -3,7 +3,7 @@ title: TransitionSpeed
 second_title: Aspose.Sildes for .NET API Reference
 description: Represent transition speed types.
 type: docs
-weight: 9690
+weight: 9740
 url: /net/aspose.slides.slideshow/transitionspeed/
 ---
 ## TransitionSpeed enumeration

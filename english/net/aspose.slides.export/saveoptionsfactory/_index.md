@@ -3,7 +3,7 @@ title: SaveOptionsFactory
 second_title: Aspose.Sildes for .NET API Reference
 description: Allows to create save options instances
 type: docs
-weight: 4050
+weight: 4100
 url: /net/aspose.slides.export/saveoptionsfactory/
 ---
 ## SaveOptionsFactory class

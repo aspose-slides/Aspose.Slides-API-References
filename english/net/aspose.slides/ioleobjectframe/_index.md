@@ -3,7 +3,7 @@ title: IOleObjectFrame
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents an OLE object on a slide.
 type: docs
-weight: 6010
+weight: 6060
 url: /net/aspose.slides/ioleobjectframe/
 ---
 ## IOleObjectFrame interface
@@ -26,6 +26,7 @@ public interface IOleObjectFrame : IGraphicalObject
 | [IsObjectLink](../../aspose.slides/ioleobjectframe/isobjectlink) { get; } | Determines whether an object is linked to external file. Read-only Boolean. |
 | [LinkFileName](../../aspose.slides/ioleobjectframe/linkfilename) { get; } | Returns the full path to a linked file. Short file name will be used. Read-only String. |
 | [LinkPathLong](../../aspose.slides/ioleobjectframe/linkpathlong) { get; set; } | Returns the full path to a linked file. Long file name will be used. Read/write String. |
+| [LinkPathRelative](../../aspose.slides/ioleobjectframe/linkpathrelative) { get; } | Returns the relative path to a linked file if present, otherwise returns an empty string. Readonly String. |
 | [ObjectName](../../aspose.slides/ioleobjectframe/objectname) { get; set; } | Returns or sets the name of an object. Read/write String. |
 | [ObjectProgId](../../aspose.slides/ioleobjectframe/objectprogid) { get; set; } | Returns the ProgID of an object. Read olny String. |
 | [SubstitutePictureFormat](../../aspose.slides/ioleobjectframe/substitutepictureformat) { get; } | Returns OleObject image fill properties object. Read-only [`IPictureFillFormat`](../ipicturefillformat). |

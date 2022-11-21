@@ -3,7 +3,7 @@ title: SubstitutePictureFormat
 second_title: Aspose.Sildes for .NET API Reference
 description: Returns OleObject image fill properties object. Read-only IPictureFillFormataspose.slides/ipicturefillformat.
 type: docs
-weight: 110
+weight: 120
 url: /net/aspose.slides/ioleobjectframe/substitutepictureformat/
 ---
 ## IOleObjectFrame.SubstitutePictureFormat property
