@@ -3,7 +3,7 @@ title: ProtectionManager
 second_title: Aspose.Slides for Android via Java API Reference
 description: Presentation password protection management.
 type: docs
-weight: 456
+weight: 459
 url: /androidjava/com.aspose.slides/protectionmanager/
 ---
 **Inheritance:**

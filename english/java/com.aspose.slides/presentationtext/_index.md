@@ -3,7 +3,7 @@ title: PresentationText
 second_title: Aspose.Slides for Java API Reference
 description: Represents the text extracted from the presentation
 type: docs
-weight: 448
+weight: 451
 url: /java/com.aspose.slides/presentationtext/
 ---
 **Inheritance:**

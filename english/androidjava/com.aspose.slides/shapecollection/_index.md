@@ -3,7 +3,7 @@ title: ShapeCollection
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a collection of a shapes.
 type: docs
-weight: 486
+weight: 489
 url: /androidjava/com.aspose.slides/shapecollection/
 ---
 **Inheritance:**

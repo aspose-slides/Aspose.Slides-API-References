@@ -3,7 +3,7 @@ title: MotionCmdPath
 second_title: Aspose.Slides for Java API Reference
 description: Represent one command of a path.
 type: docs
-weight: 364
+weight: 365
 url: /java/com.aspose.slides/motioncmdpath/
 ---
 **Inheritance:**

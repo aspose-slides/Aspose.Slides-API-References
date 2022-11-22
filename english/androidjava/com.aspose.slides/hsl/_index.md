@@ -3,7 +3,7 @@ title: HSL
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a Hue/Saturation/Luminance effect.
 type: docs
-weight: 236
+weight: 237
 url: /androidjava/com.aspose.slides/hsl/
 ---
 **Inheritance:**

@@ -3,7 +3,7 @@ title: TransitionSpeed
 second_title: Aspose.Slides for Java API Reference
 description: Represent transition speed types.
 type: docs
-weight: 589
+weight: 592
 url: /java/com.aspose.slides/transitionspeed/
 ---
 **Inheritance:**

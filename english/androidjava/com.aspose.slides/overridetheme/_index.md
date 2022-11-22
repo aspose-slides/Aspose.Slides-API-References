@@ -3,7 +3,7 @@ title: OverrideTheme
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a overriding theme.
 type: docs
-weight: 395
+weight: 396
 url: /androidjava/com.aspose.slides/overridetheme/
 ---
 **Inheritance:**

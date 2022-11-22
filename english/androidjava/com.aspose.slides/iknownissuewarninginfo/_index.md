@@ -3,7 +3,7 @@ title: IKnownIssueWarningInfo
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a warning about known issue which wont be fixed in the near future.
 type: docs
-weight: 840
+weight: 843
 url: /androidjava/com.aspose.slides/iknownissuewarninginfo/
 ---
 **All Implemented Interfaces:**

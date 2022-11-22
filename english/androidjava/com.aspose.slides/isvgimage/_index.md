@@ -3,7 +3,7 @@ title: ISvgImage
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents an SVG image.
 type: docs
-weight: 1048
+weight: 1052
 url: /androidjava/com.aspose.slides/isvgimage/
 ---```
 public interface ISvgImage

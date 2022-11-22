@@ -3,7 +3,7 @@ title: IGrayScale
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents IImageTransformOperation interface.
 type: docs
-weight: 813
+weight: 816
 url: /androidjava/com.aspose.slides/igrayscale/
 ---
 **All Implemented Interfaces:**

@@ -7,19 +7,6 @@ weight: 60
 url: /php-java/commandeffect/setshapetarget/
 ---
 
-## setShapeTarget([Connector](../../connector) value)  method
-
- Defines shape target of command effect.
- Read/write  IShape.
- 
-
-### Returns
-void
-
-
----
-
-
 ## setShapeTarget([GraphicalObject](../../graphicalobject) value)  method
 
  Defines shape target of command effect.
@@ -33,7 +20,7 @@ void
 ---
 
 
-## setShapeTarget([SmartArtShape](../../smartartshape) value)  method
+## setShapeTarget([Connector](../../connector) value)  method
 
  Defines shape target of command effect.
  Read/write  IShape.
@@ -47,6 +34,19 @@ void
 
 
 ## setShapeTarget([Table](../../table) value)  method
+
+ Defines shape target of command effect.
+ Read/write  IShape.
+ 
+
+### Returns
+void
+
+
+---
+
+
+## setShapeTarget([SmartArtShape](../../smartartshape) value)  method
 
  Defines shape target of command effect.
  Read/write  IShape.
@@ -98,7 +98,7 @@ void
 ---
 
 
-## setShapeTarget([SummaryZoomSection](../../summaryzoomsection) value)  method
+## setShapeTarget([ZoomFrame](../../zoomframe) value)  method
 
  Defines shape target of command effect.
  Read/write  IShape.
@@ -111,7 +111,7 @@ void
 ---
 
 
-## setShapeTarget([ZoomFrame](../../zoomframe) value)  method
+## setShapeTarget([SummaryZoomSection](../../summaryzoomsection) value)  method
 
  Defines shape target of command effect.
  Read/write  IShape.
@@ -189,19 +189,6 @@ void
 ---
 
 
-## setShapeTarget([SectionZoomFrame](../../sectionzoomframe) value)  method
-
- Defines shape target of command effect.
- Read/write  IShape.
- 
-
-### Returns
-void
-
-
----
-
-
 ## setShapeTarget([PictureFrame](../../pictureframe) value)  method
 
  Defines shape target of command effect.
@@ -215,7 +202,7 @@ void
 ---
 
 
-## setShapeTarget([AudioFrame](../../audioframe) value)  method
+## setShapeTarget([SectionZoomFrame](../../sectionzoomframe) value)  method
 
  Defines shape target of command effect.
  Read/write  IShape.
@@ -241,7 +228,7 @@ void
 ---
 
 
-## setShapeTarget([ZoomObject](../../zoomobject) value)  method
+## setShapeTarget([AudioFrame](../../audioframe) value)  method
 
  Defines shape target of command effect.
  Read/write  IShape.
@@ -255,6 +242,19 @@ void
 
 
 ## setShapeTarget([LegacyDiagram](../../legacydiagram) value)  method
+
+ Defines shape target of command effect.
+ Read/write  IShape.
+ 
+
+### Returns
+void
+
+
+---
+
+
+## setShapeTarget([ZoomObject](../../zoomobject) value)  method
 
  Defines shape target of command effect.
  Read/write  IShape.

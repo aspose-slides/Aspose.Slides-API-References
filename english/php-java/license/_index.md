@@ -17,8 +17,24 @@ Provides methods to license the component.
  
 
 ```php
-$license = new License();
-$license->setLicense("MyLicense.lic");
+  $example;
+  $an;
+  $be;
+  $find;
+  $file;
+  $in;
+  $that;
+  $component;
+  $in;
+  $that;
+  $calling;
+  $in;
+  $of;
+  $assembly;
+  $in;
+  $resources;
+  $calling;
+  $assembly = $$missing$;
 ```
 
 ## Constructors
@@ -33,6 +49,6 @@ $license->setLicense("MyLicense.lic");
 | --- | --- |
 | [getVersion](getversion)() | Returns version of Aspose.Slides for Java. |
 | [isLicensed](islicensed)() |  |
-| [resetLicense](resetlicense)() | Reset the license Use this method to reset license in component $license = new License(); $license->resetLicense(); |
+| [resetLicense](resetlicense)() | Reset the license Use this method to reset license in component License license = new License(); license.resetLicense(); |
 | [setLicense](setlicense)(InputStream) | Licenses the component. In this example, an attempt will be made to find a license file named MyLicense.lic in the folder that contains the component, in the folder that contains the calling assembly, in the folder of the entry assembly and then in the embedded resources of the calling assembly. |
 | [setLicense](setlicense)(String) | Licenses the component. In this example, an attempt will be made to find a license file named MyLicense.lic in the folder that contains the component, in the folder that contains the calling assembly, in the folder of the entry assembly and then in the embedded resources of the calling assembly. |

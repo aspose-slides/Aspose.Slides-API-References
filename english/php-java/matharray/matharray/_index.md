@@ -147,26 +147,6 @@ Example:
 ---
 
 
-## MathArray([MathAccent](../../mathaccent) element)  constructor
-
- Creates a mathematical array and places the specified element in it
- 
-Example:
- 
-```php
-  $mathArray = new MathArray(new MathematicalText("item1"));
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathAccent](../../mathaccent) | The element to place in the array |
-
-
----
-
-
 ## MathArray([MathNaryOperator](../../mathnaryoperator) element)  constructor
 
  Creates a mathematical array and places the specified element in it
@@ -182,6 +162,26 @@ Example:
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathNaryOperator](../../mathnaryoperator) | The element to place in the array |
+
+
+---
+
+
+## MathArray([MathAccent](../../mathaccent) element)  constructor
+
+ Creates a mathematical array and places the specified element in it
+ 
+Example:
+ 
+```php
+  $mathArray = new MathArray(new MathematicalText("item1"));
+```
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathAccent](../../mathaccent) | The element to place in the array |
 
 
 ---
@@ -247,26 +247,6 @@ Example:
 ---
 
 
-## MathArray([MathFunction](../../mathfunction) element)  constructor
-
- Creates a mathematical array and places the specified element in it
- 
-Example:
- 
-```php
-  $mathArray = new MathArray(new MathematicalText("item1"));
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathFunction](../../mathfunction) | The element to place in the array |
-
-
----
-
-
 ## MathArray([MathSubscriptElement](../../mathsubscriptelement) element)  constructor
 
  Creates a mathematical array and places the specified element in it
@@ -282,6 +262,26 @@ Example:
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathSubscriptElement](../../mathsubscriptelement) | The element to place in the array |
+
+
+---
+
+
+## MathArray([MathFunction](../../mathfunction) element)  constructor
+
+ Creates a mathematical array and places the specified element in it
+ 
+Example:
+ 
+```php
+  $mathArray = new MathArray(new MathematicalText("item1"));
+```
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathFunction](../../mathfunction) | The element to place in the array |
 
 
 ---
@@ -307,26 +307,6 @@ Example:
 ---
 
 
-## MathArray([MathFraction](../../mathfraction) element)  constructor
-
- Creates a mathematical array and places the specified element in it
- 
-Example:
- 
-```php
-  $mathArray = new MathArray(new MathematicalText("item1"));
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathFraction](../../mathfraction) | The element to place in the array |
-
-
----
-
-
 ## MathArray([MathematicalText](../../mathematicaltext) element)  constructor
 
  Creates a mathematical array and places the specified element in it
@@ -342,6 +322,26 @@ Example:
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathematicalText](../../mathematicaltext) | The element to place in the array |
+
+
+---
+
+
+## MathArray([MathFraction](../../mathfraction) element)  constructor
+
+ Creates a mathematical array and places the specified element in it
+ 
+Example:
+ 
+```php
+  $mathArray = new MathArray(new MathematicalText("item1"));
+```
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathFraction](../../mathfraction) | The element to place in the array |
 
 
 ---

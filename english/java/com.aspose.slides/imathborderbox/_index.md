@@ -3,7 +3,7 @@ title: IMathBorderBox
 second_title: Aspose.Slides for Java API Reference
 description: Draws a rectangular or some other border around the IMathElement.
 type: docs
-weight: 887
+weight: 890
 url: /java/com.aspose.slides/imathborderbox/
 ---
 **All Implemented Interfaces:**

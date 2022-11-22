@@ -133,24 +133,6 @@ url: /php-java/mathborderboxfactory/createmathborderbox/
 ---
 
 
-## createMathBorderBox([MathAccent](../../mathaccent) element)  method
-
- Create a math border box by applying to the element
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathAccent](../../mathaccent) | math element to apply border box |
-
-### Returns
-[MathBorderBox](../../mathborderbox)
-
-
----
-
-
 ## createMathBorderBox([MathNaryOperator](../../mathnaryoperator) element)  method
 
  Create a math border box by applying to the element
@@ -161,6 +143,24 @@ url: /php-java/mathborderboxfactory/createmathborderbox/
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathNaryOperator](../../mathnaryoperator) | math element to apply border box |
+
+### Returns
+[MathBorderBox](../../mathborderbox)
+
+
+---
+
+
+## createMathBorderBox([MathAccent](../../mathaccent) element)  method
+
+ Create a math border box by applying to the element
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathAccent](../../mathaccent) | math element to apply border box |
 
 ### Returns
 [MathBorderBox](../../mathborderbox)
@@ -223,24 +223,6 @@ url: /php-java/mathborderboxfactory/createmathborderbox/
 ---
 
 
-## createMathBorderBox([MathFunction](../../mathfunction) element)  method
-
- Create a math border box by applying to the element
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathFunction](../../mathfunction) | math element to apply border box |
-
-### Returns
-[MathBorderBox](../../mathborderbox)
-
-
----
-
-
 ## createMathBorderBox([MathSubscriptElement](../../mathsubscriptelement) element)  method
 
  Create a math border box by applying to the element
@@ -251,6 +233,24 @@ url: /php-java/mathborderboxfactory/createmathborderbox/
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathSubscriptElement](../../mathsubscriptelement) | math element to apply border box |
+
+### Returns
+[MathBorderBox](../../mathborderbox)
+
+
+---
+
+
+## createMathBorderBox([MathFunction](../../mathfunction) element)  method
+
+ Create a math border box by applying to the element
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathFunction](../../mathfunction) | math element to apply border box |
 
 ### Returns
 [MathBorderBox](../../mathborderbox)
@@ -277,24 +277,6 @@ url: /php-java/mathborderboxfactory/createmathborderbox/
 ---
 
 
-## createMathBorderBox([MathFraction](../../mathfraction) element)  method
-
- Create a math border box by applying to the element
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathFraction](../../mathfraction) | math element to apply border box |
-
-### Returns
-[MathBorderBox](../../mathborderbox)
-
-
----
-
-
 ## createMathBorderBox([MathematicalText](../../mathematicaltext) element)  method
 
  Create a math border box by applying to the element
@@ -305,6 +287,24 @@ url: /php-java/mathborderboxfactory/createmathborderbox/
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathematicalText](../../mathematicaltext) | math element to apply border box |
+
+### Returns
+[MathBorderBox](../../mathborderbox)
+
+
+---
+
+
+## createMathBorderBox([MathFraction](../../mathfraction) element)  method
+
+ Create a math border box by applying to the element
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathFraction](../../mathfraction) | math element to apply border box |
 
 ### Returns
 [MathBorderBox](../../mathborderbox)
@@ -531,7 +531,7 @@ url: /php-java/mathborderboxfactory/createmathborderbox/
 ---
 
 
-## createMathBorderBox([MathAccent](../../mathaccent) element, boolean hideTop, boolean hideBottom, boolean hideLeft, boolean hideRight, boolean strikethroughHorizontal, boolean strikethroughVertical, boolean strikethroughBottomLeftToTopRight, boolean strikethroughTopLeftToBottomRight)  method
+## createMathBorderBox([MathNaryOperator](../../mathnaryoperator) element, boolean hideTop, boolean hideBottom, boolean hideLeft, boolean hideRight, boolean strikethroughHorizontal, boolean strikethroughVertical, boolean strikethroughBottomLeftToTopRight, boolean strikethroughTopLeftToBottomRight)  method
 
  Create a math border box by applying to the element
  
@@ -540,7 +540,7 @@ url: /php-java/mathborderboxfactory/createmathborderbox/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathAccent](../mathaccent) | math element to apply border box |
+| element | [MathNaryOperator](../mathnaryoperator) | math element to apply border box |
 | hideTop | boolean | Hide Top Edge |
 | hideBottom | boolean | Hide Bottom Edge |
 | hideLeft | boolean | Hide Left Edge |
@@ -557,7 +557,7 @@ url: /php-java/mathborderboxfactory/createmathborderbox/
 ---
 
 
-## createMathBorderBox([MathNaryOperator](../../mathnaryoperator) element, boolean hideTop, boolean hideBottom, boolean hideLeft, boolean hideRight, boolean strikethroughHorizontal, boolean strikethroughVertical, boolean strikethroughBottomLeftToTopRight, boolean strikethroughTopLeftToBottomRight)  method
+## createMathBorderBox([MathAccent](../../mathaccent) element, boolean hideTop, boolean hideBottom, boolean hideLeft, boolean hideRight, boolean strikethroughHorizontal, boolean strikethroughVertical, boolean strikethroughBottomLeftToTopRight, boolean strikethroughTopLeftToBottomRight)  method
 
  Create a math border box by applying to the element
  
@@ -566,7 +566,7 @@ url: /php-java/mathborderboxfactory/createmathborderbox/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathNaryOperator](../mathnaryoperator) | math element to apply border box |
+| element | [MathAccent](../mathaccent) | math element to apply border box |
 | hideTop | boolean | Hide Top Edge |
 | hideBottom | boolean | Hide Bottom Edge |
 | hideLeft | boolean | Hide Left Edge |
@@ -661,7 +661,7 @@ url: /php-java/mathborderboxfactory/createmathborderbox/
 ---
 
 
-## createMathBorderBox([MathFunction](../../mathfunction) element, boolean hideTop, boolean hideBottom, boolean hideLeft, boolean hideRight, boolean strikethroughHorizontal, boolean strikethroughVertical, boolean strikethroughBottomLeftToTopRight, boolean strikethroughTopLeftToBottomRight)  method
+## createMathBorderBox([MathSubscriptElement](../../mathsubscriptelement) element, boolean hideTop, boolean hideBottom, boolean hideLeft, boolean hideRight, boolean strikethroughHorizontal, boolean strikethroughVertical, boolean strikethroughBottomLeftToTopRight, boolean strikethroughTopLeftToBottomRight)  method
 
  Create a math border box by applying to the element
  
@@ -670,7 +670,7 @@ url: /php-java/mathborderboxfactory/createmathborderbox/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathFunction](../mathfunction) | math element to apply border box |
+| element | [MathSubscriptElement](../mathsubscriptelement) | math element to apply border box |
 | hideTop | boolean | Hide Top Edge |
 | hideBottom | boolean | Hide Bottom Edge |
 | hideLeft | boolean | Hide Left Edge |
@@ -687,7 +687,7 @@ url: /php-java/mathborderboxfactory/createmathborderbox/
 ---
 
 
-## createMathBorderBox([MathSubscriptElement](../../mathsubscriptelement) element, boolean hideTop, boolean hideBottom, boolean hideLeft, boolean hideRight, boolean strikethroughHorizontal, boolean strikethroughVertical, boolean strikethroughBottomLeftToTopRight, boolean strikethroughTopLeftToBottomRight)  method
+## createMathBorderBox([MathFunction](../../mathfunction) element, boolean hideTop, boolean hideBottom, boolean hideLeft, boolean hideRight, boolean strikethroughHorizontal, boolean strikethroughVertical, boolean strikethroughBottomLeftToTopRight, boolean strikethroughTopLeftToBottomRight)  method
 
  Create a math border box by applying to the element
  
@@ -696,7 +696,7 @@ url: /php-java/mathborderboxfactory/createmathborderbox/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathSubscriptElement](../mathsubscriptelement) | math element to apply border box |
+| element | [MathFunction](../mathfunction) | math element to apply border box |
 | hideTop | boolean | Hide Top Edge |
 | hideBottom | boolean | Hide Bottom Edge |
 | hideLeft | boolean | Hide Left Edge |
@@ -739,7 +739,7 @@ url: /php-java/mathborderboxfactory/createmathborderbox/
 ---
 
 
-## createMathBorderBox([MathFraction](../../mathfraction) element, boolean hideTop, boolean hideBottom, boolean hideLeft, boolean hideRight, boolean strikethroughHorizontal, boolean strikethroughVertical, boolean strikethroughBottomLeftToTopRight, boolean strikethroughTopLeftToBottomRight)  method
+## createMathBorderBox([MathematicalText](../../mathematicaltext) element, boolean hideTop, boolean hideBottom, boolean hideLeft, boolean hideRight, boolean strikethroughHorizontal, boolean strikethroughVertical, boolean strikethroughBottomLeftToTopRight, boolean strikethroughTopLeftToBottomRight)  method
 
  Create a math border box by applying to the element
  
@@ -748,7 +748,7 @@ url: /php-java/mathborderboxfactory/createmathborderbox/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathFraction](../mathfraction) | math element to apply border box |
+| element | [MathematicalText](../mathematicaltext) | math element to apply border box |
 | hideTop | boolean | Hide Top Edge |
 | hideBottom | boolean | Hide Bottom Edge |
 | hideLeft | boolean | Hide Left Edge |
@@ -765,7 +765,7 @@ url: /php-java/mathborderboxfactory/createmathborderbox/
 ---
 
 
-## createMathBorderBox([MathematicalText](../../mathematicaltext) element, boolean hideTop, boolean hideBottom, boolean hideLeft, boolean hideRight, boolean strikethroughHorizontal, boolean strikethroughVertical, boolean strikethroughBottomLeftToTopRight, boolean strikethroughTopLeftToBottomRight)  method
+## createMathBorderBox([MathFraction](../../mathfraction) element, boolean hideTop, boolean hideBottom, boolean hideLeft, boolean hideRight, boolean strikethroughHorizontal, boolean strikethroughVertical, boolean strikethroughBottomLeftToTopRight, boolean strikethroughTopLeftToBottomRight)  method
 
  Create a math border box by applying to the element
  
@@ -774,7 +774,7 @@ url: /php-java/mathborderboxfactory/createmathborderbox/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathematicalText](../mathematicaltext) | math element to apply border box |
+| element | [MathFraction](../mathfraction) | math element to apply border box |
 | hideTop | boolean | Hide Top Edge |
 | hideBottom | boolean | Hide Bottom Edge |
 | hideLeft | boolean | Hide Left Edge |

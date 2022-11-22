@@ -119,7 +119,7 @@ Example:
 ---
 
 
-## MathSuperscriptElement([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) baseArg, [MathAccent](../../mathaccent) superScript)  constructor
+## MathSuperscriptElement([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) baseArg, [MathNaryOperator](../../mathnaryoperator) superScript)  constructor
 
  Initializes a new instance of the MathSuperscriptElement class.
  
@@ -135,7 +135,7 @@ Example:
 ---
 
 
-## MathSuperscriptElement([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) baseArg, [MathNaryOperator](../../mathnaryoperator) superScript)  constructor
+## MathSuperscriptElement([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) baseArg, [MathAccent](../../mathaccent) superScript)  constructor
 
  Initializes a new instance of the MathSuperscriptElement class.
  
@@ -199,7 +199,7 @@ Example:
 ---
 
 
-## MathSuperscriptElement([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) baseArg, [MathFunction](../../mathfunction) superScript)  constructor
+## MathSuperscriptElement([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) baseArg, [MathSubscriptElement](../../mathsubscriptelement) superScript)  constructor
 
  Initializes a new instance of the MathSuperscriptElement class.
  
@@ -215,7 +215,7 @@ Example:
 ---
 
 
-## MathSuperscriptElement([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) baseArg, [MathSubscriptElement](../../mathsubscriptelement) superScript)  constructor
+## MathSuperscriptElement([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) baseArg, [MathFunction](../../mathfunction) superScript)  constructor
 
  Initializes a new instance of the MathSuperscriptElement class.
  
@@ -247,7 +247,7 @@ Example:
 ---
 
 
-## MathSuperscriptElement([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) baseArg, [MathFraction](../../mathfraction) superScript)  constructor
+## MathSuperscriptElement([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) baseArg, [MathematicalText](../../mathematicaltext) superScript)  constructor
 
  Initializes a new instance of the MathSuperscriptElement class.
  
@@ -263,7 +263,7 @@ Example:
 ---
 
 
-## MathSuperscriptElement([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) baseArg, [MathematicalText](../../mathematicaltext) superScript)  constructor
+## MathSuperscriptElement([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) baseArg, [MathFraction](../../mathfraction) superScript)  constructor
 
  Initializes a new instance of the MathSuperscriptElement class.
  
@@ -423,7 +423,7 @@ Example:
 ---
 
 
-## MathSuperscriptElement([MathMatrix](../../mathmatrix) baseArg, [MathAccent](../../mathaccent) superScript)  constructor
+## MathSuperscriptElement([MathMatrix](../../mathmatrix) baseArg, [MathNaryOperator](../../mathnaryoperator) superScript)  constructor
 
  Initializes a new instance of the MathSuperscriptElement class.
  
@@ -439,7 +439,7 @@ Example:
 ---
 
 
-## MathSuperscriptElement([MathMatrix](../../mathmatrix) baseArg, [MathNaryOperator](../../mathnaryoperator) superScript)  constructor
+## MathSuperscriptElement([MathMatrix](../../mathmatrix) baseArg, [MathAccent](../../mathaccent) superScript)  constructor
 
  Initializes a new instance of the MathSuperscriptElement class.
  
@@ -503,7 +503,7 @@ Example:
 ---
 
 
-## MathSuperscriptElement([MathMatrix](../../mathmatrix) baseArg, [MathFunction](../../mathfunction) superScript)  constructor
+## MathSuperscriptElement([MathMatrix](../../mathmatrix) baseArg, [MathSubscriptElement](../../mathsubscriptelement) superScript)  constructor
 
  Initializes a new instance of the MathSuperscriptElement class.
  
@@ -519,7 +519,7 @@ Example:
 ---
 
 
-## MathSuperscriptElement([MathMatrix](../../mathmatrix) baseArg, [MathSubscriptElement](../../mathsubscriptelement) superScript)  constructor
+## MathSuperscriptElement([MathMatrix](../../mathmatrix) baseArg, [MathFunction](../../mathfunction) superScript)  constructor
 
  Initializes a new instance of the MathSuperscriptElement class.
  
@@ -551,7 +551,7 @@ Example:
 ---
 
 
-## MathSuperscriptElement([MathMatrix](../../mathmatrix) baseArg, [MathFraction](../../mathfraction) superScript)  constructor
+## MathSuperscriptElement([MathMatrix](../../mathmatrix) baseArg, [MathematicalText](../../mathematicaltext) superScript)  constructor
 
  Initializes a new instance of the MathSuperscriptElement class.
  
@@ -567,7 +567,7 @@ Example:
 ---
 
 
-## MathSuperscriptElement([MathMatrix](../../mathmatrix) baseArg, [MathematicalText](../../mathematicaltext) superScript)  constructor
+## MathSuperscriptElement([MathMatrix](../../mathmatrix) baseArg, [MathFraction](../../mathfraction) superScript)  constructor
 
  Initializes a new instance of the MathSuperscriptElement class.
  
@@ -727,7 +727,7 @@ Example:
 ---
 
 
-## MathSuperscriptElement([MathLimit](../../mathlimit) baseArg, [MathAccent](../../mathaccent) superScript)  constructor
+## MathSuperscriptElement([MathLimit](../../mathlimit) baseArg, [MathNaryOperator](../../mathnaryoperator) superScript)  constructor
 
  Initializes a new instance of the MathSuperscriptElement class.
  
@@ -743,7 +743,7 @@ Example:
 ---
 
 
-## MathSuperscriptElement([MathLimit](../../mathlimit) baseArg, [MathNaryOperator](../../mathnaryoperator) superScript)  constructor
+## MathSuperscriptElement([MathLimit](../../mathlimit) baseArg, [MathAccent](../../mathaccent) superScript)  constructor
 
  Initializes a new instance of the MathSuperscriptElement class.
  
@@ -807,7 +807,7 @@ Example:
 ---
 
 
-## MathSuperscriptElement([MathLimit](../../mathlimit) baseArg, [MathFunction](../../mathfunction) superScript)  constructor
+## MathSuperscriptElement([MathLimit](../../mathlimit) baseArg, [MathSubscriptElement](../../mathsubscriptelement) superScript)  constructor
 
  Initializes a new instance of the MathSuperscriptElement class.
  
@@ -823,7 +823,7 @@ Example:
 ---
 
 
-## MathSuperscriptElement([MathLimit](../../mathlimit) baseArg, [MathSubscriptElement](../../mathsubscriptelement) superScript)  constructor
+## MathSuperscriptElement([MathLimit](../../mathlimit) baseArg, [MathFunction](../../mathfunction) superScript)  constructor
 
  Initializes a new instance of the MathSuperscriptElement class.
  
@@ -855,7 +855,7 @@ Example:
 ---
 
 
-## MathSuperscriptElement([MathLimit](../../mathlimit) baseArg, [MathFraction](../../mathfraction) superScript)  constructor
+## MathSuperscriptElement([MathLimit](../../mathlimit) baseArg, [MathematicalText](../../mathematicaltext) superScript)  constructor
 
  Initializes a new instance of the MathSuperscriptElement class.
  
@@ -871,7 +871,7 @@ Example:
 ---
 
 
-## MathSuperscriptElement([MathLimit](../../mathlimit) baseArg, [MathematicalText](../../mathematicaltext) superScript)  constructor
+## MathSuperscriptElement([MathLimit](../../mathlimit) baseArg, [MathFraction](../../mathfraction) superScript)  constructor
 
  Initializes a new instance of the MathSuperscriptElement class.
  
@@ -1031,7 +1031,7 @@ Example:
 ---
 
 
-## MathSuperscriptElement([MathBlock](../../mathblock) baseArg, [MathAccent](../../mathaccent) superScript)  constructor
+## MathSuperscriptElement([MathBlock](../../mathblock) baseArg, [MathNaryOperator](../../mathnaryoperator) superScript)  constructor
 
  Initializes a new instance of the MathSuperscriptElement class.
  
@@ -1047,7 +1047,7 @@ Example:
 ---
 
 
-## MathSuperscriptElement([MathBlock](../../mathblock) baseArg, [MathNaryOperator](../../mathnaryoperator) superScript)  constructor
+## MathSuperscriptElement([MathBlock](../../mathblock) baseArg, [MathAccent](../../mathaccent) superScript)  constructor
 
  Initializes a new instance of the MathSuperscriptElement class.
  
@@ -1111,7 +1111,7 @@ Example:
 ---
 
 
-## MathSuperscriptElement([MathBlock](../../mathblock) baseArg, [MathFunction](../../mathfunction) superScript)  constructor
+## MathSuperscriptElement([MathBlock](../../mathblock) baseArg, [MathSubscriptElement](../../mathsubscriptelement) superScript)  constructor
 
  Initializes a new instance of the MathSuperscriptElement class.
  
@@ -1127,7 +1127,7 @@ Example:
 ---
 
 
-## MathSuperscriptElement([MathBlock](../../mathblock) baseArg, [MathSubscriptElement](../../mathsubscriptelement) superScript)  constructor
+## MathSuperscriptElement([MathBlock](../../mathblock) baseArg, [MathFunction](../../mathfunction) superScript)  constructor
 
  Initializes a new instance of the MathSuperscriptElement class.
  
@@ -1159,7 +1159,7 @@ Example:
 ---
 
 
-## MathSuperscriptElement([MathBlock](../../mathblock) baseArg, [MathFraction](../../mathfraction) superScript)  constructor
+## MathSuperscriptElement([MathBlock](../../mathblock) baseArg, [MathematicalText](../../mathematicaltext) superScript)  constructor
 
  Initializes a new instance of the MathSuperscriptElement class.
  
@@ -1175,7 +1175,7 @@ Example:
 ---
 
 
-## MathSuperscriptElement([MathBlock](../../mathblock) baseArg, [MathematicalText](../../mathematicaltext) superScript)  constructor
+## MathSuperscriptElement([MathBlock](../../mathblock) baseArg, [MathFraction](../../mathfraction) superScript)  constructor
 
  Initializes a new instance of the MathSuperscriptElement class.
  
@@ -1335,7 +1335,7 @@ Example:
 ---
 
 
-## MathSuperscriptElement([MathRadical](../../mathradical) baseArg, [MathAccent](../../mathaccent) superScript)  constructor
+## MathSuperscriptElement([MathRadical](../../mathradical) baseArg, [MathNaryOperator](../../mathnaryoperator) superScript)  constructor
 
  Initializes a new instance of the MathSuperscriptElement class.
  
@@ -1351,7 +1351,7 @@ Example:
 ---
 
 
-## MathSuperscriptElement([MathRadical](../../mathradical) baseArg, [MathNaryOperator](../../mathnaryoperator) superScript)  constructor
+## MathSuperscriptElement([MathRadical](../../mathradical) baseArg, [MathAccent](../../mathaccent) superScript)  constructor
 
  Initializes a new instance of the MathSuperscriptElement class.
  
@@ -1415,7 +1415,7 @@ Example:
 ---
 
 
-## MathSuperscriptElement([MathRadical](../../mathradical) baseArg, [MathFunction](../../mathfunction) superScript)  constructor
+## MathSuperscriptElement([MathRadical](../../mathradical) baseArg, [MathSubscriptElement](../../mathsubscriptelement) superScript)  constructor
 
  Initializes a new instance of the MathSuperscriptElement class.
  
@@ -1431,7 +1431,7 @@ Example:
 ---
 
 
-## MathSuperscriptElement([MathRadical](../../mathradical) baseArg, [MathSubscriptElement](../../mathsubscriptelement) superScript)  constructor
+## MathSuperscriptElement([MathRadical](../../mathradical) baseArg, [MathFunction](../../mathfunction) superScript)  constructor
 
  Initializes a new instance of the MathSuperscriptElement class.
  
@@ -1463,7 +1463,7 @@ Example:
 ---
 
 
-## MathSuperscriptElement([MathRadical](../../mathradical) baseArg, [MathFraction](../../mathfraction) superScript)  constructor
+## MathSuperscriptElement([MathRadical](../../mathradical) baseArg, [MathematicalText](../../mathematicaltext) superScript)  constructor
 
  Initializes a new instance of the MathSuperscriptElement class.
  
@@ -1479,7 +1479,7 @@ Example:
 ---
 
 
-## MathSuperscriptElement([MathRadical](../../mathradical) baseArg, [MathematicalText](../../mathematicaltext) superScript)  constructor
+## MathSuperscriptElement([MathRadical](../../mathradical) baseArg, [MathFraction](../../mathfraction) superScript)  constructor
 
  Initializes a new instance of the MathSuperscriptElement class.
  
@@ -1639,7 +1639,7 @@ Example:
 ---
 
 
-## MathSuperscriptElement([MathArray](../../matharray) baseArg, [MathAccent](../../mathaccent) superScript)  constructor
+## MathSuperscriptElement([MathArray](../../matharray) baseArg, [MathNaryOperator](../../mathnaryoperator) superScript)  constructor
 
  Initializes a new instance of the MathSuperscriptElement class.
  
@@ -1655,7 +1655,7 @@ Example:
 ---
 
 
-## MathSuperscriptElement([MathArray](../../matharray) baseArg, [MathNaryOperator](../../mathnaryoperator) superScript)  constructor
+## MathSuperscriptElement([MathArray](../../matharray) baseArg, [MathAccent](../../mathaccent) superScript)  constructor
 
  Initializes a new instance of the MathSuperscriptElement class.
  
@@ -1719,7 +1719,7 @@ Example:
 ---
 
 
-## MathSuperscriptElement([MathArray](../../matharray) baseArg, [MathFunction](../../mathfunction) superScript)  constructor
+## MathSuperscriptElement([MathArray](../../matharray) baseArg, [MathSubscriptElement](../../mathsubscriptelement) superScript)  constructor
 
  Initializes a new instance of the MathSuperscriptElement class.
  
@@ -1735,7 +1735,7 @@ Example:
 ---
 
 
-## MathSuperscriptElement([MathArray](../../matharray) baseArg, [MathSubscriptElement](../../mathsubscriptelement) superScript)  constructor
+## MathSuperscriptElement([MathArray](../../matharray) baseArg, [MathFunction](../../mathfunction) superScript)  constructor
 
  Initializes a new instance of the MathSuperscriptElement class.
  
@@ -1767,7 +1767,7 @@ Example:
 ---
 
 
-## MathSuperscriptElement([MathArray](../../matharray) baseArg, [MathFraction](../../mathfraction) superScript)  constructor
+## MathSuperscriptElement([MathArray](../../matharray) baseArg, [MathematicalText](../../mathematicaltext) superScript)  constructor
 
  Initializes a new instance of the MathSuperscriptElement class.
  
@@ -1783,7 +1783,7 @@ Example:
 ---
 
 
-## MathSuperscriptElement([MathArray](../../matharray) baseArg, [MathematicalText](../../mathematicaltext) superScript)  constructor
+## MathSuperscriptElement([MathArray](../../matharray) baseArg, [MathFraction](../../mathfraction) superScript)  constructor
 
  Initializes a new instance of the MathSuperscriptElement class.
  
@@ -1943,7 +1943,7 @@ Example:
 ---
 
 
-## MathSuperscriptElement([MathDelimiter](../../mathdelimiter) baseArg, [MathAccent](../../mathaccent) superScript)  constructor
+## MathSuperscriptElement([MathDelimiter](../../mathdelimiter) baseArg, [MathNaryOperator](../../mathnaryoperator) superScript)  constructor
 
  Initializes a new instance of the MathSuperscriptElement class.
  
@@ -1959,7 +1959,7 @@ Example:
 ---
 
 
-## MathSuperscriptElement([MathDelimiter](../../mathdelimiter) baseArg, [MathNaryOperator](../../mathnaryoperator) superScript)  constructor
+## MathSuperscriptElement([MathDelimiter](../../mathdelimiter) baseArg, [MathAccent](../../mathaccent) superScript)  constructor
 
  Initializes a new instance of the MathSuperscriptElement class.
  
@@ -2023,7 +2023,7 @@ Example:
 ---
 
 
-## MathSuperscriptElement([MathDelimiter](../../mathdelimiter) baseArg, [MathFunction](../../mathfunction) superScript)  constructor
+## MathSuperscriptElement([MathDelimiter](../../mathdelimiter) baseArg, [MathSubscriptElement](../../mathsubscriptelement) superScript)  constructor
 
  Initializes a new instance of the MathSuperscriptElement class.
  
@@ -2039,7 +2039,7 @@ Example:
 ---
 
 
-## MathSuperscriptElement([MathDelimiter](../../mathdelimiter) baseArg, [MathSubscriptElement](../../mathsubscriptelement) superScript)  constructor
+## MathSuperscriptElement([MathDelimiter](../../mathdelimiter) baseArg, [MathFunction](../../mathfunction) superScript)  constructor
 
  Initializes a new instance of the MathSuperscriptElement class.
  
@@ -2071,7 +2071,7 @@ Example:
 ---
 
 
-## MathSuperscriptElement([MathDelimiter](../../mathdelimiter) baseArg, [MathFraction](../../mathfraction) superScript)  constructor
+## MathSuperscriptElement([MathDelimiter](../../mathdelimiter) baseArg, [MathematicalText](../../mathematicaltext) superScript)  constructor
 
  Initializes a new instance of the MathSuperscriptElement class.
  
@@ -2087,7 +2087,7 @@ Example:
 ---
 
 
-## MathSuperscriptElement([MathDelimiter](../../mathdelimiter) baseArg, [MathematicalText](../../mathematicaltext) superScript)  constructor
+## MathSuperscriptElement([MathDelimiter](../../mathdelimiter) baseArg, [MathFraction](../../mathfraction) superScript)  constructor
 
  Initializes a new instance of the MathSuperscriptElement class.
  
@@ -2120,310 +2120,6 @@ Example:
 
 
 ## MathSuperscriptElement([MathDelimiter](../../mathdelimiter) baseArg, [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) superScript)  constructor
-
- Initializes a new instance of the MathSuperscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $superscript = new MathematicalText("i");
-  $superscriptElement = new MathSuperscriptElement($baseElement, $superscript);
-```
-
-
----
-
-
-## MathSuperscriptElement([MathAccent](../../mathaccent) baseArg, [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) superScript)  constructor
-
- Initializes a new instance of the MathSuperscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $superscript = new MathematicalText("i");
-  $superscriptElement = new MathSuperscriptElement($baseElement, $superscript);
-```
-
-
----
-
-
-## MathSuperscriptElement([MathAccent](../../mathaccent) baseArg, [MathMatrix](../../mathmatrix) superScript)  constructor
-
- Initializes a new instance of the MathSuperscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $superscript = new MathematicalText("i");
-  $superscriptElement = new MathSuperscriptElement($baseElement, $superscript);
-```
-
-
----
-
-
-## MathSuperscriptElement([MathAccent](../../mathaccent) baseArg, [MathLimit](../../mathlimit) superScript)  constructor
-
- Initializes a new instance of the MathSuperscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $superscript = new MathematicalText("i");
-  $superscriptElement = new MathSuperscriptElement($baseElement, $superscript);
-```
-
-
----
-
-
-## MathSuperscriptElement([MathAccent](../../mathaccent) baseArg, [MathBlock](../../mathblock) superScript)  constructor
-
- Initializes a new instance of the MathSuperscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $superscript = new MathematicalText("i");
-  $superscriptElement = new MathSuperscriptElement($baseElement, $superscript);
-```
-
-
----
-
-
-## MathSuperscriptElement([MathAccent](../../mathaccent) baseArg, [MathRadical](../../mathradical) superScript)  constructor
-
- Initializes a new instance of the MathSuperscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $superscript = new MathematicalText("i");
-  $superscriptElement = new MathSuperscriptElement($baseElement, $superscript);
-```
-
-
----
-
-
-## MathSuperscriptElement([MathAccent](../../mathaccent) baseArg, [MathArray](../../matharray) superScript)  constructor
-
- Initializes a new instance of the MathSuperscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $superscript = new MathematicalText("i");
-  $superscriptElement = new MathSuperscriptElement($baseElement, $superscript);
-```
-
-
----
-
-
-## MathSuperscriptElement([MathAccent](../../mathaccent) baseArg, [MathDelimiter](../../mathdelimiter) superScript)  constructor
-
- Initializes a new instance of the MathSuperscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $superscript = new MathematicalText("i");
-  $superscriptElement = new MathSuperscriptElement($baseElement, $superscript);
-```
-
-
----
-
-
-## MathSuperscriptElement([MathAccent](../../mathaccent) baseArg, [MathAccent](../../mathaccent) superScript)  constructor
-
- Initializes a new instance of the MathSuperscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $superscript = new MathematicalText("i");
-  $superscriptElement = new MathSuperscriptElement($baseElement, $superscript);
-```
-
-
----
-
-
-## MathSuperscriptElement([MathAccent](../../mathaccent) baseArg, [MathNaryOperator](../../mathnaryoperator) superScript)  constructor
-
- Initializes a new instance of the MathSuperscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $superscript = new MathematicalText("i");
-  $superscriptElement = new MathSuperscriptElement($baseElement, $superscript);
-```
-
-
----
-
-
-## MathSuperscriptElement([MathAccent](../../mathaccent) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) superScript)  constructor
-
- Initializes a new instance of the MathSuperscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $superscript = new MathematicalText("i");
-  $superscriptElement = new MathSuperscriptElement($baseElement, $superscript);
-```
-
-
----
-
-
-## MathSuperscriptElement([MathAccent](../../mathaccent) baseArg, [MathBorderBox](../../mathborderbox) superScript)  constructor
-
- Initializes a new instance of the MathSuperscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $superscript = new MathematicalText("i");
-  $superscriptElement = new MathSuperscriptElement($baseElement, $superscript);
-```
-
-
----
-
-
-## MathSuperscriptElement([MathAccent](../../mathaccent) baseArg, [MathBar](../../mathbar) superScript)  constructor
-
- Initializes a new instance of the MathSuperscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $superscript = new MathematicalText("i");
-  $superscriptElement = new MathSuperscriptElement($baseElement, $superscript);
-```
-
-
----
-
-
-## MathSuperscriptElement([MathAccent](../../mathaccent) baseArg, [MathFunction](../../mathfunction) superScript)  constructor
-
- Initializes a new instance of the MathSuperscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $superscript = new MathematicalText("i");
-  $superscriptElement = new MathSuperscriptElement($baseElement, $superscript);
-```
-
-
----
-
-
-## MathSuperscriptElement([MathAccent](../../mathaccent) baseArg, [MathSubscriptElement](../../mathsubscriptelement) superScript)  constructor
-
- Initializes a new instance of the MathSuperscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $superscript = new MathematicalText("i");
-  $superscriptElement = new MathSuperscriptElement($baseElement, $superscript);
-```
-
-
----
-
-
-## MathSuperscriptElement([MathAccent](../../mathaccent) baseArg, [MathSuperscriptElement](../../mathsuperscriptelement) superScript)  constructor
-
- Initializes a new instance of the MathSuperscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $superscript = new MathematicalText("i");
-  $superscriptElement = new MathSuperscriptElement($baseElement, $superscript);
-```
-
-
----
-
-
-## MathSuperscriptElement([MathAccent](../../mathaccent) baseArg, [MathFraction](../../mathfraction) superScript)  constructor
-
- Initializes a new instance of the MathSuperscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $superscript = new MathematicalText("i");
-  $superscriptElement = new MathSuperscriptElement($baseElement, $superscript);
-```
-
-
----
-
-
-## MathSuperscriptElement([MathAccent](../../mathaccent) baseArg, [MathematicalText](../../mathematicaltext) superScript)  constructor
-
- Initializes a new instance of the MathSuperscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $superscript = new MathematicalText("i");
-  $superscriptElement = new MathSuperscriptElement($baseElement, $superscript);
-```
-
-
----
-
-
-## MathSuperscriptElement([MathAccent](../../mathaccent) baseArg, [MathBox](../../mathbox) superScript)  constructor
-
- Initializes a new instance of the MathSuperscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $superscript = new MathematicalText("i");
-  $superscriptElement = new MathSuperscriptElement($baseElement, $superscript);
-```
-
-
----
-
-
-## MathSuperscriptElement([MathAccent](../../mathaccent) baseArg, [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) superScript)  constructor
 
  Initializes a new instance of the MathSuperscriptElement class.
  
@@ -2551,7 +2247,7 @@ Example:
 ---
 
 
-## MathSuperscriptElement([MathNaryOperator](../../mathnaryoperator) baseArg, [MathAccent](../../mathaccent) superScript)  constructor
+## MathSuperscriptElement([MathNaryOperator](../../mathnaryoperator) baseArg, [MathNaryOperator](../../mathnaryoperator) superScript)  constructor
 
  Initializes a new instance of the MathSuperscriptElement class.
  
@@ -2567,7 +2263,7 @@ Example:
 ---
 
 
-## MathSuperscriptElement([MathNaryOperator](../../mathnaryoperator) baseArg, [MathNaryOperator](../../mathnaryoperator) superScript)  constructor
+## MathSuperscriptElement([MathNaryOperator](../../mathnaryoperator) baseArg, [MathAccent](../../mathaccent) superScript)  constructor
 
  Initializes a new instance of the MathSuperscriptElement class.
  
@@ -2631,7 +2327,7 @@ Example:
 ---
 
 
-## MathSuperscriptElement([MathNaryOperator](../../mathnaryoperator) baseArg, [MathFunction](../../mathfunction) superScript)  constructor
+## MathSuperscriptElement([MathNaryOperator](../../mathnaryoperator) baseArg, [MathSubscriptElement](../../mathsubscriptelement) superScript)  constructor
 
  Initializes a new instance of the MathSuperscriptElement class.
  
@@ -2647,7 +2343,7 @@ Example:
 ---
 
 
-## MathSuperscriptElement([MathNaryOperator](../../mathnaryoperator) baseArg, [MathSubscriptElement](../../mathsubscriptelement) superScript)  constructor
+## MathSuperscriptElement([MathNaryOperator](../../mathnaryoperator) baseArg, [MathFunction](../../mathfunction) superScript)  constructor
 
  Initializes a new instance of the MathSuperscriptElement class.
  
@@ -2679,7 +2375,7 @@ Example:
 ---
 
 
-## MathSuperscriptElement([MathNaryOperator](../../mathnaryoperator) baseArg, [MathFraction](../../mathfraction) superScript)  constructor
+## MathSuperscriptElement([MathNaryOperator](../../mathnaryoperator) baseArg, [MathematicalText](../../mathematicaltext) superScript)  constructor
 
  Initializes a new instance of the MathSuperscriptElement class.
  
@@ -2695,7 +2391,7 @@ Example:
 ---
 
 
-## MathSuperscriptElement([MathNaryOperator](../../mathnaryoperator) baseArg, [MathematicalText](../../mathematicaltext) superScript)  constructor
+## MathSuperscriptElement([MathNaryOperator](../../mathnaryoperator) baseArg, [MathFraction](../../mathfraction) superScript)  constructor
 
  Initializes a new instance of the MathSuperscriptElement class.
  
@@ -2728,6 +2424,310 @@ Example:
 
 
 ## MathSuperscriptElement([MathNaryOperator](../../mathnaryoperator) baseArg, [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) superScript)  constructor
+
+ Initializes a new instance of the MathSuperscriptElement class.
+ 
+Example:
+ 
+```php
+  $baseElement = new MathematicalText("X");
+  $superscript = new MathematicalText("i");
+  $superscriptElement = new MathSuperscriptElement($baseElement, $superscript);
+```
+
+
+---
+
+
+## MathSuperscriptElement([MathAccent](../../mathaccent) baseArg, [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) superScript)  constructor
+
+ Initializes a new instance of the MathSuperscriptElement class.
+ 
+Example:
+ 
+```php
+  $baseElement = new MathematicalText("X");
+  $superscript = new MathematicalText("i");
+  $superscriptElement = new MathSuperscriptElement($baseElement, $superscript);
+```
+
+
+---
+
+
+## MathSuperscriptElement([MathAccent](../../mathaccent) baseArg, [MathMatrix](../../mathmatrix) superScript)  constructor
+
+ Initializes a new instance of the MathSuperscriptElement class.
+ 
+Example:
+ 
+```php
+  $baseElement = new MathematicalText("X");
+  $superscript = new MathematicalText("i");
+  $superscriptElement = new MathSuperscriptElement($baseElement, $superscript);
+```
+
+
+---
+
+
+## MathSuperscriptElement([MathAccent](../../mathaccent) baseArg, [MathLimit](../../mathlimit) superScript)  constructor
+
+ Initializes a new instance of the MathSuperscriptElement class.
+ 
+Example:
+ 
+```php
+  $baseElement = new MathematicalText("X");
+  $superscript = new MathematicalText("i");
+  $superscriptElement = new MathSuperscriptElement($baseElement, $superscript);
+```
+
+
+---
+
+
+## MathSuperscriptElement([MathAccent](../../mathaccent) baseArg, [MathBlock](../../mathblock) superScript)  constructor
+
+ Initializes a new instance of the MathSuperscriptElement class.
+ 
+Example:
+ 
+```php
+  $baseElement = new MathematicalText("X");
+  $superscript = new MathematicalText("i");
+  $superscriptElement = new MathSuperscriptElement($baseElement, $superscript);
+```
+
+
+---
+
+
+## MathSuperscriptElement([MathAccent](../../mathaccent) baseArg, [MathRadical](../../mathradical) superScript)  constructor
+
+ Initializes a new instance of the MathSuperscriptElement class.
+ 
+Example:
+ 
+```php
+  $baseElement = new MathematicalText("X");
+  $superscript = new MathematicalText("i");
+  $superscriptElement = new MathSuperscriptElement($baseElement, $superscript);
+```
+
+
+---
+
+
+## MathSuperscriptElement([MathAccent](../../mathaccent) baseArg, [MathArray](../../matharray) superScript)  constructor
+
+ Initializes a new instance of the MathSuperscriptElement class.
+ 
+Example:
+ 
+```php
+  $baseElement = new MathematicalText("X");
+  $superscript = new MathematicalText("i");
+  $superscriptElement = new MathSuperscriptElement($baseElement, $superscript);
+```
+
+
+---
+
+
+## MathSuperscriptElement([MathAccent](../../mathaccent) baseArg, [MathDelimiter](../../mathdelimiter) superScript)  constructor
+
+ Initializes a new instance of the MathSuperscriptElement class.
+ 
+Example:
+ 
+```php
+  $baseElement = new MathematicalText("X");
+  $superscript = new MathematicalText("i");
+  $superscriptElement = new MathSuperscriptElement($baseElement, $superscript);
+```
+
+
+---
+
+
+## MathSuperscriptElement([MathAccent](../../mathaccent) baseArg, [MathNaryOperator](../../mathnaryoperator) superScript)  constructor
+
+ Initializes a new instance of the MathSuperscriptElement class.
+ 
+Example:
+ 
+```php
+  $baseElement = new MathematicalText("X");
+  $superscript = new MathematicalText("i");
+  $superscriptElement = new MathSuperscriptElement($baseElement, $superscript);
+```
+
+
+---
+
+
+## MathSuperscriptElement([MathAccent](../../mathaccent) baseArg, [MathAccent](../../mathaccent) superScript)  constructor
+
+ Initializes a new instance of the MathSuperscriptElement class.
+ 
+Example:
+ 
+```php
+  $baseElement = new MathematicalText("X");
+  $superscript = new MathematicalText("i");
+  $superscriptElement = new MathSuperscriptElement($baseElement, $superscript);
+```
+
+
+---
+
+
+## MathSuperscriptElement([MathAccent](../../mathaccent) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) superScript)  constructor
+
+ Initializes a new instance of the MathSuperscriptElement class.
+ 
+Example:
+ 
+```php
+  $baseElement = new MathematicalText("X");
+  $superscript = new MathematicalText("i");
+  $superscriptElement = new MathSuperscriptElement($baseElement, $superscript);
+```
+
+
+---
+
+
+## MathSuperscriptElement([MathAccent](../../mathaccent) baseArg, [MathBorderBox](../../mathborderbox) superScript)  constructor
+
+ Initializes a new instance of the MathSuperscriptElement class.
+ 
+Example:
+ 
+```php
+  $baseElement = new MathematicalText("X");
+  $superscript = new MathematicalText("i");
+  $superscriptElement = new MathSuperscriptElement($baseElement, $superscript);
+```
+
+
+---
+
+
+## MathSuperscriptElement([MathAccent](../../mathaccent) baseArg, [MathBar](../../mathbar) superScript)  constructor
+
+ Initializes a new instance of the MathSuperscriptElement class.
+ 
+Example:
+ 
+```php
+  $baseElement = new MathematicalText("X");
+  $superscript = new MathematicalText("i");
+  $superscriptElement = new MathSuperscriptElement($baseElement, $superscript);
+```
+
+
+---
+
+
+## MathSuperscriptElement([MathAccent](../../mathaccent) baseArg, [MathSubscriptElement](../../mathsubscriptelement) superScript)  constructor
+
+ Initializes a new instance of the MathSuperscriptElement class.
+ 
+Example:
+ 
+```php
+  $baseElement = new MathematicalText("X");
+  $superscript = new MathematicalText("i");
+  $superscriptElement = new MathSuperscriptElement($baseElement, $superscript);
+```
+
+
+---
+
+
+## MathSuperscriptElement([MathAccent](../../mathaccent) baseArg, [MathFunction](../../mathfunction) superScript)  constructor
+
+ Initializes a new instance of the MathSuperscriptElement class.
+ 
+Example:
+ 
+```php
+  $baseElement = new MathematicalText("X");
+  $superscript = new MathematicalText("i");
+  $superscriptElement = new MathSuperscriptElement($baseElement, $superscript);
+```
+
+
+---
+
+
+## MathSuperscriptElement([MathAccent](../../mathaccent) baseArg, [MathSuperscriptElement](../../mathsuperscriptelement) superScript)  constructor
+
+ Initializes a new instance of the MathSuperscriptElement class.
+ 
+Example:
+ 
+```php
+  $baseElement = new MathematicalText("X");
+  $superscript = new MathematicalText("i");
+  $superscriptElement = new MathSuperscriptElement($baseElement, $superscript);
+```
+
+
+---
+
+
+## MathSuperscriptElement([MathAccent](../../mathaccent) baseArg, [MathematicalText](../../mathematicaltext) superScript)  constructor
+
+ Initializes a new instance of the MathSuperscriptElement class.
+ 
+Example:
+ 
+```php
+  $baseElement = new MathematicalText("X");
+  $superscript = new MathematicalText("i");
+  $superscriptElement = new MathSuperscriptElement($baseElement, $superscript);
+```
+
+
+---
+
+
+## MathSuperscriptElement([MathAccent](../../mathaccent) baseArg, [MathFraction](../../mathfraction) superScript)  constructor
+
+ Initializes a new instance of the MathSuperscriptElement class.
+ 
+Example:
+ 
+```php
+  $baseElement = new MathematicalText("X");
+  $superscript = new MathematicalText("i");
+  $superscriptElement = new MathSuperscriptElement($baseElement, $superscript);
+```
+
+
+---
+
+
+## MathSuperscriptElement([MathAccent](../../mathaccent) baseArg, [MathBox](../../mathbox) superScript)  constructor
+
+ Initializes a new instance of the MathSuperscriptElement class.
+ 
+Example:
+ 
+```php
+  $baseElement = new MathematicalText("X");
+  $superscript = new MathematicalText("i");
+  $superscriptElement = new MathSuperscriptElement($baseElement, $superscript);
+```
+
+
+---
+
+
+## MathSuperscriptElement([MathAccent](../../mathaccent) baseArg, [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) superScript)  constructor
 
  Initializes a new instance of the MathSuperscriptElement class.
  
@@ -2855,7 +2855,7 @@ Example:
 ---
 
 
-## MathSuperscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathAccent](../../mathaccent) superScript)  constructor
+## MathSuperscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathNaryOperator](../../mathnaryoperator) superScript)  constructor
 
  Initializes a new instance of the MathSuperscriptElement class.
  
@@ -2871,7 +2871,7 @@ Example:
 ---
 
 
-## MathSuperscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathNaryOperator](../../mathnaryoperator) superScript)  constructor
+## MathSuperscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathAccent](../../mathaccent) superScript)  constructor
 
  Initializes a new instance of the MathSuperscriptElement class.
  
@@ -2935,7 +2935,7 @@ Example:
 ---
 
 
-## MathSuperscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathFunction](../../mathfunction) superScript)  constructor
+## MathSuperscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathSubscriptElement](../../mathsubscriptelement) superScript)  constructor
 
  Initializes a new instance of the MathSuperscriptElement class.
  
@@ -2951,7 +2951,7 @@ Example:
 ---
 
 
-## MathSuperscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathSubscriptElement](../../mathsubscriptelement) superScript)  constructor
+## MathSuperscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathFunction](../../mathfunction) superScript)  constructor
 
  Initializes a new instance of the MathSuperscriptElement class.
  
@@ -2983,7 +2983,7 @@ Example:
 ---
 
 
-## MathSuperscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathFraction](../../mathfraction) superScript)  constructor
+## MathSuperscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathematicalText](../../mathematicaltext) superScript)  constructor
 
  Initializes a new instance of the MathSuperscriptElement class.
  
@@ -2999,7 +2999,7 @@ Example:
 ---
 
 
-## MathSuperscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathematicalText](../../mathematicaltext) superScript)  constructor
+## MathSuperscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathFraction](../../mathfraction) superScript)  constructor
 
  Initializes a new instance of the MathSuperscriptElement class.
  
@@ -3159,7 +3159,7 @@ Example:
 ---
 
 
-## MathSuperscriptElement([MathBorderBox](../../mathborderbox) baseArg, [MathAccent](../../mathaccent) superScript)  constructor
+## MathSuperscriptElement([MathBorderBox](../../mathborderbox) baseArg, [MathNaryOperator](../../mathnaryoperator) superScript)  constructor
 
  Initializes a new instance of the MathSuperscriptElement class.
  
@@ -3175,7 +3175,7 @@ Example:
 ---
 
 
-## MathSuperscriptElement([MathBorderBox](../../mathborderbox) baseArg, [MathNaryOperator](../../mathnaryoperator) superScript)  constructor
+## MathSuperscriptElement([MathBorderBox](../../mathborderbox) baseArg, [MathAccent](../../mathaccent) superScript)  constructor
 
  Initializes a new instance of the MathSuperscriptElement class.
  
@@ -3239,7 +3239,7 @@ Example:
 ---
 
 
-## MathSuperscriptElement([MathBorderBox](../../mathborderbox) baseArg, [MathFunction](../../mathfunction) superScript)  constructor
+## MathSuperscriptElement([MathBorderBox](../../mathborderbox) baseArg, [MathSubscriptElement](../../mathsubscriptelement) superScript)  constructor
 
  Initializes a new instance of the MathSuperscriptElement class.
  
@@ -3255,7 +3255,7 @@ Example:
 ---
 
 
-## MathSuperscriptElement([MathBorderBox](../../mathborderbox) baseArg, [MathSubscriptElement](../../mathsubscriptelement) superScript)  constructor
+## MathSuperscriptElement([MathBorderBox](../../mathborderbox) baseArg, [MathFunction](../../mathfunction) superScript)  constructor
 
  Initializes a new instance of the MathSuperscriptElement class.
  
@@ -3287,7 +3287,7 @@ Example:
 ---
 
 
-## MathSuperscriptElement([MathBorderBox](../../mathborderbox) baseArg, [MathFraction](../../mathfraction) superScript)  constructor
+## MathSuperscriptElement([MathBorderBox](../../mathborderbox) baseArg, [MathematicalText](../../mathematicaltext) superScript)  constructor
 
  Initializes a new instance of the MathSuperscriptElement class.
  
@@ -3303,7 +3303,7 @@ Example:
 ---
 
 
-## MathSuperscriptElement([MathBorderBox](../../mathborderbox) baseArg, [MathematicalText](../../mathematicaltext) superScript)  constructor
+## MathSuperscriptElement([MathBorderBox](../../mathborderbox) baseArg, [MathFraction](../../mathfraction) superScript)  constructor
 
  Initializes a new instance of the MathSuperscriptElement class.
  
@@ -3463,7 +3463,7 @@ Example:
 ---
 
 
-## MathSuperscriptElement([MathBar](../../mathbar) baseArg, [MathAccent](../../mathaccent) superScript)  constructor
+## MathSuperscriptElement([MathBar](../../mathbar) baseArg, [MathNaryOperator](../../mathnaryoperator) superScript)  constructor
 
  Initializes a new instance of the MathSuperscriptElement class.
  
@@ -3479,7 +3479,7 @@ Example:
 ---
 
 
-## MathSuperscriptElement([MathBar](../../mathbar) baseArg, [MathNaryOperator](../../mathnaryoperator) superScript)  constructor
+## MathSuperscriptElement([MathBar](../../mathbar) baseArg, [MathAccent](../../mathaccent) superScript)  constructor
 
  Initializes a new instance of the MathSuperscriptElement class.
  
@@ -3543,7 +3543,7 @@ Example:
 ---
 
 
-## MathSuperscriptElement([MathBar](../../mathbar) baseArg, [MathFunction](../../mathfunction) superScript)  constructor
+## MathSuperscriptElement([MathBar](../../mathbar) baseArg, [MathSubscriptElement](../../mathsubscriptelement) superScript)  constructor
 
  Initializes a new instance of the MathSuperscriptElement class.
  
@@ -3559,7 +3559,7 @@ Example:
 ---
 
 
-## MathSuperscriptElement([MathBar](../../mathbar) baseArg, [MathSubscriptElement](../../mathsubscriptelement) superScript)  constructor
+## MathSuperscriptElement([MathBar](../../mathbar) baseArg, [MathFunction](../../mathfunction) superScript)  constructor
 
  Initializes a new instance of the MathSuperscriptElement class.
  
@@ -3591,7 +3591,7 @@ Example:
 ---
 
 
-## MathSuperscriptElement([MathBar](../../mathbar) baseArg, [MathFraction](../../mathfraction) superScript)  constructor
+## MathSuperscriptElement([MathBar](../../mathbar) baseArg, [MathematicalText](../../mathematicaltext) superScript)  constructor
 
  Initializes a new instance of the MathSuperscriptElement class.
  
@@ -3607,7 +3607,7 @@ Example:
 ---
 
 
-## MathSuperscriptElement([MathBar](../../mathbar) baseArg, [MathematicalText](../../mathematicaltext) superScript)  constructor
+## MathSuperscriptElement([MathBar](../../mathbar) baseArg, [MathFraction](../../mathfraction) superScript)  constructor
 
  Initializes a new instance of the MathSuperscriptElement class.
  
@@ -3640,310 +3640,6 @@ Example:
 
 
 ## MathSuperscriptElement([MathBar](../../mathbar) baseArg, [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) superScript)  constructor
-
- Initializes a new instance of the MathSuperscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $superscript = new MathematicalText("i");
-  $superscriptElement = new MathSuperscriptElement($baseElement, $superscript);
-```
-
-
----
-
-
-## MathSuperscriptElement([MathFunction](../../mathfunction) baseArg, [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) superScript)  constructor
-
- Initializes a new instance of the MathSuperscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $superscript = new MathematicalText("i");
-  $superscriptElement = new MathSuperscriptElement($baseElement, $superscript);
-```
-
-
----
-
-
-## MathSuperscriptElement([MathFunction](../../mathfunction) baseArg, [MathMatrix](../../mathmatrix) superScript)  constructor
-
- Initializes a new instance of the MathSuperscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $superscript = new MathematicalText("i");
-  $superscriptElement = new MathSuperscriptElement($baseElement, $superscript);
-```
-
-
----
-
-
-## MathSuperscriptElement([MathFunction](../../mathfunction) baseArg, [MathLimit](../../mathlimit) superScript)  constructor
-
- Initializes a new instance of the MathSuperscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $superscript = new MathematicalText("i");
-  $superscriptElement = new MathSuperscriptElement($baseElement, $superscript);
-```
-
-
----
-
-
-## MathSuperscriptElement([MathFunction](../../mathfunction) baseArg, [MathBlock](../../mathblock) superScript)  constructor
-
- Initializes a new instance of the MathSuperscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $superscript = new MathematicalText("i");
-  $superscriptElement = new MathSuperscriptElement($baseElement, $superscript);
-```
-
-
----
-
-
-## MathSuperscriptElement([MathFunction](../../mathfunction) baseArg, [MathRadical](../../mathradical) superScript)  constructor
-
- Initializes a new instance of the MathSuperscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $superscript = new MathematicalText("i");
-  $superscriptElement = new MathSuperscriptElement($baseElement, $superscript);
-```
-
-
----
-
-
-## MathSuperscriptElement([MathFunction](../../mathfunction) baseArg, [MathArray](../../matharray) superScript)  constructor
-
- Initializes a new instance of the MathSuperscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $superscript = new MathematicalText("i");
-  $superscriptElement = new MathSuperscriptElement($baseElement, $superscript);
-```
-
-
----
-
-
-## MathSuperscriptElement([MathFunction](../../mathfunction) baseArg, [MathDelimiter](../../mathdelimiter) superScript)  constructor
-
- Initializes a new instance of the MathSuperscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $superscript = new MathematicalText("i");
-  $superscriptElement = new MathSuperscriptElement($baseElement, $superscript);
-```
-
-
----
-
-
-## MathSuperscriptElement([MathFunction](../../mathfunction) baseArg, [MathAccent](../../mathaccent) superScript)  constructor
-
- Initializes a new instance of the MathSuperscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $superscript = new MathematicalText("i");
-  $superscriptElement = new MathSuperscriptElement($baseElement, $superscript);
-```
-
-
----
-
-
-## MathSuperscriptElement([MathFunction](../../mathfunction) baseArg, [MathNaryOperator](../../mathnaryoperator) superScript)  constructor
-
- Initializes a new instance of the MathSuperscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $superscript = new MathematicalText("i");
-  $superscriptElement = new MathSuperscriptElement($baseElement, $superscript);
-```
-
-
----
-
-
-## MathSuperscriptElement([MathFunction](../../mathfunction) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) superScript)  constructor
-
- Initializes a new instance of the MathSuperscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $superscript = new MathematicalText("i");
-  $superscriptElement = new MathSuperscriptElement($baseElement, $superscript);
-```
-
-
----
-
-
-## MathSuperscriptElement([MathFunction](../../mathfunction) baseArg, [MathBorderBox](../../mathborderbox) superScript)  constructor
-
- Initializes a new instance of the MathSuperscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $superscript = new MathematicalText("i");
-  $superscriptElement = new MathSuperscriptElement($baseElement, $superscript);
-```
-
-
----
-
-
-## MathSuperscriptElement([MathFunction](../../mathfunction) baseArg, [MathBar](../../mathbar) superScript)  constructor
-
- Initializes a new instance of the MathSuperscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $superscript = new MathematicalText("i");
-  $superscriptElement = new MathSuperscriptElement($baseElement, $superscript);
-```
-
-
----
-
-
-## MathSuperscriptElement([MathFunction](../../mathfunction) baseArg, [MathFunction](../../mathfunction) superScript)  constructor
-
- Initializes a new instance of the MathSuperscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $superscript = new MathematicalText("i");
-  $superscriptElement = new MathSuperscriptElement($baseElement, $superscript);
-```
-
-
----
-
-
-## MathSuperscriptElement([MathFunction](../../mathfunction) baseArg, [MathSubscriptElement](../../mathsubscriptelement) superScript)  constructor
-
- Initializes a new instance of the MathSuperscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $superscript = new MathematicalText("i");
-  $superscriptElement = new MathSuperscriptElement($baseElement, $superscript);
-```
-
-
----
-
-
-## MathSuperscriptElement([MathFunction](../../mathfunction) baseArg, [MathSuperscriptElement](../../mathsuperscriptelement) superScript)  constructor
-
- Initializes a new instance of the MathSuperscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $superscript = new MathematicalText("i");
-  $superscriptElement = new MathSuperscriptElement($baseElement, $superscript);
-```
-
-
----
-
-
-## MathSuperscriptElement([MathFunction](../../mathfunction) baseArg, [MathFraction](../../mathfraction) superScript)  constructor
-
- Initializes a new instance of the MathSuperscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $superscript = new MathematicalText("i");
-  $superscriptElement = new MathSuperscriptElement($baseElement, $superscript);
-```
-
-
----
-
-
-## MathSuperscriptElement([MathFunction](../../mathfunction) baseArg, [MathematicalText](../../mathematicaltext) superScript)  constructor
-
- Initializes a new instance of the MathSuperscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $superscript = new MathematicalText("i");
-  $superscriptElement = new MathSuperscriptElement($baseElement, $superscript);
-```
-
-
----
-
-
-## MathSuperscriptElement([MathFunction](../../mathfunction) baseArg, [MathBox](../../mathbox) superScript)  constructor
-
- Initializes a new instance of the MathSuperscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $superscript = new MathematicalText("i");
-  $superscriptElement = new MathSuperscriptElement($baseElement, $superscript);
-```
-
-
----
-
-
-## MathSuperscriptElement([MathFunction](../../mathfunction) baseArg, [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) superScript)  constructor
 
  Initializes a new instance of the MathSuperscriptElement class.
  
@@ -4071,7 +3767,7 @@ Example:
 ---
 
 
-## MathSuperscriptElement([MathSubscriptElement](../../mathsubscriptelement) baseArg, [MathAccent](../../mathaccent) superScript)  constructor
+## MathSuperscriptElement([MathSubscriptElement](../../mathsubscriptelement) baseArg, [MathNaryOperator](../../mathnaryoperator) superScript)  constructor
 
  Initializes a new instance of the MathSuperscriptElement class.
  
@@ -4087,7 +3783,7 @@ Example:
 ---
 
 
-## MathSuperscriptElement([MathSubscriptElement](../../mathsubscriptelement) baseArg, [MathNaryOperator](../../mathnaryoperator) superScript)  constructor
+## MathSuperscriptElement([MathSubscriptElement](../../mathsubscriptelement) baseArg, [MathAccent](../../mathaccent) superScript)  constructor
 
  Initializes a new instance of the MathSuperscriptElement class.
  
@@ -4151,7 +3847,7 @@ Example:
 ---
 
 
-## MathSuperscriptElement([MathSubscriptElement](../../mathsubscriptelement) baseArg, [MathFunction](../../mathfunction) superScript)  constructor
+## MathSuperscriptElement([MathSubscriptElement](../../mathsubscriptelement) baseArg, [MathSubscriptElement](../../mathsubscriptelement) superScript)  constructor
 
  Initializes a new instance of the MathSuperscriptElement class.
  
@@ -4167,7 +3863,7 @@ Example:
 ---
 
 
-## MathSuperscriptElement([MathSubscriptElement](../../mathsubscriptelement) baseArg, [MathSubscriptElement](../../mathsubscriptelement) superScript)  constructor
+## MathSuperscriptElement([MathSubscriptElement](../../mathsubscriptelement) baseArg, [MathFunction](../../mathfunction) superScript)  constructor
 
  Initializes a new instance of the MathSuperscriptElement class.
  
@@ -4199,7 +3895,7 @@ Example:
 ---
 
 
-## MathSuperscriptElement([MathSubscriptElement](../../mathsubscriptelement) baseArg, [MathFraction](../../mathfraction) superScript)  constructor
+## MathSuperscriptElement([MathSubscriptElement](../../mathsubscriptelement) baseArg, [MathematicalText](../../mathematicaltext) superScript)  constructor
 
  Initializes a new instance of the MathSuperscriptElement class.
  
@@ -4215,7 +3911,7 @@ Example:
 ---
 
 
-## MathSuperscriptElement([MathSubscriptElement](../../mathsubscriptelement) baseArg, [MathematicalText](../../mathematicaltext) superScript)  constructor
+## MathSuperscriptElement([MathSubscriptElement](../../mathsubscriptelement) baseArg, [MathFraction](../../mathfraction) superScript)  constructor
 
  Initializes a new instance of the MathSuperscriptElement class.
  
@@ -4248,6 +3944,310 @@ Example:
 
 
 ## MathSuperscriptElement([MathSubscriptElement](../../mathsubscriptelement) baseArg, [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) superScript)  constructor
+
+ Initializes a new instance of the MathSuperscriptElement class.
+ 
+Example:
+ 
+```php
+  $baseElement = new MathematicalText("X");
+  $superscript = new MathematicalText("i");
+  $superscriptElement = new MathSuperscriptElement($baseElement, $superscript);
+```
+
+
+---
+
+
+## MathSuperscriptElement([MathFunction](../../mathfunction) baseArg, [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) superScript)  constructor
+
+ Initializes a new instance of the MathSuperscriptElement class.
+ 
+Example:
+ 
+```php
+  $baseElement = new MathematicalText("X");
+  $superscript = new MathematicalText("i");
+  $superscriptElement = new MathSuperscriptElement($baseElement, $superscript);
+```
+
+
+---
+
+
+## MathSuperscriptElement([MathFunction](../../mathfunction) baseArg, [MathMatrix](../../mathmatrix) superScript)  constructor
+
+ Initializes a new instance of the MathSuperscriptElement class.
+ 
+Example:
+ 
+```php
+  $baseElement = new MathematicalText("X");
+  $superscript = new MathematicalText("i");
+  $superscriptElement = new MathSuperscriptElement($baseElement, $superscript);
+```
+
+
+---
+
+
+## MathSuperscriptElement([MathFunction](../../mathfunction) baseArg, [MathLimit](../../mathlimit) superScript)  constructor
+
+ Initializes a new instance of the MathSuperscriptElement class.
+ 
+Example:
+ 
+```php
+  $baseElement = new MathematicalText("X");
+  $superscript = new MathematicalText("i");
+  $superscriptElement = new MathSuperscriptElement($baseElement, $superscript);
+```
+
+
+---
+
+
+## MathSuperscriptElement([MathFunction](../../mathfunction) baseArg, [MathBlock](../../mathblock) superScript)  constructor
+
+ Initializes a new instance of the MathSuperscriptElement class.
+ 
+Example:
+ 
+```php
+  $baseElement = new MathematicalText("X");
+  $superscript = new MathematicalText("i");
+  $superscriptElement = new MathSuperscriptElement($baseElement, $superscript);
+```
+
+
+---
+
+
+## MathSuperscriptElement([MathFunction](../../mathfunction) baseArg, [MathRadical](../../mathradical) superScript)  constructor
+
+ Initializes a new instance of the MathSuperscriptElement class.
+ 
+Example:
+ 
+```php
+  $baseElement = new MathematicalText("X");
+  $superscript = new MathematicalText("i");
+  $superscriptElement = new MathSuperscriptElement($baseElement, $superscript);
+```
+
+
+---
+
+
+## MathSuperscriptElement([MathFunction](../../mathfunction) baseArg, [MathArray](../../matharray) superScript)  constructor
+
+ Initializes a new instance of the MathSuperscriptElement class.
+ 
+Example:
+ 
+```php
+  $baseElement = new MathematicalText("X");
+  $superscript = new MathematicalText("i");
+  $superscriptElement = new MathSuperscriptElement($baseElement, $superscript);
+```
+
+
+---
+
+
+## MathSuperscriptElement([MathFunction](../../mathfunction) baseArg, [MathDelimiter](../../mathdelimiter) superScript)  constructor
+
+ Initializes a new instance of the MathSuperscriptElement class.
+ 
+Example:
+ 
+```php
+  $baseElement = new MathematicalText("X");
+  $superscript = new MathematicalText("i");
+  $superscriptElement = new MathSuperscriptElement($baseElement, $superscript);
+```
+
+
+---
+
+
+## MathSuperscriptElement([MathFunction](../../mathfunction) baseArg, [MathNaryOperator](../../mathnaryoperator) superScript)  constructor
+
+ Initializes a new instance of the MathSuperscriptElement class.
+ 
+Example:
+ 
+```php
+  $baseElement = new MathematicalText("X");
+  $superscript = new MathematicalText("i");
+  $superscriptElement = new MathSuperscriptElement($baseElement, $superscript);
+```
+
+
+---
+
+
+## MathSuperscriptElement([MathFunction](../../mathfunction) baseArg, [MathAccent](../../mathaccent) superScript)  constructor
+
+ Initializes a new instance of the MathSuperscriptElement class.
+ 
+Example:
+ 
+```php
+  $baseElement = new MathematicalText("X");
+  $superscript = new MathematicalText("i");
+  $superscriptElement = new MathSuperscriptElement($baseElement, $superscript);
+```
+
+
+---
+
+
+## MathSuperscriptElement([MathFunction](../../mathfunction) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) superScript)  constructor
+
+ Initializes a new instance of the MathSuperscriptElement class.
+ 
+Example:
+ 
+```php
+  $baseElement = new MathematicalText("X");
+  $superscript = new MathematicalText("i");
+  $superscriptElement = new MathSuperscriptElement($baseElement, $superscript);
+```
+
+
+---
+
+
+## MathSuperscriptElement([MathFunction](../../mathfunction) baseArg, [MathBorderBox](../../mathborderbox) superScript)  constructor
+
+ Initializes a new instance of the MathSuperscriptElement class.
+ 
+Example:
+ 
+```php
+  $baseElement = new MathematicalText("X");
+  $superscript = new MathematicalText("i");
+  $superscriptElement = new MathSuperscriptElement($baseElement, $superscript);
+```
+
+
+---
+
+
+## MathSuperscriptElement([MathFunction](../../mathfunction) baseArg, [MathBar](../../mathbar) superScript)  constructor
+
+ Initializes a new instance of the MathSuperscriptElement class.
+ 
+Example:
+ 
+```php
+  $baseElement = new MathematicalText("X");
+  $superscript = new MathematicalText("i");
+  $superscriptElement = new MathSuperscriptElement($baseElement, $superscript);
+```
+
+
+---
+
+
+## MathSuperscriptElement([MathFunction](../../mathfunction) baseArg, [MathSubscriptElement](../../mathsubscriptelement) superScript)  constructor
+
+ Initializes a new instance of the MathSuperscriptElement class.
+ 
+Example:
+ 
+```php
+  $baseElement = new MathematicalText("X");
+  $superscript = new MathematicalText("i");
+  $superscriptElement = new MathSuperscriptElement($baseElement, $superscript);
+```
+
+
+---
+
+
+## MathSuperscriptElement([MathFunction](../../mathfunction) baseArg, [MathFunction](../../mathfunction) superScript)  constructor
+
+ Initializes a new instance of the MathSuperscriptElement class.
+ 
+Example:
+ 
+```php
+  $baseElement = new MathematicalText("X");
+  $superscript = new MathematicalText("i");
+  $superscriptElement = new MathSuperscriptElement($baseElement, $superscript);
+```
+
+
+---
+
+
+## MathSuperscriptElement([MathFunction](../../mathfunction) baseArg, [MathSuperscriptElement](../../mathsuperscriptelement) superScript)  constructor
+
+ Initializes a new instance of the MathSuperscriptElement class.
+ 
+Example:
+ 
+```php
+  $baseElement = new MathematicalText("X");
+  $superscript = new MathematicalText("i");
+  $superscriptElement = new MathSuperscriptElement($baseElement, $superscript);
+```
+
+
+---
+
+
+## MathSuperscriptElement([MathFunction](../../mathfunction) baseArg, [MathematicalText](../../mathematicaltext) superScript)  constructor
+
+ Initializes a new instance of the MathSuperscriptElement class.
+ 
+Example:
+ 
+```php
+  $baseElement = new MathematicalText("X");
+  $superscript = new MathematicalText("i");
+  $superscriptElement = new MathSuperscriptElement($baseElement, $superscript);
+```
+
+
+---
+
+
+## MathSuperscriptElement([MathFunction](../../mathfunction) baseArg, [MathFraction](../../mathfraction) superScript)  constructor
+
+ Initializes a new instance of the MathSuperscriptElement class.
+ 
+Example:
+ 
+```php
+  $baseElement = new MathematicalText("X");
+  $superscript = new MathematicalText("i");
+  $superscriptElement = new MathSuperscriptElement($baseElement, $superscript);
+```
+
+
+---
+
+
+## MathSuperscriptElement([MathFunction](../../mathfunction) baseArg, [MathBox](../../mathbox) superScript)  constructor
+
+ Initializes a new instance of the MathSuperscriptElement class.
+ 
+Example:
+ 
+```php
+  $baseElement = new MathematicalText("X");
+  $superscript = new MathematicalText("i");
+  $superscriptElement = new MathSuperscriptElement($baseElement, $superscript);
+```
+
+
+---
+
+
+## MathSuperscriptElement([MathFunction](../../mathfunction) baseArg, [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) superScript)  constructor
 
  Initializes a new instance of the MathSuperscriptElement class.
  
@@ -4375,7 +4375,7 @@ Example:
 ---
 
 
-## MathSuperscriptElement([MathSuperscriptElement](../../mathsuperscriptelement) baseArg, [MathAccent](../../mathaccent) superScript)  constructor
+## MathSuperscriptElement([MathSuperscriptElement](../../mathsuperscriptelement) baseArg, [MathNaryOperator](../../mathnaryoperator) superScript)  constructor
 
  Initializes a new instance of the MathSuperscriptElement class.
  
@@ -4391,7 +4391,7 @@ Example:
 ---
 
 
-## MathSuperscriptElement([MathSuperscriptElement](../../mathsuperscriptelement) baseArg, [MathNaryOperator](../../mathnaryoperator) superScript)  constructor
+## MathSuperscriptElement([MathSuperscriptElement](../../mathsuperscriptelement) baseArg, [MathAccent](../../mathaccent) superScript)  constructor
 
  Initializes a new instance of the MathSuperscriptElement class.
  
@@ -4455,7 +4455,7 @@ Example:
 ---
 
 
-## MathSuperscriptElement([MathSuperscriptElement](../../mathsuperscriptelement) baseArg, [MathFunction](../../mathfunction) superScript)  constructor
+## MathSuperscriptElement([MathSuperscriptElement](../../mathsuperscriptelement) baseArg, [MathSubscriptElement](../../mathsubscriptelement) superScript)  constructor
 
  Initializes a new instance of the MathSuperscriptElement class.
  
@@ -4471,7 +4471,7 @@ Example:
 ---
 
 
-## MathSuperscriptElement([MathSuperscriptElement](../../mathsuperscriptelement) baseArg, [MathSubscriptElement](../../mathsubscriptelement) superScript)  constructor
+## MathSuperscriptElement([MathSuperscriptElement](../../mathsuperscriptelement) baseArg, [MathFunction](../../mathfunction) superScript)  constructor
 
  Initializes a new instance of the MathSuperscriptElement class.
  
@@ -4503,7 +4503,7 @@ Example:
 ---
 
 
-## MathSuperscriptElement([MathSuperscriptElement](../../mathsuperscriptelement) baseArg, [MathFraction](../../mathfraction) superScript)  constructor
+## MathSuperscriptElement([MathSuperscriptElement](../../mathsuperscriptelement) baseArg, [MathematicalText](../../mathematicaltext) superScript)  constructor
 
  Initializes a new instance of the MathSuperscriptElement class.
  
@@ -4519,7 +4519,7 @@ Example:
 ---
 
 
-## MathSuperscriptElement([MathSuperscriptElement](../../mathsuperscriptelement) baseArg, [MathematicalText](../../mathematicaltext) superScript)  constructor
+## MathSuperscriptElement([MathSuperscriptElement](../../mathsuperscriptelement) baseArg, [MathFraction](../../mathfraction) superScript)  constructor
 
  Initializes a new instance of the MathSuperscriptElement class.
  
@@ -4552,310 +4552,6 @@ Example:
 
 
 ## MathSuperscriptElement([MathSuperscriptElement](../../mathsuperscriptelement) baseArg, [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) superScript)  constructor
-
- Initializes a new instance of the MathSuperscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $superscript = new MathematicalText("i");
-  $superscriptElement = new MathSuperscriptElement($baseElement, $superscript);
-```
-
-
----
-
-
-## MathSuperscriptElement([MathFraction](../../mathfraction) baseArg, [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) superScript)  constructor
-
- Initializes a new instance of the MathSuperscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $superscript = new MathematicalText("i");
-  $superscriptElement = new MathSuperscriptElement($baseElement, $superscript);
-```
-
-
----
-
-
-## MathSuperscriptElement([MathFraction](../../mathfraction) baseArg, [MathMatrix](../../mathmatrix) superScript)  constructor
-
- Initializes a new instance of the MathSuperscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $superscript = new MathematicalText("i");
-  $superscriptElement = new MathSuperscriptElement($baseElement, $superscript);
-```
-
-
----
-
-
-## MathSuperscriptElement([MathFraction](../../mathfraction) baseArg, [MathLimit](../../mathlimit) superScript)  constructor
-
- Initializes a new instance of the MathSuperscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $superscript = new MathematicalText("i");
-  $superscriptElement = new MathSuperscriptElement($baseElement, $superscript);
-```
-
-
----
-
-
-## MathSuperscriptElement([MathFraction](../../mathfraction) baseArg, [MathBlock](../../mathblock) superScript)  constructor
-
- Initializes a new instance of the MathSuperscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $superscript = new MathematicalText("i");
-  $superscriptElement = new MathSuperscriptElement($baseElement, $superscript);
-```
-
-
----
-
-
-## MathSuperscriptElement([MathFraction](../../mathfraction) baseArg, [MathRadical](../../mathradical) superScript)  constructor
-
- Initializes a new instance of the MathSuperscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $superscript = new MathematicalText("i");
-  $superscriptElement = new MathSuperscriptElement($baseElement, $superscript);
-```
-
-
----
-
-
-## MathSuperscriptElement([MathFraction](../../mathfraction) baseArg, [MathArray](../../matharray) superScript)  constructor
-
- Initializes a new instance of the MathSuperscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $superscript = new MathematicalText("i");
-  $superscriptElement = new MathSuperscriptElement($baseElement, $superscript);
-```
-
-
----
-
-
-## MathSuperscriptElement([MathFraction](../../mathfraction) baseArg, [MathDelimiter](../../mathdelimiter) superScript)  constructor
-
- Initializes a new instance of the MathSuperscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $superscript = new MathematicalText("i");
-  $superscriptElement = new MathSuperscriptElement($baseElement, $superscript);
-```
-
-
----
-
-
-## MathSuperscriptElement([MathFraction](../../mathfraction) baseArg, [MathAccent](../../mathaccent) superScript)  constructor
-
- Initializes a new instance of the MathSuperscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $superscript = new MathematicalText("i");
-  $superscriptElement = new MathSuperscriptElement($baseElement, $superscript);
-```
-
-
----
-
-
-## MathSuperscriptElement([MathFraction](../../mathfraction) baseArg, [MathNaryOperator](../../mathnaryoperator) superScript)  constructor
-
- Initializes a new instance of the MathSuperscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $superscript = new MathematicalText("i");
-  $superscriptElement = new MathSuperscriptElement($baseElement, $superscript);
-```
-
-
----
-
-
-## MathSuperscriptElement([MathFraction](../../mathfraction) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) superScript)  constructor
-
- Initializes a new instance of the MathSuperscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $superscript = new MathematicalText("i");
-  $superscriptElement = new MathSuperscriptElement($baseElement, $superscript);
-```
-
-
----
-
-
-## MathSuperscriptElement([MathFraction](../../mathfraction) baseArg, [MathBorderBox](../../mathborderbox) superScript)  constructor
-
- Initializes a new instance of the MathSuperscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $superscript = new MathematicalText("i");
-  $superscriptElement = new MathSuperscriptElement($baseElement, $superscript);
-```
-
-
----
-
-
-## MathSuperscriptElement([MathFraction](../../mathfraction) baseArg, [MathBar](../../mathbar) superScript)  constructor
-
- Initializes a new instance of the MathSuperscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $superscript = new MathematicalText("i");
-  $superscriptElement = new MathSuperscriptElement($baseElement, $superscript);
-```
-
-
----
-
-
-## MathSuperscriptElement([MathFraction](../../mathfraction) baseArg, [MathFunction](../../mathfunction) superScript)  constructor
-
- Initializes a new instance of the MathSuperscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $superscript = new MathematicalText("i");
-  $superscriptElement = new MathSuperscriptElement($baseElement, $superscript);
-```
-
-
----
-
-
-## MathSuperscriptElement([MathFraction](../../mathfraction) baseArg, [MathSubscriptElement](../../mathsubscriptelement) superScript)  constructor
-
- Initializes a new instance of the MathSuperscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $superscript = new MathematicalText("i");
-  $superscriptElement = new MathSuperscriptElement($baseElement, $superscript);
-```
-
-
----
-
-
-## MathSuperscriptElement([MathFraction](../../mathfraction) baseArg, [MathSuperscriptElement](../../mathsuperscriptelement) superScript)  constructor
-
- Initializes a new instance of the MathSuperscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $superscript = new MathematicalText("i");
-  $superscriptElement = new MathSuperscriptElement($baseElement, $superscript);
-```
-
-
----
-
-
-## MathSuperscriptElement([MathFraction](../../mathfraction) baseArg, [MathFraction](../../mathfraction) superScript)  constructor
-
- Initializes a new instance of the MathSuperscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $superscript = new MathematicalText("i");
-  $superscriptElement = new MathSuperscriptElement($baseElement, $superscript);
-```
-
-
----
-
-
-## MathSuperscriptElement([MathFraction](../../mathfraction) baseArg, [MathematicalText](../../mathematicaltext) superScript)  constructor
-
- Initializes a new instance of the MathSuperscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $superscript = new MathematicalText("i");
-  $superscriptElement = new MathSuperscriptElement($baseElement, $superscript);
-```
-
-
----
-
-
-## MathSuperscriptElement([MathFraction](../../mathfraction) baseArg, [MathBox](../../mathbox) superScript)  constructor
-
- Initializes a new instance of the MathSuperscriptElement class.
- 
-Example:
- 
-```php
-  $baseElement = new MathematicalText("X");
-  $superscript = new MathematicalText("i");
-  $superscriptElement = new MathSuperscriptElement($baseElement, $superscript);
-```
-
-
----
-
-
-## MathSuperscriptElement([MathFraction](../../mathfraction) baseArg, [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) superScript)  constructor
 
  Initializes a new instance of the MathSuperscriptElement class.
  
@@ -4983,7 +4679,7 @@ Example:
 ---
 
 
-## MathSuperscriptElement([MathematicalText](../../mathematicaltext) baseArg, [MathAccent](../../mathaccent) superScript)  constructor
+## MathSuperscriptElement([MathematicalText](../../mathematicaltext) baseArg, [MathNaryOperator](../../mathnaryoperator) superScript)  constructor
 
  Initializes a new instance of the MathSuperscriptElement class.
  
@@ -4999,7 +4695,7 @@ Example:
 ---
 
 
-## MathSuperscriptElement([MathematicalText](../../mathematicaltext) baseArg, [MathNaryOperator](../../mathnaryoperator) superScript)  constructor
+## MathSuperscriptElement([MathematicalText](../../mathematicaltext) baseArg, [MathAccent](../../mathaccent) superScript)  constructor
 
  Initializes a new instance of the MathSuperscriptElement class.
  
@@ -5063,7 +4759,7 @@ Example:
 ---
 
 
-## MathSuperscriptElement([MathematicalText](../../mathematicaltext) baseArg, [MathFunction](../../mathfunction) superScript)  constructor
+## MathSuperscriptElement([MathematicalText](../../mathematicaltext) baseArg, [MathSubscriptElement](../../mathsubscriptelement) superScript)  constructor
 
  Initializes a new instance of the MathSuperscriptElement class.
  
@@ -5079,7 +4775,7 @@ Example:
 ---
 
 
-## MathSuperscriptElement([MathematicalText](../../mathematicaltext) baseArg, [MathSubscriptElement](../../mathsubscriptelement) superScript)  constructor
+## MathSuperscriptElement([MathematicalText](../../mathematicaltext) baseArg, [MathFunction](../../mathfunction) superScript)  constructor
 
  Initializes a new instance of the MathSuperscriptElement class.
  
@@ -5111,7 +4807,7 @@ Example:
 ---
 
 
-## MathSuperscriptElement([MathematicalText](../../mathematicaltext) baseArg, [MathFraction](../../mathfraction) superScript)  constructor
+## MathSuperscriptElement([MathematicalText](../../mathematicaltext) baseArg, [MathematicalText](../../mathematicaltext) superScript)  constructor
 
  Initializes a new instance of the MathSuperscriptElement class.
  
@@ -5127,7 +4823,7 @@ Example:
 ---
 
 
-## MathSuperscriptElement([MathematicalText](../../mathematicaltext) baseArg, [MathematicalText](../../mathematicaltext) superScript)  constructor
+## MathSuperscriptElement([MathematicalText](../../mathematicaltext) baseArg, [MathFraction](../../mathfraction) superScript)  constructor
 
  Initializes a new instance of the MathSuperscriptElement class.
  
@@ -5160,6 +4856,310 @@ Example:
 
 
 ## MathSuperscriptElement([MathematicalText](../../mathematicaltext) baseArg, [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) superScript)  constructor
+
+ Initializes a new instance of the MathSuperscriptElement class.
+ 
+Example:
+ 
+```php
+  $baseElement = new MathematicalText("X");
+  $superscript = new MathematicalText("i");
+  $superscriptElement = new MathSuperscriptElement($baseElement, $superscript);
+```
+
+
+---
+
+
+## MathSuperscriptElement([MathFraction](../../mathfraction) baseArg, [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) superScript)  constructor
+
+ Initializes a new instance of the MathSuperscriptElement class.
+ 
+Example:
+ 
+```php
+  $baseElement = new MathematicalText("X");
+  $superscript = new MathematicalText("i");
+  $superscriptElement = new MathSuperscriptElement($baseElement, $superscript);
+```
+
+
+---
+
+
+## MathSuperscriptElement([MathFraction](../../mathfraction) baseArg, [MathMatrix](../../mathmatrix) superScript)  constructor
+
+ Initializes a new instance of the MathSuperscriptElement class.
+ 
+Example:
+ 
+```php
+  $baseElement = new MathematicalText("X");
+  $superscript = new MathematicalText("i");
+  $superscriptElement = new MathSuperscriptElement($baseElement, $superscript);
+```
+
+
+---
+
+
+## MathSuperscriptElement([MathFraction](../../mathfraction) baseArg, [MathLimit](../../mathlimit) superScript)  constructor
+
+ Initializes a new instance of the MathSuperscriptElement class.
+ 
+Example:
+ 
+```php
+  $baseElement = new MathematicalText("X");
+  $superscript = new MathematicalText("i");
+  $superscriptElement = new MathSuperscriptElement($baseElement, $superscript);
+```
+
+
+---
+
+
+## MathSuperscriptElement([MathFraction](../../mathfraction) baseArg, [MathBlock](../../mathblock) superScript)  constructor
+
+ Initializes a new instance of the MathSuperscriptElement class.
+ 
+Example:
+ 
+```php
+  $baseElement = new MathematicalText("X");
+  $superscript = new MathematicalText("i");
+  $superscriptElement = new MathSuperscriptElement($baseElement, $superscript);
+```
+
+
+---
+
+
+## MathSuperscriptElement([MathFraction](../../mathfraction) baseArg, [MathRadical](../../mathradical) superScript)  constructor
+
+ Initializes a new instance of the MathSuperscriptElement class.
+ 
+Example:
+ 
+```php
+  $baseElement = new MathematicalText("X");
+  $superscript = new MathematicalText("i");
+  $superscriptElement = new MathSuperscriptElement($baseElement, $superscript);
+```
+
+
+---
+
+
+## MathSuperscriptElement([MathFraction](../../mathfraction) baseArg, [MathArray](../../matharray) superScript)  constructor
+
+ Initializes a new instance of the MathSuperscriptElement class.
+ 
+Example:
+ 
+```php
+  $baseElement = new MathematicalText("X");
+  $superscript = new MathematicalText("i");
+  $superscriptElement = new MathSuperscriptElement($baseElement, $superscript);
+```
+
+
+---
+
+
+## MathSuperscriptElement([MathFraction](../../mathfraction) baseArg, [MathDelimiter](../../mathdelimiter) superScript)  constructor
+
+ Initializes a new instance of the MathSuperscriptElement class.
+ 
+Example:
+ 
+```php
+  $baseElement = new MathematicalText("X");
+  $superscript = new MathematicalText("i");
+  $superscriptElement = new MathSuperscriptElement($baseElement, $superscript);
+```
+
+
+---
+
+
+## MathSuperscriptElement([MathFraction](../../mathfraction) baseArg, [MathNaryOperator](../../mathnaryoperator) superScript)  constructor
+
+ Initializes a new instance of the MathSuperscriptElement class.
+ 
+Example:
+ 
+```php
+  $baseElement = new MathematicalText("X");
+  $superscript = new MathematicalText("i");
+  $superscriptElement = new MathSuperscriptElement($baseElement, $superscript);
+```
+
+
+---
+
+
+## MathSuperscriptElement([MathFraction](../../mathfraction) baseArg, [MathAccent](../../mathaccent) superScript)  constructor
+
+ Initializes a new instance of the MathSuperscriptElement class.
+ 
+Example:
+ 
+```php
+  $baseElement = new MathematicalText("X");
+  $superscript = new MathematicalText("i");
+  $superscriptElement = new MathSuperscriptElement($baseElement, $superscript);
+```
+
+
+---
+
+
+## MathSuperscriptElement([MathFraction](../../mathfraction) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) superScript)  constructor
+
+ Initializes a new instance of the MathSuperscriptElement class.
+ 
+Example:
+ 
+```php
+  $baseElement = new MathematicalText("X");
+  $superscript = new MathematicalText("i");
+  $superscriptElement = new MathSuperscriptElement($baseElement, $superscript);
+```
+
+
+---
+
+
+## MathSuperscriptElement([MathFraction](../../mathfraction) baseArg, [MathBorderBox](../../mathborderbox) superScript)  constructor
+
+ Initializes a new instance of the MathSuperscriptElement class.
+ 
+Example:
+ 
+```php
+  $baseElement = new MathematicalText("X");
+  $superscript = new MathematicalText("i");
+  $superscriptElement = new MathSuperscriptElement($baseElement, $superscript);
+```
+
+
+---
+
+
+## MathSuperscriptElement([MathFraction](../../mathfraction) baseArg, [MathBar](../../mathbar) superScript)  constructor
+
+ Initializes a new instance of the MathSuperscriptElement class.
+ 
+Example:
+ 
+```php
+  $baseElement = new MathematicalText("X");
+  $superscript = new MathematicalText("i");
+  $superscriptElement = new MathSuperscriptElement($baseElement, $superscript);
+```
+
+
+---
+
+
+## MathSuperscriptElement([MathFraction](../../mathfraction) baseArg, [MathSubscriptElement](../../mathsubscriptelement) superScript)  constructor
+
+ Initializes a new instance of the MathSuperscriptElement class.
+ 
+Example:
+ 
+```php
+  $baseElement = new MathematicalText("X");
+  $superscript = new MathematicalText("i");
+  $superscriptElement = new MathSuperscriptElement($baseElement, $superscript);
+```
+
+
+---
+
+
+## MathSuperscriptElement([MathFraction](../../mathfraction) baseArg, [MathFunction](../../mathfunction) superScript)  constructor
+
+ Initializes a new instance of the MathSuperscriptElement class.
+ 
+Example:
+ 
+```php
+  $baseElement = new MathematicalText("X");
+  $superscript = new MathematicalText("i");
+  $superscriptElement = new MathSuperscriptElement($baseElement, $superscript);
+```
+
+
+---
+
+
+## MathSuperscriptElement([MathFraction](../../mathfraction) baseArg, [MathSuperscriptElement](../../mathsuperscriptelement) superScript)  constructor
+
+ Initializes a new instance of the MathSuperscriptElement class.
+ 
+Example:
+ 
+```php
+  $baseElement = new MathematicalText("X");
+  $superscript = new MathematicalText("i");
+  $superscriptElement = new MathSuperscriptElement($baseElement, $superscript);
+```
+
+
+---
+
+
+## MathSuperscriptElement([MathFraction](../../mathfraction) baseArg, [MathematicalText](../../mathematicaltext) superScript)  constructor
+
+ Initializes a new instance of the MathSuperscriptElement class.
+ 
+Example:
+ 
+```php
+  $baseElement = new MathematicalText("X");
+  $superscript = new MathematicalText("i");
+  $superscriptElement = new MathSuperscriptElement($baseElement, $superscript);
+```
+
+
+---
+
+
+## MathSuperscriptElement([MathFraction](../../mathfraction) baseArg, [MathFraction](../../mathfraction) superScript)  constructor
+
+ Initializes a new instance of the MathSuperscriptElement class.
+ 
+Example:
+ 
+```php
+  $baseElement = new MathematicalText("X");
+  $superscript = new MathematicalText("i");
+  $superscriptElement = new MathSuperscriptElement($baseElement, $superscript);
+```
+
+
+---
+
+
+## MathSuperscriptElement([MathFraction](../../mathfraction) baseArg, [MathBox](../../mathbox) superScript)  constructor
+
+ Initializes a new instance of the MathSuperscriptElement class.
+ 
+Example:
+ 
+```php
+  $baseElement = new MathematicalText("X");
+  $superscript = new MathematicalText("i");
+  $superscriptElement = new MathSuperscriptElement($baseElement, $superscript);
+```
+
+
+---
+
+
+## MathSuperscriptElement([MathFraction](../../mathfraction) baseArg, [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) superScript)  constructor
 
  Initializes a new instance of the MathSuperscriptElement class.
  
@@ -5287,7 +5287,7 @@ Example:
 ---
 
 
-## MathSuperscriptElement([MathBox](../../mathbox) baseArg, [MathAccent](../../mathaccent) superScript)  constructor
+## MathSuperscriptElement([MathBox](../../mathbox) baseArg, [MathNaryOperator](../../mathnaryoperator) superScript)  constructor
 
  Initializes a new instance of the MathSuperscriptElement class.
  
@@ -5303,7 +5303,7 @@ Example:
 ---
 
 
-## MathSuperscriptElement([MathBox](../../mathbox) baseArg, [MathNaryOperator](../../mathnaryoperator) superScript)  constructor
+## MathSuperscriptElement([MathBox](../../mathbox) baseArg, [MathAccent](../../mathaccent) superScript)  constructor
 
  Initializes a new instance of the MathSuperscriptElement class.
  
@@ -5367,7 +5367,7 @@ Example:
 ---
 
 
-## MathSuperscriptElement([MathBox](../../mathbox) baseArg, [MathFunction](../../mathfunction) superScript)  constructor
+## MathSuperscriptElement([MathBox](../../mathbox) baseArg, [MathSubscriptElement](../../mathsubscriptelement) superScript)  constructor
 
  Initializes a new instance of the MathSuperscriptElement class.
  
@@ -5383,7 +5383,7 @@ Example:
 ---
 
 
-## MathSuperscriptElement([MathBox](../../mathbox) baseArg, [MathSubscriptElement](../../mathsubscriptelement) superScript)  constructor
+## MathSuperscriptElement([MathBox](../../mathbox) baseArg, [MathFunction](../../mathfunction) superScript)  constructor
 
  Initializes a new instance of the MathSuperscriptElement class.
  
@@ -5415,7 +5415,7 @@ Example:
 ---
 
 
-## MathSuperscriptElement([MathBox](../../mathbox) baseArg, [MathFraction](../../mathfraction) superScript)  constructor
+## MathSuperscriptElement([MathBox](../../mathbox) baseArg, [MathematicalText](../../mathematicaltext) superScript)  constructor
 
  Initializes a new instance of the MathSuperscriptElement class.
  
@@ -5431,7 +5431,7 @@ Example:
 ---
 
 
-## MathSuperscriptElement([MathBox](../../mathbox) baseArg, [MathematicalText](../../mathematicaltext) superScript)  constructor
+## MathSuperscriptElement([MathBox](../../mathbox) baseArg, [MathFraction](../../mathfraction) superScript)  constructor
 
  Initializes a new instance of the MathSuperscriptElement class.
  
@@ -5591,7 +5591,7 @@ Example:
 ---
 
 
-## MathSuperscriptElement([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) baseArg, [MathAccent](../../mathaccent) superScript)  constructor
+## MathSuperscriptElement([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) baseArg, [MathNaryOperator](../../mathnaryoperator) superScript)  constructor
 
  Initializes a new instance of the MathSuperscriptElement class.
  
@@ -5607,7 +5607,7 @@ Example:
 ---
 
 
-## MathSuperscriptElement([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) baseArg, [MathNaryOperator](../../mathnaryoperator) superScript)  constructor
+## MathSuperscriptElement([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) baseArg, [MathAccent](../../mathaccent) superScript)  constructor
 
  Initializes a new instance of the MathSuperscriptElement class.
  
@@ -5671,7 +5671,7 @@ Example:
 ---
 
 
-## MathSuperscriptElement([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) baseArg, [MathFunction](../../mathfunction) superScript)  constructor
+## MathSuperscriptElement([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) baseArg, [MathSubscriptElement](../../mathsubscriptelement) superScript)  constructor
 
  Initializes a new instance of the MathSuperscriptElement class.
  
@@ -5687,7 +5687,7 @@ Example:
 ---
 
 
-## MathSuperscriptElement([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) baseArg, [MathSubscriptElement](../../mathsubscriptelement) superScript)  constructor
+## MathSuperscriptElement([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) baseArg, [MathFunction](../../mathfunction) superScript)  constructor
 
  Initializes a new instance of the MathSuperscriptElement class.
  
@@ -5719,7 +5719,7 @@ Example:
 ---
 
 
-## MathSuperscriptElement([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) baseArg, [MathFraction](../../mathfraction) superScript)  constructor
+## MathSuperscriptElement([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) baseArg, [MathematicalText](../../mathematicaltext) superScript)  constructor
 
  Initializes a new instance of the MathSuperscriptElement class.
  
@@ -5735,7 +5735,7 @@ Example:
 ---
 
 
-## MathSuperscriptElement([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) baseArg, [MathematicalText](../../mathematicaltext) superScript)  constructor
+## MathSuperscriptElement([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) baseArg, [MathFraction](../../mathfraction) superScript)  constructor
 
  Initializes a new instance of the MathSuperscriptElement class.
  

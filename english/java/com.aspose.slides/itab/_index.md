@@ -3,7 +3,7 @@ title: ITab
 second_title: Aspose.Slides for Java API Reference
 description: Represents a tabulation for a text.
 type: docs
-weight: 1054
+weight: 1058
 url: /java/com.aspose.slides/itab/
 ---
 **All Implemented Interfaces:**

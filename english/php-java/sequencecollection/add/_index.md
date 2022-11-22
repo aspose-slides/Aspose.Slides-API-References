@@ -7,19 +7,6 @@ weight: 10
 url: /php-java/sequencecollection/add/
 ---
 
-## add([Connector](../../connector) shapeTrigger)  method
-
- Add new interactive sequence.
- Read/write  Sequence.
- 
-
-### Returns
-[Sequence](../../sequence)
-
-
----
-
-
 ## add([GraphicalObject](../../graphicalobject) shapeTrigger)  method
 
  Add new interactive sequence.
@@ -33,7 +20,7 @@ url: /php-java/sequencecollection/add/
 ---
 
 
-## add([SmartArtShape](../../smartartshape) shapeTrigger)  method
+## add([Connector](../../connector) shapeTrigger)  method
 
  Add new interactive sequence.
  Read/write  Sequence.
@@ -47,6 +34,19 @@ url: /php-java/sequencecollection/add/
 
 
 ## add([Table](../../table) shapeTrigger)  method
+
+ Add new interactive sequence.
+ Read/write  Sequence.
+ 
+
+### Returns
+[Sequence](../../sequence)
+
+
+---
+
+
+## add([SmartArtShape](../../smartartshape) shapeTrigger)  method
 
  Add new interactive sequence.
  Read/write  Sequence.
@@ -98,7 +98,7 @@ url: /php-java/sequencecollection/add/
 ---
 
 
-## add([SummaryZoomSection](../../summaryzoomsection) shapeTrigger)  method
+## add([ZoomFrame](../../zoomframe) shapeTrigger)  method
 
  Add new interactive sequence.
  Read/write  Sequence.
@@ -111,7 +111,7 @@ url: /php-java/sequencecollection/add/
 ---
 
 
-## add([ZoomFrame](../../zoomframe) shapeTrigger)  method
+## add([SummaryZoomSection](../../summaryzoomsection) shapeTrigger)  method
 
  Add new interactive sequence.
  Read/write  Sequence.
@@ -189,19 +189,6 @@ url: /php-java/sequencecollection/add/
 ---
 
 
-## add([SectionZoomFrame](../../sectionzoomframe) shapeTrigger)  method
-
- Add new interactive sequence.
- Read/write  Sequence.
- 
-
-### Returns
-[Sequence](../../sequence)
-
-
----
-
-
 ## add([PictureFrame](../../pictureframe) shapeTrigger)  method
 
  Add new interactive sequence.
@@ -215,7 +202,7 @@ url: /php-java/sequencecollection/add/
 ---
 
 
-## add([AudioFrame](../../audioframe) shapeTrigger)  method
+## add([SectionZoomFrame](../../sectionzoomframe) shapeTrigger)  method
 
  Add new interactive sequence.
  Read/write  Sequence.
@@ -241,7 +228,7 @@ url: /php-java/sequencecollection/add/
 ---
 
 
-## add([ZoomObject](../../zoomobject) shapeTrigger)  method
+## add([AudioFrame](../../audioframe) shapeTrigger)  method
 
  Add new interactive sequence.
  Read/write  Sequence.
@@ -255,6 +242,19 @@ url: /php-java/sequencecollection/add/
 
 
 ## add([LegacyDiagram](../../legacydiagram) shapeTrigger)  method
+
+ Add new interactive sequence.
+ Read/write  Sequence.
+ 
+
+### Returns
+[Sequence](../../sequence)
+
+
+---
+
+
+## add([ZoomObject](../../zoomobject) shapeTrigger)  method
 
  Add new interactive sequence.
  Read/write  Sequence.

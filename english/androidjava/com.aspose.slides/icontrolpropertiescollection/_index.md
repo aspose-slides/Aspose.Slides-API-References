@@ -3,7 +3,7 @@ title: IControlPropertiesCollection
 second_title: Aspose.Slides for Android via Java API Reference
 description: A collection of ActiveX controls.
 type: docs
-weight: 732
+weight: 735
 url: /androidjava/com.aspose.slides/icontrolpropertiescollection/
 ---
 **All Implemented Interfaces:**

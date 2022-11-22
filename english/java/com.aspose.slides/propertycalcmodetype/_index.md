@@ -3,7 +3,7 @@ title: PropertyCalcModeType
 second_title: Aspose.Slides for Java API Reference
 description: Represent calc mode for animation property.
 type: docs
-weight: 453
+weight: 456
 url: /java/com.aspose.slides/propertycalcmodetype/
 ---
 **Inheritance:**

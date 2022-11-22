@@ -3,7 +3,7 @@ title: IChartDataWorkbook
 second_title: Aspose.Slides for Android via Java API Reference
 description: Provides access to embedded Excel workbook
 type: docs
-weight: 691
+weight: 694
 url: /androidjava/com.aspose.slides/ichartdataworkbook/
 ---```
 public interface IChartDataWorkbook

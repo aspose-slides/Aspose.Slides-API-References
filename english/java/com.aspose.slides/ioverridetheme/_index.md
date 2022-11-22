@@ -3,7 +3,7 @@ title: IOverrideTheme
 second_title: Aspose.Slides for Java API Reference
 description: Represents a overriding theme.
 type: docs
-weight: 947
+weight: 950
 url: /java/com.aspose.slides/ioverridetheme/
 ---
 **All Implemented Interfaces:**

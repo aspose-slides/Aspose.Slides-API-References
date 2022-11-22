@@ -19,7 +19,7 @@ url: /php-java/gifoptions/gettransitionfps/
   try {
     $gifOptions = new GifOptions();
     $gifOptions->setTransitionFps(60);
-    $pres->save("pres.gif", SaveFormat.Gif, $gifOptions);
+    $pres->save("pres.gif", SaveFormat::Gif, $gifOptions);
   } finally {
     if ($pres != null) {
       $pres->dispose();

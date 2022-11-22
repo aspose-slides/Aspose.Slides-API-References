@@ -3,7 +3,7 @@ title: IHtmlGenerator
 second_title: Aspose.Slides for Android via Java API Reference
 description: Html generator.
 type: docs
-weight: 823
+weight: 826
 url: /androidjava/com.aspose.slides/ihtmlgenerator/
 ---```
 public interface IHtmlGenerator

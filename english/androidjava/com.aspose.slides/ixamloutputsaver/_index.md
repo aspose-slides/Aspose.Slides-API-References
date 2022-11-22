@@ -3,7 +3,7 @@ title: IXamlOutputSaver
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents an output saver implementation for transfer data to the external storage.
 type: docs
-weight: 1107
+weight: 1111
 url: /androidjava/com.aspose.slides/ixamloutputsaver/
 ---```
 public interface IXamlOutputSaver

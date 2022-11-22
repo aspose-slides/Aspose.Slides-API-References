@@ -3,7 +3,7 @@ title: IAdjustValue
 second_title: Aspose.Slides for Java API Reference
 description: Represents a geometry shapes adjustment value.
 type: docs
-weight: 623
+weight: 626
 url: /java/com.aspose.slides/iadjustvalue/
 ---```
 public interface IAdjustValue

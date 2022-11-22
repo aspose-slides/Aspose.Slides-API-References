@@ -3,7 +3,7 @@ title: IMathMatrix
 second_title: Aspose.Slides for Java API Reference
 description: Specifies the Matrix object consisting of child elements laid out in one or more rows and columns.
 type: docs
-weight: 904
+weight: 907
 url: /java/com.aspose.slides/imathmatrix/
 ---
 **All Implemented Interfaces:**

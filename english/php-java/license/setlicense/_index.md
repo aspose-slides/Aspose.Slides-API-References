@@ -16,8 +16,24 @@ Licenses the component.
  
 
 ```php
-$license = new License();
-$license->setLicense("MyLicense.lic");
+  $example;
+  $an;
+  $be;
+  $find;
+  $file;
+  $in;
+  $that;
+  $component;
+  $in;
+  $that;
+  $calling;
+  $in;
+  $of;
+  $assembly;
+  $in;
+  $resources;
+  $calling;
+  $assembly = $$missing$;
 ```
 
 ### Parameters
@@ -42,8 +58,24 @@ Licenses the component.
  
 
 ```php
-$license = new License();
-$license->setLicense("MyLicense.lic");
+  $example;
+  $an;
+  $be;
+  $find;
+  $file;
+  $in;
+  $that;
+  $component;
+  $in;
+  $that;
+  $calling;
+  $in;
+  $of;
+  $assembly;
+  $in;
+  $resources;
+  $calling;
+  $assembly = $$missing$;
 ```
 
 ### Parameters

@@ -3,7 +3,7 @@ title: ISwfOptions
 second_title: Aspose.Slides for Java API Reference
 description: Provides options that control how a presentation is saved in SWF format.
 type: docs
-weight: 1053
+weight: 1057
 url: /java/com.aspose.slides/iswfoptions/
 ---
 **All Implemented Interfaces:**

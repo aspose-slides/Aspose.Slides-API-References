@@ -3,7 +3,7 @@ title: LinkEmbedDecision
 second_title: Aspose.Slides for Java API Reference
 description: Determines how object will be processed during saving.
 type: docs
-weight: 288
+weight: 289
 url: /java/com.aspose.slides/linkembeddecision/
 ---
 **Inheritance:**

@@ -3,7 +3,7 @@ title: MathRadicalFactory
 second_title: Aspose.Slides for Android via Java API Reference
 description: Allows to create math radical
 type: docs
-weight: 347
+weight: 348
 url: /androidjava/com.aspose.slides/mathradicalfactory/
 ---
 **Inheritance:**

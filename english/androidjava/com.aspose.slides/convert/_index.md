@@ -190,7 +190,11 @@ Converts [Presentation](../../com.aspose.slides/presentation) to SVG.
 --------------------
 
 > ```
-> Convert.toSvg("pres.pptx", (slide, index) -> String.format("pres_%d-out.svg", index));
+> Convert.toSvg("pres.pptx", new Convert.GetOutPathCallback() {
+>      public String invoke(Slide slide, int index) {
+>          return String.format("pres_%d-out.svg", index);
+>      }
+>  });
 > ```
 
 **Parameters:**
@@ -212,7 +216,11 @@ Converts [Presentation](../../com.aspose.slides/presentation) to SVG.
 > ```
 > Presentation pres = new Presentation("input.pptx");
 >  try {
->      Convert.toSvg(pres, (slide, index) -> String.format("pres_%d-out.svg", index));
+>      Convert.toSvg(pres, new Convert.GetOutPathCallback() {
+>          public String invoke(Slide slide, int index) {
+>              return String.format("pres_%d-out.svg", index);
+>          }
+>      });
 >  } finally {
 >      if (pres != null) pres.dispose();
 >  }
@@ -266,7 +274,11 @@ Converts [Presentation](../../com.aspose.slides/presentation) to SVG.
 >  try {
 >      SVGOptions svgOptions = new SVGOptions();
 >      svgOptions.setVectorizeText(true);
->      Convert.toSvg(pres, (slide, index) -> String.format("pres_%d-out.svg", index), svgOptions);
+>      Convert.toSvg(pres, new Convert.GetOutPathCallback() {
+>          public String invoke(Slide slide, int index) {
+>              return String.format("pres_%d-out.svg", index);
+>          }
+>      }, svgOptions);
 >  } finally {
 >      if (pres != null) pres.dispose();
 >  }

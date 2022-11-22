@@ -7,27 +7,6 @@ weight: 10
 url: /php-java/sequence/addeffect/
 ---
 
-## addEffect([Connector](../../connector) shape, int effectType, int subtype, int triggerType)  method
-
- Add new effect to the end of sequence.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| shape | [Connector](../connector) | Shape object IShape for adding an effect |
-| effectType | int | Type of an animation effect EffectType |
-| subtype | int | Subtypes of animation effect EffectSubtype |
-| triggerType | int | Trigger type of effect EffectTriggerType |
-
-### Returns
-[Effect](../../effect)
-
-
----
-
-
 ## addEffect([GraphicalObject](../../graphicalobject) shape, int effectType, int subtype, int triggerType)  method
 
  Add new effect to the end of sequence.
@@ -49,7 +28,7 @@ url: /php-java/sequence/addeffect/
 ---
 
 
-## addEffect([SmartArtShape](../../smartartshape) shape, int effectType, int subtype, int triggerType)  method
+## addEffect([Connector](../../connector) shape, int effectType, int subtype, int triggerType)  method
 
  Add new effect to the end of sequence.
  
@@ -58,7 +37,7 @@ url: /php-java/sequence/addeffect/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | [SmartArtShape](../smartartshape) | Shape object IShape for adding an effect |
+| shape | [Connector](../connector) | Shape object IShape for adding an effect |
 | effectType | int | Type of an animation effect EffectType |
 | subtype | int | Subtypes of animation effect EffectSubtype |
 | triggerType | int | Trigger type of effect EffectTriggerType |
@@ -80,6 +59,27 @@ url: /php-java/sequence/addeffect/
 | Name | Type | Description |
 | --- | --- | --- |
 | shape | [Table](../table) | Shape object IShape for adding an effect |
+| effectType | int | Type of an animation effect EffectType |
+| subtype | int | Subtypes of animation effect EffectSubtype |
+| triggerType | int | Trigger type of effect EffectTriggerType |
+
+### Returns
+[Effect](../../effect)
+
+
+---
+
+
+## addEffect([SmartArtShape](../../smartartshape) shape, int effectType, int subtype, int triggerType)  method
+
+ Add new effect to the end of sequence.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | [SmartArtShape](../smartartshape) | Shape object IShape for adding an effect |
 | effectType | int | Type of an animation effect EffectType |
 | subtype | int | Subtypes of animation effect EffectSubtype |
 | triggerType | int | Trigger type of effect EffectTriggerType |
@@ -154,7 +154,7 @@ url: /php-java/sequence/addeffect/
 ---
 
 
-## addEffect([SummaryZoomSection](../../summaryzoomsection) shape, int effectType, int subtype, int triggerType)  method
+## addEffect([ZoomFrame](../../zoomframe) shape, int effectType, int subtype, int triggerType)  method
 
  Add new effect to the end of sequence.
  
@@ -163,7 +163,7 @@ url: /php-java/sequence/addeffect/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | [SummaryZoomSection](../summaryzoomsection) | Shape object IShape for adding an effect |
+| shape | [ZoomFrame](../zoomframe) | Shape object IShape for adding an effect |
 | effectType | int | Type of an animation effect EffectType |
 | subtype | int | Subtypes of animation effect EffectSubtype |
 | triggerType | int | Trigger type of effect EffectTriggerType |
@@ -175,7 +175,7 @@ url: /php-java/sequence/addeffect/
 ---
 
 
-## addEffect([ZoomFrame](../../zoomframe) shape, int effectType, int subtype, int triggerType)  method
+## addEffect([SummaryZoomSection](../../summaryzoomsection) shape, int effectType, int subtype, int triggerType)  method
 
  Add new effect to the end of sequence.
  
@@ -184,7 +184,7 @@ url: /php-java/sequence/addeffect/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | [ZoomFrame](../zoomframe) | Shape object IShape for adding an effect |
+| shape | [SummaryZoomSection](../summaryzoomsection) | Shape object IShape for adding an effect |
 | effectType | int | Type of an animation effect EffectType |
 | subtype | int | Subtypes of animation effect EffectSubtype |
 | triggerType | int | Trigger type of effect EffectTriggerType |
@@ -301,27 +301,6 @@ url: /php-java/sequence/addeffect/
 ---
 
 
-## addEffect([SectionZoomFrame](../../sectionzoomframe) shape, int effectType, int subtype, int triggerType)  method
-
- Add new effect to the end of sequence.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| shape | [SectionZoomFrame](../sectionzoomframe) | Shape object IShape for adding an effect |
-| effectType | int | Type of an animation effect EffectType |
-| subtype | int | Subtypes of animation effect EffectSubtype |
-| triggerType | int | Trigger type of effect EffectTriggerType |
-
-### Returns
-[Effect](../../effect)
-
-
----
-
-
 ## addEffect([PictureFrame](../../pictureframe) shape, int effectType, int subtype, int triggerType)  method
 
  Add new effect to the end of sequence.
@@ -343,7 +322,7 @@ url: /php-java/sequence/addeffect/
 ---
 
 
-## addEffect([AudioFrame](../../audioframe) shape, int effectType, int subtype, int triggerType)  method
+## addEffect([SectionZoomFrame](../../sectionzoomframe) shape, int effectType, int subtype, int triggerType)  method
 
  Add new effect to the end of sequence.
  
@@ -352,7 +331,7 @@ url: /php-java/sequence/addeffect/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | [AudioFrame](../audioframe) | Shape object IShape for adding an effect |
+| shape | [SectionZoomFrame](../sectionzoomframe) | Shape object IShape for adding an effect |
 | effectType | int | Type of an animation effect EffectType |
 | subtype | int | Subtypes of animation effect EffectSubtype |
 | triggerType | int | Trigger type of effect EffectTriggerType |
@@ -385,7 +364,7 @@ url: /php-java/sequence/addeffect/
 ---
 
 
-## addEffect([ZoomObject](../../zoomobject) shape, int effectType, int subtype, int triggerType)  method
+## addEffect([AudioFrame](../../audioframe) shape, int effectType, int subtype, int triggerType)  method
 
  Add new effect to the end of sequence.
  
@@ -394,7 +373,7 @@ url: /php-java/sequence/addeffect/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | [ZoomObject](../zoomobject) | Shape object IShape for adding an effect |
+| shape | [AudioFrame](../audioframe) | Shape object IShape for adding an effect |
 | effectType | int | Type of an animation effect EffectType |
 | subtype | int | Subtypes of animation effect EffectSubtype |
 | triggerType | int | Trigger type of effect EffectTriggerType |
@@ -416,6 +395,27 @@ url: /php-java/sequence/addeffect/
 | Name | Type | Description |
 | --- | --- | --- |
 | shape | [LegacyDiagram](../legacydiagram) | Shape object IShape for adding an effect |
+| effectType | int | Type of an animation effect EffectType |
+| subtype | int | Subtypes of animation effect EffectSubtype |
+| triggerType | int | Trigger type of effect EffectTriggerType |
+
+### Returns
+[Effect](../../effect)
+
+
+---
+
+
+## addEffect([ZoomObject](../../zoomobject) shape, int effectType, int subtype, int triggerType)  method
+
+ Add new effect to the end of sequence.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | [ZoomObject](../zoomobject) | Shape object IShape for adding an effect |
 | effectType | int | Type of an animation effect EffectType |
 | subtype | int | Subtypes of animation effect EffectSubtype |
 | triggerType | int | Trigger type of effect EffectTriggerType |

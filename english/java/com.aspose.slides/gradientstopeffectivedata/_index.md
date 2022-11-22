@@ -3,7 +3,7 @@ title: GradientStopEffectiveData
 second_title: Aspose.Slides for Java API Reference
 description: Immutable object which represents a gradient stop.
 type: docs
-weight: 230
+weight: 231
 url: /java/com.aspose.slides/gradientstopeffectivedata/
 ---
 **Inheritance:**

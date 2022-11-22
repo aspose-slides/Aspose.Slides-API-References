@@ -3,7 +3,7 @@ title: HyperlinkActionType
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a type of hyperlink action.
 type: docs
-weight: 243
+weight: 244
 url: /androidjava/com.aspose.slides/hyperlinkactiontype/
 ---
 **Inheritance:**

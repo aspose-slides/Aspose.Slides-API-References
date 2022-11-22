@@ -19,7 +19,7 @@ url: /php-java/gifoptions/getexporthiddenslides/
   try {
     $gifOptions = new GifOptions();
     $gifOptions->setExportHiddenSlides(false);
-    $pres->save("pres.gif", SaveFormat.Gif, $gifOptions);
+    $pres->save("pres.gif", SaveFormat::Gif, $gifOptions);
   } finally {
     if ($pres != null) {
       $pres->dispose();

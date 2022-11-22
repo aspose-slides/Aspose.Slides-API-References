@@ -7,8 +7,6 @@ weight: 10
 url: /java/com.aspose.slides/
 ---
 
-Contains classes for work with Microsoft PowerPoint presentations without utilizing Microsoft PowerPoint.
-
 ## Classes
 
 | Class | Description |
@@ -221,6 +219,7 @@ Contains classes for work with Microsoft PowerPoint presentations without utiliz
 | [Format](../com.aspose.slides/format) | Represents chart format properties. |
 | [FormatFactory](../com.aspose.slides/formatfactory) | Allows to create formats via COM interface. |
 | [FormatScheme](../com.aspose.slides/formatscheme) | Stores theme-defined formats for the shapes. |
+| [FrameTickEventArgs](../com.aspose.slides/frametickeventargs) | Represents arguments of the PresentationPlayer.FrameTick event. |
 | [GeometryPath](../com.aspose.slides/geometrypath) | Represents geometry path of GeometryShape |
 | [GeometryShape](../com.aspose.slides/geometryshape) | Represents the parent class for all geometric shapes. |
 | [GifOptions](../com.aspose.slides/gifoptions) | Represents GIF exporting options. |
@@ -447,10 +446,12 @@ Contains classes for work with Microsoft PowerPoint presentations without utiliz
 | [PptxReadException](../com.aspose.slides/pptxreadexception) | Represents an exception which thrown on presentation reading errors. |
 | [PptxUnsupportedFormatException](../com.aspose.slides/pptxunsupportedformatexception) | Exception which thrown when presentation file format is unsupported. |
 | [Presentation](../com.aspose.slides/presentation) | Represents a Microsoft PowerPoint presentation. |
+| [PresentationAnimationsGenerator](../com.aspose.slides/presentationanimationsgenerator) | Represents a generator of the animations in the [Presentation](../com.aspose.slides/presentation). |
 | [PresentationFactory](../com.aspose.slides/presentationfactory) | Allows to create presentation via COM interface |
 | [PresentationHeaderFooterManager](../com.aspose.slides/presentationheaderfootermanager) | Represents manager which holds behavior of all footer, date-time and page number placeholders of presentation. |
 | [PresentationInfo](../com.aspose.slides/presentationinfo) | Information about presentation file |
 | [PresentationLockingBehavior](../com.aspose.slides/presentationlockingbehavior) | Represents the behavior regarding treating the [IPresentation](../com.aspose.slides/ipresentation) source (file or java.io.InputStream) while loading and working with an instance of [IPresentation](../com.aspose.slides/ipresentation). |
+| [PresentationPlayer](../com.aspose.slides/presentationplayer) | Represents the player of animations associated with the [Presentation](../com.aspose.slides/presentation). |
 | [PresentationText](../com.aspose.slides/presentationtext) | Represents the text extracted from the presentation |
 | [PresentedBySpeaker](../com.aspose.slides/presentedbyspeaker) | Presented by a speaker (full screen) |
 | [PresetColor](../com.aspose.slides/presetcolor) | Represents predefined color presets. |
@@ -985,6 +986,7 @@ Contains classes for work with Microsoft PowerPoint presentations without utiliz
 | [IPptOptions](../com.aspose.slides/ipptoptions) | Provides options that control how a presentation is saved in PPT format. |
 | [IPptxOptions](../com.aspose.slides/ipptxoptions) | Represents options for saving OpenXml presentations (PPTX, PPSX, POTX, PPTM, PPSM, POTM). |
 | [IPresentation](../com.aspose.slides/ipresentation) | Presentation document |
+| [IPresentationAnimationPlayer](../com.aspose.slides/ipresentationanimationplayer) | Represents a player of the animation. |
 | [IPresentationComponent](../com.aspose.slides/ipresentationcomponent) | Represents a component of a presentation. |
 | [IPresentationFactory](../com.aspose.slides/ipresentationfactory) | Allows to create presentation via COM interface |
 | [IPresentationHeaderFooterManager](../com.aspose.slides/ipresentationheaderfootermanager) | Represents manager which holds behavior of all footer, date-time and page number placeholders of presentation. |

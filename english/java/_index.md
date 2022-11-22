@@ -9,4 +9,4 @@ is_root: true
 ## Packages
 | Package | Description |
 | --- | --- |
-| [com.aspose.slides](./com.aspose.slides) | Contains classes for work with Microsoft PowerPoint presentations without utilizing Microsoft PowerPoint. |
+| [com.aspose.slides](./com.aspose.slides) |  |

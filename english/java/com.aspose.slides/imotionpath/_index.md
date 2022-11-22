@@ -3,7 +3,7 @@ title: IMotionPath
 second_title: Aspose.Slides for Java API Reference
 description: Represent motion path.
 type: docs
-weight: 927
+weight: 930
 url: /java/com.aspose.slides/imotionpath/
 ---
 **All Implemented Interfaces:**

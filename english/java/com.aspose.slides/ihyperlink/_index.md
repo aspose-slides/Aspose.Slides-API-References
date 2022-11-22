@@ -3,7 +3,7 @@ title: IHyperlink
 second_title: Aspose.Slides for Java API Reference
 description: Represents a hyperlink.
 type: docs
-weight: 825
+weight: 828
 url: /java/com.aspose.slides/ihyperlink/
 ---```
 public interface IHyperlink
@@ -27,6 +27,8 @@ Represents a hyperlink.
 | [setHighlightClick(boolean value)](#setHighlightClick-boolean-) | Determines whether the hyperlink should be highlighted on click. |
 | [getStopSoundOnClick()](#getStopSoundOnClick--) | Determines whether the sound should be stopped on hyperlink click. |
 | [setStopSoundOnClick(boolean value)](#setStopSoundOnClick-boolean-) | Determines whether the sound should be stopped on hyperlink click. |
+| [getSound()](#getSound--) | Represents the playing sound of the hyperlink. |
+| [setSound(IAudio value)](#setSound-com.aspose.slides.IAudio-) | Represents the playing sound of the hyperlink. |
 | [getColorSource()](#getColorSource--) | Represents the source of hyperlink color - either styles or portion format. |
 | [setColorSource(int value)](#setColorSource-int-) | Represents the source of hyperlink color - either styles or portion format. |
 | [equals(IHyperlink hlink)](#equals-com.aspose.slides.IHyperlink-) | Determines whether the two Hyperlink instances are equal. |
@@ -174,6 +176,69 @@ Determines whether the sound should be stopped on hyperlink click. Read/write bo
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
+
+### getSound() {#getSound--}
+```
+public abstract IAudio getSound()
+```
+
+
+Represents the playing sound of the hyperlink. Read/write [IAudio](../../com.aspose.slides/iaudio).
+
+--------------------
+
+> ```
+> Presentation presentation = new Presentation("demo.pptx");
+>  try {
+>      ISlide slide = presentation.getSlides().get_Item(0);
+> 
+>      // Get the first shape hyperlink
+>      IHyperlink link = presentation.getSlides().get_Item(0).getShapes().get_Item(0).getHyperlinkClick();
+> 
+>      if (link.getSound() != null)
+>      {
+>          // Extract the hyperlink sound in byte array
+>          byte[] audioData = link.getSound().getBinaryData();
+>      }
+>  } finally {
+>      if (presentation != null) presentation.dispose();
+>  }
+> ```
+
+**Returns:**
+[IAudio](../../com.aspose.slides/iaudio)
+### setSound(IAudio value) {#setSound-com.aspose.slides.IAudio-}
+```
+public abstract void setSound(IAudio value)
+```
+
+
+Represents the playing sound of the hyperlink. Read/write [IAudio](../../com.aspose.slides/iaudio).
+
+--------------------
+
+> ```
+> Presentation presentation = new Presentation("demo.pptx");
+>  try {
+>      ISlide slide = presentation.getSlides().get_Item(0);
+> 
+>      // Get the first shape hyperlink
+>      IHyperlink link = presentation.getSlides().get_Item(0).getShapes().get_Item(0).getHyperlinkClick();
+> 
+>      if (link.getSound() != null)
+>      {
+>          // Extract the hyperlink sound in byte array
+>          byte[] audioData = link.getSound().getBinaryData();
+>      }
+>  } finally {
+>      if (presentation != null) presentation.dispose();
+>  }
+> ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [IAudio](../../com.aspose.slides/iaudio) |  |
 
 ### getColorSource() {#getColorSource--}
 ```

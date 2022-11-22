@@ -3,7 +3,7 @@ title: MathematicalText
 second_title: Aspose.Slides for Java API Reference
 description: Mathematical text
 type: docs
-weight: 358
+weight: 359
 url: /java/com.aspose.slides/mathematicaltext/
 ---
 **Inheritance:**

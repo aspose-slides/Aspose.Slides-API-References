@@ -3,7 +3,7 @@ title: IRotationEffect
 second_title: Aspose.Slides for Java API Reference
 description: Represent rotation behavior of effect.
 type: docs
-weight: 997
+weight: 1001
 url: /java/com.aspose.slides/irotationeffect/
 ---
 **All Implemented Interfaces:**

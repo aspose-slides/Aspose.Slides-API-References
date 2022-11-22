@@ -3,7 +3,7 @@ title: Row
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a row in a table.
 type: docs
-weight: 468
+weight: 471
 url: /androidjava/com.aspose.slides/row/
 ---
 **Inheritance:**

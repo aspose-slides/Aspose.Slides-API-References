@@ -3,7 +3,7 @@ title: IShape
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a shape on a slide.
 type: docs
-weight: 1013
+weight: 1017
 url: /androidjava/com.aspose.slides/ishape/
 ---
 **All Implemented Interfaces:**
@@ -61,6 +61,7 @@ Represents a shape on a slide.
 | [getParentGroup()](#getParentGroup--) | Returns parent GroupShape object if shape is grouped. |
 | [writeAsSvg(OutputStream stream)](#writeAsSvg-java.io.OutputStream-) | Saves content of Shape as SVG file. |
 | [writeAsSvg(OutputStream stream, ISVGOptions svgOptions)](#writeAsSvg-java.io.OutputStream-com.aspose.slides.ISVGOptions-) | Saves content of Shape as SVG file. |
+| [getBasePlaceholder()](#getBasePlaceholder--) | Returns a basic placeholder shape (shape from the layout and/or master slide that the current shape is inherited from). |
 ### isTextHolder() {#isTextHolder--}
 ```
 public abstract boolean isTextHolder()
@@ -694,3 +695,35 @@ Saves content of Shape as SVG file.
 | stream | java.io.OutputStream | Target stream |
 | svgOptions | [ISVGOptions](../../com.aspose.slides/isvgoptions) | SVG generation options |
 
+### getBasePlaceholder() {#getBasePlaceholder--}
+```
+public abstract IShape getBasePlaceholder()
+```
+
+
+Returns a basic placeholder shape (shape from the layout and/or master slide that the current shape is inherited from).
+
+--------------------
+
+> ```
+> // get all (master/layout/slide) animated effects of the placeholder shape
+>  Presentation pres = new Presentation("sample.pptx");
+>  try {
+>      ISlide slide = pres.getSlides().get_Item(0);
+>      IShape shape = slide.getShapes().get_Item(0);
+>      IEffect[] shapeEffects = slide.getLayoutSlide().getTimeline().getMainSequence().getEffectsByShape(shape);
+>      IShape layoutShape = shape.getBasePlaceholder();
+>      IEffect[] layoutShapeEffects = slide.getLayoutSlide().getTimeline().getMainSequence().getEffectsByShape(layoutShape);
+>      IShape masterShape = layoutShape.getBasePlaceholder();
+>      IEffect[] masterShapeEffects = slide.getLayoutSlide().getMasterSlide().getTimeline().getMainSequence().getEffectsByShape(masterShape);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+--------------------
+
+A null is returned if the current shape is not inherited.
+
+**Returns:**
+[IShape](../../com.aspose.slides/ishape)

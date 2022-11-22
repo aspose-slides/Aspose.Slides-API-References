@@ -3,7 +3,7 @@ title: Input
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a collection of input elements templates for IWebDocument.
 type: docs
-weight: 256
+weight: 257
 url: /androidjava/com.aspose.slides/input/
 ---
 **Inheritance:**

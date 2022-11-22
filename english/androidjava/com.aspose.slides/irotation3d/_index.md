@@ -3,7 +3,7 @@ title: IRotation3D
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents 3D rotation of a chart.
 type: docs
-weight: 996
+weight: 1000
 url: /androidjava/com.aspose.slides/irotation3d/
 ---```
 public interface IRotation3D
@@ -14,10 +14,10 @@ Represents 3D rotation of a chart.
 
 | Method | Description |
 | --- | --- |
-| [getRotationX()](#getRotationX--) | Returns or sets the rotation degree around the X-axis, i.e. in the Y direction for 3D charts (between -90 and 90 degrees). |
-| [setRotationX(byte value)](#setRotationX-byte-) | Returns or sets the rotation degree around the X-axis, i.e. in the Y direction for 3D charts (between -90 and 90 degrees). |
-| [getRotationY()](#getRotationY--) | Returns or sets the rotation degree around the Y-axis, i.e. in the X direction for 3D charts (between 0 and 360 degrees). |
-| [setRotationY(int value)](#setRotationY-int-) | Returns or sets the rotation degree around the Y-axis, i.e. in the X direction for 3D charts (between 0 and 360 degrees). |
+| [getRotationX()](#getRotationX--) | Returns or sets the rotation degree around the X-axis, i.e. |
+| [setRotationX(byte value)](#setRotationX-byte-) | Returns or sets the rotation degree around the X-axis, i.e. |
+| [getRotationY()](#getRotationY--) | Returns or sets the rotation degree around the Y-axis, i.e. |
+| [setRotationY(int value)](#setRotationY-int-) | Returns or sets the rotation degree around the Y-axis, i.e. |
 | [getPerspective()](#getPerspective--) | Returns or sets the perspective value (field of view angle) for 3D charts (between 0 and 100). |
 | [setPerspective(byte value)](#setPerspective-byte-) | Returns or sets the perspective value (field of view angle) for 3D charts (between 0 and 100). |
 | [getRightAngleAxes()](#getRightAngleAxes--) | Determines whether the chart axes are at right angles, rather than drawn in perspective. |

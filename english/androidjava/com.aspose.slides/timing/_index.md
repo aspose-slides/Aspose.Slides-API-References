@@ -3,7 +3,7 @@ title: Timing
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents animation timing.
 type: docs
-weight: 577
+weight: 580
 url: /androidjava/com.aspose.slides/timing/
 ---
 **Inheritance:**

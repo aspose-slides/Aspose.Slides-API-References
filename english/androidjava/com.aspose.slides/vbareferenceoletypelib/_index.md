@@ -3,7 +3,7 @@ title: VbaReferenceOleTypeLib
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents OLE Automation type library reference.
 type: docs
-weight: 602
+weight: 605
 url: /androidjava/com.aspose.slides/vbareferenceoletypelib/
 ---
 **Inheritance:**

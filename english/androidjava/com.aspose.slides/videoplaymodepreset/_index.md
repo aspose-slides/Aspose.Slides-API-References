@@ -3,7 +3,7 @@ title: VideoPlayModePreset
 second_title: Aspose.Slides for Android via Java API Reference
 description: Constants which define how a video is played.
 type: docs
-weight: 606
+weight: 609
 url: /androidjava/com.aspose.slides/videoplaymodepreset/
 ---
 **Inheritance:**

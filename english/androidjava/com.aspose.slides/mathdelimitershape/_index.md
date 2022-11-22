@@ -3,7 +3,7 @@ title: MathDelimiterShape
 second_title: Aspose.Slides for Android via Java API Reference
 description: The location and size of the delimiters relative to the content of the operands
 type: docs
-weight: 320
+weight: 321
 url: /androidjava/com.aspose.slides/mathdelimitershape/
 ---
 **Inheritance:**

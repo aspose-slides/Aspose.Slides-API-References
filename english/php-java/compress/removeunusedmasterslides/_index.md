@@ -3,7 +3,7 @@ title: removeUnusedMasterSlides
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 30
+weight: 40
 url: /php-java/compress/removeunusedmasterslides/
 ---
 
@@ -17,7 +17,7 @@ url: /php-java/compress/removeunusedmasterslides/
   $pres = new Presentation("pres.pptx");
   try {
     Compress->removeUnusedMasterSlides($pres);
-    $pres->save("pres-out.pptx", SaveFormat.Pptx);
+    $pres->save("pres-out.pptx", SaveFormat::Pptx);
   } finally {
     if ($pres != null) {
       $pres->dispose();

@@ -3,7 +3,7 @@ title: MathGroupingCharacter
 second_title: Aspose.Slides for Java API Reference
 description: Specifies a grouping symbol above or below an expression usually to highlight the relationship between elements
 type: docs
-weight: 329
+weight: 330
 url: /java/com.aspose.slides/mathgroupingcharacter/
 ---
 **Inheritance:**

@@ -182,7 +182,7 @@ void
 ---
 
 
-## set_Item(int row, int column, [MathAccent](../../mathaccent) value)  method
+## set_Item(int row, int column, [MathNaryOperator](../../mathnaryoperator) value)  method
 
  Element of matrix
  
@@ -207,7 +207,7 @@ void
 ---
 
 
-## set_Item(int row, int column, [MathNaryOperator](../../mathnaryoperator) value)  method
+## set_Item(int row, int column, [MathAccent](../../mathaccent) value)  method
 
  Element of matrix
  
@@ -307,7 +307,7 @@ void
 ---
 
 
-## set_Item(int row, int column, [MathFunction](../../mathfunction) value)  method
+## set_Item(int row, int column, [MathSubscriptElement](../../mathsubscriptelement) value)  method
 
  Element of matrix
  
@@ -332,7 +332,7 @@ void
 ---
 
 
-## set_Item(int row, int column, [MathSubscriptElement](../../mathsubscriptelement) value)  method
+## set_Item(int row, int column, [MathFunction](../../mathfunction) value)  method
 
  Element of matrix
  
@@ -382,7 +382,7 @@ void
 ---
 
 
-## set_Item(int row, int column, [MathFraction](../../mathfraction) value)  method
+## set_Item(int row, int column, [MathematicalText](../../mathematicaltext) value)  method
 
  Element of matrix
  
@@ -407,7 +407,7 @@ void
 ---
 
 
-## set_Item(int row, int column, [MathematicalText](../../mathematicaltext) value)  method
+## set_Item(int row, int column, [MathFraction](../../mathfraction) value)  method
 
  Element of matrix
  

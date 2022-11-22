@@ -3,7 +3,7 @@ title: TextVerticalOverflowType
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents text vertical overflow type.
 type: docs
-weight: 567
+weight: 570
 url: /androidjava/com.aspose.slides/textverticaloverflowtype/
 ---
 **Inheritance:**

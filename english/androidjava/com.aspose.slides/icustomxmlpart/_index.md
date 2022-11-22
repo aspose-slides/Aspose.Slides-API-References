@@ -3,7 +3,7 @@ title: ICustomXmlPart
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents custom xml part.
 type: docs
-weight: 735
+weight: 738
 url: /androidjava/com.aspose.slides/icustomxmlpart/
 ---```
 public interface ICustomXmlPart

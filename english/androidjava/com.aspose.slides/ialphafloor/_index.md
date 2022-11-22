@@ -3,7 +3,7 @@ title: IAlphaFloor
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents an Alpha Floor effect.
 type: docs
-weight: 629
+weight: 632
 url: /androidjava/com.aspose.slides/ialphafloor/
 ---
 **All Implemented Interfaces:**

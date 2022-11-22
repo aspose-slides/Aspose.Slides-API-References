@@ -3,7 +3,7 @@ title: MorphTransition
 second_title: Aspose.Slides for Java API Reference
 description: Ripple slide transition effect.
 type: docs
-weight: 363
+weight: 364
 url: /java/com.aspose.slides/morphtransition/
 ---
 **Inheritance:**

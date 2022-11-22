@@ -21,6 +21,7 @@ url: /php-java/oleobjectframe/
 | [getEmbeddedFileName](getembeddedfilename)() | Returns the path of embedded OLE object |
 | [getLinkFileName](getlinkfilename)() | Returns the full path to a linked file. Short file name will be used. Read-only String. |
 | [getLinkPathLong](getlinkpathlong)() | Returns the full path to a linked file. Long file name will be used. Read/write String. |
+| [getLinkPathRelative](getlinkpathrelative)() | Returns the relative path to a linked file if present, otherwise returns an empty string. Readonly String. In the Ppt presentations, some Ole object links may have a relative representation. |
 | [getObjectName](getobjectname)() | Returns or sets the name of an object. Read/write String. |
 | [getObjectProgId](getobjectprogid)() | Returns the ProgID of an object. Read only String. |
 | [getSubstitutePictureFormat](getsubstitutepictureformat)() | Returns OleObject image fill properties object. Read-only IPictureFillFormat. |

@@ -19,6 +19,7 @@ url: /php-java/shape/
 | [addPlaceholder](addplaceholder)([Placeholder](../placeholder)) | Adds a new placeholder if there is no and sets placeholder properties to a specified one. |
 | [getAlternativeText](getalternativetext)() | Returns or sets the alternative text associated with a shape. Read/write String. |
 | [getAlternativeTextTitle](getalternativetexttitle)() | Returns or sets the title of alternative text associated with a shape. Read/write String. |
+| [getBasePlaceholder](getbaseplaceholder)() | Returns a basic placeholder shape (shape from the layout and/or master slide that the current shape is inherited from). A null is returned if the current shape is not inherited. |
 | [getBlackWhiteMode](getblackwhitemode)() | Property specifies how a shape will render in black-and-white display mode.. Read/write BlackWhiteMode. |
 | [getConnectionSiteCount](getconnectionsitecount)() | Returns the number of connection sites on the shape. Read-only int. |
 | [getCustomData](getcustomdata)() | Returns the shape's custom data. Read-only ICustomData. |

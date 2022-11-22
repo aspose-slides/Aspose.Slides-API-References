@@ -3,7 +3,7 @@ title: ICustomData
 second_title: Aspose.Slides for Java API Reference
 description: Represents container for custom data.
 type: docs
-weight: 734
+weight: 737
 url: /java/com.aspose.slides/icustomdata/
 ---```
 public interface ICustomData

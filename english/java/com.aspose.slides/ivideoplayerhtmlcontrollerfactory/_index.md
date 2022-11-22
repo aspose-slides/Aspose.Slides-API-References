@@ -3,7 +3,7 @@ title: IVideoPlayerHtmlControllerFactory
 second_title: Aspose.Slides for Java API Reference
 description: Allows to create VideoPlayerHtmlController.
 type: docs
-weight: 1101
+weight: 1105
 url: /java/com.aspose.slides/ivideoplayerhtmlcontrollerfactory/
 ---```
 public interface IVideoPlayerHtmlControllerFactory

@@ -3,7 +3,7 @@ title: WarningType
 second_title: Aspose.Slides for Java API Reference
 description: Represents a type of warning.
 type: docs
-weight: 611
+weight: 614
 url: /java/com.aspose.slides/warningtype/
 ---
 **Inheritance:**
@@ -22,7 +22,7 @@ Represents a type of warning.
 | [MajorFormattingLoss](#MajorFormattingLoss) | Major formatting loss. |
 | [MinorFormattingLoss](#MinorFormattingLoss) | Minor formatting loss. |
 | [CompatibilityIssue](#CompatibilityIssue) | This is known issue that will prevent the document being opened by certain user agents, or previous versions of user agents. |
-| [UnexpectedContent](#UnexpectedContent) | Some content in the source document could not be recognised (i.e. is unsupported), this may or may not cause issues or result in data/formatting loss. |
+| [UnexpectedContent](#UnexpectedContent) | Some content in the source document could not be recognised (i.e. |
 ### SourceFileCorruption {#SourceFileCorruption}
 ```
 public static final int SourceFileCorruption

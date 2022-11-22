@@ -3,7 +3,7 @@ title: TextAnchorType
 second_title: Aspose.Slides for Java API Reference
 description: text box alignment within a text area.
 type: docs
-weight: 552
+weight: 555
 url: /java/com.aspose.slides/textanchortype/
 ---
 **Inheritance:**

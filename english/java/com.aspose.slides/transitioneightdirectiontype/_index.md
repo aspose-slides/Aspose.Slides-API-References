@@ -3,7 +3,7 @@ title: TransitionEightDirectionType
 second_title: Aspose.Slides for Java API Reference
 description: Represent eight direction transition types.
 type: docs
-weight: 581
+weight: 584
 url: /java/com.aspose.slides/transitioneightdirectiontype/
 ---
 **Inheritance:**

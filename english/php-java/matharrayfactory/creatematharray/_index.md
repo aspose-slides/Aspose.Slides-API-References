@@ -133,24 +133,6 @@ url: /php-java/matharrayfactory/creatematharray/
 ---
 
 
-## createMathArray([MathAccent](../../mathaccent) element)  method
-
- Creates a math array and places the specified element in it 
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathAccent](../../mathaccent) | math element to place in array |
-
-### Returns
-[MathArray](../../matharray)
-
-
----
-
-
 ## createMathArray([MathNaryOperator](../../mathnaryoperator) element)  method
 
  Creates a math array and places the specified element in it 
@@ -161,6 +143,24 @@ url: /php-java/matharrayfactory/creatematharray/
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathNaryOperator](../../mathnaryoperator) | math element to place in array |
+
+### Returns
+[MathArray](../../matharray)
+
+
+---
+
+
+## createMathArray([MathAccent](../../mathaccent) element)  method
+
+ Creates a math array and places the specified element in it 
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathAccent](../../mathaccent) | math element to place in array |
 
 ### Returns
 [MathArray](../../matharray)
@@ -223,24 +223,6 @@ url: /php-java/matharrayfactory/creatematharray/
 ---
 
 
-## createMathArray([MathFunction](../../mathfunction) element)  method
-
- Creates a math array and places the specified element in it 
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathFunction](../../mathfunction) | math element to place in array |
-
-### Returns
-[MathArray](../../matharray)
-
-
----
-
-
 ## createMathArray([MathSubscriptElement](../../mathsubscriptelement) element)  method
 
  Creates a math array and places the specified element in it 
@@ -251,6 +233,24 @@ url: /php-java/matharrayfactory/creatematharray/
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathSubscriptElement](../../mathsubscriptelement) | math element to place in array |
+
+### Returns
+[MathArray](../../matharray)
+
+
+---
+
+
+## createMathArray([MathFunction](../../mathfunction) element)  method
+
+ Creates a math array and places the specified element in it 
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathFunction](../../mathfunction) | math element to place in array |
 
 ### Returns
 [MathArray](../../matharray)
@@ -277,24 +277,6 @@ url: /php-java/matharrayfactory/creatematharray/
 ---
 
 
-## createMathArray([MathFraction](../../mathfraction) element)  method
-
- Creates a math array and places the specified element in it 
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathFraction](../../mathfraction) | math element to place in array |
-
-### Returns
-[MathArray](../../matharray)
-
-
----
-
-
 ## createMathArray([MathematicalText](../../mathematicaltext) element)  method
 
  Creates a math array and places the specified element in it 
@@ -305,6 +287,24 @@ url: /php-java/matharrayfactory/creatematharray/
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathematicalText](../../mathematicaltext) | math element to place in array |
+
+### Returns
+[MathArray](../../matharray)
+
+
+---
+
+
+## createMathArray([MathFraction](../../mathfraction) element)  method
+
+ Creates a math array and places the specified element in it 
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathFraction](../../mathfraction) | math element to place in array |
 
 ### Returns
 [MathArray](../../matharray)

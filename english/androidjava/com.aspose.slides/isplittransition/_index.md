@@ -3,7 +3,7 @@ title: ISplitTransition
 second_title: Aspose.Slides for Android via Java API Reference
 description: Split slide transition effect.
 type: docs
-weight: 1041
+weight: 1045
 url: /androidjava/com.aspose.slides/isplittransition/
 ---
 **All Implemented Interfaces:**

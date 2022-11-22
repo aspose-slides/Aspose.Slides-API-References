@@ -3,7 +3,7 @@ title: IVbaProject
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents VBA project with presentation macros.
 type: docs
-weight: 1089
+weight: 1093
 url: /androidjava/com.aspose.slides/ivbaproject/
 ---```
 public interface IVbaProject

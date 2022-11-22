@@ -3,7 +3,7 @@ title: ImageTransformOperationCollection
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a collection of effects apllied to an image.
 type: docs
-weight: 251
+weight: 252
 url: /androidjava/com.aspose.slides/imagetransformoperationcollection/
 ---
 **Inheritance:**

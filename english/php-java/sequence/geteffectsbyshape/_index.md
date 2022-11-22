@@ -7,18 +7,6 @@ weight: 90
 url: /php-java/sequence/geteffectsbyshape/
 ---
 
-## getEffectsByShape([Connector](../../connector) shape)  method
-
- Returns array of effects for the specified shape.
- 
-
-### Returns
-[Effect](../../effect)
-
-
----
-
-
 ## getEffectsByShape([GraphicalObject](../../graphicalobject) shape)  method
 
  Returns array of effects for the specified shape.
@@ -31,7 +19,7 @@ url: /php-java/sequence/geteffectsbyshape/
 ---
 
 
-## getEffectsByShape([SmartArtShape](../../smartartshape) shape)  method
+## getEffectsByShape([Connector](../../connector) shape)  method
 
  Returns array of effects for the specified shape.
  
@@ -44,6 +32,18 @@ url: /php-java/sequence/geteffectsbyshape/
 
 
 ## getEffectsByShape([Table](../../table) shape)  method
+
+ Returns array of effects for the specified shape.
+ 
+
+### Returns
+[Effect](../../effect)
+
+
+---
+
+
+## getEffectsByShape([SmartArtShape](../../smartartshape) shape)  method
 
  Returns array of effects for the specified shape.
  
@@ -91,7 +91,7 @@ url: /php-java/sequence/geteffectsbyshape/
 ---
 
 
-## getEffectsByShape([SummaryZoomSection](../../summaryzoomsection) shape)  method
+## getEffectsByShape([ZoomFrame](../../zoomframe) shape)  method
 
  Returns array of effects for the specified shape.
  
@@ -103,7 +103,7 @@ url: /php-java/sequence/geteffectsbyshape/
 ---
 
 
-## getEffectsByShape([ZoomFrame](../../zoomframe) shape)  method
+## getEffectsByShape([SummaryZoomSection](../../summaryzoomsection) shape)  method
 
  Returns array of effects for the specified shape.
  
@@ -175,18 +175,6 @@ url: /php-java/sequence/geteffectsbyshape/
 ---
 
 
-## getEffectsByShape([SectionZoomFrame](../../sectionzoomframe) shape)  method
-
- Returns array of effects for the specified shape.
- 
-
-### Returns
-[Effect](../../effect)
-
-
----
-
-
 ## getEffectsByShape([PictureFrame](../../pictureframe) shape)  method
 
  Returns array of effects for the specified shape.
@@ -199,7 +187,7 @@ url: /php-java/sequence/geteffectsbyshape/
 ---
 
 
-## getEffectsByShape([AudioFrame](../../audioframe) shape)  method
+## getEffectsByShape([SectionZoomFrame](../../sectionzoomframe) shape)  method
 
  Returns array of effects for the specified shape.
  
@@ -223,7 +211,7 @@ url: /php-java/sequence/geteffectsbyshape/
 ---
 
 
-## getEffectsByShape([ZoomObject](../../zoomobject) shape)  method
+## getEffectsByShape([AudioFrame](../../audioframe) shape)  method
 
  Returns array of effects for the specified shape.
  
@@ -236,6 +224,18 @@ url: /php-java/sequence/geteffectsbyshape/
 
 
 ## getEffectsByShape([LegacyDiagram](../../legacydiagram) shape)  method
+
+ Returns array of effects for the specified shape.
+ 
+
+### Returns
+[Effect](../../effect)
+
+
+---
+
+
+## getEffectsByShape([ZoomObject](../../zoomobject) shape)  method
 
  Returns array of effects for the specified shape.
  

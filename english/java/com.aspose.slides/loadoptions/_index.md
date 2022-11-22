@@ -3,7 +3,7 @@ title: LoadOptions
 second_title: Aspose.Slides for Java API Reference
 description: Allows to specify additional options such as format or default font when loading a presentation.
 type: docs
-weight: 290
+weight: 291
 url: /java/com.aspose.slides/loadoptions/
 ---
 **Inheritance:**

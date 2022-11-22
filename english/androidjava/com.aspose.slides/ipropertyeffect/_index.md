@@ -3,7 +3,7 @@ title: IPropertyEffect
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represent property effect behavior.
 type: docs
-weight: 986
+weight: 990
 url: /androidjava/com.aspose.slides/ipropertyeffect/
 ---
 **All Implemented Interfaces:**

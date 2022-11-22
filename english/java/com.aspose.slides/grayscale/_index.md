@@ -3,7 +3,7 @@ title: GrayScale
 second_title: Aspose.Slides for Java API Reference
 description: Represents a Gray Scale effect.
 type: docs
-weight: 233
+weight: 234
 url: /java/com.aspose.slides/grayscale/
 ---
 **Inheritance:**

@@ -3,7 +3,7 @@ title: IChartTextFormat
 second_title: Aspose.Slides for Java API Reference
 description: Chart operate with restricted set of text format properties.
 type: docs
-weight: 704
+weight: 707
 url: /java/com.aspose.slides/icharttextformat/
 ---```
 public interface IChartTextFormat

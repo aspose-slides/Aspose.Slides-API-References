@@ -3,7 +3,7 @@ title: PresetShadow
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a Preset Shadow effect.
 type: docs
-weight: 451
+weight: 454
 url: /androidjava/com.aspose.slides/presetshadow/
 ---
 **Inheritance:**

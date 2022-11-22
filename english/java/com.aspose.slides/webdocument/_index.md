@@ -3,7 +3,7 @@ title: WebDocument
 second_title: Aspose.Slides for Java API Reference
 description: Represents a transition form of the presentation for saving into a web format.
 type: docs
-weight: 612
+weight: 615
 url: /java/com.aspose.slides/webdocument/
 ---
 **Inheritance:**

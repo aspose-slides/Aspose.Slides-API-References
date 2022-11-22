@@ -133,24 +133,6 @@ url: /php-java/mathbarfactory/createmathbar/
 ---
 
 
-## createMathBar([MathAccent](../../mathaccent) element)  method
-
- Create a math bar by applying to the element
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathAccent](../../mathaccent) | math element to apply bar |
-
-### Returns
-[MathBar](../../mathbar)
-
-
----
-
-
 ## createMathBar([MathNaryOperator](../../mathnaryoperator) element)  method
 
  Create a math bar by applying to the element
@@ -161,6 +143,24 @@ url: /php-java/mathbarfactory/createmathbar/
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathNaryOperator](../../mathnaryoperator) | math element to apply bar |
+
+### Returns
+[MathBar](../../mathbar)
+
+
+---
+
+
+## createMathBar([MathAccent](../../mathaccent) element)  method
+
+ Create a math bar by applying to the element
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathAccent](../../mathaccent) | math element to apply bar |
 
 ### Returns
 [MathBar](../../mathbar)
@@ -223,24 +223,6 @@ url: /php-java/mathbarfactory/createmathbar/
 ---
 
 
-## createMathBar([MathFunction](../../mathfunction) element)  method
-
- Create a math bar by applying to the element
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathFunction](../../mathfunction) | math element to apply bar |
-
-### Returns
-[MathBar](../../mathbar)
-
-
----
-
-
 ## createMathBar([MathSubscriptElement](../../mathsubscriptelement) element)  method
 
  Create a math bar by applying to the element
@@ -251,6 +233,24 @@ url: /php-java/mathbarfactory/createmathbar/
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathSubscriptElement](../../mathsubscriptelement) | math element to apply bar |
+
+### Returns
+[MathBar](../../mathbar)
+
+
+---
+
+
+## createMathBar([MathFunction](../../mathfunction) element)  method
+
+ Create a math bar by applying to the element
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathFunction](../../mathfunction) | math element to apply bar |
 
 ### Returns
 [MathBar](../../mathbar)
@@ -277,24 +277,6 @@ url: /php-java/mathbarfactory/createmathbar/
 ---
 
 
-## createMathBar([MathFraction](../../mathfraction) element)  method
-
- Create a math bar by applying to the element
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathFraction](../../mathfraction) | math element to apply bar |
-
-### Returns
-[MathBar](../../mathbar)
-
-
----
-
-
 ## createMathBar([MathematicalText](../../mathematicaltext) element)  method
 
  Create a math bar by applying to the element
@@ -305,6 +287,24 @@ url: /php-java/mathbarfactory/createmathbar/
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathematicalText](../../mathematicaltext) | math element to apply bar |
+
+### Returns
+[MathBar](../../mathbar)
+
+
+---
+
+
+## createMathBar([MathFraction](../../mathfraction) element)  method
+
+ Create a math bar by applying to the element
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathFraction](../../mathfraction) | math element to apply bar |
 
 ### Returns
 [MathBar](../../mathbar)
@@ -482,25 +482,6 @@ url: /php-java/mathbarfactory/createmathbar/
 ---
 
 
-## createMathBar([MathAccent](../../mathaccent) element, int position)  method
-
- Create a math bar by applying to the element
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathAccent](../mathaccent) | Math element to apply bar |
-| position | int | Position of the bar |
-
-### Returns
-[MathBar](../../mathbar)
-
-
----
-
-
 ## createMathBar([MathNaryOperator](../../mathnaryoperator) element, int position)  method
 
  Create a math bar by applying to the element
@@ -511,6 +492,25 @@ url: /php-java/mathbarfactory/createmathbar/
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathNaryOperator](../mathnaryoperator) | Math element to apply bar |
+| position | int | Position of the bar |
+
+### Returns
+[MathBar](../../mathbar)
+
+
+---
+
+
+## createMathBar([MathAccent](../../mathaccent) element, int position)  method
+
+ Create a math bar by applying to the element
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathAccent](../mathaccent) | Math element to apply bar |
 | position | int | Position of the bar |
 
 ### Returns
@@ -577,25 +577,6 @@ url: /php-java/mathbarfactory/createmathbar/
 ---
 
 
-## createMathBar([MathFunction](../../mathfunction) element, int position)  method
-
- Create a math bar by applying to the element
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathFunction](../mathfunction) | Math element to apply bar |
-| position | int | Position of the bar |
-
-### Returns
-[MathBar](../../mathbar)
-
-
----
-
-
 ## createMathBar([MathSubscriptElement](../../mathsubscriptelement) element, int position)  method
 
  Create a math bar by applying to the element
@@ -606,6 +587,25 @@ url: /php-java/mathbarfactory/createmathbar/
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathSubscriptElement](../mathsubscriptelement) | Math element to apply bar |
+| position | int | Position of the bar |
+
+### Returns
+[MathBar](../../mathbar)
+
+
+---
+
+
+## createMathBar([MathFunction](../../mathfunction) element, int position)  method
+
+ Create a math bar by applying to the element
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathFunction](../mathfunction) | Math element to apply bar |
 | position | int | Position of the bar |
 
 ### Returns
@@ -634,25 +634,6 @@ url: /php-java/mathbarfactory/createmathbar/
 ---
 
 
-## createMathBar([MathFraction](../../mathfraction) element, int position)  method
-
- Create a math bar by applying to the element
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathFraction](../mathfraction) | Math element to apply bar |
-| position | int | Position of the bar |
-
-### Returns
-[MathBar](../../mathbar)
-
-
----
-
-
 ## createMathBar([MathematicalText](../../mathematicaltext) element, int position)  method
 
  Create a math bar by applying to the element
@@ -663,6 +644,25 @@ url: /php-java/mathbarfactory/createmathbar/
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathematicalText](../mathematicaltext) | Math element to apply bar |
+| position | int | Position of the bar |
+
+### Returns
+[MathBar](../../mathbar)
+
+
+---
+
+
+## createMathBar([MathFraction](../../mathfraction) element, int position)  method
+
+ Create a math bar by applying to the element
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathFraction](../mathfraction) | Math element to apply bar |
 | position | int | Position of the bar |
 
 ### Returns

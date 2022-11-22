@@ -11,8 +11,8 @@ url: /php-java/license/resetlicense/
 Reset the license
  Use this method to reset license in component
  
- $license = new License();
- $license->resetLicense();
+ License license = new License();
+ license.resetLicense();
  
 
 ```php

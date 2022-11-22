@@ -3,7 +3,7 @@ title: IChartSeriesGroupCollection
 second_title: Aspose.Slides for Java API Reference
 description: Represents the collection of groups of combinable series.
 type: docs
-weight: 701
+weight: 704
 url: /java/com.aspose.slides/ichartseriesgroupcollection/
 ---
 **All Implemented Interfaces:**

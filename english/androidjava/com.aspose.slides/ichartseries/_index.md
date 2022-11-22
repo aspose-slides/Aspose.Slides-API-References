@@ -3,7 +3,7 @@ title: IChartSeries
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a chart series.
 type: docs
-weight: 698
+weight: 701
 url: /androidjava/com.aspose.slides/ichartseries/
 ---
 **All Implemented Interfaces:**

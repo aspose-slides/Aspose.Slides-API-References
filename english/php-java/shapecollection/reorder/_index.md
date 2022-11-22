@@ -7,25 +7,6 @@ weight: 640
 url: /php-java/shapecollection/reorder/
 ---
 
-## reorder(int index, [Connector](../../connector) shape)  method
-
- Moves a shape from the collection to the specified position.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| index | int | Target index. |
-| shape | [Connector](../../connector) | Shape to move. |
-
-### Returns
-void
-
-
----
-
-
 ## reorder(int index, [GraphicalObject](../../graphicalobject) shape)  method
 
  Moves a shape from the collection to the specified position.
@@ -45,7 +26,7 @@ void
 ---
 
 
-## reorder(int index, [SmartArtShape](../../smartartshape) shape)  method
+## reorder(int index, [Connector](../../connector) shape)  method
 
  Moves a shape from the collection to the specified position.
  
@@ -55,7 +36,7 @@ void
 | Name | Type | Description |
 | --- | --- | --- |
 | index | int | Target index. |
-| shape | [SmartArtShape](../../smartartshape) | Shape to move. |
+| shape | [Connector](../../connector) | Shape to move. |
 
 ### Returns
 void
@@ -75,6 +56,25 @@ void
 | --- | --- | --- |
 | index | int | Target index. |
 | shape | [Table](../../table) | Shape to move. |
+
+### Returns
+void
+
+
+---
+
+
+## reorder(int index, [SmartArtShape](../../smartartshape) shape)  method
+
+ Moves a shape from the collection to the specified position.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Target index. |
+| shape | [SmartArtShape](../../smartartshape) | Shape to move. |
 
 ### Returns
 void
@@ -140,25 +140,6 @@ void
 ---
 
 
-## reorder(int index, [SummaryZoomSection](../../summaryzoomsection) shape)  method
-
- Moves a shape from the collection to the specified position.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| index | int | Target index. |
-| shape | [SummaryZoomSection](../../summaryzoomsection) | Shape to move. |
-
-### Returns
-void
-
-
----
-
-
 ## reorder(int index, [ZoomFrame](../../zoomframe) shape)  method
 
  Moves a shape from the collection to the specified position.
@@ -170,6 +151,25 @@ void
 | --- | --- | --- |
 | index | int | Target index. |
 | shape | [ZoomFrame](../../zoomframe) | Shape to move. |
+
+### Returns
+void
+
+
+---
+
+
+## reorder(int index, [SummaryZoomSection](../../summaryzoomsection) shape)  method
+
+ Moves a shape from the collection to the specified position.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Target index. |
+| shape | [SummaryZoomSection](../../summaryzoomsection) | Shape to move. |
 
 ### Returns
 void
@@ -273,25 +273,6 @@ void
 ---
 
 
-## reorder(int index, [SectionZoomFrame](../../sectionzoomframe) shape)  method
-
- Moves a shape from the collection to the specified position.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| index | int | Target index. |
-| shape | [SectionZoomFrame](../../sectionzoomframe) | Shape to move. |
-
-### Returns
-void
-
-
----
-
-
 ## reorder(int index, [PictureFrame](../../pictureframe) shape)  method
 
  Moves a shape from the collection to the specified position.
@@ -311,7 +292,7 @@ void
 ---
 
 
-## reorder(int index, [AudioFrame](../../audioframe) shape)  method
+## reorder(int index, [SectionZoomFrame](../../sectionzoomframe) shape)  method
 
  Moves a shape from the collection to the specified position.
  
@@ -321,7 +302,7 @@ void
 | Name | Type | Description |
 | --- | --- | --- |
 | index | int | Target index. |
-| shape | [AudioFrame](../../audioframe) | Shape to move. |
+| shape | [SectionZoomFrame](../../sectionzoomframe) | Shape to move. |
 
 ### Returns
 void
@@ -349,7 +330,7 @@ void
 ---
 
 
-## reorder(int index, [ZoomObject](../../zoomobject) shape)  method
+## reorder(int index, [AudioFrame](../../audioframe) shape)  method
 
  Moves a shape from the collection to the specified position.
  
@@ -359,7 +340,7 @@ void
 | Name | Type | Description |
 | --- | --- | --- |
 | index | int | Target index. |
-| shape | [ZoomObject](../../zoomobject) | Shape to move. |
+| shape | [AudioFrame](../../audioframe) | Shape to move. |
 
 ### Returns
 void
@@ -379,6 +360,25 @@ void
 | --- | --- | --- |
 | index | int | Target index. |
 | shape | [LegacyDiagram](../../legacydiagram) | Shape to move. |
+
+### Returns
+void
+
+
+---
+
+
+## reorder(int index, [ZoomObject](../../zoomobject) shape)  method
+
+ Moves a shape from the collection to the specified position.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Target index. |
+| shape | [ZoomObject](../../zoomobject) | Shape to move. |
 
 ### Returns
 void

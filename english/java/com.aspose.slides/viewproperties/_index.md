@@ -3,7 +3,7 @@ title: ViewProperties
 second_title: Aspose.Slides for Java API Reference
 description: Presentation wide view properties.
 type: docs
-weight: 609
+weight: 612
 url: /java/com.aspose.slides/viewproperties/
 ---
 **Inheritance:**

@@ -3,7 +3,7 @@ title: ISlide
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a slide in a presentation.
 type: docs
-weight: 1025
+weight: 1029
 url: /androidjava/com.aspose.slides/islide/
 ---
 **All Implemented Interfaces:**

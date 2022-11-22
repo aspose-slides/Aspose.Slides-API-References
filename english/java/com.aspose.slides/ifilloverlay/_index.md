@@ -3,7 +3,7 @@ title: IFillOverlay
 second_title: Aspose.Slides for Java API Reference
 description: Represents a Fill Overlay effect.
 type: docs
-weight: 773
+weight: 776
 url: /java/com.aspose.slides/ifilloverlay/
 ---
 **All Implemented Interfaces:**

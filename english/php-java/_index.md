@@ -1,7 +1,7 @@
 ---
 title: Aspose.Slides for PHP via Java
 type: docs
-weight: 30
+weight: 10
 url: /php-java/
 keywords: "Aspose.Slides for PHP via Java, Aspose Slides, Aspose PowerPoint, Aspose PPT, Aspose API Reference."
 description: Aspose.Slides are Microsoft PowerPoint management APIs that enables software applications to read and write PowerPoint documents without using Microsoft PowerPoint.
@@ -206,6 +206,7 @@ is_root: true
 | [Format](format) | Represents chart format properties. |
 | [FormatFactory](formatfactory) | Allows to create formats via COM interface. |
 | [FormatScheme](formatscheme) | Stores theme-defined formats for the shapes. |
+| [FrameTickEventArgs](frametickeventargs) | Represents arguments of the PresentationPlayer.FrameTick event. |
 | [GeometryPath](geometrypath) | Represents geometry path of GeometryShape |
 | [GifOptions](gifoptions) | Represents GIF exporting options. |
 | [GlitterTransition](glittertransition) | Glitter slide transition effect. |
@@ -429,10 +430,12 @@ is_root: true
 | [PptxReadException](pptxreadexception) | Represents an exception which thrown on presentation reading errors. |
 | [PptxUnsupportedFormatException](pptxunsupportedformatexception) | Exception which thrown when presentation file format is unsupported. |
 | [Presentation](presentation) | Represents a Microsoft PowerPoint presentation. |
+| [PresentationAnimationsGenerator](presentationanimationsgenerator) | Represents a generator of the animations in the Presentation. |
 | [PresentationFactory](presentationfactory) | Allows to create presentation via COM interface |
 | [PresentationHeaderFooterManager](presentationheaderfootermanager) | Represents manager which holds behavior of all footer, date-time and page number placeholders of presentation. |
 | [PresentationInfo](presentationinfo) | Information about presentation file |
 | [PresentationLockingBehavior](presentationlockingbehavior) | Represents the behavior regarding treating the IPresentation source (file or java.io.InputStream) while loading and working with an instance of IPresentation. The source is the parameter passed to the IPresentation constructor. In the example below, the source is the "pres.pptx" file: For this example, the source ("pres.pptx" file) will be locked for a IPresentation instance lifetime, i.e. can't be changed or deleted by the other process. |
+| [PresentationPlayer](presentationplayer) | Represents the player of animations associated with the Presentation. |
 | [PresentationText](presentationtext) | Represents the text extracted from the presentation |
 | [PresentedBySpeaker](presentedbyspeaker) | Presented by a speaker (full screen) |
 | [PresetColor](presetcolor) | Represents predefined color presets. |

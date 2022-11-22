@@ -7,16 +7,6 @@ weight: 60
 url: /php-java/embeddedwofffontshtmlcontroller/writeshapestart/
 ---
 
-## writeShapeStart([HtmlGenerator](../../htmlgenerator) generator, [Connector](../../connector) shape)  method
-
-
-### Returns
-void
-
-
----
-
-
 ## writeShapeStart([HtmlGenerator](../../htmlgenerator) generator, [GraphicalObject](../../graphicalobject) shape)  method
 
 
@@ -27,7 +17,7 @@ void
 ---
 
 
-## writeShapeStart([HtmlGenerator](../../htmlgenerator) generator, [SmartArtShape](../../smartartshape) shape)  method
+## writeShapeStart([HtmlGenerator](../../htmlgenerator) generator, [Connector](../../connector) shape)  method
 
 
 ### Returns
@@ -38,6 +28,16 @@ void
 
 
 ## writeShapeStart([HtmlGenerator](../../htmlgenerator) generator, [Table](../../table) shape)  method
+
+
+### Returns
+void
+
+
+---
+
+
+## writeShapeStart([HtmlGenerator](../../htmlgenerator) generator, [SmartArtShape](../../smartartshape) shape)  method
 
 
 ### Returns
@@ -77,7 +77,7 @@ void
 ---
 
 
-## writeShapeStart([HtmlGenerator](../../htmlgenerator) generator, [SummaryZoomSection](../../summaryzoomsection) shape)  method
+## writeShapeStart([HtmlGenerator](../../htmlgenerator) generator, [ZoomFrame](../../zoomframe) shape)  method
 
 
 ### Returns
@@ -87,7 +87,7 @@ void
 ---
 
 
-## writeShapeStart([HtmlGenerator](../../htmlgenerator) generator, [ZoomFrame](../../zoomframe) shape)  method
+## writeShapeStart([HtmlGenerator](../../htmlgenerator) generator, [SummaryZoomSection](../../summaryzoomsection) shape)  method
 
 
 ### Returns
@@ -147,16 +147,6 @@ void
 ---
 
 
-## writeShapeStart([HtmlGenerator](../../htmlgenerator) generator, [SectionZoomFrame](../../sectionzoomframe) shape)  method
-
-
-### Returns
-void
-
-
----
-
-
 ## writeShapeStart([HtmlGenerator](../../htmlgenerator) generator, [PictureFrame](../../pictureframe) shape)  method
 
 
@@ -167,7 +157,7 @@ void
 ---
 
 
-## writeShapeStart([HtmlGenerator](../../htmlgenerator) generator, [AudioFrame](../../audioframe) shape)  method
+## writeShapeStart([HtmlGenerator](../../htmlgenerator) generator, [SectionZoomFrame](../../sectionzoomframe) shape)  method
 
 
 ### Returns
@@ -187,7 +177,7 @@ void
 ---
 
 
-## writeShapeStart([HtmlGenerator](../../htmlgenerator) generator, [ZoomObject](../../zoomobject) shape)  method
+## writeShapeStart([HtmlGenerator](../../htmlgenerator) generator, [AudioFrame](../../audioframe) shape)  method
 
 
 ### Returns
@@ -198,6 +188,16 @@ void
 
 
 ## writeShapeStart([HtmlGenerator](../../htmlgenerator) generator, [LegacyDiagram](../../legacydiagram) shape)  method
+
+
+### Returns
+void
+
+
+---
+
+
+## writeShapeStart([HtmlGenerator](../../htmlgenerator) generator, [ZoomObject](../../zoomobject) shape)  method
 
 
 ### Returns

@@ -3,7 +3,7 @@ title: ISequence
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents sequence collection of effects.
 type: docs
-weight: 1010
+weight: 1014
 url: /androidjava/com.aspose.slides/isequence/
 ---
 **All Implemented Interfaces:**

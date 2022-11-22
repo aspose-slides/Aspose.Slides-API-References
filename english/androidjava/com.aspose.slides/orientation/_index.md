@@ -3,7 +3,7 @@ title: Orientation
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents the orientation of a shape.
 type: docs
-weight: 390
+weight: 391
 url: /androidjava/com.aspose.slides/orientation/
 ---
 **Inheritance:**

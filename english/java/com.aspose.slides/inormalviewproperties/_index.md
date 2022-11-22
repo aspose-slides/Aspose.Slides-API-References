@@ -3,7 +3,7 @@ title: INormalViewProperties
 second_title: Aspose.Slides for Java API Reference
 description: Represents normal view properties.
 type: docs
-weight: 929
+weight: 932
 url: /java/com.aspose.slides/inormalviewproperties/
 ---```
 public interface INormalViewProperties

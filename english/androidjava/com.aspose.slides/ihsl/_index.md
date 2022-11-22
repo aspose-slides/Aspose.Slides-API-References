@@ -3,7 +3,7 @@ title: IHSL
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a Hue/Saturation/Luminance effect.
 type: docs
-weight: 817
+weight: 820
 url: /androidjava/com.aspose.slides/ihsl/
 ---
 **All Implemented Interfaces:**

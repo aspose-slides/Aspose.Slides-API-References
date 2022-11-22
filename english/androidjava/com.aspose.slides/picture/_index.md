@@ -3,7 +3,7 @@ title: Picture
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a picture in a presentation.
 type: docs
-weight: 413
+weight: 414
 url: /androidjava/com.aspose.slides/picture/
 ---
 **Inheritance:**

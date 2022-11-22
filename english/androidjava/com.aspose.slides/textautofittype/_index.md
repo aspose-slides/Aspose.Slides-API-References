@@ -3,7 +3,7 @@ title: TextAutofitType
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents text autofit mode.
 type: docs
-weight: 555
+weight: 558
 url: /androidjava/com.aspose.slides/textautofittype/
 ---
 **Inheritance:**

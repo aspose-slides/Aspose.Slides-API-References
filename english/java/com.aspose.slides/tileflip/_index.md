@@ -3,7 +3,7 @@ title: TileFlip
 second_title: Aspose.Slides for Java API Reference
 description: Defines tile flipping mode.
 type: docs
-weight: 575
+weight: 578
 url: /java/com.aspose.slides/tileflip/
 ---
 **Inheritance:**

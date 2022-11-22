@@ -147,26 +147,6 @@ Example:
 ---
 
 
-## MathBar([MathAccent](../../mathaccent) element)  constructor
-
- Initializes MathBar with overbar (Top position)
- 
-Example:
- 
-```php
-  $mathBar = new MathBar(new MathematicalText("x"));
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathAccent](../../mathaccent) | The base element to which the bar is applied |
-
-
----
-
-
 ## MathBar([MathNaryOperator](../../mathnaryoperator) element)  constructor
 
  Initializes MathBar with overbar (Top position)
@@ -182,6 +162,26 @@ Example:
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathNaryOperator](../../mathnaryoperator) | The base element to which the bar is applied |
+
+
+---
+
+
+## MathBar([MathAccent](../../mathaccent) element)  constructor
+
+ Initializes MathBar with overbar (Top position)
+ 
+Example:
+ 
+```php
+  $mathBar = new MathBar(new MathematicalText("x"));
+```
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathAccent](../../mathaccent) | The base element to which the bar is applied |
 
 
 ---
@@ -247,26 +247,6 @@ Example:
 ---
 
 
-## MathBar([MathFunction](../../mathfunction) element)  constructor
-
- Initializes MathBar with overbar (Top position)
- 
-Example:
- 
-```php
-  $mathBar = new MathBar(new MathematicalText("x"));
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathFunction](../../mathfunction) | The base element to which the bar is applied |
-
-
----
-
-
 ## MathBar([MathSubscriptElement](../../mathsubscriptelement) element)  constructor
 
  Initializes MathBar with overbar (Top position)
@@ -282,6 +262,26 @@ Example:
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathSubscriptElement](../../mathsubscriptelement) | The base element to which the bar is applied |
+
+
+---
+
+
+## MathBar([MathFunction](../../mathfunction) element)  constructor
+
+ Initializes MathBar with overbar (Top position)
+ 
+Example:
+ 
+```php
+  $mathBar = new MathBar(new MathematicalText("x"));
+```
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathFunction](../../mathfunction) | The base element to which the bar is applied |
 
 
 ---
@@ -307,26 +307,6 @@ Example:
 ---
 
 
-## MathBar([MathFraction](../../mathfraction) element)  constructor
-
- Initializes MathBar with overbar (Top position)
- 
-Example:
- 
-```php
-  $mathBar = new MathBar(new MathematicalText("x"));
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathFraction](../../mathfraction) | The base element to which the bar is applied |
-
-
----
-
-
 ## MathBar([MathematicalText](../../mathematicaltext) element)  constructor
 
  Initializes MathBar with overbar (Top position)
@@ -342,6 +322,26 @@ Example:
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathematicalText](../../mathematicaltext) | The base element to which the bar is applied |
+
+
+---
+
+
+## MathBar([MathFraction](../../mathfraction) element)  constructor
+
+ Initializes MathBar with overbar (Top position)
+ 
+Example:
+ 
+```php
+  $mathBar = new MathBar(new MathematicalText("x"));
+```
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathFraction](../../mathfraction) | The base element to which the bar is applied |
 
 
 ---
@@ -534,27 +534,6 @@ Example:
 ---
 
 
-## MathBar([MathAccent](../../mathaccent) element, int position)  constructor
-
- Initializes MathBar with specified position
- 
-Example:
- 
-```php
-  $mathBar = new MathBar(new MathematicalText("x"), MathTopBotPositions::Bottom);
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathAccent](../mathaccent) | The base element to which the bar is applied |
-| position | int | Position of the bar line. |
-
-
----
-
-
 ## MathBar([MathNaryOperator](../../mathnaryoperator) element, int position)  constructor
 
  Initializes MathBar with specified position
@@ -570,6 +549,27 @@ Example:
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathNaryOperator](../mathnaryoperator) | The base element to which the bar is applied |
+| position | int | Position of the bar line. |
+
+
+---
+
+
+## MathBar([MathAccent](../../mathaccent) element, int position)  constructor
+
+ Initializes MathBar with specified position
+ 
+Example:
+ 
+```php
+  $mathBar = new MathBar(new MathematicalText("x"), MathTopBotPositions::Bottom);
+```
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathAccent](../mathaccent) | The base element to which the bar is applied |
 | position | int | Position of the bar line. |
 
 
@@ -639,27 +639,6 @@ Example:
 ---
 
 
-## MathBar([MathFunction](../../mathfunction) element, int position)  constructor
-
- Initializes MathBar with specified position
- 
-Example:
- 
-```php
-  $mathBar = new MathBar(new MathematicalText("x"), MathTopBotPositions::Bottom);
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathFunction](../mathfunction) | The base element to which the bar is applied |
-| position | int | Position of the bar line. |
-
-
----
-
-
 ## MathBar([MathSubscriptElement](../../mathsubscriptelement) element, int position)  constructor
 
  Initializes MathBar with specified position
@@ -675,6 +654,27 @@ Example:
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathSubscriptElement](../mathsubscriptelement) | The base element to which the bar is applied |
+| position | int | Position of the bar line. |
+
+
+---
+
+
+## MathBar([MathFunction](../../mathfunction) element, int position)  constructor
+
+ Initializes MathBar with specified position
+ 
+Example:
+ 
+```php
+  $mathBar = new MathBar(new MathematicalText("x"), MathTopBotPositions::Bottom);
+```
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathFunction](../mathfunction) | The base element to which the bar is applied |
 | position | int | Position of the bar line. |
 
 
@@ -702,27 +702,6 @@ Example:
 ---
 
 
-## MathBar([MathFraction](../../mathfraction) element, int position)  constructor
-
- Initializes MathBar with specified position
- 
-Example:
- 
-```php
-  $mathBar = new MathBar(new MathematicalText("x"), MathTopBotPositions::Bottom);
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathFraction](../mathfraction) | The base element to which the bar is applied |
-| position | int | Position of the bar line. |
-
-
----
-
-
 ## MathBar([MathematicalText](../../mathematicaltext) element, int position)  constructor
 
  Initializes MathBar with specified position
@@ -738,6 +717,27 @@ Example:
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathematicalText](../mathematicaltext) | The base element to which the bar is applied |
+| position | int | Position of the bar line. |
+
+
+---
+
+
+## MathBar([MathFraction](../../mathfraction) element, int position)  constructor
+
+ Initializes MathBar with specified position
+ 
+Example:
+ 
+```php
+  $mathBar = new MathBar(new MathematicalText("x"), MathTopBotPositions::Bottom);
+```
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathFraction](../mathfraction) | The base element to which the bar is applied |
 | position | int | Position of the bar line. |
 
 

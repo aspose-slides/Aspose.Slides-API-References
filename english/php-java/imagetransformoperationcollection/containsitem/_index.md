@@ -151,24 +151,6 @@ boolean
 ---
 
 
-## containsItem([AlphaModulateFixed](../../alphamodulatefixed) item)  method
-
- Determines whether the  IGenericCollection contains a specific value.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| item | [AlphaModulateFixed](../../alphamodulatefixed) | The object to locate in the IGenericCollection. |
-
-### Returns
-boolean
-
-
----
-
-
 ## containsItem([AlphaFloor](../../alphafloor) item)  method
 
  Determines whether the  IGenericCollection contains a specific value.
@@ -179,6 +161,24 @@ boolean
 | Name | Type | Description |
 | --- | --- | --- |
 | item | [AlphaFloor](../../alphafloor) | The object to locate in the IGenericCollection. |
+
+### Returns
+boolean
+
+
+---
+
+
+## containsItem([AlphaModulateFixed](../../alphamodulatefixed) item)  method
+
+ Determines whether the  IGenericCollection contains a specific value.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| item | [AlphaModulateFixed](../../alphamodulatefixed) | The object to locate in the IGenericCollection. |
 
 ### Returns
 boolean
@@ -241,24 +241,6 @@ boolean
 ---
 
 
-## containsItem([AlphaCeiling](../../alphaceiling) item)  method
-
- Determines whether the  IGenericCollection contains a specific value.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| item | [AlphaCeiling](../../alphaceiling) | The object to locate in the IGenericCollection. |
-
-### Returns
-boolean
-
-
----
-
-
 ## containsItem([AlphaInverse](../../alphainverse) item)  method
 
  Determines whether the  IGenericCollection contains a specific value.
@@ -269,6 +251,24 @@ boolean
 | Name | Type | Description |
 | --- | --- | --- |
 | item | [AlphaInverse](../../alphainverse) | The object to locate in the IGenericCollection. |
+
+### Returns
+boolean
+
+
+---
+
+
+## containsItem([AlphaCeiling](../../alphaceiling) item)  method
+
+ Determines whether the  IGenericCollection contains a specific value.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| item | [AlphaCeiling](../../alphaceiling) | The object to locate in the IGenericCollection. |
 
 ### Returns
 boolean
@@ -349,24 +349,6 @@ boolean
 ---
 
 
-## containsItem([ColorReplace](../../colorreplace) item)  method
-
- Determines whether the  IGenericCollection contains a specific value.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| item | [ColorReplace](../../colorreplace) | The object to locate in the IGenericCollection. |
-
-### Returns
-boolean
-
-
----
-
-
 ## containsItem([BiLevel](../../bilevel) item)  method
 
  Determines whether the  IGenericCollection contains a specific value.
@@ -377,6 +359,24 @@ boolean
 | Name | Type | Description |
 | --- | --- | --- |
 | item | [BiLevel](../../bilevel) | The object to locate in the IGenericCollection. |
+
+### Returns
+boolean
+
+
+---
+
+
+## containsItem([ColorReplace](../../colorreplace) item)  method
+
+ Determines whether the  IGenericCollection contains a specific value.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| item | [ColorReplace](../../colorreplace) | The object to locate in the IGenericCollection. |
 
 ### Returns
 boolean

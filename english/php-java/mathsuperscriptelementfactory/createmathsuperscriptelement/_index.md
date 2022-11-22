@@ -140,25 +140,6 @@ url: /php-java/mathsuperscriptelementfactory/createmathsuperscriptelement/
 ---
 
 
-## createMathSuperscriptElement([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) baseArg, [MathAccent](../../mathaccent) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Base argument to apply superscript |
-| superScript | [MathAccent](../../mathaccent) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
 ## createMathSuperscriptElement([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) baseArg, [MathNaryOperator](../../mathnaryoperator) superScript)  method
 
  Creates IMathSuperscriptElement
@@ -170,6 +151,25 @@ url: /php-java/mathsuperscriptelementfactory/createmathsuperscriptelement/
 | --- | --- | --- |
 | baseArg | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Base argument to apply superscript |
 | superScript | [MathNaryOperator](../../mathnaryoperator) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) baseArg, [MathAccent](../../mathaccent) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Base argument to apply superscript |
+| superScript | [MathAccent](../../mathaccent) | upper right index |
 
 ### Returns
 [MathSuperscriptElement](../../mathsuperscriptelement)
@@ -235,25 +235,6 @@ url: /php-java/mathsuperscriptelementfactory/createmathsuperscriptelement/
 ---
 
 
-## createMathSuperscriptElement([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) baseArg, [MathFunction](../../mathfunction) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Base argument to apply superscript |
-| superScript | [MathFunction](../../mathfunction) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
 ## createMathSuperscriptElement([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) baseArg, [MathSubscriptElement](../../mathsubscriptelement) superScript)  method
 
  Creates IMathSuperscriptElement
@@ -265,6 +246,25 @@ url: /php-java/mathsuperscriptelementfactory/createmathsuperscriptelement/
 | --- | --- | --- |
 | baseArg | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Base argument to apply superscript |
 | superScript | [MathSubscriptElement](../../mathsubscriptelement) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) baseArg, [MathFunction](../../mathfunction) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Base argument to apply superscript |
+| superScript | [MathFunction](../../mathfunction) | upper right index |
 
 ### Returns
 [MathSuperscriptElement](../../mathsuperscriptelement)
@@ -292,25 +292,6 @@ url: /php-java/mathsuperscriptelementfactory/createmathsuperscriptelement/
 ---
 
 
-## createMathSuperscriptElement([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) baseArg, [MathFraction](../../mathfraction) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Base argument to apply superscript |
-| superScript | [MathFraction](../../mathfraction) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
 ## createMathSuperscriptElement([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) baseArg, [MathematicalText](../../mathematicaltext) superScript)  method
 
  Creates IMathSuperscriptElement
@@ -322,6 +303,25 @@ url: /php-java/mathsuperscriptelementfactory/createmathsuperscriptelement/
 | --- | --- | --- |
 | baseArg | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Base argument to apply superscript |
 | superScript | [MathematicalText](../../mathematicaltext) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) baseArg, [MathFraction](../../mathfraction) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Base argument to apply superscript |
+| superScript | [MathFraction](../../mathfraction) | upper right index |
 
 ### Returns
 [MathSuperscriptElement](../../mathsuperscriptelement)
@@ -501,25 +501,6 @@ url: /php-java/mathsuperscriptelementfactory/createmathsuperscriptelement/
 ---
 
 
-## createMathSuperscriptElement([MathMatrix](../../mathmatrix) baseArg, [MathAccent](../../mathaccent) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathMatrix](../mathmatrix) | Base argument to apply superscript |
-| superScript | [MathAccent](../../mathaccent) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
 ## createMathSuperscriptElement([MathMatrix](../../mathmatrix) baseArg, [MathNaryOperator](../../mathnaryoperator) superScript)  method
 
  Creates IMathSuperscriptElement
@@ -531,6 +512,25 @@ url: /php-java/mathsuperscriptelementfactory/createmathsuperscriptelement/
 | --- | --- | --- |
 | baseArg | [MathMatrix](../mathmatrix) | Base argument to apply superscript |
 | superScript | [MathNaryOperator](../../mathnaryoperator) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathMatrix](../../mathmatrix) baseArg, [MathAccent](../../mathaccent) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathMatrix](../mathmatrix) | Base argument to apply superscript |
+| superScript | [MathAccent](../../mathaccent) | upper right index |
 
 ### Returns
 [MathSuperscriptElement](../../mathsuperscriptelement)
@@ -596,25 +596,6 @@ url: /php-java/mathsuperscriptelementfactory/createmathsuperscriptelement/
 ---
 
 
-## createMathSuperscriptElement([MathMatrix](../../mathmatrix) baseArg, [MathFunction](../../mathfunction) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathMatrix](../mathmatrix) | Base argument to apply superscript |
-| superScript | [MathFunction](../../mathfunction) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
 ## createMathSuperscriptElement([MathMatrix](../../mathmatrix) baseArg, [MathSubscriptElement](../../mathsubscriptelement) superScript)  method
 
  Creates IMathSuperscriptElement
@@ -626,6 +607,25 @@ url: /php-java/mathsuperscriptelementfactory/createmathsuperscriptelement/
 | --- | --- | --- |
 | baseArg | [MathMatrix](../mathmatrix) | Base argument to apply superscript |
 | superScript | [MathSubscriptElement](../../mathsubscriptelement) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathMatrix](../../mathmatrix) baseArg, [MathFunction](../../mathfunction) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathMatrix](../mathmatrix) | Base argument to apply superscript |
+| superScript | [MathFunction](../../mathfunction) | upper right index |
 
 ### Returns
 [MathSuperscriptElement](../../mathsuperscriptelement)
@@ -653,25 +653,6 @@ url: /php-java/mathsuperscriptelementfactory/createmathsuperscriptelement/
 ---
 
 
-## createMathSuperscriptElement([MathMatrix](../../mathmatrix) baseArg, [MathFraction](../../mathfraction) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathMatrix](../mathmatrix) | Base argument to apply superscript |
-| superScript | [MathFraction](../../mathfraction) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
 ## createMathSuperscriptElement([MathMatrix](../../mathmatrix) baseArg, [MathematicalText](../../mathematicaltext) superScript)  method
 
  Creates IMathSuperscriptElement
@@ -683,6 +664,25 @@ url: /php-java/mathsuperscriptelementfactory/createmathsuperscriptelement/
 | --- | --- | --- |
 | baseArg | [MathMatrix](../mathmatrix) | Base argument to apply superscript |
 | superScript | [MathematicalText](../../mathematicaltext) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathMatrix](../../mathmatrix) baseArg, [MathFraction](../../mathfraction) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathMatrix](../mathmatrix) | Base argument to apply superscript |
+| superScript | [MathFraction](../../mathfraction) | upper right index |
 
 ### Returns
 [MathSuperscriptElement](../../mathsuperscriptelement)
@@ -862,25 +862,6 @@ url: /php-java/mathsuperscriptelementfactory/createmathsuperscriptelement/
 ---
 
 
-## createMathSuperscriptElement([MathLimit](../../mathlimit) baseArg, [MathAccent](../../mathaccent) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathLimit](../mathlimit) | Base argument to apply superscript |
-| superScript | [MathAccent](../../mathaccent) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
 ## createMathSuperscriptElement([MathLimit](../../mathlimit) baseArg, [MathNaryOperator](../../mathnaryoperator) superScript)  method
 
  Creates IMathSuperscriptElement
@@ -892,6 +873,25 @@ url: /php-java/mathsuperscriptelementfactory/createmathsuperscriptelement/
 | --- | --- | --- |
 | baseArg | [MathLimit](../mathlimit) | Base argument to apply superscript |
 | superScript | [MathNaryOperator](../../mathnaryoperator) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathLimit](../../mathlimit) baseArg, [MathAccent](../../mathaccent) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathLimit](../mathlimit) | Base argument to apply superscript |
+| superScript | [MathAccent](../../mathaccent) | upper right index |
 
 ### Returns
 [MathSuperscriptElement](../../mathsuperscriptelement)
@@ -957,25 +957,6 @@ url: /php-java/mathsuperscriptelementfactory/createmathsuperscriptelement/
 ---
 
 
-## createMathSuperscriptElement([MathLimit](../../mathlimit) baseArg, [MathFunction](../../mathfunction) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathLimit](../mathlimit) | Base argument to apply superscript |
-| superScript | [MathFunction](../../mathfunction) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
 ## createMathSuperscriptElement([MathLimit](../../mathlimit) baseArg, [MathSubscriptElement](../../mathsubscriptelement) superScript)  method
 
  Creates IMathSuperscriptElement
@@ -987,6 +968,25 @@ url: /php-java/mathsuperscriptelementfactory/createmathsuperscriptelement/
 | --- | --- | --- |
 | baseArg | [MathLimit](../mathlimit) | Base argument to apply superscript |
 | superScript | [MathSubscriptElement](../../mathsubscriptelement) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathLimit](../../mathlimit) baseArg, [MathFunction](../../mathfunction) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathLimit](../mathlimit) | Base argument to apply superscript |
+| superScript | [MathFunction](../../mathfunction) | upper right index |
 
 ### Returns
 [MathSuperscriptElement](../../mathsuperscriptelement)
@@ -1014,25 +1014,6 @@ url: /php-java/mathsuperscriptelementfactory/createmathsuperscriptelement/
 ---
 
 
-## createMathSuperscriptElement([MathLimit](../../mathlimit) baseArg, [MathFraction](../../mathfraction) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathLimit](../mathlimit) | Base argument to apply superscript |
-| superScript | [MathFraction](../../mathfraction) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
 ## createMathSuperscriptElement([MathLimit](../../mathlimit) baseArg, [MathematicalText](../../mathematicaltext) superScript)  method
 
  Creates IMathSuperscriptElement
@@ -1044,6 +1025,25 @@ url: /php-java/mathsuperscriptelementfactory/createmathsuperscriptelement/
 | --- | --- | --- |
 | baseArg | [MathLimit](../mathlimit) | Base argument to apply superscript |
 | superScript | [MathematicalText](../../mathematicaltext) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathLimit](../../mathlimit) baseArg, [MathFraction](../../mathfraction) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathLimit](../mathlimit) | Base argument to apply superscript |
+| superScript | [MathFraction](../../mathfraction) | upper right index |
 
 ### Returns
 [MathSuperscriptElement](../../mathsuperscriptelement)
@@ -1223,25 +1223,6 @@ url: /php-java/mathsuperscriptelementfactory/createmathsuperscriptelement/
 ---
 
 
-## createMathSuperscriptElement([MathBlock](../../mathblock) baseArg, [MathAccent](../../mathaccent) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathBlock](../mathblock) | Base argument to apply superscript |
-| superScript | [MathAccent](../../mathaccent) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
 ## createMathSuperscriptElement([MathBlock](../../mathblock) baseArg, [MathNaryOperator](../../mathnaryoperator) superScript)  method
 
  Creates IMathSuperscriptElement
@@ -1253,6 +1234,25 @@ url: /php-java/mathsuperscriptelementfactory/createmathsuperscriptelement/
 | --- | --- | --- |
 | baseArg | [MathBlock](../mathblock) | Base argument to apply superscript |
 | superScript | [MathNaryOperator](../../mathnaryoperator) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathBlock](../../mathblock) baseArg, [MathAccent](../../mathaccent) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathBlock](../mathblock) | Base argument to apply superscript |
+| superScript | [MathAccent](../../mathaccent) | upper right index |
 
 ### Returns
 [MathSuperscriptElement](../../mathsuperscriptelement)
@@ -1318,25 +1318,6 @@ url: /php-java/mathsuperscriptelementfactory/createmathsuperscriptelement/
 ---
 
 
-## createMathSuperscriptElement([MathBlock](../../mathblock) baseArg, [MathFunction](../../mathfunction) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathBlock](../mathblock) | Base argument to apply superscript |
-| superScript | [MathFunction](../../mathfunction) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
 ## createMathSuperscriptElement([MathBlock](../../mathblock) baseArg, [MathSubscriptElement](../../mathsubscriptelement) superScript)  method
 
  Creates IMathSuperscriptElement
@@ -1348,6 +1329,25 @@ url: /php-java/mathsuperscriptelementfactory/createmathsuperscriptelement/
 | --- | --- | --- |
 | baseArg | [MathBlock](../mathblock) | Base argument to apply superscript |
 | superScript | [MathSubscriptElement](../../mathsubscriptelement) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathBlock](../../mathblock) baseArg, [MathFunction](../../mathfunction) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathBlock](../mathblock) | Base argument to apply superscript |
+| superScript | [MathFunction](../../mathfunction) | upper right index |
 
 ### Returns
 [MathSuperscriptElement](../../mathsuperscriptelement)
@@ -1375,25 +1375,6 @@ url: /php-java/mathsuperscriptelementfactory/createmathsuperscriptelement/
 ---
 
 
-## createMathSuperscriptElement([MathBlock](../../mathblock) baseArg, [MathFraction](../../mathfraction) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathBlock](../mathblock) | Base argument to apply superscript |
-| superScript | [MathFraction](../../mathfraction) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
 ## createMathSuperscriptElement([MathBlock](../../mathblock) baseArg, [MathematicalText](../../mathematicaltext) superScript)  method
 
  Creates IMathSuperscriptElement
@@ -1405,6 +1386,25 @@ url: /php-java/mathsuperscriptelementfactory/createmathsuperscriptelement/
 | --- | --- | --- |
 | baseArg | [MathBlock](../mathblock) | Base argument to apply superscript |
 | superScript | [MathematicalText](../../mathematicaltext) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathBlock](../../mathblock) baseArg, [MathFraction](../../mathfraction) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathBlock](../mathblock) | Base argument to apply superscript |
+| superScript | [MathFraction](../../mathfraction) | upper right index |
 
 ### Returns
 [MathSuperscriptElement](../../mathsuperscriptelement)
@@ -1584,25 +1584,6 @@ url: /php-java/mathsuperscriptelementfactory/createmathsuperscriptelement/
 ---
 
 
-## createMathSuperscriptElement([MathRadical](../../mathradical) baseArg, [MathAccent](../../mathaccent) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathRadical](../mathradical) | Base argument to apply superscript |
-| superScript | [MathAccent](../../mathaccent) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
 ## createMathSuperscriptElement([MathRadical](../../mathradical) baseArg, [MathNaryOperator](../../mathnaryoperator) superScript)  method
 
  Creates IMathSuperscriptElement
@@ -1614,6 +1595,25 @@ url: /php-java/mathsuperscriptelementfactory/createmathsuperscriptelement/
 | --- | --- | --- |
 | baseArg | [MathRadical](../mathradical) | Base argument to apply superscript |
 | superScript | [MathNaryOperator](../../mathnaryoperator) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathRadical](../../mathradical) baseArg, [MathAccent](../../mathaccent) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathRadical](../mathradical) | Base argument to apply superscript |
+| superScript | [MathAccent](../../mathaccent) | upper right index |
 
 ### Returns
 [MathSuperscriptElement](../../mathsuperscriptelement)
@@ -1679,25 +1679,6 @@ url: /php-java/mathsuperscriptelementfactory/createmathsuperscriptelement/
 ---
 
 
-## createMathSuperscriptElement([MathRadical](../../mathradical) baseArg, [MathFunction](../../mathfunction) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathRadical](../mathradical) | Base argument to apply superscript |
-| superScript | [MathFunction](../../mathfunction) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
 ## createMathSuperscriptElement([MathRadical](../../mathradical) baseArg, [MathSubscriptElement](../../mathsubscriptelement) superScript)  method
 
  Creates IMathSuperscriptElement
@@ -1709,6 +1690,25 @@ url: /php-java/mathsuperscriptelementfactory/createmathsuperscriptelement/
 | --- | --- | --- |
 | baseArg | [MathRadical](../mathradical) | Base argument to apply superscript |
 | superScript | [MathSubscriptElement](../../mathsubscriptelement) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathRadical](../../mathradical) baseArg, [MathFunction](../../mathfunction) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathRadical](../mathradical) | Base argument to apply superscript |
+| superScript | [MathFunction](../../mathfunction) | upper right index |
 
 ### Returns
 [MathSuperscriptElement](../../mathsuperscriptelement)
@@ -1736,25 +1736,6 @@ url: /php-java/mathsuperscriptelementfactory/createmathsuperscriptelement/
 ---
 
 
-## createMathSuperscriptElement([MathRadical](../../mathradical) baseArg, [MathFraction](../../mathfraction) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathRadical](../mathradical) | Base argument to apply superscript |
-| superScript | [MathFraction](../../mathfraction) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
 ## createMathSuperscriptElement([MathRadical](../../mathradical) baseArg, [MathematicalText](../../mathematicaltext) superScript)  method
 
  Creates IMathSuperscriptElement
@@ -1766,6 +1747,25 @@ url: /php-java/mathsuperscriptelementfactory/createmathsuperscriptelement/
 | --- | --- | --- |
 | baseArg | [MathRadical](../mathradical) | Base argument to apply superscript |
 | superScript | [MathematicalText](../../mathematicaltext) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathRadical](../../mathradical) baseArg, [MathFraction](../../mathfraction) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathRadical](../mathradical) | Base argument to apply superscript |
+| superScript | [MathFraction](../../mathfraction) | upper right index |
 
 ### Returns
 [MathSuperscriptElement](../../mathsuperscriptelement)
@@ -1945,25 +1945,6 @@ url: /php-java/mathsuperscriptelementfactory/createmathsuperscriptelement/
 ---
 
 
-## createMathSuperscriptElement([MathArray](../../matharray) baseArg, [MathAccent](../../mathaccent) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathArray](../matharray) | Base argument to apply superscript |
-| superScript | [MathAccent](../../mathaccent) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
 ## createMathSuperscriptElement([MathArray](../../matharray) baseArg, [MathNaryOperator](../../mathnaryoperator) superScript)  method
 
  Creates IMathSuperscriptElement
@@ -1975,6 +1956,25 @@ url: /php-java/mathsuperscriptelementfactory/createmathsuperscriptelement/
 | --- | --- | --- |
 | baseArg | [MathArray](../matharray) | Base argument to apply superscript |
 | superScript | [MathNaryOperator](../../mathnaryoperator) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathArray](../../matharray) baseArg, [MathAccent](../../mathaccent) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathArray](../matharray) | Base argument to apply superscript |
+| superScript | [MathAccent](../../mathaccent) | upper right index |
 
 ### Returns
 [MathSuperscriptElement](../../mathsuperscriptelement)
@@ -2040,25 +2040,6 @@ url: /php-java/mathsuperscriptelementfactory/createmathsuperscriptelement/
 ---
 
 
-## createMathSuperscriptElement([MathArray](../../matharray) baseArg, [MathFunction](../../mathfunction) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathArray](../matharray) | Base argument to apply superscript |
-| superScript | [MathFunction](../../mathfunction) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
 ## createMathSuperscriptElement([MathArray](../../matharray) baseArg, [MathSubscriptElement](../../mathsubscriptelement) superScript)  method
 
  Creates IMathSuperscriptElement
@@ -2070,6 +2051,25 @@ url: /php-java/mathsuperscriptelementfactory/createmathsuperscriptelement/
 | --- | --- | --- |
 | baseArg | [MathArray](../matharray) | Base argument to apply superscript |
 | superScript | [MathSubscriptElement](../../mathsubscriptelement) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathArray](../../matharray) baseArg, [MathFunction](../../mathfunction) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathArray](../matharray) | Base argument to apply superscript |
+| superScript | [MathFunction](../../mathfunction) | upper right index |
 
 ### Returns
 [MathSuperscriptElement](../../mathsuperscriptelement)
@@ -2097,25 +2097,6 @@ url: /php-java/mathsuperscriptelementfactory/createmathsuperscriptelement/
 ---
 
 
-## createMathSuperscriptElement([MathArray](../../matharray) baseArg, [MathFraction](../../mathfraction) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathArray](../matharray) | Base argument to apply superscript |
-| superScript | [MathFraction](../../mathfraction) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
 ## createMathSuperscriptElement([MathArray](../../matharray) baseArg, [MathematicalText](../../mathematicaltext) superScript)  method
 
  Creates IMathSuperscriptElement
@@ -2127,6 +2108,25 @@ url: /php-java/mathsuperscriptelementfactory/createmathsuperscriptelement/
 | --- | --- | --- |
 | baseArg | [MathArray](../matharray) | Base argument to apply superscript |
 | superScript | [MathematicalText](../../mathematicaltext) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathArray](../../matharray) baseArg, [MathFraction](../../mathfraction) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathArray](../matharray) | Base argument to apply superscript |
+| superScript | [MathFraction](../../mathfraction) | upper right index |
 
 ### Returns
 [MathSuperscriptElement](../../mathsuperscriptelement)
@@ -2306,25 +2306,6 @@ url: /php-java/mathsuperscriptelementfactory/createmathsuperscriptelement/
 ---
 
 
-## createMathSuperscriptElement([MathDelimiter](../../mathdelimiter) baseArg, [MathAccent](../../mathaccent) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathDelimiter](../mathdelimiter) | Base argument to apply superscript |
-| superScript | [MathAccent](../../mathaccent) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
 ## createMathSuperscriptElement([MathDelimiter](../../mathdelimiter) baseArg, [MathNaryOperator](../../mathnaryoperator) superScript)  method
 
  Creates IMathSuperscriptElement
@@ -2336,6 +2317,25 @@ url: /php-java/mathsuperscriptelementfactory/createmathsuperscriptelement/
 | --- | --- | --- |
 | baseArg | [MathDelimiter](../mathdelimiter) | Base argument to apply superscript |
 | superScript | [MathNaryOperator](../../mathnaryoperator) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathDelimiter](../../mathdelimiter) baseArg, [MathAccent](../../mathaccent) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathDelimiter](../mathdelimiter) | Base argument to apply superscript |
+| superScript | [MathAccent](../../mathaccent) | upper right index |
 
 ### Returns
 [MathSuperscriptElement](../../mathsuperscriptelement)
@@ -2401,25 +2401,6 @@ url: /php-java/mathsuperscriptelementfactory/createmathsuperscriptelement/
 ---
 
 
-## createMathSuperscriptElement([MathDelimiter](../../mathdelimiter) baseArg, [MathFunction](../../mathfunction) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathDelimiter](../mathdelimiter) | Base argument to apply superscript |
-| superScript | [MathFunction](../../mathfunction) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
 ## createMathSuperscriptElement([MathDelimiter](../../mathdelimiter) baseArg, [MathSubscriptElement](../../mathsubscriptelement) superScript)  method
 
  Creates IMathSuperscriptElement
@@ -2431,6 +2412,25 @@ url: /php-java/mathsuperscriptelementfactory/createmathsuperscriptelement/
 | --- | --- | --- |
 | baseArg | [MathDelimiter](../mathdelimiter) | Base argument to apply superscript |
 | superScript | [MathSubscriptElement](../../mathsubscriptelement) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathDelimiter](../../mathdelimiter) baseArg, [MathFunction](../../mathfunction) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathDelimiter](../mathdelimiter) | Base argument to apply superscript |
+| superScript | [MathFunction](../../mathfunction) | upper right index |
 
 ### Returns
 [MathSuperscriptElement](../../mathsuperscriptelement)
@@ -2458,25 +2458,6 @@ url: /php-java/mathsuperscriptelementfactory/createmathsuperscriptelement/
 ---
 
 
-## createMathSuperscriptElement([MathDelimiter](../../mathdelimiter) baseArg, [MathFraction](../../mathfraction) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathDelimiter](../mathdelimiter) | Base argument to apply superscript |
-| superScript | [MathFraction](../../mathfraction) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
 ## createMathSuperscriptElement([MathDelimiter](../../mathdelimiter) baseArg, [MathematicalText](../../mathematicaltext) superScript)  method
 
  Creates IMathSuperscriptElement
@@ -2488,6 +2469,25 @@ url: /php-java/mathsuperscriptelementfactory/createmathsuperscriptelement/
 | --- | --- | --- |
 | baseArg | [MathDelimiter](../mathdelimiter) | Base argument to apply superscript |
 | superScript | [MathematicalText](../../mathematicaltext) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathDelimiter](../../mathdelimiter) baseArg, [MathFraction](../../mathfraction) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathDelimiter](../mathdelimiter) | Base argument to apply superscript |
+| superScript | [MathFraction](../../mathfraction) | upper right index |
 
 ### Returns
 [MathSuperscriptElement](../../mathsuperscriptelement)
@@ -2525,367 +2525,6 @@ url: /php-java/mathsuperscriptelementfactory/createmathsuperscriptelement/
 | Name | Type | Description |
 | --- | --- | --- |
 | baseArg | [MathDelimiter](../mathdelimiter) | Base argument to apply superscript |
-| superScript | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
-## createMathSuperscriptElement([MathAccent](../../mathaccent) baseArg, [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathAccent](../mathaccent) | Base argument to apply superscript |
-| superScript | [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
-## createMathSuperscriptElement([MathAccent](../../mathaccent) baseArg, [MathMatrix](../../mathmatrix) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathAccent](../mathaccent) | Base argument to apply superscript |
-| superScript | [MathMatrix](../../mathmatrix) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
-## createMathSuperscriptElement([MathAccent](../../mathaccent) baseArg, [MathLimit](../../mathlimit) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathAccent](../mathaccent) | Base argument to apply superscript |
-| superScript | [MathLimit](../../mathlimit) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
-## createMathSuperscriptElement([MathAccent](../../mathaccent) baseArg, [MathBlock](../../mathblock) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathAccent](../mathaccent) | Base argument to apply superscript |
-| superScript | [MathBlock](../../mathblock) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
-## createMathSuperscriptElement([MathAccent](../../mathaccent) baseArg, [MathRadical](../../mathradical) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathAccent](../mathaccent) | Base argument to apply superscript |
-| superScript | [MathRadical](../../mathradical) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
-## createMathSuperscriptElement([MathAccent](../../mathaccent) baseArg, [MathArray](../../matharray) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathAccent](../mathaccent) | Base argument to apply superscript |
-| superScript | [MathArray](../../matharray) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
-## createMathSuperscriptElement([MathAccent](../../mathaccent) baseArg, [MathDelimiter](../../mathdelimiter) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathAccent](../mathaccent) | Base argument to apply superscript |
-| superScript | [MathDelimiter](../../mathdelimiter) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
-## createMathSuperscriptElement([MathAccent](../../mathaccent) baseArg, [MathAccent](../../mathaccent) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathAccent](../mathaccent) | Base argument to apply superscript |
-| superScript | [MathAccent](../../mathaccent) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
-## createMathSuperscriptElement([MathAccent](../../mathaccent) baseArg, [MathNaryOperator](../../mathnaryoperator) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathAccent](../mathaccent) | Base argument to apply superscript |
-| superScript | [MathNaryOperator](../../mathnaryoperator) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
-## createMathSuperscriptElement([MathAccent](../../mathaccent) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathAccent](../mathaccent) | Base argument to apply superscript |
-| superScript | [MathGroupingCharacter](../../mathgroupingcharacter) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
-## createMathSuperscriptElement([MathAccent](../../mathaccent) baseArg, [MathBorderBox](../../mathborderbox) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathAccent](../mathaccent) | Base argument to apply superscript |
-| superScript | [MathBorderBox](../../mathborderbox) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
-## createMathSuperscriptElement([MathAccent](../../mathaccent) baseArg, [MathBar](../../mathbar) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathAccent](../mathaccent) | Base argument to apply superscript |
-| superScript | [MathBar](../../mathbar) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
-## createMathSuperscriptElement([MathAccent](../../mathaccent) baseArg, [MathFunction](../../mathfunction) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathAccent](../mathaccent) | Base argument to apply superscript |
-| superScript | [MathFunction](../../mathfunction) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
-## createMathSuperscriptElement([MathAccent](../../mathaccent) baseArg, [MathSubscriptElement](../../mathsubscriptelement) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathAccent](../mathaccent) | Base argument to apply superscript |
-| superScript | [MathSubscriptElement](../../mathsubscriptelement) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
-## createMathSuperscriptElement([MathAccent](../../mathaccent) baseArg, [MathSuperscriptElement](../../mathsuperscriptelement) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathAccent](../mathaccent) | Base argument to apply superscript |
-| superScript | [MathSuperscriptElement](../../mathsuperscriptelement) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
-## createMathSuperscriptElement([MathAccent](../../mathaccent) baseArg, [MathFraction](../../mathfraction) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathAccent](../mathaccent) | Base argument to apply superscript |
-| superScript | [MathFraction](../../mathfraction) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
-## createMathSuperscriptElement([MathAccent](../../mathaccent) baseArg, [MathematicalText](../../mathematicaltext) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathAccent](../mathaccent) | Base argument to apply superscript |
-| superScript | [MathematicalText](../../mathematicaltext) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
-## createMathSuperscriptElement([MathAccent](../../mathaccent) baseArg, [MathBox](../../mathbox) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathAccent](../mathaccent) | Base argument to apply superscript |
-| superScript | [MathBox](../../mathbox) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
-## createMathSuperscriptElement([MathAccent](../../mathaccent) baseArg, [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathAccent](../mathaccent) | Base argument to apply superscript |
 | superScript | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | upper right index |
 
 ### Returns
@@ -3028,25 +2667,6 @@ url: /php-java/mathsuperscriptelementfactory/createmathsuperscriptelement/
 ---
 
 
-## createMathSuperscriptElement([MathNaryOperator](../../mathnaryoperator) baseArg, [MathAccent](../../mathaccent) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathNaryOperator](../mathnaryoperator) | Base argument to apply superscript |
-| superScript | [MathAccent](../../mathaccent) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
 ## createMathSuperscriptElement([MathNaryOperator](../../mathnaryoperator) baseArg, [MathNaryOperator](../../mathnaryoperator) superScript)  method
 
  Creates IMathSuperscriptElement
@@ -3058,6 +2678,25 @@ url: /php-java/mathsuperscriptelementfactory/createmathsuperscriptelement/
 | --- | --- | --- |
 | baseArg | [MathNaryOperator](../mathnaryoperator) | Base argument to apply superscript |
 | superScript | [MathNaryOperator](../../mathnaryoperator) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathNaryOperator](../../mathnaryoperator) baseArg, [MathAccent](../../mathaccent) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathNaryOperator](../mathnaryoperator) | Base argument to apply superscript |
+| superScript | [MathAccent](../../mathaccent) | upper right index |
 
 ### Returns
 [MathSuperscriptElement](../../mathsuperscriptelement)
@@ -3123,25 +2762,6 @@ url: /php-java/mathsuperscriptelementfactory/createmathsuperscriptelement/
 ---
 
 
-## createMathSuperscriptElement([MathNaryOperator](../../mathnaryoperator) baseArg, [MathFunction](../../mathfunction) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathNaryOperator](../mathnaryoperator) | Base argument to apply superscript |
-| superScript | [MathFunction](../../mathfunction) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
 ## createMathSuperscriptElement([MathNaryOperator](../../mathnaryoperator) baseArg, [MathSubscriptElement](../../mathsubscriptelement) superScript)  method
 
  Creates IMathSuperscriptElement
@@ -3153,6 +2773,25 @@ url: /php-java/mathsuperscriptelementfactory/createmathsuperscriptelement/
 | --- | --- | --- |
 | baseArg | [MathNaryOperator](../mathnaryoperator) | Base argument to apply superscript |
 | superScript | [MathSubscriptElement](../../mathsubscriptelement) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathNaryOperator](../../mathnaryoperator) baseArg, [MathFunction](../../mathfunction) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathNaryOperator](../mathnaryoperator) | Base argument to apply superscript |
+| superScript | [MathFunction](../../mathfunction) | upper right index |
 
 ### Returns
 [MathSuperscriptElement](../../mathsuperscriptelement)
@@ -3180,25 +2819,6 @@ url: /php-java/mathsuperscriptelementfactory/createmathsuperscriptelement/
 ---
 
 
-## createMathSuperscriptElement([MathNaryOperator](../../mathnaryoperator) baseArg, [MathFraction](../../mathfraction) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathNaryOperator](../mathnaryoperator) | Base argument to apply superscript |
-| superScript | [MathFraction](../../mathfraction) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
 ## createMathSuperscriptElement([MathNaryOperator](../../mathnaryoperator) baseArg, [MathematicalText](../../mathematicaltext) superScript)  method
 
  Creates IMathSuperscriptElement
@@ -3210,6 +2830,25 @@ url: /php-java/mathsuperscriptelementfactory/createmathsuperscriptelement/
 | --- | --- | --- |
 | baseArg | [MathNaryOperator](../mathnaryoperator) | Base argument to apply superscript |
 | superScript | [MathematicalText](../../mathematicaltext) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathNaryOperator](../../mathnaryoperator) baseArg, [MathFraction](../../mathfraction) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathNaryOperator](../mathnaryoperator) | Base argument to apply superscript |
+| superScript | [MathFraction](../../mathfraction) | upper right index |
 
 ### Returns
 [MathSuperscriptElement](../../mathsuperscriptelement)
@@ -3247,6 +2886,367 @@ url: /php-java/mathsuperscriptelementfactory/createmathsuperscriptelement/
 | Name | Type | Description |
 | --- | --- | --- |
 | baseArg | [MathNaryOperator](../mathnaryoperator) | Base argument to apply superscript |
+| superScript | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathAccent](../../mathaccent) baseArg, [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathAccent](../mathaccent) | Base argument to apply superscript |
+| superScript | [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathAccent](../../mathaccent) baseArg, [MathMatrix](../../mathmatrix) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathAccent](../mathaccent) | Base argument to apply superscript |
+| superScript | [MathMatrix](../../mathmatrix) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathAccent](../../mathaccent) baseArg, [MathLimit](../../mathlimit) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathAccent](../mathaccent) | Base argument to apply superscript |
+| superScript | [MathLimit](../../mathlimit) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathAccent](../../mathaccent) baseArg, [MathBlock](../../mathblock) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathAccent](../mathaccent) | Base argument to apply superscript |
+| superScript | [MathBlock](../../mathblock) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathAccent](../../mathaccent) baseArg, [MathRadical](../../mathradical) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathAccent](../mathaccent) | Base argument to apply superscript |
+| superScript | [MathRadical](../../mathradical) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathAccent](../../mathaccent) baseArg, [MathArray](../../matharray) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathAccent](../mathaccent) | Base argument to apply superscript |
+| superScript | [MathArray](../../matharray) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathAccent](../../mathaccent) baseArg, [MathDelimiter](../../mathdelimiter) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathAccent](../mathaccent) | Base argument to apply superscript |
+| superScript | [MathDelimiter](../../mathdelimiter) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathAccent](../../mathaccent) baseArg, [MathNaryOperator](../../mathnaryoperator) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathAccent](../mathaccent) | Base argument to apply superscript |
+| superScript | [MathNaryOperator](../../mathnaryoperator) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathAccent](../../mathaccent) baseArg, [MathAccent](../../mathaccent) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathAccent](../mathaccent) | Base argument to apply superscript |
+| superScript | [MathAccent](../../mathaccent) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathAccent](../../mathaccent) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathAccent](../mathaccent) | Base argument to apply superscript |
+| superScript | [MathGroupingCharacter](../../mathgroupingcharacter) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathAccent](../../mathaccent) baseArg, [MathBorderBox](../../mathborderbox) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathAccent](../mathaccent) | Base argument to apply superscript |
+| superScript | [MathBorderBox](../../mathborderbox) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathAccent](../../mathaccent) baseArg, [MathBar](../../mathbar) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathAccent](../mathaccent) | Base argument to apply superscript |
+| superScript | [MathBar](../../mathbar) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathAccent](../../mathaccent) baseArg, [MathSubscriptElement](../../mathsubscriptelement) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathAccent](../mathaccent) | Base argument to apply superscript |
+| superScript | [MathSubscriptElement](../../mathsubscriptelement) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathAccent](../../mathaccent) baseArg, [MathFunction](../../mathfunction) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathAccent](../mathaccent) | Base argument to apply superscript |
+| superScript | [MathFunction](../../mathfunction) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathAccent](../../mathaccent) baseArg, [MathSuperscriptElement](../../mathsuperscriptelement) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathAccent](../mathaccent) | Base argument to apply superscript |
+| superScript | [MathSuperscriptElement](../../mathsuperscriptelement) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathAccent](../../mathaccent) baseArg, [MathematicalText](../../mathematicaltext) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathAccent](../mathaccent) | Base argument to apply superscript |
+| superScript | [MathematicalText](../../mathematicaltext) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathAccent](../../mathaccent) baseArg, [MathFraction](../../mathfraction) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathAccent](../mathaccent) | Base argument to apply superscript |
+| superScript | [MathFraction](../../mathfraction) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathAccent](../../mathaccent) baseArg, [MathBox](../../mathbox) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathAccent](../mathaccent) | Base argument to apply superscript |
+| superScript | [MathBox](../../mathbox) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathAccent](../../mathaccent) baseArg, [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathAccent](../mathaccent) | Base argument to apply superscript |
 | superScript | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | upper right index |
 
 ### Returns
@@ -3389,25 +3389,6 @@ url: /php-java/mathsuperscriptelementfactory/createmathsuperscriptelement/
 ---
 
 
-## createMathSuperscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathAccent](../../mathaccent) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply superscript |
-| superScript | [MathAccent](../../mathaccent) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
 ## createMathSuperscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathNaryOperator](../../mathnaryoperator) superScript)  method
 
  Creates IMathSuperscriptElement
@@ -3419,6 +3400,25 @@ url: /php-java/mathsuperscriptelementfactory/createmathsuperscriptelement/
 | --- | --- | --- |
 | baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply superscript |
 | superScript | [MathNaryOperator](../../mathnaryoperator) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathAccent](../../mathaccent) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply superscript |
+| superScript | [MathAccent](../../mathaccent) | upper right index |
 
 ### Returns
 [MathSuperscriptElement](../../mathsuperscriptelement)
@@ -3484,25 +3484,6 @@ url: /php-java/mathsuperscriptelementfactory/createmathsuperscriptelement/
 ---
 
 
-## createMathSuperscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathFunction](../../mathfunction) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply superscript |
-| superScript | [MathFunction](../../mathfunction) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
 ## createMathSuperscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathSubscriptElement](../../mathsubscriptelement) superScript)  method
 
  Creates IMathSuperscriptElement
@@ -3514,6 +3495,25 @@ url: /php-java/mathsuperscriptelementfactory/createmathsuperscriptelement/
 | --- | --- | --- |
 | baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply superscript |
 | superScript | [MathSubscriptElement](../../mathsubscriptelement) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathFunction](../../mathfunction) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply superscript |
+| superScript | [MathFunction](../../mathfunction) | upper right index |
 
 ### Returns
 [MathSuperscriptElement](../../mathsuperscriptelement)
@@ -3541,25 +3541,6 @@ url: /php-java/mathsuperscriptelementfactory/createmathsuperscriptelement/
 ---
 
 
-## createMathSuperscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathFraction](../../mathfraction) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply superscript |
-| superScript | [MathFraction](../../mathfraction) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
 ## createMathSuperscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathematicalText](../../mathematicaltext) superScript)  method
 
  Creates IMathSuperscriptElement
@@ -3571,6 +3552,25 @@ url: /php-java/mathsuperscriptelementfactory/createmathsuperscriptelement/
 | --- | --- | --- |
 | baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply superscript |
 | superScript | [MathematicalText](../../mathematicaltext) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathFraction](../../mathfraction) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply superscript |
+| superScript | [MathFraction](../../mathfraction) | upper right index |
 
 ### Returns
 [MathSuperscriptElement](../../mathsuperscriptelement)
@@ -3750,25 +3750,6 @@ url: /php-java/mathsuperscriptelementfactory/createmathsuperscriptelement/
 ---
 
 
-## createMathSuperscriptElement([MathBorderBox](../../mathborderbox) baseArg, [MathAccent](../../mathaccent) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathBorderBox](../mathborderbox) | Base argument to apply superscript |
-| superScript | [MathAccent](../../mathaccent) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
 ## createMathSuperscriptElement([MathBorderBox](../../mathborderbox) baseArg, [MathNaryOperator](../../mathnaryoperator) superScript)  method
 
  Creates IMathSuperscriptElement
@@ -3780,6 +3761,25 @@ url: /php-java/mathsuperscriptelementfactory/createmathsuperscriptelement/
 | --- | --- | --- |
 | baseArg | [MathBorderBox](../mathborderbox) | Base argument to apply superscript |
 | superScript | [MathNaryOperator](../../mathnaryoperator) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathBorderBox](../../mathborderbox) baseArg, [MathAccent](../../mathaccent) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathBorderBox](../mathborderbox) | Base argument to apply superscript |
+| superScript | [MathAccent](../../mathaccent) | upper right index |
 
 ### Returns
 [MathSuperscriptElement](../../mathsuperscriptelement)
@@ -3845,25 +3845,6 @@ url: /php-java/mathsuperscriptelementfactory/createmathsuperscriptelement/
 ---
 
 
-## createMathSuperscriptElement([MathBorderBox](../../mathborderbox) baseArg, [MathFunction](../../mathfunction) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathBorderBox](../mathborderbox) | Base argument to apply superscript |
-| superScript | [MathFunction](../../mathfunction) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
 ## createMathSuperscriptElement([MathBorderBox](../../mathborderbox) baseArg, [MathSubscriptElement](../../mathsubscriptelement) superScript)  method
 
  Creates IMathSuperscriptElement
@@ -3875,6 +3856,25 @@ url: /php-java/mathsuperscriptelementfactory/createmathsuperscriptelement/
 | --- | --- | --- |
 | baseArg | [MathBorderBox](../mathborderbox) | Base argument to apply superscript |
 | superScript | [MathSubscriptElement](../../mathsubscriptelement) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathBorderBox](../../mathborderbox) baseArg, [MathFunction](../../mathfunction) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathBorderBox](../mathborderbox) | Base argument to apply superscript |
+| superScript | [MathFunction](../../mathfunction) | upper right index |
 
 ### Returns
 [MathSuperscriptElement](../../mathsuperscriptelement)
@@ -3902,25 +3902,6 @@ url: /php-java/mathsuperscriptelementfactory/createmathsuperscriptelement/
 ---
 
 
-## createMathSuperscriptElement([MathBorderBox](../../mathborderbox) baseArg, [MathFraction](../../mathfraction) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathBorderBox](../mathborderbox) | Base argument to apply superscript |
-| superScript | [MathFraction](../../mathfraction) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
 ## createMathSuperscriptElement([MathBorderBox](../../mathborderbox) baseArg, [MathematicalText](../../mathematicaltext) superScript)  method
 
  Creates IMathSuperscriptElement
@@ -3932,6 +3913,25 @@ url: /php-java/mathsuperscriptelementfactory/createmathsuperscriptelement/
 | --- | --- | --- |
 | baseArg | [MathBorderBox](../mathborderbox) | Base argument to apply superscript |
 | superScript | [MathematicalText](../../mathematicaltext) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathBorderBox](../../mathborderbox) baseArg, [MathFraction](../../mathfraction) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathBorderBox](../mathborderbox) | Base argument to apply superscript |
+| superScript | [MathFraction](../../mathfraction) | upper right index |
 
 ### Returns
 [MathSuperscriptElement](../../mathsuperscriptelement)
@@ -4111,25 +4111,6 @@ url: /php-java/mathsuperscriptelementfactory/createmathsuperscriptelement/
 ---
 
 
-## createMathSuperscriptElement([MathBar](../../mathbar) baseArg, [MathAccent](../../mathaccent) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathBar](../mathbar) | Base argument to apply superscript |
-| superScript | [MathAccent](../../mathaccent) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
 ## createMathSuperscriptElement([MathBar](../../mathbar) baseArg, [MathNaryOperator](../../mathnaryoperator) superScript)  method
 
  Creates IMathSuperscriptElement
@@ -4141,6 +4122,25 @@ url: /php-java/mathsuperscriptelementfactory/createmathsuperscriptelement/
 | --- | --- | --- |
 | baseArg | [MathBar](../mathbar) | Base argument to apply superscript |
 | superScript | [MathNaryOperator](../../mathnaryoperator) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathBar](../../mathbar) baseArg, [MathAccent](../../mathaccent) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathBar](../mathbar) | Base argument to apply superscript |
+| superScript | [MathAccent](../../mathaccent) | upper right index |
 
 ### Returns
 [MathSuperscriptElement](../../mathsuperscriptelement)
@@ -4206,25 +4206,6 @@ url: /php-java/mathsuperscriptelementfactory/createmathsuperscriptelement/
 ---
 
 
-## createMathSuperscriptElement([MathBar](../../mathbar) baseArg, [MathFunction](../../mathfunction) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathBar](../mathbar) | Base argument to apply superscript |
-| superScript | [MathFunction](../../mathfunction) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
 ## createMathSuperscriptElement([MathBar](../../mathbar) baseArg, [MathSubscriptElement](../../mathsubscriptelement) superScript)  method
 
  Creates IMathSuperscriptElement
@@ -4236,6 +4217,25 @@ url: /php-java/mathsuperscriptelementfactory/createmathsuperscriptelement/
 | --- | --- | --- |
 | baseArg | [MathBar](../mathbar) | Base argument to apply superscript |
 | superScript | [MathSubscriptElement](../../mathsubscriptelement) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathBar](../../mathbar) baseArg, [MathFunction](../../mathfunction) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathBar](../mathbar) | Base argument to apply superscript |
+| superScript | [MathFunction](../../mathfunction) | upper right index |
 
 ### Returns
 [MathSuperscriptElement](../../mathsuperscriptelement)
@@ -4263,25 +4263,6 @@ url: /php-java/mathsuperscriptelementfactory/createmathsuperscriptelement/
 ---
 
 
-## createMathSuperscriptElement([MathBar](../../mathbar) baseArg, [MathFraction](../../mathfraction) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathBar](../mathbar) | Base argument to apply superscript |
-| superScript | [MathFraction](../../mathfraction) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
 ## createMathSuperscriptElement([MathBar](../../mathbar) baseArg, [MathematicalText](../../mathematicaltext) superScript)  method
 
  Creates IMathSuperscriptElement
@@ -4293,6 +4274,25 @@ url: /php-java/mathsuperscriptelementfactory/createmathsuperscriptelement/
 | --- | --- | --- |
 | baseArg | [MathBar](../mathbar) | Base argument to apply superscript |
 | superScript | [MathematicalText](../../mathematicaltext) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathBar](../../mathbar) baseArg, [MathFraction](../../mathfraction) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathBar](../mathbar) | Base argument to apply superscript |
+| superScript | [MathFraction](../../mathfraction) | upper right index |
 
 ### Returns
 [MathSuperscriptElement](../../mathsuperscriptelement)
@@ -4330,367 +4330,6 @@ url: /php-java/mathsuperscriptelementfactory/createmathsuperscriptelement/
 | Name | Type | Description |
 | --- | --- | --- |
 | baseArg | [MathBar](../mathbar) | Base argument to apply superscript |
-| superScript | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
-## createMathSuperscriptElement([MathFunction](../../mathfunction) baseArg, [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathFunction](../mathfunction) | Base argument to apply superscript |
-| superScript | [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
-## createMathSuperscriptElement([MathFunction](../../mathfunction) baseArg, [MathMatrix](../../mathmatrix) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathFunction](../mathfunction) | Base argument to apply superscript |
-| superScript | [MathMatrix](../../mathmatrix) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
-## createMathSuperscriptElement([MathFunction](../../mathfunction) baseArg, [MathLimit](../../mathlimit) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathFunction](../mathfunction) | Base argument to apply superscript |
-| superScript | [MathLimit](../../mathlimit) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
-## createMathSuperscriptElement([MathFunction](../../mathfunction) baseArg, [MathBlock](../../mathblock) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathFunction](../mathfunction) | Base argument to apply superscript |
-| superScript | [MathBlock](../../mathblock) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
-## createMathSuperscriptElement([MathFunction](../../mathfunction) baseArg, [MathRadical](../../mathradical) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathFunction](../mathfunction) | Base argument to apply superscript |
-| superScript | [MathRadical](../../mathradical) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
-## createMathSuperscriptElement([MathFunction](../../mathfunction) baseArg, [MathArray](../../matharray) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathFunction](../mathfunction) | Base argument to apply superscript |
-| superScript | [MathArray](../../matharray) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
-## createMathSuperscriptElement([MathFunction](../../mathfunction) baseArg, [MathDelimiter](../../mathdelimiter) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathFunction](../mathfunction) | Base argument to apply superscript |
-| superScript | [MathDelimiter](../../mathdelimiter) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
-## createMathSuperscriptElement([MathFunction](../../mathfunction) baseArg, [MathAccent](../../mathaccent) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathFunction](../mathfunction) | Base argument to apply superscript |
-| superScript | [MathAccent](../../mathaccent) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
-## createMathSuperscriptElement([MathFunction](../../mathfunction) baseArg, [MathNaryOperator](../../mathnaryoperator) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathFunction](../mathfunction) | Base argument to apply superscript |
-| superScript | [MathNaryOperator](../../mathnaryoperator) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
-## createMathSuperscriptElement([MathFunction](../../mathfunction) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathFunction](../mathfunction) | Base argument to apply superscript |
-| superScript | [MathGroupingCharacter](../../mathgroupingcharacter) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
-## createMathSuperscriptElement([MathFunction](../../mathfunction) baseArg, [MathBorderBox](../../mathborderbox) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathFunction](../mathfunction) | Base argument to apply superscript |
-| superScript | [MathBorderBox](../../mathborderbox) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
-## createMathSuperscriptElement([MathFunction](../../mathfunction) baseArg, [MathBar](../../mathbar) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathFunction](../mathfunction) | Base argument to apply superscript |
-| superScript | [MathBar](../../mathbar) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
-## createMathSuperscriptElement([MathFunction](../../mathfunction) baseArg, [MathFunction](../../mathfunction) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathFunction](../mathfunction) | Base argument to apply superscript |
-| superScript | [MathFunction](../../mathfunction) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
-## createMathSuperscriptElement([MathFunction](../../mathfunction) baseArg, [MathSubscriptElement](../../mathsubscriptelement) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathFunction](../mathfunction) | Base argument to apply superscript |
-| superScript | [MathSubscriptElement](../../mathsubscriptelement) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
-## createMathSuperscriptElement([MathFunction](../../mathfunction) baseArg, [MathSuperscriptElement](../../mathsuperscriptelement) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathFunction](../mathfunction) | Base argument to apply superscript |
-| superScript | [MathSuperscriptElement](../../mathsuperscriptelement) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
-## createMathSuperscriptElement([MathFunction](../../mathfunction) baseArg, [MathFraction](../../mathfraction) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathFunction](../mathfunction) | Base argument to apply superscript |
-| superScript | [MathFraction](../../mathfraction) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
-## createMathSuperscriptElement([MathFunction](../../mathfunction) baseArg, [MathematicalText](../../mathematicaltext) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathFunction](../mathfunction) | Base argument to apply superscript |
-| superScript | [MathematicalText](../../mathematicaltext) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
-## createMathSuperscriptElement([MathFunction](../../mathfunction) baseArg, [MathBox](../../mathbox) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathFunction](../mathfunction) | Base argument to apply superscript |
-| superScript | [MathBox](../../mathbox) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
-## createMathSuperscriptElement([MathFunction](../../mathfunction) baseArg, [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathFunction](../mathfunction) | Base argument to apply superscript |
 | superScript | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | upper right index |
 
 ### Returns
@@ -4833,25 +4472,6 @@ url: /php-java/mathsuperscriptelementfactory/createmathsuperscriptelement/
 ---
 
 
-## createMathSuperscriptElement([MathSubscriptElement](../../mathsubscriptelement) baseArg, [MathAccent](../../mathaccent) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathSubscriptElement](../mathsubscriptelement) | Base argument to apply superscript |
-| superScript | [MathAccent](../../mathaccent) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
 ## createMathSuperscriptElement([MathSubscriptElement](../../mathsubscriptelement) baseArg, [MathNaryOperator](../../mathnaryoperator) superScript)  method
 
  Creates IMathSuperscriptElement
@@ -4863,6 +4483,25 @@ url: /php-java/mathsuperscriptelementfactory/createmathsuperscriptelement/
 | --- | --- | --- |
 | baseArg | [MathSubscriptElement](../mathsubscriptelement) | Base argument to apply superscript |
 | superScript | [MathNaryOperator](../../mathnaryoperator) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathSubscriptElement](../../mathsubscriptelement) baseArg, [MathAccent](../../mathaccent) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathSubscriptElement](../mathsubscriptelement) | Base argument to apply superscript |
+| superScript | [MathAccent](../../mathaccent) | upper right index |
 
 ### Returns
 [MathSuperscriptElement](../../mathsuperscriptelement)
@@ -4928,25 +4567,6 @@ url: /php-java/mathsuperscriptelementfactory/createmathsuperscriptelement/
 ---
 
 
-## createMathSuperscriptElement([MathSubscriptElement](../../mathsubscriptelement) baseArg, [MathFunction](../../mathfunction) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathSubscriptElement](../mathsubscriptelement) | Base argument to apply superscript |
-| superScript | [MathFunction](../../mathfunction) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
 ## createMathSuperscriptElement([MathSubscriptElement](../../mathsubscriptelement) baseArg, [MathSubscriptElement](../../mathsubscriptelement) superScript)  method
 
  Creates IMathSuperscriptElement
@@ -4958,6 +4578,25 @@ url: /php-java/mathsuperscriptelementfactory/createmathsuperscriptelement/
 | --- | --- | --- |
 | baseArg | [MathSubscriptElement](../mathsubscriptelement) | Base argument to apply superscript |
 | superScript | [MathSubscriptElement](../../mathsubscriptelement) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathSubscriptElement](../../mathsubscriptelement) baseArg, [MathFunction](../../mathfunction) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathSubscriptElement](../mathsubscriptelement) | Base argument to apply superscript |
+| superScript | [MathFunction](../../mathfunction) | upper right index |
 
 ### Returns
 [MathSuperscriptElement](../../mathsuperscriptelement)
@@ -4985,25 +4624,6 @@ url: /php-java/mathsuperscriptelementfactory/createmathsuperscriptelement/
 ---
 
 
-## createMathSuperscriptElement([MathSubscriptElement](../../mathsubscriptelement) baseArg, [MathFraction](../../mathfraction) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathSubscriptElement](../mathsubscriptelement) | Base argument to apply superscript |
-| superScript | [MathFraction](../../mathfraction) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
 ## createMathSuperscriptElement([MathSubscriptElement](../../mathsubscriptelement) baseArg, [MathematicalText](../../mathematicaltext) superScript)  method
 
  Creates IMathSuperscriptElement
@@ -5015,6 +4635,25 @@ url: /php-java/mathsuperscriptelementfactory/createmathsuperscriptelement/
 | --- | --- | --- |
 | baseArg | [MathSubscriptElement](../mathsubscriptelement) | Base argument to apply superscript |
 | superScript | [MathematicalText](../../mathematicaltext) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathSubscriptElement](../../mathsubscriptelement) baseArg, [MathFraction](../../mathfraction) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathSubscriptElement](../mathsubscriptelement) | Base argument to apply superscript |
+| superScript | [MathFraction](../../mathfraction) | upper right index |
 
 ### Returns
 [MathSuperscriptElement](../../mathsuperscriptelement)
@@ -5052,6 +4691,367 @@ url: /php-java/mathsuperscriptelementfactory/createmathsuperscriptelement/
 | Name | Type | Description |
 | --- | --- | --- |
 | baseArg | [MathSubscriptElement](../mathsubscriptelement) | Base argument to apply superscript |
+| superScript | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathFunction](../../mathfunction) baseArg, [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathFunction](../mathfunction) | Base argument to apply superscript |
+| superScript | [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathFunction](../../mathfunction) baseArg, [MathMatrix](../../mathmatrix) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathFunction](../mathfunction) | Base argument to apply superscript |
+| superScript | [MathMatrix](../../mathmatrix) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathFunction](../../mathfunction) baseArg, [MathLimit](../../mathlimit) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathFunction](../mathfunction) | Base argument to apply superscript |
+| superScript | [MathLimit](../../mathlimit) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathFunction](../../mathfunction) baseArg, [MathBlock](../../mathblock) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathFunction](../mathfunction) | Base argument to apply superscript |
+| superScript | [MathBlock](../../mathblock) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathFunction](../../mathfunction) baseArg, [MathRadical](../../mathradical) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathFunction](../mathfunction) | Base argument to apply superscript |
+| superScript | [MathRadical](../../mathradical) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathFunction](../../mathfunction) baseArg, [MathArray](../../matharray) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathFunction](../mathfunction) | Base argument to apply superscript |
+| superScript | [MathArray](../../matharray) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathFunction](../../mathfunction) baseArg, [MathDelimiter](../../mathdelimiter) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathFunction](../mathfunction) | Base argument to apply superscript |
+| superScript | [MathDelimiter](../../mathdelimiter) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathFunction](../../mathfunction) baseArg, [MathNaryOperator](../../mathnaryoperator) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathFunction](../mathfunction) | Base argument to apply superscript |
+| superScript | [MathNaryOperator](../../mathnaryoperator) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathFunction](../../mathfunction) baseArg, [MathAccent](../../mathaccent) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathFunction](../mathfunction) | Base argument to apply superscript |
+| superScript | [MathAccent](../../mathaccent) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathFunction](../../mathfunction) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathFunction](../mathfunction) | Base argument to apply superscript |
+| superScript | [MathGroupingCharacter](../../mathgroupingcharacter) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathFunction](../../mathfunction) baseArg, [MathBorderBox](../../mathborderbox) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathFunction](../mathfunction) | Base argument to apply superscript |
+| superScript | [MathBorderBox](../../mathborderbox) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathFunction](../../mathfunction) baseArg, [MathBar](../../mathbar) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathFunction](../mathfunction) | Base argument to apply superscript |
+| superScript | [MathBar](../../mathbar) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathFunction](../../mathfunction) baseArg, [MathSubscriptElement](../../mathsubscriptelement) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathFunction](../mathfunction) | Base argument to apply superscript |
+| superScript | [MathSubscriptElement](../../mathsubscriptelement) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathFunction](../../mathfunction) baseArg, [MathFunction](../../mathfunction) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathFunction](../mathfunction) | Base argument to apply superscript |
+| superScript | [MathFunction](../../mathfunction) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathFunction](../../mathfunction) baseArg, [MathSuperscriptElement](../../mathsuperscriptelement) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathFunction](../mathfunction) | Base argument to apply superscript |
+| superScript | [MathSuperscriptElement](../../mathsuperscriptelement) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathFunction](../../mathfunction) baseArg, [MathematicalText](../../mathematicaltext) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathFunction](../mathfunction) | Base argument to apply superscript |
+| superScript | [MathematicalText](../../mathematicaltext) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathFunction](../../mathfunction) baseArg, [MathFraction](../../mathfraction) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathFunction](../mathfunction) | Base argument to apply superscript |
+| superScript | [MathFraction](../../mathfraction) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathFunction](../../mathfunction) baseArg, [MathBox](../../mathbox) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathFunction](../mathfunction) | Base argument to apply superscript |
+| superScript | [MathBox](../../mathbox) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathFunction](../../mathfunction) baseArg, [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathFunction](../mathfunction) | Base argument to apply superscript |
 | superScript | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | upper right index |
 
 ### Returns
@@ -5194,25 +5194,6 @@ url: /php-java/mathsuperscriptelementfactory/createmathsuperscriptelement/
 ---
 
 
-## createMathSuperscriptElement([MathSuperscriptElement](../../mathsuperscriptelement) baseArg, [MathAccent](../../mathaccent) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply superscript |
-| superScript | [MathAccent](../../mathaccent) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
 ## createMathSuperscriptElement([MathSuperscriptElement](../../mathsuperscriptelement) baseArg, [MathNaryOperator](../../mathnaryoperator) superScript)  method
 
  Creates IMathSuperscriptElement
@@ -5224,6 +5205,25 @@ url: /php-java/mathsuperscriptelementfactory/createmathsuperscriptelement/
 | --- | --- | --- |
 | baseArg | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply superscript |
 | superScript | [MathNaryOperator](../../mathnaryoperator) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathSuperscriptElement](../../mathsuperscriptelement) baseArg, [MathAccent](../../mathaccent) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply superscript |
+| superScript | [MathAccent](../../mathaccent) | upper right index |
 
 ### Returns
 [MathSuperscriptElement](../../mathsuperscriptelement)
@@ -5289,25 +5289,6 @@ url: /php-java/mathsuperscriptelementfactory/createmathsuperscriptelement/
 ---
 
 
-## createMathSuperscriptElement([MathSuperscriptElement](../../mathsuperscriptelement) baseArg, [MathFunction](../../mathfunction) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply superscript |
-| superScript | [MathFunction](../../mathfunction) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
 ## createMathSuperscriptElement([MathSuperscriptElement](../../mathsuperscriptelement) baseArg, [MathSubscriptElement](../../mathsubscriptelement) superScript)  method
 
  Creates IMathSuperscriptElement
@@ -5319,6 +5300,25 @@ url: /php-java/mathsuperscriptelementfactory/createmathsuperscriptelement/
 | --- | --- | --- |
 | baseArg | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply superscript |
 | superScript | [MathSubscriptElement](../../mathsubscriptelement) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathSuperscriptElement](../../mathsuperscriptelement) baseArg, [MathFunction](../../mathfunction) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply superscript |
+| superScript | [MathFunction](../../mathfunction) | upper right index |
 
 ### Returns
 [MathSuperscriptElement](../../mathsuperscriptelement)
@@ -5346,25 +5346,6 @@ url: /php-java/mathsuperscriptelementfactory/createmathsuperscriptelement/
 ---
 
 
-## createMathSuperscriptElement([MathSuperscriptElement](../../mathsuperscriptelement) baseArg, [MathFraction](../../mathfraction) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply superscript |
-| superScript | [MathFraction](../../mathfraction) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
 ## createMathSuperscriptElement([MathSuperscriptElement](../../mathsuperscriptelement) baseArg, [MathematicalText](../../mathematicaltext) superScript)  method
 
  Creates IMathSuperscriptElement
@@ -5376,6 +5357,25 @@ url: /php-java/mathsuperscriptelementfactory/createmathsuperscriptelement/
 | --- | --- | --- |
 | baseArg | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply superscript |
 | superScript | [MathematicalText](../../mathematicaltext) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathSuperscriptElement](../../mathsuperscriptelement) baseArg, [MathFraction](../../mathfraction) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply superscript |
+| superScript | [MathFraction](../../mathfraction) | upper right index |
 
 ### Returns
 [MathSuperscriptElement](../../mathsuperscriptelement)
@@ -5413,367 +5413,6 @@ url: /php-java/mathsuperscriptelementfactory/createmathsuperscriptelement/
 | Name | Type | Description |
 | --- | --- | --- |
 | baseArg | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply superscript |
-| superScript | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
-## createMathSuperscriptElement([MathFraction](../../mathfraction) baseArg, [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathFraction](../mathfraction) | Base argument to apply superscript |
-| superScript | [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
-## createMathSuperscriptElement([MathFraction](../../mathfraction) baseArg, [MathMatrix](../../mathmatrix) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathFraction](../mathfraction) | Base argument to apply superscript |
-| superScript | [MathMatrix](../../mathmatrix) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
-## createMathSuperscriptElement([MathFraction](../../mathfraction) baseArg, [MathLimit](../../mathlimit) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathFraction](../mathfraction) | Base argument to apply superscript |
-| superScript | [MathLimit](../../mathlimit) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
-## createMathSuperscriptElement([MathFraction](../../mathfraction) baseArg, [MathBlock](../../mathblock) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathFraction](../mathfraction) | Base argument to apply superscript |
-| superScript | [MathBlock](../../mathblock) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
-## createMathSuperscriptElement([MathFraction](../../mathfraction) baseArg, [MathRadical](../../mathradical) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathFraction](../mathfraction) | Base argument to apply superscript |
-| superScript | [MathRadical](../../mathradical) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
-## createMathSuperscriptElement([MathFraction](../../mathfraction) baseArg, [MathArray](../../matharray) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathFraction](../mathfraction) | Base argument to apply superscript |
-| superScript | [MathArray](../../matharray) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
-## createMathSuperscriptElement([MathFraction](../../mathfraction) baseArg, [MathDelimiter](../../mathdelimiter) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathFraction](../mathfraction) | Base argument to apply superscript |
-| superScript | [MathDelimiter](../../mathdelimiter) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
-## createMathSuperscriptElement([MathFraction](../../mathfraction) baseArg, [MathAccent](../../mathaccent) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathFraction](../mathfraction) | Base argument to apply superscript |
-| superScript | [MathAccent](../../mathaccent) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
-## createMathSuperscriptElement([MathFraction](../../mathfraction) baseArg, [MathNaryOperator](../../mathnaryoperator) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathFraction](../mathfraction) | Base argument to apply superscript |
-| superScript | [MathNaryOperator](../../mathnaryoperator) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
-## createMathSuperscriptElement([MathFraction](../../mathfraction) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathFraction](../mathfraction) | Base argument to apply superscript |
-| superScript | [MathGroupingCharacter](../../mathgroupingcharacter) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
-## createMathSuperscriptElement([MathFraction](../../mathfraction) baseArg, [MathBorderBox](../../mathborderbox) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathFraction](../mathfraction) | Base argument to apply superscript |
-| superScript | [MathBorderBox](../../mathborderbox) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
-## createMathSuperscriptElement([MathFraction](../../mathfraction) baseArg, [MathBar](../../mathbar) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathFraction](../mathfraction) | Base argument to apply superscript |
-| superScript | [MathBar](../../mathbar) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
-## createMathSuperscriptElement([MathFraction](../../mathfraction) baseArg, [MathFunction](../../mathfunction) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathFraction](../mathfraction) | Base argument to apply superscript |
-| superScript | [MathFunction](../../mathfunction) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
-## createMathSuperscriptElement([MathFraction](../../mathfraction) baseArg, [MathSubscriptElement](../../mathsubscriptelement) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathFraction](../mathfraction) | Base argument to apply superscript |
-| superScript | [MathSubscriptElement](../../mathsubscriptelement) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
-## createMathSuperscriptElement([MathFraction](../../mathfraction) baseArg, [MathSuperscriptElement](../../mathsuperscriptelement) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathFraction](../mathfraction) | Base argument to apply superscript |
-| superScript | [MathSuperscriptElement](../../mathsuperscriptelement) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
-## createMathSuperscriptElement([MathFraction](../../mathfraction) baseArg, [MathFraction](../../mathfraction) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathFraction](../mathfraction) | Base argument to apply superscript |
-| superScript | [MathFraction](../../mathfraction) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
-## createMathSuperscriptElement([MathFraction](../../mathfraction) baseArg, [MathematicalText](../../mathematicaltext) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathFraction](../mathfraction) | Base argument to apply superscript |
-| superScript | [MathematicalText](../../mathematicaltext) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
-## createMathSuperscriptElement([MathFraction](../../mathfraction) baseArg, [MathBox](../../mathbox) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathFraction](../mathfraction) | Base argument to apply superscript |
-| superScript | [MathBox](../../mathbox) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
-## createMathSuperscriptElement([MathFraction](../../mathfraction) baseArg, [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathFraction](../mathfraction) | Base argument to apply superscript |
 | superScript | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | upper right index |
 
 ### Returns
@@ -5916,25 +5555,6 @@ url: /php-java/mathsuperscriptelementfactory/createmathsuperscriptelement/
 ---
 
 
-## createMathSuperscriptElement([MathematicalText](../../mathematicaltext) baseArg, [MathAccent](../../mathaccent) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathematicalText](../mathematicaltext) | Base argument to apply superscript |
-| superScript | [MathAccent](../../mathaccent) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
 ## createMathSuperscriptElement([MathematicalText](../../mathematicaltext) baseArg, [MathNaryOperator](../../mathnaryoperator) superScript)  method
 
  Creates IMathSuperscriptElement
@@ -5946,6 +5566,25 @@ url: /php-java/mathsuperscriptelementfactory/createmathsuperscriptelement/
 | --- | --- | --- |
 | baseArg | [MathematicalText](../mathematicaltext) | Base argument to apply superscript |
 | superScript | [MathNaryOperator](../../mathnaryoperator) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathematicalText](../../mathematicaltext) baseArg, [MathAccent](../../mathaccent) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathematicalText](../mathematicaltext) | Base argument to apply superscript |
+| superScript | [MathAccent](../../mathaccent) | upper right index |
 
 ### Returns
 [MathSuperscriptElement](../../mathsuperscriptelement)
@@ -6011,25 +5650,6 @@ url: /php-java/mathsuperscriptelementfactory/createmathsuperscriptelement/
 ---
 
 
-## createMathSuperscriptElement([MathematicalText](../../mathematicaltext) baseArg, [MathFunction](../../mathfunction) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathematicalText](../mathematicaltext) | Base argument to apply superscript |
-| superScript | [MathFunction](../../mathfunction) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
 ## createMathSuperscriptElement([MathematicalText](../../mathematicaltext) baseArg, [MathSubscriptElement](../../mathsubscriptelement) superScript)  method
 
  Creates IMathSuperscriptElement
@@ -6041,6 +5661,25 @@ url: /php-java/mathsuperscriptelementfactory/createmathsuperscriptelement/
 | --- | --- | --- |
 | baseArg | [MathematicalText](../mathematicaltext) | Base argument to apply superscript |
 | superScript | [MathSubscriptElement](../../mathsubscriptelement) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathematicalText](../../mathematicaltext) baseArg, [MathFunction](../../mathfunction) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathematicalText](../mathematicaltext) | Base argument to apply superscript |
+| superScript | [MathFunction](../../mathfunction) | upper right index |
 
 ### Returns
 [MathSuperscriptElement](../../mathsuperscriptelement)
@@ -6068,25 +5707,6 @@ url: /php-java/mathsuperscriptelementfactory/createmathsuperscriptelement/
 ---
 
 
-## createMathSuperscriptElement([MathematicalText](../../mathematicaltext) baseArg, [MathFraction](../../mathfraction) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathematicalText](../mathematicaltext) | Base argument to apply superscript |
-| superScript | [MathFraction](../../mathfraction) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
 ## createMathSuperscriptElement([MathematicalText](../../mathematicaltext) baseArg, [MathematicalText](../../mathematicaltext) superScript)  method
 
  Creates IMathSuperscriptElement
@@ -6098,6 +5718,25 @@ url: /php-java/mathsuperscriptelementfactory/createmathsuperscriptelement/
 | --- | --- | --- |
 | baseArg | [MathematicalText](../mathematicaltext) | Base argument to apply superscript |
 | superScript | [MathematicalText](../../mathematicaltext) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathematicalText](../../mathematicaltext) baseArg, [MathFraction](../../mathfraction) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathematicalText](../mathematicaltext) | Base argument to apply superscript |
+| superScript | [MathFraction](../../mathfraction) | upper right index |
 
 ### Returns
 [MathSuperscriptElement](../../mathsuperscriptelement)
@@ -6135,6 +5774,367 @@ url: /php-java/mathsuperscriptelementfactory/createmathsuperscriptelement/
 | Name | Type | Description |
 | --- | --- | --- |
 | baseArg | [MathematicalText](../mathematicaltext) | Base argument to apply superscript |
+| superScript | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathFraction](../../mathfraction) baseArg, [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathFraction](../mathfraction) | Base argument to apply superscript |
+| superScript | [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathFraction](../../mathfraction) baseArg, [MathMatrix](../../mathmatrix) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathFraction](../mathfraction) | Base argument to apply superscript |
+| superScript | [MathMatrix](../../mathmatrix) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathFraction](../../mathfraction) baseArg, [MathLimit](../../mathlimit) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathFraction](../mathfraction) | Base argument to apply superscript |
+| superScript | [MathLimit](../../mathlimit) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathFraction](../../mathfraction) baseArg, [MathBlock](../../mathblock) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathFraction](../mathfraction) | Base argument to apply superscript |
+| superScript | [MathBlock](../../mathblock) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathFraction](../../mathfraction) baseArg, [MathRadical](../../mathradical) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathFraction](../mathfraction) | Base argument to apply superscript |
+| superScript | [MathRadical](../../mathradical) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathFraction](../../mathfraction) baseArg, [MathArray](../../matharray) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathFraction](../mathfraction) | Base argument to apply superscript |
+| superScript | [MathArray](../../matharray) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathFraction](../../mathfraction) baseArg, [MathDelimiter](../../mathdelimiter) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathFraction](../mathfraction) | Base argument to apply superscript |
+| superScript | [MathDelimiter](../../mathdelimiter) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathFraction](../../mathfraction) baseArg, [MathNaryOperator](../../mathnaryoperator) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathFraction](../mathfraction) | Base argument to apply superscript |
+| superScript | [MathNaryOperator](../../mathnaryoperator) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathFraction](../../mathfraction) baseArg, [MathAccent](../../mathaccent) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathFraction](../mathfraction) | Base argument to apply superscript |
+| superScript | [MathAccent](../../mathaccent) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathFraction](../../mathfraction) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathFraction](../mathfraction) | Base argument to apply superscript |
+| superScript | [MathGroupingCharacter](../../mathgroupingcharacter) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathFraction](../../mathfraction) baseArg, [MathBorderBox](../../mathborderbox) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathFraction](../mathfraction) | Base argument to apply superscript |
+| superScript | [MathBorderBox](../../mathborderbox) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathFraction](../../mathfraction) baseArg, [MathBar](../../mathbar) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathFraction](../mathfraction) | Base argument to apply superscript |
+| superScript | [MathBar](../../mathbar) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathFraction](../../mathfraction) baseArg, [MathSubscriptElement](../../mathsubscriptelement) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathFraction](../mathfraction) | Base argument to apply superscript |
+| superScript | [MathSubscriptElement](../../mathsubscriptelement) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathFraction](../../mathfraction) baseArg, [MathFunction](../../mathfunction) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathFraction](../mathfraction) | Base argument to apply superscript |
+| superScript | [MathFunction](../../mathfunction) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathFraction](../../mathfraction) baseArg, [MathSuperscriptElement](../../mathsuperscriptelement) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathFraction](../mathfraction) | Base argument to apply superscript |
+| superScript | [MathSuperscriptElement](../../mathsuperscriptelement) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathFraction](../../mathfraction) baseArg, [MathematicalText](../../mathematicaltext) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathFraction](../mathfraction) | Base argument to apply superscript |
+| superScript | [MathematicalText](../../mathematicaltext) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathFraction](../../mathfraction) baseArg, [MathFraction](../../mathfraction) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathFraction](../mathfraction) | Base argument to apply superscript |
+| superScript | [MathFraction](../../mathfraction) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathFraction](../../mathfraction) baseArg, [MathBox](../../mathbox) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathFraction](../mathfraction) | Base argument to apply superscript |
+| superScript | [MathBox](../../mathbox) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathFraction](../../mathfraction) baseArg, [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathFraction](../mathfraction) | Base argument to apply superscript |
 | superScript | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | upper right index |
 
 ### Returns
@@ -6277,25 +6277,6 @@ url: /php-java/mathsuperscriptelementfactory/createmathsuperscriptelement/
 ---
 
 
-## createMathSuperscriptElement([MathBox](../../mathbox) baseArg, [MathAccent](../../mathaccent) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathBox](../mathbox) | Base argument to apply superscript |
-| superScript | [MathAccent](../../mathaccent) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
 ## createMathSuperscriptElement([MathBox](../../mathbox) baseArg, [MathNaryOperator](../../mathnaryoperator) superScript)  method
 
  Creates IMathSuperscriptElement
@@ -6307,6 +6288,25 @@ url: /php-java/mathsuperscriptelementfactory/createmathsuperscriptelement/
 | --- | --- | --- |
 | baseArg | [MathBox](../mathbox) | Base argument to apply superscript |
 | superScript | [MathNaryOperator](../../mathnaryoperator) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathBox](../../mathbox) baseArg, [MathAccent](../../mathaccent) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathBox](../mathbox) | Base argument to apply superscript |
+| superScript | [MathAccent](../../mathaccent) | upper right index |
 
 ### Returns
 [MathSuperscriptElement](../../mathsuperscriptelement)
@@ -6372,25 +6372,6 @@ url: /php-java/mathsuperscriptelementfactory/createmathsuperscriptelement/
 ---
 
 
-## createMathSuperscriptElement([MathBox](../../mathbox) baseArg, [MathFunction](../../mathfunction) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathBox](../mathbox) | Base argument to apply superscript |
-| superScript | [MathFunction](../../mathfunction) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
 ## createMathSuperscriptElement([MathBox](../../mathbox) baseArg, [MathSubscriptElement](../../mathsubscriptelement) superScript)  method
 
  Creates IMathSuperscriptElement
@@ -6402,6 +6383,25 @@ url: /php-java/mathsuperscriptelementfactory/createmathsuperscriptelement/
 | --- | --- | --- |
 | baseArg | [MathBox](../mathbox) | Base argument to apply superscript |
 | superScript | [MathSubscriptElement](../../mathsubscriptelement) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathBox](../../mathbox) baseArg, [MathFunction](../../mathfunction) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathBox](../mathbox) | Base argument to apply superscript |
+| superScript | [MathFunction](../../mathfunction) | upper right index |
 
 ### Returns
 [MathSuperscriptElement](../../mathsuperscriptelement)
@@ -6429,25 +6429,6 @@ url: /php-java/mathsuperscriptelementfactory/createmathsuperscriptelement/
 ---
 
 
-## createMathSuperscriptElement([MathBox](../../mathbox) baseArg, [MathFraction](../../mathfraction) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathBox](../mathbox) | Base argument to apply superscript |
-| superScript | [MathFraction](../../mathfraction) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
 ## createMathSuperscriptElement([MathBox](../../mathbox) baseArg, [MathematicalText](../../mathematicaltext) superScript)  method
 
  Creates IMathSuperscriptElement
@@ -6459,6 +6440,25 @@ url: /php-java/mathsuperscriptelementfactory/createmathsuperscriptelement/
 | --- | --- | --- |
 | baseArg | [MathBox](../mathbox) | Base argument to apply superscript |
 | superScript | [MathematicalText](../../mathematicaltext) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathBox](../../mathbox) baseArg, [MathFraction](../../mathfraction) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathBox](../mathbox) | Base argument to apply superscript |
+| superScript | [MathFraction](../../mathfraction) | upper right index |
 
 ### Returns
 [MathSuperscriptElement](../../mathsuperscriptelement)
@@ -6638,25 +6638,6 @@ url: /php-java/mathsuperscriptelementfactory/createmathsuperscriptelement/
 ---
 
 
-## createMathSuperscriptElement([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) baseArg, [MathAccent](../../mathaccent) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Base argument to apply superscript |
-| superScript | [MathAccent](../../mathaccent) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
 ## createMathSuperscriptElement([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) baseArg, [MathNaryOperator](../../mathnaryoperator) superScript)  method
 
  Creates IMathSuperscriptElement
@@ -6668,6 +6649,25 @@ url: /php-java/mathsuperscriptelementfactory/createmathsuperscriptelement/
 | --- | --- | --- |
 | baseArg | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Base argument to apply superscript |
 | superScript | [MathNaryOperator](../../mathnaryoperator) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) baseArg, [MathAccent](../../mathaccent) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Base argument to apply superscript |
+| superScript | [MathAccent](../../mathaccent) | upper right index |
 
 ### Returns
 [MathSuperscriptElement](../../mathsuperscriptelement)
@@ -6733,25 +6733,6 @@ url: /php-java/mathsuperscriptelementfactory/createmathsuperscriptelement/
 ---
 
 
-## createMathSuperscriptElement([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) baseArg, [MathFunction](../../mathfunction) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Base argument to apply superscript |
-| superScript | [MathFunction](../../mathfunction) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
 ## createMathSuperscriptElement([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) baseArg, [MathSubscriptElement](../../mathsubscriptelement) superScript)  method
 
  Creates IMathSuperscriptElement
@@ -6763,6 +6744,25 @@ url: /php-java/mathsuperscriptelementfactory/createmathsuperscriptelement/
 | --- | --- | --- |
 | baseArg | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Base argument to apply superscript |
 | superScript | [MathSubscriptElement](../../mathsubscriptelement) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) baseArg, [MathFunction](../../mathfunction) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Base argument to apply superscript |
+| superScript | [MathFunction](../../mathfunction) | upper right index |
 
 ### Returns
 [MathSuperscriptElement](../../mathsuperscriptelement)
@@ -6790,25 +6790,6 @@ url: /php-java/mathsuperscriptelementfactory/createmathsuperscriptelement/
 ---
 
 
-## createMathSuperscriptElement([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) baseArg, [MathFraction](../../mathfraction) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Base argument to apply superscript |
-| superScript | [MathFraction](../../mathfraction) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
 ## createMathSuperscriptElement([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) baseArg, [MathematicalText](../../mathematicaltext) superScript)  method
 
  Creates IMathSuperscriptElement
@@ -6820,6 +6801,25 @@ url: /php-java/mathsuperscriptelementfactory/createmathsuperscriptelement/
 | --- | --- | --- |
 | baseArg | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Base argument to apply superscript |
 | superScript | [MathematicalText](../../mathematicaltext) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) baseArg, [MathFraction](../../mathfraction) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Base argument to apply superscript |
+| superScript | [MathFraction](../../mathfraction) | upper right index |
 
 ### Returns
 [MathSuperscriptElement](../../mathsuperscriptelement)

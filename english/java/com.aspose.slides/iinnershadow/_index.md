@@ -3,7 +3,7 @@ title: IInnerShadow
 second_title: Aspose.Slides for Java API Reference
 description: Represents a inner shadow effect.
 type: docs
-weight: 836
+weight: 839
 url: /java/com.aspose.slides/iinnershadow/
 ---
 **All Implemented Interfaces:**
