@@ -26,6 +26,28 @@ public class NormalViewProperties : INormalViewProperties
 | [SnapVerticalSplitter](../../aspose.slides/normalviewproperties/snapverticalsplitter) { get; set; } | Specifies whether the vertical splitter should snap to a minimized state when the side region is sufficiently small. Read/write Boolean. |
 | [VerticalBarState](../../aspose.slides/normalviewproperties/verticalbarstate) { get; set; } | Specifies the state that the vertical splitter bar should be shown in. A vertical splitter bar separates the slide from the side content region. |
 
+## Examples
+
+The following example shows how to configure ViewProperties.NormalViewProperties properties of a PowerPoint Presentation.
+
+```csharp
+[C#]
+//Instantiate a presentation object that represents a presentation file
+using (Presentation pres = new Presentation("demo.pptx"))
+{
+    pres.ViewProperties.NormalViewProperties.HorizontalBarState = SplitterBarStateType.Restored;
+    pres.ViewProperties.NormalViewProperties.VerticalBarState = SplitterBarStateType.Maximized;
+
+    pres.ViewProperties.NormalViewProperties.RestoredTop.AutoAdjust = true;
+    pres.ViewProperties.NormalViewProperties.RestoredTop.DimensionSize = 80;
+    pres.ViewProperties.NormalViewProperties.ShowOutlineIcons = true;
+
+    pres.Save("presentation_normal_view_state.pptx", SaveFormat.Pptx);
+}
+
+```
+
+
 ### See Also
 
 * interface [INormalViewProperties](../inormalviewproperties)

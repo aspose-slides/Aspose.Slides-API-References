@@ -14,6 +14,29 @@ Returns master theme. Read-only [`IMasterTheme`](../../../aspose.slides.theme/im
 public IMasterTheme MasterTheme { get; }
 ```
 
+### Examples
+
+The following examples shows how to change a theme effect by altering parts of elements of PowerPoint Presentation.
+
+```csharp
+[C#]
+
+//Instantiate a presentation object that represents a presentation file
+using (Presentation pres = new Presentation("Subtle_Moderate_Intense.pptx"))
+{
+    pres.MasterTheme.FormatScheme.LineStyles[0].FillFormat.SolidFillColor.Color = Color.Red;
+
+    pres.MasterTheme.FormatScheme.FillStyles[2].FillType = FillType.Solid;
+
+    pres.MasterTheme.FormatScheme.FillStyles[2].SolidFillColor.Color = Color.ForestGreen;
+
+    pres.MasterTheme.FormatScheme.EffectStyles[2].EffectFormat.OuterShadowEffect.Distance = 10f;
+
+    pres.Save("Design_04_Subtle_Moderate_Intense-out.pptx", SaveFormat.Pptx);
+}
+```
+
+
 ### See Also
 
 * interface [IMasterTheme](../../../aspose.slides.theme/imastertheme)

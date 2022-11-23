@@ -18,6 +18,19 @@ public void SetWriteProtection(string password)
 | --- | --- | --- |
 | password | String | The password. |
 
+### Examples
+
+The following sample code shows you how to set a write protection to a presentation.
+
+```csharp
+[C#]
+using (Presentation presentation = new Presentation("pres.pptx"))
+{
+    presentation.ProtectionManager.SetWriteProtection("123123");
+    presentation.Save("write-protected-pres.pptx", SaveFormat.Pptx);
+}
+```
+
 ### See Also
 
 * class [ProtectionManager](../../protectionmanager)

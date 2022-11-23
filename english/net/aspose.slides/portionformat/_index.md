@@ -71,6 +71,33 @@ This class is used to return and manipulate text portion formatting properties d
 
 In order to get the effective formatting parameter values including inherited you need to use [`GetEffective`](./geteffective) method which returns a [`IPortionFormatEffectiveData`](../iportionformateffectivedata) instance.
 
+## Examples
+
+The following examples shows you how to assign the Latin font to a theme element of PowerPoint Presentation.
+
+```csharp
+[C#]
+
+//Instantiate a presentation object that represents a presentation file
+using (Presentation pres = new Presentation("demo.pptx"))
+{
+IAutoShape shape = pres.Slides[0].Shapes.AddAutoShape(ShapeType.Rectangle, 10, 10, 100, 100);
+
+Paragraph paragraph = new Paragraph();
+Portion portion = new Portion("Theme text format");
+paragraph.Portions.Add(portion);
+shape.TextFrame.Paragraphs.Add(paragraph);
+
+// Aspose.Slides uses these special identifiers (similar to those used in PowerPoint):
+// +mn-lt - Body Font Latin (Minor Latin Font)
+// +mj-lt -Heading Font Latin (Major Latin Font)
+// +mn-ea - Body Font East Asian (Minor East Asian Font)
+// +mj-ea - Body Font East Asian (Minor East Asian Font)
+portion.PortionFormat.LatinFont = new FontData("+mn-lt");
+}
+
+```
+
 ### See Also
 
 * class [BasePortionFormat](../baseportionformat)

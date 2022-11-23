@@ -14,6 +14,19 @@ Removes write protection for this presentation.
 public void RemoveWriteProtection()
 ```
 
+### Examples
+
+This sample code shows you how to remove the write protection from a PowerPoint Presentation.
+
+```csharp
+[C#]
+using (Presentation presentation = new Presentation("pres.pptx"))
+{
+    presentation.ProtectionManager.RemoveWriteProtection();
+    presentation.Save("write-protection-removed.pptx", SaveFormat.Pptx);
+}
+```
+
 ### See Also
 
 * class [ProtectionManager](../../protectionmanager)

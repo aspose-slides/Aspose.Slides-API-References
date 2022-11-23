@@ -21,6 +21,26 @@ public class CommonSlideViewProperties : ICommonSlideViewProperties
 | [Scale](../../aspose.slides/commonslideviewproperties/scale) { get; set; } | Specifies the view scaling ratio in percentages. Read/write Int32. |
 | [VariableScale](../../aspose.slides/commonslideviewproperties/variablescale) { get; set; } | Specifies that the view content should automatically scale to best fit the current window size. Read/write Boolean. |
 
+## Example
+
+The following example shows how to set the zoom value for slide of PowerPoint Presentation.
+
+```csharp
+[C#]
+// Instantiate a Presentation object that represents a presentation file
+using (Presentation presentation = new Presentation("demo.pptx"))
+{
+    // Setting View Properties of Presentation
+    presentation.ViewProperties.SlideViewProperties.Scale = 100; // Zoom value in percentages for slide view
+	presentation.ViewProperties.NotesViewProperties.Scale = 100; // Zoom value in percentages for notes view 
+
+    presentation.Save("Zoom_out.pptx", SaveFormat.Pptx);
+}
+
+```
+
+
+
 ### See Also
 
 * interface [ICommonSlideViewProperties](../icommonslideviewproperties)

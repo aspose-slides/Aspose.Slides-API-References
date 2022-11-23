@@ -30,6 +30,57 @@ public class DigitalSignature : IDigitalSignature
 | [IsValid](../../aspose.slides/digitalsignature/isvalid) { get; } | If this digital signature is valid and the document has not been tampered with, this value will be true. Read-only Boolean. |
 | [SignTime](../../aspose.slides/digitalsignature/signtime) { get; } | The time when the document was signed. Read-only DateTime. |
 
+## Examples
+
+The following example demonstrates how to add digital signature from a PFX certificate in PowerPoint Presentation.
+
+```csharp
+[C#]
+// Initialize Presentation instance
+using (Presentation pres = new Presentation())
+{
+    // Create DigitalSignature object with PFX file and PFX password 
+    DigitalSignature signature = new DigitalSignature("testsignature1.pfx", @"testpass1");
+
+    // Comment new digital signature
+    signature.Comments = "Aspose.Slides digital signing test.";
+
+    // Add digital signature to presentation
+    pres.DigitalSignatures.Add(signature);
+
+    // Save presentation
+    pres.Save("SomePresentationSigned.pptx", SaveFormat.Pptx);
+}
+```
+
+The following sample code demonstrates how to validate digital signature of PowerPoint Presentation.
+
+```csharp
+[C#]
+// Initialize Presentation instance
+using (Presentation pres = new Presentation("SomePresentationSigned.pptx"))
+{
+    if (pres.DigitalSignatures.Count > 0)
+    {
+        bool allSignaturesAreValid = true;
+
+        Console.WriteLine("Signatures used to sign the presentation: ");
+
+        // Check if all digital signatures are valid
+        foreach (DigitalSignature signature in pres.DigitalSignatures)
+        {
+            Console.WriteLine(signature.Certificate.SubjectName.Name + ", "
+                    + signature.SignTime.ToString("yyyy-MM-dd HH:mm") + " -- " + (signature.IsValid ? "VALID" : "INVALID"));
+            allSignaturesAreValid &= signature.IsValid;
+        }
+
+        if (allSignaturesAreValid)
+            Console.WriteLine("Presentation is genuine, all signatures are valid.");
+        else
+            Console.WriteLine("Presentation has been modified since signing.");
+    }
+}
+```
 ### See Also
 
 * interface [IDigitalSignature](../idigitalsignature)

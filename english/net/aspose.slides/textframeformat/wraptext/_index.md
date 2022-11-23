@@ -14,6 +14,29 @@ url: /net/aspose.slides/textframeformat/wraptext/
 public NullableBool WrapText { get; set; }
 ```
 
+### Examples
+
+The following sample code shows how to wrap text in Presentation.
+
+```csharp
+[C#]
+using (Presentation pres = new Presentation())
+{
+    ISlide slide = pres.Slides[0];
+    IAutoShape autoShape = slide.Shapes.AddAutoShape(ShapeType.Rectangle, 30, 30, 350, 100);
+
+    Portion portion = new Portion("lorem ipsum...");
+    portion.PortionFormat.FillFormat.SolidFillColor.Color = Color.Black;
+    portion.PortionFormat.FillFormat.FillType = FillType.Solid;
+    autoShape.TextFrame.Paragraphs[0].Portions.Add(portion);
+
+    ITextFrameFormat textFrameFormat = autoShape.TextFrame.TextFrameFormat;
+    textFrameFormat.WrapText = NullableBool.True;
+
+    pres.Save("Output-presentation.pptx", SaveFormat.Pptx);
+}
+```
+
 ### See Also
 
 * enum [NullableBool](../../nullablebool)

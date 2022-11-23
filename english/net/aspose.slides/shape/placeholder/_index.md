@@ -14,6 +14,62 @@ Returns the placeholder for a shape. Returns null if the shape has no placeholde
 public IPlaceholder Placeholder { get; }
 ```
 
+## Examples
+
+The following example shows how to change Text in Placeholder.
+
+```csharp
+[C#]
+// Instantiates a Presentation class
+using (Presentation pres = new Presentation("ReplacingText.pptx"))
+{
+
+    // Accesses the first slide
+    ISlide sld = pres.Slides[0];
+
+    // Iterates through shapes to find the placeholder
+    foreach (IShape shp in sld.Shapes)
+        if (shp.Placeholder != null)
+        {
+            // Changes the text in each placeholder
+            ((IAutoShape)shp).TextFrame.Text = "This is a Placeholder";
+        }
+
+    // Saves the presentation to disk
+    pres.Save("output_out.pptx", Aspose.Slides.Export.SaveFormat.Pptx);
+}
+```
+The following example shows how to set Prompt Text in Placeholder.
+
+```csharp
+[C#]
+using (Presentation pres = new Presentation("Presentation2.pptx"))
+{
+    ISlide slide = pres.Slides[0];
+    foreach (IShape shape in slide.Slide.Shapes) // Iterates through the slide
+    {
+        if (shape.Placeholder != null && shape is AutoShape)
+        {
+            string text = "";
+            if (shape.Placeholder.Type == PlaceholderType.CenteredTitle) // PowerPoint displays "Click to add title"
+            {
+                text = "Add Title";
+            }
+            else if (shape.Placeholder.Type == PlaceholderType.Subtitle) // Adds subtitle
+            {
+                text = "Add Subtitle";
+            }
+
+            ((IAutoShape)shape).TextFrame.Text = text;
+
+            Console.WriteLine($"Placeholder with text: {text}");
+        }
+    }
+
+    pres.Save("Placeholders_PromptText.pptx", SaveFormat.Pptx);
+}
+```
+
 ### See Also
 
 * interface [IPlaceholder](../../iplaceholder)

@@ -28,6 +28,40 @@ The zero-based index of the created shape.
 
 Created Connector object.
 
+### Examples
+
+The following example shows how to add a connector (a bent connector) between two shapes (an ellipse and rectangle) in PowerPoint Presentation.
+
+```csharp
+[C#]
+
+// Instantiates a presentation class that represents a PPTX file
+using (Presentation input = new Presentation())
+{                
+    // Accesses the shapes collection for a specific slide
+    IShapeCollection shapes = input.Slides[0].Shapes;
+
+    // Adds an Ellipse autoshape
+    IAutoShape ellipse = shapes.AddAutoShape(ShapeType.Ellipse, 0, 100, 100, 100);
+
+    // Adds a Rectangle autoshape
+    IAutoShape rectangle = shapes.AddAutoShape(ShapeType.Rectangle, 100, 300, 100, 100);
+
+    // Adds a connector shape to the slide shape collection
+    IConnector connector = shapes.AddConnector(ShapeType.BentConnector2, 0, 0, 10, 10);
+
+    // Connects the shapes using the connector
+    connector.StartShapeConnectedTo = ellipse;
+    connector.EndShapeConnectedTo = rectangle;
+
+    // Calls reroute that sets the automatic shortest path between shapes
+    connector.Reroute();
+
+    // Saves the presentation
+    input.Save("Shapes-connector.pptx", SaveFormat.Pptx);
+}
+```
+
 ### See Also
 
 * interface [IConnector](../../iconnector)

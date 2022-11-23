@@ -15,7 +15,7 @@ public bool ReadOnlyRecommended { get; set; }
 ```
 
 ### Examples
-
+The following sample code shows you how to set a PowerPoint Presentation to Read-Only in C# using Aspose.Slides.
 ```csharp
 [C#]
 Presentation pres = new Presentation();

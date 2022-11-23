@@ -14,6 +14,50 @@ Returns the collection of all images in the presentation. Read-only [`IImageColl
 public IImageCollection Images { get; }
 ```
 
+### Examples
+
+The following examples shows how to add image as BLOB in PowerPoint Presentation.
+
+```csharp
+[C#]
+string pathToLargeImage = "large_image.jpg";
+
+// creates a new presentation to which the image will be added.
+using (Presentation pres = new Presentation())
+{
+	using (FileStream fileStream = new FileStream(pathToLargeImage, FileMode.Open))
+	{
+		// Let's add the image to the presentation - we choose KeepLocked behavior because we do
+		// NOT intend to access the "largeImage.png" file.
+		IPPImage img = pres.Images.AddImage(fileStream, LoadingStreamBehavior.KeepLocked);
+		pres.Slides[0].Shapes.AddPictureFrame(ShapeType.Rectangle, 0, 0, 300, 200, img);
+
+		// Saves the presentation. While a large presentation gets outputted, the memory consumption 
+		// stays low through the pres object's lifecycle
+		pres.Save("presentationWithLargeImage.pptx", SaveFormat.Pptx);
+	}
+}
+
+```
+
+The following examples add a hyperlink to an image in a PowerPoint Presentation.
+
+```csharp
+[C#]
+using (Presentation pres = new Presentation())
+{
+    // Adds image to presentation
+    IPPImage image = pres.Images.AddImage(File.ReadAllBytes("image.png"));
+    // Creates picture frame on slide 1 based on previously added image
+    IPictureFrame pictureFrame = pres.Slides[0].Shapes.AddPictureFrame(ShapeType.Rectangle, 10, 10, 100, 100, image);
+
+    pictureFrame.HyperlinkClick = new Hyperlink("https://www.aspose.com/");
+    pictureFrame.HyperlinkClick.Tooltip = "More than 70% Fortune 100 companies trust Aspose APIs";
+
+    pres.Save("pres-out.pptx", SaveFormat.Pptx);
+}
+```
+
 ### See Also
 
 * interface [IImageCollection](../../iimagecollection)

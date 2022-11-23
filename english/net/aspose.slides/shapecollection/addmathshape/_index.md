@@ -25,6 +25,34 @@ public IAutoShape AddMathShape(float x, float y, float width, float height)
 
 Created AutoShape object.
 
+### Example 
+
+The following example shows how to add Mathematical Equation in PowerPoint Presentation.
+
+
+```csharp
+[C#]
+using (Presentation pres = new Presentation())
+{
+   IAutoShape mathShape = pres.Slides[0].Shapes.AddMathShape(0, 0, 720, 150);
+   var mathParagraph = (mathShape.TextFrame.Paragraphs[0].Portions[0] as MathPortion).MathParagraph;
+   var fraction = new MathematicalText("x").Divide("y");
+   mathParagraph.Add(new MathBlock(fraction));
+
+   var mathBlock = new MathematicalText("c")
+        .SetSuperscript("2")
+        .Join("=")
+        .Join(new MathematicalText("a").SetSuperscript("2"))
+        .Join("+")
+        .Join(new MathematicalText("b").SetSuperscript("2"));
+
+    mathParagraph.Add(mathBlock);
+    pres.Save("math.pptx", SaveFormat.Pptx);
+
+}
+
+```
+
 ### See Also
 
 * interface [IAutoShape](../../iautoshape)

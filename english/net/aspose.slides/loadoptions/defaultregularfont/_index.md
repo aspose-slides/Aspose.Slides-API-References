@@ -14,6 +14,32 @@ Returns or sets Regular font used in case source font is not found. Read/write S
 public string DefaultRegularFont { get; set; }
 ```
 
+### Examples
+
+The following example shows how to set default fonts for rendering PowerPoint Presentation.
+
+```csharp
+[C#]
+
+// Use load options to define the default regualr and asian fonts
+LoadOptions loadOptions = new LoadOptions(LoadFormat.Auto);
+loadOptions.DefaultRegularFont = "Wingdings";
+loadOptions.DefaultAsianFont = "Wingdings";
+
+// Load the presentation
+using (Presentation pptx = new Presentation("DefaultFonts.pptx", loadOptions))
+{
+    // Generate slide thumbnail
+    pptx.Slides[0].GetThumbnail(1, 1).Save("output_out.png", ImageFormat.Png);
+
+    // Generate PDF
+    pptx.Save("output_out.pdf", SaveFormat.Pdf);
+
+    // Generate XPS
+    pptx.Save("output_out.xps", SaveFormat.Xps);
+}
+```
+
 ### See Also
 
 * class [LoadOptions](../../loadoptions)

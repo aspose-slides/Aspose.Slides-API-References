@@ -14,6 +14,50 @@ Returns or sets text's autofit mode. Read/write [`TextAutofitType`](../../textau
 public TextAutofitType AutofitType { get; set; }
 ```
 
+### Examples
+
+The following sample code shows how to resize shape to Fit Text in a PowerPoint Presentation.
+
+```csharp
+[C#]
+ using (Presentation pres = new Presentation())
+{
+    ISlide slide = pres.Slides[0];
+    IAutoShape autoShape = slide.Shapes.AddAutoShape(ShapeType.Rectangle, 30, 30, 350, 100);
+
+    Portion portion = new Portion("lorem ipsum...");
+    portion.PortionFormat.FillFormat.SolidFillColor.Color = Color.Black;
+    portion.PortionFormat.FillFormat.FillType = FillType.Solid;
+    autoShape.TextFrame.Paragraphs[0].Portions.Add(portion);
+
+    ITextFrameFormat textFrameFormat = autoShape.TextFrame.TextFrameFormat;
+    textFrameFormat.AutofitType = TextAutofitType.Shape;
+
+    pres.Save("Output-presentation.pptx", SaveFormat.Pptx);
+}
+```
+
+The following sample code shows how to shrink text on overflow.
+
+```csharp
+[C#]
+using (Presentation pres = new Presentation())
+{
+    ISlide slide = pres.Slides[0];
+    IAutoShape autoShape = slide.Shapes.AddAutoShape(ShapeType.Rectangle, 30, 30, 350, 100);
+
+    Portion portion = new Portion("lorem ipsum...");
+    portion.PortionFormat.FillFormat.SolidFillColor.Color = Color.Black;
+    portion.PortionFormat.FillFormat.FillType = FillType.Solid;
+    autoShape.TextFrame.Paragraphs[0].Portions.Add(portion);
+
+    ITextFrameFormat textFrameFormat = autoShape.TextFrame.TextFrameFormat;
+    textFrameFormat.AutofitType = TextAutofitType .Normal;
+
+    pres.Save("Output-presentation.pptx", SaveFormat.Pptx);
+}
+```
+
 ### See Also
 
 * enum [TextAutofitType](../../textautofittype)

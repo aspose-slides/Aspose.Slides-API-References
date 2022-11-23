@@ -34,6 +34,23 @@ public void Print(PrinterSettings printerSettings)
 | --- | --- | --- |
 | printerSettings | PrinterSettings | The .NET printer settings to use. |
 
+### Examples
+
+The following example shows how to set print options Dynamically for a PowerPoint Presentation.
+
+```csharp
+[C#]
+using (Presentation pres = new Presentation())
+{
+	PrinterSettings printerSettings = new PrinterSettings();
+	printerSettings.Copies = 2;
+	printerSettings.DefaultPageSettings.Landscape = true;
+	printerSettings.DefaultPageSettings.Margins.Left = 10;
+	   //...etc
+	pres.Print(printerSettings);
+}
+```
+
 ### See Also
 
 * class [Presentation](../../presentation)
@@ -53,6 +70,27 @@ public void Print(string printerName)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | printerName | String | The name of the printer. |
+
+### Examples
+
+The following example shows how to print a PowerPoint Presentation with specific printer.
+
+```csharp
+[C#]
+try
+{
+    // Loads the presentation
+    Presentation presentation = new Presentation("Print.ppt");
+
+    // Calls the print method with the printer name 
+    presentation.Print("Please set your printer name here");
+
+}
+catch (Exception ex)
+{
+    Console.WriteLine(ex.Message + "\nPlease set printer name as string parameter to the Presentation Print method");
+}
+```
 
 ### See Also
 
@@ -74,6 +112,7 @@ public void Print(PrinterSettings printerSettings, string presName)
 | --- | --- | --- |
 | printerSettings | PrinterSettings | The .NET printer settings to use. |
 | presName | String | The presentation name to display (for example, in a print status dialog box or printer queue) while printing the presentation. |
+
 
 ### See Also
 

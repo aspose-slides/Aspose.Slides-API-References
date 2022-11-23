@@ -29,7 +29,7 @@ Create SmartArt diagram
 
 ### Examples
 
-Example:
+The following example shows how to add smart shape in PowerPoint Presentation.
 
 ```csharp
 [C#]

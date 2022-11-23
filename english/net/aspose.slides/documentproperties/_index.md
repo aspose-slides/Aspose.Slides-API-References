@@ -73,6 +73,45 @@ public class DocumentProperties : IDocumentProperties, IGenericCloneable<IDocume
 | [SetCustomPropertyValue](../../aspose.slides/documentproperties/setcustompropertyvalue#setcustompropertyvalue_2)(string, int) | Sets a named integer custom property. |
 | [SetCustomPropertyValue](../../aspose.slides/documentproperties/setcustompropertyvalue#setcustompropertyvalue_5)(string, string) | Sets a named string custom property. |
 
+## Examples
+
+The following example shows how to access built-in Properties of PowerPoint Presentation.
+
+```csharp
+[C#]
+	// Instantiate the Presentation class that represents the presentation
+    Presentation pres = new Presentation(dataDir + "AccessBuiltin Properties.pptx");
+
+    // Create a reference to IDocumentProperties object associated with Presentation
+    IDocumentProperties documentProperties = pres.DocumentProperties;
+
+    // Display the builtin properties
+    Console.WriteLine("Category : " + documentProperties.Category);
+    Console.WriteLine("Current Status : " + documentProperties.ContentStatus);
+    Console.WriteLine("Creation Date : " + documentProperties.CreatedTime);
+    Console.WriteLine("Author : " + documentProperties.Author);
+    Console.WriteLine("Description : " + documentProperties.Comments);
+```
+
+The following example shows how to modify built-in Properties of PowerPoint Presentation. 
+
+```csharp
+[C#]
+	// Instantiate the Presentation class that represents the Presentation
+	Presentation presentation = new Presentation(dataDir + "ModifyBuiltinProperties.pptx");
+
+	// Create a reference to IDocumentProperties object associated with Presentation
+	IDocumentProperties documentProperties = presentation.DocumentProperties;
+
+	// Set the builtin properties
+	documentProperties.Author = "Aspose.Slides for .NET";
+	documentProperties.Title = "Modifying Presentation Properties";
+	documentProperties.Subject = "Aspose Subject";
+	
+	// Save your presentation to a file
+	presentation.Save(dataDir + "DocumentProperties_out.pptx", SaveFormat.Pptx);
+```
+
 ### See Also
 
 * interface [IDocumentProperties](../idocumentproperties)

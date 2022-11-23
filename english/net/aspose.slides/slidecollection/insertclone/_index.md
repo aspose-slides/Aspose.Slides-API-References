@@ -27,6 +27,48 @@ Inserted slide.
 
 When cloning a slide between different presentations slide's master can be cloned too. Internal registry is used to track automatically cloned masters to prevent creation of multiple clones of the same master slide. Manual cloning of master slides will be neither prevented nor registered. If you need more control over cloning process use [`InsertClone`](../insertclone) or [`InsertClone`](../insertclone) for cloning slides and [`AddClone`](../../imasterslidecollection/addclone) for cloning masters.
 
+### Examples
+
+The following example shows how to clone at another position within Presentation.
+
+```csharp
+[C#]
+// Instantiate Presentation class that represents a presentation file
+using (Presentation pres = new Presentation("CloneWithInSamePresentation.pptx"))
+{
+
+    // Clone the desired slide to the end of the collection of slides in the same presentation
+    ISlideCollection slds = pres.Slides;
+
+    // Clone the desired slide to the specified index in the same presentation
+    slds.InsertClone(2, pres.Slides[1]);
+
+    // Write the modified presentation to disk
+    pres.Save("Aspose_CloneWithInSamePresentation_out.pptx", SaveFormat.Pptx);
+
+}
+```
+
+The following example shows how to clone at another position within Presentation.
+
+```csharp
+[C#]
+// Instantiate Presentation class to load the source presentation file
+using (Presentation srcPres = new Presentation("CloneAtEndOfAnother.pptx"))
+{
+    // Instantiate Presentation class for destination PPTX (where slide is to be cloned)
+    using (Presentation destPres = new Presentation())
+    {
+        ISlideCollection slds = destPres.Slides;
+
+        slds.InsertClone(2, srcPres.Slides[0]);
+
+        // Write the destination presentation to disk
+        destPres.Save("Aspose2_out.pptx", SaveFormat.Pptx);
+    }
+}
+```
+
 ### See Also
 
 * interface [ISlide](../../islide)
@@ -41,6 +83,7 @@ When cloning a slide between different presentations slide's master can be clone
 Inserts a copy of a specified slide to specified position of the collection.
 
 ```csharp
+[C#]
 public ISlide InsertClone(int index, ISlide sourceSlide, ILayoutSlide destLayout)
 ```
 

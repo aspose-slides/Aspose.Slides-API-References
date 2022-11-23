@@ -14,6 +14,33 @@ Returns fonts manager. Read-only [`IFontsManager`](../../ifontsmanager).
 public IFontsManager FontsManager { get; }
 ```
 
+### Example
+
+The following example shows how to add embedded fonts to PowerPoint Presentation. 
+
+```csharp
+[C#]
+// Load presentation
+Presentation presentation = new Presentation("Fonts.pptx");
+
+// Load source font to be replaced
+IFontData sourceFont = new FontData("Arial");
+
+
+IFontData[] allFonts = presentation.FontsManager.GetFonts();
+IFontData[] embeddedFonts = presentation.FontsManager.GetEmbeddedFonts();
+foreach (IFontData font in allFonts)
+{
+    if (!embeddedFonts.Contains(font))
+    {
+        presentation.FontsManager.AddEmbeddedFont(font, EmbedFontCharacters.All);
+    }
+}
+
+// Save the presentation
+presentation.Save("AddEmbeddedFont_out.pptx", SaveFormat.Pptx);
+```
+
 ### See Also
 
 * interface [IFontsManager](../../ifontsmanager)

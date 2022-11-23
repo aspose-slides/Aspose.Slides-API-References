@@ -18,6 +18,19 @@ public void Encrypt(string encryptionPassword)
 | --- | --- | --- |
 | encryptionPassword | String | The password. |
 
+### Examples
+
+The following sample code shows you how to encrypt a PowerPoint Presentation.
+
+```csharp
+[C#]
+using (Presentation presentation = new Presentation("pres.pptx"))
+{
+    presentation.ProtectionManager.Encrypt("123123");
+    presentation.Save("encrypted-pres.pptx", SaveFormat.Pptx);
+}
+```
+
 ### See Also
 
 * class [ProtectionManager](../../protectionmanager)

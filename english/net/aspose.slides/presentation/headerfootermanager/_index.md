@@ -14,6 +14,67 @@ Returns actual HeaderFooter manager. Read-only [`IPresentationHeaderFooterManage
 public IPresentationHeaderFooterManager HeaderFooterManager { get; }
 ```
 
+## Examples
+
+The following example shows how to set footer visibility inside Slide of PowerPoint Presentation.
+
+```csharp
+[C#]
+using (Presentation presentation = new Presentation("presentation.ppt"))
+{
+    IBaseSlideHeaderFooterManager headerFooterManager = presentation.Slides[0].HeaderFooterManager;
+	// Property IsFooterVisible is used for indicating that a slide footer placeholder is not present.
+    if (!headerFooterManager.IsFooterVisible) 
+    {
+		// Method SetFooterVisibility is used for making a slide footer placeholder visible.
+        headerFooterManager.SetFooterVisibility(true); 
+    }
+	// Property IsSlideNumberVisible is used for indicating that a slide page number placeholder is not present.
+    if (!headerFooterManager.IsSlideNumberVisible) 
+    {
+		// Method SetSlideNumberVisibility is used for making a slide page number placeholder visible.
+        headerFooterManager.SetSlideNumberVisibility(true); 
+    }
+	// Property IsDateTimeVisible is used for indicating that a slide date-time placeholder is not present.
+    if (!headerFooterManager.IsDateTimeVisible) 
+    {
+		// Method SetFooterVisibility is used for making a slide date-time placeholder visible.
+        headerFooterManager.SetDateTimeVisibility(true); 
+    }
+	// Method SetFooterText is used for setting text to slide footer placeholder.
+    headerFooterManager.SetFooterText("Footer text"); 
+	// Method SetDateTimeText is used for setting text to slide date-time placeholder.
+    headerFooterManager.SetDateTimeText("Date and time text"); 
+
+	presentation.Save("Presentation.ppt",SaveFormat.ppt);
+}
+```
+
+The following example shows how to set child footer visibility inside Slide.
+
+```csharp
+[C#]
+using (Presentation presentation = new Presentation("presentation.ppt"))
+{
+    IMasterSlideHeaderFooterManager headerFooterManager = presentation.Masters[0].HeaderFooterManager;
+	
+	// Method SetFooterAndChildFootersVisibility is used for making a master slide and all child footer placeholders visible.
+    headerFooterManager.SetFooterAndChildFootersVisibility(true); 
+		
+	// Method SetSlideNumberAndChildSlideNumbersVisibility is used for making a master slide and all child page number placeholders visible.
+    headerFooterManager.SetSlideNumberAndChildSlideNumbersVisibility(true); 
+	
+	// Method SetDateTimeAndChildDateTimesVisibility is used for making a master slide and all child date-time placeholders visible.
+    headerFooterManager.SetDateTimeAndChildDateTimesVisibility(true); 
+
+	// Method SetFooterAndChildFootersText is used for setting text to master slide and all child footer placeholders.
+    headerFooterManager.SetFooterAndChildFootersText("Footer text"); 
+	
+	// Method SetDateTimeAndChildDateTimesText is used for setting text to master slide and all child date-time placeholders.
+    headerFooterManager.SetDateTimeAndChildDateTimesText("Date and time text"); 
+}
+```
+
 ### See Also
 
 * interface [IPresentationHeaderFooterManager](../../ipresentationheaderfootermanager)

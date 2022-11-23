@@ -38,6 +38,120 @@ public class ThreeDFormat : PVIObject, IThreeDFormat
 | [GetEffective](../../aspose.slides/threedformat/geteffective)() | Gets effective 3-D formatting data with the inheritance applied. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Returns hash code. |
 
+## Examples
+
+The following example shows how to add 3D shape in PowerPoint Presentation.
+
+```csharp
+[C#]
+// Create an instance of Presentation class.
+using (Presentation pres = new Presentation())
+{
+	// Add a shape using AddAutoShape method
+    IAutoShape shape = pres.Slides[0].Shapes.AddAutoShape(ShapeType.Rectangle, 200, 150, 200, 200);
+	
+	// Define TextFrame and its properties
+    shape.TextFrame.Text = "3D";
+    shape.TextFrame.Paragraphs[0].ParagraphFormat.DefaultPortionFormat.FontHeight = 64;
+    
+	// Define ThreeDFormat Properties
+    shape.ThreeDFormat.Camera.CameraType = CameraPresetType.OrthographicFront;
+    shape.ThreeDFormat.Camera.SetRotation(20, 30, 40);
+    shape.ThreeDFormat.LightRig.LightType = LightRigPresetType.Flat;
+    shape.ThreeDFormat.LightRig.Direction = LightingDirection.Top;
+    shape.ThreeDFormat.Material = MaterialPresetType.Flat; 
+    shape.ThreeDFormat.ExtrusionHeight = 100;
+    shape.ThreeDFormat.ExtrusionColor.Color = Color.Blue;
+    
+    pres.Slides[0].GetThumbnail(2, 2).Save("sample_3d.png");
+	
+	// Save the Presentation file
+    pres.Save("sandbox_3d.pptx", SaveFormat.Pptx);
+}
+```
+
+The following example shows how to apply Gradient affect to 3D shape in PowerPoint Presentation.
+
+```csharp
+[C#]
+// Create an instance of Presentation class.
+using (Presentation pres = new Presentation())
+{
+	// Add a shape using AddAutoShape method
+     IAutoShape shape = pres.Slides[0].Shapes.AddAutoShape(ShapeType.Rectangle, 200, 150, 250, 250);
+	
+	// Define TextFrame and its properties
+    shape.TextFrame.Text = "3D Gradient";
+    shape.TextFrame.Paragraphs[0].ParagraphFormat.DefaultPortionFormat.FontHeight = 64;
+	
+	// Configure FillFormat.FillType as FillType.Gradient and define gradient properties
+	shape.FillFormat.FillType = FillType.Gradient;
+    shape.FillFormat.GradientFormat.GradientStops.Add(0, Color.Blue);
+    shape.FillFormat.GradientFormat.GradientStops.Add(100, Color.Orange);
+    
+	// Define ThreeDFormat Properties
+    shape.ThreeDFormat.Camera.CameraType = CameraPresetType.OrthographicFront;
+    shape.ThreeDFormat.Camera.SetRotation(20, 30, 40);
+    shape.ThreeDFormat.LightRig.LightType = LightRigPresetType.Flat;
+    shape.ThreeDFormat.LightRig.Direction = LightingDirection.Top;
+    shape.ThreeDFormat.Material = MaterialPresetType.Flat; 
+    shape.ThreeDFormat.ExtrusionHeight = 100;
+    shape.ThreeDFormat.ExtrusionColor.Color = Color.Blue;
+    
+    pres.Slides[0].GetThumbnail(2, 2).Save("sample_3d.png");
+	
+	// Save the Presentation file
+    pres.Save("sandbox_3d.pptx", SaveFormat.Pptx);
+}
+```
+
+The following example shows how to apply 3D effect on text. For creating a 3D text its possible to use WordArt transform effect.
+
+```csharp
+[C#]
+// Create an instance of Presentation class.
+using (Presentation pres = new Presentation())
+{
+	// Add a shape using AddAutoShape method
+     IAutoShape shape = pres.Slides[0].Shapes.AddAutoShape(ShapeType.Rectangle, 200, 150, 250, 250);
+	
+	// Define TextFrame and its properties
+    shape.TextFrame.Text = "3D Text";
+	
+	// Configure FillFormat.FillType as FillType.NoFill
+	shape.FillFormat.FillType = FillType.NoFill;
+    shape.LineFormat.FillFormat.FillType = FillType.NoFill;
+
+	// Configure Portion of TextFrame and configure properties of PortionFormat 
+	Portion portion = (Portion)shape.TextFrame.Paragraphs[0].Portions[0];
+    portion.PortionFormat.FillFormat.FillType = FillType.Pattern;
+    portion.PortionFormat.FillFormat.PatternFormat.ForeColor.Color = Color.DarkOrange;
+    portion.PortionFormat.FillFormat.PatternFormat.BackColor.Color = Color.White;
+    portion.PortionFormat.FillFormat.PatternFormat.PatternStyle = PatternStyle.LargeGrid;
+	
+	shape.TextFrame.Paragraphs[0].ParagraphFormat.DefaultPortionFormat.FontHeight = 128;
+   
+    ITextFrame textFrame = shape.TextFrame;
+    // setup "Arch Up" WordArt transform effect
+    textFrame.TextFrameFormat.Transform = TextShapeType.ArchUp;
+    
+	// Define ThreeDFormat Properties of ITextFrame
+	textFrame.TextFrameFormat.ThreeDFormat.ExtrusionHeight = 3.5f;
+    textFrame.TextFrameFormat.ThreeDFormat.Depth = 3;
+    textFrame.TextFrameFormat.ThreeDFormat.Material = MaterialPresetType.Plastic;
+    textFrame.TextFrameFormat.ThreeDFormat.LightRig.Direction = LightingDirection.Top;
+    textFrame.TextFrameFormat.ThreeDFormat.LightRig.LightType = LightRigPresetType.Balanced;
+    textFrame.TextFrameFormat.ThreeDFormat.LightRig.SetRotation(0, 0, 40);
+
+    textFrame.TextFrameFormat.ThreeDFormat.Camera.CameraType = CameraPresetType.PerspectiveContrastingRightFacing;
+    
+    pres.Slides[0].GetThumbnail(2, 2).Save("text3d.png");
+	
+	// Save the Presentation file
+     pres.Save("text3d.pptx", SaveFormat.Pptx);
+}
+```
+
 ### See Also
 
 * class [PVIObject](../pviobject)

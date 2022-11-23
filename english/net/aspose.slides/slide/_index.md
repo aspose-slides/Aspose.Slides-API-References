@@ -61,6 +61,27 @@ public sealed class Slide : BaseSlide, ISlide
 | [WriteAsSvg](../../aspose.slides/slide/writeassvg#writeassvg)(Stream) | Saves content of slide as SVG file. |
 | [WriteAsSvg](../../aspose.slides/slide/writeassvg#writeassvg_1)(Stream, ISVGOptions) | Saves content of slide as SVG file. |
 
+## Examples
+
+The following example shows how to convert PowerPoint to PDF with custom options.
+
+```csharp
+[C#]
+// Presentation object can load PowerPoint formats like PPT, PPTX, ODP etc.
+using (Presentation pres = new Presentation("pres.pptx"))
+{
+    for (var index = 0; index < pres.Slides.Count; index++)
+    {
+        ISlide slide = pres.Slides[index];
+
+        using (FileStream fileStream = new FileStream($"slide-{index}.svg", FileMode.Create, FileAccess.Write))
+        {
+            slide.WriteAsSvg(fileStream);   
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [BaseSlide](../baseslide)
