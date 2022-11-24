@@ -20,7 +20,7 @@ The password.
 
 ### Examples
 
-The following sample code shows how to set a write protection to a PowerPoint Presentation.
+The following sample code shows how to open password protected PowerPoint Presentation.
 
 ```csharp
 [C#]

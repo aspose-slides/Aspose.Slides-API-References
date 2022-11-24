@@ -27,7 +27,7 @@ The following sample code shows how to add watermark text in PowerPoint Presenta
 	using (var presentation = new Presentation())
 	{
 		ISlide slide = presentation.Slides[0];
-		IAutoShape watermarkShape = slide.Shapes.AddAutoShape(ShapeType.Triangle, 0, 0, 0, 0);
+		IAutoShape watermarkShape = slide.Shapes.AddAutoShape(ShapeType.Triangle, 0, 0, 150, 50);
 		ITextFrame watermarkTextFrame = watermarkShape.AddTextFrame("Watermark");
 	}
 ```
@@ -36,7 +36,7 @@ The following example shows how to create Text Box on Slide.
 
 ```csharp
 [C#]
-// Instantiates PresentationEx
+// Instantiates Presentation
 using (Presentation pres = new Presentation())
 {
 

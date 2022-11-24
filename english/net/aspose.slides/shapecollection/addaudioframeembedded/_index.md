@@ -56,6 +56,33 @@ public IAudioFrame AddAudioFrameEmbedded(float x, float y, float width, float he
 
 Created AudioFrame object.
 
+### Examples
+
+The following examples shows how to create Audio Frame.
+
+```csharp
+[C#]
+// Instantiates a presentation class that represents a presentation file
+using (Presentation pres = new Presentation())
+{
+    // Gets the first slide
+    ISlide sld = pres.Slides[0];
+    
+    // Loads the the wav sound file to stream
+    FileStream fstr = new FileStream("sampleaudio.wav", FileMode.Open, FileAccess.Read);
+
+    // Adds the Audio Frame
+    IAudioFrame audioFrame = sld.Shapes.AddAudioFrameEmbedded(50, 150, 100, 100, fstr);
+
+    // Sets the Play Mode and Volume of the Audio
+    audioFrame.PlayMode = AudioPlayModePreset.Auto;
+    audioFrame.Volume = AudioVolumeMode.Loud;
+
+    // Writes the PowerPoint file to disk
+    pres.Save("AudioFrameEmbed_out.pptx", SaveFormat.Pptx);
+}
+```
+
 ### See Also
 
 * interface [IAudioFrame](../../iaudioframe)

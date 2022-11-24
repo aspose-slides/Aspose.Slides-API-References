@@ -73,7 +73,7 @@ In order to get the effective formatting parameter values including inherited yo
 
 ## Examples
 
-The following examples shows you how to assign the Latin font to a theme element of PowerPoint Presentation.
+The following examples shows you how to assign the Latin font to a Paragraph's portion of PowerPoint Presentation.
 
 ```csharp
 [C#]

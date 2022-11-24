@@ -16,31 +16,6 @@ public IAudioCollection Audios { get; }
 
 ### Examples
 
-The following examples shows how to create Audio Frame.
-
-```csharp
-[C#]
-// Instantiates a presentation class that represents a presentation file
-using (Presentation pres = new Presentation())
-{
-    // Gets the first slide
-    ISlide sld = pres.Slides[0];
-    
-    // Loads the the wav sound file to stream
-    FileStream fstr = new FileStream("sampleaudio.wav", FileMode.Open, FileAccess.Read);
-
-    // Adds the Audio Frame
-    IAudioFrame audioFrame = sld.Shapes.AddAudioFrameEmbedded(50, 150, 100, 100, fstr);
-
-    // Sets the Play Mode and Volume of the Audio
-    audioFrame.PlayMode = AudioPlayModePreset.Auto;
-    audioFrame.Volume = AudioVolumeMode.Loud;
-
-    // Writes the PowerPoint file to disk
-    pres.Save("AudioFrameEmbed_out.pptx", SaveFormat.Pptx);
-}
-```
-
 The following examples shows how to add a hyperlink to an audio file.
 
 ```csharp
@@ -54,88 +29,6 @@ using (Presentation pres = new Presentation())
     audioFrame.HyperlinkClick.Tooltip = "More than 70% Fortune 100 companies trust Aspose APIs";
 
     pres.Save("pres-out.pptx", SaveFormat.Pptx);
-}
-
-```
-
-The following examples shows how to change Audio Frame Thumbnail.
-
-```csharp
-[C#]
-using (var presentation = new Presentation())
-{
-    var slide = presentation.Slides[0];
-
-    // Adds an audio frame to the slide with a specified position and size.
-    var audioStream = new FileStream("sample2.mp3", FileMode.Open, FileAccess.Read);
-    var audioFrame = slide.Shapes.AddAudioFrameEmbedded(150, 100, 50, 50, audioStream);
-    audioStream.Dispose();
-
-    // Adds an image to presentation resources.
-    var imageStream = File.OpenRead("eagle.jpeg");
-    var audioImage = presentation.Images.AddImage(imageStream);
-    imageStream.Dispose();
-
-    // Sets the image for the audio frame.
-    audioFrame.PictureFormat.Picture.Image = audioImage; // <-----
-    
-	//Saves the modified presentation to disk
-    presentation.Save("example_out.pptx", SaveFormat.Pptx);
-}
-
-```
-
-The following examples shows how to change Audio Play Options.
-
-```csharp
-[C#]
-using (Presentation pres = new Presentation("AudioFrameEmbed_out.pptx"))
-{
-    // Gets the AudioFrame shape
-    AudioFrame audioFrame = (AudioFrame)pres.Slides[0].Shapes[0];
-
-    // Sets the Play mode to play on click
-    audioFrame.PlayMode = AudioPlayModePreset.OnClick;
-
-    // Sets the volume to Low
-    audioFrame.Volume = AudioVolumeMode.Low;
-
-    // Sets the audio to play across slides
-    audioFrame.PlayAcrossSlides = true;
-
-    // Disables loop for the audio
-    audioFrame.PlayLoopMode = false;
-
-    // Hides the AudioFrame during the slide show
-    audioFrame.HideAtShowing = true;
-
-    // Rewinds the audio to start after playing
-    audioFrame.RewindAudio = true;
-
-    // Saves the PowerPoint file to disk
-    pres.Save("AudioFrameEmbed_changed.pptx", SaveFormat.Pptx);
-}
-```
-
-The following examples shows how to extract Audio.
-
-```csharp
-[C#]
-string presName = "AudioSlide.pptx";
-
-// Instantiates a Presentation class that represents a presentation file
-using (Presentation pres = new Presentation(presName)){
-
-	// Accesses the slide
-	ISlide slide = pres.Slides[0];
-
-	// Gets the slideshow transition effects for the slide
-	ISlideShowTransition transition = slide.SlideShowTransition;
-
-	//Extracts the sound in byte array
-	byte[] audio = transition.Sound.BinaryData;
-
-	System.Console.WriteLine("Length: " + audio.Length);
 }
 
 ```

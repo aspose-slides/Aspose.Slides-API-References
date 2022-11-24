@@ -14,19 +14,6 @@ Returns the presentation's custom data. Read-only [`ICustomData`](../../icustomd
 public ICustomData CustomData { get; }
 ```
 
-## Examples
-
-The following example shows how to add a tag to a PowerPoint Presentation.
-
-```csharp
-[C#]
-using (Presentation pres = new Presentation("pres.pptx"))
-{
-   ITagCollection tags = pres.CustomData.Tags;
-   pres.CustomData.Tags["MyTag"] = "My Tag Value";
-}
-```
-
 ### See Also
 
 * interface [ICustomData](../../icustomdata)

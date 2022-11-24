@@ -86,6 +86,40 @@ public class AudioFrame : PictureFrame, IAudioFrame
 | [WriteAsSvg](../../aspose.slides/shape/writeassvg)(Stream) | Saves content of Shape as SVG file. |
 | [WriteAsSvg](../../aspose.slides/shape/writeassvg)(Stream, ISVGOptions) | Saves content of Shape as SVG file. |
 
+## Examples
+
+The following examples shows how to change Audio Play Options.
+
+```csharp
+[C#]
+using (Presentation pres = new Presentation("AudioFrameEmbed_out.pptx"))
+{
+    // Gets the AudioFrame shape
+    AudioFrame audioFrame = (AudioFrame)pres.Slides[0].Shapes[0];
+
+    // Sets the Play mode to play on click
+    audioFrame.PlayMode = AudioPlayModePreset.OnClick;
+
+    // Sets the volume to Low
+    audioFrame.Volume = AudioVolumeMode.Low;
+
+    // Sets the audio to play across slides
+    audioFrame.PlayAcrossSlides = true;
+
+    // Disables loop for the audio
+    audioFrame.PlayLoopMode = false;
+
+    // Hides the AudioFrame during the slide show
+    audioFrame.HideAtShowing = true;
+
+    // Rewinds the audio to start after playing
+    audioFrame.RewindAudio = true;
+
+    // Saves the PowerPoint file to disk
+    pres.Save("AudioFrameEmbed_changed.pptx", SaveFormat.Pptx);
+}
+```
+
 ### See Also
 
 * class [PictureFrame](../pictureframe)
