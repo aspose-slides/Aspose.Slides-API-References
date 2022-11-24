@@ -36,10 +36,12 @@ FontsLoader.LoadExternalFonts(folders);
 
 // Do Some work and perform presentation/slides rendering
 using (Presentation presentation = new Presentation(dataDir + "DefaultFonts.pptx"))
+{
     presentation.Save(dataDir + "NewFonts_out.pptx", SaveFormat.Pptx);
 
-// Clear Font Cachce
-FontsLoader.ClearCache();
+	// Clear Font Cachce
+	FontsLoader.ClearCache();
+}
 ```
 
 ### See Also

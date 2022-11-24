@@ -80,10 +80,12 @@ The following example shows how to print a PowerPoint Presentation with specific
 try
 {
     // Loads the presentation
-    Presentation presentation = new Presentation("Print.ppt");
+    using (Presentation presentation = new Presentation("Print.ppt"))
+	{
 
-    // Calls the print method with the printer name 
-    presentation.Print("Please set your printer name here");
+		// Calls the print method with the printer name 
+		presentation.Print("Please set your printer name here");
+	}
 
 }
 catch (Exception ex)

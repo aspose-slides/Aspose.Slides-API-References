@@ -177,25 +177,27 @@ The following examples shows how to extract Video from slide of PowerPoint Prese
 ```csharp
 [C#]
 // Instantiate a Presentation object that represents a presentation file 
-Presentation presentation = new Presentation("Video.pptx");
-
-foreach (ISlide slide in presentation.Slides)
+using (Presentation presentation = new Presentation("Video.pptx"))
 {
-    foreach (IShape shape in presentation.Slides[0].Shapes)
-    {
-        if (shape is VideoFrame)
-        {
-            IVideoFrame vf = shape as IVideoFrame;
-            String type = vf.EmbeddedVideo.ContentType;
-            int ss = type.LastIndexOf('/');
-            type = type.Remove(0, type.LastIndexOf('/') + 1);
-            Byte[] buffer = vf.EmbeddedVideo.BinaryData;
-            using (FileStream stream = new FileStream("NewVideo_out." + type, FileMode.Create, FileAccess.Write, FileShare.Read))
-            {                                                     
-                stream.Write(buffer, 0, buffer.Length);
-            }
-        }
-    }
+
+	foreach (ISlide slide in presentation.Slides)
+	{
+		foreach (IShape shape in presentation.Slides[0].Shapes)
+		{
+			if (shape is VideoFrame)
+			{
+				IVideoFrame vf = shape as IVideoFrame;
+				String type = vf.EmbeddedVideo.ContentType;
+				int ss = type.LastIndexOf('/');
+				type = type.Remove(0, type.LastIndexOf('/') + 1);
+				Byte[] buffer = vf.EmbeddedVideo.BinaryData;
+				using (FileStream stream = new FileStream("NewVideo_out." + type, FileMode.Create, FileAccess.Write, FileShare.Read))
+				{                                                     
+					stream.Write(buffer, 0, buffer.Length);
+				}
+			}
+		}
+	}
 }
 ```
 

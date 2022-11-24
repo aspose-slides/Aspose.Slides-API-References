@@ -344,23 +344,27 @@ using (Presentation pres = new Presentation("input.pptx"))
 The following example shows how to convert PowerPoint to HTML with high-quality images at 150 DPI using C#.
 
 ```csharp 
-Presentation pres = new Presentation("InputDoc.pptx");
-HtmlOptions htmlOpts = new HtmlOptions
+using (Presentation pres = new Presentation("InputDoc.pptx"))
 {
-    PicturesCompression = PicturesCompression.Dpi150
-};
-pres.Save("OutputDoc-dpi150.html", Aspose.Slides.Export.SaveFormat.Html, htmlOpts); 
+	HtmlOptions htmlOpts = new HtmlOptions
+	{
+		PicturesCompression = PicturesCompression.Dpi150
+	};
+	pres.Save("OutputDoc-dpi150.html", Aspose.Slides.Export.SaveFormat.Html, htmlOpts); 
+}
 ```
 
 The following example shows how to convert PowerPoint to HTML with full quality images using C#.
 
 ```csharp 
-Presentation pres = new Presentation("InputDoc.pptx");
-HtmlOptions htmlOpts = new HtmlOptions
+using (Presentation pres = new Presentation("InputDoc.pptx"))
 {
-    DeletePicturesCroppedAreas = false
-};
-pres.Save("Outputdoc-noCrop.html", Aspose.Slides.Export.SaveFormat.Html, htmlOpts);
+	HtmlOptions htmlOpts = new HtmlOptions
+	{
+		DeletePicturesCroppedAreas = false
+	};
+	pres.Save("Outputdoc-noCrop.html", Aspose.Slides.Export.SaveFormat.Html, htmlOpts);
+}
 ```
 
 The following example shows how to convert Slide to HTML using C#.
@@ -529,10 +533,12 @@ public class LinkAllFontsHtmlController : EmbedAllFontsHtmlController
 The following example shows how to convert PowerPoint to responsive HTML using C#.
 
 ```csharp
-Presentation presentation = new Presentation("SomePresentation.pptx");
-HtmlOptions saveOptions = new HtmlOptions();
-saveOptions.SvgResponsiveLayout = true;
-presentation.Save("SomePresentation-out.html", SaveFormat.Html, saveOptions);
+using (Presentation presentation = new Presentation("SomePresentation.pptx"))
+{
+	HtmlOptions saveOptions = new HtmlOptions();
+	saveOptions.SvgResponsiveLayout = true;
+	presentation.Save("SomePresentation-out.html", SaveFormat.Html, saveOptions);
+}
 ```
 
 The following example shows how to export Media files to HTML using C#.

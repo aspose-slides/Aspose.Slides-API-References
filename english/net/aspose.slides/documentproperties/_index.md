@@ -79,27 +79,29 @@ The following example shows how to access built-in Properties of PowerPoint Pres
 
 ```csharp
 [C#]
-	// Instantiate the Presentation class that represents the presentation
-    Presentation pres = new Presentation(dataDir + "AccessBuiltin Properties.pptx");
+// Instantiate the Presentation class that represents the presentation
+using (Presentation pres = new Presentation(dataDir + "AccessBuiltin Properties.pptx"))
+{
 
-    // Create a reference to IDocumentProperties object associated with Presentation
-    IDocumentProperties documentProperties = pres.DocumentProperties;
-
-    // Display the builtin properties
-    Console.WriteLine("Category : " + documentProperties.Category);
-    Console.WriteLine("Current Status : " + documentProperties.ContentStatus);
-    Console.WriteLine("Creation Date : " + documentProperties.CreatedTime);
-    Console.WriteLine("Author : " + documentProperties.Author);
-    Console.WriteLine("Description : " + documentProperties.Comments);
+	// Create a reference to IDocumentProperties object associated with Presentation
+	IDocumentProperties documentProperties = pres.DocumentProperties;
+	
+	// Display the builtin properties
+	Console.WriteLine("Category : " + documentProperties.Category);
+	Console.WriteLine("Current Status : " + documentProperties.ContentStatus);
+	Console.WriteLine("Creation Date : " + documentProperties.CreatedTime);
+	Console.WriteLine("Author : " + documentProperties.Author);
+	Console.WriteLine("Description : " + documentProperties.Comments);
+}
 ```
 
 The following example shows how to modify built-in Properties of PowerPoint Presentation. 
 
 ```csharp
 [C#]
-	// Instantiate the Presentation class that represents the Presentation
-	Presentation presentation = new Presentation(dataDir + "ModifyBuiltinProperties.pptx");
-
+// Instantiate the Presentation class that represents the Presentation
+using (Presentation presentation = new Presentation(dataDir + "ModifyBuiltinProperties.pptx"))
+{
 	// Create a reference to IDocumentProperties object associated with Presentation
 	IDocumentProperties documentProperties = presentation.DocumentProperties;
 
@@ -110,6 +112,7 @@ The following example shows how to modify built-in Properties of PowerPoint Pres
 	
 	// Save your presentation to a file
 	presentation.Save(dataDir + "DocumentProperties_out.pptx", SaveFormat.Pptx);
+}
 ```
 
 ### See Also

@@ -33,9 +33,11 @@ The following example shows how to add smart shape in PowerPoint Presentation.
 
 ```csharp
 [C#]
-Presentation pres = new Presentation();
-Slide slide = pres.Slides[0];
-SmartArt smart = slide.Shapes.AddSmartArt(0, 0, 400, 400, SmartArtLayoutType.BasicBlockList);
+using (Presentation pres = new Presentation())
+{
+	Slide slide = pres.Slides[0];
+	SmartArt smart = slide.Shapes.AddSmartArt(0, 0, 400, 400, SmartArtLayoutType.BasicBlockList);
+}
 ```
 
 ```csharp

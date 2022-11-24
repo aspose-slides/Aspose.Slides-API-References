@@ -112,10 +112,11 @@ The following example shows how to open and save Presentation.
 ```csharp
 [C#]
 // Load any supported file in Presentation e.g. ppt, pptx, odp etc.
-Presentation presentation = new Presentation("Sample.odp");
-
-// Save the presentation file.
-presentation.Save("OutputPresenation.pptx", SaveFormat.Pptx);
+using (Presentation presentation = new Presentation("Sample.odp"))
+{
+	// Save the presentation file.
+	presentation.Save("OutputPresenation.pptx", SaveFormat.Pptx);
+}
 ```
 ### See Also
 
