@@ -24,7 +24,7 @@ Added slide.
 
 ### Examples
 
-The following example shows how to clone at specific position in another PowerPoint Presentation.
+The following example shows how to clone master slide in another PowerPoint Presentation.
 
 ```csharp
 [C#]
@@ -41,21 +41,18 @@ using (Presentation srcPres = new Presentation("CloneToAnotherPresentationWithMa
         ISlide SourceSlide = srcPres.Slides[0];
         IMasterSlide SourceMaster = SourceSlide.LayoutSlide.MasterSlide;
 
-        // Clone the desired master slide from the source presentation to the collection of masters in the
-        // Destination presentation
+		// Get Master Slides of destination presentation
         IMasterSlideCollection masters = destPres.Masters;
-        IMasterSlide DestMaster = SourceSlide.LayoutSlide.MasterSlide;
 
         // Clone the desired master slide from the source presentation to the collection of masters in the
         // Destination presentation
         IMasterSlide iSlide = masters.AddClone(SourceMaster);
 
-        // Clone the desired slide from the source presentation with the desired master to the end of the
         // Collection of slides in the destination presentation
         ISlideCollection slds = destPres.Slides;
+		// Clone source slide to destination slides collection. 
         slds.AddClone(SourceSlide, iSlide, true);
       
-        // Clone the desired master slide from the source presentation to the collection of masters in the // Destination presentation
         // Save the destination presentation to disk
         destPres.Save("CloneToAnotherPresentationWithMaster_out.pptx", SaveFormat.Pptx);
 
