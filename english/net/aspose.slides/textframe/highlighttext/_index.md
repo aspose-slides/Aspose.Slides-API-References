@@ -47,17 +47,18 @@ The following sample code shows how to Highlight Text in a PowerPoint Presentati
 
 ```csharp
 [C#]
-Presentation presentation = new Presentation("SomePresentation.pptx");
+using (Presentation presentation = new Presentation("SomePresentation.pptx")){
 
-// highlighting all words 'important'
-((AutoShape)presentation.Slides[0].Shapes[0]).TextFrame.HighlightText("title", Color.LightBlue); 
+	// highlighting all words 'important'
+	((AutoShape)presentation.Slides[0].Shapes[0]).TextFrame.HighlightText("title", Color.LightBlue); 
 
-// highlighting all separate 'the' occurrences
-((AutoShape)presentation.Slides[0].Shapes[0]).TextFrame.HighlightText("to", Color.Violet, new TextHighlightingOptions()
-{
-    WholeWordsOnly = true
-});
-presentation.Save("SomePresentation-out2.pptx", SaveFormat.Pptx);
+	// highlighting all separate 'the' occurrences
+	((AutoShape)presentation.Slides[0].Shapes[0]).TextFrame.HighlightText("to", Color.Violet, new TextHighlightingOptions()
+	{
+		WholeWordsOnly = true
+	});
+	presentation.Save("SomePresentation-out2.pptx", SaveFormat.Pptx);
+}
 
 ```
 
@@ -65,11 +66,12 @@ The following sample code shows how to Highlight Text using regular expression i
 
 ```csharp
 [C#]
-Presentation presentation = new Presentation("SomePresentation.pptx");
-TextHighlightingOptions options = new TextHighlightingOptions();
-// highlighting all words with 10 symbols or longer
-((AutoShape)presentation.Slides[0].Shapes[0]).TextFrame.HighlightRegex(@"\b[^\s]{5,}\b", Color.Blue, options);
-presentation.Save("SomePresentation-out.pptx", SaveFormat.Pptx);
+using (Presentation presentation = new Presentation("SomePresentation.pptx")){
+	TextHighlightingOptions options = new TextHighlightingOptions();
+	// highlighting all words with 10 symbols or longer
+	((AutoShape)presentation.Slides[0].Shapes[0]).TextFrame.HighlightRegex(@"\b[^\s]{5,}\b", Color.Blue, options);
+	presentation.Save("SomePresentation-out.pptx", SaveFormat.Pptx);
+}
 ```
 
 ### See Also

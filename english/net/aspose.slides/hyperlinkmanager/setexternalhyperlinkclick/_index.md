@@ -25,31 +25,31 @@ The following sample code shows how to add Text Box with Hyperlink.
 ```csharp
 [C#]
 // Instantiates a Presentation class that represents a PPTX
-Presentation pptxPresentation = new Presentation();
+using(Presentation pptxPresentation = new Presentation()) {
+  // Gets the first slide in the presentation
+  ISlide slide = pptxPresentation.Slides[0];
 
-// Gets the first slide in the presentation
-ISlide slide = pptxPresentation.Slides[0];
+  // Adds an AutoShape object with type set as Rectangle
+  IShape pptxShape = slide.Shapes.AddAutoShape(ShapeType.Rectangle, 150, 150, 150, 50);
 
-// Adds an AutoShape object with type set as Rectangle
-IShape pptxShape = slide.Shapes.AddAutoShape(ShapeType.Rectangle, 150, 150, 150, 50);
+  // Casts the shape to AutoShape
+  IAutoShape pptxAutoShape = (IAutoShape) pptxShape;
 
-// Casts the shape to AutoShape
-IAutoShape pptxAutoShape = (IAutoShape)pptxShape;
+  // Accesses the ITextFrame property associated with the AutoShape
+  pptxAutoShape.AddTextFrame("");
 
-// Accesses the ITextFrame property associated with the AutoShape
-pptxAutoShape.AddTextFrame("");
+  ITextFrame ITextFrame = pptxAutoShape.TextFrame;
 
-ITextFrame ITextFrame = pptxAutoShape.TextFrame;
+  // Adds some text to the frame
+  ITextFrame.Paragraphs[0].Portions[0].Text = "Aspose.Slides";
 
-// Adds some text to the frame
-ITextFrame.Paragraphs[0].Portions[0].Text = "Aspose.Slides";
+  // Sets the Hyperlink for the portion text
+  IHyperlinkManager HypMan = ITextFrame.Paragraphs[0].Portions[0].PortionFormat.HyperlinkManager;
+  HypMan.SetExternalHyperlinkClick("http://www.aspose.com");
 
-// Sets the Hyperlink for the portion text
-IHyperlinkManager HypMan = ITextFrame.Paragraphs[0].Portions[0].PortionFormat.HyperlinkManager;
-HypMan.SetExternalHyperlinkClick("http://www.aspose.com");
-
-// Saves the PPTX Presentation
-pptxPresentation.Save("hLinkPPTX_out.pptx", Aspose.Slides.Export.SaveFormat.Pptx);
+  // Saves the PPTX Presentation
+  pptxPresentation.Save("hLinkPPTX_out.pptx", Aspose.Slides.Export.SaveFormat.Pptx);
+}
 ```
 
 ### See Also

@@ -21,24 +21,25 @@ The following example shows how to add embedded fonts to PowerPoint Presentation
 ```csharp
 [C#]
 // Load presentation
-Presentation presentation = new Presentation("Fonts.pptx");
-
-// Load source font to be replaced
-IFontData sourceFont = new FontData("Arial");
-
-
-IFontData[] allFonts = presentation.FontsManager.GetFonts();
-IFontData[] embeddedFonts = presentation.FontsManager.GetEmbeddedFonts();
-foreach (IFontData font in allFonts)
+using (Presentation presentation = new Presentation("Fonts.pptx"))
 {
-    if (!embeddedFonts.Contains(font))
-    {
-        presentation.FontsManager.AddEmbeddedFont(font, EmbedFontCharacters.All);
-    }
-}
+	// Load source font to be replaced
+	IFontData sourceFont = new FontData("Arial");
 
-// Save the presentation
-presentation.Save("AddEmbeddedFont_out.pptx", SaveFormat.Pptx);
+
+	IFontData[] allFonts = presentation.FontsManager.GetFonts();
+	IFontData[] embeddedFonts = presentation.FontsManager.GetEmbeddedFonts();
+	foreach (IFontData font in allFonts)
+	{
+		if (!embeddedFonts.Contains(font))
+		{
+			presentation.FontsManager.AddEmbeddedFont(font, EmbedFontCharacters.All);
+		}
+	}
+
+	// Save the presentation
+	presentation.Save("AddEmbeddedFont_out.pptx", SaveFormat.Pptx);
+}
 ```
 
 ### See Also

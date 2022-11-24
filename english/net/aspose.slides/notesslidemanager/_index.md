@@ -34,15 +34,15 @@ The following example shows how to Add Notes to specific ProwerPoint Presentatio
 ```csharp
 [C#]
 	// Instantiate a Presentation object that represents a presentation file 
-    Presentation presentation = new Presentation(dataDir + "AccessSlides.pptx");
+	using(Presentation presentation = new Presentation(dataDir + "AccessSlides.pptx")) {
+	  // Add notes to first slide
+	  INotesSlideManager mgr = presentation.Slides[0].NotesSlideManager;
+	  INotesSlide noteSlide = mgr.AddNotesSlide();
+	  noteSlide.NotesTextFrame.Text = "Your Notes";
 
-    // Add notes to first slide
-    INotesSlideManager mgr = presentation.Slides[0].NotesSlideManager;
-    INotesSlide noteSlide = mgr.AddNotesSlide();
-    noteSlide.NotesTextFrame.Text = "Your Notes";
-
-	// Save presentation to disk
-    presentation.Save(dataDir + "RemoveNotesAtSpecificSlide_out.pptx", SaveFormat.Pptx);
+	  // Save presentation to disk
+	  presentation.Save(dataDir + "RemoveNotesAtSpecificSlide_out.pptx", SaveFormat.Pptx);
+	}
 ```
 
 The following examples shows how to remove Notes from PowerPoint Presentation's specific slide.
@@ -50,14 +50,14 @@ The following examples shows how to remove Notes from PowerPoint Presentation's 
 ```csharp
 [C#]
 	// Instantiate a Presentation object that represents a presentation file 
-	Presentation presentation = new Presentation(dataDir + "AccessSlides.pptx");
+	using(Presentation presentation = new Presentation(dataDir + "AccessSlides.pptx")) {
+	  // Removing notes of first slide
+	  INotesSlideManager mgr = presentation.Slides[0].NotesSlideManager;
+	  mgr.RemoveNotesSlide();
 
-	// Removing notes of first slide
-	INotesSlideManager mgr = presentation.Slides[0].NotesSlideManager;
-	mgr.RemoveNotesSlide();
-
-	// Save presentation to disk
-	presentation.Save(dataDir + "RemoveNotesAtSpecificSlide_out.pptx", SaveFormat.Pptx);
+	  // Save presentation to disk
+	  presentation.Save(dataDir + "RemoveNotesAtSpecificSlide_out.pptx", SaveFormat.Pptx);
+	}
 ```
 
 ### See Also

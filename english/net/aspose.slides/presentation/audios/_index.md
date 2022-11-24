@@ -124,18 +124,19 @@ The following examples shows how to extract Audio.
 string presName = "AudioSlide.pptx";
 
 // Instantiates a Presentation class that represents a presentation file
-Presentation pres = new Presentation(presName);
+using (Presentation pres = new Presentation(presName)){
 
-// Accesses the slide
-ISlide slide = pres.Slides[0];
+	// Accesses the slide
+	ISlide slide = pres.Slides[0];
 
-// Gets the slideshow transition effects for the slide
-ISlideShowTransition transition = slide.SlideShowTransition;
+	// Gets the slideshow transition effects for the slide
+	ISlideShowTransition transition = slide.SlideShowTransition;
 
-//Extracts the sound in byte array
-byte[] audio = transition.Sound.BinaryData;
+	//Extracts the sound in byte array
+	byte[] audio = transition.Sound.BinaryData;
 
-System.Console.WriteLine("Length: " + audio.Length);
+	System.Console.WriteLine("Length: " + audio.Length);
+}
 
 ```
 

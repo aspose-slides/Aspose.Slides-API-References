@@ -29,16 +29,18 @@ The following example shows how to compare two slides.
 ```csharp
 [C#]
 using (Presentation presentation1 = new Presentation("AccessSlides.pptx"))
-using (Presentation presentation2 = new Presentation("HelloWorld.pptx"))
 {
-    for (int i = 0; i < presentation1.Masters.Count; i++)
-    {
-        for (int j = 0; j < presentation2.Masters.Count; j++)
-        {
-            if (presentation1.Masters[i].Equals(presentation2.Masters[j]))
-                Console.WriteLine(string.Format("SomePresentation1 MasterSlide#{0} is equal to SomePresentation2 MasterSlide#{1}", i, j));
-        }
-    }
+	using (Presentation presentation2 = new Presentation("HelloWorld.pptx"))
+	{
+		for (int i = 0; i < presentation1.Masters.Count; i++)
+		{
+			for (int j = 0; j < presentation2.Masters.Count; j++)
+			{
+				if (presentation1.Masters[i].Equals(presentation2.Masters[j]))
+					Console.WriteLine(string.Format("SomePresentation1 MasterSlide#{0} is equal to SomePresentation2 MasterSlide#{1}", i, j));
+			}
+		}
+	}
 }
 ```
 

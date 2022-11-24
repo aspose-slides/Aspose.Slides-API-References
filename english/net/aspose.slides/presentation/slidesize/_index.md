@@ -32,17 +32,18 @@ The following example shows how to set slide size with respect to content scalin
 ```csharp
 [C#]
 // Instantiate a Presentation object that represents a presentation file 
-Presentation presentation = new Presentation("AccessSlides.pptx");
-Presentation auxPresentation = new Presentation();
+using(Presentation presentation = new Presentation("AccessSlides.pptx")) {
+  using(Presentation auxPresentation = new Presentation()) {
+    ISlide slide = presentation.Slides[0];
 
-ISlide slide = presentation.Slides[0];
+    // Set the slide size of generated presentations to that of source
+    presentation.SlideSize.SetSize(540, 720, SlideSizeScaleType.EnsureFit); // Method SetSize is used for set slide size with scale content to ensure fit
+    presentation.SlideSize.SetSize(SlideSizeType.A4Paper, SlideSizeScaleType.Maximize); // Method SetSize is used for set slide size with maximize size of content
 
-// Set the slide size of generated presentations to that of source
-presentation.SlideSize.SetSize(540, 720, SlideSizeScaleType.EnsureFit); // Method SetSize is used for set slide size with scale content to ensure fit
-presentation.SlideSize.SetSize(SlideSizeType.A4Paper, SlideSizeScaleType.Maximize); // Method SetSize is used for set slide size with maximize size of content
-           
-// Save Presentation to disk
-auxPresentation.Save("Set_Size&Type_out.pptx", SaveFormat.Pptx);
+    // Save Presentation to disk
+    auxPresentation.Save("Set_Size&Type_out.pptx", SaveFormat.Pptx);
+  }
+}
 ```
 
 The following example shows how to specifying custom slide sizes in a PowerPoint Presentation.
