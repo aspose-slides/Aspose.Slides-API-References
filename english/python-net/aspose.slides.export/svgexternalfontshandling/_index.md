@@ -3,7 +3,7 @@ title: SvgExternalFontsHandling
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 810
+weight: 850
 url: /python-net/aspose.slides.export/svgexternalfontshandling/
 ---
 

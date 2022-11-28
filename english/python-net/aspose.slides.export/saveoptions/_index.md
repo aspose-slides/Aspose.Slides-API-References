@@ -3,7 +3,7 @@ title: SaveOptions
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 450
+weight: 490
 url: /python-net/aspose.slides.export/saveoptions/
 ---
 

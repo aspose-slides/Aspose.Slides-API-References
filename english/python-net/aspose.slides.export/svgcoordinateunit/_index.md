@@ -3,7 +3,7 @@ title: SvgCoordinateUnit
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 790
+weight: 830
 url: /python-net/aspose.slides.export/svgcoordinateunit/
 ---
 

@@ -3,7 +3,7 @@ title: PicturesCompression
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 770
+weight: 810
 url: /python-net/aspose.slides.export/picturescompression/
 ---
 

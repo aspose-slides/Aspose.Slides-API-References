@@ -3,7 +3,7 @@ title: IPptxOptions
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 210
+weight: 220
 url: /python-net/aspose.slides.export/ipptxoptions/
 ---
 

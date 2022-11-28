@@ -3,7 +3,7 @@ title: ZoomLayout
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 10060
+weight: 10100
 url: /python-net/aspose.slides/zoomlayout/
 ---
 

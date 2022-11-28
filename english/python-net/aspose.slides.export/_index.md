@@ -16,6 +16,7 @@ Contains classes for exporting Microsoft PowerPoint presentations to different f
 |[EmbedAllFontsHtmlController](/slides/python-net/aspose.slides.export/embedallfontshtmlcontroller/)|The formatting controller class to use for embedding all presentation fonts in WOFF format.|
 |[EmbeddedEotFontsHtmlController](/slides/python-net/aspose.slides.export/embeddedeotfontshtmlcontroller/)|The formatting controller class to use for fonts embedding in EOT format|
 |[EmbeddedWoffFontsHtmlController](/slides/python-net/aspose.slides.export/embeddedwofffontshtmlcontroller/)|The formatting controller class to use for fonts embedding in WOFF format|
+|[FrameTickEventArgs](/slides/python-net/aspose.slides.export/frametickeventargs/)|Represents arguments of the|
 |[GifOptions](/slides/python-net/aspose.slides.export/gifoptions/)|Represents GIF exporting options.|
 |[Html5Options](/slides/python-net/aspose.slides.export/html5options/)|Represents a HTML5 exporting options.|
 |[HtmlFormatter](/slides/python-net/aspose.slides.export/htmlformatter/)|Represents HTML file template.|
@@ -34,6 +35,7 @@ Contains classes for exporting Microsoft PowerPoint presentations to different f
 |[IPdfOptions](/slides/python-net/aspose.slides.export/ipdfoptions/)|Provides options that control how a presentation is saved in Pdf format.|
 |[IPptOptions](/slides/python-net/aspose.slides.export/ipptoptions/)|Provides options that control how a presentation is saved in PPT format.|
 |[IPptxOptions](/slides/python-net/aspose.slides.export/ipptxoptions/)|Represents options for saving OpenXml presentations (PPTX, PPSX, POTX, PPTM, PPSM, POTM).|
+|[IPresentationAnimationPlayer](/slides/python-net/aspose.slides.export/ipresentationanimationplayer/)|Represents a player of the animation.|
 |[IRenderingOptions](/slides/python-net/aspose.slides.export/irenderingoptions/)|Provides options that control how a presentation/slide is rendered.|
 |[IResponsiveHtmlController](/slides/python-net/aspose.slides.export/iresponsivehtmlcontroller/)|Responsive HTML Controller|
 |[ISVGOptions](/slides/python-net/aspose.slides.export/isvgoptions/)|Represents an SVG options.|
@@ -54,6 +56,8 @@ Contains classes for exporting Microsoft PowerPoint presentations to different f
 |[PdfOptions](/slides/python-net/aspose.slides.export/pdfoptions/)|Provides options that control how a presentation is saved in Pdf format.|
 |[PptOptions](/slides/python-net/aspose.slides.export/pptoptions/)|Provides options that control how a presentation is saved in PPT format.|
 |[PptxOptions](/slides/python-net/aspose.slides.export/pptxoptions/)|Represents options for saving OpenXml presentations (PPTX, PPSX, POTX, PPTM, PPSM, POTM).|
+|[PresentationAnimationsGenerator](/slides/python-net/aspose.slides.export/presentationanimationsgenerator/)||
+|[PresentationPlayer](/slides/python-net/aspose.slides.export/presentationplayer/)|Represents the player of animations associated with the [Presentation](/slides/python-net/aspose.slides/presentation/).|
 |[RenderingOptions](/slides/python-net/aspose.slides.export/renderingoptions/)|Provides options that control how a presentation/slide is rendered.|
 |[ResponsiveHtmlController](/slides/python-net/aspose.slides.export/responsivehtmlcontroller/)|Responsive HTML Controller|
 |[SVGOptions](/slides/python-net/aspose.slides.export/svgoptions/)|Represents an SVG options.|

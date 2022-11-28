@@ -3,7 +3,7 @@ title: Html5Options
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 50
+weight: 60
 url: /python-net/aspose.slides.export/html5options/
 ---
 

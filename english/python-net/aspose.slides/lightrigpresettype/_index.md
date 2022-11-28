@@ -3,7 +3,7 @@ title: LightRigPresetType
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 9460
+weight: 9500
 url: /python-net/aspose.slides/lightrigpresettype/
 ---
 

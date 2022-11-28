@@ -3,7 +3,7 @@ title: TextShapeType
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 9970
+weight: 10010
 url: /python-net/aspose.slides/textshapetype/
 ---
 

@@ -3,7 +3,7 @@ title: VideoPlayerHtmlController
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 530
+weight: 570
 url: /python-net/aspose.slides.export/videoplayerhtmlcontroller/
 ---
 

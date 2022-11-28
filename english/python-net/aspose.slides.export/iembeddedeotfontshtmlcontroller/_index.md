@@ -3,7 +3,7 @@ title: IEmbeddedEotFontsHtmlController
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 90
+weight: 100
 url: /python-net/aspose.slides.export/iembeddedeotfontshtmlcontroller/
 ---
 

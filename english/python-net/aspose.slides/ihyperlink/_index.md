@@ -23,6 +23,7 @@ The IHyperlink type exposes the following members:
 |history|Determines whether the target of the parent hyperlink shall be added<br/>            to a list of viewed hyperlinks when it is invoked.<br/>            Read/write bool.|
 |highlight_click|Determines whether the hyperlink should be highlighted on click.<br/>            Read/write bool.|
 |stop_sound_on_click|Determines whether the sound should be stopped on hyperlink click.<br/>            Read/write bool.|
+|sound|Represents the playing sound of the hyperlink.<br/>            Read/write [IAudio](/slides/python-net/aspose.slides/iaudio/).|
 |color_source|Represents the source of hyperlink color - either styles or portion format.<br/>            Read/write [HyperlinkColorSource](/slides/python-net/aspose.slides/hyperlinkcolorsource/).|
 ## Methods
 | Name | Description |

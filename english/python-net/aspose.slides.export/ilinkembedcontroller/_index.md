@@ -3,7 +3,7 @@ title: ILinkEmbedController
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 170
+weight: 180
 url: /python-net/aspose.slides.export/ilinkembedcontroller/
 ---
 

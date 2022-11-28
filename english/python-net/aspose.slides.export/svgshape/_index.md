@@ -3,7 +3,7 @@ title: SvgShape
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 480
+weight: 520
 url: /python-net/aspose.slides.export/svgshape/
 ---
 
