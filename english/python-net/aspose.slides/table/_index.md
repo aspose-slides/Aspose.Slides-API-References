@@ -76,6 +76,7 @@ The Table type exposes the following members:
 |set_text_format(source)|Sets defined text frame format properties to all table cells' text frames.|
 |remove_placeholder()|Defines that this shape isn't a placeholder.|
 |add_placeholder(placeholder_to_copy_from)|Adds a new placeholder if there is no and sets placeholder properties to a specified one.|
+|get_base_placeholder()|Returns a basic placeholder shape (shape from the layout and/or master slide that the current shape is inherited from).|
 |merge_cells(cell1, cell2, allow_splitting)|Merges neighbour cells.|
 
 ### See Also

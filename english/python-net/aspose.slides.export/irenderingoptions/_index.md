@@ -3,7 +3,7 @@ title: IRenderingOptions
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 220
+weight: 240
 url: /python-net/aspose.slides.export/irenderingoptions/
 ---
 

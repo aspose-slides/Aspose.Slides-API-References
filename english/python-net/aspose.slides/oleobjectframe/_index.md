@@ -53,6 +53,7 @@ The OleObjectFrame type exposes the following members:
 |object_prog_id|Returns the ProgID of an object.<br/>            Read only string.|
 |link_file_name|Returns the full path to a linked file. Short file name will be used.<br/>            Read-only string.|
 |link_path_long|Returns the full path to a linked file. Long file name will be used.<br/>            Read/write string.|
+|link_path_relative|Returns the relative path to a linked file if present, otherwise returns an empty string.<br/>             Readonly string.|
 |embedded_file_label|Returns the file name of embedded OLE object|
 |embedded_file_name|Returns the path of embedded OLE object|
 |embedded_data|Gets or sets information about OLE embedded data.<br/>            Read/write [IOleEmbeddedDataInfo](/slides/python-net/aspose.slides/ioleembeddeddatainfo/).|
@@ -73,6 +74,7 @@ The OleObjectFrame type exposes the following members:
 |write_as_svg(stream, svg_options)|Saves content of Shape as SVG file.|
 |remove_placeholder()|Defines that this shape isn't a placeholder.|
 |add_placeholder(placeholder_to_copy_from)|Adds a new placeholder if there is no and sets placeholder properties to a specified one.|
+|get_base_placeholder()|Returns a basic placeholder shape (shape from the layout and/or master slide that the current shape is inherited from).|
 |set_embedded_data(embedded_data)|Sets information about OLE embedded data.|
 
 ### See Also

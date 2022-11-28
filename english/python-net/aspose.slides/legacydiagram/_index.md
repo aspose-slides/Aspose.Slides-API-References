@@ -61,6 +61,7 @@ The LegacyDiagram type exposes the following members:
 |write_as_svg(stream, svg_options)|Saves content of Shape as SVG file.|
 |remove_placeholder()|Defines that this shape isn't a placeholder.|
 |add_placeholder(placeholder_to_copy_from)|Adds a new placeholder if there is no and sets placeholder properties to a specified one.|
+|get_base_placeholder()|Returns a basic placeholder shape (shape from the layout and/or master slide that the current shape is inherited from).|
 |convert_to_smart_art()|Converts legacy digram to editable SmartArt object. <br/>            Created SmartArt object adds to parent group shape at the same position.|
 |convert_to_group_shape()|Converts legacy digram to editable group shape. <br/>            Created GroupShape object adds to parent group shape at the same position.|
 

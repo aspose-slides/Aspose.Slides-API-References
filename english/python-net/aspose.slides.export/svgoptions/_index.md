@@ -3,7 +3,7 @@ title: SVGOptions
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 440
+weight: 480
 url: /python-net/aspose.slides.export/svgoptions/
 ---
 

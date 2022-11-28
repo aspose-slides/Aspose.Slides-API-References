@@ -3,7 +3,7 @@ title: SplitterBarStateType
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 9880
+weight: 9920
 url: /python-net/aspose.slides/splitterbarstatetype/
 ---
 

@@ -24,6 +24,7 @@ The IEffect type exposes the following members:
 |timing|Defines timing value for effect.<br/>            Read/write [ITiming](/slides/python-net/aspose.slides.animation/itiming/).|
 |target_shape|Returns target shape for effect.<br/>            Read-only [IShape](/slides/python-net/aspose.slides/ishape/).|
 |sound|Defined embedded sound for effect.<br/>            Read/write [IAudio](/slides/python-net/aspose.slides/iaudio/).|
+|stop_previous_sound|This attribute specifies if the animation effect stops the previous sound.<br/>            Read/write bool.|
 
 ### See Also
 

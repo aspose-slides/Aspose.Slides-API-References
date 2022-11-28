@@ -3,7 +3,7 @@ title: ResourceLoadingAction
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 9760
+weight: 9800
 url: /python-net/aspose.slides/resourceloadingaction/
 ---
 

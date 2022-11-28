@@ -3,7 +3,7 @@ title: PersistenceType
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 9680
+weight: 9720
 url: /python-net/aspose.slides/persistencetype/
 ---
 

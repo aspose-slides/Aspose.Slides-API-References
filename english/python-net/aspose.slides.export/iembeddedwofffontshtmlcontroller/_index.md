@@ -3,7 +3,7 @@ title: IEmbeddedWoffFontsHtmlController
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 100
+weight: 110
 url: /python-net/aspose.slides.export/iembeddedwofffontshtmlcontroller/
 ---
 
