@@ -154,7 +154,7 @@ url: /php-java/mathgroupingcharacterfactory/createmathgroupingcharacter/
 ---
 
 
-## createMathGroupingCharacter([MathAccent](../../mathaccent) element, char character, int position, int verticalJustification)  method
+## createMathGroupingCharacter([MathNaryOperator](../../mathnaryoperator) element, char character, int position, int verticalJustification)  method
 
  Creates a math grouping character
  
@@ -163,7 +163,7 @@ url: /php-java/mathgroupingcharacterfactory/createmathgroupingcharacter/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathAccent](../mathaccent) | math element to apply grouping character |
+| element | [MathNaryOperator](../mathnaryoperator) | math element to apply grouping character |
 | character | char | grouping character |
 | position | int | position of grouping character |
 | verticalJustification | int | vertical justification |
@@ -175,7 +175,7 @@ url: /php-java/mathgroupingcharacterfactory/createmathgroupingcharacter/
 ---
 
 
-## createMathGroupingCharacter([MathNaryOperator](../../mathnaryoperator) element, char character, int position, int verticalJustification)  method
+## createMathGroupingCharacter([MathAccent](../../mathaccent) element, char character, int position, int verticalJustification)  method
 
  Creates a math grouping character
  
@@ -184,7 +184,7 @@ url: /php-java/mathgroupingcharacterfactory/createmathgroupingcharacter/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathNaryOperator](../mathnaryoperator) | math element to apply grouping character |
+| element | [MathAccent](../mathaccent) | math element to apply grouping character |
 | character | char | grouping character |
 | position | int | position of grouping character |
 | verticalJustification | int | vertical justification |
@@ -259,7 +259,7 @@ url: /php-java/mathgroupingcharacterfactory/createmathgroupingcharacter/
 ---
 
 
-## createMathGroupingCharacter([MathFunction](../../mathfunction) element, char character, int position, int verticalJustification)  method
+## createMathGroupingCharacter([MathSubscriptElement](../../mathsubscriptelement) element, char character, int position, int verticalJustification)  method
 
  Creates a math grouping character
  
@@ -268,7 +268,7 @@ url: /php-java/mathgroupingcharacterfactory/createmathgroupingcharacter/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathFunction](../mathfunction) | math element to apply grouping character |
+| element | [MathSubscriptElement](../mathsubscriptelement) | math element to apply grouping character |
 | character | char | grouping character |
 | position | int | position of grouping character |
 | verticalJustification | int | vertical justification |
@@ -280,7 +280,7 @@ url: /php-java/mathgroupingcharacterfactory/createmathgroupingcharacter/
 ---
 
 
-## createMathGroupingCharacter([MathSubscriptElement](../../mathsubscriptelement) element, char character, int position, int verticalJustification)  method
+## createMathGroupingCharacter([MathFunction](../../mathfunction) element, char character, int position, int verticalJustification)  method
 
  Creates a math grouping character
  
@@ -289,7 +289,7 @@ url: /php-java/mathgroupingcharacterfactory/createmathgroupingcharacter/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathSubscriptElement](../mathsubscriptelement) | math element to apply grouping character |
+| element | [MathFunction](../mathfunction) | math element to apply grouping character |
 | character | char | grouping character |
 | position | int | position of grouping character |
 | verticalJustification | int | vertical justification |
@@ -322,7 +322,7 @@ url: /php-java/mathgroupingcharacterfactory/createmathgroupingcharacter/
 ---
 
 
-## createMathGroupingCharacter([MathFraction](../../mathfraction) element, char character, int position, int verticalJustification)  method
+## createMathGroupingCharacter([MathematicalText](../../mathematicaltext) element, char character, int position, int verticalJustification)  method
 
  Creates a math grouping character
  
@@ -331,7 +331,7 @@ url: /php-java/mathgroupingcharacterfactory/createmathgroupingcharacter/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathFraction](../mathfraction) | math element to apply grouping character |
+| element | [MathematicalText](../mathematicaltext) | math element to apply grouping character |
 | character | char | grouping character |
 | position | int | position of grouping character |
 | verticalJustification | int | vertical justification |
@@ -343,7 +343,7 @@ url: /php-java/mathgroupingcharacterfactory/createmathgroupingcharacter/
 ---
 
 
-## createMathGroupingCharacter([MathematicalText](../../mathematicaltext) element, char character, int position, int verticalJustification)  method
+## createMathGroupingCharacter([MathFraction](../../mathfraction) element, char character, int position, int verticalJustification)  method
 
  Creates a math grouping character
  
@@ -352,7 +352,7 @@ url: /php-java/mathgroupingcharacterfactory/createmathgroupingcharacter/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathematicalText](../mathematicaltext) | math element to apply grouping character |
+| element | [MathFraction](../mathfraction) | math element to apply grouping character |
 | character | char | grouping character |
 | position | int | position of grouping character |
 | verticalJustification | int | vertical justification |
@@ -532,24 +532,6 @@ url: /php-java/mathgroupingcharacterfactory/createmathgroupingcharacter/
 ---
 
 
-## createMathGroupingCharacter([MathAccent](../../mathaccent) element)  method
-
- Creates a math grouping character
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathAccent](../../mathaccent) | math element to apply grouping character |
-
-### Returns
-[MathGroupingCharacter](../../mathgroupingcharacter)
-
-
----
-
-
 ## createMathGroupingCharacter([MathNaryOperator](../../mathnaryoperator) element)  method
 
  Creates a math grouping character
@@ -560,6 +542,24 @@ url: /php-java/mathgroupingcharacterfactory/createmathgroupingcharacter/
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathNaryOperator](../../mathnaryoperator) | math element to apply grouping character |
+
+### Returns
+[MathGroupingCharacter](../../mathgroupingcharacter)
+
+
+---
+
+
+## createMathGroupingCharacter([MathAccent](../../mathaccent) element)  method
+
+ Creates a math grouping character
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathAccent](../../mathaccent) | math element to apply grouping character |
 
 ### Returns
 [MathGroupingCharacter](../../mathgroupingcharacter)
@@ -622,24 +622,6 @@ url: /php-java/mathgroupingcharacterfactory/createmathgroupingcharacter/
 ---
 
 
-## createMathGroupingCharacter([MathFunction](../../mathfunction) element)  method
-
- Creates a math grouping character
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathFunction](../../mathfunction) | math element to apply grouping character |
-
-### Returns
-[MathGroupingCharacter](../../mathgroupingcharacter)
-
-
----
-
-
 ## createMathGroupingCharacter([MathSubscriptElement](../../mathsubscriptelement) element)  method
 
  Creates a math grouping character
@@ -650,6 +632,24 @@ url: /php-java/mathgroupingcharacterfactory/createmathgroupingcharacter/
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathSubscriptElement](../../mathsubscriptelement) | math element to apply grouping character |
+
+### Returns
+[MathGroupingCharacter](../../mathgroupingcharacter)
+
+
+---
+
+
+## createMathGroupingCharacter([MathFunction](../../mathfunction) element)  method
+
+ Creates a math grouping character
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathFunction](../../mathfunction) | math element to apply grouping character |
 
 ### Returns
 [MathGroupingCharacter](../../mathgroupingcharacter)
@@ -676,24 +676,6 @@ url: /php-java/mathgroupingcharacterfactory/createmathgroupingcharacter/
 ---
 
 
-## createMathGroupingCharacter([MathFraction](../../mathfraction) element)  method
-
- Creates a math grouping character
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathFraction](../../mathfraction) | math element to apply grouping character |
-
-### Returns
-[MathGroupingCharacter](../../mathgroupingcharacter)
-
-
----
-
-
 ## createMathGroupingCharacter([MathematicalText](../../mathematicaltext) element)  method
 
  Creates a math grouping character
@@ -704,6 +686,24 @@ url: /php-java/mathgroupingcharacterfactory/createmathgroupingcharacter/
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathematicalText](../../mathematicaltext) | math element to apply grouping character |
+
+### Returns
+[MathGroupingCharacter](../../mathgroupingcharacter)
+
+
+---
+
+
+## createMathGroupingCharacter([MathFraction](../../mathfraction) element)  method
+
+ Creates a math grouping character
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathFraction](../../mathfraction) | math element to apply grouping character |
 
 ### Returns
 [MathGroupingCharacter](../../mathgroupingcharacter)

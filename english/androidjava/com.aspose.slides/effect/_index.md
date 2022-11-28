@@ -35,6 +35,8 @@ Represents animation effect.
 | [getTargetShape()](#getTargetShape--) | Returns target shape for effect. |
 | [getSound()](#getSound--) | Defined embedded sound for effect. |
 | [setSound(IAudio value)](#setSound-com.aspose.slides.IAudio-) | Defined embedded sound for effect. |
+| [getStopPreviousSound()](#getStopPreviousSound--) | This attribute specifies if the animation effect stops the previous sound. |
+| [setStopPreviousSound(boolean value)](#setStopPreviousSound-boolean-) | This attribute specifies if the animation effect stops the previous sound. |
 | [getParent_Immediate()](#getParent-Immediate--) |  |
 ### getSequence() {#getSequence--}
 ```
@@ -249,6 +251,71 @@ Defined embedded sound for effect. Read/write [IAudio](../../com.aspose.slides/i
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [IAudio](../../com.aspose.slides/iaudio) |  |
+
+### getStopPreviousSound() {#getStopPreviousSound--}
+```
+public final boolean getStopPreviousSound()
+```
+
+
+This attribute specifies if the animation effect stops the previous sound. Read/write  boolean .
+
+--------------------
+
+> ```
+> Presentation presentation = new Presentation("demo.pptx");
+>  try {
+>      // Get the first effect of the first slide.
+>      IEffect firstSlideEffect = presentation.getSlides().get_Item(0).getTimeline().getMainSequence().get_Item(0);
+> 
+>      // Get the first effect of the second slide.
+>      IEffect secondSlideEffect = presentation.getSlides().get_Item(1).getTimeline().getMainSequence().get_Item(0);
+> 
+>      if (firstSlideEffect.getSound() != null)
+>      {
+>          // Change the second effect Enhancements/Sound to "Stop Previous Sound"
+>          secondSlideEffect.setStopPreviousSound(true);
+>      }
+>  } finally {
+>      if (presentation != null) presentation.dispose();
+>  }
+> ```
+
+**Returns:**
+boolean
+### setStopPreviousSound(boolean value) {#setStopPreviousSound-boolean-}
+```
+public final void setStopPreviousSound(boolean value)
+```
+
+
+This attribute specifies if the animation effect stops the previous sound. Read/write  boolean .
+
+--------------------
+
+> ```
+> Presentation presentation = new Presentation("demo.pptx");
+>  try {
+>      // Get the first effect of the first slide.
+>      IEffect firstSlideEffect = presentation.getSlides().get_Item(0).getTimeline().getMainSequence().get_Item(0);
+> 
+>      // Get the first effect of the second slide.
+>      IEffect secondSlideEffect = presentation.getSlides().get_Item(1).getTimeline().getMainSequence().get_Item(0);
+> 
+>      if (firstSlideEffect.getSound() != null)
+>      {
+>          // Change the second effect Enhancements/Sound to "Stop Previous Sound"
+>          secondSlideEffect.setStopPreviousSound(true);
+>      }
+>  } finally {
+>      if (presentation != null) presentation.dispose();
+>  }
+> ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
 
 ### getParent_Immediate() {#getParent-Immediate--}
 ```

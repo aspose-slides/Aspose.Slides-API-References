@@ -3,7 +3,7 @@ title: PresentationInfo
 second_title: Aspose.Slides for Java API Reference
 description: Information about presentation file
 type: docs
-weight: 446
+weight: 448
 url: /java/com.aspose.slides/presentationinfo/
 ---
 **Inheritance:**

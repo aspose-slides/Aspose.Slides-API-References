@@ -3,7 +3,7 @@ title: IVbaReferenceOleTypeLib
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents OLE Automation type library reference.
 type: docs
-weight: 1095
+weight: 1099
 url: /androidjava/com.aspose.slides/ivbareferenceoletypelib/
 ---
 **All Implemented Interfaces:**

@@ -3,7 +3,7 @@ title: ILightRig
 second_title: Aspose.Slides for Java API Reference
 description: Represents LightRig.
 type: docs
-weight: 851
+weight: 854
 url: /java/com.aspose.slides/ilightrig/
 ---```
 public interface ILightRig

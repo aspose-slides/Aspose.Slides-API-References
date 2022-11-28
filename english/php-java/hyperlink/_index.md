@@ -39,6 +39,7 @@ url: /php-java/hyperlink/
 | [getNextSlide](getnextslide)() | Returns a hyperlink to the next slide. Read-only Hyperlink. |
 | [getNoAction](getnoaction)() | Returns a special "do nothing" hyperlink. Read-only Hyperlink. |
 | [getPreviousSlide](getpreviousslide)() | Returns a hyperlink to the previous slide. Read-only Hyperlink. |
+| [getSound](getsound)() | Represents the playing sound of the hyperlink. Read/write IAudio. |
 | [getStopSoundOnClick](getstopsoundonclick)() | Determines whether the sound should be stopped on hyperlink click. Read/write boolean. |
 | [getTargetFrame](gettargetframe)() | Returns the frame within the parent HTML frameset for the target of the parent hyperlink when one exists. Read/wite String. |
 | [getTargetSlide](gettargetslide)() | If the Hyperlink targets specific slide returns this slide. Read-only ISlide. |
@@ -49,6 +50,7 @@ url: /php-java/hyperlink/
 | [setColorSource](setcolorsource)(int) | Represents the source of hyperlink color - either styles or portion format. Read/write HyperlinkColorSource. |
 | [setHighlightClick](sethighlightclick)(boolean) | Determines whether the hyperlink should be highlighted on click. Read/write boolean. |
 | [setHistory](sethistory)(boolean) | Determines whether the target of the parent hyperlink shall be added to a list of viewed hyperlinks when it is invoked. Read/write boolean. |
+| [setSound](setsound)([Audio](../audio)) | Represents the playing sound of the hyperlink. Read/write IAudio. |
 | [setStopSoundOnClick](setstopsoundonclick)(boolean) | Determines whether the sound should be stopped on hyperlink click. Read/write boolean. |
 | [setTargetFrame](settargetframe)(String) | Returns the frame within the parent HTML frameset for the target of the parent hyperlink when one exists. Read/wite String. |
 | [setTooltip](settooltip)(String) | Returns the string which may be surfaced in a user interface as associated with the parent hyperlink. Read/write String. |

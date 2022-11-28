@@ -3,7 +3,7 @@ title: ICellFormatEffectiveData
 second_title: Aspose.Slides for Android via Java API Reference
 description: Immutable object which contains effective table cell formatting properties.
 type: docs
-weight: 678
+weight: 681
 url: /androidjava/com.aspose.slides/icellformateffectivedata/
 ---
 **All Implemented Interfaces:**

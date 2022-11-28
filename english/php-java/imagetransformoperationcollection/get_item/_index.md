@@ -19,7 +19,7 @@ url: /php-java/imagetransformoperationcollection/get_item/
 | index | int | Index of element. |
 
 ### Returns
-[ImageTransformOperation](../../imagetransformoperation), [HSL](../../hsl), [SoftEdge](../../softedge), [AlphaBiLevel](../../alphabilevel), [InnerShadow](../../innershadow), [ColorChange](../../colorchange), [AlphaModulate](../../alphamodulate), [Reflection](../../reflection), [Glow](../../glow), [AlphaModulateFixed](../../alphamodulatefixed), [AlphaFloor](../../alphafloor), [GrayScale](../../grayscale), [Duotone](../../duotone), [Luminance](../../luminance), [AlphaCeiling](../../alphaceiling), [AlphaInverse](../../alphainverse), [OuterShadow](../../outershadow), [Blur](../../blur), [PresetShadow](../../presetshadow), [AlphaReplace](../../alphareplace), [ColorReplace](../../colorreplace), [BiLevel](../../bilevel), [Tint](../../tint), [FillOverlay](../../filloverlay)
+[HSL](../../hsl), [ImageTransformOperation](../../imagetransformoperation), [SoftEdge](../../softedge), [AlphaBiLevel](../../alphabilevel), [InnerShadow](../../innershadow), [ColorChange](../../colorchange), [AlphaModulate](../../alphamodulate), [Reflection](../../reflection), [Glow](../../glow), [AlphaFloor](../../alphafloor), [AlphaModulateFixed](../../alphamodulatefixed), [GrayScale](../../grayscale), [Duotone](../../duotone), [Luminance](../../luminance), [AlphaInverse](../../alphainverse), [AlphaCeiling](../../alphaceiling), [OuterShadow](../../outershadow), [Blur](../../blur), [PresetShadow](../../presetshadow), [AlphaReplace](../../alphareplace), [BiLevel](../../bilevel), [ColorReplace](../../colorreplace), [Tint](../../tint), [FillOverlay](../../filloverlay)
 
 
 ---

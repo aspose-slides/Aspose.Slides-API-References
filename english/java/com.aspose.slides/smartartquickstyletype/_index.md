@@ -3,7 +3,7 @@ title: SmartArtQuickStyleType
 second_title: Aspose.Slides for Java API Reference
 description: Represents style scheme of a SmartArt diagram.
 type: docs
-weight: 519
+weight: 522
 url: /java/com.aspose.slides/smartartquickstyletype/
 ---
 **Inheritance:**

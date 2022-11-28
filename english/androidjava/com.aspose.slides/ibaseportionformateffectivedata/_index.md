@@ -3,7 +3,7 @@ title: IBasePortionFormatEffectiveData
 second_title: Aspose.Slides for Android via Java API Reference
 description: Base interface for immutable objects which contain effective text portion formatting properties.
 type: docs
-weight: 655
+weight: 658
 url: /androidjava/com.aspose.slides/ibaseportionformateffectivedata/
 ---```
 public interface IBasePortionFormatEffectiveData

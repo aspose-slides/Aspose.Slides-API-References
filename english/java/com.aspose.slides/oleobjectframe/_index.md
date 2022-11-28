@@ -3,7 +3,7 @@ title: OleObjectFrame
 second_title: Aspose.Slides for Java API Reference
 description: Represents an OLE object on a slide.
 type: docs
-weight: 387
+weight: 388
 url: /java/com.aspose.slides/oleobjectframe/
 ---
 **Inheritance:**
@@ -30,6 +30,7 @@ Represents an OLE object on a slide.
 | [getLinkFileName()](#getLinkFileName--) | Returns the full path to a linked file. |
 | [getLinkPathLong()](#getLinkPathLong--) | Returns the full path to a linked file. |
 | [setLinkPathLong(String value)](#setLinkPathLong-java.lang.String-) | Returns the full path to a linked file. |
+| [getLinkPathRelative()](#getLinkPathRelative--) | Returns the relative path to a linked file if present, otherwise returns an empty string. |
 | [getEmbeddedFileLabel()](#getEmbeddedFileLabel--) | Returns the file name of embedded OLE object |
 | [getEmbeddedFileName()](#getEmbeddedFileName--) | Returns the path of embedded OLE object |
 | [getEmbeddedData()](#getEmbeddedData--) | Gets or sets information about OLE embedded data. |
@@ -159,6 +160,35 @@ Returns the full path to a linked file. Long file name will be used. Read/write 
 | --- | --- | --- |
 | value | java.lang.String |  |
 
+### getLinkPathRelative() {#getLinkPathRelative--}
+```
+public final String getLinkPathRelative()
+```
+
+
+Returns the relative path to a linked file if present, otherwise returns an empty string. Readonly String.
+
+--------------------
+
+> ```
+> Presentation presentation = new Presentation("demo.ppt");
+>  try {
+>      IOleObjectFrame oleFrame = (IOleObjectFrame)presentation.getSlides().get_Item(0).getShapes().get_Item(0);
+>      if (oleFrame != null)
+>      {
+>          System.out.println("The relative path: " + oleFrame.getLinkPathRelative());
+>      }
+>  } finally {
+>      if (presentation != null) presentation.dispose();
+>  }
+> ```
+
+--------------------
+
+In the Ppt presentations, some Ole object links may have a relative representation.
+
+**Returns:**
+java.lang.String
 ### getEmbeddedFileLabel() {#getEmbeddedFileLabel--}
 ```
 public final String getEmbeddedFileLabel()

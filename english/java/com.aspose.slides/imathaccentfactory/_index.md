@@ -3,7 +3,7 @@ title: IMathAccentFactory
 second_title: Aspose.Slides for Java API Reference
 description: Allows to create a math accent
 type: docs
-weight: 879
+weight: 882
 url: /java/com.aspose.slides/imathaccentfactory/
 ---```
 public interface IMathAccentFactory

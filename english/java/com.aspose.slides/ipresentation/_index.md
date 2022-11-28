@@ -3,7 +3,7 @@ title: IPresentation
 second_title: Aspose.Slides for Java API Reference
 description: Presentation document
 type: docs
-weight: 976
+weight: 979
 url: /java/com.aspose.slides/ipresentation/
 ---
 **All Implemented Interfaces:**

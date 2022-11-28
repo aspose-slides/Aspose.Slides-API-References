@@ -3,7 +3,7 @@ title: IEffectStyle
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents an effect style.
 type: docs
-weight: 754
+weight: 757
 url: /androidjava/com.aspose.slides/ieffectstyle/
 ---```
 public interface IEffectStyle

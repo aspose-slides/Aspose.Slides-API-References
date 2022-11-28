@@ -3,7 +3,7 @@ title: IMorphTransition
 second_title: Aspose.Slides for Java API Reference
 description: Ripple slide transition effect.
 type: docs
-weight: 924
+weight: 927
 url: /java/com.aspose.slides/imorphtransition/
 ---
 **All Implemented Interfaces:**

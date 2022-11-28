@@ -39,19 +39,19 @@ url: /php-java/imagetransformoperationcollection/
 | [addItem](additem)([AlphaModulate](../alphamodulate)) | Adds the new image effect to the end of a collection. |
 | [addItem](additem)([Reflection](../reflection)) | Adds the new image effect to the end of a collection. |
 | [addItem](additem)([Glow](../glow)) | Adds the new image effect to the end of a collection. |
-| [addItem](additem)([AlphaModulateFixed](../alphamodulatefixed)) | Adds the new image effect to the end of a collection. |
 | [addItem](additem)([AlphaFloor](../alphafloor)) | Adds the new image effect to the end of a collection. |
+| [addItem](additem)([AlphaModulateFixed](../alphamodulatefixed)) | Adds the new image effect to the end of a collection. |
 | [addItem](additem)([GrayScale](../grayscale)) | Adds the new image effect to the end of a collection. |
 | [addItem](additem)([Duotone](../duotone)) | Adds the new image effect to the end of a collection. |
 | [addItem](additem)([Luminance](../luminance)) | Adds the new image effect to the end of a collection. |
-| [addItem](additem)([AlphaCeiling](../alphaceiling)) | Adds the new image effect to the end of a collection. |
 | [addItem](additem)([AlphaInverse](../alphainverse)) | Adds the new image effect to the end of a collection. |
+| [addItem](additem)([AlphaCeiling](../alphaceiling)) | Adds the new image effect to the end of a collection. |
 | [addItem](additem)([OuterShadow](../outershadow)) | Adds the new image effect to the end of a collection. |
 | [addItem](additem)([Blur](../blur)) | Adds the new image effect to the end of a collection. |
 | [addItem](additem)([PresetShadow](../presetshadow)) | Adds the new image effect to the end of a collection. |
 | [addItem](additem)([AlphaReplace](../alphareplace)) | Adds the new image effect to the end of a collection. |
-| [addItem](additem)([ColorReplace](../colorreplace)) | Adds the new image effect to the end of a collection. |
 | [addItem](additem)([BiLevel](../bilevel)) | Adds the new image effect to the end of a collection. |
+| [addItem](additem)([ColorReplace](../colorreplace)) | Adds the new image effect to the end of a collection. |
 | [addItem](additem)([Tint](../tint)) | Adds the new image effect to the end of a collection. |
 | [addItem](additem)([FillOverlay](../filloverlay)) | Adds the new image effect to the end of a collection. |
 | [addLuminanceEffect](addluminanceeffect)(float, float) | Adds the new Luminance effect to the end of a collection. |
@@ -65,19 +65,19 @@ url: /php-java/imagetransformoperationcollection/
 | [containsItem](containsitem)([AlphaModulate](../alphamodulate)) | Determines whether the IGenericCollection contains a specific value. |
 | [containsItem](containsitem)([Reflection](../reflection)) | Determines whether the IGenericCollection contains a specific value. |
 | [containsItem](containsitem)([Glow](../glow)) | Determines whether the IGenericCollection contains a specific value. |
-| [containsItem](containsitem)([AlphaModulateFixed](../alphamodulatefixed)) | Determines whether the IGenericCollection contains a specific value. |
 | [containsItem](containsitem)([AlphaFloor](../alphafloor)) | Determines whether the IGenericCollection contains a specific value. |
+| [containsItem](containsitem)([AlphaModulateFixed](../alphamodulatefixed)) | Determines whether the IGenericCollection contains a specific value. |
 | [containsItem](containsitem)([GrayScale](../grayscale)) | Determines whether the IGenericCollection contains a specific value. |
 | [containsItem](containsitem)([Duotone](../duotone)) | Determines whether the IGenericCollection contains a specific value. |
 | [containsItem](containsitem)([Luminance](../luminance)) | Determines whether the IGenericCollection contains a specific value. |
-| [containsItem](containsitem)([AlphaCeiling](../alphaceiling)) | Determines whether the IGenericCollection contains a specific value. |
 | [containsItem](containsitem)([AlphaInverse](../alphainverse)) | Determines whether the IGenericCollection contains a specific value. |
+| [containsItem](containsitem)([AlphaCeiling](../alphaceiling)) | Determines whether the IGenericCollection contains a specific value. |
 | [containsItem](containsitem)([OuterShadow](../outershadow)) | Determines whether the IGenericCollection contains a specific value. |
 | [containsItem](containsitem)([Blur](../blur)) | Determines whether the IGenericCollection contains a specific value. |
 | [containsItem](containsitem)([PresetShadow](../presetshadow)) | Determines whether the IGenericCollection contains a specific value. |
 | [containsItem](containsitem)([AlphaReplace](../alphareplace)) | Determines whether the IGenericCollection contains a specific value. |
-| [containsItem](containsitem)([ColorReplace](../colorreplace)) | Determines whether the IGenericCollection contains a specific value. |
 | [containsItem](containsitem)([BiLevel](../bilevel)) | Determines whether the IGenericCollection contains a specific value. |
+| [containsItem](containsitem)([ColorReplace](../colorreplace)) | Determines whether the IGenericCollection contains a specific value. |
 | [containsItem](containsitem)([Tint](../tint)) | Determines whether the IGenericCollection contains a specific value. |
 | [containsItem](containsitem)([FillOverlay](../filloverlay)) | Determines whether the IGenericCollection contains a specific value. |
 | [copyToTArray](copytotarray)(com.aspose.slides.IImageTransformOperation[], int) | Copies the elements of the IGenericCollection to an Array, starting at a particular Array index. |
@@ -94,19 +94,19 @@ url: /php-java/imagetransformoperationcollection/
 | [removeItem](removeitem)([AlphaModulate](../alphamodulate)) | Removes the first occurrence of a specific object from the IGenericCollection. |
 | [removeItem](removeitem)([Reflection](../reflection)) | Removes the first occurrence of a specific object from the IGenericCollection. |
 | [removeItem](removeitem)([Glow](../glow)) | Removes the first occurrence of a specific object from the IGenericCollection. |
-| [removeItem](removeitem)([AlphaModulateFixed](../alphamodulatefixed)) | Removes the first occurrence of a specific object from the IGenericCollection. |
 | [removeItem](removeitem)([AlphaFloor](../alphafloor)) | Removes the first occurrence of a specific object from the IGenericCollection. |
+| [removeItem](removeitem)([AlphaModulateFixed](../alphamodulatefixed)) | Removes the first occurrence of a specific object from the IGenericCollection. |
 | [removeItem](removeitem)([GrayScale](../grayscale)) | Removes the first occurrence of a specific object from the IGenericCollection. |
 | [removeItem](removeitem)([Duotone](../duotone)) | Removes the first occurrence of a specific object from the IGenericCollection. |
 | [removeItem](removeitem)([Luminance](../luminance)) | Removes the first occurrence of a specific object from the IGenericCollection. |
-| [removeItem](removeitem)([AlphaCeiling](../alphaceiling)) | Removes the first occurrence of a specific object from the IGenericCollection. |
 | [removeItem](removeitem)([AlphaInverse](../alphainverse)) | Removes the first occurrence of a specific object from the IGenericCollection. |
+| [removeItem](removeitem)([AlphaCeiling](../alphaceiling)) | Removes the first occurrence of a specific object from the IGenericCollection. |
 | [removeItem](removeitem)([OuterShadow](../outershadow)) | Removes the first occurrence of a specific object from the IGenericCollection. |
 | [removeItem](removeitem)([Blur](../blur)) | Removes the first occurrence of a specific object from the IGenericCollection. |
 | [removeItem](removeitem)([PresetShadow](../presetshadow)) | Removes the first occurrence of a specific object from the IGenericCollection. |
 | [removeItem](removeitem)([AlphaReplace](../alphareplace)) | Removes the first occurrence of a specific object from the IGenericCollection. |
-| [removeItem](removeitem)([ColorReplace](../colorreplace)) | Removes the first occurrence of a specific object from the IGenericCollection. |
 | [removeItem](removeitem)([BiLevel](../bilevel)) | Removes the first occurrence of a specific object from the IGenericCollection. |
+| [removeItem](removeitem)([ColorReplace](../colorreplace)) | Removes the first occurrence of a specific object from the IGenericCollection. |
 | [removeItem](removeitem)([Tint](../tint)) | Removes the first occurrence of a specific object from the IGenericCollection. |
 | [removeItem](removeitem)([FillOverlay](../filloverlay)) | Removes the first occurrence of a specific object from the IGenericCollection. |
 | [size](size)() | Returns the number of image effects in a collection. Read-only int. |

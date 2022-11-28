@@ -3,7 +3,7 @@ title: ISection
 second_title: Aspose.Slides for Java API Reference
 description: Represents section of slides.
 type: docs
-weight: 1006
+weight: 1010
 url: /java/com.aspose.slides/isection/
 ---```
 public interface ISection

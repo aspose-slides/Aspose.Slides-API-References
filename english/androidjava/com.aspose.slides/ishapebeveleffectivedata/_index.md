@@ -3,7 +3,7 @@ title: IShapeBevelEffectiveData
 second_title: Aspose.Slides for Android via Java API Reference
 description: Immutable object which contains effective shapes face relief properties.
 type: docs
-weight: 1015
+weight: 1019
 url: /androidjava/com.aspose.slides/ishapebeveleffectivedata/
 ---```
 public interface IShapeBevelEffectiveData

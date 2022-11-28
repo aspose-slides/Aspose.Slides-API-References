@@ -3,7 +3,7 @@ title: License
 second_title: Aspose.Slides for Android via Java API Reference
 description: Provides methods to license the component.
 type: docs
-weight: 272
+weight: 273
 url: /androidjava/com.aspose.slides/license/
 ---
 **Inheritance:**

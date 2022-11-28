@@ -3,7 +3,7 @@ title: Input
 second_title: Aspose.Slides for Java API Reference
 description: Represents a collection of input elements templates for IWebDocument.
 type: docs
-weight: 256
+weight: 257
 url: /java/com.aspose.slides/input/
 ---
 **Inheritance:**

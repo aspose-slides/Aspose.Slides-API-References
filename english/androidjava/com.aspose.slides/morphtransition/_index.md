@@ -3,7 +3,7 @@ title: MorphTransition
 second_title: Aspose.Slides for Android via Java API Reference
 description: Ripple slide transition effect.
 type: docs
-weight: 363
+weight: 364
 url: /androidjava/com.aspose.slides/morphtransition/
 ---
 **Inheritance:**

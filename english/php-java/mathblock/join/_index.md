@@ -182,31 +182,6 @@ Example:
 ---
 
 
-## join([MathAccent](../../mathaccent) mathElement)  method
-
- Joins a mathematical element with this mathematical block
- 
-Example:
- 
-```php
-  $element1 = new MathematicalText("x");
-  $element2 = new MathematicalText("y");
-  $block = $element1->join($element2);
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| mathElement | [MathAccent](../../mathaccent) | The element to be joined |
-
-### Returns
-[MathBlock](../../mathblock)
-
-
----
-
-
 ## join([MathNaryOperator](../../mathnaryoperator) mathElement)  method
 
  Joins a mathematical element with this mathematical block
@@ -224,6 +199,31 @@ Example:
 | Name | Type | Description |
 | --- | --- | --- |
 | mathElement | [MathNaryOperator](../../mathnaryoperator) | The element to be joined |
+
+### Returns
+[MathBlock](../../mathblock)
+
+
+---
+
+
+## join([MathAccent](../../mathaccent) mathElement)  method
+
+ Joins a mathematical element with this mathematical block
+ 
+Example:
+ 
+```php
+  $element1 = new MathematicalText("x");
+  $element2 = new MathematicalText("y");
+  $block = $element1->join($element2);
+```
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| mathElement | [MathAccent](../../mathaccent) | The element to be joined |
 
 ### Returns
 [MathBlock](../../mathblock)
@@ -307,31 +307,6 @@ Example:
 ---
 
 
-## join([MathFunction](../../mathfunction) mathElement)  method
-
- Joins a mathematical element with this mathematical block
- 
-Example:
- 
-```php
-  $element1 = new MathematicalText("x");
-  $element2 = new MathematicalText("y");
-  $block = $element1->join($element2);
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| mathElement | [MathFunction](../../mathfunction) | The element to be joined |
-
-### Returns
-[MathBlock](../../mathblock)
-
-
----
-
-
 ## join([MathSubscriptElement](../../mathsubscriptelement) mathElement)  method
 
  Joins a mathematical element with this mathematical block
@@ -349,6 +324,31 @@ Example:
 | Name | Type | Description |
 | --- | --- | --- |
 | mathElement | [MathSubscriptElement](../../mathsubscriptelement) | The element to be joined |
+
+### Returns
+[MathBlock](../../mathblock)
+
+
+---
+
+
+## join([MathFunction](../../mathfunction) mathElement)  method
+
+ Joins a mathematical element with this mathematical block
+ 
+Example:
+ 
+```php
+  $element1 = new MathematicalText("x");
+  $element2 = new MathematicalText("y");
+  $block = $element1->join($element2);
+```
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| mathElement | [MathFunction](../../mathfunction) | The element to be joined |
 
 ### Returns
 [MathBlock](../../mathblock)
@@ -382,31 +382,6 @@ Example:
 ---
 
 
-## join([MathFraction](../../mathfraction) mathElement)  method
-
- Joins a mathematical element with this mathematical block
- 
-Example:
- 
-```php
-  $element1 = new MathematicalText("x");
-  $element2 = new MathematicalText("y");
-  $block = $element1->join($element2);
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| mathElement | [MathFraction](../../mathfraction) | The element to be joined |
-
-### Returns
-[MathBlock](../../mathblock)
-
-
----
-
-
 ## join([MathematicalText](../../mathematicaltext) mathElement)  method
 
  Joins a mathematical element with this mathematical block
@@ -424,6 +399,31 @@ Example:
 | Name | Type | Description |
 | --- | --- | --- |
 | mathElement | [MathematicalText](../../mathematicaltext) | The element to be joined |
+
+### Returns
+[MathBlock](../../mathblock)
+
+
+---
+
+
+## join([MathFraction](../../mathfraction) mathElement)  method
+
+ Joins a mathematical element with this mathematical block
+ 
+Example:
+ 
+```php
+  $element1 = new MathematicalText("x");
+  $element2 = new MathematicalText("y");
+  $block = $element1->join($element2);
+```
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| mathElement | [MathFraction](../../mathfraction) | The element to be joined |
 
 ### Returns
 [MathBlock](../../mathblock)

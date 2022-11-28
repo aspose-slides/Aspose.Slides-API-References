@@ -3,7 +3,7 @@ title: IBiLevel
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents base IImageTransformOperation interface.
 type: docs
-weight: 665
+weight: 668
 url: /androidjava/com.aspose.slides/ibilevel/
 ---
 **All Implemented Interfaces:**

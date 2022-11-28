@@ -133,24 +133,6 @@ url: /php-java/mathdelimiterfactory/createmathdelimiter/
 ---
 
 
-## createMathDelimiter([MathAccent](../../mathaccent) element)  method
-
- Create a math delimiter by applying to the element
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathAccent](../../mathaccent) | math element to apply delimiter |
-
-### Returns
-[MathDelimiter](../../mathdelimiter)
-
-
----
-
-
 ## createMathDelimiter([MathNaryOperator](../../mathnaryoperator) element)  method
 
  Create a math delimiter by applying to the element
@@ -161,6 +143,24 @@ url: /php-java/mathdelimiterfactory/createmathdelimiter/
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathNaryOperator](../../mathnaryoperator) | math element to apply delimiter |
+
+### Returns
+[MathDelimiter](../../mathdelimiter)
+
+
+---
+
+
+## createMathDelimiter([MathAccent](../../mathaccent) element)  method
+
+ Create a math delimiter by applying to the element
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathAccent](../../mathaccent) | math element to apply delimiter |
 
 ### Returns
 [MathDelimiter](../../mathdelimiter)
@@ -223,24 +223,6 @@ url: /php-java/mathdelimiterfactory/createmathdelimiter/
 ---
 
 
-## createMathDelimiter([MathFunction](../../mathfunction) element)  method
-
- Create a math delimiter by applying to the element
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathFunction](../../mathfunction) | math element to apply delimiter |
-
-### Returns
-[MathDelimiter](../../mathdelimiter)
-
-
----
-
-
 ## createMathDelimiter([MathSubscriptElement](../../mathsubscriptelement) element)  method
 
  Create a math delimiter by applying to the element
@@ -251,6 +233,24 @@ url: /php-java/mathdelimiterfactory/createmathdelimiter/
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathSubscriptElement](../../mathsubscriptelement) | math element to apply delimiter |
+
+### Returns
+[MathDelimiter](../../mathdelimiter)
+
+
+---
+
+
+## createMathDelimiter([MathFunction](../../mathfunction) element)  method
+
+ Create a math delimiter by applying to the element
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathFunction](../../mathfunction) | math element to apply delimiter |
 
 ### Returns
 [MathDelimiter](../../mathdelimiter)
@@ -277,24 +277,6 @@ url: /php-java/mathdelimiterfactory/createmathdelimiter/
 ---
 
 
-## createMathDelimiter([MathFraction](../../mathfraction) element)  method
-
- Create a math delimiter by applying to the element
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathFraction](../../mathfraction) | math element to apply delimiter |
-
-### Returns
-[MathDelimiter](../../mathdelimiter)
-
-
----
-
-
 ## createMathDelimiter([MathematicalText](../../mathematicaltext) element)  method
 
  Create a math delimiter by applying to the element
@@ -305,6 +287,24 @@ url: /php-java/mathdelimiterfactory/createmathdelimiter/
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathematicalText](../../mathematicaltext) | math element to apply delimiter |
+
+### Returns
+[MathDelimiter](../../mathdelimiter)
+
+
+---
+
+
+## createMathDelimiter([MathFraction](../../mathfraction) element)  method
+
+ Create a math delimiter by applying to the element
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathFraction](../../mathfraction) | math element to apply delimiter |
 
 ### Returns
 [MathDelimiter](../../mathdelimiter)

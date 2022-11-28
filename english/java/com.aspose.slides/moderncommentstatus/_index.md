@@ -3,7 +3,7 @@ title: ModernCommentStatus
 second_title: Aspose.Slides for Java API Reference
 description: Represents the status of a modern comment.
 type: docs
-weight: 362
+weight: 363
 url: /java/com.aspose.slides/moderncommentstatus/
 ---
 **Inheritance:**

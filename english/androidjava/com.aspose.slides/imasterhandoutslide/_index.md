@@ -3,7 +3,7 @@ title: IMasterHandoutSlide
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents master slide for handouts.
 type: docs
-weight: 865
+weight: 868
 url: /androidjava/com.aspose.slides/imasterhandoutslide/
 ---
 **All Implemented Interfaces:**

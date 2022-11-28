@@ -3,7 +3,7 @@ title: NotesSize
 second_title: Aspose.Slides for Java API Reference
 description: Represents a size of notes slide.
 type: docs
-weight: 375
+weight: 376
 url: /java/com.aspose.slides/notessize/
 ---
 **Inheritance:**

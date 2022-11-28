@@ -3,7 +3,7 @@ title: SlideSizeType
 second_title: Aspose.Slides for Java API Reference
 description: Represents the slide size preset.
 type: docs
-weight: 510
+weight: 513
 url: /java/com.aspose.slides/slidesizetype/
 ---
 **Inheritance:**

@@ -3,7 +3,7 @@ title: TextFrameFormat
 second_title: Aspose.Slides for Java API Reference
 description: Contains the TextFrames formatTextFrameFormatting properties.
 type: docs
-weight: 559
+weight: 562
 url: /java/com.aspose.slides/textframeformat/
 ---
 **Inheritance:**

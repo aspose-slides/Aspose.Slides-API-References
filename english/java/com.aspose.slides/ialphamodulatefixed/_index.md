@@ -3,7 +3,7 @@ title: IAlphaModulateFixed
 second_title: Aspose.Slides for Java API Reference
 description: Represents an Alpha Modulate Fixed effect.
 type: docs
-weight: 635
+weight: 638
 url: /java/com.aspose.slides/ialphamodulatefixed/
 ---
 **All Implemented Interfaces:**

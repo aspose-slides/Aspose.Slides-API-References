@@ -3,7 +3,7 @@ title: IPortionFactory
 second_title: Aspose.Slides for Java API Reference
 description: Allows to create test portions
 type: docs
-weight: 971
+weight: 974
 url: /java/com.aspose.slides/iportionfactory/
 ---```
 public interface IPortionFactory

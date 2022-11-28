@@ -3,7 +3,7 @@ title: Paragraph
 second_title: Aspose.Slides for Java API Reference
 description: Represents a paragraph of text.
 type: docs
-weight: 398
+weight: 399
 url: /java/com.aspose.slides/paragraph/
 ---
 **Inheritance:**

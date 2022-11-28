@@ -3,7 +3,7 @@ title: IBackground
 second_title: Aspose.Slides for Java API Reference
 description: Represents background of a slide.
 type: docs
-weight: 649
+weight: 652
 url: /java/com.aspose.slides/ibackground/
 ---
 **All Implemented Interfaces:**
@@ -22,8 +22,8 @@ Represents background of a slide.
 | [getFillFormat()](#getFillFormat--) | Returns a FillFormat for BackgroundType.OwnBackground fill. |
 | [getEffectFormat()](#getEffectFormat--) | Returns a EffectFormat for BackgroundType.OwnBackground fill. |
 | [getStyleColor()](#getStyleColor--) | Returns a ColorFormat for a BackgroundType.Themed fill. |
-| [getStyleIndex()](#getStyleIndex--) | Returns an index of BackgroundType.Themed fill in background theme collection. 0 means no fill. 1..999 - index. |
-| [setStyleIndex(int value)](#setStyleIndex-int-) | Returns an index of BackgroundType.Themed fill in background theme collection. 0 means no fill. 1..999 - index. |
+| [getStyleIndex()](#getStyleIndex--) | Returns an index of BackgroundType.Themed fill in background theme collection. |
+| [setStyleIndex(int value)](#setStyleIndex-int-) | Returns an index of BackgroundType.Themed fill in background theme collection. |
 | [getEffective()](#getEffective--) | Gets effective background data with the inheritance applied. |
 ### getType() {#getType--}
 ```

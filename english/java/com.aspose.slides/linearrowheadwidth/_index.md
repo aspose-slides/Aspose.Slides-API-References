@@ -3,7 +3,7 @@ title: LineArrowheadWidth
 second_title: Aspose.Slides for Java API Reference
 description: Represents the width of an arrowhead.
 type: docs
-weight: 279
+weight: 280
 url: /java/com.aspose.slides/linearrowheadwidth/
 ---
 **Inheritance:**

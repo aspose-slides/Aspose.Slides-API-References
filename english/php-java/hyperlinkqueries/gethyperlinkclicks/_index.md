@@ -14,7 +14,7 @@ url: /php-java/hyperlinkqueries/gethyperlinkclicks/
  
 
 ### Returns
-[BehaviorPropertyCollection](../../behaviorpropertycollection), KeyedCollection, ReadOnlyCollection, Collection, List
+[BehaviorPropertyCollection](../../behaviorpropertycollection), KeyedCollection, Collection, ReadOnlyCollection, List
 
 
 ---

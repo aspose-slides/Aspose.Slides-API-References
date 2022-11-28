@@ -3,7 +3,7 @@ title: LoadingStreamBehavior
 second_title: Aspose.Slides for Java API Reference
 description: The java.io.InputStream passed to a method is considered as a Binary Large Object BLOB see  description.
 type: docs
-weight: 291
+weight: 292
 url: /java/com.aspose.slides/loadingstreambehavior/
 ---
 **Inheritance:**
@@ -17,8 +17,8 @@ The java.io.InputStream passed to a method is considered as a Binary Large Objec
 
 | Field | Description |
 | --- | --- |
-| [ReadStreamAndRelease](#ReadStreamAndRelease) | The stream will be read to the end and then released - i.e. it will be guaranteed that this stream will not be used by [IPresentation](../../com.aspose.slides/ipresentation) instance in the future. |
-| [KeepLocked](#KeepLocked) | The stream will be locked inside the [IPresentation](../../com.aspose.slides/ipresentation) object, i.e. the ownership of the stream will be transferred. |
+| [ReadStreamAndRelease](#ReadStreamAndRelease) | The stream will be read to the end and then released - i.e. |
+| [KeepLocked](#KeepLocked) | The stream will be locked inside the [IPresentation](../../com.aspose.slides/ipresentation) object, i.e. |
 ### ReadStreamAndRelease {#ReadStreamAndRelease}
 ```
 public static final int ReadStreamAndRelease

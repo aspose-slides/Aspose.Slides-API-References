@@ -3,7 +3,7 @@ title: InOutTransition
 second_title: Aspose.Slides for Android via Java API Reference
 description: In-Out slide transition effect.
 type: docs
-weight: 253
+weight: 254
 url: /androidjava/com.aspose.slides/inouttransition/
 ---
 **Inheritance:**

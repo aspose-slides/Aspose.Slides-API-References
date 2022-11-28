@@ -3,7 +3,7 @@ title: IHyperlinkQueries
 second_title: Aspose.Slides for Java API Reference
 description: Provide easy access to contained hyperlinks.
 type: docs
-weight: 828
+weight: 831
 url: /java/com.aspose.slides/ihyperlinkqueries/
 ---```
 public interface IHyperlinkQueries

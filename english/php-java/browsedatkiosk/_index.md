@@ -17,7 +17,7 @@ url: /php-java/browsedatkiosk/
   $pres = new Presentation();
   try {
     $pres->getSlideShowSettings()->setSlideShowType(new BrowsedAtKiosk());
-    $pres->save("pres.pptx", SaveFormat.Pptx);
+    $pres->save("pres.pptx", SaveFormat::Pptx);
   } finally {
     if ($pres != null) {
       $pres->dispose();

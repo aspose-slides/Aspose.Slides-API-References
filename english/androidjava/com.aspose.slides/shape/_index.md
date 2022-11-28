@@ -3,7 +3,7 @@ title: Shape
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a shape on a slide.
 type: docs
-weight: 484
+weight: 487
 url: /androidjava/com.aspose.slides/shape/
 ---
 **Inheritance:**
@@ -24,6 +24,7 @@ Represents a shape on a slide.
 | [getPlaceholder()](#getPlaceholder--) | Returns the placeholder for a shape. |
 | [removePlaceholder()](#removePlaceholder--) | Defines that this shape isn't a placeholder. |
 | [addPlaceholder(IPlaceholder placeholderToCopyFrom)](#addPlaceholder-com.aspose.slides.IPlaceholder-) | Adds a new placeholder if there is no and sets placeholder properties to a specified one. |
+| [getBasePlaceholder()](#getBasePlaceholder--) | Returns a basic placeholder shape (shape from the layout and/or master slide that the current shape is inherited from). |
 | [getCustomData()](#getCustomData--) | Returns the shape's custom data. |
 | [getRawFrame()](#getRawFrame--) | Returns or sets the raw shape frame's properties. |
 | [setRawFrame(IShapeFrame value)](#setRawFrame-com.aspose.slides.IShapeFrame-) | Returns or sets the raw shape frame's properties. |
@@ -115,6 +116,38 @@ Adds a new placeholder if there is no and sets placeholder properties to a speci
 
 **Returns:**
 [IPlaceholder](../../com.aspose.slides/iplaceholder) - New [Placeholder](../../com.aspose.slides/placeholder)(\#getPlaceholder.getPlaceholder).
+### getBasePlaceholder() {#getBasePlaceholder--}
+```
+public final IShape getBasePlaceholder()
+```
+
+
+Returns a basic placeholder shape (shape from the layout and/or master slide that the current shape is inherited from).
+
+--------------------
+
+> ```
+> // get all (master/layout/slide) animated effects of the placeholder shape
+>  Presentation pres = new Presentation("sample.pptx");
+>  try {
+>      ISlide slide = pres.getSlides().get_Item(0);
+>      IShape shape = slide.getShapes().get_Item(0);
+>      IEffect[] shapeEffects = slide.getLayoutSlide().getTimeline().getMainSequence().getEffectsByShape(shape);
+>      IShape layoutShape = shape.getBasePlaceholder();
+>      IEffect[] layoutShapeEffects = slide.getLayoutSlide().getTimeline().getMainSequence().getEffectsByShape(layoutShape);
+>      IShape masterShape = layoutShape.getBasePlaceholder();
+>      IEffect[] masterShapeEffects = slide.getLayoutSlide().getMasterSlide().getTimeline().getMainSequence().getEffectsByShape(masterShape);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+--------------------
+
+A null is returned if the current shape is not inherited.
+
+**Returns:**
+[IShape](../../com.aspose.slides/ishape)
 ### getCustomData() {#getCustomData--}
 ```
 public final ICustomData getCustomData()

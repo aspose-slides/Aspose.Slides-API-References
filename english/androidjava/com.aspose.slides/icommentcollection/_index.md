@@ -3,7 +3,7 @@ title: ICommentCollection
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a collection of comments of one author.
 type: docs
-weight: 726
+weight: 729
 url: /androidjava/com.aspose.slides/icommentcollection/
 ---
 **All Implemented Interfaces:**

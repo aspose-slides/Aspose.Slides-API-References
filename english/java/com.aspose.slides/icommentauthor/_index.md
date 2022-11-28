@@ -3,7 +3,7 @@ title: ICommentAuthor
 second_title: Aspose.Slides for Java API Reference
 description: Represents an author of comments.
 type: docs
-weight: 724
+weight: 727
 url: /java/com.aspose.slides/icommentauthor/
 ---```
 public interface ICommentAuthor

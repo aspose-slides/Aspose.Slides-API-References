@@ -3,7 +3,7 @@ title: RippleTransition
 second_title: Aspose.Slides for Java API Reference
 description: Ripple slide transition effect.
 type: docs
-weight: 465
+weight: 468
 url: /java/com.aspose.slides/rippletransition/
 ---
 **Inheritance:**

@@ -3,7 +3,7 @@ title: IRenderingOptions
 second_title: Aspose.Slides for Android via Java API Reference
 description: Provides options that control how a presentation/slide is rendered.
 type: docs
-weight: 990
+weight: 994
 url: /androidjava/com.aspose.slides/irenderingoptions/
 ---
 **All Implemented Interfaces:**

@@ -3,7 +3,7 @@ title: MathBox
 second_title: Aspose.Slides for Android via Java API Reference
 description: Specifies the logical boxing packaging of mathematical element.
 type: docs
-weight: 316
+weight: 317
 url: /androidjava/com.aspose.slides/mathbox/
 ---
 **Inheritance:**

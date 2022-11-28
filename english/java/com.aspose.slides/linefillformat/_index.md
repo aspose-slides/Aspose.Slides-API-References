@@ -3,7 +3,7 @@ title: LineFillFormat
 second_title: Aspose.Slides for Java API Reference
 description: Represents properties for lines filling.
 type: docs
-weight: 282
+weight: 283
 url: /java/com.aspose.slides/linefillformat/
 ---
 **Inheritance:**

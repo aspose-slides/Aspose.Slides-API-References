@@ -3,7 +3,7 @@ title: ShapeThumbnailBounds
 second_title: Aspose.Slides for Android via Java API Reference
 description: Enumeration of types of shape thumbnail bounds.
 type: docs
-weight: 492
+weight: 495
 url: /androidjava/com.aspose.slides/shapethumbnailbounds/
 ---
 **Inheritance:**

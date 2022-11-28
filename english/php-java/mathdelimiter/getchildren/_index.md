@@ -13,7 +13,7 @@ url: /php-java/mathdelimiter/getchildren/
  
 
 ### Returns
-[MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement), [MathMatrix](../../mathmatrix), [MathLimit](../../mathlimit), [MathBlock](../../mathblock), [MathRadical](../../mathradical), [MathArray](../../matharray), [MathDelimiter](../../mathdelimiter), [MathAccent](../../mathaccent), [MathNaryOperator](../../mathnaryoperator), [MathGroupingCharacter](../../mathgroupingcharacter), [MathBorderBox](../../mathborderbox), [MathBar](../../mathbar), [MathFunction](../../mathfunction), [MathSubscriptElement](../../mathsubscriptelement), [MathSuperscriptElement](../../mathsuperscriptelement), [BaseScript](../../basescript), [MathFraction](../../mathfraction), [MathematicalText](../../mathematicaltext), [MathElementBase](../../mathelementbase), [MathBox](../../mathbox), [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement)
+[MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement), [MathMatrix](../../mathmatrix), [MathLimit](../../mathlimit), [MathBlock](../../mathblock), [MathRadical](../../mathradical), [MathArray](../../matharray), [MathDelimiter](../../mathdelimiter), [MathNaryOperator](../../mathnaryoperator), [MathAccent](../../mathaccent), [MathGroupingCharacter](../../mathgroupingcharacter), [MathBorderBox](../../mathborderbox), [MathBar](../../mathbar), [MathSubscriptElement](../../mathsubscriptelement), [MathFunction](../../mathfunction), [MathSuperscriptElement](../../mathsuperscriptelement), [MathematicalText](../../mathematicaltext), [MathFraction](../../mathfraction), [BaseScript](../../basescript), [MathBox](../../mathbox), [MathElementBase](../../mathelementbase), [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement)
 
 
 ---

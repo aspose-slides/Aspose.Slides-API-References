@@ -3,7 +3,7 @@ title: IBasePortionFormat
 second_title: Aspose.Slides for Java API Reference
 description: This class contains the text portion formatting properties.
 type: docs
-weight: 654
+weight: 657
 url: /java/com.aspose.slides/ibaseportionformat/
 ---```
 public interface IBasePortionFormat

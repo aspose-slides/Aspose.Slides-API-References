@@ -3,7 +3,7 @@ title: Reflection
 second_title: Aspose.Slides for Java API Reference
 description: Represents a Reflection effect.
 type: docs
-weight: 459
+weight: 462
 url: /java/com.aspose.slides/reflection/
 ---
 **Inheritance:**

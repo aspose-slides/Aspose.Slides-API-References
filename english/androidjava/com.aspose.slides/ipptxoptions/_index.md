@@ -3,7 +3,7 @@ title: IPptxOptions
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents options for saving OpenXml presentations PPTX PPSX POTX PPTM PPSM POTM.
 type: docs
-weight: 975
+weight: 978
 url: /androidjava/com.aspose.slides/ipptxoptions/
 ---
 **All Implemented Interfaces:**

@@ -3,7 +3,7 @@ title: TransitionShredPattern
 second_title: Aspose.Slides for Android via Java API Reference
 description: Specifies a geometric shape that tiles together to fill a larger area.
 type: docs
-weight: 586
+weight: 589
 url: /androidjava/com.aspose.slides/transitionshredpattern/
 ---
 **Inheritance:**

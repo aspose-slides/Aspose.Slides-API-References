@@ -3,7 +3,7 @@ title: PieSplitType
 second_title: Aspose.Slides for Java API Reference
 description: Represents a type of splitting points in the second pie or bar  on a pie-of-pie or bar-of-pie chart.
 type: docs
-weight: 421
+weight: 422
 url: /java/com.aspose.slides/piesplittype/
 ---
 **Inheritance:**

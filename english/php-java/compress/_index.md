@@ -17,7 +17,7 @@ url: /php-java/compress/
   $pres = new Presentation("pres.pptx");
   try {
     Compress->removeUnusedMasterSlides($pres);
-    $pres->save("pres-out.pptx", SaveFormat.Pptx);
+    $pres->save("pres-out.pptx", SaveFormat::Pptx);
   } finally {
     if ($pres != null) {
       $pres->dispose();
@@ -35,5 +35,6 @@ url: /php-java/compress/
 
 | Name | Description |
 | --- | --- |
+| [compressEmbeddedFonts](compressembeddedfonts)([Presentation](../presentation)) | Makes compression of the Presentation by removing unused characters from embedded fonts. |
 | [removeUnusedLayoutSlides](removeunusedlayoutslides)([Presentation](../presentation)) | Makes compression of the Presentation by removing unused layout slides. |
 | [removeUnusedMasterSlides](removeunusedmasterslides)([Presentation](../presentation)) | Makes compression of the Presentation by removing unused master slides. |

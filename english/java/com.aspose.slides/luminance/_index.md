@@ -3,7 +3,7 @@ title: Luminance
 second_title: Aspose.Slides for Java API Reference
 description: Represents a Luminance effect.
 type: docs
-weight: 292
+weight: 293
 url: /java/com.aspose.slides/luminance/
 ---
 **Inheritance:**

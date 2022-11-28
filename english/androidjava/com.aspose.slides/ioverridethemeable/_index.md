@@ -3,7 +3,7 @@ title: IOverrideThemeable
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents override theme manager.
 type: docs
-weight: 949
+weight: 952
 url: /androidjava/com.aspose.slides/ioverridethemeable/
 ---
 **All Implemented Interfaces:**

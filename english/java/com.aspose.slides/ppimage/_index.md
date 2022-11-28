@@ -3,7 +3,7 @@ title: PPImage
 second_title: Aspose.Slides for Java API Reference
 description: Represents an image in a presentation.
 type: docs
-weight: 396
+weight: 397
 url: /java/com.aspose.slides/ppimage/
 ---
 **Inheritance:**
@@ -42,7 +42,7 @@ public final byte[] getBinaryData()
 Returns the copy of an image's data. Read-only  byte[] .
 
 **Returns:**
-byte[]
+byte[] - Array of bytes
 ### getSystemImage() {#getSystemImage--}
 ```
 public final BufferedImage getSystemImage()

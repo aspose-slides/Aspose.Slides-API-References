@@ -3,7 +3,7 @@ title: TransitionMorphType
 second_title: Aspose.Slides for Java API Reference
 description: Represent a type of morph transition.
 type: docs
-weight: 584
+weight: 587
 url: /java/com.aspose.slides/transitionmorphtype/
 ---
 **Inheritance:**

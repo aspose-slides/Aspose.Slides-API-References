@@ -3,7 +3,7 @@ title: IScaleEffect
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents animation scale effect.
 type: docs
-weight: 1005
+weight: 1009
 url: /androidjava/com.aspose.slides/iscaleeffect/
 ---
 **All Implemented Interfaces:**

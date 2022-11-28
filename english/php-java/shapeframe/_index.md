@@ -44,3 +44,4 @@ url: /php-java/shapeframe/
 | [getWidth](getwidth)() | Returns the width of a frame. Read-only float. |
 | [getX](getx)() | Returns the X coordinate of the upper-left corner of a frame. Read-only float. |
 | [getY](gety)() | Returns the Y coordinate of the upper-left corner of a frame. Read-only float. |
+| [hashCode](hashcode)() |  |

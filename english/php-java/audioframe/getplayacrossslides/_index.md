@@ -24,7 +24,7 @@ url: /php-java/audioframe/getplayacrossslides/
     $audioFrame->setPlayAcrossSlides(true);
     // Set Audio to automatically rewind to start after playing
     $audioFrame->setRewindAudio(true);
-    $pres->save("AudioFrame_out.pptx", SaveFormat.Pptx);
+    $pres->save("AudioFrame_out.pptx", SaveFormat::Pptx);
   } finally {
     if ($pres != null) {
       $pres->dispose();

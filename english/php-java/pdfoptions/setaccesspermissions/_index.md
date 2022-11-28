@@ -20,7 +20,7 @@ url: /php-java/pdfoptions/setaccesspermissions/
   $pdfOptions->setAccessPermissions(PdfAccessPermissions::PrintDocument | PdfAccessPermissions::HighQualityPrint);
   $presentation = new Presentation();
   try {
-    $presentation->save($pdfFilePath, SaveFormat.Pdf, $pdfOptions);
+    $presentation->save($pdfFilePath, SaveFormat::Pdf, $pdfOptions);
   } finally {
     if ($presentation != null) {
       $presentation->dispose();

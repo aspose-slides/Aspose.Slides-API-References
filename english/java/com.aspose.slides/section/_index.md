@@ -3,7 +3,7 @@ title: Section
 second_title: Aspose.Slides for Java API Reference
 description: Represents section of slides.
 type: docs
-weight: 477
+weight: 480
 url: /java/com.aspose.slides/section/
 ---
 **Inheritance:**

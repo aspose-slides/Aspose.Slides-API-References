@@ -3,7 +3,7 @@ title: IObsoletePresLockingBehaviorWarningInfo
 second_title: Aspose.Slides for Android via Java API Reference
 description: This warning indicates that an obsolete presentation locking behavior is used.
 type: docs
-weight: 937
+weight: 940
 url: /androidjava/com.aspose.slides/iobsoletepreslockingbehaviorwarninginfo/
 ---
 **All Implemented Interfaces:**

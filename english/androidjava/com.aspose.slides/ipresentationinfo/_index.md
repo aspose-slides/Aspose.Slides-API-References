@@ -3,7 +3,7 @@ title: IPresentationInfo
 second_title: Aspose.Slides for Android via Java API Reference
 description: Information about presentation file
 type: docs
-weight: 980
+weight: 984
 url: /androidjava/com.aspose.slides/ipresentationinfo/
 ---```
 public interface IPresentationInfo

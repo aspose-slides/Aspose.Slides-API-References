@@ -3,7 +3,7 @@ title: MathFunctionsOfOneArgument
 second_title: Aspose.Slides for Android via Java API Reference
 description: Common mathematical functions of one argument
 type: docs
-weight: 327
+weight: 328
 url: /androidjava/com.aspose.slides/mathfunctionsofoneargument/
 ---
 **Inheritance:**

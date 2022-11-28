@@ -7,18 +7,6 @@ weight: 160
 url: /php-java/sequence/removebyshape/
 ---
 
-## removeByShape([Connector](../../connector) shape)  method
-
- Remove effect for the specified shape.
- 
-
-### Returns
-void
-
-
----
-
-
 ## removeByShape([GraphicalObject](../../graphicalobject) shape)  method
 
  Remove effect for the specified shape.
@@ -31,7 +19,7 @@ void
 ---
 
 
-## removeByShape([SmartArtShape](../../smartartshape) shape)  method
+## removeByShape([Connector](../../connector) shape)  method
 
  Remove effect for the specified shape.
  
@@ -44,6 +32,18 @@ void
 
 
 ## removeByShape([Table](../../table) shape)  method
+
+ Remove effect for the specified shape.
+ 
+
+### Returns
+void
+
+
+---
+
+
+## removeByShape([SmartArtShape](../../smartartshape) shape)  method
 
  Remove effect for the specified shape.
  
@@ -91,7 +91,7 @@ void
 ---
 
 
-## removeByShape([SummaryZoomSection](../../summaryzoomsection) shape)  method
+## removeByShape([ZoomFrame](../../zoomframe) shape)  method
 
  Remove effect for the specified shape.
  
@@ -103,7 +103,7 @@ void
 ---
 
 
-## removeByShape([ZoomFrame](../../zoomframe) shape)  method
+## removeByShape([SummaryZoomSection](../../summaryzoomsection) shape)  method
 
  Remove effect for the specified shape.
  
@@ -175,18 +175,6 @@ void
 ---
 
 
-## removeByShape([SectionZoomFrame](../../sectionzoomframe) shape)  method
-
- Remove effect for the specified shape.
- 
-
-### Returns
-void
-
-
----
-
-
 ## removeByShape([PictureFrame](../../pictureframe) shape)  method
 
  Remove effect for the specified shape.
@@ -199,7 +187,7 @@ void
 ---
 
 
-## removeByShape([AudioFrame](../../audioframe) shape)  method
+## removeByShape([SectionZoomFrame](../../sectionzoomframe) shape)  method
 
  Remove effect for the specified shape.
  
@@ -223,7 +211,7 @@ void
 ---
 
 
-## removeByShape([ZoomObject](../../zoomobject) shape)  method
+## removeByShape([AudioFrame](../../audioframe) shape)  method
 
  Remove effect for the specified shape.
  
@@ -236,6 +224,18 @@ void
 
 
 ## removeByShape([LegacyDiagram](../../legacydiagram) shape)  method
+
+ Remove effect for the specified shape.
+ 
+
+### Returns
+void
+
+
+---
+
+
+## removeByShape([ZoomObject](../../zoomobject) shape)  method
 
  Remove effect for the specified shape.
  

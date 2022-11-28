@@ -3,7 +3,7 @@ title: IFontFallBackRule
 second_title: Aspose.Slides for Java API Reference
 description: Represents font fallback rule
 type: docs
-weight: 780
+weight: 783
 url: /java/com.aspose.slides/ifontfallbackrule/
 ---```
 public interface IFontFallBackRule

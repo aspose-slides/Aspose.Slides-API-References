@@ -3,7 +3,7 @@ title: MarkerStyleType
 second_title: Aspose.Slides for Java API Reference
 description: Determines form of marker on charts data point.
 type: docs
-weight: 294
+weight: 295
 url: /java/com.aspose.slides/markerstyletype/
 ---
 **Inheritance:**

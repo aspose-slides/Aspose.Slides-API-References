@@ -3,7 +3,7 @@ title: PathCommandType
 second_title: Aspose.Slides for Java API Reference
 description: Represents graphics path commands
 type: docs
-weight: 403
+weight: 404
 url: /java/com.aspose.slides/pathcommandtype/
 ---
 **Inheritance:**

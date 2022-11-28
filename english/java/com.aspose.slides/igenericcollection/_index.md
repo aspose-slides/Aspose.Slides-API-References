@@ -3,7 +3,7 @@ title: IGenericCollection
 second_title: Aspose.Slides for Java API Reference
 description: Auxiliary generic collection interface.
 type: docs
-weight: 797
+weight: 800
 url: /java/com.aspose.slides/igenericcollection/
 ---
 **All Implemented Interfaces:**

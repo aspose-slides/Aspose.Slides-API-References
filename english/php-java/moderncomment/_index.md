@@ -18,7 +18,7 @@ url: /php-java/moderncomment/
   try {
     $newAuthor = $pres->getCommentAuthors()->addAuthor("Some Author", "SA");
     $newAuthor->getComments()->addModernComment("This is modern comment", $pres->getSlides()->get_Item(0), null, new Point2D.Float(100, 100), new Date());
-    $pres->save($outPptxFileName, SaveFormat.Pptx);
+    $pres->save($outPptxFileName, SaveFormat::Pptx);
   } finally {
     if ($pres != null) {
       $pres->dispose();

@@ -3,7 +3,7 @@ title: IMathSubscriptElementFactory
 second_title: Aspose.Slides for Java API Reference
 description: Allows to create IMathSubscriptElement
 type: docs
-weight: 917
+weight: 920
 url: /java/com.aspose.slides/imathsubscriptelementfactory/
 ---```
 public interface IMathSubscriptElementFactory

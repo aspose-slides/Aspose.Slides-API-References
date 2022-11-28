@@ -7,20 +7,6 @@ weight: 170
 url: /php-java/sequence/settriggershape/
 ---
 
-## setTriggerShape([Connector](../../connector) value)  method
-
- Returns or sets shape target for INTERACTIVE sequence.
- If sequence is not interactive then returns null.
- Read/write  IShape.
- 
-
-### Returns
-void
-
-
----
-
-
 ## setTriggerShape([GraphicalObject](../../graphicalobject) value)  method
 
  Returns or sets shape target for INTERACTIVE sequence.
@@ -35,7 +21,7 @@ void
 ---
 
 
-## setTriggerShape([SmartArtShape](../../smartartshape) value)  method
+## setTriggerShape([Connector](../../connector) value)  method
 
  Returns or sets shape target for INTERACTIVE sequence.
  If sequence is not interactive then returns null.
@@ -50,6 +36,20 @@ void
 
 
 ## setTriggerShape([Table](../../table) value)  method
+
+ Returns or sets shape target for INTERACTIVE sequence.
+ If sequence is not interactive then returns null.
+ Read/write  IShape.
+ 
+
+### Returns
+void
+
+
+---
+
+
+## setTriggerShape([SmartArtShape](../../smartartshape) value)  method
 
  Returns or sets shape target for INTERACTIVE sequence.
  If sequence is not interactive then returns null.
@@ -105,7 +105,7 @@ void
 ---
 
 
-## setTriggerShape([SummaryZoomSection](../../summaryzoomsection) value)  method
+## setTriggerShape([ZoomFrame](../../zoomframe) value)  method
 
  Returns or sets shape target for INTERACTIVE sequence.
  If sequence is not interactive then returns null.
@@ -119,7 +119,7 @@ void
 ---
 
 
-## setTriggerShape([ZoomFrame](../../zoomframe) value)  method
+## setTriggerShape([SummaryZoomSection](../../summaryzoomsection) value)  method
 
  Returns or sets shape target for INTERACTIVE sequence.
  If sequence is not interactive then returns null.
@@ -203,20 +203,6 @@ void
 ---
 
 
-## setTriggerShape([SectionZoomFrame](../../sectionzoomframe) value)  method
-
- Returns or sets shape target for INTERACTIVE sequence.
- If sequence is not interactive then returns null.
- Read/write  IShape.
- 
-
-### Returns
-void
-
-
----
-
-
 ## setTriggerShape([PictureFrame](../../pictureframe) value)  method
 
  Returns or sets shape target for INTERACTIVE sequence.
@@ -231,7 +217,7 @@ void
 ---
 
 
-## setTriggerShape([AudioFrame](../../audioframe) value)  method
+## setTriggerShape([SectionZoomFrame](../../sectionzoomframe) value)  method
 
  Returns or sets shape target for INTERACTIVE sequence.
  If sequence is not interactive then returns null.
@@ -259,7 +245,7 @@ void
 ---
 
 
-## setTriggerShape([ZoomObject](../../zoomobject) value)  method
+## setTriggerShape([AudioFrame](../../audioframe) value)  method
 
  Returns or sets shape target for INTERACTIVE sequence.
  If sequence is not interactive then returns null.
@@ -274,6 +260,20 @@ void
 
 
 ## setTriggerShape([LegacyDiagram](../../legacydiagram) value)  method
+
+ Returns or sets shape target for INTERACTIVE sequence.
+ If sequence is not interactive then returns null.
+ Read/write  IShape.
+ 
+
+### Returns
+void
+
+
+---
+
+
+## setTriggerShape([ZoomObject](../../zoomobject) value)  method
 
  Returns or sets shape target for INTERACTIVE sequence.
  If sequence is not interactive then returns null.

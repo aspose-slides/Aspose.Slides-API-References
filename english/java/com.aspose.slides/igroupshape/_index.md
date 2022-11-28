@@ -3,7 +3,7 @@ title: IGroupShape
 second_title: Aspose.Slides for Java API Reference
 description: Represents a group of shapes on a slide.
 type: docs
-weight: 815
+weight: 818
 url: /java/com.aspose.slides/igroupshape/
 ---
 **All Implemented Interfaces:**

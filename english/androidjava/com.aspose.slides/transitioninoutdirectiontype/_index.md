@@ -3,7 +3,7 @@ title: TransitionInOutDirectionType
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represent in or out direction transition types.
 type: docs
-weight: 582
+weight: 585
 url: /androidjava/com.aspose.slides/transitioninoutdirectiontype/
 ---
 **Inheritance:**

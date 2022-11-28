@@ -3,7 +3,7 @@ title: IFontData
 second_title: Aspose.Slides for Java API Reference
 description: Represents a font definition.
 type: docs
-weight: 778
+weight: 781
 url: /java/com.aspose.slides/ifontdata/
 ---```
 public interface IFontData

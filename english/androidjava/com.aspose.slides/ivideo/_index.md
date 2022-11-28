@@ -3,7 +3,7 @@ title: IVideo
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a video embedded into a presentation.
 type: docs
-weight: 1097
+weight: 1101
 url: /androidjava/com.aspose.slides/ivideo/
 ---```
 public interface IVideo

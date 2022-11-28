@@ -3,7 +3,7 @@ title: GradientDirection
 second_title: Aspose.Slides for Java API Reference
 description: Represents the gradient style.
 type: docs
-weight: 224
+weight: 225
 url: /java/com.aspose.slides/gradientdirection/
 ---
 **Inheritance:**

@@ -3,7 +3,7 @@ title: ShapeFrame
 second_title: Aspose.Slides for Java API Reference
 description: Represents shape frames properties.
 type: docs
-weight: 490
+weight: 493
 url: /java/com.aspose.slides/shapeframe/
 ---
 **Inheritance:**

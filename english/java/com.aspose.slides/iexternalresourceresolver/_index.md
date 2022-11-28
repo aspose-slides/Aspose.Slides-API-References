@@ -3,7 +3,7 @@ title: IExternalResourceResolver
 second_title: Aspose.Slides for Java API Reference
 description: Callback interface used to resolve external resources during Html Svg documents import.
 type: docs
-weight: 764
+weight: 767
 url: /java/com.aspose.slides/iexternalresourceresolver/
 ---```
 public interface IExternalResourceResolver

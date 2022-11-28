@@ -3,7 +3,7 @@ title: MasterHandoutSlide
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents master slide for handouts.
 type: docs
-weight: 295
+weight: 296
 url: /androidjava/com.aspose.slides/masterhandoutslide/
 ---
 **Inheritance:**

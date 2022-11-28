@@ -145,24 +145,6 @@ url: /php-java/mathblockfactory/createmathblock/
 ---
 
 
-## createMathBlock([MathAccent](../../mathaccent) mathElement)  method
-
- Create a math block and place the element in it
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| mathElement | [MathAccent](../../mathaccent) | A math element |
-
-### Returns
-[MathBlock](../../mathblock)
-
-
----
-
-
 ## createMathBlock([MathNaryOperator](../../mathnaryoperator) mathElement)  method
 
  Create a math block and place the element in it
@@ -173,6 +155,24 @@ url: /php-java/mathblockfactory/createmathblock/
 | Name | Type | Description |
 | --- | --- | --- |
 | mathElement | [MathNaryOperator](../../mathnaryoperator) | A math element |
+
+### Returns
+[MathBlock](../../mathblock)
+
+
+---
+
+
+## createMathBlock([MathAccent](../../mathaccent) mathElement)  method
+
+ Create a math block and place the element in it
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| mathElement | [MathAccent](../../mathaccent) | A math element |
 
 ### Returns
 [MathBlock](../../mathblock)
@@ -235,24 +235,6 @@ url: /php-java/mathblockfactory/createmathblock/
 ---
 
 
-## createMathBlock([MathFunction](../../mathfunction) mathElement)  method
-
- Create a math block and place the element in it
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| mathElement | [MathFunction](../../mathfunction) | A math element |
-
-### Returns
-[MathBlock](../../mathblock)
-
-
----
-
-
 ## createMathBlock([MathSubscriptElement](../../mathsubscriptelement) mathElement)  method
 
  Create a math block and place the element in it
@@ -263,6 +245,24 @@ url: /php-java/mathblockfactory/createmathblock/
 | Name | Type | Description |
 | --- | --- | --- |
 | mathElement | [MathSubscriptElement](../../mathsubscriptelement) | A math element |
+
+### Returns
+[MathBlock](../../mathblock)
+
+
+---
+
+
+## createMathBlock([MathFunction](../../mathfunction) mathElement)  method
+
+ Create a math block and place the element in it
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| mathElement | [MathFunction](../../mathfunction) | A math element |
 
 ### Returns
 [MathBlock](../../mathblock)
@@ -289,24 +289,6 @@ url: /php-java/mathblockfactory/createmathblock/
 ---
 
 
-## createMathBlock([MathFraction](../../mathfraction) mathElement)  method
-
- Create a math block and place the element in it
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| mathElement | [MathFraction](../../mathfraction) | A math element |
-
-### Returns
-[MathBlock](../../mathblock)
-
-
----
-
-
 ## createMathBlock([MathematicalText](../../mathematicaltext) mathElement)  method
 
  Create a math block and place the element in it
@@ -317,6 +299,24 @@ url: /php-java/mathblockfactory/createmathblock/
 | Name | Type | Description |
 | --- | --- | --- |
 | mathElement | [MathematicalText](../../mathematicaltext) | A math element |
+
+### Returns
+[MathBlock](../../mathblock)
+
+
+---
+
+
+## createMathBlock([MathFraction](../../mathfraction) mathElement)  method
+
+ Create a math block and place the element in it
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| mathElement | [MathFraction](../../mathfraction) | A math element |
 
 ### Returns
 [MathBlock](../../mathblock)

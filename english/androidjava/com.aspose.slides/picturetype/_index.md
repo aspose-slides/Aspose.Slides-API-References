@@ -3,7 +3,7 @@ title: PictureType
 second_title: Aspose.Slides for Android via Java API Reference
 description: Determines mode of bar picture filling.
 type: docs
-weight: 418
+weight: 419
 url: /androidjava/com.aspose.slides/picturetype/
 ---
 **Inheritance:**

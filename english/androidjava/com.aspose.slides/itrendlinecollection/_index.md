@@ -3,7 +3,7 @@ title: ITrendlineCollection
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a collection of TrendlineEx
 type: docs
-weight: 1085
+weight: 1089
 url: /androidjava/com.aspose.slides/itrendlinecollection/
 ---
 **All Implemented Interfaces:**

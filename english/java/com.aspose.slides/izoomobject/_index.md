@@ -3,7 +3,7 @@ title: IZoomObject
 second_title: Aspose.Slides for Java API Reference
 description: Represents a Zoom object in a slide.
 type: docs
-weight: 1110
+weight: 1114
 url: /java/com.aspose.slides/izoomobject/
 ---
 **All Implemented Interfaces:**

@@ -3,7 +3,7 @@ title: IChartSeriesGroup
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents group of series.
 type: docs
-weight: 700
+weight: 703
 url: /androidjava/com.aspose.slides/ichartseriesgroup/
 ---
 **All Implemented Interfaces:**

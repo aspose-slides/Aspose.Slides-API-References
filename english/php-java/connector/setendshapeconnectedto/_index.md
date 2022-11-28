@@ -7,25 +7,6 @@ weight: 90
 url: /php-java/connector/setendshapeconnectedto/
 ---
 
-## setEndShapeConnectedTo([Connector](../../connector) value)  method
-
- Returns or sets the shape to attach the end of the connector to.
- Read/write  IShape.
- 
-
-### Returns
-void
-
-### Exception
-
-| Exception | Condition |
-| --- | --- |
- | ArgumentException | Thrown when connected shape doesn't has any connection sites (IShape.ConnectionSiteCount equals zero) |
-
-
----
-
-
 ## setEndShapeConnectedTo([GraphicalObject](../../graphicalobject) value)  method
 
  Returns or sets the shape to attach the end of the connector to.
@@ -45,7 +26,7 @@ void
 ---
 
 
-## setEndShapeConnectedTo([SmartArtShape](../../smartartshape) value)  method
+## setEndShapeConnectedTo([Connector](../../connector) value)  method
 
  Returns or sets the shape to attach the end of the connector to.
  Read/write  IShape.
@@ -65,6 +46,25 @@ void
 
 
 ## setEndShapeConnectedTo([Table](../../table) value)  method
+
+ Returns or sets the shape to attach the end of the connector to.
+ Read/write  IShape.
+ 
+
+### Returns
+void
+
+### Exception
+
+| Exception | Condition |
+| --- | --- |
+ | ArgumentException | Thrown when connected shape doesn't has any connection sites (IShape.ConnectionSiteCount equals zero) |
+
+
+---
+
+
+## setEndShapeConnectedTo([SmartArtShape](../../smartartshape) value)  method
 
  Returns or sets the shape to attach the end of the connector to.
  Read/write  IShape.
@@ -140,7 +140,7 @@ void
 ---
 
 
-## setEndShapeConnectedTo([SummaryZoomSection](../../summaryzoomsection) value)  method
+## setEndShapeConnectedTo([ZoomFrame](../../zoomframe) value)  method
 
  Returns or sets the shape to attach the end of the connector to.
  Read/write  IShape.
@@ -159,7 +159,7 @@ void
 ---
 
 
-## setEndShapeConnectedTo([ZoomFrame](../../zoomframe) value)  method
+## setEndShapeConnectedTo([SummaryZoomSection](../../summaryzoomsection) value)  method
 
  Returns or sets the shape to attach the end of the connector to.
  Read/write  IShape.
@@ -273,25 +273,6 @@ void
 ---
 
 
-## setEndShapeConnectedTo([SectionZoomFrame](../../sectionzoomframe) value)  method
-
- Returns or sets the shape to attach the end of the connector to.
- Read/write  IShape.
- 
-
-### Returns
-void
-
-### Exception
-
-| Exception | Condition |
-| --- | --- |
- | ArgumentException | Thrown when connected shape doesn't has any connection sites (IShape.ConnectionSiteCount equals zero) |
-
-
----
-
-
 ## setEndShapeConnectedTo([PictureFrame](../../pictureframe) value)  method
 
  Returns or sets the shape to attach the end of the connector to.
@@ -311,7 +292,7 @@ void
 ---
 
 
-## setEndShapeConnectedTo([AudioFrame](../../audioframe) value)  method
+## setEndShapeConnectedTo([SectionZoomFrame](../../sectionzoomframe) value)  method
 
  Returns or sets the shape to attach the end of the connector to.
  Read/write  IShape.
@@ -349,7 +330,7 @@ void
 ---
 
 
-## setEndShapeConnectedTo([ZoomObject](../../zoomobject) value)  method
+## setEndShapeConnectedTo([AudioFrame](../../audioframe) value)  method
 
  Returns or sets the shape to attach the end of the connector to.
  Read/write  IShape.
@@ -369,6 +350,25 @@ void
 
 
 ## setEndShapeConnectedTo([LegacyDiagram](../../legacydiagram) value)  method
+
+ Returns or sets the shape to attach the end of the connector to.
+ Read/write  IShape.
+ 
+
+### Returns
+void
+
+### Exception
+
+| Exception | Condition |
+| --- | --- |
+ | ArgumentException | Thrown when connected shape doesn't has any connection sites (IShape.ConnectionSiteCount equals zero) |
+
+
+---
+
+
+## setEndShapeConnectedTo([ZoomObject](../../zoomobject) value)  method
 
  Returns or sets the shape to attach the end of the connector to.
  Read/write  IShape.

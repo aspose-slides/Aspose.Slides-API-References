@@ -3,7 +3,7 @@ title: IMathBox
 second_title: Aspose.Slides for Java API Reference
 description: Specifies the logical boxing packaging of mathematical element.
 type: docs
-weight: 889
+weight: 892
 url: /java/com.aspose.slides/imathbox/
 ---
 **All Implemented Interfaces:**

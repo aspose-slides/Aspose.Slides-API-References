@@ -3,7 +3,7 @@ title: IMathFraction
 second_title: Aspose.Slides for Java API Reference
 description: Specifies the fraction object consisting of a numerator and denominator separated by a fraction bar.
 type: docs
-weight: 895
+weight: 898
 url: /java/com.aspose.slides/imathfraction/
 ---
 **All Implemented Interfaces:**

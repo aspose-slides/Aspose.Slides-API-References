@@ -3,7 +3,7 @@ title: setDisableLineEndCropping
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 190
+weight: 210
 url: /php-java/svgoptions/setdisablelineendcropping/
 ---
 

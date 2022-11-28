@@ -3,7 +3,7 @@ title: PdfAccessPermissions
 second_title: Aspose.Slides for Android via Java API Reference
 description: Contains a set of flags specifying which access permissions should be granted when the document is opened with  user access.
 type: docs
-weight: 408
+weight: 409
 url: /androidjava/com.aspose.slides/pdfaccesspermissions/
 ---
 **Inheritance:**

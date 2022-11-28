@@ -7,42 +7,6 @@ weight: 20
 url: /php-java/commentcollection/addmoderncomment/
 ---
 
-## addModernComment(String text, [Slide](../../slide) slide, [Connector](../../connector) shape, Point2D.Float position, Date creationTime)  method
-
- Add new modern comment at the end of a collection.
- 
-
- 
-```php
-  $pres = new Presentation();
-  try {
-    $newAuthor = $pres->getCommentAuthors()->addAuthor("Some Author", "SA");
-    $newAuthor->getComments()->addModernComment("This is modern comment", $pres->getSlides()->get_Item(0), null, new Point2D.Float(100, 100), new Date());
-    $pres->save($outPptxFileName, SaveFormat.Pptx);
-  } finally {
-    if ($pres != null) {
-      $pres->dispose();
-    }
-  }
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| text | String | Plain text of a new modern comment. |
-| slide | [Slide](../slide) | Slide in a presentation where to add a new modern comment. |
-| shape | [Connector](../connector) | Shape on a slide to which a new modern comment is associated. |
-| position | Point2D.Float | Position on a slide where to add a new modern comment. |
-| creationTime | Date | Time of a modern comment creation. |
-
-### Returns
-[ModernComment](../../moderncomment)
-
-
----
-
-
 ## addModernComment(String text, [Slide](../../slide) slide, [GraphicalObject](../../graphicalobject) shape, Point2D.Float position, Date creationTime)  method
 
  Add new modern comment at the end of a collection.
@@ -54,7 +18,7 @@ url: /php-java/commentcollection/addmoderncomment/
   try {
     $newAuthor = $pres->getCommentAuthors()->addAuthor("Some Author", "SA");
     $newAuthor->getComments()->addModernComment("This is modern comment", $pres->getSlides()->get_Item(0), null, new Point2D.Float(100, 100), new Date());
-    $pres->save($outPptxFileName, SaveFormat.Pptx);
+    $pres->save($outPptxFileName, SaveFormat::Pptx);
   } finally {
     if ($pres != null) {
       $pres->dispose();
@@ -79,7 +43,7 @@ url: /php-java/commentcollection/addmoderncomment/
 ---
 
 
-## addModernComment(String text, [Slide](../../slide) slide, [SmartArtShape](../../smartartshape) shape, Point2D.Float position, Date creationTime)  method
+## addModernComment(String text, [Slide](../../slide) slide, [Connector](../../connector) shape, Point2D.Float position, Date creationTime)  method
 
  Add new modern comment at the end of a collection.
  
@@ -90,7 +54,7 @@ url: /php-java/commentcollection/addmoderncomment/
   try {
     $newAuthor = $pres->getCommentAuthors()->addAuthor("Some Author", "SA");
     $newAuthor->getComments()->addModernComment("This is modern comment", $pres->getSlides()->get_Item(0), null, new Point2D.Float(100, 100), new Date());
-    $pres->save($outPptxFileName, SaveFormat.Pptx);
+    $pres->save($outPptxFileName, SaveFormat::Pptx);
   } finally {
     if ($pres != null) {
       $pres->dispose();
@@ -104,7 +68,7 @@ url: /php-java/commentcollection/addmoderncomment/
 | --- | --- | --- |
 | text | String | Plain text of a new modern comment. |
 | slide | [Slide](../slide) | Slide in a presentation where to add a new modern comment. |
-| shape | [SmartArtShape](../smartartshape) | Shape on a slide to which a new modern comment is associated. |
+| shape | [Connector](../connector) | Shape on a slide to which a new modern comment is associated. |
 | position | Point2D.Float | Position on a slide where to add a new modern comment. |
 | creationTime | Date | Time of a modern comment creation. |
 
@@ -126,7 +90,7 @@ url: /php-java/commentcollection/addmoderncomment/
   try {
     $newAuthor = $pres->getCommentAuthors()->addAuthor("Some Author", "SA");
     $newAuthor->getComments()->addModernComment("This is modern comment", $pres->getSlides()->get_Item(0), null, new Point2D.Float(100, 100), new Date());
-    $pres->save($outPptxFileName, SaveFormat.Pptx);
+    $pres->save($outPptxFileName, SaveFormat::Pptx);
   } finally {
     if ($pres != null) {
       $pres->dispose();
@@ -151,6 +115,42 @@ url: /php-java/commentcollection/addmoderncomment/
 ---
 
 
+## addModernComment(String text, [Slide](../../slide) slide, [SmartArtShape](../../smartartshape) shape, Point2D.Float position, Date creationTime)  method
+
+ Add new modern comment at the end of a collection.
+ 
+
+ 
+```php
+  $pres = new Presentation();
+  try {
+    $newAuthor = $pres->getCommentAuthors()->addAuthor("Some Author", "SA");
+    $newAuthor->getComments()->addModernComment("This is modern comment", $pres->getSlides()->get_Item(0), null, new Point2D.Float(100, 100), new Date());
+    $pres->save($outPptxFileName, SaveFormat::Pptx);
+  } finally {
+    if ($pres != null) {
+      $pres->dispose();
+    }
+  }
+```
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| text | String | Plain text of a new modern comment. |
+| slide | [Slide](../slide) | Slide in a presentation where to add a new modern comment. |
+| shape | [SmartArtShape](../smartartshape) | Shape on a slide to which a new modern comment is associated. |
+| position | Point2D.Float | Position on a slide where to add a new modern comment. |
+| creationTime | Date | Time of a modern comment creation. |
+
+### Returns
+[ModernComment](../../moderncomment)
+
+
+---
+
+
 ## addModernComment(String text, [Slide](../../slide) slide, [Shape](../../shape) shape, Point2D.Float position, Date creationTime)  method
 
  Add new modern comment at the end of a collection.
@@ -162,7 +162,7 @@ url: /php-java/commentcollection/addmoderncomment/
   try {
     $newAuthor = $pres->getCommentAuthors()->addAuthor("Some Author", "SA");
     $newAuthor->getComments()->addModernComment("This is modern comment", $pres->getSlides()->get_Item(0), null, new Point2D.Float(100, 100), new Date());
-    $pres->save($outPptxFileName, SaveFormat.Pptx);
+    $pres->save($outPptxFileName, SaveFormat::Pptx);
   } finally {
     if ($pres != null) {
       $pres->dispose();
@@ -198,7 +198,7 @@ url: /php-java/commentcollection/addmoderncomment/
   try {
     $newAuthor = $pres->getCommentAuthors()->addAuthor("Some Author", "SA");
     $newAuthor->getComments()->addModernComment("This is modern comment", $pres->getSlides()->get_Item(0), null, new Point2D.Float(100, 100), new Date());
-    $pres->save($outPptxFileName, SaveFormat.Pptx);
+    $pres->save($outPptxFileName, SaveFormat::Pptx);
   } finally {
     if ($pres != null) {
       $pres->dispose();
@@ -234,7 +234,7 @@ url: /php-java/commentcollection/addmoderncomment/
   try {
     $newAuthor = $pres->getCommentAuthors()->addAuthor("Some Author", "SA");
     $newAuthor->getComments()->addModernComment("This is modern comment", $pres->getSlides()->get_Item(0), null, new Point2D.Float(100, 100), new Date());
-    $pres->save($outPptxFileName, SaveFormat.Pptx);
+    $pres->save($outPptxFileName, SaveFormat::Pptx);
   } finally {
     if ($pres != null) {
       $pres->dispose();
@@ -259,42 +259,6 @@ url: /php-java/commentcollection/addmoderncomment/
 ---
 
 
-## addModernComment(String text, [Slide](../../slide) slide, [SummaryZoomSection](../../summaryzoomsection) shape, Point2D.Float position, Date creationTime)  method
-
- Add new modern comment at the end of a collection.
- 
-
- 
-```php
-  $pres = new Presentation();
-  try {
-    $newAuthor = $pres->getCommentAuthors()->addAuthor("Some Author", "SA");
-    $newAuthor->getComments()->addModernComment("This is modern comment", $pres->getSlides()->get_Item(0), null, new Point2D.Float(100, 100), new Date());
-    $pres->save($outPptxFileName, SaveFormat.Pptx);
-  } finally {
-    if ($pres != null) {
-      $pres->dispose();
-    }
-  }
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| text | String | Plain text of a new modern comment. |
-| slide | [Slide](../slide) | Slide in a presentation where to add a new modern comment. |
-| shape | [SummaryZoomSection](../summaryzoomsection) | Shape on a slide to which a new modern comment is associated. |
-| position | Point2D.Float | Position on a slide where to add a new modern comment. |
-| creationTime | Date | Time of a modern comment creation. |
-
-### Returns
-[ModernComment](../../moderncomment)
-
-
----
-
-
 ## addModernComment(String text, [Slide](../../slide) slide, [ZoomFrame](../../zoomframe) shape, Point2D.Float position, Date creationTime)  method
 
  Add new modern comment at the end of a collection.
@@ -306,7 +270,7 @@ url: /php-java/commentcollection/addmoderncomment/
   try {
     $newAuthor = $pres->getCommentAuthors()->addAuthor("Some Author", "SA");
     $newAuthor->getComments()->addModernComment("This is modern comment", $pres->getSlides()->get_Item(0), null, new Point2D.Float(100, 100), new Date());
-    $pres->save($outPptxFileName, SaveFormat.Pptx);
+    $pres->save($outPptxFileName, SaveFormat::Pptx);
   } finally {
     if ($pres != null) {
       $pres->dispose();
@@ -331,6 +295,42 @@ url: /php-java/commentcollection/addmoderncomment/
 ---
 
 
+## addModernComment(String text, [Slide](../../slide) slide, [SummaryZoomSection](../../summaryzoomsection) shape, Point2D.Float position, Date creationTime)  method
+
+ Add new modern comment at the end of a collection.
+ 
+
+ 
+```php
+  $pres = new Presentation();
+  try {
+    $newAuthor = $pres->getCommentAuthors()->addAuthor("Some Author", "SA");
+    $newAuthor->getComments()->addModernComment("This is modern comment", $pres->getSlides()->get_Item(0), null, new Point2D.Float(100, 100), new Date());
+    $pres->save($outPptxFileName, SaveFormat::Pptx);
+  } finally {
+    if ($pres != null) {
+      $pres->dispose();
+    }
+  }
+```
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| text | String | Plain text of a new modern comment. |
+| slide | [Slide](../slide) | Slide in a presentation where to add a new modern comment. |
+| shape | [SummaryZoomSection](../summaryzoomsection) | Shape on a slide to which a new modern comment is associated. |
+| position | Point2D.Float | Position on a slide where to add a new modern comment. |
+| creationTime | Date | Time of a modern comment creation. |
+
+### Returns
+[ModernComment](../../moderncomment)
+
+
+---
+
+
 ## addModernComment(String text, [Slide](../../slide) slide, [VideoFrame](../../videoframe) shape, Point2D.Float position, Date creationTime)  method
 
  Add new modern comment at the end of a collection.
@@ -342,7 +342,7 @@ url: /php-java/commentcollection/addmoderncomment/
   try {
     $newAuthor = $pres->getCommentAuthors()->addAuthor("Some Author", "SA");
     $newAuthor->getComments()->addModernComment("This is modern comment", $pres->getSlides()->get_Item(0), null, new Point2D.Float(100, 100), new Date());
-    $pres->save($outPptxFileName, SaveFormat.Pptx);
+    $pres->save($outPptxFileName, SaveFormat::Pptx);
   } finally {
     if ($pres != null) {
       $pres->dispose();
@@ -378,7 +378,7 @@ url: /php-java/commentcollection/addmoderncomment/
   try {
     $newAuthor = $pres->getCommentAuthors()->addAuthor("Some Author", "SA");
     $newAuthor->getComments()->addModernComment("This is modern comment", $pres->getSlides()->get_Item(0), null, new Point2D.Float(100, 100), new Date());
-    $pres->save($outPptxFileName, SaveFormat.Pptx);
+    $pres->save($outPptxFileName, SaveFormat::Pptx);
   } finally {
     if ($pres != null) {
       $pres->dispose();
@@ -414,7 +414,7 @@ url: /php-java/commentcollection/addmoderncomment/
   try {
     $newAuthor = $pres->getCommentAuthors()->addAuthor("Some Author", "SA");
     $newAuthor->getComments()->addModernComment("This is modern comment", $pres->getSlides()->get_Item(0), null, new Point2D.Float(100, 100), new Date());
-    $pres->save($outPptxFileName, SaveFormat.Pptx);
+    $pres->save($outPptxFileName, SaveFormat::Pptx);
   } finally {
     if ($pres != null) {
       $pres->dispose();
@@ -450,7 +450,7 @@ url: /php-java/commentcollection/addmoderncomment/
   try {
     $newAuthor = $pres->getCommentAuthors()->addAuthor("Some Author", "SA");
     $newAuthor->getComments()->addModernComment("This is modern comment", $pres->getSlides()->get_Item(0), null, new Point2D.Float(100, 100), new Date());
-    $pres->save($outPptxFileName, SaveFormat.Pptx);
+    $pres->save($outPptxFileName, SaveFormat::Pptx);
   } finally {
     if ($pres != null) {
       $pres->dispose();
@@ -486,7 +486,7 @@ url: /php-java/commentcollection/addmoderncomment/
   try {
     $newAuthor = $pres->getCommentAuthors()->addAuthor("Some Author", "SA");
     $newAuthor->getComments()->addModernComment("This is modern comment", $pres->getSlides()->get_Item(0), null, new Point2D.Float(100, 100), new Date());
-    $pres->save($outPptxFileName, SaveFormat.Pptx);
+    $pres->save($outPptxFileName, SaveFormat::Pptx);
   } finally {
     if ($pres != null) {
       $pres->dispose();
@@ -511,42 +511,6 @@ url: /php-java/commentcollection/addmoderncomment/
 ---
 
 
-## addModernComment(String text, [Slide](../../slide) slide, [SectionZoomFrame](../../sectionzoomframe) shape, Point2D.Float position, Date creationTime)  method
-
- Add new modern comment at the end of a collection.
- 
-
- 
-```php
-  $pres = new Presentation();
-  try {
-    $newAuthor = $pres->getCommentAuthors()->addAuthor("Some Author", "SA");
-    $newAuthor->getComments()->addModernComment("This is modern comment", $pres->getSlides()->get_Item(0), null, new Point2D.Float(100, 100), new Date());
-    $pres->save($outPptxFileName, SaveFormat.Pptx);
-  } finally {
-    if ($pres != null) {
-      $pres->dispose();
-    }
-  }
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| text | String | Plain text of a new modern comment. |
-| slide | [Slide](../slide) | Slide in a presentation where to add a new modern comment. |
-| shape | [SectionZoomFrame](../sectionzoomframe) | Shape on a slide to which a new modern comment is associated. |
-| position | Point2D.Float | Position on a slide where to add a new modern comment. |
-| creationTime | Date | Time of a modern comment creation. |
-
-### Returns
-[ModernComment](../../moderncomment)
-
-
----
-
-
 ## addModernComment(String text, [Slide](../../slide) slide, [PictureFrame](../../pictureframe) shape, Point2D.Float position, Date creationTime)  method
 
  Add new modern comment at the end of a collection.
@@ -558,7 +522,7 @@ url: /php-java/commentcollection/addmoderncomment/
   try {
     $newAuthor = $pres->getCommentAuthors()->addAuthor("Some Author", "SA");
     $newAuthor->getComments()->addModernComment("This is modern comment", $pres->getSlides()->get_Item(0), null, new Point2D.Float(100, 100), new Date());
-    $pres->save($outPptxFileName, SaveFormat.Pptx);
+    $pres->save($outPptxFileName, SaveFormat::Pptx);
   } finally {
     if ($pres != null) {
       $pres->dispose();
@@ -583,7 +547,7 @@ url: /php-java/commentcollection/addmoderncomment/
 ---
 
 
-## addModernComment(String text, [Slide](../../slide) slide, [AudioFrame](../../audioframe) shape, Point2D.Float position, Date creationTime)  method
+## addModernComment(String text, [Slide](../../slide) slide, [SectionZoomFrame](../../sectionzoomframe) shape, Point2D.Float position, Date creationTime)  method
 
  Add new modern comment at the end of a collection.
  
@@ -594,7 +558,7 @@ url: /php-java/commentcollection/addmoderncomment/
   try {
     $newAuthor = $pres->getCommentAuthors()->addAuthor("Some Author", "SA");
     $newAuthor->getComments()->addModernComment("This is modern comment", $pres->getSlides()->get_Item(0), null, new Point2D.Float(100, 100), new Date());
-    $pres->save($outPptxFileName, SaveFormat.Pptx);
+    $pres->save($outPptxFileName, SaveFormat::Pptx);
   } finally {
     if ($pres != null) {
       $pres->dispose();
@@ -608,7 +572,7 @@ url: /php-java/commentcollection/addmoderncomment/
 | --- | --- | --- |
 | text | String | Plain text of a new modern comment. |
 | slide | [Slide](../slide) | Slide in a presentation where to add a new modern comment. |
-| shape | [AudioFrame](../audioframe) | Shape on a slide to which a new modern comment is associated. |
+| shape | [SectionZoomFrame](../sectionzoomframe) | Shape on a slide to which a new modern comment is associated. |
 | position | Point2D.Float | Position on a slide where to add a new modern comment. |
 | creationTime | Date | Time of a modern comment creation. |
 
@@ -630,7 +594,7 @@ url: /php-java/commentcollection/addmoderncomment/
   try {
     $newAuthor = $pres->getCommentAuthors()->addAuthor("Some Author", "SA");
     $newAuthor->getComments()->addModernComment("This is modern comment", $pres->getSlides()->get_Item(0), null, new Point2D.Float(100, 100), new Date());
-    $pres->save($outPptxFileName, SaveFormat.Pptx);
+    $pres->save($outPptxFileName, SaveFormat::Pptx);
   } finally {
     if ($pres != null) {
       $pres->dispose();
@@ -655,7 +619,7 @@ url: /php-java/commentcollection/addmoderncomment/
 ---
 
 
-## addModernComment(String text, [Slide](../../slide) slide, [ZoomObject](../../zoomobject) shape, Point2D.Float position, Date creationTime)  method
+## addModernComment(String text, [Slide](../../slide) slide, [AudioFrame](../../audioframe) shape, Point2D.Float position, Date creationTime)  method
 
  Add new modern comment at the end of a collection.
  
@@ -666,7 +630,7 @@ url: /php-java/commentcollection/addmoderncomment/
   try {
     $newAuthor = $pres->getCommentAuthors()->addAuthor("Some Author", "SA");
     $newAuthor->getComments()->addModernComment("This is modern comment", $pres->getSlides()->get_Item(0), null, new Point2D.Float(100, 100), new Date());
-    $pres->save($outPptxFileName, SaveFormat.Pptx);
+    $pres->save($outPptxFileName, SaveFormat::Pptx);
   } finally {
     if ($pres != null) {
       $pres->dispose();
@@ -680,7 +644,7 @@ url: /php-java/commentcollection/addmoderncomment/
 | --- | --- | --- |
 | text | String | Plain text of a new modern comment. |
 | slide | [Slide](../slide) | Slide in a presentation where to add a new modern comment. |
-| shape | [ZoomObject](../zoomobject) | Shape on a slide to which a new modern comment is associated. |
+| shape | [AudioFrame](../audioframe) | Shape on a slide to which a new modern comment is associated. |
 | position | Point2D.Float | Position on a slide where to add a new modern comment. |
 | creationTime | Date | Time of a modern comment creation. |
 
@@ -702,7 +666,7 @@ url: /php-java/commentcollection/addmoderncomment/
   try {
     $newAuthor = $pres->getCommentAuthors()->addAuthor("Some Author", "SA");
     $newAuthor->getComments()->addModernComment("This is modern comment", $pres->getSlides()->get_Item(0), null, new Point2D.Float(100, 100), new Date());
-    $pres->save($outPptxFileName, SaveFormat.Pptx);
+    $pres->save($outPptxFileName, SaveFormat::Pptx);
   } finally {
     if ($pres != null) {
       $pres->dispose();
@@ -717,6 +681,42 @@ url: /php-java/commentcollection/addmoderncomment/
 | text | String | Plain text of a new modern comment. |
 | slide | [Slide](../slide) | Slide in a presentation where to add a new modern comment. |
 | shape | [LegacyDiagram](../legacydiagram) | Shape on a slide to which a new modern comment is associated. |
+| position | Point2D.Float | Position on a slide where to add a new modern comment. |
+| creationTime | Date | Time of a modern comment creation. |
+
+### Returns
+[ModernComment](../../moderncomment)
+
+
+---
+
+
+## addModernComment(String text, [Slide](../../slide) slide, [ZoomObject](../../zoomobject) shape, Point2D.Float position, Date creationTime)  method
+
+ Add new modern comment at the end of a collection.
+ 
+
+ 
+```php
+  $pres = new Presentation();
+  try {
+    $newAuthor = $pres->getCommentAuthors()->addAuthor("Some Author", "SA");
+    $newAuthor->getComments()->addModernComment("This is modern comment", $pres->getSlides()->get_Item(0), null, new Point2D.Float(100, 100), new Date());
+    $pres->save($outPptxFileName, SaveFormat::Pptx);
+  } finally {
+    if ($pres != null) {
+      $pres->dispose();
+    }
+  }
+```
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| text | String | Plain text of a new modern comment. |
+| slide | [Slide](../slide) | Slide in a presentation where to add a new modern comment. |
+| shape | [ZoomObject](../zoomobject) | Shape on a slide to which a new modern comment is associated. |
 | position | Point2D.Float | Position on a slide where to add a new modern comment. |
 | creationTime | Date | Time of a modern comment creation. |
 

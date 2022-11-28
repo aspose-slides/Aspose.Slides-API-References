@@ -3,7 +3,7 @@ title: MathLimitFactory
 second_title: Aspose.Slides for Android via Java API Reference
 description: Allows to create IMathLimit
 type: docs
-weight: 336
+weight: 337
 url: /androidjava/com.aspose.slides/mathlimitfactory/
 ---
 **Inheritance:**

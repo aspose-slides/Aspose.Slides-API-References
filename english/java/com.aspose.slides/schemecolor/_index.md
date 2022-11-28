@@ -3,7 +3,7 @@ title: SchemeColor
 second_title: Aspose.Slides for Java API Reference
 description: Represents colors in a color scheme.
 type: docs
-weight: 476
+weight: 479
 url: /java/com.aspose.slides/schemecolor/
 ---
 **Inheritance:**

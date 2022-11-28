@@ -3,7 +3,7 @@ title: IOrientationTransition
 second_title: Aspose.Slides for Android via Java API Reference
 description: Orientation slide transition effect.
 type: docs
-weight: 941
+weight: 944
 url: /androidjava/com.aspose.slides/iorientationtransition/
 ---
 **All Implemented Interfaces:**

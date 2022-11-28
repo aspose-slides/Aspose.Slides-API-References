@@ -3,7 +3,7 @@ title: MathDelimiterFactory
 second_title: Aspose.Slides for Android via Java API Reference
 description: Allows to create a math delimiter
 type: docs
-weight: 319
+weight: 320
 url: /androidjava/com.aspose.slides/mathdelimiterfactory/
 ---
 **Inheritance:**

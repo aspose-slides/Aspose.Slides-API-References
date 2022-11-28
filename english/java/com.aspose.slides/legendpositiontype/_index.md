@@ -3,7 +3,7 @@ title: LegendPositionType
 second_title: Aspose.Slides for Java API Reference
 description: Determines a position of legend on a chart.
 type: docs
-weight: 271
+weight: 272
 url: /java/com.aspose.slides/legendpositiontype/
 ---
 **Inheritance:**

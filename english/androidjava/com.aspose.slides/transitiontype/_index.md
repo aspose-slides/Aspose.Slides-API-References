@@ -3,7 +3,7 @@ title: TransitionType
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represent slide show transition type.
 type: docs
-weight: 590
+weight: 593
 url: /androidjava/com.aspose.slides/transitiontype/
 ---
 **Inheritance:**

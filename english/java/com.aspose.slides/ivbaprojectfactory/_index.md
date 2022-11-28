@@ -3,7 +3,7 @@ title: IVbaProjectFactory
 second_title: Aspose.Slides for Java API Reference
 description: Allows to create VBA project via COM interface
 type: docs
-weight: 1090
+weight: 1094
 url: /java/com.aspose.slides/ivbaprojectfactory/
 ---```
 public interface IVbaProjectFactory

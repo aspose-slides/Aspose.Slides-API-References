@@ -19,7 +19,7 @@ url: /php-java/gifoptions/setdefaultdelay/
   try {
     $gifOptions = new GifOptions();
     $gifOptions->setDefaultDelay(2000);
-    $pres->save("pres.gif", SaveFormat.Gif, $gifOptions);
+    $pres->save("pres.gif", SaveFormat::Gif, $gifOptions);
   } finally {
     if ($pres != null) {
       $pres->dispose();

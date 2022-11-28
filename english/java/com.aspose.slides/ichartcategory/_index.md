@@ -3,7 +3,7 @@ title: IChartCategory
 second_title: Aspose.Slides for Java API Reference
 description: Represents chart categories.
 type: docs
-weight: 680
+weight: 683
 url: /java/com.aspose.slides/ichartcategory/
 ---```
 public interface IChartCategory

@@ -3,7 +3,7 @@ title: ShapeType
 second_title: Aspose.Slides for Java API Reference
 description: Represents preset geometry of geometry shapes.
 type: docs
-weight: 493
+weight: 496
 url: /java/com.aspose.slides/shapetype/
 ---
 **Inheritance:**
