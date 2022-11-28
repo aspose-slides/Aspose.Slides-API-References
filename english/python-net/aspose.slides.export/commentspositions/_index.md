@@ -3,7 +3,7 @@ title: CommentsPositions
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 680
+weight: 720
 url: /python-net/aspose.slides.export/commentspositions/
 ---
 

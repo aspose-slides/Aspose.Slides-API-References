@@ -3,7 +3,7 @@ title: IHtmlOptions
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 160
+weight: 170
 url: /python-net/aspose.slides.export/ihtmloptions/
 ---
 

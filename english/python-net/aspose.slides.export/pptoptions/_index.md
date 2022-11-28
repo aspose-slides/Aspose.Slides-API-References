@@ -3,7 +3,7 @@ title: PptOptions
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 400
+weight: 420
 url: /python-net/aspose.slides.export/pptoptions/
 ---
 

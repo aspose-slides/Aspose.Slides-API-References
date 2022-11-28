@@ -3,7 +3,7 @@ title: PatternStyle
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 9670
+weight: 9710
 url: /python-net/aspose.slides/patternstyle/
 ---
 

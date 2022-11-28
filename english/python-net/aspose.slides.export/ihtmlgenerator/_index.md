@@ -3,7 +3,7 @@ title: IHtmlGenerator
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 150
+weight: 160
 url: /python-net/aspose.slides.export/ihtmlgenerator/
 ---
 

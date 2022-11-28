@@ -76,6 +76,7 @@ The VideoFrame type exposes the following members:
 |write_as_svg(stream, svg_options)|Saves content of Shape as SVG file.|
 |remove_placeholder()|Defines that this shape isn't a placeholder.|
 |add_placeholder(placeholder_to_copy_from)|Adds a new placeholder if there is no and sets placeholder properties to a specified one.|
+|get_base_placeholder()|Returns a basic placeholder shape (shape from the layout and/or master slide that the current shape is inherited from).|
 |get_geometry_paths()|Returns the copy of path of the geometry shape. Coordinates are relative to the left top corner of the shape.|
 |set_geometry_path(geometry_path)|Updates shape geometry from [IGeometryPath](/slides/python-net/aspose.slides/igeometrypath/) object. Coordinates must be relative to the left<br/>             top corner of the shape.<br/>             Changes the type of the shape ([shape_type](/slides/python-net/aspose.slides/igeometryshape/)) to [CUSTOM](/slides/python-net/aspose.slides/shapetype/).|
 |set_geometry_paths(geometry_paths)|Updates shape geometry from array of [IGeometryPath](/slides/python-net/aspose.slides/igeometrypath/). Coordinates must be relative to the left<br/>             top corner of the shape.<br/>             Changes the type of the shape ([shape_type](/slides/python-net/aspose.slides/igeometryshape/)) to [CUSTOM](/slides/python-net/aspose.slides/shapetype/).|

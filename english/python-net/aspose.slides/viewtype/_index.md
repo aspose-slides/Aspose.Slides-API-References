@@ -3,7 +3,7 @@ title: ViewType
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 10040
+weight: 10080
 url: /python-net/aspose.slides/viewtype/
 ---
 

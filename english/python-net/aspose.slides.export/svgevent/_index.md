@@ -3,7 +3,7 @@ title: SvgEvent
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 800
+weight: 840
 url: /python-net/aspose.slides.export/svgevent/
 ---
 

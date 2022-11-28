@@ -3,7 +3,7 @@ title: EmbedFontCharacters
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 700
+weight: 740
 url: /python-net/aspose.slides.export/embedfontcharacters/
 ---
 
