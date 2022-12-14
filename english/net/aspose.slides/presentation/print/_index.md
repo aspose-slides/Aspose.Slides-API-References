@@ -14,6 +14,23 @@ Prints the whole presentation to the default printer.
 public void Print()
 ```
 
+### Examples
+
+The following example shows how to set print options Dynamically for a PowerPoint Presentation.
+
+```csharp
+[C#]
+using (Presentation pres = new Presentation())
+{
+	PrinterSettings printerSettings = new PrinterSettings();
+	printerSettings.Copies = 2;
+	printerSettings.DefaultPageSettings.Landscape = true;
+	printerSettings.DefaultPageSettings.Margins.Left = 10;
+	   //...etc
+	pres.Print(printerSettings);
+}
+```
+
 ### See Also
 
 * class [Presentation](../../presentation)

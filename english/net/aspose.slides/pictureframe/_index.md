@@ -73,6 +73,30 @@ public class PictureFrame : GeometryShape, IPictureFrame
 | [WriteAsSvg](../../aspose.slides/shape/writeassvg)(Stream) | Saves content of Shape as SVG file. |
 | [WriteAsSvg](../../aspose.slides/shape/writeassvg)(Stream, ISVGOptions) | Saves content of Shape as SVG file. |
 
+### Examples
+
+The following examples shows how to change Audio Frame Thumbnail.
+
+```csharp
+[C#]
+using (var presentation = new Presentation())
+{
+    var slide = presentation.Slides[0];
+    // Adds an audio frame to the slide with a specified position and size.
+    var audioStream = new FileStream("sample2.mp3", FileMode.Open, FileAccess.Read);
+    var audioFrame = slide.Shapes.AddAudioFrameEmbedded(150, 100, 50, 50, audioStream);
+    audioStream.Dispose();
+    // Adds an image to presentation resources.
+    var imageStream = File.OpenRead("eagle.jpeg");
+    var audioImage = presentation.Images.AddImage(imageStream);
+    imageStream.Dispose();
+    // Sets the image for the audio frame.
+    audioFrame.PictureFormat.Picture.Image = audioImage;
+	//Saves the modified presentation to disk
+    presentation.Save("example_out.pptx", SaveFormat.Pptx);
+}
+```
+
 ### See Also
 
 * class [GeometryShape](../geometryshape)

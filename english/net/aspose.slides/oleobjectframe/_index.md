@@ -78,6 +78,37 @@ public class OleObjectFrame : GraphicalObject, IOleObjectFrame
 | [WriteAsSvg](../../aspose.slides/shape/writeassvg)(Stream) | Saves content of Shape as SVG file. |
 | [WriteAsSvg](../../aspose.slides/shape/writeassvg)(Stream, ISVGOptions) | Saves content of Shape as SVG file. |
 
+### Examples
+
+The following example shows how to accessing OLE Object frames.
+
+```csharp
+[C#]
+// Loads the PPTX to a presentation object
+using (Presentation pres = new Presentation("AccessingOLEObjectFrame.pptx"))
+{
+    // Accesses the first slide
+    ISlide sld = pres.Slides[0];
+    // Casts the shape to OleObjectFrame
+    OleObjectFrame oleObjectFrame = sld.Shapes[0] as OleObjectFrame;
+    // Reads the OLE Object and writes it to disk
+    if (oleObjectFrame != null)
+    {
+        // Gets embedded file data
+        byte[] data = oleObjectFrame.EmbeddedData.EmbeddedFileData;
+        // Gets embedded file extention
+        string fileExtention = oleObjectFrame.EmbeddedData.EmbeddedFileExtension;
+        // Creates a path to save the extracted file
+        string extractedPath = "excelFromOLE_out" + fileExtention;
+        // Saves extracted data
+        using (FileStream fstr = new FileStream(extractedPath, FileMode.Create, FileAccess.Write))
+        {
+            fstr.Write(data, 0, data.Length);
+        }
+    }
+}
+```
+
 ### See Also
 
 * class [GraphicalObject](../graphicalobject)

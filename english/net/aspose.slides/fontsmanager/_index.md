@@ -35,6 +35,31 @@ public class FontsManager : IFontsManager
 | [ReplaceFont](../../aspose.slides/fontsmanager/replacefont#replacefont_2)(IFontSubstRuleCollection) | Replace font in presentation using information provided in collection of [`FontSubstRule`](../fontsubstrule) |
 | [ReplaceFont](../../aspose.slides/fontsmanager/replacefont#replacefont)(IFontData, IFontData) | Replace font in presentation |
 
+### Examples
+
+The following example shows how to add embedded fonts to PowerPoint Presentation.
+
+```csharp
+[C#]
+// Load presentation
+using (Presentation presentation = new Presentation("Fonts.pptx"))
+{
+	// Load source font to be replaced
+	IFontData sourceFont = new FontData("Arial");
+	IFontData[] allFonts = presentation.FontsManager.GetFonts();
+	IFontData[] embeddedFonts = presentation.FontsManager.GetEmbeddedFonts();
+	foreach (IFontData font in allFonts)
+	{
+		if (!embeddedFonts.Contains(font))
+		{
+			presentation.FontsManager.AddEmbeddedFont(font, EmbedFontCharacters.All);
+		}
+	}
+	// Save the presentation
+	presentation.Save("AddEmbeddedFont_out.pptx", SaveFormat.Pptx);
+}
+```
+
 ### See Also
 
 * interface [IFontsManager](../ifontsmanager)

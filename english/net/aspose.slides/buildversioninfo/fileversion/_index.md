@@ -11,7 +11,7 @@ url: /net/aspose.slides/buildversioninfo/fileversion/
 Version of assembly file.
 
 ```csharp
-public static readonly string FileVersion;
+public const string FileVersion;
 ```
 
 ### See Also

@@ -11,7 +11,7 @@ url: /net/aspose.slides/buildversioninfo/assemblyversion/
 Version of Aspose.Slides assembly.
 
 ```csharp
-public static readonly string AssemblyVersion;
+public const string AssemblyVersion;
 ```
 
 ### See Also

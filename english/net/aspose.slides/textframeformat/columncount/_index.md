@@ -14,6 +14,46 @@ Returns or sets number of columns in the text area. This value must be a positiv
 public int ColumnCount { get; set; }
 ```
 
+### Examples
+
+The following sample code shows how to add column in Text frame inside a PowerPoint Presentation.
+
+```csharp
+[C#]
+string outPptxFileName = "ColumnsTest.pptx";
+using (Presentation pres = new Presentation())
+{
+    IAutoShape shape1 = pres.Slides[0].Shapes.AddAutoShape(ShapeType.Rectangle, 100, 100, 300, 300);
+    TextFrameFormat format = (TextFrameFormat)shape1.TextFrame.TextFrameFormat;
+    format.ColumnCount = 2;
+    shape1.TextFrame.Text = "All these columns are forced to stay within a single text container -- " +
+                                "you can add or delete text - and the new or remaining text automatically adjusts " +
+                                "itself to stay within the container. You cannot have text spill over from one container " +
+                                "to other, though -- because PowerPoint's column options for text are limited!";
+    pres.Save(outPptxFileName, SaveFormat.Pptx);
+    using (Presentation test = new Presentation(outPptxFileName))
+    {
+        Debug.Assert(2 == ((AutoShape)test.Slides[0].Shapes[0]).TextFrame.TextFrameFormat.ColumnCount);
+        Debug.Assert(double.NaN == ((AutoShape)test.Slides[0].Shapes[0]).TextFrame.TextFrameFormat.ColumnSpacing);
+    }
+    format.ColumnSpacing = 20;
+    pres.Save(outPptxFileName, SaveFormat.Pptx);
+    using (Presentation test = new Presentation(outPptxFileName))
+    {
+        Debug.Assert(2 == ((AutoShape)test.Slides[0].Shapes[0]).TextFrame.TextFrameFormat.ColumnCount);
+        Debug.Assert(20 == ((AutoShape)test.Slides[0].Shapes[0]).TextFrame.TextFrameFormat.ColumnSpacing);
+    }
+    format.ColumnCount = 3;
+    format.ColumnSpacing = 15;
+    pres.Save(outPptxFileName, SaveFormat.Pptx);
+    using (Presentation test = new Presentation(outPptxFileName))
+    {
+        Debug.Assert(3 == ((AutoShape)test.Slides[0].Shapes[0]).TextFrame.TextFrameFormat.ColumnCount);
+        Debug.Assert(15 == ((AutoShape)test.Slides[0].Shapes[0]).TextFrame.TextFrameFormat.ColumnSpacing);
+    }
+}
+```
+
 ### See Also
 
 * class [TextFrameFormat](../../textframeformat)

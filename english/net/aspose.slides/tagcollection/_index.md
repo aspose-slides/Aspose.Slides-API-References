@@ -39,6 +39,19 @@ public sealed class TagCollection : ITagCollection
 | [Remove](../../aspose.slides/tagcollection/remove)(string) | Removes the tag with a specified name from the collection. |
 | [RemoveAt](../../aspose.slides/tagcollection/removeat)(int) | Removes the tag at the specified index. |
 
+### Examples
+
+The following example shows how to add a tag to a PowerPoint Presentation.
+
+```csharp
+[C#]
+using (Presentation pres = new Presentation("pres.pptx"))
+{
+   ITagCollection tags = pres.CustomData.Tags;
+   pres.CustomData.Tags["MyTag"] = "My Tag Value";
+}
+```
+
 ### See Also
 
 * interface [ITagCollection](../itagcollection)

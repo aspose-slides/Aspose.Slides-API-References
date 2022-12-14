@@ -1,14 +1,14 @@
 ---
 title: Input
 second_title: Aspose.Sildes for .NET API Reference
-description: Represents a collection of input elements templates for IWebDocument.
+description: Represents a collection of input elements templates.
 type: docs
 weight: 4270
 url: /net/aspose.slides.export.web/input/
 ---
 ## Input class
 
-Represents a collection of input elements (templates) for !:IWebDocument.
+Represents a collection of input elements (templates).
 
 ```csharp
 public sealed class Input

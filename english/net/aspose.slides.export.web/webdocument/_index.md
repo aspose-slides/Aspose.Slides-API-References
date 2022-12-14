@@ -32,7 +32,7 @@ public class WebDocument
 
 | Name | Description |
 | --- | --- |
-| [Save](../../aspose.slides.export.web/webdocument/save)() |  |
+| [Save](../../aspose.slides.export.web/webdocument/save)() | Saves the document output. |
 
 ### See Also
 

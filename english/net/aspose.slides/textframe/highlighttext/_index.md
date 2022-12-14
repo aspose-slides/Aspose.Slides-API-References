@@ -41,6 +41,24 @@ public void HighlightText(string text, Color highlightColor, ITextHighlightingOp
 | highlightColor | Color | Highlighting color. |
 | options | ITextHighlightingOptions | Highlighting options. |
 
+### Examples
+
+The following sample code shows how to Highlight Text in a PowerPoint Presentation.
+
+```csharp
+[C#]
+using (Presentation presentation = new Presentation("SomePresentation.pptx")){
+	// highlighting all words 'important'
+	((AutoShape)presentation.Slides[0].Shapes[0]).TextFrame.HighlightText("title", Color.LightBlue);
+	// highlighting all separate 'the' occurrences
+	((AutoShape)presentation.Slides[0].Shapes[0]).TextFrame.HighlightText("to", Color.Violet, new TextHighlightingOptions()
+	{
+		WholeWordsOnly = true
+	});
+	presentation.Save("SomePresentation-out2.pptx", SaveFormat.Pptx);
+}
+```
+
 ### See Also
 
 * interface [ITextHighlightingOptions](../../itexthighlightingoptions)

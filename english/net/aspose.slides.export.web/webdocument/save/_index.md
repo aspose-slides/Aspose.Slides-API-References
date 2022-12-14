@@ -1,15 +1,47 @@
 ---
 title: Save
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Saves the document output.
 type: docs
 weight: 50
 url: /net/aspose.slides.export.web/webdocument/save/
 ---
 ## WebDocument.Save method
 
+Saves the document output.
+
 ```csharp
 public void Save()
+```
+
+### Examples
+
+```csharp
+[C#]        
+using (Presentation pres = new Presentation("pres.pptx"))
+{
+    var options = new WebDocumentOptions
+    {
+        TemplateEngine = new RazorTemplateEngine(),
+        OutputSaver = new FileOutputSaver(),
+        EmbedImages = false
+    };
+    
+    WebDocument document = new WebDocument(options);
+
+    // add "index-template.html" template with "index" template key to use it later (for Output)
+    document.Input.AddTemplate<Aspose.Slides.Presentation>("index", "index-template.html");
+
+    // add "index.html" to output files, using "index" template to generate it and pres variable as model
+    document.Output.Add("index.html", "index", pres);
+    
+    // ... set up other options of the document and then save the document
+    document.Global.Put("slideMargin", 10);
+    document.Global.Put("imagesPath", "root/site/images");
+    // ...
+ 
+    document.Save();
+}
 ```
 
 ### See Also

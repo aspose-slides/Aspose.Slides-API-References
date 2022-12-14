@@ -18,6 +18,19 @@ public string Password { get; set; }
 
 The password.
 
+### Examples
+
+The following sample code shows how to open password protected PowerPoint Presentation.
+
+```csharp
+[C#]
+	LoadOptions loadOptions = new LoadOptions {Password = "YOUR_PASSWORD"};
+	using (Presentation presentation = new Presentation("pres.pptx", loadOptions))
+	{
+	  // work with decrypted presentation
+	}
+```
+
 ### See Also
 
 * class [LoadOptions](../../loadoptions)

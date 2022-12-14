@@ -108,6 +108,53 @@ public void Save(Stream stream, int[] slides, SaveFormat format, ISaveOptions op
 | ArgumentOutOfRangeException | When slides parameter contains wrong page numbers. |
 | InvalidOperationException | When an unsupported SaveFormat is used, e.g. PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, ODP. |
 
+### Examples
+
+The following example shows how to convert PowerPoint to PNG.
+
+```csharp
+[C#]
+using (Presentation pres = new Presentation("pres.pptx"))
+{
+    for (var index = 0; index < pres.Slides.Count; index++)
+    {
+        ISlide slide = pres.Slides[index];
+        slide.GetThumbnail().Save($"slide_{index}.png", ImageFormat.Png);
+    }
+}
+```
+
+The following example shows how to convert PowerPoint to PNG with custom dimensions.
+
+```csharp
+[C#]
+using (Presentation pres = new Presentation("pres.pptx"))
+{
+    float scaleX = 2f;
+    float scaleY = 2f;
+    for (var index = 0; index < pres.Slides.Count; index++)
+    {
+        ISlide slide = pres.Slides[index];
+        slide.GetThumbnail(scaleX, scaleY).Save($"slide_{index}.png", ImageFormat.Png);
+    }
+}
+```
+
+The following example shows how to convert PowerPoint to PNG with custom size.
+
+```csharp
+[C#]
+using (Presentation pres = new Presentation("pres.pptx"))
+{
+    Size size = new Size(960, 720);
+    for (var index = 0; index < pres.Slides.Count; index++)
+    {
+        ISlide slide = pres.Slides[index];
+        slide.GetThumbnail(size).Save($"slide_{index}.png", ImageFormat.Png);
+    }
+}
+```
+
 ### See Also
 
 * enum [SaveFormat](../../../aspose.slides.export/saveformat)
@@ -215,17 +262,9 @@ public void Save(Stream stream, SaveFormat format)
 
 ## Save(string, SaveFormat, ISaveOptions) {#save_6}
 
-Saves all slides of a presentation to a file with the specified format and with additional options.
-
 ```csharp
 public void Save(string fname, SaveFormat format, ISaveOptions options)
 ```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| fname | String | Path to the created file. |
-| format | SaveFormat | Format of the exported data. |
-| options | ISaveOptions | Additional format options. |
 
 ### See Also
 

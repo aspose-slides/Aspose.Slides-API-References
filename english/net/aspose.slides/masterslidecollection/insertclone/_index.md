@@ -23,6 +23,37 @@ public IMasterSlide InsertClone(int index, IMasterSlide sourceMaster)
 
 Inserted master slide.
 
+### Examples
+
+The following example shows how to clone master slide in another PowerPoint Presentation.
+
+```csharp
+[C#]
+// Instantiate Presentation class to load the source presentation file
+using (Presentation srcPres = new Presentation("CloneToAnotherPresentationWithMaster.pptx"))
+{
+    // Instantiate Presentation class for destination presentation (where slide is to be cloned)
+    using (Presentation destPres = new Presentation())
+    {
+        // Instantiate ISlide from the collection of slides in source presentation along with
+        // Master slide
+        ISlide SourceSlide = srcPres.Slides[0];
+        IMasterSlide SourceMaster = SourceSlide.LayoutSlide.MasterSlide;
+		// Get Master Slides of destination presentation
+        IMasterSlideCollection masters = destPres.Masters;
+        // Clone the desired master slide from the source presentation to the collection of masters in the
+        // Destination presentation
+        IMasterSlide iSlide = masters.AddClone(SourceMaster);
+        // Collection of slides in the destination presentation
+        ISlideCollection slds = destPres.Slides;
+		// Clone source slide to destination slides collection.
+        slds.AddClone(SourceSlide, iSlide, true);
+        // Save the destination presentation to disk
+        destPres.Save("CloneToAnotherPresentationWithMaster_out.pptx", SaveFormat.Pptx);
+    }
+}
+```
+
 ### See Also
 
 * interface [IMasterSlide](../../imasterslide)

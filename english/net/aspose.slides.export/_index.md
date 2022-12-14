@@ -25,7 +25,7 @@ Contains classes for exporting Microsoft PowerPoint presentations to different f
 | [PdfOptions](./pdfoptions) | Provides options that control how a presentation is saved in Pdf format. |
 | [PptOptions](./pptoptions) | Provides options that control how a presentation is saved in PPT format. |
 | [PptxOptions](./pptxoptions) | Represents options for saving OpenXml presentations (PPTX, PPSX, POTX, PPTM, PPSM, POTM). |
-| [PresentationAnimationsGenerator](./presentationanimationsgenerator) |  |
+| [PresentationAnimationsGenerator](./presentationanimationsgenerator) | Represents a generator of the animations in the [`Presentation`](../aspose.slides/presentation). |
 | [PresentationPlayer](./presentationplayer) | Represents the player of animations associated with the [`Presentation`](../aspose.slides/presentation). |
 | [RenderingOptions](./renderingoptions) | Provides options that control how a presentation/slide is rendered. |
 | [ResponsiveHtmlController](./responsivehtmlcontroller) | Responsive HTML Controller |

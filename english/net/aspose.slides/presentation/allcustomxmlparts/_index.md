@@ -14,6 +14,23 @@ Returns all custom data parts in the presentaion. Read-only [`ICustomXmlPart`](.
 public ICustomXmlPart[] AllCustomXmlParts { get; }
 ```
 
+### Examples
+
+The following examples show how to clear all custom xml parts from PowerPoint Presentation.
+
+```csharp
+[C#]
+using (Presentation pres = new Presentation("PresentationWithCustomXml.pptx"))
+{
+	// Iterate all custom XML Parts
+    foreach (ICustomXmlPart item in pres.AllCustomXmlParts)
+    {
+        item.Remove();
+    }
+    pres.Save("out.pptx", SaveFormat.Pptx);
+}
+```
+
 ### See Also
 
 * interface [ICustomXmlPart](../../icustomxmlpart)

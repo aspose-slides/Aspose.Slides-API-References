@@ -14,6 +14,22 @@ Returns the collection of all embedded audio files in the presentation. Read-onl
 public IAudioCollection Audios { get; }
 ```
 
+### Examples
+
+The following examples shows how to add a hyperlink to an audio file.
+
+```csharp
+[C#]
+using (Presentation pres = new Presentation())
+{
+    IAudio audio = pres.Audios.AddAudio(File.ReadAllBytes("audio.mp3"));
+    IAudioFrame audioFrame = pres.Slides[0].Shapes.AddAudioFrameEmbedded(10, 10, 100, 100, audio);
+    audioFrame.HyperlinkClick = new Hyperlink("https://www.aspose.com/");
+    audioFrame.HyperlinkClick.Tooltip = "More than 70% Fortune 100 companies trust Aspose APIs";
+    pres.Save("pres-out.pptx", SaveFormat.Pptx);
+}
+```
+
 ### See Also
 
 * interface [IAudioCollection](../../iaudiocollection)

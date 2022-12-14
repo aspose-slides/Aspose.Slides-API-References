@@ -14,6 +14,42 @@ Returns a list of all slides sections that are defined in the presentation. Read
 public ISectionCollection Sections { get; }
 ```
 
+### Examples
+
+The following examples shows how to create Sections in a PowerPoint Presentation.
+
+```csharp
+[C#]
+using (Presentation pres = new Presentation())
+{
+    ISlide defaultSlide = pres.Slides[0];
+    ISlide newSlide1 = pres.Slides.AddEmptySlide(pres.LayoutSlides[0]);
+    ISlide newSlide2 = pres.Slides.AddEmptySlide(pres.LayoutSlides[0]);
+    ISlide newSlide3 = pres.Slides.AddEmptySlide(pres.LayoutSlides[0]);
+    ISlide newSlide4 = pres.Slides.AddEmptySlide(pres.LayoutSlides[0]);
+    ISection section1 = pres.Sections.AddSection("Section 1", newSlide1);
+	// section1 will be ended at newSlide2 and after it section2 will start
+    ISection section2 = pres.Sections.AddSection("Section 2", newSlide3);
+    pres.Save("pres-sections.pptx", SaveFormat.Pptx);
+    pres.Sections.ReorderSectionWithSlides(section2, 0);
+    pres.Save("pres-sections-moved.pptx", SaveFormat.Pptx);
+    pres.Sections.RemoveSectionWithSlides(section2);
+    pres.Sections.AppendEmptySection("Last empty section");
+    pres.Save("pres-section-with-empty.pptx",SaveFormat.Pptx);
+}
+```
+
+The following examples shows how to changing the names of Sections.
+
+```csharp
+[C#]
+using (Presentation pres = new Presentation("pres.pptx"))
+{
+   ISection section = pres.Sections[0];
+   section.Name = "My section";
+}
+```
+
 ### See Also
 
 * interface [ISectionCollection](../../isectioncollection)

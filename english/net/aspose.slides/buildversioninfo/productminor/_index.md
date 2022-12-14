@@ -11,7 +11,7 @@ url: /net/aspose.slides/buildversioninfo/productminor/
 Minor version number.
 
 ```csharp
-public static readonly int ProductMinor;
+public const int ProductMinor;
 ```
 
 ### See Also

@@ -44,6 +44,83 @@ public class PdfOptions : SaveOptions, IPdfOptions
 | [TextCompression](../../aspose.slides.export/pdfoptions/textcompression) { get; set; } | Specifies compression type to be used for all textual content in the document. Read/write [`PdfTextCompression`](../pdftextcompression). |
 | [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Returns of sets an object which receives warnings and decides whether loading process will continue or will be aborted. Read/write [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
+### Examples
+
+The following example shows how to convert PowerPoint to PDF with custom options.
+
+```csharp
+[C#]
+using (Presentation presentation = new Presentation("PowerPoint.pptx"))
+{
+	// Instantiates the PdfOptions class
+	PdfOptions pdfOptions = new PdfOptions();
+	// Sets the Jpeg quality
+	pdfOptions.JpegQuality = 90;
+	// Sets the behavior for metafiles
+	pdfOptions.SaveMetafilesAsPng = true;
+	// Sets the text compression level
+	pdfOptions.TextCompression = PdfTextCompression.Flate;
+	// Defines the PDF standard
+	pdfOptions.Compliance = PdfCompliance.Pdf15;
+	// Saves the presentation as a PDF
+	presentation.Save("PowerPoint-to-PDF.pdf", SaveFormat.Pdf, pdfOptions);
+}
+```
+
+The following example shows how to convert PowerPoint to PDF with hidden slides.
+
+```csharp
+[C#]
+// Instantiates a Presentation class that represents a PowerPoint file
+using (Presentation presentation = new Presentation("PowerPoint.pptx"))
+{
+	// Instantiates the PdfOptions class
+	PdfOptions pdfOptions = new PdfOptions();
+	// Adds hidden slides
+	pdfOptions.ShowHiddenSlides = true;
+	// Saves the presentation as a PDF
+	presentation.Save("PowerPoint-to-PDF.pdf", SaveFormat.Pdf, pdfOptions);
+}
+```
+
+The following example shows how to convert PowerPoint to password protected PDF.
+
+```csharp
+[C#]
+// Instantiates a Presentation object that represents a PowerPoint file
+using (Presentation presentation = new Presentation("PowerPoint.pptx"))
+{
+	/// Instantiates the PdfOptions class
+	PdfOptions pdfOptions = new PdfOptions();
+	// Sets PDF password and access permissions
+	pdfOptions.Password = "password";
+	pdfOptions.AccessPermissions = PdfAccessPermissions.PrintDocument | PdfAccessPermissions.HighQualityPrint;
+	// Saves the presentation as a PDF
+	presentation.Save("PPTX-to-PDF.pdf", SaveFormat.Pdf, pdfOptions);
+}
+```
+
+The following example shows how to convert PowerPoint to PDF with notes.
+
+```csharp
+[C#]
+// Instantiate a Presentation object that represents a presentation file
+using (Presentation presentation = new Presentation("SelectedSlides.pptx"))
+{
+	using (Presentation auxPresentation = new Presentation())
+	{
+		ISlide slide = presentation.Slides[0];
+		auxPresentation.Slides.InsertClone(0, slide);
+		// Setting Slide Type and Size
+		//auxPresentation.SlideSize.SetSize(presentation.SlideSize.Size.Width, presentation.SlideSize.Size.Height,SlideSizeScaleType.EnsureFit);
+		auxPresentation.SlideSize.SetSize(612F, 792F, SlideSizeScaleType.EnsureFit);
+		PdfOptions pdfOptions = new PdfOptions();
+		pdfOptions.NotesCommentsLayouting.NotesPosition = NotesPositions.BottomFull;
+		auxPresentation.Save("PDFnotes_out.pdf", SaveFormat.Pdf, pdfOptions);
+	}
+}
+```
+
 ### See Also
 
 * class [SaveOptions](../saveoptions)

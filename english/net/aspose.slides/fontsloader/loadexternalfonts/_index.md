@@ -18,6 +18,27 @@ public static void LoadExternalFonts(string[] directories)
 | --- | --- | --- |
 | directories | String[] | Directories to read additional fonts. |
 
+### Examples
+
+The follow examples shows how to load custom fonts from .TTF
+
+```csharp
+[C#]
+// The path to the documents directory.
+string dataDir = "C:\\";
+// folders to seek fonts
+String[] folders = new String[] { dataDir };
+// Load the custom font directory fonts
+FontsLoader.LoadExternalFonts(folders);
+// Do Some work and perform presentation/slides rendering
+using (Presentation presentation = new Presentation(dataDir + "DefaultFonts.pptx"))
+{
+    presentation.Save(dataDir + "NewFonts_out.pptx", SaveFormat.Pptx);
+	// Clear Font Cachce
+	FontsLoader.ClearCache();
+}
+```
+
 ### See Also
 
 * class [FontsLoader](../../fontsloader)

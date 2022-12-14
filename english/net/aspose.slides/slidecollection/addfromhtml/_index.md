@@ -156,6 +156,23 @@ public ISlide[] AddFromHtml(Stream htmlStream)
 
 Added slides
 
+### Examples
+
+```csharp
+[C#]
+// Create an instance of the Presentation class.
+using (var presentation = new Presentation())
+{
+    using (var htmlStream = File.OpenRead("page.html"))
+    {
+		// Call the AddFromHtml method and pass the HTML file.
+        presentation.Slides.AddFromHtml(htmlStream);
+    }
+	// Use the Save method to save the file as a PowerPoint document.
+    presentation.Save("MyPresentation.pptx", SaveFormat.Pptx);
+}
+```
+
 ### See Also
 
 * interface [ISlide](../../islide)

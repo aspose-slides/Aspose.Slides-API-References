@@ -14,6 +14,24 @@ Specifies sources for external fonts to be used by the presentation. These fonts
 public IFontSources DocumentLevelFontSources { get; set; }
 ```
 
+### Examples
+
+The following example shows how to specify custom fonts used with PowerPoint Presentation.
+
+```csharp
+[C#]
+byte[] memoryFont1 = File.ReadAllBytes("customfonts\\CustomFont1.ttf");
+byte[] memoryFont2 = File.ReadAllBytes("customfonts\\CustomFont2.ttf");
+LoadOptions loadOptions = new LoadOptions();
+loadOptions.DocumentLevelFontSources.FontFolders = new string[] { "assets\\fonts", "global\\fonts" };
+loadOptions.DocumentLevelFontSources.MemoryFonts = new byte[][] { memoryFont1, memoryFont2 };
+using (IPresentation presentation = new Presentation("MyPresentation.pptx", loadOptions))
+{
+    //work with the presentation
+    //CustomFont1, CustomFont2 as well as fonts from assets\fonts & global\fonts folders and their subfolders are available to the presentation
+}
+```
+
 ### See Also
 
 * interface [IFontSources](../../ifontsources)

@@ -20,6 +20,20 @@ public void HighlightRegex(string regex, Color highlightColor, ITextHighlighting
 | highlightColor | Color | Highlighting color. |
 | options | ITextHighlightingOptions | Highlighting options. |
 
+### Examples
+
+The following sample code shows how to Highlight Text using regular expression in a PowerPoint Presentation.
+
+```csharp
+[C#]
+using (Presentation presentation = new Presentation("SomePresentation.pptx")){
+	TextHighlightingOptions options = new TextHighlightingOptions();
+	// highlighting all words with 10 symbols or longer
+	((AutoShape)presentation.Slides[0].Shapes[0]).TextFrame.HighlightRegex(@"\b[^\s]{5,}\b", Color.Blue, options);
+	presentation.Save("SomePresentation-out.pptx", SaveFormat.Pptx);
+}
+```
+
 ### See Also
 
 * interface [ITextHighlightingOptions](../../itexthighlightingoptions)

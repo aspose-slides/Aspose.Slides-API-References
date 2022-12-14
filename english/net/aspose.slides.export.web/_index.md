@@ -12,7 +12,7 @@ url: /net/aspose.slides.export.web/
 
 | Class | Description |
 | --- | --- |
-| [Input](./input) | Represents a collection of input elements (templates) for !:IWebDocument. |
+| [Input](./input) | Represents a collection of input elements (templates). |
 | [Output](./output) | Represents a collection of output elements for !:IWebDocument. |
 | [OutputFile](./outputfile) | Represents an output file. |
 | [Storage](./storage) | Represents a temporary data storage for [`WebDocument`](../aspose.slides.export.web/webdocument). |

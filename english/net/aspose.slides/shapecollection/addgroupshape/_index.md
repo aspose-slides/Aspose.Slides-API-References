@@ -18,6 +18,33 @@ public IGroupShape AddGroupShape()
 
 Created GroupShape object.
 
+### Examples
+
+The following example shows how to add a group shape to a slide of PowerPoint Presentation.
+
+```csharp
+[C#]
+// Instantiate Prseetation class
+using (Presentation pres = new Presentation())
+{
+    // Get the first slide
+    ISlide sld = pres.Slides[0];
+    // Accessing the shape collection of slides
+    IShapeCollection slideShapes = sld.Shapes;
+    // Adding a group shape to the slide
+    IGroupShape groupShape = slideShapes.AddGroupShape();
+    // Adding shapes inside added group shape
+    groupShape.Shapes.AddAutoShape(ShapeType.Rectangle, 300, 100, 100, 100);
+    groupShape.Shapes.AddAutoShape(ShapeType.Rectangle, 500, 100, 100, 100);
+    groupShape.Shapes.AddAutoShape(ShapeType.Rectangle, 300, 300, 100, 100);
+    groupShape.Shapes.AddAutoShape(ShapeType.Rectangle, 500, 300, 100, 100);
+    // Adding group shape frame
+    groupShape.Frame = new ShapeFrame(100, 300, 500, 40, NullableBool.False, NullableBool.False, 0);
+    // Write the PPTX file to disk
+    pres.Save("GroupShape_out.pptx", SaveFormat.Pptx);
+}
+```
+
 ### See Also
 
 * interface [IGroupShape](../../igroupshape)

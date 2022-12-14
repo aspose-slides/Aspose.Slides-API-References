@@ -43,7 +43,7 @@ public sealed class ShapeCollection : DomObject<GroupShape>, IShapeCollection
 | [AddConnector](../../aspose.slides/shapecollection/addconnector#addconnector_1)(ShapeType, float, float, float, float, bool) | Creates a new Connector and adds it to the end of the collection. |
 | [AddGroupShape](../../aspose.slides/shapecollection/addgroupshape#addgroupshape)() | Creates a new GroupShape and adds it to the end of the collection. GroupShape frame size and position will be fitted to content when new shape will be added into the GroupShape. |
 | [AddGroupShape](../../aspose.slides/shapecollection/addgroupshape#addgroupshape_1)(ISvgImage, float, float, float, float) | Creates a new GroupShape, fills it with converted shapes from SVG and adds it to the end of the collection. |
-| [AddMathShape](../../aspose.slides/shapecollection/addmathshape)(float, float, float, float) | Creates a new Autoshape tuned from default template to math content and adds it to the end of the collection. |
+| [AddMathShape](../../aspose.slides/shapecollection/addmathshape)(float, float, float, float) |  |
 | [AddOleObjectFrame](../../aspose.slides/shapecollection/addoleobjectframe#addoleobjectframe)(float, float, float, float, IOleEmbeddedDataInfo) | Adds a new OLE object to the end of a collection. |
 | [AddOleObjectFrame](../../aspose.slides/shapecollection/addoleobjectframe#addoleobjectframe_1)(float, float, float, float, string, string) | Adds a new OLE object to the end of a collection. |
 | [AddPictureFrame](../../aspose.slides/shapecollection/addpictureframe)(ShapeType, float, float, float, float, IPPImage) | Creates a new PictureFrame and adds it to the end of the collection. |

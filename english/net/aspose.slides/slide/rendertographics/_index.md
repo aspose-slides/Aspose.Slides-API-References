@@ -85,6 +85,58 @@ public void RenderToGraphics(IRenderingOptions options, Graphics graphics, Size 
 | --- | --- |
 | InvalidOperationException | Thrown when notesCommentsLayouting.NotesPosition takes the value NotesPositions.BottomFull |
 
+### Examples
+
+The following example shows how to convert the first slide to the framed image with the RenderToGraphics method.
+
+```csharp
+[C#]
+using (Presentation pres = new Presentation("Presentation.pptx"))
+{
+    Size slideSize = new Size(1820, 1040);
+    // Creates a Bitmap with the specified size (slide size + fields)
+    using (Bitmap slideImage = new Bitmap(slideSize.Width + 50, slideSize.Height + 50))
+    {
+        using (Graphics graphics = Graphics.FromImage(slideImage))
+        {
+            // Fills and translates Graphics to create a frame around the slide
+            graphics.Clear(Color.Red);
+            graphics.TranslateTransform(25f, 25f);
+            // Renders the first slide to Graphics
+            pres.Slides[0].RenderToGraphics(new RenderingOptions(), graphics, slideSize);
+        }
+        // Saves the image in the JPEG format
+        slideImage.Save("FramedSlide_0.jpg", ImageFormat.Jpeg);
+    }
+}
+```
+
+The following example shows how to conversion process for a slide with notes using the RenderToGraphics.
+
+```csharp
+[C#]
+using (Presentation pres = new Presentation("PresentationNotes.pptx"))
+{
+    // Gets the presentation notes size
+    Size notesSize = pres.NotesSize.Size.ToSize();
+    // Creates the rendering options
+    IRenderingOptions options = new RenderingOptions();
+    // Sets the position of the notes
+    options.NotesCommentsLayouting.NotesPosition = NotesPositions.BottomTruncated;
+    // Creates a Bitmap with the notes' size
+    using (Bitmap slideImage = new Bitmap(notesSize.Width, notesSize.Height))
+    {
+        // Renders the first slide to Graphics
+        using (Graphics graphics = Graphics.FromImage(slideImage))
+        {
+            pres.Slides[0].RenderToGraphics(options, graphics, notesSize);
+        }
+        // Saves the image in PNG format
+        slideImage.Save("Slide_Notes_0.png", ImageFormat.Png);
+    }
+}
+```
+
 ### See Also
 
 * interface [IRenderingOptions](../../../aspose.slides.export/irenderingoptions)

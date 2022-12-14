@@ -11,7 +11,7 @@ url: /net/aspose.slides/buildversioninfo/product/
 Product name of Aspose.Slides
 
 ```csharp
-public static readonly string Product;
+public const string Product;
 ```
 
 ### See Also

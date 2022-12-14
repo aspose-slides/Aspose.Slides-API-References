@@ -29,20 +29,15 @@ Create SmartArt diagram
 
 ### Examples
 
-Example:
+The following example shows how to add smart shape in PowerPoint Presentation.
 
 ```csharp
 [C#]
-Presentation pres = new Presentation();
-Slide slide = pres.Slides[0];
-SmartArt smart = slide.Shapes.AddSmartArt(0, 0, 400, 400, SmartArtLayoutType.BasicBlockList);
-```
-
-```csharp
-[Visual Basic]
-Private pres As New Presentation()
-Private slide As Slide = pres.Slides(0)
-Private smart As SmartArt = slide.Shapes.AddSmartArt(0, 0, 400, 400, SmartArtLayoutType.BasicBlockList)
+using (Presentation pres = new Presentation())
+{
+	Slide slide = pres.Slides[0];
+	SmartArt smart = slide.Shapes.AddSmartArt(0, 0, 400, 400, SmartArtLayoutType.BasicBlockList);
+}
 ```
 
 ### See Also

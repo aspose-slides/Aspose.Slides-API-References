@@ -48,7 +48,7 @@ class CustomSvgShapeFormattingController : ISvgShapeAndTextFormattingController
 	public void FormatText(Aspose.Slides.Export.ISvgTSpan svgTSpan, IPortion portion, ITextFrame textFrame)
 	{
 		int paragraphIndex = 0; int portionIndex = 0;
-		for (int i = 0; i < textFrame.Paragraphs.Count; i++)
+		for (int i = 0; i &lt; textFrame.Paragraphs.Count; i++)
 		{
 			portionIndex = textFrame.Paragraphs[i].Portions.IndexOf(portion);
 			if (portionIndex > -1) { paragraphIndex = i; break; }

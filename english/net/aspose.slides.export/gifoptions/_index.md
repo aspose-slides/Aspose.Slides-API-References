@@ -32,6 +32,23 @@ public class GifOptions : SaveOptions, IGifOptions
 | [TransitionFps](../../aspose.slides.export/gifoptions/transitionfps) { get; set; } | Gets or sets transition FPS [frames/sec] The default value is 25. |
 | [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Returns of sets an object which receives warnings and decides whether loading process will continue or will be aborted. Read/write [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
+### Examples
+
+The following example shows how to converting presentations to animated GIF using custom settings.
+
+```csharp
+[C#]
+using (Presentation pres = new Presentation("pres.pptx"))
+{
+    pres.Save("pres.gif", SaveFormat.Gif, new GifOptions
+    {
+        FrameSize = new Size(960, 720), // the size of the resulted GIF
+        DefaultDelay = 2000, // how long each slide will be showed until it will be changed to the next one
+        TransitionFps = 35 // increase FPS to better transition animation quality
+    });
+}
+```
+
 ### See Also
 
 * class [SaveOptions](../saveoptions)

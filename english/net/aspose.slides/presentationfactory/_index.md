@@ -44,6 +44,42 @@ public class PresentationFactory : IPresentationFactory
 | [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_3)(Stream, ILoadOptions) | Reads an existing presentation from stream with additional load options |
 | [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_5)(string, ILoadOptions) | Reads an existing presentation from stream with additional load options |
 
+### Examples
+
+The following example shows how to checking a Presentation Format.
+
+```csharp
+[C#]
+IPresentationInfo info = PresentationFactory.Instance.GetPresentationInfo("pres.pptx");
+Console.WriteLine(info.LoadFormat); // PPTX
+IPresentationInfo info2 = PresentationFactory.Instance.GetPresentationInfo("pres.ppt");
+Console.WriteLine(info2.LoadFormat); // PPT
+IPresentationInfo info3 = PresentationFactory.Instance.GetPresentationInfo("pres.odp");
+Console.WriteLine(info3.LoadFormat); // ODP
+```
+
+The following example shows how to getting the properties of a Presentation.
+
+```csharp
+[C#]
+IPresentationInfo info = PresentationFactory.Instance.GetPresentationInfo("pres.pptx");
+IDocumentProperties props = info.ReadDocumentProperties();
+Console.WriteLine(props.CreatedTime);
+Console.WriteLine(props.Subject);
+Console.WriteLine(props.Title);
+// ..
+```
+
+The following example shows how to updating the properties of a Presentation.
+
+```csharp
+[C#]
+IPresentationInfo info = PresentationFactory.Instance.GetPresentationInfo("pres.pptx");
+IDocumentProperties props = info.ReadDocumentProperties();
+props.Title = "My title";
+info.UpdateDocumentProperties(props);
+```
+
 ### See Also
 
 * interface [IPresentationFactory](../ipresentationfactory)

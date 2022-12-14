@@ -44,6 +44,26 @@ public class SwfOptions : SaveOptions, ISwfOptions
 | [ViewerIncluded](../../aspose.slides.export/swfoptions/viewerincluded) { get; set; } | Specifies whether the generated SWF document should include the integrated document viewer or not. Default is `true`. |
 | [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Returns of sets an object which receives warnings and decides whether loading process will continue or will be aborted. Read/write [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
+### Examples
+
+The following example shows how to convert PowerPoint to SWF Flash.
+
+```csharp
+[C#]
+// Instantiate a Presentation object that represents a presentation file
+using (Presentation presentation = new Presentation("HelloWorld.pptx"))
+{
+    SwfOptions swfOptions = new SwfOptions();
+    swfOptions.ViewerIncluded = false;
+    INotesCommentsLayoutingOptions notesOptions = swfOptions.NotesCommentsLayouting;
+    notesOptions.NotesPosition = NotesPositions.BottomFull;
+    // Saving presentation and notes pages
+    presentation.Save("SaveAsSwf_out.swf", SaveFormat.Swf, swfOptions);
+    swfOptions.ViewerIncluded = true;
+    presentation.Save("SaveNotes_out.swf", SaveFormat.Swf, swfOptions);
+}
+```
+
 ### See Also
 
 * class [SaveOptions](../saveoptions)

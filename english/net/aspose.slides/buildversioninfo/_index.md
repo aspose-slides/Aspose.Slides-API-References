@@ -18,11 +18,11 @@ public static class BuildVersionInfo
 
 | Name | Description |
 | --- | --- |
-| static readonly [AssemblyVersion](../../aspose.slides/buildversioninfo/assemblyversion) | Version of Aspose.Slides assembly. |
-| static readonly [FileVersion](../../aspose.slides/buildversioninfo/fileversion) | Version of assembly file. |
-| static readonly [Product](../../aspose.slides/buildversioninfo/product) | Product name of Aspose.Slides |
-| static readonly [ProductMajor](../../aspose.slides/buildversioninfo/productmajor) | Major version number. |
-| static readonly [ProductMinor](../../aspose.slides/buildversioninfo/productminor) | Minor version number. |
+| const [AssemblyVersion](../../aspose.slides/buildversioninfo/assemblyversion) | Version of Aspose.Slides assembly. |
+| const [FileVersion](../../aspose.slides/buildversioninfo/fileversion) | Version of assembly file. |
+| const [Product](../../aspose.slides/buildversioninfo/product) | Product name of Aspose.Slides |
+| const [ProductMajor](../../aspose.slides/buildversioninfo/productmajor) | Major version number. |
+| const [ProductMinor](../../aspose.slides/buildversioninfo/productminor) | Minor version number. |
 | static readonly [ReleaseDate](../../aspose.slides/buildversioninfo/releasedate) | Release date of the assembly. |
 
 ### See Also

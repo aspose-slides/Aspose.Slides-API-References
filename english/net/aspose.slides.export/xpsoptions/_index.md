@@ -31,6 +31,36 @@ public class XpsOptions : SaveOptions, IXpsOptions
 | [ShowHiddenSlides](../../aspose.slides.export/xpsoptions/showhiddenslides) { get; set; } | Specifies whether the generated document should include hidden slides or not. Default is `false`. |
 | [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Returns of sets an object which receives warnings and decides whether loading process will continue or will be aborted. Read/write [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
+### Examples
+
+The following example shows how to converting presentations to XPS using default settings.
+
+```csharp
+[C#]
+// Instantiate a Presentation object that represents a presentation file
+using (Presentation pres = new Presentation("Convert_XPS.pptx"))
+{
+    // Saving the presentation to XPS document
+    pres.Save("XPS_Output_Without_XPSOption_out.xps", SaveFormat.Xps);
+}
+```
+
+The following example shows how to converting presentations to XPS using custom settings.
+
+```csharp
+[C#]
+// Instantiate a Presentation object that represents a presentation file
+using (Presentation pres = new Presentation("Convert_XPS_Options.pptx"))
+{
+    // Instantiate the TiffOptions class
+    XpsOptions options = new XpsOptions();
+    // Save MetaFiles as PNG
+    options.SaveMetafilesAsPng = true;
+    // Save the presentation to XPS document
+    pres.Save("XPS_With_Options_out.xps", SaveFormat.Xps, options);
+}
+```
+
 ### See Also
 
 * class [SaveOptions](../saveoptions)

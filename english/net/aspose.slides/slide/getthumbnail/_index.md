@@ -23,6 +23,77 @@ public Bitmap GetThumbnail(float scaleX, float scaleY)
 
 Bitmap object.
 
+### Examples
+
+The following example shows how to generate thumbnails from PowerPoint Presentation.
+
+```csharp
+[C#]
+// Instantiate a Presentation class that represents the presentation file
+using (Presentation pres = new Presentation("ThumbnailFromSlide.pptx"))
+{
+    // Access the first slide
+    ISlide sld = pres.Slides[0];
+    // Create a full scale image
+    Bitmap bmp = sld.GetThumbnail(1f, 1f);
+    // Save the image to disk in JPEG format
+    bmp.Save("Thumbnail_out.jpg", System.Drawing.Imaging.ImageFormat.Jpeg);
+}
+```
+
+The following example shows how to converting slides to bitmap and saving the images in PNG.
+
+```csharp
+[C#]
+using (Presentation pres = new Presentation("Presentation.pptx"))
+{
+    // Converts the first slide in the presentation to a Bitmap object
+    using (Bitmap bmp = pres.Slides[0].GetThumbnail())
+    {
+        // Saves the image in the PNG format
+        bmp.Save("Slide_0.png", ImageFormat.Png);
+    }
+}
+```
+
+The following example shows how to convert PowerPoint PPT/PPTX to JPG.
+
+```csharp
+[C#]
+using (Presentation pres = new Presentation("PowerPoint-Presentation.ppt"))
+{
+	foreach (ISlide sld in pres.Slides)
+	{
+		// Create a full scale image
+		Bitmap bmp = sld.GetThumbnail(1f, 1f);
+		// Save the image to disk in JPEG format
+		bmp.Save(string.Format("Slide_{0}.jpg", sld.SlideNumber), System.Drawing.Imaging.ImageFormat.Jpeg);
+	}
+}
+```
+
+The following example shows how to convert PowerPoint PPT/PPTX to JPG with customized dimensions.
+
+```csharp
+[C#]
+using (Presentation pres = new Presentation("PowerPoint-Presentation.pptx"))
+{
+	// Define dimensions
+	int desiredX = 1200;
+	int desiredY = 800;
+	// Get scaled values of X and Y
+	float ScaleX = (float)(1.0 / pres.SlideSize.Size.Width) * desiredX;
+	float ScaleY = (float)(1.0 / pres.SlideSize.Size.Height) * desiredY;
+	foreach (ISlide sld in pres.Slides)
+	{
+		// Create a full scale image
+		Bitmap bmp = sld.GetThumbnail(ScaleX, ScaleY);
+		// Save the image to disk in JPEG format
+		bmp.Save(string.Format("Slide_{0}.jpg", sld.SlideNumber), System.Drawing.Imaging.ImageFormat.Jpeg);
+	}
+}
+```
+
 ### See Also
 
 * class [Slide](../../slide)
@@ -62,6 +133,22 @@ public Bitmap GetThumbnail(Size imageSize)
 ### Return Value
 
 Bitmap object.
+
+### Examples
+
+The following example shows how to converting slides to images with custom sizes using C#.
+
+```csharp
+using (Presentation pres = new Presentation("Presentation.pptx"))
+{
+    // Converts the first slide in the presentation to a Bitmap with the specified size
+    using (Bitmap bmp = pres.Slides[0].GetThumbnail(new Size(1820, 1040)))
+    {
+        // Saves the image in the JPEG format
+        bmp.Save("Slide_0.jpg", ImageFormat.Jpeg);
+    }
+}
+```
 
 ### See Also
 
@@ -156,6 +243,30 @@ Bitmap objects.
 | exception | condition |
 | --- | --- |
 | InvalidOperationException | Thrown when notesCommentsLayouting.NotesPosition takes the value NotesPositions.BottomFull |
+
+### Examples
+
+The following example shows how to converting slides With notes and comments to Images using C#.
+
+```csharp
+using (Presentation pres = new Presentation("PresentationNotesComments.pptx"))
+{
+    // Creates the rendering options
+    IRenderingOptions options = new RenderingOptions();
+    // Sets the position of the notes on the page
+    options.NotesCommentsLayouting.NotesPosition = NotesPositions.BottomTruncated;
+    // Sets the position of the comments on the page
+    options.NotesCommentsLayouting.CommentsPosition = CommentsPositions.Right;
+    // Sets the width of the comment output area
+    options.NotesCommentsLayouting.CommentsAreaWidth = 500;
+    // Sets the color for the comments area
+    options.NotesCommentsLayouting.CommentsAreaColor = Color.AntiqueWhite;
+    // Converts the first slide of the presentation to a Bitmap object
+    Bitmap bmp = pres.Slides[0].GetThumbnail(options, 2f, 2f);
+    // Saves the image in the GIF format
+    bmp.Save("Slide_Notes_Comments_0.gif", ImageFormat.Gif);
+}
+```
 
 ### See Also
 

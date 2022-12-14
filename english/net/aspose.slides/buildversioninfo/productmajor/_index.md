@@ -11,7 +11,7 @@ url: /net/aspose.slides/buildversioninfo/productmajor/
 Major version number.
 
 ```csharp
-public static readonly int ProductMajor;
+public const int ProductMajor;
 ```
 
 ### See Also

@@ -29,13 +29,36 @@ Created OLE object.
 
 ### Examples
 
-This example demonstrates adding an OLE object to the end of a collection:
+The following examples shows how to adding OLE Object Frames to Slides of PowerPoint Presentation.
 
 ```csharp
 [C#]
-byte[] fileData = File.ReadAllBytes("test.zip");
-IEmbeddedDataInfo dataInfo = new EmbeddedDataInfo(fileData, "zip");
-IOleObjectFrame oleObjectFrame = slidees.Shapes.AddOleObjectFrame(150, 20, 50, 50, dataInfo);
+// Instantiates the Presentation class that represents the PPTX file
+using (Presentation pres = new Presentation())
+{
+    // Accesses the first slide
+    ISlide sld = pres.Slides[0];
+    // Loads an excel file to stream
+    MemoryStream mstream = new MemoryStream();
+    using (FileStream fs = new FileStream("book1.xlsx", FileMode.Open, FileAccess.Read))
+    {
+        byte[] buf = new byte[4096];
+        while (true)
+        {
+            int bytesRead = fs.Read(buf, 0, buf.Length);
+            if (bytesRead <= 0)
+                break;
+            mstream.Write(buf, 0, bytesRead);
+        }
+    }
+    // Creates a data object for embedding
+    IOleEmbeddedDataInfo dataInfo = new OleEmbeddedDataInfo(mstream.ToArray(), "xlsx");
+    // Adds an Ole Object Frame shape
+    IOleObjectFrame oleObjectFrame = sld.Shapes.AddOleObjectFrame(0, 0, pres.SlideSize.Size.Width,
+        pres.SlideSize.Size.Height, dataInfo);
+    //Writes the PPTX file to disk
+    pres.Save("OleEmbed_out.pptx", SaveFormat.Pptx);
+}
 ```
 
 ### See Also

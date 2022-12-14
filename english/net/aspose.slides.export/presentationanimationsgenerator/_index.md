@@ -1,7 +1,7 @@
 ---
 title: PresentationAnimationsGenerator
 second_title: Aspose.Sildes for .NET API Reference
-description: 
+description: Represents a generator of the animations in the Presentation../aspose.slides/presentation.
 type: docs
 weight: 4020
 url: /net/aspose.slides.export/presentationanimationsgenerator/
@@ -48,6 +48,25 @@ public class PresentationAnimationsGenerator : IDisposable
 | Name | Description |
 | --- | --- |
 | event [NewAnimation](../../aspose.slides.export/presentationanimationsgenerator/newanimation) | An event represents that a new animation was generated. |
+
+### Examples
+
+```csharp
+[C#]
+using (Presentation presentation = new Presentation("animated.pptx"))
+{
+    using (var animationsGenerator = new PresentationAnimationsGenerator(presentation))
+    using (var player = new PresentationPlayer(animationsGenerator, 33))
+    {
+        player.FrameTick += (sender, args) =>
+        {
+            args.GetFrame().Save($"frame_{sender.FrameIndex}.png");
+        };
+
+        animationsGenerator.Run(presentation.Slides);
+    }
+}
+```
 
 ### See Also
 

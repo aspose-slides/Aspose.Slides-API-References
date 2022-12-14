@@ -1,29 +1,16 @@
 ---
 title: AddMathShape
 second_title: Aspose.Sildes for .NET API Reference
-description: Creates a new Autoshape tuned from default template to math content and adds it to the end of the collection.
+description: 
 type: docs
 weight: 140
 url: /net/aspose.slides/shapecollection/addmathshape/
 ---
 ## ShapeCollection.AddMathShape method
 
-Creates a new Autoshape tuned from default template to math content and adds it to the end of the collection.
-
 ```csharp
 public IAutoShape AddMathShape(float x, float y, float width, float height)
 ```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| x | Single | The X-coordinate for a left side of shape's frame. |
-| y | Single | The Y-coordinate for a top side of shape's frame. |
-| width | Single | The width of shape's frame. |
-| height | Single | The height of shape's frame. |
-
-### Return Value
-
-Created AutoShape object.
 
 ### See Also
 

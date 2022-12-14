@@ -14,6 +14,92 @@ Returns a list of all master slides that are defined in the presentation. Read-o
 public IMasterSlideCollection Masters { get; }
 ```
 
+### Examples
+
+The following examples shows how to adding Images to Master Slides of PowerPoint Presentation.
+
+```csharp
+[C#]
+using (Presentation pres = new Presentation())
+{
+    ISlide slide = pres.Slides[0];
+    IMasterSlide masterSlide = slide.LayoutSlide.MasterSlide;
+    IPPImage image = pres.Images.AddImage(File.ReadAllBytes("image.png"));
+    masterSlide.Shapes.AddPictureFrame(ShapeType.Rectangle, 10, 10, 100, 100, image);
+    pres.Save("pres.pptx", SaveFormat.Pptx);
+}
+```
+
+The following examples shows how to change the background color of the master slide of PowerPoint Presentation.
+
+```csharp
+[C#]
+// Instantiate the Presentation class that represents the presentation file
+using (Presentation pres = new Presentation())
+{
+    // Set the background color of the Master ISlide to Forest Green
+    pres.Masters[0].Background.Type = BackgroundType.OwnBackground;
+    pres.Masters[0].Background.FillFormat.FillType = FillType.Solid;
+    pres.Masters[0].Background.FillFormat.SolidFillColor.Color = Color.ForestGreen;
+    // Write the presentation to disk
+    pres.Save("SetSlideBackgroundMaster_out.pptx", SaveFormat.Pptx);
+}
+```
+
+The following examples shows how to add slide layout to PowerPoint Presentation.
+
+```csharp
+[C#]
+// Instantiate Presentation class that represents the presentation file
+using (Presentation presentation = new Presentation("AccessSlides.pptx"))
+{
+    // Try to search by layout slide type
+    IMasterLayoutSlideCollection layoutSlides = presentation.Masters[0].LayoutSlides;
+    ILayoutSlide layoutSlide = layoutSlides.GetByType(SlideLayoutType.TitleAndObject) ?? layoutSlides.GetByType(SlideLayoutType.Title);
+    if (layoutSlide == null)
+    {
+        // The situation when a presentation doesn't contain some type of layouts.
+        // presentation File only contains Blank and Custom layout types.
+        // But layout slides with Custom types has different slide names,
+        // like "Title", "Title and Content", etc. And it is possible to use these
+        // names for layout slide selection.
+        // Also it is possible to use the set of placeholder shape types. For example,
+        // Title slide should have only Title pleceholder type, etc.
+        foreach (ILayoutSlide titleAndObjectLayoutSlide in layoutSlides)
+        {
+            if (titleAndObjectLayoutSlide.Name == "Title and Object")
+            {
+                layoutSlide = titleAndObjectLayoutSlide;
+                break;
+            }
+        }
+        if (layoutSlide == null)
+        {
+            foreach (ILayoutSlide titleLayoutSlide in layoutSlides)
+            {
+                if (titleLayoutSlide.Name == "Title")
+                {
+                    layoutSlide = titleLayoutSlide;
+                    break;
+                }
+            }
+            if (layoutSlide == null)
+            {
+                layoutSlide = layoutSlides.GetByType(SlideLayoutType.Blank);
+                if (layoutSlide == null)
+                {
+                    layoutSlide = layoutSlides.Add(SlideLayoutType.TitleAndObject, "Title and Object");
+                }
+            }
+        }
+    }
+    // Adding empty slide with added layout slide
+    presentation.Slides.InsertEmptySlide(0, layoutSlide);
+    // Save presentation
+    presentation.Save("AddLayoutSlides_out.pptx", SaveFormat.Pptx);
+}
+```
+
 ### See Also
 
 * interface [IMasterSlideCollection](../../imasterslidecollection)
