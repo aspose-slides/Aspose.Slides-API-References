@@ -102,6 +102,31 @@ public final String getDefaultRegularFont()
 
 Returns or sets Regular font used in case source font is not found. Read/write String.
 
+--------------------
+
+> ```
+> The following example shows how to set default fonts for rendering PowerPoint Presentation.
+>  
+>  // Use load options to define the default regular and asian fonts
+>  LoadOptions loadOptions = new LoadOptions(LoadFormat.Auto);
+>  loadOptions.setDefaultRegularFont("Wingdings");
+>  loadOptions.setDefaultAsianFont("Wingdings");
+>  // Load the presentation
+>  Presentation pres = new Presentation("DefaultFonts.pptx", loadOptions);
+>  try {
+>      // Generate slide thumbnail
+>      BufferedImage slideImage = pres.getSlides().get_Item(0).getThumbnail(1, 1);
+>      ImageIO.write(slideImage, "PNG", new File("output_out.png"));
+>      // Generate PDF
+>      pres.save("output_out.pdf", SaveFormat.Pdf);
+>      // Generate XPS
+>      pres.save("output_out.xps", SaveFormat.Xps);
+>  } catch(IOException e) {
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
 **Returns:**
 java.lang.String
 ### setDefaultRegularFont(String value) {#setDefaultRegularFont-java.lang.String-}
@@ -111,6 +136,31 @@ public final void setDefaultRegularFont(String value)
 
 
 Returns or sets Regular font used in case source font is not found. Read/write String.
+
+--------------------
+
+> ```
+> The following example shows how to set default fonts for rendering PowerPoint Presentation.
+>  
+>  // Use load options to define the default regular and asian fonts
+>  LoadOptions loadOptions = new LoadOptions(LoadFormat.Auto);
+>  loadOptions.setDefaultRegularFont("Wingdings");
+>  loadOptions.setDefaultAsianFont("Wingdings");
+>  // Load the presentation
+>  Presentation pres = new Presentation("DefaultFonts.pptx", loadOptions);
+>  try {
+>      // Generate slide thumbnail
+>      BufferedImage slideImage = pres.getSlides().get_Item(0).getThumbnail(1, 1);
+>      ImageIO.write(slideImage, "PNG", new File("output_out.png"));
+>      // Generate PDF
+>      pres.save("output_out.pdf", SaveFormat.Pdf);
+>      // Generate XPS
+>      pres.save("output_out.xps", SaveFormat.Xps);
+>  } catch(IOException e) {
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -171,6 +221,21 @@ public final String getPassword()
 
 Gets or sets the password. Read/write String.
 
+--------------------
+
+> ```
+> The following sample code shows how to open password protected PowerPoint Presentation.
+>  
+>  LoadOptions loadOptions = new LoadOptions();
+>  loadOptions.setPassword("YOUR_PASSWORD");
+>  Presentation pres = new Presentation("pres.pptx", loadOptions);
+>  try {
+>  // work with decrypted presentation
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
 Value: The password.
 
 **Returns:**
@@ -182,6 +247,21 @@ public final void setPassword(String value)
 
 
 Gets or sets the password. Read/write String.
+
+--------------------
+
+> ```
+> The following sample code shows how to open password protected PowerPoint Presentation.
+>  
+>  LoadOptions loadOptions = new LoadOptions();
+>  loadOptions.setPassword("YOUR_PASSWORD");
+>  Presentation pres = new Presentation("pres.pptx", loadOptions);
+>  try {
+>  // work with decrypted presentation
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
 
 Value: The password.
 

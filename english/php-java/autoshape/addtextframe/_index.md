@@ -13,6 +13,21 @@ url: /php-java/autoshape/addtextframe/
  If shape already has TextFrame then simply changes its text.
  
 
+ The following sample code shows how to add watermark text in PowerPoint Presentation.
+ 
+```php
+  $pres = new Presentation();
+  try {
+    $slide = $pres->getSlides()->get_Item(0);
+    $watermarkShape = $slide->getShapes()->addAutoShape(ShapeType.Triangle, 0, 0, 150, 50);
+    $watermarkTextFrame = $watermarkShape->addTextFrame("Watermark");
+  } finally {
+    if ($pres != null) {
+      $pres->dispose();
+    }
+  }
+```
+
 ### Parameters
 
 | Name | Type | Description |

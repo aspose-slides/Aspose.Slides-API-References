@@ -128,7 +128,7 @@ int
 ---
 
 
-## getCount([VideoFrame](../../videoframe) shape)  method
+## getCount([OleObjectFrame](../../oleobjectframe) shape)  method
 
  Returns count of effects for the specified shape.
  
@@ -140,7 +140,7 @@ int
 ---
 
 
-## getCount([OleObjectFrame](../../oleobjectframe) shape)  method
+## getCount([VideoFrame](../../videoframe) shape)  method
 
  Returns count of effects for the specified shape.
  
@@ -236,7 +236,7 @@ int
 ---
 
 
-## getCount([LegacyDiagram](../../legacydiagram) shape)  method
+## getCount([ZoomObject](../../zoomobject) shape)  method
 
  Returns count of effects for the specified shape.
  
@@ -248,7 +248,7 @@ int
 ---
 
 
-## getCount([ZoomObject](../../zoomobject) shape)  method
+## getCount([LegacyDiagram](../../legacydiagram) shape)  method
 
  Returns count of effects for the specified shape.
  

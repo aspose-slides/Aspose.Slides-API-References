@@ -19,7 +19,7 @@ url: /php-java/digitalsignaturecollection/add/
     $signature = new DigitalSignature("testsignature1.pfx", "testpass1");
     $signature->setComments("Aspose.Slides digital signing test.");
     $pres->getDigitalSignatures()->add($signature);
-    $pres->save("SomePresentationSigned.pptx", SaveFormat::Pptx);
+    $pres->save("SomePresentationSigned.pptx", SaveFormat.Pptx);
   } finally {
     if ($pres != null) {
       $pres->dispose();

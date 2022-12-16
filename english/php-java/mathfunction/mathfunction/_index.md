@@ -133,7 +133,7 @@ Example:
 ---
 
 
-## MathFunction([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) funcName, [MathGroupingCharacter](../../mathgroupingcharacter) baseArgument)  constructor
+## MathFunction([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) funcName, [MathBorderBox](../../mathborderbox) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -147,7 +147,7 @@ Example:
 ---
 
 
-## MathFunction([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) funcName, [MathBorderBox](../../mathborderbox) baseArgument)  constructor
+## MathFunction([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) funcName, [MathGroupingCharacter](../../mathgroupingcharacter) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -217,7 +217,7 @@ Example:
 ---
 
 
-## MathFunction([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) funcName, [MathematicalText](../../mathematicaltext) baseArgument)  constructor
+## MathFunction([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) funcName, [MathFraction](../../mathfraction) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -231,7 +231,7 @@ Example:
 ---
 
 
-## MathFunction([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) funcName, [MathFraction](../../mathfraction) baseArgument)  constructor
+## MathFunction([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) funcName, [MathematicalText](../../mathematicaltext) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -399,7 +399,7 @@ Example:
 ---
 
 
-## MathFunction([MathMatrix](../../mathmatrix) funcName, [MathGroupingCharacter](../../mathgroupingcharacter) baseArgument)  constructor
+## MathFunction([MathMatrix](../../mathmatrix) funcName, [MathBorderBox](../../mathborderbox) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -413,7 +413,7 @@ Example:
 ---
 
 
-## MathFunction([MathMatrix](../../mathmatrix) funcName, [MathBorderBox](../../mathborderbox) baseArgument)  constructor
+## MathFunction([MathMatrix](../../mathmatrix) funcName, [MathGroupingCharacter](../../mathgroupingcharacter) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -483,7 +483,7 @@ Example:
 ---
 
 
-## MathFunction([MathMatrix](../../mathmatrix) funcName, [MathematicalText](../../mathematicaltext) baseArgument)  constructor
+## MathFunction([MathMatrix](../../mathmatrix) funcName, [MathFraction](../../mathfraction) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -497,7 +497,7 @@ Example:
 ---
 
 
-## MathFunction([MathMatrix](../../mathmatrix) funcName, [MathFraction](../../mathfraction) baseArgument)  constructor
+## MathFunction([MathMatrix](../../mathmatrix) funcName, [MathematicalText](../../mathematicaltext) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -665,7 +665,7 @@ Example:
 ---
 
 
-## MathFunction([MathLimit](../../mathlimit) funcName, [MathGroupingCharacter](../../mathgroupingcharacter) baseArgument)  constructor
+## MathFunction([MathLimit](../../mathlimit) funcName, [MathBorderBox](../../mathborderbox) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -679,7 +679,7 @@ Example:
 ---
 
 
-## MathFunction([MathLimit](../../mathlimit) funcName, [MathBorderBox](../../mathborderbox) baseArgument)  constructor
+## MathFunction([MathLimit](../../mathlimit) funcName, [MathGroupingCharacter](../../mathgroupingcharacter) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -749,7 +749,7 @@ Example:
 ---
 
 
-## MathFunction([MathLimit](../../mathlimit) funcName, [MathematicalText](../../mathematicaltext) baseArgument)  constructor
+## MathFunction([MathLimit](../../mathlimit) funcName, [MathFraction](../../mathfraction) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -763,7 +763,7 @@ Example:
 ---
 
 
-## MathFunction([MathLimit](../../mathlimit) funcName, [MathFraction](../../mathfraction) baseArgument)  constructor
+## MathFunction([MathLimit](../../mathlimit) funcName, [MathematicalText](../../mathematicaltext) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -931,7 +931,7 @@ Example:
 ---
 
 
-## MathFunction([MathBlock](../../mathblock) funcName, [MathGroupingCharacter](../../mathgroupingcharacter) baseArgument)  constructor
+## MathFunction([MathBlock](../../mathblock) funcName, [MathBorderBox](../../mathborderbox) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -945,7 +945,7 @@ Example:
 ---
 
 
-## MathFunction([MathBlock](../../mathblock) funcName, [MathBorderBox](../../mathborderbox) baseArgument)  constructor
+## MathFunction([MathBlock](../../mathblock) funcName, [MathGroupingCharacter](../../mathgroupingcharacter) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -1015,7 +1015,7 @@ Example:
 ---
 
 
-## MathFunction([MathBlock](../../mathblock) funcName, [MathematicalText](../../mathematicaltext) baseArgument)  constructor
+## MathFunction([MathBlock](../../mathblock) funcName, [MathFraction](../../mathfraction) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -1029,7 +1029,7 @@ Example:
 ---
 
 
-## MathFunction([MathBlock](../../mathblock) funcName, [MathFraction](../../mathfraction) baseArgument)  constructor
+## MathFunction([MathBlock](../../mathblock) funcName, [MathematicalText](../../mathematicaltext) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -1197,7 +1197,7 @@ Example:
 ---
 
 
-## MathFunction([MathRadical](../../mathradical) funcName, [MathGroupingCharacter](../../mathgroupingcharacter) baseArgument)  constructor
+## MathFunction([MathRadical](../../mathradical) funcName, [MathBorderBox](../../mathborderbox) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -1211,7 +1211,7 @@ Example:
 ---
 
 
-## MathFunction([MathRadical](../../mathradical) funcName, [MathBorderBox](../../mathborderbox) baseArgument)  constructor
+## MathFunction([MathRadical](../../mathradical) funcName, [MathGroupingCharacter](../../mathgroupingcharacter) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -1281,7 +1281,7 @@ Example:
 ---
 
 
-## MathFunction([MathRadical](../../mathradical) funcName, [MathematicalText](../../mathematicaltext) baseArgument)  constructor
+## MathFunction([MathRadical](../../mathradical) funcName, [MathFraction](../../mathfraction) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -1295,7 +1295,7 @@ Example:
 ---
 
 
-## MathFunction([MathRadical](../../mathradical) funcName, [MathFraction](../../mathfraction) baseArgument)  constructor
+## MathFunction([MathRadical](../../mathradical) funcName, [MathematicalText](../../mathematicaltext) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -1463,7 +1463,7 @@ Example:
 ---
 
 
-## MathFunction([MathArray](../../matharray) funcName, [MathGroupingCharacter](../../mathgroupingcharacter) baseArgument)  constructor
+## MathFunction([MathArray](../../matharray) funcName, [MathBorderBox](../../mathborderbox) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -1477,7 +1477,7 @@ Example:
 ---
 
 
-## MathFunction([MathArray](../../matharray) funcName, [MathBorderBox](../../mathborderbox) baseArgument)  constructor
+## MathFunction([MathArray](../../matharray) funcName, [MathGroupingCharacter](../../mathgroupingcharacter) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -1547,7 +1547,7 @@ Example:
 ---
 
 
-## MathFunction([MathArray](../../matharray) funcName, [MathematicalText](../../mathematicaltext) baseArgument)  constructor
+## MathFunction([MathArray](../../matharray) funcName, [MathFraction](../../mathfraction) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -1561,7 +1561,7 @@ Example:
 ---
 
 
-## MathFunction([MathArray](../../matharray) funcName, [MathFraction](../../mathfraction) baseArgument)  constructor
+## MathFunction([MathArray](../../matharray) funcName, [MathematicalText](../../mathematicaltext) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -1729,7 +1729,7 @@ Example:
 ---
 
 
-## MathFunction([MathDelimiter](../../mathdelimiter) funcName, [MathGroupingCharacter](../../mathgroupingcharacter) baseArgument)  constructor
+## MathFunction([MathDelimiter](../../mathdelimiter) funcName, [MathBorderBox](../../mathborderbox) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -1743,7 +1743,7 @@ Example:
 ---
 
 
-## MathFunction([MathDelimiter](../../mathdelimiter) funcName, [MathBorderBox](../../mathborderbox) baseArgument)  constructor
+## MathFunction([MathDelimiter](../../mathdelimiter) funcName, [MathGroupingCharacter](../../mathgroupingcharacter) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -1813,7 +1813,7 @@ Example:
 ---
 
 
-## MathFunction([MathDelimiter](../../mathdelimiter) funcName, [MathematicalText](../../mathematicaltext) baseArgument)  constructor
+## MathFunction([MathDelimiter](../../mathdelimiter) funcName, [MathFraction](../../mathfraction) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -1827,7 +1827,7 @@ Example:
 ---
 
 
-## MathFunction([MathDelimiter](../../mathdelimiter) funcName, [MathFraction](../../mathfraction) baseArgument)  constructor
+## MathFunction([MathDelimiter](../../mathdelimiter) funcName, [MathematicalText](../../mathematicaltext) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -1995,7 +1995,7 @@ Example:
 ---
 
 
-## MathFunction([MathNaryOperator](../../mathnaryoperator) funcName, [MathGroupingCharacter](../../mathgroupingcharacter) baseArgument)  constructor
+## MathFunction([MathNaryOperator](../../mathnaryoperator) funcName, [MathBorderBox](../../mathborderbox) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -2009,7 +2009,7 @@ Example:
 ---
 
 
-## MathFunction([MathNaryOperator](../../mathnaryoperator) funcName, [MathBorderBox](../../mathborderbox) baseArgument)  constructor
+## MathFunction([MathNaryOperator](../../mathnaryoperator) funcName, [MathGroupingCharacter](../../mathgroupingcharacter) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -2079,7 +2079,7 @@ Example:
 ---
 
 
-## MathFunction([MathNaryOperator](../../mathnaryoperator) funcName, [MathematicalText](../../mathematicaltext) baseArgument)  constructor
+## MathFunction([MathNaryOperator](../../mathnaryoperator) funcName, [MathFraction](../../mathfraction) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -2093,7 +2093,7 @@ Example:
 ---
 
 
-## MathFunction([MathNaryOperator](../../mathnaryoperator) funcName, [MathFraction](../../mathfraction) baseArgument)  constructor
+## MathFunction([MathNaryOperator](../../mathnaryoperator) funcName, [MathematicalText](../../mathematicaltext) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -2261,7 +2261,7 @@ Example:
 ---
 
 
-## MathFunction([MathAccent](../../mathaccent) funcName, [MathGroupingCharacter](../../mathgroupingcharacter) baseArgument)  constructor
+## MathFunction([MathAccent](../../mathaccent) funcName, [MathBorderBox](../../mathborderbox) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -2275,7 +2275,7 @@ Example:
 ---
 
 
-## MathFunction([MathAccent](../../mathaccent) funcName, [MathBorderBox](../../mathborderbox) baseArgument)  constructor
+## MathFunction([MathAccent](../../mathaccent) funcName, [MathGroupingCharacter](../../mathgroupingcharacter) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -2345,7 +2345,7 @@ Example:
 ---
 
 
-## MathFunction([MathAccent](../../mathaccent) funcName, [MathematicalText](../../mathematicaltext) baseArgument)  constructor
+## MathFunction([MathAccent](../../mathaccent) funcName, [MathFraction](../../mathfraction) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -2359,7 +2359,7 @@ Example:
 ---
 
 
-## MathFunction([MathAccent](../../mathaccent) funcName, [MathFraction](../../mathfraction) baseArgument)  constructor
+## MathFunction([MathAccent](../../mathaccent) funcName, [MathematicalText](../../mathematicaltext) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -2388,272 +2388,6 @@ Example:
 
 
 ## MathFunction([MathAccent](../../mathaccent) funcName, [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-Example:
- 
-```php
-  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
-```
-
-
----
-
-
-## MathFunction([MathGroupingCharacter](../../mathgroupingcharacter) funcName, [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-Example:
- 
-```php
-  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
-```
-
-
----
-
-
-## MathFunction([MathGroupingCharacter](../../mathgroupingcharacter) funcName, [MathMatrix](../../mathmatrix) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-Example:
- 
-```php
-  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
-```
-
-
----
-
-
-## MathFunction([MathGroupingCharacter](../../mathgroupingcharacter) funcName, [MathLimit](../../mathlimit) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-Example:
- 
-```php
-  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
-```
-
-
----
-
-
-## MathFunction([MathGroupingCharacter](../../mathgroupingcharacter) funcName, [MathBlock](../../mathblock) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-Example:
- 
-```php
-  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
-```
-
-
----
-
-
-## MathFunction([MathGroupingCharacter](../../mathgroupingcharacter) funcName, [MathRadical](../../mathradical) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-Example:
- 
-```php
-  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
-```
-
-
----
-
-
-## MathFunction([MathGroupingCharacter](../../mathgroupingcharacter) funcName, [MathArray](../../matharray) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-Example:
- 
-```php
-  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
-```
-
-
----
-
-
-## MathFunction([MathGroupingCharacter](../../mathgroupingcharacter) funcName, [MathDelimiter](../../mathdelimiter) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-Example:
- 
-```php
-  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
-```
-
-
----
-
-
-## MathFunction([MathGroupingCharacter](../../mathgroupingcharacter) funcName, [MathNaryOperator](../../mathnaryoperator) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-Example:
- 
-```php
-  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
-```
-
-
----
-
-
-## MathFunction([MathGroupingCharacter](../../mathgroupingcharacter) funcName, [MathAccent](../../mathaccent) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-Example:
- 
-```php
-  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
-```
-
-
----
-
-
-## MathFunction([MathGroupingCharacter](../../mathgroupingcharacter) funcName, [MathGroupingCharacter](../../mathgroupingcharacter) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-Example:
- 
-```php
-  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
-```
-
-
----
-
-
-## MathFunction([MathGroupingCharacter](../../mathgroupingcharacter) funcName, [MathBorderBox](../../mathborderbox) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-Example:
- 
-```php
-  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
-```
-
-
----
-
-
-## MathFunction([MathGroupingCharacter](../../mathgroupingcharacter) funcName, [MathBar](../../mathbar) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-Example:
- 
-```php
-  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
-```
-
-
----
-
-
-## MathFunction([MathGroupingCharacter](../../mathgroupingcharacter) funcName, [MathSubscriptElement](../../mathsubscriptelement) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-Example:
- 
-```php
-  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
-```
-
-
----
-
-
-## MathFunction([MathGroupingCharacter](../../mathgroupingcharacter) funcName, [MathFunction](../../mathfunction) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-Example:
- 
-```php
-  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
-```
-
-
----
-
-
-## MathFunction([MathGroupingCharacter](../../mathgroupingcharacter) funcName, [MathSuperscriptElement](../../mathsuperscriptelement) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-Example:
- 
-```php
-  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
-```
-
-
----
-
-
-## MathFunction([MathGroupingCharacter](../../mathgroupingcharacter) funcName, [MathematicalText](../../mathematicaltext) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-Example:
- 
-```php
-  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
-```
-
-
----
-
-
-## MathFunction([MathGroupingCharacter](../../mathgroupingcharacter) funcName, [MathFraction](../../mathfraction) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-Example:
- 
-```php
-  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
-```
-
-
----
-
-
-## MathFunction([MathGroupingCharacter](../../mathgroupingcharacter) funcName, [MathBox](../../mathbox) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-Example:
- 
-```php
-  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
-```
-
-
----
-
-
-## MathFunction([MathGroupingCharacter](../../mathgroupingcharacter) funcName, [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -2793,7 +2527,7 @@ Example:
 ---
 
 
-## MathFunction([MathBorderBox](../../mathborderbox) funcName, [MathGroupingCharacter](../../mathgroupingcharacter) baseArgument)  constructor
+## MathFunction([MathBorderBox](../../mathborderbox) funcName, [MathBorderBox](../../mathborderbox) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -2807,7 +2541,7 @@ Example:
 ---
 
 
-## MathFunction([MathBorderBox](../../mathborderbox) funcName, [MathBorderBox](../../mathborderbox) baseArgument)  constructor
+## MathFunction([MathBorderBox](../../mathborderbox) funcName, [MathGroupingCharacter](../../mathgroupingcharacter) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -2877,7 +2611,7 @@ Example:
 ---
 
 
-## MathFunction([MathBorderBox](../../mathborderbox) funcName, [MathematicalText](../../mathematicaltext) baseArgument)  constructor
+## MathFunction([MathBorderBox](../../mathborderbox) funcName, [MathFraction](../../mathfraction) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -2891,7 +2625,7 @@ Example:
 ---
 
 
-## MathFunction([MathBorderBox](../../mathborderbox) funcName, [MathFraction](../../mathfraction) baseArgument)  constructor
+## MathFunction([MathBorderBox](../../mathborderbox) funcName, [MathematicalText](../../mathematicaltext) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -2920,6 +2654,272 @@ Example:
 
 
 ## MathFunction([MathBorderBox](../../mathborderbox) funcName, [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) baseArgument)  constructor
+
+ Initializes a new instance of the MathFunction class.
+ 
+Example:
+ 
+```php
+  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
+```
+
+
+---
+
+
+## MathFunction([MathGroupingCharacter](../../mathgroupingcharacter) funcName, [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) baseArgument)  constructor
+
+ Initializes a new instance of the MathFunction class.
+ 
+Example:
+ 
+```php
+  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
+```
+
+
+---
+
+
+## MathFunction([MathGroupingCharacter](../../mathgroupingcharacter) funcName, [MathMatrix](../../mathmatrix) baseArgument)  constructor
+
+ Initializes a new instance of the MathFunction class.
+ 
+Example:
+ 
+```php
+  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
+```
+
+
+---
+
+
+## MathFunction([MathGroupingCharacter](../../mathgroupingcharacter) funcName, [MathLimit](../../mathlimit) baseArgument)  constructor
+
+ Initializes a new instance of the MathFunction class.
+ 
+Example:
+ 
+```php
+  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
+```
+
+
+---
+
+
+## MathFunction([MathGroupingCharacter](../../mathgroupingcharacter) funcName, [MathBlock](../../mathblock) baseArgument)  constructor
+
+ Initializes a new instance of the MathFunction class.
+ 
+Example:
+ 
+```php
+  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
+```
+
+
+---
+
+
+## MathFunction([MathGroupingCharacter](../../mathgroupingcharacter) funcName, [MathRadical](../../mathradical) baseArgument)  constructor
+
+ Initializes a new instance of the MathFunction class.
+ 
+Example:
+ 
+```php
+  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
+```
+
+
+---
+
+
+## MathFunction([MathGroupingCharacter](../../mathgroupingcharacter) funcName, [MathArray](../../matharray) baseArgument)  constructor
+
+ Initializes a new instance of the MathFunction class.
+ 
+Example:
+ 
+```php
+  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
+```
+
+
+---
+
+
+## MathFunction([MathGroupingCharacter](../../mathgroupingcharacter) funcName, [MathDelimiter](../../mathdelimiter) baseArgument)  constructor
+
+ Initializes a new instance of the MathFunction class.
+ 
+Example:
+ 
+```php
+  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
+```
+
+
+---
+
+
+## MathFunction([MathGroupingCharacter](../../mathgroupingcharacter) funcName, [MathNaryOperator](../../mathnaryoperator) baseArgument)  constructor
+
+ Initializes a new instance of the MathFunction class.
+ 
+Example:
+ 
+```php
+  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
+```
+
+
+---
+
+
+## MathFunction([MathGroupingCharacter](../../mathgroupingcharacter) funcName, [MathAccent](../../mathaccent) baseArgument)  constructor
+
+ Initializes a new instance of the MathFunction class.
+ 
+Example:
+ 
+```php
+  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
+```
+
+
+---
+
+
+## MathFunction([MathGroupingCharacter](../../mathgroupingcharacter) funcName, [MathBorderBox](../../mathborderbox) baseArgument)  constructor
+
+ Initializes a new instance of the MathFunction class.
+ 
+Example:
+ 
+```php
+  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
+```
+
+
+---
+
+
+## MathFunction([MathGroupingCharacter](../../mathgroupingcharacter) funcName, [MathGroupingCharacter](../../mathgroupingcharacter) baseArgument)  constructor
+
+ Initializes a new instance of the MathFunction class.
+ 
+Example:
+ 
+```php
+  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
+```
+
+
+---
+
+
+## MathFunction([MathGroupingCharacter](../../mathgroupingcharacter) funcName, [MathBar](../../mathbar) baseArgument)  constructor
+
+ Initializes a new instance of the MathFunction class.
+ 
+Example:
+ 
+```php
+  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
+```
+
+
+---
+
+
+## MathFunction([MathGroupingCharacter](../../mathgroupingcharacter) funcName, [MathSubscriptElement](../../mathsubscriptelement) baseArgument)  constructor
+
+ Initializes a new instance of the MathFunction class.
+ 
+Example:
+ 
+```php
+  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
+```
+
+
+---
+
+
+## MathFunction([MathGroupingCharacter](../../mathgroupingcharacter) funcName, [MathFunction](../../mathfunction) baseArgument)  constructor
+
+ Initializes a new instance of the MathFunction class.
+ 
+Example:
+ 
+```php
+  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
+```
+
+
+---
+
+
+## MathFunction([MathGroupingCharacter](../../mathgroupingcharacter) funcName, [MathSuperscriptElement](../../mathsuperscriptelement) baseArgument)  constructor
+
+ Initializes a new instance of the MathFunction class.
+ 
+Example:
+ 
+```php
+  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
+```
+
+
+---
+
+
+## MathFunction([MathGroupingCharacter](../../mathgroupingcharacter) funcName, [MathFraction](../../mathfraction) baseArgument)  constructor
+
+ Initializes a new instance of the MathFunction class.
+ 
+Example:
+ 
+```php
+  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
+```
+
+
+---
+
+
+## MathFunction([MathGroupingCharacter](../../mathgroupingcharacter) funcName, [MathematicalText](../../mathematicaltext) baseArgument)  constructor
+
+ Initializes a new instance of the MathFunction class.
+ 
+Example:
+ 
+```php
+  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
+```
+
+
+---
+
+
+## MathFunction([MathGroupingCharacter](../../mathgroupingcharacter) funcName, [MathBox](../../mathbox) baseArgument)  constructor
+
+ Initializes a new instance of the MathFunction class.
+ 
+Example:
+ 
+```php
+  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
+```
+
+
+---
+
+
+## MathFunction([MathGroupingCharacter](../../mathgroupingcharacter) funcName, [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -3059,7 +3059,7 @@ Example:
 ---
 
 
-## MathFunction([MathBar](../../mathbar) funcName, [MathGroupingCharacter](../../mathgroupingcharacter) baseArgument)  constructor
+## MathFunction([MathBar](../../mathbar) funcName, [MathBorderBox](../../mathborderbox) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -3073,7 +3073,7 @@ Example:
 ---
 
 
-## MathFunction([MathBar](../../mathbar) funcName, [MathBorderBox](../../mathborderbox) baseArgument)  constructor
+## MathFunction([MathBar](../../mathbar) funcName, [MathGroupingCharacter](../../mathgroupingcharacter) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -3143,7 +3143,7 @@ Example:
 ---
 
 
-## MathFunction([MathBar](../../mathbar) funcName, [MathematicalText](../../mathematicaltext) baseArgument)  constructor
+## MathFunction([MathBar](../../mathbar) funcName, [MathFraction](../../mathfraction) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -3157,7 +3157,7 @@ Example:
 ---
 
 
-## MathFunction([MathBar](../../mathbar) funcName, [MathFraction](../../mathfraction) baseArgument)  constructor
+## MathFunction([MathBar](../../mathbar) funcName, [MathematicalText](../../mathematicaltext) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -3325,7 +3325,7 @@ Example:
 ---
 
 
-## MathFunction([MathSubscriptElement](../../mathsubscriptelement) funcName, [MathGroupingCharacter](../../mathgroupingcharacter) baseArgument)  constructor
+## MathFunction([MathSubscriptElement](../../mathsubscriptelement) funcName, [MathBorderBox](../../mathborderbox) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -3339,7 +3339,7 @@ Example:
 ---
 
 
-## MathFunction([MathSubscriptElement](../../mathsubscriptelement) funcName, [MathBorderBox](../../mathborderbox) baseArgument)  constructor
+## MathFunction([MathSubscriptElement](../../mathsubscriptelement) funcName, [MathGroupingCharacter](../../mathgroupingcharacter) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -3409,7 +3409,7 @@ Example:
 ---
 
 
-## MathFunction([MathSubscriptElement](../../mathsubscriptelement) funcName, [MathematicalText](../../mathematicaltext) baseArgument)  constructor
+## MathFunction([MathSubscriptElement](../../mathsubscriptelement) funcName, [MathFraction](../../mathfraction) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -3423,7 +3423,7 @@ Example:
 ---
 
 
-## MathFunction([MathSubscriptElement](../../mathsubscriptelement) funcName, [MathFraction](../../mathfraction) baseArgument)  constructor
+## MathFunction([MathSubscriptElement](../../mathsubscriptelement) funcName, [MathematicalText](../../mathematicaltext) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -3591,7 +3591,7 @@ Example:
 ---
 
 
-## MathFunction([MathFunction](../../mathfunction) funcName, [MathGroupingCharacter](../../mathgroupingcharacter) baseArgument)  constructor
+## MathFunction([MathFunction](../../mathfunction) funcName, [MathBorderBox](../../mathborderbox) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -3605,7 +3605,7 @@ Example:
 ---
 
 
-## MathFunction([MathFunction](../../mathfunction) funcName, [MathBorderBox](../../mathborderbox) baseArgument)  constructor
+## MathFunction([MathFunction](../../mathfunction) funcName, [MathGroupingCharacter](../../mathgroupingcharacter) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -3675,7 +3675,7 @@ Example:
 ---
 
 
-## MathFunction([MathFunction](../../mathfunction) funcName, [MathematicalText](../../mathematicaltext) baseArgument)  constructor
+## MathFunction([MathFunction](../../mathfunction) funcName, [MathFraction](../../mathfraction) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -3689,7 +3689,7 @@ Example:
 ---
 
 
-## MathFunction([MathFunction](../../mathfunction) funcName, [MathFraction](../../mathfraction) baseArgument)  constructor
+## MathFunction([MathFunction](../../mathfunction) funcName, [MathematicalText](../../mathematicaltext) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -3857,7 +3857,7 @@ Example:
 ---
 
 
-## MathFunction([MathSuperscriptElement](../../mathsuperscriptelement) funcName, [MathGroupingCharacter](../../mathgroupingcharacter) baseArgument)  constructor
+## MathFunction([MathSuperscriptElement](../../mathsuperscriptelement) funcName, [MathBorderBox](../../mathborderbox) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -3871,7 +3871,7 @@ Example:
 ---
 
 
-## MathFunction([MathSuperscriptElement](../../mathsuperscriptelement) funcName, [MathBorderBox](../../mathborderbox) baseArgument)  constructor
+## MathFunction([MathSuperscriptElement](../../mathsuperscriptelement) funcName, [MathGroupingCharacter](../../mathgroupingcharacter) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -3941,7 +3941,7 @@ Example:
 ---
 
 
-## MathFunction([MathSuperscriptElement](../../mathsuperscriptelement) funcName, [MathematicalText](../../mathematicaltext) baseArgument)  constructor
+## MathFunction([MathSuperscriptElement](../../mathsuperscriptelement) funcName, [MathFraction](../../mathfraction) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -3955,7 +3955,7 @@ Example:
 ---
 
 
-## MathFunction([MathSuperscriptElement](../../mathsuperscriptelement) funcName, [MathFraction](../../mathfraction) baseArgument)  constructor
+## MathFunction([MathSuperscriptElement](../../mathsuperscriptelement) funcName, [MathematicalText](../../mathematicaltext) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -3984,272 +3984,6 @@ Example:
 
 
 ## MathFunction([MathSuperscriptElement](../../mathsuperscriptelement) funcName, [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-Example:
- 
-```php
-  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
-```
-
-
----
-
-
-## MathFunction([MathematicalText](../../mathematicaltext) funcName, [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-Example:
- 
-```php
-  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
-```
-
-
----
-
-
-## MathFunction([MathematicalText](../../mathematicaltext) funcName, [MathMatrix](../../mathmatrix) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-Example:
- 
-```php
-  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
-```
-
-
----
-
-
-## MathFunction([MathematicalText](../../mathematicaltext) funcName, [MathLimit](../../mathlimit) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-Example:
- 
-```php
-  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
-```
-
-
----
-
-
-## MathFunction([MathematicalText](../../mathematicaltext) funcName, [MathBlock](../../mathblock) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-Example:
- 
-```php
-  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
-```
-
-
----
-
-
-## MathFunction([MathematicalText](../../mathematicaltext) funcName, [MathRadical](../../mathradical) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-Example:
- 
-```php
-  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
-```
-
-
----
-
-
-## MathFunction([MathematicalText](../../mathematicaltext) funcName, [MathArray](../../matharray) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-Example:
- 
-```php
-  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
-```
-
-
----
-
-
-## MathFunction([MathematicalText](../../mathematicaltext) funcName, [MathDelimiter](../../mathdelimiter) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-Example:
- 
-```php
-  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
-```
-
-
----
-
-
-## MathFunction([MathematicalText](../../mathematicaltext) funcName, [MathNaryOperator](../../mathnaryoperator) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-Example:
- 
-```php
-  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
-```
-
-
----
-
-
-## MathFunction([MathematicalText](../../mathematicaltext) funcName, [MathAccent](../../mathaccent) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-Example:
- 
-```php
-  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
-```
-
-
----
-
-
-## MathFunction([MathematicalText](../../mathematicaltext) funcName, [MathGroupingCharacter](../../mathgroupingcharacter) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-Example:
- 
-```php
-  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
-```
-
-
----
-
-
-## MathFunction([MathematicalText](../../mathematicaltext) funcName, [MathBorderBox](../../mathborderbox) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-Example:
- 
-```php
-  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
-```
-
-
----
-
-
-## MathFunction([MathematicalText](../../mathematicaltext) funcName, [MathBar](../../mathbar) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-Example:
- 
-```php
-  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
-```
-
-
----
-
-
-## MathFunction([MathematicalText](../../mathematicaltext) funcName, [MathSubscriptElement](../../mathsubscriptelement) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-Example:
- 
-```php
-  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
-```
-
-
----
-
-
-## MathFunction([MathematicalText](../../mathematicaltext) funcName, [MathFunction](../../mathfunction) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-Example:
- 
-```php
-  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
-```
-
-
----
-
-
-## MathFunction([MathematicalText](../../mathematicaltext) funcName, [MathSuperscriptElement](../../mathsuperscriptelement) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-Example:
- 
-```php
-  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
-```
-
-
----
-
-
-## MathFunction([MathematicalText](../../mathematicaltext) funcName, [MathematicalText](../../mathematicaltext) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-Example:
- 
-```php
-  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
-```
-
-
----
-
-
-## MathFunction([MathematicalText](../../mathematicaltext) funcName, [MathFraction](../../mathfraction) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-Example:
- 
-```php
-  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
-```
-
-
----
-
-
-## MathFunction([MathematicalText](../../mathematicaltext) funcName, [MathBox](../../mathbox) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-Example:
- 
-```php
-  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
-```
-
-
----
-
-
-## MathFunction([MathematicalText](../../mathematicaltext) funcName, [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -4389,7 +4123,7 @@ Example:
 ---
 
 
-## MathFunction([MathFraction](../../mathfraction) funcName, [MathGroupingCharacter](../../mathgroupingcharacter) baseArgument)  constructor
+## MathFunction([MathFraction](../../mathfraction) funcName, [MathBorderBox](../../mathborderbox) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -4403,7 +4137,7 @@ Example:
 ---
 
 
-## MathFunction([MathFraction](../../mathfraction) funcName, [MathBorderBox](../../mathborderbox) baseArgument)  constructor
+## MathFunction([MathFraction](../../mathfraction) funcName, [MathGroupingCharacter](../../mathgroupingcharacter) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -4473,7 +4207,7 @@ Example:
 ---
 
 
-## MathFunction([MathFraction](../../mathfraction) funcName, [MathematicalText](../../mathematicaltext) baseArgument)  constructor
+## MathFunction([MathFraction](../../mathfraction) funcName, [MathFraction](../../mathfraction) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -4487,7 +4221,7 @@ Example:
 ---
 
 
-## MathFunction([MathFraction](../../mathfraction) funcName, [MathFraction](../../mathfraction) baseArgument)  constructor
+## MathFunction([MathFraction](../../mathfraction) funcName, [MathematicalText](../../mathematicaltext) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -4516,6 +4250,272 @@ Example:
 
 
 ## MathFunction([MathFraction](../../mathfraction) funcName, [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) baseArgument)  constructor
+
+ Initializes a new instance of the MathFunction class.
+ 
+Example:
+ 
+```php
+  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
+```
+
+
+---
+
+
+## MathFunction([MathematicalText](../../mathematicaltext) funcName, [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) baseArgument)  constructor
+
+ Initializes a new instance of the MathFunction class.
+ 
+Example:
+ 
+```php
+  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
+```
+
+
+---
+
+
+## MathFunction([MathematicalText](../../mathematicaltext) funcName, [MathMatrix](../../mathmatrix) baseArgument)  constructor
+
+ Initializes a new instance of the MathFunction class.
+ 
+Example:
+ 
+```php
+  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
+```
+
+
+---
+
+
+## MathFunction([MathematicalText](../../mathematicaltext) funcName, [MathLimit](../../mathlimit) baseArgument)  constructor
+
+ Initializes a new instance of the MathFunction class.
+ 
+Example:
+ 
+```php
+  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
+```
+
+
+---
+
+
+## MathFunction([MathematicalText](../../mathematicaltext) funcName, [MathBlock](../../mathblock) baseArgument)  constructor
+
+ Initializes a new instance of the MathFunction class.
+ 
+Example:
+ 
+```php
+  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
+```
+
+
+---
+
+
+## MathFunction([MathematicalText](../../mathematicaltext) funcName, [MathRadical](../../mathradical) baseArgument)  constructor
+
+ Initializes a new instance of the MathFunction class.
+ 
+Example:
+ 
+```php
+  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
+```
+
+
+---
+
+
+## MathFunction([MathematicalText](../../mathematicaltext) funcName, [MathArray](../../matharray) baseArgument)  constructor
+
+ Initializes a new instance of the MathFunction class.
+ 
+Example:
+ 
+```php
+  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
+```
+
+
+---
+
+
+## MathFunction([MathematicalText](../../mathematicaltext) funcName, [MathDelimiter](../../mathdelimiter) baseArgument)  constructor
+
+ Initializes a new instance of the MathFunction class.
+ 
+Example:
+ 
+```php
+  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
+```
+
+
+---
+
+
+## MathFunction([MathematicalText](../../mathematicaltext) funcName, [MathNaryOperator](../../mathnaryoperator) baseArgument)  constructor
+
+ Initializes a new instance of the MathFunction class.
+ 
+Example:
+ 
+```php
+  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
+```
+
+
+---
+
+
+## MathFunction([MathematicalText](../../mathematicaltext) funcName, [MathAccent](../../mathaccent) baseArgument)  constructor
+
+ Initializes a new instance of the MathFunction class.
+ 
+Example:
+ 
+```php
+  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
+```
+
+
+---
+
+
+## MathFunction([MathematicalText](../../mathematicaltext) funcName, [MathBorderBox](../../mathborderbox) baseArgument)  constructor
+
+ Initializes a new instance of the MathFunction class.
+ 
+Example:
+ 
+```php
+  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
+```
+
+
+---
+
+
+## MathFunction([MathematicalText](../../mathematicaltext) funcName, [MathGroupingCharacter](../../mathgroupingcharacter) baseArgument)  constructor
+
+ Initializes a new instance of the MathFunction class.
+ 
+Example:
+ 
+```php
+  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
+```
+
+
+---
+
+
+## MathFunction([MathematicalText](../../mathematicaltext) funcName, [MathBar](../../mathbar) baseArgument)  constructor
+
+ Initializes a new instance of the MathFunction class.
+ 
+Example:
+ 
+```php
+  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
+```
+
+
+---
+
+
+## MathFunction([MathematicalText](../../mathematicaltext) funcName, [MathSubscriptElement](../../mathsubscriptelement) baseArgument)  constructor
+
+ Initializes a new instance of the MathFunction class.
+ 
+Example:
+ 
+```php
+  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
+```
+
+
+---
+
+
+## MathFunction([MathematicalText](../../mathematicaltext) funcName, [MathFunction](../../mathfunction) baseArgument)  constructor
+
+ Initializes a new instance of the MathFunction class.
+ 
+Example:
+ 
+```php
+  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
+```
+
+
+---
+
+
+## MathFunction([MathematicalText](../../mathematicaltext) funcName, [MathSuperscriptElement](../../mathsuperscriptelement) baseArgument)  constructor
+
+ Initializes a new instance of the MathFunction class.
+ 
+Example:
+ 
+```php
+  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
+```
+
+
+---
+
+
+## MathFunction([MathematicalText](../../mathematicaltext) funcName, [MathFraction](../../mathfraction) baseArgument)  constructor
+
+ Initializes a new instance of the MathFunction class.
+ 
+Example:
+ 
+```php
+  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
+```
+
+
+---
+
+
+## MathFunction([MathematicalText](../../mathematicaltext) funcName, [MathematicalText](../../mathematicaltext) baseArgument)  constructor
+
+ Initializes a new instance of the MathFunction class.
+ 
+Example:
+ 
+```php
+  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
+```
+
+
+---
+
+
+## MathFunction([MathematicalText](../../mathematicaltext) funcName, [MathBox](../../mathbox) baseArgument)  constructor
+
+ Initializes a new instance of the MathFunction class.
+ 
+Example:
+ 
+```php
+  $func = new MathFunction(new MathematicalText("sin"), new MathematicalText("x"));
+```
+
+
+---
+
+
+## MathFunction([MathematicalText](../../mathematicaltext) funcName, [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -4655,7 +4655,7 @@ Example:
 ---
 
 
-## MathFunction([MathBox](../../mathbox) funcName, [MathGroupingCharacter](../../mathgroupingcharacter) baseArgument)  constructor
+## MathFunction([MathBox](../../mathbox) funcName, [MathBorderBox](../../mathborderbox) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -4669,7 +4669,7 @@ Example:
 ---
 
 
-## MathFunction([MathBox](../../mathbox) funcName, [MathBorderBox](../../mathborderbox) baseArgument)  constructor
+## MathFunction([MathBox](../../mathbox) funcName, [MathGroupingCharacter](../../mathgroupingcharacter) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -4739,7 +4739,7 @@ Example:
 ---
 
 
-## MathFunction([MathBox](../../mathbox) funcName, [MathematicalText](../../mathematicaltext) baseArgument)  constructor
+## MathFunction([MathBox](../../mathbox) funcName, [MathFraction](../../mathfraction) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -4753,7 +4753,7 @@ Example:
 ---
 
 
-## MathFunction([MathBox](../../mathbox) funcName, [MathFraction](../../mathfraction) baseArgument)  constructor
+## MathFunction([MathBox](../../mathbox) funcName, [MathematicalText](../../mathematicaltext) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -4921,7 +4921,7 @@ Example:
 ---
 
 
-## MathFunction([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) funcName, [MathGroupingCharacter](../../mathgroupingcharacter) baseArgument)  constructor
+## MathFunction([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) funcName, [MathBorderBox](../../mathborderbox) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -4935,7 +4935,7 @@ Example:
 ---
 
 
-## MathFunction([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) funcName, [MathBorderBox](../../mathborderbox) baseArgument)  constructor
+## MathFunction([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) funcName, [MathGroupingCharacter](../../mathgroupingcharacter) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -5005,7 +5005,7 @@ Example:
 ---
 
 
-## MathFunction([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) funcName, [MathematicalText](../../mathematicaltext) baseArgument)  constructor
+## MathFunction([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) funcName, [MathFraction](../../mathfraction) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -5019,7 +5019,7 @@ Example:
 ---
 
 
-## MathFunction([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) funcName, [MathFraction](../../mathfraction) baseArgument)  constructor
+## MathFunction([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) funcName, [MathematicalText](../../mathematicaltext) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -5187,7 +5187,7 @@ Example:
 ---
 
 
-## MathFunction(String funcName, [MathGroupingCharacter](../../mathgroupingcharacter) baseArgument)  constructor
+## MathFunction(String funcName, [MathBorderBox](../../mathborderbox) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -5201,7 +5201,7 @@ Example:
 ---
 
 
-## MathFunction(String funcName, [MathBorderBox](../../mathborderbox) baseArgument)  constructor
+## MathFunction(String funcName, [MathGroupingCharacter](../../mathgroupingcharacter) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -5271,7 +5271,7 @@ Example:
 ---
 
 
-## MathFunction(String funcName, [MathematicalText](../../mathematicaltext) baseArgument)  constructor
+## MathFunction(String funcName, [MathFraction](../../mathfraction) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -5285,7 +5285,7 @@ Example:
 ---
 
 
-## MathFunction(String funcName, [MathFraction](../../mathfraction) baseArgument)  constructor
+## MathFunction(String funcName, [MathematicalText](../../mathematicaltext) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  

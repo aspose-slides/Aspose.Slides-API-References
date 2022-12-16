@@ -12,6 +12,21 @@ url: /php-java/tiffoptions/
  Provides options that control how a presentation is saved in TIFF format.
  
 
+ The following example shows how to convert PowerPoint to TIFF with default size.
+ 
+```php
+  // Instantiate a Presentation object that represents a presentation file
+  $pres = new Presentation("DemoFile.pptx");
+  try {
+    // Saving the presentation to TIFF document
+    $pres->save("Tiffoutput_out.tiff", SaveFormat.Tiff);
+  } finally {
+    if ($pres != null) {
+      $pres->dispose();
+    }
+  }
+```
+
 ## Constructors
 
 | Name | Description |

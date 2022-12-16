@@ -35,8 +35,8 @@ url: /php-java/commandeffect/
 | [setShapeTarget](setshapetarget)([SummaryZoomFrame](../summaryzoomframe)) | Defines shape target of command effect. Read/write IShape. |
 | [setShapeTarget](setshapetarget)([ZoomFrame](../zoomframe)) | Defines shape target of command effect. Read/write IShape. |
 | [setShapeTarget](setshapetarget)([SummaryZoomSection](../summaryzoomsection)) | Defines shape target of command effect. Read/write IShape. |
-| [setShapeTarget](setshapetarget)([VideoFrame](../videoframe)) | Defines shape target of command effect. Read/write IShape. |
 | [setShapeTarget](setshapetarget)([OleObjectFrame](../oleobjectframe)) | Defines shape target of command effect. Read/write IShape. |
+| [setShapeTarget](setshapetarget)([VideoFrame](../videoframe)) | Defines shape target of command effect. Read/write IShape. |
 | [setShapeTarget](setshapetarget)([SmartArt](../smartart)) | Defines shape target of command effect. Read/write IShape. |
 | [setShapeTarget](setshapetarget)([GroupShape](../groupshape)) | Defines shape target of command effect. Read/write IShape. |
 | [setShapeTarget](setshapetarget)([AutoShape](../autoshape)) | Defines shape target of command effect. Read/write IShape. |
@@ -44,8 +44,8 @@ url: /php-java/commandeffect/
 | [setShapeTarget](setshapetarget)([SectionZoomFrame](../sectionzoomframe)) | Defines shape target of command effect. Read/write IShape. |
 | [setShapeTarget](setshapetarget)([Chart](../chart)) | Defines shape target of command effect. Read/write IShape. |
 | [setShapeTarget](setshapetarget)([AudioFrame](../audioframe)) | Defines shape target of command effect. Read/write IShape. |
-| [setShapeTarget](setshapetarget)([LegacyDiagram](../legacydiagram)) | Defines shape target of command effect. Read/write IShape. |
 | [setShapeTarget](setshapetarget)([ZoomObject](../zoomobject)) | Defines shape target of command effect. Read/write IShape. |
+| [setShapeTarget](setshapetarget)([LegacyDiagram](../legacydiagram)) | Defines shape target of command effect. Read/write IShape. |
 | [setType](settype)(OrderedDictionary) | Defines command effect type of behavior. Read/write CommandEffectType. |
 | [setType](settype)(Hashtable) | Defines command effect type of behavior. Read/write CommandEffectType. |
 | [setType](settype)(LinkedList) | Defines command effect type of behavior. Read/write CommandEffectType. |

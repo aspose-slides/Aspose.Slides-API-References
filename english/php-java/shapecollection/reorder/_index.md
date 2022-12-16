@@ -178,25 +178,6 @@ void
 ---
 
 
-## reorder(int index, [VideoFrame](../../videoframe) shape)  method
-
- Moves a shape from the collection to the specified position.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| index | int | Target index. |
-| shape | [VideoFrame](../../videoframe) | Shape to move. |
-
-### Returns
-void
-
-
----
-
-
 ## reorder(int index, [OleObjectFrame](../../oleobjectframe) shape)  method
 
  Moves a shape from the collection to the specified position.
@@ -208,6 +189,25 @@ void
 | --- | --- | --- |
 | index | int | Target index. |
 | shape | [OleObjectFrame](../../oleobjectframe) | Shape to move. |
+
+### Returns
+void
+
+
+---
+
+
+## reorder(int index, [VideoFrame](../../videoframe) shape)  method
+
+ Moves a shape from the collection to the specified position.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Target index. |
+| shape | [VideoFrame](../../videoframe) | Shape to move. |
 
 ### Returns
 void
@@ -349,25 +349,6 @@ void
 ---
 
 
-## reorder(int index, [LegacyDiagram](../../legacydiagram) shape)  method
-
- Moves a shape from the collection to the specified position.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| index | int | Target index. |
-| shape | [LegacyDiagram](../../legacydiagram) | Shape to move. |
-
-### Returns
-void
-
-
----
-
-
 ## reorder(int index, [ZoomObject](../../zoomobject) shape)  method
 
  Moves a shape from the collection to the specified position.
@@ -379,6 +360,25 @@ void
 | --- | --- | --- |
 | index | int | Target index. |
 | shape | [ZoomObject](../../zoomobject) | Shape to move. |
+
+### Returns
+void
+
+
+---
+
+
+## reorder(int index, [LegacyDiagram](../../legacydiagram) shape)  method
+
+ Moves a shape from the collection to the specified position.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Target index. |
+| shape | [LegacyDiagram](../../legacydiagram) | Shape to move. |
 
 ### Returns
 void

@@ -31,6 +31,24 @@ void
  Highlight all matches of sample in text frame text using specified color.
  
 
+ The following sample code shows how to Highlight Text in a PowerPoint Presentation.
+ 
+```php
+  try {
+    $textHighlightingOptions = new TextHighlightingOptions();
+    $textHighlightingOptions->setWholeWordsOnly(true);
+    // highlighting all words 'important'
+    $pres->getSlides()->get_Item(0)->getShapes()->get_Item(0)->getTextFrame()->highlightText("title", Color::BLUE);
+    // highlighting all separate 'the' occurrences
+    $pres->getSlides()->get_Item(0)->getShapes()->get_Item(0)->getTextFrame()->highlightText("to", Color::MAGENTA, $textHighlightingOptions);
+    $pres->save("SomePresentation-out2.pptx", SaveFormat.Pptx);
+  } finally {
+    if ($pres != null) {
+      $pres->dispose();
+    }
+  }
+```
+
 ### Parameters
 
 | Name | Type | Description |

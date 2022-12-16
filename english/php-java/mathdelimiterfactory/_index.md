@@ -33,14 +33,14 @@ url: /php-java/mathdelimiterfactory/
 | [createMathDelimiter](createmathdelimiter)([MathDelimiter](../mathdelimiter)) | Create a math delimiter by applying to the element |
 | [createMathDelimiter](createmathdelimiter)([MathNaryOperator](../mathnaryoperator)) | Create a math delimiter by applying to the element |
 | [createMathDelimiter](createmathdelimiter)([MathAccent](../mathaccent)) | Create a math delimiter by applying to the element |
-| [createMathDelimiter](createmathdelimiter)([MathGroupingCharacter](../mathgroupingcharacter)) | Create a math delimiter by applying to the element |
 | [createMathDelimiter](createmathdelimiter)([MathBorderBox](../mathborderbox)) | Create a math delimiter by applying to the element |
+| [createMathDelimiter](createmathdelimiter)([MathGroupingCharacter](../mathgroupingcharacter)) | Create a math delimiter by applying to the element |
 | [createMathDelimiter](createmathdelimiter)([MathBar](../mathbar)) | Create a math delimiter by applying to the element |
 | [createMathDelimiter](createmathdelimiter)([MathSubscriptElement](../mathsubscriptelement)) | Create a math delimiter by applying to the element |
 | [createMathDelimiter](createmathdelimiter)([MathFunction](../mathfunction)) | Create a math delimiter by applying to the element |
 | [createMathDelimiter](createmathdelimiter)([MathSuperscriptElement](../mathsuperscriptelement)) | Create a math delimiter by applying to the element |
-| [createMathDelimiter](createmathdelimiter)([MathematicalText](../mathematicaltext)) | Create a math delimiter by applying to the element |
 | [createMathDelimiter](createmathdelimiter)([MathFraction](../mathfraction)) | Create a math delimiter by applying to the element |
+| [createMathDelimiter](createmathdelimiter)([MathematicalText](../mathematicaltext)) | Create a math delimiter by applying to the element |
 | [createMathDelimiter](createmathdelimiter)([MathBox](../mathbox)) | Create a math delimiter by applying to the element |
 | [createMathDelimiter](createmathdelimiter)([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Create a math delimiter by applying to the element |
 | [createMathDelimiter](createmathdelimiter)([MathBlock](../mathblock)) | Create a math delimiter by applying to the element |

@@ -16,6 +16,98 @@ public class ThreeDFormat extends PVIObject implements IThreeDFormat, IThreeDPar
 ```
 
 Represents 3-D properties.
+
+--------------------
+
+> ```
+> The following example shows how to add 3D shape in PowerPoint Presentation.
+>  
+>  // Create an instance of Presentation class.
+>  Presentation pres = new Presentation();
+>  try {
+>      // Add a shape using AddAutoShape method
+>      IAutoShape shape = pres.getSlides().get_Item(0).getShapes().addAutoShape(ShapeType.Rectangle, 200, 150, 200, 200);
+>      // Define TextFrame and its properties
+>      shape.getTextFrame().setText("3D");
+>      shape.getTextFrame().getParagraphs().get_Item(0).getParagraphFormat().getDefaultPortionFormat().setFontHeight(64);
+>      // Define ThreeDFormat Properties
+>      shape.getThreeDFormat().getCamera().setCameraType(CameraPresetType.OrthographicFront);
+>      shape.getThreeDFormat().getCamera().setRotation(20, 30, 40);
+>      shape.getThreeDFormat().getLightRig().setLightType(LightRigPresetType.Flat);
+>      shape.getThreeDFormat().getLightRig().setDirection(LightingDirection.Top);
+>      shape.getThreeDFormat().setMaterial(MaterialPresetType.Flat);
+>      shape.getThreeDFormat().setExtrusionHeight(100);
+>      shape.getThreeDFormat().getExtrusionColor().setColor(Color.BLUE);
+>      // Save the Presentation file
+>      pres.save("sandbox_3d.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+>  
+>  The following example shows how to apply Gradient affect to 3D shape in PowerPoint Presentation.
+>  
+>  // Create an instance of Presentation class.
+>  Presentation pres = new Presentation();
+>  try {
+>      // Add a shape using AddAutoShape method
+>      IAutoShape shape = pres.getSlides().get_Item(0).getShapes().addAutoShape(ShapeType.Rectangle, 200, 150, 250, 250);
+>      // Define TextFrame and its properties
+>      shape.getTextFrame().setText("3D Gradient");
+>      shape.getTextFrame().getParagraphs().get_Item(0).getParagraphFormat().getDefaultPortionFormat().setFontHeight(64);
+>      // Configure FillFormat.FillType as FillType.Gradient and define gradient properties
+>      shape.getFillFormat().setFillType(FillType.Gradient);
+>      shape.getFillFormat().getGradientFormat().getGradientStops().add(0, Color.BLUE);
+>      shape.getFillFormat().getGradientFormat().getGradientStops().add(100, Color.ORANGE);
+>      // Define ThreeDFormat Properties
+>      shape.getThreeDFormat().getCamera().setCameraType(CameraPresetType.OrthographicFront);
+>      shape.getThreeDFormat().getCamera().setRotation(20, 30, 40);
+>      shape.getThreeDFormat().getLightRig().setLightType(LightRigPresetType.Flat);
+>      shape.getThreeDFormat().getLightRig().setDirection(LightingDirection.Top);
+>      shape.getThreeDFormat().setMaterial(MaterialPresetType.Flat);
+>      shape.getThreeDFormat().setExtrusionHeight(100);
+>      shape.getThreeDFormat().getExtrusionColor().setColor(Color.BLUE);
+>      // Save the Presentation file
+>      pres.save("sandbox_3d.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+>  
+>  The following example shows how to apply 3D effect on text. For creating a 3D text its possible to use WordArt transform effect.
+>  
+>  // Create an instance of Presentation class.
+>  Presentation pres = new Presentation();
+>  try {
+>      // Add a shape using AddAutoShape method
+>       IAutoShape shape = pres.getSlides().get_Item(0).getShapes().addAutoShape(ShapeType.Rectangle, 200, 150, 250, 250);
+>      // Define TextFrame and its properties
+>      shape.getTextFrame().setText("3D Text");
+>      // Configure FillFormat.FillType as FillType.NoFill
+>      shape.getFillFormat().setFillType(FillType.NoFill);
+>      shape.getLineFormat().getFillFormat().setFillType(FillType.NoFill);
+>      // Configure Portion of TextFrame and configure properties of PortionFormat
+>      Portion portion = (Portion)shape.getTextFrame().getParagraphs().get_Item(0).getPortions().get_Item(0);
+>      portion.getPortionFormat().getFillFormat().setFillType(FillType.Pattern);
+>      portion.getPortionFormat().getFillFormat().getPatternFormat().getForeColor().setColor(Color.ORANGE);
+>      portion.getPortionFormat().getFillFormat().getPatternFormat().getBackColor().setColor(Color.WHITE);
+>      portion.getPortionFormat().getFillFormat().getPatternFormat().setPatternStyle(PatternStyle.LargeGrid);
+>      shape.getTextFrame().getParagraphs().get_Item(0).getParagraphFormat().getDefaultPortionFormat().setFontHeight(128);
+>      ITextFrame textFrame = shape.getTextFrame();
+>      // setup "Arch Up" WordArt transform effect
+>      textFrame.getTextFrameFormat().setTransform(TextShapeType.ArchUp);
+>      // Define ThreeDFormat Properties of ITextFrame
+>      textFrame.getTextFrameFormat().getThreeDFormat().setExtrusionHeight(3.5f);
+>      textFrame.getTextFrameFormat().getThreeDFormat().setDepth(3);
+>      textFrame.getTextFrameFormat().getThreeDFormat().setMaterial(MaterialPresetType.Plastic);
+>      textFrame.getTextFrameFormat().getThreeDFormat().getLightRig().setDirection(LightingDirection.Top);
+>      textFrame.getTextFrameFormat().getThreeDFormat().getLightRig().setLightType(LightRigPresetType.Balanced);
+>      textFrame.getTextFrameFormat().getThreeDFormat().getLightRig().setRotation(0, 0, 40);
+>      textFrame.getTextFrameFormat().getThreeDFormat().getCamera().setCameraType(CameraPresetType.PerspectiveContrastingRightFacing);
+>      // Save the Presentation file
+>      pres.save("text3d.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
 ## Methods
 
 | Method | Description |

@@ -12,6 +12,25 @@ url: /php-java/notesslidemanager/
  Notes slide manager.
  
 
+ The following example shows how to Add Notes to specific ProwerPoint Presentation slide.
+ 
+```php
+  // Instantiate a Presentation object that represents a presentation file
+  $pres = new Presentation("AccessSlides.pptx");
+  try {
+    // Add notes to first slide
+    $mgr = $pres->getSlides()->get_Item(0)->getNotesSlideManager();
+    $noteSlide = $mgr->addNotesSlide();
+    $noteSlide->getNotesTextFrame()->setText("Your Notes");
+    // Save presentation to disk
+    $pres->save("RemoveNotesAtSpecificSlide_out.pptx", SaveFormat.Pptx);
+  } finally {
+    if ($pres != null) {
+      $pres->dispose();
+    }
+  }
+```
+
 ## Methods
 
 | Name | Description |

@@ -17,7 +17,7 @@ url: /php-java/compress/removeunusedlayoutslides/
   $pres = new Presentation("pres.pptx");
   try {
     Compress->removeUnusedLayoutSlides($pres);
-    $pres->save("pres-out.pptx", SaveFormat::Pptx);
+    $pres->save("pres-out.pptx", SaveFormat.Pptx);
   } finally {
     if ($pres != null) {
       $pres->dispose();

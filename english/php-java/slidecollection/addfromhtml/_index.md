@@ -110,6 +110,24 @@ url: /php-java/slidecollection/addfromhtml/
  Creates slides from HTML text and adds them to the end of the collection.
  
 
+ 
+```php
+  // Create an instance of the Presentation class.
+  $pres = new Presentation();
+  try {
+    $html = new String(Files->readAllBytes(Paths->get("file.html")));
+    // Call the AddFromHtml method and pass the HTML file.
+    $pres->getSlides()->addFromHtml($html);
+    // Use the Save method to save the file as a PowerPoint document.
+    $pres->save("MyPresentation.pptx", SaveFormat.Pptx);
+  } catch (JavaException $e) {
+  } finally {
+    if ($pres != null) {
+      $pres->dispose();
+    }
+  }
+```
+
 ### Parameters
 
 | Name | Type | Description |

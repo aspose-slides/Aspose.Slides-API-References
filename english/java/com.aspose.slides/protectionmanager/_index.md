@@ -96,6 +96,20 @@ public final void encrypt(String encryptionPassword)
 
 Encrypts Presentation with specified password.
 
+--------------------
+
+> ```
+> The following sample code shows you how to encrypt a PowerPoint Presentation.
+>  
+>  Presentation pres = new Presentation("pres.pptx");
+>  try {
+>      pres.getProtectionManager().encrypt("123123");
+>      pres.save("encrypted-pres.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -117,6 +131,20 @@ public final void setWriteProtection(String password)
 
 Set write protection for this presentation with specified password.
 
+--------------------
+
+> ```
+> The following sample code shows you how to set a write protection to a presentation.
+>  
+>  Presentation pres = new Presentation("pres.pptx");
+>  try {
+>      pres.getProtectionManager().setWriteProtection("123123");
+>      pres.save("write-protected-pres.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -129,6 +157,20 @@ public final void removeWriteProtection()
 
 
 Removes write protection for this presentation.
+
+--------------------
+
+> ```
+> This sample code shows you how to remove the write protection from a PowerPoint Presentation.
+>  
+>  Presentation pres = new Presentation("pres.pptx");
+>  try {
+>      pres.getProtectionManager().removeWriteProtection();
+>      pres.save("write-protection-removed.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
 
 ### checkWriteProtection(String password) {#checkWriteProtection-java.lang.String-}
 ```
@@ -182,8 +224,12 @@ Gets or sets read-only recommendation. Read/write boolean.
 
 > ```
 > Presentation pres = new Presentation();
->  pres.getProtectionManager().setReadOnlyRecommended(true);
->  pres.save("ReadOnlyPresentation.pptx", SaveFormat.Pptx);
+>  try {
+>      pres.getProtectionManager().setReadOnlyRecommended(true);
+>      pres.save("ReadOnlyPresentation.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
 > ```
 
 **Returns:**
@@ -200,8 +246,12 @@ Gets or sets read-only recommendation. Read/write boolean.
 
 > ```
 > Presentation pres = new Presentation();
->  pres.getProtectionManager().setReadOnlyRecommended(true);
->  pres.save("ReadOnlyPresentation.pptx", SaveFormat.Pptx);
+>  try {
+>      pres.getProtectionManager().setReadOnlyRecommended(true);
+>      pres.save("ReadOnlyPresentation.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
 > ```
 
 **Parameters:**

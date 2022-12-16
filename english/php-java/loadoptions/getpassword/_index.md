@@ -14,6 +14,21 @@ url: /php-java/loadoptions/getpassword/
  Value: 
  The password.
 
+ The following sample code shows how to open password protected PowerPoint Presentation.
+ 
+```php
+  $loadOptions = new LoadOptions();
+  $loadOptions->setPassword("YOUR_PASSWORD");
+  $pres = new Presentation("pres.pptx", $loadOptions);
+  try {
+    // work with decrypted presentation
+  } finally {
+    if ($pres != null) {
+      $pres->dispose();
+    }
+  }
+```
+
 ### Returns
 String
 

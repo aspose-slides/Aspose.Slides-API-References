@@ -65,6 +65,32 @@ void
  Renders certain slide to a Graphics object.
  
 
+ The following example shows how to convert the first slide of a PowerPoint presentation to a bitmap object using the RenderToGraphics method.
+ 
+```php
+  $pres = new Presentation("Presentation.pptx");
+  try {
+    // Gets the presentation slide size
+    $slideSize = $pres->getSlideSize()->getSize();
+    // Creates a Bitmap with the slide size
+    $image = new BufferedImage($slideSize->getWidth(), $slideSize->getHeight(), BufferedImage::TYPE_INT_ARGB);
+    $graphics = $image->createGraphics();
+    try {
+      $pres->getSlides()->get_Item(0)->renderToGraphics(new RenderingOptions(), $graphics);
+    } finally {
+      if ($graphics != null) {
+        $graphics->dispose();
+      }
+    }
+    ImageIO->write($image, "PNG", new File("Slide_0.png"));
+  } catch (JavaException $e) {
+  } finally {
+    if ($pres != null) {
+      $pres->dispose();
+    }
+  }
+```
+
 ### Parameters
 
 | Name | Type | Description |
@@ -141,6 +167,35 @@ void
 
  Renders certain slide to a Graphics object using specified size.
  
+
+ The following example shows how to convert the first slide to the framed image with the RenderToGraphics method.
+ 
+```php
+  $pres = new Presentation("Presentation.pptx");
+  try {
+    // Gets the presentation slide size
+    $slideSize = new Dimension(1820, 1040);
+    // Creates a Bitmap with the slide size
+    $image = new BufferedImage($slideSize->getWidth() + 50, $slideSize->getHeight() + 50, BufferedImage::TYPE_INT_ARGB);
+    $graphics = $image->createGraphics();
+    try {
+      $graphics->setColor(Color::RED);
+      $graphics->fillRect(0, 0, $pres->getSlideSize()->getSize()->getWidth(), $pres->getSlideSize()->getSize()->getHeight());
+      $graphics->translate(25, 25);
+      $pres->getSlides()->get_Item(0)->renderToGraphics(new RenderingOptions(), $graphics);
+    } finally {
+      if ($graphics != null) {
+        $graphics->dispose();
+      }
+    }
+    ImageIO->write($image, "PNG", new File("Slide_0.png"));
+  } catch (JavaException $e) {
+  } finally {
+    if ($pres != null) {
+      $pres->dispose();
+    }
+  }
+```
 
 ### Parameters
 

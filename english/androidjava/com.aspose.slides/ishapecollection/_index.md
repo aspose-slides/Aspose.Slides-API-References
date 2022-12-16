@@ -486,9 +486,22 @@ Adds a new Section Zoom object to the end of a collection with a predefined imag
 >  
 >  Presentation pres = new Presentation("Presentation.pptx");
 >  try {
->      IPPImage image = pres.getImages().addImage(Files.readAllBytes(Paths.get("image.png")));
->      ISectionZoomFrame zoomFrame = pres.getSlides().get_Item(0).getShapes().addSectionZoomFrame(150, 20, 50, 50, pres.getSections().get_Item(1), image);
->  } catch (IOException e) {
+>      FileInputStream fos = null;
+>      try {
+>          fos = new FileInputStream("image.png");
+>          IPPImage image = pres.getImages().addImage(fos);
+>          ISectionZoomFrame zoomFrame = pres.getSlides().get_Item(0).getShapes().addSectionZoomFrame(150, 20, 50, 50, pres.getSections().get_Item(1), image);
+>      } catch (IOException e) {
+>          throw new RuntimeException(e);
+>      } finally {
+>          if (fos != null) {
+>              try {
+>                  fos.close();
+>              } catch (IOException e) {
+>                  e.printStackTrace();
+>              }
+>          }
+>      }
 >  } finally {
 >      if (pres != null) pres.dispose();
 >  }
@@ -556,9 +569,22 @@ Creates a new Section Zoom object and inserts it to a collection at the specifie
 >  
 >  Presentation pres = new Presentation("Presentation.pptx");
 >  try {
->      IPPImage image = pres.getImages().addImage(Files.readAllBytes(Paths.get("image.png")));
->      ISectionZoomFrame zoomFrame = pres.getSlides().get_Item(0).getShapes().insertSectionZoomFrame(2, 150, 20, 50, 50, pres.getSections().get_Item(1), image);
->  } catch(IOException e) {
+>      FileInputStream fos = null;
+>      try {
+>          fos = new FileInputStream("image.png");
+>          IPPImage image = pres.getImages().addImage(fos);
+>          ISectionZoomFrame zoomFrame = pres.getSlides().get_Item(0).getShapes().insertSectionZoomFrame(2, 150, 20, 50, 50, pres.getSections().get_Item(1), image);
+>      } catch (IOException e) {
+>          throw new RuntimeException(e);
+>      } finally {
+>          if (fos != null) {
+>              try {
+>                  fos.close();
+>              } catch (IOException e) {
+>                  e.printStackTrace();
+>              }
+>          }
+>      }
 >  } finally {
 >      if (pres != null) pres.dispose();
 >  }

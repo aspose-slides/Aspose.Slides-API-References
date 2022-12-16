@@ -187,26 +187,6 @@ Example:
 ---
 
 
-## MathBorderBox([MathGroupingCharacter](../../mathgroupingcharacter) element)  constructor
-
- Creates MathBorderBox element with rectangular border
- 
-Example:
- 
-```php
-  $borderBox = new MathBorderBox(new MathematicalText("x"));
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathGroupingCharacter](../../mathgroupingcharacter) | The base element to which the border box is applied. Can be null. |
-
-
----
-
-
 ## MathBorderBox([MathBorderBox](../../mathborderbox) element)  constructor
 
  Creates MathBorderBox element with rectangular border
@@ -222,6 +202,26 @@ Example:
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathBorderBox](../../mathborderbox) | The base element to which the border box is applied. Can be null. |
+
+
+---
+
+
+## MathBorderBox([MathGroupingCharacter](../../mathgroupingcharacter) element)  constructor
+
+ Creates MathBorderBox element with rectangular border
+ 
+Example:
+ 
+```php
+  $borderBox = new MathBorderBox(new MathematicalText("x"));
+```
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathGroupingCharacter](../../mathgroupingcharacter) | The base element to which the border box is applied. Can be null. |
 
 
 ---
@@ -307,26 +307,6 @@ Example:
 ---
 
 
-## MathBorderBox([MathematicalText](../../mathematicaltext) element)  constructor
-
- Creates MathBorderBox element with rectangular border
- 
-Example:
- 
-```php
-  $borderBox = new MathBorderBox(new MathematicalText("x"));
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathematicalText](../../mathematicaltext) | The base element to which the border box is applied. Can be null. |
-
-
----
-
-
 ## MathBorderBox([MathFraction](../../mathfraction) element)  constructor
 
  Creates MathBorderBox element with rectangular border
@@ -342,6 +322,26 @@ Example:
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathFraction](../../mathfraction) | The base element to which the border box is applied. Can be null. |
+
+
+---
+
+
+## MathBorderBox([MathematicalText](../../mathematicaltext) element)  constructor
+
+ Creates MathBorderBox element with rectangular border
+ 
+Example:
+ 
+```php
+  $borderBox = new MathBorderBox(new MathematicalText("x"));
+```
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathematicalText](../../mathematicaltext) | The base element to which the border box is applied. Can be null. |
 
 
 ---
@@ -639,34 +639,6 @@ Example:
 ---
 
 
-## MathBorderBox([MathGroupingCharacter](../../mathgroupingcharacter) element, boolean hideTop, boolean hideBottom, boolean hideLeft, boolean hideRight, boolean strikethroughHorizontal, boolean strikethroughVertical, boolean strikethroughBottomLeftToTopRight, boolean strikethroughTopLeftToBottomRight)  constructor
-
- Creates MathBorderBox element 
- 
-Example:
- 
-```php
-  $borderBox = new MathBorderBox(new MathematicalText("x"), true, true, true, false, true, true, true, true);
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathGroupingCharacter](../mathgroupingcharacter) | The base element to which the border box is applied |
-| hideTop | boolean | Hide Top Edge |
-| hideBottom | boolean | Hide Bottom Edge |
-| hideLeft | boolean | Hide Left Edge |
-| hideRight | boolean | Hide Right Edge |
-| strikethroughHorizontal | boolean | Strikethrough Horizontal |
-| strikethroughVertical | boolean | Strikethrough Vertical |
-| strikethroughBottomLeftToTopRight | boolean | Strikethrough Bottom-Left to Top-Right |
-| strikethroughTopLeftToBottomRight | boolean | Strikethrough Top-Left to Bottom-Right |
-
-
----
-
-
 ## MathBorderBox([MathBorderBox](../../mathborderbox) element, boolean hideTop, boolean hideBottom, boolean hideLeft, boolean hideRight, boolean strikethroughHorizontal, boolean strikethroughVertical, boolean strikethroughBottomLeftToTopRight, boolean strikethroughTopLeftToBottomRight)  constructor
 
  Creates MathBorderBox element 
@@ -682,6 +654,34 @@ Example:
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathBorderBox](../mathborderbox) | The base element to which the border box is applied |
+| hideTop | boolean | Hide Top Edge |
+| hideBottom | boolean | Hide Bottom Edge |
+| hideLeft | boolean | Hide Left Edge |
+| hideRight | boolean | Hide Right Edge |
+| strikethroughHorizontal | boolean | Strikethrough Horizontal |
+| strikethroughVertical | boolean | Strikethrough Vertical |
+| strikethroughBottomLeftToTopRight | boolean | Strikethrough Bottom-Left to Top-Right |
+| strikethroughTopLeftToBottomRight | boolean | Strikethrough Top-Left to Bottom-Right |
+
+
+---
+
+
+## MathBorderBox([MathGroupingCharacter](../../mathgroupingcharacter) element, boolean hideTop, boolean hideBottom, boolean hideLeft, boolean hideRight, boolean strikethroughHorizontal, boolean strikethroughVertical, boolean strikethroughBottomLeftToTopRight, boolean strikethroughTopLeftToBottomRight)  constructor
+
+ Creates MathBorderBox element 
+ 
+Example:
+ 
+```php
+  $borderBox = new MathBorderBox(new MathematicalText("x"), true, true, true, false, true, true, true, true);
+```
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathGroupingCharacter](../mathgroupingcharacter) | The base element to which the border box is applied |
 | hideTop | boolean | Hide Top Edge |
 | hideBottom | boolean | Hide Bottom Edge |
 | hideLeft | boolean | Hide Left Edge |
@@ -807,34 +807,6 @@ Example:
 ---
 
 
-## MathBorderBox([MathematicalText](../../mathematicaltext) element, boolean hideTop, boolean hideBottom, boolean hideLeft, boolean hideRight, boolean strikethroughHorizontal, boolean strikethroughVertical, boolean strikethroughBottomLeftToTopRight, boolean strikethroughTopLeftToBottomRight)  constructor
-
- Creates MathBorderBox element 
- 
-Example:
- 
-```php
-  $borderBox = new MathBorderBox(new MathematicalText("x"), true, true, true, false, true, true, true, true);
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathematicalText](../mathematicaltext) | The base element to which the border box is applied |
-| hideTop | boolean | Hide Top Edge |
-| hideBottom | boolean | Hide Bottom Edge |
-| hideLeft | boolean | Hide Left Edge |
-| hideRight | boolean | Hide Right Edge |
-| strikethroughHorizontal | boolean | Strikethrough Horizontal |
-| strikethroughVertical | boolean | Strikethrough Vertical |
-| strikethroughBottomLeftToTopRight | boolean | Strikethrough Bottom-Left to Top-Right |
-| strikethroughTopLeftToBottomRight | boolean | Strikethrough Top-Left to Bottom-Right |
-
-
----
-
-
 ## MathBorderBox([MathFraction](../../mathfraction) element, boolean hideTop, boolean hideBottom, boolean hideLeft, boolean hideRight, boolean strikethroughHorizontal, boolean strikethroughVertical, boolean strikethroughBottomLeftToTopRight, boolean strikethroughTopLeftToBottomRight)  constructor
 
  Creates MathBorderBox element 
@@ -850,6 +822,34 @@ Example:
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathFraction](../mathfraction) | The base element to which the border box is applied |
+| hideTop | boolean | Hide Top Edge |
+| hideBottom | boolean | Hide Bottom Edge |
+| hideLeft | boolean | Hide Left Edge |
+| hideRight | boolean | Hide Right Edge |
+| strikethroughHorizontal | boolean | Strikethrough Horizontal |
+| strikethroughVertical | boolean | Strikethrough Vertical |
+| strikethroughBottomLeftToTopRight | boolean | Strikethrough Bottom-Left to Top-Right |
+| strikethroughTopLeftToBottomRight | boolean | Strikethrough Top-Left to Bottom-Right |
+
+
+---
+
+
+## MathBorderBox([MathematicalText](../../mathematicaltext) element, boolean hideTop, boolean hideBottom, boolean hideLeft, boolean hideRight, boolean strikethroughHorizontal, boolean strikethroughVertical, boolean strikethroughBottomLeftToTopRight, boolean strikethroughTopLeftToBottomRight)  constructor
+
+ Creates MathBorderBox element 
+ 
+Example:
+ 
+```php
+  $borderBox = new MathBorderBox(new MathematicalText("x"), true, true, true, false, true, true, true, true);
+```
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathematicalText](../mathematicaltext) | The base element to which the border box is applied |
 | hideTop | boolean | Hide Top Edge |
 | hideBottom | boolean | Hide Bottom Edge |
 | hideLeft | boolean | Hide Left Edge |

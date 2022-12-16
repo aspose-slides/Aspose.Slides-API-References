@@ -19,6 +19,30 @@ This class contains the text portion formatting properties. Unlike [IPortionForm
 
 --------------------
 
+> ```
+> The following examples shows you how to assign the Latin font to a Paragraph's portion of PowerPoint Presentation.
+>  
+>  //Instantiate a presentation object that represents a presentation file
+>  Presentation pres = new Presentation("demo.pptx");
+>  try {
+>      IAutoShape shape = pres.getSlides().get_Item(0).getShapes().addAutoShape(ShapeType.Rectangle, 10, 10, 100, 100);
+>      Paragraph paragraph = new Paragraph();
+>      Portion portion = new Portion("Theme text format");
+>      paragraph.getPortions().add(portion);
+>      shape.getTextFrame().getParagraphs().add(paragraph);
+>      // Aspose.Slides uses these special identifiers (similar to those used in PowerPoint):
+>      // +mn-lt - Body Font Latin (Minor Latin Font)
+>      // +mj-lt -Heading Font Latin (Major Latin Font)
+>      // +mn-ea - Body Font East Asian (Minor East Asian Font)
+>      // +mj-ea - Body Font East Asian (Minor East Asian Font)
+>      portion.getPortionFormat().setLatinFont(new FontData("+mn-lt"));
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+--------------------
+
 This class is used to return and manipulate text portion formatting properties defined for the particular portion. This means that no inheritance is applied when getting values so for the majority of cases you will get values meaning "undefined".
 
 In order to get the effective formatting parameter values including inherited you need to use [getEffective](../../com.aspose.slides/portionformat\#getEffective) method which returns a [IPortionFormatEffectiveData](../../com.aspose.slides/iportionformateffectivedata) instance.

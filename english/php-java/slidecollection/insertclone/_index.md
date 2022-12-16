@@ -12,6 +12,25 @@ url: /php-java/slidecollection/insertclone/
  Inserts a copy of a specified slide to specified position of the collection.
  
 
+ The following example shows how to clone at another position within Presentation.
+ 
+```php
+  // Instantiate Presentation class that represents a presentation file
+  $pres = new Presentation("CloneWithInSamePresentation.pptx");
+  try {
+    // Clone the desired slide to the end of the collection of slides in the same presentation
+    $slds = $pres->getSlides();
+    // Clone the desired slide to the specified index in the same presentation
+    $slds->insertClone(2, $pres->getSlides()->get_Item(1));
+    // Write the modified presentation to disk
+    $pres->save("Aspose_CloneWithInSamePresentation_out.pptx", SaveFormat.Pptx);
+  } finally {
+    if ($pres != null) {
+      $pres->dispose();
+    }
+  }
+```
+
 ### Parameters
 
 | Name | Type | Description |

@@ -76,7 +76,7 @@ Minor version number.
 
 ### ReleaseDate {#ReleaseDate}
 ```
-public static final System.DateTime ReleaseDate
+public static final Date ReleaseDate
 ```
 
 

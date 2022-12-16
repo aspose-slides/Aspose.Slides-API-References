@@ -16,6 +16,45 @@ public class PresentationAnimationsGenerator implements System.IDisposable
 ```
 
 Represents a generator of the animations in the [Presentation](../../com.aspose.slides/presentation).
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("animated.pptx");
+>  try {
+>      PresentationAnimationsGenerator animationsGenerator = new PresentationAnimationsGenerator(pres);
+>      try {
+>          PresentationPlayer player = new PresentationPlayer(animationsGenerator, 33);
+>          try {
+>              player.setFrameTick(new PresentationPlayer.FrameTick() {
+>                  public void invoke(PresentationPlayer sender, FrameTickEventArgs args) {
+>                      FileOutputStream fos = null;
+>                      try {
+>                          fos = new FileOutputStream("frame_" + sender.getFrameIndex() + ".png");
+>                          args.getFrame().compress(android.graphics.Bitmap.CompressFormat.PNG, 100, fos);
+>                      } catch (IOException e) {
+>                          throw new RuntimeException(e);
+>                      } finally {
+>                          if (fos != null) {
+>                              try {
+>                                  fos.close();
+>                              } catch (IOException e) {
+>                              }
+>                          }
+>                      }
+>                  }
+>              });
+>              animationsGenerator.run(pres.getSlides());
+>          } finally {
+>              if (player != null) player.dispose();
+>          }
+>      } finally {
+>          if (animationsGenerator != null) animationsGenerator.dispose();
+>      }
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
 ## Constructors
 
 | Constructor | Description |

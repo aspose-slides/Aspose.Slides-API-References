@@ -12,6 +12,34 @@ url: /php-java/audioframe/
   Represents an audio clip on a slide.
  
 
+  The following examples shows how to change Audio Play Options.
+  
+```php
+  $pres = new Presentation("AudioFrameEmbed_out.pptx");
+  try {
+    // Gets the AudioFrame shape
+    $audioFrame = $pres->getSlides()->get_Item(0)->getShapes()->get_Item(0);
+    // Sets the Play mode to play on click
+    $audioFrame->setPlayMode(AudioPlayModePreset.OnClick);
+    // Sets the volume to Low
+    $audioFrame->setVolume(AudioVolumeMode.Low);
+    // Sets the audio to play across slides
+    $audioFrame->setPlayAcrossSlides(true);
+    // Disables loop for the audio
+    $audioFrame->setPlayLoopMode(false);
+    // Hides the AudioFrame during the slide show
+    $audioFrame->setHideAtShowing(true);
+    // Rewinds the audio to start after playing
+    $audioFrame->setRewindAudio(true);
+    // Saves the PowerPoint file to disk
+    $pres->save("AudioFrameEmbed_changed.pptx", SaveFormat.Pptx);
+  } finally {
+    if ($pres != null) {
+      $pres->dispose();
+    }
+  }
+```
+
 ## Methods
 
 | Name | Description |

@@ -25,8 +25,8 @@ Represents background of a slide.
 | [getFillFormat()](#getFillFormat--) | Returns a FillFormat for BackgroundType.OwnBackground fill. |
 | [getEffectFormat()](#getEffectFormat--) | Returns a EffectFormat for BackgroundType.OwnBackground fill. |
 | [getStyleColor()](#getStyleColor--) | Return a ColorFormat for a BackgroundType.Themed fill. |
-| [getStyleIndex()](#getStyleIndex--) | Returns an index of BackgroundType.Themed fill in background theme collection. |
-| [setStyleIndex(int value)](#setStyleIndex-int-) | Returns an index of BackgroundType.Themed fill in background theme collection. |
+| [getStyleIndex()](#getStyleIndex--) | Returns an index of BackgroundType.Themed fill in background theme collection. 0 means no fill. 1..999 - index. |
+| [setStyleIndex(int value)](#setStyleIndex-int-) | Returns an index of BackgroundType.Themed fill in background theme collection. 0 means no fill. 1..999 - index. |
 | [getEffective()](#getEffective--) | Gets effective background data with the inheritance applied. |
 | [getParent_Immediate()](#getParent-Immediate--) |  |
 | [getSlide()](#getSlide--) | Returns the parent slide of a shape. |

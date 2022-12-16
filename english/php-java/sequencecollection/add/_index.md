@@ -124,7 +124,7 @@ url: /php-java/sequencecollection/add/
 ---
 
 
-## add([VideoFrame](../../videoframe) shapeTrigger)  method
+## add([OleObjectFrame](../../oleobjectframe) shapeTrigger)  method
 
  Add new interactive sequence.
  Read/write  Sequence.
@@ -137,7 +137,7 @@ url: /php-java/sequencecollection/add/
 ---
 
 
-## add([OleObjectFrame](../../oleobjectframe) shapeTrigger)  method
+## add([VideoFrame](../../videoframe) shapeTrigger)  method
 
  Add new interactive sequence.
  Read/write  Sequence.
@@ -241,7 +241,7 @@ url: /php-java/sequencecollection/add/
 ---
 
 
-## add([LegacyDiagram](../../legacydiagram) shapeTrigger)  method
+## add([ZoomObject](../../zoomobject) shapeTrigger)  method
 
  Add new interactive sequence.
  Read/write  Sequence.
@@ -254,7 +254,7 @@ url: /php-java/sequencecollection/add/
 ---
 
 
-## add([ZoomObject](../../zoomobject) shapeTrigger)  method
+## add([LegacyDiagram](../../legacydiagram) shapeTrigger)  method
 
  Add new interactive sequence.
  Read/write  Sequence.

@@ -24,7 +24,7 @@ url: /php-java/shapecollection/insertclone/
 | height | float | Height of a new shape. |
 
 ### Returns
-[GraphicalObject](../../graphicalobject), [Connector](../../connector), [Table](../../table), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Ink](../../ink), [SummaryZoomFrame](../../summaryzoomframe), [GeometryShape](../../geometryshape), [ZoomFrame](../../zoomframe), [SummaryZoomSection](../../summaryzoomsection), [VideoFrame](../../videoframe), [OleObjectFrame](../../oleobjectframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Chart](../../chart), [AudioFrame](../../audioframe), [LegacyDiagram](../../legacydiagram), [ZoomObject](../../zoomobject)
+[GraphicalObject](../../graphicalobject), [Connector](../../connector), [Table](../../table), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Ink](../../ink), [GeometryShape](../../geometryshape), [SummaryZoomFrame](../../summaryzoomframe), [ZoomFrame](../../zoomframe), [SummaryZoomSection](../../summaryzoomsection), [OleObjectFrame](../../oleobjectframe), [VideoFrame](../../videoframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Chart](../../chart), [AudioFrame](../../audioframe), [ZoomObject](../../zoomobject), [LegacyDiagram](../../legacydiagram)
 
 
 ---
@@ -47,7 +47,7 @@ url: /php-java/shapecollection/insertclone/
 | height | float | Height of a new shape. |
 
 ### Returns
-[GraphicalObject](../../graphicalobject), [Connector](../../connector), [Table](../../table), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Ink](../../ink), [SummaryZoomFrame](../../summaryzoomframe), [GeometryShape](../../geometryshape), [ZoomFrame](../../zoomframe), [SummaryZoomSection](../../summaryzoomsection), [VideoFrame](../../videoframe), [OleObjectFrame](../../oleobjectframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Chart](../../chart), [AudioFrame](../../audioframe), [LegacyDiagram](../../legacydiagram), [ZoomObject](../../zoomobject)
+[GraphicalObject](../../graphicalobject), [Connector](../../connector), [Table](../../table), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Ink](../../ink), [GeometryShape](../../geometryshape), [SummaryZoomFrame](../../summaryzoomframe), [ZoomFrame](../../zoomframe), [SummaryZoomSection](../../summaryzoomsection), [OleObjectFrame](../../oleobjectframe), [VideoFrame](../../videoframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Chart](../../chart), [AudioFrame](../../audioframe), [ZoomObject](../../zoomobject), [LegacyDiagram](../../legacydiagram)
 
 
 ---
@@ -70,7 +70,7 @@ url: /php-java/shapecollection/insertclone/
 | height | float | Height of a new shape. |
 
 ### Returns
-[GraphicalObject](../../graphicalobject), [Connector](../../connector), [Table](../../table), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Ink](../../ink), [SummaryZoomFrame](../../summaryzoomframe), [GeometryShape](../../geometryshape), [ZoomFrame](../../zoomframe), [SummaryZoomSection](../../summaryzoomsection), [VideoFrame](../../videoframe), [OleObjectFrame](../../oleobjectframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Chart](../../chart), [AudioFrame](../../audioframe), [LegacyDiagram](../../legacydiagram), [ZoomObject](../../zoomobject)
+[GraphicalObject](../../graphicalobject), [Connector](../../connector), [Table](../../table), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Ink](../../ink), [GeometryShape](../../geometryshape), [SummaryZoomFrame](../../summaryzoomframe), [ZoomFrame](../../zoomframe), [SummaryZoomSection](../../summaryzoomsection), [OleObjectFrame](../../oleobjectframe), [VideoFrame](../../videoframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Chart](../../chart), [AudioFrame](../../audioframe), [ZoomObject](../../zoomobject), [LegacyDiagram](../../legacydiagram)
 
 
 ---
@@ -93,7 +93,7 @@ url: /php-java/shapecollection/insertclone/
 | height | float | Height of a new shape. |
 
 ### Returns
-[GraphicalObject](../../graphicalobject), [Connector](../../connector), [Table](../../table), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Ink](../../ink), [SummaryZoomFrame](../../summaryzoomframe), [GeometryShape](../../geometryshape), [ZoomFrame](../../zoomframe), [SummaryZoomSection](../../summaryzoomsection), [VideoFrame](../../videoframe), [OleObjectFrame](../../oleobjectframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Chart](../../chart), [AudioFrame](../../audioframe), [LegacyDiagram](../../legacydiagram), [ZoomObject](../../zoomobject)
+[GraphicalObject](../../graphicalobject), [Connector](../../connector), [Table](../../table), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Ink](../../ink), [GeometryShape](../../geometryshape), [SummaryZoomFrame](../../summaryzoomframe), [ZoomFrame](../../zoomframe), [SummaryZoomSection](../../summaryzoomsection), [OleObjectFrame](../../oleobjectframe), [VideoFrame](../../videoframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Chart](../../chart), [AudioFrame](../../audioframe), [ZoomObject](../../zoomobject), [LegacyDiagram](../../legacydiagram)
 
 
 ---
@@ -116,7 +116,7 @@ url: /php-java/shapecollection/insertclone/
 | height | float | Height of a new shape. |
 
 ### Returns
-[GraphicalObject](../../graphicalobject), [Connector](../../connector), [Table](../../table), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Ink](../../ink), [SummaryZoomFrame](../../summaryzoomframe), [GeometryShape](../../geometryshape), [ZoomFrame](../../zoomframe), [SummaryZoomSection](../../summaryzoomsection), [VideoFrame](../../videoframe), [OleObjectFrame](../../oleobjectframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Chart](../../chart), [AudioFrame](../../audioframe), [LegacyDiagram](../../legacydiagram), [ZoomObject](../../zoomobject)
+[GraphicalObject](../../graphicalobject), [Connector](../../connector), [Table](../../table), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Ink](../../ink), [GeometryShape](../../geometryshape), [SummaryZoomFrame](../../summaryzoomframe), [ZoomFrame](../../zoomframe), [SummaryZoomSection](../../summaryzoomsection), [OleObjectFrame](../../oleobjectframe), [VideoFrame](../../videoframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Chart](../../chart), [AudioFrame](../../audioframe), [ZoomObject](../../zoomobject), [LegacyDiagram](../../legacydiagram)
 
 
 ---
@@ -139,7 +139,7 @@ url: /php-java/shapecollection/insertclone/
 | height | float | Height of a new shape. |
 
 ### Returns
-[GraphicalObject](../../graphicalobject), [Connector](../../connector), [Table](../../table), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Ink](../../ink), [SummaryZoomFrame](../../summaryzoomframe), [GeometryShape](../../geometryshape), [ZoomFrame](../../zoomframe), [SummaryZoomSection](../../summaryzoomsection), [VideoFrame](../../videoframe), [OleObjectFrame](../../oleobjectframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Chart](../../chart), [AudioFrame](../../audioframe), [LegacyDiagram](../../legacydiagram), [ZoomObject](../../zoomobject)
+[GraphicalObject](../../graphicalobject), [Connector](../../connector), [Table](../../table), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Ink](../../ink), [GeometryShape](../../geometryshape), [SummaryZoomFrame](../../summaryzoomframe), [ZoomFrame](../../zoomframe), [SummaryZoomSection](../../summaryzoomsection), [OleObjectFrame](../../oleobjectframe), [VideoFrame](../../videoframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Chart](../../chart), [AudioFrame](../../audioframe), [ZoomObject](../../zoomobject), [LegacyDiagram](../../legacydiagram)
 
 
 ---
@@ -162,7 +162,7 @@ url: /php-java/shapecollection/insertclone/
 | height | float | Height of a new shape. |
 
 ### Returns
-[GraphicalObject](../../graphicalobject), [Connector](../../connector), [Table](../../table), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Ink](../../ink), [SummaryZoomFrame](../../summaryzoomframe), [GeometryShape](../../geometryshape), [ZoomFrame](../../zoomframe), [SummaryZoomSection](../../summaryzoomsection), [VideoFrame](../../videoframe), [OleObjectFrame](../../oleobjectframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Chart](../../chart), [AudioFrame](../../audioframe), [LegacyDiagram](../../legacydiagram), [ZoomObject](../../zoomobject)
+[GraphicalObject](../../graphicalobject), [Connector](../../connector), [Table](../../table), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Ink](../../ink), [GeometryShape](../../geometryshape), [SummaryZoomFrame](../../summaryzoomframe), [ZoomFrame](../../zoomframe), [SummaryZoomSection](../../summaryzoomsection), [OleObjectFrame](../../oleobjectframe), [VideoFrame](../../videoframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Chart](../../chart), [AudioFrame](../../audioframe), [ZoomObject](../../zoomobject), [LegacyDiagram](../../legacydiagram)
 
 
 ---
@@ -185,7 +185,7 @@ url: /php-java/shapecollection/insertclone/
 | height | float | Height of a new shape. |
 
 ### Returns
-[GraphicalObject](../../graphicalobject), [Connector](../../connector), [Table](../../table), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Ink](../../ink), [SummaryZoomFrame](../../summaryzoomframe), [GeometryShape](../../geometryshape), [ZoomFrame](../../zoomframe), [SummaryZoomSection](../../summaryzoomsection), [VideoFrame](../../videoframe), [OleObjectFrame](../../oleobjectframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Chart](../../chart), [AudioFrame](../../audioframe), [LegacyDiagram](../../legacydiagram), [ZoomObject](../../zoomobject)
+[GraphicalObject](../../graphicalobject), [Connector](../../connector), [Table](../../table), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Ink](../../ink), [GeometryShape](../../geometryshape), [SummaryZoomFrame](../../summaryzoomframe), [ZoomFrame](../../zoomframe), [SummaryZoomSection](../../summaryzoomsection), [OleObjectFrame](../../oleobjectframe), [VideoFrame](../../videoframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Chart](../../chart), [AudioFrame](../../audioframe), [ZoomObject](../../zoomobject), [LegacyDiagram](../../legacydiagram)
 
 
 ---
@@ -208,30 +208,7 @@ url: /php-java/shapecollection/insertclone/
 | height | float | Height of a new shape. |
 
 ### Returns
-[GraphicalObject](../../graphicalobject), [Connector](../../connector), [Table](../../table), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Ink](../../ink), [SummaryZoomFrame](../../summaryzoomframe), [GeometryShape](../../geometryshape), [ZoomFrame](../../zoomframe), [SummaryZoomSection](../../summaryzoomsection), [VideoFrame](../../videoframe), [OleObjectFrame](../../oleobjectframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Chart](../../chart), [AudioFrame](../../audioframe), [LegacyDiagram](../../legacydiagram), [ZoomObject](../../zoomobject)
-
-
----
-
-
-## insertClone(int index, [VideoFrame](../../videoframe) sourceShape, float x, float y, float width, float height)  method
-
- Inserts a copy of a specified shape to specified position of the collection.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| index | int | Index of new shape. |
-| sourceShape | [VideoFrame](../videoframe) | Shape to clone. |
-| x | float | X coordinate of a new shape. |
-| y | float | Y coordinate of a new shape. |
-| width | float | Width of a new shape. |
-| height | float | Height of a new shape. |
-
-### Returns
-[GraphicalObject](../../graphicalobject), [Connector](../../connector), [Table](../../table), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Ink](../../ink), [SummaryZoomFrame](../../summaryzoomframe), [GeometryShape](../../geometryshape), [ZoomFrame](../../zoomframe), [SummaryZoomSection](../../summaryzoomsection), [VideoFrame](../../videoframe), [OleObjectFrame](../../oleobjectframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Chart](../../chart), [AudioFrame](../../audioframe), [LegacyDiagram](../../legacydiagram), [ZoomObject](../../zoomobject)
+[GraphicalObject](../../graphicalobject), [Connector](../../connector), [Table](../../table), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Ink](../../ink), [GeometryShape](../../geometryshape), [SummaryZoomFrame](../../summaryzoomframe), [ZoomFrame](../../zoomframe), [SummaryZoomSection](../../summaryzoomsection), [OleObjectFrame](../../oleobjectframe), [VideoFrame](../../videoframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Chart](../../chart), [AudioFrame](../../audioframe), [ZoomObject](../../zoomobject), [LegacyDiagram](../../legacydiagram)
 
 
 ---
@@ -254,7 +231,30 @@ url: /php-java/shapecollection/insertclone/
 | height | float | Height of a new shape. |
 
 ### Returns
-[GraphicalObject](../../graphicalobject), [Connector](../../connector), [Table](../../table), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Ink](../../ink), [SummaryZoomFrame](../../summaryzoomframe), [GeometryShape](../../geometryshape), [ZoomFrame](../../zoomframe), [SummaryZoomSection](../../summaryzoomsection), [VideoFrame](../../videoframe), [OleObjectFrame](../../oleobjectframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Chart](../../chart), [AudioFrame](../../audioframe), [LegacyDiagram](../../legacydiagram), [ZoomObject](../../zoomobject)
+[GraphicalObject](../../graphicalobject), [Connector](../../connector), [Table](../../table), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Ink](../../ink), [GeometryShape](../../geometryshape), [SummaryZoomFrame](../../summaryzoomframe), [ZoomFrame](../../zoomframe), [SummaryZoomSection](../../summaryzoomsection), [OleObjectFrame](../../oleobjectframe), [VideoFrame](../../videoframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Chart](../../chart), [AudioFrame](../../audioframe), [ZoomObject](../../zoomobject), [LegacyDiagram](../../legacydiagram)
+
+
+---
+
+
+## insertClone(int index, [VideoFrame](../../videoframe) sourceShape, float x, float y, float width, float height)  method
+
+ Inserts a copy of a specified shape to specified position of the collection.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Index of new shape. |
+| sourceShape | [VideoFrame](../videoframe) | Shape to clone. |
+| x | float | X coordinate of a new shape. |
+| y | float | Y coordinate of a new shape. |
+| width | float | Width of a new shape. |
+| height | float | Height of a new shape. |
+
+### Returns
+[GraphicalObject](../../graphicalobject), [Connector](../../connector), [Table](../../table), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Ink](../../ink), [GeometryShape](../../geometryshape), [SummaryZoomFrame](../../summaryzoomframe), [ZoomFrame](../../zoomframe), [SummaryZoomSection](../../summaryzoomsection), [OleObjectFrame](../../oleobjectframe), [VideoFrame](../../videoframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Chart](../../chart), [AudioFrame](../../audioframe), [ZoomObject](../../zoomobject), [LegacyDiagram](../../legacydiagram)
 
 
 ---
@@ -277,7 +277,7 @@ url: /php-java/shapecollection/insertclone/
 | height | float | Height of a new shape. |
 
 ### Returns
-[GraphicalObject](../../graphicalobject), [Connector](../../connector), [Table](../../table), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Ink](../../ink), [SummaryZoomFrame](../../summaryzoomframe), [GeometryShape](../../geometryshape), [ZoomFrame](../../zoomframe), [SummaryZoomSection](../../summaryzoomsection), [VideoFrame](../../videoframe), [OleObjectFrame](../../oleobjectframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Chart](../../chart), [AudioFrame](../../audioframe), [LegacyDiagram](../../legacydiagram), [ZoomObject](../../zoomobject)
+[GraphicalObject](../../graphicalobject), [Connector](../../connector), [Table](../../table), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Ink](../../ink), [GeometryShape](../../geometryshape), [SummaryZoomFrame](../../summaryzoomframe), [ZoomFrame](../../zoomframe), [SummaryZoomSection](../../summaryzoomsection), [OleObjectFrame](../../oleobjectframe), [VideoFrame](../../videoframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Chart](../../chart), [AudioFrame](../../audioframe), [ZoomObject](../../zoomobject), [LegacyDiagram](../../legacydiagram)
 
 
 ---
@@ -300,7 +300,7 @@ url: /php-java/shapecollection/insertclone/
 | height | float | Height of a new shape. |
 
 ### Returns
-[GraphicalObject](../../graphicalobject), [Connector](../../connector), [Table](../../table), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Ink](../../ink), [SummaryZoomFrame](../../summaryzoomframe), [GeometryShape](../../geometryshape), [ZoomFrame](../../zoomframe), [SummaryZoomSection](../../summaryzoomsection), [VideoFrame](../../videoframe), [OleObjectFrame](../../oleobjectframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Chart](../../chart), [AudioFrame](../../audioframe), [LegacyDiagram](../../legacydiagram), [ZoomObject](../../zoomobject)
+[GraphicalObject](../../graphicalobject), [Connector](../../connector), [Table](../../table), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Ink](../../ink), [GeometryShape](../../geometryshape), [SummaryZoomFrame](../../summaryzoomframe), [ZoomFrame](../../zoomframe), [SummaryZoomSection](../../summaryzoomsection), [OleObjectFrame](../../oleobjectframe), [VideoFrame](../../videoframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Chart](../../chart), [AudioFrame](../../audioframe), [ZoomObject](../../zoomobject), [LegacyDiagram](../../legacydiagram)
 
 
 ---
@@ -323,7 +323,7 @@ url: /php-java/shapecollection/insertclone/
 | height | float | Height of a new shape. |
 
 ### Returns
-[GraphicalObject](../../graphicalobject), [Connector](../../connector), [Table](../../table), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Ink](../../ink), [SummaryZoomFrame](../../summaryzoomframe), [GeometryShape](../../geometryshape), [ZoomFrame](../../zoomframe), [SummaryZoomSection](../../summaryzoomsection), [VideoFrame](../../videoframe), [OleObjectFrame](../../oleobjectframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Chart](../../chart), [AudioFrame](../../audioframe), [LegacyDiagram](../../legacydiagram), [ZoomObject](../../zoomobject)
+[GraphicalObject](../../graphicalobject), [Connector](../../connector), [Table](../../table), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Ink](../../ink), [GeometryShape](../../geometryshape), [SummaryZoomFrame](../../summaryzoomframe), [ZoomFrame](../../zoomframe), [SummaryZoomSection](../../summaryzoomsection), [OleObjectFrame](../../oleobjectframe), [VideoFrame](../../videoframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Chart](../../chart), [AudioFrame](../../audioframe), [ZoomObject](../../zoomobject), [LegacyDiagram](../../legacydiagram)
 
 
 ---
@@ -346,7 +346,7 @@ url: /php-java/shapecollection/insertclone/
 | height | float | Height of a new shape. |
 
 ### Returns
-[GraphicalObject](../../graphicalobject), [Connector](../../connector), [Table](../../table), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Ink](../../ink), [SummaryZoomFrame](../../summaryzoomframe), [GeometryShape](../../geometryshape), [ZoomFrame](../../zoomframe), [SummaryZoomSection](../../summaryzoomsection), [VideoFrame](../../videoframe), [OleObjectFrame](../../oleobjectframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Chart](../../chart), [AudioFrame](../../audioframe), [LegacyDiagram](../../legacydiagram), [ZoomObject](../../zoomobject)
+[GraphicalObject](../../graphicalobject), [Connector](../../connector), [Table](../../table), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Ink](../../ink), [GeometryShape](../../geometryshape), [SummaryZoomFrame](../../summaryzoomframe), [ZoomFrame](../../zoomframe), [SummaryZoomSection](../../summaryzoomsection), [OleObjectFrame](../../oleobjectframe), [VideoFrame](../../videoframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Chart](../../chart), [AudioFrame](../../audioframe), [ZoomObject](../../zoomobject), [LegacyDiagram](../../legacydiagram)
 
 
 ---
@@ -369,7 +369,7 @@ url: /php-java/shapecollection/insertclone/
 | height | float | Height of a new shape. |
 
 ### Returns
-[GraphicalObject](../../graphicalobject), [Connector](../../connector), [Table](../../table), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Ink](../../ink), [SummaryZoomFrame](../../summaryzoomframe), [GeometryShape](../../geometryshape), [ZoomFrame](../../zoomframe), [SummaryZoomSection](../../summaryzoomsection), [VideoFrame](../../videoframe), [OleObjectFrame](../../oleobjectframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Chart](../../chart), [AudioFrame](../../audioframe), [LegacyDiagram](../../legacydiagram), [ZoomObject](../../zoomobject)
+[GraphicalObject](../../graphicalobject), [Connector](../../connector), [Table](../../table), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Ink](../../ink), [GeometryShape](../../geometryshape), [SummaryZoomFrame](../../summaryzoomframe), [ZoomFrame](../../zoomframe), [SummaryZoomSection](../../summaryzoomsection), [OleObjectFrame](../../oleobjectframe), [VideoFrame](../../videoframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Chart](../../chart), [AudioFrame](../../audioframe), [ZoomObject](../../zoomobject), [LegacyDiagram](../../legacydiagram)
 
 
 ---
@@ -392,7 +392,7 @@ url: /php-java/shapecollection/insertclone/
 | height | float | Height of a new shape. |
 
 ### Returns
-[GraphicalObject](../../graphicalobject), [Connector](../../connector), [Table](../../table), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Ink](../../ink), [SummaryZoomFrame](../../summaryzoomframe), [GeometryShape](../../geometryshape), [ZoomFrame](../../zoomframe), [SummaryZoomSection](../../summaryzoomsection), [VideoFrame](../../videoframe), [OleObjectFrame](../../oleobjectframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Chart](../../chart), [AudioFrame](../../audioframe), [LegacyDiagram](../../legacydiagram), [ZoomObject](../../zoomobject)
+[GraphicalObject](../../graphicalobject), [Connector](../../connector), [Table](../../table), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Ink](../../ink), [GeometryShape](../../geometryshape), [SummaryZoomFrame](../../summaryzoomframe), [ZoomFrame](../../zoomframe), [SummaryZoomSection](../../summaryzoomsection), [OleObjectFrame](../../oleobjectframe), [VideoFrame](../../videoframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Chart](../../chart), [AudioFrame](../../audioframe), [ZoomObject](../../zoomobject), [LegacyDiagram](../../legacydiagram)
 
 
 ---
@@ -415,30 +415,7 @@ url: /php-java/shapecollection/insertclone/
 | height | float | Height of a new shape. |
 
 ### Returns
-[GraphicalObject](../../graphicalobject), [Connector](../../connector), [Table](../../table), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Ink](../../ink), [SummaryZoomFrame](../../summaryzoomframe), [GeometryShape](../../geometryshape), [ZoomFrame](../../zoomframe), [SummaryZoomSection](../../summaryzoomsection), [VideoFrame](../../videoframe), [OleObjectFrame](../../oleobjectframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Chart](../../chart), [AudioFrame](../../audioframe), [LegacyDiagram](../../legacydiagram), [ZoomObject](../../zoomobject)
-
-
----
-
-
-## insertClone(int index, [LegacyDiagram](../../legacydiagram) sourceShape, float x, float y, float width, float height)  method
-
- Inserts a copy of a specified shape to specified position of the collection.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| index | int | Index of new shape. |
-| sourceShape | [LegacyDiagram](../legacydiagram) | Shape to clone. |
-| x | float | X coordinate of a new shape. |
-| y | float | Y coordinate of a new shape. |
-| width | float | Width of a new shape. |
-| height | float | Height of a new shape. |
-
-### Returns
-[GraphicalObject](../../graphicalobject), [Connector](../../connector), [Table](../../table), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Ink](../../ink), [SummaryZoomFrame](../../summaryzoomframe), [GeometryShape](../../geometryshape), [ZoomFrame](../../zoomframe), [SummaryZoomSection](../../summaryzoomsection), [VideoFrame](../../videoframe), [OleObjectFrame](../../oleobjectframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Chart](../../chart), [AudioFrame](../../audioframe), [LegacyDiagram](../../legacydiagram), [ZoomObject](../../zoomobject)
+[GraphicalObject](../../graphicalobject), [Connector](../../connector), [Table](../../table), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Ink](../../ink), [GeometryShape](../../geometryshape), [SummaryZoomFrame](../../summaryzoomframe), [ZoomFrame](../../zoomframe), [SummaryZoomSection](../../summaryzoomsection), [OleObjectFrame](../../oleobjectframe), [VideoFrame](../../videoframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Chart](../../chart), [AudioFrame](../../audioframe), [ZoomObject](../../zoomobject), [LegacyDiagram](../../legacydiagram)
 
 
 ---
@@ -461,7 +438,30 @@ url: /php-java/shapecollection/insertclone/
 | height | float | Height of a new shape. |
 
 ### Returns
-[GraphicalObject](../../graphicalobject), [Connector](../../connector), [Table](../../table), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Ink](../../ink), [SummaryZoomFrame](../../summaryzoomframe), [GeometryShape](../../geometryshape), [ZoomFrame](../../zoomframe), [SummaryZoomSection](../../summaryzoomsection), [VideoFrame](../../videoframe), [OleObjectFrame](../../oleobjectframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Chart](../../chart), [AudioFrame](../../audioframe), [LegacyDiagram](../../legacydiagram), [ZoomObject](../../zoomobject)
+[GraphicalObject](../../graphicalobject), [Connector](../../connector), [Table](../../table), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Ink](../../ink), [GeometryShape](../../geometryshape), [SummaryZoomFrame](../../summaryzoomframe), [ZoomFrame](../../zoomframe), [SummaryZoomSection](../../summaryzoomsection), [OleObjectFrame](../../oleobjectframe), [VideoFrame](../../videoframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Chart](../../chart), [AudioFrame](../../audioframe), [ZoomObject](../../zoomobject), [LegacyDiagram](../../legacydiagram)
+
+
+---
+
+
+## insertClone(int index, [LegacyDiagram](../../legacydiagram) sourceShape, float x, float y, float width, float height)  method
+
+ Inserts a copy of a specified shape to specified position of the collection.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Index of new shape. |
+| sourceShape | [LegacyDiagram](../legacydiagram) | Shape to clone. |
+| x | float | X coordinate of a new shape. |
+| y | float | Y coordinate of a new shape. |
+| width | float | Width of a new shape. |
+| height | float | Height of a new shape. |
+
+### Returns
+[GraphicalObject](../../graphicalobject), [Connector](../../connector), [Table](../../table), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Ink](../../ink), [GeometryShape](../../geometryshape), [SummaryZoomFrame](../../summaryzoomframe), [ZoomFrame](../../zoomframe), [SummaryZoomSection](../../summaryzoomsection), [OleObjectFrame](../../oleobjectframe), [VideoFrame](../../videoframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Chart](../../chart), [AudioFrame](../../audioframe), [ZoomObject](../../zoomobject), [LegacyDiagram](../../legacydiagram)
 
 
 ---
@@ -483,7 +483,7 @@ url: /php-java/shapecollection/insertclone/
 | y | float | Y coordinate of a new shape. |
 
 ### Returns
-[GraphicalObject](../../graphicalobject), [Connector](../../connector), [Table](../../table), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Ink](../../ink), [SummaryZoomFrame](../../summaryzoomframe), [GeometryShape](../../geometryshape), [ZoomFrame](../../zoomframe), [SummaryZoomSection](../../summaryzoomsection), [VideoFrame](../../videoframe), [OleObjectFrame](../../oleobjectframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Chart](../../chart), [AudioFrame](../../audioframe), [LegacyDiagram](../../legacydiagram), [ZoomObject](../../zoomobject)
+[GraphicalObject](../../graphicalobject), [Connector](../../connector), [Table](../../table), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Ink](../../ink), [GeometryShape](../../geometryshape), [SummaryZoomFrame](../../summaryzoomframe), [ZoomFrame](../../zoomframe), [SummaryZoomSection](../../summaryzoomsection), [OleObjectFrame](../../oleobjectframe), [VideoFrame](../../videoframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Chart](../../chart), [AudioFrame](../../audioframe), [ZoomObject](../../zoomobject), [LegacyDiagram](../../legacydiagram)
 
 
 ---
@@ -505,7 +505,7 @@ url: /php-java/shapecollection/insertclone/
 | y | float | Y coordinate of a new shape. |
 
 ### Returns
-[GraphicalObject](../../graphicalobject), [Connector](../../connector), [Table](../../table), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Ink](../../ink), [SummaryZoomFrame](../../summaryzoomframe), [GeometryShape](../../geometryshape), [ZoomFrame](../../zoomframe), [SummaryZoomSection](../../summaryzoomsection), [VideoFrame](../../videoframe), [OleObjectFrame](../../oleobjectframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Chart](../../chart), [AudioFrame](../../audioframe), [LegacyDiagram](../../legacydiagram), [ZoomObject](../../zoomobject)
+[GraphicalObject](../../graphicalobject), [Connector](../../connector), [Table](../../table), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Ink](../../ink), [GeometryShape](../../geometryshape), [SummaryZoomFrame](../../summaryzoomframe), [ZoomFrame](../../zoomframe), [SummaryZoomSection](../../summaryzoomsection), [OleObjectFrame](../../oleobjectframe), [VideoFrame](../../videoframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Chart](../../chart), [AudioFrame](../../audioframe), [ZoomObject](../../zoomobject), [LegacyDiagram](../../legacydiagram)
 
 
 ---
@@ -527,7 +527,7 @@ url: /php-java/shapecollection/insertclone/
 | y | float | Y coordinate of a new shape. |
 
 ### Returns
-[GraphicalObject](../../graphicalobject), [Connector](../../connector), [Table](../../table), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Ink](../../ink), [SummaryZoomFrame](../../summaryzoomframe), [GeometryShape](../../geometryshape), [ZoomFrame](../../zoomframe), [SummaryZoomSection](../../summaryzoomsection), [VideoFrame](../../videoframe), [OleObjectFrame](../../oleobjectframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Chart](../../chart), [AudioFrame](../../audioframe), [LegacyDiagram](../../legacydiagram), [ZoomObject](../../zoomobject)
+[GraphicalObject](../../graphicalobject), [Connector](../../connector), [Table](../../table), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Ink](../../ink), [GeometryShape](../../geometryshape), [SummaryZoomFrame](../../summaryzoomframe), [ZoomFrame](../../zoomframe), [SummaryZoomSection](../../summaryzoomsection), [OleObjectFrame](../../oleobjectframe), [VideoFrame](../../videoframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Chart](../../chart), [AudioFrame](../../audioframe), [ZoomObject](../../zoomobject), [LegacyDiagram](../../legacydiagram)
 
 
 ---
@@ -549,7 +549,7 @@ url: /php-java/shapecollection/insertclone/
 | y | float | Y coordinate of a new shape. |
 
 ### Returns
-[GraphicalObject](../../graphicalobject), [Connector](../../connector), [Table](../../table), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Ink](../../ink), [SummaryZoomFrame](../../summaryzoomframe), [GeometryShape](../../geometryshape), [ZoomFrame](../../zoomframe), [SummaryZoomSection](../../summaryzoomsection), [VideoFrame](../../videoframe), [OleObjectFrame](../../oleobjectframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Chart](../../chart), [AudioFrame](../../audioframe), [LegacyDiagram](../../legacydiagram), [ZoomObject](../../zoomobject)
+[GraphicalObject](../../graphicalobject), [Connector](../../connector), [Table](../../table), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Ink](../../ink), [GeometryShape](../../geometryshape), [SummaryZoomFrame](../../summaryzoomframe), [ZoomFrame](../../zoomframe), [SummaryZoomSection](../../summaryzoomsection), [OleObjectFrame](../../oleobjectframe), [VideoFrame](../../videoframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Chart](../../chart), [AudioFrame](../../audioframe), [ZoomObject](../../zoomobject), [LegacyDiagram](../../legacydiagram)
 
 
 ---
@@ -571,7 +571,7 @@ url: /php-java/shapecollection/insertclone/
 | y | float | Y coordinate of a new shape. |
 
 ### Returns
-[GraphicalObject](../../graphicalobject), [Connector](../../connector), [Table](../../table), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Ink](../../ink), [SummaryZoomFrame](../../summaryzoomframe), [GeometryShape](../../geometryshape), [ZoomFrame](../../zoomframe), [SummaryZoomSection](../../summaryzoomsection), [VideoFrame](../../videoframe), [OleObjectFrame](../../oleobjectframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Chart](../../chart), [AudioFrame](../../audioframe), [LegacyDiagram](../../legacydiagram), [ZoomObject](../../zoomobject)
+[GraphicalObject](../../graphicalobject), [Connector](../../connector), [Table](../../table), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Ink](../../ink), [GeometryShape](../../geometryshape), [SummaryZoomFrame](../../summaryzoomframe), [ZoomFrame](../../zoomframe), [SummaryZoomSection](../../summaryzoomsection), [OleObjectFrame](../../oleobjectframe), [VideoFrame](../../videoframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Chart](../../chart), [AudioFrame](../../audioframe), [ZoomObject](../../zoomobject), [LegacyDiagram](../../legacydiagram)
 
 
 ---
@@ -593,7 +593,7 @@ url: /php-java/shapecollection/insertclone/
 | y | float | Y coordinate of a new shape. |
 
 ### Returns
-[GraphicalObject](../../graphicalobject), [Connector](../../connector), [Table](../../table), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Ink](../../ink), [SummaryZoomFrame](../../summaryzoomframe), [GeometryShape](../../geometryshape), [ZoomFrame](../../zoomframe), [SummaryZoomSection](../../summaryzoomsection), [VideoFrame](../../videoframe), [OleObjectFrame](../../oleobjectframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Chart](../../chart), [AudioFrame](../../audioframe), [LegacyDiagram](../../legacydiagram), [ZoomObject](../../zoomobject)
+[GraphicalObject](../../graphicalobject), [Connector](../../connector), [Table](../../table), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Ink](../../ink), [GeometryShape](../../geometryshape), [SummaryZoomFrame](../../summaryzoomframe), [ZoomFrame](../../zoomframe), [SummaryZoomSection](../../summaryzoomsection), [OleObjectFrame](../../oleobjectframe), [VideoFrame](../../videoframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Chart](../../chart), [AudioFrame](../../audioframe), [ZoomObject](../../zoomobject), [LegacyDiagram](../../legacydiagram)
 
 
 ---
@@ -615,7 +615,7 @@ url: /php-java/shapecollection/insertclone/
 | y | float | Y coordinate of a new shape. |
 
 ### Returns
-[GraphicalObject](../../graphicalobject), [Connector](../../connector), [Table](../../table), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Ink](../../ink), [SummaryZoomFrame](../../summaryzoomframe), [GeometryShape](../../geometryshape), [ZoomFrame](../../zoomframe), [SummaryZoomSection](../../summaryzoomsection), [VideoFrame](../../videoframe), [OleObjectFrame](../../oleobjectframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Chart](../../chart), [AudioFrame](../../audioframe), [LegacyDiagram](../../legacydiagram), [ZoomObject](../../zoomobject)
+[GraphicalObject](../../graphicalobject), [Connector](../../connector), [Table](../../table), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Ink](../../ink), [GeometryShape](../../geometryshape), [SummaryZoomFrame](../../summaryzoomframe), [ZoomFrame](../../zoomframe), [SummaryZoomSection](../../summaryzoomsection), [OleObjectFrame](../../oleobjectframe), [VideoFrame](../../videoframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Chart](../../chart), [AudioFrame](../../audioframe), [ZoomObject](../../zoomobject), [LegacyDiagram](../../legacydiagram)
 
 
 ---
@@ -637,7 +637,7 @@ url: /php-java/shapecollection/insertclone/
 | y | float | Y coordinate of a new shape. |
 
 ### Returns
-[GraphicalObject](../../graphicalobject), [Connector](../../connector), [Table](../../table), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Ink](../../ink), [SummaryZoomFrame](../../summaryzoomframe), [GeometryShape](../../geometryshape), [ZoomFrame](../../zoomframe), [SummaryZoomSection](../../summaryzoomsection), [VideoFrame](../../videoframe), [OleObjectFrame](../../oleobjectframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Chart](../../chart), [AudioFrame](../../audioframe), [LegacyDiagram](../../legacydiagram), [ZoomObject](../../zoomobject)
+[GraphicalObject](../../graphicalobject), [Connector](../../connector), [Table](../../table), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Ink](../../ink), [GeometryShape](../../geometryshape), [SummaryZoomFrame](../../summaryzoomframe), [ZoomFrame](../../zoomframe), [SummaryZoomSection](../../summaryzoomsection), [OleObjectFrame](../../oleobjectframe), [VideoFrame](../../videoframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Chart](../../chart), [AudioFrame](../../audioframe), [ZoomObject](../../zoomobject), [LegacyDiagram](../../legacydiagram)
 
 
 ---
@@ -659,29 +659,7 @@ url: /php-java/shapecollection/insertclone/
 | y | float | Y coordinate of a new shape. |
 
 ### Returns
-[GraphicalObject](../../graphicalobject), [Connector](../../connector), [Table](../../table), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Ink](../../ink), [SummaryZoomFrame](../../summaryzoomframe), [GeometryShape](../../geometryshape), [ZoomFrame](../../zoomframe), [SummaryZoomSection](../../summaryzoomsection), [VideoFrame](../../videoframe), [OleObjectFrame](../../oleobjectframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Chart](../../chart), [AudioFrame](../../audioframe), [LegacyDiagram](../../legacydiagram), [ZoomObject](../../zoomobject)
-
-
----
-
-
-## insertClone(int index, [VideoFrame](../../videoframe) sourceShape, float x, float y)  method
-
- Inserts a copy of a specified shape to specified position of the collection.
- Width and Height of the new shape are equal to Width and Height of the source  Shape.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| index | int | Index of new shape. |
-| sourceShape | [VideoFrame](../videoframe) | Shape to clone. |
-| x | float | X coordinate of a new shape. |
-| y | float | Y coordinate of a new shape. |
-
-### Returns
-[GraphicalObject](../../graphicalobject), [Connector](../../connector), [Table](../../table), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Ink](../../ink), [SummaryZoomFrame](../../summaryzoomframe), [GeometryShape](../../geometryshape), [ZoomFrame](../../zoomframe), [SummaryZoomSection](../../summaryzoomsection), [VideoFrame](../../videoframe), [OleObjectFrame](../../oleobjectframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Chart](../../chart), [AudioFrame](../../audioframe), [LegacyDiagram](../../legacydiagram), [ZoomObject](../../zoomobject)
+[GraphicalObject](../../graphicalobject), [Connector](../../connector), [Table](../../table), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Ink](../../ink), [GeometryShape](../../geometryshape), [SummaryZoomFrame](../../summaryzoomframe), [ZoomFrame](../../zoomframe), [SummaryZoomSection](../../summaryzoomsection), [OleObjectFrame](../../oleobjectframe), [VideoFrame](../../videoframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Chart](../../chart), [AudioFrame](../../audioframe), [ZoomObject](../../zoomobject), [LegacyDiagram](../../legacydiagram)
 
 
 ---
@@ -703,7 +681,29 @@ url: /php-java/shapecollection/insertclone/
 | y | float | Y coordinate of a new shape. |
 
 ### Returns
-[GraphicalObject](../../graphicalobject), [Connector](../../connector), [Table](../../table), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Ink](../../ink), [SummaryZoomFrame](../../summaryzoomframe), [GeometryShape](../../geometryshape), [ZoomFrame](../../zoomframe), [SummaryZoomSection](../../summaryzoomsection), [VideoFrame](../../videoframe), [OleObjectFrame](../../oleobjectframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Chart](../../chart), [AudioFrame](../../audioframe), [LegacyDiagram](../../legacydiagram), [ZoomObject](../../zoomobject)
+[GraphicalObject](../../graphicalobject), [Connector](../../connector), [Table](../../table), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Ink](../../ink), [GeometryShape](../../geometryshape), [SummaryZoomFrame](../../summaryzoomframe), [ZoomFrame](../../zoomframe), [SummaryZoomSection](../../summaryzoomsection), [OleObjectFrame](../../oleobjectframe), [VideoFrame](../../videoframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Chart](../../chart), [AudioFrame](../../audioframe), [ZoomObject](../../zoomobject), [LegacyDiagram](../../legacydiagram)
+
+
+---
+
+
+## insertClone(int index, [VideoFrame](../../videoframe) sourceShape, float x, float y)  method
+
+ Inserts a copy of a specified shape to specified position of the collection.
+ Width and Height of the new shape are equal to Width and Height of the source  Shape.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Index of new shape. |
+| sourceShape | [VideoFrame](../videoframe) | Shape to clone. |
+| x | float | X coordinate of a new shape. |
+| y | float | Y coordinate of a new shape. |
+
+### Returns
+[GraphicalObject](../../graphicalobject), [Connector](../../connector), [Table](../../table), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Ink](../../ink), [GeometryShape](../../geometryshape), [SummaryZoomFrame](../../summaryzoomframe), [ZoomFrame](../../zoomframe), [SummaryZoomSection](../../summaryzoomsection), [OleObjectFrame](../../oleobjectframe), [VideoFrame](../../videoframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Chart](../../chart), [AudioFrame](../../audioframe), [ZoomObject](../../zoomobject), [LegacyDiagram](../../legacydiagram)
 
 
 ---
@@ -725,7 +725,7 @@ url: /php-java/shapecollection/insertclone/
 | y | float | Y coordinate of a new shape. |
 
 ### Returns
-[GraphicalObject](../../graphicalobject), [Connector](../../connector), [Table](../../table), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Ink](../../ink), [SummaryZoomFrame](../../summaryzoomframe), [GeometryShape](../../geometryshape), [ZoomFrame](../../zoomframe), [SummaryZoomSection](../../summaryzoomsection), [VideoFrame](../../videoframe), [OleObjectFrame](../../oleobjectframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Chart](../../chart), [AudioFrame](../../audioframe), [LegacyDiagram](../../legacydiagram), [ZoomObject](../../zoomobject)
+[GraphicalObject](../../graphicalobject), [Connector](../../connector), [Table](../../table), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Ink](../../ink), [GeometryShape](../../geometryshape), [SummaryZoomFrame](../../summaryzoomframe), [ZoomFrame](../../zoomframe), [SummaryZoomSection](../../summaryzoomsection), [OleObjectFrame](../../oleobjectframe), [VideoFrame](../../videoframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Chart](../../chart), [AudioFrame](../../audioframe), [ZoomObject](../../zoomobject), [LegacyDiagram](../../legacydiagram)
 
 
 ---
@@ -747,7 +747,7 @@ url: /php-java/shapecollection/insertclone/
 | y | float | Y coordinate of a new shape. |
 
 ### Returns
-[GraphicalObject](../../graphicalobject), [Connector](../../connector), [Table](../../table), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Ink](../../ink), [SummaryZoomFrame](../../summaryzoomframe), [GeometryShape](../../geometryshape), [ZoomFrame](../../zoomframe), [SummaryZoomSection](../../summaryzoomsection), [VideoFrame](../../videoframe), [OleObjectFrame](../../oleobjectframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Chart](../../chart), [AudioFrame](../../audioframe), [LegacyDiagram](../../legacydiagram), [ZoomObject](../../zoomobject)
+[GraphicalObject](../../graphicalobject), [Connector](../../connector), [Table](../../table), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Ink](../../ink), [GeometryShape](../../geometryshape), [SummaryZoomFrame](../../summaryzoomframe), [ZoomFrame](../../zoomframe), [SummaryZoomSection](../../summaryzoomsection), [OleObjectFrame](../../oleobjectframe), [VideoFrame](../../videoframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Chart](../../chart), [AudioFrame](../../audioframe), [ZoomObject](../../zoomobject), [LegacyDiagram](../../legacydiagram)
 
 
 ---
@@ -769,7 +769,7 @@ url: /php-java/shapecollection/insertclone/
 | y | float | Y coordinate of a new shape. |
 
 ### Returns
-[GraphicalObject](../../graphicalobject), [Connector](../../connector), [Table](../../table), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Ink](../../ink), [SummaryZoomFrame](../../summaryzoomframe), [GeometryShape](../../geometryshape), [ZoomFrame](../../zoomframe), [SummaryZoomSection](../../summaryzoomsection), [VideoFrame](../../videoframe), [OleObjectFrame](../../oleobjectframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Chart](../../chart), [AudioFrame](../../audioframe), [LegacyDiagram](../../legacydiagram), [ZoomObject](../../zoomobject)
+[GraphicalObject](../../graphicalobject), [Connector](../../connector), [Table](../../table), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Ink](../../ink), [GeometryShape](../../geometryshape), [SummaryZoomFrame](../../summaryzoomframe), [ZoomFrame](../../zoomframe), [SummaryZoomSection](../../summaryzoomsection), [OleObjectFrame](../../oleobjectframe), [VideoFrame](../../videoframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Chart](../../chart), [AudioFrame](../../audioframe), [ZoomObject](../../zoomobject), [LegacyDiagram](../../legacydiagram)
 
 
 ---
@@ -791,7 +791,7 @@ url: /php-java/shapecollection/insertclone/
 | y | float | Y coordinate of a new shape. |
 
 ### Returns
-[GraphicalObject](../../graphicalobject), [Connector](../../connector), [Table](../../table), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Ink](../../ink), [SummaryZoomFrame](../../summaryzoomframe), [GeometryShape](../../geometryshape), [ZoomFrame](../../zoomframe), [SummaryZoomSection](../../summaryzoomsection), [VideoFrame](../../videoframe), [OleObjectFrame](../../oleobjectframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Chart](../../chart), [AudioFrame](../../audioframe), [LegacyDiagram](../../legacydiagram), [ZoomObject](../../zoomobject)
+[GraphicalObject](../../graphicalobject), [Connector](../../connector), [Table](../../table), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Ink](../../ink), [GeometryShape](../../geometryshape), [SummaryZoomFrame](../../summaryzoomframe), [ZoomFrame](../../zoomframe), [SummaryZoomSection](../../summaryzoomsection), [OleObjectFrame](../../oleobjectframe), [VideoFrame](../../videoframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Chart](../../chart), [AudioFrame](../../audioframe), [ZoomObject](../../zoomobject), [LegacyDiagram](../../legacydiagram)
 
 
 ---
@@ -813,7 +813,7 @@ url: /php-java/shapecollection/insertclone/
 | y | float | Y coordinate of a new shape. |
 
 ### Returns
-[GraphicalObject](../../graphicalobject), [Connector](../../connector), [Table](../../table), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Ink](../../ink), [SummaryZoomFrame](../../summaryzoomframe), [GeometryShape](../../geometryshape), [ZoomFrame](../../zoomframe), [SummaryZoomSection](../../summaryzoomsection), [VideoFrame](../../videoframe), [OleObjectFrame](../../oleobjectframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Chart](../../chart), [AudioFrame](../../audioframe), [LegacyDiagram](../../legacydiagram), [ZoomObject](../../zoomobject)
+[GraphicalObject](../../graphicalobject), [Connector](../../connector), [Table](../../table), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Ink](../../ink), [GeometryShape](../../geometryshape), [SummaryZoomFrame](../../summaryzoomframe), [ZoomFrame](../../zoomframe), [SummaryZoomSection](../../summaryzoomsection), [OleObjectFrame](../../oleobjectframe), [VideoFrame](../../videoframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Chart](../../chart), [AudioFrame](../../audioframe), [ZoomObject](../../zoomobject), [LegacyDiagram](../../legacydiagram)
 
 
 ---
@@ -835,7 +835,7 @@ url: /php-java/shapecollection/insertclone/
 | y | float | Y coordinate of a new shape. |
 
 ### Returns
-[GraphicalObject](../../graphicalobject), [Connector](../../connector), [Table](../../table), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Ink](../../ink), [SummaryZoomFrame](../../summaryzoomframe), [GeometryShape](../../geometryshape), [ZoomFrame](../../zoomframe), [SummaryZoomSection](../../summaryzoomsection), [VideoFrame](../../videoframe), [OleObjectFrame](../../oleobjectframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Chart](../../chart), [AudioFrame](../../audioframe), [LegacyDiagram](../../legacydiagram), [ZoomObject](../../zoomobject)
+[GraphicalObject](../../graphicalobject), [Connector](../../connector), [Table](../../table), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Ink](../../ink), [GeometryShape](../../geometryshape), [SummaryZoomFrame](../../summaryzoomframe), [ZoomFrame](../../zoomframe), [SummaryZoomSection](../../summaryzoomsection), [OleObjectFrame](../../oleobjectframe), [VideoFrame](../../videoframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Chart](../../chart), [AudioFrame](../../audioframe), [ZoomObject](../../zoomobject), [LegacyDiagram](../../legacydiagram)
 
 
 ---
@@ -857,29 +857,7 @@ url: /php-java/shapecollection/insertclone/
 | y | float | Y coordinate of a new shape. |
 
 ### Returns
-[GraphicalObject](../../graphicalobject), [Connector](../../connector), [Table](../../table), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Ink](../../ink), [SummaryZoomFrame](../../summaryzoomframe), [GeometryShape](../../geometryshape), [ZoomFrame](../../zoomframe), [SummaryZoomSection](../../summaryzoomsection), [VideoFrame](../../videoframe), [OleObjectFrame](../../oleobjectframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Chart](../../chart), [AudioFrame](../../audioframe), [LegacyDiagram](../../legacydiagram), [ZoomObject](../../zoomobject)
-
-
----
-
-
-## insertClone(int index, [LegacyDiagram](../../legacydiagram) sourceShape, float x, float y)  method
-
- Inserts a copy of a specified shape to specified position of the collection.
- Width and Height of the new shape are equal to Width and Height of the source  Shape.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| index | int | Index of new shape. |
-| sourceShape | [LegacyDiagram](../legacydiagram) | Shape to clone. |
-| x | float | X coordinate of a new shape. |
-| y | float | Y coordinate of a new shape. |
-
-### Returns
-[GraphicalObject](../../graphicalobject), [Connector](../../connector), [Table](../../table), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Ink](../../ink), [SummaryZoomFrame](../../summaryzoomframe), [GeometryShape](../../geometryshape), [ZoomFrame](../../zoomframe), [SummaryZoomSection](../../summaryzoomsection), [VideoFrame](../../videoframe), [OleObjectFrame](../../oleobjectframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Chart](../../chart), [AudioFrame](../../audioframe), [LegacyDiagram](../../legacydiagram), [ZoomObject](../../zoomobject)
+[GraphicalObject](../../graphicalobject), [Connector](../../connector), [Table](../../table), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Ink](../../ink), [GeometryShape](../../geometryshape), [SummaryZoomFrame](../../summaryzoomframe), [ZoomFrame](../../zoomframe), [SummaryZoomSection](../../summaryzoomsection), [OleObjectFrame](../../oleobjectframe), [VideoFrame](../../videoframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Chart](../../chart), [AudioFrame](../../audioframe), [ZoomObject](../../zoomobject), [LegacyDiagram](../../legacydiagram)
 
 
 ---
@@ -901,7 +879,29 @@ url: /php-java/shapecollection/insertclone/
 | y | float | Y coordinate of a new shape. |
 
 ### Returns
-[GraphicalObject](../../graphicalobject), [Connector](../../connector), [Table](../../table), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Ink](../../ink), [SummaryZoomFrame](../../summaryzoomframe), [GeometryShape](../../geometryshape), [ZoomFrame](../../zoomframe), [SummaryZoomSection](../../summaryzoomsection), [VideoFrame](../../videoframe), [OleObjectFrame](../../oleobjectframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Chart](../../chart), [AudioFrame](../../audioframe), [LegacyDiagram](../../legacydiagram), [ZoomObject](../../zoomobject)
+[GraphicalObject](../../graphicalobject), [Connector](../../connector), [Table](../../table), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Ink](../../ink), [GeometryShape](../../geometryshape), [SummaryZoomFrame](../../summaryzoomframe), [ZoomFrame](../../zoomframe), [SummaryZoomSection](../../summaryzoomsection), [OleObjectFrame](../../oleobjectframe), [VideoFrame](../../videoframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Chart](../../chart), [AudioFrame](../../audioframe), [ZoomObject](../../zoomobject), [LegacyDiagram](../../legacydiagram)
+
+
+---
+
+
+## insertClone(int index, [LegacyDiagram](../../legacydiagram) sourceShape, float x, float y)  method
+
+ Inserts a copy of a specified shape to specified position of the collection.
+ Width and Height of the new shape are equal to Width and Height of the source  Shape.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Index of new shape. |
+| sourceShape | [LegacyDiagram](../legacydiagram) | Shape to clone. |
+| x | float | X coordinate of a new shape. |
+| y | float | Y coordinate of a new shape. |
+
+### Returns
+[GraphicalObject](../../graphicalobject), [Connector](../../connector), [Table](../../table), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Ink](../../ink), [GeometryShape](../../geometryshape), [SummaryZoomFrame](../../summaryzoomframe), [ZoomFrame](../../zoomframe), [SummaryZoomSection](../../summaryzoomsection), [OleObjectFrame](../../oleobjectframe), [VideoFrame](../../videoframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Chart](../../chart), [AudioFrame](../../audioframe), [ZoomObject](../../zoomobject), [LegacyDiagram](../../legacydiagram)
 
 
 ---
@@ -921,7 +921,7 @@ url: /php-java/shapecollection/insertclone/
 | sourceShape | [GraphicalObject](../../graphicalobject) | Shape to clone. |
 
 ### Returns
-[GraphicalObject](../../graphicalobject), [Connector](../../connector), [Table](../../table), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Ink](../../ink), [SummaryZoomFrame](../../summaryzoomframe), [GeometryShape](../../geometryshape), [ZoomFrame](../../zoomframe), [SummaryZoomSection](../../summaryzoomsection), [VideoFrame](../../videoframe), [OleObjectFrame](../../oleobjectframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Chart](../../chart), [AudioFrame](../../audioframe), [LegacyDiagram](../../legacydiagram), [ZoomObject](../../zoomobject)
+[GraphicalObject](../../graphicalobject), [Connector](../../connector), [Table](../../table), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Ink](../../ink), [GeometryShape](../../geometryshape), [SummaryZoomFrame](../../summaryzoomframe), [ZoomFrame](../../zoomframe), [SummaryZoomSection](../../summaryzoomsection), [OleObjectFrame](../../oleobjectframe), [VideoFrame](../../videoframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Chart](../../chart), [AudioFrame](../../audioframe), [ZoomObject](../../zoomobject), [LegacyDiagram](../../legacydiagram)
 
 
 ---
@@ -941,7 +941,7 @@ url: /php-java/shapecollection/insertclone/
 | sourceShape | [Connector](../../connector) | Shape to clone. |
 
 ### Returns
-[GraphicalObject](../../graphicalobject), [Connector](../../connector), [Table](../../table), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Ink](../../ink), [SummaryZoomFrame](../../summaryzoomframe), [GeometryShape](../../geometryshape), [ZoomFrame](../../zoomframe), [SummaryZoomSection](../../summaryzoomsection), [VideoFrame](../../videoframe), [OleObjectFrame](../../oleobjectframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Chart](../../chart), [AudioFrame](../../audioframe), [LegacyDiagram](../../legacydiagram), [ZoomObject](../../zoomobject)
+[GraphicalObject](../../graphicalobject), [Connector](../../connector), [Table](../../table), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Ink](../../ink), [GeometryShape](../../geometryshape), [SummaryZoomFrame](../../summaryzoomframe), [ZoomFrame](../../zoomframe), [SummaryZoomSection](../../summaryzoomsection), [OleObjectFrame](../../oleobjectframe), [VideoFrame](../../videoframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Chart](../../chart), [AudioFrame](../../audioframe), [ZoomObject](../../zoomobject), [LegacyDiagram](../../legacydiagram)
 
 
 ---
@@ -961,7 +961,7 @@ url: /php-java/shapecollection/insertclone/
 | sourceShape | [Table](../../table) | Shape to clone. |
 
 ### Returns
-[GraphicalObject](../../graphicalobject), [Connector](../../connector), [Table](../../table), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Ink](../../ink), [SummaryZoomFrame](../../summaryzoomframe), [GeometryShape](../../geometryshape), [ZoomFrame](../../zoomframe), [SummaryZoomSection](../../summaryzoomsection), [VideoFrame](../../videoframe), [OleObjectFrame](../../oleobjectframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Chart](../../chart), [AudioFrame](../../audioframe), [LegacyDiagram](../../legacydiagram), [ZoomObject](../../zoomobject)
+[GraphicalObject](../../graphicalobject), [Connector](../../connector), [Table](../../table), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Ink](../../ink), [GeometryShape](../../geometryshape), [SummaryZoomFrame](../../summaryzoomframe), [ZoomFrame](../../zoomframe), [SummaryZoomSection](../../summaryzoomsection), [OleObjectFrame](../../oleobjectframe), [VideoFrame](../../videoframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Chart](../../chart), [AudioFrame](../../audioframe), [ZoomObject](../../zoomobject), [LegacyDiagram](../../legacydiagram)
 
 
 ---
@@ -981,7 +981,7 @@ url: /php-java/shapecollection/insertclone/
 | sourceShape | [SmartArtShape](../../smartartshape) | Shape to clone. |
 
 ### Returns
-[GraphicalObject](../../graphicalobject), [Connector](../../connector), [Table](../../table), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Ink](../../ink), [SummaryZoomFrame](../../summaryzoomframe), [GeometryShape](../../geometryshape), [ZoomFrame](../../zoomframe), [SummaryZoomSection](../../summaryzoomsection), [VideoFrame](../../videoframe), [OleObjectFrame](../../oleobjectframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Chart](../../chart), [AudioFrame](../../audioframe), [LegacyDiagram](../../legacydiagram), [ZoomObject](../../zoomobject)
+[GraphicalObject](../../graphicalobject), [Connector](../../connector), [Table](../../table), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Ink](../../ink), [GeometryShape](../../geometryshape), [SummaryZoomFrame](../../summaryzoomframe), [ZoomFrame](../../zoomframe), [SummaryZoomSection](../../summaryzoomsection), [OleObjectFrame](../../oleobjectframe), [VideoFrame](../../videoframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Chart](../../chart), [AudioFrame](../../audioframe), [ZoomObject](../../zoomobject), [LegacyDiagram](../../legacydiagram)
 
 
 ---
@@ -1001,7 +1001,7 @@ url: /php-java/shapecollection/insertclone/
 | sourceShape | [Shape](../../shape) | Shape to clone. |
 
 ### Returns
-[GraphicalObject](../../graphicalobject), [Connector](../../connector), [Table](../../table), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Ink](../../ink), [SummaryZoomFrame](../../summaryzoomframe), [GeometryShape](../../geometryshape), [ZoomFrame](../../zoomframe), [SummaryZoomSection](../../summaryzoomsection), [VideoFrame](../../videoframe), [OleObjectFrame](../../oleobjectframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Chart](../../chart), [AudioFrame](../../audioframe), [LegacyDiagram](../../legacydiagram), [ZoomObject](../../zoomobject)
+[GraphicalObject](../../graphicalobject), [Connector](../../connector), [Table](../../table), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Ink](../../ink), [GeometryShape](../../geometryshape), [SummaryZoomFrame](../../summaryzoomframe), [ZoomFrame](../../zoomframe), [SummaryZoomSection](../../summaryzoomsection), [OleObjectFrame](../../oleobjectframe), [VideoFrame](../../videoframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Chart](../../chart), [AudioFrame](../../audioframe), [ZoomObject](../../zoomobject), [LegacyDiagram](../../legacydiagram)
 
 
 ---
@@ -1021,7 +1021,7 @@ url: /php-java/shapecollection/insertclone/
 | sourceShape | [Ink](../../ink) | Shape to clone. |
 
 ### Returns
-[GraphicalObject](../../graphicalobject), [Connector](../../connector), [Table](../../table), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Ink](../../ink), [SummaryZoomFrame](../../summaryzoomframe), [GeometryShape](../../geometryshape), [ZoomFrame](../../zoomframe), [SummaryZoomSection](../../summaryzoomsection), [VideoFrame](../../videoframe), [OleObjectFrame](../../oleobjectframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Chart](../../chart), [AudioFrame](../../audioframe), [LegacyDiagram](../../legacydiagram), [ZoomObject](../../zoomobject)
+[GraphicalObject](../../graphicalobject), [Connector](../../connector), [Table](../../table), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Ink](../../ink), [GeometryShape](../../geometryshape), [SummaryZoomFrame](../../summaryzoomframe), [ZoomFrame](../../zoomframe), [SummaryZoomSection](../../summaryzoomsection), [OleObjectFrame](../../oleobjectframe), [VideoFrame](../../videoframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Chart](../../chart), [AudioFrame](../../audioframe), [ZoomObject](../../zoomobject), [LegacyDiagram](../../legacydiagram)
 
 
 ---
@@ -1041,7 +1041,7 @@ url: /php-java/shapecollection/insertclone/
 | sourceShape | [SummaryZoomFrame](../../summaryzoomframe) | Shape to clone. |
 
 ### Returns
-[GraphicalObject](../../graphicalobject), [Connector](../../connector), [Table](../../table), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Ink](../../ink), [SummaryZoomFrame](../../summaryzoomframe), [GeometryShape](../../geometryshape), [ZoomFrame](../../zoomframe), [SummaryZoomSection](../../summaryzoomsection), [VideoFrame](../../videoframe), [OleObjectFrame](../../oleobjectframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Chart](../../chart), [AudioFrame](../../audioframe), [LegacyDiagram](../../legacydiagram), [ZoomObject](../../zoomobject)
+[GraphicalObject](../../graphicalobject), [Connector](../../connector), [Table](../../table), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Ink](../../ink), [GeometryShape](../../geometryshape), [SummaryZoomFrame](../../summaryzoomframe), [ZoomFrame](../../zoomframe), [SummaryZoomSection](../../summaryzoomsection), [OleObjectFrame](../../oleobjectframe), [VideoFrame](../../videoframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Chart](../../chart), [AudioFrame](../../audioframe), [ZoomObject](../../zoomobject), [LegacyDiagram](../../legacydiagram)
 
 
 ---
@@ -1061,7 +1061,7 @@ url: /php-java/shapecollection/insertclone/
 | sourceShape | [ZoomFrame](../../zoomframe) | Shape to clone. |
 
 ### Returns
-[GraphicalObject](../../graphicalobject), [Connector](../../connector), [Table](../../table), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Ink](../../ink), [SummaryZoomFrame](../../summaryzoomframe), [GeometryShape](../../geometryshape), [ZoomFrame](../../zoomframe), [SummaryZoomSection](../../summaryzoomsection), [VideoFrame](../../videoframe), [OleObjectFrame](../../oleobjectframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Chart](../../chart), [AudioFrame](../../audioframe), [LegacyDiagram](../../legacydiagram), [ZoomObject](../../zoomobject)
+[GraphicalObject](../../graphicalobject), [Connector](../../connector), [Table](../../table), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Ink](../../ink), [GeometryShape](../../geometryshape), [SummaryZoomFrame](../../summaryzoomframe), [ZoomFrame](../../zoomframe), [SummaryZoomSection](../../summaryzoomsection), [OleObjectFrame](../../oleobjectframe), [VideoFrame](../../videoframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Chart](../../chart), [AudioFrame](../../audioframe), [ZoomObject](../../zoomobject), [LegacyDiagram](../../legacydiagram)
 
 
 ---
@@ -1081,27 +1081,7 @@ url: /php-java/shapecollection/insertclone/
 | sourceShape | [SummaryZoomSection](../../summaryzoomsection) | Shape to clone. |
 
 ### Returns
-[GraphicalObject](../../graphicalobject), [Connector](../../connector), [Table](../../table), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Ink](../../ink), [SummaryZoomFrame](../../summaryzoomframe), [GeometryShape](../../geometryshape), [ZoomFrame](../../zoomframe), [SummaryZoomSection](../../summaryzoomsection), [VideoFrame](../../videoframe), [OleObjectFrame](../../oleobjectframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Chart](../../chart), [AudioFrame](../../audioframe), [LegacyDiagram](../../legacydiagram), [ZoomObject](../../zoomobject)
-
-
----
-
-
-## insertClone(int index, [VideoFrame](../../videoframe) sourceShape)  method
-
- Inserts a copy of a specified shape to specified position of the collection.
- X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source  Shape.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| index | int | Index of new shape. |
-| sourceShape | [VideoFrame](../../videoframe) | Shape to clone. |
-
-### Returns
-[GraphicalObject](../../graphicalobject), [Connector](../../connector), [Table](../../table), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Ink](../../ink), [SummaryZoomFrame](../../summaryzoomframe), [GeometryShape](../../geometryshape), [ZoomFrame](../../zoomframe), [SummaryZoomSection](../../summaryzoomsection), [VideoFrame](../../videoframe), [OleObjectFrame](../../oleobjectframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Chart](../../chart), [AudioFrame](../../audioframe), [LegacyDiagram](../../legacydiagram), [ZoomObject](../../zoomobject)
+[GraphicalObject](../../graphicalobject), [Connector](../../connector), [Table](../../table), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Ink](../../ink), [GeometryShape](../../geometryshape), [SummaryZoomFrame](../../summaryzoomframe), [ZoomFrame](../../zoomframe), [SummaryZoomSection](../../summaryzoomsection), [OleObjectFrame](../../oleobjectframe), [VideoFrame](../../videoframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Chart](../../chart), [AudioFrame](../../audioframe), [ZoomObject](../../zoomobject), [LegacyDiagram](../../legacydiagram)
 
 
 ---
@@ -1121,7 +1101,27 @@ url: /php-java/shapecollection/insertclone/
 | sourceShape | [OleObjectFrame](../../oleobjectframe) | Shape to clone. |
 
 ### Returns
-[GraphicalObject](../../graphicalobject), [Connector](../../connector), [Table](../../table), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Ink](../../ink), [SummaryZoomFrame](../../summaryzoomframe), [GeometryShape](../../geometryshape), [ZoomFrame](../../zoomframe), [SummaryZoomSection](../../summaryzoomsection), [VideoFrame](../../videoframe), [OleObjectFrame](../../oleobjectframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Chart](../../chart), [AudioFrame](../../audioframe), [LegacyDiagram](../../legacydiagram), [ZoomObject](../../zoomobject)
+[GraphicalObject](../../graphicalobject), [Connector](../../connector), [Table](../../table), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Ink](../../ink), [GeometryShape](../../geometryshape), [SummaryZoomFrame](../../summaryzoomframe), [ZoomFrame](../../zoomframe), [SummaryZoomSection](../../summaryzoomsection), [OleObjectFrame](../../oleobjectframe), [VideoFrame](../../videoframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Chart](../../chart), [AudioFrame](../../audioframe), [ZoomObject](../../zoomobject), [LegacyDiagram](../../legacydiagram)
+
+
+---
+
+
+## insertClone(int index, [VideoFrame](../../videoframe) sourceShape)  method
+
+ Inserts a copy of a specified shape to specified position of the collection.
+ X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source  Shape.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Index of new shape. |
+| sourceShape | [VideoFrame](../../videoframe) | Shape to clone. |
+
+### Returns
+[GraphicalObject](../../graphicalobject), [Connector](../../connector), [Table](../../table), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Ink](../../ink), [GeometryShape](../../geometryshape), [SummaryZoomFrame](../../summaryzoomframe), [ZoomFrame](../../zoomframe), [SummaryZoomSection](../../summaryzoomsection), [OleObjectFrame](../../oleobjectframe), [VideoFrame](../../videoframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Chart](../../chart), [AudioFrame](../../audioframe), [ZoomObject](../../zoomobject), [LegacyDiagram](../../legacydiagram)
 
 
 ---
@@ -1141,7 +1141,7 @@ url: /php-java/shapecollection/insertclone/
 | sourceShape | [SmartArt](../../smartart) | Shape to clone. |
 
 ### Returns
-[GraphicalObject](../../graphicalobject), [Connector](../../connector), [Table](../../table), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Ink](../../ink), [SummaryZoomFrame](../../summaryzoomframe), [GeometryShape](../../geometryshape), [ZoomFrame](../../zoomframe), [SummaryZoomSection](../../summaryzoomsection), [VideoFrame](../../videoframe), [OleObjectFrame](../../oleobjectframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Chart](../../chart), [AudioFrame](../../audioframe), [LegacyDiagram](../../legacydiagram), [ZoomObject](../../zoomobject)
+[GraphicalObject](../../graphicalobject), [Connector](../../connector), [Table](../../table), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Ink](../../ink), [GeometryShape](../../geometryshape), [SummaryZoomFrame](../../summaryzoomframe), [ZoomFrame](../../zoomframe), [SummaryZoomSection](../../summaryzoomsection), [OleObjectFrame](../../oleobjectframe), [VideoFrame](../../videoframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Chart](../../chart), [AudioFrame](../../audioframe), [ZoomObject](../../zoomobject), [LegacyDiagram](../../legacydiagram)
 
 
 ---
@@ -1161,7 +1161,7 @@ url: /php-java/shapecollection/insertclone/
 | sourceShape | [GroupShape](../../groupshape) | Shape to clone. |
 
 ### Returns
-[GraphicalObject](../../graphicalobject), [Connector](../../connector), [Table](../../table), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Ink](../../ink), [SummaryZoomFrame](../../summaryzoomframe), [GeometryShape](../../geometryshape), [ZoomFrame](../../zoomframe), [SummaryZoomSection](../../summaryzoomsection), [VideoFrame](../../videoframe), [OleObjectFrame](../../oleobjectframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Chart](../../chart), [AudioFrame](../../audioframe), [LegacyDiagram](../../legacydiagram), [ZoomObject](../../zoomobject)
+[GraphicalObject](../../graphicalobject), [Connector](../../connector), [Table](../../table), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Ink](../../ink), [GeometryShape](../../geometryshape), [SummaryZoomFrame](../../summaryzoomframe), [ZoomFrame](../../zoomframe), [SummaryZoomSection](../../summaryzoomsection), [OleObjectFrame](../../oleobjectframe), [VideoFrame](../../videoframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Chart](../../chart), [AudioFrame](../../audioframe), [ZoomObject](../../zoomobject), [LegacyDiagram](../../legacydiagram)
 
 
 ---
@@ -1181,7 +1181,7 @@ url: /php-java/shapecollection/insertclone/
 | sourceShape | [AutoShape](../../autoshape) | Shape to clone. |
 
 ### Returns
-[GraphicalObject](../../graphicalobject), [Connector](../../connector), [Table](../../table), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Ink](../../ink), [SummaryZoomFrame](../../summaryzoomframe), [GeometryShape](../../geometryshape), [ZoomFrame](../../zoomframe), [SummaryZoomSection](../../summaryzoomsection), [VideoFrame](../../videoframe), [OleObjectFrame](../../oleobjectframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Chart](../../chart), [AudioFrame](../../audioframe), [LegacyDiagram](../../legacydiagram), [ZoomObject](../../zoomobject)
+[GraphicalObject](../../graphicalobject), [Connector](../../connector), [Table](../../table), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Ink](../../ink), [GeometryShape](../../geometryshape), [SummaryZoomFrame](../../summaryzoomframe), [ZoomFrame](../../zoomframe), [SummaryZoomSection](../../summaryzoomsection), [OleObjectFrame](../../oleobjectframe), [VideoFrame](../../videoframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Chart](../../chart), [AudioFrame](../../audioframe), [ZoomObject](../../zoomobject), [LegacyDiagram](../../legacydiagram)
 
 
 ---
@@ -1201,7 +1201,7 @@ url: /php-java/shapecollection/insertclone/
 | sourceShape | [PictureFrame](../../pictureframe) | Shape to clone. |
 
 ### Returns
-[GraphicalObject](../../graphicalobject), [Connector](../../connector), [Table](../../table), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Ink](../../ink), [SummaryZoomFrame](../../summaryzoomframe), [GeometryShape](../../geometryshape), [ZoomFrame](../../zoomframe), [SummaryZoomSection](../../summaryzoomsection), [VideoFrame](../../videoframe), [OleObjectFrame](../../oleobjectframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Chart](../../chart), [AudioFrame](../../audioframe), [LegacyDiagram](../../legacydiagram), [ZoomObject](../../zoomobject)
+[GraphicalObject](../../graphicalobject), [Connector](../../connector), [Table](../../table), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Ink](../../ink), [GeometryShape](../../geometryshape), [SummaryZoomFrame](../../summaryzoomframe), [ZoomFrame](../../zoomframe), [SummaryZoomSection](../../summaryzoomsection), [OleObjectFrame](../../oleobjectframe), [VideoFrame](../../videoframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Chart](../../chart), [AudioFrame](../../audioframe), [ZoomObject](../../zoomobject), [LegacyDiagram](../../legacydiagram)
 
 
 ---
@@ -1221,7 +1221,7 @@ url: /php-java/shapecollection/insertclone/
 | sourceShape | [SectionZoomFrame](../../sectionzoomframe) | Shape to clone. |
 
 ### Returns
-[GraphicalObject](../../graphicalobject), [Connector](../../connector), [Table](../../table), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Ink](../../ink), [SummaryZoomFrame](../../summaryzoomframe), [GeometryShape](../../geometryshape), [ZoomFrame](../../zoomframe), [SummaryZoomSection](../../summaryzoomsection), [VideoFrame](../../videoframe), [OleObjectFrame](../../oleobjectframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Chart](../../chart), [AudioFrame](../../audioframe), [LegacyDiagram](../../legacydiagram), [ZoomObject](../../zoomobject)
+[GraphicalObject](../../graphicalobject), [Connector](../../connector), [Table](../../table), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Ink](../../ink), [GeometryShape](../../geometryshape), [SummaryZoomFrame](../../summaryzoomframe), [ZoomFrame](../../zoomframe), [SummaryZoomSection](../../summaryzoomsection), [OleObjectFrame](../../oleobjectframe), [VideoFrame](../../videoframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Chart](../../chart), [AudioFrame](../../audioframe), [ZoomObject](../../zoomobject), [LegacyDiagram](../../legacydiagram)
 
 
 ---
@@ -1241,7 +1241,7 @@ url: /php-java/shapecollection/insertclone/
 | sourceShape | [Chart](../../chart) | Shape to clone. |
 
 ### Returns
-[GraphicalObject](../../graphicalobject), [Connector](../../connector), [Table](../../table), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Ink](../../ink), [SummaryZoomFrame](../../summaryzoomframe), [GeometryShape](../../geometryshape), [ZoomFrame](../../zoomframe), [SummaryZoomSection](../../summaryzoomsection), [VideoFrame](../../videoframe), [OleObjectFrame](../../oleobjectframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Chart](../../chart), [AudioFrame](../../audioframe), [LegacyDiagram](../../legacydiagram), [ZoomObject](../../zoomobject)
+[GraphicalObject](../../graphicalobject), [Connector](../../connector), [Table](../../table), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Ink](../../ink), [GeometryShape](../../geometryshape), [SummaryZoomFrame](../../summaryzoomframe), [ZoomFrame](../../zoomframe), [SummaryZoomSection](../../summaryzoomsection), [OleObjectFrame](../../oleobjectframe), [VideoFrame](../../videoframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Chart](../../chart), [AudioFrame](../../audioframe), [ZoomObject](../../zoomobject), [LegacyDiagram](../../legacydiagram)
 
 
 ---
@@ -1261,27 +1261,7 @@ url: /php-java/shapecollection/insertclone/
 | sourceShape | [AudioFrame](../../audioframe) | Shape to clone. |
 
 ### Returns
-[GraphicalObject](../../graphicalobject), [Connector](../../connector), [Table](../../table), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Ink](../../ink), [SummaryZoomFrame](../../summaryzoomframe), [GeometryShape](../../geometryshape), [ZoomFrame](../../zoomframe), [SummaryZoomSection](../../summaryzoomsection), [VideoFrame](../../videoframe), [OleObjectFrame](../../oleobjectframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Chart](../../chart), [AudioFrame](../../audioframe), [LegacyDiagram](../../legacydiagram), [ZoomObject](../../zoomobject)
-
-
----
-
-
-## insertClone(int index, [LegacyDiagram](../../legacydiagram) sourceShape)  method
-
- Inserts a copy of a specified shape to specified position of the collection.
- X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source  Shape.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| index | int | Index of new shape. |
-| sourceShape | [LegacyDiagram](../../legacydiagram) | Shape to clone. |
-
-### Returns
-[GraphicalObject](../../graphicalobject), [Connector](../../connector), [Table](../../table), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Ink](../../ink), [SummaryZoomFrame](../../summaryzoomframe), [GeometryShape](../../geometryshape), [ZoomFrame](../../zoomframe), [SummaryZoomSection](../../summaryzoomsection), [VideoFrame](../../videoframe), [OleObjectFrame](../../oleobjectframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Chart](../../chart), [AudioFrame](../../audioframe), [LegacyDiagram](../../legacydiagram), [ZoomObject](../../zoomobject)
+[GraphicalObject](../../graphicalobject), [Connector](../../connector), [Table](../../table), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Ink](../../ink), [GeometryShape](../../geometryshape), [SummaryZoomFrame](../../summaryzoomframe), [ZoomFrame](../../zoomframe), [SummaryZoomSection](../../summaryzoomsection), [OleObjectFrame](../../oleobjectframe), [VideoFrame](../../videoframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Chart](../../chart), [AudioFrame](../../audioframe), [ZoomObject](../../zoomobject), [LegacyDiagram](../../legacydiagram)
 
 
 ---
@@ -1301,7 +1281,27 @@ url: /php-java/shapecollection/insertclone/
 | sourceShape | [ZoomObject](../../zoomobject) | Shape to clone. |
 
 ### Returns
-[GraphicalObject](../../graphicalobject), [Connector](../../connector), [Table](../../table), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Ink](../../ink), [SummaryZoomFrame](../../summaryzoomframe), [GeometryShape](../../geometryshape), [ZoomFrame](../../zoomframe), [SummaryZoomSection](../../summaryzoomsection), [VideoFrame](../../videoframe), [OleObjectFrame](../../oleobjectframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Chart](../../chart), [AudioFrame](../../audioframe), [LegacyDiagram](../../legacydiagram), [ZoomObject](../../zoomobject)
+[GraphicalObject](../../graphicalobject), [Connector](../../connector), [Table](../../table), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Ink](../../ink), [GeometryShape](../../geometryshape), [SummaryZoomFrame](../../summaryzoomframe), [ZoomFrame](../../zoomframe), [SummaryZoomSection](../../summaryzoomsection), [OleObjectFrame](../../oleobjectframe), [VideoFrame](../../videoframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Chart](../../chart), [AudioFrame](../../audioframe), [ZoomObject](../../zoomobject), [LegacyDiagram](../../legacydiagram)
+
+
+---
+
+
+## insertClone(int index, [LegacyDiagram](../../legacydiagram) sourceShape)  method
+
+ Inserts a copy of a specified shape to specified position of the collection.
+ X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source  Shape.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Index of new shape. |
+| sourceShape | [LegacyDiagram](../../legacydiagram) | Shape to clone. |
+
+### Returns
+[GraphicalObject](../../graphicalobject), [Connector](../../connector), [Table](../../table), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Ink](../../ink), [GeometryShape](../../geometryshape), [SummaryZoomFrame](../../summaryzoomframe), [ZoomFrame](../../zoomframe), [SummaryZoomSection](../../summaryzoomsection), [OleObjectFrame](../../oleobjectframe), [VideoFrame](../../videoframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [Chart](../../chart), [AudioFrame](../../audioframe), [ZoomObject](../../zoomobject), [LegacyDiagram](../../legacydiagram)
 
 
 ---

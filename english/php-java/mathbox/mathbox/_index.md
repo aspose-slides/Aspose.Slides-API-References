@@ -187,26 +187,6 @@ Example:
 ---
 
 
-## MathBox([MathGroupingCharacter](../../mathgroupingcharacter) element)  constructor
-
- Initializes MathBox with the specified element as an argument
- 
-Example:
- 
-```php
-  $box = new MathBox(new MathematicalText("=="));
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathGroupingCharacter](../../mathgroupingcharacter) | The base element to which the box is applied. Can be null. |
-
-
----
-
-
 ## MathBox([MathBorderBox](../../mathborderbox) element)  constructor
 
  Initializes MathBox with the specified element as an argument
@@ -222,6 +202,26 @@ Example:
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathBorderBox](../../mathborderbox) | The base element to which the box is applied. Can be null. |
+
+
+---
+
+
+## MathBox([MathGroupingCharacter](../../mathgroupingcharacter) element)  constructor
+
+ Initializes MathBox with the specified element as an argument
+ 
+Example:
+ 
+```php
+  $box = new MathBox(new MathematicalText("=="));
+```
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathGroupingCharacter](../../mathgroupingcharacter) | The base element to which the box is applied. Can be null. |
 
 
 ---
@@ -307,26 +307,6 @@ Example:
 ---
 
 
-## MathBox([MathematicalText](../../mathematicaltext) element)  constructor
-
- Initializes MathBox with the specified element as an argument
- 
-Example:
- 
-```php
-  $box = new MathBox(new MathematicalText("=="));
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathematicalText](../../mathematicaltext) | The base element to which the box is applied. Can be null. |
-
-
----
-
-
 ## MathBox([MathFraction](../../mathfraction) element)  constructor
 
  Initializes MathBox with the specified element as an argument
@@ -342,6 +322,26 @@ Example:
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathFraction](../../mathfraction) | The base element to which the box is applied. Can be null. |
+
+
+---
+
+
+## MathBox([MathematicalText](../../mathematicaltext) element)  constructor
+
+ Initializes MathBox with the specified element as an argument
+ 
+Example:
+ 
+```php
+  $box = new MathBox(new MathematicalText("=="));
+```
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathematicalText](../../mathematicaltext) | The base element to which the box is applied. Can be null. |
 
 
 ---

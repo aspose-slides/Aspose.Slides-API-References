@@ -13,6 +13,27 @@ url: /php-java/textframeformat/getautofittype/
  Read/write  TextAutofitType.
  
 
+ The following sample code shows how to resize shape to Fit Text in a PowerPoint Presentation.
+ 
+```php
+  $pres = new Presentation();
+  try {
+    $slide = $pres->getSlides()->get_Item(0);
+    $autoShape = $slide->getShapes()->addAutoShape(ShapeType.Rectangle, 30, 30, 350, 100);
+    $portion = new Portion("lorem ipsum...");
+    $portion->getPortionFormat()->getFillFormat()->getSolidFillColor()->setColor(Color::BLACK);
+    $portion->getPortionFormat()->getFillFormat()->setFillType(FillType.Solid);
+    $autoShape->getTextFrame()->getParagraphs()->get_Item(0)->getPortions()->add($portion);
+    $textFrameFormat = $autoShape->getTextFrame()->getTextFrameFormat();
+    $textFrameFormat->setAutofitType(TextAutofitType.Shape);
+    $pres->save("Output-presentation.pptx", SaveFormat.Pptx);
+  } finally {
+    if ($pres != null) {
+      $pres->dispose();
+    }
+  }
+```
+
 ### Returns
 OrderedDictionary, Hashtable, LinkedList
 

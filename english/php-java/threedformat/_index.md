@@ -12,6 +12,34 @@ url: /php-java/threedformat/
  Represents 3-D properties.
  
 
+ The following example shows how to add 3D shape in PowerPoint Presentation.
+ 
+```php
+  // Create an instance of Presentation class.
+  $pres = new Presentation();
+  try {
+    // Add a shape using AddAutoShape method
+    $shape = $pres->getSlides()->get_Item(0)->getShapes()->addAutoShape(ShapeType.Rectangle, 200, 150, 200, 200);
+    // Define TextFrame and its properties
+    $shape->getTextFrame()->setText("3D");
+    $shape->getTextFrame()->getParagraphs()->get_Item(0)->getParagraphFormat()->getDefaultPortionFormat()->setFontHeight(64);
+    // Define ThreeDFormat Properties
+    $shape->getThreeDFormat()->getCamera()->setCameraType(CameraPresetType.OrthographicFront);
+    $shape->getThreeDFormat()->getCamera()->setRotation(20, 30, 40);
+    $shape->getThreeDFormat()->getLightRig()->setLightType(LightRigPresetType.Flat);
+    $shape->getThreeDFormat()->getLightRig()->setDirection(LightingDirection.Top);
+    $shape->getThreeDFormat()->setMaterial(MaterialPresetType.Flat);
+    $shape->getThreeDFormat()->setExtrusionHeight(100);
+    $shape->getThreeDFormat()->getExtrusionColor()->setColor(Color::BLUE);
+    // Save the Presentation file
+    $pres->save("sandbox_3d.pptx", SaveFormat.Pptx);
+  } finally {
+    if ($pres != null) {
+      $pres->dispose();
+    }
+  }
+```
+
 ## Methods
 
 | Name | Description |

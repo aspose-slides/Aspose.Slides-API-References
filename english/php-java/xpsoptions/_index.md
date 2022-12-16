@@ -12,6 +12,21 @@ url: /php-java/xpsoptions/
  Provides options that control how a presentation is saved in XPS format.
  
 
+ The following example shows how to converting presentations to XPS using default settings.
+ 
+```php
+  // Instantiate a Presentation object that represents a presentation file
+  $pres = new Presentation("Convert_XPS.pptx");
+  try {
+    // Saving the presentation to XPS document
+    $pres->save("XPS_Output_Without_XPSOption_out.xps", SaveFormat.Xps);
+  } finally {
+    if ($pres != null) {
+      $pres->dispose();
+    }
+  }
+```
+
 ## Constructors
 
 | Name | Description |

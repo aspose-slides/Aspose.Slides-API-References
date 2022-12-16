@@ -12,6 +12,26 @@ url: /php-java/gifoptions/
  Represents GIF exporting options.
  
 
+ The following example shows how to converting presentations to animated GIF using custom settings.
+ 
+```php
+  $pres = new Presentation("pres.pptx");
+  try {
+    $gifOptions = new GifOptions();
+    $gifOptions->setFrameSize(new Dimension(960, 720));// the size of the resulted GIF
+
+    $gifOptions->setDefaultDelay(2000);// how long each slide will be showed until it will be changed to the next one
+
+    $gifOptions->setTransitionFps(35);// increase FPS to better transition animation quality
+
+    $pres->save("pres.gif", SaveFormat.Gif, $gifOptions);
+  } finally {
+    if ($pres != null) {
+      $pres->dispose();
+    }
+  }
+```
+
 ## Constructors
 
 | Name | Description |

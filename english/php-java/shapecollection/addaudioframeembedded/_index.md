@@ -14,6 +14,37 @@ url: /php-java/shapecollection/addaudioframeembedded/
  It adds new audio into Presentation.Audios list.
  
 
+ The following examples shows how to create Audio Frame.
+ 
+```php
+  // Instantiates a presentation class that represents a presentation file
+  $pres = new Presentation();
+  try {
+    // Gets the first slide
+    $sld = $pres->getSlides()->get_Item(0);
+    // Loads the the wav sound file to stream
+    $fstr = new FileInputStream("sampleaudio.wav");
+    try {
+      // Adds the Audio Frame
+      $audioFrame = $sld->getShapes()->addAudioFrameEmbedded(50, 150, 100, 100, $fstr);
+      // Sets the Play Mode and Volume of the Audio
+      $audioFrame->setPlayMode(AudioPlayModePreset.Auto);
+      $audioFrame->setVolume(AudioVolumeMode.Loud);
+    } finally {
+      if ($fstr != null) {
+        $fstr->close();
+      }
+    }
+    // Writes the PowerPoint file to disk
+    $pres->save("AudioFrameEmbed_out.pptx", SaveFormat.Pptx);
+  } catch (JavaException $e) {
+  } finally {
+    if ($pres != null) {
+      $pres->dispose();
+    }
+  }
+```
+
 ### Parameters
 
 | Name | Type | Description |

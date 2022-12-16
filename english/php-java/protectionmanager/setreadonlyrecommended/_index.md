@@ -16,8 +16,14 @@ url: /php-java/protectionmanager/setreadonlyrecommended/
  
 ```php
   $pres = new Presentation();
-  $pres->getProtectionManager()->setReadOnlyRecommended(true);
-  $pres->save("ReadOnlyPresentation.pptx", SaveFormat::Pptx);
+  try {
+    $pres->getProtectionManager()->setReadOnlyRecommended(true);
+    $pres->save("ReadOnlyPresentation.pptx", SaveFormat.Pptx);
+  } finally {
+    if ($pres != null) {
+      $pres->dispose();
+    }
+  }
 ```
 
 ### Returns

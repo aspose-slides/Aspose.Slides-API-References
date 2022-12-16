@@ -232,7 +232,7 @@ void
 ---
 
 
-## set_Item(int row, int column, [MathGroupingCharacter](../../mathgroupingcharacter) value)  method
+## set_Item(int row, int column, [MathBorderBox](../../mathborderbox) value)  method
 
  Element of matrix
  
@@ -257,7 +257,7 @@ void
 ---
 
 
-## set_Item(int row, int column, [MathBorderBox](../../mathborderbox) value)  method
+## set_Item(int row, int column, [MathGroupingCharacter](../../mathgroupingcharacter) value)  method
 
  Element of matrix
  
@@ -382,7 +382,7 @@ void
 ---
 
 
-## set_Item(int row, int column, [MathematicalText](../../mathematicaltext) value)  method
+## set_Item(int row, int column, [MathFraction](../../mathfraction) value)  method
 
  Element of matrix
  
@@ -407,7 +407,7 @@ void
 ---
 
 
-## set_Item(int row, int column, [MathFraction](../../mathfraction) value)  method
+## set_Item(int row, int column, [MathematicalText](../../mathematicaltext) value)  method
 
  Element of matrix
  

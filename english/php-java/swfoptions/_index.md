@@ -12,6 +12,27 @@ url: /php-java/swfoptions/
  Provides options that control how a presentation is saved in Swf format.
  
 
+ The following example shows how to convert PowerPoint to SWF Flash.
+ 
+```php
+  // Instantiate a Presentation object that represents a presentation file
+  $pres = new Presentation("HelloWorld.pptx");
+  try {
+    $swfOptions = new SwfOptions();
+    $swfOptions->setViewerIncluded(false);
+    $notesOptions = $swfOptions->getNotesCommentsLayouting();
+    $notesOptions->setNotesPosition(NotesPositions.BottomFull);
+    // Saving presentation and notes pages
+    $pres->save("SaveAsSwf_out.swf", SaveFormat.Swf, $swfOptions);
+    $swfOptions->setViewerIncluded(true);
+    $pres->save("SaveNotes_out.swf", SaveFormat.Swf, $swfOptions);
+  } finally {
+    if ($pres != null) {
+      $pres->dispose();
+    }
+  }
+```
+
 ## Constructors
 
 | Name | Description |

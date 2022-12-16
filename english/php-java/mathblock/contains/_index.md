@@ -250,33 +250,6 @@ boolean
 ---
 
 
-## contains([MathGroupingCharacter](../../mathgroupingcharacter) item)  method
-
- Determines whether the collection contains a specific value.
- 
-Example:
- 
-```php
-  $mathBlock = new MathBlock(new MathematicalText("x"));
-  $plusElement = new MathematicalText("+");
-  $mathBlock->Add($plusElement);
-  $mathBlock->Add(new MathRadical(new MathematicalText("x"), new MathematicalText("3")));
-  $contains = $mathBlock->Contains($plusElement);
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| item | [MathGroupingCharacter](../../mathgroupingcharacter) | The object to locate in the collection. |
-
-### Returns
-boolean
-
-
----
-
-
 ## contains([MathBorderBox](../../mathborderbox) item)  method
 
  Determines whether the collection contains a specific value.
@@ -296,6 +269,33 @@ Example:
 | Name | Type | Description |
 | --- | --- | --- |
 | item | [MathBorderBox](../../mathborderbox) | The object to locate in the collection. |
+
+### Returns
+boolean
+
+
+---
+
+
+## contains([MathGroupingCharacter](../../mathgroupingcharacter) item)  method
+
+ Determines whether the collection contains a specific value.
+ 
+Example:
+ 
+```php
+  $mathBlock = new MathBlock(new MathematicalText("x"));
+  $plusElement = new MathematicalText("+");
+  $mathBlock->Add($plusElement);
+  $mathBlock->Add(new MathRadical(new MathematicalText("x"), new MathematicalText("3")));
+  $contains = $mathBlock->Contains($plusElement);
+```
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| item | [MathGroupingCharacter](../../mathgroupingcharacter) | The object to locate in the collection. |
 
 ### Returns
 boolean
@@ -412,33 +412,6 @@ boolean
 ---
 
 
-## contains([MathematicalText](../../mathematicaltext) item)  method
-
- Determines whether the collection contains a specific value.
- 
-Example:
- 
-```php
-  $mathBlock = new MathBlock(new MathematicalText("x"));
-  $plusElement = new MathematicalText("+");
-  $mathBlock->Add($plusElement);
-  $mathBlock->Add(new MathRadical(new MathematicalText("x"), new MathematicalText("3")));
-  $contains = $mathBlock->Contains($plusElement);
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| item | [MathematicalText](../../mathematicaltext) | The object to locate in the collection. |
-
-### Returns
-boolean
-
-
----
-
-
 ## contains([MathFraction](../../mathfraction) item)  method
 
  Determines whether the collection contains a specific value.
@@ -458,6 +431,33 @@ Example:
 | Name | Type | Description |
 | --- | --- | --- |
 | item | [MathFraction](../../mathfraction) | The object to locate in the collection. |
+
+### Returns
+boolean
+
+
+---
+
+
+## contains([MathematicalText](../../mathematicaltext) item)  method
+
+ Determines whether the collection contains a specific value.
+ 
+Example:
+ 
+```php
+  $mathBlock = new MathBlock(new MathematicalText("x"));
+  $plusElement = new MathematicalText("+");
+  $mathBlock->Add($plusElement);
+  $mathBlock->Add(new MathRadical(new MathematicalText("x"), new MathematicalText("3")));
+  $contains = $mathBlock->Contains($plusElement);
+```
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| item | [MathematicalText](../../mathematicaltext) | The object to locate in the collection. |
 
 ### Returns
 boolean

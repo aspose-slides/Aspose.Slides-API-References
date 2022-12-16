@@ -169,24 +169,6 @@ url: /php-java/mathboxfactory/createmathbox/
 ---
 
 
-## createMathBox([MathGroupingCharacter](../../mathgroupingcharacter) element)  method
-
- Create a math box by applying to the element
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathGroupingCharacter](../../mathgroupingcharacter) | math element to apply box |
-
-### Returns
-[MathBox](../../mathbox)
-
-
----
-
-
 ## createMathBox([MathBorderBox](../../mathborderbox) element)  method
 
  Create a math box by applying to the element
@@ -197,6 +179,24 @@ url: /php-java/mathboxfactory/createmathbox/
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathBorderBox](../../mathborderbox) | math element to apply box |
+
+### Returns
+[MathBox](../../mathbox)
+
+
+---
+
+
+## createMathBox([MathGroupingCharacter](../../mathgroupingcharacter) element)  method
+
+ Create a math box by applying to the element
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathGroupingCharacter](../../mathgroupingcharacter) | math element to apply box |
 
 ### Returns
 [MathBox](../../mathbox)
@@ -277,24 +277,6 @@ url: /php-java/mathboxfactory/createmathbox/
 ---
 
 
-## createMathBox([MathematicalText](../../mathematicaltext) element)  method
-
- Create a math box by applying to the element
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathematicalText](../../mathematicaltext) | math element to apply box |
-
-### Returns
-[MathBox](../../mathbox)
-
-
----
-
-
 ## createMathBox([MathFraction](../../mathfraction) element)  method
 
  Create a math box by applying to the element
@@ -305,6 +287,24 @@ url: /php-java/mathboxfactory/createmathbox/
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathFraction](../../mathfraction) | math element to apply box |
+
+### Returns
+[MathBox](../../mathbox)
+
+
+---
+
+
+## createMathBox([MathematicalText](../../mathematicaltext) element)  method
+
+ Create a math box by applying to the element
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathematicalText](../../mathematicaltext) | math element to apply box |
 
 ### Returns
 [MathBox](../../mathbox)

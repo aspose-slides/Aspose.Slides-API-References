@@ -16,6 +16,20 @@ public final class TagCollection implements ITagCollection
 ```
 
 Represents the collection of tags (user defined pairs of strings)
+
+--------------------
+
+> ```
+> The following example shows how to add a tag to a PowerPoint Presentation.
+>  
+>  Presentation pres = new Presentation("pres.pptx");
+>  try {
+>      ITagCollection tags = pres.getCustomData().getTags();
+>      pres.getCustomData().getTags().add("MyTag", "My Tag Value");
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
 ## Methods
 
 | Method | Description |

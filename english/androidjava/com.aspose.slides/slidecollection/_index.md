@@ -139,6 +139,46 @@ public final ISlide insertClone(int index, ISlide sourceSlide)
 
 Inserts a copy of a specified slide to specified position of the collection.
 
+--------------------
+
+> ```
+> The following example shows how to clone at another position within Presentation.
+>  
+>  // Instantiate Presentation class that represents a presentation file
+>  Presentation pres = new Presentation("CloneWithInSamePresentation.pptx");
+>  try {
+>      // Clone the desired slide to the end of the collection of slides in the same presentation
+>      ISlideCollection slds = pres.getSlides();
+>      // Clone the desired slide to the specified index in the same presentation
+>      slds.insertClone(2, pres.getSlides().get_Item(1));
+>      // Write the modified presentation to disk
+>      pres.save("Aspose_CloneWithInSamePresentation_out.pptx", SaveFormat.Pptx);
+>  }
+>  finally
+>  {
+>      if (pres != null) pres.dispose();
+>  }
+>  
+>  The following example shows how to clone at another position within Presentation.
+>  
+>  // Instantiate Presentation class to load the source presentation file
+>  Presentation srcPres = new Presentation("CloneAtEndOfAnother.pptx");
+>  try {
+>      // Instantiate Presentation class for destination PPTX (where slide is to be cloned)
+>      Presentation destPres = new Presentation();
+>      try {
+>          ISlideCollection slds = destPres.getSlides();
+>          slds.insertClone(2, srcPres.getSlides().get_Item(0));
+>          // Write the destination presentation to disk
+>          destPres.save("Aspose2_out.pptx", SaveFormat.Pptx);
+>      } finally {
+>          if (destPres != null) destPres.dispose();
+>      }
+>  } finally {
+>      if (srcPres != null) srcPres.dispose();
+>  }
+> ```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -483,6 +523,35 @@ public final ISlide[] addFromHtml(InputStream htmlStream)
 
 
 Creates slides from HTML text and adds them to the end of the collection.
+
+--------------------
+
+> ```
+> // Create an instance of the Presentation class.
+>  Presentation pres = new Presentation();
+>  try {
+>      FileInputStream fos = null;
+>      try {
+>          fos = new FileInputStream("file.html");
+>          // Call the AddFromHtml method and pass the HTML file.
+>          pres.getSlides().addFromHtml(fos);
+>          // Use the Save method to save the file as a PowerPoint document.
+>          pres.save("MyPresentation.pptx", SaveFormat.Pptx);
+>      } catch (IOException e) {
+>          throw new RuntimeException(e);
+>      } finally {
+>          if (fos != null) {
+>              try {
+>                  fos.close();
+>              } catch (IOException e) {
+>                  e.printStackTrace();
+>              }
+>          }
+>      }
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
 
 **Parameters:**
 | Parameter | Type | Description |

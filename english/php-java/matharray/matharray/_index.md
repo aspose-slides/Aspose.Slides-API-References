@@ -187,26 +187,6 @@ Example:
 ---
 
 
-## MathArray([MathGroupingCharacter](../../mathgroupingcharacter) element)  constructor
-
- Creates a mathematical array and places the specified element in it
- 
-Example:
- 
-```php
-  $mathArray = new MathArray(new MathematicalText("item1"));
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathGroupingCharacter](../../mathgroupingcharacter) | The element to place in the array |
-
-
----
-
-
 ## MathArray([MathBorderBox](../../mathborderbox) element)  constructor
 
  Creates a mathematical array and places the specified element in it
@@ -222,6 +202,26 @@ Example:
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathBorderBox](../../mathborderbox) | The element to place in the array |
+
+
+---
+
+
+## MathArray([MathGroupingCharacter](../../mathgroupingcharacter) element)  constructor
+
+ Creates a mathematical array and places the specified element in it
+ 
+Example:
+ 
+```php
+  $mathArray = new MathArray(new MathematicalText("item1"));
+```
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathGroupingCharacter](../../mathgroupingcharacter) | The element to place in the array |
 
 
 ---
@@ -307,26 +307,6 @@ Example:
 ---
 
 
-## MathArray([MathematicalText](../../mathematicaltext) element)  constructor
-
- Creates a mathematical array and places the specified element in it
- 
-Example:
- 
-```php
-  $mathArray = new MathArray(new MathematicalText("item1"));
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathematicalText](../../mathematicaltext) | The element to place in the array |
-
-
----
-
-
 ## MathArray([MathFraction](../../mathfraction) element)  constructor
 
  Creates a mathematical array and places the specified element in it
@@ -342,6 +322,26 @@ Example:
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathFraction](../../mathfraction) | The element to place in the array |
+
+
+---
+
+
+## MathArray([MathematicalText](../../mathematicaltext) element)  constructor
+
+ Creates a mathematical array and places the specified element in it
+ 
+Example:
+ 
+```php
+  $mathArray = new MathArray(new MathematicalText("item1"));
+```
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathematicalText](../../mathematicaltext) | The element to place in the array |
 
 
 ---

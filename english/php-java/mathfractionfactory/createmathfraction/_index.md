@@ -187,26 +187,6 @@ url: /php-java/mathfractionfactory/createmathfraction/
 ---
 
 
-## createMathFraction([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) numerator, [MathGroupingCharacter](../../mathgroupingcharacter) denominator, int fractionType)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Numerator |
-| denominator | [MathGroupingCharacter](../mathgroupingcharacter) | Denominator |
-| fractionType | int | Fraction type |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
 ## createMathFraction([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) numerator, [MathBorderBox](../../mathborderbox) denominator, int fractionType)  method
 
  Creates a math fraction
@@ -218,6 +198,26 @@ url: /php-java/mathfractionfactory/createmathfraction/
 | --- | --- | --- |
 | numerator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Numerator |
 | denominator | [MathBorderBox](../mathborderbox) | Denominator |
+| fractionType | int | Fraction type |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) numerator, [MathGroupingCharacter](../../mathgroupingcharacter) denominator, int fractionType)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Numerator |
+| denominator | [MathGroupingCharacter](../mathgroupingcharacter) | Denominator |
 | fractionType | int | Fraction type |
 
 ### Returns
@@ -307,26 +307,6 @@ url: /php-java/mathfractionfactory/createmathfraction/
 ---
 
 
-## createMathFraction([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) numerator, [MathematicalText](../../mathematicaltext) denominator, int fractionType)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Numerator |
-| denominator | [MathematicalText](../mathematicaltext) | Denominator |
-| fractionType | int | Fraction type |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
 ## createMathFraction([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) numerator, [MathFraction](../../mathfraction) denominator, int fractionType)  method
 
  Creates a math fraction
@@ -338,6 +318,26 @@ url: /php-java/mathfractionfactory/createmathfraction/
 | --- | --- | --- |
 | numerator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Numerator |
 | denominator | [MathFraction](../mathfraction) | Denominator |
+| fractionType | int | Fraction type |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) numerator, [MathematicalText](../../mathematicaltext) denominator, int fractionType)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Numerator |
+| denominator | [MathematicalText](../mathematicaltext) | Denominator |
 | fractionType | int | Fraction type |
 
 ### Returns
@@ -567,26 +567,6 @@ url: /php-java/mathfractionfactory/createmathfraction/
 ---
 
 
-## createMathFraction([MathMatrix](../../mathmatrix) numerator, [MathGroupingCharacter](../../mathgroupingcharacter) denominator, int fractionType)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathMatrix](../mathmatrix) | Numerator |
-| denominator | [MathGroupingCharacter](../mathgroupingcharacter) | Denominator |
-| fractionType | int | Fraction type |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
 ## createMathFraction([MathMatrix](../../mathmatrix) numerator, [MathBorderBox](../../mathborderbox) denominator, int fractionType)  method
 
  Creates a math fraction
@@ -598,6 +578,26 @@ url: /php-java/mathfractionfactory/createmathfraction/
 | --- | --- | --- |
 | numerator | [MathMatrix](../mathmatrix) | Numerator |
 | denominator | [MathBorderBox](../mathborderbox) | Denominator |
+| fractionType | int | Fraction type |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathMatrix](../../mathmatrix) numerator, [MathGroupingCharacter](../../mathgroupingcharacter) denominator, int fractionType)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathMatrix](../mathmatrix) | Numerator |
+| denominator | [MathGroupingCharacter](../mathgroupingcharacter) | Denominator |
 | fractionType | int | Fraction type |
 
 ### Returns
@@ -687,26 +687,6 @@ url: /php-java/mathfractionfactory/createmathfraction/
 ---
 
 
-## createMathFraction([MathMatrix](../../mathmatrix) numerator, [MathematicalText](../../mathematicaltext) denominator, int fractionType)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathMatrix](../mathmatrix) | Numerator |
-| denominator | [MathematicalText](../mathematicaltext) | Denominator |
-| fractionType | int | Fraction type |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
 ## createMathFraction([MathMatrix](../../mathmatrix) numerator, [MathFraction](../../mathfraction) denominator, int fractionType)  method
 
  Creates a math fraction
@@ -718,6 +698,26 @@ url: /php-java/mathfractionfactory/createmathfraction/
 | --- | --- | --- |
 | numerator | [MathMatrix](../mathmatrix) | Numerator |
 | denominator | [MathFraction](../mathfraction) | Denominator |
+| fractionType | int | Fraction type |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathMatrix](../../mathmatrix) numerator, [MathematicalText](../../mathematicaltext) denominator, int fractionType)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathMatrix](../mathmatrix) | Numerator |
+| denominator | [MathematicalText](../mathematicaltext) | Denominator |
 | fractionType | int | Fraction type |
 
 ### Returns
@@ -947,26 +947,6 @@ url: /php-java/mathfractionfactory/createmathfraction/
 ---
 
 
-## createMathFraction([MathLimit](../../mathlimit) numerator, [MathGroupingCharacter](../../mathgroupingcharacter) denominator, int fractionType)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathLimit](../mathlimit) | Numerator |
-| denominator | [MathGroupingCharacter](../mathgroupingcharacter) | Denominator |
-| fractionType | int | Fraction type |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
 ## createMathFraction([MathLimit](../../mathlimit) numerator, [MathBorderBox](../../mathborderbox) denominator, int fractionType)  method
 
  Creates a math fraction
@@ -978,6 +958,26 @@ url: /php-java/mathfractionfactory/createmathfraction/
 | --- | --- | --- |
 | numerator | [MathLimit](../mathlimit) | Numerator |
 | denominator | [MathBorderBox](../mathborderbox) | Denominator |
+| fractionType | int | Fraction type |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathLimit](../../mathlimit) numerator, [MathGroupingCharacter](../../mathgroupingcharacter) denominator, int fractionType)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathLimit](../mathlimit) | Numerator |
+| denominator | [MathGroupingCharacter](../mathgroupingcharacter) | Denominator |
 | fractionType | int | Fraction type |
 
 ### Returns
@@ -1067,26 +1067,6 @@ url: /php-java/mathfractionfactory/createmathfraction/
 ---
 
 
-## createMathFraction([MathLimit](../../mathlimit) numerator, [MathematicalText](../../mathematicaltext) denominator, int fractionType)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathLimit](../mathlimit) | Numerator |
-| denominator | [MathematicalText](../mathematicaltext) | Denominator |
-| fractionType | int | Fraction type |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
 ## createMathFraction([MathLimit](../../mathlimit) numerator, [MathFraction](../../mathfraction) denominator, int fractionType)  method
 
  Creates a math fraction
@@ -1098,6 +1078,26 @@ url: /php-java/mathfractionfactory/createmathfraction/
 | --- | --- | --- |
 | numerator | [MathLimit](../mathlimit) | Numerator |
 | denominator | [MathFraction](../mathfraction) | Denominator |
+| fractionType | int | Fraction type |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathLimit](../../mathlimit) numerator, [MathematicalText](../../mathematicaltext) denominator, int fractionType)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathLimit](../mathlimit) | Numerator |
+| denominator | [MathematicalText](../mathematicaltext) | Denominator |
 | fractionType | int | Fraction type |
 
 ### Returns
@@ -1327,26 +1327,6 @@ url: /php-java/mathfractionfactory/createmathfraction/
 ---
 
 
-## createMathFraction([MathBlock](../../mathblock) numerator, [MathGroupingCharacter](../../mathgroupingcharacter) denominator, int fractionType)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathBlock](../mathblock) | Numerator |
-| denominator | [MathGroupingCharacter](../mathgroupingcharacter) | Denominator |
-| fractionType | int | Fraction type |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
 ## createMathFraction([MathBlock](../../mathblock) numerator, [MathBorderBox](../../mathborderbox) denominator, int fractionType)  method
 
  Creates a math fraction
@@ -1358,6 +1338,26 @@ url: /php-java/mathfractionfactory/createmathfraction/
 | --- | --- | --- |
 | numerator | [MathBlock](../mathblock) | Numerator |
 | denominator | [MathBorderBox](../mathborderbox) | Denominator |
+| fractionType | int | Fraction type |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathBlock](../../mathblock) numerator, [MathGroupingCharacter](../../mathgroupingcharacter) denominator, int fractionType)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathBlock](../mathblock) | Numerator |
+| denominator | [MathGroupingCharacter](../mathgroupingcharacter) | Denominator |
 | fractionType | int | Fraction type |
 
 ### Returns
@@ -1447,26 +1447,6 @@ url: /php-java/mathfractionfactory/createmathfraction/
 ---
 
 
-## createMathFraction([MathBlock](../../mathblock) numerator, [MathematicalText](../../mathematicaltext) denominator, int fractionType)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathBlock](../mathblock) | Numerator |
-| denominator | [MathematicalText](../mathematicaltext) | Denominator |
-| fractionType | int | Fraction type |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
 ## createMathFraction([MathBlock](../../mathblock) numerator, [MathFraction](../../mathfraction) denominator, int fractionType)  method
 
  Creates a math fraction
@@ -1478,6 +1458,26 @@ url: /php-java/mathfractionfactory/createmathfraction/
 | --- | --- | --- |
 | numerator | [MathBlock](../mathblock) | Numerator |
 | denominator | [MathFraction](../mathfraction) | Denominator |
+| fractionType | int | Fraction type |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathBlock](../../mathblock) numerator, [MathematicalText](../../mathematicaltext) denominator, int fractionType)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathBlock](../mathblock) | Numerator |
+| denominator | [MathematicalText](../mathematicaltext) | Denominator |
 | fractionType | int | Fraction type |
 
 ### Returns
@@ -1707,26 +1707,6 @@ url: /php-java/mathfractionfactory/createmathfraction/
 ---
 
 
-## createMathFraction([MathRadical](../../mathradical) numerator, [MathGroupingCharacter](../../mathgroupingcharacter) denominator, int fractionType)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathRadical](../mathradical) | Numerator |
-| denominator | [MathGroupingCharacter](../mathgroupingcharacter) | Denominator |
-| fractionType | int | Fraction type |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
 ## createMathFraction([MathRadical](../../mathradical) numerator, [MathBorderBox](../../mathborderbox) denominator, int fractionType)  method
 
  Creates a math fraction
@@ -1738,6 +1718,26 @@ url: /php-java/mathfractionfactory/createmathfraction/
 | --- | --- | --- |
 | numerator | [MathRadical](../mathradical) | Numerator |
 | denominator | [MathBorderBox](../mathborderbox) | Denominator |
+| fractionType | int | Fraction type |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathRadical](../../mathradical) numerator, [MathGroupingCharacter](../../mathgroupingcharacter) denominator, int fractionType)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathRadical](../mathradical) | Numerator |
+| denominator | [MathGroupingCharacter](../mathgroupingcharacter) | Denominator |
 | fractionType | int | Fraction type |
 
 ### Returns
@@ -1827,26 +1827,6 @@ url: /php-java/mathfractionfactory/createmathfraction/
 ---
 
 
-## createMathFraction([MathRadical](../../mathradical) numerator, [MathematicalText](../../mathematicaltext) denominator, int fractionType)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathRadical](../mathradical) | Numerator |
-| denominator | [MathematicalText](../mathematicaltext) | Denominator |
-| fractionType | int | Fraction type |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
 ## createMathFraction([MathRadical](../../mathradical) numerator, [MathFraction](../../mathfraction) denominator, int fractionType)  method
 
  Creates a math fraction
@@ -1858,6 +1838,26 @@ url: /php-java/mathfractionfactory/createmathfraction/
 | --- | --- | --- |
 | numerator | [MathRadical](../mathradical) | Numerator |
 | denominator | [MathFraction](../mathfraction) | Denominator |
+| fractionType | int | Fraction type |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathRadical](../../mathradical) numerator, [MathematicalText](../../mathematicaltext) denominator, int fractionType)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathRadical](../mathradical) | Numerator |
+| denominator | [MathematicalText](../mathematicaltext) | Denominator |
 | fractionType | int | Fraction type |
 
 ### Returns
@@ -2087,26 +2087,6 @@ url: /php-java/mathfractionfactory/createmathfraction/
 ---
 
 
-## createMathFraction([MathArray](../../matharray) numerator, [MathGroupingCharacter](../../mathgroupingcharacter) denominator, int fractionType)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathArray](../matharray) | Numerator |
-| denominator | [MathGroupingCharacter](../mathgroupingcharacter) | Denominator |
-| fractionType | int | Fraction type |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
 ## createMathFraction([MathArray](../../matharray) numerator, [MathBorderBox](../../mathborderbox) denominator, int fractionType)  method
 
  Creates a math fraction
@@ -2118,6 +2098,26 @@ url: /php-java/mathfractionfactory/createmathfraction/
 | --- | --- | --- |
 | numerator | [MathArray](../matharray) | Numerator |
 | denominator | [MathBorderBox](../mathborderbox) | Denominator |
+| fractionType | int | Fraction type |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathArray](../../matharray) numerator, [MathGroupingCharacter](../../mathgroupingcharacter) denominator, int fractionType)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathArray](../matharray) | Numerator |
+| denominator | [MathGroupingCharacter](../mathgroupingcharacter) | Denominator |
 | fractionType | int | Fraction type |
 
 ### Returns
@@ -2207,26 +2207,6 @@ url: /php-java/mathfractionfactory/createmathfraction/
 ---
 
 
-## createMathFraction([MathArray](../../matharray) numerator, [MathematicalText](../../mathematicaltext) denominator, int fractionType)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathArray](../matharray) | Numerator |
-| denominator | [MathematicalText](../mathematicaltext) | Denominator |
-| fractionType | int | Fraction type |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
 ## createMathFraction([MathArray](../../matharray) numerator, [MathFraction](../../mathfraction) denominator, int fractionType)  method
 
  Creates a math fraction
@@ -2238,6 +2218,26 @@ url: /php-java/mathfractionfactory/createmathfraction/
 | --- | --- | --- |
 | numerator | [MathArray](../matharray) | Numerator |
 | denominator | [MathFraction](../mathfraction) | Denominator |
+| fractionType | int | Fraction type |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathArray](../../matharray) numerator, [MathematicalText](../../mathematicaltext) denominator, int fractionType)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathArray](../matharray) | Numerator |
+| denominator | [MathematicalText](../mathematicaltext) | Denominator |
 | fractionType | int | Fraction type |
 
 ### Returns
@@ -2467,26 +2467,6 @@ url: /php-java/mathfractionfactory/createmathfraction/
 ---
 
 
-## createMathFraction([MathDelimiter](../../mathdelimiter) numerator, [MathGroupingCharacter](../../mathgroupingcharacter) denominator, int fractionType)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathDelimiter](../mathdelimiter) | Numerator |
-| denominator | [MathGroupingCharacter](../mathgroupingcharacter) | Denominator |
-| fractionType | int | Fraction type |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
 ## createMathFraction([MathDelimiter](../../mathdelimiter) numerator, [MathBorderBox](../../mathborderbox) denominator, int fractionType)  method
 
  Creates a math fraction
@@ -2498,6 +2478,26 @@ url: /php-java/mathfractionfactory/createmathfraction/
 | --- | --- | --- |
 | numerator | [MathDelimiter](../mathdelimiter) | Numerator |
 | denominator | [MathBorderBox](../mathborderbox) | Denominator |
+| fractionType | int | Fraction type |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathDelimiter](../../mathdelimiter) numerator, [MathGroupingCharacter](../../mathgroupingcharacter) denominator, int fractionType)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathDelimiter](../mathdelimiter) | Numerator |
+| denominator | [MathGroupingCharacter](../mathgroupingcharacter) | Denominator |
 | fractionType | int | Fraction type |
 
 ### Returns
@@ -2587,26 +2587,6 @@ url: /php-java/mathfractionfactory/createmathfraction/
 ---
 
 
-## createMathFraction([MathDelimiter](../../mathdelimiter) numerator, [MathematicalText](../../mathematicaltext) denominator, int fractionType)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathDelimiter](../mathdelimiter) | Numerator |
-| denominator | [MathematicalText](../mathematicaltext) | Denominator |
-| fractionType | int | Fraction type |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
 ## createMathFraction([MathDelimiter](../../mathdelimiter) numerator, [MathFraction](../../mathfraction) denominator, int fractionType)  method
 
  Creates a math fraction
@@ -2618,6 +2598,26 @@ url: /php-java/mathfractionfactory/createmathfraction/
 | --- | --- | --- |
 | numerator | [MathDelimiter](../mathdelimiter) | Numerator |
 | denominator | [MathFraction](../mathfraction) | Denominator |
+| fractionType | int | Fraction type |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathDelimiter](../../mathdelimiter) numerator, [MathematicalText](../../mathematicaltext) denominator, int fractionType)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathDelimiter](../mathdelimiter) | Numerator |
+| denominator | [MathematicalText](../mathematicaltext) | Denominator |
 | fractionType | int | Fraction type |
 
 ### Returns
@@ -2847,26 +2847,6 @@ url: /php-java/mathfractionfactory/createmathfraction/
 ---
 
 
-## createMathFraction([MathNaryOperator](../../mathnaryoperator) numerator, [MathGroupingCharacter](../../mathgroupingcharacter) denominator, int fractionType)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathNaryOperator](../mathnaryoperator) | Numerator |
-| denominator | [MathGroupingCharacter](../mathgroupingcharacter) | Denominator |
-| fractionType | int | Fraction type |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
 ## createMathFraction([MathNaryOperator](../../mathnaryoperator) numerator, [MathBorderBox](../../mathborderbox) denominator, int fractionType)  method
 
  Creates a math fraction
@@ -2878,6 +2858,26 @@ url: /php-java/mathfractionfactory/createmathfraction/
 | --- | --- | --- |
 | numerator | [MathNaryOperator](../mathnaryoperator) | Numerator |
 | denominator | [MathBorderBox](../mathborderbox) | Denominator |
+| fractionType | int | Fraction type |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathNaryOperator](../../mathnaryoperator) numerator, [MathGroupingCharacter](../../mathgroupingcharacter) denominator, int fractionType)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathNaryOperator](../mathnaryoperator) | Numerator |
+| denominator | [MathGroupingCharacter](../mathgroupingcharacter) | Denominator |
 | fractionType | int | Fraction type |
 
 ### Returns
@@ -2967,26 +2967,6 @@ url: /php-java/mathfractionfactory/createmathfraction/
 ---
 
 
-## createMathFraction([MathNaryOperator](../../mathnaryoperator) numerator, [MathematicalText](../../mathematicaltext) denominator, int fractionType)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathNaryOperator](../mathnaryoperator) | Numerator |
-| denominator | [MathematicalText](../mathematicaltext) | Denominator |
-| fractionType | int | Fraction type |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
 ## createMathFraction([MathNaryOperator](../../mathnaryoperator) numerator, [MathFraction](../../mathfraction) denominator, int fractionType)  method
 
  Creates a math fraction
@@ -2998,6 +2978,26 @@ url: /php-java/mathfractionfactory/createmathfraction/
 | --- | --- | --- |
 | numerator | [MathNaryOperator](../mathnaryoperator) | Numerator |
 | denominator | [MathFraction](../mathfraction) | Denominator |
+| fractionType | int | Fraction type |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathNaryOperator](../../mathnaryoperator) numerator, [MathematicalText](../../mathematicaltext) denominator, int fractionType)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathNaryOperator](../mathnaryoperator) | Numerator |
+| denominator | [MathematicalText](../mathematicaltext) | Denominator |
 | fractionType | int | Fraction type |
 
 ### Returns
@@ -3227,26 +3227,6 @@ url: /php-java/mathfractionfactory/createmathfraction/
 ---
 
 
-## createMathFraction([MathAccent](../../mathaccent) numerator, [MathGroupingCharacter](../../mathgroupingcharacter) denominator, int fractionType)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathAccent](../mathaccent) | Numerator |
-| denominator | [MathGroupingCharacter](../mathgroupingcharacter) | Denominator |
-| fractionType | int | Fraction type |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
 ## createMathFraction([MathAccent](../../mathaccent) numerator, [MathBorderBox](../../mathborderbox) denominator, int fractionType)  method
 
  Creates a math fraction
@@ -3258,6 +3238,26 @@ url: /php-java/mathfractionfactory/createmathfraction/
 | --- | --- | --- |
 | numerator | [MathAccent](../mathaccent) | Numerator |
 | denominator | [MathBorderBox](../mathborderbox) | Denominator |
+| fractionType | int | Fraction type |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathAccent](../../mathaccent) numerator, [MathGroupingCharacter](../../mathgroupingcharacter) denominator, int fractionType)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathAccent](../mathaccent) | Numerator |
+| denominator | [MathGroupingCharacter](../mathgroupingcharacter) | Denominator |
 | fractionType | int | Fraction type |
 
 ### Returns
@@ -3347,26 +3347,6 @@ url: /php-java/mathfractionfactory/createmathfraction/
 ---
 
 
-## createMathFraction([MathAccent](../../mathaccent) numerator, [MathematicalText](../../mathematicaltext) denominator, int fractionType)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathAccent](../mathaccent) | Numerator |
-| denominator | [MathematicalText](../mathematicaltext) | Denominator |
-| fractionType | int | Fraction type |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
 ## createMathFraction([MathAccent](../../mathaccent) numerator, [MathFraction](../../mathfraction) denominator, int fractionType)  method
 
  Creates a math fraction
@@ -3378,6 +3358,26 @@ url: /php-java/mathfractionfactory/createmathfraction/
 | --- | --- | --- |
 | numerator | [MathAccent](../mathaccent) | Numerator |
 | denominator | [MathFraction](../mathfraction) | Denominator |
+| fractionType | int | Fraction type |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathAccent](../../mathaccent) numerator, [MathematicalText](../../mathematicaltext) denominator, int fractionType)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathAccent](../mathaccent) | Numerator |
+| denominator | [MathematicalText](../mathematicaltext) | Denominator |
 | fractionType | int | Fraction type |
 
 ### Returns
@@ -3417,386 +3417,6 @@ url: /php-java/mathfractionfactory/createmathfraction/
 | Name | Type | Description |
 | --- | --- | --- |
 | numerator | [MathAccent](../mathaccent) | Numerator |
-| denominator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Denominator |
-| fractionType | int | Fraction type |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
-## createMathFraction([MathGroupingCharacter](../../mathgroupingcharacter) numerator, [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) denominator, int fractionType)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
-| denominator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Denominator |
-| fractionType | int | Fraction type |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
-## createMathFraction([MathGroupingCharacter](../../mathgroupingcharacter) numerator, [MathMatrix](../../mathmatrix) denominator, int fractionType)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
-| denominator | [MathMatrix](../mathmatrix) | Denominator |
-| fractionType | int | Fraction type |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
-## createMathFraction([MathGroupingCharacter](../../mathgroupingcharacter) numerator, [MathLimit](../../mathlimit) denominator, int fractionType)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
-| denominator | [MathLimit](../mathlimit) | Denominator |
-| fractionType | int | Fraction type |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
-## createMathFraction([MathGroupingCharacter](../../mathgroupingcharacter) numerator, [MathBlock](../../mathblock) denominator, int fractionType)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
-| denominator | [MathBlock](../mathblock) | Denominator |
-| fractionType | int | Fraction type |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
-## createMathFraction([MathGroupingCharacter](../../mathgroupingcharacter) numerator, [MathRadical](../../mathradical) denominator, int fractionType)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
-| denominator | [MathRadical](../mathradical) | Denominator |
-| fractionType | int | Fraction type |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
-## createMathFraction([MathGroupingCharacter](../../mathgroupingcharacter) numerator, [MathArray](../../matharray) denominator, int fractionType)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
-| denominator | [MathArray](../matharray) | Denominator |
-| fractionType | int | Fraction type |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
-## createMathFraction([MathGroupingCharacter](../../mathgroupingcharacter) numerator, [MathDelimiter](../../mathdelimiter) denominator, int fractionType)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
-| denominator | [MathDelimiter](../mathdelimiter) | Denominator |
-| fractionType | int | Fraction type |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
-## createMathFraction([MathGroupingCharacter](../../mathgroupingcharacter) numerator, [MathNaryOperator](../../mathnaryoperator) denominator, int fractionType)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
-| denominator | [MathNaryOperator](../mathnaryoperator) | Denominator |
-| fractionType | int | Fraction type |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
-## createMathFraction([MathGroupingCharacter](../../mathgroupingcharacter) numerator, [MathAccent](../../mathaccent) denominator, int fractionType)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
-| denominator | [MathAccent](../mathaccent) | Denominator |
-| fractionType | int | Fraction type |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
-## createMathFraction([MathGroupingCharacter](../../mathgroupingcharacter) numerator, [MathGroupingCharacter](../../mathgroupingcharacter) denominator, int fractionType)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
-| denominator | [MathGroupingCharacter](../mathgroupingcharacter) | Denominator |
-| fractionType | int | Fraction type |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
-## createMathFraction([MathGroupingCharacter](../../mathgroupingcharacter) numerator, [MathBorderBox](../../mathborderbox) denominator, int fractionType)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
-| denominator | [MathBorderBox](../mathborderbox) | Denominator |
-| fractionType | int | Fraction type |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
-## createMathFraction([MathGroupingCharacter](../../mathgroupingcharacter) numerator, [MathBar](../../mathbar) denominator, int fractionType)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
-| denominator | [MathBar](../mathbar) | Denominator |
-| fractionType | int | Fraction type |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
-## createMathFraction([MathGroupingCharacter](../../mathgroupingcharacter) numerator, [MathSubscriptElement](../../mathsubscriptelement) denominator, int fractionType)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
-| denominator | [MathSubscriptElement](../mathsubscriptelement) | Denominator |
-| fractionType | int | Fraction type |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
-## createMathFraction([MathGroupingCharacter](../../mathgroupingcharacter) numerator, [MathFunction](../../mathfunction) denominator, int fractionType)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
-| denominator | [MathFunction](../mathfunction) | Denominator |
-| fractionType | int | Fraction type |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
-## createMathFraction([MathGroupingCharacter](../../mathgroupingcharacter) numerator, [MathSuperscriptElement](../../mathsuperscriptelement) denominator, int fractionType)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
-| denominator | [MathSuperscriptElement](../mathsuperscriptelement) | Denominator |
-| fractionType | int | Fraction type |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
-## createMathFraction([MathGroupingCharacter](../../mathgroupingcharacter) numerator, [MathematicalText](../../mathematicaltext) denominator, int fractionType)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
-| denominator | [MathematicalText](../mathematicaltext) | Denominator |
-| fractionType | int | Fraction type |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
-## createMathFraction([MathGroupingCharacter](../../mathgroupingcharacter) numerator, [MathFraction](../../mathfraction) denominator, int fractionType)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
-| denominator | [MathFraction](../mathfraction) | Denominator |
-| fractionType | int | Fraction type |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
-## createMathFraction([MathGroupingCharacter](../../mathgroupingcharacter) numerator, [MathBox](../../mathbox) denominator, int fractionType)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
-| denominator | [MathBox](../mathbox) | Denominator |
-| fractionType | int | Fraction type |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
-## createMathFraction([MathGroupingCharacter](../../mathgroupingcharacter) numerator, [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) denominator, int fractionType)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
 | denominator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Denominator |
 | fractionType | int | Fraction type |
 
@@ -3987,26 +3607,6 @@ url: /php-java/mathfractionfactory/createmathfraction/
 ---
 
 
-## createMathFraction([MathBorderBox](../../mathborderbox) numerator, [MathGroupingCharacter](../../mathgroupingcharacter) denominator, int fractionType)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathBorderBox](../mathborderbox) | Numerator |
-| denominator | [MathGroupingCharacter](../mathgroupingcharacter) | Denominator |
-| fractionType | int | Fraction type |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
 ## createMathFraction([MathBorderBox](../../mathborderbox) numerator, [MathBorderBox](../../mathborderbox) denominator, int fractionType)  method
 
  Creates a math fraction
@@ -4018,6 +3618,26 @@ url: /php-java/mathfractionfactory/createmathfraction/
 | --- | --- | --- |
 | numerator | [MathBorderBox](../mathborderbox) | Numerator |
 | denominator | [MathBorderBox](../mathborderbox) | Denominator |
+| fractionType | int | Fraction type |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathBorderBox](../../mathborderbox) numerator, [MathGroupingCharacter](../../mathgroupingcharacter) denominator, int fractionType)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathBorderBox](../mathborderbox) | Numerator |
+| denominator | [MathGroupingCharacter](../mathgroupingcharacter) | Denominator |
 | fractionType | int | Fraction type |
 
 ### Returns
@@ -4107,26 +3727,6 @@ url: /php-java/mathfractionfactory/createmathfraction/
 ---
 
 
-## createMathFraction([MathBorderBox](../../mathborderbox) numerator, [MathematicalText](../../mathematicaltext) denominator, int fractionType)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathBorderBox](../mathborderbox) | Numerator |
-| denominator | [MathematicalText](../mathematicaltext) | Denominator |
-| fractionType | int | Fraction type |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
 ## createMathFraction([MathBorderBox](../../mathborderbox) numerator, [MathFraction](../../mathfraction) denominator, int fractionType)  method
 
  Creates a math fraction
@@ -4138,6 +3738,26 @@ url: /php-java/mathfractionfactory/createmathfraction/
 | --- | --- | --- |
 | numerator | [MathBorderBox](../mathborderbox) | Numerator |
 | denominator | [MathFraction](../mathfraction) | Denominator |
+| fractionType | int | Fraction type |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathBorderBox](../../mathborderbox) numerator, [MathematicalText](../../mathematicaltext) denominator, int fractionType)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathBorderBox](../mathborderbox) | Numerator |
+| denominator | [MathematicalText](../mathematicaltext) | Denominator |
 | fractionType | int | Fraction type |
 
 ### Returns
@@ -4177,6 +3797,386 @@ url: /php-java/mathfractionfactory/createmathfraction/
 | Name | Type | Description |
 | --- | --- | --- |
 | numerator | [MathBorderBox](../mathborderbox) | Numerator |
+| denominator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Denominator |
+| fractionType | int | Fraction type |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathGroupingCharacter](../../mathgroupingcharacter) numerator, [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) denominator, int fractionType)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
+| denominator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Denominator |
+| fractionType | int | Fraction type |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathGroupingCharacter](../../mathgroupingcharacter) numerator, [MathMatrix](../../mathmatrix) denominator, int fractionType)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
+| denominator | [MathMatrix](../mathmatrix) | Denominator |
+| fractionType | int | Fraction type |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathGroupingCharacter](../../mathgroupingcharacter) numerator, [MathLimit](../../mathlimit) denominator, int fractionType)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
+| denominator | [MathLimit](../mathlimit) | Denominator |
+| fractionType | int | Fraction type |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathGroupingCharacter](../../mathgroupingcharacter) numerator, [MathBlock](../../mathblock) denominator, int fractionType)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
+| denominator | [MathBlock](../mathblock) | Denominator |
+| fractionType | int | Fraction type |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathGroupingCharacter](../../mathgroupingcharacter) numerator, [MathRadical](../../mathradical) denominator, int fractionType)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
+| denominator | [MathRadical](../mathradical) | Denominator |
+| fractionType | int | Fraction type |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathGroupingCharacter](../../mathgroupingcharacter) numerator, [MathArray](../../matharray) denominator, int fractionType)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
+| denominator | [MathArray](../matharray) | Denominator |
+| fractionType | int | Fraction type |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathGroupingCharacter](../../mathgroupingcharacter) numerator, [MathDelimiter](../../mathdelimiter) denominator, int fractionType)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
+| denominator | [MathDelimiter](../mathdelimiter) | Denominator |
+| fractionType | int | Fraction type |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathGroupingCharacter](../../mathgroupingcharacter) numerator, [MathNaryOperator](../../mathnaryoperator) denominator, int fractionType)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
+| denominator | [MathNaryOperator](../mathnaryoperator) | Denominator |
+| fractionType | int | Fraction type |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathGroupingCharacter](../../mathgroupingcharacter) numerator, [MathAccent](../../mathaccent) denominator, int fractionType)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
+| denominator | [MathAccent](../mathaccent) | Denominator |
+| fractionType | int | Fraction type |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathGroupingCharacter](../../mathgroupingcharacter) numerator, [MathBorderBox](../../mathborderbox) denominator, int fractionType)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
+| denominator | [MathBorderBox](../mathborderbox) | Denominator |
+| fractionType | int | Fraction type |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathGroupingCharacter](../../mathgroupingcharacter) numerator, [MathGroupingCharacter](../../mathgroupingcharacter) denominator, int fractionType)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
+| denominator | [MathGroupingCharacter](../mathgroupingcharacter) | Denominator |
+| fractionType | int | Fraction type |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathGroupingCharacter](../../mathgroupingcharacter) numerator, [MathBar](../../mathbar) denominator, int fractionType)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
+| denominator | [MathBar](../mathbar) | Denominator |
+| fractionType | int | Fraction type |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathGroupingCharacter](../../mathgroupingcharacter) numerator, [MathSubscriptElement](../../mathsubscriptelement) denominator, int fractionType)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
+| denominator | [MathSubscriptElement](../mathsubscriptelement) | Denominator |
+| fractionType | int | Fraction type |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathGroupingCharacter](../../mathgroupingcharacter) numerator, [MathFunction](../../mathfunction) denominator, int fractionType)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
+| denominator | [MathFunction](../mathfunction) | Denominator |
+| fractionType | int | Fraction type |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathGroupingCharacter](../../mathgroupingcharacter) numerator, [MathSuperscriptElement](../../mathsuperscriptelement) denominator, int fractionType)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
+| denominator | [MathSuperscriptElement](../mathsuperscriptelement) | Denominator |
+| fractionType | int | Fraction type |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathGroupingCharacter](../../mathgroupingcharacter) numerator, [MathFraction](../../mathfraction) denominator, int fractionType)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
+| denominator | [MathFraction](../mathfraction) | Denominator |
+| fractionType | int | Fraction type |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathGroupingCharacter](../../mathgroupingcharacter) numerator, [MathematicalText](../../mathematicaltext) denominator, int fractionType)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
+| denominator | [MathematicalText](../mathematicaltext) | Denominator |
+| fractionType | int | Fraction type |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathGroupingCharacter](../../mathgroupingcharacter) numerator, [MathBox](../../mathbox) denominator, int fractionType)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
+| denominator | [MathBox](../mathbox) | Denominator |
+| fractionType | int | Fraction type |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathGroupingCharacter](../../mathgroupingcharacter) numerator, [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) denominator, int fractionType)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
 | denominator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Denominator |
 | fractionType | int | Fraction type |
 
@@ -4367,26 +4367,6 @@ url: /php-java/mathfractionfactory/createmathfraction/
 ---
 
 
-## createMathFraction([MathBar](../../mathbar) numerator, [MathGroupingCharacter](../../mathgroupingcharacter) denominator, int fractionType)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathBar](../mathbar) | Numerator |
-| denominator | [MathGroupingCharacter](../mathgroupingcharacter) | Denominator |
-| fractionType | int | Fraction type |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
 ## createMathFraction([MathBar](../../mathbar) numerator, [MathBorderBox](../../mathborderbox) denominator, int fractionType)  method
 
  Creates a math fraction
@@ -4398,6 +4378,26 @@ url: /php-java/mathfractionfactory/createmathfraction/
 | --- | --- | --- |
 | numerator | [MathBar](../mathbar) | Numerator |
 | denominator | [MathBorderBox](../mathborderbox) | Denominator |
+| fractionType | int | Fraction type |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathBar](../../mathbar) numerator, [MathGroupingCharacter](../../mathgroupingcharacter) denominator, int fractionType)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathBar](../mathbar) | Numerator |
+| denominator | [MathGroupingCharacter](../mathgroupingcharacter) | Denominator |
 | fractionType | int | Fraction type |
 
 ### Returns
@@ -4487,26 +4487,6 @@ url: /php-java/mathfractionfactory/createmathfraction/
 ---
 
 
-## createMathFraction([MathBar](../../mathbar) numerator, [MathematicalText](../../mathematicaltext) denominator, int fractionType)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathBar](../mathbar) | Numerator |
-| denominator | [MathematicalText](../mathematicaltext) | Denominator |
-| fractionType | int | Fraction type |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
 ## createMathFraction([MathBar](../../mathbar) numerator, [MathFraction](../../mathfraction) denominator, int fractionType)  method
 
  Creates a math fraction
@@ -4518,6 +4498,26 @@ url: /php-java/mathfractionfactory/createmathfraction/
 | --- | --- | --- |
 | numerator | [MathBar](../mathbar) | Numerator |
 | denominator | [MathFraction](../mathfraction) | Denominator |
+| fractionType | int | Fraction type |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathBar](../../mathbar) numerator, [MathematicalText](../../mathematicaltext) denominator, int fractionType)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathBar](../mathbar) | Numerator |
+| denominator | [MathematicalText](../mathematicaltext) | Denominator |
 | fractionType | int | Fraction type |
 
 ### Returns
@@ -4747,26 +4747,6 @@ url: /php-java/mathfractionfactory/createmathfraction/
 ---
 
 
-## createMathFraction([MathSubscriptElement](../../mathsubscriptelement) numerator, [MathGroupingCharacter](../../mathgroupingcharacter) denominator, int fractionType)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
-| denominator | [MathGroupingCharacter](../mathgroupingcharacter) | Denominator |
-| fractionType | int | Fraction type |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
 ## createMathFraction([MathSubscriptElement](../../mathsubscriptelement) numerator, [MathBorderBox](../../mathborderbox) denominator, int fractionType)  method
 
  Creates a math fraction
@@ -4778,6 +4758,26 @@ url: /php-java/mathfractionfactory/createmathfraction/
 | --- | --- | --- |
 | numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
 | denominator | [MathBorderBox](../mathborderbox) | Denominator |
+| fractionType | int | Fraction type |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathSubscriptElement](../../mathsubscriptelement) numerator, [MathGroupingCharacter](../../mathgroupingcharacter) denominator, int fractionType)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
+| denominator | [MathGroupingCharacter](../mathgroupingcharacter) | Denominator |
 | fractionType | int | Fraction type |
 
 ### Returns
@@ -4867,26 +4867,6 @@ url: /php-java/mathfractionfactory/createmathfraction/
 ---
 
 
-## createMathFraction([MathSubscriptElement](../../mathsubscriptelement) numerator, [MathematicalText](../../mathematicaltext) denominator, int fractionType)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
-| denominator | [MathematicalText](../mathematicaltext) | Denominator |
-| fractionType | int | Fraction type |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
 ## createMathFraction([MathSubscriptElement](../../mathsubscriptelement) numerator, [MathFraction](../../mathfraction) denominator, int fractionType)  method
 
  Creates a math fraction
@@ -4898,6 +4878,26 @@ url: /php-java/mathfractionfactory/createmathfraction/
 | --- | --- | --- |
 | numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
 | denominator | [MathFraction](../mathfraction) | Denominator |
+| fractionType | int | Fraction type |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathSubscriptElement](../../mathsubscriptelement) numerator, [MathematicalText](../../mathematicaltext) denominator, int fractionType)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
+| denominator | [MathematicalText](../mathematicaltext) | Denominator |
 | fractionType | int | Fraction type |
 
 ### Returns
@@ -5127,26 +5127,6 @@ url: /php-java/mathfractionfactory/createmathfraction/
 ---
 
 
-## createMathFraction([MathFunction](../../mathfunction) numerator, [MathGroupingCharacter](../../mathgroupingcharacter) denominator, int fractionType)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathFunction](../mathfunction) | Numerator |
-| denominator | [MathGroupingCharacter](../mathgroupingcharacter) | Denominator |
-| fractionType | int | Fraction type |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
 ## createMathFraction([MathFunction](../../mathfunction) numerator, [MathBorderBox](../../mathborderbox) denominator, int fractionType)  method
 
  Creates a math fraction
@@ -5158,6 +5138,26 @@ url: /php-java/mathfractionfactory/createmathfraction/
 | --- | --- | --- |
 | numerator | [MathFunction](../mathfunction) | Numerator |
 | denominator | [MathBorderBox](../mathborderbox) | Denominator |
+| fractionType | int | Fraction type |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathFunction](../../mathfunction) numerator, [MathGroupingCharacter](../../mathgroupingcharacter) denominator, int fractionType)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathFunction](../mathfunction) | Numerator |
+| denominator | [MathGroupingCharacter](../mathgroupingcharacter) | Denominator |
 | fractionType | int | Fraction type |
 
 ### Returns
@@ -5247,26 +5247,6 @@ url: /php-java/mathfractionfactory/createmathfraction/
 ---
 
 
-## createMathFraction([MathFunction](../../mathfunction) numerator, [MathematicalText](../../mathematicaltext) denominator, int fractionType)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathFunction](../mathfunction) | Numerator |
-| denominator | [MathematicalText](../mathematicaltext) | Denominator |
-| fractionType | int | Fraction type |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
 ## createMathFraction([MathFunction](../../mathfunction) numerator, [MathFraction](../../mathfraction) denominator, int fractionType)  method
 
  Creates a math fraction
@@ -5278,6 +5258,26 @@ url: /php-java/mathfractionfactory/createmathfraction/
 | --- | --- | --- |
 | numerator | [MathFunction](../mathfunction) | Numerator |
 | denominator | [MathFraction](../mathfraction) | Denominator |
+| fractionType | int | Fraction type |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathFunction](../../mathfunction) numerator, [MathematicalText](../../mathematicaltext) denominator, int fractionType)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathFunction](../mathfunction) | Numerator |
+| denominator | [MathematicalText](../mathematicaltext) | Denominator |
 | fractionType | int | Fraction type |
 
 ### Returns
@@ -5507,26 +5507,6 @@ url: /php-java/mathfractionfactory/createmathfraction/
 ---
 
 
-## createMathFraction([MathSuperscriptElement](../../mathsuperscriptelement) numerator, [MathGroupingCharacter](../../mathgroupingcharacter) denominator, int fractionType)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathSuperscriptElement](../mathsuperscriptelement) | Numerator |
-| denominator | [MathGroupingCharacter](../mathgroupingcharacter) | Denominator |
-| fractionType | int | Fraction type |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
 ## createMathFraction([MathSuperscriptElement](../../mathsuperscriptelement) numerator, [MathBorderBox](../../mathborderbox) denominator, int fractionType)  method
 
  Creates a math fraction
@@ -5538,6 +5518,26 @@ url: /php-java/mathfractionfactory/createmathfraction/
 | --- | --- | --- |
 | numerator | [MathSuperscriptElement](../mathsuperscriptelement) | Numerator |
 | denominator | [MathBorderBox](../mathborderbox) | Denominator |
+| fractionType | int | Fraction type |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathSuperscriptElement](../../mathsuperscriptelement) numerator, [MathGroupingCharacter](../../mathgroupingcharacter) denominator, int fractionType)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathSuperscriptElement](../mathsuperscriptelement) | Numerator |
+| denominator | [MathGroupingCharacter](../mathgroupingcharacter) | Denominator |
 | fractionType | int | Fraction type |
 
 ### Returns
@@ -5627,26 +5627,6 @@ url: /php-java/mathfractionfactory/createmathfraction/
 ---
 
 
-## createMathFraction([MathSuperscriptElement](../../mathsuperscriptelement) numerator, [MathematicalText](../../mathematicaltext) denominator, int fractionType)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathSuperscriptElement](../mathsuperscriptelement) | Numerator |
-| denominator | [MathematicalText](../mathematicaltext) | Denominator |
-| fractionType | int | Fraction type |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
 ## createMathFraction([MathSuperscriptElement](../../mathsuperscriptelement) numerator, [MathFraction](../../mathfraction) denominator, int fractionType)  method
 
  Creates a math fraction
@@ -5658,6 +5638,26 @@ url: /php-java/mathfractionfactory/createmathfraction/
 | --- | --- | --- |
 | numerator | [MathSuperscriptElement](../mathsuperscriptelement) | Numerator |
 | denominator | [MathFraction](../mathfraction) | Denominator |
+| fractionType | int | Fraction type |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathSuperscriptElement](../../mathsuperscriptelement) numerator, [MathematicalText](../../mathematicaltext) denominator, int fractionType)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathSuperscriptElement](../mathsuperscriptelement) | Numerator |
+| denominator | [MathematicalText](../mathematicaltext) | Denominator |
 | fractionType | int | Fraction type |
 
 ### Returns
@@ -5697,386 +5697,6 @@ url: /php-java/mathfractionfactory/createmathfraction/
 | Name | Type | Description |
 | --- | --- | --- |
 | numerator | [MathSuperscriptElement](../mathsuperscriptelement) | Numerator |
-| denominator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Denominator |
-| fractionType | int | Fraction type |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
-## createMathFraction([MathematicalText](../../mathematicaltext) numerator, [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) denominator, int fractionType)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathematicalText](../mathematicaltext) | Numerator |
-| denominator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Denominator |
-| fractionType | int | Fraction type |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
-## createMathFraction([MathematicalText](../../mathematicaltext) numerator, [MathMatrix](../../mathmatrix) denominator, int fractionType)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathematicalText](../mathematicaltext) | Numerator |
-| denominator | [MathMatrix](../mathmatrix) | Denominator |
-| fractionType | int | Fraction type |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
-## createMathFraction([MathematicalText](../../mathematicaltext) numerator, [MathLimit](../../mathlimit) denominator, int fractionType)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathematicalText](../mathematicaltext) | Numerator |
-| denominator | [MathLimit](../mathlimit) | Denominator |
-| fractionType | int | Fraction type |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
-## createMathFraction([MathematicalText](../../mathematicaltext) numerator, [MathBlock](../../mathblock) denominator, int fractionType)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathematicalText](../mathematicaltext) | Numerator |
-| denominator | [MathBlock](../mathblock) | Denominator |
-| fractionType | int | Fraction type |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
-## createMathFraction([MathematicalText](../../mathematicaltext) numerator, [MathRadical](../../mathradical) denominator, int fractionType)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathematicalText](../mathematicaltext) | Numerator |
-| denominator | [MathRadical](../mathradical) | Denominator |
-| fractionType | int | Fraction type |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
-## createMathFraction([MathematicalText](../../mathematicaltext) numerator, [MathArray](../../matharray) denominator, int fractionType)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathematicalText](../mathematicaltext) | Numerator |
-| denominator | [MathArray](../matharray) | Denominator |
-| fractionType | int | Fraction type |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
-## createMathFraction([MathematicalText](../../mathematicaltext) numerator, [MathDelimiter](../../mathdelimiter) denominator, int fractionType)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathematicalText](../mathematicaltext) | Numerator |
-| denominator | [MathDelimiter](../mathdelimiter) | Denominator |
-| fractionType | int | Fraction type |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
-## createMathFraction([MathematicalText](../../mathematicaltext) numerator, [MathNaryOperator](../../mathnaryoperator) denominator, int fractionType)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathematicalText](../mathematicaltext) | Numerator |
-| denominator | [MathNaryOperator](../mathnaryoperator) | Denominator |
-| fractionType | int | Fraction type |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
-## createMathFraction([MathematicalText](../../mathematicaltext) numerator, [MathAccent](../../mathaccent) denominator, int fractionType)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathematicalText](../mathematicaltext) | Numerator |
-| denominator | [MathAccent](../mathaccent) | Denominator |
-| fractionType | int | Fraction type |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
-## createMathFraction([MathematicalText](../../mathematicaltext) numerator, [MathGroupingCharacter](../../mathgroupingcharacter) denominator, int fractionType)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathematicalText](../mathematicaltext) | Numerator |
-| denominator | [MathGroupingCharacter](../mathgroupingcharacter) | Denominator |
-| fractionType | int | Fraction type |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
-## createMathFraction([MathematicalText](../../mathematicaltext) numerator, [MathBorderBox](../../mathborderbox) denominator, int fractionType)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathematicalText](../mathematicaltext) | Numerator |
-| denominator | [MathBorderBox](../mathborderbox) | Denominator |
-| fractionType | int | Fraction type |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
-## createMathFraction([MathematicalText](../../mathematicaltext) numerator, [MathBar](../../mathbar) denominator, int fractionType)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathematicalText](../mathematicaltext) | Numerator |
-| denominator | [MathBar](../mathbar) | Denominator |
-| fractionType | int | Fraction type |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
-## createMathFraction([MathematicalText](../../mathematicaltext) numerator, [MathSubscriptElement](../../mathsubscriptelement) denominator, int fractionType)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathematicalText](../mathematicaltext) | Numerator |
-| denominator | [MathSubscriptElement](../mathsubscriptelement) | Denominator |
-| fractionType | int | Fraction type |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
-## createMathFraction([MathematicalText](../../mathematicaltext) numerator, [MathFunction](../../mathfunction) denominator, int fractionType)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathematicalText](../mathematicaltext) | Numerator |
-| denominator | [MathFunction](../mathfunction) | Denominator |
-| fractionType | int | Fraction type |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
-## createMathFraction([MathematicalText](../../mathematicaltext) numerator, [MathSuperscriptElement](../../mathsuperscriptelement) denominator, int fractionType)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathematicalText](../mathematicaltext) | Numerator |
-| denominator | [MathSuperscriptElement](../mathsuperscriptelement) | Denominator |
-| fractionType | int | Fraction type |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
-## createMathFraction([MathematicalText](../../mathematicaltext) numerator, [MathematicalText](../../mathematicaltext) denominator, int fractionType)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathematicalText](../mathematicaltext) | Numerator |
-| denominator | [MathematicalText](../mathematicaltext) | Denominator |
-| fractionType | int | Fraction type |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
-## createMathFraction([MathematicalText](../../mathematicaltext) numerator, [MathFraction](../../mathfraction) denominator, int fractionType)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathematicalText](../mathematicaltext) | Numerator |
-| denominator | [MathFraction](../mathfraction) | Denominator |
-| fractionType | int | Fraction type |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
-## createMathFraction([MathematicalText](../../mathematicaltext) numerator, [MathBox](../../mathbox) denominator, int fractionType)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathematicalText](../mathematicaltext) | Numerator |
-| denominator | [MathBox](../mathbox) | Denominator |
-| fractionType | int | Fraction type |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
-## createMathFraction([MathematicalText](../../mathematicaltext) numerator, [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) denominator, int fractionType)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathematicalText](../mathematicaltext) | Numerator |
 | denominator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Denominator |
 | fractionType | int | Fraction type |
 
@@ -6267,26 +5887,6 @@ url: /php-java/mathfractionfactory/createmathfraction/
 ---
 
 
-## createMathFraction([MathFraction](../../mathfraction) numerator, [MathGroupingCharacter](../../mathgroupingcharacter) denominator, int fractionType)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathFraction](../mathfraction) | Numerator |
-| denominator | [MathGroupingCharacter](../mathgroupingcharacter) | Denominator |
-| fractionType | int | Fraction type |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
 ## createMathFraction([MathFraction](../../mathfraction) numerator, [MathBorderBox](../../mathborderbox) denominator, int fractionType)  method
 
  Creates a math fraction
@@ -6298,6 +5898,26 @@ url: /php-java/mathfractionfactory/createmathfraction/
 | --- | --- | --- |
 | numerator | [MathFraction](../mathfraction) | Numerator |
 | denominator | [MathBorderBox](../mathborderbox) | Denominator |
+| fractionType | int | Fraction type |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathFraction](../../mathfraction) numerator, [MathGroupingCharacter](../../mathgroupingcharacter) denominator, int fractionType)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathFraction](../mathfraction) | Numerator |
+| denominator | [MathGroupingCharacter](../mathgroupingcharacter) | Denominator |
 | fractionType | int | Fraction type |
 
 ### Returns
@@ -6387,26 +6007,6 @@ url: /php-java/mathfractionfactory/createmathfraction/
 ---
 
 
-## createMathFraction([MathFraction](../../mathfraction) numerator, [MathematicalText](../../mathematicaltext) denominator, int fractionType)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathFraction](../mathfraction) | Numerator |
-| denominator | [MathematicalText](../mathematicaltext) | Denominator |
-| fractionType | int | Fraction type |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
 ## createMathFraction([MathFraction](../../mathfraction) numerator, [MathFraction](../../mathfraction) denominator, int fractionType)  method
 
  Creates a math fraction
@@ -6418,6 +6018,26 @@ url: /php-java/mathfractionfactory/createmathfraction/
 | --- | --- | --- |
 | numerator | [MathFraction](../mathfraction) | Numerator |
 | denominator | [MathFraction](../mathfraction) | Denominator |
+| fractionType | int | Fraction type |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathFraction](../../mathfraction) numerator, [MathematicalText](../../mathematicaltext) denominator, int fractionType)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathFraction](../mathfraction) | Numerator |
+| denominator | [MathematicalText](../mathematicaltext) | Denominator |
 | fractionType | int | Fraction type |
 
 ### Returns
@@ -6457,6 +6077,386 @@ url: /php-java/mathfractionfactory/createmathfraction/
 | Name | Type | Description |
 | --- | --- | --- |
 | numerator | [MathFraction](../mathfraction) | Numerator |
+| denominator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Denominator |
+| fractionType | int | Fraction type |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathematicalText](../../mathematicaltext) numerator, [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) denominator, int fractionType)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathematicalText](../mathematicaltext) | Numerator |
+| denominator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Denominator |
+| fractionType | int | Fraction type |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathematicalText](../../mathematicaltext) numerator, [MathMatrix](../../mathmatrix) denominator, int fractionType)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathematicalText](../mathematicaltext) | Numerator |
+| denominator | [MathMatrix](../mathmatrix) | Denominator |
+| fractionType | int | Fraction type |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathematicalText](../../mathematicaltext) numerator, [MathLimit](../../mathlimit) denominator, int fractionType)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathematicalText](../mathematicaltext) | Numerator |
+| denominator | [MathLimit](../mathlimit) | Denominator |
+| fractionType | int | Fraction type |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathematicalText](../../mathematicaltext) numerator, [MathBlock](../../mathblock) denominator, int fractionType)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathematicalText](../mathematicaltext) | Numerator |
+| denominator | [MathBlock](../mathblock) | Denominator |
+| fractionType | int | Fraction type |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathematicalText](../../mathematicaltext) numerator, [MathRadical](../../mathradical) denominator, int fractionType)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathematicalText](../mathematicaltext) | Numerator |
+| denominator | [MathRadical](../mathradical) | Denominator |
+| fractionType | int | Fraction type |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathematicalText](../../mathematicaltext) numerator, [MathArray](../../matharray) denominator, int fractionType)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathematicalText](../mathematicaltext) | Numerator |
+| denominator | [MathArray](../matharray) | Denominator |
+| fractionType | int | Fraction type |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathematicalText](../../mathematicaltext) numerator, [MathDelimiter](../../mathdelimiter) denominator, int fractionType)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathematicalText](../mathematicaltext) | Numerator |
+| denominator | [MathDelimiter](../mathdelimiter) | Denominator |
+| fractionType | int | Fraction type |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathematicalText](../../mathematicaltext) numerator, [MathNaryOperator](../../mathnaryoperator) denominator, int fractionType)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathematicalText](../mathematicaltext) | Numerator |
+| denominator | [MathNaryOperator](../mathnaryoperator) | Denominator |
+| fractionType | int | Fraction type |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathematicalText](../../mathematicaltext) numerator, [MathAccent](../../mathaccent) denominator, int fractionType)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathematicalText](../mathematicaltext) | Numerator |
+| denominator | [MathAccent](../mathaccent) | Denominator |
+| fractionType | int | Fraction type |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathematicalText](../../mathematicaltext) numerator, [MathBorderBox](../../mathborderbox) denominator, int fractionType)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathematicalText](../mathematicaltext) | Numerator |
+| denominator | [MathBorderBox](../mathborderbox) | Denominator |
+| fractionType | int | Fraction type |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathematicalText](../../mathematicaltext) numerator, [MathGroupingCharacter](../../mathgroupingcharacter) denominator, int fractionType)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathematicalText](../mathematicaltext) | Numerator |
+| denominator | [MathGroupingCharacter](../mathgroupingcharacter) | Denominator |
+| fractionType | int | Fraction type |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathematicalText](../../mathematicaltext) numerator, [MathBar](../../mathbar) denominator, int fractionType)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathematicalText](../mathematicaltext) | Numerator |
+| denominator | [MathBar](../mathbar) | Denominator |
+| fractionType | int | Fraction type |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathematicalText](../../mathematicaltext) numerator, [MathSubscriptElement](../../mathsubscriptelement) denominator, int fractionType)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathematicalText](../mathematicaltext) | Numerator |
+| denominator | [MathSubscriptElement](../mathsubscriptelement) | Denominator |
+| fractionType | int | Fraction type |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathematicalText](../../mathematicaltext) numerator, [MathFunction](../../mathfunction) denominator, int fractionType)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathematicalText](../mathematicaltext) | Numerator |
+| denominator | [MathFunction](../mathfunction) | Denominator |
+| fractionType | int | Fraction type |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathematicalText](../../mathematicaltext) numerator, [MathSuperscriptElement](../../mathsuperscriptelement) denominator, int fractionType)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathematicalText](../mathematicaltext) | Numerator |
+| denominator | [MathSuperscriptElement](../mathsuperscriptelement) | Denominator |
+| fractionType | int | Fraction type |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathematicalText](../../mathematicaltext) numerator, [MathFraction](../../mathfraction) denominator, int fractionType)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathematicalText](../mathematicaltext) | Numerator |
+| denominator | [MathFraction](../mathfraction) | Denominator |
+| fractionType | int | Fraction type |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathematicalText](../../mathematicaltext) numerator, [MathematicalText](../../mathematicaltext) denominator, int fractionType)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathematicalText](../mathematicaltext) | Numerator |
+| denominator | [MathematicalText](../mathematicaltext) | Denominator |
+| fractionType | int | Fraction type |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathematicalText](../../mathematicaltext) numerator, [MathBox](../../mathbox) denominator, int fractionType)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathematicalText](../mathematicaltext) | Numerator |
+| denominator | [MathBox](../mathbox) | Denominator |
+| fractionType | int | Fraction type |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathematicalText](../../mathematicaltext) numerator, [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) denominator, int fractionType)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathematicalText](../mathematicaltext) | Numerator |
 | denominator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Denominator |
 | fractionType | int | Fraction type |
 
@@ -6647,26 +6647,6 @@ url: /php-java/mathfractionfactory/createmathfraction/
 ---
 
 
-## createMathFraction([MathBox](../../mathbox) numerator, [MathGroupingCharacter](../../mathgroupingcharacter) denominator, int fractionType)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathBox](../mathbox) | Numerator |
-| denominator | [MathGroupingCharacter](../mathgroupingcharacter) | Denominator |
-| fractionType | int | Fraction type |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
 ## createMathFraction([MathBox](../../mathbox) numerator, [MathBorderBox](../../mathborderbox) denominator, int fractionType)  method
 
  Creates a math fraction
@@ -6678,6 +6658,26 @@ url: /php-java/mathfractionfactory/createmathfraction/
 | --- | --- | --- |
 | numerator | [MathBox](../mathbox) | Numerator |
 | denominator | [MathBorderBox](../mathborderbox) | Denominator |
+| fractionType | int | Fraction type |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathBox](../../mathbox) numerator, [MathGroupingCharacter](../../mathgroupingcharacter) denominator, int fractionType)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathBox](../mathbox) | Numerator |
+| denominator | [MathGroupingCharacter](../mathgroupingcharacter) | Denominator |
 | fractionType | int | Fraction type |
 
 ### Returns
@@ -6767,26 +6767,6 @@ url: /php-java/mathfractionfactory/createmathfraction/
 ---
 
 
-## createMathFraction([MathBox](../../mathbox) numerator, [MathematicalText](../../mathematicaltext) denominator, int fractionType)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathBox](../mathbox) | Numerator |
-| denominator | [MathematicalText](../mathematicaltext) | Denominator |
-| fractionType | int | Fraction type |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
 ## createMathFraction([MathBox](../../mathbox) numerator, [MathFraction](../../mathfraction) denominator, int fractionType)  method
 
  Creates a math fraction
@@ -6798,6 +6778,26 @@ url: /php-java/mathfractionfactory/createmathfraction/
 | --- | --- | --- |
 | numerator | [MathBox](../mathbox) | Numerator |
 | denominator | [MathFraction](../mathfraction) | Denominator |
+| fractionType | int | Fraction type |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathBox](../../mathbox) numerator, [MathematicalText](../../mathematicaltext) denominator, int fractionType)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathBox](../mathbox) | Numerator |
+| denominator | [MathematicalText](../mathematicaltext) | Denominator |
 | fractionType | int | Fraction type |
 
 ### Returns
@@ -7027,26 +7027,6 @@ url: /php-java/mathfractionfactory/createmathfraction/
 ---
 
 
-## createMathFraction([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) numerator, [MathGroupingCharacter](../../mathgroupingcharacter) denominator, int fractionType)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Numerator |
-| denominator | [MathGroupingCharacter](../mathgroupingcharacter) | Denominator |
-| fractionType | int | Fraction type |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
 ## createMathFraction([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) numerator, [MathBorderBox](../../mathborderbox) denominator, int fractionType)  method
 
  Creates a math fraction
@@ -7058,6 +7038,26 @@ url: /php-java/mathfractionfactory/createmathfraction/
 | --- | --- | --- |
 | numerator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Numerator |
 | denominator | [MathBorderBox](../mathborderbox) | Denominator |
+| fractionType | int | Fraction type |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) numerator, [MathGroupingCharacter](../../mathgroupingcharacter) denominator, int fractionType)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Numerator |
+| denominator | [MathGroupingCharacter](../mathgroupingcharacter) | Denominator |
 | fractionType | int | Fraction type |
 
 ### Returns
@@ -7147,26 +7147,6 @@ url: /php-java/mathfractionfactory/createmathfraction/
 ---
 
 
-## createMathFraction([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) numerator, [MathematicalText](../../mathematicaltext) denominator, int fractionType)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Numerator |
-| denominator | [MathematicalText](../mathematicaltext) | Denominator |
-| fractionType | int | Fraction type |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
 ## createMathFraction([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) numerator, [MathFraction](../../mathfraction) denominator, int fractionType)  method
 
  Creates a math fraction
@@ -7178,6 +7158,26 @@ url: /php-java/mathfractionfactory/createmathfraction/
 | --- | --- | --- |
 | numerator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Numerator |
 | denominator | [MathFraction](../mathfraction) | Denominator |
+| fractionType | int | Fraction type |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) numerator, [MathematicalText](../../mathematicaltext) denominator, int fractionType)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Numerator |
+| denominator | [MathematicalText](../mathematicaltext) | Denominator |
 | fractionType | int | Fraction type |
 
 ### Returns
@@ -7398,25 +7398,6 @@ url: /php-java/mathfractionfactory/createmathfraction/
 ---
 
 
-## createMathFraction([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) numerator, [MathGroupingCharacter](../../mathgroupingcharacter) denominator)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Numerator |
-| denominator | [MathGroupingCharacter](../../mathgroupingcharacter) | Denominator |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
 ## createMathFraction([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) numerator, [MathBorderBox](../../mathborderbox) denominator)  method
 
  Creates a math fraction
@@ -7428,6 +7409,25 @@ url: /php-java/mathfractionfactory/createmathfraction/
 | --- | --- | --- |
 | numerator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Numerator |
 | denominator | [MathBorderBox](../../mathborderbox) | Denominator |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) numerator, [MathGroupingCharacter](../../mathgroupingcharacter) denominator)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Numerator |
+| denominator | [MathGroupingCharacter](../../mathgroupingcharacter) | Denominator |
 
 ### Returns
 [MathFraction](../../mathfraction)
@@ -7512,25 +7512,6 @@ url: /php-java/mathfractionfactory/createmathfraction/
 ---
 
 
-## createMathFraction([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) numerator, [MathematicalText](../../mathematicaltext) denominator)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Numerator |
-| denominator | [MathematicalText](../../mathematicaltext) | Denominator |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
 ## createMathFraction([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) numerator, [MathFraction](../../mathfraction) denominator)  method
 
  Creates a math fraction
@@ -7542,6 +7523,25 @@ url: /php-java/mathfractionfactory/createmathfraction/
 | --- | --- | --- |
 | numerator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Numerator |
 | denominator | [MathFraction](../../mathfraction) | Denominator |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) numerator, [MathematicalText](../../mathematicaltext) denominator)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Numerator |
+| denominator | [MathematicalText](../../mathematicaltext) | Denominator |
 
 ### Returns
 [MathFraction](../../mathfraction)
@@ -7759,25 +7759,6 @@ url: /php-java/mathfractionfactory/createmathfraction/
 ---
 
 
-## createMathFraction([MathMatrix](../../mathmatrix) numerator, [MathGroupingCharacter](../../mathgroupingcharacter) denominator)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathMatrix](../mathmatrix) | Numerator |
-| denominator | [MathGroupingCharacter](../../mathgroupingcharacter) | Denominator |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
 ## createMathFraction([MathMatrix](../../mathmatrix) numerator, [MathBorderBox](../../mathborderbox) denominator)  method
 
  Creates a math fraction
@@ -7789,6 +7770,25 @@ url: /php-java/mathfractionfactory/createmathfraction/
 | --- | --- | --- |
 | numerator | [MathMatrix](../mathmatrix) | Numerator |
 | denominator | [MathBorderBox](../../mathborderbox) | Denominator |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathMatrix](../../mathmatrix) numerator, [MathGroupingCharacter](../../mathgroupingcharacter) denominator)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathMatrix](../mathmatrix) | Numerator |
+| denominator | [MathGroupingCharacter](../../mathgroupingcharacter) | Denominator |
 
 ### Returns
 [MathFraction](../../mathfraction)
@@ -7873,25 +7873,6 @@ url: /php-java/mathfractionfactory/createmathfraction/
 ---
 
 
-## createMathFraction([MathMatrix](../../mathmatrix) numerator, [MathematicalText](../../mathematicaltext) denominator)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathMatrix](../mathmatrix) | Numerator |
-| denominator | [MathematicalText](../../mathematicaltext) | Denominator |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
 ## createMathFraction([MathMatrix](../../mathmatrix) numerator, [MathFraction](../../mathfraction) denominator)  method
 
  Creates a math fraction
@@ -7903,6 +7884,25 @@ url: /php-java/mathfractionfactory/createmathfraction/
 | --- | --- | --- |
 | numerator | [MathMatrix](../mathmatrix) | Numerator |
 | denominator | [MathFraction](../../mathfraction) | Denominator |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathMatrix](../../mathmatrix) numerator, [MathematicalText](../../mathematicaltext) denominator)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathMatrix](../mathmatrix) | Numerator |
+| denominator | [MathematicalText](../../mathematicaltext) | Denominator |
 
 ### Returns
 [MathFraction](../../mathfraction)
@@ -8120,25 +8120,6 @@ url: /php-java/mathfractionfactory/createmathfraction/
 ---
 
 
-## createMathFraction([MathLimit](../../mathlimit) numerator, [MathGroupingCharacter](../../mathgroupingcharacter) denominator)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathLimit](../mathlimit) | Numerator |
-| denominator | [MathGroupingCharacter](../../mathgroupingcharacter) | Denominator |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
 ## createMathFraction([MathLimit](../../mathlimit) numerator, [MathBorderBox](../../mathborderbox) denominator)  method
 
  Creates a math fraction
@@ -8150,6 +8131,25 @@ url: /php-java/mathfractionfactory/createmathfraction/
 | --- | --- | --- |
 | numerator | [MathLimit](../mathlimit) | Numerator |
 | denominator | [MathBorderBox](../../mathborderbox) | Denominator |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathLimit](../../mathlimit) numerator, [MathGroupingCharacter](../../mathgroupingcharacter) denominator)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathLimit](../mathlimit) | Numerator |
+| denominator | [MathGroupingCharacter](../../mathgroupingcharacter) | Denominator |
 
 ### Returns
 [MathFraction](../../mathfraction)
@@ -8234,25 +8234,6 @@ url: /php-java/mathfractionfactory/createmathfraction/
 ---
 
 
-## createMathFraction([MathLimit](../../mathlimit) numerator, [MathematicalText](../../mathematicaltext) denominator)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathLimit](../mathlimit) | Numerator |
-| denominator | [MathematicalText](../../mathematicaltext) | Denominator |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
 ## createMathFraction([MathLimit](../../mathlimit) numerator, [MathFraction](../../mathfraction) denominator)  method
 
  Creates a math fraction
@@ -8264,6 +8245,25 @@ url: /php-java/mathfractionfactory/createmathfraction/
 | --- | --- | --- |
 | numerator | [MathLimit](../mathlimit) | Numerator |
 | denominator | [MathFraction](../../mathfraction) | Denominator |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathLimit](../../mathlimit) numerator, [MathematicalText](../../mathematicaltext) denominator)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathLimit](../mathlimit) | Numerator |
+| denominator | [MathematicalText](../../mathematicaltext) | Denominator |
 
 ### Returns
 [MathFraction](../../mathfraction)
@@ -8481,25 +8481,6 @@ url: /php-java/mathfractionfactory/createmathfraction/
 ---
 
 
-## createMathFraction([MathBlock](../../mathblock) numerator, [MathGroupingCharacter](../../mathgroupingcharacter) denominator)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathBlock](../mathblock) | Numerator |
-| denominator | [MathGroupingCharacter](../../mathgroupingcharacter) | Denominator |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
 ## createMathFraction([MathBlock](../../mathblock) numerator, [MathBorderBox](../../mathborderbox) denominator)  method
 
  Creates a math fraction
@@ -8511,6 +8492,25 @@ url: /php-java/mathfractionfactory/createmathfraction/
 | --- | --- | --- |
 | numerator | [MathBlock](../mathblock) | Numerator |
 | denominator | [MathBorderBox](../../mathborderbox) | Denominator |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathBlock](../../mathblock) numerator, [MathGroupingCharacter](../../mathgroupingcharacter) denominator)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathBlock](../mathblock) | Numerator |
+| denominator | [MathGroupingCharacter](../../mathgroupingcharacter) | Denominator |
 
 ### Returns
 [MathFraction](../../mathfraction)
@@ -8595,25 +8595,6 @@ url: /php-java/mathfractionfactory/createmathfraction/
 ---
 
 
-## createMathFraction([MathBlock](../../mathblock) numerator, [MathematicalText](../../mathematicaltext) denominator)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathBlock](../mathblock) | Numerator |
-| denominator | [MathematicalText](../../mathematicaltext) | Denominator |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
 ## createMathFraction([MathBlock](../../mathblock) numerator, [MathFraction](../../mathfraction) denominator)  method
 
  Creates a math fraction
@@ -8625,6 +8606,25 @@ url: /php-java/mathfractionfactory/createmathfraction/
 | --- | --- | --- |
 | numerator | [MathBlock](../mathblock) | Numerator |
 | denominator | [MathFraction](../../mathfraction) | Denominator |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathBlock](../../mathblock) numerator, [MathematicalText](../../mathematicaltext) denominator)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathBlock](../mathblock) | Numerator |
+| denominator | [MathematicalText](../../mathematicaltext) | Denominator |
 
 ### Returns
 [MathFraction](../../mathfraction)
@@ -8842,25 +8842,6 @@ url: /php-java/mathfractionfactory/createmathfraction/
 ---
 
 
-## createMathFraction([MathRadical](../../mathradical) numerator, [MathGroupingCharacter](../../mathgroupingcharacter) denominator)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathRadical](../mathradical) | Numerator |
-| denominator | [MathGroupingCharacter](../../mathgroupingcharacter) | Denominator |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
 ## createMathFraction([MathRadical](../../mathradical) numerator, [MathBorderBox](../../mathborderbox) denominator)  method
 
  Creates a math fraction
@@ -8872,6 +8853,25 @@ url: /php-java/mathfractionfactory/createmathfraction/
 | --- | --- | --- |
 | numerator | [MathRadical](../mathradical) | Numerator |
 | denominator | [MathBorderBox](../../mathborderbox) | Denominator |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathRadical](../../mathradical) numerator, [MathGroupingCharacter](../../mathgroupingcharacter) denominator)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathRadical](../mathradical) | Numerator |
+| denominator | [MathGroupingCharacter](../../mathgroupingcharacter) | Denominator |
 
 ### Returns
 [MathFraction](../../mathfraction)
@@ -8956,25 +8956,6 @@ url: /php-java/mathfractionfactory/createmathfraction/
 ---
 
 
-## createMathFraction([MathRadical](../../mathradical) numerator, [MathematicalText](../../mathematicaltext) denominator)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathRadical](../mathradical) | Numerator |
-| denominator | [MathematicalText](../../mathematicaltext) | Denominator |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
 ## createMathFraction([MathRadical](../../mathradical) numerator, [MathFraction](../../mathfraction) denominator)  method
 
  Creates a math fraction
@@ -8986,6 +8967,25 @@ url: /php-java/mathfractionfactory/createmathfraction/
 | --- | --- | --- |
 | numerator | [MathRadical](../mathradical) | Numerator |
 | denominator | [MathFraction](../../mathfraction) | Denominator |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathRadical](../../mathradical) numerator, [MathematicalText](../../mathematicaltext) denominator)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathRadical](../mathradical) | Numerator |
+| denominator | [MathematicalText](../../mathematicaltext) | Denominator |
 
 ### Returns
 [MathFraction](../../mathfraction)
@@ -9203,25 +9203,6 @@ url: /php-java/mathfractionfactory/createmathfraction/
 ---
 
 
-## createMathFraction([MathArray](../../matharray) numerator, [MathGroupingCharacter](../../mathgroupingcharacter) denominator)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathArray](../matharray) | Numerator |
-| denominator | [MathGroupingCharacter](../../mathgroupingcharacter) | Denominator |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
 ## createMathFraction([MathArray](../../matharray) numerator, [MathBorderBox](../../mathborderbox) denominator)  method
 
  Creates a math fraction
@@ -9233,6 +9214,25 @@ url: /php-java/mathfractionfactory/createmathfraction/
 | --- | --- | --- |
 | numerator | [MathArray](../matharray) | Numerator |
 | denominator | [MathBorderBox](../../mathborderbox) | Denominator |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathArray](../../matharray) numerator, [MathGroupingCharacter](../../mathgroupingcharacter) denominator)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathArray](../matharray) | Numerator |
+| denominator | [MathGroupingCharacter](../../mathgroupingcharacter) | Denominator |
 
 ### Returns
 [MathFraction](../../mathfraction)
@@ -9317,25 +9317,6 @@ url: /php-java/mathfractionfactory/createmathfraction/
 ---
 
 
-## createMathFraction([MathArray](../../matharray) numerator, [MathematicalText](../../mathematicaltext) denominator)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathArray](../matharray) | Numerator |
-| denominator | [MathematicalText](../../mathematicaltext) | Denominator |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
 ## createMathFraction([MathArray](../../matharray) numerator, [MathFraction](../../mathfraction) denominator)  method
 
  Creates a math fraction
@@ -9347,6 +9328,25 @@ url: /php-java/mathfractionfactory/createmathfraction/
 | --- | --- | --- |
 | numerator | [MathArray](../matharray) | Numerator |
 | denominator | [MathFraction](../../mathfraction) | Denominator |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathArray](../../matharray) numerator, [MathematicalText](../../mathematicaltext) denominator)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathArray](../matharray) | Numerator |
+| denominator | [MathematicalText](../../mathematicaltext) | Denominator |
 
 ### Returns
 [MathFraction](../../mathfraction)
@@ -9564,25 +9564,6 @@ url: /php-java/mathfractionfactory/createmathfraction/
 ---
 
 
-## createMathFraction([MathDelimiter](../../mathdelimiter) numerator, [MathGroupingCharacter](../../mathgroupingcharacter) denominator)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathDelimiter](../mathdelimiter) | Numerator |
-| denominator | [MathGroupingCharacter](../../mathgroupingcharacter) | Denominator |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
 ## createMathFraction([MathDelimiter](../../mathdelimiter) numerator, [MathBorderBox](../../mathborderbox) denominator)  method
 
  Creates a math fraction
@@ -9594,6 +9575,25 @@ url: /php-java/mathfractionfactory/createmathfraction/
 | --- | --- | --- |
 | numerator | [MathDelimiter](../mathdelimiter) | Numerator |
 | denominator | [MathBorderBox](../../mathborderbox) | Denominator |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathDelimiter](../../mathdelimiter) numerator, [MathGroupingCharacter](../../mathgroupingcharacter) denominator)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathDelimiter](../mathdelimiter) | Numerator |
+| denominator | [MathGroupingCharacter](../../mathgroupingcharacter) | Denominator |
 
 ### Returns
 [MathFraction](../../mathfraction)
@@ -9678,25 +9678,6 @@ url: /php-java/mathfractionfactory/createmathfraction/
 ---
 
 
-## createMathFraction([MathDelimiter](../../mathdelimiter) numerator, [MathematicalText](../../mathematicaltext) denominator)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathDelimiter](../mathdelimiter) | Numerator |
-| denominator | [MathematicalText](../../mathematicaltext) | Denominator |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
 ## createMathFraction([MathDelimiter](../../mathdelimiter) numerator, [MathFraction](../../mathfraction) denominator)  method
 
  Creates a math fraction
@@ -9708,6 +9689,25 @@ url: /php-java/mathfractionfactory/createmathfraction/
 | --- | --- | --- |
 | numerator | [MathDelimiter](../mathdelimiter) | Numerator |
 | denominator | [MathFraction](../../mathfraction) | Denominator |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathDelimiter](../../mathdelimiter) numerator, [MathematicalText](../../mathematicaltext) denominator)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathDelimiter](../mathdelimiter) | Numerator |
+| denominator | [MathematicalText](../../mathematicaltext) | Denominator |
 
 ### Returns
 [MathFraction](../../mathfraction)
@@ -9925,25 +9925,6 @@ url: /php-java/mathfractionfactory/createmathfraction/
 ---
 
 
-## createMathFraction([MathNaryOperator](../../mathnaryoperator) numerator, [MathGroupingCharacter](../../mathgroupingcharacter) denominator)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathNaryOperator](../mathnaryoperator) | Numerator |
-| denominator | [MathGroupingCharacter](../../mathgroupingcharacter) | Denominator |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
 ## createMathFraction([MathNaryOperator](../../mathnaryoperator) numerator, [MathBorderBox](../../mathborderbox) denominator)  method
 
  Creates a math fraction
@@ -9955,6 +9936,25 @@ url: /php-java/mathfractionfactory/createmathfraction/
 | --- | --- | --- |
 | numerator | [MathNaryOperator](../mathnaryoperator) | Numerator |
 | denominator | [MathBorderBox](../../mathborderbox) | Denominator |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathNaryOperator](../../mathnaryoperator) numerator, [MathGroupingCharacter](../../mathgroupingcharacter) denominator)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathNaryOperator](../mathnaryoperator) | Numerator |
+| denominator | [MathGroupingCharacter](../../mathgroupingcharacter) | Denominator |
 
 ### Returns
 [MathFraction](../../mathfraction)
@@ -10039,25 +10039,6 @@ url: /php-java/mathfractionfactory/createmathfraction/
 ---
 
 
-## createMathFraction([MathNaryOperator](../../mathnaryoperator) numerator, [MathematicalText](../../mathematicaltext) denominator)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathNaryOperator](../mathnaryoperator) | Numerator |
-| denominator | [MathematicalText](../../mathematicaltext) | Denominator |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
 ## createMathFraction([MathNaryOperator](../../mathnaryoperator) numerator, [MathFraction](../../mathfraction) denominator)  method
 
  Creates a math fraction
@@ -10069,6 +10050,25 @@ url: /php-java/mathfractionfactory/createmathfraction/
 | --- | --- | --- |
 | numerator | [MathNaryOperator](../mathnaryoperator) | Numerator |
 | denominator | [MathFraction](../../mathfraction) | Denominator |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathNaryOperator](../../mathnaryoperator) numerator, [MathematicalText](../../mathematicaltext) denominator)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathNaryOperator](../mathnaryoperator) | Numerator |
+| denominator | [MathematicalText](../../mathematicaltext) | Denominator |
 
 ### Returns
 [MathFraction](../../mathfraction)
@@ -10286,25 +10286,6 @@ url: /php-java/mathfractionfactory/createmathfraction/
 ---
 
 
-## createMathFraction([MathAccent](../../mathaccent) numerator, [MathGroupingCharacter](../../mathgroupingcharacter) denominator)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathAccent](../mathaccent) | Numerator |
-| denominator | [MathGroupingCharacter](../../mathgroupingcharacter) | Denominator |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
 ## createMathFraction([MathAccent](../../mathaccent) numerator, [MathBorderBox](../../mathborderbox) denominator)  method
 
  Creates a math fraction
@@ -10316,6 +10297,25 @@ url: /php-java/mathfractionfactory/createmathfraction/
 | --- | --- | --- |
 | numerator | [MathAccent](../mathaccent) | Numerator |
 | denominator | [MathBorderBox](../../mathborderbox) | Denominator |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathAccent](../../mathaccent) numerator, [MathGroupingCharacter](../../mathgroupingcharacter) denominator)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathAccent](../mathaccent) | Numerator |
+| denominator | [MathGroupingCharacter](../../mathgroupingcharacter) | Denominator |
 
 ### Returns
 [MathFraction](../../mathfraction)
@@ -10400,25 +10400,6 @@ url: /php-java/mathfractionfactory/createmathfraction/
 ---
 
 
-## createMathFraction([MathAccent](../../mathaccent) numerator, [MathematicalText](../../mathematicaltext) denominator)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathAccent](../mathaccent) | Numerator |
-| denominator | [MathematicalText](../../mathematicaltext) | Denominator |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
 ## createMathFraction([MathAccent](../../mathaccent) numerator, [MathFraction](../../mathfraction) denominator)  method
 
  Creates a math fraction
@@ -10430,6 +10411,25 @@ url: /php-java/mathfractionfactory/createmathfraction/
 | --- | --- | --- |
 | numerator | [MathAccent](../mathaccent) | Numerator |
 | denominator | [MathFraction](../../mathfraction) | Denominator |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathAccent](../../mathaccent) numerator, [MathematicalText](../../mathematicaltext) denominator)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathAccent](../mathaccent) | Numerator |
+| denominator | [MathematicalText](../../mathematicaltext) | Denominator |
 
 ### Returns
 [MathFraction](../../mathfraction)
@@ -10467,367 +10467,6 @@ url: /php-java/mathfractionfactory/createmathfraction/
 | Name | Type | Description |
 | --- | --- | --- |
 | numerator | [MathAccent](../mathaccent) | Numerator |
-| denominator | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | Denominator |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
-## createMathFraction([MathGroupingCharacter](../../mathgroupingcharacter) numerator, [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) denominator)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
-| denominator | [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) | Denominator |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
-## createMathFraction([MathGroupingCharacter](../../mathgroupingcharacter) numerator, [MathMatrix](../../mathmatrix) denominator)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
-| denominator | [MathMatrix](../../mathmatrix) | Denominator |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
-## createMathFraction([MathGroupingCharacter](../../mathgroupingcharacter) numerator, [MathLimit](../../mathlimit) denominator)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
-| denominator | [MathLimit](../../mathlimit) | Denominator |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
-## createMathFraction([MathGroupingCharacter](../../mathgroupingcharacter) numerator, [MathBlock](../../mathblock) denominator)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
-| denominator | [MathBlock](../../mathblock) | Denominator |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
-## createMathFraction([MathGroupingCharacter](../../mathgroupingcharacter) numerator, [MathRadical](../../mathradical) denominator)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
-| denominator | [MathRadical](../../mathradical) | Denominator |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
-## createMathFraction([MathGroupingCharacter](../../mathgroupingcharacter) numerator, [MathArray](../../matharray) denominator)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
-| denominator | [MathArray](../../matharray) | Denominator |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
-## createMathFraction([MathGroupingCharacter](../../mathgroupingcharacter) numerator, [MathDelimiter](../../mathdelimiter) denominator)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
-| denominator | [MathDelimiter](../../mathdelimiter) | Denominator |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
-## createMathFraction([MathGroupingCharacter](../../mathgroupingcharacter) numerator, [MathNaryOperator](../../mathnaryoperator) denominator)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
-| denominator | [MathNaryOperator](../../mathnaryoperator) | Denominator |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
-## createMathFraction([MathGroupingCharacter](../../mathgroupingcharacter) numerator, [MathAccent](../../mathaccent) denominator)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
-| denominator | [MathAccent](../../mathaccent) | Denominator |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
-## createMathFraction([MathGroupingCharacter](../../mathgroupingcharacter) numerator, [MathGroupingCharacter](../../mathgroupingcharacter) denominator)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
-| denominator | [MathGroupingCharacter](../../mathgroupingcharacter) | Denominator |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
-## createMathFraction([MathGroupingCharacter](../../mathgroupingcharacter) numerator, [MathBorderBox](../../mathborderbox) denominator)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
-| denominator | [MathBorderBox](../../mathborderbox) | Denominator |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
-## createMathFraction([MathGroupingCharacter](../../mathgroupingcharacter) numerator, [MathBar](../../mathbar) denominator)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
-| denominator | [MathBar](../../mathbar) | Denominator |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
-## createMathFraction([MathGroupingCharacter](../../mathgroupingcharacter) numerator, [MathSubscriptElement](../../mathsubscriptelement) denominator)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
-| denominator | [MathSubscriptElement](../../mathsubscriptelement) | Denominator |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
-## createMathFraction([MathGroupingCharacter](../../mathgroupingcharacter) numerator, [MathFunction](../../mathfunction) denominator)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
-| denominator | [MathFunction](../../mathfunction) | Denominator |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
-## createMathFraction([MathGroupingCharacter](../../mathgroupingcharacter) numerator, [MathSuperscriptElement](../../mathsuperscriptelement) denominator)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
-| denominator | [MathSuperscriptElement](../../mathsuperscriptelement) | Denominator |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
-## createMathFraction([MathGroupingCharacter](../../mathgroupingcharacter) numerator, [MathematicalText](../../mathematicaltext) denominator)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
-| denominator | [MathematicalText](../../mathematicaltext) | Denominator |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
-## createMathFraction([MathGroupingCharacter](../../mathgroupingcharacter) numerator, [MathFraction](../../mathfraction) denominator)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
-| denominator | [MathFraction](../../mathfraction) | Denominator |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
-## createMathFraction([MathGroupingCharacter](../../mathgroupingcharacter) numerator, [MathBox](../../mathbox) denominator)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
-| denominator | [MathBox](../../mathbox) | Denominator |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
-## createMathFraction([MathGroupingCharacter](../../mathgroupingcharacter) numerator, [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) denominator)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
 | denominator | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | Denominator |
 
 ### Returns
@@ -11008,25 +10647,6 @@ url: /php-java/mathfractionfactory/createmathfraction/
 ---
 
 
-## createMathFraction([MathBorderBox](../../mathborderbox) numerator, [MathGroupingCharacter](../../mathgroupingcharacter) denominator)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathBorderBox](../mathborderbox) | Numerator |
-| denominator | [MathGroupingCharacter](../../mathgroupingcharacter) | Denominator |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
 ## createMathFraction([MathBorderBox](../../mathborderbox) numerator, [MathBorderBox](../../mathborderbox) denominator)  method
 
  Creates a math fraction
@@ -11038,6 +10658,25 @@ url: /php-java/mathfractionfactory/createmathfraction/
 | --- | --- | --- |
 | numerator | [MathBorderBox](../mathborderbox) | Numerator |
 | denominator | [MathBorderBox](../../mathborderbox) | Denominator |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathBorderBox](../../mathborderbox) numerator, [MathGroupingCharacter](../../mathgroupingcharacter) denominator)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathBorderBox](../mathborderbox) | Numerator |
+| denominator | [MathGroupingCharacter](../../mathgroupingcharacter) | Denominator |
 
 ### Returns
 [MathFraction](../../mathfraction)
@@ -11122,25 +10761,6 @@ url: /php-java/mathfractionfactory/createmathfraction/
 ---
 
 
-## createMathFraction([MathBorderBox](../../mathborderbox) numerator, [MathematicalText](../../mathematicaltext) denominator)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathBorderBox](../mathborderbox) | Numerator |
-| denominator | [MathematicalText](../../mathematicaltext) | Denominator |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
 ## createMathFraction([MathBorderBox](../../mathborderbox) numerator, [MathFraction](../../mathfraction) denominator)  method
 
  Creates a math fraction
@@ -11152,6 +10772,25 @@ url: /php-java/mathfractionfactory/createmathfraction/
 | --- | --- | --- |
 | numerator | [MathBorderBox](../mathborderbox) | Numerator |
 | denominator | [MathFraction](../../mathfraction) | Denominator |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathBorderBox](../../mathborderbox) numerator, [MathematicalText](../../mathematicaltext) denominator)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathBorderBox](../mathborderbox) | Numerator |
+| denominator | [MathematicalText](../../mathematicaltext) | Denominator |
 
 ### Returns
 [MathFraction](../../mathfraction)
@@ -11189,6 +10828,367 @@ url: /php-java/mathfractionfactory/createmathfraction/
 | Name | Type | Description |
 | --- | --- | --- |
 | numerator | [MathBorderBox](../mathborderbox) | Numerator |
+| denominator | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | Denominator |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathGroupingCharacter](../../mathgroupingcharacter) numerator, [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) denominator)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
+| denominator | [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) | Denominator |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathGroupingCharacter](../../mathgroupingcharacter) numerator, [MathMatrix](../../mathmatrix) denominator)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
+| denominator | [MathMatrix](../../mathmatrix) | Denominator |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathGroupingCharacter](../../mathgroupingcharacter) numerator, [MathLimit](../../mathlimit) denominator)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
+| denominator | [MathLimit](../../mathlimit) | Denominator |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathGroupingCharacter](../../mathgroupingcharacter) numerator, [MathBlock](../../mathblock) denominator)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
+| denominator | [MathBlock](../../mathblock) | Denominator |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathGroupingCharacter](../../mathgroupingcharacter) numerator, [MathRadical](../../mathradical) denominator)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
+| denominator | [MathRadical](../../mathradical) | Denominator |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathGroupingCharacter](../../mathgroupingcharacter) numerator, [MathArray](../../matharray) denominator)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
+| denominator | [MathArray](../../matharray) | Denominator |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathGroupingCharacter](../../mathgroupingcharacter) numerator, [MathDelimiter](../../mathdelimiter) denominator)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
+| denominator | [MathDelimiter](../../mathdelimiter) | Denominator |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathGroupingCharacter](../../mathgroupingcharacter) numerator, [MathNaryOperator](../../mathnaryoperator) denominator)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
+| denominator | [MathNaryOperator](../../mathnaryoperator) | Denominator |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathGroupingCharacter](../../mathgroupingcharacter) numerator, [MathAccent](../../mathaccent) denominator)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
+| denominator | [MathAccent](../../mathaccent) | Denominator |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathGroupingCharacter](../../mathgroupingcharacter) numerator, [MathBorderBox](../../mathborderbox) denominator)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
+| denominator | [MathBorderBox](../../mathborderbox) | Denominator |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathGroupingCharacter](../../mathgroupingcharacter) numerator, [MathGroupingCharacter](../../mathgroupingcharacter) denominator)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
+| denominator | [MathGroupingCharacter](../../mathgroupingcharacter) | Denominator |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathGroupingCharacter](../../mathgroupingcharacter) numerator, [MathBar](../../mathbar) denominator)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
+| denominator | [MathBar](../../mathbar) | Denominator |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathGroupingCharacter](../../mathgroupingcharacter) numerator, [MathSubscriptElement](../../mathsubscriptelement) denominator)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
+| denominator | [MathSubscriptElement](../../mathsubscriptelement) | Denominator |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathGroupingCharacter](../../mathgroupingcharacter) numerator, [MathFunction](../../mathfunction) denominator)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
+| denominator | [MathFunction](../../mathfunction) | Denominator |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathGroupingCharacter](../../mathgroupingcharacter) numerator, [MathSuperscriptElement](../../mathsuperscriptelement) denominator)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
+| denominator | [MathSuperscriptElement](../../mathsuperscriptelement) | Denominator |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathGroupingCharacter](../../mathgroupingcharacter) numerator, [MathFraction](../../mathfraction) denominator)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
+| denominator | [MathFraction](../../mathfraction) | Denominator |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathGroupingCharacter](../../mathgroupingcharacter) numerator, [MathematicalText](../../mathematicaltext) denominator)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
+| denominator | [MathematicalText](../../mathematicaltext) | Denominator |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathGroupingCharacter](../../mathgroupingcharacter) numerator, [MathBox](../../mathbox) denominator)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
+| denominator | [MathBox](../../mathbox) | Denominator |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathGroupingCharacter](../../mathgroupingcharacter) numerator, [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) denominator)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
 | denominator | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | Denominator |
 
 ### Returns
@@ -11369,25 +11369,6 @@ url: /php-java/mathfractionfactory/createmathfraction/
 ---
 
 
-## createMathFraction([MathBar](../../mathbar) numerator, [MathGroupingCharacter](../../mathgroupingcharacter) denominator)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathBar](../mathbar) | Numerator |
-| denominator | [MathGroupingCharacter](../../mathgroupingcharacter) | Denominator |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
 ## createMathFraction([MathBar](../../mathbar) numerator, [MathBorderBox](../../mathborderbox) denominator)  method
 
  Creates a math fraction
@@ -11399,6 +11380,25 @@ url: /php-java/mathfractionfactory/createmathfraction/
 | --- | --- | --- |
 | numerator | [MathBar](../mathbar) | Numerator |
 | denominator | [MathBorderBox](../../mathborderbox) | Denominator |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathBar](../../mathbar) numerator, [MathGroupingCharacter](../../mathgroupingcharacter) denominator)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathBar](../mathbar) | Numerator |
+| denominator | [MathGroupingCharacter](../../mathgroupingcharacter) | Denominator |
 
 ### Returns
 [MathFraction](../../mathfraction)
@@ -11483,25 +11483,6 @@ url: /php-java/mathfractionfactory/createmathfraction/
 ---
 
 
-## createMathFraction([MathBar](../../mathbar) numerator, [MathematicalText](../../mathematicaltext) denominator)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathBar](../mathbar) | Numerator |
-| denominator | [MathematicalText](../../mathematicaltext) | Denominator |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
 ## createMathFraction([MathBar](../../mathbar) numerator, [MathFraction](../../mathfraction) denominator)  method
 
  Creates a math fraction
@@ -11513,6 +11494,25 @@ url: /php-java/mathfractionfactory/createmathfraction/
 | --- | --- | --- |
 | numerator | [MathBar](../mathbar) | Numerator |
 | denominator | [MathFraction](../../mathfraction) | Denominator |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathBar](../../mathbar) numerator, [MathematicalText](../../mathematicaltext) denominator)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathBar](../mathbar) | Numerator |
+| denominator | [MathematicalText](../../mathematicaltext) | Denominator |
 
 ### Returns
 [MathFraction](../../mathfraction)
@@ -11730,25 +11730,6 @@ url: /php-java/mathfractionfactory/createmathfraction/
 ---
 
 
-## createMathFraction([MathSubscriptElement](../../mathsubscriptelement) numerator, [MathGroupingCharacter](../../mathgroupingcharacter) denominator)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
-| denominator | [MathGroupingCharacter](../../mathgroupingcharacter) | Denominator |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
 ## createMathFraction([MathSubscriptElement](../../mathsubscriptelement) numerator, [MathBorderBox](../../mathborderbox) denominator)  method
 
  Creates a math fraction
@@ -11760,6 +11741,25 @@ url: /php-java/mathfractionfactory/createmathfraction/
 | --- | --- | --- |
 | numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
 | denominator | [MathBorderBox](../../mathborderbox) | Denominator |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathSubscriptElement](../../mathsubscriptelement) numerator, [MathGroupingCharacter](../../mathgroupingcharacter) denominator)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
+| denominator | [MathGroupingCharacter](../../mathgroupingcharacter) | Denominator |
 
 ### Returns
 [MathFraction](../../mathfraction)
@@ -11844,25 +11844,6 @@ url: /php-java/mathfractionfactory/createmathfraction/
 ---
 
 
-## createMathFraction([MathSubscriptElement](../../mathsubscriptelement) numerator, [MathematicalText](../../mathematicaltext) denominator)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
-| denominator | [MathematicalText](../../mathematicaltext) | Denominator |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
 ## createMathFraction([MathSubscriptElement](../../mathsubscriptelement) numerator, [MathFraction](../../mathfraction) denominator)  method
 
  Creates a math fraction
@@ -11874,6 +11855,25 @@ url: /php-java/mathfractionfactory/createmathfraction/
 | --- | --- | --- |
 | numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
 | denominator | [MathFraction](../../mathfraction) | Denominator |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathSubscriptElement](../../mathsubscriptelement) numerator, [MathematicalText](../../mathematicaltext) denominator)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
+| denominator | [MathematicalText](../../mathematicaltext) | Denominator |
 
 ### Returns
 [MathFraction](../../mathfraction)
@@ -12091,25 +12091,6 @@ url: /php-java/mathfractionfactory/createmathfraction/
 ---
 
 
-## createMathFraction([MathFunction](../../mathfunction) numerator, [MathGroupingCharacter](../../mathgroupingcharacter) denominator)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathFunction](../mathfunction) | Numerator |
-| denominator | [MathGroupingCharacter](../../mathgroupingcharacter) | Denominator |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
 ## createMathFraction([MathFunction](../../mathfunction) numerator, [MathBorderBox](../../mathborderbox) denominator)  method
 
  Creates a math fraction
@@ -12121,6 +12102,25 @@ url: /php-java/mathfractionfactory/createmathfraction/
 | --- | --- | --- |
 | numerator | [MathFunction](../mathfunction) | Numerator |
 | denominator | [MathBorderBox](../../mathborderbox) | Denominator |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathFunction](../../mathfunction) numerator, [MathGroupingCharacter](../../mathgroupingcharacter) denominator)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathFunction](../mathfunction) | Numerator |
+| denominator | [MathGroupingCharacter](../../mathgroupingcharacter) | Denominator |
 
 ### Returns
 [MathFraction](../../mathfraction)
@@ -12205,25 +12205,6 @@ url: /php-java/mathfractionfactory/createmathfraction/
 ---
 
 
-## createMathFraction([MathFunction](../../mathfunction) numerator, [MathematicalText](../../mathematicaltext) denominator)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathFunction](../mathfunction) | Numerator |
-| denominator | [MathematicalText](../../mathematicaltext) | Denominator |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
 ## createMathFraction([MathFunction](../../mathfunction) numerator, [MathFraction](../../mathfraction) denominator)  method
 
  Creates a math fraction
@@ -12235,6 +12216,25 @@ url: /php-java/mathfractionfactory/createmathfraction/
 | --- | --- | --- |
 | numerator | [MathFunction](../mathfunction) | Numerator |
 | denominator | [MathFraction](../../mathfraction) | Denominator |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathFunction](../../mathfunction) numerator, [MathematicalText](../../mathematicaltext) denominator)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathFunction](../mathfunction) | Numerator |
+| denominator | [MathematicalText](../../mathematicaltext) | Denominator |
 
 ### Returns
 [MathFraction](../../mathfraction)
@@ -12452,25 +12452,6 @@ url: /php-java/mathfractionfactory/createmathfraction/
 ---
 
 
-## createMathFraction([MathSuperscriptElement](../../mathsuperscriptelement) numerator, [MathGroupingCharacter](../../mathgroupingcharacter) denominator)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathSuperscriptElement](../mathsuperscriptelement) | Numerator |
-| denominator | [MathGroupingCharacter](../../mathgroupingcharacter) | Denominator |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
 ## createMathFraction([MathSuperscriptElement](../../mathsuperscriptelement) numerator, [MathBorderBox](../../mathborderbox) denominator)  method
 
  Creates a math fraction
@@ -12482,6 +12463,25 @@ url: /php-java/mathfractionfactory/createmathfraction/
 | --- | --- | --- |
 | numerator | [MathSuperscriptElement](../mathsuperscriptelement) | Numerator |
 | denominator | [MathBorderBox](../../mathborderbox) | Denominator |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathSuperscriptElement](../../mathsuperscriptelement) numerator, [MathGroupingCharacter](../../mathgroupingcharacter) denominator)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathSuperscriptElement](../mathsuperscriptelement) | Numerator |
+| denominator | [MathGroupingCharacter](../../mathgroupingcharacter) | Denominator |
 
 ### Returns
 [MathFraction](../../mathfraction)
@@ -12566,25 +12566,6 @@ url: /php-java/mathfractionfactory/createmathfraction/
 ---
 
 
-## createMathFraction([MathSuperscriptElement](../../mathsuperscriptelement) numerator, [MathematicalText](../../mathematicaltext) denominator)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathSuperscriptElement](../mathsuperscriptelement) | Numerator |
-| denominator | [MathematicalText](../../mathematicaltext) | Denominator |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
 ## createMathFraction([MathSuperscriptElement](../../mathsuperscriptelement) numerator, [MathFraction](../../mathfraction) denominator)  method
 
  Creates a math fraction
@@ -12596,6 +12577,25 @@ url: /php-java/mathfractionfactory/createmathfraction/
 | --- | --- | --- |
 | numerator | [MathSuperscriptElement](../mathsuperscriptelement) | Numerator |
 | denominator | [MathFraction](../../mathfraction) | Denominator |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathSuperscriptElement](../../mathsuperscriptelement) numerator, [MathematicalText](../../mathematicaltext) denominator)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathSuperscriptElement](../mathsuperscriptelement) | Numerator |
+| denominator | [MathematicalText](../../mathematicaltext) | Denominator |
 
 ### Returns
 [MathFraction](../../mathfraction)
@@ -12633,367 +12633,6 @@ url: /php-java/mathfractionfactory/createmathfraction/
 | Name | Type | Description |
 | --- | --- | --- |
 | numerator | [MathSuperscriptElement](../mathsuperscriptelement) | Numerator |
-| denominator | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | Denominator |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
-## createMathFraction([MathematicalText](../../mathematicaltext) numerator, [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) denominator)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathematicalText](../mathematicaltext) | Numerator |
-| denominator | [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) | Denominator |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
-## createMathFraction([MathematicalText](../../mathematicaltext) numerator, [MathMatrix](../../mathmatrix) denominator)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathematicalText](../mathematicaltext) | Numerator |
-| denominator | [MathMatrix](../../mathmatrix) | Denominator |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
-## createMathFraction([MathematicalText](../../mathematicaltext) numerator, [MathLimit](../../mathlimit) denominator)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathematicalText](../mathematicaltext) | Numerator |
-| denominator | [MathLimit](../../mathlimit) | Denominator |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
-## createMathFraction([MathematicalText](../../mathematicaltext) numerator, [MathBlock](../../mathblock) denominator)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathematicalText](../mathematicaltext) | Numerator |
-| denominator | [MathBlock](../../mathblock) | Denominator |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
-## createMathFraction([MathematicalText](../../mathematicaltext) numerator, [MathRadical](../../mathradical) denominator)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathematicalText](../mathematicaltext) | Numerator |
-| denominator | [MathRadical](../../mathradical) | Denominator |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
-## createMathFraction([MathematicalText](../../mathematicaltext) numerator, [MathArray](../../matharray) denominator)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathematicalText](../mathematicaltext) | Numerator |
-| denominator | [MathArray](../../matharray) | Denominator |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
-## createMathFraction([MathematicalText](../../mathematicaltext) numerator, [MathDelimiter](../../mathdelimiter) denominator)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathematicalText](../mathematicaltext) | Numerator |
-| denominator | [MathDelimiter](../../mathdelimiter) | Denominator |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
-## createMathFraction([MathematicalText](../../mathematicaltext) numerator, [MathNaryOperator](../../mathnaryoperator) denominator)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathematicalText](../mathematicaltext) | Numerator |
-| denominator | [MathNaryOperator](../../mathnaryoperator) | Denominator |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
-## createMathFraction([MathematicalText](../../mathematicaltext) numerator, [MathAccent](../../mathaccent) denominator)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathematicalText](../mathematicaltext) | Numerator |
-| denominator | [MathAccent](../../mathaccent) | Denominator |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
-## createMathFraction([MathematicalText](../../mathematicaltext) numerator, [MathGroupingCharacter](../../mathgroupingcharacter) denominator)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathematicalText](../mathematicaltext) | Numerator |
-| denominator | [MathGroupingCharacter](../../mathgroupingcharacter) | Denominator |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
-## createMathFraction([MathematicalText](../../mathematicaltext) numerator, [MathBorderBox](../../mathborderbox) denominator)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathematicalText](../mathematicaltext) | Numerator |
-| denominator | [MathBorderBox](../../mathborderbox) | Denominator |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
-## createMathFraction([MathematicalText](../../mathematicaltext) numerator, [MathBar](../../mathbar) denominator)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathematicalText](../mathematicaltext) | Numerator |
-| denominator | [MathBar](../../mathbar) | Denominator |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
-## createMathFraction([MathematicalText](../../mathematicaltext) numerator, [MathSubscriptElement](../../mathsubscriptelement) denominator)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathematicalText](../mathematicaltext) | Numerator |
-| denominator | [MathSubscriptElement](../../mathsubscriptelement) | Denominator |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
-## createMathFraction([MathematicalText](../../mathematicaltext) numerator, [MathFunction](../../mathfunction) denominator)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathematicalText](../mathematicaltext) | Numerator |
-| denominator | [MathFunction](../../mathfunction) | Denominator |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
-## createMathFraction([MathematicalText](../../mathematicaltext) numerator, [MathSuperscriptElement](../../mathsuperscriptelement) denominator)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathematicalText](../mathematicaltext) | Numerator |
-| denominator | [MathSuperscriptElement](../../mathsuperscriptelement) | Denominator |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
-## createMathFraction([MathematicalText](../../mathematicaltext) numerator, [MathematicalText](../../mathematicaltext) denominator)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathematicalText](../mathematicaltext) | Numerator |
-| denominator | [MathematicalText](../../mathematicaltext) | Denominator |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
-## createMathFraction([MathematicalText](../../mathematicaltext) numerator, [MathFraction](../../mathfraction) denominator)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathematicalText](../mathematicaltext) | Numerator |
-| denominator | [MathFraction](../../mathfraction) | Denominator |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
-## createMathFraction([MathematicalText](../../mathematicaltext) numerator, [MathBox](../../mathbox) denominator)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathematicalText](../mathematicaltext) | Numerator |
-| denominator | [MathBox](../../mathbox) | Denominator |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
-## createMathFraction([MathematicalText](../../mathematicaltext) numerator, [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) denominator)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathematicalText](../mathematicaltext) | Numerator |
 | denominator | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | Denominator |
 
 ### Returns
@@ -13174,25 +12813,6 @@ url: /php-java/mathfractionfactory/createmathfraction/
 ---
 
 
-## createMathFraction([MathFraction](../../mathfraction) numerator, [MathGroupingCharacter](../../mathgroupingcharacter) denominator)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathFraction](../mathfraction) | Numerator |
-| denominator | [MathGroupingCharacter](../../mathgroupingcharacter) | Denominator |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
 ## createMathFraction([MathFraction](../../mathfraction) numerator, [MathBorderBox](../../mathborderbox) denominator)  method
 
  Creates a math fraction
@@ -13204,6 +12824,25 @@ url: /php-java/mathfractionfactory/createmathfraction/
 | --- | --- | --- |
 | numerator | [MathFraction](../mathfraction) | Numerator |
 | denominator | [MathBorderBox](../../mathborderbox) | Denominator |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathFraction](../../mathfraction) numerator, [MathGroupingCharacter](../../mathgroupingcharacter) denominator)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathFraction](../mathfraction) | Numerator |
+| denominator | [MathGroupingCharacter](../../mathgroupingcharacter) | Denominator |
 
 ### Returns
 [MathFraction](../../mathfraction)
@@ -13288,25 +12927,6 @@ url: /php-java/mathfractionfactory/createmathfraction/
 ---
 
 
-## createMathFraction([MathFraction](../../mathfraction) numerator, [MathematicalText](../../mathematicaltext) denominator)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathFraction](../mathfraction) | Numerator |
-| denominator | [MathematicalText](../../mathematicaltext) | Denominator |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
 ## createMathFraction([MathFraction](../../mathfraction) numerator, [MathFraction](../../mathfraction) denominator)  method
 
  Creates a math fraction
@@ -13318,6 +12938,25 @@ url: /php-java/mathfractionfactory/createmathfraction/
 | --- | --- | --- |
 | numerator | [MathFraction](../mathfraction) | Numerator |
 | denominator | [MathFraction](../../mathfraction) | Denominator |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathFraction](../../mathfraction) numerator, [MathematicalText](../../mathematicaltext) denominator)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathFraction](../mathfraction) | Numerator |
+| denominator | [MathematicalText](../../mathematicaltext) | Denominator |
 
 ### Returns
 [MathFraction](../../mathfraction)
@@ -13355,6 +12994,367 @@ url: /php-java/mathfractionfactory/createmathfraction/
 | Name | Type | Description |
 | --- | --- | --- |
 | numerator | [MathFraction](../mathfraction) | Numerator |
+| denominator | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | Denominator |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathematicalText](../../mathematicaltext) numerator, [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) denominator)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathematicalText](../mathematicaltext) | Numerator |
+| denominator | [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) | Denominator |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathematicalText](../../mathematicaltext) numerator, [MathMatrix](../../mathmatrix) denominator)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathematicalText](../mathematicaltext) | Numerator |
+| denominator | [MathMatrix](../../mathmatrix) | Denominator |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathematicalText](../../mathematicaltext) numerator, [MathLimit](../../mathlimit) denominator)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathematicalText](../mathematicaltext) | Numerator |
+| denominator | [MathLimit](../../mathlimit) | Denominator |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathematicalText](../../mathematicaltext) numerator, [MathBlock](../../mathblock) denominator)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathematicalText](../mathematicaltext) | Numerator |
+| denominator | [MathBlock](../../mathblock) | Denominator |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathematicalText](../../mathematicaltext) numerator, [MathRadical](../../mathradical) denominator)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathematicalText](../mathematicaltext) | Numerator |
+| denominator | [MathRadical](../../mathradical) | Denominator |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathematicalText](../../mathematicaltext) numerator, [MathArray](../../matharray) denominator)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathematicalText](../mathematicaltext) | Numerator |
+| denominator | [MathArray](../../matharray) | Denominator |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathematicalText](../../mathematicaltext) numerator, [MathDelimiter](../../mathdelimiter) denominator)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathematicalText](../mathematicaltext) | Numerator |
+| denominator | [MathDelimiter](../../mathdelimiter) | Denominator |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathematicalText](../../mathematicaltext) numerator, [MathNaryOperator](../../mathnaryoperator) denominator)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathematicalText](../mathematicaltext) | Numerator |
+| denominator | [MathNaryOperator](../../mathnaryoperator) | Denominator |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathematicalText](../../mathematicaltext) numerator, [MathAccent](../../mathaccent) denominator)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathematicalText](../mathematicaltext) | Numerator |
+| denominator | [MathAccent](../../mathaccent) | Denominator |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathematicalText](../../mathematicaltext) numerator, [MathBorderBox](../../mathborderbox) denominator)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathematicalText](../mathematicaltext) | Numerator |
+| denominator | [MathBorderBox](../../mathborderbox) | Denominator |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathematicalText](../../mathematicaltext) numerator, [MathGroupingCharacter](../../mathgroupingcharacter) denominator)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathematicalText](../mathematicaltext) | Numerator |
+| denominator | [MathGroupingCharacter](../../mathgroupingcharacter) | Denominator |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathematicalText](../../mathematicaltext) numerator, [MathBar](../../mathbar) denominator)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathematicalText](../mathematicaltext) | Numerator |
+| denominator | [MathBar](../../mathbar) | Denominator |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathematicalText](../../mathematicaltext) numerator, [MathSubscriptElement](../../mathsubscriptelement) denominator)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathematicalText](../mathematicaltext) | Numerator |
+| denominator | [MathSubscriptElement](../../mathsubscriptelement) | Denominator |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathematicalText](../../mathematicaltext) numerator, [MathFunction](../../mathfunction) denominator)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathematicalText](../mathematicaltext) | Numerator |
+| denominator | [MathFunction](../../mathfunction) | Denominator |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathematicalText](../../mathematicaltext) numerator, [MathSuperscriptElement](../../mathsuperscriptelement) denominator)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathematicalText](../mathematicaltext) | Numerator |
+| denominator | [MathSuperscriptElement](../../mathsuperscriptelement) | Denominator |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathematicalText](../../mathematicaltext) numerator, [MathFraction](../../mathfraction) denominator)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathematicalText](../mathematicaltext) | Numerator |
+| denominator | [MathFraction](../../mathfraction) | Denominator |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathematicalText](../../mathematicaltext) numerator, [MathematicalText](../../mathematicaltext) denominator)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathematicalText](../mathematicaltext) | Numerator |
+| denominator | [MathematicalText](../../mathematicaltext) | Denominator |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathematicalText](../../mathematicaltext) numerator, [MathBox](../../mathbox) denominator)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathematicalText](../mathematicaltext) | Numerator |
+| denominator | [MathBox](../../mathbox) | Denominator |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathematicalText](../../mathematicaltext) numerator, [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) denominator)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathematicalText](../mathematicaltext) | Numerator |
 | denominator | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | Denominator |
 
 ### Returns
@@ -13535,25 +13535,6 @@ url: /php-java/mathfractionfactory/createmathfraction/
 ---
 
 
-## createMathFraction([MathBox](../../mathbox) numerator, [MathGroupingCharacter](../../mathgroupingcharacter) denominator)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathBox](../mathbox) | Numerator |
-| denominator | [MathGroupingCharacter](../../mathgroupingcharacter) | Denominator |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
 ## createMathFraction([MathBox](../../mathbox) numerator, [MathBorderBox](../../mathborderbox) denominator)  method
 
  Creates a math fraction
@@ -13565,6 +13546,25 @@ url: /php-java/mathfractionfactory/createmathfraction/
 | --- | --- | --- |
 | numerator | [MathBox](../mathbox) | Numerator |
 | denominator | [MathBorderBox](../../mathborderbox) | Denominator |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathBox](../../mathbox) numerator, [MathGroupingCharacter](../../mathgroupingcharacter) denominator)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathBox](../mathbox) | Numerator |
+| denominator | [MathGroupingCharacter](../../mathgroupingcharacter) | Denominator |
 
 ### Returns
 [MathFraction](../../mathfraction)
@@ -13649,25 +13649,6 @@ url: /php-java/mathfractionfactory/createmathfraction/
 ---
 
 
-## createMathFraction([MathBox](../../mathbox) numerator, [MathematicalText](../../mathematicaltext) denominator)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathBox](../mathbox) | Numerator |
-| denominator | [MathematicalText](../../mathematicaltext) | Denominator |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
 ## createMathFraction([MathBox](../../mathbox) numerator, [MathFraction](../../mathfraction) denominator)  method
 
  Creates a math fraction
@@ -13679,6 +13660,25 @@ url: /php-java/mathfractionfactory/createmathfraction/
 | --- | --- | --- |
 | numerator | [MathBox](../mathbox) | Numerator |
 | denominator | [MathFraction](../../mathfraction) | Denominator |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathBox](../../mathbox) numerator, [MathematicalText](../../mathematicaltext) denominator)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathBox](../mathbox) | Numerator |
+| denominator | [MathematicalText](../../mathematicaltext) | Denominator |
 
 ### Returns
 [MathFraction](../../mathfraction)
@@ -13896,25 +13896,6 @@ url: /php-java/mathfractionfactory/createmathfraction/
 ---
 
 
-## createMathFraction([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) numerator, [MathGroupingCharacter](../../mathgroupingcharacter) denominator)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Numerator |
-| denominator | [MathGroupingCharacter](../../mathgroupingcharacter) | Denominator |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
 ## createMathFraction([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) numerator, [MathBorderBox](../../mathborderbox) denominator)  method
 
  Creates a math fraction
@@ -13926,6 +13907,25 @@ url: /php-java/mathfractionfactory/createmathfraction/
 | --- | --- | --- |
 | numerator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Numerator |
 | denominator | [MathBorderBox](../../mathborderbox) | Denominator |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) numerator, [MathGroupingCharacter](../../mathgroupingcharacter) denominator)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Numerator |
+| denominator | [MathGroupingCharacter](../../mathgroupingcharacter) | Denominator |
 
 ### Returns
 [MathFraction](../../mathfraction)
@@ -14010,25 +14010,6 @@ url: /php-java/mathfractionfactory/createmathfraction/
 ---
 
 
-## createMathFraction([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) numerator, [MathematicalText](../../mathematicaltext) denominator)  method
-
- Creates a math fraction
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Numerator |
-| denominator | [MathematicalText](../../mathematicaltext) | Denominator |
-
-### Returns
-[MathFraction](../../mathfraction)
-
-
----
-
-
 ## createMathFraction([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) numerator, [MathFraction](../../mathfraction) denominator)  method
 
  Creates a math fraction
@@ -14040,6 +14021,25 @@ url: /php-java/mathfractionfactory/createmathfraction/
 | --- | --- | --- |
 | numerator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Numerator |
 | denominator | [MathFraction](../../mathfraction) | Denominator |
+
+### Returns
+[MathFraction](../../mathfraction)
+
+
+---
+
+
+## createMathFraction([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) numerator, [MathematicalText](../../mathematicaltext) denominator)  method
+
+ Creates a math fraction
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Numerator |
+| denominator | [MathematicalText](../../mathematicaltext) | Denominator |
 
 ### Returns
 [MathFraction](../../mathfraction)

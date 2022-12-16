@@ -169,24 +169,6 @@ url: /php-java/mathaccentfactory/createmathaccent/
 ---
 
 
-## createMathAccent([MathGroupingCharacter](../../mathgroupingcharacter) element)  method
-
- Creates a math accent applying to a specified math element with the default accent character value
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathGroupingCharacter](../../mathgroupingcharacter) | math element to apply accent |
-
-### Returns
-[MathAccent](../../mathaccent)
-
-
----
-
-
 ## createMathAccent([MathBorderBox](../../mathborderbox) element)  method
 
  Creates a math accent applying to a specified math element with the default accent character value
@@ -197,6 +179,24 @@ url: /php-java/mathaccentfactory/createmathaccent/
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathBorderBox](../../mathborderbox) | math element to apply accent |
+
+### Returns
+[MathAccent](../../mathaccent)
+
+
+---
+
+
+## createMathAccent([MathGroupingCharacter](../../mathgroupingcharacter) element)  method
+
+ Creates a math accent applying to a specified math element with the default accent character value
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathGroupingCharacter](../../mathgroupingcharacter) | math element to apply accent |
 
 ### Returns
 [MathAccent](../../mathaccent)
@@ -277,24 +277,6 @@ url: /php-java/mathaccentfactory/createmathaccent/
 ---
 
 
-## createMathAccent([MathematicalText](../../mathematicaltext) element)  method
-
- Creates a math accent applying to a specified math element with the default accent character value
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathematicalText](../../mathematicaltext) | math element to apply accent |
-
-### Returns
-[MathAccent](../../mathaccent)
-
-
----
-
-
 ## createMathAccent([MathFraction](../../mathfraction) element)  method
 
  Creates a math accent applying to a specified math element with the default accent character value
@@ -305,6 +287,24 @@ url: /php-java/mathaccentfactory/createmathaccent/
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathFraction](../../mathfraction) | math element to apply accent |
+
+### Returns
+[MathAccent](../../mathaccent)
+
+
+---
+
+
+## createMathAccent([MathematicalText](../../mathematicaltext) element)  method
+
+ Creates a math accent applying to a specified math element with the default accent character value
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathematicalText](../../mathematicaltext) | math element to apply accent |
 
 ### Returns
 [MathAccent](../../mathaccent)
@@ -520,25 +520,6 @@ url: /php-java/mathaccentfactory/createmathaccent/
 ---
 
 
-## createMathAccent([MathGroupingCharacter](../../mathgroupingcharacter) element, char accentCharacter)  method
-
- Creates a math accent applying to a specified math element
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathGroupingCharacter](../mathgroupingcharacter) | math element to apply accent |
-| accentCharacter | char | accent character |
-
-### Returns
-[MathAccent](../../mathaccent)
-
-
----
-
-
 ## createMathAccent([MathBorderBox](../../mathborderbox) element, char accentCharacter)  method
 
  Creates a math accent applying to a specified math element
@@ -549,6 +530,25 @@ url: /php-java/mathaccentfactory/createmathaccent/
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathBorderBox](../mathborderbox) | math element to apply accent |
+| accentCharacter | char | accent character |
+
+### Returns
+[MathAccent](../../mathaccent)
+
+
+---
+
+
+## createMathAccent([MathGroupingCharacter](../../mathgroupingcharacter) element, char accentCharacter)  method
+
+ Creates a math accent applying to a specified math element
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathGroupingCharacter](../mathgroupingcharacter) | math element to apply accent |
 | accentCharacter | char | accent character |
 
 ### Returns
@@ -634,25 +634,6 @@ url: /php-java/mathaccentfactory/createmathaccent/
 ---
 
 
-## createMathAccent([MathematicalText](../../mathematicaltext) element, char accentCharacter)  method
-
- Creates a math accent applying to a specified math element
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathematicalText](../mathematicaltext) | math element to apply accent |
-| accentCharacter | char | accent character |
-
-### Returns
-[MathAccent](../../mathaccent)
-
-
----
-
-
 ## createMathAccent([MathFraction](../../mathfraction) element, char accentCharacter)  method
 
  Creates a math accent applying to a specified math element
@@ -663,6 +644,25 @@ url: /php-java/mathaccentfactory/createmathaccent/
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathFraction](../mathfraction) | math element to apply accent |
+| accentCharacter | char | accent character |
+
+### Returns
+[MathAccent](../../mathaccent)
+
+
+---
+
+
+## createMathAccent([MathematicalText](../../mathematicaltext) element, char accentCharacter)  method
+
+ Creates a math accent applying to a specified math element
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathematicalText](../mathematicaltext) | math element to apply accent |
 | accentCharacter | char | accent character |
 
 ### Returns

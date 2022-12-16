@@ -13,6 +13,24 @@ url: /php-java/presentation/getmasters/
  Read-only  IMasterSlideCollection.
  
 
+ The following examples shows how to adding Images to Master Slides of PowerPoint Presentation.
+ 
+```php
+  $pres = new Presentation();
+  try {
+    $slide = $pres->getSlides()->get_Item(0);
+    $masterSlide = $slide->getLayoutSlide()->getMasterSlide();
+    $image = $pres->getImages()->addImage(Files->readAllBytes(Paths->get("image.png")));
+    $masterSlide->getShapes()->addPictureFrame(ShapeType.Rectangle, 10, 10, 100, 100, $image);
+    $pres->save("pres.pptx", SaveFormat.Pptx);
+  } catch (JavaException $e) {
+  } finally {
+    if ($pres != null) {
+      $pres->dispose();
+    }
+  }
+```
+
 ### Returns
 [MasterSlideCollection](../../masterslidecollection)
 

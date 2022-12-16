@@ -12,6 +12,34 @@ url: /php-java/shapecollection/addconnector/
  Creates a new Connector, tunes it from default template and adds it to the end of the collection.
  
 
+ The following example shows how to add a connector (a bent connector) between two shapes (an ellipse and rectangle) in PowerPoint Presentation.
+ 
+```php
+  // Instantiates a presentation class that represents a PPTX file
+  $pres = new Presentation();
+  try {
+    // Accesses the shapes collection for a specific slide
+    $shapes = $pres->getSlides()->get_Item(0)->getShapes();
+    // Adds an Ellipse autoshape
+    $ellipse = $shapes->addAutoShape(ShapeType.Ellipse, 0, 100, 100, 100);
+    // Adds a Rectangle autoshape
+    $rectangle = $shapes->addAutoShape(ShapeType.Rectangle, 100, 300, 100, 100);
+    // Adds a connector shape to the slide shape collection
+    $connector = $shapes->addConnector(ShapeType.BentConnector2, 0, 0, 10, 10);
+    // Connects the shapes using the connector
+    $connector->setStartShapeConnectedTo($ellipse);
+    $connector->setEndShapeConnectedTo($rectangle);
+    // Calls reroute that sets the automatic shortest path between shapes
+    $connector->reroute();
+    // Saves the presentation
+    $pres->save("Shapes-connector.pptx", SaveFormat.Pptx);
+  } finally {
+    if ($pres != null) {
+      $pres->dispose();
+    }
+  }
+```
+
 ### Parameters
 
 | Name | Type | Description |

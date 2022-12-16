@@ -17,7 +17,7 @@ Example:
   $pres = new Presentation();
   try {
     $pres->getSlides()->addFromPdf("document.pdf");
-    $pres->save("fromPdfDocument.pptx", SaveFormat::Pptx);
+    $pres->save("fromPdfDocument.pptx", SaveFormat.Pptx);
   } finally {
     if ($pres != null) {
       $pres->dispose();
@@ -51,7 +51,7 @@ Example:
     {
       $pres->getSlides()->addFromPdf($stream);
     }
-    $pres->save("fromPdfDocument.pptx", SaveFormat::Pptx);
+    $pres->save("fromPdfDocument.pptx", SaveFormat.Pptx);
   } catch (JavaException $e) {
   } finally {
     if ($pres != null) {

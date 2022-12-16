@@ -178,25 +178,6 @@ url: /php-java/mathsubscriptelementfactory/createmathsubscriptelement/
 ---
 
 
-## createMathSubscriptElement([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) subScript)  method
-
- Creates IMathSubscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Base argument to apply indexe |
-| subScript | [MathGroupingCharacter](../../mathgroupingcharacter) | lower right index |
-
-### Returns
-[MathSubscriptElement](../../mathsubscriptelement)
-
-
----
-
-
 ## createMathSubscriptElement([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) baseArg, [MathBorderBox](../../mathborderbox) subScript)  method
 
  Creates IMathSubscriptElement
@@ -208,6 +189,25 @@ url: /php-java/mathsubscriptelementfactory/createmathsubscriptelement/
 | --- | --- | --- |
 | baseArg | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Base argument to apply indexe |
 | subScript | [MathBorderBox](../../mathborderbox) | lower right index |
+
+### Returns
+[MathSubscriptElement](../../mathsubscriptelement)
+
+
+---
+
+
+## createMathSubscriptElement([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) subScript)  method
+
+ Creates IMathSubscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Base argument to apply indexe |
+| subScript | [MathGroupingCharacter](../../mathgroupingcharacter) | lower right index |
 
 ### Returns
 [MathSubscriptElement](../../mathsubscriptelement)
@@ -292,25 +292,6 @@ url: /php-java/mathsubscriptelementfactory/createmathsubscriptelement/
 ---
 
 
-## createMathSubscriptElement([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) baseArg, [MathematicalText](../../mathematicaltext) subScript)  method
-
- Creates IMathSubscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Base argument to apply indexe |
-| subScript | [MathematicalText](../../mathematicaltext) | lower right index |
-
-### Returns
-[MathSubscriptElement](../../mathsubscriptelement)
-
-
----
-
-
 ## createMathSubscriptElement([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) baseArg, [MathFraction](../../mathfraction) subScript)  method
 
  Creates IMathSubscriptElement
@@ -322,6 +303,25 @@ url: /php-java/mathsubscriptelementfactory/createmathsubscriptelement/
 | --- | --- | --- |
 | baseArg | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Base argument to apply indexe |
 | subScript | [MathFraction](../../mathfraction) | lower right index |
+
+### Returns
+[MathSubscriptElement](../../mathsubscriptelement)
+
+
+---
+
+
+## createMathSubscriptElement([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) baseArg, [MathematicalText](../../mathematicaltext) subScript)  method
+
+ Creates IMathSubscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Base argument to apply indexe |
+| subScript | [MathematicalText](../../mathematicaltext) | lower right index |
 
 ### Returns
 [MathSubscriptElement](../../mathsubscriptelement)
@@ -539,25 +539,6 @@ url: /php-java/mathsubscriptelementfactory/createmathsubscriptelement/
 ---
 
 
-## createMathSubscriptElement([MathMatrix](../../mathmatrix) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) subScript)  method
-
- Creates IMathSubscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathMatrix](../mathmatrix) | Base argument to apply indexe |
-| subScript | [MathGroupingCharacter](../../mathgroupingcharacter) | lower right index |
-
-### Returns
-[MathSubscriptElement](../../mathsubscriptelement)
-
-
----
-
-
 ## createMathSubscriptElement([MathMatrix](../../mathmatrix) baseArg, [MathBorderBox](../../mathborderbox) subScript)  method
 
  Creates IMathSubscriptElement
@@ -569,6 +550,25 @@ url: /php-java/mathsubscriptelementfactory/createmathsubscriptelement/
 | --- | --- | --- |
 | baseArg | [MathMatrix](../mathmatrix) | Base argument to apply indexe |
 | subScript | [MathBorderBox](../../mathborderbox) | lower right index |
+
+### Returns
+[MathSubscriptElement](../../mathsubscriptelement)
+
+
+---
+
+
+## createMathSubscriptElement([MathMatrix](../../mathmatrix) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) subScript)  method
+
+ Creates IMathSubscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathMatrix](../mathmatrix) | Base argument to apply indexe |
+| subScript | [MathGroupingCharacter](../../mathgroupingcharacter) | lower right index |
 
 ### Returns
 [MathSubscriptElement](../../mathsubscriptelement)
@@ -653,25 +653,6 @@ url: /php-java/mathsubscriptelementfactory/createmathsubscriptelement/
 ---
 
 
-## createMathSubscriptElement([MathMatrix](../../mathmatrix) baseArg, [MathematicalText](../../mathematicaltext) subScript)  method
-
- Creates IMathSubscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathMatrix](../mathmatrix) | Base argument to apply indexe |
-| subScript | [MathematicalText](../../mathematicaltext) | lower right index |
-
-### Returns
-[MathSubscriptElement](../../mathsubscriptelement)
-
-
----
-
-
 ## createMathSubscriptElement([MathMatrix](../../mathmatrix) baseArg, [MathFraction](../../mathfraction) subScript)  method
 
  Creates IMathSubscriptElement
@@ -683,6 +664,25 @@ url: /php-java/mathsubscriptelementfactory/createmathsubscriptelement/
 | --- | --- | --- |
 | baseArg | [MathMatrix](../mathmatrix) | Base argument to apply indexe |
 | subScript | [MathFraction](../../mathfraction) | lower right index |
+
+### Returns
+[MathSubscriptElement](../../mathsubscriptelement)
+
+
+---
+
+
+## createMathSubscriptElement([MathMatrix](../../mathmatrix) baseArg, [MathematicalText](../../mathematicaltext) subScript)  method
+
+ Creates IMathSubscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathMatrix](../mathmatrix) | Base argument to apply indexe |
+| subScript | [MathematicalText](../../mathematicaltext) | lower right index |
 
 ### Returns
 [MathSubscriptElement](../../mathsubscriptelement)
@@ -900,25 +900,6 @@ url: /php-java/mathsubscriptelementfactory/createmathsubscriptelement/
 ---
 
 
-## createMathSubscriptElement([MathLimit](../../mathlimit) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) subScript)  method
-
- Creates IMathSubscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathLimit](../mathlimit) | Base argument to apply indexe |
-| subScript | [MathGroupingCharacter](../../mathgroupingcharacter) | lower right index |
-
-### Returns
-[MathSubscriptElement](../../mathsubscriptelement)
-
-
----
-
-
 ## createMathSubscriptElement([MathLimit](../../mathlimit) baseArg, [MathBorderBox](../../mathborderbox) subScript)  method
 
  Creates IMathSubscriptElement
@@ -930,6 +911,25 @@ url: /php-java/mathsubscriptelementfactory/createmathsubscriptelement/
 | --- | --- | --- |
 | baseArg | [MathLimit](../mathlimit) | Base argument to apply indexe |
 | subScript | [MathBorderBox](../../mathborderbox) | lower right index |
+
+### Returns
+[MathSubscriptElement](../../mathsubscriptelement)
+
+
+---
+
+
+## createMathSubscriptElement([MathLimit](../../mathlimit) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) subScript)  method
+
+ Creates IMathSubscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathLimit](../mathlimit) | Base argument to apply indexe |
+| subScript | [MathGroupingCharacter](../../mathgroupingcharacter) | lower right index |
 
 ### Returns
 [MathSubscriptElement](../../mathsubscriptelement)
@@ -1014,25 +1014,6 @@ url: /php-java/mathsubscriptelementfactory/createmathsubscriptelement/
 ---
 
 
-## createMathSubscriptElement([MathLimit](../../mathlimit) baseArg, [MathematicalText](../../mathematicaltext) subScript)  method
-
- Creates IMathSubscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathLimit](../mathlimit) | Base argument to apply indexe |
-| subScript | [MathematicalText](../../mathematicaltext) | lower right index |
-
-### Returns
-[MathSubscriptElement](../../mathsubscriptelement)
-
-
----
-
-
 ## createMathSubscriptElement([MathLimit](../../mathlimit) baseArg, [MathFraction](../../mathfraction) subScript)  method
 
  Creates IMathSubscriptElement
@@ -1044,6 +1025,25 @@ url: /php-java/mathsubscriptelementfactory/createmathsubscriptelement/
 | --- | --- | --- |
 | baseArg | [MathLimit](../mathlimit) | Base argument to apply indexe |
 | subScript | [MathFraction](../../mathfraction) | lower right index |
+
+### Returns
+[MathSubscriptElement](../../mathsubscriptelement)
+
+
+---
+
+
+## createMathSubscriptElement([MathLimit](../../mathlimit) baseArg, [MathematicalText](../../mathematicaltext) subScript)  method
+
+ Creates IMathSubscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathLimit](../mathlimit) | Base argument to apply indexe |
+| subScript | [MathematicalText](../../mathematicaltext) | lower right index |
 
 ### Returns
 [MathSubscriptElement](../../mathsubscriptelement)
@@ -1261,25 +1261,6 @@ url: /php-java/mathsubscriptelementfactory/createmathsubscriptelement/
 ---
 
 
-## createMathSubscriptElement([MathBlock](../../mathblock) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) subScript)  method
-
- Creates IMathSubscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathBlock](../mathblock) | Base argument to apply indexe |
-| subScript | [MathGroupingCharacter](../../mathgroupingcharacter) | lower right index |
-
-### Returns
-[MathSubscriptElement](../../mathsubscriptelement)
-
-
----
-
-
 ## createMathSubscriptElement([MathBlock](../../mathblock) baseArg, [MathBorderBox](../../mathborderbox) subScript)  method
 
  Creates IMathSubscriptElement
@@ -1291,6 +1272,25 @@ url: /php-java/mathsubscriptelementfactory/createmathsubscriptelement/
 | --- | --- | --- |
 | baseArg | [MathBlock](../mathblock) | Base argument to apply indexe |
 | subScript | [MathBorderBox](../../mathborderbox) | lower right index |
+
+### Returns
+[MathSubscriptElement](../../mathsubscriptelement)
+
+
+---
+
+
+## createMathSubscriptElement([MathBlock](../../mathblock) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) subScript)  method
+
+ Creates IMathSubscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathBlock](../mathblock) | Base argument to apply indexe |
+| subScript | [MathGroupingCharacter](../../mathgroupingcharacter) | lower right index |
 
 ### Returns
 [MathSubscriptElement](../../mathsubscriptelement)
@@ -1375,25 +1375,6 @@ url: /php-java/mathsubscriptelementfactory/createmathsubscriptelement/
 ---
 
 
-## createMathSubscriptElement([MathBlock](../../mathblock) baseArg, [MathematicalText](../../mathematicaltext) subScript)  method
-
- Creates IMathSubscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathBlock](../mathblock) | Base argument to apply indexe |
-| subScript | [MathematicalText](../../mathematicaltext) | lower right index |
-
-### Returns
-[MathSubscriptElement](../../mathsubscriptelement)
-
-
----
-
-
 ## createMathSubscriptElement([MathBlock](../../mathblock) baseArg, [MathFraction](../../mathfraction) subScript)  method
 
  Creates IMathSubscriptElement
@@ -1405,6 +1386,25 @@ url: /php-java/mathsubscriptelementfactory/createmathsubscriptelement/
 | --- | --- | --- |
 | baseArg | [MathBlock](../mathblock) | Base argument to apply indexe |
 | subScript | [MathFraction](../../mathfraction) | lower right index |
+
+### Returns
+[MathSubscriptElement](../../mathsubscriptelement)
+
+
+---
+
+
+## createMathSubscriptElement([MathBlock](../../mathblock) baseArg, [MathematicalText](../../mathematicaltext) subScript)  method
+
+ Creates IMathSubscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathBlock](../mathblock) | Base argument to apply indexe |
+| subScript | [MathematicalText](../../mathematicaltext) | lower right index |
 
 ### Returns
 [MathSubscriptElement](../../mathsubscriptelement)
@@ -1622,25 +1622,6 @@ url: /php-java/mathsubscriptelementfactory/createmathsubscriptelement/
 ---
 
 
-## createMathSubscriptElement([MathRadical](../../mathradical) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) subScript)  method
-
- Creates IMathSubscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathRadical](../mathradical) | Base argument to apply indexe |
-| subScript | [MathGroupingCharacter](../../mathgroupingcharacter) | lower right index |
-
-### Returns
-[MathSubscriptElement](../../mathsubscriptelement)
-
-
----
-
-
 ## createMathSubscriptElement([MathRadical](../../mathradical) baseArg, [MathBorderBox](../../mathborderbox) subScript)  method
 
  Creates IMathSubscriptElement
@@ -1652,6 +1633,25 @@ url: /php-java/mathsubscriptelementfactory/createmathsubscriptelement/
 | --- | --- | --- |
 | baseArg | [MathRadical](../mathradical) | Base argument to apply indexe |
 | subScript | [MathBorderBox](../../mathborderbox) | lower right index |
+
+### Returns
+[MathSubscriptElement](../../mathsubscriptelement)
+
+
+---
+
+
+## createMathSubscriptElement([MathRadical](../../mathradical) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) subScript)  method
+
+ Creates IMathSubscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathRadical](../mathradical) | Base argument to apply indexe |
+| subScript | [MathGroupingCharacter](../../mathgroupingcharacter) | lower right index |
 
 ### Returns
 [MathSubscriptElement](../../mathsubscriptelement)
@@ -1736,25 +1736,6 @@ url: /php-java/mathsubscriptelementfactory/createmathsubscriptelement/
 ---
 
 
-## createMathSubscriptElement([MathRadical](../../mathradical) baseArg, [MathematicalText](../../mathematicaltext) subScript)  method
-
- Creates IMathSubscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathRadical](../mathradical) | Base argument to apply indexe |
-| subScript | [MathematicalText](../../mathematicaltext) | lower right index |
-
-### Returns
-[MathSubscriptElement](../../mathsubscriptelement)
-
-
----
-
-
 ## createMathSubscriptElement([MathRadical](../../mathradical) baseArg, [MathFraction](../../mathfraction) subScript)  method
 
  Creates IMathSubscriptElement
@@ -1766,6 +1747,25 @@ url: /php-java/mathsubscriptelementfactory/createmathsubscriptelement/
 | --- | --- | --- |
 | baseArg | [MathRadical](../mathradical) | Base argument to apply indexe |
 | subScript | [MathFraction](../../mathfraction) | lower right index |
+
+### Returns
+[MathSubscriptElement](../../mathsubscriptelement)
+
+
+---
+
+
+## createMathSubscriptElement([MathRadical](../../mathradical) baseArg, [MathematicalText](../../mathematicaltext) subScript)  method
+
+ Creates IMathSubscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathRadical](../mathradical) | Base argument to apply indexe |
+| subScript | [MathematicalText](../../mathematicaltext) | lower right index |
 
 ### Returns
 [MathSubscriptElement](../../mathsubscriptelement)
@@ -1983,25 +1983,6 @@ url: /php-java/mathsubscriptelementfactory/createmathsubscriptelement/
 ---
 
 
-## createMathSubscriptElement([MathArray](../../matharray) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) subScript)  method
-
- Creates IMathSubscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathArray](../matharray) | Base argument to apply indexe |
-| subScript | [MathGroupingCharacter](../../mathgroupingcharacter) | lower right index |
-
-### Returns
-[MathSubscriptElement](../../mathsubscriptelement)
-
-
----
-
-
 ## createMathSubscriptElement([MathArray](../../matharray) baseArg, [MathBorderBox](../../mathborderbox) subScript)  method
 
  Creates IMathSubscriptElement
@@ -2013,6 +1994,25 @@ url: /php-java/mathsubscriptelementfactory/createmathsubscriptelement/
 | --- | --- | --- |
 | baseArg | [MathArray](../matharray) | Base argument to apply indexe |
 | subScript | [MathBorderBox](../../mathborderbox) | lower right index |
+
+### Returns
+[MathSubscriptElement](../../mathsubscriptelement)
+
+
+---
+
+
+## createMathSubscriptElement([MathArray](../../matharray) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) subScript)  method
+
+ Creates IMathSubscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathArray](../matharray) | Base argument to apply indexe |
+| subScript | [MathGroupingCharacter](../../mathgroupingcharacter) | lower right index |
 
 ### Returns
 [MathSubscriptElement](../../mathsubscriptelement)
@@ -2097,25 +2097,6 @@ url: /php-java/mathsubscriptelementfactory/createmathsubscriptelement/
 ---
 
 
-## createMathSubscriptElement([MathArray](../../matharray) baseArg, [MathematicalText](../../mathematicaltext) subScript)  method
-
- Creates IMathSubscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathArray](../matharray) | Base argument to apply indexe |
-| subScript | [MathematicalText](../../mathematicaltext) | lower right index |
-
-### Returns
-[MathSubscriptElement](../../mathsubscriptelement)
-
-
----
-
-
 ## createMathSubscriptElement([MathArray](../../matharray) baseArg, [MathFraction](../../mathfraction) subScript)  method
 
  Creates IMathSubscriptElement
@@ -2127,6 +2108,25 @@ url: /php-java/mathsubscriptelementfactory/createmathsubscriptelement/
 | --- | --- | --- |
 | baseArg | [MathArray](../matharray) | Base argument to apply indexe |
 | subScript | [MathFraction](../../mathfraction) | lower right index |
+
+### Returns
+[MathSubscriptElement](../../mathsubscriptelement)
+
+
+---
+
+
+## createMathSubscriptElement([MathArray](../../matharray) baseArg, [MathematicalText](../../mathematicaltext) subScript)  method
+
+ Creates IMathSubscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathArray](../matharray) | Base argument to apply indexe |
+| subScript | [MathematicalText](../../mathematicaltext) | lower right index |
 
 ### Returns
 [MathSubscriptElement](../../mathsubscriptelement)
@@ -2344,25 +2344,6 @@ url: /php-java/mathsubscriptelementfactory/createmathsubscriptelement/
 ---
 
 
-## createMathSubscriptElement([MathDelimiter](../../mathdelimiter) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) subScript)  method
-
- Creates IMathSubscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathDelimiter](../mathdelimiter) | Base argument to apply indexe |
-| subScript | [MathGroupingCharacter](../../mathgroupingcharacter) | lower right index |
-
-### Returns
-[MathSubscriptElement](../../mathsubscriptelement)
-
-
----
-
-
 ## createMathSubscriptElement([MathDelimiter](../../mathdelimiter) baseArg, [MathBorderBox](../../mathborderbox) subScript)  method
 
  Creates IMathSubscriptElement
@@ -2374,6 +2355,25 @@ url: /php-java/mathsubscriptelementfactory/createmathsubscriptelement/
 | --- | --- | --- |
 | baseArg | [MathDelimiter](../mathdelimiter) | Base argument to apply indexe |
 | subScript | [MathBorderBox](../../mathborderbox) | lower right index |
+
+### Returns
+[MathSubscriptElement](../../mathsubscriptelement)
+
+
+---
+
+
+## createMathSubscriptElement([MathDelimiter](../../mathdelimiter) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) subScript)  method
+
+ Creates IMathSubscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathDelimiter](../mathdelimiter) | Base argument to apply indexe |
+| subScript | [MathGroupingCharacter](../../mathgroupingcharacter) | lower right index |
 
 ### Returns
 [MathSubscriptElement](../../mathsubscriptelement)
@@ -2458,25 +2458,6 @@ url: /php-java/mathsubscriptelementfactory/createmathsubscriptelement/
 ---
 
 
-## createMathSubscriptElement([MathDelimiter](../../mathdelimiter) baseArg, [MathematicalText](../../mathematicaltext) subScript)  method
-
- Creates IMathSubscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathDelimiter](../mathdelimiter) | Base argument to apply indexe |
-| subScript | [MathematicalText](../../mathematicaltext) | lower right index |
-
-### Returns
-[MathSubscriptElement](../../mathsubscriptelement)
-
-
----
-
-
 ## createMathSubscriptElement([MathDelimiter](../../mathdelimiter) baseArg, [MathFraction](../../mathfraction) subScript)  method
 
  Creates IMathSubscriptElement
@@ -2488,6 +2469,25 @@ url: /php-java/mathsubscriptelementfactory/createmathsubscriptelement/
 | --- | --- | --- |
 | baseArg | [MathDelimiter](../mathdelimiter) | Base argument to apply indexe |
 | subScript | [MathFraction](../../mathfraction) | lower right index |
+
+### Returns
+[MathSubscriptElement](../../mathsubscriptelement)
+
+
+---
+
+
+## createMathSubscriptElement([MathDelimiter](../../mathdelimiter) baseArg, [MathematicalText](../../mathematicaltext) subScript)  method
+
+ Creates IMathSubscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathDelimiter](../mathdelimiter) | Base argument to apply indexe |
+| subScript | [MathematicalText](../../mathematicaltext) | lower right index |
 
 ### Returns
 [MathSubscriptElement](../../mathsubscriptelement)
@@ -2705,25 +2705,6 @@ url: /php-java/mathsubscriptelementfactory/createmathsubscriptelement/
 ---
 
 
-## createMathSubscriptElement([MathNaryOperator](../../mathnaryoperator) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) subScript)  method
-
- Creates IMathSubscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathNaryOperator](../mathnaryoperator) | Base argument to apply indexe |
-| subScript | [MathGroupingCharacter](../../mathgroupingcharacter) | lower right index |
-
-### Returns
-[MathSubscriptElement](../../mathsubscriptelement)
-
-
----
-
-
 ## createMathSubscriptElement([MathNaryOperator](../../mathnaryoperator) baseArg, [MathBorderBox](../../mathborderbox) subScript)  method
 
  Creates IMathSubscriptElement
@@ -2735,6 +2716,25 @@ url: /php-java/mathsubscriptelementfactory/createmathsubscriptelement/
 | --- | --- | --- |
 | baseArg | [MathNaryOperator](../mathnaryoperator) | Base argument to apply indexe |
 | subScript | [MathBorderBox](../../mathborderbox) | lower right index |
+
+### Returns
+[MathSubscriptElement](../../mathsubscriptelement)
+
+
+---
+
+
+## createMathSubscriptElement([MathNaryOperator](../../mathnaryoperator) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) subScript)  method
+
+ Creates IMathSubscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathNaryOperator](../mathnaryoperator) | Base argument to apply indexe |
+| subScript | [MathGroupingCharacter](../../mathgroupingcharacter) | lower right index |
 
 ### Returns
 [MathSubscriptElement](../../mathsubscriptelement)
@@ -2819,25 +2819,6 @@ url: /php-java/mathsubscriptelementfactory/createmathsubscriptelement/
 ---
 
 
-## createMathSubscriptElement([MathNaryOperator](../../mathnaryoperator) baseArg, [MathematicalText](../../mathematicaltext) subScript)  method
-
- Creates IMathSubscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathNaryOperator](../mathnaryoperator) | Base argument to apply indexe |
-| subScript | [MathematicalText](../../mathematicaltext) | lower right index |
-
-### Returns
-[MathSubscriptElement](../../mathsubscriptelement)
-
-
----
-
-
 ## createMathSubscriptElement([MathNaryOperator](../../mathnaryoperator) baseArg, [MathFraction](../../mathfraction) subScript)  method
 
  Creates IMathSubscriptElement
@@ -2849,6 +2830,25 @@ url: /php-java/mathsubscriptelementfactory/createmathsubscriptelement/
 | --- | --- | --- |
 | baseArg | [MathNaryOperator](../mathnaryoperator) | Base argument to apply indexe |
 | subScript | [MathFraction](../../mathfraction) | lower right index |
+
+### Returns
+[MathSubscriptElement](../../mathsubscriptelement)
+
+
+---
+
+
+## createMathSubscriptElement([MathNaryOperator](../../mathnaryoperator) baseArg, [MathematicalText](../../mathematicaltext) subScript)  method
+
+ Creates IMathSubscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathNaryOperator](../mathnaryoperator) | Base argument to apply indexe |
+| subScript | [MathematicalText](../../mathematicaltext) | lower right index |
 
 ### Returns
 [MathSubscriptElement](../../mathsubscriptelement)
@@ -3066,25 +3066,6 @@ url: /php-java/mathsubscriptelementfactory/createmathsubscriptelement/
 ---
 
 
-## createMathSubscriptElement([MathAccent](../../mathaccent) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) subScript)  method
-
- Creates IMathSubscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathAccent](../mathaccent) | Base argument to apply indexe |
-| subScript | [MathGroupingCharacter](../../mathgroupingcharacter) | lower right index |
-
-### Returns
-[MathSubscriptElement](../../mathsubscriptelement)
-
-
----
-
-
 ## createMathSubscriptElement([MathAccent](../../mathaccent) baseArg, [MathBorderBox](../../mathborderbox) subScript)  method
 
  Creates IMathSubscriptElement
@@ -3096,6 +3077,25 @@ url: /php-java/mathsubscriptelementfactory/createmathsubscriptelement/
 | --- | --- | --- |
 | baseArg | [MathAccent](../mathaccent) | Base argument to apply indexe |
 | subScript | [MathBorderBox](../../mathborderbox) | lower right index |
+
+### Returns
+[MathSubscriptElement](../../mathsubscriptelement)
+
+
+---
+
+
+## createMathSubscriptElement([MathAccent](../../mathaccent) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) subScript)  method
+
+ Creates IMathSubscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathAccent](../mathaccent) | Base argument to apply indexe |
+| subScript | [MathGroupingCharacter](../../mathgroupingcharacter) | lower right index |
 
 ### Returns
 [MathSubscriptElement](../../mathsubscriptelement)
@@ -3180,25 +3180,6 @@ url: /php-java/mathsubscriptelementfactory/createmathsubscriptelement/
 ---
 
 
-## createMathSubscriptElement([MathAccent](../../mathaccent) baseArg, [MathematicalText](../../mathematicaltext) subScript)  method
-
- Creates IMathSubscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathAccent](../mathaccent) | Base argument to apply indexe |
-| subScript | [MathematicalText](../../mathematicaltext) | lower right index |
-
-### Returns
-[MathSubscriptElement](../../mathsubscriptelement)
-
-
----
-
-
 ## createMathSubscriptElement([MathAccent](../../mathaccent) baseArg, [MathFraction](../../mathfraction) subScript)  method
 
  Creates IMathSubscriptElement
@@ -3210,6 +3191,25 @@ url: /php-java/mathsubscriptelementfactory/createmathsubscriptelement/
 | --- | --- | --- |
 | baseArg | [MathAccent](../mathaccent) | Base argument to apply indexe |
 | subScript | [MathFraction](../../mathfraction) | lower right index |
+
+### Returns
+[MathSubscriptElement](../../mathsubscriptelement)
+
+
+---
+
+
+## createMathSubscriptElement([MathAccent](../../mathaccent) baseArg, [MathematicalText](../../mathematicaltext) subScript)  method
+
+ Creates IMathSubscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathAccent](../mathaccent) | Base argument to apply indexe |
+| subScript | [MathematicalText](../../mathematicaltext) | lower right index |
 
 ### Returns
 [MathSubscriptElement](../../mathsubscriptelement)
@@ -3247,367 +3247,6 @@ url: /php-java/mathsubscriptelementfactory/createmathsubscriptelement/
 | Name | Type | Description |
 | --- | --- | --- |
 | baseArg | [MathAccent](../mathaccent) | Base argument to apply indexe |
-| subScript | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | lower right index |
-
-### Returns
-[MathSubscriptElement](../../mathsubscriptelement)
-
-
----
-
-
-## createMathSubscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) subScript)  method
-
- Creates IMathSubscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply indexe |
-| subScript | [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) | lower right index |
-
-### Returns
-[MathSubscriptElement](../../mathsubscriptelement)
-
-
----
-
-
-## createMathSubscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathMatrix](../../mathmatrix) subScript)  method
-
- Creates IMathSubscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply indexe |
-| subScript | [MathMatrix](../../mathmatrix) | lower right index |
-
-### Returns
-[MathSubscriptElement](../../mathsubscriptelement)
-
-
----
-
-
-## createMathSubscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathLimit](../../mathlimit) subScript)  method
-
- Creates IMathSubscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply indexe |
-| subScript | [MathLimit](../../mathlimit) | lower right index |
-
-### Returns
-[MathSubscriptElement](../../mathsubscriptelement)
-
-
----
-
-
-## createMathSubscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathBlock](../../mathblock) subScript)  method
-
- Creates IMathSubscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply indexe |
-| subScript | [MathBlock](../../mathblock) | lower right index |
-
-### Returns
-[MathSubscriptElement](../../mathsubscriptelement)
-
-
----
-
-
-## createMathSubscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathRadical](../../mathradical) subScript)  method
-
- Creates IMathSubscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply indexe |
-| subScript | [MathRadical](../../mathradical) | lower right index |
-
-### Returns
-[MathSubscriptElement](../../mathsubscriptelement)
-
-
----
-
-
-## createMathSubscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathArray](../../matharray) subScript)  method
-
- Creates IMathSubscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply indexe |
-| subScript | [MathArray](../../matharray) | lower right index |
-
-### Returns
-[MathSubscriptElement](../../mathsubscriptelement)
-
-
----
-
-
-## createMathSubscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathDelimiter](../../mathdelimiter) subScript)  method
-
- Creates IMathSubscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply indexe |
-| subScript | [MathDelimiter](../../mathdelimiter) | lower right index |
-
-### Returns
-[MathSubscriptElement](../../mathsubscriptelement)
-
-
----
-
-
-## createMathSubscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathNaryOperator](../../mathnaryoperator) subScript)  method
-
- Creates IMathSubscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply indexe |
-| subScript | [MathNaryOperator](../../mathnaryoperator) | lower right index |
-
-### Returns
-[MathSubscriptElement](../../mathsubscriptelement)
-
-
----
-
-
-## createMathSubscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathAccent](../../mathaccent) subScript)  method
-
- Creates IMathSubscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply indexe |
-| subScript | [MathAccent](../../mathaccent) | lower right index |
-
-### Returns
-[MathSubscriptElement](../../mathsubscriptelement)
-
-
----
-
-
-## createMathSubscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) subScript)  method
-
- Creates IMathSubscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply indexe |
-| subScript | [MathGroupingCharacter](../../mathgroupingcharacter) | lower right index |
-
-### Returns
-[MathSubscriptElement](../../mathsubscriptelement)
-
-
----
-
-
-## createMathSubscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathBorderBox](../../mathborderbox) subScript)  method
-
- Creates IMathSubscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply indexe |
-| subScript | [MathBorderBox](../../mathborderbox) | lower right index |
-
-### Returns
-[MathSubscriptElement](../../mathsubscriptelement)
-
-
----
-
-
-## createMathSubscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathBar](../../mathbar) subScript)  method
-
- Creates IMathSubscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply indexe |
-| subScript | [MathBar](../../mathbar) | lower right index |
-
-### Returns
-[MathSubscriptElement](../../mathsubscriptelement)
-
-
----
-
-
-## createMathSubscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathSubscriptElement](../../mathsubscriptelement) subScript)  method
-
- Creates IMathSubscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply indexe |
-| subScript | [MathSubscriptElement](../../mathsubscriptelement) | lower right index |
-
-### Returns
-[MathSubscriptElement](../../mathsubscriptelement)
-
-
----
-
-
-## createMathSubscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathFunction](../../mathfunction) subScript)  method
-
- Creates IMathSubscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply indexe |
-| subScript | [MathFunction](../../mathfunction) | lower right index |
-
-### Returns
-[MathSubscriptElement](../../mathsubscriptelement)
-
-
----
-
-
-## createMathSubscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathSuperscriptElement](../../mathsuperscriptelement) subScript)  method
-
- Creates IMathSubscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply indexe |
-| subScript | [MathSuperscriptElement](../../mathsuperscriptelement) | lower right index |
-
-### Returns
-[MathSubscriptElement](../../mathsubscriptelement)
-
-
----
-
-
-## createMathSubscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathematicalText](../../mathematicaltext) subScript)  method
-
- Creates IMathSubscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply indexe |
-| subScript | [MathematicalText](../../mathematicaltext) | lower right index |
-
-### Returns
-[MathSubscriptElement](../../mathsubscriptelement)
-
-
----
-
-
-## createMathSubscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathFraction](../../mathfraction) subScript)  method
-
- Creates IMathSubscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply indexe |
-| subScript | [MathFraction](../../mathfraction) | lower right index |
-
-### Returns
-[MathSubscriptElement](../../mathsubscriptelement)
-
-
----
-
-
-## createMathSubscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathBox](../../mathbox) subScript)  method
-
- Creates IMathSubscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply indexe |
-| subScript | [MathBox](../../mathbox) | lower right index |
-
-### Returns
-[MathSubscriptElement](../../mathsubscriptelement)
-
-
----
-
-
-## createMathSubscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) subScript)  method
-
- Creates IMathSubscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply indexe |
 | subScript | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | lower right index |
 
 ### Returns
@@ -3788,25 +3427,6 @@ url: /php-java/mathsubscriptelementfactory/createmathsubscriptelement/
 ---
 
 
-## createMathSubscriptElement([MathBorderBox](../../mathborderbox) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) subScript)  method
-
- Creates IMathSubscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathBorderBox](../mathborderbox) | Base argument to apply indexe |
-| subScript | [MathGroupingCharacter](../../mathgroupingcharacter) | lower right index |
-
-### Returns
-[MathSubscriptElement](../../mathsubscriptelement)
-
-
----
-
-
 ## createMathSubscriptElement([MathBorderBox](../../mathborderbox) baseArg, [MathBorderBox](../../mathborderbox) subScript)  method
 
  Creates IMathSubscriptElement
@@ -3818,6 +3438,25 @@ url: /php-java/mathsubscriptelementfactory/createmathsubscriptelement/
 | --- | --- | --- |
 | baseArg | [MathBorderBox](../mathborderbox) | Base argument to apply indexe |
 | subScript | [MathBorderBox](../../mathborderbox) | lower right index |
+
+### Returns
+[MathSubscriptElement](../../mathsubscriptelement)
+
+
+---
+
+
+## createMathSubscriptElement([MathBorderBox](../../mathborderbox) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) subScript)  method
+
+ Creates IMathSubscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathBorderBox](../mathborderbox) | Base argument to apply indexe |
+| subScript | [MathGroupingCharacter](../../mathgroupingcharacter) | lower right index |
 
 ### Returns
 [MathSubscriptElement](../../mathsubscriptelement)
@@ -3902,25 +3541,6 @@ url: /php-java/mathsubscriptelementfactory/createmathsubscriptelement/
 ---
 
 
-## createMathSubscriptElement([MathBorderBox](../../mathborderbox) baseArg, [MathematicalText](../../mathematicaltext) subScript)  method
-
- Creates IMathSubscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathBorderBox](../mathborderbox) | Base argument to apply indexe |
-| subScript | [MathematicalText](../../mathematicaltext) | lower right index |
-
-### Returns
-[MathSubscriptElement](../../mathsubscriptelement)
-
-
----
-
-
 ## createMathSubscriptElement([MathBorderBox](../../mathborderbox) baseArg, [MathFraction](../../mathfraction) subScript)  method
 
  Creates IMathSubscriptElement
@@ -3932,6 +3552,25 @@ url: /php-java/mathsubscriptelementfactory/createmathsubscriptelement/
 | --- | --- | --- |
 | baseArg | [MathBorderBox](../mathborderbox) | Base argument to apply indexe |
 | subScript | [MathFraction](../../mathfraction) | lower right index |
+
+### Returns
+[MathSubscriptElement](../../mathsubscriptelement)
+
+
+---
+
+
+## createMathSubscriptElement([MathBorderBox](../../mathborderbox) baseArg, [MathematicalText](../../mathematicaltext) subScript)  method
+
+ Creates IMathSubscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathBorderBox](../mathborderbox) | Base argument to apply indexe |
+| subScript | [MathematicalText](../../mathematicaltext) | lower right index |
 
 ### Returns
 [MathSubscriptElement](../../mathsubscriptelement)
@@ -3969,6 +3608,367 @@ url: /php-java/mathsubscriptelementfactory/createmathsubscriptelement/
 | Name | Type | Description |
 | --- | --- | --- |
 | baseArg | [MathBorderBox](../mathborderbox) | Base argument to apply indexe |
+| subScript | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | lower right index |
+
+### Returns
+[MathSubscriptElement](../../mathsubscriptelement)
+
+
+---
+
+
+## createMathSubscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) subScript)  method
+
+ Creates IMathSubscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply indexe |
+| subScript | [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) | lower right index |
+
+### Returns
+[MathSubscriptElement](../../mathsubscriptelement)
+
+
+---
+
+
+## createMathSubscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathMatrix](../../mathmatrix) subScript)  method
+
+ Creates IMathSubscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply indexe |
+| subScript | [MathMatrix](../../mathmatrix) | lower right index |
+
+### Returns
+[MathSubscriptElement](../../mathsubscriptelement)
+
+
+---
+
+
+## createMathSubscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathLimit](../../mathlimit) subScript)  method
+
+ Creates IMathSubscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply indexe |
+| subScript | [MathLimit](../../mathlimit) | lower right index |
+
+### Returns
+[MathSubscriptElement](../../mathsubscriptelement)
+
+
+---
+
+
+## createMathSubscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathBlock](../../mathblock) subScript)  method
+
+ Creates IMathSubscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply indexe |
+| subScript | [MathBlock](../../mathblock) | lower right index |
+
+### Returns
+[MathSubscriptElement](../../mathsubscriptelement)
+
+
+---
+
+
+## createMathSubscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathRadical](../../mathradical) subScript)  method
+
+ Creates IMathSubscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply indexe |
+| subScript | [MathRadical](../../mathradical) | lower right index |
+
+### Returns
+[MathSubscriptElement](../../mathsubscriptelement)
+
+
+---
+
+
+## createMathSubscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathArray](../../matharray) subScript)  method
+
+ Creates IMathSubscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply indexe |
+| subScript | [MathArray](../../matharray) | lower right index |
+
+### Returns
+[MathSubscriptElement](../../mathsubscriptelement)
+
+
+---
+
+
+## createMathSubscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathDelimiter](../../mathdelimiter) subScript)  method
+
+ Creates IMathSubscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply indexe |
+| subScript | [MathDelimiter](../../mathdelimiter) | lower right index |
+
+### Returns
+[MathSubscriptElement](../../mathsubscriptelement)
+
+
+---
+
+
+## createMathSubscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathNaryOperator](../../mathnaryoperator) subScript)  method
+
+ Creates IMathSubscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply indexe |
+| subScript | [MathNaryOperator](../../mathnaryoperator) | lower right index |
+
+### Returns
+[MathSubscriptElement](../../mathsubscriptelement)
+
+
+---
+
+
+## createMathSubscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathAccent](../../mathaccent) subScript)  method
+
+ Creates IMathSubscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply indexe |
+| subScript | [MathAccent](../../mathaccent) | lower right index |
+
+### Returns
+[MathSubscriptElement](../../mathsubscriptelement)
+
+
+---
+
+
+## createMathSubscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathBorderBox](../../mathborderbox) subScript)  method
+
+ Creates IMathSubscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply indexe |
+| subScript | [MathBorderBox](../../mathborderbox) | lower right index |
+
+### Returns
+[MathSubscriptElement](../../mathsubscriptelement)
+
+
+---
+
+
+## createMathSubscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) subScript)  method
+
+ Creates IMathSubscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply indexe |
+| subScript | [MathGroupingCharacter](../../mathgroupingcharacter) | lower right index |
+
+### Returns
+[MathSubscriptElement](../../mathsubscriptelement)
+
+
+---
+
+
+## createMathSubscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathBar](../../mathbar) subScript)  method
+
+ Creates IMathSubscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply indexe |
+| subScript | [MathBar](../../mathbar) | lower right index |
+
+### Returns
+[MathSubscriptElement](../../mathsubscriptelement)
+
+
+---
+
+
+## createMathSubscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathSubscriptElement](../../mathsubscriptelement) subScript)  method
+
+ Creates IMathSubscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply indexe |
+| subScript | [MathSubscriptElement](../../mathsubscriptelement) | lower right index |
+
+### Returns
+[MathSubscriptElement](../../mathsubscriptelement)
+
+
+---
+
+
+## createMathSubscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathFunction](../../mathfunction) subScript)  method
+
+ Creates IMathSubscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply indexe |
+| subScript | [MathFunction](../../mathfunction) | lower right index |
+
+### Returns
+[MathSubscriptElement](../../mathsubscriptelement)
+
+
+---
+
+
+## createMathSubscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathSuperscriptElement](../../mathsuperscriptelement) subScript)  method
+
+ Creates IMathSubscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply indexe |
+| subScript | [MathSuperscriptElement](../../mathsuperscriptelement) | lower right index |
+
+### Returns
+[MathSubscriptElement](../../mathsubscriptelement)
+
+
+---
+
+
+## createMathSubscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathFraction](../../mathfraction) subScript)  method
+
+ Creates IMathSubscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply indexe |
+| subScript | [MathFraction](../../mathfraction) | lower right index |
+
+### Returns
+[MathSubscriptElement](../../mathsubscriptelement)
+
+
+---
+
+
+## createMathSubscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathematicalText](../../mathematicaltext) subScript)  method
+
+ Creates IMathSubscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply indexe |
+| subScript | [MathematicalText](../../mathematicaltext) | lower right index |
+
+### Returns
+[MathSubscriptElement](../../mathsubscriptelement)
+
+
+---
+
+
+## createMathSubscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathBox](../../mathbox) subScript)  method
+
+ Creates IMathSubscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply indexe |
+| subScript | [MathBox](../../mathbox) | lower right index |
+
+### Returns
+[MathSubscriptElement](../../mathsubscriptelement)
+
+
+---
+
+
+## createMathSubscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) subScript)  method
+
+ Creates IMathSubscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply indexe |
 | subScript | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | lower right index |
 
 ### Returns
@@ -4149,25 +4149,6 @@ url: /php-java/mathsubscriptelementfactory/createmathsubscriptelement/
 ---
 
 
-## createMathSubscriptElement([MathBar](../../mathbar) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) subScript)  method
-
- Creates IMathSubscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathBar](../mathbar) | Base argument to apply indexe |
-| subScript | [MathGroupingCharacter](../../mathgroupingcharacter) | lower right index |
-
-### Returns
-[MathSubscriptElement](../../mathsubscriptelement)
-
-
----
-
-
 ## createMathSubscriptElement([MathBar](../../mathbar) baseArg, [MathBorderBox](../../mathborderbox) subScript)  method
 
  Creates IMathSubscriptElement
@@ -4179,6 +4160,25 @@ url: /php-java/mathsubscriptelementfactory/createmathsubscriptelement/
 | --- | --- | --- |
 | baseArg | [MathBar](../mathbar) | Base argument to apply indexe |
 | subScript | [MathBorderBox](../../mathborderbox) | lower right index |
+
+### Returns
+[MathSubscriptElement](../../mathsubscriptelement)
+
+
+---
+
+
+## createMathSubscriptElement([MathBar](../../mathbar) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) subScript)  method
+
+ Creates IMathSubscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathBar](../mathbar) | Base argument to apply indexe |
+| subScript | [MathGroupingCharacter](../../mathgroupingcharacter) | lower right index |
 
 ### Returns
 [MathSubscriptElement](../../mathsubscriptelement)
@@ -4263,25 +4263,6 @@ url: /php-java/mathsubscriptelementfactory/createmathsubscriptelement/
 ---
 
 
-## createMathSubscriptElement([MathBar](../../mathbar) baseArg, [MathematicalText](../../mathematicaltext) subScript)  method
-
- Creates IMathSubscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathBar](../mathbar) | Base argument to apply indexe |
-| subScript | [MathematicalText](../../mathematicaltext) | lower right index |
-
-### Returns
-[MathSubscriptElement](../../mathsubscriptelement)
-
-
----
-
-
 ## createMathSubscriptElement([MathBar](../../mathbar) baseArg, [MathFraction](../../mathfraction) subScript)  method
 
  Creates IMathSubscriptElement
@@ -4293,6 +4274,25 @@ url: /php-java/mathsubscriptelementfactory/createmathsubscriptelement/
 | --- | --- | --- |
 | baseArg | [MathBar](../mathbar) | Base argument to apply indexe |
 | subScript | [MathFraction](../../mathfraction) | lower right index |
+
+### Returns
+[MathSubscriptElement](../../mathsubscriptelement)
+
+
+---
+
+
+## createMathSubscriptElement([MathBar](../../mathbar) baseArg, [MathematicalText](../../mathematicaltext) subScript)  method
+
+ Creates IMathSubscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathBar](../mathbar) | Base argument to apply indexe |
+| subScript | [MathematicalText](../../mathematicaltext) | lower right index |
 
 ### Returns
 [MathSubscriptElement](../../mathsubscriptelement)
@@ -4510,25 +4510,6 @@ url: /php-java/mathsubscriptelementfactory/createmathsubscriptelement/
 ---
 
 
-## createMathSubscriptElement([MathSubscriptElement](../../mathsubscriptelement) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) subScript)  method
-
- Creates IMathSubscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathSubscriptElement](../mathsubscriptelement) | Base argument to apply indexe |
-| subScript | [MathGroupingCharacter](../../mathgroupingcharacter) | lower right index |
-
-### Returns
-[MathSubscriptElement](../../mathsubscriptelement)
-
-
----
-
-
 ## createMathSubscriptElement([MathSubscriptElement](../../mathsubscriptelement) baseArg, [MathBorderBox](../../mathborderbox) subScript)  method
 
  Creates IMathSubscriptElement
@@ -4540,6 +4521,25 @@ url: /php-java/mathsubscriptelementfactory/createmathsubscriptelement/
 | --- | --- | --- |
 | baseArg | [MathSubscriptElement](../mathsubscriptelement) | Base argument to apply indexe |
 | subScript | [MathBorderBox](../../mathborderbox) | lower right index |
+
+### Returns
+[MathSubscriptElement](../../mathsubscriptelement)
+
+
+---
+
+
+## createMathSubscriptElement([MathSubscriptElement](../../mathsubscriptelement) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) subScript)  method
+
+ Creates IMathSubscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathSubscriptElement](../mathsubscriptelement) | Base argument to apply indexe |
+| subScript | [MathGroupingCharacter](../../mathgroupingcharacter) | lower right index |
 
 ### Returns
 [MathSubscriptElement](../../mathsubscriptelement)
@@ -4624,25 +4624,6 @@ url: /php-java/mathsubscriptelementfactory/createmathsubscriptelement/
 ---
 
 
-## createMathSubscriptElement([MathSubscriptElement](../../mathsubscriptelement) baseArg, [MathematicalText](../../mathematicaltext) subScript)  method
-
- Creates IMathSubscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathSubscriptElement](../mathsubscriptelement) | Base argument to apply indexe |
-| subScript | [MathematicalText](../../mathematicaltext) | lower right index |
-
-### Returns
-[MathSubscriptElement](../../mathsubscriptelement)
-
-
----
-
-
 ## createMathSubscriptElement([MathSubscriptElement](../../mathsubscriptelement) baseArg, [MathFraction](../../mathfraction) subScript)  method
 
  Creates IMathSubscriptElement
@@ -4654,6 +4635,25 @@ url: /php-java/mathsubscriptelementfactory/createmathsubscriptelement/
 | --- | --- | --- |
 | baseArg | [MathSubscriptElement](../mathsubscriptelement) | Base argument to apply indexe |
 | subScript | [MathFraction](../../mathfraction) | lower right index |
+
+### Returns
+[MathSubscriptElement](../../mathsubscriptelement)
+
+
+---
+
+
+## createMathSubscriptElement([MathSubscriptElement](../../mathsubscriptelement) baseArg, [MathematicalText](../../mathematicaltext) subScript)  method
+
+ Creates IMathSubscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathSubscriptElement](../mathsubscriptelement) | Base argument to apply indexe |
+| subScript | [MathematicalText](../../mathematicaltext) | lower right index |
 
 ### Returns
 [MathSubscriptElement](../../mathsubscriptelement)
@@ -4871,25 +4871,6 @@ url: /php-java/mathsubscriptelementfactory/createmathsubscriptelement/
 ---
 
 
-## createMathSubscriptElement([MathFunction](../../mathfunction) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) subScript)  method
-
- Creates IMathSubscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathFunction](../mathfunction) | Base argument to apply indexe |
-| subScript | [MathGroupingCharacter](../../mathgroupingcharacter) | lower right index |
-
-### Returns
-[MathSubscriptElement](../../mathsubscriptelement)
-
-
----
-
-
 ## createMathSubscriptElement([MathFunction](../../mathfunction) baseArg, [MathBorderBox](../../mathborderbox) subScript)  method
 
  Creates IMathSubscriptElement
@@ -4901,6 +4882,25 @@ url: /php-java/mathsubscriptelementfactory/createmathsubscriptelement/
 | --- | --- | --- |
 | baseArg | [MathFunction](../mathfunction) | Base argument to apply indexe |
 | subScript | [MathBorderBox](../../mathborderbox) | lower right index |
+
+### Returns
+[MathSubscriptElement](../../mathsubscriptelement)
+
+
+---
+
+
+## createMathSubscriptElement([MathFunction](../../mathfunction) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) subScript)  method
+
+ Creates IMathSubscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathFunction](../mathfunction) | Base argument to apply indexe |
+| subScript | [MathGroupingCharacter](../../mathgroupingcharacter) | lower right index |
 
 ### Returns
 [MathSubscriptElement](../../mathsubscriptelement)
@@ -4985,25 +4985,6 @@ url: /php-java/mathsubscriptelementfactory/createmathsubscriptelement/
 ---
 
 
-## createMathSubscriptElement([MathFunction](../../mathfunction) baseArg, [MathematicalText](../../mathematicaltext) subScript)  method
-
- Creates IMathSubscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathFunction](../mathfunction) | Base argument to apply indexe |
-| subScript | [MathematicalText](../../mathematicaltext) | lower right index |
-
-### Returns
-[MathSubscriptElement](../../mathsubscriptelement)
-
-
----
-
-
 ## createMathSubscriptElement([MathFunction](../../mathfunction) baseArg, [MathFraction](../../mathfraction) subScript)  method
 
  Creates IMathSubscriptElement
@@ -5015,6 +4996,25 @@ url: /php-java/mathsubscriptelementfactory/createmathsubscriptelement/
 | --- | --- | --- |
 | baseArg | [MathFunction](../mathfunction) | Base argument to apply indexe |
 | subScript | [MathFraction](../../mathfraction) | lower right index |
+
+### Returns
+[MathSubscriptElement](../../mathsubscriptelement)
+
+
+---
+
+
+## createMathSubscriptElement([MathFunction](../../mathfunction) baseArg, [MathematicalText](../../mathematicaltext) subScript)  method
+
+ Creates IMathSubscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathFunction](../mathfunction) | Base argument to apply indexe |
+| subScript | [MathematicalText](../../mathematicaltext) | lower right index |
 
 ### Returns
 [MathSubscriptElement](../../mathsubscriptelement)
@@ -5232,25 +5232,6 @@ url: /php-java/mathsubscriptelementfactory/createmathsubscriptelement/
 ---
 
 
-## createMathSubscriptElement([MathSuperscriptElement](../../mathsuperscriptelement) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) subScript)  method
-
- Creates IMathSubscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply indexe |
-| subScript | [MathGroupingCharacter](../../mathgroupingcharacter) | lower right index |
-
-### Returns
-[MathSubscriptElement](../../mathsubscriptelement)
-
-
----
-
-
 ## createMathSubscriptElement([MathSuperscriptElement](../../mathsuperscriptelement) baseArg, [MathBorderBox](../../mathborderbox) subScript)  method
 
  Creates IMathSubscriptElement
@@ -5262,6 +5243,25 @@ url: /php-java/mathsubscriptelementfactory/createmathsubscriptelement/
 | --- | --- | --- |
 | baseArg | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply indexe |
 | subScript | [MathBorderBox](../../mathborderbox) | lower right index |
+
+### Returns
+[MathSubscriptElement](../../mathsubscriptelement)
+
+
+---
+
+
+## createMathSubscriptElement([MathSuperscriptElement](../../mathsuperscriptelement) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) subScript)  method
+
+ Creates IMathSubscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply indexe |
+| subScript | [MathGroupingCharacter](../../mathgroupingcharacter) | lower right index |
 
 ### Returns
 [MathSubscriptElement](../../mathsubscriptelement)
@@ -5346,25 +5346,6 @@ url: /php-java/mathsubscriptelementfactory/createmathsubscriptelement/
 ---
 
 
-## createMathSubscriptElement([MathSuperscriptElement](../../mathsuperscriptelement) baseArg, [MathematicalText](../../mathematicaltext) subScript)  method
-
- Creates IMathSubscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply indexe |
-| subScript | [MathematicalText](../../mathematicaltext) | lower right index |
-
-### Returns
-[MathSubscriptElement](../../mathsubscriptelement)
-
-
----
-
-
 ## createMathSubscriptElement([MathSuperscriptElement](../../mathsuperscriptelement) baseArg, [MathFraction](../../mathfraction) subScript)  method
 
  Creates IMathSubscriptElement
@@ -5376,6 +5357,25 @@ url: /php-java/mathsubscriptelementfactory/createmathsubscriptelement/
 | --- | --- | --- |
 | baseArg | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply indexe |
 | subScript | [MathFraction](../../mathfraction) | lower right index |
+
+### Returns
+[MathSubscriptElement](../../mathsubscriptelement)
+
+
+---
+
+
+## createMathSubscriptElement([MathSuperscriptElement](../../mathsuperscriptelement) baseArg, [MathematicalText](../../mathematicaltext) subScript)  method
+
+ Creates IMathSubscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply indexe |
+| subScript | [MathematicalText](../../mathematicaltext) | lower right index |
 
 ### Returns
 [MathSubscriptElement](../../mathsubscriptelement)
@@ -5413,367 +5413,6 @@ url: /php-java/mathsubscriptelementfactory/createmathsubscriptelement/
 | Name | Type | Description |
 | --- | --- | --- |
 | baseArg | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply indexe |
-| subScript | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | lower right index |
-
-### Returns
-[MathSubscriptElement](../../mathsubscriptelement)
-
-
----
-
-
-## createMathSubscriptElement([MathematicalText](../../mathematicaltext) baseArg, [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) subScript)  method
-
- Creates IMathSubscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathematicalText](../mathematicaltext) | Base argument to apply indexe |
-| subScript | [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) | lower right index |
-
-### Returns
-[MathSubscriptElement](../../mathsubscriptelement)
-
-
----
-
-
-## createMathSubscriptElement([MathematicalText](../../mathematicaltext) baseArg, [MathMatrix](../../mathmatrix) subScript)  method
-
- Creates IMathSubscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathematicalText](../mathematicaltext) | Base argument to apply indexe |
-| subScript | [MathMatrix](../../mathmatrix) | lower right index |
-
-### Returns
-[MathSubscriptElement](../../mathsubscriptelement)
-
-
----
-
-
-## createMathSubscriptElement([MathematicalText](../../mathematicaltext) baseArg, [MathLimit](../../mathlimit) subScript)  method
-
- Creates IMathSubscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathematicalText](../mathematicaltext) | Base argument to apply indexe |
-| subScript | [MathLimit](../../mathlimit) | lower right index |
-
-### Returns
-[MathSubscriptElement](../../mathsubscriptelement)
-
-
----
-
-
-## createMathSubscriptElement([MathematicalText](../../mathematicaltext) baseArg, [MathBlock](../../mathblock) subScript)  method
-
- Creates IMathSubscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathematicalText](../mathematicaltext) | Base argument to apply indexe |
-| subScript | [MathBlock](../../mathblock) | lower right index |
-
-### Returns
-[MathSubscriptElement](../../mathsubscriptelement)
-
-
----
-
-
-## createMathSubscriptElement([MathematicalText](../../mathematicaltext) baseArg, [MathRadical](../../mathradical) subScript)  method
-
- Creates IMathSubscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathematicalText](../mathematicaltext) | Base argument to apply indexe |
-| subScript | [MathRadical](../../mathradical) | lower right index |
-
-### Returns
-[MathSubscriptElement](../../mathsubscriptelement)
-
-
----
-
-
-## createMathSubscriptElement([MathematicalText](../../mathematicaltext) baseArg, [MathArray](../../matharray) subScript)  method
-
- Creates IMathSubscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathematicalText](../mathematicaltext) | Base argument to apply indexe |
-| subScript | [MathArray](../../matharray) | lower right index |
-
-### Returns
-[MathSubscriptElement](../../mathsubscriptelement)
-
-
----
-
-
-## createMathSubscriptElement([MathematicalText](../../mathematicaltext) baseArg, [MathDelimiter](../../mathdelimiter) subScript)  method
-
- Creates IMathSubscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathematicalText](../mathematicaltext) | Base argument to apply indexe |
-| subScript | [MathDelimiter](../../mathdelimiter) | lower right index |
-
-### Returns
-[MathSubscriptElement](../../mathsubscriptelement)
-
-
----
-
-
-## createMathSubscriptElement([MathematicalText](../../mathematicaltext) baseArg, [MathNaryOperator](../../mathnaryoperator) subScript)  method
-
- Creates IMathSubscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathematicalText](../mathematicaltext) | Base argument to apply indexe |
-| subScript | [MathNaryOperator](../../mathnaryoperator) | lower right index |
-
-### Returns
-[MathSubscriptElement](../../mathsubscriptelement)
-
-
----
-
-
-## createMathSubscriptElement([MathematicalText](../../mathematicaltext) baseArg, [MathAccent](../../mathaccent) subScript)  method
-
- Creates IMathSubscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathematicalText](../mathematicaltext) | Base argument to apply indexe |
-| subScript | [MathAccent](../../mathaccent) | lower right index |
-
-### Returns
-[MathSubscriptElement](../../mathsubscriptelement)
-
-
----
-
-
-## createMathSubscriptElement([MathematicalText](../../mathematicaltext) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) subScript)  method
-
- Creates IMathSubscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathematicalText](../mathematicaltext) | Base argument to apply indexe |
-| subScript | [MathGroupingCharacter](../../mathgroupingcharacter) | lower right index |
-
-### Returns
-[MathSubscriptElement](../../mathsubscriptelement)
-
-
----
-
-
-## createMathSubscriptElement([MathematicalText](../../mathematicaltext) baseArg, [MathBorderBox](../../mathborderbox) subScript)  method
-
- Creates IMathSubscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathematicalText](../mathematicaltext) | Base argument to apply indexe |
-| subScript | [MathBorderBox](../../mathborderbox) | lower right index |
-
-### Returns
-[MathSubscriptElement](../../mathsubscriptelement)
-
-
----
-
-
-## createMathSubscriptElement([MathematicalText](../../mathematicaltext) baseArg, [MathBar](../../mathbar) subScript)  method
-
- Creates IMathSubscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathematicalText](../mathematicaltext) | Base argument to apply indexe |
-| subScript | [MathBar](../../mathbar) | lower right index |
-
-### Returns
-[MathSubscriptElement](../../mathsubscriptelement)
-
-
----
-
-
-## createMathSubscriptElement([MathematicalText](../../mathematicaltext) baseArg, [MathSubscriptElement](../../mathsubscriptelement) subScript)  method
-
- Creates IMathSubscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathematicalText](../mathematicaltext) | Base argument to apply indexe |
-| subScript | [MathSubscriptElement](../../mathsubscriptelement) | lower right index |
-
-### Returns
-[MathSubscriptElement](../../mathsubscriptelement)
-
-
----
-
-
-## createMathSubscriptElement([MathematicalText](../../mathematicaltext) baseArg, [MathFunction](../../mathfunction) subScript)  method
-
- Creates IMathSubscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathematicalText](../mathematicaltext) | Base argument to apply indexe |
-| subScript | [MathFunction](../../mathfunction) | lower right index |
-
-### Returns
-[MathSubscriptElement](../../mathsubscriptelement)
-
-
----
-
-
-## createMathSubscriptElement([MathematicalText](../../mathematicaltext) baseArg, [MathSuperscriptElement](../../mathsuperscriptelement) subScript)  method
-
- Creates IMathSubscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathematicalText](../mathematicaltext) | Base argument to apply indexe |
-| subScript | [MathSuperscriptElement](../../mathsuperscriptelement) | lower right index |
-
-### Returns
-[MathSubscriptElement](../../mathsubscriptelement)
-
-
----
-
-
-## createMathSubscriptElement([MathematicalText](../../mathematicaltext) baseArg, [MathematicalText](../../mathematicaltext) subScript)  method
-
- Creates IMathSubscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathematicalText](../mathematicaltext) | Base argument to apply indexe |
-| subScript | [MathematicalText](../../mathematicaltext) | lower right index |
-
-### Returns
-[MathSubscriptElement](../../mathsubscriptelement)
-
-
----
-
-
-## createMathSubscriptElement([MathematicalText](../../mathematicaltext) baseArg, [MathFraction](../../mathfraction) subScript)  method
-
- Creates IMathSubscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathematicalText](../mathematicaltext) | Base argument to apply indexe |
-| subScript | [MathFraction](../../mathfraction) | lower right index |
-
-### Returns
-[MathSubscriptElement](../../mathsubscriptelement)
-
-
----
-
-
-## createMathSubscriptElement([MathematicalText](../../mathematicaltext) baseArg, [MathBox](../../mathbox) subScript)  method
-
- Creates IMathSubscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathematicalText](../mathematicaltext) | Base argument to apply indexe |
-| subScript | [MathBox](../../mathbox) | lower right index |
-
-### Returns
-[MathSubscriptElement](../../mathsubscriptelement)
-
-
----
-
-
-## createMathSubscriptElement([MathematicalText](../../mathematicaltext) baseArg, [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) subScript)  method
-
- Creates IMathSubscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathematicalText](../mathematicaltext) | Base argument to apply indexe |
 | subScript | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | lower right index |
 
 ### Returns
@@ -5954,25 +5593,6 @@ url: /php-java/mathsubscriptelementfactory/createmathsubscriptelement/
 ---
 
 
-## createMathSubscriptElement([MathFraction](../../mathfraction) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) subScript)  method
-
- Creates IMathSubscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathFraction](../mathfraction) | Base argument to apply indexe |
-| subScript | [MathGroupingCharacter](../../mathgroupingcharacter) | lower right index |
-
-### Returns
-[MathSubscriptElement](../../mathsubscriptelement)
-
-
----
-
-
 ## createMathSubscriptElement([MathFraction](../../mathfraction) baseArg, [MathBorderBox](../../mathborderbox) subScript)  method
 
  Creates IMathSubscriptElement
@@ -5984,6 +5604,25 @@ url: /php-java/mathsubscriptelementfactory/createmathsubscriptelement/
 | --- | --- | --- |
 | baseArg | [MathFraction](../mathfraction) | Base argument to apply indexe |
 | subScript | [MathBorderBox](../../mathborderbox) | lower right index |
+
+### Returns
+[MathSubscriptElement](../../mathsubscriptelement)
+
+
+---
+
+
+## createMathSubscriptElement([MathFraction](../../mathfraction) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) subScript)  method
+
+ Creates IMathSubscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathFraction](../mathfraction) | Base argument to apply indexe |
+| subScript | [MathGroupingCharacter](../../mathgroupingcharacter) | lower right index |
 
 ### Returns
 [MathSubscriptElement](../../mathsubscriptelement)
@@ -6068,25 +5707,6 @@ url: /php-java/mathsubscriptelementfactory/createmathsubscriptelement/
 ---
 
 
-## createMathSubscriptElement([MathFraction](../../mathfraction) baseArg, [MathematicalText](../../mathematicaltext) subScript)  method
-
- Creates IMathSubscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathFraction](../mathfraction) | Base argument to apply indexe |
-| subScript | [MathematicalText](../../mathematicaltext) | lower right index |
-
-### Returns
-[MathSubscriptElement](../../mathsubscriptelement)
-
-
----
-
-
 ## createMathSubscriptElement([MathFraction](../../mathfraction) baseArg, [MathFraction](../../mathfraction) subScript)  method
 
  Creates IMathSubscriptElement
@@ -6098,6 +5718,25 @@ url: /php-java/mathsubscriptelementfactory/createmathsubscriptelement/
 | --- | --- | --- |
 | baseArg | [MathFraction](../mathfraction) | Base argument to apply indexe |
 | subScript | [MathFraction](../../mathfraction) | lower right index |
+
+### Returns
+[MathSubscriptElement](../../mathsubscriptelement)
+
+
+---
+
+
+## createMathSubscriptElement([MathFraction](../../mathfraction) baseArg, [MathematicalText](../../mathematicaltext) subScript)  method
+
+ Creates IMathSubscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathFraction](../mathfraction) | Base argument to apply indexe |
+| subScript | [MathematicalText](../../mathematicaltext) | lower right index |
 
 ### Returns
 [MathSubscriptElement](../../mathsubscriptelement)
@@ -6135,6 +5774,367 @@ url: /php-java/mathsubscriptelementfactory/createmathsubscriptelement/
 | Name | Type | Description |
 | --- | --- | --- |
 | baseArg | [MathFraction](../mathfraction) | Base argument to apply indexe |
+| subScript | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | lower right index |
+
+### Returns
+[MathSubscriptElement](../../mathsubscriptelement)
+
+
+---
+
+
+## createMathSubscriptElement([MathematicalText](../../mathematicaltext) baseArg, [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) subScript)  method
+
+ Creates IMathSubscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathematicalText](../mathematicaltext) | Base argument to apply indexe |
+| subScript | [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) | lower right index |
+
+### Returns
+[MathSubscriptElement](../../mathsubscriptelement)
+
+
+---
+
+
+## createMathSubscriptElement([MathematicalText](../../mathematicaltext) baseArg, [MathMatrix](../../mathmatrix) subScript)  method
+
+ Creates IMathSubscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathematicalText](../mathematicaltext) | Base argument to apply indexe |
+| subScript | [MathMatrix](../../mathmatrix) | lower right index |
+
+### Returns
+[MathSubscriptElement](../../mathsubscriptelement)
+
+
+---
+
+
+## createMathSubscriptElement([MathematicalText](../../mathematicaltext) baseArg, [MathLimit](../../mathlimit) subScript)  method
+
+ Creates IMathSubscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathematicalText](../mathematicaltext) | Base argument to apply indexe |
+| subScript | [MathLimit](../../mathlimit) | lower right index |
+
+### Returns
+[MathSubscriptElement](../../mathsubscriptelement)
+
+
+---
+
+
+## createMathSubscriptElement([MathematicalText](../../mathematicaltext) baseArg, [MathBlock](../../mathblock) subScript)  method
+
+ Creates IMathSubscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathematicalText](../mathematicaltext) | Base argument to apply indexe |
+| subScript | [MathBlock](../../mathblock) | lower right index |
+
+### Returns
+[MathSubscriptElement](../../mathsubscriptelement)
+
+
+---
+
+
+## createMathSubscriptElement([MathematicalText](../../mathematicaltext) baseArg, [MathRadical](../../mathradical) subScript)  method
+
+ Creates IMathSubscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathematicalText](../mathematicaltext) | Base argument to apply indexe |
+| subScript | [MathRadical](../../mathradical) | lower right index |
+
+### Returns
+[MathSubscriptElement](../../mathsubscriptelement)
+
+
+---
+
+
+## createMathSubscriptElement([MathematicalText](../../mathematicaltext) baseArg, [MathArray](../../matharray) subScript)  method
+
+ Creates IMathSubscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathematicalText](../mathematicaltext) | Base argument to apply indexe |
+| subScript | [MathArray](../../matharray) | lower right index |
+
+### Returns
+[MathSubscriptElement](../../mathsubscriptelement)
+
+
+---
+
+
+## createMathSubscriptElement([MathematicalText](../../mathematicaltext) baseArg, [MathDelimiter](../../mathdelimiter) subScript)  method
+
+ Creates IMathSubscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathematicalText](../mathematicaltext) | Base argument to apply indexe |
+| subScript | [MathDelimiter](../../mathdelimiter) | lower right index |
+
+### Returns
+[MathSubscriptElement](../../mathsubscriptelement)
+
+
+---
+
+
+## createMathSubscriptElement([MathematicalText](../../mathematicaltext) baseArg, [MathNaryOperator](../../mathnaryoperator) subScript)  method
+
+ Creates IMathSubscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathematicalText](../mathematicaltext) | Base argument to apply indexe |
+| subScript | [MathNaryOperator](../../mathnaryoperator) | lower right index |
+
+### Returns
+[MathSubscriptElement](../../mathsubscriptelement)
+
+
+---
+
+
+## createMathSubscriptElement([MathematicalText](../../mathematicaltext) baseArg, [MathAccent](../../mathaccent) subScript)  method
+
+ Creates IMathSubscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathematicalText](../mathematicaltext) | Base argument to apply indexe |
+| subScript | [MathAccent](../../mathaccent) | lower right index |
+
+### Returns
+[MathSubscriptElement](../../mathsubscriptelement)
+
+
+---
+
+
+## createMathSubscriptElement([MathematicalText](../../mathematicaltext) baseArg, [MathBorderBox](../../mathborderbox) subScript)  method
+
+ Creates IMathSubscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathematicalText](../mathematicaltext) | Base argument to apply indexe |
+| subScript | [MathBorderBox](../../mathborderbox) | lower right index |
+
+### Returns
+[MathSubscriptElement](../../mathsubscriptelement)
+
+
+---
+
+
+## createMathSubscriptElement([MathematicalText](../../mathematicaltext) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) subScript)  method
+
+ Creates IMathSubscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathematicalText](../mathematicaltext) | Base argument to apply indexe |
+| subScript | [MathGroupingCharacter](../../mathgroupingcharacter) | lower right index |
+
+### Returns
+[MathSubscriptElement](../../mathsubscriptelement)
+
+
+---
+
+
+## createMathSubscriptElement([MathematicalText](../../mathematicaltext) baseArg, [MathBar](../../mathbar) subScript)  method
+
+ Creates IMathSubscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathematicalText](../mathematicaltext) | Base argument to apply indexe |
+| subScript | [MathBar](../../mathbar) | lower right index |
+
+### Returns
+[MathSubscriptElement](../../mathsubscriptelement)
+
+
+---
+
+
+## createMathSubscriptElement([MathematicalText](../../mathematicaltext) baseArg, [MathSubscriptElement](../../mathsubscriptelement) subScript)  method
+
+ Creates IMathSubscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathematicalText](../mathematicaltext) | Base argument to apply indexe |
+| subScript | [MathSubscriptElement](../../mathsubscriptelement) | lower right index |
+
+### Returns
+[MathSubscriptElement](../../mathsubscriptelement)
+
+
+---
+
+
+## createMathSubscriptElement([MathematicalText](../../mathematicaltext) baseArg, [MathFunction](../../mathfunction) subScript)  method
+
+ Creates IMathSubscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathematicalText](../mathematicaltext) | Base argument to apply indexe |
+| subScript | [MathFunction](../../mathfunction) | lower right index |
+
+### Returns
+[MathSubscriptElement](../../mathsubscriptelement)
+
+
+---
+
+
+## createMathSubscriptElement([MathematicalText](../../mathematicaltext) baseArg, [MathSuperscriptElement](../../mathsuperscriptelement) subScript)  method
+
+ Creates IMathSubscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathematicalText](../mathematicaltext) | Base argument to apply indexe |
+| subScript | [MathSuperscriptElement](../../mathsuperscriptelement) | lower right index |
+
+### Returns
+[MathSubscriptElement](../../mathsubscriptelement)
+
+
+---
+
+
+## createMathSubscriptElement([MathematicalText](../../mathematicaltext) baseArg, [MathFraction](../../mathfraction) subScript)  method
+
+ Creates IMathSubscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathematicalText](../mathematicaltext) | Base argument to apply indexe |
+| subScript | [MathFraction](../../mathfraction) | lower right index |
+
+### Returns
+[MathSubscriptElement](../../mathsubscriptelement)
+
+
+---
+
+
+## createMathSubscriptElement([MathematicalText](../../mathematicaltext) baseArg, [MathematicalText](../../mathematicaltext) subScript)  method
+
+ Creates IMathSubscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathematicalText](../mathematicaltext) | Base argument to apply indexe |
+| subScript | [MathematicalText](../../mathematicaltext) | lower right index |
+
+### Returns
+[MathSubscriptElement](../../mathsubscriptelement)
+
+
+---
+
+
+## createMathSubscriptElement([MathematicalText](../../mathematicaltext) baseArg, [MathBox](../../mathbox) subScript)  method
+
+ Creates IMathSubscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathematicalText](../mathematicaltext) | Base argument to apply indexe |
+| subScript | [MathBox](../../mathbox) | lower right index |
+
+### Returns
+[MathSubscriptElement](../../mathsubscriptelement)
+
+
+---
+
+
+## createMathSubscriptElement([MathematicalText](../../mathematicaltext) baseArg, [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) subScript)  method
+
+ Creates IMathSubscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathematicalText](../mathematicaltext) | Base argument to apply indexe |
 | subScript | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | lower right index |
 
 ### Returns
@@ -6315,25 +6315,6 @@ url: /php-java/mathsubscriptelementfactory/createmathsubscriptelement/
 ---
 
 
-## createMathSubscriptElement([MathBox](../../mathbox) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) subScript)  method
-
- Creates IMathSubscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathBox](../mathbox) | Base argument to apply indexe |
-| subScript | [MathGroupingCharacter](../../mathgroupingcharacter) | lower right index |
-
-### Returns
-[MathSubscriptElement](../../mathsubscriptelement)
-
-
----
-
-
 ## createMathSubscriptElement([MathBox](../../mathbox) baseArg, [MathBorderBox](../../mathborderbox) subScript)  method
 
  Creates IMathSubscriptElement
@@ -6345,6 +6326,25 @@ url: /php-java/mathsubscriptelementfactory/createmathsubscriptelement/
 | --- | --- | --- |
 | baseArg | [MathBox](../mathbox) | Base argument to apply indexe |
 | subScript | [MathBorderBox](../../mathborderbox) | lower right index |
+
+### Returns
+[MathSubscriptElement](../../mathsubscriptelement)
+
+
+---
+
+
+## createMathSubscriptElement([MathBox](../../mathbox) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) subScript)  method
+
+ Creates IMathSubscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathBox](../mathbox) | Base argument to apply indexe |
+| subScript | [MathGroupingCharacter](../../mathgroupingcharacter) | lower right index |
 
 ### Returns
 [MathSubscriptElement](../../mathsubscriptelement)
@@ -6429,25 +6429,6 @@ url: /php-java/mathsubscriptelementfactory/createmathsubscriptelement/
 ---
 
 
-## createMathSubscriptElement([MathBox](../../mathbox) baseArg, [MathematicalText](../../mathematicaltext) subScript)  method
-
- Creates IMathSubscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathBox](../mathbox) | Base argument to apply indexe |
-| subScript | [MathematicalText](../../mathematicaltext) | lower right index |
-
-### Returns
-[MathSubscriptElement](../../mathsubscriptelement)
-
-
----
-
-
 ## createMathSubscriptElement([MathBox](../../mathbox) baseArg, [MathFraction](../../mathfraction) subScript)  method
 
  Creates IMathSubscriptElement
@@ -6459,6 +6440,25 @@ url: /php-java/mathsubscriptelementfactory/createmathsubscriptelement/
 | --- | --- | --- |
 | baseArg | [MathBox](../mathbox) | Base argument to apply indexe |
 | subScript | [MathFraction](../../mathfraction) | lower right index |
+
+### Returns
+[MathSubscriptElement](../../mathsubscriptelement)
+
+
+---
+
+
+## createMathSubscriptElement([MathBox](../../mathbox) baseArg, [MathematicalText](../../mathematicaltext) subScript)  method
+
+ Creates IMathSubscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathBox](../mathbox) | Base argument to apply indexe |
+| subScript | [MathematicalText](../../mathematicaltext) | lower right index |
 
 ### Returns
 [MathSubscriptElement](../../mathsubscriptelement)
@@ -6676,25 +6676,6 @@ url: /php-java/mathsubscriptelementfactory/createmathsubscriptelement/
 ---
 
 
-## createMathSubscriptElement([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) subScript)  method
-
- Creates IMathSubscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Base argument to apply indexe |
-| subScript | [MathGroupingCharacter](../../mathgroupingcharacter) | lower right index |
-
-### Returns
-[MathSubscriptElement](../../mathsubscriptelement)
-
-
----
-
-
 ## createMathSubscriptElement([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) baseArg, [MathBorderBox](../../mathborderbox) subScript)  method
 
  Creates IMathSubscriptElement
@@ -6706,6 +6687,25 @@ url: /php-java/mathsubscriptelementfactory/createmathsubscriptelement/
 | --- | --- | --- |
 | baseArg | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Base argument to apply indexe |
 | subScript | [MathBorderBox](../../mathborderbox) | lower right index |
+
+### Returns
+[MathSubscriptElement](../../mathsubscriptelement)
+
+
+---
+
+
+## createMathSubscriptElement([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) subScript)  method
+
+ Creates IMathSubscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Base argument to apply indexe |
+| subScript | [MathGroupingCharacter](../../mathgroupingcharacter) | lower right index |
 
 ### Returns
 [MathSubscriptElement](../../mathsubscriptelement)
@@ -6790,25 +6790,6 @@ url: /php-java/mathsubscriptelementfactory/createmathsubscriptelement/
 ---
 
 
-## createMathSubscriptElement([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) baseArg, [MathematicalText](../../mathematicaltext) subScript)  method
-
- Creates IMathSubscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Base argument to apply indexe |
-| subScript | [MathematicalText](../../mathematicaltext) | lower right index |
-
-### Returns
-[MathSubscriptElement](../../mathsubscriptelement)
-
-
----
-
-
 ## createMathSubscriptElement([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) baseArg, [MathFraction](../../mathfraction) subScript)  method
 
  Creates IMathSubscriptElement
@@ -6820,6 +6801,25 @@ url: /php-java/mathsubscriptelementfactory/createmathsubscriptelement/
 | --- | --- | --- |
 | baseArg | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Base argument to apply indexe |
 | subScript | [MathFraction](../../mathfraction) | lower right index |
+
+### Returns
+[MathSubscriptElement](../../mathsubscriptelement)
+
+
+---
+
+
+## createMathSubscriptElement([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) baseArg, [MathematicalText](../../mathematicaltext) subScript)  method
+
+ Creates IMathSubscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Base argument to apply indexe |
+| subScript | [MathematicalText](../../mathematicaltext) | lower right index |
 
 ### Returns
 [MathSubscriptElement](../../mathsubscriptelement)

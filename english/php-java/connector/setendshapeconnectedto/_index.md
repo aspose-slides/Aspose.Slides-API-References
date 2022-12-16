@@ -178,7 +178,7 @@ void
 ---
 
 
-## setEndShapeConnectedTo([VideoFrame](../../videoframe) value)  method
+## setEndShapeConnectedTo([OleObjectFrame](../../oleobjectframe) value)  method
 
  Returns or sets the shape to attach the end of the connector to.
  Read/write  IShape.
@@ -197,7 +197,7 @@ void
 ---
 
 
-## setEndShapeConnectedTo([OleObjectFrame](../../oleobjectframe) value)  method
+## setEndShapeConnectedTo([VideoFrame](../../videoframe) value)  method
 
  Returns or sets the shape to attach the end of the connector to.
  Read/write  IShape.
@@ -349,7 +349,7 @@ void
 ---
 
 
-## setEndShapeConnectedTo([LegacyDiagram](../../legacydiagram) value)  method
+## setEndShapeConnectedTo([ZoomObject](../../zoomobject) value)  method
 
  Returns or sets the shape to attach the end of the connector to.
  Read/write  IShape.
@@ -368,7 +368,7 @@ void
 ---
 
 
-## setEndShapeConnectedTo([ZoomObject](../../zoomobject) value)  method
+## setEndShapeConnectedTo([LegacyDiagram](../../legacydiagram) value)  method
 
  Returns or sets the shape to attach the end of the connector to.
  Read/write  IShape.

@@ -169,24 +169,6 @@ url: /php-java/matharrayfactory/creatematharray/
 ---
 
 
-## createMathArray([MathGroupingCharacter](../../mathgroupingcharacter) element)  method
-
- Creates a math array and places the specified element in it 
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathGroupingCharacter](../../mathgroupingcharacter) | math element to place in array |
-
-### Returns
-[MathArray](../../matharray)
-
-
----
-
-
 ## createMathArray([MathBorderBox](../../mathborderbox) element)  method
 
  Creates a math array and places the specified element in it 
@@ -197,6 +179,24 @@ url: /php-java/matharrayfactory/creatematharray/
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathBorderBox](../../mathborderbox) | math element to place in array |
+
+### Returns
+[MathArray](../../matharray)
+
+
+---
+
+
+## createMathArray([MathGroupingCharacter](../../mathgroupingcharacter) element)  method
+
+ Creates a math array and places the specified element in it 
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathGroupingCharacter](../../mathgroupingcharacter) | math element to place in array |
 
 ### Returns
 [MathArray](../../matharray)
@@ -277,24 +277,6 @@ url: /php-java/matharrayfactory/creatematharray/
 ---
 
 
-## createMathArray([MathematicalText](../../mathematicaltext) element)  method
-
- Creates a math array and places the specified element in it 
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathematicalText](../../mathematicaltext) | math element to place in array |
-
-### Returns
-[MathArray](../../matharray)
-
-
----
-
-
 ## createMathArray([MathFraction](../../mathfraction) element)  method
 
  Creates a math array and places the specified element in it 
@@ -305,6 +287,24 @@ url: /php-java/matharrayfactory/creatematharray/
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathFraction](../../mathfraction) | math element to place in array |
+
+### Returns
+[MathArray](../../matharray)
+
+
+---
+
+
+## createMathArray([MathematicalText](../../mathematicaltext) element)  method
+
+ Creates a math array and places the specified element in it 
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathematicalText](../../mathematicaltext) | math element to place in array |
 
 ### Returns
 [MathArray](../../matharray)

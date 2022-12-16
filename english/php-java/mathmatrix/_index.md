@@ -67,13 +67,13 @@ Example:
 | [set_Item](set_item)(int, int, [MathDelimiter](../mathdelimiter)) | Element of matrix |
 | [set_Item](set_item)(int, int, [MathNaryOperator](../mathnaryoperator)) | Element of matrix |
 | [set_Item](set_item)(int, int, [MathAccent](../mathaccent)) | Element of matrix |
-| [set_Item](set_item)(int, int, [MathGroupingCharacter](../mathgroupingcharacter)) | Element of matrix |
 | [set_Item](set_item)(int, int, [MathBorderBox](../mathborderbox)) | Element of matrix |
+| [set_Item](set_item)(int, int, [MathGroupingCharacter](../mathgroupingcharacter)) | Element of matrix |
 | [set_Item](set_item)(int, int, [MathBar](../mathbar)) | Element of matrix |
 | [set_Item](set_item)(int, int, [MathSubscriptElement](../mathsubscriptelement)) | Element of matrix |
 | [set_Item](set_item)(int, int, [MathFunction](../mathfunction)) | Element of matrix |
 | [set_Item](set_item)(int, int, [MathSuperscriptElement](../mathsuperscriptelement)) | Element of matrix |
-| [set_Item](set_item)(int, int, [MathematicalText](../mathematicaltext)) | Element of matrix |
 | [set_Item](set_item)(int, int, [MathFraction](../mathfraction)) | Element of matrix |
+| [set_Item](set_item)(int, int, [MathematicalText](../mathematicaltext)) | Element of matrix |
 | [set_Item](set_item)(int, int, [MathBox](../mathbox)) | Element of matrix |
 | [set_Item](set_item)(int, int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Element of matrix |

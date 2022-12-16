@@ -12,6 +12,25 @@ url: /php-java/commonslideviewproperties/
  Represents common slide view properties.
  
 
+ The following example shows how to set the zoom value for slide of PowerPoint Presentation.
+ 
+```php
+  // Instantiate a Presentation object that represents a presentation file
+  $pres = new Presentation("demo.pptx");
+  try {
+    // Setting View Properties of Presentation
+    $pres->getViewProperties()->getSlideViewProperties()->setScale(100);// Zoom value in percentages for slide view
+
+    $pres->getViewProperties()->getNotesViewProperties()->setScale(100);// Zoom value in percentages for notes view
+
+    $pres->save("Zoom_out.pptx", SaveFormat.Pptx);
+  } finally {
+    if ($pres != null) {
+      $pres->dispose();
+    }
+  }
+```
+
 ## Methods
 
 | Name | Description |

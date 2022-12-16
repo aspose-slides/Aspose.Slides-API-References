@@ -196,7 +196,7 @@ url: /php-java/mathgroupingcharacterfactory/createmathgroupingcharacter/
 ---
 
 
-## createMathGroupingCharacter([MathGroupingCharacter](../../mathgroupingcharacter) element, char character, int position, int verticalJustification)  method
+## createMathGroupingCharacter([MathBorderBox](../../mathborderbox) element, char character, int position, int verticalJustification)  method
 
  Creates a math grouping character
  
@@ -205,7 +205,7 @@ url: /php-java/mathgroupingcharacterfactory/createmathgroupingcharacter/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathGroupingCharacter](../mathgroupingcharacter) | math element to apply grouping character |
+| element | [MathBorderBox](../mathborderbox) | math element to apply grouping character |
 | character | char | grouping character |
 | position | int | position of grouping character |
 | verticalJustification | int | vertical justification |
@@ -217,7 +217,7 @@ url: /php-java/mathgroupingcharacterfactory/createmathgroupingcharacter/
 ---
 
 
-## createMathGroupingCharacter([MathBorderBox](../../mathborderbox) element, char character, int position, int verticalJustification)  method
+## createMathGroupingCharacter([MathGroupingCharacter](../../mathgroupingcharacter) element, char character, int position, int verticalJustification)  method
 
  Creates a math grouping character
  
@@ -226,7 +226,7 @@ url: /php-java/mathgroupingcharacterfactory/createmathgroupingcharacter/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathBorderBox](../mathborderbox) | math element to apply grouping character |
+| element | [MathGroupingCharacter](../mathgroupingcharacter) | math element to apply grouping character |
 | character | char | grouping character |
 | position | int | position of grouping character |
 | verticalJustification | int | vertical justification |
@@ -322,7 +322,7 @@ url: /php-java/mathgroupingcharacterfactory/createmathgroupingcharacter/
 ---
 
 
-## createMathGroupingCharacter([MathematicalText](../../mathematicaltext) element, char character, int position, int verticalJustification)  method
+## createMathGroupingCharacter([MathFraction](../../mathfraction) element, char character, int position, int verticalJustification)  method
 
  Creates a math grouping character
  
@@ -331,7 +331,7 @@ url: /php-java/mathgroupingcharacterfactory/createmathgroupingcharacter/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathematicalText](../mathematicaltext) | math element to apply grouping character |
+| element | [MathFraction](../mathfraction) | math element to apply grouping character |
 | character | char | grouping character |
 | position | int | position of grouping character |
 | verticalJustification | int | vertical justification |
@@ -343,7 +343,7 @@ url: /php-java/mathgroupingcharacterfactory/createmathgroupingcharacter/
 ---
 
 
-## createMathGroupingCharacter([MathFraction](../../mathfraction) element, char character, int position, int verticalJustification)  method
+## createMathGroupingCharacter([MathematicalText](../../mathematicaltext) element, char character, int position, int verticalJustification)  method
 
  Creates a math grouping character
  
@@ -352,7 +352,7 @@ url: /php-java/mathgroupingcharacterfactory/createmathgroupingcharacter/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathFraction](../mathfraction) | math element to apply grouping character |
+| element | [MathematicalText](../mathematicaltext) | math element to apply grouping character |
 | character | char | grouping character |
 | position | int | position of grouping character |
 | verticalJustification | int | vertical justification |
@@ -568,24 +568,6 @@ url: /php-java/mathgroupingcharacterfactory/createmathgroupingcharacter/
 ---
 
 
-## createMathGroupingCharacter([MathGroupingCharacter](../../mathgroupingcharacter) element)  method
-
- Creates a math grouping character
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathGroupingCharacter](../../mathgroupingcharacter) | math element to apply grouping character |
-
-### Returns
-[MathGroupingCharacter](../../mathgroupingcharacter)
-
-
----
-
-
 ## createMathGroupingCharacter([MathBorderBox](../../mathborderbox) element)  method
 
  Creates a math grouping character
@@ -596,6 +578,24 @@ url: /php-java/mathgroupingcharacterfactory/createmathgroupingcharacter/
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathBorderBox](../../mathborderbox) | math element to apply grouping character |
+
+### Returns
+[MathGroupingCharacter](../../mathgroupingcharacter)
+
+
+---
+
+
+## createMathGroupingCharacter([MathGroupingCharacter](../../mathgroupingcharacter) element)  method
+
+ Creates a math grouping character
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathGroupingCharacter](../../mathgroupingcharacter) | math element to apply grouping character |
 
 ### Returns
 [MathGroupingCharacter](../../mathgroupingcharacter)
@@ -676,24 +676,6 @@ url: /php-java/mathgroupingcharacterfactory/createmathgroupingcharacter/
 ---
 
 
-## createMathGroupingCharacter([MathematicalText](../../mathematicaltext) element)  method
-
- Creates a math grouping character
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathematicalText](../../mathematicaltext) | math element to apply grouping character |
-
-### Returns
-[MathGroupingCharacter](../../mathgroupingcharacter)
-
-
----
-
-
 ## createMathGroupingCharacter([MathFraction](../../mathfraction) element)  method
 
  Creates a math grouping character
@@ -704,6 +686,24 @@ url: /php-java/mathgroupingcharacterfactory/createmathgroupingcharacter/
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathFraction](../../mathfraction) | math element to apply grouping character |
+
+### Returns
+[MathGroupingCharacter](../../mathgroupingcharacter)
+
+
+---
+
+
+## createMathGroupingCharacter([MathematicalText](../../mathematicaltext) element)  method
+
+ Creates a math grouping character
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathematicalText](../../mathematicaltext) | math element to apply grouping character |
 
 ### Returns
 [MathGroupingCharacter](../../mathgroupingcharacter)

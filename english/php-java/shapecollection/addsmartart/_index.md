@@ -15,8 +15,14 @@ Example:
  
 ```php
   $pres = new Presentation();
-  $slide = $pres->getSlides()->get_Item(0);
-  $smart = $slide->getShapes()->addSmartArt(0, 0, 400, 400, SmartArtLayoutType.BasicBlockList);
+  try {
+    $slide = $pres->getSlides()->get_Item(0);
+    $smart = $slide->getShapes()->addSmartArt(0, 0, 400, 400, SmartArtLayoutType.BasicBlockList);
+  } finally {
+    if ($pres != null) {
+      $pres->dispose();
+    }
+  }
 ```
 
 ### Parameters

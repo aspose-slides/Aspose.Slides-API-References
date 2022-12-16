@@ -178,25 +178,6 @@ url: /php-java/mathradicalfactory/createmathradical/
 ---
 
 
-## createMathRadical([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) baseArgument, [MathGroupingCharacter](../../mathgroupingcharacter) degreeArgument)  method
-
- Creates a math radical
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Base argument to apply radical |
-| degreeArgument | [MathGroupingCharacter](../../mathgroupingcharacter) | Degree value |
-
-### Returns
-[MathRadical](../../mathradical)
-
-
----
-
-
 ## createMathRadical([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) baseArgument, [MathBorderBox](../../mathborderbox) degreeArgument)  method
 
  Creates a math radical
@@ -208,6 +189,25 @@ url: /php-java/mathradicalfactory/createmathradical/
 | --- | --- | --- |
 | baseArgument | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Base argument to apply radical |
 | degreeArgument | [MathBorderBox](../../mathborderbox) | Degree value |
+
+### Returns
+[MathRadical](../../mathradical)
+
+
+---
+
+
+## createMathRadical([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) baseArgument, [MathGroupingCharacter](../../mathgroupingcharacter) degreeArgument)  method
+
+ Creates a math radical
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Base argument to apply radical |
+| degreeArgument | [MathGroupingCharacter](../../mathgroupingcharacter) | Degree value |
 
 ### Returns
 [MathRadical](../../mathradical)
@@ -292,25 +292,6 @@ url: /php-java/mathradicalfactory/createmathradical/
 ---
 
 
-## createMathRadical([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) baseArgument, [MathematicalText](../../mathematicaltext) degreeArgument)  method
-
- Creates a math radical
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Base argument to apply radical |
-| degreeArgument | [MathematicalText](../../mathematicaltext) | Degree value |
-
-### Returns
-[MathRadical](../../mathradical)
-
-
----
-
-
 ## createMathRadical([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) baseArgument, [MathFraction](../../mathfraction) degreeArgument)  method
 
  Creates a math radical
@@ -322,6 +303,25 @@ url: /php-java/mathradicalfactory/createmathradical/
 | --- | --- | --- |
 | baseArgument | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Base argument to apply radical |
 | degreeArgument | [MathFraction](../../mathfraction) | Degree value |
+
+### Returns
+[MathRadical](../../mathradical)
+
+
+---
+
+
+## createMathRadical([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) baseArgument, [MathematicalText](../../mathematicaltext) degreeArgument)  method
+
+ Creates a math radical
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Base argument to apply radical |
+| degreeArgument | [MathematicalText](../../mathematicaltext) | Degree value |
 
 ### Returns
 [MathRadical](../../mathradical)
@@ -539,25 +539,6 @@ url: /php-java/mathradicalfactory/createmathradical/
 ---
 
 
-## createMathRadical([MathMatrix](../../mathmatrix) baseArgument, [MathGroupingCharacter](../../mathgroupingcharacter) degreeArgument)  method
-
- Creates a math radical
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathMatrix](../mathmatrix) | Base argument to apply radical |
-| degreeArgument | [MathGroupingCharacter](../../mathgroupingcharacter) | Degree value |
-
-### Returns
-[MathRadical](../../mathradical)
-
-
----
-
-
 ## createMathRadical([MathMatrix](../../mathmatrix) baseArgument, [MathBorderBox](../../mathborderbox) degreeArgument)  method
 
  Creates a math radical
@@ -569,6 +550,25 @@ url: /php-java/mathradicalfactory/createmathradical/
 | --- | --- | --- |
 | baseArgument | [MathMatrix](../mathmatrix) | Base argument to apply radical |
 | degreeArgument | [MathBorderBox](../../mathborderbox) | Degree value |
+
+### Returns
+[MathRadical](../../mathradical)
+
+
+---
+
+
+## createMathRadical([MathMatrix](../../mathmatrix) baseArgument, [MathGroupingCharacter](../../mathgroupingcharacter) degreeArgument)  method
+
+ Creates a math radical
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathMatrix](../mathmatrix) | Base argument to apply radical |
+| degreeArgument | [MathGroupingCharacter](../../mathgroupingcharacter) | Degree value |
 
 ### Returns
 [MathRadical](../../mathradical)
@@ -653,25 +653,6 @@ url: /php-java/mathradicalfactory/createmathradical/
 ---
 
 
-## createMathRadical([MathMatrix](../../mathmatrix) baseArgument, [MathematicalText](../../mathematicaltext) degreeArgument)  method
-
- Creates a math radical
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathMatrix](../mathmatrix) | Base argument to apply radical |
-| degreeArgument | [MathematicalText](../../mathematicaltext) | Degree value |
-
-### Returns
-[MathRadical](../../mathradical)
-
-
----
-
-
 ## createMathRadical([MathMatrix](../../mathmatrix) baseArgument, [MathFraction](../../mathfraction) degreeArgument)  method
 
  Creates a math radical
@@ -683,6 +664,25 @@ url: /php-java/mathradicalfactory/createmathradical/
 | --- | --- | --- |
 | baseArgument | [MathMatrix](../mathmatrix) | Base argument to apply radical |
 | degreeArgument | [MathFraction](../../mathfraction) | Degree value |
+
+### Returns
+[MathRadical](../../mathradical)
+
+
+---
+
+
+## createMathRadical([MathMatrix](../../mathmatrix) baseArgument, [MathematicalText](../../mathematicaltext) degreeArgument)  method
+
+ Creates a math radical
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathMatrix](../mathmatrix) | Base argument to apply radical |
+| degreeArgument | [MathematicalText](../../mathematicaltext) | Degree value |
 
 ### Returns
 [MathRadical](../../mathradical)
@@ -900,25 +900,6 @@ url: /php-java/mathradicalfactory/createmathradical/
 ---
 
 
-## createMathRadical([MathLimit](../../mathlimit) baseArgument, [MathGroupingCharacter](../../mathgroupingcharacter) degreeArgument)  method
-
- Creates a math radical
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathLimit](../mathlimit) | Base argument to apply radical |
-| degreeArgument | [MathGroupingCharacter](../../mathgroupingcharacter) | Degree value |
-
-### Returns
-[MathRadical](../../mathradical)
-
-
----
-
-
 ## createMathRadical([MathLimit](../../mathlimit) baseArgument, [MathBorderBox](../../mathborderbox) degreeArgument)  method
 
  Creates a math radical
@@ -930,6 +911,25 @@ url: /php-java/mathradicalfactory/createmathradical/
 | --- | --- | --- |
 | baseArgument | [MathLimit](../mathlimit) | Base argument to apply radical |
 | degreeArgument | [MathBorderBox](../../mathborderbox) | Degree value |
+
+### Returns
+[MathRadical](../../mathradical)
+
+
+---
+
+
+## createMathRadical([MathLimit](../../mathlimit) baseArgument, [MathGroupingCharacter](../../mathgroupingcharacter) degreeArgument)  method
+
+ Creates a math radical
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathLimit](../mathlimit) | Base argument to apply radical |
+| degreeArgument | [MathGroupingCharacter](../../mathgroupingcharacter) | Degree value |
 
 ### Returns
 [MathRadical](../../mathradical)
@@ -1014,25 +1014,6 @@ url: /php-java/mathradicalfactory/createmathradical/
 ---
 
 
-## createMathRadical([MathLimit](../../mathlimit) baseArgument, [MathematicalText](../../mathematicaltext) degreeArgument)  method
-
- Creates a math radical
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathLimit](../mathlimit) | Base argument to apply radical |
-| degreeArgument | [MathematicalText](../../mathematicaltext) | Degree value |
-
-### Returns
-[MathRadical](../../mathradical)
-
-
----
-
-
 ## createMathRadical([MathLimit](../../mathlimit) baseArgument, [MathFraction](../../mathfraction) degreeArgument)  method
 
  Creates a math radical
@@ -1044,6 +1025,25 @@ url: /php-java/mathradicalfactory/createmathradical/
 | --- | --- | --- |
 | baseArgument | [MathLimit](../mathlimit) | Base argument to apply radical |
 | degreeArgument | [MathFraction](../../mathfraction) | Degree value |
+
+### Returns
+[MathRadical](../../mathradical)
+
+
+---
+
+
+## createMathRadical([MathLimit](../../mathlimit) baseArgument, [MathematicalText](../../mathematicaltext) degreeArgument)  method
+
+ Creates a math radical
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathLimit](../mathlimit) | Base argument to apply radical |
+| degreeArgument | [MathematicalText](../../mathematicaltext) | Degree value |
 
 ### Returns
 [MathRadical](../../mathradical)
@@ -1261,25 +1261,6 @@ url: /php-java/mathradicalfactory/createmathradical/
 ---
 
 
-## createMathRadical([MathBlock](../../mathblock) baseArgument, [MathGroupingCharacter](../../mathgroupingcharacter) degreeArgument)  method
-
- Creates a math radical
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathBlock](../mathblock) | Base argument to apply radical |
-| degreeArgument | [MathGroupingCharacter](../../mathgroupingcharacter) | Degree value |
-
-### Returns
-[MathRadical](../../mathradical)
-
-
----
-
-
 ## createMathRadical([MathBlock](../../mathblock) baseArgument, [MathBorderBox](../../mathborderbox) degreeArgument)  method
 
  Creates a math radical
@@ -1291,6 +1272,25 @@ url: /php-java/mathradicalfactory/createmathradical/
 | --- | --- | --- |
 | baseArgument | [MathBlock](../mathblock) | Base argument to apply radical |
 | degreeArgument | [MathBorderBox](../../mathborderbox) | Degree value |
+
+### Returns
+[MathRadical](../../mathradical)
+
+
+---
+
+
+## createMathRadical([MathBlock](../../mathblock) baseArgument, [MathGroupingCharacter](../../mathgroupingcharacter) degreeArgument)  method
+
+ Creates a math radical
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathBlock](../mathblock) | Base argument to apply radical |
+| degreeArgument | [MathGroupingCharacter](../../mathgroupingcharacter) | Degree value |
 
 ### Returns
 [MathRadical](../../mathradical)
@@ -1375,25 +1375,6 @@ url: /php-java/mathradicalfactory/createmathradical/
 ---
 
 
-## createMathRadical([MathBlock](../../mathblock) baseArgument, [MathematicalText](../../mathematicaltext) degreeArgument)  method
-
- Creates a math radical
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathBlock](../mathblock) | Base argument to apply radical |
-| degreeArgument | [MathematicalText](../../mathematicaltext) | Degree value |
-
-### Returns
-[MathRadical](../../mathradical)
-
-
----
-
-
 ## createMathRadical([MathBlock](../../mathblock) baseArgument, [MathFraction](../../mathfraction) degreeArgument)  method
 
  Creates a math radical
@@ -1405,6 +1386,25 @@ url: /php-java/mathradicalfactory/createmathradical/
 | --- | --- | --- |
 | baseArgument | [MathBlock](../mathblock) | Base argument to apply radical |
 | degreeArgument | [MathFraction](../../mathfraction) | Degree value |
+
+### Returns
+[MathRadical](../../mathradical)
+
+
+---
+
+
+## createMathRadical([MathBlock](../../mathblock) baseArgument, [MathematicalText](../../mathematicaltext) degreeArgument)  method
+
+ Creates a math radical
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathBlock](../mathblock) | Base argument to apply radical |
+| degreeArgument | [MathematicalText](../../mathematicaltext) | Degree value |
 
 ### Returns
 [MathRadical](../../mathradical)
@@ -1622,25 +1622,6 @@ url: /php-java/mathradicalfactory/createmathradical/
 ---
 
 
-## createMathRadical([MathRadical](../../mathradical) baseArgument, [MathGroupingCharacter](../../mathgroupingcharacter) degreeArgument)  method
-
- Creates a math radical
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathRadical](../mathradical) | Base argument to apply radical |
-| degreeArgument | [MathGroupingCharacter](../../mathgroupingcharacter) | Degree value |
-
-### Returns
-[MathRadical](../../mathradical)
-
-
----
-
-
 ## createMathRadical([MathRadical](../../mathradical) baseArgument, [MathBorderBox](../../mathborderbox) degreeArgument)  method
 
  Creates a math radical
@@ -1652,6 +1633,25 @@ url: /php-java/mathradicalfactory/createmathradical/
 | --- | --- | --- |
 | baseArgument | [MathRadical](../mathradical) | Base argument to apply radical |
 | degreeArgument | [MathBorderBox](../../mathborderbox) | Degree value |
+
+### Returns
+[MathRadical](../../mathradical)
+
+
+---
+
+
+## createMathRadical([MathRadical](../../mathradical) baseArgument, [MathGroupingCharacter](../../mathgroupingcharacter) degreeArgument)  method
+
+ Creates a math radical
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathRadical](../mathradical) | Base argument to apply radical |
+| degreeArgument | [MathGroupingCharacter](../../mathgroupingcharacter) | Degree value |
 
 ### Returns
 [MathRadical](../../mathradical)
@@ -1736,25 +1736,6 @@ url: /php-java/mathradicalfactory/createmathradical/
 ---
 
 
-## createMathRadical([MathRadical](../../mathradical) baseArgument, [MathematicalText](../../mathematicaltext) degreeArgument)  method
-
- Creates a math radical
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathRadical](../mathradical) | Base argument to apply radical |
-| degreeArgument | [MathematicalText](../../mathematicaltext) | Degree value |
-
-### Returns
-[MathRadical](../../mathradical)
-
-
----
-
-
 ## createMathRadical([MathRadical](../../mathradical) baseArgument, [MathFraction](../../mathfraction) degreeArgument)  method
 
  Creates a math radical
@@ -1766,6 +1747,25 @@ url: /php-java/mathradicalfactory/createmathradical/
 | --- | --- | --- |
 | baseArgument | [MathRadical](../mathradical) | Base argument to apply radical |
 | degreeArgument | [MathFraction](../../mathfraction) | Degree value |
+
+### Returns
+[MathRadical](../../mathradical)
+
+
+---
+
+
+## createMathRadical([MathRadical](../../mathradical) baseArgument, [MathematicalText](../../mathematicaltext) degreeArgument)  method
+
+ Creates a math radical
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathRadical](../mathradical) | Base argument to apply radical |
+| degreeArgument | [MathematicalText](../../mathematicaltext) | Degree value |
 
 ### Returns
 [MathRadical](../../mathradical)
@@ -1983,25 +1983,6 @@ url: /php-java/mathradicalfactory/createmathradical/
 ---
 
 
-## createMathRadical([MathArray](../../matharray) baseArgument, [MathGroupingCharacter](../../mathgroupingcharacter) degreeArgument)  method
-
- Creates a math radical
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathArray](../matharray) | Base argument to apply radical |
-| degreeArgument | [MathGroupingCharacter](../../mathgroupingcharacter) | Degree value |
-
-### Returns
-[MathRadical](../../mathradical)
-
-
----
-
-
 ## createMathRadical([MathArray](../../matharray) baseArgument, [MathBorderBox](../../mathborderbox) degreeArgument)  method
 
  Creates a math radical
@@ -2013,6 +1994,25 @@ url: /php-java/mathradicalfactory/createmathradical/
 | --- | --- | --- |
 | baseArgument | [MathArray](../matharray) | Base argument to apply radical |
 | degreeArgument | [MathBorderBox](../../mathborderbox) | Degree value |
+
+### Returns
+[MathRadical](../../mathradical)
+
+
+---
+
+
+## createMathRadical([MathArray](../../matharray) baseArgument, [MathGroupingCharacter](../../mathgroupingcharacter) degreeArgument)  method
+
+ Creates a math radical
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathArray](../matharray) | Base argument to apply radical |
+| degreeArgument | [MathGroupingCharacter](../../mathgroupingcharacter) | Degree value |
 
 ### Returns
 [MathRadical](../../mathradical)
@@ -2097,25 +2097,6 @@ url: /php-java/mathradicalfactory/createmathradical/
 ---
 
 
-## createMathRadical([MathArray](../../matharray) baseArgument, [MathematicalText](../../mathematicaltext) degreeArgument)  method
-
- Creates a math radical
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathArray](../matharray) | Base argument to apply radical |
-| degreeArgument | [MathematicalText](../../mathematicaltext) | Degree value |
-
-### Returns
-[MathRadical](../../mathradical)
-
-
----
-
-
 ## createMathRadical([MathArray](../../matharray) baseArgument, [MathFraction](../../mathfraction) degreeArgument)  method
 
  Creates a math radical
@@ -2127,6 +2108,25 @@ url: /php-java/mathradicalfactory/createmathradical/
 | --- | --- | --- |
 | baseArgument | [MathArray](../matharray) | Base argument to apply radical |
 | degreeArgument | [MathFraction](../../mathfraction) | Degree value |
+
+### Returns
+[MathRadical](../../mathradical)
+
+
+---
+
+
+## createMathRadical([MathArray](../../matharray) baseArgument, [MathematicalText](../../mathematicaltext) degreeArgument)  method
+
+ Creates a math radical
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathArray](../matharray) | Base argument to apply radical |
+| degreeArgument | [MathematicalText](../../mathematicaltext) | Degree value |
 
 ### Returns
 [MathRadical](../../mathradical)
@@ -2344,25 +2344,6 @@ url: /php-java/mathradicalfactory/createmathradical/
 ---
 
 
-## createMathRadical([MathDelimiter](../../mathdelimiter) baseArgument, [MathGroupingCharacter](../../mathgroupingcharacter) degreeArgument)  method
-
- Creates a math radical
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathDelimiter](../mathdelimiter) | Base argument to apply radical |
-| degreeArgument | [MathGroupingCharacter](../../mathgroupingcharacter) | Degree value |
-
-### Returns
-[MathRadical](../../mathradical)
-
-
----
-
-
 ## createMathRadical([MathDelimiter](../../mathdelimiter) baseArgument, [MathBorderBox](../../mathborderbox) degreeArgument)  method
 
  Creates a math radical
@@ -2374,6 +2355,25 @@ url: /php-java/mathradicalfactory/createmathradical/
 | --- | --- | --- |
 | baseArgument | [MathDelimiter](../mathdelimiter) | Base argument to apply radical |
 | degreeArgument | [MathBorderBox](../../mathborderbox) | Degree value |
+
+### Returns
+[MathRadical](../../mathradical)
+
+
+---
+
+
+## createMathRadical([MathDelimiter](../../mathdelimiter) baseArgument, [MathGroupingCharacter](../../mathgroupingcharacter) degreeArgument)  method
+
+ Creates a math radical
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathDelimiter](../mathdelimiter) | Base argument to apply radical |
+| degreeArgument | [MathGroupingCharacter](../../mathgroupingcharacter) | Degree value |
 
 ### Returns
 [MathRadical](../../mathradical)
@@ -2458,25 +2458,6 @@ url: /php-java/mathradicalfactory/createmathradical/
 ---
 
 
-## createMathRadical([MathDelimiter](../../mathdelimiter) baseArgument, [MathematicalText](../../mathematicaltext) degreeArgument)  method
-
- Creates a math radical
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathDelimiter](../mathdelimiter) | Base argument to apply radical |
-| degreeArgument | [MathematicalText](../../mathematicaltext) | Degree value |
-
-### Returns
-[MathRadical](../../mathradical)
-
-
----
-
-
 ## createMathRadical([MathDelimiter](../../mathdelimiter) baseArgument, [MathFraction](../../mathfraction) degreeArgument)  method
 
  Creates a math radical
@@ -2488,6 +2469,25 @@ url: /php-java/mathradicalfactory/createmathradical/
 | --- | --- | --- |
 | baseArgument | [MathDelimiter](../mathdelimiter) | Base argument to apply radical |
 | degreeArgument | [MathFraction](../../mathfraction) | Degree value |
+
+### Returns
+[MathRadical](../../mathradical)
+
+
+---
+
+
+## createMathRadical([MathDelimiter](../../mathdelimiter) baseArgument, [MathematicalText](../../mathematicaltext) degreeArgument)  method
+
+ Creates a math radical
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathDelimiter](../mathdelimiter) | Base argument to apply radical |
+| degreeArgument | [MathematicalText](../../mathematicaltext) | Degree value |
 
 ### Returns
 [MathRadical](../../mathradical)
@@ -2705,25 +2705,6 @@ url: /php-java/mathradicalfactory/createmathradical/
 ---
 
 
-## createMathRadical([MathNaryOperator](../../mathnaryoperator) baseArgument, [MathGroupingCharacter](../../mathgroupingcharacter) degreeArgument)  method
-
- Creates a math radical
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathNaryOperator](../mathnaryoperator) | Base argument to apply radical |
-| degreeArgument | [MathGroupingCharacter](../../mathgroupingcharacter) | Degree value |
-
-### Returns
-[MathRadical](../../mathradical)
-
-
----
-
-
 ## createMathRadical([MathNaryOperator](../../mathnaryoperator) baseArgument, [MathBorderBox](../../mathborderbox) degreeArgument)  method
 
  Creates a math radical
@@ -2735,6 +2716,25 @@ url: /php-java/mathradicalfactory/createmathradical/
 | --- | --- | --- |
 | baseArgument | [MathNaryOperator](../mathnaryoperator) | Base argument to apply radical |
 | degreeArgument | [MathBorderBox](../../mathborderbox) | Degree value |
+
+### Returns
+[MathRadical](../../mathradical)
+
+
+---
+
+
+## createMathRadical([MathNaryOperator](../../mathnaryoperator) baseArgument, [MathGroupingCharacter](../../mathgroupingcharacter) degreeArgument)  method
+
+ Creates a math radical
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathNaryOperator](../mathnaryoperator) | Base argument to apply radical |
+| degreeArgument | [MathGroupingCharacter](../../mathgroupingcharacter) | Degree value |
 
 ### Returns
 [MathRadical](../../mathradical)
@@ -2819,25 +2819,6 @@ url: /php-java/mathradicalfactory/createmathradical/
 ---
 
 
-## createMathRadical([MathNaryOperator](../../mathnaryoperator) baseArgument, [MathematicalText](../../mathematicaltext) degreeArgument)  method
-
- Creates a math radical
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathNaryOperator](../mathnaryoperator) | Base argument to apply radical |
-| degreeArgument | [MathematicalText](../../mathematicaltext) | Degree value |
-
-### Returns
-[MathRadical](../../mathradical)
-
-
----
-
-
 ## createMathRadical([MathNaryOperator](../../mathnaryoperator) baseArgument, [MathFraction](../../mathfraction) degreeArgument)  method
 
  Creates a math radical
@@ -2849,6 +2830,25 @@ url: /php-java/mathradicalfactory/createmathradical/
 | --- | --- | --- |
 | baseArgument | [MathNaryOperator](../mathnaryoperator) | Base argument to apply radical |
 | degreeArgument | [MathFraction](../../mathfraction) | Degree value |
+
+### Returns
+[MathRadical](../../mathradical)
+
+
+---
+
+
+## createMathRadical([MathNaryOperator](../../mathnaryoperator) baseArgument, [MathematicalText](../../mathematicaltext) degreeArgument)  method
+
+ Creates a math radical
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathNaryOperator](../mathnaryoperator) | Base argument to apply radical |
+| degreeArgument | [MathematicalText](../../mathematicaltext) | Degree value |
 
 ### Returns
 [MathRadical](../../mathradical)
@@ -3066,25 +3066,6 @@ url: /php-java/mathradicalfactory/createmathradical/
 ---
 
 
-## createMathRadical([MathAccent](../../mathaccent) baseArgument, [MathGroupingCharacter](../../mathgroupingcharacter) degreeArgument)  method
-
- Creates a math radical
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathAccent](../mathaccent) | Base argument to apply radical |
-| degreeArgument | [MathGroupingCharacter](../../mathgroupingcharacter) | Degree value |
-
-### Returns
-[MathRadical](../../mathradical)
-
-
----
-
-
 ## createMathRadical([MathAccent](../../mathaccent) baseArgument, [MathBorderBox](../../mathborderbox) degreeArgument)  method
 
  Creates a math radical
@@ -3096,6 +3077,25 @@ url: /php-java/mathradicalfactory/createmathradical/
 | --- | --- | --- |
 | baseArgument | [MathAccent](../mathaccent) | Base argument to apply radical |
 | degreeArgument | [MathBorderBox](../../mathborderbox) | Degree value |
+
+### Returns
+[MathRadical](../../mathradical)
+
+
+---
+
+
+## createMathRadical([MathAccent](../../mathaccent) baseArgument, [MathGroupingCharacter](../../mathgroupingcharacter) degreeArgument)  method
+
+ Creates a math radical
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathAccent](../mathaccent) | Base argument to apply radical |
+| degreeArgument | [MathGroupingCharacter](../../mathgroupingcharacter) | Degree value |
 
 ### Returns
 [MathRadical](../../mathradical)
@@ -3180,25 +3180,6 @@ url: /php-java/mathradicalfactory/createmathradical/
 ---
 
 
-## createMathRadical([MathAccent](../../mathaccent) baseArgument, [MathematicalText](../../mathematicaltext) degreeArgument)  method
-
- Creates a math radical
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathAccent](../mathaccent) | Base argument to apply radical |
-| degreeArgument | [MathematicalText](../../mathematicaltext) | Degree value |
-
-### Returns
-[MathRadical](../../mathradical)
-
-
----
-
-
 ## createMathRadical([MathAccent](../../mathaccent) baseArgument, [MathFraction](../../mathfraction) degreeArgument)  method
 
  Creates a math radical
@@ -3210,6 +3191,25 @@ url: /php-java/mathradicalfactory/createmathradical/
 | --- | --- | --- |
 | baseArgument | [MathAccent](../mathaccent) | Base argument to apply radical |
 | degreeArgument | [MathFraction](../../mathfraction) | Degree value |
+
+### Returns
+[MathRadical](../../mathradical)
+
+
+---
+
+
+## createMathRadical([MathAccent](../../mathaccent) baseArgument, [MathematicalText](../../mathematicaltext) degreeArgument)  method
+
+ Creates a math radical
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathAccent](../mathaccent) | Base argument to apply radical |
+| degreeArgument | [MathematicalText](../../mathematicaltext) | Degree value |
 
 ### Returns
 [MathRadical](../../mathradical)
@@ -3247,367 +3247,6 @@ url: /php-java/mathradicalfactory/createmathradical/
 | Name | Type | Description |
 | --- | --- | --- |
 | baseArgument | [MathAccent](../mathaccent) | Base argument to apply radical |
-| degreeArgument | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | Degree value |
-
-### Returns
-[MathRadical](../../mathradical)
-
-
----
-
-
-## createMathRadical([MathGroupingCharacter](../../mathgroupingcharacter) baseArgument, [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) degreeArgument)  method
-
- Creates a math radical
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply radical |
-| degreeArgument | [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) | Degree value |
-
-### Returns
-[MathRadical](../../mathradical)
-
-
----
-
-
-## createMathRadical([MathGroupingCharacter](../../mathgroupingcharacter) baseArgument, [MathMatrix](../../mathmatrix) degreeArgument)  method
-
- Creates a math radical
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply radical |
-| degreeArgument | [MathMatrix](../../mathmatrix) | Degree value |
-
-### Returns
-[MathRadical](../../mathradical)
-
-
----
-
-
-## createMathRadical([MathGroupingCharacter](../../mathgroupingcharacter) baseArgument, [MathLimit](../../mathlimit) degreeArgument)  method
-
- Creates a math radical
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply radical |
-| degreeArgument | [MathLimit](../../mathlimit) | Degree value |
-
-### Returns
-[MathRadical](../../mathradical)
-
-
----
-
-
-## createMathRadical([MathGroupingCharacter](../../mathgroupingcharacter) baseArgument, [MathBlock](../../mathblock) degreeArgument)  method
-
- Creates a math radical
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply radical |
-| degreeArgument | [MathBlock](../../mathblock) | Degree value |
-
-### Returns
-[MathRadical](../../mathradical)
-
-
----
-
-
-## createMathRadical([MathGroupingCharacter](../../mathgroupingcharacter) baseArgument, [MathRadical](../../mathradical) degreeArgument)  method
-
- Creates a math radical
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply radical |
-| degreeArgument | [MathRadical](../../mathradical) | Degree value |
-
-### Returns
-[MathRadical](../../mathradical)
-
-
----
-
-
-## createMathRadical([MathGroupingCharacter](../../mathgroupingcharacter) baseArgument, [MathArray](../../matharray) degreeArgument)  method
-
- Creates a math radical
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply radical |
-| degreeArgument | [MathArray](../../matharray) | Degree value |
-
-### Returns
-[MathRadical](../../mathradical)
-
-
----
-
-
-## createMathRadical([MathGroupingCharacter](../../mathgroupingcharacter) baseArgument, [MathDelimiter](../../mathdelimiter) degreeArgument)  method
-
- Creates a math radical
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply radical |
-| degreeArgument | [MathDelimiter](../../mathdelimiter) | Degree value |
-
-### Returns
-[MathRadical](../../mathradical)
-
-
----
-
-
-## createMathRadical([MathGroupingCharacter](../../mathgroupingcharacter) baseArgument, [MathNaryOperator](../../mathnaryoperator) degreeArgument)  method
-
- Creates a math radical
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply radical |
-| degreeArgument | [MathNaryOperator](../../mathnaryoperator) | Degree value |
-
-### Returns
-[MathRadical](../../mathradical)
-
-
----
-
-
-## createMathRadical([MathGroupingCharacter](../../mathgroupingcharacter) baseArgument, [MathAccent](../../mathaccent) degreeArgument)  method
-
- Creates a math radical
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply radical |
-| degreeArgument | [MathAccent](../../mathaccent) | Degree value |
-
-### Returns
-[MathRadical](../../mathradical)
-
-
----
-
-
-## createMathRadical([MathGroupingCharacter](../../mathgroupingcharacter) baseArgument, [MathGroupingCharacter](../../mathgroupingcharacter) degreeArgument)  method
-
- Creates a math radical
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply radical |
-| degreeArgument | [MathGroupingCharacter](../../mathgroupingcharacter) | Degree value |
-
-### Returns
-[MathRadical](../../mathradical)
-
-
----
-
-
-## createMathRadical([MathGroupingCharacter](../../mathgroupingcharacter) baseArgument, [MathBorderBox](../../mathborderbox) degreeArgument)  method
-
- Creates a math radical
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply radical |
-| degreeArgument | [MathBorderBox](../../mathborderbox) | Degree value |
-
-### Returns
-[MathRadical](../../mathradical)
-
-
----
-
-
-## createMathRadical([MathGroupingCharacter](../../mathgroupingcharacter) baseArgument, [MathBar](../../mathbar) degreeArgument)  method
-
- Creates a math radical
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply radical |
-| degreeArgument | [MathBar](../../mathbar) | Degree value |
-
-### Returns
-[MathRadical](../../mathradical)
-
-
----
-
-
-## createMathRadical([MathGroupingCharacter](../../mathgroupingcharacter) baseArgument, [MathSubscriptElement](../../mathsubscriptelement) degreeArgument)  method
-
- Creates a math radical
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply radical |
-| degreeArgument | [MathSubscriptElement](../../mathsubscriptelement) | Degree value |
-
-### Returns
-[MathRadical](../../mathradical)
-
-
----
-
-
-## createMathRadical([MathGroupingCharacter](../../mathgroupingcharacter) baseArgument, [MathFunction](../../mathfunction) degreeArgument)  method
-
- Creates a math radical
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply radical |
-| degreeArgument | [MathFunction](../../mathfunction) | Degree value |
-
-### Returns
-[MathRadical](../../mathradical)
-
-
----
-
-
-## createMathRadical([MathGroupingCharacter](../../mathgroupingcharacter) baseArgument, [MathSuperscriptElement](../../mathsuperscriptelement) degreeArgument)  method
-
- Creates a math radical
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply radical |
-| degreeArgument | [MathSuperscriptElement](../../mathsuperscriptelement) | Degree value |
-
-### Returns
-[MathRadical](../../mathradical)
-
-
----
-
-
-## createMathRadical([MathGroupingCharacter](../../mathgroupingcharacter) baseArgument, [MathematicalText](../../mathematicaltext) degreeArgument)  method
-
- Creates a math radical
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply radical |
-| degreeArgument | [MathematicalText](../../mathematicaltext) | Degree value |
-
-### Returns
-[MathRadical](../../mathradical)
-
-
----
-
-
-## createMathRadical([MathGroupingCharacter](../../mathgroupingcharacter) baseArgument, [MathFraction](../../mathfraction) degreeArgument)  method
-
- Creates a math radical
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply radical |
-| degreeArgument | [MathFraction](../../mathfraction) | Degree value |
-
-### Returns
-[MathRadical](../../mathradical)
-
-
----
-
-
-## createMathRadical([MathGroupingCharacter](../../mathgroupingcharacter) baseArgument, [MathBox](../../mathbox) degreeArgument)  method
-
- Creates a math radical
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply radical |
-| degreeArgument | [MathBox](../../mathbox) | Degree value |
-
-### Returns
-[MathRadical](../../mathradical)
-
-
----
-
-
-## createMathRadical([MathGroupingCharacter](../../mathgroupingcharacter) baseArgument, [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) degreeArgument)  method
-
- Creates a math radical
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply radical |
 | degreeArgument | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | Degree value |
 
 ### Returns
@@ -3788,25 +3427,6 @@ url: /php-java/mathradicalfactory/createmathradical/
 ---
 
 
-## createMathRadical([MathBorderBox](../../mathborderbox) baseArgument, [MathGroupingCharacter](../../mathgroupingcharacter) degreeArgument)  method
-
- Creates a math radical
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathBorderBox](../mathborderbox) | Base argument to apply radical |
-| degreeArgument | [MathGroupingCharacter](../../mathgroupingcharacter) | Degree value |
-
-### Returns
-[MathRadical](../../mathradical)
-
-
----
-
-
 ## createMathRadical([MathBorderBox](../../mathborderbox) baseArgument, [MathBorderBox](../../mathborderbox) degreeArgument)  method
 
  Creates a math radical
@@ -3818,6 +3438,25 @@ url: /php-java/mathradicalfactory/createmathradical/
 | --- | --- | --- |
 | baseArgument | [MathBorderBox](../mathborderbox) | Base argument to apply radical |
 | degreeArgument | [MathBorderBox](../../mathborderbox) | Degree value |
+
+### Returns
+[MathRadical](../../mathradical)
+
+
+---
+
+
+## createMathRadical([MathBorderBox](../../mathborderbox) baseArgument, [MathGroupingCharacter](../../mathgroupingcharacter) degreeArgument)  method
+
+ Creates a math radical
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathBorderBox](../mathborderbox) | Base argument to apply radical |
+| degreeArgument | [MathGroupingCharacter](../../mathgroupingcharacter) | Degree value |
 
 ### Returns
 [MathRadical](../../mathradical)
@@ -3902,25 +3541,6 @@ url: /php-java/mathradicalfactory/createmathradical/
 ---
 
 
-## createMathRadical([MathBorderBox](../../mathborderbox) baseArgument, [MathematicalText](../../mathematicaltext) degreeArgument)  method
-
- Creates a math radical
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathBorderBox](../mathborderbox) | Base argument to apply radical |
-| degreeArgument | [MathematicalText](../../mathematicaltext) | Degree value |
-
-### Returns
-[MathRadical](../../mathradical)
-
-
----
-
-
 ## createMathRadical([MathBorderBox](../../mathborderbox) baseArgument, [MathFraction](../../mathfraction) degreeArgument)  method
 
  Creates a math radical
@@ -3932,6 +3552,25 @@ url: /php-java/mathradicalfactory/createmathradical/
 | --- | --- | --- |
 | baseArgument | [MathBorderBox](../mathborderbox) | Base argument to apply radical |
 | degreeArgument | [MathFraction](../../mathfraction) | Degree value |
+
+### Returns
+[MathRadical](../../mathradical)
+
+
+---
+
+
+## createMathRadical([MathBorderBox](../../mathborderbox) baseArgument, [MathematicalText](../../mathematicaltext) degreeArgument)  method
+
+ Creates a math radical
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathBorderBox](../mathborderbox) | Base argument to apply radical |
+| degreeArgument | [MathematicalText](../../mathematicaltext) | Degree value |
 
 ### Returns
 [MathRadical](../../mathradical)
@@ -3969,6 +3608,367 @@ url: /php-java/mathradicalfactory/createmathradical/
 | Name | Type | Description |
 | --- | --- | --- |
 | baseArgument | [MathBorderBox](../mathborderbox) | Base argument to apply radical |
+| degreeArgument | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | Degree value |
+
+### Returns
+[MathRadical](../../mathradical)
+
+
+---
+
+
+## createMathRadical([MathGroupingCharacter](../../mathgroupingcharacter) baseArgument, [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) degreeArgument)  method
+
+ Creates a math radical
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply radical |
+| degreeArgument | [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) | Degree value |
+
+### Returns
+[MathRadical](../../mathradical)
+
+
+---
+
+
+## createMathRadical([MathGroupingCharacter](../../mathgroupingcharacter) baseArgument, [MathMatrix](../../mathmatrix) degreeArgument)  method
+
+ Creates a math radical
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply radical |
+| degreeArgument | [MathMatrix](../../mathmatrix) | Degree value |
+
+### Returns
+[MathRadical](../../mathradical)
+
+
+---
+
+
+## createMathRadical([MathGroupingCharacter](../../mathgroupingcharacter) baseArgument, [MathLimit](../../mathlimit) degreeArgument)  method
+
+ Creates a math radical
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply radical |
+| degreeArgument | [MathLimit](../../mathlimit) | Degree value |
+
+### Returns
+[MathRadical](../../mathradical)
+
+
+---
+
+
+## createMathRadical([MathGroupingCharacter](../../mathgroupingcharacter) baseArgument, [MathBlock](../../mathblock) degreeArgument)  method
+
+ Creates a math radical
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply radical |
+| degreeArgument | [MathBlock](../../mathblock) | Degree value |
+
+### Returns
+[MathRadical](../../mathradical)
+
+
+---
+
+
+## createMathRadical([MathGroupingCharacter](../../mathgroupingcharacter) baseArgument, [MathRadical](../../mathradical) degreeArgument)  method
+
+ Creates a math radical
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply radical |
+| degreeArgument | [MathRadical](../../mathradical) | Degree value |
+
+### Returns
+[MathRadical](../../mathradical)
+
+
+---
+
+
+## createMathRadical([MathGroupingCharacter](../../mathgroupingcharacter) baseArgument, [MathArray](../../matharray) degreeArgument)  method
+
+ Creates a math radical
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply radical |
+| degreeArgument | [MathArray](../../matharray) | Degree value |
+
+### Returns
+[MathRadical](../../mathradical)
+
+
+---
+
+
+## createMathRadical([MathGroupingCharacter](../../mathgroupingcharacter) baseArgument, [MathDelimiter](../../mathdelimiter) degreeArgument)  method
+
+ Creates a math radical
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply radical |
+| degreeArgument | [MathDelimiter](../../mathdelimiter) | Degree value |
+
+### Returns
+[MathRadical](../../mathradical)
+
+
+---
+
+
+## createMathRadical([MathGroupingCharacter](../../mathgroupingcharacter) baseArgument, [MathNaryOperator](../../mathnaryoperator) degreeArgument)  method
+
+ Creates a math radical
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply radical |
+| degreeArgument | [MathNaryOperator](../../mathnaryoperator) | Degree value |
+
+### Returns
+[MathRadical](../../mathradical)
+
+
+---
+
+
+## createMathRadical([MathGroupingCharacter](../../mathgroupingcharacter) baseArgument, [MathAccent](../../mathaccent) degreeArgument)  method
+
+ Creates a math radical
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply radical |
+| degreeArgument | [MathAccent](../../mathaccent) | Degree value |
+
+### Returns
+[MathRadical](../../mathradical)
+
+
+---
+
+
+## createMathRadical([MathGroupingCharacter](../../mathgroupingcharacter) baseArgument, [MathBorderBox](../../mathborderbox) degreeArgument)  method
+
+ Creates a math radical
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply radical |
+| degreeArgument | [MathBorderBox](../../mathborderbox) | Degree value |
+
+### Returns
+[MathRadical](../../mathradical)
+
+
+---
+
+
+## createMathRadical([MathGroupingCharacter](../../mathgroupingcharacter) baseArgument, [MathGroupingCharacter](../../mathgroupingcharacter) degreeArgument)  method
+
+ Creates a math radical
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply radical |
+| degreeArgument | [MathGroupingCharacter](../../mathgroupingcharacter) | Degree value |
+
+### Returns
+[MathRadical](../../mathradical)
+
+
+---
+
+
+## createMathRadical([MathGroupingCharacter](../../mathgroupingcharacter) baseArgument, [MathBar](../../mathbar) degreeArgument)  method
+
+ Creates a math radical
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply radical |
+| degreeArgument | [MathBar](../../mathbar) | Degree value |
+
+### Returns
+[MathRadical](../../mathradical)
+
+
+---
+
+
+## createMathRadical([MathGroupingCharacter](../../mathgroupingcharacter) baseArgument, [MathSubscriptElement](../../mathsubscriptelement) degreeArgument)  method
+
+ Creates a math radical
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply radical |
+| degreeArgument | [MathSubscriptElement](../../mathsubscriptelement) | Degree value |
+
+### Returns
+[MathRadical](../../mathradical)
+
+
+---
+
+
+## createMathRadical([MathGroupingCharacter](../../mathgroupingcharacter) baseArgument, [MathFunction](../../mathfunction) degreeArgument)  method
+
+ Creates a math radical
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply radical |
+| degreeArgument | [MathFunction](../../mathfunction) | Degree value |
+
+### Returns
+[MathRadical](../../mathradical)
+
+
+---
+
+
+## createMathRadical([MathGroupingCharacter](../../mathgroupingcharacter) baseArgument, [MathSuperscriptElement](../../mathsuperscriptelement) degreeArgument)  method
+
+ Creates a math radical
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply radical |
+| degreeArgument | [MathSuperscriptElement](../../mathsuperscriptelement) | Degree value |
+
+### Returns
+[MathRadical](../../mathradical)
+
+
+---
+
+
+## createMathRadical([MathGroupingCharacter](../../mathgroupingcharacter) baseArgument, [MathFraction](../../mathfraction) degreeArgument)  method
+
+ Creates a math radical
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply radical |
+| degreeArgument | [MathFraction](../../mathfraction) | Degree value |
+
+### Returns
+[MathRadical](../../mathradical)
+
+
+---
+
+
+## createMathRadical([MathGroupingCharacter](../../mathgroupingcharacter) baseArgument, [MathematicalText](../../mathematicaltext) degreeArgument)  method
+
+ Creates a math radical
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply radical |
+| degreeArgument | [MathematicalText](../../mathematicaltext) | Degree value |
+
+### Returns
+[MathRadical](../../mathradical)
+
+
+---
+
+
+## createMathRadical([MathGroupingCharacter](../../mathgroupingcharacter) baseArgument, [MathBox](../../mathbox) degreeArgument)  method
+
+ Creates a math radical
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply radical |
+| degreeArgument | [MathBox](../../mathbox) | Degree value |
+
+### Returns
+[MathRadical](../../mathradical)
+
+
+---
+
+
+## createMathRadical([MathGroupingCharacter](../../mathgroupingcharacter) baseArgument, [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) degreeArgument)  method
+
+ Creates a math radical
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply radical |
 | degreeArgument | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | Degree value |
 
 ### Returns
@@ -4149,25 +4149,6 @@ url: /php-java/mathradicalfactory/createmathradical/
 ---
 
 
-## createMathRadical([MathBar](../../mathbar) baseArgument, [MathGroupingCharacter](../../mathgroupingcharacter) degreeArgument)  method
-
- Creates a math radical
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathBar](../mathbar) | Base argument to apply radical |
-| degreeArgument | [MathGroupingCharacter](../../mathgroupingcharacter) | Degree value |
-
-### Returns
-[MathRadical](../../mathradical)
-
-
----
-
-
 ## createMathRadical([MathBar](../../mathbar) baseArgument, [MathBorderBox](../../mathborderbox) degreeArgument)  method
 
  Creates a math radical
@@ -4179,6 +4160,25 @@ url: /php-java/mathradicalfactory/createmathradical/
 | --- | --- | --- |
 | baseArgument | [MathBar](../mathbar) | Base argument to apply radical |
 | degreeArgument | [MathBorderBox](../../mathborderbox) | Degree value |
+
+### Returns
+[MathRadical](../../mathradical)
+
+
+---
+
+
+## createMathRadical([MathBar](../../mathbar) baseArgument, [MathGroupingCharacter](../../mathgroupingcharacter) degreeArgument)  method
+
+ Creates a math radical
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathBar](../mathbar) | Base argument to apply radical |
+| degreeArgument | [MathGroupingCharacter](../../mathgroupingcharacter) | Degree value |
 
 ### Returns
 [MathRadical](../../mathradical)
@@ -4263,25 +4263,6 @@ url: /php-java/mathradicalfactory/createmathradical/
 ---
 
 
-## createMathRadical([MathBar](../../mathbar) baseArgument, [MathematicalText](../../mathematicaltext) degreeArgument)  method
-
- Creates a math radical
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathBar](../mathbar) | Base argument to apply radical |
-| degreeArgument | [MathematicalText](../../mathematicaltext) | Degree value |
-
-### Returns
-[MathRadical](../../mathradical)
-
-
----
-
-
 ## createMathRadical([MathBar](../../mathbar) baseArgument, [MathFraction](../../mathfraction) degreeArgument)  method
 
  Creates a math radical
@@ -4293,6 +4274,25 @@ url: /php-java/mathradicalfactory/createmathradical/
 | --- | --- | --- |
 | baseArgument | [MathBar](../mathbar) | Base argument to apply radical |
 | degreeArgument | [MathFraction](../../mathfraction) | Degree value |
+
+### Returns
+[MathRadical](../../mathradical)
+
+
+---
+
+
+## createMathRadical([MathBar](../../mathbar) baseArgument, [MathematicalText](../../mathematicaltext) degreeArgument)  method
+
+ Creates a math radical
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathBar](../mathbar) | Base argument to apply radical |
+| degreeArgument | [MathematicalText](../../mathematicaltext) | Degree value |
 
 ### Returns
 [MathRadical](../../mathradical)
@@ -4510,25 +4510,6 @@ url: /php-java/mathradicalfactory/createmathradical/
 ---
 
 
-## createMathRadical([MathSubscriptElement](../../mathsubscriptelement) baseArgument, [MathGroupingCharacter](../../mathgroupingcharacter) degreeArgument)  method
-
- Creates a math radical
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathSubscriptElement](../mathsubscriptelement) | Base argument to apply radical |
-| degreeArgument | [MathGroupingCharacter](../../mathgroupingcharacter) | Degree value |
-
-### Returns
-[MathRadical](../../mathradical)
-
-
----
-
-
 ## createMathRadical([MathSubscriptElement](../../mathsubscriptelement) baseArgument, [MathBorderBox](../../mathborderbox) degreeArgument)  method
 
  Creates a math radical
@@ -4540,6 +4521,25 @@ url: /php-java/mathradicalfactory/createmathradical/
 | --- | --- | --- |
 | baseArgument | [MathSubscriptElement](../mathsubscriptelement) | Base argument to apply radical |
 | degreeArgument | [MathBorderBox](../../mathborderbox) | Degree value |
+
+### Returns
+[MathRadical](../../mathradical)
+
+
+---
+
+
+## createMathRadical([MathSubscriptElement](../../mathsubscriptelement) baseArgument, [MathGroupingCharacter](../../mathgroupingcharacter) degreeArgument)  method
+
+ Creates a math radical
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathSubscriptElement](../mathsubscriptelement) | Base argument to apply radical |
+| degreeArgument | [MathGroupingCharacter](../../mathgroupingcharacter) | Degree value |
 
 ### Returns
 [MathRadical](../../mathradical)
@@ -4624,25 +4624,6 @@ url: /php-java/mathradicalfactory/createmathradical/
 ---
 
 
-## createMathRadical([MathSubscriptElement](../../mathsubscriptelement) baseArgument, [MathematicalText](../../mathematicaltext) degreeArgument)  method
-
- Creates a math radical
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathSubscriptElement](../mathsubscriptelement) | Base argument to apply radical |
-| degreeArgument | [MathematicalText](../../mathematicaltext) | Degree value |
-
-### Returns
-[MathRadical](../../mathradical)
-
-
----
-
-
 ## createMathRadical([MathSubscriptElement](../../mathsubscriptelement) baseArgument, [MathFraction](../../mathfraction) degreeArgument)  method
 
  Creates a math radical
@@ -4654,6 +4635,25 @@ url: /php-java/mathradicalfactory/createmathradical/
 | --- | --- | --- |
 | baseArgument | [MathSubscriptElement](../mathsubscriptelement) | Base argument to apply radical |
 | degreeArgument | [MathFraction](../../mathfraction) | Degree value |
+
+### Returns
+[MathRadical](../../mathradical)
+
+
+---
+
+
+## createMathRadical([MathSubscriptElement](../../mathsubscriptelement) baseArgument, [MathematicalText](../../mathematicaltext) degreeArgument)  method
+
+ Creates a math radical
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathSubscriptElement](../mathsubscriptelement) | Base argument to apply radical |
+| degreeArgument | [MathematicalText](../../mathematicaltext) | Degree value |
 
 ### Returns
 [MathRadical](../../mathradical)
@@ -4871,25 +4871,6 @@ url: /php-java/mathradicalfactory/createmathradical/
 ---
 
 
-## createMathRadical([MathFunction](../../mathfunction) baseArgument, [MathGroupingCharacter](../../mathgroupingcharacter) degreeArgument)  method
-
- Creates a math radical
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathFunction](../mathfunction) | Base argument to apply radical |
-| degreeArgument | [MathGroupingCharacter](../../mathgroupingcharacter) | Degree value |
-
-### Returns
-[MathRadical](../../mathradical)
-
-
----
-
-
 ## createMathRadical([MathFunction](../../mathfunction) baseArgument, [MathBorderBox](../../mathborderbox) degreeArgument)  method
 
  Creates a math radical
@@ -4901,6 +4882,25 @@ url: /php-java/mathradicalfactory/createmathradical/
 | --- | --- | --- |
 | baseArgument | [MathFunction](../mathfunction) | Base argument to apply radical |
 | degreeArgument | [MathBorderBox](../../mathborderbox) | Degree value |
+
+### Returns
+[MathRadical](../../mathradical)
+
+
+---
+
+
+## createMathRadical([MathFunction](../../mathfunction) baseArgument, [MathGroupingCharacter](../../mathgroupingcharacter) degreeArgument)  method
+
+ Creates a math radical
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathFunction](../mathfunction) | Base argument to apply radical |
+| degreeArgument | [MathGroupingCharacter](../../mathgroupingcharacter) | Degree value |
 
 ### Returns
 [MathRadical](../../mathradical)
@@ -4985,25 +4985,6 @@ url: /php-java/mathradicalfactory/createmathradical/
 ---
 
 
-## createMathRadical([MathFunction](../../mathfunction) baseArgument, [MathematicalText](../../mathematicaltext) degreeArgument)  method
-
- Creates a math radical
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathFunction](../mathfunction) | Base argument to apply radical |
-| degreeArgument | [MathematicalText](../../mathematicaltext) | Degree value |
-
-### Returns
-[MathRadical](../../mathradical)
-
-
----
-
-
 ## createMathRadical([MathFunction](../../mathfunction) baseArgument, [MathFraction](../../mathfraction) degreeArgument)  method
 
  Creates a math radical
@@ -5015,6 +4996,25 @@ url: /php-java/mathradicalfactory/createmathradical/
 | --- | --- | --- |
 | baseArgument | [MathFunction](../mathfunction) | Base argument to apply radical |
 | degreeArgument | [MathFraction](../../mathfraction) | Degree value |
+
+### Returns
+[MathRadical](../../mathradical)
+
+
+---
+
+
+## createMathRadical([MathFunction](../../mathfunction) baseArgument, [MathematicalText](../../mathematicaltext) degreeArgument)  method
+
+ Creates a math radical
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathFunction](../mathfunction) | Base argument to apply radical |
+| degreeArgument | [MathematicalText](../../mathematicaltext) | Degree value |
 
 ### Returns
 [MathRadical](../../mathradical)
@@ -5232,25 +5232,6 @@ url: /php-java/mathradicalfactory/createmathradical/
 ---
 
 
-## createMathRadical([MathSuperscriptElement](../../mathsuperscriptelement) baseArgument, [MathGroupingCharacter](../../mathgroupingcharacter) degreeArgument)  method
-
- Creates a math radical
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply radical |
-| degreeArgument | [MathGroupingCharacter](../../mathgroupingcharacter) | Degree value |
-
-### Returns
-[MathRadical](../../mathradical)
-
-
----
-
-
 ## createMathRadical([MathSuperscriptElement](../../mathsuperscriptelement) baseArgument, [MathBorderBox](../../mathborderbox) degreeArgument)  method
 
  Creates a math radical
@@ -5262,6 +5243,25 @@ url: /php-java/mathradicalfactory/createmathradical/
 | --- | --- | --- |
 | baseArgument | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply radical |
 | degreeArgument | [MathBorderBox](../../mathborderbox) | Degree value |
+
+### Returns
+[MathRadical](../../mathradical)
+
+
+---
+
+
+## createMathRadical([MathSuperscriptElement](../../mathsuperscriptelement) baseArgument, [MathGroupingCharacter](../../mathgroupingcharacter) degreeArgument)  method
+
+ Creates a math radical
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply radical |
+| degreeArgument | [MathGroupingCharacter](../../mathgroupingcharacter) | Degree value |
 
 ### Returns
 [MathRadical](../../mathradical)
@@ -5346,25 +5346,6 @@ url: /php-java/mathradicalfactory/createmathradical/
 ---
 
 
-## createMathRadical([MathSuperscriptElement](../../mathsuperscriptelement) baseArgument, [MathematicalText](../../mathematicaltext) degreeArgument)  method
-
- Creates a math radical
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply radical |
-| degreeArgument | [MathematicalText](../../mathematicaltext) | Degree value |
-
-### Returns
-[MathRadical](../../mathradical)
-
-
----
-
-
 ## createMathRadical([MathSuperscriptElement](../../mathsuperscriptelement) baseArgument, [MathFraction](../../mathfraction) degreeArgument)  method
 
  Creates a math radical
@@ -5376,6 +5357,25 @@ url: /php-java/mathradicalfactory/createmathradical/
 | --- | --- | --- |
 | baseArgument | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply radical |
 | degreeArgument | [MathFraction](../../mathfraction) | Degree value |
+
+### Returns
+[MathRadical](../../mathradical)
+
+
+---
+
+
+## createMathRadical([MathSuperscriptElement](../../mathsuperscriptelement) baseArgument, [MathematicalText](../../mathematicaltext) degreeArgument)  method
+
+ Creates a math radical
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply radical |
+| degreeArgument | [MathematicalText](../../mathematicaltext) | Degree value |
 
 ### Returns
 [MathRadical](../../mathradical)
@@ -5413,367 +5413,6 @@ url: /php-java/mathradicalfactory/createmathradical/
 | Name | Type | Description |
 | --- | --- | --- |
 | baseArgument | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply radical |
-| degreeArgument | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | Degree value |
-
-### Returns
-[MathRadical](../../mathradical)
-
-
----
-
-
-## createMathRadical([MathematicalText](../../mathematicaltext) baseArgument, [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) degreeArgument)  method
-
- Creates a math radical
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathematicalText](../mathematicaltext) | Base argument to apply radical |
-| degreeArgument | [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) | Degree value |
-
-### Returns
-[MathRadical](../../mathradical)
-
-
----
-
-
-## createMathRadical([MathematicalText](../../mathematicaltext) baseArgument, [MathMatrix](../../mathmatrix) degreeArgument)  method
-
- Creates a math radical
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathematicalText](../mathematicaltext) | Base argument to apply radical |
-| degreeArgument | [MathMatrix](../../mathmatrix) | Degree value |
-
-### Returns
-[MathRadical](../../mathradical)
-
-
----
-
-
-## createMathRadical([MathematicalText](../../mathematicaltext) baseArgument, [MathLimit](../../mathlimit) degreeArgument)  method
-
- Creates a math radical
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathematicalText](../mathematicaltext) | Base argument to apply radical |
-| degreeArgument | [MathLimit](../../mathlimit) | Degree value |
-
-### Returns
-[MathRadical](../../mathradical)
-
-
----
-
-
-## createMathRadical([MathematicalText](../../mathematicaltext) baseArgument, [MathBlock](../../mathblock) degreeArgument)  method
-
- Creates a math radical
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathematicalText](../mathematicaltext) | Base argument to apply radical |
-| degreeArgument | [MathBlock](../../mathblock) | Degree value |
-
-### Returns
-[MathRadical](../../mathradical)
-
-
----
-
-
-## createMathRadical([MathematicalText](../../mathematicaltext) baseArgument, [MathRadical](../../mathradical) degreeArgument)  method
-
- Creates a math radical
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathematicalText](../mathematicaltext) | Base argument to apply radical |
-| degreeArgument | [MathRadical](../../mathradical) | Degree value |
-
-### Returns
-[MathRadical](../../mathradical)
-
-
----
-
-
-## createMathRadical([MathematicalText](../../mathematicaltext) baseArgument, [MathArray](../../matharray) degreeArgument)  method
-
- Creates a math radical
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathematicalText](../mathematicaltext) | Base argument to apply radical |
-| degreeArgument | [MathArray](../../matharray) | Degree value |
-
-### Returns
-[MathRadical](../../mathradical)
-
-
----
-
-
-## createMathRadical([MathematicalText](../../mathematicaltext) baseArgument, [MathDelimiter](../../mathdelimiter) degreeArgument)  method
-
- Creates a math radical
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathematicalText](../mathematicaltext) | Base argument to apply radical |
-| degreeArgument | [MathDelimiter](../../mathdelimiter) | Degree value |
-
-### Returns
-[MathRadical](../../mathradical)
-
-
----
-
-
-## createMathRadical([MathematicalText](../../mathematicaltext) baseArgument, [MathNaryOperator](../../mathnaryoperator) degreeArgument)  method
-
- Creates a math radical
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathematicalText](../mathematicaltext) | Base argument to apply radical |
-| degreeArgument | [MathNaryOperator](../../mathnaryoperator) | Degree value |
-
-### Returns
-[MathRadical](../../mathradical)
-
-
----
-
-
-## createMathRadical([MathematicalText](../../mathematicaltext) baseArgument, [MathAccent](../../mathaccent) degreeArgument)  method
-
- Creates a math radical
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathematicalText](../mathematicaltext) | Base argument to apply radical |
-| degreeArgument | [MathAccent](../../mathaccent) | Degree value |
-
-### Returns
-[MathRadical](../../mathradical)
-
-
----
-
-
-## createMathRadical([MathematicalText](../../mathematicaltext) baseArgument, [MathGroupingCharacter](../../mathgroupingcharacter) degreeArgument)  method
-
- Creates a math radical
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathematicalText](../mathematicaltext) | Base argument to apply radical |
-| degreeArgument | [MathGroupingCharacter](../../mathgroupingcharacter) | Degree value |
-
-### Returns
-[MathRadical](../../mathradical)
-
-
----
-
-
-## createMathRadical([MathematicalText](../../mathematicaltext) baseArgument, [MathBorderBox](../../mathborderbox) degreeArgument)  method
-
- Creates a math radical
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathematicalText](../mathematicaltext) | Base argument to apply radical |
-| degreeArgument | [MathBorderBox](../../mathborderbox) | Degree value |
-
-### Returns
-[MathRadical](../../mathradical)
-
-
----
-
-
-## createMathRadical([MathematicalText](../../mathematicaltext) baseArgument, [MathBar](../../mathbar) degreeArgument)  method
-
- Creates a math radical
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathematicalText](../mathematicaltext) | Base argument to apply radical |
-| degreeArgument | [MathBar](../../mathbar) | Degree value |
-
-### Returns
-[MathRadical](../../mathradical)
-
-
----
-
-
-## createMathRadical([MathematicalText](../../mathematicaltext) baseArgument, [MathSubscriptElement](../../mathsubscriptelement) degreeArgument)  method
-
- Creates a math radical
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathematicalText](../mathematicaltext) | Base argument to apply radical |
-| degreeArgument | [MathSubscriptElement](../../mathsubscriptelement) | Degree value |
-
-### Returns
-[MathRadical](../../mathradical)
-
-
----
-
-
-## createMathRadical([MathematicalText](../../mathematicaltext) baseArgument, [MathFunction](../../mathfunction) degreeArgument)  method
-
- Creates a math radical
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathematicalText](../mathematicaltext) | Base argument to apply radical |
-| degreeArgument | [MathFunction](../../mathfunction) | Degree value |
-
-### Returns
-[MathRadical](../../mathradical)
-
-
----
-
-
-## createMathRadical([MathematicalText](../../mathematicaltext) baseArgument, [MathSuperscriptElement](../../mathsuperscriptelement) degreeArgument)  method
-
- Creates a math radical
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathematicalText](../mathematicaltext) | Base argument to apply radical |
-| degreeArgument | [MathSuperscriptElement](../../mathsuperscriptelement) | Degree value |
-
-### Returns
-[MathRadical](../../mathradical)
-
-
----
-
-
-## createMathRadical([MathematicalText](../../mathematicaltext) baseArgument, [MathematicalText](../../mathematicaltext) degreeArgument)  method
-
- Creates a math radical
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathematicalText](../mathematicaltext) | Base argument to apply radical |
-| degreeArgument | [MathematicalText](../../mathematicaltext) | Degree value |
-
-### Returns
-[MathRadical](../../mathradical)
-
-
----
-
-
-## createMathRadical([MathematicalText](../../mathematicaltext) baseArgument, [MathFraction](../../mathfraction) degreeArgument)  method
-
- Creates a math radical
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathematicalText](../mathematicaltext) | Base argument to apply radical |
-| degreeArgument | [MathFraction](../../mathfraction) | Degree value |
-
-### Returns
-[MathRadical](../../mathradical)
-
-
----
-
-
-## createMathRadical([MathematicalText](../../mathematicaltext) baseArgument, [MathBox](../../mathbox) degreeArgument)  method
-
- Creates a math radical
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathematicalText](../mathematicaltext) | Base argument to apply radical |
-| degreeArgument | [MathBox](../../mathbox) | Degree value |
-
-### Returns
-[MathRadical](../../mathradical)
-
-
----
-
-
-## createMathRadical([MathematicalText](../../mathematicaltext) baseArgument, [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) degreeArgument)  method
-
- Creates a math radical
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathematicalText](../mathematicaltext) | Base argument to apply radical |
 | degreeArgument | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | Degree value |
 
 ### Returns
@@ -5954,25 +5593,6 @@ url: /php-java/mathradicalfactory/createmathradical/
 ---
 
 
-## createMathRadical([MathFraction](../../mathfraction) baseArgument, [MathGroupingCharacter](../../mathgroupingcharacter) degreeArgument)  method
-
- Creates a math radical
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathFraction](../mathfraction) | Base argument to apply radical |
-| degreeArgument | [MathGroupingCharacter](../../mathgroupingcharacter) | Degree value |
-
-### Returns
-[MathRadical](../../mathradical)
-
-
----
-
-
 ## createMathRadical([MathFraction](../../mathfraction) baseArgument, [MathBorderBox](../../mathborderbox) degreeArgument)  method
 
  Creates a math radical
@@ -5984,6 +5604,25 @@ url: /php-java/mathradicalfactory/createmathradical/
 | --- | --- | --- |
 | baseArgument | [MathFraction](../mathfraction) | Base argument to apply radical |
 | degreeArgument | [MathBorderBox](../../mathborderbox) | Degree value |
+
+### Returns
+[MathRadical](../../mathradical)
+
+
+---
+
+
+## createMathRadical([MathFraction](../../mathfraction) baseArgument, [MathGroupingCharacter](../../mathgroupingcharacter) degreeArgument)  method
+
+ Creates a math radical
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathFraction](../mathfraction) | Base argument to apply radical |
+| degreeArgument | [MathGroupingCharacter](../../mathgroupingcharacter) | Degree value |
 
 ### Returns
 [MathRadical](../../mathradical)
@@ -6068,25 +5707,6 @@ url: /php-java/mathradicalfactory/createmathradical/
 ---
 
 
-## createMathRadical([MathFraction](../../mathfraction) baseArgument, [MathematicalText](../../mathematicaltext) degreeArgument)  method
-
- Creates a math radical
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathFraction](../mathfraction) | Base argument to apply radical |
-| degreeArgument | [MathematicalText](../../mathematicaltext) | Degree value |
-
-### Returns
-[MathRadical](../../mathradical)
-
-
----
-
-
 ## createMathRadical([MathFraction](../../mathfraction) baseArgument, [MathFraction](../../mathfraction) degreeArgument)  method
 
  Creates a math radical
@@ -6098,6 +5718,25 @@ url: /php-java/mathradicalfactory/createmathradical/
 | --- | --- | --- |
 | baseArgument | [MathFraction](../mathfraction) | Base argument to apply radical |
 | degreeArgument | [MathFraction](../../mathfraction) | Degree value |
+
+### Returns
+[MathRadical](../../mathradical)
+
+
+---
+
+
+## createMathRadical([MathFraction](../../mathfraction) baseArgument, [MathematicalText](../../mathematicaltext) degreeArgument)  method
+
+ Creates a math radical
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathFraction](../mathfraction) | Base argument to apply radical |
+| degreeArgument | [MathematicalText](../../mathematicaltext) | Degree value |
 
 ### Returns
 [MathRadical](../../mathradical)
@@ -6135,6 +5774,367 @@ url: /php-java/mathradicalfactory/createmathradical/
 | Name | Type | Description |
 | --- | --- | --- |
 | baseArgument | [MathFraction](../mathfraction) | Base argument to apply radical |
+| degreeArgument | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | Degree value |
+
+### Returns
+[MathRadical](../../mathradical)
+
+
+---
+
+
+## createMathRadical([MathematicalText](../../mathematicaltext) baseArgument, [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) degreeArgument)  method
+
+ Creates a math radical
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathematicalText](../mathematicaltext) | Base argument to apply radical |
+| degreeArgument | [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) | Degree value |
+
+### Returns
+[MathRadical](../../mathradical)
+
+
+---
+
+
+## createMathRadical([MathematicalText](../../mathematicaltext) baseArgument, [MathMatrix](../../mathmatrix) degreeArgument)  method
+
+ Creates a math radical
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathematicalText](../mathematicaltext) | Base argument to apply radical |
+| degreeArgument | [MathMatrix](../../mathmatrix) | Degree value |
+
+### Returns
+[MathRadical](../../mathradical)
+
+
+---
+
+
+## createMathRadical([MathematicalText](../../mathematicaltext) baseArgument, [MathLimit](../../mathlimit) degreeArgument)  method
+
+ Creates a math radical
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathematicalText](../mathematicaltext) | Base argument to apply radical |
+| degreeArgument | [MathLimit](../../mathlimit) | Degree value |
+
+### Returns
+[MathRadical](../../mathradical)
+
+
+---
+
+
+## createMathRadical([MathematicalText](../../mathematicaltext) baseArgument, [MathBlock](../../mathblock) degreeArgument)  method
+
+ Creates a math radical
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathematicalText](../mathematicaltext) | Base argument to apply radical |
+| degreeArgument | [MathBlock](../../mathblock) | Degree value |
+
+### Returns
+[MathRadical](../../mathradical)
+
+
+---
+
+
+## createMathRadical([MathematicalText](../../mathematicaltext) baseArgument, [MathRadical](../../mathradical) degreeArgument)  method
+
+ Creates a math radical
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathematicalText](../mathematicaltext) | Base argument to apply radical |
+| degreeArgument | [MathRadical](../../mathradical) | Degree value |
+
+### Returns
+[MathRadical](../../mathradical)
+
+
+---
+
+
+## createMathRadical([MathematicalText](../../mathematicaltext) baseArgument, [MathArray](../../matharray) degreeArgument)  method
+
+ Creates a math radical
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathematicalText](../mathematicaltext) | Base argument to apply radical |
+| degreeArgument | [MathArray](../../matharray) | Degree value |
+
+### Returns
+[MathRadical](../../mathradical)
+
+
+---
+
+
+## createMathRadical([MathematicalText](../../mathematicaltext) baseArgument, [MathDelimiter](../../mathdelimiter) degreeArgument)  method
+
+ Creates a math radical
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathematicalText](../mathematicaltext) | Base argument to apply radical |
+| degreeArgument | [MathDelimiter](../../mathdelimiter) | Degree value |
+
+### Returns
+[MathRadical](../../mathradical)
+
+
+---
+
+
+## createMathRadical([MathematicalText](../../mathematicaltext) baseArgument, [MathNaryOperator](../../mathnaryoperator) degreeArgument)  method
+
+ Creates a math radical
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathematicalText](../mathematicaltext) | Base argument to apply radical |
+| degreeArgument | [MathNaryOperator](../../mathnaryoperator) | Degree value |
+
+### Returns
+[MathRadical](../../mathradical)
+
+
+---
+
+
+## createMathRadical([MathematicalText](../../mathematicaltext) baseArgument, [MathAccent](../../mathaccent) degreeArgument)  method
+
+ Creates a math radical
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathematicalText](../mathematicaltext) | Base argument to apply radical |
+| degreeArgument | [MathAccent](../../mathaccent) | Degree value |
+
+### Returns
+[MathRadical](../../mathradical)
+
+
+---
+
+
+## createMathRadical([MathematicalText](../../mathematicaltext) baseArgument, [MathBorderBox](../../mathborderbox) degreeArgument)  method
+
+ Creates a math radical
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathematicalText](../mathematicaltext) | Base argument to apply radical |
+| degreeArgument | [MathBorderBox](../../mathborderbox) | Degree value |
+
+### Returns
+[MathRadical](../../mathradical)
+
+
+---
+
+
+## createMathRadical([MathematicalText](../../mathematicaltext) baseArgument, [MathGroupingCharacter](../../mathgroupingcharacter) degreeArgument)  method
+
+ Creates a math radical
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathematicalText](../mathematicaltext) | Base argument to apply radical |
+| degreeArgument | [MathGroupingCharacter](../../mathgroupingcharacter) | Degree value |
+
+### Returns
+[MathRadical](../../mathradical)
+
+
+---
+
+
+## createMathRadical([MathematicalText](../../mathematicaltext) baseArgument, [MathBar](../../mathbar) degreeArgument)  method
+
+ Creates a math radical
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathematicalText](../mathematicaltext) | Base argument to apply radical |
+| degreeArgument | [MathBar](../../mathbar) | Degree value |
+
+### Returns
+[MathRadical](../../mathradical)
+
+
+---
+
+
+## createMathRadical([MathematicalText](../../mathematicaltext) baseArgument, [MathSubscriptElement](../../mathsubscriptelement) degreeArgument)  method
+
+ Creates a math radical
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathematicalText](../mathematicaltext) | Base argument to apply radical |
+| degreeArgument | [MathSubscriptElement](../../mathsubscriptelement) | Degree value |
+
+### Returns
+[MathRadical](../../mathradical)
+
+
+---
+
+
+## createMathRadical([MathematicalText](../../mathematicaltext) baseArgument, [MathFunction](../../mathfunction) degreeArgument)  method
+
+ Creates a math radical
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathematicalText](../mathematicaltext) | Base argument to apply radical |
+| degreeArgument | [MathFunction](../../mathfunction) | Degree value |
+
+### Returns
+[MathRadical](../../mathradical)
+
+
+---
+
+
+## createMathRadical([MathematicalText](../../mathematicaltext) baseArgument, [MathSuperscriptElement](../../mathsuperscriptelement) degreeArgument)  method
+
+ Creates a math radical
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathematicalText](../mathematicaltext) | Base argument to apply radical |
+| degreeArgument | [MathSuperscriptElement](../../mathsuperscriptelement) | Degree value |
+
+### Returns
+[MathRadical](../../mathradical)
+
+
+---
+
+
+## createMathRadical([MathematicalText](../../mathematicaltext) baseArgument, [MathFraction](../../mathfraction) degreeArgument)  method
+
+ Creates a math radical
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathematicalText](../mathematicaltext) | Base argument to apply radical |
+| degreeArgument | [MathFraction](../../mathfraction) | Degree value |
+
+### Returns
+[MathRadical](../../mathradical)
+
+
+---
+
+
+## createMathRadical([MathematicalText](../../mathematicaltext) baseArgument, [MathematicalText](../../mathematicaltext) degreeArgument)  method
+
+ Creates a math radical
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathematicalText](../mathematicaltext) | Base argument to apply radical |
+| degreeArgument | [MathematicalText](../../mathematicaltext) | Degree value |
+
+### Returns
+[MathRadical](../../mathradical)
+
+
+---
+
+
+## createMathRadical([MathematicalText](../../mathematicaltext) baseArgument, [MathBox](../../mathbox) degreeArgument)  method
+
+ Creates a math radical
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathematicalText](../mathematicaltext) | Base argument to apply radical |
+| degreeArgument | [MathBox](../../mathbox) | Degree value |
+
+### Returns
+[MathRadical](../../mathradical)
+
+
+---
+
+
+## createMathRadical([MathematicalText](../../mathematicaltext) baseArgument, [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) degreeArgument)  method
+
+ Creates a math radical
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathematicalText](../mathematicaltext) | Base argument to apply radical |
 | degreeArgument | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | Degree value |
 
 ### Returns
@@ -6315,25 +6315,6 @@ url: /php-java/mathradicalfactory/createmathradical/
 ---
 
 
-## createMathRadical([MathBox](../../mathbox) baseArgument, [MathGroupingCharacter](../../mathgroupingcharacter) degreeArgument)  method
-
- Creates a math radical
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathBox](../mathbox) | Base argument to apply radical |
-| degreeArgument | [MathGroupingCharacter](../../mathgroupingcharacter) | Degree value |
-
-### Returns
-[MathRadical](../../mathradical)
-
-
----
-
-
 ## createMathRadical([MathBox](../../mathbox) baseArgument, [MathBorderBox](../../mathborderbox) degreeArgument)  method
 
  Creates a math radical
@@ -6345,6 +6326,25 @@ url: /php-java/mathradicalfactory/createmathradical/
 | --- | --- | --- |
 | baseArgument | [MathBox](../mathbox) | Base argument to apply radical |
 | degreeArgument | [MathBorderBox](../../mathborderbox) | Degree value |
+
+### Returns
+[MathRadical](../../mathradical)
+
+
+---
+
+
+## createMathRadical([MathBox](../../mathbox) baseArgument, [MathGroupingCharacter](../../mathgroupingcharacter) degreeArgument)  method
+
+ Creates a math radical
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathBox](../mathbox) | Base argument to apply radical |
+| degreeArgument | [MathGroupingCharacter](../../mathgroupingcharacter) | Degree value |
 
 ### Returns
 [MathRadical](../../mathradical)
@@ -6429,25 +6429,6 @@ url: /php-java/mathradicalfactory/createmathradical/
 ---
 
 
-## createMathRadical([MathBox](../../mathbox) baseArgument, [MathematicalText](../../mathematicaltext) degreeArgument)  method
-
- Creates a math radical
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathBox](../mathbox) | Base argument to apply radical |
-| degreeArgument | [MathematicalText](../../mathematicaltext) | Degree value |
-
-### Returns
-[MathRadical](../../mathradical)
-
-
----
-
-
 ## createMathRadical([MathBox](../../mathbox) baseArgument, [MathFraction](../../mathfraction) degreeArgument)  method
 
  Creates a math radical
@@ -6459,6 +6440,25 @@ url: /php-java/mathradicalfactory/createmathradical/
 | --- | --- | --- |
 | baseArgument | [MathBox](../mathbox) | Base argument to apply radical |
 | degreeArgument | [MathFraction](../../mathfraction) | Degree value |
+
+### Returns
+[MathRadical](../../mathradical)
+
+
+---
+
+
+## createMathRadical([MathBox](../../mathbox) baseArgument, [MathematicalText](../../mathematicaltext) degreeArgument)  method
+
+ Creates a math radical
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathBox](../mathbox) | Base argument to apply radical |
+| degreeArgument | [MathematicalText](../../mathematicaltext) | Degree value |
 
 ### Returns
 [MathRadical](../../mathradical)
@@ -6676,25 +6676,6 @@ url: /php-java/mathradicalfactory/createmathradical/
 ---
 
 
-## createMathRadical([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) baseArgument, [MathGroupingCharacter](../../mathgroupingcharacter) degreeArgument)  method
-
- Creates a math radical
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Base argument to apply radical |
-| degreeArgument | [MathGroupingCharacter](../../mathgroupingcharacter) | Degree value |
-
-### Returns
-[MathRadical](../../mathradical)
-
-
----
-
-
 ## createMathRadical([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) baseArgument, [MathBorderBox](../../mathborderbox) degreeArgument)  method
 
  Creates a math radical
@@ -6706,6 +6687,25 @@ url: /php-java/mathradicalfactory/createmathradical/
 | --- | --- | --- |
 | baseArgument | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Base argument to apply radical |
 | degreeArgument | [MathBorderBox](../../mathborderbox) | Degree value |
+
+### Returns
+[MathRadical](../../mathradical)
+
+
+---
+
+
+## createMathRadical([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) baseArgument, [MathGroupingCharacter](../../mathgroupingcharacter) degreeArgument)  method
+
+ Creates a math radical
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Base argument to apply radical |
+| degreeArgument | [MathGroupingCharacter](../../mathgroupingcharacter) | Degree value |
 
 ### Returns
 [MathRadical](../../mathradical)
@@ -6790,25 +6790,6 @@ url: /php-java/mathradicalfactory/createmathradical/
 ---
 
 
-## createMathRadical([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) baseArgument, [MathematicalText](../../mathematicaltext) degreeArgument)  method
-
- Creates a math radical
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Base argument to apply radical |
-| degreeArgument | [MathematicalText](../../mathematicaltext) | Degree value |
-
-### Returns
-[MathRadical](../../mathradical)
-
-
----
-
-
 ## createMathRadical([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) baseArgument, [MathFraction](../../mathfraction) degreeArgument)  method
 
  Creates a math radical
@@ -6820,6 +6801,25 @@ url: /php-java/mathradicalfactory/createmathradical/
 | --- | --- | --- |
 | baseArgument | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Base argument to apply radical |
 | degreeArgument | [MathFraction](../../mathfraction) | Degree value |
+
+### Returns
+[MathRadical](../../mathradical)
+
+
+---
+
+
+## createMathRadical([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) baseArgument, [MathematicalText](../../mathematicaltext) degreeArgument)  method
+
+ Creates a math radical
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Base argument to apply radical |
+| degreeArgument | [MathematicalText](../../mathematicaltext) | Degree value |
 
 ### Returns
 [MathRadical](../../mathradical)

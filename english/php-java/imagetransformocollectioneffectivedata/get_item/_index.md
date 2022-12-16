@@ -19,7 +19,7 @@ url: /php-java/imagetransformocollectioneffectivedata/get_item/
 | index | int | Index of element. |
 
 ### Returns
-BlurEffectiveData, ReflectionEffectiveData, BiLevelEffectiveData, DuotoneEffectiveData, GrayScaleEffectiveData, AlphaReplaceEffectiveData, AlphaModulateEffectiveData, AlphaInverseEffectiveData, GlowEffectiveData, PresetShadowEffectiveData, EffectEffectiveData, AlphaBiLevelEffectiveData, ColorReplaceEffectiveData, AlphaModulateFixedEffectiveData, AlphaCeilingEffectiveData, ColorChangeEffectiveData, TintEffectiveData, FillOverlayEffectiveData, AlphaFloorEffectiveData, InnerShadowEffectiveData, HSLEffectiveData, SoftEdgeEffectiveData, LuminanceEffectiveData, OuterShadowEffectiveData
+BlurEffectiveData, ReflectionEffectiveData, BiLevelEffectiveData, AlphaReplaceEffectiveData, DuotoneEffectiveData, GrayScaleEffectiveData, AlphaModulateEffectiveData, GlowEffectiveData, AlphaInverseEffectiveData, PresetShadowEffectiveData, EffectEffectiveData, AlphaBiLevelEffectiveData, ColorReplaceEffectiveData, AlphaCeilingEffectiveData, AlphaModulateFixedEffectiveData, ColorChangeEffectiveData, TintEffectiveData, FillOverlayEffectiveData, AlphaFloorEffectiveData, InnerShadowEffectiveData, HSLEffectiveData, LuminanceEffectiveData, SoftEdgeEffectiveData, OuterShadowEffectiveData
 
 
 ---

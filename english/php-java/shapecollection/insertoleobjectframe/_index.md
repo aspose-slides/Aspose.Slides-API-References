@@ -16,8 +16,8 @@ url: /php-java/shapecollection/insertoleobjectframe/
  
 ```php
   $fileData = Files->readAllBytes(Paths->get("test.zip"));
-  $dataInfo = new OleDataInfo($fileData, "zip");
-  $oleObjectFrame = $slidees->getShapes()->addOleObjectFrame(2, 150, 20, 50, 50, $dataInfo);
+  $dataInfo = new OleEmbeddedDataInfo($fileData, "zip");
+  $oleObjectFrame = $slides->getShapes()->addOleObjectFrame(2, 150, 20, 50, $dataInfo);
 ```
 
 ### Parameters

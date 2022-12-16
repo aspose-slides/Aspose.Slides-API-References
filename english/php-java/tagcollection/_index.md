@@ -12,6 +12,20 @@ url: /php-java/tagcollection/
  Represents the collection of tags (user defined pairs of strings)
  
 
+ The following example shows how to add a tag to a PowerPoint Presentation.
+ 
+```php
+  $pres = new Presentation("pres.pptx");
+  try {
+    $tags = $pres->getCustomData()->getTags();
+    $pres->getCustomData()->getTags()->add("MyTag", "My Tag Value");
+  } finally {
+    if ($pres != null) {
+      $pres->dispose();
+    }
+  }
+```
+
 ## Methods
 
 | Name | Description |

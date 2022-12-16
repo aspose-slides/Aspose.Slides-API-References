@@ -181,24 +181,6 @@ url: /php-java/textanimationcollection/get_item/
 ---
 
 
-## get_Item([VideoFrame](../../videoframe) shape)  method
-
- Returns all elements 
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| shape | [VideoFrame](../../videoframe) | IShape to remove. |
-
-### Returns
-[TextAnimation](../../textanimation)
-
-
----
-
-
 ## get_Item([OleObjectFrame](../../oleobjectframe) shape)  method
 
  Returns all elements 
@@ -209,6 +191,24 @@ url: /php-java/textanimationcollection/get_item/
 | Name | Type | Description |
 | --- | --- | --- |
 | shape | [OleObjectFrame](../../oleobjectframe) | IShape to remove. |
+
+### Returns
+[TextAnimation](../../textanimation)
+
+
+---
+
+
+## get_Item([VideoFrame](../../videoframe) shape)  method
+
+ Returns all elements 
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | [VideoFrame](../../videoframe) | IShape to remove. |
 
 ### Returns
 [TextAnimation](../../textanimation)
@@ -343,24 +343,6 @@ url: /php-java/textanimationcollection/get_item/
 ---
 
 
-## get_Item([LegacyDiagram](../../legacydiagram) shape)  method
-
- Returns all elements 
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| shape | [LegacyDiagram](../../legacydiagram) | IShape to remove. |
-
-### Returns
-[TextAnimation](../../textanimation)
-
-
----
-
-
 ## get_Item([ZoomObject](../../zoomobject) shape)  method
 
  Returns all elements 
@@ -371,6 +353,24 @@ url: /php-java/textanimationcollection/get_item/
 | Name | Type | Description |
 | --- | --- | --- |
 | shape | [ZoomObject](../../zoomobject) | IShape to remove. |
+
+### Returns
+[TextAnimation](../../textanimation)
+
+
+---
+
+
+## get_Item([LegacyDiagram](../../legacydiagram) shape)  method
+
+ Returns all elements 
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | [LegacyDiagram](../../legacydiagram) | IShape to remove. |
 
 ### Returns
 [TextAnimation](../../textanimation)

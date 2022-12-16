@@ -12,6 +12,20 @@ url: /php-java/presentationfactory/
  Allows to create presentation via COM interface
  
 
+ The following example shows how to checking a Presentation Format.
+ 
+```php
+  $info = PresentationFactory->getInstance()->getPresentationInfo("pres.pptx");
+  echo($info->getLoadFormat());// PPTX
+
+  $info2 = PresentationFactory->getInstance()->getPresentationInfo("pres.ppt");
+  echo($info2->getLoadFormat());// PPT
+
+  $info3 = PresentationFactory->getInstance()->getPresentationInfo("pres.odp");
+  echo($info3->getLoadFormat());// ODP
+
+```
+
 ## Constructors
 
 | Name | Description |

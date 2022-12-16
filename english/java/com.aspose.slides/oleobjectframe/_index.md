@@ -16,6 +16,90 @@ public class OleObjectFrame extends GraphicalObject implements IOleObjectFrame
 ```
 
 Represents an OLE object on a slide.
+
+--------------------
+
+> ```
+> The following example shows how to accessing OLE Object frames.
+>  
+>  // Loads the PPTX to a presentation object
+>  Presentation pres = new Presentation("AccessingOLEObjectFrame.pptx");
+>  try {
+>      // Accesses the first slide
+>      ISlide sld = pres.getSlides().get_Item(0);
+>      // Casts the shape to OleObjectFrame
+>      OleObjectFrame oleObjectFrame = (OleObjectFrame) sld.getShapes().get_Item(0);
+>      // Reads the OLE Object and writes it to disk
+>      if (oleObjectFrame != null) {
+>          // Gets embedded file data
+>          byte[] data = oleObjectFrame.getEmbeddedData().getEmbeddedFileData();
+>          // Gets embedded file extention
+>          String fileExtension = oleObjectFrame.getEmbeddedData().getEmbeddedFileExtension();
+>          // Creates a path to save the extracted file
+>          String extractedPath = "excelFromOLE_out" + fileExtension;
+>          // Saves extracted data
+>          Files.write(Paths.get(extractedPath), data);
+>      }
+>  } catch(IOException e) {
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+>  
+>  The following example shows how to changing OLE Object Data.
+>  
+>  Presentation pres = new Presentation("ChangeOLEObjectData.pptx");
+>  try
+>  {
+>      ISlide slide = pres.getSlides().get_Item(0);
+>      OleObjectFrame ole = null;
+>      // Traversing all shapes for Ole frame
+>      for (IShape shape : slide.getShapes())
+>      {
+>          if (shape instanceof OleObjectFrame)
+>          {
+>              ole = (OleObjectFrame) shape;
+>          }
+>      }
+>      if (ole != null)
+>      {
+>          ByteArrayInputStream msln = new ByteArrayInputStream(ole.getEmbeddedData().getEmbeddedFileData());
+>          try
+>          {
+>              // Reading object data in Workbook
+>              Workbook Wb = new Workbook(msln);
+>              ByteArrayOutputStream msout = new ByteArrayOutputStream();
+>              try
+>              {
+>                  // Modifying the workbook data
+>                  Wb.getWorksheets().get(0).getCells().get(0, 4).putValue("E");
+>                  Wb.getWorksheets().get(0).getCells().get(1, 4).putValue(12);
+>                  Wb.getWorksheets().get(0).getCells().get(2, 4).putValue(14);
+>                  Wb.getWorksheets().get(0).getCells().get(3, 4).putValue(15);
+> 
+>                  OoxmlSaveOptions so1 = new OoxmlSaveOptions(com.aspose.cells.SaveFormat.XLSX);
+>                  Wb.save(msout, so1);
+>                  // Changing Ole frame object data
+>                  IOleEmbeddedDataInfo newData = new OleEmbeddedDataInfo(msout.toByteArray(),
+>                          ole.getEmbeddedData().getEmbeddedFileExtension());
+>                  ole.setEmbeddedData(newData);
+>              }
+>              finally
+>              {
+>                  if (msout != null) msout.close();
+>              }
+>          }
+>          finally
+>          {
+>              if (msln != null) msln.close();
+>          }
+>      }
+>      pres.save("OleEdit_out.pptx", SaveFormat.Pptx);
+>  }
+>  finally
+>  {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
 ## Methods
 
 | Method | Description |

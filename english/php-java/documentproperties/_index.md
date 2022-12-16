@@ -12,6 +12,27 @@ url: /php-java/documentproperties/
  Represents properties of a presentation.
  
 
+ The following example shows how to access built-in Properties of PowerPoint Presentation.
+ 
+```php
+  // Instantiate the Presentation class that represents the presentation
+  $pres = new Presentation("AccessBuiltin Properties.pptx");
+  try {
+    // Create a reference to IDocumentProperties object associated with Presentation
+    $documentProperties = $pres->getDocumentProperties();
+    // Display the builtin properties
+    echo("Category : " + $documentProperties->getCategory());
+    echo("Current Status : " + $documentProperties->getContentStatus());
+    echo("Creation Date : " + $documentProperties->getCreatedTime());
+    echo("Author : " + $documentProperties->getAuthor());
+    echo("Description : " + $documentProperties->getComments());
+  } finally {
+    if ($pres != null) {
+      $pres->dispose();
+    }
+  }
+```
+
 ## Constructors
 
 | Name | Description |

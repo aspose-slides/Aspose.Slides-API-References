@@ -17,7 +17,7 @@ url: /php-java/compress/compressembeddedfonts/
   $pres = new Presentation("pres.pptx");
   try {
     Compress->compressEmbeddedFonts($pres);
-    $pres->save("pres-out.pptx", SaveFormat::Pptx);
+    $pres->save("pres-out.pptx", SaveFormat.Pptx);
   } finally {
     if ($pres != null) {
       $pres->dispose();

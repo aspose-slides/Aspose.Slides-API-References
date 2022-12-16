@@ -17,7 +17,7 @@ url: /php-java/compress/removeunusedmasterslides/
   $pres = new Presentation("pres.pptx");
   try {
     Compress->removeUnusedMasterSlides($pres);
-    $pres->save("pres-out.pptx", SaveFormat::Pptx);
+    $pres->save("pres-out.pptx", SaveFormat.Pptx);
   } finally {
     if ($pres != null) {
       $pres->dispose();

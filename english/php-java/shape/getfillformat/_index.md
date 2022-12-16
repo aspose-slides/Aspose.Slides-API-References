@@ -14,6 +14,21 @@ url: /php-java/shape/getfillformat/
  Read-only  IFillFormat.
  
 
+ The following example shows how to change the accent color for a theme of PowerPoint Presentation.
+ 
+```php
+  $pres = new Presentation();
+  try {
+    $shape = $pres->getSlides()->get_Item(0)->getShapes()->addAutoShape(ShapeType.Rectangle, 10, 10, 100, 100);
+    $shape->getFillFormat()->setFillType(FillType.Solid);
+    $shape->getFillFormat()->getSolidFillColor()->setSchemeColor(SchemeColor.Accent4);
+  } finally {
+    if ($pres != null) {
+      $pres->dispose();
+    }
+  }
+```
+
 ### Returns
 [FillFormat](../../fillformat)
 

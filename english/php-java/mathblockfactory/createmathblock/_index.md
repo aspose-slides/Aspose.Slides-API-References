@@ -181,24 +181,6 @@ url: /php-java/mathblockfactory/createmathblock/
 ---
 
 
-## createMathBlock([MathGroupingCharacter](../../mathgroupingcharacter) mathElement)  method
-
- Create a math block and place the element in it
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| mathElement | [MathGroupingCharacter](../../mathgroupingcharacter) | A math element |
-
-### Returns
-[MathBlock](../../mathblock)
-
-
----
-
-
 ## createMathBlock([MathBorderBox](../../mathborderbox) mathElement)  method
 
  Create a math block and place the element in it
@@ -209,6 +191,24 @@ url: /php-java/mathblockfactory/createmathblock/
 | Name | Type | Description |
 | --- | --- | --- |
 | mathElement | [MathBorderBox](../../mathborderbox) | A math element |
+
+### Returns
+[MathBlock](../../mathblock)
+
+
+---
+
+
+## createMathBlock([MathGroupingCharacter](../../mathgroupingcharacter) mathElement)  method
+
+ Create a math block and place the element in it
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| mathElement | [MathGroupingCharacter](../../mathgroupingcharacter) | A math element |
 
 ### Returns
 [MathBlock](../../mathblock)
@@ -289,24 +289,6 @@ url: /php-java/mathblockfactory/createmathblock/
 ---
 
 
-## createMathBlock([MathematicalText](../../mathematicaltext) mathElement)  method
-
- Create a math block and place the element in it
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| mathElement | [MathematicalText](../../mathematicaltext) | A math element |
-
-### Returns
-[MathBlock](../../mathblock)
-
-
----
-
-
 ## createMathBlock([MathFraction](../../mathfraction) mathElement)  method
 
  Create a math block and place the element in it
@@ -317,6 +299,24 @@ url: /php-java/mathblockfactory/createmathblock/
 | Name | Type | Description |
 | --- | --- | --- |
 | mathElement | [MathFraction](../../mathfraction) | A math element |
+
+### Returns
+[MathBlock](../../mathblock)
+
+
+---
+
+
+## createMathBlock([MathematicalText](../../mathematicaltext) mathElement)  method
+
+ Create a math block and place the element in it
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| mathElement | [MathematicalText](../../mathematicaltext) | A math element |
 
 ### Returns
 [MathBlock](../../mathblock)

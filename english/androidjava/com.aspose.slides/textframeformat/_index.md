@@ -215,6 +215,27 @@ public final byte getWrapText()
 
 True if text is wrapped at TextFrame's margins. Read/write [NullableBool](../../com.aspose.slides/nullablebool).
 
+--------------------
+
+> ```
+> The following sample code shows how to wrap text in Presentation.
+>  
+>  Presentation pres = new Presentation();
+>  try {
+>      ISlide slide = pres.getSlides().get_Item(0);
+>      IAutoShape autoShape = slide.getShapes().addAutoShape(ShapeType.Rectangle, 30, 30, 350, 100);
+>      Portion portion = new Portion("lorem ipsum...");
+>      portion.getPortionFormat().getFillFormat().getSolidFillColor().setColor(Color.BLACK);
+>      portion.getPortionFormat().getFillFormat().setFillType(FillType.Solid);
+>      autoShape.getTextFrame().getParagraphs().get_Item(0).getPortions().add(portion);
+>      ITextFrameFormat textFrameFormat = autoShape.getTextFrame().getTextFrameFormat();
+>      textFrameFormat.setWrapText(NullableBool.True);
+>      pres.save("Output-presentation.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
 **Returns:**
 byte
 ### setWrapText(byte value) {#setWrapText-byte-}
@@ -224,6 +245,27 @@ public final void setWrapText(byte value)
 
 
 True if text is wrapped at TextFrame's margins. Read/write [NullableBool](../../com.aspose.slides/nullablebool).
+
+--------------------
+
+> ```
+> The following sample code shows how to wrap text in Presentation.
+>  
+>  Presentation pres = new Presentation();
+>  try {
+>      ISlide slide = pres.getSlides().get_Item(0);
+>      IAutoShape autoShape = slide.getShapes().addAutoShape(ShapeType.Rectangle, 30, 30, 350, 100);
+>      Portion portion = new Portion("lorem ipsum...");
+>      portion.getPortionFormat().getFillFormat().getSolidFillColor().setColor(Color.BLACK);
+>      portion.getPortionFormat().getFillFormat().setFillType(FillType.Solid);
+>      autoShape.getTextFrame().getParagraphs().get_Item(0).getPortions().add(portion);
+>      ITextFrameFormat textFrameFormat = autoShape.getTextFrame().getTextFrameFormat();
+>      textFrameFormat.setWrapText(NullableBool.True);
+>      pres.save("Output-presentation.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -307,6 +349,44 @@ public final byte getAutofitType()
 
 Returns or sets text's autofit mode. Read/write [TextAutofitType](../../com.aspose.slides/textautofittype).
 
+--------------------
+
+> ```
+> The following sample code shows how to resize shape to Fit Text in a PowerPoint Presentation.
+>  
+>  Presentation pres = new Presentation();
+>  try {
+>      ISlide slide = pres.getSlides().get_Item(0);
+>      IAutoShape autoShape = slide.getShapes().addAutoShape(ShapeType.Rectangle, 30, 30, 350, 100);
+>      Portion portion = new Portion("lorem ipsum...");
+>      portion.getPortionFormat().getFillFormat().getSolidFillColor().setColor(Color.BLACK);
+>      portion.getPortionFormat().getFillFormat().setFillType(FillType.Solid);
+>      autoShape.getTextFrame().getParagraphs().get_Item(0).getPortions().add(portion);
+>      ITextFrameFormat textFrameFormat = autoShape.getTextFrame().getTextFrameFormat();
+>      textFrameFormat.setAutofitType(TextAutofitType.Shape);
+>      pres.save("Output-presentation.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+>  
+>  The following sample code shows how to shrink text on overflow.
+>  
+>  Presentation pres = new Presentation();
+>  try {
+>      ISlide slide = pres.getSlides().get_Item(0);
+>      IAutoShape autoShape = slide.getShapes().addAutoShape(ShapeType.Rectangle, 30, 30, 350, 100);
+>      Portion portion = new Portion("lorem ipsum...");
+>      portion.getPortionFormat().getFillFormat().getSolidFillColor().setColor(Color.BLACK);
+>      portion.getPortionFormat().getFillFormat().setFillType(FillType.Solid);
+>      autoShape.getTextFrame().getParagraphs().get_Item(0).getPortions().add(portion);
+>      ITextFrameFormat textFrameFormat = autoShape.getTextFrame().getTextFrameFormat();
+>      textFrameFormat.setAutofitType(TextAutofitType.Normal);
+>      pres.save("Output-presentation.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
 **Returns:**
 byte
 ### setAutofitType(byte value) {#setAutofitType-byte-}
@@ -316,6 +396,44 @@ public final void setAutofitType(byte value)
 
 
 Returns or sets text's autofit mode. Read/write [TextAutofitType](../../com.aspose.slides/textautofittype).
+
+--------------------
+
+> ```
+> The following sample code shows how to resize shape to Fit Text in a PowerPoint Presentation.
+>  
+>  Presentation pres = new Presentation();
+>  try {
+>      ISlide slide = pres.getSlides().get_Item(0);
+>      IAutoShape autoShape = slide.getShapes().addAutoShape(ShapeType.Rectangle, 30, 30, 350, 100);
+>      Portion portion = new Portion("lorem ipsum...");
+>      portion.getPortionFormat().getFillFormat().getSolidFillColor().setColor(Color.BLACK);
+>      portion.getPortionFormat().getFillFormat().setFillType(FillType.Solid);
+>      autoShape.getTextFrame().getParagraphs().get_Item(0).getPortions().add(portion);
+>      ITextFrameFormat textFrameFormat = autoShape.getTextFrame().getTextFrameFormat();
+>      textFrameFormat.setAutofitType(TextAutofitType.Shape);
+>      pres.save("Output-presentation.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+>  
+>  The following sample code shows how to shrink text on overflow.
+>  
+>  Presentation pres = new Presentation();
+>  try {
+>      ISlide slide = pres.getSlides().get_Item(0);
+>      IAutoShape autoShape = slide.getShapes().addAutoShape(ShapeType.Rectangle, 30, 30, 350, 100);
+>      Portion portion = new Portion("lorem ipsum...");
+>      portion.getPortionFormat().getFillFormat().getSolidFillColor().setColor(Color.BLACK);
+>      portion.getPortionFormat().getFillFormat().setFillType(FillType.Solid);
+>      autoShape.getTextFrame().getParagraphs().get_Item(0).getPortions().add(portion);
+>      ITextFrameFormat textFrameFormat = autoShape.getTextFrame().getTextFrameFormat();
+>      textFrameFormat.setAutofitType(TextAutofitType.Normal);
+>      pres.save("Output-presentation.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -330,6 +448,27 @@ public final int getColumnCount()
 
 Returns or sets number of columns in the text area. This value must be a positive number. Otherwise, the value will be set to zero. Value 0 means undefined value. Read/write int.
 
+--------------------
+
+> ```
+> The following sample code shows how to add column in Text frame inside a PowerPoint Presentation.
+>  
+>  Presentation pres = new Presentation();
+>  try {
+>      IAutoShape shape1 = pres.getSlides().get_Item(0).getShapes().addAutoShape(ShapeType.Rectangle, 100, 100, 300, 300);
+>      TextFrameFormat format = (TextFrameFormat)shape1.getTextFrame().getTextFrameFormat();
+>      format.setColumnCount(2);
+>      format.setColumnSpacing(20);
+>      shape1.getTextFrame().setText("All these columns are forced to stay within a single text container -- " +
+>      "you can add or delete text - and the new or remaining text automatically adjusts " +
+>      "itself to stay within the container. You cannot have text spill over from one container " +
+>      "to other, though -- because PowerPoint's column options for text are limited!");
+>      pres.save("Columns_output.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
 **Returns:**
 int
 ### setColumnCount(int value) {#setColumnCount-int-}
@@ -339,6 +478,27 @@ public final void setColumnCount(int value)
 
 
 Returns or sets number of columns in the text area. This value must be a positive number. Otherwise, the value will be set to zero. Value 0 means undefined value. Read/write int.
+
+--------------------
+
+> ```
+> The following sample code shows how to add column in Text frame inside a PowerPoint Presentation.
+>  
+>  Presentation pres = new Presentation();
+>  try {
+>      IAutoShape shape1 = pres.getSlides().get_Item(0).getShapes().addAutoShape(ShapeType.Rectangle, 100, 100, 300, 300);
+>      TextFrameFormat format = (TextFrameFormat)shape1.getTextFrame().getTextFrameFormat();
+>      format.setColumnCount(2);
+>      format.setColumnSpacing(20);
+>      shape1.getTextFrame().setText("All these columns are forced to stay within a single text container -- " +
+>      "you can add or delete text - and the new or remaining text automatically adjusts " +
+>      "itself to stay within the container. You cannot have text spill over from one container " +
+>      "to other, though -- because PowerPoint's column options for text are limited!");
+>      pres.save("Columns_output.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
 
 **Parameters:**
 | Parameter | Type | Description |

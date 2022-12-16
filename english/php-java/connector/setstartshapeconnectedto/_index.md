@@ -178,7 +178,7 @@ void
 ---
 
 
-## setStartShapeConnectedTo([VideoFrame](../../videoframe) value)  method
+## setStartShapeConnectedTo([OleObjectFrame](../../oleobjectframe) value)  method
 
  Returns or sets the shape to attach the beginning of the connector to.
  Read/write  IShape.
@@ -197,7 +197,7 @@ void
 ---
 
 
-## setStartShapeConnectedTo([OleObjectFrame](../../oleobjectframe) value)  method
+## setStartShapeConnectedTo([VideoFrame](../../videoframe) value)  method
 
  Returns or sets the shape to attach the beginning of the connector to.
  Read/write  IShape.
@@ -349,7 +349,7 @@ void
 ---
 
 
-## setStartShapeConnectedTo([LegacyDiagram](../../legacydiagram) value)  method
+## setStartShapeConnectedTo([ZoomObject](../../zoomobject) value)  method
 
  Returns or sets the shape to attach the beginning of the connector to.
  Read/write  IShape.
@@ -368,7 +368,7 @@ void
 ---
 
 
-## setStartShapeConnectedTo([ZoomObject](../../zoomobject) value)  method
+## setStartShapeConnectedTo([LegacyDiagram](../../legacydiagram) value)  method
 
  Returns or sets the shape to attach the beginning of the connector to.
  Read/write  IShape.

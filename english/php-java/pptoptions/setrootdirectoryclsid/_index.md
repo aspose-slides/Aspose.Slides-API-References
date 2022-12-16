@@ -21,7 +21,7 @@ url: /php-java/pptoptions/setrootdirectoryclsid/
     $pptOptions = new PptOptions();
     // / set CLSID to 'Microsoft Powerpoint.Show.8'
     $pptOptions->setRootDirectoryClsid(UUID->fromString("64818D10-4F9B-11CF-86EA-00AA00B929E8"));
-    $pres->save("pres.ppt", SaveFormat::Ppt, $pptOptions);
+    $pres->save("pres.ppt", SaveFormat.Ppt, $pptOptions);
   } finally {
     if ($pres != null) {
       $pres->dispose();

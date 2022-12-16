@@ -97,7 +97,7 @@ void
 ---
 
 
-## writeShapeEnd([HtmlGenerator](../../htmlgenerator) generator, [VideoFrame](../../videoframe) shape)  method
+## writeShapeEnd([HtmlGenerator](../../htmlgenerator) generator, [OleObjectFrame](../../oleobjectframe) shape)  method
 
 
 ### Returns
@@ -107,7 +107,7 @@ void
 ---
 
 
-## writeShapeEnd([HtmlGenerator](../../htmlgenerator) generator, [OleObjectFrame](../../oleobjectframe) shape)  method
+## writeShapeEnd([HtmlGenerator](../../htmlgenerator) generator, [VideoFrame](../../videoframe) shape)  method
 
 
 ### Returns
@@ -187,7 +187,7 @@ void
 ---
 
 
-## writeShapeEnd([HtmlGenerator](../../htmlgenerator) generator, [LegacyDiagram](../../legacydiagram) shape)  method
+## writeShapeEnd([HtmlGenerator](../../htmlgenerator) generator, [ZoomObject](../../zoomobject) shape)  method
 
 
 ### Returns
@@ -197,7 +197,7 @@ void
 ---
 
 
-## writeShapeEnd([HtmlGenerator](../../htmlgenerator) generator, [ZoomObject](../../zoomobject) shape)  method
+## writeShapeEnd([HtmlGenerator](../../htmlgenerator) generator, [LegacyDiagram](../../legacydiagram) shape)  method
 
 
 ### Returns

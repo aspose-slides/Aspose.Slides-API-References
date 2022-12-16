@@ -201,26 +201,6 @@ Example:
 ---
 
 
-## MathBlock([MathGroupingCharacter](../../mathgroupingcharacter) mathElement)  constructor
-
- Creates a new mathematical block and puts specified element in it
- 
-Example:
- 
-```php
-  $mathBlock = new MathBlock(new MathematicalText("x"));
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| mathElement | [MathGroupingCharacter](../../mathgroupingcharacter) | The mathematical element to put in the block |
-
-
----
-
-
 ## MathBlock([MathBorderBox](../../mathborderbox) mathElement)  constructor
 
  Creates a new mathematical block and puts specified element in it
@@ -236,6 +216,26 @@ Example:
 | Name | Type | Description |
 | --- | --- | --- |
 | mathElement | [MathBorderBox](../../mathborderbox) | The mathematical element to put in the block |
+
+
+---
+
+
+## MathBlock([MathGroupingCharacter](../../mathgroupingcharacter) mathElement)  constructor
+
+ Creates a new mathematical block and puts specified element in it
+ 
+Example:
+ 
+```php
+  $mathBlock = new MathBlock(new MathematicalText("x"));
+```
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| mathElement | [MathGroupingCharacter](../../mathgroupingcharacter) | The mathematical element to put in the block |
 
 
 ---
@@ -321,26 +321,6 @@ Example:
 ---
 
 
-## MathBlock([MathematicalText](../../mathematicaltext) mathElement)  constructor
-
- Creates a new mathematical block and puts specified element in it
- 
-Example:
- 
-```php
-  $mathBlock = new MathBlock(new MathematicalText("x"));
-```
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| mathElement | [MathematicalText](../../mathematicaltext) | The mathematical element to put in the block |
-
-
----
-
-
 ## MathBlock([MathFraction](../../mathfraction) mathElement)  constructor
 
  Creates a new mathematical block and puts specified element in it
@@ -356,6 +336,26 @@ Example:
 | Name | Type | Description |
 | --- | --- | --- |
 | mathElement | [MathFraction](../../mathfraction) | The mathematical element to put in the block |
+
+
+---
+
+
+## MathBlock([MathematicalText](../../mathematicaltext) mathElement)  constructor
+
+ Creates a new mathematical block and puts specified element in it
+ 
+Example:
+ 
+```php
+  $mathBlock = new MathBlock(new MathematicalText("x"));
+```
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| mathElement | [MathematicalText](../../mathematicaltext) | The mathematical element to put in the block |
 
 
 ---

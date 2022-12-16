@@ -12,6 +12,35 @@ url: /php-java/oleobjectframe/
  Represents an OLE object on a slide.
  
 
+ The following example shows how to accessing OLE Object frames.
+ 
+```php
+  // Loads the PPTX to a presentation object
+  $pres = new Presentation("AccessingOLEObjectFrame.pptx");
+  try {
+    // Accesses the first slide
+    $sld = $pres->getSlides()->get_Item(0);
+    // Casts the shape to OleObjectFrame
+    $oleObjectFrame = $sld->getShapes()->get_Item(0);
+    // Reads the OLE Object and writes it to disk
+    if ($oleObjectFrame != null) {
+      // Gets embedded file data
+      $data = $oleObjectFrame->getEmbeddedData()->getEmbeddedFileData();
+      // Gets embedded file extention
+      $fileExtension = $oleObjectFrame->getEmbeddedData()->getEmbeddedFileExtension();
+      // Creates a path to save the extracted file
+      $extractedPath = "excelFromOLE_out" + $fileExtension;
+      // Saves extracted data
+      Files->write(Paths->get($extractedPath), $data);
+    }
+  } catch (JavaException $e) {
+  } finally {
+    if ($pres != null) {
+      $pres->dispose();
+    }
+  }
+```
+
 ## Methods
 
 | Name | Description |

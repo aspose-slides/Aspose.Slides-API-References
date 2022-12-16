@@ -115,7 +115,7 @@ void
 ---
 
 
-## removeByShape([VideoFrame](../../videoframe) shape)  method
+## removeByShape([OleObjectFrame](../../oleobjectframe) shape)  method
 
  Remove effect for the specified shape.
  
@@ -127,7 +127,7 @@ void
 ---
 
 
-## removeByShape([OleObjectFrame](../../oleobjectframe) shape)  method
+## removeByShape([VideoFrame](../../videoframe) shape)  method
 
  Remove effect for the specified shape.
  
@@ -223,7 +223,7 @@ void
 ---
 
 
-## removeByShape([LegacyDiagram](../../legacydiagram) shape)  method
+## removeByShape([ZoomObject](../../zoomobject) shape)  method
 
  Remove effect for the specified shape.
  
@@ -235,7 +235,7 @@ void
 ---
 
 
-## removeByShape([ZoomObject](../../zoomobject) shape)  method
+## removeByShape([LegacyDiagram](../../legacydiagram) shape)  method
 
  Remove effect for the specified shape.
  

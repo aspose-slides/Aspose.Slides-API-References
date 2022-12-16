@@ -16,11 +16,11 @@ url: /php-java/buildversioninfo/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| ProductMinor | 11 | Minor version number. |
+| ProductMinor | 12 | Minor version number. |
 | ProductMajor | 22 | Major version number. |
-| AssemblyVersion | 22.11 | Version of Aspose.Slides assembly. |
-| FileVersion | 22.11 | Version of assembly file. |
-| Product | Aspose.Slides for Java | Product name of Aspose.Slides |
+| AssemblyVersion | 22.12 | Version of Aspose.Slides assembly. |
+| FileVersion | 22.12 | Version of assembly file. |
+| Product | Aspose.Slides for PHP via Java | Product name of Aspose.Slides |
 
 
 ## Constructors

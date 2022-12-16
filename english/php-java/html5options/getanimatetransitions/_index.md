@@ -19,7 +19,7 @@ url: /php-java/html5options/getanimatetransitions/
   try {
     $htmlOptions = new Html5Options();
     $htmlOptions->setAnimateTransitions(true);
-    $pres->save("demo-animate-shapes-and-transitions.html", SaveFormat::Html5, $htmlOptions);
+    $pres->save("demo-animate-shapes-and-transitions.html", SaveFormat.Html5, $htmlOptions);
   } finally {
     if ($pres != null) {
       $pres->dispose();

@@ -15,6 +15,30 @@ url: /php-java/portionformat/
  In order to get the effective formatting parameter values including inherited you need to use  PortionFormat#getEffective method 
  which returns a  IPortionFormatEffectiveData instance.
 
+ The following examples shows you how to assign the Latin font to a Paragraph's portion of PowerPoint Presentation.
+ 
+```php
+  // Instantiate a presentation object that represents a presentation file
+  $pres = new Presentation("demo.pptx");
+  try {
+    $shape = $pres->getSlides()->get_Item(0)->getShapes()->addAutoShape(ShapeType.Rectangle, 10, 10, 100, 100);
+    $paragraph = new Paragraph();
+    $portion = new Portion("Theme text format");
+    $paragraph->getPortions()->add($portion);
+    $shape->getTextFrame()->getParagraphs()->add($paragraph);
+    // Aspose.Slides uses these special identifiers (similar to those used in PowerPoint):
+    // +mn-lt - Body Font Latin (Minor Latin Font)
+    // +mj-lt -Heading Font Latin (Major Latin Font)
+    // +mn-ea - Body Font East Asian (Minor East Asian Font)
+    // +mj-ea - Body Font East Asian (Minor East Asian Font)
+    $portion->getPortionFormat()->setLatinFont(new FontData("+mn-lt"));
+  } finally {
+    if ($pres != null) {
+      $pres->dispose();
+    }
+  }
+```
+
 ## Constructors
 
 | Name | Description |

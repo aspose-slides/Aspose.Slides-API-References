@@ -12,6 +12,30 @@ url: /php-java/pdfoptions/
  Provides options that control how a presentation is saved in Pdf format.
  
 
+ The following example shows how to convert PowerPoint to PDF with custom options.
+ 
+```php
+  $pres = new Presentation("PowerPoint.pptx");
+  try {
+    // Instantiates the PdfOptions class
+    $pdfOptions = new PdfOptions();
+    // Sets the Jpeg quality
+    $pdfOptions->setJpegQuality(90);
+    // Sets the behavior for metafiles
+    $pdfOptions->setSaveMetafilesAsPng(true);
+    // Sets the text compression level
+    $pdfOptions->setTextCompression(PdfTextCompression.Flate);
+    // Defines the PDF standard
+    $pdfOptions->setCompliance(PdfCompliance.Pdf15);
+    // Saves the presentation as a PDF
+    $pres->save("PowerPoint-to-PDF.pdf", SaveFormat.Pdf, $pdfOptions);
+  } finally {
+    if ($pres != null) {
+      $pres->dispose();
+    }
+  }
+```
+
 ## Constructors
 
 | Name | Description |
