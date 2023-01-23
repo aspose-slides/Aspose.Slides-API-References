@@ -16,7 +16,7 @@ public PdfCompliance Compliance { get; set; }
 
 ### Remarks
 
-Default is Pdf15.
+Default is Pdf17.
 
 ### See Also
 
