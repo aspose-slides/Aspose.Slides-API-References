@@ -1,0 +1,27 @@
+---
+title: add
+second_title: Aspose.Sildes for PHP via Java API Reference
+description: 
+type: docs
+weight: 10
+url: /php-java/aspose.slides/piesplitcustompointcollection/add/
+---
+
+## add(int dataPointIndex)  method
+
+ Adds data point by its index in parent series points collection.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| dataPointIndex | int | Index of data point in parent series points collection. |
+
+### Returns
+void
+
+
+---
+
+

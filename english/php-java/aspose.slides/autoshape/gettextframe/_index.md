@@ -1,0 +1,22 @@
+---
+title: getTextFrame
+second_title: Aspose.Sildes for PHP via Java API Reference
+description: 
+type: docs
+weight: 40
+url: /php-java/aspose.slides/autoshape/gettextframe/
+---
+
+## getTextFrame()  method
+
+ Returns TextFrame object for the AutoShape.
+ Read-only  ITextFrame.
+ 
+
+### Returns
+[TextFrame](../../textframe)
+
+
+---
+
+

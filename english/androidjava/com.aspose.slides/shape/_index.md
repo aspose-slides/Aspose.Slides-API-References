@@ -91,6 +91,57 @@ public final IPlaceholder getPlaceholder()
 
 Returns the placeholder for a shape. Returns null if the shape has no placeholder. Read-only [IPlaceholder](../../com.aspose.slides/iplaceholder).
 
+--------------------
+
+> ```
+> The following example shows how to change Text in Placeholder.
+>  
+>  // Instantiates a Presentation class
+>  Presentation pres = new Presentation("ReplacingText.pptx");
+>  try {
+>      // Accesses the first slide
+>      ISlide sld = pres.getSlides().get_Item(0);
+>      // Iterates through shapes to find the placeholder
+>      for (IShape shp : sld.getShapes())
+>          if (shp.getPlaceholder() != null)
+>          {
+>              // Changes the text in each placeholder
+>              ((IAutoShape)shp).getTextFrame().setText("This is a Placeholder");
+>          }
+>      // Saves the presentation to disk
+>      pres.save("output_out.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+>  
+>  The following example shows how to set Prompt Text in Placeholder.
+>  
+>  Presentation pres = new Presentation("Presentation2.pptx");
+>  try {
+>      ISlide slide = pres.getSlides().get_Item(0);
+>      for (IShape shape : slide.getSlide().getShapes()) // Iterates through the slide
+>      {
+>          if (shape.getPlaceholder() != null && shape instanceof AutoShape)
+>          {
+>              String text = "";
+>              if (shape.getPlaceholder().getType() == PlaceholderType.CenteredTitle) // PowerPoint displays "Click to add title"
+>              {
+>                  text = "Add Title";
+>              }
+>              else if (shape.getPlaceholder().getType() == PlaceholderType.Subtitle) // Adds subtitle
+>              {
+>                  text = "Add Subtitle";
+>              }
+>              ((IAutoShape)shape).getTextFrame().setText(text);
+>              System.out.println("Placeholder with text: " + text);
+>          }
+>      }
+>      pres.save("Placeholders_PromptText.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
 **Returns:**
 [IPlaceholder](../../com.aspose.slides/iplaceholder)
 ### removePlaceholder() {#removePlaceholder--}

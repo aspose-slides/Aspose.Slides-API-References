@@ -9,4 +9,4 @@ is_root: true
 ## Packages
 | Package | Description |
 | --- | --- |
-| [com.aspose.slides](./com.aspose.slides) | The **com.aspose.slides** package contains core classes of Aspose.Slides for Java. That allows reading, writing, converting, and manipulating PowerPoint presentations in Java without any additional dependencies. Aspose.Slides for Java API supports exporting slides to PDF, PDF/A, HTML, XPS, and image formats. |
+| [com.aspose.slides](./com.aspose.slides) |  |

@@ -308,7 +308,7 @@ Returns a Thumbnail Bitmap object with specified size.
 --------------------
 
 > ```
-> The following example shows how to converting slides to images with custom sizes using C#.
+> The following example shows how to converting slides to images with custom sizes using Java.
 >  
 >  Presentation pres = new Presentation("Presentation.pptx");
 >  try {
@@ -699,6 +699,30 @@ public final void writeAsSvg(OutputStream stream)
 
 Saves content of slide as SVG file.
 
+--------------------
+
+> ```
+> The following example shows how to convert PowerPoint to PDF with custom options.
+>  
+>  // Presentation object can load PowerPoint formats like PPT, PPTX, ODP etc.
+>  Presentation pres = new Presentation("pres.pptx");
+>  try {
+>      for (int index = 0; index < pres.getSlides().size(); index++)
+>      {
+>          ISlide slide = pres.getSlides().get_Item(index);
+>          FileOutputStream fileStream = new FileOutputStream("slide-" + index + ".svg");
+>          try {
+>              slide.writeAsSvg(fileStream);
+>          } finally {
+>              if (fileStream != null) fileStream.close();
+>          }
+>      }
+>  } catch(IOException e) {
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -717,6 +741,7 @@ Saves content of slide as SVG file.
 > ```
 > The following example code shows how to generate SVG image with Custom Shape IDS from PowerPoint Presentation.
 >  
+>  // Instantiate a Presentation class that represents the presentation file
 >  Presentation pres = new Presentation("CreateSlidesSVGImage.pptx");
 >  try {
 >      // Access the first slide

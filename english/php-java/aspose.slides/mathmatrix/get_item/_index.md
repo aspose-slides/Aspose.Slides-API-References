@@ -1,0 +1,28 @@
+---
+title: get_Item
+second_title: Aspose.Sildes for PHP via Java API Reference
+description: 
+type: docs
+weight: 160
+url: /php-java/aspose.slides/mathmatrix/get_item/
+---
+
+## get_Item(int row, int column)  method
+
+ Element of matrix
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| row | int | The zero-based index of the row to get item |
+| column | int | The zero-based index of the column to get item |
+
+### Returns
+[MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement), [MathLimit](../../mathlimit), [MathMatrix](../../mathmatrix), [MathBlock](../../mathblock), [MathRadical](../../mathradical), [MathArray](../../matharray), [MathDelimiter](../../mathdelimiter), [MathAccent](../../mathaccent), [MathNaryOperator](../../mathnaryoperator), [MathGroupingCharacter](../../mathgroupingcharacter), [MathBorderBox](../../mathborderbox), [MathBar](../../mathbar), [MathFunction](../../mathfunction), [MathSuperscriptElement](../../mathsuperscriptelement), [MathSubscriptElement](../../mathsubscriptelement), [MathFraction](../../mathfraction), [MathematicalText](../../mathematicaltext), [BaseScript](../../basescript), [MathBox](../../mathbox), [MathElementBase](../../mathelementbase), [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement)
+
+
+---
+
+

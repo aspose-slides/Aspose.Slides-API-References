@@ -1,0 +1,22 @@
+---
+title: setType
+second_title: Aspose.Sildes for PHP via Java API Reference
+description: 
+type: docs
+weight: 180
+url: /php-java/aspose.slides/effect/settype/
+---
+
+## setType(int value)  method
+
+ Defines type of effect.
+ Read/write  EffectType.
+ 
+
+### Returns
+void
+
+
+---
+
+

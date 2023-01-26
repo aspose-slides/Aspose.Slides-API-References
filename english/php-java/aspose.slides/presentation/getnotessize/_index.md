@@ -1,0 +1,22 @@
+---
+title: getNotesSize
+second_title: Aspose.Sildes for PHP via Java API Reference
+description: 
+type: docs
+weight: 260
+url: /php-java/aspose.slides/presentation/getnotessize/
+---
+
+## getNotesSize()  method
+
+ Returns notes slide size object.
+ Read-only  INotesSize.
+ 
+
+### Returns
+[NotesSize](../../notessize)
+
+
+---
+
+

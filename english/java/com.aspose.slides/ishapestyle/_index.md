@@ -18,8 +18,8 @@ Represent shape's style reference.
 | [getLineStyleIndex()](#getLineStyleIndex--) | Returns or sets line's column index in a style matrix. |
 | [setLineStyleIndex(int value)](#setLineStyleIndex-int-) | Returns or sets line's column index in a style matrix. |
 | [getFillColor()](#getFillColor--) | Returns a shape's fill color. |
-| [getFillStyleIndex()](#getFillStyleIndex--) | Returns or sets shape's fill column index in style matrices. 0 means no fill, positive value - index in theme's fill styles, negative value - index in theme's background styles. |
-| [setFillStyleIndex(short value)](#setFillStyleIndex-short-) | Returns or sets shape's fill column index in style matrices. 0 means no fill, positive value - index in theme's fill styles, negative value - index in theme's background styles. |
+| [getFillStyleIndex()](#getFillStyleIndex--) | Returns or sets shape's fill column index in style matrices. |
+| [setFillStyleIndex(short value)](#setFillStyleIndex-short-) | Returns or sets shape's fill column index in style matrices. |
 | [getEffectColor()](#getEffectColor--) | Returns a shape's effect color. |
 | [getEffectStyleIndex()](#getEffectStyleIndex--) | Returns or sets shape's effect column index in a style matrix. |
 | [setEffectStyleIndex(long value)](#setEffectStyleIndex-long-) | Returns or sets shape's effect column index in a style matrix. |

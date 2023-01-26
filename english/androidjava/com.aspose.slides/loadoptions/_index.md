@@ -381,6 +381,33 @@ public final IFontSources getDocumentLevelFontSources()
 
 Specifies sources for external fonts to be used by the presentation. These fonts are available to the presentation throughout its lifetime and are not shared with other presentations
 
+--------------------
+
+> ```
+> The following example shows how to specify custom fonts used with PowerPoint Presentation.
+>  
+>  File file = new File("customfonts\\CustomFont1.ttf");
+>  byte memoryFont1[] = new byte[(int) file.length()];
+>  BufferedInputStream bis = new BufferedInputStream(new FileInputStream(file));
+>  DataInputStream dis = new DataInputStream(bis);
+>  dis.readFully(memoryFont1);
+>  file = new File("customfonts\\CustomFont2.ttf");
+>  byte memoryFont2[] = new byte[(int) file.length()];
+>  bis = new BufferedInputStream(new FileInputStream(file));
+>  dis = new DataInputStream(bis);
+>  dis.readFully(memoryFont2);
+>  LoadOptions loadOptions = new LoadOptions();
+>  loadOptions.getDocumentLevelFontSources().setFontFolders(new String[] { "assets\\fonts", "global\\fonts" });
+>  loadOptions.getDocumentLevelFontSources().setMemoryFonts(new byte[][] { memoryFont1, memoryFont2 });
+>  IPresentation presentation = new Presentation("MyPresentation.pptx", loadOptions);
+>  try {
+>  //work with the presentation
+>  //CustomFont1, CustomFont2 as well as fonts from assets\fonts & global\fonts folders and their subfolders are available to the presentation
+>  } finally {
+>      if (presentation != null) presentation.dispose();
+>  }
+> ```
+
 **Returns:**
 [IFontSources](../../com.aspose.slides/ifontsources)
 ### setDocumentLevelFontSources(IFontSources value) {#setDocumentLevelFontSources-com.aspose.slides.IFontSources-}
@@ -390,6 +417,33 @@ public final void setDocumentLevelFontSources(IFontSources value)
 
 
 Specifies sources for external fonts to be used by the presentation. These fonts are available to the presentation throughout its lifetime and are not shared with other presentations
+
+--------------------
+
+> ```
+> The following example shows how to specify custom fonts used with PowerPoint Presentation.
+>  
+>  File file = new File("customfonts\\CustomFont1.ttf");
+>  byte memoryFont1[] = new byte[(int) file.length()];
+>  BufferedInputStream bis = new BufferedInputStream(new FileInputStream(file));
+>  DataInputStream dis = new DataInputStream(bis);
+>  dis.readFully(memoryFont1);
+>  file = new File("customfonts\\CustomFont2.ttf");
+>  byte memoryFont2[] = new byte[(int) file.length()];
+>  bis = new BufferedInputStream(new FileInputStream(file));
+>  dis = new DataInputStream(bis);
+>  dis.readFully(memoryFont2);
+>  LoadOptions loadOptions = new LoadOptions();
+>  loadOptions.getDocumentLevelFontSources().setFontFolders(new String[] { "assets\\fonts", "global\\fonts" });
+>  loadOptions.getDocumentLevelFontSources().setMemoryFonts(new byte[][] { memoryFont1, memoryFont2 });
+>  IPresentation presentation = new Presentation("MyPresentation.pptx", loadOptions);
+>  try {
+>  //work with the presentation
+>  //CustomFont1, CustomFont2 as well as fonts from assets\fonts & global\fonts folders and their subfolders are available to the presentation
+>  } finally {
+>      if (presentation != null) presentation.dispose();
+>  }
+> ```
 
 **Parameters:**
 | Parameter | Type | Description |

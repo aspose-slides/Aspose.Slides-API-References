@@ -1,0 +1,22 @@
+---
+title: setDataTable
+second_title: Aspose.Sildes for PHP via Java API Reference
+description: 
+type: docs
+weight: 250
+url: /php-java/aspose.slides/chart/setdatatable/
+---
+
+## setDataTable(boolean value)  method
+
+ Determines whether a chart has a data table.
+ Read/write  boolean.
+ 
+
+### Returns
+void
+
+
+---
+
+

@@ -679,17 +679,58 @@ public final IOleObjectFrame addOleObjectFrame(float x, float y, float width, fl
 
 Adds a new OLE object to the end of a collection.
 
+--------------------
+
+> ```
+> The following examples shows how to adding OLE Object Frames to Slides of PowerPoint Presentation.
+>  
+>  // Instantiate Presentation class that represents the PPTX
+>  Presentation pres = new Presentation();
+>  try
+>  {
+>      // Access the first slide
+>      ISlide sld = pres.getSlides().get_Item(0);
+> 
+>      // Load an cel file to stream
+>      FileInputStream fs = new FileInputStream("book1.xlsx");
+>      ByteArrayOutputStream mstream = new ByteArrayOutputStream();
+>      byte[] buf = new byte[4096];
+> 
+>      while (true)
+>      {
+>          int bytesRead = fs.read(buf, 0, buf.length);
+>          if (bytesRead <= 0)
+>              break;
+>          mstream.write(buf, 0, bytesRead);
+>      }
+>      // Create data object for embedding
+>      IOleEmbeddedDataInfo dataInfo = new OleEmbeddedDataInfo(mstream.toByteArray(), "xlsx");
+> 
+>      // Add an Ole Object Frame shape
+>      IOleObjectFrame oleObjectFrame = sld.getShapes().addOleObjectFrame(0, 0, (float)pres.getSlideSize().getSize().getWidth(),
+>              (float)pres.getSlideSize().getSize().getHeight(), dataInfo);
+> 
+>      //Write the PPTX to disk
+>      pres.save("OleEmbed_out.pptx", SaveFormat.Pptx);
+>  }
+>  catch (IOException e) { }
+>  finally
+>  {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| x | float |  |
-| y | float |  |
-| width | float |  |
-| height | float |  |
-| dataInfo | [IOleEmbeddedDataInfo](../../com.aspose.slides/ioleembeddeddatainfo) |  |
+| x | float | X coordinate of a new OLE frame. |
+| y | float | Y coordinate of a new OLE frame. |
+| width | float | Width of a new OLE frame. |
+| height | float | Height of a new OLE frame. |
+| dataInfo | [IOleEmbeddedDataInfo](../../com.aspose.slides/ioleembeddeddatainfo) | Embedded data info [IOleEmbeddedDataInfo](../../com.aspose.slides/ioleembeddeddatainfo). |
 
 **Returns:**
-[IOleObjectFrame](../../com.aspose.slides/ioleobjectframe)
+[IOleObjectFrame](../../com.aspose.slides/ioleobjectframe) - Created OLE object.
 ### addOleObjectFrame(float x, float y, float width, float height, String className, String path) {#addOleObjectFrame-float-float-float-float-java.lang.String-java.lang.String-}
 ```
 public final IOleObjectFrame addOleObjectFrame(float x, float y, float width, float height, String className, String path)
@@ -1120,6 +1161,30 @@ public final IAutoShape addMathShape(float x, float y, float width, float height
 
 Creates a new Autoshape tuned from default template to math content and adds it to the end of the collection.
 
+--------------------
+
+> ```
+> The following example shows how to add Mathematical Equation in PowerPoint Presentation.
+>  
+>  Presentation pres = new Presentation();
+>  try {
+>      IAutoShape mathShape = pres.getSlides().get_Item(0).getShapes().addMathShape(0, 0, 720, 150);
+>      IMathParagraph mathParagraph = ((MathPortion)mathShape.getTextFrame().getParagraphs().get_Item(0).getPortions().get_Item(0)).getMathParagraph();
+>      IMathFraction fraction = new MathematicalText("x").divide("y");
+>      mathParagraph.add(new MathBlock(fraction));
+>      IMathBlock mathBlock = new MathematicalText("c")
+>          .setSuperscript("2")
+>          .join("=")
+>          .join(new MathematicalText("a").setSuperscript("2"))
+>          .join("+")
+>          .join(new MathematicalText("b").setSuperscript("2"));
+>      mathParagraph.add(mathBlock);
+>      pres.save("math.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -1439,6 +1504,62 @@ public final ITable addTable(float x, float y, double[] columnWidths, double[] r
 
 
 Creates a new Table and adds it to the end of the collection.
+
+--------------------
+
+> ```
+> The following examples shows how to add table in PowerPoint Presentation.
+>  
+>  // Instantiate Presentation class that represents PPTX file
+>  Presentation pres = new Presentation();
+>  try
+>  {
+>      // Access first slide
+>      ISlide sld = pres.getSlides().get_Item(0);
+> 
+>      // Define columns with widths and rows with heights
+>      double[] dblCols = {50, 50, 50};
+>      double[] dblRows = {50, 30, 30, 30, 30};
+> 
+>      // Add table shape to slide
+>      ITable tbl = sld.getShapes().addTable(100, 50, dblCols, dblRows);
+> 
+>      // Set border format for each cell
+>      for (int row = 0; row < tbl.getRows().size(); row++)
+>      {
+>          for (int cell = 0; cell < tbl.getRows().get_Item(row).size(); cell++)
+>          {
+>              tbl.get_Item(row, cell).getCellFormat().getBorderTop().getFillFormat().setFillType(FillType.Solid);
+>              tbl.get_Item(row, cell).getCellFormat().getBorderTop().getFillFormat().getSolidFillColor().setColor(Color.RED);
+>              tbl.get_Item(row, cell).getCellFormat().getBorderTop().setWidth(5);
+> 
+>              tbl.get_Item(row, cell).getCellFormat().getBorderBottom().getFillFormat().setFillType((FillType.Solid));
+>              tbl.get_Item(row, cell).getCellFormat().getBorderBottom().getFillFormat().getSolidFillColor().setColor(Color.RED);
+>              tbl.get_Item(row, cell).getCellFormat().getBorderBottom().setWidth(5);
+> 
+>              tbl.get_Item(row, cell).getCellFormat().getBorderLeft().getFillFormat().setFillType(FillType.Solid);
+>              tbl.get_Item(row, cell).getCellFormat().getBorderLeft().getFillFormat().getSolidFillColor().setColor(Color.RED);
+>              tbl.get_Item(row, cell).getCellFormat().getBorderLeft().setWidth(5);
+> 
+>              tbl.get_Item(row, cell).getCellFormat().getBorderRight().getFillFormat().setFillType(FillType.Solid);
+>              tbl.get_Item(row, cell).getCellFormat().getBorderRight().getFillFormat().getSolidFillColor().setColor(Color.RED);
+>              tbl.get_Item(row, cell).getCellFormat().getBorderRight().setWidth(5);
+>          }
+>      }
+>      // Merge cells 1 & 2 of row 1
+>      tbl.mergeCells(tbl.get_Item(0, 0), tbl.get_Item(1, 1), false);
+> 
+>      // Add text to the merged cell
+>      tbl.get_Item(0, 0).getTextFrame().setText("Merged Cells");
+> 
+>      // Save PPTX to Disk
+>      pres.save("table.pptx", SaveFormat.Pptx);
+>  }
+>  finally
+>  {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
 
 **Parameters:**
 | Parameter | Type | Description |

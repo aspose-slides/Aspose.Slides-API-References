@@ -258,7 +258,7 @@ url: /androidjava/com.aspose.slides/
 | [InOutTransition](../com.aspose.slides/inouttransition) | In-Out slide transition effect. |
 | [Ink](../com.aspose.slides/ink) | Represents an ink object on a slide. |
 | [InnerShadow](../com.aspose.slides/innershadow) | Represents a Inner Shadow effect. |
-| [Input](../com.aspose.slides/input) | Represents a collection of input elements (templates) for IWebDocument. |
+| [Input](../com.aspose.slides/input) | Represents a collection of input elements (templates). |
 | [InterruptionToken](../com.aspose.slides/interruptiontoken) | This class represents the token to use for signaling long running tasks whether the interruption was requested. |
 | [InterruptionTokenSource](../com.aspose.slides/interruptiontokensource) | Represents the source of [InterruptionToken](../com.aspose.slides/interruptiontoken). |
 | [InvalidPasswordException](../com.aspose.slides/invalidpasswordexception) | Exception which thrown when presentation file format is unsupported. |

@@ -1,0 +1,21 @@
+---
+title: getImageDataChromakey
+second_title: Aspose.Sildes for PHP via Java API Reference
+description: 
+type: docs
+weight: 440
+url: /php-java/aspose.slides/behaviorproperty/getimagedatachromakey/
+---
+
+## getImageDataChromakey()  method
+
+ Represents 'imageData.chromakey' property
+ 
+
+### Returns
+BehaviorProperty
+
+
+---
+
+

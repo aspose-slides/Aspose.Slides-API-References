@@ -462,6 +462,50 @@ public final ISlideSize getSlideSize()
 
 Returns slide size object. Read-only [ISlideSize](../../com.aspose.slides/islidesize).
 
+--------------------
+
+> ```
+> The following example shows how to change the slide size in a PowerPoint Presentation.
+>  
+>  Presentation pres = new Presentation("pres-4x3-aspect-ratio.pptx");
+>  try {
+>      pres.getSlideSize().setSize(SlideSizeType.OnScreen16x9, SlideSizeScaleType.DoNotScale);
+>      pres.save("pres-4x3-aspect-ratio.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+>  
+>  The following example shows how to set slide size with respect to content scaling for a PowerPoint Presentation.
+>  
+>  // Instantiate a Presentation object that represents a presentation file
+>  Presentation presentation = new Presentation("AccessSlides.pptx");
+>  try {
+>      Presentation auxPresentation = new Presentation();
+>      try {
+>          ISlide slide = presentation.getSlides().get_Item(0);
+>          // Set the slide size of generated presentations to that of source
+>          presentation.getSlideSize().setSize(540, 720, SlideSizeScaleType.EnsureFit); // Method SetSize is used for set slide size with scale content to ensure fit
+>          presentation.getSlideSize().setSize(SlideSizeType.A4Paper, SlideSizeScaleType.Maximize); // Method SetSize is used for set slide size with maximize size of content
+>          // Save Presentation to disk
+>          auxPresentation.save("Set_Size&Type_out.pptx", SaveFormat.Pptx);
+>      } finally {
+>          if (auxPresentation != null) auxPresentation.dispose();
+>      }
+>  } finally {
+>      if (presentation != null) presentation.dispose();
+>  }
+>  
+>  The following example shows how to specifying custom slide sizes in a PowerPoint Presentation.
+>  
+>  Presentation pres = new Presentation("pres.pptx");
+>  try {
+>      pres.getSlideSize().setSize(780, 540, SlideSizeScaleType.DoNotScale); // A4 paper size
+>      pres.save("pres-a4-slide-size.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
 **Returns:**
 [ISlideSize](../../com.aspose.slides/islidesize)
 ### getNotesSize() {#getNotesSize--}
@@ -786,6 +830,195 @@ public final IVideoCollection getVideos()
 
 
 Returns the collection of all embedded video files in the presentation. Read-only [IVideoCollection](../../com.aspose.slides/ivideocollection).
+
+--------------------
+
+> ```
+> The following examples shows how to create embedded Video Frame in a PowerPoint Presentation.
+>  
+>  // Instantiate Presentation class that represents the PPTX
+>  Presentation pres = new Presentation();
+>  try {
+>      // Get the first slide
+>      ISlide sld = pres.getSlides().get_Item(0);
+>      // Embedd vide inside presentation
+>      IVideo vid = pres.getVideos().addVideo(new FileInputStream("Wildlife.mp4"));
+>      // Add Video Frame
+>      IVideoFrame vf = sld.getShapes().addVideoFrame(50, 150, 300, 350, vid);
+>      // Set video to Video Frame
+>      vf.setEmbeddedVideo(vid);
+>      // Set Play Mode and Volume of the Video
+>      vf.setPlayMode(VideoPlayModePreset.Auto);
+>      vf.setVolume(AudioVolumeMode.Loud);
+>      // Write the PPTX file to disk
+>      pres.save("VideoFrame_out.pptx", SaveFormat.Pptx);
+>  } catch(IOException e) {
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+>  
+>  The following examples shows how to add a video passing path to the video file directly into AddVideoFrame method for PowerPoint Presentation.
+>  
+>  Presentation pres = new Presentation();
+>  try {
+>      ISlide sld = pres.getSlides().get_Item(0);
+>      IVideoFrame vf = sld.getShapes().addVideoFrame(50, 150, 300, 150, "video1.avi");
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+>  
+>  The following examples shows how to add large file through BLOB to a Presentation.
+>  
+>  // Creates a new presentation to which the video will be added
+>  Presentation pres = new Presentation();
+>  try {
+>      FileInputStream fileStream = new FileInputStream("veryLargeVideo.avi");
+>      try {
+>          // Let's add the video to the presentation - we chose the KeepLocked behavior because we do
+>          //not intend to access the "veryLargeVideo.avi" file.
+>          IVideo video = pres.getVideos().addVideo(fileStream, LoadingStreamBehavior.KeepLocked);
+>          pres.getSlides().get_Item(0).getShapes().addVideoFrame(0, 0, 480, 270, video);
+>          // Saves the presentation. While a large presentation gets outputted, the memory consumption
+>          // stays low through the pres object's lifecycle
+>          pres.save("presentationWithLargeVideo.pptx", SaveFormat.Pptx);
+>      } finally {
+>          if (fileStream != null) fileStream.close();
+>      }
+>  } catch(IOException e) {
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+>  
+>  The following examples shows how to export large file through BLOB from PowerPoint Presentation.
+>  
+>  LoadOptions loadOptions = new LoadOptions();
+>  // Locks the source file and does NOT load it into memory
+>  loadOptions.getBlobManagementOptions().setPresentationLockingBehavior(PresentationLockingBehavior.KeepLocked);
+>  // Creates a Presentation's instance, locks the "hugePresentationWithAudiosAndVideos.pptx" file.
+>  Presentation pres = new Presentation("Large  Video File Test1.pptx", loadOptions);
+>  try {
+>      // Let's save each video to a file. To prevent high memory usage, we need a buffer that will be used
+>      // to transfer the data from the presentation's video stream to a stream for a newly created video file.
+>      byte[] buffer = new byte[81024];
+>      // Iterates through the videos
+>      for (int index = 0; index < pres.getVideos().size(); index++) {
+>          IVideo video = pres.getVideos().get_Item(index);
+>          // Opens the presentation video stream. Please, note that we intentionally avoided accessing properties
+>          // like video.BinaryData - because this property returns a byte array containing a full video, which then
+>          // causes bytes to be loaded into memory. We use video.GetStream, which will return Stream - and does NOT
+>          //  require us to load the whole video into the memory.
+>          InputStream presVideoStream = video.getStream();
+>          try {
+>              FileOutputStream outputFileStream = new FileOutputStream("video{index}.avi");
+>              try {
+>                  int bytesRead;
+>                  while ((bytesRead = presVideoStream.read(buffer, 0, buffer.length)) > 0) {
+>                      outputFileStream.write(buffer, 0, bytesRead);
+>                  }
+>              } finally {
+>                  if (outputFileStream != null) outputFileStream.close();
+>              }
+>          } finally {
+>              if (presVideoStream != null) presVideoStream.close();
+>          }
+>          // Memory consumption will remain low regardless of the size of the video or presentation,
+>      }
+>      // If necessary, you can apply the same steps for audio files.
+>  } catch(IOException e) {
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+>  
+>  The following examples shows how to add a hyperlink to a video in a PowerPoint Presentation.
+>  
+>  Presentation pres = new Presentation();
+>  try {
+>      IVideo video = pres.getVideos().addVideo(Files.readAllBytes(Paths.get("video.avi")));
+>      IVideoFrame videoFrame = pres.getSlides().get_Item(0).getShapes().addVideoFrame(10, 10, 100, 100, video);
+>      videoFrame.setHyperlinkClick(new Hyperlink("https://www.aspose.com/"));
+>      videoFrame.getHyperlinkClick().setTooltip("More than 70% Fortune 100 companies trust Aspose APIs");
+>      pres.save("pres-out.pptx", SaveFormat.Pptx);
+>  } catch(IOException e) {
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+>  
+>  The following examples shows how to create Video Frame with Video from Web Source in a PowerPoint Presentation.
+>  
+>  public static void run()
+>  {
+>      Presentation pres = new Presentation();
+>      try {
+>          addVideoFromYouTube(pres, "Tj75Arhq5ho");
+>          pres.save("AddVideoFrameFromWebSource_out.pptx", SaveFormat.Pptx);
+>      } catch(IOException e) {
+>      } finally {
+>          if (pres != null) pres.dispose();
+>      }
+>  }
+>  private static void addVideoFromYouTube(Presentation pres, String videoId) throws IOException
+>  {
+>      //add videoFrame
+>      IVideoFrame videoFrame = pres.getSlides().get_Item(0).getShapes().addVideoFrame(10, 10, 427, 240, "https://www.youtube.com/embed/" + videoId);
+>      videoFrame.setPlayMode(VideoPlayModePreset.Auto);
+> 
+>      //load thumbnail
+>      String thumbnailUri = "http://img.youtube.com/vi/" + videoId + "/hqdefault.jpg";
+>      URL url = new URL(thumbnailUri);
+>      URLConnection connection = url.openConnection();
+>      connection.setConnectTimeout(5000);
+>      connection.setReadTimeout(10000);
+>      InputStream input = connection.getInputStream();
+>      ByteArrayOutputStream output = new ByteArrayOutputStream();
+>      try
+>      {
+>          byte[] buffer = new byte[8192];
+>          for (int count; (count = input.read(buffer)) > 0; )
+>          {
+>              output.write(buffer, 0, count);
+>          }
+>          videoFrame.getPictureFormat().getPicture().setImage(pres.getImages().addImage(output.toByteArray()));
+>      } finally {
+>          if (input != null) input.close();
+>          if (output != null) output.close();
+>      }
+>  }
+>  
+>  The following examples shows how to extract Video from slide of PowerPoint Presentation.
+>  
+>  // Instantiate a Presentation object that represents a presentation file
+>  Presentation presentation = new Presentation("Video.pptx");
+>  try {
+>      for (ISlide slide : presentation.getSlides())
+>      {
+>          for (IShape shape : presentation.getSlides().get_Item(0).getShapes())
+>          {
+>              if (shape instanceof VideoFrame)
+>              {
+>                  IVideoFrame vf = (IVideoFrame) shape;
+>                  String type = vf.getEmbeddedVideo().getContentType();
+>                  int ss = type.lastIndexOf('/');
+>                  type = type.substring(ss + 1);
+>                  byte[] buffer = vf.getEmbeddedVideo().getBinaryData();
+>                  FileOutputStream fop = new FileOutputStream("NewVideo_out." + type);
+>                  try
+>                  {
+>                      fop.write(buffer);
+>                      fop.flush();
+>                      fop.close();
+>                  }
+>                  finally
+>                  {
+>                      if (presentation != null) presentation.dispose();
+>                  }
+>              }
+>          }
+>      }
+>  } catch(IOException e) {
+>  } finally {
+>      if (presentation != null) presentation.dispose();
+>  }
+> ```
 
 **Returns:**
 [IVideoCollection](../../com.aspose.slides/ivideocollection)
@@ -1332,6 +1565,52 @@ public final void save(OutputStream stream, int[] slides, int format, ISaveOptio
 
 
 Saves specified slides of a presentation to a stream in the specified format with page number keeping.
+
+--------------------
+
+> ```
+> The following example shows how to convert PowerPoint to PNG.
+>  
+>  Presentation pres = new Presentation("pres.pptx");
+>  try {
+>      for (int index = 0; index < pres.getSlides().size(); index++) {
+>          ISlide slide = pres.getSlides().get_Item(index);
+>          ImageIO.write(slide.getThumbnail(), "PNG", new java.io.File("slide_" + index + ".png"));
+>      }
+>  } catch(IOException e) {
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+>  
+>  The following example shows how to convert PowerPoint to PNG with custom dimensions.
+>  
+>  Presentation pres = new Presentation("pres.pptx");
+>  try {
+>      float scaleX = 2f;
+>      float scaleY = 2f;
+>      for (int index = 0; index < pres.getSlides().size(); index++) {
+>          ISlide slide = pres.getSlides().get_Item(index);
+>          ImageIO.write(slide.getThumbnail(scaleX, scaleY), "PNG", new java.io.File("slide_" + index + ".png"));
+>      }
+>  } catch(IOException e) {
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+>  
+>  The following example shows how to convert PowerPoint to PNG with custom size.
+>  
+>  Presentation pres = new Presentation("pres.pptx");
+>  try {
+>      Dimension size = new Dimension(960, 720);
+>      for (int index = 0; index < pres.getSlides().size(); index++) {
+>          ISlide slide = pres.getSlides().get_Item(index);
+>          ImageIO.write(slide.getThumbnail(size), "PNG", new java.io.File("slide_" + index + ".png"));
+>      }
+>  } catch(IOException e) {
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
 
 **Parameters:**
 | Parameter | Type | Description |
