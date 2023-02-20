@@ -16,15 +16,7 @@ url: /php-java/aspose.slides/shapeframe/
 
 | Name | Description |
 | --- | --- |
-| [ShapeFrame](shapeframe)(float, float, float, float, OrderedDictionary, OrderedDictionary, float) | Creates new shape frame's properties. |
-| [ShapeFrame](shapeframe)(float, float, float, float, OrderedDictionary, Hashtable, float) | Creates new shape frame's properties. |
-| [ShapeFrame](shapeframe)(float, float, float, float, OrderedDictionary, LinkedList, float) | Creates new shape frame's properties. |
-| [ShapeFrame](shapeframe)(float, float, float, float, Hashtable, OrderedDictionary, float) | Creates new shape frame's properties. |
-| [ShapeFrame](shapeframe)(float, float, float, float, Hashtable, Hashtable, float) | Creates new shape frame's properties. |
-| [ShapeFrame](shapeframe)(float, float, float, float, Hashtable, LinkedList, float) | Creates new shape frame's properties. |
-| [ShapeFrame](shapeframe)(float, float, float, float, LinkedList, OrderedDictionary, float) | Creates new shape frame's properties. |
-| [ShapeFrame](shapeframe)(float, float, float, float, LinkedList, Hashtable, float) | Creates new shape frame's properties. |
-| [ShapeFrame](shapeframe)(float, float, float, float, LinkedList, LinkedList, float) | Creates new shape frame's properties. |
+| [ShapeFrame](shapeframe)(float, float, float, float, byte, byte, float) | Creates new shape frame's properties. |
 
 ## Methods
 

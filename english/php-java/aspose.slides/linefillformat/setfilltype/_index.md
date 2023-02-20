@@ -7,33 +7,7 @@ weight: 60
 url: /php-java/aspose.slides/linefillformat/setfilltype/
 ---
 
-## setFillType(OrderedDictionary value)  method
-
- Returns or sets the fill type.
- Read/write  FillType.
- 
-
-### Returns
-void
-
-
----
-
-
-## setFillType(Hashtable value)  method
-
- Returns or sets the fill type.
- Read/write  FillType.
- 
-
-### Returns
-void
-
-
----
-
-
-## setFillType(LinkedList value)  method
+## setFillType(byte value)  method
 
  Returns or sets the fill type.
  Read/write  FillType.

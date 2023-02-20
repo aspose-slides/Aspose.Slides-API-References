@@ -15,7 +15,7 @@ url: /php-java/aspose.slides/rotation3d/getrotationx/
  
 
 ### Returns
-OrderedDictionary, Hashtable, LinkedList
+byte
 
 
 ---

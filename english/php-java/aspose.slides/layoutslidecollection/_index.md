@@ -16,9 +16,7 @@ url: /php-java/aspose.slides/layoutslidecollection/
 
 | Name | Description |
 | --- | --- |
-| [getByType](getbytype)(OrderedDictionary) | Returns the first layout slide of specified type. |
-| [getByType](getbytype)(Hashtable) | Returns the first layout slide of specified type. |
-| [getByType](getbytype)(LinkedList) | Returns the first layout slide of specified type. |
+| [getByType](getbytype)(byte) | Returns the first layout slide of specified type. |
 | [getSyncRoot](getsyncroot)() | Returns a synchronization root. Read-only Object. |
 | [get_Item](get_item)(int) | Returns the layout slide by index. Read-only LayoutSlide. |
 | [isSynchronized](issynchronized)() | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |

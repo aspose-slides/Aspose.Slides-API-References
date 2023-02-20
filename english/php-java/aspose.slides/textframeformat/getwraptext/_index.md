@@ -14,7 +14,7 @@ url: /php-java/aspose.slides/textframeformat/getwraptext/
  
 
 ### Returns
-OrderedDictionary, Hashtable, LinkedList
+byte
 
 
 ---

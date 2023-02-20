@@ -7,7 +7,7 @@ weight: 270
 url: /php-java/aspose.slides/imagetransformoperationcollection/removeitem/
 ---
 
-## removeItem([SoftEdge](../../softedge) item)  method
+## removeItem([HSL](../../hsl) item)  method
 
  Removes the first occurrence of a specific object from the  IGenericCollection.
  
@@ -16,7 +16,7 @@ url: /php-java/aspose.slides/imagetransformoperationcollection/removeitem/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [SoftEdge](../../softedge) | The object to remove from the IGenericCollection. |
+| item | [HSL](../../hsl) | The object to remove from the IGenericCollection. |
 
 ### Returns
 boolean
@@ -31,7 +31,7 @@ boolean
 ---
 
 
-## removeItem([HSL](../../hsl) item)  method
+## removeItem([SoftEdge](../../softedge) item)  method
 
  Removes the first occurrence of a specific object from the  IGenericCollection.
  
@@ -40,7 +40,7 @@ boolean
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [HSL](../../hsl) | The object to remove from the IGenericCollection. |
+| item | [SoftEdge](../../softedge) | The object to remove from the IGenericCollection. |
 
 ### Returns
 boolean
@@ -79,7 +79,7 @@ boolean
 ---
 
 
-## removeItem([InnerShadow](../../innershadow) item)  method
+## removeItem([ColorChange](../../colorchange) item)  method
 
  Removes the first occurrence of a specific object from the  IGenericCollection.
  
@@ -88,7 +88,7 @@ boolean
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [InnerShadow](../../innershadow) | The object to remove from the IGenericCollection. |
+| item | [ColorChange](../../colorchange) | The object to remove from the IGenericCollection. |
 
 ### Returns
 boolean
@@ -103,7 +103,7 @@ boolean
 ---
 
 
-## removeItem([ColorChange](../../colorchange) item)  method
+## removeItem([InnerShadow](../../innershadow) item)  method
 
  Removes the first occurrence of a specific object from the  IGenericCollection.
  
@@ -112,7 +112,7 @@ boolean
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [ColorChange](../../colorchange) | The object to remove from the IGenericCollection. |
+| item | [InnerShadow](../../innershadow) | The object to remove from the IGenericCollection. |
 
 ### Returns
 boolean
@@ -199,7 +199,7 @@ boolean
 ---
 
 
-## removeItem([AlphaFloor](../../alphafloor) item)  method
+## removeItem([AlphaModulateFixed](../../alphamodulatefixed) item)  method
 
  Removes the first occurrence of a specific object from the  IGenericCollection.
  
@@ -208,7 +208,7 @@ boolean
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [AlphaFloor](../../alphafloor) | The object to remove from the IGenericCollection. |
+| item | [AlphaModulateFixed](../../alphamodulatefixed) | The object to remove from the IGenericCollection. |
 
 ### Returns
 boolean
@@ -223,7 +223,7 @@ boolean
 ---
 
 
-## removeItem([AlphaModulateFixed](../../alphamodulatefixed) item)  method
+## removeItem([AlphaFloor](../../alphafloor) item)  method
 
  Removes the first occurrence of a specific object from the  IGenericCollection.
  
@@ -232,7 +232,7 @@ boolean
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [AlphaModulateFixed](../../alphamodulatefixed) | The object to remove from the IGenericCollection. |
+| item | [AlphaFloor](../../alphafloor) | The object to remove from the IGenericCollection. |
 
 ### Returns
 boolean
@@ -319,7 +319,7 @@ boolean
 ---
 
 
-## removeItem([AlphaCeiling](../../alphaceiling) item)  method
+## removeItem([AlphaInverse](../../alphainverse) item)  method
 
  Removes the first occurrence of a specific object from the  IGenericCollection.
  
@@ -328,7 +328,7 @@ boolean
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [AlphaCeiling](../../alphaceiling) | The object to remove from the IGenericCollection. |
+| item | [AlphaInverse](../../alphainverse) | The object to remove from the IGenericCollection. |
 
 ### Returns
 boolean
@@ -343,7 +343,7 @@ boolean
 ---
 
 
-## removeItem([AlphaInverse](../../alphainverse) item)  method
+## removeItem([AlphaCeiling](../../alphaceiling) item)  method
 
  Removes the first occurrence of a specific object from the  IGenericCollection.
  
@@ -352,7 +352,7 @@ boolean
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [AlphaInverse](../../alphainverse) | The object to remove from the IGenericCollection. |
+| item | [AlphaCeiling](../../alphaceiling) | The object to remove from the IGenericCollection. |
 
 ### Returns
 boolean
@@ -463,7 +463,7 @@ boolean
 ---
 
 
-## removeItem([ColorReplace](../../colorreplace) item)  method
+## removeItem([BiLevel](../../bilevel) item)  method
 
  Removes the first occurrence of a specific object from the  IGenericCollection.
  
@@ -472,7 +472,7 @@ boolean
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [ColorReplace](../../colorreplace) | The object to remove from the IGenericCollection. |
+| item | [BiLevel](../../bilevel) | The object to remove from the IGenericCollection. |
 
 ### Returns
 boolean
@@ -487,7 +487,7 @@ boolean
 ---
 
 
-## removeItem([BiLevel](../../bilevel) item)  method
+## removeItem([ColorReplace](../../colorreplace) item)  method
 
  Removes the first occurrence of a specific object from the  IGenericCollection.
  
@@ -496,7 +496,7 @@ boolean
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [BiLevel](../../bilevel) | The object to remove from the IGenericCollection. |
+| item | [ColorReplace](../../colorreplace) | The object to remove from the IGenericCollection. |
 
 ### Returns
 boolean

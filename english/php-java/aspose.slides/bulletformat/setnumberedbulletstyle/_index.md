@@ -7,33 +7,7 @@ weight: 200
 url: /php-java/aspose.slides/bulletformat/setnumberedbulletstyle/
 ---
 
-## setNumberedBulletStyle(OrderedDictionary value)  method
-
- Returns or sets the style of a numbered bullet with no inheritance.
- Read/write  NumberedBulletStyle.
- 
-
-### Returns
-void
-
-
----
-
-
-## setNumberedBulletStyle(Hashtable value)  method
-
- Returns or sets the style of a numbered bullet with no inheritance.
- Read/write  NumberedBulletStyle.
- 
-
-### Returns
-void
-
-
----
-
-
-## setNumberedBulletStyle(LinkedList value)  method
+## setNumberedBulletStyle(byte value)  method
 
  Returns or sets the style of a numbered bullet with no inheritance.
  Read/write  NumberedBulletStyle.

@@ -17,6 +17,4 @@ url: /php-java/aspose.slides/orientationtransition/
 | Name | Description |
 | --- | --- |
 | [getDirection](getdirection)() | Direction of transition. Read/write Orientation. |
-| [setDirection](setdirection)(OrderedDictionary) | Direction of transition. Read/write Orientation. |
-| [setDirection](setdirection)(Hashtable) | Direction of transition. Read/write Orientation. |
-| [setDirection](setdirection)(LinkedList) | Direction of transition. Read/write Orientation. |
+| [setDirection](setdirection)(byte) | Direction of transition. Read/write Orientation. |

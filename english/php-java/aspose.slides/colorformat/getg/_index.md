@@ -13,7 +13,7 @@ url: /php-java/aspose.slides/colorformat/getg/
  
 
 ### Returns
-OrderedDictionary, Hashtable, LinkedList
+byte
 
 
 ---

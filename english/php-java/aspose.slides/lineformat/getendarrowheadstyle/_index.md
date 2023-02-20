@@ -14,7 +14,7 @@ url: /php-java/aspose.slides/lineformat/getendarrowheadstyle/
  
 
 ### Returns
-OrderedDictionary, Hashtable, LinkedList
+byte
 
 
 ---

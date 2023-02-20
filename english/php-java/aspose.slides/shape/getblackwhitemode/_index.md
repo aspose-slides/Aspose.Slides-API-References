@@ -14,7 +14,7 @@ url: /php-java/aspose.slides/shape/getblackwhitemode/
  
 
 ### Returns
-OrderedDictionary, Hashtable, LinkedList
+byte
 
 
 ---

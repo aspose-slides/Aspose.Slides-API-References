@@ -14,7 +14,7 @@ url: /php-java/aspose.slides/gradientformat/getlineargradientscaled/
  
 
 ### Returns
-OrderedDictionary, Hashtable, LinkedList
+byte
 
 
 ---

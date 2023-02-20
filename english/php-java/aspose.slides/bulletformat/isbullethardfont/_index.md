@@ -16,7 +16,7 @@ url: /php-java/aspose.slides/bulletformat/isbullethardfont/
  
 
 ### Returns
-OrderedDictionary, Hashtable, LinkedList
+byte
 
 
 ---

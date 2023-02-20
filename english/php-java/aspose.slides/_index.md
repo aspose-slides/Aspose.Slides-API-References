@@ -1,12 +1,12 @@
 ---
-title: Namespace Aspose.Slides
+title: Namespace aspose.slides
 type: docs
 weight: 10
 url: /php-java/aspose.slides/
 keywords: "Aspose.Slides for PHP via Java, Aspose Slides, Aspose PowerPoint, Aspose PPT, Aspose API Reference."
 description: Aspose.Slides are Microsoft PowerPoint management APIs that enables software applications to read and write PowerPoint documents without using Microsoft PowerPoint.
 ---
-## Namespace [Aspose.Slides](../)
+## Namespace [aspose.slides](../)
 ## Classes
 | Class | Description |
 | --- | --- |

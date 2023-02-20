@@ -14,7 +14,7 @@ url: /php-java/aspose.slides/patternformat/getpatternstyle/
  
 
 ### Returns
-OrderedDictionary, Hashtable, LinkedList
+byte
 
 
 ---

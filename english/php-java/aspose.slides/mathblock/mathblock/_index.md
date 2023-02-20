@@ -31,21 +31,6 @@ url: /php-java/aspose.slides/mathblock/mathblock/
 ---
 
 
-## MathBlock([MathLimit](../../mathlimit) mathElement)  constructor
-
- Creates a new mathematical block and puts specified element in it
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| mathElement | [MathLimit](../../mathlimit) | The mathematical element to put in the block |
-
-
----
-
-
 ## MathBlock([MathMatrix](../../mathmatrix) mathElement)  constructor
 
  Creates a new mathematical block and puts specified element in it
@@ -56,6 +41,21 @@ url: /php-java/aspose.slides/mathblock/mathblock/
 | Name | Type | Description |
 | --- | --- | --- |
 | mathElement | [MathMatrix](../../mathmatrix) | The mathematical element to put in the block |
+
+
+---
+
+
+## MathBlock([MathLimit](../../mathlimit) mathElement)  constructor
+
+ Creates a new mathematical block and puts specified element in it
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| mathElement | [MathLimit](../../mathlimit) | The mathematical element to put in the block |
 
 
 ---
@@ -151,21 +151,6 @@ url: /php-java/aspose.slides/mathblock/mathblock/
 ---
 
 
-## MathBlock([MathGroupingCharacter](../../mathgroupingcharacter) mathElement)  constructor
-
- Creates a new mathematical block and puts specified element in it
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| mathElement | [MathGroupingCharacter](../../mathgroupingcharacter) | The mathematical element to put in the block |
-
-
----
-
-
 ## MathBlock([MathBorderBox](../../mathborderbox) mathElement)  constructor
 
  Creates a new mathematical block and puts specified element in it
@@ -181,6 +166,21 @@ url: /php-java/aspose.slides/mathblock/mathblock/
 ---
 
 
+## MathBlock([MathGroupingCharacter](../../mathgroupingcharacter) mathElement)  constructor
+
+ Creates a new mathematical block and puts specified element in it
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| mathElement | [MathGroupingCharacter](../../mathgroupingcharacter) | The mathematical element to put in the block |
+
+
+---
+
+
 ## MathBlock([MathBar](../../mathbar) mathElement)  constructor
 
  Creates a new mathematical block and puts specified element in it
@@ -191,21 +191,6 @@ url: /php-java/aspose.slides/mathblock/mathblock/
 | Name | Type | Description |
 | --- | --- | --- |
 | mathElement | [MathBar](../../mathbar) | The mathematical element to put in the block |
-
-
----
-
-
-## MathBlock([MathFunction](../../mathfunction) mathElement)  constructor
-
- Creates a new mathematical block and puts specified element in it
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| mathElement | [MathFunction](../../mathfunction) | The mathematical element to put in the block |
 
 
 ---
@@ -236,6 +221,21 @@ url: /php-java/aspose.slides/mathblock/mathblock/
 | Name | Type | Description |
 | --- | --- | --- |
 | mathElement | [MathSubscriptElement](../../mathsubscriptelement) | The mathematical element to put in the block |
+
+
+---
+
+
+## MathBlock([MathFunction](../../mathfunction) mathElement)  constructor
+
+ Creates a new mathematical block and puts specified element in it
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| mathElement | [MathFunction](../../mathfunction) | The mathematical element to put in the block |
 
 
 ---

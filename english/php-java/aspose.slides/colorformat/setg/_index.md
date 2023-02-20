@@ -7,31 +7,7 @@ weight: 270
 url: /php-java/aspose.slides/colorformat/setg/
 ---
 
-## setG(OrderedDictionary value)  method
-
- Returns or sets the green component of a color. All color transformations are ignored.
- 
-
-### Returns
-void
-
-
----
-
-
-## setG(Hashtable value)  method
-
- Returns or sets the green component of a color. All color transformations are ignored.
- 
-
-### Returns
-void
-
-
----
-
-
-## setG(LinkedList value)  method
+## setG(byte value)  method
 
  Returns or sets the green component of a color. All color transformations are ignored.
  

@@ -22,9 +22,7 @@ url: /php-java/aspose.slides/colorscheme/
 | [getAccent4](getaccent4)() | Fourth accent color in the scheme. Read-only IColorFormat. |
 | [getAccent5](getaccent5)() | Fifth accent color in the scheme. Read-only IColorFormat. |
 | [getAccent6](getaccent6)() | Sixth accent color in the scheme. Read-only IColorFormat. |
-| [getByColorSchemeIndex](getbycolorschemeindex)(OrderedDictionary) | Gets the element at the specified index. Read-only IColorFormat. |
-| [getByColorSchemeIndex](getbycolorschemeindex)(Hashtable) | Gets the element at the specified index. Read-only IColorFormat. |
-| [getByColorSchemeIndex](getbycolorschemeindex)(LinkedList) | Gets the element at the specified index. Read-only IColorFormat. |
+| [getByColorSchemeIndex](getbycolorschemeindex)(byte) | Gets the element at the specified index. Read-only IColorFormat. |
 | [getDark1](getdark1)() | First dark color in the scheme. Read-only IColorFormat. |
 | [getDark2](getdark2)() | Second dark color in the scheme. Read-only IColorFormat. |
 | [getFollowedHyperlink](getfollowedhyperlink)() | Color for the visited hyperlinks. Read-only IColorFormat. |

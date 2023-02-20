@@ -16,7 +16,7 @@ url: /php-java/aspose.slides/textframeformat/gettextverticaltype/
  
 
 ### Returns
-OrderedDictionary, Hashtable, LinkedList
+byte
 
 
 ---

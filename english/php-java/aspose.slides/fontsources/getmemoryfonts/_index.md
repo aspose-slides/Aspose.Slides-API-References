@@ -13,7 +13,7 @@ url: /php-java/aspose.slides/fontsources/getmemoryfonts/
  
 
 ### Returns
-OrderedDictionary, Hashtable, LinkedList
+byte
 
 
 ---

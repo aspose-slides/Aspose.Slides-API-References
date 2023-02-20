@@ -14,7 +14,7 @@ url: /php-java/aspose.slides/placeholder/getorientation/
  
 
 ### Returns
-OrderedDictionary, Hashtable, LinkedList
+byte
 
 
 ---

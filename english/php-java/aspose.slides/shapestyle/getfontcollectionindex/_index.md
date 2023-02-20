@@ -14,7 +14,7 @@ url: /php-java/aspose.slides/shapestyle/getfontcollectionindex/
  
 
 ### Returns
-OrderedDictionary, Hashtable, LinkedList
+byte
 
 
 ---

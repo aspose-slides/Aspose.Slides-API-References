@@ -14,7 +14,7 @@ url: /php-java/aspose.slides/chartdatacell/getpresetnumberformat/
   
 
 ### Returns
-OrderedDictionary, Hashtable, LinkedList
+byte
 
 
 ---

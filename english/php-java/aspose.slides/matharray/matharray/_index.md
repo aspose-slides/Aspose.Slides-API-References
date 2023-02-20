@@ -22,21 +22,6 @@ url: /php-java/aspose.slides/matharray/matharray/
 ---
 
 
-## MathArray([MathLimit](../../mathlimit) element)  constructor
-
- Creates a mathematical array and places the specified element in it
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathLimit](../../mathlimit) | The element to place in the array |
-
-
----
-
-
 ## MathArray([MathMatrix](../../mathmatrix) element)  constructor
 
  Creates a mathematical array and places the specified element in it
@@ -47,6 +32,21 @@ url: /php-java/aspose.slides/matharray/matharray/
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathMatrix](../../mathmatrix) | The element to place in the array |
+
+
+---
+
+
+## MathArray([MathLimit](../../mathlimit) element)  constructor
+
+ Creates a mathematical array and places the specified element in it
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathLimit](../../mathlimit) | The element to place in the array |
 
 
 ---
@@ -142,21 +142,6 @@ url: /php-java/aspose.slides/matharray/matharray/
 ---
 
 
-## MathArray([MathGroupingCharacter](../../mathgroupingcharacter) element)  constructor
-
- Creates a mathematical array and places the specified element in it
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathGroupingCharacter](../../mathgroupingcharacter) | The element to place in the array |
-
-
----
-
-
 ## MathArray([MathBorderBox](../../mathborderbox) element)  constructor
 
  Creates a mathematical array and places the specified element in it
@@ -172,6 +157,21 @@ url: /php-java/aspose.slides/matharray/matharray/
 ---
 
 
+## MathArray([MathGroupingCharacter](../../mathgroupingcharacter) element)  constructor
+
+ Creates a mathematical array and places the specified element in it
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathGroupingCharacter](../../mathgroupingcharacter) | The element to place in the array |
+
+
+---
+
+
 ## MathArray([MathBar](../../mathbar) element)  constructor
 
  Creates a mathematical array and places the specified element in it
@@ -182,21 +182,6 @@ url: /php-java/aspose.slides/matharray/matharray/
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathBar](../../mathbar) | The element to place in the array |
-
-
----
-
-
-## MathArray([MathFunction](../../mathfunction) element)  constructor
-
- Creates a mathematical array and places the specified element in it
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathFunction](../../mathfunction) | The element to place in the array |
 
 
 ---
@@ -227,6 +212,21 @@ url: /php-java/aspose.slides/matharray/matharray/
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathSubscriptElement](../../mathsubscriptelement) | The element to place in the array |
+
+
+---
+
+
+## MathArray([MathFunction](../../mathfunction) element)  constructor
+
+ Creates a mathematical array and places the specified element in it
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathFunction](../../mathfunction) | The element to place in the array |
 
 
 ---

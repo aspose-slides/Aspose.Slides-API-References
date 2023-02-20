@@ -13,7 +13,7 @@ url: /php-java/aspose.slides/pathsegment/getpathcommand/
  
 
 ### Returns
-OrderedDictionary, Hashtable, LinkedList
+byte
 
 
 ---

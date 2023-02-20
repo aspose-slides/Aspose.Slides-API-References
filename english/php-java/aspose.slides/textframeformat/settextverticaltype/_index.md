@@ -7,37 +7,7 @@ weight: 300
 url: /php-java/aspose.slides/textframeformat/settextverticaltype/
 ---
 
-## setTextVerticalType(OrderedDictionary value)  method
-
- Determines text orientation.
- The resulted value of visual text rotation summarized from this property and custom angle
- in property RotationAngle.
- Read/write  TextVerticalType.
- 
-
-### Returns
-void
-
-
----
-
-
-## setTextVerticalType(Hashtable value)  method
-
- Determines text orientation.
- The resulted value of visual text rotation summarized from this property and custom angle
- in property RotationAngle.
- Read/write  TextVerticalType.
- 
-
-### Returns
-void
-
-
----
-
-
-## setTextVerticalType(LinkedList value)  method
+## setTextVerticalType(byte value)  method
 
  Determines text orientation.
  The resulted value of visual text rotation summarized from this property and custom angle

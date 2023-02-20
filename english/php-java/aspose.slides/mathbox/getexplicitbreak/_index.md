@@ -18,7 +18,7 @@ url: /php-java/aspose.slides/mathbox/getexplicitbreak/
  
 
 ### Returns
-OrderedDictionary, Hashtable, LinkedList
+byte
 
 
 ---

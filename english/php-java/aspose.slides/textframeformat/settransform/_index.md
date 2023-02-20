@@ -7,33 +7,7 @@ weight: 310
 url: /php-java/aspose.slides/textframeformat/settransform/
 ---
 
-## setTransform(OrderedDictionary value)  method
-
- Gets or sets text wrapping shape.
- Read/write  TextShapeType.
- 
-
-### Returns
-void
-
-
----
-
-
-## setTransform(Hashtable value)  method
-
- Gets or sets text wrapping shape.
- Read/write  TextShapeType.
- 
-
-### Returns
-void
-
-
----
-
-
-## setTransform(LinkedList value)  method
+## setTransform(byte value)  method
 
  Gets or sets text wrapping shape.
  Read/write  TextShapeType.

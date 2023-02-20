@@ -7,33 +7,7 @@ weight: 70
 url: /php-java/aspose.slides/linefillformat/setrotatewithshape/
 ---
 
-## setRotateWithShape(OrderedDictionary value)  method
-
- Determines whether the fill should be rotated with a shape.
- Read/write  NullableBool.
- 
-
-### Returns
-void
-
-
----
-
-
-## setRotateWithShape(Hashtable value)  method
-
- Determines whether the fill should be rotated with a shape.
- Read/write  NullableBool.
- 
-
-### Returns
-void
-
-
----
-
-
-## setRotateWithShape(LinkedList value)  method
+## setRotateWithShape(byte value)  method
 
  Determines whether the fill should be rotated with a shape.
  Read/write  NullableBool.

@@ -14,7 +14,7 @@ url: /php-java/aspose.slides/lineformat/getcapstyle/
  
 
 ### Returns
-OrderedDictionary, Hashtable, LinkedList
+byte
 
 
 ---

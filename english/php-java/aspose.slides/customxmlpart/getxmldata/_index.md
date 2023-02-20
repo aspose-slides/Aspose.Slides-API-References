@@ -14,7 +14,7 @@ url: /php-java/aspose.slides/customxmlpart/getxmldata/
  
 
 ### Returns
-OrderedDictionary, Hashtable, LinkedList
+byte
 
 ### Exception
 

@@ -14,7 +14,7 @@ url: /php-java/aspose.slides/fillformat/getfilltype/
  
 
 ### Returns
-OrderedDictionary, Hashtable, LinkedList
+byte
 
 
 ---

@@ -14,7 +14,7 @@ url: /php-java/aspose.slides/lineformat/getbeginarrowheadwidth/
  
 
 ### Returns
-OrderedDictionary, Hashtable, LinkedList
+byte
 
 
 ---

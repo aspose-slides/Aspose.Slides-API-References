@@ -14,7 +14,7 @@ url: /php-java/aspose.slides/digitalsignature/getcertificate/
  
 
 ### Returns
-OrderedDictionary, Hashtable, LinkedList
+byte
 
 
 ---

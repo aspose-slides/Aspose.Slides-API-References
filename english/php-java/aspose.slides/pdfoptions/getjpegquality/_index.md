@@ -19,7 +19,7 @@ url: /php-java/aspose.slides/pdfoptions/getjpegquality/
  
 
 ### Returns
-OrderedDictionary, Hashtable, LinkedList
+byte
 
 
 ---

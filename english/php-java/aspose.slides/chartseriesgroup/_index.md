@@ -47,15 +47,11 @@ url: /php-java/aspose.slides/chartseriesgroup/
 | [setBubbleSizeRepresentation](setbubblesizerepresentation)(int) | Specifies how the bubble size values are represented on the bubble chart. Read/write BubbleSizeRepresentationType. |
 | [setBubbleSizeScale](setbubblesizescale)(int) | Specifies the scale factor for the bubble chart (can be between 0 and 300 percents of the default size). Read/write int. |
 | [setColorVaried](setcolorvaried)(boolean) | Specifies that each data marker in the series has a different color. Read/write boolean. |
-| [setDoughnutHoleSize](setdoughnutholesize)(OrderedDictionary) | Specifies the size of the hole in a doughnut chart (can be between 0 and 90 percents of the size of the plot area.). Read/write byte. |
-| [setDoughnutHoleSize](setdoughnutholesize)(Hashtable) | Specifies the size of the hole in a doughnut chart (can be between 0 and 90 percents of the size of the plot area.). Read/write byte. |
-| [setDoughnutHoleSize](setdoughnutholesize)(LinkedList) | Specifies the size of the hole in a doughnut chart (can be between 0 and 90 percents of the size of the plot area.). Read/write byte. |
+| [setDoughnutHoleSize](setdoughnutholesize)(byte) | Specifies the size of the hole in a doughnut chart (can be between 0 and 90 percents of the size of the plot area.). Read/write byte. |
 | [setFirstSliceAngle](setfirstsliceangle)(int) | Gets or sets the angle of the first pie or doughnut chart slice, in degrees (clockwise from up, from 0 to 360 degrees). Read/write int. |
 | [setGapDepth](setgapdepth)(int) | Returns or sets the distance, as a percentage of the marker width, between the data series in a 3D chart. Read/write int. |
 | [setGapWidth](setgapwidth)(int) | Specifies the space between bar or column clusters, as a percentage of the bar or column width. Read/write int. |
-| [setOverlap](setoverlap)(OrderedDictionary) | Specifies how much bars and columns shall overlap on 2-D charts (from -100 to 100). Read/write byte. |
-| [setOverlap](setoverlap)(Hashtable) | Specifies how much bars and columns shall overlap on 2-D charts (from -100 to 100). Read/write byte. |
-| [setOverlap](setoverlap)(LinkedList) | Specifies how much bars and columns shall overlap on 2-D charts (from -100 to 100). Read/write byte. |
+| [setOverlap](setoverlap)(byte) | Specifies how much bars and columns shall overlap on 2-D charts (from -100 to 100). Read/write byte. |
 | [setPieSplitBy](setpiesplitby)(int) | Specifies how to determine which data points are in the second pie or bar on a pie-of-pie or bar-of-pie chart. Read/write PieSplitType. |
 | [setPieSplitPosition](setpiesplitposition)(double) | Specifies a value that shall be used to determine which data points are in the second pie or bar on a pie-of-pie or bar-of-pie chart. Is used together with PieSplitBy property. Read/write double. |
 | [setSecondPieSize](setsecondpiesize)(int) | Specifies the size of the second pie or bar of a pie-of-pie chart or a bar-of-pie chart, as a percentage of the size of the first pie (can be between 5 and 200 percents). Read/write int. |

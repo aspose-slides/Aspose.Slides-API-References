@@ -25,24 +25,6 @@ void
 ---
 
 
-## add([MathLimit](../../mathlimit) item)  method
-
- Adds a math element to the end of the collection.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| item | [MathLimit](../../mathlimit) | The IMathElement to be added to the end of the collection. |
-
-### Returns
-void
-
-
----
-
-
 ## add([MathMatrix](../../mathmatrix) item)  method
 
  Adds a math element to the end of the collection.
@@ -53,6 +35,24 @@ void
 | Name | Type | Description |
 | --- | --- | --- |
 | item | [MathMatrix](../../mathmatrix) | The IMathElement to be added to the end of the collection. |
+
+### Returns
+void
+
+
+---
+
+
+## add([MathLimit](../../mathlimit) item)  method
+
+ Adds a math element to the end of the collection.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| item | [MathLimit](../../mathlimit) | The IMathElement to be added to the end of the collection. |
 
 ### Returns
 void
@@ -169,24 +169,6 @@ void
 ---
 
 
-## add([MathGroupingCharacter](../../mathgroupingcharacter) item)  method
-
- Adds a math element to the end of the collection.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| item | [MathGroupingCharacter](../../mathgroupingcharacter) | The IMathElement to be added to the end of the collection. |
-
-### Returns
-void
-
-
----
-
-
 ## add([MathBorderBox](../../mathborderbox) item)  method
 
  Adds a math element to the end of the collection.
@@ -205,6 +187,24 @@ void
 ---
 
 
+## add([MathGroupingCharacter](../../mathgroupingcharacter) item)  method
+
+ Adds a math element to the end of the collection.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| item | [MathGroupingCharacter](../../mathgroupingcharacter) | The IMathElement to be added to the end of the collection. |
+
+### Returns
+void
+
+
+---
+
+
 ## add([MathBar](../../mathbar) item)  method
 
  Adds a math element to the end of the collection.
@@ -215,24 +215,6 @@ void
 | Name | Type | Description |
 | --- | --- | --- |
 | item | [MathBar](../../mathbar) | The IMathElement to be added to the end of the collection. |
-
-### Returns
-void
-
-
----
-
-
-## add([MathFunction](../../mathfunction) item)  method
-
- Adds a math element to the end of the collection.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| item | [MathFunction](../../mathfunction) | The IMathElement to be added to the end of the collection. |
 
 ### Returns
 void
@@ -269,6 +251,24 @@ void
 | Name | Type | Description |
 | --- | --- | --- |
 | item | [MathSubscriptElement](../../mathsubscriptelement) | The IMathElement to be added to the end of the collection. |
+
+### Returns
+void
+
+
+---
+
+
+## add([MathFunction](../../mathfunction) item)  method
+
+ Adds a math element to the end of the collection.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| item | [MathFunction](../../mathfunction) | The IMathElement to be added to the end of the collection. |
 
 ### Returns
 void

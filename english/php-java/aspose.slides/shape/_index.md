@@ -54,9 +54,7 @@ url: /php-java/aspose.slides/shape/
 | [removePlaceholder](removeplaceholder)() | Defines that this shape isn't a placeholder. |
 | [setAlternativeText](setalternativetext)(String) | Returns or sets the alternative text associated with a shape. Read/write String. |
 | [setAlternativeTextTitle](setalternativetexttitle)(String) | Returns or sets the title of alternative text associated with a shape. Read/write String. |
-| [setBlackWhiteMode](setblackwhitemode)(OrderedDictionary) | Property specifies how a shape will render in black-and-white display mode.. Read/write BlackWhiteMode. |
-| [setBlackWhiteMode](setblackwhitemode)(Hashtable) | Property specifies how a shape will render in black-and-white display mode.. Read/write BlackWhiteMode. |
-| [setBlackWhiteMode](setblackwhitemode)(LinkedList) | Property specifies how a shape will render in black-and-white display mode.. Read/write BlackWhiteMode. |
+| [setBlackWhiteMode](setblackwhitemode)(byte) | Property specifies how a shape will render in black-and-white display mode.. Read/write BlackWhiteMode. |
 | [setFrame](setframe)([ShapeFrame](../shapeframe)) | Returns or sets the shape frame's properties. Read/write IShapeFrame. Value of each property of the returned IShapeFrame instance is not undefined (is not NaN or NotDefined). Value of each property of the assigned IShapeFrame instance must be not undefined (must be not NaN or NotDefined). You can set undefined values for RawFrame instance properties. |
 | [setHeight](setheight)(float) | Returns or sets the height of the shape. Read/write float. Returned value is always defined (is not Float.NaN). Assigned value must be defined (not Float.NaN). You can set undefined values for RawFrame instance properties. |
 | [setHidden](sethidden)(boolean) | Determines whether the shape is hidden. Read/write boolean. |

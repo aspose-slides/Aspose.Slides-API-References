@@ -47,22 +47,14 @@ url: /php-java/aspose.slides/paragraphformat/
 | [setAlignment](setalignment)(int) | Returns or sets the text alignment in a paragraph with no inheritance. Read/write TextAlignment. |
 | [setDefaultTabSize](setdefaulttabsize)(float) | Returns or sets default tabulation size with no inheritance. Read/write float. |
 | [setDepth](setdepth)(short) | Returns or sets depth of the paragraph. Value 0 means undefined value. Read/write short. |
-| [setEastAsianLineBreak](seteastasianlinebreak)(OrderedDictionary) | Determines whether the East Asian line break is used in a paragraph. No inheritance applied. Read/write NullableBool. |
-| [setEastAsianLineBreak](seteastasianlinebreak)(Hashtable) | Determines whether the East Asian line break is used in a paragraph. No inheritance applied. Read/write NullableBool. |
-| [setEastAsianLineBreak](seteastasianlinebreak)(LinkedList) | Determines whether the East Asian line break is used in a paragraph. No inheritance applied. Read/write NullableBool. |
+| [setEastAsianLineBreak](seteastasianlinebreak)(byte) | Determines whether the East Asian line break is used in a paragraph. No inheritance applied. Read/write NullableBool. |
 | [setFontAlignment](setfontalignment)(int) | Returns or sets a font alignment in a paragraph with no inheritance. Read/write FontAlignment. |
-| [setHangingPunctuation](sethangingpunctuation)(OrderedDictionary) | Determines whether the hanging punctuation is used in a paragraph. No inheritance applied. Read/write NullableBool. |
-| [setHangingPunctuation](sethangingpunctuation)(Hashtable) | Determines whether the hanging punctuation is used in a paragraph. No inheritance applied. Read/write NullableBool. |
-| [setHangingPunctuation](sethangingpunctuation)(LinkedList) | Determines whether the hanging punctuation is used in a paragraph. No inheritance applied. Read/write NullableBool. |
+| [setHangingPunctuation](sethangingpunctuation)(byte) | Determines whether the hanging punctuation is used in a paragraph. No inheritance applied. Read/write NullableBool. |
 | [setIndent](setindent)(float) | Returns or sets paragraph First Line Indent/Hanging Indent with no inheritance. Hanging Indent can be defined with negative values. Read/write float. |
-| [setLatinLineBreak](setlatinlinebreak)(OrderedDictionary) | Determines whether the Latin line break is used in a paragraph. No inheritance applied. Read/write NullableBool. |
-| [setLatinLineBreak](setlatinlinebreak)(Hashtable) | Determines whether the Latin line break is used in a paragraph. No inheritance applied. Read/write NullableBool. |
-| [setLatinLineBreak](setlatinlinebreak)(LinkedList) | Determines whether the Latin line break is used in a paragraph. No inheritance applied. Read/write NullableBool. |
+| [setLatinLineBreak](setlatinlinebreak)(byte) | Determines whether the Latin line break is used in a paragraph. No inheritance applied. Read/write NullableBool. |
 | [setMarginLeft](setmarginleft)(float) | Returns or sets the left margin in a paragraph with no inheritance. Read/write float. |
 | [setMarginRight](setmarginright)(float) | Returns or sets the right margin in a paragraph with no inheritance. Read/write float. |
-| [setRightToLeft](setrighttoleft)(OrderedDictionary) | Determines whether the Right to Left writing is used in a paragraph. No inheritance applied. Read/write NullableBool. |
-| [setRightToLeft](setrighttoleft)(Hashtable) | Determines whether the Right to Left writing is used in a paragraph. No inheritance applied. Read/write NullableBool. |
-| [setRightToLeft](setrighttoleft)(LinkedList) | Determines whether the Right to Left writing is used in a paragraph. No inheritance applied. Read/write NullableBool. |
+| [setRightToLeft](setrighttoleft)(byte) | Determines whether the Right to Left writing is used in a paragraph. No inheritance applied. Read/write NullableBool. |
 | [setSpaceAfter](setspaceafter)(float) | Returns or sets the amount of space after the last line in a paragraph with no inheritance. A positive value specifies the percentage of the font size that the white space should be. A negative value specifies the size of the white space in point size. Read/write float. |
 | [setSpaceBefore](setspacebefore)(float) | Returns or sets the amount of space before the first line in a paragraph with no inheritance. A positive value specifies the percentage of the font size that the white space should be. A negative value specifies the size of the white space in point size. Read/write float. |
 | [setSpaceWithin](setspacewithin)(float) | Returns or sets the amount of space between base lines in a paragraph. Positive value means percentage, negative - size in points. No inheritance applied. Read/write float. |

@@ -14,7 +14,7 @@ url: /php-java/aspose.slides/commandeffect/gettype/
  
 
 ### Returns
-OrderedDictionary, Hashtable, LinkedList
+byte
 
 
 ---

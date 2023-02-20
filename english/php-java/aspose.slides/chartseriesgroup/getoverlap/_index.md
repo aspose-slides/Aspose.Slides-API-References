@@ -14,7 +14,7 @@ url: /php-java/aspose.slides/chartseriesgroup/getoverlap/
  
 
 ### Returns
-OrderedDictionary, Hashtable, LinkedList
+byte
 
 
 ---

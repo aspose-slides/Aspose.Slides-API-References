@@ -14,7 +14,7 @@ url: /php-java/aspose.slides/lineformat/getalignment/
  
 
 ### Returns
-OrderedDictionary, Hashtable, LinkedList
+byte
 
 
 ---

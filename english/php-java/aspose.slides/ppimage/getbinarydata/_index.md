@@ -14,7 +14,7 @@ url: /php-java/aspose.slides/ppimage/getbinarydata/
  
 
 ### Returns
-OrderedDictionary, Hashtable, LinkedList
+byte
 
 
 ---

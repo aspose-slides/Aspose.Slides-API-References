@@ -26,7 +26,5 @@ url: /php-java/aspose.slides/shapestyle/
 | [getLineStyleIndex](getlinestyleindex)() | Returns or sets line's column index in a style matrix. Read/write int. |
 | [setEffectStyleIndex](seteffectstyleindex)(long) | Returns or sets shape's effect column index in a style matrix. Read/write long. |
 | [setFillStyleIndex](setfillstyleindex)(short) | Returns or sets shape's fill column index in style matrices. 0 means no fill, positive value - index in theme's fill styles, negative value - index in theme's background styles. Read/write short. |
-| [setFontCollectionIndex](setfontcollectionindex)(OrderedDictionary) | Returns or sets shape's font index in a font collection. Read/write FontCollectionIndex. |
-| [setFontCollectionIndex](setfontcollectionindex)(Hashtable) | Returns or sets shape's font index in a font collection. Read/write FontCollectionIndex. |
-| [setFontCollectionIndex](setfontcollectionindex)(LinkedList) | Returns or sets shape's font index in a font collection. Read/write FontCollectionIndex. |
+| [setFontCollectionIndex](setfontcollectionindex)(byte) | Returns or sets shape's font index in a font collection. Read/write FontCollectionIndex. |
 | [setLineStyleIndex](setlinestyleindex)(int) | Returns or sets line's column index in a style matrix. Read/write int. |

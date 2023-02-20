@@ -26,25 +26,6 @@ void
 ---
 
 
-## set_Item(int index, [MathLimit](../../mathlimit) value)  method
-
- Gets or sets IMathElement at the specified index.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| value | int | The mathematical element. |
-| index | [MathLimit](../../mathlimit) | The zero-based index of the item |
-
-### Returns
-void
-
-
----
-
-
 ## set_Item(int index, [MathMatrix](../../mathmatrix) value)  method
 
  Gets or sets IMathElement at the specified index.
@@ -56,6 +37,25 @@ void
 | --- | --- | --- |
 | value | int | The mathematical element. |
 | index | [MathMatrix](../../mathmatrix) | The zero-based index of the item |
+
+### Returns
+void
+
+
+---
+
+
+## set_Item(int index, [MathLimit](../../mathlimit) value)  method
+
+ Gets or sets IMathElement at the specified index.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| value | int | The mathematical element. |
+| index | [MathLimit](../../mathlimit) | The zero-based index of the item |
 
 ### Returns
 void
@@ -178,25 +178,6 @@ void
 ---
 
 
-## set_Item(int index, [MathGroupingCharacter](../../mathgroupingcharacter) value)  method
-
- Gets or sets IMathElement at the specified index.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| value | int | The mathematical element. |
-| index | [MathGroupingCharacter](../../mathgroupingcharacter) | The zero-based index of the item |
-
-### Returns
-void
-
-
----
-
-
 ## set_Item(int index, [MathBorderBox](../../mathborderbox) value)  method
 
  Gets or sets IMathElement at the specified index.
@@ -216,6 +197,25 @@ void
 ---
 
 
+## set_Item(int index, [MathGroupingCharacter](../../mathgroupingcharacter) value)  method
+
+ Gets or sets IMathElement at the specified index.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| value | int | The mathematical element. |
+| index | [MathGroupingCharacter](../../mathgroupingcharacter) | The zero-based index of the item |
+
+### Returns
+void
+
+
+---
+
+
 ## set_Item(int index, [MathBar](../../mathbar) value)  method
 
  Gets or sets IMathElement at the specified index.
@@ -227,25 +227,6 @@ void
 | --- | --- | --- |
 | value | int | The mathematical element. |
 | index | [MathBar](../../mathbar) | The zero-based index of the item |
-
-### Returns
-void
-
-
----
-
-
-## set_Item(int index, [MathFunction](../../mathfunction) value)  method
-
- Gets or sets IMathElement at the specified index.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| value | int | The mathematical element. |
-| index | [MathFunction](../../mathfunction) | The zero-based index of the item |
 
 ### Returns
 void
@@ -284,6 +265,25 @@ void
 | --- | --- | --- |
 | value | int | The mathematical element. |
 | index | [MathSubscriptElement](../../mathsubscriptelement) | The zero-based index of the item |
+
+### Returns
+void
+
+
+---
+
+
+## set_Item(int index, [MathFunction](../../mathfunction) value)  method
+
+ Gets or sets IMathElement at the specified index.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| value | int | The mathematical element. |
+| index | [MathFunction](../../mathfunction) | The zero-based index of the item |
 
 ### Returns
 void

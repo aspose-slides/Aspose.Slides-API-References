@@ -14,7 +14,7 @@ url: /php-java/aspose.slides/moderncomment/getstatus/
  
 
 ### Returns
-OrderedDictionary, Hashtable, LinkedList
+byte
 
 
 ---

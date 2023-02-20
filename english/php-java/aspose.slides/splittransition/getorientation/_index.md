@@ -14,7 +14,7 @@ url: /php-java/aspose.slides/splittransition/getorientation/
  
 
 ### Returns
-OrderedDictionary, Hashtable, LinkedList
+byte
 
 
 ---

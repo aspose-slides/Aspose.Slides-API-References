@@ -14,7 +14,7 @@ url: /php-java/aspose.slides/orientationtransition/getdirection/
  
 
 ### Returns
-OrderedDictionary, Hashtable, LinkedList
+byte
 
 
 ---

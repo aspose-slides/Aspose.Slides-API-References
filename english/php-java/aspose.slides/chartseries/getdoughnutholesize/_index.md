@@ -22,7 +22,7 @@ url: /php-java/aspose.slides/chartseries/getdoughnutholesize/
  
 
 ### Returns
-OrderedDictionary, Hashtable, LinkedList
+byte
 
 
 ---

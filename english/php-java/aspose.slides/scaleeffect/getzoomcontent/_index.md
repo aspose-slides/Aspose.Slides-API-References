@@ -14,7 +14,7 @@ url: /php-java/aspose.slides/scaleeffect/getzoomcontent/
  
 
 ### Returns
-OrderedDictionary, Hashtable, LinkedList
+byte
 
 
 ---

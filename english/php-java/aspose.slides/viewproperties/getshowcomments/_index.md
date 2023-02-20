@@ -14,7 +14,7 @@ url: /php-java/aspose.slides/viewproperties/getshowcomments/
  
 
 ### Returns
-OrderedDictionary, Hashtable, LinkedList
+byte
 
 
 ---

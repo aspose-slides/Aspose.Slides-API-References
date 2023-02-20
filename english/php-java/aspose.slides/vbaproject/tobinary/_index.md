@@ -13,7 +13,7 @@ url: /php-java/aspose.slides/vbaproject/tobinary/
  
 
 ### Returns
-OrderedDictionary, Hashtable, LinkedList
+byte
 
 
 ---

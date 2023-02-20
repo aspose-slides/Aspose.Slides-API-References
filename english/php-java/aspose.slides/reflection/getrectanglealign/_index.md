@@ -14,7 +14,7 @@ url: /php-java/aspose.slides/reflection/getrectanglealign/
  
 
 ### Returns
-OrderedDictionary, Hashtable, LinkedList
+byte
 
 
 ---

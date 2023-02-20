@@ -16,7 +16,7 @@ url: /php-java/aspose.slides/video/getbinarydata/
  
 
 ### Returns
-OrderedDictionary, Hashtable, LinkedList
+byte
 
 
 ---

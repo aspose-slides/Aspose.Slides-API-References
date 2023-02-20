@@ -14,7 +14,7 @@ url: /php-java/aspose.slides/outershadow/getrectanglealign/
  
 
 ### Returns
-OrderedDictionary, Hashtable, LinkedList
+byte
 
 
 ---

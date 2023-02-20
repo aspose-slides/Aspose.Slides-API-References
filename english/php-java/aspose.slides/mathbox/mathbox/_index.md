@@ -22,21 +22,6 @@ url: /php-java/aspose.slides/mathbox/mathbox/
 ---
 
 
-## MathBox([MathLimit](../../mathlimit) element)  constructor
-
- Initializes MathBox with the specified element as an argument
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathLimit](../../mathlimit) | The base element to which the box is applied. Can be null. |
-
-
----
-
-
 ## MathBox([MathMatrix](../../mathmatrix) element)  constructor
 
  Initializes MathBox with the specified element as an argument
@@ -47,6 +32,21 @@ url: /php-java/aspose.slides/mathbox/mathbox/
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathMatrix](../../mathmatrix) | The base element to which the box is applied. Can be null. |
+
+
+---
+
+
+## MathBox([MathLimit](../../mathlimit) element)  constructor
+
+ Initializes MathBox with the specified element as an argument
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathLimit](../../mathlimit) | The base element to which the box is applied. Can be null. |
 
 
 ---
@@ -142,21 +142,6 @@ url: /php-java/aspose.slides/mathbox/mathbox/
 ---
 
 
-## MathBox([MathGroupingCharacter](../../mathgroupingcharacter) element)  constructor
-
- Initializes MathBox with the specified element as an argument
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathGroupingCharacter](../../mathgroupingcharacter) | The base element to which the box is applied. Can be null. |
-
-
----
-
-
 ## MathBox([MathBorderBox](../../mathborderbox) element)  constructor
 
  Initializes MathBox with the specified element as an argument
@@ -172,6 +157,21 @@ url: /php-java/aspose.slides/mathbox/mathbox/
 ---
 
 
+## MathBox([MathGroupingCharacter](../../mathgroupingcharacter) element)  constructor
+
+ Initializes MathBox with the specified element as an argument
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathGroupingCharacter](../../mathgroupingcharacter) | The base element to which the box is applied. Can be null. |
+
+
+---
+
+
 ## MathBox([MathBar](../../mathbar) element)  constructor
 
  Initializes MathBox with the specified element as an argument
@@ -182,21 +182,6 @@ url: /php-java/aspose.slides/mathbox/mathbox/
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathBar](../../mathbar) | The base element to which the box is applied. Can be null. |
-
-
----
-
-
-## MathBox([MathFunction](../../mathfunction) element)  constructor
-
- Initializes MathBox with the specified element as an argument
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathFunction](../../mathfunction) | The base element to which the box is applied. Can be null. |
 
 
 ---
@@ -227,6 +212,21 @@ url: /php-java/aspose.slides/mathbox/mathbox/
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathSubscriptElement](../../mathsubscriptelement) | The base element to which the box is applied. Can be null. |
+
+
+---
+
+
+## MathBox([MathFunction](../../mathfunction) element)  constructor
+
+ Initializes MathBox with the specified element as an argument
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathFunction](../../mathfunction) | The base element to which the box is applied. Can be null. |
 
 
 ---

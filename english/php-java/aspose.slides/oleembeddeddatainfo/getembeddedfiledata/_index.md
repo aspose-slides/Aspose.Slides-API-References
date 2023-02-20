@@ -14,7 +14,7 @@ url: /php-java/aspose.slides/oleembeddeddatainfo/getembeddedfiledata/
  
 
 ### Returns
-OrderedDictionary, Hashtable, LinkedList
+byte
 
 
 ---

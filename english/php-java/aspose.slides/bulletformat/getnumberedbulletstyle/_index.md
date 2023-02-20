@@ -14,7 +14,7 @@ url: /php-java/aspose.slides/bulletformat/getnumberedbulletstyle/
  
 
 ### Returns
-OrderedDictionary, Hashtable, LinkedList
+byte
 
 
 ---

@@ -14,7 +14,7 @@ url: /php-java/aspose.slides/linefillformat/getrotatewithshape/
  
 
 ### Returns
-OrderedDictionary, Hashtable, LinkedList
+byte
 
 
 ---

@@ -14,7 +14,7 @@ url: /php-java/aspose.slides/layoutslide/getlayouttype/
  
 
 ### Returns
-OrderedDictionary, Hashtable, LinkedList
+byte
 
 
 ---

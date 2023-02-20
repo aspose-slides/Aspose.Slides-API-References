@@ -7,33 +7,7 @@ weight: 90
 url: /php-java/aspose.slides/scaleeffect/setzoomcontent/
 ---
 
-## setZoomContent(OrderedDictionary value)  method
-
- Determines whether a content should be zoomed.
- Read/write  NullableBool.
- 
-
-### Returns
-void
-
-
----
-
-
-## setZoomContent(Hashtable value)  method
-
- Determines whether a content should be zoomed.
- Read/write  NullableBool.
- 
-
-### Returns
-void
-
-
----
-
-
-## setZoomContent(LinkedList value)  method
+## setZoomContent(byte value)  method
 
  Determines whether a content should be zoomed.
  Read/write  NullableBool.

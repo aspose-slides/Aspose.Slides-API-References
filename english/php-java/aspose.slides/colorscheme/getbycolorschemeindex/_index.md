@@ -7,33 +7,7 @@ weight: 70
 url: /php-java/aspose.slides/colorscheme/getbycolorschemeindex/
 ---
 
-## getByColorSchemeIndex(OrderedDictionary index)  method
-
- Gets the element at the specified index.
- Read-only  IColorFormat.
- 
-
-### Returns
-[ColorFormat](../../colorformat)
-
-
----
-
-
-## getByColorSchemeIndex(Hashtable index)  method
-
- Gets the element at the specified index.
- Read-only  IColorFormat.
- 
-
-### Returns
-[ColorFormat](../../colorformat)
-
-
----
-
-
-## getByColorSchemeIndex(LinkedList index)  method
+## getByColorSchemeIndex(byte index)  method
 
  Gets the element at the specified index.
  Read-only  IColorFormat.

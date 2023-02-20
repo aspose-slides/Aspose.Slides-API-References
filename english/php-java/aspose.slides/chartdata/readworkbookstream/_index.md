@@ -13,7 +13,7 @@ url: /php-java/aspose.slides/chartdata/readworkbookstream/
  
 
 ### Returns
-OrderedDictionary, Hashtable, LinkedList
+byte
 
 
 ---

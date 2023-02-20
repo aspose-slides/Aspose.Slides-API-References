@@ -25,24 +25,6 @@ boolean
 ---
 
 
-## remove([MathLimit](../../mathlimit) item)  method
-
- Removes the first occurrence of a specific object from the collection.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| item | [MathLimit](../../mathlimit) | The object to remove from the collection. |
-
-### Returns
-boolean
-
-
----
-
-
 ## remove([MathMatrix](../../mathmatrix) item)  method
 
  Removes the first occurrence of a specific object from the collection.
@@ -53,6 +35,24 @@ boolean
 | Name | Type | Description |
 | --- | --- | --- |
 | item | [MathMatrix](../../mathmatrix) | The object to remove from the collection. |
+
+### Returns
+boolean
+
+
+---
+
+
+## remove([MathLimit](../../mathlimit) item)  method
+
+ Removes the first occurrence of a specific object from the collection.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| item | [MathLimit](../../mathlimit) | The object to remove from the collection. |
 
 ### Returns
 boolean
@@ -169,24 +169,6 @@ boolean
 ---
 
 
-## remove([MathGroupingCharacter](../../mathgroupingcharacter) item)  method
-
- Removes the first occurrence of a specific object from the collection.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| item | [MathGroupingCharacter](../../mathgroupingcharacter) | The object to remove from the collection. |
-
-### Returns
-boolean
-
-
----
-
-
 ## remove([MathBorderBox](../../mathborderbox) item)  method
 
  Removes the first occurrence of a specific object from the collection.
@@ -205,6 +187,24 @@ boolean
 ---
 
 
+## remove([MathGroupingCharacter](../../mathgroupingcharacter) item)  method
+
+ Removes the first occurrence of a specific object from the collection.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| item | [MathGroupingCharacter](../../mathgroupingcharacter) | The object to remove from the collection. |
+
+### Returns
+boolean
+
+
+---
+
+
 ## remove([MathBar](../../mathbar) item)  method
 
  Removes the first occurrence of a specific object from the collection.
@@ -215,24 +215,6 @@ boolean
 | Name | Type | Description |
 | --- | --- | --- |
 | item | [MathBar](../../mathbar) | The object to remove from the collection. |
-
-### Returns
-boolean
-
-
----
-
-
-## remove([MathFunction](../../mathfunction) item)  method
-
- Removes the first occurrence of a specific object from the collection.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| item | [MathFunction](../../mathfunction) | The object to remove from the collection. |
 
 ### Returns
 boolean
@@ -269,6 +251,24 @@ boolean
 | Name | Type | Description |
 | --- | --- | --- |
 | item | [MathSubscriptElement](../../mathsubscriptelement) | The object to remove from the collection. |
+
+### Returns
+boolean
+
+
+---
+
+
+## remove([MathFunction](../../mathfunction) item)  method
+
+ Removes the first occurrence of a specific object from the collection.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| item | [MathFunction](../../mathfunction) | The object to remove from the collection. |
 
 ### Returns
 boolean

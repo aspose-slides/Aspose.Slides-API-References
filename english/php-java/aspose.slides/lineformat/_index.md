@@ -35,39 +35,17 @@ url: /php-java/aspose.slides/lineformat/
 | [getStyle](getstyle)() | Returns or sets the line style. Read/write LineStyle. |
 | [getWidth](getwidth)() | Returns or sets the width of a line. Read/write double. |
 | [isFormatNotDefined](isformatnotdefined)() | Returns true if line format is not defined (as just created, default). Read-only boolean. |
-| [setAlignment](setalignment)(OrderedDictionary) | Returns or sets the line alignment. Read/write LineAlignment. |
-| [setAlignment](setalignment)(Hashtable) | Returns or sets the line alignment. Read/write LineAlignment. |
-| [setAlignment](setalignment)(LinkedList) | Returns or sets the line alignment. Read/write LineAlignment. |
-| [setBeginArrowheadLength](setbeginarrowheadlength)(OrderedDictionary) | Returns or sets the arrowhead length at the beginning of a line. Read/write LineArrowheadLength. |
-| [setBeginArrowheadLength](setbeginarrowheadlength)(Hashtable) | Returns or sets the arrowhead length at the beginning of a line. Read/write LineArrowheadLength. |
-| [setBeginArrowheadLength](setbeginarrowheadlength)(LinkedList) | Returns or sets the arrowhead length at the beginning of a line. Read/write LineArrowheadLength. |
-| [setBeginArrowheadStyle](setbeginarrowheadstyle)(OrderedDictionary) | Returns or sets the arrowhead style at the beginning of a line. Read/write LineArrowheadStyle. |
-| [setBeginArrowheadStyle](setbeginarrowheadstyle)(Hashtable) | Returns or sets the arrowhead style at the beginning of a line. Read/write LineArrowheadStyle. |
-| [setBeginArrowheadStyle](setbeginarrowheadstyle)(LinkedList) | Returns or sets the arrowhead style at the beginning of a line. Read/write LineArrowheadStyle. |
-| [setBeginArrowheadWidth](setbeginarrowheadwidth)(OrderedDictionary) | Returns or sets the arrowhead width at the beginning of a line. Read/write LineArrowheadWidth. |
-| [setBeginArrowheadWidth](setbeginarrowheadwidth)(Hashtable) | Returns or sets the arrowhead width at the beginning of a line. Read/write LineArrowheadWidth. |
-| [setBeginArrowheadWidth](setbeginarrowheadwidth)(LinkedList) | Returns or sets the arrowhead width at the beginning of a line. Read/write LineArrowheadWidth. |
-| [setCapStyle](setcapstyle)(OrderedDictionary) | Returns or sets the line cap style. Read/write LineCapStyle. |
-| [setCapStyle](setcapstyle)(Hashtable) | Returns or sets the line cap style. Read/write LineCapStyle. |
-| [setCapStyle](setcapstyle)(LinkedList) | Returns or sets the line cap style. Read/write LineCapStyle. |
+| [setAlignment](setalignment)(byte) | Returns or sets the line alignment. Read/write LineAlignment. |
+| [setBeginArrowheadLength](setbeginarrowheadlength)(byte) | Returns or sets the arrowhead length at the beginning of a line. Read/write LineArrowheadLength. |
+| [setBeginArrowheadStyle](setbeginarrowheadstyle)(byte) | Returns or sets the arrowhead style at the beginning of a line. Read/write LineArrowheadStyle. |
+| [setBeginArrowheadWidth](setbeginarrowheadwidth)(byte) | Returns or sets the arrowhead width at the beginning of a line. Read/write LineArrowheadWidth. |
+| [setCapStyle](setcapstyle)(byte) | Returns or sets the line cap style. Read/write LineCapStyle. |
 | [setCustomDashPattern](setcustomdashpattern)(float[]) | Returns or sets the custom dash pattern. Read/write float[]. |
-| [setDashStyle](setdashstyle)(OrderedDictionary) | Returns or sets the line dash style. Read/write LineDashStyle. |
-| [setDashStyle](setdashstyle)(Hashtable) | Returns or sets the line dash style. Read/write LineDashStyle. |
-| [setDashStyle](setdashstyle)(LinkedList) | Returns or sets the line dash style. Read/write LineDashStyle. |
-| [setEndArrowheadLength](setendarrowheadlength)(OrderedDictionary) | Returns or sets the arrowhead length at the end of a line. Read/write LineArrowheadLength. |
-| [setEndArrowheadLength](setendarrowheadlength)(Hashtable) | Returns or sets the arrowhead length at the end of a line. Read/write LineArrowheadLength. |
-| [setEndArrowheadLength](setendarrowheadlength)(LinkedList) | Returns or sets the arrowhead length at the end of a line. Read/write LineArrowheadLength. |
-| [setEndArrowheadStyle](setendarrowheadstyle)(OrderedDictionary) | Returns or sets the arrowhead style at the end of a line. Read/write LineArrowheadStyle. |
-| [setEndArrowheadStyle](setendarrowheadstyle)(Hashtable) | Returns or sets the arrowhead style at the end of a line. Read/write LineArrowheadStyle. |
-| [setEndArrowheadStyle](setendarrowheadstyle)(LinkedList) | Returns or sets the arrowhead style at the end of a line. Read/write LineArrowheadStyle. |
-| [setEndArrowheadWidth](setendarrowheadwidth)(OrderedDictionary) | Returns or sets the arrowhead width at the end of a line. Read/write LineArrowheadWidth. |
-| [setEndArrowheadWidth](setendarrowheadwidth)(Hashtable) | Returns or sets the arrowhead width at the end of a line. Read/write LineArrowheadWidth. |
-| [setEndArrowheadWidth](setendarrowheadwidth)(LinkedList) | Returns or sets the arrowhead width at the end of a line. Read/write LineArrowheadWidth. |
-| [setJoinStyle](setjoinstyle)(OrderedDictionary) | Returns or sets the lines join style. Read/write LineJoinStyle. |
-| [setJoinStyle](setjoinstyle)(Hashtable) | Returns or sets the lines join style. Read/write LineJoinStyle. |
-| [setJoinStyle](setjoinstyle)(LinkedList) | Returns or sets the lines join style. Read/write LineJoinStyle. |
+| [setDashStyle](setdashstyle)(byte) | Returns or sets the line dash style. Read/write LineDashStyle. |
+| [setEndArrowheadLength](setendarrowheadlength)(byte) | Returns or sets the arrowhead length at the end of a line. Read/write LineArrowheadLength. |
+| [setEndArrowheadStyle](setendarrowheadstyle)(byte) | Returns or sets the arrowhead style at the end of a line. Read/write LineArrowheadStyle. |
+| [setEndArrowheadWidth](setendarrowheadwidth)(byte) | Returns or sets the arrowhead width at the end of a line. Read/write LineArrowheadWidth. |
+| [setJoinStyle](setjoinstyle)(byte) | Returns or sets the lines join style. Read/write LineJoinStyle. |
 | [setMiterLimit](setmiterlimit)(float) | Returns or sets the miter limit of a line. Read/write float. |
-| [setStyle](setstyle)(OrderedDictionary) | Returns or sets the line style. Read/write LineStyle. |
-| [setStyle](setstyle)(Hashtable) | Returns or sets the line style. Read/write LineStyle. |
-| [setStyle](setstyle)(LinkedList) | Returns or sets the line style. Read/write LineStyle. |
+| [setStyle](setstyle)(byte) | Returns or sets the line style. Read/write LineStyle. |
 | [setWidth](setwidth)(double) | Returns or sets the width of a line. Read/write double. |

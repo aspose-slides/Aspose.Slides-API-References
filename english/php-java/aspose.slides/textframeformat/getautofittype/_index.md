@@ -14,7 +14,7 @@ url: /php-java/aspose.slides/textframeformat/getautofittype/
  
 
 ### Returns
-OrderedDictionary, Hashtable, LinkedList
+byte
 
 
 ---

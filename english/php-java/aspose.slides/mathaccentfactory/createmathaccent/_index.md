@@ -25,24 +25,6 @@ url: /php-java/aspose.slides/mathaccentfactory/createmathaccent/
 ---
 
 
-## createMathAccent([MathLimit](../../mathlimit) element)  method
-
- Creates a math accent applying to a specified math element with the default accent character value
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathLimit](../../mathlimit) | math element to apply accent |
-
-### Returns
-[MathAccent](../../mathaccent)
-
-
----
-
-
 ## createMathAccent([MathMatrix](../../mathmatrix) element)  method
 
  Creates a math accent applying to a specified math element with the default accent character value
@@ -53,6 +35,24 @@ url: /php-java/aspose.slides/mathaccentfactory/createmathaccent/
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathMatrix](../../mathmatrix) | math element to apply accent |
+
+### Returns
+[MathAccent](../../mathaccent)
+
+
+---
+
+
+## createMathAccent([MathLimit](../../mathlimit) element)  method
+
+ Creates a math accent applying to a specified math element with the default accent character value
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathLimit](../../mathlimit) | math element to apply accent |
 
 ### Returns
 [MathAccent](../../mathaccent)
@@ -169,24 +169,6 @@ url: /php-java/aspose.slides/mathaccentfactory/createmathaccent/
 ---
 
 
-## createMathAccent([MathGroupingCharacter](../../mathgroupingcharacter) element)  method
-
- Creates a math accent applying to a specified math element with the default accent character value
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathGroupingCharacter](../../mathgroupingcharacter) | math element to apply accent |
-
-### Returns
-[MathAccent](../../mathaccent)
-
-
----
-
-
 ## createMathAccent([MathBorderBox](../../mathborderbox) element)  method
 
  Creates a math accent applying to a specified math element with the default accent character value
@@ -205,6 +187,24 @@ url: /php-java/aspose.slides/mathaccentfactory/createmathaccent/
 ---
 
 
+## createMathAccent([MathGroupingCharacter](../../mathgroupingcharacter) element)  method
+
+ Creates a math accent applying to a specified math element with the default accent character value
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathGroupingCharacter](../../mathgroupingcharacter) | math element to apply accent |
+
+### Returns
+[MathAccent](../../mathaccent)
+
+
+---
+
+
 ## createMathAccent([MathBar](../../mathbar) element)  method
 
  Creates a math accent applying to a specified math element with the default accent character value
@@ -215,24 +215,6 @@ url: /php-java/aspose.slides/mathaccentfactory/createmathaccent/
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathBar](../../mathbar) | math element to apply accent |
-
-### Returns
-[MathAccent](../../mathaccent)
-
-
----
-
-
-## createMathAccent([MathFunction](../../mathfunction) element)  method
-
- Creates a math accent applying to a specified math element with the default accent character value
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathFunction](../../mathfunction) | math element to apply accent |
 
 ### Returns
 [MathAccent](../../mathaccent)
@@ -269,6 +251,24 @@ url: /php-java/aspose.slides/mathaccentfactory/createmathaccent/
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathSubscriptElement](../../mathsubscriptelement) | math element to apply accent |
+
+### Returns
+[MathAccent](../../mathaccent)
+
+
+---
+
+
+## createMathAccent([MathFunction](../../mathfunction) element)  method
+
+ Creates a math accent applying to a specified math element with the default accent character value
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathFunction](../../mathfunction) | math element to apply accent |
 
 ### Returns
 [MathAccent](../../mathaccent)
@@ -368,25 +368,6 @@ url: /php-java/aspose.slides/mathaccentfactory/createmathaccent/
 ---
 
 
-## createMathAccent([MathLimit](../../mathlimit) element, char accentCharacter)  method
-
- Creates a math accent applying to a specified math element
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathLimit](../mathlimit) | math element to apply accent |
-| accentCharacter | char | accent character |
-
-### Returns
-[MathAccent](../../mathaccent)
-
-
----
-
-
 ## createMathAccent([MathMatrix](../../mathmatrix) element, char accentCharacter)  method
 
  Creates a math accent applying to a specified math element
@@ -397,6 +378,25 @@ url: /php-java/aspose.slides/mathaccentfactory/createmathaccent/
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathMatrix](../mathmatrix) | math element to apply accent |
+| accentCharacter | char | accent character |
+
+### Returns
+[MathAccent](../../mathaccent)
+
+
+---
+
+
+## createMathAccent([MathLimit](../../mathlimit) element, char accentCharacter)  method
+
+ Creates a math accent applying to a specified math element
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathLimit](../mathlimit) | math element to apply accent |
 | accentCharacter | char | accent character |
 
 ### Returns
@@ -520,25 +520,6 @@ url: /php-java/aspose.slides/mathaccentfactory/createmathaccent/
 ---
 
 
-## createMathAccent([MathGroupingCharacter](../../mathgroupingcharacter) element, char accentCharacter)  method
-
- Creates a math accent applying to a specified math element
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathGroupingCharacter](../mathgroupingcharacter) | math element to apply accent |
-| accentCharacter | char | accent character |
-
-### Returns
-[MathAccent](../../mathaccent)
-
-
----
-
-
 ## createMathAccent([MathBorderBox](../../mathborderbox) element, char accentCharacter)  method
 
  Creates a math accent applying to a specified math element
@@ -558,6 +539,25 @@ url: /php-java/aspose.slides/mathaccentfactory/createmathaccent/
 ---
 
 
+## createMathAccent([MathGroupingCharacter](../../mathgroupingcharacter) element, char accentCharacter)  method
+
+ Creates a math accent applying to a specified math element
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathGroupingCharacter](../mathgroupingcharacter) | math element to apply accent |
+| accentCharacter | char | accent character |
+
+### Returns
+[MathAccent](../../mathaccent)
+
+
+---
+
+
 ## createMathAccent([MathBar](../../mathbar) element, char accentCharacter)  method
 
  Creates a math accent applying to a specified math element
@@ -568,25 +568,6 @@ url: /php-java/aspose.slides/mathaccentfactory/createmathaccent/
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathBar](../mathbar) | math element to apply accent |
-| accentCharacter | char | accent character |
-
-### Returns
-[MathAccent](../../mathaccent)
-
-
----
-
-
-## createMathAccent([MathFunction](../../mathfunction) element, char accentCharacter)  method
-
- Creates a math accent applying to a specified math element
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathFunction](../mathfunction) | math element to apply accent |
 | accentCharacter | char | accent character |
 
 ### Returns
@@ -625,6 +606,25 @@ url: /php-java/aspose.slides/mathaccentfactory/createmathaccent/
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathSubscriptElement](../mathsubscriptelement) | math element to apply accent |
+| accentCharacter | char | accent character |
+
+### Returns
+[MathAccent](../../mathaccent)
+
+
+---
+
+
+## createMathAccent([MathFunction](../../mathfunction) element, char accentCharacter)  method
+
+ Creates a math accent applying to a specified math element
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathFunction](../mathfunction) | math element to apply accent |
 | accentCharacter | char | accent character |
 
 ### Returns

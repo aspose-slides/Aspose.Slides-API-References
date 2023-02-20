@@ -15,7 +15,7 @@ url: /php-java/aspose.slides/presentationinfo/iswriteprotected/
  
 
 ### Returns
-OrderedDictionary, Hashtable, LinkedList
+byte
 
 
 ---

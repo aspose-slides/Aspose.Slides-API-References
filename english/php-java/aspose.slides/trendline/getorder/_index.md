@@ -14,7 +14,7 @@ url: /php-java/aspose.slides/trendline/getorder/
  
 
 ### Returns
-OrderedDictionary, Hashtable, LinkedList
+byte
 
 
 ---

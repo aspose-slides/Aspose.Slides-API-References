@@ -7,33 +7,7 @@ weight: 260
 url: /php-java/aspose.slides/lineformat/setdashstyle/
 ---
 
-## setDashStyle(OrderedDictionary value)  method
-
- Returns or sets the line dash style.
- Read/write  LineDashStyle.
- 
-
-### Returns
-void
-
-
----
-
-
-## setDashStyle(Hashtable value)  method
-
- Returns or sets the line dash style.
- Read/write  LineDashStyle.
- 
-
-### Returns
-void
-
-
----
-
-
-## setDashStyle(LinkedList value)  method
+## setDashStyle(byte value)  method
 
  Returns or sets the line dash style.
  Read/write  LineDashStyle.

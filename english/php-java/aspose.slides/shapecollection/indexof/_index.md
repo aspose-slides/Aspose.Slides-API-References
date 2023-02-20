@@ -61,24 +61,6 @@ int
 ---
 
 
-## indexOf([Table](../../table) shape)  method
-
- Returns the zero-based index of the first occurrence of a shape in the collection.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| shape | [Table](../../table) | The shape to locate in the collection. |
-
-### Returns
-int
-
-
----
-
-
 ## indexOf([Shape](../../shape) shape)  method
 
  Returns the zero-based index of the first occurrence of a shape in the collection.
@@ -89,6 +71,24 @@ int
 | Name | Type | Description |
 | --- | --- | --- |
 | shape | [Shape](../../shape) | The shape to locate in the collection. |
+
+### Returns
+int
+
+
+---
+
+
+## indexOf([Table](../../table) shape)  method
+
+ Returns the zero-based index of the first occurrence of a shape in the collection.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | [Table](../../table) | The shape to locate in the collection. |
 
 ### Returns
 int
@@ -133,24 +133,6 @@ int
 ---
 
 
-## indexOf([SummaryZoomSection](../../summaryzoomsection) shape)  method
-
- Returns the zero-based index of the first occurrence of a shape in the collection.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| shape | [SummaryZoomSection](../../summaryzoomsection) | The shape to locate in the collection. |
-
-### Returns
-int
-
-
----
-
-
 ## indexOf([ZoomFrame](../../zoomframe) shape)  method
 
  Returns the zero-based index of the first occurrence of a shape in the collection.
@@ -169,7 +151,7 @@ int
 ---
 
 
-## indexOf([OleObjectFrame](../../oleobjectframe) shape)  method
+## indexOf([SummaryZoomSection](../../summaryzoomsection) shape)  method
 
  Returns the zero-based index of the first occurrence of a shape in the collection.
  
@@ -178,7 +160,7 @@ int
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | [OleObjectFrame](../../oleobjectframe) | The shape to locate in the collection. |
+| shape | [SummaryZoomSection](../../summaryzoomsection) | The shape to locate in the collection. |
 
 ### Returns
 int
@@ -197,6 +179,24 @@ int
 | Name | Type | Description |
 | --- | --- | --- |
 | shape | [VideoFrame](../../videoframe) | The shape to locate in the collection. |
+
+### Returns
+int
+
+
+---
+
+
+## indexOf([OleObjectFrame](../../oleobjectframe) shape)  method
+
+ Returns the zero-based index of the first occurrence of a shape in the collection.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | [OleObjectFrame](../../oleobjectframe) | The shape to locate in the collection. |
 
 ### Returns
 int
@@ -259,24 +259,6 @@ int
 ---
 
 
-## indexOf([SectionZoomFrame](../../sectionzoomframe) shape)  method
-
- Returns the zero-based index of the first occurrence of a shape in the collection.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| shape | [SectionZoomFrame](../../sectionzoomframe) | The shape to locate in the collection. |
-
-### Returns
-int
-
-
----
-
-
 ## indexOf([PictureFrame](../../pictureframe) shape)  method
 
  Returns the zero-based index of the first occurrence of a shape in the collection.
@@ -295,7 +277,7 @@ int
 ---
 
 
-## indexOf([AudioFrame](../../audioframe) shape)  method
+## indexOf([SectionZoomFrame](../../sectionzoomframe) shape)  method
 
  Returns the zero-based index of the first occurrence of a shape in the collection.
  
@@ -304,7 +286,7 @@ int
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | [AudioFrame](../../audioframe) | The shape to locate in the collection. |
+| shape | [SectionZoomFrame](../../sectionzoomframe) | The shape to locate in the collection. |
 
 ### Returns
 int
@@ -323,6 +305,24 @@ int
 | Name | Type | Description |
 | --- | --- | --- |
 | shape | [Chart](../../chart) | The shape to locate in the collection. |
+
+### Returns
+int
+
+
+---
+
+
+## indexOf([AudioFrame](../../audioframe) shape)  method
+
+ Returns the zero-based index of the first occurrence of a shape in the collection.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | [AudioFrame](../../audioframe) | The shape to locate in the collection. |
 
 ### Returns
 int

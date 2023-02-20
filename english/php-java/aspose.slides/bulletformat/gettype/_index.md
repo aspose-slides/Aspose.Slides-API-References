@@ -14,7 +14,7 @@ url: /php-java/aspose.slides/bulletformat/gettype/
  
 
 ### Returns
-OrderedDictionary, Hashtable, LinkedList
+byte
 
 
 ---

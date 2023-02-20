@@ -14,7 +14,7 @@ url: /php-java/aspose.slides/paragraphformat/getrighttoleft/
  
 
 ### Returns
-OrderedDictionary, Hashtable, LinkedList
+byte
 
 
 ---

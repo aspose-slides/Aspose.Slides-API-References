@@ -14,7 +14,7 @@ url: /php-java/aspose.slides/placeholder/gettype/
  
 
 ### Returns
-OrderedDictionary, Hashtable, LinkedList
+byte
 
 
 ---

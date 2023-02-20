@@ -366,7 +366,7 @@ Returns a Thumbnail BufferedImage object with custom scaling.
 --------------------
 
 > ```
-> The following example shows how to converting slides With notes and comments to Images using C#.
+> The following example shows how to converting slides With notes and comments to Images using Java.
 >  
 >  Presentation pres = new Presentation("PresentationNotesComments.pptx");
 >  try {

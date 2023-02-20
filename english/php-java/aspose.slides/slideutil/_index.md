@@ -37,6 +37,7 @@ url: /php-java/aspose.slides/slideutil/
 | [alignShapes](alignshapes)(int, boolean, [MasterNotesSlide](../masternotesslide), int[]) | Changes the placement of selected shapes on the slide. Aligns shapes to the margins or the edge of the slide or align them relative to each other. |
 | [alignShapes](alignshapes)(int, boolean, [GroupShape](../groupshape)) | Changes the placement of all shapes within group shape. Aligns shapes to the margins or the edge of the slide or align them relative to each other. |
 | [alignShapes](alignshapes)(int, boolean, [GroupShape](../groupshape), int[]) | Changes the placement of selected shapes within group shape. Aligns shapes to the margins or the edge of the slide or align them relative to each other. |
+| [findAndReplaceText](findandreplacetext)([Presentation](../presentation), boolean, String, String, [PortionFormat](../portionformat)) | Finds and replaces text in presentation with given format |
 | [findShape](findshape)([Presentation](../presentation), String) | Find shape by alternative text in a PPTX presentation. |
 | [findShape](findshape)([MasterHandoutSlide](../masterhandoutslide), String) | Find shape by alternative text on a slide in a PPTX presentation. |
 | [findShape](findshape)([LayoutSlide](../layoutslide), String) | Find shape by alternative text on a slide in a PPTX presentation. |

@@ -7,37 +7,7 @@ weight: 140
 url: /php-java/aspose.slides/bulletformat/setbullethardcolor/
 ---
 
-## setBulletHardColor(OrderedDictionary value)  method
-
- Determines whether the bullet has own color or inherits it from the first portion in the paragraph.
- NullableBool.True if bullet has own color and NullableBool.False if bullet
- inherits color from the first portion in the paragraph.
- Read/write  NullableBool.
- 
-
-### Returns
-void
-
-
----
-
-
-## setBulletHardColor(Hashtable value)  method
-
- Determines whether the bullet has own color or inherits it from the first portion in the paragraph.
- NullableBool.True if bullet has own color and NullableBool.False if bullet
- inherits color from the first portion in the paragraph.
- Read/write  NullableBool.
- 
-
-### Returns
-void
-
-
----
-
-
-## setBulletHardColor(LinkedList value)  method
+## setBulletHardColor(byte value)  method
 
  Determines whether the bullet has own color or inherits it from the first portion in the paragraph.
  NullableBool.True if bullet has own color and NullableBool.False if bullet

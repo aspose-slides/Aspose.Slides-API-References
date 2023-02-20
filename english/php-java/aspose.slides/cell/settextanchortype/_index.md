@@ -7,33 +7,7 @@ weight: 310
 url: /php-java/aspose.slides/cell/settextanchortype/
 ---
 
-## setTextAnchorType(OrderedDictionary value)  method
-
- Returns or sets the text anchor type.
- Read/write  TextAnchorType.
- 
-
-### Returns
-void
-
-
----
-
-
-## setTextAnchorType(Hashtable value)  method
-
- Returns or sets the text anchor type.
- Read/write  TextAnchorType.
- 
-
-### Returns
-void
-
-
----
-
-
-## setTextAnchorType(LinkedList value)  method
+## setTextAnchorType(byte value)  method
 
  Returns or sets the text anchor type.
  Read/write  TextAnchorType.

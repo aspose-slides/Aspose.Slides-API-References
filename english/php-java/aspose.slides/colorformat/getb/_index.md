@@ -14,7 +14,7 @@ url: /php-java/aspose.slides/colorformat/getb/
  
 
 ### Returns
-OrderedDictionary, Hashtable, LinkedList
+byte
 
 
 ---

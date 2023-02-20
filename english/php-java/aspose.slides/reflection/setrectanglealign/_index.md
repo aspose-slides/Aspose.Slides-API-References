@@ -7,33 +7,7 @@ weight: 270
 url: /php-java/aspose.slides/reflection/setrectanglealign/
 ---
 
-## setRectangleAlign(OrderedDictionary value)  method
-
- Rectangle alignment.
- Read/write  RectangleAlignment.
- 
-
-### Returns
-void
-
-
----
-
-
-## setRectangleAlign(Hashtable value)  method
-
- Rectangle alignment.
- Read/write  RectangleAlignment.
- 
-
-### Returns
-void
-
-
----
-
-
-## setRectangleAlign(LinkedList value)  method
+## setRectangleAlign(byte value)  method
 
  Rectangle alignment.
  Read/write  RectangleAlignment.

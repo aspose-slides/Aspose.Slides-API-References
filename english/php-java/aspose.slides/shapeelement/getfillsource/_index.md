@@ -14,7 +14,7 @@ url: /php-java/aspose.slides/shapeelement/getfillsource/
  
 
 ### Returns
-OrderedDictionary, Hashtable, LinkedList
+byte
 
 
 ---

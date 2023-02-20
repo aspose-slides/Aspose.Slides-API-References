@@ -13,7 +13,7 @@ url: /php-java/aspose.slides/geometrypath/getfillmode/
  
 
 ### Returns
-OrderedDictionary, Hashtable, LinkedList
+byte
 
 
 ---

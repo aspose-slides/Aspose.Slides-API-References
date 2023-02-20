@@ -22,6 +22,4 @@ url: /php-java/aspose.slides/viewproperties/
 | [getShowComments](getshowcomments)() | Specifies whether the slide comments should be shown. Read/write NullableBool. |
 | [getSlideViewProperties](getslideviewproperties)() | Specifies common view properties associated with the slide view mode. Read-only ICommonSlideViewProperties. |
 | [setLastView](setlastview)(int) | Specifies the view mode that was used when the presentation document was last saved. Read/write ViewType. |
-| [setShowComments](setshowcomments)(OrderedDictionary) | Specifies whether the slide comments should be shown. Read/write NullableBool. |
-| [setShowComments](setshowcomments)(Hashtable) | Specifies whether the slide comments should be shown. Read/write NullableBool. |
-| [setShowComments](setshowcomments)(LinkedList) | Specifies whether the slide comments should be shown. Read/write NullableBool. |
+| [setShowComments](setshowcomments)(byte) | Specifies whether the slide comments should be shown. Read/write NullableBool. |

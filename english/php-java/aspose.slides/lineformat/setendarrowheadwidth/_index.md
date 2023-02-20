@@ -7,33 +7,7 @@ weight: 290
 url: /php-java/aspose.slides/lineformat/setendarrowheadwidth/
 ---
 
-## setEndArrowheadWidth(OrderedDictionary value)  method
-
- Returns or sets the arrowhead width at the end of a line.
- Read/write  LineArrowheadWidth.
- 
-
-### Returns
-void
-
-
----
-
-
-## setEndArrowheadWidth(Hashtable value)  method
-
- Returns or sets the arrowhead width at the end of a line.
- Read/write  LineArrowheadWidth.
- 
-
-### Returns
-void
-
-
----
-
-
-## setEndArrowheadWidth(LinkedList value)  method
+## setEndArrowheadWidth(byte value)  method
 
  Returns or sets the arrowhead width at the end of a line.
  Read/write  LineArrowheadWidth.

@@ -14,7 +14,7 @@ url: /php-java/aspose.slides/textframeformat/gettransform/
  
 
 ### Returns
-OrderedDictionary, Hashtable, LinkedList
+byte
 
 
 ---

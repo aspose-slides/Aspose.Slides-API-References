@@ -14,7 +14,7 @@ url: /php-java/aspose.slides/lineformat/getdashstyle/
  
 
 ### Returns
-OrderedDictionary, Hashtable, LinkedList
+byte
 
 
 ---

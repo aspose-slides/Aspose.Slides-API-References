@@ -7,33 +7,7 @@ weight: 40
 url: /php-java/aspose.slides/splittransition/setorientation/
 ---
 
-## setOrientation(OrderedDictionary value)  method
-
- Orientation of transition split.
- Read/write  Orientation.
- 
-
-### Returns
-void
-
-
----
-
-
-## setOrientation(Hashtable value)  method
-
- Orientation of transition split.
- Read/write  Orientation.
- 
-
-### Returns
-void
-
-
----
-
-
-## setOrientation(LinkedList value)  method
+## setOrientation(byte value)  method
 
  Orientation of transition split.
  Read/write  Orientation.

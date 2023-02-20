@@ -14,7 +14,7 @@ url: /php-java/aspose.slides/paragraphformat/gethangingpunctuation/
  
 
 ### Returns
-OrderedDictionary, Hashtable, LinkedList
+byte
 
 
 ---

@@ -29,6 +29,4 @@ url: /php-java/aspose.slides/scaleeffect/
 | [setBy](setby)(Point2D.Float) | describes the relative offset value for the animation (in percents). Read/write java.awt.geom.Point2D.Float. |
 | [setFrom](setfrom)(Point2D.Float) | Specifies an x/y co-ordinate to start the animation from (in percents). Read/write java.awt.geom.Point2D.Float. |
 | [setTo](setto)(Point2D.Float) | Specifies the target location for an animation scale effect (in percents). Read/write java.awt.geom.Point2D.Float. |
-| [setZoomContent](setzoomcontent)(OrderedDictionary) | Determines whether a content should be zoomed. Read/write NullableBool. |
-| [setZoomContent](setzoomcontent)(Hashtable) | Determines whether a content should be zoomed. Read/write NullableBool. |
-| [setZoomContent](setzoomcontent)(LinkedList) | Determines whether a content should be zoomed. Read/write NullableBool. |
+| [setZoomContent](setzoomcontent)(byte) | Determines whether a content should be zoomed. Read/write NullableBool. |

@@ -7,33 +7,7 @@ weight: 260
 url: /php-java/aspose.slides/paragraphformat/sethangingpunctuation/
 ---
 
-## setHangingPunctuation(OrderedDictionary value)  method
-
- Determines whether the hanging punctuation is used in a paragraph. No inheritance applied.
- Read/write  NullableBool.
- 
-
-### Returns
-void
-
-
----
-
-
-## setHangingPunctuation(Hashtable value)  method
-
- Determines whether the hanging punctuation is used in a paragraph. No inheritance applied.
- Read/write  NullableBool.
- 
-
-### Returns
-void
-
-
----
-
-
-## setHangingPunctuation(LinkedList value)  method
+## setHangingPunctuation(byte value)  method
 
  Determines whether the hanging punctuation is used in a paragraph. No inheritance applied.
  Read/write  NullableBool.

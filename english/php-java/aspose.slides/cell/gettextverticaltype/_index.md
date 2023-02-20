@@ -14,7 +14,7 @@ url: /php-java/aspose.slides/cell/gettextverticaltype/
  
 
 ### Returns
-OrderedDictionary, Hashtable, LinkedList
+byte
 
 
 ---

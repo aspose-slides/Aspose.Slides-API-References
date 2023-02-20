@@ -7,33 +7,7 @@ weight: 230
 url: /php-java/aspose.slides/lineformat/setbeginarrowheadwidth/
 ---
 
-## setBeginArrowheadWidth(OrderedDictionary value)  method
-
- Returns or sets the arrowhead width at the beginning of a line.
- Read/write  LineArrowheadWidth.
- 
-
-### Returns
-void
-
-
----
-
-
-## setBeginArrowheadWidth(Hashtable value)  method
-
- Returns or sets the arrowhead width at the beginning of a line.
- Read/write  LineArrowheadWidth.
- 
-
-### Returns
-void
-
-
----
-
-
-## setBeginArrowheadWidth(LinkedList value)  method
+## setBeginArrowheadWidth(byte value)  method
 
  Returns or sets the arrowhead width at the beginning of a line.
  Read/write  LineArrowheadWidth.

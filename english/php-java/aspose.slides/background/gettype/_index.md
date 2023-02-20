@@ -14,7 +14,7 @@ url: /php-java/aspose.slides/background/gettype/
  
 
 ### Returns
-OrderedDictionary, Hashtable, LinkedList
+byte
 
 
 ---

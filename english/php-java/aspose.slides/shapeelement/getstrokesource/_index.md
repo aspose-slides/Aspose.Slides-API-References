@@ -14,7 +14,7 @@ url: /php-java/aspose.slides/shapeelement/getstrokesource/
  
 
 ### Returns
-OrderedDictionary, Hashtable, LinkedList
+byte
 
 
 ---

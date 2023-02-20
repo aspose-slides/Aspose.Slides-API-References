@@ -14,7 +14,7 @@ url: /php-java/aspose.slides/paragraphformat/geteastasianlinebreak/
  
 
 ### Returns
-OrderedDictionary, Hashtable, LinkedList
+byte
 
 
 ---

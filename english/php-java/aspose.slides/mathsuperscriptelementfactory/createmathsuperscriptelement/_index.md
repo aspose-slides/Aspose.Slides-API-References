@@ -26,25 +26,6 @@ url: /php-java/aspose.slides/mathsuperscriptelementfactory/createmathsuperscript
 ---
 
 
-## createMathSuperscriptElement([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) baseArg, [MathLimit](../../mathlimit) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Base argument to apply superscript |
-| superScript | [MathLimit](../../mathlimit) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
 ## createMathSuperscriptElement([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) baseArg, [MathMatrix](../../mathmatrix) superScript)  method
 
  Creates IMathSuperscriptElement
@@ -56,6 +37,25 @@ url: /php-java/aspose.slides/mathsuperscriptelementfactory/createmathsuperscript
 | --- | --- | --- |
 | baseArg | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Base argument to apply superscript |
 | superScript | [MathMatrix](../../mathmatrix) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) baseArg, [MathLimit](../../mathlimit) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Base argument to apply superscript |
+| superScript | [MathLimit](../../mathlimit) | upper right index |
 
 ### Returns
 [MathSuperscriptElement](../../mathsuperscriptelement)
@@ -178,25 +178,6 @@ url: /php-java/aspose.slides/mathsuperscriptelementfactory/createmathsuperscript
 ---
 
 
-## createMathSuperscriptElement([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Base argument to apply superscript |
-| superScript | [MathGroupingCharacter](../../mathgroupingcharacter) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
 ## createMathSuperscriptElement([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) baseArg, [MathBorderBox](../../mathborderbox) superScript)  method
 
  Creates IMathSuperscriptElement
@@ -216,6 +197,25 @@ url: /php-java/aspose.slides/mathsuperscriptelementfactory/createmathsuperscript
 ---
 
 
+## createMathSuperscriptElement([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Base argument to apply superscript |
+| superScript | [MathGroupingCharacter](../../mathgroupingcharacter) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
 ## createMathSuperscriptElement([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) baseArg, [MathBar](../../mathbar) superScript)  method
 
  Creates IMathSuperscriptElement
@@ -227,25 +227,6 @@ url: /php-java/aspose.slides/mathsuperscriptelementfactory/createmathsuperscript
 | --- | --- | --- |
 | baseArg | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Base argument to apply superscript |
 | superScript | [MathBar](../../mathbar) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
-## createMathSuperscriptElement([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) baseArg, [MathFunction](../../mathfunction) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Base argument to apply superscript |
-| superScript | [MathFunction](../../mathfunction) | upper right index |
 
 ### Returns
 [MathSuperscriptElement](../../mathsuperscriptelement)
@@ -284,6 +265,25 @@ url: /php-java/aspose.slides/mathsuperscriptelementfactory/createmathsuperscript
 | --- | --- | --- |
 | baseArg | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Base argument to apply superscript |
 | superScript | [MathSubscriptElement](../../mathsubscriptelement) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) baseArg, [MathFunction](../../mathfunction) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Base argument to apply superscript |
+| superScript | [MathFunction](../../mathfunction) | upper right index |
 
 ### Returns
 [MathSuperscriptElement](../../mathsuperscriptelement)
@@ -368,367 +368,6 @@ url: /php-java/aspose.slides/mathsuperscriptelementfactory/createmathsuperscript
 ---
 
 
-## createMathSuperscriptElement([MathLimit](../../mathlimit) baseArg, [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathLimit](../mathlimit) | Base argument to apply superscript |
-| superScript | [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
-## createMathSuperscriptElement([MathLimit](../../mathlimit) baseArg, [MathLimit](../../mathlimit) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathLimit](../mathlimit) | Base argument to apply superscript |
-| superScript | [MathLimit](../../mathlimit) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
-## createMathSuperscriptElement([MathLimit](../../mathlimit) baseArg, [MathMatrix](../../mathmatrix) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathLimit](../mathlimit) | Base argument to apply superscript |
-| superScript | [MathMatrix](../../mathmatrix) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
-## createMathSuperscriptElement([MathLimit](../../mathlimit) baseArg, [MathBlock](../../mathblock) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathLimit](../mathlimit) | Base argument to apply superscript |
-| superScript | [MathBlock](../../mathblock) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
-## createMathSuperscriptElement([MathLimit](../../mathlimit) baseArg, [MathRadical](../../mathradical) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathLimit](../mathlimit) | Base argument to apply superscript |
-| superScript | [MathRadical](../../mathradical) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
-## createMathSuperscriptElement([MathLimit](../../mathlimit) baseArg, [MathArray](../../matharray) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathLimit](../mathlimit) | Base argument to apply superscript |
-| superScript | [MathArray](../../matharray) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
-## createMathSuperscriptElement([MathLimit](../../mathlimit) baseArg, [MathDelimiter](../../mathdelimiter) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathLimit](../mathlimit) | Base argument to apply superscript |
-| superScript | [MathDelimiter](../../mathdelimiter) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
-## createMathSuperscriptElement([MathLimit](../../mathlimit) baseArg, [MathAccent](../../mathaccent) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathLimit](../mathlimit) | Base argument to apply superscript |
-| superScript | [MathAccent](../../mathaccent) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
-## createMathSuperscriptElement([MathLimit](../../mathlimit) baseArg, [MathNaryOperator](../../mathnaryoperator) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathLimit](../mathlimit) | Base argument to apply superscript |
-| superScript | [MathNaryOperator](../../mathnaryoperator) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
-## createMathSuperscriptElement([MathLimit](../../mathlimit) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathLimit](../mathlimit) | Base argument to apply superscript |
-| superScript | [MathGroupingCharacter](../../mathgroupingcharacter) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
-## createMathSuperscriptElement([MathLimit](../../mathlimit) baseArg, [MathBorderBox](../../mathborderbox) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathLimit](../mathlimit) | Base argument to apply superscript |
-| superScript | [MathBorderBox](../../mathborderbox) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
-## createMathSuperscriptElement([MathLimit](../../mathlimit) baseArg, [MathBar](../../mathbar) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathLimit](../mathlimit) | Base argument to apply superscript |
-| superScript | [MathBar](../../mathbar) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
-## createMathSuperscriptElement([MathLimit](../../mathlimit) baseArg, [MathFunction](../../mathfunction) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathLimit](../mathlimit) | Base argument to apply superscript |
-| superScript | [MathFunction](../../mathfunction) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
-## createMathSuperscriptElement([MathLimit](../../mathlimit) baseArg, [MathSuperscriptElement](../../mathsuperscriptelement) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathLimit](../mathlimit) | Base argument to apply superscript |
-| superScript | [MathSuperscriptElement](../../mathsuperscriptelement) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
-## createMathSuperscriptElement([MathLimit](../../mathlimit) baseArg, [MathSubscriptElement](../../mathsubscriptelement) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathLimit](../mathlimit) | Base argument to apply superscript |
-| superScript | [MathSubscriptElement](../../mathsubscriptelement) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
-## createMathSuperscriptElement([MathLimit](../../mathlimit) baseArg, [MathFraction](../../mathfraction) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathLimit](../mathlimit) | Base argument to apply superscript |
-| superScript | [MathFraction](../../mathfraction) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
-## createMathSuperscriptElement([MathLimit](../../mathlimit) baseArg, [MathematicalText](../../mathematicaltext) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathLimit](../mathlimit) | Base argument to apply superscript |
-| superScript | [MathematicalText](../../mathematicaltext) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
-## createMathSuperscriptElement([MathLimit](../../mathlimit) baseArg, [MathBox](../../mathbox) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathLimit](../mathlimit) | Base argument to apply superscript |
-| superScript | [MathBox](../../mathbox) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
-## createMathSuperscriptElement([MathLimit](../../mathlimit) baseArg, [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathLimit](../mathlimit) | Base argument to apply superscript |
-| superScript | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
 ## createMathSuperscriptElement([MathMatrix](../../mathmatrix) baseArg, [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) superScript)  method
 
  Creates IMathSuperscriptElement
@@ -748,25 +387,6 @@ url: /php-java/aspose.slides/mathsuperscriptelementfactory/createmathsuperscript
 ---
 
 
-## createMathSuperscriptElement([MathMatrix](../../mathmatrix) baseArg, [MathLimit](../../mathlimit) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathMatrix](../mathmatrix) | Base argument to apply superscript |
-| superScript | [MathLimit](../../mathlimit) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
 ## createMathSuperscriptElement([MathMatrix](../../mathmatrix) baseArg, [MathMatrix](../../mathmatrix) superScript)  method
 
  Creates IMathSuperscriptElement
@@ -778,6 +398,25 @@ url: /php-java/aspose.slides/mathsuperscriptelementfactory/createmathsuperscript
 | --- | --- | --- |
 | baseArg | [MathMatrix](../mathmatrix) | Base argument to apply superscript |
 | superScript | [MathMatrix](../../mathmatrix) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathMatrix](../../mathmatrix) baseArg, [MathLimit](../../mathlimit) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathMatrix](../mathmatrix) | Base argument to apply superscript |
+| superScript | [MathLimit](../../mathlimit) | upper right index |
 
 ### Returns
 [MathSuperscriptElement](../../mathsuperscriptelement)
@@ -900,25 +539,6 @@ url: /php-java/aspose.slides/mathsuperscriptelementfactory/createmathsuperscript
 ---
 
 
-## createMathSuperscriptElement([MathMatrix](../../mathmatrix) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathMatrix](../mathmatrix) | Base argument to apply superscript |
-| superScript | [MathGroupingCharacter](../../mathgroupingcharacter) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
 ## createMathSuperscriptElement([MathMatrix](../../mathmatrix) baseArg, [MathBorderBox](../../mathborderbox) superScript)  method
 
  Creates IMathSuperscriptElement
@@ -938,6 +558,25 @@ url: /php-java/aspose.slides/mathsuperscriptelementfactory/createmathsuperscript
 ---
 
 
+## createMathSuperscriptElement([MathMatrix](../../mathmatrix) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathMatrix](../mathmatrix) | Base argument to apply superscript |
+| superScript | [MathGroupingCharacter](../../mathgroupingcharacter) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
 ## createMathSuperscriptElement([MathMatrix](../../mathmatrix) baseArg, [MathBar](../../mathbar) superScript)  method
 
  Creates IMathSuperscriptElement
@@ -949,25 +588,6 @@ url: /php-java/aspose.slides/mathsuperscriptelementfactory/createmathsuperscript
 | --- | --- | --- |
 | baseArg | [MathMatrix](../mathmatrix) | Base argument to apply superscript |
 | superScript | [MathBar](../../mathbar) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
-## createMathSuperscriptElement([MathMatrix](../../mathmatrix) baseArg, [MathFunction](../../mathfunction) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathMatrix](../mathmatrix) | Base argument to apply superscript |
-| superScript | [MathFunction](../../mathfunction) | upper right index |
 
 ### Returns
 [MathSuperscriptElement](../../mathsuperscriptelement)
@@ -1006,6 +626,25 @@ url: /php-java/aspose.slides/mathsuperscriptelementfactory/createmathsuperscript
 | --- | --- | --- |
 | baseArg | [MathMatrix](../mathmatrix) | Base argument to apply superscript |
 | superScript | [MathSubscriptElement](../../mathsubscriptelement) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathMatrix](../../mathmatrix) baseArg, [MathFunction](../../mathfunction) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathMatrix](../mathmatrix) | Base argument to apply superscript |
+| superScript | [MathFunction](../../mathfunction) | upper right index |
 
 ### Returns
 [MathSuperscriptElement](../../mathsuperscriptelement)
@@ -1090,6 +729,367 @@ url: /php-java/aspose.slides/mathsuperscriptelementfactory/createmathsuperscript
 ---
 
 
+## createMathSuperscriptElement([MathLimit](../../mathlimit) baseArg, [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathLimit](../mathlimit) | Base argument to apply superscript |
+| superScript | [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathLimit](../../mathlimit) baseArg, [MathMatrix](../../mathmatrix) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathLimit](../mathlimit) | Base argument to apply superscript |
+| superScript | [MathMatrix](../../mathmatrix) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathLimit](../../mathlimit) baseArg, [MathLimit](../../mathlimit) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathLimit](../mathlimit) | Base argument to apply superscript |
+| superScript | [MathLimit](../../mathlimit) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathLimit](../../mathlimit) baseArg, [MathBlock](../../mathblock) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathLimit](../mathlimit) | Base argument to apply superscript |
+| superScript | [MathBlock](../../mathblock) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathLimit](../../mathlimit) baseArg, [MathRadical](../../mathradical) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathLimit](../mathlimit) | Base argument to apply superscript |
+| superScript | [MathRadical](../../mathradical) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathLimit](../../mathlimit) baseArg, [MathArray](../../matharray) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathLimit](../mathlimit) | Base argument to apply superscript |
+| superScript | [MathArray](../../matharray) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathLimit](../../mathlimit) baseArg, [MathDelimiter](../../mathdelimiter) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathLimit](../mathlimit) | Base argument to apply superscript |
+| superScript | [MathDelimiter](../../mathdelimiter) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathLimit](../../mathlimit) baseArg, [MathAccent](../../mathaccent) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathLimit](../mathlimit) | Base argument to apply superscript |
+| superScript | [MathAccent](../../mathaccent) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathLimit](../../mathlimit) baseArg, [MathNaryOperator](../../mathnaryoperator) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathLimit](../mathlimit) | Base argument to apply superscript |
+| superScript | [MathNaryOperator](../../mathnaryoperator) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathLimit](../../mathlimit) baseArg, [MathBorderBox](../../mathborderbox) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathLimit](../mathlimit) | Base argument to apply superscript |
+| superScript | [MathBorderBox](../../mathborderbox) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathLimit](../../mathlimit) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathLimit](../mathlimit) | Base argument to apply superscript |
+| superScript | [MathGroupingCharacter](../../mathgroupingcharacter) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathLimit](../../mathlimit) baseArg, [MathBar](../../mathbar) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathLimit](../mathlimit) | Base argument to apply superscript |
+| superScript | [MathBar](../../mathbar) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathLimit](../../mathlimit) baseArg, [MathSuperscriptElement](../../mathsuperscriptelement) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathLimit](../mathlimit) | Base argument to apply superscript |
+| superScript | [MathSuperscriptElement](../../mathsuperscriptelement) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathLimit](../../mathlimit) baseArg, [MathSubscriptElement](../../mathsubscriptelement) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathLimit](../mathlimit) | Base argument to apply superscript |
+| superScript | [MathSubscriptElement](../../mathsubscriptelement) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathLimit](../../mathlimit) baseArg, [MathFunction](../../mathfunction) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathLimit](../mathlimit) | Base argument to apply superscript |
+| superScript | [MathFunction](../../mathfunction) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathLimit](../../mathlimit) baseArg, [MathFraction](../../mathfraction) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathLimit](../mathlimit) | Base argument to apply superscript |
+| superScript | [MathFraction](../../mathfraction) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathLimit](../../mathlimit) baseArg, [MathematicalText](../../mathematicaltext) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathLimit](../mathlimit) | Base argument to apply superscript |
+| superScript | [MathematicalText](../../mathematicaltext) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathLimit](../../mathlimit) baseArg, [MathBox](../../mathbox) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathLimit](../mathlimit) | Base argument to apply superscript |
+| superScript | [MathBox](../../mathbox) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathLimit](../../mathlimit) baseArg, [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathLimit](../mathlimit) | Base argument to apply superscript |
+| superScript | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
 ## createMathSuperscriptElement([MathBlock](../../mathblock) baseArg, [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) superScript)  method
 
  Creates IMathSuperscriptElement
@@ -1109,25 +1109,6 @@ url: /php-java/aspose.slides/mathsuperscriptelementfactory/createmathsuperscript
 ---
 
 
-## createMathSuperscriptElement([MathBlock](../../mathblock) baseArg, [MathLimit](../../mathlimit) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathBlock](../mathblock) | Base argument to apply superscript |
-| superScript | [MathLimit](../../mathlimit) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
 ## createMathSuperscriptElement([MathBlock](../../mathblock) baseArg, [MathMatrix](../../mathmatrix) superScript)  method
 
  Creates IMathSuperscriptElement
@@ -1139,6 +1120,25 @@ url: /php-java/aspose.slides/mathsuperscriptelementfactory/createmathsuperscript
 | --- | --- | --- |
 | baseArg | [MathBlock](../mathblock) | Base argument to apply superscript |
 | superScript | [MathMatrix](../../mathmatrix) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathBlock](../../mathblock) baseArg, [MathLimit](../../mathlimit) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathBlock](../mathblock) | Base argument to apply superscript |
+| superScript | [MathLimit](../../mathlimit) | upper right index |
 
 ### Returns
 [MathSuperscriptElement](../../mathsuperscriptelement)
@@ -1261,25 +1261,6 @@ url: /php-java/aspose.slides/mathsuperscriptelementfactory/createmathsuperscript
 ---
 
 
-## createMathSuperscriptElement([MathBlock](../../mathblock) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathBlock](../mathblock) | Base argument to apply superscript |
-| superScript | [MathGroupingCharacter](../../mathgroupingcharacter) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
 ## createMathSuperscriptElement([MathBlock](../../mathblock) baseArg, [MathBorderBox](../../mathborderbox) superScript)  method
 
  Creates IMathSuperscriptElement
@@ -1299,6 +1280,25 @@ url: /php-java/aspose.slides/mathsuperscriptelementfactory/createmathsuperscript
 ---
 
 
+## createMathSuperscriptElement([MathBlock](../../mathblock) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathBlock](../mathblock) | Base argument to apply superscript |
+| superScript | [MathGroupingCharacter](../../mathgroupingcharacter) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
 ## createMathSuperscriptElement([MathBlock](../../mathblock) baseArg, [MathBar](../../mathbar) superScript)  method
 
  Creates IMathSuperscriptElement
@@ -1310,25 +1310,6 @@ url: /php-java/aspose.slides/mathsuperscriptelementfactory/createmathsuperscript
 | --- | --- | --- |
 | baseArg | [MathBlock](../mathblock) | Base argument to apply superscript |
 | superScript | [MathBar](../../mathbar) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
-## createMathSuperscriptElement([MathBlock](../../mathblock) baseArg, [MathFunction](../../mathfunction) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathBlock](../mathblock) | Base argument to apply superscript |
-| superScript | [MathFunction](../../mathfunction) | upper right index |
 
 ### Returns
 [MathSuperscriptElement](../../mathsuperscriptelement)
@@ -1367,6 +1348,25 @@ url: /php-java/aspose.slides/mathsuperscriptelementfactory/createmathsuperscript
 | --- | --- | --- |
 | baseArg | [MathBlock](../mathblock) | Base argument to apply superscript |
 | superScript | [MathSubscriptElement](../../mathsubscriptelement) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathBlock](../../mathblock) baseArg, [MathFunction](../../mathfunction) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathBlock](../mathblock) | Base argument to apply superscript |
+| superScript | [MathFunction](../../mathfunction) | upper right index |
 
 ### Returns
 [MathSuperscriptElement](../../mathsuperscriptelement)
@@ -1470,25 +1470,6 @@ url: /php-java/aspose.slides/mathsuperscriptelementfactory/createmathsuperscript
 ---
 
 
-## createMathSuperscriptElement([MathRadical](../../mathradical) baseArg, [MathLimit](../../mathlimit) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathRadical](../mathradical) | Base argument to apply superscript |
-| superScript | [MathLimit](../../mathlimit) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
 ## createMathSuperscriptElement([MathRadical](../../mathradical) baseArg, [MathMatrix](../../mathmatrix) superScript)  method
 
  Creates IMathSuperscriptElement
@@ -1500,6 +1481,25 @@ url: /php-java/aspose.slides/mathsuperscriptelementfactory/createmathsuperscript
 | --- | --- | --- |
 | baseArg | [MathRadical](../mathradical) | Base argument to apply superscript |
 | superScript | [MathMatrix](../../mathmatrix) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathRadical](../../mathradical) baseArg, [MathLimit](../../mathlimit) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathRadical](../mathradical) | Base argument to apply superscript |
+| superScript | [MathLimit](../../mathlimit) | upper right index |
 
 ### Returns
 [MathSuperscriptElement](../../mathsuperscriptelement)
@@ -1622,25 +1622,6 @@ url: /php-java/aspose.slides/mathsuperscriptelementfactory/createmathsuperscript
 ---
 
 
-## createMathSuperscriptElement([MathRadical](../../mathradical) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathRadical](../mathradical) | Base argument to apply superscript |
-| superScript | [MathGroupingCharacter](../../mathgroupingcharacter) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
 ## createMathSuperscriptElement([MathRadical](../../mathradical) baseArg, [MathBorderBox](../../mathborderbox) superScript)  method
 
  Creates IMathSuperscriptElement
@@ -1660,6 +1641,25 @@ url: /php-java/aspose.slides/mathsuperscriptelementfactory/createmathsuperscript
 ---
 
 
+## createMathSuperscriptElement([MathRadical](../../mathradical) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathRadical](../mathradical) | Base argument to apply superscript |
+| superScript | [MathGroupingCharacter](../../mathgroupingcharacter) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
 ## createMathSuperscriptElement([MathRadical](../../mathradical) baseArg, [MathBar](../../mathbar) superScript)  method
 
  Creates IMathSuperscriptElement
@@ -1671,25 +1671,6 @@ url: /php-java/aspose.slides/mathsuperscriptelementfactory/createmathsuperscript
 | --- | --- | --- |
 | baseArg | [MathRadical](../mathradical) | Base argument to apply superscript |
 | superScript | [MathBar](../../mathbar) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
-## createMathSuperscriptElement([MathRadical](../../mathradical) baseArg, [MathFunction](../../mathfunction) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathRadical](../mathradical) | Base argument to apply superscript |
-| superScript | [MathFunction](../../mathfunction) | upper right index |
 
 ### Returns
 [MathSuperscriptElement](../../mathsuperscriptelement)
@@ -1728,6 +1709,25 @@ url: /php-java/aspose.slides/mathsuperscriptelementfactory/createmathsuperscript
 | --- | --- | --- |
 | baseArg | [MathRadical](../mathradical) | Base argument to apply superscript |
 | superScript | [MathSubscriptElement](../../mathsubscriptelement) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathRadical](../../mathradical) baseArg, [MathFunction](../../mathfunction) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathRadical](../mathradical) | Base argument to apply superscript |
+| superScript | [MathFunction](../../mathfunction) | upper right index |
 
 ### Returns
 [MathSuperscriptElement](../../mathsuperscriptelement)
@@ -1831,25 +1831,6 @@ url: /php-java/aspose.slides/mathsuperscriptelementfactory/createmathsuperscript
 ---
 
 
-## createMathSuperscriptElement([MathArray](../../matharray) baseArg, [MathLimit](../../mathlimit) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathArray](../matharray) | Base argument to apply superscript |
-| superScript | [MathLimit](../../mathlimit) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
 ## createMathSuperscriptElement([MathArray](../../matharray) baseArg, [MathMatrix](../../mathmatrix) superScript)  method
 
  Creates IMathSuperscriptElement
@@ -1861,6 +1842,25 @@ url: /php-java/aspose.slides/mathsuperscriptelementfactory/createmathsuperscript
 | --- | --- | --- |
 | baseArg | [MathArray](../matharray) | Base argument to apply superscript |
 | superScript | [MathMatrix](../../mathmatrix) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathArray](../../matharray) baseArg, [MathLimit](../../mathlimit) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathArray](../matharray) | Base argument to apply superscript |
+| superScript | [MathLimit](../../mathlimit) | upper right index |
 
 ### Returns
 [MathSuperscriptElement](../../mathsuperscriptelement)
@@ -1983,25 +1983,6 @@ url: /php-java/aspose.slides/mathsuperscriptelementfactory/createmathsuperscript
 ---
 
 
-## createMathSuperscriptElement([MathArray](../../matharray) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathArray](../matharray) | Base argument to apply superscript |
-| superScript | [MathGroupingCharacter](../../mathgroupingcharacter) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
 ## createMathSuperscriptElement([MathArray](../../matharray) baseArg, [MathBorderBox](../../mathborderbox) superScript)  method
 
  Creates IMathSuperscriptElement
@@ -2021,6 +2002,25 @@ url: /php-java/aspose.slides/mathsuperscriptelementfactory/createmathsuperscript
 ---
 
 
+## createMathSuperscriptElement([MathArray](../../matharray) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathArray](../matharray) | Base argument to apply superscript |
+| superScript | [MathGroupingCharacter](../../mathgroupingcharacter) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
 ## createMathSuperscriptElement([MathArray](../../matharray) baseArg, [MathBar](../../mathbar) superScript)  method
 
  Creates IMathSuperscriptElement
@@ -2032,25 +2032,6 @@ url: /php-java/aspose.slides/mathsuperscriptelementfactory/createmathsuperscript
 | --- | --- | --- |
 | baseArg | [MathArray](../matharray) | Base argument to apply superscript |
 | superScript | [MathBar](../../mathbar) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
-## createMathSuperscriptElement([MathArray](../../matharray) baseArg, [MathFunction](../../mathfunction) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathArray](../matharray) | Base argument to apply superscript |
-| superScript | [MathFunction](../../mathfunction) | upper right index |
 
 ### Returns
 [MathSuperscriptElement](../../mathsuperscriptelement)
@@ -2089,6 +2070,25 @@ url: /php-java/aspose.slides/mathsuperscriptelementfactory/createmathsuperscript
 | --- | --- | --- |
 | baseArg | [MathArray](../matharray) | Base argument to apply superscript |
 | superScript | [MathSubscriptElement](../../mathsubscriptelement) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathArray](../../matharray) baseArg, [MathFunction](../../mathfunction) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathArray](../matharray) | Base argument to apply superscript |
+| superScript | [MathFunction](../../mathfunction) | upper right index |
 
 ### Returns
 [MathSuperscriptElement](../../mathsuperscriptelement)
@@ -2192,25 +2192,6 @@ url: /php-java/aspose.slides/mathsuperscriptelementfactory/createmathsuperscript
 ---
 
 
-## createMathSuperscriptElement([MathDelimiter](../../mathdelimiter) baseArg, [MathLimit](../../mathlimit) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathDelimiter](../mathdelimiter) | Base argument to apply superscript |
-| superScript | [MathLimit](../../mathlimit) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
 ## createMathSuperscriptElement([MathDelimiter](../../mathdelimiter) baseArg, [MathMatrix](../../mathmatrix) superScript)  method
 
  Creates IMathSuperscriptElement
@@ -2222,6 +2203,25 @@ url: /php-java/aspose.slides/mathsuperscriptelementfactory/createmathsuperscript
 | --- | --- | --- |
 | baseArg | [MathDelimiter](../mathdelimiter) | Base argument to apply superscript |
 | superScript | [MathMatrix](../../mathmatrix) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathDelimiter](../../mathdelimiter) baseArg, [MathLimit](../../mathlimit) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathDelimiter](../mathdelimiter) | Base argument to apply superscript |
+| superScript | [MathLimit](../../mathlimit) | upper right index |
 
 ### Returns
 [MathSuperscriptElement](../../mathsuperscriptelement)
@@ -2344,25 +2344,6 @@ url: /php-java/aspose.slides/mathsuperscriptelementfactory/createmathsuperscript
 ---
 
 
-## createMathSuperscriptElement([MathDelimiter](../../mathdelimiter) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathDelimiter](../mathdelimiter) | Base argument to apply superscript |
-| superScript | [MathGroupingCharacter](../../mathgroupingcharacter) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
 ## createMathSuperscriptElement([MathDelimiter](../../mathdelimiter) baseArg, [MathBorderBox](../../mathborderbox) superScript)  method
 
  Creates IMathSuperscriptElement
@@ -2382,6 +2363,25 @@ url: /php-java/aspose.slides/mathsuperscriptelementfactory/createmathsuperscript
 ---
 
 
+## createMathSuperscriptElement([MathDelimiter](../../mathdelimiter) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathDelimiter](../mathdelimiter) | Base argument to apply superscript |
+| superScript | [MathGroupingCharacter](../../mathgroupingcharacter) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
 ## createMathSuperscriptElement([MathDelimiter](../../mathdelimiter) baseArg, [MathBar](../../mathbar) superScript)  method
 
  Creates IMathSuperscriptElement
@@ -2393,25 +2393,6 @@ url: /php-java/aspose.slides/mathsuperscriptelementfactory/createmathsuperscript
 | --- | --- | --- |
 | baseArg | [MathDelimiter](../mathdelimiter) | Base argument to apply superscript |
 | superScript | [MathBar](../../mathbar) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
-## createMathSuperscriptElement([MathDelimiter](../../mathdelimiter) baseArg, [MathFunction](../../mathfunction) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathDelimiter](../mathdelimiter) | Base argument to apply superscript |
-| superScript | [MathFunction](../../mathfunction) | upper right index |
 
 ### Returns
 [MathSuperscriptElement](../../mathsuperscriptelement)
@@ -2450,6 +2431,25 @@ url: /php-java/aspose.slides/mathsuperscriptelementfactory/createmathsuperscript
 | --- | --- | --- |
 | baseArg | [MathDelimiter](../mathdelimiter) | Base argument to apply superscript |
 | superScript | [MathSubscriptElement](../../mathsubscriptelement) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathDelimiter](../../mathdelimiter) baseArg, [MathFunction](../../mathfunction) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathDelimiter](../mathdelimiter) | Base argument to apply superscript |
+| superScript | [MathFunction](../../mathfunction) | upper right index |
 
 ### Returns
 [MathSuperscriptElement](../../mathsuperscriptelement)
@@ -2553,25 +2553,6 @@ url: /php-java/aspose.slides/mathsuperscriptelementfactory/createmathsuperscript
 ---
 
 
-## createMathSuperscriptElement([MathAccent](../../mathaccent) baseArg, [MathLimit](../../mathlimit) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathAccent](../mathaccent) | Base argument to apply superscript |
-| superScript | [MathLimit](../../mathlimit) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
 ## createMathSuperscriptElement([MathAccent](../../mathaccent) baseArg, [MathMatrix](../../mathmatrix) superScript)  method
 
  Creates IMathSuperscriptElement
@@ -2583,6 +2564,25 @@ url: /php-java/aspose.slides/mathsuperscriptelementfactory/createmathsuperscript
 | --- | --- | --- |
 | baseArg | [MathAccent](../mathaccent) | Base argument to apply superscript |
 | superScript | [MathMatrix](../../mathmatrix) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathAccent](../../mathaccent) baseArg, [MathLimit](../../mathlimit) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathAccent](../mathaccent) | Base argument to apply superscript |
+| superScript | [MathLimit](../../mathlimit) | upper right index |
 
 ### Returns
 [MathSuperscriptElement](../../mathsuperscriptelement)
@@ -2705,25 +2705,6 @@ url: /php-java/aspose.slides/mathsuperscriptelementfactory/createmathsuperscript
 ---
 
 
-## createMathSuperscriptElement([MathAccent](../../mathaccent) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathAccent](../mathaccent) | Base argument to apply superscript |
-| superScript | [MathGroupingCharacter](../../mathgroupingcharacter) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
 ## createMathSuperscriptElement([MathAccent](../../mathaccent) baseArg, [MathBorderBox](../../mathborderbox) superScript)  method
 
  Creates IMathSuperscriptElement
@@ -2743,6 +2724,25 @@ url: /php-java/aspose.slides/mathsuperscriptelementfactory/createmathsuperscript
 ---
 
 
+## createMathSuperscriptElement([MathAccent](../../mathaccent) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathAccent](../mathaccent) | Base argument to apply superscript |
+| superScript | [MathGroupingCharacter](../../mathgroupingcharacter) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
 ## createMathSuperscriptElement([MathAccent](../../mathaccent) baseArg, [MathBar](../../mathbar) superScript)  method
 
  Creates IMathSuperscriptElement
@@ -2754,25 +2754,6 @@ url: /php-java/aspose.slides/mathsuperscriptelementfactory/createmathsuperscript
 | --- | --- | --- |
 | baseArg | [MathAccent](../mathaccent) | Base argument to apply superscript |
 | superScript | [MathBar](../../mathbar) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
-## createMathSuperscriptElement([MathAccent](../../mathaccent) baseArg, [MathFunction](../../mathfunction) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathAccent](../mathaccent) | Base argument to apply superscript |
-| superScript | [MathFunction](../../mathfunction) | upper right index |
 
 ### Returns
 [MathSuperscriptElement](../../mathsuperscriptelement)
@@ -2811,6 +2792,25 @@ url: /php-java/aspose.slides/mathsuperscriptelementfactory/createmathsuperscript
 | --- | --- | --- |
 | baseArg | [MathAccent](../mathaccent) | Base argument to apply superscript |
 | superScript | [MathSubscriptElement](../../mathsubscriptelement) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathAccent](../../mathaccent) baseArg, [MathFunction](../../mathfunction) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathAccent](../mathaccent) | Base argument to apply superscript |
+| superScript | [MathFunction](../../mathfunction) | upper right index |
 
 ### Returns
 [MathSuperscriptElement](../../mathsuperscriptelement)
@@ -2914,25 +2914,6 @@ url: /php-java/aspose.slides/mathsuperscriptelementfactory/createmathsuperscript
 ---
 
 
-## createMathSuperscriptElement([MathNaryOperator](../../mathnaryoperator) baseArg, [MathLimit](../../mathlimit) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathNaryOperator](../mathnaryoperator) | Base argument to apply superscript |
-| superScript | [MathLimit](../../mathlimit) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
 ## createMathSuperscriptElement([MathNaryOperator](../../mathnaryoperator) baseArg, [MathMatrix](../../mathmatrix) superScript)  method
 
  Creates IMathSuperscriptElement
@@ -2944,6 +2925,25 @@ url: /php-java/aspose.slides/mathsuperscriptelementfactory/createmathsuperscript
 | --- | --- | --- |
 | baseArg | [MathNaryOperator](../mathnaryoperator) | Base argument to apply superscript |
 | superScript | [MathMatrix](../../mathmatrix) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathNaryOperator](../../mathnaryoperator) baseArg, [MathLimit](../../mathlimit) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathNaryOperator](../mathnaryoperator) | Base argument to apply superscript |
+| superScript | [MathLimit](../../mathlimit) | upper right index |
 
 ### Returns
 [MathSuperscriptElement](../../mathsuperscriptelement)
@@ -3066,25 +3066,6 @@ url: /php-java/aspose.slides/mathsuperscriptelementfactory/createmathsuperscript
 ---
 
 
-## createMathSuperscriptElement([MathNaryOperator](../../mathnaryoperator) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathNaryOperator](../mathnaryoperator) | Base argument to apply superscript |
-| superScript | [MathGroupingCharacter](../../mathgroupingcharacter) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
 ## createMathSuperscriptElement([MathNaryOperator](../../mathnaryoperator) baseArg, [MathBorderBox](../../mathborderbox) superScript)  method
 
  Creates IMathSuperscriptElement
@@ -3104,6 +3085,25 @@ url: /php-java/aspose.slides/mathsuperscriptelementfactory/createmathsuperscript
 ---
 
 
+## createMathSuperscriptElement([MathNaryOperator](../../mathnaryoperator) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathNaryOperator](../mathnaryoperator) | Base argument to apply superscript |
+| superScript | [MathGroupingCharacter](../../mathgroupingcharacter) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
 ## createMathSuperscriptElement([MathNaryOperator](../../mathnaryoperator) baseArg, [MathBar](../../mathbar) superScript)  method
 
  Creates IMathSuperscriptElement
@@ -3115,25 +3115,6 @@ url: /php-java/aspose.slides/mathsuperscriptelementfactory/createmathsuperscript
 | --- | --- | --- |
 | baseArg | [MathNaryOperator](../mathnaryoperator) | Base argument to apply superscript |
 | superScript | [MathBar](../../mathbar) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
-## createMathSuperscriptElement([MathNaryOperator](../../mathnaryoperator) baseArg, [MathFunction](../../mathfunction) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathNaryOperator](../mathnaryoperator) | Base argument to apply superscript |
-| superScript | [MathFunction](../../mathfunction) | upper right index |
 
 ### Returns
 [MathSuperscriptElement](../../mathsuperscriptelement)
@@ -3172,6 +3153,25 @@ url: /php-java/aspose.slides/mathsuperscriptelementfactory/createmathsuperscript
 | --- | --- | --- |
 | baseArg | [MathNaryOperator](../mathnaryoperator) | Base argument to apply superscript |
 | superScript | [MathSubscriptElement](../../mathsubscriptelement) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathNaryOperator](../../mathnaryoperator) baseArg, [MathFunction](../../mathfunction) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathNaryOperator](../mathnaryoperator) | Base argument to apply superscript |
+| superScript | [MathFunction](../../mathfunction) | upper right index |
 
 ### Returns
 [MathSuperscriptElement](../../mathsuperscriptelement)
@@ -3256,367 +3256,6 @@ url: /php-java/aspose.slides/mathsuperscriptelementfactory/createmathsuperscript
 ---
 
 
-## createMathSuperscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply superscript |
-| superScript | [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
-## createMathSuperscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathLimit](../../mathlimit) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply superscript |
-| superScript | [MathLimit](../../mathlimit) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
-## createMathSuperscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathMatrix](../../mathmatrix) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply superscript |
-| superScript | [MathMatrix](../../mathmatrix) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
-## createMathSuperscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathBlock](../../mathblock) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply superscript |
-| superScript | [MathBlock](../../mathblock) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
-## createMathSuperscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathRadical](../../mathradical) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply superscript |
-| superScript | [MathRadical](../../mathradical) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
-## createMathSuperscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathArray](../../matharray) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply superscript |
-| superScript | [MathArray](../../matharray) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
-## createMathSuperscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathDelimiter](../../mathdelimiter) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply superscript |
-| superScript | [MathDelimiter](../../mathdelimiter) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
-## createMathSuperscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathAccent](../../mathaccent) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply superscript |
-| superScript | [MathAccent](../../mathaccent) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
-## createMathSuperscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathNaryOperator](../../mathnaryoperator) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply superscript |
-| superScript | [MathNaryOperator](../../mathnaryoperator) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
-## createMathSuperscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply superscript |
-| superScript | [MathGroupingCharacter](../../mathgroupingcharacter) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
-## createMathSuperscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathBorderBox](../../mathborderbox) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply superscript |
-| superScript | [MathBorderBox](../../mathborderbox) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
-## createMathSuperscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathBar](../../mathbar) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply superscript |
-| superScript | [MathBar](../../mathbar) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
-## createMathSuperscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathFunction](../../mathfunction) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply superscript |
-| superScript | [MathFunction](../../mathfunction) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
-## createMathSuperscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathSuperscriptElement](../../mathsuperscriptelement) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply superscript |
-| superScript | [MathSuperscriptElement](../../mathsuperscriptelement) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
-## createMathSuperscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathSubscriptElement](../../mathsubscriptelement) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply superscript |
-| superScript | [MathSubscriptElement](../../mathsubscriptelement) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
-## createMathSuperscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathFraction](../../mathfraction) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply superscript |
-| superScript | [MathFraction](../../mathfraction) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
-## createMathSuperscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathematicalText](../../mathematicaltext) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply superscript |
-| superScript | [MathematicalText](../../mathematicaltext) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
-## createMathSuperscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathBox](../../mathbox) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply superscript |
-| superScript | [MathBox](../../mathbox) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
-## createMathSuperscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply superscript |
-| superScript | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
 ## createMathSuperscriptElement([MathBorderBox](../../mathborderbox) baseArg, [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) superScript)  method
 
  Creates IMathSuperscriptElement
@@ -3636,25 +3275,6 @@ url: /php-java/aspose.slides/mathsuperscriptelementfactory/createmathsuperscript
 ---
 
 
-## createMathSuperscriptElement([MathBorderBox](../../mathborderbox) baseArg, [MathLimit](../../mathlimit) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathBorderBox](../mathborderbox) | Base argument to apply superscript |
-| superScript | [MathLimit](../../mathlimit) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
 ## createMathSuperscriptElement([MathBorderBox](../../mathborderbox) baseArg, [MathMatrix](../../mathmatrix) superScript)  method
 
  Creates IMathSuperscriptElement
@@ -3666,6 +3286,25 @@ url: /php-java/aspose.slides/mathsuperscriptelementfactory/createmathsuperscript
 | --- | --- | --- |
 | baseArg | [MathBorderBox](../mathborderbox) | Base argument to apply superscript |
 | superScript | [MathMatrix](../../mathmatrix) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathBorderBox](../../mathborderbox) baseArg, [MathLimit](../../mathlimit) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathBorderBox](../mathborderbox) | Base argument to apply superscript |
+| superScript | [MathLimit](../../mathlimit) | upper right index |
 
 ### Returns
 [MathSuperscriptElement](../../mathsuperscriptelement)
@@ -3788,25 +3427,6 @@ url: /php-java/aspose.slides/mathsuperscriptelementfactory/createmathsuperscript
 ---
 
 
-## createMathSuperscriptElement([MathBorderBox](../../mathborderbox) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathBorderBox](../mathborderbox) | Base argument to apply superscript |
-| superScript | [MathGroupingCharacter](../../mathgroupingcharacter) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
 ## createMathSuperscriptElement([MathBorderBox](../../mathborderbox) baseArg, [MathBorderBox](../../mathborderbox) superScript)  method
 
  Creates IMathSuperscriptElement
@@ -3826,6 +3446,25 @@ url: /php-java/aspose.slides/mathsuperscriptelementfactory/createmathsuperscript
 ---
 
 
+## createMathSuperscriptElement([MathBorderBox](../../mathborderbox) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathBorderBox](../mathborderbox) | Base argument to apply superscript |
+| superScript | [MathGroupingCharacter](../../mathgroupingcharacter) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
 ## createMathSuperscriptElement([MathBorderBox](../../mathborderbox) baseArg, [MathBar](../../mathbar) superScript)  method
 
  Creates IMathSuperscriptElement
@@ -3837,25 +3476,6 @@ url: /php-java/aspose.slides/mathsuperscriptelementfactory/createmathsuperscript
 | --- | --- | --- |
 | baseArg | [MathBorderBox](../mathborderbox) | Base argument to apply superscript |
 | superScript | [MathBar](../../mathbar) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
-## createMathSuperscriptElement([MathBorderBox](../../mathborderbox) baseArg, [MathFunction](../../mathfunction) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathBorderBox](../mathborderbox) | Base argument to apply superscript |
-| superScript | [MathFunction](../../mathfunction) | upper right index |
 
 ### Returns
 [MathSuperscriptElement](../../mathsuperscriptelement)
@@ -3894,6 +3514,25 @@ url: /php-java/aspose.slides/mathsuperscriptelementfactory/createmathsuperscript
 | --- | --- | --- |
 | baseArg | [MathBorderBox](../mathborderbox) | Base argument to apply superscript |
 | superScript | [MathSubscriptElement](../../mathsubscriptelement) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathBorderBox](../../mathborderbox) baseArg, [MathFunction](../../mathfunction) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathBorderBox](../mathborderbox) | Base argument to apply superscript |
+| superScript | [MathFunction](../../mathfunction) | upper right index |
 
 ### Returns
 [MathSuperscriptElement](../../mathsuperscriptelement)
@@ -3978,6 +3617,367 @@ url: /php-java/aspose.slides/mathsuperscriptelementfactory/createmathsuperscript
 ---
 
 
+## createMathSuperscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply superscript |
+| superScript | [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathMatrix](../../mathmatrix) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply superscript |
+| superScript | [MathMatrix](../../mathmatrix) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathLimit](../../mathlimit) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply superscript |
+| superScript | [MathLimit](../../mathlimit) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathBlock](../../mathblock) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply superscript |
+| superScript | [MathBlock](../../mathblock) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathRadical](../../mathradical) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply superscript |
+| superScript | [MathRadical](../../mathradical) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathArray](../../matharray) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply superscript |
+| superScript | [MathArray](../../matharray) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathDelimiter](../../mathdelimiter) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply superscript |
+| superScript | [MathDelimiter](../../mathdelimiter) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathAccent](../../mathaccent) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply superscript |
+| superScript | [MathAccent](../../mathaccent) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathNaryOperator](../../mathnaryoperator) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply superscript |
+| superScript | [MathNaryOperator](../../mathnaryoperator) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathBorderBox](../../mathborderbox) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply superscript |
+| superScript | [MathBorderBox](../../mathborderbox) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply superscript |
+| superScript | [MathGroupingCharacter](../../mathgroupingcharacter) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathBar](../../mathbar) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply superscript |
+| superScript | [MathBar](../../mathbar) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathSuperscriptElement](../../mathsuperscriptelement) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply superscript |
+| superScript | [MathSuperscriptElement](../../mathsuperscriptelement) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathSubscriptElement](../../mathsubscriptelement) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply superscript |
+| superScript | [MathSubscriptElement](../../mathsubscriptelement) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathFunction](../../mathfunction) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply superscript |
+| superScript | [MathFunction](../../mathfunction) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathFraction](../../mathfraction) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply superscript |
+| superScript | [MathFraction](../../mathfraction) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathematicalText](../../mathematicaltext) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply superscript |
+| superScript | [MathematicalText](../../mathematicaltext) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathBox](../../mathbox) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply superscript |
+| superScript | [MathBox](../../mathbox) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply superscript |
+| superScript | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
 ## createMathSuperscriptElement([MathBar](../../mathbar) baseArg, [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) superScript)  method
 
  Creates IMathSuperscriptElement
@@ -3997,25 +3997,6 @@ url: /php-java/aspose.slides/mathsuperscriptelementfactory/createmathsuperscript
 ---
 
 
-## createMathSuperscriptElement([MathBar](../../mathbar) baseArg, [MathLimit](../../mathlimit) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathBar](../mathbar) | Base argument to apply superscript |
-| superScript | [MathLimit](../../mathlimit) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
 ## createMathSuperscriptElement([MathBar](../../mathbar) baseArg, [MathMatrix](../../mathmatrix) superScript)  method
 
  Creates IMathSuperscriptElement
@@ -4027,6 +4008,25 @@ url: /php-java/aspose.slides/mathsuperscriptelementfactory/createmathsuperscript
 | --- | --- | --- |
 | baseArg | [MathBar](../mathbar) | Base argument to apply superscript |
 | superScript | [MathMatrix](../../mathmatrix) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathBar](../../mathbar) baseArg, [MathLimit](../../mathlimit) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathBar](../mathbar) | Base argument to apply superscript |
+| superScript | [MathLimit](../../mathlimit) | upper right index |
 
 ### Returns
 [MathSuperscriptElement](../../mathsuperscriptelement)
@@ -4149,25 +4149,6 @@ url: /php-java/aspose.slides/mathsuperscriptelementfactory/createmathsuperscript
 ---
 
 
-## createMathSuperscriptElement([MathBar](../../mathbar) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathBar](../mathbar) | Base argument to apply superscript |
-| superScript | [MathGroupingCharacter](../../mathgroupingcharacter) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
 ## createMathSuperscriptElement([MathBar](../../mathbar) baseArg, [MathBorderBox](../../mathborderbox) superScript)  method
 
  Creates IMathSuperscriptElement
@@ -4187,6 +4168,25 @@ url: /php-java/aspose.slides/mathsuperscriptelementfactory/createmathsuperscript
 ---
 
 
+## createMathSuperscriptElement([MathBar](../../mathbar) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathBar](../mathbar) | Base argument to apply superscript |
+| superScript | [MathGroupingCharacter](../../mathgroupingcharacter) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
 ## createMathSuperscriptElement([MathBar](../../mathbar) baseArg, [MathBar](../../mathbar) superScript)  method
 
  Creates IMathSuperscriptElement
@@ -4198,25 +4198,6 @@ url: /php-java/aspose.slides/mathsuperscriptelementfactory/createmathsuperscript
 | --- | --- | --- |
 | baseArg | [MathBar](../mathbar) | Base argument to apply superscript |
 | superScript | [MathBar](../../mathbar) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
-## createMathSuperscriptElement([MathBar](../../mathbar) baseArg, [MathFunction](../../mathfunction) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathBar](../mathbar) | Base argument to apply superscript |
-| superScript | [MathFunction](../../mathfunction) | upper right index |
 
 ### Returns
 [MathSuperscriptElement](../../mathsuperscriptelement)
@@ -4255,6 +4236,25 @@ url: /php-java/aspose.slides/mathsuperscriptelementfactory/createmathsuperscript
 | --- | --- | --- |
 | baseArg | [MathBar](../mathbar) | Base argument to apply superscript |
 | superScript | [MathSubscriptElement](../../mathsubscriptelement) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathBar](../../mathbar) baseArg, [MathFunction](../../mathfunction) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathBar](../mathbar) | Base argument to apply superscript |
+| superScript | [MathFunction](../../mathfunction) | upper right index |
 
 ### Returns
 [MathSuperscriptElement](../../mathsuperscriptelement)
@@ -4339,367 +4339,6 @@ url: /php-java/aspose.slides/mathsuperscriptelementfactory/createmathsuperscript
 ---
 
 
-## createMathSuperscriptElement([MathFunction](../../mathfunction) baseArg, [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathFunction](../mathfunction) | Base argument to apply superscript |
-| superScript | [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
-## createMathSuperscriptElement([MathFunction](../../mathfunction) baseArg, [MathLimit](../../mathlimit) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathFunction](../mathfunction) | Base argument to apply superscript |
-| superScript | [MathLimit](../../mathlimit) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
-## createMathSuperscriptElement([MathFunction](../../mathfunction) baseArg, [MathMatrix](../../mathmatrix) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathFunction](../mathfunction) | Base argument to apply superscript |
-| superScript | [MathMatrix](../../mathmatrix) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
-## createMathSuperscriptElement([MathFunction](../../mathfunction) baseArg, [MathBlock](../../mathblock) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathFunction](../mathfunction) | Base argument to apply superscript |
-| superScript | [MathBlock](../../mathblock) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
-## createMathSuperscriptElement([MathFunction](../../mathfunction) baseArg, [MathRadical](../../mathradical) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathFunction](../mathfunction) | Base argument to apply superscript |
-| superScript | [MathRadical](../../mathradical) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
-## createMathSuperscriptElement([MathFunction](../../mathfunction) baseArg, [MathArray](../../matharray) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathFunction](../mathfunction) | Base argument to apply superscript |
-| superScript | [MathArray](../../matharray) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
-## createMathSuperscriptElement([MathFunction](../../mathfunction) baseArg, [MathDelimiter](../../mathdelimiter) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathFunction](../mathfunction) | Base argument to apply superscript |
-| superScript | [MathDelimiter](../../mathdelimiter) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
-## createMathSuperscriptElement([MathFunction](../../mathfunction) baseArg, [MathAccent](../../mathaccent) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathFunction](../mathfunction) | Base argument to apply superscript |
-| superScript | [MathAccent](../../mathaccent) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
-## createMathSuperscriptElement([MathFunction](../../mathfunction) baseArg, [MathNaryOperator](../../mathnaryoperator) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathFunction](../mathfunction) | Base argument to apply superscript |
-| superScript | [MathNaryOperator](../../mathnaryoperator) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
-## createMathSuperscriptElement([MathFunction](../../mathfunction) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathFunction](../mathfunction) | Base argument to apply superscript |
-| superScript | [MathGroupingCharacter](../../mathgroupingcharacter) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
-## createMathSuperscriptElement([MathFunction](../../mathfunction) baseArg, [MathBorderBox](../../mathborderbox) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathFunction](../mathfunction) | Base argument to apply superscript |
-| superScript | [MathBorderBox](../../mathborderbox) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
-## createMathSuperscriptElement([MathFunction](../../mathfunction) baseArg, [MathBar](../../mathbar) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathFunction](../mathfunction) | Base argument to apply superscript |
-| superScript | [MathBar](../../mathbar) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
-## createMathSuperscriptElement([MathFunction](../../mathfunction) baseArg, [MathFunction](../../mathfunction) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathFunction](../mathfunction) | Base argument to apply superscript |
-| superScript | [MathFunction](../../mathfunction) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
-## createMathSuperscriptElement([MathFunction](../../mathfunction) baseArg, [MathSuperscriptElement](../../mathsuperscriptelement) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathFunction](../mathfunction) | Base argument to apply superscript |
-| superScript | [MathSuperscriptElement](../../mathsuperscriptelement) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
-## createMathSuperscriptElement([MathFunction](../../mathfunction) baseArg, [MathSubscriptElement](../../mathsubscriptelement) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathFunction](../mathfunction) | Base argument to apply superscript |
-| superScript | [MathSubscriptElement](../../mathsubscriptelement) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
-## createMathSuperscriptElement([MathFunction](../../mathfunction) baseArg, [MathFraction](../../mathfraction) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathFunction](../mathfunction) | Base argument to apply superscript |
-| superScript | [MathFraction](../../mathfraction) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
-## createMathSuperscriptElement([MathFunction](../../mathfunction) baseArg, [MathematicalText](../../mathematicaltext) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathFunction](../mathfunction) | Base argument to apply superscript |
-| superScript | [MathematicalText](../../mathematicaltext) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
-## createMathSuperscriptElement([MathFunction](../../mathfunction) baseArg, [MathBox](../../mathbox) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathFunction](../mathfunction) | Base argument to apply superscript |
-| superScript | [MathBox](../../mathbox) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
-## createMathSuperscriptElement([MathFunction](../../mathfunction) baseArg, [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathFunction](../mathfunction) | Base argument to apply superscript |
-| superScript | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
 ## createMathSuperscriptElement([MathSuperscriptElement](../../mathsuperscriptelement) baseArg, [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) superScript)  method
 
  Creates IMathSuperscriptElement
@@ -4719,25 +4358,6 @@ url: /php-java/aspose.slides/mathsuperscriptelementfactory/createmathsuperscript
 ---
 
 
-## createMathSuperscriptElement([MathSuperscriptElement](../../mathsuperscriptelement) baseArg, [MathLimit](../../mathlimit) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply superscript |
-| superScript | [MathLimit](../../mathlimit) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
 ## createMathSuperscriptElement([MathSuperscriptElement](../../mathsuperscriptelement) baseArg, [MathMatrix](../../mathmatrix) superScript)  method
 
  Creates IMathSuperscriptElement
@@ -4749,6 +4369,25 @@ url: /php-java/aspose.slides/mathsuperscriptelementfactory/createmathsuperscript
 | --- | --- | --- |
 | baseArg | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply superscript |
 | superScript | [MathMatrix](../../mathmatrix) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathSuperscriptElement](../../mathsuperscriptelement) baseArg, [MathLimit](../../mathlimit) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply superscript |
+| superScript | [MathLimit](../../mathlimit) | upper right index |
 
 ### Returns
 [MathSuperscriptElement](../../mathsuperscriptelement)
@@ -4871,25 +4510,6 @@ url: /php-java/aspose.slides/mathsuperscriptelementfactory/createmathsuperscript
 ---
 
 
-## createMathSuperscriptElement([MathSuperscriptElement](../../mathsuperscriptelement) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply superscript |
-| superScript | [MathGroupingCharacter](../../mathgroupingcharacter) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
 ## createMathSuperscriptElement([MathSuperscriptElement](../../mathsuperscriptelement) baseArg, [MathBorderBox](../../mathborderbox) superScript)  method
 
  Creates IMathSuperscriptElement
@@ -4909,6 +4529,25 @@ url: /php-java/aspose.slides/mathsuperscriptelementfactory/createmathsuperscript
 ---
 
 
+## createMathSuperscriptElement([MathSuperscriptElement](../../mathsuperscriptelement) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply superscript |
+| superScript | [MathGroupingCharacter](../../mathgroupingcharacter) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
 ## createMathSuperscriptElement([MathSuperscriptElement](../../mathsuperscriptelement) baseArg, [MathBar](../../mathbar) superScript)  method
 
  Creates IMathSuperscriptElement
@@ -4920,25 +4559,6 @@ url: /php-java/aspose.slides/mathsuperscriptelementfactory/createmathsuperscript
 | --- | --- | --- |
 | baseArg | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply superscript |
 | superScript | [MathBar](../../mathbar) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
-## createMathSuperscriptElement([MathSuperscriptElement](../../mathsuperscriptelement) baseArg, [MathFunction](../../mathfunction) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply superscript |
-| superScript | [MathFunction](../../mathfunction) | upper right index |
 
 ### Returns
 [MathSuperscriptElement](../../mathsuperscriptelement)
@@ -4977,6 +4597,25 @@ url: /php-java/aspose.slides/mathsuperscriptelementfactory/createmathsuperscript
 | --- | --- | --- |
 | baseArg | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply superscript |
 | superScript | [MathSubscriptElement](../../mathsubscriptelement) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathSuperscriptElement](../../mathsuperscriptelement) baseArg, [MathFunction](../../mathfunction) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply superscript |
+| superScript | [MathFunction](../../mathfunction) | upper right index |
 
 ### Returns
 [MathSuperscriptElement](../../mathsuperscriptelement)
@@ -5080,25 +4719,6 @@ url: /php-java/aspose.slides/mathsuperscriptelementfactory/createmathsuperscript
 ---
 
 
-## createMathSuperscriptElement([MathSubscriptElement](../../mathsubscriptelement) baseArg, [MathLimit](../../mathlimit) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathSubscriptElement](../mathsubscriptelement) | Base argument to apply superscript |
-| superScript | [MathLimit](../../mathlimit) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
 ## createMathSuperscriptElement([MathSubscriptElement](../../mathsubscriptelement) baseArg, [MathMatrix](../../mathmatrix) superScript)  method
 
  Creates IMathSuperscriptElement
@@ -5110,6 +4730,25 @@ url: /php-java/aspose.slides/mathsuperscriptelementfactory/createmathsuperscript
 | --- | --- | --- |
 | baseArg | [MathSubscriptElement](../mathsubscriptelement) | Base argument to apply superscript |
 | superScript | [MathMatrix](../../mathmatrix) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathSubscriptElement](../../mathsubscriptelement) baseArg, [MathLimit](../../mathlimit) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathSubscriptElement](../mathsubscriptelement) | Base argument to apply superscript |
+| superScript | [MathLimit](../../mathlimit) | upper right index |
 
 ### Returns
 [MathSuperscriptElement](../../mathsuperscriptelement)
@@ -5232,25 +4871,6 @@ url: /php-java/aspose.slides/mathsuperscriptelementfactory/createmathsuperscript
 ---
 
 
-## createMathSuperscriptElement([MathSubscriptElement](../../mathsubscriptelement) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathSubscriptElement](../mathsubscriptelement) | Base argument to apply superscript |
-| superScript | [MathGroupingCharacter](../../mathgroupingcharacter) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
 ## createMathSuperscriptElement([MathSubscriptElement](../../mathsubscriptelement) baseArg, [MathBorderBox](../../mathborderbox) superScript)  method
 
  Creates IMathSuperscriptElement
@@ -5270,6 +4890,25 @@ url: /php-java/aspose.slides/mathsuperscriptelementfactory/createmathsuperscript
 ---
 
 
+## createMathSuperscriptElement([MathSubscriptElement](../../mathsubscriptelement) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathSubscriptElement](../mathsubscriptelement) | Base argument to apply superscript |
+| superScript | [MathGroupingCharacter](../../mathgroupingcharacter) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
 ## createMathSuperscriptElement([MathSubscriptElement](../../mathsubscriptelement) baseArg, [MathBar](../../mathbar) superScript)  method
 
  Creates IMathSuperscriptElement
@@ -5281,25 +4920,6 @@ url: /php-java/aspose.slides/mathsuperscriptelementfactory/createmathsuperscript
 | --- | --- | --- |
 | baseArg | [MathSubscriptElement](../mathsubscriptelement) | Base argument to apply superscript |
 | superScript | [MathBar](../../mathbar) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
-## createMathSuperscriptElement([MathSubscriptElement](../../mathsubscriptelement) baseArg, [MathFunction](../../mathfunction) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathSubscriptElement](../mathsubscriptelement) | Base argument to apply superscript |
-| superScript | [MathFunction](../../mathfunction) | upper right index |
 
 ### Returns
 [MathSuperscriptElement](../../mathsuperscriptelement)
@@ -5338,6 +4958,25 @@ url: /php-java/aspose.slides/mathsuperscriptelementfactory/createmathsuperscript
 | --- | --- | --- |
 | baseArg | [MathSubscriptElement](../mathsubscriptelement) | Base argument to apply superscript |
 | superScript | [MathSubscriptElement](../../mathsubscriptelement) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathSubscriptElement](../../mathsubscriptelement) baseArg, [MathFunction](../../mathfunction) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathSubscriptElement](../mathsubscriptelement) | Base argument to apply superscript |
+| superScript | [MathFunction](../../mathfunction) | upper right index |
 
 ### Returns
 [MathSuperscriptElement](../../mathsuperscriptelement)
@@ -5422,6 +5061,367 @@ url: /php-java/aspose.slides/mathsuperscriptelementfactory/createmathsuperscript
 ---
 
 
+## createMathSuperscriptElement([MathFunction](../../mathfunction) baseArg, [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathFunction](../mathfunction) | Base argument to apply superscript |
+| superScript | [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathFunction](../../mathfunction) baseArg, [MathMatrix](../../mathmatrix) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathFunction](../mathfunction) | Base argument to apply superscript |
+| superScript | [MathMatrix](../../mathmatrix) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathFunction](../../mathfunction) baseArg, [MathLimit](../../mathlimit) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathFunction](../mathfunction) | Base argument to apply superscript |
+| superScript | [MathLimit](../../mathlimit) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathFunction](../../mathfunction) baseArg, [MathBlock](../../mathblock) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathFunction](../mathfunction) | Base argument to apply superscript |
+| superScript | [MathBlock](../../mathblock) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathFunction](../../mathfunction) baseArg, [MathRadical](../../mathradical) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathFunction](../mathfunction) | Base argument to apply superscript |
+| superScript | [MathRadical](../../mathradical) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathFunction](../../mathfunction) baseArg, [MathArray](../../matharray) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathFunction](../mathfunction) | Base argument to apply superscript |
+| superScript | [MathArray](../../matharray) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathFunction](../../mathfunction) baseArg, [MathDelimiter](../../mathdelimiter) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathFunction](../mathfunction) | Base argument to apply superscript |
+| superScript | [MathDelimiter](../../mathdelimiter) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathFunction](../../mathfunction) baseArg, [MathAccent](../../mathaccent) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathFunction](../mathfunction) | Base argument to apply superscript |
+| superScript | [MathAccent](../../mathaccent) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathFunction](../../mathfunction) baseArg, [MathNaryOperator](../../mathnaryoperator) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathFunction](../mathfunction) | Base argument to apply superscript |
+| superScript | [MathNaryOperator](../../mathnaryoperator) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathFunction](../../mathfunction) baseArg, [MathBorderBox](../../mathborderbox) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathFunction](../mathfunction) | Base argument to apply superscript |
+| superScript | [MathBorderBox](../../mathborderbox) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathFunction](../../mathfunction) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathFunction](../mathfunction) | Base argument to apply superscript |
+| superScript | [MathGroupingCharacter](../../mathgroupingcharacter) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathFunction](../../mathfunction) baseArg, [MathBar](../../mathbar) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathFunction](../mathfunction) | Base argument to apply superscript |
+| superScript | [MathBar](../../mathbar) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathFunction](../../mathfunction) baseArg, [MathSuperscriptElement](../../mathsuperscriptelement) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathFunction](../mathfunction) | Base argument to apply superscript |
+| superScript | [MathSuperscriptElement](../../mathsuperscriptelement) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathFunction](../../mathfunction) baseArg, [MathSubscriptElement](../../mathsubscriptelement) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathFunction](../mathfunction) | Base argument to apply superscript |
+| superScript | [MathSubscriptElement](../../mathsubscriptelement) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathFunction](../../mathfunction) baseArg, [MathFunction](../../mathfunction) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathFunction](../mathfunction) | Base argument to apply superscript |
+| superScript | [MathFunction](../../mathfunction) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathFunction](../../mathfunction) baseArg, [MathFraction](../../mathfraction) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathFunction](../mathfunction) | Base argument to apply superscript |
+| superScript | [MathFraction](../../mathfraction) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathFunction](../../mathfunction) baseArg, [MathematicalText](../../mathematicaltext) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathFunction](../mathfunction) | Base argument to apply superscript |
+| superScript | [MathematicalText](../../mathematicaltext) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathFunction](../../mathfunction) baseArg, [MathBox](../../mathbox) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathFunction](../mathfunction) | Base argument to apply superscript |
+| superScript | [MathBox](../../mathbox) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathFunction](../../mathfunction) baseArg, [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathFunction](../mathfunction) | Base argument to apply superscript |
+| superScript | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
 ## createMathSuperscriptElement([MathFraction](../../mathfraction) baseArg, [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) superScript)  method
 
  Creates IMathSuperscriptElement
@@ -5441,25 +5441,6 @@ url: /php-java/aspose.slides/mathsuperscriptelementfactory/createmathsuperscript
 ---
 
 
-## createMathSuperscriptElement([MathFraction](../../mathfraction) baseArg, [MathLimit](../../mathlimit) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathFraction](../mathfraction) | Base argument to apply superscript |
-| superScript | [MathLimit](../../mathlimit) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
 ## createMathSuperscriptElement([MathFraction](../../mathfraction) baseArg, [MathMatrix](../../mathmatrix) superScript)  method
 
  Creates IMathSuperscriptElement
@@ -5471,6 +5452,25 @@ url: /php-java/aspose.slides/mathsuperscriptelementfactory/createmathsuperscript
 | --- | --- | --- |
 | baseArg | [MathFraction](../mathfraction) | Base argument to apply superscript |
 | superScript | [MathMatrix](../../mathmatrix) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathFraction](../../mathfraction) baseArg, [MathLimit](../../mathlimit) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathFraction](../mathfraction) | Base argument to apply superscript |
+| superScript | [MathLimit](../../mathlimit) | upper right index |
 
 ### Returns
 [MathSuperscriptElement](../../mathsuperscriptelement)
@@ -5593,25 +5593,6 @@ url: /php-java/aspose.slides/mathsuperscriptelementfactory/createmathsuperscript
 ---
 
 
-## createMathSuperscriptElement([MathFraction](../../mathfraction) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathFraction](../mathfraction) | Base argument to apply superscript |
-| superScript | [MathGroupingCharacter](../../mathgroupingcharacter) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
 ## createMathSuperscriptElement([MathFraction](../../mathfraction) baseArg, [MathBorderBox](../../mathborderbox) superScript)  method
 
  Creates IMathSuperscriptElement
@@ -5631,6 +5612,25 @@ url: /php-java/aspose.slides/mathsuperscriptelementfactory/createmathsuperscript
 ---
 
 
+## createMathSuperscriptElement([MathFraction](../../mathfraction) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathFraction](../mathfraction) | Base argument to apply superscript |
+| superScript | [MathGroupingCharacter](../../mathgroupingcharacter) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
 ## createMathSuperscriptElement([MathFraction](../../mathfraction) baseArg, [MathBar](../../mathbar) superScript)  method
 
  Creates IMathSuperscriptElement
@@ -5642,25 +5642,6 @@ url: /php-java/aspose.slides/mathsuperscriptelementfactory/createmathsuperscript
 | --- | --- | --- |
 | baseArg | [MathFraction](../mathfraction) | Base argument to apply superscript |
 | superScript | [MathBar](../../mathbar) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
-## createMathSuperscriptElement([MathFraction](../../mathfraction) baseArg, [MathFunction](../../mathfunction) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathFraction](../mathfraction) | Base argument to apply superscript |
-| superScript | [MathFunction](../../mathfunction) | upper right index |
 
 ### Returns
 [MathSuperscriptElement](../../mathsuperscriptelement)
@@ -5699,6 +5680,25 @@ url: /php-java/aspose.slides/mathsuperscriptelementfactory/createmathsuperscript
 | --- | --- | --- |
 | baseArg | [MathFraction](../mathfraction) | Base argument to apply superscript |
 | superScript | [MathSubscriptElement](../../mathsubscriptelement) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathFraction](../../mathfraction) baseArg, [MathFunction](../../mathfunction) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathFraction](../mathfraction) | Base argument to apply superscript |
+| superScript | [MathFunction](../../mathfunction) | upper right index |
 
 ### Returns
 [MathSuperscriptElement](../../mathsuperscriptelement)
@@ -5802,25 +5802,6 @@ url: /php-java/aspose.slides/mathsuperscriptelementfactory/createmathsuperscript
 ---
 
 
-## createMathSuperscriptElement([MathematicalText](../../mathematicaltext) baseArg, [MathLimit](../../mathlimit) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathematicalText](../mathematicaltext) | Base argument to apply superscript |
-| superScript | [MathLimit](../../mathlimit) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
 ## createMathSuperscriptElement([MathematicalText](../../mathematicaltext) baseArg, [MathMatrix](../../mathmatrix) superScript)  method
 
  Creates IMathSuperscriptElement
@@ -5832,6 +5813,25 @@ url: /php-java/aspose.slides/mathsuperscriptelementfactory/createmathsuperscript
 | --- | --- | --- |
 | baseArg | [MathematicalText](../mathematicaltext) | Base argument to apply superscript |
 | superScript | [MathMatrix](../../mathmatrix) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathematicalText](../../mathematicaltext) baseArg, [MathLimit](../../mathlimit) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathematicalText](../mathematicaltext) | Base argument to apply superscript |
+| superScript | [MathLimit](../../mathlimit) | upper right index |
 
 ### Returns
 [MathSuperscriptElement](../../mathsuperscriptelement)
@@ -5954,25 +5954,6 @@ url: /php-java/aspose.slides/mathsuperscriptelementfactory/createmathsuperscript
 ---
 
 
-## createMathSuperscriptElement([MathematicalText](../../mathematicaltext) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathematicalText](../mathematicaltext) | Base argument to apply superscript |
-| superScript | [MathGroupingCharacter](../../mathgroupingcharacter) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
 ## createMathSuperscriptElement([MathematicalText](../../mathematicaltext) baseArg, [MathBorderBox](../../mathborderbox) superScript)  method
 
  Creates IMathSuperscriptElement
@@ -5992,6 +5973,25 @@ url: /php-java/aspose.slides/mathsuperscriptelementfactory/createmathsuperscript
 ---
 
 
+## createMathSuperscriptElement([MathematicalText](../../mathematicaltext) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathematicalText](../mathematicaltext) | Base argument to apply superscript |
+| superScript | [MathGroupingCharacter](../../mathgroupingcharacter) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
 ## createMathSuperscriptElement([MathematicalText](../../mathematicaltext) baseArg, [MathBar](../../mathbar) superScript)  method
 
  Creates IMathSuperscriptElement
@@ -6003,25 +6003,6 @@ url: /php-java/aspose.slides/mathsuperscriptelementfactory/createmathsuperscript
 | --- | --- | --- |
 | baseArg | [MathematicalText](../mathematicaltext) | Base argument to apply superscript |
 | superScript | [MathBar](../../mathbar) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
-## createMathSuperscriptElement([MathematicalText](../../mathematicaltext) baseArg, [MathFunction](../../mathfunction) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathematicalText](../mathematicaltext) | Base argument to apply superscript |
-| superScript | [MathFunction](../../mathfunction) | upper right index |
 
 ### Returns
 [MathSuperscriptElement](../../mathsuperscriptelement)
@@ -6060,6 +6041,25 @@ url: /php-java/aspose.slides/mathsuperscriptelementfactory/createmathsuperscript
 | --- | --- | --- |
 | baseArg | [MathematicalText](../mathematicaltext) | Base argument to apply superscript |
 | superScript | [MathSubscriptElement](../../mathsubscriptelement) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathematicalText](../../mathematicaltext) baseArg, [MathFunction](../../mathfunction) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathematicalText](../mathematicaltext) | Base argument to apply superscript |
+| superScript | [MathFunction](../../mathfunction) | upper right index |
 
 ### Returns
 [MathSuperscriptElement](../../mathsuperscriptelement)
@@ -6163,25 +6163,6 @@ url: /php-java/aspose.slides/mathsuperscriptelementfactory/createmathsuperscript
 ---
 
 
-## createMathSuperscriptElement([MathBox](../../mathbox) baseArg, [MathLimit](../../mathlimit) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathBox](../mathbox) | Base argument to apply superscript |
-| superScript | [MathLimit](../../mathlimit) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
 ## createMathSuperscriptElement([MathBox](../../mathbox) baseArg, [MathMatrix](../../mathmatrix) superScript)  method
 
  Creates IMathSuperscriptElement
@@ -6193,6 +6174,25 @@ url: /php-java/aspose.slides/mathsuperscriptelementfactory/createmathsuperscript
 | --- | --- | --- |
 | baseArg | [MathBox](../mathbox) | Base argument to apply superscript |
 | superScript | [MathMatrix](../../mathmatrix) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathBox](../../mathbox) baseArg, [MathLimit](../../mathlimit) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathBox](../mathbox) | Base argument to apply superscript |
+| superScript | [MathLimit](../../mathlimit) | upper right index |
 
 ### Returns
 [MathSuperscriptElement](../../mathsuperscriptelement)
@@ -6315,25 +6315,6 @@ url: /php-java/aspose.slides/mathsuperscriptelementfactory/createmathsuperscript
 ---
 
 
-## createMathSuperscriptElement([MathBox](../../mathbox) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathBox](../mathbox) | Base argument to apply superscript |
-| superScript | [MathGroupingCharacter](../../mathgroupingcharacter) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
 ## createMathSuperscriptElement([MathBox](../../mathbox) baseArg, [MathBorderBox](../../mathborderbox) superScript)  method
 
  Creates IMathSuperscriptElement
@@ -6353,6 +6334,25 @@ url: /php-java/aspose.slides/mathsuperscriptelementfactory/createmathsuperscript
 ---
 
 
+## createMathSuperscriptElement([MathBox](../../mathbox) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathBox](../mathbox) | Base argument to apply superscript |
+| superScript | [MathGroupingCharacter](../../mathgroupingcharacter) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
 ## createMathSuperscriptElement([MathBox](../../mathbox) baseArg, [MathBar](../../mathbar) superScript)  method
 
  Creates IMathSuperscriptElement
@@ -6364,25 +6364,6 @@ url: /php-java/aspose.slides/mathsuperscriptelementfactory/createmathsuperscript
 | --- | --- | --- |
 | baseArg | [MathBox](../mathbox) | Base argument to apply superscript |
 | superScript | [MathBar](../../mathbar) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
-## createMathSuperscriptElement([MathBox](../../mathbox) baseArg, [MathFunction](../../mathfunction) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathBox](../mathbox) | Base argument to apply superscript |
-| superScript | [MathFunction](../../mathfunction) | upper right index |
 
 ### Returns
 [MathSuperscriptElement](../../mathsuperscriptelement)
@@ -6421,6 +6402,25 @@ url: /php-java/aspose.slides/mathsuperscriptelementfactory/createmathsuperscript
 | --- | --- | --- |
 | baseArg | [MathBox](../mathbox) | Base argument to apply superscript |
 | superScript | [MathSubscriptElement](../../mathsubscriptelement) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathBox](../../mathbox) baseArg, [MathFunction](../../mathfunction) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathBox](../mathbox) | Base argument to apply superscript |
+| superScript | [MathFunction](../../mathfunction) | upper right index |
 
 ### Returns
 [MathSuperscriptElement](../../mathsuperscriptelement)
@@ -6524,25 +6524,6 @@ url: /php-java/aspose.slides/mathsuperscriptelementfactory/createmathsuperscript
 ---
 
 
-## createMathSuperscriptElement([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) baseArg, [MathLimit](../../mathlimit) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Base argument to apply superscript |
-| superScript | [MathLimit](../../mathlimit) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
 ## createMathSuperscriptElement([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) baseArg, [MathMatrix](../../mathmatrix) superScript)  method
 
  Creates IMathSuperscriptElement
@@ -6554,6 +6535,25 @@ url: /php-java/aspose.slides/mathsuperscriptelementfactory/createmathsuperscript
 | --- | --- | --- |
 | baseArg | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Base argument to apply superscript |
 | superScript | [MathMatrix](../../mathmatrix) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) baseArg, [MathLimit](../../mathlimit) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Base argument to apply superscript |
+| superScript | [MathLimit](../../mathlimit) | upper right index |
 
 ### Returns
 [MathSuperscriptElement](../../mathsuperscriptelement)
@@ -6676,25 +6676,6 @@ url: /php-java/aspose.slides/mathsuperscriptelementfactory/createmathsuperscript
 ---
 
 
-## createMathSuperscriptElement([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Base argument to apply superscript |
-| superScript | [MathGroupingCharacter](../../mathgroupingcharacter) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
 ## createMathSuperscriptElement([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) baseArg, [MathBorderBox](../../mathborderbox) superScript)  method
 
  Creates IMathSuperscriptElement
@@ -6714,6 +6695,25 @@ url: /php-java/aspose.slides/mathsuperscriptelementfactory/createmathsuperscript
 ---
 
 
+## createMathSuperscriptElement([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Base argument to apply superscript |
+| superScript | [MathGroupingCharacter](../../mathgroupingcharacter) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
 ## createMathSuperscriptElement([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) baseArg, [MathBar](../../mathbar) superScript)  method
 
  Creates IMathSuperscriptElement
@@ -6725,25 +6725,6 @@ url: /php-java/aspose.slides/mathsuperscriptelementfactory/createmathsuperscript
 | --- | --- | --- |
 | baseArg | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Base argument to apply superscript |
 | superScript | [MathBar](../../mathbar) | upper right index |
-
-### Returns
-[MathSuperscriptElement](../../mathsuperscriptelement)
-
-
----
-
-
-## createMathSuperscriptElement([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) baseArg, [MathFunction](../../mathfunction) superScript)  method
-
- Creates IMathSuperscriptElement
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Base argument to apply superscript |
-| superScript | [MathFunction](../../mathfunction) | upper right index |
 
 ### Returns
 [MathSuperscriptElement](../../mathsuperscriptelement)
@@ -6782,6 +6763,25 @@ url: /php-java/aspose.slides/mathsuperscriptelementfactory/createmathsuperscript
 | --- | --- | --- |
 | baseArg | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Base argument to apply superscript |
 | superScript | [MathSubscriptElement](../../mathsubscriptelement) | upper right index |
+
+### Returns
+[MathSuperscriptElement](../../mathsuperscriptelement)
+
+
+---
+
+
+## createMathSuperscriptElement([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) baseArg, [MathFunction](../../mathfunction) superScript)  method
+
+ Creates IMathSuperscriptElement
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Base argument to apply superscript |
+| superScript | [MathFunction](../../mathfunction) | upper right index |
 
 ### Returns
 [MathSuperscriptElement](../../mathsuperscriptelement)

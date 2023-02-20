@@ -14,7 +14,7 @@ url: /php-java/aspose.slides/swfoptions/getlogoimagebytes/
  
 
 ### Returns
-OrderedDictionary, Hashtable, LinkedList
+byte
 
 
 ---

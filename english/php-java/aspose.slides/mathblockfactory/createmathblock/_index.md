@@ -37,24 +37,6 @@ url: /php-java/aspose.slides/mathblockfactory/createmathblock/
 ---
 
 
-## createMathBlock([MathLimit](../../mathlimit) mathElement)  method
-
- Create a math block and place the element in it
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| mathElement | [MathLimit](../../mathlimit) | A math element |
-
-### Returns
-[MathBlock](../../mathblock)
-
-
----
-
-
 ## createMathBlock([MathMatrix](../../mathmatrix) mathElement)  method
 
  Create a math block and place the element in it
@@ -65,6 +47,24 @@ url: /php-java/aspose.slides/mathblockfactory/createmathblock/
 | Name | Type | Description |
 | --- | --- | --- |
 | mathElement | [MathMatrix](../../mathmatrix) | A math element |
+
+### Returns
+[MathBlock](../../mathblock)
+
+
+---
+
+
+## createMathBlock([MathLimit](../../mathlimit) mathElement)  method
+
+ Create a math block and place the element in it
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| mathElement | [MathLimit](../../mathlimit) | A math element |
 
 ### Returns
 [MathBlock](../../mathblock)
@@ -181,24 +181,6 @@ url: /php-java/aspose.slides/mathblockfactory/createmathblock/
 ---
 
 
-## createMathBlock([MathGroupingCharacter](../../mathgroupingcharacter) mathElement)  method
-
- Create a math block and place the element in it
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| mathElement | [MathGroupingCharacter](../../mathgroupingcharacter) | A math element |
-
-### Returns
-[MathBlock](../../mathblock)
-
-
----
-
-
 ## createMathBlock([MathBorderBox](../../mathborderbox) mathElement)  method
 
  Create a math block and place the element in it
@@ -217,6 +199,24 @@ url: /php-java/aspose.slides/mathblockfactory/createmathblock/
 ---
 
 
+## createMathBlock([MathGroupingCharacter](../../mathgroupingcharacter) mathElement)  method
+
+ Create a math block and place the element in it
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| mathElement | [MathGroupingCharacter](../../mathgroupingcharacter) | A math element |
+
+### Returns
+[MathBlock](../../mathblock)
+
+
+---
+
+
 ## createMathBlock([MathBar](../../mathbar) mathElement)  method
 
  Create a math block and place the element in it
@@ -227,24 +227,6 @@ url: /php-java/aspose.slides/mathblockfactory/createmathblock/
 | Name | Type | Description |
 | --- | --- | --- |
 | mathElement | [MathBar](../../mathbar) | A math element |
-
-### Returns
-[MathBlock](../../mathblock)
-
-
----
-
-
-## createMathBlock([MathFunction](../../mathfunction) mathElement)  method
-
- Create a math block and place the element in it
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| mathElement | [MathFunction](../../mathfunction) | A math element |
 
 ### Returns
 [MathBlock](../../mathblock)
@@ -281,6 +263,24 @@ url: /php-java/aspose.slides/mathblockfactory/createmathblock/
 | Name | Type | Description |
 | --- | --- | --- |
 | mathElement | [MathSubscriptElement](../../mathsubscriptelement) | A math element |
+
+### Returns
+[MathBlock](../../mathblock)
+
+
+---
+
+
+## createMathBlock([MathFunction](../../mathfunction) mathElement)  method
+
+ Create a math block and place the element in it
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| mathElement | [MathFunction](../../mathfunction) | A math element |
 
 ### Returns
 [MathBlock](../../mathblock)

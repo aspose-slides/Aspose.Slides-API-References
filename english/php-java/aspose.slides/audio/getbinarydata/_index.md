@@ -16,7 +16,7 @@ url: /php-java/aspose.slides/audio/getbinarydata/
  
 
 ### Returns
-OrderedDictionary, Hashtable, LinkedList
+byte
 
 
 ---

@@ -14,7 +14,7 @@ url: /php-java/aspose.slides/shapeframe/getflipv/
  
 
 ### Returns
-OrderedDictionary, Hashtable, LinkedList
+byte
 
 
 ---

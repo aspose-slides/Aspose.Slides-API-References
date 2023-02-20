@@ -7,33 +7,7 @@ weight: 200
 url: /php-java/aspose.slides/outershadow/setrectanglealign/
 ---
 
-## setRectangleAlign(OrderedDictionary value)  method
-
- Rectangle alignment.
- Read/write  RectangleAlignment.
- 
-
-### Returns
-void
-
-
----
-
-
-## setRectangleAlign(Hashtable value)  method
-
- Rectangle alignment.
- Read/write  RectangleAlignment.
- 
-
-### Returns
-void
-
-
----
-
-
-## setRectangleAlign(LinkedList value)  method
+## setRectangleAlign(byte value)  method
 
  Rectangle alignment.
  Read/write  RectangleAlignment.

@@ -13,7 +13,7 @@ url: /php-java/aspose.slides/control/getactivexcontrolbinary/
  
 
 ### Returns
-OrderedDictionary, Hashtable, LinkedList
+byte
 
 
 ---

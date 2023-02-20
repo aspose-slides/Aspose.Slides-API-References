@@ -7,33 +7,7 @@ weight: 60
 url: /php-java/aspose.slides/patternformat/setpatternstyle/
 ---
 
-## setPatternStyle(OrderedDictionary value)  method
-
- Returns or sets the pattern style.
- Read/write  PatternStyle.
- 
-
-### Returns
-void
-
-
----
-
-
-## setPatternStyle(Hashtable value)  method
-
- Returns or sets the pattern style.
- Read/write  PatternStyle.
- 
-
-### Returns
-void
-
-
----
-
-
-## setPatternStyle(LinkedList value)  method
+## setPatternStyle(byte value)  method
 
  Returns or sets the pattern style.
  Read/write  PatternStyle.

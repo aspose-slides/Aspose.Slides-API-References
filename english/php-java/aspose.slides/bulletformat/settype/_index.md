@@ -7,33 +7,7 @@ weight: 210
 url: /php-java/aspose.slides/bulletformat/settype/
 ---
 
-## setType(OrderedDictionary value)  method
-
- Returns or sets the bullet type of a paragraph with no inheritance.
- Read/write  BulletType.
- 
-
-### Returns
-void
-
-
----
-
-
-## setType(Hashtable value)  method
-
- Returns or sets the bullet type of a paragraph with no inheritance.
- Read/write  BulletType.
- 
-
-### Returns
-void
-
-
----
-
-
-## setType(LinkedList value)  method
+## setType(byte value)  method
 
  Returns or sets the bullet type of a paragraph with no inheritance.
  Read/write  BulletType.

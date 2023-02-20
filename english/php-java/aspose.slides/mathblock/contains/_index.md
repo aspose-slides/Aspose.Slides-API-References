@@ -25,24 +25,6 @@ boolean
 ---
 
 
-## contains([MathLimit](../../mathlimit) item)  method
-
- Determines whether the collection contains a specific value.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| item | [MathLimit](../../mathlimit) | The object to locate in the collection. |
-
-### Returns
-boolean
-
-
----
-
-
 ## contains([MathMatrix](../../mathmatrix) item)  method
 
  Determines whether the collection contains a specific value.
@@ -53,6 +35,24 @@ boolean
 | Name | Type | Description |
 | --- | --- | --- |
 | item | [MathMatrix](../../mathmatrix) | The object to locate in the collection. |
+
+### Returns
+boolean
+
+
+---
+
+
+## contains([MathLimit](../../mathlimit) item)  method
+
+ Determines whether the collection contains a specific value.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| item | [MathLimit](../../mathlimit) | The object to locate in the collection. |
 
 ### Returns
 boolean
@@ -169,24 +169,6 @@ boolean
 ---
 
 
-## contains([MathGroupingCharacter](../../mathgroupingcharacter) item)  method
-
- Determines whether the collection contains a specific value.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| item | [MathGroupingCharacter](../../mathgroupingcharacter) | The object to locate in the collection. |
-
-### Returns
-boolean
-
-
----
-
-
 ## contains([MathBorderBox](../../mathborderbox) item)  method
 
  Determines whether the collection contains a specific value.
@@ -205,6 +187,24 @@ boolean
 ---
 
 
+## contains([MathGroupingCharacter](../../mathgroupingcharacter) item)  method
+
+ Determines whether the collection contains a specific value.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| item | [MathGroupingCharacter](../../mathgroupingcharacter) | The object to locate in the collection. |
+
+### Returns
+boolean
+
+
+---
+
+
 ## contains([MathBar](../../mathbar) item)  method
 
  Determines whether the collection contains a specific value.
@@ -215,24 +215,6 @@ boolean
 | Name | Type | Description |
 | --- | --- | --- |
 | item | [MathBar](../../mathbar) | The object to locate in the collection. |
-
-### Returns
-boolean
-
-
----
-
-
-## contains([MathFunction](../../mathfunction) item)  method
-
- Determines whether the collection contains a specific value.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| item | [MathFunction](../../mathfunction) | The object to locate in the collection. |
 
 ### Returns
 boolean
@@ -269,6 +251,24 @@ boolean
 | Name | Type | Description |
 | --- | --- | --- |
 | item | [MathSubscriptElement](../../mathsubscriptelement) | The object to locate in the collection. |
+
+### Returns
+boolean
+
+
+---
+
+
+## contains([MathFunction](../../mathfunction) item)  method
+
+ Determines whether the collection contains a specific value.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| item | [MathFunction](../../mathfunction) | The object to locate in the collection. |
 
 ### Returns
 boolean

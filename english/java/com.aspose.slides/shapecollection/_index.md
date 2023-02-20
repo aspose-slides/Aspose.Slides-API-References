@@ -1502,21 +1502,21 @@ Creates a new Table and adds it to the end of the collection.
 >      {
 >          for (int cell = 0; cell < tbl.getRows().get_Item(row).size(); cell++)
 >          {
->              tbl.get_Item(row, cell).getCellFormat().getBorderTop().getFillFormat().setFillType(FillType.Solid);
->              tbl.get_Item(row, cell).getCellFormat().getBorderTop().getFillFormat().getSolidFillColor().setColor(Color.RED);
->              tbl.get_Item(row, cell).getCellFormat().getBorderTop().setWidth(5);
+>              tbl.get_Item(cell, row).getCellFormat().getBorderTop().getFillFormat().setFillType(FillType.Solid);
+>              tbl.get_Item(cell, row).getCellFormat().getBorderTop().getFillFormat().getSolidFillColor().setColor(Color.RED);
+>              tbl.get_Item(cell, row).getCellFormat().getBorderTop().setWidth(5);
 > 
->              tbl.get_Item(row, cell).getCellFormat().getBorderBottom().getFillFormat().setFillType((FillType.Solid));
->              tbl.get_Item(row, cell).getCellFormat().getBorderBottom().getFillFormat().getSolidFillColor().setColor(Color.RED);
->              tbl.get_Item(row, cell).getCellFormat().getBorderBottom().setWidth(5);
+>              tbl.get_Item(cell, row).getCellFormat().getBorderBottom().getFillFormat().setFillType((FillType.Solid));
+>              tbl.get_Item(cell, row).getCellFormat().getBorderBottom().getFillFormat().getSolidFillColor().setColor(Color.RED);
+>              tbl.get_Item(cell, row).getCellFormat().getBorderBottom().setWidth(5);
 > 
->              tbl.get_Item(row, cell).getCellFormat().getBorderLeft().getFillFormat().setFillType(FillType.Solid);
->              tbl.get_Item(row, cell).getCellFormat().getBorderLeft().getFillFormat().getSolidFillColor().setColor(Color.RED);
->              tbl.get_Item(row, cell).getCellFormat().getBorderLeft().setWidth(5);
+>              tbl.get_Item(cell, row).getCellFormat().getBorderLeft().getFillFormat().setFillType(FillType.Solid);
+>              tbl.get_Item(cell, row).getCellFormat().getBorderLeft().getFillFormat().getSolidFillColor().setColor(Color.RED);
+>              tbl.get_Item(cell, row).getCellFormat().getBorderLeft().setWidth(5);
 > 
->              tbl.get_Item(row, cell).getCellFormat().getBorderRight().getFillFormat().setFillType(FillType.Solid);
->              tbl.get_Item(row, cell).getCellFormat().getBorderRight().getFillFormat().getSolidFillColor().setColor(Color.RED);
->              tbl.get_Item(row, cell).getCellFormat().getBorderRight().setWidth(5);
+>              tbl.get_Item(cell, row).getCellFormat().getBorderRight().getFillFormat().setFillType(FillType.Solid);
+>              tbl.get_Item(cell, row).getCellFormat().getBorderRight().getFillFormat().getSolidFillColor().setColor(Color.RED);
+>              tbl.get_Item(cell, row).getCellFormat().getBorderRight().setWidth(5);
 >          }
 >      }
 >      // Merge cells 1 & 2 of row 1

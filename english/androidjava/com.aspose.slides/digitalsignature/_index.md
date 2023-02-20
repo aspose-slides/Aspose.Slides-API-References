@@ -42,7 +42,7 @@ Digital signature in signed file.
 >  // Initialize Presentation instance
 >  Presentation pres = new Presentation("SomePresentationSigned.pptx");
 >  try {
->      if (pres.getDigitalSignatures().size() < 0)
+>      if (pres.getDigitalSignatures().size() > 0)
 >      {
 >          boolean allSignaturesAreValid = true;
 >          System.out.println("Signatures used to sign the presentation: ");

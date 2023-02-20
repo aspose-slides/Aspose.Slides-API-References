@@ -28,7 +28,7 @@ url: /php-java/aspose.slides/mathdelimiter/mathdelimiter/
 ---
 
 
-## MathDelimiter([MathLimit](../../mathlimit) element)  constructor
+## MathDelimiter([MathMatrix](../../mathmatrix) element)  constructor
 
  Initializes MathDelimiter with the specified element as single base argument
  
@@ -37,7 +37,7 @@ url: /php-java/aspose.slides/mathdelimiter/mathdelimiter/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathLimit](../../mathlimit) | The base element to which the delimiter is applied. Can be null. |
+| element | [MathMatrix](../../mathmatrix) | The base element to which the delimiter is applied. Can be null. |
 
 ### Exception
 
@@ -49,7 +49,7 @@ url: /php-java/aspose.slides/mathdelimiter/mathdelimiter/
 ---
 
 
-## MathDelimiter([MathMatrix](../../mathmatrix) element)  constructor
+## MathDelimiter([MathLimit](../../mathlimit) element)  constructor
 
  Initializes MathDelimiter with the specified element as single base argument
  
@@ -58,7 +58,7 @@ url: /php-java/aspose.slides/mathdelimiter/mathdelimiter/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathMatrix](../../mathmatrix) | The base element to which the delimiter is applied. Can be null. |
+| element | [MathLimit](../../mathlimit) | The base element to which the delimiter is applied. Can be null. |
 
 ### Exception
 
@@ -196,27 +196,6 @@ url: /php-java/aspose.slides/mathdelimiter/mathdelimiter/
 ---
 
 
-## MathDelimiter([MathGroupingCharacter](../../mathgroupingcharacter) element)  constructor
-
- Initializes MathDelimiter with the specified element as single base argument
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathGroupingCharacter](../../mathgroupingcharacter) | The base element to which the delimiter is applied. Can be null. |
-
-### Exception
-
-| Exception | Condition |
-| --- | --- |
- | InvalidOperationException | Throws then element is a container for another elements, such as MathBlock. In this case, you need to call a different constructor with IEnumerable argument. |
-
-
----
-
-
 ## MathDelimiter([MathBorderBox](../../mathborderbox) element)  constructor
 
  Initializes MathDelimiter with the specified element as single base argument
@@ -238,7 +217,7 @@ url: /php-java/aspose.slides/mathdelimiter/mathdelimiter/
 ---
 
 
-## MathDelimiter([MathBar](../../mathbar) element)  constructor
+## MathDelimiter([MathGroupingCharacter](../../mathgroupingcharacter) element)  constructor
 
  Initializes MathDelimiter with the specified element as single base argument
  
@@ -247,7 +226,7 @@ url: /php-java/aspose.slides/mathdelimiter/mathdelimiter/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathBar](../../mathbar) | The base element to which the delimiter is applied. Can be null. |
+| element | [MathGroupingCharacter](../../mathgroupingcharacter) | The base element to which the delimiter is applied. Can be null. |
 
 ### Exception
 
@@ -259,7 +238,7 @@ url: /php-java/aspose.slides/mathdelimiter/mathdelimiter/
 ---
 
 
-## MathDelimiter([MathFunction](../../mathfunction) element)  constructor
+## MathDelimiter([MathBar](../../mathbar) element)  constructor
 
  Initializes MathDelimiter with the specified element as single base argument
  
@@ -268,7 +247,7 @@ url: /php-java/aspose.slides/mathdelimiter/mathdelimiter/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathFunction](../../mathfunction) | The base element to which the delimiter is applied. Can be null. |
+| element | [MathBar](../../mathbar) | The base element to which the delimiter is applied. Can be null. |
 
 ### Exception
 
@@ -311,6 +290,27 @@ url: /php-java/aspose.slides/mathdelimiter/mathdelimiter/
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathSubscriptElement](../../mathsubscriptelement) | The base element to which the delimiter is applied. Can be null. |
+
+### Exception
+
+| Exception | Condition |
+| --- | --- |
+ | InvalidOperationException | Throws then element is a container for another elements, such as MathBlock. In this case, you need to call a different constructor with IEnumerable argument. |
+
+
+---
+
+
+## MathDelimiter([MathFunction](../../mathfunction) element)  constructor
+
+ Initializes MathDelimiter with the specified element as single base argument
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathFunction](../../mathfunction) | The base element to which the delimiter is applied. Can be null. |
 
 ### Exception
 

@@ -64,7 +64,7 @@ void
 ---
 
 
-## setStartShapeConnectedTo([Table](../../table) value)  method
+## setStartShapeConnectedTo([Shape](../../shape) value)  method
 
  Returns or sets the shape to attach the beginning of the connector to.
  Read/write  IShape.
@@ -83,7 +83,7 @@ void
 ---
 
 
-## setStartShapeConnectedTo([Shape](../../shape) value)  method
+## setStartShapeConnectedTo([Table](../../table) value)  method
 
  Returns or sets the shape to attach the beginning of the connector to.
  Read/write  IShape.
@@ -140,25 +140,6 @@ void
 ---
 
 
-## setStartShapeConnectedTo([SummaryZoomSection](../../summaryzoomsection) value)  method
-
- Returns or sets the shape to attach the beginning of the connector to.
- Read/write  IShape.
- 
-
-### Returns
-void
-
-### Exception
-
-| Exception | Condition |
-| --- | --- |
- | ArgumentException | Thrown when connected shape doesn't has any connection sites (IShape.ConnectionSiteCount equals zero) |
-
-
----
-
-
 ## setStartShapeConnectedTo([ZoomFrame](../../zoomframe) value)  method
 
  Returns or sets the shape to attach the beginning of the connector to.
@@ -178,7 +159,7 @@ void
 ---
 
 
-## setStartShapeConnectedTo([OleObjectFrame](../../oleobjectframe) value)  method
+## setStartShapeConnectedTo([SummaryZoomSection](../../summaryzoomsection) value)  method
 
  Returns or sets the shape to attach the beginning of the connector to.
  Read/write  IShape.
@@ -198,6 +179,25 @@ void
 
 
 ## setStartShapeConnectedTo([VideoFrame](../../videoframe) value)  method
+
+ Returns or sets the shape to attach the beginning of the connector to.
+ Read/write  IShape.
+ 
+
+### Returns
+void
+
+### Exception
+
+| Exception | Condition |
+| --- | --- |
+ | ArgumentException | Thrown when connected shape doesn't has any connection sites (IShape.ConnectionSiteCount equals zero) |
+
+
+---
+
+
+## setStartShapeConnectedTo([OleObjectFrame](../../oleobjectframe) value)  method
 
  Returns or sets the shape to attach the beginning of the connector to.
  Read/write  IShape.
@@ -273,25 +273,6 @@ void
 ---
 
 
-## setStartShapeConnectedTo([SectionZoomFrame](../../sectionzoomframe) value)  method
-
- Returns or sets the shape to attach the beginning of the connector to.
- Read/write  IShape.
- 
-
-### Returns
-void
-
-### Exception
-
-| Exception | Condition |
-| --- | --- |
- | ArgumentException | Thrown when connected shape doesn't has any connection sites (IShape.ConnectionSiteCount equals zero) |
-
-
----
-
-
 ## setStartShapeConnectedTo([PictureFrame](../../pictureframe) value)  method
 
  Returns or sets the shape to attach the beginning of the connector to.
@@ -311,7 +292,7 @@ void
 ---
 
 
-## setStartShapeConnectedTo([AudioFrame](../../audioframe) value)  method
+## setStartShapeConnectedTo([SectionZoomFrame](../../sectionzoomframe) value)  method
 
  Returns or sets the shape to attach the beginning of the connector to.
  Read/write  IShape.
@@ -331,6 +312,25 @@ void
 
 
 ## setStartShapeConnectedTo([Chart](../../chart) value)  method
+
+ Returns or sets the shape to attach the beginning of the connector to.
+ Read/write  IShape.
+ 
+
+### Returns
+void
+
+### Exception
+
+| Exception | Condition |
+| --- | --- |
+ | ArgumentException | Thrown when connected shape doesn't has any connection sites (IShape.ConnectionSiteCount equals zero) |
+
+
+---
+
+
+## setStartShapeConnectedTo([AudioFrame](../../audioframe) value)  method
 
  Returns or sets the shape to attach the beginning of the connector to.
  Read/write  IShape.

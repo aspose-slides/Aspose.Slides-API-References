@@ -7,33 +7,7 @@ weight: 60
 url: /php-java/aspose.slides/moderncomment/setstatus/
 ---
 
-## setStatus(OrderedDictionary value)  method
-
- Gets or sets the status of the comment.
- Read/write  ModernCommentStatus.
- 
-
-### Returns
-void
-
-
----
-
-
-## setStatus(Hashtable value)  method
-
- Gets or sets the status of the comment.
- Read/write  ModernCommentStatus.
- 
-
-### Returns
-void
-
-
----
-
-
-## setStatus(LinkedList value)  method
+## setStatus(byte value)  method
 
  Gets or sets the status of the comment.
  Read/write  ModernCommentStatus.

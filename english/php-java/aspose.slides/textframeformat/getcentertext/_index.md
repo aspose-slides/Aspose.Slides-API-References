@@ -14,7 +14,7 @@ url: /php-java/aspose.slides/textframeformat/getcentertext/
  
 
 ### Returns
-OrderedDictionary, Hashtable, LinkedList
+byte
 
 
 ---

@@ -15,7 +15,7 @@ url: /php-java/aspose.slides/trendline/getperiod/
  
 
 ### Returns
-OrderedDictionary, Hashtable, LinkedList
+byte
 
 
 ---

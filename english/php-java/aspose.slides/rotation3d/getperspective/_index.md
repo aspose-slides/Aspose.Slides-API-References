@@ -15,7 +15,7 @@ url: /php-java/aspose.slides/rotation3d/getperspective/
  
 
 ### Returns
-OrderedDictionary, Hashtable, LinkedList
+byte
 
 
 ---

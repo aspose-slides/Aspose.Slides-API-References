@@ -73,24 +73,6 @@ url: /php-java/aspose.slides/textanimationcollection/get_item/
 ---
 
 
-## get_Item([Table](../../table) shape)  method
-
- Returns all elements 
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| shape | [Table](../../table) | IShape to remove. |
-
-### Returns
-[TextAnimation](../../textanimation)
-
-
----
-
-
 ## get_Item([Shape](../../shape) shape)  method
 
  Returns all elements 
@@ -101,6 +83,24 @@ url: /php-java/aspose.slides/textanimationcollection/get_item/
 | Name | Type | Description |
 | --- | --- | --- |
 | shape | [Shape](../../shape) | IShape to remove. |
+
+### Returns
+[TextAnimation](../../textanimation)
+
+
+---
+
+
+## get_Item([Table](../../table) shape)  method
+
+ Returns all elements 
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | [Table](../../table) | IShape to remove. |
 
 ### Returns
 [TextAnimation](../../textanimation)
@@ -145,24 +145,6 @@ url: /php-java/aspose.slides/textanimationcollection/get_item/
 ---
 
 
-## get_Item([SummaryZoomSection](../../summaryzoomsection) shape)  method
-
- Returns all elements 
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| shape | [SummaryZoomSection](../../summaryzoomsection) | IShape to remove. |
-
-### Returns
-[TextAnimation](../../textanimation)
-
-
----
-
-
 ## get_Item([ZoomFrame](../../zoomframe) shape)  method
 
  Returns all elements 
@@ -181,7 +163,7 @@ url: /php-java/aspose.slides/textanimationcollection/get_item/
 ---
 
 
-## get_Item([OleObjectFrame](../../oleobjectframe) shape)  method
+## get_Item([SummaryZoomSection](../../summaryzoomsection) shape)  method
 
  Returns all elements 
  
@@ -190,7 +172,7 @@ url: /php-java/aspose.slides/textanimationcollection/get_item/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | [OleObjectFrame](../../oleobjectframe) | IShape to remove. |
+| shape | [SummaryZoomSection](../../summaryzoomsection) | IShape to remove. |
 
 ### Returns
 [TextAnimation](../../textanimation)
@@ -209,6 +191,24 @@ url: /php-java/aspose.slides/textanimationcollection/get_item/
 | Name | Type | Description |
 | --- | --- | --- |
 | shape | [VideoFrame](../../videoframe) | IShape to remove. |
+
+### Returns
+[TextAnimation](../../textanimation)
+
+
+---
+
+
+## get_Item([OleObjectFrame](../../oleobjectframe) shape)  method
+
+ Returns all elements 
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | [OleObjectFrame](../../oleobjectframe) | IShape to remove. |
 
 ### Returns
 [TextAnimation](../../textanimation)
@@ -271,24 +271,6 @@ url: /php-java/aspose.slides/textanimationcollection/get_item/
 ---
 
 
-## get_Item([SectionZoomFrame](../../sectionzoomframe) shape)  method
-
- Returns all elements 
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| shape | [SectionZoomFrame](../../sectionzoomframe) | IShape to remove. |
-
-### Returns
-[TextAnimation](../../textanimation)
-
-
----
-
-
 ## get_Item([PictureFrame](../../pictureframe) shape)  method
 
  Returns all elements 
@@ -307,7 +289,7 @@ url: /php-java/aspose.slides/textanimationcollection/get_item/
 ---
 
 
-## get_Item([AudioFrame](../../audioframe) shape)  method
+## get_Item([SectionZoomFrame](../../sectionzoomframe) shape)  method
 
  Returns all elements 
  
@@ -316,7 +298,7 @@ url: /php-java/aspose.slides/textanimationcollection/get_item/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | [AudioFrame](../../audioframe) | IShape to remove. |
+| shape | [SectionZoomFrame](../../sectionzoomframe) | IShape to remove. |
 
 ### Returns
 [TextAnimation](../../textanimation)
@@ -335,6 +317,24 @@ url: /php-java/aspose.slides/textanimationcollection/get_item/
 | Name | Type | Description |
 | --- | --- | --- |
 | shape | [Chart](../../chart) | IShape to remove. |
+
+### Returns
+[TextAnimation](../../textanimation)
+
+
+---
+
+
+## get_Item([AudioFrame](../../audioframe) shape)  method
+
+ Returns all elements 
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | [AudioFrame](../../audioframe) | IShape to remove. |
 
 ### Returns
 [TextAnimation](../../textanimation)

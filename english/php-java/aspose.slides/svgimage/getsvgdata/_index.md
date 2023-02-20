@@ -14,7 +14,7 @@ url: /php-java/aspose.slides/svgimage/getsvgdata/
  
 
 ### Returns
-OrderedDictionary, Hashtable, LinkedList
+byte
 
 
 ---

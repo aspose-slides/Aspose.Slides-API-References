@@ -7,33 +7,7 @@ weight: 200
 url: /php-java/aspose.slides/lineformat/setalignment/
 ---
 
-## setAlignment(OrderedDictionary value)  method
-
- Returns or sets the line alignment.
- Read/write  LineAlignment.
- 
-
-### Returns
-void
-
-
----
-
-
-## setAlignment(Hashtable value)  method
-
- Returns or sets the line alignment.
- Read/write  LineAlignment.
- 
-
-### Returns
-void
-
-
----
-
-
-## setAlignment(LinkedList value)  method
+## setAlignment(byte value)  method
 
  Returns or sets the line alignment.
  Read/write  LineAlignment.

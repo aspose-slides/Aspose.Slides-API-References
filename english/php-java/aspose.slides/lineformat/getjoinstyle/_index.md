@@ -14,7 +14,7 @@ url: /php-java/aspose.slides/lineformat/getjoinstyle/
  
 
 ### Returns
-OrderedDictionary, Hashtable, LinkedList
+byte
 
 
 ---

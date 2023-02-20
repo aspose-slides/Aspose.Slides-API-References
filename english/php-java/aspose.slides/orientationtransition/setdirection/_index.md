@@ -7,33 +7,7 @@ weight: 20
 url: /php-java/aspose.slides/orientationtransition/setdirection/
 ---
 
-## setDirection(OrderedDictionary value)  method
-
- Direction of transition.
- Read/write  Orientation.
- 
-
-### Returns
-void
-
-
----
-
-
-## setDirection(Hashtable value)  method
-
- Direction of transition.
- Read/write  Orientation.
- 
-
-### Returns
-void
-
-
----
-
-
-## setDirection(LinkedList value)  method
+## setDirection(byte value)  method
 
  Direction of transition.
  Read/write  Orientation.

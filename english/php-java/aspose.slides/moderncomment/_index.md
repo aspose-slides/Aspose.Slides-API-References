@@ -20,8 +20,6 @@ url: /php-java/aspose.slides/moderncomment/
 | [getStatus](getstatus)() | Gets or sets the status of the comment. Read/write ModernCommentStatus. |
 | [getTextSelectionLength](gettextselectionlength)() | Gets or sets text selection length in text frame if the comment associated with AutoShape. Read/write int. |
 | [getTextSelectionStart](gettextselectionstart)() | Gets or sets starting position of text selection in text frame if the comment associated with AutoShape. Read/write int. |
-| [setStatus](setstatus)(OrderedDictionary) | Gets or sets the status of the comment. Read/write ModernCommentStatus. |
-| [setStatus](setstatus)(Hashtable) | Gets or sets the status of the comment. Read/write ModernCommentStatus. |
-| [setStatus](setstatus)(LinkedList) | Gets or sets the status of the comment. Read/write ModernCommentStatus. |
+| [setStatus](setstatus)(byte) | Gets or sets the status of the comment. Read/write ModernCommentStatus. |
 | [setTextSelectionLength](settextselectionlength)(int) | Gets or sets text selection length in text frame if the comment associated with AutoShape. Read/write int. |
 | [setTextSelectionStart](settextselectionstart)(int) | Gets or sets starting position of text selection in text frame if the comment associated with AutoShape. Read/write int. |

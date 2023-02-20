@@ -14,7 +14,7 @@ url: /php-java/aspose.slides/cell/gettextanchortype/
  
 
 ### Returns
-OrderedDictionary, Hashtable, LinkedList
+byte
 
 
 ---
