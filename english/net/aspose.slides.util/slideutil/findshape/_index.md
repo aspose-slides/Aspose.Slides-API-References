@@ -3,7 +3,7 @@ title: FindShape
 second_title: Aspose.Sildes for .NET API Reference
 description: Find shape by alternative text in a PPTX presentation.
 type: docs
-weight: 20
+weight: 30
 url: /net/aspose.slides.util/slideutil/findshape/
 ---
 ## FindShape(IPresentation, string) {#findshape_1}
