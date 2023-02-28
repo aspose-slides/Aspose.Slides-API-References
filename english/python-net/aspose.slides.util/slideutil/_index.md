@@ -22,6 +22,7 @@ The SlideUtil type exposes the following members:
 |align_shapes(alignment_type, align_to_slide, slide, shape_indexes)|Changes the placement of selected shapes on the slide. Aligns shapes to the margins or the edge of the slide<br/>             or align them relative to each other.|
 |align_shapes(alignment_type, align_to_slide, group_shape)|Changes the placement of all shapes within group shape. Aligns shapes to the margins or the edge of the slide<br/>            or align them relative to each other.|
 |align_shapes(alignment_type, align_to_slide, group_shape, shape_indexes)|Changes the placement of selected shapes within group shape. Aligns shapes to the margins or the edge of the slide<br/>            or align them relative to each other.|
+|find_and_replace_text(presentation, with_masters, find, replace, format)|Finds and replaces text in presentation with given format|
 |get_all_text_boxes(slide)|Returns all text frames on a slide in a PPTX presentation.|
 |get_all_text_frames(pres, with_masters)|Returns all text frames in a PPTX presentation.|
 

@@ -56,7 +56,7 @@ Contains classes for exporting Microsoft PowerPoint presentations to different f
 |[PdfOptions](/slides/python-net/aspose.slides.export/pdfoptions/)|Provides options that control how a presentation is saved in Pdf format.|
 |[PptOptions](/slides/python-net/aspose.slides.export/pptoptions/)|Provides options that control how a presentation is saved in PPT format.|
 |[PptxOptions](/slides/python-net/aspose.slides.export/pptxoptions/)|Represents options for saving OpenXml presentations (PPTX, PPSX, POTX, PPTM, PPSM, POTM).|
-|[PresentationAnimationsGenerator](/slides/python-net/aspose.slides.export/presentationanimationsgenerator/)||
+|[PresentationAnimationsGenerator](/slides/python-net/aspose.slides.export/presentationanimationsgenerator/)|Represents a generator of the animations in the [Presentation](/slides/python-net/aspose.slides/presentation/).|
 |[PresentationPlayer](/slides/python-net/aspose.slides.export/presentationplayer/)|Represents the player of animations associated with the [Presentation](/slides/python-net/aspose.slides/presentation/).|
 |[RenderingOptions](/slides/python-net/aspose.slides.export/renderingoptions/)|Provides options that control how a presentation/slide is rendered.|
 |[ResponsiveHtmlController](/slides/python-net/aspose.slides.export/responsivehtmlcontroller/)|Responsive HTML Controller|
