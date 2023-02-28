@@ -9,7 +9,7 @@ url: /python-net/aspose.slides.export.web/input/
 
 ## Input class
 
-Represents a collection of input elements (templates) for IWebDocument.
+Represents a collection of input elements (templates).
 
 The Input type exposes the following members:
 

@@ -24,7 +24,7 @@ The WebDocument type exposes the following members:
 ## Methods
 | Name | Description |
 | :- | :- |
-|save()|  |
+|save()|Saves the document output.|
 
 ### See Also
 

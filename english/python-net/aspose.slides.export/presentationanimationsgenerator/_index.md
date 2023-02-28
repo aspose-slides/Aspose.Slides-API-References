@@ -9,7 +9,7 @@ url: /python-net/aspose.slides.export/presentationanimationsgenerator/
 
 ## PresentationAnimationsGenerator class
 
-
+Represents a generator of the animations in the [Presentation](/slides/python-net/aspose.slides/presentation/).
 
 The PresentationAnimationsGenerator type exposes the following members:
 ## Constructors

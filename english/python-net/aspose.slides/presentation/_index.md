@@ -60,7 +60,7 @@ The Presentation type exposes the following members:
 | :- | :- |
 |save(fname, format)|Saves all slides of a presentation to a file with the specified format.|
 |save(stream, format)|Saves all slides of a presentation to a stream in the specified format.|
-|save(fname, format, options)|Saves all slides of a presentation to a file with the specified format and with additional options.|
+|save(fname, format, options)|Saves specified slides of a presentation to a file with the specified format with page number keeping.|
 |save(stream, format, options)|Saves all slides of a presentation to a stream in the specified format and with additional options.|
 |save(options)|Saves all slides of a presentation to a set of files representing XAML markup.|
 |save(fname, slides, format)|Saves specified slides of a presentation to a file with the specified format with page number keeping.|
