@@ -58,6 +58,8 @@ public class VideoFrame : PictureFrame, IVideoFrame
 | override [ShapeType](../../aspose.slides/pictureframe/shapetype) { get; set; } | Returns or sets the AutoShape type for a PictureFrame. There are allowable all items of the set [`ShapeType`](../shapetype), except all sorts of lines: |
 | [Slide](../../aspose.slides/shape/slide) { get; } | Returns the parent slide of a shape. Read-only [`IBaseSlide`](../ibaseslide). |
 | virtual [ThreeDFormat](../../aspose.slides/shape/threedformat) { get; } | Returns the ThreeDFormat object that 3d effect properties for a shape. Note: can return null for certain types of shapes which don't have 3d properties. Read-only [`IThreeDFormat`](../ithreedformat). |
+| [TrimFromEnd](../../aspose.slides/videoframe/trimfromend) { get; set; } | Trim end [ms] |
+| [TrimFromStart](../../aspose.slides/videoframe/trimfromstart) { get; set; } | Trim start [ms] |
 | [UniqueId](../../aspose.slides/shape/uniqueid) { get; } | Gets unique shape identifier in presentation scope. Read-only UInt32. See also [`OfficeInteropShapeId`](../shape/officeinteropshapeid) for getting unique shape identifier in slide scope. |
 | [Volume](../../aspose.slides/videoframe/volume) { get; set; } | Returns or sets the audio volume. Read/write [`AudioVolumeMode`](../audiovolumemode). |
 | [Width](../../aspose.slides/shape/width) { get; set; } | Returns or sets the width of the shape. Read/write Single. |

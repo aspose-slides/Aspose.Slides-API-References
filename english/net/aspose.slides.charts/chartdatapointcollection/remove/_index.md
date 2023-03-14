@@ -18,12 +18,6 @@ public void Remove(IChartDataPoint value)
 | --- | --- | --- |
 | value | IChartDataPoint | The value. |
 
-### Exceptions
-
-| exception | condition |
-| --- | --- |
-| ArgumentException | The value parameter was not found in the collection. |
-
 ### See Also
 
 * interface [IChartDataPoint](../../ichartdatapoint)

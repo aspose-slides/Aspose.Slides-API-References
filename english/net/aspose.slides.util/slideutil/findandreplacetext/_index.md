@@ -12,7 +12,7 @@ Finds and replaces text in presentation with given format
 
 ```csharp
 public static void FindAndReplaceText(IPresentation presentation, bool withMasters, string find, 
-    string replace, PortionFormat format)
+    string replace, PortionFormat format = null)
 ```
 
 | Parameter | Type | Description |
@@ -21,7 +21,7 @@ public static void FindAndReplaceText(IPresentation presentation, bool withMaste
 | withMasters | Boolean | Determines whether master slides should be scanned. |
 | find | String | String value to find. |
 | replace | String | String value to replace. |
-| format | PortionFormat | Format for replacing text portion. |
+| format | PortionFormat | Format for replacing text portion. If null then will be used format of the first character of the found string |
 
 ### Examples
 

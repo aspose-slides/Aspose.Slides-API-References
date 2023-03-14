@@ -3,7 +3,7 @@ title: GetAutomaticDataPointColor
 second_title: Aspose.Sildes for .NET API Reference
 description: Returns an automatic color of data point based on series index data point index ParentSeriesGroup.IsColorVaried propery and chart style. This color is used by default if FillType equals NotDefined.
 type: docs
-weight: 210
+weight: 220
 url: /net/aspose.slides.charts/chartdatapoint/getautomaticdatapointcolor/
 ---
 ## ChartDataPoint.GetAutomaticDataPointColor method

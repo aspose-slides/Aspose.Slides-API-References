@@ -43,6 +43,13 @@ public void Remove(int dataPointIndex)
 | --- | --- | --- |
 | dataPointIndex | Int32 | Index of data point in parent series points collection. |
 
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ArgumentException | Point with the given index was not found. |
+| ArgumentOutOfRangeException | *dataPointIndex* is negative. |
+
 ### See Also
 
 * class [PieSplitCustomPointCollection](../../piesplitcustompointcollection)

@@ -19,11 +19,11 @@ public interface IChartDataPointCollection : IGenericCollection<IChartDataPoint>
 | Name | Description |
 | --- | --- |
 | [DataSourceTypeForBubbleSizes](../../aspose.slides.charts/ichartdatapointcollection/datasourcetypeforbubblesizes) { get; set; } | Specifies whether AsCell or AsLiteralString or AsLiteralDouble property is actual in data points BubbleSize property object. In other words it specifies the type of value of ChartDataPointEx.BubbleSize.Data property. Read/write [`DataSourceType`](../datasourcetype). |
-| [DataSourceTypeForErrorBarsCustomValues](../../aspose.slides.charts/ichartdatapointcollection/datasourcetypeforerrorbarscustomvalues) { get; } | Specifies the type of values in ChartDataPoint.ErrorBarsCustomValues properties listþ Read-only [`IDataSourceTypeForErrorBarsCustomValues`](../idatasourcetypeforerrorbarscustomvalues). |
+| [DataSourceTypeForErrorBarsCustomValues](../../aspose.slides.charts/ichartdatapointcollection/datasourcetypeforerrorbarscustomvalues) { get; } | Specifies the type of values in ChartDataPoint.ErrorBarsCustomValues properties list. Read-only [`IDataSourceTypeForErrorBarsCustomValues`](../idatasourcetypeforerrorbarscustomvalues). |
 | [DataSourceTypeForValues](../../aspose.slides.charts/ichartdatapointcollection/datasourcetypeforvalues) { get; set; } | Specifies whether AsCell or AsLiteralString or AsLiteralDouble property is actual in data points Value property object. In other words it specifies the type of value of ChartDataPoint.Value.Data property. Read/write [`DataSourceType`](../datasourcetype). |
 | [DataSourceTypeForXValues](../../aspose.slides.charts/ichartdatapointcollection/datasourcetypeforxvalues) { get; set; } | Specifies whether AsCell or AsLiteralString or AsLiteralDouble property is actual in data points XValue property object. In other words it specifies the type of value of ChartDataPointEx.XValue.Data property. Read/write [`DataSourceType`](../datasourcetype). |
 | [DataSourceTypeForYValues](../../aspose.slides.charts/ichartdatapointcollection/datasourcetypeforyvalues) { get; set; } | Specifies whether AsCell or AsLiteralString or AsLiteralDouble property is actual in data points YValue property object. In other words it specifies the type of value of ChartDataPointEx.YValue.Data property. Read/write [`DataSourceType`](../datasourcetype). |
-| [Item](../../aspose.slides.charts/ichartdatapointcollection/item) { get; } | Returns the series data point by index. (2 indexers) |
+| [Item](../../aspose.slides.charts/ichartdatapointcollection/item) { get; } | Returns the series data point by index (its serial number in this collection). (2 indexers) |
 
 ## Methods
 

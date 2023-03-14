@@ -3,7 +3,7 @@ title: XValue
 second_title: Aspose.Sildes for .NET API Reference
 description: XValue. Read-only IStringOrDoubleChartValueaspose.slides.charts/istringordoublechartvalue.
 type: docs
-weight: 190
+weight: 200
 url: /net/aspose.slides.charts/chartdatapoint/xvalue/
 ---
 ## ChartDataPoint.XValue property

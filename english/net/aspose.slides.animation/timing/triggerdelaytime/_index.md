@@ -3,7 +3,7 @@ title: TriggerDelayTime
 second_title: Aspose.Sildes for .NET API Reference
 description: Describes delay time after trigger. Read/write Single.
 type: docs
-weight: 110
+weight: 120
 url: /net/aspose.slides.animation/timing/triggerdelaytime/
 ---
 ## Timing.TriggerDelayTime property

@@ -1,17 +1,15 @@
 ---
-title: SetAsTotal
+title: Index
 second_title: Aspose.Sildes for .NET API Reference
-description: Sets data point as total. Applied for Waterfall series type only.
+description: 
 type: docs
-weight: 170
-url: /net/aspose.slides.charts/chartdatapoint/setastotal/
+weight: 110
+url: /net/aspose.slides.charts/chartdatapoint/index/
 ---
-## ChartDataPoint.SetAsTotal property
-
-Sets data point as total. Applied for Waterfall series type only.
+## ChartDataPoint.Index property
 
 ```csharp
-public bool SetAsTotal { get; set; }
+public uint Index { get; }
 ```
 
 ### See Also

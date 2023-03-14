@@ -28,6 +28,7 @@ public class ChartDataPoint : IChartDataPoint
 | [ErrorBarsCustomValues](../../aspose.slides.charts/chartdatapoint/errorbarscustomvalues) { get; } | Represents series error bars values in case of Custom value type. Read-only [`IErrorBarsCustomValues`](../ierrorbarscustomvalues). |
 | [Explosion](../../aspose.slides.charts/chartdatapoint/explosion) { get; set; } | Specifies the amount the data point shall be moved from the center of the pie. Read/write Int32. |
 | [Format](../../aspose.slides.charts/chartdatapoint/format) { get; set; } | Represents the formatting properties. Read/write [`IFormat`](../iformat). |
+| [Index](../../aspose.slides.charts/chartdatapoint/index) { get; } |  |
 | [InvertIfNegative](../../aspose.slides.charts/chartdatapoint/invertifnegative) { get; set; } | Specifies the data point shall invert its colors if the value is negative. Read/write Boolean. |
 | [IsBubble3D](../../aspose.slides.charts/chartdatapoint/isbubble3d) { get; set; } | Specifies that the bubbles have a 3-D effect applied to them. Read/write Boolean. |
 | [Label](../../aspose.slides.charts/chartdatapoint/label) { get; } | Label. Read-only [`IDataLabel`](../idatalabel). |

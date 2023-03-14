@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Sildes for .NET API Reference
-description: Returns the series data point by index.
+description: Returns the series data point by index its serial number in this collection.
 type: docs
 weight: 80
 url: /net/aspose.slides.charts/chartdatapointcollection/item/
 ---
 ## ChartDataPointCollection indexer (1 of 2)
 
-Returns the series data point by index.
+Returns the series data point by index (its serial number in this collection).
 
 ```csharp
 public IChartDataPoint this[int index] { get; }
@@ -25,7 +25,7 @@ public IChartDataPoint this[int index] { get; }
 
 ## ChartDataPointCollection indexer (2 of 2)
 
-Return index of data point in this collection.
+Return index (serial number) of data point in this collection.
 
 ```csharp
 public int this[IChartDataPoint pt] { get; }

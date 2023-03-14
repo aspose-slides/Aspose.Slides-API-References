@@ -3,7 +3,7 @@ title: YValue
 second_title: Aspose.Sildes for .NET API Reference
 description: Returns the y value of chart data point. Read-only IDoubleChartValueaspose.slides.charts/idoublechartvalue.
 type: docs
-weight: 170
+weight: 180
 url: /net/aspose.slides.charts/ichartdatapoint/yvalue/
 ---
 ## IChartDataPoint.YValue property

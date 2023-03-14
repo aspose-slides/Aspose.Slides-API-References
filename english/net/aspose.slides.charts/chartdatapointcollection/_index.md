@@ -25,7 +25,7 @@ public class ChartDataPointCollection : DomObject<ChartSeries>, IChartDataPointC
 | [DataSourceTypeForXValues](../../aspose.slides.charts/chartdatapointcollection/datasourcetypeforxvalues) { get; set; } | Specifies whether AsCell or AsLiteralString or AsLiteralDouble property is actual in data points XValue property object. In other words it specifies the type of value of ChartDataPoint.XValue.Data property. Read/write [`DataSourceType`](../datasourcetype). |
 | [DataSourceTypeForYValues](../../aspose.slides.charts/chartdatapointcollection/datasourcetypeforyvalues) { get; set; } | Specifies whether AsCell or AsLiteralString or AsLiteralDouble property is actual in data points YValue property object. In other words it specifies the type of value of ChartDataPoint.YValue.Data property. Read/write [`DataSourceType`](../datasourcetype). |
 | [IsSynchronized](../../aspose.slides.charts/chartdatapointcollection/issynchronized) { get; } | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only Boolean. |
-| [Item](../../aspose.slides.charts/chartdatapointcollection/item) { get; } | Returns the series data point by index. (2 indexers) |
+| [Item](../../aspose.slides.charts/chartdatapointcollection/item) { get; } | Returns the series data point by index (its serial number in this collection). (2 indexers) |
 | [SyncRoot](../../aspose.slides.charts/chartdatapointcollection/syncroot) { get; } | Returns a synchronization root. Read-only Object. |
 
 ## Methods

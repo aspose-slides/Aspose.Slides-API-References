@@ -3,7 +3,7 @@ title: Value
 second_title: Aspose.Sildes for .NET API Reference
 description: Value. Read-only IDoubleChartValueaspose.slides.charts/idoublechartvalue.
 type: docs
-weight: 180
+weight: 190
 url: /net/aspose.slides.charts/chartdatapoint/value/
 ---
 ## ChartDataPoint.Value property

@@ -26,6 +26,8 @@ public interface IVideoFrame : IPictureFrame
 | [PlayLoopMode](../../aspose.slides/ivideoframe/playloopmode) { get; set; } | Determines whether a video is looped. Read/write Boolean. |
 | [PlayMode](../../aspose.slides/ivideoframe/playmode) { get; set; } | Returns or sets the video play mode. Read/write [`VideoPlayModePreset`](../videoplaymodepreset). |
 | [RewindVideo](../../aspose.slides/ivideoframe/rewindvideo) { get; set; } | Determines whether a video is automatically rewinded to start as soon as the movie has finished playing. Read/write Boolean. |
+| [TrimFromEnd](../../aspose.slides/ivideoframe/trimfromend) { get; set; } | Trim end [ms] |
+| [TrimFromStart](../../aspose.slides/ivideoframe/trimfromstart) { get; set; } | Trim start [ms] |
 | [Volume](../../aspose.slides/ivideoframe/volume) { get; set; } | Returns or sets the audio volume. Read/write [`AudioVolumeMode`](../audiovolumemode). |
 
 ### See Also

@@ -27,6 +27,7 @@ public interface ITiming
 | [RepeatUntilEndSlide](../../aspose.slides.animation/itiming/repeatuntilendslide) { get; set; } | This attribute specifies if the effect will repeat until the end of the slide. Read/write Boolean. |
 | [RepeatUntilNextClick](../../aspose.slides.animation/itiming/repeatuntilnextclick) { get; set; } | This attribute specifies if the effect will repeat until the next click. Read/write Boolean. |
 | [Restart](../../aspose.slides.animation/itiming/restart) { get; set; } | Specifies if a effect is to restart after complete. Read/write [`EffectRestartType`](../effectrestarttype). |
+| [Rewind](../../aspose.slides.animation/itiming/rewind) { get; set; } | This attribute specifies if the effect will rewind when done playing. Read/write Boolean. |
 | [Speed](../../aspose.slides.animation/itiming/speed) { get; set; } | Specifies the percentage by which to speed up (or slow down) the timing. Read/write Single. |
 | [TriggerDelayTime](../../aspose.slides.animation/itiming/triggerdelaytime) { get; set; } | Describes delay time after trigger. Read/write Single. |
 | [TriggerType](../../aspose.slides.animation/itiming/triggertype) { get; set; } | Describes trigger type. Read/write [`EffectTriggerType`](../effecttriggertype). |

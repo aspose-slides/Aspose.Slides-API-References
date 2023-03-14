@@ -3,7 +3,7 @@ title: Value
 second_title: Aspose.Sildes for .NET API Reference
 description: Returns the value of chart data point. Read-only IDoubleChartValueaspose.slides.charts/idoublechartvalue.
 type: docs
-weight: 150
+weight: 160
 url: /net/aspose.slides.charts/ichartdatapoint/value/
 ---
 ## IChartDataPoint.Value property
