@@ -112,21 +112,6 @@ url: /php-java/aspose.slides/mathbar/mathbar/
 ---
 
 
-## MathBar([MathAccent](../../mathaccent) element)  constructor
-
- Initializes MathBar with overbar (Top position)
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathAccent](../../mathaccent) | The base element to which the bar is applied |
-
-
----
-
-
 ## MathBar([MathNaryOperator](../../mathnaryoperator) element)  constructor
 
  Initializes MathBar with overbar (Top position)
@@ -137,6 +122,21 @@ url: /php-java/aspose.slides/mathbar/mathbar/
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathNaryOperator](../../mathnaryoperator) | The base element to which the bar is applied |
+
+
+---
+
+
+## MathBar([MathAccent](../../mathaccent) element)  constructor
+
+ Initializes MathBar with overbar (Top position)
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathAccent](../../mathaccent) | The base element to which the bar is applied |
 
 
 ---
@@ -187,6 +187,21 @@ url: /php-java/aspose.slides/mathbar/mathbar/
 ---
 
 
+## MathBar([MathFunction](../../mathfunction) element)  constructor
+
+ Initializes MathBar with overbar (Top position)
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathFunction](../../mathfunction) | The base element to which the bar is applied |
+
+
+---
+
+
 ## MathBar([MathSuperscriptElement](../../mathsuperscriptelement) element)  constructor
 
  Initializes MathBar with overbar (Top position)
@@ -217,7 +232,7 @@ url: /php-java/aspose.slides/mathbar/mathbar/
 ---
 
 
-## MathBar([MathFunction](../../mathfunction) element)  constructor
+## MathBar([MathematicalText](../../mathematicaltext) element)  constructor
 
  Initializes MathBar with overbar (Top position)
  
@@ -226,7 +241,7 @@ url: /php-java/aspose.slides/mathbar/mathbar/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathFunction](../../mathfunction) | The base element to which the bar is applied |
+| element | [MathematicalText](../../mathematicaltext) | The base element to which the bar is applied |
 
 
 ---
@@ -242,21 +257,6 @@ url: /php-java/aspose.slides/mathbar/mathbar/
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathFraction](../../mathfraction) | The base element to which the bar is applied |
-
-
----
-
-
-## MathBar([MathematicalText](../../mathematicaltext) element)  constructor
-
- Initializes MathBar with overbar (Top position)
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathematicalText](../../mathematicaltext) | The base element to which the bar is applied |
 
 
 ---
@@ -404,22 +404,6 @@ url: /php-java/aspose.slides/mathbar/mathbar/
 ---
 
 
-## MathBar([MathAccent](../../mathaccent) element, int position)  constructor
-
- Initializes MathBar with specified position
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathAccent](../mathaccent) | The base element to which the bar is applied |
-| position | int | Position of the bar line. |
-
-
----
-
-
 ## MathBar([MathNaryOperator](../../mathnaryoperator) element, int position)  constructor
 
  Initializes MathBar with specified position
@@ -430,6 +414,22 @@ url: /php-java/aspose.slides/mathbar/mathbar/
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathNaryOperator](../mathnaryoperator) | The base element to which the bar is applied |
+| position | int | Position of the bar line. |
+
+
+---
+
+
+## MathBar([MathAccent](../../mathaccent) element, int position)  constructor
+
+ Initializes MathBar with specified position
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathAccent](../mathaccent) | The base element to which the bar is applied |
 | position | int | Position of the bar line. |
 
 
@@ -484,6 +484,22 @@ url: /php-java/aspose.slides/mathbar/mathbar/
 ---
 
 
+## MathBar([MathFunction](../../mathfunction) element, int position)  constructor
+
+ Initializes MathBar with specified position
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathFunction](../mathfunction) | The base element to which the bar is applied |
+| position | int | Position of the bar line. |
+
+
+---
+
+
 ## MathBar([MathSuperscriptElement](../../mathsuperscriptelement) element, int position)  constructor
 
  Initializes MathBar with specified position
@@ -516,7 +532,7 @@ url: /php-java/aspose.slides/mathbar/mathbar/
 ---
 
 
-## MathBar([MathFunction](../../mathfunction) element, int position)  constructor
+## MathBar([MathematicalText](../../mathematicaltext) element, int position)  constructor
 
  Initializes MathBar with specified position
  
@@ -525,7 +541,7 @@ url: /php-java/aspose.slides/mathbar/mathbar/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathFunction](../mathfunction) | The base element to which the bar is applied |
+| element | [MathematicalText](../mathematicaltext) | The base element to which the bar is applied |
 | position | int | Position of the bar line. |
 
 
@@ -542,22 +558,6 @@ url: /php-java/aspose.slides/mathbar/mathbar/
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathFraction](../mathfraction) | The base element to which the bar is applied |
-| position | int | Position of the bar line. |
-
-
----
-
-
-## MathBar([MathematicalText](../../mathematicaltext) element, int position)  constructor
-
- Initializes MathBar with specified position
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathematicalText](../mathematicaltext) | The base element to which the bar is applied |
 | position | int | Position of the bar line. |
 
 

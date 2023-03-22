@@ -27,6 +27,7 @@ url: /php-java/aspose.slides/chartdatapoint/
 | [getErrorBarsCustomValues](geterrorbarscustomvalues)() | Represents series error bars values in case of Custom value type. Read-only IErrorBarsCustomValues. |
 | [getExplosion](getexplosion)() | Specifies the amount the data point shall be moved from the center of the pie. Read/write int. |
 | [getFormat](getformat)() | Represents the formatting properties. Read/write IFormat. |
+| [getIndex](getindex)() | Determines which of the parent's children collection this data point applies to. Read long. |
 | [getInvertIfNegative](getinvertifnegative)() | Specifies the data point shall invert its colors if the value is negative. Read/write boolean. |
 | [getLabel](getlabel)() | Label. Read-only IDataLabel. |
 | [getMarker](getmarker)() | Specifies a data marker. Read-only IMarker. |

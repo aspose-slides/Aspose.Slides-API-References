@@ -23,6 +23,8 @@ url: /php-java/aspose.slides/videoframe/
 | [getPlayLoopMode](getplayloopmode)() | Determines whether a video is looped. Read/write boolean. |
 | [getPlayMode](getplaymode)() | Returns or sets the video play mode. Read/write VideoPlayModePreset. |
 | [getRewindVideo](getrewindvideo)() | Determines whether a video is automatically rewinded to start as soon as the movie has finished playing. Read/write boolean. |
+| [getTrimFromEnd](gettrimfromend)() | Trim end [ms] |
+| [getTrimFromStart](gettrimfromstart)() | Trim start [ms] |
 | [getVolume](getvolume)() | Returns or sets the audio volume. Read/write AudioVolumeMode. |
 | [setEmbeddedVideo](setembeddedvideo)([Video](../video)) | Returns or sets embedded video object. Read/write IVideo. |
 | [setFullScreenMode](setfullscreenmode)(boolean) | Determines whether a video is shown in full screen mode. Read/write boolean. |
@@ -31,4 +33,6 @@ url: /php-java/aspose.slides/videoframe/
 | [setPlayLoopMode](setplayloopmode)(boolean) | Determines whether a video is looped. Read/write boolean. |
 | [setPlayMode](setplaymode)(int) | Returns or sets the video play mode. Read/write VideoPlayModePreset. |
 | [setRewindVideo](setrewindvideo)(boolean) | Determines whether a video is automatically rewinded to start as soon as the movie has finished playing. Read/write boolean. |
+| [setTrimFromEnd](settrimfromend)(float) | Trim end [ms] |
+| [setTrimFromStart](settrimfromstart)(float) | Trim start [ms] |
 | [setVolume](setvolume)(int) | Returns or sets the audio volume. Read/write AudioVolumeMode. |

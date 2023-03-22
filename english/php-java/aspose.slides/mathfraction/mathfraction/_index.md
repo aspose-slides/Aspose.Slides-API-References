@@ -126,23 +126,6 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 ---
 
 
-## MathFraction([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) numerator, [MathAccent](../../mathaccent) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Numerator |
-| denominator | [MathAccent](../mathaccent) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
 ## MathFraction([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) numerator, [MathNaryOperator](../../mathnaryoperator) denominator, int fractionType)  constructor
 
  Initializes MathFraction with the specified numerator, denominator and type
@@ -154,6 +137,23 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 | --- | --- | --- |
 | numerator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Numerator |
 | denominator | [MathNaryOperator](../mathnaryoperator) | Denominator |
+| fractionType | int | Fraction type |
+
+
+---
+
+
+## MathFraction([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) numerator, [MathAccent](../../mathaccent) denominator, int fractionType)  constructor
+
+ Initializes MathFraction with the specified numerator, denominator and type
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Numerator |
+| denominator | [MathAccent](../mathaccent) | Denominator |
 | fractionType | int | Fraction type |
 
 
@@ -211,6 +211,23 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 ---
 
 
+## MathFraction([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) numerator, [MathFunction](../../mathfunction) denominator, int fractionType)  constructor
+
+ Initializes MathFraction with the specified numerator, denominator and type
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Numerator |
+| denominator | [MathFunction](../mathfunction) | Denominator |
+| fractionType | int | Fraction type |
+
+
+---
+
+
 ## MathFraction([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) numerator, [MathSuperscriptElement](../../mathsuperscriptelement) denominator, int fractionType)  constructor
 
  Initializes MathFraction with the specified numerator, denominator and type
@@ -245,7 +262,7 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 ---
 
 
-## MathFraction([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) numerator, [MathFunction](../../mathfunction) denominator, int fractionType)  constructor
+## MathFraction([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) numerator, [MathematicalText](../../mathematicaltext) denominator, int fractionType)  constructor
 
  Initializes MathFraction with the specified numerator, denominator and type
  
@@ -255,7 +272,7 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 | Name | Type | Description |
 | --- | --- | --- |
 | numerator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Numerator |
-| denominator | [MathFunction](../mathfunction) | Denominator |
+| denominator | [MathematicalText](../mathematicaltext) | Denominator |
 | fractionType | int | Fraction type |
 
 
@@ -273,23 +290,6 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 | --- | --- | --- |
 | numerator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Numerator |
 | denominator | [MathFraction](../mathfraction) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) numerator, [MathematicalText](../../mathematicaltext) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Numerator |
-| denominator | [MathematicalText](../mathematicaltext) | Denominator |
 | fractionType | int | Fraction type |
 
 
@@ -449,23 +449,6 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 ---
 
 
-## MathFraction([MathMatrix](../../mathmatrix) numerator, [MathAccent](../../mathaccent) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathMatrix](../mathmatrix) | Numerator |
-| denominator | [MathAccent](../mathaccent) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
 ## MathFraction([MathMatrix](../../mathmatrix) numerator, [MathNaryOperator](../../mathnaryoperator) denominator, int fractionType)  constructor
 
  Initializes MathFraction with the specified numerator, denominator and type
@@ -477,6 +460,23 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 | --- | --- | --- |
 | numerator | [MathMatrix](../mathmatrix) | Numerator |
 | denominator | [MathNaryOperator](../mathnaryoperator) | Denominator |
+| fractionType | int | Fraction type |
+
+
+---
+
+
+## MathFraction([MathMatrix](../../mathmatrix) numerator, [MathAccent](../../mathaccent) denominator, int fractionType)  constructor
+
+ Initializes MathFraction with the specified numerator, denominator and type
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathMatrix](../mathmatrix) | Numerator |
+| denominator | [MathAccent](../mathaccent) | Denominator |
 | fractionType | int | Fraction type |
 
 
@@ -534,6 +534,23 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 ---
 
 
+## MathFraction([MathMatrix](../../mathmatrix) numerator, [MathFunction](../../mathfunction) denominator, int fractionType)  constructor
+
+ Initializes MathFraction with the specified numerator, denominator and type
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathMatrix](../mathmatrix) | Numerator |
+| denominator | [MathFunction](../mathfunction) | Denominator |
+| fractionType | int | Fraction type |
+
+
+---
+
+
 ## MathFraction([MathMatrix](../../mathmatrix) numerator, [MathSuperscriptElement](../../mathsuperscriptelement) denominator, int fractionType)  constructor
 
  Initializes MathFraction with the specified numerator, denominator and type
@@ -568,7 +585,7 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 ---
 
 
-## MathFraction([MathMatrix](../../mathmatrix) numerator, [MathFunction](../../mathfunction) denominator, int fractionType)  constructor
+## MathFraction([MathMatrix](../../mathmatrix) numerator, [MathematicalText](../../mathematicaltext) denominator, int fractionType)  constructor
 
  Initializes MathFraction with the specified numerator, denominator and type
  
@@ -578,7 +595,7 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 | Name | Type | Description |
 | --- | --- | --- |
 | numerator | [MathMatrix](../mathmatrix) | Numerator |
-| denominator | [MathFunction](../mathfunction) | Denominator |
+| denominator | [MathematicalText](../mathematicaltext) | Denominator |
 | fractionType | int | Fraction type |
 
 
@@ -596,23 +613,6 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 | --- | --- | --- |
 | numerator | [MathMatrix](../mathmatrix) | Numerator |
 | denominator | [MathFraction](../mathfraction) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([MathMatrix](../../mathmatrix) numerator, [MathematicalText](../../mathematicaltext) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathMatrix](../mathmatrix) | Numerator |
-| denominator | [MathematicalText](../mathematicaltext) | Denominator |
 | fractionType | int | Fraction type |
 
 
@@ -772,23 +772,6 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 ---
 
 
-## MathFraction([MathLimit](../../mathlimit) numerator, [MathAccent](../../mathaccent) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathLimit](../mathlimit) | Numerator |
-| denominator | [MathAccent](../mathaccent) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
 ## MathFraction([MathLimit](../../mathlimit) numerator, [MathNaryOperator](../../mathnaryoperator) denominator, int fractionType)  constructor
 
  Initializes MathFraction with the specified numerator, denominator and type
@@ -800,6 +783,23 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 | --- | --- | --- |
 | numerator | [MathLimit](../mathlimit) | Numerator |
 | denominator | [MathNaryOperator](../mathnaryoperator) | Denominator |
+| fractionType | int | Fraction type |
+
+
+---
+
+
+## MathFraction([MathLimit](../../mathlimit) numerator, [MathAccent](../../mathaccent) denominator, int fractionType)  constructor
+
+ Initializes MathFraction with the specified numerator, denominator and type
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathLimit](../mathlimit) | Numerator |
+| denominator | [MathAccent](../mathaccent) | Denominator |
 | fractionType | int | Fraction type |
 
 
@@ -857,6 +857,23 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 ---
 
 
+## MathFraction([MathLimit](../../mathlimit) numerator, [MathFunction](../../mathfunction) denominator, int fractionType)  constructor
+
+ Initializes MathFraction with the specified numerator, denominator and type
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathLimit](../mathlimit) | Numerator |
+| denominator | [MathFunction](../mathfunction) | Denominator |
+| fractionType | int | Fraction type |
+
+
+---
+
+
 ## MathFraction([MathLimit](../../mathlimit) numerator, [MathSuperscriptElement](../../mathsuperscriptelement) denominator, int fractionType)  constructor
 
  Initializes MathFraction with the specified numerator, denominator and type
@@ -891,7 +908,7 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 ---
 
 
-## MathFraction([MathLimit](../../mathlimit) numerator, [MathFunction](../../mathfunction) denominator, int fractionType)  constructor
+## MathFraction([MathLimit](../../mathlimit) numerator, [MathematicalText](../../mathematicaltext) denominator, int fractionType)  constructor
 
  Initializes MathFraction with the specified numerator, denominator and type
  
@@ -901,7 +918,7 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 | Name | Type | Description |
 | --- | --- | --- |
 | numerator | [MathLimit](../mathlimit) | Numerator |
-| denominator | [MathFunction](../mathfunction) | Denominator |
+| denominator | [MathematicalText](../mathematicaltext) | Denominator |
 | fractionType | int | Fraction type |
 
 
@@ -919,23 +936,6 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 | --- | --- | --- |
 | numerator | [MathLimit](../mathlimit) | Numerator |
 | denominator | [MathFraction](../mathfraction) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([MathLimit](../../mathlimit) numerator, [MathematicalText](../../mathematicaltext) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathLimit](../mathlimit) | Numerator |
-| denominator | [MathematicalText](../mathematicaltext) | Denominator |
 | fractionType | int | Fraction type |
 
 
@@ -1095,23 +1095,6 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 ---
 
 
-## MathFraction([MathBlock](../../mathblock) numerator, [MathAccent](../../mathaccent) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathBlock](../mathblock) | Numerator |
-| denominator | [MathAccent](../mathaccent) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
 ## MathFraction([MathBlock](../../mathblock) numerator, [MathNaryOperator](../../mathnaryoperator) denominator, int fractionType)  constructor
 
  Initializes MathFraction with the specified numerator, denominator and type
@@ -1123,6 +1106,23 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 | --- | --- | --- |
 | numerator | [MathBlock](../mathblock) | Numerator |
 | denominator | [MathNaryOperator](../mathnaryoperator) | Denominator |
+| fractionType | int | Fraction type |
+
+
+---
+
+
+## MathFraction([MathBlock](../../mathblock) numerator, [MathAccent](../../mathaccent) denominator, int fractionType)  constructor
+
+ Initializes MathFraction with the specified numerator, denominator and type
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathBlock](../mathblock) | Numerator |
+| denominator | [MathAccent](../mathaccent) | Denominator |
 | fractionType | int | Fraction type |
 
 
@@ -1180,6 +1180,23 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 ---
 
 
+## MathFraction([MathBlock](../../mathblock) numerator, [MathFunction](../../mathfunction) denominator, int fractionType)  constructor
+
+ Initializes MathFraction with the specified numerator, denominator and type
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathBlock](../mathblock) | Numerator |
+| denominator | [MathFunction](../mathfunction) | Denominator |
+| fractionType | int | Fraction type |
+
+
+---
+
+
 ## MathFraction([MathBlock](../../mathblock) numerator, [MathSuperscriptElement](../../mathsuperscriptelement) denominator, int fractionType)  constructor
 
  Initializes MathFraction with the specified numerator, denominator and type
@@ -1214,7 +1231,7 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 ---
 
 
-## MathFraction([MathBlock](../../mathblock) numerator, [MathFunction](../../mathfunction) denominator, int fractionType)  constructor
+## MathFraction([MathBlock](../../mathblock) numerator, [MathematicalText](../../mathematicaltext) denominator, int fractionType)  constructor
 
  Initializes MathFraction with the specified numerator, denominator and type
  
@@ -1224,7 +1241,7 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 | Name | Type | Description |
 | --- | --- | --- |
 | numerator | [MathBlock](../mathblock) | Numerator |
-| denominator | [MathFunction](../mathfunction) | Denominator |
+| denominator | [MathematicalText](../mathematicaltext) | Denominator |
 | fractionType | int | Fraction type |
 
 
@@ -1242,23 +1259,6 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 | --- | --- | --- |
 | numerator | [MathBlock](../mathblock) | Numerator |
 | denominator | [MathFraction](../mathfraction) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([MathBlock](../../mathblock) numerator, [MathematicalText](../../mathematicaltext) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathBlock](../mathblock) | Numerator |
-| denominator | [MathematicalText](../mathematicaltext) | Denominator |
 | fractionType | int | Fraction type |
 
 
@@ -1418,23 +1418,6 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 ---
 
 
-## MathFraction([MathRadical](../../mathradical) numerator, [MathAccent](../../mathaccent) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathRadical](../mathradical) | Numerator |
-| denominator | [MathAccent](../mathaccent) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
 ## MathFraction([MathRadical](../../mathradical) numerator, [MathNaryOperator](../../mathnaryoperator) denominator, int fractionType)  constructor
 
  Initializes MathFraction with the specified numerator, denominator and type
@@ -1446,6 +1429,23 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 | --- | --- | --- |
 | numerator | [MathRadical](../mathradical) | Numerator |
 | denominator | [MathNaryOperator](../mathnaryoperator) | Denominator |
+| fractionType | int | Fraction type |
+
+
+---
+
+
+## MathFraction([MathRadical](../../mathradical) numerator, [MathAccent](../../mathaccent) denominator, int fractionType)  constructor
+
+ Initializes MathFraction with the specified numerator, denominator and type
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathRadical](../mathradical) | Numerator |
+| denominator | [MathAccent](../mathaccent) | Denominator |
 | fractionType | int | Fraction type |
 
 
@@ -1503,6 +1503,23 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 ---
 
 
+## MathFraction([MathRadical](../../mathradical) numerator, [MathFunction](../../mathfunction) denominator, int fractionType)  constructor
+
+ Initializes MathFraction with the specified numerator, denominator and type
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathRadical](../mathradical) | Numerator |
+| denominator | [MathFunction](../mathfunction) | Denominator |
+| fractionType | int | Fraction type |
+
+
+---
+
+
 ## MathFraction([MathRadical](../../mathradical) numerator, [MathSuperscriptElement](../../mathsuperscriptelement) denominator, int fractionType)  constructor
 
  Initializes MathFraction with the specified numerator, denominator and type
@@ -1537,7 +1554,7 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 ---
 
 
-## MathFraction([MathRadical](../../mathradical) numerator, [MathFunction](../../mathfunction) denominator, int fractionType)  constructor
+## MathFraction([MathRadical](../../mathradical) numerator, [MathematicalText](../../mathematicaltext) denominator, int fractionType)  constructor
 
  Initializes MathFraction with the specified numerator, denominator and type
  
@@ -1547,7 +1564,7 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 | Name | Type | Description |
 | --- | --- | --- |
 | numerator | [MathRadical](../mathradical) | Numerator |
-| denominator | [MathFunction](../mathfunction) | Denominator |
+| denominator | [MathematicalText](../mathematicaltext) | Denominator |
 | fractionType | int | Fraction type |
 
 
@@ -1565,23 +1582,6 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 | --- | --- | --- |
 | numerator | [MathRadical](../mathradical) | Numerator |
 | denominator | [MathFraction](../mathfraction) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([MathRadical](../../mathradical) numerator, [MathematicalText](../../mathematicaltext) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathRadical](../mathradical) | Numerator |
-| denominator | [MathematicalText](../mathematicaltext) | Denominator |
 | fractionType | int | Fraction type |
 
 
@@ -1741,23 +1741,6 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 ---
 
 
-## MathFraction([MathArray](../../matharray) numerator, [MathAccent](../../mathaccent) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathArray](../matharray) | Numerator |
-| denominator | [MathAccent](../mathaccent) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
 ## MathFraction([MathArray](../../matharray) numerator, [MathNaryOperator](../../mathnaryoperator) denominator, int fractionType)  constructor
 
  Initializes MathFraction with the specified numerator, denominator and type
@@ -1769,6 +1752,23 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 | --- | --- | --- |
 | numerator | [MathArray](../matharray) | Numerator |
 | denominator | [MathNaryOperator](../mathnaryoperator) | Denominator |
+| fractionType | int | Fraction type |
+
+
+---
+
+
+## MathFraction([MathArray](../../matharray) numerator, [MathAccent](../../mathaccent) denominator, int fractionType)  constructor
+
+ Initializes MathFraction with the specified numerator, denominator and type
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathArray](../matharray) | Numerator |
+| denominator | [MathAccent](../mathaccent) | Denominator |
 | fractionType | int | Fraction type |
 
 
@@ -1826,6 +1826,23 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 ---
 
 
+## MathFraction([MathArray](../../matharray) numerator, [MathFunction](../../mathfunction) denominator, int fractionType)  constructor
+
+ Initializes MathFraction with the specified numerator, denominator and type
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathArray](../matharray) | Numerator |
+| denominator | [MathFunction](../mathfunction) | Denominator |
+| fractionType | int | Fraction type |
+
+
+---
+
+
 ## MathFraction([MathArray](../../matharray) numerator, [MathSuperscriptElement](../../mathsuperscriptelement) denominator, int fractionType)  constructor
 
  Initializes MathFraction with the specified numerator, denominator and type
@@ -1860,7 +1877,7 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 ---
 
 
-## MathFraction([MathArray](../../matharray) numerator, [MathFunction](../../mathfunction) denominator, int fractionType)  constructor
+## MathFraction([MathArray](../../matharray) numerator, [MathematicalText](../../mathematicaltext) denominator, int fractionType)  constructor
 
  Initializes MathFraction with the specified numerator, denominator and type
  
@@ -1870,7 +1887,7 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 | Name | Type | Description |
 | --- | --- | --- |
 | numerator | [MathArray](../matharray) | Numerator |
-| denominator | [MathFunction](../mathfunction) | Denominator |
+| denominator | [MathematicalText](../mathematicaltext) | Denominator |
 | fractionType | int | Fraction type |
 
 
@@ -1888,23 +1905,6 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 | --- | --- | --- |
 | numerator | [MathArray](../matharray) | Numerator |
 | denominator | [MathFraction](../mathfraction) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([MathArray](../../matharray) numerator, [MathematicalText](../../mathematicaltext) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathArray](../matharray) | Numerator |
-| denominator | [MathematicalText](../mathematicaltext) | Denominator |
 | fractionType | int | Fraction type |
 
 
@@ -2064,23 +2064,6 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 ---
 
 
-## MathFraction([MathDelimiter](../../mathdelimiter) numerator, [MathAccent](../../mathaccent) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathDelimiter](../mathdelimiter) | Numerator |
-| denominator | [MathAccent](../mathaccent) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
 ## MathFraction([MathDelimiter](../../mathdelimiter) numerator, [MathNaryOperator](../../mathnaryoperator) denominator, int fractionType)  constructor
 
  Initializes MathFraction with the specified numerator, denominator and type
@@ -2092,6 +2075,23 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 | --- | --- | --- |
 | numerator | [MathDelimiter](../mathdelimiter) | Numerator |
 | denominator | [MathNaryOperator](../mathnaryoperator) | Denominator |
+| fractionType | int | Fraction type |
+
+
+---
+
+
+## MathFraction([MathDelimiter](../../mathdelimiter) numerator, [MathAccent](../../mathaccent) denominator, int fractionType)  constructor
+
+ Initializes MathFraction with the specified numerator, denominator and type
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathDelimiter](../mathdelimiter) | Numerator |
+| denominator | [MathAccent](../mathaccent) | Denominator |
 | fractionType | int | Fraction type |
 
 
@@ -2149,6 +2149,23 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 ---
 
 
+## MathFraction([MathDelimiter](../../mathdelimiter) numerator, [MathFunction](../../mathfunction) denominator, int fractionType)  constructor
+
+ Initializes MathFraction with the specified numerator, denominator and type
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathDelimiter](../mathdelimiter) | Numerator |
+| denominator | [MathFunction](../mathfunction) | Denominator |
+| fractionType | int | Fraction type |
+
+
+---
+
+
 ## MathFraction([MathDelimiter](../../mathdelimiter) numerator, [MathSuperscriptElement](../../mathsuperscriptelement) denominator, int fractionType)  constructor
 
  Initializes MathFraction with the specified numerator, denominator and type
@@ -2183,7 +2200,7 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 ---
 
 
-## MathFraction([MathDelimiter](../../mathdelimiter) numerator, [MathFunction](../../mathfunction) denominator, int fractionType)  constructor
+## MathFraction([MathDelimiter](../../mathdelimiter) numerator, [MathematicalText](../../mathematicaltext) denominator, int fractionType)  constructor
 
  Initializes MathFraction with the specified numerator, denominator and type
  
@@ -2193,7 +2210,7 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 | Name | Type | Description |
 | --- | --- | --- |
 | numerator | [MathDelimiter](../mathdelimiter) | Numerator |
-| denominator | [MathFunction](../mathfunction) | Denominator |
+| denominator | [MathematicalText](../mathematicaltext) | Denominator |
 | fractionType | int | Fraction type |
 
 
@@ -2211,23 +2228,6 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 | --- | --- | --- |
 | numerator | [MathDelimiter](../mathdelimiter) | Numerator |
 | denominator | [MathFraction](../mathfraction) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([MathDelimiter](../../mathdelimiter) numerator, [MathematicalText](../../mathematicaltext) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathDelimiter](../mathdelimiter) | Numerator |
-| denominator | [MathematicalText](../mathematicaltext) | Denominator |
 | fractionType | int | Fraction type |
 
 
@@ -2261,329 +2261,6 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 | Name | Type | Description |
 | --- | --- | --- |
 | numerator | [MathDelimiter](../mathdelimiter) | Numerator |
-| denominator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([MathAccent](../../mathaccent) numerator, [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathAccent](../mathaccent) | Numerator |
-| denominator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([MathAccent](../../mathaccent) numerator, [MathMatrix](../../mathmatrix) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathAccent](../mathaccent) | Numerator |
-| denominator | [MathMatrix](../mathmatrix) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([MathAccent](../../mathaccent) numerator, [MathLimit](../../mathlimit) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathAccent](../mathaccent) | Numerator |
-| denominator | [MathLimit](../mathlimit) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([MathAccent](../../mathaccent) numerator, [MathBlock](../../mathblock) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathAccent](../mathaccent) | Numerator |
-| denominator | [MathBlock](../mathblock) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([MathAccent](../../mathaccent) numerator, [MathRadical](../../mathradical) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathAccent](../mathaccent) | Numerator |
-| denominator | [MathRadical](../mathradical) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([MathAccent](../../mathaccent) numerator, [MathArray](../../matharray) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathAccent](../mathaccent) | Numerator |
-| denominator | [MathArray](../matharray) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([MathAccent](../../mathaccent) numerator, [MathDelimiter](../../mathdelimiter) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathAccent](../mathaccent) | Numerator |
-| denominator | [MathDelimiter](../mathdelimiter) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([MathAccent](../../mathaccent) numerator, [MathAccent](../../mathaccent) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathAccent](../mathaccent) | Numerator |
-| denominator | [MathAccent](../mathaccent) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([MathAccent](../../mathaccent) numerator, [MathNaryOperator](../../mathnaryoperator) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathAccent](../mathaccent) | Numerator |
-| denominator | [MathNaryOperator](../mathnaryoperator) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([MathAccent](../../mathaccent) numerator, [MathBorderBox](../../mathborderbox) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathAccent](../mathaccent) | Numerator |
-| denominator | [MathBorderBox](../mathborderbox) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([MathAccent](../../mathaccent) numerator, [MathGroupingCharacter](../../mathgroupingcharacter) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathAccent](../mathaccent) | Numerator |
-| denominator | [MathGroupingCharacter](../mathgroupingcharacter) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([MathAccent](../../mathaccent) numerator, [MathBar](../../mathbar) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathAccent](../mathaccent) | Numerator |
-| denominator | [MathBar](../mathbar) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([MathAccent](../../mathaccent) numerator, [MathSuperscriptElement](../../mathsuperscriptelement) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathAccent](../mathaccent) | Numerator |
-| denominator | [MathSuperscriptElement](../mathsuperscriptelement) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([MathAccent](../../mathaccent) numerator, [MathSubscriptElement](../../mathsubscriptelement) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathAccent](../mathaccent) | Numerator |
-| denominator | [MathSubscriptElement](../mathsubscriptelement) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([MathAccent](../../mathaccent) numerator, [MathFunction](../../mathfunction) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathAccent](../mathaccent) | Numerator |
-| denominator | [MathFunction](../mathfunction) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([MathAccent](../../mathaccent) numerator, [MathFraction](../../mathfraction) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathAccent](../mathaccent) | Numerator |
-| denominator | [MathFraction](../mathfraction) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([MathAccent](../../mathaccent) numerator, [MathematicalText](../../mathematicaltext) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathAccent](../mathaccent) | Numerator |
-| denominator | [MathematicalText](../mathematicaltext) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([MathAccent](../../mathaccent) numerator, [MathBox](../../mathbox) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathAccent](../mathaccent) | Numerator |
-| denominator | [MathBox](../mathbox) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([MathAccent](../../mathaccent) numerator, [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathAccent](../mathaccent) | Numerator |
 | denominator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Denominator |
 | fractionType | int | Fraction type |
 
@@ -2710,23 +2387,6 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 ---
 
 
-## MathFraction([MathNaryOperator](../../mathnaryoperator) numerator, [MathAccent](../../mathaccent) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathNaryOperator](../mathnaryoperator) | Numerator |
-| denominator | [MathAccent](../mathaccent) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
 ## MathFraction([MathNaryOperator](../../mathnaryoperator) numerator, [MathNaryOperator](../../mathnaryoperator) denominator, int fractionType)  constructor
 
  Initializes MathFraction with the specified numerator, denominator and type
@@ -2738,6 +2398,23 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 | --- | --- | --- |
 | numerator | [MathNaryOperator](../mathnaryoperator) | Numerator |
 | denominator | [MathNaryOperator](../mathnaryoperator) | Denominator |
+| fractionType | int | Fraction type |
+
+
+---
+
+
+## MathFraction([MathNaryOperator](../../mathnaryoperator) numerator, [MathAccent](../../mathaccent) denominator, int fractionType)  constructor
+
+ Initializes MathFraction with the specified numerator, denominator and type
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathNaryOperator](../mathnaryoperator) | Numerator |
+| denominator | [MathAccent](../mathaccent) | Denominator |
 | fractionType | int | Fraction type |
 
 
@@ -2795,6 +2472,23 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 ---
 
 
+## MathFraction([MathNaryOperator](../../mathnaryoperator) numerator, [MathFunction](../../mathfunction) denominator, int fractionType)  constructor
+
+ Initializes MathFraction with the specified numerator, denominator and type
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathNaryOperator](../mathnaryoperator) | Numerator |
+| denominator | [MathFunction](../mathfunction) | Denominator |
+| fractionType | int | Fraction type |
+
+
+---
+
+
 ## MathFraction([MathNaryOperator](../../mathnaryoperator) numerator, [MathSuperscriptElement](../../mathsuperscriptelement) denominator, int fractionType)  constructor
 
  Initializes MathFraction with the specified numerator, denominator and type
@@ -2829,7 +2523,7 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 ---
 
 
-## MathFraction([MathNaryOperator](../../mathnaryoperator) numerator, [MathFunction](../../mathfunction) denominator, int fractionType)  constructor
+## MathFraction([MathNaryOperator](../../mathnaryoperator) numerator, [MathematicalText](../../mathematicaltext) denominator, int fractionType)  constructor
 
  Initializes MathFraction with the specified numerator, denominator and type
  
@@ -2839,7 +2533,7 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 | Name | Type | Description |
 | --- | --- | --- |
 | numerator | [MathNaryOperator](../mathnaryoperator) | Numerator |
-| denominator | [MathFunction](../mathfunction) | Denominator |
+| denominator | [MathematicalText](../mathematicaltext) | Denominator |
 | fractionType | int | Fraction type |
 
 
@@ -2857,23 +2551,6 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 | --- | --- | --- |
 | numerator | [MathNaryOperator](../mathnaryoperator) | Numerator |
 | denominator | [MathFraction](../mathfraction) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([MathNaryOperator](../../mathnaryoperator) numerator, [MathematicalText](../../mathematicaltext) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathNaryOperator](../mathnaryoperator) | Numerator |
-| denominator | [MathematicalText](../mathematicaltext) | Denominator |
 | fractionType | int | Fraction type |
 
 
@@ -2907,6 +2584,329 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 | Name | Type | Description |
 | --- | --- | --- |
 | numerator | [MathNaryOperator](../mathnaryoperator) | Numerator |
+| denominator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Denominator |
+| fractionType | int | Fraction type |
+
+
+---
+
+
+## MathFraction([MathAccent](../../mathaccent) numerator, [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) denominator, int fractionType)  constructor
+
+ Initializes MathFraction with the specified numerator, denominator and type
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathAccent](../mathaccent) | Numerator |
+| denominator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Denominator |
+| fractionType | int | Fraction type |
+
+
+---
+
+
+## MathFraction([MathAccent](../../mathaccent) numerator, [MathMatrix](../../mathmatrix) denominator, int fractionType)  constructor
+
+ Initializes MathFraction with the specified numerator, denominator and type
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathAccent](../mathaccent) | Numerator |
+| denominator | [MathMatrix](../mathmatrix) | Denominator |
+| fractionType | int | Fraction type |
+
+
+---
+
+
+## MathFraction([MathAccent](../../mathaccent) numerator, [MathLimit](../../mathlimit) denominator, int fractionType)  constructor
+
+ Initializes MathFraction with the specified numerator, denominator and type
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathAccent](../mathaccent) | Numerator |
+| denominator | [MathLimit](../mathlimit) | Denominator |
+| fractionType | int | Fraction type |
+
+
+---
+
+
+## MathFraction([MathAccent](../../mathaccent) numerator, [MathBlock](../../mathblock) denominator, int fractionType)  constructor
+
+ Initializes MathFraction with the specified numerator, denominator and type
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathAccent](../mathaccent) | Numerator |
+| denominator | [MathBlock](../mathblock) | Denominator |
+| fractionType | int | Fraction type |
+
+
+---
+
+
+## MathFraction([MathAccent](../../mathaccent) numerator, [MathRadical](../../mathradical) denominator, int fractionType)  constructor
+
+ Initializes MathFraction with the specified numerator, denominator and type
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathAccent](../mathaccent) | Numerator |
+| denominator | [MathRadical](../mathradical) | Denominator |
+| fractionType | int | Fraction type |
+
+
+---
+
+
+## MathFraction([MathAccent](../../mathaccent) numerator, [MathArray](../../matharray) denominator, int fractionType)  constructor
+
+ Initializes MathFraction with the specified numerator, denominator and type
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathAccent](../mathaccent) | Numerator |
+| denominator | [MathArray](../matharray) | Denominator |
+| fractionType | int | Fraction type |
+
+
+---
+
+
+## MathFraction([MathAccent](../../mathaccent) numerator, [MathDelimiter](../../mathdelimiter) denominator, int fractionType)  constructor
+
+ Initializes MathFraction with the specified numerator, denominator and type
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathAccent](../mathaccent) | Numerator |
+| denominator | [MathDelimiter](../mathdelimiter) | Denominator |
+| fractionType | int | Fraction type |
+
+
+---
+
+
+## MathFraction([MathAccent](../../mathaccent) numerator, [MathNaryOperator](../../mathnaryoperator) denominator, int fractionType)  constructor
+
+ Initializes MathFraction with the specified numerator, denominator and type
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathAccent](../mathaccent) | Numerator |
+| denominator | [MathNaryOperator](../mathnaryoperator) | Denominator |
+| fractionType | int | Fraction type |
+
+
+---
+
+
+## MathFraction([MathAccent](../../mathaccent) numerator, [MathAccent](../../mathaccent) denominator, int fractionType)  constructor
+
+ Initializes MathFraction with the specified numerator, denominator and type
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathAccent](../mathaccent) | Numerator |
+| denominator | [MathAccent](../mathaccent) | Denominator |
+| fractionType | int | Fraction type |
+
+
+---
+
+
+## MathFraction([MathAccent](../../mathaccent) numerator, [MathBorderBox](../../mathborderbox) denominator, int fractionType)  constructor
+
+ Initializes MathFraction with the specified numerator, denominator and type
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathAccent](../mathaccent) | Numerator |
+| denominator | [MathBorderBox](../mathborderbox) | Denominator |
+| fractionType | int | Fraction type |
+
+
+---
+
+
+## MathFraction([MathAccent](../../mathaccent) numerator, [MathGroupingCharacter](../../mathgroupingcharacter) denominator, int fractionType)  constructor
+
+ Initializes MathFraction with the specified numerator, denominator and type
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathAccent](../mathaccent) | Numerator |
+| denominator | [MathGroupingCharacter](../mathgroupingcharacter) | Denominator |
+| fractionType | int | Fraction type |
+
+
+---
+
+
+## MathFraction([MathAccent](../../mathaccent) numerator, [MathBar](../../mathbar) denominator, int fractionType)  constructor
+
+ Initializes MathFraction with the specified numerator, denominator and type
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathAccent](../mathaccent) | Numerator |
+| denominator | [MathBar](../mathbar) | Denominator |
+| fractionType | int | Fraction type |
+
+
+---
+
+
+## MathFraction([MathAccent](../../mathaccent) numerator, [MathFunction](../../mathfunction) denominator, int fractionType)  constructor
+
+ Initializes MathFraction with the specified numerator, denominator and type
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathAccent](../mathaccent) | Numerator |
+| denominator | [MathFunction](../mathfunction) | Denominator |
+| fractionType | int | Fraction type |
+
+
+---
+
+
+## MathFraction([MathAccent](../../mathaccent) numerator, [MathSuperscriptElement](../../mathsuperscriptelement) denominator, int fractionType)  constructor
+
+ Initializes MathFraction with the specified numerator, denominator and type
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathAccent](../mathaccent) | Numerator |
+| denominator | [MathSuperscriptElement](../mathsuperscriptelement) | Denominator |
+| fractionType | int | Fraction type |
+
+
+---
+
+
+## MathFraction([MathAccent](../../mathaccent) numerator, [MathSubscriptElement](../../mathsubscriptelement) denominator, int fractionType)  constructor
+
+ Initializes MathFraction with the specified numerator, denominator and type
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathAccent](../mathaccent) | Numerator |
+| denominator | [MathSubscriptElement](../mathsubscriptelement) | Denominator |
+| fractionType | int | Fraction type |
+
+
+---
+
+
+## MathFraction([MathAccent](../../mathaccent) numerator, [MathematicalText](../../mathematicaltext) denominator, int fractionType)  constructor
+
+ Initializes MathFraction with the specified numerator, denominator and type
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathAccent](../mathaccent) | Numerator |
+| denominator | [MathematicalText](../mathematicaltext) | Denominator |
+| fractionType | int | Fraction type |
+
+
+---
+
+
+## MathFraction([MathAccent](../../mathaccent) numerator, [MathFraction](../../mathfraction) denominator, int fractionType)  constructor
+
+ Initializes MathFraction with the specified numerator, denominator and type
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathAccent](../mathaccent) | Numerator |
+| denominator | [MathFraction](../mathfraction) | Denominator |
+| fractionType | int | Fraction type |
+
+
+---
+
+
+## MathFraction([MathAccent](../../mathaccent) numerator, [MathBox](../../mathbox) denominator, int fractionType)  constructor
+
+ Initializes MathFraction with the specified numerator, denominator and type
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathAccent](../mathaccent) | Numerator |
+| denominator | [MathBox](../mathbox) | Denominator |
+| fractionType | int | Fraction type |
+
+
+---
+
+
+## MathFraction([MathAccent](../../mathaccent) numerator, [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) denominator, int fractionType)  constructor
+
+ Initializes MathFraction with the specified numerator, denominator and type
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathAccent](../mathaccent) | Numerator |
 | denominator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Denominator |
 | fractionType | int | Fraction type |
 
@@ -3033,23 +3033,6 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 ---
 
 
-## MathFraction([MathBorderBox](../../mathborderbox) numerator, [MathAccent](../../mathaccent) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathBorderBox](../mathborderbox) | Numerator |
-| denominator | [MathAccent](../mathaccent) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
 ## MathFraction([MathBorderBox](../../mathborderbox) numerator, [MathNaryOperator](../../mathnaryoperator) denominator, int fractionType)  constructor
 
  Initializes MathFraction with the specified numerator, denominator and type
@@ -3061,6 +3044,23 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 | --- | --- | --- |
 | numerator | [MathBorderBox](../mathborderbox) | Numerator |
 | denominator | [MathNaryOperator](../mathnaryoperator) | Denominator |
+| fractionType | int | Fraction type |
+
+
+---
+
+
+## MathFraction([MathBorderBox](../../mathborderbox) numerator, [MathAccent](../../mathaccent) denominator, int fractionType)  constructor
+
+ Initializes MathFraction with the specified numerator, denominator and type
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathBorderBox](../mathborderbox) | Numerator |
+| denominator | [MathAccent](../mathaccent) | Denominator |
 | fractionType | int | Fraction type |
 
 
@@ -3118,6 +3118,23 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 ---
 
 
+## MathFraction([MathBorderBox](../../mathborderbox) numerator, [MathFunction](../../mathfunction) denominator, int fractionType)  constructor
+
+ Initializes MathFraction with the specified numerator, denominator and type
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathBorderBox](../mathborderbox) | Numerator |
+| denominator | [MathFunction](../mathfunction) | Denominator |
+| fractionType | int | Fraction type |
+
+
+---
+
+
 ## MathFraction([MathBorderBox](../../mathborderbox) numerator, [MathSuperscriptElement](../../mathsuperscriptelement) denominator, int fractionType)  constructor
 
  Initializes MathFraction with the specified numerator, denominator and type
@@ -3152,7 +3169,7 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 ---
 
 
-## MathFraction([MathBorderBox](../../mathborderbox) numerator, [MathFunction](../../mathfunction) denominator, int fractionType)  constructor
+## MathFraction([MathBorderBox](../../mathborderbox) numerator, [MathematicalText](../../mathematicaltext) denominator, int fractionType)  constructor
 
  Initializes MathFraction with the specified numerator, denominator and type
  
@@ -3162,7 +3179,7 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 | Name | Type | Description |
 | --- | --- | --- |
 | numerator | [MathBorderBox](../mathborderbox) | Numerator |
-| denominator | [MathFunction](../mathfunction) | Denominator |
+| denominator | [MathematicalText](../mathematicaltext) | Denominator |
 | fractionType | int | Fraction type |
 
 
@@ -3180,23 +3197,6 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 | --- | --- | --- |
 | numerator | [MathBorderBox](../mathborderbox) | Numerator |
 | denominator | [MathFraction](../mathfraction) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([MathBorderBox](../../mathborderbox) numerator, [MathematicalText](../../mathematicaltext) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathBorderBox](../mathborderbox) | Numerator |
-| denominator | [MathematicalText](../mathematicaltext) | Denominator |
 | fractionType | int | Fraction type |
 
 
@@ -3356,23 +3356,6 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 ---
 
 
-## MathFraction([MathGroupingCharacter](../../mathgroupingcharacter) numerator, [MathAccent](../../mathaccent) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
-| denominator | [MathAccent](../mathaccent) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
 ## MathFraction([MathGroupingCharacter](../../mathgroupingcharacter) numerator, [MathNaryOperator](../../mathnaryoperator) denominator, int fractionType)  constructor
 
  Initializes MathFraction with the specified numerator, denominator and type
@@ -3384,6 +3367,23 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 | --- | --- | --- |
 | numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
 | denominator | [MathNaryOperator](../mathnaryoperator) | Denominator |
+| fractionType | int | Fraction type |
+
+
+---
+
+
+## MathFraction([MathGroupingCharacter](../../mathgroupingcharacter) numerator, [MathAccent](../../mathaccent) denominator, int fractionType)  constructor
+
+ Initializes MathFraction with the specified numerator, denominator and type
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
+| denominator | [MathAccent](../mathaccent) | Denominator |
 | fractionType | int | Fraction type |
 
 
@@ -3441,6 +3441,23 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 ---
 
 
+## MathFraction([MathGroupingCharacter](../../mathgroupingcharacter) numerator, [MathFunction](../../mathfunction) denominator, int fractionType)  constructor
+
+ Initializes MathFraction with the specified numerator, denominator and type
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
+| denominator | [MathFunction](../mathfunction) | Denominator |
+| fractionType | int | Fraction type |
+
+
+---
+
+
 ## MathFraction([MathGroupingCharacter](../../mathgroupingcharacter) numerator, [MathSuperscriptElement](../../mathsuperscriptelement) denominator, int fractionType)  constructor
 
  Initializes MathFraction with the specified numerator, denominator and type
@@ -3475,7 +3492,7 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 ---
 
 
-## MathFraction([MathGroupingCharacter](../../mathgroupingcharacter) numerator, [MathFunction](../../mathfunction) denominator, int fractionType)  constructor
+## MathFraction([MathGroupingCharacter](../../mathgroupingcharacter) numerator, [MathematicalText](../../mathematicaltext) denominator, int fractionType)  constructor
 
  Initializes MathFraction with the specified numerator, denominator and type
  
@@ -3485,7 +3502,7 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 | Name | Type | Description |
 | --- | --- | --- |
 | numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
-| denominator | [MathFunction](../mathfunction) | Denominator |
+| denominator | [MathematicalText](../mathematicaltext) | Denominator |
 | fractionType | int | Fraction type |
 
 
@@ -3503,23 +3520,6 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 | --- | --- | --- |
 | numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
 | denominator | [MathFraction](../mathfraction) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([MathGroupingCharacter](../../mathgroupingcharacter) numerator, [MathematicalText](../../mathematicaltext) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
-| denominator | [MathematicalText](../mathematicaltext) | Denominator |
 | fractionType | int | Fraction type |
 
 
@@ -3679,23 +3679,6 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 ---
 
 
-## MathFraction([MathBar](../../mathbar) numerator, [MathAccent](../../mathaccent) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathBar](../mathbar) | Numerator |
-| denominator | [MathAccent](../mathaccent) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
 ## MathFraction([MathBar](../../mathbar) numerator, [MathNaryOperator](../../mathnaryoperator) denominator, int fractionType)  constructor
 
  Initializes MathFraction with the specified numerator, denominator and type
@@ -3707,6 +3690,23 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 | --- | --- | --- |
 | numerator | [MathBar](../mathbar) | Numerator |
 | denominator | [MathNaryOperator](../mathnaryoperator) | Denominator |
+| fractionType | int | Fraction type |
+
+
+---
+
+
+## MathFraction([MathBar](../../mathbar) numerator, [MathAccent](../../mathaccent) denominator, int fractionType)  constructor
+
+ Initializes MathFraction with the specified numerator, denominator and type
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathBar](../mathbar) | Numerator |
+| denominator | [MathAccent](../mathaccent) | Denominator |
 | fractionType | int | Fraction type |
 
 
@@ -3764,6 +3764,23 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 ---
 
 
+## MathFraction([MathBar](../../mathbar) numerator, [MathFunction](../../mathfunction) denominator, int fractionType)  constructor
+
+ Initializes MathFraction with the specified numerator, denominator and type
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathBar](../mathbar) | Numerator |
+| denominator | [MathFunction](../mathfunction) | Denominator |
+| fractionType | int | Fraction type |
+
+
+---
+
+
 ## MathFraction([MathBar](../../mathbar) numerator, [MathSuperscriptElement](../../mathsuperscriptelement) denominator, int fractionType)  constructor
 
  Initializes MathFraction with the specified numerator, denominator and type
@@ -3798,7 +3815,7 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 ---
 
 
-## MathFraction([MathBar](../../mathbar) numerator, [MathFunction](../../mathfunction) denominator, int fractionType)  constructor
+## MathFraction([MathBar](../../mathbar) numerator, [MathematicalText](../../mathematicaltext) denominator, int fractionType)  constructor
 
  Initializes MathFraction with the specified numerator, denominator and type
  
@@ -3808,7 +3825,7 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 | Name | Type | Description |
 | --- | --- | --- |
 | numerator | [MathBar](../mathbar) | Numerator |
-| denominator | [MathFunction](../mathfunction) | Denominator |
+| denominator | [MathematicalText](../mathematicaltext) | Denominator |
 | fractionType | int | Fraction type |
 
 
@@ -3826,23 +3843,6 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 | --- | --- | --- |
 | numerator | [MathBar](../mathbar) | Numerator |
 | denominator | [MathFraction](../mathfraction) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([MathBar](../../mathbar) numerator, [MathematicalText](../../mathematicaltext) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathBar](../mathbar) | Numerator |
-| denominator | [MathematicalText](../mathematicaltext) | Denominator |
 | fractionType | int | Fraction type |
 
 
@@ -3876,6 +3876,329 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 | Name | Type | Description |
 | --- | --- | --- |
 | numerator | [MathBar](../mathbar) | Numerator |
+| denominator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Denominator |
+| fractionType | int | Fraction type |
+
+
+---
+
+
+## MathFraction([MathFunction](../../mathfunction) numerator, [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) denominator, int fractionType)  constructor
+
+ Initializes MathFraction with the specified numerator, denominator and type
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathFunction](../mathfunction) | Numerator |
+| denominator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Denominator |
+| fractionType | int | Fraction type |
+
+
+---
+
+
+## MathFraction([MathFunction](../../mathfunction) numerator, [MathMatrix](../../mathmatrix) denominator, int fractionType)  constructor
+
+ Initializes MathFraction with the specified numerator, denominator and type
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathFunction](../mathfunction) | Numerator |
+| denominator | [MathMatrix](../mathmatrix) | Denominator |
+| fractionType | int | Fraction type |
+
+
+---
+
+
+## MathFraction([MathFunction](../../mathfunction) numerator, [MathLimit](../../mathlimit) denominator, int fractionType)  constructor
+
+ Initializes MathFraction with the specified numerator, denominator and type
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathFunction](../mathfunction) | Numerator |
+| denominator | [MathLimit](../mathlimit) | Denominator |
+| fractionType | int | Fraction type |
+
+
+---
+
+
+## MathFraction([MathFunction](../../mathfunction) numerator, [MathBlock](../../mathblock) denominator, int fractionType)  constructor
+
+ Initializes MathFraction with the specified numerator, denominator and type
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathFunction](../mathfunction) | Numerator |
+| denominator | [MathBlock](../mathblock) | Denominator |
+| fractionType | int | Fraction type |
+
+
+---
+
+
+## MathFraction([MathFunction](../../mathfunction) numerator, [MathRadical](../../mathradical) denominator, int fractionType)  constructor
+
+ Initializes MathFraction with the specified numerator, denominator and type
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathFunction](../mathfunction) | Numerator |
+| denominator | [MathRadical](../mathradical) | Denominator |
+| fractionType | int | Fraction type |
+
+
+---
+
+
+## MathFraction([MathFunction](../../mathfunction) numerator, [MathArray](../../matharray) denominator, int fractionType)  constructor
+
+ Initializes MathFraction with the specified numerator, denominator and type
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathFunction](../mathfunction) | Numerator |
+| denominator | [MathArray](../matharray) | Denominator |
+| fractionType | int | Fraction type |
+
+
+---
+
+
+## MathFraction([MathFunction](../../mathfunction) numerator, [MathDelimiter](../../mathdelimiter) denominator, int fractionType)  constructor
+
+ Initializes MathFraction with the specified numerator, denominator and type
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathFunction](../mathfunction) | Numerator |
+| denominator | [MathDelimiter](../mathdelimiter) | Denominator |
+| fractionType | int | Fraction type |
+
+
+---
+
+
+## MathFraction([MathFunction](../../mathfunction) numerator, [MathNaryOperator](../../mathnaryoperator) denominator, int fractionType)  constructor
+
+ Initializes MathFraction with the specified numerator, denominator and type
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathFunction](../mathfunction) | Numerator |
+| denominator | [MathNaryOperator](../mathnaryoperator) | Denominator |
+| fractionType | int | Fraction type |
+
+
+---
+
+
+## MathFraction([MathFunction](../../mathfunction) numerator, [MathAccent](../../mathaccent) denominator, int fractionType)  constructor
+
+ Initializes MathFraction with the specified numerator, denominator and type
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathFunction](../mathfunction) | Numerator |
+| denominator | [MathAccent](../mathaccent) | Denominator |
+| fractionType | int | Fraction type |
+
+
+---
+
+
+## MathFraction([MathFunction](../../mathfunction) numerator, [MathBorderBox](../../mathborderbox) denominator, int fractionType)  constructor
+
+ Initializes MathFraction with the specified numerator, denominator and type
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathFunction](../mathfunction) | Numerator |
+| denominator | [MathBorderBox](../mathborderbox) | Denominator |
+| fractionType | int | Fraction type |
+
+
+---
+
+
+## MathFraction([MathFunction](../../mathfunction) numerator, [MathGroupingCharacter](../../mathgroupingcharacter) denominator, int fractionType)  constructor
+
+ Initializes MathFraction with the specified numerator, denominator and type
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathFunction](../mathfunction) | Numerator |
+| denominator | [MathGroupingCharacter](../mathgroupingcharacter) | Denominator |
+| fractionType | int | Fraction type |
+
+
+---
+
+
+## MathFraction([MathFunction](../../mathfunction) numerator, [MathBar](../../mathbar) denominator, int fractionType)  constructor
+
+ Initializes MathFraction with the specified numerator, denominator and type
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathFunction](../mathfunction) | Numerator |
+| denominator | [MathBar](../mathbar) | Denominator |
+| fractionType | int | Fraction type |
+
+
+---
+
+
+## MathFraction([MathFunction](../../mathfunction) numerator, [MathFunction](../../mathfunction) denominator, int fractionType)  constructor
+
+ Initializes MathFraction with the specified numerator, denominator and type
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathFunction](../mathfunction) | Numerator |
+| denominator | [MathFunction](../mathfunction) | Denominator |
+| fractionType | int | Fraction type |
+
+
+---
+
+
+## MathFraction([MathFunction](../../mathfunction) numerator, [MathSuperscriptElement](../../mathsuperscriptelement) denominator, int fractionType)  constructor
+
+ Initializes MathFraction with the specified numerator, denominator and type
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathFunction](../mathfunction) | Numerator |
+| denominator | [MathSuperscriptElement](../mathsuperscriptelement) | Denominator |
+| fractionType | int | Fraction type |
+
+
+---
+
+
+## MathFraction([MathFunction](../../mathfunction) numerator, [MathSubscriptElement](../../mathsubscriptelement) denominator, int fractionType)  constructor
+
+ Initializes MathFraction with the specified numerator, denominator and type
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathFunction](../mathfunction) | Numerator |
+| denominator | [MathSubscriptElement](../mathsubscriptelement) | Denominator |
+| fractionType | int | Fraction type |
+
+
+---
+
+
+## MathFraction([MathFunction](../../mathfunction) numerator, [MathematicalText](../../mathematicaltext) denominator, int fractionType)  constructor
+
+ Initializes MathFraction with the specified numerator, denominator and type
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathFunction](../mathfunction) | Numerator |
+| denominator | [MathematicalText](../mathematicaltext) | Denominator |
+| fractionType | int | Fraction type |
+
+
+---
+
+
+## MathFraction([MathFunction](../../mathfunction) numerator, [MathFraction](../../mathfraction) denominator, int fractionType)  constructor
+
+ Initializes MathFraction with the specified numerator, denominator and type
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathFunction](../mathfunction) | Numerator |
+| denominator | [MathFraction](../mathfraction) | Denominator |
+| fractionType | int | Fraction type |
+
+
+---
+
+
+## MathFraction([MathFunction](../../mathfunction) numerator, [MathBox](../../mathbox) denominator, int fractionType)  constructor
+
+ Initializes MathFraction with the specified numerator, denominator and type
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathFunction](../mathfunction) | Numerator |
+| denominator | [MathBox](../mathbox) | Denominator |
+| fractionType | int | Fraction type |
+
+
+---
+
+
+## MathFraction([MathFunction](../../mathfunction) numerator, [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) denominator, int fractionType)  constructor
+
+ Initializes MathFraction with the specified numerator, denominator and type
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathFunction](../mathfunction) | Numerator |
 | denominator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Denominator |
 | fractionType | int | Fraction type |
 
@@ -4002,23 +4325,6 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 ---
 
 
-## MathFraction([MathSuperscriptElement](../../mathsuperscriptelement) numerator, [MathAccent](../../mathaccent) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathSuperscriptElement](../mathsuperscriptelement) | Numerator |
-| denominator | [MathAccent](../mathaccent) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
 ## MathFraction([MathSuperscriptElement](../../mathsuperscriptelement) numerator, [MathNaryOperator](../../mathnaryoperator) denominator, int fractionType)  constructor
 
  Initializes MathFraction with the specified numerator, denominator and type
@@ -4030,6 +4336,23 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 | --- | --- | --- |
 | numerator | [MathSuperscriptElement](../mathsuperscriptelement) | Numerator |
 | denominator | [MathNaryOperator](../mathnaryoperator) | Denominator |
+| fractionType | int | Fraction type |
+
+
+---
+
+
+## MathFraction([MathSuperscriptElement](../../mathsuperscriptelement) numerator, [MathAccent](../../mathaccent) denominator, int fractionType)  constructor
+
+ Initializes MathFraction with the specified numerator, denominator and type
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathSuperscriptElement](../mathsuperscriptelement) | Numerator |
+| denominator | [MathAccent](../mathaccent) | Denominator |
 | fractionType | int | Fraction type |
 
 
@@ -4087,6 +4410,23 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 ---
 
 
+## MathFraction([MathSuperscriptElement](../../mathsuperscriptelement) numerator, [MathFunction](../../mathfunction) denominator, int fractionType)  constructor
+
+ Initializes MathFraction with the specified numerator, denominator and type
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathSuperscriptElement](../mathsuperscriptelement) | Numerator |
+| denominator | [MathFunction](../mathfunction) | Denominator |
+| fractionType | int | Fraction type |
+
+
+---
+
+
 ## MathFraction([MathSuperscriptElement](../../mathsuperscriptelement) numerator, [MathSuperscriptElement](../../mathsuperscriptelement) denominator, int fractionType)  constructor
 
  Initializes MathFraction with the specified numerator, denominator and type
@@ -4121,7 +4461,7 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 ---
 
 
-## MathFraction([MathSuperscriptElement](../../mathsuperscriptelement) numerator, [MathFunction](../../mathfunction) denominator, int fractionType)  constructor
+## MathFraction([MathSuperscriptElement](../../mathsuperscriptelement) numerator, [MathematicalText](../../mathematicaltext) denominator, int fractionType)  constructor
 
  Initializes MathFraction with the specified numerator, denominator and type
  
@@ -4131,7 +4471,7 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 | Name | Type | Description |
 | --- | --- | --- |
 | numerator | [MathSuperscriptElement](../mathsuperscriptelement) | Numerator |
-| denominator | [MathFunction](../mathfunction) | Denominator |
+| denominator | [MathematicalText](../mathematicaltext) | Denominator |
 | fractionType | int | Fraction type |
 
 
@@ -4149,23 +4489,6 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 | --- | --- | --- |
 | numerator | [MathSuperscriptElement](../mathsuperscriptelement) | Numerator |
 | denominator | [MathFraction](../mathfraction) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([MathSuperscriptElement](../../mathsuperscriptelement) numerator, [MathematicalText](../../mathematicaltext) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathSuperscriptElement](../mathsuperscriptelement) | Numerator |
-| denominator | [MathematicalText](../mathematicaltext) | Denominator |
 | fractionType | int | Fraction type |
 
 
@@ -4325,23 +4648,6 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 ---
 
 
-## MathFraction([MathSubscriptElement](../../mathsubscriptelement) numerator, [MathAccent](../../mathaccent) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
-| denominator | [MathAccent](../mathaccent) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
 ## MathFraction([MathSubscriptElement](../../mathsubscriptelement) numerator, [MathNaryOperator](../../mathnaryoperator) denominator, int fractionType)  constructor
 
  Initializes MathFraction with the specified numerator, denominator and type
@@ -4353,6 +4659,23 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 | --- | --- | --- |
 | numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
 | denominator | [MathNaryOperator](../mathnaryoperator) | Denominator |
+| fractionType | int | Fraction type |
+
+
+---
+
+
+## MathFraction([MathSubscriptElement](../../mathsubscriptelement) numerator, [MathAccent](../../mathaccent) denominator, int fractionType)  constructor
+
+ Initializes MathFraction with the specified numerator, denominator and type
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
+| denominator | [MathAccent](../mathaccent) | Denominator |
 | fractionType | int | Fraction type |
 
 
@@ -4410,6 +4733,23 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 ---
 
 
+## MathFraction([MathSubscriptElement](../../mathsubscriptelement) numerator, [MathFunction](../../mathfunction) denominator, int fractionType)  constructor
+
+ Initializes MathFraction with the specified numerator, denominator and type
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
+| denominator | [MathFunction](../mathfunction) | Denominator |
+| fractionType | int | Fraction type |
+
+
+---
+
+
 ## MathFraction([MathSubscriptElement](../../mathsubscriptelement) numerator, [MathSuperscriptElement](../../mathsuperscriptelement) denominator, int fractionType)  constructor
 
  Initializes MathFraction with the specified numerator, denominator and type
@@ -4444,7 +4784,7 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 ---
 
 
-## MathFraction([MathSubscriptElement](../../mathsubscriptelement) numerator, [MathFunction](../../mathfunction) denominator, int fractionType)  constructor
+## MathFraction([MathSubscriptElement](../../mathsubscriptelement) numerator, [MathematicalText](../../mathematicaltext) denominator, int fractionType)  constructor
 
  Initializes MathFraction with the specified numerator, denominator and type
  
@@ -4454,7 +4794,7 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 | Name | Type | Description |
 | --- | --- | --- |
 | numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
-| denominator | [MathFunction](../mathfunction) | Denominator |
+| denominator | [MathematicalText](../mathematicaltext) | Denominator |
 | fractionType | int | Fraction type |
 
 
@@ -4472,23 +4812,6 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 | --- | --- | --- |
 | numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
 | denominator | [MathFraction](../mathfraction) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([MathSubscriptElement](../../mathsubscriptelement) numerator, [MathematicalText](../../mathematicaltext) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
-| denominator | [MathematicalText](../mathematicaltext) | Denominator |
 | fractionType | int | Fraction type |
 
 
@@ -4522,652 +4845,6 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 | Name | Type | Description |
 | --- | --- | --- |
 | numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
-| denominator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([MathFunction](../../mathfunction) numerator, [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathFunction](../mathfunction) | Numerator |
-| denominator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([MathFunction](../../mathfunction) numerator, [MathMatrix](../../mathmatrix) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathFunction](../mathfunction) | Numerator |
-| denominator | [MathMatrix](../mathmatrix) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([MathFunction](../../mathfunction) numerator, [MathLimit](../../mathlimit) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathFunction](../mathfunction) | Numerator |
-| denominator | [MathLimit](../mathlimit) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([MathFunction](../../mathfunction) numerator, [MathBlock](../../mathblock) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathFunction](../mathfunction) | Numerator |
-| denominator | [MathBlock](../mathblock) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([MathFunction](../../mathfunction) numerator, [MathRadical](../../mathradical) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathFunction](../mathfunction) | Numerator |
-| denominator | [MathRadical](../mathradical) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([MathFunction](../../mathfunction) numerator, [MathArray](../../matharray) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathFunction](../mathfunction) | Numerator |
-| denominator | [MathArray](../matharray) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([MathFunction](../../mathfunction) numerator, [MathDelimiter](../../mathdelimiter) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathFunction](../mathfunction) | Numerator |
-| denominator | [MathDelimiter](../mathdelimiter) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([MathFunction](../../mathfunction) numerator, [MathAccent](../../mathaccent) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathFunction](../mathfunction) | Numerator |
-| denominator | [MathAccent](../mathaccent) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([MathFunction](../../mathfunction) numerator, [MathNaryOperator](../../mathnaryoperator) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathFunction](../mathfunction) | Numerator |
-| denominator | [MathNaryOperator](../mathnaryoperator) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([MathFunction](../../mathfunction) numerator, [MathBorderBox](../../mathborderbox) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathFunction](../mathfunction) | Numerator |
-| denominator | [MathBorderBox](../mathborderbox) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([MathFunction](../../mathfunction) numerator, [MathGroupingCharacter](../../mathgroupingcharacter) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathFunction](../mathfunction) | Numerator |
-| denominator | [MathGroupingCharacter](../mathgroupingcharacter) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([MathFunction](../../mathfunction) numerator, [MathBar](../../mathbar) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathFunction](../mathfunction) | Numerator |
-| denominator | [MathBar](../mathbar) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([MathFunction](../../mathfunction) numerator, [MathSuperscriptElement](../../mathsuperscriptelement) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathFunction](../mathfunction) | Numerator |
-| denominator | [MathSuperscriptElement](../mathsuperscriptelement) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([MathFunction](../../mathfunction) numerator, [MathSubscriptElement](../../mathsubscriptelement) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathFunction](../mathfunction) | Numerator |
-| denominator | [MathSubscriptElement](../mathsubscriptelement) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([MathFunction](../../mathfunction) numerator, [MathFunction](../../mathfunction) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathFunction](../mathfunction) | Numerator |
-| denominator | [MathFunction](../mathfunction) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([MathFunction](../../mathfunction) numerator, [MathFraction](../../mathfraction) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathFunction](../mathfunction) | Numerator |
-| denominator | [MathFraction](../mathfraction) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([MathFunction](../../mathfunction) numerator, [MathematicalText](../../mathematicaltext) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathFunction](../mathfunction) | Numerator |
-| denominator | [MathematicalText](../mathematicaltext) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([MathFunction](../../mathfunction) numerator, [MathBox](../../mathbox) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathFunction](../mathfunction) | Numerator |
-| denominator | [MathBox](../mathbox) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([MathFunction](../../mathfunction) numerator, [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathFunction](../mathfunction) | Numerator |
-| denominator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([MathFraction](../../mathfraction) numerator, [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathFraction](../mathfraction) | Numerator |
-| denominator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([MathFraction](../../mathfraction) numerator, [MathMatrix](../../mathmatrix) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathFraction](../mathfraction) | Numerator |
-| denominator | [MathMatrix](../mathmatrix) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([MathFraction](../../mathfraction) numerator, [MathLimit](../../mathlimit) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathFraction](../mathfraction) | Numerator |
-| denominator | [MathLimit](../mathlimit) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([MathFraction](../../mathfraction) numerator, [MathBlock](../../mathblock) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathFraction](../mathfraction) | Numerator |
-| denominator | [MathBlock](../mathblock) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([MathFraction](../../mathfraction) numerator, [MathRadical](../../mathradical) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathFraction](../mathfraction) | Numerator |
-| denominator | [MathRadical](../mathradical) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([MathFraction](../../mathfraction) numerator, [MathArray](../../matharray) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathFraction](../mathfraction) | Numerator |
-| denominator | [MathArray](../matharray) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([MathFraction](../../mathfraction) numerator, [MathDelimiter](../../mathdelimiter) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathFraction](../mathfraction) | Numerator |
-| denominator | [MathDelimiter](../mathdelimiter) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([MathFraction](../../mathfraction) numerator, [MathAccent](../../mathaccent) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathFraction](../mathfraction) | Numerator |
-| denominator | [MathAccent](../mathaccent) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([MathFraction](../../mathfraction) numerator, [MathNaryOperator](../../mathnaryoperator) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathFraction](../mathfraction) | Numerator |
-| denominator | [MathNaryOperator](../mathnaryoperator) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([MathFraction](../../mathfraction) numerator, [MathBorderBox](../../mathborderbox) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathFraction](../mathfraction) | Numerator |
-| denominator | [MathBorderBox](../mathborderbox) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([MathFraction](../../mathfraction) numerator, [MathGroupingCharacter](../../mathgroupingcharacter) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathFraction](../mathfraction) | Numerator |
-| denominator | [MathGroupingCharacter](../mathgroupingcharacter) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([MathFraction](../../mathfraction) numerator, [MathBar](../../mathbar) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathFraction](../mathfraction) | Numerator |
-| denominator | [MathBar](../mathbar) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([MathFraction](../../mathfraction) numerator, [MathSuperscriptElement](../../mathsuperscriptelement) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathFraction](../mathfraction) | Numerator |
-| denominator | [MathSuperscriptElement](../mathsuperscriptelement) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([MathFraction](../../mathfraction) numerator, [MathSubscriptElement](../../mathsubscriptelement) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathFraction](../mathfraction) | Numerator |
-| denominator | [MathSubscriptElement](../mathsubscriptelement) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([MathFraction](../../mathfraction) numerator, [MathFunction](../../mathfunction) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathFraction](../mathfraction) | Numerator |
-| denominator | [MathFunction](../mathfunction) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([MathFraction](../../mathfraction) numerator, [MathFraction](../../mathfraction) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathFraction](../mathfraction) | Numerator |
-| denominator | [MathFraction](../mathfraction) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([MathFraction](../../mathfraction) numerator, [MathematicalText](../../mathematicaltext) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathFraction](../mathfraction) | Numerator |
-| denominator | [MathematicalText](../mathematicaltext) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([MathFraction](../../mathfraction) numerator, [MathBox](../../mathbox) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathFraction](../mathfraction) | Numerator |
-| denominator | [MathBox](../mathbox) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([MathFraction](../../mathfraction) numerator, [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathFraction](../mathfraction) | Numerator |
 | denominator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Denominator |
 | fractionType | int | Fraction type |
 
@@ -5294,23 +4971,6 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 ---
 
 
-## MathFraction([MathematicalText](../../mathematicaltext) numerator, [MathAccent](../../mathaccent) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathematicalText](../mathematicaltext) | Numerator |
-| denominator | [MathAccent](../mathaccent) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
 ## MathFraction([MathematicalText](../../mathematicaltext) numerator, [MathNaryOperator](../../mathnaryoperator) denominator, int fractionType)  constructor
 
  Initializes MathFraction with the specified numerator, denominator and type
@@ -5322,6 +4982,23 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 | --- | --- | --- |
 | numerator | [MathematicalText](../mathematicaltext) | Numerator |
 | denominator | [MathNaryOperator](../mathnaryoperator) | Denominator |
+| fractionType | int | Fraction type |
+
+
+---
+
+
+## MathFraction([MathematicalText](../../mathematicaltext) numerator, [MathAccent](../../mathaccent) denominator, int fractionType)  constructor
+
+ Initializes MathFraction with the specified numerator, denominator and type
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathematicalText](../mathematicaltext) | Numerator |
+| denominator | [MathAccent](../mathaccent) | Denominator |
 | fractionType | int | Fraction type |
 
 
@@ -5379,6 +5056,23 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 ---
 
 
+## MathFraction([MathematicalText](../../mathematicaltext) numerator, [MathFunction](../../mathfunction) denominator, int fractionType)  constructor
+
+ Initializes MathFraction with the specified numerator, denominator and type
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathematicalText](../mathematicaltext) | Numerator |
+| denominator | [MathFunction](../mathfunction) | Denominator |
+| fractionType | int | Fraction type |
+
+
+---
+
+
 ## MathFraction([MathematicalText](../../mathematicaltext) numerator, [MathSuperscriptElement](../../mathsuperscriptelement) denominator, int fractionType)  constructor
 
  Initializes MathFraction with the specified numerator, denominator and type
@@ -5413,7 +5107,7 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 ---
 
 
-## MathFraction([MathematicalText](../../mathematicaltext) numerator, [MathFunction](../../mathfunction) denominator, int fractionType)  constructor
+## MathFraction([MathematicalText](../../mathematicaltext) numerator, [MathematicalText](../../mathematicaltext) denominator, int fractionType)  constructor
 
  Initializes MathFraction with the specified numerator, denominator and type
  
@@ -5423,7 +5117,7 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 | Name | Type | Description |
 | --- | --- | --- |
 | numerator | [MathematicalText](../mathematicaltext) | Numerator |
-| denominator | [MathFunction](../mathfunction) | Denominator |
+| denominator | [MathematicalText](../mathematicaltext) | Denominator |
 | fractionType | int | Fraction type |
 
 
@@ -5441,23 +5135,6 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 | --- | --- | --- |
 | numerator | [MathematicalText](../mathematicaltext) | Numerator |
 | denominator | [MathFraction](../mathfraction) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([MathematicalText](../../mathematicaltext) numerator, [MathematicalText](../../mathematicaltext) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathematicalText](../mathematicaltext) | Numerator |
-| denominator | [MathematicalText](../mathematicaltext) | Denominator |
 | fractionType | int | Fraction type |
 
 
@@ -5491,6 +5168,329 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 | Name | Type | Description |
 | --- | --- | --- |
 | numerator | [MathematicalText](../mathematicaltext) | Numerator |
+| denominator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Denominator |
+| fractionType | int | Fraction type |
+
+
+---
+
+
+## MathFraction([MathFraction](../../mathfraction) numerator, [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) denominator, int fractionType)  constructor
+
+ Initializes MathFraction with the specified numerator, denominator and type
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathFraction](../mathfraction) | Numerator |
+| denominator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Denominator |
+| fractionType | int | Fraction type |
+
+
+---
+
+
+## MathFraction([MathFraction](../../mathfraction) numerator, [MathMatrix](../../mathmatrix) denominator, int fractionType)  constructor
+
+ Initializes MathFraction with the specified numerator, denominator and type
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathFraction](../mathfraction) | Numerator |
+| denominator | [MathMatrix](../mathmatrix) | Denominator |
+| fractionType | int | Fraction type |
+
+
+---
+
+
+## MathFraction([MathFraction](../../mathfraction) numerator, [MathLimit](../../mathlimit) denominator, int fractionType)  constructor
+
+ Initializes MathFraction with the specified numerator, denominator and type
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathFraction](../mathfraction) | Numerator |
+| denominator | [MathLimit](../mathlimit) | Denominator |
+| fractionType | int | Fraction type |
+
+
+---
+
+
+## MathFraction([MathFraction](../../mathfraction) numerator, [MathBlock](../../mathblock) denominator, int fractionType)  constructor
+
+ Initializes MathFraction with the specified numerator, denominator and type
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathFraction](../mathfraction) | Numerator |
+| denominator | [MathBlock](../mathblock) | Denominator |
+| fractionType | int | Fraction type |
+
+
+---
+
+
+## MathFraction([MathFraction](../../mathfraction) numerator, [MathRadical](../../mathradical) denominator, int fractionType)  constructor
+
+ Initializes MathFraction with the specified numerator, denominator and type
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathFraction](../mathfraction) | Numerator |
+| denominator | [MathRadical](../mathradical) | Denominator |
+| fractionType | int | Fraction type |
+
+
+---
+
+
+## MathFraction([MathFraction](../../mathfraction) numerator, [MathArray](../../matharray) denominator, int fractionType)  constructor
+
+ Initializes MathFraction with the specified numerator, denominator and type
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathFraction](../mathfraction) | Numerator |
+| denominator | [MathArray](../matharray) | Denominator |
+| fractionType | int | Fraction type |
+
+
+---
+
+
+## MathFraction([MathFraction](../../mathfraction) numerator, [MathDelimiter](../../mathdelimiter) denominator, int fractionType)  constructor
+
+ Initializes MathFraction with the specified numerator, denominator and type
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathFraction](../mathfraction) | Numerator |
+| denominator | [MathDelimiter](../mathdelimiter) | Denominator |
+| fractionType | int | Fraction type |
+
+
+---
+
+
+## MathFraction([MathFraction](../../mathfraction) numerator, [MathNaryOperator](../../mathnaryoperator) denominator, int fractionType)  constructor
+
+ Initializes MathFraction with the specified numerator, denominator and type
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathFraction](../mathfraction) | Numerator |
+| denominator | [MathNaryOperator](../mathnaryoperator) | Denominator |
+| fractionType | int | Fraction type |
+
+
+---
+
+
+## MathFraction([MathFraction](../../mathfraction) numerator, [MathAccent](../../mathaccent) denominator, int fractionType)  constructor
+
+ Initializes MathFraction with the specified numerator, denominator and type
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathFraction](../mathfraction) | Numerator |
+| denominator | [MathAccent](../mathaccent) | Denominator |
+| fractionType | int | Fraction type |
+
+
+---
+
+
+## MathFraction([MathFraction](../../mathfraction) numerator, [MathBorderBox](../../mathborderbox) denominator, int fractionType)  constructor
+
+ Initializes MathFraction with the specified numerator, denominator and type
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathFraction](../mathfraction) | Numerator |
+| denominator | [MathBorderBox](../mathborderbox) | Denominator |
+| fractionType | int | Fraction type |
+
+
+---
+
+
+## MathFraction([MathFraction](../../mathfraction) numerator, [MathGroupingCharacter](../../mathgroupingcharacter) denominator, int fractionType)  constructor
+
+ Initializes MathFraction with the specified numerator, denominator and type
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathFraction](../mathfraction) | Numerator |
+| denominator | [MathGroupingCharacter](../mathgroupingcharacter) | Denominator |
+| fractionType | int | Fraction type |
+
+
+---
+
+
+## MathFraction([MathFraction](../../mathfraction) numerator, [MathBar](../../mathbar) denominator, int fractionType)  constructor
+
+ Initializes MathFraction with the specified numerator, denominator and type
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathFraction](../mathfraction) | Numerator |
+| denominator | [MathBar](../mathbar) | Denominator |
+| fractionType | int | Fraction type |
+
+
+---
+
+
+## MathFraction([MathFraction](../../mathfraction) numerator, [MathFunction](../../mathfunction) denominator, int fractionType)  constructor
+
+ Initializes MathFraction with the specified numerator, denominator and type
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathFraction](../mathfraction) | Numerator |
+| denominator | [MathFunction](../mathfunction) | Denominator |
+| fractionType | int | Fraction type |
+
+
+---
+
+
+## MathFraction([MathFraction](../../mathfraction) numerator, [MathSuperscriptElement](../../mathsuperscriptelement) denominator, int fractionType)  constructor
+
+ Initializes MathFraction with the specified numerator, denominator and type
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathFraction](../mathfraction) | Numerator |
+| denominator | [MathSuperscriptElement](../mathsuperscriptelement) | Denominator |
+| fractionType | int | Fraction type |
+
+
+---
+
+
+## MathFraction([MathFraction](../../mathfraction) numerator, [MathSubscriptElement](../../mathsubscriptelement) denominator, int fractionType)  constructor
+
+ Initializes MathFraction with the specified numerator, denominator and type
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathFraction](../mathfraction) | Numerator |
+| denominator | [MathSubscriptElement](../mathsubscriptelement) | Denominator |
+| fractionType | int | Fraction type |
+
+
+---
+
+
+## MathFraction([MathFraction](../../mathfraction) numerator, [MathematicalText](../../mathematicaltext) denominator, int fractionType)  constructor
+
+ Initializes MathFraction with the specified numerator, denominator and type
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathFraction](../mathfraction) | Numerator |
+| denominator | [MathematicalText](../mathematicaltext) | Denominator |
+| fractionType | int | Fraction type |
+
+
+---
+
+
+## MathFraction([MathFraction](../../mathfraction) numerator, [MathFraction](../../mathfraction) denominator, int fractionType)  constructor
+
+ Initializes MathFraction with the specified numerator, denominator and type
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathFraction](../mathfraction) | Numerator |
+| denominator | [MathFraction](../mathfraction) | Denominator |
+| fractionType | int | Fraction type |
+
+
+---
+
+
+## MathFraction([MathFraction](../../mathfraction) numerator, [MathBox](../../mathbox) denominator, int fractionType)  constructor
+
+ Initializes MathFraction with the specified numerator, denominator and type
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathFraction](../mathfraction) | Numerator |
+| denominator | [MathBox](../mathbox) | Denominator |
+| fractionType | int | Fraction type |
+
+
+---
+
+
+## MathFraction([MathFraction](../../mathfraction) numerator, [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) denominator, int fractionType)  constructor
+
+ Initializes MathFraction with the specified numerator, denominator and type
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathFraction](../mathfraction) | Numerator |
 | denominator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Denominator |
 | fractionType | int | Fraction type |
 
@@ -5617,23 +5617,6 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 ---
 
 
-## MathFraction([MathBox](../../mathbox) numerator, [MathAccent](../../mathaccent) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathBox](../mathbox) | Numerator |
-| denominator | [MathAccent](../mathaccent) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
 ## MathFraction([MathBox](../../mathbox) numerator, [MathNaryOperator](../../mathnaryoperator) denominator, int fractionType)  constructor
 
  Initializes MathFraction with the specified numerator, denominator and type
@@ -5645,6 +5628,23 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 | --- | --- | --- |
 | numerator | [MathBox](../mathbox) | Numerator |
 | denominator | [MathNaryOperator](../mathnaryoperator) | Denominator |
+| fractionType | int | Fraction type |
+
+
+---
+
+
+## MathFraction([MathBox](../../mathbox) numerator, [MathAccent](../../mathaccent) denominator, int fractionType)  constructor
+
+ Initializes MathFraction with the specified numerator, denominator and type
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathBox](../mathbox) | Numerator |
+| denominator | [MathAccent](../mathaccent) | Denominator |
 | fractionType | int | Fraction type |
 
 
@@ -5702,6 +5702,23 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 ---
 
 
+## MathFraction([MathBox](../../mathbox) numerator, [MathFunction](../../mathfunction) denominator, int fractionType)  constructor
+
+ Initializes MathFraction with the specified numerator, denominator and type
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathBox](../mathbox) | Numerator |
+| denominator | [MathFunction](../mathfunction) | Denominator |
+| fractionType | int | Fraction type |
+
+
+---
+
+
 ## MathFraction([MathBox](../../mathbox) numerator, [MathSuperscriptElement](../../mathsuperscriptelement) denominator, int fractionType)  constructor
 
  Initializes MathFraction with the specified numerator, denominator and type
@@ -5736,7 +5753,7 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 ---
 
 
-## MathFraction([MathBox](../../mathbox) numerator, [MathFunction](../../mathfunction) denominator, int fractionType)  constructor
+## MathFraction([MathBox](../../mathbox) numerator, [MathematicalText](../../mathematicaltext) denominator, int fractionType)  constructor
 
  Initializes MathFraction with the specified numerator, denominator and type
  
@@ -5746,7 +5763,7 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 | Name | Type | Description |
 | --- | --- | --- |
 | numerator | [MathBox](../mathbox) | Numerator |
-| denominator | [MathFunction](../mathfunction) | Denominator |
+| denominator | [MathematicalText](../mathematicaltext) | Denominator |
 | fractionType | int | Fraction type |
 
 
@@ -5764,23 +5781,6 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 | --- | --- | --- |
 | numerator | [MathBox](../mathbox) | Numerator |
 | denominator | [MathFraction](../mathfraction) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([MathBox](../../mathbox) numerator, [MathematicalText](../../mathematicaltext) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathBox](../mathbox) | Numerator |
-| denominator | [MathematicalText](../mathematicaltext) | Denominator |
 | fractionType | int | Fraction type |
 
 
@@ -5940,23 +5940,6 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 ---
 
 
-## MathFraction([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) numerator, [MathAccent](../../mathaccent) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Numerator |
-| denominator | [MathAccent](../mathaccent) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
 ## MathFraction([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) numerator, [MathNaryOperator](../../mathnaryoperator) denominator, int fractionType)  constructor
 
  Initializes MathFraction with the specified numerator, denominator and type
@@ -5968,6 +5951,23 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 | --- | --- | --- |
 | numerator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Numerator |
 | denominator | [MathNaryOperator](../mathnaryoperator) | Denominator |
+| fractionType | int | Fraction type |
+
+
+---
+
+
+## MathFraction([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) numerator, [MathAccent](../../mathaccent) denominator, int fractionType)  constructor
+
+ Initializes MathFraction with the specified numerator, denominator and type
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Numerator |
+| denominator | [MathAccent](../mathaccent) | Denominator |
 | fractionType | int | Fraction type |
 
 
@@ -6025,6 +6025,23 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 ---
 
 
+## MathFraction([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) numerator, [MathFunction](../../mathfunction) denominator, int fractionType)  constructor
+
+ Initializes MathFraction with the specified numerator, denominator and type
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Numerator |
+| denominator | [MathFunction](../mathfunction) | Denominator |
+| fractionType | int | Fraction type |
+
+
+---
+
+
 ## MathFraction([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) numerator, [MathSuperscriptElement](../../mathsuperscriptelement) denominator, int fractionType)  constructor
 
  Initializes MathFraction with the specified numerator, denominator and type
@@ -6059,7 +6076,7 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 ---
 
 
-## MathFraction([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) numerator, [MathFunction](../../mathfunction) denominator, int fractionType)  constructor
+## MathFraction([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) numerator, [MathematicalText](../../mathematicaltext) denominator, int fractionType)  constructor
 
  Initializes MathFraction with the specified numerator, denominator and type
  
@@ -6069,7 +6086,7 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 | Name | Type | Description |
 | --- | --- | --- |
 | numerator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Numerator |
-| denominator | [MathFunction](../mathfunction) | Denominator |
+| denominator | [MathematicalText](../mathematicaltext) | Denominator |
 | fractionType | int | Fraction type |
 
 
@@ -6087,23 +6104,6 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 | --- | --- | --- |
 | numerator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Numerator |
 | denominator | [MathFraction](../mathfraction) | Denominator |
-| fractionType | int | Fraction type |
-
-
----
-
-
-## MathFraction([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) numerator, [MathematicalText](../../mathematicaltext) denominator, int fractionType)  constructor
-
- Initializes MathFraction with the specified numerator, denominator and type
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Numerator |
-| denominator | [MathematicalText](../mathematicaltext) | Denominator |
 | fractionType | int | Fraction type |
 
 
@@ -6256,22 +6256,6 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 ---
 
 
-## MathFraction([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) numerator, [MathAccent](../../mathaccent) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Numerator |
-| denominator | [MathAccent](../../mathaccent) | Denominator |
-
-
----
-
-
 ## MathFraction([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) numerator, [MathNaryOperator](../../mathnaryoperator) denominator)  constructor
 
  Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
@@ -6283,6 +6267,22 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 | --- | --- | --- |
 | numerator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Numerator |
 | denominator | [MathNaryOperator](../../mathnaryoperator) | Denominator |
+
+
+---
+
+
+## MathFraction([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) numerator, [MathAccent](../../mathaccent) denominator)  constructor
+
+ Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Numerator |
+| denominator | [MathAccent](../../mathaccent) | Denominator |
 
 
 ---
@@ -6336,6 +6336,22 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 ---
 
 
+## MathFraction([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) numerator, [MathFunction](../../mathfunction) denominator)  constructor
+
+ Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Numerator |
+| denominator | [MathFunction](../../mathfunction) | Denominator |
+
+
+---
+
+
 ## MathFraction([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) numerator, [MathSuperscriptElement](../../mathsuperscriptelement) denominator)  constructor
 
  Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
@@ -6368,7 +6384,7 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 ---
 
 
-## MathFraction([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) numerator, [MathFunction](../../mathfunction) denominator)  constructor
+## MathFraction([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) numerator, [MathematicalText](../../mathematicaltext) denominator)  constructor
 
  Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
  
@@ -6378,7 +6394,7 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 | Name | Type | Description |
 | --- | --- | --- |
 | numerator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Numerator |
-| denominator | [MathFunction](../../mathfunction) | Denominator |
+| denominator | [MathematicalText](../../mathematicaltext) | Denominator |
 
 
 ---
@@ -6395,22 +6411,6 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 | --- | --- | --- |
 | numerator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Numerator |
 | denominator | [MathFraction](../../mathfraction) | Denominator |
-
-
----
-
-
-## MathFraction([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) numerator, [MathematicalText](../../mathematicaltext) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Numerator |
-| denominator | [MathematicalText](../../mathematicaltext) | Denominator |
 
 
 ---
@@ -6560,22 +6560,6 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 ---
 
 
-## MathFraction([MathMatrix](../../mathmatrix) numerator, [MathAccent](../../mathaccent) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathMatrix](../mathmatrix) | Numerator |
-| denominator | [MathAccent](../../mathaccent) | Denominator |
-
-
----
-
-
 ## MathFraction([MathMatrix](../../mathmatrix) numerator, [MathNaryOperator](../../mathnaryoperator) denominator)  constructor
 
  Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
@@ -6587,6 +6571,22 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 | --- | --- | --- |
 | numerator | [MathMatrix](../mathmatrix) | Numerator |
 | denominator | [MathNaryOperator](../../mathnaryoperator) | Denominator |
+
+
+---
+
+
+## MathFraction([MathMatrix](../../mathmatrix) numerator, [MathAccent](../../mathaccent) denominator)  constructor
+
+ Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathMatrix](../mathmatrix) | Numerator |
+| denominator | [MathAccent](../../mathaccent) | Denominator |
 
 
 ---
@@ -6640,6 +6640,22 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 ---
 
 
+## MathFraction([MathMatrix](../../mathmatrix) numerator, [MathFunction](../../mathfunction) denominator)  constructor
+
+ Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathMatrix](../mathmatrix) | Numerator |
+| denominator | [MathFunction](../../mathfunction) | Denominator |
+
+
+---
+
+
 ## MathFraction([MathMatrix](../../mathmatrix) numerator, [MathSuperscriptElement](../../mathsuperscriptelement) denominator)  constructor
 
  Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
@@ -6672,7 +6688,7 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 ---
 
 
-## MathFraction([MathMatrix](../../mathmatrix) numerator, [MathFunction](../../mathfunction) denominator)  constructor
+## MathFraction([MathMatrix](../../mathmatrix) numerator, [MathematicalText](../../mathematicaltext) denominator)  constructor
 
  Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
  
@@ -6682,7 +6698,7 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 | Name | Type | Description |
 | --- | --- | --- |
 | numerator | [MathMatrix](../mathmatrix) | Numerator |
-| denominator | [MathFunction](../../mathfunction) | Denominator |
+| denominator | [MathematicalText](../../mathematicaltext) | Denominator |
 
 
 ---
@@ -6699,22 +6715,6 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 | --- | --- | --- |
 | numerator | [MathMatrix](../mathmatrix) | Numerator |
 | denominator | [MathFraction](../../mathfraction) | Denominator |
-
-
----
-
-
-## MathFraction([MathMatrix](../../mathmatrix) numerator, [MathematicalText](../../mathematicaltext) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathMatrix](../mathmatrix) | Numerator |
-| denominator | [MathematicalText](../../mathematicaltext) | Denominator |
 
 
 ---
@@ -6864,22 +6864,6 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 ---
 
 
-## MathFraction([MathLimit](../../mathlimit) numerator, [MathAccent](../../mathaccent) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathLimit](../mathlimit) | Numerator |
-| denominator | [MathAccent](../../mathaccent) | Denominator |
-
-
----
-
-
 ## MathFraction([MathLimit](../../mathlimit) numerator, [MathNaryOperator](../../mathnaryoperator) denominator)  constructor
 
  Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
@@ -6891,6 +6875,22 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 | --- | --- | --- |
 | numerator | [MathLimit](../mathlimit) | Numerator |
 | denominator | [MathNaryOperator](../../mathnaryoperator) | Denominator |
+
+
+---
+
+
+## MathFraction([MathLimit](../../mathlimit) numerator, [MathAccent](../../mathaccent) denominator)  constructor
+
+ Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathLimit](../mathlimit) | Numerator |
+| denominator | [MathAccent](../../mathaccent) | Denominator |
 
 
 ---
@@ -6944,6 +6944,22 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 ---
 
 
+## MathFraction([MathLimit](../../mathlimit) numerator, [MathFunction](../../mathfunction) denominator)  constructor
+
+ Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathLimit](../mathlimit) | Numerator |
+| denominator | [MathFunction](../../mathfunction) | Denominator |
+
+
+---
+
+
 ## MathFraction([MathLimit](../../mathlimit) numerator, [MathSuperscriptElement](../../mathsuperscriptelement) denominator)  constructor
 
  Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
@@ -6976,7 +6992,7 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 ---
 
 
-## MathFraction([MathLimit](../../mathlimit) numerator, [MathFunction](../../mathfunction) denominator)  constructor
+## MathFraction([MathLimit](../../mathlimit) numerator, [MathematicalText](../../mathematicaltext) denominator)  constructor
 
  Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
  
@@ -6986,7 +7002,7 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 | Name | Type | Description |
 | --- | --- | --- |
 | numerator | [MathLimit](../mathlimit) | Numerator |
-| denominator | [MathFunction](../../mathfunction) | Denominator |
+| denominator | [MathematicalText](../../mathematicaltext) | Denominator |
 
 
 ---
@@ -7003,22 +7019,6 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 | --- | --- | --- |
 | numerator | [MathLimit](../mathlimit) | Numerator |
 | denominator | [MathFraction](../../mathfraction) | Denominator |
-
-
----
-
-
-## MathFraction([MathLimit](../../mathlimit) numerator, [MathematicalText](../../mathematicaltext) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathLimit](../mathlimit) | Numerator |
-| denominator | [MathematicalText](../../mathematicaltext) | Denominator |
 
 
 ---
@@ -7168,22 +7168,6 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 ---
 
 
-## MathFraction([MathBlock](../../mathblock) numerator, [MathAccent](../../mathaccent) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathBlock](../mathblock) | Numerator |
-| denominator | [MathAccent](../../mathaccent) | Denominator |
-
-
----
-
-
 ## MathFraction([MathBlock](../../mathblock) numerator, [MathNaryOperator](../../mathnaryoperator) denominator)  constructor
 
  Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
@@ -7195,6 +7179,22 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 | --- | --- | --- |
 | numerator | [MathBlock](../mathblock) | Numerator |
 | denominator | [MathNaryOperator](../../mathnaryoperator) | Denominator |
+
+
+---
+
+
+## MathFraction([MathBlock](../../mathblock) numerator, [MathAccent](../../mathaccent) denominator)  constructor
+
+ Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathBlock](../mathblock) | Numerator |
+| denominator | [MathAccent](../../mathaccent) | Denominator |
 
 
 ---
@@ -7248,6 +7248,22 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 ---
 
 
+## MathFraction([MathBlock](../../mathblock) numerator, [MathFunction](../../mathfunction) denominator)  constructor
+
+ Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathBlock](../mathblock) | Numerator |
+| denominator | [MathFunction](../../mathfunction) | Denominator |
+
+
+---
+
+
 ## MathFraction([MathBlock](../../mathblock) numerator, [MathSuperscriptElement](../../mathsuperscriptelement) denominator)  constructor
 
  Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
@@ -7280,7 +7296,7 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 ---
 
 
-## MathFraction([MathBlock](../../mathblock) numerator, [MathFunction](../../mathfunction) denominator)  constructor
+## MathFraction([MathBlock](../../mathblock) numerator, [MathematicalText](../../mathematicaltext) denominator)  constructor
 
  Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
  
@@ -7290,7 +7306,7 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 | Name | Type | Description |
 | --- | --- | --- |
 | numerator | [MathBlock](../mathblock) | Numerator |
-| denominator | [MathFunction](../../mathfunction) | Denominator |
+| denominator | [MathematicalText](../../mathematicaltext) | Denominator |
 
 
 ---
@@ -7307,22 +7323,6 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 | --- | --- | --- |
 | numerator | [MathBlock](../mathblock) | Numerator |
 | denominator | [MathFraction](../../mathfraction) | Denominator |
-
-
----
-
-
-## MathFraction([MathBlock](../../mathblock) numerator, [MathematicalText](../../mathematicaltext) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathBlock](../mathblock) | Numerator |
-| denominator | [MathematicalText](../../mathematicaltext) | Denominator |
 
 
 ---
@@ -7472,22 +7472,6 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 ---
 
 
-## MathFraction([MathRadical](../../mathradical) numerator, [MathAccent](../../mathaccent) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathRadical](../mathradical) | Numerator |
-| denominator | [MathAccent](../../mathaccent) | Denominator |
-
-
----
-
-
 ## MathFraction([MathRadical](../../mathradical) numerator, [MathNaryOperator](../../mathnaryoperator) denominator)  constructor
 
  Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
@@ -7499,6 +7483,22 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 | --- | --- | --- |
 | numerator | [MathRadical](../mathradical) | Numerator |
 | denominator | [MathNaryOperator](../../mathnaryoperator) | Denominator |
+
+
+---
+
+
+## MathFraction([MathRadical](../../mathradical) numerator, [MathAccent](../../mathaccent) denominator)  constructor
+
+ Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathRadical](../mathradical) | Numerator |
+| denominator | [MathAccent](../../mathaccent) | Denominator |
 
 
 ---
@@ -7552,6 +7552,22 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 ---
 
 
+## MathFraction([MathRadical](../../mathradical) numerator, [MathFunction](../../mathfunction) denominator)  constructor
+
+ Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathRadical](../mathradical) | Numerator |
+| denominator | [MathFunction](../../mathfunction) | Denominator |
+
+
+---
+
+
 ## MathFraction([MathRadical](../../mathradical) numerator, [MathSuperscriptElement](../../mathsuperscriptelement) denominator)  constructor
 
  Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
@@ -7584,7 +7600,7 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 ---
 
 
-## MathFraction([MathRadical](../../mathradical) numerator, [MathFunction](../../mathfunction) denominator)  constructor
+## MathFraction([MathRadical](../../mathradical) numerator, [MathematicalText](../../mathematicaltext) denominator)  constructor
 
  Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
  
@@ -7594,7 +7610,7 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 | Name | Type | Description |
 | --- | --- | --- |
 | numerator | [MathRadical](../mathradical) | Numerator |
-| denominator | [MathFunction](../../mathfunction) | Denominator |
+| denominator | [MathematicalText](../../mathematicaltext) | Denominator |
 
 
 ---
@@ -7611,22 +7627,6 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 | --- | --- | --- |
 | numerator | [MathRadical](../mathradical) | Numerator |
 | denominator | [MathFraction](../../mathfraction) | Denominator |
-
-
----
-
-
-## MathFraction([MathRadical](../../mathradical) numerator, [MathematicalText](../../mathematicaltext) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathRadical](../mathradical) | Numerator |
-| denominator | [MathematicalText](../../mathematicaltext) | Denominator |
 
 
 ---
@@ -7776,22 +7776,6 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 ---
 
 
-## MathFraction([MathArray](../../matharray) numerator, [MathAccent](../../mathaccent) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathArray](../matharray) | Numerator |
-| denominator | [MathAccent](../../mathaccent) | Denominator |
-
-
----
-
-
 ## MathFraction([MathArray](../../matharray) numerator, [MathNaryOperator](../../mathnaryoperator) denominator)  constructor
 
  Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
@@ -7803,6 +7787,22 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 | --- | --- | --- |
 | numerator | [MathArray](../matharray) | Numerator |
 | denominator | [MathNaryOperator](../../mathnaryoperator) | Denominator |
+
+
+---
+
+
+## MathFraction([MathArray](../../matharray) numerator, [MathAccent](../../mathaccent) denominator)  constructor
+
+ Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathArray](../matharray) | Numerator |
+| denominator | [MathAccent](../../mathaccent) | Denominator |
 
 
 ---
@@ -7856,6 +7856,22 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 ---
 
 
+## MathFraction([MathArray](../../matharray) numerator, [MathFunction](../../mathfunction) denominator)  constructor
+
+ Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathArray](../matharray) | Numerator |
+| denominator | [MathFunction](../../mathfunction) | Denominator |
+
+
+---
+
+
 ## MathFraction([MathArray](../../matharray) numerator, [MathSuperscriptElement](../../mathsuperscriptelement) denominator)  constructor
 
  Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
@@ -7888,7 +7904,7 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 ---
 
 
-## MathFraction([MathArray](../../matharray) numerator, [MathFunction](../../mathfunction) denominator)  constructor
+## MathFraction([MathArray](../../matharray) numerator, [MathematicalText](../../mathematicaltext) denominator)  constructor
 
  Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
  
@@ -7898,7 +7914,7 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 | Name | Type | Description |
 | --- | --- | --- |
 | numerator | [MathArray](../matharray) | Numerator |
-| denominator | [MathFunction](../../mathfunction) | Denominator |
+| denominator | [MathematicalText](../../mathematicaltext) | Denominator |
 
 
 ---
@@ -7915,22 +7931,6 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 | --- | --- | --- |
 | numerator | [MathArray](../matharray) | Numerator |
 | denominator | [MathFraction](../../mathfraction) | Denominator |
-
-
----
-
-
-## MathFraction([MathArray](../../matharray) numerator, [MathematicalText](../../mathematicaltext) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathArray](../matharray) | Numerator |
-| denominator | [MathematicalText](../../mathematicaltext) | Denominator |
 
 
 ---
@@ -8080,22 +8080,6 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 ---
 
 
-## MathFraction([MathDelimiter](../../mathdelimiter) numerator, [MathAccent](../../mathaccent) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathDelimiter](../mathdelimiter) | Numerator |
-| denominator | [MathAccent](../../mathaccent) | Denominator |
-
-
----
-
-
 ## MathFraction([MathDelimiter](../../mathdelimiter) numerator, [MathNaryOperator](../../mathnaryoperator) denominator)  constructor
 
  Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
@@ -8107,6 +8091,22 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 | --- | --- | --- |
 | numerator | [MathDelimiter](../mathdelimiter) | Numerator |
 | denominator | [MathNaryOperator](../../mathnaryoperator) | Denominator |
+
+
+---
+
+
+## MathFraction([MathDelimiter](../../mathdelimiter) numerator, [MathAccent](../../mathaccent) denominator)  constructor
+
+ Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathDelimiter](../mathdelimiter) | Numerator |
+| denominator | [MathAccent](../../mathaccent) | Denominator |
 
 
 ---
@@ -8160,6 +8160,22 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 ---
 
 
+## MathFraction([MathDelimiter](../../mathdelimiter) numerator, [MathFunction](../../mathfunction) denominator)  constructor
+
+ Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathDelimiter](../mathdelimiter) | Numerator |
+| denominator | [MathFunction](../../mathfunction) | Denominator |
+
+
+---
+
+
 ## MathFraction([MathDelimiter](../../mathdelimiter) numerator, [MathSuperscriptElement](../../mathsuperscriptelement) denominator)  constructor
 
  Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
@@ -8192,7 +8208,7 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 ---
 
 
-## MathFraction([MathDelimiter](../../mathdelimiter) numerator, [MathFunction](../../mathfunction) denominator)  constructor
+## MathFraction([MathDelimiter](../../mathdelimiter) numerator, [MathematicalText](../../mathematicaltext) denominator)  constructor
 
  Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
  
@@ -8202,7 +8218,7 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 | Name | Type | Description |
 | --- | --- | --- |
 | numerator | [MathDelimiter](../mathdelimiter) | Numerator |
-| denominator | [MathFunction](../../mathfunction) | Denominator |
+| denominator | [MathematicalText](../../mathematicaltext) | Denominator |
 
 
 ---
@@ -8219,22 +8235,6 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 | --- | --- | --- |
 | numerator | [MathDelimiter](../mathdelimiter) | Numerator |
 | denominator | [MathFraction](../../mathfraction) | Denominator |
-
-
----
-
-
-## MathFraction([MathDelimiter](../../mathdelimiter) numerator, [MathematicalText](../../mathematicaltext) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathDelimiter](../mathdelimiter) | Numerator |
-| denominator | [MathematicalText](../../mathematicaltext) | Denominator |
 
 
 ---
@@ -8266,310 +8266,6 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 | Name | Type | Description |
 | --- | --- | --- |
 | numerator | [MathDelimiter](../mathdelimiter) | Numerator |
-| denominator | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | Denominator |
-
-
----
-
-
-## MathFraction([MathAccent](../../mathaccent) numerator, [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathAccent](../mathaccent) | Numerator |
-| denominator | [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) | Denominator |
-
-
----
-
-
-## MathFraction([MathAccent](../../mathaccent) numerator, [MathMatrix](../../mathmatrix) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathAccent](../mathaccent) | Numerator |
-| denominator | [MathMatrix](../../mathmatrix) | Denominator |
-
-
----
-
-
-## MathFraction([MathAccent](../../mathaccent) numerator, [MathLimit](../../mathlimit) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathAccent](../mathaccent) | Numerator |
-| denominator | [MathLimit](../../mathlimit) | Denominator |
-
-
----
-
-
-## MathFraction([MathAccent](../../mathaccent) numerator, [MathBlock](../../mathblock) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathAccent](../mathaccent) | Numerator |
-| denominator | [MathBlock](../../mathblock) | Denominator |
-
-
----
-
-
-## MathFraction([MathAccent](../../mathaccent) numerator, [MathRadical](../../mathradical) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathAccent](../mathaccent) | Numerator |
-| denominator | [MathRadical](../../mathradical) | Denominator |
-
-
----
-
-
-## MathFraction([MathAccent](../../mathaccent) numerator, [MathArray](../../matharray) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathAccent](../mathaccent) | Numerator |
-| denominator | [MathArray](../../matharray) | Denominator |
-
-
----
-
-
-## MathFraction([MathAccent](../../mathaccent) numerator, [MathDelimiter](../../mathdelimiter) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathAccent](../mathaccent) | Numerator |
-| denominator | [MathDelimiter](../../mathdelimiter) | Denominator |
-
-
----
-
-
-## MathFraction([MathAccent](../../mathaccent) numerator, [MathAccent](../../mathaccent) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathAccent](../mathaccent) | Numerator |
-| denominator | [MathAccent](../../mathaccent) | Denominator |
-
-
----
-
-
-## MathFraction([MathAccent](../../mathaccent) numerator, [MathNaryOperator](../../mathnaryoperator) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathAccent](../mathaccent) | Numerator |
-| denominator | [MathNaryOperator](../../mathnaryoperator) | Denominator |
-
-
----
-
-
-## MathFraction([MathAccent](../../mathaccent) numerator, [MathBorderBox](../../mathborderbox) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathAccent](../mathaccent) | Numerator |
-| denominator | [MathBorderBox](../../mathborderbox) | Denominator |
-
-
----
-
-
-## MathFraction([MathAccent](../../mathaccent) numerator, [MathGroupingCharacter](../../mathgroupingcharacter) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathAccent](../mathaccent) | Numerator |
-| denominator | [MathGroupingCharacter](../../mathgroupingcharacter) | Denominator |
-
-
----
-
-
-## MathFraction([MathAccent](../../mathaccent) numerator, [MathBar](../../mathbar) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathAccent](../mathaccent) | Numerator |
-| denominator | [MathBar](../../mathbar) | Denominator |
-
-
----
-
-
-## MathFraction([MathAccent](../../mathaccent) numerator, [MathSuperscriptElement](../../mathsuperscriptelement) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathAccent](../mathaccent) | Numerator |
-| denominator | [MathSuperscriptElement](../../mathsuperscriptelement) | Denominator |
-
-
----
-
-
-## MathFraction([MathAccent](../../mathaccent) numerator, [MathSubscriptElement](../../mathsubscriptelement) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathAccent](../mathaccent) | Numerator |
-| denominator | [MathSubscriptElement](../../mathsubscriptelement) | Denominator |
-
-
----
-
-
-## MathFraction([MathAccent](../../mathaccent) numerator, [MathFunction](../../mathfunction) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathAccent](../mathaccent) | Numerator |
-| denominator | [MathFunction](../../mathfunction) | Denominator |
-
-
----
-
-
-## MathFraction([MathAccent](../../mathaccent) numerator, [MathFraction](../../mathfraction) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathAccent](../mathaccent) | Numerator |
-| denominator | [MathFraction](../../mathfraction) | Denominator |
-
-
----
-
-
-## MathFraction([MathAccent](../../mathaccent) numerator, [MathematicalText](../../mathematicaltext) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathAccent](../mathaccent) | Numerator |
-| denominator | [MathematicalText](../../mathematicaltext) | Denominator |
-
-
----
-
-
-## MathFraction([MathAccent](../../mathaccent) numerator, [MathBox](../../mathbox) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathAccent](../mathaccent) | Numerator |
-| denominator | [MathBox](../../mathbox) | Denominator |
-
-
----
-
-
-## MathFraction([MathAccent](../../mathaccent) numerator, [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathAccent](../mathaccent) | Numerator |
 | denominator | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | Denominator |
 
 
@@ -8688,22 +8384,6 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 ---
 
 
-## MathFraction([MathNaryOperator](../../mathnaryoperator) numerator, [MathAccent](../../mathaccent) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathNaryOperator](../mathnaryoperator) | Numerator |
-| denominator | [MathAccent](../../mathaccent) | Denominator |
-
-
----
-
-
 ## MathFraction([MathNaryOperator](../../mathnaryoperator) numerator, [MathNaryOperator](../../mathnaryoperator) denominator)  constructor
 
  Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
@@ -8715,6 +8395,22 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 | --- | --- | --- |
 | numerator | [MathNaryOperator](../mathnaryoperator) | Numerator |
 | denominator | [MathNaryOperator](../../mathnaryoperator) | Denominator |
+
+
+---
+
+
+## MathFraction([MathNaryOperator](../../mathnaryoperator) numerator, [MathAccent](../../mathaccent) denominator)  constructor
+
+ Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathNaryOperator](../mathnaryoperator) | Numerator |
+| denominator | [MathAccent](../../mathaccent) | Denominator |
 
 
 ---
@@ -8768,6 +8464,22 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 ---
 
 
+## MathFraction([MathNaryOperator](../../mathnaryoperator) numerator, [MathFunction](../../mathfunction) denominator)  constructor
+
+ Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathNaryOperator](../mathnaryoperator) | Numerator |
+| denominator | [MathFunction](../../mathfunction) | Denominator |
+
+
+---
+
+
 ## MathFraction([MathNaryOperator](../../mathnaryoperator) numerator, [MathSuperscriptElement](../../mathsuperscriptelement) denominator)  constructor
 
  Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
@@ -8800,7 +8512,7 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 ---
 
 
-## MathFraction([MathNaryOperator](../../mathnaryoperator) numerator, [MathFunction](../../mathfunction) denominator)  constructor
+## MathFraction([MathNaryOperator](../../mathnaryoperator) numerator, [MathematicalText](../../mathematicaltext) denominator)  constructor
 
  Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
  
@@ -8810,7 +8522,7 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 | Name | Type | Description |
 | --- | --- | --- |
 | numerator | [MathNaryOperator](../mathnaryoperator) | Numerator |
-| denominator | [MathFunction](../../mathfunction) | Denominator |
+| denominator | [MathematicalText](../../mathematicaltext) | Denominator |
 
 
 ---
@@ -8827,22 +8539,6 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 | --- | --- | --- |
 | numerator | [MathNaryOperator](../mathnaryoperator) | Numerator |
 | denominator | [MathFraction](../../mathfraction) | Denominator |
-
-
----
-
-
-## MathFraction([MathNaryOperator](../../mathnaryoperator) numerator, [MathematicalText](../../mathematicaltext) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathNaryOperator](../mathnaryoperator) | Numerator |
-| denominator | [MathematicalText](../../mathematicaltext) | Denominator |
 
 
 ---
@@ -8874,6 +8570,310 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 | Name | Type | Description |
 | --- | --- | --- |
 | numerator | [MathNaryOperator](../mathnaryoperator) | Numerator |
+| denominator | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | Denominator |
+
+
+---
+
+
+## MathFraction([MathAccent](../../mathaccent) numerator, [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) denominator)  constructor
+
+ Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathAccent](../mathaccent) | Numerator |
+| denominator | [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) | Denominator |
+
+
+---
+
+
+## MathFraction([MathAccent](../../mathaccent) numerator, [MathMatrix](../../mathmatrix) denominator)  constructor
+
+ Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathAccent](../mathaccent) | Numerator |
+| denominator | [MathMatrix](../../mathmatrix) | Denominator |
+
+
+---
+
+
+## MathFraction([MathAccent](../../mathaccent) numerator, [MathLimit](../../mathlimit) denominator)  constructor
+
+ Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathAccent](../mathaccent) | Numerator |
+| denominator | [MathLimit](../../mathlimit) | Denominator |
+
+
+---
+
+
+## MathFraction([MathAccent](../../mathaccent) numerator, [MathBlock](../../mathblock) denominator)  constructor
+
+ Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathAccent](../mathaccent) | Numerator |
+| denominator | [MathBlock](../../mathblock) | Denominator |
+
+
+---
+
+
+## MathFraction([MathAccent](../../mathaccent) numerator, [MathRadical](../../mathradical) denominator)  constructor
+
+ Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathAccent](../mathaccent) | Numerator |
+| denominator | [MathRadical](../../mathradical) | Denominator |
+
+
+---
+
+
+## MathFraction([MathAccent](../../mathaccent) numerator, [MathArray](../../matharray) denominator)  constructor
+
+ Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathAccent](../mathaccent) | Numerator |
+| denominator | [MathArray](../../matharray) | Denominator |
+
+
+---
+
+
+## MathFraction([MathAccent](../../mathaccent) numerator, [MathDelimiter](../../mathdelimiter) denominator)  constructor
+
+ Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathAccent](../mathaccent) | Numerator |
+| denominator | [MathDelimiter](../../mathdelimiter) | Denominator |
+
+
+---
+
+
+## MathFraction([MathAccent](../../mathaccent) numerator, [MathNaryOperator](../../mathnaryoperator) denominator)  constructor
+
+ Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathAccent](../mathaccent) | Numerator |
+| denominator | [MathNaryOperator](../../mathnaryoperator) | Denominator |
+
+
+---
+
+
+## MathFraction([MathAccent](../../mathaccent) numerator, [MathAccent](../../mathaccent) denominator)  constructor
+
+ Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathAccent](../mathaccent) | Numerator |
+| denominator | [MathAccent](../../mathaccent) | Denominator |
+
+
+---
+
+
+## MathFraction([MathAccent](../../mathaccent) numerator, [MathBorderBox](../../mathborderbox) denominator)  constructor
+
+ Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathAccent](../mathaccent) | Numerator |
+| denominator | [MathBorderBox](../../mathborderbox) | Denominator |
+
+
+---
+
+
+## MathFraction([MathAccent](../../mathaccent) numerator, [MathGroupingCharacter](../../mathgroupingcharacter) denominator)  constructor
+
+ Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathAccent](../mathaccent) | Numerator |
+| denominator | [MathGroupingCharacter](../../mathgroupingcharacter) | Denominator |
+
+
+---
+
+
+## MathFraction([MathAccent](../../mathaccent) numerator, [MathBar](../../mathbar) denominator)  constructor
+
+ Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathAccent](../mathaccent) | Numerator |
+| denominator | [MathBar](../../mathbar) | Denominator |
+
+
+---
+
+
+## MathFraction([MathAccent](../../mathaccent) numerator, [MathFunction](../../mathfunction) denominator)  constructor
+
+ Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathAccent](../mathaccent) | Numerator |
+| denominator | [MathFunction](../../mathfunction) | Denominator |
+
+
+---
+
+
+## MathFraction([MathAccent](../../mathaccent) numerator, [MathSuperscriptElement](../../mathsuperscriptelement) denominator)  constructor
+
+ Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathAccent](../mathaccent) | Numerator |
+| denominator | [MathSuperscriptElement](../../mathsuperscriptelement) | Denominator |
+
+
+---
+
+
+## MathFraction([MathAccent](../../mathaccent) numerator, [MathSubscriptElement](../../mathsubscriptelement) denominator)  constructor
+
+ Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathAccent](../mathaccent) | Numerator |
+| denominator | [MathSubscriptElement](../../mathsubscriptelement) | Denominator |
+
+
+---
+
+
+## MathFraction([MathAccent](../../mathaccent) numerator, [MathematicalText](../../mathematicaltext) denominator)  constructor
+
+ Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathAccent](../mathaccent) | Numerator |
+| denominator | [MathematicalText](../../mathematicaltext) | Denominator |
+
+
+---
+
+
+## MathFraction([MathAccent](../../mathaccent) numerator, [MathFraction](../../mathfraction) denominator)  constructor
+
+ Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathAccent](../mathaccent) | Numerator |
+| denominator | [MathFraction](../../mathfraction) | Denominator |
+
+
+---
+
+
+## MathFraction([MathAccent](../../mathaccent) numerator, [MathBox](../../mathbox) denominator)  constructor
+
+ Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathAccent](../mathaccent) | Numerator |
+| denominator | [MathBox](../../mathbox) | Denominator |
+
+
+---
+
+
+## MathFraction([MathAccent](../../mathaccent) numerator, [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) denominator)  constructor
+
+ Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathAccent](../mathaccent) | Numerator |
 | denominator | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | Denominator |
 
 
@@ -8992,22 +8992,6 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 ---
 
 
-## MathFraction([MathBorderBox](../../mathborderbox) numerator, [MathAccent](../../mathaccent) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathBorderBox](../mathborderbox) | Numerator |
-| denominator | [MathAccent](../../mathaccent) | Denominator |
-
-
----
-
-
 ## MathFraction([MathBorderBox](../../mathborderbox) numerator, [MathNaryOperator](../../mathnaryoperator) denominator)  constructor
 
  Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
@@ -9019,6 +9003,22 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 | --- | --- | --- |
 | numerator | [MathBorderBox](../mathborderbox) | Numerator |
 | denominator | [MathNaryOperator](../../mathnaryoperator) | Denominator |
+
+
+---
+
+
+## MathFraction([MathBorderBox](../../mathborderbox) numerator, [MathAccent](../../mathaccent) denominator)  constructor
+
+ Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathBorderBox](../mathborderbox) | Numerator |
+| denominator | [MathAccent](../../mathaccent) | Denominator |
 
 
 ---
@@ -9072,6 +9072,22 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 ---
 
 
+## MathFraction([MathBorderBox](../../mathborderbox) numerator, [MathFunction](../../mathfunction) denominator)  constructor
+
+ Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathBorderBox](../mathborderbox) | Numerator |
+| denominator | [MathFunction](../../mathfunction) | Denominator |
+
+
+---
+
+
 ## MathFraction([MathBorderBox](../../mathborderbox) numerator, [MathSuperscriptElement](../../mathsuperscriptelement) denominator)  constructor
 
  Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
@@ -9104,7 +9120,7 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 ---
 
 
-## MathFraction([MathBorderBox](../../mathborderbox) numerator, [MathFunction](../../mathfunction) denominator)  constructor
+## MathFraction([MathBorderBox](../../mathborderbox) numerator, [MathematicalText](../../mathematicaltext) denominator)  constructor
 
  Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
  
@@ -9114,7 +9130,7 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 | Name | Type | Description |
 | --- | --- | --- |
 | numerator | [MathBorderBox](../mathborderbox) | Numerator |
-| denominator | [MathFunction](../../mathfunction) | Denominator |
+| denominator | [MathematicalText](../../mathematicaltext) | Denominator |
 
 
 ---
@@ -9131,22 +9147,6 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 | --- | --- | --- |
 | numerator | [MathBorderBox](../mathborderbox) | Numerator |
 | denominator | [MathFraction](../../mathfraction) | Denominator |
-
-
----
-
-
-## MathFraction([MathBorderBox](../../mathborderbox) numerator, [MathematicalText](../../mathematicaltext) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathBorderBox](../mathborderbox) | Numerator |
-| denominator | [MathematicalText](../../mathematicaltext) | Denominator |
 
 
 ---
@@ -9296,22 +9296,6 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 ---
 
 
-## MathFraction([MathGroupingCharacter](../../mathgroupingcharacter) numerator, [MathAccent](../../mathaccent) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
-| denominator | [MathAccent](../../mathaccent) | Denominator |
-
-
----
-
-
 ## MathFraction([MathGroupingCharacter](../../mathgroupingcharacter) numerator, [MathNaryOperator](../../mathnaryoperator) denominator)  constructor
 
  Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
@@ -9323,6 +9307,22 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 | --- | --- | --- |
 | numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
 | denominator | [MathNaryOperator](../../mathnaryoperator) | Denominator |
+
+
+---
+
+
+## MathFraction([MathGroupingCharacter](../../mathgroupingcharacter) numerator, [MathAccent](../../mathaccent) denominator)  constructor
+
+ Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
+| denominator | [MathAccent](../../mathaccent) | Denominator |
 
 
 ---
@@ -9376,6 +9376,22 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 ---
 
 
+## MathFraction([MathGroupingCharacter](../../mathgroupingcharacter) numerator, [MathFunction](../../mathfunction) denominator)  constructor
+
+ Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
+| denominator | [MathFunction](../../mathfunction) | Denominator |
+
+
+---
+
+
 ## MathFraction([MathGroupingCharacter](../../mathgroupingcharacter) numerator, [MathSuperscriptElement](../../mathsuperscriptelement) denominator)  constructor
 
  Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
@@ -9408,7 +9424,7 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 ---
 
 
-## MathFraction([MathGroupingCharacter](../../mathgroupingcharacter) numerator, [MathFunction](../../mathfunction) denominator)  constructor
+## MathFraction([MathGroupingCharacter](../../mathgroupingcharacter) numerator, [MathematicalText](../../mathematicaltext) denominator)  constructor
 
  Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
  
@@ -9418,7 +9434,7 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 | Name | Type | Description |
 | --- | --- | --- |
 | numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
-| denominator | [MathFunction](../../mathfunction) | Denominator |
+| denominator | [MathematicalText](../../mathematicaltext) | Denominator |
 
 
 ---
@@ -9435,22 +9451,6 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 | --- | --- | --- |
 | numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
 | denominator | [MathFraction](../../mathfraction) | Denominator |
-
-
----
-
-
-## MathFraction([MathGroupingCharacter](../../mathgroupingcharacter) numerator, [MathematicalText](../../mathematicaltext) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
-| denominator | [MathematicalText](../../mathematicaltext) | Denominator |
 
 
 ---
@@ -9600,22 +9600,6 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 ---
 
 
-## MathFraction([MathBar](../../mathbar) numerator, [MathAccent](../../mathaccent) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathBar](../mathbar) | Numerator |
-| denominator | [MathAccent](../../mathaccent) | Denominator |
-
-
----
-
-
 ## MathFraction([MathBar](../../mathbar) numerator, [MathNaryOperator](../../mathnaryoperator) denominator)  constructor
 
  Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
@@ -9627,6 +9611,22 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 | --- | --- | --- |
 | numerator | [MathBar](../mathbar) | Numerator |
 | denominator | [MathNaryOperator](../../mathnaryoperator) | Denominator |
+
+
+---
+
+
+## MathFraction([MathBar](../../mathbar) numerator, [MathAccent](../../mathaccent) denominator)  constructor
+
+ Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathBar](../mathbar) | Numerator |
+| denominator | [MathAccent](../../mathaccent) | Denominator |
 
 
 ---
@@ -9680,6 +9680,22 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 ---
 
 
+## MathFraction([MathBar](../../mathbar) numerator, [MathFunction](../../mathfunction) denominator)  constructor
+
+ Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathBar](../mathbar) | Numerator |
+| denominator | [MathFunction](../../mathfunction) | Denominator |
+
+
+---
+
+
 ## MathFraction([MathBar](../../mathbar) numerator, [MathSuperscriptElement](../../mathsuperscriptelement) denominator)  constructor
 
  Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
@@ -9712,7 +9728,7 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 ---
 
 
-## MathFraction([MathBar](../../mathbar) numerator, [MathFunction](../../mathfunction) denominator)  constructor
+## MathFraction([MathBar](../../mathbar) numerator, [MathematicalText](../../mathematicaltext) denominator)  constructor
 
  Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
  
@@ -9722,7 +9738,7 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 | Name | Type | Description |
 | --- | --- | --- |
 | numerator | [MathBar](../mathbar) | Numerator |
-| denominator | [MathFunction](../../mathfunction) | Denominator |
+| denominator | [MathematicalText](../../mathematicaltext) | Denominator |
 
 
 ---
@@ -9739,22 +9755,6 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 | --- | --- | --- |
 | numerator | [MathBar](../mathbar) | Numerator |
 | denominator | [MathFraction](../../mathfraction) | Denominator |
-
-
----
-
-
-## MathFraction([MathBar](../../mathbar) numerator, [MathematicalText](../../mathematicaltext) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathBar](../mathbar) | Numerator |
-| denominator | [MathematicalText](../../mathematicaltext) | Denominator |
 
 
 ---
@@ -9786,6 +9786,310 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 | Name | Type | Description |
 | --- | --- | --- |
 | numerator | [MathBar](../mathbar) | Numerator |
+| denominator | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | Denominator |
+
+
+---
+
+
+## MathFraction([MathFunction](../../mathfunction) numerator, [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) denominator)  constructor
+
+ Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathFunction](../mathfunction) | Numerator |
+| denominator | [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) | Denominator |
+
+
+---
+
+
+## MathFraction([MathFunction](../../mathfunction) numerator, [MathMatrix](../../mathmatrix) denominator)  constructor
+
+ Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathFunction](../mathfunction) | Numerator |
+| denominator | [MathMatrix](../../mathmatrix) | Denominator |
+
+
+---
+
+
+## MathFraction([MathFunction](../../mathfunction) numerator, [MathLimit](../../mathlimit) denominator)  constructor
+
+ Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathFunction](../mathfunction) | Numerator |
+| denominator | [MathLimit](../../mathlimit) | Denominator |
+
+
+---
+
+
+## MathFraction([MathFunction](../../mathfunction) numerator, [MathBlock](../../mathblock) denominator)  constructor
+
+ Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathFunction](../mathfunction) | Numerator |
+| denominator | [MathBlock](../../mathblock) | Denominator |
+
+
+---
+
+
+## MathFraction([MathFunction](../../mathfunction) numerator, [MathRadical](../../mathradical) denominator)  constructor
+
+ Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathFunction](../mathfunction) | Numerator |
+| denominator | [MathRadical](../../mathradical) | Denominator |
+
+
+---
+
+
+## MathFraction([MathFunction](../../mathfunction) numerator, [MathArray](../../matharray) denominator)  constructor
+
+ Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathFunction](../mathfunction) | Numerator |
+| denominator | [MathArray](../../matharray) | Denominator |
+
+
+---
+
+
+## MathFraction([MathFunction](../../mathfunction) numerator, [MathDelimiter](../../mathdelimiter) denominator)  constructor
+
+ Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathFunction](../mathfunction) | Numerator |
+| denominator | [MathDelimiter](../../mathdelimiter) | Denominator |
+
+
+---
+
+
+## MathFraction([MathFunction](../../mathfunction) numerator, [MathNaryOperator](../../mathnaryoperator) denominator)  constructor
+
+ Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathFunction](../mathfunction) | Numerator |
+| denominator | [MathNaryOperator](../../mathnaryoperator) | Denominator |
+
+
+---
+
+
+## MathFraction([MathFunction](../../mathfunction) numerator, [MathAccent](../../mathaccent) denominator)  constructor
+
+ Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathFunction](../mathfunction) | Numerator |
+| denominator | [MathAccent](../../mathaccent) | Denominator |
+
+
+---
+
+
+## MathFraction([MathFunction](../../mathfunction) numerator, [MathBorderBox](../../mathborderbox) denominator)  constructor
+
+ Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathFunction](../mathfunction) | Numerator |
+| denominator | [MathBorderBox](../../mathborderbox) | Denominator |
+
+
+---
+
+
+## MathFraction([MathFunction](../../mathfunction) numerator, [MathGroupingCharacter](../../mathgroupingcharacter) denominator)  constructor
+
+ Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathFunction](../mathfunction) | Numerator |
+| denominator | [MathGroupingCharacter](../../mathgroupingcharacter) | Denominator |
+
+
+---
+
+
+## MathFraction([MathFunction](../../mathfunction) numerator, [MathBar](../../mathbar) denominator)  constructor
+
+ Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathFunction](../mathfunction) | Numerator |
+| denominator | [MathBar](../../mathbar) | Denominator |
+
+
+---
+
+
+## MathFraction([MathFunction](../../mathfunction) numerator, [MathFunction](../../mathfunction) denominator)  constructor
+
+ Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathFunction](../mathfunction) | Numerator |
+| denominator | [MathFunction](../../mathfunction) | Denominator |
+
+
+---
+
+
+## MathFraction([MathFunction](../../mathfunction) numerator, [MathSuperscriptElement](../../mathsuperscriptelement) denominator)  constructor
+
+ Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathFunction](../mathfunction) | Numerator |
+| denominator | [MathSuperscriptElement](../../mathsuperscriptelement) | Denominator |
+
+
+---
+
+
+## MathFraction([MathFunction](../../mathfunction) numerator, [MathSubscriptElement](../../mathsubscriptelement) denominator)  constructor
+
+ Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathFunction](../mathfunction) | Numerator |
+| denominator | [MathSubscriptElement](../../mathsubscriptelement) | Denominator |
+
+
+---
+
+
+## MathFraction([MathFunction](../../mathfunction) numerator, [MathematicalText](../../mathematicaltext) denominator)  constructor
+
+ Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathFunction](../mathfunction) | Numerator |
+| denominator | [MathematicalText](../../mathematicaltext) | Denominator |
+
+
+---
+
+
+## MathFraction([MathFunction](../../mathfunction) numerator, [MathFraction](../../mathfraction) denominator)  constructor
+
+ Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathFunction](../mathfunction) | Numerator |
+| denominator | [MathFraction](../../mathfraction) | Denominator |
+
+
+---
+
+
+## MathFraction([MathFunction](../../mathfunction) numerator, [MathBox](../../mathbox) denominator)  constructor
+
+ Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathFunction](../mathfunction) | Numerator |
+| denominator | [MathBox](../../mathbox) | Denominator |
+
+
+---
+
+
+## MathFraction([MathFunction](../../mathfunction) numerator, [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) denominator)  constructor
+
+ Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathFunction](../mathfunction) | Numerator |
 | denominator | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | Denominator |
 
 
@@ -9904,22 +10208,6 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 ---
 
 
-## MathFraction([MathSuperscriptElement](../../mathsuperscriptelement) numerator, [MathAccent](../../mathaccent) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathSuperscriptElement](../mathsuperscriptelement) | Numerator |
-| denominator | [MathAccent](../../mathaccent) | Denominator |
-
-
----
-
-
 ## MathFraction([MathSuperscriptElement](../../mathsuperscriptelement) numerator, [MathNaryOperator](../../mathnaryoperator) denominator)  constructor
 
  Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
@@ -9931,6 +10219,22 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 | --- | --- | --- |
 | numerator | [MathSuperscriptElement](../mathsuperscriptelement) | Numerator |
 | denominator | [MathNaryOperator](../../mathnaryoperator) | Denominator |
+
+
+---
+
+
+## MathFraction([MathSuperscriptElement](../../mathsuperscriptelement) numerator, [MathAccent](../../mathaccent) denominator)  constructor
+
+ Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathSuperscriptElement](../mathsuperscriptelement) | Numerator |
+| denominator | [MathAccent](../../mathaccent) | Denominator |
 
 
 ---
@@ -9984,6 +10288,22 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 ---
 
 
+## MathFraction([MathSuperscriptElement](../../mathsuperscriptelement) numerator, [MathFunction](../../mathfunction) denominator)  constructor
+
+ Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathSuperscriptElement](../mathsuperscriptelement) | Numerator |
+| denominator | [MathFunction](../../mathfunction) | Denominator |
+
+
+---
+
+
 ## MathFraction([MathSuperscriptElement](../../mathsuperscriptelement) numerator, [MathSuperscriptElement](../../mathsuperscriptelement) denominator)  constructor
 
  Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
@@ -10016,7 +10336,7 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 ---
 
 
-## MathFraction([MathSuperscriptElement](../../mathsuperscriptelement) numerator, [MathFunction](../../mathfunction) denominator)  constructor
+## MathFraction([MathSuperscriptElement](../../mathsuperscriptelement) numerator, [MathematicalText](../../mathematicaltext) denominator)  constructor
 
  Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
  
@@ -10026,7 +10346,7 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 | Name | Type | Description |
 | --- | --- | --- |
 | numerator | [MathSuperscriptElement](../mathsuperscriptelement) | Numerator |
-| denominator | [MathFunction](../../mathfunction) | Denominator |
+| denominator | [MathematicalText](../../mathematicaltext) | Denominator |
 
 
 ---
@@ -10043,22 +10363,6 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 | --- | --- | --- |
 | numerator | [MathSuperscriptElement](../mathsuperscriptelement) | Numerator |
 | denominator | [MathFraction](../../mathfraction) | Denominator |
-
-
----
-
-
-## MathFraction([MathSuperscriptElement](../../mathsuperscriptelement) numerator, [MathematicalText](../../mathematicaltext) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathSuperscriptElement](../mathsuperscriptelement) | Numerator |
-| denominator | [MathematicalText](../../mathematicaltext) | Denominator |
 
 
 ---
@@ -10208,22 +10512,6 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 ---
 
 
-## MathFraction([MathSubscriptElement](../../mathsubscriptelement) numerator, [MathAccent](../../mathaccent) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
-| denominator | [MathAccent](../../mathaccent) | Denominator |
-
-
----
-
-
 ## MathFraction([MathSubscriptElement](../../mathsubscriptelement) numerator, [MathNaryOperator](../../mathnaryoperator) denominator)  constructor
 
  Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
@@ -10235,6 +10523,22 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 | --- | --- | --- |
 | numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
 | denominator | [MathNaryOperator](../../mathnaryoperator) | Denominator |
+
+
+---
+
+
+## MathFraction([MathSubscriptElement](../../mathsubscriptelement) numerator, [MathAccent](../../mathaccent) denominator)  constructor
+
+ Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
+| denominator | [MathAccent](../../mathaccent) | Denominator |
 
 
 ---
@@ -10288,6 +10592,22 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 ---
 
 
+## MathFraction([MathSubscriptElement](../../mathsubscriptelement) numerator, [MathFunction](../../mathfunction) denominator)  constructor
+
+ Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
+| denominator | [MathFunction](../../mathfunction) | Denominator |
+
+
+---
+
+
 ## MathFraction([MathSubscriptElement](../../mathsubscriptelement) numerator, [MathSuperscriptElement](../../mathsuperscriptelement) denominator)  constructor
 
  Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
@@ -10320,7 +10640,7 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 ---
 
 
-## MathFraction([MathSubscriptElement](../../mathsubscriptelement) numerator, [MathFunction](../../mathfunction) denominator)  constructor
+## MathFraction([MathSubscriptElement](../../mathsubscriptelement) numerator, [MathematicalText](../../mathematicaltext) denominator)  constructor
 
  Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
  
@@ -10330,7 +10650,7 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 | Name | Type | Description |
 | --- | --- | --- |
 | numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
-| denominator | [MathFunction](../../mathfunction) | Denominator |
+| denominator | [MathematicalText](../../mathematicaltext) | Denominator |
 
 
 ---
@@ -10347,22 +10667,6 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 | --- | --- | --- |
 | numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
 | denominator | [MathFraction](../../mathfraction) | Denominator |
-
-
----
-
-
-## MathFraction([MathSubscriptElement](../../mathsubscriptelement) numerator, [MathematicalText](../../mathematicaltext) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
-| denominator | [MathematicalText](../../mathematicaltext) | Denominator |
 
 
 ---
@@ -10394,614 +10698,6 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 | Name | Type | Description |
 | --- | --- | --- |
 | numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
-| denominator | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | Denominator |
-
-
----
-
-
-## MathFraction([MathFunction](../../mathfunction) numerator, [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathFunction](../mathfunction) | Numerator |
-| denominator | [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) | Denominator |
-
-
----
-
-
-## MathFraction([MathFunction](../../mathfunction) numerator, [MathMatrix](../../mathmatrix) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathFunction](../mathfunction) | Numerator |
-| denominator | [MathMatrix](../../mathmatrix) | Denominator |
-
-
----
-
-
-## MathFraction([MathFunction](../../mathfunction) numerator, [MathLimit](../../mathlimit) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathFunction](../mathfunction) | Numerator |
-| denominator | [MathLimit](../../mathlimit) | Denominator |
-
-
----
-
-
-## MathFraction([MathFunction](../../mathfunction) numerator, [MathBlock](../../mathblock) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathFunction](../mathfunction) | Numerator |
-| denominator | [MathBlock](../../mathblock) | Denominator |
-
-
----
-
-
-## MathFraction([MathFunction](../../mathfunction) numerator, [MathRadical](../../mathradical) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathFunction](../mathfunction) | Numerator |
-| denominator | [MathRadical](../../mathradical) | Denominator |
-
-
----
-
-
-## MathFraction([MathFunction](../../mathfunction) numerator, [MathArray](../../matharray) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathFunction](../mathfunction) | Numerator |
-| denominator | [MathArray](../../matharray) | Denominator |
-
-
----
-
-
-## MathFraction([MathFunction](../../mathfunction) numerator, [MathDelimiter](../../mathdelimiter) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathFunction](../mathfunction) | Numerator |
-| denominator | [MathDelimiter](../../mathdelimiter) | Denominator |
-
-
----
-
-
-## MathFraction([MathFunction](../../mathfunction) numerator, [MathAccent](../../mathaccent) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathFunction](../mathfunction) | Numerator |
-| denominator | [MathAccent](../../mathaccent) | Denominator |
-
-
----
-
-
-## MathFraction([MathFunction](../../mathfunction) numerator, [MathNaryOperator](../../mathnaryoperator) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathFunction](../mathfunction) | Numerator |
-| denominator | [MathNaryOperator](../../mathnaryoperator) | Denominator |
-
-
----
-
-
-## MathFraction([MathFunction](../../mathfunction) numerator, [MathBorderBox](../../mathborderbox) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathFunction](../mathfunction) | Numerator |
-| denominator | [MathBorderBox](../../mathborderbox) | Denominator |
-
-
----
-
-
-## MathFraction([MathFunction](../../mathfunction) numerator, [MathGroupingCharacter](../../mathgroupingcharacter) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathFunction](../mathfunction) | Numerator |
-| denominator | [MathGroupingCharacter](../../mathgroupingcharacter) | Denominator |
-
-
----
-
-
-## MathFraction([MathFunction](../../mathfunction) numerator, [MathBar](../../mathbar) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathFunction](../mathfunction) | Numerator |
-| denominator | [MathBar](../../mathbar) | Denominator |
-
-
----
-
-
-## MathFraction([MathFunction](../../mathfunction) numerator, [MathSuperscriptElement](../../mathsuperscriptelement) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathFunction](../mathfunction) | Numerator |
-| denominator | [MathSuperscriptElement](../../mathsuperscriptelement) | Denominator |
-
-
----
-
-
-## MathFraction([MathFunction](../../mathfunction) numerator, [MathSubscriptElement](../../mathsubscriptelement) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathFunction](../mathfunction) | Numerator |
-| denominator | [MathSubscriptElement](../../mathsubscriptelement) | Denominator |
-
-
----
-
-
-## MathFraction([MathFunction](../../mathfunction) numerator, [MathFunction](../../mathfunction) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathFunction](../mathfunction) | Numerator |
-| denominator | [MathFunction](../../mathfunction) | Denominator |
-
-
----
-
-
-## MathFraction([MathFunction](../../mathfunction) numerator, [MathFraction](../../mathfraction) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathFunction](../mathfunction) | Numerator |
-| denominator | [MathFraction](../../mathfraction) | Denominator |
-
-
----
-
-
-## MathFraction([MathFunction](../../mathfunction) numerator, [MathematicalText](../../mathematicaltext) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathFunction](../mathfunction) | Numerator |
-| denominator | [MathematicalText](../../mathematicaltext) | Denominator |
-
-
----
-
-
-## MathFraction([MathFunction](../../mathfunction) numerator, [MathBox](../../mathbox) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathFunction](../mathfunction) | Numerator |
-| denominator | [MathBox](../../mathbox) | Denominator |
-
-
----
-
-
-## MathFraction([MathFunction](../../mathfunction) numerator, [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathFunction](../mathfunction) | Numerator |
-| denominator | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | Denominator |
-
-
----
-
-
-## MathFraction([MathFraction](../../mathfraction) numerator, [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathFraction](../mathfraction) | Numerator |
-| denominator | [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) | Denominator |
-
-
----
-
-
-## MathFraction([MathFraction](../../mathfraction) numerator, [MathMatrix](../../mathmatrix) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathFraction](../mathfraction) | Numerator |
-| denominator | [MathMatrix](../../mathmatrix) | Denominator |
-
-
----
-
-
-## MathFraction([MathFraction](../../mathfraction) numerator, [MathLimit](../../mathlimit) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathFraction](../mathfraction) | Numerator |
-| denominator | [MathLimit](../../mathlimit) | Denominator |
-
-
----
-
-
-## MathFraction([MathFraction](../../mathfraction) numerator, [MathBlock](../../mathblock) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathFraction](../mathfraction) | Numerator |
-| denominator | [MathBlock](../../mathblock) | Denominator |
-
-
----
-
-
-## MathFraction([MathFraction](../../mathfraction) numerator, [MathRadical](../../mathradical) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathFraction](../mathfraction) | Numerator |
-| denominator | [MathRadical](../../mathradical) | Denominator |
-
-
----
-
-
-## MathFraction([MathFraction](../../mathfraction) numerator, [MathArray](../../matharray) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathFraction](../mathfraction) | Numerator |
-| denominator | [MathArray](../../matharray) | Denominator |
-
-
----
-
-
-## MathFraction([MathFraction](../../mathfraction) numerator, [MathDelimiter](../../mathdelimiter) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathFraction](../mathfraction) | Numerator |
-| denominator | [MathDelimiter](../../mathdelimiter) | Denominator |
-
-
----
-
-
-## MathFraction([MathFraction](../../mathfraction) numerator, [MathAccent](../../mathaccent) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathFraction](../mathfraction) | Numerator |
-| denominator | [MathAccent](../../mathaccent) | Denominator |
-
-
----
-
-
-## MathFraction([MathFraction](../../mathfraction) numerator, [MathNaryOperator](../../mathnaryoperator) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathFraction](../mathfraction) | Numerator |
-| denominator | [MathNaryOperator](../../mathnaryoperator) | Denominator |
-
-
----
-
-
-## MathFraction([MathFraction](../../mathfraction) numerator, [MathBorderBox](../../mathborderbox) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathFraction](../mathfraction) | Numerator |
-| denominator | [MathBorderBox](../../mathborderbox) | Denominator |
-
-
----
-
-
-## MathFraction([MathFraction](../../mathfraction) numerator, [MathGroupingCharacter](../../mathgroupingcharacter) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathFraction](../mathfraction) | Numerator |
-| denominator | [MathGroupingCharacter](../../mathgroupingcharacter) | Denominator |
-
-
----
-
-
-## MathFraction([MathFraction](../../mathfraction) numerator, [MathBar](../../mathbar) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathFraction](../mathfraction) | Numerator |
-| denominator | [MathBar](../../mathbar) | Denominator |
-
-
----
-
-
-## MathFraction([MathFraction](../../mathfraction) numerator, [MathSuperscriptElement](../../mathsuperscriptelement) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathFraction](../mathfraction) | Numerator |
-| denominator | [MathSuperscriptElement](../../mathsuperscriptelement) | Denominator |
-
-
----
-
-
-## MathFraction([MathFraction](../../mathfraction) numerator, [MathSubscriptElement](../../mathsubscriptelement) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathFraction](../mathfraction) | Numerator |
-| denominator | [MathSubscriptElement](../../mathsubscriptelement) | Denominator |
-
-
----
-
-
-## MathFraction([MathFraction](../../mathfraction) numerator, [MathFunction](../../mathfunction) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathFraction](../mathfraction) | Numerator |
-| denominator | [MathFunction](../../mathfunction) | Denominator |
-
-
----
-
-
-## MathFraction([MathFraction](../../mathfraction) numerator, [MathFraction](../../mathfraction) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathFraction](../mathfraction) | Numerator |
-| denominator | [MathFraction](../../mathfraction) | Denominator |
-
-
----
-
-
-## MathFraction([MathFraction](../../mathfraction) numerator, [MathematicalText](../../mathematicaltext) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathFraction](../mathfraction) | Numerator |
-| denominator | [MathematicalText](../../mathematicaltext) | Denominator |
-
-
----
-
-
-## MathFraction([MathFraction](../../mathfraction) numerator, [MathBox](../../mathbox) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathFraction](../mathfraction) | Numerator |
-| denominator | [MathBox](../../mathbox) | Denominator |
-
-
----
-
-
-## MathFraction([MathFraction](../../mathfraction) numerator, [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathFraction](../mathfraction) | Numerator |
 | denominator | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | Denominator |
 
 
@@ -11120,22 +10816,6 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 ---
 
 
-## MathFraction([MathematicalText](../../mathematicaltext) numerator, [MathAccent](../../mathaccent) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathematicalText](../mathematicaltext) | Numerator |
-| denominator | [MathAccent](../../mathaccent) | Denominator |
-
-
----
-
-
 ## MathFraction([MathematicalText](../../mathematicaltext) numerator, [MathNaryOperator](../../mathnaryoperator) denominator)  constructor
 
  Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
@@ -11147,6 +10827,22 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 | --- | --- | --- |
 | numerator | [MathematicalText](../mathematicaltext) | Numerator |
 | denominator | [MathNaryOperator](../../mathnaryoperator) | Denominator |
+
+
+---
+
+
+## MathFraction([MathematicalText](../../mathematicaltext) numerator, [MathAccent](../../mathaccent) denominator)  constructor
+
+ Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathematicalText](../mathematicaltext) | Numerator |
+| denominator | [MathAccent](../../mathaccent) | Denominator |
 
 
 ---
@@ -11200,6 +10896,22 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 ---
 
 
+## MathFraction([MathematicalText](../../mathematicaltext) numerator, [MathFunction](../../mathfunction) denominator)  constructor
+
+ Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathematicalText](../mathematicaltext) | Numerator |
+| denominator | [MathFunction](../../mathfunction) | Denominator |
+
+
+---
+
+
 ## MathFraction([MathematicalText](../../mathematicaltext) numerator, [MathSuperscriptElement](../../mathsuperscriptelement) denominator)  constructor
 
  Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
@@ -11232,7 +10944,7 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 ---
 
 
-## MathFraction([MathematicalText](../../mathematicaltext) numerator, [MathFunction](../../mathfunction) denominator)  constructor
+## MathFraction([MathematicalText](../../mathematicaltext) numerator, [MathematicalText](../../mathematicaltext) denominator)  constructor
 
  Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
  
@@ -11242,7 +10954,7 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 | Name | Type | Description |
 | --- | --- | --- |
 | numerator | [MathematicalText](../mathematicaltext) | Numerator |
-| denominator | [MathFunction](../../mathfunction) | Denominator |
+| denominator | [MathematicalText](../../mathematicaltext) | Denominator |
 
 
 ---
@@ -11259,22 +10971,6 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 | --- | --- | --- |
 | numerator | [MathematicalText](../mathematicaltext) | Numerator |
 | denominator | [MathFraction](../../mathfraction) | Denominator |
-
-
----
-
-
-## MathFraction([MathematicalText](../../mathematicaltext) numerator, [MathematicalText](../../mathematicaltext) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathematicalText](../mathematicaltext) | Numerator |
-| denominator | [MathematicalText](../../mathematicaltext) | Denominator |
 
 
 ---
@@ -11306,6 +11002,310 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 | Name | Type | Description |
 | --- | --- | --- |
 | numerator | [MathematicalText](../mathematicaltext) | Numerator |
+| denominator | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | Denominator |
+
+
+---
+
+
+## MathFraction([MathFraction](../../mathfraction) numerator, [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) denominator)  constructor
+
+ Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathFraction](../mathfraction) | Numerator |
+| denominator | [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) | Denominator |
+
+
+---
+
+
+## MathFraction([MathFraction](../../mathfraction) numerator, [MathMatrix](../../mathmatrix) denominator)  constructor
+
+ Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathFraction](../mathfraction) | Numerator |
+| denominator | [MathMatrix](../../mathmatrix) | Denominator |
+
+
+---
+
+
+## MathFraction([MathFraction](../../mathfraction) numerator, [MathLimit](../../mathlimit) denominator)  constructor
+
+ Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathFraction](../mathfraction) | Numerator |
+| denominator | [MathLimit](../../mathlimit) | Denominator |
+
+
+---
+
+
+## MathFraction([MathFraction](../../mathfraction) numerator, [MathBlock](../../mathblock) denominator)  constructor
+
+ Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathFraction](../mathfraction) | Numerator |
+| denominator | [MathBlock](../../mathblock) | Denominator |
+
+
+---
+
+
+## MathFraction([MathFraction](../../mathfraction) numerator, [MathRadical](../../mathradical) denominator)  constructor
+
+ Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathFraction](../mathfraction) | Numerator |
+| denominator | [MathRadical](../../mathradical) | Denominator |
+
+
+---
+
+
+## MathFraction([MathFraction](../../mathfraction) numerator, [MathArray](../../matharray) denominator)  constructor
+
+ Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathFraction](../mathfraction) | Numerator |
+| denominator | [MathArray](../../matharray) | Denominator |
+
+
+---
+
+
+## MathFraction([MathFraction](../../mathfraction) numerator, [MathDelimiter](../../mathdelimiter) denominator)  constructor
+
+ Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathFraction](../mathfraction) | Numerator |
+| denominator | [MathDelimiter](../../mathdelimiter) | Denominator |
+
+
+---
+
+
+## MathFraction([MathFraction](../../mathfraction) numerator, [MathNaryOperator](../../mathnaryoperator) denominator)  constructor
+
+ Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathFraction](../mathfraction) | Numerator |
+| denominator | [MathNaryOperator](../../mathnaryoperator) | Denominator |
+
+
+---
+
+
+## MathFraction([MathFraction](../../mathfraction) numerator, [MathAccent](../../mathaccent) denominator)  constructor
+
+ Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathFraction](../mathfraction) | Numerator |
+| denominator | [MathAccent](../../mathaccent) | Denominator |
+
+
+---
+
+
+## MathFraction([MathFraction](../../mathfraction) numerator, [MathBorderBox](../../mathborderbox) denominator)  constructor
+
+ Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathFraction](../mathfraction) | Numerator |
+| denominator | [MathBorderBox](../../mathborderbox) | Denominator |
+
+
+---
+
+
+## MathFraction([MathFraction](../../mathfraction) numerator, [MathGroupingCharacter](../../mathgroupingcharacter) denominator)  constructor
+
+ Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathFraction](../mathfraction) | Numerator |
+| denominator | [MathGroupingCharacter](../../mathgroupingcharacter) | Denominator |
+
+
+---
+
+
+## MathFraction([MathFraction](../../mathfraction) numerator, [MathBar](../../mathbar) denominator)  constructor
+
+ Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathFraction](../mathfraction) | Numerator |
+| denominator | [MathBar](../../mathbar) | Denominator |
+
+
+---
+
+
+## MathFraction([MathFraction](../../mathfraction) numerator, [MathFunction](../../mathfunction) denominator)  constructor
+
+ Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathFraction](../mathfraction) | Numerator |
+| denominator | [MathFunction](../../mathfunction) | Denominator |
+
+
+---
+
+
+## MathFraction([MathFraction](../../mathfraction) numerator, [MathSuperscriptElement](../../mathsuperscriptelement) denominator)  constructor
+
+ Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathFraction](../mathfraction) | Numerator |
+| denominator | [MathSuperscriptElement](../../mathsuperscriptelement) | Denominator |
+
+
+---
+
+
+## MathFraction([MathFraction](../../mathfraction) numerator, [MathSubscriptElement](../../mathsubscriptelement) denominator)  constructor
+
+ Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathFraction](../mathfraction) | Numerator |
+| denominator | [MathSubscriptElement](../../mathsubscriptelement) | Denominator |
+
+
+---
+
+
+## MathFraction([MathFraction](../../mathfraction) numerator, [MathematicalText](../../mathematicaltext) denominator)  constructor
+
+ Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathFraction](../mathfraction) | Numerator |
+| denominator | [MathematicalText](../../mathematicaltext) | Denominator |
+
+
+---
+
+
+## MathFraction([MathFraction](../../mathfraction) numerator, [MathFraction](../../mathfraction) denominator)  constructor
+
+ Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathFraction](../mathfraction) | Numerator |
+| denominator | [MathFraction](../../mathfraction) | Denominator |
+
+
+---
+
+
+## MathFraction([MathFraction](../../mathfraction) numerator, [MathBox](../../mathbox) denominator)  constructor
+
+ Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathFraction](../mathfraction) | Numerator |
+| denominator | [MathBox](../../mathbox) | Denominator |
+
+
+---
+
+
+## MathFraction([MathFraction](../../mathfraction) numerator, [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) denominator)  constructor
+
+ Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathFraction](../mathfraction) | Numerator |
 | denominator | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | Denominator |
 
 
@@ -11424,22 +11424,6 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 ---
 
 
-## MathFraction([MathBox](../../mathbox) numerator, [MathAccent](../../mathaccent) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathBox](../mathbox) | Numerator |
-| denominator | [MathAccent](../../mathaccent) | Denominator |
-
-
----
-
-
 ## MathFraction([MathBox](../../mathbox) numerator, [MathNaryOperator](../../mathnaryoperator) denominator)  constructor
 
  Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
@@ -11451,6 +11435,22 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 | --- | --- | --- |
 | numerator | [MathBox](../mathbox) | Numerator |
 | denominator | [MathNaryOperator](../../mathnaryoperator) | Denominator |
+
+
+---
+
+
+## MathFraction([MathBox](../../mathbox) numerator, [MathAccent](../../mathaccent) denominator)  constructor
+
+ Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathBox](../mathbox) | Numerator |
+| denominator | [MathAccent](../../mathaccent) | Denominator |
 
 
 ---
@@ -11504,6 +11504,22 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 ---
 
 
+## MathFraction([MathBox](../../mathbox) numerator, [MathFunction](../../mathfunction) denominator)  constructor
+
+ Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathBox](../mathbox) | Numerator |
+| denominator | [MathFunction](../../mathfunction) | Denominator |
+
+
+---
+
+
 ## MathFraction([MathBox](../../mathbox) numerator, [MathSuperscriptElement](../../mathsuperscriptelement) denominator)  constructor
 
  Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
@@ -11536,7 +11552,7 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 ---
 
 
-## MathFraction([MathBox](../../mathbox) numerator, [MathFunction](../../mathfunction) denominator)  constructor
+## MathFraction([MathBox](../../mathbox) numerator, [MathematicalText](../../mathematicaltext) denominator)  constructor
 
  Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
  
@@ -11546,7 +11562,7 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 | Name | Type | Description |
 | --- | --- | --- |
 | numerator | [MathBox](../mathbox) | Numerator |
-| denominator | [MathFunction](../../mathfunction) | Denominator |
+| denominator | [MathematicalText](../../mathematicaltext) | Denominator |
 
 
 ---
@@ -11563,22 +11579,6 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 | --- | --- | --- |
 | numerator | [MathBox](../mathbox) | Numerator |
 | denominator | [MathFraction](../../mathfraction) | Denominator |
-
-
----
-
-
-## MathFraction([MathBox](../../mathbox) numerator, [MathematicalText](../../mathematicaltext) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathBox](../mathbox) | Numerator |
-| denominator | [MathematicalText](../../mathematicaltext) | Denominator |
 
 
 ---
@@ -11728,22 +11728,6 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 ---
 
 
-## MathFraction([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) numerator, [MathAccent](../../mathaccent) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Numerator |
-| denominator | [MathAccent](../../mathaccent) | Denominator |
-
-
----
-
-
 ## MathFraction([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) numerator, [MathNaryOperator](../../mathnaryoperator) denominator)  constructor
 
  Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
@@ -11755,6 +11739,22 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 | --- | --- | --- |
 | numerator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Numerator |
 | denominator | [MathNaryOperator](../../mathnaryoperator) | Denominator |
+
+
+---
+
+
+## MathFraction([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) numerator, [MathAccent](../../mathaccent) denominator)  constructor
+
+ Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Numerator |
+| denominator | [MathAccent](../../mathaccent) | Denominator |
 
 
 ---
@@ -11808,6 +11808,22 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 ---
 
 
+## MathFraction([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) numerator, [MathFunction](../../mathfunction) denominator)  constructor
+
+ Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| numerator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Numerator |
+| denominator | [MathFunction](../../mathfunction) | Denominator |
+
+
+---
+
+
 ## MathFraction([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) numerator, [MathSuperscriptElement](../../mathsuperscriptelement) denominator)  constructor
 
  Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
@@ -11840,7 +11856,7 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 ---
 
 
-## MathFraction([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) numerator, [MathFunction](../../mathfunction) denominator)  constructor
+## MathFraction([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) numerator, [MathematicalText](../../mathematicaltext) denominator)  constructor
 
  Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
  
@@ -11850,7 +11866,7 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 | Name | Type | Description |
 | --- | --- | --- |
 | numerator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Numerator |
-| denominator | [MathFunction](../../mathfunction) | Denominator |
+| denominator | [MathematicalText](../../mathematicaltext) | Denominator |
 
 
 ---
@@ -11867,22 +11883,6 @@ url: /php-java/aspose.slides/mathfraction/mathfraction/
 | --- | --- | --- |
 | numerator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Numerator |
 | denominator | [MathFraction](../../mathfraction) | Denominator |
-
-
----
-
-
-## MathFraction([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) numerator, [MathematicalText](../../mathematicaltext) denominator)  constructor
-
- Initializes a MathFraction of type 'Bar' with the specified numerator and denominator
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| numerator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Numerator |
-| denominator | [MathematicalText](../../mathematicaltext) | Denominator |
 
 
 ---

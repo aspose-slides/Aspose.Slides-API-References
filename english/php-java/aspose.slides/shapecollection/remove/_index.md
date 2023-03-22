@@ -43,6 +43,24 @@ void
 ---
 
 
+## remove([Table](../../table) shape)  method
+
+ Removes the first occurrence of a specific shape from the collection.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | [Table](../../table) | The shape to remove from the collection. |
+
+### Returns
+void
+
+
+---
+
+
 ## remove([SmartArtShape](../../smartartshape) shape)  method
 
  Removes the first occurrence of a specific shape from the collection.
@@ -71,24 +89,6 @@ void
 | Name | Type | Description |
 | --- | --- | --- |
 | shape | [Shape](../../shape) | The shape to remove from the collection. |
-
-### Returns
-void
-
-
----
-
-
-## remove([Table](../../table) shape)  method
-
- Removes the first occurrence of a specific shape from the collection.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| shape | [Table](../../table) | The shape to remove from the collection. |
 
 ### Returns
 void
@@ -169,24 +169,6 @@ void
 ---
 
 
-## remove([VideoFrame](../../videoframe) shape)  method
-
- Removes the first occurrence of a specific shape from the collection.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| shape | [VideoFrame](../../videoframe) | The shape to remove from the collection. |
-
-### Returns
-void
-
-
----
-
-
 ## remove([OleObjectFrame](../../oleobjectframe) shape)  method
 
  Removes the first occurrence of a specific shape from the collection.
@@ -197,6 +179,24 @@ void
 | Name | Type | Description |
 | --- | --- | --- |
 | shape | [OleObjectFrame](../../oleobjectframe) | The shape to remove from the collection. |
+
+### Returns
+void
+
+
+---
+
+
+## remove([VideoFrame](../../videoframe) shape)  method
+
+ Removes the first occurrence of a specific shape from the collection.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | [VideoFrame](../../videoframe) | The shape to remove from the collection. |
 
 ### Returns
 void
@@ -331,24 +331,6 @@ void
 ---
 
 
-## remove([ZoomObject](../../zoomobject) shape)  method
-
- Removes the first occurrence of a specific shape from the collection.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| shape | [ZoomObject](../../zoomobject) | The shape to remove from the collection. |
-
-### Returns
-void
-
-
----
-
-
 ## remove([LegacyDiagram](../../legacydiagram) shape)  method
 
  Removes the first occurrence of a specific shape from the collection.
@@ -359,6 +341,24 @@ void
 | Name | Type | Description |
 | --- | --- | --- |
 | shape | [LegacyDiagram](../../legacydiagram) | The shape to remove from the collection. |
+
+### Returns
+void
+
+
+---
+
+
+## remove([ZoomObject](../../zoomobject) shape)  method
+
+ Removes the first occurrence of a specific shape from the collection.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | [ZoomObject](../../zoomobject) | The shape to remove from the collection. |
 
 ### Returns
 void

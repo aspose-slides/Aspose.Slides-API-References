@@ -65,8 +65,8 @@ url: /php-java/aspose.slides/chartdatapointcollection/
 | [getDataSourceTypeForYValues](getdatasourcetypeforyvalues)() | Specifies whether AsCell or AsLiteralString or AsLiteralDouble property is actual in data points YValue property object. In other words it specifies the type of value of ChartDataPoint.YValue.Data property. Read/write DataSourceType. |
 | [getOrCreateDataPointByIdx](getorcreatedatapointbyidx)(long) | If collection already contains data point with index index then returns this data point. If collection doesn't contains data point with index index==N (when number of data points in this collection is less or equal then N) then adds deficient data points and returns last (which has requested index). For example, collection indexes are {0, 1, 2}, and requested index is 5. Then method adds deficient data points: {0, 1, 2, 3, 4, 5}. And returns data point with index 5. |
 | [getSyncRoot](getsyncroot)() | Returns a synchronization root. Read-only Object. |
-| [get_Item](get_item)(int) | Returns the series data point by index. |
-| [get_Item](get_item)([ChartDataPoint](../chartdatapoint)) | Return index of data point in this collection. |
+| [get_Item](get_item)(int) | Returns the series data point by index (its serial number in this collection). |
+| [get_Item](get_item)([ChartDataPoint](../chartdatapoint)) | Return index (serial number) of data point in this collection. |
 | [isSynchronized](issynchronized)() | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
 | [iterator](iterator)() | Returns an enumerator that iterates through the collection. |
 | [iteratorJava](iteratorjava)() | Returns a java iterator for the entire collection. |

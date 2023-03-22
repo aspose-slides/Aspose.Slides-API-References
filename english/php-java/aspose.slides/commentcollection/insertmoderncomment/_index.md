@@ -53,6 +53,29 @@ url: /php-java/aspose.slides/commentcollection/insertmoderncomment/
 ---
 
 
+## insertModernComment(int index, String text, [Slide](../../slide) slide, [Table](../../table) shape, Point2D.Float position, Date creationTime)  method
+
+ Insert new modern comment to a collection at the specified index.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Index of the element in a collection at which modern comment should be inserted. |
+| text | String | Plain text of a new modern comment. |
+| slide | [Slide](../slide) | Slide in a presentation where to add a new modern comment. |
+| shape | [Table](../table) | Shape on a slide to which a new modern comment is associated. |
+| position | Point2D.Float | Position on a slide where to add a new modern comment. |
+| creationTime | Date | Time of a modern comment creation. |
+
+### Returns
+[ModernComment](../../moderncomment)
+
+
+---
+
+
 ## insertModernComment(int index, String text, [Slide](../../slide) slide, [SmartArtShape](../../smartartshape) shape, Point2D.Float position, Date creationTime)  method
 
  Insert new modern comment to a collection at the specified index.
@@ -89,29 +112,6 @@ url: /php-java/aspose.slides/commentcollection/insertmoderncomment/
 | text | String | Plain text of a new modern comment. |
 | slide | [Slide](../slide) | Slide in a presentation where to add a new modern comment. |
 | shape | [Shape](../shape) | Shape on a slide to which a new modern comment is associated. |
-| position | Point2D.Float | Position on a slide where to add a new modern comment. |
-| creationTime | Date | Time of a modern comment creation. |
-
-### Returns
-[ModernComment](../../moderncomment)
-
-
----
-
-
-## insertModernComment(int index, String text, [Slide](../../slide) slide, [Table](../../table) shape, Point2D.Float position, Date creationTime)  method
-
- Insert new modern comment to a collection at the specified index.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| index | int | Index of the element in a collection at which modern comment should be inserted. |
-| text | String | Plain text of a new modern comment. |
-| slide | [Slide](../slide) | Slide in a presentation where to add a new modern comment. |
-| shape | [Table](../table) | Shape on a slide to which a new modern comment is associated. |
 | position | Point2D.Float | Position on a slide where to add a new modern comment. |
 | creationTime | Date | Time of a modern comment creation. |
 
@@ -214,29 +214,6 @@ url: /php-java/aspose.slides/commentcollection/insertmoderncomment/
 ---
 
 
-## insertModernComment(int index, String text, [Slide](../../slide) slide, [VideoFrame](../../videoframe) shape, Point2D.Float position, Date creationTime)  method
-
- Insert new modern comment to a collection at the specified index.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| index | int | Index of the element in a collection at which modern comment should be inserted. |
-| text | String | Plain text of a new modern comment. |
-| slide | [Slide](../slide) | Slide in a presentation where to add a new modern comment. |
-| shape | [VideoFrame](../videoframe) | Shape on a slide to which a new modern comment is associated. |
-| position | Point2D.Float | Position on a slide where to add a new modern comment. |
-| creationTime | Date | Time of a modern comment creation. |
-
-### Returns
-[ModernComment](../../moderncomment)
-
-
----
-
-
 ## insertModernComment(int index, String text, [Slide](../../slide) slide, [OleObjectFrame](../../oleobjectframe) shape, Point2D.Float position, Date creationTime)  method
 
  Insert new modern comment to a collection at the specified index.
@@ -250,6 +227,29 @@ url: /php-java/aspose.slides/commentcollection/insertmoderncomment/
 | text | String | Plain text of a new modern comment. |
 | slide | [Slide](../slide) | Slide in a presentation where to add a new modern comment. |
 | shape | [OleObjectFrame](../oleobjectframe) | Shape on a slide to which a new modern comment is associated. |
+| position | Point2D.Float | Position on a slide where to add a new modern comment. |
+| creationTime | Date | Time of a modern comment creation. |
+
+### Returns
+[ModernComment](../../moderncomment)
+
+
+---
+
+
+## insertModernComment(int index, String text, [Slide](../../slide) slide, [VideoFrame](../../videoframe) shape, Point2D.Float position, Date creationTime)  method
+
+ Insert new modern comment to a collection at the specified index.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Index of the element in a collection at which modern comment should be inserted. |
+| text | String | Plain text of a new modern comment. |
+| slide | [Slide](../slide) | Slide in a presentation where to add a new modern comment. |
+| shape | [VideoFrame](../videoframe) | Shape on a slide to which a new modern comment is associated. |
 | position | Point2D.Float | Position on a slide where to add a new modern comment. |
 | creationTime | Date | Time of a modern comment creation. |
 
@@ -421,29 +421,6 @@ url: /php-java/aspose.slides/commentcollection/insertmoderncomment/
 ---
 
 
-## insertModernComment(int index, String text, [Slide](../../slide) slide, [ZoomObject](../../zoomobject) shape, Point2D.Float position, Date creationTime)  method
-
- Insert new modern comment to a collection at the specified index.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| index | int | Index of the element in a collection at which modern comment should be inserted. |
-| text | String | Plain text of a new modern comment. |
-| slide | [Slide](../slide) | Slide in a presentation where to add a new modern comment. |
-| shape | [ZoomObject](../zoomobject) | Shape on a slide to which a new modern comment is associated. |
-| position | Point2D.Float | Position on a slide where to add a new modern comment. |
-| creationTime | Date | Time of a modern comment creation. |
-
-### Returns
-[ModernComment](../../moderncomment)
-
-
----
-
-
 ## insertModernComment(int index, String text, [Slide](../../slide) slide, [LegacyDiagram](../../legacydiagram) shape, Point2D.Float position, Date creationTime)  method
 
  Insert new modern comment to a collection at the specified index.
@@ -457,6 +434,29 @@ url: /php-java/aspose.slides/commentcollection/insertmoderncomment/
 | text | String | Plain text of a new modern comment. |
 | slide | [Slide](../slide) | Slide in a presentation where to add a new modern comment. |
 | shape | [LegacyDiagram](../legacydiagram) | Shape on a slide to which a new modern comment is associated. |
+| position | Point2D.Float | Position on a slide where to add a new modern comment. |
+| creationTime | Date | Time of a modern comment creation. |
+
+### Returns
+[ModernComment](../../moderncomment)
+
+
+---
+
+
+## insertModernComment(int index, String text, [Slide](../../slide) slide, [ZoomObject](../../zoomobject) shape, Point2D.Float position, Date creationTime)  method
+
+ Insert new modern comment to a collection at the specified index.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Index of the element in a collection at which modern comment should be inserted. |
+| text | String | Plain text of a new modern comment. |
+| slide | [Slide](../slide) | Slide in a presentation where to add a new modern comment. |
+| shape | [ZoomObject](../zoomobject) | Shape on a slide to which a new modern comment is associated. |
 | position | Point2D.Float | Position on a slide where to add a new modern comment. |
 | creationTime | Date | Time of a modern comment creation. |
 

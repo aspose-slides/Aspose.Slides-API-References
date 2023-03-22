@@ -21,6 +21,12 @@ url: /php-java/aspose.slides/piesplitcustompointcollection/add/
 ### Returns
 void
 
+### Exception
+
+| Exception | Condition |
+| --- | --- |
+ | ArgumentException | Point with the given index was not found". |
+
 
 ---
 

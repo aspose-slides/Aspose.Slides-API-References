@@ -119,22 +119,6 @@ url: /php-java/aspose.slides/mathradical/mathradical/
 ---
 
 
-## MathRadical([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) baseArgument, [MathAccent](../../mathaccent) degreeArgument)  constructor
-
- Initializes a new instance of the MathRadical class.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Base |
-| degreeArgument | [MathAccent](../../mathaccent) | Degree |
-
-
----
-
-
 ## MathRadical([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) baseArgument, [MathNaryOperator](../../mathnaryoperator) degreeArgument)  constructor
 
  Initializes a new instance of the MathRadical class.
@@ -146,6 +130,22 @@ url: /php-java/aspose.slides/mathradical/mathradical/
 | --- | --- | --- |
 | baseArgument | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Base |
 | degreeArgument | [MathNaryOperator](../../mathnaryoperator) | Degree |
+
+
+---
+
+
+## MathRadical([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) baseArgument, [MathAccent](../../mathaccent) degreeArgument)  constructor
+
+ Initializes a new instance of the MathRadical class.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Base |
+| degreeArgument | [MathAccent](../../mathaccent) | Degree |
 
 
 ---
@@ -199,6 +199,22 @@ url: /php-java/aspose.slides/mathradical/mathradical/
 ---
 
 
+## MathRadical([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) baseArgument, [MathFunction](../../mathfunction) degreeArgument)  constructor
+
+ Initializes a new instance of the MathRadical class.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Base |
+| degreeArgument | [MathFunction](../../mathfunction) | Degree |
+
+
+---
+
+
 ## MathRadical([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) baseArgument, [MathSuperscriptElement](../../mathsuperscriptelement) degreeArgument)  constructor
 
  Initializes a new instance of the MathRadical class.
@@ -231,7 +247,7 @@ url: /php-java/aspose.slides/mathradical/mathradical/
 ---
 
 
-## MathRadical([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) baseArgument, [MathFunction](../../mathfunction) degreeArgument)  constructor
+## MathRadical([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) baseArgument, [MathematicalText](../../mathematicaltext) degreeArgument)  constructor
 
  Initializes a new instance of the MathRadical class.
  
@@ -241,7 +257,7 @@ url: /php-java/aspose.slides/mathradical/mathradical/
 | Name | Type | Description |
 | --- | --- | --- |
 | baseArgument | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Base |
-| degreeArgument | [MathFunction](../../mathfunction) | Degree |
+| degreeArgument | [MathematicalText](../../mathematicaltext) | Degree |
 
 
 ---
@@ -258,22 +274,6 @@ url: /php-java/aspose.slides/mathradical/mathradical/
 | --- | --- | --- |
 | baseArgument | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Base |
 | degreeArgument | [MathFraction](../../mathfraction) | Degree |
-
-
----
-
-
-## MathRadical([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) baseArgument, [MathematicalText](../../mathematicaltext) degreeArgument)  constructor
-
- Initializes a new instance of the MathRadical class.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Base |
-| degreeArgument | [MathematicalText](../../mathematicaltext) | Degree |
 
 
 ---
@@ -423,22 +423,6 @@ url: /php-java/aspose.slides/mathradical/mathradical/
 ---
 
 
-## MathRadical([MathMatrix](../../mathmatrix) baseArgument, [MathAccent](../../mathaccent) degreeArgument)  constructor
-
- Initializes a new instance of the MathRadical class.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathMatrix](../mathmatrix) | Base |
-| degreeArgument | [MathAccent](../../mathaccent) | Degree |
-
-
----
-
-
 ## MathRadical([MathMatrix](../../mathmatrix) baseArgument, [MathNaryOperator](../../mathnaryoperator) degreeArgument)  constructor
 
  Initializes a new instance of the MathRadical class.
@@ -450,6 +434,22 @@ url: /php-java/aspose.slides/mathradical/mathradical/
 | --- | --- | --- |
 | baseArgument | [MathMatrix](../mathmatrix) | Base |
 | degreeArgument | [MathNaryOperator](../../mathnaryoperator) | Degree |
+
+
+---
+
+
+## MathRadical([MathMatrix](../../mathmatrix) baseArgument, [MathAccent](../../mathaccent) degreeArgument)  constructor
+
+ Initializes a new instance of the MathRadical class.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathMatrix](../mathmatrix) | Base |
+| degreeArgument | [MathAccent](../../mathaccent) | Degree |
 
 
 ---
@@ -503,6 +503,22 @@ url: /php-java/aspose.slides/mathradical/mathradical/
 ---
 
 
+## MathRadical([MathMatrix](../../mathmatrix) baseArgument, [MathFunction](../../mathfunction) degreeArgument)  constructor
+
+ Initializes a new instance of the MathRadical class.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathMatrix](../mathmatrix) | Base |
+| degreeArgument | [MathFunction](../../mathfunction) | Degree |
+
+
+---
+
+
 ## MathRadical([MathMatrix](../../mathmatrix) baseArgument, [MathSuperscriptElement](../../mathsuperscriptelement) degreeArgument)  constructor
 
  Initializes a new instance of the MathRadical class.
@@ -535,7 +551,7 @@ url: /php-java/aspose.slides/mathradical/mathradical/
 ---
 
 
-## MathRadical([MathMatrix](../../mathmatrix) baseArgument, [MathFunction](../../mathfunction) degreeArgument)  constructor
+## MathRadical([MathMatrix](../../mathmatrix) baseArgument, [MathematicalText](../../mathematicaltext) degreeArgument)  constructor
 
  Initializes a new instance of the MathRadical class.
  
@@ -545,7 +561,7 @@ url: /php-java/aspose.slides/mathradical/mathradical/
 | Name | Type | Description |
 | --- | --- | --- |
 | baseArgument | [MathMatrix](../mathmatrix) | Base |
-| degreeArgument | [MathFunction](../../mathfunction) | Degree |
+| degreeArgument | [MathematicalText](../../mathematicaltext) | Degree |
 
 
 ---
@@ -562,22 +578,6 @@ url: /php-java/aspose.slides/mathradical/mathradical/
 | --- | --- | --- |
 | baseArgument | [MathMatrix](../mathmatrix) | Base |
 | degreeArgument | [MathFraction](../../mathfraction) | Degree |
-
-
----
-
-
-## MathRadical([MathMatrix](../../mathmatrix) baseArgument, [MathematicalText](../../mathematicaltext) degreeArgument)  constructor
-
- Initializes a new instance of the MathRadical class.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathMatrix](../mathmatrix) | Base |
-| degreeArgument | [MathematicalText](../../mathematicaltext) | Degree |
 
 
 ---
@@ -727,22 +727,6 @@ url: /php-java/aspose.slides/mathradical/mathradical/
 ---
 
 
-## MathRadical([MathLimit](../../mathlimit) baseArgument, [MathAccent](../../mathaccent) degreeArgument)  constructor
-
- Initializes a new instance of the MathRadical class.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathLimit](../mathlimit) | Base |
-| degreeArgument | [MathAccent](../../mathaccent) | Degree |
-
-
----
-
-
 ## MathRadical([MathLimit](../../mathlimit) baseArgument, [MathNaryOperator](../../mathnaryoperator) degreeArgument)  constructor
 
  Initializes a new instance of the MathRadical class.
@@ -754,6 +738,22 @@ url: /php-java/aspose.slides/mathradical/mathradical/
 | --- | --- | --- |
 | baseArgument | [MathLimit](../mathlimit) | Base |
 | degreeArgument | [MathNaryOperator](../../mathnaryoperator) | Degree |
+
+
+---
+
+
+## MathRadical([MathLimit](../../mathlimit) baseArgument, [MathAccent](../../mathaccent) degreeArgument)  constructor
+
+ Initializes a new instance of the MathRadical class.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathLimit](../mathlimit) | Base |
+| degreeArgument | [MathAccent](../../mathaccent) | Degree |
 
 
 ---
@@ -807,6 +807,22 @@ url: /php-java/aspose.slides/mathradical/mathradical/
 ---
 
 
+## MathRadical([MathLimit](../../mathlimit) baseArgument, [MathFunction](../../mathfunction) degreeArgument)  constructor
+
+ Initializes a new instance of the MathRadical class.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathLimit](../mathlimit) | Base |
+| degreeArgument | [MathFunction](../../mathfunction) | Degree |
+
+
+---
+
+
 ## MathRadical([MathLimit](../../mathlimit) baseArgument, [MathSuperscriptElement](../../mathsuperscriptelement) degreeArgument)  constructor
 
  Initializes a new instance of the MathRadical class.
@@ -839,7 +855,7 @@ url: /php-java/aspose.slides/mathradical/mathradical/
 ---
 
 
-## MathRadical([MathLimit](../../mathlimit) baseArgument, [MathFunction](../../mathfunction) degreeArgument)  constructor
+## MathRadical([MathLimit](../../mathlimit) baseArgument, [MathematicalText](../../mathematicaltext) degreeArgument)  constructor
 
  Initializes a new instance of the MathRadical class.
  
@@ -849,7 +865,7 @@ url: /php-java/aspose.slides/mathradical/mathradical/
 | Name | Type | Description |
 | --- | --- | --- |
 | baseArgument | [MathLimit](../mathlimit) | Base |
-| degreeArgument | [MathFunction](../../mathfunction) | Degree |
+| degreeArgument | [MathematicalText](../../mathematicaltext) | Degree |
 
 
 ---
@@ -866,22 +882,6 @@ url: /php-java/aspose.slides/mathradical/mathradical/
 | --- | --- | --- |
 | baseArgument | [MathLimit](../mathlimit) | Base |
 | degreeArgument | [MathFraction](../../mathfraction) | Degree |
-
-
----
-
-
-## MathRadical([MathLimit](../../mathlimit) baseArgument, [MathematicalText](../../mathematicaltext) degreeArgument)  constructor
-
- Initializes a new instance of the MathRadical class.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathLimit](../mathlimit) | Base |
-| degreeArgument | [MathematicalText](../../mathematicaltext) | Degree |
 
 
 ---
@@ -1031,22 +1031,6 @@ url: /php-java/aspose.slides/mathradical/mathradical/
 ---
 
 
-## MathRadical([MathBlock](../../mathblock) baseArgument, [MathAccent](../../mathaccent) degreeArgument)  constructor
-
- Initializes a new instance of the MathRadical class.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathBlock](../mathblock) | Base |
-| degreeArgument | [MathAccent](../../mathaccent) | Degree |
-
-
----
-
-
 ## MathRadical([MathBlock](../../mathblock) baseArgument, [MathNaryOperator](../../mathnaryoperator) degreeArgument)  constructor
 
  Initializes a new instance of the MathRadical class.
@@ -1058,6 +1042,22 @@ url: /php-java/aspose.slides/mathradical/mathradical/
 | --- | --- | --- |
 | baseArgument | [MathBlock](../mathblock) | Base |
 | degreeArgument | [MathNaryOperator](../../mathnaryoperator) | Degree |
+
+
+---
+
+
+## MathRadical([MathBlock](../../mathblock) baseArgument, [MathAccent](../../mathaccent) degreeArgument)  constructor
+
+ Initializes a new instance of the MathRadical class.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathBlock](../mathblock) | Base |
+| degreeArgument | [MathAccent](../../mathaccent) | Degree |
 
 
 ---
@@ -1111,6 +1111,22 @@ url: /php-java/aspose.slides/mathradical/mathradical/
 ---
 
 
+## MathRadical([MathBlock](../../mathblock) baseArgument, [MathFunction](../../mathfunction) degreeArgument)  constructor
+
+ Initializes a new instance of the MathRadical class.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathBlock](../mathblock) | Base |
+| degreeArgument | [MathFunction](../../mathfunction) | Degree |
+
+
+---
+
+
 ## MathRadical([MathBlock](../../mathblock) baseArgument, [MathSuperscriptElement](../../mathsuperscriptelement) degreeArgument)  constructor
 
  Initializes a new instance of the MathRadical class.
@@ -1143,7 +1159,7 @@ url: /php-java/aspose.slides/mathradical/mathradical/
 ---
 
 
-## MathRadical([MathBlock](../../mathblock) baseArgument, [MathFunction](../../mathfunction) degreeArgument)  constructor
+## MathRadical([MathBlock](../../mathblock) baseArgument, [MathematicalText](../../mathematicaltext) degreeArgument)  constructor
 
  Initializes a new instance of the MathRadical class.
  
@@ -1153,7 +1169,7 @@ url: /php-java/aspose.slides/mathradical/mathradical/
 | Name | Type | Description |
 | --- | --- | --- |
 | baseArgument | [MathBlock](../mathblock) | Base |
-| degreeArgument | [MathFunction](../../mathfunction) | Degree |
+| degreeArgument | [MathematicalText](../../mathematicaltext) | Degree |
 
 
 ---
@@ -1170,22 +1186,6 @@ url: /php-java/aspose.slides/mathradical/mathradical/
 | --- | --- | --- |
 | baseArgument | [MathBlock](../mathblock) | Base |
 | degreeArgument | [MathFraction](../../mathfraction) | Degree |
-
-
----
-
-
-## MathRadical([MathBlock](../../mathblock) baseArgument, [MathematicalText](../../mathematicaltext) degreeArgument)  constructor
-
- Initializes a new instance of the MathRadical class.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathBlock](../mathblock) | Base |
-| degreeArgument | [MathematicalText](../../mathematicaltext) | Degree |
 
 
 ---
@@ -1335,22 +1335,6 @@ url: /php-java/aspose.slides/mathradical/mathradical/
 ---
 
 
-## MathRadical([MathRadical](../../mathradical) baseArgument, [MathAccent](../../mathaccent) degreeArgument)  constructor
-
- Initializes a new instance of the MathRadical class.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathRadical](../mathradical) | Base |
-| degreeArgument | [MathAccent](../../mathaccent) | Degree |
-
-
----
-
-
 ## MathRadical([MathRadical](../../mathradical) baseArgument, [MathNaryOperator](../../mathnaryoperator) degreeArgument)  constructor
 
  Initializes a new instance of the MathRadical class.
@@ -1362,6 +1346,22 @@ url: /php-java/aspose.slides/mathradical/mathradical/
 | --- | --- | --- |
 | baseArgument | [MathRadical](../mathradical) | Base |
 | degreeArgument | [MathNaryOperator](../../mathnaryoperator) | Degree |
+
+
+---
+
+
+## MathRadical([MathRadical](../../mathradical) baseArgument, [MathAccent](../../mathaccent) degreeArgument)  constructor
+
+ Initializes a new instance of the MathRadical class.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathRadical](../mathradical) | Base |
+| degreeArgument | [MathAccent](../../mathaccent) | Degree |
 
 
 ---
@@ -1415,6 +1415,22 @@ url: /php-java/aspose.slides/mathradical/mathradical/
 ---
 
 
+## MathRadical([MathRadical](../../mathradical) baseArgument, [MathFunction](../../mathfunction) degreeArgument)  constructor
+
+ Initializes a new instance of the MathRadical class.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathRadical](../mathradical) | Base |
+| degreeArgument | [MathFunction](../../mathfunction) | Degree |
+
+
+---
+
+
 ## MathRadical([MathRadical](../../mathradical) baseArgument, [MathSuperscriptElement](../../mathsuperscriptelement) degreeArgument)  constructor
 
  Initializes a new instance of the MathRadical class.
@@ -1447,7 +1463,7 @@ url: /php-java/aspose.slides/mathradical/mathradical/
 ---
 
 
-## MathRadical([MathRadical](../../mathradical) baseArgument, [MathFunction](../../mathfunction) degreeArgument)  constructor
+## MathRadical([MathRadical](../../mathradical) baseArgument, [MathematicalText](../../mathematicaltext) degreeArgument)  constructor
 
  Initializes a new instance of the MathRadical class.
  
@@ -1457,7 +1473,7 @@ url: /php-java/aspose.slides/mathradical/mathradical/
 | Name | Type | Description |
 | --- | --- | --- |
 | baseArgument | [MathRadical](../mathradical) | Base |
-| degreeArgument | [MathFunction](../../mathfunction) | Degree |
+| degreeArgument | [MathematicalText](../../mathematicaltext) | Degree |
 
 
 ---
@@ -1474,22 +1490,6 @@ url: /php-java/aspose.slides/mathradical/mathradical/
 | --- | --- | --- |
 | baseArgument | [MathRadical](../mathradical) | Base |
 | degreeArgument | [MathFraction](../../mathfraction) | Degree |
-
-
----
-
-
-## MathRadical([MathRadical](../../mathradical) baseArgument, [MathematicalText](../../mathematicaltext) degreeArgument)  constructor
-
- Initializes a new instance of the MathRadical class.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathRadical](../mathradical) | Base |
-| degreeArgument | [MathematicalText](../../mathematicaltext) | Degree |
 
 
 ---
@@ -1639,22 +1639,6 @@ url: /php-java/aspose.slides/mathradical/mathradical/
 ---
 
 
-## MathRadical([MathArray](../../matharray) baseArgument, [MathAccent](../../mathaccent) degreeArgument)  constructor
-
- Initializes a new instance of the MathRadical class.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathArray](../matharray) | Base |
-| degreeArgument | [MathAccent](../../mathaccent) | Degree |
-
-
----
-
-
 ## MathRadical([MathArray](../../matharray) baseArgument, [MathNaryOperator](../../mathnaryoperator) degreeArgument)  constructor
 
  Initializes a new instance of the MathRadical class.
@@ -1666,6 +1650,22 @@ url: /php-java/aspose.slides/mathradical/mathradical/
 | --- | --- | --- |
 | baseArgument | [MathArray](../matharray) | Base |
 | degreeArgument | [MathNaryOperator](../../mathnaryoperator) | Degree |
+
+
+---
+
+
+## MathRadical([MathArray](../../matharray) baseArgument, [MathAccent](../../mathaccent) degreeArgument)  constructor
+
+ Initializes a new instance of the MathRadical class.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathArray](../matharray) | Base |
+| degreeArgument | [MathAccent](../../mathaccent) | Degree |
 
 
 ---
@@ -1719,6 +1719,22 @@ url: /php-java/aspose.slides/mathradical/mathradical/
 ---
 
 
+## MathRadical([MathArray](../../matharray) baseArgument, [MathFunction](../../mathfunction) degreeArgument)  constructor
+
+ Initializes a new instance of the MathRadical class.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathArray](../matharray) | Base |
+| degreeArgument | [MathFunction](../../mathfunction) | Degree |
+
+
+---
+
+
 ## MathRadical([MathArray](../../matharray) baseArgument, [MathSuperscriptElement](../../mathsuperscriptelement) degreeArgument)  constructor
 
  Initializes a new instance of the MathRadical class.
@@ -1751,7 +1767,7 @@ url: /php-java/aspose.slides/mathradical/mathradical/
 ---
 
 
-## MathRadical([MathArray](../../matharray) baseArgument, [MathFunction](../../mathfunction) degreeArgument)  constructor
+## MathRadical([MathArray](../../matharray) baseArgument, [MathematicalText](../../mathematicaltext) degreeArgument)  constructor
 
  Initializes a new instance of the MathRadical class.
  
@@ -1761,7 +1777,7 @@ url: /php-java/aspose.slides/mathradical/mathradical/
 | Name | Type | Description |
 | --- | --- | --- |
 | baseArgument | [MathArray](../matharray) | Base |
-| degreeArgument | [MathFunction](../../mathfunction) | Degree |
+| degreeArgument | [MathematicalText](../../mathematicaltext) | Degree |
 
 
 ---
@@ -1778,22 +1794,6 @@ url: /php-java/aspose.slides/mathradical/mathradical/
 | --- | --- | --- |
 | baseArgument | [MathArray](../matharray) | Base |
 | degreeArgument | [MathFraction](../../mathfraction) | Degree |
-
-
----
-
-
-## MathRadical([MathArray](../../matharray) baseArgument, [MathematicalText](../../mathematicaltext) degreeArgument)  constructor
-
- Initializes a new instance of the MathRadical class.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathArray](../matharray) | Base |
-| degreeArgument | [MathematicalText](../../mathematicaltext) | Degree |
 
 
 ---
@@ -1943,22 +1943,6 @@ url: /php-java/aspose.slides/mathradical/mathradical/
 ---
 
 
-## MathRadical([MathDelimiter](../../mathdelimiter) baseArgument, [MathAccent](../../mathaccent) degreeArgument)  constructor
-
- Initializes a new instance of the MathRadical class.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathDelimiter](../mathdelimiter) | Base |
-| degreeArgument | [MathAccent](../../mathaccent) | Degree |
-
-
----
-
-
 ## MathRadical([MathDelimiter](../../mathdelimiter) baseArgument, [MathNaryOperator](../../mathnaryoperator) degreeArgument)  constructor
 
  Initializes a new instance of the MathRadical class.
@@ -1970,6 +1954,22 @@ url: /php-java/aspose.slides/mathradical/mathradical/
 | --- | --- | --- |
 | baseArgument | [MathDelimiter](../mathdelimiter) | Base |
 | degreeArgument | [MathNaryOperator](../../mathnaryoperator) | Degree |
+
+
+---
+
+
+## MathRadical([MathDelimiter](../../mathdelimiter) baseArgument, [MathAccent](../../mathaccent) degreeArgument)  constructor
+
+ Initializes a new instance of the MathRadical class.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathDelimiter](../mathdelimiter) | Base |
+| degreeArgument | [MathAccent](../../mathaccent) | Degree |
 
 
 ---
@@ -2023,6 +2023,22 @@ url: /php-java/aspose.slides/mathradical/mathradical/
 ---
 
 
+## MathRadical([MathDelimiter](../../mathdelimiter) baseArgument, [MathFunction](../../mathfunction) degreeArgument)  constructor
+
+ Initializes a new instance of the MathRadical class.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathDelimiter](../mathdelimiter) | Base |
+| degreeArgument | [MathFunction](../../mathfunction) | Degree |
+
+
+---
+
+
 ## MathRadical([MathDelimiter](../../mathdelimiter) baseArgument, [MathSuperscriptElement](../../mathsuperscriptelement) degreeArgument)  constructor
 
  Initializes a new instance of the MathRadical class.
@@ -2055,7 +2071,7 @@ url: /php-java/aspose.slides/mathradical/mathradical/
 ---
 
 
-## MathRadical([MathDelimiter](../../mathdelimiter) baseArgument, [MathFunction](../../mathfunction) degreeArgument)  constructor
+## MathRadical([MathDelimiter](../../mathdelimiter) baseArgument, [MathematicalText](../../mathematicaltext) degreeArgument)  constructor
 
  Initializes a new instance of the MathRadical class.
  
@@ -2065,7 +2081,7 @@ url: /php-java/aspose.slides/mathradical/mathradical/
 | Name | Type | Description |
 | --- | --- | --- |
 | baseArgument | [MathDelimiter](../mathdelimiter) | Base |
-| degreeArgument | [MathFunction](../../mathfunction) | Degree |
+| degreeArgument | [MathematicalText](../../mathematicaltext) | Degree |
 
 
 ---
@@ -2082,22 +2098,6 @@ url: /php-java/aspose.slides/mathradical/mathradical/
 | --- | --- | --- |
 | baseArgument | [MathDelimiter](../mathdelimiter) | Base |
 | degreeArgument | [MathFraction](../../mathfraction) | Degree |
-
-
----
-
-
-## MathRadical([MathDelimiter](../../mathdelimiter) baseArgument, [MathematicalText](../../mathematicaltext) degreeArgument)  constructor
-
- Initializes a new instance of the MathRadical class.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathDelimiter](../mathdelimiter) | Base |
-| degreeArgument | [MathematicalText](../../mathematicaltext) | Degree |
 
 
 ---
@@ -2129,310 +2129,6 @@ url: /php-java/aspose.slides/mathradical/mathradical/
 | Name | Type | Description |
 | --- | --- | --- |
 | baseArgument | [MathDelimiter](../mathdelimiter) | Base |
-| degreeArgument | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | Degree |
-
-
----
-
-
-## MathRadical([MathAccent](../../mathaccent) baseArgument, [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) degreeArgument)  constructor
-
- Initializes a new instance of the MathRadical class.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathAccent](../mathaccent) | Base |
-| degreeArgument | [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) | Degree |
-
-
----
-
-
-## MathRadical([MathAccent](../../mathaccent) baseArgument, [MathMatrix](../../mathmatrix) degreeArgument)  constructor
-
- Initializes a new instance of the MathRadical class.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathAccent](../mathaccent) | Base |
-| degreeArgument | [MathMatrix](../../mathmatrix) | Degree |
-
-
----
-
-
-## MathRadical([MathAccent](../../mathaccent) baseArgument, [MathLimit](../../mathlimit) degreeArgument)  constructor
-
- Initializes a new instance of the MathRadical class.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathAccent](../mathaccent) | Base |
-| degreeArgument | [MathLimit](../../mathlimit) | Degree |
-
-
----
-
-
-## MathRadical([MathAccent](../../mathaccent) baseArgument, [MathBlock](../../mathblock) degreeArgument)  constructor
-
- Initializes a new instance of the MathRadical class.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathAccent](../mathaccent) | Base |
-| degreeArgument | [MathBlock](../../mathblock) | Degree |
-
-
----
-
-
-## MathRadical([MathAccent](../../mathaccent) baseArgument, [MathRadical](../../mathradical) degreeArgument)  constructor
-
- Initializes a new instance of the MathRadical class.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathAccent](../mathaccent) | Base |
-| degreeArgument | [MathRadical](../../mathradical) | Degree |
-
-
----
-
-
-## MathRadical([MathAccent](../../mathaccent) baseArgument, [MathArray](../../matharray) degreeArgument)  constructor
-
- Initializes a new instance of the MathRadical class.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathAccent](../mathaccent) | Base |
-| degreeArgument | [MathArray](../../matharray) | Degree |
-
-
----
-
-
-## MathRadical([MathAccent](../../mathaccent) baseArgument, [MathDelimiter](../../mathdelimiter) degreeArgument)  constructor
-
- Initializes a new instance of the MathRadical class.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathAccent](../mathaccent) | Base |
-| degreeArgument | [MathDelimiter](../../mathdelimiter) | Degree |
-
-
----
-
-
-## MathRadical([MathAccent](../../mathaccent) baseArgument, [MathAccent](../../mathaccent) degreeArgument)  constructor
-
- Initializes a new instance of the MathRadical class.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathAccent](../mathaccent) | Base |
-| degreeArgument | [MathAccent](../../mathaccent) | Degree |
-
-
----
-
-
-## MathRadical([MathAccent](../../mathaccent) baseArgument, [MathNaryOperator](../../mathnaryoperator) degreeArgument)  constructor
-
- Initializes a new instance of the MathRadical class.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathAccent](../mathaccent) | Base |
-| degreeArgument | [MathNaryOperator](../../mathnaryoperator) | Degree |
-
-
----
-
-
-## MathRadical([MathAccent](../../mathaccent) baseArgument, [MathBorderBox](../../mathborderbox) degreeArgument)  constructor
-
- Initializes a new instance of the MathRadical class.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathAccent](../mathaccent) | Base |
-| degreeArgument | [MathBorderBox](../../mathborderbox) | Degree |
-
-
----
-
-
-## MathRadical([MathAccent](../../mathaccent) baseArgument, [MathGroupingCharacter](../../mathgroupingcharacter) degreeArgument)  constructor
-
- Initializes a new instance of the MathRadical class.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathAccent](../mathaccent) | Base |
-| degreeArgument | [MathGroupingCharacter](../../mathgroupingcharacter) | Degree |
-
-
----
-
-
-## MathRadical([MathAccent](../../mathaccent) baseArgument, [MathBar](../../mathbar) degreeArgument)  constructor
-
- Initializes a new instance of the MathRadical class.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathAccent](../mathaccent) | Base |
-| degreeArgument | [MathBar](../../mathbar) | Degree |
-
-
----
-
-
-## MathRadical([MathAccent](../../mathaccent) baseArgument, [MathSuperscriptElement](../../mathsuperscriptelement) degreeArgument)  constructor
-
- Initializes a new instance of the MathRadical class.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathAccent](../mathaccent) | Base |
-| degreeArgument | [MathSuperscriptElement](../../mathsuperscriptelement) | Degree |
-
-
----
-
-
-## MathRadical([MathAccent](../../mathaccent) baseArgument, [MathSubscriptElement](../../mathsubscriptelement) degreeArgument)  constructor
-
- Initializes a new instance of the MathRadical class.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathAccent](../mathaccent) | Base |
-| degreeArgument | [MathSubscriptElement](../../mathsubscriptelement) | Degree |
-
-
----
-
-
-## MathRadical([MathAccent](../../mathaccent) baseArgument, [MathFunction](../../mathfunction) degreeArgument)  constructor
-
- Initializes a new instance of the MathRadical class.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathAccent](../mathaccent) | Base |
-| degreeArgument | [MathFunction](../../mathfunction) | Degree |
-
-
----
-
-
-## MathRadical([MathAccent](../../mathaccent) baseArgument, [MathFraction](../../mathfraction) degreeArgument)  constructor
-
- Initializes a new instance of the MathRadical class.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathAccent](../mathaccent) | Base |
-| degreeArgument | [MathFraction](../../mathfraction) | Degree |
-
-
----
-
-
-## MathRadical([MathAccent](../../mathaccent) baseArgument, [MathematicalText](../../mathematicaltext) degreeArgument)  constructor
-
- Initializes a new instance of the MathRadical class.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathAccent](../mathaccent) | Base |
-| degreeArgument | [MathematicalText](../../mathematicaltext) | Degree |
-
-
----
-
-
-## MathRadical([MathAccent](../../mathaccent) baseArgument, [MathBox](../../mathbox) degreeArgument)  constructor
-
- Initializes a new instance of the MathRadical class.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathAccent](../mathaccent) | Base |
-| degreeArgument | [MathBox](../../mathbox) | Degree |
-
-
----
-
-
-## MathRadical([MathAccent](../../mathaccent) baseArgument, [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) degreeArgument)  constructor
-
- Initializes a new instance of the MathRadical class.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathAccent](../mathaccent) | Base |
 | degreeArgument | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | Degree |
 
 
@@ -2551,22 +2247,6 @@ url: /php-java/aspose.slides/mathradical/mathradical/
 ---
 
 
-## MathRadical([MathNaryOperator](../../mathnaryoperator) baseArgument, [MathAccent](../../mathaccent) degreeArgument)  constructor
-
- Initializes a new instance of the MathRadical class.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathNaryOperator](../mathnaryoperator) | Base |
-| degreeArgument | [MathAccent](../../mathaccent) | Degree |
-
-
----
-
-
 ## MathRadical([MathNaryOperator](../../mathnaryoperator) baseArgument, [MathNaryOperator](../../mathnaryoperator) degreeArgument)  constructor
 
  Initializes a new instance of the MathRadical class.
@@ -2578,6 +2258,22 @@ url: /php-java/aspose.slides/mathradical/mathradical/
 | --- | --- | --- |
 | baseArgument | [MathNaryOperator](../mathnaryoperator) | Base |
 | degreeArgument | [MathNaryOperator](../../mathnaryoperator) | Degree |
+
+
+---
+
+
+## MathRadical([MathNaryOperator](../../mathnaryoperator) baseArgument, [MathAccent](../../mathaccent) degreeArgument)  constructor
+
+ Initializes a new instance of the MathRadical class.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathNaryOperator](../mathnaryoperator) | Base |
+| degreeArgument | [MathAccent](../../mathaccent) | Degree |
 
 
 ---
@@ -2631,6 +2327,22 @@ url: /php-java/aspose.slides/mathradical/mathradical/
 ---
 
 
+## MathRadical([MathNaryOperator](../../mathnaryoperator) baseArgument, [MathFunction](../../mathfunction) degreeArgument)  constructor
+
+ Initializes a new instance of the MathRadical class.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathNaryOperator](../mathnaryoperator) | Base |
+| degreeArgument | [MathFunction](../../mathfunction) | Degree |
+
+
+---
+
+
 ## MathRadical([MathNaryOperator](../../mathnaryoperator) baseArgument, [MathSuperscriptElement](../../mathsuperscriptelement) degreeArgument)  constructor
 
  Initializes a new instance of the MathRadical class.
@@ -2663,7 +2375,7 @@ url: /php-java/aspose.slides/mathradical/mathradical/
 ---
 
 
-## MathRadical([MathNaryOperator](../../mathnaryoperator) baseArgument, [MathFunction](../../mathfunction) degreeArgument)  constructor
+## MathRadical([MathNaryOperator](../../mathnaryoperator) baseArgument, [MathematicalText](../../mathematicaltext) degreeArgument)  constructor
 
  Initializes a new instance of the MathRadical class.
  
@@ -2673,7 +2385,7 @@ url: /php-java/aspose.slides/mathradical/mathradical/
 | Name | Type | Description |
 | --- | --- | --- |
 | baseArgument | [MathNaryOperator](../mathnaryoperator) | Base |
-| degreeArgument | [MathFunction](../../mathfunction) | Degree |
+| degreeArgument | [MathematicalText](../../mathematicaltext) | Degree |
 
 
 ---
@@ -2690,22 +2402,6 @@ url: /php-java/aspose.slides/mathradical/mathradical/
 | --- | --- | --- |
 | baseArgument | [MathNaryOperator](../mathnaryoperator) | Base |
 | degreeArgument | [MathFraction](../../mathfraction) | Degree |
-
-
----
-
-
-## MathRadical([MathNaryOperator](../../mathnaryoperator) baseArgument, [MathematicalText](../../mathematicaltext) degreeArgument)  constructor
-
- Initializes a new instance of the MathRadical class.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathNaryOperator](../mathnaryoperator) | Base |
-| degreeArgument | [MathematicalText](../../mathematicaltext) | Degree |
 
 
 ---
@@ -2737,6 +2433,310 @@ url: /php-java/aspose.slides/mathradical/mathradical/
 | Name | Type | Description |
 | --- | --- | --- |
 | baseArgument | [MathNaryOperator](../mathnaryoperator) | Base |
+| degreeArgument | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | Degree |
+
+
+---
+
+
+## MathRadical([MathAccent](../../mathaccent) baseArgument, [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) degreeArgument)  constructor
+
+ Initializes a new instance of the MathRadical class.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathAccent](../mathaccent) | Base |
+| degreeArgument | [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) | Degree |
+
+
+---
+
+
+## MathRadical([MathAccent](../../mathaccent) baseArgument, [MathMatrix](../../mathmatrix) degreeArgument)  constructor
+
+ Initializes a new instance of the MathRadical class.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathAccent](../mathaccent) | Base |
+| degreeArgument | [MathMatrix](../../mathmatrix) | Degree |
+
+
+---
+
+
+## MathRadical([MathAccent](../../mathaccent) baseArgument, [MathLimit](../../mathlimit) degreeArgument)  constructor
+
+ Initializes a new instance of the MathRadical class.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathAccent](../mathaccent) | Base |
+| degreeArgument | [MathLimit](../../mathlimit) | Degree |
+
+
+---
+
+
+## MathRadical([MathAccent](../../mathaccent) baseArgument, [MathBlock](../../mathblock) degreeArgument)  constructor
+
+ Initializes a new instance of the MathRadical class.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathAccent](../mathaccent) | Base |
+| degreeArgument | [MathBlock](../../mathblock) | Degree |
+
+
+---
+
+
+## MathRadical([MathAccent](../../mathaccent) baseArgument, [MathRadical](../../mathradical) degreeArgument)  constructor
+
+ Initializes a new instance of the MathRadical class.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathAccent](../mathaccent) | Base |
+| degreeArgument | [MathRadical](../../mathradical) | Degree |
+
+
+---
+
+
+## MathRadical([MathAccent](../../mathaccent) baseArgument, [MathArray](../../matharray) degreeArgument)  constructor
+
+ Initializes a new instance of the MathRadical class.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathAccent](../mathaccent) | Base |
+| degreeArgument | [MathArray](../../matharray) | Degree |
+
+
+---
+
+
+## MathRadical([MathAccent](../../mathaccent) baseArgument, [MathDelimiter](../../mathdelimiter) degreeArgument)  constructor
+
+ Initializes a new instance of the MathRadical class.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathAccent](../mathaccent) | Base |
+| degreeArgument | [MathDelimiter](../../mathdelimiter) | Degree |
+
+
+---
+
+
+## MathRadical([MathAccent](../../mathaccent) baseArgument, [MathNaryOperator](../../mathnaryoperator) degreeArgument)  constructor
+
+ Initializes a new instance of the MathRadical class.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathAccent](../mathaccent) | Base |
+| degreeArgument | [MathNaryOperator](../../mathnaryoperator) | Degree |
+
+
+---
+
+
+## MathRadical([MathAccent](../../mathaccent) baseArgument, [MathAccent](../../mathaccent) degreeArgument)  constructor
+
+ Initializes a new instance of the MathRadical class.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathAccent](../mathaccent) | Base |
+| degreeArgument | [MathAccent](../../mathaccent) | Degree |
+
+
+---
+
+
+## MathRadical([MathAccent](../../mathaccent) baseArgument, [MathBorderBox](../../mathborderbox) degreeArgument)  constructor
+
+ Initializes a new instance of the MathRadical class.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathAccent](../mathaccent) | Base |
+| degreeArgument | [MathBorderBox](../../mathborderbox) | Degree |
+
+
+---
+
+
+## MathRadical([MathAccent](../../mathaccent) baseArgument, [MathGroupingCharacter](../../mathgroupingcharacter) degreeArgument)  constructor
+
+ Initializes a new instance of the MathRadical class.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathAccent](../mathaccent) | Base |
+| degreeArgument | [MathGroupingCharacter](../../mathgroupingcharacter) | Degree |
+
+
+---
+
+
+## MathRadical([MathAccent](../../mathaccent) baseArgument, [MathBar](../../mathbar) degreeArgument)  constructor
+
+ Initializes a new instance of the MathRadical class.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathAccent](../mathaccent) | Base |
+| degreeArgument | [MathBar](../../mathbar) | Degree |
+
+
+---
+
+
+## MathRadical([MathAccent](../../mathaccent) baseArgument, [MathFunction](../../mathfunction) degreeArgument)  constructor
+
+ Initializes a new instance of the MathRadical class.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathAccent](../mathaccent) | Base |
+| degreeArgument | [MathFunction](../../mathfunction) | Degree |
+
+
+---
+
+
+## MathRadical([MathAccent](../../mathaccent) baseArgument, [MathSuperscriptElement](../../mathsuperscriptelement) degreeArgument)  constructor
+
+ Initializes a new instance of the MathRadical class.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathAccent](../mathaccent) | Base |
+| degreeArgument | [MathSuperscriptElement](../../mathsuperscriptelement) | Degree |
+
+
+---
+
+
+## MathRadical([MathAccent](../../mathaccent) baseArgument, [MathSubscriptElement](../../mathsubscriptelement) degreeArgument)  constructor
+
+ Initializes a new instance of the MathRadical class.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathAccent](../mathaccent) | Base |
+| degreeArgument | [MathSubscriptElement](../../mathsubscriptelement) | Degree |
+
+
+---
+
+
+## MathRadical([MathAccent](../../mathaccent) baseArgument, [MathematicalText](../../mathematicaltext) degreeArgument)  constructor
+
+ Initializes a new instance of the MathRadical class.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathAccent](../mathaccent) | Base |
+| degreeArgument | [MathematicalText](../../mathematicaltext) | Degree |
+
+
+---
+
+
+## MathRadical([MathAccent](../../mathaccent) baseArgument, [MathFraction](../../mathfraction) degreeArgument)  constructor
+
+ Initializes a new instance of the MathRadical class.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathAccent](../mathaccent) | Base |
+| degreeArgument | [MathFraction](../../mathfraction) | Degree |
+
+
+---
+
+
+## MathRadical([MathAccent](../../mathaccent) baseArgument, [MathBox](../../mathbox) degreeArgument)  constructor
+
+ Initializes a new instance of the MathRadical class.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathAccent](../mathaccent) | Base |
+| degreeArgument | [MathBox](../../mathbox) | Degree |
+
+
+---
+
+
+## MathRadical([MathAccent](../../mathaccent) baseArgument, [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) degreeArgument)  constructor
+
+ Initializes a new instance of the MathRadical class.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathAccent](../mathaccent) | Base |
 | degreeArgument | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | Degree |
 
 
@@ -2855,22 +2855,6 @@ url: /php-java/aspose.slides/mathradical/mathradical/
 ---
 
 
-## MathRadical([MathBorderBox](../../mathborderbox) baseArgument, [MathAccent](../../mathaccent) degreeArgument)  constructor
-
- Initializes a new instance of the MathRadical class.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathBorderBox](../mathborderbox) | Base |
-| degreeArgument | [MathAccent](../../mathaccent) | Degree |
-
-
----
-
-
 ## MathRadical([MathBorderBox](../../mathborderbox) baseArgument, [MathNaryOperator](../../mathnaryoperator) degreeArgument)  constructor
 
  Initializes a new instance of the MathRadical class.
@@ -2882,6 +2866,22 @@ url: /php-java/aspose.slides/mathradical/mathradical/
 | --- | --- | --- |
 | baseArgument | [MathBorderBox](../mathborderbox) | Base |
 | degreeArgument | [MathNaryOperator](../../mathnaryoperator) | Degree |
+
+
+---
+
+
+## MathRadical([MathBorderBox](../../mathborderbox) baseArgument, [MathAccent](../../mathaccent) degreeArgument)  constructor
+
+ Initializes a new instance of the MathRadical class.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathBorderBox](../mathborderbox) | Base |
+| degreeArgument | [MathAccent](../../mathaccent) | Degree |
 
 
 ---
@@ -2935,6 +2935,22 @@ url: /php-java/aspose.slides/mathradical/mathradical/
 ---
 
 
+## MathRadical([MathBorderBox](../../mathborderbox) baseArgument, [MathFunction](../../mathfunction) degreeArgument)  constructor
+
+ Initializes a new instance of the MathRadical class.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathBorderBox](../mathborderbox) | Base |
+| degreeArgument | [MathFunction](../../mathfunction) | Degree |
+
+
+---
+
+
 ## MathRadical([MathBorderBox](../../mathborderbox) baseArgument, [MathSuperscriptElement](../../mathsuperscriptelement) degreeArgument)  constructor
 
  Initializes a new instance of the MathRadical class.
@@ -2967,7 +2983,7 @@ url: /php-java/aspose.slides/mathradical/mathradical/
 ---
 
 
-## MathRadical([MathBorderBox](../../mathborderbox) baseArgument, [MathFunction](../../mathfunction) degreeArgument)  constructor
+## MathRadical([MathBorderBox](../../mathborderbox) baseArgument, [MathematicalText](../../mathematicaltext) degreeArgument)  constructor
 
  Initializes a new instance of the MathRadical class.
  
@@ -2977,7 +2993,7 @@ url: /php-java/aspose.slides/mathradical/mathradical/
 | Name | Type | Description |
 | --- | --- | --- |
 | baseArgument | [MathBorderBox](../mathborderbox) | Base |
-| degreeArgument | [MathFunction](../../mathfunction) | Degree |
+| degreeArgument | [MathematicalText](../../mathematicaltext) | Degree |
 
 
 ---
@@ -2994,22 +3010,6 @@ url: /php-java/aspose.slides/mathradical/mathradical/
 | --- | --- | --- |
 | baseArgument | [MathBorderBox](../mathborderbox) | Base |
 | degreeArgument | [MathFraction](../../mathfraction) | Degree |
-
-
----
-
-
-## MathRadical([MathBorderBox](../../mathborderbox) baseArgument, [MathematicalText](../../mathematicaltext) degreeArgument)  constructor
-
- Initializes a new instance of the MathRadical class.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathBorderBox](../mathborderbox) | Base |
-| degreeArgument | [MathematicalText](../../mathematicaltext) | Degree |
 
 
 ---
@@ -3159,22 +3159,6 @@ url: /php-java/aspose.slides/mathradical/mathradical/
 ---
 
 
-## MathRadical([MathGroupingCharacter](../../mathgroupingcharacter) baseArgument, [MathAccent](../../mathaccent) degreeArgument)  constructor
-
- Initializes a new instance of the MathRadical class.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathGroupingCharacter](../mathgroupingcharacter) | Base |
-| degreeArgument | [MathAccent](../../mathaccent) | Degree |
-
-
----
-
-
 ## MathRadical([MathGroupingCharacter](../../mathgroupingcharacter) baseArgument, [MathNaryOperator](../../mathnaryoperator) degreeArgument)  constructor
 
  Initializes a new instance of the MathRadical class.
@@ -3186,6 +3170,22 @@ url: /php-java/aspose.slides/mathradical/mathradical/
 | --- | --- | --- |
 | baseArgument | [MathGroupingCharacter](../mathgroupingcharacter) | Base |
 | degreeArgument | [MathNaryOperator](../../mathnaryoperator) | Degree |
+
+
+---
+
+
+## MathRadical([MathGroupingCharacter](../../mathgroupingcharacter) baseArgument, [MathAccent](../../mathaccent) degreeArgument)  constructor
+
+ Initializes a new instance of the MathRadical class.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathGroupingCharacter](../mathgroupingcharacter) | Base |
+| degreeArgument | [MathAccent](../../mathaccent) | Degree |
 
 
 ---
@@ -3239,6 +3239,22 @@ url: /php-java/aspose.slides/mathradical/mathradical/
 ---
 
 
+## MathRadical([MathGroupingCharacter](../../mathgroupingcharacter) baseArgument, [MathFunction](../../mathfunction) degreeArgument)  constructor
+
+ Initializes a new instance of the MathRadical class.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathGroupingCharacter](../mathgroupingcharacter) | Base |
+| degreeArgument | [MathFunction](../../mathfunction) | Degree |
+
+
+---
+
+
 ## MathRadical([MathGroupingCharacter](../../mathgroupingcharacter) baseArgument, [MathSuperscriptElement](../../mathsuperscriptelement) degreeArgument)  constructor
 
  Initializes a new instance of the MathRadical class.
@@ -3271,7 +3287,7 @@ url: /php-java/aspose.slides/mathradical/mathradical/
 ---
 
 
-## MathRadical([MathGroupingCharacter](../../mathgroupingcharacter) baseArgument, [MathFunction](../../mathfunction) degreeArgument)  constructor
+## MathRadical([MathGroupingCharacter](../../mathgroupingcharacter) baseArgument, [MathematicalText](../../mathematicaltext) degreeArgument)  constructor
 
  Initializes a new instance of the MathRadical class.
  
@@ -3281,7 +3297,7 @@ url: /php-java/aspose.slides/mathradical/mathradical/
 | Name | Type | Description |
 | --- | --- | --- |
 | baseArgument | [MathGroupingCharacter](../mathgroupingcharacter) | Base |
-| degreeArgument | [MathFunction](../../mathfunction) | Degree |
+| degreeArgument | [MathematicalText](../../mathematicaltext) | Degree |
 
 
 ---
@@ -3298,22 +3314,6 @@ url: /php-java/aspose.slides/mathradical/mathradical/
 | --- | --- | --- |
 | baseArgument | [MathGroupingCharacter](../mathgroupingcharacter) | Base |
 | degreeArgument | [MathFraction](../../mathfraction) | Degree |
-
-
----
-
-
-## MathRadical([MathGroupingCharacter](../../mathgroupingcharacter) baseArgument, [MathematicalText](../../mathematicaltext) degreeArgument)  constructor
-
- Initializes a new instance of the MathRadical class.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathGroupingCharacter](../mathgroupingcharacter) | Base |
-| degreeArgument | [MathematicalText](../../mathematicaltext) | Degree |
 
 
 ---
@@ -3463,22 +3463,6 @@ url: /php-java/aspose.slides/mathradical/mathradical/
 ---
 
 
-## MathRadical([MathBar](../../mathbar) baseArgument, [MathAccent](../../mathaccent) degreeArgument)  constructor
-
- Initializes a new instance of the MathRadical class.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathBar](../mathbar) | Base |
-| degreeArgument | [MathAccent](../../mathaccent) | Degree |
-
-
----
-
-
 ## MathRadical([MathBar](../../mathbar) baseArgument, [MathNaryOperator](../../mathnaryoperator) degreeArgument)  constructor
 
  Initializes a new instance of the MathRadical class.
@@ -3490,6 +3474,22 @@ url: /php-java/aspose.slides/mathradical/mathradical/
 | --- | --- | --- |
 | baseArgument | [MathBar](../mathbar) | Base |
 | degreeArgument | [MathNaryOperator](../../mathnaryoperator) | Degree |
+
+
+---
+
+
+## MathRadical([MathBar](../../mathbar) baseArgument, [MathAccent](../../mathaccent) degreeArgument)  constructor
+
+ Initializes a new instance of the MathRadical class.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathBar](../mathbar) | Base |
+| degreeArgument | [MathAccent](../../mathaccent) | Degree |
 
 
 ---
@@ -3543,6 +3543,22 @@ url: /php-java/aspose.slides/mathradical/mathradical/
 ---
 
 
+## MathRadical([MathBar](../../mathbar) baseArgument, [MathFunction](../../mathfunction) degreeArgument)  constructor
+
+ Initializes a new instance of the MathRadical class.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathBar](../mathbar) | Base |
+| degreeArgument | [MathFunction](../../mathfunction) | Degree |
+
+
+---
+
+
 ## MathRadical([MathBar](../../mathbar) baseArgument, [MathSuperscriptElement](../../mathsuperscriptelement) degreeArgument)  constructor
 
  Initializes a new instance of the MathRadical class.
@@ -3575,7 +3591,7 @@ url: /php-java/aspose.slides/mathradical/mathradical/
 ---
 
 
-## MathRadical([MathBar](../../mathbar) baseArgument, [MathFunction](../../mathfunction) degreeArgument)  constructor
+## MathRadical([MathBar](../../mathbar) baseArgument, [MathematicalText](../../mathematicaltext) degreeArgument)  constructor
 
  Initializes a new instance of the MathRadical class.
  
@@ -3585,7 +3601,7 @@ url: /php-java/aspose.slides/mathradical/mathradical/
 | Name | Type | Description |
 | --- | --- | --- |
 | baseArgument | [MathBar](../mathbar) | Base |
-| degreeArgument | [MathFunction](../../mathfunction) | Degree |
+| degreeArgument | [MathematicalText](../../mathematicaltext) | Degree |
 
 
 ---
@@ -3602,22 +3618,6 @@ url: /php-java/aspose.slides/mathradical/mathradical/
 | --- | --- | --- |
 | baseArgument | [MathBar](../mathbar) | Base |
 | degreeArgument | [MathFraction](../../mathfraction) | Degree |
-
-
----
-
-
-## MathRadical([MathBar](../../mathbar) baseArgument, [MathematicalText](../../mathematicaltext) degreeArgument)  constructor
-
- Initializes a new instance of the MathRadical class.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathBar](../mathbar) | Base |
-| degreeArgument | [MathematicalText](../../mathematicaltext) | Degree |
 
 
 ---
@@ -3649,6 +3649,310 @@ url: /php-java/aspose.slides/mathradical/mathradical/
 | Name | Type | Description |
 | --- | --- | --- |
 | baseArgument | [MathBar](../mathbar) | Base |
+| degreeArgument | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | Degree |
+
+
+---
+
+
+## MathRadical([MathFunction](../../mathfunction) baseArgument, [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) degreeArgument)  constructor
+
+ Initializes a new instance of the MathRadical class.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathFunction](../mathfunction) | Base |
+| degreeArgument | [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) | Degree |
+
+
+---
+
+
+## MathRadical([MathFunction](../../mathfunction) baseArgument, [MathMatrix](../../mathmatrix) degreeArgument)  constructor
+
+ Initializes a new instance of the MathRadical class.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathFunction](../mathfunction) | Base |
+| degreeArgument | [MathMatrix](../../mathmatrix) | Degree |
+
+
+---
+
+
+## MathRadical([MathFunction](../../mathfunction) baseArgument, [MathLimit](../../mathlimit) degreeArgument)  constructor
+
+ Initializes a new instance of the MathRadical class.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathFunction](../mathfunction) | Base |
+| degreeArgument | [MathLimit](../../mathlimit) | Degree |
+
+
+---
+
+
+## MathRadical([MathFunction](../../mathfunction) baseArgument, [MathBlock](../../mathblock) degreeArgument)  constructor
+
+ Initializes a new instance of the MathRadical class.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathFunction](../mathfunction) | Base |
+| degreeArgument | [MathBlock](../../mathblock) | Degree |
+
+
+---
+
+
+## MathRadical([MathFunction](../../mathfunction) baseArgument, [MathRadical](../../mathradical) degreeArgument)  constructor
+
+ Initializes a new instance of the MathRadical class.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathFunction](../mathfunction) | Base |
+| degreeArgument | [MathRadical](../../mathradical) | Degree |
+
+
+---
+
+
+## MathRadical([MathFunction](../../mathfunction) baseArgument, [MathArray](../../matharray) degreeArgument)  constructor
+
+ Initializes a new instance of the MathRadical class.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathFunction](../mathfunction) | Base |
+| degreeArgument | [MathArray](../../matharray) | Degree |
+
+
+---
+
+
+## MathRadical([MathFunction](../../mathfunction) baseArgument, [MathDelimiter](../../mathdelimiter) degreeArgument)  constructor
+
+ Initializes a new instance of the MathRadical class.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathFunction](../mathfunction) | Base |
+| degreeArgument | [MathDelimiter](../../mathdelimiter) | Degree |
+
+
+---
+
+
+## MathRadical([MathFunction](../../mathfunction) baseArgument, [MathNaryOperator](../../mathnaryoperator) degreeArgument)  constructor
+
+ Initializes a new instance of the MathRadical class.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathFunction](../mathfunction) | Base |
+| degreeArgument | [MathNaryOperator](../../mathnaryoperator) | Degree |
+
+
+---
+
+
+## MathRadical([MathFunction](../../mathfunction) baseArgument, [MathAccent](../../mathaccent) degreeArgument)  constructor
+
+ Initializes a new instance of the MathRadical class.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathFunction](../mathfunction) | Base |
+| degreeArgument | [MathAccent](../../mathaccent) | Degree |
+
+
+---
+
+
+## MathRadical([MathFunction](../../mathfunction) baseArgument, [MathBorderBox](../../mathborderbox) degreeArgument)  constructor
+
+ Initializes a new instance of the MathRadical class.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathFunction](../mathfunction) | Base |
+| degreeArgument | [MathBorderBox](../../mathborderbox) | Degree |
+
+
+---
+
+
+## MathRadical([MathFunction](../../mathfunction) baseArgument, [MathGroupingCharacter](../../mathgroupingcharacter) degreeArgument)  constructor
+
+ Initializes a new instance of the MathRadical class.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathFunction](../mathfunction) | Base |
+| degreeArgument | [MathGroupingCharacter](../../mathgroupingcharacter) | Degree |
+
+
+---
+
+
+## MathRadical([MathFunction](../../mathfunction) baseArgument, [MathBar](../../mathbar) degreeArgument)  constructor
+
+ Initializes a new instance of the MathRadical class.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathFunction](../mathfunction) | Base |
+| degreeArgument | [MathBar](../../mathbar) | Degree |
+
+
+---
+
+
+## MathRadical([MathFunction](../../mathfunction) baseArgument, [MathFunction](../../mathfunction) degreeArgument)  constructor
+
+ Initializes a new instance of the MathRadical class.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathFunction](../mathfunction) | Base |
+| degreeArgument | [MathFunction](../../mathfunction) | Degree |
+
+
+---
+
+
+## MathRadical([MathFunction](../../mathfunction) baseArgument, [MathSuperscriptElement](../../mathsuperscriptelement) degreeArgument)  constructor
+
+ Initializes a new instance of the MathRadical class.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathFunction](../mathfunction) | Base |
+| degreeArgument | [MathSuperscriptElement](../../mathsuperscriptelement) | Degree |
+
+
+---
+
+
+## MathRadical([MathFunction](../../mathfunction) baseArgument, [MathSubscriptElement](../../mathsubscriptelement) degreeArgument)  constructor
+
+ Initializes a new instance of the MathRadical class.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathFunction](../mathfunction) | Base |
+| degreeArgument | [MathSubscriptElement](../../mathsubscriptelement) | Degree |
+
+
+---
+
+
+## MathRadical([MathFunction](../../mathfunction) baseArgument, [MathematicalText](../../mathematicaltext) degreeArgument)  constructor
+
+ Initializes a new instance of the MathRadical class.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathFunction](../mathfunction) | Base |
+| degreeArgument | [MathematicalText](../../mathematicaltext) | Degree |
+
+
+---
+
+
+## MathRadical([MathFunction](../../mathfunction) baseArgument, [MathFraction](../../mathfraction) degreeArgument)  constructor
+
+ Initializes a new instance of the MathRadical class.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathFunction](../mathfunction) | Base |
+| degreeArgument | [MathFraction](../../mathfraction) | Degree |
+
+
+---
+
+
+## MathRadical([MathFunction](../../mathfunction) baseArgument, [MathBox](../../mathbox) degreeArgument)  constructor
+
+ Initializes a new instance of the MathRadical class.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathFunction](../mathfunction) | Base |
+| degreeArgument | [MathBox](../../mathbox) | Degree |
+
+
+---
+
+
+## MathRadical([MathFunction](../../mathfunction) baseArgument, [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) degreeArgument)  constructor
+
+ Initializes a new instance of the MathRadical class.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathFunction](../mathfunction) | Base |
 | degreeArgument | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | Degree |
 
 
@@ -3767,22 +4071,6 @@ url: /php-java/aspose.slides/mathradical/mathradical/
 ---
 
 
-## MathRadical([MathSuperscriptElement](../../mathsuperscriptelement) baseArgument, [MathAccent](../../mathaccent) degreeArgument)  constructor
-
- Initializes a new instance of the MathRadical class.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathSuperscriptElement](../mathsuperscriptelement) | Base |
-| degreeArgument | [MathAccent](../../mathaccent) | Degree |
-
-
----
-
-
 ## MathRadical([MathSuperscriptElement](../../mathsuperscriptelement) baseArgument, [MathNaryOperator](../../mathnaryoperator) degreeArgument)  constructor
 
  Initializes a new instance of the MathRadical class.
@@ -3794,6 +4082,22 @@ url: /php-java/aspose.slides/mathradical/mathradical/
 | --- | --- | --- |
 | baseArgument | [MathSuperscriptElement](../mathsuperscriptelement) | Base |
 | degreeArgument | [MathNaryOperator](../../mathnaryoperator) | Degree |
+
+
+---
+
+
+## MathRadical([MathSuperscriptElement](../../mathsuperscriptelement) baseArgument, [MathAccent](../../mathaccent) degreeArgument)  constructor
+
+ Initializes a new instance of the MathRadical class.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathSuperscriptElement](../mathsuperscriptelement) | Base |
+| degreeArgument | [MathAccent](../../mathaccent) | Degree |
 
 
 ---
@@ -3847,6 +4151,22 @@ url: /php-java/aspose.slides/mathradical/mathradical/
 ---
 
 
+## MathRadical([MathSuperscriptElement](../../mathsuperscriptelement) baseArgument, [MathFunction](../../mathfunction) degreeArgument)  constructor
+
+ Initializes a new instance of the MathRadical class.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathSuperscriptElement](../mathsuperscriptelement) | Base |
+| degreeArgument | [MathFunction](../../mathfunction) | Degree |
+
+
+---
+
+
 ## MathRadical([MathSuperscriptElement](../../mathsuperscriptelement) baseArgument, [MathSuperscriptElement](../../mathsuperscriptelement) degreeArgument)  constructor
 
  Initializes a new instance of the MathRadical class.
@@ -3879,7 +4199,7 @@ url: /php-java/aspose.slides/mathradical/mathradical/
 ---
 
 
-## MathRadical([MathSuperscriptElement](../../mathsuperscriptelement) baseArgument, [MathFunction](../../mathfunction) degreeArgument)  constructor
+## MathRadical([MathSuperscriptElement](../../mathsuperscriptelement) baseArgument, [MathematicalText](../../mathematicaltext) degreeArgument)  constructor
 
  Initializes a new instance of the MathRadical class.
  
@@ -3889,7 +4209,7 @@ url: /php-java/aspose.slides/mathradical/mathradical/
 | Name | Type | Description |
 | --- | --- | --- |
 | baseArgument | [MathSuperscriptElement](../mathsuperscriptelement) | Base |
-| degreeArgument | [MathFunction](../../mathfunction) | Degree |
+| degreeArgument | [MathematicalText](../../mathematicaltext) | Degree |
 
 
 ---
@@ -3906,22 +4226,6 @@ url: /php-java/aspose.slides/mathradical/mathradical/
 | --- | --- | --- |
 | baseArgument | [MathSuperscriptElement](../mathsuperscriptelement) | Base |
 | degreeArgument | [MathFraction](../../mathfraction) | Degree |
-
-
----
-
-
-## MathRadical([MathSuperscriptElement](../../mathsuperscriptelement) baseArgument, [MathematicalText](../../mathematicaltext) degreeArgument)  constructor
-
- Initializes a new instance of the MathRadical class.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathSuperscriptElement](../mathsuperscriptelement) | Base |
-| degreeArgument | [MathematicalText](../../mathematicaltext) | Degree |
 
 
 ---
@@ -4071,22 +4375,6 @@ url: /php-java/aspose.slides/mathradical/mathradical/
 ---
 
 
-## MathRadical([MathSubscriptElement](../../mathsubscriptelement) baseArgument, [MathAccent](../../mathaccent) degreeArgument)  constructor
-
- Initializes a new instance of the MathRadical class.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathSubscriptElement](../mathsubscriptelement) | Base |
-| degreeArgument | [MathAccent](../../mathaccent) | Degree |
-
-
----
-
-
 ## MathRadical([MathSubscriptElement](../../mathsubscriptelement) baseArgument, [MathNaryOperator](../../mathnaryoperator) degreeArgument)  constructor
 
  Initializes a new instance of the MathRadical class.
@@ -4098,6 +4386,22 @@ url: /php-java/aspose.slides/mathradical/mathradical/
 | --- | --- | --- |
 | baseArgument | [MathSubscriptElement](../mathsubscriptelement) | Base |
 | degreeArgument | [MathNaryOperator](../../mathnaryoperator) | Degree |
+
+
+---
+
+
+## MathRadical([MathSubscriptElement](../../mathsubscriptelement) baseArgument, [MathAccent](../../mathaccent) degreeArgument)  constructor
+
+ Initializes a new instance of the MathRadical class.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathSubscriptElement](../mathsubscriptelement) | Base |
+| degreeArgument | [MathAccent](../../mathaccent) | Degree |
 
 
 ---
@@ -4151,6 +4455,22 @@ url: /php-java/aspose.slides/mathradical/mathradical/
 ---
 
 
+## MathRadical([MathSubscriptElement](../../mathsubscriptelement) baseArgument, [MathFunction](../../mathfunction) degreeArgument)  constructor
+
+ Initializes a new instance of the MathRadical class.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathSubscriptElement](../mathsubscriptelement) | Base |
+| degreeArgument | [MathFunction](../../mathfunction) | Degree |
+
+
+---
+
+
 ## MathRadical([MathSubscriptElement](../../mathsubscriptelement) baseArgument, [MathSuperscriptElement](../../mathsuperscriptelement) degreeArgument)  constructor
 
  Initializes a new instance of the MathRadical class.
@@ -4183,7 +4503,7 @@ url: /php-java/aspose.slides/mathradical/mathradical/
 ---
 
 
-## MathRadical([MathSubscriptElement](../../mathsubscriptelement) baseArgument, [MathFunction](../../mathfunction) degreeArgument)  constructor
+## MathRadical([MathSubscriptElement](../../mathsubscriptelement) baseArgument, [MathematicalText](../../mathematicaltext) degreeArgument)  constructor
 
  Initializes a new instance of the MathRadical class.
  
@@ -4193,7 +4513,7 @@ url: /php-java/aspose.slides/mathradical/mathradical/
 | Name | Type | Description |
 | --- | --- | --- |
 | baseArgument | [MathSubscriptElement](../mathsubscriptelement) | Base |
-| degreeArgument | [MathFunction](../../mathfunction) | Degree |
+| degreeArgument | [MathematicalText](../../mathematicaltext) | Degree |
 
 
 ---
@@ -4210,22 +4530,6 @@ url: /php-java/aspose.slides/mathradical/mathradical/
 | --- | --- | --- |
 | baseArgument | [MathSubscriptElement](../mathsubscriptelement) | Base |
 | degreeArgument | [MathFraction](../../mathfraction) | Degree |
-
-
----
-
-
-## MathRadical([MathSubscriptElement](../../mathsubscriptelement) baseArgument, [MathematicalText](../../mathematicaltext) degreeArgument)  constructor
-
- Initializes a new instance of the MathRadical class.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathSubscriptElement](../mathsubscriptelement) | Base |
-| degreeArgument | [MathematicalText](../../mathematicaltext) | Degree |
 
 
 ---
@@ -4257,614 +4561,6 @@ url: /php-java/aspose.slides/mathradical/mathradical/
 | Name | Type | Description |
 | --- | --- | --- |
 | baseArgument | [MathSubscriptElement](../mathsubscriptelement) | Base |
-| degreeArgument | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | Degree |
-
-
----
-
-
-## MathRadical([MathFunction](../../mathfunction) baseArgument, [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) degreeArgument)  constructor
-
- Initializes a new instance of the MathRadical class.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathFunction](../mathfunction) | Base |
-| degreeArgument | [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) | Degree |
-
-
----
-
-
-## MathRadical([MathFunction](../../mathfunction) baseArgument, [MathMatrix](../../mathmatrix) degreeArgument)  constructor
-
- Initializes a new instance of the MathRadical class.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathFunction](../mathfunction) | Base |
-| degreeArgument | [MathMatrix](../../mathmatrix) | Degree |
-
-
----
-
-
-## MathRadical([MathFunction](../../mathfunction) baseArgument, [MathLimit](../../mathlimit) degreeArgument)  constructor
-
- Initializes a new instance of the MathRadical class.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathFunction](../mathfunction) | Base |
-| degreeArgument | [MathLimit](../../mathlimit) | Degree |
-
-
----
-
-
-## MathRadical([MathFunction](../../mathfunction) baseArgument, [MathBlock](../../mathblock) degreeArgument)  constructor
-
- Initializes a new instance of the MathRadical class.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathFunction](../mathfunction) | Base |
-| degreeArgument | [MathBlock](../../mathblock) | Degree |
-
-
----
-
-
-## MathRadical([MathFunction](../../mathfunction) baseArgument, [MathRadical](../../mathradical) degreeArgument)  constructor
-
- Initializes a new instance of the MathRadical class.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathFunction](../mathfunction) | Base |
-| degreeArgument | [MathRadical](../../mathradical) | Degree |
-
-
----
-
-
-## MathRadical([MathFunction](../../mathfunction) baseArgument, [MathArray](../../matharray) degreeArgument)  constructor
-
- Initializes a new instance of the MathRadical class.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathFunction](../mathfunction) | Base |
-| degreeArgument | [MathArray](../../matharray) | Degree |
-
-
----
-
-
-## MathRadical([MathFunction](../../mathfunction) baseArgument, [MathDelimiter](../../mathdelimiter) degreeArgument)  constructor
-
- Initializes a new instance of the MathRadical class.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathFunction](../mathfunction) | Base |
-| degreeArgument | [MathDelimiter](../../mathdelimiter) | Degree |
-
-
----
-
-
-## MathRadical([MathFunction](../../mathfunction) baseArgument, [MathAccent](../../mathaccent) degreeArgument)  constructor
-
- Initializes a new instance of the MathRadical class.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathFunction](../mathfunction) | Base |
-| degreeArgument | [MathAccent](../../mathaccent) | Degree |
-
-
----
-
-
-## MathRadical([MathFunction](../../mathfunction) baseArgument, [MathNaryOperator](../../mathnaryoperator) degreeArgument)  constructor
-
- Initializes a new instance of the MathRadical class.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathFunction](../mathfunction) | Base |
-| degreeArgument | [MathNaryOperator](../../mathnaryoperator) | Degree |
-
-
----
-
-
-## MathRadical([MathFunction](../../mathfunction) baseArgument, [MathBorderBox](../../mathborderbox) degreeArgument)  constructor
-
- Initializes a new instance of the MathRadical class.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathFunction](../mathfunction) | Base |
-| degreeArgument | [MathBorderBox](../../mathborderbox) | Degree |
-
-
----
-
-
-## MathRadical([MathFunction](../../mathfunction) baseArgument, [MathGroupingCharacter](../../mathgroupingcharacter) degreeArgument)  constructor
-
- Initializes a new instance of the MathRadical class.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathFunction](../mathfunction) | Base |
-| degreeArgument | [MathGroupingCharacter](../../mathgroupingcharacter) | Degree |
-
-
----
-
-
-## MathRadical([MathFunction](../../mathfunction) baseArgument, [MathBar](../../mathbar) degreeArgument)  constructor
-
- Initializes a new instance of the MathRadical class.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathFunction](../mathfunction) | Base |
-| degreeArgument | [MathBar](../../mathbar) | Degree |
-
-
----
-
-
-## MathRadical([MathFunction](../../mathfunction) baseArgument, [MathSuperscriptElement](../../mathsuperscriptelement) degreeArgument)  constructor
-
- Initializes a new instance of the MathRadical class.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathFunction](../mathfunction) | Base |
-| degreeArgument | [MathSuperscriptElement](../../mathsuperscriptelement) | Degree |
-
-
----
-
-
-## MathRadical([MathFunction](../../mathfunction) baseArgument, [MathSubscriptElement](../../mathsubscriptelement) degreeArgument)  constructor
-
- Initializes a new instance of the MathRadical class.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathFunction](../mathfunction) | Base |
-| degreeArgument | [MathSubscriptElement](../../mathsubscriptelement) | Degree |
-
-
----
-
-
-## MathRadical([MathFunction](../../mathfunction) baseArgument, [MathFunction](../../mathfunction) degreeArgument)  constructor
-
- Initializes a new instance of the MathRadical class.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathFunction](../mathfunction) | Base |
-| degreeArgument | [MathFunction](../../mathfunction) | Degree |
-
-
----
-
-
-## MathRadical([MathFunction](../../mathfunction) baseArgument, [MathFraction](../../mathfraction) degreeArgument)  constructor
-
- Initializes a new instance of the MathRadical class.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathFunction](../mathfunction) | Base |
-| degreeArgument | [MathFraction](../../mathfraction) | Degree |
-
-
----
-
-
-## MathRadical([MathFunction](../../mathfunction) baseArgument, [MathematicalText](../../mathematicaltext) degreeArgument)  constructor
-
- Initializes a new instance of the MathRadical class.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathFunction](../mathfunction) | Base |
-| degreeArgument | [MathematicalText](../../mathematicaltext) | Degree |
-
-
----
-
-
-## MathRadical([MathFunction](../../mathfunction) baseArgument, [MathBox](../../mathbox) degreeArgument)  constructor
-
- Initializes a new instance of the MathRadical class.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathFunction](../mathfunction) | Base |
-| degreeArgument | [MathBox](../../mathbox) | Degree |
-
-
----
-
-
-## MathRadical([MathFunction](../../mathfunction) baseArgument, [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) degreeArgument)  constructor
-
- Initializes a new instance of the MathRadical class.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathFunction](../mathfunction) | Base |
-| degreeArgument | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | Degree |
-
-
----
-
-
-## MathRadical([MathFraction](../../mathfraction) baseArgument, [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) degreeArgument)  constructor
-
- Initializes a new instance of the MathRadical class.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathFraction](../mathfraction) | Base |
-| degreeArgument | [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) | Degree |
-
-
----
-
-
-## MathRadical([MathFraction](../../mathfraction) baseArgument, [MathMatrix](../../mathmatrix) degreeArgument)  constructor
-
- Initializes a new instance of the MathRadical class.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathFraction](../mathfraction) | Base |
-| degreeArgument | [MathMatrix](../../mathmatrix) | Degree |
-
-
----
-
-
-## MathRadical([MathFraction](../../mathfraction) baseArgument, [MathLimit](../../mathlimit) degreeArgument)  constructor
-
- Initializes a new instance of the MathRadical class.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathFraction](../mathfraction) | Base |
-| degreeArgument | [MathLimit](../../mathlimit) | Degree |
-
-
----
-
-
-## MathRadical([MathFraction](../../mathfraction) baseArgument, [MathBlock](../../mathblock) degreeArgument)  constructor
-
- Initializes a new instance of the MathRadical class.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathFraction](../mathfraction) | Base |
-| degreeArgument | [MathBlock](../../mathblock) | Degree |
-
-
----
-
-
-## MathRadical([MathFraction](../../mathfraction) baseArgument, [MathRadical](../../mathradical) degreeArgument)  constructor
-
- Initializes a new instance of the MathRadical class.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathFraction](../mathfraction) | Base |
-| degreeArgument | [MathRadical](../../mathradical) | Degree |
-
-
----
-
-
-## MathRadical([MathFraction](../../mathfraction) baseArgument, [MathArray](../../matharray) degreeArgument)  constructor
-
- Initializes a new instance of the MathRadical class.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathFraction](../mathfraction) | Base |
-| degreeArgument | [MathArray](../../matharray) | Degree |
-
-
----
-
-
-## MathRadical([MathFraction](../../mathfraction) baseArgument, [MathDelimiter](../../mathdelimiter) degreeArgument)  constructor
-
- Initializes a new instance of the MathRadical class.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathFraction](../mathfraction) | Base |
-| degreeArgument | [MathDelimiter](../../mathdelimiter) | Degree |
-
-
----
-
-
-## MathRadical([MathFraction](../../mathfraction) baseArgument, [MathAccent](../../mathaccent) degreeArgument)  constructor
-
- Initializes a new instance of the MathRadical class.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathFraction](../mathfraction) | Base |
-| degreeArgument | [MathAccent](../../mathaccent) | Degree |
-
-
----
-
-
-## MathRadical([MathFraction](../../mathfraction) baseArgument, [MathNaryOperator](../../mathnaryoperator) degreeArgument)  constructor
-
- Initializes a new instance of the MathRadical class.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathFraction](../mathfraction) | Base |
-| degreeArgument | [MathNaryOperator](../../mathnaryoperator) | Degree |
-
-
----
-
-
-## MathRadical([MathFraction](../../mathfraction) baseArgument, [MathBorderBox](../../mathborderbox) degreeArgument)  constructor
-
- Initializes a new instance of the MathRadical class.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathFraction](../mathfraction) | Base |
-| degreeArgument | [MathBorderBox](../../mathborderbox) | Degree |
-
-
----
-
-
-## MathRadical([MathFraction](../../mathfraction) baseArgument, [MathGroupingCharacter](../../mathgroupingcharacter) degreeArgument)  constructor
-
- Initializes a new instance of the MathRadical class.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathFraction](../mathfraction) | Base |
-| degreeArgument | [MathGroupingCharacter](../../mathgroupingcharacter) | Degree |
-
-
----
-
-
-## MathRadical([MathFraction](../../mathfraction) baseArgument, [MathBar](../../mathbar) degreeArgument)  constructor
-
- Initializes a new instance of the MathRadical class.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathFraction](../mathfraction) | Base |
-| degreeArgument | [MathBar](../../mathbar) | Degree |
-
-
----
-
-
-## MathRadical([MathFraction](../../mathfraction) baseArgument, [MathSuperscriptElement](../../mathsuperscriptelement) degreeArgument)  constructor
-
- Initializes a new instance of the MathRadical class.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathFraction](../mathfraction) | Base |
-| degreeArgument | [MathSuperscriptElement](../../mathsuperscriptelement) | Degree |
-
-
----
-
-
-## MathRadical([MathFraction](../../mathfraction) baseArgument, [MathSubscriptElement](../../mathsubscriptelement) degreeArgument)  constructor
-
- Initializes a new instance of the MathRadical class.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathFraction](../mathfraction) | Base |
-| degreeArgument | [MathSubscriptElement](../../mathsubscriptelement) | Degree |
-
-
----
-
-
-## MathRadical([MathFraction](../../mathfraction) baseArgument, [MathFunction](../../mathfunction) degreeArgument)  constructor
-
- Initializes a new instance of the MathRadical class.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathFraction](../mathfraction) | Base |
-| degreeArgument | [MathFunction](../../mathfunction) | Degree |
-
-
----
-
-
-## MathRadical([MathFraction](../../mathfraction) baseArgument, [MathFraction](../../mathfraction) degreeArgument)  constructor
-
- Initializes a new instance of the MathRadical class.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathFraction](../mathfraction) | Base |
-| degreeArgument | [MathFraction](../../mathfraction) | Degree |
-
-
----
-
-
-## MathRadical([MathFraction](../../mathfraction) baseArgument, [MathematicalText](../../mathematicaltext) degreeArgument)  constructor
-
- Initializes a new instance of the MathRadical class.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathFraction](../mathfraction) | Base |
-| degreeArgument | [MathematicalText](../../mathematicaltext) | Degree |
-
-
----
-
-
-## MathRadical([MathFraction](../../mathfraction) baseArgument, [MathBox](../../mathbox) degreeArgument)  constructor
-
- Initializes a new instance of the MathRadical class.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathFraction](../mathfraction) | Base |
-| degreeArgument | [MathBox](../../mathbox) | Degree |
-
-
----
-
-
-## MathRadical([MathFraction](../../mathfraction) baseArgument, [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) degreeArgument)  constructor
-
- Initializes a new instance of the MathRadical class.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathFraction](../mathfraction) | Base |
 | degreeArgument | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | Degree |
 
 
@@ -4983,22 +4679,6 @@ url: /php-java/aspose.slides/mathradical/mathradical/
 ---
 
 
-## MathRadical([MathematicalText](../../mathematicaltext) baseArgument, [MathAccent](../../mathaccent) degreeArgument)  constructor
-
- Initializes a new instance of the MathRadical class.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathematicalText](../mathematicaltext) | Base |
-| degreeArgument | [MathAccent](../../mathaccent) | Degree |
-
-
----
-
-
 ## MathRadical([MathematicalText](../../mathematicaltext) baseArgument, [MathNaryOperator](../../mathnaryoperator) degreeArgument)  constructor
 
  Initializes a new instance of the MathRadical class.
@@ -5010,6 +4690,22 @@ url: /php-java/aspose.slides/mathradical/mathradical/
 | --- | --- | --- |
 | baseArgument | [MathematicalText](../mathematicaltext) | Base |
 | degreeArgument | [MathNaryOperator](../../mathnaryoperator) | Degree |
+
+
+---
+
+
+## MathRadical([MathematicalText](../../mathematicaltext) baseArgument, [MathAccent](../../mathaccent) degreeArgument)  constructor
+
+ Initializes a new instance of the MathRadical class.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathematicalText](../mathematicaltext) | Base |
+| degreeArgument | [MathAccent](../../mathaccent) | Degree |
 
 
 ---
@@ -5063,6 +4759,22 @@ url: /php-java/aspose.slides/mathradical/mathradical/
 ---
 
 
+## MathRadical([MathematicalText](../../mathematicaltext) baseArgument, [MathFunction](../../mathfunction) degreeArgument)  constructor
+
+ Initializes a new instance of the MathRadical class.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathematicalText](../mathematicaltext) | Base |
+| degreeArgument | [MathFunction](../../mathfunction) | Degree |
+
+
+---
+
+
 ## MathRadical([MathematicalText](../../mathematicaltext) baseArgument, [MathSuperscriptElement](../../mathsuperscriptelement) degreeArgument)  constructor
 
  Initializes a new instance of the MathRadical class.
@@ -5095,7 +4807,7 @@ url: /php-java/aspose.slides/mathradical/mathradical/
 ---
 
 
-## MathRadical([MathematicalText](../../mathematicaltext) baseArgument, [MathFunction](../../mathfunction) degreeArgument)  constructor
+## MathRadical([MathematicalText](../../mathematicaltext) baseArgument, [MathematicalText](../../mathematicaltext) degreeArgument)  constructor
 
  Initializes a new instance of the MathRadical class.
  
@@ -5105,7 +4817,7 @@ url: /php-java/aspose.slides/mathradical/mathradical/
 | Name | Type | Description |
 | --- | --- | --- |
 | baseArgument | [MathematicalText](../mathematicaltext) | Base |
-| degreeArgument | [MathFunction](../../mathfunction) | Degree |
+| degreeArgument | [MathematicalText](../../mathematicaltext) | Degree |
 
 
 ---
@@ -5122,22 +4834,6 @@ url: /php-java/aspose.slides/mathradical/mathradical/
 | --- | --- | --- |
 | baseArgument | [MathematicalText](../mathematicaltext) | Base |
 | degreeArgument | [MathFraction](../../mathfraction) | Degree |
-
-
----
-
-
-## MathRadical([MathematicalText](../../mathematicaltext) baseArgument, [MathematicalText](../../mathematicaltext) degreeArgument)  constructor
-
- Initializes a new instance of the MathRadical class.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathematicalText](../mathematicaltext) | Base |
-| degreeArgument | [MathematicalText](../../mathematicaltext) | Degree |
 
 
 ---
@@ -5169,6 +4865,310 @@ url: /php-java/aspose.slides/mathradical/mathradical/
 | Name | Type | Description |
 | --- | --- | --- |
 | baseArgument | [MathematicalText](../mathematicaltext) | Base |
+| degreeArgument | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | Degree |
+
+
+---
+
+
+## MathRadical([MathFraction](../../mathfraction) baseArgument, [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) degreeArgument)  constructor
+
+ Initializes a new instance of the MathRadical class.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathFraction](../mathfraction) | Base |
+| degreeArgument | [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) | Degree |
+
+
+---
+
+
+## MathRadical([MathFraction](../../mathfraction) baseArgument, [MathMatrix](../../mathmatrix) degreeArgument)  constructor
+
+ Initializes a new instance of the MathRadical class.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathFraction](../mathfraction) | Base |
+| degreeArgument | [MathMatrix](../../mathmatrix) | Degree |
+
+
+---
+
+
+## MathRadical([MathFraction](../../mathfraction) baseArgument, [MathLimit](../../mathlimit) degreeArgument)  constructor
+
+ Initializes a new instance of the MathRadical class.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathFraction](../mathfraction) | Base |
+| degreeArgument | [MathLimit](../../mathlimit) | Degree |
+
+
+---
+
+
+## MathRadical([MathFraction](../../mathfraction) baseArgument, [MathBlock](../../mathblock) degreeArgument)  constructor
+
+ Initializes a new instance of the MathRadical class.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathFraction](../mathfraction) | Base |
+| degreeArgument | [MathBlock](../../mathblock) | Degree |
+
+
+---
+
+
+## MathRadical([MathFraction](../../mathfraction) baseArgument, [MathRadical](../../mathradical) degreeArgument)  constructor
+
+ Initializes a new instance of the MathRadical class.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathFraction](../mathfraction) | Base |
+| degreeArgument | [MathRadical](../../mathradical) | Degree |
+
+
+---
+
+
+## MathRadical([MathFraction](../../mathfraction) baseArgument, [MathArray](../../matharray) degreeArgument)  constructor
+
+ Initializes a new instance of the MathRadical class.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathFraction](../mathfraction) | Base |
+| degreeArgument | [MathArray](../../matharray) | Degree |
+
+
+---
+
+
+## MathRadical([MathFraction](../../mathfraction) baseArgument, [MathDelimiter](../../mathdelimiter) degreeArgument)  constructor
+
+ Initializes a new instance of the MathRadical class.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathFraction](../mathfraction) | Base |
+| degreeArgument | [MathDelimiter](../../mathdelimiter) | Degree |
+
+
+---
+
+
+## MathRadical([MathFraction](../../mathfraction) baseArgument, [MathNaryOperator](../../mathnaryoperator) degreeArgument)  constructor
+
+ Initializes a new instance of the MathRadical class.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathFraction](../mathfraction) | Base |
+| degreeArgument | [MathNaryOperator](../../mathnaryoperator) | Degree |
+
+
+---
+
+
+## MathRadical([MathFraction](../../mathfraction) baseArgument, [MathAccent](../../mathaccent) degreeArgument)  constructor
+
+ Initializes a new instance of the MathRadical class.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathFraction](../mathfraction) | Base |
+| degreeArgument | [MathAccent](../../mathaccent) | Degree |
+
+
+---
+
+
+## MathRadical([MathFraction](../../mathfraction) baseArgument, [MathBorderBox](../../mathborderbox) degreeArgument)  constructor
+
+ Initializes a new instance of the MathRadical class.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathFraction](../mathfraction) | Base |
+| degreeArgument | [MathBorderBox](../../mathborderbox) | Degree |
+
+
+---
+
+
+## MathRadical([MathFraction](../../mathfraction) baseArgument, [MathGroupingCharacter](../../mathgroupingcharacter) degreeArgument)  constructor
+
+ Initializes a new instance of the MathRadical class.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathFraction](../mathfraction) | Base |
+| degreeArgument | [MathGroupingCharacter](../../mathgroupingcharacter) | Degree |
+
+
+---
+
+
+## MathRadical([MathFraction](../../mathfraction) baseArgument, [MathBar](../../mathbar) degreeArgument)  constructor
+
+ Initializes a new instance of the MathRadical class.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathFraction](../mathfraction) | Base |
+| degreeArgument | [MathBar](../../mathbar) | Degree |
+
+
+---
+
+
+## MathRadical([MathFraction](../../mathfraction) baseArgument, [MathFunction](../../mathfunction) degreeArgument)  constructor
+
+ Initializes a new instance of the MathRadical class.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathFraction](../mathfraction) | Base |
+| degreeArgument | [MathFunction](../../mathfunction) | Degree |
+
+
+---
+
+
+## MathRadical([MathFraction](../../mathfraction) baseArgument, [MathSuperscriptElement](../../mathsuperscriptelement) degreeArgument)  constructor
+
+ Initializes a new instance of the MathRadical class.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathFraction](../mathfraction) | Base |
+| degreeArgument | [MathSuperscriptElement](../../mathsuperscriptelement) | Degree |
+
+
+---
+
+
+## MathRadical([MathFraction](../../mathfraction) baseArgument, [MathSubscriptElement](../../mathsubscriptelement) degreeArgument)  constructor
+
+ Initializes a new instance of the MathRadical class.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathFraction](../mathfraction) | Base |
+| degreeArgument | [MathSubscriptElement](../../mathsubscriptelement) | Degree |
+
+
+---
+
+
+## MathRadical([MathFraction](../../mathfraction) baseArgument, [MathematicalText](../../mathematicaltext) degreeArgument)  constructor
+
+ Initializes a new instance of the MathRadical class.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathFraction](../mathfraction) | Base |
+| degreeArgument | [MathematicalText](../../mathematicaltext) | Degree |
+
+
+---
+
+
+## MathRadical([MathFraction](../../mathfraction) baseArgument, [MathFraction](../../mathfraction) degreeArgument)  constructor
+
+ Initializes a new instance of the MathRadical class.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathFraction](../mathfraction) | Base |
+| degreeArgument | [MathFraction](../../mathfraction) | Degree |
+
+
+---
+
+
+## MathRadical([MathFraction](../../mathfraction) baseArgument, [MathBox](../../mathbox) degreeArgument)  constructor
+
+ Initializes a new instance of the MathRadical class.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathFraction](../mathfraction) | Base |
+| degreeArgument | [MathBox](../../mathbox) | Degree |
+
+
+---
+
+
+## MathRadical([MathFraction](../../mathfraction) baseArgument, [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) degreeArgument)  constructor
+
+ Initializes a new instance of the MathRadical class.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathFraction](../mathfraction) | Base |
 | degreeArgument | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | Degree |
 
 
@@ -5287,22 +5287,6 @@ url: /php-java/aspose.slides/mathradical/mathradical/
 ---
 
 
-## MathRadical([MathBox](../../mathbox) baseArgument, [MathAccent](../../mathaccent) degreeArgument)  constructor
-
- Initializes a new instance of the MathRadical class.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathBox](../mathbox) | Base |
-| degreeArgument | [MathAccent](../../mathaccent) | Degree |
-
-
----
-
-
 ## MathRadical([MathBox](../../mathbox) baseArgument, [MathNaryOperator](../../mathnaryoperator) degreeArgument)  constructor
 
  Initializes a new instance of the MathRadical class.
@@ -5314,6 +5298,22 @@ url: /php-java/aspose.slides/mathradical/mathradical/
 | --- | --- | --- |
 | baseArgument | [MathBox](../mathbox) | Base |
 | degreeArgument | [MathNaryOperator](../../mathnaryoperator) | Degree |
+
+
+---
+
+
+## MathRadical([MathBox](../../mathbox) baseArgument, [MathAccent](../../mathaccent) degreeArgument)  constructor
+
+ Initializes a new instance of the MathRadical class.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathBox](../mathbox) | Base |
+| degreeArgument | [MathAccent](../../mathaccent) | Degree |
 
 
 ---
@@ -5367,6 +5367,22 @@ url: /php-java/aspose.slides/mathradical/mathradical/
 ---
 
 
+## MathRadical([MathBox](../../mathbox) baseArgument, [MathFunction](../../mathfunction) degreeArgument)  constructor
+
+ Initializes a new instance of the MathRadical class.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathBox](../mathbox) | Base |
+| degreeArgument | [MathFunction](../../mathfunction) | Degree |
+
+
+---
+
+
 ## MathRadical([MathBox](../../mathbox) baseArgument, [MathSuperscriptElement](../../mathsuperscriptelement) degreeArgument)  constructor
 
  Initializes a new instance of the MathRadical class.
@@ -5399,7 +5415,7 @@ url: /php-java/aspose.slides/mathradical/mathradical/
 ---
 
 
-## MathRadical([MathBox](../../mathbox) baseArgument, [MathFunction](../../mathfunction) degreeArgument)  constructor
+## MathRadical([MathBox](../../mathbox) baseArgument, [MathematicalText](../../mathematicaltext) degreeArgument)  constructor
 
  Initializes a new instance of the MathRadical class.
  
@@ -5409,7 +5425,7 @@ url: /php-java/aspose.slides/mathradical/mathradical/
 | Name | Type | Description |
 | --- | --- | --- |
 | baseArgument | [MathBox](../mathbox) | Base |
-| degreeArgument | [MathFunction](../../mathfunction) | Degree |
+| degreeArgument | [MathematicalText](../../mathematicaltext) | Degree |
 
 
 ---
@@ -5426,22 +5442,6 @@ url: /php-java/aspose.slides/mathradical/mathradical/
 | --- | --- | --- |
 | baseArgument | [MathBox](../mathbox) | Base |
 | degreeArgument | [MathFraction](../../mathfraction) | Degree |
-
-
----
-
-
-## MathRadical([MathBox](../../mathbox) baseArgument, [MathematicalText](../../mathematicaltext) degreeArgument)  constructor
-
- Initializes a new instance of the MathRadical class.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathBox](../mathbox) | Base |
-| degreeArgument | [MathematicalText](../../mathematicaltext) | Degree |
 
 
 ---
@@ -5591,22 +5591,6 @@ url: /php-java/aspose.slides/mathradical/mathradical/
 ---
 
 
-## MathRadical([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) baseArgument, [MathAccent](../../mathaccent) degreeArgument)  constructor
-
- Initializes a new instance of the MathRadical class.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Base |
-| degreeArgument | [MathAccent](../../mathaccent) | Degree |
-
-
----
-
-
 ## MathRadical([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) baseArgument, [MathNaryOperator](../../mathnaryoperator) degreeArgument)  constructor
 
  Initializes a new instance of the MathRadical class.
@@ -5618,6 +5602,22 @@ url: /php-java/aspose.slides/mathradical/mathradical/
 | --- | --- | --- |
 | baseArgument | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Base |
 | degreeArgument | [MathNaryOperator](../../mathnaryoperator) | Degree |
+
+
+---
+
+
+## MathRadical([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) baseArgument, [MathAccent](../../mathaccent) degreeArgument)  constructor
+
+ Initializes a new instance of the MathRadical class.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Base |
+| degreeArgument | [MathAccent](../../mathaccent) | Degree |
 
 
 ---
@@ -5671,6 +5671,22 @@ url: /php-java/aspose.slides/mathradical/mathradical/
 ---
 
 
+## MathRadical([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) baseArgument, [MathFunction](../../mathfunction) degreeArgument)  constructor
+
+ Initializes a new instance of the MathRadical class.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Base |
+| degreeArgument | [MathFunction](../../mathfunction) | Degree |
+
+
+---
+
+
 ## MathRadical([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) baseArgument, [MathSuperscriptElement](../../mathsuperscriptelement) degreeArgument)  constructor
 
  Initializes a new instance of the MathRadical class.
@@ -5703,7 +5719,7 @@ url: /php-java/aspose.slides/mathradical/mathradical/
 ---
 
 
-## MathRadical([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) baseArgument, [MathFunction](../../mathfunction) degreeArgument)  constructor
+## MathRadical([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) baseArgument, [MathematicalText](../../mathematicaltext) degreeArgument)  constructor
 
  Initializes a new instance of the MathRadical class.
  
@@ -5713,7 +5729,7 @@ url: /php-java/aspose.slides/mathradical/mathradical/
 | Name | Type | Description |
 | --- | --- | --- |
 | baseArgument | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Base |
-| degreeArgument | [MathFunction](../../mathfunction) | Degree |
+| degreeArgument | [MathematicalText](../../mathematicaltext) | Degree |
 
 
 ---
@@ -5730,22 +5746,6 @@ url: /php-java/aspose.slides/mathradical/mathradical/
 | --- | --- | --- |
 | baseArgument | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Base |
 | degreeArgument | [MathFraction](../../mathfraction) | Degree |
-
-
----
-
-
-## MathRadical([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) baseArgument, [MathematicalText](../../mathematicaltext) degreeArgument)  constructor
-
- Initializes a new instance of the MathRadical class.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Base |
-| degreeArgument | [MathematicalText](../../mathematicaltext) | Degree |
 
 
 ---

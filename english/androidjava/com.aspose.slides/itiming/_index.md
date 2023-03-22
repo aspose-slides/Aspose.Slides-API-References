@@ -38,6 +38,8 @@ Represents animation timing.
 | [setTriggerDelayTime(float value)](#setTriggerDelayTime-float-) | Describes delay time after trigger. |
 | [getTriggerType()](#getTriggerType--) | Describes trigger type. |
 | [setTriggerType(int value)](#setTriggerType-int-) | Describes trigger type. |
+| [getRewind()](#getRewind--) | This attribute specifies if the effect will rewind when done playing. |
+| [setRewind(boolean value)](#setRewind-boolean-) | This attribute specifies if the effect will rewind when done playing. |
 ### getAccelerate() {#getAccelerate--}
 ```
 public abstract float getAccelerate()
@@ -159,7 +161,7 @@ public abstract boolean getRepeatUntilEndSlide()
 ```
 
 
-This attribute specifies if the effect will repeat until the end of the slide. Read/write  boolean .
+This attribute specifies if the effect will repeat until the end of the slide. Read/write boolean.
 
 --------------------
 
@@ -185,7 +187,7 @@ public abstract void setRepeatUntilEndSlide(boolean value)
 ```
 
 
-This attribute specifies if the effect will repeat until the end of the slide. Read/write  boolean .
+This attribute specifies if the effect will repeat until the end of the slide. Read/write boolean.
 
 --------------------
 
@@ -214,7 +216,7 @@ public abstract boolean getRepeatUntilNextClick()
 ```
 
 
-This attribute specifies if the effect will repeat until the next click. Read/write  boolean .
+This attribute specifies if the effect will repeat until the next click. Read/write boolean.
 
 --------------------
 
@@ -240,7 +242,7 @@ public abstract void setRepeatUntilNextClick(boolean value)
 ```
 
 
-This attribute specifies if the effect will repeat until the next click. Read/write  boolean .
+This attribute specifies if the effect will repeat until the next click. Read/write boolean.
 
 --------------------
 
@@ -377,4 +379,59 @@ Describes trigger type. Read/write [EffectTriggerType](../../com.aspose.slides/e
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
+
+### getRewind() {#getRewind--}
+```
+public abstract boolean getRewind()
+```
+
+
+This attribute specifies if the effect will rewind when done playing. Read/write boolean.
+
+--------------------
+
+> ```
+> Presentation presentation = new Presentation("demo.pptx");
+>  try {
+>      // Get the effects sequence for the first slide
+>      ISequence effectsSequence = presentation.getSlides().get_Item(0).getTimeline().getMainSequence();
+>      // Get the first effect of main sequence.
+>      IEffect effect = effectsSequence.get_Item(0);
+>      // Turn the effect Timing/Rewind on.
+>      effect.getTiming().setRewind(true);
+>  } finally {
+>      if (presentation != null) presentation.dispose();
+>  }
+> ```
+
+**Returns:**
+boolean
+### setRewind(boolean value) {#setRewind-boolean-}
+```
+public abstract void setRewind(boolean value)
+```
+
+
+This attribute specifies if the effect will rewind when done playing. Read/write boolean.
+
+--------------------
+
+> ```
+> Presentation presentation = new Presentation("demo.pptx");
+>  try {
+>      // Get the effects sequence for the first slide
+>      ISequence effectsSequence = presentation.getSlides().get_Item(0).getTimeline().getMainSequence();
+>      // Get the first effect of main sequence.
+>      IEffect effect = effectsSequence.get_Item(0);
+>      // Turn the effect Timing/Rewind on.
+>      effect.getTiming().setRewind(true);
+>  } finally {
+>      if (presentation != null) presentation.dispose();
+>  }
+> ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
 

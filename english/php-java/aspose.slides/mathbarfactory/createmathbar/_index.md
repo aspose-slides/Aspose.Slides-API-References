@@ -133,24 +133,6 @@ url: /php-java/aspose.slides/mathbarfactory/createmathbar/
 ---
 
 
-## createMathBar([MathAccent](../../mathaccent) element)  method
-
- Create a math bar by applying to the element
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathAccent](../../mathaccent) | math element to apply bar |
-
-### Returns
-[MathBar](../../mathbar)
-
-
----
-
-
 ## createMathBar([MathNaryOperator](../../mathnaryoperator) element)  method
 
  Create a math bar by applying to the element
@@ -161,6 +143,24 @@ url: /php-java/aspose.slides/mathbarfactory/createmathbar/
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathNaryOperator](../../mathnaryoperator) | math element to apply bar |
+
+### Returns
+[MathBar](../../mathbar)
+
+
+---
+
+
+## createMathBar([MathAccent](../../mathaccent) element)  method
+
+ Create a math bar by applying to the element
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathAccent](../../mathaccent) | math element to apply bar |
 
 ### Returns
 [MathBar](../../mathbar)
@@ -223,6 +223,24 @@ url: /php-java/aspose.slides/mathbarfactory/createmathbar/
 ---
 
 
+## createMathBar([MathFunction](../../mathfunction) element)  method
+
+ Create a math bar by applying to the element
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathFunction](../../mathfunction) | math element to apply bar |
+
+### Returns
+[MathBar](../../mathbar)
+
+
+---
+
+
 ## createMathBar([MathSuperscriptElement](../../mathsuperscriptelement) element)  method
 
  Create a math bar by applying to the element
@@ -259,7 +277,7 @@ url: /php-java/aspose.slides/mathbarfactory/createmathbar/
 ---
 
 
-## createMathBar([MathFunction](../../mathfunction) element)  method
+## createMathBar([MathematicalText](../../mathematicaltext) element)  method
 
  Create a math bar by applying to the element
  
@@ -268,7 +286,7 @@ url: /php-java/aspose.slides/mathbarfactory/createmathbar/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathFunction](../../mathfunction) | math element to apply bar |
+| element | [MathematicalText](../../mathematicaltext) | math element to apply bar |
 
 ### Returns
 [MathBar](../../mathbar)
@@ -287,24 +305,6 @@ url: /php-java/aspose.slides/mathbarfactory/createmathbar/
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathFraction](../../mathfraction) | math element to apply bar |
-
-### Returns
-[MathBar](../../mathbar)
-
-
----
-
-
-## createMathBar([MathematicalText](../../mathematicaltext) element)  method
-
- Create a math bar by applying to the element
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathematicalText](../../mathematicaltext) | math element to apply bar |
 
 ### Returns
 [MathBar](../../mathbar)
@@ -482,25 +482,6 @@ url: /php-java/aspose.slides/mathbarfactory/createmathbar/
 ---
 
 
-## createMathBar([MathAccent](../../mathaccent) element, int position)  method
-
- Create a math bar by applying to the element
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathAccent](../mathaccent) | Math element to apply bar |
-| position | int | Position of the bar |
-
-### Returns
-[MathBar](../../mathbar)
-
-
----
-
-
 ## createMathBar([MathNaryOperator](../../mathnaryoperator) element, int position)  method
 
  Create a math bar by applying to the element
@@ -511,6 +492,25 @@ url: /php-java/aspose.slides/mathbarfactory/createmathbar/
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathNaryOperator](../mathnaryoperator) | Math element to apply bar |
+| position | int | Position of the bar |
+
+### Returns
+[MathBar](../../mathbar)
+
+
+---
+
+
+## createMathBar([MathAccent](../../mathaccent) element, int position)  method
+
+ Create a math bar by applying to the element
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathAccent](../mathaccent) | Math element to apply bar |
 | position | int | Position of the bar |
 
 ### Returns
@@ -577,6 +577,25 @@ url: /php-java/aspose.slides/mathbarfactory/createmathbar/
 ---
 
 
+## createMathBar([MathFunction](../../mathfunction) element, int position)  method
+
+ Create a math bar by applying to the element
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathFunction](../mathfunction) | Math element to apply bar |
+| position | int | Position of the bar |
+
+### Returns
+[MathBar](../../mathbar)
+
+
+---
+
+
 ## createMathBar([MathSuperscriptElement](../../mathsuperscriptelement) element, int position)  method
 
  Create a math bar by applying to the element
@@ -615,7 +634,7 @@ url: /php-java/aspose.slides/mathbarfactory/createmathbar/
 ---
 
 
-## createMathBar([MathFunction](../../mathfunction) element, int position)  method
+## createMathBar([MathematicalText](../../mathematicaltext) element, int position)  method
 
  Create a math bar by applying to the element
  
@@ -624,7 +643,7 @@ url: /php-java/aspose.slides/mathbarfactory/createmathbar/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathFunction](../mathfunction) | Math element to apply bar |
+| element | [MathematicalText](../mathematicaltext) | Math element to apply bar |
 | position | int | Position of the bar |
 
 ### Returns
@@ -644,25 +663,6 @@ url: /php-java/aspose.slides/mathbarfactory/createmathbar/
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathFraction](../mathfraction) | Math element to apply bar |
-| position | int | Position of the bar |
-
-### Returns
-[MathBar](../../mathbar)
-
-
----
-
-
-## createMathBar([MathematicalText](../../mathematicaltext) element, int position)  method
-
- Create a math bar by applying to the element
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathematicalText](../mathematicaltext) | Math element to apply bar |
 | position | int | Position of the bar |
 
 ### Returns

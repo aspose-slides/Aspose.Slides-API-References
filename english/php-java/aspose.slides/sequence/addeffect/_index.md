@@ -49,6 +49,27 @@ url: /php-java/aspose.slides/sequence/addeffect/
 ---
 
 
+## addEffect([Table](../../table) shape, int effectType, int subtype, int triggerType)  method
+
+ Add new effect to the end of sequence.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | [Table](../table) | Shape object IShape for adding an effect |
+| effectType | int | Type of an animation effect EffectType |
+| subtype | int | Subtypes of animation effect EffectSubtype |
+| triggerType | int | Trigger type of effect EffectTriggerType |
+
+### Returns
+[Effect](../../effect)
+
+
+---
+
+
 ## addEffect([SmartArtShape](../../smartartshape) shape, int effectType, int subtype, int triggerType)  method
 
  Add new effect to the end of sequence.
@@ -80,27 +101,6 @@ url: /php-java/aspose.slides/sequence/addeffect/
 | Name | Type | Description |
 | --- | --- | --- |
 | shape | [Shape](../shape) | Shape object IShape for adding an effect |
-| effectType | int | Type of an animation effect EffectType |
-| subtype | int | Subtypes of animation effect EffectSubtype |
-| triggerType | int | Trigger type of effect EffectTriggerType |
-
-### Returns
-[Effect](../../effect)
-
-
----
-
-
-## addEffect([Table](../../table) shape, int effectType, int subtype, int triggerType)  method
-
- Add new effect to the end of sequence.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| shape | [Table](../table) | Shape object IShape for adding an effect |
 | effectType | int | Type of an animation effect EffectType |
 | subtype | int | Subtypes of animation effect EffectSubtype |
 | triggerType | int | Trigger type of effect EffectTriggerType |
@@ -196,7 +196,7 @@ url: /php-java/aspose.slides/sequence/addeffect/
 ---
 
 
-## addEffect([VideoFrame](../../videoframe) shape, int effectType, int subtype, int triggerType)  method
+## addEffect([OleObjectFrame](../../oleobjectframe) shape, int effectType, int subtype, int triggerType)  method
 
  Add new effect to the end of sequence.
  
@@ -205,7 +205,7 @@ url: /php-java/aspose.slides/sequence/addeffect/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | [VideoFrame](../videoframe) | Shape object IShape for adding an effect |
+| shape | [OleObjectFrame](../oleobjectframe) | Shape object IShape for adding an effect |
 | effectType | int | Type of an animation effect EffectType |
 | subtype | int | Subtypes of animation effect EffectSubtype |
 | triggerType | int | Trigger type of effect EffectTriggerType |
@@ -217,7 +217,7 @@ url: /php-java/aspose.slides/sequence/addeffect/
 ---
 
 
-## addEffect([OleObjectFrame](../../oleobjectframe) shape, int effectType, int subtype, int triggerType)  method
+## addEffect([VideoFrame](../../videoframe) shape, int effectType, int subtype, int triggerType)  method
 
  Add new effect to the end of sequence.
  
@@ -226,7 +226,7 @@ url: /php-java/aspose.slides/sequence/addeffect/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | [OleObjectFrame](../oleobjectframe) | Shape object IShape for adding an effect |
+| shape | [VideoFrame](../videoframe) | Shape object IShape for adding an effect |
 | effectType | int | Type of an animation effect EffectType |
 | subtype | int | Subtypes of animation effect EffectSubtype |
 | triggerType | int | Trigger type of effect EffectTriggerType |
@@ -385,7 +385,7 @@ url: /php-java/aspose.slides/sequence/addeffect/
 ---
 
 
-## addEffect([ZoomObject](../../zoomobject) shape, int effectType, int subtype, int triggerType)  method
+## addEffect([LegacyDiagram](../../legacydiagram) shape, int effectType, int subtype, int triggerType)  method
 
  Add new effect to the end of sequence.
  
@@ -394,7 +394,7 @@ url: /php-java/aspose.slides/sequence/addeffect/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | [ZoomObject](../zoomobject) | Shape object IShape for adding an effect |
+| shape | [LegacyDiagram](../legacydiagram) | Shape object IShape for adding an effect |
 | effectType | int | Type of an animation effect EffectType |
 | subtype | int | Subtypes of animation effect EffectSubtype |
 | triggerType | int | Trigger type of effect EffectTriggerType |
@@ -406,7 +406,7 @@ url: /php-java/aspose.slides/sequence/addeffect/
 ---
 
 
-## addEffect([LegacyDiagram](../../legacydiagram) shape, int effectType, int subtype, int triggerType)  method
+## addEffect([ZoomObject](../../zoomobject) shape, int effectType, int subtype, int triggerType)  method
 
  Add new effect to the end of sequence.
  
@@ -415,7 +415,7 @@ url: /php-java/aspose.slides/sequence/addeffect/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | [LegacyDiagram](../legacydiagram) | Shape object IShape for adding an effect |
+| shape | [ZoomObject](../zoomobject) | Shape object IShape for adding an effect |
 | effectType | int | Type of an animation effect EffectType |
 | subtype | int | Subtypes of animation effect EffectSubtype |
 | triggerType | int | Trigger type of effect EffectTriggerType |

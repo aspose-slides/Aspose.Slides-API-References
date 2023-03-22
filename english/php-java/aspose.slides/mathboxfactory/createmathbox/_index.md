@@ -133,24 +133,6 @@ url: /php-java/aspose.slides/mathboxfactory/createmathbox/
 ---
 
 
-## createMathBox([MathAccent](../../mathaccent) element)  method
-
- Create a math box by applying to the element
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathAccent](../../mathaccent) | math element to apply box |
-
-### Returns
-[MathBox](../../mathbox)
-
-
----
-
-
 ## createMathBox([MathNaryOperator](../../mathnaryoperator) element)  method
 
  Create a math box by applying to the element
@@ -161,6 +143,24 @@ url: /php-java/aspose.slides/mathboxfactory/createmathbox/
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathNaryOperator](../../mathnaryoperator) | math element to apply box |
+
+### Returns
+[MathBox](../../mathbox)
+
+
+---
+
+
+## createMathBox([MathAccent](../../mathaccent) element)  method
+
+ Create a math box by applying to the element
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathAccent](../../mathaccent) | math element to apply box |
 
 ### Returns
 [MathBox](../../mathbox)
@@ -223,6 +223,24 @@ url: /php-java/aspose.slides/mathboxfactory/createmathbox/
 ---
 
 
+## createMathBox([MathFunction](../../mathfunction) element)  method
+
+ Create a math box by applying to the element
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathFunction](../../mathfunction) | math element to apply box |
+
+### Returns
+[MathBox](../../mathbox)
+
+
+---
+
+
 ## createMathBox([MathSuperscriptElement](../../mathsuperscriptelement) element)  method
 
  Create a math box by applying to the element
@@ -259,7 +277,7 @@ url: /php-java/aspose.slides/mathboxfactory/createmathbox/
 ---
 
 
-## createMathBox([MathFunction](../../mathfunction) element)  method
+## createMathBox([MathematicalText](../../mathematicaltext) element)  method
 
  Create a math box by applying to the element
  
@@ -268,7 +286,7 @@ url: /php-java/aspose.slides/mathboxfactory/createmathbox/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathFunction](../../mathfunction) | math element to apply box |
+| element | [MathematicalText](../../mathematicaltext) | math element to apply box |
 
 ### Returns
 [MathBox](../../mathbox)
@@ -287,24 +305,6 @@ url: /php-java/aspose.slides/mathboxfactory/createmathbox/
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathFraction](../../mathfraction) | math element to apply box |
-
-### Returns
-[MathBox](../../mathbox)
-
-
----
-
-
-## createMathBox([MathematicalText](../../mathematicaltext) element)  method
-
- Create a math box by applying to the element
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathematicalText](../../mathematicaltext) | math element to apply box |
 
 ### Returns
 [MathBox](../../mathbox)

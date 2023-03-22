@@ -140,25 +140,6 @@ void
 ---
 
 
-## insert(int index, [MathAccent](../../mathaccent) item)  method
-
- Inserts a MathElement into the collection at the specified index.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| index | int | The zero-based index at which MathElement should be inserted. |
-| item | [MathAccent](../../mathaccent) | The MathElement to insert. |
-
-### Returns
-void
-
-
----
-
-
 ## insert(int index, [MathNaryOperator](../../mathnaryoperator) item)  method
 
  Inserts a MathElement into the collection at the specified index.
@@ -170,6 +151,25 @@ void
 | --- | --- | --- |
 | index | int | The zero-based index at which MathElement should be inserted. |
 | item | [MathNaryOperator](../../mathnaryoperator) | The MathElement to insert. |
+
+### Returns
+void
+
+
+---
+
+
+## insert(int index, [MathAccent](../../mathaccent) item)  method
+
+ Inserts a MathElement into the collection at the specified index.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | The zero-based index at which MathElement should be inserted. |
+| item | [MathAccent](../../mathaccent) | The MathElement to insert. |
 
 ### Returns
 void
@@ -235,6 +235,25 @@ void
 ---
 
 
+## insert(int index, [MathFunction](../../mathfunction) item)  method
+
+ Inserts a MathElement into the collection at the specified index.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | The zero-based index at which MathElement should be inserted. |
+| item | [MathFunction](../../mathfunction) | The MathElement to insert. |
+
+### Returns
+void
+
+
+---
+
+
 ## insert(int index, [MathSuperscriptElement](../../mathsuperscriptelement) item)  method
 
  Inserts a MathElement into the collection at the specified index.
@@ -273,7 +292,7 @@ void
 ---
 
 
-## insert(int index, [MathFunction](../../mathfunction) item)  method
+## insert(int index, [MathematicalText](../../mathematicaltext) item)  method
 
  Inserts a MathElement into the collection at the specified index.
  
@@ -283,7 +302,7 @@ void
 | Name | Type | Description |
 | --- | --- | --- |
 | index | int | The zero-based index at which MathElement should be inserted. |
-| item | [MathFunction](../../mathfunction) | The MathElement to insert. |
+| item | [MathematicalText](../../mathematicaltext) | The MathElement to insert. |
 
 ### Returns
 void
@@ -303,25 +322,6 @@ void
 | --- | --- | --- |
 | index | int | The zero-based index at which MathElement should be inserted. |
 | item | [MathFraction](../../mathfraction) | The MathElement to insert. |
-
-### Returns
-void
-
-
----
-
-
-## insert(int index, [MathematicalText](../../mathematicaltext) item)  method
-
- Inserts a MathElement into the collection at the specified index.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| index | int | The zero-based index at which MathElement should be inserted. |
-| item | [MathematicalText](../../mathematicaltext) | The MathElement to insert. |
 
 ### Returns
 void

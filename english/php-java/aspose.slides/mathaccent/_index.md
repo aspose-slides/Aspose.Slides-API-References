@@ -24,16 +24,16 @@ url: /php-java/aspose.slides/mathaccent/
 | [MathAccent](mathaccent)([MathRadical](../mathradical)) | Creates a math accent applying to a specified math element with the default accent character value |
 | [MathAccent](mathaccent)([MathArray](../matharray)) | Creates a math accent applying to a specified math element with the default accent character value |
 | [MathAccent](mathaccent)([MathDelimiter](../mathdelimiter)) | Creates a math accent applying to a specified math element with the default accent character value |
-| [MathAccent](mathaccent)([MathAccent](../mathaccent)) | Creates a math accent applying to a specified math element with the default accent character value |
 | [MathAccent](mathaccent)([MathNaryOperator](../mathnaryoperator)) | Creates a math accent applying to a specified math element with the default accent character value |
+| [MathAccent](mathaccent)([MathAccent](../mathaccent)) | Creates a math accent applying to a specified math element with the default accent character value |
 | [MathAccent](mathaccent)([MathBorderBox](../mathborderbox)) | Creates a math accent applying to a specified math element with the default accent character value |
 | [MathAccent](mathaccent)([MathGroupingCharacter](../mathgroupingcharacter)) | Creates a math accent applying to a specified math element with the default accent character value |
 | [MathAccent](mathaccent)([MathBar](../mathbar)) | Creates a math accent applying to a specified math element with the default accent character value |
+| [MathAccent](mathaccent)([MathFunction](../mathfunction)) | Creates a math accent applying to a specified math element with the default accent character value |
 | [MathAccent](mathaccent)([MathSuperscriptElement](../mathsuperscriptelement)) | Creates a math accent applying to a specified math element with the default accent character value |
 | [MathAccent](mathaccent)([MathSubscriptElement](../mathsubscriptelement)) | Creates a math accent applying to a specified math element with the default accent character value |
-| [MathAccent](mathaccent)([MathFunction](../mathfunction)) | Creates a math accent applying to a specified math element with the default accent character value |
-| [MathAccent](mathaccent)([MathFraction](../mathfraction)) | Creates a math accent applying to a specified math element with the default accent character value |
 | [MathAccent](mathaccent)([MathematicalText](../mathematicaltext)) | Creates a math accent applying to a specified math element with the default accent character value |
+| [MathAccent](mathaccent)([MathFraction](../mathfraction)) | Creates a math accent applying to a specified math element with the default accent character value |
 | [MathAccent](mathaccent)([MathBox](../mathbox)) | Creates a math accent applying to a specified math element with the default accent character value |
 | [MathAccent](mathaccent)([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates a math accent applying to a specified math element with the default accent character value |
 | [MathAccent](mathaccent)([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), char) | Creates a math accent applying to a specified math element |
@@ -43,16 +43,16 @@ url: /php-java/aspose.slides/mathaccent/
 | [MathAccent](mathaccent)([MathRadical](../mathradical), char) | Creates a math accent applying to a specified math element |
 | [MathAccent](mathaccent)([MathArray](../matharray), char) | Creates a math accent applying to a specified math element |
 | [MathAccent](mathaccent)([MathDelimiter](../mathdelimiter), char) | Creates a math accent applying to a specified math element |
-| [MathAccent](mathaccent)([MathAccent](../mathaccent), char) | Creates a math accent applying to a specified math element |
 | [MathAccent](mathaccent)([MathNaryOperator](../mathnaryoperator), char) | Creates a math accent applying to a specified math element |
+| [MathAccent](mathaccent)([MathAccent](../mathaccent), char) | Creates a math accent applying to a specified math element |
 | [MathAccent](mathaccent)([MathBorderBox](../mathborderbox), char) | Creates a math accent applying to a specified math element |
 | [MathAccent](mathaccent)([MathGroupingCharacter](../mathgroupingcharacter), char) | Creates a math accent applying to a specified math element |
 | [MathAccent](mathaccent)([MathBar](../mathbar), char) | Creates a math accent applying to a specified math element |
+| [MathAccent](mathaccent)([MathFunction](../mathfunction), char) | Creates a math accent applying to a specified math element |
 | [MathAccent](mathaccent)([MathSuperscriptElement](../mathsuperscriptelement), char) | Creates a math accent applying to a specified math element |
 | [MathAccent](mathaccent)([MathSubscriptElement](../mathsubscriptelement), char) | Creates a math accent applying to a specified math element |
-| [MathAccent](mathaccent)([MathFunction](../mathfunction), char) | Creates a math accent applying to a specified math element |
-| [MathAccent](mathaccent)([MathFraction](../mathfraction), char) | Creates a math accent applying to a specified math element |
 | [MathAccent](mathaccent)([MathematicalText](../mathematicaltext), char) | Creates a math accent applying to a specified math element |
+| [MathAccent](mathaccent)([MathFraction](../mathfraction), char) | Creates a math accent applying to a specified math element |
 | [MathAccent](mathaccent)([MathBox](../mathbox), char) | Creates a math accent applying to a specified math element |
 | [MathAccent](mathaccent)([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), char) | Creates a math accent applying to a specified math element |
 

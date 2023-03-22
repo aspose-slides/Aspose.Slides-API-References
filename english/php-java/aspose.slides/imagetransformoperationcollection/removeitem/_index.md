@@ -7,7 +7,7 @@ weight: 270
 url: /php-java/aspose.slides/imagetransformoperationcollection/removeitem/
 ---
 
-## removeItem([HSL](../../hsl) item)  method
+## removeItem([SoftEdge](../../softedge) item)  method
 
  Removes the first occurrence of a specific object from the  IGenericCollection.
  
@@ -16,7 +16,7 @@ url: /php-java/aspose.slides/imagetransformoperationcollection/removeitem/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [HSL](../../hsl) | The object to remove from the IGenericCollection. |
+| item | [SoftEdge](../../softedge) | The object to remove from the IGenericCollection. |
 
 ### Returns
 boolean
@@ -31,7 +31,7 @@ boolean
 ---
 
 
-## removeItem([SoftEdge](../../softedge) item)  method
+## removeItem([HSL](../../hsl) item)  method
 
  Removes the first occurrence of a specific object from the  IGenericCollection.
  
@@ -40,7 +40,7 @@ boolean
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [SoftEdge](../../softedge) | The object to remove from the IGenericCollection. |
+| item | [HSL](../../hsl) | The object to remove from the IGenericCollection. |
 
 ### Returns
 boolean
@@ -79,7 +79,7 @@ boolean
 ---
 
 
-## removeItem([ColorChange](../../colorchange) item)  method
+## removeItem([InnerShadow](../../innershadow) item)  method
 
  Removes the first occurrence of a specific object from the  IGenericCollection.
  
@@ -88,7 +88,7 @@ boolean
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [ColorChange](../../colorchange) | The object to remove from the IGenericCollection. |
+| item | [InnerShadow](../../innershadow) | The object to remove from the IGenericCollection. |
 
 ### Returns
 boolean
@@ -103,7 +103,7 @@ boolean
 ---
 
 
-## removeItem([InnerShadow](../../innershadow) item)  method
+## removeItem([ColorChange](../../colorchange) item)  method
 
  Removes the first occurrence of a specific object from the  IGenericCollection.
  
@@ -112,7 +112,7 @@ boolean
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [InnerShadow](../../innershadow) | The object to remove from the IGenericCollection. |
+| item | [ColorChange](../../colorchange) | The object to remove from the IGenericCollection. |
 
 ### Returns
 boolean

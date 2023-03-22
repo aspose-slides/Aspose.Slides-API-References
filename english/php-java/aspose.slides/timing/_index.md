@@ -25,6 +25,7 @@ url: /php-java/aspose.slides/timing/
 | [getRepeatUntilEndSlide](getrepeatuntilendslide)() | This attribute specifies if the effect will repeat until the end of the slide. Read/write boolean. |
 | [getRepeatUntilNextClick](getrepeatuntilnextclick)() | This attribute specifies if the effect will repeat until the next click. Read/write boolean. |
 | [getRestart](getrestart)() | Specifies if a effect is to restart after complete. Read/write EffectRestartType. |
+| [getRewind](getrewind)() | This attribute specifies if the effect will rewind when done playing. Read/write boolean. |
 | [getSpeed](getspeed)() | Specifies the percentage by which to speed up (or slow down) the timing. Read/write float. |
 | [getTriggerDelayTime](gettriggerdelaytime)() | Describes delay time after trigger. Read/write float. |
 | [getTriggerType](gettriggertype)() | Describes trigger type. Read/write EffectTriggerType. |
@@ -37,6 +38,7 @@ url: /php-java/aspose.slides/timing/
 | [setRepeatUntilEndSlide](setrepeatuntilendslide)(boolean) | This attribute specifies if the effect will repeat until the end of the slide. Read/write boolean. |
 | [setRepeatUntilNextClick](setrepeatuntilnextclick)(boolean) | This attribute specifies if the effect will repeat until the next click. Read/write boolean. |
 | [setRestart](setrestart)(int) | Specifies if a effect is to restart after complete. Read/write EffectRestartType. |
+| [setRewind](setrewind)(boolean) | This attribute specifies if the effect will rewind when done playing. Read/write boolean. |
 | [setSpeed](setspeed)(float) | Specifies the percentage by which to speed up (or slow down) the timing. Read/write float. |
 | [setTriggerDelayTime](settriggerdelaytime)(float) | Describes delay time after trigger. Read/write float. |
 | [setTriggerType](settriggertype)(int) | Describes trigger type. Read/write EffectTriggerType. |

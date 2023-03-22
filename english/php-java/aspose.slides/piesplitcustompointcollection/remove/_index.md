@@ -21,6 +21,12 @@ url: /php-java/aspose.slides/piesplitcustompointcollection/remove/
 ### Returns
 void
 
+### Exception
+
+| Exception | Condition |
+| --- | --- |
+ | ArgumentOutOfRangeException | dataPointIndex is negative. |
+
 
 ---
 

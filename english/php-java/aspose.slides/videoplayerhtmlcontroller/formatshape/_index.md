@@ -27,6 +27,16 @@ void
 ---
 
 
+## formatShape([SvgShape](../../svgshape) svgShape, [Table](../../table) shape)  method
+
+
+### Returns
+void
+
+
+---
+
+
 ## formatShape([SvgShape](../../svgshape) svgShape, [SmartArtShape](../../smartartshape) shape)  method
 
 
@@ -38,16 +48,6 @@ void
 
 
 ## formatShape([SvgShape](../../svgshape) svgShape, [Shape](../../shape) shape)  method
-
-
-### Returns
-void
-
-
----
-
-
-## formatShape([SvgShape](../../svgshape) svgShape, [Table](../../table) shape)  method
 
 
 ### Returns
@@ -97,7 +97,7 @@ void
 ---
 
 
-## formatShape([SvgShape](../../svgshape) svgShape, [VideoFrame](../../videoframe) shape)  method
+## formatShape([SvgShape](../../svgshape) svgShape, [OleObjectFrame](../../oleobjectframe) shape)  method
 
 
 ### Returns
@@ -107,7 +107,7 @@ void
 ---
 
 
-## formatShape([SvgShape](../../svgshape) svgShape, [OleObjectFrame](../../oleobjectframe) shape)  method
+## formatShape([SvgShape](../../svgshape) svgShape, [VideoFrame](../../videoframe) shape)  method
 
 
 ### Returns
@@ -187,7 +187,7 @@ void
 ---
 
 
-## formatShape([SvgShape](../../svgshape) svgShape, [ZoomObject](../../zoomobject) shape)  method
+## formatShape([SvgShape](../../svgshape) svgShape, [LegacyDiagram](../../legacydiagram) shape)  method
 
 
 ### Returns
@@ -197,7 +197,7 @@ void
 ---
 
 
-## formatShape([SvgShape](../../svgshape) svgShape, [LegacyDiagram](../../legacydiagram) shape)  method
+## formatShape([SvgShape](../../svgshape) svgShape, [ZoomObject](../../zoomobject) shape)  method
 
 
 ### Returns

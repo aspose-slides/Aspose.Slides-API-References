@@ -19,7 +19,7 @@ url: /php-java/aspose.slides/imagetransformoperationcollection/get_item/
 | index | int | Index of element. |
 
 ### Returns
-[HSL](../../hsl), [SoftEdge](../../softedge), [ImageTransformOperation](../../imagetransformoperation), [AlphaBiLevel](../../alphabilevel), [ColorChange](../../colorchange), [InnerShadow](../../innershadow), [AlphaModulate](../../alphamodulate), [Reflection](../../reflection), [Glow](../../glow), [AlphaModulateFixed](../../alphamodulatefixed), [AlphaFloor](../../alphafloor), [GrayScale](../../grayscale), [Duotone](../../duotone), [Luminance](../../luminance), [AlphaInverse](../../alphainverse), [AlphaCeiling](../../alphaceiling), [OuterShadow](../../outershadow), [Blur](../../blur), [PresetShadow](../../presetshadow), [AlphaReplace](../../alphareplace), [BiLevel](../../bilevel), [ColorReplace](../../colorreplace), [Tint](../../tint), [FillOverlay](../../filloverlay)
+[ImageTransformOperation](../../imagetransformoperation), [SoftEdge](../../softedge), [HSL](../../hsl), [AlphaBiLevel](../../alphabilevel), [InnerShadow](../../innershadow), [ColorChange](../../colorchange), [AlphaModulate](../../alphamodulate), [Reflection](../../reflection), [Glow](../../glow), [AlphaModulateFixed](../../alphamodulatefixed), [AlphaFloor](../../alphafloor), [GrayScale](../../grayscale), [Duotone](../../duotone), [Luminance](../../luminance), [AlphaInverse](../../alphainverse), [AlphaCeiling](../../alphaceiling), [OuterShadow](../../outershadow), [Blur](../../blur), [PresetShadow](../../presetshadow), [AlphaReplace](../../alphareplace), [BiLevel](../../bilevel), [ColorReplace](../../colorreplace), [Tint](../../tint), [FillOverlay](../../filloverlay)
 
 
 ---

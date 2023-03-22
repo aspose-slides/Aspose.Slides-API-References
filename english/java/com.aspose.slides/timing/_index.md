@@ -38,6 +38,8 @@ Represents animation timing.
 | [setRepeatDuration(float value)](#setRepeatDuration-float-) | Describes the number of times the effect should repeat. |
 | [getRestart()](#getRestart--) | Specifies if a effect is to restart after complete. |
 | [setRestart(int value)](#setRestart-int-) | Specifies if a effect is to restart after complete. |
+| [getRewind()](#getRewind--) | This attribute specifies if the effect will rewind when done playing. |
+| [setRewind(boolean value)](#setRewind-boolean-) | This attribute specifies if the effect will rewind when done playing. |
 | [getSpeed()](#getSpeed--) | Specifies the percentage by which to speed up (or slow down) the timing. |
 | [setSpeed(float value)](#setSpeed-float-) | Specifies the percentage by which to speed up (or slow down) the timing. |
 | [getTriggerDelayTime()](#getTriggerDelayTime--) | Describes delay time after trigger. |
@@ -315,6 +317,61 @@ Specifies if a effect is to restart after complete. Read/write [EffectRestartTyp
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
+
+### getRewind() {#getRewind--}
+```
+public final boolean getRewind()
+```
+
+
+This attribute specifies if the effect will rewind when done playing. Read/write boolean.
+
+--------------------
+
+> ```
+> Presentation presentation = new Presentation("demo.pptx");
+>  try {
+>      // Get the effects sequence for the first slide
+>      ISequence effectsSequence = presentation.getSlides().get_Item(0).getTimeline().getMainSequence();
+>      // Get the first effect of main sequence.
+>      IEffect effect = effectsSequence.get_Item(0);
+>      // Turn the effect Timing/Rewind on.
+>      effect.getTiming().setRewind(true);
+>  } finally {
+>      if (presentation != null) presentation.dispose();
+>  }
+> ```
+
+**Returns:**
+boolean
+### setRewind(boolean value) {#setRewind-boolean-}
+```
+public final void setRewind(boolean value)
+```
+
+
+This attribute specifies if the effect will rewind when done playing. Read/write boolean.
+
+--------------------
+
+> ```
+> Presentation presentation = new Presentation("demo.pptx");
+>  try {
+>      // Get the effects sequence for the first slide
+>      ISequence effectsSequence = presentation.getSlides().get_Item(0).getTimeline().getMainSequence();
+>      // Get the first effect of main sequence.
+>      IEffect effect = effectsSequence.get_Item(0);
+>      // Turn the effect Timing/Rewind on.
+>      effect.getTiming().setRewind(true);
+>  } finally {
+>      if (presentation != null) presentation.dispose();
+>  }
+> ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
 
 ### getSpeed() {#getSpeed--}
 ```

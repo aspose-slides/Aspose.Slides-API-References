@@ -31,11 +31,11 @@ url: /php-java/aspose.slides/imagetransformoperationcollection/
 | [addFillOverlayEffect](addfilloverlayeffect)() | Adds the new Fill Overlay effect to the end of a collection. |
 | [addGrayScaleEffect](addgrayscaleeffect)() | Adds the new Gray Scale effect to the end of a collection. |
 | [addHSLEffect](addhsleffect)(float, float, float) | Adds the new Hue/Saturation/Luminance effect to the end of a collection. |
-| [addItem](additem)([HSL](../hsl)) | Adds the new image effect to the end of a collection. |
 | [addItem](additem)([SoftEdge](../softedge)) | Adds the new image effect to the end of a collection. |
+| [addItem](additem)([HSL](../hsl)) | Adds the new image effect to the end of a collection. |
 | [addItem](additem)([AlphaBiLevel](../alphabilevel)) | Adds the new image effect to the end of a collection. |
-| [addItem](additem)([ColorChange](../colorchange)) | Adds the new image effect to the end of a collection. |
 | [addItem](additem)([InnerShadow](../innershadow)) | Adds the new image effect to the end of a collection. |
+| [addItem](additem)([ColorChange](../colorchange)) | Adds the new image effect to the end of a collection. |
 | [addItem](additem)([AlphaModulate](../alphamodulate)) | Adds the new image effect to the end of a collection. |
 | [addItem](additem)([Reflection](../reflection)) | Adds the new image effect to the end of a collection. |
 | [addItem](additem)([Glow](../glow)) | Adds the new image effect to the end of a collection. |
@@ -57,11 +57,11 @@ url: /php-java/aspose.slides/imagetransformoperationcollection/
 | [addLuminanceEffect](addluminanceeffect)(float, float) | Adds the new Luminance effect to the end of a collection. |
 | [addTintEffect](addtinteffect)(float, float) | Adds the new Tint effect to the end of a collection. |
 | [clear](clear)() | Removes all image effects from a collection. |
-| [containsItem](containsitem)([HSL](../hsl)) | Determines whether the IGenericCollection contains a specific value. |
 | [containsItem](containsitem)([SoftEdge](../softedge)) | Determines whether the IGenericCollection contains a specific value. |
+| [containsItem](containsitem)([HSL](../hsl)) | Determines whether the IGenericCollection contains a specific value. |
 | [containsItem](containsitem)([AlphaBiLevel](../alphabilevel)) | Determines whether the IGenericCollection contains a specific value. |
-| [containsItem](containsitem)([ColorChange](../colorchange)) | Determines whether the IGenericCollection contains a specific value. |
 | [containsItem](containsitem)([InnerShadow](../innershadow)) | Determines whether the IGenericCollection contains a specific value. |
+| [containsItem](containsitem)([ColorChange](../colorchange)) | Determines whether the IGenericCollection contains a specific value. |
 | [containsItem](containsitem)([AlphaModulate](../alphamodulate)) | Determines whether the IGenericCollection contains a specific value. |
 | [containsItem](containsitem)([Reflection](../reflection)) | Determines whether the IGenericCollection contains a specific value. |
 | [containsItem](containsitem)([Glow](../glow)) | Determines whether the IGenericCollection contains a specific value. |
@@ -86,11 +86,11 @@ url: /php-java/aspose.slides/imagetransformoperationcollection/
 | [iterator](iterator)() | Returns an enumerator that iterates through the collection. |
 | [iteratorJava](iteratorjava)() | Returns a java iterator for the entire collection. |
 | [removeAt](removeat)(int) | Removes an image effect from a collection at the specified index. |
-| [removeItem](removeitem)([HSL](../hsl)) | Removes the first occurrence of a specific object from the IGenericCollection. |
 | [removeItem](removeitem)([SoftEdge](../softedge)) | Removes the first occurrence of a specific object from the IGenericCollection. |
+| [removeItem](removeitem)([HSL](../hsl)) | Removes the first occurrence of a specific object from the IGenericCollection. |
 | [removeItem](removeitem)([AlphaBiLevel](../alphabilevel)) | Removes the first occurrence of a specific object from the IGenericCollection. |
-| [removeItem](removeitem)([ColorChange](../colorchange)) | Removes the first occurrence of a specific object from the IGenericCollection. |
 | [removeItem](removeitem)([InnerShadow](../innershadow)) | Removes the first occurrence of a specific object from the IGenericCollection. |
+| [removeItem](removeitem)([ColorChange](../colorchange)) | Removes the first occurrence of a specific object from the IGenericCollection. |
 | [removeItem](removeitem)([AlphaModulate](../alphamodulate)) | Removes the first occurrence of a specific object from the IGenericCollection. |
 | [removeItem](removeitem)([Reflection](../reflection)) | Removes the first occurrence of a specific object from the IGenericCollection. |
 | [removeItem](removeitem)([Glow](../glow)) | Removes the first occurrence of a specific object from the IGenericCollection. |

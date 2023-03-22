@@ -33,6 +33,19 @@ void
 ---
 
 
+## setShapeTarget([Table](../../table) value)  method
+
+ Defines shape target of command effect.
+ Read/write  IShape.
+ 
+
+### Returns
+void
+
+
+---
+
+
 ## setShapeTarget([SmartArtShape](../../smartartshape) value)  method
 
  Defines shape target of command effect.
@@ -47,19 +60,6 @@ void
 
 
 ## setShapeTarget([Shape](../../shape) value)  method
-
- Defines shape target of command effect.
- Read/write  IShape.
- 
-
-### Returns
-void
-
-
----
-
-
-## setShapeTarget([Table](../../table) value)  method
 
  Defines shape target of command effect.
  Read/write  IShape.
@@ -124,7 +124,7 @@ void
 ---
 
 
-## setShapeTarget([VideoFrame](../../videoframe) value)  method
+## setShapeTarget([OleObjectFrame](../../oleobjectframe) value)  method
 
  Defines shape target of command effect.
  Read/write  IShape.
@@ -137,7 +137,7 @@ void
 ---
 
 
-## setShapeTarget([OleObjectFrame](../../oleobjectframe) value)  method
+## setShapeTarget([VideoFrame](../../videoframe) value)  method
 
  Defines shape target of command effect.
  Read/write  IShape.
@@ -241,7 +241,7 @@ void
 ---
 
 
-## setShapeTarget([ZoomObject](../../zoomobject) value)  method
+## setShapeTarget([LegacyDiagram](../../legacydiagram) value)  method
 
  Defines shape target of command effect.
  Read/write  IShape.
@@ -254,7 +254,7 @@ void
 ---
 
 
-## setShapeTarget([LegacyDiagram](../../legacydiagram) value)  method
+## setShapeTarget([ZoomObject](../../zoomobject) value)  method
 
  Defines shape target of command effect.
  Read/write  IShape.

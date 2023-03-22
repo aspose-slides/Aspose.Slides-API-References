@@ -9,7 +9,7 @@ url: /php-java/aspose.slides/chartdatapointcollection/get_item/
 
 ## get_Item(int index)  method
 
- Returns the series data point by index.
+ Returns the series data point by index (its serial number in this collection).
  
 
 ### Returns
@@ -21,7 +21,7 @@ url: /php-java/aspose.slides/chartdatapointcollection/get_item/
 
 ## get_Item([ChartDataPoint](../../chartdatapoint) pt)  method
 
- Return index of data point in this collection.
+ Return index (serial number) of data point in this collection.
  
 
 ### Returns

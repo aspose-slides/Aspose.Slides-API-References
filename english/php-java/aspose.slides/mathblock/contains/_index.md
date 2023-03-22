@@ -133,24 +133,6 @@ boolean
 ---
 
 
-## contains([MathAccent](../../mathaccent) item)  method
-
- Determines whether the collection contains a specific value.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| item | [MathAccent](../../mathaccent) | The object to locate in the collection. |
-
-### Returns
-boolean
-
-
----
-
-
 ## contains([MathNaryOperator](../../mathnaryoperator) item)  method
 
  Determines whether the collection contains a specific value.
@@ -161,6 +143,24 @@ boolean
 | Name | Type | Description |
 | --- | --- | --- |
 | item | [MathNaryOperator](../../mathnaryoperator) | The object to locate in the collection. |
+
+### Returns
+boolean
+
+
+---
+
+
+## contains([MathAccent](../../mathaccent) item)  method
+
+ Determines whether the collection contains a specific value.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| item | [MathAccent](../../mathaccent) | The object to locate in the collection. |
 
 ### Returns
 boolean
@@ -223,6 +223,24 @@ boolean
 ---
 
 
+## contains([MathFunction](../../mathfunction) item)  method
+
+ Determines whether the collection contains a specific value.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| item | [MathFunction](../../mathfunction) | The object to locate in the collection. |
+
+### Returns
+boolean
+
+
+---
+
+
 ## contains([MathSuperscriptElement](../../mathsuperscriptelement) item)  method
 
  Determines whether the collection contains a specific value.
@@ -259,7 +277,7 @@ boolean
 ---
 
 
-## contains([MathFunction](../../mathfunction) item)  method
+## contains([MathematicalText](../../mathematicaltext) item)  method
 
  Determines whether the collection contains a specific value.
  
@@ -268,7 +286,7 @@ boolean
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [MathFunction](../../mathfunction) | The object to locate in the collection. |
+| item | [MathematicalText](../../mathematicaltext) | The object to locate in the collection. |
 
 ### Returns
 boolean
@@ -287,24 +305,6 @@ boolean
 | Name | Type | Description |
 | --- | --- | --- |
 | item | [MathFraction](../../mathfraction) | The object to locate in the collection. |
-
-### Returns
-boolean
-
-
----
-
-
-## contains([MathematicalText](../../mathematicaltext) item)  method
-
- Determines whether the collection contains a specific value.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| item | [MathematicalText](../../mathematicaltext) | The object to locate in the collection. |
 
 ### Returns
 boolean

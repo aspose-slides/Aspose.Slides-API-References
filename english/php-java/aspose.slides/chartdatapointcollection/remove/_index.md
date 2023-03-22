@@ -21,12 +21,6 @@ url: /php-java/aspose.slides/chartdatapointcollection/remove/
 ### Returns
 void
 
-### Exception
-
-| Exception | Condition |
-| --- | --- |
- | com.aspose.ms.System.ArgumentException | The value parameter was not found in the collection. |
-
 
 ---
 

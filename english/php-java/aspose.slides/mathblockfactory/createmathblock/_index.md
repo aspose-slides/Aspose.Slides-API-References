@@ -145,24 +145,6 @@ url: /php-java/aspose.slides/mathblockfactory/createmathblock/
 ---
 
 
-## createMathBlock([MathAccent](../../mathaccent) mathElement)  method
-
- Create a math block and place the element in it
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| mathElement | [MathAccent](../../mathaccent) | A math element |
-
-### Returns
-[MathBlock](../../mathblock)
-
-
----
-
-
 ## createMathBlock([MathNaryOperator](../../mathnaryoperator) mathElement)  method
 
  Create a math block and place the element in it
@@ -173,6 +155,24 @@ url: /php-java/aspose.slides/mathblockfactory/createmathblock/
 | Name | Type | Description |
 | --- | --- | --- |
 | mathElement | [MathNaryOperator](../../mathnaryoperator) | A math element |
+
+### Returns
+[MathBlock](../../mathblock)
+
+
+---
+
+
+## createMathBlock([MathAccent](../../mathaccent) mathElement)  method
+
+ Create a math block and place the element in it
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| mathElement | [MathAccent](../../mathaccent) | A math element |
 
 ### Returns
 [MathBlock](../../mathblock)
@@ -235,6 +235,24 @@ url: /php-java/aspose.slides/mathblockfactory/createmathblock/
 ---
 
 
+## createMathBlock([MathFunction](../../mathfunction) mathElement)  method
+
+ Create a math block and place the element in it
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| mathElement | [MathFunction](../../mathfunction) | A math element |
+
+### Returns
+[MathBlock](../../mathblock)
+
+
+---
+
+
 ## createMathBlock([MathSuperscriptElement](../../mathsuperscriptelement) mathElement)  method
 
  Create a math block and place the element in it
@@ -271,7 +289,7 @@ url: /php-java/aspose.slides/mathblockfactory/createmathblock/
 ---
 
 
-## createMathBlock([MathFunction](../../mathfunction) mathElement)  method
+## createMathBlock([MathematicalText](../../mathematicaltext) mathElement)  method
 
  Create a math block and place the element in it
  
@@ -280,7 +298,7 @@ url: /php-java/aspose.slides/mathblockfactory/createmathblock/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| mathElement | [MathFunction](../../mathfunction) | A math element |
+| mathElement | [MathematicalText](../../mathematicaltext) | A math element |
 
 ### Returns
 [MathBlock](../../mathblock)
@@ -299,24 +317,6 @@ url: /php-java/aspose.slides/mathblockfactory/createmathblock/
 | Name | Type | Description |
 | --- | --- | --- |
 | mathElement | [MathFraction](../../mathfraction) | A math element |
-
-### Returns
-[MathBlock](../../mathblock)
-
-
----
-
-
-## createMathBlock([MathematicalText](../../mathematicaltext) mathElement)  method
-
- Create a math block and place the element in it
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| mathElement | [MathematicalText](../../mathematicaltext) | A math element |
 
 ### Returns
 [MathBlock](../../mathblock)
