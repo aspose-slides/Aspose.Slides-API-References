@@ -23,6 +23,8 @@ The IVideoFrame type exposes the following members:
 |full_screen_mode|Determines whether a video is shown in full screen mode.<br/>            Read/write bool.|
 |link_path_long|Returns or sets the name of an video file which is linked to a VideoFrame.<br/>            Read/write string.|
 |embedded_video|Returns or sets embedded video object.<br/>            Read/write [IVideo](/slides/python-net/aspose.slides/ivideo/).|
+|trim_from_start|Trim start [ms]|
+|trim_from_end|Trim end [ms]|
 |as_i_picture_frame|Allows to get base IPictureFrame interface.<br/>            Read-only [IPictureFrame](/slides/python-net/aspose.slides/ipictureframe/).|
 |shape_lock|Returns shape's locks.<br/>            Read-only [IBaseShapeLock](/slides/python-net/aspose.slides/ibaseshapelock/).|
 |picture_frame_lock|Returns PictureFrame's locks.<br/>            Read-only [IPictureFrameLock](/slides/python-net/aspose.slides/ipictureframelock/).|
