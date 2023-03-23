@@ -24,6 +24,7 @@ The Timing type exposes the following members:
 |repeat_until_next_click|This attribute specifies if the effect will repeat until the next click.<br/>             Read/write bool.|
 |repeat_duration|Describes the number of times the effect should repeat.<br/>            Read/write|
 |restart|Specifies if a effect is to restart after complete.<br/>            Read/write [EffectRestartType](/slides/python-net/aspose.slides.animation/effectrestarttype/).|
+|rewind|This attribute specifies if the effect will rewind when done playing.<br/>             Read/write bool.|
 |speed|Specifies the percentage by which to speed up (or slow down) the timing.<br/>            Read/write|
 |trigger_delay_time|Describes delay time after trigger.<br/>            Read/write|
 |trigger_type|Describes trigger type.<br/>            Read/write [EffectTriggerType](/slides/python-net/aspose.slides.animation/effecttriggertype/).|
