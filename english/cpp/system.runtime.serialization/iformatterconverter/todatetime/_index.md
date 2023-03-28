@@ -1,0 +1,36 @@
+---
+title: ToDateTime()
+second_title: Aspose.Slides for C++ API Reference
+description: Converts a value to a DateTime.
+type: docs
+weight: 53
+url: /cpp/system.runtime.serialization/iformatterconverter/todatetime/
+---
+## IFormatterConverter::ToDateTime([System::SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>) method
+
+
+Converts a value to a [DateTime](../../../system/datetime/).
+
+```cpp
+virtual DateTime System::Runtime::Serialization::IFormatterConverter::ToDateTime(System::SharedPtr<Object> value)=0
+```
+
+
+### Arguments
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [System::SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\> | The object to be converted. |
+
+### Return Value
+
+The converted value.
+
+## See Also
+
+* Class [DateTime](../../../system/datetime/)
+* Typedef [SharedPtr](../../../system/sharedptr/)
+* Class [Object](../../../system/object/)
+* Class [IFormatterConverter](../)
+* Namespace [System::Runtime::Serialization](../../)
+* Library [Aspose.Slides](../../../)

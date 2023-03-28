@@ -1,0 +1,45 @@
+---
+title: QueuePtr()
+second_title: Aspose.Slides for C++ API Reference
+description: Constructs null pointer.
+type: docs
+weight: 1
+url: /cpp/system.collections.generic/queueptr/queueptr/
+---
+## QueuePtr::QueuePtr() constructor
+
+
+Constructs null pointer.
+
+```cpp
+System::Collections::Generic::QueuePtr<T>::QueuePtr()
+```
+
+## See Also
+
+* Class [QueuePtr](../)
+* Namespace [System::Collections::Generic](../../)
+* Library [Aspose.Slides](../../../)
+## QueuePtr::QueuePtr(const [SharedPtr](../../../system/sharedptr/)\<[Queue](../../queue/)\<T\>\>\&) constructor
+
+
+Constructs pointer to specific queue.
+
+```cpp
+System::Collections::Generic::QueuePtr<T>::QueuePtr(const SharedPtr<Queue<T>> &obj)
+```
+
+
+### Arguments
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| obj | const [SharedPtr](../../../system/sharedptr/)\<[Queue](../../queue/)\<T\>\>\& | [Queue](../../queue/) to point to. |
+
+## See Also
+
+* Typedef [SharedPtr](../../../system/sharedptr/)
+* Class [Queue](../../queue/)
+* Class [QueuePtr](../)
+* Namespace [System::Collections::Generic](../../)
+* Library [Aspose.Slides](../../../)

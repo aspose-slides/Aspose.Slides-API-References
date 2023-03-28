@@ -1,0 +1,45 @@
+---
+title: ResponsiveHtmlController()
+second_title: Aspose.Slides for C++ API Reference
+description: Creates new instance
+type: docs
+weight: 1
+url: /cpp/aspose.slides.export/responsivehtmlcontroller/responsivehtmlcontroller/
+---
+## ResponsiveHtmlController::ResponsiveHtmlController() constructor
+
+
+Creates new instance
+
+```cpp
+Aspose::Slides::Export::ResponsiveHtmlController::ResponsiveHtmlController()
+```
+
+## See Also
+
+* Class [ResponsiveHtmlController](../)
+* Namespace [Aspose::Slides::Export](../../)
+* Library [Aspose.Slides](../../../)
+## ResponsiveHtmlController::ResponsiveHtmlController([System::SharedPtr](../../../system/sharedptr/)\<[IHtmlFormattingController](../../ihtmlformattingcontroller/)\>) constructor
+
+
+Creates new instance
+
+```cpp
+Aspose::Slides::Export::ResponsiveHtmlController::ResponsiveHtmlController(System::SharedPtr<IHtmlFormattingController> controller)
+```
+
+
+### Arguments
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| controller | [System::SharedPtr](../../../system/sharedptr/)\<[IHtmlFormattingController](../../ihtmlformattingcontroller/)\> | HTML formatting controller |
+
+## See Also
+
+* Typedef [SharedPtr](../../../system/sharedptr/)
+* Class [IHtmlFormattingController](../../ihtmlformattingcontroller/)
+* Class [ResponsiveHtmlController](../)
+* Namespace [Aspose::Slides::Export](../../)
+* Library [Aspose.Slides](../../../)

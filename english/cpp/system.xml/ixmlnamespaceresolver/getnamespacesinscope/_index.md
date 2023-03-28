@@ -1,0 +1,37 @@
+---
+title: GetNamespacesInScope()
+second_title: Aspose.Slides for C++ API Reference
+description: Returns a collection of defined prefix-namespace mappings that are currently in scope.
+type: docs
+weight: 1
+url: /cpp/system.xml/ixmlnamespaceresolver/getnamespacesinscope/
+---
+## IXmlNamespaceResolver::GetNamespacesInScope([XmlNamespaceScope](../../xmlnamespacescope/)) method
+
+
+Returns a collection of defined prefix-namespace mappings that are currently in scope.
+
+```cpp
+virtual SharedPtr<Collections::Generic::IDictionary<String, String>> System::Xml::IXmlNamespaceResolver::GetNamespacesInScope(XmlNamespaceScope scope)=0
+```
+
+
+### Arguments
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| scope | [XmlNamespaceScope](../../xmlnamespacescope/) | An XmlNamespaceScope value that specifies the type of namespace nodes to return. |
+
+### Return Value
+
+An IDictionary collection that contains the current in-scope namespaces.
+
+## See Also
+
+* Typedef [SharedPtr](../../../system/sharedptr/)
+* Class [IDictionary](../../../system.collections.generic/idictionary/)
+* Class [String](../../../system/string/)
+* Enum [XmlNamespaceScope](../../xmlnamespacescope/)
+* Class [IXmlNamespaceResolver](../)
+* Namespace [System::Xml](../../)
+* Library [Aspose.Slides](../../../)

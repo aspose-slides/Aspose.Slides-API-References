@@ -1,0 +1,213 @@
+---
+title: Integral()
+second_title: Aspose.Slides for C++ API Reference
+description: Takes the integral
+type: docs
+weight: 183
+url: /cpp/aspose.slides.mathtext/mathelementbase/integral/
+---
+## MathElementBase::Integral([MathIntegralTypes](../../mathintegraltypes/), [System::SharedPtr](../../../system/sharedptr/)\<[IMathElement](../../imathelement/)\>, [System::SharedPtr](../../../system/sharedptr/)\<[IMathElement](../../imathelement/)\>, [MathLimitLocations](../../mathlimitlocations/)) method
+
+
+Takes the integral
+
+```cpp
+System::SharedPtr<IMathNaryOperator> Aspose::Slides::MathText::MathElementBase::Integral(MathIntegralTypes integralType, System::SharedPtr<IMathElement> lowerLimit, System::SharedPtr<IMathElement> upperLimit, MathLimitLocations limitLocations) override
+```
+
+
+### Arguments
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| integralType | [MathIntegralTypes](../../mathintegraltypes/) | Integral type |
+| lowerLimit | [System::SharedPtr](../../../system/sharedptr/)\<[IMathElement](../../imathelement/)\> | Lower limit of integral |
+| upperLimit | [System::SharedPtr](../../../system/sharedptr/)\<[IMathElement](../../imathelement/)\> | Upper limit of integral |
+| limitLocations | [MathLimitLocations](../../mathlimitlocations/) | location of limits |
+
+### Return Value
+
+New instance of type [IMathNaryOperator](../../imathnaryoperator/)
+## Remarks
+
+
+
+Example: 
+```cpp
+auto baseElement = System::MakeObject<MathematicalText>(u"\U0001d465");
+auto lowerLimit = System::MakeObject<MathematicalText>(u"1");
+auto upperLimit = System::MakeObject<MathematicalText>(u"2");
+auto integral = baseElement->Integral(Aspose::Slides::MathText::MathIntegralTypes::Simple, lowerLimit, upperLimit, Aspose::Slides::MathText::MathLimitLocations::UnderOver);
+```
+
+## See Also
+
+* Typedef [SharedPtr](../../../system/sharedptr/)
+* Class [IMathNaryOperator](../../imathnaryoperator/)
+* Enum [MathIntegralTypes](../../mathintegraltypes/)
+* Class [IMathElement](../../imathelement/)
+* Enum [MathLimitLocations](../../mathlimitlocations/)
+* Class [MathElementBase](../)
+* Namespace [Aspose::Slides::MathText](../../)
+* Library [Aspose.Slides](../../../)
+## MathElementBase::Integral([MathIntegralTypes](../../mathintegraltypes/), [System::SharedPtr](../../../system/sharedptr/)\<[IMathElement](../../imathelement/)\>, [System::SharedPtr](../../../system/sharedptr/)\<[IMathElement](../../imathelement/)\>) method
+
+
+Takes the integral
+
+```cpp
+System::SharedPtr<IMathNaryOperator> Aspose::Slides::MathText::MathElementBase::Integral(MathIntegralTypes integralType, System::SharedPtr<IMathElement> lowerLimit, System::SharedPtr<IMathElement> upperLimit) override
+```
+
+
+### Arguments
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| integralType | [MathIntegralTypes](../../mathintegraltypes/) | Integral type |
+| lowerLimit | [System::SharedPtr](../../../system/sharedptr/)\<[IMathElement](../../imathelement/)\> | Lower limit of integral |
+| upperLimit | [System::SharedPtr](../../../system/sharedptr/)\<[IMathElement](../../imathelement/)\> | Upper limit of integral |
+
+### Return Value
+
+New instance of type [IMathNaryOperator](../../imathnaryoperator/)
+## Remarks
+
+
+
+Example: 
+```cpp
+auto baseElement = System::MakeObject<MathematicalText>(u"?\?");
+auto lowerLimit = System::MakeObject<MathematicalText>(u"1");
+auto upperLimit = System::MakeObject<MathematicalText>(u"2");
+auto integral = baseElement->Integral(MathIntegralTypes::Simple, lowerLimit, upperLimit, MathLimitLocations::UnderOver);
+```
+
+## See Also
+
+* Typedef [SharedPtr](../../../system/sharedptr/)
+* Class [IMathNaryOperator](../../imathnaryoperator/)
+* Enum [MathIntegralTypes](../../mathintegraltypes/)
+* Class [IMathElement](../../imathelement/)
+* Class [MathElementBase](../)
+* Namespace [Aspose::Slides::MathText](../../)
+* Library [Aspose.Slides](../../../)
+## MathElementBase::Integral([MathIntegralTypes](../../mathintegraltypes/)) method
+
+
+Takes the integral without limits
+
+```cpp
+System::SharedPtr<IMathNaryOperator> Aspose::Slides::MathText::MathElementBase::Integral(MathIntegralTypes integralType) override
+```
+
+
+### Arguments
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| integralType | [MathIntegralTypes](../../mathintegraltypes/) | Integral type |
+
+### Return Value
+
+New instance of type [IMathNaryOperator](../../imathnaryoperator/)
+## Remarks
+
+
+
+Example: 
+```cpp
+auto baseElement = System::MakeObject<MathematicalText>(u"\U0001d465");
+auto integral = baseElement->Integral(Aspose::Slides::MathText::MathIntegralTypes::Contour);
+```
+
+## See Also
+
+* Typedef [SharedPtr](../../../system/sharedptr/)
+* Class [IMathNaryOperator](../../imathnaryoperator/)
+* Enum [MathIntegralTypes](../../mathintegraltypes/)
+* Class [MathElementBase](../)
+* Namespace [Aspose::Slides::MathText](../../)
+* Library [Aspose.Slides](../../../)
+## MathElementBase::Integral([MathIntegralTypes](../../mathintegraltypes/), [System::String](../../../system/string/), [System::String](../../../system/string/), [MathLimitLocations](../../mathlimitlocations/)) method
+
+
+Takes the integral
+
+```cpp
+System::SharedPtr<IMathNaryOperator> Aspose::Slides::MathText::MathElementBase::Integral(MathIntegralTypes integralType, System::String lowerLimit, System::String upperLimit, MathLimitLocations limitLocations) override
+```
+
+
+### Arguments
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| integralType | [MathIntegralTypes](../../mathintegraltypes/) | Integral type |
+| lowerLimit | [System::String](../../../system/string/) | Lower limit of integral |
+| upperLimit | [System::String](../../../system/string/) | Upper limit of integral |
+| limitLocations | [MathLimitLocations](../../mathlimitlocations/) | location of limits |
+
+### Return Value
+
+New instance of type [IMathNaryOperator](../../imathnaryoperator/)
+## Remarks
+
+
+
+Example: 
+```cpp
+auto baseElement = System::MakeObject<MathematicalText>(u"\U0001d465");
+auto integral = baseElement->Integral(Aspose::Slides::MathText::MathIntegralTypes::Simple, u"1", u"5", Aspose::Slides::MathText::MathLimitLocations::UnderOver);
+```
+
+## See Also
+
+* Typedef [SharedPtr](../../../system/sharedptr/)
+* Class [IMathNaryOperator](../../imathnaryoperator/)
+* Enum [MathIntegralTypes](../../mathintegraltypes/)
+* Class [String](../../../system/string/)
+* Enum [MathLimitLocations](../../mathlimitlocations/)
+* Class [MathElementBase](../)
+* Namespace [Aspose::Slides::MathText](../../)
+* Library [Aspose.Slides](../../../)
+## MathElementBase::Integral([MathIntegralTypes](../../mathintegraltypes/), [System::String](../../../system/string/), [System::String](../../../system/string/)) method
+
+
+Takes the integral
+
+```cpp
+System::SharedPtr<IMathNaryOperator> Aspose::Slides::MathText::MathElementBase::Integral(MathIntegralTypes integralType, System::String lowerLimit, System::String upperLimit) override
+```
+
+
+### Arguments
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| integralType | [MathIntegralTypes](../../mathintegraltypes/) | Integral type |
+| lowerLimit | [System::String](../../../system/string/) | Lower limit of integral |
+| upperLimit | [System::String](../../../system/string/) | Upper limit of integral |
+
+### Return Value
+
+New instance of type [IMathNaryOperator](../../imathnaryoperator/)
+## Remarks
+
+
+
+Example: 
+```cpp
+auto baseElement = System::MakeObject<MathematicalText>(u"\U0001d465");
+auto integral = baseElement->Integral(Aspose::Slides::MathText::MathIntegralTypes::Simple, u"1", u"5");
+```
+
+## See Also
+
+* Typedef [SharedPtr](../../../system/sharedptr/)
+* Class [IMathNaryOperator](../../imathnaryoperator/)
+* Enum [MathIntegralTypes](../../mathintegraltypes/)
+* Class [String](../../../system/string/)
+* Class [MathElementBase](../)
+* Namespace [Aspose::Slides::MathText](../../)
+* Library [Aspose.Slides](../../../)

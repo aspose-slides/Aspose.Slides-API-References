@@ -1,0 +1,45 @@
+---
+title: HashSetPtr()
+second_title: Aspose.Slides for C++ API Reference
+description: Null pointer constructor.
+type: docs
+weight: 1
+url: /cpp/system.collections.generic/hashsetptr/hashsetptr/
+---
+## HashSetPtr::HashSetPtr() constructor
+
+
+Null pointer constructor.
+
+```cpp
+System::Collections::Generic::HashSetPtr<T>::HashSetPtr()
+```
+
+## See Also
+
+* Class [HashSetPtr](../)
+* Namespace [System::Collections::Generic](../../)
+* Library [Aspose.Slides](../../../)
+## HashSetPtr::HashSetPtr(const [SharedPtr](../../../system/sharedptr/)\<[HashSet](../../hashset/)\<T\>\>\&) constructor
+
+
+Copy constructor.
+
+```cpp
+System::Collections::Generic::HashSetPtr<T>::HashSetPtr(const SharedPtr<HashSet<T>> &obj)
+```
+
+
+### Arguments
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| obj | const [SharedPtr](../../../system/sharedptr/)\<[HashSet](../../hashset/)\<T\>\>\& | Pointer to copy. |
+
+## See Also
+
+* Typedef [SharedPtr](../../../system/sharedptr/)
+* Class [HashSet](../../hashset/)
+* Class [HashSetPtr](../)
+* Namespace [System::Collections::Generic](../../)
+* Library [Aspose.Slides](../../../)

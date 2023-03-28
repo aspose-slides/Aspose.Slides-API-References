@@ -1,0 +1,22 @@
+---
+title: iterator
+second_title: Aspose.Slides for C++ API Reference
+description: Iterator type.
+type: docs
+weight: 287
+url: /cpp/aspose.slides.animation/behaviorcollection/iterator/
+---
+## iterator typedef
+
+
+Iterator type.
+
+```cpp
+using Aspose::Slides::Animation::BehaviorCollection::iterator =  typename iterator_holder_type::iterator
+```
+
+## See Also
+
+* Class [BehaviorCollection](../)
+* Namespace [Aspose::Slides::Animation](../../)
+* Library [Aspose.Slides](../../../)

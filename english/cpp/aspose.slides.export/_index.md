@@ -1,0 +1,99 @@
+---
+title: "Aspose::Slides::Export"
+second_title: Aspose.Slides for C++ API Reference
+description: 
+type: docs
+weight: 79
+url: /cpp/aspose.slides.export/
+---
+
+
+
+## Classes
+
+| Class | Description |
+| --- | --- |
+| [EmbedAllFontsHtmlController](./embedallfontshtmlcontroller/) | The formatting controller class to use for embedding all presentation fonts in WOFF format. |
+| [EmbeddedEotFontsHtmlController](./embeddedeotfontshtmlcontroller/) | The formatting controller class to use for fonts embedding in EOT format |
+| [EmbeddedWoffFontsHtmlController](./embeddedwofffontshtmlcontroller/) | The formatting controller class to use for fonts embedding in WOFF format |
+| [FrameTickEventArgs](./frametickeventargs/) | Represents arguments of the **PresentationPlayer::FrameTick** event. |
+| [GifOptions](./gifoptions/) | Represents GIF exporting options. |
+| [Html5Options](./html5options/) | Represents a HTML5 exporting options. |
+| [HtmlFormatter](./htmlformatter/) | Represents HTML file template. |
+| [HtmlGenerator](./htmlgenerator/) | Html generator. |
+| [HtmlOptions](./htmloptions/) | Represents a HTML exporting options. |
+| [IEmbeddedEotFontsHtmlController](./iembeddedeotfontshtmlcontroller/) | Embedded Eot fonts HTML controller. |
+| [IEmbeddedWoffFontsHtmlController](./iembeddedwofffontshtmlcontroller/) | Embedded woff fonts html controller. |
+| [IGifOptions](./igifoptions/) | Represents GIF exporting options. |
+| [IHtml5Options](./ihtml5options/) | Represents a HTML5 exporting options. |
+| [IHtmlFormatter](./ihtmlformatter/) | Represents HTML file template. |
+| [IHtmlFormattingController](./ihtmlformattingcontroller/) | Controls a html file generation. |
+| [IHtmlGenerator](./ihtmlgenerator/) | Html generator. |
+| [IHtmlOptions](./ihtmloptions/) | Represents a HTML exporting options. |
+| [ILinkEmbedController](./ilinkembedcontroller/) | Callback interface used to determine how object should be processed during saving. |
+| [INotesCommentsLayoutingOptions](./inotescommentslayoutingoptions/) | Provides options that control the look of layouting of notes and comments in exported document. |
+| [IPdfOptions](./ipdfoptions/) | Provides options that control how a presentation is saved in Pdf format. |
+| [IPptOptions](./ipptoptions/) | Provides options that control how a presentation is saved in PPT format. |
+| [IPptxOptions](./ipptxoptions/) | Represents options for saving OpenXml presentations (PPTX, PPSX, POTX, PPTM, PPSM, POTM). |
+| [IPresentationAnimationPlayer](./ipresentationanimationplayer/) | Represents a player of the animation. |
+| [IRenderingOptions](./irenderingoptions/) | Provides options that control how a presentation/slide is rendered. |
+| [IResponsiveHtmlController](./iresponsivehtmlcontroller/) | Responsive HTML Controller |
+| [ISaveOptions](./isaveoptions/) | Options that control how a presentation is saved. |
+| [ISaveOptionsFactory](./isaveoptionsfactory/) | Allows to create save options' instances |
+| [ISlideImageFormat](./islideimageformat/) | Determines format in which slide image will be saved for presentation to HTML export. |
+| [ISVGOptions](./isvgoptions/) | Represents an SVG options. |
+| [ISvgShape](./isvgshape/) | Represents options for SVG shape. |
+| [ISvgShapeAndTextFormattingController](./isvgshapeandtextformattingcontroller/) | Controls SVG shape and text generation. |
+| [ISvgShapeFormattingController](./isvgshapeformattingcontroller/) | Controls SVG shape generation. |
+| [ISvgTSpan](./isvgtspan/) | Represents options for SVG text portion (\"tspan\"). |
+| [ISwfOptions](./iswfoptions/) | Provides options that control how a presentation is saved in SWF format. |
+| [ITextToHtmlConversionOptions](./itexttohtmlconversionoptions/) | Options for extracting HTML from the Pptx text. |
+| [ITiffOptions](./itiffoptions/) | Provides options that control how a presentation is saved in TIFF format. |
+| [IVideoPlayerHtmlController](./ivideoplayerhtmlcontroller/) | This class allows export of video and audio files into a HTML |
+| [IVideoPlayerHtmlControllerFactory](./ivideoplayerhtmlcontrollerfactory/) | Allows to create [VideoPlayerHtmlController](./videoplayerhtmlcontroller/). |
+| [IXpsOptions](./ixpsoptions/) | Provides options that control how a presentation is saved in XPS format. |
+| [NotesCommentsLayoutingOptions](./notescommentslayoutingoptions/) | Provides options that control the look of layouting of notes and comments in exported document. |
+| [PdfOptions](./pdfoptions/) | Provides options that control how a presentation is saved in Pdf format. |
+| [PptOptions](./pptoptions/) | Provides options that control how a presentation is saved in PPT format. |
+| [PptxOptions](./pptxoptions/) | Represents options for saving OpenXml presentations (PPTX, PPSX, POTX, PPTM, PPSM, POTM). |
+| [PresentationAnimationsGenerator](./presentationanimationsgenerator/) | Represents a generator of the animations in the [Presentation](../aspose.slides/presentation/). |
+| [PresentationPlayer](./presentationplayer/) | Represents the player of animations associated with the [Presentation](../aspose.slides/presentation/). |
+| [RenderingOptions](./renderingoptions/) | Provides options that control how a presentation/slide is rendered. |
+| [ResponsiveHtmlController](./responsivehtmlcontroller/) | Responsive HTML Controller |
+| [SaveOptions](./saveoptions/) | Abstract class with options that control how a presentation is saved. |
+| [SaveOptionsFactory](./saveoptionsfactory/) | Allows to create save options' instances |
+| [SlideImageFormat](./slideimageformat/) | Determines format in which slide image will be saved for presentation to HTML export. |
+| [SVGOptions](./svgoptions/) | Represents an SVG options. |
+| [SvgShape](./svgshape/) | Represents options for SVG shape. |
+| [SvgTSpan](./svgtspan/) | Represents options for SVG text portion (\"tspan\"). |
+| [SwfOptions](./swfoptions/) | Provides options that control how a presentation is saved in Swf format. |
+| [TextToHtmlConversionOptions](./texttohtmlconversionoptions/) | Options for extracting HTML from the Pptx text. |
+| [TiffOptions](./tiffoptions/) | Provides options that control how a presentation is saved in TIFF format. |
+| [VideoPlayerHtmlController](./videoplayerhtmlcontroller/) | This class allows export of video and audio files into a HTML |
+| [VideoPlayerHtmlControllerFactory](./videoplayerhtmlcontrollerfactory/) | Allows to create [VideoPlayerHtmlController](./videoplayerhtmlcontroller/). |
+| [XpsOptions](./xpsoptions/) | Provides options that control how a presentation is saved in XPS format. |
+## Functions
+
+| Function | Description |
+| --- | --- |
+|  [DECLARE_ENUM_OPERATORS](./declare_enum_operators/)([Aspose::Slides::Export::PdfAccessPermissions](./pdfaccesspermissions/)) |  |
+## Enums
+
+| Enum | Description |
+| --- | --- |
+| [CommentsPositions](./commentspositions/) | Represents the rule to render comments into exported document |
+| [Conformance](./conformance/) | Specifies the conformance class to which the PresentationML document conforms. |
+| [EmbedFontCharacters](./embedfontcharacters/) | Represents the rule to use for adding new embedding font into [IPresentation](../aspose.slides/ipresentation/) |
+| [ImagePixelFormat](./imagepixelformat/) | Specifies the pixel format for the generated images. |
+| [LinkEmbedDecision](./linkembeddecision/) | Determines how object will be processed during saving. |
+| [NotesPositions](./notespositions/) | Represents the rule to render notes into exported document |
+| [PdfAccessPermissions](./pdfaccesspermissions/) | Contains a set of flags specifying which access permissions should be granted when the document is opened with user access. |
+| [PdfCompliance](./pdfcompliance/) | Constants which define the PDF standards compliance level. |
+| [PdfTextCompression](./pdftextcompression/) | Constants which define the type of a compression applied to all content in the PDF file except images. |
+| [PicturesCompression](./picturescompression/) | Represents the pictures compression level |
+| [SaveFormat](./saveformat/) | Constants which define the format of a saved presentation. |
+| [SvgCoordinateUnit](./svgcoordinateunit/) | Represents CSS2 coordinate units used to define SVG coordinates. |
+| [SvgEvent](./svgevent/) | Represents options for SVG shape. |
+| [SvgExternalFontsHandling](./svgexternalfontshandling/) | Represents a way to handle external fonts used for text drawing. |
+| [TextInheritanceLimit](./textinheritancelimit/) | Controls the depth of the text properties inheritance. |
+| [TiffCompressionTypes](./tiffcompressiontypes/) | Provides options that control how a presentation is compressed in TIFF format. |

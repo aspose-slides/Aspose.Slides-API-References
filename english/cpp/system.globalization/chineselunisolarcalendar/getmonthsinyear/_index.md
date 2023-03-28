@@ -1,0 +1,62 @@
+---
+title: GetMonthsInYear()
+second_title: Aspose.Slides for C++ API Reference
+description: Gets number of months in the specified year.
+type: docs
+weight: 53
+url: /cpp/system.globalization/chineselunisolarcalendar/getmonthsinyear/
+---
+## ChineseLunisolarCalendar::GetMonthsInYear(int, int) const method
+
+
+Gets number of months in the specified year.
+
+```cpp
+int System::Globalization::ChineseLunisolarCalendar::GetMonthsInYear(int year, int era) const override
+```
+
+
+### Arguments
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| year | int | Year to get number of months in. |
+| era | int | Era. |
+
+### Return Value
+
+Number of months in the specified year of specified era.
+
+## See Also
+
+* Class [ChineseLunisolarCalendar](../)
+* Namespace [System::Globalization](../../)
+* Library [Aspose.Slides](../../../)
+## ChineseLunisolarCalendar::GetMonthsInYear(int) const method
+
+
+RTTI information.
+
+```cpp
+virtual int System::Globalization::Calendar::GetMonthsInYear(int year) const
+```
+
+## See Also
+
+* Class [ChineseLunisolarCalendar](../)
+* Namespace [System::Globalization](../../)
+* Library [Aspose.Slides](../../../)
+## ChineseLunisolarCalendar::GetMonthsInYear(int, int) const method
+
+
+RTTI information.
+
+```cpp
+virtual int System::Globalization::Calendar::GetMonthsInYear(int year, int era) const
+```
+
+## See Also
+
+* Class [ChineseLunisolarCalendar](../)
+* Namespace [System::Globalization](../../)
+* Library [Aspose.Slides](../../../)

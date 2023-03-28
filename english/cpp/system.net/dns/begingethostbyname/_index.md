@@ -1,0 +1,40 @@
+---
+title: BeginGetHostByName()
+second_title: Aspose.Slides for C++ API Reference
+description: Initiates an asynchronous operation to create a new IPHostEntry-class instance using the specified host name.
+type: docs
+weight: 53
+url: /cpp/system.net/dns/begingethostbyname/
+---
+## Dns::BeginGetHostByName([String](../../../system/string/), [AsyncCallback](../../../system/asynccallback/), [System::SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>) method
+
+
+Initiates an asynchronous operation to create a new IPHostEntry-class instance using the specified host name.
+
+```cpp
+static System::SharedPtr<IAsyncResult> System::Net::Dns::BeginGetHostByName(String hostName, AsyncCallback requestCallback, System::SharedPtr<Object> stateObject)
+```
+
+
+### Arguments
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| hostName | [String](../../../system/string/) | A host name. |
+| requestCallback | [AsyncCallback](../../../system/asynccallback/) | A callback to be called when the operation completes. |
+| stateObject | [System::SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\> | User-provided data used to uniquely identify each asynchronous operation. |
+
+### Return Value
+
+An [IAsyncResult](../../../system/iasyncresult/) object representing the initiated asynchronous operation.
+
+## See Also
+
+* Typedef [SharedPtr](../../../system/sharedptr/)
+* Class [IAsyncResult](../../../system/iasyncresult/)
+* Class [String](../../../system/string/)
+* Typedef [AsyncCallback](../../../system/asynccallback/)
+* Class [Object](../../../system/object/)
+* Class [Dns](../)
+* Namespace [System::Net](../../)
+* Library [Aspose.Slides](../../../)

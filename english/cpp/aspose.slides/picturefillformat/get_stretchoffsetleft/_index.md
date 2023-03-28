@@ -1,0 +1,22 @@
+---
+title: get_StretchOffsetLeft()
+second_title: Aspose.Slides for C++ API Reference
+description: Returns left edge of the fill rectangle that is defined by a percentage offset from the left edge of the shape's bounding box. A positive percentage specifies an inset, while a negative percentage specifies an outset. Read float.
+type: docs
+weight: 170
+url: /cpp/aspose.slides/picturefillformat/get_stretchoffsetleft/
+---
+## PictureFillFormat::get_StretchOffsetLeft() method
+
+
+Returns left edge of the fill rectangle that is defined by a percentage offset from the left edge of the shape's bounding box. A positive percentage specifies an inset, while a negative percentage specifies an outset. Read **float**.
+
+```cpp
+float Aspose::Slides::PictureFillFormat::get_StretchOffsetLeft() override
+```
+
+## See Also
+
+* Class [PictureFillFormat](../)
+* Namespace [Aspose::Slides](../../)
+* Library [Aspose.Slides](../../../)

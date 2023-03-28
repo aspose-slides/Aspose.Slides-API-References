@@ -1,0 +1,66 @@
+---
+title: Queue()
+second_title: Aspose.Slides for C++ API Reference
+description: Constructs empty queue.
+type: docs
+weight: 1
+url: /cpp/system.collections.generic/queue/queue/
+---
+## Queue::Queue() constructor
+
+
+Constructs empty queue.
+
+```cpp
+System::Collections::Generic::Queue<T>::Queue()
+```
+
+## See Also
+
+* Class [Queue](../)
+* Namespace [System::Collections::Generic](../../)
+* Library [Aspose.Slides](../../../)
+## Queue::Queue(int) constructor
+
+
+Constructs empty queue.
+
+```cpp
+System::Collections::Generic::Queue<T>::Queue(int capacity)
+```
+
+
+### Arguments
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| capacity | int | Number of elements to reserve. |
+
+## See Also
+
+* Class [Queue](../)
+* Namespace [System::Collections::Generic](../../)
+* Library [Aspose.Slides](../../../)
+## Queue::Queue(const [SharedPtr](../../../system/sharedptr/)\<[IEnumerable](../../ienumerable/)\<T\>\>\&) constructor
+
+
+Copy constructor.
+
+```cpp
+System::Collections::Generic::Queue<T>::Queue(const SharedPtr<IEnumerable<T>> &items)
+```
+
+
+### Arguments
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| items | const [SharedPtr](../../../system/sharedptr/)\<[IEnumerable](../../ienumerable/)\<T\>\>\& | Container to copy data from. |
+
+## See Also
+
+* Typedef [SharedPtr](../../../system/sharedptr/)
+* Class [IEnumerable](../../ienumerable/)
+* Class [Queue](../)
+* Namespace [System::Collections::Generic](../../)
+* Library [Aspose.Slides](../../../)

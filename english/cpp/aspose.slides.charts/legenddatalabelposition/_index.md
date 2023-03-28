@@ -1,0 +1,36 @@
+---
+title: LegendDataLabelPosition
+second_title: Aspose.Slides for C++ API Reference
+description: Determines position of data labels.
+type: docs
+weight: 1600
+url: /cpp/aspose.slides.charts/legenddatalabelposition/
+---
+## LegendDataLabelPosition enum
+
+
+Determines position of data labels.
+
+```cpp
+enum class LegendDataLabelPosition
+```
+
+### Values
+
+| Name | Value | Description |
+| --- | --- | --- |
+| NotDefined | -1 | Position is not defined. |
+| Bottom | 0 | Specifies that data labels shall be displayed below the data marker. |
+| BestFit | 1 | Specifies that data labels shall be displayed in the best position. |
+| Center | 2 | Specifies that data labels shall be displayed centered on the data marker. |
+| InsideBase | 3 | Specifies that data labels shall be displayed inside the base of the data marker. |
+| InsideEnd | 4 | Specifies that data labels shall be displayed inside the end of the data marker. |
+| Left | 5 | Specifies that data labels shall be displayed to the left of the data marker. |
+| OutsideEnd | 6 | Specifies that data labels shall be displayed outside the end of the data marker. |
+| Right | 7 | Specifies that data labels shall be displayed to the right of the data marker. |
+| Top | 8 | Specifies that data labels shall be displayed above the data marker. |
+
+## See Also
+
+* Namespace [Aspose::Slides::Charts](../)
+* Library [Aspose.Slides](../../)

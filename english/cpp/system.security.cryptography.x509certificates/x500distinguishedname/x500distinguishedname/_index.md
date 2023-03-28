@@ -1,0 +1,122 @@
+---
+title: X500DistinguishedName()
+second_title: Aspose.Slides for C++ API Reference
+description: Constructor.
+type: docs
+weight: 1
+url: /cpp/system.security.cryptography.x509certificates/x500distinguishedname/x500distinguishedname/
+---
+## X500DistinguishedName::X500DistinguishedName(const [SharedPtr](../../../system/sharedptr/)\<[AsnEncodedData](../../../system.security.cryptography/asnencodeddata/)\>\&) constructor
+
+
+Constructor.
+
+```cpp
+System::Security::Cryptography::X509Certificates::X500DistinguishedName::X500DistinguishedName(const SharedPtr<AsnEncodedData> &encoded_distinguished_name)
+```
+
+
+### Arguments
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| encoded_distinguished_name | const [SharedPtr](../../../system/sharedptr/)\<[AsnEncodedData](../../../system.security.cryptography/asnencodeddata/)\>\& | [Object](../../../system/object/) representing distinguished name. |
+
+## See Also
+
+* Typedef [SharedPtr](../../../system/sharedptr/)
+* Class [AsnEncodedData](../../../system.security.cryptography/asnencodeddata/)
+* Class [X500DistinguishedName](../)
+* Namespace [System::Security::Cryptography::X509Certificates](../../)
+* Library [Aspose.Slides](../../../)
+## X500DistinguishedName::X500DistinguishedName(const [ByteArrayPtr](../../../system/bytearrayptr/)\&) constructor
+
+
+Constructor.
+
+```cpp
+System::Security::Cryptography::X509Certificates::X500DistinguishedName::X500DistinguishedName(const ByteArrayPtr &encoded_distinguished_name)
+```
+
+
+### Arguments
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| encoded_distinguished_name | const [ByteArrayPtr](../../../system/bytearrayptr/)\& | Encoded distinguished name. |
+
+## See Also
+
+* Typedef [ByteArrayPtr](../../../system/bytearrayptr/)
+* Class [X500DistinguishedName](../)
+* Namespace [System::Security::Cryptography::X509Certificates](../../)
+* Library [Aspose.Slides](../../../)
+## X500DistinguishedName::X500DistinguishedName(const [String](../../../system/string/)\&) constructor
+
+
+Constructor.
+
+```cpp
+System::Security::Cryptography::X509Certificates::X500DistinguishedName::X500DistinguishedName(const String &distinguished_name)
+```
+
+
+### Arguments
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| distinguished_name | const [String](../../../system/string/)\& | Distinguished name. |
+
+## See Also
+
+* Class [String](../../../system/string/)
+* Class [X500DistinguishedName](../)
+* Namespace [System::Security::Cryptography::X509Certificates](../../)
+* Library [Aspose.Slides](../../../)
+## X500DistinguishedName::X500DistinguishedName(const [SharedPtr](../../../system/sharedptr/)\<[X500DistinguishedName](../)\>\&) constructor
+
+
+Copy constructor.
+
+```cpp
+System::Security::Cryptography::X509Certificates::X500DistinguishedName::X500DistinguishedName(const SharedPtr<X500DistinguishedName> &distinguishedName)
+```
+
+
+### Arguments
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| distinguishedName | const [SharedPtr](../../../system/sharedptr/)\<[X500DistinguishedName](../)\>\& | Distinguished name to copy data from. |
+
+## See Also
+
+* Typedef [SharedPtr](../../../system/sharedptr/)
+* Class [X500DistinguishedName](../)
+* Class [X500DistinguishedName](../)
+* Namespace [System::Security::Cryptography::X509Certificates](../../)
+* Library [Aspose.Slides](../../../)
+## X500DistinguishedName::X500DistinguishedName(const [String](../../../system/string/)\&, [X500DistinguishedNameFlags](../../x500distinguishednameflags/)) constructor
+
+
+Constructor.
+
+```cpp
+System::Security::Cryptography::X509Certificates::X500DistinguishedName::X500DistinguishedName(const String &distinguished_name, X500DistinguishedNameFlags flags)
+```
+
+
+### Arguments
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| distinguished_name | const [String](../../../system/string/)\& | Distinguished name. |
+| flags | [X500DistinguishedNameFlags](../../x500distinguishednameflags/) | Bitwise-combined flags specifying name building properties. |
+
+## See Also
+
+* Class [String](../../../system/string/)
+* Enum [X500DistinguishedNameFlags](../../x500distinguishednameflags/)
+* Class [X500DistinguishedName](../)
+* Namespace [System::Security::Cryptography::X509Certificates](../../)
+* Library [Aspose.Slides](../../../)
