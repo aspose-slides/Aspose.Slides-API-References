@@ -42,7 +42,7 @@ Represents series data point.
 | [getDataPointLevels()](#getDataPointLevels--) | Returns container of data point levels. |
 | [getIndex()](#getIndex--) | Determines which of the parent's children collection this data point applies to. |
 | [getParent_Immediate()](#getParent-Immediate--) |  |
-| [getAutomaticDataPointColor()](#getAutomaticDataPointColor--) | Returns an automatic color of data point based on series index, data point index, ParentSeriesGroup.IsColorVaried propery and chart style. |
+| [getAutomaticDataPointColor()](#getAutomaticDataPointColor--) | Returns an automatic color of data point based on series index, data point index, ParentSeriesGroup.IsColorVaried property and chart style. |
 | [getInvertIfNegative()](#getInvertIfNegative--) | Specifies the data point shall invert its colors if the value is negative. |
 | [setInvertIfNegative(boolean value)](#setInvertIfNegative-boolean-) | Specifies the data point shall invert its colors if the value is negative. |
 | [getActualX()](#getActualX--) | Specifies actual x location (left) of the chart element relative to the left top corner of the chart. |
@@ -285,7 +285,7 @@ public final Integer getAutomaticDataPointColor()
 ```
 
 
-Returns an automatic color of data point based on series index, data point index, ParentSeriesGroup.IsColorVaried propery and chart style. This color is used by default if FillType equals NotDefined.
+Returns an automatic color of data point based on series index, data point index, ParentSeriesGroup.IsColorVaried property and chart style. This color is used by default if FillType equals NotDefined.
 
 **Returns:**
 java.lang.Integer

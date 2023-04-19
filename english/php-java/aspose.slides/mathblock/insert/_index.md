@@ -26,25 +26,6 @@ void
 ---
 
 
-## insert(int index, [MathMatrix](../../mathmatrix) item)  method
-
- Inserts a MathElement into the collection at the specified index.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| index | int | The zero-based index at which MathElement should be inserted. |
-| item | [MathMatrix](../../mathmatrix) | The MathElement to insert. |
-
-### Returns
-void
-
-
----
-
-
 ## insert(int index, [MathLimit](../../mathlimit) item)  method
 
  Inserts a MathElement into the collection at the specified index.
@@ -56,6 +37,25 @@ void
 | --- | --- | --- |
 | index | int | The zero-based index at which MathElement should be inserted. |
 | item | [MathLimit](../../mathlimit) | The MathElement to insert. |
+
+### Returns
+void
+
+
+---
+
+
+## insert(int index, [MathMatrix](../../mathmatrix) item)  method
+
+ Inserts a MathElement into the collection at the specified index.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | The zero-based index at which MathElement should be inserted. |
+| item | [MathMatrix](../../mathmatrix) | The MathElement to insert. |
 
 ### Returns
 void
@@ -235,25 +235,6 @@ void
 ---
 
 
-## insert(int index, [MathFunction](../../mathfunction) item)  method
-
- Inserts a MathElement into the collection at the specified index.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| index | int | The zero-based index at which MathElement should be inserted. |
-| item | [MathFunction](../../mathfunction) | The MathElement to insert. |
-
-### Returns
-void
-
-
----
-
-
 ## insert(int index, [MathSuperscriptElement](../../mathsuperscriptelement) item)  method
 
  Inserts a MathElement into the collection at the specified index.
@@ -265,6 +246,25 @@ void
 | --- | --- | --- |
 | index | int | The zero-based index at which MathElement should be inserted. |
 | item | [MathSuperscriptElement](../../mathsuperscriptelement) | The MathElement to insert. |
+
+### Returns
+void
+
+
+---
+
+
+## insert(int index, [MathFunction](../../mathfunction) item)  method
+
+ Inserts a MathElement into the collection at the specified index.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | The zero-based index at which MathElement should be inserted. |
+| item | [MathFunction](../../mathfunction) | The MathElement to insert. |
 
 ### Returns
 void

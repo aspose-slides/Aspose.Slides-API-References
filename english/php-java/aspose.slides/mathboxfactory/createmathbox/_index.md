@@ -25,24 +25,6 @@ url: /php-java/aspose.slides/mathboxfactory/createmathbox/
 ---
 
 
-## createMathBox([MathMatrix](../../mathmatrix) element)  method
-
- Create a math box by applying to the element
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathMatrix](../../mathmatrix) | math element to apply box |
-
-### Returns
-[MathBox](../../mathbox)
-
-
----
-
-
 ## createMathBox([MathLimit](../../mathlimit) element)  method
 
  Create a math box by applying to the element
@@ -53,6 +35,24 @@ url: /php-java/aspose.slides/mathboxfactory/createmathbox/
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathLimit](../../mathlimit) | math element to apply box |
+
+### Returns
+[MathBox](../../mathbox)
+
+
+---
+
+
+## createMathBox([MathMatrix](../../mathmatrix) element)  method
+
+ Create a math box by applying to the element
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathMatrix](../../mathmatrix) | math element to apply box |
 
 ### Returns
 [MathBox](../../mathbox)
@@ -223,24 +223,6 @@ url: /php-java/aspose.slides/mathboxfactory/createmathbox/
 ---
 
 
-## createMathBox([MathFunction](../../mathfunction) element)  method
-
- Create a math box by applying to the element
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathFunction](../../mathfunction) | math element to apply box |
-
-### Returns
-[MathBox](../../mathbox)
-
-
----
-
-
 ## createMathBox([MathSuperscriptElement](../../mathsuperscriptelement) element)  method
 
  Create a math box by applying to the element
@@ -251,6 +233,24 @@ url: /php-java/aspose.slides/mathboxfactory/createmathbox/
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathSuperscriptElement](../../mathsuperscriptelement) | math element to apply box |
+
+### Returns
+[MathBox](../../mathbox)
+
+
+---
+
+
+## createMathBox([MathFunction](../../mathfunction) element)  method
+
+ Create a math box by applying to the element
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathFunction](../../mathfunction) | math element to apply box |
 
 ### Returns
 [MathBox](../../mathbox)

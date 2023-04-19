@@ -161,7 +161,7 @@ public abstract boolean getRepeatUntilEndSlide()
 ```
 
 
-This attribute specifies if the effect will repeat until the end of the slide. Read/write  boolean .
+This attribute specifies if the effect will repeat until the end of the slide. Read/write boolean.
 
 --------------------
 
@@ -187,7 +187,7 @@ public abstract void setRepeatUntilEndSlide(boolean value)
 ```
 
 
-This attribute specifies if the effect will repeat until the end of the slide. Read/write  boolean .
+This attribute specifies if the effect will repeat until the end of the slide. Read/write boolean.
 
 --------------------
 
@@ -242,7 +242,7 @@ public abstract void setRepeatUntilNextClick(boolean value)
 ```
 
 
-This attribute specifies if the effect will repeat until the next click. Read/write  boolean .
+This attribute specifies if the effect will repeat until the next click. Read/write boolean.
 
 --------------------
 
@@ -386,7 +386,7 @@ public abstract boolean getRewind()
 ```
 
 
-This attribute specifies if the effect will rewind when done playing. Read/write  boolean .
+This attribute specifies if the effect will rewind when done playing. Read/write boolean.
 
 --------------------
 
@@ -412,7 +412,7 @@ public abstract void setRewind(boolean value)
 ```
 
 
-This attribute specifies if the effect will rewind when done playing. Read/write  boolean .
+This attribute specifies if the effect will rewind when done playing. Read/write boolean.
 
 --------------------
 

@@ -16,7 +16,7 @@ url: /php-java/aspose.slides/mathfunction/mathfunction/
 ---
 
 
-## MathFunction([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) funcName, [MathMatrix](../../mathmatrix) baseArgument)  constructor
+## MathFunction([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) funcName, [MathLimit](../../mathlimit) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -25,7 +25,7 @@ url: /php-java/aspose.slides/mathfunction/mathfunction/
 ---
 
 
-## MathFunction([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) funcName, [MathLimit](../../mathlimit) baseArgument)  constructor
+## MathFunction([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) funcName, [MathMatrix](../../mathmatrix) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -115,7 +115,7 @@ url: /php-java/aspose.slides/mathfunction/mathfunction/
 ---
 
 
-## MathFunction([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) funcName, [MathFunction](../../mathfunction) baseArgument)  constructor
+## MathFunction([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) funcName, [MathSuperscriptElement](../../mathsuperscriptelement) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -124,7 +124,7 @@ url: /php-java/aspose.slides/mathfunction/mathfunction/
 ---
 
 
-## MathFunction([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) funcName, [MathSuperscriptElement](../../mathsuperscriptelement) baseArgument)  constructor
+## MathFunction([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) funcName, [MathFunction](../../mathfunction) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -178,177 +178,6 @@ url: /php-java/aspose.slides/mathfunction/mathfunction/
 ---
 
 
-## MathFunction([MathMatrix](../../mathmatrix) funcName, [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-
-
----
-
-
-## MathFunction([MathMatrix](../../mathmatrix) funcName, [MathMatrix](../../mathmatrix) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-
-
----
-
-
-## MathFunction([MathMatrix](../../mathmatrix) funcName, [MathLimit](../../mathlimit) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-
-
----
-
-
-## MathFunction([MathMatrix](../../mathmatrix) funcName, [MathBlock](../../mathblock) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-
-
----
-
-
-## MathFunction([MathMatrix](../../mathmatrix) funcName, [MathRadical](../../mathradical) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-
-
----
-
-
-## MathFunction([MathMatrix](../../mathmatrix) funcName, [MathArray](../../matharray) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-
-
----
-
-
-## MathFunction([MathMatrix](../../mathmatrix) funcName, [MathDelimiter](../../mathdelimiter) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-
-
----
-
-
-## MathFunction([MathMatrix](../../mathmatrix) funcName, [MathNaryOperator](../../mathnaryoperator) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-
-
----
-
-
-## MathFunction([MathMatrix](../../mathmatrix) funcName, [MathAccent](../../mathaccent) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-
-
----
-
-
-## MathFunction([MathMatrix](../../mathmatrix) funcName, [MathBorderBox](../../mathborderbox) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-
-
----
-
-
-## MathFunction([MathMatrix](../../mathmatrix) funcName, [MathGroupingCharacter](../../mathgroupingcharacter) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-
-
----
-
-
-## MathFunction([MathMatrix](../../mathmatrix) funcName, [MathBar](../../mathbar) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-
-
----
-
-
-## MathFunction([MathMatrix](../../mathmatrix) funcName, [MathFunction](../../mathfunction) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-
-
----
-
-
-## MathFunction([MathMatrix](../../mathmatrix) funcName, [MathSuperscriptElement](../../mathsuperscriptelement) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-
-
----
-
-
-## MathFunction([MathMatrix](../../mathmatrix) funcName, [MathSubscriptElement](../../mathsubscriptelement) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-
-
----
-
-
-## MathFunction([MathMatrix](../../mathmatrix) funcName, [MathematicalText](../../mathematicaltext) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-
-
----
-
-
-## MathFunction([MathMatrix](../../mathmatrix) funcName, [MathFraction](../../mathfraction) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-
-
----
-
-
-## MathFunction([MathMatrix](../../mathmatrix) funcName, [MathBox](../../mathbox) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-
-
----
-
-
-## MathFunction([MathMatrix](../../mathmatrix) funcName, [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-
-
----
-
-
 ## MathFunction([MathLimit](../../mathlimit) funcName, [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
@@ -358,7 +187,7 @@ url: /php-java/aspose.slides/mathfunction/mathfunction/
 ---
 
 
-## MathFunction([MathLimit](../../mathlimit) funcName, [MathMatrix](../../mathmatrix) baseArgument)  constructor
+## MathFunction([MathLimit](../../mathlimit) funcName, [MathLimit](../../mathlimit) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -367,7 +196,7 @@ url: /php-java/aspose.slides/mathfunction/mathfunction/
 ---
 
 
-## MathFunction([MathLimit](../../mathlimit) funcName, [MathLimit](../../mathlimit) baseArgument)  constructor
+## MathFunction([MathLimit](../../mathlimit) funcName, [MathMatrix](../../mathmatrix) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -457,7 +286,7 @@ url: /php-java/aspose.slides/mathfunction/mathfunction/
 ---
 
 
-## MathFunction([MathLimit](../../mathlimit) funcName, [MathFunction](../../mathfunction) baseArgument)  constructor
+## MathFunction([MathLimit](../../mathlimit) funcName, [MathSuperscriptElement](../../mathsuperscriptelement) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -466,7 +295,7 @@ url: /php-java/aspose.slides/mathfunction/mathfunction/
 ---
 
 
-## MathFunction([MathLimit](../../mathlimit) funcName, [MathSuperscriptElement](../../mathsuperscriptelement) baseArgument)  constructor
+## MathFunction([MathLimit](../../mathlimit) funcName, [MathFunction](../../mathfunction) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -520,6 +349,177 @@ url: /php-java/aspose.slides/mathfunction/mathfunction/
 ---
 
 
+## MathFunction([MathMatrix](../../mathmatrix) funcName, [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) baseArgument)  constructor
+
+ Initializes a new instance of the MathFunction class.
+ 
+
+
+---
+
+
+## MathFunction([MathMatrix](../../mathmatrix) funcName, [MathLimit](../../mathlimit) baseArgument)  constructor
+
+ Initializes a new instance of the MathFunction class.
+ 
+
+
+---
+
+
+## MathFunction([MathMatrix](../../mathmatrix) funcName, [MathMatrix](../../mathmatrix) baseArgument)  constructor
+
+ Initializes a new instance of the MathFunction class.
+ 
+
+
+---
+
+
+## MathFunction([MathMatrix](../../mathmatrix) funcName, [MathBlock](../../mathblock) baseArgument)  constructor
+
+ Initializes a new instance of the MathFunction class.
+ 
+
+
+---
+
+
+## MathFunction([MathMatrix](../../mathmatrix) funcName, [MathRadical](../../mathradical) baseArgument)  constructor
+
+ Initializes a new instance of the MathFunction class.
+ 
+
+
+---
+
+
+## MathFunction([MathMatrix](../../mathmatrix) funcName, [MathArray](../../matharray) baseArgument)  constructor
+
+ Initializes a new instance of the MathFunction class.
+ 
+
+
+---
+
+
+## MathFunction([MathMatrix](../../mathmatrix) funcName, [MathDelimiter](../../mathdelimiter) baseArgument)  constructor
+
+ Initializes a new instance of the MathFunction class.
+ 
+
+
+---
+
+
+## MathFunction([MathMatrix](../../mathmatrix) funcName, [MathNaryOperator](../../mathnaryoperator) baseArgument)  constructor
+
+ Initializes a new instance of the MathFunction class.
+ 
+
+
+---
+
+
+## MathFunction([MathMatrix](../../mathmatrix) funcName, [MathAccent](../../mathaccent) baseArgument)  constructor
+
+ Initializes a new instance of the MathFunction class.
+ 
+
+
+---
+
+
+## MathFunction([MathMatrix](../../mathmatrix) funcName, [MathBorderBox](../../mathborderbox) baseArgument)  constructor
+
+ Initializes a new instance of the MathFunction class.
+ 
+
+
+---
+
+
+## MathFunction([MathMatrix](../../mathmatrix) funcName, [MathGroupingCharacter](../../mathgroupingcharacter) baseArgument)  constructor
+
+ Initializes a new instance of the MathFunction class.
+ 
+
+
+---
+
+
+## MathFunction([MathMatrix](../../mathmatrix) funcName, [MathBar](../../mathbar) baseArgument)  constructor
+
+ Initializes a new instance of the MathFunction class.
+ 
+
+
+---
+
+
+## MathFunction([MathMatrix](../../mathmatrix) funcName, [MathSuperscriptElement](../../mathsuperscriptelement) baseArgument)  constructor
+
+ Initializes a new instance of the MathFunction class.
+ 
+
+
+---
+
+
+## MathFunction([MathMatrix](../../mathmatrix) funcName, [MathFunction](../../mathfunction) baseArgument)  constructor
+
+ Initializes a new instance of the MathFunction class.
+ 
+
+
+---
+
+
+## MathFunction([MathMatrix](../../mathmatrix) funcName, [MathSubscriptElement](../../mathsubscriptelement) baseArgument)  constructor
+
+ Initializes a new instance of the MathFunction class.
+ 
+
+
+---
+
+
+## MathFunction([MathMatrix](../../mathmatrix) funcName, [MathematicalText](../../mathematicaltext) baseArgument)  constructor
+
+ Initializes a new instance of the MathFunction class.
+ 
+
+
+---
+
+
+## MathFunction([MathMatrix](../../mathmatrix) funcName, [MathFraction](../../mathfraction) baseArgument)  constructor
+
+ Initializes a new instance of the MathFunction class.
+ 
+
+
+---
+
+
+## MathFunction([MathMatrix](../../mathmatrix) funcName, [MathBox](../../mathbox) baseArgument)  constructor
+
+ Initializes a new instance of the MathFunction class.
+ 
+
+
+---
+
+
+## MathFunction([MathMatrix](../../mathmatrix) funcName, [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) baseArgument)  constructor
+
+ Initializes a new instance of the MathFunction class.
+ 
+
+
+---
+
+
 ## MathFunction([MathBlock](../../mathblock) funcName, [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
@@ -529,7 +529,7 @@ url: /php-java/aspose.slides/mathfunction/mathfunction/
 ---
 
 
-## MathFunction([MathBlock](../../mathblock) funcName, [MathMatrix](../../mathmatrix) baseArgument)  constructor
+## MathFunction([MathBlock](../../mathblock) funcName, [MathLimit](../../mathlimit) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -538,7 +538,7 @@ url: /php-java/aspose.slides/mathfunction/mathfunction/
 ---
 
 
-## MathFunction([MathBlock](../../mathblock) funcName, [MathLimit](../../mathlimit) baseArgument)  constructor
+## MathFunction([MathBlock](../../mathblock) funcName, [MathMatrix](../../mathmatrix) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -628,7 +628,7 @@ url: /php-java/aspose.slides/mathfunction/mathfunction/
 ---
 
 
-## MathFunction([MathBlock](../../mathblock) funcName, [MathFunction](../../mathfunction) baseArgument)  constructor
+## MathFunction([MathBlock](../../mathblock) funcName, [MathSuperscriptElement](../../mathsuperscriptelement) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -637,7 +637,7 @@ url: /php-java/aspose.slides/mathfunction/mathfunction/
 ---
 
 
-## MathFunction([MathBlock](../../mathblock) funcName, [MathSuperscriptElement](../../mathsuperscriptelement) baseArgument)  constructor
+## MathFunction([MathBlock](../../mathblock) funcName, [MathFunction](../../mathfunction) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -700,7 +700,7 @@ url: /php-java/aspose.slides/mathfunction/mathfunction/
 ---
 
 
-## MathFunction([MathRadical](../../mathradical) funcName, [MathMatrix](../../mathmatrix) baseArgument)  constructor
+## MathFunction([MathRadical](../../mathradical) funcName, [MathLimit](../../mathlimit) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -709,7 +709,7 @@ url: /php-java/aspose.slides/mathfunction/mathfunction/
 ---
 
 
-## MathFunction([MathRadical](../../mathradical) funcName, [MathLimit](../../mathlimit) baseArgument)  constructor
+## MathFunction([MathRadical](../../mathradical) funcName, [MathMatrix](../../mathmatrix) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -799,7 +799,7 @@ url: /php-java/aspose.slides/mathfunction/mathfunction/
 ---
 
 
-## MathFunction([MathRadical](../../mathradical) funcName, [MathFunction](../../mathfunction) baseArgument)  constructor
+## MathFunction([MathRadical](../../mathradical) funcName, [MathSuperscriptElement](../../mathsuperscriptelement) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -808,7 +808,7 @@ url: /php-java/aspose.slides/mathfunction/mathfunction/
 ---
 
 
-## MathFunction([MathRadical](../../mathradical) funcName, [MathSuperscriptElement](../../mathsuperscriptelement) baseArgument)  constructor
+## MathFunction([MathRadical](../../mathradical) funcName, [MathFunction](../../mathfunction) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -871,7 +871,7 @@ url: /php-java/aspose.slides/mathfunction/mathfunction/
 ---
 
 
-## MathFunction([MathArray](../../matharray) funcName, [MathMatrix](../../mathmatrix) baseArgument)  constructor
+## MathFunction([MathArray](../../matharray) funcName, [MathLimit](../../mathlimit) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -880,7 +880,7 @@ url: /php-java/aspose.slides/mathfunction/mathfunction/
 ---
 
 
-## MathFunction([MathArray](../../matharray) funcName, [MathLimit](../../mathlimit) baseArgument)  constructor
+## MathFunction([MathArray](../../matharray) funcName, [MathMatrix](../../mathmatrix) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -970,7 +970,7 @@ url: /php-java/aspose.slides/mathfunction/mathfunction/
 ---
 
 
-## MathFunction([MathArray](../../matharray) funcName, [MathFunction](../../mathfunction) baseArgument)  constructor
+## MathFunction([MathArray](../../matharray) funcName, [MathSuperscriptElement](../../mathsuperscriptelement) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -979,7 +979,7 @@ url: /php-java/aspose.slides/mathfunction/mathfunction/
 ---
 
 
-## MathFunction([MathArray](../../matharray) funcName, [MathSuperscriptElement](../../mathsuperscriptelement) baseArgument)  constructor
+## MathFunction([MathArray](../../matharray) funcName, [MathFunction](../../mathfunction) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -1042,7 +1042,7 @@ url: /php-java/aspose.slides/mathfunction/mathfunction/
 ---
 
 
-## MathFunction([MathDelimiter](../../mathdelimiter) funcName, [MathMatrix](../../mathmatrix) baseArgument)  constructor
+## MathFunction([MathDelimiter](../../mathdelimiter) funcName, [MathLimit](../../mathlimit) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -1051,7 +1051,7 @@ url: /php-java/aspose.slides/mathfunction/mathfunction/
 ---
 
 
-## MathFunction([MathDelimiter](../../mathdelimiter) funcName, [MathLimit](../../mathlimit) baseArgument)  constructor
+## MathFunction([MathDelimiter](../../mathdelimiter) funcName, [MathMatrix](../../mathmatrix) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -1141,7 +1141,7 @@ url: /php-java/aspose.slides/mathfunction/mathfunction/
 ---
 
 
-## MathFunction([MathDelimiter](../../mathdelimiter) funcName, [MathFunction](../../mathfunction) baseArgument)  constructor
+## MathFunction([MathDelimiter](../../mathdelimiter) funcName, [MathSuperscriptElement](../../mathsuperscriptelement) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -1150,7 +1150,7 @@ url: /php-java/aspose.slides/mathfunction/mathfunction/
 ---
 
 
-## MathFunction([MathDelimiter](../../mathdelimiter) funcName, [MathSuperscriptElement](../../mathsuperscriptelement) baseArgument)  constructor
+## MathFunction([MathDelimiter](../../mathdelimiter) funcName, [MathFunction](../../mathfunction) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -1213,7 +1213,7 @@ url: /php-java/aspose.slides/mathfunction/mathfunction/
 ---
 
 
-## MathFunction([MathNaryOperator](../../mathnaryoperator) funcName, [MathMatrix](../../mathmatrix) baseArgument)  constructor
+## MathFunction([MathNaryOperator](../../mathnaryoperator) funcName, [MathLimit](../../mathlimit) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -1222,7 +1222,7 @@ url: /php-java/aspose.slides/mathfunction/mathfunction/
 ---
 
 
-## MathFunction([MathNaryOperator](../../mathnaryoperator) funcName, [MathLimit](../../mathlimit) baseArgument)  constructor
+## MathFunction([MathNaryOperator](../../mathnaryoperator) funcName, [MathMatrix](../../mathmatrix) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -1312,7 +1312,7 @@ url: /php-java/aspose.slides/mathfunction/mathfunction/
 ---
 
 
-## MathFunction([MathNaryOperator](../../mathnaryoperator) funcName, [MathFunction](../../mathfunction) baseArgument)  constructor
+## MathFunction([MathNaryOperator](../../mathnaryoperator) funcName, [MathSuperscriptElement](../../mathsuperscriptelement) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -1321,7 +1321,7 @@ url: /php-java/aspose.slides/mathfunction/mathfunction/
 ---
 
 
-## MathFunction([MathNaryOperator](../../mathnaryoperator) funcName, [MathSuperscriptElement](../../mathsuperscriptelement) baseArgument)  constructor
+## MathFunction([MathNaryOperator](../../mathnaryoperator) funcName, [MathFunction](../../mathfunction) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -1384,7 +1384,7 @@ url: /php-java/aspose.slides/mathfunction/mathfunction/
 ---
 
 
-## MathFunction([MathAccent](../../mathaccent) funcName, [MathMatrix](../../mathmatrix) baseArgument)  constructor
+## MathFunction([MathAccent](../../mathaccent) funcName, [MathLimit](../../mathlimit) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -1393,7 +1393,7 @@ url: /php-java/aspose.slides/mathfunction/mathfunction/
 ---
 
 
-## MathFunction([MathAccent](../../mathaccent) funcName, [MathLimit](../../mathlimit) baseArgument)  constructor
+## MathFunction([MathAccent](../../mathaccent) funcName, [MathMatrix](../../mathmatrix) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -1483,7 +1483,7 @@ url: /php-java/aspose.slides/mathfunction/mathfunction/
 ---
 
 
-## MathFunction([MathAccent](../../mathaccent) funcName, [MathFunction](../../mathfunction) baseArgument)  constructor
+## MathFunction([MathAccent](../../mathaccent) funcName, [MathSuperscriptElement](../../mathsuperscriptelement) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -1492,7 +1492,7 @@ url: /php-java/aspose.slides/mathfunction/mathfunction/
 ---
 
 
-## MathFunction([MathAccent](../../mathaccent) funcName, [MathSuperscriptElement](../../mathsuperscriptelement) baseArgument)  constructor
+## MathFunction([MathAccent](../../mathaccent) funcName, [MathFunction](../../mathfunction) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -1555,7 +1555,7 @@ url: /php-java/aspose.slides/mathfunction/mathfunction/
 ---
 
 
-## MathFunction([MathBorderBox](../../mathborderbox) funcName, [MathMatrix](../../mathmatrix) baseArgument)  constructor
+## MathFunction([MathBorderBox](../../mathborderbox) funcName, [MathLimit](../../mathlimit) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -1564,7 +1564,7 @@ url: /php-java/aspose.slides/mathfunction/mathfunction/
 ---
 
 
-## MathFunction([MathBorderBox](../../mathborderbox) funcName, [MathLimit](../../mathlimit) baseArgument)  constructor
+## MathFunction([MathBorderBox](../../mathborderbox) funcName, [MathMatrix](../../mathmatrix) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -1654,7 +1654,7 @@ url: /php-java/aspose.slides/mathfunction/mathfunction/
 ---
 
 
-## MathFunction([MathBorderBox](../../mathborderbox) funcName, [MathFunction](../../mathfunction) baseArgument)  constructor
+## MathFunction([MathBorderBox](../../mathborderbox) funcName, [MathSuperscriptElement](../../mathsuperscriptelement) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -1663,7 +1663,7 @@ url: /php-java/aspose.slides/mathfunction/mathfunction/
 ---
 
 
-## MathFunction([MathBorderBox](../../mathborderbox) funcName, [MathSuperscriptElement](../../mathsuperscriptelement) baseArgument)  constructor
+## MathFunction([MathBorderBox](../../mathborderbox) funcName, [MathFunction](../../mathfunction) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -1726,7 +1726,7 @@ url: /php-java/aspose.slides/mathfunction/mathfunction/
 ---
 
 
-## MathFunction([MathGroupingCharacter](../../mathgroupingcharacter) funcName, [MathMatrix](../../mathmatrix) baseArgument)  constructor
+## MathFunction([MathGroupingCharacter](../../mathgroupingcharacter) funcName, [MathLimit](../../mathlimit) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -1735,7 +1735,7 @@ url: /php-java/aspose.slides/mathfunction/mathfunction/
 ---
 
 
-## MathFunction([MathGroupingCharacter](../../mathgroupingcharacter) funcName, [MathLimit](../../mathlimit) baseArgument)  constructor
+## MathFunction([MathGroupingCharacter](../../mathgroupingcharacter) funcName, [MathMatrix](../../mathmatrix) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -1825,7 +1825,7 @@ url: /php-java/aspose.slides/mathfunction/mathfunction/
 ---
 
 
-## MathFunction([MathGroupingCharacter](../../mathgroupingcharacter) funcName, [MathFunction](../../mathfunction) baseArgument)  constructor
+## MathFunction([MathGroupingCharacter](../../mathgroupingcharacter) funcName, [MathSuperscriptElement](../../mathsuperscriptelement) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -1834,7 +1834,7 @@ url: /php-java/aspose.slides/mathfunction/mathfunction/
 ---
 
 
-## MathFunction([MathGroupingCharacter](../../mathgroupingcharacter) funcName, [MathSuperscriptElement](../../mathsuperscriptelement) baseArgument)  constructor
+## MathFunction([MathGroupingCharacter](../../mathgroupingcharacter) funcName, [MathFunction](../../mathfunction) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -1897,7 +1897,7 @@ url: /php-java/aspose.slides/mathfunction/mathfunction/
 ---
 
 
-## MathFunction([MathBar](../../mathbar) funcName, [MathMatrix](../../mathmatrix) baseArgument)  constructor
+## MathFunction([MathBar](../../mathbar) funcName, [MathLimit](../../mathlimit) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -1906,7 +1906,7 @@ url: /php-java/aspose.slides/mathfunction/mathfunction/
 ---
 
 
-## MathFunction([MathBar](../../mathbar) funcName, [MathLimit](../../mathlimit) baseArgument)  constructor
+## MathFunction([MathBar](../../mathbar) funcName, [MathMatrix](../../mathmatrix) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -1996,7 +1996,7 @@ url: /php-java/aspose.slides/mathfunction/mathfunction/
 ---
 
 
-## MathFunction([MathBar](../../mathbar) funcName, [MathFunction](../../mathfunction) baseArgument)  constructor
+## MathFunction([MathBar](../../mathbar) funcName, [MathSuperscriptElement](../../mathsuperscriptelement) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -2005,7 +2005,7 @@ url: /php-java/aspose.slides/mathfunction/mathfunction/
 ---
 
 
-## MathFunction([MathBar](../../mathbar) funcName, [MathSuperscriptElement](../../mathsuperscriptelement) baseArgument)  constructor
+## MathFunction([MathBar](../../mathbar) funcName, [MathFunction](../../mathfunction) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -2059,177 +2059,6 @@ url: /php-java/aspose.slides/mathfunction/mathfunction/
 ---
 
 
-## MathFunction([MathFunction](../../mathfunction) funcName, [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-
-
----
-
-
-## MathFunction([MathFunction](../../mathfunction) funcName, [MathMatrix](../../mathmatrix) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-
-
----
-
-
-## MathFunction([MathFunction](../../mathfunction) funcName, [MathLimit](../../mathlimit) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-
-
----
-
-
-## MathFunction([MathFunction](../../mathfunction) funcName, [MathBlock](../../mathblock) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-
-
----
-
-
-## MathFunction([MathFunction](../../mathfunction) funcName, [MathRadical](../../mathradical) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-
-
----
-
-
-## MathFunction([MathFunction](../../mathfunction) funcName, [MathArray](../../matharray) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-
-
----
-
-
-## MathFunction([MathFunction](../../mathfunction) funcName, [MathDelimiter](../../mathdelimiter) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-
-
----
-
-
-## MathFunction([MathFunction](../../mathfunction) funcName, [MathNaryOperator](../../mathnaryoperator) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-
-
----
-
-
-## MathFunction([MathFunction](../../mathfunction) funcName, [MathAccent](../../mathaccent) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-
-
----
-
-
-## MathFunction([MathFunction](../../mathfunction) funcName, [MathBorderBox](../../mathborderbox) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-
-
----
-
-
-## MathFunction([MathFunction](../../mathfunction) funcName, [MathGroupingCharacter](../../mathgroupingcharacter) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-
-
----
-
-
-## MathFunction([MathFunction](../../mathfunction) funcName, [MathBar](../../mathbar) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-
-
----
-
-
-## MathFunction([MathFunction](../../mathfunction) funcName, [MathFunction](../../mathfunction) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-
-
----
-
-
-## MathFunction([MathFunction](../../mathfunction) funcName, [MathSuperscriptElement](../../mathsuperscriptelement) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-
-
----
-
-
-## MathFunction([MathFunction](../../mathfunction) funcName, [MathSubscriptElement](../../mathsubscriptelement) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-
-
----
-
-
-## MathFunction([MathFunction](../../mathfunction) funcName, [MathematicalText](../../mathematicaltext) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-
-
----
-
-
-## MathFunction([MathFunction](../../mathfunction) funcName, [MathFraction](../../mathfraction) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-
-
----
-
-
-## MathFunction([MathFunction](../../mathfunction) funcName, [MathBox](../../mathbox) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-
-
----
-
-
-## MathFunction([MathFunction](../../mathfunction) funcName, [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) baseArgument)  constructor
-
- Initializes a new instance of the MathFunction class.
- 
-
-
----
-
-
 ## MathFunction([MathSuperscriptElement](../../mathsuperscriptelement) funcName, [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
@@ -2239,7 +2068,7 @@ url: /php-java/aspose.slides/mathfunction/mathfunction/
 ---
 
 
-## MathFunction([MathSuperscriptElement](../../mathsuperscriptelement) funcName, [MathMatrix](../../mathmatrix) baseArgument)  constructor
+## MathFunction([MathSuperscriptElement](../../mathsuperscriptelement) funcName, [MathLimit](../../mathlimit) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -2248,7 +2077,7 @@ url: /php-java/aspose.slides/mathfunction/mathfunction/
 ---
 
 
-## MathFunction([MathSuperscriptElement](../../mathsuperscriptelement) funcName, [MathLimit](../../mathlimit) baseArgument)  constructor
+## MathFunction([MathSuperscriptElement](../../mathsuperscriptelement) funcName, [MathMatrix](../../mathmatrix) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -2338,7 +2167,7 @@ url: /php-java/aspose.slides/mathfunction/mathfunction/
 ---
 
 
-## MathFunction([MathSuperscriptElement](../../mathsuperscriptelement) funcName, [MathFunction](../../mathfunction) baseArgument)  constructor
+## MathFunction([MathSuperscriptElement](../../mathsuperscriptelement) funcName, [MathSuperscriptElement](../../mathsuperscriptelement) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -2347,7 +2176,7 @@ url: /php-java/aspose.slides/mathfunction/mathfunction/
 ---
 
 
-## MathFunction([MathSuperscriptElement](../../mathsuperscriptelement) funcName, [MathSuperscriptElement](../../mathsuperscriptelement) baseArgument)  constructor
+## MathFunction([MathSuperscriptElement](../../mathsuperscriptelement) funcName, [MathFunction](../../mathfunction) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -2401,6 +2230,177 @@ url: /php-java/aspose.slides/mathfunction/mathfunction/
 ---
 
 
+## MathFunction([MathFunction](../../mathfunction) funcName, [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) baseArgument)  constructor
+
+ Initializes a new instance of the MathFunction class.
+ 
+
+
+---
+
+
+## MathFunction([MathFunction](../../mathfunction) funcName, [MathLimit](../../mathlimit) baseArgument)  constructor
+
+ Initializes a new instance of the MathFunction class.
+ 
+
+
+---
+
+
+## MathFunction([MathFunction](../../mathfunction) funcName, [MathMatrix](../../mathmatrix) baseArgument)  constructor
+
+ Initializes a new instance of the MathFunction class.
+ 
+
+
+---
+
+
+## MathFunction([MathFunction](../../mathfunction) funcName, [MathBlock](../../mathblock) baseArgument)  constructor
+
+ Initializes a new instance of the MathFunction class.
+ 
+
+
+---
+
+
+## MathFunction([MathFunction](../../mathfunction) funcName, [MathRadical](../../mathradical) baseArgument)  constructor
+
+ Initializes a new instance of the MathFunction class.
+ 
+
+
+---
+
+
+## MathFunction([MathFunction](../../mathfunction) funcName, [MathArray](../../matharray) baseArgument)  constructor
+
+ Initializes a new instance of the MathFunction class.
+ 
+
+
+---
+
+
+## MathFunction([MathFunction](../../mathfunction) funcName, [MathDelimiter](../../mathdelimiter) baseArgument)  constructor
+
+ Initializes a new instance of the MathFunction class.
+ 
+
+
+---
+
+
+## MathFunction([MathFunction](../../mathfunction) funcName, [MathNaryOperator](../../mathnaryoperator) baseArgument)  constructor
+
+ Initializes a new instance of the MathFunction class.
+ 
+
+
+---
+
+
+## MathFunction([MathFunction](../../mathfunction) funcName, [MathAccent](../../mathaccent) baseArgument)  constructor
+
+ Initializes a new instance of the MathFunction class.
+ 
+
+
+---
+
+
+## MathFunction([MathFunction](../../mathfunction) funcName, [MathBorderBox](../../mathborderbox) baseArgument)  constructor
+
+ Initializes a new instance of the MathFunction class.
+ 
+
+
+---
+
+
+## MathFunction([MathFunction](../../mathfunction) funcName, [MathGroupingCharacter](../../mathgroupingcharacter) baseArgument)  constructor
+
+ Initializes a new instance of the MathFunction class.
+ 
+
+
+---
+
+
+## MathFunction([MathFunction](../../mathfunction) funcName, [MathBar](../../mathbar) baseArgument)  constructor
+
+ Initializes a new instance of the MathFunction class.
+ 
+
+
+---
+
+
+## MathFunction([MathFunction](../../mathfunction) funcName, [MathSuperscriptElement](../../mathsuperscriptelement) baseArgument)  constructor
+
+ Initializes a new instance of the MathFunction class.
+ 
+
+
+---
+
+
+## MathFunction([MathFunction](../../mathfunction) funcName, [MathFunction](../../mathfunction) baseArgument)  constructor
+
+ Initializes a new instance of the MathFunction class.
+ 
+
+
+---
+
+
+## MathFunction([MathFunction](../../mathfunction) funcName, [MathSubscriptElement](../../mathsubscriptelement) baseArgument)  constructor
+
+ Initializes a new instance of the MathFunction class.
+ 
+
+
+---
+
+
+## MathFunction([MathFunction](../../mathfunction) funcName, [MathematicalText](../../mathematicaltext) baseArgument)  constructor
+
+ Initializes a new instance of the MathFunction class.
+ 
+
+
+---
+
+
+## MathFunction([MathFunction](../../mathfunction) funcName, [MathFraction](../../mathfraction) baseArgument)  constructor
+
+ Initializes a new instance of the MathFunction class.
+ 
+
+
+---
+
+
+## MathFunction([MathFunction](../../mathfunction) funcName, [MathBox](../../mathbox) baseArgument)  constructor
+
+ Initializes a new instance of the MathFunction class.
+ 
+
+
+---
+
+
+## MathFunction([MathFunction](../../mathfunction) funcName, [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) baseArgument)  constructor
+
+ Initializes a new instance of the MathFunction class.
+ 
+
+
+---
+
+
 ## MathFunction([MathSubscriptElement](../../mathsubscriptelement) funcName, [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
@@ -2410,7 +2410,7 @@ url: /php-java/aspose.slides/mathfunction/mathfunction/
 ---
 
 
-## MathFunction([MathSubscriptElement](../../mathsubscriptelement) funcName, [MathMatrix](../../mathmatrix) baseArgument)  constructor
+## MathFunction([MathSubscriptElement](../../mathsubscriptelement) funcName, [MathLimit](../../mathlimit) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -2419,7 +2419,7 @@ url: /php-java/aspose.slides/mathfunction/mathfunction/
 ---
 
 
-## MathFunction([MathSubscriptElement](../../mathsubscriptelement) funcName, [MathLimit](../../mathlimit) baseArgument)  constructor
+## MathFunction([MathSubscriptElement](../../mathsubscriptelement) funcName, [MathMatrix](../../mathmatrix) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -2509,7 +2509,7 @@ url: /php-java/aspose.slides/mathfunction/mathfunction/
 ---
 
 
-## MathFunction([MathSubscriptElement](../../mathsubscriptelement) funcName, [MathFunction](../../mathfunction) baseArgument)  constructor
+## MathFunction([MathSubscriptElement](../../mathsubscriptelement) funcName, [MathSuperscriptElement](../../mathsuperscriptelement) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -2518,7 +2518,7 @@ url: /php-java/aspose.slides/mathfunction/mathfunction/
 ---
 
 
-## MathFunction([MathSubscriptElement](../../mathsubscriptelement) funcName, [MathSuperscriptElement](../../mathsuperscriptelement) baseArgument)  constructor
+## MathFunction([MathSubscriptElement](../../mathsubscriptelement) funcName, [MathFunction](../../mathfunction) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -2581,7 +2581,7 @@ url: /php-java/aspose.slides/mathfunction/mathfunction/
 ---
 
 
-## MathFunction([MathematicalText](../../mathematicaltext) funcName, [MathMatrix](../../mathmatrix) baseArgument)  constructor
+## MathFunction([MathematicalText](../../mathematicaltext) funcName, [MathLimit](../../mathlimit) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -2590,7 +2590,7 @@ url: /php-java/aspose.slides/mathfunction/mathfunction/
 ---
 
 
-## MathFunction([MathematicalText](../../mathematicaltext) funcName, [MathLimit](../../mathlimit) baseArgument)  constructor
+## MathFunction([MathematicalText](../../mathematicaltext) funcName, [MathMatrix](../../mathmatrix) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -2680,7 +2680,7 @@ url: /php-java/aspose.slides/mathfunction/mathfunction/
 ---
 
 
-## MathFunction([MathematicalText](../../mathematicaltext) funcName, [MathFunction](../../mathfunction) baseArgument)  constructor
+## MathFunction([MathematicalText](../../mathematicaltext) funcName, [MathSuperscriptElement](../../mathsuperscriptelement) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -2689,7 +2689,7 @@ url: /php-java/aspose.slides/mathfunction/mathfunction/
 ---
 
 
-## MathFunction([MathematicalText](../../mathematicaltext) funcName, [MathSuperscriptElement](../../mathsuperscriptelement) baseArgument)  constructor
+## MathFunction([MathematicalText](../../mathematicaltext) funcName, [MathFunction](../../mathfunction) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -2752,7 +2752,7 @@ url: /php-java/aspose.slides/mathfunction/mathfunction/
 ---
 
 
-## MathFunction([MathFraction](../../mathfraction) funcName, [MathMatrix](../../mathmatrix) baseArgument)  constructor
+## MathFunction([MathFraction](../../mathfraction) funcName, [MathLimit](../../mathlimit) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -2761,7 +2761,7 @@ url: /php-java/aspose.slides/mathfunction/mathfunction/
 ---
 
 
-## MathFunction([MathFraction](../../mathfraction) funcName, [MathLimit](../../mathlimit) baseArgument)  constructor
+## MathFunction([MathFraction](../../mathfraction) funcName, [MathMatrix](../../mathmatrix) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -2851,7 +2851,7 @@ url: /php-java/aspose.slides/mathfunction/mathfunction/
 ---
 
 
-## MathFunction([MathFraction](../../mathfraction) funcName, [MathFunction](../../mathfunction) baseArgument)  constructor
+## MathFunction([MathFraction](../../mathfraction) funcName, [MathSuperscriptElement](../../mathsuperscriptelement) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -2860,7 +2860,7 @@ url: /php-java/aspose.slides/mathfunction/mathfunction/
 ---
 
 
-## MathFunction([MathFraction](../../mathfraction) funcName, [MathSuperscriptElement](../../mathsuperscriptelement) baseArgument)  constructor
+## MathFunction([MathFraction](../../mathfraction) funcName, [MathFunction](../../mathfunction) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -2923,7 +2923,7 @@ url: /php-java/aspose.slides/mathfunction/mathfunction/
 ---
 
 
-## MathFunction([MathBox](../../mathbox) funcName, [MathMatrix](../../mathmatrix) baseArgument)  constructor
+## MathFunction([MathBox](../../mathbox) funcName, [MathLimit](../../mathlimit) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -2932,7 +2932,7 @@ url: /php-java/aspose.slides/mathfunction/mathfunction/
 ---
 
 
-## MathFunction([MathBox](../../mathbox) funcName, [MathLimit](../../mathlimit) baseArgument)  constructor
+## MathFunction([MathBox](../../mathbox) funcName, [MathMatrix](../../mathmatrix) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -3022,7 +3022,7 @@ url: /php-java/aspose.slides/mathfunction/mathfunction/
 ---
 
 
-## MathFunction([MathBox](../../mathbox) funcName, [MathFunction](../../mathfunction) baseArgument)  constructor
+## MathFunction([MathBox](../../mathbox) funcName, [MathSuperscriptElement](../../mathsuperscriptelement) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -3031,7 +3031,7 @@ url: /php-java/aspose.slides/mathfunction/mathfunction/
 ---
 
 
-## MathFunction([MathBox](../../mathbox) funcName, [MathSuperscriptElement](../../mathsuperscriptelement) baseArgument)  constructor
+## MathFunction([MathBox](../../mathbox) funcName, [MathFunction](../../mathfunction) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -3094,7 +3094,7 @@ url: /php-java/aspose.slides/mathfunction/mathfunction/
 ---
 
 
-## MathFunction([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) funcName, [MathMatrix](../../mathmatrix) baseArgument)  constructor
+## MathFunction([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) funcName, [MathLimit](../../mathlimit) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -3103,7 +3103,7 @@ url: /php-java/aspose.slides/mathfunction/mathfunction/
 ---
 
 
-## MathFunction([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) funcName, [MathLimit](../../mathlimit) baseArgument)  constructor
+## MathFunction([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) funcName, [MathMatrix](../../mathmatrix) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -3193,7 +3193,7 @@ url: /php-java/aspose.slides/mathfunction/mathfunction/
 ---
 
 
-## MathFunction([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) funcName, [MathFunction](../../mathfunction) baseArgument)  constructor
+## MathFunction([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) funcName, [MathSuperscriptElement](../../mathsuperscriptelement) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -3202,7 +3202,7 @@ url: /php-java/aspose.slides/mathfunction/mathfunction/
 ---
 
 
-## MathFunction([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) funcName, [MathSuperscriptElement](../../mathsuperscriptelement) baseArgument)  constructor
+## MathFunction([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) funcName, [MathFunction](../../mathfunction) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -3265,7 +3265,7 @@ url: /php-java/aspose.slides/mathfunction/mathfunction/
 ---
 
 
-## MathFunction(String funcName, [MathMatrix](../../mathmatrix) baseArgument)  constructor
+## MathFunction(String funcName, [MathLimit](../../mathlimit) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -3274,7 +3274,7 @@ url: /php-java/aspose.slides/mathfunction/mathfunction/
 ---
 
 
-## MathFunction(String funcName, [MathLimit](../../mathlimit) baseArgument)  constructor
+## MathFunction(String funcName, [MathMatrix](../../mathmatrix) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -3364,7 +3364,7 @@ url: /php-java/aspose.slides/mathfunction/mathfunction/
 ---
 
 
-## MathFunction(String funcName, [MathFunction](../../mathfunction) baseArgument)  constructor
+## MathFunction(String funcName, [MathSuperscriptElement](../../mathsuperscriptelement) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  
@@ -3373,7 +3373,7 @@ url: /php-java/aspose.slides/mathfunction/mathfunction/
 ---
 
 
-## MathFunction(String funcName, [MathSuperscriptElement](../../mathsuperscriptelement) baseArgument)  constructor
+## MathFunction(String funcName, [MathFunction](../../mathfunction) baseArgument)  constructor
 
  Initializes a new instance of the MathFunction class.
  

@@ -22,21 +22,6 @@ url: /php-java/aspose.slides/matharray/matharray/
 ---
 
 
-## MathArray([MathMatrix](../../mathmatrix) element)  constructor
-
- Creates a mathematical array and places the specified element in it
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathMatrix](../../mathmatrix) | The element to place in the array |
-
-
----
-
-
 ## MathArray([MathLimit](../../mathlimit) element)  constructor
 
  Creates a mathematical array and places the specified element in it
@@ -47,6 +32,21 @@ url: /php-java/aspose.slides/matharray/matharray/
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathLimit](../../mathlimit) | The element to place in the array |
+
+
+---
+
+
+## MathArray([MathMatrix](../../mathmatrix) element)  constructor
+
+ Creates a mathematical array and places the specified element in it
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathMatrix](../../mathmatrix) | The element to place in the array |
 
 
 ---
@@ -187,21 +187,6 @@ url: /php-java/aspose.slides/matharray/matharray/
 ---
 
 
-## MathArray([MathFunction](../../mathfunction) element)  constructor
-
- Creates a mathematical array and places the specified element in it
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathFunction](../../mathfunction) | The element to place in the array |
-
-
----
-
-
 ## MathArray([MathSuperscriptElement](../../mathsuperscriptelement) element)  constructor
 
  Creates a mathematical array and places the specified element in it
@@ -212,6 +197,21 @@ url: /php-java/aspose.slides/matharray/matharray/
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathSuperscriptElement](../../mathsuperscriptelement) | The element to place in the array |
+
+
+---
+
+
+## MathArray([MathFunction](../../mathfunction) element)  constructor
+
+ Creates a mathematical array and places the specified element in it
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathFunction](../../mathfunction) | The element to place in the array |
 
 
 ---

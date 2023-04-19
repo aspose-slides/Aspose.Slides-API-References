@@ -16,7 +16,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) baseArg, [MathMatrix](../../mathmatrix) limit, boolean upperLimit)  constructor
+## MathLimit([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) baseArg, [MathLimit](../../mathlimit) limit, boolean upperLimit)  constructor
 
  Initializes a new instance of the MathLimit class.
  
@@ -25,7 +25,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) baseArg, [MathLimit](../../mathlimit) limit, boolean upperLimit)  constructor
+## MathLimit([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) baseArg, [MathMatrix](../../mathmatrix) limit, boolean upperLimit)  constructor
 
  Initializes a new instance of the MathLimit class.
  
@@ -115,7 +115,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) baseArg, [MathFunction](../../mathfunction) limit, boolean upperLimit)  constructor
+## MathLimit([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) baseArg, [MathSuperscriptElement](../../mathsuperscriptelement) limit, boolean upperLimit)  constructor
 
  Initializes a new instance of the MathLimit class.
  
@@ -124,7 +124,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) baseArg, [MathSuperscriptElement](../../mathsuperscriptelement) limit, boolean upperLimit)  constructor
+## MathLimit([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) baseArg, [MathFunction](../../mathfunction) limit, boolean upperLimit)  constructor
 
  Initializes a new instance of the MathLimit class.
  
@@ -178,177 +178,6 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathMatrix](../../mathmatrix) baseArg, [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) limit, boolean upperLimit)  constructor
-
- Initializes a new instance of the MathLimit class.
- 
-
-
----
-
-
-## MathLimit([MathMatrix](../../mathmatrix) baseArg, [MathMatrix](../../mathmatrix) limit, boolean upperLimit)  constructor
-
- Initializes a new instance of the MathLimit class.
- 
-
-
----
-
-
-## MathLimit([MathMatrix](../../mathmatrix) baseArg, [MathLimit](../../mathlimit) limit, boolean upperLimit)  constructor
-
- Initializes a new instance of the MathLimit class.
- 
-
-
----
-
-
-## MathLimit([MathMatrix](../../mathmatrix) baseArg, [MathBlock](../../mathblock) limit, boolean upperLimit)  constructor
-
- Initializes a new instance of the MathLimit class.
- 
-
-
----
-
-
-## MathLimit([MathMatrix](../../mathmatrix) baseArg, [MathRadical](../../mathradical) limit, boolean upperLimit)  constructor
-
- Initializes a new instance of the MathLimit class.
- 
-
-
----
-
-
-## MathLimit([MathMatrix](../../mathmatrix) baseArg, [MathArray](../../matharray) limit, boolean upperLimit)  constructor
-
- Initializes a new instance of the MathLimit class.
- 
-
-
----
-
-
-## MathLimit([MathMatrix](../../mathmatrix) baseArg, [MathDelimiter](../../mathdelimiter) limit, boolean upperLimit)  constructor
-
- Initializes a new instance of the MathLimit class.
- 
-
-
----
-
-
-## MathLimit([MathMatrix](../../mathmatrix) baseArg, [MathNaryOperator](../../mathnaryoperator) limit, boolean upperLimit)  constructor
-
- Initializes a new instance of the MathLimit class.
- 
-
-
----
-
-
-## MathLimit([MathMatrix](../../mathmatrix) baseArg, [MathAccent](../../mathaccent) limit, boolean upperLimit)  constructor
-
- Initializes a new instance of the MathLimit class.
- 
-
-
----
-
-
-## MathLimit([MathMatrix](../../mathmatrix) baseArg, [MathBorderBox](../../mathborderbox) limit, boolean upperLimit)  constructor
-
- Initializes a new instance of the MathLimit class.
- 
-
-
----
-
-
-## MathLimit([MathMatrix](../../mathmatrix) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) limit, boolean upperLimit)  constructor
-
- Initializes a new instance of the MathLimit class.
- 
-
-
----
-
-
-## MathLimit([MathMatrix](../../mathmatrix) baseArg, [MathBar](../../mathbar) limit, boolean upperLimit)  constructor
-
- Initializes a new instance of the MathLimit class.
- 
-
-
----
-
-
-## MathLimit([MathMatrix](../../mathmatrix) baseArg, [MathFunction](../../mathfunction) limit, boolean upperLimit)  constructor
-
- Initializes a new instance of the MathLimit class.
- 
-
-
----
-
-
-## MathLimit([MathMatrix](../../mathmatrix) baseArg, [MathSuperscriptElement](../../mathsuperscriptelement) limit, boolean upperLimit)  constructor
-
- Initializes a new instance of the MathLimit class.
- 
-
-
----
-
-
-## MathLimit([MathMatrix](../../mathmatrix) baseArg, [MathSubscriptElement](../../mathsubscriptelement) limit, boolean upperLimit)  constructor
-
- Initializes a new instance of the MathLimit class.
- 
-
-
----
-
-
-## MathLimit([MathMatrix](../../mathmatrix) baseArg, [MathematicalText](../../mathematicaltext) limit, boolean upperLimit)  constructor
-
- Initializes a new instance of the MathLimit class.
- 
-
-
----
-
-
-## MathLimit([MathMatrix](../../mathmatrix) baseArg, [MathFraction](../../mathfraction) limit, boolean upperLimit)  constructor
-
- Initializes a new instance of the MathLimit class.
- 
-
-
----
-
-
-## MathLimit([MathMatrix](../../mathmatrix) baseArg, [MathBox](../../mathbox) limit, boolean upperLimit)  constructor
-
- Initializes a new instance of the MathLimit class.
- 
-
-
----
-
-
-## MathLimit([MathMatrix](../../mathmatrix) baseArg, [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) limit, boolean upperLimit)  constructor
-
- Initializes a new instance of the MathLimit class.
- 
-
-
----
-
-
 ## MathLimit([MathLimit](../../mathlimit) baseArg, [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) limit, boolean upperLimit)  constructor
 
  Initializes a new instance of the MathLimit class.
@@ -358,7 +187,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathLimit](../../mathlimit) baseArg, [MathMatrix](../../mathmatrix) limit, boolean upperLimit)  constructor
+## MathLimit([MathLimit](../../mathlimit) baseArg, [MathLimit](../../mathlimit) limit, boolean upperLimit)  constructor
 
  Initializes a new instance of the MathLimit class.
  
@@ -367,7 +196,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathLimit](../../mathlimit) baseArg, [MathLimit](../../mathlimit) limit, boolean upperLimit)  constructor
+## MathLimit([MathLimit](../../mathlimit) baseArg, [MathMatrix](../../mathmatrix) limit, boolean upperLimit)  constructor
 
  Initializes a new instance of the MathLimit class.
  
@@ -457,7 +286,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathLimit](../../mathlimit) baseArg, [MathFunction](../../mathfunction) limit, boolean upperLimit)  constructor
+## MathLimit([MathLimit](../../mathlimit) baseArg, [MathSuperscriptElement](../../mathsuperscriptelement) limit, boolean upperLimit)  constructor
 
  Initializes a new instance of the MathLimit class.
  
@@ -466,7 +295,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathLimit](../../mathlimit) baseArg, [MathSuperscriptElement](../../mathsuperscriptelement) limit, boolean upperLimit)  constructor
+## MathLimit([MathLimit](../../mathlimit) baseArg, [MathFunction](../../mathfunction) limit, boolean upperLimit)  constructor
 
  Initializes a new instance of the MathLimit class.
  
@@ -520,6 +349,177 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
+## MathLimit([MathMatrix](../../mathmatrix) baseArg, [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) limit, boolean upperLimit)  constructor
+
+ Initializes a new instance of the MathLimit class.
+ 
+
+
+---
+
+
+## MathLimit([MathMatrix](../../mathmatrix) baseArg, [MathLimit](../../mathlimit) limit, boolean upperLimit)  constructor
+
+ Initializes a new instance of the MathLimit class.
+ 
+
+
+---
+
+
+## MathLimit([MathMatrix](../../mathmatrix) baseArg, [MathMatrix](../../mathmatrix) limit, boolean upperLimit)  constructor
+
+ Initializes a new instance of the MathLimit class.
+ 
+
+
+---
+
+
+## MathLimit([MathMatrix](../../mathmatrix) baseArg, [MathBlock](../../mathblock) limit, boolean upperLimit)  constructor
+
+ Initializes a new instance of the MathLimit class.
+ 
+
+
+---
+
+
+## MathLimit([MathMatrix](../../mathmatrix) baseArg, [MathRadical](../../mathradical) limit, boolean upperLimit)  constructor
+
+ Initializes a new instance of the MathLimit class.
+ 
+
+
+---
+
+
+## MathLimit([MathMatrix](../../mathmatrix) baseArg, [MathArray](../../matharray) limit, boolean upperLimit)  constructor
+
+ Initializes a new instance of the MathLimit class.
+ 
+
+
+---
+
+
+## MathLimit([MathMatrix](../../mathmatrix) baseArg, [MathDelimiter](../../mathdelimiter) limit, boolean upperLimit)  constructor
+
+ Initializes a new instance of the MathLimit class.
+ 
+
+
+---
+
+
+## MathLimit([MathMatrix](../../mathmatrix) baseArg, [MathNaryOperator](../../mathnaryoperator) limit, boolean upperLimit)  constructor
+
+ Initializes a new instance of the MathLimit class.
+ 
+
+
+---
+
+
+## MathLimit([MathMatrix](../../mathmatrix) baseArg, [MathAccent](../../mathaccent) limit, boolean upperLimit)  constructor
+
+ Initializes a new instance of the MathLimit class.
+ 
+
+
+---
+
+
+## MathLimit([MathMatrix](../../mathmatrix) baseArg, [MathBorderBox](../../mathborderbox) limit, boolean upperLimit)  constructor
+
+ Initializes a new instance of the MathLimit class.
+ 
+
+
+---
+
+
+## MathLimit([MathMatrix](../../mathmatrix) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) limit, boolean upperLimit)  constructor
+
+ Initializes a new instance of the MathLimit class.
+ 
+
+
+---
+
+
+## MathLimit([MathMatrix](../../mathmatrix) baseArg, [MathBar](../../mathbar) limit, boolean upperLimit)  constructor
+
+ Initializes a new instance of the MathLimit class.
+ 
+
+
+---
+
+
+## MathLimit([MathMatrix](../../mathmatrix) baseArg, [MathSuperscriptElement](../../mathsuperscriptelement) limit, boolean upperLimit)  constructor
+
+ Initializes a new instance of the MathLimit class.
+ 
+
+
+---
+
+
+## MathLimit([MathMatrix](../../mathmatrix) baseArg, [MathFunction](../../mathfunction) limit, boolean upperLimit)  constructor
+
+ Initializes a new instance of the MathLimit class.
+ 
+
+
+---
+
+
+## MathLimit([MathMatrix](../../mathmatrix) baseArg, [MathSubscriptElement](../../mathsubscriptelement) limit, boolean upperLimit)  constructor
+
+ Initializes a new instance of the MathLimit class.
+ 
+
+
+---
+
+
+## MathLimit([MathMatrix](../../mathmatrix) baseArg, [MathematicalText](../../mathematicaltext) limit, boolean upperLimit)  constructor
+
+ Initializes a new instance of the MathLimit class.
+ 
+
+
+---
+
+
+## MathLimit([MathMatrix](../../mathmatrix) baseArg, [MathFraction](../../mathfraction) limit, boolean upperLimit)  constructor
+
+ Initializes a new instance of the MathLimit class.
+ 
+
+
+---
+
+
+## MathLimit([MathMatrix](../../mathmatrix) baseArg, [MathBox](../../mathbox) limit, boolean upperLimit)  constructor
+
+ Initializes a new instance of the MathLimit class.
+ 
+
+
+---
+
+
+## MathLimit([MathMatrix](../../mathmatrix) baseArg, [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) limit, boolean upperLimit)  constructor
+
+ Initializes a new instance of the MathLimit class.
+ 
+
+
+---
+
+
 ## MathLimit([MathBlock](../../mathblock) baseArg, [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) limit, boolean upperLimit)  constructor
 
  Initializes a new instance of the MathLimit class.
@@ -529,7 +529,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathBlock](../../mathblock) baseArg, [MathMatrix](../../mathmatrix) limit, boolean upperLimit)  constructor
+## MathLimit([MathBlock](../../mathblock) baseArg, [MathLimit](../../mathlimit) limit, boolean upperLimit)  constructor
 
  Initializes a new instance of the MathLimit class.
  
@@ -538,7 +538,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathBlock](../../mathblock) baseArg, [MathLimit](../../mathlimit) limit, boolean upperLimit)  constructor
+## MathLimit([MathBlock](../../mathblock) baseArg, [MathMatrix](../../mathmatrix) limit, boolean upperLimit)  constructor
 
  Initializes a new instance of the MathLimit class.
  
@@ -628,7 +628,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathBlock](../../mathblock) baseArg, [MathFunction](../../mathfunction) limit, boolean upperLimit)  constructor
+## MathLimit([MathBlock](../../mathblock) baseArg, [MathSuperscriptElement](../../mathsuperscriptelement) limit, boolean upperLimit)  constructor
 
  Initializes a new instance of the MathLimit class.
  
@@ -637,7 +637,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathBlock](../../mathblock) baseArg, [MathSuperscriptElement](../../mathsuperscriptelement) limit, boolean upperLimit)  constructor
+## MathLimit([MathBlock](../../mathblock) baseArg, [MathFunction](../../mathfunction) limit, boolean upperLimit)  constructor
 
  Initializes a new instance of the MathLimit class.
  
@@ -700,7 +700,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathRadical](../../mathradical) baseArg, [MathMatrix](../../mathmatrix) limit, boolean upperLimit)  constructor
+## MathLimit([MathRadical](../../mathradical) baseArg, [MathLimit](../../mathlimit) limit, boolean upperLimit)  constructor
 
  Initializes a new instance of the MathLimit class.
  
@@ -709,7 +709,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathRadical](../../mathradical) baseArg, [MathLimit](../../mathlimit) limit, boolean upperLimit)  constructor
+## MathLimit([MathRadical](../../mathradical) baseArg, [MathMatrix](../../mathmatrix) limit, boolean upperLimit)  constructor
 
  Initializes a new instance of the MathLimit class.
  
@@ -799,7 +799,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathRadical](../../mathradical) baseArg, [MathFunction](../../mathfunction) limit, boolean upperLimit)  constructor
+## MathLimit([MathRadical](../../mathradical) baseArg, [MathSuperscriptElement](../../mathsuperscriptelement) limit, boolean upperLimit)  constructor
 
  Initializes a new instance of the MathLimit class.
  
@@ -808,7 +808,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathRadical](../../mathradical) baseArg, [MathSuperscriptElement](../../mathsuperscriptelement) limit, boolean upperLimit)  constructor
+## MathLimit([MathRadical](../../mathradical) baseArg, [MathFunction](../../mathfunction) limit, boolean upperLimit)  constructor
 
  Initializes a new instance of the MathLimit class.
  
@@ -871,7 +871,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathArray](../../matharray) baseArg, [MathMatrix](../../mathmatrix) limit, boolean upperLimit)  constructor
+## MathLimit([MathArray](../../matharray) baseArg, [MathLimit](../../mathlimit) limit, boolean upperLimit)  constructor
 
  Initializes a new instance of the MathLimit class.
  
@@ -880,7 +880,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathArray](../../matharray) baseArg, [MathLimit](../../mathlimit) limit, boolean upperLimit)  constructor
+## MathLimit([MathArray](../../matharray) baseArg, [MathMatrix](../../mathmatrix) limit, boolean upperLimit)  constructor
 
  Initializes a new instance of the MathLimit class.
  
@@ -970,7 +970,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathArray](../../matharray) baseArg, [MathFunction](../../mathfunction) limit, boolean upperLimit)  constructor
+## MathLimit([MathArray](../../matharray) baseArg, [MathSuperscriptElement](../../mathsuperscriptelement) limit, boolean upperLimit)  constructor
 
  Initializes a new instance of the MathLimit class.
  
@@ -979,7 +979,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathArray](../../matharray) baseArg, [MathSuperscriptElement](../../mathsuperscriptelement) limit, boolean upperLimit)  constructor
+## MathLimit([MathArray](../../matharray) baseArg, [MathFunction](../../mathfunction) limit, boolean upperLimit)  constructor
 
  Initializes a new instance of the MathLimit class.
  
@@ -1042,7 +1042,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathDelimiter](../../mathdelimiter) baseArg, [MathMatrix](../../mathmatrix) limit, boolean upperLimit)  constructor
+## MathLimit([MathDelimiter](../../mathdelimiter) baseArg, [MathLimit](../../mathlimit) limit, boolean upperLimit)  constructor
 
  Initializes a new instance of the MathLimit class.
  
@@ -1051,7 +1051,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathDelimiter](../../mathdelimiter) baseArg, [MathLimit](../../mathlimit) limit, boolean upperLimit)  constructor
+## MathLimit([MathDelimiter](../../mathdelimiter) baseArg, [MathMatrix](../../mathmatrix) limit, boolean upperLimit)  constructor
 
  Initializes a new instance of the MathLimit class.
  
@@ -1141,7 +1141,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathDelimiter](../../mathdelimiter) baseArg, [MathFunction](../../mathfunction) limit, boolean upperLimit)  constructor
+## MathLimit([MathDelimiter](../../mathdelimiter) baseArg, [MathSuperscriptElement](../../mathsuperscriptelement) limit, boolean upperLimit)  constructor
 
  Initializes a new instance of the MathLimit class.
  
@@ -1150,7 +1150,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathDelimiter](../../mathdelimiter) baseArg, [MathSuperscriptElement](../../mathsuperscriptelement) limit, boolean upperLimit)  constructor
+## MathLimit([MathDelimiter](../../mathdelimiter) baseArg, [MathFunction](../../mathfunction) limit, boolean upperLimit)  constructor
 
  Initializes a new instance of the MathLimit class.
  
@@ -1213,7 +1213,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathNaryOperator](../../mathnaryoperator) baseArg, [MathMatrix](../../mathmatrix) limit, boolean upperLimit)  constructor
+## MathLimit([MathNaryOperator](../../mathnaryoperator) baseArg, [MathLimit](../../mathlimit) limit, boolean upperLimit)  constructor
 
  Initializes a new instance of the MathLimit class.
  
@@ -1222,7 +1222,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathNaryOperator](../../mathnaryoperator) baseArg, [MathLimit](../../mathlimit) limit, boolean upperLimit)  constructor
+## MathLimit([MathNaryOperator](../../mathnaryoperator) baseArg, [MathMatrix](../../mathmatrix) limit, boolean upperLimit)  constructor
 
  Initializes a new instance of the MathLimit class.
  
@@ -1312,7 +1312,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathNaryOperator](../../mathnaryoperator) baseArg, [MathFunction](../../mathfunction) limit, boolean upperLimit)  constructor
+## MathLimit([MathNaryOperator](../../mathnaryoperator) baseArg, [MathSuperscriptElement](../../mathsuperscriptelement) limit, boolean upperLimit)  constructor
 
  Initializes a new instance of the MathLimit class.
  
@@ -1321,7 +1321,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathNaryOperator](../../mathnaryoperator) baseArg, [MathSuperscriptElement](../../mathsuperscriptelement) limit, boolean upperLimit)  constructor
+## MathLimit([MathNaryOperator](../../mathnaryoperator) baseArg, [MathFunction](../../mathfunction) limit, boolean upperLimit)  constructor
 
  Initializes a new instance of the MathLimit class.
  
@@ -1384,7 +1384,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathAccent](../../mathaccent) baseArg, [MathMatrix](../../mathmatrix) limit, boolean upperLimit)  constructor
+## MathLimit([MathAccent](../../mathaccent) baseArg, [MathLimit](../../mathlimit) limit, boolean upperLimit)  constructor
 
  Initializes a new instance of the MathLimit class.
  
@@ -1393,7 +1393,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathAccent](../../mathaccent) baseArg, [MathLimit](../../mathlimit) limit, boolean upperLimit)  constructor
+## MathLimit([MathAccent](../../mathaccent) baseArg, [MathMatrix](../../mathmatrix) limit, boolean upperLimit)  constructor
 
  Initializes a new instance of the MathLimit class.
  
@@ -1483,7 +1483,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathAccent](../../mathaccent) baseArg, [MathFunction](../../mathfunction) limit, boolean upperLimit)  constructor
+## MathLimit([MathAccent](../../mathaccent) baseArg, [MathSuperscriptElement](../../mathsuperscriptelement) limit, boolean upperLimit)  constructor
 
  Initializes a new instance of the MathLimit class.
  
@@ -1492,7 +1492,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathAccent](../../mathaccent) baseArg, [MathSuperscriptElement](../../mathsuperscriptelement) limit, boolean upperLimit)  constructor
+## MathLimit([MathAccent](../../mathaccent) baseArg, [MathFunction](../../mathfunction) limit, boolean upperLimit)  constructor
 
  Initializes a new instance of the MathLimit class.
  
@@ -1555,7 +1555,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathBorderBox](../../mathborderbox) baseArg, [MathMatrix](../../mathmatrix) limit, boolean upperLimit)  constructor
+## MathLimit([MathBorderBox](../../mathborderbox) baseArg, [MathLimit](../../mathlimit) limit, boolean upperLimit)  constructor
 
  Initializes a new instance of the MathLimit class.
  
@@ -1564,7 +1564,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathBorderBox](../../mathborderbox) baseArg, [MathLimit](../../mathlimit) limit, boolean upperLimit)  constructor
+## MathLimit([MathBorderBox](../../mathborderbox) baseArg, [MathMatrix](../../mathmatrix) limit, boolean upperLimit)  constructor
 
  Initializes a new instance of the MathLimit class.
  
@@ -1654,7 +1654,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathBorderBox](../../mathborderbox) baseArg, [MathFunction](../../mathfunction) limit, boolean upperLimit)  constructor
+## MathLimit([MathBorderBox](../../mathborderbox) baseArg, [MathSuperscriptElement](../../mathsuperscriptelement) limit, boolean upperLimit)  constructor
 
  Initializes a new instance of the MathLimit class.
  
@@ -1663,7 +1663,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathBorderBox](../../mathborderbox) baseArg, [MathSuperscriptElement](../../mathsuperscriptelement) limit, boolean upperLimit)  constructor
+## MathLimit([MathBorderBox](../../mathborderbox) baseArg, [MathFunction](../../mathfunction) limit, boolean upperLimit)  constructor
 
  Initializes a new instance of the MathLimit class.
  
@@ -1726,7 +1726,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathMatrix](../../mathmatrix) limit, boolean upperLimit)  constructor
+## MathLimit([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathLimit](../../mathlimit) limit, boolean upperLimit)  constructor
 
  Initializes a new instance of the MathLimit class.
  
@@ -1735,7 +1735,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathLimit](../../mathlimit) limit, boolean upperLimit)  constructor
+## MathLimit([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathMatrix](../../mathmatrix) limit, boolean upperLimit)  constructor
 
  Initializes a new instance of the MathLimit class.
  
@@ -1825,7 +1825,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathFunction](../../mathfunction) limit, boolean upperLimit)  constructor
+## MathLimit([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathSuperscriptElement](../../mathsuperscriptelement) limit, boolean upperLimit)  constructor
 
  Initializes a new instance of the MathLimit class.
  
@@ -1834,7 +1834,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathSuperscriptElement](../../mathsuperscriptelement) limit, boolean upperLimit)  constructor
+## MathLimit([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathFunction](../../mathfunction) limit, boolean upperLimit)  constructor
 
  Initializes a new instance of the MathLimit class.
  
@@ -1897,7 +1897,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathBar](../../mathbar) baseArg, [MathMatrix](../../mathmatrix) limit, boolean upperLimit)  constructor
+## MathLimit([MathBar](../../mathbar) baseArg, [MathLimit](../../mathlimit) limit, boolean upperLimit)  constructor
 
  Initializes a new instance of the MathLimit class.
  
@@ -1906,7 +1906,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathBar](../../mathbar) baseArg, [MathLimit](../../mathlimit) limit, boolean upperLimit)  constructor
+## MathLimit([MathBar](../../mathbar) baseArg, [MathMatrix](../../mathmatrix) limit, boolean upperLimit)  constructor
 
  Initializes a new instance of the MathLimit class.
  
@@ -1996,7 +1996,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathBar](../../mathbar) baseArg, [MathFunction](../../mathfunction) limit, boolean upperLimit)  constructor
+## MathLimit([MathBar](../../mathbar) baseArg, [MathSuperscriptElement](../../mathsuperscriptelement) limit, boolean upperLimit)  constructor
 
  Initializes a new instance of the MathLimit class.
  
@@ -2005,7 +2005,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathBar](../../mathbar) baseArg, [MathSuperscriptElement](../../mathsuperscriptelement) limit, boolean upperLimit)  constructor
+## MathLimit([MathBar](../../mathbar) baseArg, [MathFunction](../../mathfunction) limit, boolean upperLimit)  constructor
 
  Initializes a new instance of the MathLimit class.
  
@@ -2059,177 +2059,6 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathFunction](../../mathfunction) baseArg, [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) limit, boolean upperLimit)  constructor
-
- Initializes a new instance of the MathLimit class.
- 
-
-
----
-
-
-## MathLimit([MathFunction](../../mathfunction) baseArg, [MathMatrix](../../mathmatrix) limit, boolean upperLimit)  constructor
-
- Initializes a new instance of the MathLimit class.
- 
-
-
----
-
-
-## MathLimit([MathFunction](../../mathfunction) baseArg, [MathLimit](../../mathlimit) limit, boolean upperLimit)  constructor
-
- Initializes a new instance of the MathLimit class.
- 
-
-
----
-
-
-## MathLimit([MathFunction](../../mathfunction) baseArg, [MathBlock](../../mathblock) limit, boolean upperLimit)  constructor
-
- Initializes a new instance of the MathLimit class.
- 
-
-
----
-
-
-## MathLimit([MathFunction](../../mathfunction) baseArg, [MathRadical](../../mathradical) limit, boolean upperLimit)  constructor
-
- Initializes a new instance of the MathLimit class.
- 
-
-
----
-
-
-## MathLimit([MathFunction](../../mathfunction) baseArg, [MathArray](../../matharray) limit, boolean upperLimit)  constructor
-
- Initializes a new instance of the MathLimit class.
- 
-
-
----
-
-
-## MathLimit([MathFunction](../../mathfunction) baseArg, [MathDelimiter](../../mathdelimiter) limit, boolean upperLimit)  constructor
-
- Initializes a new instance of the MathLimit class.
- 
-
-
----
-
-
-## MathLimit([MathFunction](../../mathfunction) baseArg, [MathNaryOperator](../../mathnaryoperator) limit, boolean upperLimit)  constructor
-
- Initializes a new instance of the MathLimit class.
- 
-
-
----
-
-
-## MathLimit([MathFunction](../../mathfunction) baseArg, [MathAccent](../../mathaccent) limit, boolean upperLimit)  constructor
-
- Initializes a new instance of the MathLimit class.
- 
-
-
----
-
-
-## MathLimit([MathFunction](../../mathfunction) baseArg, [MathBorderBox](../../mathborderbox) limit, boolean upperLimit)  constructor
-
- Initializes a new instance of the MathLimit class.
- 
-
-
----
-
-
-## MathLimit([MathFunction](../../mathfunction) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) limit, boolean upperLimit)  constructor
-
- Initializes a new instance of the MathLimit class.
- 
-
-
----
-
-
-## MathLimit([MathFunction](../../mathfunction) baseArg, [MathBar](../../mathbar) limit, boolean upperLimit)  constructor
-
- Initializes a new instance of the MathLimit class.
- 
-
-
----
-
-
-## MathLimit([MathFunction](../../mathfunction) baseArg, [MathFunction](../../mathfunction) limit, boolean upperLimit)  constructor
-
- Initializes a new instance of the MathLimit class.
- 
-
-
----
-
-
-## MathLimit([MathFunction](../../mathfunction) baseArg, [MathSuperscriptElement](../../mathsuperscriptelement) limit, boolean upperLimit)  constructor
-
- Initializes a new instance of the MathLimit class.
- 
-
-
----
-
-
-## MathLimit([MathFunction](../../mathfunction) baseArg, [MathSubscriptElement](../../mathsubscriptelement) limit, boolean upperLimit)  constructor
-
- Initializes a new instance of the MathLimit class.
- 
-
-
----
-
-
-## MathLimit([MathFunction](../../mathfunction) baseArg, [MathematicalText](../../mathematicaltext) limit, boolean upperLimit)  constructor
-
- Initializes a new instance of the MathLimit class.
- 
-
-
----
-
-
-## MathLimit([MathFunction](../../mathfunction) baseArg, [MathFraction](../../mathfraction) limit, boolean upperLimit)  constructor
-
- Initializes a new instance of the MathLimit class.
- 
-
-
----
-
-
-## MathLimit([MathFunction](../../mathfunction) baseArg, [MathBox](../../mathbox) limit, boolean upperLimit)  constructor
-
- Initializes a new instance of the MathLimit class.
- 
-
-
----
-
-
-## MathLimit([MathFunction](../../mathfunction) baseArg, [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) limit, boolean upperLimit)  constructor
-
- Initializes a new instance of the MathLimit class.
- 
-
-
----
-
-
 ## MathLimit([MathSuperscriptElement](../../mathsuperscriptelement) baseArg, [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) limit, boolean upperLimit)  constructor
 
  Initializes a new instance of the MathLimit class.
@@ -2239,7 +2068,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathSuperscriptElement](../../mathsuperscriptelement) baseArg, [MathMatrix](../../mathmatrix) limit, boolean upperLimit)  constructor
+## MathLimit([MathSuperscriptElement](../../mathsuperscriptelement) baseArg, [MathLimit](../../mathlimit) limit, boolean upperLimit)  constructor
 
  Initializes a new instance of the MathLimit class.
  
@@ -2248,7 +2077,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathSuperscriptElement](../../mathsuperscriptelement) baseArg, [MathLimit](../../mathlimit) limit, boolean upperLimit)  constructor
+## MathLimit([MathSuperscriptElement](../../mathsuperscriptelement) baseArg, [MathMatrix](../../mathmatrix) limit, boolean upperLimit)  constructor
 
  Initializes a new instance of the MathLimit class.
  
@@ -2338,7 +2167,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathSuperscriptElement](../../mathsuperscriptelement) baseArg, [MathFunction](../../mathfunction) limit, boolean upperLimit)  constructor
+## MathLimit([MathSuperscriptElement](../../mathsuperscriptelement) baseArg, [MathSuperscriptElement](../../mathsuperscriptelement) limit, boolean upperLimit)  constructor
 
  Initializes a new instance of the MathLimit class.
  
@@ -2347,7 +2176,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathSuperscriptElement](../../mathsuperscriptelement) baseArg, [MathSuperscriptElement](../../mathsuperscriptelement) limit, boolean upperLimit)  constructor
+## MathLimit([MathSuperscriptElement](../../mathsuperscriptelement) baseArg, [MathFunction](../../mathfunction) limit, boolean upperLimit)  constructor
 
  Initializes a new instance of the MathLimit class.
  
@@ -2401,6 +2230,177 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
+## MathLimit([MathFunction](../../mathfunction) baseArg, [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) limit, boolean upperLimit)  constructor
+
+ Initializes a new instance of the MathLimit class.
+ 
+
+
+---
+
+
+## MathLimit([MathFunction](../../mathfunction) baseArg, [MathLimit](../../mathlimit) limit, boolean upperLimit)  constructor
+
+ Initializes a new instance of the MathLimit class.
+ 
+
+
+---
+
+
+## MathLimit([MathFunction](../../mathfunction) baseArg, [MathMatrix](../../mathmatrix) limit, boolean upperLimit)  constructor
+
+ Initializes a new instance of the MathLimit class.
+ 
+
+
+---
+
+
+## MathLimit([MathFunction](../../mathfunction) baseArg, [MathBlock](../../mathblock) limit, boolean upperLimit)  constructor
+
+ Initializes a new instance of the MathLimit class.
+ 
+
+
+---
+
+
+## MathLimit([MathFunction](../../mathfunction) baseArg, [MathRadical](../../mathradical) limit, boolean upperLimit)  constructor
+
+ Initializes a new instance of the MathLimit class.
+ 
+
+
+---
+
+
+## MathLimit([MathFunction](../../mathfunction) baseArg, [MathArray](../../matharray) limit, boolean upperLimit)  constructor
+
+ Initializes a new instance of the MathLimit class.
+ 
+
+
+---
+
+
+## MathLimit([MathFunction](../../mathfunction) baseArg, [MathDelimiter](../../mathdelimiter) limit, boolean upperLimit)  constructor
+
+ Initializes a new instance of the MathLimit class.
+ 
+
+
+---
+
+
+## MathLimit([MathFunction](../../mathfunction) baseArg, [MathNaryOperator](../../mathnaryoperator) limit, boolean upperLimit)  constructor
+
+ Initializes a new instance of the MathLimit class.
+ 
+
+
+---
+
+
+## MathLimit([MathFunction](../../mathfunction) baseArg, [MathAccent](../../mathaccent) limit, boolean upperLimit)  constructor
+
+ Initializes a new instance of the MathLimit class.
+ 
+
+
+---
+
+
+## MathLimit([MathFunction](../../mathfunction) baseArg, [MathBorderBox](../../mathborderbox) limit, boolean upperLimit)  constructor
+
+ Initializes a new instance of the MathLimit class.
+ 
+
+
+---
+
+
+## MathLimit([MathFunction](../../mathfunction) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) limit, boolean upperLimit)  constructor
+
+ Initializes a new instance of the MathLimit class.
+ 
+
+
+---
+
+
+## MathLimit([MathFunction](../../mathfunction) baseArg, [MathBar](../../mathbar) limit, boolean upperLimit)  constructor
+
+ Initializes a new instance of the MathLimit class.
+ 
+
+
+---
+
+
+## MathLimit([MathFunction](../../mathfunction) baseArg, [MathSuperscriptElement](../../mathsuperscriptelement) limit, boolean upperLimit)  constructor
+
+ Initializes a new instance of the MathLimit class.
+ 
+
+
+---
+
+
+## MathLimit([MathFunction](../../mathfunction) baseArg, [MathFunction](../../mathfunction) limit, boolean upperLimit)  constructor
+
+ Initializes a new instance of the MathLimit class.
+ 
+
+
+---
+
+
+## MathLimit([MathFunction](../../mathfunction) baseArg, [MathSubscriptElement](../../mathsubscriptelement) limit, boolean upperLimit)  constructor
+
+ Initializes a new instance of the MathLimit class.
+ 
+
+
+---
+
+
+## MathLimit([MathFunction](../../mathfunction) baseArg, [MathematicalText](../../mathematicaltext) limit, boolean upperLimit)  constructor
+
+ Initializes a new instance of the MathLimit class.
+ 
+
+
+---
+
+
+## MathLimit([MathFunction](../../mathfunction) baseArg, [MathFraction](../../mathfraction) limit, boolean upperLimit)  constructor
+
+ Initializes a new instance of the MathLimit class.
+ 
+
+
+---
+
+
+## MathLimit([MathFunction](../../mathfunction) baseArg, [MathBox](../../mathbox) limit, boolean upperLimit)  constructor
+
+ Initializes a new instance of the MathLimit class.
+ 
+
+
+---
+
+
+## MathLimit([MathFunction](../../mathfunction) baseArg, [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) limit, boolean upperLimit)  constructor
+
+ Initializes a new instance of the MathLimit class.
+ 
+
+
+---
+
+
 ## MathLimit([MathSubscriptElement](../../mathsubscriptelement) baseArg, [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) limit, boolean upperLimit)  constructor
 
  Initializes a new instance of the MathLimit class.
@@ -2410,7 +2410,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathSubscriptElement](../../mathsubscriptelement) baseArg, [MathMatrix](../../mathmatrix) limit, boolean upperLimit)  constructor
+## MathLimit([MathSubscriptElement](../../mathsubscriptelement) baseArg, [MathLimit](../../mathlimit) limit, boolean upperLimit)  constructor
 
  Initializes a new instance of the MathLimit class.
  
@@ -2419,7 +2419,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathSubscriptElement](../../mathsubscriptelement) baseArg, [MathLimit](../../mathlimit) limit, boolean upperLimit)  constructor
+## MathLimit([MathSubscriptElement](../../mathsubscriptelement) baseArg, [MathMatrix](../../mathmatrix) limit, boolean upperLimit)  constructor
 
  Initializes a new instance of the MathLimit class.
  
@@ -2509,7 +2509,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathSubscriptElement](../../mathsubscriptelement) baseArg, [MathFunction](../../mathfunction) limit, boolean upperLimit)  constructor
+## MathLimit([MathSubscriptElement](../../mathsubscriptelement) baseArg, [MathSuperscriptElement](../../mathsuperscriptelement) limit, boolean upperLimit)  constructor
 
  Initializes a new instance of the MathLimit class.
  
@@ -2518,7 +2518,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathSubscriptElement](../../mathsubscriptelement) baseArg, [MathSuperscriptElement](../../mathsuperscriptelement) limit, boolean upperLimit)  constructor
+## MathLimit([MathSubscriptElement](../../mathsubscriptelement) baseArg, [MathFunction](../../mathfunction) limit, boolean upperLimit)  constructor
 
  Initializes a new instance of the MathLimit class.
  
@@ -2581,7 +2581,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathematicalText](../../mathematicaltext) baseArg, [MathMatrix](../../mathmatrix) limit, boolean upperLimit)  constructor
+## MathLimit([MathematicalText](../../mathematicaltext) baseArg, [MathLimit](../../mathlimit) limit, boolean upperLimit)  constructor
 
  Initializes a new instance of the MathLimit class.
  
@@ -2590,7 +2590,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathematicalText](../../mathematicaltext) baseArg, [MathLimit](../../mathlimit) limit, boolean upperLimit)  constructor
+## MathLimit([MathematicalText](../../mathematicaltext) baseArg, [MathMatrix](../../mathmatrix) limit, boolean upperLimit)  constructor
 
  Initializes a new instance of the MathLimit class.
  
@@ -2680,7 +2680,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathematicalText](../../mathematicaltext) baseArg, [MathFunction](../../mathfunction) limit, boolean upperLimit)  constructor
+## MathLimit([MathematicalText](../../mathematicaltext) baseArg, [MathSuperscriptElement](../../mathsuperscriptelement) limit, boolean upperLimit)  constructor
 
  Initializes a new instance of the MathLimit class.
  
@@ -2689,7 +2689,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathematicalText](../../mathematicaltext) baseArg, [MathSuperscriptElement](../../mathsuperscriptelement) limit, boolean upperLimit)  constructor
+## MathLimit([MathematicalText](../../mathematicaltext) baseArg, [MathFunction](../../mathfunction) limit, boolean upperLimit)  constructor
 
  Initializes a new instance of the MathLimit class.
  
@@ -2752,7 +2752,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathFraction](../../mathfraction) baseArg, [MathMatrix](../../mathmatrix) limit, boolean upperLimit)  constructor
+## MathLimit([MathFraction](../../mathfraction) baseArg, [MathLimit](../../mathlimit) limit, boolean upperLimit)  constructor
 
  Initializes a new instance of the MathLimit class.
  
@@ -2761,7 +2761,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathFraction](../../mathfraction) baseArg, [MathLimit](../../mathlimit) limit, boolean upperLimit)  constructor
+## MathLimit([MathFraction](../../mathfraction) baseArg, [MathMatrix](../../mathmatrix) limit, boolean upperLimit)  constructor
 
  Initializes a new instance of the MathLimit class.
  
@@ -2851,7 +2851,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathFraction](../../mathfraction) baseArg, [MathFunction](../../mathfunction) limit, boolean upperLimit)  constructor
+## MathLimit([MathFraction](../../mathfraction) baseArg, [MathSuperscriptElement](../../mathsuperscriptelement) limit, boolean upperLimit)  constructor
 
  Initializes a new instance of the MathLimit class.
  
@@ -2860,7 +2860,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathFraction](../../mathfraction) baseArg, [MathSuperscriptElement](../../mathsuperscriptelement) limit, boolean upperLimit)  constructor
+## MathLimit([MathFraction](../../mathfraction) baseArg, [MathFunction](../../mathfunction) limit, boolean upperLimit)  constructor
 
  Initializes a new instance of the MathLimit class.
  
@@ -2923,7 +2923,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathBox](../../mathbox) baseArg, [MathMatrix](../../mathmatrix) limit, boolean upperLimit)  constructor
+## MathLimit([MathBox](../../mathbox) baseArg, [MathLimit](../../mathlimit) limit, boolean upperLimit)  constructor
 
  Initializes a new instance of the MathLimit class.
  
@@ -2932,7 +2932,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathBox](../../mathbox) baseArg, [MathLimit](../../mathlimit) limit, boolean upperLimit)  constructor
+## MathLimit([MathBox](../../mathbox) baseArg, [MathMatrix](../../mathmatrix) limit, boolean upperLimit)  constructor
 
  Initializes a new instance of the MathLimit class.
  
@@ -3022,7 +3022,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathBox](../../mathbox) baseArg, [MathFunction](../../mathfunction) limit, boolean upperLimit)  constructor
+## MathLimit([MathBox](../../mathbox) baseArg, [MathSuperscriptElement](../../mathsuperscriptelement) limit, boolean upperLimit)  constructor
 
  Initializes a new instance of the MathLimit class.
  
@@ -3031,7 +3031,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathBox](../../mathbox) baseArg, [MathSuperscriptElement](../../mathsuperscriptelement) limit, boolean upperLimit)  constructor
+## MathLimit([MathBox](../../mathbox) baseArg, [MathFunction](../../mathfunction) limit, boolean upperLimit)  constructor
 
  Initializes a new instance of the MathLimit class.
  
@@ -3094,7 +3094,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) baseArg, [MathMatrix](../../mathmatrix) limit, boolean upperLimit)  constructor
+## MathLimit([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) baseArg, [MathLimit](../../mathlimit) limit, boolean upperLimit)  constructor
 
  Initializes a new instance of the MathLimit class.
  
@@ -3103,7 +3103,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) baseArg, [MathLimit](../../mathlimit) limit, boolean upperLimit)  constructor
+## MathLimit([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) baseArg, [MathMatrix](../../mathmatrix) limit, boolean upperLimit)  constructor
 
  Initializes a new instance of the MathLimit class.
  
@@ -3193,7 +3193,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) baseArg, [MathFunction](../../mathfunction) limit, boolean upperLimit)  constructor
+## MathLimit([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) baseArg, [MathSuperscriptElement](../../mathsuperscriptelement) limit, boolean upperLimit)  constructor
 
  Initializes a new instance of the MathLimit class.
  
@@ -3202,7 +3202,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) baseArg, [MathSuperscriptElement](../../mathsuperscriptelement) limit, boolean upperLimit)  constructor
+## MathLimit([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) baseArg, [MathFunction](../../mathfunction) limit, boolean upperLimit)  constructor
 
  Initializes a new instance of the MathLimit class.
  
@@ -3265,7 +3265,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) baseArg, [MathMatrix](../../mathmatrix) limit)  constructor
+## MathLimit([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) baseArg, [MathLimit](../../mathlimit) limit)  constructor
 
  Initializes a new instance of the MathLimit class with lower limit
  
@@ -3274,7 +3274,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) baseArg, [MathLimit](../../mathlimit) limit)  constructor
+## MathLimit([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) baseArg, [MathMatrix](../../mathmatrix) limit)  constructor
 
  Initializes a new instance of the MathLimit class with lower limit
  
@@ -3364,7 +3364,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) baseArg, [MathFunction](../../mathfunction) limit)  constructor
+## MathLimit([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) baseArg, [MathSuperscriptElement](../../mathsuperscriptelement) limit)  constructor
 
  Initializes a new instance of the MathLimit class with lower limit
  
@@ -3373,7 +3373,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) baseArg, [MathSuperscriptElement](../../mathsuperscriptelement) limit)  constructor
+## MathLimit([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) baseArg, [MathFunction](../../mathfunction) limit)  constructor
 
  Initializes a new instance of the MathLimit class with lower limit
  
@@ -3427,177 +3427,6 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathMatrix](../../mathmatrix) baseArg, [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) limit)  constructor
-
- Initializes a new instance of the MathLimit class with lower limit
- 
-
-
----
-
-
-## MathLimit([MathMatrix](../../mathmatrix) baseArg, [MathMatrix](../../mathmatrix) limit)  constructor
-
- Initializes a new instance of the MathLimit class with lower limit
- 
-
-
----
-
-
-## MathLimit([MathMatrix](../../mathmatrix) baseArg, [MathLimit](../../mathlimit) limit)  constructor
-
- Initializes a new instance of the MathLimit class with lower limit
- 
-
-
----
-
-
-## MathLimit([MathMatrix](../../mathmatrix) baseArg, [MathBlock](../../mathblock) limit)  constructor
-
- Initializes a new instance of the MathLimit class with lower limit
- 
-
-
----
-
-
-## MathLimit([MathMatrix](../../mathmatrix) baseArg, [MathRadical](../../mathradical) limit)  constructor
-
- Initializes a new instance of the MathLimit class with lower limit
- 
-
-
----
-
-
-## MathLimit([MathMatrix](../../mathmatrix) baseArg, [MathArray](../../matharray) limit)  constructor
-
- Initializes a new instance of the MathLimit class with lower limit
- 
-
-
----
-
-
-## MathLimit([MathMatrix](../../mathmatrix) baseArg, [MathDelimiter](../../mathdelimiter) limit)  constructor
-
- Initializes a new instance of the MathLimit class with lower limit
- 
-
-
----
-
-
-## MathLimit([MathMatrix](../../mathmatrix) baseArg, [MathNaryOperator](../../mathnaryoperator) limit)  constructor
-
- Initializes a new instance of the MathLimit class with lower limit
- 
-
-
----
-
-
-## MathLimit([MathMatrix](../../mathmatrix) baseArg, [MathAccent](../../mathaccent) limit)  constructor
-
- Initializes a new instance of the MathLimit class with lower limit
- 
-
-
----
-
-
-## MathLimit([MathMatrix](../../mathmatrix) baseArg, [MathBorderBox](../../mathborderbox) limit)  constructor
-
- Initializes a new instance of the MathLimit class with lower limit
- 
-
-
----
-
-
-## MathLimit([MathMatrix](../../mathmatrix) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) limit)  constructor
-
- Initializes a new instance of the MathLimit class with lower limit
- 
-
-
----
-
-
-## MathLimit([MathMatrix](../../mathmatrix) baseArg, [MathBar](../../mathbar) limit)  constructor
-
- Initializes a new instance of the MathLimit class with lower limit
- 
-
-
----
-
-
-## MathLimit([MathMatrix](../../mathmatrix) baseArg, [MathFunction](../../mathfunction) limit)  constructor
-
- Initializes a new instance of the MathLimit class with lower limit
- 
-
-
----
-
-
-## MathLimit([MathMatrix](../../mathmatrix) baseArg, [MathSuperscriptElement](../../mathsuperscriptelement) limit)  constructor
-
- Initializes a new instance of the MathLimit class with lower limit
- 
-
-
----
-
-
-## MathLimit([MathMatrix](../../mathmatrix) baseArg, [MathSubscriptElement](../../mathsubscriptelement) limit)  constructor
-
- Initializes a new instance of the MathLimit class with lower limit
- 
-
-
----
-
-
-## MathLimit([MathMatrix](../../mathmatrix) baseArg, [MathematicalText](../../mathematicaltext) limit)  constructor
-
- Initializes a new instance of the MathLimit class with lower limit
- 
-
-
----
-
-
-## MathLimit([MathMatrix](../../mathmatrix) baseArg, [MathFraction](../../mathfraction) limit)  constructor
-
- Initializes a new instance of the MathLimit class with lower limit
- 
-
-
----
-
-
-## MathLimit([MathMatrix](../../mathmatrix) baseArg, [MathBox](../../mathbox) limit)  constructor
-
- Initializes a new instance of the MathLimit class with lower limit
- 
-
-
----
-
-
-## MathLimit([MathMatrix](../../mathmatrix) baseArg, [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) limit)  constructor
-
- Initializes a new instance of the MathLimit class with lower limit
- 
-
-
----
-
-
 ## MathLimit([MathLimit](../../mathlimit) baseArg, [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) limit)  constructor
 
  Initializes a new instance of the MathLimit class with lower limit
@@ -3607,7 +3436,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathLimit](../../mathlimit) baseArg, [MathMatrix](../../mathmatrix) limit)  constructor
+## MathLimit([MathLimit](../../mathlimit) baseArg, [MathLimit](../../mathlimit) limit)  constructor
 
  Initializes a new instance of the MathLimit class with lower limit
  
@@ -3616,7 +3445,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathLimit](../../mathlimit) baseArg, [MathLimit](../../mathlimit) limit)  constructor
+## MathLimit([MathLimit](../../mathlimit) baseArg, [MathMatrix](../../mathmatrix) limit)  constructor
 
  Initializes a new instance of the MathLimit class with lower limit
  
@@ -3706,7 +3535,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathLimit](../../mathlimit) baseArg, [MathFunction](../../mathfunction) limit)  constructor
+## MathLimit([MathLimit](../../mathlimit) baseArg, [MathSuperscriptElement](../../mathsuperscriptelement) limit)  constructor
 
  Initializes a new instance of the MathLimit class with lower limit
  
@@ -3715,7 +3544,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathLimit](../../mathlimit) baseArg, [MathSuperscriptElement](../../mathsuperscriptelement) limit)  constructor
+## MathLimit([MathLimit](../../mathlimit) baseArg, [MathFunction](../../mathfunction) limit)  constructor
 
  Initializes a new instance of the MathLimit class with lower limit
  
@@ -3769,6 +3598,177 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
+## MathLimit([MathMatrix](../../mathmatrix) baseArg, [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) limit)  constructor
+
+ Initializes a new instance of the MathLimit class with lower limit
+ 
+
+
+---
+
+
+## MathLimit([MathMatrix](../../mathmatrix) baseArg, [MathLimit](../../mathlimit) limit)  constructor
+
+ Initializes a new instance of the MathLimit class with lower limit
+ 
+
+
+---
+
+
+## MathLimit([MathMatrix](../../mathmatrix) baseArg, [MathMatrix](../../mathmatrix) limit)  constructor
+
+ Initializes a new instance of the MathLimit class with lower limit
+ 
+
+
+---
+
+
+## MathLimit([MathMatrix](../../mathmatrix) baseArg, [MathBlock](../../mathblock) limit)  constructor
+
+ Initializes a new instance of the MathLimit class with lower limit
+ 
+
+
+---
+
+
+## MathLimit([MathMatrix](../../mathmatrix) baseArg, [MathRadical](../../mathradical) limit)  constructor
+
+ Initializes a new instance of the MathLimit class with lower limit
+ 
+
+
+---
+
+
+## MathLimit([MathMatrix](../../mathmatrix) baseArg, [MathArray](../../matharray) limit)  constructor
+
+ Initializes a new instance of the MathLimit class with lower limit
+ 
+
+
+---
+
+
+## MathLimit([MathMatrix](../../mathmatrix) baseArg, [MathDelimiter](../../mathdelimiter) limit)  constructor
+
+ Initializes a new instance of the MathLimit class with lower limit
+ 
+
+
+---
+
+
+## MathLimit([MathMatrix](../../mathmatrix) baseArg, [MathNaryOperator](../../mathnaryoperator) limit)  constructor
+
+ Initializes a new instance of the MathLimit class with lower limit
+ 
+
+
+---
+
+
+## MathLimit([MathMatrix](../../mathmatrix) baseArg, [MathAccent](../../mathaccent) limit)  constructor
+
+ Initializes a new instance of the MathLimit class with lower limit
+ 
+
+
+---
+
+
+## MathLimit([MathMatrix](../../mathmatrix) baseArg, [MathBorderBox](../../mathborderbox) limit)  constructor
+
+ Initializes a new instance of the MathLimit class with lower limit
+ 
+
+
+---
+
+
+## MathLimit([MathMatrix](../../mathmatrix) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) limit)  constructor
+
+ Initializes a new instance of the MathLimit class with lower limit
+ 
+
+
+---
+
+
+## MathLimit([MathMatrix](../../mathmatrix) baseArg, [MathBar](../../mathbar) limit)  constructor
+
+ Initializes a new instance of the MathLimit class with lower limit
+ 
+
+
+---
+
+
+## MathLimit([MathMatrix](../../mathmatrix) baseArg, [MathSuperscriptElement](../../mathsuperscriptelement) limit)  constructor
+
+ Initializes a new instance of the MathLimit class with lower limit
+ 
+
+
+---
+
+
+## MathLimit([MathMatrix](../../mathmatrix) baseArg, [MathFunction](../../mathfunction) limit)  constructor
+
+ Initializes a new instance of the MathLimit class with lower limit
+ 
+
+
+---
+
+
+## MathLimit([MathMatrix](../../mathmatrix) baseArg, [MathSubscriptElement](../../mathsubscriptelement) limit)  constructor
+
+ Initializes a new instance of the MathLimit class with lower limit
+ 
+
+
+---
+
+
+## MathLimit([MathMatrix](../../mathmatrix) baseArg, [MathematicalText](../../mathematicaltext) limit)  constructor
+
+ Initializes a new instance of the MathLimit class with lower limit
+ 
+
+
+---
+
+
+## MathLimit([MathMatrix](../../mathmatrix) baseArg, [MathFraction](../../mathfraction) limit)  constructor
+
+ Initializes a new instance of the MathLimit class with lower limit
+ 
+
+
+---
+
+
+## MathLimit([MathMatrix](../../mathmatrix) baseArg, [MathBox](../../mathbox) limit)  constructor
+
+ Initializes a new instance of the MathLimit class with lower limit
+ 
+
+
+---
+
+
+## MathLimit([MathMatrix](../../mathmatrix) baseArg, [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) limit)  constructor
+
+ Initializes a new instance of the MathLimit class with lower limit
+ 
+
+
+---
+
+
 ## MathLimit([MathBlock](../../mathblock) baseArg, [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) limit)  constructor
 
  Initializes a new instance of the MathLimit class with lower limit
@@ -3778,7 +3778,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathBlock](../../mathblock) baseArg, [MathMatrix](../../mathmatrix) limit)  constructor
+## MathLimit([MathBlock](../../mathblock) baseArg, [MathLimit](../../mathlimit) limit)  constructor
 
  Initializes a new instance of the MathLimit class with lower limit
  
@@ -3787,7 +3787,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathBlock](../../mathblock) baseArg, [MathLimit](../../mathlimit) limit)  constructor
+## MathLimit([MathBlock](../../mathblock) baseArg, [MathMatrix](../../mathmatrix) limit)  constructor
 
  Initializes a new instance of the MathLimit class with lower limit
  
@@ -3877,7 +3877,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathBlock](../../mathblock) baseArg, [MathFunction](../../mathfunction) limit)  constructor
+## MathLimit([MathBlock](../../mathblock) baseArg, [MathSuperscriptElement](../../mathsuperscriptelement) limit)  constructor
 
  Initializes a new instance of the MathLimit class with lower limit
  
@@ -3886,7 +3886,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathBlock](../../mathblock) baseArg, [MathSuperscriptElement](../../mathsuperscriptelement) limit)  constructor
+## MathLimit([MathBlock](../../mathblock) baseArg, [MathFunction](../../mathfunction) limit)  constructor
 
  Initializes a new instance of the MathLimit class with lower limit
  
@@ -3949,7 +3949,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathRadical](../../mathradical) baseArg, [MathMatrix](../../mathmatrix) limit)  constructor
+## MathLimit([MathRadical](../../mathradical) baseArg, [MathLimit](../../mathlimit) limit)  constructor
 
  Initializes a new instance of the MathLimit class with lower limit
  
@@ -3958,7 +3958,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathRadical](../../mathradical) baseArg, [MathLimit](../../mathlimit) limit)  constructor
+## MathLimit([MathRadical](../../mathradical) baseArg, [MathMatrix](../../mathmatrix) limit)  constructor
 
  Initializes a new instance of the MathLimit class with lower limit
  
@@ -4048,7 +4048,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathRadical](../../mathradical) baseArg, [MathFunction](../../mathfunction) limit)  constructor
+## MathLimit([MathRadical](../../mathradical) baseArg, [MathSuperscriptElement](../../mathsuperscriptelement) limit)  constructor
 
  Initializes a new instance of the MathLimit class with lower limit
  
@@ -4057,7 +4057,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathRadical](../../mathradical) baseArg, [MathSuperscriptElement](../../mathsuperscriptelement) limit)  constructor
+## MathLimit([MathRadical](../../mathradical) baseArg, [MathFunction](../../mathfunction) limit)  constructor
 
  Initializes a new instance of the MathLimit class with lower limit
  
@@ -4120,7 +4120,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathArray](../../matharray) baseArg, [MathMatrix](../../mathmatrix) limit)  constructor
+## MathLimit([MathArray](../../matharray) baseArg, [MathLimit](../../mathlimit) limit)  constructor
 
  Initializes a new instance of the MathLimit class with lower limit
  
@@ -4129,7 +4129,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathArray](../../matharray) baseArg, [MathLimit](../../mathlimit) limit)  constructor
+## MathLimit([MathArray](../../matharray) baseArg, [MathMatrix](../../mathmatrix) limit)  constructor
 
  Initializes a new instance of the MathLimit class with lower limit
  
@@ -4219,7 +4219,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathArray](../../matharray) baseArg, [MathFunction](../../mathfunction) limit)  constructor
+## MathLimit([MathArray](../../matharray) baseArg, [MathSuperscriptElement](../../mathsuperscriptelement) limit)  constructor
 
  Initializes a new instance of the MathLimit class with lower limit
  
@@ -4228,7 +4228,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathArray](../../matharray) baseArg, [MathSuperscriptElement](../../mathsuperscriptelement) limit)  constructor
+## MathLimit([MathArray](../../matharray) baseArg, [MathFunction](../../mathfunction) limit)  constructor
 
  Initializes a new instance of the MathLimit class with lower limit
  
@@ -4291,7 +4291,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathDelimiter](../../mathdelimiter) baseArg, [MathMatrix](../../mathmatrix) limit)  constructor
+## MathLimit([MathDelimiter](../../mathdelimiter) baseArg, [MathLimit](../../mathlimit) limit)  constructor
 
  Initializes a new instance of the MathLimit class with lower limit
  
@@ -4300,7 +4300,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathDelimiter](../../mathdelimiter) baseArg, [MathLimit](../../mathlimit) limit)  constructor
+## MathLimit([MathDelimiter](../../mathdelimiter) baseArg, [MathMatrix](../../mathmatrix) limit)  constructor
 
  Initializes a new instance of the MathLimit class with lower limit
  
@@ -4390,7 +4390,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathDelimiter](../../mathdelimiter) baseArg, [MathFunction](../../mathfunction) limit)  constructor
+## MathLimit([MathDelimiter](../../mathdelimiter) baseArg, [MathSuperscriptElement](../../mathsuperscriptelement) limit)  constructor
 
  Initializes a new instance of the MathLimit class with lower limit
  
@@ -4399,7 +4399,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathDelimiter](../../mathdelimiter) baseArg, [MathSuperscriptElement](../../mathsuperscriptelement) limit)  constructor
+## MathLimit([MathDelimiter](../../mathdelimiter) baseArg, [MathFunction](../../mathfunction) limit)  constructor
 
  Initializes a new instance of the MathLimit class with lower limit
  
@@ -4462,7 +4462,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathNaryOperator](../../mathnaryoperator) baseArg, [MathMatrix](../../mathmatrix) limit)  constructor
+## MathLimit([MathNaryOperator](../../mathnaryoperator) baseArg, [MathLimit](../../mathlimit) limit)  constructor
 
  Initializes a new instance of the MathLimit class with lower limit
  
@@ -4471,7 +4471,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathNaryOperator](../../mathnaryoperator) baseArg, [MathLimit](../../mathlimit) limit)  constructor
+## MathLimit([MathNaryOperator](../../mathnaryoperator) baseArg, [MathMatrix](../../mathmatrix) limit)  constructor
 
  Initializes a new instance of the MathLimit class with lower limit
  
@@ -4561,7 +4561,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathNaryOperator](../../mathnaryoperator) baseArg, [MathFunction](../../mathfunction) limit)  constructor
+## MathLimit([MathNaryOperator](../../mathnaryoperator) baseArg, [MathSuperscriptElement](../../mathsuperscriptelement) limit)  constructor
 
  Initializes a new instance of the MathLimit class with lower limit
  
@@ -4570,7 +4570,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathNaryOperator](../../mathnaryoperator) baseArg, [MathSuperscriptElement](../../mathsuperscriptelement) limit)  constructor
+## MathLimit([MathNaryOperator](../../mathnaryoperator) baseArg, [MathFunction](../../mathfunction) limit)  constructor
 
  Initializes a new instance of the MathLimit class with lower limit
  
@@ -4633,7 +4633,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathAccent](../../mathaccent) baseArg, [MathMatrix](../../mathmatrix) limit)  constructor
+## MathLimit([MathAccent](../../mathaccent) baseArg, [MathLimit](../../mathlimit) limit)  constructor
 
  Initializes a new instance of the MathLimit class with lower limit
  
@@ -4642,7 +4642,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathAccent](../../mathaccent) baseArg, [MathLimit](../../mathlimit) limit)  constructor
+## MathLimit([MathAccent](../../mathaccent) baseArg, [MathMatrix](../../mathmatrix) limit)  constructor
 
  Initializes a new instance of the MathLimit class with lower limit
  
@@ -4732,7 +4732,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathAccent](../../mathaccent) baseArg, [MathFunction](../../mathfunction) limit)  constructor
+## MathLimit([MathAccent](../../mathaccent) baseArg, [MathSuperscriptElement](../../mathsuperscriptelement) limit)  constructor
 
  Initializes a new instance of the MathLimit class with lower limit
  
@@ -4741,7 +4741,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathAccent](../../mathaccent) baseArg, [MathSuperscriptElement](../../mathsuperscriptelement) limit)  constructor
+## MathLimit([MathAccent](../../mathaccent) baseArg, [MathFunction](../../mathfunction) limit)  constructor
 
  Initializes a new instance of the MathLimit class with lower limit
  
@@ -4804,7 +4804,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathBorderBox](../../mathborderbox) baseArg, [MathMatrix](../../mathmatrix) limit)  constructor
+## MathLimit([MathBorderBox](../../mathborderbox) baseArg, [MathLimit](../../mathlimit) limit)  constructor
 
  Initializes a new instance of the MathLimit class with lower limit
  
@@ -4813,7 +4813,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathBorderBox](../../mathborderbox) baseArg, [MathLimit](../../mathlimit) limit)  constructor
+## MathLimit([MathBorderBox](../../mathborderbox) baseArg, [MathMatrix](../../mathmatrix) limit)  constructor
 
  Initializes a new instance of the MathLimit class with lower limit
  
@@ -4903,7 +4903,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathBorderBox](../../mathborderbox) baseArg, [MathFunction](../../mathfunction) limit)  constructor
+## MathLimit([MathBorderBox](../../mathborderbox) baseArg, [MathSuperscriptElement](../../mathsuperscriptelement) limit)  constructor
 
  Initializes a new instance of the MathLimit class with lower limit
  
@@ -4912,7 +4912,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathBorderBox](../../mathborderbox) baseArg, [MathSuperscriptElement](../../mathsuperscriptelement) limit)  constructor
+## MathLimit([MathBorderBox](../../mathborderbox) baseArg, [MathFunction](../../mathfunction) limit)  constructor
 
  Initializes a new instance of the MathLimit class with lower limit
  
@@ -4975,7 +4975,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathMatrix](../../mathmatrix) limit)  constructor
+## MathLimit([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathLimit](../../mathlimit) limit)  constructor
 
  Initializes a new instance of the MathLimit class with lower limit
  
@@ -4984,7 +4984,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathLimit](../../mathlimit) limit)  constructor
+## MathLimit([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathMatrix](../../mathmatrix) limit)  constructor
 
  Initializes a new instance of the MathLimit class with lower limit
  
@@ -5074,7 +5074,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathFunction](../../mathfunction) limit)  constructor
+## MathLimit([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathSuperscriptElement](../../mathsuperscriptelement) limit)  constructor
 
  Initializes a new instance of the MathLimit class with lower limit
  
@@ -5083,7 +5083,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathSuperscriptElement](../../mathsuperscriptelement) limit)  constructor
+## MathLimit([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathFunction](../../mathfunction) limit)  constructor
 
  Initializes a new instance of the MathLimit class with lower limit
  
@@ -5146,7 +5146,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathBar](../../mathbar) baseArg, [MathMatrix](../../mathmatrix) limit)  constructor
+## MathLimit([MathBar](../../mathbar) baseArg, [MathLimit](../../mathlimit) limit)  constructor
 
  Initializes a new instance of the MathLimit class with lower limit
  
@@ -5155,7 +5155,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathBar](../../mathbar) baseArg, [MathLimit](../../mathlimit) limit)  constructor
+## MathLimit([MathBar](../../mathbar) baseArg, [MathMatrix](../../mathmatrix) limit)  constructor
 
  Initializes a new instance of the MathLimit class with lower limit
  
@@ -5245,7 +5245,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathBar](../../mathbar) baseArg, [MathFunction](../../mathfunction) limit)  constructor
+## MathLimit([MathBar](../../mathbar) baseArg, [MathSuperscriptElement](../../mathsuperscriptelement) limit)  constructor
 
  Initializes a new instance of the MathLimit class with lower limit
  
@@ -5254,7 +5254,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathBar](../../mathbar) baseArg, [MathSuperscriptElement](../../mathsuperscriptelement) limit)  constructor
+## MathLimit([MathBar](../../mathbar) baseArg, [MathFunction](../../mathfunction) limit)  constructor
 
  Initializes a new instance of the MathLimit class with lower limit
  
@@ -5308,177 +5308,6 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathFunction](../../mathfunction) baseArg, [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) limit)  constructor
-
- Initializes a new instance of the MathLimit class with lower limit
- 
-
-
----
-
-
-## MathLimit([MathFunction](../../mathfunction) baseArg, [MathMatrix](../../mathmatrix) limit)  constructor
-
- Initializes a new instance of the MathLimit class with lower limit
- 
-
-
----
-
-
-## MathLimit([MathFunction](../../mathfunction) baseArg, [MathLimit](../../mathlimit) limit)  constructor
-
- Initializes a new instance of the MathLimit class with lower limit
- 
-
-
----
-
-
-## MathLimit([MathFunction](../../mathfunction) baseArg, [MathBlock](../../mathblock) limit)  constructor
-
- Initializes a new instance of the MathLimit class with lower limit
- 
-
-
----
-
-
-## MathLimit([MathFunction](../../mathfunction) baseArg, [MathRadical](../../mathradical) limit)  constructor
-
- Initializes a new instance of the MathLimit class with lower limit
- 
-
-
----
-
-
-## MathLimit([MathFunction](../../mathfunction) baseArg, [MathArray](../../matharray) limit)  constructor
-
- Initializes a new instance of the MathLimit class with lower limit
- 
-
-
----
-
-
-## MathLimit([MathFunction](../../mathfunction) baseArg, [MathDelimiter](../../mathdelimiter) limit)  constructor
-
- Initializes a new instance of the MathLimit class with lower limit
- 
-
-
----
-
-
-## MathLimit([MathFunction](../../mathfunction) baseArg, [MathNaryOperator](../../mathnaryoperator) limit)  constructor
-
- Initializes a new instance of the MathLimit class with lower limit
- 
-
-
----
-
-
-## MathLimit([MathFunction](../../mathfunction) baseArg, [MathAccent](../../mathaccent) limit)  constructor
-
- Initializes a new instance of the MathLimit class with lower limit
- 
-
-
----
-
-
-## MathLimit([MathFunction](../../mathfunction) baseArg, [MathBorderBox](../../mathborderbox) limit)  constructor
-
- Initializes a new instance of the MathLimit class with lower limit
- 
-
-
----
-
-
-## MathLimit([MathFunction](../../mathfunction) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) limit)  constructor
-
- Initializes a new instance of the MathLimit class with lower limit
- 
-
-
----
-
-
-## MathLimit([MathFunction](../../mathfunction) baseArg, [MathBar](../../mathbar) limit)  constructor
-
- Initializes a new instance of the MathLimit class with lower limit
- 
-
-
----
-
-
-## MathLimit([MathFunction](../../mathfunction) baseArg, [MathFunction](../../mathfunction) limit)  constructor
-
- Initializes a new instance of the MathLimit class with lower limit
- 
-
-
----
-
-
-## MathLimit([MathFunction](../../mathfunction) baseArg, [MathSuperscriptElement](../../mathsuperscriptelement) limit)  constructor
-
- Initializes a new instance of the MathLimit class with lower limit
- 
-
-
----
-
-
-## MathLimit([MathFunction](../../mathfunction) baseArg, [MathSubscriptElement](../../mathsubscriptelement) limit)  constructor
-
- Initializes a new instance of the MathLimit class with lower limit
- 
-
-
----
-
-
-## MathLimit([MathFunction](../../mathfunction) baseArg, [MathematicalText](../../mathematicaltext) limit)  constructor
-
- Initializes a new instance of the MathLimit class with lower limit
- 
-
-
----
-
-
-## MathLimit([MathFunction](../../mathfunction) baseArg, [MathFraction](../../mathfraction) limit)  constructor
-
- Initializes a new instance of the MathLimit class with lower limit
- 
-
-
----
-
-
-## MathLimit([MathFunction](../../mathfunction) baseArg, [MathBox](../../mathbox) limit)  constructor
-
- Initializes a new instance of the MathLimit class with lower limit
- 
-
-
----
-
-
-## MathLimit([MathFunction](../../mathfunction) baseArg, [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) limit)  constructor
-
- Initializes a new instance of the MathLimit class with lower limit
- 
-
-
----
-
-
 ## MathLimit([MathSuperscriptElement](../../mathsuperscriptelement) baseArg, [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) limit)  constructor
 
  Initializes a new instance of the MathLimit class with lower limit
@@ -5488,7 +5317,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathSuperscriptElement](../../mathsuperscriptelement) baseArg, [MathMatrix](../../mathmatrix) limit)  constructor
+## MathLimit([MathSuperscriptElement](../../mathsuperscriptelement) baseArg, [MathLimit](../../mathlimit) limit)  constructor
 
  Initializes a new instance of the MathLimit class with lower limit
  
@@ -5497,7 +5326,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathSuperscriptElement](../../mathsuperscriptelement) baseArg, [MathLimit](../../mathlimit) limit)  constructor
+## MathLimit([MathSuperscriptElement](../../mathsuperscriptelement) baseArg, [MathMatrix](../../mathmatrix) limit)  constructor
 
  Initializes a new instance of the MathLimit class with lower limit
  
@@ -5587,7 +5416,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathSuperscriptElement](../../mathsuperscriptelement) baseArg, [MathFunction](../../mathfunction) limit)  constructor
+## MathLimit([MathSuperscriptElement](../../mathsuperscriptelement) baseArg, [MathSuperscriptElement](../../mathsuperscriptelement) limit)  constructor
 
  Initializes a new instance of the MathLimit class with lower limit
  
@@ -5596,7 +5425,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathSuperscriptElement](../../mathsuperscriptelement) baseArg, [MathSuperscriptElement](../../mathsuperscriptelement) limit)  constructor
+## MathLimit([MathSuperscriptElement](../../mathsuperscriptelement) baseArg, [MathFunction](../../mathfunction) limit)  constructor
 
  Initializes a new instance of the MathLimit class with lower limit
  
@@ -5650,6 +5479,177 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
+## MathLimit([MathFunction](../../mathfunction) baseArg, [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) limit)  constructor
+
+ Initializes a new instance of the MathLimit class with lower limit
+ 
+
+
+---
+
+
+## MathLimit([MathFunction](../../mathfunction) baseArg, [MathLimit](../../mathlimit) limit)  constructor
+
+ Initializes a new instance of the MathLimit class with lower limit
+ 
+
+
+---
+
+
+## MathLimit([MathFunction](../../mathfunction) baseArg, [MathMatrix](../../mathmatrix) limit)  constructor
+
+ Initializes a new instance of the MathLimit class with lower limit
+ 
+
+
+---
+
+
+## MathLimit([MathFunction](../../mathfunction) baseArg, [MathBlock](../../mathblock) limit)  constructor
+
+ Initializes a new instance of the MathLimit class with lower limit
+ 
+
+
+---
+
+
+## MathLimit([MathFunction](../../mathfunction) baseArg, [MathRadical](../../mathradical) limit)  constructor
+
+ Initializes a new instance of the MathLimit class with lower limit
+ 
+
+
+---
+
+
+## MathLimit([MathFunction](../../mathfunction) baseArg, [MathArray](../../matharray) limit)  constructor
+
+ Initializes a new instance of the MathLimit class with lower limit
+ 
+
+
+---
+
+
+## MathLimit([MathFunction](../../mathfunction) baseArg, [MathDelimiter](../../mathdelimiter) limit)  constructor
+
+ Initializes a new instance of the MathLimit class with lower limit
+ 
+
+
+---
+
+
+## MathLimit([MathFunction](../../mathfunction) baseArg, [MathNaryOperator](../../mathnaryoperator) limit)  constructor
+
+ Initializes a new instance of the MathLimit class with lower limit
+ 
+
+
+---
+
+
+## MathLimit([MathFunction](../../mathfunction) baseArg, [MathAccent](../../mathaccent) limit)  constructor
+
+ Initializes a new instance of the MathLimit class with lower limit
+ 
+
+
+---
+
+
+## MathLimit([MathFunction](../../mathfunction) baseArg, [MathBorderBox](../../mathborderbox) limit)  constructor
+
+ Initializes a new instance of the MathLimit class with lower limit
+ 
+
+
+---
+
+
+## MathLimit([MathFunction](../../mathfunction) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) limit)  constructor
+
+ Initializes a new instance of the MathLimit class with lower limit
+ 
+
+
+---
+
+
+## MathLimit([MathFunction](../../mathfunction) baseArg, [MathBar](../../mathbar) limit)  constructor
+
+ Initializes a new instance of the MathLimit class with lower limit
+ 
+
+
+---
+
+
+## MathLimit([MathFunction](../../mathfunction) baseArg, [MathSuperscriptElement](../../mathsuperscriptelement) limit)  constructor
+
+ Initializes a new instance of the MathLimit class with lower limit
+ 
+
+
+---
+
+
+## MathLimit([MathFunction](../../mathfunction) baseArg, [MathFunction](../../mathfunction) limit)  constructor
+
+ Initializes a new instance of the MathLimit class with lower limit
+ 
+
+
+---
+
+
+## MathLimit([MathFunction](../../mathfunction) baseArg, [MathSubscriptElement](../../mathsubscriptelement) limit)  constructor
+
+ Initializes a new instance of the MathLimit class with lower limit
+ 
+
+
+---
+
+
+## MathLimit([MathFunction](../../mathfunction) baseArg, [MathematicalText](../../mathematicaltext) limit)  constructor
+
+ Initializes a new instance of the MathLimit class with lower limit
+ 
+
+
+---
+
+
+## MathLimit([MathFunction](../../mathfunction) baseArg, [MathFraction](../../mathfraction) limit)  constructor
+
+ Initializes a new instance of the MathLimit class with lower limit
+ 
+
+
+---
+
+
+## MathLimit([MathFunction](../../mathfunction) baseArg, [MathBox](../../mathbox) limit)  constructor
+
+ Initializes a new instance of the MathLimit class with lower limit
+ 
+
+
+---
+
+
+## MathLimit([MathFunction](../../mathfunction) baseArg, [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) limit)  constructor
+
+ Initializes a new instance of the MathLimit class with lower limit
+ 
+
+
+---
+
+
 ## MathLimit([MathSubscriptElement](../../mathsubscriptelement) baseArg, [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) limit)  constructor
 
  Initializes a new instance of the MathLimit class with lower limit
@@ -5659,7 +5659,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathSubscriptElement](../../mathsubscriptelement) baseArg, [MathMatrix](../../mathmatrix) limit)  constructor
+## MathLimit([MathSubscriptElement](../../mathsubscriptelement) baseArg, [MathLimit](../../mathlimit) limit)  constructor
 
  Initializes a new instance of the MathLimit class with lower limit
  
@@ -5668,7 +5668,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathSubscriptElement](../../mathsubscriptelement) baseArg, [MathLimit](../../mathlimit) limit)  constructor
+## MathLimit([MathSubscriptElement](../../mathsubscriptelement) baseArg, [MathMatrix](../../mathmatrix) limit)  constructor
 
  Initializes a new instance of the MathLimit class with lower limit
  
@@ -5758,7 +5758,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathSubscriptElement](../../mathsubscriptelement) baseArg, [MathFunction](../../mathfunction) limit)  constructor
+## MathLimit([MathSubscriptElement](../../mathsubscriptelement) baseArg, [MathSuperscriptElement](../../mathsuperscriptelement) limit)  constructor
 
  Initializes a new instance of the MathLimit class with lower limit
  
@@ -5767,7 +5767,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathSubscriptElement](../../mathsubscriptelement) baseArg, [MathSuperscriptElement](../../mathsuperscriptelement) limit)  constructor
+## MathLimit([MathSubscriptElement](../../mathsubscriptelement) baseArg, [MathFunction](../../mathfunction) limit)  constructor
 
  Initializes a new instance of the MathLimit class with lower limit
  
@@ -5830,7 +5830,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathematicalText](../../mathematicaltext) baseArg, [MathMatrix](../../mathmatrix) limit)  constructor
+## MathLimit([MathematicalText](../../mathematicaltext) baseArg, [MathLimit](../../mathlimit) limit)  constructor
 
  Initializes a new instance of the MathLimit class with lower limit
  
@@ -5839,7 +5839,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathematicalText](../../mathematicaltext) baseArg, [MathLimit](../../mathlimit) limit)  constructor
+## MathLimit([MathematicalText](../../mathematicaltext) baseArg, [MathMatrix](../../mathmatrix) limit)  constructor
 
  Initializes a new instance of the MathLimit class with lower limit
  
@@ -5929,7 +5929,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathematicalText](../../mathematicaltext) baseArg, [MathFunction](../../mathfunction) limit)  constructor
+## MathLimit([MathematicalText](../../mathematicaltext) baseArg, [MathSuperscriptElement](../../mathsuperscriptelement) limit)  constructor
 
  Initializes a new instance of the MathLimit class with lower limit
  
@@ -5938,7 +5938,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathematicalText](../../mathematicaltext) baseArg, [MathSuperscriptElement](../../mathsuperscriptelement) limit)  constructor
+## MathLimit([MathematicalText](../../mathematicaltext) baseArg, [MathFunction](../../mathfunction) limit)  constructor
 
  Initializes a new instance of the MathLimit class with lower limit
  
@@ -6001,7 +6001,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathFraction](../../mathfraction) baseArg, [MathMatrix](../../mathmatrix) limit)  constructor
+## MathLimit([MathFraction](../../mathfraction) baseArg, [MathLimit](../../mathlimit) limit)  constructor
 
  Initializes a new instance of the MathLimit class with lower limit
  
@@ -6010,7 +6010,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathFraction](../../mathfraction) baseArg, [MathLimit](../../mathlimit) limit)  constructor
+## MathLimit([MathFraction](../../mathfraction) baseArg, [MathMatrix](../../mathmatrix) limit)  constructor
 
  Initializes a new instance of the MathLimit class with lower limit
  
@@ -6100,7 +6100,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathFraction](../../mathfraction) baseArg, [MathFunction](../../mathfunction) limit)  constructor
+## MathLimit([MathFraction](../../mathfraction) baseArg, [MathSuperscriptElement](../../mathsuperscriptelement) limit)  constructor
 
  Initializes a new instance of the MathLimit class with lower limit
  
@@ -6109,7 +6109,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathFraction](../../mathfraction) baseArg, [MathSuperscriptElement](../../mathsuperscriptelement) limit)  constructor
+## MathLimit([MathFraction](../../mathfraction) baseArg, [MathFunction](../../mathfunction) limit)  constructor
 
  Initializes a new instance of the MathLimit class with lower limit
  
@@ -6172,7 +6172,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathBox](../../mathbox) baseArg, [MathMatrix](../../mathmatrix) limit)  constructor
+## MathLimit([MathBox](../../mathbox) baseArg, [MathLimit](../../mathlimit) limit)  constructor
 
  Initializes a new instance of the MathLimit class with lower limit
  
@@ -6181,7 +6181,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathBox](../../mathbox) baseArg, [MathLimit](../../mathlimit) limit)  constructor
+## MathLimit([MathBox](../../mathbox) baseArg, [MathMatrix](../../mathmatrix) limit)  constructor
 
  Initializes a new instance of the MathLimit class with lower limit
  
@@ -6271,7 +6271,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathBox](../../mathbox) baseArg, [MathFunction](../../mathfunction) limit)  constructor
+## MathLimit([MathBox](../../mathbox) baseArg, [MathSuperscriptElement](../../mathsuperscriptelement) limit)  constructor
 
  Initializes a new instance of the MathLimit class with lower limit
  
@@ -6280,7 +6280,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathBox](../../mathbox) baseArg, [MathSuperscriptElement](../../mathsuperscriptelement) limit)  constructor
+## MathLimit([MathBox](../../mathbox) baseArg, [MathFunction](../../mathfunction) limit)  constructor
 
  Initializes a new instance of the MathLimit class with lower limit
  
@@ -6343,7 +6343,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) baseArg, [MathMatrix](../../mathmatrix) limit)  constructor
+## MathLimit([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) baseArg, [MathLimit](../../mathlimit) limit)  constructor
 
  Initializes a new instance of the MathLimit class with lower limit
  
@@ -6352,7 +6352,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) baseArg, [MathLimit](../../mathlimit) limit)  constructor
+## MathLimit([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) baseArg, [MathMatrix](../../mathmatrix) limit)  constructor
 
  Initializes a new instance of the MathLimit class with lower limit
  
@@ -6442,7 +6442,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) baseArg, [MathFunction](../../mathfunction) limit)  constructor
+## MathLimit([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) baseArg, [MathSuperscriptElement](../../mathsuperscriptelement) limit)  constructor
 
  Initializes a new instance of the MathLimit class with lower limit
  
@@ -6451,7 +6451,7 @@ url: /php-java/aspose.slides/mathlimit/mathlimit/
 ---
 
 
-## MathLimit([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) baseArg, [MathSuperscriptElement](../../mathsuperscriptelement) limit)  constructor
+## MathLimit([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) baseArg, [MathFunction](../../mathfunction) limit)  constructor
 
  Initializes a new instance of the MathLimit class with lower limit
  

@@ -20,7 +20,7 @@ url: /php-java/aspose.slides/chartdatapoint/
 | [getActualWidth](getactualwidth)() | Specifies actual width of the chart element. Call method IChart.ValidateChartLayout() before to get actual values. Read float. |
 | [getActualX](getactualx)() | Specifies actual x location (left) of the chart element relative to the left top corner of the chart. Call method IChart.ValidateChartLayout() before to get actual values. Read float. |
 | [getActualY](getactualy)() | Specifies actual top of the chart element relative to the left top corner of the chart. Call method IChart.ValidateChartLayout() before to get actual values. Read float. |
-| [getAutomaticDataPointColor](getautomaticdatapointcolor)() | Returns an automatic color of data point based on series index, data point index, ParentSeriesGroup.IsColorVaried propery and chart style. This color is used by default if FillType equals NotDefined. |
+| [getAutomaticDataPointColor](getautomaticdatapointcolor)() | Returns an automatic color of data point based on series index, data point index, ParentSeriesGroup.IsColorVaried property and chart style. This color is used by default if FillType equals NotDefined. |
 | [getBubbleSize](getbubblesize)() | BubbleSize. Read-only IDoubleChartValue. |
 | [getColorValue](getcolorvalue)() | Returns the color value of chart data point. Used with Map charts. Read-only IDoubleChartValue. |
 | [getDataPointLevels](getdatapointlevels)() | Returns container of data point levels. Applied for Treeamp and Sunburst series. Data point levels indexing is zero-based. |

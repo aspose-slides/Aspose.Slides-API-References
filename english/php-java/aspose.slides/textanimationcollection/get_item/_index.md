@@ -55,24 +55,6 @@ url: /php-java/aspose.slides/textanimationcollection/get_item/
 ---
 
 
-## get_Item([Table](../../table) shape)  method
-
- Returns all elements 
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| shape | [Table](../../table) | IShape to remove. |
-
-### Returns
-[TextAnimation](../../textanimation)
-
-
----
-
-
 ## get_Item([SmartArtShape](../../smartartshape) shape)  method
 
  Returns all elements 
@@ -83,6 +65,24 @@ url: /php-java/aspose.slides/textanimationcollection/get_item/
 | Name | Type | Description |
 | --- | --- | --- |
 | shape | [SmartArtShape](../../smartartshape) | IShape to remove. |
+
+### Returns
+[TextAnimation](../../textanimation)
+
+
+---
+
+
+## get_Item([Table](../../table) shape)  method
+
+ Returns all elements 
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | [Table](../../table) | IShape to remove. |
 
 ### Returns
 [TextAnimation](../../textanimation)
@@ -271,24 +271,6 @@ url: /php-java/aspose.slides/textanimationcollection/get_item/
 ---
 
 
-## get_Item([PictureFrame](../../pictureframe) shape)  method
-
- Returns all elements 
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| shape | [PictureFrame](../../pictureframe) | IShape to remove. |
-
-### Returns
-[TextAnimation](../../textanimation)
-
-
----
-
-
 ## get_Item([SectionZoomFrame](../../sectionzoomframe) shape)  method
 
  Returns all elements 
@@ -307,7 +289,7 @@ url: /php-java/aspose.slides/textanimationcollection/get_item/
 ---
 
 
-## get_Item([Chart](../../chart) shape)  method
+## get_Item([PictureFrame](../../pictureframe) shape)  method
 
  Returns all elements 
  
@@ -316,7 +298,7 @@ url: /php-java/aspose.slides/textanimationcollection/get_item/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | [Chart](../../chart) | IShape to remove. |
+| shape | [PictureFrame](../../pictureframe) | IShape to remove. |
 
 ### Returns
 [TextAnimation](../../textanimation)
@@ -335,6 +317,24 @@ url: /php-java/aspose.slides/textanimationcollection/get_item/
 | Name | Type | Description |
 | --- | --- | --- |
 | shape | [AudioFrame](../../audioframe) | IShape to remove. |
+
+### Returns
+[TextAnimation](../../textanimation)
+
+
+---
+
+
+## get_Item([Chart](../../chart) shape)  method
+
+ Returns all elements 
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | [Chart](../../chart) | IShape to remove. |
 
 ### Returns
 [TextAnimation](../../textanimation)

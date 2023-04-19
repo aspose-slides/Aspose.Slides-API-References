@@ -25,24 +25,6 @@ boolean
 ---
 
 
-## remove([MathMatrix](../../mathmatrix) item)  method
-
- Removes the first occurrence of a specific object from the collection.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| item | [MathMatrix](../../mathmatrix) | The object to remove from the collection. |
-
-### Returns
-boolean
-
-
----
-
-
 ## remove([MathLimit](../../mathlimit) item)  method
 
  Removes the first occurrence of a specific object from the collection.
@@ -53,6 +35,24 @@ boolean
 | Name | Type | Description |
 | --- | --- | --- |
 | item | [MathLimit](../../mathlimit) | The object to remove from the collection. |
+
+### Returns
+boolean
+
+
+---
+
+
+## remove([MathMatrix](../../mathmatrix) item)  method
+
+ Removes the first occurrence of a specific object from the collection.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| item | [MathMatrix](../../mathmatrix) | The object to remove from the collection. |
 
 ### Returns
 boolean
@@ -223,24 +223,6 @@ boolean
 ---
 
 
-## remove([MathFunction](../../mathfunction) item)  method
-
- Removes the first occurrence of a specific object from the collection.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| item | [MathFunction](../../mathfunction) | The object to remove from the collection. |
-
-### Returns
-boolean
-
-
----
-
-
 ## remove([MathSuperscriptElement](../../mathsuperscriptelement) item)  method
 
  Removes the first occurrence of a specific object from the collection.
@@ -251,6 +233,24 @@ boolean
 | Name | Type | Description |
 | --- | --- | --- |
 | item | [MathSuperscriptElement](../../mathsuperscriptelement) | The object to remove from the collection. |
+
+### Returns
+boolean
+
+
+---
+
+
+## remove([MathFunction](../../mathfunction) item)  method
+
+ Removes the first occurrence of a specific object from the collection.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| item | [MathFunction](../../mathfunction) | The object to remove from the collection. |
 
 ### Returns
 boolean

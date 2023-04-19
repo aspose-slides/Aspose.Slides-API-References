@@ -25,24 +25,6 @@ int
 ---
 
 
-## indexOf([MathMatrix](../../mathmatrix) item)  method
-
- Determines the index of a specific math element in collection.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| item | [MathMatrix](../../mathmatrix) | The element to locate in the collection. |
-
-### Returns
-int
-
-
----
-
-
 ## indexOf([MathLimit](../../mathlimit) item)  method
 
  Determines the index of a specific math element in collection.
@@ -53,6 +35,24 @@ int
 | Name | Type | Description |
 | --- | --- | --- |
 | item | [MathLimit](../../mathlimit) | The element to locate in the collection. |
+
+### Returns
+int
+
+
+---
+
+
+## indexOf([MathMatrix](../../mathmatrix) item)  method
+
+ Determines the index of a specific math element in collection.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| item | [MathMatrix](../../mathmatrix) | The element to locate in the collection. |
 
 ### Returns
 int
@@ -223,24 +223,6 @@ int
 ---
 
 
-## indexOf([MathFunction](../../mathfunction) item)  method
-
- Determines the index of a specific math element in collection.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| item | [MathFunction](../../mathfunction) | The element to locate in the collection. |
-
-### Returns
-int
-
-
----
-
-
 ## indexOf([MathSuperscriptElement](../../mathsuperscriptelement) item)  method
 
  Determines the index of a specific math element in collection.
@@ -251,6 +233,24 @@ int
 | Name | Type | Description |
 | --- | --- | --- |
 | item | [MathSuperscriptElement](../../mathsuperscriptelement) | The element to locate in the collection. |
+
+### Returns
+int
+
+
+---
+
+
+## indexOf([MathFunction](../../mathfunction) item)  method
+
+ Determines the index of a specific math element in collection.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| item | [MathFunction](../../mathfunction) | The element to locate in the collection. |
 
 ### Returns
 int

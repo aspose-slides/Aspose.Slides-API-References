@@ -25,8 +25,8 @@ url: /php-java/aspose.slides/matharrayfactory/
 | Name | Description |
 | --- | --- |
 | [createMathArray](creatematharray)([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates a math array and places the specified element in it |
-| [createMathArray](creatematharray)([MathMatrix](../mathmatrix)) | Creates a math array and places the specified element in it |
 | [createMathArray](creatematharray)([MathLimit](../mathlimit)) | Creates a math array and places the specified element in it |
+| [createMathArray](creatematharray)([MathMatrix](../mathmatrix)) | Creates a math array and places the specified element in it |
 | [createMathArray](creatematharray)([MathBlock](../mathblock)) | Creates a math array and places the specified element in it |
 | [createMathArray](creatematharray)([MathRadical](../mathradical)) | Creates a math array and places the specified element in it |
 | [createMathArray](creatematharray)([MathArray](../matharray)) | Creates a math array and places the specified element in it |
@@ -36,8 +36,8 @@ url: /php-java/aspose.slides/matharrayfactory/
 | [createMathArray](creatematharray)([MathBorderBox](../mathborderbox)) | Creates a math array and places the specified element in it |
 | [createMathArray](creatematharray)([MathGroupingCharacter](../mathgroupingcharacter)) | Creates a math array and places the specified element in it |
 | [createMathArray](creatematharray)([MathBar](../mathbar)) | Creates a math array and places the specified element in it |
-| [createMathArray](creatematharray)([MathFunction](../mathfunction)) | Creates a math array and places the specified element in it |
 | [createMathArray](creatematharray)([MathSuperscriptElement](../mathsuperscriptelement)) | Creates a math array and places the specified element in it |
+| [createMathArray](creatematharray)([MathFunction](../mathfunction)) | Creates a math array and places the specified element in it |
 | [createMathArray](creatematharray)([MathSubscriptElement](../mathsubscriptelement)) | Creates a math array and places the specified element in it |
 | [createMathArray](creatematharray)([MathematicalText](../mathematicaltext)) | Creates a math array and places the specified element in it |
 | [createMathArray](creatematharray)([MathFraction](../mathfraction)) | Creates a math array and places the specified element in it |

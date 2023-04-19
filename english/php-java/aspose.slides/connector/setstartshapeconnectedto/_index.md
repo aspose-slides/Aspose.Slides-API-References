@@ -45,7 +45,7 @@ void
 ---
 
 
-## setStartShapeConnectedTo([Table](../../table) value)  method
+## setStartShapeConnectedTo([SmartArtShape](../../smartartshape) value)  method
 
  Returns or sets the shape to attach the beginning of the connector to.
  Read/write  IShape.
@@ -64,7 +64,7 @@ void
 ---
 
 
-## setStartShapeConnectedTo([SmartArtShape](../../smartartshape) value)  method
+## setStartShapeConnectedTo([Table](../../table) value)  method
 
  Returns or sets the shape to attach the beginning of the connector to.
  Read/write  IShape.
@@ -273,25 +273,6 @@ void
 ---
 
 
-## setStartShapeConnectedTo([PictureFrame](../../pictureframe) value)  method
-
- Returns or sets the shape to attach the beginning of the connector to.
- Read/write  IShape.
- 
-
-### Returns
-void
-
-### Exception
-
-| Exception | Condition |
-| --- | --- |
- | ArgumentException | Thrown when connected shape doesn't has any connection sites (IShape.ConnectionSiteCount equals zero) |
-
-
----
-
-
 ## setStartShapeConnectedTo([SectionZoomFrame](../../sectionzoomframe) value)  method
 
  Returns or sets the shape to attach the beginning of the connector to.
@@ -311,7 +292,7 @@ void
 ---
 
 
-## setStartShapeConnectedTo([Chart](../../chart) value)  method
+## setStartShapeConnectedTo([PictureFrame](../../pictureframe) value)  method
 
  Returns or sets the shape to attach the beginning of the connector to.
  Read/write  IShape.
@@ -331,6 +312,25 @@ void
 
 
 ## setStartShapeConnectedTo([AudioFrame](../../audioframe) value)  method
+
+ Returns or sets the shape to attach the beginning of the connector to.
+ Read/write  IShape.
+ 
+
+### Returns
+void
+
+### Exception
+
+| Exception | Condition |
+| --- | --- |
+ | ArgumentException | Thrown when connected shape doesn't has any connection sites (IShape.ConnectionSiteCount equals zero) |
+
+
+---
+
+
+## setStartShapeConnectedTo([Chart](../../chart) value)  method
 
  Returns or sets the shape to attach the beginning of the connector to.
  Read/write  IShape.

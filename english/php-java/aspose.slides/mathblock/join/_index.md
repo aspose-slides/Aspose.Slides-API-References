@@ -25,24 +25,6 @@ url: /php-java/aspose.slides/mathblock/join/
 ---
 
 
-## join([MathMatrix](../../mathmatrix) mathElement)  method
-
- Joins a mathematical element with this mathematical block
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| mathElement | [MathMatrix](../../mathmatrix) | The element to be joined |
-
-### Returns
-[MathBlock](../../mathblock)
-
-
----
-
-
 ## join([MathLimit](../../mathlimit) mathElement)  method
 
  Joins a mathematical element with this mathematical block
@@ -53,6 +35,24 @@ url: /php-java/aspose.slides/mathblock/join/
 | Name | Type | Description |
 | --- | --- | --- |
 | mathElement | [MathLimit](../../mathlimit) | The element to be joined |
+
+### Returns
+[MathBlock](../../mathblock)
+
+
+---
+
+
+## join([MathMatrix](../../mathmatrix) mathElement)  method
+
+ Joins a mathematical element with this mathematical block
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| mathElement | [MathMatrix](../../mathmatrix) | The element to be joined |
 
 ### Returns
 [MathBlock](../../mathblock)
@@ -223,24 +223,6 @@ url: /php-java/aspose.slides/mathblock/join/
 ---
 
 
-## join([MathFunction](../../mathfunction) mathElement)  method
-
- Joins a mathematical element with this mathematical block
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| mathElement | [MathFunction](../../mathfunction) | The element to be joined |
-
-### Returns
-[MathBlock](../../mathblock)
-
-
----
-
-
 ## join([MathSuperscriptElement](../../mathsuperscriptelement) mathElement)  method
 
  Joins a mathematical element with this mathematical block
@@ -251,6 +233,24 @@ url: /php-java/aspose.slides/mathblock/join/
 | Name | Type | Description |
 | --- | --- | --- |
 | mathElement | [MathSuperscriptElement](../../mathsuperscriptelement) | The element to be joined |
+
+### Returns
+[MathBlock](../../mathblock)
+
+
+---
+
+
+## join([MathFunction](../../mathfunction) mathElement)  method
+
+ Joins a mathematical element with this mathematical block
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| mathElement | [MathFunction](../../mathfunction) | The element to be joined |
 
 ### Returns
 [MathBlock](../../mathblock)

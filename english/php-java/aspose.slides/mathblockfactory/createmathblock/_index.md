@@ -37,24 +37,6 @@ url: /php-java/aspose.slides/mathblockfactory/createmathblock/
 ---
 
 
-## createMathBlock([MathMatrix](../../mathmatrix) mathElement)  method
-
- Create a math block and place the element in it
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| mathElement | [MathMatrix](../../mathmatrix) | A math element |
-
-### Returns
-[MathBlock](../../mathblock)
-
-
----
-
-
 ## createMathBlock([MathLimit](../../mathlimit) mathElement)  method
 
  Create a math block and place the element in it
@@ -65,6 +47,24 @@ url: /php-java/aspose.slides/mathblockfactory/createmathblock/
 | Name | Type | Description |
 | --- | --- | --- |
 | mathElement | [MathLimit](../../mathlimit) | A math element |
+
+### Returns
+[MathBlock](../../mathblock)
+
+
+---
+
+
+## createMathBlock([MathMatrix](../../mathmatrix) mathElement)  method
+
+ Create a math block and place the element in it
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| mathElement | [MathMatrix](../../mathmatrix) | A math element |
 
 ### Returns
 [MathBlock](../../mathblock)
@@ -235,24 +235,6 @@ url: /php-java/aspose.slides/mathblockfactory/createmathblock/
 ---
 
 
-## createMathBlock([MathFunction](../../mathfunction) mathElement)  method
-
- Create a math block and place the element in it
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| mathElement | [MathFunction](../../mathfunction) | A math element |
-
-### Returns
-[MathBlock](../../mathblock)
-
-
----
-
-
 ## createMathBlock([MathSuperscriptElement](../../mathsuperscriptelement) mathElement)  method
 
  Create a math block and place the element in it
@@ -263,6 +245,24 @@ url: /php-java/aspose.slides/mathblockfactory/createmathblock/
 | Name | Type | Description |
 | --- | --- | --- |
 | mathElement | [MathSuperscriptElement](../../mathsuperscriptelement) | A math element |
+
+### Returns
+[MathBlock](../../mathblock)
+
+
+---
+
+
+## createMathBlock([MathFunction](../../mathfunction) mathElement)  method
+
+ Create a math block and place the element in it
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| mathElement | [MathFunction](../../mathfunction) | A math element |
 
 ### Returns
 [MathBlock](../../mathblock)

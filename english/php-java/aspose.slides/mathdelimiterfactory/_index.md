@@ -25,8 +25,8 @@ url: /php-java/aspose.slides/mathdelimiterfactory/
 | Name | Description |
 | --- | --- |
 | [createMathDelimiter](createmathdelimiter)([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Create a math delimiter by applying to the element |
-| [createMathDelimiter](createmathdelimiter)([MathMatrix](../mathmatrix)) | Create a math delimiter by applying to the element |
 | [createMathDelimiter](createmathdelimiter)([MathLimit](../mathlimit)) | Create a math delimiter by applying to the element |
+| [createMathDelimiter](createmathdelimiter)([MathMatrix](../mathmatrix)) | Create a math delimiter by applying to the element |
 | [createMathDelimiter](createmathdelimiter)([MathBlock](../mathblock)) | Create a math delimiter by applying to the element |
 | [createMathDelimiter](createmathdelimiter)([MathRadical](../mathradical)) | Create a math delimiter by applying to the element |
 | [createMathDelimiter](createmathdelimiter)([MathArray](../matharray)) | Create a math delimiter by applying to the element |
@@ -36,8 +36,8 @@ url: /php-java/aspose.slides/mathdelimiterfactory/
 | [createMathDelimiter](createmathdelimiter)([MathBorderBox](../mathborderbox)) | Create a math delimiter by applying to the element |
 | [createMathDelimiter](createmathdelimiter)([MathGroupingCharacter](../mathgroupingcharacter)) | Create a math delimiter by applying to the element |
 | [createMathDelimiter](createmathdelimiter)([MathBar](../mathbar)) | Create a math delimiter by applying to the element |
-| [createMathDelimiter](createmathdelimiter)([MathFunction](../mathfunction)) | Create a math delimiter by applying to the element |
 | [createMathDelimiter](createmathdelimiter)([MathSuperscriptElement](../mathsuperscriptelement)) | Create a math delimiter by applying to the element |
+| [createMathDelimiter](createmathdelimiter)([MathFunction](../mathfunction)) | Create a math delimiter by applying to the element |
 | [createMathDelimiter](createmathdelimiter)([MathSubscriptElement](../mathsubscriptelement)) | Create a math delimiter by applying to the element |
 | [createMathDelimiter](createmathdelimiter)([MathematicalText](../mathematicaltext)) | Create a math delimiter by applying to the element |
 | [createMathDelimiter](createmathdelimiter)([MathFraction](../mathfraction)) | Create a math delimiter by applying to the element |

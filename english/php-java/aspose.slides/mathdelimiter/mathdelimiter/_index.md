@@ -28,7 +28,7 @@ url: /php-java/aspose.slides/mathdelimiter/mathdelimiter/
 ---
 
 
-## MathDelimiter([MathMatrix](../../mathmatrix) element)  constructor
+## MathDelimiter([MathLimit](../../mathlimit) element)  constructor
 
  Initializes MathDelimiter with the specified element as single base argument
  
@@ -37,7 +37,7 @@ url: /php-java/aspose.slides/mathdelimiter/mathdelimiter/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathMatrix](../../mathmatrix) | The base element to which the delimiter is applied. Can be null. |
+| element | [MathLimit](../../mathlimit) | The base element to which the delimiter is applied. Can be null. |
 
 ### Exception
 
@@ -49,7 +49,7 @@ url: /php-java/aspose.slides/mathdelimiter/mathdelimiter/
 ---
 
 
-## MathDelimiter([MathLimit](../../mathlimit) element)  constructor
+## MathDelimiter([MathMatrix](../../mathmatrix) element)  constructor
 
  Initializes MathDelimiter with the specified element as single base argument
  
@@ -58,7 +58,7 @@ url: /php-java/aspose.slides/mathdelimiter/mathdelimiter/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathLimit](../../mathlimit) | The base element to which the delimiter is applied. Can be null. |
+| element | [MathMatrix](../../mathmatrix) | The base element to which the delimiter is applied. Can be null. |
 
 ### Exception
 
@@ -259,7 +259,7 @@ url: /php-java/aspose.slides/mathdelimiter/mathdelimiter/
 ---
 
 
-## MathDelimiter([MathFunction](../../mathfunction) element)  constructor
+## MathDelimiter([MathSuperscriptElement](../../mathsuperscriptelement) element)  constructor
 
  Initializes MathDelimiter with the specified element as single base argument
  
@@ -268,7 +268,7 @@ url: /php-java/aspose.slides/mathdelimiter/mathdelimiter/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathFunction](../../mathfunction) | The base element to which the delimiter is applied. Can be null. |
+| element | [MathSuperscriptElement](../../mathsuperscriptelement) | The base element to which the delimiter is applied. Can be null. |
 
 ### Exception
 
@@ -280,7 +280,7 @@ url: /php-java/aspose.slides/mathdelimiter/mathdelimiter/
 ---
 
 
-## MathDelimiter([MathSuperscriptElement](../../mathsuperscriptelement) element)  constructor
+## MathDelimiter([MathFunction](../../mathfunction) element)  constructor
 
  Initializes MathDelimiter with the specified element as single base argument
  
@@ -289,7 +289,7 @@ url: /php-java/aspose.slides/mathdelimiter/mathdelimiter/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathSuperscriptElement](../../mathsuperscriptelement) | The base element to which the delimiter is applied. Can be null. |
+| element | [MathFunction](../../mathfunction) | The base element to which the delimiter is applied. Can be null. |
 
 ### Exception
 

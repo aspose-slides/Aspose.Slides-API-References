@@ -25,24 +25,6 @@ url: /php-java/aspose.slides/mathbarfactory/createmathbar/
 ---
 
 
-## createMathBar([MathMatrix](../../mathmatrix) element)  method
-
- Create a math bar by applying to the element
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathMatrix](../../mathmatrix) | math element to apply bar |
-
-### Returns
-[MathBar](../../mathbar)
-
-
----
-
-
 ## createMathBar([MathLimit](../../mathlimit) element)  method
 
  Create a math bar by applying to the element
@@ -53,6 +35,24 @@ url: /php-java/aspose.slides/mathbarfactory/createmathbar/
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathLimit](../../mathlimit) | math element to apply bar |
+
+### Returns
+[MathBar](../../mathbar)
+
+
+---
+
+
+## createMathBar([MathMatrix](../../mathmatrix) element)  method
+
+ Create a math bar by applying to the element
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathMatrix](../../mathmatrix) | math element to apply bar |
 
 ### Returns
 [MathBar](../../mathbar)
@@ -223,24 +223,6 @@ url: /php-java/aspose.slides/mathbarfactory/createmathbar/
 ---
 
 
-## createMathBar([MathFunction](../../mathfunction) element)  method
-
- Create a math bar by applying to the element
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathFunction](../../mathfunction) | math element to apply bar |
-
-### Returns
-[MathBar](../../mathbar)
-
-
----
-
-
 ## createMathBar([MathSuperscriptElement](../../mathsuperscriptelement) element)  method
 
  Create a math bar by applying to the element
@@ -251,6 +233,24 @@ url: /php-java/aspose.slides/mathbarfactory/createmathbar/
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathSuperscriptElement](../../mathsuperscriptelement) | math element to apply bar |
+
+### Returns
+[MathBar](../../mathbar)
+
+
+---
+
+
+## createMathBar([MathFunction](../../mathfunction) element)  method
+
+ Create a math bar by applying to the element
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathFunction](../../mathfunction) | math element to apply bar |
 
 ### Returns
 [MathBar](../../mathbar)
@@ -368,25 +368,6 @@ url: /php-java/aspose.slides/mathbarfactory/createmathbar/
 ---
 
 
-## createMathBar([MathMatrix](../../mathmatrix) element, int position)  method
-
- Create a math bar by applying to the element
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathMatrix](../mathmatrix) | Math element to apply bar |
-| position | int | Position of the bar |
-
-### Returns
-[MathBar](../../mathbar)
-
-
----
-
-
 ## createMathBar([MathLimit](../../mathlimit) element, int position)  method
 
  Create a math bar by applying to the element
@@ -397,6 +378,25 @@ url: /php-java/aspose.slides/mathbarfactory/createmathbar/
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathLimit](../mathlimit) | Math element to apply bar |
+| position | int | Position of the bar |
+
+### Returns
+[MathBar](../../mathbar)
+
+
+---
+
+
+## createMathBar([MathMatrix](../../mathmatrix) element, int position)  method
+
+ Create a math bar by applying to the element
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathMatrix](../mathmatrix) | Math element to apply bar |
 | position | int | Position of the bar |
 
 ### Returns
@@ -577,25 +577,6 @@ url: /php-java/aspose.slides/mathbarfactory/createmathbar/
 ---
 
 
-## createMathBar([MathFunction](../../mathfunction) element, int position)  method
-
- Create a math bar by applying to the element
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathFunction](../mathfunction) | Math element to apply bar |
-| position | int | Position of the bar |
-
-### Returns
-[MathBar](../../mathbar)
-
-
----
-
-
 ## createMathBar([MathSuperscriptElement](../../mathsuperscriptelement) element, int position)  method
 
  Create a math bar by applying to the element
@@ -606,6 +587,25 @@ url: /php-java/aspose.slides/mathbarfactory/createmathbar/
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathSuperscriptElement](../mathsuperscriptelement) | Math element to apply bar |
+| position | int | Position of the bar |
+
+### Returns
+[MathBar](../../mathbar)
+
+
+---
+
+
+## createMathBar([MathFunction](../../mathfunction) element, int position)  method
+
+ Create a math bar by applying to the element
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathFunction](../mathfunction) | Math element to apply bar |
 | position | int | Position of the bar |
 
 ### Returns

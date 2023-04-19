@@ -19,8 +19,8 @@ url: /php-java/aspose.slides/commentcollection/
 | [addComment](addcomment)(String, [Slide](../slide), Point2D.Float, Date) | Add new comment at the end of a collection. |
 | [addModernComment](addmoderncomment)(String, [Slide](../slide), [Connector](../connector), Point2D.Float, Date) | Add new modern comment at the end of a collection. |
 | [addModernComment](addmoderncomment)(String, [Slide](../slide), [GraphicalObject](../graphicalobject), Point2D.Float, Date) | Add new modern comment at the end of a collection. |
-| [addModernComment](addmoderncomment)(String, [Slide](../slide), [Table](../table), Point2D.Float, Date) | Add new modern comment at the end of a collection. |
 | [addModernComment](addmoderncomment)(String, [Slide](../slide), [SmartArtShape](../smartartshape), Point2D.Float, Date) | Add new modern comment at the end of a collection. |
+| [addModernComment](addmoderncomment)(String, [Slide](../slide), [Table](../table), Point2D.Float, Date) | Add new modern comment at the end of a collection. |
 | [addModernComment](addmoderncomment)(String, [Slide](../slide), [Shape](../shape), Point2D.Float, Date) | Add new modern comment at the end of a collection. |
 | [addModernComment](addmoderncomment)(String, [Slide](../slide), [Ink](../ink), Point2D.Float, Date) | Add new modern comment at the end of a collection. |
 | [addModernComment](addmoderncomment)(String, [Slide](../slide), [SummaryZoomFrame](../summaryzoomframe), Point2D.Float, Date) | Add new modern comment at the end of a collection. |
@@ -31,10 +31,10 @@ url: /php-java/aspose.slides/commentcollection/
 | [addModernComment](addmoderncomment)(String, [Slide](../slide), [SmartArt](../smartart), Point2D.Float, Date) | Add new modern comment at the end of a collection. |
 | [addModernComment](addmoderncomment)(String, [Slide](../slide), [GroupShape](../groupshape), Point2D.Float, Date) | Add new modern comment at the end of a collection. |
 | [addModernComment](addmoderncomment)(String, [Slide](../slide), [AutoShape](../autoshape), Point2D.Float, Date) | Add new modern comment at the end of a collection. |
-| [addModernComment](addmoderncomment)(String, [Slide](../slide), [PictureFrame](../pictureframe), Point2D.Float, Date) | Add new modern comment at the end of a collection. |
 | [addModernComment](addmoderncomment)(String, [Slide](../slide), [SectionZoomFrame](../sectionzoomframe), Point2D.Float, Date) | Add new modern comment at the end of a collection. |
-| [addModernComment](addmoderncomment)(String, [Slide](../slide), [Chart](../chart), Point2D.Float, Date) | Add new modern comment at the end of a collection. |
+| [addModernComment](addmoderncomment)(String, [Slide](../slide), [PictureFrame](../pictureframe), Point2D.Float, Date) | Add new modern comment at the end of a collection. |
 | [addModernComment](addmoderncomment)(String, [Slide](../slide), [AudioFrame](../audioframe), Point2D.Float, Date) | Add new modern comment at the end of a collection. |
+| [addModernComment](addmoderncomment)(String, [Slide](../slide), [Chart](../chart), Point2D.Float, Date) | Add new modern comment at the end of a collection. |
 | [addModernComment](addmoderncomment)(String, [Slide](../slide), [LegacyDiagram](../legacydiagram), Point2D.Float, Date) | Add new modern comment at the end of a collection. |
 | [addModernComment](addmoderncomment)(String, [Slide](../slide), [ZoomObject](../zoomobject), Point2D.Float, Date) | Add new modern comment at the end of a collection. |
 | [clear](clear)() | Removes all comments from a collection. |
@@ -44,8 +44,8 @@ url: /php-java/aspose.slides/commentcollection/
 | [insertComment](insertcomment)(int, String, [Slide](../slide), Point2D.Float, Date) | Insert new comment to a collection at the specified index. |
 | [insertModernComment](insertmoderncomment)(int, String, [Slide](../slide), [Connector](../connector), Point2D.Float, Date) | Insert new modern comment to a collection at the specified index. |
 | [insertModernComment](insertmoderncomment)(int, String, [Slide](../slide), [GraphicalObject](../graphicalobject), Point2D.Float, Date) | Insert new modern comment to a collection at the specified index. |
-| [insertModernComment](insertmoderncomment)(int, String, [Slide](../slide), [Table](../table), Point2D.Float, Date) | Insert new modern comment to a collection at the specified index. |
 | [insertModernComment](insertmoderncomment)(int, String, [Slide](../slide), [SmartArtShape](../smartartshape), Point2D.Float, Date) | Insert new modern comment to a collection at the specified index. |
+| [insertModernComment](insertmoderncomment)(int, String, [Slide](../slide), [Table](../table), Point2D.Float, Date) | Insert new modern comment to a collection at the specified index. |
 | [insertModernComment](insertmoderncomment)(int, String, [Slide](../slide), [Shape](../shape), Point2D.Float, Date) | Insert new modern comment to a collection at the specified index. |
 | [insertModernComment](insertmoderncomment)(int, String, [Slide](../slide), [Ink](../ink), Point2D.Float, Date) | Insert new modern comment to a collection at the specified index. |
 | [insertModernComment](insertmoderncomment)(int, String, [Slide](../slide), [SummaryZoomFrame](../summaryzoomframe), Point2D.Float, Date) | Insert new modern comment to a collection at the specified index. |
@@ -56,10 +56,10 @@ url: /php-java/aspose.slides/commentcollection/
 | [insertModernComment](insertmoderncomment)(int, String, [Slide](../slide), [SmartArt](../smartart), Point2D.Float, Date) | Insert new modern comment to a collection at the specified index. |
 | [insertModernComment](insertmoderncomment)(int, String, [Slide](../slide), [GroupShape](../groupshape), Point2D.Float, Date) | Insert new modern comment to a collection at the specified index. |
 | [insertModernComment](insertmoderncomment)(int, String, [Slide](../slide), [AutoShape](../autoshape), Point2D.Float, Date) | Insert new modern comment to a collection at the specified index. |
-| [insertModernComment](insertmoderncomment)(int, String, [Slide](../slide), [PictureFrame](../pictureframe), Point2D.Float, Date) | Insert new modern comment to a collection at the specified index. |
 | [insertModernComment](insertmoderncomment)(int, String, [Slide](../slide), [SectionZoomFrame](../sectionzoomframe), Point2D.Float, Date) | Insert new modern comment to a collection at the specified index. |
-| [insertModernComment](insertmoderncomment)(int, String, [Slide](../slide), [Chart](../chart), Point2D.Float, Date) | Insert new modern comment to a collection at the specified index. |
+| [insertModernComment](insertmoderncomment)(int, String, [Slide](../slide), [PictureFrame](../pictureframe), Point2D.Float, Date) | Insert new modern comment to a collection at the specified index. |
 | [insertModernComment](insertmoderncomment)(int, String, [Slide](../slide), [AudioFrame](../audioframe), Point2D.Float, Date) | Insert new modern comment to a collection at the specified index. |
+| [insertModernComment](insertmoderncomment)(int, String, [Slide](../slide), [Chart](../chart), Point2D.Float, Date) | Insert new modern comment to a collection at the specified index. |
 | [insertModernComment](insertmoderncomment)(int, String, [Slide](../slide), [LegacyDiagram](../legacydiagram), Point2D.Float, Date) | Insert new modern comment to a collection at the specified index. |
 | [insertModernComment](insertmoderncomment)(int, String, [Slide](../slide), [ZoomObject](../zoomobject), Point2D.Float, Date) | Insert new modern comment to a collection at the specified index. |
 | [isSynchronized](issynchronized)() | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |

@@ -35,7 +35,7 @@ void
 ---
 
 
-## setTriggerShape([Table](../../table) value)  method
+## setTriggerShape([SmartArtShape](../../smartartshape) value)  method
 
  Returns or sets shape target for INTERACTIVE sequence.
  If sequence is not interactive then returns null.
@@ -49,7 +49,7 @@ void
 ---
 
 
-## setTriggerShape([SmartArtShape](../../smartartshape) value)  method
+## setTriggerShape([Table](../../table) value)  method
 
  Returns or sets shape target for INTERACTIVE sequence.
  If sequence is not interactive then returns null.
@@ -203,20 +203,6 @@ void
 ---
 
 
-## setTriggerShape([PictureFrame](../../pictureframe) value)  method
-
- Returns or sets shape target for INTERACTIVE sequence.
- If sequence is not interactive then returns null.
- Read/write  IShape.
- 
-
-### Returns
-void
-
-
----
-
-
 ## setTriggerShape([SectionZoomFrame](../../sectionzoomframe) value)  method
 
  Returns or sets shape target for INTERACTIVE sequence.
@@ -231,7 +217,7 @@ void
 ---
 
 
-## setTriggerShape([Chart](../../chart) value)  method
+## setTriggerShape([PictureFrame](../../pictureframe) value)  method
 
  Returns or sets shape target for INTERACTIVE sequence.
  If sequence is not interactive then returns null.
@@ -246,6 +232,20 @@ void
 
 
 ## setTriggerShape([AudioFrame](../../audioframe) value)  method
+
+ Returns or sets shape target for INTERACTIVE sequence.
+ If sequence is not interactive then returns null.
+ Read/write  IShape.
+ 
+
+### Returns
+void
+
+
+---
+
+
+## setTriggerShape([Chart](../../chart) value)  method
 
  Returns or sets shape target for INTERACTIVE sequence.
  If sequence is not interactive then returns null.

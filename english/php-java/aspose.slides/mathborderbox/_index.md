@@ -17,8 +17,8 @@ url: /php-java/aspose.slides/mathborderbox/
 | Name | Description |
 | --- | --- |
 | [MathBorderBox](mathborderbox)([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates MathBorderBox element with rectangular border |
-| [MathBorderBox](mathborderbox)([MathMatrix](../mathmatrix)) | Creates MathBorderBox element with rectangular border |
 | [MathBorderBox](mathborderbox)([MathLimit](../mathlimit)) | Creates MathBorderBox element with rectangular border |
+| [MathBorderBox](mathborderbox)([MathMatrix](../mathmatrix)) | Creates MathBorderBox element with rectangular border |
 | [MathBorderBox](mathborderbox)([MathBlock](../mathblock)) | Creates MathBorderBox element with rectangular border |
 | [MathBorderBox](mathborderbox)([MathRadical](../mathradical)) | Creates MathBorderBox element with rectangular border |
 | [MathBorderBox](mathborderbox)([MathArray](../matharray)) | Creates MathBorderBox element with rectangular border |
@@ -28,16 +28,16 @@ url: /php-java/aspose.slides/mathborderbox/
 | [MathBorderBox](mathborderbox)([MathBorderBox](../mathborderbox)) | Creates MathBorderBox element with rectangular border |
 | [MathBorderBox](mathborderbox)([MathGroupingCharacter](../mathgroupingcharacter)) | Creates MathBorderBox element with rectangular border |
 | [MathBorderBox](mathborderbox)([MathBar](../mathbar)) | Creates MathBorderBox element with rectangular border |
-| [MathBorderBox](mathborderbox)([MathFunction](../mathfunction)) | Creates MathBorderBox element with rectangular border |
 | [MathBorderBox](mathborderbox)([MathSuperscriptElement](../mathsuperscriptelement)) | Creates MathBorderBox element with rectangular border |
+| [MathBorderBox](mathborderbox)([MathFunction](../mathfunction)) | Creates MathBorderBox element with rectangular border |
 | [MathBorderBox](mathborderbox)([MathSubscriptElement](../mathsubscriptelement)) | Creates MathBorderBox element with rectangular border |
 | [MathBorderBox](mathborderbox)([MathematicalText](../mathematicaltext)) | Creates MathBorderBox element with rectangular border |
 | [MathBorderBox](mathborderbox)([MathFraction](../mathfraction)) | Creates MathBorderBox element with rectangular border |
 | [MathBorderBox](mathborderbox)([MathBox](../mathbox)) | Creates MathBorderBox element with rectangular border |
 | [MathBorderBox](mathborderbox)([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates MathBorderBox element with rectangular border |
 | [MathBorderBox](mathborderbox)([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean) | Creates MathBorderBox element |
-| [MathBorderBox](mathborderbox)([MathMatrix](../mathmatrix), boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean) | Creates MathBorderBox element |
 | [MathBorderBox](mathborderbox)([MathLimit](../mathlimit), boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean) | Creates MathBorderBox element |
+| [MathBorderBox](mathborderbox)([MathMatrix](../mathmatrix), boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean) | Creates MathBorderBox element |
 | [MathBorderBox](mathborderbox)([MathBlock](../mathblock), boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean) | Creates MathBorderBox element |
 | [MathBorderBox](mathborderbox)([MathRadical](../mathradical), boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean) | Creates MathBorderBox element |
 | [MathBorderBox](mathborderbox)([MathArray](../matharray), boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean) | Creates MathBorderBox element |
@@ -47,8 +47,8 @@ url: /php-java/aspose.slides/mathborderbox/
 | [MathBorderBox](mathborderbox)([MathBorderBox](../mathborderbox), boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean) | Creates MathBorderBox element |
 | [MathBorderBox](mathborderbox)([MathGroupingCharacter](../mathgroupingcharacter), boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean) | Creates MathBorderBox element |
 | [MathBorderBox](mathborderbox)([MathBar](../mathbar), boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean) | Creates MathBorderBox element |
-| [MathBorderBox](mathborderbox)([MathFunction](../mathfunction), boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean) | Creates MathBorderBox element |
 | [MathBorderBox](mathborderbox)([MathSuperscriptElement](../mathsuperscriptelement), boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean) | Creates MathBorderBox element |
+| [MathBorderBox](mathborderbox)([MathFunction](../mathfunction), boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean) | Creates MathBorderBox element |
 | [MathBorderBox](mathborderbox)([MathSubscriptElement](../mathsubscriptelement), boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean) | Creates MathBorderBox element |
 | [MathBorderBox](mathborderbox)([MathematicalText](../mathematicaltext), boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean) | Creates MathBorderBox element |
 | [MathBorderBox](mathborderbox)([MathFraction](../mathfraction), boolean, boolean, boolean, boolean, boolean, boolean, boolean, boolean) | Creates MathBorderBox element |

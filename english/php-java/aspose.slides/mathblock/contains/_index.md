@@ -25,24 +25,6 @@ boolean
 ---
 
 
-## contains([MathMatrix](../../mathmatrix) item)  method
-
- Determines whether the collection contains a specific value.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| item | [MathMatrix](../../mathmatrix) | The object to locate in the collection. |
-
-### Returns
-boolean
-
-
----
-
-
 ## contains([MathLimit](../../mathlimit) item)  method
 
  Determines whether the collection contains a specific value.
@@ -53,6 +35,24 @@ boolean
 | Name | Type | Description |
 | --- | --- | --- |
 | item | [MathLimit](../../mathlimit) | The object to locate in the collection. |
+
+### Returns
+boolean
+
+
+---
+
+
+## contains([MathMatrix](../../mathmatrix) item)  method
+
+ Determines whether the collection contains a specific value.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| item | [MathMatrix](../../mathmatrix) | The object to locate in the collection. |
 
 ### Returns
 boolean
@@ -223,24 +223,6 @@ boolean
 ---
 
 
-## contains([MathFunction](../../mathfunction) item)  method
-
- Determines whether the collection contains a specific value.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| item | [MathFunction](../../mathfunction) | The object to locate in the collection. |
-
-### Returns
-boolean
-
-
----
-
-
 ## contains([MathSuperscriptElement](../../mathsuperscriptelement) item)  method
 
  Determines whether the collection contains a specific value.
@@ -251,6 +233,24 @@ boolean
 | Name | Type | Description |
 | --- | --- | --- |
 | item | [MathSuperscriptElement](../../mathsuperscriptelement) | The object to locate in the collection. |
+
+### Returns
+boolean
+
+
+---
+
+
+## contains([MathFunction](../../mathfunction) item)  method
+
+ Determines whether the collection contains a specific value.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| item | [MathFunction](../../mathfunction) | The object to locate in the collection. |
 
 ### Returns
 boolean

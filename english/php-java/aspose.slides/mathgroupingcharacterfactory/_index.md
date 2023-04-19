@@ -25,8 +25,8 @@ url: /php-java/aspose.slides/mathgroupingcharacterfactory/
 | Name | Description |
 | --- | --- |
 | [createMathGroupingCharacter](createmathgroupingcharacter)([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), char, int, int) | Creates a math grouping character |
-| [createMathGroupingCharacter](createmathgroupingcharacter)([MathMatrix](../mathmatrix), char, int, int) | Creates a math grouping character |
 | [createMathGroupingCharacter](createmathgroupingcharacter)([MathLimit](../mathlimit), char, int, int) | Creates a math grouping character |
+| [createMathGroupingCharacter](createmathgroupingcharacter)([MathMatrix](../mathmatrix), char, int, int) | Creates a math grouping character |
 | [createMathGroupingCharacter](createmathgroupingcharacter)([MathBlock](../mathblock), char, int, int) | Creates a math grouping character |
 | [createMathGroupingCharacter](createmathgroupingcharacter)([MathRadical](../mathradical), char, int, int) | Creates a math grouping character |
 | [createMathGroupingCharacter](createmathgroupingcharacter)([MathArray](../matharray), char, int, int) | Creates a math grouping character |
@@ -36,16 +36,16 @@ url: /php-java/aspose.slides/mathgroupingcharacterfactory/
 | [createMathGroupingCharacter](createmathgroupingcharacter)([MathBorderBox](../mathborderbox), char, int, int) | Creates a math grouping character |
 | [createMathGroupingCharacter](createmathgroupingcharacter)([MathGroupingCharacter](../mathgroupingcharacter), char, int, int) | Creates a math grouping character |
 | [createMathGroupingCharacter](createmathgroupingcharacter)([MathBar](../mathbar), char, int, int) | Creates a math grouping character |
-| [createMathGroupingCharacter](createmathgroupingcharacter)([MathFunction](../mathfunction), char, int, int) | Creates a math grouping character |
 | [createMathGroupingCharacter](createmathgroupingcharacter)([MathSuperscriptElement](../mathsuperscriptelement), char, int, int) | Creates a math grouping character |
+| [createMathGroupingCharacter](createmathgroupingcharacter)([MathFunction](../mathfunction), char, int, int) | Creates a math grouping character |
 | [createMathGroupingCharacter](createmathgroupingcharacter)([MathSubscriptElement](../mathsubscriptelement), char, int, int) | Creates a math grouping character |
 | [createMathGroupingCharacter](createmathgroupingcharacter)([MathematicalText](../mathematicaltext), char, int, int) | Creates a math grouping character |
 | [createMathGroupingCharacter](createmathgroupingcharacter)([MathFraction](../mathfraction), char, int, int) | Creates a math grouping character |
 | [createMathGroupingCharacter](createmathgroupingcharacter)([MathBox](../mathbox), char, int, int) | Creates a math grouping character |
 | [createMathGroupingCharacter](createmathgroupingcharacter)([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), char, int, int) | Creates a math grouping character |
 | [createMathGroupingCharacter](createmathgroupingcharacter)([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates a math grouping character |
-| [createMathGroupingCharacter](createmathgroupingcharacter)([MathMatrix](../mathmatrix)) | Creates a math grouping character |
 | [createMathGroupingCharacter](createmathgroupingcharacter)([MathLimit](../mathlimit)) | Creates a math grouping character |
+| [createMathGroupingCharacter](createmathgroupingcharacter)([MathMatrix](../mathmatrix)) | Creates a math grouping character |
 | [createMathGroupingCharacter](createmathgroupingcharacter)([MathBlock](../mathblock)) | Creates a math grouping character |
 | [createMathGroupingCharacter](createmathgroupingcharacter)([MathRadical](../mathradical)) | Creates a math grouping character |
 | [createMathGroupingCharacter](createmathgroupingcharacter)([MathArray](../matharray)) | Creates a math grouping character |
@@ -55,8 +55,8 @@ url: /php-java/aspose.slides/mathgroupingcharacterfactory/
 | [createMathGroupingCharacter](createmathgroupingcharacter)([MathBorderBox](../mathborderbox)) | Creates a math grouping character |
 | [createMathGroupingCharacter](createmathgroupingcharacter)([MathGroupingCharacter](../mathgroupingcharacter)) | Creates a math grouping character |
 | [createMathGroupingCharacter](createmathgroupingcharacter)([MathBar](../mathbar)) | Creates a math grouping character |
-| [createMathGroupingCharacter](createmathgroupingcharacter)([MathFunction](../mathfunction)) | Creates a math grouping character |
 | [createMathGroupingCharacter](createmathgroupingcharacter)([MathSuperscriptElement](../mathsuperscriptelement)) | Creates a math grouping character |
+| [createMathGroupingCharacter](createmathgroupingcharacter)([MathFunction](../mathfunction)) | Creates a math grouping character |
 | [createMathGroupingCharacter](createmathgroupingcharacter)([MathSubscriptElement](../mathsubscriptelement)) | Creates a math grouping character |
 | [createMathGroupingCharacter](createmathgroupingcharacter)([MathematicalText](../mathematicaltext)) | Creates a math grouping character |
 | [createMathGroupingCharacter](createmathgroupingcharacter)([MathFraction](../mathfraction)) | Creates a math grouping character |

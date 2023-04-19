@@ -25,24 +25,6 @@ url: /php-java/aspose.slides/mathborderboxfactory/createmathborderbox/
 ---
 
 
-## createMathBorderBox([MathMatrix](../../mathmatrix) element)  method
-
- Create a math border box by applying to the element
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathMatrix](../../mathmatrix) | math element to apply border box |
-
-### Returns
-[MathBorderBox](../../mathborderbox)
-
-
----
-
-
 ## createMathBorderBox([MathLimit](../../mathlimit) element)  method
 
  Create a math border box by applying to the element
@@ -53,6 +35,24 @@ url: /php-java/aspose.slides/mathborderboxfactory/createmathborderbox/
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathLimit](../../mathlimit) | math element to apply border box |
+
+### Returns
+[MathBorderBox](../../mathborderbox)
+
+
+---
+
+
+## createMathBorderBox([MathMatrix](../../mathmatrix) element)  method
+
+ Create a math border box by applying to the element
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathMatrix](../../mathmatrix) | math element to apply border box |
 
 ### Returns
 [MathBorderBox](../../mathborderbox)
@@ -223,24 +223,6 @@ url: /php-java/aspose.slides/mathborderboxfactory/createmathborderbox/
 ---
 
 
-## createMathBorderBox([MathFunction](../../mathfunction) element)  method
-
- Create a math border box by applying to the element
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathFunction](../../mathfunction) | math element to apply border box |
-
-### Returns
-[MathBorderBox](../../mathborderbox)
-
-
----
-
-
 ## createMathBorderBox([MathSuperscriptElement](../../mathsuperscriptelement) element)  method
 
  Create a math border box by applying to the element
@@ -251,6 +233,24 @@ url: /php-java/aspose.slides/mathborderboxfactory/createmathborderbox/
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathSuperscriptElement](../../mathsuperscriptelement) | math element to apply border box |
+
+### Returns
+[MathBorderBox](../../mathborderbox)
+
+
+---
+
+
+## createMathBorderBox([MathFunction](../../mathfunction) element)  method
+
+ Create a math border box by applying to the element
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathFunction](../../mathfunction) | math element to apply border box |
 
 ### Returns
 [MathBorderBox](../../mathborderbox)
@@ -375,7 +375,7 @@ url: /php-java/aspose.slides/mathborderboxfactory/createmathborderbox/
 ---
 
 
-## createMathBorderBox([MathMatrix](../../mathmatrix) element, boolean hideTop, boolean hideBottom, boolean hideLeft, boolean hideRight, boolean strikethroughHorizontal, boolean strikethroughVertical, boolean strikethroughBottomLeftToTopRight, boolean strikethroughTopLeftToBottomRight)  method
+## createMathBorderBox([MathLimit](../../mathlimit) element, boolean hideTop, boolean hideBottom, boolean hideLeft, boolean hideRight, boolean strikethroughHorizontal, boolean strikethroughVertical, boolean strikethroughBottomLeftToTopRight, boolean strikethroughTopLeftToBottomRight)  method
 
  Create a math border box by applying to the element
  
@@ -384,7 +384,7 @@ url: /php-java/aspose.slides/mathborderboxfactory/createmathborderbox/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathMatrix](../mathmatrix) | math element to apply border box |
+| element | [MathLimit](../mathlimit) | math element to apply border box |
 | hideTop | boolean | Hide Top Edge |
 | hideBottom | boolean | Hide Bottom Edge |
 | hideLeft | boolean | Hide Left Edge |
@@ -401,7 +401,7 @@ url: /php-java/aspose.slides/mathborderboxfactory/createmathborderbox/
 ---
 
 
-## createMathBorderBox([MathLimit](../../mathlimit) element, boolean hideTop, boolean hideBottom, boolean hideLeft, boolean hideRight, boolean strikethroughHorizontal, boolean strikethroughVertical, boolean strikethroughBottomLeftToTopRight, boolean strikethroughTopLeftToBottomRight)  method
+## createMathBorderBox([MathMatrix](../../mathmatrix) element, boolean hideTop, boolean hideBottom, boolean hideLeft, boolean hideRight, boolean strikethroughHorizontal, boolean strikethroughVertical, boolean strikethroughBottomLeftToTopRight, boolean strikethroughTopLeftToBottomRight)  method
 
  Create a math border box by applying to the element
  
@@ -410,7 +410,7 @@ url: /php-java/aspose.slides/mathborderboxfactory/createmathborderbox/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathLimit](../mathlimit) | math element to apply border box |
+| element | [MathMatrix](../mathmatrix) | math element to apply border box |
 | hideTop | boolean | Hide Top Edge |
 | hideBottom | boolean | Hide Bottom Edge |
 | hideLeft | boolean | Hide Left Edge |
@@ -661,7 +661,7 @@ url: /php-java/aspose.slides/mathborderboxfactory/createmathborderbox/
 ---
 
 
-## createMathBorderBox([MathFunction](../../mathfunction) element, boolean hideTop, boolean hideBottom, boolean hideLeft, boolean hideRight, boolean strikethroughHorizontal, boolean strikethroughVertical, boolean strikethroughBottomLeftToTopRight, boolean strikethroughTopLeftToBottomRight)  method
+## createMathBorderBox([MathSuperscriptElement](../../mathsuperscriptelement) element, boolean hideTop, boolean hideBottom, boolean hideLeft, boolean hideRight, boolean strikethroughHorizontal, boolean strikethroughVertical, boolean strikethroughBottomLeftToTopRight, boolean strikethroughTopLeftToBottomRight)  method
 
  Create a math border box by applying to the element
  
@@ -670,7 +670,7 @@ url: /php-java/aspose.slides/mathborderboxfactory/createmathborderbox/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathFunction](../mathfunction) | math element to apply border box |
+| element | [MathSuperscriptElement](../mathsuperscriptelement) | math element to apply border box |
 | hideTop | boolean | Hide Top Edge |
 | hideBottom | boolean | Hide Bottom Edge |
 | hideLeft | boolean | Hide Left Edge |
@@ -687,7 +687,7 @@ url: /php-java/aspose.slides/mathborderboxfactory/createmathborderbox/
 ---
 
 
-## createMathBorderBox([MathSuperscriptElement](../../mathsuperscriptelement) element, boolean hideTop, boolean hideBottom, boolean hideLeft, boolean hideRight, boolean strikethroughHorizontal, boolean strikethroughVertical, boolean strikethroughBottomLeftToTopRight, boolean strikethroughTopLeftToBottomRight)  method
+## createMathBorderBox([MathFunction](../../mathfunction) element, boolean hideTop, boolean hideBottom, boolean hideLeft, boolean hideRight, boolean strikethroughHorizontal, boolean strikethroughVertical, boolean strikethroughBottomLeftToTopRight, boolean strikethroughTopLeftToBottomRight)  method
 
  Create a math border box by applying to the element
  
@@ -696,7 +696,7 @@ url: /php-java/aspose.slides/mathborderboxfactory/createmathborderbox/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathSuperscriptElement](../mathsuperscriptelement) | math element to apply border box |
+| element | [MathFunction](../mathfunction) | math element to apply border box |
 | hideTop | boolean | Hide Top Edge |
 | hideBottom | boolean | Hide Bottom Edge |
 | hideLeft | boolean | Hide Left Edge |

@@ -10,7 +10,7 @@ url: /php-java/aspose.slides/timing/getrewind/
 ## getRewind()  method
 
   This attribute specifies if the effect will rewind when done playing.
-  Read/write boolean.
+  Read/write  boolean.
   
 
 ### Returns

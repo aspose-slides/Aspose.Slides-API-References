@@ -231,7 +231,7 @@ Add SmartArt diagram.
 --------------------
 
 > ```
-> Example:
+> The following example shows how to add smart shape in PowerPoint Presentation.
 >  
 >  Presentation pres = new Presentation();
 >  try {
@@ -767,8 +767,8 @@ Creates a new OLE object and inserts it to a collection at the specified index.
 > This example demonstrates inserting an OLE object at the second index:
 >  
 >  byte[] fileData = ... // "test.zip"
->  IOleEmbeddedDataInfo dataInfo = new OleEmbeddedDataInfo(fileData, "zip");
->  IOleObjectFrame oleObjectFrame = slides.getShapes().addOleObjectFrame(2, 150, 20, 50, dataInfo);
+>  IOleDataInfo dataInfo = new OleDataInfo(fileData, "zip");
+>  IOleObjectFrame oleObjectFrame = slides.getShapes().addOleObjectFrame(2, 150, 20, 50, 50, dataInfo);
 > ```
 
 **Parameters:**

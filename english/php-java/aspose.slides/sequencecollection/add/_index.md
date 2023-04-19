@@ -33,7 +33,7 @@ url: /php-java/aspose.slides/sequencecollection/add/
 ---
 
 
-## add([Table](../../table) shapeTrigger)  method
+## add([SmartArtShape](../../smartartshape) shapeTrigger)  method
 
  Add new interactive sequence.
  Read/write  Sequence.
@@ -46,7 +46,7 @@ url: /php-java/aspose.slides/sequencecollection/add/
 ---
 
 
-## add([SmartArtShape](../../smartartshape) shapeTrigger)  method
+## add([Table](../../table) shapeTrigger)  method
 
  Add new interactive sequence.
  Read/write  Sequence.
@@ -189,19 +189,6 @@ url: /php-java/aspose.slides/sequencecollection/add/
 ---
 
 
-## add([PictureFrame](../../pictureframe) shapeTrigger)  method
-
- Add new interactive sequence.
- Read/write  Sequence.
- 
-
-### Returns
-[Sequence](../../sequence)
-
-
----
-
-
 ## add([SectionZoomFrame](../../sectionzoomframe) shapeTrigger)  method
 
  Add new interactive sequence.
@@ -215,7 +202,7 @@ url: /php-java/aspose.slides/sequencecollection/add/
 ---
 
 
-## add([Chart](../../chart) shapeTrigger)  method
+## add([PictureFrame](../../pictureframe) shapeTrigger)  method
 
  Add new interactive sequence.
  Read/write  Sequence.
@@ -229,6 +216,19 @@ url: /php-java/aspose.slides/sequencecollection/add/
 
 
 ## add([AudioFrame](../../audioframe) shapeTrigger)  method
+
+ Add new interactive sequence.
+ Read/write  Sequence.
+ 
+
+### Returns
+[Sequence](../../sequence)
+
+
+---
+
+
+## add([Chart](../../chart) shapeTrigger)  method
 
  Add new interactive sequence.
  Read/write  Sequence.
